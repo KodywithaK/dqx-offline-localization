@@ -34,8 +34,8 @@
     - 
 
 ## Glossary
-- ***`.ucas`*** is a Content Addressable Store, it holds all of your cooked assets.
-- ***`.utoc`*** is a Table Of Contents that is used by the engine to quickly find an asset in the .ucas file.
+- ***`.ucas`*** is a Content Addressable Store, used by [Zen Loader](https://docs.unrealengine.com/5.2/en-US/zen-loader-in-unreal-engine/) to contain all the assets.
+- ***`.utoc`*** is a Table Of Contents, used by [Zen Loader](https://docs.unrealengine.com/5.2/en-US/zen-loader-in-unreal-engine/) to describe the ***.ucas*** file, including chunk size and offset, compression format, and whether the chunks are encrypted.
 - ***`.ufont`*** is a ***.ttf*** font file
 - ***`global`*** file is an offline computed dependency graph for your assets.
 - ***`.pak`*** When using this setup the file will store loose files such as fonts.
