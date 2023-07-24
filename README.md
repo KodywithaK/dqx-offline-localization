@@ -36,6 +36,7 @@
 ## Glossary
 - ***`.ucas`*** is a Content Addressable Store, it holds all of your cooked assets.
 - ***`.utoc`*** is a Table Of Contents that is used by the engine to quickly find an asset in the .ucas file.
+- ***`.ufont`*** is a ***.ttf*** font file
 - ***`global`*** file is an offline computed dependency graph for your assets.
 - ***`.pak`*** When using this setup the file will store loose files such as fonts.
 - The upside to using the io store is a noticeable improvement to loading times.
