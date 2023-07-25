@@ -7,6 +7,7 @@
 
 - [Unreal Engine](https://www.unrealengine.com/en-US/download) (v5.1 used in tutorial)
 - [FModel (Unreal Engine Archives Explorer/Exporter)](https://github.com/4sval/FModel)
+- Dragon Quest X Offline's AES Key
 - ***Unreal Mappings Archive*** to use as FModel's [Local Mapping File](https://github.com/OutTheShade/Unreal-Mappings-Archive/blob/main/Dragon%20Quest%20X%20Offline/Demo/Mappings.usmap)
 
 # Tutorial - pakchunk0-Switch.pak - ETP
@@ -90,6 +91,20 @@ Copy the newly created `pakchunk0-Switch_P_<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>.pa
 *****
 <br><br><br><br><br><br><br><br><br><br>
 # pakchunk0-Switch.utoc - StringTables
+### FModel
+- **`Settings`** > **`General`**
+  - **`Output Directory`**<br>
+    - Location where you want `Export Folder's Packages Raw Data (.uasset)` to go; explained further ahead.
+  - **`Game's Archive Directory`**<br>
+    - Location where your `romfs` folder is.
+  - `Local Mapping File`: **Enabled**
+  - `Mapping File Path`:
+    - Location where your Unreal Mappings Archive (`Mappings.usmap`) is.
+- **`Archives`** tab
+  - Double-click `pakchunk0-Switch.pak` to open it
+- **`Folders`** tab
+  - Right-click `Holiday` and choose `Export Folder's Packages Raw Data (.uasset)`.<br><br>After some time, the files will be exported to "`<Output_Directory>\Exports`".
+*****
 ### Powershell (run as admin)
   - "<span style="color: yellow">Set-ExecutionPolicy</span>` RemoteSigned`"
       - to allow `dump_tables.ps1` to work properly.
