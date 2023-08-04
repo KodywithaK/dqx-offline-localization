@@ -1,0 +1,92 @@
+{
+  "198928": {
+    "<if_woman>Hey, hey! You're an adventurer, right?\n Do you know about Inspector Pakul\nfrom Pukulipo?<yesno><break><else>Hey, hey! You're an adventurer, right?\n Do you know about Inspector Pakul\nfrom Pukulipo?<yesno><break><endif>": ""
+  },
+  "198929": {
+    "I see. You don't know, do you?  Well,\nthen, I don't think I can ask you to\ndo me a favor.": ""
+  },
+  "198930": {
+    "<attr><feel_happy_lv1><end_attr>Amazing. You know them, don't you?\n Maybe you've even met him?<yesno><break>": ""
+  },
+  "198931": {
+    "I guess we have never met.  Then, I\nwonder if you would be willing to do\nme a favor.": ""
+  },
+  "198932": {
+    "<attr><feel_happy_lv2><end_attr>I did it! I finally found someone who\nhas met the longed-for Inspector\nPakul!<bw_break>": ""
+  },
+  "198933": {
+    "<if_woman><attr><feel_happy_lv2><end_attr>Inspector Pakul is a great guy!  It's\nrumored that he solves difficult cases\nand catches bad criminals in various\n<br>\ntowns! I came here to become his\napprentice, but I can't find him no\nmatter how long I wait.  Maybe he's\n<br>\nsomewhere else. So, I have a favor to\nask you.  I'd like you to give\nInspector Pakul the letter I wrote,\n<br>\nasking him to take me on as an\napprentice!<else><attr><feel_happy_lv2><end_attr>Inspector Pakul is a great guy!  It's\nrumored that he solves difficult cases\nand catches bad criminals in various\n<br>\ntowns! I came here to become his\napprentice, but I can't find him no\nmatter how long I wait.  Maybe he's\n<br>\nsomewhere else. So, I have a favor to\nask my brother.  I want you to give\nInspector Pakul the letter I wrote to\n<br>\nhim, asking for an apprenticeship!<endif>": ""
+  },
+  "198934": {
+    "<if_woman><attr><feel_happy_lv3><end_attr>Wow! You're doing it.  Thank you, sis!\nI've been collecting rumors about\nInspector Pakul, and I'll tell you the\n<br>\nlatest one. He's into coconut-based\ndrinks. So, why don't you find a town\nwhere coconuts are good enough to be a\n<br>\nspecialty sold at train stations and\ngo to a tavern there? I'd like to go\nwith you, but Father Gandle would get\n<br>\nAngry.  Please take this letter to the\nCaptain!<else><attr><feel_happy_lv3><end_attr>Wow! You're doing it.  Thank you, big\nbrother! I've been collecting rumors\nabout Inspector Pakul, and I'll tell\n<br>\nyou the latest one. He's into coconut-\nbased drinks. So, why don't you find a\ntown where coconuts are good enough to\n<br>\nbe a specialty sold at train stations\nand go to a tavern there? I'd like to\ngo with you, but Father Gandle would\n<br>\nget Angry.  Please take this letter to\nthe Captain!<endif>": ""
+  },
+  "198935": {
+    "<if_woman><attr><feel_happy_lv3><end_attr>Well then, I'm counting on you, sis!<else><attr><feel_happy_lv3><end_attr>Well then, I'm counting on you, big\nbrother!<endif>": ""
+  },
+  "198936": {
+    "<if_woman><attr><feel_happy_lv1><end_attr>Wow! You're doing it.  Thank you, sis!\nHuh?  But it looks like you're full of\nother requests.  That makes it hard\n<br>\nfor me to ask you. Will you come again\nwhen you're free?  I'll be waiting for\nyou!<else><attr><feel_happy_lv1><end_attr>Wow! You're doing it.  Thank you, big\nbrother! What is it?  But you seem to\nbe full of other requests.  That makes\n<br>\nit hard for me to ask you. Will you\ncome again when you're free?  I'll be\nwaiting for you!<endif>": ""
+  },
+  "198937": {
+    "<if_woman><attr><feel_sad_lv1><end_attr>Oh, no?  The only person I can ask is\nmy sister. If you change your mind,\nwill you come again?  I'll be waiting\n<br>\nfor you!<else><attr><feel_sad_lv1><end_attr>Oh, no?  The only person I can ask is\nmy brother. If you change your mind,\nwill you come again?  I'll be waiting\n<br>\nfor you!<endif>": ""
+  },
+  "198938": {
+    "<attr><feel_angry_lv1><end_attr><turn_pc>That son of a bitch Pakul.  I heard\nrumors that he's been popping up here\nand there a little bit lately. But he\n<br>\nnever comes back to this house.  When\nam I going to be able to collect his\ndebt and go home?": ""
+  },
+  "198939": {
+    "<pc>received Bondor's Letter (Key Items)!<me 60>": ""
+  },
+  "198940": {
+    "There are rumors that the Captain is\ninto coconut-based drinks now.<open_irai><bw_break>": ""
+  },
+  "198941": {
+    "So, why don't you find a town where\ncoconuts are good enough to be sold at\ntrain stations and go to a tavern\n<br>\nthere? I'd like to go with you, but my\nfather would be Angry.  Please send a\nletter to the Captain, asking to\n<br>\nbecome his apprentice!": ""
+  },
+  "198942": {
+    "<if_woman>Oh, sis.  Did you find Inspector\nPakul?<open_irai><bw_break><else>Oh, big brother.  Did you find\nInspector Pakul?<open_irai><bw_break><endif>": ""
+  },
+  "198943": {
+    "Eh? You broke the store's Tavern\nOrnament at a tavern in Julet Town and\nran away?  I wonder why he did that.\n<br>\nBut if I get the materials from the\nornament, he can tell me where the\nCaptain is, right?  I'm sorry, but can\n<br>\nyou do that for me?": ""
+  },
+  "198944": {
+    "<if_woman>Hey, sis.  Did you find out where\nInspector Pakul is?<open_irai><bw_break><else>Hey, big brother.  Did you find out\nwhere Inspector Pakul is?<open_irai><bw_break><endif>": ""
+  },
+  "198945": {
+    "What? I heard that you went to Royal\nCity Kamiharmui South for questioning?\n I wonder. I wonder if there's some\n<br>\nkind of incident. Anyway, go to Royal\nCity Kamiharmui South and look for the\nnewcomer.  Inspector Pakul might be\n<br>\nthere!": ""
+  },
+  "198946": {
+    "<if_woman>Thanks to you, I know a lot about\nInspector Pakul, and I'm going to go\nafter him too. I'll definitely become\n<br>\nhis apprentice!  That's why I came\nhere!<else>Thanks to you, I know a lot about\nInspector Pakul, and I'm going to go\nafter him too. I'll definitely become\n<br>\nhis apprentice!  That's why I came\nhere!<endif>": ""
+  },
+  "198947": {
+    "<attr><feel_angry_lv1><end_attr><turn_pc>But, that son of a bitch Pakul.  I\ncan't believe he's playing with Julet\nand Kamiharmui. He's got a good mind,\n<br>\ndoesn't he?  I've been staking out the\nplace all day.": ""
+  },
+  "199017": {
+    "Inspector Pakul is disguised as a\npriest and is investigating something,\nright? I wanted to tell you about my\n<br>\napprenticeship, but I'm not going to\nthis time.  I don't want to get in\nyour way!": ""
+  },
+  "199018": {
+    "<if_woman>Oh, sis.  How did you help Inspector\nPakul?  Did you solve the case?<yesno><break><else>Oh, big brother.  How did you help\nInspector Pakul?  Did you solve the\ncase?<yesno><break><endif>": ""
+  },
+  "199019": {
+    "I see, you haven't started yet.  This\none seems to be quite a difficult\ncase.": ""
+  },
+  "199020": {
+    "<if_woman><attr><feel_happy_lv1><end_attr>I see. That's Inspector Pakul and his\nsister!  Hey. Tell me what kind of\ncase it was!<else><attr><feel_happy_lv1><end_attr>I see. That's Inspector Pakul and your\nbrother!  Hey. Tell me what kind of\ncase was it!<endif>": ""
+  },
+  "199021": {
+    "<attr><feel_think_lv1><end_attr>Hmm. So, the Dwarf man went crazy, and\nwhen they tried to find out why, they\nthought it might be because he had an\n<br>\naffair, but it turns out it wasn't an\naffair at all, and he was helping the\npoor monster, right? It doesn't seem\n<br>\nlike a big case, but Inspector Pakul\nmust have had something to do with it!\nI knew it! He's a great inspector.  I\n<br>\nthink it's time for me to get serious\nand go after him.": ""
+  },
+  "199022": {
+    "This case may not sound like much to\nthe casual observer, but there must\nhave been something going on behind\n<br>\nthe scenes! Inspector Pakul is really\ngreat, isn't he?  I think it's time\nfor me to get serious and go after\n<br>\nhim.": ""
+  },
+  "199023": {
+    "<turn_pc>I went to Kamiharmui, but I couldn't\nfind Pakul anywhere. I was worried\nthat I might face Tsubakuro and his\n<br>\nfamily, but I didn't see them either.": ""
+  },
+  "199024": {
+    "<pc>gave Bondor the details of the case.": ""
+  },
+  "199112": {
+    "<if_woman>What is it? Are you trying to do\nsomething Inspector Pakul asked you to\ndo again, sis?<bw_break><else>What is it? Are you trying to do\nsomething Inspector Pakul asked you to\ndo again, big brother?<bw_break><endif>": ""
+  },
+  "199113": {
+    "I can understand it somehow.  I like\nit. I wish I could get a favor from\nInspector Pakul, too!": ""
+  }
+}

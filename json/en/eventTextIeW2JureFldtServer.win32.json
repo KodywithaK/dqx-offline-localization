@@ -1,0 +1,44 @@
+{
+  "94141": {
+    "<pipipi_low>Oops?  Sorry about that. It's not a\ngood time to go there. I'll pay you\nback.  Come back after a while!": ""
+  },
+  "94142": {
+    "But I can only drop you off, not pick\nyou up.  If you don't mind, where\nwould you like to go?<name_off><select>\nLane Village\nPrayer Inn (Lenam Fields)\nBeach hut (King Ladis Island)\nBeach Trading Post (Verinard South)\nNo ride<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "94143": {
+    "<attr><feel_happy_lv2><end_attr>Thank you very much.  Well then, let's\nget going!": ""
+  },
+  "94144": {
+    "Oh, well. You don't want to ride?\n Well, if you want to ride, come back\nagain.": ""
+  },
+  "94145": {
+    "<pipipi_low>Hey, Mr. Omatto!  We have arrived at\nthe Prayer Inn.  Now, if you'll excuse\nme.": ""
+  },
+  "94146": {
+    "<pipipi_low>Hey, guys!  We've arrived at Lane\nVillage.  Now, if you'll excuse me.": ""
+  },
+  "94147": {
+    "Oops, too bad. It seems we are short\nof money.  Come back when you have\nmore money.": ""
+  },
+  "94148": {
+    "<%sL_TIMEI>I'll take you to the airport.  Would\nyou like to pay me 25 gold?<yesno><break>": ""
+  },
+  "94149": {
+    "I see.  Well, if you ever want to ride\nagain, come back and see me.": ""
+  },
+  "116573": {
+    "<pipipi_low>Hey, guys!  We've arrived at the beach\nhut.  Now, if you'll excuse me.": ""
+  },
+  "127401": {
+    "<pipipi_low>Hey, guys!  We've arrived at the Beach\nTrading Post.  Now, if you'll excuse\nme.": ""
+  },
+  "128318": {
+    "From Muse Coast, go southeast to Lower\nJule Island, then take a canoe from\nthe east end of the island to Lenam\n<br>\nFields, where you will find a building\ncalled the Prayer Inn. If you continue\nalong the road southeast from there,\n<br>\nyou will reach Lane Village, where\nWeddie and his friends live. If you\nhave never been there, it would be a\n<br>\ngood idea to go there.": ""
+  },
+  "129231": {
+    "Hello there, traveler.  I'm Peddler\nUeban, and I'm a cheap peddler.  I\nhope you will allow me to make your\n<br>\nacquaintance. My job is to carry the\ngoods from Julet Town to the various\nplaces on this wagon. We are going to\n<br>\nthe Beach Trading Post via the beach\nhuts.  If you wish, I can give you a\nride.<bw_break>": ""
+  },
+  "129233": {
+    "I'm on my way to the Beach Trading\nPost via the beach hut, and I was\nwondering if you have any business in\n<br>\nthe area?  If you wish, I can give you\na ride.<bw_break>": ""
+  }
+}

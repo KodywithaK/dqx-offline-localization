@@ -1,0 +1,131 @@
+{
+  "99882": {
+    "Good day, travelers.  I'm Dougie the\npeddler.  Please patronize me. My job\nis to carry the goods from Dorworm in\n<br>\nthis wagon. We're going to the\nmerchant's tents in the west of the\nGoble Desert and the oasis in the east\n<br>\nof the Goble Desert, and I was\nwondering if you'd like a ride?<bw_break>": ""
+  },
+  "99883": {
+    "I'm thinking of going to the\nmerchants' tents in the oasis east of\nthe Goble Desert and west of the Goble\n<br>\nDesert, and I'd like you to take me\nthere.<bw_break>": ""
+  },
+  "99884": {
+    "Good day, travelers.  I'm Dougie the\npeddler.  Please patronize me. My job\nis to carry goods from Dorworm in this\n<br>\nwagon. I'm thinking of going to the\nmerchant's inn in the oasis east of\nthe Goble Desert.<bw_break>": ""
+  },
+  "99885": {
+    "I'm thinking of going to the Oasis\nTrader's Inn in the Goble Desert east\nof the Goble Desert.<bw_break>": ""
+  },
+  "99886": {
+    "<pipipi_low>Oops? Sorry.  I'm on my way there now.\nIt's not a good time. You'll get your\nmoney back.  Come back after some\n<br>\ntime.": ""
+  },
+  "99887": {
+    "I'll just drop you off, but I won't\npick you up.<name_off><select>\nOasis Merchants' Inn (Goble Desert East)\nMerchants' Tent (Goble Desert West)\nNo ride<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "99888": {
+    "<attr><feel_happy_lv2><end_attr>Thanks again.  Then I'll be on my way.": ""
+  },
+  "99889": {
+    "Oops. Don't you want to ride?  If you\nfeel like riding, come back again.": ""
+  },
+  "99890": {
+    "<pipipi_low>Here we are.  We've arrived at the\nOasis Merchant's Inn.": ""
+  },
+  "99891": {
+    "<pipipi_low>Here we are.  We've arrived at the\nmerchants' tent.": ""
+  },
+  "99892": {
+    "Oops. I don't have enough money.  Come\nback when you have more money.": ""
+  },
+  "99893": {
+    "<%sL_TIMEI>I'm going up to the \"I'm going to the\nairport\".  I'll give you 25 gold. Is\nthat all right with you?<yesno><break>": ""
+  },
+  "99894": {
+    "Oops. Quit?  Come back when you feel\nlike riding again.": ""
+  },
+  "115108": {
+    "Would you like to move around on the\ntrolley?<yesno><close>": ""
+  },
+  "117312": {
+    "If you go east from here, you will\nreach a settlement called the Oasis\nMerchant's Inn. If you go to the west\n<br>\nof the Goble Desert in the southwest,\nyou will reach a settlement of\nmerchants' tents on the way. If you\n<br>\nhave never been there, it would be\ngood to go there.": ""
+  },
+  "47279": {
+    "There is a large hemispherical body\nburied in the sand.": ""
+  },
+  "47280": {
+    "There is a large hemispherical body\nburied in the sand. Would you like to\ntake a sample?<yesno><close>": ""
+  },
+  "47281": {
+    "The hemisphere was surprisingly soft!<bw_break>": ""
+  },
+  "47282": {
+    "<pc>The \"Mere Old Man\" got a piece of a\nhemisphere (something very important)!<me 60>": ""
+  },
+  "52994": {
+    "<attr><feel_normal_lv1><end_attr>I heard that there is an armor smith\nguild in the kingdom of Dorworm, which\nis located in the western direction\n<br>\nfrom here. I would like to go there to\nsee what it is like, but I can't seem\nto find the courage.": ""
+  },
+  "71720": {
+    "<attr><feel_happy_lv1><end_attr>Oh, you.  Hmm. You're still a gem in\nthe rough, but if you develop a sense\nof style, you'll shine beautifully,\n<br>\nwon't you? Oh, that's right. Salon\nFelicia is getting ready to open all\nover the place, and I, the charismatic\n<br>\nbeautician, got an offer. If you want\nto be as beautiful as me, why don't\nyou go there too? The beauty parlor is\n<br>\njust down the road in the Kingdom of\nDorworm.": ""
+  },
+  "71721": {
+    "<attr><feel_happy_one><end_attr>Sorry, but I'm off today.  Now I'm not\nwith a charismatic hairdresser and her\nclients, but a beautiful celebrity and\n<br>\na wayward traveler. Well, you seem to\nbe pretty good at it.  I just wanted\nto test an idea I had on vacation. I\n<br>\nneed you to run errands for me. To\ncreate a new celebrity color for the\nsalon.<%sEV_QUE_NAME0>Please bring me some Konjiki oil,\nwhich is sometimes dropped by a demon\ncalled \"the devil\".": ""
+  },
+  "71722": {
+    "<attr><feel_happy_lv1><end_attr>It's a natural choice, isn't it?<%sEV_QUE_NAME0>is running in the desert around here.\nNice to meet you.": ""
+  },
+  "71723": {
+    "<attr><feel_normal_one><end_attr>I'd say that's a wise choice, but you\nhave your hands full with other things\nyou need to do.  Why don't you finish\n<br>\nthat and come back later?": ""
+  },
+  "71724": {
+    "<attr><feel_angry_one><end_attr>Oh, you're not satisfied? Oh, yeah.\n I'm tired of working on my day off,\nand in a way, I appreciate you.": ""
+  },
+  "71725": {
+    "<attr><feel_happy_one><end_attr>The best celebrity new color available at beauty salons<%sEV_QUE_NAME0>I can make it if I have some Konjiki\noil, which is sometimes dropped by a\ndemon called \"The Devil.<open_irai><bw_break>": ""
+  },
+  "71726": {
+    "<attr><feel_happy_one><end_attr><%sEV_QUE_NAME0>I'm running in the Goble Desert east\nof here.  Then, I'll see you soon.\nHmmm.": ""
+  },
+  "71727": {
+    "<attr><feel_happy_one><end_attr>Well, you're early.  I see you got the\nKonjiki oil.  Can I see it?": ""
+  },
+  "71728": {
+    "<attr><feel_happy_lv1><end_attr>What is it? You haven't found it yet?\n You're such a good kitty, aren't you?\nNormally, I'd say \"Meh. But since I'm\n<br>\noff duty today, I'll let you off the\nhook.  Just take it easy and do your\nbest.": ""
+  },
+  "71729": {
+    "<attr><feel_happy_lv2><end_attr>What a nice aroma.  Well then, give me\nyour hand.  Here. Wet it on my back.": ""
+  },
+  "71730": {
+    "<attr><feel_happy_lv2><end_attr>You have good hands. You're very\ntalented.  Oh, that feels good.": ""
+  },
+  "71731": {
+    "Good night. I really needed this\ntanning oil.  Tanning is a must on\nvacation. So, as promised, I'll use\n<br>\nthe rest of the Konjiki oil to make a\nnew color.": ""
+  },
+  "71732": {
+    "First, warm up the Konjiki oil, it's a\nbeautiful golden color, like the sun.\n Then I'll let my magic do the rest.<bw_break>": ""
+  },
+  "71733": {
+    "Magical Magical Abra Katabra Bibide\nBijode Show!": ""
+  },
+  "71734": {
+    "I think I'm going to name this new\ncolor Sun Gold, as befits a celebrity\nholiday.  I think I'll name this new\n<br>\ncolor Sun Gold, which is perfect for\ncelebrity holidays.": ""
+  },
+  "71735": {
+    "<attr><feel_happy_one><end_attr>Oh, that's right.  I want to thank you\nfor this.  Well, it's my feeling. Keep\nit.": ""
+  },
+  "71736": {
+    "<attr><feel_happy_one><end_attr>This sungold color should be available\nat any hair salon.  You can try it out\nright away. As expected of Bibide, the\n<br>\ncharismatic hair stylist at Salon\nFelicia, I wonder if she respects me?\nI worked even though it's my day off.\n<br>\n I guess I'm a born beauty seeker\nafter all. I'm a born beauty seeker\nafter all.": ""
+  },
+  "71737": {
+    "Would you like to give Bibide some\nKonjiki oil?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "71738": {
+    "<pc>gave Vividhe the Konjiki-Oil!": ""
+  },
+  "71739": {
+    "<pc>The \"Mere Old Man\" smeared some\nKonjiki oil on Bibide's back!": ""
+  },
+  "71740": {
+    "Bibide cast a spell over the warmed\nKonjiki oil with a languid hand!<me 69>": ""
+  },
+  "71741": {
+    "The new color \"Sungold\" is now\navailable at the hair salon!<me 71>": ""
+  },
+  "71742": {
+    "<attr><feel_happy_lv1><end_attr>Do you know?<%sEV_QUE_NAME0>The fur is actually pure white.  They\nburnish it to that color with Konjiki\noil. I admire your attitude, Monster,\n<br>\nfor not taking the time to care for\nyour fur.  As a fellow beauty\nenthusiast, I respect you.": ""
+  }
+}

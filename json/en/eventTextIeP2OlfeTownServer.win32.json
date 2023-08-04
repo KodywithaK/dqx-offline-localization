@@ -1,0 +1,638 @@
+{
+  "10163000": {
+    "<attr><feel_normal_lv2><end_attr>It is said that somewhere in Pukuland\nContinent, there are sometimes very\nsweet and fragrant fruits called\n<br>\nPukuberries. However, even if they do\nbear fruit, they are immediately eaten\nby monsters and are very difficult to\n<br>\nobtain, so they are called phantom\nfruits. The queen of Megistris from\nOrphea was said to have loved the\n<br>\nscent of Pukuberries so much that she\nmade a perfume of them and carried it\nwith her all the time.": ""
+  },
+  "10163001": {
+    "Please refrain from continuing. We are\nin the process of building a new\nresidential area for everyone in town.": ""
+  },
+  "175999": {
+    "<pc>school (eg of ikebana)<%sEV_FEE_ITEM_A>received!<se_nots System Item>": ""
+  },
+  "40268": {
+    "<attr><feel_happy_one><end_attr>Oh. My dear Baro.  Where is he? Where\nare you?  I want to find you. 10\nseconds ago.": ""
+  },
+  "40269": {
+    "<attr><feel_happy_one><end_attr>Oh. My dear Lord Baro, leader of the\nDan. Where are you? Where are you?  I\nwant to find you. 10 seconds ago. 987,\n<br>\nyes?": ""
+  },
+  "40270": {
+    "<attr><feel_sad_lv3><end_attr>I mean, no! Zuccoon!  Damn! I don't\nthink I'll be able to cook a super\nlarge batch with just the amount of\n<br>\nfood I have. But I won't give up!\n I'll wait here for years until you're\nready!": ""
+  },
+  "40271": {
+    "<turn_pc>I'm back! You came back!  You're\nfinally ready to do it! Poor Baro.\nHe's got a bad back!  I'm going to\n<br>\nmake him a big batch of his favorite\ndishes and take care of him! Orphea\nRegion East.<%sEV_QUE_NAME0>I don't know\n Sometimes when you kill monsters, they drop\n Pukupuku Peach<%nEV_QUE_T_NUM0>Can you go get me a few?": ""
+  },
+  "40281": {
+    "<attr><feel_happy_lv3><end_attr>YES! I've been waiting for your\nanswer!  Mr. Baro! Wait for me! Soon\nyour gimpy back will be 100% healed\n<br>\nMax!": ""
+  },
+  "40273": {
+    "<attr><feel_sad_lv3><end_attr>YES! I've been waiting for your\nanswer!  You seem to be asking a lot\nof me. If someone is in trouble, it's\n<br>\nhuman nature to help them.  Why don't\nyou go take care of your business\nfirst?": ""
+  },
+  "40274": {
+    "<attr><feel_sad_lv3><end_attr>I mean, no! Zuccoon!  Damn! I don't\nthink I'll be able to cook a super\nlarge batch with just the amount of\n<br>\nfood I have. But I won't give up!\n I'll wait here for years until you're\nready!": ""
+  },
+  "40275": {
+    "<turn_pc>Hey, honey, 6, do you know where the\nDumplings are?  5. Robbin' 'Ood Gang\nfor short. I'm crazy about Baro, the\n<br>\nleader.  He was very active in this\ntown until 4 years ago.  He was so\ncool. But Inspector Pakul chased him\n<br>\naway, so he hasn't been seen recently.\n Mr. Baro. I wonder what happened to\nhim.": ""
+  },
+  "40276": {
+    "Would you like me to tell you that\nBaro has a gimpy back?<yesno><close>": ""
+  },
+  "40277": {
+    "<attr><feel_sad_lv3><end_attr>Mr. Baro. Could it be that this love\nhas not borne fruit?  But I, who am so\nexcited by the love that cannot be\n<br>\nfulfilled.": ""
+  },
+  "40278": {
+    "<pc>told Hanapoppa about Baro's gimpy\nback!": ""
+  },
+  "40279": {
+    "You have a bad back?  And you're at\nthe west well in Orphea Region West?": ""
+  },
+  "40280": {
+    "<attr><feel_happy_lv3><end_attr><icon_exc>Alright! I can't let this happen!\n Hurry up and do the right\nthing! Hurry up and do it right! I'm\n<br>\ngoing to make a lot of special dishes\nfor the visit to the hospital, and I'm\ngoing to make Baro-sama a lot of hugs!\n<br>\n I'm going to go for it! I'm going\nstraight for it! That's right.  I'm\nnot sure if I'll have enough for all\n<br>\nof you, so I have one favor to ask.\nOrphea Region East<%sEV_QUE_NAME0>I don't know\n Sometimes when you kill a monster, it drops\n Pukupuku Peach<%nEV_QUE_T_NUM0>Can you go get me a few?": ""
+  },
+  "40272": {
+    "<attr><feel_happy_lv3><end_attr>YES! I've been waiting for your\nanswer!  Mr. Baro! Wait for me! Soon\nyour gimpy back will be 100% healed\n<br>\nMax!": ""
+  },
+  "40282": {
+    "<attr><feel_sad_lv3><end_attr>YES! I've been waiting for your\nanswer!  You seem to be asking a lot\nof me. If someone is in trouble, we\n<br>\nshould help them.  You should go take\ncare of your business first!": ""
+  },
+  "40283": {
+    "Orphea Region East<%sEV_QUE_NAME0>What's that?\n Sometimes, when you kill a monster, it drops\n Pukupuku Peach<%nEV_QUE_T_NUM0>Please collect them!<open_irai><bw_break>": ""
+  },
+  "40284": {
+    "I'm going to make a lot of special\ndishes for Baro's visit to the\nhospital, and I'm going to take care\n<br>\nof him! I'll take care of him a lot!": ""
+  },
+  "40285": {
+    "<attr><feel_happy_lv3><end_attr>You, Puk Puk Peach.  That's exactly\nwhat I mean! Yes! I can cook a year's\nworth of special dishes with all the\n<br>\nPuk Puk peaches I bought up and the\nones you brought! I'm rich, you know.\n That's why I bought all the Pukupuku\n<br>\nPeach at Orphea! This should cheer\nBaro up!  We're getting married soon,\nthat's for sure!  Here we go! This is\n<br>\nfor you! Please receive it!": ""
+  },
+  "40286": {
+    "<attr><feel_happy_lv3><end_attr>When I'm done cooking, I'm going to\nDan Dan's well to take care of him!\n Wait for me! My dear Baro!": ""
+  },
+  "40287": {
+    "<attr><feel_happy_lv3><end_attr>Yes! I can cook enough of my favorite\ndishes for a year with what I've\nbought up and what you've brought! And\n<br>\nwhen I'm done cooking, I'm going to\nDan's well to give him a big hug!\n I'll be waiting for you! My dearest\n<br>\nBaro!": ""
+  },
+  "40288": {
+    "Hmmm... I'm cooking with the amount of\nPukupuku Peach you brought and the\namount I bought up, but it's a lot and\n<br>\nit's taking a long time. But I might\nhave done something wrong.  Maybe\nthere are people who are in trouble\n<br>\nbecause Pukupuku Peach has disappeared\nfrom the town.": ""
+  },
+  "40289": {
+    "<attr><feel_sad_lv3><end_attr>How unlucky I am.  Ugh. Listen to\nthis.  Listen to this horrifying\nincident! I'm actually a cook. It is\n<br>\nsaid that there is no one in town who\ncan make a dish using Pukupuku Peach\nbetter than me. I went to buy some\n<br>\nPukupuku Peach to make a dish I am\nproud of. But...! Of course, no matter\nwhere I spun, they were all sold out\n<br>\nand I couldn't get any more!  What a\nterrible thing! If I can't make that\ndish, I don't have the confidence to\n<br>\nmake it as a chef.  Ah, it's hopeless.\nI'm in despair. Is this a sign from\nGod that I should stop being a chef?\n<br>\n You think so too, don't you?<yesno><break>": ""
+  },
+  "40296": {
+    "Oh. You are going to do it, aren't\nyou?  I appreciate the sentiment,\nbut... It seems that you have a lot of\n<br>\nother people asking you for favors.\n You can give priority to that.": ""
+  },
+  "40297": {
+    "<attr><feel_sad_lv2><end_attr>Ugh. It can't be helped.  I guess it\nis my destiny to be rejected here.  I\nwill just let nature take its course.": ""
+  },
+  "40292": {
+    "<attr><feel_sad_lv3><end_attr>I see. But... But how can I make that\ndish if I can't make it?  Ah. It's\nhopeless.": ""
+  },
+  "40293": {
+    "<attr><feel_sad_lv3><end_attr>Yes, I think so. I think so too.  But\nif I quit being a cook, what kind of\nvocation should I change to?": ""
+  },
+  "40294": {
+    "<icon_exc>I see! Haha!  Why didn't I notice\nthat? I'm going to be a priest! I\nheard God's voice telling me it was\n<br>\ntime to fulfill my childhood dream of\nbecoming a priest! All right. I'll\nbaptize him right away.  Excuse me,\n<br>\ncould you bring me the Sacred Water I\nneed for the baptism? Sacred Water is\nin Muruel Forest.<%sEV_QUE_NAME0>You should be able to get it by\ndefeating the Can you help me, please?": ""
+  },
+  "40295": {
+    "<attr><feel_happy_lv2><end_attr>Oh! You are going to do it, aren't\nyou?  To meet someone who is willing\nto help me, it seems I am destined to\n<br>\nbecome a priest after all.": ""
+  },
+  "40290": {
+    "Oh. You are going to do it, aren't\nyou?  I appreciate the sentiment,\nbut... It seems that you have a lot of\n<br>\nother people asking you for favors.\n You can give priority to that.": ""
+  },
+  "40291": {
+    "<attr><feel_sad_lv2><end_attr>Ugh. It can't be helped.  I guess it\nis my destiny to be rejected here.  I\nwill just let nature take its course.": ""
+  },
+  "40298": {
+    "<attr><feel_happy_lv2><end_attr>Oh! You're back, aren't you?\n Apparently, I wasn't abandoned! All\nright. Let's baptize him right away.\n<br>\n Excuse me, but could you bring me the\nSacred Water I need for the baptism?\nSacred Water is in Muruel Forest.<%sEV_QUE_NAME0>You should be able to get it by\ndefeating the Can you help me, please?": ""
+  },
+  "40299": {
+    "<attr><feel_happy_lv2><end_attr>Oh! You are going to do it, aren't\nyou?  To meet someone who is willing\nto help me, it seems I am destined to\n<br>\nbecome a priest after all.": ""
+  },
+  "40300": {
+    "It's really pathetic that my husband\nis depressed just because he can't\ncook his favorite dish anymore. I wish\n<br>\nhe would have a more positive outlook\non things.  But I guess that's not\npossible.": ""
+  },
+  "40301": {
+    "Sacred Water is in Muruel Forest<%sEV_QUE_NAME0>You should be able to get it by\ndefeating the<open_irai><bw_break>": ""
+  },
+  "40302": {
+    "I am baptizing you to become a priest,\nso please bring me the Sacred Water.\n I look forward to working with you.": ""
+  },
+  "40303": {
+    "<attr><feel_angry_lv2><end_attr>I wondered what you were going to do\nwhen you quit being a cook, but I\ndidn't expect you to want to be a\n<br>\npriest. I'm beyond stunned. I'm beyond\nstunned. I don't even know what to\nsay.  I feel like I should be free to\n<br>\ndo as I please.": ""
+  },
+  "40304": {
+    "Oh! That's Sacred Water!  Thank you!\n Really, thank you! Now I can perform\nbaptism!  I'll finally be a priest!\n<br>\nOh. I see it now.  My mission, which I\ncouldn't see when I was a cook.  Now I\ncan do what I want. This is my thanks.\n<br>\nPlease receive it.": ""
+  },
+  "40305": {
+    "That's right. Come to think of it,\nthere is another priest in this town.\n I'll have to go say hello to him\n<br>\nlater.": ""
+  },
+  "40306": {
+    "Come to think of it, there is another\npriest in this town.  I'll have to go\nsay hello to him later.": ""
+  },
+  "40307": {
+    "Father is the pride of this town.  His\nmany years of service have borne\nfruit, and the people of this town\n<br>\nlove him.": ""
+  },
+  "40308": {
+    "I've been baptized, so I went to say\nhello to the priest in this town. I'm\nHetchaffe, the new priest.  He said\n<br>\nhe's going to take care of me from now\non.  But I had a little concern. The\npriest gave his consent heartily, but\n<br>\nthe sisters beside him were looking at\nme.  Did I do something wrong?": ""
+  },
+  "40309": {
+    "<attr><feel_think_lv1><end_attr>I never thought he would become a\npriest.  What my husband is thinking\nis beyond my comprehension.": ""
+  },
+  "40310": {
+    "Welcome, welcome.  You seem to have a\ngood head on your shoulders.\n Actually, there's a problem. Listen\n<br>\nto me for a moment. A poor cook named\nHetchaffe is trying to become a\npriest. That would leave two priests\n<br>\nin this town. With two priests, one\nwill inevitably become useless.  I\ndon't want to see you lose your\n<br>\ncareers that you have built up over\nthe years. There is only one way to\nkeep him in this town. We have to get\n<br>\nresults.  A big result that everyone\nwill be satisfied with. So I've been\nthinking. If the priest breaks the\n<br>\ncurse of the one who is cursed, he can\nkeep his reputation, and he won't have\nto worry about being kicked out of\n<br>\ntown for the time being. And not just\na curse, but something more specific.\n Something that will make him unable\n<br>\nto get up from his chair, or something\nmore impactful. So, I have a favor to\nask of you.  I heard that there is a\n<br>\nmonster that uses a special curse in\nthe southeast area of Orphea Region\nWest. I'll repay you in kind, but\n<br>\nwould you please head to that area and\nlook for anyone who is under such a\nspecial curse?": ""
+  },
+  "40311": {
+    "Well, I'm glad. Thank you very much.\nIf you find someone who is under a\nspecial curse that prevents him or her\n<br>\nfrom getting up from a chair, please\nsound this cracker. If I can hear the\nsound, I'll come right over.  Thank\n<br>\nyou very much.": ""
+  },
+  "40312": {
+    "<pc>received Anywhere Crackers (Key Items)\nfrom Sister Purimin!<me 60>": ""
+  },
+  "40313": {
+    "Well, I'm glad. Thank you very much.\n I'm glad to hear that. But you seem\nto be full of other people's requests.\n<br>\n It's natural to give a helping hand\nto those in need.  Please put them\nfirst.": ""
+  },
+  "40314": {
+    "<attr><feel_sad_lv1><end_attr>I see. That is unfortunate.  I guess\nI'll have to go looking for it myself.": ""
+  },
+  "42175": {
+    "<pc>The \"Mere Old Man\" tried to ring the\nCracker Anywhere Cracker. But they\ncouldn't ring it where the cursed one\n<br>\nwasn't!": ""
+  },
+  "40315": {
+    "I believe that if a priest can break\nthe curse of the cursed person, he can\nkeep his reputation and not have to\n<br>\nworry about being run out of town.\nAnywhere Cracker, if you find someone\nunder a particular curse that prevents\n<br>\nthem from getting up from their chair.<open_irai><bw_break>": ""
+  },
+  "40316": {
+    "I hear there is a monster that uses a\nspecial curse in the southeast area of\nOrphea Region West.  There may be\n<br>\nsomeone who is cursed.": ""
+  },
+  "40317": {
+    "<attr><feel_happy_lv2><end_attr>You've been a great help to me.  If\nword gets out, Father's position will\nbe secure.  You won't be driven out of\n<br>\ntown. This is my way of saying thank\nyou.": ""
+  },
+  "40318": {
+    "<attr><feel_happy_lv2><end_attr>You've been a great help to me.  If\nword gets out, Father's position will\nbe secure.  You won't be driven out of\n<br>\ntown.": ""
+  },
+  "69834": {
+    "<attr><feel_angry_lv3><end_attr><turn_pc>Damn you, Pakul.  Just when I thought\nhe'd finally come out of hiding, he\ngoes into cloud cover again! Don't\n<br>\nthink you can just walk away from the\nmoney you owe me!  Next time I see\nhim, I'm gonna grab him and rip every\n<br>\nhair out of his ass!": ""
+  },
+  "40319": {
+    "<attr><feel_happy_lv2><end_attr><turn_pc>Mr. Baro ate all of my food!  This is\nlove! It's love! It's love! I'm going\nto make a fierce approach and end up\n<br>\ngetting married right away!  I'm going\nto go for it! I'm going straight for\nit!": ""
+  },
+  "69835": {
+    "<attr><feel_angry_one><end_attr>What's going on? It seems that a\nregular guy named Pakul, who\ndisappeared for a while, has come\n<br>\nback. He has a terrible drinking\nhabit~ and he always foots the bill\nfor drinks.  To be honest, I'm not\n<br>\nsure if he's still here.": ""
+  },
+  "40320": {
+    "<attr><feel_happy_lv2><end_attr>I made my debut as a priest the other\nday.  For the first time in my life, I\npreached God's teachings to the people\n<br>\nof this town. I wouldn't have become a\npriest if they hadn't sold out of\nPukupuku Peach.  Perhaps it was God's\n<br>\nguidance.": ""
+  },
+  "40321": {
+    "My husband talks all day long about\nGod's omens and thankful teachings,\nbut, well, I'm glad he's feeling\n<br>\nbetter. He was really depressed when\nhe said he was going to quit being a\ncook.  The best thing is that he is\n<br>\ndoing well.": ""
+  },
+  "40322": {
+    "<attr><feel_happy_lv2><end_attr>Rumors that Father has broken the\ncurse seem to be spreading smoothly.\n Hmm. Now I can rest easy. Now, even\n<br>\nif Hetchaffe grows in strength, he\nwill never surpass Father's fame.\n This match. We got it.": ""
+  },
+  "198970": {
+    "A few crates lay haphazardly on the\nfloor. I didn't find anything of\ninterest.": ""
+  },
+  "48133": {
+    "Because it's located on such an\nalleyway, my blacksmith shop, which I\ninherited from my father, doesn't get\n<br>\nmany customers. But you know what? The\nnow very popular circus used to be a\ncake shop on an alleyway.  There's a\n<br>\nsecret to that success. Nablette, who\nwas a cake maker back then, got an\noven from the legendary Pipzer, and\n<br>\nthat's how she achieved perfection. He\nsaid that every tool Pipzer made had\nmagic in it, and that if you used\n<br>\nthem, everything would work! So, I\nwould like to ask Pipzer, who lives in\na cabin in Muruel Forest, if he could\n<br>\nmake me a magic tool too.": ""
+  },
+  "48135": {
+    "<attr><feel_happy_lv1><end_attr>Wow, thank you!  I really wanted to\nask him myself, but I was too scared\nof the monsters in the forest. I'll be\n<br>\nsure to return the favor, so please\ndo.": ""
+  },
+  "48136": {
+    "Wow, thanks! But from the looks of it,\nyou've got a lot of work on your\nplate.  Come back when you're free.": ""
+  },
+  "48527": {
+    "Yeah. You want me to go by myself,\nright?  But I'm afraid of the monsters\nin Muruel Forest, so I can't go by\n<br>\nmyself.": ""
+  },
+  "48137": {
+    "If I can get Pipzer, the legendary\ncraftsman, to make me a magic Item\nShop, I'm sure my blacksmith shop,\n<br>\nwhich I inherited from my father, will\nbe a success.<open_irai><bw_break>": ""
+  },
+  "48138": {
+    "<close_irai>Pipzer lives in a cabin in Muruel\nForest, so go ask him to make you some\nkind of magic tool.": ""
+  },
+  "48139": {
+    "Welcome back! How'd it go?  Did Pipzer\ntake on the task of making the magic\ntool? What? He told you that he can't\n<br>\nmake Magic Oven and that he didn't put\nthe spell on The Magic Oven? Oh, no.": ""
+  },
+  "48140": {
+    "<attr><feel_sad_lv1><end_attr>How come Mr. Nablette can make The\nMagic Oven and my tools can't?  That's\nnot right! You're wrong.": ""
+  },
+  "48141": {
+    "<attr><feel_think_lv1><end_attr>Is this picture of Mr. Nablette as a\nyoung man?  So that's The Magic Oven\nin the back. Ha-ha-ha. Nablette is\n<br>\ncovered in black soot. And he looks so\ndesperate, he doesn't look like he's\nusing The Magic Oven.": ""
+  },
+  "48733": {
+    "<icon_exc>I see. So it wasn't Pipzer who put the\nMagic Oven in the oven. Nablette's\nsuccess in the bakery was not because\n<br>\nof magic, but because she wanted to\nsucceed and worked hard. In other\nwords, it was Nablette herself who put\n<br>\nthe Magic Oven in the oven. I'm sorry\nyou had to go all the way to Muruel\nForest.  I'm sorry you had to go all\n<br>\nthe way to the forest of Muruel, but I\nreceived this as a reward.": ""
+  },
+  "48142": {
+    "Would you like to give Old Oven\nPhotograph to Repotchi?<yesno><close>": ""
+  },
+  "48143": {
+    "<pc>gave Repotchi an Old Oven Photograph!": ""
+  },
+  "48144": {
+    "Mr. Nablette's success is not the\nresult of The Magic Oven, but of his\nown efforts. And yet, I'm ashamed of\n<br>\nmyself for believing Nablette's shyly\nmade-up story about The Magic Oven.\nSomeday, I'm going to become a\n<br>\ncraftsman who is rumored to be using a\nmagic tool.  I'll rebuild the\nblacksmith shop I inherited from my\n<br>\nfather!": ""
+  },
+  "48385": {
+    "A huge horn stands tall.": ""
+  },
+  "48386": {
+    "Orphea's famous Big Horn in the square\nis now just a big ornament, but it\nused to be a big hit with the kids.": ""
+  },
+  "48387": {
+    "Oh, yeah. Will you accept?  If you\ncome, I'll do something nice for you.<bw_break>": ""
+  },
+  "48388": {
+    "Well, I, the janitor, have been unable\nto clean the horn because of my bad\nknee, and the inside of the pipe has\n<br>\nbecome rusty. I was in trouble, and\nyou came to me. What a lucky boy I am!\n Well then, I'm looking forward to\n<br>\nmeeting you! Capi...": ""
+  },
+  "48390": {
+    "I see. I see! I'm glad you feel that\nway, but you must have your hands full\nwith other people's requests, don't\n<br>\nyou? I'm sure you have your hands full\nwith other people's requests right\nnow, don't you?": ""
+  },
+  "48391": {
+    "Oh, I see. That's too bad.  I thought\nyou would be the one.  It's a shame,\nreally.": ""
+  },
+  "50457": {
+    "<icon_exc>Hmm! Here's just the man for the job.\n Hey, you, will you do the poor old\nman a favor? First, he's in a cave in\n<br>\nan Underground Lake Cave in the Wena\nIslands.<%sEV_QUE_NAME0>Pom Pom Oil is a rare item that can be\nobtained by defeating Pom Pom. Pom Pom\nOil is an all-purpose oil that can\n<br>\nkill any kind of rust and stain!  It's\nan all-purpose oil. Go use it to clean\nthe bighorns. And when you're done,\n<br>\nyou can tell me if Big Horn has come\nback to life.  Fuffupu. I'm begging\nyou.<heart> request<heart>": ""
+  },
+  "48392": {
+    "Pom Pom Oil is found in the Wena Islands\n Underground Lake Cave<%sEV_QUE_NAME0>It is oil for removing rust, which can\nbe obtained rarely by defeating the<open_irai><bw_break>": ""
+  },
+  "48393": {
+    "I want you to go use that oil to clean\nthe big horn.  Fuffupu, I'll cry if\nyou don't!<bw_break>": ""
+  },
+  "48394": {
+    "If you can get back to me when you're\ndone cleaning up and find out if Big\nHorn has come back to life, I'll do\n<br>\nyou a favor.": ""
+  },
+  "48396": {
+    "Poof! That's Pom Pom Oil you're\nholding!<open_irai><bw_break>": ""
+  },
+  "48397": {
+    "If you received it, I want you to use\nthe oil to clean the big horn and see\nif the horn came back to life!<bw_break>": ""
+  },
+  "48398": {
+    "I'll do something good for you if you\ncome through to the end!  Please!<heart>Capiche.": ""
+  },
+  "48400": {
+    "The big horn stands tall. Would you\nlike some Pom Pom Oil to clean the big\nhorn?<yesno><close>": ""
+  },
+  "48401": {
+    "<pc>used Pom Pom Oil to remove rust stains\nfrom the Big Horn. Now he can use his\nclean big horn!": ""
+  },
+  "48402": {
+    "Hmm? You, you're looking refreshed.\nYou've cleaned Big Horn, haven't you?\nBut, but..!  I guess you haven't\n<br>\nchecked to see if Big Horn has come up\nfor air yet.<open_irai><bw_break>": ""
+  },
+  "48403": {
+    "I want you to do your research before\nyou come.  If you don't finish, I\ncan't do anything good for you. So I\n<br>\nbeg you.<heart>": ""
+  },
+  "48405": {
+    "Would you like to use the Big Horn?<yesno><close>": ""
+  },
+  "48406": {
+    "Oh, wow! You've done a fine job of\nflying.  I've been watching you from\nhere!  Thank you. Thanks for your hard\n<br>\nwork. What? I thought you said that\nwas an Instrument?  The Big Horn is an\nattraction that sends anyone who\n<br>\nenters it flying a long way. If word\ngets out that Orphea has fixed its\nfamous horn, it'll be a lively spot\n<br>\nagain, with people coming to play with\nthe big horn.<bw_break>": ""
+  },
+  "48407": {
+    "I'll have to start spreading the word\nabout The Return of the Big Horn right\naway.  We're going to be very busy!\n<br>\nWhat? What good thing did you promise\nme? What is the good thing you\npromised? You're quite the goofball,\n<br>\naren't you? I've fixed your bighorn so\nyou can have a blast.  That's the best\nthing you could have done.<heart>": ""
+  },
+  "48408": {
+    "What? You think Big Horn got fixed\nbecause he got his own Pom Pom Oil and\ncleaned it up? Well, it's not\n<br>\nimpossible to say that, but don't\nworry about the little things.  Have a\nheart as big as Bighorn's! Big horns\n<br>\nare always available.  Whenever you\nwant to fly from the east side of town\nto the west side entrance, or when you\n<br>\njust want to blow your worries out of\nthe water!  By all means, use it with\ngusto.": ""
+  },
+  "48411": {
+    "I want to start flying with the Big\nHorn as soon as possible, but first, I\nneed to fix my knee. The last time I\n<br>\nused the Big Horn, I tried to make a\nbig landing, but I failed and fell\ndown, hurting my knee. My brother, who\n<br>\nis the chief of Pukulet Village, would\nlaugh at me for being so pathetic.\n He's dancing all over the place. When\n<br>\nyou use the Big Horn, don't get\ncarried away and do three cartwheels\nwhile landing on the ground! Aita-ta-\n<br>\nta-ta.": ""
+  },
+  "61164": {
+    "You know what a title is? A title is\nan expression of one's personality.\n There are so many titles in this\n<br>\nworld. I want to see so many different\ntitles.  Hey, you. Can you show me the\ntitles you've seen, with a catechism?\n<br>\nThe one I want to see is the title my\ndead grandma gave me when I was\nlittle... a first-class collector.<bw_break>": ""
+  },
+  "61167": {
+    "You gonna show me? Thanks!  Talk to me\nagain, with the title of \"First-Class\nCollector\" on your Katagaki. The\n<br>\nKatagi is on the Records screen.<emoji FaceButton_Left>You can set it up by clicking on the\n\"Collector\" button. The title of \"Top\nCollector\" is given to those who\n<br>\nobtain a great number of items. And if\nyou set the crony as a crony, everyone\nwill be able to see the title. My\n<br>\ngrandma used to cachet a first-rate\ncollector and walk softly around town\nwith her shoulders in the wind. Oh,\n<br>\nhow sweet it was, holding hands with\nmy grandma, making me feel so proud.\n Oops, I talked too much. Forget what\n<br>\nI said, it's embarrassing!  Well, I'll\nbe waiting for you to show me your\ntitle!": ""
+  },
+  "61169": {
+    "<attr><feel_think_lv2><end_attr>Will you show me?  But you seem to\nhave a lot of other people's requests.\nThen come see me again when you're\n<br>\ndone with your other business!": ""
+  },
+  "61170": {
+    "<attr><feel_sad_lv2><end_attr>You won't let me see it?  I can't do\nanything about it. I can't help it.\n Come back if you change your mind!": ""
+  },
+  "61215": {
+    "I want to see who has the title of\n\"First-Class Collector\". After you\nhave set up your profile, please talk\n<br>\nto me. You can find your Records on\nthe \"Records\" page.<emoji FaceButton_Left>You can set it up by pressing the \"+\"\nbutton.<open_irai>A top collector is a title that is\ngiven to those who acquire an\nunbelievable amount of items. Then,\n<br>\nwhen you set up the crony as a crony,\nthe title becomes visible to everyone.<close_irai>My grandma was a top collector, too,\nand she used to walk softly around\ntown with her shoulders in the wind.\n<br>\nOh, how sweet it was, holding hands\nwith my grandma, making me feel so\nproud.  Oops, I talked too much.\n<br>\nForget what I said, it's embarrassing!\n Well, I'll be waiting for you to show\nme your title!": ""
+  },
+  "61207": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>That's the title! That's the title of\na first-class collector?  The same\ntitle as Bacha!<bw_break>": ""
+  },
+  "61208": {
+    "<attr><feel_think_lv2><end_attr>You can sense a certain elegance\nthere.  Bacha must have been a woman\nof a higher rank! When you're a top\n<br>\ncollector, you really do have a\ndifferent air about you.  I was\noverwhelmed. When I was younger, I\n<br>\ndidn't really care much about how\ngreat a top collector was, but now\nthat I've seen all kinds of titles, I\n<br>\nunderstand.  I wonder how hard you and\nBacha had to work to receive those\ntitles. Thanks to you, I think I know\n<br>\na little bit about Bacchan.  Thanks a\nlot! This is my way of saying thank\nyou.": ""
+  },
+  "61209": {
+    "<attr><feel_happy_lv2><end_attr>I knew it! A title is a good thing,\nisn't it?  It's full of romance!  I\nwant to see more titles. You should\n<br>\nget more and more titles and show them\nto all kinds of people.  You will be\nable to travel with pride!": ""
+  },
+  "61212": {
+    "All people who have titles are very\nrespectable people.  I'm liking titles\nmore and more.  I want to see more\n<br>\ntitles. I want to see more and more\ntitles, and I want you to get more and\nmore titles, too, and continue\n<br>\ntraveling proudly with your shoulders\noutstretched to all kinds of people!": ""
+  },
+  "84505": {
+    "<attr><feel_happy_lv1><end_attr>Soft, melting, cookie-dream<heart>I'm Cooking Guild's new master,\nCooking Angel Poshel! What's your\nname?<pc>I'm so glad you like it!  What a\ndelicious name!  I'm sure I'll become\na good cook if I cook it hard enough!\n<br>\nThis is a Cooking Guild that makes\nCooking Items!  When you eat a cooking\nitem, your power and HP will increase\n<br>\nfor a certain period of time! Above\nall, when you eat a delicious dish,\nyou will feel happy and full of joy!\n<br>\n So, why don't you try becoming a\ncook? I'd like to say that, but right\nnow, we're not recruiting newcomers.\n<br>\nI'm still a rookie, so I'm putting a\nstop to recruiting until I get used to\nworking as a master with a little more\n<br>\nexperience. But you're free to visit\nthe guild, so by all means, please\ntake a look around!  I'd be very happy\n<br>\nif you could buy some of my pride and\njoy!<heart>": ""
+  },
+  "84527": {
+    "<attr><feel_happy_lv3><end_attr>Cooking Angel, Poshelle has worked so\nhard to reopen the Cooking Guild!  She\nworked so hard to reopen the Cooking\n<br>\nGuild! I admired her so much that I\nbecame a cook.": ""
+  },
+  "84528": {
+    "<attr><feel_happy_one><end_attr>Don't you smell the delicious smell?\n Welcome to the Cooking Guild, where\neveryone's stomachs and smiles are\n<br>\nsatisfied! The Cooking Guild's motto\nis \"Delicious, full of dreams, and\nsafety first!  That's why we also have\n<br>\nto check the quality of our food. I,\nthe guild's accountant, will spare no\nexpense to ensure the safety of our\n<br>\nfood.  That is the policy of Cooking\nAngel!": ""
+  },
+  "201238": {
+    "If you're in Orphea, come on in!  We\nare Acrobatic Cake Shop! We are now\nselling our new Acro Bat Pancakes\n<br>\nexclusively at our store! It's so\npopular that if you don't buy it soon,\nit might be sold out! Ah, perhaps\n<br>\nyou're here to buy one of our\npancakes?<yesno><break>": ""
+  },
+  "201239": {
+    "<icon_exc>I thought, \"Oh no, no, no, no!  Only\none pancake left! One after another,\npeople wearing big glasses came in and\n<br>\nbought up all the pancakes. But I'll\ngive them away for free since they're\nsuch a pain in the ass.  Here you go~.": ""
+  },
+  "201240": {
+    "I bet if you dip them in honey or\nsomething, your cheeks will fall off!\n Try it~!": ""
+  },
+  "201241": {
+    "<pc>received Fluffy Pancakes (Key Items)!<me 60>": ""
+  },
+  "201242": {
+    "If you're in Orphea, come on in!\n Acrobatic Cake Shop! The long-awaited\nnew Acro Bat Pancake!  If you pour\n<br>\nhoney on it, your cheeks will fall\noff!  But they sold out so fast,\nsorry.": ""
+  },
+  "69815": {
+    "This place is called \"Adventurer's\nTavern\".  You are an adventurer,\nright? Then you definitely need this\n<br>\nplace. You can ask your friends to do\nRequest Form Quests for you.  There is\nno way you can avoid using it.": ""
+  },
+  "10163002": {
+    "<pc>The \"Mere Old Man\" was given the\nSilver Goddess Gem!<se_nots System Item>": ""
+  },
+  "52907": {
+    "<attr><feel_happy_one><end_attr>Now let's see, where is the strong\nkitty who has reached level 50?": ""
+  },
+  "52908": {
+    "<attr><feel_happy_lv1><end_attr><icon_exc><turn_pc>Oh, excuse me.  I'm looking for a top-\nnotch adventurer. When you reach level\n50 in any of the vocations, if you're\n<br>\nlooking for that extra edge, you've\ncome to the right place.  By the way,\nno private matters, please.": ""
+  },
+  "53853": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>It seems you are not ready to undergo\nmy ritual yet.  You will have to go\nthrough Holy Messenger Beniha's ritual\n<br>\nbefore you can come back here again.\nI'll be waiting for you.": ""
+  },
+  "52916": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>Ha-ha-ha. It's you, isn't it? Level\n50, top-notch adventurer.<pc>I've heard about it from the holy\nmessenger, Benihina.  I heard about\nyou from Holy Messenger Beniha. My\n<br>\nname is Seiken.  I thank fate that I\nmet you.  He says it's nice to meet\nyou from now on. Well, I don't have to\n<br>\nexplain it again, but it's a rule.\n I'm going to ask you to bear with me\nfor a moment. The role of the\n<br>\nmessengers who serve the Six Saints is\nto raise adventurers like you who\nhungrily seek strength to a higher\n<br>\nlevel. So, if you want to reach even\nhigher, you'll have to undergo a\nlittle ritual, a mystical ceremony.": ""
+  },
+  "52917": {
+    "<attr><feel_happy_lv3><end_attr>Well, let's do what needs to be done\nand clear things up.  It'll be more\nrelaxing if we get it done quickly.\n<br>\n So, how about we do the ritual in\nfront of the river of light? Oops, I\nalmost forgot to give it to you!  This\n<br>\nis a precious jewel called Silver\nGoddess Gem.": ""
+  },
+  "52919": {
+    "<attr><feel_happy_lv1><end_attr>You heard the goddess, right?  The\nceremony is over.": ""
+  },
+  "52920": {
+    "<attr><feel_happy_lv1><end_attr>Well, now that you've completed the\nliberation ritual, let me tell you a\nlittle something good.<bw_break>": ""
+  },
+  "52921": {
+    "<attr><feel_normal_lv1><end_attr>Behind every great battle in\nAstoltia's history, there were always\nstrong men who were guided by the Six\n<br>\nSaints. Some were heroes, some were\nheroes, and some scattered to the\nfield of battle as a single soldier.\n<br>\nBut all of them chose to dedicate\ntheir lives to the mission of\nprotecting this world.  And now it's\n<br>\nyour generation. Next, you will visit\nHoly Messenger Kilpappo at the\nsoutheast well on Windmill Way!": ""
+  },
+  "52928": {
+    "<attr><feel_happy_lv1><end_attr>The next Holy Messenger Kilpappo\nawaits.  He's at the well near the\nGlitter Windmill Tower on Windmill\n<br>\nWay, Pukuland Continent.<open_irai>I hope you will continue your\ntraining.": ""
+  },
+  "52929": {
+    "<attr><feel_happy_lv3><end_attr>I'm surprised you've already completed\nKilpappo's ritual.  I can't help you\nanymore, but I'll be here to see what\n<br>\nyou can do.": ""
+  },
+  "34977": {
+    "<attr><feel_think_lv1><end_attr>I came all the way here to get the key\nemblem, but I can't find the mayor of\nthis town. I've asked everyone in\n<br>\ntown, but all I get is, \"Go to the\ncircus tent.  What is going on here?": ""
+  },
+  "34978": {
+    "<attr><feel_angry_lv1><end_attr>Damn.  Where the hell did that bastard\nPakul run off to?  The interest is due\ntoday.": ""
+  },
+  "37181": {
+    "<attr><feel_angry_lv2><end_attr><turn_pc>Hey! You! If you see a small, punk-ass\nPukulipo wearing a coat named Pakul,\ntell him I'll cut his head off if he\n<br>\ndoesn't return my money!": ""
+  },
+  "34979": {
+    "The late queen of Megistris is from\nthis town.  She was originally the\ndaughter of a cake shop owner. What?\n<br>\nThat cake shop?  It's now called\nNavnav Grand Circus.": ""
+  },
+  "132430": {
+    "<attr><feel_happy_lv2><end_attr>Hello! You must be the traveler.": ""
+  },
+  "34980": {
+    "<attr><feel_happy_lv2><end_attr>The most famous event in the Town of\nOrphea is, of course, the Nabunabu\nCircus.  This time, they're going to\n<br>\nput on an amazing show. It's a special\nperformance, so Orphea residents or\nthose with Proof of Adulthood may be\n<br>\nallowed in. If you have the Proof of\nAdulthood, you should go to the circus\ntent.  It's that fancy tent up the\n<br>\nhill.": ""
+  },
+  "132307": {
+    "<attr><feel_happy_lv2><end_attr>The most famous event in the Town of\nOrphea is, of course, the Nabunabu\nCircus.  This time, they're going to\n<br>\nput on an amazing show. It's a special\nperformance, so Orphea residents or\nthose with Proof of Adulthood may be\n<br>\nallowed in. If you have the Proof of\nAdulthood, you should go to the circus\ntent.  It's that fancy tent up the\n<br>\nhill.": ""
+  },
+  "34981": {
+    "<attr><feel_happy_lv1><end_attr>Thanks to the kids being out, I can\nspread my wings for the first time in\na while.  I'm going to do a lot of\n<br>\nshopping today. What? The kids? We\nwent to see the Nabunabu Circus. They\nsaid that for the 15th anniversary of\n<br>\nthe circus, kids in Orphea can see the\nshow for free!": ""
+  },
+  "34982": {
+    "<attr><feel_angry_one><end_attr>This guy, Pakul, who often comes to\ntaverns, is really impossible. He\nwould try to put my clothes on a\n<br>\ngarbage bag and say, \"I'm guilty of\nrape and other crimes! and he tries to\nput a garbage bag over my clothes.": ""
+  },
+  "34983": {
+    "The mayor of Orphea is the man who has\nbrought this once deserted town of\nOrphea back to its former glory. The\n<br>\nmayor started the Great Nabu-Nabu\nCircus, and the tourists just came\npouring in.  The mayor. No, the mayor\n<br>\nis the town's benefactor.": ""
+  },
+  "34984": {
+    "This is the Town of Orphea.  It must\nhave been hard work to get here.  Take\nyour time to look around. You can make\n<br>\nfriends at the tavern.  If you do what\nthe introducer asks you to do, you\nwill be able to use the tavern. There\n<br>\nis also a Priest who is changing jobs.\nThe tavern is located north of the\nTraveler Bazaar, at the end of the\n<br>\nstreet that leads to the tunnel. The\nInn has a Travel Concierge who offers\na variety of services.  You can\n<br>\nregister by talking to the information\ndesk. Once you've had a chance to look\naround, you'll be able to solve the\n<br>\ntown's problems. If the enemies are\nstrong, you may want to try leveling\nup or changing jobs. If you have an\n<br>\nitem called an Intercontinental Rail\nPass, you can take a train to another\ncontinent.  I heard that passes are\n<br>\nrarely available. And if anyone has\nanything to tell you, it's pink in the\nwipeout.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>Please talk to them when you see them!\n If you find one, please talk to him\nor her!": ""
+  },
+  "61582": {
+    "This is the Town of Orphea.  It must\nhave been hard work to get here.  Let\nme tell you something. If you have\n<br>\nsomething to tell someone, they're\nright over there, just like Mr.\nHapopo, with the pink wipeout.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>I am sure you will be able to find out\nmore about the newest addition to the\nHarpoppo family. Why don't you talk to\n<br>\nMr. Hapopo right away?  Look, it's\njust down the street.": ""
+  },
+  "130575": {
+    "This is the Town of Orphea. Leaving\nhere is Orphea Region East, and\nfurther east is the Popola Region.\n<br>\n Further east is the Pukulet Region.\nOrphea Region East is the area around\nthe Town of Orphea where the weaker\n<br>\nmonsters live.  If you want to start\ntraining, this is the best place. The\ntavern is in a rather obscure\n<br>\nlocation, so let me tell you about it.\nThe tavern is just north of here, down\nthe street from the Traveler Bazaar,\n<br>\nand into the tunnel. And if anyone has\nanything to tell you, please do so in\nthe pink wipeout.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>Please talk to them when you see them!\n If you find one, please talk to him\nor her!": ""
+  },
+  "130576": {
+    "This is the Town of Orphea. Leaving\nhere is Orphea Region East, and\nfurther east is the Popola Region.\n<br>\n Further east is the Pukulet Region.\nOrphea Region East is the area around\nthe Town of Orphea where the weaker\n<br>\nmonsters live.  If you want to start\ntraining, this is the best place. The\ntavern is in a rather obscure\n<br>\nlocation, so let me tell you about it.\nThe tavern is just north of here, down\nthe street from the Traveler Bazaar,\n<br>\nand past the tunnel. And if you have\nsomething to tell someone, he or she\nis over there, just like Mr. Hapopo,\n<br>\nwith the pink wipeout.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>I am sure you will be able to find out\nmore about the newest addition to the\nHarpoppo family. Why don't you talk to\n<br>\nMr. Hapopo right away?  Look, it's\njust down the street.": ""
+  },
+  "34985": {
+    "Yeah, if it's Navnav Grand Circus,\nthat's the weird building you see over\nthere.  What? You didn't hear that?\n<br>\nSorry, sorry. All travelers to Orphea\ncome here for the circus, so I just\nanswered as usual.": ""
+  },
+  "34986": {
+    "<attr><feel_happy_lv2><end_attr>You really are a wonderful mayor, Mr.\nNablette. Inviting all the kids in\ntown to the circus for free!  That's\n<br>\nreally tubby.": ""
+  },
+  "44087": {
+    "Sir. This is the backstage door.  If\nyou want to see the Great Navnav\nCircus, spin around to the other side\n<br>\nof the door!": ""
+  },
+  "34987": {
+    "<attr><feel_think_lv1><end_attr>Captain Nablette is still single at a\nvery old age.  I wonder if he's\nplanning to get married?": ""
+  },
+  "34988": {
+    "<attr><feel_think_lv1><end_attr>Captain Nablette has accepted a boy\nwho lost his parents into his circus\ntroupe.  His name is Pudin from\n<br>\nPukulet Village. He's old, single, and\nI wonder if he's planning to replace\nhim in the circus.": ""
+  },
+  "34989": {
+    "After leaving here, you will find\nyourself in Orphea Region West.  There\nare more powerful monsters here than\n<br>\nin Orphea Region East. If you go\nfurther southwest, you will come to\nWindmill Way, where there are many\n<br>\npowerful monsters.  It is best to go\nthere after you have trained enough.": ""
+  },
+  "34991": {
+    "Sorry, my dear guests. This is a\nspecial performance, so only Orphea\nhumans are allowed to see it. Give it\n<br>\nup for now.  Come back next time!": ""
+  },
+  "34992": {
+    "<attr><feel_happy_lv2><end_attr>Today's Nabunabu Grand Circus is a\nspecial performance!  It's a special\nSho for Orphea residents only!  What a\n<br>\nsurprise, children are invited for\nfree! Hmm? What's up, traveler?  Ha-\nha-ha. You have the Proof of\n<br>\nAdulthood, so you want the key emblem.\nThe mayor of this town is Captain\nNablette, but he's in the middle of a\n<br>\nperformance right now. Well, you can\ngo in, but wait until the circus is\nover, then ask the Commander for the\n<br>\nkey emblem.": ""
+  },
+  "34993": {
+    "Sorry, my dear guests. This is a\nspecial performance, so only Orphea\nhumans are allowed to see it.  Unless\n<br>\nyou have Proof of Adulthood. Give it\nup for now.  Come again next time!": ""
+  },
+  "34994": {
+    "I'm traveling with a companion to\ninvestigate demon miasma around the\nworld. Are monsters gathering where\n<br>\nthe miasma appears, or are evil\nmonsters attracting the miasma? To\nfind out, I am traveling around the\n<br>\nworld by order of King Kamiharmui.": ""
+  },
+  "48476": {
+    "Traveler. Do you know what it is?\n Rivers of light are the crevices in\nthe earth that emit the light that\n<br>\nextends beneath this bridge. Rivers of\nlight are not only here in Orphea, but\nin many places in Astoltia, but we\n<br>\ndon't know what's at the bottom. It's\nscary because it shines like it's\ncutting through the earth, but I don't\n<br>\nthink this beautiful scenery is a bad\nthing.": ""
+  },
+  "34995": {
+    "In my hometown, Eltona Continent, just\nlike here in Pukuland Continent, demon\nmiasma appears here and there. It\n<br>\nseems to me that a great dark power is\ntrying to cover the world.": ""
+  },
+  "34996": {
+    "Come on in.  Yeah? If you want to\nshop, do it from in front of the\ncounter.": ""
+  },
+  "48858": {
+    "I've decided to leave the Material\nShop to my sister Popil and\nconcentrate on the Coin Shop.  Oh, and\n<br>\nif you want to shop, I'll be right in\nfront of the counter!": ""
+  },
+  "150190": {
+    "Oops. I'm lost, aren't I?  If you want\nto shop, just talk to me from the\ncounter.": ""
+  },
+  "48734": {
+    "Come on in.  Yeah? If you want to\nshop, do it from in front of the\ncounter.": ""
+  },
+  "34997": {
+    "<attr><feel_think_one><end_attr>The circus tent is making a lot of\nnoise.  If it's that interesting, I'll\ngo see it sometime.": ""
+  },
+  "34998": {
+    "<attr><feel_angry_lv3><end_attr>I heard. Captain Nablette lured the\nchildren to the circus tent and\nkidnapped them! That's diabolical!\n<br>\n God, please give Nablette a good\nwhack!": ""
+  },
+  "34999": {
+    "<attr><feel_sad_lv1><end_attr>I heard that some kids were kidnapped\nwhile watching the Nabunabu Circus.\nHmm? How do I know?  Because they were\n<br>\npeeking through a crack in the circus\ntent!": ""
+  },
+  "35000": {
+    "<attr><feel_sad_lv3><end_attr>Why has my child been kidnapped?  What\nhas she done?  Oh, please be safe.": ""
+  },
+  "35001": {
+    "<attr><feel_angry_lv3><end_attr>Mr. Pakul just came in and told me\nthat our child had been kidnapped by\nCaptain Nablette. How could the mayor\n<br>\nof Orphea kidnap a child?  Nablette! I\nwon't forgive you!": ""
+  },
+  "35002": {
+    "What's the matter? You're in such a\nrush.  What? Have you seen the circus\nleader?  No, he didn't come this way.": ""
+  },
+  "35003": {
+    "<attr><feel_sad_lv3><end_attr>There's no way that that Captain\nNablette would kidnap a child. But Mr.\nPakul saw it with his own eyes! What's\n<br>\ngoing on?": ""
+  },
+  "44088": {
+    "Sir. This is the backstage entrance.\n The group is taking a break, so be\nquiet.": ""
+  },
+  "35004": {
+    "<attr><feel_angry_lv1><end_attr>I thought I heard a scream from the\ncircus tent, and then Mr. Pakul came\nout, making a fuss, but what happened?\n<br>\nWhat? Captain Nablette killed the\nkids? Then those screams were my\nchildren's!  My child's been kidnapped\n<br>\ntoo!": ""
+  },
+  "35005": {
+    "<attr><feel_sad_lv3><end_attr>I can't believe Captain Nablette took\nthe kids.  Oh, I wonder if my baby is\nsafe.": ""
+  },
+  "35006": {
+    "<attr><feel_sad_lv1><end_attr>I never thought he would use such\nmagic to wipe out both himself and the\nchildren.  I wonder what happened to\n<br>\nthe Commander. We can't hold the\ncircus at this rate, but now's not the\ntime to be thinking about that. The\n<br>\nmembers of the troupe in the backstage\noffice behind the circus tent might\nknow something about the leader.  I'll\n<br>\nask them later.": ""
+  },
+  "35007": {
+    "<attr><feel_sad_lv1><end_attr>Until the case is solved, the Nabunabu\nCircus is closed. I wonder what's\nwrong with the head of the troupe that\n<br>\nhe used such magic to wipe out both\nhimself and his children.": ""
+  },
+  "35008": {
+    "<attr><feel_angry_lv3><end_attr>I heard. It seems that a ruffian named\nNablette has kidnapped all the\nchildren in Orphea. What a wicked\n<br>\nPukulipo you are!  I'll break his neck\nif I find him!": ""
+  },
+  "35009": {
+    "<attr><feel_angry_lv3><end_attr>Just now, Captain Nablette burst out\nfrom behind the circus tent like the\nwind!  He was heading west! I tried to\n<br>\ncatch him, but he was so quick, I lost\nhim in the blink of an eye! Damn it~!\nBy the way, we're on the east side!\n<br>\n West is the other way, so be careful!": ""
+  },
+  "35010": {
+    "<attr><feel_angry_lv3><end_attr>Nablette just walked through here!  He\nmust be a terrible guy to kidnap all\nthe kids in town!": ""
+  },
+  "35011": {
+    "<attr><feel_angry_lv3><end_attr>I knew it! Captain Nablette took my\nbaby! I saw him!  I saw him take\nPudin, who was crying, and force her\n<br>\nout of town!": ""
+  },
+  "35012": {
+    "Oh, no? Did I look wrong?  I thought I\nsaw Captain Nablette heading toward\nthe backstage.": ""
+  },
+  "35013": {
+    "<attr><feel_think_lv2><end_attr>I saw a guy who looked like Nablette\nrunning across this bridge just now.\n I wonder if he is still in this town.": ""
+  },
+  "35014": {
+    "<attr><feel_happy_lv2><end_attr>Did you see it? That horrible monster!\n Nablette, you're really something to\nbehold, standing up against such a\n<br>\nmonster with such a small body! Well,\nthis is our chance.  If we go to\nMuruel Forest and defeat the monster,\n<br>\nwe'll get the Key Emblem for sure!\nMuruel Forest is located at the west\nexit, further west in Orphea Region\n<br>\nWest, right? We'd better get moving!": ""
+  },
+  "35015": {
+    "Dear God, Queen Alwa of Heaven, please\nprotect Captain Nablette from the\nhands of the demon Sigras. Oh, of\n<br>\ncourse, you can protect me from the\ndemon Duke Sigras.": ""
+  },
+  "35016": {
+    "<attr><feel_think_lv2><end_attr>That demon Duke Sigras said something\nstrange about making a pact with Alwa.\nSpeaking of Alwa, the late Queen Alwa\n<br>\nwho married into Megistris from\nOrphea, what in the world does she\nhave to do with the devil? The demon\n<br>\nis said to be in Muruel Forest.  We're\non the east side, so if you want to go\ninto the forest, take the west exit.": ""
+  },
+  "35017": {
+    "I was walking in Orphea Region West\nearlier, and I met Captain Nablette.\nHe mentioned something about going to\n<br>\nSilver Hill to pick up his children,\nbut I wonder if the Sigras thing has\nbeen taken care of.": ""
+  },
+  "35018": {
+    "<attr><feel_sad_lv2><end_attr>Is my baby really safe?  I don't mean\nto pick on the Commander, but we're\ndealing with such a terrifying\n<br>\nmonster!": ""
+  },
+  "35019": {
+    "<attr><feel_happy_lv2><end_attr>You've done it, Mayor.  Outsmarting\nmonsters single-handedly. And with\nsuch a graceful way of carrying\n<br>\nhimself!  I can't help but fall in\nlove with you.": ""
+  },
+  "35020": {
+    "<attr><feel_sad_lv1><end_attr>We're idiots, aren't we?  Captain\nNablette had a good reason for\nkidnapping the children. But how did\n<br>\nthe Commander know that the demon Duke\nSigras would attack the children?\n It's a mystery when you think about\n<br>\nit.": ""
+  },
+  "35021": {
+    "<attr><feel_happy_lv2><end_attr>Nablette is a wonderful mayor, isn't\nshe? Protecting all the children in\nthe town from those terrible monsters!\n<br>\n You really have courage.": ""
+  },
+  "44148": {
+    "<attr><feel_angry_lv2><end_attr>Duke Sigras, the demon!  But Captain\nNablette was cool.": ""
+  },
+  "35022": {
+    "<attr><feel_sad_lv2><end_attr>I can't believe that such a horrible\nmonster would appear.  If my child\nhadn't been kidnapped, he might have\n<br>\nkilled her. The Commander must have\nknown what was going on, and took our\nchild for the good of everyone in\n<br>\ntown.  Please, Commander, stay safe!": ""
+  },
+  "35023": {
+    "<attr><feel_sad_lv1><end_attr>Captain Nablette tried to protect the\ntown and the children by taking the\nbait?  Damn, you're making me cry! All\n<br>\nright..! Leave this to me... and go\nafter the Commander and defeat the\ndemon Duke Sigras in Muruel Forest!": ""
+  },
+  "35024": {
+    "<attr><feel_sad_lv1><end_attr>Captain Nablette tried to protect the\ntown and the children by taking the\nbait?  Damn, that makes me cry! I'll\n<br>\nprotect the Nabu-Nabu Circus!  Not a\nsingle mouse is allowed in the circus\ntent until the leader returns safely!": ""
+  },
+  "35025": {
+    "I am traveling with my companion by\norder of King Kamiharmui to\ninvestigate demon miasma around the\n<br>\nworld. I never expected such monsters\nto appear even inside the town.  Could\nthis be the result of demon miasma?": ""
+  },
+  "35026": {
+    "<attr><feel_angry_lv1><end_attr>A demon named Duke Sigras appeared in\nthe town and was covered with\ntremendous evil power. I must hurry\n<br>\nback to Kamiharmui before the monster\nreturns and tell our king of this\ngreat event!": ""
+  },
+  "35027": {
+    "<attr><feel_angry_lv2><end_attr>What? You!  You defeated the monster\nwhile I was standing in the way!\n Ugh... I was wrong! It can't be\n<br>\nhelped. I'll give you the key emblem.\n You're quicker than you look.": ""
+  },
+  "35028": {
+    "No need to thank me!  I was only doing\nthe obvious. It's because I prayed to\nGod that a weak traveler like you was\n<br>\nable to defeat such a terrible\nmonster. But you know, anyone would\nhave done the same thing in such a\n<br>\nsituation.  So don't worry about\nthanking me.": ""
+  },
+  "35029": {
+    "<attr><feel_happy_lv1><end_attr>If I were a little stronger, I would\nhave been able to help you guys out.\n Anyway, I'm glad you're safe. Now,\n<br>\nget over to the circus tent and show\nyour face.  The whole town is waiting\nfor you.": ""
+  },
+  "35030": {
+    "<attr><feel_angry_lv3><end_attr>Well, thank you for saving us from the\nmonster, but my little girl scraped\nher knee on the way back from Silver\n<br>\nHill! How could you injure your\nprecious child?  Captain Nablette,\nyou're terrible, aren't you?": ""
+  },
+  "35031": {
+    "Our boy and all the kids in town were\nbrought home by the Commander.  He is\nOrphea's benefactor. He even invited\n<br>\nus to the circus for free to make up\nfor the trouble we caused in the town!\n I really bow down to the Commander.": ""
+  },
+  "35032": {
+    "<attr><feel_happy_lv3><end_attr>Yo! I heard!  I heard you defeated the\ndemon Duke Sigras.  You did it! Thanks\nto you, the kids are back!  With the\n<br>\nCommander too, of course!  Good, good,\ngood! They're all in the circus tent.\n You should go, too!": ""
+  },
+  "44090": {
+    "Sir. This is the backstage door.  If\nyou want to see the Great Navnav\nCircus, spin around to the other side\n<br>\nof the door!": ""
+  },
+  "35033": {
+    "<attr><feel_happy_lv3><end_attr>My child is back!  And of course, so\nare all the other children and Pudin\nthe circus master. It's thanks to\n<br>\nCaptain Nablette that everyone is\nsafe.  I'm so glad he's the mayor!": ""
+  },
+  "35034": {
+    "<attr><feel_happy_lv3><end_attr>Come on, come on! To celebrate the\nreturn of peace to Orphea, we have a\nspecial performance by the Great\n<br>\nNabunabu Circus!  Come and see it!": ""
+  },
+  "35035": {
+    "I am traveling with my companions by\norder of King Kamiharmui to\ninvestigate demon miasma around the\n<br>\nworld. It is said that Queen Alwa, who\nonce made a pact with the demon Duke\nSigras, had the power of prophecy. If\n<br>\nshe were still alive today, I would\nhave asked her to show me the way out\nof the demon miasma and the evil that\n<br>\nis creeping into Astoltia.": ""
+  },
+  "35036": {
+    "<attr><feel_think_lv1><end_attr>You're late, Inaniwa. If we don't\nhurry, the demon Duke Sigras will\nreturn.  We have to get out of here as\n<br>\nsoon as possible! Did you defeat\nSigras?  Did you? Really? Really you?\n Then there's no need to leave in\n<br>\nhaste.  Then there's no need to rush\nout. Let's continue our investigation.": ""
+  },
+  "35037": {
+    "<attr><feel_happy_lv3><end_attr>I am the Nabunabu Circus, and I am the\nMaster Gigarde, the props man and the\ntout! Come on! Poor travelers!  Gather\n<br>\nyourselves to the circus tent!": ""
+  },
+  "35038": {
+    "<attr><feel_angry_lv3><end_attr><turn_pc>Damn.  Where the hell is that bastard\nPakul hiding under a cloud?  The\nrepayment date has long passed! If I\n<br>\ndon't do something, the boss will\nbreak my horn.  Damn you, Pakul! I\nwant my money back!": ""
+  },
+  "35039": {
+    "King Megistris and the late queen had\nnever met before they were married! My\ngrandma told me that she was just a\n<br>\ntown girl when all of a sudden she was\nsent by the king.": ""
+  },
+  "35040": {
+    "<attr><feel_think_lv2><end_attr>When I was a kid, Captain Nablette\nused to play on Silver Hill with my\nsister, Alwa. Alwa was so cute.  Oh,\n<br>\nmy God, that was so sweet.": ""
+  },
+  "35041": {
+    "The kids go to see the Nabunabu Circus\nevery day. They want to be circus\nperformers when they grow up!": ""
+  },
+  "35042": {
+    "<attr><feel_angry_one><end_attr>A guy named Pakul, who used to come to\nthe tavern a lot, has disappeared.\n I've had the tavern's tab fumed... I\n<br>\ndon't know anything about such things,\nbut isn't this called a crime or\nsomething?  It's really impossible.": ""
+  },
+  "35043": {
+    "<attr><feel_think_lv1><end_attr>Town of Orphea is a fun town, but the\nCity of Megistris is kind of a cushy\nplace. I think a town shows the\n<br>\ncharacter of the people who rule it.": ""
+  },
+  "35044": {
+    "<attr><feel_happy_lv3><end_attr>Orphea's famous Nabu-Nabu Circus\nTroupe is in that weird building! You\ncan enjoy the wonderful tricks of\n<br>\nCaptain Nablette, the hero who saved\nthe children of Orphea, and delicious\nAcrobatic Cake!": ""
+  },
+  "35045": {
+    "<attr><feel_happy_lv2><end_attr>Nablette is a wonderful mayor, isn't\nshe? He protects the town from\nmonsters and puts on a wonderful\n<br>\ncircus.  I really admire him.": ""
+  },
+  "44149": {
+    "Sir. This is the backstage door.  If\nyou want to see the Great Navnav\nCircus, spin around to the other side\n<br>\nof the door!": ""
+  },
+  "35046": {
+    "The leader of the Nabunabu Circus, a\nboy named Pudin, is a memento of a\ncircus performer who used to be in the\n<br>\ncircus. He told me the other day that\nhe dreams of becoming a circus\nperformer like his parents when he\n<br>\ngrows up.": ""
+  },
+  "35047": {
+    "<attr><feel_happy_lv3><end_attr>Welcome, welcome, welcome!  Nabunabu\nGrand Circus Entrance is here!  We\nhave a lot of exciting acts to show\n<br>\nyou!": ""
+  },
+  "126616": {
+    "Please refrain from entering while the\nbuilding is being renovated.": ""
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "49051": {
+    "<attr><feel_happy_lv1><end_attr>Oh, hello! Are you a traveler?  This\nis Bolter's Bag Workshop.  This is my\nfather's workshop. He makes a big bag\n<br>\nthat can hold 100 different items, so\nit's very popular with travelers. But\nmy dream is to see the world like a\n<br>\ntraveler rather than a craftsman!  My\nfather says that's what I want to do.\nI'd like to hear about your travels,\n<br>\nif you don't mind me asking, but\nperhaps you came here because you\nwanted a big bag of toys that my\n<br>\nfather makes?<yesno><break>": ""
+  },
+  "49052": {
+    "<attr><feel_happy_lv2><end_attr>Good! Then I'm sure we'll have lots to\ntalk about. I know it's a small\nworkshop, but please take your time.": ""
+  },
+  "49053": {
+    "<attr><feel_normal_lv1><end_attr>Hmmm. I knew it.  I understand. I'll\nask my father when he comes back. But\nit's my father's rule that when he\n<br>\nmakes a bag for a traveler, he asks\nthe traveler to gather the materials\nhimself. Well, there are two materials\n<br>\nneeded.  First, you need to go to the\nUpper Jule Island.<%sEV_QUE_NAME0>The Giant Lizard Skin is often dropped\nby the Then there's the one on Muse\nCoast.<%sEV_QUE_NAME1>Tanning Extract is a substance that is\ndropped by the With these two items,\nyou can make a large bag of 100\n<br>\ndifferent items.": ""
+  },
+  "49054": {
+    "<attr><feel_happy_lv1><end_attr>You are going to bring it to me,\nright?  I understand. Let's see, the\ntraveler's name is... Yes.<pc>Mr. K. Well then.<pc>Mr.  Please be careful.": ""
+  },
+  "49055": {
+    "<attr><feel_sad_lv1><end_attr>You bring it to me.  What's that? But,\ndon't travelers have a lot of favors\nto ask for? That's no good.  It takes\n<br>\na lot of work to gather materials.\n I'll ask you to do it when you're\nfree.": ""
+  },
+  "49056": {
+    "<attr><feel_sad_lv1><end_attr>You are going to stop, aren't you? I\nunderstand.  It's hard to gather\nmaterials, isn't it?": ""
+  },
+  "49057": {
+    "<attr><feel_happy_lv1><end_attr>I've never been outside of Julet Town.\nBut my father has suggested it, and I\nwould like to leave Julet Town and\n<br>\ntravel around the world someday. So\nI'd love to hear about your travels,\nbut perhaps you're here because you\n<br>\nwant the big bag of goodies that my\nfather makes?<yesno><break>": ""
+  },
+  "49058": {
+    "<attr><feel_normal_lv1><end_attr>If you want a big bag of toys, I'll\nask my father for one when he comes\nback later. But it is my father's rule\n<br>\nthat when he makes a bag for a\ntraveler, he asks the traveler to\ngather the materials by himself. Well,\n<br>\nthere are two materials needed.\n First, you need to go to the Upper\nJule Island.<%sEV_QUE_NAME0>The Giant Lizard Skin is often dropped\nby the Then there's the one on Muse\nCoast.<%sEV_QUE_NAME1>Tanning Extract is a substance that is\ndropped by the With these two items,\nyou can make a large bag of 100\n<br>\ndifferent items.": ""
+  },
+  "49059": {
+    "<attr><feel_happy_lv1><end_attr>Then please gather the two materials\nmy father will need to make a big bag\nof toys.<open_irai><bw_break>": ""
+  },
+  "49060": {
+    "<attr><feel_happy_lv1><end_attr>One is in Upper Jule Island<%sEV_QUE_NAME0>One is the Giant Lizard Skin that is\noften dropped by the The other is at\nMuse Coast.<%sEV_QUE_NAME1>The Tanning Extract that the \"Mere Old\nMan\" will drop. Good luck!": ""
+  },
+  "49061": {
+    "Would you give Tote the Giant Lizard\nSkin and Tanning Extract?<yesno><case 1><break><case 2><close><case_cancel><close>": ""
+  },
+  "49062": {
+    "<pc>gave Tote a Giant Lizard Skin and\nTanning Extract!": ""
+  },
+  "49063": {
+    "<pc>I went out and took a walk around the\ntown for a while. The sea breeze was\nrefreshing, and I passed the time\n<br>\nthinking about it. It was time to go\nback to Tote's place.": ""
+  },
+  "49064": {
+    "<attr><feel_happy_lv1><end_attr>Ah, welcome back<pc>Mr. Kato.  By any chance, did you\ngather the materials for a big bag of\ntoys?": ""
+  },
+  "49065": {
+    "<attr><feel_sad_lv1><end_attr>Huh? Was I wrong?  I'm sorry for my\nhasty response.": ""
+  },
+  "49066": {
+    "<attr><feel_happy_lv2><end_attr>Wow! This is a quality Giant Lizard\nSkin.  The Tanning Extract is perfect.\n With this, I'm sure we can make a\n<br>\ngood bag. Let's see.  Then, when dad\ncomes home, I'll have him start making\na big bag of toys. As expected, it\n<br>\nwill take a little time, so please\ncome back in a while!": ""
+  },
+  "49067": {
+    "It takes 3 minutes in real time to\ncomplete the big bag of toys. Let's\ncome back in 3 minutes.<open_irai>": ""
+  },
+  "49068": {
+    "<pc>received a large bag of toys!": ""
+  },
+  "49070": {
+    "<attr><feel_happy_lv3><end_attr>Ah!<pc>Welcome back, Mr. Kato!  My father\nmade me a big bag of toys!": ""
+  },
+  "49072": {
+    "<attr><feel_happy_lv1><end_attr>Oh, that's right. My dad...<pc>As soon as I finished the big bag of\ntoys, he went out. This is what I\nalways do.  I'm going to make the\n<br>\nultimate bag of toys! and then he\nalways goes out to gather materials.\nBut I'm also rooting for him to make\n<br>\nthe ultimate item bag. He also said\nthat if I can make it, I can go on a\ntrip. So until then, I'm going to try\n<br>\nmy best to help him with his workshop!": ""
+  },
+  "49073": {
+    "<attr><feel_happy_lv1><end_attr>Ah!<pc>Mr. Kato.  How do you like the big bag\nof toys?  I would be happy if you like\nit. I am sure that one day I will be\n<br>\nable to make a bigger bag, so please\ncome back again someday.": ""
+  },
+  "49074": {
+    "<attr><feel_happy_lv1><end_attr>Ah!<pc>Mr. Kato.  How do you like the big bag\nof toys?  I would be happy if you like\nit. Actually, there is something I\n<br>\nwould like to discuss with you. Well,\nI would like to consult with you when\nI receive two key emblems!": ""
+  },
+  "58928": {
+    "<attr><feel_sad_lv1><end_attr>Ah!<pc>Mr. Kohjiro!  What should I do? I'm in\ntrouble. I've got an order for a giant\ntool bag, specially made by my dad,\n<br>\nbut I can't find the Mad Leather to\nmake it. I have at least two key\nemblems.<pc>I'd like to ask you for a favor.\n Could you please get Mad Leather for\nme? of King Ladis Island.<%sEV_QUE_NAME0>I'm sure you can get this item by\ndefeating the \"Mere Old Man\"!  I'd\nlike you to bring me two of them. And\n<br>\nthen...<pc>I'll ask my father to make one for\nyou, too! The huge tool bag can hold\n150 different items, which is very\n<br>\nreassuring for travelers!": ""
+  },
+  "58929": {
+    "<attr><feel_happy_lv1><end_attr>Thank you very much!  It was an\nimportant order from a familiar\ncustomer, so it's very helpful.<%sEV_QUE_NAME0>My father said that the \"Mere Old Man\"\nis a formidable monster, so please be\ncareful and have a safe trip.": ""
+  },
+  "58930": {
+    "<attr><feel_sad_one><end_attr>Thank you very much!  But...<pc>It seems that you are taking on a lot\nof requests. Well then<pc>I can't ask for your help.  Ah, I\ndon't know what to do.": ""
+  },
+  "58931": {
+    "<attr><feel_sad_one><end_attr>I see.  I'm sorry for being\nunreasonable.  I don't know what to\ndo.": ""
+  },
+  "58932": {
+    "<attr><feel_normal_lv1><end_attr>To make a giant tool bag\n King Ladis Island<%sEV_QUE_NAME0>and get two Mad Leathers.<open_irai><bw_break>": ""
+  },
+  "58933": {
+    "<attr><feel_normal_lv1><end_attr><%sEV_QUE_NAME0>My father said that the \"Mere Old Man\"\nis a formidable monster, so please be\ncareful and have a safe trip.": ""
+  },
+  "58934": {
+    "Would you like to give Tote two Mad\nLeathers?<yesno><case 1><break><case 2><close><case_cancel><close>": ""
+  },
+  "58935": {
+    "<pc>gave Tote a pair of Mad Leather!": ""
+  },
+  "58936": {
+    "It takes 3 minutes in real time to\ncomplete the giant bag of toys. Let's\ncome back in 3 minutes.": ""
+  },
+  "58937": {
+    "<attr><feel_happy_lv1><end_attr>Ah!<pc>Welcome back, Mr. Kato!  Did you get\ntwo Mad Leathers by any chance?": ""
+  },
+  "58938": {
+    "<attr><feel_normal_lv1><end_attr>Huh? Was I wrong?  I'm sorry for my\nhasty response.": ""
+  },
+  "58939": {
+    "<attr><feel_happy_lv3><end_attr>Thank you very much!  When Dad comes\nhome, I'll have him make a huge bag of\ntoys out of this.<pc>I'll make sure to order one for you,\ntoo, okay?  Please come back in a\nwhile!": ""
+  },
+  "58940": {
+    "<pc>I went out and strolled around the\ntown for a while. The sea breeze\nsmelled a little fishy today. It's\n<br>\ntime to go back to Tote's place.": ""
+  },
+  "58941": {
+    "<pc>received Baggage to Charon (Key Items)\nfrom Tote!<me 60>": ""
+  },
+  "58942": {
+    "<attr><feel_normal_lv1><end_attr>Ah!<pc>Mr. Kikuchi.  I haven't made a huge\nbag of toys yet. I've asked my father\nto make it for me, so please come back\n<br>\nto my workshop later.": ""
+  },
+  "58943": {
+    "<attr><feel_happy_lv1><end_attr>Ah!<pc>Welcome back, Mr. Kosaka!  My father\nmade me a big bag of toys to give to a\nfamiliar customer! But...<pc>It seems that it will take a little\nmore time for the \"Mere Old Man.<bw_break>": ""
+  },
+  "58944": {
+    "<attr><feel_normal_lv1><end_attr>excuse me<pc>Can you please deliver the bag I\nordered to a customer's place until\nthe bag is ready?<yesno><case 1><break><case 2><break><case_cancel><break>": ""
+  },
+  "58945": {
+    "<attr><feel_sad_lv2><end_attr>Ugh. Please do something about that!\n I've been asked to deliver it ASAP,\nbut I just haven't gotten around to\n<br>\nit.<bw_break>": ""
+  },
+  "58946": {
+    "<attr><feel_happy_lv1><end_attr>Thank you very much! I'll get it ready\nright away.  Well, that should do it.\nThen, please deliver this package to\n<br>\nItem Shop Charon at the Beach Trading\nPost in Verinard South. Thank you very\nmuch!": ""
+  },
+  "58947": {
+    "<attr><feel_normal_lv1><end_attr>I need you to deliver the package to\nItem Shop Charon at the Beach Trading\nPost in Verinard South.<open_irai><bw_break>": ""
+  },
+  "58948": {
+    "<attr><feel_normal_lv1><end_attr>By the time I got back from the Beach Trading Post<pc>I will also complete a huge bag of\ntoys for you.": ""
+  },
+  "58949": {
+    "<pc>received a huge bag of tools!": ""
+  },
+  "58950": {
+    "You can now have 150 kinds of items!\nIf you have 101 or more Items, the\n11th page will appear in \"Items to\n<br>\nUse\"!<me 71>": ""
+  },
+  "58951": {
+    "<attr><feel_happy_lv1><end_attr>welcome home<pc>Mr. K!  I'm sorry for relying on you\nfor so many things.  Thank you so much\nfor your help!<pc>The huge bag of toys for Mr. Kikuchi\nwas finally completed!": ""
+  },
+  "58953": {
+    "<attr><feel_happy_lv1><end_attr>Thanks to you, it was very helpful!  I\nhope Item Shop Charon was pleased with\nyour work.": ""
+  },
+  "58954": {
+    "<attr><feel_sad_lv1><end_attr><icon_exc>What? Did he ask you if this bag was\nreally made by my father?  Was that\nso? Well...<pc>Mr. K. I'm going to tell you the\ntruth. The bag I gave to Mr. Charon...<pc>The bag that I gave to Mr. Kikkawa was\nnot made by my father. I'm sorry.  I\nmade it for you. I told you before\n<br>\nthat my father was always away from\nhis workshop looking for materials for\nthe Ultimate Charms Bag. That was a\n<br>\nlie.  The truth is, my father went out\nto look for materials and never came\nback. To keep his reputation intact, I\n<br>\nstarted making the bags instead. He\ntaught me how to make them. But just\nlike my father said, I didn't have the\n<br>\ntalent to be a bag-maker.": ""
+  },
+  "58955": {
+    "<attr><feel_sad_lv1><end_attr>I can't afford to ruin my father's\nreputation any further, so I'm going\nto take a break from the workshop for\n<br>\na while. But he will definitely come\nback someday.  So when he does, please\ncome back to make bags again. I'll be\n<br>\nwaiting for you.": ""
+  },
+  "58956": {
+    "<attr><feel_sad_lv1><end_attr>I can't afford to damage my father's\nreputation any further, and I think\nI'll be taking a break from this\n<br>\nworkshop for a while.<pc>Mr.. I need to discuss something with\nyou, so when you receive the four key\nemblems, will you come back and see me\n<br>\nagain?": ""
+  },
+  "71836": {
+    "<attr><feel_angry_lv1><end_attr><pc>Mr. Kato, I'm in trouble!  I finally\nfound out where my father is! The\npeddler's customer told me.  He said\n<br>\nhe was headed to a place called Budley\nRock Zone in Ogreed Continent. I can't\nbelieve that he would leave his\n<br>\nworkshop unattended for so long just\nbecause he's looking for materials for\nthe ultimate tool bag! Please! Can you\n<br>\nplease go to Budley Rock Zone and\nbring my father back?": ""
+  },
+  "71837": {
+    "<attr><feel_angry_lv1><end_attr>Good! Thank you.  I'll be sure to\nthank you when my father comes back.\nBut the fact that he didn't come back\n<br>\nfor a long time, I wonder if it means\nthat he had a good response to the\nsearch for materials for the bag. He\n<br>\npromised me that I could become a\ntraveler when the ultimate bag of toys\nis completed, and I'm a little nervous\n<br>\nabout that.": ""
+  },
+  "71838": {
+    "<attr><feel_sad_one><end_attr>Thank you very much! But...<pc>It seems that you are taking on a lot\nof favors from a lot of people. Well,\nthen...<pc>I can't ask for your help.": ""
+  },
+  "71839": {
+    "<attr><feel_sad_one><end_attr>Ugh, I see.  I'm sorry for being\nunreasonable.": ""
+  },
+  "71840": {
+    "<attr><feel_sad_one><end_attr>Please! Could you please go to the\nBudley Rock Zone in Ogreed Continent\nand bring my dad back?<open_irai><bw_break>": ""
+  },
+  "71870": {
+    "<attr><feel_sad_one><end_attr><close_irai>I heard that the ore miners live in\nthe rocky area, so maybe some of you\nhave seen my dad there.": ""
+  },
+  "71841": {
+    "Would you like me to give Tote\nBolter's Letter?<yesno><case 1><break><case 2><close><case_cancel><close>": ""
+  },
+  "71842": {
+    "<pc>gave Tote Bolter's Letter!": ""
+  },
+  "71843": {
+    "To my son Tote.": ""
+  },
+  "72658": {
+    "At last, I found a suitable skin for\nthe ultimate tool bag. Budley Rock\nZone.<%sEV_QUE_NAME0>Old Beast Skin. But I'm just a bag-\nmaker. There is no guarantee that I\nwill return safely after challenging\n<br>\nthe monster. I'm leaving this letter\nas a reminder. Tote. If you had the\ntalent, I had hoped you would follow\n<br>\nin my footsteps and take over the\nworkshop. But you were too clumsy to\nbe a craftsman. Forget about my\n<br>\nselfishness, and fulfill your dream of\nbecoming a traveler from now on. Thank\nyou for supporting me for so long. I\n<br>\nloved the misshapen bags you worked so\nhard to make.": ""
+  },
+  "71844": {
+    "welcome home<pc>Mr!  You made it to the Budley Rock\nZone.  Did you find my dad?": ""
+  },
+  "71845": {
+    "<attr><feel_sad_one><end_attr>I see.<pc>I guess even Mr. Kikuchi couldn't find\nmy father. I really wonder where he\nwent, leaving the workshop so\n<br>\nneglected.  I hope he didn't get hurt.": ""
+  },
+  "71846": {
+    "<attr><feel_sad_lv1><end_attr><icon_exc>Is this a letter from Dad?  Let me\nread it!": ""
+  },
+  "71847": {
+    "Oh, no. What is this?  Dad, you're\nalready... Dad.": ""
+  },
+  "71848": {
+    "<attr><feel_sad_one><end_attr>Please<pc>Three.<pc>I bet you can get Old Beast Skin,\ncan't you? Budley Rock Zone.<%sEV_QUE_NAME0>Old Beast Skin here.  Please, please,\nplease, please!": ""
+  },
+  "71849": {
+    "<attr><feel_sad_one><end_attr>Please<pc>Mr. Kato.  Could you please get the\nmaterials for the ultimate tool bag?<open_irai><bw_break>": ""
+  },
+  "71850": {
+    "<attr><feel_sad_one><end_attr>Budley Rock Zone<%sEV_QUE_NAME0>Old Beast Skin that is in the\npossession of the \"Mere Old Man\".\n Please, please, please, please.": ""
+  },
+  "71851": {
+    "Would you give Tote the Old Beast\nSkin?<yesno><case 1><break><case 2><close><case_cancel><close>": ""
+  },
+  "71852": {
+    "<pc>gave Tote the Old Beast Skin!": ""
+  },
+  "71853": {
+    "<pc>I went out and strolled around the\ntown for a while. The sea breeze was\nunusually soothing today, I thought as\n<br>\nI passed the time. It's time to go\nback to Tote's place.": ""
+  },
+  "71854": {
+    "<attr><feel_sad_lv1><end_attr>Aaah!<pc>Mr. Kato!  Did you, by any chance,\nreceive the material for the ultimate\ntool bag from Old Beast Skin?": ""
+  },
+  "71855": {
+    "<attr><feel_sad_one><end_attr>I see. I'm sorry for jumping to\nconclusions.  I know this is a selfish\nrequest, but please, please, please.": ""
+  },
+  "71856": {
+    "<attr><feel_sad_one><end_attr><pc>Thank you very much.  This is the\nmaterial my father has been searching\nfor all his life. I know I don't have\n<br>\nthe talent, but I really want to\ncomplete the bag using this skin\ninstead of my father's. It will take\n<br>\nsome time.  Please come back in a\nwhile!": ""
+  },
+  "71857": {
+    "Tote told me to come back. Let's come\nback in three minutes real time.<open_irai>": ""
+  },
+  "71858": {
+    "<pc>received the ultimate tool bag!<bw_break>": ""
+  },
+  "71859": {
+    "You can now have 200 kinds of items!\nIf you have 151 or more Items, the\n16th page will appear in \"Items to\n<br>\nUse\"!": ""
+  },
+  "71860": {
+    "<pc>received the ultimate tool bag!": ""
+  },
+  "71861": {
+    "<attr><feel_sad_one><end_attr>I know I don't have any talent, but I\nreally want to finish the bag with\nthis leather instead of my father. I\n<br>\nthink it will take a while.  Will you\ncome back later?": ""
+  },
+  "71862": {
+    "<attr><feel_happy_one><end_attr>Ah!<pc>Mr.!  Thank you for coming. We have\njust completed the bag of tools.<bw_break>": ""
+  },
+  "71863": {
+    "<attr><feel_normal_lv1><end_attr>Look at this. To design a bag like\nthis, Bolter the craftsman is a\ngenius.  I'm really proud of my\n<br>\nfather, whom I respect and admire. It\nmay not look like much, but this is\nthe ultimate bag of toys that my\n<br>\nfather and I made together!<pc>I would like to use it for the\nfollowing reasons.": ""
+  },
+  "71871": {
+    "<attr><feel_happy_one><end_attr>And one more thing.  As a thank you\nfor all the help you've given me,\nplease receive this as well!": ""
+  },
+  "71872": {
+    "<attr><feel_normal_one><end_attr>I have always listened to my father.\nMy dream of becoming a traveler was\nalso something my father suggested.<bw_break>": ""
+  },
+  "71873": {
+    "<attr><feel_angry_lv1><end_attr>But I still want to follow in my\nfather's footsteps and become a bag\nmaker. I know I have no talent!  But I\n<br>\nwant to try as much as I can. I\nrealized that this is what I really\nwant to do! Someday, I'll be able to\n<br>\nproudly call myself the second\ngeneration of this workshop.<pc>Mr. Please watch.": ""
+  },
+  "71866": {
+    "<attr><feel_happy_lv1><end_attr>When I make bags here, I can feel my\nfather close by. Someday, I'll be able\nto proudly call myself the second\n<br>\ngeneration of this workshop!<pc>Mr. Please watch.": ""
+  },
+  "95451": {
+    "<attr><feel_happy_lv1><end_attr>When I make bags here, I can feel my\nfather close by.<pc>I may ask you to help me in various\nways in the future. When you receive\nthe six key emblems, will you come to\n<br>\nsee me again?": ""
+  },
+  "95452": {
+    "<pc>The \"Mere Old Man\" read the letter.\nThe writing is so bad that some parts\nare illegible. I need a bag to collect\n<br>\nmaterials. I need a bag to collect\nmaterials, but the fabric of an\nordinary bag is weak and tears easily\n<br>\nwhen I use scissors. I need a sturdy\nbag that is strong enough to hold a\nblade.    Gartlant Castle Town, Tavern\n<br>\nBasement, Nippo": ""
+  },
+  "95455": {
+    "<attr><feel_happy_lv2><end_attr>Ah!<pc>Since then, some of my old customers\ncame to visit me after they heard\nabout my father's death. They saw the\n<br>\nbags I made, and some of them liked\nthem so much that they bought them. I\nwas so happy. Those people spread the\n<br>\nword about my bag workshop throughout\nAstoltia, and orders from far away\nbegan to come in from time to time, in\n<br>\naddition to those from the United\nStates and Europe.": ""
+  },
+  "95456": {
+    "<icon_exc>That's right. The other day I received\na strange letter.<pc>I wanted to ask you to consult with me\nabout that.  Would you read this\nletter for a moment?": ""
+  },
+  "95457": {
+    "It's only natural that scissors would\ntear the bag, but why would they do\nthat? It's a strange request, but I\n<br>\ncan't help but be curious!  But I\ncan't leave the workshop. The letter\nsays that the sender of this letter is\n<br>\nin the basement of a tavern in\nGartlant Castle Town.  Could you look\ninto it for me?": ""
+  },
+  "95458": {
+    "<attr><feel_happy_lv1><end_attr>Good! Thank you very much.  I'll be\nsure to return the favor.": ""
+  },
+  "95459": {
+    "Thank you very much! But...<pc>It seems that you are taking on a lot\nof favors from a lot of people. Well,\nthen...<pc>I can't ask for your help.": ""
+  },
+  "95460": {
+    "<attr><feel_sad_lv2><end_attr>Ugh, I see.  I'm sorry for being\nunreasonable.": ""
+  },
+  "95461": {
+    "<pc>The \"Mere Old Man\" read the letter.\nThe writing is so bad that some parts\nare illegible. I need a bag to collect\n<br>\nmaterials. I need a bag to collect\nmaterials, but the fabric of an\nordinary bag is weak and tears easily\n<br>\nwhen I use scissors. I need a sturdy\nbag that is strong enough to hold a\nblade.    Gartlant Castle Town, Tavern\n<br>\nBasement, Nippo": ""
+  },
+  "95464": {
+    "I'm sorry, but could you please go\nfind out what kind of person sent the\nletter and why he/she tore up the bag\n<br>\nwith scissors?<open_irai><bw_break>": ""
+  },
+  "95465": {
+    "<close_irai>This man seems to be in the basement\nof a tavern in Gartlant Castle Town.\n Would you like to read the letter\n<br>\nagain?<yesno><close>": ""
+  },
+  "95466": {
+    "<attr><feel_happy_lv1><end_attr>welcome home<pc>Mr.!  How are you doing? Did you meet\nthe person who sent the letter?\nHuh? Crabid?  I see... so the scissors\n<br>\nwere Ganippo's hands. For customers\nwho are looking for a bag, it doesn't\nmatter if they are from a monster or a\n<br>\nhuman.  I will gladly make it for you!": ""
+  },
+  "95467": {
+    "<icon_exc>Ah. But how am I supposed to make a\nbag for a monster?  Even my father has\nnever made one.<bw_break>": ""
+  },
+  "95468": {
+    "<attr><feel_normal_silent><end_attr>The following is a list of the most\ncommon problems with the<bw_break>": ""
+  },
+  "95469": {
+    "Maybe with that fabric, yes. I'm sure\nwe can make a bag that meets your\nneeds.<bw_break>": ""
+  },
+  "95470": {
+    "<pc>Mr. Ganippo.  Could you please receive\nthe materials needed to make Ganippo's\nBag?<yesno><break>": ""
+  },
+  "95471": {
+    "<attr><feel_sad_lv2><end_attr>Please don't say such a thing!\n Special materials<pc>It's hard to get one without a\nseasoned adventurer like Mr. K.<bw_break>": ""
+  },
+  "95472": {
+    "<attr><feel_happy_lv1><end_attr>Thank you very much!  The only fabric\nI can think of that Crabid's scissors\ncan't cut is Adamas Leather. Adamas\n<br>\nLeather is found in places like the\nChoppi Wilderness.<%sEV_QUE_NAME0>I'll be ready to work in the meantime.\n I'll be ready to work in the\nmeantime.": ""
+  },
+  "95473": {
+    "Ganippo's Bag is made of Adamas\nLeather, which is a material that\nGanippo needs to make his bag.<open_irai><bw_break>": ""
+  },
+  "95474": {
+    "Adamas Leather is in the Choppi Wilderness and elsewhere<%sEV_QUE_NAME0>I'll be ready to work in the meantime.\n I'll be ready to work in the\nmeantime.": ""
+  },
+  "95475": {
+    "Would you give Tote the Adamas\nLeather?<yesno><close>": ""
+  },
+  "95476": {
+    "<pc>gave Tote the Adamas Leather!": ""
+  },
+  "95477": {
+    "Tote cut out the fabric with his\nspecial scissors and began to knit it\ntogether using a thick needle. In no\n<br>\ntime at all, the bags were being made.": ""
+  },
+  "95478": {
+    "<pc>received Ganippo's Bag (Key Items)!<me 60>": ""
+  },
+  "95479": {
+    "<attr><feel_happy_lv1><end_attr><pc>Mr..  Did you by any chance receive\nAdamas Leather?": ""
+  },
+  "95480": {
+    "<attr><feel_happy_lv1><end_attr>Was that so? But.<pc>I am sure you will get it.": ""
+  },
+  "95481": {
+    "<attr><feel_happy_lv1><end_attr><pc>Thank you very much.  I had just\nfinished the blueprint of the bag. I'm\ngoing to start working on the bag\n<br>\nusing this fabric right away.": ""
+  },
+  "95482": {
+    "<attr><feel_happy_lv1><end_attr>Good. It turned out well.  I'm sure\nGanippo will be satisfied with this!\nNot only did I change the fabric of\n<br>\nGanippo's Bag, but I also made the\nbelt longer to make it easier for\nGanippo to put his hands through,\n<br>\nconsidering his body shape. And since\nI heard that Ganippo is a monster that\nlikes to be near water, I made the\n<br>\nfabric water-resistant as well.\nWhat? You say I'm making it too fast?\n I'm not used to making bags, so I\n<br>\nmade you wait a long time.<bw_break>": ""
+  },
+  "95483": {
+    "Well.<pc>Mr. Ganippo. Could you please deliver\nthis bag to Mr. Ganippo's Bag at the\nMonster Tavern in Gartlant Castle\n<br>\nTown? Actually, I would like to go\nmyself, but I'm sorry.  I'm sorry, but\nI can't leave the workshop unattended.\n<br>\nThis is my first monster customer, and\nI want you to make sure that the bag\nis satisfactory.": ""
+  },
+  "95484": {
+    "<attr><feel_happy_lv1><end_attr>Please deliver the bag I gave you\nearlier to Mr. Ganippo's Bag at the\nMonster Tavern in Gartlant Castle\n<br>\nTown.<open_irai>": ""
+  },
+  "95485": {
+    "<attr><feel_happy_lv1><end_attr>I see you delivered my bag.  Thank\nyou.  So, how did it go? I see.\nGanippo's Bag asked you to make one\n<br>\nfor a friend of his.<open_irai><bw_break>": ""
+  },
+  "95486": {
+    "<pc>Mr. Kato, I'm asking you again, could\nyou please go see him?  I want to know\nwhat kind of bag he needs. Mr. Peach\n<br>\nis at the Monster Tavern in Glen\nCastle Town, isn't he?  I'm sorry, but\nthank you very much.": ""
+  },
+  "95487": {
+    "<attr><feel_happy_lv1><end_attr>welcome home<pc>Mr. Ganippo!  I just received a letter\nfrom Mr. Ganippo.  She seems to like\nit. And now she wants to ask me to\n<br>\nmake a bag for her friend, too.  I\nsee. So you are going to make a bag\nfor Mr. Dancin Flame this time.<bw_break>": ""
+  },
+  "95488": {
+    "<attr><feel_normal_silent><end_attr>The following is a list of the most\ncommon problems with the<bw_break>": ""
+  },
+  "95489": {
+    "To make this bag, special materials\nare needed.<pc>Mr. Kato, can you please help us\nagain?<yesno><break>": ""
+  },
+  "95490": {
+    "<attr><feel_sad_lv2><end_attr>Please don't say that!  The fabrics\nwe're using this time<pc>It's hard to get one without a\nseasoned adventurer like Mr. K.<bw_break>": ""
+  },
+  "95491": {
+    "<attr><feel_happy_lv1><end_attr>Thank you! Fabrics that are resistant\nto fire and heat are<%sEV_QUE_NAME1>I think it is possible to make them\nfrom the Purgatory Plumage of the<%sEV_QUE_NAME1>They can be found in the Keracona Wild\nForest and, during the day, on\nWindmill Way.  If you knock them down,\n<br>\nthey will drop Purgatory Plumage. Now\nthen...<pc>Mr. Kato.  I'm sorry to keep asking\nyou for favors, but I need your help\nwith Purgatory Plumage.": ""
+  },
+  "95492": {
+    "I would like to obtain the Purgatory\nPlumage needed to make Peach's bag.<open_irai><bw_break>": ""
+  },
+  "95493": {
+    "Purgatory Plumage is found in the Keracona Wild Forest and\n Windmill Way during the daytime<%sEV_QUE_NAME1>The first two are available from the": ""
+  },
+  "95494": {
+    "Would you give Tote a Purgatory\nPlumage?<yesno><close>": ""
+  },
+  "95495": {
+    "<pc>gave Purgatory Plumage to Tote!": ""
+  },
+  "95496": {
+    "Tote processed feathers to make\nfabric, which he cut out, plied\ntogether, and in no time at all, he\n<br>\nhad a bag!": ""
+  },
+  "95497": {
+    "<pc>received Flameman's Bag (Key Items)\nfrom Momoyo.<me 60>": ""
+  },
+  "95498": {
+    "<attr><feel_happy_lv1><end_attr><pc>Mr.. Did you by any chance receive\nsome Purgatory Plumage?": ""
+  },
+  "95499": {
+    "Sorry. I must have been mistaken.\n Please continue.": ""
+  },
+  "95500": {
+    "<attr><feel_happy_lv1><end_attr>Thank you<pc>Mr. Kikuchi.  Now, let's start making\na bag that is resistant to fire and\nheat.": ""
+  },
+  "95501": {
+    "<attr><feel_happy_lv1><end_attr>Good. It's a nice finish.  Peach\nshould be able to use this without any\nproblem! This bag can handle fire and\n<br>\nheat just fine, and it's made of\nfeathers, so it's very light. Well\nthen...<pc>Mr. Momoyo.  Could you please deliver\nthis bag to Peach as well? Peach is at\nthe Monster Tavern in Glen Castle\n<br>\nTown, right?  I'm sorry, but thank you\nvery much.": ""
+  },
+  "95502": {
+    "<attr><feel_happy_lv1><end_attr>Could you please deliver the bag I\ngave you earlier to Peach at the\nMonster Tavern in Glen Castle Town?<open_irai>": ""
+  },
+  "95503": {
+    "Tote is<pc>When he received the bag from the\n\"Mere Old Man,\" he began to unravel\nthe threads and disassemble it.": ""
+  },
+  "95504": {
+    "Tote began to reknit the bag that had\nbeen torn apart.": ""
+  },
+  "95505": {
+    "<pc>school (eg of ikebana)<pc>I received the bag of toys from the<me 60><bw_break>": ""
+  },
+  "95506": {
+    "You can now have 250 types of items!\nIf you have more than 201 Items, page\n21 will appear in \"Items to Use\"!<me 71>": ""
+  },
+  "95507": {
+    "Tote is<pc>The bag was received from the \"Mere\nOld Man,\" and he repaired the\nscratches and frayed edges on the\n<br>\nsurface.": ""
+  },
+  "95508": {
+    "<attr><feel_happy_lv2><end_attr><pc>Mr. Thank you for your hard work.\n Peach just sent me a letter of thanks\nand the payment. I am very grateful\n<br>\nthat I was able to complete this\nrequest.<pc>I really appreciate it. Thank you very\nmuch. I had never made either of these\nbags before, so I was at a loss.  But\n<br>\nI'm glad I took on the challenge.\nThat's right.<pc>I'm going to ask you to lend me the\nbag you are using right now!  I'm\ngoing to ask you to lend me the bag\n<br>\nyou are using right now.": ""
+  },
+  "95509": {
+    "My father's bag was designed to be\nused by all travelers in the same way.\nBut...<pc>For Mr. Kurokawa, it seems that there\nare some parts of the site that are\nnot used very often.  I'll eliminate\n<br>\nthem and expand the parts that are\nused most often.": ""
+  },
+  "95510": {
+    "<attr><feel_happy_lv1><end_attr>It was done!  Here it is.<pc>tailored to the needs of the three<pc>This is a bag for the \"Mere Old Man\".\nEliminate wasteful parts.<pc>I made various adjustments to\naccommodate the physique of Mr.\nKurokawa.": ""
+  },
+  "95511": {
+    "<attr><feel_happy_lv1><end_attr>This bag was a little worn, so I\nreinforced it and cleaned it up.<bw_break>": ""
+  },
+  "95512": {
+    "<attr><feel_happy_lv1><end_attr>And here's a thank you for your\nappointment.  Please receive.": ""
+  },
+  "95513": {
+    "<attr><feel_happy_lv1><end_attr>Until now, I had been trying my best\nto make a bag just like my father's.\nBut with this request, for the first\n<br>\ntime, I tried to make a bag that would\nmeet the characteristics and requests\nof each customer. But with this\n<br>\nrequest, for the first time, I tried\nmy hand at making a bag that would\nsuit each customer's unique\n<br>\ncharacteristics and needs. Then I\nthought to myself, \"I should think\nabout the person and make a bag for\n<br>\nhim or her. I thought to myself, \"I\nshould think about the person and make\na bag for that person.  Maybe that's\n<br>\nwhere my path lies. I was able to\nrealize this<pc>I am very grateful to you.  Thank you\nvery much.": ""
+  },
+  "95514": {
+    "<attr><feel_happy_lv1><end_attr>Until now, I had been trying my best\nto make a bag just like my father's.\nBut with this request, for the first\n<br>\ntime, I tried to make a bag that would\nmeet the characteristics and requests\nof each customer. But with this\n<br>\nrequest, for the first time, I tried\nmy hand at making a bag that would\nsuit each customer's unique\n<br>\ncharacteristics and needs. Then I\nthought to myself, \"I should think\nabout the person and make a bag for\n<br>\nhim or her. I thought to myself, \"I\nshould think about the person and make\na bag for that person.  Maybe that's\n<br>\nwhere my path lies.": ""
+  },
+  "185934": {
+    "I think about the customer and make a\nbag that suits his/her characteristics\nand needs.  I think that's where my\n<br>\npath lies.<pc>I may ask you to help me in various\nways in the future. If... if...?  If\nyou receive 10 key emblems, will you\n<br>\ncome again?": ""
+  },
+  "185937": {
+    "Ah!<pc>Since then, orders from monster\ncustomers have been coming in quite\noften, not just from me, but from many\n<br>\nother customers as well. It's a\nconstant process of trial and error to\ncome up with a bag that suits the\n<br>\ncustomer, but I'm really happy when\nthe customer is pleased. But the other\nday, I received an extremely Difficult\n<br>\nOrders.<bw_break>": ""
+  },
+  "185940": {
+    "We want you to make a bag that is the\nsize of the palm of your hand and can\nhold everything. I'm having a hard\n<br>\ntime coming up with a good idea on how\nto realize a bag that is that small\nand can hold a lot of things. If we\n<br>\ncould at least find out who the client\nis, we might be able to come up with a\nbetter idea. All I know is that the\n<br>\nclient is a man named Pack from\nGartlant Castle Town.<pc>If you don't mind, Mr. Kikuchi, would\nyou be willing to go see the client\nfor me? I can't leave the workshop, so\n<br>\nplease do!": ""
+  },
+  "185941": {
+    "<attr><feel_happy_lv1><end_attr>Good! Thank you very much.  I'll be\nsure to return the favor. I've asked\nyou to do that.": ""
+  },
+  "185942": {
+    "Thank you very much! But...<pc>It seems that you are taking on a lot\nof people's requests. Well, then...<pc>I can't ask for your help.": ""
+  },
+  "185943": {
+    "<attr><feel_sad_lv2><end_attr>Ugh, I see.  I'm sorry for being\nunreasonable.": ""
+  },
+  "185944": {
+    "I got an order to make a bag that\nwould fit everything in the palm of\nyour hand, but I can't seem to come up\n<br>\nwith a good idea.<open_irai><bw_break>": ""
+  },
+  "185945": {
+    "If we could at least find out who the\nclient is, we might be able to come up\nwith a better solution. All I know is\n<br>\nthat the client is a man named Pack\nfrom Gartlant Castle Town.<pc>Mr. Kato, would you be willing to meet\nwith my client on my behalf?  I'd\nappreciate it very much.": ""
+  },
+  "185946": {
+    "Would you give Tote the Spring\nLeather?<yesno><case 1><break><case2><close><case_cancel><close>": ""
+  },
+  "185947": {
+    "<pc>gave Tote the Spring Leather!": ""
+  },
+  "185948": {
+    "Tote boiled down the Toad Oil, smeared\nit on Spring Leather, and began to\nwork the fabric in double layers! Then\n<br>\nhe cut out the fabric, plied it\ntogether, and in no time at all, he\nhad a bag!": ""
+  },
+  "185949": {
+    "<pc>received a Stretchy Bag (Key Items)!<me 60>": ""
+  },
+  "185950": {
+    "welcome home<pc>Mr. Puck!  Did you meet Mr. Pack, the\nclient of the briefcase? What? Was Mr.\nPack a child?  Is that why you want\n<br>\nthe little bag?  Did he say anything\nelse?": ""
+  },
+  "185951": {
+    "<attr><feel_think_lv2><end_attr>Hmmm. I can't seem to come up with\nanything from that information.  I\ndon't know what to do.": ""
+  },
+  "185952": {
+    "What's this? Pack said to use this\nfabric to make a bag that is the size\nof the palm of your hand and can hold\n<br>\neverything. This fabric doesn't seem\nto have any special characteristics.": ""
+  },
+  "185953": {
+    "<icon_exc>If you look closely, you can see that\nthis fabric has great elasticity! If\nwe can maximize this elasticity, we\n<br>\nmay be able to make a bag that can\nhold everything in the palm of your\nhand. But if we do that, the strength\n<br>\nwill be weak.  If we use concentrated\nToad Oil to compensate for the loss of\nstrength, we might be able to do\n<br>\nsomething about it. Toad Oil should be\nin the workshop.  I'll try it right\naway!": ""
+  },
+  "185954": {
+    "Good. It's a good job.  I'm sure Pack\nwill be very pleased with the result!\nThanks to this pocket that changes\n<br>\nshape at will, whatever you put in it\nwill stay at the smallest possible\nsize.<pc>Mr. Puck. Could you please deliver\nthis bag to Mr. Pack in Gartlant\nCastle Town? I want you to make sure\n<br>\nhe is satisfied with the bag.\nActually, I would like to go myself,\nbut I'm sorry. I'm sorry, but I can't\n<br>\nleave the workshop unattended!": ""
+  },
+  "185955": {
+    "Could you please deliver the bag I\ngave you earlier to Mr. Pack in\nGartlant Castle Town?<open_irai><bw_break>": ""
+  },
+  "185956": {
+    "I just want to make sure that you are\nsatisfied with the bag. Actually, I'd\nlike to go myself, but I'm sorry. I'm\n<br>\nsorry, but I can't leave the workshop\nunattended!": ""
+  },
+  "185957": {
+    "<pc>The \"Mere Old Man\" showed Tote his\nbag.": ""
+  },
+  "185958": {
+    "Tote is<pc>Upon receiving the bag from the \"Mere\nOld Man,\" he began to unravel the\nthreads and carefully disassemble the\n<br>\nbag. Then, using Spring Leather, he\nbegan to re-wool the disassembled bag.": ""
+  },
+  "185959": {
+    "Tote is<pc>When he received the bag from the\n\"Mere Old Man,\" he began to unravel\nthe threads and carefully disassemble\n<br>\nit. Then, he began to rewrite the\ndisassembled bag.": ""
+  },
+  "185960": {
+    "<pc>school (eg of ikebana)<pc>I asked him to return my bag of toys!<me 60>": ""
+  },
+  "185961": {
+    "I see you delivered my bag.  Thank\nyou.  I hope Mr. Pack enjoyed it.<yesno><break>": ""
+  },
+  "185962": {
+    "<icon_exc>Hmm?<pc>I think your bag has become very\ndistorted.": ""
+  },
+  "185963": {
+    "The stitching is so coarse that it\ncould come undone at any time!  The\nstitching is so coarse that it could\n<br>\ncome undone at any time! I'll fix it\nright away, so I'll ask you to lend it\nto me.": ""
+  },
+  "185964": {
+    "I was able to do it! I found some worn\nparts, so I used some leftover Spring\nLeather. It can hold a lot more than\n<br>\nbefore.": ""
+  },
+  "185965": {
+    "It's done!  Now it's back to normal.": ""
+  },
+  "185966": {
+    "Also, here is a thank you for\ndelivering Pack's bag.  Received.": ""
+  },
+  "185967": {
+    "By the way, how did this happen to\nyour bag? What? Were you a bag maker\nlike me? So you knew that Spring\n<br>\nLeather was the only way to make a bag\nthat would hold everything in the palm\nof your hand.<pc>While I was fixing Mr. Kuroda's bag, I\nwas thinking back to the time when I\nfirst started making bags. It was\n<br>\nreally tough at first, because I\ndidn't know what to do and how to do\nit. But there were other young bag\n<br>\nmakers besides me, weren't there?\n That makes me kind of happy. I will\ntry my best not to lose!": ""
+  },
+  "189444": {
+    "Oh, good!<pc>I would like to express my gratitude\nto Mr!": ""
+  },
+  "189445": {
+    "I see. I thought it turned out well.": ""
+  },
+  "185968": {
+    "I was surprised to learn that you were\na bag maker just like me. I am so\nhappy to know that there are other\n<br>\nyoung bag makers out there.  I'll try\nmy best not to lose!": ""
+  }
+}

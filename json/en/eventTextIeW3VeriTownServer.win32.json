@@ -1,0 +1,293 @@
+{
+  "10244000": {
+    "<attr><feel_normal_lv1><end_attr>The roof of the Chateau de la\nVerinarde was designed based on chalk\nshells, which is a rare occurrence in\n<br>\nthe world. Rumor has it that the\nshells are so beautiful that just by\nlooking at them, one can hear the\n<br>\nmurmur of sea creatures and even the\nroar of the tide. If you use such\nshells as a motif, you can make\n<br>\nwonderful letter paper that makes you\nfeel as if you can hear the rustling\nof the waves just by looking at it,\n<br>\ncan't you?": ""
+  },
+  "41934": {
+    "Oh, what's the matter?  Sonese is me.\n What can I do for you?<yesno><break>": ""
+  },
+  "41935": {
+    "<attr><feel_angry_lv1><end_attr>If you have nothing to do, please\nleave.  We don't have anything rare.": ""
+  },
+  "41936": {
+    "<attr><feel_think_lv1><end_attr>Huh? You want to know about Somija's\nparents? Somija told you about me,\ndidn't she?  Then how can I not tell\n<br>\nyou? It is true that I raised Somija.\n But you know what? I lied when I said\nI found her. I was asked by a couple\n<br>\nof strangers to take care of Somija. I\nhad no intention of taking care of\nher.  But when I saw how thoughtful\n<br>\nthe couple was, I just couldn't\nrefuse. After that, they went away on\nthe Ark of the Earth, so I don't know\n<br>\ntheir names, and I don't remember\nKao's name either. But you know what?\nI'll give it to you.  I have a letter\n<br>\nthat they left with me.": ""
+  },
+  "41937": {
+    "<pc>received a letter (a very important\none) from Sonese addressed to Somia!<me 60>": ""
+  },
+  "41938": {
+    "Somya is probably old enough to know\nabout her parents. There may be\npainful things written about them.\n<br>\n But she has to grow up knowing such\nthings.": ""
+  },
+  "41939": {
+    "<attr><feel_think_lv1><end_attr>Soumya should be old enough to know\nabout her parents. She may know some\nhard things from that letter, but\n<br>\nthat's what it means to be an adult,\nyou know.": ""
+  },
+  "41988": {
+    "Hmmm. Coming to the bar to buy\ngroceries is quite a task, isn't it?\nHey? What are you?  I'm sure I was the\n<br>\narchivist at the castle before, but my\nname is Khemos. I see. For the\nprince's studies, he needs books\n<br>\nwritten in the ancient script of the\nroyal family? Hmm. I thought you had\nput all the old royal books in the\n<br>\nlibrary away somewhere.  Well, where\nis it? Oh, yes.  You.<%sEV_QUE_NAME4>Would you bring it to me and give it\nto me? If you do, I'll be so pleased\nthat I'll be able to remember things\n<br>\nI've forgotten!": ""
+  },
+  "41989": {
+    "I put an old royal family book in the\nlibrary somewhere, but I forgot where\nI put it.<%sEV_QUE_NAME4>I would remember it with pleasure if\nyou could give me a copy.  If you have\nit, could you give it to me?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>": ""
+  },
+  "41990": {
+    "What a stingy fellow.  If you give it\nto me, I'll remember the Book of\nKings.": ""
+  },
+  "41991": {
+    "I'm glad you're giving it to me<%sEV_QUE_NAME4>You don't have it?  I hope you'll come\nback when you have it.": ""
+  },
+  "41992": {
+    "Oh, thank you for this.  I've been\nwanting one of these for a long time.\nI remember now! I had shoved the too-\n<br>\nold books of the royal family into the\nback of the bookshelf in the\nambassador's room at the castle! I\n<br>\ndon't remember which bookshelf it was,\nbut anyway, if you search the\nbookshelves in the ambassador's\n<br>\noffice, I'm sure you'll find what\nyou're looking for.": ""
+  },
+  "42030": {
+    "<pc>to Khemos<%sEV_QUE_NAME4>I gave him a": ""
+  },
+  "41993": {
+    "I've got some old royal books tucked\naway in the back of the bookshelf in\nthe ambassador's office in the castle.\n<br>\nI don't remember which bookshelf it\nwas, but anyway, if you look in the\nbookshelf in the ambassador's office,\n<br>\nI'm sure you'll find what you're\nlooking for.": ""
+  },
+  "41994": {
+    "Prince Odysseus must be studying\nancient scripts and trying to decipher\nhistory. It seems that he really wants\n<br>\nto be a king of men.": ""
+  },
+  "48323": {
+    "<attr><feel_angry_one><end_attr>Just in time. That's my wife.  I\nreally hate her.  I can't take it\nanymore. If only I could get my hands\n<br>\non that thing, I could make a\nforbidden potion that would make my\nnoisy wife stop.": ""
+  },
+  "48324": {
+    "<attr><feel_normal_lv1><end_attr><icon_exc><turn_pc>Hey there. You're not a bad person,\nare you?  Eavesdropping on my secret\nconversations. Oh, that's right. I\n<br>\ncan't stand it any longer.  I can't\nlive the rest of my life with that\nwoman doing whatever she pleases. Hey,\n<br>\nyou.  Now that you've heard my\nsoliloquy, would you please fetch me\nthe ingredients for the forbidden\n<br>\nmedicine? The ingredients for the\npotion appear in the great forests of\nVaas.<%sEV_QUE_NAME0>It is said to be dropped by a demon\ncalled \"Jigoku no Negibozu\". Please\nfetch these ingredients for me.  I'm\n<br>\nan old man with a short life ahead of\nme. Please!": ""
+  },
+  "48325": {
+    "<attr><feel_happy_lv2><end_attr>Thanks! Will you do me a favor?  Well\nthen, please don't tell my wife.  Hee-\nhee-hee.": ""
+  },
+  "48326": {
+    "<attr><feel_normal_lv1><end_attr>Hyoh. It seems you are taking on too\nmany requests.  I'm sorry, but please\ncome back when you have more time.": ""
+  },
+  "48327": {
+    "<attr><feel_sad_lv1><end_attr>Hyo. I see. That's too bad.": ""
+  },
+  "48362": {
+    "<attr><feel_normal_lv1><end_attr>If you can make the forbidden potion,\nyou can calm down a noisy wife. The\ningredients for the forbidden medicine\n<br>\nappear in the Great Vaas Forest.<%sEV_QUE_NAME0>It is said to be dropped by a demon\ncalled \"Jigoku no Negibozu\".<open_irai><bw_break>": ""
+  },
+  "48363": {
+    "<attr><feel_normal_lv1><end_attr><close_irai>It is the wish of an old man with a\nshort life expectancy.  Please do me a\nfavor!": ""
+  },
+  "48328": {
+    "<attr><feel_happy_lv1><end_attr>Hee-hee. How did you get back here?\n Did you get your hands on a japanese\nleek bozu?": ""
+  },
+  "48329": {
+    "Would you give Weema a jigoku no\nnegibozu?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "48330": {
+    "<attr><feel_sad_lv1><end_attr>Oh, no.  I didn't get it yet.  I'm\nsorry. I was in a bit of a hurry.": ""
+  },
+  "48331": {
+    "<pc>gave Weema a bottle of Jigoku no\nNegibozu!": ""
+  },
+  "48332": {
+    "<attr><feel_happy_lv3><end_attr>Gihihee! This is it. This is it.  Now,\nplease accept my gratitude.  Of\ncourse, the hush money is included.": ""
+  },
+  "48333": {
+    "<attr><feel_happy_lv3><end_attr>With this, I can finally make\nIbixyraz, a secret remedy passed down\nin the village of Lane! My wife snores\n<br>\nso loudly. For a long time, I couldn't\neven get a good night's sleep. But if\nI have the miracle drug Ibixyraz, she\n<br>\nwill sleep soundly and I will sleep\nsoundly, and my sleeping life will be\nsafe and sound!": ""
+  },
+  "48334": {
+    "<attr><feel_happy_lv1><end_attr>The reason why Ibixylaz, the wonder\ndrug to stop snoring, is called the\nforbidden drug is because it surely\n<br>\nstops snoring, but at the same time,\nit has the terrible side effect of\nmaking the fins on your back itch!\n<br>\n The reason why it is called\n\"forbidden medicine\" is because,\nalthough it definitely stops snoring,\n<br>\nit has the terrible side effect of\nmaking the fins on one's back itch!\nWell, my wife is insensitive, so it\n<br>\nprobably won't be a problem.  Hee-hee-\nhee.": ""
+  },
+  "146895": {
+    "I wonder if there is a craftsman\nsomewhere who can add alchemical\neffects at a reasonable price.": ""
+  },
+  "49321": {
+    "Welcome to Verinade Church.  Every day\npeople from all walks of life visit\nthis church. Just listening to their\n<br>\nstories, I feel as if I am traveling\naround the world.": ""
+  },
+  "49322": {
+    "Welcome to Verinade Church.  You seem\nto be in a hurry, my dear traveler. Is\nsomething wrong?": ""
+  },
+  "49323": {
+    "Well, it's such a big deal.  I\nunderstand. If you're having trouble\nwith melazo fever, there's something I\n<br>\ncan tell you. It was a long time ago.\n An elf woman collapsed as soon as she\nentered this church. She must have\n<br>\nbeen attacked by a demon. I put my ear\nto her mouth as she moved her lips to\nsay something. I put my ear to her\n<br>\nmouth and the woman said in a hushed\nvoice, \"Someday, melazo fever will\ncome on.  She said, in a faint voice,\n<br>\n\"If you ever have a flare-up of melazo\nfever, I want you to remember my\nwords. I hid something under a small\n<br>\nstone monument east of the Boonah\nRainforest.  She asked me to look into\nit, because she thought it might help.\n<br>\nThat's what he wanted me to do.  It is\na long way to the Boonah Rainforest.\n Please make sure you are well\n<br>\nprepared before you leave.": ""
+  },
+  "49324": {
+    "<pc>told Cassow what had happened so far.": ""
+  },
+  "49325": {
+    "Welcome to the Church of the Verinad.\n Traveler, let me once again share\nwith you the words that the elf-woman\n<br>\nentrusted to me. East of the Boonah\nRainforest, beneath a small stone\nmonument, I have hidden something.  I\n<br>\nwant you to look into it, as it may\nhelp you. It's a long way to the\nBoonah Rainforest.  I suggest you\n<br>\nprepare well before you leave.  I wish\nyou a safe trip.": ""
+  },
+  "49326": {
+    "Welcome to Verinado Church.  Traveler,\nI see you have gone to the Boonah\nRainforest to examine the stone\n<br>\nmonuments. Please take what you can\nfind.  I'm glad you were able to stop\nthe melazo fever epidemic.": ""
+  },
+  "49327": {
+    "Welcome to Verinado Church.  I'm glad\nto hear that the melazo fever didn't\nturn out to be serious.  Thank God. I\n<br>\nhave neglected to mention that the\nelven woman who once appeared in this\nchurch managed to survive. However, if\n<br>\nit were known that she was alive, her\ndaughter in the royal city of\nKamikhalmui would be in danger.  So, I\n<br>\nwant you to pretend that she is dead.\nWith these words, she disappeared from\nthe Verinad church.": ""
+  },
+  "35651": {
+    "<attr><feel_angry_lv3><end_attr>Oh, my God, why does it take Yolei so\nlong to get ready? Hurry up, or the\nQueen's song will start!": ""
+  },
+  "35652": {
+    "<attr><feel_sad_lv2><end_attr>Seeing JoOusama in person was one of\nmy great pleasures, but I'm surprised\nI couldn't make it in time.": ""
+  },
+  "35653": {
+    "<attr><feel_happy_lv2><end_attr>My wife and I have been traveling\naround the world, away from our\nhometown of Kamihar Mui. I have\n<br>\nexperienced many things that I would\nnot have known about if I had just\nstayed in my hometown.  Traveling is a\n<br>\ngood thing, after all.": ""
+  },
+  "35654": {
+    "Welcome to Verinade Castle Town!  Let\nme give you some information for\ntravelers. To the north of the town\n<br>\nstands Verinard Castle, where the\nqueen resides. To the south of the\ntown is the canoe dock.  This is in\n<br>\nthe lake, so you can get out of town\nin a canoe. Here, we'll be using\ncanoes for most of our island-to-\n<br>\nisland transfers.  You'd better get\nused to it.": ""
+  },
+  "35655": {
+    "<attr><feel_happy_lv1><end_attr>This is the largest town in the Wena\nIslands, Verinad Castle Town.  Let me\ntell you about the area. First of all,\n<br>\nthe canoe dock there, the one on the\nright is for southbound Verinard, and\nthe one on the left is for northbound\n<br>\nVerinard. On the west side of Verinard\nSouth is the canoe dock for Verinard\nWest.  The south dock is for Juray\n<br>\nIsland. North of Verinard Territory,\nthere is a chain of lands to the east,\nand at the end of the chain, there is\n<br>\nan amazing waterfall called the Great\nFalls of Ren!": ""
+  },
+  "35656": {
+    "<attr><feel_happy_lv1><end_attr>The Weddies seem to be good fighters\nin spite of their slender appearance.\nJust look at the selection in the\n<br>\nweapons shop.  They are quite a rich\nbunch of people.": ""
+  },
+  "35657": {
+    "<attr><feel_happy_lv1><end_attr>Are you a traveler? If so, you might\nwant to pay your respects to the\nqueen, Dior. The queen's castle,\n<br>\nVerinado, is on the north side of\ntown. It's easy to get lost in this\ntown, so it would be better to go\n<br>\nthere with a map. And come to think of\nit, the queen has ordered the castle\nto close its gates for a while.\n<br>\n Apparently, the prince has done\nsomething wrong. I wonder if we can\nget in now.  If you are interested,\n<br>\nyou can go to the castle gate.  If you\nstill can't get in, the gatekeeper\nwill stop you.": ""
+  },
+  "35658": {
+    "<attr><feel_happy_lv3><end_attr>She always sings the most beautiful\nsongs of grace. I think she has the\nmost beautiful voice of all the\n<br>\nqueens!": ""
+  },
+  "35659": {
+    "<attr><feel_sad_lv1><end_attr>Hmmm. Can't they do something about\nthe flowing mine in the middle of\ntown?  It's not easy to go to the\n<br>\ntavern to buy things. The Queen sings\na song of blessing, and it is\nnecessary for the effect to be given\n<br>\nto the water and to circulate all over\nthe island, but can't they at least\nbuild a bridge?": ""
+  },
+  "35660": {
+    "Beyond this point is the castle of\nVerinard. Only those with a\ncertificate of manhood are allowed to\n<br>\nenter the castle. However, depending\non the conditions inside the castle,\nno one may be allowed through.  In\n<br>\nthat case, I'm sorry, but you'll have\nto come back.": ""
+  },
+  "35661": {
+    "Wait, travelers. I'm sorry, but no one\nis allowed to pass through here for a\nwhile.  By order of the queen. It\n<br>\nseems that the prince has been\nsneaking out of the castle every now\nand then to do something that\n<br>\ndispleases the queen. And now the\nqueen is preparing to sing a song of\nblessing inside the castle.  Security\n<br>\nmust be tight.": ""
+  },
+  "35662": {
+    "<attr><feel_sad_lv1><end_attr>I wonder if Uncle Meru is in town\ntoday. I wonder if he's busy working\nat the castle.  He usually comes\n<br>\naround this time to give us sweets and\nother treats.": ""
+  },
+  "35663": {
+    "<attr><feel_happy_lv1><end_attr>So the reason Lord Meru, not Meru's\nuncle, didn't come to town was because\nthe queen sang a song. I wonder when\n<br>\nhe will come to visit us again.  I\nwonder if he will give me sweets\nagain.": ""
+  },
+  "35665": {
+    "<attr><feel_happy_lv1><end_attr>The water from the wells in this area\nis exceptionally pure. After all, we\nare the closest recipient of the power\n<br>\nof Queen Dior's song of blessings!": ""
+  },
+  "35666": {
+    "<attr><feel_think_lv2><end_attr>There are some nice accessories in\nstock, but I can't afford them with my\nmeager resources. I think I'll have to\n<br>\nbeg my boyfriend for it.": ""
+  },
+  "35667": {
+    "<attr><feel_think_lv1><end_attr>It's about time.  Now, how can I get\naway from my mom and go to the castle?": ""
+  },
+  "35668": {
+    "<attr><feel_sad_lv1><end_attr>I couldn't go to the castle because my\nmom's mark was too tight. Damn.": ""
+  },
+  "35669": {
+    "<attr><feel_think_lv1><end_attr>This town. Why is it so beautiful?\n It's completely different from the\ntown where I live. But I don't feel at\n<br>\nhome when it's this clean.  Is it okay\nif I make it a little dirty?  Is that\nbad? Of course not.": ""
+  },
+  "35670": {
+    "<attr><feel_think_lv1><end_attr>What kind of hairstyles do you think\nare popular among weddings? It's my\npolicy to adapt my hair to the local\n<br>\nstyle when I travel.": ""
+  },
+  "35671": {
+    "<attr><feel_happy_lv1><end_attr>Has JoOusama sung yet?  I didn't get\nto hear it the other night, so I'm\nlooking forward to it.": ""
+  },
+  "35672": {
+    "<attr><feel_happy_lv1><end_attr>I heard JoOusama sing! She has such a\nbeautiful voice.  I want to hear it\nagain.": ""
+  },
+  "35673": {
+    "I have a hard time adjusting to a room\nwith a table and chairs, and I'm\nafraid to sleep in a bed. I am also\n<br>\nafraid to sleep in a bed.  I mean,\nwhat if I fall out of bed?": ""
+  },
+  "35674": {
+    "You're a traveler.  Perhaps you want\nto go to the castle? This place is\ncomplicated.  You have to go up and\n<br>\ndown stairs to reach the castle.": ""
+  },
+  "35675": {
+    "<attr><feel_happy_lv1><end_attr>The sea is beautiful and we can catch\nfresh fish.  This town is a very nice\nplace. It's all thanks to the song of\n<br>\nblessings sung by Queen Dior.  Oh,\nthank you, thank you, thank you.": ""
+  },
+  "35676": {
+    "<attr><feel_angry_lv1><end_attr>Oh, welcome. Who are you? Are you a\ntraveler?  We don't have anything rare\nin our house.  Please go home.": ""
+  },
+  "35677": {
+    "I heard that the power of the song of\nblessing that the queen sings has an\neffect not only on this town but on\n<br>\nthe whole Wena Islands. I heard that\nthere is a mechanism to spread the\npower of the song near Juray Island.": ""
+  },
+  "128642": {
+    "<attr><feel_happy_lv3><end_attr>Oh, what?  I'm not sure I can handle a\nnew request like that. I always give\nmy all!  I do my job with all my heart\n<br>\nand soul! But thank you for your\nservice.  Thank you for always being\nwith us, and I look forward to working\n<br>\nwith you in the future.": ""
+  },
+  "128643": {
+    "<attr><feel_happy_lv3><end_attr>Thank you for always using our site.\n Thank you very much for your\ncontinued patronage.": ""
+  },
+  "35679": {
+    "For the sake of Queen Dior, today and\ntoday only, I am working hard as a\ngatekeeper.": ""
+  },
+  "35680": {
+    "<attr><feel_happy_lv2><end_attr>Queen Dior's songs are always\nwonderful! However, was it my\nimagination that she seemed somewhat\n<br>\nsad? There are rumors that she and the\nprince are not getting along well\nthese days, which worries me a little.\n<br>\nPerhaps the queen will feel better if\nshe hears a story from a traveler like\nyou.  Please do come and see her.": ""
+  },
+  "35681": {
+    "<attr><feel_think_lv2><end_attr>My makeup doesn't look good.  I wonder\nif the queen will laugh at me now. Oh,\nand I forgot my handkerchief.  Oh,\n<br>\nwhere did I put the house key?": ""
+  },
+  "35682": {
+    "<attr><feel_think_lv2><end_attr>You don't have to be so disappointed\nsince you can listen to JoOusama's\nsong of grace many times in the\n<br>\nfuture. My family has a weakness for\nbeautiful women.": ""
+  },
+  "35683": {
+    "<attr><feel_happy_lv3><end_attr>I'm bored.  I'm tired of playing the\nsame games all the time.": ""
+  },
+  "61694": {
+    "Hey, hey!  Do you want to play\nsomething different?": ""
+  },
+  "35684": {
+    "I saw the prince leaving town just\nnow. He said he was going to the\nEternal Underground Labyrinth.  He was\n<br>\ntalking about the new ruins found\nnorth of Verinard. He said that if you\ntake a canoe there, cross over to the\n<br>\nnorth of Verinado Territory and head\nnorthwest, you'll find the entrance.": ""
+  },
+  "35685": {
+    "For the sake of Queen Dior, I am busy\nguarding the gate today and always\nwill be.": ""
+  },
+  "35687": {
+    "<attr><feel_think_lv1><end_attr>Prince Odysseus passed by earlier and\nI said hello to him, but he was acting\nweird. He was mumbling something about\n<br>\nsinging a song for his mother, but he\ndidn't even look at me.  He must have\nbeen in a hurry to get to the queen. I\n<br>\nwas kind of worried.  You have the\nproof of your life, don't you?  Would\nyou go to the castle and check on her?": ""
+  },
+  "35689": {
+    "<attr><feel_happy_lv3><end_attr>Lord Meru came to town a while ago! I\ngot some sweets. Hehehe~.": ""
+  },
+  "35690": {
+    "My son sometimes comes home with\nsweets. Apparently, the man who gave\nhim sweets is the Queen's husband,\n<br>\nLord Meru. Lord Meru doesn't seem to\nbe very useful in the castle, so I\ndon't think he deserves to be punished\n<br>\nfor that kind of national service.": ""
+  },
+  "35691": {
+    "<attr><feel_think_lv2><end_attr>You want to go south to the Boonah\nRainforest?  There's nothing there.\nThe Boonah Rainforest is a long way.\n<br>\n You have to go northeast through the\nnorthern part of the Verinado\nTerritory, and then you have to go\n<br>\nbeyond the Great Vaas Forest.": ""
+  },
+  "35692": {
+    "Now you are going to the eternal\nunderground labyrinth.  You're in a\ntough spot, too.": ""
+  },
+  "35693": {
+    "You haven't been to the Eternal\nUnderground Labyrinth yet?  Well, good\nluck.": ""
+  },
+  "35694": {
+    "<attr><feel_think_lv3><end_attr>It seems that the queen has returned\nto the castle with Lord Meru. Both of\nthem looked tired.  I wonder where in\n<br>\nthe world they were going. You'd\nbetter go and check on the prince with\nhim as soon as possible.": ""
+  },
+  "35695": {
+    "<attr><feel_happy_lv2><end_attr>Her Majesty's songs are wonderful when\nyou hear them up close! It's a real\npleasure to listen to her songs while\n<br>\nlooking at her face!": ""
+  },
+  "35696": {
+    "I like this town very much.  I am in\nthe middle of my travels around the\ncountry, but I think I will stay here\n<br>\nfor a while longer. It is not because\nthe queen is beautiful or for any such\nsilly reason!": ""
+  },
+  "35697": {
+    "Welcome to Verinade Castle Town!  Let\nme give you some information for\ntravelers. To the north of the town\n<br>\nstands Verinard Castle, where the\nqueen resides. To the south of the\ntown is the canoe dock.  It's in the\n<br>\nlake, so you can take a canoe out of\ntown.  Are you used to canoes now?\n I've heard there are bigger boats in\n<br>\nthis world!": ""
+  },
+  "35698": {
+    "<attr><feel_think_lv2><end_attr>I just went to hear the queen sing a\nsong of grace. Besides the Prince and\nthe Duke of Meru, there was a woman.\n<br>\n I had never seen her face before.": ""
+  },
+  "35699": {
+    "Listening to JoOusama's song of grace,\nI'm feeling more and more energetic.\n With this, I will be able to keep\n<br>\ngoing for a while!": ""
+  },
+  "35700": {
+    "If you have business in Verinade\nCastle, you are welcome to enter at\nany time. Just don't cause a scene.": ""
+  },
+  "35701": {
+    "The next king after the current Diole\nwill be a woman, right?  What will\nhappen to the prince then? I think it\n<br>\nwould be fine if the prince became\nking.": ""
+  },
+  "35702": {
+    "<attr><feel_sad_lv3><end_attr>I begged my boyfriend to buy me some\njewelry, but he said no. Soldiers in\nthe castle don't get paid very much,\n<br>\ndo they?": ""
+  },
+  "35703": {
+    "<attr><feel_happy_lv2><end_attr>I was finally able to listen to the\nqueen's song, stealing my mom's eyes!\nShe's really good, isn't she?  It\n<br>\nsatisfies a man's romantic side.": ""
+  },
+  "35704": {
+    "This town. It's too beautiful to stay\nhere.  The dirtiness of my own town is\nnot so nice.": ""
+  },
+  "35705": {
+    "I was going to try the hair style\nthat's all the rage among the Weddies.\nIt's just not for me.  Too bad.": ""
+  },
+  "35706": {
+    "<attr><feel_happy_lv1><end_attr>JoOusama's songs are always so\nbeautiful. But I wonder what it would\nbe like if a man sang that song?  I'd\n<br>\nlike to listen to it.": ""
+  },
+  "35707": {
+    "<attr><feel_sad_lv1><end_attr>I'd like to go back to my hometown of\nKamikhalmuy soon, but my husband seems\nto have taken a liking to this town.\n<br>\nI've gotten used to the tables and\nchairs, but I'm still afraid to sleep\nin bed.": ""
+  },
+  "35708": {
+    "<attr><feel_happy_lv3><end_attr>I saw her sing a song of grace, and I\nthought to myself once again, \"There\nwill never be a queen as beautiful as\n<br>\nQueen Diore!  I doubt there is a more\nbeautiful queen in the world than\nQueen Diore! We, the people of\n<br>\nVerinado, are proud of our queen.  I\nam glad I was born in this country!": ""
+  },
+  "35709": {
+    "As long as there is a song of grace\nsung by JoOusama, we can live in\npeace. The song of grace will be\n<br>\npassed on to the next queen, and her\nvoice will never cease to sing.": ""
+  },
+  "35710": {
+    "<attr><feel_angry_lv3><end_attr>It's a real shame that our people are\nin such a bind. At my age, it's not at\nall embarrassing to chase after the\n<br>\nqueen!": ""
+  },
+  "35712": {
+    "<attr><feel_happy_lv2><end_attr>I think the woman next to the queen\nmust be the prince's lover! She will\nbe the next queen, right?  Yes, she\n<br>\nwill be the next queen. Isn't that\ngood?": ""
+  }
+}

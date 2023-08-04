@@ -1,0 +1,77 @@
+{
+  "47318": {
+    "There's something in the taru.<pc>The \"Mere Old Man\" got a small model\nof a private house (a very important\nthing)!<me 60>": ""
+  },
+  "43591": {
+    "<attr><feel_happy_lv1><end_attr>Well, hello. I suppose you stopped by\nhere on your way to an adventure? I'm\nalso on a journey.  I came all the way\n<br>\nhere to train for a certain purpose.\nWhat? What is the purpose?  Ha-ha-ha.\nI can't tell you that.": ""
+  },
+  "53115": {
+    "<attr><feel_happy_lv1><end_attr>Well, hello. I suppose you stopped by\nhere on your way to an adventure? I'm\nalso on a journey.  I came all the way\n<br>\nhere to train for a certain purpose.\nWhat? What is the purpose?  Ha-ha-ha.\nI can't tell you that.": ""
+  },
+  "54360": {
+    "<if_woman><attr><feel_happy_lv3><end_attr>Hey, did I tell you something?  Right\nnow, Salon Felicia is getting ready to\nopen all over the place. Goof! Soon\n<br>\nwe'll have the nicest salon in town!\n Dash to the salon in the big city!<else><attr><feel_happy_lv3><end_attr>Hey, did I tell you something good?\n Right now, Salon Felicia is getting\nready to open all over the place.\n<br>\nGoof! Soon we'll have the nicest salon\nin town!  Dash to the salon in the big\ncity!<endif>": ""
+  },
+  "54361": {
+    "<attr><feel_happy_lv2><end_attr>I'm an apprentice hairdresser at Salon\nFelicia.  I'm an apprentice\nhairdresser at Salon Felicia, and I'm\n<br>\nhere in the wilderness to create the\nsweetest new colors for the salon! So.\nThat's why we're here.<%sEV_QUE_NAME0>I'd like to have some of that chocolate cocoa\n I'm looking for some Chopi Kakao<bw_break>": ""
+  },
+  "54362": {
+    "<if_woman><attr><feel_sad_lv1><end_attr>I'm afraid of demons. I can't fight\nthem.  Hey, hey, hey, can you please\nget me some chopped cacao?<else><attr><feel_sad_lv1><end_attr>I'm afraid of demons. I can't fight\nthem.  Hey, mister, I'm begging you...\ncan you get me some Chopped Piccacao?<endif>": ""
+  },
+  "54363": {
+    "<attr><feel_happy_lv2><end_attr>Really? Thank you very much.<%sEV_QUE_NAME0>If that's the case, there's a lot of\nfish around here. I'm counting on\nyou~!": ""
+  },
+  "54364": {
+    "<attr><feel_normal_lv1><end_attr>Really? Thank you very much.  Well,\nthen, I'll ask you to do your best.\nYour hands are full with requests! I\n<br>\ncouldn't help but give you a little\nbit of a hard-on.  Well, it can't be\nhelped. Can you call out to me again\n<br>\nlater when you have some free time?": ""
+  },
+  "54365": {
+    "<attr><feel_sad_lv2><end_attr>Well, that's a problem. If I don't do\nsomething, my seniors will snap my\nhips. If my hips get any bigger, I\n<br>\nwon't be able to go to my wife.": ""
+  },
+  "54366": {
+    "<attr><feel_happy_one><end_attr>I'm trying to increase the number of\ncolors we can use at the salon.  No\nmatter how you slice it...<%sEV_QUE_NAME0>I want the chocolate cocoa that the\n\"Mere Old Man\" sometimes drops.<open_irai><bw_break>": ""
+  },
+  "54367": {
+    "<if_woman><attr><feel_happy_lv1><end_attr><close_irai>I really appreciate you calling out to\nme, Nee-san.  I'll be sure to thank\nyou too.<else><attr><feel_happy_lv1><end_attr><close_irai>I really appreciate you giving me a\ncall.  I'll be sure to thank you too.<endif>": ""
+  },
+  "54368": {
+    "<if_woman><attr><feel_normal_lv1><end_attr>Ah, hey, hey!  Did you happen to get\nsome chocolate cacao by any chance?<else><attr><feel_normal_lv1><end_attr>Ah, Nii-san!  Did you happen to get\nsome chocolate cacao by any chance?<endif>": ""
+  },
+  "54369": {
+    "<attr><feel_sad_lv2><end_attr>Oh, I see, you haven't done it yet.  I\ngot a letter from my senior at the\nhair salon, urging me to get the new\n<br>\ncolor done. If I don't do something\nsoon, I'll get my hair cut off.\n That's the only thing I can't stand.": ""
+  },
+  "54370": {
+    "<if_woman><attr><feel_happy_lv2><end_attr>Oh, this is it!  Thank you so much,\nlady.  All right, I'll use it right\naway.<else><attr><feel_happy_lv2><end_attr>Oh, this is it!  Thank you so much,\nNii-san.  All right, I'll try it right\naway.<endif>": ""
+  },
+  "54371": {
+    "<se_nots joutyu SUCCESS>First, I cracked open a piece of\nchocolate cacao.  Okay, that's about\nright.  Now we'll season it with our\n<br>\nmagic!<bw_break>": ""
+  },
+  "54372": {
+    "Magical, Magical, Magical, Magical!\n Just a little something!": ""
+  },
+  "54373": {
+    "<attr><feel_happy_lv3><end_attr>It's done! A new color for the hair\nsalon that will make you feel the\nsweetest!  I call it the chocolate\n<br>\ncolor!": ""
+  },
+  "54374": {
+    "<attr><feel_happy_one><end_attr>And this is a thank you from us.\n Thank you very much! Thank you very\nmuch.": ""
+  },
+  "54375": {
+    "<if_woman><attr><feel_happy_lv3><end_attr>I'll make this chocolate color\navailable at any hair salon, so by all\nmeans, you should try it, too~!<bw_break><else><attr><feel_happy_lv3><end_attr>I'll make this chocolate color\navailable at any hair salon, so please\ngive it a try, Nii-san!<bw_break><endif>": ""
+  },
+  "54376": {
+    "<if_woman><attr><feel_happy_lv2><end_attr>I have a lot of respect for Madame\nFelicia, the super beauty witch who\nfounded Salon Felicia. I have a lot of\n<br>\nrespect for Madame Felicia, the super\nbeauty witch who founded Salon\nFelicia. Beauty is magic. These are\n<br>\nFelicia's words.  When you become\nbeautiful, your heart becomes happy.\n And it makes the people around you\n<br>\nhappy, too. I want you to become even\nmore beautiful and make everyone in\nthe world happy, too!<else><attr><feel_happy_lv2><end_attr>I have a lot of respect for Madame\nFelicia, the super beauty witch who\nfounded Salon Felicia. I have a lot of\n<br>\nrespect for Madame Felicia, the super\nbeauty witch who founded Salon\nFelicia. Beauty is magic. These are\n<br>\nFelicia's words.  When you become\nbeautiful, your heart becomes happy.\n And it makes the people around you\n<br>\nhappy, too. I hope you become a better\nman and make all the people in the\nworld happy!<endif>": ""
+  },
+  "54377": {
+    "Would you like to give Cocona some\nchocolate cacao?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "54378": {
+    "<pc>gave Cocona a piece of chocolate\ncacao!": ""
+  },
+  "54379": {
+    "Cocona cast a spell on the crumpled\nchopi cacao with a dubious hand!<me 69>": ""
+  },
+  "54380": {
+    "The new color \"Chocolate\" is now\navailable at the hair salon!<me 71>": ""
+  },
+  "54381": {
+    "<attr><feel_happy_lv2><end_attr>Salon Felicia is a maiden's dream.\n I'm going to become more and more\nbeautiful and get a big ball and\n<br>\nchain. And then I'll become a\nbeautiful witch like Madam Felicia~!\n Don't let anyone tell you that the\n<br>\nlife of a flower is short. Guhfufu!": ""
+  }
+}

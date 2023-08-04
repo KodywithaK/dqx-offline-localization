@@ -1,0 +1,65 @@
+{
+  "94059": {
+    "Hello, traveler.  I'm Gary the\npeddler.  Nice carriage, huh? It's my\npride and joy. It's my job to carry\n<br>\ngoods from Gran Zedorra to other\ncountries and towns.  The three gates\nare now passable with a face pass.\n<br>\nWe're going to tour around Lendersia.\nDo you have any plans to go somewhere\nelse?  If so, I'll give you a ride.<bw_break>": ""
+  },
+  "94060": {
+    "Hey there. We're going to tour around\nRendasia.  If so, I'll give you a\nride.<bw_break>": ""
+  },
+  "94061": {
+    "<pipipi_low>Hmm?  I'm sorry, but it's a little\ninconvenient for you to go there now.\nI'll give you your money back, so give\n<br>\nme some time and use it again.": ""
+  },
+  "94062": {
+    "But I'll only drop you off, not pick\nyou up.  If that's all right with you,\nwhere do you want to go?<name_off><select>\nVillage of Mersandi\nTown of Seredo\nKingdom of Araghaghiro\nGateway of the Three Gates\nNo ride<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "94067": {
+    "Oops. You're not getting in? That's\ntoo bad.  Come back if you want to go\nsomewhere.": ""
+  },
+  "94068": {
+    "<pipipi_low>Hey, guys.  We're at the village of\nMersandi.  I hope you'll use me again!": ""
+  },
+  "94069": {
+    "<pipipi_low>Hey, guys.  We're in Ceredo.  Well\nthen, I hope you'll use me again!": ""
+  },
+  "94070": {
+    "<pipipi_low>Hey, Mr. Omatto.  We're here in the\nkingdom of Araghaghiro.  Well then, I\nhope you'll use me again!": ""
+  },
+  "94071": {
+    "<pipipi_low>Hey, Omatosan.  We're at the Sanmon\nGate.  Well then, I hope you'll use me\nagain!": ""
+  },
+  "94072": {
+    "Oops. I'm sorry, but we're short on\nmoney.  Then I can't give you a ride.\n Please come back with the money.": ""
+  },
+  "94073": {
+    "<%sL_TIMEI>I'll take 25 gold to pay for it, okay?\n I'll take 25 gold for you, okay?<yesno><break>": ""
+  },
+  "94074": {
+    "Oops. Well, that's rude.  Come again\nif you want to go somewhere.": ""
+  },
+  "94107": {
+    "<attr><feel_happy_lv2><end_attr>Thank you! Right away, then.<%sL_TIMEI>Let's go!  Come on, we're on it, we're\non it!": ""
+  },
+  "20388000": {
+    "You're going to the village of\nMersandi.  I'll take 25 gold to pay\nfor it, okay?<yesno><break>": ""
+  },
+  "20388001": {
+    "We're going to the town of Ceredo.\n I'll take 25 gold to pay for it,\nokay?<yesno><break>": ""
+  },
+  "20388002": {
+    "You're going to the kingdom of\nAraghaghiro.  I'll take 25 gold to pay\nfor it, okay?<yesno><break>": ""
+  },
+  "20388003": {
+    "We're going to the gate at the third\ngate.  I'll take 25 gold to pay for\nit, okay?<yesno><break>": ""
+  },
+  "20388004": {
+    "<attr><feel_happy_lv2><end_attr>Thank you very much! Well then, we'll\nbe off to the village of Mersandi in\nno time.  Come on, let's go, let's go,\n<br>\nlet's go!": ""
+  },
+  "20388005": {
+    "<attr><feel_happy_lv2><end_attr>Thank you very much! Well then, we're\noff to Ceredo right away.  Come on,\nget in, get in!": ""
+  },
+  "20388006": {
+    "<attr><feel_happy_lv2><end_attr>Thank you very much! Well then, we'll\nbe off to the kingdom of Alahaghiro in\na moment.  Come on, let's go!": ""
+  },
+  "20388007": {
+    "<attr><feel_happy_lv2><end_attr>Thank you very much! Then we'll depart\nfor the Sanmon Gate immediately.  Come\non, let's go!": ""
+  }
+}

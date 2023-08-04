@@ -1,0 +1,164 @@
+{
+  "94093": {
+    "From here, you will reach a village\ncalled Treeshade Village if you\ncontinue along the road to the\n<br>\nnortheast. If you continue along the\nroad from there, you will arrive at\nTsusukul Village, where the Elves\n<br>\nlive. If you have never been there, I\nrecommend that you give it a try.": ""
+  },
+  "94094": {
+    "Good day to you. My name is Luban, a\npeddler.  My name is Peddler Ruban.  I\nhope to make your acquaintance. My job\n<br>\nis to transport the goods from Wind\nTown Azlan to the various points of\ninterest in this wagon. We will be\n<br>\npassing through the village of\nTsusukul on our way to Mountain Pass.\n If you wish, I can give you a ride.<bw_break>": ""
+  },
+  "94095": {
+    "We are going to Tsusukul Village and\nthen to Mountain Pass.  If you wish, I\ncan give you a ride.<bw_break>": ""
+  },
+  "94099": {
+    "However, I can only drop you off, not\npick you up.  If that is still the\ncase, where would you like to ride to?<name_off><select>\nTsusukul Village\nTreeshade Village (Azlan Region)\nRanger Association Branch (Molinara Forest)\nMountain Pass (Inamino Highway)\nNo ride<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "94100": {
+    "<attr><feel_happy_lv2><end_attr>Thank you very much.  Then I will\nleave immediately.": ""
+  },
+  "94101": {
+    "Would you like to join us for a ride?\n We look forward to seeing you again\nat another time.": ""
+  },
+  "94102": {
+    "<pipipi_low>Thank you for your patience.  We have\narrived at Treeshade Village.  Then,\nhave a good day.": ""
+  },
+  "94103": {
+    "<pipipi_low>Thank you for your patience.  We have\narrived at Tsusukul Village.  Then,\nhave a good day.": ""
+  },
+  "94104": {
+    "I am sorry, but we seem to be short of\nmoney.  If you could come back again\nwith the money.": ""
+  },
+  "94105": {
+    "<%sL_TIMEI>I see that you are going to the \"M\"\nstation.  25 gold. May I?<yesno><break>": ""
+  },
+  "124149": {
+    "<pipipi_low>Thank you for your patience.  You have\narrived at the Ranger Association\nBranch.  Then, have a good day.": ""
+  },
+  "127385": {
+    "<pipipi_low>Thank you for your patience.  We have\narrived at Mountain Pass.  Then, have\na good day.": ""
+  },
+  "39137": {
+    "<attr><feel_happy_lv2><end_attr>Have you been to the Molinara Forest\nin the north?  It is a very beautiful\nand rich forest.": ""
+  },
+  "42261": {
+    "<attr><feel_happy_lv2><end_attr>Look who's here<pc>I am so happy to meet you here.  What\na coincidence to meet you here. Oh,\nyou don't remember me?  Ha-ha-ha! You\n<br>\njoke very well, don't you?  I am\nZahokku, whom you met at Mirror\nFountain.": ""
+  },
+  "39138": {
+    "<attr><feel_happy_lv2><end_attr>Look who's here<pc>I am so happy to meet you here.  What\na coincidence to meet you here. Oh,\nyou don't remember me?  Ha-ha-ha! You\n<br>\njoke very well, don't you?  I am\nZahokku, whom you met at Mirror\nFountain. Priest Priest Helga wanted\n<br>\nto do some research.  I'm here as his\ncompanion.": ""
+  },
+  "39139": {
+    "<attr><feel_think_lv1><end_attr>parent<pc>Mr.?  Priest Helga has returned to\nKirika Shrine in Azlan for you. You\nmust go to Kirika Shrine immediately.\n<br>\n Priest Helga is a busy man.  We must\nnot keep him waiting too long.": ""
+  },
+  "39140": {
+    "<attr><feel_happy_lv1><end_attr>oh!<pc>Ms..  I see that you are preparing for\nyour baptism. If you complete the rite\nof baptism without incident, you and I\n<br>\nwill be true siblings!": ""
+  },
+  "39142": {
+    "oh!<pc>Three.  Priest Helga is on his way to\nKirika Maternity with High Priest\nIyori and the others. Now you, too,\n<br>\nmust hurry.  If you head east, you\nwill soon reach the birthing place on\nKirika Islet.": ""
+  },
+  "39141": {
+    "<if_woman><attr><feel_happy_lv2><end_attr>Oh, my sister<pc>I am so happy that the baptismal rite\nhas been successfully completed.\n After the successful completion of\n<br>\nthe baptismal rite, you and I have\nbecome true siblings. From now on, I\nmust devote myself to follow your\n<br>\nexample.<else><attr><feel_happy_lv2><end_attr>Oh, my brother<pc>I am so happy that the baptismal rite\nhas been successfully completed.\n After the successful completion of\n<br>\nthe baptismal rite, you and I have\nbecome true siblings. From now on, I\nmust devote myself to follow your\n<br>\nexample.<endif>": ""
+  },
+  "36190": {
+    "Mmmm, mmmm, mmmm, mmmm, mmmm, let me\nsleep.": ""
+  },
+  "48834": {
+    "I feel someone is sleeping in the\ntent. I think it's best not to go in\nthere now.": ""
+  },
+  "36193": {
+    "<attr><feel_sad_one><end_attr>It hurts. It hurts.  My back hurts so\nmuch, but I can't move my udder to rub\nit. Come on, rub me, priest.  My\n<br>\nhusband left me because he didn't want\nme to catch the disease.": ""
+  },
+  "36194": {
+    "<attr><feel_think_lv3><end_attr>parent<pc>I recall that this was your first\nassignment here.  Come to think of it,\nthis was your first assignment here.\n<br>\nBut I don't need your help.  I,\nZahokku, will take care of everything.": ""
+  },
+  "36195": {
+    "<attr><feel_think_lv1><end_attr>Oh, my God! A fragrant tree called\n\"Senko-ju\" is effective against the\nbreath of the reaper? Hm...then, I\n<br>\nguess we can go to the Ranger\nAssociation Branch in the northwestern\nforest and ask them about the\n<br>\nSenkouju.": ""
+  },
+  "36196": {
+    "<attr><feel_think_lv1><end_attr>Now you go back to your training.  I,\nZahokku, will find the fragrant tree\nand show it to you.": ""
+  },
+  "36197": {
+    "<attr><feel_sad_one><end_attr>I can't see anything.  I can't see\nanything. I wonder if I'm going to die\nlike this.": ""
+  },
+  "36198": {
+    "<if_woman><attr><feel_sad_lv3><end_attr>Ugh, my sister, laugh at me, your\nbrother who can do nothing. I have\ntried spells, medicines, new cures,\n<br>\neverything, but the sick only grow\nweaker. If only I could get my hands\non some sparkling wood.<else><attr><feel_sad_lv3><end_attr>Ugh, my brother, laugh at me, your\nbrother who can do nothing. I have\ntried spells, medicines, new cures,\n<br>\neverything, but the sick only grow\nweaker. If only I could get my hands\non some sparkling wood.<endif>": ""
+  },
+  "48835": {
+    "I can hear Arnoud sleeping in the\ntent. I think it's best not to go in\nthere right now.": ""
+  },
+  "36200": {
+    "<attr><feel_happy_one><end_attr>Thank you, priest.  If it weren't for\nyou, I'd be wasted for sure. You saved\nmy life.  I'm going to do everything I\n<br>\ncan to keep it alive.  I feel like I\ncan do anything now.": ""
+  },
+  "36201": {
+    "<if_woman><attr><feel_happy_lv1><end_attr>Oh, my sister!  I have never been so\nproud of you as I am of my brother and\nsister. I can see now why Eldona's\n<br>\nBaptism required you.<else><attr><feel_happy_lv1><end_attr>Oh, my brother!  I have never been so\nproud of you as I am of my brother. I\ncan see now why Eldona's Baptism\n<br>\nrequired you.<endif>": ""
+  },
+  "60374": {
+    "<attr><feel_happy_lv1><end_attr>Traveler, have you heard of this?\n There is a Salon in Kamiharmui, the\nRoyal City far to the west. I've been\n<br>\nasked to work there as an apprentice\nhairdresser.  I'm on my way to Royal\nCity now.": ""
+  },
+  "60375": {
+    "<attr><feel_happy_lv1><end_attr>I'm an apprentice hairdresser at Salon\nFelicia. I've decided to create a new\ncolor for the Salon. Since I've gone\n<br>\nto all this trouble, I thought I'd\nmake a dusty, welcoming color that\nwould bring joy to my customers, so I\n<br>\ncame here to pick Tea Plant Leaves.<bw_break>": ""
+  },
+  "60376": {
+    "<attr><feel_sad_lv1><end_attr>But maybe it's just a bad time of year to pick\n They're along the river to the southeast<%sEV_QUE_NAME0>Tea Plant Leaves were taken away by a\nI'm sorry, traveler.<%sEV_QUE_NAME0>is a very powerful monster around\nhere, but could you please go get me\nback my Tea Plant Leaves?": ""
+  },
+  "60377": {
+    "<attr><feel_happy_lv2><end_attr>Oh, well! Are you sure?  I was so\nrelieved I had a bit of a bittersweet\ntear.  Thank you, traveler. I'm\n<br>\ncounting on you.": ""
+  },
+  "60378": {
+    "<attr><feel_think_lv1><end_attr>Oh, well! Are you sure?  But,\ntraveler. Don't you have many other\nrequests? I can't ask such a favor\n<br>\nfrom you. Please call on me again when\nyou are free.": ""
+  },
+  "60379": {
+    "<attr><feel_sad_lv1><end_attr>Is that so? If that's so, I can't help\nit.  I left my hometown to study the\nspirit of hospitality, and chose to\n<br>\nbecome a hair stylist. Dealing with\nmonsters is just too, too much for me.\n Ah, what should I do?": ""
+  },
+  "60380": {
+    "<attr><feel_happy_lv1><end_attr>I wanted to create a dusty, welcoming\ncolor scheme that would bring joy to\nthe customers who come to Salon.<open_irai><bw_break>": ""
+  },
+  "60381": {
+    "<attr><feel_happy_lv1><end_attr>But we need Tea Plant Leaves for that\n They're in Azlan Region, southeast of the river<%sEV_QUE_NAME0>I was taken away by a He's a very\nstrong monster around here.  I'm\nsorry, traveler. Please defeat him and\n<br>\nbring back the Tea Plant Leaves.<close_irai>": ""
+  },
+  "60382": {
+    "Would you give Yatsuha some Tea Plant\nLeaves?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "60383": {
+    "<pc>Yatsuha gave Tea Plant Leaves to\nYatsuha!": ""
+  },
+  "60384": {
+    "Yatsuha cast a spell on the Tea Plant\nLeaves with his skillful hands!<me 69>": ""
+  },
+  "60385": {
+    "Salon has a new color \"matcha\"\navailable!<me 71>": ""
+  },
+  "60386": {
+    "<attr><feel_happy_lv1><end_attr>Welcome back, traveler.  Did you\nreceive Tea Plant Leaves by any\nchance?": ""
+  },
+  "60387": {
+    "<attr><feel_sad_lv1><end_attr>Oh, my God. Am I barking up the wrong\ntree?  I don't like it. You're just\ncareless.  I don't like it. I'm just\n<br>\ntrying to look nice.": ""
+  },
+  "60388": {
+    "<attr><feel_happy_lv2><end_attr>Oh, thank you! I can't believe you\nbrought me such soft and beautiful\nsprouts.  I'm so happy. I'm sure\n<br>\nyou'll get great colors.<bw_break>": ""
+  },
+  "60389": {
+    "<attr><feel_happy_one><end_attr>I'll try it right away.  If you like,\nyou can have a look at it, too.": ""
+  },
+  "60390": {
+    "<se_nots joutyu SUCCESS>First, Tea Plant Leaves are heated\nwell and dried slowly.  Then I crush\nthem into small pieces. Mmmm... A\n<br>\nnice, soft aroma.  It reminds me of my\nmother who lives far away from me.\nThen, add hot water a little at a time\n<br>\nand mix carefully with all your heart.\n Finish with a touch of magic and it's\nready to serve.<bw_break>": ""
+  },
+  "60391": {
+    "Hona magical, magical ♪ Wabino sabino!\n Chano yuno cocorro! Dosue.": ""
+  },
+  "60392": {
+    "<attr><feel_happy_lv3><end_attr>Well, take a look! Thanks to you, I've\ncreated a very soft color.  This is\nthe matcha color of hospitality.": ""
+  },
+  "60393": {
+    "<attr><feel_happy_one><end_attr>This is for the traveler.  It's not\nmuch, but please accept it.": ""
+  },
+  "60394": {
+    "<attr><feel_happy_one><end_attr>This matcha color can be used at any\nSalon.  Please try it at your own hair\nsalon.<bw_break>": ""
+  },
+  "60395": {
+    "<attr><feel_happy_lv2><end_attr>My mother, who has been in the\ncustomer business all her life, taught\nme the spirit of hospitality.  I will\n<br>\ntreasure that lesson for the rest of\nmy life. She runs a hot spring hotel\nin Wind Town Azlan. It is my dream to\n<br>\nbecome a full-fledged hairdresser and\nwork with her someday.": ""
+  },
+  "60396": {
+    "<attr><feel_happy_lv2><end_attr>My mother, who has been in the\ncustomer business all her life, taught\nme the spirit of hospitality.  I will\n<br>\ntreasure that lesson for the rest of\nmy life. She runs a hot spring hotel\nin Wind Town Azlan. It is my dream to\n<br>\nbecome a full-fledged hairdresser and\nwork with her someday.": ""
+  },
+  "76534": {
+    "Success in photographing the\nmysterious living doll!<pc>received Mystery Lively Doll Photo\n(Key Items)!<me 60>": ""
+  }
+}

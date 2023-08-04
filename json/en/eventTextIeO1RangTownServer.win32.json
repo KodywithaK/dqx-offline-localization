@@ -1,0 +1,641 @@
+{
+  "10002000": {
+    "Oh, that's right!   Take this recently\nreceived item and put it on the\nwarpath!<bw_break>": ""
+  },
+  "10002001": {
+    "<pc>received a brimstone bag (Key Items)!<me 60>In addition, he received a recipe\nbook, \"Let's Get Started in Alchemy.\"<se_nots System Item><pc>I read \"Hajimeyo Alchemy\" (Let's Start\nAlchemy)!<pc>I learned a recipe for alchemy to\nbegin with!<se_nots System Item>The Renkin pot is a special tool that\ncan be used to smelt another item by\ninserting an item of material. You can\n<br>\nsmelt an item by selecting \"Renkin\nGama\" from the \"Items\" command. You\nwill need a \"recipe\" for the item you\n<br>\nwish to alchemize. Recipes can be\nobtained from Recipe Shops and\nbookshelves.": ""
+  },
+  "10002002": {
+    "I don't know how it works, but it\nsounds convenient!  Gahahahahahaha!\n Well then, go on a rampage!": ""
+  },
+  "39069": {
+    "The door is keyed.": ""
+  },
+  "37041": {
+    "<attr><feel_happy_lv2><end_attr>I'm really glad your father came back!<pc>Mr.!  Thank you very much!": ""
+  },
+  "37042": {
+    "It may seem strange to say this after\nhaving my life saved, but thank you so\nmuch for saving the village king. This\n<br>\nvillage is united under the popularity\nof the village king.  If I had lost\nthe village king because of you, I\n<br>\ncould not repent even if I wanted to.": ""
+  },
+  "36282": {
+    "<attr><feel_happy_lv1><end_attr>He always smiles and is very kind to\neveryone in the village.  I heard that\nhe used to be strong, but I wonder if\n<br>\nthat's true.": ""
+  },
+  "37047": {
+    "Jiganf will be the next king of the\nvillage!  And after that, I'll be the\nVillage King! Achooo!": ""
+  },
+  "37048": {
+    "Suddenly, the village king wanted to\nshow the village children the formal\npurification ceremony of the Village\n<br>\nArena. For many years, the\npurification ceremony had been\nperformed in a simplified form, and\n<br>\nmany children in the village had never\nseen a formal ceremony.": ""
+  },
+  "37049": {
+    "oh!<pc>Thank you for coming. I'm in a bit of\na bind.  I know this is a little\nawkward for someone who saved my life,\n<br>\nbut I have a favor to ask you. For the\nfirst time in a long time, I want to\nhold a purification ceremony for the\n<br>\nVillage Arena, but I'm out of a\nspecial kind of salt that is to be\nsprinkled in the arena. The special\n<br>\nsalt is called Eze Salt.  As the name\nsuggests, it can be found in the Salt\nLake in Ezesol Canyon on the Dwachakka\n<br>\nContinent. I'm sorry, but would you\nmind going there to pick it up?  Of\ncourse, I'll thank you.": ""
+  },
+  "37050": {
+    "<attr><feel_happy_lv2><end_attr>Oh, you can do it!  That's what I'm\ntalking about.<pc>It is! Gahaha! There is a cabin near\nthe entrance to Salt Lake.  There are\nDwarfs who collect salt there, so you\n<br>\ncan ask them if you have any\nquestions. Ezesol Canyon.<pc>Then, I guess I can go for a walk.\n Well then, I'm counting on you.": ""
+  },
+  "37051": {
+    "<attr><feel_happy_lv2><end_attr>Oh, you can do it!  But I hear you're\nfull of requests. I can't say no to\npeople's requests.<pc>But come back when you have a little\nmore time on your hands. I'm looking\nforward to working with you. Gahaha!": ""
+  },
+  "37052": {
+    "<attr><feel_happy_lv2><end_attr>Oh, yeah! No, no, no, don't worry\nabout it!  It's my fault for asking\nyou at a busy time! Gahaha!": ""
+  },
+  "37053": {
+    "I need you to gather Eze Salt to sow\nin the Village Arena for the\npurification ceremony. Eze Salt, as\n<br>\nthe name implies, is found in the salt\nlakes of Ezesol Canyon in Dwachakka\nContinent.<open_irai><bw_break>": ""
+  },
+  "37054": {
+    "<close_irai>There is a cabin near the entrance to\nSalt Lake.  There is a Dwarf who\ncollects salt there, so you can ask\n<br>\nhim if you have any questions. About\nEzesol Canyon<pc>Then, I guess I can go for a walk.\n Well then, I'm counting on you.": ""
+  },
+  "37058": {
+    "oh!<pc>You're back.  Did you pick up Eze Salt\nin one piece?": ""
+  },
+  "37059": {
+    "<attr><feel_happy_lv2><end_attr>Oh, yeah, right. You're not ready yet?\n I'm waiting patiently, so I'm\ncounting on you!  Gahaha!": ""
+  },
+  "37060": {
+    "<attr><feel_happy_lv2><end_attr>Oh, you received it!  That's what I'm\ntalking about.<pc>It is!": ""
+  },
+  "39067": {
+    "Would you like to give Eze Salt to\nChief Cliffgain?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "39068": {
+    "<pc>gave Eze Salt to Chief Cliffgain, the\nvillage king!": ""
+  },
+  "37063": {
+    "Beyond this point is the battlefield.\n This is the sacred battlefield where\nthe annual martial arts tournament is\n<br>\nheld.  The King of the Village is\ninside.": ""
+  },
+  "37065": {
+    "<attr><feel_happy_lv1><end_attr>I wonder who would be stronger in a\nreal fight, Sonoo when he was active\nor Jiganf now. When I start thinking\n<br>\nabout that kind of thing, I get all\nhot and bothered and can't sleep.": ""
+  },
+  "37067": {
+    "The Village King is a teacher who\nteaches I, the children many things.\nThe Village King taught us that not\n<br>\nonly the winner pays the loser, but\nalso the loser pays the kei! That's\nwhat the Village King taught us.": ""
+  },
+  "37068": {
+    "<attr><feel_think_lv2><end_attr>You think the Village King might be\ntrying to leave the village? What\nnonsense! It's impossible for the King\n<br>\nto leave Langao Village. He has his\nown reasons for not leaving the\nvillage. Oops. My mouth slipped.  You\n<br>\nwant to ask him why?<yesno><break>": ""
+  },
+  "37069": {
+    "Oh, okay.  Then forget about what I\njust said.  It's not something to talk\nabout lightly.": ""
+  },
+  "37070": {
+    "Oh well, what can I do?  Well, let me\ntell you something. Any old human in\nthis village knows this. The village\n<br>\nking is waiting for someone to come\nback to the village. Who's that\nsomeone? Hmmm.  I'd rather not say. If\n<br>\nyou want to know that, you'll have to\nask the village king himself.  If you\nwant to know where he is, Grandma\n<br>\nKossha, who lives at the end of the\nstairs next to the Weapon Shop, will\nprobably know.": ""
+  },
+  "37071": {
+    "<attr><feel_think_lv2><end_attr>You still want to ask why the village\nking can't leave this village?<yesno><break>": ""
+  },
+  "37072": {
+    "Mr. Guran is looking for the village\nking? Yes, he is.  Mr. Guran doesn't\nknow anything about it. However, all\n<br>\nthe old people in this village know\nwhat the Village King is doing.  You\ndon't need to worry.": ""
+  },
+  "37073": {
+    "I saw the village king walking out of\nthe village a while ago, but he hasn't\nchanged a bit since he was a child,\n<br>\nhis worries showing on his face so\neasily. He must have gone there again.\n He always goes there when he is\n<br>\ntroubled.": ""
+  },
+  "37074": {
+    "The village king is waiting for\nsomeone to come back to this village.\nIf you want to know who that someone\n<br>\nis, you will have to ask him. If you\nwant to know where he is, Grandma\nKossha, who lives at the end of the\n<br>\nstairs next to the Weapon Shop, will\nknow.": ""
+  },
+  "37075": {
+    "I saw the village king walking out of\nthe village just now, but he hasn't\nchanged a bit since he was a child,\n<br>\nthe way his worries immediately show\non his face. Hmm? Jeral told you that\nI know where the village king is?  Oh,\n<br>\ndear. He's not so clever, is he? Oh,\nwell. I'll tell you.  The Village King\nis in a cave in the Langao Mountains.\n<br>\n It's in the southeast, in a cave\ncalled Daz Grotto. You must go to the\nbottom of Daz Grotto.  You will know\n<br>\nwhy you are in such a place when you\nget there.  See for yourself.": ""
+  },
+  "37076": {
+    "The King of the Village is in a cave\nin the Langao Mountains.  The cave is\ncalled Daz Grotto, located in the\n<br>\nsoutheast direction from the village.\nGo to the bottom of Daz Grotto and you\nwill see why.  You will know why you\n<br>\nare in such a place when you get\nthere.  See for yourself.": ""
+  },
+  "37077": {
+    "<attr><feel_think_lv2><end_attr>I heard from the village king\n \"I was out in the mountains observing plants and trees<pc>And he came back after meeting the\n\"Mere Old Man\"? It's a story that\ndoesn't quite make sense, but since he\n<br>\nsaid so, it can't be helped.  Anyway,\nlet me thank you. Please receive this.": ""
+  },
+  "83029": {
+    "Also, the Village King has asked me to\nrest in this house to repay you for\nall the trouble you've caused.  So,\n<br>\nyou should accept the favor.": ""
+  },
+  "37078": {
+    "Everyone in the village knows that the\nvillage king built Mr. Gbagabe's tomb\nand visits it frequently. But he\n<br>\ndoesn't say so, so everyone pretends\nthey don't know. In the old days, when\nthere was a rule that losers were not\n<br>\nallowed to build tombs, the village\nking broke the rule and built this\ntomb.": ""
+  },
+  "37079": {
+    "<attr><feel_happy_lv1><end_attr>The Village King is very good at\nfinding the good in people. That's why\nhe likes everyone in the village and\n<br>\nthey respect him from the bottom of\ntheir hearts.": ""
+  },
+  "37080": {
+    "The atmosphere in the village has\nchanged a lot since the current Chief\nCliffgain became the village king.  It\n<br>\nused to be a much more dangerous\nvillage. Well, the only person who\nhasn't changed is my grandpa.": ""
+  },
+  "37081": {
+    "<attr><feel_happy_lv2><end_attr>oh!<pc>You're back. You're back.  I told\nGuran that's a good idea. I know I'm\nbeing persistent, but you can't tell\n<br>\nanyone about what we talked about in\nthe cave. Gahahahahaha!": ""
+  },
+  "37083": {
+    "<attr><feel_happy_lv2><end_attr>The merchant Elf is very funny when he\nsays \"Gozasusu gozasusasu\".  Gozasusu\ngozasusu.": ""
+  },
+  "37084": {
+    "It's a village deep in the mountains.\n Sometimes, Peddlers like that come\nand visit us, and they are very\n<br>\nhelpful.": ""
+  },
+  "37085": {
+    "<attr><feel_angry_lv2><end_attr>The village king returned, but he was\nbadly injured!<pc>I guess the \"Mere Old Man\" found them.\n This is my thanks. I hope you will\nreceive it.": ""
+  },
+  "37086": {
+    "<attr><feel_sad_lv2><end_attr>However, the village king remained\nsilent and did not say anything about\nhis injuries or his will. I understand\n<br>\nthat there must be some reason for\nthis, but as his close aide, it's\nshameful.": ""
+  },
+  "83030": {
+    "The village king is very concerned\nabout the trouble he has put you\nthrough, even though you are badly\n<br>\nwounded.  You should get some rest.": ""
+  },
+  "37087": {
+    "<attr><feel_sad_lv2><end_attr>oh!<pc>You're back.  He's back. I made it to\nthe village somehow, but the wound\nGagai inflicted on me was more serious\n<br>\nthan I thought. I have an idea about\nGagai. I'll leave the villagers in the\ndark for the time being.": ""
+  },
+  "37089": {
+    "<attr><feel_angry_lv2><end_attr>Now that Jiganf and Arold are gone\n Who can defeat that dreadful ogre?<pc>Only! Good luck!": ""
+  },
+  "37090": {
+    "<attr><feel_angry_lv2><end_attr><pc>Next time, get rid of him! You better\nget down low and yell \"boom, boom,\nboom, boom,\" y'know what I mean?": ""
+  },
+  "37091": {
+    "<attr><feel_angry_lv2><end_attr><pc>Good luck to you!  I'm going to the\nbattlefield with you!": ""
+  },
+  "37092": {
+    "<attr><feel_angry_lv2><end_attr>I had no idea that he would turn up.\n I guess I've depended on the Village\nKing and Jiganf and the others too\n<br>\nmuch. But I won't give up easily!<pc>Mr.! Save the future of this village!\n Save the future of my daughters!": ""
+  },
+  "37093": {
+    "<attr><feel_angry_lv2><end_attr>Beyond this point is the Village\nArena.<pc>Good luck! Do your best!  No matter\nhow strong your opponent is, you must\nnever give up!": ""
+  },
+  "39070": {
+    "The door is keyed.": ""
+  },
+  "37095": {
+    "Beyond this point is the battlefield.\n It is a sacred battlefield where\nmartial arts tournaments are held\n<br>\nevery year. But there's a lot of noise\ninside.  Is something happening?": ""
+  },
+  "37096": {
+    "<attr><feel_angry_lv2><end_attr>Beyond this point is the battlefield.<pc>Yo! You came back! You are the last\nhope of this village!  Save Langao\nVillage!": ""
+  },
+  "37097": {
+    "<attr><feel_happy_lv2><end_attr>Ahh... If only Mr. Ziegunf were here\nat a time like this. If only Mr.\nJiganf were here at a time like this,\n<br>\nI'm sure he would have defeated that\nguy in no time! But I'm sure<pc>But I think you can do it! Good luck!": ""
+  },
+  "37098": {
+    "<attr><feel_angry_lv2><end_attr><pc>Hey, Mr. K!  That was a really close\nbattle earlier! You can win next time!\n I'm going to Owen too, so let's try\n<br>\nagain!": ""
+  },
+  "37099": {
+    "<attr><feel_happy_lv1><end_attr><pc>Thank you! This is a heartfelt thank\nyou from the Village King, myself, and\nall of us here in Langao Village.\n<br>\nPlease receive it.": ""
+  },
+  "37100": {
+    "I am going to build a school here in\nLangao Village, as written in the\nletter of the village king one day.<pc>I would like to ask for your continued\ncooperation in many ways in the\nfuture.  I look forward to working\n<br>\nwith you in the future!": ""
+  },
+  "37101": {
+    "<attr><feel_happy_lv1><end_attr><pc>The part where he boogied and shu-pa-\npa-pa'd was amazing!  It was very\nbeautiful!": ""
+  },
+  "37102": {
+    "<attr><feel_happy_lv2><end_attr>We did it! We did it!<pc>I'd like to be a champion!": ""
+  },
+  "37103": {
+    "completely<pc>Thank you for everything you've done\nfor us. Thank you for saving this\nvillage.  Let me thank you from the\n<br>\nbottom of my heart.": ""
+  },
+  "37104": {
+    "<pc>I am horrified to say the least. I am\nhonestly horrified to think that if\nyou had not been in this village, I\n<br>\nwould not have been able to help you.\nIn the short time I've been here,\nyou've saved my life many, many times.\n<br>\n Let me thank you from the bottom of\nmy heart.  Thank you from the bottom\nof my heart. I'm sorry Gagai had to\n<br>\nleave, but I'm sure he'll come back to\nthis village someday when he's ready.\nOops! I haven't thanked you yet.\n<br>\n Gahaha! I've already given it to\nGuran.  Please take it!": ""
+  },
+  "37105": {
+    "Beyond this point is the battlefield.\n It's a sacred battlefield where\nmartial arts tournaments are held\n<br>\nevery year. Gagai has left the\nvillage.  He is no longer a threat to\nus.": ""
+  },
+  "37106": {
+    "<attr><feel_happy_lv2><end_attr>Gagai, who walked out holding his\nwound, was a nice guy with a kind of\nmelancholy expression that set my\n<br>\nheart on fire.": ""
+  },
+  "37107": {
+    "<attr><feel_happy_lv2><end_attr>I'm going to have to go through with this\n Mokuhyo<pc>I'm going to call him \"Mr. K.\"!": ""
+  },
+  "37108": {
+    "I am going to build a school here in\nLangao Village, as written in the\nletter of the village king one day.<pc>I would like to ask for your continued\ncooperation in many ways in the\nfuture.  I look forward to working\n<br>\nwith you in the future!": ""
+  },
+  "37109": {
+    "<attr><feel_happy_lv2><end_attr>I am sorry to see Gagai go, but I have\nfaith that someday, when you are\nready, you will return to this\n<br>\nvillage. I know you will continue your\njourney, but please stop by this\nvillage again anytime! I, too, will do\n<br>\nmy best for this village so that I\nwon't be outdone by the younger\ngeneration!  Gahahahahaha!": ""
+  },
+  "34396": {
+    "<attr><feel_happy_lv1><end_attr>Oh, yes! Traveler!  Enjoy your\nadventurous journey, but do some\ntraining too!": ""
+  },
+  "36279": {
+    "<attr><feel_happy_one><end_attr>Crispy and savory on the surface,\njuicy inside.  The sweet and spicy\nsauce and exquisite spices are\n<br>\nirresistible.<heart>": ""
+  },
+  "36280": {
+    "<attr><feel_angry_lv2><end_attr><turn_pc>What are you doing?  Don't look at me\nlike you want something!  I won't give\nmy chicken to anyone!": ""
+  },
+  "37046": {
+    "<attr><feel_happy_lv1><end_attr>He always smiles and is very kind to\neveryone in the village.  I heard that\nhe used to be strong, but I wonder if\n<br>\nthat's true.": ""
+  },
+  "34329": {
+    "<attr><feel_angry_lv1><end_attr>I'm here in my private room to unwind\nfrom the daily grind.  If you have\nnothing to do, leave as soon as\n<br>\npossible.": ""
+  },
+  "34331": {
+    "Not at all! My grandfather is always\ntalking about yakitori from morning\ntill night.  It's really a problem.": ""
+  },
+  "36292": {
+    "I've been researching legendary\nmonsters sealed away around the world.\n Now that we have photographic\n<br>\nequipment, it's much easier to\ndocument.": ""
+  },
+  "34350": {
+    "This is the room of the Village King.\n The Village King is a man who has won\nmany champions in past martial arts\n<br>\ntournaments.": ""
+  },
+  "85357": {
+    "I had a little bit of experience with\nPot Alchemy in the past.  The\nguildmaster was a strict man.": ""
+  },
+  "34310": {
+    "<attr><feel_happy_lv1><end_attr>You're amazing!  You thought you were\ndead, but you came back to life! But\nnow you know how scary the Rhonda Ice\n<br>\nCave can be. Only Jiganf, the champion\nof the tournament, could train in a\nplace like that!": ""
+  },
+  "34311": {
+    "This is the home of the honorary\nchampion of the tournament, the\nVillage Chief Cliffgain. He is\n<br>\nconcerned about the safety of the\nvillage.<pc>If you notice anything, be sure to\nreport it to the village king.": ""
+  },
+  "34313": {
+    "This is Lady Maille's room.  I heard\nyou almost died, but you look fine.<pc>The following is a list of the most\ncommon problems with the": ""
+  },
+  "34314": {
+    "This is Maille's room.  Maille has an\nappointment.  Don't stay too long.": ""
+  },
+  "34315": {
+    "<pc>I don't know if you know this, but\nthere was a kind young man named\nAroldo in this village.  There was a\n<br>\nkind-hearted young man named Arold in\nthis village. This slope reminds me of\nhim.  Arold, Jiganf, and Mr. Maille\n<br>\nused to race each other to the top\nwhen we were kids. Arold couldn't win\nno matter what he did, but Jiganf took\n<br>\ncare of him like a big brother.  We\nwere like real siblings.": ""
+  },
+  "34316": {
+    "<attr><feel_angry_lv1><end_attr>Ogre's power is strong.  That is why\nwe must not allow ourselves to be\ndrowned by its power! We must not only\n<br>\nstrengthen our body and mind, but also\nour spirit!  That is the Ogre way of\nlife and pride!<pc>You should be diligent, too.": ""
+  },
+  "34317": {
+    "This is Langao Village.  This is the\nvillage of Ogre who put themselves in\nthe extreme cold and strenuously\n<br>\nstrenghten themselves. Oh!<pc>You're all right, aren't you?  I was\nso surprised when Mr. Maille carried\nyou in his limp arms! Out here is the\n<br>\nLangao Mountains.  Beyond the bridge\nto the west, the Rhonda Ice Cave is\nhome to some very powerful monsters.\n<br>\nYou must have your Beginner's weapon\nwith you.  Don't forget to equip\nyourself before you go out there,\n<br>\nokay?  If you're low level, train near\nthe village!": ""
+  },
+  "34318": {
+    "This is Langao Village.  This is the\nvillage of Ogre, who put themselves in\nthe extreme cold and strenghten\n<br>\nthemselves severely. Out here are the\nLangao Mountains.  Beyond the bridge\nto the west, in Rhonda Ice Cave, there\n<br>\nare strong monsters. You should have\nyour Beginner's weapon with you.\n Don't forget to equip yourself before\n<br>\nyou go out there, okay?  If you're not\nat a high level, train near the\nvillage!": ""
+  },
+  "34319": {
+    "If I'm the champion in a martial\nartist tournament, even if I'm not\nvery smart, I can have a big house.\n<br>\n You can make life easy for Mom!\nYou'll see, Ma!  I'll be an unbeatable\nchampion like Jiganf someday!": ""
+  },
+  "34322": {
+    "Jiganf is a manly man, a fine man who\nis loved by everyone in the village. I\ndon't think it's fair to say that\n<br>\nJiganf is the only one, but Maille is\nalso worried about Jiganf's change.": ""
+  },
+  "34323": {
+    "<attr><feel_happy_lv1><end_attr>Even if you do your best to kill\nmonsters, it's not enough to save\nmoney, right? The trick to earning\n<br>\nmoney is not to keep things you don't\nneed right now, but to sell them to\nthe stores and turn them into money!\n<br>\nThat's what my father said!": ""
+  },
+  "34324": {
+    "Jiganf is my son.  He's stubborn,\ncompetitive, and mean, but he's the\nmost honest and kindest boy I know.\n<br>\nThey say that Jiganf will be the next\nking of the village, and even now,\nhe's training from morning till night.\n<br>\nBut since about two years ago. He\nsometimes makes a frightening face.\n That's Worrying.": ""
+  },
+  "34325": {
+    "I'm busy, busy, busy.  We're going to\nhave a guest soon. As the daughter of\nthe village king, Maille is going to\n<br>\nmarry the most powerful man in the\nvillage, just like her father wanted.\nIf she's invited her childhood friend,\n<br>\nJiganf, to the house, maybe she'll\ntell him about her marriage to Jiganf,\nthe martial artist champion.": ""
+  },
+  "34326": {
+    "<attr><feel_angry_lv1><end_attr>What is it?  This is my private room.\n No one but me is allowed in here. I\ncan't relax when you're here.  I'll\n<br>\ngive you this, so get out of here.": ""
+  },
+  "34327": {
+    "<attr><feel_angry_lv1><end_attr>Mm-hmm. You're still here.  Perhaps\nyou still want something?<yesno><break>": ""
+  },
+  "34328": {
+    "<attr><feel_angry_lv1><end_attr>I can't help it. I'm a man, too.  A\nman has to be generous.  I'll give you\nthis too, so get the hell out of here.": ""
+  },
+  "34407": {
+    "<attr><feel_angry_lv1><end_attr>I'm here in my private room to unwind\nfrom the daily grind.  If you have\nnothing to do, leave as soon as\n<br>\npossible.": ""
+  },
+  "34330": {
+    "<attr><feel_angry_lv1><end_attr>Mmmm. Looks like your bag is full.  I\ncan't help you, but I'd like you to\nleave as soon as possible.": ""
+  },
+  "36287": {
+    "Not at all! My grandfather is always\ntalking about yakitori from morning\ntill night.  It's really a problem.": ""
+  },
+  "34332": {
+    "The village king had always said that\nif he wanted to marry off his\ndaughter, Maille, to the most powerful\n<br>\nman in the village. The man to whom\nMs. Maille would marry must be Jiganf,\nwho has been the reigning champion of\n<br>\nthe village martial arts tournament\nfor five years.": ""
+  },
+  "34333": {
+    "Gahaha!<pc>I heard!  I heard you came back from\nthe dead!  Even Maille was surprised.\nBy the way...<pc>I just had a question I wanted to ask\nyou.  I just had a question I wanted\nto ask you. Jiganf, who showed\n<br>\noverwhelming strength in the recent\nmartial arts tournament and became the\nchampion for the fifth year in a row.\n<br>\n What do you think of him? He's been\nacting strange lately, hasn't he?<yesno><break>": ""
+  },
+  "34334": {
+    "<attr><feel_think_lv1><end_attr>I see.  After all, you think so too.<bw_break>": ""
+  },
+  "34335": {
+    "<attr><feel_think_lv1><end_attr>Hmm, I see.  I hope I'm just imagining\nthings, but it's been bothering me.<bw_break>": ""
+  },
+  "34336": {
+    "<attr><feel_normal_lv1><end_attr>Jiganf is stronger and more popular\nthan anyone in the village.  I had\nplanned to appoint him as the next\n<br>\nking of the village and put Maille in\nhis charge. But something is not right\nwith Jiganf these days.  I can't\n<br>\ndescribe it, but there's a sense of\ndisquiet in Jiganf that I haven't seen\nin the past.<pc>If you notice anything about Jiganf,\nplease let me know. I'm counting on\nyou!": ""
+  },
+  "34337": {
+    "There is something wrong with Jiganf\nthese days.  I don't know how to\ndescribe it, but I'm sensing a certain\n<br>\nuneasiness about Jiganf that I haven't\nseen in the past. I've called in some\nhelp just in case.<pc>If you notice anything about Jiganf,\nplease let me know. I'm counting on\nyou!": ""
+  },
+  "34338": {
+    "Maille's father, Chief Cliffgain, once\nspent hours searching for a villager\nwho was stuck in a terrible snowstorm\n<br>\nand brought him back. Both the Village\nKing and Maille work so hard for the\ngood of everyone in the village.  I'm\n<br>\nso grateful for their kindness.": ""
+  },
+  "34340": {
+    "Zoomstone is a stone with great\nmagical power that allows you to fly\nto the place you have memorized in no\n<br>\ntime at all. It can be used over and\nover again, so if you have one, you'll\nbe safe when you go out.  But I hear\n<br>\nthat it is a rare and precious item.": ""
+  },
+  "36585": {
+    "Monsters are increasing.  You should\nbuy some protective gear at my store\nand take precautions.<bw_break>": ""
+  },
+  "36586": {
+    "<attr><feel_normal_one><end_attr><pc>Thank God that your life is spared.\n Thank God you're alive.  Well.<bw_break>": ""
+  },
+  "36587": {
+    "<attr><feel_happy_lv1><end_attr>Oh, welcome back.  Good day.<pc>I made sure to leave a room for you!<bw_break>": ""
+  },
+  "34342": {
+    "Beyond here is the Village Arena.  It\nis a sacred place where martial arts\ntournaments are held every year, and\n<br>\nwhere the children of the village\nbegin their training. Those who have\nfinally reached the stage of actual\n<br>\ncombat will fight monsters outside the\nvillage to raise their level of skill.\nIt is only when they can easily defeat\n<br>\nthe enemies in this area that they go\nto Rhonda Ice Cave to test their\nskills.<pc>It was a little too early for the": ""
+  },
+  "34343": {
+    "<attr><feel_think_lv1><end_attr>Yeah? - Yeah. Did you say Ethene\nVillage?  I've never heard of it.  You\nmust have had a funny dream when you\n<br>\nwere dying. I beg your pardon?  You\ndon't know yourself well? Well, for\nnow, just relax and talk to the\n<br>\nvillagers.  You'll remember who you\nare in time. You'll remember who you\nare in time. Just go thank Maille\n<br>\nlater, okay?  I'm sure she went\nthrough a lot of trouble to bring it\nhere. As you know, Maille is the\n<br>\ndaughter of the village king.  Her\nhouse is across the bridge next to the\nArmor Shop Sign. Go say hello to the\n<br>\nvillage king.": ""
+  },
+  "34344": {
+    "<attr><feel_think_lv1><end_attr>I heard you lost your Zoomstone.\n That's a very rare and precious\nthing. When you use it, you can fly to\n<br>\nthe place where you memorized it.<pc>It is a necessity for a practitioner\nlike me. You'd better hurry up and\nlook for it before someone takes it\n<br>\naway.  You should also look for it in\nthe Rhonda Ice Cave in the west.": ""
+  },
+  "34345": {
+    "<pc>school (eg of ikebana)<%sEV_ITEM>received!<se_nots System Item>": ""
+  },
+  "34346": {
+    "<pc>school (eg of ikebana)<%sEV_ITEM2>received!<se_nots System Item>": ""
+  },
+  "34347": {
+    "Beyond this point is the battlefield.\n It is a sacred battlefield where\nmartial arts tournaments are held\n<br>\nevery year.": ""
+  },
+  "34349": {
+    "<attr><feel_happy_lv2><end_attr>Jiganf won this year's Martial Arts\nTournament by a landslide!  It was\nbeautiful!<heart>He's not a genius, he's a hard worker.\n That's why everyone looks up to Mr.\nJiganf and looks up to him.": ""
+  },
+  "34425": {
+    "This is the room of the Village King.\n The Village King is a man who has won\nmany champions in past martial arts\n<br>\ntournaments.": ""
+  },
+  "34351": {
+    "<pc>So, Aroldo came to this village about\na year ago.  Then you don't know\nArold, do you?  He was in this village\n<br>\nuntil two years ago. Arold used to be\nlike the unreliable little brother who\nfollowed Jiganf around, but he's come\n<br>\nback a lot sturdier. I couldn't\nbelieve it when the village king said\nhe would become stronger. Even back\n<br>\nthen, the village king must have seen\nthrough Arold.": ""
+  },
+  "34352": {
+    "This is the home of the Village Chief\nCliffgain, the honorary champion of\nthe tournament.": ""
+  },
+  "34353": {
+    "<attr><feel_think_lv1><end_attr>It seems it was the village king who\nsummoned Arold back to the village.  I\nwonder why he called Arold back?": ""
+  },
+  "34354": {
+    "This is Langao Village.  This is the\nvillage of Ogre, who put themselves in\nthe extreme cold and toughen\n<br>\nthemselves up severely.<pc>Aroldo is back. Arold is back.  Come\nto think of it, you don't know about\nhim, do you? He was a childhood friend\n<br>\nof Maille and Jiganf.  He left for a\ntraining trip two years ago, but he\ncame back after being summoned by the\n<br>\nvillage king.": ""
+  },
+  "34355": {
+    "As the daughter of the village king,\nMaille is going to marry the most\npowerful man in the village, just like\n<br>\nher father wanted. If she has invited\nher childhood friend, Jiganf, to the\nhouse, she may be reporting her\n<br>\nmarriage to Jiganf, the martial artist\nchampion.": ""
+  },
+  "34356": {
+    "Arold has always been weak-willed, or\nrather gentle, since he was a child,\nbut he didn't do anything when people\n<br>\nmade fun of him. Maille used to save\nhim from the bad boys.  \"Don't bully\nArold! She said.": ""
+  },
+  "47567": {
+    "Hello.  I see that you have a\nZoomstone.  Let me explain how to use\nit. The Zoomstone is a stone with\n<br>\ngreat magical power that allows you to\nquickly fly to any place you have\nmemorized. Once you visit a town,\n<br>\nvillage, or church, it will\nautomatically be memorized. Langao\nVillage should already be in your\n<br>\nmemory. You can memorize as many\nplaces as you want, so the more you\nmemorize, the more places you can fly\n<br>\nto. Zoomstones can also memorize\nmysterious stone monuments in fields\nand dungeon entrances. Zoomstones can\n<br>\nbe used from \"Items\".  Let's look at\nthe places you often visit.<emoji SpecialRight>You can also register it in your\nfavorites at": ""
+  },
+  "47568": {
+    "The Zoomstone is a magical stone of\ngreat power that, when used, allows\nthe user to quickly fly to the\n<br>\nlocation where it was memorized. Once\nyou visit a town, village, or church,\nit will automatically be memorized.\n<br>\nLangao Village should already be in\nyour memory. You can memorize as many\nplaces as you want, so the more you\n<br>\nmemorize, the more places you can fly\nto. Zoomstones can also memorize\nmysterious stone monuments in fields\n<br>\nand dungeon entrances. Zoomstones can\nbe used from \"Items\".  Let's look at\nthe places you often visit.<emoji SpecialRight>You can also register it in your\nfavorites at": ""
+  },
+  "34357": {
+    "Did you find your Zoomstone? Good for\nyou!  Try it out with the item!  It\nshould remember this village. If you\n<br>\nare not sure, ask Piriri at the\nChurch.  She knows a lot about\nZoomstone! What? Did you see a strange\n<br>\nJiganf in Rhonda Cape?  You'd better\nhurry up and report such an important\nmatter to the village king!": ""
+  },
+  "34358": {
+    "oh!<pc>What is it?  You have urgent business\nwith the Village King?  Then go into\nyour room.": ""
+  },
+  "34359": {
+    "Come to think of it, Arold started his\ntraining right after he lost to Jiganf\ntwo years ago at a martial arts\n<br>\ntournament. I don't know what kind of\ntraining Arold has been doing, but I\ndon't think he can match Jiganf yet.": ""
+  },
+  "34360": {
+    "This is the home of the Village Chief\nCliffgain, the honorary champion of\nthe tournament.": ""
+  },
+  "34361": {
+    "I thought it was unusual for Maille to\nbe going to the battlefield, but it\nturns out she was meeting up with\n<br>\nArold. Now all that's left is for\nJiganf to arrive and the three of us\nchildhood friends to be together!": ""
+  },
+  "34362": {
+    "<attr><feel_think_lv2><end_attr>I saw Maille a little while ago, but\nshe seemed to be in low spirits.  Is\nthere something to worry about?": ""
+  },
+  "34363": {
+    "<attr><feel_happy_lv1><end_attr>Arold's coming back, it looks like\nMaille and Jiganf's wedding might\nfinally be coming soon. I'm sure\n<br>\nMaille is anxious about her upcoming\nwedding, but I'm sure she'll be\nrelieved to see her childhood friend\n<br>\nArold's face.": ""
+  },
+  "34364": {
+    "The door is tightly closed.": ""
+  },
+  "34365": {
+    "Beyond this point is the battlefield.\n It's a sacred battlefield where\nmartial arts tournaments are held\n<br>\nevery year.  Maille and Arold are\ninside.": ""
+  },
+  "34366": {
+    "Hmmm. It looks like the wimpy Arold\nhas gotten a little better on his\ntraining trip.  But compared to\n<br>\nJiganf, he still has a long way to go.": ""
+  },
+  "34367": {
+    "<pc>I'm sorry, but I'm not sure what\nhappened.  Jenya seems to have kicked\nyou out.  You can't match her\n<br>\ntactfulness. Oh, I heard that Aroldo\ntold you to go say hello to him in the\nvillage battlefield. Arold in the\n<br>\nVillage Arena told you to go say hello\nto him?  Maybe the village king is\nmore interested in you than you think.\n<br>\nThe Village Arena is in this village.\n From the plaza, go up the hill to the\nnorth, and you will arrive at the\n<br>\nsacred battlefield.": ""
+  },
+  "34368": {
+    "<attr><feel_think_lv2><end_attr>Hmmm.  Lady Maille has not returned.\nThe King of the Village is not back\neither, and I don't think there must\n<br>\nbe some kind of incident.": ""
+  },
+  "34369": {
+    "<attr><feel_angry_lv2><end_attr>Surprise, surprise, surprise!  A black\nguy jumped over the mountain carrying\nMs. Maille!": ""
+  },
+  "34370": {
+    "<attr><feel_angry_lv2><end_attr>The noble champion Jiganf has made a\npact with the evil Zongaron? He's a\nlegendary monster that was sealed away\n<br>\nby a thousand Ogres joining forces\nlong ago.<pc>!!! Get to Rhonda Cape where Jiganf is\nheaded before it's too late!  And\ndon't forget to be prepared!": ""
+  },
+  "34371": {
+    "This is Langao Village.  This is the\nvillage of the Ogres, who have to\ntorture themselves severely in this\n<br>\nextremely cold place. It seems that\nthe village king and Arold are running\nwest toward Rhonda Ice Cave.  The\n<br>\nvillage king is always young, no\nmatter how old he gets!": ""
+  },
+  "34372": {
+    "I know how you feel, Jiganf.  When\nfighting, it's polite to give each\nother your all.  It's a terrible\n<br>\nhumiliation to be left out.": ""
+  },
+  "34373": {
+    "<attr><feel_think_lv2><end_attr>I saw Jiganf and told him that Arold\nhad returned. Jiganf looked really\nscared and ran into the arena.": ""
+  },
+  "34374": {
+    "<attr><feel_think_lv1><end_attr>There was a lot of commotion around\nthe battlefield.  Most likely, some\nkind of monster came out.  Well, it\n<br>\nhappens once in a while.": ""
+  },
+  "34375": {
+    "<attr><feel_angry_lv2><end_attr>What the hell is going on?  Jiganf\ncame back and the three childhood\nfriends were just about to be together\n<br>\nat last. There were screams from the\nVillage Arena, the Village King and\nArold are running away from the\n<br>\nvillage, and it doesn't feel like a\nreunion of childhood friends at all!": ""
+  },
+  "34376": {
+    "<attr><feel_angry_lv1><end_attr>There was a commotion in the arena.\nAre you all right?  The village king\nand Arold just ran out looking for\n<br>\ntrouble.": ""
+  },
+  "34377": {
+    "<attr><feel_think_lv1><end_attr>Hey, isn't there a bad vibe here?  I\ncould hear Maille's screams and\nJiganf's yells. Can it be a love\n<br>\ntriangle?  Jiganf and Arold are\nrivals?  I wonder what's going to\nhappen~!<heart>": ""
+  },
+  "34378": {
+    "Jenya walked out of the house with a\nbig smile on her face.  The village\nking must have given her plenty of\n<br>\nmoney. She's a good girl!": ""
+  },
+  "34379": {
+    "This is the home of the Village Chief\nCliffgain, the honorary champion of\nthe tournament.<pc>The King of the Village is waiting for\nyou. The village king is waiting for\nyou.": ""
+  },
+  "34380": {
+    "Lady Maille has returned safely!  Well\ndone, my friend.<pc>Come on, let's go to the Village\nKing's room!  Now, go to the room of\nthe King of the Village!": ""
+  },
+  "34381": {
+    "<attr><feel_happy_lv2><end_attr>I heard Mr. Maille came back safe and\nsound.  I'm glad to hear that!": ""
+  },
+  "34382": {
+    "<attr><feel_angry_lv1><end_attr>What?  That white light brought Jiganf\nback to his senses and sealed the evil\nZongaron once again? What a miracle!\n<br>\n I'm sure the God of War saw Jiganf's\nloyalty and saved him!": ""
+  },
+  "34383": {
+    "This is Langao Village.  This is the\nvillage of the Ogres who live in the\nextreme cold and torture themselves\n<br>\nseverely. The village kings have all\nreturned.  Jiganf looked very tired.": ""
+  },
+  "34384": {
+    "<attr><feel_think_lv1><end_attr>Just now, a bright white light fell\nfrom the sky, and we all found\nourselves in the light. It was a warm\n<br>\nlight.  There was a bit of a\ncommotion, wondering what it was all\nabout.": ""
+  },
+  "34385": {
+    "Beyond this point is the Village\nArena.  Anyone born in Langao Village\nhas memories of the Village Arena.": ""
+  },
+  "34386": {
+    "Jiganf's face was so peaceful, as if\nhe had lost all his possessions.  It's\nbeen a long time since I've seen that\n<br>\nkind of expression on his face. Come\nto think of it...<pc>He asked me to tell you to come to his\nhouse if you ever see him.  He said he\nwanted to thank you.": ""
+  },
+  "34387": {
+    "What in the world was that light that\nfilled the sky?  I've never seen such\na divine sight before.": ""
+  },
+  "34388": {
+    "oh!<pc>Oh, my God!  The village king is\nwaiting to thank you.  Come on, come\ninside.": ""
+  },
+  "34389": {
+    "I guess the reason the village king\ncalled Arold back was to have them\nfight to decide who would marry Lady\n<br>\nMaille! But Jiganf lost. I wish I\ncould have seen that duel.  I wish I\ncould have seen that duel. I'm sure it\n<br>\nwould have been a match that will go\ndown in history!": ""
+  },
+  "34390": {
+    "The village held a martial arts\ntournament every year, and a man named\nJiganf, who was overwhelmingly strong,\n<br>\nhad always been the reigning champion.\nEveryone thought that Maille, the\ndaughter of the village king, would\n<br>\nmarry Jiganf, but a young man named\nArold, summoned by the village king,\ndefeated Jiganf, and Maille became\n<br>\nArold's bride and left with him.  Oh,\nmy goodness, the old days were so\nsweet.": ""
+  },
+  "34391": {
+    "This is the home of the honorary\nchampion of the tournament, the\nVillage Chief Cliffgain. Arold,\n<br>\nMaille, and even Jiganf had left the\nvillage.  But they all looked good.": ""
+  },
+  "34392": {
+    "This is the home of the Village Chief\nCliffgain, the honorary champion of\nthe tournament.": ""
+  },
+  "34393": {
+    "<attr><feel_happy_lv1><end_attr>Nice work<pc>I'm so happy to see your happy smile!\n I was happy to see your happy smile,\nMaille.": ""
+  },
+  "34394": {
+    "This is the room of the village king's\ndaughter, Maille.  However, Maille has\nbeen away on a journey for a long\n<br>\ntime. It is my mission to protect this\nroom until the day Maille fulfills the\npurpose of her journey and returns!": ""
+  },
+  "34395": {
+    "<attr><feel_happy_lv1><end_attr>Oh, yes!<pc>Oh, my God!  Enjoy your adventures,\nbut get some training in, too!": ""
+  },
+  "36275": {
+    "<attr><feel_happy_lv1><end_attr>Oh, yes! Traveler!  Enjoy your\nadventurous journey, but do some\ntraining too!": ""
+  },
+  "36276": {
+    "<attr><feel_angry_lv1><end_attr>Ogre's power is strong.  That is why\nwe must not allow ourselves to be\ndrowned by its power! We must not only\n<br>\nstrengthen our skills and our bodies,\nbut also our minds!  That is the\nOgre's way of life and pride!": ""
+  },
+  "34398": {
+    "This is Langao Village.  This is the\nvillage of Ogre, who put themselves in\nthe extreme cold and stultify\n<br>\nthemselves severely. If you leave here\nand follow the road south, you will\ncome to Lion Gate.  Beyond that, there\n<br>\nis a train station at Glen Castle. You\nshould go there.": ""
+  },
+  "34399": {
+    "This is Langao Village.  This is the\nvillage of Ogre, who put themselves in\nthe extreme cold and toughen\n<br>\nthemselves up severely.": ""
+  },
+  "34400": {
+    "Watch it! Hey, Mom!  I'm going to\ntrain hard and one day I'm going to be\na champion!": ""
+  },
+  "34401": {
+    "We augers put our whole heart and soul\ninto our competition.  It is only\npolite to respond to the best with the\n<br>\nbest, and there is no such thing as\ncutting corners. But Arold is Jiganf's\nyounger brother.  He knew that Jiganf\n<br>\nloved the Lady Maille, so he couldn't\nfight.": ""
+  },
+  "34402": {
+    "<attr><feel_sad_lv2><end_attr>You're Maille's sister, right?  She\nlooked so happy.": ""
+  },
+  "34403": {
+    "Jiganf is gone.  But it's been a long\ntime since I've seen her face so\nradiant. One day, he'll clean up his\n<br>\nown mess.  He said he's going to\ndefeat the evil Zongaron.": ""
+  },
+  "34404": {
+    "My son is called Jiganf.  Ever since\nhe was little, he's always been\nstubborn, competitive, and mean. But\n<br>\nhe is my only son, and I am proud of\nhim.  Now he is on a journey of\ntraining to defeat a monster called\n<br>\nZongaron, an evil demon.": ""
+  },
+  "34405": {
+    "I knew it, you see.  Ever since she\nwas a child, Lady Maille had been in\nlove with the gentle Arold. But she\n<br>\ncouldn't tell anyone her true feelings\nbecause she thought that marrying a\nchampion would be the best way to show\n<br>\nher filial piety. I'm glad that you\nand Mr. Arold are now together,\nMaille! Now I can aim at Mr. Jiganf\n<br>\nwith pride. Poof!<heart>": ""
+  },
+  "34406": {
+    "As the daughter of the village king,\nMaille thought it was her filial duty\nto marry the champion. She was truly\n<br>\ngrateful to her father for raising her\nwith so much love and affection after\nher mother's death. But the champion\n<br>\nwas defeated by Arold, and Maille was\nfinally able to be with her beloved\nArold.": ""
+  },
+  "36286": {
+    "<attr><feel_angry_lv1><end_attr>I'm here in my private room to unwind\nfrom the daily grind.  If you have\nnothing to do, leave as soon as\n<br>\npossible.": ""
+  },
+  "34408": {
+    "I heard that Jiganf left too.  I don't\nknow what happened to him, but\ntraveling makes you grow up a lot. I'm\n<br>\nsure both Jiganf and Arold will grow\nstronger.": ""
+  },
+  "34409": {
+    "It was a while ago that a young man\ncame to this village to train, and\nbefore I knew it, he was gone. For\n<br>\nsome reason, seeing you reminded me of\nthat young man.  I wonder how he is\ndoing now.": ""
+  },
+  "34410": {
+    "The key emblem, a sign of heroism, is\na medal given to those who have\ndistinguished themselves in a town or\n<br>\ncastle, and is said to be in the shape\nof a key, as the name suggests. There\nis a Black Key Emblem in Glen Castle\n<br>\nin the southwest and a Red Key Emblem\nin Gartlant Castle in the far south.\nIf you collect the key emblems, you\n<br>\nwill meet someone who knows the real\nyou.  Spread your wings to the world!<pc>Gahahaha!!! Gahahaha!": ""
+  },
+  "34411": {
+    "You are a traveler.  Did Maille tell\nyou about the incident that took place\nin this village? Would you like to\n<br>\nhear more about it?<yesno><break>": ""
+  },
+  "34412": {
+    "Now, in anticipation of your ability\nto help, I will tell you what happened\nbetween Arold and Jiganf. Jiganf, the\n<br>\nchampion of the tournament, hated\nArold for spoiling the tournament two\nyears earlier when Arold had given up\n<br>\nthe victory to him. To avenge his\nwrongdoing, Jiganf sought strength in\nthe dark, but his weak heart was taken\n<br>\nadvantage of and he went berserk under\nthe control of the legendary Zongaron,\na legendary evil ogre. Thanks to the\n<br>\nefforts of a young ogre, Jiganf's\nrampage was stopped and the evil demon\nZongaron was sealed away once again.\n<br>\nSomeday, I will have to settle the\nscore with the evil Zongaron.  When\nthat time comes, please lend me your\n<br>\nhelp!": ""
+  },
+  "34413": {
+    "Okay.  It's a small village, but take\nyour time.": ""
+  },
+  "34414": {
+    "<attr><feel_happy_lv2><end_attr>I heard that Lady Maille has\nmiraculously tied the knot with Arold,\nwhom she had been secretly attracted\n<br>\nto.  How romantic! Even so, Jiganf is\nso wonderful, isn't he?  Thinking of\nyour beloved Maille's happiness first,\n<br>\nas expected!": ""
+  },
+  "34415": {
+    "<attr><feel_happy_lv2><end_attr>In this village, there were two good\nchildhood friends, Maille, the\ndaughter of the village king, Jiganf,\n<br>\nthe older brother, and Arold, the\nyounger brother. But it seems that\nboth Jiganf and Arold were fond of\n<br>\nMaille.  There was a lot going on, but\nin the end, Maille and Arold, whom she\nhad been secretly attracted to, were\n<br>\nmiraculously united!  How romantic!\nBut you know what, Jiganf showed his\ntrue colors too!  He put his beloved\n<br>\nMaille's happiness first and stepped\naside!": ""
+  },
+  "47407": {
+    "Travelers are now frequenting this\nvillage in the far north.  Not so long\nago, this place was full of Ogres.": ""
+  },
+  "36588": {
+    "<attr><feel_sad_lv1><end_attr>I will miss you.  But come stay with\nus anytime.<pc>The following is a list of the most\ncommon problems with the<bw_break>": ""
+  },
+  "34417": {
+    "<attr><feel_happy_lv1><end_attr>Beyond here is the Village Arena.  It\nis a sacred place where martial arts\ntournaments are held every year and\n<br>\nwhere the children of the village\nbegin their training. The Village\nArena is filled with the memories of\n<br>\nthe people of this village.": ""
+  },
+  "34418": {
+    "<attr><feel_happy_lv1><end_attr>Everything seems to have settled into\nits natural form.<pc>I'm sure you've got it all to thank\nfor that, right?  I can tell by the\nproof of your manhood. That's why you\n<br>\ncame to this village to train.  You\nfinally got the\ncredit! Congratulations! Even if you\n<br>\nleave Langao Village, please remember\nus and come visit us once in a while!": ""
+  },
+  "34419": {
+    "<attr><feel_happy_lv1><end_attr>I'm surprised you came all the way to\nthis remote village.  You must come\nand meet Chief Cliffgain.  The Chief's\n<br>\nhome is across the bridge next to the\nArmor Shop.": ""
+  },
+  "34420": {
+    "<pc>If I had been born in this village, I\nwould have been able to participate in\nthe tournament.  I wish I could have\n<br>\nseen you fight.": ""
+  },
+  "34422": {
+    "<attr><feel_sad_lv1><end_attr>Mr. Jiganf, I hope he's okay.  He was\nvery protective of Ms. Maille.  I\ncould see it even from the outside. I\n<br>\nwish I could soothe Mr. Jiganf's\nheart.<heart>": ""
+  },
+  "34423": {
+    "There is a martial arts tournament\nheld every year in this village.\n Jiganf, the champion for five years\n<br>\nin a row, is traveling somewhere right\nnow.": ""
+  },
+  "34424": {
+    "This is the room of the village king.<pc>The village king will always be ready\nto meet with the": ""
+  },
+  "36298": {
+    "This is the room of the Village King.\n The Village King is a man who has won\nmany champions in past martial arts\n<br>\ntournaments.": ""
+  },
+  "34426": {
+    "We, the Ogre species, burn our lives\nto the utmost limits of our strength!\n Strength is necessary to protect what\n<br>\nis important.": ""
+  },
+  "34427": {
+    "This is the home of the honorary\nchampion of the tournament, the\nVillage Chief Cliffgain. Hey.<pc>Hey! How are you doing?": ""
+  },
+  "34428": {
+    "<attr><feel_happy_lv1><end_attr><pc>How are you?  I'll take care of\nMaille's room!  You can continue your\njourney with peace of mind.": ""
+  },
+  "34429": {
+    "<attr><feel_happy_lv1><end_attr>What a surprise!<pc>Oh, my God!  You're even getting key\nemblems?  You've been training hard,\nhaven't you?": ""
+  },
+  "34430": {
+    "<if_hum>This is Langao Village.  This is the\nvillage of Ogre, who put themselves in\nthe extreme cold and strenuously work\n<br>\nthemselves up into a state of\nexhaustion. Oh!<pc>It's been a while!  What? You're human\nnow? You've been human for a while,\nhaven't you?<else>This is Langao Village.  This is the\nvillage of Ogre, who put themselves in\nthe extreme cold and strenuously work\n<br>\nthemselves up into a state of\nexhaustion. Oh!<pc>It's been a long time!  It's nice to\nsee someone who left the village come\nback like this. Take your time!<endif>": ""
+  },
+  "34432": {
+    "The village king seemed to be very sad\nright after the departure of Lady\nMaille, but now he seems to have\n<br>\nregained his strength. He is indeed a\nvillage king, to have gotten his\nfeelings in such a short period of\n<br>\ntime!": ""
+  },
+  "34433": {
+    "<attr><feel_happy_lv1><end_attr>Even if you do your best to kill\nmonsters, it's not enough to save\nmoney, right? The trick to earning\n<br>\nmoney is not to keep things you don't\nneed right now, but to sell them to\nthe stores and turn them into money!\n<br>\nThat's what my father said!": ""
+  },
+  "34434": {
+    "Jiganf hasn't come home once since.\nOne day, he'll clean up his mess.  He\nsaid he was going to defeat the evil\n<br>\nZongaron.  I'm waiting for him.": ""
+  },
+  "34435": {
+    "If she has not returned home, then\nMaille must be on a meaningful\njourney. All that remains for me is\n<br>\nfor Mr. Jiganf to return.  Poof!<heart>": ""
+  },
+  "34436": {
+    "You are the young man who used to live\nin this village.  Well, it seems that\nyou have gained a lot of strength.\n<br>\n After all, traveling makes a person\ngrow up a lot.": ""
+  },
+  "34437": {
+    "<if_hum><attr><feel_think_lv1><end_attr><pc>Is that right?  You look so different.\nYou've grown up!  What? Have you\nregained your human form? Hmmm. To me,\n<br>\nyou look the same as you always have.<pc>But you say that figure is human.\nGahaha! I don't understand your joke.\n Maybe you should go to Pukulet\n<br>\nVillage in Pukuland Continent and\nlearn how to laugh.<else>I'm glad you're back<pc>I am so glad to see you have already\nreceived the key emblem.  You've\nalready received the key emblem,\n<br>\nyou've grown up remarkably! Gahahaha!\nDon't worry about this village.  I've\nbeen checking on the seal of the evil\n<br>\nZongaron more frequently than ever\nbefore. But his power is tremendous.\n There will come a time when we will\n<br>\nhave to settle this!  I have a feeling\nthat's coming.<endif>": ""
+  },
+  "34439": {
+    "<attr><feel_happy_lv2><end_attr>rough<pc>It's been a while!  We've had\ntravelers from many continents come to\nour village.": ""
+  },
+  "34440": {
+    "<if_hum><attr><feel_think_lv1><end_attr>parent<pc>What?  Excuse me? You became human?\nWell... I have my usual...<pc>I don't know, it looks like a joke to\nme.  Is there a joke like that going\naround town?<else><attr><feel_happy_lv1><end_attr><pc>Welcome back.  Take it easy.  This is\nyour hometown.<endif>": ""
+  },
+  "34442": {
+    "<attr><feel_sad_lv1><end_attr>I wonder where Mr. Jiganf is traveling\nnow.  Oh, I want to follow Mr. Jiganf.<heart>": ""
+  },
+  "34443": {
+    "<attr><feel_happy_lv1><end_attr>What a surprise!<pc>Oh, my God!  You saved the world.\nThat's amazing.  You've been training\nwell, huh?": ""
+  },
+  "37707": {
+    "<if_hum>This is Langao Village.  This is the\nvillage of Ogre, who put themselves in\nthe extreme cold and strenuously work\n<br>\nthemselves up into a state of\nexhaustion. Oh!<pc>It's been a while!  What? You're human\nnow? You've been human for a while,\nhaven't you?<else>This is Langao Village.  This is the\nvillage of Ogre, who put themselves in\nthe extreme cold and toughen\n<br>\nthemselves up severely.<pc>I've heard the rumors! I heard rumors!\n I heard he accomplished something\nbig!<endif>": ""
+  },
+  "34445": {
+    "Both Maille and Arold have no\nintention of coming back.<pc>I guess the journey of the \"Mere Old\nMan\" will continue. But you've reached\na point of closure, haven't you?  Take\n<br>\nyour time and rest now.": ""
+  },
+  "34446": {
+    "<attr><feel_think_lv1><end_attr>I don't believe it, but there's a\nrumor going around that you're trying\nto save the world.<yesno><break>": ""
+  },
+  "34447": {
+    "<attr><feel_normal_lv1><end_attr>I see.  It's times like these that\nmake people like you increase. Well,\ngood luck.": ""
+  },
+  "34448": {
+    "<attr><feel_normal_lv1><end_attr>What? You've already saved the world?\n They say that those who train in this\nvillage will become great, but I never\n<br>\nthought it would go that far! Ha-ha-\nha!  Your jokes are getting better.<pc>Oh my god!!!": ""
+  },
+  "37708": {
+    "<if_hum><pc>Is that right?  You look so different.\nYou've grown up!  What? Have you\nregained your human form? Hmmm. To me,\n<br>\nyou look the same as you always have.<pc>But you say that figure is human.\nGahaha! I don't understand your joke.\n Maybe you should go to Pukulet\n<br>\nVillage in Pukuland Continent and\nlearn how to laugh.<else>I'm glad you're back<pc>I can see it in your face!  I can see\nit in your face!  Looks like you\nfinally accomplished your mission.\n<br>\nGahahahaha! The Ogre who gave his body\nto you<pc>I'm sure they will be delighted to see\nyou! Don't worry about this village.\n I've been checking frequently to see\n<br>\nhow Zongaron, the evil demon, is\ndoing. But his power is tremendous.\n There will come a time when we will\n<br>\nhave to settle this!  I have a feeling\nthat will happen.<endif>": ""
+  },
+  "34450": {
+    "<attr><feel_happy_lv2><end_attr>rough<pc>It's been a while!  Don't you think\nthis village has become more lively?\n People come from all over the world.": ""
+  },
+  "34451": {
+    "Travelers often come to this village\nin the far north. They travel to every\ncorner of the world in search of more\n<br>\nadventures.": ""
+  },
+  "37709": {
+    "<if_hum><attr><feel_think_lv1><end_attr>parent<pc>What?  Excuse me? You became human?\nWell... I have my usual...<pc>I don't know, but it looks like a\njoke.  Is there a joke like that going\naround town?<else><attr><feel_happy_lv1><end_attr>welcome home<pc>You look good, like you've finished\nyour work.  You look good, like you've\nfinished your work.<endif>": ""
+  }
+}

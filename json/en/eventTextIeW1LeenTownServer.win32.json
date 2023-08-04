@@ -1,0 +1,968 @@
+{
+  "10212000": {
+    "And by the way, I'll give you this one\ntoo.  Take it with you!": ""
+  },
+  "10212001": {
+    "<pc>received a brimstone bag (Key Items)!<me 60>In addition, he received a recipe\nbook, \"Let's Get Started in Alchemy.\"<se_nots System Item><pc>I read \"Hajimeyo Alchemy\" (Let's Start\nAlchemy)!<pc>I learned a recipe for alchemy to\nbegin with!<se_nots System Item>The Renkin pot is a special tool that\ncan be used to smelt another item by\ninserting an item of material. You can\n<br>\nsmelt an item by selecting \"Renkin\nGama\" from the \"Items\" command. You\nwill need a \"recipe\" for the item you\n<br>\nwant to alchemize. Recipes can be\nobtained from Recipe Shops and\nbookshelves.": ""
+  },
+  "10212002": {
+    "It seems like a useful thing, doesn't\nit?  I'm sure it will be useful for my\nfuture travels.  Well then, take care.": ""
+  },
+  "37921": {
+    "<attr><feel_think_lv1><end_attr>used after the name of someone who is an older sister figure<pc>I have a favor to ask you.  Can I ask\nyou for a favor? You remember the\nanecdote about the cenotaph?  That's\n<br>\nright. Reg's bride, Dahlia, drowned\nwhile trying to purify herself in the\nsea. I, you know. I don't agree with\n<br>\nthis story.  I mean, Weddie drowning\nin the sea and then dying is just\nplain strange, no matter how you think\n<br>\nabout it. I think there's some truth\nto it.  That's what I want to find\nout.<pc>Can you lend me the power of<yesno><break>": ""
+  },
+  "37922": {
+    "<attr><feel_think_lv1><end_attr>You are a traveler. I am Rubecca.\n Would you like to tell us your name,\ntoo?<pc>I see.  Then...<pc>I'm not sure if you can hear what I\nhave to say.  I wonder if you could\nlisten to my story. In this village,\n<br>\nthere is an anecdote about a cenotaph.\n It's a very, very sad story about a\nman and a woman who were supposed to\n<br>\nget married. The bride, Dahlia,\ndrowned in the sea to purify herself\njust before her wedding, and the groom\n<br>\nfollowed her to her death. But it's\nnot normal for a Weddie to drown in\nthe sea. I think there is a story\n<br>\nbehind this.  I want to find out what\nit is.<pc>Can you lend me the power of<yesno><break>": ""
+  },
+  "37923": {
+    "<attr><feel_sad_lv1><end_attr>I guess I can't do it after all. I'm\nin the middle of a trip.  I don't have\ntime to listen to such a request.": ""
+  },
+  "37924": {
+    "Thank you! You're helping us out,\naren't you?  I'd like to get started\non finding out what's going on! I'd\n<br>\nlike to get down to business.<pc>You're my assistant now, right?  I am.\nGirl Detective Rubecca!  Let's do it\nlike this.<bw_break>": ""
+  },
+  "37925": {
+    "I'm trying to figure out how Ms.\nDahlia drowned in the ocean.  You said\nyou would be my assistant.<bw_break>": ""
+  },
+  "37926": {
+    "<pipipi_low>Okay, cough! My assistant.<pc>Mr. Kikkawa.  I want you to start by\ngoing back to the basics and gathering\nall the documents you have on Mr.\n<br>\nDahlia's case. I don't want to talk to\nyour father. I want you to talk to\nChief Setorii. Will you do it?": ""
+  },
+  "37927": {
+    "<pipipi_low>Oh, you'll do it, won't you?  Your\nassistant is such an honest man. Now,\nI'd like you to ask Chief Setorii if\n<br>\nthere's anything left of Mr. Dahlia\nfrom when he was alive. You know what\nthey say about a lighthouse?  The\n<br>\ntruth is closer than you think.": ""
+  },
+  "37928": {
+    "<attr><feel_think_lv1><end_attr>Hmmm.<pc>I'm sorry, but you seem to be doing a\nlot of favors for a lot of people. I\nfeel bad for them, so I'd like you to\n<br>\nfinish the other requests first.": ""
+  },
+  "37929": {
+    "<attr><feel_angry_lv1><end_attr>You said you would be my assistant.\n It's terrible that you're quitting!": ""
+  },
+  "37944": {
+    "oh!<pc>I'm glad you're back in a good place.\n You've come back to a good place.\nWould you check on little Rubecca?\n<br>\n She seems to be in low spirits these\ndays.": ""
+  },
+  "37945": {
+    "I am the chief of this Lane Village.\n You are quite an impressive traveler\nto come all the way here to pay your\n<br>\nrespects. If you're not busy, why\ndon't you tell my daughter, Rubecca,\nabout your travels?  She seems to be\n<br>\nin a bad mood.": ""
+  },
+  "37946": {
+    "<pipipi_low>I've asked you to go and talk to Chief Setorii\n I've asked you to talk to the mayor of Setley<pc>Kung.<open_irai><bw_break>": ""
+  },
+  "37947": {
+    "<pipipi_low>My guess is that Chief Setorii is in\nthis village, in the Chief's house!\n That means this house!": ""
+  },
+  "37948": {
+    "<attr><feel_normal_one><end_attr>I see you and Rubecca had a nice talk.\n I hope this will make you feel a\nlittle better. Hmm? You want to talk\n<br>\nto me, the village chief?<yesno><break>": ""
+  },
+  "37949": {
+    "<attr><feel_normal_one><end_attr>If not, that's fine.  I'm so worried\nabout Rubecca that I can't afford to\nworry about anyone else.": ""
+  },
+  "37950": {
+    "<attr><feel_normal_one><end_attr>What?  You're asking me if there's\nanything left from Dahlia's life. If\nthere is, it's only a list of\n<br>\nvillagers. Why are you looking for it?\nOh, you're asking for it, Rubecca?\n You'll have to tell me that as soon\n<br>\nas possible.  Wait a minute.": ""
+  },
+  "37951": {
+    "<pipipi_low>I went to the Forgetten Cave in Lenam Fields\n And find that Old Villager List that Hyuza threw away\n Huzza threw away<pc>Kung.<open_irai><bw_break>": ""
+  },
+  "37952": {
+    "<pipipi_low>You're in charge of the physical\nlabor.  I'll be waiting for you here.": ""
+  },
+  "37953": {
+    "<pipipi_low>I went to the Forgetten Cave in Lenam Fields\n And find that Old Villager List that Hyuza threw away\n Huzza threw away<pc>Kung.<open_irai><bw_break>": ""
+  },
+  "37954": {
+    "<pipipi_low>Oh, by the way, did you know.  Hyuza\nwas a childhood friend of mine.  One\nday, she went on a journey to test her\n<br>\npowers. I never thought I'd come back\nto meet an assistant like you.  I\nguess it's fate, huh? Well, putting\n<br>\nthat aside, you're in charge of manual\nlabor.  I'll be waiting for you here.": ""
+  },
+  "37956": {
+    "<attr><feel_normal_one><end_attr>which reminds me<pc>I remember when I played detective\nwith Rubecca, she always played the\nrole of the victim. Now you've been\n<br>\nupgraded to the role of the assistant?\n Well, good luck with that.": ""
+  },
+  "37957": {
+    "<attr><feel_normal_one><end_attr>You and Rubecca seem to have become\nquite friendly, traveler.  Shall I ask\nyou your name? Hmm.<pc>I guess so.  Play detective, but don't\nput little Rubecca in danger, okay?": ""
+  },
+  "37958": {
+    "<pipipi_low>Welcome back<pc>Mr. Krishnamoorthy. My guess is that\nyou came back because you found an Old\nVillager List.  Would you be so kind\n<br>\nas to show me?<yesno><close>": ""
+  },
+  "37959": {
+    "<pipipi_low>Hmm? I guess I hadn't received it yet.\n I never thought my guess would be\nwrong. Girl Detective Rubecca is\n<br>\neagerly awaiting the arrival of a\nclue.  Hurry up.": ""
+  },
+  "37961": {
+    "Oh, it's Rubecca's assistant, isn't\nit?  You found the list of villagers\nthat I thought you threw away. But\n<br>\nwhat are you going to do with it?\n It's just a list of villager names.": ""
+  },
+  "41574": {
+    "<pc>gave Rubecca an Old Villager List.": ""
+  },
+  "37962": {
+    "<attr><feel_think_lv1><end_attr>A 10-year-old girl whose name was\nerased.  No way. Ah.<pc>I'm sorry.  Sorry, it's nothing.  Come\nsee me again in a while.": ""
+  },
+  "37963": {
+    "Will Rubecca go off to be a bride\nsomeday? But I will not let her leave\nthis village.  Keep her where I can\n<br>\nsee her.": ""
+  },
+  "37964": {
+    "Ah!<pc>I've been waiting for you.  Girl\nDetective Rubecca is about to start\nher investigation again.  She needs\n<br>\nthe help of an assistant.  Of course,\nyou'll be my assistant again today,\nwon't you?": ""
+  },
+  "37965": {
+    "You do it. Thank you!  Well then, Girl\nDetective Rubecca-chan is back in\naction!<bw_break>": ""
+  },
+  "37966": {
+    "<pipipi_low>Let's get started right away, but this\ntime I would like to look into a\nlullaby that was sung in this village\n<br>\nin the old days. I must have heard it\nwhen I was a child, but I only\nremember bits and pieces of it.  It\n<br>\nwas a lullaby, but it had a bad\nfeeling about it. I want you to go\naround the village asking around and\n<br>\nsee if you can find anyone who knows\nthis lullaby.<pc>Mr. K. According to my theory, the old\npeople should know a lot about the\npast!  Ask around there.": ""
+  },
+  "37967": {
+    "Hmmm.<pc>It seems that the \"Mere Old Man\" is\nhelping many people. Can you come over\nwhen you're finished?  Actually, I'd\n<br>\nlike you to be Girl Detective\nRubecca's personal assistant.": ""
+  },
+  "37968": {
+    "<attr><feel_angry_lv1><end_attr>Oh, no! Can't you help me?  I'd be in\ntrouble without an assistant~!": ""
+  },
+  "37969": {
+    "<attr><feel_think_lv1><end_attr>What is it? You want to ask me about\nthe dreadful lullabies that have been\npassed down in this village? Mmmm... I\n<br>\ndon't know enough about that.  I know\na few ordinary lullabies.": ""
+  },
+  "37970": {
+    "<pipipi_low>I've asked you to find out about the lullabies in this village\n I've asked you to find out more about lullabies in this village<pc>Kung.<open_irai><bw_break>": ""
+  },
+  "41620": {
+    "<pipipi_low>My guess is that the old people know a\nlot about the old days!  Ask around\nthere.": ""
+  },
+  "37971": {
+    "What's the matter? You want to hear\nthat lullaby one more time?<yesno><break>": ""
+  },
+  "37972": {
+    "<attr><feel_sad_lv1><end_attr>Why, don't you want to hear it?  Well,\nit's not a song I feel very\ncomfortable singing either.": ""
+  },
+  "37973": {
+    "Well then, let me sing to you. Nemure~\ngood boy, neemure~.  Nemure~ Nemure\nnow~ Nemure~.  I'll hear it if I don't\n<br>\nsleep~ That voice you'll hear when you\ndie~  That the brilliance of life~\nwill be swallowed by darkness.  So,\n<br>\ngood child~ before you hear your name\ncalled...  Sleep~ now, sleep~ no\nmatter how many times I sing it, it's\n<br>\nan ominous lullaby.  It can't be\nhelped that they stopped singing it\nbefore I knew it.": ""
+  },
+  "37980": {
+    "I want you to interview some old\npeople in Julet Town to find out more\nabout the poet who wrote the lullaby.<open_irai><bw_break>": ""
+  },
+  "41621": {
+    "Your father hasn't given me permission\nto go out yet, so I'm sorry, but I\nhope you'll head out first.": ""
+  },
+  "37981": {
+    "<attr><feel_sad_lv1><end_attr>I wonder if the poet who wrote that\nlullaby found a good subject for his\nsong in Julet Town.": ""
+  },
+  "37984": {
+    "<pc>I've been waiting for you.  You\nremember the story of the girl in Lane\nVillage who used to speak the language\n<br>\nof death.  I could hear it in my head.\nI'd like to find out what happened to\nher.  Will you be my assistant again?": ""
+  },
+  "37985": {
+    "Thank you!  Well then, Girl Detective\nRubecca is back in action.<bw_break>": ""
+  },
+  "37986": {
+    "<pipipi_low>Based on the many clues we have so\nfar. I think there is a good chance\nthat the girl who uses the word\n<br>\n\"death\" and the 10-year-old girl whose\nname was struck from the villager's\nlist are one and the same person. I\n<br>\nthink this girl is connected to the\ncase.  So, I'd like to look into the\ncircumstances before and after the\n<br>\nwedding. The Church is in charge of\nweddings.  You're going to have to go\nwith me to the Church and interview\n<br>\nthem.": ""
+  },
+  "37987": {
+    "Wait a minute! You have a lot of\nfavors to do, don't you? I don't want\nyou to be Girl Detective Rubecca's\n<br>\nassistant just for the sake of being\nGirl Detective Rubecca's assistant.\n Go take care of the other requests.": ""
+  },
+  "37988": {
+    "<attr><feel_angry_lv1><end_attr>Oh, no! Why can't I?  Girl Sleuth\nneeds a capable assistant!": ""
+  },
+  "37989": {
+    "difficult problem<pc>I'm sure it's not.  Did you stop by on\nyour way?<bw_break>": ""
+  },
+  "37990": {
+    "Well, you must be a traveler.  How did\nyou come to this small village?<bw_break>": ""
+  },
+  "37991": {
+    "<attr><feel_think_lv1><end_attr>Huh? You want to tell us something\nabout Dahlia's wedding? Hmmm.  Even if\nyou say so, Dahlia's wedding was\n<br>\ncancelled at the last minute. Do you\nhave any wedding announcements left?\n I'll look for it, so please wait for\n<br>\nme.": ""
+  },
+  "37992": {
+    "<pipipi_low>At the Church in the village, about Miss Dahlia's wedding\n About Miss Dahlia's wedding at the village church<pc>Kung.<open_irai><bw_break>": ""
+  },
+  "37993": {
+    "<pipipi_low>Perhaps something can be gleaned to\nconnect the Dahlia case with the girl\nwho uses the language of death.": ""
+  },
+  "37994": {
+    "oh!<pc>I've heard that you were on a trip.  I\nheard you were traveling. Is there\nsomething you wanted to see me about?\n<br>\nYou want to ask me about Dahlia's\nwedding?  Why are you asking me now?\nIf you insist, ask Nieble, who is\n<br>\nthere.  I must do my duty.": ""
+  },
+  "37995": {
+    "You want to hear about Dahlia's\nwedding?  I have no idea why a\ntraveler would ask such a question.\n<br>\nYou can ask Nieble there.  She is in\ncharge of the weddings in the village.\n I must do my duty.": ""
+  },
+  "37996": {
+    "You must have a lot of time on your\nhands, playing detective with Rubecca.": ""
+  },
+  "37997": {
+    "I want you to go to the Beach Cave\nwhere they say the girl was trapped.\n It's in Colt Region.<open_irai><bw_break>": ""
+  },
+  "41622": {
+    "I've been asked to clean up the house.\n I'll clean up right away, so go\nahead!": ""
+  },
+  "37998": {
+    "<attr><feel_sad_lv1><end_attr>Few in this village will know the\nstory of that girl anymore. Do not\nspeak of it. It must not be written\n<br>\ndown.  It is an abominable event that\nhas been decided so.  That is all I\ncan say.": ""
+  },
+  "37999": {
+    "<attr><feel_think_lv1><end_attr>I wonder when the next wedding will\nbe.  I wonder if it will be Rubecca's\nwedding after all.": ""
+  },
+  "38001": {
+    "I have nothing more to say.  I want to\nconcentrate on fulfilling my duty.": ""
+  },
+  "38002": {
+    "Ah!<pc>You've come to the right place.\n You've come to the right place.  I\nwonder if you could be my assistant\n<br>\nagain. I'm thinking of going to the\norphanage in this village to ask\naround. I'd like to talk to Balcha who\n<br>\nbuilt the orphanage.  Will you go with\nme?": ""
+  },
+  "38003": {
+    "My guess is that if we talk to Balcha,\nhe will be able to tell us something\nabout the girl.": ""
+  },
+  "38004": {
+    "Huh? You seem to be doing a lot of\nfavors for other people. I don't feel\ncomfortable putting them off, so you\n<br>\ncan go ahead and do them.": ""
+  },
+  "38005": {
+    "Girl Detective Rubecca's assistant is<pc>I can only do so much~.  If you're\nbusy, we can do it later.": ""
+  },
+  "38006": {
+    "This is Fiya orphanage.  What the\nhell?<pc>Was it?<bw_break>": ""
+  },
+  "38007": {
+    "This is Fiya orphanage.  I am Balcha,\nthe director of the orphanage.  I\ndon't think a traveler would want to\n<br>\nsee me.<bw_break>": ""
+  },
+  "38008": {
+    "Hmmm. You seem to have a question for\nme.  Don't hesitate to ask. What do\nyou want to ask me about?<select_nc>\nFiya Orphanage\nName<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "38009": {
+    "The Fiya orphanage takes in and raises\nchildren who have no relatives. These\ndays, without great strife or\n<br>\ncalamity, few children are taken in by\nthe orphanage. Now there is only one\nboy, Cotters.  Teatea, who works as a\n<br>\ncaretaker, is also from this\norphanage.": ""
+  },
+  "38010": {
+    "Oh. That's a good name, isn't it?  You\nthink it's a good name, don't you?  My\nmother gave it to me. It means \"wise\n<br>\none\" in the old Weddie language.\nBalcha means... Huh? Not my name?\n Then what do you want to know about\n<br>\nits origin?<select_nc>\nFiya Orphanage\nOrigin of the Name\nOrigin of the name of the orphanage<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "38011": {
+    "The Fiya orphanage takes in and raises\nchildren who have no relatives. These\ndays, without great strife or\n<br>\ncalamity, few children are taken in by\nthe orphanage. Now there is only one\nboy, Cotters.  Teatea, who works as a\n<br>\ncaretaker, is also from this\norphanage.": ""
+  },
+  "38012": {
+    "Balcha is an old Weddie word meaning\n\"wise one.  My mother named me.": ""
+  },
+  "38013": {
+    "<attr><feel_think_lv2><end_attr>You think that's how the orphanage got\nits name?  Why do you ask such a\nthing?": ""
+  },
+  "38014": {
+    "Hmmm. It seems you haven't listened\nenough.  Please listen to what I want\nto ask you in the proper order.<select_nc>\nFiya Orphanage\nName<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "38015": {
+    "<pipipi_low>I'd like to talk to Balcha, the man\nwho built the orphanage in this\nvillage, about all kinds of things.\n<br>\n You should go to the orphanage, too.<open_irai><bw_break>": ""
+  },
+  "41623": {
+    "<pipipi_low>My guess is that Balcha's story will\ntell us something new about the girl.": ""
+  },
+  "38016": {
+    "<attr><feel_sad_lv1><end_attr>I no longer know.  I have told you\neverything. If you have learned\nanything new about Fiya, please share\n<br>\nit with me.": ""
+  },
+  "38020": {
+    "I'd like to interview the Prayer Inn\nwhere Fiya's body was taken. Will you\ngo?<open_irai><bw_break>": ""
+  },
+  "41624": {
+    "My father is worried about me.  It's\ngoing to take me a while to get\npermission to go out, so I'd like you\n<br>\nto go to the Prayer Inn first.": ""
+  },
+  "38022": {
+    "They are in the Juleria Underground Mine<%sEV_QUE_NAME0>I need you to get the Priest's Keys\nback from<open_irai><bw_break>": ""
+  },
+  "38023": {
+    "which<%sEV_QUE_NAME0>I don't know if the key to the diary\nwas taken by the \"Mere Old Man,\" but\nI'm sure the key to the diary is in\n<br>\nthat key!": ""
+  },
+  "38024": {
+    "welcome home<pc>I'm sure you'll be able to find it.  I\nsee you found Priest's Keys. I'll see\nif I can find a key that fits in this\n<br>\ndiary, so can you give me the Priest's\nKeys?<yesno><close>": ""
+  },
+  "38025": {
+    "I can't read the Priest's diary\nwithout the key.  I think there are\nimportant things in it.": ""
+  },
+  "38026": {
+    "<pc>gave Rubecca the Priest's Keys.": ""
+  },
+  "38029": {
+    "<attr><feel_sad_lv2><end_attr>Rubecca told me that Fiya threw\nherself into Dolroy Falls on her way\nback from the Great Falls of Innocence\n<br>\nand died. What a pitiful end.  Was\nthere nothing I could have done for\nFiya?": ""
+  },
+  "38030": {
+    "<attr><feel_sad_lv1><end_attr>Ah!<pc>I've been... After that...  I was so\nscared that I couldn't sleep at night\nthinking about when I'm going to die.\n<br>\nDad is really worried about me.  If I\ndie, he'll be sad.  I don't want to\ndie! But I don't know what to do.  But\n<br>\nI don't know what to do. Fiya, who's\ntrying to kill me now, is already\ndead! But I don't want to just sit\n<br>\nhere and wait to die. So I want to do\nwhat I can.  I want to go to the place\nwhere Fiya met her end.  I want to go\n<br>\nto Dolroy Falls. Dolroy Falls is in\nthe Booner Rainforest, which is a long\nway from here, but please go with me.<pc>Please!": ""
+  },
+  "38031": {
+    "<attr><feel_sad_lv1><end_attr>Thank you<pc>I'm going to go upstream to Doloroy\nFalls.  Can you go upstream to Dolroy\nFalls?  I think that's where he threw\n<br>\nhimself. I might not be able to come\nback, so I'll talk to your mother and\nfather first.<pc>Go ahead.": ""
+  },
+  "38032": {
+    "It seems you came here without taking\ncare of various requests.  You're\nworried about me. But that's not good.\n<br>\n It means there are people waiting for\nyou to do favors for them.": ""
+  },
+  "38033": {
+    "<attr><feel_angry_lv3><end_attr><pc>It's terrible!  You mean you want me\nto die!": ""
+  },
+  "38034": {
+    "<attr><feel_angry_lv1><end_attr>Rubecca seems to be very depressed.\nI'm so worried that I can't stop\nworrying!  I can't even get my supper\n<br>\ndown my throat, and I can't get a good\nnight's sleep either!": ""
+  },
+  "38035": {
+    "<attr><feel_sad_one><end_attr>I see Rubecca is still looking into\nthe girl. I hope nothing bad happens\nto her.  I have to do my duty.": ""
+  },
+  "38036": {
+    "Can you go upstream to Dolroy Falls?\n I think that's where Fiya threw\nherself.  Maybe we can find out what\n<br>\nhappened.<open_irai><bw_break>": ""
+  },
+  "41625": {
+    "<attr><feel_sad_lv1><end_attr>I might not be able to come back, so\nI'll talk to your mother and father\nfirst.<pc>Go ahead.": ""
+  },
+  "38037": {
+    "I need you to take me to the hole\nwhere Fiya said she found something.\n It's in the north of the Booner\n<br>\nRainforest.<open_irai><bw_break>": ""
+  },
+  "41626": {
+    "Fiya is still inside me.  Of course, I\nwon't tell anyone.": ""
+  },
+  "38038": {
+    "Of course you know where Fiya was\nreferring to Reg and Dahlia's place,\ndon't you? And the last guess?<pc>I'll have them do it for you.  If you\nknow where it is, will you head there?<open_irai><bw_break>": ""
+  },
+  "41627": {
+    "I can't solve the case until I'm done\nhere, okay?": ""
+  },
+  "38039": {
+    "I don't know what happened to her, but\nwhen she came back from her trip, she\nseemed to be back to her usual\n<br>\ncheerful Rubecca. After all, it has to\nbe this way.  A slightly sentimental\nRubecca is not bad, though.": ""
+  },
+  "38040": {
+    "Fiya has left to be with Reg and\nDahlia. I will keep Fiya's name alive\nalong with this orphanage.": ""
+  },
+  "38041": {
+    "Girl Detective Rubecca has been so\nactive this time that I'm exhausted.\n I'm going to take a break for a\n<br>\nwhile. But when a new case arises, I'd\nlike you to assist Girl Detective\nRubecca.  Right?<pc>Kung!": ""
+  },
+  "38042": {
+    "Are you done playing detective?\n You've been playing for a very long\ntime this time, haven't you?": ""
+  },
+  "38043": {
+    "<attr><feel_normal_one><end_attr>Rubecca told me everything about Fiya.\nI was just scared, not knowing the\ntruth.  As a servant of God, I lack\n<br>\ndiscipline.": ""
+  },
+  "46196": {
+    "(after the -masu stem of a verb) to do  to each other<pc>I've been away for a long time, so I\nguess things are going well.  It's\nbeen a while, so your trip seems to be\n<br>\ngoing well.<bw_break>": ""
+  },
+  "46197": {
+    "What is it? I don't think a traveler\nhas business in my house.<bw_break>": ""
+  },
+  "46198": {
+    "Oh. The prince of Verinard wants to\nknow about Shellner.  But he's not\nhere.": ""
+  },
+  "46199": {
+    "No one knows when the Shellner\ntradition began, and no one wants to\nknow. But I believe my grandfather's\n<br>\nstory.  Shellner being a brave warrior\nfor the islands... that's a dream come\ntrue!": ""
+  },
+  "48038": {
+    "<attr><feel_happy_lv1><end_attr>Welcome~! Clean and comfortable.\n Welcome to Inn Lortel!": ""
+  },
+  "70273": {
+    "<attr><feel_happy_lv1><end_attr>Hi! I'm Patrone.  I'm Patrone, and I\ndo ecological research on monsters in\nthe Wena Islands.  I've studied all\n<br>\nkinds of monsters! This time, I have\nto check something in the Colt Region!\n I'm going to take a lot of pictures\n<br>\nwith this camera.<heart>": ""
+  },
+  "35280": {
+    "<attr><feel_sad_lv3><end_attr>When the wedding comes, I will\nremember.  I remember the story of the\nman who was pinned down on Solace\n<br>\nBeach. It is a sad story.  It's not\nsomething you talk about when you're\nplanning a wedding.": ""
+  },
+  "35281": {
+    "oh!<pc>I wonder. How long has it been since\nyou came to this Fiya orphanage? I was\nsurprised to find you in a small boat\n<br>\non the beach that day. I hope with all\nmy heart that one day you will be able\nto leave this village and return to\n<br>\nyour parents. To do that, you must\nfirst become a Shellner.  That's what\nit takes to leave this village. Let's\n<br>\nnot talk too long.  Aashik has asked\nyou to do something for him, hasn't\nhe?  Go ahead and do it.": ""
+  },
+  "35282": {
+    "If you want to find your parents,\nfirst you must become a Shellner.\n That's what you need to do to leave\n<br>\nthis village. Oh, no.  Aashik has\nasked you to do something for him,\nhasn't he?  Go ahead.": ""
+  },
+  "35283": {
+    "<attr><feel_normal_one><end_attr>(after the -masu stem of a verb) to do  to each other<pc>I've just come back from the dead.\n You've just come back from the dead\nand you're going somewhere?<yesno><break>": ""
+  },
+  "35284": {
+    "<attr><feel_normal_one><end_attr>Going to Solace Beach?  I think old\nman Balcha told you not to go near\nthere. If you insist, you can leave\n<br>\nthe village and go northwest along the\nrocky hill on your left.  From there,\ngo down to the beach. There is a cave\n<br>\nwith a wooden fence at the entrance.\n Beyond that is Solace Beach. I\nbelieve you have a Beginner's weapon.\n<br>\n Don't forget to pack it before you\nleave the village.": ""
+  },
+  "35285": {
+    "<attr><feel_normal_one><end_attr>I see. Whatever you do, you'd better\nlay low for a while. If you're going\noutside the village, don't forget to\n<br>\npack your Beginner's weapon.": ""
+  },
+  "35286": {
+    "<attr><feel_think_lv2><end_attr>I can't believe that Aashik is getting\nmarried. Out of the four of you,\nHyuza, and Rubecca, who are always\n<br>\ntogether, he seemed the least likely\nto do so.": ""
+  },
+  "35287": {
+    "I want a girlfriend. I want a\ngirlfriend.  A Weddie man has to be in\nlove. I've been talking to a lot of\n<br>\npeople.  But it's not going well.  I'm\nso attractive!": ""
+  },
+  "35290": {
+    "It's been a while since we've had a\nbig event like a wedding, but a\nfuneral first?  How exciting~! I was\n<br>\nso excited.  I was so excited, but I\nwas disappointed. Oops, don't get me\nwrong, okay?<pc>I'm also joyous that the \"Mere Old\nMan\" has come back to life.": ""
+  },
+  "35291": {
+    "<attr><feel_think_lv1><end_attr>rough<pc>Welcome.  It looks like you had a hard\ntime.<pc>Hyuza killed him!  I was really\nsurprised when I heard someone say\nthat.": ""
+  },
+  "35296": {
+    "The world is a big place, that there\nis a man who is willing to marry a man\nlike Aashik, a man with no\n<br>\naspirations. Anyway...  I don't want\nto hear bad things about my friend.\n You came here to shop, right?": ""
+  },
+  "35297": {
+    "oops<pc>I'm not sure how to do that.  If you\nwant to shop, talk to me from in front\nof the counter.": ""
+  },
+  "35298": {
+    "Has Aashik already found the shells to\ngive to his bride on their wedding\nday?<yesno><break>": ""
+  },
+  "35299": {
+    "<attr><feel_think_lv2><end_attr>Oh, really?  But I wouldn't hold out\ntoo much hope with the shells that\nAashik has been looking at.": ""
+  },
+  "35300": {
+    "<attr><feel_think_lv2><end_attr>What, you haven't told me yet?  So...<pc>Did Aashik make you cry? Oh dear, I\nwonder if Aashik is really okay with\ngetting married.": ""
+  },
+  "35301": {
+    "<attr><feel_normal_one><end_attr>I saw it in my eyes<pc>You were only seen as dead. But you\nhave come back to life.  I believe\nthis is the mercy of the Great God.<pc>You must cherish your life. Cherish\nthat life.  Now let's go to the\nservice and worship.": ""
+  },
+  "35302": {
+    "<attr><feel_think_lv1><end_attr>Hey there. You're working hard,\nkilling monsters.  But that's not\nenough to save money, is it? The\n<br>\nsecret of earning money is...  Don't\nkeep things you don't need right now.\nSell them and make money.": ""
+  },
+  "35303": {
+    "<pc>Are you okay now?  If it's too\npainful, why don't you rest at my\nplace?  Of course, I'll pay for it.": ""
+  },
+  "35304": {
+    "rough<pc>What's the matter?  If you want to\nstay at my place, you'll have to talk\nto me from the counter.": ""
+  },
+  "35305": {
+    "The other day, Aashik came to show me\na shell he found for his bride. I\ncouldn't help but criticize him for\n<br>\nthe ugly shell. I felt sorry for his\nbride, Keel, if she received a gift\nlike that.": ""
+  },
+  "35306": {
+    "counter for leaves, pieces of paper, etc<pc>The day to decide on a shelter is\napproaching.  The day to choose a\nShellner is approaching. Shellner is a\n<br>\nvery important role.  The shelterner\nis the one who delivers the\nbridegroom's gift of a shell to the\n<br>\nbride. The Shellner is also\nresponsible for escorting the bride to\nthe groom.": ""
+  },
+  "35307": {
+    "Ah, it reminds me of the time  I\nremember when Wailer and I got\nmarried.  How many years has it been?\n<br>\nWeapon Shop Shamu was my Shellner. But\nMr. Shamu lost my shell before I could\ngive it to Wailer.  It was a big\n<br>\nproblem.": ""
+  },
+  "35308": {
+    "<attr><feel_sad_lv2><end_attr>Hyuza is a bit of a pain in the ass.\n It's his own choice to want to become\na strong warrior and go to the city.\n<br>\nOh, I'm sorry.<pc>You also wanted to leave the village\nto find your parents, didn't you? But\nif you don't have the Proof of\n<br>\nAdulthood, you won't be taken\nseriously in the big city. Become a\nShellner, do your part, and I'll give\n<br>\nyou the Proof of Adulthood.  Good\nluck.": ""
+  },
+  "35309": {
+    "<pc>You know that the \"Mere Old Man\"\nwanted to leave this village to look\nfor his parents. But you will not be\n<br>\ntaken seriously in the big city if you\ndon't have the Proof of Adulthood.\nBecome a Shellner, do your part, and\n<br>\nI'll give you the Proof of Adulthood.\n Good luck.": ""
+  },
+  "35310": {
+    "<if_woman><pc>You're amazing, aren't you?  Just when\nI thought you were dead, you come back\nto life! What? Are we in Ethene\n<br>\nVillage?  Oh no, this is Lane Village.\n It looks like you're still confused\nafter all. Oh, by the way, didn't\n<br>\nAashik ask you to come to Solace\nBeach? I've never been to Solace\nBeach, but I think it's located in the\n<br>\nColt Region, heading northwest from\nthe village.<else><pc>Nee-chan, that's amazing!  I thought I\nwas dead, but I came back to life!\nWhat? Are we in Ethene Village?  Oh\n<br>\nno, this is Lane Village.  It looks\nlike you're still confused after all.\nOh, by the way, didn't Aashik ask you\n<br>\nto come to Solace Beach? I've never\nbeen to Solace Beach, but I think it's\nlocated in the Colt Region, heading\n<br>\nnorthwest from the village.<endif>": ""
+  },
+  "35311": {
+    "I was the Shellner at Sarny and\nWailer's wedding. It's not easy being\na Shellner.  Good luck with that.<pc>The following is a list of the most\ncommon problems with the": ""
+  },
+  "35312": {
+    "Hmm?<pc>You shopping?  Then don't spin around\nthe back, talk to me from behind the\ncounter.": ""
+  },
+  "35313": {
+    "The door is keyed.": ""
+  },
+  "35314": {
+    "The chief of the village gives a\nZoomstone to each Shellner. Zoomstone\nis a stone that allows you to fly to\n<br>\nthe place where you are remembered.  I\nwant one too.": ""
+  },
+  "35315": {
+    "<attr><feel_happy_lv3><end_attr>Hmmm. It seems like only yesterday\nthat we were married. With the sunset\nshining on the sea, Sarny and I looked\n<br>\nat each other and exchanged the most\nbeautiful shell in the world and a\nsong of return. And then we Eternal\n<br>\nVow our love to each other.  Poof!": ""
+  },
+  "35316": {
+    "Welcome!  What's up?<pc>The sea. Yeah, that's it, right? You\nmean we should get new armor so Hyuza\ndoesn't beat us up again? Thank you.": ""
+  },
+  "35317": {
+    "Sorry<pc>I'm at work.  I'm at work, so I can't\nbe bothered.": ""
+  },
+  "35318": {
+    "When the wedding comes, I will\nremember.  The story of the man who's\nbeing pinned down on Solace Beach.\n<br>\nWhat is that face?  Did you hear\nsomeone talking about Solace Beach?<yesno><break>": ""
+  },
+  "35319": {
+    "<attr><feel_sad_lv2><end_attr>I see. Well, it was a long time ago.\n Nothing to worry about. Forget about\nthe story of the bride who drowned to\n<br>\ndeath in the sea just before her\nwedding, and even the groom who\nfollowed her to the brink of the brink\n<br>\nof the Lasso.": ""
+  },
+  "35320": {
+    "<attr><feel_sad_lv2><end_attr>Oh, I see. Then it's better not to\nknow.  It's not something you want to\ntalk about when you're planning a\n<br>\nwedding.": ""
+  },
+  "35321": {
+    "<pc>You must not go near the beach.  Do\nnot go near Solace Beach again. Time\nmay ease your grief if you are alive,\n<br>\nbut time stands still for the dead.\nHmm? I told you to go to the chief.<pc>The following is a list of the most\ncommon problems with the": ""
+  },
+  "35322": {
+    "Oh, you went to Solace Beach.  Aren't\nyou afraid of the monsters around the\nvillage?  That's what I thought.<pc>That's right. Oh, yeah.  Chief Setorii\nsaid they're going to have an exam to\ndecide who gets to be Shellner! Go to\n<br>\nthe Chief's house.  Go to the chief's\nhouse. It's the house next to the Inn.\n Hyuza will be there soon.": ""
+  },
+  "35324": {
+    "<attr><feel_happy_lv3><end_attr>Once Shellner has been chosen, the\nwedding is finally here. We'll be\ndrinking, eating, singing, and\n<br>\ndancing.": ""
+  },
+  "35325": {
+    "<attr><feel_think_lv3><end_attr>My Rubecca is going to be a bride\nsomeday, isn't she? I'm feeling a\nlittle anxious now, thinking about how\n<br>\nmuch my husband, who is in love with\nmy daughter, is going to be abused by\nher.": ""
+  },
+  "35326": {
+    "Has Aashik already found the shells to\ngive to his bride on their wedding\nday?<yesno><break>": ""
+  },
+  "35327": {
+    "I see. That's great.  I'm just\nrelieved that we got to find Shelner\nbefore he was found.": ""
+  },
+  "35328": {
+    "Oh dear, you haven't started yet?\n It's going to be a wedding as soon as\nShellner is decided, but is it going\n<br>\nto be okay?": ""
+  },
+  "35329": {
+    "<attr><feel_normal_one><end_attr>It is said that from time to time\nthere are those who rise from the\nbrink of death. Such people probably\n<br>\nhave things they need to do in this\nworld.  As you have. Now, let's go and\nperform the Service.": ""
+  },
+  "35330": {
+    "You seem to be all right now.  But if\nyou're staying here, I'm all for it~.": ""
+  },
+  "35331": {
+    "<attr><feel_angry_lv3><end_attr>But still, Aashik.  I think it's only\nnatural that he should propose to me\nfirst. Then, after I'm rejected, he\n<br>\nshould look for another bride.  That's\nthe courtesy of a childhood friend.": ""
+  },
+  "35332": {
+    "Here we are at last<pc>I'm starting the Shelner selection\ntest right now.  We're starting the\nShellner selection test now.": ""
+  },
+  "35333": {
+    "<if_woman>oh no (used as an expression of surprise or horror)<pc>Hey, isn't the village chief asking\nfor you? He said he's going to choose\nShellner.  I have to go to the Chief's\n<br>\nhouse next to the Inn!<else>oh no (used as an expression of surprise or horror)<pc>Nee-chan, isn't the village chief\ncalling you? He said he's going to\ndecide on Shellner.  I have to go to\n<br>\nthe Chief's house next to the Inn!<endif>": ""
+  },
+  "35334": {
+    "You and Hyuza.  We're playing a little\ngame to see who gets to be Shellner.\nOh, no, no, no.  My mom's gonna be\n<br>\nAngry if I don't do my job.": ""
+  },
+  "35335": {
+    "If you fulfill your role as Shellner,\nyou will be recognized as a full-\nfledged member of the community, and\n<br>\nyou will be able to begin your journey\nto find your parents. But there will\nbe many hardships ahead. Do you\n<br>\nunderstand? Do not be in too much of a\nhurry.  If you dwell too much on the\npast, it will be difficult to live in\n<br>\nthe present.": ""
+  },
+  "35336": {
+    "I heard that<pc>I heard that the test to decide who\ngets to be Shelner has started.  I\nheard they're starting the trials to\n<br>\ndecide who gets to be Shellner. I'm\nglad to see that he can compete with\nthat Hyuza.<pc>The monsters in the Underground Lake\nCave in the North Cave are said to be\nbigger than the monsters around the\n<br>\nvillage, so be careful.": ""
+  },
+  "35337": {
+    "Rubecca's mood has not been good\nlately.": ""
+  },
+  "35338": {
+    "Shellner's going to Underground Lake Cave for his test\n I heard you're going to the Underground Lake Cave<pc>I'm not sure what to do with that.\nThere's a big lake underneath that\ncave, just like the name implies. I\n<br>\nwent there once, and the color of the\nwater was so blue, it was absolutely\nbeautiful.": ""
+  },
+  "35339": {
+    "<pc>Good luck with the Shelner exam.  Good\nluck with Shellner's exam.<pc>I don't care who becomes Shellner, or\nHyuza.": ""
+  },
+  "35340": {
+    "What are you doing?<pc>The test to select the right Shelner\nis already underway.  The Shellner\nselection test has already started.\n<br>\nDon't tell me you've forgotten what\nthe test is?<yesno><break>": ""
+  },
+  "35341": {
+    "<attr><feel_think_lv2><end_attr>Oh, dear. Go to Underground Lake Cave,\nnorth of the village, and fill the\nbottle I gave you with water from\n<br>\nthere. You want to know how to get to\nUnderground Lake Cave?  Then leave the\nvillage and follow the road north.\n<br>\n When you see a rocky hill, turn off\nthe road and go north. Soon you will\nsee a large tree.  Beyond it is the\n<br>\nentrance to the Underground Lake Cave.\nFetch some water and bring it back\nbefore the sun and moon make their\n<br>\nrounds so that its beautiful hue will\nnot fade.  Whoever comes back first\nwill be Shellner.": ""
+  },
+  "35342": {
+    "Then head immediately to Underground\nLake Cave.  Hyuza and you, whichever\ncomes back first, will be Shellner.\n<br>\nYou got it.": ""
+  },
+  "35343": {
+    "You're back<pc>I'm sure you've been to the\nUnderground Lakes Cave.  Looks like\nyou've been to Underground Lake Cave.": ""
+  },
+  "35344": {
+    "You're back<pc>I'm sure you've been to the\nUnderground Lake Cave.  Looks like\nyou've been to Underground Lake Cave.": ""
+  },
+  "35345": {
+    "<if_woman>oh no (used as an expression of surprise or horror)<pc>Hey, didn't Shellner's test start\nalready? Hyuza said they are going to\nthe Underground Lake Cave in the North\n<br>\nCave of the village to take the test!<else>oh no (used as an expression of surprise or horror)<pc>Nee-chan, didn't Shellner's test start\nalready? Hyuza told me that they are\ngoing to the Underground Lake Cave in\n<br>\nthe North Cave of the village to take\nthe test!<endif>": ""
+  },
+  "35346": {
+    "<attr><feel_happy_lv1><end_attr>congratulations!<pc>I'm glad to see you've made the cut.\n It looks like you made the cut for\nShellner. But Shellner's work is just\n<br>\nbeginning.  You're going to have to do\nbetter than that.": ""
+  },
+  "35347": {
+    "Hyuza told me about you earlier<pc>You're Sherner?  You're Shellner?\nHyuza's guy.<pc>I guess he must have been really\ndisappointed to have lost to the \"Mere\nOld Man\". He went out of the village\n<br>\nwith a funny look on his face.\n Probably he's trying to get the word\nout to the monsters.": ""
+  },
+  "35351": {
+    "<pc>As a matter of fact. As a matter of\nfact.  Hyuza was late getting back to\nthe village because of me. I... I was\n<br>\non my way to see my sister at the\nPrayer Inn when I was attacked by a\nmonster. Hyuza, who was passing by,\n<br>\nnot only rescued me, but also drove me\nback to the Prayer Inn because she\ncouldn't leave me there. Oh, no!\n<br>\n Hyuza had told me not to tell anyone.": ""
+  },
+  "35352": {
+    "also<pc>Shellner's been chosen. I'm sure the\nbride would be surprised to see\nsomeone as bad as Hyuza come in.<pc>I guess it's a relief that the \"Mere\nOld Man\" has decided to go with the\n\"Mere Old Man\".": ""
+  },
+  "35353": {
+    "<pc>I heard that Shellner's been chosen as\nthe bride's escort. Good luck as the\nbride's escort!": ""
+  },
+  "35354": {
+    "<pc>What are you doing?  You defeated\nHyuza. You became Shellner.  You have\nto fulfill that role. To get to the\n<br>\nPrayer Inn, leave the village, follow\nthe road to the creek.  Next, follow\nthe creek to the north. Next, follow\n<br>\nthe stream north until you reach a\nsmall waterfall.  To the left of it,\njust after crossing the road to Lenam\n<br>\nFields, you will see the Prayer Inn on\nyour right. It's a long way, but the\nZoomstone I gave you earlier will come\n<br>\nin handy.  The stone will remember the\nlocation of the village. If you are in\ndanger on your journey, you can use\n<br>\nthe Zoomstone to fly back to the\nvillage in an instant. I believe\nTeatea in the orphanage taught me more\n<br>\nabout Zoomstone.  If you have any\nquestions, go and ask. Come on, hurry\nup!<pc>I'm sure the bride will be waiting a\nlong time.  Your bride will be waiting\nfor you with baited breath.": ""
+  },
+  "35355": {
+    "<if_woman><attr><feel_happy_lv3><end_attr><pc>You're going to meet the Oyome at the\nprayer house, aren't you? Then, Oyome\nwill be here soon, right?  I'm looking\n<br>\nforward to it!<else><attr><feel_happy_lv3><end_attr><pc>Nee-chan is going to meet the Oyome at\nthe prayer house, right? So Oyome-san\nwill be here soon, right?  I'm looking\n<br>\nforward to it!<endif>": ""
+  },
+  "35356": {
+    "Oh, well done!<pc>You've made me a fortune.  Thanks to\nyou, I made a fortune.": ""
+  },
+  "35357": {
+    "<pc>I hope so.  You got a Zoomstone,\ndidn't you? Zoomstone is a stone with\ngreat magic power that can make you\n<br>\nfly to the place you memorized in no\ntime. It seems that once you enter a\nplace like a town or a village with a\n<br>\nchurch, it is automatically memorized.\n Lane Village is already memorized,\nisn't it? The more you memorize, the\n<br>\nmore places you can fly to! That's\nvery convenient, isn't it? Also, the\nmysterious stone monuments at the\n<br>\nentrances to fields and dungeons can\nbe stored in the Zoomstone. I heard\nthat Zoomstone can be used from\n<br>\n\"items\".  The places I go often are...<emoji SpecialRight>You can even add it to your favorites\non the \"My Favorites\" page, so give it\na try!": ""
+  },
+  "47252": {
+    "Zoomstone is a very wonderful stone\nwith magical power that allows you to\nfly to the place you memorized in no\n<br>\ntime at all. It seems that once you\nenter a place like a town or a village\nwith a church, it is automatically\n<br>\nmemorized.  Lane Village is already\nmemorized, isn't it? The more you\nmemorize, the more places you can fly\n<br>\nto! That's very convenient, isn't it?\nAlso, the mysterious stone monuments\nat the entrances to fields and\n<br>\ndungeons can be stored in the\nZoomstone. I heard that Zoomstone can\nbe used from \"items\".  The places I go\n<br>\noften are...<emoji SpecialRight>You can even add it to your favorites\non the \"My Favorites\" page, so give it\na try!": ""
+  },
+  "35358": {
+    "used after the name of someone who is an older sister figure<pc>I'd like to see a little bit of the\nshell that  Can you show me just a\nlittle bit of the shell that Aashik is\n<br>\ngiving to his bride?<yesno><break>": ""
+  },
+  "35359": {
+    "<attr><feel_think_lv1><end_attr>Hmmm. Pretty Beautiful Shell for\nAashik's choice, don't you think?": ""
+  },
+  "35360": {
+    "<attr><feel_sad_lv1><end_attr>That's right. You can't just show\npeople the shells you're going to give\nas a gift to the bride.": ""
+  },
+  "35361": {
+    "<attr><feel_think_lv2><end_attr>Something must have happened<pc>?<yesno><break>": ""
+  },
+  "35362": {
+    "You don't have to hide it from me.  I\ncan feel the great presence of the\nmonster from close by. What? The bride\n<br>\nhas been kidnapped by a black monster?\nI think it would be best to keep this\nmatter a secret from the villagers.<pc>You must save your bride.  Only you,\nShellner, can do that.": ""
+  },
+  "35363": {
+    "Oh, my God! The bride has been\nkidnapped by a black monster? I think\nit would be best not to tell anyone in\n<br>\nthe village about this.<pc>You must save your bride.  Only you,\nShellner, can do that.": ""
+  },
+  "35364": {
+    "<attr><feel_think_lv2><end_attr>Hyuza's guy was dragging Aashik out of\nthe village. Both of them had pretty\nscary faces. Hyuza looked like he was\n<br>\nabout to swing his sword at me. Where\ndid they go?  They went to Solace\nBeach, northwest of the village.": ""
+  },
+  "35365": {
+    "Oh?<pc>What happened to the bride?  What\nhappened to the bride?  Haven't you\nbeen to the Prayer Inn yet? You have\n<br>\nto fulfill your role as Shellner, or\nyou won't be recognized as a full-\nfledged member of the family.": ""
+  },
+  "35366": {
+    "I just talked to Aashik.  He said he\nmet Keel when he went to Julet Town to\nhang out. It was love at first sight.\n<br>\n I wish I could have that kind of\nencounter.": ""
+  },
+  "35367": {
+    "<attr><feel_think_lv3><end_attr>Hey, hey, is Lily the flower still\nhere? I've been waiting here for a\nlong time for the Lily of the valley\n<br>\nto come.": ""
+  },
+  "35368": {
+    "The door is keyed.": ""
+  },
+  "35369": {
+    "Balcha has told me all about you. To\nturn into a monster to seek a lost\nbride... love is a very deep thing,\n<br>\nisn't it?": ""
+  },
+  "35370": {
+    "<attr><feel_happy_lv2><end_attr>It seems that both Aashik and Keel\nwent to visit Balcha's grandfather at\nthe Fiya orphanage to say hello.\n<br>\nTomorrow is the wedding day at last.<pc>You should also show up at the\norphanage.  As Shellner, the man who\nsaved Keel.": ""
+  },
+  "35371": {
+    "Hyuza was mumbling that she couldn't\nbeat him again. I'm sure she's doing\nher best.  This time, Hyuza was the\n<br>\nfirst one to run to Keel, wasn't he?": ""
+  },
+  "35372": {
+    "<attr><feel_happy_lv3><end_attr>It's coming, it's coming~!  At last,\nthe wedding day is here.  Hurry up and\ncome on, wedding day!": ""
+  },
+  "35373": {
+    "<attr><feel_happy_lv2><end_attr>Miss Keel came to our house a few\nminutes ago to say hello. She is a\nvery beautiful, calm and nice girl.\n<br>\n Just like the old me. Oh-ho-ho.": ""
+  },
+  "35375": {
+    "<attr><feel_think_lv3><end_attr>Was the monster that took your bride\nstrong?<yesno><break>": ""
+  },
+  "35376": {
+    "<attr><feel_sad_lv2><end_attr>I see.  But I can't believe you beat\nthat monster.<pc>I am very happy to see that the \"Mere\nOld Man\" has become stronger than ever\nbefore.": ""
+  },
+  "35377": {
+    "You're right<pc>I'm sure it's true.  It seems that the\nrumors about you getting stronger and\nstronger these days are true.": ""
+  },
+  "35378": {
+    "<attr><feel_normal_one><end_attr>O Mother Sea God.  Thank you for\nprotecting our bride Keel.": ""
+  },
+  "35379": {
+    "<attr><feel_sad_lv3><end_attr>Thank you<pc>I am very grateful to you for your\nhelp.  For saving Mr. Keel's life. Is\nit weird for me to thank you?  I don't\n<br>\nwant to see my childhood friend Aashik\ncry.": ""
+  },
+  "35380": {
+    "<pc>I wish I could have seen the monster\ndefeated. I should have gone to the\nSolace Beach instead of staying at\n<br>\nhome.": ""
+  },
+  "35381": {
+    "oh!<pc>I am so glad you did it.  You did a\ngreat job saving my bride, Keel.  You\nwere right to make Shellner. Well...\n<br>\nOn a short notice, the wedding of\nAashik and Keel will take place\ntomorrow. You will return to Fiya\n<br>\norphanage to prepare for the wedding\nwith old Balcha.": ""
+  },
+  "35382": {
+    "<attr><feel_happy_lv2><end_attr>I saw the \"Hanayome-san\"!  It was so\nbeautiful! But just now, the sky\nflashed with a white light.  It was\n<br>\nbeautiful too!": ""
+  },
+  "35383": {
+    "The door is keyed.": ""
+  },
+  "35384": {
+    "<attr><feel_happy_one><end_attr>I'm relieved that the bride, Keel,\nsurvived. I was thinking that perhaps\nI would be the next one to be\n<br>\ntargeted.": ""
+  },
+  "35385": {
+    "Hyuza just bought the best equipment\nin the house.  Monsters are<pc>The first time I saw him, he was\nbeaten by a": ""
+  },
+  "35386": {
+    "<attr><feel_happy_lv2><end_attr>Yo! (greeting)<pc>Welcome.  Welcome to my and Keel's\nlove nest. Sorry. I just wanted to say\nsomething.  But I'm sure I'm not\n<br>\nmistaken.": ""
+  },
+  "35387": {
+    "Welcome! What's that? Who are you?  If\nyou're a peddler, you're just in time.\nMy wife and I are about to have\n<br>\ndinner.  I'm sorry, but could you\nplease leave us alone?": ""
+  },
+  "35388": {
+    "If you are a peddler, you are just in\ntime.  As long as I have Keel, I don't\nneed anything else. My wife and I are\n<br>\ngoing out to dinner.  I'm sorry, but\ncould you please leave us alone?": ""
+  },
+  "35389": {
+    "<pc>I think the \"Mere Old Man\" is going to\nleave this village and look for his\nparents. Perhaps it would have been\n<br>\nbetter if you had never known.  But if\nyou still want to go looking for them,\nI won't stop you.": ""
+  },
+  "35390": {
+    "<attr><feel_think_lv1><end_attr>There was a little incident in this\nvillage a while back.  It's been\nsolved now. It was a sad incident\n<br>\ninvolving the Solace Beach.  One wrong\nmove and you might have been involved.\nIf you want to know the details, ask\n<br>\nthose who have departed from this\nvillage.  We don't want to talk too\nmuch about it.": ""
+  },
+  "35391": {
+    "<pc>I have one more thing on my mind.\nThere is one more thing that concerns\nme. I heard that when Reg, a young man\n<br>\nfrom Weddie, turned into a monster and\nappeared at the Prayer Inn, a black\nfog filled the area.  I heard that\n<br>\nsomething called demon miasma once\ndevoured the world.  It was like a\nblack fog. That demon miasma may have\n<br>\nbeen the cause of Reg's transformation\ninto a monster. If you find a black\nfog in your travels, do not carelessly\n<br>\napproach it.  You never know what\nmight happen.": ""
+  },
+  "35392": {
+    "Mm-hmm. Who are you? No, excuse me,\ntraveler.  I thought you were visiting\nan acquaintance. My acquaintance is a\n<br>\nWeddie.  I must be getting old to be\nmistaken for another species.": ""
+  },
+  "35393": {
+    "<attr><feel_think_lv2><end_attr>A friend of mine went on a journey.  A\njourney to look at himself and find\nhimself. I don't know why. I got the\n<br>\nsame feeling from you.": ""
+  },
+  "35394": {
+    "<pc>I heard you're going on a trip.  I'm\ngoing to miss you. You should head for\nJulet Town on the next island.  From\n<br>\nthe Prayer Inn, head further northwest\nto a canoe stop where anyone can\nboard.": ""
+  },
+  "35395": {
+    "It's called Lane Village.  Let me tell\nyou some tourist information about\nthis village. There is a beautiful\n<br>\nbeach called Solace Beach, which you\ncan see to the left of the rocky\nmountains, heading northwest and down\n<br>\ntoward the sea. If you leave the\nvillage and go straight north, you\nwill find Underground Lake Cave.\n<br>\n There is a place of pilgrimage called\nPrayer Inn in Lenam Fields, a long way\nto the northwest.": ""
+  },
+  "35396": {
+    "Now that I think about it, Aashik and\nKeel really make a great couple. A\nslightly unreliable man and a solid\n<br>\nwoman.  That's quite a good match.": ""
+  },
+  "35397": {
+    "<attr><feel_think_lv2><end_attr>Are you a traveler?<yesno><break>": ""
+  },
+  "35398": {
+    "Oh, I knew it.  Travelers are coming\nmore often now, aren't they?": ""
+  },
+  "35399": {
+    "Only Weddie lives in this village.  So\nyou are a traveler.": ""
+  },
+  "35400": {
+    "<turn_pc>oh!<pc>Dear.  I am sorry that I haven't\nfinished cleaning up yet. Please take\nyour time.": ""
+  },
+  "35401": {
+    "Dear. We're having fish today.  We've\ngot some fresh fish.": ""
+  },
+  "35402": {
+    "<icon_exc><turn_pc>Oh, I'm sorry.  I thought my husband\nhad approached you.": ""
+  },
+  "38833": {
+    "<turn_pc>I was just thinking of cooking ideas\nfor my husband. I learned how to cook\nwhen I was at home, but it's hard to\n<br>\ncome up with something on my own.": ""
+  },
+  "35405": {
+    "<attr><feel_happy_lv3><end_attr>Well, it was a great wedding! I was\nsinging, dancing, eating, and\ndrinking, but not the bride and groom.": ""
+  },
+  "35406": {
+    "A man named Aashik who lives in the\nvillage got a beautiful bride.  There\nwas a big wedding ceremony. I wonder\n<br>\nif anyone will get married again.\n Then we could eat and drink in style\nagain. Me? I'm not getting married.\n<br>\n If I were the groom, I wouldn't be\nable to have a stupid meal at the\nwedding.": ""
+  },
+  "35407": {
+    "Aashik has found a partner in Mr.\nKeel, but I wonder if someone good\nwill come along for our Rubecca, too.\n<br>\nIf that happens, my family will\nprobably go to hell.": ""
+  },
+  "35408": {
+    "Oh my, I had no idea that a traveler\nwould come to visit us. I could at\nleast make you some tea, but we don't\n<br>\nhave time for that, do we?": ""
+  },
+  "35411": {
+    "<pc>I'm going to leave someday to own my\nown restaurant.  I'm planning to leave\nsomeday to own my own store.": ""
+  },
+  "35412": {
+    "This store is shared by the three of\nus.  But one day, I would like to have\nmy own store.": ""
+  },
+  "35413": {
+    "<pc>You're going to a bigger town now,\naren't you? I'm looking forward to\nyour tales of souvenirs~.": ""
+  },
+  "35414": {
+    "Where are you from?  You're not from\naround here, are you? Well, it doesn't\nmatter where you're from.  You should\n<br>\nget over the fatigue of your long\njourney.": ""
+  },
+  "35415": {
+    "After the wedding, Hyuza's not in the\nvillage anymore. He's always missing\nfrom the village, though.": ""
+  },
+  "35416": {
+    "<attr><feel_happy_lv2><end_attr>Not so long ago, there was a wedding\nin this village. It was a nice\nwedding.  I wish you, a traveler,\n<br>\ncould have been there to celebrate.": ""
+  },
+  "35417": {
+    "If you miss our bed, you can come home\nanytime.  Be careful not to hurt\nyourself.<pc>The following is a list of the most\ncommon problems with the": ""
+  },
+  "35418": {
+    "If you're staying with us, could you\nspeak to me from the counter?  That's\nthe rule.": ""
+  },
+  "35419": {
+    "<attr><feel_sad_lv1><end_attr>Aashik is all over Mr. Keel, and Hyuza\nis out of the village, saying it's for\ntraining. Ahh~ Boring.  Maybe I should\n<br>\ngo on a trip too.": ""
+  },
+  "35420": {
+    "<attr><feel_think_lv1><end_attr>Are you a traveler?  Can I ask you\nsomething? Isn't it hard to travel?\n Is it fun?<yesno><break>": ""
+  },
+  "35421": {
+    "<attr><feel_think_lv2><end_attr>I see.  I wish I could go on a trip\nsomeday.": ""
+  },
+  "35422": {
+    "<attr><feel_think_lv2><end_attr>I see.  It's not that much fun, is it?\nI don't think I can make the trip.": ""
+  },
+  "35423": {
+    "Wailer and I are going to visit Solace\nBeach next time we are there. I'm\ngoing to pray that they will continue\n<br>\nto watch over Weddie and the kids as\nthey get married.": ""
+  },
+  "35424": {
+    "<attr><feel_happy_lv3><end_attr>It's nice to be newlyweds, isn't it?\nWhat's the story?  I'm talking about\nAashik and Keel, the newlyweds. Oh, I\n<br>\ncan't stop looking at them, they're so\nlovey-dovey!": ""
+  },
+  "35425": {
+    "You see<pc>I've got my certificate.  Now that you\nhave the Proof of Adulthood, don't do\nanything strange on your journey,\n<br>\nokay? I, the village head, who gave\nyou the Proof of Adulthood, will be\nthe first to be held accountable.": ""
+  },
+  "35426": {
+    "I am the chief of this Lane Village.\n You are quite an admirable traveler\nto come all the way to greet me. I\n<br>\nhave no hospitality to offer, but you\nmay relax as long as you like.": ""
+  },
+  "35427": {
+    "<attr><feel_happy_lv3><end_attr>I love the flower arrangement! I want\nto have a Lonely Planet soon, too!": ""
+  },
+  "35428": {
+    "<attr><feel_happy_lv3><end_attr>Hey, lady, would you like to come to\nthis village and become a Hana-yome-\nsan? Don't worry. I won't be kidnapped\n<br>\nanymore.  I want to see Hanyome-san\nagain!": ""
+  },
+  "35429": {
+    "<attr><feel_happy_lv3><end_attr>Hey, do you know a girl who could be\nmy Hanyome-san? I'll try not to get\nkidnapped, so please tell me.  I want\n<br>\nto see her again!": ""
+  },
+  "35430": {
+    "You've done your part Shellner, you'll\ndo fine wherever you go.  You can go\nanywhere you want. I'll take care of\n<br>\nthis village.": ""
+  },
+  "35431": {
+    "Hey there, visitor.  You can't be in\nhere.  Well, they're out. They're out!": ""
+  },
+  "35433": {
+    "This is Fiya orphanage.  Balcha takes\nin children who have no relatives and\nraises them. I'm one of them. There\n<br>\nwere a few others, but they all left\nthe nest.": ""
+  },
+  "35434": {
+    "Aashik and Keel at their wedding.\n They looked so happy. We can't lose\nto them either.": ""
+  },
+  "35435": {
+    "<attr><feel_sad_lv2><end_attr>Traveler. You'd better stay away from\nthe house next to Church. There are\nnewlyweds living there.  It's a real\n<br>\neyesore for single people and tired\ncouples.": ""
+  },
+  "35436": {
+    "I'm thinking that Rubecca will be the\nnext one to get married in this\nvillage.  I'm looking forward to it.": ""
+  },
+  "35437": {
+    "Welcome!  If you're going to shop, do\nit from in front of the counter.": ""
+  },
+  "35438": {
+    "<attr><feel_happy_lv2><end_attr><pc>Welcome!  I'm so relieved to see you\nlooking so well. What? Don't I look\nany different?  That's a funny\n<br>\nquestion.<pc>Ha. Yes, I see. I think you've become\na little, or maybe a lot, tougher,\ndon't you?  I guess traveling is hard\n<br>\nwork.": ""
+  },
+  "35439": {
+    "<attr><feel_happy_lv2><end_attr><pc>I've always been strong enough to\nmatch up with Hyuza, but since I've\nbeen on the road, I seem to be even\n<br>\nstronger! But since I've been on the\nroad, I seem to have become even\nstronger!": ""
+  },
+  "35440": {
+    "<attr><feel_happy_lv2><end_attr><pc>Welcome!  I'm so glad to see you're\ndoing so well. Keel and I are doing\njust fine.  We have a lot of fun and\n<br>\ndiscoveries every day when we are\ntogether.": ""
+  },
+  "35441": {
+    "<attr><feel_happy_lv2><end_attr>Welcome! What's that? Are you a\ntraveler?  Inn is just to the east of\nthis house. My wife and I are going\n<br>\nshopping.  I'm sorry, but would you\nmind taking them back?": ""
+  },
+  "35442": {
+    "If you're looking for Inn, it's just\neast of this house.  You can stay\nthere, travelers. My wife and I are\n<br>\ngoing shopping.  I'm sorry, but would\nyou mind taking us in?": ""
+  },
+  "35443": {
+    "I see. It seems you gained something\nduring your journey.<pc>I don't need to tell you. I don't have\nto tell you.  It's the face. It's all\nin the face.": ""
+  },
+  "35444": {
+    "<attr><feel_think_lv2><end_attr><pc>Oh, man. I'm glad you're back. How is\nyour trip going?  Did you gain\nanything?<yesno><break>": ""
+  },
+  "35445": {
+    "<attr><feel_think_lv2><end_attr>Hou.  You say you met someone named\nHollow? I see. Well, then you'd better\nlisten to what he has to say. Sage\n<br>\nHollow is said to be one of the five\nwisest men in Astoltia.": ""
+  },
+  "35446": {
+    "<attr><feel_sad_lv2><end_attr>I see. But don't be hasty. You will\nget tired if you keep rushing.  The\njourney has only just begun.": ""
+  },
+  "35447": {
+    "<attr><feel_think_lv2><end_attr>No.<pc>Or is it? Is it because of your\ncontinued travels?  Your mood seems to\nhave changed.<pc>I knew by the mirror reflecting the\ntruth that you really have a human\nform. I knew by the mirror of truth\n<br>\nthat you have a human form. Perhaps\nyou have reclaimed your human self?<yesno><break>": ""
+  },
+  "35448": {
+    "I see. You've finally managed to\nregain your human form.  First of all,\nlet me congratulate you. But your\n<br>\njourney is not yet over.  You should\nmove forward without looking back.": ""
+  },
+  "35449": {
+    "<attr><feel_think_one><end_attr>I see. Then you are still in the\nmiddle of your journey. The end of\nyour journey may not be in sight.  But\n<br>\nyou must never give up.": ""
+  },
+  "35450": {
+    "I would say that your journey has only\njust begun. The end of your journey\nmay not be in sight.  But never give\n<br>\nup and keep moving forward.": ""
+  },
+  "35451": {
+    "<attr><feel_think_one><end_attr>What, you're traveling with Hyuza?\n Hey, is that Hyuza guy still poking\nat you?<yesno><break>": ""
+  },
+  "35452": {
+    "<attr><feel_think_one><end_attr>I see. You're in a tough spot, too.": ""
+  },
+  "35453": {
+    "<attr><feel_sad_one><end_attr>I see that Hyuza is growing up through\nhis travels.": ""
+  },
+  "35454": {
+    "<attr><feel_happy_lv2><end_attr>Yo! (greeting)<pc>Welcome back.  Did you come back\nbecause you were worried about Aashik\nand Keel? They're the same as ever.\n<br>\n Everyone envies them. They're such a\nsweet couple.": ""
+  },
+  "35455": {
+    "<turn_pc>oh!<pc>Isn't it your way, sir?  Welcome to my\nhome! If you don't mind my asking, did\nyou stop by the town of Julet Town on\n<br>\nyour way here?<yesno><break>": ""
+  },
+  "35456": {
+    "Well, I see!  So you have met my\nfather and mother? If you ever see\nthem again, please tell them that my\n<br>\ndaughter is happy.": ""
+  },
+  "35457": {
+    "Well, I see!  So you met my father and\nmother? You did what my father asked\nyou to do?  How can I ever thank you\n<br>\nfor your kindness to my father?": ""
+  },
+  "35458": {
+    "I see. If you should ever see my\nfather and mother in Julet Town,\nplease tell them that my daughter is\n<br>\nhappy.": ""
+  },
+  "35459": {
+    "I'm sorry, honey.  We were supposed to\ngo shopping today.": ""
+  },
+  "35460": {
+    "<icon_exc><turn_pc>Oh, I'm sorry.  I thought my husband\nhad approached you.": ""
+  },
+  "38834": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>My husband and I are supposed to go\nshopping together. It's been a while\nsince we got married, but we still\n<br>\ndon't have everything we need.": ""
+  },
+  "35464": {
+    "<attr><feel_think_lv1><end_attr>Hey.<pc>Are you going to get married or\nsomething? If you have a wedding,\ndefinitely invite me.  I'll eat a lot\n<br>\nof food and make it exciting!": ""
+  },
+  "35465": {
+    "<attr><feel_think_lv2><end_attr>rough<pc>Welcome back. Welcome back. Did you\nfind someone nice on your trip?  I\nmean, did you find a lover?<yesno><break>": ""
+  },
+  "35466": {
+    "<attr><feel_think_lv2><end_attr>Yes.<pc>I see that RUBEKA has finally found a\nlover. I think it's about clothes time\nfor our Rubecca to have such a story\n<br>\ntoo.": ""
+  },
+  "35467": {
+    "<attr><feel_sad_lv1><end_attr>Oh, I see.  I haven't heard anything\nabout it from my Rubecca either, but I\nthink it's about time.": ""
+  },
+  "35469": {
+    "<attr><feel_happy_lv2><end_attr><pc>I'm sure you'll be fine!  How's your\ntrip going? How's your trip going?\n Next time, you can tell me about your\n<br>\ntrip!": ""
+  },
+  "35470": {
+    "oh<pc>I'm sure you'll be fine.  How is your\ntrip going? It's been the same every\nday here.  This is what peace looks\n<br>\nlike.": ""
+  },
+  "35471": {
+    "<if_hum><attr><feel_think_lv1><end_attr>What? You're human? What are you\ntalking about?<pc>?  The usual.<pc>I can't see anything else. Oh, I get\nit.  I guess when you travel, you can\nmake urban jokes like that.<else>welcome home<pc>Hey. Hey. Will you take me on a trip\nwith you? I'm just kidding. Just\nsaying.<endif>": ""
+  },
+  "35473": {
+    "<pc>I'm not sure.  You've grown up so\nmuch, haven't you? Since then, the\nvillage has been at peace.  It's so\n<br>\npeaceful that it's boring.": ""
+  },
+  "35474": {
+    "<attr><feel_think_lv2><end_attr>Even though they've been married for\nquite some time, Aashik and Keel are\nas much in love as ever. Oh, I'm\n<br>\nsorry.  It's none of the traveler's\nbusiness.": ""
+  },
+  "35475": {
+    "How's it going?<pc>I'm sure you're doing everything you\ncan on your trip.  You're gonna be\ndoing all right while you're on the\n<br>\nroad, aren't you? You're going to make\na name for yourself, aren't you?  So\nthat you can tell everyone in the\n<br>\nvillage that a hero has come out of\nthis village!": ""
+  },
+  "35476": {
+    "I wonder if Keel lady will not dress\nup as Hanyome-uku anymore. Maybe she\nwon't be able to see the lasso until I\n<br>\nask her to do it.": ""
+  },
+  "35477": {
+    "Hey, lady, would you like to come to\nthis village and become a Hana-yome-\nsan? Don't worry. I won't be kidnapped\n<br>\nanymore.  I want to see Hanyome-san\nagain!": ""
+  },
+  "35479": {
+    "<attr><feel_sad_lv2><end_attr>I'm trying to follow Aashik and Keel's\nexample and be a little more lovey-\ndovey-dovey. But Sarny is so shy.  She\n<br>\nwasn't like that in the past.": ""
+  },
+  "35480": {
+    "<attr><feel_happy_lv1><end_attr><pc>Right? I think you've changed your\nlook.  I couldn't tell who it was at\nfirst glance.  I've heard that\n<br>\ntraveling refines a person.<pc>That's exactly how I see it!": ""
+  },
+  "35481": {
+    "<attr><feel_happy_lv1><end_attr>Yo! (greeting)<pc>I was about to take Kiel to the beach.\nI was about to take Keel to Solace\nBeach to pay my respects. Since then,\n<br>\npeople in the village have started to\nvisit the beach, but we still have to\ngo. I think we can share a little of\n<br>\nour happiness with Reg and Dahlia.": ""
+  },
+  "35482": {
+    "<attr><feel_happy_lv1><end_attr>I was about to take Keel to Solace\nBeach to pay my respects. Since then,\npeople in the village have started to\n<br>\nvisit the beach, but we still have to\ngo. I think we can share a little of\nour happiness with Reg and Dahlia.": ""
+  },
+  "35483": {
+    "You're the traveler, aren't you?  I'm\nsorry, this is my house.  If you are\nlooking for a store, there is one in\n<br>\nthe middle of the village. My wife and\nI are going to visit Solace Beach.\n I'm sorry, but could you please leave\n<br>\nus alone?": ""
+  },
+  "35484": {
+    "If you want to shop, please go to the\nstores.  It's a small village, but\nyou'll find all kinds of stores in the\n<br>\nmiddle of the village. My wife and I\nare going to visit Solace Beach.  I'm\nsorry, but could you please leave us\n<br>\nalone?": ""
+  },
+  "35485": {
+    "<attr><feel_sad_lv3><end_attr>Many of those who leave do not return\nto the village.  There may be many\nreasons. But the ones who do come back<pc>I'm not sure. Oh, Hyuza is there too.\n But Hyuza...<pc>The only reason for this is that they\nare attached to the": ""
+  },
+  "35486": {
+    "<pc>I know what I'm talking about. I know\nyou.  I know that you have regained\nyour true human form. And that you\n<br>\nrisked your life for the sake of this\nworld, unknown to man. You were chosen\nby fate.  Your destiny will eventually\n<br>\nbe guided by a great current. Wait for\nthat time with an open mind.": ""
+  },
+  "35487": {
+    "You have been chosen by fate.  Your\ndestiny will be guided by an even\ngreater current. Wait for that time\n<br>\nwith an open mind.": ""
+  },
+  "35488": {
+    "I gave myself over to you<pc>He dreamed of a reunion with his\nparents. The only clues to this are\nthe sight of a large castle and the\n<br>\nfact that they are apparently\nresearchers of some kind.  These are\nthe only two clues I have. It's also\n<br>\nmy wish, as a substitute parent.  I\nhave no doubt that you, who saved the\nworld, will accomplish this.": ""
+  },
+  "35490": {
+    "O traveler. It seems you, too, have\ntraveled a journey driven by a great\ndestiny. Your journey has not yet come\n<br>\nto an end.  Many more challenges await\nyou. Never give up and keep going.  If\nyou do so, the path will open up for\n<br>\nyou.": ""
+  },
+  "35492": {
+    "<pc>I think so, don't you?  You've grown\nup, haven't you? It's become out of\nplace in such a small village.": ""
+  },
+  "35493": {
+    "<attr><feel_think_lv2><end_attr>You are a curious traveler to stop by\nsuch an empty village.": ""
+  },
+  "35494": {
+    "<turn_pc>I gained something important from my\nmarriage.<pc>Did you gain anything from your\njourney? What? The human form? No.<pc>If it gets too hot.  You must be\njoking. I'm sure.<pc>I'm sure you will find something you\ncherish as well.": ""
+  },
+  "35495": {
+    "<turn_pc>I haven't been back to Julet once\nsince my marriage to Mr. Aashik.\nSometimes I miss my father and mother,\n<br>\nbut as a wife, I can't go back to my\nparents' house without being\nsatisfied.": ""
+  },
+  "35496": {
+    "You. Have you decided on an offering\nto take to Solace Beach?": ""
+  },
+  "35497": {
+    "<icon_exc><turn_pc>Oh, I'm sorry.  I thought my husband\nhad approached you.": ""
+  },
+  "38835": {
+    "<turn_pc>My husband and I are going to visit\nthe cenotaph. Do you know about Solace\nBeach?  We pray at the cenotaph there.": ""
+  },
+  "35498": {
+    "rough<pc>Welcome back. Welcome back. Will you\nbe traveling again soon?  This is the\nvillage where you grew up.": ""
+  },
+  "35499": {
+    "Welcome, travelers, to Lane Village. I\nam the wife of the village headman.  I\nhope you will have a good trip in this\n<br>\nvillage.": ""
+  },
+  "35500": {
+    "Hmm?<pc>Right.  Still no end to the journey,\nhuh? Nothing much has happened in this\nvillage.  I think I'd like to have a\n<br>\nlittle peace.": ""
+  },
+  "35501": {
+    "<attr><feel_happy_lv1><end_attr>A long time ago, there was a wedding\nin this village. It was a nice\nwedding.  I wish you, a traveler,\n<br>\ncould have been there to celebrate it.": ""
+  },
+  "35502": {
+    "<if_hum><pc>I've changed a lot since I started\ntraveling. Oh, I don't mean that in a\nbad way.  I feel like I've become more\n<br>\nmature since I went on my trip. I\nwonder if I can become like that too\nif I go on a trip.<else><pc>I heard you accomplished something\namazing.  I heard you accomplished\nsomething amazing.  And yet your\n<br>\njourney is not over? Traveling seems\nto be a lot of hard work, but it also\nseems to be a lot of fun. I want to go\n<br>\non a trip too.<endif>": ""
+  },
+  "35504": {
+    "<attr><feel_sad_lv1><end_attr>me<pc>I'm not sure.  I think you're even\nmore splendid than before. The village\nis the same as ever.  Peace was a\n<br>\ntedious thing, wasn't it?": ""
+  },
+  "35505": {
+    "Why don't you get married and settle\ndown instead of traveling around? Oh,\nthat's too much trouble.  I'm sorry\n<br>\nabout that.": ""
+  },
+  "35506": {
+    "<attr><feel_think_lv2><end_attr>oh!<pc>Hey, hey, hey, hey!  Remember what I\nsaid about being a hero? Well, have\nyou been a hero?  Did I do a good job?<yesno><break>": ""
+  },
+  "35507": {
+    "<attr><feel_happy_lv3><end_attr>You saved the world?  I'm going to be\nfamous as the chief of the village\nwhere the Savior spent his clothes in\n<br>\nhis childhood!": ""
+  },
+  "35508": {
+    "<attr><feel_angry_lv1><end_attr>What the fuck? What are you doing?\n Get ahead fast and become famous.": ""
+  },
+  "35509": {
+    "<attr><feel_happy_lv2><end_attr>Oh, traveler. Welcome.  I am Chief\nSetorii of Lane Village. I hope you\nwill continue to patronize this\n<br>\nvillage!": ""
+  },
+  "35510": {
+    "<attr><feel_think_lv2><end_attr>I wonder if Rubecca onee-chan will\never become a flower girl? I wonder if\nthere were others who could be the\n<br>\nflower girl.": ""
+  },
+  "35512": {
+    "<attr><feel_think_lv1><end_attr>I don't think we can call them\nnewlyweds anymore, but Aashik and Keel\nare still very much in love. Maybe I\n<br>\nshould go ask them the secret to their\nlong-lasting love.": ""
+  },
+  "35513": {
+    "<attr><feel_think_lv2><end_attr>Before you get married, your heart\npounds with hope and anxiety. But once\nwe're married, we can live together as\n<br>\na couple rather easily.  It's a pity\nthat the thrill is gone. Oh, no. I've\nalready complained to the travelers.": ""
+  }
+}

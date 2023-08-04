@@ -1,0 +1,272 @@
+{
+  "94127": {
+    "<pipipi_low>Huh?  I'm sorry, but it's not\nconvenient for us to go there right\nnow. We will refund your money, so\n<br>\nplease come back again after some\ntime.": ""
+  },
+  "10170002": {
+    "Eh? If you go southwest along the\nstreet from here, there is a tower\ncalled Glitter Windmill Tower. And\n<br>\nalso... On the other side of the Town\nof Orphea... - Orphea Region East... -\nIf you go east... - You will come to a\n<br>\nsettlement called Pipi's Inn.\nFurthermore... If you continue along\nthe road from there, you will reach a\n<br>\nvillage called Pukulet Village, where\nPukulipo and his friends live. If you\nhave never been there, it would be\n<br>\ngood to go there once.": ""
+  },
+  "94128": {
+    "However, I can only drop you off, not\npick you up.  If you don't mind, where\nwould you like to go?<name_off><select>\nPukulet Village\nPipi's Inn (Orphea Region East)\nOrpha Hill (House of the Samurai)\nGlitter Windmill Tower\nNo ride<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "10170001": {
+    "However, I can only drop you off, not\npick you up.  If you don't mind, where\nwould you like to go?<name_off><select>\nPukulet Village\nPipi's Inn (Orphea Region East)\nGlitter Windmill Tower\nNo ride<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "94129": {
+    "<attr><feel_happy_lv2><end_attr>Thank you very much.  I'll be leaving\nsoon.": ""
+  },
+  "94130": {
+    "Ah. You don't ride, do you?  If you\nhave a chance, please use us again.": ""
+  },
+  "94131": {
+    "<pipipi_low>Here you are.  I've arrived at Pipi's\nInn.  Well then, good bye.": ""
+  },
+  "94132": {
+    "<pipipi_low>Hello, ladies and gentlemen.  I have\narrived at Pukulet Village.  Then,\ngood-bye.": ""
+  },
+  "94133": {
+    "Ahh. It looks like you don't have\nenough money!  Please come back again\nwith money.": ""
+  },
+  "94134": {
+    "<%sL_TIMEI>I'm going to 25 gold.  I'll give you\n25 gold.<yesno><break>": ""
+  },
+  "94135": {
+    "I see. I'm sorry to hear that.  If you\nhave a chance, please use us again.": ""
+  },
+  "127394": {
+    "<pipipi_low>Here we are...  We've arrived at Orpha\nHill.  Well then, good-bye.": ""
+  },
+  "132711": {
+    "<pipipi_low>Here we are at the Great Sparkling\nWindmill Tower.  We have arrived at\nthe Glitter Windmill Tower.  Well\n<br>\nthen, good bye.": ""
+  },
+  "132722": {
+    "Good day to you. Traveler.  My name is\nPeddler Kraban.  I hope to make your\nacquaintance. My job is to carry the\n<br>\ngoods from the Town of Orphea to the\nvarious places with this wagon. I'm\nheading to Glitter Windmill Tower via\n<br>\nPukulet Village.  If you like, I can\ngive you a ride.<bw_break>": ""
+  },
+  "132723": {
+    "I'm heading to Glitter Windmill Tower\nvia Pukulet Village, but I was\nwondering if you have any business\n<br>\naround there.  If you like, I can give\nyou a ride.<bw_break>": ""
+  },
+  "132725": {
+    "Good day, travelers.  My name is\nPeddler Kraban.  I hope to make your\nacquaintance. My job is to carry the\n<br>\ngoods from the Town of Orphea to the\nvarious places with this wagon. I'm\nheading to Glitter Windmill Tower via\n<br>\nPipi's Inn and Orpha Hill.  If you\nwant, I can give you a ride.<bw_break>": ""
+  },
+  "132726": {
+    "I am heading to Glitter Windmill Tower\nvia Pipi's Inn and Orpha Hill, but I\nwas wondering if there is anything you\n<br>\nneed me to do around there.  If you\nwant, I'll give you a ride.<bw_break>": ""
+  },
+  "40323": {
+    "I am a photographer.  I felt the\nlimits of taking a Picture in the\ncity.  Now I take a Picture in the\n<br>\ngreat outdoors.": ""
+  },
+  "40324": {
+    "<attr><feel_sad_lv3><end_attr>I can't get up from my chair because\nof a monster's curse.  Please help me.\nPlease help me.": ""
+  },
+  "45078": {
+    "<pc>was Anywhere Cracker!": ""
+  },
+  "45079": {
+    "The sound of crackers echoed far and\nwide!": ""
+  },
+  "40328": {
+    "<attr><feel_happy_lv2><end_attr>Thank you very much.  Thanks to you, I\ncan move now.  Now I can do my job. I\nam a photographer.  I felt the limits\n<br>\nof taking a Picture in the city.  Now\nI take a Picture in the great\noutdoors.": ""
+  },
+  "40329": {
+    "Oh, you! At that time, I called a\npriest to lift the curse, and thanks\nto him, I was saved! My name is\n<br>\nMeroponesse, and I'm a photographer.\n I'm a photographer. My name is\nMelopones, and I've come to realize\n<br>\nthe limits of taking a Picture in the\ncity.  Now I take a Picture in the\ngreat outdoors. That's right. If it's\n<br>\nyou, perhaps...  Um... I have one\nfavor to ask. The monster that put a\ncurse on me stole something very\n<br>\nimportant.  It's the stick of a famous\nmage from long ago. It's a shadowy\nmonster that lives in Felaba Cave,\n<br>\nsouthwest of Orphea Region West.  It's\nso strong that I can't handle it. If\nyou don't mind, could you help me get\n<br>\nrid of the monster and get back my\nprecious walking stick?": ""
+  },
+  "40330": {
+    "<attr><feel_happy_lv2><end_attr>Oh. You are really kind.  I'm very\nimpressed. That's right. In order to\nsummon that monster, you'll need my\n<br>\nphoto machine, so I'll be on my way\nwhen I'm done.": ""
+  },
+  "40331": {
+    "Oh. You are really kind.  I'm very\nimpressed. You have a lot of favors to\nask of people.  Mine's not urgent, so\n<br>\nit can wait.": ""
+  },
+  "40332": {
+    "<attr><feel_sad_lv1><end_attr>Oh, I see. No, no, it's fine.  I don't\nwant to bother you with my personal\nbusiness.": ""
+  },
+  "40333": {
+    "The stick was stolen by a shadowy\nmonster that lives in Felaba Cave,\nsouthwest of Orphea Region West.<open_irai><bw_break>": ""
+  },
+  "40334": {
+    "Go to Felaba Cave, kill that monster,\nand get back your precious stick.<bw_break>": ""
+  },
+  "40335": {
+    "<close_irai>I will need my photographic equipment\nto summon the monsters.  I'll be on my\nway once I've finished my\n<br>\npreparations.": ""
+  },
+  "40336": {
+    "<attr><feel_sad_lv2><end_attr>I'm sorry. I was so scared I ran away.\nDo you remember where it is? It's in\nFelaba Cave, southwest of Orphea\n<br>\nRegion West.  I should be on my way.<open_irai>": ""
+  },
+  "40337": {
+    "<attr><feel_happy_lv2><end_attr>You would make a good model.  You must\nbe quite beautiful with your mage's\nwalking stick. By all means, let me\n<br>\ntake a Picture with you as my model at\nSilver Hill.  I'll be on my way to\nSilver Hill when I'm done getting\n<br>\nready.": ""
+  },
+  "40338": {
+    "<attr><feel_happy_lv2><end_attr>Now that I think about it, if I hadn't\nbeen cursed, I wouldn't have met you.\n Well, strange things do happen.\n<br>\nThanks to you, I was able to take the\nbest photographs, and I am now\nthinking from the bottom of my heart\n<br>\nthat it is a good thing that I have\ncontinued this work.": ""
+  },
+  "46004": {
+    "Ha-ha-ha. A girl who seems to be a\nlittle out of her depth sometimes\nmakes people laugh with her\n<br>\nunbelievable tricks.  It's nice to be\na lovable idiot. Hey, you. I think.  I\nthink that an idiot who can make\n<br>\npeople laugh with a bang can also save\nthem.": ""
+  },
+  "36219": {
+    "Ha-ha-ha. A little out of the ordinary\ngirl can make you laugh with her\nunbelievable tricks.  It's nice to be\n<br>\na lovable idiot. Hey, you. I think.  I\nthink that an idiot who can make\npeople laugh with a bang can also save\n<br>\nthem. Why don't you become such a\nminstrel?  If you are so inclined,\nbecome a level 10 minstrel or above\n<br>\nand come back here. After all, you are\na minstrel.  I hope you will at least\nuse the Bonk you learn at level 2 as a\n<br>\nminimum of a minimum requirement.": ""
+  },
+  "36220": {
+    "Ha-ha-ha. I'm here. I found it!\n Yo! Level 10 minstrels or above!\n You've got a good vibe, don't you? A\n<br>\ngirl with a little something out of\nthe ordinary can make people laugh\nwith her unbelievable tricks.  It's\n<br>\nnice to be a lovable idiot. Hey, hey,\nhey, hey, hey, hey, hey, hey, hey,\nhey, hey, hey, hey, hey, hey, hey. I\n<br>\nthink.  I think that an idiot who can\nmake people laugh with a bang can also\nsave them. Why don't you become my\n<br>\nNovice Minstrel and try to become such\na minstrel?  Let's save people with\nour tricks together. But first, you'll\n<br>\nhave to go through a rather clear\ntrial using the skill of Bonk.  Ha-ha-\nha. Will you try it?<yesno><break>": ""
+  },
+  "36221": {
+    "Ha-ha. I see. No, no, it's fine.  It's\nhard to spend your days doing ascetic\ntraining.  But you have a good thing.\n<br>\nWhat is the purpose of making people\nlaugh?  Think about it, think about\nit, think about it to the point of\n<br>\ndeath, and when you make up your mind,\nplease come back again.": ""
+  },
+  "36222": {
+    "Ha-ha. I see. I'm glad to hear that, I\nthink you'll be a good travel comedian\nwho can make us laugh with a bang, I\n<br>\nthink.  I think you'd make a good\nminstrel who can make people laugh\nwith a bang. You can leave the Town of\n<br>\nOrphea to the east, and then go to the\nOrphea Region East.<%sEV_QUE_NAME0>indicates object of desire, like, hate, etc<%nEV_QUE_T_NUM0>I like the idea of defeating them\nafter a successful Bonk. After\ndefeating them, you have to win the\n<br>\nbattle, right?  Ha-ha-ha. That sounds\nlike a trial, doesn't it?  I don't\nknow about this. I wonder if I should\n<br>\ntry it.": ""
+  },
+  "36223": {
+    "Nahaha. You're going to do it? That's\nright.  After all, I'm going to do it\nhere, aren't I?  I'm so happy. Well, I\n<br>\nhaven't heard his name yet.<pc>Nahaha. Nahaha. Nice name. If you\ncomplete this trial, you'll be my\napprentice.  You'll do your best,\n<br>\nright? You'll do your best.": ""
+  },
+  "36224": {
+    "Ha-ha. I see. I'm so happy.  You're\nreally fired up, aren't you?  I can\nfeel it. I've got too many favors to\n<br>\nask of you, you know!  This is...\nYou're funny.": ""
+  },
+  "36225": {
+    "Ha-ha. I see. I'm so happy.  Then, I\nwonder if I said I'm going to give up\non him.  Maybe, maybe... I got a\n<br>\nlittle carried away.  You have\nsomething good, don't you? You know,\nfor what purpose do you make people\n<br>\nlaugh?  Think about it, think about\nit, think about it to the point of\ndeath, and when you make up your mind,\n<br>\nplease come back again.": ""
+  },
+  "36226": {
+    "East out of the Town of Orphea, in Orphea Region East<%sEV_QUE_NAME0>indicates object of desire, like, hate, etc<%nEV_QUE_T_NUM0>I'm going to beat them.  After you\nhave decided on the minstrel's skill\nand Bonk.<open_irai><bw_break>": ""
+  },
+  "36227": {
+    "<close_irai>If you complete this trial, you will\nbe my disciple.  You'll do your best,\nright? You'll do your best, won't you?": ""
+  },
+  "36228": {
+    "Ha-ha-ha. You did it, didn't you?\n Success with the Bonk.<%sEV_QUE_NAME0>indicates object of desire, like, hate, etc<%nEV_QUE_T_NUM0>I guess I beat them all. Now you can\nbe my disciple, I guess.  Ha-ha-ha.\nI'm so happy. You're going to become a\n<br>\nbig minstrel, you know.  You'll become\neven stronger and tougher.  This is a\nsimple feeling I have.": ""
+  },
+  "36229": {
+    "Actually, I am now. I heard a\ntraveling comedian is missing.  A\nminstrel has gone missing, apparently.\n<br>\nIf it were true, I would solve the\ncase in a snap.  But I can't do that\nnow, can I? I got injured when I\n<br>\nfought a strong monster a long time\nago.  Since then, I can't fight\nanymore.  No, no, really, it's a pity.\n<br>\nI want you to protect those cute\nminstrels for me.  Ha-ha-ha. This is\nfor real. If you want to learn more\n<br>\ntricks as Novice Minstrel, become a\nminstrel and come back here again,\nwill you? Remember me.<pc>You can save people with your art.\n The art can save people, you know.": ""
+  },
+  "46005": {
+    "You are going to be a big minstrel.  I\nhope you come back as a level 15\nminstrel or above by the time I see\n<br>\nyou again. Ha-ha-ha. Remember this.\n You can save people with your art.": ""
+  },
+  "36230": {
+    "If you want to learn more about my art\nas Novice Minstrel, please become a\nminstrel of level 15 or above and come\n<br>\nback here. Ha-ha-ha. Remember this.\n You can save people with your art.": ""
+  },
+  "36231": {
+    "Ha-ha-ha. I'm here. I found it!\n Yo! The most popular minstrel of the\nmoment!  You've got a good vibe, don't\n<br>\nyou? It seems that minstrels are being\nattacked by monsters in Muruel Forest.\n It's a real bummer. There are rumors\n<br>\nthat a clown monster has been roaming\naround Muruel Forest lately.  I have a\nfeeling he's up to no good. Hey,\n<br>\nhey... can't you defeat him?  I'm sure\nit will be good for your training.\n How about it? Would you like to try?": ""
+  },
+  "36232": {
+    "Ha-ha. I see. I'm so happy.  Please\nprotect the minstrels for me. I'm\ncounting on you.": ""
+  },
+  "36233": {
+    "Ha-ha. I see. I'm so happy.  You're\nreally fired up, aren't you?  I can\nfeel it. I've got too many favors to\n<br>\nask of you, you know!  This is...\nYou're funny.": ""
+  },
+  "36234": {
+    "Ha-ha. I see. No, no, it's okay.  I\ndon't want to fight such a dangerous\nmonster.  It would be silly if I died\n<br>\nbecause of it. But if you're a\nminstrel who wants to go to the world,\nit's part of your art to make people\n<br>\nfeel at ease.  You'd do well to\nremember that.": ""
+  },
+  "36235": {
+    "There are rumors that a clown monster\nhas been roaming around Muruel Forest\nlately. Ha-ha-ha. I hope you can\n<br>\ndefeat him.  I'm sure it will be good\nfor your training.<open_irai>": ""
+  },
+  "36236": {
+    "Ha-ha-ha. You've done it, haven't you?\n I heard on the wind that you defeated\na monster.  You did it, didn't you?\n<br>\nYou did it, didn't you? With this,\nminstrels can rest easy for a while.\n Thanks a lot.<pc>I am very happy to be able to do this.\n This is a simple I feeling.": ""
+  },
+  "36237": {
+    "Well, I wonder what that clown-like\nmonster was all about? What? What?\nWhat?  Did you say his old master\n<br>\nPolfan?  He was called Gazer? Really?\nThat's amazing. I used to have a human\ndisciple named Gazer.  He left me a\n<br>\nlong time ago. I used to travel\naround, protecting people from\nmonsters and performing tricks.  I was\n<br>\nvery famous back then. I was so\nimpressed by his belief that one's art\ncan save others, that I took Gazer as\n<br>\nmy apprentice.  He was pretty good. I\nwas so impressed by his passion and\ntalent to save his sick mother with\n<br>\nhis funny tricks.  I taught him many\ntricks. I'm getting a little too\npassionate about it.  My mouth gets\n<br>\nlighter when it comes to Gazer.  I\nthink I'll leave it at that this time.\nYour talent is nothing like that.\n<br>\n Maybe you'll be as good as Gazer, if\nnot better. If you want to improve\nyour skills, become a level 20\n<br>\nminstrel or above and come back here\nagain. I'll be waiting for you.": ""
+  },
+  "36238": {
+    "<attr><feel_sad_lv1><end_attr>I was so impressed with Gazer's belief\nthat one's art can save others that I\ntook him on as an apprentice.  He was\n<br>\na very talented guy. I was so\nimpressed by his passion and talent to\nsave my mother's life with his funny\n<br>\ntricks.  I taught him many tricks.<bw_break>": ""
+  },
+  "46766": {
+    "Heh heh, I'm getting a little too hot\nfor my own good.  When you become a\nlevel 20 minstrel or above, please\n<br>\ncome back here again. Ha-ha-ha.\nRemember this.  You can save people\nwith your art.": ""
+  },
+  "46767": {
+    "Heh heh, I'm getting a little\npassionate about it. If you want to\nimprove your skills, become a level 20\n<br>\nminstrel or above and come back here\nagain. Ha-ha-ha. Remember this.  You\ncan save people with your art.": ""
+  },
+  "36239": {
+    "Ha-ha-ha. I'm here. I found it!\n Hello! A minstrel with an overflowing\naura!  You've got some style, don't\n<br>\nyou? Now you're qualified.  You are\nqualified to undergo training to see\nthe essence of your art.  The old\n<br>\nGazer couldn't stand it. What a\nsurprise!  They're in Orphea Region\nEast.<%sEV_QUE_NAME0>indicates object of desire, like, hate, etc<%nEV_QUE_T_NUM0>I'm going to have to train myself to\nbeat them. What do you think? Would\nyou like to try?": ""
+  },
+  "36240": {
+    "Ha-ha. I see. I'm so happy.  Please\ncomplete your training properly.  Then\nyou will surpass your brothers.": ""
+  },
+  "36241": {
+    "Ha-ha. I see. I'm so happy.  You're\nreally fired up, aren't you?  I can\nfeel it. I've got too many favors to\n<br>\nask of you, you know!  This is...\nYou're funny.": ""
+  },
+  "36242": {
+    "Ha-ha. I see. No, no, it's okay.  Even\nmy brother Gazer couldn't do it.  It's\nnatural to shy away from it. But it's\n<br>\nonly when you go through all kinds of\ntraining that you've created a weight\nto your art.  Remember that.": ""
+  },
+  "36243": {
+    "What I need you to do now is\n Orphea Region East<%sEV_QUE_NAME0>indicates object of desire, like, hate, etc<%nEV_QUE_T_NUM0>I'm going to train myself to defeat\nthem.<open_irai><bw_break>": ""
+  },
+  "36244": {
+    "If you complete this trial, you will\nsurpass your brother Gazer, right?\n You'll do your best, right? You'll do\n<br>\nyour best, won't you?": ""
+  },
+  "36245": {
+    "That monster<%nEV_QUE_T_NUM0>I guess I beat them all.  Wow, that's\namazing. That's crazy.  It's like you\nare a professional minstrel. With\n<br>\nthis, you're one step closer to\nbecoming a legend.  Ha-ha-ha. I'm so\nhappy. You're going to be a big\n<br>\nminstrel, you know.  You'd better get\nstronger and tougher.  This is a\nsimple sentiment from I.": ""
+  },
+  "36246": {
+    "I don't know. Wasn't the training\nhard?  Hmmm? What's wrong?  You look\nlike you've been there before. You\n<br>\nlook like you've been there. Did you\nmeet Gazer?  That's a surprise. Did he\ncall me a scum comedian who can't even\n<br>\nsave a single person? I'm surprised.<pc>You know what? I used to have a great\nbattle with a monster called Relulu\nLelouch, the Reluctant Relic, with\n<br>\nGazer. Both of us got badly injured\nand we drew.  While I was fighting,\nGazer's mother's illness became very\n<br>\nserious.<bw_break>": ""
+  },
+  "36247": {
+    "I was badly injured and battered, but\nI did all kinds of tricks in front of\nyour mother.  But she didn't make it.\n<br>\nGazer was Angry because he lost his\nmother.  I told you that tricks can\nsave people.  He said that tricks are\n<br>\npowerless. I haven't seen Gazer since\nthen.  I couldn't save his heart.  But\nyou, you can. Ha-ha-ha. You should be\n<br>\nstronger.<pc>I'm still expecting a lot from you.\n Even so, I have high expectations for\nyou. If you want to improve your\n<br>\nskills further, become a minstrel of\nlevel 25 or above and come back here\nagain. I'm sure you will.": ""
+  },
+  "36248": {
+    "Gazer was Angry when he lost his\nmother.  I told you that tricks can\nsave people.  He said that tricks are\n<br>\npowerless. I haven't seen Gazer since\nthen.  I couldn't save his heart.  But\nyou, you can.<bw_break>": ""
+  },
+  "46768": {
+    "Nahaha. You should be stronger.<pc>I hope you will come back here again\nwhen you are a level 25+ traveling\nentertainer.  When you become a level\n<br>\n25+ minstrel, please come back here\nagain. Ha-ha-ha. Remember this.  You\ncan save people with your art.": ""
+  },
+  "46769": {
+    "Nahaha. You should be stronger.<pc>I'm still expecting a lot from you.\n Even so, I have high expectations for\nyou. If you want to further improve\n<br>\nyour skills, become a minstrel of\nlevel 25 or above and come back here\nagain. Ha-ha-ha. Remember this.  You\n<br>\ncan save people with your tricks.": ""
+  },
+  "36250": {
+    "Ha-ha-ha. I'm here. I found it!\n Hey..! Now everyone turns to\nminstrels!  Your tricks might just\n<br>\nmake an impression. I couldn't save\nGazer's heart.  He's right, I may be\npowerless to save anyone. But I can't\n<br>\nmiss the fact that Gazer's resentment\nat not being able to save his mother\nwas vindicated by killing a minstrel.<pc>I wish he would wake up. I wish he\nwould wake up. He's in Pura's Cave\nnow.  Southeast of Orphea Region East.\n<br>\nHa-ha-ha. He's a man who loves tricks,\nisn't he?  Can't you use the\nminstrel's skill in battle to defeat\n<br>\nhim and bring him back to his senses?": ""
+  },
+  "36251": {
+    "Ha-ha-ha. You are an excellent pupil.\n If he still has his pride as a\nminstrel, he should be able to\n<br>\nunderstand his apprentice's desperate\nBonk.": ""
+  },
+  "36252": {
+    "Ha-ha. I see. I'm so happy.  You're\nreally fired up, aren't you?  I can\nfeel it. I've got too many favors to\n<br>\nask of you, you know!  This is...\nYou're funny.": ""
+  },
+  "36253": {
+    "I see. I'm sorry to hear that.  His\nhatred for the arts is just a\npretense.  He is keeping it away from\n<br>\nhimself. In order to make her heart be\ntouched, someone has to remind her of\nher love for gei.  You are the only\n<br>\none who can do that.": ""
+  },
+  "36254": {
+    "I understand Gazer's resentment toward\nI, but I can't overlook the act of\nkilling a minstrel.<pc>I wish he would wake up. I wish he\nwould wake up. He's in Pura's Cave\nnow.  Southeast of Orphea Region East.<open_irai><bw_break>": ""
+  },
+  "36255": {
+    "<close_irai>Ha-ha. He is a man who loves tricks,\nisn't he?  During the battle, he\nshould make a Bonk, a minstrel's\n<br>\nskill, to defeat him and bring him\nback to his senses.": ""
+  },
+  "36256": {
+    "How was Gazer? Oh, yeah.  He's\nregained his love of his craft.  He\nreturned to his minstrel ways at the\n<br>\nend of his life and left. I'm sorry.\nI'm sorry... I'm sorry...  I'm sorry I\nshed a tear or something.  I've become\n<br>\nold. I must have aged a long time.<bw_break>": ""
+  },
+  "36257": {
+    "Thanks a lot<pc>I saved your brother and son.  For you\nwho saved my brother, I'll teach you\nmy best secret technique.  I'll teach\n<br>\nyou my best-kept secret.": ""
+  },
+  "36258": {
+    "Thanks a lot<pc>I have to thank you for saving my\nbrothers and sisters.  I have to thank\nyou for saving my brother's life,\n<br>\ndon't I?": ""
+  },
+  "36259": {
+    "To tell you the truth, I used to spin\naround with a master who wanted to\nmake people happy with his art. On\n<br>\nthat journey, there was a monster who\nsympathized with the master's beliefs\nand loved performing arts.  He was my\n<br>\nbrother Lulu Lulu Leach. LuluLuchi had\na natural talent and worked hard to\nbecome a legendary minstrel.  But one\n<br>\nday, he became someone else. One day,\nhe decided to kill his master with his\nown hands and wipe out all minstrels\n<br>\nfrom the world.  He started killing\nminstrels everywhere. In order to stop\nhis ambition, I challenged Relulu\n<br>\nRelulu to a fight, but I couldn't\ndefeat him and both of us got\nseriously injured. But now that you've\n<br>\nregained your heart to Gazer, I'm sure\nyou'll be able to defeat him.  Ha-ha-\nha. This is for real. When your mind\n<br>\nis made up and you're ready to defeat\nLulu Lelouch, please become a level\n30+ minstrel and come back here.": ""
+  },
+  "36260": {
+    "One day, my brother Lulu Leach became\na different person.  He killed his\nmaster and started killing minstrels.\n<br>\nIn order to stop his ambition, I\nchallenged Relulu Lulu to a fight, but\nI couldn't beat him and both of us got\n<br>\nhurt badly. Ha-ha-ha. I'm sure you,\nwho regained your heart to Gazer, will\nbe able to defeat him.<pc>I believe in you. I believe in you.<bw_break>": ""
+  },
+  "46770": {
+    "When you get stronger and stronger and\nbecome a level 30+ minstrel, please\ncome back here again. Ha-ha-ha.\n<br>\nRemember this.  You can save people\nwith your art.": ""
+  },
+  "46771": {
+    "When your mind is made up and you are\nready to defeat Lulu Lelouch, please\ncome back here as a level 30+\n<br>\nminstrel. Ha-ha-ha. Remember this.\n You can save people with your art.": ""
+  },
+  "36261": {
+    "That's amazing. You are shining just\nstanding there.  You may have already\nsurpassed I.  He has the aura of a\n<br>\nfirst-class performer, doesn't he? By\nthe way, did you know that deep in\nMegilaza Cave in the south of\n<br>\nMegistris Territory, a very powerful\nmonster has appeared? There is no need\nfor tricks to bring hope for life in\n<br>\nthis world!  Let us exterminate the\nminstrels and fill the world with\ndespair!  Let's kill the travelers and\n<br>\nfill the world with despair! I think\nit's probably Lulu Leach.  I think he\ncame out after Gazer disappeared.  We\n<br>\ncan't just leave it like that. The guy\nwho went to take down Relulu Lulu\nLeech got his ass handed to him.<pc>I guess there is no one else in the\nworld. I hope we can defeat him and\nmake the world a place where cute\n<br>\nminstrels can do their tricks with a\nsmile on their faces.<pc>Of course you do. Of course you will,\nwon't you?": ""
+  },
+  "36262": {
+    "Nahaha. You're going to do it? That's\nright.  After all, I'm going to do it\nhere, aren't I?  I'm so happy. Even I\n<br>\ncouldn't beat Relulu Relulu.<pc>Then.  Na-ha. You'll do your best,\nright? You'll do your best, won't you?": ""
+  },
+  "36263": {
+    "Ha-ha. I see. I'm so happy.  You're\nreally fired up, aren't you?  I can\nfeel it. I've got too many favors to\n<br>\nask of you, you know!  This is...\nYou're funny.": ""
+  },
+  "36264": {
+    "Ha-ha. I see. I'm so happy.  Then, I\nwonder if I said I'm going to give up\non him.  Maybe, just maybe....  I\n<br>\nwonder if I'm going to do that kind of\ngag here. If you don't do it,\nminstrels will be too scared to do\n<br>\ntricks.  When you make up your mind,\nplease come back again.": ""
+  },
+  "36265": {
+    "Nahaha. How are you? I'm fine, I hope.\n I'm going to defeat the Relulu\nRelulu, a dark performer, deep in\n<br>\nMegilaza Cave, south of Megistris\nTerritory.<open_irai><bw_break>": ""
+  },
+  "36266": {
+    "<close_irai>I couldn't have beaten him<pc>Then you'll be fine.  Ha-ha-ha. You'll\ndo your best, right? You'll do your\nbest, won't you?": ""
+  },
+  "36267": {
+    "Ha-ha-ha. You've done it.  You're\nreally something, aren't you?  You\nbeat Relulu Relulu, the Relulu Relulu\n<br>\nRelulu Relulu Relulu. I wonder how big\nyou'll get.  Ha-ha-ha. I'm looking\nforward to it.  This is just a simple\n<br>\nfeeling I have.": ""
+  },
+  "36268": {
+    "Many minstrels lose their faith before\nthey reach the Comedy's Height.\nTraining is hard, and even if you try\n<br>\nto be funny, it may not be well\nreceived by the world.  But, you know,\nthat kind of hurdle is just fine and\n<br>\ndandy. Someone who doesn't care about\nany of that, who can put all his\npassion into making people laugh.  I\n<br>\nthink it's idiots like that who will\ntake the world by storm.<pc>I'd love to see it sometime. Show me\nsometime.  Show me one day the art of\na fool who has reached the Comedy's\n<br>\nHeight.  If you can do that, you'll be\ncalled a legendary minstrel.": ""
+  },
+  "36269": {
+    "It's hard work, and even if you try to\nbe funny, sometimes it doesn't go over\nwell with the world.  But, hey, that's\n<br>\na hurdle, and that's fine and dandy.\nSomeone who doesn't have a problem\nwith all of that, who can put all of\n<br>\nhis passion into making people laugh.\n I think it's idiots like that who\nwill take the world by storm.<pc>I'd love to see it sometime. Show me\nsometime.  Show me one day the art of\na fool who has reached the Comedy's\n<br>\nHeight.  If you can do that, you'll be\ncalled a legendary minstrel.": ""
+  }
+}

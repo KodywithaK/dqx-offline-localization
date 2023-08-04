@@ -1,0 +1,416 @@
+{
+  "100307": {
+    "<pc>Mr. Tiede.  We have an item for you\nfrom a man by the name of Mr. Teedo.\nPlease accept this item!": ""
+  },
+  "100308": {
+    "<pc>Mr. Tiede.  We have an item for you\nfrom a man by the name of Mr. Teedo.\nHowever, it seems that you are unable\n<br>\nto hold it for now.  Please organize\nyour items and come back again.": ""
+  },
+  "93919": {
+    "<pc>school (eg of ikebana)<%sEV_ITEM>I've got it!<se_nots System Item>": ""
+  },
+  "74737": {
+    "Thank you very much for your business.\nBy the way, we have received a special\nrequest regarding the Rendasia\n<br>\nlandings. Shall I explain what it is?<yesno><break>": ""
+  },
+  "74738": {
+    "Thank you very much. We look forward\nto working with you again in the\nfuture.": ""
+  },
+  "74739": {
+    "We recently received word that the\nGrand Titus, the liner connecting\nLendore and Lendersia, has been\n<br>\nrepaired and is ready to sail.\nHowever, in order to land in Rendasia,\nwe must cross the purple mist of the\n<br>\nLost Fog, which is said to lead all\nwho enter astray and drown them in the\nsea. After searching for a way to\n<br>\ncounter the fog, they discovered that\nthey could reach Lendersia by using a\nspecial compass called the Magic\n<br>\nCompass. However, to create the magic\ncompass, we would need a large amount\nof special materials, so we asked for\n<br>\nthe cooperation of a few talented\nadventurers to help us gather these\nmaterials. What are the special\n<br>\nmaterials?<%sEV_QUE_NAME4>is\n just (eg \"just try it\")<%sEV_QUE_NAME5>and a mysterious stone called the\nInfinite Magnetite. If you fulfill\nthis request, you will be on your way\n<br>\nto Lendersia.<pc>Dear. Would you be willing to accept?": ""
+  },
+  "74740": {
+    "Thank you very much.<%sEV_QUE_NAME4>and<%sEV_QUE_NAME5>school (eg of ikebana)<pc>You may obtain it in any way you like.\nInfinite magnetic stones are<%sEV_QUE_NAME0>If you beat the\n You can pick it up for sure<%sEV_QUE_NAME1>Then they say you can pick them up by\nknocking down a few.": ""
+  },
+  "74741": {
+    "When you have all the materials,\nplease bring them immediately to any\ninnkeeper in any town.<pc>I pray that you will be able to safely\nobtain the materials for your magic\ncompass.": ""
+  },
+  "74742": {
+    "Thank you very much.  I would like to\nsay thank you very much, but it seems\nthat you have a lot of requests. I\n<br>\nwould like to thank you again for your\nkindness, but it seems that you have a\nlot of requests.": ""
+  },
+  "74743": {
+    "I will be happy to help you.  If you\nchange your mind, please let us know.": ""
+  },
+  "74744": {
+    "and then<pc>Dear Sir.  I would appreciate your\nhelp in collecting materials for the\nmagic compass of the Grand Titus.<open_irai>": ""
+  },
+  "74745": {
+    "Welcome home<pc>Dear Sir or Madam.  I trust that you\nhave brought with you all the\nmaterials for the magic compass?": ""
+  },
+  "74746": {
+    "I apologize for this.  The information\ndesk at the innkeeper's office in any\ntown will be happy to help you.": ""
+  },
+  "74747": {
+    "Thank you very much.  We have indeed\nreceived your package!  Now, please\naccept this one.": ""
+  },
+  "74748": {
+    "You can exchange your boarding pass\nvoucher for one by presenting it to\nDirector Sugim at the Ship Management\n<br>\nOffice, south of the port city of\nRendor. With the boarding pass, you\ncan board the Grand Titus and depart\n<br>\nfor the land of Rendasia.  Do you\nunderstand the above process?<yesno 2><break>": ""
+  },
+  "74749": {
+    "Thank you very much.  We have indeed\nreceived your package!  Now, please\naccept this one.": ""
+  },
+  "81087": {
+    "Let me explain again.  What I just\nhanded you is a boarding pass exchange\nticket.<bw_break>": ""
+  },
+  "81088": {
+    "finally<pc>The time of your departure is\napproaching.  Have a good trip.": ""
+  },
+  "74750": {
+    "To this usher<%sEV_QUE_NAME4>one<%sEV_QUE_NAME5>and an infinite number of magnetic\nstones?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "74751": {
+    "<pc>to the usher<%sEV_QUE_NAME4>for\none<%sEV_QUE_NAME5>I gave him five of my \"I\" and an\ninfinite number of magnetic stones!": ""
+  },
+  "43978": {
+    "This is a gold bank of love and trust.\n We will keep your precious gold for\nfree. Anyone can use this service\n<br>\nafter completing the admission\nprocedure at a gold bank in a large\ntown.": ""
+  },
+  "43979": {
+    "This is a gold bank of love and trust.\n We will keep your precious gold for\nfree. You are a first-time customer of\n<br>\nGold Bank?  This is your first time to\nuse our Gold Bank, isn't it? If so,\nplease take a moment to complete the\n<br>\nenrollment process.<%sEV_QUE_NAME0>Please bring with you a gift called\nSparkle Ink, which will be dropped off\nby the Once you've enrolled, you'll\n<br>\nhave access to all of our gold banks\nnationwide.  How about that? Can you\ndo that for me?": ""
+  },
+  "43980": {
+    "Thank you very much.  I was hoping you\nwould accept. What is your name, sir?<pc>Are you here? Yes, I am. We have\nindeed registered it.  Now you can\ngive whatever you have to any bank in\n<br>\nany town. Good day.<pc>Dear Mr.  Have a safe trip.": ""
+  },
+  "43981": {
+    "Thank you very much.  However, it\nseems that you have a lot of requests.\nI am very sorry.  Please finish your\n<br>\nother requests before coming back\nagain.": ""
+  },
+  "43982": {
+    "I see.  Well then, if you ever need to\nuse the Gold Bank of Love and Trust,\nplease come back again.": ""
+  },
+  "43983": {
+    "Well, well, well<pc>Dear Sir or Madam.  Welcome to the\nGold Bank of Love and Trust.  Did you\nfind what you were looking for?\n<br>\nSparkling Ink<%sEV_QUE_NAME0>It is a very valuable item that can\nonly be obtained by defeating the<open_irai><bw_break>": ""
+  },
+  "43984": {
+    "<%sEV_QUE_NAME0>If so, it's here in this area, east of\nGlen Territory.<bw_break>": ""
+  },
+  "43985": {
+    "<%sEV_QUE_NAME0>If so, it is found in the Aztlan\nregion.<bw_break>": ""
+  },
+  "43986": {
+    "<%sEV_QUE_NAME0>If so, it's found in this area, east\nof Orphea.<bw_break>": ""
+  },
+  "43987": {
+    "<%sEV_QUE_NAME0>If so, it is found in the Laneham\nGreenfield in this area.<bw_break>": ""
+  },
+  "43988": {
+    "<%sEV_QUE_NAME0>If so, it's found in this area on the\nMogalim Road.<bw_break>": ""
+  },
+  "43989": {
+    "<%sEV_QUE_NAME0>If so, they can be found east of the\nOrfea region on the Pucland continent\nand east of Glen Territory on the\n<br>\nOrgreid continent.<bw_break>": ""
+  },
+  "43990": {
+    "Once you have successfully obtained\nthe item, you can drop it off at any\ngold bank in town.<close_irai><bw_break>": ""
+  },
+  "43991": {
+    "in which case<pc>Dear Mr.  Have a safe trip.": ""
+  },
+  "44250": {
+    "<%sEV_QUE_NAME0>If so, it lives in the eastern part of\nGlenn Territory.<bw_break>": ""
+  },
+  "43992": {
+    "Well, well, well<pc>Dear Sir or Madam.  Welcome to the\nGold Bank of Love and Trust.  Did you\nfind what you were looking for?": ""
+  },
+  "43993": {
+    "Once you have successfully obtained\nthe item, you can drop it off at any\ngold bank in town. Good day.<pc>Dear Sir or Madam.  Have a safe trip.": ""
+  },
+  "43994": {
+    "This deep, lustrous black.  It is\ndefinitely the sparkling ink we have\nbeen looking for.<bw_break>": ""
+  },
+  "43995": {
+    "Thank you very much!  I have indeed\nreceived your signature! This\nsignature written in sparkling ink\n<br>\nwill never blur or become faint over\ntime. We do not want your signature to\nfade away and you will never know how\n<br>\nmuch you have deposited. It is our\nmission as a gold bank to perfectly\nsafeguard your precious gold. We will\n<br>\nstart today.<pc>We will take full responsibility for\nyour gold.": ""
+  },
+  "43997": {
+    "Thank you very much for your interest.\n All Gold Bank Employees<pc>We look forward to serving you.": ""
+  },
+  "44141": {
+    "in which case<pc>Dear Sir or Madam.  Would you be so\nkind as to sign this document using\nthis sparkling ink?<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "44142": {
+    "Please don't say that!  The membership\nprocess is not complete without your\nsignature.<bw_break>": ""
+  },
+  "44001": {
+    "Would you like me to give you some\nsparkling ink?<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "43998": {
+    "<pc>The \"Mere Old Man\" handed over the\nsparkling ink!": ""
+  },
+  "43999": {
+    "<pc>signed the application for membership.": ""
+  },
+  "44000": {
+    "<pc>is now available through Gold Bank!": ""
+  },
+  "48561": {
+    "I see that you have registered your\naccount.  The Travel Concierge is here\nto support you as an adventurer.\n<br>\nHowever, registration is limited to\nlevel 15 and above. Please make sure\nyou have reached level 15 before\n<br>\napplying.": ""
+  },
+  "48562": {
+    "I see that you have registered your\naccount.  The Travel Concierge is here\nto assist you in your adventures.\n<br>\nWould you like to learn more about our\nservices before registering?<yesno><break>": ""
+  },
+  "48563": {
+    "Let me introduce you to some of the\nservices we offer. First of all, we\noffer an Adventurer's Bracket Service!\n<br>\n If you bring in a ticket, you will be\nable to win a prize. And then there is\nthe Travel Guide Service!  This\n<br>\nservice provides information on travel\ndestinations and available quests. We\nalso offer a variety of other\n<br>\nservices, all of which are free of\ncharge, of course.<bw_break>": ""
+  },
+  "48564": {
+    "I see. Then I will explain later.<bw_break>": ""
+  },
+  "48565": {
+    "We would like to start the procedure\nright away, but.... At the request of\nour general manager, we ask that you\n<br>\ndeliver one of the designated items\nwhen you register to use our service.<%sEV_QUE_NAME0>Can you bring the ore called\nAstornium, which is often dropped by\nthose who defeat the \"Mere Old Man\",\n<br>\nto our office?": ""
+  },
+  "48568": {
+    "Thank you very much.  Now, would you\nplease tell us the name of your\ncustomer? Yes, I do.<pc>I see that your name has been received\nand recorded in our network.  We have\nindeed received your name and recorded\n<br>\nit in the association network. You can\nnow give the Astornium you have\nobtained to any information desk in\n<br>\nany town for subsequent registration.<pc>We pray that you will be able to\nobtain Astornium safely.": ""
+  },
+  "48569": {
+    "Thank you very much.  However, it\nseems that you already have a lot of\nrequests. Please don't be too hard on\n<br>\nyourself.  Please do so after you have\ncompleted your other requests.<bw_break>": ""
+  },
+  "48570": {
+    "Yes, sir. Then please let us know when\nyou need our services.<end>": ""
+  },
+  "48571": {
+    "<pc>You will be asked to bring your\nAstornium to register for the Travel\nConcierge service. The Astornium is<%sEV_QUE_NAME0>The ore is often dropped by those who\ndefeat the<open_irai><bw_break>": ""
+  },
+  "48572": {
+    "On this continent, from the east side of Glen Castle Town\n Just outside the east side of Glen Territory<%sEV_QUE_NAME0>It seems that you can meet the<bw_break>": ""
+  },
+  "48573": {
+    "On this continent, from the Windy City of Azran\n Just outside of the Aztlan region<%sEV_QUE_NAME0>It seems that you can meet the<bw_break>": ""
+  },
+  "48574": {
+    "On this continent, from the east side of the town of Orfea\n Just east of the Orfea region<%sEV_QUE_NAME0>It seems that you can meet the<bw_break>": ""
+  },
+  "48575": {
+    "In the archipelago, from the town of Jourette, just south of the town of Jourette\n Just off the coast of Meuse<%sEV_QUE_NAME0>It seems that you can meet the<bw_break>": ""
+  },
+  "48576": {
+    "On this continent, from the capital Gatara\n Just outside the Gatara Plains<%sEV_QUE_NAME0>It seems that you can meet the<bw_break>": ""
+  },
+  "48577": {
+    "<%sEV_QUE_NAME0>The \"Gatara\" can be found in the windy\ncity of Azran, the castle town of\nGlen, the town of Orfea, the town of\n<br>\nJuret, the mountain city of Gatara,\nthe east of Glen in the Azran region,\nthe east of Orfea in the Muse Coast,\n<br>\nand the Gatara Plains, all of which\nare adjacent to the town of Gatara.<bw_break>": ""
+  },
+  "48578": {
+    "If you have astornium, please bring it\nto any innkeeper in any town as soon\nas you have it.<close_irai><bw_break>": ""
+  },
+  "48579": {
+    "<pc>We pray that you will be able to\nobtain Astornium safely.<end>": ""
+  },
+  "48580": {
+    "<pc>You are required to bring your\nAstornium in order to register for the\nTravel Concierge service. If you have\n<br>\nnot brought your Astornium, please do\nso.": ""
+  },
+  "48581": {
+    "I apologize for this.  The information\ndesk at the innkeeper's office in any\ntown will be happy to help you.<pc>We pray that you will be able to\nobtain Astornium safely.<end>": ""
+  },
+  "48582": {
+    "Thank you very much.  I did indeed\nreceive the astornium!<bw_break>": ""
+  },
+  "48583": {
+    "well<pc>Dear Sir or Madam.  First of all,\nplease listen to what our General\nManager has to say to you. Yes, sir.\n<br>\n You are powerful enough to acquire\nastornium.  I am deeply impressed! In\nthe name of the General Manager.<pc>Courtesy of the World Association of\nInnkeepers!  We are pleased to grant\nyou access to our Travel Concierge.\n<br>\nPlease use the Travel Concierge and\nmake use of it for your adventures. We\nlook forward to your continued\n<br>\npatronage of our association! That's\nall. Your registration is now\ncomplete.  From now on, you are free\n<br>\nto use the services of the Travel\nConcierge.": ""
+  },
+  "48586": {
+    "The Astornium you brought is to be\ndelivered to the General Manager. I\nhave no particular use for this ore,\n<br>\nand I don't know what the General\nManager's intentions are, but I will\nbe responsible for sending it to him.\n<br>\nI hope you enjoy your adventurous life\nwith our concierge service!": ""
+  },
+  "48587": {
+    "Would you like me to give the\nAstornium to this usher?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "48588": {
+    "<pc>gave the astornium to the usher!": ""
+  },
+  "61924": {
+    "<if_npc_man>You can do this at the Adventurer's\nTavern. At the Adventurer's Tavern,\nyou can ask your friends to help you\n<br>\nwith the Request to Defeat quests. But\nit can't be just anyone.  I'd like to\nask you for a job.<%sEV_QUE_NAME4>I'll give you access to the bar. I'll\ngive you access to the bar. Actually,\nmy owner asked me to do it, but I\n<br>\ncan't leave the bar unoccupied.  How\nabout it? Will you do it?<else>Welcome to the Adventurer's Tavern.\nThe Adventurer's Tavern allows you to\nask your friends to help you with your\n<br>\nRequest to Defeat quests. But it's not\nfor everyone.  I have a job for you.<%sEV_QUE_NAME4>I want you to bring me one of your\nown. Then I will give you access to\nthe bar. Actually, my owner asked me\n<br>\nto do it, but I can't leave the saloon\nunattended.  How about it? Will you\ntake it?<endif>": ""
+  },
+  "61925": {
+    "<if_npc_man>Oh, you'll take care of it!  That's\nwhat I'm talking about!<%sEV_QUE_NAME4>is sold by Nady, a materials dealer in\nthe Lamp Smelting Guild on the\nrecreation island of Raccaran. Well, I\n<br>\ndon't know if they sell it anywhere\nelse. I got it.<%sEV_QUE_NAME4>You can give the \"M\" to any introducer\nin any town.  Then, I'm looking\nforward to working with you.<else>Oh, so you'll take care of it!  That's\nthe way to do it!<%sEV_QUE_NAME4>Nadi, the materials dealer in the Lamp\nSmelting Guild on the recreation\nisland of Raccaran, sells it. Well,\n<br>\nmaybe they sell it elsewhere, too? I\ngot it.<%sEV_QUE_NAME4>You can give the \"M\" to any introducer\nin any town.  Then, please take care\nof it.<endif>": ""
+  },
+  "61926": {
+    "<if_npc_man>Oops. You are full of requests.  If\nthat's the case, please come back\nafter you've taken care of the other\n<br>\nrequests.<else>Oh? But you are full of requests from\nother people, aren't you?  You'd\nbetter put those things away before\n<br>\nyou come.<endif>": ""
+  },
+  "61927": {
+    "<if_npc_man>Well, that's too bad.  But if you ever\nwant to use the Adventurer's Tavern,\nyou can come anytime. I'll be waiting\n<br>\nfor you.<else>Oh, that's too bad.  But if you ever\nwant to use the Adventurer's Tavern,\njust drop by anytime. I'll be waiting\n<br>\nfor you.<endif>": ""
+  },
+  "49809": {
+    "<if_npc_man>You can do this at the Adventurer's\nTavern. The Adventurer's Tavern will\nallow you to ask your friends to do\n<br>\nthe Request for Defeat quests for you.\nIf you complete one of these tasks,\nyou will be able to use the tavern as\n<br>\nwell. Nadi, the materials dealer on\nthe recreational island of Raccaran,\nwill give you the following<%sEV_QUE_NAME4>The owner of the bar asked me to get\nhim a bottle of wine. Actually, our\nowner asked me to do it, but I can't\n<br>\nleave the bar unattended.  How about\nit? Will you do it?<else>Welcome to the Adventurer's Tavern.\nThe Adventurer's Tavern allows you to\nask your friends to help you with the\n<br>\nRequest to Defeat quests. If you\ncomplete one of the tasks, you will be\nable to use the tavern. Nadi, the\n<br>\nmaterials dealer on the entertainment\nisland of Rakkaran.<%sEV_QUE_NAME4>The owner of the bar asked me to pick\nup a bottle of wine for him. Actually,\nour owner asked me to do it, but I\n<br>\ncan't leave the bar unattended.  How\nabout it? Will you take the job?<endif>": ""
+  },
+  "49810": {
+    "<if_npc_man>Will you take care of it? I'll take\ncare of it.  Nady the material man is\nat the Lampsmith's Guild in Rakkaran.\n<br>\nAnd I bought this.<%sEV_QUE_NAME4>You can give the \"M\" to any introducer\nin any town.  Then, I'll be looking\nforward to working with you.<else>You're taking care of it. Good!  Nady\nthe material man is at the Lampsmith's\nGuild in Rakkaran. Also, I bought\n<br>\nthis.<%sEV_QUE_NAME4>You can give the \"M\" to any introducer\nin any town.  Then, please take care\nof it.<endif>": ""
+  },
+  "49811": {
+    "<if_npc_man>Oops. You are full of requests.  If\nthat's the case, please come back\nafter you've taken care of the other\n<br>\nrequests.<else>Oh? But you are full of requests from\nother people, aren't you?  You'd\nbetter put those things away before\n<br>\nyou come.<endif>": ""
+  },
+  "49812": {
+    "<if_npc_man>Well, that's too bad.  But if you ever\nwant to use the Adventurer's Tavern,\nyou can come anytime. I'll be waiting\n<br>\nfor you.<else>Oh, that's too bad.  But if you ever\nwant to use the Adventurer's Tavern,\njust drop by anytime. I'll be waiting\n<br>\nfor you.<endif>": ""
+  },
+  "61928": {
+    "<if_npc_man><%sEV_QUE_NAME4>Bring me one of the following.  You\ncan buy it from Nadi, a materials\ndealer in Raccaran.  You may be able\n<br>\nto find it elsewhere.<open_irai><bw_break><else><%sEV_QUE_NAME4>Bring me one of the following.  You\ncan buy it from Nadie, a material\nsupplier in Raccaran.  You may also be\n<br>\nable to find it elsewhere.<open_irai><bw_break><endif>": ""
+  },
+  "61929": {
+    "<if_npc_man>after<%sEV_QUE_NAME4>You can give the \"I\" to any introducer\nin any town.<bw_break><else>after<%sEV_QUE_NAME4>You can give the \"I'm a member of the\ncommunity\" to any introducer in any\ntown.<bw_break><endif>": ""
+  },
+  "61930": {
+    "<if_npc_man><close_irai>If you fulfill this request, you will\nbe able to use the Adventurer's\nTavern.  Well then, I'm counting on\n<br>\nyou.<else><close_irai>If you fulfill this request, I'll let\nyou use the Adventurer's Tavern.  Well\nthen, I'm counting on you.<endif>": ""
+  },
+  "61931": {
+    "<if_npc_man>it appears that<%sEV_QUE_NAME4>I see you've brought me some of your\nown.  Then, can you give me one of\nthem?<yesno><case 1><close><case 2><break><case_cancel><break><case_end><else>it appears that<%sEV_QUE_NAME4>I see you've brought me one.  Then,\ncan you give me one of them?<yesno><case 1><close><case 2><break><case_cancel><break><case_end><endif>": ""
+  },
+  "61932": {
+    "<if_npc_man>What is it? The.<%sEV_QUE_NAME4>Is it for yourself? If so, I don't\nblame you, but please bring me my\norder as soon as possible.<else>Oops. The...<%sEV_QUE_NAME4>So, the \"1\" is for yourself, huh? If\nthat's the case, I don't have any\nchoice but to bring the one I asked\n<br>\nfor as soon as possible.<endif>": ""
+  },
+  "61933": {
+    "<if_npc_man>Sure, I got it.  You really saved my\nlife! My owner is actually the\nproprietress of a very famous bar.\n<br>\nShe's always trying to come up with\nnew drinks to serve at the bar. And\nfor the secret ingredient...<%sEV_QUE_NAME4>I heard that they are particular about\nadding  A large amount of<%sEV_QUE_NAME4>I need to have a<bw_break><else>Sure, I got it.  You really saved my\nlife. My owner is actually the\nproprietress of a very famous bar.\n<br>\nShe's always trying to come up with\nnew drinks to serve at the bar. And\nfor the secret ingredient...<%sEV_QUE_NAME4>I heard that they are particular about\nadding  A large amount of<%sEV_QUE_NAME4>is needed.<bw_break><endif>": ""
+  },
+  "61934": {
+    "<if_npc_man>Well then, it's our turn.  We have to\ngo through the procedures so we can\nuse the Adventurer's Tavern like we\n<br>\npromised. What's your name?<pc>I guess so.  Yes. I've made an entry\nin the adventurer's ledger. Well,\nwelcome to the Adventurer's Tavern!\n<br>\n I'll make sure your friends get the\nquests on the requisition form.<else>Well then, it's our turn.  I'll make\nsure you get access to the\nAdventurer's Tavern, as promised.\n<br>\nWhat's your name?<pc>Mr. K.  I've had the honor of entering\nyour name in the Adventurer's Ledger.\nWelcome to the Adventurer's Tavern!\n<br>\n I'll make it easy for you to ask your\nfriends to do the quests on your\nrequisition form.<endif>": ""
+  },
+  "61935": {
+    "<if_npc_man>So, let me give you a quick lecture on\nhow to use a bar. First, you need to\n\"self-review\" yourself.  I'll issue\n<br>\nyou a \"Friendship Testimonial,\" which\nwill tell you your current approximate\nstrength. Next, you'll give the\n<br>\nSequence to your friends and\nacquaintances who are adventuring in\nAstrutia like you. It doesn't have to\n<br>\nbe someone you know in person. All\nadventurers are friends!  You can tell\nyour Sequence to all kinds of people.\n<br>\nThen you can exchange Sequences with\nyour friends. Nowadays, many people\ntake pictures of their Sequences and\n<br>\nexchange them. In the old days, such a\nsequencils used to be handwritten...\nOops, I'm getting off topic. If you\n<br>\nhave a Sequence from a friend, come to\nthe Adventurer's Tavern to register\nit.  Any tavern is fine. Once you\n<br>\nregister, your friends will be\nregistered at the tavern.  So, here's\nthe important part... Have you ever\n<br>\ngotten a \"Defeat Request Form\"? It's\nan item you can get from time to time\nwhen you defeat a monster. After\n<br>\nregistering your friends at the\ntavern, take the \"Request for Defeat\"\nand talk to a member of the Defeat\n<br>\nSquad at the entrance/exit of the\nlarger town. He will send a friend\nfrom the tavern to help you with the\nrequest form. The friend will complete\nthe quest for you! When your friend\nreturns after completing the quest,\nyou will receive the reward you have\nearned!  Some of them may be unique.\nWell, that's a long story, but here's\nthe basic relationship between using\nthe tavern and the Request to Take\nDown Quests. There are also various\nways to register yourself with a\nrequest form if you have it with you\nwhen you \"rooku\" yourself, but you'll\nhave to try them all out.  It would be\nnice if we could exchange information\non the best ways to use it together\nwith your friends.<else>I'll give you a quick lecture on how\nto use the saloon. First, you need to\n\"self-review\" yourself.  I'll issue a\n<br>\n\"Friendship Testimonial,\" which will\ntell you your approximate current\nstrength. Next, you will give the\n<br>\nSequence to a friend or acquaintance\nwho is adventuring in Astrutia like\nyou. It doesn't have to be someone you\n<br>\nknow in person. All adventurers are\nfriends!  You can tell people all over\nthe place. Then you can exchange\n<br>\nSequences with your friends. Nowadays,\nmany people take pictures of their\nfriends and exchange them. In the old\n<br>\ndays, these sequencils used to be\nhandwritten. If you have a Sequence\nfrom a friend, please come to the\n<br>\nAdventurer's Tavern to register it.\n Any tavern is fine. Once you\nregister, your friends will be\n<br>\nregistered in the bar.  And here's the\nimportant part... Have you ever gotten\na \"Defeat Request\"? This is an item\n<br>\nthat you can sometimes get when you\ndefeat a monster. After registering\nyour friends at the tavern, take the\n<br>\n\"Request for Defeat\" and talk to a\nmember of the Defeat Squad at the\nentrance/exit of the larger towns. He\n<br>\nwill send a friend from the tavern to\nhelp you complete the request. The\nfriend will complete the quest for\nyou! When your friend returns after\ncompleting the quest, you will receive\nthe reward you have earned!  Some of\nthem may be unique. Well, that's a\nlong story, but that's the basics of\nhow to use the tavern and how the\n\"Take Down Requests\" quests work.\nAlso, if you have the requisitions,\nyou can register them together with\nyour own when you \"rooku\" yourself,\nand there are other things you can do.\n It would be nice if we could exchange\ninformation on how to use it\neffectively together with our friends.<endif>": ""
+  },
+  "61937": {
+    "<if_npc_man>Once again, welcome to the\nAdventurer's Tavern!  I'll make sure\nyour friends can get you those quests\n<br>\non the requisition form.<else>Welcome once again to the Adventurer's\nTavern!  I'll be happy to help you\nwith your friends' quests.<endif>": ""
+  },
+  "61938": {
+    "<pc>school (eg of ikebana)<%sEV_SYSMSG_NPC>indicates such things as location of person or thing, location of short-term action, etc<%sEV_QUE_NAME4>I gave him one of the following!": ""
+  },
+  "49813": {
+    "<if_npc_man>The Lamp Smelting Guild in Rakkaran\n Nadi, the materials dealer<%sEV_QUE_NAME4>I want you to buy me one of the\nfollowing.<open_irai><bw_break><else>The Lamp Smelting Guild in Rakkaran\n Nadi, the materials dealer<%sEV_QUE_NAME4>I would like you to buy me a piece of<open_irai><bw_break><endif>": ""
+  },
+  "49814": {
+    "<if_npc_man>after<%sEV_QUE_NAME4>You can give the \"I\" to any introducer\nin any town.<bw_break><else>after<%sEV_QUE_NAME4>You can give the \"I'm a member of the\ncommunity\" to any introducer in any\ntown.<bw_break><endif>": ""
+  },
+  "49815": {
+    "<if_npc_man><close_irai>If you fulfill this request, you will\nbe able to use the Adventurer's\nTavern.  Well then, I'm looking\n<br>\nforward to working with you.<else><close_irai>If you fulfill this request, I'll let\nyou use the Adventurer's Tavern.  Well\nthen, I'm counting on you.<endif>": ""
+  },
+  "49816": {
+    "<if_npc_man>Apparently, on the recreation island of Raccaran\n From Nadi, the material store<%sEV_QUE_NAME4>I see you've bought me some Well then.<%sEV_QUE_NAME4>Can you give me one of those?<yesno><case 1><close><case 2><break><case_cancel><break><case_end><else>Apparently, on the recreation island of Raccaran\n From Nadi, the material store<%sEV_QUE_NAME4>I see you got me a couple of \"I'll see\nyou later. Well then...<%sEV_QUE_NAME4>Can you give me one of those?<yesno><case 1><close><case 2><break><case_cancel><break><case_end><endif>": ""
+  },
+  "49817": {
+    "<if_npc_man>What is it? The.<%sEV_QUE_NAME4>Is it for yourself? If so, I can't\nhelp but ask you to get me my order as\nsoon as possible.<else>Oops. The...<%sEV_QUE_NAME4>So, the \"1\" is for yourself, right? If\nthat's the case, I don't have any\nchoice but to buy the ones I asked you\n<br>\nto buy for me as soon as possible.<endif>": ""
+  },
+  "49818": {
+    "<if_npc_man>Sure, I got it.  You really saved my\nlife! My owner is actually the\nproprietress of a very famous bar.\n<br>\nShe's always trying to come up with\nnew drinks to serve at the bar. She\nlikes to add ingredients from her\n<br>\nhometown as a secret ingredient. The\ningredients Nadie buys are from her\nhometown.<bw_break><else>Sure, I got it.  You really saved my\nlife. My owner is actually the\nproprietress of a very famous bar.\n<br>\nShe's always trying to come up with\nnew drinks to serve at the bar. She\nlikes to add ingredients from her\n<br>\nhometown as a secret ingredient. The\ningredients Nadie buys are from her\nhometown.<bw_break><endif>": ""
+  },
+  "49819": {
+    "<if_npc_man>Well then, it's our turn.  We have to\ngo through the procedures so we can\nuse the Adventurer's Tavern like we\n<br>\npromised. What's your name?<pc>I guess so.  Yes. I've made an entry\nin the adventurer's ledger. Well,\nwelcome to the Adventurer's Tavern!\n<br>\n I'll make sure your friends get the\nquests on the requisition form.<else>Well then, it's our turn.  I'll make\nsure you get access to the\nAdventurer's Tavern, as promised.\n<br>\nWhat's your name?<pc>Mr. K.  I've had the honor of entering\nyour name in the Adventurer's Ledger.\nWelcome to the Adventurer's Tavern!\n<br>\n I'll make it easy for you to ask your\nfriends to do the quests on your\nrequisition form.<endif>": ""
+  },
+  "49820": {
+    "<if_npc_man>So, let me give you a quick lecture on\nhow to use a bar. First, you need to\n\"self-review\" yourself.  I'll issue\n<br>\nyou a \"Friendship Testimonial,\" which\nwill tell you your current approximate\nstrength. Next, you'll give the\n<br>\nSequence to your friends and\nacquaintances who are adventuring in\nAstrutia like you. It doesn't have to\n<br>\nbe someone you know in person. All\nadventurers are friends!  You can tell\nyour Sequence to all kinds of people.\n<br>\nThen you can exchange Sequences with\nyour friends. Nowadays, many people\ntake pictures of their Sequences and\n<br>\nexchange them. In the old days, such a\nsequencils used to be handwritten...\nOops, I'm getting off topic. If you\n<br>\nhave a Sequence from a friend, come to\nthe Adventurer's Tavern to register\nit.  Any tavern is fine. Once you\n<br>\nregister, your friends will be\nregistered at the tavern.  So, here's\nthe important part... Have you ever\n<br>\ngotten a \"Defeat Request Form\"? It's\nan item you can get from time to time\nwhen you defeat a monster. After\n<br>\nregistering your friends at the\ntavern, take the \"Request for Defeat\"\nand talk to a member of the Defeat\n<br>\nSquad at the entrance/exit of the\nlarger town. He will send a friend\nfrom the tavern to help you with the\nrequest form. The friend will complete\nthe quest for you! When your friend\nreturns after completing the quest,\nyou will receive the reward you have\nearned!  Some of them may be unique.\nWell, that's a long story, but here's\nthe basic relationship between using\nthe tavern and the Request to Take\nDown Quests. There are also various\nways to register yourself with a\nrequest form if you have it with you\nwhen you \"rooku\" yourself, but you'll\nhave to try them all out.  It would be\nnice if we could exchange information\non the best ways to use it together\nwith your friends.<else>I'll give you a quick lecture on how\nto use the saloon. First, you need to\n\"self-review\" yourself.  I'll issue a\n<br>\n\"Friendship Testimonial,\" which will\ntell you your approximate current\nstrength. Next, you will give the\n<br>\nSequence to a friend or acquaintance\nwho is adventuring in Astrutia like\nyou. It doesn't have to be someone you\n<br>\nknow in person. All adventurers are\nfriends!  You can tell people all over\nthe place. Then you can exchange\n<br>\nSequences with your friends. Nowadays,\nmany people take pictures of their\nfriends and exchange them. In the old\n<br>\ndays, these sequencils used to be\nhandwritten. If you have a Sequence\nfrom a friend, please come to the\n<br>\nAdventurer's Tavern to register it.\n Any tavern is fine. Once you\nregister, your friends will be\n<br>\nregistered in the bar.  And here's the\nimportant part... Have you ever gotten\na \"Defeat Request\"? This is an item\n<br>\nthat you can sometimes get when you\ndefeat a monster. After registering\nyour friends at the tavern, take the\n<br>\n\"Request for Defeat\" and talk to a\nmember of the Defeat Squad at the\nentrance/exit of the larger towns. He\n<br>\nwill send a friend from the tavern to\nhelp you complete the request. The\nfriend will complete the quest for\nyou! When your friend returns after\ncompleting the quest, you will receive\nthe reward you have earned!  Some of\nthem may be unique. Well, that's a\nlong story, but that's the basics of\nhow to use the tavern and how the\n\"Take Down Requests\" quests work.\nAlso, if you have the requisitions,\nyou can register them together with\nyour own when you \"rooku\" yourself,\nand there are other things you can do.\n It would be nice if we could exchange\ninformation on how to use it\neffectively together with our friends.<endif>": ""
+  },
+  "49822": {
+    "<if_npc_man>Once again, welcome to the\nAdventurer's Tavern!  I'll make sure\nyour friends can get you those quests\n<br>\non the requisition form.<else>Welcome once again to the Adventurer's\nTavern!  I'll be happy to help you\nwith your friends' quests.<endif>": ""
+  },
+  "49823": {
+    "<pc>school (eg of ikebana)<%sEV_SYSMSG_NPC>indicates such things as location of person or thing, location of short-term action, etc<%sEV_QUE_NAME4>I gave him one of the following!": ""
+  },
+  "52488": {
+    "Hey, you.  You know how sometimes it's\nexciting to imagine a new you that's\ndifferent from the one you're used to?\n<br>\nHappy feelings bring good luck... Do\nyou know what hair color is?  You can\nchange your hair color and give it a\n<br>\nbeautiful makeover! We, Salon Felicia\nGroup, are preparing for the\nsimultaneous opening of our beauty\n<br>\nsalons, but we are short of the\nfinishing materials for our magic hair\ncolor. If you're interested, we'd love\n<br>\nto have you join us for the opening of\nour beauty salon.<%sEV_QUE_NAME0>Can you go get me the Magical Essence\nthat the": ""
+  },
+  "52489": {
+    "<attr><feel_happy_lv1><end_attr>Thank you!  Magical Essence is all you\nneed to achieve that magical, shiny,\nglossy hair color. Yes, yes.<%sEV_QUE_NAME0>are located in the Goble Desert east\nof Dwachatka and in the Kirika Meadow\nof Eltona. And you can take the\n<br>\nmagical essence you got to any hair\nsalon in any town. When our salon\nopens, I'll change your hair color to\n<br>\na beautiful one.": ""
+  },
+  "52490": {
+    "<attr><feel_happy_lv1><end_attr>Thank you!  But it sounds like you\nhave a lot of favors to do right now.\nI'd be happy to hear from you again\n<br>\nwhen you're done with them.": ""
+  },
+  "52491": {
+    "Oh, really? That's too bad.  When our\nsalon opens, I'll change your hair\ncolor to something beautiful. If\n<br>\nyou're interested in magic hair color,\nI'd be happy to hear from you again.": ""
+  },
+  "52492": {
+    "To open a beauty salon<%sEV_QUE_NAME0>I want you to get me the magical\nessence that the<open_irai><bw_break>": ""
+  },
+  "52493": {
+    "<%sEV_QUE_NAME0>are located in the Goble Desert east\nof Dwachatka and the Kilika Meadow in\nEltona.<bw_break>": ""
+  },
+  "52494": {
+    "<close_irai>And you can take the magical essence\nyou got to any hair salon in any town.\nWhen our salon opens, I'll change your\n<br>\nhair color to a beautiful one.": ""
+  },
+  "52495": {
+    "perhaps<%sEV_QUE_NAME0>I wonder if he got his magical essence\nfrom the": ""
+  },
+  "52496": {
+    "Oh, I'm sorry.  I must have jumped the\ngun.  But please bring it back as soon\nas possible.": ""
+  },
+  "52497": {
+    "<attr><feel_happy_lv2><end_attr>Ah! Now we can finally open our dream\nbeauty salon, Salon Felicia.  It's all\nthanks to you. Thank you!": ""
+  },
+  "52498": {
+    "<attr><feel_happy_lv1><end_attr>Hey, since we're here, why don't you\ntry the magic hair color we've\ndeveloped?  For this one time only,\n<br>\nwe'll do it for free.<yesno><break>": ""
+  },
+  "52499": {
+    "<attr><feel_happy_lv2><end_attr>Okay, I'll leave it to you!  I'll\nmagically change your hair color and\ngive you a beautiful makeover.  Can\n<br>\nyou pick the color you want to be?": ""
+  },
+  "52500": {
+    "<attr><feel_happy_lv3><end_attr>It's beautiful! It looks great on you.\n I knew using Magical Essence as a\nfinishing touch would give my hair a\n<br>\ndifferent shine and luster. See, it's\nmaking you feel excited, thrilled, and\nhappy, isn't it?<bw_break>": ""
+  },
+  "52501": {
+    "I know I'll have to charge you for it\nlater, but still, do you really have\nto do it now?<yesno><break>": ""
+  },
+  "52502": {
+    "You like your hair color now.  I can\nsee why. It looks great on you. If you\never want a makeover, come to me as a\n<br>\nclient next time.  And I'll give you a\nbeautiful change of color.<bw_break>": ""
+  },
+  "52503": {
+    "Oops. I knew you were going to try the\nmagic hair color now.<bw_break>": ""
+  },
+  "52504": {
+    "Now then, I am pleased to open Salon\nFelicia, a hair salon that makes\nadventurers happy and brings them good\n<br>\nluck!": ""
+  },
+  "52505": {
+    "<attr><feel_happy_lv2><end_attr>Ah! Now we can finally open our dream\nbeauty salon, Salon Felicia.  It's all\nthanks to you. Thank you! Take this.\n<br>\n It's our small way of saying thank\nyou.": ""
+  },
+  "52506": {
+    "Besides hair coloring, we offer a\nvariety of other services related to\nbeauty, from hairstyling to face\n<br>\nmakeovers. We'll be adding more and\nmore colors to our lineup.  Our\nassociates are researching new colors\n<br>\nin various locations, so if you see\nus, we'd love it if you'd give us a\ncall.  We'll be waiting for you.": ""
+  },
+  "52507": {
+    "Would you like me to give you some of\nmy magical essence?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "52508": {
+    "<pc>gave them Magical Essence!": ""
+  },
+  "94511": {
+    "Shall we go now into the tower of\nLinja, where the demons of the trials\nawait?<yesno_nc><case 1><break><case 2><close><case_end>": ""
+  },
+  "94512": {
+    "<pc>was headed for Linja's tower.<se_nots map_common map_jamp>": ""
+  },
+  "86564": {
+    "<pc>The \"Mere Old Man\" has been pondering\nthe pendulum of fate. The pendulum is\nnot shining at all. Let's visit the\n<br>\nthree villages and towns of Rendasia\nto fill them with brilliance.": ""
+  },
+  "86565": {
+    "<pc>The \"Mere Old Man\" has been carefully\nporing over the pendulum of fate. The\npendulum is glowing faintly. Let's\n<br>\nvisit other regions to fill the\npendulum with even more brilliance.": ""
+  },
+  "87899": {
+    "<pc>The \"Mere Old Man\" has been carefully\nporing over the pendulum of fate. The\npendulum is shining brightly. I'd\n<br>\nbetter go back to Luchenda on the\nsecond floor of Granzedora Castle and\nreport the situation once and for all.": ""
+  },
+  "87900": {
+    "<pc>The \"Mere Old Man\" has been carefully\nporing over the pendulum of fate. The\npendulum is sparkling. It just needs a\n<br>\nlittle more work to reach its full\nbrilliance.": ""
+  },
+  "87901": {
+    "<pc>The \"Mere Old Man\" has been pondering\nthe pendulum of fate. The pendulum is\nglowing with a dazzling brilliance. I\n<br>\nshall return to Luchenda on the second\nfloor of Granzedola Castle and report\nback.": ""
+  },
+  "89605": {
+    "<pc>The \"Mere Old Man\" has been pondering\nthe pendulum of fate. The pendulum was\nnot shining at all.": ""
+  },
+  "98997": {
+    "<pc>The \"Mere Old Man\" has been pondering\nthe pendulum of fate. The pendulum is\nnot shining at all. Let's visit the\n<br>\nvarious regions of Lendersia to fill\nit with brilliance.": ""
+  },
+  "98998": {
+    "<pc>The \"Mere Old Man\" has been carefully\nporing over the pendulum of fate. The\npendulum is glowing faintly. Let's\n<br>\nvisit the various regions of Lendersia\nto fill the pendulum with even more\nbrilliance.": ""
+  },
+  "98999": {
+    "<pc>The \"Mere Old Man\" has been carefully\nporing over the pendulum of fate. The\npendulum is shining brightly. Let's\n<br>\nvisit the various regions of Lendersia\nto fill the pendulum with even more\nbrilliance.": ""
+  },
+  "99000": {
+    "<pc>The \"Mere Old Man\" has been carefully\nporing over the pendulum of fate. The\npendulum is sparkling. It just needs a\n<br>\nlittle more work to reach its full\nbrilliance.": ""
+  },
+  "99001": {
+    "<pc>The \"Mere Old Man\" has been pondering\nthe pendulum of fate. The pendulum is\nglowing with a dazzling brilliance. I\n<br>\nshall return to Luchenda on the second\nfloor of Granzedola Castle and report\nback.": ""
+  },
+  "99002": {
+    "<pc>The \"Mere Old Man\" has been pondering\nthe pendulum of fate. The pendulum was\nnot shining at all.": ""
+  },
+  "99003": {
+    "<pc>The \"Mere Old Man\" has been pondering\nthe pendulum of fate. The pendulum is\nnot shining at all. Let's ask Luchenda\n<br>\nwhat we can do to fill it with\nbrilliance.": ""
+  },
+  "99004": {
+    "<pc>The \"Mere Old Man\" has been pondering\nthe pendulum of fate. The pendulum was\nnot shining at all. In order to fill\n<br>\nit with radiance, I will have Princess\nAnlusia master the secret art of\ndestruction and protect the Scarlet\n<br>\nStone of God.": ""
+  },
+  "99005": {
+    "<pc>The \"Mere Old Man\" has been carefully\nporing over the pendulum of fate. The\npendulum is glowing faintly. To fill\n<br>\nit with even more brilliance, the\nheroic princess Anlusia must learn the\nsecret of the Breach and protect the\n<br>\nScarlet Stone of the Gods.": ""
+  },
+  "99006": {
+    "<pc>The \"Mere Old Man\" has been carefully\nporing over the pendulum of fate. The\npendulum is shining brightly. To fill\n<br>\nit with even more brilliance, we must\nseek out the scarlet stone of God and\nprotect it from the evil one.": ""
+  },
+  "99007": {
+    "<pc>The \"Mere Old Man\" has been pondering\nthe pendulum of fate. The pendulum is\nglowing with a dazzling brilliance. I\n<br>\nshall return to Luchenda on the second\nfloor of Granzedola Castle and report\nback.": ""
+  }
+}

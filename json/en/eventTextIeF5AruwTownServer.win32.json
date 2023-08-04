@@ -1,0 +1,1187 @@
+{
+  "203008": {
+    "If you're not a registered citizen, please don't hesitate to contact me\n We are at your service\nWe'll be playing the Elf Tribe's voice\n ♪ We're playing the sound of the elves ♪": ""
+  },
+  "203009": {
+    "Thank you very much!  By the way, you\nhave a visitor. I know this is sudden,\nbut could you do me a favor?<yesno><break>": ""
+  },
+  "203010": {
+    "Too bad.  We look forward to seeing\nyou again!": ""
+  },
+  "203011": {
+    "Wow, I'm so happy! I'd like to ask you\na favor about the new letter paper\nwe're planning to sell at the post\n<br>\noffice. Actually, the culture of\nsending letters to each other has gone\nout of style in this town! It's as if\n<br>\neveryone has forgotten how\nheartwarming a letter written with all\nyour heart can be. So, in order to\n<br>\nremind people of the importance of\nletters, I want to revive the letter\nculture by making new letter paper\n<br>\nusing traditional Elvish techniques!\nBut I've run out of ways to get the\nslimy extract needed to make letter\n<br>\npaper. The slimy extract can be found\nin a place called Kilika Meadow.<%sEV_QUE_NAME0>I heard that sometimes demons drop\nthem. Could you please go and get the\nslimy extract somehow? Of course, I'll\n<br>\ngive you a chance to give out the\nfinished letterhead!": ""
+  },
+  "203012": {
+    "Really? I'm so happy!  I'm so happy!\n Then, I'll be waiting for it with\npleasure!": ""
+  },
+  "203013": {
+    "Really? I did it!  What is it? Are you\nsure you're not taking on too many\njobs? That's no good! You're too busy.\n<br>\n I'll be waiting for you, so don't\nworry!  Please come back when you are\nfree!": ""
+  },
+  "203014": {
+    "Hmmm, too bad.  Please come back if\nyou change your mind!": ""
+  },
+  "203015": {
+    "Thank you very much!  And, sirs. Don't\nforget your promise to get the wet\nextract.<open_irai><bw_break>": ""
+  },
+  "203016": {
+    "The wet extract is found in places such as the Kilika Meadow\n and other places<%sEV_QUE_NAME0>I heard that demons sometimes drop\nthem.": ""
+  },
+  "203017": {
+    "Ah, you have a visitor!  Did you bring\nwhat I asked for by any chance?": ""
+  },
+  "203018": {
+    "Well then, I guess I'll have to buy\nsome letter paper.  Let's see...<bw_break>": ""
+  },
+  "203019": {
+    "Wow, this is slimy extract, isn't it?\n You don't find such a sticky material\naround here! In traditional Elvish\n<br>\ntechnique, this is used to glue the\npaper together.  Let's start making\nthe letter paper right away!": ""
+  },
+  "203020": {
+    "Phew! It's amazing! It's a\nmasterpiece!  Here you go. The town of\nArwen has produced a limited edition\n<br>\nof local stationery!": ""
+  },
+  "203021": {
+    "With this letterhead, everyone will\nremember how wonderful it is to send\nletters to each other! I believe that\n<br>\neach person's happiness leads to the\nhappiness of the whole. I will start\nselling Alwane's stationery at this\n<br>\npost office as soon as possible!\n Then, I look forward to seeing you\nagain.": ""
+  },
+  "203022": {
+    "Would you like to give Pecolia, the\nletter-writer, some of your slimy\nextract?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "203023": {
+    "<pc>gave the slimy extract to Pecolia, a\nletter-writer!": ""
+  },
+  "203271": {
+    "<attr><feel_happy_lv2><end_attr>It's done!": ""
+  },
+  "203272": {
+    "<attr><feel_happy_lv2><end_attr>Mommy! I drew a picture of Mommy!\n I'll give it to you!": ""
+  },
+  "203273": {
+    "<icon_que>Oh, no?  Aren't you happy that I was\nable to do it so well?": ""
+  },
+  "203274": {
+    "<turn_pc>I couldn't do it again.  I want my mom\nto be pleased with me.": ""
+  },
+  "203275": {
+    "<if_woman><icon_exc>That's right!  I'll give you what you\nlike, Mommy! Oneee-chan!  Tell me what\nyou want me to sue for you!<else><icon_exc>That's right!  I'll give you what you\nlike, Mommy! Hey, little girl!  Tell\nme what you want me to sue for you!<endif>": ""
+  },
+  "203276": {
+    "<attr><feel_happy_lv2><end_attr>Yay!  Mom, what do you think is best?": ""
+  },
+  "203277": {
+    "<if_woman>Oh, no!  Onee-chan, I have lots of\nwork to do.  Go take care of your\nwork.<else>Oh, no?  Oh, baby girl, I have lots of\nwork to do.  Go take care of your\nwork.<endif>": ""
+  },
+  "203278": {
+    "<if_woman><attr><feel_angry_lv2><end_attr>Kechi, the oneechan!<else><attr><feel_angry_lv2><end_attr>Onii-chan's kechis!<endif>": ""
+  },
+  "203279": {
+    "<if_woman><turn_pc>I'll give you what you like, Mommy!\nOneee-chan!  Tell me what you want me\nto sue for you!<else><turn_pc>I'll give you what you like, Mommy!\nBig girl!  Tell me what you want me to\nsue for you!<endif>": ""
+  },
+  "203280": {
+    "The following is a list of the most\ncommon problems with the": ""
+  },
+  "203281": {
+    "I'll give you what you like!<open_irai><bw_break>": ""
+  },
+  "203282": {
+    "<if_woman>Oneee-chan!  I want you to tell me\nwhat you're going to sue for!<else>Hey, little girl!  I want you to tell\nme what you're going to sue me for!<endif>": ""
+  },
+  "203283": {
+    "This is the childcare district, the children's home\n We are raising the future citizens of Arwen": ""
+  },
+  "203284": {
+    "There is no data on \"Likes\"\n There is no data on \"Likes\"\nIf you are looking for information about the computer Pecolia\n If you are looking for information about the computer Pecolia, we recommend that you explore the warehouse on the 3rd floor of the off-limits section of the spaceship\n We recommend that you explore the warehouse on the 3rd floor of the off-limits section of the spaceship\nThe off-limits zone of the spaceships can be accessed from the natural heritage reserve\n The off-limits zone of the spaceships can be accessed from the Natural Heritage Reserve": ""
+  },
+  "203285": {
+    "Would you like to ask Pecolia what he\nlikes?<yesno><close>": ""
+  },
+  "203286": {
+    "There is no data on \"Likes\"\n There is no data on \"Likes\"\nIf you are looking for information about the computer Pecolia\n If you are looking for information about the computer Pecolia, we recommend that you explore the warehouse on the 3rd floor of the off-limits section of the spaceship\n We recommend that you explore the warehouse on the 3rd floor of the off-limits section of the spaceship\nThe off-limits zone of the spaceships can be accessed from the Natural Heritage Reserve\n The off-limits zone of the spaceships can be accessed from the Natural Heritage Reserve": ""
+  },
+  "203287": {
+    "I see!  Mom, you have flowers that you\ncan't find!<open_irai><bw_break>": ""
+  },
+  "203288": {
+    "I'll get that flower for Mom!  Go get\nthem!": ""
+  },
+  "203289": {
+    "<if_woman>Onee-chan!  Did you find out what\nMommy wants to quit?<else>Hey, little girl!  Did you find out\nwhat Mommy wants to quit?<endif>": ""
+  },
+  "203290": {
+    "Mommy, what do you think is best?\n I'll give you whatever you like!": ""
+  },
+  "203291": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>Wow! Beautiful flowers!  Mommy, you\ncan sukiy this?  I'll give them to\nMommy and make her happy!": ""
+  },
+  "203292": {
+    "<attr><feel_happy_lv2><end_attr>Mommy! I'll give you this!": ""
+  },
+  "203293": {
+    "Hey! Mommy, you know..!  It's Mommy's\nfavorite flower!": ""
+  },
+  "203294": {
+    "<attr><feel_sad_lv2><end_attr>Even though it's Mom's favorite\nflower, why can't I have it? Mama-\nmama, you're always so kind, but\n<br>\nperhaps the truth is...": ""
+  },
+  "203295": {
+    "Mom! That's right!  It's a flower!": ""
+  },
+  "203296": {
+    "<attr><feel_happy_lv2><end_attr>Yeah!": ""
+  },
+  "203297": {
+    "<if_woman><attr><feel_happy_lv3><end_attr>Yay! Mommy is pleased with me!  Thank\nyou, onee-chan!  I'll give you this!<else><attr><feel_happy_lv3><end_attr>Yay! Mommy is so pleased!  Thank you,\nOnii-chan!  I'll give you this!<endif>": ""
+  },
+  "203298": {
+    "<attr><feel_happy_lv3><end_attr>Mommy, I love you! Mmm-hmm.": ""
+  },
+  "203299": {
+    "The following is a list of the most\ncommon problems with the": ""
+  },
+  "203300": {
+    "The following is a list of the most\ncommon problems with the": ""
+  },
+  "203301": {
+    "Oh, my God, what a nice fragrance\n What a beautiful flower": ""
+  },
+  "203302": {
+    "I love this flower...thank\nyou..! Heeheehee...": ""
+  },
+  "203303": {
+    "Would you give Hapi flowers to baboon\nhehehe?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "203304": {
+    "<pc>gave Hapi flowers to Hhiheehee!": ""
+  },
+  "205323": {
+    "If you're not a registered citizen, don't be shy\n I'm at your service\n Have a nice day<bw_break>": ""
+  },
+  "205324": {
+    "◆KQ_156_1 Let's bring back the culture\nof letters! See also<bw_break>": ""
+  },
+  "205325": {
+    "If you're not a registered citizen, please don't hesitate to contact me\n I'm at your service\n Have a nice day<bw_break>": ""
+  },
+  "205326": {
+    "<attr><feel_normal_one><end_attr>Today, I am fortunate enough to be\nentered as the store keeper. I will\nnow begin the business of the tool\n<br>\nshop. Good day.<bw_break>": ""
+  },
+  "205327": {
+    "If you're not a registered citizen, don't be shy\n I'm at your service\n Have a nice day<bw_break>": ""
+  },
+  "205328": {
+    "If you're not a registered citizen, don't be shy\n I'm at your service\n Have a nice day<bw_break>": ""
+  },
+  "205329": {
+    "<attr><feel_normal_one><end_attr>How fortunate I am to be entered as a\nstore keeper for the bazaar.  Let's\nget down to business. Well then...<bw_break>": ""
+  },
+  "205330": {
+    "If you're not a registered citizen, don't be shy\n I'm at your service\n Have a nice day<bw_break>": ""
+  },
+  "205331": {
+    "<attr><feel_normal_one><end_attr>Since you have been entered for\ninnkeeper duty, we will serve you\ndiligently for the well-being of the\n<br>\nentire community.  Please leave it to\nHUHAHOFF. Well...<bw_break>": ""
+  },
+  "205332": {
+    "If you're not a registered citizen, don't be shy\n I'm at your service\n Have a nice day<bw_break>": ""
+  },
+  "205333": {
+    "<attr><feel_normal_one><end_attr>I am happy to serve the town of Arwen\ntoday as a postman.  I will begin the\nwork of the post office. And now...<bw_break>": ""
+  },
+  "205334": {
+    "<attr><feel_normal_one><end_attr>A tablet of intellect? A prophet?  I\ndon't know anything.  I'm a good\ncitizen of Arwen. Why are you asking\n<br>\nsuch meaningless questions?  It is\nforbidden to act contrary to the\noverall well-being of the community.": ""
+  },
+  "205335": {
+    "<attr><feel_normal_one><end_attr>This is the town of Arwen.  I am a\nhappy citizen of Arwen.  Everything is\nfine. We are happy.": ""
+  },
+  "205336": {
+    "<attr><feel_normal_one><end_attr>A tablet of intellect? A prophet?  I\ndon't know what you are talking about.\n Please refrain from asking questions\n<br>\nthat could disrupt the overall well-\nbeing of the community. This is the\nhappy city of Arwen.  Our duty is to\n<br>\nabandon ourselves and do our best for\nthe happiness of the whole.": ""
+  },
+  "205337": {
+    "<attr><feel_normal_one><end_attr>We love all the citizens of the town\nof Arwen. We, the citizens of Arwen,\nlive to serve the well-being of the\n<br>\nwhole.  Nothing is too much trouble.": ""
+  },
+  "205338": {
+    "<attr><feel_normal_one><end_attr>What? You're saying this is Pukhland?\n I don't know what you're talking\nabout, but it sounds vaguely familiar.\n<br>\nWe are born in the town of Arwen, we\nserve the well-being of the entire\ncommunity, and we die in the town of\n<br>\nArwen.": ""
+  },
+  "205339": {
+    "<attr><feel_normal_one><end_attr>As long as there is a Permanent\nAdministrator, the town of Arwen is\nhappy.  Long live the Eternal\n<br>\nAdministrator.": ""
+  },
+  "205340": {
+    "<attr><feel_normal_one><end_attr>Arwen is a beautiful town.  We all\nlive happily. Arwen is preserved by\nthe Eternal Administrator who commands\n<br>\nus to serve for the well-being of all,\nday by day.": ""
+  },
+  "205341": {
+    "Currently, we are unable to move to the central area\n Please wait for the regular broadcast of the Eternal Manager": ""
+  },
+  "205342": {
+    "Currently, we are unable to move to the central area\n Please wait for the regular broadcast of the Eternal Manager": ""
+  },
+  "205343": {
+    "Currently, we are unable to move to the central area\n Please wait for the regular broadcast of the Eternal Manager\nThe Eternal Manager's regular broadcast will begin shortly\n ♪ Citizens, please tune in ♪\n ♪ Citizens, please tune in to our regularly scheduled broadcasts ♪": ""
+  },
+  "205344": {
+    "This is the town of Arwen, the\nresidential area... If you need to go\nshopping or to the church, please move\n<br>\nto the east!  If you need to stay the\nnight, head west.": ""
+  },
+  "205345": {
+    "Currently, we are unable to move to the central area\n Please wait for the regular broadcast of the Eternal Manager\nThe Eternal Manager's regular broadcast will begin shortly\n ♪ Citizens, please tune in ♪\n ♪ Citizens, please tune in to our regularly scheduled broadcasts ♪": ""
+  },
+  "205346": {
+    "It's almost time for service!\n Citizens who have entered today's service duty\n Citizens who have entered the service duty today, please come to the service room\nTo get to the service room, cross this bridge to the central area\n Take the elevator to the first basement floor\n Go down to the basement": ""
+  },
+  "205347": {
+    "It's almost time for service!\n Citizens who have entered today's service duty\n Citizens who have entered the service duty today, please come to the service room\nTo get to the service room, cross this bridge to the central area\n Take the elevator to the first basement floor\n Go down to the basement": ""
+  },
+  "205348": {
+    "It's almost time for service!\n Citizens who have entered today's service duty\n Citizens who have entered the service duty today, please come to the service room\nTo get to the service room, enter this building\n Take the elevator to the first basement floor\n Go down to the basement": ""
+  },
+  "205349": {
+    "There is an elevator. To which floor\nwould you like to move?<select 2>\nUpper level: Administration building\nMiddle : Town of Arwen\nMiddle: Service Room, Town of Arwen\nQuit<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<close>\n<case 4>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "205350": {
+    "Non-registered Arwen citizens are not\nallowed to enter the upper level: the\nadministration building.": ""
+  },
+  "205351": {
+    "Service time has ended\n Citizens who have finished their service duty\n Please return to your homes": ""
+  },
+  "205352": {
+    "♪ Emergency mode activated ♪\n ♪ I'm unlocking the elevator now ♪\n Please proceed to the administration building on the upper level\nIf you see any locked doors in the administration building\n Please hold up the tablet to unlock it\n Please hold up the tablet to unlock the door": ""
+  },
+  "205353": {
+    "Service time has ended\n Citizens who have finished their service duty\n Please return to your homes": ""
+  },
+  "205354": {
+    "Service time has ended\n Citizens who have finished their service duty\n Please return to your homes": ""
+  },
+  "205355": {
+    "There is an elevator. To which floor\nwould you like to move?<select 3>\nUpper level: Administration building\nMiddle : Town of Arwen\nMiddle: Service Room, Town of Arwen\nQuit<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<break>\n<case 4>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "205358": {
+    "There is an elevator. To which floor\nwould you like to move?<select 2>\nUpper level: Administration building\nMiddle : Town of Arwen\nMiddle: Service Room, Town of Arwen\nQuit<select_end>\n<case 1>\n<close>\n<case 2>\n<break>\n<case 3>\n<close>\n<case 4>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "205359": {
+    "My goodness, this was the middle\nlevel: the town of Arwen, the service\nroom!": ""
+  },
+  "205360": {
+    "My goodness, this was the middle tier:\nthe town of Arwen!": ""
+  },
+  "205361": {
+    "<attr><feel_normal_one><end_attr>To serve the starship Arwen according\nto the rules laid down by Master\nPukhras, the Eternal Administrator.\n<br>\n Oh, what a happy life I have.": ""
+  },
+  "205362": {
+    "<attr><feel_normal_one><end_attr>This is the town of Arwen.  I am a\nhappy citizen of Arwen.  I don't want\nanything to change.": ""
+  },
+  "205363": {
+    "<attr><feel_normal_one><end_attr>This is the happy town of Arwen.  Our\nduty is to do our best for the overall\nhappiness of the world. We will follow\n<br>\nthe orders of our Eternal\nAdministrator, Pukhras, and live\nquietly in the service room, supplying\n<br>\nit with life energy.": ""
+  },
+  "205364": {
+    "<attr><feel_normal_one><end_attr>We love all the citizens of the town\nof Arwen. We especially love and\nrespect our Permanent Administrator,\n<br>\nMr. Pukhras.": ""
+  },
+  "205365": {
+    "<attr><feel_normal_one><end_attr>This is beautiful and peaceful Arwen.\n It is forbidden to even think of\nleaving the city.  That's what our\n<br>\nEternal Administrator, Pukhras, has\ndecreed.": ""
+  },
+  "205366": {
+    "<attr><feel_normal_one><end_attr>Arwen is a beautiful town.  We all\nlive happily ever after.  What? You\nthink there are replicants living\n<br>\noutside the town? A duplicate? What\ndoes that mean?  Unintelligible words\nspoil my happiness.  I do not wish to\n<br>\nhave any further conversation with\nyou.": ""
+  },
+  "205367": {
+    "<pipipi_shigh>This elevator is currently out of\nservice. For further information,\nplease ask Mr. Pecolia, the security\n<br>\nguard, at the Asturian Museum in the\nnorthern part of the Lower Level:\nNatural Heritage Reserve.": ""
+  },
+  "205369": {
+    "There is an elevator. To which floor\nwould you like to move?<select 2>\nUpper level: Administration building\nMiddle : Town of Arwen\nMiddle: Town of Arwen, Service Room\nLower level: Natural Heritage Reserve\nQuit<select_end>\n<case 1>\n<close>\n<case 2>\n<break>\n<case 3>\n<close>\n<case 4>\n<close>\n<case 5>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "205373": {
+    "There is an elevator. To which floor\nwould you like to move?<select 3>\nUpper level: Administration building\nMiddle : Town of Arwen\nMiddle: Town of Arwen, Service Room\nLower level: Natural Heritage Reserve\nQuit<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<break>\n<case 4>\n<close>\n<case 5>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "205377": {
+    "Always obey the laws of Purusama!\n That is what it is all about!": ""
+  },
+  "205378": {
+    "<attr><feel_normal_one><end_attr>After we are transferred to this\nsanatorium, we can live happily\nbecause the management computer takes\n<br>\ncare of us. We may not be able to\nfulfill our civic duties, but we are\nhappy nonetheless.  We should be\n<br>\nhappy.": ""
+  },
+  "205379": {
+    "<attr><feel_normal_one><end_attr>We offer our love to Pukhras, our\nEternal Administrator, and to his\nfather, Palmio, our Creator. All other\n<br>\ncitizens of Arwen are equal.  It is\nforbidden to love any one person in\nparticular.": ""
+  },
+  "205380": {
+    "<attr><feel_normal_one><end_attr>We grew up with Permanent\nAdministrator Pukhras as our father\nand the administrative computer as our\n<br>\nmother.  Arwen is our home. There is\nno better place in the world than\nArwen.  We are happy.": ""
+  },
+  "205381": {
+    "<turn_pc>Mamma, mamma! Look at this!  I built\nit by myself! I did it all by myself!": ""
+  },
+  "205382": {
+    "Pukuras-sama, Palmio-sama, a good man!\n Aruun is a good town!  Good town!": ""
+  },
+  "205383": {
+    "<attr><feel_normal_one><end_attr>To pray daily to Master Pukhras the\nEternal Administrator and his father,\nPalmio the Creator, and to serve the\n<br>\nwell-being of the whole, is what a\nproper citizen of Arwen should be.  I\npledge my undying loyalty to Pukras\n<br>\nthe Eternal.": ""
+  },
+  "205384": {
+    "<attr><feel_normal_one><end_attr>The citizens of Arwen, who have been\nphysically damaged, will have their\ncivil registration revoked and spend\n<br>\nthe rest of their lives in this\nconvalescent home. But we are happy.\n For the happiness of Arwen as a\n<br>\nwhole, this is the best thing that\ncould happen.": ""
+  },
+  "205385": {
+    "<attr><feel_normal_one><end_attr>Laughing, running around, crying,\nshouting, or taking any action that is\ndetrimental to the overall well-being\n<br>\nis forbidden. Master Pukhras said that\nthe more peaceful the mind is, the\nmore pure the energy offered in the\n<br>\nservice room will be.": ""
+  },
+  "205386": {
+    "We will do our best for everyone in\nAruwon every day!  That is the reason\nfor everyone's happiness!": ""
+  },
+  "205387": {
+    "<attr><feel_normal_one><end_attr>I am sorry. I am sorry.  It is\nordained that the people of Arwen\nshould always be healthy and happy.\n<br>\nOh, thank you, Pukhras the Eternal.\nFor keeping us alive even though we\nare no longer citizens.": ""
+  },
+  "205388": {
+    "All bridges and corridors are now passable\n \"However, the administration building entrance doors\n The entrance door to the administration building is closed\n♪ I'm sensing a bio-signature ♪\n You are now considered a guest\n ♪ Citizens with a message for the guests ♪\n♪ Citizens are waiting for you in the cold room ♪\n Lower level: Natural heritage site, northwest\n ♪ Head to the off-limits zone in the northwest of the Natural Heritage Reserve ♪\n♪ From the restricted area\n ♪ You can enter the administration building ♪\n ♪ Hurry up and get to the cold room ♪": ""
+  },
+  "205389": {
+    "This is the childcare area\n Citizens of Arwen, please keep your contact with minors\n \"Please keep your contact with minors as brief as possible": ""
+  },
+  "205390": {
+    "All bridges and corridors are now passable\n \"However, the administration building entrance doors\n The entrance door to the administration building is closed\n♪ I'm sensing a bio-signature ♪\n You are now considered a guest\n ♪ Citizens with a message for the guests ♪\nThis elevator will take you to the Lower Level: Natural Heritage Reserve\n Go down to the no-go zone in the northwest\n ♪ Head to the no trespassing zone in the northwest ♪\nFrom the no trespassing zone\n ♪ You can enter the administration building ♪\n ♪ Hurry up and get to the cold room ♪": ""
+  },
+  "205391": {
+    "This is a sanatorium area\n Citizens in good health\n Please leave as soon as possible": ""
+  },
+  "205392": {
+    "This is the childcare district, the children's home\n We are here to raise the future citizens of Arwen\n We are raising the future citizens of Arwen in accordance with the orders of replicant C141": ""
+  },
+  "205393": {
+    "All bridges and corridors are now passable\n \"However, the administration building entrance doors\n The entrance door to the administration building is closed\n♪ If you are not registered as a citizen and we detect your bio-signature ♪\n ♪ I'm a guest and I'm a guest ♪\n ♪ Citizens with a message for guests ♪\n♪ Citizens are waiting in the cold room ♪\n ♪ Lower level: Natural heritage preserve, west of the city ♪\n ♪ Head to the off-limits zone west of the Natural Heritage Reserve ♪\n♪ From the restricted area\n ♪ You can enter the administration building ♪\n ♪ Hurry up and get to the cold room ♪": ""
+  },
+  "205394": {
+    "This is the daycare district This is my daughter's house\n The future citizens of Arwen\n We are raising the future citizens of Arwen in accordance with the orders of replicant C141": ""
+  },
+  "205395": {
+    "All bridges and corridors are now passable\n \"However, the administration building entrance doors\n The entrance door to the administration building is closed\n♪ I'm sensing a bio-signature ♪\n You are now considered a guest\n ♪ Citizens with a message for the guests ♪\n♪ Citizens are waiting for you in the cold room ♪\n Lower level: Natural heritage site, northwest\n ♪ Head to the off-limits zone in the northwest of the Natural Heritage Reserve ♪\n♪ From the restricted area\n ♪ You can enter the administration building ♪\n ♪ Hurry up and get to the cold room ♪": ""
+  },
+  "205396": {
+    "All bridges and corridors are now passable\n \"However, the administration building entrance doors\n The entrance door to the administration building is closed\n♪ I'm sensing a bio-signature ♪\n You are now considered a guest\n ♪ Citizens with a message for the guests ♪\n♪ Citizens are waiting for you in the cold room ♪\n Lower level: Natural heritage site, northwest\n ♪ Head to the off-limits zone in the northwest of the Natural Heritage Reserve ♪\n♪ From the restricted area\n ♪ You can enter the administration building ♪\n ♪ Hurry up and get to the cold room ♪": ""
+  },
+  "205397": {
+    "This is the childcare district, the home for young people\n The future citizens of Arwen\n We are raising the future citizens of Arwen in accordance with the orders of replicant C141": ""
+  },
+  "205398": {
+    "There is an elevator. To which floor\nwould you like to move?<select 2>\nUpper level: Administration building\nMiddle : Town of Arwen\nMiddle: Town of Arwen, Service Room\nLower level: Natural Heritage Reserve\nQuit<select_end>\n<case 1>\n<close>\n<case 2>\n<break>\n<case 3>\n<close>\n<case 4>\n<close>\n<case 5>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "205400": {
+    "My goodness, this was the middle tier:\nthe town of Arwen!": ""
+  },
+  "205401": {
+    "My goodness, this was the middle\nlevel: the town of Arwen, the service\nroom!": ""
+  },
+  "205402": {
+    "There is an elevator. To which floor\nwould you like to move?<select 3>\nUpper level: Administration building\nMiddle : Town of Arwen\nMiddle: Town of Arwen, Service Room\nLower level: Natural Heritage Reserve\nQuit<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<break>\n<case 4>\n<close>\n<case 5>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "205404": {
+    "The door is locked.": ""
+  },
+  "205406": {
+    "All bridges and corridors are now open to traffic\n All bridges and passageways are now open to traffic\n \"All guests, both residents and non-registered citizens, are welcome to pass through": ""
+  },
+  "205407": {
+    "There was a chef who made a loud\nnoise.  It is wrong to be loud.  I\ndon't like that binge.": ""
+  },
+  "205408": {
+    "<attr><feel_normal_one><end_attr>I was just told by a citizen that I\ncan go back to my residential area\ninstead of the treatment area.  I'm\n<br>\nnot sure what to do. We won't last\nthat long anyway.  We will be happier\nin our home town.": ""
+  },
+  "205409": {
+    "<attr><feel_normal_one><end_attr>I have a deep love for Pukhras the\nEternal and Palmio the Creator.\n That's not a falsehood, is it?": ""
+  },
+  "205410": {
+    "<attr><feel_normal_one><end_attr>We are going to live together with the\ncitizens of our neighborhood.  Is that\na blessing?": ""
+  },
+  "205411": {
+    "Mamma, mamma!  Hey, hey! Let's play\ntogether!": ""
+  },
+  "205412": {
+    "Pukuras-sama, Palmio-sama, a good man!\n Aruun is a good town!  I love everyon\ne! Kyakkyakkyakkyakkyakkyakkyakkyakkya\n<br>\nkkyakkyakkyakkyakkyak!": ""
+  },
+  "205413": {
+    "<attr><feel_normal_one><end_attr>The management computer told us that\nit was not the real Pukhras who had\nbeen educating us. So we are told to\n<br>\nforget everything we have been taught\nand live with it.  Was our life so far\na waste?": ""
+  },
+  "205414": {
+    "<attr><feel_normal_one><end_attr>A few days ago, a citizen of Arwen\nvisited us and reinstated the civil\nregistration of those of us who have\n<br>\nbeen physically disabled. But what are\nwe supposed to do back in the\nneighbourhood?  There is nothing we\n<br>\ncan do now.": ""
+  },
+  "205415": {
+    "<attr><feel_normal_one><end_attr>Laughing, running around, crying,\nyelling, and any behavior that\ndetracts from the overall well-being\n<br>\nwill now be permitted. But if we don't\nkeep a peaceful mind, the purity of\nthe energy we offer in the service\n<br>\nroom will decrease.  That's what Mr.\nPukhras said.": ""
+  },
+  "205416": {
+    "Just now, I received a strange strange\nphenomenon!  It was rushing out!  I\nwant to run too.": ""
+  },
+  "205417": {
+    "<attr><feel_normal_one><end_attr>Somehow, citizens came to the\nsanatorium and visited us.  This had\nnever happened before. It must have\n<br>\nbeen arranged by the Eternal\nAdministrator, Mr. Pukhras.  Oh, thank\nyou, Mr. Pukhras.": ""
+  },
+  "205418": {
+    "honorary citizen<pc>Mr\n Welcome to the Spaceship Arwen!\nIt's almost service time\n Citizens who have entered today's service duty\n Citizens who have entered the service today, please come to the service room\nTo get to the service room, cross this bridge to the central area\n Take the elevator to the first basement floor\n Go down to the basement": ""
+  },
+  "205419": {
+    "This is the childcare district, the children's home\n We are raising the future citizens of Arwen": ""
+  },
+  "205420": {
+    "honorary citizen<pc>Welcome to the Starship Arwen... This\nis the town of Arwen, the residential\narea... If you need to go shopping or\n<br>\nto the church, please go east, if you\nneed to stay overnight, please go\nwest!  If you need to stay the night,\n<br>\nplease move west.": ""
+  },
+  "205421": {
+    "This is the daycare district This is my daughter's house\n We are raising the future citizens of Arwen": ""
+  },
+  "205422": {
+    "honorary citizen<pc>Mr\n Welcome to the Spaceship Arwen!\nIt's almost service time\n Citizens who have entered today's service duty\n Citizens who have entered the service today, please come to the service room\nTo get to the service room, cross this bridge to the central area\n Take the elevator to the first basement floor\n Go down to the basement": ""
+  },
+  "205423": {
+    "honorary citizen<pc>Mr\n Welcome to the Spaceship Arwen!\nIt's almost service time\n Citizens who have entered the service today\n Citizens who have entered the service today, please come to the service room\nTo get to the service room, enter this building\n Take the elevator to the first basement floor\n Go down to the basement": ""
+  },
+  "205424": {
+    "This is the childcare district, the home for young people\n We are raising the future citizens of Arwen": ""
+  },
+  "205425": {
+    "<pc>Thanks to you, we were able to get our\nhearts back.  The evil replicants were\nalso exterminated. The Infinite Power\n<br>\nReactor has been broken, and Master\nPukhras, the Eternal Administrator,\nhas disappeared, but I'm sure that if\n<br>\nwe all laugh together, things will be\nalright! When times are tough...<pc>I'll get through it with that fun\nvideo that Mr!<pc>Thank you very much. The spaceship\nArwen is in our hands now.<pc>Go back to your own journey.  If you\nlike, you can come visit me again!": ""
+  },
+  "205426": {
+    "Mr. Pukhras is above the clouds.  Many\ncitizens won't be able to see him even\nonce before they die. And yet, being\n<br>\nable to chat with Master Pukhras and\nexterminate evil replicants together\nmakes me feel very, very hot. I've\n<br>\ncome to understand this kind of\nfeeling.<pc>I really appreciate your help!  Thank\nyou so much!": ""
+  },
+  "205427": {
+    "<pc>Even those of us who fought against\nthe replicants together with Mr.\nPukhras and Master Pukhras can't help\n<br>\nbut feel uneasy when we think about\nthe future. Even if emotions awaken in\neveryone in the town, I don't know if\n<br>\nthey will be able to endure the\nreality that the Infinite Power\nReactor has broken down and Master\n<br>\nPukras is no longer here. Maybe they\nwill be made to feel much sadder and\nmore painful than they do now.  That\n<br>\nwould be very pitiful. So, until the\nInfinite Power Reactor is fixed, I'll\nleave everyone else alone.  It's a bit\n<br>\nof a pity, though.": ""
+  },
+  "205428": {
+    "What? You're saying that Pukhras is\nfrom another time?  But what do you\nmean, another time? Oh well. I'm sure\n<br>\nhe's fine.  If that's the case, he'll\ncome back someday.  Because Master\nPukhras is an amazing person!": ""
+  },
+  "205429": {
+    "honorary citizen<pc>Mr\n Welcome to the Spaceship Arwen!\nWelcome to the spaceship Arwen\n Citizens who have finished their service time\n Please return to your homes": ""
+  },
+  "205430": {
+    "honorary citizen<pc>Mr\n Welcome to the Spaceship Arwen<pc>You have free passage to all areas of the starship Aluwen\n You are free to pass through all areas of the spaceship Arwen\n Please make yourselves at home": ""
+  },
+  "205432": {
+    "honorary citizen<pc>Mr\n Welcome to the Spaceship Arwen!\nWelcome to the spaceship Arwen\n Citizens who have finished their service time\n Please return to your homes": ""
+  },
+  "205433": {
+    "honorary citizen<pc>Mr\n Welcome to the Spaceship Arwen!\nWelcome to the spaceship Arwen\n Citizens who have finished their service time\n Please return to your homes": ""
+  },
+  "206027": {
+    "If you're not a registered citizen, don't be shy\n I'm at your service\n Have a nice day<bw_break>": ""
+  },
+  "206028": {
+    "If you're not a registered citizen, please don't hesitate to contact me\n I'm at your service\n Have a nice day<bw_break>": ""
+  },
+  "206118": {
+    "<attr><feel_happy_lv2><end_attr>Mamma, mamma!  Hey, hey! Let's play\ntogether!": ""
+  },
+  "206774": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Gohohoho.  I recently moved here due\nto a physical breakdown. Thanks to the\ncare of the Eternal Administrator, the\n<br>\nadministrative computers are letting\nme live, but sometimes I wonder if\nit's okay for me, a worthless person\n<br>\nwho can't contribute to the overall\nhappiness of the community, to live on\nlike this.": ""
+  },
+  "206775": {
+    "The shriveled red flowers bloomed\nfeebly.": ""
+  },
+  "206776": {
+    "<attr><feel_normal_one><end_attr>If I could go back home, I would take\nthat flower. No, I still shouldn't go\nback.  Even if I could get a\n<br>\nprovisional citizen's registration,\nI'm not qualified.": ""
+  },
+  "206777": {
+    "<attr><feel_normal_one><end_attr><turn_pc>You are an honorary citizen.  In fact,\nI was recently reinstated and allowed\nto return to town. But as I am\n<br>\nphysically disabled and unable to\ncontribute to the overall well-being\nof the community, I can't possibly be\n<br>\nallowed to live with everyone. And\nyet, when I was granted permission, I\nsuddenly thought of the potted flower\n<br>\nI left behind in my old house, and I\nhaven't been able to get it out of my\nhead since.": ""
+  },
+  "206778": {
+    "<attr><feel_normal_one><end_attr><icon_exc>That's right! I have a favor to ask\nyou.  Would you go to my old house in\nthe West District and record images of\n<br>\nthe flowers? I hate to trouble you,\nhonorary citizen, but you are the only\none I can ask.  Please, please,\n<br>\nplease!": ""
+  },
+  "206779": {
+    "<attr><feel_normal_one><end_attr>How kind of you to accept the offer!\n Thank you very much! I left the\npotted plant as it was, so it must\n<br>\nstill be at my former residence in the\nwest district. I think you can\nrecognize it at a glance because it\n<br>\nhas many beautiful red flowers.": ""
+  },
+  "206780": {
+    "<attr><feel_normal_one><end_attr>Thank you very much!  But it seems\nthat you are busy with other matters\nat the moment. If you would like, I\n<br>\nwould be happy if you could come back\nhere again after you have finished\nyour other business.": ""
+  },
+  "206781": {
+    "<attr><feel_normal_one><end_attr>Oh, I knew I shouldn't have asked you,\nan honorary citizen, to do this.  I am\nsorry. Please forget about it.": ""
+  },
+  "206782": {
+    "<attr><feel_normal_one><end_attr>I left the flowers as they were\npotted, so they must still be in my\nformer residence on the west side of\n<br>\nthe city.<open_irai><bw_break>": ""
+  },
+  "206783": {
+    "<attr><feel_normal_one><end_attr>Please bring me images of the many\nbeautiful red flowers that should be\nblooming.": ""
+  },
+  "206784": {
+    "<attr><feel_normal_one><end_attr>Are you curious about the flowers?\n It's a leftover from a previous\nresident who, not too long ago, had a\n<br>\nmagnificent bloom, but it's almost all\ndead and wilting, as if it had\ncontracted some sort of disease.": ""
+  },
+  "206785": {
+    "<pc>The \"Mere Old Man\" got a picture of a\nshriveled flower (a very important\none)!<me 60>": ""
+  },
+  "206786": {
+    "<attr><feel_normal_one><end_attr>Oh, did you bring a picture of a\nflower?": ""
+  },
+  "206787": {
+    "<attr><feel_normal_one><end_attr>Please don't say that. Let me see it!": ""
+  },
+  "206788": {
+    "<attr><feel_normal_one><end_attr>Thank you very much!": ""
+  },
+  "206789": {
+    "<attr><feel_normal_one><end_attr><icon_exc>What's this?  How did this happen to\nmy flower?": ""
+  },
+  "206790": {
+    "<attr><feel_normal_one><end_attr>I didn't know that even such a flower\ncould get sick.  When I was taking\ncare of them, they were blooming so\n<br>\nwell, but what in the world should I\ndo?": ""
+  },
+  "206791": {
+    "<attr><feel_normal_one><end_attr><icon_exc>I was told by the computer\nadministrator that there is a flower\npotion called \"moisture wood vinegar.\n<br>\nIt's a medicine for the flowers in\nnatural heritage preserves.<%sEV_QUE_NAME0>I heard that the \"Mere Old Man\" is\nsupposed to drop it off, but I can't\nget it. But I'm sure you, an honorary\n<br>\ncitizen, can do it, can't you? I beg\nyou. Please go and get a bottle of the\nenriching wood vinegar for the\n<br>\nflowers.  And give it to the flower.\nIf you do that, I am sure it will be\ncured.": ""
+  },
+  "206792": {
+    "<attr><feel_normal_one><end_attr>Are you curious about the flowers?\n It's a legacy from a previous\nresident, who not too long ago had a\n<br>\nmagnificent bloom, but it's almost\nshriveled up and shriveled up, as if\nit had caught a disease.": ""
+  },
+  "206793": {
+    "Would you like me to give Hohoho a\npicture of a shriveled flower?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "206794": {
+    "<pc>gave Hohiho a picture of a shriveled\nflower.": ""
+  },
+  "206795": {
+    "<pc>explained to Hohihoho how the flowers\nhad shriveled up!": ""
+  },
+  "206796": {
+    "<attr><feel_normal_one><end_attr>I was told by the management computer\nthat there is a medicine for flowers\ncalled \"moist wood vinegar solution.<open_irai><bw_break>": ""
+  },
+  "206797": {
+    "<attr><feel_normal_one><end_attr>Please, I'm in a natural heritage reserve, etc<%sEV_QUE_NAME0>Get your moisture solution from": ""
+  },
+  "206798": {
+    "<attr><feel_normal_one><end_attr><icon_exc>Well, that's..! You've already gotten\nyour hands on some moisture vinegar,\nhaven't you?<open_irai><bw_break>": ""
+  },
+  "206799": {
+    "<attr><feel_normal_one><end_attr>I apologize for the trouble I have\ncaused you, but I would be happy if\nyou could give it to my flower in the\n<br>\nWest District.<close_irai>": ""
+  },
+  "206800": {
+    "<attr><feel_normal_one><end_attr><icon_exc>The flower has come back to life? I\nthought it would just wither and die,\nbut what have you done to it?": ""
+  },
+  "206801": {
+    "<attr><feel_normal_one><end_attr>I didn't know that.  It has been a\nwhile since I have seen such a lively\nflower. It is good to see them in good\n<br>\nhealth.  I would like to thank you as\nwell.": ""
+  },
+  "206802": {
+    "The shriveled red flowers bloomed\nfeebly.<bw_break>": ""
+  },
+  "206803": {
+    "Do you give your flowers a solution of\nenriching wood vinegar?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "206804": {
+    "<pc>The \"Mere Old Man\" fed the shriveled\nflowers with a moist wood vinegar\nsolution!": ""
+  },
+  "206805": {
+    "The shriveled flowers were quickly\nrestored to life and their colorful\ncolors were brightened!<me 60>": ""
+  },
+  "206806": {
+    "<pc>explained that Hohihoho, a former\nresident of this house, had asked him\nto give the flowers some medicine.": ""
+  },
+  "206807": {
+    "<attr><feel_normal_one><end_attr>I wonder if the face of a man who has\ndone something might have given the\nflowers a moistening solution of wood\n<br>\nvinegar.": ""
+  },
+  "206808": {
+    "<attr><feel_normal_one><end_attr>Ah, so the current residents are also\nhappy that the flowers are doing well.\nI thought that since I cannot\n<br>\ncontribute to the overall happiness of\nthe community, I should not live\nshoulder to shoulder with everyone\n<br>\nelse. However, even I may be able to\nbring joy to other citizens through\nflowers. It is thanks to you that I\n<br>\nhave realized this.  From now on, I\nwill contribute to the happiness of\nthe entire community by growing\n<br>\nvigorous flowers.": ""
+  },
+  "206809": {
+    "<attr><feel_normal_one><end_attr>Well, I can't stay like this.  Flowers\nare waiting for me. I will do my best\nin rehabilitation to get back as soon\n<br>\nas possible.": ""
+  },
+  "206810": {
+    "<attr><feel_normal_one><end_attr>Well, I can't stay like this.  Flowers\nare waiting for me. I will do my best\nin rehabilitation to get back as soon\n<br>\nas possible. I hope you enjoyed this\nadventure! Did you enjoy my\nperformance?  There are many more\n<br>\nattractions to enjoy!": ""
+  },
+  "206812": {
+    "<attr><feel_normal_one><end_attr>It has been a long time since I have\nseen flowers so alive and vibrant. It\nis good to see them in good health.": ""
+  },
+  "206813": {
+    "<pc>told Hohohoho that Hana was feeling\nbetter and that Hohohafu had thanked\nhim!": ""
+  },
+  "206814": {
+    "Beautiful red flowers are blooming\nvigorously.": ""
+  },
+  "206815": {
+    "<attr><feel_normal_one><end_attr>Well, I can't stay like this.  Flowers\nare waiting for me. In order to get\nback soon, I will do my best in\n<br>\nrehabilitation first.": ""
+  },
+  "206816": {
+    "<attr><feel_normal_one><end_attr>I hope you enjoyed this adventure! Did\nyou enjoy my performance?  There are\nmany more attractions to choose from,\n<br>\nso please enjoy yourselves!": ""
+  },
+  "210192": {
+    "<attr><feel_normal_one><end_attr>I cannot take my eyes off these five\nmurals. Maybe it's because they depict\nthe image of the Creator, Palmio.  I\n<br>\nfeel very happy.": ""
+  },
+  "210193": {
+    "<pipipi_high>The title of this mural is \"Act 1: The\nEnd of Despair, The Perishing World\".\nIt depicts Astrutia, which has finally\n<br>\nmet its doom due to the thunder of\njudgment that has come down from the\nheavens.": ""
+  },
+  "210194": {
+    "<pipipi_high>The title of this mural is \"Act 2: The\nInfinite Power of the Born Light\". It\nwas painted to celebrate the\n<br>\ncompletion of the Infinite Power\nFurnace, the light of the Omai\nsalvation that was born by the\n<br>\nCreator, Palmio.": ""
+  },
+  "210195": {
+    "<pipipi_high>The title of this mural is \"Act 3:\nArwen, the New Land\". It depicts the\nbeautiful landscape of Arwen, the land\n<br>\nof hope created for the chosen\ncitizens to live in.": ""
+  },
+  "210196": {
+    "<pipipi_high>The title of this mural is \"Act 4:\nBirth of the Eternal Administrator\".\nIt depicts the heroic figure of the\n<br>\nEternal Administrator who was given\ninfinite life by the Creator to rule\nthe city of Arwen.": ""
+  },
+  "210197": {
+    "<pipipi_high>The title of this mural is \"Act 5:\nGarden of Joy, Bright Future\". It\ndepicts the citizens of Arwen\n<br>\npeacefully enjoying their days of rest\nwith the promise of a glorious future.\nWith the Creator's blessing and the\n<br>\nEternal Administrator's good\ngovernance, we will live happily ever\nafter in the city of Arwen.": ""
+  },
+  "210198": {
+    "The five murals you see here\n The history of the town of Arwen\n The history of the town of Alwane is depicted in these five murals\nFor more detailed explanations, touch each mural\n and listen to the audio guidance": ""
+  },
+  "210199": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210200": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210201": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210202": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210203": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210204": {
+    "<attr><feel_normal_one><end_attr>I cannot take my eyes off these five\nmurals. Maybe it's because they depict\nthe image of the Creator, Palmio.  I\n<br>\nfeel very happy.": ""
+  },
+  "210205": {
+    "<attr><feel_normal_one><end_attr><turn_pc>You should see them.  Take a look at\nall five murals and then listen to\nwhat I have to say.": ""
+  },
+  "210206": {
+    "<attr><feel_normal_one><end_attr>I cannot take my eyes off these five\nmurals. Perhaps it is because they\ndepict the image of the Creator,\n<br>\nPalmio.  I feel very happy.": ""
+  },
+  "210207": {
+    "<attr><feel_normal_one><end_attr><turn_pc>You saw it, too, didn't you?  Then I\nthink you must have been happy too. I\nam trying to learn more about this\n<br>\nmural in order to feel happier. One\nthing I am curious about is who in the\nworld painted it. There is no\n<br>\nsignature on the mural, and the voice\nguidance system doesn't tell us. So I\nhave a favor to ask you.  Can you at\n<br>\nleast look up the name of the artist\nof this mural?": ""
+  },
+  "210208": {
+    "<attr><feel_normal_one><end_attr>Thank you very much.  I was afraid you\nwould say I should have looked into it\nmyself. I have service duty and most\n<br>\nof all, I didn't want to take my eyes\noff this mural for even a second.\nThere is a muralist nearby, so why\n<br>\ndon't you go talk to him?  Please\ngrant my wish.": ""
+  },
+  "210209": {
+    "<attr><feel_normal_one><end_attr>Thank you very much.  But it seems you\nhave too many other requests. I can't\nask you to do that, so please come\n<br>\nback when you have more time.": ""
+  },
+  "210210": {
+    "<attr><feel_normal_one><end_attr>I see.  I'll just have to do it then.\n I'll keep looking at the mural.": ""
+  },
+  "210211": {
+    "<attr><feel_normal_one><end_attr>Why can't I take my eyes off this\nmural?": ""
+  },
+  "210212": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you.  I'd like to know who\npainted this mural.<open_irai><bw_break>": ""
+  },
+  "210213": {
+    "<attr><feel_normal_one><end_attr>There is a Mural Management Pecolia\nnearby, could you please go and talk\nto him?  Please grant my wish.": ""
+  },
+  "210214": {
+    "The five murals you see here\n The history of the town of Arwen\n The history of the town of Alwane is depicted in these five murals\nFor more detailed explanations, touch each mural\n and listen to the audio guidance": ""
+  },
+  "210215": {
+    "Yes, sir\n We'll search our database for the author\n Please wait a moment\nKessakuchu!\n Kekke, kesakuchu\nIn the database of all the pekoriyas linked to this page\n No relevant data found in the database of all the linked pekoriya\n There is a possibility that the data has been deleted\nIt is impossible to recover the data\n However, if you have an older device that is no longer linked to the site\n There may be some data left\nSo if you want the author's data\n If you want the author's data, I recommend that you go look for a discarded terminal\n ♪ I recommend you to search for the discarded terminal ♪\nOlder terminals that are no longer needed\n \"that have been disposed of in the off-limits section of the ship\n ♪ I've read in the records that they've been discarded in the off-limits section of the ship ♪": ""
+  },
+  "210216": {
+    "Would you like to ask this admin\ncomputer about the artist of the\nmural?<yesno><case 1><break><case 2><close><case_cancel><break><case_end>": ""
+  },
+  "210217": {
+    "<pc>asked Pecolia, the muralist, about the\nartist of the mural.": ""
+  },
+  "210218": {
+    "<attr><feel_normal_one><end_attr>Why can't I take my eyes off this\nmural?": ""
+  },
+  "210219": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it was you.  You've been talking\nto the computer that manages the\nmural? I see. They couldn't find the\n<br>\ndata.  But there might be some data\nleft in the old terminals that were\ndiscarded. Then could you please find\n<br>\nthe old terminal and see if it still\nhas the data?<open_irai><bw_break>": ""
+  },
+  "210220": {
+    "<attr><feel_normal_one><end_attr>I'm sorry, but I can't take my eyes\noff this mural.": ""
+  },
+  "210221": {
+    "In the database of all the pekorian links\n \"I can't find any data on the mural's creator in the linked database\n It may have been deleted\nIt is not possible to recover the data\n However, if you're using an older device that's no longer linked to the site\n The data may still be there\nSo if you want the author's data\n If you want the author's data, I recommend that you go look for a discarded terminal\n ♪ I recommend you to search for the discarded terminal ♪\nOlder terminals that are no longer needed\n \"that have been disposed of in the off-limits section of the ship\n ♪ I've read in the records that they've been discarded in the off-limits section of the ship ♪": ""
+  },
+  "210222": {
+    "<attr><feel_normal_one><end_attr>Why can't I take my eyes off this\nmural?": ""
+  },
+  "210223": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it was you.  Did you find the old\nterminal where you think the mural\nartist's data might have been stored?<open_irai><bw_break>": ""
+  },
+  "210224": {
+    "<attr><feel_normal_one><end_attr>I see. So the terminal failed to\nreboot and we can't check the data\nyet. Then, I'm sorry, but could you\n<br>\nplease get hold of a bio-cable and\nreboot it for me? I've heard that they\nare in natural heritage preserves.<%sEV_QUE_NAME0>I am not capable of defeating the\n\"Mere Old Man.": ""
+  },
+  "210225": {
+    "<attr><feel_normal_one><end_attr>Why can't I take my eyes off this\nmural?": ""
+  },
+  "210226": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you.  You found an old\nterminal that we think may have data\non the mural's creator.<open_irai><bw_break>": ""
+  },
+  "210227": {
+    "<attr><feel_normal_one><end_attr>I see. You needed the bio cable to\nreboot the terminal, and you were able\nto get it. Now, I'm sorry, but you're\n<br>\ngoing to have to reboot the old\nterminal and ask about the mural\nartist.": ""
+  },
+  "210228": {
+    "<attr><feel_normal_one><end_attr>Why can't I take my eyes off this\nmural?": ""
+  },
+  "210229": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it was you.  What do you think?\nDid you learn anything about the\nartist of this mural?": ""
+  },
+  "210230": {
+    "<attr><feel_normal_one><end_attr>The artist of this mural is named\nArdigo, a 38-year-old human male? This\nis where he painted the mural?  I\n<br>\ndon't think there were any other\nspecies living in this town besides\nPuclipo. I don't think there were any\n<br>\nother tribes besides the Pukuripo\nliving in this town, and I know many\ntribes flourished in Astartia, but\n<br>\nthey must have died out, leaving us\nhere. Also, you mentioned that the\ntitle of the first mural was \"Astrutia\n<br>\nin its day. However, according to the\nvoice guidance, that title is not\ngiven to any of the five murals.  What\n<br>\nis this? I have more questions, but\nthanks to you, I now know more about\nthe artist of the murals. Thank you\n<br>\nvery much.  I have prepared a small\ntoken of my appreciation, so please\naccept it.": ""
+  },
+  "210231": {
+    "<attr><feel_normal_one><end_attr>I don't know why I care so much about\nthis mural. For now, I'd like to\nponder it for a while.": ""
+  },
+  "210232": {
+    "<pc>He told Hehehoha that the artist of\nthe mural was named Ardigo!": ""
+  },
+  "210233": {
+    "<attr><feel_normal_one><end_attr>Something is wrong with this mural.\n Why does it bother me so much?": ""
+  },
+  "210234": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you.  Thank you for looking\ninto the artist of this mural. But I'm\ncurious about something else.  That\n<br>\nthere was a human named Ardigo in this\ntown that was supposed to be populated\nonly by Puculipo. And that the title\n<br>\nof the mural is different from the one\nwe see before us now.  These two\nthings. I don't know why this mural\n<br>\nbothers me so much. I don't know why\nit bothers me so much, but for now I'd\nlike to ponder it for a while.": ""
+  },
+  "210235": {
+    "The five murals you see here\n The history of the town of Arwen\n The history of the town of Alwane is depicted in these five murals\nFor more detailed explanations, touch each mural\n and listen to the audio guidance": ""
+  },
+  "210285": {
+    "<attr><feel_normal_one><end_attr>What is it about this mural that is so\ndisturbing to me?": ""
+  },
+  "210286": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you.  You have just arrived\nat the right place. I have a new\nquestion that has been nagging at me\n<br>\never since you looked into it the\nother day. Was there really a human\nArdigo in Arwen, where there should\n<br>\nhave been no one but Puclipo? Why\nisn't there a mural titled \"Astrutia\nin her time\" on display here?  These\n<br>\nare the questions we're trying to\nanswer. Could you ask Mural Management\nPecolia if there have been any\n<br>\nanomalies between the time this mural\nwas created and today?": ""
+  },
+  "210287": {
+    "<attr><feel_normal_one><end_attr>Thank you very much.  You are truly a\nkind person. Mural Pecolia is nearby,\nso please, please, please.": ""
+  },
+  "210288": {
+    "<attr><feel_normal_one><end_attr>Thank you very much.  But it seems you\nhave too many other requests. I can't\nask you to do that, so please come\n<br>\nback when you have more time.": ""
+  },
+  "210289": {
+    "<attr><feel_normal_one><end_attr>I see.  Then there is nothing I can\ndo.  I'll let my thoughts wander\nagain.": ""
+  },
+  "210290": {
+    "<attr><feel_normal_one><end_attr>What is it about this mural that is so\ndisturbing to me?": ""
+  },
+  "210291": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you. Was there really a human\nMr. Ardigo here in Arwen, where there\nshould be no one but Puclipo?<open_irai><bw_break>": ""
+  },
+  "210292": {
+    "<attr><feel_normal_one><end_attr>Why isn't there a mural titled\n\"Astrutia in Her Time\" hanging here?\n I'd like to address these questions.\n<br>\nCould you ask Pecolia, the mural\nmanager nearby, if there have been any\nanomalies between the time this mural\n<br>\nwas created and today?": ""
+  },
+  "210293": {
+    "The five murals you see here\n The history of the town of Arwen\n The history of the town of Alwane is depicted in these five murals\nFor more detailed explanations, touch each mural\n and listen to the audio guidance": ""
+  },
+  "210294": {
+    "I will search the past management\nrecord about the mural painting, so\nplease wait for a while... ♪\n<br>\nKensakuchu ♪ Kekke Kensakuchu ♪ This\nmural painting is not painted on the\nwall, but the scanned data of the\n<br>\nmaterial mural painting is displayed\non the display... ♪ The scanned data\nis the reproduction of the mural\n<br>\npainting. The scanned data was updated\nonce a long time ago by order of the\nbody C141... ♪ Since it was\n<br>\noverwritten, the data before the\nupdate has been completely erased.  It\nseems impossible to restore the\n<br>\ndata.......We were able to confirm\nthat the backup data existed, but it\nhas been discarded as well.......  For\n<br>\nmore information, please ask the\nperson in charge at the observation\nhut No. 1 in the south of the Natural\n<br>\nHeritage Preserve.": ""
+  },
+  "210295": {
+    "Would you ask Mural Management Pecolia\nif there have been any changes so far?<yesno><break>": ""
+  },
+  "210296": {
+    "<pc>asked Pecolia, the muralist, if there\nhad been any changes so far.": ""
+  },
+  "210297": {
+    "<attr><feel_normal_one><end_attr>What is it about this mural that is so\ndisturbing to me?": ""
+  },
+  "210298": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you.  Did you ask Mural\nManagement Pecolia for the management\nrecords?<open_irai><bw_break>": ""
+  },
+  "210299": {
+    "<attr><feel_normal_one><end_attr>I see. So this mural was replaced by\nanother one. The backup data was\ndiscarded.  If we have it, we might be\n<br>\nable to restore the mural to its\noriginal state before it was replaced.\nI'm sorry, but could you please meet\n<br>\nwith C140, the copyist who was in\ncharge of the destruction, and see\nwhat happened to the backup data?": ""
+  },
+  "210300": {
+    "This mural is not painted on the wall,\nbut the scanned data of the material\nmural is displayed on the\n<br>\ndisplay......The scanned data was\nupdated by order of duplicate C141 a\nlong time ago......Since it was\n<br>\noverwritten, the data before the\nupdate has disappeared completely.  It\nseems impossible to restore the\n<br>\ndata.......We were able to confirm\nthat the backup data existed, but it\nhas been discarded as well.......  For\n<br>\nmore information, please ask the\nperson in charge at the observation\nhut No. 1 in the south of the Natural\n<br>\nHeritage Preserve.": ""
+  },
+  "210301": {
+    "<attr><feel_normal_one><end_attr>What is it about this mural that is so\ndisturbing to me?": ""
+  },
+  "210302": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you.  Have you made any\nprogress since then?<open_irai><bw_break>": ""
+  },
+  "210303": {
+    "<attr><feel_normal_one><end_attr>So the backup data that was supposed\nto have been discarded is still there.\nThe data was put on a memory chip and\n<br>\nhidden at the base of an overgrown\ntree above the entrance to a cave in\nthe Natural Heritage Reserve. Maybe if\n<br>\nwe find it and give it to Mural\nPecolia, they might be able to do\nsomething about it. I'd love to see a\n<br>\ncopy of that old mural.  I'd like to\nsee it.  Please find it.": ""
+  },
+  "210304": {
+    "According to the management record of\nthe mural, the scanned data was\nupdated once a long time ago by order\n<br>\nof replicant C141. However, if you\nhave the backup data, it is possible\nto restore it.": ""
+  },
+  "210305": {
+    "We received the restoration work of\nthe mural.  We have confirmed the\noriginal scanned data of the mural.\n<br>\n I'm going to start the restoration\nright away. Scan data restored.\n Please touch each mural once to\n<br>\ncomplete the restoration.": ""
+  },
+  "210306": {
+    "Would you give Mural Management\nPecolia a memory chip with backup data\nand have them restore the mural?<yesno><break>": ""
+  },
+  "210307": {
+    "<pc>gave Mural Management Pecolia a memory\nchip.": ""
+  },
+  "210308": {
+    "<attr><feel_normal_one><end_attr>What happened?  The mural looks\nstrange.": ""
+  },
+  "210309": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you. The backup data you\nfound reverted the mural back to what\nit was before?<open_irai><bw_break>": ""
+  },
+  "210310": {
+    "<attr><feel_normal_one><end_attr>Then I want you to examine all the\nmurals with your own hands and\ncomplete the restoration. I'm afraid\n<br>\nI'm afraid to do that.  Please, I'm\ncounting on you.": ""
+  },
+  "210311": {
+    "<pipipi_high>The scan data of the mural is being\nupdated.  Please wait for a while\nuntil the image is changed.": ""
+  },
+  "210312": {
+    "<pipipi_high>The title of this mural is \"A-1:\nAstrutia in the days of yore\". It is a\nbeautiful depiction of what Astrutia\n<br>\nused to be like when many people lived\nin peace.": ""
+  },
+  "210313": {
+    "<pipipi_high>The scan data of the mural is being\nupdated.  Please wait for a while\nuntil the image is changed.": ""
+  },
+  "210314": {
+    "<pipipi_high>The title of this mural is \"A-2:\nBraves Fighting Threats\". It depicts\nthe heroes of the six races fighting\n<br>\nthe worst threats to Astrutia with a\ndesperate resolve.": ""
+  },
+  "210315": {
+    "<pipipi_high>The scan data of the mural is being\nupdated.  Please wait for a while\nuntil the image is changed.": ""
+  },
+  "210316": {
+    "<pipipi_high>The title of this mural is \"A-3:\nMother Earth Dying\". It sadly depicts\nthe destruction of Astrutia by the\n<br>\nworst of the endlessly multiplying\nthreats.": ""
+  },
+  "210317": {
+    "<pipipi_high>The scan data of the mural is being\nupdated.  Please wait for a while\nuntil the image is changed.": ""
+  },
+  "210318": {
+    "<pipipi_high>The title of this mural is \"A-4: In\nSearch of a New Heaven and a New\nEarth\". It is a magnificent depiction\n<br>\nof the construction of a huge ark to\nescape from Astrutia by the wise men\nof the Crown of Wisdom and Palmio.": ""
+  },
+  "210319": {
+    "<pipipi_high>The scan data of the mural is being\nupdated.  Please wait for a while\nuntil the image is changed.": ""
+  },
+  "210320": {
+    "<pipipi_high>The title of this mural is \"A-5\nDeparture and Farewell. Those who\nremained to protect Astrutia and those\n<br>\nwho departed to new lands are painted\nin a sophisticated manner.": ""
+  },
+  "210321": {
+    "Scan data restored.  Please touch each\nmural once to complete the\nrestoration.": ""
+  },
+  "210322": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210323": {
+    "<se_nots battle_magic 10>After the mural disappeared, another\none appeared as if it were floating in\nthe air!": ""
+  },
+  "210324": {
+    "<se_nots battle_magic 10>After the mural disappeared, another\none appeared as if it were floating in\nthe air!": ""
+  },
+  "210325": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210326": {
+    "<se_nots battle_magic 10>After the mural disappeared, another\none appeared as if it were floating in\nthe air!": ""
+  },
+  "210327": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210328": {
+    "<se_nots battle_magic 10>After the mural disappeared, another\none appeared as if it were floating in\nthe air!": ""
+  },
+  "210329": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210330": {
+    "<se_nots battle_magic 10>After the mural disappeared, another\none appeared as if it were floating in\nthe air!": ""
+  },
+  "210331": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210332": {
+    "<attr><feel_normal_one><end_attr>Is this the original mural?  What a\nsurprise!": ""
+  },
+  "210333": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Please take a look at it. The murals\nare completely different from the\nprevious ones.  This is the correct\n<br>\nhistory. Thanks to you, we can see the\ntruth of the mural.  I can't thank you\nenough. I have prepared a small token\n<br>\nof my gratitude again, so please\naccept it.": ""
+  },
+  "210334": {
+    "<attr><feel_normal_one><end_attr>According to this truthful mural, we\ncan only assume that there were other\nspecies aboard the ship, other than\n<br>\nour own Puculipo. But the fact that\nthere were other species is not known\nto us, nor are there any traces of\n<br>\nthem left anywhere. What could have\nhappened to them? The questions are\nstill unanswered, but for now, I will\n<br>\njust stare at this truthful mural.": ""
+  },
+  "210335": {
+    "<pipipi_high>The title of this mural is \"A-1:\nAstrutia in the days of yore\". It is a\nbeautiful depiction of what Astrutia\n<br>\nused to be like when many people lived\nin peace.": ""
+  },
+  "210336": {
+    "<pipipi_high>The title of this mural is \"A-2:\nBraves Fighting Threats\". It depicts\nthe heroes of the six races fighting\n<br>\nthe worst threats to Astrutia with a\ndesperate resolve.": ""
+  },
+  "210337": {
+    "<pipipi_high>The title of this mural is \"A-3:\nMother Earth Dying\". It sadly depicts\nthe destruction of Astrutia by the\n<br>\nworst of the endlessly multiplying\nthreats.": ""
+  },
+  "210338": {
+    "<pipipi_high>The title of this mural is \"A-4: In\nSearch of a New Heaven and a New\nEarth\". It is a magnificent depiction\n<br>\nof the construction of a huge ark to\nescape from Astrutia by the wise men\nof the Crown of Wisdom and Palmio.": ""
+  },
+  "210339": {
+    "<pipipi_high>The title of this mural is \"A-5\nDeparture and Farewell. Those who\nremained to protect Astrutia and those\n<br>\nwho departed to new lands are painted\nin a sophisticated manner.": ""
+  },
+  "210340": {
+    "The restoration of the murals has been\ncompleted.  For a detailed explanation\nof the contents, please touch each\n<br>\nmural and listen to the audio\nguidance.": ""
+  },
+  "210341": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210342": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210343": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210344": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210345": {
+    "<pc>When I touched the mural, I could hear\nthe voice of a happy woman coming from\nsomewhere.": ""
+  },
+  "210346": {
+    "<attr><feel_normal_one><end_attr><turn_pc>According to this truthful mural, we\ncan only assume that there were other\nspecies aboard the ship, other than\n<br>\nour own Puculipo. But the fact that\nthere were other species is not known\nto us, nor are there any traces of\n<br>\nthem left anywhere. What could have\nhappened to them? The questions are\nstill unanswered, but for now, I will\n<br>\njust stare at this truthful mural.": ""
+  },
+  "210347": {
+    "<attr><feel_normal_one><end_attr>Dear Palmio the Creator.  What on\nearth has become of the rest of our\nrace?": ""
+  },
+  "210348": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you. I cannot sleep at night\nknowing that, with the blessings of\nPalmio the Creator, there are no other\n<br>\nraces left. I have a favor to ask of\nyou once again.  Please tell me more\nabout the other races that were\n<br>\nsupposed to be on this ship.": ""
+  },
+  "210349": {
+    "<attr><feel_normal_one><end_attr>Thank you very much.  I apologize for\nrepeatedly engaging your personal\ninterest in my work. Since this is\n<br>\nfrom the past, I was wondering if\nPupeko, an old discarded terminal,\nmight know something about it. Please\n<br>\ngo to Pupeko in the off-limits area\nand ask him about the other species.\n Thank you in advance.": ""
+  },
+  "210350": {
+    "<attr><feel_normal_one><end_attr>Thank you very much.  But it seems you\nhave too many other requests. I can't\nask you to do that, so please come\n<br>\nback when you have more time.": ""
+  },
+  "210351": {
+    "<attr><feel_normal_one><end_attr>I see.  In that case, I have no\nchoice.  If you change your mind,\nplease come again.": ""
+  },
+  "210352": {
+    "<attr><feel_normal_one><end_attr>Dear Palmio the Creator.  What on\nearth has become of the rest of our\nrace?": ""
+  },
+  "210353": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you.  I want you to tell me\nmore about the other species that must\nhave been aboard this ship.<open_irai><bw_break>": ""
+  },
+  "210354": {
+    "<attr><feel_normal_one><end_attr>Since we are talking about past\nevents, perhaps Pupeko, the old\nterminal that was discarded, might\n<br>\nknow something about them. Please go\nto Pupeko in the off-limits area and\nask him about other species.  Thank\n<br>\nyou in advance.": ""
+  },
+  "210355": {
+    "<attr><feel_normal_one><end_attr>Dear Palmio the Creator.  What on\nearth has become of the rest of our\nrace?": ""
+  },
+  "210356": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you.  I see that Pupeko has\ntold you about the other species.<open_irai><bw_break>": ""
+  },
+  "210357": {
+    "<attr><feel_normal_one><end_attr>I see. So, you found the data, but you\ncan't disable it because of the\nprotection program that's been put on\n<br>\nit. Then, I'm sorry, but I'm going to\nhave to ask you to leave the off-\nlimits zone as Pupeko suggested.<%sEV_QUE_NAME0>Get your clock uppers from": ""
+  },
+  "210358": {
+    "<attr><feel_normal_one><end_attr>Dear Palmio the Creator.  What on\nearth has become of the rest of our\nrace?": ""
+  },
+  "210359": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you.  Have you made any\nprogress since then?<open_irai><bw_break>": ""
+  },
+  "210360": {
+    "<attr><feel_normal_one><end_attr>I see. So you were able to obtain a\nclock-upper to boost Pupeko's\ncomputing power. Then please ask\n<br>\nPupeko to deactivate the protection\nprogram on the old terminal that had\nbeen discarded.  Thank you very much.": ""
+  },
+  "210361": {
+    "<attr><feel_normal_one><end_attr>Dear Palmio the Creator.  What on\nearth has become of the rest of our\nrace?<bw_break>": ""
+  },
+  "210362": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you.  I see you've made some\nprogress.<open_irai><bw_break>": ""
+  },
+  "210363": {
+    "<attr><feel_normal_one><end_attr>I see. So you were able to unlock the\ndata protection program for other\nspecies and see what was inside. You\n<br>\nhave a voice recorder with the voice\nof Palmio the Creator?  I'd like to\nhear all about it. If I say the words\n<br>\nof Palmio in front of the Big Horn at\nthe Astorian Museum, I might be able\nto get it? The only thing I can think\n<br>\nof to say to the Creator Palmio is \"Ia\nta'a simpah kew.  I think this is the\nonly way.": ""
+  },
+  "210364": {
+    "<attr><feel_normal_one><end_attr>Dear Palmio the Creator.  What on\nearth has become of the rest of our\nrace?": ""
+  },
+  "210365": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it was you.  Looks like you've got\nsomething definitive.  I can see it in\nyour chao.": ""
+  },
+  "210366": {
+    "<attr><feel_normal_one><end_attr>It seems I was wrong.  I am very\nsorry.": ""
+  },
+  "210367": {
+    "<attr><feel_normal_one><end_attr>This is.  I think it's a voice\nrecorder that records and stores\naudio.": ""
+  },
+  "210368": {
+    "<attr><feel_normal_one><end_attr><icon_exc>What? You think this has the voice of\nour Creator, Palmio?  Let's listen to\nit right away!": ""
+  },
+  "210369": {
+    "<attr><feel_normal_one><end_attr>These are the words of our Creator,\nPalmio. I understand why there are no\nother species.  But more than that. I\n<br>\nthought that Palmio was an absolute\nand majestic Creator with divine\npower, but he is not a god at all.  He\n<br>\nwas just a parent with a child, a\nhuman being with worries and regrets.\nBut even so, Parmio did everything he\n<br>\ncould to preserve hope.  And he\nentrusted us with the future. I\nbelieve that we must do our best for\n<br>\nthose of other races who unfortunately\ncould not make it to the future.\nThanks to you, I have learned many\n<br>\ntruths and have hope for the future.\n I cannot thank you enough. This is my\nthanks.  Please accept it.": ""
+  },
+  "210370": {
+    "<attr><feel_normal_one><end_attr>I will continue to gaze at this mural.\n I will continue to look at this mural\nso that I will not lose hope for the\n<br>\nfuture and the courage to reach it.": ""
+  },
+  "210371": {
+    "<attr><feel_normal_one><end_attr>I will continue to gaze at this mural.\n I will continue to look at this mural\nso that I will not lose hope for the\n<br>\nfuture and the courage to get there.\nSo, how was this moving attraction\nthat gave you the experience of\n<br>\nspectacular historical romance? I hope\nyou enjoyed the other attractions as\nmuch as I did. See you soon!": ""
+  },
+  "210373": {
+    "Would you like me to give Heehawha the\nvoice recorder?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "210374": {
+    "<pc>gave Hehehoha a voice recorder.": ""
+  },
+  "210375": {
+    "Looks like hehehoha hit the playback\nswitch on the voice recorder!": ""
+  },
+  "210376": {
+    "<pipipi_mid>The voyage of the spaceship Arwen is\ngoing well!  My masterpiece, the\nInfinite Power Reactor, is running\n<br>\nstrong, no problem. But then, lo and\nbehold..!  Suddenly, an epidemic broke\nout on board and many people died!\n<br>\nSomehow, we Pukuripo were not\ninfected, but all the other species\nwere wiped out.  Only the Pukuripo\n<br>\nsurvived. And even Prince Laguas, who\nwas scrambling to save the day, was\nforced to do everything he could, and\n<br>\nfinally, he was a stranger. In order\nto rebuild Arwen, which has fallen\ninto chaos, and for those who remain\n<br>\nto live, a new leader is needed. I\nentrust my son Pukhras with that task.\n With his cold sleep and cloning\n<br>\nsystem, he will be the leader forever.\nI am a bad father. But you, my son!  I\nhave faith that you will fulfill this\n<br>\ngreat task without being crushed! May\nyou one day reach a glorious future\nwithout such sacrifices.  This is\n<br>\nPalmio for you!": ""
+  },
+  "210377": {
+    "<attr><feel_normal_one><end_attr>We must do our best to make up for the\npeople of other races who\nunfortunately did not make it to the\n<br>\nfuture.": ""
+  },
+  "210378": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you.  Thank you for knowing\nso much truth and having so much hope\nfor the future in your heart. I will\n<br>\ncontinue to gaze at this mural.  I\nwill continue to look at this mural so\nthat I will not lose hope for the\n<br>\nfuture and the courage to get there.": ""
+  },
+  "210379": {
+    "<attr><feel_normal_one><end_attr>It's almost time to clean the mural.\n We need to start preparing.": ""
+  },
+  "210380": {
+    "<attr><feel_happy_lv2><end_attr><turn_pc>Oh, it's you!  We hope you enjoyed our\nspectacular historical romance\nattraction. Please enjoy the other\n<br>\nattractions as well. See you soon!": ""
+  },
+  "210895": {
+    "There is a statue with a serious face\nthat gives the impression of being\nsomewhat stiff. Would you like to read\n<br>\nthe sign?<yesno><close>": ""
+  },
+  "210896": {
+    "One, all citizens should think only of\nthe well-being of the entire Starship\nArwen. One, all citizens should\n<br>\ncooperate in the service of Starship\nArwen to help her overcome her\nsuffering. One, all citizens should\n<br>\nsuppress emotions that negatively\naffect their service. In particular,\nwe must all refrain from the act of\n<br>\nlaughing, which can greatly reduce the\nproductivity of our service. Citizens\nare to abide by all teachings and\n<br>\ncontribute to the well-being of the\nStarship Arwen.": ""
+  },
+  "210897": {
+    "There may be a clue to open the door\nto the underground passage in here.\nLet's find the answer and show it to\n<br>\nthe door!": ""
+  },
+  "211104": {
+    "My goodness, this was the middle tier:\nthe town of Arwen!": ""
+  },
+  "211105": {
+    "My goodness, this was the middle tier:\nthe town of Arwen!": ""
+  },
+  "211106": {
+    "My goodness, this was the middle\nlevel: the town of Arwen, the service\nroom!": ""
+  },
+  "211334": {
+    "Apparently, baboon hehehe thinks\nPecolia is her mom.": ""
+  },
+  "211994": {
+    "I'm going to play a sound clip of the elves\n ♪ We'll play it for you now ♪": ""
+  },
+  "212057": {
+    "There is a statue of a man with a\nserious face, giving a somewhat rigid\nimpression.": ""
+  },
+  "215104": {
+    "<attr><feel_normal_one><end_attr>What is it about this mural that is so\ndisturbing to me?": ""
+  },
+  "215106": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh, it's you.  Have you made any\nprogress since then?<open_irai><bw_break>": ""
+  },
+  "215487": {
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh.  You found the memory chip that\ncontains the data that was supposed to\nbe discarded. Then give the memory\n<br>\nchip to Mural Pecolia. You say you\nlike the replicas of the mural that\nwas once there.  I'd like to see it\n<br>\ntoo.  Please do so.": ""
+  },
+  "221779": {
+    "The Arwen is a beautiful ship.  We,\nthe cast members, are very happy.  We\nhave food, clothing, shelter, and a\n<br>\nfun job!": ""
+  },
+  "221781": {
+    "Welcome to the tourist spaceship\nArwen!  Here at the residence, we\noffer shopping and accommodation\n<br>\nservices. We hope you enjoy your\nwonderful journey through space!": ""
+  },
+  "221783": {
+    "Oh, hey, where have I seen you\nbefore? Do I know you from somewhere?\n No, no, no!  I'm not a catchphrase\n<br>\nsalesman! I'm a guest you've never met\nbefore.  And yet, when I saw your\nface, for some reason I felt that you\n<br>\nwere from my past. Hahahahaha! Sorry,\nsorry!  Now, please enjoy your trip on\nthe sightseeing spaceship Arwen as\n<br>\nmuch as you can!": ""
+  },
+  "221785": {
+    "I'm last call with my mom!  We're\ngoing to stay here and play with\nPecolia and her friends until they\n<br>\ncome for us!": ""
+  },
+  "221787": {
+    "What? Don't you know Pukras?  Of\ncourse I know him!  He's one of the\nbuilders of this spaceship! You know a\n<br>\nlot for a guest.  How are you\ndoing? Are you enjoying your space\ntrip?  I'd love it if this ship\n<br>\nbrought a smile to your face!": ""
+  },
+  "221789": {
+    "Oh, my God, I'm so mad!  I got hurt\nwhen I jumped off the roof to practice\nfor a comedy show! But you have to go\n<br>\nfor the edge to get laughs from the\naudience.  When I get better, I'll try\nagain!": ""
+  },
+  "221791": {
+    "The people who live here aren't\ntourists, they work on the spaceship\nArwen.  We're called Cast Members.\n<br>\nSometimes I miss Astrutia, but I don't\nthink I'll ever stop working on this\nship.  The view from the walkway is\n<br>\nthe best in the world.": ""
+  },
+  "221793": {
+    "We have loved comedy since we were\nlittle!  That's why the four of us\nformed a comedy unit to show our\n<br>\nmaterial to tourists. Our specialty is\nto have the audience hold the hem of\nour clothes like this.  Oh, no,\n<br>\nno! We'll see what happens on stage!": ""
+  },
+  "221795": {
+    "Mnemnya mnemnya.  I'm not supposed to\nbe on shift yet.  Let me sleep a\nlittle longer, mnya.": ""
+  },
+  "221797": {
+    "Let's see, the first captain and\ncurator of the Puclus, the one who\nbuilt the Parmio and the Laguas ship,\n<br>\nwas it the Parmio or the Laguas? Which\nwas it? I'll fail next week's casting\nexam again if I'm like this~!  I'll\n<br>\nhave to do my best to remember!": ""
+  },
+  "221799": {
+    "We, the Cast Members, would like to\nextend a hearty welcome to all guests\nvisiting the tourist spaceship Arwen.\n<br>\nOf course, our trusty companion,\nComputer Pecolia, has also been\nwaiting for your visit!": ""
+  },
+  "221801": {
+    "The tourist spaceship Arwen travels\naround the universe for six months. If\nyou miss Astrutia, you should go to\n<br>\nthe Lower Natural Heritage Reserve.\n It's a wonderful recreation of the\noriginal!": ""
+  },
+  "221803": {
+    "Even though it's supposed to give off\na retro vibe, the uniforms of Arwen's\ncitizens are so old-fashioned and\n<br>\ndowdy. Next time I go back to\nAstrutia, I'm going to ask Mom and Dad\nto buy me lots of the latest mode!": ""
+  },
+  "221807": {
+    "Only girly cast members can do the\nsexting in the infinite field!  I'm\ndefinitely going to be a pooper!": ""
+  },
+  "221809": {
+    "The biggest attraction of the Arwen\ntourist ship is a huge attraction that\ntransforms the entire ship into a\n<br>\nworld of despair. Only you, the kind-\nhearted guest, can save the citizens\nwho have lost their minds under the\n<br>\ncontrol of the sad clones! I'm trying\nvery hard to memorize all the details\nso that I don't lose my mind.": ""
+  },
+  "221811": {
+    "Experience another world in an old-\nfashioned Pukland-style town in\naddition to a cruise on a state-of-\n<br>\nthe-art spaceship!  This is a double\ntour with a single trip! This is the\nselling point of this spaceship.  To\n<br>\nfully enjoy this otherworldly\nexperience, please check out our\nbookshelf!": ""
+  },
+  "221813": {
+    "Oh, are you hurt somewhere, too?\n Don't worry. Pecolia will take a look\nat you and you'll be fine in no time.": ""
+  },
+  "221815": {
+    "At first, the spaceship Arwen was a\nrun-of-the-mill passenger ship. The\nservice room in the central area\n<br>\noffered a variety of services to the\npassengers, but the most popular of\nall were the plays. What started in\n<br>\nthe service room became a large scale\nattraction, with the entire ship as a\nstage. Now you could say that the\n<br>\nentire tourist ship Arwen has become a\nservice room.  That place is our\nroots.": ""
+  },
+  "221817": {
+    "The world of the attraction is based\non a prediction of the future\ndestruction that King Ragus of\n<br>\nMegistris saw a long time ago. The\nprediction is so realistic that some\nadults are wondering if it really\n<br>\nhappened.  There are even adults who\nthink it might have really happened.": ""
+  },
+  "221819": {
+    "When I grow up, I'm going to be a big\ncast member and play a bad clone!\nPukuripo, do unto me!  Ia taa simpak\n<br>\nkew!": ""
+  },
+  "221821": {
+    "I risked my life to maintain the\ntourist spaceship Arwen. I was mopping\nthe floor in the off-limits section\n<br>\nand got hit by a beam. I almost got\nroasted alive by Puculipo.  I'm going\nto stay in the sanatorium until I\n<br>\nheal.": ""
+  },
+  "221823": {
+    "Hello, guest!  Welcome to the tourist\nspaceship Arwen... and to the service\nroom, please cross this bridge into\n<br>\nthe central area... and take the\nelevator down to the basement level.": ""
+  },
+  "221825": {
+    "Hello, guest!  Welcome to Aluwen,\nwhere we provide temporary care for\nour guests' children and train future\n<br>\ncast members.": ""
+  },
+  "221827": {
+    "Hello, guest!  Welcome to the tourist\nspaceship Arwen... and we hope you\nenjoy your stay.": ""
+  },
+  "221829": {
+    "Hello, guests!  Welcome to the tourist\nship Arwen... where we treat our\nguests and cast members... who are\n<br>\nsuffering from health problems.": ""
+  },
+  "221831": {
+    "This is the childcare district, the children's home\n We're raising our future cast members\n We also provide temporary care for our guests": ""
+  },
+  "221833": {
+    "Hello, guest!  Welcome to the tourist\nspaceship Arwen. This is the town of\nArwen, the residential area. If you\n<br>\nneed to go shopping or to the church,\nplease move to the east, if you need\nto stay, please move to the west!  If\n<br>\nyou need to go shopping or to the\nchurch, please go east. If you need to\nstay the night, please go west.": ""
+  },
+  "221835": {
+    "This is the daycare district This is my daughter's house\n We're raising our future cast members": ""
+  },
+  "221837": {
+    "Hello, guest!  Welcome to the tourist\nspaceship Arwen... and to the service\nroom, please cross this bridge into\n<br>\nthe central area... and take the\nelevator down to the basement level.": ""
+  },
+  "221839": {
+    "Hello, guest!  Welcome to the tourist\nspaceship Arwen... and to the service\nroom, please enter this building...\n<br>\nand take the elevator down to the\nbasement level... where you will find\nthe service room.": ""
+  },
+  "221841": {
+    "This is the childcare district, the home for young people\n We're raising our future cast members": ""
+  },
+  "228896": {
+    "Hello, guests!  Welcome to Arwen, the\nnew attraction \"Gopher's Ark\", which\nis currently under development. This\n<br>\nis a completely new story that was\ncreated by boldly interpreting the\nrecently excavated legend of Pukhras\n<br>\nwith a modern sense! Would you like to\nexperience the memorable first\n\"Gopher's Ark\" and cooperate with us\n<br>\nby filling out a survey?": ""
+  },
+  "228898": {
+    "Thank you very much! Guests will enter\nthe Virtual Pukhras Experience\nMachine, or VP Machine for short,\n<br>\nlocated in the service room, and when\nthey activate the VP Machine, their\nthoughts will be guided into the world\n<br>\nof the story and transformed into the\nheroic Pukhras! The guest becomes\nPukhras the Hero and defeats the\n<br>\nenemies that are coming at him! The\nattraction will be cleared by\ndefeating the boss that stands in your\n<br>\nway, so please do your best! Please\nnote that the VP machine is a machine\nfor one person only♪ Please wait for\n<br>\nother guests when you play this\nattraction.": ""
+  },
+  "228900": {
+    "Oh, no? It seems that you are busy\nwith other work now... ♪ When you\nfinish your work and you are free,\n<br>\nplease come visit us again ♪": ""
+  },
+  "228902": {
+    "We are looking forward to seeing you again!": ""
+  },
+  "228904": {
+    "Are you ready to start playing with\nour new attraction, \"Gopher's Ark\"?<yesno><break>": ""
+  },
+  "228906": {
+    "When you play the attractions, you're on your own\n ♪ You can talk to me when you're alone ♪": ""
+  },
+  "228908": {
+    "Understood! Please put on the shoulder\nand waist belts for your own safety.": ""
+  },
+  "228910": {
+    "How do you like it in the VP machine,\nGuest?  It's a little dark, but please\nbe patient!": ""
+  },
+  "228912": {
+    "Sorry, guests!  Please note that\n\"Gopher's Ark\" is a one-person-only\nattraction, so please wait for other\n<br>\nguests when playing this attraction.": ""
+  },
+  "228914": {
+    "<pc>entered the VP machine and put on his\nbelt as he was told.": ""
+  },
+  "228916": {
+    "Welcome back, guest!  How was it?\nPlease rate the fun you had playing\nGopher's Ark on a scale of ★★★★★ from\n<br>\n1 to 3.<select_nc 2>\nRating ★★★★\nRating ★★★★\nRating ★★★★<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "228918": {
+    "Oh, I see. I may have to think of\nsomething, since I can't please my\nguests as it is!<bw_break>": ""
+  },
+  "228920": {
+    "That's pretty high praise ♪\n I'd like to see if there's anything I can do to make it even better\n I'd like to consider it<bw_break>": ""
+  },
+  "228922": {
+    "Top rating Thank you so much!\n We are so happy that our guests enjoyed their stay\n We at Pecolia are so grateful to you and your guests<bw_break>": ""
+  },
+  "228924": {
+    "Thank you for your cooperation in our survey\n Thank you very much!\nAs a reward for filling out the survey\n We will present you with this small gift\n Please take it": ""
+  },
+  "228926": {
+    "We look forward to seeing you again": ""
+  },
+  "228928": {
+    "Hello, Guest!  Welcome to the tourist\nspaceship Arwen!": ""
+  },
+  "229788": {
+    "Guest, would you like to continue\nplaying \"Gopher's Ark\"?<yesno><break>": ""
+  },
+  "233799": {
+    "This is the childcare district, the children's home\n We're raising our future cast members\n We also provide temporary care for our guests": ""
+  },
+  "235240": {
+    "The fate of the world is in your\nhands!  Enjoy the adventure that will\nmake your hands sweat!": ""
+  }
+}

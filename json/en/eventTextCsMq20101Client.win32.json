@@ -1,0 +1,494 @@
+{
+  "62100": {
+    "<voice 00190_00062100><start_lip_sync n02076 _normal m00001>「お呼びでしょうか　ルシェンダさま。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62101": {
+    "<voice 00260_00062101><start_lip_sync n02085 _normal m00001>「うむ。待っておったぞ。\n　今回は　お前にも　同席してほしかったのだ。\n　……では　さっそく　始めるとしよう。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62102": {
+    "<voice 00480_00062102><start_lip_sync n02085 _normal m00001>「運命を司る　聖なる振り子よ。\n　新たな運命の変異を　うながしたまえ……。\n　そして　ゆくべき道を示したまえ……。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "81342": {
+    "<voice 00880_00081342><start_lip_sync n02076 _normal m00001>「こ…この魔族は……<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "94163": {
+    "<voice 00935_00094163><start_lip_sync n02076 _normal m00001>「……トーマ兄さまのカタキっ！！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62104": {
+    "<voice 00985_00062104><start_lip_sync n02085 _normal m00001>「場所は……ソーラリア峡谷か。\n　例の仮面の男も　一緒のようだな……。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "80320": {
+    "<voice 01015_00080320><start_lip_sync n02085 _normal m00001>「ふむ……。どうやら　峡谷の奥地にある\n　古き神の遺跡に　向かっているようだな。\n　奴らの目的は　いったい……。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62106": {
+    "<voice 01165_00062106><start_lip_sync n02085 _normal m00001>「いや　それよりも　魔元帥ゼルドラドが\n　動き出したということは　大魔王が\n　本格的な侵攻を　始めたということか……。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "80321": {
+    "<voice 01195_00080321><start_lip_sync n02085 _normal m00001>「のんびりと構えている時間は　ないな。\n　何か　対策を講じねば……。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "81343": {
+    "<voice 01275_00081343><start_lip_sync n02076 _normal m00001>「魔元帥ゼルドラド……\n　絶対に……絶対に　許さない……！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "81344": {
+    "<voice 01341_00081344><start_lip_sync n02076 _normal m00001>「ルシェンダさま！\n　私は　これから　勇者として\n　悪しき魔族どもを　討伐してまいります！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000151": {
+    "勇者姫アンルシアが\nいきなり　パーティから外れた。": ""
+  },
+  "62110": {
+    "<voice 01465_00062110><start_lip_sync n02085 _normal m00001>「待て！　早まるな　アンルシア！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62111": {
+    "<voice 01600_00062111><start_lip_sync n02085 _normal m00001>「まったく　軽率な行動を取りおって……。\n　いかに　覚醒した勇者でも　魔元帥ゼルドラドに\n　ひとりで挑むのは　あまりに　危険すぎる。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62112": {
+    "<voice 01670_00062112><start_lip_sync n02085 _normal m00001>「<pc>。アンルシアは　逆上して\n　トーマのカタキを取ることしか考えていない。\n　あそこまで　冷静さを欠くとは　計算外だった。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62113": {
+    "<voice 01710_00062113><start_lip_sync n02085 _normal m00001>「ソーラリア峡谷にある\n　古き神の遺跡に向かった　彼女を追って\n　どうか　守ってやってくれないか？<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "26333": {
+    "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": ""
+  },
+  "62114": {
+    "<voice 01772_00062114><start_lip_sync n02085 _normal m00001>「いい返事だ。そなたであれば\n　安心して　まかせることができる。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000152": {
+    "<voice 01802_29000152><start_lip_sync n02085 _normal m00001>「遺跡の中を　くまなく探してでも\n　アンルシアを　見つけ出すのだ。\n　私たちも　準備をしてから　そなたの後を追う。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "26332": {
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": ""
+  },
+  "62116": {
+    "<voice 01867_00062116><start_lip_sync n02085 _normal m00001>「そうだ　<pc>。\n　運命の振り子は　そなたに返しておこう。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000853": {
+    "<pc>は　賢者ルシェンダから\n運命の振り子（だいじなもの）を　受け取った！<me 60>": ""
+  },
+  "81346": {
+    "<voice 01962_00081346><start_lip_sync n02085 _normal m00001>「それでは　アンルシアの件。\n　くれぐれも　よろしく頼むぞ。<pc>。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "81347": {
+    "<voice 02032_00081347><start_lip_sync n02085 _normal m00001>「いい返事だ。そなたであれば\n　安心して　まかせることができる。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "81348": {
+    "<voice 02062_00081348><start_lip_sync n02085 _normal m00001>「……だが　そなたは　頼まれごとを\n　抱えすぎているようだ。すみやかに手を空け\n　できるだけ早く　戻ってこい。頼んだぞ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "81349": {
+    "<voice 02152_00081349><start_lip_sync n02085 _normal m00001>「この緊急時に断るとは　何事だ！\n　私を失望させないでくれ　<pc>！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000153": {
+    "<voice 00245_29000153><start_lip_sync m50075 _normal m00001>「結界のチカラが　弱まってきたな。\n　そろそろ　いいだろう。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "29000154": {
+    "<voice 00385_29000154><start_lip_sync n02091 _normal m00001>「………………。<stop_lip_animation n02091 CLOSE_MOUTH>": ""
+  },
+  "62119": {
+    "<voice 01193_00062119><start_lip_sync m50075 _normal m00001>「……やれやれ。ハエが　舞い込んできたか。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62120": {
+    "<voice 01458_00062120><start_lip_sync n02076 _normal m00001>「ついに　見つけたわ　魔元帥ゼルドラド！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62121": {
+    "<voice 01595_00062121><start_lip_sync m50075 _normal m00001>「ほほう。真の勇者か。\n　グランゼドーラ城での戦い以来だな。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62122": {
+    "<voice 01780_00062122><start_lip_sync n02076 _normal m00001>「あの時とは　違う！\n　今こそ　兄さまのカタキを取ってみせる！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62123": {
+    "<voice 01993_00062123><start_lip_sync m50075 _normal m00001>「クックック……。\n　なるほどな。確かに　あの時とは違うな。\n　覚醒して　少しは　チカラをつけたと見える。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62124": {
+    "<voice 02217_00062124><start_lip_sync m50075 _normal m00001>「……だが　それでは　わしに勝てんな。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62125": {
+    "<voice 02394_00062125><start_lip_sync n02076 _normal m00001>「黙れっ！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62126": {
+    "<voice 02781_00062126><start_lip_sync n02076 _normal m00001>「くっ！！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62127": {
+    "<voice 02871_00062127><start_lip_sync m50075 _normal m00001>「クックック……。身の程知らずめが。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62128": {
+    "<voice 03320_00062128><start_lip_sync m50075 _normal m00001>「やれやれ。また　ハエが　わいたか。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62129": {
+    "<voice 03485_00062129><start_lip_sync m50075 _normal m00001>「ガルレイよ。勇者の始末は　まかせたぞ。\n　わしらは　先へ向かう。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62130": {
+    "<voice 03601_00062130><start_lip_sync m50085 _normal m00001>「ガルルルガアアアーーーーーッ！！\n　おまかせください　ゼルドラドさま！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62131": {
+    "<voice 03770_00062131><start_lip_sync m50085 _normal m00001>「ガルルルガアアアーーーーーッ！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62132": {
+    "<voice 03932_00062132><start_lip_sync n02085 _normal m00001>「い…いかん！　アンルシアが！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000155": {
+    "<voice 03933_29000155><start_lip_sync n02076 _normal m00001>「ミルトさん！！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000156": {
+    "<voice 03934_29000156><start_lip_sync n02208 _normal m00001>「ぐ……ぐぁ…………\n　……は……はは……ははは……こ　この私が\n　……お前を……かばうなんて……ぐふっ！<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000157": {
+    "<voice 03935_29000157><start_lip_sync n02076 _normal m00001>「ミルトさん！　しっかりして！\n　ミルトさん！！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000158": {
+    "<voice 03936_29000158><start_lip_sync n02208 _normal m00001>「私は……結局……心の奥底では\n　お前を……勇者を\n　信じたかったのか……？<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000159": {
+    "<voice 03937_29000159><start_lip_sync m50085 _normal m00001>「グルァァッ！　何かと思えば\n　ハエが　増えただけか。\n　死ねィ！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "29000160": {
+    "ここで　勇者の命運を\n終わらせるわけには　いきません。": ""
+  },
+  "29000161": {
+    "<cs_pchero>よ……。\n勇者を　守るのです。": ""
+  },
+  "29000162": {
+    "<voice 04580_29000162><start_lip_sync n02085 _normal m00001>「い　今のは　まさか……。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000163": {
+    "<voice 04776_29000163><start_lip_sync m50085 _normal m00001>「き…貴様　いったい　何をした！？<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "29000164": {
+    "勇者姫アンルシアが\nふたたび　パーティに加わった。<se_nots System Guest_joinSE>": ""
+  },
+  "62137": {
+    "<voice 04957_00062137><start_lip_sync m50085 _normal m00001>「……なるほど。勇者の仲間というわけか。<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62138": {
+    "<voice 05068_00062138><start_lip_sync m50085 _normal m00001>「我は　獣魔将ガルレイ！！\n　大魔王マデサゴーラさまに　忠誠を誓う\n　四魔将の　一角なり！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62139": {
+    "<voice 05206_00062139><start_lip_sync m50085 _normal m00001>「大魔王さまに　たてつく者は\n　皆殺しにしてくれるわ！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62140": {
+    "<voice 05371_00062140><start_lip_sync m50085 _normal m00001>「ガルルルガアアアーーーーーッ！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62141": {
+    "<voice 00075_00062141><start_lip_sync m50085 _normal m00001>「ガルルルガアアアーーーーーッ！！\n　なかなか　やるようだな！！\n　だが　その程度では　我は倒せんぞ！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62142": {
+    "<voice 00227_00062142><start_lip_sync n02085 _normal m00001>「ちっ。アンルシアを守りながらとなると\n　そうカンタンには　いかぬな……。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62143": {
+    "<voice 00322_00062143><start_lip_sync n02085 _normal m00001>「<cs_pchero>！　ボヤボヤするな！\n　私は　アンルシアの守りに専念する！\n　こいつは　そなたに　まかせたぞ！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62144": {
+    "<voice 00432_00062144><start_lip_sync m50085 _normal m00001>「ガルルルガアアアーーーーーッ！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62145": {
+    "<voice 00025_00062145><start_lip_sync m50085 _normal m00001>「グワアアアアアアアーーーーーッ！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62146": {
+    "<voice 00310_00062146><start_lip_sync n02085 _normal m00001>「やはり　まちがいないな……。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62147": {
+    "<voice 00470_00062147><start_lip_sync n02076 _normal m00001>「のんびりしているヒマはないわ。\n　早く　ゼルドラドを追わないと……。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62148": {
+    "<voice 00765_00062148><start_lip_sync n02085 _normal m00001>「待て。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000165": {
+    "<voice 00865_29000165><start_lip_sync n02085 _normal m00001>「少しは　自重するのだ。アンルシアよ。\n　ミルトと　<cs_pchero>が　いなければ\n　そなたは　死んでいたかもしれんぞ？<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62150": {
+    "<voice 00965_00062150><start_lip_sync n02076 _normal m00001>「………………。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62151": {
+    "<voice 01065_00062151><start_lip_sync n02085 _normal m00001>「ところで　ふたりに　話があるのだ。\n　<cs_pchero>が　アンルシアを助けた時の\n　あの技だが……<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62152": {
+    "<voice 01155_00062152><start_lip_sync n02076 _normal m00001>「ルシェンダさま……。\n　そのような話をしているヒマは　ありません。\n　一刻も早く　先へ向かいましょう。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000166": {
+    "<voice 01156_29000166><start_lip_sync n02076 _normal m00001>「私は　勇者なのですから。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000167": {
+    "勇者姫アンルシアが\nかってに　パーティから外れた。": ""
+  },
+  "62153": {
+    "<voice 01425_00062153><start_lip_sync n02085 _normal m00001>「やれやれ……。こりておらぬな……。\n　<cs_pchero>。とりあえず　話は後だ。\n　今は　アンルシアを追うとしよう。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62154": {
+    "<voice 01510_00062154><start_lip_sync n02085 _normal m00001>「覚えておけ　<cs_pchero>。\n　これからの魔族との戦いは　そなたと\n　アンルシアの協力が　必要不可欠となるだろう。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62155": {
+    "<voice 00195_00062155><start_lip_sync m50075 _normal m00001>「クックック……。やはりな……。\n　悠久の時の間に　神の緋石はチカラを消費し\n　ずいぶんと　弱まっているようだ。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62156": {
+    "<voice 00215_00062156><start_lip_sync m50075 _normal m00001>「神の緋石さえ破壊してしまえば\n　この地は　守りを失い\n　大魔王さまの創りし世界が　侵食を果たそう。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62157": {
+    "<voice 00260_00062157><start_lip_sync n02091 _normal m00001>「………………。<stop_lip_animation n02091 CLOSE_MOUTH>": ""
+  },
+  "62158": {
+    "<voice 00360_00062158><start_lip_sync n02076 _normal m00001>「そこまでよ　魔元帥ゼルドラド！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62159": {
+    "<voice 00540_00062159><start_lip_sync m50075 _normal m00001>「ほお……。ガルレイを倒したか。\n　少しは　やるようだな。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62160": {
+    "<voice 00620_00062160><start_lip_sync m50075 _normal m00001>「クックック……。\n　面白い余興を　思いついたぞ。\n　ひとつ　この者と戦ってもらおうか。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62161": {
+    "<voice 00885_00062161><start_lip_sync n02076 _normal m00001>「邪魔をするなら　相手になるわよ。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62163": {
+    "<voice 01195_00062163><start_lip_sync n02085 _normal m00001>「もう　始まっていたか。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62164": {
+    "<voice 01340_00062164><start_lip_sync n02076 _normal m00001>「ハァハァ……。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62165": {
+    "<voice 01645_00062165><start_lip_sync m50075 _normal m00001>「ほお……。これはこれは　見違えたぞ。\n　思った以上に　やりおるわ。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62166": {
+    "<voice 01776_00062166><start_lip_sync m50075 _normal m00001>「黙って　見守っているようだが\n　手助けしなくてよいのか？\n　貴様らが協力すれば　勇者が勝つかもしれぬぞ？<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62167": {
+    "<voice 01935_00062167><start_lip_sync n02085 _normal m00001>「よく言う……。私たちが　スキを見せる瞬間を\n　先ほどから　うかがっているクセに……。\n　そんな手に乗るほど　モウロクしておらんわ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62168": {
+    "<voice 02095_00062168><start_lip_sync m50075 _normal m00001>「……クックック。なるほどな。\n　貴様は　なかなか　アタマが切れるようだ。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62170": {
+    "<voice 02683_00062170><start_lip_sync n02076 _normal m00001>「そ…そんな……。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62171": {
+    "<voice 02883_00062171><start_lip_sync n02076 _normal m00001>「に…兄さま……？<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62172": {
+    "<voice 02933_00062172><start_lip_sync n02076 _normal m00001>「トーマ兄さまが…生きて……。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62173": {
+    "<voice 03223_00062173><start_lip_sync n02125 _normal m00001>「……私は　大魔王さまに仕える者。\n　お前の兄などではない。<stop_lip_animation n02125 CLOSE_MOUTH>": ""
+  },
+  "62174": {
+    "<voice 03567_00062174><start_lip_sync m50075 _normal m00001>「その男は　大魔王マデサゴーラさまによって\n　黄泉の世界から舞い戻った　闇の勇者……。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62175": {
+    "<voice 03582_00062175><start_lip_sync m50075 _normal m00001>「勇者の持つチカラを欲していた　大魔王さまは\n　小娘……真の勇者である貴様を捕らえ\n　操り人形に　するつもりであられた。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62176": {
+    "<voice 03592_00062176><start_lip_sync m50075 _normal m00001>「だが　たまたま手に入った代用品でも\n　充分に　役割を果たせることが判明してな。\n　大魔王さまも　その男で　満足しておられるわ。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62177": {
+    "<voice 04017_00062177><start_lip_sync n02076 _normal m00001>「そんなっ！　兄さまが……。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62178": {
+    "<voice 04167_00062178><start_lip_sync m50075 _normal m00001>「クックック……。もう　いいだろう。\n　トーマよ。使命を果たすのだ。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62179": {
+    "<voice 04302_00062179><start_lip_sync n02125 _normal m00001>「………………。<stop_lip_animation n02125 CLOSE_MOUTH>": ""
+  },
+  "62180": {
+    "<voice 04537_00062180><start_lip_sync m50075 _normal m00001>「神の緋石は　砕け散り\n　いずれ　侵食が始まる……。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62181": {
+    "<voice 04677_00062181><start_lip_sync m50075 _normal m00001>「この地は　もはや用済みよな。\n　行くぞ　トーマよ。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62182": {
+    "<voice 04977_00062182><start_lip_sync n02125 _normal m00001>「………………。<stop_lip_animation n02125 CLOSE_MOUTH>": ""
+  },
+  "62183": {
+    "<voice 05257_00062183><start_lip_sync m50075 _normal m00001>「やはり　いいものだな。 \n　絶望した者のカオを見るというのは……。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62184": {
+    "<voice 05317_00062184><start_lip_sync m50075 _normal m00001>「クックック……。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62185": {
+    "<voice 05799_00062185><start_lip_sync n02076 _normal m00001>「兄さま……。どうして……。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62186": {
+    "<voice 06027_00062186><start_lip_sync n02085 _normal m00001>「<pc>！　ここは　もうダメだ！\n　私は　アンルシアを連れて　脱出する！\n　そなたも　早く　逃げるのだ！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000168": {
+    "<voice 06028_29000168><start_lip_sync n02208 _normal m00001>「トーマ……\n　アンルシア……<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000169": {
+    "<voice 06029_29000169><start_lip_sync n02208 _normal m00001>「……アンルシアさま\n　お立ちください。<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "62187": {
+    "<voice 00080_00062187><start_lip_sync n02085 _normal m00001>「おお。<pc>　ごくろうだったな。\n　アンルシアも　少しは　落ち着いたようだ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62188": {
+    "<voice 00150_00062188><start_lip_sync n02076 _normal m00001>「………………。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62189": {
+    "<voice 00250_00062189><start_lip_sync n02085 _normal m00001>「さて　さっそくだが　本題に入ろう。\n　これから　重要な話をいくつかする。\n　よく　聞いておくのだ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62190": {
+    "<voice 00290_00062190><start_lip_sync n02085 _normal m00001>「まず　そなたが　獣魔将ガルレイと戦った際に\n　アンルシアを守らんと　発動した技について……\n　あの技は　盟友の守りと呼ばれるものだ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62191": {
+    "<voice 00330_00062191><start_lip_sync n02076 _normal m00001>「盟友の守り…………。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62192": {
+    "<voice 00370_00062192><start_lip_sync n02085 _normal m00001>「あの技を使えるということは　すなわち\n　勇者を支え　共に戦う存在であることを示す。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62193": {
+    "<voice 00410_00062193><start_lip_sync n02085 _normal m00001>「……<pc>こそが　勇者の盟友なのだ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000170": {
+    "<voice 00450_29000170><start_lip_sync n02076 _normal m00001>「<pc>が　盟友…………。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000171": {
+    "<voice 00450_29000171><start_lip_sync n02076 _normal m00001>「<pc>が　盟友…………。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62195": {
+    "<voice 00510_00062195><start_lip_sync n02085 _normal m00001>「そなたが　アンルシアと共に現れた時から\n　そうではなかろうかと思っていたが……\n　どうやら　私の予感は　当たっていたようだな。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62196": {
+    "<voice 00550_00062196><start_lip_sync n02085 _normal m00001>「盟友　<pc>よ。\n　これからも　アンルシアを支え　共に戦うのだ。\n　これは　そなたにしかできぬ使命だからな。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62197": {
+    "<voice 00590_00062197><start_lip_sync n02085 _normal m00001>「わかったな　アンルシア。\n　勇者とは　ひとりで戦う者ではない。\n　常に　盟友が共にいることを忘れるな。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62198": {
+    "<voice 00630_00062198><start_lip_sync n02076 _normal m00001>「……はい。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62199": {
+    "<voice 00710_00062199><start_lip_sync n02085 _normal m00001>「……さて　次の話をするとしよう。\n　トーマが破壊した　あの石だが\n　あれは　神の緋石と呼ばれる物だ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62200": {
+    "<voice 00750_00062200><start_lip_sync n02085 _normal m00001>「ゼルドラドの言葉を信じるなら　どうやら\n　神の緋石を破壊されると　大魔王による\n　偽のレンダーシアの侵食が進んでしまうらしい。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62201": {
+    "<voice 00780_00062201><start_lip_sync n02085 _normal m00001>「では　神の緋石とは　なんなのか……。\n　くわしくは　古き神の遺跡を研究している\n　専門家に　解説してもらうとしよう。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62202": {
+    "<voice 00850_00062202><start_lip_sync n02085 _normal m00001>「入れっ！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62203": {
+    "<voice 01225_00062203><start_lip_sync n02085 _normal m00001>「この者は　ロッサム博士。\n　あの古き神の遺跡を研究している学者だ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62204": {
+    "<voice 01285_00062204><start_lip_sync n02085 _normal m00001>「さあ　ロッサム博士。\n　神の緋石について　くわしく説明してくれ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62205": {
+    "<voice 01335_00062205><start_lip_sync n02207 _normal m00001>「か…神の緋石は　人間の神　グランゼニスが\n　自らの血で創りだした　レンダーシアの地を\n　邪悪な存在から守る　要石と言われております。<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62206": {
+    "<voice 01375_00062206><start_lip_sync n02207 _normal m00001>「あの神殿にある　緋石は破壊されましたが\n　神の緋石は　レンダーシア内に\n　全部で　４つあるとのこと。<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62207": {
+    "<voice 01405_00062207><start_lip_sync n02207 _normal m00001>「本来　魔族には触れることすら　かないませんが\n　長い歴史の中で　チカラは衰えていき　今では\n　レンダーシアを守るだけで　精一杯の状態です。<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62208": {
+    "<voice 01445_00062208><start_lip_sync n02207 _normal m00001>「ですが……<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62209": {
+    "<voice 01485_00062209><start_lip_sync n02207 _normal m00001>「ついに　一度衰えた　神の緋石のチカラを\n　復活させる方法が　判明しました！<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62210": {
+    "<voice 01525_00062210><start_lip_sync n02207 _normal m00001>「それは　勇者姫！\n　あなたが持つ　勇者のチカラを\n　神の緋石に　注ぎ込むことなのです！<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62211": {
+    "<voice 01565_00062211><start_lip_sync n02207 _normal m00001>「さすれば　緋石は　たちまち活性化し\n　神代のチカラを取り戻して　何者にも\n　破壊されることは　なくなるでしょう！<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62212": {
+    "<voice 01588_00062212><start_lip_sync n02207 _normal m00001>「なぜか……　それは　勇者のチカラも　また\n　グランゼニス神より　たまわりし物であると\n　伝承に　記されているからなのです！！<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62213": {
+    "<voice 01647_00062213><start_lip_sync n02207 _normal m00001>「そこで　勇者姫に　お願いがあります！\n　あなたの身体は　とても興味深い！\n　どうか　あなたのことを研究させてください！<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62214": {
+    "<voice 01704_00062214><start_lip_sync n02085 _normal m00001>「ごくろうだったな　ロッサム博士よ。\n　もう　下がってよいぞ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62215": {
+    "<voice 01766_00062215><start_lip_sync n02207 _normal m00001>「す…すいません。古代史のことになると\n　つい　興奮してしまって……。では　これにて。<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62216": {
+    "<voice 02006_00062216><start_lip_sync n02085 _normal m00001>「さて　今　聞いたとおりだ。そなたたちには\n　これから　残り３つの緋石を探しだし\n　勇者のチカラを　注ぎ込んでもらいたい。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62217": {
+    "<voice 02036_00062217><start_lip_sync n02085 _normal m00001>「だが　そなたたちも　今回の戦いで\n　おのれの未熟さを　思い知ったであろう。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62218": {
+    "<voice 02076_00062218><start_lip_sync n02085 _normal m00001>「あのゼルドラドを　相手に回して\n　神の緋石を守るためには　さらなるチカラを\n　身につけておかねばならぬ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62219": {
+    "<voice 02106_00062219><start_lip_sync n02085 _normal m00001>「私は　そのための準備をしておく。\n　そなたたちは　その時にそなえて\n　充分に　身体を休めておくのだ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62220": {
+    "<voice 02186_00062220><start_lip_sync n02085 _normal m00001>「ごくろうだったな　アンルシアよ。\n　もう　下がってよいぞ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000172": {
+    "<voice 02226_29000172><start_lip_sync n02076 _normal m00001>「ルシェンダさま。今回の戦いでは\n　大変　ご迷惑をおかけしました。これからは\n　<pc>と共に　がんばっていきます。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000173": {
+    "<voice 02226_29000173><start_lip_sync n02076 _normal m00001>「ルシェンダさま。今回の戦いでは\n　大変　ご迷惑をおかけしました。これからは\n　<pc>と共に　がんばっていきます。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000174": {
+    "勇者姫アンルシアが\nふたたび　パーティに加わった。<se_nots System Guest_joinSE>": ""
+  },
+  "29000175": {
+    "<voice 02228_29000175><start_lip_sync n02076 _normal m00001>「ミルトさん。\n　見ていてください　私の覚悟を。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000176": {
+    "<voice 02229_29000176><start_lip_sync n02208 _normal m00001>「私は　かつて……\n　勇者トーマの　盟友たらんとしました。<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000177": {
+    "<voice 02230_29000177><start_lip_sync n02208 _normal m00001>「その私に　あなたが勇者であることを\n　信じさせてください。\n　そして……我が友を　闇からお救いください。<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "62222": {
+    "<voice 02546_00062222><start_lip_sync n02085 _normal m00001>「<pc>よ。アンルシアを守るという\n　今回の任務を　見事に果たしてくれたな。\n　報酬として　これを受け取ってくれ。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "42173": {
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": ""
+  },
+  "62223": {
+    "<voice 02646_00062223><start_lip_sync n02085 _normal m00001>「そうだ。トーマが　よみがえったことは\n　くれぐれも　他言無用で頼むぞ。\n　皆に知れ渡れば　パニックになるからな。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62224": {
+    "<voice 00070_00062224><start_lip_sync m50085 _normal m00001>「なかなか　ウデが立つようだな！！\n　だが　そんな攻撃では　我は倒せんぞ！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62225": {
+    "なんと　獣魔将ガルレイのキズが\n見る見るうちに　回復していく！": ""
+  },
+  "62226": {
+    "<voice 00320_00062226><start_lip_sync m50085 _normal m00001>「ガルルルガアアアーーーーーッ！！\n　我は　大魔王マデサゴーラさまから\n　無敵の身体を　いただいたのだ！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62227": {
+    "<voice 00466_00062227><start_lip_sync m50085 _normal m00001>「決して滅びぬ　この身体がある限り\n　貴様らごときに　敗れはせぬ！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62228": {
+    "<voice 00561_00062228><start_lip_sync n02085 _normal m00001>「そうか……。\n　大魔王の加護を得た　魔族は\n　通常の攻撃では　倒せないのだったな……。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000178": {
+    "<voice 00662_29000178><start_lip_sync n02076 _normal m00001>「なんてこと……。\n　このままじゃ　<pc>さんも\n　ルシェンダさまも……ミルトさんも！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000179": {
+    "<voice 00662_29000179><start_lip_sync n02076 _normal m00001>「なんてこと……。\n　このままじゃ　<pc>さんも\n　ルシェンダさまも……ミルトさんも！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000180": {
+    "<voice 00663_29000180><start_lip_sync n02208 _normal m00001>「アン……ルシア…………アンルシア……さま。<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000181": {
+    "<voice 00664_29000181><start_lip_sync n02076 _normal m00001>「ミルトさん！　無理に　しゃべっては……<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000182": {
+    "<voice 00665_29000182><start_lip_sync n02208 _normal m00001>「信じ……させてください。\n　私に　信じさせて……ください。<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000185": {
+    "<voice 00668_29000185><start_lip_sync n02208 _normal m00001>「あなたが　勇者であることを……\n　トーマの死が　無駄ではなかったことを！\n　友が　立派に務めを果たしたことを！<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000186": {
+    "<voice 00669_29000186><start_lip_sync n02076 _normal m00001>「ミルトさん……！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000187": {
+    "<voice 00670_29000187><start_lip_sync n02208 _normal m00001>「……立て！　アンルシア！\n　我が友トーマの\n　生きた証を　立ててみせろ！！！<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000188": {
+    "<voice 00671_29000188><start_lip_sync n02076 _normal m00001>「わかり……ました。\n　見ててください！\n　ミルトさん！　兄さま！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000189": {
+    "<voice 01131_29000189><start_lip_sync n02076 _normal m00001>「<cs_pchero>……。\n　偽の世界で　魔勇者を倒した時と同じように\n　チカラを合わせましょう！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "29000190": {
+    "勇者姫アンルシアが\nふたたび　パーティに加わった。<se_nots System Guest_joinSE>": ""
+  }
+}

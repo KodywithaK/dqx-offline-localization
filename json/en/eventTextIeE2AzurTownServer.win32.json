@@ -1,0 +1,824 @@
+{
+  "10102000": {
+    "<attr><feel_happy_lv1><end_attr>We, Paper Shops, are an old Elf family\nthat has passed down the secret art of\npaper making from generation to\n<br>\ngeneration. We have been making letter\npaper by hand without changing the\ntraditional method. And since Paper\n<br>\nShops in each town try to make their\nown unique paper, they are very well\nversed in the local area.": ""
+  },
+  "10102002": {
+    "Please refrain from continuing. We are\nin the process of building a new\nresidential area for everyone in town.": ""
+  },
+  "45137": {
+    "<attr><feel_think_lv2><end_attr>The beautiful woman who just entered\nGrandpa Yoki's house, is she Lady\nHimea of Tsusukul Village?": ""
+  },
+  "41109": {
+    "<attr><feel_sad_lv1><end_attr>Gohoho, goho.  I'm sorry, but I'd like\nyou to let me sleep now.  I'm tired\nfrom cleaning up.": ""
+  },
+  "37185": {
+    "<attr><feel_sad_lv3><end_attr>Eeeeee..!  Eeeeeeeeeeeeeeeeeeeeeeeeeee\neeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\neeeeeee! I got it for my birthday and\n<br>\nhiccuped.  I was so, so, so precious\nto you. The bird went far away.  He\nmust have crossed the mountains to the\n<br>\neast and ended up in the Bird Forest\nin Kirika Steppe. Please, traveler,\nI'm so sorry.  Please give me back my\n<br>\nyubi back.": ""
+  },
+  "37186": {
+    "<attr><feel_sad_lv2><end_attr>Thanks, traveler.  I heard that you\ncan get to Kirika Steppe by going\nstraight northeast out of town. The\n<br>\nring is the Key Items that my mom\nbought for me. If you give me back the\nring, I will give you my second most\n<br>\nprecious treasure.": ""
+  },
+  "37187": {
+    "<attr><feel_sad_lv3><end_attr>Eggu, eggu. Thanks, Traveler.  But you\nhave many other requests, don't you?\nThen it's okay after all.  My mom\n<br>\nalways says that I shouldn't talk to\npeople.": ""
+  },
+  "37188": {
+    "<attr><feel_sad_lv3><end_attr>Ugh! Higg. Eeeeeeee～～～～n!\n Eeeeeeeeee～～～～～～n!": ""
+  },
+  "37189": {
+    "<attr><feel_sad_lv2><end_attr>The big bird flew away to the Bird\nForest in Kirika Steppe. Please,\ntraveler.  Please give me back my\n<br>\nnail.<open_irai><bw_break>": ""
+  },
+  "37190": {
+    "<attr><feel_sad_lv2><end_attr><close_irai>That yubiwa is very, very, very Key\nItems that my mom bought for me.  Eggg\ngggggggggggggggggggggggggggggggggggggg\n<br>\nggggggggggggggggggg.": ""
+  },
+  "37191": {
+    "<attr><feel_happy_lv3><end_attr>Ah! That's my precious jewelry!  My\nmost prized possession!  Did you get\nit back, traveler?": ""
+  },
+  "37192": {
+    "Would you give Nibel's Ring to Nibel?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "37193": {
+    "<attr><feel_sad_lv3><end_attr>What? What?  That yubi is mine! Eww...\n～～～～  Eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\neeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\n<br>\neeeeeeee!": ""
+  },
+  "37194": {
+    "<pc>gave Nibel's Ring to Nibel!": ""
+  },
+  "37195": {
+    "<attr><feel_happy_lv3><end_attr>Thank you!  Then I'll give the\ntraveler the second greatest treasure\nin return.": ""
+  },
+  "37196": {
+    "<attr><feel_think_lv2><end_attr><icon_que>Eh, Mr. Traveler? Is your bag full?\n Then come back later!<bw_break>": ""
+  },
+  "37197": {
+    "<pc>school (eg of ikebana)<%sEV_ITEM>received!<se_nots System Item>": ""
+  },
+  "37198": {
+    "<attr><feel_happy_lv2><end_attr>I will never lose this finger again, I\nwill treasure it.  Thank you,\ntraveler.": ""
+  },
+  "37199": {
+    "<attr><feel_happy_lv2><end_attr>It's a little big, but this is my most\nprecious treasure that my mom bought\nfor me. I'll treasure it so I won't\n<br>\never lose it again. Thank you,\ntraveler.": ""
+  },
+  "37200": {
+    "<attr><feel_happy_lv3><end_attr>Thank you for getting my most precious\ntreasure back! In return, I'm going to\ngive you my second greatest treasure.": ""
+  },
+  "37201": {
+    "<attr><feel_think_lv2><end_attr><icon_que>Eh, Mr. Traveler? Is your bag full?\n Then come back later!<bw_break>": ""
+  },
+  "37202": {
+    "<pc>school (eg of ikebana)<%sEV_ITEM>received!<se_nots System Item>": ""
+  },
+  "37203": {
+    "<attr><feel_happy_lv2><end_attr>I will never lose this finger again, I\nwill treasure it.  Thank you,\ntraveler.": ""
+  },
+  "37204": {
+    "<attr><feel_happy_lv2><end_attr>Oh, thank you for coming<pc>Oh, my God!  You came all this way to\nvisit us.  Please make yourself at\nhome.": ""
+  },
+  "37205": {
+    "<pipipi_low>What's up? Giant warrior.<pc>Let's go quickly to the recreation\nisland of the giant tribe where Thor\nthe Wise sleeps.  Let's quickly head\n<br>\nfor the Giant Tribe's Isle of\nRecreation, where Sage Thor is said to\nsleep.<open_irai><bw_break>": ""
+  },
+  "37206": {
+    "<close_irai><pipipi_low>I'll leave the transportation to you,\nthe Titans.  I'm counting on you!": ""
+  },
+  "37207": {
+    "I hear Sigurd's voice from inside his\nbag.": ""
+  },
+  "48346": {
+    "<pc>Sage Thor was used as a tool. Sage\nThor was like a puppet, not moving\nstill.": ""
+  },
+  "37209": {
+    "<pipipi_low>What's the matter, warrior of the giants?<pc>Let's find the rest of the three wise\nmen!  Let's go find the other three\nwise men!  We don't have time to\n<br>\nwaste!<open_irai>": ""
+  },
+  "37212": {
+    "I hear Sigurd's voice from inside his\nbag.": ""
+  },
+  "48347": {
+    "<pc>Sage Baldr was a tool for the Sage\nBaldr. Sage Baldr was like a puppet,\nnot moving still.": ""
+  },
+  "48348": {
+    "<pc>Sage Freya was used as a tool. Sage\nFreya was like a puppet, not moving\nstill.": ""
+  },
+  "10102001": {
+    "I didn't spill any food!  Your\nfather's an idiot!": ""
+  },
+  "37210": {
+    "<attr><feel_think_lv3><end_attr>Lately, Fuura's room has been very\nnoisy.  Is there a mouse in there?\nFuura, did you go out without cleaning\n<br>\nup the spilled food?  What a\ntroublemaker.": ""
+  },
+  "37211": {
+    "<pipipi_low>What's the matter, warrior of the giants?<pc>Now is the time for us to fight!  Now\nis the time of our battle!  Let us go\nto the underworld of Nibelheim! The\n<br>\nentrance to Nibelheim is in the\neastern part of the land known as the\nMolinara Forest, north of the Kirika\n<br>\nSteppe!  Lead us there! I beg you!<open_irai>": ""
+  },
+  "37215": {
+    "I hear Sigurd's voice from inside his\nbag.": ""
+  },
+  "48350": {
+    "<pc>The Fate's War Maiden was used as a\ntool. The Fate's War Maiden is like a\npuppet, still and motionless.": ""
+  },
+  "37213": {
+    "<attr><feel_think_lv2><end_attr>Fuura's room is still making a lot of\nnoise.  Would you please go and take a\nlook at it?": ""
+  },
+  "48340": {
+    "<pc>Sage Baldr used the Sage Baldr as a\ntool. Sage Baldr smiled a million\ngold.": ""
+  },
+  "48341": {
+    "<pc>Sage Freya was a sexy, sexy, sexy\nwoman. Sage Freya wiggled her hips in\na sexy manner.": ""
+  },
+  "48342": {
+    "<pc>Sage Thor was a very proud man, and he\nused Sage Thor as a tool. Sage Thor\nshowed off his muscles.": ""
+  },
+  "37214": {
+    "<pipipi_low>What's the matter, warrior of the giants?<pc>This will be our last battle!  This\nwill be our last battle!  Aim for the\ntwists and turns of the Eternal Wood!<open_irai>": ""
+  },
+  "48836": {
+    "I hear Sigurd's voice from inside his\nbag.": ""
+  },
+  "48349": {
+    "<pc>The Fate's War Maiden was used as a\ntool. Fate's War Maiden smiled like an\nangel.": ""
+  },
+  "37216": {
+    "Phew, the room looks so much nicer\nnow!  Your father treats me like a\nchild, trying to pout with dolls!\n<br>\nWhat? Did you see my dolls move?<pc>You said you fought together as\nwarriors of the Titan tribe. There's\nno way that's true!  Weird...<pc>Dear!": ""
+  },
+  "34002": {
+    "Are you a traveler?  Lord Taketora is\nin his room.  It is that room with the\npurple curtain. But I don't think Lord\n<br>\nTaketora would deal with an unknown\nperson who doesn't even have the Proof\nof Adulthood.": ""
+  },
+  "34003": {
+    "<attr><feel_think_lv1><end_attr>Are you a traveler?  Lord Taketora is\nin his room, but it's not a good time.\nYou may see him, but please be brief.": ""
+  },
+  "34004": {
+    "<attr><feel_sad_lv1><end_attr>I'm not feeling well.  I heard that\nold man Yoki has been ill for a long\ntime. If only we could perform the\n<br>\nwind-sending ceremony, we could change\nthe air in the town, but we haven't\neven decided on the next windman yet,\n<br>\nso there's nothing we can do.": ""
+  },
+  "34005": {
+    "<attr><feel_happy_lv1><end_attr>I am Gunza, the Swordsman.  I am\nGunza, the Swordsman. I travel around\nthe world to collect key emblems, the\n<br>\nproof of one's power. But the people\nof this town are all oddballs.  They\ncomplain that the wind is low, but to\n<br>\nme it's just an ordinary wind. But now\nis the perfect time!  If I can be of\nservice to Lord Taketora here, he may\n<br>\ngive me the key emblem! What? You want\nthe key emblem?  Ha-ha-ha-ha! No one\nwill take a chance on a chick who\n<br>\ndoesn't even have the Proof of\nAdulthood.": ""
+  },
+  "34006": {
+    "<attr><feel_angry_lv1><end_attr>I am Gunza, the Swordsman.  I am\nGunza, the Swordsman. I travel around\nthe world to collect key emblems, the\n<br>\nproof of one's power. But the people\nof this town are all eccentric.  They\ncomplain that the wind is low, but to\n<br>\nme it's just an ordinary wind. But now\nis the perfect time!  If we help Lord\nTaketora here, he may give us the key\n<br>\nemblem! Take Taketora's home, a very\nlarge mansion at the far end of town.\n Aim for the red torii gate on the\n<br>\nsouth side of the mansion.": ""
+  },
+  "132255": {
+    "You got a minute?": ""
+  },
+  "34008": {
+    "Cue.": ""
+  },
+  "34009": {
+    "<attr><feel_happy_lv1><end_attr>Welcome to Wind Town Azlan!  Are you,\nby any chance, from the Garden of\nLearning?  Take your time to explore\n<br>\nthe town. The tavern is where you can\nregister as a friend.  You can use the\ntavern by doing what your introducer\n<br>\nasks. There are also Priests who\nchange jobs. Inns have Travel\nConcierges who offer a variety of\n<br>\nservices.  You can register with them\nby talking to the information desk.\nAfter looking around the town, you can\n<br>\nsolve the town's problems. If the\nenemies are strong, you may want to\nlevel up, change jobs, or try a\n<br>\ndifferent vocation. If you have a Rail\nPass, you can take the train to other\ncontinents.  I hear it's not easy to\n<br>\nget one, though. Also, if anyone has\nanything to tell you, please wipe the\npink off your face.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>If you see one, please talk to him or\nher.  If you find them, please talk to\nthem.": ""
+  },
+  "60636": {
+    "<attr><feel_happy_lv1><end_attr>Welcome, traveler.  This is Wind Town\nAzlan.  Azlantelope, the incarnation\nof the wind, lives here with us. This\n<br>\narea is called Azlan Region.  If you\nleave the town and go through Inamino\nHighway in the south, you can get to\n<br>\nthe Royal City Kamiharmui. And if you\ncross the River of Light, far to the\nnortheast, you will find the village\n<br>\nof Tsusukul, where the students of\nlearning gather. And if anyone has\nanything to say to you, please wipe\n<br>\nyour wipe all pink.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>If you see one, please talk to him or\nher.  If you find them, please talk to\nthem.": ""
+  },
+  "130606": {
+    "<attr><feel_happy_lv1><end_attr>Welcome to Wind Town Azlan!  Are you\nfrom the Garden of Learning, by any\nchance?  I have one good thing to tell\n<br>\nyou. If you've got something to tell\nme, you're pink in the wipeout.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>I'm in a place where I can see the\nworld.  Gunza-san at the top of the\nstairs seems to be the one. I\n<br>\nrecommend you to talk to Gunza-san\nright away!": ""
+  },
+  "130607": {
+    "<attr><feel_happy_lv1><end_attr>Welcome, traveler.  This is Wind Town\nAzlan.  Azlantelope, the incarnation\nof the wind, lives here with us. This\n<br>\narea is called Azlan Region.  If you\nleave the town and go through Inamino\nHighway in the south, you can get to\n<br>\nthe Royal City Kamiharmui. And if you\ncross the River of Light, far to the\nnortheast, you will find the village\n<br>\nof Tsusukul, where the students of\nlearning gather. And if anyone has\nanything to say to you, please wipe\n<br>\nyour lips pink.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>I'm in a place where I can see the\nworld.  Gunza-san at the top of the\nstairs seems to be the one. I\n<br>\nrecommend you to talk to Gunza-san\nright away!": ""
+  },
+  "34011": {
+    "<attr><feel_sad_lv1><end_attr>So many bad things have been happening\nin this town lately.  It must be\nbecause we haven't performed the wind-\n<br>\nsending ceremony since the previous\nwind rider passed away. That's why I\nwent to the Lord's mansion to ask them\n<br>\nto appoint a new windman. Lord's\nmansion?  If so, it's straight west\nfrom here, up the staircase.": ""
+  },
+  "34013": {
+    "<attr><feel_happy_lv2><end_attr>You know what? The large, large house\nat the top of the staircase is the\nlord's house. I'm waiting for the lady\n<br>\nto come home so I can play with her\nfirst thing. I'm waiting for her to\ncome home so I can be the first to\n<br>\nplay with her!": ""
+  },
+  "34014": {
+    "<attr><feel_sad_lv1><end_attr>The previous wind rider, Kazayura-\nsama, was always surrounded by\nAzlantelopes.  Azlantelope loved the\n<br>\nwind rider. But the old lady always\nlooked sad, as if Azlantelope had\ntaken her mother away from her.": ""
+  },
+  "34015": {
+    "The door is keyed.": ""
+  },
+  "34016": {
+    "<attr><feel_think_lv1><end_attr>There was once a boy here in Azlan who\nwas to become a wind rider.  He was\nthe son of Lord Taketora. But six\n<br>\nyears ago, he left town and went to\nthe Garden of Learning.  He left\nAzlantelope with a deep hatred in his\n<br>\nheart.": ""
+  },
+  "34017": {
+    "<attr><feel_happy_lv3><end_attr>You know, you know.  If a new wind\nrider comes, everyone will be happy.\nThat's why everyone is waiting for the\n<br>\nnew windman to come back!": ""
+  },
+  "34018": {
+    "<attr><feel_think_lv1><end_attr>Mhmm! You seem to be a traveler. Is\nthat so? You don't have the Proof of\nAdulthood? I'd like to borrow even a\n<br>\ncat's help, but as expected, I can't\nborrow the help of a mere traveler.\nHmmm.": ""
+  },
+  "34019": {
+    "<attr><feel_think_lv1><end_attr>MU? Are you a traveler?  What do you\nwant from me? I'm sorry, but I'm busy.\n My daughter will be home soon.  Oh?": ""
+  },
+  "34020": {
+    "<attr><feel_sad_one><end_attr>Gosh, gosh. The wind is blowing\nthickly.  It's hard on me, an old man.": ""
+  },
+  "34021": {
+    "<attr><feel_happy_lv1><end_attr>It leaps high into the sky and runs\nlike an arrow.  Azlantelope was\nthought to be a god by the ancients.\n<br>\nEven now, we Azlanites respect\nAzlantelope with all our hearts,\ncalling him the incarnation of the\n<br>\nwind.": ""
+  },
+  "34022": {
+    "<attr><feel_sad_lv1><end_attr>Fuura-sama was not happy to see me,\neven though it was her first time back\nhome since the New Year's vacation.\n<br>\nEven though he failed in the trial of\nthe young leaves, I expected him to\nsmile a little more since it's been a\n<br>\nwhile since we met again with our\nlord.": ""
+  },
+  "34023": {
+    "I am Gunza, the Swordsman.  I am\nGunza, the Swordsman. I travel around\nthe world to collect key emblems, the\n<br>\nproof of one's power. But the people\nof this town are all oddballs.  They\ncomplain that the wind is low, but to\n<br>\nme it's just an ordinary wind. But now\nis the perfect time!  If I can be of\nservice to Lord Taketora here, I may\n<br>\neven receive a key emblem!": ""
+  },
+  "34024": {
+    "<attr><feel_happy_lv2><end_attr>Azlantelope and the others suddenly\nstarted fidgeting happily.  They\nhadn't been in good spirits for a long\n<br>\ntime. They must be happy that Fuura is\nback!  Azlantelope and her friends\nlove Fuura very much.": ""
+  },
+  "34025": {
+    "Brrrrrrrrrrrrrrrrrrrrrrrrrrrr!": ""
+  },
+  "34026": {
+    "This is Wind Town Azlan.  If you leave\nthe town and go northeast, you'll find\nKirika Steppe.  South is Inamino\n<br>\nHighway. Oh, traveler, you want to go\nto Windy Cape?  Then follow the road\nnorth.  It's beautiful but lonely.": ""
+  },
+  "34027": {
+    "<attr><feel_sad_lv1><end_attr>Lately, bad things keep happening in\nthis town.  It's because we haven't\nperformed the wind-sending ceremony\n<br>\nsince the previous windman passed\naway. At any rate, we haven't been\nable to find a new windman for the\n<br>\npast six years. We can't do the wind-\nsending ceremony without a new\nwindman, can we? How nice it would be\n<br>\nif Fuura would become the windman.  It\nmight be cruel to her, though.": ""
+  },
+  "34028": {
+    "<attr><feel_sad_lv3><end_attr>Oh, no! I was waiting here for you to\nplay with me first, but Fuura-chan\nsaid she was busy and left town! I was\n<br>\nlooking forward to having lots of fun\nevery day from now on.": ""
+  },
+  "34029": {
+    "<attr><feel_happy_lv2><end_attr>Taketora must be very happy.  It's\nbeen a long time since his daughter\ncame back from the Garden of Learning\n<br>\nin Tsusukul Village. It was a lonely\nhouse full of servants, but it will be\na little more cheerful from now on.": ""
+  },
+  "34030": {
+    "<attr><feel_think_lv1><end_attr>There is the tomb of Mistress Kazayura\nat Windy Cape, just north of the town.\nWhenever she has a hard time, she\n<br>\nalways goes to that tomb. Hey, you.\n If you have business with Fuura, why\ndon't you go to Windy Cape?": ""
+  },
+  "34031": {
+    "The door is keyed.": ""
+  },
+  "34032": {
+    "<attr><feel_think_lv1><end_attr>Fuura's granddaughter was already\nriding Azlantelope when she was just a\nwobbly little thing. It's a great\n<br>\ntalent he inherited from his mother\nand father.  He doesn't like it,\nthough.": ""
+  },
+  "34033": {
+    "<attr><feel_sad_lv1><end_attr>I will not let Fuura alone carry the\nfuture of this town on her shoulders.\nIf she refuses, I will find another\n<br>\nway. Traveller. Will you go to Fuura's\nroom and ask her what's on her mind?\nFuura's room is across the hall from\n<br>\nthis one.  I'm sorry, but I'm counting\non you.": ""
+  },
+  "34034": {
+    "Fuura went to Windy Cape?  I see. She\nwent to see Kazayura. A traveler.\nTraveler. Let me hear your thoughts.\n<br>\n Do you think I forced Fuura's hand?<yesno><break>": ""
+  },
+  "34035": {
+    "Okay. I would think so.<bw_break>": ""
+  },
+  "34036": {
+    "Huh. You are kind.  It's all right.\nYou don't have to worry about me.<bw_break>": ""
+  },
+  "34037": {
+    "<attr><feel_sad_lv1><end_attr>I have been very strict with Fuura.\n Even though she may hate me, I\nbelieve that she will eventually come\n<br>\nto understand. But he is still a\nlittle boy, still chasing after his\ndead mother's shadow. As a father, I\n<br>\nmay not have given Fuura what he\nwanted most of all. Traveler. I beg\nyou to go north to Windy Cape.  Bring\n<br>\nFuura back to me. You don't have to\nbecome a windmill rider. I'll tell\nFuura that.": ""
+  },
+  "34038": {
+    "Traveler. I'm sorry, but could you go\nnorth to Windy Cape?  Call Fuura back.\nYou don't have to be a windmill rider.\n<br>\nI'll tell Fuura that.": ""
+  },
+  "34039": {
+    "<attr><feel_sad_lv2><end_attr>Gohohoho. Fuura-sama was sad because\nshe felt as if Azlantelope had taken\nher mother, Kazayura-sama. And yet,\n<br>\nshe couldn't honestly tell him how she\nfelt, so she left him to die. She was\nan unhappy child. Gohoho, gohoho.": ""
+  },
+  "34040": {
+    "<attr><feel_happy_lv1><end_attr>Oh, you<pc>Is it not?  Taketora-sama is waiting\nfor you in your room.": ""
+  },
+  "34041": {
+    "<attr><feel_angry_lv1><end_attr>I am Gunza, the Swordsman.  I travel\naround the world to collect the key\nemblems that prove my power. By the\n<br>\nway...<pc>Is that not so?  I heard that Lord\nTaketora is looking for a traveler by\nthat name. No way, you!  I hope you\n<br>\ndidn't take the credit while I was\nhanging around here!": ""
+  },
+  "34042": {
+    "<attr><feel_happy_lv3><end_attr>Big news, huh?  Fuura says she wants\nto become a wind rider! No way, that\nold lady.  That's right! If that's the\n<br>\ncase, we'll do our best to prepare for\nthe ceremony!": ""
+  },
+  "34044": {
+    "<attr><feel_angry_lv3><end_attr>Fuura onee-chan is going to become a\nwind rider!  Then we won't be able to\nplay together. If you won't play with\n<br>\nme, I hate you! I hate her so much!": ""
+  },
+  "34045": {
+    "<attr><feel_think_lv2><end_attr>I wonder if Fuura is all right.  It\ntakes a lot of time and effort to\nprepare for the wind-raiser ceremony.": ""
+  },
+  "34046": {
+    "<attr><feel_happy_lv2><end_attr>It seems that Fuura has decided to\nbecome a wind rider! We must hurry up\nand get ready so that we can perform\n<br>\nthe wind-sending ceremony whenever we\nwant.": ""
+  },
+  "34047": {
+    "<attr><feel_sad_lv1><end_attr>We all know that Master Fuura's\nrefusal to become a wind rider was due\nto, of all things, Master Kazayura's\n<br>\naccident. Even so, Master Fuura made\nup his mind to become a wind rider for\nthe sake of the town.  What can I say?": ""
+  },
+  "34048": {
+    "<attr><feel_angry_lv1><end_attr>I am Gunza, the Swordsman.  I travel\nthe lands to collect the key emblems\nof those who are recognized for their\n<br>\npower. Gunza the Swordsman has crossed\nmany deadly lands, but he has never\nonce been cowed by his enemies.  But\n<br>\nhe is nervous about talking to people.\nToday is the day I must summon up the\ncourage to go to Lord's Taketora's\n<br>\nmansion.": ""
+  },
+  "34049": {
+    "<attr><feel_happy_lv1><end_attr>This is Wind Town Azlan.  If you leave\nthe town and go northeast, you'll find\nKirika Steppe.  If you go south,\n<br>\nyou'll come to Inamino Highway. Do you\nwant to go to Mountain Pass?  Then\ntake the Inamino Highway to the south.": ""
+  },
+  "34050": {
+    "<attr><feel_happy_lv1><end_attr>This is Wind Town Azlan.  If you leave\nthe town and go northeast, you'll find\nKirika Steppe.  If you go south,\n<br>\nyou'll find Inamino Highway. Do you\nwant to go to Sui Tower?  Then you\nshould leave Inamino Highway and go to\n<br>\nSuizen Marsh.": ""
+  },
+  "34051": {
+    "A tazuna of the wind is made by the\nhands of a master craftsman to bless\nthe birth of a new wind rider. Fuura\n<br>\nis on his way to the craftsman at the\nMountain Pass to receive the tazuna\nfor Azlantelope. The Mountain Pass is\n<br>\nlocated south of the Inamino Highway\nin the south of Azlan Region.<pc>I want you to go there and meet up\nwith Foula. I want you to go there and\nmeet up with Fuura.  Is that\n<br>\nclear? Take care of my daughter.": ""
+  },
+  "34052": {
+    "<attr><feel_happy_lv1><end_attr>oh!<pc>Oh, my God!  Is Fuura properly\npreparing for the ritual? I see. I\nsee.  You have safely received the\n<br>\nTazuna of the Wind. Then, next, head\nto Sui Tower in the East Suizen Marsh,\neast of the Mountain Pass, and fetch\n<br>\nthe Wind Robe together with Fuura.<pc>I'll be right with you.  Take care of\nmy daughter!": ""
+  },
+  "34053": {
+    "<attr><feel_happy_lv3><end_attr>Ah, this is it! It's this wind!  I\nhaven't felt such a refreshing breeze\nin six years. You feel it too, don't\n<br>\nyou?  A new wind has recognized Fuura\nand gathered in Azlan!": ""
+  },
+  "34054": {
+    "Oh, you<pc>Is that so? I don't know what's going\non, but I heard that Lord Taketora\nwants to thank you.  You must go to\n<br>\nhis house quickly!": ""
+  },
+  "34055": {
+    "<attr><feel_happy_lv2><end_attr>Hey, did you notice? Did you notice\nhow many wild Azlantelopes came to\ntown to watch the wind-up ceremony?\n<br>\n You must really like Fuura!": ""
+  },
+  "34056": {
+    "<attr><feel_happy_lv1><end_attr>Fuura, you were beautiful.  Girls\nbecome adults before you know it. Wind\nRobe will sleep in Sui Tower for a\n<br>\nwhile. Until Fuura performs the next\nwind-sending ceremony.": ""
+  },
+  "34058": {
+    "<attr><feel_happy_lv3><end_attr>I was so surprised!  When Fuura came\nriding back on Azlantelope so\nquickly..! We're going to start the\n<br>\nwind-sending ceremony now!  As soon as\nhe said that, he started the\npreparations, and the ceremony began\n<br>\nin a flash! I've never seen such a\nrushed wind-sending ceremony in my\nlife!": ""
+  },
+  "34060": {
+    "<attr><feel_happy_lv3><end_attr>You know, you know!  Fuura-chan played\nwith me and let me wear Wind Robe\nclothes for a little bit! I love you,\n<br>\nFuura!": ""
+  },
+  "34061": {
+    "I never thought I'd see the day when\nFuura would be riding Azlantelope with\na smile like that.  I'm really happy.\n<br>\nBut I cannot be all joy.  A bad wind\nhas been blowing from the southwest,\nfrom the Royal City Kamiharmui. Royal\n<br>\nCity Kamiharmui is a sad city that\nstill bears the scars of the incident\n50 years ago.  Something must have\n<br>\nhappened.": ""
+  },
+  "34062": {
+    "<attr><feel_happy_lv2><end_attr>A bad wind was blowing from the\ndirection of Royal City Kamiharmui. I\nwas worried about it, but suddenly it\n<br>\nstopped blowing. Thanks to you, the\nWind Town Azlan is now completely\nbrightened up, and a good wind has\n<br>\nbegun to blow over Eltona Continent.": ""
+  },
+  "34063": {
+    "<attr><feel_happy_lv3><end_attr>Wow~!  You're so beautiful, wind\nrider! When I grow up, I want to be\nthe wind rider's wife!": ""
+  },
+  "34064": {
+    "<attr><feel_happy_lv1><end_attr>Fuura-sama came to see me before the\nWind Sending Ceremony. He told me that\nhe would do his best for Yoki, so\n<br>\nwatch over me.  I was so grateful.\nUgh... Thanks to her, the wind was\npurified and as you can see here, I'm\n<br>\nfeeling much better!  I'm feeling much\nbetter now.": ""
+  },
+  "34065": {
+    "<attr><feel_happy_lv2><end_attr>Fuura, you were amazing!  You haven't\nridden Azlantelope for a long time,\nand yet you managed to pull it off so\n<br>\neasily.": ""
+  },
+  "34066": {
+    "<attr><feel_happy_lv2><end_attr><pc>Let me also thank you.  I believe that\nMaster Fuura has changed not only\nbecause of Azlantelope, but also\n<br>\nbecause of your help. I never thought\nthat the day would come when that\nMaster Fuura would become a wind rider\n<br>\nand smile with Azlantelope.": ""
+  },
+  "34069": {
+    "<attr><feel_happy_lv3><end_attr>Hey, I heard you got the key emblem\nfrom your lord! Wow, wow, wow!  I want\nto touch it! My cousin Messhi said the\n<br>\nsame thing!  You have to touch it to\nknow how good it is!": ""
+  },
+  "34070": {
+    "<attr><feel_happy_lv2><end_attr>I'm glad to hear that you and\nAzlantelope have made peace with each\nother.  I'm really happy for you. I am\n<br>\nsure that Azlantelope and the others'\nselfless love has broken down the\nstubbornness that has kept your father\n<br>\nat bay. Now, instead of Azlantelope\nand the others, you must protect him.": ""
+  },
+  "34071": {
+    "<attr><feel_happy_lv1><end_attr>Not only did the Wind Sending Ceremony\ntake place, but it also made my\ndaughter Fuura grow up a lot. Fuura\n<br>\nhas made her own decision, and I do\nnot oppose her going on this journey.\nBut please take care of Fuura, please.": ""
+  },
+  "48230": {
+    "<attr><feel_happy_lv1><end_attr>Older Azlantelopes prefer to leave the\nherd and spend their remaining years\nin the land where the windrider spent\n<br>\nhis life. We have been taking care of\nAzlantelope for a long time.  It is a\nvery important service.": ""
+  },
+  "48231": {
+    "<attr><feel_sad_one><end_attr>Huh. I'm in love with Fushiko-san, who\ntakes care of Azlantelope at Lord's\nmansion. I heard a rumor that Fushiko-\n<br>\nsan wants a flower called Wind Lily,\nso I thought I'd give it to her. Azlan\nRegion.<%sEV_QUE_NAME0>I heard that the traveler is going to\ndrop it, but he is strong, isn't he?\nPlease, I beg you!  Take my place.<%sEV_QUE_NAME0>Could you please help me get my hands\non the Wind Lily by defeating the\n\"Mere Old Man\"?": ""
+  },
+  "48232": {
+    "<attr><feel_happy_lv1><end_attr>Oh, thank you!  You really are a nice\nperson to do me a favor like this!\nWell then, please be careful on your\n<br>\nway.  I'll be waiting for you here!": ""
+  },
+  "48233": {
+    "Oh, thank you very much!  But by any\nchance, don't you have a lot of other\nfavors to take care of? I'm not in\n<br>\nsuch a hurry, so please prioritize\nother things first.  Please call on me\nagain when you're free.": ""
+  },
+  "48234": {
+    "<attr><feel_sad_lv3><end_attr>Ugh! I see. I don't think I'm up to\nit.<%sEV_QUE_NAME0>I can't compete with  What should I\ndo?": ""
+  },
+  "48235": {
+    "<attr><feel_happy_lv1><end_attr>I want to get the Wind Lily that\nFushiko wants and give it to her.<open_irai><bw_break>": ""
+  },
+  "48236": {
+    "<attr><feel_happy_lv1><end_attr>Azlan Region<%sEV_QUE_NAME0>I'd appreciate it if you could help me\nout with this.": ""
+  },
+  "48237": {
+    "<attr><feel_happy_lv1><end_attr>Ah, that face!  I can see it! It\nappears you received the Wind Lily.": ""
+  },
+  "48238": {
+    "<attr><feel_sad_lv2><end_attr>Oh, is that so?  I'm sorry, I'm sorry\nI'm being so hasty.  I'll be waiting\nfor you, so please do me a favor.": ""
+  },
+  "48239": {
+    "<attr><feel_happy_lv2><end_attr>Wow! What a pretty and beautiful\nflower that suits Fushiko. I'm sure\nshe will be delighted with this one!<bw_break>": ""
+  },
+  "48531": {
+    "<attr><feel_sad_one><end_attr>But I can't do it.  When I stood in\nfront of Mr. Fushiko, I was so nervous\nthat I couldn't do anything. That's\n<br>\nright! Let's put a message card on the\nflowers!  \"Always thinking of you,\nfrom Maetake. That's it!<bw_break>": ""
+  },
+  "48785": {
+    "<attr><feel_sad_lv1><end_attr>Um, could you give this to Mr. Fushiko\nfor me? Fushiko is in Azlantelope's\nmansion, in the cabin!": ""
+  },
+  "48240": {
+    "Would you give Maetake the Wind Lily?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "48241": {
+    "<pc>gave Maetake the Wind Lily!": ""
+  },
+  "48786": {
+    "<pc>was entrusted by Maetake with the Wind\nLily!<me 60>": ""
+  },
+  "48243": {
+    "<attr><feel_happy_lv1><end_attr>Oh, hello.  You smell nice. Do you\nhave flowers by any chance?": ""
+  },
+  "48244": {
+    "<attr><feel_sad_lv1><end_attr>Oh, my God, was it just my\nimagination?  I hate it. I'm so\nembarrassed.": ""
+  },
+  "48245": {
+    "<attr><feel_happy_lv3><end_attr>Oh, Maetake-san gave me this flower?\n I'm so happy!  Wind Lily is my\nfavorite.": ""
+  },
+  "48246": {
+    "<attr><feel_happy_lv2><end_attr>Wind Lily is a very rare flower that\nblooms on hills where strong winds\nblow, and it is said to be able to run\n<br>\nas fast as the wind and jump as high\nas the wind. Azlantelope are said to\nbe able to run as fast and jump as\n<br>\nhigh as the wind by eating Wind\nLilies.": ""
+  },
+  "48247": {
+    "Would you give Fushiko the Wind Lily?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "48248": {
+    "<pc>gave Fushiko a Wind Lily!": ""
+  },
+  "48249": {
+    "Fushiko fed Azlantelope a Wind Lily.\nBut Fushiko didn't notice the message\ncard and fed Azlantelope with it!": ""
+  },
+  "48250": {
+    "<attr><feel_sad_lv3><end_attr>I'm not good at this.  When I stand in\nfront of Mr. Fushiko, I get nervous\nand can't do anything. Can you please\n<br>\ngive Fushiko the Wind Lily\ninstead? Fushiko is in Azlantelope's\nmansion, in the cabin.<open_irai>": ""
+  },
+  "48251": {
+    "<attr><feel_happy_lv1><end_attr>Wind Lily is a very rare flower that\nblooms on hills where strong winds\nblow, and it is said to be able to run\n<br>\nas fast as the wind and jump as high\nas the wind. Azlantelope are said to\nbe able to run as fast and jump as\n<br>\nhigh as the wind by eating Wind\nLilies.": ""
+  },
+  "48252": {
+    "<attr><feel_happy_lv2><end_attr>Ah, Mr. Traveler! Your face, it seems,\nhas passed the Yuriyuri to Mr.\nFushiko!  Thank you so much. I wonder\n<br>\nif Fushiko has noticed the message\ncard by now? Ahh..!  I'm so excited, I\ndon't know what to do! This is my way\n<br>\nof saying thank you!  Please don't\nhesitate to receive it.": ""
+  },
+  "48253": {
+    "<attr><feel_happy_lv1><end_attr>To ride Azlantelope, the incarnation\nof the wind, is a difficult task. But\nI'm fascinated by it.  I wonder what\n<br>\nkind of view we can see from the top\nof Azlantelope's back when she soars\nhigh above us.": ""
+  },
+  "48254": {
+    "<attr><feel_happy_lv2><end_attr>I hope Fushiko has noticed the message\ncard by now. Aah!  I'm so nervous, I\ndon't know what to do!": ""
+  },
+  "97968": {
+    "I am a wandering Priest in search of a\nnew job.  When people need Allmighty\nAlltrades' help, I show up. There\n<br>\nseems to be a great deal of faith in\nAllmighty Alltrades in this town, and\na great deal of prayer.  That's all\n<br>\nvery well! I'll do my part as well.<bw_break>": ""
+  },
+  "60449": {
+    "Unlike my brother Maetake, who is a\nlazy guy, I am a good-looking guy who\ndecides on everything once and for\n<br>\nall. I'm about to turn 10 years old,\nand I'm thinking of deciding what I'm\ngoing to do and becoming a full-\n<br>\nfledged man. So I wanted to meet the\nranger whose vocation interests me the\nmost. I'm sure you're an adventurer,\n<br>\nright?  I'm sure you're an adventurer,\nso why don't you change your job to a\nranger and come meet me?  I'd like you\n<br>\nto make my wish come true!": ""
+  },
+  "60454": {
+    "<attr><feel_happy_lv2><end_attr>Thank you! You're a good guy!  I'm\ngoing to teach you how to become a\nranger. To become a ranger, you must\n<br>\ngo to the Ranger Association\nHeadquarters in Royal City Kamiharmui.\nIf you pass the exam to become a\n<br>\nranger there, you will be able to\nbecome a ranger! Kamiharmui is a bit\nfar, but I'm sure an adventurer like\n<br>\nyou can make it! I guarantee it! Also,\nto take the test to become a ranger,\nyou need to have two different\n<br>\nvocations. I'm sure you'll get there\nif you're an adventurer. I'm sure I'll\nbe able to make it if I go to the\n<br>\nRanger Association Headquarters!  I'll\nbe waiting for you then!": ""
+  },
+  "60456": {
+    "<attr><feel_happy_lv1><end_attr>Thank you! You're a good guy!  But\nI've noticed that you have quite a few\nfavors to ask of me, don't you? Well,\n<br>\nI feel bad, so I'll pass.  When you're\ndone with your requests and you're\nfree, give me a call again.": ""
+  },
+  "60457": {
+    "<attr><feel_think_lv2><end_attr>No way! You seem to be well-traveled,\nso I thought you'd be a good bet.\n Well, if you change your mind, give\n<br>\nme a call again.": ""
+  },
+  "60460": {
+    "I'm wondering if I could meet the\nranger that I'm most interested in\nright now.<open_irai><bw_break>": ""
+  },
+  "60461": {
+    "It would be quicker if you could come\nsee me as a ranger.  I'll teach you\nhow to become a ranger.<bw_break>": ""
+  },
+  "60462": {
+    "<close_irai>To become a ranger, you must go to the\nRanger Association Headquarters in\nRoyal City Kamiharmui. There, you will\n<br>\ntake an exam to become a ranger, and\nif you pass the exam, you will be able\nto become a ranger! Kamiharmui is a\n<br>\nbit far, but I'm sure an adventurer\nlike you can make it! I guarantee it!\nAlso, to take the test to become a\n<br>\nranger, you need to have two different\nvocations. I'm sure you'll get there\nif you're an adventurer. I'm sure I'll\n<br>\nbe able to make it if I go to the\nRanger Association Headquarters!  I'll\nbe waiting for you then!": ""
+  },
+  "60463": {
+    "<attr><feel_angry_lv1><end_attr><icon_exc>Aah!  That's a ranger!<bw_break>": ""
+  },
+  "60474": {
+    "<attr><feel_happy_lv3><end_attr>It's really cool to be a specialist\nwho survives in the wilderness!  I'm\nthrilled to meet a ranger.<bw_break>": ""
+  },
+  "60477": {
+    "<attr><feel_angry_one><end_attr>Decided.<bw_break>": ""
+  },
+  "60478": {
+    "<attr><feel_angry_lv3><end_attr>I'm going to be a ranger!  I'm going\nto be a Ranger! I'm going to be a\nranger!  I was born to be a ranger!\n<br>\nI'm so glad I did. I've made up my\nmind.  This is my way of saying thank\nyou.  I'll take it as a token of my\n<br>\nappreciation!": ""
+  },
+  "60479": {
+    "<attr><feel_happy_lv1><end_attr>Heh, I told you, didn't I?  Unlike my\nbrother Maetake, who's a bum, I'm a\ngood-looking guy who decides on\n<br>\neverything once and for all. I owe you\nfor showing me the way.  I can't thank\nyou enough.  I really appreciate it!": ""
+  },
+  "60480": {
+    "<attr><feel_happy_lv1><end_attr>I'm going to be a ranger!  I'm going\nto be a Ranger! I'm going to be a\nranger!  I was born to be a ranger!\n<br>\nI've been in the same boat since I was\na kid, and I've never seen anything\nlike it.  I can't thank you enough.  I\n<br>\ncan't thank you enough!": ""
+  },
+  "113548": {
+    "An? What is it, you?  Don't stare at\nme.": ""
+  },
+  "34072": {
+    "To devote oneself to the happiness of\nothers under the will of God is the\nway to cultivate one's soul.  These\n<br>\nare the words of the great priest\nKirika. Those Who Aim High as Monks at\nour Kirika Monastery are engaged in\n<br>\ndaily training based on these words.\nIf you wish to enter the Order of\nKirika to become a priest, you must be\n<br>\na level 10 monk or above and come back\nagain.": ""
+  },
+  "48931": {
+    "To devote oneself to the happiness of\nothers under the will of God is the\nway to cultivate one's soul.  These\n<br>\nare the words of the great priest\nKirika. If you wish to enter the Order\nof Kirika to become a priest, you must\n<br>\nbe a level 10 monk or above and come\nback again. To become a priest, you\ncan talk to Priest Dharma in the\n<br>\ntavern.  We look forward to your\ninitiation.": ""
+  },
+  "34073": {
+    "This is Kirika Shrine.  The house of\nsalvation built by the great priest\nKirika of old. God will be pleased\n<br>\nwith your visit today.  Come in, come\nin.": ""
+  },
+  "34074": {
+    "<attr><feel_happy_lv1><end_attr>I am a traveling perfumer.  I stopped\nby this town on my way here, and I was\nsurprised to see such a Shrine. I\n<br>\nwonder if I might pray a little.": ""
+  },
+  "34075": {
+    "<attr><feel_happy_lv1><end_attr>High Priest Nittatsu-sama gave me a\nnew life as a priest. I can't wait to\nbecome a full-fledged monk.  And I\n<br>\nwant to be of service to Eldona, even\nif only a little! Eldona is the god of\nwisdom who is said to have created us\n<br>\nElves, and is worshipped by many\npriests!": ""
+  },
+  "34076": {
+    "We, the priests of the Order of\nKirika, are working day and night to\nbring the world closer to the image of\n<br>\nGod's desire. Hmm. You seem to be a\nmonk of level 10 or above. Did you\ncome here because you wish to enter\n<br>\nthe order?<yesno><break>": ""
+  },
+  "34077": {
+    "<attr><feel_think_lv1><end_attr>Now, please wait a moment.  Priest\nPriest Helga, who is in charge of\ndeciding who will be initiated into\n<br>\nthe priesthood, is on his way. I heard\nthat he went to pick some kind of\nfragrant wood. I wonder why he is\n<br>\ntaking so long to return. If you want\nto hear more details, you should ask\nthe traveling perfumers there.": ""
+  },
+  "34078": {
+    "<attr><feel_think_lv1><end_attr>You are a priest and yet you don't\nwant to join the Kirika Order.  You\nare an odd one, aren't you?": ""
+  },
+  "34079": {
+    "<attr><feel_sad_lv2><end_attr>I'm so overwhelmed.  I'm probably a\nhundred years too early to be worrying\nabout Priest Priest Helga, but...\n<br>\nOh? You must be a level 10 or above\npriest. So you must have come to\nKirika to join the Order, right? If\n<br>\nso, you should contact Priest Bart\nthere. But that may not be the best\ntime for you.": ""
+  },
+  "34080": {
+    "<attr><feel_think_lv1><end_attr>Please wait a moment.  Priest Priest\nHelga is now on his way to see who\nwill be initiated. I heard that he\n<br>\nwent to pick some kind of aromatic\nwood. Why is his return so late? If\nyou want to hear more details, ask the\n<br>\ntraveling perfumers there.": ""
+  },
+  "34081": {
+    "<attr><feel_sad_lv2><end_attr>I am a traveling perfumer.  I am a\ntraveling perfumer, using scents to\nconjure spells and cure people's\n<br>\nillnesses. Priest Priest Helga went to\nMirror Fountain to gather for me a\nfragrant tree called Lamplight Tree,\n<br>\nand has not returned. I tried to find\nit, but the location of the Mirror\nFountain has been told to me in a\n<br>\nriddle poem.  I have no idea where it\nis. But perhaps you can help me!  I\nbeg you! Please, could you go to the\n<br>\nMirror Fountain and find Priest Helga!": ""
+  },
+  "34082": {
+    "<attr><feel_happy_lv2><end_attr>Ho Really?  Thank you very much! The\nriddle poem that tells the location of\nthe Mirror Fountain is written in a\n<br>\nbook in this Shrine.  I've asked for\nyour help!": ""
+  },
+  "34083": {
+    "<attr><feel_sad_lv1><end_attr>Ho Really?   But wait a minute.  You\nhave a lot of favors to ask of me. If\nthat's the case, I'll ask someone\n<br>\nelse.  I'm just overwhelmed by your\nkindness.": ""
+  },
+  "34084": {
+    "<attr><feel_sad_lv2><end_attr>Ah. I knew it.  I'm sorry for being so\nunreasonable.": ""
+  },
+  "34085": {
+    "<attr><feel_happy_lv1><end_attr>Thank you, priest!  I cannot believe\nyou would do me such a favor.<open_irai><bw_break>": ""
+  },
+  "34086": {
+    "<attr><feel_happy_lv1><end_attr><close_irai>I would have asked for help from the\nKirika Friars, but it seems they are\nunavailable at all costs.": ""
+  },
+  "48833": {
+    "It is an old book covered with dust. O\nye who seek the Mirror Fountain! Go to\nthe marshland, full of water, grass,\n<br>\nand trees. The waters of the circle\nthat surrounds the tower that pierces\nthe heavens. You must walk along the\n<br>\nbridges that connect the water's edge\nto the tower's back. The fountain that\nbears in its body a tree beaming with\n<br>\nlight is the Mirror Fountain you seek.": ""
+  },
+  "34088": {
+    "<attr><feel_happy_lv1><end_attr>This is Kirika Shrine.  The house of\nsalvation built by Kirika, the High\nPriest of the Ancient of Days. You.<pc>Yes, sir?  Welcome back.  Priest\nPriest Helga is waiting for you\ninside.": ""
+  },
+  "34089": {
+    "<attr><feel_happy_lv1><end_attr>The ministries of the Order of Kirika,\nsuch as curing illnesses and\npreventing calamities, are numerous,\n<br>\nbut first you will be required to\nundergo a period of novitiation. When\nyou have completed your training, you\n<br>\nwill be allowed to take a peek at the\nrite of baptism.  Until then, you must\nwork hard. When you are a level 15\n<br>\npriest or above, you will come back\nhere again.": ""
+  },
+  "48932": {
+    "<attr><feel_happy_lv1><end_attr>The duties of the Order of Kirika,\nsuch as curing illnesses and\npreventing calamities, are numerous,\n<br>\nbut first you must train yourself.\nYes, you should aim to reach the\npriestly level of 15 or above.  That\n<br>\nwill mark the end of your novitiate.\nOnce you have achieved this level, you\nwill be allowed to take a peek at the\n<br>\nbaptismal rite.  Until then, work\nhard.": ""
+  },
+  "34090": {
+    "<attr><feel_happy_lv1><end_attr>The joys of life and human encounters\nexist because God created the world.\nLet us never forget to be grateful to\n<br>\nGod and always be just. Now then.<bw_break>       (Church chart)": ""
+  },
+  "34091": {
+    "<attr><feel_happy_lv1><end_attr>Look, isn't it a nice aroma?  It is\nsaid that the scent of this Lamplight\nTree is a monster's pet peeve. If you\n<br>\nhave this, you can enter the forest\nwithout worry!  This is why herb\npickers are so pleased with this\n<br>\nproduct.": ""
+  },
+  "34092": {
+    "<attr><feel_think_lv1><end_attr>I'm really terrible at this.  I even\nmistook the medicine I was taking to\nYoki's house for something that would\n<br>\nhelp him get rid of his own throat.\nNow that I have a junior colleague, I\nhave to pull myself together!": ""
+  },
+  "34093": {
+    "<attr><feel_happy_lv1><end_attr>You have a good look now, haven't you?\n You will be allowed to take a peek at\nthe baptismal rite. Now, show it to\n<br>\nthe other siblings.  Your teacher,\nPriest Priest Helga, has just\nreturned.": ""
+  },
+  "34094": {
+    "<attr><feel_happy_lv1><end_attr>It has completely disappeared by now,\nbut in the olden days, the art of\nincense was very useful, and there\n<br>\nwere many perfumers.": ""
+  },
+  "34095": {
+    "<attr><feel_happy_lv1><end_attr>Gohon! I will now pass on Priest\nHelga's instructions to you. In order\nto perform the baptismal rite, we need\n<br>\nto procure a sacrament called Bonfire\nStone. The Bonfire Stone is found in\nthe Azlan Region, just outside of this\n<br>\ntown.<%sEV_QUE_NAME0>The \"Mere Old Man\" says that the<%sEV_QUE_NAME0>and get the Bonfire Stone!  These are\nPriest Helga's instructions.": ""
+  },
+  "34096": {
+    "<attr><feel_happy_lv2><end_attr>as one would expect<pc>Mr. K!  You reply with a lot of\nconfidence. But still...<%sEV_QUE_NAME0>I can't believe it.  He's tougher than\nwhen I prepared the Bonfire Stone.\nPlease be careful.  I'll be watching\n<br>\nout for you!": ""
+  },
+  "34097": {
+    "<attr><feel_think_lv1><end_attr>Huh? You seem to have a lot of\nrequests. You can't start preparing\nfor the baptismal rite with such a\n<br>\nshort mind.  Please come back when you\nare free.": ""
+  },
+  "34098": {
+    "<attr><feel_think_lv1><end_attr>Oh, well, I see. If you don't think\nit's the right time, that's one choice\nyou can make.  Please come back when\n<br>\nyou have made up your mind.": ""
+  },
+  "34099": {
+    "<attr><feel_think_lv2><end_attr>Priest Helga has a new disciple, but\nall he does is go out.  What on earth\nis he doing?": ""
+  },
+  "34100": {
+    "<attr><feel_happy_lv1><end_attr>The preparation for this baptismal\nrite is also a trial given to you.<open_irai><bw_break>": ""
+  },
+  "34101": {
+    "<attr><feel_happy_lv1><end_attr><pc>Please be careful.  May Eldona bless\nyou.": ""
+  },
+  "34102": {
+    "<attr><feel_happy_lv2><end_attr>welcome home<pc>Mr.!  It seems you have received the\nBonfire Stone. Now, let's go to Kirika\nMaternity for the baptismal service!\n<br>\n It is located in the center of Kirika\nSteppe, east of the town.": ""
+  },
+  "34103": {
+    "<attr><feel_happy_lv1><end_attr>So, let us begin our journey to Kirika\nMaternity, where the baptismal rite is\nperformed!  It is located in the\n<br>\ncenter of Kirika Steppe, east of this\ntown.<open_irai><bw_break>": ""
+  },
+  "34104": {
+    "<attr><feel_happy_lv2><end_attr>Our monks can only become true\nbrothers when they are baptized in\nKirika Maternity.": ""
+  },
+  "34105": {
+    "<attr><feel_think_lv2><end_attr>But why did Eldona say he needed your\nhelp? I've seen many baptisms, but\nnever anything like this. Well,\n<br>\nwhatever it is, continue your training\nas a priest. Next time, you must be a\npriest of level 20 or above to come\n<br>\nhere.": ""
+  },
+  "34106": {
+    "<attr><feel_think_lv2><end_attr>What on earth is this great calamity\nthat Eldona was talking about? I don't\nknow what we can do, but let's work\n<br>\ntogether to further our training for\nthe day to come. As Priest Bart said,\nour next goal is to become a level 20\n<br>\npriest.  Let's do our best!<pc>Oh my god!!!": ""
+  },
+  "34107": {
+    "<attr><feel_think_lv2><end_attr>What exactly is this great evil that\nEldona was talking about? I don't know\nwhat we can do to help.<pc>Let's work together to cultivate\nourselves as monks.  Let us work\ntogether to train ourselves to be\n<br>\npriests. When the coming day arrives,\nlet us not panic, but be ready to deal\nwith it.": ""
+  },
+  "34108": {
+    "<attr><feel_angry_lv1><end_attr>We've been waiting for you<pc>Oh, my God!  This is your first\nassignment as a priest of the Order of\nKirika. Listen to me.  Here in the\n<br>\nTreeshade Village to the north of\nAzlan, a group of people have been\nafflicted by a mysterious disease.\n<br>\nIt's probably an epidemic, and if we\ndon't act quickly, many lives will be\nin jeopardy.  We must do everything in\n<br>\nour power to find a cure!": ""
+  },
+  "34109": {
+    "<attr><feel_angry_lv1><end_attr>Good. It is time to test the results\nof your training.  Banish all\nexpectations! Priest Helga and the\n<br>\nothers should have already arrived at\nTreeshade Village.  You must head for\nthe village and join them.": ""
+  },
+  "34110": {
+    "<attr><feel_angry_lv1><end_attr>Wait for me<pc>I am very happy to hear from you.  Why\ndo you have so much other work to do\nat a time like this? I'm in a hurry.\n<br>\n Go relieve yourself right away.": ""
+  },
+  "34111": {
+    "<attr><feel_sad_lv1><end_attr>Then I won't force you.  I'm sorry.<pc>The following is a list of the most\ncommon problems with the": ""
+  },
+  "34112": {
+    "<attr><feel_sad_lv1><end_attr>Recently, I've been hearing strange\nrumors from fellow perfumers.  They\nsay a strange disease that causes\n<br>\nblack bruises is spreading. I have a\nbad feeling about this.  I hope it's\njust my imagination.": ""
+  },
+  "34113": {
+    "<attr><feel_sad_lv1><end_attr>Quickly, quickly!  We have to get to\nTreeshade Village as soon as possible!\nHerbs are ready! My wallet!  Oh,\n<br>\nwhat's that? Where's my lunch box?  I\nhave to bring my lunch box.": ""
+  },
+  "34114": {
+    "<attr><feel_angry_lv1><end_attr>come<pc>Your first job!  This is your first\njob.  Please work hard.<open_irai><bw_break>": ""
+  },
+  "34115": {
+    "<attr><feel_angry_lv1><end_attr>Priest Helga and his men should have\nalready arrived at Treeshade Village.\n For more information, please ask them\n<br>\nthere.": ""
+  },
+  "34116": {
+    "There is a Ranger Association Branch\nin the Molinara Great Forest northwest\nof Treeshade Village. If you go there,\n<br>\nyou may learn something about a\nsparkling tree that is said to cure\nthe breath of the reaper.": ""
+  },
+  "34117": {
+    "Let's go back to Treeshade Village.\n We must tell the monks about\nSenkouju!": ""
+  },
+  "34118": {
+    "There is nothing you can do now.\n Leave the matter of the Reaper's\nBreath to us and continue your\n<br>\ntraining. One day, you will need your\nstrength as you grow. Next time, you\nwill be a level 25+ priest.  Perhaps\n<br>\nby then you will find something to\nhelp you.": ""
+  },
+  "39128": {
+    "There is nothing you can do now.\n Leave the matter of the Reaper's\nBreath to us and continue your\n<br>\ntraining. But the time will come again\nwhen we will need your help. You will\nvisit us as a priest of level 25 or\n<br>\nabove.": ""
+  },
+  "34120": {
+    "<attr><feel_sad_lv2><end_attr>Hmm.  I've been looking for a\nsparkling tree for a long time, but I\nhaven't had any luck at all. I guess\n<br>\nI'll have to find another way.": ""
+  },
+  "41831": {
+    "<attr><feel_sad_lv3><end_attr>Ugh, ugh, gusun.  Poor Priest Helga.\nOh, God, please protect Priest Helga's\nson.": ""
+  },
+  "34121": {
+    "We have done everything we can, but we\ncan't find the sparkling tree\nanywhere.  The sick are getting weaker\n<br>\nby the day.<pc>You, too, lend a hand. You must lend a\nhand.  We must help those who have\nbeen affected by the reaper's breath.\n<br>\nFirst, go to Treeshade Village.  You\nmust talk to Priest Helga over there.": ""
+  },
+  "34122": {
+    "I asked for it<pc>But be careful.  But be careful.  It\nwould be a disaster if even you were\nto fall ill.": ""
+  },
+  "34123": {
+    "Wait for me<pc>I am so sorry, but I am not sure I can\ndo it.  Why do you have so many\nrequests at a time like this? Anyway,\n<br>\ngo get your hands free right away.": ""
+  },
+  "34124": {
+    "<attr><feel_sad_lv1><end_attr>I see. I don't mean to be\nunreasonable.": ""
+  },
+  "34126": {
+    "<attr><feel_sad_lv1><end_attr>This must be one of the trials God has\ngiven me.  I can't do without thinking\nso.<open_irai><bw_break>": ""
+  },
+  "34127": {
+    "<attr><feel_sad_lv1><end_attr>Now depart immediately.  Be Priest\nPriest Helga's help.": ""
+  },
+  "34128": {
+    "<attr><feel_angry_lv1><end_attr>The real battle is just beginning.  We\nmust find the Epidemex and destroy it!<pc>You must keep your strength until that\ntime. Till then, you should keep your\nstrength in reserve. If you have\n<br>\ntrained hard and become a priest of\nlevel 30 or above, you are ready for\nthe day when you will be on your own.\n<br>\n Then you will be ready for the coming\nday!": ""
+  },
+  "48934": {
+    "<attr><feel_angry_lv1><end_attr>The real battle is just beginning.  We\nmust find the Epidemex and destroy it!<pc>You must keep your strength until that\ntime. Until then, you should keep your\nstrength in reserve. You must train\n<br>\nand become a level 30 or higher priest\nbefore you come here!": ""
+  },
+  "34129": {
+    "<attr><feel_happy_lv2><end_attr><pc>You are a miracle. You are a miracle.\n Your righteous heart is your greatest\ntreasure.  Don't lose it forever.\n<br>\nWell.<bw_break>": ""
+  },
+  "34130": {
+    "<attr><feel_sad_lv3><end_attr>Ugh, to think that I, a perfumer\nspecializing in athlete's foot, could\nplay such a major role!  I wouldn't\n<br>\nmind dying any day now.": ""
+  },
+  "34131": {
+    "<attr><feel_happy_lv1><end_attr><pc>I am so glad that you taught me about\ncourage. You taught me what courage\nis. From today, my goal is you.  I\n<br>\nwill definitely catch up to you\nsomeday, so please watch me!": ""
+  },
+  "34132": {
+    "<attr><feel_angry_lv1><end_attr>At last, the true form of the Breath\nof the Reaper, the Epidemex, has been\nhunted down! Priest Priest Helga has\n<br>\nnow set up a ward to contain it in a\ncave in the Verse Mountain Forest of\nthe Wena Islands.<pc>We need your help.  You must go to the\ncave called Verse Cave in the Verse\nMountain Forest and defeat the\n<br>\nEpidemex!": ""
+  },
+  "34133": {
+    "<attr><feel_angry_lv1><end_attr>Be mindful. The other side is a great\nplague that has been tormenting people\nsince ancient times. But I believe you\n<br>\ncan win.  You will come back alive!": ""
+  },
+  "34134": {
+    "<attr><feel_angry_lv1><end_attr>Wait for me<pc>There are many others who need you.\n Aren't there many others who need\nyou? If that is the case, I don't say\n<br>\nthat it is unreasonable.  It is very\npainful that I cannot ask for your\nhelp.": ""
+  },
+  "34135": {
+    "<attr><feel_sad_lv1><end_attr>I see. I don't mean to be\nunreasonable.  It is very hard for me\nnot to be able to ask for your help.": ""
+  },
+  "34136": {
+    "<attr><feel_happy_lv1><end_attr>Wow, wow!  Even I'm starting to get\nthe shakes.  The time for battle has\nfinally come, hasn't it?": ""
+  },
+  "34137": {
+    "<attr><feel_angry_lv2><end_attr><pc>Mr!  It's finally time for the\ndecisive battle. If we win this\nbattle, the breath of the Reaper will\n<br>\nnever appear again.  Let's fulfill a\nlong-held dream of 300 years!": ""
+  },
+  "34138": {
+    "<attr><feel_angry_lv1><end_attr>The true form of the Breath of the\nReaper, the Epidemex, has been trapped\nin the Verse Cave in the Verse\n<br>\nMountain Forest of the Wena Islands.<open_irai><bw_break>": ""
+  },
+  "34139": {
+    "<attr><feel_angry_lv1><end_attr><pc>Please hurry!  We don't know how long\nPriest Priest Helga's wards will hold!": ""
+  },
+  "34140": {
+    "<attr><feel_happy_lv1><end_attr>This is Kirika Shrine.  The house of\nsalvation built by Kirika, the High\nPriest of the Ancient of Days. Oh.<pc>Is it not?  Please come in.": ""
+  },
+  "34141": {
+    "<attr><feel_happy_lv2><end_attr>I have nothing more to teach you.\n Leave this congregation and live your\nlife as you wish. I am proud to have\n<br>\nbeen your sibling for such a short\ntime.  We will meet again.<pc>The following is a list of the most\ncommon problems with the": ""
+  },
+  "34142": {
+    "<attr><feel_happy_lv2><end_attr>I also have a dream.  It is to bring\nback to life the ancient art of\nincense making. It won't be an easy\n<br>\nroad, but I will make it happen.": ""
+  },
+  "34143": {
+    "<attr><feel_happy_lv2><end_attr>Watch<pc>I'm not losing to you either!  I won't\nlose to you either. I will train\nharder and harder, and one day I will\n<br>\nsurpass you!": ""
+  },
+  "69810": {
+    "This is an adventurer's tavern.  Are\nyou an adventurer?  Then you\ndefinitely need this place. After all,\n<br>\nyou can ask your friends to do Request\nQuests for you.  You should take\nadvantage of it.": ""
+  },
+  "69811": {
+    "<attr><feel_happy_one><end_attr>My mother works at a tavern and helps\ntravelers to connect with friends.\nPlease patronize us...": ""
+  },
+  "253215": {
+    "Hello, travelers. Welcome to Wind Town\nAzlan.  Please make yourselves at\nhome.": ""
+  },
+  "48789": {
+    "<attr><feel_think_lv2><end_attr>Anrema~!  Customer, did you come to\ntake a bath in the hot springs here?\nSorry. We're still preparing to open.\n<br>\n Come back again in a while!": ""
+  },
+  "48790": {
+    "<attr><feel_think_lv2><end_attr>This is the new specialty of this\ntown, Azlan Hot Springs!  Right now,\nit's still in the process of opening,\n<br>\nbut it's crowded with special coral\nguests. But there's a big incident\ngoing on.  We are looking for\n<br>\ntravelers who are level 22 or above.": ""
+  },
+  "48791": {
+    "<attr><feel_sad_lv1><end_attr>Hello, visitor!  This hot spring is\nnow preparing to open.  Come and join\nus when we open!": ""
+  },
+  "48792": {
+    "<attr><feel_sad_lv1><end_attr>Oh, no!  There's a terrible incident\nat the spa, and I can't get in. Sorry.": ""
+  },
+  "48793": {
+    "<attr><feel_happy_one><end_attr>This is the new specialty of this\ntown, Azlan Hot Springs!  Right now,\nit's still in the process of opening,\n<br>\nbut it's packed with specially invited\ncoral.<bw_break>": ""
+  },
+  "48794": {
+    "<if_woman><attr><feel_sad_lv1><end_attr>But there's been a terrible incident.\n I can't even open the store! As a\nmatter of fact, you know. The hot\n<br>\nwater outlet in the men's room is\nclogged, and no hot water is coming\nout.  The customers inside are getting\n<br>\na cold.<else><attr><feel_sad_lv1><end_attr>But there's been a terrible incident.\n I can't even open the store! As a\nmatter of fact. The hot water outlet\n<br>\nin the women's bath is clogged, and\nthe hot water can't come out.  The\ncustomers inside are getting a cold.<endif>": ""
+  },
+  "48795": {
+    "<if_woman><attr><icon_exc><feel_happy_lv3><end_attr>Oh, my God! You're not just any guy,\nare you?  You are a skilled traveler,\nbut you also have the air of a Master\n<br>\ncleaner! I hate to ask a young girl\nlike you, but would you mind going\ninto the men's bath and cleaning the\n<br>\nblockage at the hot water outlet?<else><attr><icon_exc><feel_happy_lv3><end_attr>Oh, my God! You're not just any guy,\nare you?  You are a skilled traveler,\nbut you also have the air of a Master\n<br>\ncleaner! I hate to ask a young brother\nlike you, but would you mind going\ninto the women's bath and cleaning the\n<br>\nblockage at the hot water outlet?<endif>": ""
+  },
+  "48796": {
+    "<if_woman><attr><feel_happy_lv3><end_attr>Really? That's great.  Well, first of\nall, hurry up and get some cleaning\ntools. It appears only during the\n<br>\nnight on the east side of Kamiharmui\nSouth.<%sEV_QUE_NAME0>The cleaning rod is a thing called\nCleaning Rod. With that, I should be\nable to clean the clogged hot water\n<br>\noutlet in the men's bath!  I'm\ncounting on you, Master Cleaner!<else><attr><feel_happy_lv3><end_attr>Really? That's great.  Well, first of\nall, hurry up and get some cleaning\ntools. It appears only during the\n<br>\nnight on the east side of Kamiharmui\nSouth.<%sEV_QUE_NAME0>The cleaning rod is a thing called\nCleaning Rod. With that, I should be\nable to clean the clogged outlet of\n<br>\nthe women's bath!  I'm counting on\nyou, Master Cleaner!<endif>": ""
+  },
+  "48797": {
+    "<attr><feel_think_lv2><end_attr>You seem to be taking on too many\nrequests, don't you think?  I'll ask\nyou to take care of this one after I\n<br>\ntake care of that one.": ""
+  },
+  "49789": {
+    "<attr><feel_think_lv2><end_attr>You're not going to do it?  I don't\nthink there's anyone else out there\nwho's as good a cleaner as you are.": ""
+  },
+  "48798": {
+    "<attr><feel_happy_lv2><end_attr>Anreama~, Mr. Master Cleaner!  Are\nyour cleaning tools ready? They appear\nonly during the night on the east side\n<br>\nof Kamiharmui South.<%sEV_QUE_NAME0>The cleaning rod is dropped by a man\nnamed \"Cleaning Rod\".<open_irai><bw_break>": ""
+  },
+  "48799": {
+    "<if_woman><attr><feel_happy_lv2><end_attr>With that thing, I should be able to\nclean the clogged hot water outlet in\nthe men's bath!<close_irai><else><attr><feel_happy_lv2><end_attr>With that thing, I should be able to\nclean the clogged outlet of the\nwomen's bath!<close_irai><endif>": ""
+  },
+  "48800": {
+    "<attr><feel_think_lv2><end_attr>Anreama~, the Souji Master!  If you\ndon't have a Cleaning Rod, I can't let\nyou in the spa.": ""
+  },
+  "49790": {
+    "<attr><pipipi_low><end_attr>Hey, hey, hey. That's a girl, right?": ""
+  },
+  "49791": {
+    "<attr><pipipi_low><end_attr>Bubuhoo!  Is it possible that she\nwants to go in this men's bath with\nus?": ""
+  },
+  "49792": {
+    "<attr><pipipi_low><end_attr>No, no, wait, wait.  Could that\npossibly be the cleaner?": ""
+  },
+  "48801": {
+    "<if_woman><attr><feel_happy_lv2><end_attr>Anreama~!  I already received Cleaning\nRod.  You are indeed a Master of\ncleaning, aren't you? Now then, will\n<br>\nyou hurry up and clean the men's bath?<yesno><break><else><attr><feel_happy_lv2><end_attr>Anreama~!  I already received Cleaning\nRod.  You are indeed a Master of\ncleaning! Now then, will you hurry up\n<br>\nand clean the women's bath?<yesno><break><endif>": ""
+  },
+  "48802": {
+    "<attr><feel_think_one><end_attr>Oh, no, oh, no, oh, no.  Oh no, our\nguests will catch a cold.": ""
+  },
+  "48803": {
+    "<attr><feel_happy_lv3><end_attr>Thanks a lot! I'm going to use\nCleaning Rod to clean the hot water\noutlet! Oh, that's right.  It would be\n<br>\na disaster if the hot water gets into\nyour eyes.  So, you need to put on\nthese cleaning glasses.<bw_break>": ""
+  },
+  "48804": {
+    "<if_woman><attr><feel_happy_lv2><end_attr>Well then, I've asked you to take care\nof them.  This is a men's bath, so\ndon't stare at the customers!<else><attr><feel_happy_lv2><end_attr>Well then, I've asked you to take good\ncare of her.  Since this is a women's\nbath, don't look too closely at the\n<br>\ncustomers!<endif>": ""
+  },
+  "48805": {
+    "<attr><feel_happy_lv3><end_attr>I'm so proud of you! I can't believe\nit.  The hot water is coming out\nperfectly now.  Well then, I'll\n<br>\nofficially open a hot spring spa!": ""
+  },
+  "48806": {
+    "<attr><feel_happy_lv3><end_attr>I'm so proud of you! I can't believe\nit.  The hot water is now running\nperfectly.  Please accept this as a\n<br>\nsmall token of my appreciation.": ""
+  },
+  "48807": {
+    "<attr><feel_happy_lv2><end_attr>Thanks to you, Azlan Hot Springs will\nbe able to stay in business.  Cleaning\nRod will be using it for cleaning,\n<br>\ntoo. Master Cleaner<pc>I'm just saying.  Would you like to\nget warmed up too? The bathing fee is\n50 gold per bath, and when you soak in\n<br>\nthe hot water, your HP will keep\nrecovering for a certain period of\ntime!": ""
+  },
+  "48808": {
+    "<attr><feel_happy_lv2><end_attr>Oh, my~, the cleaning master!  If you\ngot your hands on a Cleaning Rod, show\nit to Auntie!": ""
+  },
+  "48816": {
+    "<if_woman><pc>The \"Mere Old Man\" put on his cleaning\nglasses and, Cleaning Rod in hand,\nopened the door to the men's bath!<se_nots map_common Door_wdS_s_op><else><pc>The \"Mere Old Man\" put on his cleaning\nglasses and opened the door of the\nwomen's bath with Cleaning Rod in his\n<br>\nhand!<se_nots map_common Door_wdS_s_op><endif>": ""
+  },
+  "48817": {
+    "The steam made my glasses look white\nand fogged up!<se_nots joutyu kapoon>": ""
+  },
+  "48818": {
+    "<if_woman><pc>walked gropingly through the men's\nbaths.<else><pc>walked gropingly through the women's\nbaths.<endif>": ""
+  },
+  "48819": {
+    "<pc>Cleaning Rod fixed a clogged hot water\noutlet!<se_nots joutyu mizuganagareru>": ""
+  },
+  "49793": {
+    "<attr><pipipi_high><end_attr>Hey, hey. Isn't that a guy?": ""
+  },
+  "49794": {
+    "<attr><pipipi_high><end_attr>He's holding some kind of spiky stick.\n What? The cleaning guy?": ""
+  },
+  "49795": {
+    "<attr><pipipi_high><end_attr>Then surely you don't have any guilty\nfeelings, right? Probably.": ""
+  },
+  "52747": {
+    "<attr><feel_happy_lv2><end_attr>If you want to have a healthy body\nlike me, you have to go to the hot\nsprings every day! The hot water here\n<br>\nis infused with a mysterious\ningredient called rehoimium.  That's\nthe secret of my healthy body!": ""
+  },
+  "48820": {
+    "<attr><feel_happy_lv2><end_attr>Anne Lema - (former name of a Japanese women's hairstyle)<pc>Hey!  Did you come to take a bath at\nthe spa today? Thanks to your cleaning\nwork, the spa is very prosperous.  The\n<br>\nbathing fee is a bargain at 50 gold.\n Come on, let's go get warmed up!<yesno><break>": ""
+  },
+  "48821": {
+    "<attr><feel_happy_lv1><end_attr>Really? Come again.": ""
+  },
+  "48822": {
+    "<attr><feel_happy_lv1><end_attr>Oh, dear, you are short of money,\naren't you?  Come back with 50 gold.": ""
+  },
+  "48823": {
+    "<attr><feel_happy_lv3><end_attr>Here you go, 50 gold. Here you go, 50\ngold!  Go ahead and warm up.": ""
+  },
+  "48824": {
+    "<attr><feel_happy_lv2><end_attr>Anne Lema - (former name of a Japanese women's hairstyle)<pc>If you want to go to the hot spring,\nyou have to pay the entrance fee to\nthe lady!  If you want to go to the\n<br>\nhot spring, you have to pay the\nentrance fee to the lady.": ""
+  },
+  "48825": {
+    "<if_woman><attr><feel_happy_lv2><end_attr>Anne Lema - (former name of a Japanese women's hairstyle)<pc>You can't go in there because it's a\nmen's bath!  You can't go in there\nbecause it's a men's bath.  I'm sorry.\n<br>\nI'm sorry.<else><attr><feel_happy_lv2><end_attr>Anne Lema - (former name of a Japanese women's hairstyle)<pc>You can't go in there because it's a\nwomen's bath!  You can't go in there\nbecause it's a women's bath.  I'm\n<br>\nsorry. I'm sorry.<endif>": ""
+  },
+  "48826": {
+    "<attr><feel_happy_lv2><end_attr>Hello, there! Are you warm?  Come back\nagain.": ""
+  },
+  "52748": {
+    "<attr><feel_happy_lv3><end_attr>Onsen Hot spring<heart>\n Poka, Poka, Poka all over my body": ""
+  },
+  "52749": {
+    "<attr><feel_think_lv1><end_attr>Oh, man, it's hot.  It's boiling.": ""
+  },
+  "48831": {
+    "Would you like to get out of the spa?<yesno><close>": ""
+  },
+  "52750": {
+    "<attr><feel_happy_lv2><end_attr>Oh, my stiff shoulders have loosened\nup.  My skin feels smooth and silky!\nThe water of this hot spring has a\n<br>\nmysterious ingredient called\n\"rhoimium\" dissolved in it.": ""
+  }
+}

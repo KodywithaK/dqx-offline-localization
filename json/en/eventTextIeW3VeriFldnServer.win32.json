@@ -1,0 +1,38 @@
+{
+  "99937": {
+    "I'm on my way to a seaside trading\npost south of Verinard Territory and a\njungle encampment in the Boonah\n<br>\nRainforest. Would you like to join me?<bw_break>": ""
+  },
+  "99940": {
+    "<pipipi_low>Hmmm. I'm sorry.  It's not a good time\nto head out there. I'll give you your\nmoney back.  Just give me some time to\n<br>\ncome back.": ""
+  },
+  "99941": {
+    "But I can't just drop you off and pick\nyou up, can I?  Where will you go if\nyou want?<name_off><select>\nTrading post by the sea (south of Verinard territory)\nJungle encampment (Boonah Rainforest)\nNo ride<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "99942": {
+    "<attr><feel_happy_lv2><end_attr>Thank you very much.  I'll see you\nlater!": ""
+  },
+  "99943": {
+    "I see. I guess I won't ride.  If you\nwant to ride, come back again.": ""
+  },
+  "99944": {
+    "<pipipi_low>Hey there, guys.  I've arrived at the\nseaside trading post!  See you later.": ""
+  },
+  "99945": {
+    "<pipipi_low>Hey there, guys.  We're at the\ncampsite in the jungle!  See you soon!": ""
+  },
+  "99946": {
+    "Ah. I ain't got enough money.  I'm\nsorry, but please come back when you\nhave more money.": ""
+  },
+  "99947": {
+    "<%sL_TIMEI>I'll take 25 gold for the rest.  And\nI'll take 25 gold.<yesno><break>": ""
+  },
+  "99948": {
+    "I see. You're quitting?  If you want\nto ride again, come back.": ""
+  },
+  "124154": {
+    "Hey there, traveler.  My name is Enagi\nthe peddler.  Pleased to meet you!\nIt's my job to take the goods from\n<br>\nVerinad to the various destinations in\nthis wagon! I'm on my way to a trading\npost by the sea in the south of\n<br>\nVerinado territory and a dense forest\nencampment in the Boonah Rainforest.\nWould you like to join me?<bw_break>": ""
+  },
+  "125637": {
+    "If you go south of here, south of\nVerinard Territory, you'll find a\nsettlement called Seaside Trading\n<br>\nPost. If you follow this road north of\nVerinado Territory all the way to the\neast, you'll end up in a dense\n<br>\nrainforest encampment in the Boonah\nRainforest. If you've never been\nthere, you should go there at least\n<br>\nonce.": ""
+  }
+}

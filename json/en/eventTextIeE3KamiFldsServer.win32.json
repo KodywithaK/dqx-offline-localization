@@ -1,0 +1,53 @@
+{
+  "99895": {
+    "Hello there, fellow traveler.  My name\nis Turgi.  I am a horse-drawn peddler,\nthat I am. My job is to carry the\n<br>\ngoods from Kamikhalmuy to the various\nplaces with this carriage, that I do.\nFrom now on, I will go to the\n<br>\nmountainous gateway on the Inamino\nHighway, and to the gutter villages in\nthe steppes of the Falling Sun, that I\n<br>\nwill go to, if you would like to take\na ride there.<bw_break>": ""
+  },
+  "99896": {
+    "We are now going to a mountain gate on\nthe Inamino-Kaido road and to a ghetto\nvillage in the steppes of the Falling\n<br>\nSun, that we are going to, if you\ndon't mind, ride there?<bw_break>": ""
+  },
+  "99897": {
+    "Hello there, fellow traveler.  My name\nis Turgi.  I am a horse-drawn peddler,\nthat I am. My job is to carry the\n<br>\ngoods from Kamikhalmuy to the various\nplaces with this wagon, that I do.\nFrom now on, we are going to a\n<br>\nmountain gateway on the Inamino\nHighway, that we are going to, if you\ndon't mind, take us there?<bw_break>": ""
+  },
+  "99898": {
+    "We are now going to a mountain gateway\non the Inamino Highway, that we are\ngoing to visit, if you don't mind, can\n<br>\nwe ride there?<bw_break>": ""
+  },
+  "99899": {
+    "<pipipi_low>Mm-hmm? I'm sorry.  It seems a little\ninconvenient for me to go there now,\nthat it does. I will return the fare,\n<br>\nthat I would like you to come again\nafter some time, that I would like you\nto do.": ""
+  },
+  "99900": {
+    "However, I can only drop you off and\nnot pick you up, that I cannot.  If\nyou still wish, where would you like\n<br>\nto go, that you would?<name_off><select>\nMountainous barrier (Inamino Highway)\nGakkeppu Village (Meadow of Falling Sun)\nNo ride<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "99901": {
+    "<attr><feel_happy_lv2><end_attr>There is a \"mairi\"! That I am, that I\nam.  Then, I will go immediately, that\nI will.": ""
+  },
+  "99902": {
+    "Oh. You don't ride, do you?  Then, if\nyou feel like riding, that you should\ncome again.": ""
+  },
+  "99903": {
+    "<pipipi_low>Thank you for your patience! We have\narrived at the mountain gate, that we\nhave.  We have arrived at the mountain\n<br>\ngate, that we have.": ""
+  },
+  "99904": {
+    "<pipipi_low>Thank you for your patience! We have\narrived at the junkyard village, that\nwe have.  We've arrived at the\n<br>\ngakkeppuchi village, that we have.": ""
+  },
+  "99905": {
+    "Hmmm. It seems that you are short of\nmoney.  I hope you will come back\nagain with more money, that I hope.": ""
+  },
+  "99906": {
+    "<%sL_TIMEI>I'll take 25 gold for the fare, if you\ndon't mind.  I'll charge you 25 gold\nfor the ride, if you don't mind.<yesno><break>": ""
+  },
+  "99907": {
+    "Oh. That is unfortunate.  I hope you\nwill come again if you have a chance,\nthat I do.": ""
+  },
+  "117313": {
+    "East of here, on the Inamino Highway,\nthere is a settlement called Mountain\nPass, that there is. If you go\n<br>\nnorthwest from here to the north of\nKamiharumui Territory to the\ngrasslands of Ochiyo, and then west,\n<br>\nthere is a village called Gakkeppuchi\nVillage, that there is. If you have\nnever been there, it would be a good\n<br>\nidea to go there once, that it would\nbe.": ""
+  },
+  "76464": {
+    "It seems you can't go any further than\nhere without having demons in tow.": ""
+  },
+  "76465": {
+    "It seems that we can't go any further\nwithout having a demon with us. My\nfellow demons are dead, so let's bring\n<br>\nthem back to life and come back again.": ""
+  },
+  "76466": {
+    "It seems that we cannot proceed any\nfurther unless we have demons with us.\nMy fellow demons are in a standby\n<br>\nstate, so let's make them join us and\ncome back again.": ""
+  }
+}

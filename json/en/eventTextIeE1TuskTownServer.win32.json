@@ -1,0 +1,923 @@
+{
+  "10093000": {
+    "That's right<pc>I'm going to take this.  Himea-sama\nsent me this.  It's a special gift for\nyour departure.<br_break>": ""
+  },
+  "10093001": {
+    "<pc>received a brimstone bag (Key Items)!<me 60>In addition, he received a recipe\nbook, \"Let's Get Started in Alchemy.\"<se_nots System Item><pc>I read \"Hajimeyo Alchemy\" (Let's Start\nAlchemy)!<pc>I learned a recipe for alchemy to\nbegin with!<se_nots System Item>The Renkin pot is a special tool that\ncan be used to smelt another item by\ninserting an item of material. You can\n<br>\nsmelt an item by selecting \"Renkin\nGama\" from the \"Items\" command. You\nwill need a \"recipe\" for the item you\n<br>\nwant to alchemize. Recipes can be\nobtained from Recipe Shops and\nbookshelves.": ""
+  },
+  "10093002": {
+    "Hmmm, that looks quite useful.  I'm\nsure it will come in handy on our\njourney.  Well, then, do it well!": ""
+  },
+  "40755": {
+    "<attr><feel_think_lv2><end_attr>Tsusukul Village is in trouble right\nnow.  I can't believe that Maiden\nHimea had to go through that. And yet,\n<br>\nShishinota and Konota seem to be\nhaving so much fun.  What on earth are\nthey doing?": ""
+  },
+  "40756": {
+    "<attr><feel_sad_lv2><end_attr>I had no idea that he was suffering\nfrom the disease.  We must get our\nscholars to find a cure for his\n<br>\nillness right away.<bw_break>": ""
+  },
+  "58805": {
+    "<turn_pc>oh!<pc>Oh, my God! Back home?  I cannot let\nyou pass this mansion, but if you\nreturn to the Garden of Learning, I'm\n<br>\nsure someone will welcome you.": ""
+  },
+  "58806": {
+    "<turn_pc>M? Are you a traveler?  No one is\nallowed in this mansion without\npermission.  If you are a tourist, go\n<br>\nto the Garden of Learning.": ""
+  },
+  "40757": {
+    "<attr><feel_happy_lv3><end_attr><start_lip_sync n00222 _normal m00001>Ooilah, I'm kind of getting the\nswooning feeling in my bones.": ""
+  },
+  "40758": {
+    "<attr><feel_sad_lv2><end_attr>Maiden Himea-sama has been alive for\n500 years. She has never once fallen\nill. And now, in order to save Himea-\n<br>\nsama, her squire is looking for a\ntraveler with an udeki.  If you would\nlike to help, you can lend a hand too.\n<br>\nFor more information, leave the Garden\nof Learning and go to the squire\nYonja, who lives in Himea's mansion on\n<br>\nthe eastern edge of the village.": ""
+  },
+  "40759": {
+    "<attr><feel_happy_lv2><end_attr><start_lip_sync n00223 _normal m00001><start_lip_sync n00222 _normal m00001><stop_lip_animation n00222 CLOSE_MOUTH>Wow, this is seriously amazing.  I\ncan't believe something like this was\nhidden under the floor.  I wonder if\n<br>\nthis Love Letter is from the teacher.": ""
+  },
+  "40760": {
+    "<turn_pc>oh!<pc>I wonder!  What a coincidence that you\nshould come to visit me at a time like\nthis.<bw_break>": ""
+  },
+  "40761": {
+    "<turn_pc>Oh, you are a traveler!  I see that\nyou are quite skillful.<bw_break>": ""
+  },
+  "40762": {
+    "<attr><feel_sad_lv1><end_attr>The fact is, the Maiden Himea who\npresides over this village has fallen\nill.  I ask for your help. I would\n<br>\nlike you to prepare the elixir of the\nImmortals, a secret elixir handed down\nin Tsusukul Village. The recipe for\n<br>\nthe elixir of the Immortal is written\nin the Book of Medicines at the Wisdom\nAltar to the west of this village.\n<br>\n Will you accept it?": ""
+  },
+  "40763": {
+    "Oh, I'm sorry!  I see. You'll take\ncare of it!": ""
+  },
+  "40764": {
+    "<attr><feel_think_lv1><end_attr>Oh, I'd like to say I'm sorry, but\napparently you have a lot of other\nwork to do! I'd say I'm sorry, but it\n<br>\nseems you have a lot of other work to\ndo. If that's the case, I can't ask\nfor your help.  I will only accept\n<br>\nyour kindness.": ""
+  },
+  "40765": {
+    "<attr><feel_think_lv1><end_attr>Hmmm... I see.  It's a pity, because I\nthought you would be the right person\nfor the job.  If you change your mind,\n<br>\ncall on me again.": ""
+  },
+  "40766": {
+    "<attr><feel_happy_lv1><end_attr>Wisdom Altar is a shrine located far\nwest of this village. I will follow\nyou as soon as I am ready.<pc>Please go to Wisdom Altar first.": ""
+  },
+  "40767": {
+    "<attr><feel_think_lv2><end_attr>Maiden Himea-sama has been alive for\n500 years. She has never fallen ill,\nnot even once in her life.": ""
+  },
+  "40768": {
+    "Go to the Wisdom Altar in the west,\nfind the Book of Pharmacy, and make\nthe elixir of the Immortals as it is\n<br>\nwritten.<open_irai><bw_break>": ""
+  },
+  "40769": {
+    "<close_irai>Akashi may be a young girl, but she\nhas no equal when it comes to mixing\npotions.  She will surely be of use to\n<br>\nyou.": ""
+  },
+  "40770": {
+    "<attr><feel_think_lv1><end_attr>To make the elixir of the Immortal, one must be in Kirika Steppe or elsewhere<%sEV_QUE_NAME0>I need a Wiggly Fossil, which is\nsometimes dropped by the I'll prepare\na potion for you.<pc>Please go and get the Wiggly Fossil.": ""
+  },
+  "40771": {
+    "<attr><feel_happy_lv3><end_attr>welcome home<pc>Mr. Kato!  Looks like you got the\nWiggly Fossil in one piece.": ""
+  },
+  "40772": {
+    "Would you give Akashi the Wiggly\nFossil?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "40773": {
+    "<attr><feel_think_lv2><end_attr>Huh? I'm sorry.  It seems I was\nmistaken.": ""
+  },
+  "40774": {
+    "<pc>gave Akashi a Wiggly Fossil!": ""
+  },
+  "40775": {
+    "<attr><feel_happy_lv2><end_attr>Thank you very much!  I'll get right\non mixing up the medicine.": ""
+  },
+  "40776": {
+    "What a surprise. The elixir of the\nImmortals is complete!<me 71>": ""
+  },
+  "40777": {
+    "<attr><feel_happy_lv2><end_attr>Thank goodness it's done!  The elixir\nof the Immortal is complete! Let's\ntake it to Himea-sama's mansion right\n<br>\naway!": ""
+  },
+  "40778": {
+    "<attr><feel_happy_lv2><end_attr>You did it! The elixir of the Immortal\nis complete!  Let's take it to Himea-\nsama's house right away! I hope this\n<br>\nelixir will make Himea-sama's illness\nbetter.": ""
+  },
+  "40779": {
+    "It seems that the preparation of the\nelixir of the Immortals is progressing\nsmoothly.  Please keep up the good\n<br>\nwork.<open_irai><bw_break>": ""
+  },
+  "40780": {
+    "<close_irai>Akashi may be a young girl, but she\nhas no equal when it comes to mixing\npotions.  She will surely be of use to\n<br>\nyou.": ""
+  },
+  "40781": {
+    "<attr><feel_think_lv2><end_attr>Himea said that her role in the world\nis coming to an end, but what does she\nmean by that? Even if you say there's\n<br>\nnothing to worry about, I can't stop\nworrying.": ""
+  },
+  "40782": {
+    "<attr><feel_think_lv1><end_attr>used after the name of someone who is an older sister figure<pc>Mr. Kato.  Shall I read again this\nbook I found in Wisdom Altar?<yesno><break>": ""
+  },
+  "40783": {
+    "I'll read it then. Well, in the\nunderground of Tsusukul Village, on\nthe eastern edge of Eltona, there\n<br>\nexists a God's Hall that holds great\npower. In that place, since ancient\ntimes, great mysteries have been\n<br>\nperformed. That room is the history of\nElf and a great asset. He must be in a\ngreat hurry to enter that God's Hall.\n<br>\nI don't think I can read any more.\n I've never heard of a room like God's\nHall.  It's not an ordinary room.": ""
+  },
+  "40784": {
+    "<attr><feel_think_lv2><end_attr>Yes, that's right. This book is so\ntattered that it looks like it might\nfall apart at any moment.  I wonder\n<br>\nhow old this book is.": ""
+  },
+  "49828": {
+    "<attr><feel_think_lv1><end_attr>We must learn a lot to support Himea.": ""
+  },
+  "40787": {
+    "<attr><feel_happy_lv2><end_attr>uheheh<pc>Oh, man!  You've come to the right\nplace! Anyway, let's talk to you\nfirst. Heh heh.": ""
+  },
+  "40788": {
+    "<attr><feel_angry_lv1><end_attr>counter for leaves, pieces of paper, etc<pc>I've been doing my own research on the\nroom in Tusculum Village since then!\n Since then, I've done my own research\n<br>\non the God's Hall in Tsusukul Village,\nbut no one I've asked has ever heard\nof such a room, and there's no record\n<br>\nof it whatsoever. That's why my heart\nis beating so fast.  This is the\nbeginning of an adventure! What do you\n<br>\nthink? Let's search the mysterious\nGod's Hall to the end!  Let's pursue\nthe unknown and live a romantic life!": ""
+  },
+  "40789": {
+    "I'd like to say, \"Okay, I'm a guy who\nknows what he's talking about,\" but\nwhat the heck!  You've got your hands\n<br>\nfull with requests. I can't ask you to\njoin me on my big project like that.": ""
+  },
+  "40790": {
+    "<attr><feel_sad_lv1><end_attr>Oh, that's for real?  No way.<pc>~.": ""
+  },
+  "40791": {
+    "<attr><feel_think_lv2><end_attr>If it's him, he might be able to tell\nus when it was written!  Yo~yo.": ""
+  },
+  "40792": {
+    "<attr><feel_happy_lv1><end_attr>(after the -masu stem of a verb) to do  to each other<pc>Hey! Just for your information, I'm\nthe first member of the Wakaba\nExpedition!  I'm the first one to join\n<br>\nthe Wakaba Expedition!": ""
+  },
+  "40793": {
+    "<attr><feel_angry_lv1><end_attr>All right, Troop 2!  Start asking\naround to find out what's going on in\nGod's Hall!<open_irai><bw_break>": ""
+  },
+  "40794": {
+    "<attr><feel_happy_lv1><end_attr><close_irai>What, you suddenly don't know where to\ngo? Ha-ha-ha!  That's a very good\nquestion, Troop 2! Well, for now, try\n<br>\nthe research labs. I haven't talked to\nthe teacher there yet.": ""
+  },
+  "40795": {
+    "<attr><feel_happy_lv2><end_attr>Isn't Mr. Hajika amazing?  Just by\nlooking at a book for a moment, she\ncan tell the time period in which it\n<br>\nwas written. And on top of that. He's\nalways so kind, and he's so cool too.\n It's kind of like being an otner,\n<br>\nisn't it?": ""
+  },
+  "40796": {
+    "<attr><feel_angry_lv2><end_attr>You're cheating.  You say you're the\ncaptain or something, but you don't do\nanything by yourself.": ""
+  },
+  "40797": {
+    "<attr><feel_angry_lv1><end_attr>Depart for Dolworm to discover what is\ngoing on in God's Hall!  And visit the\nDon family!<open_irai><bw_break>": ""
+  },
+  "40798": {
+    "<close_irai>Be careful of injuries and illnesses!\n Please do not take a detour and work\non the investigation!  We are counting\n<br>\non you to work hard!": ""
+  },
+  "40799": {
+    "<attr><feel_happy_lv1><end_attr>come<pc>Mr.!  Let's tell Shishinota what you\nfound out on Dolworm.": ""
+  },
+  "40800": {
+    "<attr><feel_think_lv2><end_attr>I had no idea that the so-called\nCherry Blossom Room was the entrance\nto the underground labyrinth. Ah, I\n<br>\nwant to go see it right away, but\nwe're all going together, right?\n Ganman, ganman.": ""
+  },
+  "40801": {
+    "<attr><feel_sad_lv3><end_attr>You know, I really saw a ghost of a\nwoman among the cherry blossoms.  It's\ntrue. I don't like it.  I don't want\n<br>\nto go in there.": ""
+  },
+  "40803": {
+    "<attr><feel_happy_lv1><end_attr>We've been waiting for you<pc>Mr. Kato!  At last, they are leaving\nfor their long-awaited underground\nexpedition.  Please call out to\n<br>\nShishinota as soon as possible. The\nentrance is in the ghost room, Sakura-\nno-Ma.  I've never been in the Cherry\n<br>\nRoom before. I'm so nervous.": ""
+  },
+  "40804": {
+    "<attr><feel_angry_lv1><end_attr>Nice timing, Capt. 2!  Time is up! We\nwill now depart on our underground\nsearch for the mysterious God's Hall!\n<br>\nWe're heading for the Sakura Room, the\nentrance to the underground labyrinth\nthat leads to the God's Hall.": ""
+  },
+  "40805": {
+    "<attr><feel_angry_lv1><end_attr>Good! That's a nice reply, just like\nNo. 2.  Let's have him head straight\nfor the cherry blossom room in the\n<br>\nstaff dormitory. All right, listen\nup! The staff dormitory is the\nbuilding you can see on your right\n<br>\nafter you leave this cafeteria.  The\ncherry blossom room is on the far\nright. Let's go, No. 2! The time of\n<br>\ndiscovery of God's Hall is near!  I'm\ncounting on you to work hard!": ""
+  },
+  "40806": {
+    "<attr><feel_angry_lv3><end_attr>Yo oshi! That's a nice reply, just\nlike No. 2.  I'd like to say \"yes,\"\nbut I've got my hands full with all\n<br>\nthe favors I've been asked to do! I\ndon't want you to go searching with\nsuch a half-hearted attitude!  Now, go\n<br>\nget your hands free as soon as\npossible!": ""
+  },
+  "40807": {
+    "<attr><feel_sad_lv2><end_attr>Oh, that's for real?  No way.<pc>~.": ""
+  },
+  "45135": {
+    "I see what appears to be a door under\nthe shelf.": ""
+  },
+  "40808": {
+    "<attr><feel_happy_lv2><end_attr>Oh, what shall I do? What shall I do?\n Is this enough Medical Herb?  I\nshould probably stop wearing my new\n<br>\nshoes. My hair doesn't look good\neither. This has nothing to do with\nthe expedition.  Oh, no, no, no. I\n<br>\nhave to calm down.": ""
+  },
+  "40809": {
+    "<attr><feel_angry_lv1><end_attr>You see<pc>The staff dormitory is the building\nyou see on your right just after the\ncafeteria. The staff dormitory is the\n<br>\nbuilding you can see on the right just\noutside this cafeteria.  The Cherry\nBlossom Room is on the far right.<open_irai><bw_break>": ""
+  },
+  "40810": {
+    "<attr><feel_angry_lv2><end_attr><close_irai>You never know what dangers lie\nahead! Do not be careless in your\npreparations!": ""
+  },
+  "44844": {
+    "I see what looks like a door under the\nshelf. Would you like me to move the\nshelf?<yesno><close>": ""
+  },
+  "40811": {
+    "<attr><feel_happy_lv1><end_attr>You did it<pc>Mr. Hajika!  With Hajika-sensei with\nyou, there's nothing to be afraid of\nanymore! He can even knock out ghosts\n<br>\nwith his signature spells!": ""
+  },
+  "40812": {
+    "<attr><feel_sad_lv3><end_attr>Hey, hey, hey<pc>You heard the moaning earlier, too,\nright?  There's a ghost after all.\nLet's stop exploring.  It's a good\n<br>\nthing we came back.": ""
+  },
+  "40813": {
+    "<attr><feel_angry_lv1><end_attr>I can't believe he's back.  I hope\nyou're not too scared.  Let's go to\nthe cherry blossom room right away!<open_irai><bw_break>": ""
+  },
+  "40814": {
+    "<attr><feel_angry_lv1><end_attr><close_irai>That moaning bothers you?  Of course\nit's the sound of the wind.  That\nKonota guy said unnecessary things.": ""
+  },
+  "40815": {
+    "<attr><feel_think_lv3><end_attr>Where did Master Himea and Dr. Hajika\ngo? What should I do? It's all our\nfault. And I can't believe Hajika-\n<br>\nsensei was like that.": ""
+  },
+  "40816": {
+    "<attr><feel_happy_lv2><end_attr>One rainy day, I decided to skip class\nand take a nap in the cherry blossom\ngarden. Then, just as the lightning\n<br>\nstruck, I saw a white woman's face in\nthe window.  I had never met Himea-\nsama before, so I was mistaken.": ""
+  },
+  "40817": {
+    "<attr><feel_angry_lv2><end_attr>I'm not going to let this happen\nagain.  I've had enough of this. The\nWakaba Expedition is now disbanded.\n<br>\nThat beast and Dr. Hajika are kind of\ndangerous.": ""
+  },
+  "40818": {
+    "<attr><feel_think_lv2><end_attr><pc>I think I may have noticed something\noutrageous. Look at this Love Letter\nthat Shishinota was carrying.  Let me\n<br>\nread it to you. I want to make you\nhappy for the rest of my life.  If my\nwish is granted in the Sky Room, we\n<br>\nwill go to that promised hill. And we\nwill exchange our Oath Cups of Eternal\nVow. I didn't realize it, but this\n<br>\nLove Letter contains information about\nGod's Hall. I felt like there was an\nimportant meaning to this.<pc>Mr. Himea. Will you help me find\nHimea-sama who chased after the beast?\n There's one thing I want to make sure\n<br>\nof.": ""
+  },
+  "40819": {
+    "<attr><feel_happy_lv1><end_attr>Oh, thank goodness!  Shishinota and\nthe others are unreliable, and I'm so\nhelpless on my own. Anyway, let's go\n<br>\nto Himea-sama's house and talk to her\nfirst. We may be able to get a clue as\nto where Himea-sama is headed.": ""
+  },
+  "40820": {
+    "Oh, good!  But...<pc>Are you having a lot of requests? By\nany chance, do you have a lot of\nfavors to do? If so, I feel sorry for\n<br>\nyou.  Please call on me again when you\nare free.": ""
+  },
+  "40821": {
+    "<attr><feel_sad_lv2><end_attr>I see.  Well, if you change your mind,\nplease give me a call.": ""
+  },
+  "40822": {
+    "<attr><feel_think_lv2><end_attr>It's strange, today's prayer time has\nalready passed, yet Himea-sama hasn't\ncome out of her room. I've been\n<br>\ninstructed not to enter her room for a\nwhile.  I can't help but feel uneasy.": ""
+  },
+  "40823": {
+    "<attr><feel_happy_lv1><end_attr>Good.<pc>I want to be Himea-sama's man, but I\ncan't be alone.  I want to be Himea's\npartner, but I can't be alone.<open_irai><bw_break>": ""
+  },
+  "40824": {
+    "First, let's go to Himea's house and\ntalk to her.  We may be able to find\nsome clues.": ""
+  },
+  "40825": {
+    "<attr><feel_sad_lv2><end_attr>I want to do something, too.  But I'm\nnot smart like Akashi, and there's\nnothing I can do. It's better for\n<br>\npeople like me to stay put.": ""
+  },
+  "40826": {
+    "<attr><feel_angry_lv1><end_attr><turn_pc>Eh? You and Akashi are looking for\nHimea-sama together?  Hmm. Heehee. I\nsee. I'm sorry, but I'm getting out of\n<br>\nhere.  I didn't think it would turn\ninto such a big deal. If you want to\ngo after Himea-sama, you're on your\n<br>\nown.  I have nothing to do with this\nanymore.": ""
+  },
+  "40827": {
+    "<attr><feel_think_lv2><end_attr>oh!<pc>I'm so glad you came!  Himea-sama has\ndisappeared. We have just dispatched\nsomeone to the Wind Town Azlan after\n<br>\nreceiving a report that she saw\nsomeone who looked like Himea heading\nthere. If anything should happen to\n<br>\nHimea-sama, it would be a disaster.\n Please, I beg you, find Himea-sama!": ""
+  },
+  "40828": {
+    "<attr><feel_sad_lv1><end_attr>For now, let's wait for Himea-sama to\nchange her mind.  There's nothing else\nwe can do. Besides, I'm sure Himea-\n<br>\nsama will know where Kohaku went with\nthe Oath Cup.": ""
+  },
+  "40829": {
+    "<attr><feel_think_lv2><end_attr>Finally, Himea-sama returned, but\nthere was something strange about her.\nI asked her where she had been, but\n<br>\nshe wouldn't tell me, and she's been\nvery upset.": ""
+  },
+  "40830": {
+    "<attr><feel_sad_lv1><end_attr><pc>Oh, my God!  Himea-sama's attendant\ncame to see us just a moment ago.\nHimea-sama wants us to come to her\n<br>\nhouse as soon as possible.": ""
+  },
+  "40831": {
+    "<attr><feel_sad_lv1><end_attr>that (someone or something distant from both speaker and listener, or situation unfamiliar to both speaker and listener)<pc>Are you sure you don't want to go with\nme?  You have to go with Himea-sama.\n We have to help Himea-sama.": ""
+  },
+  "40832": {
+    "<attr><feel_angry_lv1><end_attr>I heard that you and Akashi are\nhanging around Himea-sama together.\nHey...<pc>I'm sorry, but I'm not sure I can do\nit anymore.  Wakaba's expedition has\nalready been disbanded.  Forget about\n<br>\nwhat happened in God's Hall.": ""
+  },
+  "40833": {
+    "oh!<pc>I wonder!  I heard about you from\nHimea.  Have you made up your mind to\ngo to Yggdrasil?<yesno><break>": ""
+  },
+  "40834": {
+    "I knew it.  I had faith that you would\nreturn.  Go inside. Akashi is already\nhere.": ""
+  },
+  "40835": {
+    "I see. If that's the case, I won't say\nit's too much to ask.  If you change\nyour mind, call on me again.": ""
+  },
+  "40836": {
+    "<attr><feel_happy_lv1><end_attr>I am glad to hear that Himea-sama\nneeds us. I feel relieved. I've been\nworried that I might have gone too far\n<br>\nin Azlan. Well...<pc>Mr. Kikugoro.  Let's hurry to the\nEternal Wood where Yggdrasil Hill is\nlocated.": ""
+  },
+  "40837": {
+    "Ah!<pc>Mr. Kato!  Thank goodness you're safe!\n I escaped with my life! But...<pc>What should we do?  Yggdrasil still\nhas Himea-sama on World Tree Hill.": ""
+  },
+  "40838": {
+    "Himea lives in a different time than\nwe do.  Because of this, she has\nrarely opened her heart to others. But\n<br>\nnot to you.  It seems that Himea\ntrusts you with all her heart. I don't\nknow what will happen at Yggdrasil\n<br>\nHill, but please take care of her.  I\nbeg you to protect Himea-sama.": ""
+  },
+  "40839": {
+    "<attr><feel_sad_lv3><end_attr>Gusun, gusun, hiccup.  Poor Kohaku and\nHimea-sama. I'm going to study harder\nand harder.  Then I'll become a doctor\n<br>\nwho can heal anything. And then, I'll\nhelp people like Kohaku.  Gusun!\nGugugugu.": ""
+  },
+  "40840": {
+    "rumbling<pc>～Let's go to Himea-sama's mansion\nquickly.  Let's go to Himea's house as\nsoon as possible.  She'll get Angry if\n<br>\nwe keep her waiting.": ""
+  },
+  "40841": {
+    "Well, what the hell. I'm sorry.  I was\nthe one who started the whole thing,\nbut I got out in the middle and got\n<br>\noff the expedition. But I knew I\ncouldn't go on like this, so I went\nafter you guys.  I'm glad I could help\n<br>\nat least a little.": ""
+  },
+  "40842": {
+    "Oh, it is you!  I've heard about you\nfrom Himea-sama.  Quickly, go inside.": ""
+  },
+  "40843": {
+    "<attr><feel_sad_lv3><end_attr>Gusun, gusun, hiccup.  Poor Kohaku and\nHimea-sama. Hiccup, and I heard that\nHajika-sensei has given up on the\n<br>\nElixir of Immortality and left this\nvillage. Goodbye, my first love.": ""
+  },
+  "40844": {
+    "<attr><feel_sad_lv1><end_attr>Anchan, cheer up.  What the hell is\nwrong with you?": ""
+  },
+  "40845": {
+    "<attr><feel_sad_lv3><end_attr>Ugh. Akashi, did you really want\nHajika as your teacher? I've made up\nmy mind, from now on I'm an adult man.\n<br>\n I'm going to stop playing the\n\"explorer\" game and become a pheromone\nmunchkin.": ""
+  },
+  "40846": {
+    "<attr><feel_happy_lv1><end_attr>I have heard all about you from Himea.\n You have taken very good care of me.\n Thank you so much. Himea-sama, who\n<br>\nhad been depressed, is now showing her\nsunny face.  It's all thanks to you.": ""
+  },
+  "33767": {
+    "<attr><feel_happy_lv1><end_attr>I was so surprised when I heard\nFuura's voice outside. I'm so glad\nthat nothing happened to you.<pc>Mr.. Eh? The village of Etene? Nergel?\n Are you talking about research?  If\nthat's the name of this village, it's\n<br>\nTsusukul Village. But hurry to the\nplaza outside!  At last, the Trial of\nthe Young Leaf is about to begin. The\n<br>\nTrial of the Young is the annual final\nexam in the Garden of Learning for the\nnesting class. The results of this\n<br>\nexam will determine the fate of all of\nyou, the senior class students.  I'm\ngetting nervous too.": ""
+  },
+  "33768": {
+    "<attr><feel_happy_lv1><end_attr>Now, hurry outside to the plaza!  At\nlast, the Trial of the Young Leaves is\nabout to begin. The Trial of the Young\n<br>\nLeaves is the final exam for the\nnesters, held once a year in this\ngarden of learning. The results of\n<br>\nthis exam will determine the fate of\nall of you, the senior class students.\n I'm getting nervous too.": ""
+  },
+  "33769": {
+    "<attr><feel_happy_one><end_attr>GatsuGatsu, GatsuGatsu, GatsuGatsu,\nGatsuGatsu, GatsuGatsu. Gobble,\ngobble, gobble, gobble, gobble,\n<br>\ngobble, gobble!<bw_break>": ""
+  },
+  "33770": {
+    "<attr><feel_happy_lv2><end_attr><turn_pc>If I get accepted at the Wakaba\ntrials, I'll never have to taste\nauntie's food again, right?  I'll have\n<br>\nto stock up on food while I still can!": ""
+  },
+  "33771": {
+    "<attr><feel_happy_lv2><end_attr><turn_pc>If I pass the Wakaba exam, I'll never\nhave to taste auntie's food again,\nright? I'll have to eat at least 10\n<br>\nmore bowls before the exam starts!": ""
+  },
+  "33772": {
+    "<attr><feel_sad_lv1><end_attr>Oh, An-chan, that's not good.": ""
+  },
+  "33773": {
+    "<attr><feel_sad_lv2><end_attr>Anchan.": ""
+  },
+  "33774": {
+    "<attr><feel_happy_lv1><end_attr>Thank God<pc>Mr. Kyusuke.  Kyusuke-san, you keep\npestering me, I'm in trouble. He\ndoesn't even attend my classes, but he\n<br>\nonly comes when I'm trying out for the\nYoung Adults' Test. Moreover, he says\nit's been 10 years since he failed the\n<br>\nStrong Trials, even though he passed\nthe Knowledge Trial every year.  She's\nreally a hard-core bad student, isn't\n<br>\nshe?": ""
+  },
+  "33775": {
+    "<attr><feel_angry_lv3><end_attr>Oh, busy, busy, busy!  Why do students\neat so much? There's no end to the\namount of food I can make!": ""
+  },
+  "33776": {
+    "<attr><feel_angry_lv1><end_attr>Gohonk!  Here at the Garden of\nLearning, we are accepting\napplications to participate in our\n<br>\ntraditional graduation exam, \"The\nYoung Leaves Trial. You are the most\nsenior class of<pc>I guess so.  Are you ready to take on\nthe young leaf's attempts?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>": ""
+  },
+  "33777": {
+    "<attr><feel_angry_lv1><end_attr>I see. There is still time before the\nstart.  You should hurry up and finish\nyour preparations.": ""
+  },
+  "33778": {
+    "<attr><feel_happy_lv2><end_attr>Hehehe, just pour a little bit of this\nmedicine on this book. It's said that\nif you swallow it whole, you'll\n<br>\nremember what's inside.  Here, munch.<bw_break>": ""
+  },
+  "33779": {
+    "<attr><feel_angry_silent><end_attr>Ugh!<bw_break>": ""
+  },
+  "49775": {
+    "<attr><feel_angry_lv3><end_attr>Petch! It's not edible!  This is just\nShoyu, isn't it?  You bastard Kyusuke,\nyou cheated me!": ""
+  },
+  "49776": {
+    "<attr><feel_angry_lv3><end_attr>I bought it because you said it was a\nmagic drug that would help me remember\nwhat was in the book!  This is just\n<br>\nShouyuu, isn't it? You bastard\nKyusuke! You cheated me!": ""
+  },
+  "33780": {
+    "He was busy with his own research at\nthe time when the trial of the young\nleaves was about to begin?  Genius!<pc>I don't think Mr. Asanagi is right.\nNot even Mr. Asanagi has any luck at\nall.  The great genius<pc>I can't believe I entered the same\nyear as you! If he had entered in\nanother year, he would have been\n<br>\nhailed as a genius for sure!": ""
+  },
+  "33781": {
+    "<attr><feel_sad_lv1><end_attr>I heard that the trial of the young\nleaves is a very difficult graduation\nexam.  I wonder if Fuura-san will be\n<br>\nokay?<yesno><break>": ""
+  },
+  "33782": {
+    "<attr><feel_happy_lv2><end_attr><pc>If you say so, I'm relieved!  Fuura-\nsan was doing his best, too! Oh, God!\n Please guess Fuura's goal.": ""
+  },
+  "33783": {
+    "<attr><feel_sad_lv1><end_attr>That's right.  The attempts of young\nleaves are not so sweet that you can\npass the exam only by cramming in last\n<br>\nminute studies, right? Oh, God!  Let\nme guess what Fuura's goal is.": ""
+  },
+  "33784": {
+    "<attr><feel_happy_lv1><end_attr>Here at the Garden of Learning, we are\nan academic sanctuary designed for\nchildren. The Wakaba no Tesimonial is\n<br>\na traditional test that has been held\nsince its inception. If you are\ninterested in participating in the\n<br>\nWakaba Trials, please continue down\nthe hallway and speak to Rokusho at\nthe reception desk.<pc>I hope you will do your best, too!\n I'm sure you'll pass the exam with\nease even if you close your eyes.": ""
+  },
+  "33785": {
+    "<attr><feel_happy_lv1><end_attr>oops<pc>Mr. Kato!  If you are going to\nparticipate in the Wakaba no Trying,\nyou are not going to the right place.\n<br>\nPlease go down the hallway and ask for\nRokusho at the reception desk.": ""
+  },
+  "33786": {
+    "<attr><feel_happy_lv1><end_attr><pc>Welcome back.  Would you like to take\na little rest in your room?<yesno><break>": ""
+  },
+  "33787": {
+    "<attr><feel_happy_lv1><end_attr>Well then, please have a good night's\nrest.": ""
+  },
+  "33788": {
+    "<attr><feel_happy_lv1><end_attr>I hope you had a good night's rest.\n Have a good day.<pc>Ms.!  Good luck!": ""
+  },
+  "33789": {
+    "<attr><feel_happy_lv1><end_attr>If you ever get tired, just give me a\ncall.  Have a good day.<pc>Three!": ""
+  },
+  "33790": {
+    "<attr><feel_happy_lv1><end_attr>I hope you had a good night's rest.\n Have a good day.<pc>Ms.!  Good luck!": ""
+  },
+  "33791": {
+    "<attr><feel_happy_one><end_attr>GatsuGatsu, GatsuGatsu, GatsuGatsu,\nGatsuGatsu, GatsuGatsu. Gobble,\ngobble, gobble, gobble, gobble,\n<br>\ngobble, gobble!<bw_break>": ""
+  },
+  "33792": {
+    "<turn_pc>Hmm? It's a long walk to Wisdom Altar.\n So we're going to eat and get our\nstrength up before we go.  You know\n<br>\nwhat they say, the sooner you get\nthere, the better.": ""
+  },
+  "33793": {
+    "<attr><feel_think_one><end_attr>That's strange.  I'm sure I hid it\nsomewhere around here.<bw_break>": ""
+  },
+  "33794": {
+    "<attr><feel_think_one><end_attr><turn_pc>oh!<pc>I'm not sure I can do it!  I am\nimpressed that you would leave the\nyoung leaves to come and play with\n<br>\nthem! But where in the world has the\nutopia of my heart disappeared to?\n Age is something you don't want to\n<br>\ngrow old for.": ""
+  },
+  "33796": {
+    "<attr><feel_happy_one><end_attr><turn_pc>I'm sorry to have to do this!  I've\nbeen looking for this book for a long\ntime.  Here, just a small token of my\n<br>\ngratitude. Please accept it! Hmm? It\nseems you are full of possessions.  I\nwas going to give you my best one.": ""
+  },
+  "33797": {
+    "<attr><feel_happy_lv3><end_attr><turn_pc>I am sorry to have to do this!  I've\nbeen looking for this book for a long\ntime.  Here, just a small token of my\n<br>\ngratitude. Please accept it!": ""
+  },
+  "33798": {
+    "<attr><feel_happy_one><end_attr>Nissh, that was a close call. It would\nbe a shame for it to be known that the\nmaster of this garden of learning is\n<br>\nhiding a book like this.<bw_break>": ""
+  },
+  "33799": {
+    "<attr><feel_happy_one><end_attr><turn_pc>oh!<pc>I see.  Thank you for your help\nearlier. What is it? Are you\ninterested in this book?  Nisshish!<pc>It's too early to tell!": ""
+  },
+  "33800": {
+    "<attr><feel_happy_lv3><end_attr><icon_exc>Oh! Sorry.<pc>Oh, my God!  I've been looking for\nthat book for a long time.<bw_break>": ""
+  },
+  "33801": {
+    "<attr><feel_think_one><end_attr>Hmm? It seems you have a lot of\nbelongings.  I was going to give you\nmy best one.<bw_break>": ""
+  },
+  "33802": {
+    "<attr><feel_happy_one><end_attr>I have finally found the utopia of my\nheart!  No one would have thought that\na book like this would have such a\n<br>\ncover!": ""
+  },
+  "49771": {
+    "<attr><feel_happy_lv3><end_attr>I'm having a hard time finding it.\n I'm very sorry.  I'm just thinking of\nyou. Please accept this!": ""
+  },
+  "33803": {
+    "<attr><feel_happy_lv1><end_attr>oh!<pc>Mr. Poppo!  I'm so glad to hear that\nyou are calling out to me and others\nduring this important examination.<heart>In return, I have something good to\ntell you. If you want to go to Wisdom\nAltar, it's much easier to go out from\n<br>\nthe west side of the village, not\nhere.": ""
+  },
+  "33804": {
+    "<attr><feel_sad_lv2><end_attr>I'm so nervous, my stomach is in\nknots.  Don't mind me, just go ahead.": ""
+  },
+  "33805": {
+    "<attr><feel_happy_lv1><end_attr>The Trial of the Young is the final\ntest in the Garden of Learning, which\nconsists of two trials, one for\n<br>\nknowledge and the other for Strong\nTrials. Come on.<pc>The first test!  The first trial, the\nTrial of Knowledge, has begun. Go out\nthe west exit of this Tsusukul Village\n<br>\nand follow the path to the Wisdom\nAltar.  That is where the trial of\nknowledge will take place.": ""
+  },
+  "33807": {
+    "<attr><feel_sad_one><end_attr>I wonder if An-chan is okay.  I'm\ngetting nervous!": ""
+  },
+  "33808": {
+    "<attr><feel_happy_lv1><end_attr>Hey, you. You're going to take the\nWakaba trial, aren't you?  If you're\ngoing out of Tsusukul Village, make\n<br>\nsure you're prepared. Well!<bw_break>": ""
+  },
+  "33809": {
+    "<attr><feel_happy_lv1><end_attr>You mean you haven't left yet?  I'll\ncalm down and go slowly. I'll go\nslowly. I'm not Ziman, but this is the\n<br>\nthird time I'm taking this trial.  I'm\na veteran of the knowledge trial, so\nto speak.": ""
+  },
+  "33810": {
+    "<attr><feel_angry_lv3><end_attr>Hey, you!  What are you doing\nstrolling around here? You know\nwhat? Speed is the key to everything,\n<br>\neven cooking.  Get on your way to the\nknowledge trial!": ""
+  },
+  "33811": {
+    "I never thought the day would come\nwhen you would challenge Wakaba's\nattempt.  The days go by quickly.<pc>I can remember the day you came to\nthis village as if it were yesterday.\n I can remember the day you came to\n<br>\nour village as if it were yesterday.\nIt was Noma, the Maiden Manor's\nservant, who found you lying outside\n<br>\nthe village. You were a skinny little\nthing, and very ill. Miraculously, you\nwere saved by Himea's prayers. But to\n<br>\nwork a parentless child like a drei\nand throw him away when he falls\nill....  There are those who have\n<br>\nneither blood nor tears.": ""
+  },
+  "33813": {
+    "<attr><feel_happy_lv1><end_attr>First, go out through the west exit of\nthis Tsusukul Village. Then, follow\nthe path west to the Wisdom Altar. The\n<br>\ntest is long. If you are tired, you\nmay return to your room in the\ndormitory and rest your body.": ""
+  },
+  "33814": {
+    "<attr><feel_think_lv3><end_attr>It's already been four years since\nI've fallen into the trial of the\nyoung leaves. Even though Kyusuke has\n<br>\nbeen falling for 10 years, I'm not the\nkind of guy who looks down and feels\nrelieved. I'm going to do it! This is\n<br>\nthe year I'm going to pass.  Listen to\nme. I'm a kid who can do it if I try.\n Bump.": ""
+  },
+  "33815": {
+    "<pc>school (eg of ikebana)<%sEV_ITEM>received!<se_nots System Item>": ""
+  },
+  "33816": {
+    "There is a book with a very\ncomplicated cover that says, \"On the\nNurakawa Contrast in the Theory of\n<br>\nIsicasm.": ""
+  },
+  "33817": {
+    "<pc>school (eg of ikebana)<%sEV_ITEM>received!<se_nots System Item>": ""
+  },
+  "33818": {
+    "<attr><feel_happy_lv3><end_attr>Did you know? You get a Zoomstone when\nyou pass the Trial of Knowledge!\nZoomstone is great, isn't it?  It's a\n<br>\nmagic stone that allows you to\ninstantly fly to the location you've\nmemorized with the stone.": ""
+  },
+  "33819": {
+    "If I don't pass the Wakaba trials,\nI'll have to start my training all\nover again for another year.  It's\n<br>\ntough to be the most senior student,\nisn't it?": ""
+  },
+  "33820": {
+    "<attr><feel_happy_lv1><end_attr><pc>Needless to say, if you leave the\nvillage from here and follow the road\nto the west, you will reach the Wisdom\n<br>\nAltar where the trials of knowledge\nare conducted. Speaking of which...<pc>I see that you have prepared a\nBeginner's weapon.  Don't forget to\nequip yourself before you go out.": ""
+  },
+  "33821": {
+    "<attr><feel_think_lv1><end_attr>The teachers are all expecting that\nyou will easily pass the young leaves'\nattempt.  It's not easy being a\n<br>\ngenius.": ""
+  },
+  "33822": {
+    "<attr><feel_angry_lv1><end_attr>This is the mansion of Maiden Maiden\nHimea of Tsusukul.  I will not let\nanyone pass without permission.  You\n<br>\nmay leave.": ""
+  },
+  "33823": {
+    "<attr><feel_happy_lv1><end_attr><pc>You are a good person, aren't you?\n You can study and do sports, but you\ndon't push me around at all. He's kind\n<br>\nto peasants like me and dropouts like\nFuura.": ""
+  },
+  "33824": {
+    "<attr><feel_happy_lv1><end_attr>At last, the Wakaba trial has begun.\n I miss it so much. I also took the\nWakaba trial in the same way in the\n<br>\npast. I had been staying in the garden\nof learning for a long time, and the\nview from Wisdom Altar seemed to me a\n<br>\ntruly wonderful and irreplaceable\ntreasure.": ""
+  },
+  "33825": {
+    "<attr><feel_happy_lv2><end_attr>welcome home<pc>Ms.!  I see that your trial of\nknowledge is over. Before you go back\nto your room to rest, you should tell\n<br>\nDr. Izuyanoi that you've had the trial\nof knowledge.": ""
+  },
+  "33826": {
+    "<attr><feel_happy_lv1><end_attr><pc>Thank you for your hard work on the\ntrial! It will take some time for the\nresults to come in, so why don't you\n<br>\ngo to your room and get some rest?<yesno><break>": ""
+  },
+  "33827": {
+    "<attr><feel_happy_lv1><end_attr>I understand!  Whenever you are tired,\nplease feel free to call on me. I\ncan't wait to hear the results.  I\n<br>\nhope the results are good.<pc>Three.": ""
+  },
+  "33828": {
+    "<attr><feel_happy_lv1><end_attr>Well then, have a good night's sleep.": ""
+  },
+  "33829": {
+    "<attr><feel_think_lv2><end_attr><pc>Mr.! I have to go to the plaza soon.\n I heard that the successful\ncandidates for the Trial of Knowledge\n<br>\nwill be announced! I'm sure everyone\npassed, right?  They worked so hard.": ""
+  },
+  "33830": {
+    "<attr><feel_happy_one><end_attr>GatsuGatsu, GatsuGatsu, GatsuGatsu,\nGatsuGatsu, GatsuGatsu. Gobble,\ngobble, gobble, gobble, gobble,\n<br>\ngobble, gobble!<bw_break>": ""
+  },
+  "33831": {
+    "<turn_pc>I've been using my head a lot, but\nI've lost my guts.  Trial of Knowledge\nI think I've been overzealous.": ""
+  },
+  "33832": {
+    "For children who have been away from\ntheir parents since childhood and have\nspent their entire lives studying\n<br>\nhard, today may be the day they feel\nthe most nostalgic for their\nhometowns. Will they return to their\n<br>\nhometowns as graduates of the Garden\nof Learning with big dreams?  Or will\nthey have to start their training all\n<br>\nover again for another year? The\noutcome of today's trial will\ndetermine the fate of all the\n<br>\nchildren.": ""
+  },
+  "33833": {
+    "<attr><feel_angry_lv2><end_attr>I've taken the Trial of Knowledge, but\nI don't think I could do it at all.\n Damn!": ""
+  },
+  "33834": {
+    "<attr><feel_happy_lv2><end_attr>oh!<pc>Yo, you came back well.  Have you\nfinished your trial of wits? What? You\ndidn't complete the knowledge trial,\n<br>\nyou just answered Dr. Toyohoro's\nquestion? Ha-ha-ha! You are a very\ngood judge of taste, Toyohoro-sensei.\n<br>\n Well...<pc>The trial of knowledge is too easy for\nthose with the academic ability of the\n\"Mere Old Man\". I will announce the\n<br>\nsuccessful candidates when everyone\nreturns.  Until then, you can talk to\nAkashi in the dormitory and get some\n<br>\nrest.": ""
+  },
+  "33835": {
+    "<attr><feel_happy_lv1><end_attr>Thanks for your hard work.  We will\nannounce the successful candidates\nwhen all the top students return. In\n<br>\nthe meantime, you can go talk to\nAkashi in the dormitory and get some\nrest.": ""
+  },
+  "33836": {
+    "<attr><feel_happy_lv1><end_attr>Anchan, don't worry.  You've worked\nhard for four years. Right?": ""
+  },
+  "33837": {
+    "<attr><feel_think_lv2><end_attr>Hey, did you see Mr. Kyusuke at Wisdom\nAltar?  He answered Mr. Toyohoro's\nquestion with a simple, clear answer!\n<br>\nI wonder if he's actually smart.": ""
+  },
+  "33838": {
+    "<attr><feel_angry_lv3><end_attr>Oh, busy, busy, busy!  Why do students\neat so much? There's no end to the\namount of food I can make!": ""
+  },
+  "33839": {
+    "<pc>Hey, you're back. The announcement of\nthe successful candidates for the\nTrial of Knowledge will be made after\n<br>\neveryone has returned.  Until then,\nyou can wait in your rooms.": ""
+  },
+  "33840": {
+    "Hmmm. The most senior student.<pc>I guess so.  We're about to announce\nthe successful candidates for the\nTrials of Knowledge. Go on, then.": ""
+  },
+  "33841": {
+    "<attr><feel_sad_lv3><end_attr>No, it's hopeless!  The world is pitch\nblack! See? Why are the trials so\ndifficult?  It's absolutely\n<br>\nridiculous. Seriously.": ""
+  },
+  "33842": {
+    "<attr><feel_sad_lv2><end_attr>Some people have come back, but\neveryone is kind of gloomy. I'm\ngetting scared to be a senior.  I\n<br>\ndon't like the idea of trying out for\nthe young.": ""
+  },
+  "33843": {
+    "<attr><feel_happy_lv2><end_attr>Well, well, well! You are back early.\n It seems that you have completed your\ntrial of knowledge. Now, please report\n<br>\nto Master Izuyanoi, who is waiting for\nyou in the plaza, that you have\ncompleted your trials.": ""
+  },
+  "33844": {
+    "<attr><feel_happy_lv1><end_attr>It will be some time before they all\nreturn from their trials.  Please rest\nin the dormitory.": ""
+  },
+  "33845": {
+    "<attr><feel_sad_lv2><end_attr>Ah!<pc>Mr. Fura is still not back yet.  Fuura\nis not back yet.  I'm sure he's having\na hard time with his knowledge trial.": ""
+  },
+  "33846": {
+    "<attr><feel_angry_lv3><end_attr>The announcement of the successful\ncandidates is about to start in the\nplaza, so you'd better hurry.  Fuura's\n<br>\nalready headed for the plaza. I'm here\nto frighten the spirits of my hometown\nso that everyone will pass the\n<br>\nentrance exam! Hmph, hmph!": ""
+  },
+  "33847": {
+    "<attr><feel_happy_lv1><end_attr>Those who pass the Trial of Knowledge\nwill be granted an audience with\nMaiden Himea of Tsusukul. Maiden\n<br>\nHimea, who has governed the village\nfor 500 years and created this garden\nof learning, is a very high priestess.\n<br>\nEven I, the teacher's assistant in the\nGarden of Learning, have only had the\nprivilege of meeting Himea once.": ""
+  },
+  "33848": {
+    "<attr><feel_happy_lv1><end_attr>Ah!<pc>Mr!  The announcement of the\nsuccessful applicants is about to\nstart!  Please hurry to the plaza!": ""
+  },
+  "33849": {
+    "<attr><feel_happy_lv3><end_attr>I understand you have passed the trial\nof knowledge!  That's what I'm talking\nabout.<pc>I'm Mr. Kato!  Keep up the good work\nand you'll do well in the Strong\nTrials! Offering you a rest in your\n<br>\nroom in preparation for the trials?<yesno><break>": ""
+  },
+  "33850": {
+    "<attr><feel_happy_lv1><end_attr>Well then, please have a good night's\nrest.": ""
+  },
+  "33851": {
+    "<attr><feel_happy_lv2><end_attr>I hope you had a good night's rest.\n Have a good day.<pc>Mr.!  Good luck!": ""
+  },
+  "33852": {
+    "<attr><feel_happy_lv1><end_attr>If you ever get tired, just give me a\ncall.  Have a good day.<pc>Three!": ""
+  },
+  "33853": {
+    "<attr><feel_happy_lv1><end_attr>I hope you had a good night's rest.\n Have a good day.<pc>Ms.!  Good luck!": ""
+  },
+  "33854": {
+    "<attr><feel_happy_one><end_attr>GatsuGatsu GatsuGatsu GatsuGatsu\nGatsuGatsu. Goof!<bw_break>": ""
+  },
+  "33855": {
+    "<turn_pc>God damn it! Leave me alone!  You\ndon't know what it's like to be the\none who fell, do you?  How can you do\n<br>\nthis without eating?": ""
+  },
+  "33856": {
+    "<attr><feel_angry_lv2><end_attr>Sorry, but leave me alone.<pc>You don't know what it's like to be a\nfailure, do you?": ""
+  },
+  "33857": {
+    "Well. The next trial is the Strong\nTrials.  You must undergo purification\nbefore you leave for the sacred World\n<br>\nTree Hill. Head for the Maiden Manor\ndeep in Tsusukul Village. You once met\nHimea-sama when you were a child,\n<br>\ndidn't you? If Himea-sama hadn't given\nyou the Care Prayer when you were\ndying, you wouldn't be alive right\n<br>\nnow. Himea-sama is the protector of\nour village.  She is also the one who\nsaved your life.  Please do not let\n<br>\nthat happen to me.": ""
+  },
+  "33858": {
+    "<attr><feel_sad_lv2><end_attr>Let's cheer up, Anchan. With this, you\ncan study with me again next year.\n Right?": ""
+  },
+  "33859": {
+    "<attr><feel_sad_one><end_attr>It's no good.  This is the third time\nI've taken the test.<bw_break>": ""
+  },
+  "33860": {
+    "<attr><feel_sad_lv3><end_attr>Oh, God, please tell me!  Should I\ngive up my academic career and leave\nthis place?": ""
+  },
+  "33861": {
+    "<attr><feel_angry_lv3><end_attr>Oh, what? You passed the first test?\n Well, if you didn't pass, who will?\nOkay, go!  I'm busy!": ""
+  },
+  "33863": {
+    "Those who failed must be very\ndisappointed. But this is part of the\ntrial.  Only those who believe in\n<br>\ntheir own abilities and continue to\nchallenge themselves can become\ngraduates of the Garden of Learning.": ""
+  },
+  "33864": {
+    "<attr><feel_sad_lv3><end_attr>Ugh!  Konota!  I can't seem to find\nit. Zubby!": ""
+  },
+  "33865": {
+    "<attr><feel_happy_lv1><end_attr>Himea's mansion is located in front of\nthe Weapons & Armor Shop, just outside\nthe Garden of Learning, towards the\n<br>\nback of the building. Maiden Himea is\nan incredible Maiden Manor who has\nlived for hundreds of years, so I\n<br>\nalways go to her mansion to pray. I\npray for my head to get better.  And\nthat I'll pass the Wakaba trials soon,\n<br>\nand be able to go home to my mom soon.": ""
+  },
+  "33866": {
+    "<attr><feel_happy_lv2><end_attr>I can't believe that Kyusuke, who has\ntaken the test many times, passed the\nknowledge trial on the first try!<pc>I am very impressed with both you and\nMr. Asanagi!": ""
+  },
+  "33867": {
+    "This road will lead you out of\nTsusukul Village.  Follow the road\nwest to the Wisdom Altar, where the\n<br>\nTrial of Wisdom took place.": ""
+  },
+  "33868": {
+    "undergo a trial of strength<pc>I see.  Did you come to this mansion\nto receive purification?<yesno><break>": ""
+  },
+  "49640": {
+    "Then come inside.  Obey the guides.": ""
+  },
+  "49641": {
+    "Hmmm. The other successful applicants,\nAsanagi and Kyusuke, are already\ninside.  If you have something to do,\n<br>\nget it done quickly.": ""
+  },
+  "33869": {
+    "<pc>Thank you very much for coming all the\nway here when I had to go to the\nStrong Trials. I'm sure Fuura-san will\n<br>\nbe fine now.  Good luck with the\nStrong Trials!": ""
+  },
+  "33870": {
+    "<attr><feel_happy_lv1><end_attr><pc>Mr. Would you like to know how to use\nthe Zoomstone?<yesno><break>": ""
+  },
+  "33871": {
+    "I see.  If you have any questions\nabout Zoomstone, just give me a call.": ""
+  },
+  "33872": {
+    "<attr><feel_happy_lv1><end_attr>The Zoomstone is a magical stone that,\nwhen used, allows the user to quickly\nfly to the place where the Zoomstone\n<br>\nis memorized. Once you visit a town,\nvillage, or church, it is\nautomatically memorized. Tsusukul\n<br>\nVillage should already be in your\nmemory. You can memorize any number of\nplaces, so the more you memorize, the\n<br>\nmore places you can fly to. You can\nalso memorize the mysterious stone\nmonuments at the entrances to fields\n<br>\nand dungeons in your Zoomstone.\nZoomstones can be used from \"items\".\n Frequently visited places<emoji SpecialRight>You can also register it in your\nfavorites at": ""
+  },
+  "33873": {
+    "<attr><feel_happy_lv1><end_attr>It seems you received miso miso\nsafely.  Then please take this road\nout of the village and head east.\n<br>\nYou'll eventually reach the Eternal\nWood and head for Yggdrasil Hill.\n Please be careful.": ""
+  },
+  "33874": {
+    "Hmm. It seems you've undergone the\nrazor.  Now you are ready for the\nsecond trial, the Strong Trials! Now,\n<br>\ngo out the south exit of the village,\nhead east to Yggdrasil Hill in the\ndepths of the Eternal Wood. There, the\n<br>\nYggdrasil Spirit's Trial of Strength\nwill be waiting for you. Yes, yes. For\nthe Strong Trials, the Zoomstone will\n<br>\ncome in handy.  Jian there will teach\nyou how to use it.": ""
+  },
+  "33876": {
+    "<attr><feel_happy_lv1><end_attr>Maiden Himea is an incredible Maiden\nManor that has lived for hundreds of\nyears, so I always go to Maiden Manor\n<br>\nto pray. I pray that my brains will\nget better.  And that I'll pass the\nWakaba trials soon, and be able to go\n<br>\nhome to my mom soon.": ""
+  },
+  "33877": {
+    "<attr><feel_happy_lv1><end_attr>This road will lead you out of\nTsusukul Village.  Follow the road\nwest to the Wisdom Altar, where the\n<br>\ntrial of knowledge took place. Are you\nheading for Yggdrasil Hill?  Then take\nthe south exit out of the village and\n<br>\nhead east.": ""
+  },
+  "33878": {
+    "Your body has been purified by the\nritual.  Leave the village by the exit\nto the south and head east to the\n<br>\ndepths of the Eternal Wood, to World\nTree Hill. At Yggdrasil Hill, you will\nfind a Yggdrasil Spirit.  He will give\n<br>\nyou trials of your Strong Trials. Go\nnow, young leaf of the Yggdrasil.  I\nwish you good luck.": ""
+  },
+  "33879": {
+    "<attr><feel_sad_lv2><end_attr><pc>Mr!  Oh, you are safe, aren't you?\n I'm so glad.<bw_break>": ""
+  },
+  "33880": {
+    "<attr><feel_sad_lv3><end_attr>Ue～～～～～n!  Hiccup, hiccup. Stuck.": ""
+  },
+  "45161": {
+    "<attr><feel_sad_lv3><end_attr>I was so relieved, I felt a bit of a\nsouthern tear! Uu~n!": ""
+  },
+  "33881": {
+    "<attr><feel_sad_lv1><end_attr>I see.  Mstr Kou lost his life to\ndemon miasma, I see. I knew Ko well\nwhen he was a student.  He was a\n<br>\ncheeky boy who was always up to\nmischief. He grew up quickly and\nthrough hard work, his talent\n<br>\nblossomed and he became a teacher who\nguided the students. It is with a\nheavy heart that I regret this.": ""
+  },
+  "33882": {
+    "<attr><feel_sad_silent><end_attr>The following is a list of the most\ncommon problems with the": ""
+  },
+  "33883": {
+    "<attr><feel_sad_lv2><end_attr><pc>Three! Thank God.  I am so glad to see\nyou back safe and sound. I have heard\nfrom Mr. Asanagi.  Please put aside\n<br>\nthe Strong Trials for now and hurry to\nthe Maiden Manor.": ""
+  },
+  "33884": {
+    "<attr><feel_think_lv3><end_attr>Did you see that?  A beautiful, strong\nlight like I've never seen before\ncovered the sky! What was that light?\n<br>\n You're a genius, don't you know!": ""
+  },
+  "33885": {
+    "<attr><feel_sad_lv2><end_attr><pc>Oh my goodness!!! I'm glad you are\nsafe.  I heard from Asanagi who came\nback earlier.  It must have been a\n<br>\nreally tough time for you. We'll put\nthe Wakaba trial on the back burner\nfor now.  Hurry to the Maiden Manor.\n<br>\n Asanagi and Kyusuke are waiting for\nyou.": ""
+  },
+  "33886": {
+    "<pc>Did you see that?  The sky lit up\nwhite just now!": ""
+  },
+  "33887": {
+    "<attr><feel_angry_lv3><end_attr>Oh, busy, busy, busy!  Why do students\neat so much? There's no end to the\namount of food I can make!": ""
+  },
+  "33888": {
+    "<attr><feel_think_lv1><end_attr>If I'm right, that light may be the\none we've been waiting for all these\nyears. This is not the way to go.  We\n<br>\nmust summon the masters immediately.": ""
+  },
+  "33890": {
+    "<attr><feel_think_lv2><end_attr>What on earth was that beautiful light\nthat poured over the world? I have\nnever seen anything like that.  And\n<br>\nyet, I wonder why.  I felt somewhat\nnostalgic.": ""
+  },
+  "33891": {
+    "<attr><feel_happy_lv3><end_attr>Hey, hey, it was amazing, wasn't it?\n It was so sparkly!  Sparkles,\nsparkles, sparkles, sparkles,\n<br>\nsparkles, sparkles, sparkles,\nsparkles, sparkles, sparkles!": ""
+  },
+  "33892": {
+    "<attr><feel_sad_lv2><end_attr>oh!<pc>Dear!  Thank you very much for your\nsafe return.  We were all worried\nabout you.": ""
+  },
+  "33893": {
+    "<attr><feel_sad_lv1><end_attr>oh!<pc>!!! Are you hurt?  I was sure you'd be\nall right, but I couldn't help but\nworry until I saw your face.": ""
+  },
+  "33894": {
+    "There you are<pc>The Lady Himea wants to see you.\n Himea-sama wants to see you.  Come,\ncome inside.": ""
+  },
+  "33895": {
+    "<attr><feel_sad_lv3><end_attr>Ah!<pc>Three!  I'm so glad~! You came back\nsafe and sound, didn't you? I thought\nsomething had happened when Asanagi\n<br>\nand the others came back first.": ""
+  },
+  "33896": {
+    "<attr><feel_think_lv3><end_attr><pc>I have been instructed by the masters\nto tell you that when I see you I have\nbeen instructed by my teachers to tell\n<br>\nyou that Himea is waiting for you when\nyou see her. What is going on here?\n What happened to the young leaf's\n<br>\nattempt?": ""
+  },
+  "33897": {
+    "<attr><feel_happy_lv1><end_attr>Ah!<pc>Three!  Congratulations on your\ngraduation! I guess we won't be\nspending time together in this room\n<br>\nanymore. I will miss you. But here we\nare.<pc>I have a lot of memories of you.  With\nthat in mind, I will do my best!": ""
+  },
+  "33898": {
+    "<attr><feel_sad_lv1><end_attr><pc>I am sure that new students will be\ncoming to this room in a while.": ""
+  },
+  "33899": {
+    "<attr><feel_sad_lv1><end_attr>This was the room of the person who\nwas praised as the greatest genius in\nthe Garden of Learning.  He has\n<br>\nalready graduated.": ""
+  },
+  "33900": {
+    "<attr><feel_happy_one><end_attr>GatsuGatsu, GatsuGatsu, GatsuGatsu,\nGatsuGatsu, GatsuGatsu. Gobble,\ngobble, gobble, gobble, gobble,\n<br>\ngobble, gobble!<bw_break>": ""
+  },
+  "33901": {
+    "<turn_pc>I failed the exam, but that's okay.\n I'm happy to be able to eat my\nauntie's food!  Because I was able to\n<br>\nrealize that!": ""
+  },
+  "33902": {
+    "<attr><feel_happy_lv1><end_attr>There is a Woodwork Guild here in\nEltona Continent.  There are many\nother guilds around the world.": ""
+  },
+  "33903": {
+    "<attr><feel_happy_lv2><end_attr>Nisshhh! It seems that this garden of\nlearning has become famous all over\nthe world.  Beautiful women from all\n<br>\nover the world are coming here.": ""
+  },
+  "33904": {
+    "<attr><feel_sad_lv2><end_attr><pc>I will miss this village once Mr. K.\nis gone. First, why don't you head for\nWind Town Azlan, where the railroad\n<br>\nruns? From here, head west out of the\nvillage, and then walk further west\npast the River of Light, and you will\n<br>\narrive at Wind Town Azlan.": ""
+  },
+  "33905": {
+    "This is Tsusukul Village, where the\nancient learning of the Elves is\npassed down. And just beyond is the\n<br>\nGarden of Learning, where the students\nare training for their studies.": ""
+  },
+  "33906": {
+    "<attr><feel_think_lv2><end_attr>Nah!<pc_race>You saw the strong light covering the\nsky, didn't you?<yesno><break>": ""
+  },
+  "33907": {
+    "<attr><feel_happy_lv3><end_attr>I see!  After all, that light reached\nthe whole world!": ""
+  },
+  "33908": {
+    "<attr><feel_think_lv1><end_attr>I see. I saw a dazzling light stain\nthe sky.  It was really beautiful.": ""
+  },
+  "33909": {
+    "<attr><feel_happy_lv1><end_attr><pc>Congratulations on your graduation!  I\nwish I could take the time to\ncongratulate you on your new\n<br>\ndeparture, but I hear you've been\nshown the path you must take. Then go,\nwise one!  You have received the Proof\n<br>\nof Adulthood for those who need it.\nFar to the west of this village, in\nthe Azlan Region, there is the Wind\n<br>\nTown Azlan, where the railroad runs.\n You might want to head there first.\nCome to think of it, Fuura, who left\n<br>\nthe Garden of Learning, is also from\nWind Town Azlan.": ""
+  },
+  "33910": {
+    "<attr><feel_think_lv1><end_attr>When I first became a master of the\nGarden of Learning, there were only\nElfs in the village. Now, however, I\n<br>\nsee many different species.  Times are\nchanging little by little.": ""
+  },
+  "33911": {
+    "<attr><feel_happy_one><end_attr>That's great, you guys!  That's what I\ncall a good guess!": ""
+  },
+  "33912": {
+    "<attr><feel_sad_lv1><end_attr>Proof of Adulthood.  I'll try my best\nto get a Proof of Adulthood from\nHimea-sama.": ""
+  },
+  "33913": {
+    "<attr><feel_happy_lv1><end_attr>The students of the Garden of Learning\nare not allowed to leave the nest\nuntil they pass a graduation exam\n<br>\ncalled the \"Trial of the Young\nLeaves\". It is a very difficult exam\nthat is rarely passed, but this year,\n<br>\nthree students passed it!": ""
+  },
+  "33914": {
+    "<attr><feel_angry_lv3><end_attr>Oh, busy, busy, busy!  Why do students\neat so much? There's no end to the\namount of food I can make!": ""
+  },
+  "33915": {
+    "<attr><feel_happy_lv1><end_attr>How could you have grown up so\nstraight despite all the hardships\nyou've endured since you were a child?\n<br>\n Now, go. Follow the wind. You will\nmeet many more, but treat them with\ncourtesy.  You represent the Garden of\n<br>\nLearning. And...<pc>I'm not going to let you go.  Even\nafter you leave the nest, this garden\nis your home.  Come home whenever you\n<br>\nwant. We'll be waiting for you.": ""
+  },
+  "33916": {
+    "You have a guest. Welcome to the\nGarden of Learning.  This is the\nmasters room where those who serve as\n<br>\nmasters in this garden learn for\nthemselves. Learning knows no bounds.\n I suppose you could say that the\n<br>\nmasters in the Garden of Learning are\nalso students.": ""
+  },
+  "33919": {
+    "<attr><feel_angry_lv2><end_attr>Hey, Konota.  I've just realized\nsomething.  I've realized the truth of\nthis Wakaba's attempt! Kyusuke had a\n<br>\nreal drug for himself, a drug that can\nmemorize everything! He made me take a\nfake one!  Otherwise, there's no way\n<br>\nhe would've passed Wakaba's test.": ""
+  },
+  "33920": {
+    "<attr><feel_think_lv3><end_attr>Asanagi and Kyusuke both looked kind\nof scary.  It's so strange, even\nthough we've decided to graduate~.": ""
+  },
+  "33921": {
+    "<attr><feel_happy_lv2><end_attr>You know what? This year's graduates\nwere amazing!  The teacher said there\nwon't be another year when we can\n<br>\ngather such an outstanding group of\nstudents.": ""
+  },
+  "33922": {
+    "<attr><feel_think_lv1><end_attr>Did something happen during the Strong\nTrials?  Mr. Nagi had a stern look on\nhis face. But he packed up his things\n<br>\nand left for home like a cool guy,\nAsanagi-san!": ""
+  },
+  "33923": {
+    "<attr><feel_sad_lv1><end_attr>I will be a senior next year.  When\nyou become a senior, you have to take\na very difficult exam called \"Wakaba\n<br>\nno Trial\".": ""
+  },
+  "33924": {
+    "<attr><feel_happy_lv3><end_attr>Congratulations on your graduation!  I\ncan't believe that three of you passed\nthe Young Leaves' exam this year.\n<br>\n Congratulations! This road leads out\nof Tsusukul Village.  If you follow\nthe road to the west, you will reach\n<br>\nthe Wisdom Altar, where the Trial of\nWisdom was conducted. If you want to\ngo to Wind Town Azlan Stop, where the\n<br>\ntrain station is located, you can take\nthe exit south of the village instead.": ""
+  },
+  "33925": {
+    "<attr><feel_happy_lv1><end_attr>Welcome, welcome.  You are in Tsusukul\nVillage, a place where ancient\nlearning has been handed down to the\n<br>\npresent. If you leave the village from\nhere and follow the road west, you\nwill reach the Wisdom Altar, where the\n<br>\nwisdom of the ancients rests.": ""
+  },
+  "33926": {
+    "<attr><feel_happy_lv1><end_attr>Your knowledge is enough.  From now\non, experience all kinds of things\nwith your own body and grow up!": ""
+  },
+  "33927": {
+    "<attr><feel_think_lv1><end_attr>Here in the Garden of Elf Learning,\nthere is an old man named Kyusuke who\nhas been unable to pass the Young\n<br>\nAdults' Exam for the past 10 years. He\nmiraculously graduated from this\nyear's exam, but I can't help but\n<br>\nworry that he's causing trouble here\nand there.": ""
+  },
+  "33928": {
+    "<attr><feel_happy_lv1><end_attr>congratulations!<pc>You will now graduate from the Garden\nof Learning.  You have now graduated\nfrom the Garden of Learning. From now\n<br>\non, you will collect the key emblems,\nthe medals in the shape of keys, which\nare awarded to heroes in various\n<br>\ncountries. If you make a name for\nyourself in other countries, you will\nbe able to see the path you should\n<br>\ntake. Go now, young leaves.  If you go\nout from the south of the village and\ngo westward, you will see a bridge\n<br>\nacross the River of Light. If you\ncross that bridge and continue\nwestward, you will reach the railroad\n<br>\ntown of Wind Town Azlan.  Your journey\nbegins here.": ""
+  },
+  "33929": {
+    "<attr><feel_happy_lv1><end_attr>If you collect key emblems and make a\nname for yourself, you will be able to\nsee the path you should take. Go now,\n<br>\nyoung leaves. If you go out from the\nsouth of the village and go westward,\nyou will see a bridge across the River\n<br>\nof Light. If you cross that bridge and\ncontinue westward, you will reach the\nrailroad town of Wind Town Azlan.\n<br>\n Your journey begins here.": ""
+  },
+  "33930": {
+    "<attr><feel_angry_lv1><end_attr>This is the mansion of Maiden Maiden\nHimea of Tsusukul.  We will not let\nanyone pass without permission.  You\n<br>\nshould leave as soon as possible.": ""
+  },
+  "33931": {
+    "<attr><feel_sad_lv1><end_attr>Ah!<pc>Mr. Fourah has left the village. Fuura\nhas left the village.  She promised\nher father that she would return to\n<br>\nher hometown after she fell into the\ntrial of young leaves.<pc>I was waiting until just now to say\nhello to Mr. Kato, but I was one step\ntoo late.": ""
+  },
+  "33932": {
+    "<attr><feel_sad_lv1><end_attr>In this room, there was a senior named\nFuura.  Fuura-san was a crybaby, a\nspoiled brat, and a failure. But he\n<br>\nwas always a lively senior.  Without\nMr. Fuura, the room would be quiet and\nI would miss him.": ""
+  },
+  "33933": {
+    "<attr><feel_happy_lv3><end_attr>Congratulations on your graduation.<pc>We are very proud of you at the Garden\nof Learning! By the way, would you\nlike to know how to use the Zoomstone?<yesno><break>": ""
+  },
+  "33934": {
+    "<attr><feel_sad_lv1><end_attr>I see.  If you have any questions\nabout Zoomstone, just give me a call.": ""
+  },
+  "33935": {
+    "<attr><feel_happy_lv1><end_attr>The Zoomstone is a magical stone that,\nwhen used, allows the user to quickly\nfly to the place where the Zoomstone\n<br>\nis memorized. Once you visit a town,\nvillage, or church, it is\nautomatically memorized. Tsusukul\n<br>\nVillage should already be in your\nmemory. You can memorize any number of\nplaces, so the more you memorize, the\n<br>\nmore places you can fly to. You can\nalso memorize the mysterious stone\nmonuments at the entrances to fields\n<br>\nand dungeons in your Zoomstone.\nZoomstones can be used from \"items\".\n Frequently visited places<emoji SpecialRight>You can also register it in your\nfavorites at": ""
+  },
+  "33936": {
+    "<attr><feel_happy_lv1><end_attr>Beyond this is the dormitory and\ncafeteria.  This is a facility for\nstudents. Please feel free to visit.\n<br>\n But please don't let it interfere\nwith your training.": ""
+  },
+  "33937": {
+    "<if_hum><attr><feel_happy_lv2><end_attr>oh! (startled)<pc>Mr. Kato!  I'm so glad you came. What?<pc>What's changed? Oh, I see! Oh, I\nunderstand!<pc>Did you cut your hair?  I haven't\nreally noticed that.<else><attr><feel_happy_lv2><end_attr><pc>Mr. Kato!  I'm so glad you came. I see\nyou have a key emblem!  That's\namazing, really. I'm going to keep it.<pc>I will do my best to achieve my goal.<endif>": ""
+  },
+  "33939": {
+    "<attr><feel_happy_lv1><end_attr>There are many guilds in the world.<pc>I'm sure you've seen some of these\nbefore, haven't you? I'm a member of\nthe Sewing Guild! I'm confident that I\n<br>\ncan make a sexy dress.": ""
+  },
+  "33940": {
+    "<attr><feel_happy_lv2><end_attr>This is Tsusukul Village, where the\nancient learning of the Elves is\npassed down. It's been a long time.<pc>Mr..  What? Don't I look somewhat\ndifferent? Yes, I do.  I feel like\nI've become sturdier.  Traveling\n<br>\nchanges you, doesn't it?": ""
+  },
+  "41980": {
+    "<attr><feel_happy_lv2><end_attr>This is Tsusukul Village, where the\nancient learning of the Elves is\npassed down. It's been a long time.<pc>Mr..  What? Don't I look somewhat\ndifferent? Hmmm...yes, you have.  I\nthink you've grown a little taller.\n<br>\n Your face also looks a bit more\nmature.": ""
+  },
+  "33941": {
+    "<attr><feel_happy_lv1><end_attr>If you leave this road, you will find\nyourself outside the village.  If you\nhead east, you will reach the sacred\n<br>\nland of Eternal Wood.  To the west,\nyou will reach the Kirika Steppe.\nBeyond Kirika Steppe, in the Azlan\n<br>\nRegion, is the Wind Town Azlan, the\nclosest town to our village.": ""
+  },
+  "33942": {
+    "<attr><feel_happy_lv2><end_attr>What was that light that covered the\nworld?  Next year, I will get out of\nthis garden and find out for myself!\n<br>\nThere must be something going on in\nthis world.  I can't just sit here\nlike this forever!": ""
+  },
+  "33943": {
+    "<attr><feel_happy_lv1><end_attr>You used to visit me all the time<pc>Oh, my God!  You've become so much\nbetter than before!<yesno><break>": ""
+  },
+  "33944": {
+    "<attr><feel_think_lv3><end_attr>What? He's really changed his\nappearance and now he's human? Hmmm...<pc>You've always looked like that,\nhaven't you? Oh, I see!  That was a\ngag.  I'm sorry I didn't understand.": ""
+  },
+  "33945": {
+    "<attr><feel_happy_lv1><end_attr><pc>He is a very good person, isn't he?\n He is indeed a person who has a key\nemblem.  He has grown up to be a fine\n<br>\nperson inside as well!": ""
+  },
+  "33946": {
+    "<attr><feel_happy_lv2><end_attr>Well done for coming back<pc>I'm sorry I didn't take the time to\ncelebrate your graduation.  I'm sorry\nI wasn't there to celebrate your\n<br>\ngraduation. But I can tell by that key\nemblem.  Your journey is going well.\nThere may be hardships ahead, but I\n<br>\nbelieve that you will be able to take\nwhat you have learned here and make it\nall the way to the end!": ""
+  },
+  "33947": {
+    "<attr><feel_happy_lv1><end_attr><pc>Hello, Mr. Kato!  I've been able to\nconcentrate on my studies lately.  I\nthink I can pass the exam next year!": ""
+  },
+  "33948": {
+    "<attr><feel_happy_lv1><end_attr>oh!<pc>Yo. Welcome back.  How was your\ntrip? You must have met a lot of\npeople.  Have you been courteous? If\n<br>\nsomeone is suffering, help him.  The\nmost wonderful thing about you is not\nyour intelligence or your military\n<br>\nprowess. It is your kindness. It may\nbe weak in the beginning, but it will\neventually become a powerful force\n<br>\nthat will unite you with others and\nwill be unmatched by anything.": ""
+  },
+  "33950": {
+    "<attr><feel_happy_lv3><end_attr>oh! (startled)<pc>Mr!  Welcome back!  Tell me about your\ntrip!": ""
+  },
+  "33951": {
+    "<attr><feel_think_lv1><end_attr>Mr. Asanagi hasn't visited here once\nsince he graduated.  I wonder if she\nis doing well.": ""
+  },
+  "33952": {
+    "<attr><feel_happy_lv2><end_attr>Hey, hey, hey<pc>Mr!  It's been a long time.  I'm sure\neveryone would be delighted to see\nyour face.": ""
+  },
+  "33953": {
+    "<attr><feel_happy_lv1><end_attr>Have you traveled to different\ncontinents on the Intercontinental\nRail Pass? You know enough.  From now\n<br>\non, you will experience many things\nfirsthand and grow up!": ""
+  },
+  "33954": {
+    "<attr><feel_happy_lv1><end_attr>I presume you are here to see Himea-\nsama?  I'm sorry, but even graduates\nof the Garden of Learning are not\n<br>\nallowed to enter the mansion without\npermission. But Himea has told me that\nshe is always watching over you on\n<br>\nyour journey.  She is always watching\nover you on your journey.": ""
+  },
+  "33955": {
+    "<attr><feel_angry_lv1><end_attr>I can't believe I promised my father\nthat I would return to my hometown\nonce I fell into the trial of young\n<br>\nleaves.  Fuura-san must have gone\nthrough a lot of hardships. I'll study\nhard to make up for you, Fuura-san!": ""
+  },
+  "33956": {
+    "<attr><feel_sad_lv1><end_attr>Ah!<pc>Mr!  You took the trouble to come\nvisit us here.  Oh, is Fuura with you?<yesno><break>": ""
+  },
+  "33957": {
+    "<attr><feel_happy_lv3><end_attr>What? Fuura-san became a wind rider in\nWind Town Azlan?  That's amazing. You\ndid your best, Fuura-san!": ""
+  },
+  "33958": {
+    "<attr><feel_happy_lv1><end_attr>If that's the case, that's fine.  I'll\nstudy hard to make up for Fuura!": ""
+  },
+  "33959": {
+    "<attr><feel_happy_lv2><end_attr>Hello - Hello<pc>Mr.!  Would you like to know how to\nuse the Zoomstone?<yesno><break>": ""
+  },
+  "47787": {
+    "<attr><feel_sad_lv1><end_attr>I see.  If you have any questions\nabout Zoomstone, just give me a call.": ""
+  },
+  "47788": {
+    "<attr><feel_happy_lv1><end_attr>The Zoomstone is a magical stone that,\nwhen used, allows the user to quickly\nfly to the place where the Zoomstone\n<br>\nis memorized. Once you visit a town,\nvillage, or church, it is\nautomatically memorized. Tsusukul\n<br>\nVillage should already be in your\nmemory. You can memorize any number of\nplaces, so the more you memorize, the\n<br>\nmore places you can fly to. You can\nalso memorize the mysterious stone\nmonuments at the entrances to fields\n<br>\nand dungeons in your Zoomstone.\nZoomstones can be used from \"items\".\n Frequently visited places<emoji SpecialRight>You can also register it in your\nfavorites at": ""
+  },
+  "33961": {
+    "<attr><feel_happy_lv1><end_attr><pc>I guess so.  Maiden Himea is waiting\nfor you.  Come on, come inside.": ""
+  },
+  "33962": {
+    "<attr><feel_happy_lv1><end_attr>The door to Maiden Himea's room will\nbe opened at the appropriate time.\n Keep up the good work!": ""
+  },
+  "48070": {
+    "<attr><feel_happy_lv1><end_attr>Yes, yes, yes. I am Ms. Retara, who\nwas called a beautiful teacher when\nshe was working.  I love teaching\n<br>\npeople.<emoji RightTrigger>Pressing the button brings up a menu\nthat lists all the functions you will\nuse in your adventures. The more\n<br>\nadventures you go on, the more\nfunctions you will be able to choose\nfrom.  If you open the menu every once\n<br>\nin a while and look at what is\navailable, you will surely be able to\nproceed with your adventures in a more\n<br>\nconvenient manner.": ""
+  },
+  "70274": {
+    "<attr><feel_normal_lv1><end_attr>I enjoy taking a Picture.  When I see\na nice scenery, I always click the\nshutter.": ""
+  },
+  "201155": {
+    "<turn_pc>Ha~ so frustrating~!  Why do I, the\nqueen of bad looks, have to brush\naside the hatake mushrooms?": ""
+  },
+  "201156": {
+    "He is busy with Hatake with a devilish\nlook on his face. It's probably best\nnot to talk to him right now.": ""
+  },
+  "201157": {
+    "The fancy young lady in the field\nbehind us seems to be working day\nafter day without a moment's rest. Her\n<br>\nenthusiasm is good, but I'm worried\nthat she might break her body.": ""
+  },
+  "201158": {
+    "Are you one of them?  I'm having a\nhard time with the hatake mushrooms\nright now.  Can you please not\n<br>\ninterfere with my work? Shoo-shoo!": ""
+  },
+  "201159": {
+    "I guess we'll have to solve the field\nproblem before we can talk about it.\nLet's go to Wisdom Altar in Tsusukul\n<br>\nPlains to find out more about\nfertilizers.": ""
+  },
+  "201160": {
+    "If you leave the village from here and\nhead west along the road, you will\nreach the Wisdom Altar, where the\n<br>\nwisdom of the ancients rests. By the\nway, the pretty lady in the back field\nseems to be working day after day\n<br>\nwithout a moment's rest, and I'm\nworried that she might get sick.": ""
+  },
+  "201161": {
+    "That's tough! I'm having a hard time\nbecause the hatake mushrooms aren't\nhealthy! I don't want a nuisance like\n<br>\nyou! Shoo!": ""
+  },
+  "201162": {
+    "I guess we'll have to solve the\nproblem of the fields before we can\ntalk about it.<%sEV_QUE_NAME0>Let's go get some Energy Powder, which\nis said to be dropped by the": ""
+  },
+  "201163": {
+    "You're one of them, aren't you?  I\ncan't do this right now!  Can you\nplease not interfere with my\n<br>\nwork? Shoo-shoo!": ""
+  },
+  "201164": {
+    "Would you like to give Energy Powder\nto Miyabi?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "201165": {
+    "<pc>gave Energy Powder to Miyabi!": ""
+  },
+  "201166": {
+    "Asokura's<pc>I remember.  Thanks to the fertilizer\nyou gave me, the hatake mushrooms are\nmoving up in vitality! And with the\n<br>\nsleeping powder, I'm sure I'll be able\nto get a good night's sleep!  Lucchie\nand the others have a lot more to\n<br>\noffer than you think.  I really\nappreciate it. Thank you, Cho!": ""
+  },
+  "201167": {
+    "Asokura's<pc>I remember.  Thanks to the fertilizer\nyou gave me, the hatake mushrooms are\nmoving up in vitality! And the\n<br>\nsleeping powder has helped me sleep\nwell at night!  Lucchie and the others\nhave a lot to offer, don't they?  I\n<br>\nreally appreciate it. Thank you, Cho!": ""
+  },
+  "201341": {
+    "Ah!<pc>I know, right?  Deathwerk, I heard you\nbeat him!  Ninja Knife! That's\nhilarious! What? Me? I'm back to being\n<br>\na gadabout!  Because I'm the queen of\nbad pictures, right?  I've got\nfollowers waiting for me... but I've\n<br>\ndecided to continue working as a\nfarmer!  I've been having a lot of fun\nworking here, you know?  I can be a\n<br>\nfarmer and a gadabout at the same\ntime! So I'm going to market myself as\na farmer's gadabout! Squid, right?\n<br>\n I'll be your friend.": ""
+  }
+}

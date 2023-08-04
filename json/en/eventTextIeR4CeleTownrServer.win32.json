@@ -1,0 +1,650 @@
+{
+  "20447000": {
+    "<attr><feel_happy_lv1><end_attr>We are planning to make a letter card\nwith a picture of the Dharma Temple in\nhonor of its prestige, so that\n<br>\ntourists will enjoy it. We had a hard\ntime getting permission from the\nDharma Temple, but somehow we will be\n<br>\nable to complete a letter card that is\nboth sacred and solemn!": ""
+  },
+  "96000": {
+    "On that day when many critically ill\nchildren were brought to this clinic,\nI was unable to save anyone. I heard\n<br>\nthat patients with incurable diseases\nin the special ward came here relying\non this clinic, but I wonder if it is\n<br>\npossible for me to help them.": ""
+  },
+  "85187": {
+    "<attr><feel_angry_lv1><end_attr><icon_exc>This is a special ward for seriously\nill patients.  Please refrain from\nentering this room unless you are\n<br>\nrelated to the hospital.": ""
+  },
+  "96002": {
+    "<attr><feel_angry_lv1><end_attr><icon_exc>This is a special ward for seriously\nill patients.  Please refrain from\nentering this room unless you are\n<br>\nrelated to the hospital.": ""
+  },
+  "96049": {
+    "<attr><feel_normal_lv1><end_attr>This is a special ward for seriously\nill patients.  Only family members and\nother concerned parties are allowed to\n<br>\nenter. Please leave the room.": ""
+  },
+  "96050": {
+    "<attr><feel_angry_lv1><end_attr><icon_exc>This is a special ward for seriously\nill patients.  Please refrain from\nentering.": ""
+  },
+  "96051": {
+    "<attr><feel_sad_one><end_attr>The patient in the special ward seems\nto be a child who made a name for\nhimself in Gran Zedorra as a genius in\n<br>\nTula.  We wish we could cure him, but\nthe gemstone from which the potion is\nmade, argonheart, no longer exists in\n<br>\nthis world. It used to be extracted\nfrom the red giant dragon in Zedra\nCave in the Lovos Highlands, but it's\n<br>\nextinct now and has been gone for a\nlong time.": ""
+  },
+  "96052": {
+    "<attr><feel_sad_lv1><end_attr>The patient is in great danger.  I'm\nsorry, but please let the family alone\nfor now.": ""
+  },
+  "96053": {
+    "<attr><feel_sad_lv1><end_attr><icon_exc>The patient is in great danger.  I'm\nsorry, but please let the family alone\nfor now.": ""
+  },
+  "96054": {
+    "Would you like to give Hugues the\nArgon Heart?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "96055": {
+    "<pc>gave Yug an argon heart!": ""
+  },
+  "96056": {
+    "<attr><feel_think_one><end_attr>Oh. Can I help you?": ""
+  },
+  "96057": {
+    "<icon_exc>That's Argonhart!  The Red Giant\nDragon should be extinct by now, but\nhow in the world did it get here? No,\n<br>\nno, that's not important!  I need it\nfor my patient.  Please, can you give\nit to me?": ""
+  },
+  "96058": {
+    "<attr><feel_sad_lv1><end_attr>Without Argonheart, that boy's life\nwill not be long now.  Please, please\nreconsider!": ""
+  },
+  "96059": {
+    "Thank you very much!  Now, let's start\nmixing the medicine and give it to\nhim!": ""
+  },
+  "96060": {
+    "<attr><feel_sad_one><end_attr>I need that argon heart for my\npatient.  Please, can you give it to\nme?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>": ""
+  },
+  "96061": {
+    "This is a special ward for seriously\nill patients.  Please refrain from\nentering this room unless you are\n<br>\nrelated to the patient.": ""
+  },
+  "96062": {
+    "<attr><feel_think_lv2><end_attr><icon_exc>What? You got the Argon Heart?<yesno><break>": ""
+  },
+  "96063": {
+    "In that case, would you please give it\nto Dr. Hugues on the first floor?  I\ndon't know anything about mixing.": ""
+  },
+  "96064": {
+    "<attr><feel_angry_lv1><end_attr>Please don't make fun of me when my\npatients are going through such a\ndifficult time!": ""
+  },
+  "96065": {
+    "Oh. You must be a fan of Serik's.\n Thank you very much for giving me the\nArgon Heart. But the potion was\n<br>\nperfectly mixed. Why can't he regain\nconsciousness? After all, can't I save\nanyone as I did in the church\n<br>\naccident?": ""
+  },
+  "96066": {
+    "<attr><feel_sad_one><end_attr>The patient is still unconscious.  I'm\nsorry, but until he wakes up, please\nlet his family stay here alone. Still,\n<br>\nI wonder why he hasn't awakened.\n Could it be that the patient's soul\nis still wandering around somewhere?": ""
+  },
+  "96067": {
+    "<attr><feel_sad_one><end_attr><icon_exc>The patient is still unconscious.  I'm\nsorry, but until he wakes up, please\nlet his family stay here alone. Still,\n<br>\nI wonder why he hasn't awakened.\n Could it be that the patient's soul\nis still wandering around somewhere?": ""
+  },
+  "96068": {
+    "Before, when she had a little trouble,\nshe would call me or my husband and\ndepend on us for everything. But now,\n<br>\nwhen I try to help her, she says she\nwill do it by herself and refuses to\nlisten.  It's like he's grown up a\n<br>\nlong time ago.": ""
+  },
+  "96069": {
+    "<attr><feel_happy_lv1><end_attr>The petrification of my body has been\ncured, but it seems that I will not be\nable to play the tula right away. It\n<br>\nis quite difficult to train to move my\nhands, but when I see the rosary\nLiselotta gave me, I don't feel like\n<br>\nwhining. Someday, when you learn to\nplay the tula, I hope you will come to\nhear me play.  I'll save you the best\n<br>\nseat in the house.": ""
+  },
+  "96070": {
+    "In order to develop Selik's talents as\na Torah player, I made him practice\nevery day and never let him make\n<br>\nfriends. Maybe that's why...  I was\nconcerned that he had grown up to be\nindifferent to others. I think.<pc>You said \"Mr.\" and \"Ms.\", didn't you?\n From now on, please be a friend of\nSerik's and be friendly with him. I\n<br>\nbeg you.": ""
+  },
+  "96071": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>Oh, you are the traveler who gave us\nthe Argon Heart!  Thank you so much\nfor that! Thanks to you, Selik's\n<br>\nconsciousness has finally returned!\n If you'd like, please come meet him!": ""
+  },
+  "96072": {
+    "I lost confidence in myself as a\ndoctor the day so many critically ill\nchildren were brought to this clinic.\n<br>\nLife is a fleeting thing in the face\nof mortality.  I thought that I was a\nfool to think that I could do anything\n<br>\nabout people's lives and deaths.\nHowever, I realized that through\nSelik's treatment.  I realized that if\n<br>\nwe keep on trying and don't give up\nhope until the very end, we can\nconquer the fate of death. Now I have\n<br>\nto get back to work.  There are still\npatients in this world who need\ntreatment.": ""
+  },
+  "96073": {
+    "<attr><feel_happy_lv1><end_attr>I was hoping you would come.  The\npatient's family is waiting for you.\n Please come in.": ""
+  },
+  "96074": {
+    "<attr><feel_happy_lv3><end_attr>Actually, I'm still not allowed to see\nyou, but you're the only one who's\nspecial.  But please don't disturb the\n<br>\npatients.": ""
+  },
+  "85881": {
+    "<attr><feel_think_one><end_attr>Oh, no. You were wrong.  I guess I\njumped the gun. Well then...<bw_break>": ""
+  },
+  "85883": {
+    "<attr><feel_happy_lv1><end_attr>Oh, it's pretty good quality wool.\n Well then, I'll go right out and make\nwhat the mayor asked me to make out of\n<br>\nit.": ""
+  },
+  "85884": {
+    "<attr><feel_happy_lv1><end_attr>Yeah, it's pretty well done. It's\nquite a piece of work.  You'll have to\ntake this package to the mayor's\n<br>\noffice.": ""
+  },
+  "85886": {
+    "<attr><feel_happy_lv1><end_attr>Still, there's a surprising side to\nthat serious-looking mayor, ordering\nsomething so cute.": ""
+  },
+  "85891": {
+    "Would you like me to give the\ntoolmaker Sherata some fine wool?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "85893": {
+    "<attr><feel_sad_lv1><end_attr>Lately, I've been seeing my son's\nghost a lot, so I was talking to the\nmayor about it a while ago. But right\n<br>\nafter I sent him off, the ghost\nappeared again.  This time, my husband\nsaid he saw it clearly too. It's good\n<br>\nto know that I'm not crazy, but what\non earth is going on?<bw_break>": ""
+  },
+  "85895": {
+    "<attr><feel_think_one><end_attr>Oh, Mr. Mayor?  If you're the mayor,\nhe's on his way to the church to\nconsult with others.": ""
+  },
+  "85897": {
+    "<attr><feel_sad_lv1><end_attr>I thought my wife was neurotic when\nshe said she could see ghosts of her\nkids, but then I saw a ghost too. I\n<br>\nsaw a ghost too. After a while it\ndisappeared without saying anything,\nbut why in the world does it come out\n<br>\nin front of us as a ghost?": ""
+  },
+  "85899": {
+    "<attr><feel_sad_lv1><end_attr>He was in the next room just now, but\nhe seems to have gone somewhere else.\nThe only time he spends time at home\n<br>\nis when he's eating or sleeping.  I\nguess he doesn't care about the\nfamily.": ""
+  },
+  "85901": {
+    "<attr><feel_think_one><end_attr>Oh, yeah, yeah.  Don't forget to\ndeliver the beautiful package to the\nmayor.": ""
+  },
+  "85903": {
+    "<attr><feel_normal_lv1><end_attr>Oh, you don't want to see my husband,\ndo you?  My husband just left to go to\nMilane's house. Milane's house is\n<br>\nsouth of the clinic, with a watering\ncan in front of it.  If you're in a\nhurry, you can follow her.": ""
+  },
+  "85972": {
+    "The door has been stubbornly closed.\nIf you look closely, you can see a\nnote stuck in the gap between the\n<br>\ndoors.<bw_break>": ""
+  },
+  "85974": {
+    "The door has been stubbornly closed. A\nnote is stuck in the gap between the\ndoors. Would you like to read Mayor\n<br>\nBlato's note?<yesno><case 1><break><case 2><break><case_cancel><close><case_end>": ""
+  },
+  "85905": {
+    "<attr><feel_sad_one><end_attr>Lately, when I'm at home in a daze, I\nsometimes suddenly see my child.  Have\nI gone crazy? My husband drinks a lot,\n<br>\nand in times like this, I should ask\nthe mayor for advice.": ""
+  },
+  "85907": {
+    "<attr><feel_sad_one><end_attr>That was definitely Liselotta's voice\nI heard at the church.": ""
+  },
+  "85909": {
+    "<attr><feel_normal_lv1><end_attr><icon_exc><turn_pc>Ah!<pc>Mr.  I am sorry for my mistake\nearlier. I'm sorry for all the trouble\nI caused you this time, as it seems I\n<br>\nmade you go a long way around.  Now,\nthis is a thank you from me.": ""
+  },
+  "85913": {
+    "I've been meaning to order that\nimportant item for a long time, but\nlately I just can't seem to find the\n<br>\ntime to do it myself.": ""
+  },
+  "85914": {
+    "<attr><feel_think_one><end_attr>I have been meaning to order that\nimportant item for a long time, but I\njust haven't been able to make time\n<br>\nfor myself lately. I know you must be\nhorrified by the strange happenings in\nthat church, but I would ask you not\n<br>\nto go around. The hearts of the people\nin this town are now weak.  If they\nknew such a strange thing was\n<br>\nhappening, they might panic.": ""
+  },
+  "85915": {
+    "<attr><feel_think_one><end_attr>I wonder what happened to Ms. Forna,\nwho was supposed to be at church, but\ncame back looking frightened.": ""
+  },
+  "85916": {
+    "<attr><feel_sad_one><end_attr>The collapse of a church, the house of\nGod, must be a harbinger of something\nbad. O God, please protect us, the\n<br>\nfrail people of Ceredo.": ""
+  },
+  "85917": {
+    "<attr><feel_angry_lv1><end_attr>It was a terrible experience.  I'll\nnever go to church again. Do the\nchildren have a grudge against us and\n<br>\nwant to take us with them?  I don't\nwant to feel this way anymore.": ""
+  },
+  "85918": {
+    "<attr><feel_think_one><end_attr><turn_pc>I wonder if there's something wrong\nwith the church. Did something happen\nat the church?  I was praying and\n<br>\ndidn't notice.": ""
+  },
+  "85226": {
+    "<attr><feel_normal_silent><end_attr>The following is a list of the most\ncommon problems with the": ""
+  },
+  "85921": {
+    "<attr><feel_think_lv2><end_attr>What a terrible thing to happen.  The\nnew church, the pride of Ceredo,\ncollapsed in the blink of an eye. What\n<br>\na surprise! It's back to normal!  I'm\nsure I saw it collapse.  I must've\nseen it break.": ""
+  },
+  "85922": {
+    "<attr><feel_think_lv2><end_attr>The church I thought was broken has\nbeen restored.  I'm sure I saw it\nbreak.  I must have been the one who\n<br>\nbroke it.": ""
+  },
+  "85923": {
+    "<attr><feel_think_lv1><end_attr>I just saw Aunt Forna running from the\nchurch. Was there another accident?<yesno><case 1><break><case 2><break><case_cancel><break>": ""
+  },
+  "85924": {
+    "<attr><feel_normal_lv1><end_attr>Yes. I hope there's nothing wrong.": ""
+  },
+  "85925": {
+    "<attr><feel_think_lv2><end_attr>The newer church collapsed in an\ninstant, but was quickly fixed again?\n I have no idea what you're talking\n<br>\nabout.": ""
+  },
+  "85927": {
+    "<attr><feel_think_lv1><end_attr>I'm not sure what to do. Mayor Brat\nwould have turned pale and wandered\nback to his house. He didn't even\n<br>\nnotice me talking to him. What's going\non?  I've never seen the mayor like\nthat before.": ""
+  },
+  "85928": {
+    "<attr><feel_think_lv1><end_attr>Hey, Mr. Forna, what's going on?  This\ntime they say the new church collapsed\nin an instant. I was curious, so I\n<br>\nwent to check it out, but instead of\ncollapsing, nothing's changed.": ""
+  },
+  "85929": {
+    "<attr><feel_think_lv1><end_attr>I used to think the occult was silly,\nbut ghosts really do exist. There's\nnowhere to run, but in times like\n<br>\nthis, it's best to just stay inside,\nblah, blah, blah.": ""
+  },
+  "85930": {
+    "<attr><feel_think_lv1><end_attr>Dad came home with a pale face, but I\nwonder what happened outside.": ""
+  },
+  "85931": {
+    "<attr><feel_sad_one><end_attr>I can't believe that Father, who is\nalways so imposing, is so anxious.  I\nwonder what happened while I was gone.<bw_break>": ""
+  },
+  "85932": {
+    "<attr><feel_think_lv1><end_attr>I thought I heard some kind of\ncommotion, but my husband came home in\na panic.  I asked him what happened,\n<br>\nbut he wouldn't answer.": ""
+  },
+  "85933": {
+    "Deletion of dialogue": ""
+  },
+  "85934": {
+    "Deletion of lines": ""
+  },
+  "85940": {
+    "<attr><feel_sad_one><end_attr>I wonder why everyone is so frightened\nabout the ghosts of children these\ndays. I don't care if it's a ghost or\n<br>\nnot, as long as my baby boy comes\nback.  I want to see her again.": ""
+  },
+  "85941": {
+    "<attr><feel_normal_lv1><end_attr>Ah!<pc>Mr. Kato.  I have another favor to ask\nof you in light of your skills. I\nwould like to hold a meeting to\n<br>\nrelieve the anxiety of the town's\nresidents who are frightened by the\nghosts they say they see. First of\n<br>\nall, I would like you to fetch some\ncalming incense, which is said to calm\npeople's minds.": ""
+  },
+  "85942": {
+    "<attr><feel_happy_lv1><end_attr>Oh, you can do it!  Please come this\nway so that I can explain the details.": ""
+  },
+  "85943": {
+    "<attr><feel_think_one><end_attr>Oh, well. It seems you have a lot of\nrequests.  I'll be waiting for you\nhere, so don't forget to come back\n<br>\nwhen you're free.": ""
+  },
+  "85944": {
+    "<attr><feel_sad_one><end_attr>That is troubling.  You are the only\nperson I can ask to do this, so\nplease, I beg you to reconsider.": ""
+  },
+  "85945": {
+    "<attr><feel_normal_lv1><end_attr>Oh, hello.  The mayor's been looking\nfor you. He said he needs you to do\nsomething for him again.  You seem to\n<br>\nhave a good connection with the\nmayor's family.": ""
+  },
+  "85946": {
+    "<attr><feel_think_lv1><end_attr>I used to listen to the problems of\nthe people of the town together with\nthe mayor, but recently the number of\n<br>\npeople coming to me for advice has\ndecreased. Now even the mayor doesn't\ncome anymore.  Could it be because of\n<br>\nthe mysterious hallucination that this\nchurch appeared to have collapsed for\na moment?": ""
+  },
+  "85947": {
+    "<attr><feel_sad_one><end_attr>Apparently, I wasn't the only one who\nhad a strange hallucination that the\nchurch, which was supposed to have\n<br>\ncollapsed, was restored in an instant.\nI've been hearing stories of\nchildren's ghosts everywhere lately,\n<br>\nand the townspeople are totally\nspooked.": ""
+  },
+  "85948": {
+    "<attr><feel_think_one><end_attr>M. The mayor seems to be very busy\nthese days.  What on earth is he\npreparing for?": ""
+  },
+  "85949": {
+    "<attr><feel_normal_lv1><end_attr>This man Sadak was pestering me every\nday, so the other day I gave him a\nlittle company. Then he told me how\n<br>\nsad he was that I lost my grandson, as\nif it were his own.  You can't judge\npeople by their looks.": ""
+  },
+  "85950": {
+    "<attr><feel_sad_one><end_attr>My dad always makes excuses about how\nbusy he is with work, and he's always\nneglecting the house. He never once\n<br>\nwent to visit his dead sister's grave.": ""
+  },
+  "85951": {
+    "<attr><feel_sad_one><end_attr>Oh, I'm sorry, do you have some\nbusiness with my husband?  He's\nupstairs, if you'd like to see him.\n<br>\nLately, when I'm at home, I'm kind of\nlost in thought.  He must be tired\nfrom work.": ""
+  },
+  "85952": {
+    "<attr><feel_normal_lv1><end_attr><open_irai>I would like to hold a meeting to\nrelieve the anxiety of the town's\nresidents who are frightened by the\n<br>\nghosts they say they see. First of\nall, in order to calm everyone down,\ncould you please fetch me some calming\n<br>\nincense, which is said to calm\npeople's minds?<bw_break>": ""
+  },
+  "85953": {
+    "<attr><feel_normal_lv1><end_attr>The scent of peace is in the Lyana Desolation Zone<%sEV_QUE_NAME0>I've heard that the \"Mere Old Man\" is\ngoing to drop it.  Please help us.": ""
+  },
+  "85954": {
+    "<attr><feel_happy_lv1><end_attr>Oh, no. The mayor asked you to do\nanother errand for him? Hmmm. The\nmayor seems to have taken a liking to\n<br>\nyou.  Have a safe trip.": ""
+  },
+  "85955": {
+    "<attr><feel_sad_one><end_attr>They don't hold grudges against\nanyone.  They pray at the Dharma\nTemple every day, waiting for the\n<br>\nadults to return. The adults in town\nhave stopped going to the temple to\npray, and now it's like we're all\n<br>\ngoing back to the same place.": ""
+  },
+  "85956": {
+    "<attr><feel_think_lv1><end_attr>I heard voices from upstairs. My\nhusband must have had another fight\nwith Lucoria. But she's more outspoken\n<br>\nthan before.  She's starting to sound\na little like Liselotta.": ""
+  },
+  "85957": {
+    "<attr><feel_sad_one><end_attr>We used to have town meetings all the\ntime, but since the kids died in the\nchurch accident, we haven't had any\n<br>\nsince then. My kids are grown now and\nhave families in other towns.  It's\nkind of hard for me to show up.": ""
+  },
+  "85958": {
+    "<attr><feel_think_lv1><end_attr>It looks like the mayor is holding a\nmeeting.  I don't really feel like it,\nbut it might be a good distraction.": ""
+  },
+  "85959": {
+    "<attr><feel_normal_lv1><end_attr>The mayor is holding a meeting for\neveryone in town. I hope it will be a\nnice break from the gloomy mood\n<br>\neveryone's been in lately.": ""
+  },
+  "85960": {
+    "<attr><feel_happy_lv1><end_attr>After that, the mayor came to our\nhouse.  He said, \"I'm sure it will be\ngood for you, so please come to the\n<br>\ntown meeting. I can't refuse him after\nI made him bow down to me.  I'm going\nto show my face.": ""
+  },
+  "85961": {
+    "<attr><feel_normal_lv1><end_attr><turn_pc>I've been invited to a meeting by the\nmayor, but there's still time. The\nmayor invited me to a meeting, but\n<br>\nthere's still time.  I'll stay with\nthe kids a little longer.": ""
+  },
+  "85919": {
+    "<attr><feel_normal_silent><end_attr>The following is a list of the most\ncommon problems with the": ""
+  },
+  "85963": {
+    "<attr><feel_normal_lv1><end_attr>We haven't had a chance to get\ntogether since the accident in which\nwe lost our children, so I think it\n<br>\nwould be a good opportunity to hold a\ngathering. I have only a short time\nleft to live, but the younger\n<br>\ngeneration will have to overcome their\ngrief and live on.": ""
+  },
+  "85964": {
+    "<attr><feel_normal_lv1><end_attr>Rivers of light are beautiful, aren't\nthey?  It's so warm and warm.  It's\nlike I'm being wrapped by a goddess.\n<br>\nIt seems there's an important talk\ncoming up at the meeting place, but\nI'll go there after I've had a chance\n<br>\nto relax a little more.": ""
+  },
+  "85965": {
+    "<attr><feel_normal_lv1><end_attr>I thought everyone was getting\nstrangely fidgety, but it seems the\nmayor is going to hold a meeting. No\n<br>\nmatter how hard the situation is, the\nmayor never loses sight of himself, so\nI can really rely on him.": ""
+  },
+  "85966": {
+    "<attr><feel_normal_lv1><end_attr>M. Mr. Mayor, I hear you're holding a\nmeeting.  No wonder you've been so\nbusy lately. I guess he was worried\n<br>\nthat everyone in town was being\nfrightened by the ghost. You really\nare a man of small details, Mr. Mayor.": ""
+  },
+  "85967": {
+    "<attr><feel_normal_lv1><end_attr>Oh, traveler.  Are you going to the\nmeeting place too? If you want to go\nto the meeting place, it's just a\n<br>\nshort walk through this cave and along\nthe gutter.": ""
+  },
+  "85968": {
+    "<attr><feel_normal_lv1><end_attr>I was shivering under a futon because\nI was afraid of the ghost of a child,\nwhen the mayor came to my house. He\n<br>\ntold me that turning away from grief\nand fear won't help. The mayor lost a\nchild, too, but he's such an admirable\n<br>\nman.  I can't be like that.": ""
+  },
+  "85969": {
+    "<attr><feel_angry_lv1><end_attr>Dad would have gone to prepare for the\nmeeting.  What is a man who always\nneglects his family supposed to talk\n<br>\nabout in public? He didn't even go to\nvisit his dead sister's grave.  I\ndon't want her to be buried like this.": ""
+  },
+  "85970": {
+    "<attr><feel_sad_one><end_attr>People used to go to church every day\nand pray seriously. But since the\nghosts have been making noise, the\n<br>\nnumber of people going to church to\npray has dropped completely.  People\ndon't believe in anything anymore.": ""
+  },
+  "85971": {
+    "Kaline is quietly praying.": ""
+  },
+  "85973": {
+    "<pc>Dear Mr., I have gone ahead to prepare\nfor the meeting, so could you please\ndeliver the fragrance of peace to the\n<br>\nmeeting place? The location is from\nthe west of the water pumping station,\nthrough the underpass, and along the\n<br>\ngakke. Thank you very much.  Brat": ""
+  },
+  "85996": {
+    "<attr><feel_think_one><end_attr>I think you met the mayor's daughter,\nLucoria, a few times, didn't you?\nShe's been acting strange lately.  She\n<br>\nwanders around the town and sighs all\nthe time. I've asked her what's wrong,\nbut she won't tell me.  If you'd like,\n<br>\nyou can talk to her.": ""
+  },
+  "85962": {
+    "<attr><feel_normal_silent><end_attr>The following is a list of the most\ncommon problems with the": ""
+  },
+  "85997": {
+    "<attr><feel_normal_silent><end_attr>The following is a list of the most\ncommon problems with the": ""
+  },
+  "85998": {
+    "<attr><feel_normal_lv1><end_attr><icon_exc><turn_pc>that (something mentioned before which is distant psychologically or in terms of time)<pc>Mr. Kato.  I just wanted to ask you\nfor a favor.<bw_break>": ""
+  },
+  "85999": {
+    "<attr><feel_sad_lv1><end_attr>Liselotta's diary.  It disappeared\nwhile I was away from home for a\nwhile. I made sure to put it in my\n<br>\ndesk drawer before I left.  No matter\nhow hard I looked for it, I couldn't\nfind it. I think it could be one of\n<br>\nthe four people who were at the house\nduring that time, Mom and Dad, the\nmedium Sadak and the priest who came\n<br>\nas guests. I'm begging you.  Please\nhelp me find my diary.  Will you do\nthat for me?": ""
+  },
+  "86000": {
+    "<attr><feel_normal_lv1><end_attr>Thanks.  I'll look around the room\nsome more, you look elsewhere. I'm\ncounting on you.": ""
+  },
+  "86001": {
+    "<attr><feel_think_one><end_attr>You seem to have a lot on your plate.\n You're just like my dad.  I'm in a\nhurry, so go finish up.": ""
+  },
+  "86002": {
+    "<attr><feel_angry_one><end_attr>Are you really going to be cursed if\nyou refuse to do me a favor I've asked\nyou to do for the rest of my life?  I\n<br>\ndon't care if you regret it.": ""
+  },
+  "86003": {
+    "<attr><feel_normal_lv1><end_attr><turn_pc><pc>Mr. Kato.  I have a favor to ask you.<bw_break>": ""
+  },
+  "86004": {
+    "<attr><feel_sad_lv1><end_attr>Lately, Lucoria doesn't talk at all,\nshe doesn't eat at all when I serve\nher food, and there's something wrong\n<br>\nwith her. I haven't seen her this\ndepressed since Liselotta passed away.": ""
+  },
+  "86005": {
+    "<attr><feel_angry_one><end_attr>I don't know what Lucoria is talking\nabout when she says that someone stole\nthe diary, but I have no idea what she\n<br>\nis talking about. I never go into that\nroom, and most likely he thinks he\ndropped it somewhere.": ""
+  },
+  "86006": {
+    "<attr><feel_normal_lv1><end_attr>So, the sparkling diary that was\ndelivered to the mayor's house before\nis missing again?  That's a diary that\n<br>\ndisappears quite often. It's not hard\nto find a sparkling, conspicuous book\nlike that.  Unfortunately, I haven't\n<br>\nseen it.": ""
+  },
+  "86007": {
+    "<attr><feel_normal_lv1><end_attr>Oh, did you lose your sister's diary,\nthe one that Miss Lucoria used to\ncarry with her?  She took very good\n<br>\ncare of it. There's no point in\nlooking at someone else's diary, and\nit's not like it was stolen, right?\n<br>\n Where in the world did she go?": ""
+  },
+  "86008": {
+    "<attr><feel_normal_lv1><end_attr>Did the mayor's daughter, Lucoria,\nsteal the diary that was so dear to\nthe mayor's family?  I'm sorry, but I\n<br>\nhave no idea. The reason I went to the\nmayor's house is because he hasn't\nbeen coming to church recently, and I\n<br>\nwas wondering if he was feeling\nunwell. By the way, you and Mr. Sadak,\nwho was a guest before me, were in the\n<br>\nsame place at that time.  I think he\nsaid he was going to a bar.": ""
+  },
+  "86009": {
+    "<attr><feel_normal_lv1><end_attr>Hiccup. Sadak came over earlier.  He\nwas carrying a strange, sparkling book\nunder his arm like he was trying to\n<br>\nsave it. He's an old man with girlish\nhobbies. He's a real creep.": ""
+  },
+  "86010": {
+    "<attr><feel_sad_one><end_attr>Liselotta's diary.  It went missing\nwhile I was gone for a while.<open_irai><bw_break>": ""
+  },
+  "86011": {
+    "<attr><feel_think_one><end_attr>I made sure to put it in my desk\ndrawer before I left.  I couldn't find\nit no matter how hard I looked for it.\n<br>\nI think one of the four people who\nwere in the house during that time,\nMom and Dad, the medium Sadak and the\n<br>\npriest who came as a guest, is\nsuspicious.<bw_break>": ""
+  },
+  "86012": {
+    "<close_irai>I'll search the room some more, you go\nlook elsewhere.  I'll look around the\nroom some more, and you go look\n<br>\nelsewhere.": ""
+  },
+  "86013": {
+    "<attr><feel_think_one><end_attr>What? Liselotta's diary, Lucoria's\nprized possession, is missing?  I\nwonder if that's why she was so upset.\n<br>\nShe gets very angry if I enter her\nroom without permission while she's\nnot here, so I don't allow her to get\n<br>\ntoo close.  She's not a child any\nmore.": ""
+  },
+  "86014": {
+    "<attr><feel_normal_lv1><end_attr>Lucoria seems to be out and about.  I\nwish she would always stay out of my\nway and play outside like this.": ""
+  },
+  "86015": {
+    "<attr><feel_think_one><end_attr>Earlier, when Miss Lucoria was leaving\ntown, I was about to ask her where she\nwas going. I tried to ask her where\n<br>\nshe was going. But she looked too\nscared to talk to me.  I wonder what\nhappened to her.": ""
+  },
+  "86016": {
+    "<attr><feel_normal_lv1><end_attr>A few minutes ago, Miss Lukoria came\nto see me and asked me about Mr.\nSadak. When I told her that Mr. Sadak\n<br>\nsaid he was going to a bar, she seemed\nto panic and left. I wonder what\nhappened to her?": ""
+  },
+  "86017": {
+    "<attr><feel_normal_lv1><end_attr>That little girl, Lecoria, who used to\nbe so quiet and timid, she's starting\nto look a lot like her sister who\n<br>\npassed away. You're going to Linja's\ntower, aren't you?  I'm worried about\nyou being alone, so why don't you go\n<br>\ncheck on her a little bit? If you want\nto go to Linja's Tower, take the\nSeredot Mountain Road north and pass\n<br>\nthe ruins on the coast of Linjahar.": ""
+  },
+  "86018": {
+    "Lucoria was so depressed, and then\nsuddenly she went off somewhere.  She\nlooked kind of scary.": ""
+  },
+  "86020": {
+    "<attr><feel_happy_lv1><end_attr>I think it's good for the kids and for\neveryone in the town that we're trying\nto appease the ghost children. It's\n<br>\njust as hard for the children who have\nturned into evil spirits holding\ngrudges as it is for the adults who\n<br>\nhave been wronged by their own\nchildren.": ""
+  },
+  "86021": {
+    "<attr><feel_sad_lv1><end_attr>The people who went to the meeting ran\naway in a panic.  Sadak is a monster\npretending to be human and he's been\n<br>\ndeceiving us. Taking advantage of the\nhearts of parents who lost their\nchildren... It's just like a monster\n<br>\nto do that.": ""
+  },
+  "86022": {
+    "<attr><feel_happy_lv1><end_attr>I heard that Sadak is going to perform\na special ceremony to summon the\nspirits of the children. I'd do\n<br>\nanything to see my children again.\n Even if it means sacrificing\nsomething.": ""
+  },
+  "86023": {
+    "<attr><feel_sad_lv1><end_attr>Sadak was deceiving us.  So it was all\na lie that he could see our child.\nI've believed that until now and\n<br>\nsupported him, but what am I supposed\nto do now?": ""
+  },
+  "86024": {
+    "<attr><feel_normal_lv1><end_attr>Mr. Sadak, you're back in town.  They\nare going to start a special ceremony\nto appease the spirits of the dead\n<br>\nchildren. I'm definitely going to go\nfor the dead children.  I heard it's\nbetter to have more than one person!": ""
+  },
+  "86025": {
+    "<attr><feel_think_one><end_attr>My head is still spinning.  That\nmysterious scent must have been used\nto get us to do their bidding.": ""
+  },
+  "86026": {
+    "<attr><feel_happy_lv2><end_attr>Mr. Sadak just came home.  They are\ngoing to hold a special ceremony. It's\ngoing to be held at the same place as\n<br>\nthe other day, at a meeting place\nalong the gakke.  I better go so I\nwon't be late.": ""
+  },
+  "86027": {
+    "<attr><feel_think_one><end_attr>I was smelling that comforting aroma\nand I felt like I had to listen to Mr.\nSadak, and I'm still confused as to\n<br>\nwhat happened.  I wonder if that\nmonster is still in the meeting place.": ""
+  },
+  "86028": {
+    "<attr><feel_sad_one><end_attr>I thought that the number of people\ncoming to prayer had decreased\nrecently, but it turns out that the\n<br>\npeople of this town have all been\nbewitched by a demon called Sadak. As\na priest, I am the one who has to\n<br>\nprotect the people of this town from\nthis demon, but to realize it only\nnow, what a pity.": ""
+  },
+  "86029": {
+    "<attr><feel_angry_one><end_attr>Even though Sadak is holding a meeting\nfor us, our people are drinking until\nthis late.  It's pathetic.": ""
+  },
+  "86030": {
+    "<attr><feel_think_lv1><end_attr>The body transparency seems to have\ngone away while I was floundering\naround, but I don't know when it will\n<br>\ncome back. What should I do now?": ""
+  },
+  "86031": {
+    "<attr><feel_happy_lv2><end_attr>I've got to go so I don't miss it.\nSadak is going to have a meeting, so\nI'd better go so I won't be late. I\n<br>\ndon't want to worry about this and\nthat anymore.  If I do what he says,\nmy heart will be saved.": ""
+  },
+  "86032": {
+    "<attr><feel_sad_one><end_attr>I'm sorry. Sadak wasn't trying to save\nour hearts, he was trying to use them.\nWe were so grieving the loss of our\n<br>\nchild that we stopped thinking for\nourselves and just asked for help, and\nwe were wrong.": ""
+  },
+  "86033": {
+    "<attr><feel_happy_lv2><end_attr>Sadak-sama is going to perform a\nceremony at the meeting place along\nthe gakke.  I'll have to remember\n<br>\nthat.": ""
+  },
+  "86034": {
+    "<attr><feel_think_one><end_attr>Hegsh! Hegsh!  It's good that everyone\nwho was at the beck and call of the\ndemon is back to normal. But I can't\n<br>\nstop sneezing because of that awful\nsmell.  Hehegsh!": ""
+  },
+  "86035": {
+    "<attr><feel_happy_lv2><end_attr>There's a ceremony starting soon at\nthe meeting place by the gaket up\nahead, so just wait here until it's\n<br>\ntime. It's a very important ceremony,\nso if you're going to be there, you\nbetter be ready.": ""
+  },
+  "86036": {
+    "<attr><feel_think_lv1><end_attr>The river of light disappears for a\nmoment, the townspeople are fleeing\nfrom the assembly hall, and what in\n<br>\nthe world is going on? I can't see Mr.\nSadak at all. I wonder if something\nhappened to him.": ""
+  },
+  "86037": {
+    "<attr><feel_think_lv1><end_attr>When I talk to people in town, they\nlook at me like I'm a dead fish, and\nI'm scared.  I don't know what's wrong\n<br>\nwith me.": ""
+  },
+  "86038": {
+    "<attr><feel_think_one><end_attr>The townspeople seem to have gotten\nover their vacant eyes, but there\nseems to be a lot of commotion around\n<br>\nthe meeting hall.": ""
+  },
+  "86039": {
+    "<attr><feel_normal_lv1><end_attr>Whew! Kitsukisou works well when\nyou're drunk.  I like the feeling of\nthis tsukkatsu.": ""
+  },
+  "86040": {
+    "<if_woman><attr><feel_normal_lv1><end_attr>Oh, you're Hiccup, aren't you?  That\nyoung lady, Lucoria, came in here a\nmoment ago looking panicked. She asked\n<br>\nme with a serious face to lend her my\nspiker, but what in the world is she\ngoing to use it for?<else><attr><feel_normal_lv1><end_attr>Oh, Nii, Hiccup.  That young lady\nnamed Lecoria came here in a panic a\nwhile ago. She asked me with a serious\n<br>\nlook on her face to lend her my\nspiker, but what in the world is she\ngoing to use it for?<endif>": ""
+  },
+  "86041": {
+    "<attr><feel_happy_lv1><end_attr>When I first met Mr. Sadak, I honestly\nthought he was a fraud.  I should have\nlistened to him. Unlike my husband,\n<br>\nshe's really dependable.  I can't wait\nfor the meeting.": ""
+  },
+  "86042": {
+    "<attr><feel_think_lv1><end_attr>I can't remember anything from the\ntime I went to the meeting to the time\nI ran away, what the heck was I doing?": ""
+  },
+  "86043": {
+    "<attr><feel_normal_lv1><end_attr>I'm not here. The mayor is not here.\n He's preparing for a meeting with Mr.\nSadak. They're going to perform a\n<br>\nspecial ceremony to summon the spirits\nof the children. I'll do whatever it\ntakes to see my boys again.  Even if\n<br>\nit means being bitter about it.": ""
+  },
+  "86044": {
+    "<attr><feel_think_lv1><end_attr>I'm sorry, but I'm not sure I can do\nthis. Thanks to that strong smell, I\nmanaged to come back to my senses, and\n<br>\nmy translucent body was cured before I\nknew it. But the monster that was\nSadak is still rampaging in the\n<br>\nassembly hall.  I don't know what to\ndo with that monster.": ""
+  },
+  "86045": {
+    "<attr><feel_think_one><end_attr>I heard that the town was strangely\nnoisy, and I heard that a monster\nappeared in the assembly hall.  Well,\n<br>\nI'm sure Mr. Sadak will take care of\nit. What? That Mr. Sadak is a monster?\n You think I'm an old person and don't\n<br>\ntalk nonsense!": ""
+  },
+  "86046": {
+    "<attr><feel_happy_lv2><end_attr>Mr. Sadak is going to hold another\nmeeting.  He asked me to help him out.\nHehe, I guess he's counting on me.  I\n<br>\ncan't say no to Mr. Sadak's request.": ""
+  },
+  "86047": {
+    "<attr><feel_angry_one><end_attr>That's why I said from the beginning\nthat Sadak was shady.  I knew this\nwould happen someday! I mean, it looks\n<br>\nlike we're out of the water, but maybe\nwe should get out of town.": ""
+  },
+  "86048": {
+    "<attr><feel_happy_lv2><end_attr>I heard that Sadak-sama has found a\nnice way to appease evil spirits.\n That's what I'd expect from an occult\n<br>\nexpert! As long as I listen to him, I\ndon't have to be afraid of evil\nspirits!  I'm not afraid of anything\n<br>\nanymore!": ""
+  },
+  "86049": {
+    "<attr><feel_angry_one><end_attr>I'm not kidding about calling such an\noutrageous demon Sadak-sama and\npraising him. But what happened at the\n<br>\nmeeting?  My brain doesn't work, but I\nthink it's because of the incense that\nSadak was using.": ""
+  },
+  "86050": {
+    "<attr><feel_happy_lv2><end_attr>I thought you've been busy lately,\nSadak, preparing for a special\nceremony to appease the spirits of the\n<br>\nchildren. Since I'm here, I'm going to\njoin in the prayer later too.": ""
+  },
+  "86051": {
+    "<attr><feel_think_one><end_attr>Ugh, it's like I was dreaming.  Sadak-\nsan turned into a monster, but I\nwonder if that was a dream too.": ""
+  },
+  "86052": {
+    "<attr><feel_normal_lv1><end_attr>Oh, I'm sorry, are you looking for my\nhusband?  Unfortunately, he went out\nfor an important meeting. Lucoria came\n<br>\nback at the wrong time, but she seemed\nto be in a great hurry and went out to\nlook for him. I hope she won't get\n<br>\ninto a fight with him again.": ""
+  },
+  "86053": {
+    "<attr><feel_think_lv1><end_attr>Unfortunately, my husband and Lucoria\nare out of town. But still, there's\nsome kind of commotion in town.  I\n<br>\nwonder if ghosts have appeared again.": ""
+  },
+  "86019": {
+    "The door has stubbornly closed.": ""
+  },
+  "86056": {
+    "<attr><feel_sad_lv1><end_attr>It must have been a shock to everyone\nthat Sadak's words, which had been a\nsource of emotional support, turned\n<br>\nout to be a demon. For parents, their\nchildren are everything to them.  What\na despicable monster to take advantage\n<br>\nof their empty hearts after losing\ntheir children!": ""
+  },
+  "86057": {
+    "<attr><feel_sad_lv1><end_attr>I can't say this in front of everyone,\nbut I wanted my child to come back,\neven if it was in exchange for my\n<br>\nexistence. I know you think it's\nwrong, but it's a natural feeling for\na parent.  I just want to see my\n<br>\nchild, just for one moment.": ""
+  },
+  "86058": {
+    "<attr><feel_normal_lv1><end_attr>I was relieved to know that the\nchildren didn't become evil spirits\nout of hatred for adults, but I was a\n<br>\nlittle disappointed in myself for\nbeing duped by a shady character like\nSadak.": ""
+  },
+  "86059": {
+    "<attr><feel_normal_lv1><end_attr>Sadak was a demon. We were so blind.\n Thank you for defeating him. This\ntown still looks dangerous, so I\n<br>\nsuggest you evacuate to the Temple of\nDharma as soon as possible.": ""
+  },
+  "86060": {
+    "<attr><feel_normal_lv1><end_attr>The demon that was Sadak seems to be\ndead, but I doubt his body will\ndisappear again. Anyway, we have to\n<br>\nevacuate to the Temple of Dharma.  We\ndon't know what will happen if we stay\nin this town.": ""
+  },
+  "86061": {
+    "<attr><feel_sad_one><end_attr><turn_pc>I was told by the mayor that this town\nwas dangerous and that we should\nevacuate to the Dharma Temple. The\n<br>\nmayor told me to evacuate to the\nTemple of Dharma because this town is\ndangerous. I'll apologize to the\n<br>\nchildren before we evacuate.  I'm sure\nthey're all hurt because of the evil\nspirits they've been treated by those\n<br>\nselfish adults.": ""
+  },
+  "86062": {
+    "<attr><feel_normal_silent><end_attr>The following is a list of the most\ncommon problems with the": ""
+  },
+  "86063": {
+    "<attr><feel_angry_one><end_attr>The demon Sadak seems to have been\ndefeated, but I hear that this town is\nstill in danger.  You should quickly\n<br>\nseek refuge in the Temple of Dharma!": ""
+  },
+  "86064": {
+    "<attr><feel_normal_lv1><end_attr>When this light went out, I thought it\nwas the end, but I'm glad it's back to\nthe River of Light. But the mayor told\n<br>\nus to evacuate to the Dharma Temple\nbecause it's dangerous here, so I\nwonder if the light will go out again.": ""
+  },
+  "86065": {
+    "<attr><feel_think_one><end_attr>The mayor came in looking panicked.\n He told us to evacuate because it was\ndangerous, but I don't know what\n<br>\nhappened.": ""
+  },
+  "86066": {
+    "<attr><feel_happy_lv1><end_attr>I thought that Sadak was a suspicious\nlooking guy, but I had no idea that he\nwas a demon. But I never thought that\n<br>\nmy threats would bring everyone back\nto their senses.  I'm the savior of\nthe Hidden City! Hiccup!": ""
+  },
+  "86067": {
+    "<attr><feel_sad_lv1><end_attr>I can't believe Sadak was a demon.\n Everything I believed in was a\nmistake.": ""
+  },
+  "86070": {
+    "<attr><feel_normal_lv1><end_attr>I met the mayor a while ago. I met the\nmayor a while ago.  He warned me to\nevacuate to the Dharma Temple since\n<br>\nit's still dangerous inside the town.\nThanks to you defeating Sadak, it\nseems he's back to his usual\n<br>\ndependable self.  Thank you very much.": ""
+  },
+  "86071": {
+    "<attr><feel_angry_one><end_attr>I can't believe that Sadak was a\ndemon.  I don't care how many pushers\nand herons there are, but a demon\n<br>\ndisguised as a human is a foul play.\nWe have to go to the Temple of Dharma.\n The mayor will be worried if even an\n<br>\nold lady like me isn't at the refuge.": ""
+  },
+  "86072": {
+    "<attr><feel_think_lv1><end_attr>Thanks to Kitsukisou, we were awakened\nby the power of the incense that\nfilled the meeting hall, but our minds\n<br>\nwere deceived by the power of the\nincense. It's absolutely horrifying\nthat we kept praying to that strange\n<br>\nstatue, unaware that our bodies were\ntransparent.": ""
+  },
+  "86073": {
+    "<attr><feel_sad_one><end_attr>My wife seems to be in shock that\nSadak betrayed her, and she doesn't\nwant to move. I understand how you\n<br>\nfeel, but now is not the time to be so\nleisurely.  We have to get her to the\nDharma temple somehow.": ""
+  },
+  "86074": {
+    "The mayor came by earlier.  If we\ndon't evacuate soon, it may be\ndangerous, but if there are customers\n<br>\nhere, we'll stay open.<bw_break>": ""
+  },
+  "86075": {
+    "The mayor told me to evacuate because\nit's dangerous here.  I'll wait until\nyou evacuate.<bw_break>": ""
+  },
+  "86076": {
+    "I heard you had to evacuate, but we're\nstill a tool shop.  I'll shop with you\nuntil the end.<bw_break>": ""
+  },
+  "86077": {
+    "It must be a shock to you, Father, to\nfind that the people of your town have\nbeen bewitched by a demon.<bw_break>": ""
+  },
+  "86078": {
+    "I heard something terrible happened at\nthe meeting place.  We need to\nevacuate to the Temple of Dharma.<bw_break>": ""
+  },
+  "86079": {
+    "I hear the town is evacuating to the\nTemple of Dharma.  I will be the last\none to evacuate, as I have my duty as\n<br>\na postal worker.<bw_break>": ""
+  },
+  "86080": {
+    "<attr><feel_normal_lv1><end_attr>You were a monster, weren't you, Mr.\nSadak?  I still can't sort out my\nfeelings, but thanks to you, I'm\n<br>\nsaved. Thank you so much.  Now, the\nMayor is going to get worried, so I\nhave to evacuate to the Dharma Temple\n<br>\nas soon as possible.": ""
+  },
+  "86081": {
+    "<attr><feel_think_one><end_attr>Just now, Lucoria and my husband came\nhome together for the first time in a\nlong time, and she was telling me to\n<br>\nevacuate as soon as possible. It's\nnice to see them getting along, but I\nwonder what happened at the meeting.": ""
+  },
+  "86082": {
+    "Kaline is quietly praying.": ""
+  },
+  "86054": {
+    "The door has stubbornly closed.": ""
+  },
+  "86055": {
+    "The door has stubbornly closed.": ""
+  },
+  "86085": {
+    "<attr><feel_normal_lv1><end_attr>Thanks to the reunion with the dead\nchild, it seems that the town of\nCeredo, which had been suffering from\n<br>\nsadness, has been given a little bit\nof light. My son got married a long\ntime ago and left home, but I hope he\n<br>\ncomes to see me once in a while.": ""
+  },
+  "86086": {
+    "<attr><feel_normal_lv1><end_attr>When I met my son at the Temple of\nDharma, he told me he wanted to eat my\ncooking. When she was alive, she would\n<br>\nrather eat sweets than my cooking, but\nnow that she's dead, I can't believe\nshe'd say that.": ""
+  },
+  "86087": {
+    "<attr><feel_normal_lv1><end_attr><pc>Mr. Kato, I'm so glad you came.\n Thanks to you, we can finally accept\nLiselotta's death. You saved not only\n<br>\nour lives, but also our hearts.  I\nreally can't thank you enough. I have\ncaused you a lot of pain, and from now\n<br>\non, I intend to face Lucoria for the\nsake of Liselotta who died.": ""
+  },
+  "86088": {
+    "<attr><feel_normal_lv1><end_attr>I used to punish the kids who played\npranks in the old church that used to\nstand here. They made pits and played\n<br>\ndevil's advocate on the roof of the\nchurch, and they were just plain bad\nkids, but I wanted to see them grow\n<br>\nup.": ""
+  },
+  "86089": {
+    "<attr><feel_happy_lv1><end_attr>Hello - Hello<pc>Mr.  This is Ceredo, a town full of\nlight.  A city that lives with the\nriver of light. Without you, this\n<br>\nriver of light would have dried up\nforever.  Thank you so much for saving\nthis town.": ""
+  },
+  "86090": {
+    "<attr><feel_happy_lv1><end_attr>My son, Firo, was a weakling who\ncouldn't really talk back to the other\nkids no matter what they said. But he\n<br>\ntold me that in his other life, he and\nthe mayor's daughter were able to\nrally the children together, and that\n<br>\nit gave him confidence. To be able to\nfeel his son, whom I thought was dead,\ngrow up.  Thank you, God. Thank you\n<br>\nfor this miracle.": ""
+  },
+  "86091": {
+    "<attr><feel_happy_lv1><end_attr>When I met my son at the Temple of\nDharma.  She told me that she would be\nhappy as long as I and my husband were\n<br>\non good terms. My husband is still\ndrinking as usual, but I should go out\nwith him once in a while instead of\n<br>\ngetting angry all the time.": ""
+  },
+  "86092": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>Hello. Hello.  It's thanks to you and\nMiss Lucoria that I can visit my\nchildren's graves this way. I know we\n<br>\ncan't see each other anymore, but I\nknow we're still connected in spirit\nand I don't miss you as much as I used\n<br>\nto.": ""
+  },
+  "86093": {
+    "<attr><feel_normal_silent><end_attr>The following is a list of the most\ncommon problems with the": ""
+  },
+  "86094": {
+    "<attr><feel_happy_lv1><end_attr>My grandson was a kind-hearted boy.\n He always took care of me. When I was\nable to see him for a short time the\n<br>\nother day, he told me that I shouldn't\ncome here yet.": ""
+  },
+  "86095": {
+    "<attr><feel_normal_lv1><end_attr>My son is still tiny.  I talked to him\na little bit at the Dharma temple, but\nI don't think he knows he's dead. I\n<br>\nhope she doesn't even know she's dead.": ""
+  },
+  "86096": {
+    "<attr><feel_happy_lv1><end_attr>I came all the way from Lendore Island\nafter hearing about this clinic.\n Thanks to this, my rheumatism is\n<br>\nbetter. There was something strange\ngoing on in this town, but it seems to\nhave brightened up a bit recently.\n<br>\n Did something good happen?": ""
+  },
+  "86097": {
+    "<if_woman>Hey there, girl.  I wouldn't have been\nable to have a pleasant drink like\nthis if you hadn't played a part. I'm\n<br>\ngoing to stop running away to drink to\nforget about the kids.  I think I'll\nfinish with this one drink.<else>Hey, Nii-chan.  If it weren't for you,\nI wouldn't have been able to have a\npleasant drink like this. I'm going to\n<br>\nstop running away to drink to forget\nabout my child.  I'll have this one\nlast drink.<endif>": ""
+  },
+  "86098": {
+    "<attr><feel_normal_lv1><end_attr>My husband was always so undecisive,\nfearful, and easily influenced that I\nreally didn't have much faith in him.\n<br>\nWhen Sadak betrayed me and broke my\nheart, he desperately encouraged me to\nevacuate to the Temple of Dharma.\n<br>\nThanks to him, I got to meet my child,\nand I think I can overcome any sorrow\nwith him.": ""
+  },
+  "86099": {
+    "When I heard that my daughter had made\na fortune in the other world, I\nthought, \"Blood is no contest.<bw_break>": ""
+  },
+  "86100": {
+    "<attr><feel_happy_lv1><end_attr>M.<pc>Oh, I see. It seems Mayor Blato has\nbeen waiting for you to come. Since\nthe incident with Sadak, he's become a\n<br>\nbit more rounded.  He's more friendly\nthan before.": ""
+  },
+  "86101": {
+    "<attr><feel_happy_lv1><end_attr>The mayor and this Lucoria lady are\ndark, unsociable, and blunt, and they\nused to ignore me. Lately, she's been\n<br>\nsmiling a lot, and she even greets me\nproperly.  People change, don't they?": ""
+  },
+  "86102": {
+    "<attr><feel_normal_lv1><end_attr>I've never been good with ghosts or\nthe occult, and my wife used to look\nat me like I was disgusting. But when\n<br>\nI saw a monster like Sadak, I realized\nthere was no time to be scared.  I was\nable to evacuate with my terrified\n<br>\nwife.": ""
+  },
+  "86103": {
+    "<attr><feel_normal_lv1><end_attr><pc>I'm so glad you came. While you were\nalive, I depended on you for\neverything, and after your death, I\n<br>\nclung to that diary, but I won't run\naway anymore.  From now on, I will be\nable to do everything without you.\n<br>\nThat's how I'm going to repay my\nsister Liselotta for her death.": ""
+  },
+  "86104": {
+    "My son is a bit of a quirky character.\nWhen he was alive, he used to throw\neverything away.  Now he is continuing\n<br>\nhis business as an armorer in the\nafterlife.<bw_break>": ""
+  },
+  "86105": {
+    "I heard that our bowdler is taking\nover the store in the afterlife and is\nnow the store keeper.  I'm sorry I\n<br>\ncan't visit him.<bw_break>": ""
+  },
+  "86106": {
+    "I gave my dead daughter a stuffed\nanimal I made from leftover fine wool,\nand she loved it.  She told me she was\n<br>\nglad I was her daughter. I only had\nthe chance to see her for a short\ntime, but those words alone were\n<br>\nenough to save my life.  Thanks to\nyou.<bw_break>": ""
+  },
+  "86107": {
+    "I know you were all depressed after\nSadak betrayed you, but seeing your\ndead child seems to have restored your\n<br>\nhope. Now...<bw_break>": ""
+  },
+  "86108": {
+    "My dead son is a memento of my late\nwife.  When I met him at the Temple of\nDharma, he apologized for leaving me\n<br>\nalone.<bw_break>": ""
+  },
+  "86109": {
+    "I heard that his son is running an inn\nin the afterlife.  I can't believe\nthat my dream of having my son take\n<br>\nover the inn has come true this way.<bw_break>": ""
+  },
+  "86110": {
+    "My daughter, who was just learning to\nread, gave me a letter when she made\nthe connection between this world and\n<br>\nthe next. I've handled many letters in\nmy life, but this is the first time\nI've received a letter from my\n<br>\ndaughter.  I will treasure it forever.<bw_break>": ""
+  },
+  "86111": {
+    "<attr><feel_happy_lv1><end_attr>I never thought I'd be able to see the\nchildren I lost again. Miracles really\ndo happen, don't they? Children had\n<br>\naccidents, adults were almost taken\naway, and many other things happened,\nbut this town was finally saved.": ""
+  },
+  "86112": {
+    "<attr><feel_normal_lv1><end_attr>It was hard enough that Liselotta\npassed away, but my husband and\nLucoria kept quarreling with each\n<br>\nother, and my feelings were down every\nday. Thanks to meeting Liselotta, they\nseem to have made up, and I've been\n<br>\nable to put my feelings in order.": ""
+  },
+  "86113": {
+    "Kaline is quietly praying.": ""
+  },
+  "75081": {
+    "<attr><feel_normal_lv1><end_attr>You, a traveler, have a family too,\nright?  In order not to make your\nfamily sad if something happens to\n<br>\nthem, you should cherish the friends\nyou have who can help each other.<bw_break>": ""
+  },
+  "75083": {
+    "<attr><feel_sad_lv1><end_attr>I envy you that you have someone to\nwhom you want to convey your words.  I\ndon't have anyone like that anymore.<bw_break>": ""
+  }
+}

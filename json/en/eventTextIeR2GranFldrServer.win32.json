@@ -1,0 +1,47 @@
+{
+  "92325": {
+    "<attr><feel_happy_lv1><end_attr>Well, well, well, traveler.  My name\nis Laban, a peddler.  Please allow me\nto make your acquaintance. Oh. You\n<br>\nare...<pc>Mr.?  You are now going to tour\nRendasia, are you not?  I have been\ntold by the people at the castle. They\n<br>\nsaid that my carriage will take you\nall over Lendersia.  Of course, I will\ngladly accept! If you plan to go to\n<br>\nanother town now, I'll send you off in\nmy carriage right away. No, no, no. I\nwill not charge you anything.  I\n<br>\ncannot do such a thing to the person\nwho saved your life, Princess Brave.<bw_break>": ""
+  },
+  "92326": {
+    "<attr><feel_happy_lv1><end_attr>Well, well, well<pc>Mr..  Are you going to go to another\ntown now?  If you like, I can take you\nthere in my carriage.<bw_break>": ""
+  },
+  "92327": {
+    "<pipipi_low>Mmm!  I'm sorry. It is not convenient\nfor you to go there now. We apologize\nfor the inconvenience, but please come\n<br>\nback after some time.": ""
+  },
+  "92328": {
+    "<attr><feel_happy_lv1><end_attr>However, we are unable to pick you up.\n If that's okay with you, where would\nyou like to go?<name_off><select>\nVillage of Mersandi\nTown of Seredo\nKingdom of Araghaghiro\nGateway of the Three Gates\nNo ride<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "92329": {
+    "<attr><feel_happy_lv2><end_attr>I see you are going to the village of\nMersandi.  Then, please come to the\ncarriage.": ""
+  },
+  "92330": {
+    "<attr><feel_happy_lv2><end_attr>You are going to the town of Ceredo,\naren't you?  Then, please come to the\ncarriage.": ""
+  },
+  "92331": {
+    "<attr><feel_happy_lv2><end_attr>You are going to the Kingdom of\nAlahaghiro, are you not?  Then please\ncome to the carriage.": ""
+  },
+  "92332": {
+    "<attr><feel_happy_lv2><end_attr>You are going to the Sanmon Gate,\naren't you?  Then, please come to the\ncarriage.": ""
+  },
+  "92333": {
+    "<attr><feel_happy_lv1><end_attr>Oh, you don't ride, do you?  I\nunderstand.  Please give me a call\nanytime.": ""
+  },
+  "92334": {
+    "<pipipi_low>Good work, sir.  You have arrived at\nthe village of Mersandi.  Now, if\nyou'll excuse me.": ""
+  },
+  "92335": {
+    "<pipipi_low>Good work, sir.  You have arrived at\nthe town of Ceredo.  Now, if you'll\nexcuse me.": ""
+  },
+  "92336": {
+    "<pipipi_low>Yes, thank you for your hard work.\n You have arrived in the Kingdom of\nAraguajillo.  Now, if you'll excuse\n<br>\nme.": ""
+  },
+  "92337": {
+    "<pipipi_low>Good work, sir.  You have arrived at\nthe Sanmon Gate.  Well then, I will\nleave you now.": ""
+  },
+  "92338": {
+    "<attr><feel_happy_lv1><end_attr>I can't pick you up, but would you\nstill like a ride?<yesno><break>": ""
+  },
+  "92339": {
+    "I see. That's all right then.  Please\ncall on me again anytime.": ""
+  }
+}

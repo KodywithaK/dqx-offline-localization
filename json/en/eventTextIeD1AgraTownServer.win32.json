@@ -1,0 +1,521 @@
+{
+  "43578": {
+    "Divine Machine to the lower Town of\nAgrani. Do you want to hit the switch\nand move on?<yesno><close>": ""
+  },
+  "43579": {
+    "Divine Machine to the Town of Agrani\nabove. Do you want to hit the switch\nand move on?<yesno><close>": ""
+  },
+  "10267000": {
+    "Oh, that's right!   I'll give you this\none I received recently!<bw_break>": ""
+  },
+  "10267001": {
+    "<pc>received a brimstone bag (Key Items)!<me 60>In addition, he received a recipe\nbook, \"Let's Get Started in Alchemy.\"<se_nots System Item><pc>I read \"Hajimeyo Alchemy\" (Let's Start\nAlchemy)!<pc>I learned a recipe for alchemy to\nbegin with!<se_nots System Item>The Renkin pot is a special tool that\ncan be used to smelt another item by\ninserting an item of material. You can\n<br>\nsmelt an item by selecting \"Renkin\nGama\" from the \"Items\" command. You\nwill need a \"recipe\" for the item you\n<br>\nwant to alchemize. Recipes can be\nobtained from Recipe Shops and\nbookshelves.": ""
+  },
+  "10267002": {
+    "Seems kind of convenient, doesn't it?\n I'm sure it will come in handy for\nyour future travels!  Well then, good\n<br>\nluck!": ""
+  },
+  "10267003": {
+    "<attr><feel_happy_lv1><end_attr>I have a childhood friend named Uura\nwho lives down town, and I want to\nsurprise her on her birthday. We've\n<br>\nbeen saying \"Happy birthday!\" to each\nother since we were kids. But this\nyear, I'd like to change it up a bit.": ""
+  },
+  "37331": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>Hey, hey, Tabibito!  Please tell me\nall about it!  We have a favor to ask\nyou!": ""
+  },
+  "37332": {
+    "<if_woman><turn_pc>Ah! Sis, you're a traveler!<bw_break><else><turn_pc>Ah! Big brother, the traveler!<bw_break><endif>": ""
+  },
+  "37334": {
+    "Hey, hey, do you know Sage Broggen?<yesno><break>": ""
+  },
+  "37335": {
+    "<attr><feel_normal_lv1><end_attr>Sage Broggen is a great sage with a\nlong beard who lived here in the Town\nof Agrani until a short time ago! Sage\n<br>\nBroggen's trademark is the talking\nSage's Staff that he always carries\nwith him! Broggen doesn't talk much,\n<br>\nbut his wand talks instead!  Don't you\nthink it's strange?<bw_break>": ""
+  },
+  "37336": {
+    "<attr><feel_happy_lv1><end_attr>Yes, yes, yes. Sage Broggen is a great\nsage with a long beard who lived here\nin the Town of Agrani until a short\n<br>\nwhile ago! Sage Broggen's trademark is\nthe talking Sage's Staff he always\ncarries with him! Broggen doesn't talk\n<br>\nmuch, but his wand talks instead!\n Don't you think it's strange?<bw_break>": ""
+  },
+  "37337": {
+    "<if_woman><turn_pc>Ah!<pc>Sis!  I want to talk to you about Sage\nBroggen.<bw_break><else><turn_pc>Ah!<pc>I'm a big brother of the \"Mere Old\nMan!  I want to talk to you about Sage\nBroggen.<bw_break><endif>": ""
+  },
+  "37338": {
+    "Of course, you remember Sage Broggen,\ndon't you?<yesno><break>": ""
+  },
+  "37339": {
+    "<if_woman><attr><feel_angry_lv1><end_attr>Eh~. Didn't Broggen give you the\nZoomstone?  Don't forget about the\npeople who helped you! Sage Broggen\n<br>\nwas a great sage with a long beard who\nlived here in the Town of Agrani until\na while ago. I heard that he was with\n<br>\nyou when you solved the case of the\nAcronia Mine caused by Lunana. That's\nwhy! You know how she always carried\n<br>\naround her trademark talking stick?\n And then there was Aru! That's what\nshe used to call that walking stick!<bw_break><else><attr><feel_angry_lv1><end_attr>Eh~. Didn't Broggen give you the\nZoomstone?  Don't forget about the\npeople who helped you! Sage Broggen\n<br>\nwas a great sage with a long beard who\nlived here in the Town of Agrani until\na short while ago. I heard that\n<br>\nBroggen was there when my brother\nsolved the case of the Acronia Mine\ncaused by Lunana. That's why! He\n<br>\nalways carried around his trademark\ntalking stick, right?  And then there\nwas Aru! That's what he used to call\n<br>\nthat walking stick!<bw_break><endif>": ""
+  },
+  "37340": {
+    "<if_woman>So, the consultation is about that\nstrange talking staff that Sage\nBroggen's Staff has. He always speaks\n<br>\nin place of the mute Broggen.  Have\nyou ever wondered about that, too,\nsister?<bw_break><else>So, the consultation is about that\nstrange talking staff that Sage\nBroggen's Staff has. He always speaks\n<br>\nin place of the mute Broggen.  Have\nyou ever wondered about that, too, big\nbrother?<bw_break><endif>": ""
+  },
+  "37341": {
+    "<attr><feel_happy_lv1><end_attr>I really want to get a close-up look\nat the staff that Sage Broggen is\nholding!  Maybe I'll learn a secret,\n<br>\nyou know? So..! I heard that Broggen,\nwho was supposed to be on a trip, came\nback and is now stopping by Mogare\n<br>\nCamp on Mogarim Highway! Hey, do me a\nfavor! Can you take me and my sister\nKokon to Mogare Camp where Master\n<br>\nBroggen is?": ""
+  },
+  "39030": {
+    "<if_woman><attr><feel_happy_lv2><end_attr>Wow! Thank you!  Me and Kokon will be\nsneaking along behind you. Mogare Camp\nis north of here, and you can find it\n<br>\nby following the Mogarim Highway to\nthe northwest.  Well then... Nice to\nmeet you, sis!<else><attr><feel_happy_lv2><end_attr>Wow! Thank you!  Me and Kokon will be\nsneaking along behind you. Mogare Camp\nis north of here, and you can find it\n<br>\nby following the Mogarim Highway to\nthe northwest.  Well then, good luck,\nbig brother!<endif>": ""
+  },
+  "39031": {
+    "<if_woman><attr><feel_normal_lv1><end_attr>What is it? Your sister seems to have\na lot of other people's requests\npiling up.  I'm not in a hurry, so\n<br>\nmine can wait.<else><attr><feel_normal_lv1><end_attr>What is it? It seems that you have a\nlot of other people's requests piling\nup.  I'm not in a hurry, so mine can\n<br>\nwait.<endif>": ""
+  },
+  "39032": {
+    "<attr><feel_normal_lv1><end_attr>Hmmm. I see.  Well then, I'll just\nplay around with Kokon until a kind\ntraveler shows up.": ""
+  },
+  "37342": {
+    "<attr><feel_happy_lv3><end_attr><turn_pc>Yay, yay!  I'm so lucky to be able to\ntalk with my onii-chan! Ahehe. Kokon\ngave me the information that Broggen\n<br>\nis at Mogare Camp.": ""
+  },
+  "37343": {
+    "<turn_pc>I really want to get up close and\npersonal with Sage Broggen's Staff!\n What if I can find out some secret\n<br>\nabout it? It seems that Mr. Broggen is\nstopping by Mogare Camp right now.\n Please take me and Kokon there.<open_irai><bw_break>": ""
+  },
+  "37344": {
+    "<if_woman><attr><feel_normal_lv1><end_attr>Mogare Camp is north of here, and you\ncan find it by following the Mogarim\nHighway to the northwest.  Well then,\n<br>\nnice to meet you, sis!<bw_break><else><attr><feel_normal_lv1><end_attr>Mogare Camp is north of here, and you\ncan find it by following the Mogarim\nHighway to the northwest.  Well then,\n<br>\nnice to meet you, big brother!<bw_break><endif>": ""
+  },
+  "37345": {
+    "<close_irai>My guess is that there's a little old\nman inside that cane.  I'm sure he's\nthe one doing the talking!": ""
+  },
+  "37346": {
+    "<attr><feel_sad_lv1><end_attr><turn_pc>It's fine when I'm playing with my\nbrother, but when I go to bed alone,\nI'm scared that I'll see Broggen's\n<br>\nfrightened face in my dreams. Ew~n!": ""
+  },
+  "37347": {
+    "<if_woman><turn_pc>welcome home<pc>I'm the big sister of the \"Mere Old\nMan\"!  I got Angry with Mr. Broggen,\nbut from my point of view, it was a\n<br>\nlot of fun! Here. This is my thanks\nfor this time.  Thanks, sis!<else><turn_pc>welcome home<pc>I'm the big brother of the \"Mere Old\nMan\"!  I got Angry with Mr. Broggen,\nbut for me, it was a lot of fun! Here.\n<br>\nHere, this is for you.  Thanks, big\nbrother!<endif>": ""
+  },
+  "37348": {
+    "<if_woman>But Broggen's Staff got so angry that\nI didn't really understand the secret\nof the talking Broggen's Staff after\n<br>\nall. It seemed to me that Broggen was\ngiving him a hard time, so I guess he\nhad some kind of bad memory.  I don't\n<br>\nreally understand! Well then, sis!\n I'll ask you again if there's\nanything else I can do!<else>But Broggen's Staff got so angry that\nI didn't really understand the secret\nof the talking Broggen's Staff after\n<br>\nall. It seemed to me that Broggen was\ngiving him a hard time, so I guess he\nhad some kind of bad memory.  I don't\n<br>\nreally understand! Bye, big brother!\n I'll ask you again if there's\nanything else I can do!<endif>": ""
+  },
+  "37349": {
+    "<if_woman><turn_pc>I saw Broggen's Staff up close, but in\nthe end I didn't understand much about\nthe secret of the talking staff.\n<br>\nBroggen seemed to have a painful\nmemory of it, though.  I don't really\nunderstand! Thanks, sis!  I'll ask you\n<br>\nagain if there's anything else I can\ndo!<else><turn_pc>I saw Broggen's Staff up close, but in\nthe end I didn't understand much about\nthe secret of the talking staff.\n<br>\nBroggen seemed to have a painful\nmemory of it, though.  I don't really\nunderstand! Thanks, big brother!  I'll\n<br>\nask you again if there's anything else\nI can do!<endif>": ""
+  },
+  "37350": {
+    "Lately, there are a lot of dried-up\ndead travelers near Agrani. Just when\nthe economy was finally picking up, we\n<br>\ngot a nasty warning.  You'd better be\ncareful, too.": ""
+  },
+  "37351": {
+    "<attr><feel_sad_one><end_attr>Itzutsu.<bw_break>": ""
+  },
+  "37352": {
+    "<turn_pc>Oh!<pc>Hey! It's been a while!  Ugh! When you\nyell out, it opens up a scratch.<bw_break>": ""
+  },
+  "37353": {
+    "<turn_pc>Oh? You're a traveler. I'm Hottsi.  I\nam a well-known face here in Agrani.\n You can call me Boss Hottsi.\n<br>\nWhat? You are...<pc>I'm not so sure.  He seems to be\npretty good at it, doesn't he?\nUgh! Ouch.  As I thought, if you yell\n<br>\ntoo loudly, you'll open up the wound.\n Ittsu-ttsu-ttsu.<bw_break>": ""
+  },
+  "37354": {
+    "Unexpectedly, Hottsi was badly\ninjured, with scratches all over his\nbody.  Underneath his clothes, he's a\n<br>\nMummy Boy Garb Top covered in\nbandages. That's just the other day.\n I forgot my tools of the trade in the\n<br>\nGatara Fields, so I went back there to\nget them. But I took so much time to\nlook for them that I ended up coming\n<br>\nhome late.  I was walking home alone\nin the dark. I was walking home alone\nin the dark, and I saw it... those two\n<br>\neyes shining brightly in the dark\nnight!  This is bad! Here comes the\nmonster! I'm known for my quick feet,\n<br>\nyou see.  I escaped back here despite\nbeing scratched by him several times.\nBut that bastard. He occasionally\n<br>\nfires a beam of lightning out of his\nmouth!  I wouldn't have made it out\nalive if I had been hit by that thing!\n<br>\nIf that monster comes to the Town of\nAgrani, the vitality of this town,\nwhich we've just regained, will go\n<br>\nback to the depths of the earth. So\nwhat do you think? I won't tell you to\ngo and kill it.  Why don't you go see\n<br>\nwhere I was attacked and find out what\nkind of monster it is?": ""
+  },
+  "37355": {
+    "<attr><feel_sad_lv1><end_attr>Hehe! Thanks, man!  I had a feeling\nyou would say that! I was attacked by\na monster at the end of the Forest\n<br>\nRuins in the Gatara Fields to the\neast. I just need to find out who it\nis.  Then we'll figure out how to deal\n<br>\nwith it.  Then, good luck! Ugh! Ouch!\n That opened up the wound again.\n Tstststststs.": ""
+  },
+  "37356": {
+    "<attr><feel_normal_lv1><end_attr>Oops! I appreciate the response, but I\nthink you're taking on too much work.\n I'll ask you again later. However,\n<br>\nI'm afraid my insecurity will open up\nanother can of worms.  Ugh! Ittsu-\nttsu-ttsu.": ""
+  },
+  "37357": {
+    "<attr><feel_sad_lv1><end_attr>I see. I didn't expect you to reject\nme.  I guess you must have changed\nafter being exposed to the fancy\n<br>\natmosphere outside. Well, never mind.\nI'm sorry.  Please continue your\njourney without worrying about me.\n<br>\n Ugh! I've got a scratch.": ""
+  },
+  "37358": {
+    "<attr><feel_sad_lv1><end_attr>Oh, okay. No, I'm sorry.  Don't worry\nabout me. Just keep traveling.\n Ugh! I've got a scratch.": ""
+  },
+  "37359": {
+    "<turn_pc>Itsu Tsutsu. Oh!<pc>Oh, my God!  Did you come to ask me\nfor a favor because you felt sorry for\nme after I was attacked by a monster?\n<br>\nI was attacked by an unidentified\nmonster on my way back from Gatara\nFields.  Anyway, it was big and\n<br>\nspeedy. If a monster like that comes\nto the Town of Agrani, the vitality of\nthis town, which we've just regained,\n<br>\nwill go back to the depths of the\nearth. Hey, please. I won't tell you\nto go defeat it.  Why don't you go see\n<br>\nwhere I was attacked and find out what\nkind of monster it is?": ""
+  },
+  "37360": {
+    "<attr><feel_happy_lv2><end_attr>oh!<pc>I'm sorry, but I'm not sure!  Did you\ncome all the way here because you were\nworried about Boss Hottsi?<yesno><break>": ""
+  },
+  "37361": {
+    "<attr><feel_normal_lv1><end_attr>As a matter of fact, Boss Hottsi came\nhome a little while ago with a serious\ninjury that left him with scratches\n<br>\nall over his body. He looks fine at a\nglance, but when he takes off his\nclothes, he's all bandaged up.\n<br>\n Anyway, please listen to him.": ""
+  },
+  "37362": {
+    "This is Boss' house.  But he came back\nfrom a serious injury a while ago. A\nskilled traveler like you might be\n<br>\nable to do him a favor.  Please listen\nto him.": ""
+  },
+  "37363": {
+    "I'm sorry.  Go to the place where I\nwas attacked by the mysterious monster\nand find out what it is.<open_irai><bw_break>": ""
+  },
+  "37364": {
+    "I was attacked by a monster at the end\nof the Forest Ruins in the Gatara\nFields, to the east.<bw_break>": ""
+  },
+  "37365": {
+    "<close_irai>If that monster comes to the Town of\nAgrani, the vitality of this town,\nwhich we've just regained, will go\n<br>\nback to the depths of the earth. All\nwe need to do is find out who he is.\n Then we can start planning our\n<br>\ncountermeasures.  Well then, good\nluck!": ""
+  },
+  "37366": {
+    "Looks like you did your master a\nfavor.  Thanks. I thank you too. If\nthere are rumors about an unidentified\n<br>\nmonster, no one will come to Agrani.\n We'll have to do something about it.": ""
+  },
+  "37367": {
+    "<attr><feel_think_one><end_attr><turn_pc>Magical Beast Byblos that sucks out\nyour soul.  If I'm wrong, my soul\nwould have been sucked out and turned\n<br>\ninto a corpse too. Well, if we leave\nit to Sage Broggen, I'm sure he'll\ntake care of it.  We don't need to\n<br>\nmake any countermeasures. At any rate,\nthanks to you, I now understand what\nhappened to the monster that attacked\n<br>\nme.  I'm grateful for that!": ""
+  },
+  "37368": {
+    "I see. The monster that attacked my\nmaster was a soul-sucking monster,\nwasn't it?  I'm surprised Boss Hottsi\n<br>\nis okay. Even though Broggen-sama will\ndo something about it, I think it's\nbest to keep quiet about this so that\n<br>\nthe townspeople won't get upset.": ""
+  },
+  "37369": {
+    "<attr><feel_think_one><end_attr>I'm in trouble.  A bad-tempered woman\nnamed Lunana has taken up residence in\nthis Inn. It's not good for the Inn's\n<br>\nimage to have a woman like that\nhanging around.  Will someone do\nsomething about it?<bw_break>": ""
+  },
+  "156436": {
+    "<attr><feel_angry_one><end_attr>It's been peaceful for a while now,\nbut this little girl Lunana came back!\n I won't be happy if she causes\n<br>\ntrouble again.": ""
+  },
+  "37370": {
+    "<attr><feel_happy_one><end_attr>The bad girl who used to stay at this\nInn, Lunana, finally left! You drove\nher out?  Thank God! It would have\n<br>\ntarnished our image if we had her\nstaying around!<bw_break>": ""
+  },
+  "156437": {
+    "<attr><feel_normal_one><end_attr>I heard Lunana left town.  I was\nrelieved to hear that.  I hope she\nnever comes back.": ""
+  },
+  "37371": {
+    "oh!<pc>Then what? How's it going since then?\n Any progress on the Magical Beast\nByblos?<yesno><break>": ""
+  },
+  "37372": {
+    "<attr><feel_angry_one><end_attr>What?  There are three Magical Beast\nByblos in total?  I'm so surprised!\nBut, you know, Broggen took down one\n<br>\nof them without any trouble, right?\n I'm sure he'll take care of the other\ntwo too!": ""
+  },
+  "37373": {
+    "<attr><feel_normal_lv1><end_attr>I see. I'd like to live in peace at\nthe very earliest opportunity.  I\ncan't help but ache from the scars he\n<br>\nleft me.": ""
+  },
+  "37374": {
+    "<attr><feel_normal_lv1><end_attr>I was surprised that there were three\nmonsters like Magical Beast Byblos!\n Agrani would have been finished if\n<br>\nthey came at once! But, Broggen took\ndown one of them without any trouble,\ndidn't he?  I'm sure he'll take care\n<br>\nof the other two too!": ""
+  },
+  "37375": {
+    "<attr><feel_happy_lv2><end_attr>Listen to me!  Right now, that Sage\nBroggen is staying at this Inn! A\nplace where even a great sage can\n<br>\nspend a relaxing night!  So, I've got\na fortune now, too.  Now, let's get to\nwork!<bw_break>": ""
+  },
+  "37376": {
+    "<attr><feel_angry_one><end_attr>That Sage Broggen came back with a\nvery distressed look on his face. I\nasked him what was wrong. He didn't\n<br>\nanswer anything, and his cane remained\nsilent.  Even if he's an honorable\nman, it's not right to behave like\n<br>\nthat.": ""
+  },
+  "37377": {
+    "<attr><feel_think_one><end_attr>Sage Broggen is staying at my house\nright now.  He seems to be feeling it\nawfully hard. No way! The bedding\n<br>\nsmells musty and he can't sleep?  It's\nokay, isn't it?  I'm sure I aired them\nout about five days ago.<bw_break>": ""
+  },
+  "37378": {
+    "<attr><feel_think_lv2><end_attr>Lunana's Staff of the Sage Broggen's\nStaff...she's a real bitch, isn't she?\nLunana's father, Father Holta, was\n<br>\nonce a great man who helped revitalize\nthe Town of Agrani. Where did she go\nwrong and how did she grow up to be\n<br>\nsuch a messed up adult?  I want him to\nbe one of the Seven Wonders of Agrani!": ""
+  },
+  "37379": {
+    "Sage Broggen, in desperation, asked me\nto follow Lunana's footsteps.  He told\nme that Lunana had stolen his wand.\n<br>\nCome to think of it, there was never a\ntime when Broggen was not accompanied\nby his wand.  It must be a very\n<br>\nprecious wand.": ""
+  },
+  "44829": {
+    "It seems that Sage Broggen has gone on\na trip.  I hope he will stay at our\nhouse again when he comes back to\n<br>\nAgrani.<bw_break>": ""
+  },
+  "37381": {
+    "I heard that there used to be many\ntravelers who dried up and died near\nhere in Agrani. But I don't hear about\n<br>\nthat anymore.  People come to Agrani\nwith peace of mind!  This town's\neconomy has come back to life!": ""
+  },
+  "37382": {
+    "<attr><feel_happy_lv1><end_attr>counter for leaves, pieces of paper, etc<pc>I'm glad you're here. Welcome, my\nfriend.  I heard from the sage\nBroggen.  I heard that you were very\n<br>\nactive in the Hexenbiest riots! I\nheard that in the end, you defeated a\ngiant hexenbiest named Leon Bublo?  I\n<br>\nheard that he did a great job in the\nHexenbiest riots! You're really good,\naren't you?<bw_break>": ""
+  },
+  "37383": {
+    "<attr><feel_happy_lv1><end_attr>Thanks to you, we've been able to live\nwithout being scared.  On behalf of\nthe town, I thank you! Thank you!": ""
+  },
+  "37384": {
+    "<attr><feel_happy_lv1><end_attr>You protected us from Maamon at the\nAcronia Mine.  You're a real Agrani\nhero!": ""
+  },
+  "41912": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>Recently, playing \"mimicry\" with\nBroggen's picks has become very\npopular, so I thought I'd share this\n<br>\nwith you!  How's that? Did you see\nthat?": ""
+  },
+  "37386": {
+    "<if_woman><turn_pc>Ah! Sis.<bw_break><else><turn_pc>Ah! Big brother.<bw_break><endif>": ""
+  },
+  "37387": {
+    "Did you find out anything about\nBroggen's Staff since then?<yesno><break><yesno><break>": ""
+  },
+  "41913": {
+    "<attr><feel_happy_lv1><end_attr>I see. I'll ask Broggen to show me his\ncane again someday when he comes\naround here!": ""
+  },
+  "37388": {
+    "Boss Hottsi's wounds from the monster\ncalled Magical Beast Byblos are\nhealing up nicely.  It's only a matter\n<br>\nof time before he's back in the field.": ""
+  },
+  "33229": {
+    "This is the Town of Agrani.  It is a\nmining and lapidary town with the\nAcronia Mine nearby. Outside the town\n<br>\nis the Raniakka Fault Zone.  If you\ncontinue north on the Mogarim Highway,\nyou will eventually reach the Gatara\n<br>\nFields. In the Gatara Fields, there is\na town called Mount Gatara.  It's a\nbigger town than the Town of Agrani,\n<br>\nand it has a train station where you\ncan board the Ark of Earth.": ""
+  },
+  "33230": {
+    "how<pc>What's wrong?  You seem even more\nspaced out than usual. Are you sure\nyou're okay? I hope you didn't forget\n<br>\nto tell me that you're going to the\nChurch in the upper town to turn down\nLunana's invitation. Listen to\n<br>\nme! You're going to turn it down with\na firm refusal!  Just because you're\nFather Holta's daughter doesn't mean\n<br>\nyou have to be Enrio!": ""
+  },
+  "33231": {
+    "counter for leaves, pieces of paper, etc<pc>I'm sure he's doing his best to defeat\nthe demons.  It looks like you're\ndoing your best to defeat the\n<br>\nmonsters.  But that's not enough to\nsave money, is it? The secret of\nearning money is...  Don't keep things\n<br>\nyou don't need right now. Sell them\nand make money.": ""
+  },
+  "5165": {
+    "<attr><feel_sad_lv1><end_attr><start_lip_sync n00511 _normal m00001>Why are you saying that~?  You're so\nmean to me, Onii-chan.": ""
+  },
+  "33235": {
+    "<attr><feel_happy_lv1><end_attr>oh!<pc>～I'm so glad you survived.  I'm glad\nfrom the bottom of my heart that you\nsurvived. What?  Aren't we in Ethene\n<br>\nVillage?  Hey, hey, hey, are you okay?<pc>What? It seems that the shock from the\naccident has jumbled your memory.\n Shall I explain it to you?<yesno><break>": ""
+  },
+  "33236": {
+    "Is that so? If that's the case, that's\nfine.  Don't take it too hard.": ""
+  },
+  "33237": {
+    "<attr><feel_happy_lv1><end_attr>This is the Town of Agrani, the home\nof our miners.  Here. You were working\nat the Acronia Mine just a while ago,\n<br>\nweren't you? Agrani is a town spread\nout above and below ground. We call\nthem the upper town and the lower\n<br>\ntown, respectively. To get to the\nupper town, you use the Divine Machine\nelevator that you can see on the cliff\n<br>\non the other side of the entrance to\nthe Acronia Mine. The Church you are\ngoing to is also in the upper town.\n<br>\n Let's get on the Divine Machine right\naway.": ""
+  },
+  "33238": {
+    "Since the ore has become scarce, the\nnumber of people who have been working\nin this mine has decreased by a great\n<br>\ndeal. Some of them, like Mutch and\nButch, left the mines in discontent,\nwhile others disappeared before we\n<br>\nknew it. I don't think it's too early\nto give up on them.  As long as we\nkeep our commandments, Acronia Mine\n<br>\nshould be fine.": ""
+  },
+  "33239": {
+    "<attr><feel_happy_one><end_attr><pc>Thank you for coming!  Mr. Lunana is\nwaiting for you in the room to your\nleft as you look from the entrance of\n<br>\nthe Church. Well...<bw_break>": ""
+  },
+  "33240": {
+    "<attr><feel_happy_lv1><end_attr><start_lip_sync n00510 _normal m00001><start_lip_sync n00511 _normal m00001><stop_lip_animation n00511 CLOSE_MOUTH>Hey, Kokon. You always eat enough for\nMom, don't you? If you eat for others,\nyou'll turn into a greedy ghost!": ""
+  },
+  "33242": {
+    "<attr><feel_happy_lv1><end_attr><pc>Amazing!  I thought I was dead, but\nI've come back to life! But the\natmosphere seems somehow different\n<br>\nfrom before. Well, that's okay. You\ndidn't forget to do your master a\nfavor, did you?  Go to Church and see\n<br>\nLunana.": ""
+  },
+  "33243": {
+    "Oh! Hey! Hey!<pc>Hey!  That's the Acronia Mine where\nthe accident happened!  If you want to\ngo to Church, it's the other way! He\n<br>\ndoesn't look like he's in bad shape.\nWhy don't you go to Church for now?\n We can always go into the mine.": ""
+  },
+  "33244": {
+    "<pc>I'm glad to hear that the \"Mere Old\nMan\" is safe and sound.  Yppchal, the\nmountain god, must have protected you.\n<br>\nNow, go and thank God.  Don't forget\nto visit Mr. Lunana who lives in the\nChurch!": ""
+  },
+  "5177": {
+    "There are many different species\nliving in this world: Dwarves, Ogre,\nWeddie, Pukulipo, Elf, and human. We\n<br>\nDwarves had the power to build the\nmost advanced civilization of them\nall. Yes, we did.  Though now that\n<br>\nadvanced technology has been lost.": ""
+  },
+  "33247": {
+    "You, sir. Are you going to the town\nabove?  If so, this guy's on his way.": ""
+  },
+  "33248": {
+    "This Divine Machine is said to be\nthousands of years old. Even now, it\ncarries us up to the top.  It's an\n<br>\namazing invention, isn't it?": ""
+  },
+  "33249": {
+    "This is Boss Hottsi's house.  He said.<pc>I heard you were involved in the\ncollapse! I heard you were involved in\nthe collapse, but from the looks of\n<br>\nit, you seem to be ok.  I'm really\nglad it was nothing serious! Even if\nit was just a matter of time, everyone\n<br>\nis losing energy because of the lack\nof ore extraction.  I wonder what\nwould have happened if anyone had\n<br>\ndied.": ""
+  },
+  "33250": {
+    "This is Boss Hottsi's house.  I'm glad\nyou're here.<pc>I heard you were involved in the\ncollapse. I heard you were involved in\nthe collapse, but from the looks of\n<br>\nit, you seem to be okay.  I'm really\nglad it was nothing serious! Even if\nit was just a matter of time, everyone\n<br>\nis losing energy because of the lack\nof ore extraction.  I wonder what\nwould have happened if anyone had\n<br>\ndied.": ""
+  },
+  "33251": {
+    "<attr><feel_normal_lv1><end_attr>Hmmm.  This town has become very\ndeserted.": ""
+  },
+  "33252": {
+    "<turn_pc>Oh, sorry.  You must be from down\ntown.  How's it going? You think you\ncan get some good rocks?<yesno><break>": ""
+  },
+  "33253": {
+    "<attr><feel_happy_lv1><end_attr>Oh, I'm counting on it!  The day is\ncoming soon when there will be as many\nbuyers as there used to be!": ""
+  },
+  "33254": {
+    "<attr><feel_think_lv1><end_attr>I see.  I guess they can't get good\nstones from the Acronia Mine anymore.\nThe jewelry born from the combination\n<br>\nof high quality gems and the\ncraftsmanship of the artisans in this\ntown could truly be called art.": ""
+  },
+  "33255": {
+    "In the old days, Acronia Mine yielded\nhigh-quality gemstones along with many\nother ores. It was the job of the\n<br>\ncraftsmen to polish the gemstones and\ncreate fine jewelry.": ""
+  },
+  "33256": {
+    "<attr><feel_sad_lv1><end_attr>I managed to feed the kids today, but\nI don't know what will happen\ntomorrow.": ""
+  },
+  "5188": {
+    "The Agrani are a bit greedy.  We used\nto have a lot of trouble with the\nmerchants who came to buy our ores and\n<br>\ngems. But that changed when Father\nHolta came.  He appreciated our skills\nand helped us to mediate between the\n<br>\nmerchants and us. Thanks to this\nrelationship of trust between us and\nthe merchants, which had always been a\n<br>\nsource of quarrels between us, the\ntown grew. Father Holta was a very\ngood human being.  I wish he had lived\n<br>\nlonger.": ""
+  },
+  "5130": {
+    "<attr><feel_happy_lv1><end_attr>Oh. Looks like you gave Lunana a\nTunga, huh?  I can tell by the look on\nyour face! Now all that's left is to\n<br>\nlet it go if he says something.  I\ncan't do anything with just a little\ngirl. I just hope Lunana will give up\n<br>\nand get out of Agrani as soon as\npossible.": ""
+  },
+  "5131": {
+    "<attr><feel_sad_lv2><end_attr>look<pc>I'm so curious about that purple fog\nthat caused the collapse.  I've been\nwondering about that purple fog that\n<br>\ncaused the collapse. I'm afraid that\nour Acronia Mine might be in trouble.\n I can't stop worrying.": ""
+  },
+  "33259": {
+    "<attr><feel_normal_one><end_attr>I heard<pc>Mr..  You are going to Acronia Mine to\nmeet the sage Broggen. There are\nmonsters in Acronia Mine.  Before you\n<br>\ngo in, please make sure to equip your\nweapons and armor. There is no Armor\nShop in the lower town, so if you need\n<br>\narmor, you can buy it in the upper\ntown. When you are ready, go down to\nthe lower town and ask Ninchai near\n<br>\nthe entrance of the mine for more\ninformation. Now...<bw_break>": ""
+  },
+  "5132": {
+    "What?  You want to meet the sage\nBroggen? Hmmm.  Mr. Broggen is a very\nbusy man.  I don't know where he is.\n<br>\nThat's right. There is a guardian's\nroom in the middle of Acronia Mine\nwhere Broggen often stops by. Chalko,\n<br>\nthe guardian who brought you here, is\nthere, so you might want to talk to\nhim. If you follow the bonfire, you\n<br>\ncan get to the guardian's room, but be\nsure to equip yourself with a weapon\nbefore you enter the mine!  You're\n<br>\nsupposed to have a Beginner's weapon.": ""
+  },
+  "5133": {
+    "There is a guardian's room in the\nmiddle of the Acronia Mine where\nBroggen often stops. Chalko, the\n<br>\nguardian who brought you here, is\nthere, so you might want to talk to\nhim. If you follow the bonfire, you\n<br>\ncan get to the guardian's room, but be\nsure to equip yourself with a weapon\nbefore entering the mine!  You're\n<br>\nsupposed to have a Beginner's weapon.": ""
+  },
+  "5134": {
+    "It may sound old-fashioned, but from\ntime immemorial, those who have dared\nto stand here have sworn a vow. We are\n<br>\nreminded of our past mistakes and that\nwe will not give in to greed. Father\nHolta understood that, but not his\n<br>\ndaughter Lunana.  No one will listen\nto her.": ""
+  },
+  "5135": {
+    "<pc>What Father Holta may not know is that\neven though he was human, he\nunderstood us very well. He accepted\n<br>\nour joys, our sorrows, our strengths\nand our weaknesses.  That's why we\nwere able to open our hearts.": ""
+  },
+  "5137": {
+    "<attr><feel_sad_one><end_attr>Sage Broggen just came and entered\nLunana's room.  It seems he is giving\na sermon. Well...<bw_break>": ""
+  },
+  "5138": {
+    "Sage Broggen passed by here just a few\nminutes ago.  He said he was going to\nthe Church in the upper town.": ""
+  },
+  "5139": {
+    "If I remember correctly, the old man I\nsaw earlier was the sage Broggen! How\ndid the famous sage come to be here?": ""
+  },
+  "5140": {
+    "<attr><feel_happy_lv1><end_attr>Just now, an old man with curly hair\nand a mesh beard got on the Divine\nMachine. Could it be that he is the\n<br>\nfamous Sage Broggen?  I should have\ngotten his autograph!": ""
+  },
+  "5142": {
+    "<attr><feel_normal_one><end_attr>Broggen said he would stop by Boss'\nHottsi's house before heading to\nCaution Land. Boss Hottsi's house is\n<br>\none of the biggest houses in the lower\ntown.  If you look around the plaza,\nyou will see it.<bw_break>": ""
+  },
+  "5143": {
+    "oh!<pc>I'm sure he's not coming this way.\nSage Broggen has not come this way.\n Maybe he went to visit his master.": ""
+  },
+  "33260": {
+    "I believe you are holding a Zoomstone!\nZoomstone is a stone with great magic\npower, which allows you to fly to the\n<br>\nplace you have memorized in no time at\nall. Once you visit a town, a village,\nor a church, it is automatically\n<br>\nmemorized. The Town of Agrani is\nalready memorized. You can memorize\nany number of places, so the more you\n<br>\nmemorize, the more places you can fly\nto. You can also use Zoomstone to\nmemorize the mysterious stone\n<br>\nmonuments at the entrance of fields\nand dungeons. Zoomstones can be used\nfrom \"items\".  Frequently visited\n<br>\nplaces<emoji SpecialRight>You can also register it in your\nfavorites at": ""
+  },
+  "33261": {
+    "The Zoomstone is a magical stone that,\nwhen used, allows the user to quickly\nfly to the location memorized. Once\n<br>\nyou visit a town, a village, or a\nchurch, it is automatically memorized.\nThe Town of Agrani is already\n<br>\nmemorized. You can memorize any number\nof places, so the more you memorize,\nthe more places you can fly to. You\n<br>\ncan also use Zoomstone to memorize the\nmysterious stone monuments at the\nentrance of fields and dungeons.\n<br>\nZoomstones can be used from \"items\".\n Frequently visited places<emoji SpecialRight>You can also register it in your\nfavorites at": ""
+  },
+  "5144": {
+    "An old man with curly hair and a\nhoneycombed beard came down from the\ntown above.  It looks like he went to\n<br>\nBoss Hottsi's house.": ""
+  },
+  "5145": {
+    "oh!<pc>Oh, no.  Sage Broggen is waiting for\nyou.  Quickly, go to your master's\nroom.": ""
+  },
+  "5146": {
+    "A few minutes ago, a very Angry woman\nran out of the Church and just took\noff. Two pairs of Dwarves with bad\n<br>\neyes were also wandering around.\n Gla...this town has gone downhill.": ""
+  },
+  "33262": {
+    "The door is tightly closed.": ""
+  },
+  "5147": {
+    "Boss Hottsi and Sage Broggen went\ninside.  They were going to the\nCaution Land. If you want to follow\n<br>\nthem to Caution Land, go to the\nguardian's room by the bonfire.\n Caution Land is only accessible from\n<br>\nthere. But it's not safe to go beyond\nthe guardian's room.  You should go to\nthe upper town and get your armor\n<br>\nready before you go into the mine.": ""
+  },
+  "5148": {
+    "An old man with curly hair and a\nhoneycombed beard came down from the\ntown above.  It looks like he went to\n<br>\nBoss Hottsi's house. What? He's not at\nthe boss' house anymore?  I see. He\nmust be in a hurry.": ""
+  },
+  "5149": {
+    "<attr><feel_happy_lv1><end_attr>I heard that<pc>I've been appointed by Mr. Brogen to\ngo with him to investigate the Acronia\nmine.  I heard that you have been\n<br>\nnominated by Mr. Broggen to accompany\nhim on a survey of the Acronia Mine.\nThat's quite an honor.  Do your best!": ""
+  },
+  "5150": {
+    "Mutch and Butch, who were supposed to\nhave left town, were dragged into the\nAcronia Mine by Lunana! Lunana was\n<br>\nusing Mutch and Butch like a queen.": ""
+  },
+  "5151": {
+    "I don't mind strong-willed women, but\nnot that one. By that, of course, I\nmean that selfish girl Lunana.  She's\n<br>\na scary woman. That's just my hunch.": ""
+  },
+  "5153": {
+    "Lunana, Mutch, Butch, the master, and\nBroggen all came back looking very\ntired. I wonder what happened at the\n<br>\nAcronia Mine?": ""
+  },
+  "5154": {
+    "<pc>Did you see that?  The sky lit up in a\nbright white light, just like the town\nabove! It was the kind of light that\n<br>\nmakes you feel warm inside.": ""
+  },
+  "153957": {
+    "Support companions have been added.\nSupporting Friends\" has been added to\nthe \"Misc.\" command.": ""
+  },
+  "5156": {
+    "oh!<pc>Welcome back!  Mr. Broggen and the\nmaster are waiting for you.  Come on,\nquickly, into the room.": ""
+  },
+  "5157": {
+    "This is the Town of Agrani.  It is a\ntown of mining and lapidary, nurtured\nby the bounty of the Acronia Mine.\n<br>\nOutside the town is the Raniakka Fault\nZone.  If you continue north on the\nMogarim Highway, you will eventually\n<br>\nreach the Gatara Fields. In the Gatara\nFields, there is a town called Mount\nGatara.  It's a bigger town than the\n<br>\nTown of Agrani, and it has a train\nstation where you can board the Ark of\nEarth.": ""
+  },
+  "5159": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>With that Proof of Adulthood, you will\nbe recognized all over the world as an\nudeki.  It will serve you well on your\n<br>\njourney ahead. Broggen told us to\ncollect the Medal of Honor and the Key\nEmblem in each place we go to show our\n<br>\nskills before we complete our mission.\nDwarf.<pc>I guess it must be some kind of fate\nthat you got into the body of the\n\"Mere Old Man\".  Do your best to make\n<br>\nup for him!": ""
+  },
+  "5160": {
+    "<turn_pc>Yes, you?<bw_break>": ""
+  },
+  "5161": {
+    "You have business in the Acronia Mine?<yesno><break>": ""
+  },
+  "5162": {
+    "Oh, yeah.  My name is Boss Hottsi, and\nI'm the mine's foreman. You are\nwelcome to enter the Acronia Mine, but\n<br>\nthere are monsters inside.  Be very\ncareful.": ""
+  },
+  "44815": {
+    "Hmm.  So you're here to ask about the\nincident, too? That was a thought-\nprovoking incident.  How could a\n<br>\ngreedy Dwarf soul turn into such a\nmonster? I'm not going to wander\naround even after death. You should be\n<br>\ncareful not to be too greedy.": ""
+  },
+  "5163": {
+    "The amount of ore that can be\nextracted comes in waves.  As long as\nwe keep the commandments and don't get\n<br>\ngreedy, the mountain gods will never\nabandon us. I'm feeling it right now.\n I have a strong feeling that there\n<br>\nwill be a big wave of abundant ore\nproduction soon!": ""
+  },
+  "33233": {
+    "<attr><feel_sad_lv1><end_attr><start_lip_sync n00511 _normal m00001>Why are you saying that~?  You're so\nmean to me, Onii-chan.": ""
+  },
+  "5166": {
+    "<attr><feel_happy_lv1><end_attr>Caution Land, when a monster attacked us<pc>Sage Broggen told me that I was saved\nthanks to I can't believe that the\nsage thanked me.<pc>You're amazing, aren't you? You don't\nbelong in a town like this.  I'll be\nrooting for you!  Spread your wings to\n<br>\nthe world!<pc>!": ""
+  },
+  "5167": {
+    "<attr><feel_happy_lv1><end_attr>A while ago, there was a lot of\ntrouble at the Acronia Mine, with the\nweird purple fog and the monsters. But\n<br>\nnow it's completely peaceful.  We're\nable to do some mining now.": ""
+  },
+  "5168": {
+    "There used to be many greedy people in\nthis town.  Whenever they heard of a\ngood deal, they would jump on it and\n<br>\ntry to take advantage of it for\nthemselves. The incident in which\nthose who competed for the gemstones\n<br>\nof Acronia Mine were turned into a\ngrudge was a tragedy caused by such\ngreed. To prevent that mistake from\n<br>\nhappening again, we dedicate that\nplace to the mountain god and remind\nourselves not to be greedy.": ""
+  },
+  "5169": {
+    "<attr><feel_sad_one><end_attr>Lunana, she left me.  She said she\nwould never come back.<bw_break>": ""
+  },
+  "5170": {
+    "<attr><feel_happy_lv1><end_attr><start_lip_sync n00510 _normal m00001><start_lip_sync n00511 _normal m00001><stop_lip_animation n00511 CLOSE_MOUTH>Hey, Kokon. You always eat enough for\nMom, don't you? If you eat for others,\nyou'll turn into a woman like Lunana!": ""
+  },
+  "5171": {
+    "<pc>I heard you're going on a trip.\n You've been diligent in helping me\nwith my work, but you're still an\n<br>\napprentice. I think it'll be good for\nyou to see the world.  If you ever\nmiss Acronia Mine, come back anytime.": ""
+  },
+  "33266": {
+    "<attr><feel_happy_lv1><end_attr>Acronia Mine, once known as the\nmountain of treasure and dreams, is\nwhere we work! Let's see if we can get\n<br>\nsome good stones today.  Let's go to\nwork with all our might!": ""
+  },
+  "5172": {
+    "<attr><feel_happy_lv2><end_attr><pc>Did you see that?  The sky lit up in a\nbright white light, just like the town\nabove! It was the kind of light that\n<br>\nmakes you feel warm inside.": ""
+  },
+  "5173": {
+    "<attr><feel_happy_lv1><end_attr>This is a town of miners.  See, the\nentrance to the Acronia Mine is close\nby, right?  So it's very convenient!": ""
+  },
+  "33246": {
+    "There are many different species\nliving in this world: Dwarves, Ogre,\nWeddie, Pukulipo, Elf, and human. We\n<br>\nDwarves had the power to build the\nmost advanced civilization of them\nall. Yes, we did.  Though now that\n<br>\nadvanced technology has been lost.": ""
+  },
+  "5178": {
+    "Let me give you some advice on your\ndeparture. Listen up. Be careful with\nthat little girl called Lunana! That's\n<br>\nthe advice of an uncle who's been hurt\nby women many times before.  Keep it\nclose to your heart.": ""
+  },
+  "5179": {
+    "There's a little human girl in this\nChurch who's very bossy and obnoxious.\nI heard that she's the reason why the\n<br>\nAcronia Mine was infested with\nmonsters. She's already left Agrani,\nbut you should be careful if you see\n<br>\nthis Lunana woman!": ""
+  },
+  "5180": {
+    "I heard from the sage Broggen.\n Acronia Mine is safe now.<pc>I heard it's because of you.  Thank\nyou so much.": ""
+  },
+  "5181": {
+    "This is Boss Hottsi's house.  The\nproblems at the Acronia Mine have been\nresolved, and mining has finally\n<br>\nresumed. If you want to enter the\nAcronia Mine, you should go and say\nhello to the master.": ""
+  },
+  "5182": {
+    "I don't know what it is, but it looks\nlike the folks down town are coming\nalive. I guess the day is near when a\n<br>\nnice gem will appear.  Let's stay here\nfor a while longer and wait for good\nnews.": ""
+  },
+  "5183": {
+    "<attr><feel_happy_lv1><end_attr>You come to Agrani for jewelry?  I\nhave been coming here for many years\nnow! The combination of fine gemstones\n<br>\nand the best craftsmanship of the\nartisans of this town makes jewelry a\ntrue work of art.": ""
+  },
+  "5184": {
+    "<attr><feel_happy_lv2><end_attr>That's you<pc>I've heard that he was the man behind\nthe revival of the Acronia Mine.  I\nhear you were instrumental in bringing\n<br>\nthe Acronia Mine back to life. Thank\nyou. Thank you!  I'm sure we'll be\nable to get some more gems now.  I'll\n<br>\nmake another fine piece of work!": ""
+  },
+  "5185": {
+    "<attr><feel_happy_lv1><end_attr>I am Agrani's foremost craftsman,\ncreating the finest workmanship in\ngemstones. The gems from the Acronia\n<br>\nMine are a blessing from the Mountain\nGods.  I must put my heart and soul\ninto my work!": ""
+  },
+  "5186": {
+    "I heard the voice of the mountain god.\n I heard the voice of the mountain god\ntelling me that everything would be\n<br>\nall right. From now on, I'm sure we'll\nbe able to extract ores and gems like\nin the old days.  I'll do my best!": ""
+  },
+  "5187": {
+    "If you enter the mine without greed\nand with respect for Yppchal, the\nmountain god, you will surely receive\n<br>\nblessings from him. Don't be stubborn\nand don't fight with others.  It's\ndifficult, but that's the important\n<br>\nthing.": ""
+  },
+  "33257": {
+    "The Agrani are a bit greedy.  We used\nto have a lot of trouble with the\nmerchants who came to buy our ores and\n<br>\ngems. But that changed when Father\nHolta came.  He appreciated our skills\nand helped us to mediate between the\n<br>\nmerchants and us. Thanks to this\nrelationship of trust between us and\nthe merchants, which had always been a\n<br>\nsource of quarrels between us, the\ntown grew. Father Holta was a very\ngood human being.  I wish he had lived\n<br>\nlonger.": ""
+  },
+  "5194": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>You used to visit me all the time<pc>I was thinking that I should thank you\nagain.  I had to thank you again.<bw_break>": ""
+  },
+  "5195": {
+    "<attr><feel_happy_lv1><end_attr>Since then, ore has been extracted\nagain, and everyone is working hard.\n It is only because of your efforts.\n<br>\nThank you very much.<pc>I can't believe how much better I look\nnow!<yesno><break>": ""
+  },
+  "5196": {
+    "<attr><feel_think_lv1><end_attr>What? He's really changed and now he's\na human? What? Hmmm. No matter how\nhard I look at it, I can't see\n<br>\nanything out of the ordinary.<pc>It looks to me like you're a bit of a\n\"I don't know\".  Did you acquire such\njokes in your travels?": ""
+  },
+  "5197": {
+    "<attr><feel_happy_lv1><end_attr><pc>The \"K\" is a very elegant thing.  As\none would expect of a key emblem.\n You've grown up inside too, haven't\n<br>\nyou?": ""
+  },
+  "5198": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>You used to visit me all the time<pc>I was thinking that I should thank you\nagain.  I had to thank you again.\nSince then, the ore has come in again\n<br>\nand everyone is working hard.<pc>Thanks to you. Thank you. You've grown\nup a lot, haven't you?  It's really\nquite a feat that you even got a key\n<br>\nemblem.": ""
+  },
+  "5201": {
+    "welcome home<pc>Oh, my God!  I'm sure you've all heard\nby now that we've got some good rocks\ncoming out of the mine!": ""
+  },
+  "5202": {
+    "Ora (hereditary title, often given to powerful regional families)<pc>I told him I'd give this to you if I\never see you again.": ""
+  },
+  "33267": {
+    "<pc>school (eg of ikebana)<%sEV_ITEM>received!<se_nots System Item>": ""
+  },
+  "33268": {
+    "<attr><feel_happy_lv1><end_attr><pc>It was the first good stone that I\nfound after the departure of I was so\nhappy, I wanted you to have it.": ""
+  },
+  "33269": {
+    "Ora (hereditary title, often given to powerful regional families)<pc>I've decided to give you this when I\nsee you again, but you seem to have a\nlot of stuff with you.  I'm so sorry.<pc>I was going to share some good ore\nwith you, too.": ""
+  },
+  "33270": {
+    "<attr><feel_happy_lv1><end_attr><pc>Please come back anytime.  It makes me\nhappy to see your face. Every time I\nsee you<pc>I can see that the \"Mere Old Man\" has\ngrown up a lot, so I think I'll do my\nbest, too.": ""
+  },
+  "5203": {
+    "very<pc>It's been a while!  Miss the Acronia\nMine? Here, I'm still spending my days\nin the mines.  I'm starting to envy\n<br>\nyou for going on a trip like this.": ""
+  },
+  "5204": {
+    "We make our living mining in the\nAcronia Mine down the road. But every\nday I spend in the mines, I envy those\n<br>\nwho travel the world as freely as you\ndo.": ""
+  },
+  "5205": {
+    "<attr><feel_happy_lv1><end_attr><pc>You look well!  You're looking great!\n Did you even get a key emblem? You\nwere always so Kirari and different\n<br>\nfrom the rest of us.  You must have\nbeen an amazing person after all!": ""
+  },
+  "5208": {
+    "Agrani has been peaceful ever since.\n And that little girl Lunana hasn't\ncome back either!<pc>I'm just traveling around the world,\nand I might bump into you somewhere!\n Just thinking about it is terrifying.": ""
+  },
+  "5209": {
+    "<attr><feel_happy_lv2><end_attr><pc>I think so!  Agrani has changed a lot,\nhasn't it? The Acronia Mine has been\ncleaned up and life has returned to\n<br>\nthe way it used to be.<pc>Thanks to you. Thank you!": ""
+  },
+  "5210": {
+    "You used to live down town, didn't\nyou?  Now you can get ore and\nsometimes good gems! What a pity.  You\n<br>\ncould have been a millionaire if you'd\njust stayed here.": ""
+  },
+  "5211": {
+    "<attr><feel_happy_lv2><end_attr>Yo!<pc>Thanks to you, we've been able to get\nsome gems!  Thanks to you, I've been\nable to pick a few gems. Thank you\n<br>\nvery much!  I'll never forget this\nfeeling, and I'll work hard so that\none day I can create the world's\n<br>\nfinest work of art!": ""
+  },
+  "5213": {
+    "<attr><feel_happy_lv1><end_attr>It seems that Yppchal, the mountain\ngod, has regained his power.  Acronia\nMine seems to have come back to life.\n<br>\nLife is getting a little easier.  And\nthis...<pc>and Sage Broggen.": ""
+  },
+  "5217": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>You used to visit me all the time<pc>I can see it in your face!  I can see\nit in your face!  You've finally\naccomplished your mission. The Dwarf\n<br>\nwho gave you his body.<pc>I'm sure he would be delighted.  Thank\nyou.<pc>Oh my god!!!": ""
+  },
+  "5221": {
+    "<attr><feel_happy_lv1><end_attr><pc>You look well!  You've grown up to be\na fine man.  What? You saved the\nworld! You were always so Kirari and\n<br>\ndifferent from us.  You must have been\nan amazing person after all!": ""
+  },
+  "70271": {
+    "<attr><feel_happy_lv1><end_attr>I'm Jirocha, a camera kid.  My hobby\nis to take a Picture that makes you\nlaugh!": ""
+  }
+}

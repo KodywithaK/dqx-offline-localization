@@ -1,0 +1,1115 @@
+{
+  "200234": {
+    "Oh, no. Oh, no.  You need a permit to\nenter the castle of the Urbea Empire!": ""
+  },
+  "200236": {
+    "This is a sacred place of prayer.\n Please be quiet.": ""
+  },
+  "200237": {
+    "I assume you are here to have a Menko\nbattle with Father Uzza.  I have some\nuseful information. Father Uzza always\n<br>\ngives Menko in the same order when he\nfaces a beginner in Menko battle. The\nfirst Menko he gives out is copper, I\n<br>\nthink.": ""
+  },
+  "200238": {
+    "In the Urbea Underground Empire, the\nchurch is also a government office, a\nplace to deal with the administration.\n<br>\n The priest is like the mayor of the\ntown.": ""
+  },
+  "200239": {
+    "Welcome, my fellow traveler.  What can\nI do for you?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>": ""
+  },
+  "200240": {
+    "If you have any trouble, come visit me\nanytime. Well then...<bw_break>": ""
+  },
+  "200241": {
+    "<attr><feel_angry_one><end_attr><icon_exc>I see. So you were looking for someone\nwith knowledge of the situation in\nthis country, and you found me. I am\n<br>\nFather Uzza.  However, being a church\npriest is just a cover for the world.\nIn reality, I am a passionate butler!\n<br>\n If you want to know more about the\nUnderground Empire of Urbaea, you will\nhave to defeat me in the Urbaea Menko\n<br>\nBattle!<bw_break>": ""
+  },
+  "200242": {
+    "<attr><feel_angry_one><end_attr>I am a passionate Menko Battler!  If\nyou want to know more about the\nUnderground Empire of Urbaea, come and\n<br>\ndefeat me in the Urbaea Menko Battle!<bw_break>": ""
+  },
+  "200243": {
+    "Hmm? We're running low on Urbaea\nmasks.  Put one each of gold, silver,\nand bronze into the toolbox, then call\n<br>\nout to them.": ""
+  },
+  "200244": {
+    "<attr><feel_angry_one><end_attr>The rules of Urbare Menko Battle are\nsimple.  You must put out one of each\nof your menko at the same time and hit\n<br>\nthem against each other. The gold\nmasks are strong against the silver\nmasks.  The silver one is strong\n<br>\nagainst the copper one.  And the\ncopper bead is strong against the gold\nbead! In this way, the winner will be\n<br>\ndecided by the three groups.  From now\non, you must win all three of your\ngames with me.  A draw is not a\n<br>\nvictory.<bw_break>": ""
+  },
+  "200245": {
+    "<attr><feel_angry_one><end_attr>Okay, Urbare Menko, 1st round,\ngo! FIGHT!<select_nc>\nput out a golden pencil\nput out a silver platter\nPutting out a copper mask\nHear the rules explained<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "200246": {
+    "<icon_exc>What a pity.  You lost when you played\nthe gold pencil against the copper\npencil I played.<se Joutyu_SE 35><bw_break>": ""
+  },
+  "200247": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>Brilliant.  You won by hitting a\nsilver pencil against my copper\npencil.<se System 7><bw_break>": ""
+  },
+  "200248": {
+    "<icon_exc>Both sides submit a copper menko and\nit's a tie.  A tie is not a victory.\nToo bad!<se Joutyu_SE 35><bw_break>": ""
+  },
+  "200249": {
+    "You're going to go over the rules one\nmore time, aren't you?  That's a good\nattitude!  Rules are what serious\n<br>\nbattles are all about. The rules of\nMenko Battle are simple.  You must put\nout one of each of your menko at a\n<br>\ntime and bump them against each other.\nThe gold one is stronger than the\nsilver one.  The silver one is strong\n<br>\nagainst the copper one.  And the\ncopper beads are strong against the\ngold beads! In this way, the winner\n<br>\nwill be decided by the three groups.\n From now on, you must win all three\nof your games with me.  A draw is not\n<br>\na victory.<bw_break>": ""
+  },
+  "200250": {
+    "<attr><feel_angry_one><end_attr>Okay, Urbare Menko, 2nd round,\ngo! FIGHT!<select_nc>\nput out a golden pencil\nput out a silver platter\nPutting out a copper mask\nHear the rules explained<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "200251": {
+    "<icon_exc>Both sides put out a golden pencil.\nIt's a draw.  A tie is not a victory.\nToo bad!<se Joutyu_SE 35><bw_break>": ""
+  },
+  "200252": {
+    "<icon_exc>What a pity.  You lost. I sent out a\nsilver pencil against a gold pencil.<se Joutyu_SE 35><bw_break>": ""
+  },
+  "200253": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>Brilliant.  You won by hitting the\ncopper one with the gold one that I\nhad thrown out.<se System 7><bw_break>": ""
+  },
+  "200254": {
+    "<attr><feel_angry_one><end_attr>Whether you cry or laugh, the next one\nwill be your last.  Come on, last\nbattle!  Go! Fight!<select_nc>\nput out a golden pencil\nput out a silver platter\nPutting out a copper mask\nHear the rules explained<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "200255": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>Brilliant.  You won by hitting a gold\npencil against my silver pencil.<me 71><bw_break>": ""
+  },
+  "200256": {
+    "<icon_exc>Both sides put out a silver platter.\nIt's a draw.  A tie is not a victory.\nToo bad!<se Joutyu_SE 35><bw_break>": ""
+  },
+  "200257": {
+    "<icon_exc>Too bad.  You lost when you played the\ncopper one against the silver one I\nplayed.<se Joutyu_SE 35><bw_break>": ""
+  },
+  "200258": {
+    "<attr><feel_happy_lv1><end_attr>Well done on winning three in a row!\n You've got a pretty good head on your\nshoulders, kid!  You're like the Ja\n<br>\nKuba of old! Oh, my God, you're good!\nForget what I just said.  Now, what do\nyou want to ask me?": ""
+  },
+  "200259": {
+    "<attr><feel_angry_lv1><end_attr>You want to tell me about the\nUnderground Empire of Urbaea?  Oh\nno! That's not the point!  I can't\n<br>\nfind the silver Urbea Menko! I'm sure\nit's somewhere in this house.  Or I'm\nsure I can find some somewhere!  Then\n<br>\nwe'll talk about it!": ""
+  },
+  "200260": {
+    "<attr><feel_happy_lv1><end_attr>Hohoho! Well done, my friend!  It\nseems that you have been completely\nswept up in the atmosphere of the\n<br>\nImperial City, haven't you? Well,\nthat's understandable.  The universal\nfloating chairs that come and go, the\n<br>\nhighways, the comfortable air\nconditioning, the clean water supply.\nEspecially since Prime Minister\n<br>\nGuryanlalach began to utilize geo-\nenergy, life has become more\nconvenient and comfortable. I'm going\n<br>\nto do Menko all the way while I take a\nscenic flight in a large anti-gravity\nflying machine.  A luxury reserved\n<br>\nonly for the upper class. If Father\nUzza hears about this all night long,\nhe will give me a long lecture and it\n<br>\nwill be troublesome.  We'll keep this\nbetween you and me!": ""
+  },
+  "200261": {
+    "The universal floating chairs that\ncome and go, the highways, the\ncomfortable air conditioning, the\n<br>\nclean water supply. Especially since\nPrime Minister Guryanlalash began to\nutilize geo-energy, every aspect of\n<br>\nlife has become more convenient and\ncomfortable. I'm going to do Menko all\nthe way while I take a scenic flight\n<br>\nin a large anti-gravity flying\nmachine.  A luxury reserved only for\nthe upper class. If Father Uzza hears\n<br>\nabout this all night long, he will\ngive me a long lecture and it will be\ntroublesome.  We'll keep this between\n<br>\nyou and me!": ""
+  },
+  "200262": {
+    "<attr><feel_happy_lv1><end_attr>Oh my! Miss Chaicha!  Take me on a\ntrip with you!<heart>": ""
+  },
+  "200263": {
+    "<attr><feel_sad_one><end_attr>This is a high-end jewelry store.\n Each piece is handcrafted by our\njewelers from rare ores from select\n<br>\nmines. Our products are sold only to\nthe wealthy in Urbea, so we are afraid\nwe must ask our customers to leave the\n<br>\nstore as soon as possible.": ""
+  },
+  "200264": {
+    "<attr><feel_happy_lv1><end_attr>Hey, hey, hey.  Is that clunker coming\nsoon?": ""
+  },
+  "200265": {
+    "<attr><feel_sad_lv1><end_attr>To support my wife and six children, I\nwork at an oil refinery from morning\ntill night, and the only thing I enjoy\n<br>\nin my life is my Urbea Menko.": ""
+  },
+  "200266": {
+    "Mwah. What are you?  You want to tell\nme about the Underground Empire of\nUrbea?  No, that's not the point! To\n<br>\nsupport my noisy wife and six\nchildren, I work from morning till\nnight in an oil refinery, and the only\n<br>\nthing I enjoy in life is Ulbea Menco!\nAnd yet, when I buy rare menko at a\nhigh price..! But when I bought some\n<br>\nrare cotton balls at a high price,\nthey were stolen by Skargaloo! What a\npity! I wish someone would defeat him\n<br>\nin the Gatara Forest and bring back my\nMenko.": ""
+  },
+  "200267": {
+    "I bought a rare menko at a high price,\nand lo and behold, it was stolen by a\nSkullgaloo! I bought a rare menko at a\n<br>\nhigh price, and then, lo and behold,\nit was stolen by Skullgaloo! How\nfrustrating! I wish someone would\n<br>\ndefeat him in the Gatara Forest and\nbring back my Menko.": ""
+  },
+  "200268": {
+    "<icon_exc>What is this?  The giza-rimmed Urbaea\nMenko that he stole!  You got it\nback! Thank you! Issued only for one\n<br>\nyear, the Giza-rimmed Menko is a\nhighly rare collector's item.  They're\noften counterfeited. Father Uzza\n<br>\ncatches anyone counterfeiting menko\nand gives them a lecture, but I wish\nthere would be a better law. I'm sure\n<br>\nGuryanlaksha will do it, right?  He's\nPrincess Ulta's guardian, but he's the\none who really controls the empire. I\n<br>\ndon't have high hopes for a recluse\nlike the princess.  I'm sure it's our\nown Gul Yanlach!": ""
+  },
+  "200269": {
+    "If someone counterfeits a pamenko,\nFather Uzza catches them and gives\nthem a sermon, but I wish they'd make\n<br>\na better law. I'm sure Guryanlaksha\nwill do it, right?  He's Princess\nUlta's guardian, but he's the one who\n<br>\nreally controls the empire. I don't\nhave high hopes for a recluse like the\nprincess.  I'm sure it's our own Gul\n<br>\nYanlach!": ""
+  },
+  "200270": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed.\n Hmmmmm... Naruhodo. There is a great\npossibility of obtaining additional\n<br>\ninformation from Menko lovers who\nexist on a different level.  Let's\nsearch for more Menko lovers!": ""
+  },
+  "200271": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed.  Hm-hm-\nhm, I see. Information on three MENKO\nlovers has been integrated.\n<br>\n Analyzing. Please wait. The person\nthat the three of you have talked\nabout in common.  The one who is well-\n<br>\nconnected and well-informed is\nidentified as Father Uzza. Let's go to\nthe church in the middle of the\n<br>\ncapital!": ""
+  },
+  "200272": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>If you fail to do so, you will be\nreported to the police.  In order to\ngain an audience with Princess Ulta,\n<br>\nit is imperative that we obtain a\ncastle entry permit. In order to\nobtain a permit, it is necessary to\n<br>\nfind an influential person who has a\nwide network of contacts and is well\ninformed. Urbea Menko is very popular\n<br>\nin the capital.  The influential\npersons who are well-connected and\nwell-informed are most likely to be\n<br>\nMenko lovers. Ulbea Menko is a disk-\nshaped piece of metal formed from\ngold, silver and copper, different\n<br>\nfrom common paper Menko. It is very\npopular among Menko lovers in the\nImperial Capital.  The Teito is a\n<br>\nplace for Menko lovers to seek out!": ""
+  },
+  "200274": {
+    "<attr><se_nots S4_FOR7_001 0><pipipi_mid><end_attr>Information gathering in the Imperial\nCapital is complete.  I have obtained\nmany results.  I thank you very much.\n<br>\nPrincess Ulta hates people.  It's\ngoing to take a lot of work to gain\nher trust. The source of the\n<br>\ninformation that will be used to gain\naccess to the castle is Princess\nUlta's demon machine.  I'll search the\n<br>\narea around the plaza!": ""
+  },
+  "200275": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed.\n Hmmmmm... Naruhodo. There is a great\npossibility of obtaining additional\n<br>\ninformation from Menko lovers who\nexist on a different level.  Let's\nsearch for more Menko lovers!": ""
+  },
+  "200276": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed.  Hm-hm-\nhm. Naruhodo. The information of the\nthree people who received menko as\n<br>\ncompensation has been merged.  Please\nwait while we analyze. Three people\nwho talked about the same thing in\n<br>\ncommon.  The one who is well-connected\nand well-informed is identified as\nFather Uzza. Let's go to the church in\n<br>\nthe middle of the capital!": ""
+  },
+  "200277": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed.\n Hmmmmm... Naruhodo. There is a great\npossibility of obtaining additional\n<br>\ninformation from Menko lovers who\nexist on a different level.  Let's\nsearch for more Menko lovers!": ""
+  },
+  "200278": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed.  Hm-hm-\nhm, I see. The information of the\nthree people who received menko as\n<br>\ncompensation has been merged.  Please\nwait while we analyze. Three people\nwho talked about the same thing in\n<br>\ncommon.  The one who is well-connected\nand well-informed is identified as\nFather Uzza. Let's go to the church in\n<br>\nthe middle of the capital!": ""
+  },
+  "200279": {
+    "<attr><feel_happy_lv1><end_attr>In Urber, when you grow up, you get a\nlicense for the universal levitation\nchair. The underground empire is so\n<br>\nbig, but since access to anti-gravity\nflying machines is so limited, we\ncan't even go shopping without one.": ""
+  },
+  "200280": {
+    "<attr><feel_happy_lv1><end_attr>Hehe Menko Menko.  If you do a little\nwork, you can sell it for a lot of\nmoney.  It's a small business!": ""
+  },
+  "200281": {
+    "I own several houses on the lower\nlevel, and this is one of the houses I\nrent out.  I have to stock up for my\n<br>\nold age.": ""
+  },
+  "200282": {
+    "<attr><feel_happy_lv1><end_attr>I finally got my license after the\nfifth retest!  I am now an adult. I\nused to be a bit of a rascal.  It was\n<br>\nmy sweet summer when I stole a\nuniversal floating chair and drove off\nwithout a license.": ""
+  },
+  "200283": {
+    "<attr><feel_sad_lv1><end_attr>Here, here, here.  The lower you go in\nthe Underground Empire of Urbea, the\nmore polluted the air tends to become.\n<br>\nIt used to be much worse, but it's\nmuch better now that His Majesty King\nJa Kuba and Gurjanrash have taken\n<br>\ncountermeasures.": ""
+  },
+  "200284": {
+    "Most of the people who hang out in the\nback alleys are refugees from the\ngutter, fleeing their homes and the\n<br>\nbattlefields.  Well, I'm one of them.\nI'm just scraping by, repairing junk\nthat the Ulbeans throw away. I'm\n<br>\nmiserable, but I'll do anything to\nsurvive.": ""
+  },
+  "200285": {
+    "<attr><feel_happy_lv1><end_attr>Quick, use the mazy beam of that clunker\n flashing<heart> yikes!<heart>I'd like to do that!": ""
+  },
+  "200286": {
+    "<attr><feel_happy_lv1><end_attr>There is a vast city spreading out\nendlessly beneath the Gatara Forest!\nAnd recently, they've even built a\n<br>\nlarge housing complex at the base of\nthe volcano.  How does it feel to\nsleep next to magma?": ""
+  },
+  "200287": {
+    "This machine is a support demon\nmachine No. 022.  The administrator of\nthis machine is waiting for it to\n<br>\nreturn to the Aristocratic District\nafter purchasing high-quality mud. The\nreason why the administrator of this\n<br>\nmachine purchased mud is that covering\nthe whole body with mud will increase\nthe beauty moisturizing effect and\n<br>\nimprove the level of self-\nsatisfaction.": ""
+  },
+  "200288": {
+    "Welcome to the Underground Empire of\nUrbaea.  We welcome you, travelers.\nThis is the capital of the vast\n<br>\nUnderground Empire.  It is divided\ninto three levels: the lower level,\nthe middle level and the upper level.": ""
+  },
+  "200289": {
+    "There is no abnormality in the middle\nlevel!  There is a gate of Urbaea in\nthe Imperial City.  Security has been\n<br>\nstrengthened in other areas.": ""
+  },
+  "200290": {
+    "Lower level patrol is on alert.  We\nhave confirmed an influx of refugees\nin this level.  Please do not approach\n<br>\nthe back alleys.": ""
+  },
+  "200291": {
+    "There is nothing wrong with the upper\nlevel.  There are many wealthy people\nliving in this level.  We have a\n<br>\nrequest to patrol carefully.": ""
+  },
+  "200292": {
+    "<attr><feel_happy_lv1><end_attr>We are a tailor with a royal warrant.\n I have orders directly from that\nGurjan Rush! The charisma of the\n<br>\nempire is a walking billboard, so\nwe're swamped with orders.  So I'm\nsorry for the general public.": ""
+  },
+  "200294": {
+    "<pc>gave Tutebak a single Urbea copper\ncoin!": ""
+  },
+  "200296": {
+    "<pc>The \"Mere Old Man\" got his hands on a\ncopper Urbea menko! What a surprise,\nit was an Ulbea copper coin!<se_nots System 7>": ""
+  },
+  "200297": {
+    "<pc>The \"Mere Old Man\" got a silver Ulbea\nMenko! What a surprise, it was an\nUlbea silver coin!<se_nots System 7>": ""
+  },
+  "200298": {
+    "<pc>He got a gold Urbare menko! What a\nsurprise, it was an Ulbea gold coin!<se_nots System 7>": ""
+  },
+  "200299": {
+    "<pc>I got a Menko starter set! What a\nsurprise! It was an Urbare gold coin,\nan Urbare silver coin, and an Urbare\n<br>\ncopper coin!<se_nots System 7>": ""
+  },
+  "200301": {
+    "<pc>The first time the owner of the house\ngave Fuhmama a silver Urbea coin!": ""
+  },
+  "200303": {
+    "Would you give Kwak the gizzard-rimmed\nUrbaea Menco?<yesno><break>": ""
+  },
+  "200304": {
+    "<pc>gave Kwak the Giza-rimmed Urbaea\nMenco!": ""
+  },
+  "200305": {
+    "<attr><feel_sad_lv1><end_attr>Terrible giants appeared and burned\nGateria.  Even those who survived were\nhunted down by the demon soldiers and\n<br>\ndied jumping into the sea or into the\nlava. I escaped from Gateria with my\nsister, and the next thing I knew, I\n<br>\nwas here.  I don't want to go through\nthat again.": ""
+  },
+  "200306": {
+    "I came to the Imperial City for the\nfirst time because Anchan got a wife\nfrom the city, but I got dizzy at the\n<br>\nend! I can't keep up with the speed of\nthe city.  I'd be better off living in\nEzesole making salt.": ""
+  },
+  "200307": {
+    "<attr><feel_sad_lv1><end_attr>Don't beat yourself.  I didn't do\nanything wrong.": ""
+  },
+  "200308": {
+    "<attr><feel_happy_lv3><end_attr>With the destruction of Gatheria, the\nUnderground Empire of Urbaea finally\ntook possession of almost all of the\n<br>\nDwachatka continent. The small nation\nof Dorworm remains in the Goble\nDesert, but it belongs neither to\n<br>\nGateria nor to Urbaea, and it lives in\nhiding, its entire castle buried in\nthe sand. It's only a matter of time\n<br>\nbefore the Ulbea unite the land. Ha-\nha-ha.": ""
+  },
+  "200309": {
+    "<attr><feel_happy_lv1><end_attr>Do you know what Urbea Menko is?  It's\nall the rage here in the capital.": ""
+  },
+  "200310": {
+    "Ah. You're abominable, aren't you?\n Shall I kindly tell you a little bit\nabout Urbain? But..! Not for free!\n<br>\n I'll teach you if you give me one\ncopper Urbaea mask paste.": ""
+  },
+  "200311": {
+    "Woohoo! Thanks!  I've been really into\nUrbea Menko lately, but my allowance\nis really tight. Heh heh heh. As\n<br>\npromised, I'll tell you about Ulbea!\n The one thing you can't talk about\nthis country without mentioning is the\n<br>\nprevious emperor, His Majesty, Ja\nKuba! He built this magnificent city.\n He was so dedicated to making sure\n<br>\nthat everyone could live in prosperity\nand peace! We all loved him so much.\n But because of the gatoria...  I\n<br>\ncan't forgive them! Guryan Lash\ndestroyed Gateria and took His\nMajesty's place.  I guess justice will\n<br>\nprevail in the end! That's all for the\naborigines!  All right, now that we\nhave the Urbaea Menko, let's challenge\n<br>\nFather Uzza to a Menko match!": ""
+  },
+  "200312": {
+    "This town was built by the previous\nemperor, His Majesty, JAKUBA, with\neveryone in mind, so that we could\n<br>\nlive in prosperity and peace forever!\nWe all loved him.  But because of\nGateria, His Majesty...  I can't\n<br>\nforgive them! Guru Yanmar destroyed\nGateria and took His Majesty's place.\n I guess justice will prevail in the\n<br>\nend! That's all for now, the end of\nthe tour guide for the aborigines!\n All right, now that we have the\n<br>\nUrbaea Menko, let's challenge Father\nUzza to a Menko match!": ""
+  },
+  "200313": {
+    "<attr><feel_happy_lv1><end_attr>Hmmm.  I'm sure there is no other\ncountry in the world that is as\nprosperous as this Urbea Underground\n<br>\nEmpire!": ""
+  },
+  "200314": {
+    "<attr><feel_happy_lv1><end_attr>Heh, you're here.  I'll sell you what\nyou want.<select>\nCopper Urbea Menco\nSilver Urbare Menco\nGold Urbare Menco\nMenco Starter Set\nquit<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "200315": {
+    "<attr><feel_happy_lv1><end_attr>Is there anything else you want?<select>\nCopper Urbea Menco\nSilver Urbare Menco\nGold Urbare Menco\nMenco Starter Set\nquit<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "200316": {
+    "<attr><feel_happy_lv1><end_attr>One copper Urbaea Menko costs 120\ngold.  Would you like to buy it?<yesno><break>": ""
+  },
+  "200317": {
+    "<attr><feel_happy_lv1><end_attr>Heh heh. Here you go.": ""
+  },
+  "200318": {
+    "<attr><feel_happy_lv1><end_attr>One silver Urbea Menko costs 600 gold.\n Would you like to buy it?<yesno><break>": ""
+  },
+  "200319": {
+    "<attr><feel_happy_lv1><end_attr>Heh heh. Here you go.": ""
+  },
+  "200320": {
+    "<attr><feel_happy_lv1><end_attr>One gold Urbea Menko is 2400 gold.\n Would you like to buy it?<yesno><break>": ""
+  },
+  "200321": {
+    "<attr><feel_happy_lv1><end_attr>Heh heh. Here you go.": ""
+  },
+  "200322": {
+    "<attr><feel_happy_lv1><end_attr>The Menko Starter Set contains one\ngold, one silver, and one bronze for\n3000 gold.  That's a bargain. Want to\n<br>\nbuy one?<yesno><break>": ""
+  },
+  "200323": {
+    "<attr><feel_happy_lv1><end_attr>Heh heh. Here you go.": ""
+  },
+  "200324": {
+    "<attr><feel_happy_lv1><end_attr>Oops, not enough money to buy that\none.<bw_break>": ""
+  },
+  "200325": {
+    "<attr><feel_happy_lv1><end_attr>Oops, looks like I can't hold it any\nlonger.  Come back and buy some more\nafter you've sorted it out.": ""
+  },
+  "200326": {
+    "<attr><feel_happy_lv1><end_attr>It is the etiquette for Menko lovers\nto have one of each kind for whatever\nmay happen.  Come again anytime, okay?": ""
+  },
+  "200327": {
+    "<attr><feel_happy_lv1><end_attr>The other day, I went on a trip around\nthe five continents, and I found the\nOrgreid continent to be a land of\n<br>\nbarbarism! Wildness in full bloom,\nfashioned without a shred of\ningenuity, clad only in the skins of\n<br>\nbeasts!  Aren't you ashamed to be\nalive? How beautiful and refined our\ncivilization is!  The Dwarves have won\n<br>\nagain.": ""
+  },
+  "200328": {
+    "<attr><feel_happy_lv1><end_attr>Look at the breathtaking scenery\nspread out below you!  Even if\nthousands of years pass, this splendor\n<br>\nwill be remembered forever.": ""
+  },
+  "200329": {
+    "<attr><feel_sad_lv1><end_attr>This area is a residential area, and\nat certain times of the day, the main\nstreet is crowded with commuters in\n<br>\ntheir all-purpose floating chairs. I\nhate living in the city.  But I want\nto buy a high-rise house for my frail\n<br>\nwife, so I'll do my best.": ""
+  },
+  "200330": {
+    "<attr><feel_sad_lv1><end_attr>Oh, please don't talk to me.  I'm your\nwife's caretaker.  I'm just a stone's\nthrow away.": ""
+  },
+  "200331": {
+    "<attr><feel_happy_lv1><end_attr>Woohoo! Chaycha-sama!  You look\nbeautiful today!<heart>": ""
+  },
+  "200332": {
+    "Because the upper and middle class\npeople litter the streets with their\nwaste, refugees from the Gateria have\n<br>\ntaken up residence on the back\nstreets. I feel bad every time I pass\nby them.": ""
+  },
+  "200333": {
+    "Oh, no. Oh, no.  You need a permit to\nenter the castle of the Urbea Empire!": ""
+  },
+  "200334": {
+    "Deha dori tte yoshi!": ""
+  },
+  "200335": {
+    "Permission granted. Coming through!": ""
+  },
+  "200336": {
+    "<attr><feel_happy_lv1><end_attr>You know, my dad says that because the\nPrincess is a piece of shit, Marich is\na piece of shit too!": ""
+  },
+  "200337": {
+    "<attr><feel_happy_lv1><end_attr>The beam was fun!  I want to play with\nMarich again!": ""
+  },
+  "200338": {
+    "<pc>The \"DEFENSE MACHINE SOLDIER 054\" had\nhis entry permit retrieved!": ""
+  },
+  "200339": {
+    "<attr><feel_sad_one><end_attr>I can still see it flickering in front\nof my eyes.  I'm going to file a\ncomplaint with the castle the next\n<br>\ntime that demonic machine comes!": ""
+  },
+  "200340": {
+    "I don't know why, but it seems that\nthe Princess's Demon Goddess machine\nis not equipped with a language\n<br>\nfunction.  Even security guards can\nspeak nowadays.": ""
+  },
+  "200341": {
+    "I wonder if the Princess is still\nlooking for someone. I wonder if she's\nstill looking for someone.": ""
+  },
+  "200342": {
+    "Our store is a royal tailor.  I get\norders directly from that Guru Yanmar!\nGuryan Lash is a human.  The tailors\n<br>\nin Urbea could only make clothes for\ndwarves, so he was in a lot of\ntrouble. That's why he asked me, a\n<br>\nreturnee from Rendasia, to help him\nout. I remember in my sweet summer\ndays how many times I had to re-tailor\n<br>\nclothes for the fashionable\nGurjanrash.  Even now, I deliver one\ndress every month!": ""
+  },
+  "200343": {
+    "<attr><feel_happy_lv1><end_attr>The other day, I went on a round-the-\nworld trip around the five continents,\nand I found the Wena Islands to be a\n<br>\nvery tactless place! Well, not so much\nthe land, but mostly the sea!  The\nwomen grilling fish on the beaches are\n<br>\ndisgusting, and the men wandering\naround naked is disgusting. I'm\ndisgusted by the beauty and\n<br>\nsophistication of our Urbean\ncivilization.  The Dwarves have won\nagain.": ""
+  },
+  "200344": {
+    "Princess Ulta has asked us to lend a\nhelping hand to the refugees in\nGateria. As a church, we cannot\n<br>\noverlook the harsh reality of these\npeople living in the back alleys of\nthe lower classes.  Of course, we\n<br>\nwould be happy to help.": ""
+  },
+  "200345": {
+    "It is my duty to save the lost and\nspread the Urbaea Menko, no matter who\ngoverns the empire.  Now...<bw_break>": ""
+  },
+  "200346": {
+    "<attr><feel_angry_lv1><end_attr>I heard that there is a movement to\nregulate the geo-energy after the\ndeath of Lord Guryanlalash.  It's a\n<br>\nterrible thing! I just hate to think\nof living without the universal\nfloating chair and air conditioning.\n<br>\n I'm against regulation!": ""
+  },
+  "200347": {
+    "<attr><feel_happy_lv1><end_attr>My dad said that Princess Ulta is\nworking hard behind the scenes, so\nMaricchi is busy behind the scenes\n<br>\ntoo!": ""
+  },
+  "200348": {
+    "Because of Gurjanrash, Urbea has\ndestroyed innocent Gateria.  The\npeople of Urbaea are all pacifists.\n<br>\nPrincess Ulta is doing her best to\nsave the poor Gatelian refugees and\nprisoners.  She is our Princess Ulta,\n<br>\nafter all!": ""
+  },
+  "200349": {
+    "<attr><feel_angry_lv1><end_attr>The Princess has sent a message to the\npeople, telling them the truth about\nthe assassination of the Emperor.\n<br>\n Guryanlaksh is a terrible man! He\nassassinated His Majesty Ja Kuba, he\nblames the Prince of Gateria, he's\n<br>\ntaken over the empire. He's a demon. A\ndemon!  Guryanlaksh is a demon!  I\ncan't think of anything else.": ""
+  },
+  "200350": {
+    "<attr><feel_sad_lv1><end_attr>Guriyanrash, you son of a bitch!  My\ndaughter was burned by the Great\nUrbaea Demon. Even after he's dead, I\n<br>\nstill can't stop my stomach from\ngrowling.  I'm going to make a\nhehemenko out of him and take it from\n<br>\nthe stupid people of Urbaea!": ""
+  },
+  "200351": {
+    "Guryanlalash has got us all fooled.\n We who respected him look like fools,\ndon't we? I heard that the princess\n<br>\ntook him down.  He's not much older\nthan me.  I'm starting to like you!": ""
+  },
+  "200352": {
+    "<attr><feel_sad_lv1><end_attr>Here, here, here.  The lower you go in\nthe Underground Empire of Urbea, the\nmore polluted the air tends to become.\n<br>\nIt used to be much worse, but it's\ngotten much better since His Majesty\nJia Kuba and Guru Yan Lash took\n<br>\ncountermeasures. So, even though I\nknow the truth, I don't think Guru\nYanmar is a very bad person.": ""
+  },
+  "200353": {
+    "Guliyanlalash's death won't change\nanything.  We'll still be snobs, and\nwe'll still have to pick up trash to\n<br>\nget by. My brother wrote me a letter\nsaying he was going to be a soldier\nagainst Urbea, and that was the last I\n<br>\nheard from him.  I'm sure he's already\nin the next world.": ""
+  },
+  "200354": {
+    "<attr><feel_happy_lv1><end_attr>Do you want to play in the back?\n Maybe we can meet Marich!": ""
+  },
+  "200355": {
+    "<attr><feel_angry_lv1><end_attr>I heard that Guryanlalash was a demon!\n I see. He can do such heinous things\nwithout a care in the world, can't he?\n<br>\nWe were all deceived by a demon,\nweren't we?  I was against the war\nwith Gateria from the very beginning.": ""
+  },
+  "200356": {
+    "This machine is the Support Demon\nMachine No. 022.  The administrator of\nthis machine is waiting for it and\n<br>\nplans to return to the Aristocratic\nDistrict. The reason why the\nadministrator of this machine\n<br>\npurchased the Dorcerin is that there\nis a trend toward regulation of the\nearth's veins.  In anticipation of\n<br>\nhigh demand for Dorserin, they\npurchased this machine.": ""
+  },
+  "200358": {
+    "<attr><feel_sad_lv1><end_attr>Terrible giants appeared and burned\nGateria.  Even those who survived were\nhunted down by demon soldiers and died\n<br>\njumping into the sea or lava. I've\nfled Gateria with my sister, but I\ncan't stand this town full of\n<br>\nhypocrites.  I'm going to leave for\nsomewhere far away.": ""
+  },
+  "200359": {
+    "I came to the Imperial City for the\nfirst time to get a wife from the\ncity, but I was dizzy at the sight of\n<br>\nit! And what's more, did the bigwigs\nwin over the bigwigs, or were they won\nover?  Wow... what a crazy world we\n<br>\nlive in. I can't keep up with the\nspeed of the city.  I'd be better off\nliving in Ezesol, making salt.": ""
+  },
+  "200360": {
+    "<attr><feel_happy_lv1><end_attr>People in town have been a little\nnicer to me lately.  Did something\ngood happen?": ""
+  },
+  "200361": {
+    "With the destruction of Gatheria, the\nUnderground Empire of Urbaea finally\ntook possession of almost all of the\n<br>\nDwachatka continent. In the Goble\nDesert, the small nation of Dol Worm\nremains, but it belongs neither to\n<br>\nGateria nor to Urbaea, and it lives in\nhiding, its entire castle buried in\nthe sand. It was only a matter of time\n<br>\nbefore Urbea would have united the\nland, but now that Guljanrash is gone,\nit's just a matter of time.": ""
+  },
+  "200362": {
+    "The person who assassinated His\nMajesty Jia Kuba was Guru Yan Lash!  I\nheard he was some kind of evil demon!\n<br>\nPrince Byan, you weren't so bad!  It's\na good thing Gateria didn't perish\ntoo!  Damn demons! You demons!": ""
+  },
+  "200363": {
+    "Princess Ulta is indeed very talented,\nisn't she?  She was the first to\nrealize Guryanlalash's true nature and\n<br>\ndecommissioned him with her own hands,\nwasn't she? Her acting a little\nstrange, like hiding out and looking\n<br>\nfor someone, was all an act.  She was\nactually looking for an opportunity to\nstrike back!": ""
+  },
+  "200364": {
+    "<attr><feel_happy_lv1><end_attr>The other day, I went on a trip around\nthe five continents, and I found the\ncontinent of Eltona to be a very\n<br>\ninsular place! Whenever I tried to\nenter a room, I was told to take off\nmy shoes, and whenever I tried to\n<br>\nenter a forest, I was told to wash and\ncleanse myself, as if the dwarves were\nmud slingers! How beautiful and\n<br>\nrefined our civilization is!  The\nDwarves have won again.": ""
+  },
+  "200365": {
+    "Look at the breathtaking scenery\nspread out below you!  Thousands of\nyears may pass, but the glory of this\n<br>\nplace will be remembered forever. Yes,\nwith the name of His Majesty the\npeace-loving Ja Kuba and his beloved\n<br>\ndaughter, Princess Ulta!  I don't know\nanything about Guru.": ""
+  },
+  "200366": {
+    "<attr><feel_sad_lv1><end_attr>I don't know anything difficult.  But\nI'm troubled that your wife is not in\na good mood.": ""
+  },
+  "200367": {
+    "<attr><feel_sad_lv1><end_attr>We, the general public, are not to\nblame!  It's all the fault of the\nPrincess and Gurjan Rush who seduced\n<br>\nus. Right? I can't even walk down the\nback alleys without feeling like I'm\ngoing to get revenge from the Gateria\n<br>\nrefugees.": ""
+  },
+  "200368": {
+    "<attr><feel_happy_lv1><end_attr>I went on a trip around the five\ncontinents the other day, and if you\nwant to ask me what it was like on\n<br>\neach continent, I'm a rich man and I\ncan tell you! Which continent do you\nwant to hear about?<select_mem>\nAu Grede Continent\nWena Islands\nEltona Continent\nPukland Continent\nNot heard of<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "200369": {
+    "<attr><feel_happy_lv1><end_attr>What other continents do you want to\nhear about?<select_mem>\nAu Grede Continent\nWena Islands\nEltona Continent\nPukland Continent\nNot heard of<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "200370": {
+    "<attr><feel_happy_lv1><end_attr>I have to say, I find the continent of\nOgrid to be a very barbaric place!\nWildness in full bloom, fashioned\n<br>\nwithout a shred of ingenuity, clad\nonly in the skins of beasts!  Aren't\nyou ashamed to be alive? How beautiful\n<br>\nand refined our civilization is!  The\nDwarves have won again.<bw_break>": ""
+  },
+  "200371": {
+    "<attr><feel_happy_lv1><end_attr>I have a feeling that the Wena Islands\nare a very tactless place! It's not\nreally land, it's mostly ocean!  The\n<br>\nwomen grilling fish on the beaches are\nrepulsive, and the men wandering\naround naked is disgusting. I'm\n<br>\ndisgusted by the beauty and\nsophistication of our Urbainian\ncivilization.  The Dwarves have won\n<br>\nagain.<bw_break>": ""
+  },
+  "200372": {
+    "<attr><feel_happy_lv1><end_attr>I'm finding Eltona to be a very\ninsular place! You go into a room,\nyou're told to take off your shoes,\n<br>\nyou go into the woods, you're told to\nwash and cleanse yourself, as if the\ndwarves were mud slingers! How\n<br>\nbeautiful and refined our civilization\nis!  The Dwarves have won again.<bw_break>": ""
+  },
+  "200373": {
+    "<attr><feel_happy_lv1><end_attr>I have found the continent of Pukhland\nto be a very annoying place! When I'm\nwalking around town, Pukuripo gather\n<br>\naround and try to make me laugh with\ntheir crude one-liners!  Stop it! I'm\nnever in time for a joke! I can't even\n<br>\nget my jokes in time! What a beautiful\nand sophisticated civilization we have\nhere in Urbea.  The Dwarves have won\n<br>\nagain.<bw_break>": ""
+  },
+  "200581": {
+    "But I am a passionate Menko Butler.  I\nwill always accept your challenge here\nin this church.": ""
+  },
+  "200582": {
+    "But the game has just begun.  This is\njust the beginning!<bw_break>": ""
+  },
+  "200583": {
+    "But I am a passionate Menko Butler.  I\nwill always accept your challenge here\nin this church.": ""
+  },
+  "200584": {
+    "But I am a passionate Menko Butler.  I\nwill always accept your challenge here\nin this church.": ""
+  },
+  "200585": {
+    "But I am a passionate Menko Butler.  I\nwill always accept your challenge here\nin this church.": ""
+  },
+  "200586": {
+    "But I am a passionate Menko Butler.  I\nwill always accept your challenge here\nin this church.": ""
+  },
+  "200587": {
+    "But I am a passionate Menko Butler.  I\nwill always accept your challenge here\nin this church.": ""
+  },
+  "200623": {
+    "<attr><feel_angry_lv1><end_attr>Oh, no! Who are you?  I'm looking for\nsomething!  I don't have time for you!": ""
+  },
+  "200799": {
+    "Bleep! Entry permit unconfirmed.\nPlease come here and have your\nauthorization completed!": ""
+  },
+  "200801": {
+    "<icon_exc>Oh, no. Oh, no.  You need a permit to\nenter the castle of the Urbea Empire!": ""
+  },
+  "200866": {
+    "We are a tailor with a royal warrant.\n I had received an order directly from\nthat Guru Yanmar. And yet, I never\n<br>\nthought that Guru Yanmar would turn\nout like that.  And now the head\nresearcher is missing too! The dress I\n<br>\nmade for the Chief Scientist was a\nbrilliant design in red and green, but\nit's such a pity~. Would you please\n<br>\nfind a suitable replacement for our\nChief Scientist?  I feel sorry for the\noutfit as it is!": ""
+  },
+  "200867": {
+    "That's the way it should be!  We\nalready have a good idea of where they\nare! Mr. Chukaka, Mr. Pakal, and Mr.\n<br>\nTsondem, these three researchers at\nthe First Office of the Imperial\nTechnical Agency are the ones I want\n<br>\nyou to look into. I heard that all of\nthem are in charge of the Magic\nMachine Development Department, so I\n<br>\nthink that they are the best\ncandidates to be the next head of the\ndepartment. I want each of the three\n<br>\nto put on the head researcher's\nuniform and take a picture of them.\n Thank you very much!": ""
+  },
+  "200868": {
+    "That's the way it should be!  I have a\nlot of favors to ask of you. I\nappreciate your concern, but I'd like\n<br>\nyou to sort things out before coming\nback!": ""
+  },
+  "200869": {
+    "<attr><feel_sad_lv2><end_attr>That's right.  This is not for the\ngeneral public.  It's a pity.": ""
+  },
+  "200870": {
+    "<pc>The first researcher's clothes (a very\nimportant one) were obtained!<me 60>": ""
+  },
+  "200871": {
+    "I want you to find me a suitable\nreplacement for the head researcher!\n I don't want to see those clothes go\n<br>\nto waste!<open_irai><bw_break>": ""
+  },
+  "200872": {
+    "Mr. Chukaka, Mr. Pakal, and Mr.\nTsongdem, these three principal\ninvestigators at the First Office of\n<br>\nthe Imperial Technical Agency are\nworth seeing. I would like each of\nthem to put on the head researcher's\n<br>\nuniform and have their appearance\nphotographed.  Thank you very much!": ""
+  },
+  "200873": {
+    "We've been waiting for you!  Did you\nget the photos of the three PIs?": ""
+  },
+  "200874": {
+    "Oh, no, not yet?  I hope you can find\nsomeone who fits that dress.": ""
+  },
+  "200875": {
+    "<attr><feel_angry_lv2><end_attr>Oh, you only have one?  I beg your\npardon? The other two turned you down?\nOh, dear! How rude of them!  They have\n<br>\nno idea what an honor it is to be able\nto wear this dress! We don't want such\nrudeness! I'm sure that the person in\n<br>\nthis photograph would be suitable for\nthe first scientist's uniform.  Let's\nhave a look at it right away.": ""
+  },
+  "200876": {
+    "<attr><feel_sad_lv2><end_attr><icon_exc>Well! What is it? This picture!  It\nbears no resemblance to the first\nresearcher!  My clothes would cry if\n<br>\nthey were worn by such a person! After\nall, it's not so easy to find someone\nto replace the Chief Scientist. At the\n<br>\nvery least, it would be nice if there\nwas someone of the same race as the\nChief Scientist somewhere.": ""
+  },
+  "200877": {
+    "<icon_exc>You're not a human being if you look\nclosely!  I'd like you to try these\nclothes on!": ""
+  },
+  "200878": {
+    "Oh, my! It suits you very well!  The\nface is somewhat similar to the first\nresearcher's, and from a distance, you\n<br>\ncan easily mistake him for someone\nelse! I'm so pleased to see you\nwearing it so splendidly and so\n<br>\nchicly!  It's a great honor to be a\ntailor!<bw_break>": ""
+  },
+  "200879": {
+    "You'll never find anyone who looks\nbetter in this dress than you do. I\nhave made my decision!  From now on,\n<br>\nno matter who becomes the first\nresearcher, I will not have you wear\nthis dress. Thank you for your help.\n<br>\n I would like you to accept this in\nreturn!": ""
+  },
+  "200880": {
+    "I'm satisfied. I'll sell these clothes\nto you for as much as you want.  I'd\nlike you to come!": ""
+  },
+  "200881": {
+    "After all, it's not so easy to find a\nperson to replace the first\nresearcher.<open_irai><bw_break>": ""
+  },
+  "200882": {
+    "At the very least, it would be nice if\nthere was someone of the same species\nas you, Mr. First Researcher,\n<br>\nsomewhere.": ""
+  },
+  "200883": {
+    "Would you like me to give Satete a\npicture of Chief Tsongdem?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "200884": {
+    "<pc>gave Satete a picture of Chief\nTsongdem!": ""
+  },
+  "200885": {
+    "Satete stared intently at Tsongdem's\npicture.": ""
+  },
+  "200886": {
+    "<pc>Satete was dressed as a head\nresearcher!<se GS_009_1 0>": ""
+  },
+  "200887": {
+    "I promised to sell you the first\nresearcher's clothes! I'm glad you\nfound someone suitable! Good bye.<bw_break>": ""
+  },
+  "200952": {
+    "I am deeply moved! The vending machine\nthat I spent my personal fortune to\ndevelop has finally been completed.\n<br>\n Probably the first of its kind in the\nworld! Gahaha!": ""
+  },
+  "200953": {
+    "It appears to be a machine that sells\nbooks. But apparently you can't buy\nthem with gold.": ""
+  },
+  "200954": {
+    "The lack of exercise has become a\nsocial problem recently because of the\nuniversal floating chairs.  That's why\n<br>\nwe developed a vending machine that\nsells books. I developed this vending\nmachine with my own money and made a\n<br>\nlot of money! At the same time, it\nsolves a social problem!  Would you\nlike to hear how it works?<yesno><break>": ""
+  },
+  "200955": {
+    "Is that right? I'm itching to talk to\nsomeone, but I'm not a fool enough to\ntalk to someone who isn't interested.": ""
+  },
+  "200956": {
+    "Let me explain. The books sold at the\nvending machines all have a story that\nmakes me want to read the rest of the\n<br>\nbook. But if you want to read the\nrest, you have to go to the vending\nmachines outside the capital to buy\n<br>\nthem. The places where the vending\nmachines are located are not well-\ndeveloped places that can be accessed\n<br>\nwith a universal floating chair, but\nare all uncharted areas where you have\nno choice but to use nature and your\n<br>\nfeet! The desire to read more puts\npeople in a situation where they have\nno choice but to exercise.  And the\n<br>\nproduct sells. Gahaha!": ""
+  },
+  "200957": {
+    "It is a vending machine selling books.\nAmong the books for sale, there is a\nvolume 1 of Urbare Demon Warrior\n<br>\nWeekly. Would you like to purchase the\nfirst volume of Urbare Demon Warrior\nWeekly using the magnetic book\n<br>\npurchase ticket?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "200958": {
+    "<pc>got a copy of the weekly Urbea Demon\nSoldier, vol. 1 (a very important\none).<me 60>The weekly Urbare Demon Soldiers is in\nsix volumes. Let's look for the\nmissing volume!": ""
+  },
+  "200959": {
+    "<pc>got a copy of the weekly Urbea Demon\nSoldier, vol. 1 (a very important\none).<me 60>Now we have all the weekly Urbaea\nDemon Soldiers. Let's give them to\nPhilosoros at Granzedora Castle!": ""
+  },
+  "200960": {
+    "It's a vending machine that sells\nbooks. I've already bought the first\nvolume of \"Urbare Demon Soldiers\n<br>\nWeekly.": ""
+  },
+  "201033": {
+    "As I thought, it is not so easy to\nfind someone to replace the PI. At the\nvery least, it would be nice if there\n<br>\nwas someone of the same species as the\nChief Scientist somewhere.": ""
+  },
+  "201346": {
+    "Joukoso Ulbea Underground Empire.  You\nare the 1082315th traveler in the\nUnderground Empire of Urbea.  You are\n<br>\nthe 1082315th traveler. You are\npermitted to stay in the capital.\nHowever, travelers without a permit\n<br>\nwill not be allowed to visit the\nImperial Castle of Urbaea and have an\naudience with Princess Ulta.\n<br>\nFurthermore, the issuance of entry\npermits is currently not permitted.\n Please acknowledge this.": ""
+  },
+  "201350": {
+    "Travelers without a permit will not be\nallowed to visit the Imperial Castle\nof Urbea.  Furthermore, no permits\n<br>\nwill be issued.": ""
+  },
+  "201351": {
+    "This is the Imperial City of the\nUnderground Empire of Urbea.  Please\nregister as a traveler here and obtain\n<br>\npermission to stay.": ""
+  },
+  "201352": {
+    "<attr><feel_angry_lv1><end_attr>Oh, my God, you guys!  I don't have a\nsingle tool!": ""
+  },
+  "201353": {
+    "<attr><feel_angry_lv1><end_attr>Aata! Not at all!  What I'm looking\nfor is a silver Urbea Menko!  A menko\nas beautiful as a silver coin!": ""
+  },
+  "201354": {
+    "<attr><feel_angry_lv1><end_attr>Keek! I'm not going to teach you\nanything you don't know!": ""
+  },
+  "201355": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid><pc>Did you hear that, Sama?  We need a\npermit to enter the castle in order to\ngain an audience with Princess Ulta.\n<br>\nIn order to obtain a permit, it is\nnecessary to search for a powerful\nperson with a wide network of contacts\n<br>\nand information. The best solution is\nto search for a well-connected, well-\ninformed, and influential person.  It\n<br>\nis currently very popular in the\nImperial capital.  The possibility is\ngreat that MENKO lovers have a wide\n<br>\nnetwork of contacts. Ulbea Menco is a\ndisc-shaped piece of metal made of\ngold, silver, and copper, different\n<br>\nfrom ordinary paper Menco. It is very\npopular as a subject of this museum.\n The Teito is a place for Menko lovers\n<br>\nto seek out!": ""
+  },
+  "201356": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>In order to obtain a permit to enter\nthe castle, it is necessary to search\nfor a well-informed person with a wide\n<br>\nnetwork of contacts. Search results\nUrbare Menko.  It is currently very\npopular in the Imperial capital.\n<br>\n There is a big possibility that MENKO\nlovers have a wide network. Ulbea\nMenko is different from ordinary paper\n<br>\nMenko. It is a disk-shaped piece of\nmetal made of gold, silver, and\ncopper. It is very popular as a\n<br>\nsubject of this museum.  The Teito is\na place for Menko lovers to seek out!": ""
+  },
+  "201357": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>Mission understood. If you retrieve\nthe special menko from the person in\nquestion, you may be able to obtain\n<br>\ninformation.  Let's go and make\nKarugaroo disappear!": ""
+  },
+  "201358": {
+    "<pc>school (eg of ikebana)<%sEV_LUA_STRING1>Father Uzza hollowed out the copper\nsoldering iron! Father Uzza hollowed\nout a copper soldering iron!": ""
+  },
+  "201359": {
+    "<pc>school (eg of ikebana)<%sEV_LUA_STRING1>Father Uzza hollowed out a golden\npaddle! Father Uzza hollowed out a\ngolden paddle!": ""
+  },
+  "201360": {
+    "<pc>school (eg of ikebana)<%sEV_LUA_STRING1>Father Uzza hollowed out the silver\nrolling pin! Father Uzza hollowed out\na silver plaster!": ""
+  },
+  "201361": {
+    "You don't have a single tool, do you?": ""
+  },
+  "201362": {
+    "Oh, no, that's not it.  I want a\ncopper Urbare menko!  One that looks\nlike a coin!": ""
+  },
+  "201363": {
+    "Damn. I had high hopes for this.": ""
+  },
+  "201389": {
+    "To the Underground Empire of Urbea.  I\ngive you permission to stay in the\nImperial City.": ""
+  },
+  "202225": {
+    "<attr><feel_happy_lv1><end_attr>That's too bad.<bw_break>": ""
+  },
+  "202437": {
+    "<icon_exc>Entry permit confirmed and registered!\n Entry to the Imperial Castle of Urbea\nis granted.  No further permits are\n<br>\nrequired. This unit will be retrieved.": ""
+  },
+  "202438": {
+    "<pc>gave Defense Demon Soldier 054 a\npermit to enter the castle.": ""
+  },
+  "202836": {
+    "Would you give your compact gear to\nTsukushi, the letter carrier?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "202837": {
+    "<pc>gave the compact gear to Tsukushi, the\nletter carrier!": ""
+  },
+  "202874": {
+    "Young people these days are so boring.\n I wish I could help those who have\nspirit like those kids I rented out my\n<br>\nhouse to in the past.": ""
+  },
+  "202875": {
+    "<attr><feel_happy_one><end_attr>Whoa! All right. I'll tell you what!\n You know, I was just saying the\nLassiter's Lassiter's Lassiter's\n<br>\nLassiter's Lassiter's Lassiter's\nLassiter's Lassiter's Lassiter!<bw_break>": ""
+  },
+  "202876": {
+    "<attr><feel_normal_lv1><end_attr>It was about 10 years ago.  Suddenly,\ntwo groups of penniless people came to\nthe capital.  As a favor to them, I\n<br>\nrented them an empty house. One was a\nyoung Gurjanlalash and the other<kyodai>He was a kid who could do some kind of\nweird trick with a name like \"The\nWizard of Oz\". He said he didn't have\n<br>\na job, so I introduced him to some\nchores at the church. The priest\nentrusted them with various things,\n<br>\nand they proved to be very useful.\nTheir work became well known\nthroughout the capital, and thanks to\n<br>\nthat, they ended up working at the\ncastle.  They moved out of my rental\nhouse.<bw_break>": ""
+  },
+  "202877": {
+    "<attr><feel_happy_lv1><end_attr>When we left, he generously left us a\nhuge sum of money as a thank you for\nrenting the house to us, who knew\n<br>\nnothing about us. I know people say a\nlot of things about young people\nnowadays, but it's nice to see young\n<br>\npeople with dreams.  I was happy to be\nable to help them! Father Uzza at the\nchurch knows a lot more about those\n<br>\nkids back then, so if you're\ninterested, you can ask him.": ""
+  },
+  "202878": {
+    "Would you like to interview Oyaya\nabout Guryanlalash?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "202879": {
+    "<pc>The first time I asked Oyaya about the\nold Guryanlalash!": ""
+  },
+  "202880": {
+    "It seems that Oyaya's story was\nrecorded perfectly on the magnetic\nrecorder! Let's go talk to Father Uzza\n<br>\nnext!": ""
+  },
+  "202881": {
+    "<attr><feel_happy_one><end_attr>The last Menko match was fun.  I hope\nwe can meet again.": ""
+  },
+  "202882": {
+    "<attr><feel_normal_one><end_attr>Oops, I got a little chatty.  Well\nthen.<bw_break>": ""
+  },
+  "202883": {
+    "<attr><feel_normal_one><end_attr>Hmm, you want me to tell you about the\nold Guryan Lash? Very well! If you\nwant to know, I'll do my best to win\n<br>\nyou over again in a battle of Urbea\nMenko!<bw_break>": ""
+  },
+  "202884": {
+    "<attr><feel_normal_one><end_attr>Hmm? We're running low on Urbaea\nmasks.  Put one each of gold, silver,\nand bronze into the toolbox, then call\n<br>\nout to them.": ""
+  },
+  "202885": {
+    "<attr><feel_normal_lv1><end_attr>The rules of Menko Battle are simple.\n Each player puts out one of his or\nher own menko at the same time and\n<br>\ncompetes against each other. The gold\nmedallion is stronger than the silver\nmedallion.  The silver one is strong\n<br>\nagainst the copper one.  And the\ncopper beads are strong against the\ngold beads! In this way, the winner is\n<br>\ndecided by a three-way game.  Let's\nmake this a one-time serious game!\n Can you beat me? Here we go!": ""
+  },
+  "202886": {
+    "<attr><feel_normal_one><end_attr>If you want to know more about the old\nGuryan Lash, let me do my best to win\nyou over again in the Battle of Urbain\n<br>\nMenko! You want to play?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>": ""
+  },
+  "202887": {
+    "<attr><feel_normal_one><end_attr>I see. You don't want to compete.\n That's also fine.  All right, then.<bw_break>": ""
+  },
+  "202888": {
+    "<attr><feel_angry_one><end_attr>Ulvea Menko One-piece match Go! FIGHT!<select_nc>\nput out a golden pencil\nput out a silver platter\nPutting out a copper mask\nHear the rules explained<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "202889": {
+    "<attr><feel_normal_lv1><end_attr>The rules of Menko Battle are simple.\n Each player puts out one of his or\nher own menko at the same time and\n<br>\ncompetes against each other. The gold\nmedallion is stronger than the silver\nmedallion.  The silver one is strong\n<br>\nagainst the copper one.  And the\ncopper beads are strong against the\ngold beads! In this way, the winner is\n<br>\ndecided by a three-way game.  This\ntime, it's a one-time-only serious\ngame!  Are you ready?<bw_break>": ""
+  },
+  "202890": {
+    "<attr><feel_normal_one><end_attr><icon_exc>Stunning.  I conjured it.<%sEV_LUA_STRING1>indicates such things as location of person or thing, location of short-term action, etc<%sEV_LUA_STRING2>You win.<me 71><bw_break>": ""
+  },
+  "202891": {
+    "<attr><feel_normal_one><end_attr><icon_exc>both<%sEV_LUA_STRING1>A draw is not a win.  A draw is not a\nvictory. Too bad!<se Joutyu_SE 35><bw_break>": ""
+  },
+  "202892": {
+    "<attr><feel_normal_one><end_attr><icon_exc>Too bad.  I'm out of here.<%sEV_LUA_STRING1>indicates such things as location of person or thing, location of short-term action, etc<%sEV_LUA_STRING2>You have lost.<se Joutyu_SE 35><bw_break>": ""
+  },
+  "202894": {
+    "<attr><feel_normal_lv1><end_attr>Oh, I'm serious. I can't believe you\nbeat me!  I haven't seen such a hot\ncompetition in a long time.  Your\n<br>\nstrength is truly amazing! All right,\nthen! I'll tell you everything I know\nabout the old Guryan Rush. I will tell\n<br>\nyou everything I know about the old\nGuryan Rush.<kyodai>He started helping me to pay the rent\nat Oyasan's house. He started helping\nme to pay the rent of Oyasan's house,\n<br>\nand when I gave him the job of solving\nthe problems of those who came to the\nchurch for help, he solved more and\n<br>\nmore difficult problems and became\nwell known all over the city. He\nbecame known all over the city for his\n<br>\nquick thinking, his guru-janarachu,\nand his uncanny ability to make things\nhappen.<kyodai>The combination of the two was truly\nsplendid. I thought it would be a\nshame to let them end up as servants,\n<br>\nso I introduced them to His Majesty Ja\nKuba, who was visiting the Menko-kame\non his own. His Majesty, recognizing\n<br>\ntheir talent, took them up to the\ncastle and from that time on they\nbecame apprentices to the castle's\n<br>\npriests.<bw_break>": ""
+  },
+  "202895": {
+    "<attr><feel_normal_one><end_attr>Their remarkable rise to prominence\nwas no surprise.  But sometimes power\nblinds us.  I pray they don't go down\n<br>\nthe wrong path.<bw_break>": ""
+  },
+  "202896": {
+    "<attr><feel_normal_one><end_attr>They were good young men with good\nintentions, but where did they go\nwrong? I can only pray for\n<br>\nGuliyanlalash's soul now.<bw_break>": ""
+  },
+  "202897": {
+    "<attr><feel_normal_one><end_attr>This is all I know about the old\nGuryanlalash.  I hope I was helpful.": ""
+  },
+  "202898": {
+    "<attr><feel_normal_lv1><end_attr>Oy. That looks like a magnetic\nrecorder.  I know a guy who is good at\nfixing things like that, even if they\n<br>\nare broken. There's a guy named\nPocomam in the lower levels of town.\nIf you bring it to him, I'm sure he\n<br>\ncan fix it.": ""
+  },
+  "202899": {
+    "<attr><feel_normal_lv1><end_attr>I know there are a lot of things being\nsaid nowadays, but it's nice to see\nyoung people with dreams.  I was happy\n<br>\nto be able to help them! Father Uzza\nat the church knows a lot more about\nGulianlache back then, so if you are\n<br>\ninterested, you can ask him.": ""
+  },
+  "202900": {
+    "Would you like to interview Father\nUzza about Guryan Lash?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "202901": {
+    "<pc>The first time I asked Father Uzza\nabout the old Guryan Lalash, he said,\n\"I was told that it was a very old\n<br>\nGuryan Lalash, and that it was a very\nold one!": ""
+  },
+  "202902": {
+    "I've had a lot of experience with Father Uzza\nThe experience I've gained<pc>Suddenly I felt like I could read the\ncolor of Menko that Father Uzza was\ngoing to serve next! Shall I continue\n<br>\nto concentrate?<yesno 2><break>": ""
+  },
+  "202905": {
+    "<pc>It was an inspiration! The next thing\nFather Uzza will produce is<%sEV_LUA_STRING1>It is!": ""
+  },
+  "202906": {
+    "I had a feeling, but I guess it was\njust my imagination.": ""
+  },
+  "202907": {
+    "sudden<pc>The magnetic recording machine owned\nby the \"Mere Old Man\" made a funny\nnoise and stopped!<se FQ_182_2 0><bw_break>": ""
+  },
+  "202908": {
+    "No matter how hard I press the switch,\nit doesn't respond.": ""
+  },
+  "202909": {
+    "<attr><feel_normal_one><end_attr>Your magnetic recorder seems to have\nbroken down, but I know a guy who is\njust as good at fixing things like\n<br>\nthat. There's a guy named Pocomam in\nthe lower levels of this town. If you\ntake it to him, I'm sure he'll fix it.\n<br>\nNow...<bw_break>": ""
+  },
+  "202910": {
+    "<attr><feel_normal_one><end_attr>What is it? What do you want from me?\n I'm always happy to bring in rare\njunk.": ""
+  },
+  "202911": {
+    "<attr><feel_normal_one><end_attr>What, you don't have anything to do?\n If you have a broken machine, bring\nit to me.": ""
+  },
+  "202912": {
+    "<attr><feel_normal_lv1><end_attr>You have a magnetic recorder.  It's a\nvery old model, and it's broken.  Even\nif I fix it, it's not for sale. But if\n<br>\nyou bring me the necessary materials,\nI can fix it for you in between jobs.\n I just needed a change of pace. Hmm,\n<br>\nI see.  From the looks of it, the\ncause of the malfunction is that the\ngears inside have worn down and are no\n<br>\nlonger meshing. These heat-resistant\ngears are found in the Chaldean Lava\nBelt's searing lava tubes.<%sEV_QUE_NAME0>You can get it by defeating the \"Mere\nOld Man\", so go get it.": ""
+  },
+  "202913": {
+    "Would you like me to show Pocomam the\nbroken magnetic recording device?<yesno><close>": ""
+  },
+  "202914": {
+    "Your magnetic tape recorder\nmalfunctioned because the gears inside\nthe machine were worn down and no\n<br>\nlonger meshing. These heat-resistant\ngears are in a fiery lava tube.<%sEV_QUE_NAME0>You can get it by knocking down the\n\"I\", so just go and get me a new one.": ""
+  },
+  "202915": {
+    "<attr><feel_normal_one><end_attr>Hey, did you get the heat-resistant\ngears?  I've been doing a lot of\ntroublesome junk repairs over here.\n<br>\n I'll fix it for free for a change.": ""
+  },
+  "202916": {
+    "<attr><feel_normal_one><end_attr>What, you haven't done it yet?  Your\nmagnetic recorder can be fixed as soon\nas you have a heat-resistant gear, so\n<br>\ngo get it.": ""
+  },
+  "202917": {
+    "<attr><feel_happy_one><end_attr>Whoa! You got your hands on some heat-\nresistant gears!  Well then, I'll get\nto work repairing your recording\n<br>\nmachine right out of the gate as a\ndistraction!": ""
+  },
+  "202918": {
+    "<attr><feel_angry_lv2><end_attr><icon_exc>Ahh! Guryanlaksh!  You're\ninvestigating that bastard?  I've got\nsomething to say! I'm sure you'll find\n<br>\nmy opinion valuable!  I'd like to talk\nto him about Guryanlaksh! Come on,\nman.<yesno><break>": ""
+  },
+  "202919": {
+    "<attr><feel_angry_lv3><end_attr>I have a lot of beef with that\nGuliyanlalash guy! It's not fair that\nwe only cover the good stories. Hey,\n<br>\nlisten!<yesno><break>": ""
+  },
+  "202920": {
+    "<attr><feel_normal_lv1><end_attr>All right, then, let me tell you my\nstory.  I am from Gateria. I came here\nas a young man to learn the art of the\n<br>\nUrbain. During my training here, there\nwas a war, and I've seen what Gul\nYanlach can do, and he is the worst\n<br>\nson of a bitch! He attacked my\nhomeland, the beautiful Gateria, with\nhis Urbaean demons and destroyed it in\n<br>\nthe blink of an eye! I still have no\ncontact with my brother who remained\nin the country.  I'm sure he's not\n<br>\nalive anymore. Damn! What did Gateria\ndo?  I would have killed Gul Yan Lash\nwith my own hands if I could have.<bw_break>": ""
+  },
+  "202921": {
+    "Would you give Pocomam the heat-\nresistant gears?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "202922": {
+    "<pc>gave Pocomam heat-resistant gears!": ""
+  },
+  "202923": {
+    "I turned on the magnetic recorder,\nplayed back the audio, and the\nrecorded voice of Father Uzza began to\n<br>\nplay!": ""
+  },
+  "202924": {
+    "<pipipi_low>All right, then! Then I will tell you\neverything I know about the old Guryan\nLash.": ""
+  },
+  "202925": {
+    "Pocomam's story seems to have been\nperfectly recorded by the magnetic\nrecorder! I'd better get back to\n<br>\nKikimimi's to report!": ""
+  },
+  "202926": {
+    "<attr><feel_angry_lv3><end_attr>Guryanlaksh waged war on my homeland,\nthe Kingdom of Gateria, attacking it\nthoroughly and destroying it! He is a\n<br>\ndemon in human form.  I hope you will\nrecord the fact that all the people of\nGateria hate him.": ""
+  },
+  "202976": {
+    "<attr><feel_normal_one><end_attr>I'm sorry, but I'm working on some\ntroublesome repairs right now.  If you\nwant to talk, we can talk later.\n<br>\n That's strange. Why isn't it working?": ""
+  },
+  "202977": {
+    "<attr><feel_normal_one><end_attr>Hey, it's you again. I've been very\nbusy lately, but I finally found some\nfree time.  So, what do you want from\n<br>\nme?": ""
+  },
+  "202978": {
+    "<attr><feel_normal_one><end_attr>What, you don't have anything to do?\n If you have a broken machine, bring\nit to me.": ""
+  },
+  "202979": {
+    "<attr><feel_normal_lv1><end_attr>This is another broken magnetic strip\nrecorder.  And it's a very old model.\nIt's so old, it'll take more work than\n<br>\nlast time to fix it. But I'll fix it\nafter listening to your bitter words\nabout Guryanlaksh.  Thanks to that, I\n<br>\nfeel much better. From the looks of\nit, this malfunction is caused by old,\nworn-out wiring inside and a broken\n<br>\nmagnetic tape. First of all, I'm going\nto go to the Gatara Mountain Forest.<%sEV_QUE_NAME0>to use in place of wiring\n with a flexible mustache and\nAnd then there's the Chaldean lava fields<%sEV_QUE_NAME1>Get me some high-heat magma solution\nfrom the \"Mere Old Man\". That should\nfix it! Oops! I'll tell you what.<%sEV_QUE_NAME1>They are usually hidden in the ground,\nso please be careful and look for\nthem. Well, then, I'll be looking\n<br>\nforward to seeing you!": ""
+  },
+  "202980": {
+    "Would you like me to show Pocomam the\nmagnetic recorder I picked up in my\nold haunt in Gul Yan Lash?<yesno><close>": ""
+  },
+  "202981": {
+    "<attr><feel_normal_lv1><end_attr>From the looks of it, the magnetic\ntape recorder is malfunctioning\nbecause the wiring inside it is old\n<br>\nand worn out, and the magnetic tape is\nbroken. First, we need to get to a\nplace like the Great Gatara Forest.<%sEV_QUE_NAME0>From\n Backwards backwards and backwards mustache that can be used in place of wiring\nAnd then there's the Chaldean lava fields<%sEV_QUE_NAME1>Get me some high-heat magma solution\nfrom the \"Mere Old Man\". That should\nfix it! Oops! I'll tell you what.<%sEV_QUE_NAME1>They are usually hidden in the ground,\nso please be careful and look for\nthem. Well, then, I'll be looking\n<br>\nforward to seeing you!": ""
+  },
+  "202982": {
+    "<attr><feel_normal_one><end_attr>Hey, did you get that long back\nmustache and the hot magma\nsolution? With that, I think I can\n<br>\nmanage to fix that magnetic recording\ndevice.": ""
+  },
+  "202983": {
+    "<attr><feel_normal_one><end_attr>What the heck. You haven't done it\nyet?  I'm the only one who can fix a\nbreakdown that bad.  Bring me the\n<br>\ntools while I'm still free.": ""
+  },
+  "202984": {
+    "<attr><feel_normal_lv1><end_attr>Oh, I see you got it all! Now it's\ntime to show off my skills. I'll show\nyou that there is no machine that I\n<br>\ncan't fix!": ""
+  },
+  "202985": {
+    "Just oil the whiskers, replace the\ndented wires, and then melt the broken\nends of the tape with hot magma\n<br>\nsolution and stick them back together.<se FQ_182_2 1>": ""
+  },
+  "202986": {
+    "<attr><feel_normal_one><end_attr>All right! It's fixed! From the looks\nof it, the magnetic tape inside is\nintact.  Let's see if it works or not.": ""
+  },
+  "202987": {
+    "<attr><feel_normal_one><end_attr><icon_exc>I've heard that voice before!  I've\nheard that voice before!  Is this the\nvoice of Guryan Raju before he came to\n<br>\nthe capital? He was separated from his\nfamily... and struggling desperately\nto see them again.  That's what caused\n<br>\nthat war. I would do anything to see\nmy only brother Pokomchi again.  As\nlong as he's alive.": ""
+  },
+  "202988": {
+    "<attr><feel_normal_one><end_attr><icon_exc>What's that? Pokomchi!  That's\ndefinitely him! That's my brother!\n He's alive and well in the Dara's\n<br>\nDeep!<bw_break>": ""
+  },
+  "202989": {
+    "Would you give backward back to the\npocomam, a mustache, and some high-\nheat magma fluid?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "202990": {
+    "<pc>gave backwards-looking whiskers and\nhot magma fluid to Pocomam!": ""
+  },
+  "202991": {
+    "Pocomam turned on the magnetic\nrecorder and played back the sound!\nThen a familiar male voice began to\n<br>\nplay from the magnetic recorder.": ""
+  },
+  "202992": {
+    "<pipipi_low>I drifted through time and found\nmyself in this hole in the ground. Not\nknowing where I was, I wandered\n<br>\naround, trying to survive, finding\nwater, gathering nuts, and passing the\ntime without hunger. I wandered\n<br>\naround, but time just kept passing,\nand when I couldn't bear the\nloneliness any longer, I found myself\n<br>\nlying outside the hole in the ground,\nin a hole in the ground.<kyodai>found.<kyodai>I took care of him and talked to him,\nand it turned out that he was a time\ncastaway just like me. The\n<br>\ncompanionship I gained in my solitude\nwas very reassuring. I was<kyodai>I told my sister what happened to me\nI was to see my sister again<kyodai>be beyond one's control<pc_rel2>We have agreed to cooperate in order\nto reunite with the \"Mere Old Man\". We\nwill leave the hole-in-the-wall and\n<br>\nset out for a town somewhere to\nfulfill a great ambition. The\nchallenges ahead will be\n<br>\nextraordinary. But with me, Quad.<kyodai>I will surely accomplish my goal. I\nleave my resolution here to remember\nmy original intention.": ""
+  },
+  "202993": {
+    "<pc>told Pocomam that it was a former POW\nnamed Pocomchi who told him the\nlocation of this antiquated magnetic\n<br>\nrecording device!": ""
+  },
+  "202994": {
+    "<attr><feel_happy_lv3><end_attr>Thanks for letting me know!  Now I\ngotta go see Pocomchi and let him know\nI'm alive too! I owe it all to you for\n<br>\nyour coverage!  You should also thank\nthe guy who writes about\nGuliyanlalash!": ""
+  },
+  "202995": {
+    "<attr><feel_happy_one><end_attr>Thanks to you, I'm reunited with my\nbrother, Pokomchi, in the Dara's Vein!\n Thanks for the tip! I still don't\n<br>\nlike Guryanlaksh, but now that I know\nhe misses his family, I don't hate him\nas much as I used to.": ""
+  },
+  "203064": {
+    "<attr><feel_normal_lv1><end_attr>Thank you very much!  By the way, you\nhave a visitor. I know this is sudden,\nbut could you do me a favor?<yesno><break>": ""
+  },
+  "203065": {
+    "<attr><feel_sad_lv1><end_attr>Too bad.  We look forward to seeing\nyou again!": ""
+  },
+  "203066": {
+    "<attr><feel_happy_lv1><end_attr>Wow, I'm so happy! I'd like to make a\nrequest regarding the new letter paper\nwe're planning to sell at the post\n<br>\noffice. The fact is, the letter paper\nis not selling at all, and if things\ncontinue as they are, the post office\n<br>\nis in danger of closing.  So I thought\nabout why they are not selling well.\nThe cause is probably the technology\n<br>\nof this country.  It's faster and more\nconvenient than writing letters, isn't\nit? I can't talk about how nice it is\n<br>\nto write letters.  First of all, we\nneed to get people to buy letter\npaper! That's why I decided to design\n<br>\nthe letter paper according to the\ncustomer's taste.  The design of the\nletter paper is the \"Gear-jogging\n<br>\nletter paper\"! It's a \"gear-jointed\"\nletter. In the Gatara Mountain Forest,\netc.<%sEV_QUE_NAME0>If you defeat the monster, you can get\na paper-thin gear called a \"compact\ngear\". We will incorporate this gear\n<br>\ninto our letter paper and grab the\nhearts of the mech-loving dwarves!\n I'm sure it will sell like hotcakes.\n<br>\nSo, please, could you go out and get a\ncompact gear? Of course, we'll give\nyou a chance to give away the finished\n<br>\nstationery!": ""
+  },
+  "203067": {
+    "<attr><feel_happy_lv2><end_attr>Really? I'm so happy!  I'm so happy!\n Then, I'll be waiting for it with\npleasure!": ""
+  },
+  "203068": {
+    "Really? I did it!  What is it? Are you\nsure you're not taking on too many\njobs? That's no good! You're too busy.\n<br>\n I'll be waiting for you, so don't\nworry!  Please come back when you are\nfree!": ""
+  },
+  "203069": {
+    "<attr><feel_sad_lv1><end_attr>Hmmm, too bad.  Please come back if\nyou change your mind!": ""
+  },
+  "203070": {
+    "<shake_big>Yup! To the post office. Hey there!\n How may I help you today? I'm sorry.\n It's been a while since we've had a\n<br>\nvisitor, so we were a bit in a rush.\nWell then, let's see you again.<bw_break>": ""
+  },
+  "203071": {
+    "Thank you very much!  And, sir. Don't\nforget your promise to get the compact\ngear.<open_irai><bw_break>": ""
+  },
+  "203072": {
+    "Compact gear is found in the Great Gatara Forest and elsewhere<%sEV_QUE_NAME0>You can sometimes get it by defeating\na demon called \"the demon\"!": ""
+  },
+  "203073": {
+    "Ah, you have a visitor!  Did you bring\nwhat I asked for by any chance?": ""
+  },
+  "203074": {
+    "Well then, I guess I'll have to buy\nsome letter paper.  Let's see...<bw_break>": ""
+  },
+  "203075": {
+    "<attr><feel_happy_lv1><end_attr>Wow, thank you very much!  I'm going\nto build a compact gear and make a\ncogwheel letter board right away!": ""
+  },
+  "203076": {
+    "<attr><feel_happy_lv3><end_attr>Phew! It's amazing! It's a\nmasterpiece!  Here you go. Urbare\nUnderground Empire's limited edition\n<br>\nlocal stationery is ready~!": ""
+  },
+  "203077": {
+    "<attr><feel_happy_lv1><end_attr>The rotating gears, which can be\nglimpsed, will grab the hearts of\nmech-loving dwarves!  I'm sure it will\n<br>\nsell like hotcakes. The spinning gears\nhave no function, but the first step\nis to get people interested in them.\n<br>\n That is the first step in our sales\nstrategy! We also put a lot of effort\ninto the design of the letter paper.\n<br>\n As a representative of dwarves who\nlove mecha, I used Princess Ulta as\nthe motif. We will start selling the\n<br>\ngear-jockey letter paper at this post\noffice as soon as possible!  We look\nforward to seeing you again.": ""
+  },
+  "203078": {
+    "Listen, customers!  We sold the\ncogwheel letter paper right away!\nDwarves who purchased the letter paper\n<br>\nwere impressed with the thinness of\nthe gears when they disassembled it on\nthe spot. He wanted to show it to his\n<br>\nfriends! He sent a letter from the\npost office with a message on the\ncogwheel letterhead. The first step of\n<br>\nour sales strategy was a great\nsuccess!  I will do my best to make\nthem more interested in our products.\n<br>\nWell then...<feel_happy_lv1><bw_break>": ""
+  },
+  "203201": {
+    "<pc>can now buy the first researcher's\nclothes!<me 71>": ""
+  },
+  "203560": {
+    "<pc>school (eg of ikebana)<%sEV_LUA_STRING2>The first time, Father Uzza was a\npriest! Father Uzza was<%sEV_LUA_STRING1>The first time I saw him, he was a bit\nof a jerk!": ""
+  },
+  "203561": {
+    "<pc>school (eg of ikebana)<%sEV_LUA_STRING2>The first time, Father Uzza was a\npriest! Father Uzza was<%sEV_LUA_STRING1>The first time, the first time, the\nfirst time, the first time, the first\ntime!": ""
+  },
+  "203562": {
+    "<pc>school (eg of ikebana)<%sEV_LUA_STRING2>The first time, Father Uzza was a\npriest! Father Uzza was<%sEV_LUA_STRING1>The first time, the first time, the\nfirst time, the first time, the first\ntime!": ""
+  },
+  "203569": {
+    "Open the back, replace it with this\nbrand-new heat-resistant gear, close\nthe lid, and you're good to go!<se FQ_182_2 1>": ""
+  },
+  "203570": {
+    "<attr><feel_happy_one><end_attr>All right! It's fixed! Press the\nbutton and make sure it works. I don't\nwant any complaints later that it\n<br>\nwasn't fixed.": ""
+  },
+  "203748": {
+    "<attr><feel_normal_one><end_attr>Hey there. This is a junkyard.  Worn-\nout gears, filleted shafts.  A\ngraveyard of useless, broken parts.\n<br>\nBut you know what, these are hard\nworking people who have done their\nbest for the Imperial City.  They can\n<br>\nstill work! I think they're saying\nthat. I don't think they can carry\npeople like the elevators or fight\n<br>\nlike the demon soldiers anymore. But\nthere's something I want to make with\nall the junk that's been thrown away\n<br>\nhere.  So, I was wondering if you\ncould help me out.": ""
+  },
+  "203749": {
+    "<attr><feel_happy_lv3><end_attr>Will you help me? Thanks~!  There was\none part that I couldn't get at the\njunkyard, and I was having a hard time\n<br>\nfinding it~.<bw_break>": ""
+  },
+  "203750": {
+    "<attr><feel_happy_lv3><end_attr>I want a shiny lens.  Lenses are so\nvaluable that no one throws them away\nand no one sells them at parts stores.\n<br>\nMany lens makers have been drafted to\nthe Imperial Technical Office because\nof the war with Gateria, so there is\n<br>\nno one who can make lenses. That's why\nI need you to get the lenses.  I'll be\nwaiting for you with my junk.": ""
+  },
+  "203751": {
+    "<attr><feel_normal_one><end_attr>I'm trying to get a lens.  Menko-ya in\nthe middle part of the Imperial\ncapital seems to have connections to\n<br>\nobtain various kinds of goods. There\nare rumors of rip-offs, but just for\nthe sake of it, try talking to Menko-\n<br>\nya.  I think his name was Chagan.": ""
+  },
+  "203752": {
+    "<attr><feel_normal_lv1><end_attr>Yay!  You seem to be very busy, don't\nyou?  Aren't you busy with all the\nother things you're asked to do? You\n<br>\ncan help out when you can.  I'll be\nwaiting for you and your junk, so\nplease come back after you've finished\n<br>\nyour chores.": ""
+  },
+  "203753": {
+    "<attr><feel_normal_lv1><end_attr>I see. Hmm, too bad.  If you ever feel\nlike helping out, please give me a\ncall anytime.": ""
+  },
+  "203754": {
+    "<attr><feel_normal_one><end_attr>I'd like to make something out of all\nthe junk that's been thrown away here,\nbut I need a shiny lens.<open_irai><bw_break>": ""
+  },
+  "203755": {
+    "<attr><feel_normal_one><end_attr>Chagan-san, a dry bean curd store in\nthe middle of the Imperial City, may\nknow how to get it.  Ask him just for\n<br>\nthe sake of it.": ""
+  },
+  "203756": {
+    "<pc>The first time, the owner paid 3,000\ngold to Chagan, a dry curing shop.": ""
+  },
+  "203757": {
+    "<pc>The first time, the owner paid 2000\ngold to Chagan, a dry curing shop.": ""
+  },
+  "203758": {
+    "<pc>The first time I went to the\nrestaurant, I paid 1,500 gold to\nChagan, a dry-canning vendor.": ""
+  },
+  "203759": {
+    "<attr><feel_normal_lv1><end_attr>Heh, heh. What can I do for you?  I'll\nsell you anything you want as long as\nyou pay me.<select>\nI want a lens\nI want a face\nquit<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "203760": {
+    "<attr><feel_normal_lv1><end_attr>Which one do you want?<select>\nCopper Urbea Menco\nSilver Urbare Menco\nGold Urbare Menco\nMenco Starter Set\nquit<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "203761": {
+    "<attr><feel_think_lv3><end_attr>You want a lens? Don't be silly.  The\nImperial Technical Agency has a\nmonopoly on them because they are\n<br>\nindispensable for the eyes of the\nDemon God Soldier. It's a white thing\nthat poor people and refugees like us\n<br>\ncan't afford. Give it up.<bw_break>": ""
+  },
+  "203762": {
+    "<attr><feel_normal_one><end_attr>That's just third-rate merchant talk.\n I've got some great information for\nyou.  For 3,000 gold, you want to buy\n<br>\nit?<yesno 2><break>": ""
+  },
+  "203763": {
+    "<attr><feel_happy_one><end_attr>That's a good buy. There's always a\ngood buy!": ""
+  },
+  "203764": {
+    "<attr><feel_normal_one><end_attr>Heh, well, I can't help it.  I'll sell\nit to you for 2000 gold.  That's good,\nright?<yesno 2><break>": ""
+  },
+  "203765": {
+    "<attr><feel_happy_one><end_attr>Good buy. Thank you very much.": ""
+  },
+  "203766": {
+    "<attr><feel_normal_one><end_attr>Heh, heh, heh.  How about 1,500 gold?\n I can't do better than that.<yesno 2><break>": ""
+  },
+  "203767": {
+    "<attr><feel_normal_one><end_attr>Oh, man.  This is good for business.\nThank you very much.": ""
+  },
+  "203768": {
+    "<attr><feel_think_lv3><end_attr>Hmmm...okay. That's too bad.  I'm\ngoing to lose a lot of money.  Come\nback again. Bye.": ""
+  },
+  "203769": {
+    "<attr><feel_normal_lv1><end_attr>Then I'll tell you the best part.  I\ntold you that the lenses monopolized\nby the Imperial Technical Agency are\n<br>\nused for the eyes of the Demon\nSoldiers, didn't I? If that's the\ncase, just take it away from the Demon\n<br>\nSoldiers.  If I do that, I'll be\ncaught in a flash. Go to the forced\nlabor camp in the Daraaz vein.  You\n<br>\nwon't get caught there.  I can't tell\nyou why here.<bw_break>": ""
+  },
+  "203770": {
+    "<attr><feel_normal_one><end_attr>That's all the information I have for\nyou.  Try to find a broken Demon\nSoldier.  The rest is up to your luck.\n<br>\nThat's right.  If you want noodles,\ncome back again.": ""
+  },
+  "203771": {
+    "<attr><feel_think_one><end_attr>You want a lens?  Information doesn't\ncome for free.  First, you need to get\nthe money. Bye-bye.": ""
+  },
+  "203772": {
+    "<attr><feel_normal_one><end_attr>You want a shiny lens?  I've got some\ngreat information for you.  You want\nto buy it for 3,000 gold?<yesno 2><break>": ""
+  },
+  "203773": {
+    "<attr><feel_normal_one><end_attr>I'd like to make something out of all\nthe junk that's been thrown away here,\nbut I need a shiny lens.<open_irai><bw_break>": ""
+  },
+  "203774": {
+    "<attr><feel_normal_one><end_attr>You want me to go to the forced labor\ncamps in the Dara's Great Depression?\n If Mr. Chagan says so, I guess I can\n<br>\ncount on him.  I'd like you to go\nthere just for the sake of it.": ""
+  },
+  "203775": {
+    "<attr><feel_normal_lv1><end_attr>If you want a lens, take it off the\ndemon soldiers.  Go to the forced\nlabor camp in the Daraaz vein.  You\n<br>\nwon't get caught there. That's all the\ninformation I have.  Try to find a\nbroken Demon God Soldier.  The rest\n<br>\ndepends on your luck.<bw_break>": ""
+  },
+  "203776": {
+    "<attr><feel_normal_one><end_attr>I'd like to make something out of all\nthe junk that's been thrown away here,\nbut I need a shiny lens.": ""
+  },
+  "203777": {
+    "<attr><feel_think_lv3><end_attr><icon_exc>Hmmm.  It's true that this is a lens,\nbut it's so scratched up that I don't\nthink I can use it.<open_irai><bw_break>": ""
+  },
+  "203778": {
+    "<attr><feel_think_lv3><end_attr>If only there had been a lens\ncraftsman as skilled as Mr. Bafucho at\na time like this, he would have\n<br>\npolished the lens to a shine.": ""
+  },
+  "203779": {
+    "<pc>The \"Mere Old Man\" showed the\nscratched lens to the re-repairer.": ""
+  },
+  "203780": {
+    "<attr><feel_normal_one><end_attr>I'd like to make something out of all\nthe junk that's been thrown away here,\nbut I need a shiny lens.": ""
+  },
+  "203781": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>Wow. Shining lenses!  Did a skilled\nlens craftsman polish them?  I'll get\nright to work, so please wait for me.": ""
+  },
+  "203782": {
+    "It's done!  The junk projector is\ncomplete!": ""
+  },
+  "203783": {
+    "<attr><feel_happy_one><end_attr>Even tired old junk can keep turning\nthe light film.  That's what I\nthought, and that's how I made it. The\n<br>\nimages on the film are magnified and\nprojected by the shiny lens you got.<bw_break>": ""
+  },
+  "203784": {
+    "<attr><feel_happy_lv2><end_attr>I'm very happy to answer the call for\nmore work from these discarded junks.\nI couldn't have made it without the\n<br>\nlens.  I want you to have this junk\nprojector after you get the lenses.": ""
+  },
+  "203785": {
+    "<attr><feel_happy_one><end_attr>Do you know how to use the junk\nprojector?  If you place it in your\nhouse, you can project your memories.\n<br>\nThe junk will be happy.  I hope you\nwill show them many of your wonderful\nmemories.": ""
+  },
+  "203786": {
+    "Would you give a shiny lens to a\nrepairer?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "203787": {
+    "<pc>handed the shiny lens to the re-\nrepairer.": ""
+  },
+  "203788": {
+    "With a skilled hand, the re-repairer\nassembled the discarded junk and\ninserted the lenses at the end!<se FQ_182_1 0>": ""
+  },
+  "203789": {
+    "Repairs are<pc>The projector was a piece of junk.": ""
+  },
+  "203790": {
+    "How's that old junk projector working\nout for you?  If you put it in your\nhouse, it should be able to project\n<br>\nyour memories. I'm sure they'll be\nhappy to see it.  I hope you'll show\nthem lots of your beautiful memories.": ""
+  },
+  "203860": {
+    "<attr><feel_happy_lv1><end_attr>He's got a curious look on his face.\n That's definitely Urbare Menko.  I\ndon't sell fake stuff.<bw_break>": ""
+  },
+  "203876": {
+    "<attr><feel_normal_one><end_attr>But I am a passionate Menko Butler.  I\nwill always accept your challenge here\nin this church.": ""
+  },
+  "203877": {
+    "<attr><feel_normal_one><end_attr>But I am a passionate Menko Butler.  I\nwill always accept your challenge here\nin this church.": ""
+  },
+  "203895": {
+    "Would you like to give the Defense\nMaj. 054 a permit to enter the city?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "203896": {
+    "<attr><feel_sad_one><end_attr>I'm sure she'll be fine since she's\nwith me, but I'm still worried.": ""
+  },
+  "203897": {
+    "<icon_exc><turn_pc>Oh? I know what you mean.  You're a\nvery skilled adventurer, aren't you?\n Will you do me a favor? Actually, my\n<br>\nhusband is an adventurer too, and he's\nbeen going on adventures under the\nname \"Jade's Wings\" since he was\n<br>\nyoung, but he's always reckless, and\nthis time he left with his partner,\nsaying there's a great romance in a\n<br>\nfiery lava cave in the Chaldean Lava\nBelt. Please! Can't you go to the\nBurning Lava Caves and help your\n<br>\nhusband?  I have a bad feeling about\nthis one.": ""
+  },
+  "203898": {
+    "<attr><feel_happy_lv1><end_attr>Thanks! My husband is called Kibache.\n The Burning Lava Caves are in the\nChaldean Lava Belt.  Please, I'm\n<br>\nlooking forward to working with you.": ""
+  },
+  "203899": {
+    "Thank you!   But you seem to be\ngetting requests from a lot of people.\nPlease solve those first, and then\n<br>\ncome back again.": ""
+  },
+  "203900": {
+    "<attr><feel_sad_one><end_attr>Yes, I'm sorry to hear that.  If you\nchange your mind, come back.": ""
+  },
+  "203901": {
+    "I need you to help my husband,\nKibache, who has gone on an adventure\nto the fiery lava tubes in the\n<br>\nChaldean Lava Belt.<open_irai><bw_break>": ""
+  },
+  "203902": {
+    "<attr><feel_sad_one><end_attr>When I think about it, something seems\nstrange this time.  God, please\nprotect my husband and Ryuta.": ""
+  },
+  "203903": {
+    "<attr><feel_happy_lv1><end_attr><icon_exc><turn_pc>Thank God your husband and Ryuta are\nsafe.  I had a bad feeling about this.\n This is for you. Take it.": ""
+  },
+  "203904": {
+    "<attr><feel_happy_lv1><end_attr>But still... Deirdre.  I never dreamed\nthat the day would come when I would\nactually bring them to you. It was a\n<br>\nlong time before I got married, but I\nonce told Kibache that I would go on a\ndate with him if he brought me a set\n<br>\nof Dia Diamonds. To be honest, it was\njust an excuse to turn down his\npersistent advances, but he took it to\n<br>\nheart and set off on a journey to find\nthe Dia Diamond.<bw_break>": ""
+  },
+  "203905": {
+    "<attr><feel_happy_lv2><end_attr>When Kibache returned from his trip,\nhe said, \"I didn't find the gem, but\ninstead I found a phantom beast.\n<br>\n Kibache told me that he couldn't find\nthe gem, but he found a rare animal\ninstead. And the one he took me to see\n<br>\nwas his partner, Ryuta, the red\ndragon. He said, \"I have a present for\nyou! He said, \"Don't treat me like an\n<br>\nobject, Dora! Ryuta got angry and they\nhad a big fight. It was dusty to see\nhim like that.  After that, the three\n<br>\nof us started playing together, and\nbefore I knew it, we were married. If\nshe wanted to fulfill the promise she\n<br>\nmade that day, why didn't she just\nbring it herself?": ""
+  },
+  "203907": {
+    "Would you give a piece of Deirdre to\nLalaconea?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "203908": {
+    "<pc>gave Lalaconea a piece of the Deadaia\nand passed on a message from Kibache.": ""
+  },
+  "203909": {
+    "<attr><feel_happy_lv1><end_attr>Whenever I come home after an\nadventure, he always tells me about\nhis adventures. This time it's about\n<br>\nme and his promised jewel, the\nDaredire.  I'm excited to see what\nkind of adventure we had.<heart><bw_break>": ""
+  },
+  "203910": {
+    "<attr><feel_happy_one><end_attr>Hah, Kibache and Ryuta, I can't wait\nfor them to come back.": ""
+  },
+  "203911": {
+    "<attr><feel_sad_one><end_attr>My husband has gone on another\nadventure.  I'm sure he'll be fine\nsince he's with me, but I'm worried.": ""
+  },
+  "204071": {
+    "<attr><feel_normal_one><end_attr>You're a good shopper, aren't you?\n I'm going to end up making the\nmerchant cry.<bw_break>": ""
+  },
+  "204072": {
+    "<attr><feel_normal_one><end_attr>Oh, come on. Don't be stingy.  But I\nlike you.  I'll sell it to you at a\nfriend's price.<bw_break>": ""
+  },
+  "204093": {
+    "<attr><feel_happy_lv3><end_attr>Thanks for the tip, man!  I can't let\nthis happen! I gotta go see him right\nnow and let him know I'm alive too!": ""
+  },
+  "204272": {
+    "I always do reckless things, but this\ntime I have a bad feeling about it.\n Please, I'm counting on you.": ""
+  },
+  "204273": {
+    "Hmm. I see. Princess Ulta. As you may\nalready know, since the death of His\nMajesty, the Prime Minister\n<br>\nGuryanlakshi has been in charge of the\nEmpire. I can't say this out loud, but\nthe orphaned daughter of former\n<br>\nEmperor Ja Kuba, Princess Ulta, has a\nbad reputation among the people. The\neccentric princess is a misanthrope.\n<br>\n With the exception of Lord\nGuryanlaksh, she refuses to have\nanything to do with anyone. When she\n<br>\nhas business outside the throne room,\nshe sends her caretaker, the Demon\nGoddess Machine, on an errand. Yes,\n<br>\nthat's right.  If it's Princess Ulta's\ndemonic machine, she might be\nauthorized to issue a permit to enter\n<br>\nthe castle. You can sometimes see that\nDemon Deity's machine in the Imperial\nCity, so you should look for it around\n<br>\nthe plaza. This is about all I can\ntell you.  It was a really good Menko\nbattle.  I look forward to the day we\n<br>\ncan fight again!": ""
+  },
+  "204274": {
+    "<pc>explained that he wanted an audience\nwith Princess Ulta and needed a permit\nto enter the castle.": ""
+  },
+  "204281": {
+    "Our store is a royal tailor.  I had\nreceived an order directly from Guru\nYanmar. I didn't think so. Even the\n<br>\nhead researcher is missing!  It's a\npity, because the red and green colors\nwere so vivid and exciting. We have no\n<br>\nchoice but to make up for this\ndisappointment with Princess Ulta's\ncoronation gown. We'll make her an\n<br>\nextravagant and gorgeous dress!": ""
+  },
+  "204287": {
+    "Perhaps it's because the corridor\nright there is convenient for access\nto the lower level, but sometimes\n<br>\npeople like you walk through. However,\nyou can rest assured that the security\nof the depository is top notch.  If\n<br>\nyou need anything, please use the\nfront of the counter.": ""
+  },
+  "204399": {
+    "<attr><feel_sad_one><end_attr>I'm sorry about the mess.  But so are\nall the people of Gaetheria.  He's a\ndemon in human form. How's it\n<br>\ncoming? Did you get it on tape?  Make\nsure to record the fact that there are\na lot of people who hate him.": ""
+  },
+  "204826": {
+    "<attr><feel_sad_one><end_attr>If I can't get the lenses, I may have\nto give up on what I want to make out\nof junk. Sigh.": ""
+  },
+  "234580": {
+    "<attr><feel_sad_one><end_attr>I never thought Ryuta would grow so\nbig.  As expected, we'll have to move.": ""
+  },
+  "234582": {
+    "<icon_exc><turn_pc>Oh, it's been a long time. My husband\nwent on an adventure right after he\ncame back.  He doesn't even know what\n<br>\nto do.": ""
+  },
+  "234584": {
+    "<attr><feel_normal_one><end_attr>Well, I don't know what you're talking\nabout, but I'm asking you to give up\nDeirdre.  Is that what you're saying?<bw_break>": ""
+  },
+  "234586": {
+    "<attr><feel_happy_lv1><end_attr>You once believed my hunch and went to\nthe scorching lava cave to help the\nKibaches. If you say that you need the\n<br>\nDia Diamond, then I think it must be\nreally important. I hope you will take\ngood care of this special jewel that\n<br>\nconnects me with my husband, Kibache,\nand my best friend, Ryuta.": ""
+  },
+  "234588": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>The Dare Diamond is a special jewel\nthat connects me to my husband,\nKibache, and my best friend, Ryuta,\n<br>\nand I hope you will take good care of\nit.": ""
+  },
+  "234590": {
+    "Do you want to tell the Lalaconais\nabout Deirdre?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "234592": {
+    "<pc>told Rarakonea that he would need\nDeirdre to purify the demons 3,000\nyears from now.": ""
+  },
+  "234594": {
+    "<pc>The \"Mere Old Man\" got a piece of\nDeedia (a very important thing).<me 60>": ""
+  },
+  "234596": {
+    "I was able to get a piece of the\nDeirdre and the jar of the Black\nCurse. Let's go back to Ceredine the\n<br>\nWise.": ""
+  },
+  "234598": {
+    "Next, let's look for the jar of black\ncurse needed to purify Zedra's shadow.": ""
+  },
+  "244252": {
+    "<attr><feel_happy_one><end_attr>Okay.  Take this with you.": ""
+  },
+  "244257": {
+    "We had to move because his partner\ncouldn't get into the capital anymore.\nThe new base of operations is in the\n<br>\neastern part of the capital, right?  I\nthink I'll go look around next time.": ""
+  }
+}
