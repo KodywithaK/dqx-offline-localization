@@ -66,10 +66,10 @@
     "<attr><feel_happy_lv1><end_attr>Ah!<pc>Mr. Kato.  How do you like the big bag\nof toys?  I would be happy if you like\nit. Actually, there is something I\n<br>\nwould like to discuss with you. Well,\nI would like to consult with you when\nI receive two key emblems!": ""
   },
   "58928": {
-    "<attr><feel_sad_lv1><end_attr>Ah!<pc>Mr. Kohjiro!  What should I do? I'm in\ntrouble. I've got an order for a giant\ntool bag, specially made by my dad,\n<br>\nbut I can't find the Mad Leather to\nmake it. I have at least two key\nemblems.<pc>I'd like to ask you for a favor.\n Could you please get Mad Leather for\nme? of King Ladis Island.<%sEV_QUE_NAME0>I'm sure you can get this item by\ndefeating the \"Mere Old Man\"!  I'd\nlike you to bring me two of them. And\n<br>\nthen...<pc>I'll ask my father to make one for\nyou, too! The huge tool bag can hold\n150 different items, which is very\n<br>\nreassuring for travelers!": ""
+    "<attr><feel_sad_lv1><end_attr>Ah!<pc>Mr. Kohjiro!  What should I do? I'm in\ntrouble. I've got an order for a giant\ntool bag, specially made by my dad,\n<br>\nbut I can't find the Mad Leather to\nmake it. I have at least two key\nemblems.<pc>I'd like to ask you for a favor.\n Could you please get Mad Leather for\nme? of King Ladis Island.<%sEV_QUE_NAME0>I'm sure you can get this item by\ndefeating !  I'd\nlike you to bring me two of them. And\n<br>\nthen...<pc>I'll ask my father to make one for\nyou, too! The huge tool bag can hold\n150 different items, which is very\n<br>\nreassuring for travelers!": ""
   },
   "58929": {
-    "<attr><feel_happy_lv1><end_attr>Thank you very much!  It was an\nimportant order from a familiar\ncustomer, so it's very helpful.<%sEV_QUE_NAME0>My father said that the \"Mere Old Man\"\nis a formidable monster, so please be\ncareful and have a safe trip.": ""
+    "<attr><feel_happy_lv1><end_attr>Thank you very much!  It was an\nimportant order from a familiar\ncustomer, so it's very helpful.<%sEV_QUE_NAME0>My father said that \nis a formidable monster, so please be\ncareful and have a safe trip.": ""
   },
   "58930": {
     "<attr><feel_sad_one><end_attr>Thank you very much!  But...<pc>It seems that you are taking on a lot\nof requests. Well then<pc>I can't ask for your help.  Ah, I\ndon't know what to do.": ""
@@ -81,7 +81,7 @@
     "<attr><feel_normal_lv1><end_attr>To make a giant tool bag\n King Ladis Island<%sEV_QUE_NAME0>and get two Mad Leathers.<open_irai><bw_break>": ""
   },
   "58933": {
-    "<attr><feel_normal_lv1><end_attr><%sEV_QUE_NAME0>My father said that the \"Mere Old Man\"\nis a formidable monster, so please be\ncareful and have a safe trip.": ""
+    "<attr><feel_normal_lv1><end_attr><%sEV_QUE_NAME0>My father said that \nis a formidable monster, so please be\ncareful and have a safe trip.": ""
   },
   "58934": {
     "Would you like to give Tote two Mad\nLeathers?<yesno><case 1><break><case 2><close><case_cancel><close>": ""
@@ -198,7 +198,7 @@
     "<attr><feel_sad_one><end_attr>Please<pc>Mr. Kato.  Could you please get the\nmaterials for the ultimate tool bag?<open_irai><bw_break>": ""
   },
   "71850": {
-    "<attr><feel_sad_one><end_attr>Budley Rock Zone<%sEV_QUE_NAME0>Old Beast Skin that is in the\npossession of the \"Mere Old Man\".\n Please, please, please, please.": ""
+    "<attr><feel_sad_one><end_attr>Budley Rock Zone<%sEV_QUE_NAME0>Old Beast Skin that is in the\npossession of .\n Please, please, please, please.": ""
   },
   "71851": {
     "Would you give Tote the Old Beast\nSkin?<yesno><case 1><break><case 2><close><case_cancel><close>": ""
@@ -255,7 +255,7 @@
     "<attr><feel_happy_lv1><end_attr>When I make bags here, I can feel my\nfather close by.<pc>I may ask you to help me in various\nways in the future. When you receive\nthe six key emblems, will you come to\n<br>\nsee me again?": ""
   },
   "95452": {
-    "<pc>The \"Mere Old Man\" read the letter.\nThe writing is so bad that some parts\nare illegible. I need a bag to collect\n<br>\nmaterials. I need a bag to collect\nmaterials, but the fabric of an\nordinary bag is weak and tears easily\n<br>\nwhen I use scissors. I need a sturdy\nbag that is strong enough to hold a\nblade.    Gartlant Castle Town, Tavern\n<br>\nBasement, Nippo": ""
+    "<pc> read the letter.\nThe writing is so bad that some parts\nare illegible. I need a bag to collect\n<br>\nmaterials. I need a bag to collect\nmaterials, but the fabric of an\nordinary bag is weak and tears easily\n<br>\nwhen I use scissors. I need a sturdy\nbag that is strong enough to hold a\nblade.    Gartlant Castle Town, Tavern\n<br>\nBasement, Nippo": ""
   },
   "95455": {
     "<attr><feel_happy_lv2><end_attr>Ah!<pc>Since then, some of my old customers\ncame to visit me after they heard\nabout my father's death. They saw the\n<br>\nbags I made, and some of them liked\nthem so much that they bought them. I\nwas so happy. Those people spread the\n<br>\nword about my bag workshop throughout\nAstoltia, and orders from far away\nbegan to come in from time to time, in\n<br>\naddition to those from the United\nStates and Europe.": ""
@@ -276,7 +276,7 @@
     "<attr><feel_sad_lv2><end_attr>Ugh, I see.  I'm sorry for being\nunreasonable.": ""
   },
   "95461": {
-    "<pc>The \"Mere Old Man\" read the letter.\nThe writing is so bad that some parts\nare illegible. I need a bag to collect\n<br>\nmaterials. I need a bag to collect\nmaterials, but the fabric of an\nordinary bag is weak and tears easily\n<br>\nwhen I use scissors. I need a sturdy\nbag that is strong enough to hold a\nblade.    Gartlant Castle Town, Tavern\n<br>\nBasement, Nippo": ""
+    "<pc> read the letter.\nThe writing is so bad that some parts\nare illegible. I need a bag to collect\n<br>\nmaterials. I need a bag to collect\nmaterials, but the fabric of an\nordinary bag is weak and tears easily\n<br>\nwhen I use scissors. I need a sturdy\nbag that is strong enough to hold a\nblade.    Gartlant Castle Town, Tavern\n<br>\nBasement, Nippo": ""
   },
   "95464": {
     "I'm sorry, but could you please go\nfind out what kind of person sent the\nletter and why he/she tore up the bag\n<br>\nwith scissors?<open_irai><bw_break>": ""
@@ -417,7 +417,7 @@
     "My father's bag was designed to be\nused by all travelers in the same way.\nBut...<pc>For Mr. Kurokawa, it seems that there\nare some parts of the site that are\nnot used very often.  I'll eliminate\n<br>\nthem and expand the parts that are\nused most often.": ""
   },
   "95510": {
-    "<attr><feel_happy_lv1><end_attr>It was done!  Here it is.<pc>tailored to the needs of the three<pc>This is a bag for the \"Mere Old Man\".\nEliminate wasteful parts.<pc>I made various adjustments to\naccommodate the physique of Mr.\nKurokawa.": ""
+    "<attr><feel_happy_lv1><end_attr>It was done!  Here it is.<pc>tailored to the needs of the three<pc>This is a bag for .\nEliminate wasteful parts.<pc>I made various adjustments to\naccommodate the physique of Mr.\nKurokawa.": ""
   },
   "95511": {
     "<attr><feel_happy_lv1><end_attr>This bag was a little worn, so I\nreinforced it and cleaned it up.<bw_break>": ""
@@ -489,7 +489,7 @@
     "I just want to make sure that you are\nsatisfied with the bag. Actually, I'd\nlike to go myself, but I'm sorry. I'm\n<br>\nsorry, but I can't leave the workshop\nunattended!": ""
   },
   "185957": {
-    "<pc>The \"Mere Old Man\" showed Tote his\nbag.": ""
+    "<pc> showed Tote his\nbag.": ""
   },
   "185958": {
     "Tote is<pc>Upon receiving the bag from the \"Mere\nOld Man,\" he began to unravel the\nthreads and carefully disassemble the\n<br>\nbag. Then, using Spring Leather, he\nbegan to re-wool the disassembled bag.": ""

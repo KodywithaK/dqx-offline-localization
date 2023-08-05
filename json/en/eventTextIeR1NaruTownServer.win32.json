@@ -30,7 +30,7 @@
     "<attr><feel_sad_one><end_attr>Ha-ha-ha. Dad, I'm sorry.  The alchemy\npot is for me.": ""
   },
   "33493": {
-    "<kyodai>The \"Mere Old Man\" read the letter\nspread out on his desk. I'm sorry,\nIsho. I did everything I could, but I\n<br>\ncouldn't find the drug you asked for.\nAfter all, melazo fever is an ancient\ndisease that is said to have died out\n<br>\nmore than a hundred years ago. There\nare probably no drugs left. But I\nmanaged to get my hands on an old book\n<br>\nthat contained a recipe for the drug.\nWith this book, I should be able to\nmake it in your alchemy pot. I\n<br>\nsincerely hope it will cure Liliol's\nmelazo fever.      To my friend Issho,\nfrom the flask.": ""
+    "<kyodai> read the letter\nspread out on his desk. I'm sorry,\nIsho. I did everything I could, but I\n<br>\ncouldn't find the drug you asked for.\nAfter all, melazo fever is an ancient\ndisease that is said to have died out\n<br>\nmore than a hundred years ago. There\nare probably no drugs left. But I\nmanaged to get my hands on an old book\n<br>\nthat contained a recipe for the drug.\nWith this book, I should be able to\nmake it in your alchemy pot. I\n<br>\nsincerely hope it will cure Liliol's\nmelazo fever.      To my friend Issho,\nfrom the flask.": ""
   },
   "33494": {
     "There is a silver cauldron.": ""
@@ -204,19 +204,19 @@
     "<kyodai>I found the book of dangerous recipes\nI gave you when I was cleaning out my\nroom.  It's probably your father's,\n<br>\nbut it doesn't matter, because he\ncan't use alchemy anymore. He can't\nuse alchemy anymore.": ""
   },
   "33553": {
-    "<kyodai>The \"Mere Old Man\" got the key to the\ngreen pillar (a very important thing)!<me 60>": ""
+    "<kyodai> got the key to the\ngreen pillar (a very important thing)!<me 60>": ""
   },
   "33554": {
     "<kyodai>got a book of dangerous recipes!<me 60>": ""
   },
   "33555": {
-    "<kyodai>The \"Mere Old Man\" received the key to\nthe blue pillar (a very important\nitem)!<me 60>": ""
+    "<kyodai> received the key to\nthe blue pillar (a very important\nitem)!<me 60>": ""
   },
   "33556": {
-    "<kyodai>The \"Mere Old Man\" got the book of the\nkeys to the fortress!<me 60>": ""
+    "<kyodai> got the book of the\nkeys to the fortress!<me 60>": ""
   },
   "33557": {
-    "<kyodai>The \"Mere Old Man\" got the key to the\nred pillar (a very important thing)!<me 60>": ""
+    "<kyodai> got the key to the\nred pillar (a very important thing)!<me 60>": ""
   },
   "33560": {
     "Holy shit! Amazing! Alchemy master!\n You finally defeated the demon in the\ngolden dust and got the treasure,\n<br>\ndidn't you! There's a legend that the\none who conquers all seven of the\ngolden dusts stands at the top of\n<br>\nalchemists.  That's what I came to\nthis island for. Well, that dream was\ndashed in the middle of my ambition,\n<br>\nbut you made up for my disappointment!\n Thank you! Alchemy master! What is\nit? There's no treasure, you just made\n<br>\nit to the other side of the\nisland? Hmm. Well, go see what's on\nthe other side!": ""
@@ -489,7 +489,7 @@
     "<attr><feel_angry_lv3><end_attr><kyodai>San!  Even if you want to drink the\nsecret medicinal water, don't drink\nit! It is said that if people other\n<br>\nthan those from my village drink it,\nthey will have a stomachache for three\ndays and three nights!": ""
   },
   "36443": {
-    "<attr><feel_sad_lv3><end_attr>Oh, I'm so hungry, my eyes are blurry.\n Is that the Grim Reaper there?  I\nguess my short life is over. As a\n<br>\nlevel 6 bandit, I've done my worst,\nand I knew I wouldn't make it to\nheaven.  But even a reaper has a sense\n<br>\nof compassion, right? Before I die,\nI'm going to eat my favorite food.<%sEV_QUE_NAME4>I want to eat the \"Mere Old Man\" one\nmore time. Please, Shinigami.  I'll\nfollow you anywhere, even to hell.": ""
+    "<attr><feel_sad_lv3><end_attr>Oh, I'm so hungry, my eyes are blurry.\n Is that the Grim Reaper there?  I\nguess my short life is over. As a\n<br>\nlevel 6 bandit, I've done my worst,\nand I knew I wouldn't make it to\nheaven.  But even a reaper has a sense\n<br>\nof compassion, right? Before I die,\nI'm going to eat my favorite food.<%sEV_QUE_NAME4>I want to eat  one\nmore time. Please, Shinigami.  I'll\nfollow you anywhere, even to hell.": ""
   },
   "36444": {
     "<attr><feel_happy_lv1><end_attr>Thank you, Mr. Reaper.<%sEV_QUE_NAME4>It's tangy, but has a strange,\nlingering taste.<%sEV_QUE_NAME4>If I can eat as much as I want, I\nwon't have any more regrets about this\nworld.": ""
@@ -504,7 +504,7 @@
     "<attr><feel_happy_lv1><end_attr>You, the Grim Reaper, may not know this, but<%sEV_QUE_NAME4>is the best delicacy for me.<%sEV_QUE_NAME4>If I can eat even one of these, I have\nno more regrets about this world.\n I'll follow you wherever you go, even\n<br>\nhell.<open_irai>": ""
   },
   "36448": {
-    "<attr><feel_happy_lv1><end_attr>Oh, Mr. Reaper.<%sEV_QUE_NAME4>You brought me the \"Mere Old Man\".\nThank you, Shinigami.  Would you pass\nthat on to me for my last meal?<yesno><break>": ""
+    "<attr><feel_happy_lv1><end_attr>Oh, Mr. Reaper.<%sEV_QUE_NAME4>You brought me .\nThank you, Shinigami.  Would you pass\nthat on to me for my last meal?<yesno><break>": ""
   },
   "36449": {
     "<attr><feel_happy_lv1><end_attr><turn_pc>This is my last gourmet meal?  Well\nthen, I'll eat it. Mmm. The unique\naroma and pungent taste.  It's like a\n<br>\nkitten dancing on my tongue.  And\nwhat's more, I'm feeling energized!\n No way.<%sEV_QUE_NAME4>I didn't know that it also works on an\nempty stomach! I didn't know it worked\nfor hunger too! You're a human being,\n<br>\naren't you?  I'm sorry I mistook the\nman who saved my life for the Grim\nReaper. I wish I could do something to\n<br>\nrepay you.  I remember when you said\nyou'd follow me anywhere, even to\nhell. All right! Murine, the thief,\n<br>\ndoesn't mince words.  If you feel up\nto it, you can introduce me at the\ntavern.  I'll follow you on your\n<br>\njourney as promised.": ""
@@ -669,7 +669,7 @@
     "<attr><feel_sad_lv1><end_attr>I see.<%sEV_QUE_NAME4>What a celebrity fragrance. It's a\ndream come true for me, isn't it?": ""
   },
   "36503": {
-    "<attr><feel_angry_lv1><end_attr><%sEV_QUE_NAME4>I wonder what kind of Trevian flavors\nthe \"Mere Old Man\" will be able to\nproduce in his nose. Just thinking\n<br>\nabout it makes me swoon.  Oh, I can't\nwait!<%sEV_QUE_NAME4>I want to rub my face in it!<open_irai>": ""
+    "<attr><feel_angry_lv1><end_attr><%sEV_QUE_NAME4>I wonder what kind of Trevian flavors\n will be able to\nproduce in his nose. Just thinking\n<br>\nabout it makes me swoon.  Oh, I can't\nwait!<%sEV_QUE_NAME4>I want to rub my face in it!<open_irai>": ""
   },
   "36504": {
     "<attr><feel_happy_lv1><end_attr>kun. What's that smell?<%sEV_QUE_NAME4>You have the \"I\"?  Please give it to\nme right away!<yesno><break>": ""
@@ -936,7 +936,7 @@
     "<kyodai>got a ruler stone!<me 60>": ""
   },
   "37909": {
-    "<kyodai>The \"Mere Old Man\" got the key to the\ngreen pillar (a very important thing)!<me 60>": ""
+    "<kyodai> got the key to the\ngreen pillar (a very important thing)!<me 60>": ""
   },
   "37910": {
     "<kyodai>got a ruler stone!<me 60>": ""

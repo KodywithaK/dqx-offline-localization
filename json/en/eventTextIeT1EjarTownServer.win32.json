@@ -174,7 +174,7 @@
     "<attr><feel_angry_lv3><end_attr>What's got you down?  Show me the\nproof you hold in your hand.": ""
   },
   "126904": {
-    "<attr><feel_happy_one><end_attr>It is indeed the beard of the dragon\nbeetle.  It is the beard of a dragon<%sEV_QUE_NAME0>It is a precious beard that grows only\nonce in a lifetime.<%sEV_QUE_NAME0>To defeat the \"Mere Old Man\".  That in\nitself is not the essence of the task.\n Don't look so sceptical. You brought\n<br>\nback the Beard of the Bearded Dragon.\nIn other words, you got a once-in-a-\nlifetime chance.  I was testing your\n<br>\nluck. You passed the test.<pc>You have the power to take a chance.\n You have the power to take a chance.\nNow, let us begin to guide you to\n<br>\nawaken the power that lies dormant in\nyou.  You must place the dragon's\nbeard on the flame in the center of\n<br>\nthe room.": ""
+    "<attr><feel_happy_one><end_attr>It is indeed the beard of the dragon\nbeetle.  It is the beard of a dragon<%sEV_QUE_NAME0>It is a precious beard that grows only\nonce in a lifetime.<%sEV_QUE_NAME0>To defeat .  That in\nitself is not the essence of the task.\n Don't look so sceptical. You brought\n<br>\nback the Beard of the Bearded Dragon.\nIn other words, you got a once-in-a-\nlifetime chance.  I was testing your\n<br>\nluck. You passed the test.<pc>You have the power to take a chance.\n You have the power to take a chance.\nNow, let us begin to guide you to\n<br>\nawaken the power that lies dormant in\nyou.  You must place the dragon's\nbeard on the flame in the center of\n<br>\nthe room.": ""
   },
   "126905": {
     "Would you like me to show Izora the\nbeard of the beetle?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
@@ -294,7 +294,7 @@
     "<attr><feel_sad_lv1><end_attr>Hmmm, too bad.  Please come back if\nyou change your mind!": ""
   },
   "131647": {
-    "<attr><feel_happy_lv1><end_attr>Thank you very much! And our guests.<%sEV_QUE_NAME0>Please also ask about the ash horns\nthat the \"Mere Old Man\" will drop.<open_irai><bw_break>": ""
+    "<attr><feel_happy_lv1><end_attr>Thank you very much! And our guests.<%sEV_QUE_NAME0>Please also ask about the ash horns\nthat  will drop.<open_irai><bw_break>": ""
   },
   "131648": {
     "Would you give a bunch of ashhorns to\nMikage the letterman?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
@@ -402,7 +402,7 @@
     "This seems to be the pressure point\nIoma was referring to. Would you like\nme to flush the tuluksa gel?<yesno><close>": ""
   },
   "143623": {
-    "<pc>The \"Mere Old Man\" poured the crucifer\ngel into the urn.<se Joutyu_SE 85>": ""
+    "<pc> poured the crucifer\ngel into the urn.<se Joutyu_SE 85>": ""
   },
   "143624": {
     "The pressure point began to rattle!": ""
@@ -453,7 +453,7 @@
     "<color_yellow>Receive the Orb of the Master from the\ntravel concierge in each town!": ""
   },
   "147157": {
-    "<pc>The \"Mere Old Man\" obtained a\nterritorial survey binder (a very\nimportant one)!<me 60>": ""
+    "<pc> obtained a\nterritorial survey binder (a very\nimportant one)!<me 60>": ""
   },
   "147158": {
     "<attr><feel_think_lv2><end_attr>Hmmm... I'm at a loss.  I wish there\nwas someone somewhere who could help\nme with the investigation. I'd like\n<br>\nsomeone who is skilled enough to fight\nany kind of monster, diligent, and\nhardworking.  He's cool to look at,\n<br>\nsmart in conversation...": ""
@@ -558,7 +558,7 @@
     "<attr><feel_think_lv2><end_attr>Hmmm... I'm at a loss.  I wish there\nwas someone somewhere who could help\nme with the research.": ""
   },
   "150075": {
-    "<pc>The \"Mere Old Man\" opened his\nterritorial research binder. It seems\nthat he is not accepting any requests\n<br>\nat the moment. Let's meet with\nMojteca, the territorial researcher in\nthe Holy City of Ejaluna, and get a\n<br>\nrequest to investigate demons!": ""
+    "<pc> opened his\nterritorial research binder. It seems\nthat he is not accepting any requests\n<br>\nat the moment. Let's meet with\nMojteca, the territorial researcher in\nthe Holy City of Ejaluna, and get a\n<br>\nrequest to investigate demons!": ""
   },
   "150142": {
     "<turn_pc>Hmmm. You seem to be rather busy.  It\nwould be great if you could come back\nwhen you've finished what you need to\n<br>\ndo in this realm of flames!": ""
@@ -570,7 +570,7 @@
     "<turn_pc>Now, once again, I would like to\nreview the territorial survey binder.<bw_break>": ""
   },
   "151472": {
-    "<attr><feel_happy_lv1><end_attr><icon_exc>Oh, wow!<%sEV_TB_CONT_NM><%sEV_TB_AREA_NM>The survey of the \"Mere Old Man\" is\nnow complete.<bw_break>": ""
+    "<attr><feel_happy_lv1><end_attr><icon_exc>Oh, wow!<%sEV_TB_CONT_NM><%sEV_TB_AREA_NM>The survey of  is\nnow complete.<bw_break>": ""
   },
   "152828": {
     "What is going on?  It seems that the\nsoldiers of the temple are guarding\nthe entrance with a tense atmosphere.": ""
@@ -621,7 +621,7 @@
     "Apparently, they're letting you stay\nin this room for free. Would you like\nto stay the night?<yesno><close>": ""
   },
   "154673": {
-    "Besawaki quickly left the room.<pc>I lay down on the bed. Suddenly, he\nwas overcome by a tremendous\nsleepiness.<pc>The \"Mere Old Man\" was in a deep\nsleep.": ""
+    "Besawaki quickly left the room.<pc>I lay down on the bed. Suddenly, he\nwas overcome by a tremendous\nsleepiness.<pc> was in a deep\nsleep.": ""
   },
   "154674": {
     "Apparently, they're letting you stay\nin this room for free. Would you like\nto stay the night?<yesno><close>": ""
