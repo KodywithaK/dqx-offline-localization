@@ -1,0 +1,878 @@
+{
+  "48186": {
+    "<attr><feel_think_lv1><end_attr>For me, Director Sugim is someone to\naspire to be like.  I'm always making\nefforts every day to become a\n<br>\nwonderful person like him. But even if\nI have a beautiful voice with the\nhoney of a chirp, even if I have\n<br>\nsmooth skin with a seaweed pack, I\ncan't come close to the charm of\nDirector Sugimu. So... I heard a rumor\n<br>\nthat if I use the YUWAKU Extract that\nthe charm bats in the Bekong Valley\ndrop, I can become extremely popular.\n<br>\nIf I only had that, I'm sure I could\nbecome a wonderful older sister.  I\nwant it, I want it, I want it~!": ""
+  },
+  "48187": {
+    "<attr><feel_happy_lv1><end_attr>Oh, I'm so happy~!  When I use the\nextract, I'll show it to you first.<heart>": ""
+  },
+  "48188": {
+    "<attr><feel_happy_lv1><end_attr>Oh, I'm so happy!  You're saying... It\nseems like you're getting a lot of\nlove calls from other people, doesn't\n<br>\nit? I don't mind you being a beauty on\nall sides, but please accept my love\ncalls after you've finished your\n<br>\nrequests.<heart>": ""
+  },
+  "48189": {
+    "<attr><feel_happy_lv1><end_attr>Oh, I'm so sorry~.  But, since you're\nlike that, I'm asking you for a favor.\n I'll wait for you.": ""
+  },
+  "48190": {
+    "<attr><feel_happy_lv1><end_attr>I want the exciting extract dropped by\nthe charm bats in Bekong Canyon on the\nOrgreid continent!<open_irai><bw_break>": ""
+  },
+  "48191": {
+    "<attr><feel_happy_lv1><end_attr><close_irai>If I had that extract, I could become\na wonderful person like Director\nSugimu.  So go get it! Please!<heart>": ""
+  },
+  "48192": {
+    "<attr><feel_happy_lv1><end_attr>That pink liquid in your hand.  Could\nit be Yoo waku extract?  Oh, hand me\nsome, hand me some~!": ""
+  },
+  "48193": {
+    "<attr><feel_think_lv1><end_attr>Oops. Wasn't it YUWAKU Extract?  I\nguess my \"otome's\" instincts were off.\n Don't tease me too much.<heart>": ""
+  },
+  "48194": {
+    "<attr><feel_think_lv3><end_attr>I'm so happy!<heart>I'm going to use it right away!": ""
+  },
+  "48195": {
+    "<attr><feel_think_lv3><end_attr>I made a perfume out of this extract\nand sprinkled it on my face.  I can't\ntake it anymore! Let's go out!": ""
+  },
+  "48196": {
+    "<attr><feel_angry_lv1><end_attr>No~n!  What is this extract? The dogs\nwere surrounding me, cooing and\ncooing, making so much noise! Are you\n<br>\ntelling me this stuff only works on\npuppies?  Don't they become\nirresistible to humans? That's right.\n<br>\nThat's right. I've realized.  I\nrealized that relying on things is no\ngood!  I have to have a beautiful\n<br>\nheart of my own! Because of my failure\nthis time, I feel like I've come a\nlittle closer to becoming a wonderful\n<br>\nolder sister.  This is my way of\nsaying thank you for making me realize\nsomething important.<heart>": ""
+  },
+  "48181": {
+    "Would you like to give the jackal a\nYuwaku Extract?<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "48182": {
+    "<pc>gave the jackal a yuwaku extract!": ""
+  },
+  "48183": {
+    "The jackals darted out of the\nbuilding!<se map_common map_jamp>": ""
+  },
+  "48718": {
+    "But they soon returned!<se map_common map_jamp>": ""
+  },
+  "48197": {
+    "<attr><feel_happy_lv1><end_attr>I will improve myself even more and\nbecome a proud sister like Director\nSugimu! And then, someday, I will send\n<br>\na wonderful traveler like you back to\nLendersia with my own hands.  That's\nright. My path to becoming a big\n<br>\nsister starts from here.<heart>": ""
+  },
+  "36202": {
+    "I was staying at an inn there the\nother night, and in the middle of the\nnight, I hear these eerie voices\n<br>\nwhispering in my ear. I got up and\nlooked around, but nobody was there.\n I got up and looked around, but there\n<br>\nwas no one there, only a broken voice,\nand it was terrifying, you know!\nApparently, the voices are only heard\n<br>\nwhen level 10 or higher wizards stay\nover.  If I had known that, I wouldn't\nhave stayed there!": ""
+  },
+  "46601": {
+    "When I stay up past midnight, I\nsometimes feel strangely aroused and\nhave trouble falling asleep. I heard\n<br>\nthat those who use magic at such times\nhave sharpened senses and can see and\nhear things that ordinary people\n<br>\ncannot.": ""
+  },
+  "36203": {
+    "The mirror is old, but looks\nexpensive.": ""
+  },
+  "36204": {
+    "It is an old, but expensive looking\nmirror.": ""
+  },
+  "36205": {
+    "It appears that Lunan is out of touch\nat this time.": ""
+  },
+  "36206": {
+    "You must be a level 10 or above\nwizard, right?  We have a bit of a\nproblem with people like that staying\n<br>\nat our house. Well, never mind! I've\ngiven you some advice.  If anything\nhappens, please do so at your own\n<br>\nrisk!  Well then...": ""
+  },
+  "36207": {
+    "<turn_pc>From the looks of it, you got a good\nnight's rest. We've had endless\ncomplaints of strange voices being\n<br>\nheard at night when level 10 or above\nwizards stay over. I'm relieved to\nhear that nothing happened.  Well\n<br>\nthen, have a nice trip.": ""
+  },
+  "36208": {
+    "You must be a level 10 or above\nwizard, right?  We have a bit of a\nproblem with people like that staying\n<br>\nat our house. Well, never mind! I've\ngiven you some advice.  If anything\nhappens, please do so at your own\n<br>\nrisk!  Well then...": ""
+  },
+  "36209": {
+    "<turn_pc>From the looks of it, you got a good\nnight's rest. We've had endless\ncomplaints of strange voices being\n<br>\nheard at night when level 10 or above\nwizards stay over. I'm relieved to\nhear that nothing happened.  Well\n<br>\nthen, have a nice trip.": ""
+  },
+  "36212": {
+    "Lately, I've been getting no more\ncomplaints about hearing strange\nvoices in the middle of the night when\n<br>\nlevel 10+ wizards stay over. Well...": ""
+  },
+  "41534": {
+    "<turn_pc>You look well rested.  Have a good\nday.  If you get tired, come back here\nagain.": ""
+  },
+  "36211": {
+    "It appears that Lunan is out of touch\nat this time.": ""
+  },
+  "36210": {
+    "Lately, I've been getting no more\ncomplaints about hearing strange\nvoices in the middle of the night when\n<br>\nlevel 10+ wizards stay over. Well...": ""
+  },
+  "37718": {
+    "I stayed at the inn again as a wizard,\nbut this time I didn't hear anything.\nWhen nothing happens, it makes me\n<br>\ncurious.  I wonder if I'll hear that\nvoice again.  Well, I have time, so\nI'll wait and see.": ""
+  },
+  "36213": {
+    "I stayed at the inn again as a wizard,\nbut this time I didn't hear anything.\nI'm curious when nothing happens.  I\n<br>\nwonder if I'll hear that voice again.\n Well, I have time, so I'll wait and\nsee.": ""
+  },
+  "36214": {
+    "Lately, I've been getting no more\ncomplaints about hearing strange\nvoices in the middle of the night when\n<br>\nlevel 10+ wizards stay over. Well...": ""
+  },
+  "37710": {
+    "It appears that Lunan is out of touch\nat this time.": ""
+  },
+  "37711": {
+    "Oh? I'm glad you came again.  But your\nguest is a wizard, right?  I wonder if\nhe's all right. No. There have been\n<br>\ncomplaints that strange voices can be\nheard at night when a wizard stays\nover. I'm having trouble with it too.\n<br>\nWell, never mind! I've given you some\nadvice.  If anything happens, you're\non your own!  Well then...": ""
+  },
+  "37712": {
+    "<turn_pc>From the looks of it, you got a good\nnight's rest. We've had endless\ncomplaints about strange voices coming\n<br>\nin during the night when wizards stay\nover. I'm relieved to hear that\nnothing happened.  Well then, have a\n<br>\ngood trip.": ""
+  },
+  "37713": {
+    "Oh? I'm glad you came again.  But your\nguest is a wizard, right?  I wonder if\nhe's all right. No. There have been\n<br>\ncomplaints that strange voices can be\nheard at night when a wizard stays\nover. I'm having trouble with it too.\n<br>\nWell, never mind! I've given you some\nadvice.  If anything happens, you're\non your own!  Well then...": ""
+  },
+  "37714": {
+    "<turn_pc>From the looks of it, you got a good\nnight's rest. We've had endless\ncomplaints about strange voices coming\n<br>\nin during the night when wizards stay\nover. I'm relieved to hear that\nnothing happened.  Well then, have a\n<br>\ngood trip.": ""
+  },
+  "37715": {
+    "Please listen to me!  I tried to stay\nat the inn as a wizard, and bingo! And\nbingo!  In the middle of the night,\n<br>\nfrom somewhere, I heard an eerie voice\nwith terrible noises. Yes, it was\nterrifying, you know. It was\n<br>\nterrifying.  I was shivering in bed\nwith the covers over my head until\nmorning.": ""
+  },
+  "37717": {
+    "Lately, I've been getting no more\ncomplaints about hearing strange\nvoices in the middle of the night when\n<br>\nthe Wizard stays over. Well...": ""
+  },
+  "41541": {
+    "<turn_pc>You look well rested.  Have a good\nday.  If you get tired, come back here\nagain.": ""
+  },
+  "37716": {
+    "Lately, I've been getting no more\ncomplaints about hearing strange\nvoices in the middle of the night when\n<br>\nthe Wizard stays over. Well...": ""
+  },
+  "46597": {
+    "I stayed at the inn again as a wizard,\nbut this time I didn't hear anything.\nWhen nothing happens, it makes me\n<br>\ncurious.  I wonder if I'll hear that\nvoice again.  Well, I have time, so\nI'll wait and see.": ""
+  },
+  "37739": {
+    "I stayed at the inn again as a wizard,\nbut this time I didn't hear anything.\nWhen nothing happens, it makes me\n<br>\ncurious.  I wonder if I'll hear that\nvoice again.  Well, I have time, so\nI'll wait and see.": ""
+  },
+  "37719": {
+    "Lately, I've been getting no more\ncomplaints about hearing strange\nvoices in the middle of the night when\n<br>\nthe Wizard stays over. Well...": ""
+  },
+  "37720": {
+    "It appears that Lunan is out of touch\nat this time.": ""
+  },
+  "37721": {
+    "Oh? I'm glad you came again.  But your\nguest is a wizard, right?  I wonder if\nhe's all right. No. There have been\n<br>\ncomplaints that mysterious voices can\nbe heard at night when a wizard stays\nover. I'm having trouble with it too.\n<br>\nWell, never mind! I've given you some\nadvice.  If anything happens, you're\non your own!  Well then...": ""
+  },
+  "37722": {
+    "<turn_pc>From the looks of it, you got a good\nnight's rest. We've had endless\ncomplaints about mysterious voices\n<br>\ncoming in during the night when\nwizards stay over. I'm relieved to\nhear that nothing happened.  Well\n<br>\nthen, have a good trip.": ""
+  },
+  "37723": {
+    "Oh? I'm glad you came again.  But your\nguest is a wizard, right?  I wonder if\nhe's all right. No. There have been\n<br>\ncomplaints that mysterious voices can\nbe heard at night when a wizard stays\nover. I'm having trouble with it too.\n<br>\nWell, never mind! I've given you some\nadvice.  If anything happens, you're\non your own!  Well then...": ""
+  },
+  "37724": {
+    "<turn_pc>From the looks of it, you got a good\nnight's rest. We've had endless\ncomplaints about mysterious voices\n<br>\ncoming in during the night when\nwizards stay over. I'm relieved to\nhear that nothing happened.  Well\n<br>\nthen, have a good trip.": ""
+  },
+  "37725": {
+    "Please listen to me!  I stayed at the\ninn as a wizard. Then, in the middle\nof the night, I heard a voice saying,\n<br>\n\"Can you hear me? I heard a voice\nsaying, \"Can you hear me?  But when I\nlooked around, there was no one there.\n<br>\nI was so scared.  I covered my ears\nand behaved until morning.  Ah, it's\nhorrifying to think back on it now.": ""
+  },
+  "37727": {
+    "Lately, I haven't had any more\ncomplaints about hearing mysterious\nvoices in the middle of the night when\n<br>\nthe Wizard stays over. Well...": ""
+  },
+  "41548": {
+    "<turn_pc>You look well rested.  Have a good\nday.  If you get tired, come back here\nagain.": ""
+  },
+  "37726": {
+    "Lately, I haven't had any more\ncomplaints about hearing mysterious\nvoices in the middle of the night when\n<br>\nthe Wizard stays over. Well...": ""
+  },
+  "37728": {
+    "I stayed at the inn again as a wizard,\nbut I couldn't hear anything. I wonder\nwhat happened to the voices I could\n<br>\nhear so clearly before.": ""
+  },
+  "46598": {
+    "I stayed at the inn again as a wizard,\nbut this time I didn't hear anything.\nWhen nothing happens, it makes me\n<br>\ncurious.  I wonder if I'll hear that\nvoice again.  Well, I have time, so\nI'll wait and see.": ""
+  },
+  "37730": {
+    "Lately, I haven't had any more\ncomplaints about hearing mysterious\nvoices in the middle of the night when\n<br>\nthe Wizard stays over. Well...": ""
+  },
+  "37731": {
+    "It appears that Lunan is out of touch\nat this time.": ""
+  },
+  "37732": {
+    "Oh? I'm glad you came again.  But your\nguest is a wizard, right?  I wonder if\nhe's all right. No. There have been\n<br>\ncomplaints that mysterious voices can\nbe heard at night when a wizard stays\nover. I'm having trouble with it too.\n<br>\nWell, never mind! I've given you some\nadvice.  If anything happens, you're\non your own!  Well then...": ""
+  },
+  "37733": {
+    "<turn_pc>From the looks of it, you got a good\nnight's rest. We've had endless\ncomplaints about mysterious voices\n<br>\ncoming in during the night when\nwizards stay over. I'm relieved to\nhear that nothing happened.  Well\n<br>\nthen, have a good trip.": ""
+  },
+  "37734": {
+    "Oh? I'm glad you came again.  But your\nguest is a wizard, right?  I wonder if\nhe's all right. No. There have been\n<br>\ncomplaints that mysterious voices can\nbe heard at night when a wizard stays\nover. I'm having trouble with it too.\n<br>\nWell, never mind! I've given you some\nadvice.  If anything happens, you're\non your own!  Well then...": ""
+  },
+  "37735": {
+    "<turn_pc>From the looks of it, you got a good\nnight's rest. We've had endless\ncomplaints about mysterious voices\n<br>\ncoming in during the night when\nwizards stay over. I'm relieved to\nhear that nothing happened.  Well\n<br>\nthen, have a good trip.": ""
+  },
+  "37736": {
+    "Please listen to me!  I've been trying\nto stay at the inn as a wizard. Last\ntime I heard the voice very clearly,\n<br>\nso I thought I would try to answer it\nthis time. But all I could hear was an\neerie growl.  It was so creepy that I\n<br>\nran away.": ""
+  },
+  "37738": {
+    "Lately, I've been getting no more\ncomplaints about spooky voices in the\nmiddle of the night when the Wizard\n<br>\nstays over. Well...": ""
+  },
+  "41555": {
+    "<turn_pc>You look well rested.  Have a good\nday.  If you get tired, come back here\nagain.": ""
+  },
+  "37737": {
+    "Lately, I've been getting no more\ncomplaints about spooky voices in the\nmiddle of the night when the Wizard\n<br>\nstays over. Well...": ""
+  },
+  "46600": {
+    "I stayed at the inn again as a wizard,\nbut this time I didn't hear anything.\nWhen nothing happens, it makes me\n<br>\ncurious.  I wonder if I'll hear that\nvoice again.  Well, I have time, so\nI'll wait and see.": ""
+  },
+  "46599": {
+    "I stayed at the inn again as a wizard,\nbut this time I didn't hear anything.\nWhen nothing happens, it makes me\n<br>\ncurious.  I wonder if I'll hear that\nvoice again.  Well, I have time, so\nI'll wait and see.": ""
+  },
+  "37740": {
+    "Lately, I've been getting no more\ncomplaints about spooky voices in the\nmiddle of the night when the Wizard\n<br>\nstays over. Well...": ""
+  },
+  "37741": {
+    "It appears that Lunan is out of touch\nat this time.": ""
+  },
+  "37742": {
+    "Oh? I'm glad you came again.  But your\nguest is a wizard, right?  I wonder if\nhe's all right. No. There have been\n<br>\ncomplaints that mysterious voices can\nbe heard at night when a wizard stays\nover. I'm having trouble with it too.\n<br>\nWell, never mind! I've given you some\nadvice.  If anything happens, you're\non your own!  Well then...": ""
+  },
+  "37743": {
+    "<turn_pc>From the looks of it, you got a good\nnight's rest. We've had endless\ncomplaints about mysterious voices\n<br>\ncoming in during the night when\nwizards stay over. I'm relieved to\nhear that nothing happened.  Well\n<br>\nthen, have a good trip.": ""
+  },
+  "37744": {
+    "Oh? I'm glad you came again.  But your\nguest is a wizard, right?  I wonder if\nhe's all right. No. There have been\n<br>\ncomplaints that mysterious voices can\nbe heard at night when a wizard stays\nover. I'm having trouble with it too.\n<br>\nWell, never mind! I've given you some\nadvice.  If anything happens, you're\non your own!  Well then...": ""
+  },
+  "37745": {
+    "<turn_pc>From the looks of it, you got a good\nnight's rest. We've had endless\ncomplaints about mysterious voices\n<br>\ncoming in during the night when\nwizards stay over. I'm relieved to\nhear that nothing happened.  Well\n<br>\nthen, have a good trip.": ""
+  },
+  "37746": {
+    "Please listen to me!  I stayed at the\ninn as a wizard. Then, in the middle\nof the night, I heard something.  I\n<br>\nheard a voice saying, \"Please help me,\nfrom the big mirror in the room! I was\ncursed. So it was that mirror that was\n<br>\ncursed.  I'll tell the innkeeper to\ncleanse the mirror next time.": ""
+  },
+  "37747": {
+    "Lately, when the Wizard stays over, he\nno longer gets complaints about\nhearing distressed voices in the\n<br>\nmiddle of the night. Well...": ""
+  },
+  "37748": {
+    "Hmmm. Since then, the mirror hasn't\nsaid a word to me even when I stay at\nthe inn. Maybe the owner has already\n<br>\nwashed the mirror away?": ""
+  },
+  "37749": {
+    "It seems I can't talk to Lunan\nanymore.": ""
+  },
+  "37750": {
+    "Come to think of it, the complaints\nabout the mysterious voices that we\nhear in the middle of the night when a\n<br>\nwizard stays over have all but\ndisappeared recently. I wonder what\nwas that all about?  Well, it's okay\n<br>\nthat the complaints have stopped. Now,\nlet's see...": ""
+  },
+  "37751": {
+    "<turn_pc>Huh? You look good today.  She must\nhave slept well last night. From now\non, I'm going to spread a rumor that\n<br>\nif a magician stays in that room,\nhe/she will sleep well.": ""
+  },
+  "188358": {
+    "<attr><feel_happy_lv1><end_attr>I've just been assigned to the\nadministration here and I've always\nwanted to work in the sea.  I love the\n<br>\nsea!": ""
+  },
+  "188359": {
+    "<attr><feel_happy_lv1><end_attr>desolate<pc>It's not you.  You came to see me? I'm\nso happy.<heart>I heard you came on behalf of Sasarana\nof Lakkaran, the entertainment island.\nSoo-te-ki!  On behalf of the Bureau of\n<br>\nShipping, I'd like to welcome you.<heart>As you know, since the Grand Titus\nresumed service, there's been a lot of\nactivity between the Lendore Island\n<br>\nand the mainland of Lendasia. Thanks\nto you, the Administration has been\nvery busy.  Hmmm. Since we're here, I\n<br>\nmight as well ask you to do a job for\nus right away.<heart>There are still five loads left on\nRendezvous Island that are scheduled\nto be placed on an upcoming special\n<br>\ndelivery.  I need you to retrieve them\nand bring them into the building. The\nshipment for the special delivery is a\n<br>\nblue crate.  You'll recognize it when\nyou see it because it's the same one\nthat's next to Navarro's as you enter\n<br>\nthe administration building. Ahh...\nplease take the crates one at a time,\nas they are very important cargo for\n<br>\nour guests. Yo, shh, shh, shh.<heart>": ""
+  },
+  "188360": {
+    "A blue wooden box is placed.": ""
+  },
+  "188361": {
+    "<attr><feel_happy_lv1><end_attr>I've just been assigned to the\nadministration here and I've always\nwanted to work in the sea.  I love\n<br>\nbeing a guy at sea! Where's the\nloading dock?  There, along the wall,\nwhere the crates are.": ""
+  },
+  "188362": {
+    "Hey, Kimi, you've been wandering\naround with a crate for a while now,\nare you the organizer Director Sugimu\n<br>\nwas talking about?": ""
+  },
+  "188363": {
+    "<attr><feel_think_lv1><end_attr>He says he's not an organizer, he's a\ndeputy!  Oh well... Oh well. It would\nbe great if you could help me gather\n<br>\nthe cargo, but no matter how much we\ngather here, it's no use, it's no use.\n The ship's warehouse is already\n<br>\noverflowing and we can't load any more\ncargo. I heard that they used to be\nable to fit this much stuff in here,\n<br>\nbut I've just been assigned to the\nAdministration, so I don't know the\nspecifics. In any case, the director\n<br>\nsays he can't send out a special\ndelivery until all the luggage is\nloaded onto the ship.  I'm so\n<br>\ndisappointed.": ""
+  },
+  "188364": {
+    "<icon_exc>That's right! I have an idea.  You're\nacting as a substitute for a\nprofessional organizer, right?  Then\n<br>\nlet's have him take a look at what's\ngoing on! I'm sorry, but since you're\non the wrong boat, take a picture of\n<br>\nthe warehouse aboard the Titus and\ngive it to the organizer. Thank you!": ""
+  },
+  "188365": {
+    "There are still five loads left on\nRendezvous Island that are scheduled\nto be placed on an upcoming special\n<br>\ndelivery.  I need you to retrieve them\nand bring them into the building.\nWell, it looks like there are two\n<br>\nunclaimed shipments here in the port\ntown of Lendore to the south, two to\nthe north, and one at the train\n<br>\nstation. The special delivery shipment\nis a blue crate.  You'll recognize it\nwhen you see it because it's the same\n<br>\none that's right next to Navarro's as\nyou enter the control center. Ahh...\nyou'll have to take the crates one at\n<br>\na time, as they're very important\ncargo for our guests. Yo, shh, shh,\nshh.<heart>": ""
+  },
+  "189223": {
+    "<pc>The Titus stopped to pore over its\ncargo. Including this one, there are\nonly a few more crates scheduled to go\n<br>\non the Titus' special flight.<%nEV_QUE_T_NUM1>There seem to be two of them. Let's\ntake them to the loading yard in the\nadministration office.": ""
+  },
+  "189224": {
+    "<pc>The Titus stopped to pore over its\ncargo. It looks like this is the last\nof the crates that are scheduled to go\n<br>\non the Titus' special flight. Let's\ntake it to the loading dock in the\nadministration office.": ""
+  },
+  "188366": {
+    "It seems to me that this is where we\nshould place our recovered cargo. I'm\nstill on Lendore Island.<%nEV_QUE_T_NUM2>I have one left, so let's go look for\nthe blue crate.": ""
+  },
+  "188367": {
+    "Looks like we can place the recovered\ncargo here. Would you like me to place\nthe crates?<yesno><close>": ""
+  },
+  "188369": {
+    "<pc> put down the crate\nhe had been carrying! Still on Lendore\nIsland.<%nEV_QUE_T_NUM2>I have one left, so let's go look for\nthe blue crate.<se map_common 11>": ""
+  },
+  "188370": {
+    "<pc> put down the wooden\nbox he was carrying!": ""
+  },
+  "188371": {
+    "<pc>told them that he had come to the ship\ncontrol office on behalf of Sasarana.": ""
+  },
+  "188372": {
+    "Blue crates are placed on the floor.\nIt appears to be the special shipment\nthat Director Sugim mentioned. Would\n<br>\nyou like to take it?<yesno><break>": ""
+  },
+  "188373": {
+    "<pc>The Titus was in possession of a cargo\nof important items!<me 60>": ""
+  },
+  "188374": {
+    "We have the crates for the special\ndelivery that Director Sugim\nmentioned, but it looks like we can't\n<br>\nhold any more. Let's take the crate we\nhave now to the Ship Management Office\nfirst!": ""
+  },
+  "188375": {
+    "I appreciate your help in collecting\nthe cargo, but the Titus' warehouse\ncan't hold any more. I heard they used\n<br>\nto be able to carry this much cargo,\nbut I've just been assigned to the\nAdministration, so I don't know the\n<br>\ndetails. Director Sugimu says he can't\nsend out a special delivery until all\nthe cargo is on board. Maybe if I take\n<br>\na picture of the warehouse and show it\nto the organizer, we can work\nsomething out.  The warehouse is on\n<br>\nthe first floor of the Titus.": ""
+  },
+  "188376": {
+    "desolate<pc>Chan.  I've finished collecting the\ncargo. Thank you.<heart>Yes, I heard Navarro's report. Navarro\ntold me that the Titus was having\ntrouble keeping all of its cargo in\n<br>\nstorage. I don't know what's going on,\nbut it's not that many.": ""
+  },
+  "188377": {
+    "<pc>The crates collected by the": ""
+  },
+  "188378": {
+    "I appreciate your help in collecting\nthe cargo, but the Titus' warehouse\ncan't hold any more. I heard they used\n<br>\nto be able to carry this much stuff,\nbut I've just been assigned to the\nAdministration, so I don't know the\n<br>\ndetails. In any case, the director\nsays we can't send out a special\ndelivery until all the luggage is\n<br>\nloaded onto the ship. Eh? You took\npictures of the warehouse?  If that's\nthe case, I want you to show them to\n<br>\nthe organizer of the entertainment\nisland, Raccaran~.": ""
+  },
+  "188379": {
+    "Director Sugim says he can't send out\na special delivery until all the\npackages are on board. I see you\n<br>\nshowed the photos to the organizer!\n I'm sorry, but you'll have to\ncooperate with the organizer, since\n<br>\nyou're on the wrong ship!": ""
+  },
+  "188380": {
+    "A man named Sasarana came in a little\nwhile ago, saying he was clearing out\na warehouse.  Is it possible that he's\n<br>\nwith you?<yesno><break>": ""
+  },
+  "188381": {
+    "Oh, excuse me.  I heard you were\nmeeting someone at the warehouse, but\nI think you have the wrong person.": ""
+  },
+  "188382": {
+    "<attr><feel_happy_one><end_attr>Oh, thank you very much.  I'm having\ntrouble with a special shipment.  Let\nme show you to the warehouse.": ""
+  },
+  "188383": {
+    "Director Sugim says we can't send out\na special delivery until all the cargo\nis on board.  Mr. Sarana? I'm not at\n<br>\nthe Administration. If you're planning\nto meet us on the Titus, I'm sure Mr.\nCrain at the boarding gate will let\n<br>\nyou on board if you tell him what's\ngoing on.": ""
+  },
+  "188384": {
+    "<attr><feel_normal_lv3><end_attr>Eh! You're done with your cargo?  All\nthe blue crates that were here have\nbeen put into the warehouse? That's\n<br>\namazing!  I wonder what kind of magic\nthey used... but first tell Director\nSugimu.": ""
+  },
+  "188385": {
+    "desolate<pc>Hello, sweetie.  What can I do for\nyou?": ""
+  },
+  "188386": {
+    "<attr><feel_happy_lv1><end_attr>Well, that's wonderful! That's\nwonderful.<heart>It's a pity that I didn't get to meet\nyou, Sarana, but I'm glad that we were\nable to get the shipment stowed\n<br>\naway... Actually, I was also concerned\nabout this situation, so I was\nchecking the materials of the\n<br>\nAdministration Department on the\nbookshelf there~. And then... Listen\nto me.<pc>Chan.  I have a record from a few\nyears ago that there was an\nunscheduled load on the Titus that\n<br>\ndidn't go on board. I was able to\nconfirm that there was a record of an\nelf woman on board who used her\n<br>\nmagical powers to help us load the\ncargo.<bw_break>": ""
+  },
+  "188387": {
+    "<attr><feel_happy_lv1><end_attr>The load handler at the time seemed to\nhave learned some loading tricks from\nthe woman, but she left when the Titus\n<br>\nwas taken out of service, so it seems\nthat the new load handler, Navarro,\nwas never told about it. I have to\n<br>\ntake over the job properly, don't I? I\nregret it. I regret it. Anyway, this\ntime...<pc>Thanks to you, I'm saved. Thank you.\n Give my regards to Sarana.<heart>": ""
+  },
+  "188388": {
+    "<pc> passed on a message\nfrom Sararana to Director Sgim!": ""
+  },
+  "188389": {
+    "<attr><feel_normal_lv3><end_attr>Eh! You're done with your cargo?  All\nthe blue crates that were here have\nbeen put into the warehouse? That's\n<br>\namazing!  I wonder what kind of magic\nthey used.": ""
+  },
+  "188390": {
+    "In this issue<pc>Thanks to you, I'm saved. Thank you.\n Give my regards to Sarana.<heart>": ""
+  },
+  "188391": {
+    "It appears to be the logbook of a\ncargo handler on the Grand Titus. On\nthe xth day of the month, an\n<br>\nunscheduled loading request came in\nfor a ship bound for the Kingdom of\nGran Zedorra. We wanted to load the\n<br>\ncargo for the celebration, but the\ncargo could not be stored in the\nwarehouse. With the help of an elf\n<br>\nwoman on board, the problem was\nsuccessfully solved and the cargo\ncapacity was increased. The woman's\n<br>\nadvice is as follows. 1. Store the\ngoods according to the tags marked in\nthe warehouse. 2 The material of the\n<br>\ntags is temporary and should be\nreplaced with a rust-resistant\nmaterial from time to time.": ""
+  },
+  "188392": {
+    "<attr><feel_happy_lv1><end_attr>I heard from Director Sugimu.  He told\nme that the trick is to store the\ncargo according to the plates attached\n<br>\nto the warehouse. When I tried it, I\nfound that I could load a lot of cargo\nsmoothly and easily.  It's really\n<br>\namazing. It's like magic!": ""
+  },
+  "188393": {
+    "<attr><feel_happy_lv1><end_attr>Leave it to me to organize the Titus'\ncargo.  I'll load the Titus with ease.\n It's kind of magical, isn't it?": ""
+  },
+  "85880": {
+    "<pc>school (eg of ikebana)<%sEV_QUE_NAME5>and<%sEV_QUE_NAME4>received!<se_nots System Item>": ""
+  },
+  "85882": {
+    "I am Harmos the Fishing Master.  I was\nborn into this world, and up until\nnow, I have fished in many waters over\n<br>\nthe years. Sometimes, young man. You\ndon't look like a fisherman, but you\nhave good eyes that remind me of clear\n<br>\nwater.  What's your name?<pc>I've been waiting for someone like\nyou. I have been waiting for someone\nlike you.  Someone who has the ability\n<br>\nto master the art of fishing. I have\njust the fishing tackle for beginners\nat hand.  If you apprentice yourself\n<br>\nto me, I'll give you this so you can\nstart fishing right away.<pc>Are you ready to become my apprentice\nand walk the long and arduous road of\nfishing? Are you ready to become my\n<br>\ndisciple and walk the long and hard\nroad of fishing?": ""
+  },
+  "85885": {
+    "I see. Then we have no choice.  But if\nyou're ready to take the fishing road,\nyou can visit me here. I'll be waiting\n<br>\nfor you.": ""
+  },
+  "85888": {
+    "Good reply. However...<pc>I see that you have taken on a lot of\nother requests as well.  You seem to\nbe taking on a lot of other requests.\n<br>\nThe road to fishing is not so easy\nthat you can walk it on the side of\nsomething. You should come back here\n<br>\nagain after you finish your other\nrequests.": ""
+  },
+  "85890": {
+    "<attr><feel_happy_one><end_attr>Then take this.": ""
+  },
+  "85892": {
+    "But then I thought, \"Well, you know what?<pc>I remember giving a fishing rod and a\nlure to  before.<bw_break>": ""
+  },
+  "85894": {
+    "Fishing is not possible without either\na fishing rod or a lure.<bw_break>": ""
+  },
+  "85896": {
+    "There should be a fishing rod and a\nlure in the bag. Take a look.  Talk to\nme when you see them.": ""
+  },
+  "85898": {
+    "Fishing is not possible without either\na fishing rod or a lure.<open_irai><bw_break>": ""
+  },
+  "85900": {
+    "There should be a fishing rod and a\nlure in the bag. Take a look.  Talk to\nme when you see them.": ""
+  },
+  "85902": {
+    "<attr><feel_happy_lv1><end_attr>Did you check the lure and the fishing\nline?  Good. Then go to the\nwaterfront.<emoji FaceButton_Right>You can fish by pressing the \"FISHING\"\nbutton. There are plenty of places to\nfish in Astor-Tia, such as oceans,\n<br>\nrivers, and lakes.  You can even fish\nfrom the pier in the harbor. You can\nfish from the pier in the harbor.  It\n<br>\ndoesn't matter if you don't actually\ncatch a fish.  It doesn't matter if\nyou don't actually catch a fish, the\n<br>\nimportant thing is to experience it\nfirst.": ""
+  },
+  "85904": {
+    "If you have a fishing rod and a lure, go to the water's edge<emoji FaceButton_Right>Press \"+\" to go fishing.<open_irai><bw_break>": ""
+  },
+  "85906": {
+    "The sea, rivers, and lakes of Astartia\noffer plenty of places to fish.  You\ncan even fish from the harbor piers\n<br>\nnearby.<bw_break>": ""
+  },
+  "85908": {
+    "Just try fishing once, anywhere.  It\ndoesn't matter if you don't catch any\nfish.  It doesn't matter if you don't\n<br>\nactually catch a fish.": ""
+  },
+  "85910": {
+    "<attr><feel_happy_one><end_attr>It seems you have been fishing\nproperly.  Now you know the basics of\nfishing.  Fisherman.<pc>I will introduce you to a fishing job\nwhen you visit me from now on. From\nnow on, when you visit me, I will\n<br>\nintroduce you to the fishing business.\nAlso, I will talk to Pitcho, the fish\nexchanger there. If you give fish to\n<br>\nPitcho, you will receive the\ncorresponding number of fish coins.\n Once you have enough coins, you can\n<br>\nexchange them for special prizes.": ""
+  },
+  "85912": {
+    "The road to fishing is not made in a\nday.  Even if you catch one fish every\nday, it's okay.  Keep on fishing, and\n<br>\nyou will become a better angler. If\nyou do so, your ability as an angler,\nin other words, your fishing level\n<br>\nwill increase, and you will become\nbetter at handling fishing tackle.\nHowever, if you continue fishing at\n<br>\nyour current level, you will reach the\nlimit of your growth as an angler at\nfishing level 20. First of all, you\n<br>\nshould aim for Fishing Level 18, catch\nbigger and stronger fish, and improve\nyour skill more and more! My\n<br>\napprentice!": ""
+  },
+  "89094": {
+    "<attr><feel_happy_one><end_attr>It seems you have been fishing\nproperly.  Now you have learned the\nbasics of fishing. There is a saying,\n<br>\n\"Never forget your first love.  Going\nback to the basics is also a learning\nexperience.  You have grown up one\n<br>\nmore.<pc>Yo.": ""
+  },
+  "99301": {
+    "Welcome, my apprentice.  It seems\nyou've been training diligently and\nhave raised your fishing level to over\n<br>\n18. It is time for you to reach the\nlimit of your growth.  Are you ready\nto go through the ordeal I have\n<br>\nprepared for you to become a level 21\nangler or above?": ""
+  },
+  "99302": {
+    "I see. Then I have no choice.  You can\ntell me when you're ready to take the\ntest and aim for fishing level 21 or\n<br>\nhigher. Well...<bw_break>": ""
+  },
+  "99303": {
+    "Good reply. However...<pc>I see that you have taken on a lot of\nother requests as well.  You seem to\nbe taking on a lot of other requests.\n<br>\nThe road to fishing is not so easy\nthat you can walk it on the side of\nsomething. You should come back here\n<br>\nagain after you finish your other\nrequests. Well...<bw_break>": ""
+  },
+  "99304": {
+    "That is why you are my disciple.  Tell\nme more about your ordeal. The\nopponent you must face is an arowana!\n<br>\n You must fish for arowanas that live\nin the Muluhel Forest and other places\nin the underground streams of King\n<br>\nLadis Island! If you catch it\nsuccessfully, I will allow you to\nbecome an angler of level 21 or above.\n<br>\n If you catch it successfully, come\nhere and report back to me. Come on.<pc>I am sure that you will be able to do\nthe same. You must overcome this\nordeal and aim for even greater\n<br>\nheights on the fishing trail!": ""
+  },
+  "99305": {
+    "I caught an arowana! Let's go report\nto Master Fisherman Harmos in the\nsouth of the port town of Rendor!": ""
+  },
+  "99306": {
+    "To become a better angler, you must\nchallenge the temperamental arowana\nand catch them with your own strength.<open_irai><bw_break>": ""
+  },
+  "99307": {
+    "Arowanas are found in the waters of\nKing Ladis Island and in the forests\nof Muruel. If you successfully catch\n<br>\nan arowana, I will allow you to become\na level 21 angler or above.  If you\ncatch it successfully, come and report\n<br>\nback to me. Now...<close_irai><bw_break>": ""
+  },
+  "99308": {
+    "I can feel the spirit of a fisherman\nstronger than before from you. It\nseems you caught the arowana without\n<br>\nincident. As long as you follow the\npath of fishing, battles with big fish\nare inevitable.  Many anglers end\n<br>\ntheir lives as fishermen after their\nhearts are broken along with their\nfishing rods.<bw_break>": ""
+  },
+  "99309": {
+    "Catching arowana is a gateway to\nsuccess for anglers.  You have done\nit.": ""
+  },
+  "99310": {
+    "With this, you will be able to grow\nbeyond fishing level 21. Your next\nlimit is level 25. Now you must work\n<br>\non your skills to get there.": ""
+  },
+  "99311": {
+    "Catching an arowana is a gateway to\nsuccess for anglers.  You have done it\nagain.": ""
+  },
+  "99312": {
+    "If I continue to train like this, the\nday will come soon when I will reach\nthe next limit, level 25.   For now,\n<br>\nI'm working on my skills to get there.": ""
+  },
+  "99314": {
+    "Welcome, my disciple.<bw_break>": ""
+  },
+  "99313": {
+    "Welcome, my disciple.<bw_break>": ""
+  },
+  "146768": {
+    "Welcome, my apprentice.  It seems\nyou've been training diligently and\nhave raised your fishing level to over\n<br>\n23. It is time for you to reach the\nlimit of your growth.  Are you ready\nto go through the ordeal I have\n<br>\nprepared for you to become a level 26\nangler or above?": ""
+  },
+  "146769": {
+    "I see. Then I have no choice.  You can\ntell me when you're ready to take the\ntest and aim for fishing level 26 or\n<br>\nhigher. Well...<bw_break>": ""
+  },
+  "146770": {
+    "Good reply. However...<pc>I see that you have taken on a lot of\nother requests as well.  You seem to\nbe taking on a lot of other requests.\n<br>\nThe road to fishing is not so easy\nthat you can walk it on the side of\nsomething. You should come back here\n<br>\nagain after you finish your other\nrequests. Well...<bw_break>": ""
+  },
+  "146771": {
+    "That is my disciple.  Tell me more\nabout your next ordeal. The one you\nmust face is a whale shark!  You must\n<br>\nfish for whale sharks that live in the\nsouth of Verinard Territory and the\nwest of Verinard Territory! If you\n<br>\nsuccessfully catch the whale shark, I\nwill allow you to become a level 26 or\nhigher angler.  If you successfully\n<br>\ncatch a whale shark, come here and\nreport back to me. Come on.<pc>I am sure that you will be able to do\nthe same. You must overcome this\nordeal and aim for even greater\n<br>\nheights on the fishing trail!": ""
+  },
+  "146772": {
+    "I caught a whale shark! Let's go\nreport it to Fishing Master Harmos in\nthe south of the port town of Rendor!": ""
+  },
+  "146773": {
+    "In order to become a better fisherman,\nhe will challenge the giant whale\nshark and catch it with his own\n<br>\nstrength.<open_irai><bw_break>": ""
+  },
+  "146774": {
+    "Whale sharks are found in the south\nand west of Verinard. If you\nsuccessfully catch a whale shark, I\n<br>\nwill allow you to become a level 26\nangler or above.  If you catch it\nsuccessfully, come here to report it.\n<br>\nNow...<close_irai><bw_break>": ""
+  },
+  "146775": {
+    "I can feel your spirit as an angler\neven stronger than before. It seems\nyou have successfully caught a whale\n<br>\nshark. Now that you've landed a whale\nshark, I'm sure you'll be able to take\non other giant fish without fear.<bw_break>": ""
+  },
+  "146776": {
+    "I am amazed that they made it this\nfar.  Many anglers have given up along\nthe way.  You have done it well.": ""
+  },
+  "146777": {
+    "With this, you will be able to grow to\nfishing level 26 or higher. Your next\nlimit will be level 30. You must work\n<br>\non your skills to reach it. You must\ntrain and grow day by day.  Only the\ntime you put in will become your flesh\n<br>\nand blood.  There is no royal road to\nfishing.": ""
+  },
+  "146778": {
+    "I am amazed that they made it this\nfar.  Many anglers have given up along\nthe way.  You have done it again, and\n<br>\nyou have done it well.": ""
+  },
+  "146779": {
+    "If I continue to train like this, the\nday when I reach the next limit, level\n30, will come soon.   For now, I'm\n<br>\nworking on my skills to get there.": ""
+  },
+  "146781": {
+    "Welcome, my disciple.<bw_break>": ""
+  },
+  "146780": {
+    "Welcome, my disciple.<bw_break>": ""
+  },
+  "188422": {
+    "Welcome, my apprentice.  It seems\nyou've been training diligently and\nhave raised your fishing level to over\n<br>\n28. It is time for you to reach the\nlimit of your growth.  Are you ready\nto go through the ordeal I have\n<br>\nprepared for you to become a level 31\nangler or above?": ""
+  },
+  "188423": {
+    "I see. Then I have no choice.  You can\ntell me when you're ready to take the\ntest and aim for fishing level 31 or\n<br>\nhigher. Well...<bw_break>": ""
+  },
+  "188424": {
+    "Good reply. However...<pc>I see that you have taken on a lot of\nother requests as well.  You seem to\nbe taking on a lot of other requests.\n<br>\nThe road to fishing is not so easy\nthat you can walk it on the side of\nsomething. You should come back here\n<br>\nagain after you finish your other\nrequests. Well...<bw_break>": ""
+  },
+  "188425": {
+    "That is my disciple.  Now tell me more\nabout your next ordeal. The opponent\nyou must face is an electric eel!\n<br>\n They appear in the Boonah Rainforest\nat this time of year and annoy the\nother fish by discharging electricity.\n<br>\nAs a fisherman, sometimes you have to\nprotect the peace of the fish.  To do\nthat, we need a sample of this guy. If\n<br>\nyou catch him successfully, I will\nallow you to become a level 31 angler\nor above.  Come report back to me when\n<br>\nyou've successfully caught a fish.\nCome on.<pc>I am sure that you will be able to do\nthe same. You must overcome this\nordeal and aim for even greater\n<br>\nheights on the fishing trail!": ""
+  },
+  "188426": {
+    "I caught an electric eel! Let's go to\nthe old angler Harmos in the south of\nthe port town of Rendor to report the\n<br>\ncatch!": ""
+  },
+  "188427": {
+    "To take your fishing skills to the\nnext level, head to the Boonah\nRainforest, challenge the electric\n<br>\neel, and catch it on your own.<open_irai><bw_break>": ""
+  },
+  "188428": {
+    "If you catch a fish successfully, I\nwill allow you to become a level 31\nangler or above.  If you catch a fish\n<br>\nsuccessfully, come here to report it.\nNow...<close_irai><bw_break>": ""
+  },
+  "188429": {
+    "I can feel the kindness that envelops\neven an electric shock from you. It\nseems you have successfully caught an\n<br>\nelectric eel. It's not just about\ncatching fish, but also about caring\nfor them. That's what it takes to\n<br>\nmaster the art of fishing. I am amazed\nat your growth every time.  I never\nthought you would become such a great\n<br>\nfisherman.  Keep up the good work and\naim for even greater heights.": ""
+  },
+  "188430": {
+    "With this, you will be able to grow\nbeyond fishing level 31. Your next\nlimit will be level 35, and you will\n<br>\nwork on your skills to get there.": ""
+  },
+  "188432": {
+    "Welcome, my disciple.<bw_break>": ""
+  },
+  "188431": {
+    "Welcome, my disciple.<bw_break>": ""
+  },
+  "210447": {
+    "Welcome, my apprentice.  It seems\nyou've been training diligently and\nhave raised your fishing level to over\n<br>\n33. It is time for you to reach the\nlimit of your growth.  Are you ready\nto go through the ordeal I have\n<br>\nprepared for you to become a level 36\nangler or above?": ""
+  },
+  "210448": {
+    "I see. Then I have no choice.  You can\ntell me when you're ready to take the\ntest and aim for fishing level 36 or\n<br>\nhigher. Well...<bw_break>": ""
+  },
+  "210449": {
+    "Good reply. However...<pc>I see that you have taken on a lot of\nother requests as well.  You seem to\nbe taking on a lot of other requests.\n<br>\nThe road to fishing is not so easy\nthat you can walk it on the side of\nsomething. You should come back here\n<br>\nagain after you finish your other\nrequests. Well...<bw_break>": ""
+  },
+  "210450": {
+    "That is my disciple.  Tell me more\nabout your next ordeal. The fish you\nwill face is the sawfish, Huang!  You\n<br>\nmust fish for this phantom fish in the\nterritory of Gran Zedorra on the\nLendersia continent. This fish is\n<br>\noriginally blue in color, but there\nare special yellow-colored individuals\nthat live in the territory of Gran\n<br>\nZedorra and other areas. If you\nsuccessfully catch a fish, I will\nallow you to become a level 36 or\n<br>\nhigher angler.  If you catch it\nsuccessfully, come here and report\nback to me. Come on.<pc>I am sure that you will be able to do\nthe same. You must overcome this\nordeal and aim for even greater\n<br>\nheights on the fishing trail!": ""
+  },
+  "210451": {
+    "I caught a Sawfish Yellow! Let's go\nreport it to Fishing Master Harmos in\nthe south of the port town of Rendor!": ""
+  },
+  "210452": {
+    "In order to become a better fisherman,\nyou must head to the Gran Zedorra\nterritory and fish for the sawfish\n<br>\nyellow.<open_irai><bw_break>": ""
+  },
+  "210453": {
+    "If you catch a fish successfully, I\nwill allow you to become a level 36\nangler or above.  If you catch a fish\n<br>\nsuccessfully, come here to report it.\nNow...<bw_break>": ""
+  },
+  "210454": {
+    "I sense a different kind of devilish\naura about you, and it seems you've\nsuccessfully caught a sawfish, yellow.\n<br>\nIt's not luck that brings you to this\nfantastic fish.  You were guided by\nthe fish.  And you deserve it. I was\n<br>\nright after all.  You may surpass me\nas a fisherman.  Keep this up and\nyou'll become a first-rate fisherman.": ""
+  },
+  "210455": {
+    "With this, you will be able to grow\nbeyond fishing level 36. The next\nlimit is level 40, and you will work\n<br>\non your skills to get there.": ""
+  },
+  "210457": {
+    "Welcome, my disciple.<bw_break>": ""
+  },
+  "210456": {
+    "Welcome, my disciple.<bw_break>": ""
+  },
+  "78114": {
+    "Hmm? Did Captain Abram ask you to\ndeliver his tool bag to the\nclocksmith?  Hmm. Well, that's a\n<br>\nproblem. Actually, the captain told me\nto replace the broken wrench in the\ntool bag with a high-tech wrench, but\n<br>\nI haven't done that yet. That's\nright! You'll have to go and get it\nfor me!  I'll be in Orgreid, west of\n<br>\nGlen Territory.<%sEV_QUE_NAME0>I've heard that they sometimes drop\nthem. If you bring me a high-tech\nwrench, I'll swap it out on the spot\n<br>\nand give you my tool bag!  Don't tell\nthe captain!": ""
+  },
+  "78115": {
+    "Actually, the captain told me to\nreplace the broken wrench in that tool\nbag with a high-tech wrench, but I\n<br>\nhaven't done it yet. I haven't done it\nyet! You'll have to go and get one!\n I'll be in the Ogrid Continent, west\n<br>\nof Glen Territory, etc.<%sEV_QUE_NAME0>I've heard that they sometimes drop\nthem. If you bring me a high-tech\nwrench, I'll swap it out on the spot\n<br>\nand give you my tool bag!  Don't tell\nthe captain!": ""
+  },
+  "78116": {
+    "Would you give a high-tech wrench to a\nYaquoi bureaucrat?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "78117": {
+    "<pc>gave a high-tech wrench to a Yaccoi\nbureau employee!": ""
+  },
+  "78118": {
+    "<pc> received the\nclocksmith's tool bag (a very\nimportant item)!<me 60>": ""
+  },
+  "78119": {
+    "<attr><feel_happy_one><end_attr>Whoa! You're good!  You got your hands\non a high-tech wrench, didn't you?  Go\non, hand it over.": ""
+  },
+  "78120": {
+    "<attr><feel_sad_one><end_attr>What's that? I didn't get it yet.\n It's not easy to get that wrench.": ""
+  },
+  "78121": {
+    "<attr><feel_happy_lv1><end_attr>Oh, this, this, this! Thank you very\nmuch!  Well, I'll get started right\naway and replace the broken wrench\n<br>\nwith a high-tech wrench. Okay! Now\nwe're all set!  Take this tool bag to\nthe engineer who lives in the hut in\n<br>\nthe Lagi snowfield on the Orgreid\ncontinent!": ""
+  },
+  "78122": {
+    "<attr><feel_happy_lv1><end_attr>The engineer is the one who repaired\nthe Grand Titus. There was a time when\nthat broken ship was docked in this\n<br>\nport, remember? The repairs were\nsuccessfully completed, but for some\nreason, right after that, the\n<br>\nclocksmith and the captain got into a\nhuge fight. After all was said and\ndone, the clocksmith declared, \"I'm\n<br>\nquitting this job! He left his bag\nbehind and got off the ship. The\ncaptain must have wanted to make up\n<br>\nwith the clocksmith, since he ordered\nhim to replace the broken wrench with\na high-tech wrench. The clocksmith's\n<br>\nname is Mr. Vallejo.  He's been a\nfriend of the captain's for decades.\n Make sure you deliver it to him! I'm\n<br>\ncounting on you!": ""
+  },
+  "78123": {
+    "<attr><feel_happy_lv1><end_attr>Mr. Vallejo is the engineer who\nrepaired the Grand Titus. There was a\ntime when that broken ship was docked\n<br>\nin this port for a long time, wasn't\nthere? The repairs were successfully\ncompleted, but for some reason, Mr.\n<br>\nVallejo and the captain had a big\nfight right after that. After all was\nsaid and done, Mr. Vallejo declared,\n<br>\n\"I'm quitting this kind of work! and\nleft his bag behind. However, the\ncaptain must have wanted to make up\n<br>\nwith Mr. Vallejo because he ordered\nhim to replace the broken wrench with\na high-tech wrench. After all, they\n<br>\nhave been friends for decades. I\nwonder if the captain's feelings are\ncontained in that tool bag. Anyway,\n<br>\nplease deliver that tool bag to Mr.\nVallejo, who lives in a hut in the\nLagi snowfield on the Orgreid\n<br>\ncontinent!": ""
+  },
+  "78124": {
+    "<attr><feel_normal_one><end_attr>Heh. Mr. Vallejo, you decided to\nresume your job as an engineer. So,\nwhat was the reason for your fight\n<br>\nwith the captain after all? What? Was\nit because Mr. Vallejo took the\nliberty of upgrading the ship's power\n<br>\nunit to a high-tech one?  And was\nreplacing the wrench payback for the\ncaptain?<bw_break>": ""
+  },
+  "90322": {
+    "<attr><feel_normal_silent><end_attr>The following is a list of the most\ncommon problems with the<bw_break>": ""
+  },
+  "90323": {
+    "<attr><feel_normal_one><end_attr>I knew of Captain Abram's commitment\nto that ship, but to have a big fight\nover it?  But to get back at him for\n<br>\nthat... the captain is just a child.": ""
+  },
+  "67436": {
+    "You don't look like you have much\nmoney.  You look like you don't have\nmuch money!": ""
+  },
+  "67437": {
+    "I'm going to go to Rendasia and make a\nfortune in business!  I'm going to go\nto Lendersia and make a fortune in\n<br>\nbusiness! Is Lendersia safe?  They say\nthat the area is shrouded in a strange\nfog, so I guess I'll just have to wait\n<br>\nand see until I know it's safe.": ""
+  },
+  "67438": {
+    "The waters around Rendasia are calmer\nnow, and the repairs to the Grand\nTitus are complete.  Now we just need\n<br>\nto know when that thing will be\nfinished. If you want to go to\nLendersia, talk to the travel\n<br>\nconcierge at the inn and help him\nprepare the ship for departure.": ""
+  },
+  "187417": {
+    "I heard you helped prepare the ship\nfor departure.  Thanks. You can\nexchange your boarding pass voucher\n<br>\nfor a pass for the Titus by giving it\nto the manager of the ship management\noffice there.": ""
+  },
+  "67439": {
+    "<attr><feel_happy_lv3><end_attr>We did it!  The liner has been\nrepaired.  Now, many tourists will\ncome! It's going to be busy from now\n<br>\non.  For a businessman like me, it's\njust what I've been hoping for.": ""
+  },
+  "67440": {
+    "<attr><feel_sad_one><end_attr>Apparently, this guy went to check on\nthe waters around Rendasia and ended\nup in the purple mist.  Poor thing.\n<br>\nHe's still scared like this.": ""
+  },
+  "67441": {
+    "The liner Grand Titus has been\nrepaired, but circumstances have\nforced her out of service.  Sorry,\n<br>\ntravelers.": ""
+  },
+  "67442": {
+    "Even though the waters around Rendasia\nhave calmed down, the purple fog that\nenvelops the region seems to have\n<br>\npersisted. The Grand Titus seems to be\ngetting ready to set sail, but I\nwonder if it will be safe to do so.": ""
+  },
+  "67443": {
+    "<attr><feel_happy_one><end_attr>I finally finished repairing the boat.\n The engineers, with their incredible\nskills, showed me their meticulous\n<br>\nrepair work. I don't have to worry\nabout the boat anymore!": ""
+  },
+  "67444": {
+    "The repairs to the Grand Titus are\nfinished.  But there is another\nproblem that will keep her out of port\n<br>\nfor the time being. If you would like\nmore information, please visit the\ntravel concierge at the inn.  And if\n<br>\nyou can, help us get ready to sail.<heart>": ""
+  },
+  "67445": {
+    "<attr><feel_happy_one><end_attr>Ah~n! You're so good at this!  You\nhave a boarding pass voucher, which\nmeans you helped us create the\n<br>\ncompass.<heart>Mm-hmm. You're all set.  The voyage of\nyour dreams awaits.  Shall we exchange\nit for a Titus boarding pass right\n<br>\naway?<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "67446": {
+    "Oh, no. Are you the type of person who\nsaves the fun for later?  I don't hate\npeople like that.<heart>Come back when you're ready.": ""
+  },
+  "67447": {
+    "<attr><feel_happy_lv1><end_attr>Thanks to you, the materials are\nsteadily being gathered.  I received a\nhappy call that the magic compass will\n<br>\nbe ready soon. As soon as the magic\ncompass arrives, we'll set sail on the\nGrand Titus.  Oh?": ""
+  },
+  "67448": {
+    "<pc> gave the ticket to\nDirector Sugim and received a Titus\nboarding pass (a very important one)\n<br>\nin exchange!<me 60>": ""
+  },
+  "87443": {
+    "I'd love to go to Rendasia, but I\ncan't leave here.  I'm going to put my\nwork first and do my best.": ""
+  },
+  "67449": {
+    "Right now, they have stopped selling\npasses to board the Grand Titus. There\nis a lot of uncertainty because we are\n<br>\nstill out of touch with Rendasia. We\ncan't just casually sell passes to the\npublic under these circumstances. If\n<br>\nyou really want a boarding pass, you\nshould talk to the concierge at the\ninn and make the request. If the\n<br>\nperson has that kind of power, we can\ngive you a boarding pass with peace of\nmind.": ""
+  },
+  "67450": {
+    "I was going to sell the Titus pass I\nhappened to have for a grand sum, but\nit turned out to be a measly sum of\n<br>\nmoney. Whoa, what in the world\nhappened?  Did I get punished for\ntrying to make a quick buck?": ""
+  },
+  "67451": {
+    "<attr><feel_happy_lv1><end_attr>At last, the magic compass is\ncomplete!  The Grand Titus is about to\nset sail! Some of you may have decided\n<br>\nto forego this flight and wait until\nthe Grand Titus arrives safely in\nRendasia before boarding, but today is\n<br>\nthe day the Grand Titus will once\nagain set sail for the sea!  I'm sure\nmany people will come to see the\n<br>\ndeparture!": ""
+  },
+  "67452": {
+    "The crew is in a hurry to get going.\n Could it be that the Grand Titus is\nabout to set sail? If my girlfriend\n<br>\nwere alive, we would have boarded that\nship together and shown her the waters\nof Rendasia.": ""
+  },
+  "67453": {
+    "You are a passenger with a Titus\nboarding pass.  Before you board, we\nwould like to confirm that you are in\n<br>\npossession of a Titus boarding pass.\nThe Grand Titus will be sailing to a\nport in the Kingdom of Gran Zedorra,\n<br>\nthe Great Land of Lendersia. Once on\nboard, you will not be allowed to\ndisembark until the ship arrives at\n<br>\nthe port. If you have urgent business\nto attend to, we recommend that you\nboard the ship after you have finished\n<br>\nyour errands.  Are you ready to embark\non a long journey?<yesno><close>": ""
+  },
+  "67454": {
+    "Please come in when you are ready.": ""
+  },
+  "67455": {
+    "<attr><feel_happy_one><end_attr>This is our first anniversary sailing\nsince resuming service, so there is no\ncharge.  Please come aboard the Grand\n<br>\nTitus.": ""
+  },
+  "67456": {
+    "Busy, busy, busy!  The time for\nsailing has finally come! If you plan\nto board the Grand Titus, you'd better\n<br>\nhurry!  The ship's leaving soon!": ""
+  },
+  "67457": {
+    "<attr><feel_happy_one><end_attr>The ship and crew are ready to go!\n The Grand Titus is ready to sail\nright now. When you board the Grand\n<br>\nTitus, please show your Titus pass to\na sailor named Crane at the front of\nthe ship.<heart>": ""
+  },
+  "67458": {
+    "Ah. You managed to get a pass to board\nthe Titus, didn't you? That means you\nwere able to gather the materials for\n<br>\nthe magic compass. If you're that\npowerful, we'll be able to send you on\nyour way with peace of mind.": ""
+  },
+  "67459": {
+    "I heard that things are strange in\nRendasia.  The atmosphere is gloomy\nand dark, and the demons have grown\n<br>\nstronger than ever.": ""
+  },
+  "67460": {
+    "I went to Rendasia, but all the demons\nI met were so powerful that I had to\nflee in haste. I still have a lot of\n<br>\ntraining to do.  I'm going to train\nhere and get stronger before I cross\nover to that place.": ""
+  },
+  "67461": {
+    "The liner service between Rendor and\nLendasia has been restored. We still\nhave our concerns, but we must do our\n<br>\nbest to bring our guests safely to\nLendasia.": ""
+  },
+  "67462": {
+    "<attr><feel_happy_lv3><end_attr>We did it!  The liner service has\nresumed.  Now many tourists will come!\nIt's going to be very busy from now\n<br>\non.  For a businessman like me, it's\njust what I've been hoping for.": ""
+  },
+  "67463": {
+    "I see the Grand Titus off from here\nevery day. I wonder what kind of\njourney she would have made on that\n<br>\nship if she were still alive.": ""
+  },
+  "67464": {
+    "The Grand Titus has temporarily\nchanged her point of arrival to the\nbeaches of Cocolata, northwest of\n<br>\nLendersia, where she will set sail.\nGuests with a Titus Pass can board for\n200 gold.  Would you like to board the\n<br>\nGrand Titus?<yesno><break>": ""
+  },
+  "67465": {
+    "Well then, please come again.": ""
+  },
+  "67466": {
+    "I am sorry, but we seem to be short of\nmoney.  We look forward to seeing you\non board again.": ""
+  },
+  "67467": {
+    "<attr><feel_angry_one><end_attr>I will now take your 200 gold for\nboarding.  And now, the Grand Titus.": ""
+  },
+  "67468": {
+    "Even though the seas around Rendasia\nhave calmed down, the purple fog that\nenvelops the land seems to have\n<br>\npersisted. But thanks to a magic\ncompass, the Grand Titus is operating\nevery day without incident.": ""
+  },
+  "67469": {
+    "At last, we can go to Lendersia!  We\nhaven't made it to the port of the\nKingdom of Granzedora yet, but I'll\n<br>\nmake sure we do someday!": ""
+  },
+  "67470": {
+    "I heard that the Grand Titus couldn't\nget into the waters of Gran Zedorra no\nmatter what they did. I heard it was\n<br>\nbecause of the strong currents, but\nthat doesn't make sense to me. I think\nwe should continue to take the utmost\n<br>\nprecautions in Rendasia.  You should\nbe careful too.": ""
+  },
+  "67471": {
+    "My friends on the boat were telling me\nthat things had changed a lot.  The\nsituation in Rendasia has changed a\n<br>\nlot. We're trying to find out why we\ncan't get to the port of Granzedora,\nbut it's going to take some time\n<br>\nbefore we can figure out what's going\non.": ""
+  },
+  "79697": {
+    "I had heard that the atmosphere in\nLendersia was gloomy and I was\nworried, but I'm relieved to see that\n<br>\nthe Kingdom of Granzedora seems to be\nas lively as ever. But I heard that\nthe atmosphere on the beach in\n<br>\nCocolata is still bad, and I wonder\nwhat in the world is going on in\nLendersia.": ""
+  },
+  "79698": {
+    "I am very happy for you.  At last, the\npassage to the Kingdom of Granzedora\nis open. This is thanks to the new\n<br>\nmagic compass created by Master Horow\nthe Wise, but there is one thing I am\nconcerned about.<bw_break>": ""
+  },
+  "79699": {
+    "The kingdom of Granzedola is calm, but\non the beach at Cocolata, it's dark\nand even the air seems to be stale.\n<br>\nIt's like a different world. But that\naside, the ship is headed to the\nbeaches of Cocolata and the Kingdom of\n<br>\nGranzedora.  Which way would you like\nto go?<select>\nBeach of Cocolata (False World)\nKingdom of Granze Dora (True World)<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "79700": {
+    "200 Gold for Titus Pass holders  Would\nyou like to board the Grand Titus?<yesno><break>": ""
+  },
+  "79701": {
+    "Well then, please come again.": ""
+  },
+  "79702": {
+    "I am sorry, but we seem to be short of\nmoney.  We look forward to seeing you\non board again.": ""
+  },
+  "87887": {
+    "<attr><feel_happy_one><end_attr>I will now charge you 200 gold for\nboarding.": ""
+  },
+  "79760": {
+    "<attr><feel_happy_lv1><end_attr>Finally, we can go to the Kingdom of\nGranzedora! Seeing our customers so\nhappy will make me do my best in my\n<br>\ndaily work!": ""
+  },
+  "79704": {
+    "<attr><feel_happy_one><end_attr>Hmmm. Looks like the Grand Titus is\nnow free to go to the Kingdom of Gran\nZedorra and the beaches of Cocolata. I\n<br>\ndon't know why we couldn't enter the\nwaters of Gran Zedorra before, but now\nit's all for the best.": ""
+  },
+  "79705": {
+    "<attr><feel_happy_lv3><end_attr>Yay! We can now safely sail to the\nKingdom of Granzedora!  This is such a\ngreat thing! This will bring more and\n<br>\nmore tourists, and the economy of\nLendore Island is sure to boom! I'm so\nhappy for you!": ""
+  },
+  "35903": {
+    "There's a man who went to the seas\naround Rendasia, and he's been acting\nstrange ever since he got back. It's\n<br>\nbeen quiet around here, but I've heard\nthat the seas around Rendasia are\nunimaginably rough.": ""
+  },
+  "35904": {
+    "<attr><feel_think_lv1><end_attr>Trade with Rendasia has completely\nceased. We ordinary people cannot\nimagine what is happening there.  I\n<br>\nhope something will be done soon.": ""
+  },
+  "35905": {
+    "Rumor has it that there is a huge\ncastle in Rendasia. I don't know how\nbig it is, but it's not as big as\n<br>\nGertrand Castle.": ""
+  },
+  "35906": {
+    "Isn't it amazing?  This giant ship is\nthe pride of the port city of Rendall,\nthe Grand Titus, a luxury liner. It's\n<br>\ncurrently out of commission and\nundergoing repairs.  The manager of\nthe ship management office there is in\n<br>\ncharge, so you can ask him for more\ndetails.": ""
+  },
+  "35907": {
+    "<attr><feel_angry_lv1><end_attr>It's really a great thing.  It's a\ntown that depends on tourism.  If the\nboats don't go out, we'll really be in\n<br>\ntrouble. If things continue as they\nare, there will be fewer tourists, and\nthe town will really be deserted.\n<br>\n Well, it's a real problem.": ""
+  },
+  "35908": {
+    "<attr><feel_happy_lv1><end_attr>La la la la~ Uruwashi no Kimi yo\n You're sleeping in the sea of beauty.\n Lalala~ You're free now This is a\n<br>\nsong I wrote for my girlfriend.  She\nhad always wanted to see the sea, but\nshe passed away due to illness. She is\n<br>\nfree in body and soul, and now she\nsleeps in this wide ocean.": ""
+  },
+  "35909": {
+    "<attr><feel_happy_lv1><end_attr>Wow, this place is not bad.  The rooms\naren't that big, but I can hear the\nsound of the waves, and I like it.": ""
+  },
+  "35910": {
+    "<attr><feel_happy_one><end_attr>The sea breeze is blowing and it feels\nso nice.  When I smell the scent of\nthe sea, I feel as if my mind is\n<br>\nbroadened many times over. If I could\ndo my research in this kind of\nenvironment, I'm sure I would get\n<br>\nalong very well.": ""
+  },
+  "35911": {
+    "<attr><feel_sad_lv1><end_attr><turn_pc>This guy was almost swallowed by a\npurple mist in the waters near\nLendersia. And he got caught in an\n<br>\nunimaginably large wave, and his ship\nwas destroyed.  He came back alive. He\nmust have gone through something\n<br>\nterrible to be so frightened.": ""
+  },
+  "35913": {
+    "Sorry, travelers.  The Grand Titus is\ncurrently out of service.": ""
+  },
+  "35914": {
+    "There's not much soil here.  The ocean\nis not bad, but I miss the land of my\nhometown. It's bad, it's bad, it's\n<br>\nbad.  I'm on a training trip, and this\nis the reason I'm whining.": ""
+  },
+  "35915": {
+    "<attr><feel_think_lv1><end_attr>I sense some kind of evil presence\ncoming from the direction of Rendasia.\nWhat in the world has happened to\n<br>\nthose nearby waters, which used to be\ncalled the peaceful seas?": ""
+  },
+  "35916": {
+    "<attr><feel_happy_lv1><end_attr>Working here at the Port of Lendore, I\nget to talk to customers from all\nwalks of life.  I know what products\n<br>\nare selling well in each area.": ""
+  },
+  "35917": {
+    "I'm sorry, but you have a visitor.\n I'm working right now, so I can't\nchat with you.": ""
+  },
+  "35918": {
+    "<attr><feel_happy_lv1><end_attr>There was a time when it was said that\nonly the rich and privileged could\nboard a liner to Lendersia. Compared\n<br>\nto those days, nowadays, many\ndifferent species come and go, and\nit's much more open.": ""
+  },
+  "35919": {
+    "<attr><feel_think_lv1><end_attr>I'll never forget that scene.  The\nseas around Rendasia have turned into\na sea of evil.  That place is no place\n<br>\nfor people to go. The sea is a wreck.\nThe sea is so stormy, and the purple\nfog makes it impossible to see\n<br>\nanything around you.  It's a purple\nfog that makes it impossible to see\nanything around you, and it's so\n<br>\nthick, you can't see a thing.\nMiraculously, we made it back to\nRendore, but my partner went\n<br>\ncompletely crazy.  I'm never going\nback there again.": ""
+  },
+  "35920": {
+    "My brother is a sailor in the port of\nRendasia. But ever since the sea went\ncrazy, I haven't heard from him.  I'm\n<br>\nworried about his health.": ""
+  },
+  "35921": {
+    "<attr><feel_happy_lv1><end_attr>It's rare to find a place like this\nwhere people from all over the world\ncome to live. Living here, I hear so\n<br>\nmany interesting stories from\ntravelers.  Everyday is so fresh.": ""
+  },
+  "35922": {
+    "<attr><feel_happy_lv1><end_attr>Oh, my, you are a very pretty girl.\n I'm so happy to have met such a\npretty girl like you, who makes me\n<br>\nwant to eat her. If it were for your\nsake, I'd be happy to send out a ship,\nbut we can't for the time being. The\n<br>\nseas around Rendasia are stormy and\nthe Grand Titus is broken.  I can't\nhelp you any more. If it were true, I\n<br>\ncould have enjoyed a hot night of\nvoyage with you that would have made\nmy bones ache, but I'm sorry. I'm\n<br>\nsorry.": ""
+  },
+  "35923": {
+    "Our motto is \"Trust First\".  We will\ntake full responsibility for your\nbelongings.": ""
+  },
+  "35924": {
+    "<attr><feel_sad_lv3><end_attr>Wobble, wobble, wobble. Wobbling.  I\ndon't like it.  I don't want to sail\nanymore.": ""
+  },
+  "83773": {
+    "This town has become more vibrant\nrecently with more people coming here.\n I must do my best, too.": ""
+  },
+  "35925": {
+    "<attr><feel_think_lv1><end_attr>I don't know why, but it seems the\nwhole of Rendasia was enveloped in a\npurple mist. Some of the sailors were\n<br>\nalmost swallowed up by the purple\nmist, but they escaped in a hurry.\n The seas around there are rough. In\n<br>\naddition, the Grand Titus, the pride\nof the port city of Rendor, has been\ndestroyed.  I guess we won't be able\n<br>\nto sail for a while.": ""
+  },
+  "35926": {
+    "The sailors at the station have taken\ntheir boats out to the waters around\nRendasia to see what's going on. The\n<br>\nsea used to be rough, but it seems to\nhave calmed down a lot.  I wonder if\nsomething has happened.": ""
+  },
+  "35927": {
+    "<attr><feel_think_lv1><end_attr>I'm going to go to Rendasia and make a\nfortune in business!  I was so eager\nto do business in Lendersia. But\n<br>\naccording to the crew, they don't know\nwhen the ship will be ready to sail.\n Oh, no. I'm so disappointed.": ""
+  },
+  "35928": {
+    "<attr><feel_angry_lv1><end_attr>I'm traveling the world to test my\nskills, and I can't wait to get to\nGranzedora Castle. I'm afraid I'm\n<br>\ngoing to lose my fighting spirit if I\nstay still.  I'll have to train myself\nto imagine it.": ""
+  },
+  "35929": {
+    "The waters around Rendasia have calmed\ndown, but the Grand Titus is still\nundergoing repairs, so it will be a\n<br>\nwhile before liner service is\nrestored. There is a person in charge\nat the ship management office there,\n<br>\nso you can ask him for more\ninformation.": ""
+  },
+  "35930": {
+    "<attr><feel_angry_lv1><end_attr>It's really a big deal.  If the ferry\nis not fixed, tourists will be\ndisappointed and leave. If this\n<br>\nhappens, I, as a rendezvous child of\nthe city, have no choice but to\ndevelop a new specialty, really.": ""
+  },
+  "35931": {
+    "My lover, who has now passed away,\nalso wanted to see the Lendersia Sea\nbefore she died. I can't help saying\n<br>\nthis, but if I could, I would have\nloved to have traveled there with my\nlover.": ""
+  },
+  "35932": {
+    "<attr><feel_happy_lv3><end_attr>I've been sitting here for so long,\nI'm starting to feel the need to move\naround. Maybe I should take off all my\n<br>\nclothes and jump into the ocean.  Just\nkidding.": ""
+  },
+  "35933": {
+    "<attr><feel_normal_one><end_attr>I'm researching the history of spells,\nbut I can no longer expect to make new\ndiscoveries from the history books of\n<br>\nthe Eltona continent alone. By\nstudying the history books that lie in\nRendasia, perhaps we can discover the\n<br>\nexistence of spells that have yet to\nbe revealed.": ""
+  },
+  "35934": {
+    "<attr><feel_sad_lv1><end_attr><turn_pc>This guy must have had a very bad\nexperience in the waters around\nRendasia.  He's still this frightened.\n<br>\nThe purple fog surrounding Lendersia\nwon't go away, and the Grand Titus is\nstill under repair.  It's going to be\n<br>\na while before the liners are back on\nline.": ""
+  },
+  "35936": {
+    "There's not much soil here.  I like\nplaces with a lot of soil.  Ah, my\nhometown is so nostalgic. I haven't\n<br>\nbeen home for a while, so maybe I\nshould buy a small souvenir and go\nback to my mom's.": ""
+  },
+  "35937": {
+    "<attr><feel_think_lv1><end_attr>Even though the seas around Lendersia\nhave calmed down, the purple mist that\nsurrounds the land seems to have not\n<br>\ndisappeared. What in the world is\ngoing on in Rendasia right now?": ""
+  },
+  "35938": {
+    "<attr><feel_happy_lv1><end_attr>Not so long ago, Rendasia was called\nthe land of the humans, and no other\nrace was allowed to set foot on it.\n<br>\nCompared to those days, it is now open\nto all kinds of species, and has\nbecome much more open.": ""
+  },
+  "35939": {
+    "I don't know why, but the seas around\nRendasia have returned to their former\nstate of peace. But even though the\n<br>\nsea has returned, my partner has not.\n God is a very cynical man, isn't he?": ""
+  },
+  "35940": {
+    "<attr><feel_think_lv1><end_attr>It's a shameful story.  The sea has\nfinally calmed down, but I have no\nidea when we will be able to fix the\n<br>\nboat. I know the cause, but it's such\na big ship.  Even if we fix it, it\nwon't be possible anytime soon. I'm\n<br>\nsorry to inconvenience you all, but\nplease wait a while until it's fixed.": ""
+  },
+  "35941": {
+    "<attr><feel_happy_lv1><end_attr>Recently, I've been hearing stories\nlike this from travelers who come to\nthis town. It's hard to put into\n<br>\nwords, but the atmosphere has changed.\n It seems the bad atmosphere has\nbecome less bad. I don't know because\n<br>\nthe number of demons hasn't decreased,\nbut now that you mention it, it seems\nlike there's a pleasant breeze\n<br>\nblowing.": ""
+  },
+  "35942": {
+    "<attr><feel_happy_lv1><end_attr>I'm a little concerned that the purple\nfog that surrounds the continent just\nwon't go away, but the waters around\n<br>\nLendersia have calmed down. As soon as\nthe Grand Titus is repaired, I'm sure\nwe'll be able to go to Lendersia.\n<br>\n Please look forward to that day.": ""
+  },
+  "35943": {
+    "You don't have time for this, do you?\n Why don't you give up on Rendasia for\nnow and continue your adventure? It's\n<br>\nnot for me to say, but there might\nstill be people waiting for your help.": ""
+  },
+  "119722": {
+    "The ship is bound for the beaches of\nCocolata and the Kingdom of Gran\nZedorra.  Which way would you like to\n<br>\ngo?<select>\nBeach of Cocolata (False World)\nKingdom of Granze Dora (True World)<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+  },
+  "119723": {
+    "200 Gold for Titus Pass holders  Would\nyou like to board the Grand Titus?<yesno><break>": ""
+  },
+  "119724": {
+    "Well then, please come again.": ""
+  },
+  "119725": {
+    "I am sorry, but we seem to be short of\nmoney.  We look forward to seeing you\non board again.": ""
+  },
+  "119726": {
+    "<attr><feel_happy_one><end_attr>I will now charge you 200 gold for\nboarding.": ""
+  },
+  "67191": {
+    "<attr><feel_happy_lv1><end_attr>We, the Monster Defeaters, are a\ncoalition organization formed with the\ncooperation of all nations. We are\n<br>\nsoldiers of all races, but we are\nunited in our desire for peace in\nAstrutia.  I'm proud to be a member of\n<br>\nthis team.": ""
+  },
+  "67192": {
+    "<attr><feel_happy_lv3><end_attr>Have you met the captain, Mr. Werner?\n He's a friendly guy who goes\neverywhere for adventurers, not just\n<br>\nto the headquarters. He's been staying\nat the medallion owner's castle on the\nisland of Raccaran.": ""
+  },
+  "84563": {
+    "<attr><feel_happy_one><end_attr>港町レンドアに　到着したようだ。": "<attr><feel_happy_one><end_attr>港町レンドアに　到着したようだ。"
+  }
+}

@@ -1,0 +1,920 @@
+{
+  "20487000": {
+    "Actually, I am planning to make a\nletterpress with a pyramid motif.  I'm\ngoing to take pictures of the\n<br>\npyramids. Of course, you can make it\nfrom your imagination, but if you have\nthe photo, I think you can make a more\n<br>\nrealistic letter-card!": ""
+  },
+  "232619": {
+    "<attr><feel_happy_lv2><end_attr>「アラハギーロ地方の　名物と言えば\n　スパイスの効いた　おいしい肉料理だな。\n<br>\n「回転させながら　じっくり焼き上げた肉を\n　ガブリといただくのが　最高だぜッ！": "<attr><feel_happy_lv2><end_attr>「アラハギーロ地方の　名物と言えば\n　スパイスの効いた　おいしい肉料理だな。\n<br>\n「回転させながら　じっくり焼き上げた肉を\n　ガブリといただくのが　最高だぜッ！"
+  },
+  "86375": {
+    "<attr><feel_happy_lv1><end_attr>I've tried to open every lock in the\nworld, and this one is a piece of\ncake. By the way, do you know what the\n<br>\nTribe's key is? It's a special key to\nopen locked doors and treasure chests.\nIf there are any travelers who have\n<br>\nit, I'd like to talk to them for a\nbit, but I wonder if there are any out\nthere.": ""
+  },
+  "86376": {
+    "<attr><feel_happy_lv1><end_attr>I've tried to open every kind of lock\nin the world, and this one is a piece\nof cake. By the way, it seems you have\n<br>\na request from another locksmith.\n You'll have to take care of that\nbefore we can talk.": ""
+  },
+  "86377": {
+    "<attr><feel_happy_lv1><end_attr>I've tried to open every lock in the\nworld, and this one is a piece of\ncake. Oh, you're a level 70+ traveler,\n<br>\naren't you?  I'm just curious... have\nyou ever met any other locksmiths?<yesno><case 1><close><case 2><break><case_cancel><break>": ""
+  },
+  "86378": {
+    "Oh, I see.  I'm sorry for asking such\na strange question.  I don't know what\nhe's doing or where he's going.": ""
+  },
+  "86379": {
+    "<icon_exc>What? You've met Nejero, the\nlocksmith?  Where did you meet him?": ""
+  },
+  "86380": {
+    "<attr><feel_angry_lv1><end_attr>That Nejiro has retired as a key\nmaker?  I can't believe it. If that's\ntrue, I can't forgive him. Me and\n<br>\nNejiro have been rivals since our\ntraining days.  I can't accept that he\njust quit being a key maker without\n<br>\ninforming me. I'd like to ask you for\na favor in anticipation of you being\nentrusted with the key by him. I want\n<br>\nyou to deliver this box I made to\nNejiro. I'm sure he'll think twice\nabout retiring when he sees this.": ""
+  },
+  "86381": {
+    "Will you take it?  Then I'll leave him\nwith you.": ""
+  },
+  "86382": {
+    "The box is a sealed object that I have\nused all of my locksmithing skills to\nmake so that even I myself can no\n<br>\nlonger open it. Nejiro will surely try\nto open the box, stimulated by his\nlocksmith's instincts. And if he can't\n<br>\nopen it, I don't consider him a rival\nany more.  You can stop being a keypad\nmaker as you like. If he still has his\n<br>\npride as a key-catcher when he opens\nthe box, he will probably think twice\nabout retiring. According to you,\n<br>\nNejiro's location is in the treasure\nroom of Megistris Castle, right?  Well\nthen, I'm counting on you.": ""
+  },
+  "86383": {
+    "Hey. You're getting too many requests.\nFinish those requests and come back\nhere again.": ""
+  },
+  "86384": {
+    "<attr><feel_sad_lv1><end_attr>I see. That's too bad.  I was sure you\nwould take care of it.": ""
+  },
+  "86385": {
+    "<pc>explained how Nejiro, who is in the\ntreasure room of Megistris Castle,\ngave him the key to his family.": ""
+  },
+  "86386": {
+    "<pc> received an\nunopened small box (a very important\nthing)!<me 60>": ""
+  },
+  "86387": {
+    "I have entrusted you with an unopened\nbox that I have sealed in various ways\nso that even I myself can no longer\n<br>\nopen it. I want you to deliver it to\nNejiro.  According to you, he's in the\ntreasure room of Megistris Castle,\n<br>\nisn't he?<open_irai><bw_break>": ""
+  },
+  "86388": {
+    "If that little box is opened and he\nstill has his pride as a key-maker,\nI'm sure he'll think twice about\n<br>\nretiring.": ""
+  },
+  "87539": {
+    "<pc> tried to open the\nunopened box. However, the lid of the\nbox did not budge and could not be\n<br>\nopened.": ""
+  },
+  "87540": {
+    "<pc> poked around in the\nunopened box. It seems that the spell\nhas been broken!": ""
+  },
+  "86389": {
+    "Did you deliver the unopened box I\nleft for you to Nejiro?": ""
+  },
+  "86390": {
+    "What, you haven't done it yet?  Get on\nwith it and deliver it!": ""
+  },
+  "86391": {
+    "<attr><feel_happy_lv1><end_attr>It looks like he delivered it to\nNejiro.  I guess he must have\nsuccessfully broken the spell I put on\n<br>\nthe little box. Heh. He went to the\ntrouble of reapplying the sealing\nspell to the box.  I'm looking forward\n<br>\nto seeing what's inside.<bw_break>": ""
+  },
+  "86392": {
+    "What is this simple technique?  Are\nyou underestimating me, Nejero?": ""
+  },
+  "86393": {
+    "<attr><feel_angry_one><end_attr>This is a key I just made!  She\nreturned the key to me without doing\nanything? So, it's like the promise\n<br>\nshe made to me was of no importance to\nher. Is this piece of paper a recipe\nfor something?": ""
+  },
+  "86394": {
+    "<attr><feel_normal_one><end_attr><icon_exc>This is the key to the Great Family!\n Was that so? I never thought I could\ncomplete the key with such a simple\n<br>\nthing. But why?  If he knew all this,\nwhy didn't he complete the key to the\nGreat Horde? Is this a message to me?": ""
+  },
+  "86395": {
+    "<attr><feel_normal_one><end_attr>Nejero. That idiot. I have indeed\nreceived Master Nejirou's last wish.\n Grane the Key Master will surely\n<br>\ncomplete the Great Horde's key! Well,\nthen, let's hurry up and do it!  I\nhave all the necessary materials. I'll\n<br>\nget started right away.<pc>You've got to be there! You should be\nthere!": ""
+  },
+  "86396": {
+    "<attr><feel_happy_lv2><end_attr>It's done.  This is the key to the\ngreat treasure that I, or rather we\nboth, have been pursuing. This is the\n<br>\nkey that will open all the black\ntreasure chests in the world, as well\nas the black locked doors scattered\n<br>\nall over Rendasia. In other words,\nwhoever possesses this key is\nqualified to take possession of what\n<br>\nlies beyond the locked doors.<bw_break>": ""
+  },
+  "86397": {
+    "<attr><feel_normal_silent><end_attr>The following is a list of the most\ncommon problems with the<bw_break>": ""
+  },
+  "86398": {
+    "<attr><feel_happy_lv1><end_attr>You should keep this, since Nejiro\nentrusted you with the key to the\nfamily.  I'm sure that will make her\n<br>\nhappy.<bw_break>": ""
+  },
+  "86399": {
+    "<attr><feel_happy_lv1><end_attr>But in exchange, I'd like you to give\nme the key to your family. It is the\nlast work of Nejirou the key-maker.\n<br>\n It is as important to me as this key.": ""
+  },
+  "86401": {
+    "<attr><feel_happy_lv1><end_attr>Now, go around Lendershire and look\nfor a locked door!  What lies beyond\nis yours. I'll continue to be a\n<br>\nlocksmith.  And one day, I'll surpass\nhis skill.  I'll come see him then.": ""
+  },
+  "86402": {
+    "Do you want to give the unopened box\nto Grane?<yesno><case 1><break><case 2><close><case_cancel><close>": ""
+  },
+  "86403": {
+    "<pc>handed the unopened box to Grane.": ""
+  },
+  "86404": {
+    "Grane took the unopened box,\ndexterously rotated it with both\nhands, and in one motion, the unopened\n<br>\nbox was opened! Out of the box emerged\na key and a folded up piece of paper!": ""
+  },
+  "86405": {
+    "Dear Grane. I received your letter of\nchallenge for sure. But you can see my\nanswer. My technique on that little\n<br>\nbox was terrible, wasn't it? That's\nthe best I can do for now. I had a\nserious illness a few years ago that\n<br>\nsaved my life, but since then I've\nlost most of the feeling in my\nfingertips and my skills as a key-\n<br>\nmaker have been decimated. This recipe\nis my last work, written with all my\nknowledge as a key-maker. You are the\n<br>\nonly one I can entrust it to. Please\nuse this recipe to complete our\npromise of a Great Family Key! I\n<br>\nbelieve you can do it.": ""
+  },
+  "86406": {
+    "Grane used all the skills at his\ndisposal, following Nejiro's recipe,\nto process the key he was about to\n<br>\nmake.<bw_break>": ""
+  },
+  "86407": {
+    "After a long and arduous struggle, the\nkey that was in the process of being\nmade became the key to a great family!<me_71>": ""
+  },
+  "86408": {
+    "<pc> handed Grane the\nkey to his own family.": ""
+  },
+  "87541": {
+    "<pc> panned carefully\nover the unopened box. The box was\nunlikely to open because of Nejero's\n<br>\nmagic.": ""
+  },
+  "86409": {
+    "<attr><feel_happy_lv1><end_attr>Now, go to Rendasia and find the key\nto the locked door!  What lies ahead\nis yours. I'll continue to be a\n<br>\nlocksmith.  And one day, I'll surpass\nhis skills.  I'll come see him then.": ""
+  },
+  "119148": {
+    "<attr><feel_normal_one><end_attr>The following is a list of the most\ncommon problems with the": ""
+  },
+  "119149": {
+    "Customer. I don't recognize your face.\n You want my cut?  I'm sorry, but\nwe're all booked up for the time\n<br>\nbeing. From now on, it'll be a six-\nmonth wait.  If you don't mind, make\nan appointment.  It'll be worth the\n<br>\nwait.": ""
+  },
+  "119150": {
+    "You don't look familiar.  Would you\nlike a haircut by Thanes, the best\nhairdresser in the world?<bw_break>": ""
+  },
+  "120804": {
+    "<attr><feel_think_lv2><end_attr>Did Vital ask you to do this?  That\nbitch has no right to do anything she\ndoesn't have to.  It's about that new\n<br>\nhair color development project, isn't\nit? What the hell do they all\nunderstand?  The essence of hair and\n<br>\nmakeup is, after all, cutting.\n Relying on hair color is second-rate!\nI give the perfect instructions, and\n<br>\nmy partner, Graham, does the cutting.\nWith this perfect combination, we\ndon't need color anymore. So give it\n<br>\nup and get the hell out of here.\n We're busy with appointments.  We're\nnot exactly known as the crab-sniffing\n<br>\nhairdressers.": ""
+  },
+  "119151": {
+    "Are you in trouble? Travelers. Nestled\nin the rocks of the Araguajillo region<%sEV_QUE_NAME0>of Red rust. Nestled in the west of\nthe Lyana Desolation Zone<%sEV_QUE_NAME1>The blue namida of .\nThese will be the key to the solution.\n Taraba in hand.": ""
+  },
+  "119152": {
+    "Wait and see.": ""
+  },
+  "119153": {
+    "<attr><feel_normal_one><end_attr><turn_pc>The following is a list of the most\ncommon problems with the": ""
+  },
+  "119154": {
+    "<attr><feel_think_lv2><end_attr>I give the perfect direction and my\npartner, Graham, does the cutting.\nWith this perfect combination, we\n<br>\ndon't need color anymore. If you\nunderstand, give up and go home.\n We're busy with appointments.  I'm\n<br>\nnot a bad hairdresser, you know.": ""
+  },
+  "119155": {
+    "Apparently, Graham has an idea. Let's\ndo as he says and get some red rust\nand blue Namida. Araguajillo region\n<br>\nrocks, etc.<%sEV_QUE_NAME0>\nWest of the Lyana Desolation Zone, etc<%sEV_QUE_NAME1>The first two are available by\ndefeating the": ""
+  },
+  "119156": {
+    "Serns' partner, Graham, is staring at\nme as if he is trying to tell me\nsomething.": ""
+  },
+  "121318": {
+    "Are you in trouble? Travelers. Nestled\nin the rocks of the Araguajillo region<%sEV_QUE_NAME0>of Red rust. Nestled in the west of\nthe Lyana Desolation Zone<%sEV_QUE_NAME1>The blue namida of .\nThese will be the key to the solution.\n Taraba in hand.": ""
+  },
+  "121319": {
+    "Apparently, Graham has an idea. Let's\ndo as he says and get some red rust\nand blue Namida. Araguajillo region\n<br>\nrocks, etc.<%sEV_QUE_NAME0>\nWest of the Lyana Desolation Zone, etc<%sEV_QUE_NAME1>The first two are available by\ndefeating the": ""
+  },
+  "119158": {
+    "This is a crab with red rust and blue\nsea mud. I'm sorry, I'm sorry.\n Please, take this.": ""
+  },
+  "119159": {
+    "Red Rust, Blue Namida, and be handed\nover to Serns.": ""
+  },
+  "119161": {
+    "<pc> got a green kara (a\nvery important thing).<me 60>": ""
+  },
+  "119162": {
+    "<attr><feel_normal_one><end_attr>The following is a list of the most\ncommon problems with the": ""
+  },
+  "119163": {
+    "<attr><feel_normal_one><end_attr>The following is a list of the most\ncommon problems with the": ""
+  },
+  "119164": {
+    "Red rust, blue Namida, and the green\nKara should be handed over to Serns.": ""
+  },
+  "119165": {
+    "<attr><feel_angry_lv1><end_attr>Hey, hey, hey. You're a pain in the\nass, too.  But I'm sorry, I have no\nintention of ever getting involved in\n<br>\nhair coloring.": ""
+  },
+  "119166": {
+    "<attr><feel_think_lv3><end_attr><icon_exc>Hmm? What is this?  Red rust, blue\nNamida.  And a green calla! This is\nthe precious kara that Jikko no\n<br>\nscissors can only take once in its\nlife when it molts! Did Mr. Graham ask\nyou to get it for him?  Hey, Mr.\n<br>\nGraham, you can't be serious.": ""
+  },
+  "119167": {
+    "<attr><feel_normal_one><end_attr>I see. You can't stay cooped up in\nyour cellar forever.  Is that what\nyou're trying to say, Mr. Graham?": ""
+  },
+  "119168": {
+    "<turn_pc>I had the honor of being appointed by\nMadame Felicia to do Princess\nAnlusia's hair and makeup. After three\n<br>\ndays and three nights of thinking it\nover, I dyed her hair a crimson crab\ncolor.  I had heard that she loved the\n<br>\ncolor red. But strangely enough,\nMadame didn't like it.  She gave me a\nthorough lecture. That made me lose\n<br>\nall confidence.  I decided that I\nwould never touch hair color again.  I\nhad made up my mind to stay away from\n<br>\nhair coloring, but when he gave me\nthese things.  These three items are\nthe materials I need to make the hair\n<br>\ncolor Vital requested. Wait a minute.": ""
+  },
+  "119169": {
+    "<se_nots Joutyu_SE SUCCESS>Eight colors at once. That's good.\n There's no reason why Vital can't do\nit and I can't do it. Graham. I'm\n<br>\ngoing to take all of your feelings.\n I'm going to take everything you've\ngot and pour it into this magic!<bw_break>": ""
+  },
+  "119170": {
+    "Sora Magical Magical Magical ♪\nCrabcakes Crabtama Carnival!": ""
+  },
+  "119171": {
+    "Hmmm. I think I've done a perfect job.\nGo back to Gran Zedorra and tell Vital\n Tell Vital that an amazing new color\n<br>\nhas been born.": ""
+  },
+  "119172": {
+    "Would you give Serns red rust, blue\nNamida, and green Kara?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "119173": {
+    "<pc>handed Thanes a red rust, a blue\nNamida, and a green Kara.": ""
+  },
+  "119174": {
+    "Thurns worked his magic, mixing red,\nblue, and green ingredients together\nwith his brilliant hands!<me 69>": ""
+  },
+  "119175": {
+    "I'm not going to give up. I guess he\nis on his way to Granze Dora.  Please\ngive my regards to Mister Vital.": ""
+  },
+  "119176": {
+    "<attr><feel_happy_lv1><end_attr>Thanks to you and Graham, I have\nregained my confidence in coloring my\nhair.  Thanks for your help. Thanks.\n<br>\nBut I still believe that cutting is\nthe essence of hair and makeup. It's\nonly when there's a quality cut that\n<br>\nthe coloring comes out. But if the\nskill of coloring can't keep up with\nthe brilliance of the cut, I've lost\n<br>\nmy reputation as a hair stylist. From\nnow on, I'm going to aim for the\nultimate Kanisma and master both. So,\n<br>\nthat being said, don't you have to go\nback to Gran Zedorra? Go report back\nto Vital as soon as you can.": ""
+  },
+  "119177": {
+    "Try the new colors created by Searns.\n The crab is very popular for its\ndepth of flavor.": ""
+  },
+  "122079": {
+    "<attr><feel_happy_lv1><end_attr>Thanks to you and Graham, I have\nregained my confidence in coloring my\nhair.  Thanks for your help. Thanks.\n<br>\nBut I still believe that cutting is\nthe essence of hair and makeup. It's\nonly when there's a quality cut that\n<br>\nthe coloring comes out. But if the\nskill of coloring can't keep up with\nthe brilliance of the cut, I've lost\n<br>\nmy reputation as a hair stylist. From\nnow on, I'm going to aim for the\nultimate Kanisma and master both.": ""
+  },
+  "124499": {
+    "I've been invited to the Thurns\nFestival. Kegani should be very\ncareful not to overstep the bounds of\n<br>\npropriety.": ""
+  },
+  "124500": {
+    "Oh. Oh, it's you.  Vital told you\nabout the Felicia Cup, didn't he? Of\ncourse I've been summoned.  I'm the\n<br>\nultimate Kanisma beautician, of\ncourse.  I'm going to win this thing\nfor sure!": ""
+  },
+  "124501": {
+    "I've been called up to the Felicia\nCup.  I've finished my new hair color\nand I'm on my way to the contest site.": ""
+  },
+  "124502": {
+    "The world's crab thorns have been\nrecognized for their abilities.  Well\ndone.": ""
+  },
+  "124503": {
+    "The result this time was a crab, which\nwas a disappointment.": ""
+  },
+  "124504": {
+    "<attr><feel_happy_lv1><end_attr>Oh. Oh, it's you.  Good job at the\nFelicia Cup.  Well, I deserved to win.\nThat's the power of a Kanisma\n<br>\nhairdresser!  I knew you were the\nGraham of the world!": ""
+  },
+  "124505": {
+    "<attr><feel_sad_lv1><end_attr>Oh. Oh, it's you.  Good job at the\nFelicia Cup. Well, I missed out on the\nchampionship this time, but I'll try\n<br>\nto improve my skills and get my\nrevenge before the next time.": ""
+  },
+  "120930": {
+    "<attr><feel_think_lv3><end_attr>I don't remember when it started, but\nsometimes I hear strange noises coming\nfrom under that well. I wonder if\n<br>\nsomething strange has gotten into the\nwell.": ""
+  },
+  "165807": {
+    "difficult problem<pc>I'm not!  You wanted to see me?": ""
+  },
+  "165808": {
+    "<icon_exc>A key to an iron safe?  That's a very\ndifficult thing to do.  An ordinary\nlocksmith won't be able to do it. Hmm.\n<br>\nSounds interesting!  I can't refuse\nyour request.  I'll make that key\nmyself. I said that, but I can't make\n<br>\na key without certain materials. Bring\nme a piece of shard of magnetite.  You\ncan find them in the Arahagiaro\n<br>\nregion.<%sEV_QUE_NAME0>They should drop it when they defeat\nthe": ""
+  },
+  "165809": {
+    "<pc>told Grane about the key to the iron\nsafe.": ""
+  },
+  "165810": {
+    "If you want me to make a key for the\niron vault, bring me a piece of\nmaterial called a piece of textile.\n<br>\nYou can find shards of iron iron in\nthe Arahagiaro region.<%sEV_QUE_NAME0>I'm sure there's a herd down south.  I\nthink there is a herd of them in the\nsouth.": ""
+  },
+  "165811": {
+    "I see you've brought a piece of iron\nshard with you.  I'll use it to make\nthe key to the iron safe.": ""
+  },
+  "165812": {
+    "Oops. Am I wrong?  Well, that's my\nbad.": ""
+  },
+  "165813": {
+    "Nice texture. This is worth making.\n Then, let's get started!": ""
+  },
+  "165814": {
+    "Hmm, that's pretty good.  The keyhole\nof an iron safe has a mechanism that\nprevents the key from being inserted\n<br>\nunless it is deformed by the proper\namount of heat. Well, even if you know\nhow it works, an ordinary locksmith\n<br>\ncan't make a key that generates heat.\n See? With this, you can unlock a\nsteel safe.": ""
+  },
+  "165815": {
+    "Would you give Grane a piece of\ntextile breakage?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+  },
+  "165816": {
+    "<pc>gave Grane a piece of textile\nbreakdown!": ""
+  },
+  "165938": {
+    "<se_nots KQ_139_1 0>Grane scraped the shards with a\nprecise hand! The shards of magnetite\nquickly took the shape of a key!\n<br>\nGraneh has created the key to the iron\nsafe.<me 71>": ""
+  },
+  "165939": {
+    "<pc>received from Grane the key to the\niron safe (a very important item)!<me 60>": ""
+  },
+  "165817": {
+    "I can't wait to get the key to the guy\nwho's waiting for it.  But I guess\nit's a treasure you want to keep close\n<br>\nto your skin to put it in an iron safe\ninstead of a treasure chest.": ""
+  },
+  "85419": {
+    "Lilah seems to like ghost stories and\nenjoys telling them to all kinds of\npeople, scaring them.": ""
+  },
+  "85420": {
+    "<attr><feel_happy_lv1><end_attr>There's a place in the Arraguajillo\nregion called the sunshade cave where\nthe eurei are said to come out.\n<br>\nThere's a rumor that you can hear a\ngruff voice coming from around the jar\nthere.": ""
+  },
+  "85421": {
+    "<attr><feel_happy_lv1><end_attr>Hello, traveler! What?  What's up? You\nwant some water from the oasis? Well,\nI've got some water in a bottle.": ""
+  },
+  "85422": {
+    "<attr><feel_happy_lv1><end_attr>Do you also understand the charm of\nthis water?  I'm kind of happy.  Water\nis precious, so please use it\n<br>\ncarefully.": ""
+  },
+  "85426": {
+    "<pc> got the water of\nthe oasis (a very important thing)!<me 60>": ""
+  },
+  "85427": {
+    "<attr><feel_happy_lv1><end_attr>Since you're here, please take good\ncare of the water at the oasis.": ""
+  },
+  "85428": {
+    "<attr><feel_happy_lv1><end_attr>Oh. Traveler!   What did you use the\nwater from the oasis for?  Drinking\nwater? Or did you wash your face?<bw_break>": ""
+  },
+  "86410": {
+    "Ha! He said wakame seaweed came out\nwhen he poured it into the urn. Ah. He\nbrought back the wakame?  Then he used\n<br>\nit for cooking.": ""
+  },
+  "85429": {
+    "<attr><feel_sad_lv1><end_attr>A little while ago, a demon entered\nAlahagirolo and caused quite a\ncommotion.  Things are very noisy\n<br>\nthese days.": ""
+  },
+  "85430": {
+    "<attr><feel_sad_lv1><end_attr>What's going to happen to this country\nif a demon invades while the king is\naway?  In this case, I have no choice\n<br>\nbut to stand up.": ""
+  },
+  "85431": {
+    "<icon_exc><turn_pc>Ah, you are a traveler.  I'm sorry,\nbut I must ask you to leave me alone\nas I have an important domestic matter\n<br>\nto discuss.": ""
+  },
+  "85432": {
+    "Recently, there was a droll incident\nin which a suspicious demon, claiming\nto be the king, invaded the castle\n<br>\ntown. The monster was immediately\ncaptured and placed in a cage in the\nbasement of the martial arts arena,\n<br>\nbut I wonder what his purpose is.": ""
+  },
+  "85433": {
+    "<attr><feel_happy_lv1><end_attr>I love ghost stories.  If I get any\nnew ghost stories, I'll share them\nwith you.": ""
+  },
+  "85442": {
+    "<attr><feel_angry_lv1><end_attr>The other day, a creepy demon invaded\nthe castle town! Not only does it look\ncreepy, but it also claims to be a\n<br>\nking or something, and it's just all\nkinds of creepy!<bw_break>": ""
+  },
+  "85443": {
+    "<attr><feel_happy_lv1><end_attr>Well, that creepy demon was firmly\ncaptured by the Alahaghiro army led by\nthis Captain Abutar! Hmph.": ""
+  },
+  "85444": {
+    "A little while ago, a demon entered\nAlahagirolo and caused quite a\ncommotion.  Things are very noisy\n<br>\nthese days. Come to think of it,\nMinister Caboose...<pc>I think you're looking for a traveler\nnamed Travelers. If you know him,\nplease visit Minister Caboose in the\n<br>\ncastle's conference room.": ""
+  },
+  "90221": {
+    "The Monster Fighting Grounds are\nclosed.  What? You want to go to the\nbasement of the fighting hall? Then go\n<br>\nthrough the service entrance for\nmonsters only.  Once you're outside\nthe kingdom, go around the wall to the\n<br>\neast.": ""
+  },
+  "90222": {
+    "The Monster Fighting Grounds are\nclosed.  What? You want to go to the\nbasement of the fighting hall? Then go\n<br>\nthrough the service entrance for\nmonsters only.  Once you're outside\nthe kingdom, go around the wall to the\n<br>\neast.": ""
+  },
+  "85445": {
+    "<turn_pc>Oh. If it is you...<pc>Is he not a traveler named<yesno><case 1><break><case 2><break><case_cancel><break>": ""
+  },
+  "85446": {
+    "I see, I must have been mistaken.  I'm\nsorry.": ""
+  },
+  "85447": {
+    "<attr><feel_sad_lv1><end_attr>Oh, I didn't know they really existed!\n I have a favor to ask of you.  Will\nyou listen to me? By favor, I mean\n<br>\nnothing else.  It's about the demon\nthat invaded the castle town of\nAraguaguiro the other day and we\n<br>\ncaptured it. That demon was a rare,\nrambling demon.<pc>Take me to this place!  He is making a\nfuss in your name. It is a strange\nthing for a demon to summon a\n<br>\ntraveler, but if you are free, please\ngo and check on him. He is kept in a\ncage in the basement of the fighting\n<br>\nhall.  Once outside, go around to the\neast side of the wall and go through\nthe service entrance reserved for\n<br>\ndemons. The guards are in a lot of\ntrouble.  Please do me a favor.": ""
+  },
+  "88062": {
+    "Minister Caboose<pc>You were looking for a traveler by the\nname of \"M. Caboose\". If this rings a\nbell, you might want to go upstairs to\n<br>\nthe conference room and pay a visit to\nMinister Caboose.": ""
+  },
+  "85448": {
+    "<attr><feel_sad_lv1><end_attr><turn_pc>The demons we captured the other day\nafter invading the castle town are\nkept in a cage in the basement of the\n<br>\nfighting hall, but we're having a\nlittle trouble handling them.<pc>The soldiers on guard duty are getting\nvery tired of the noise and the\ntrouble you are causing. I'm sorry to\n<br>\nask on such short notice, but if you\ncan spare the time, I'd like you to go\nand check on them. Go outside and go\n<br>\naround the castle wall to the east,\nand head for the service entrance for\ndemons only.  Thank you very much.": ""
+  },
+  "85449": {
+    "<attr><feel_sad_lv3><end_attr>I've heard that kind of complaint from\nthe king.  Could it be that I've been\nfired?  I've just been appointed as a\n<br>\nsoldier captain!": ""
+  },
+  "88063": {
+    "Above you is the throne room.  If you\nwish to have an audience with King\nMoonis, please go up this staircase.": ""
+  },
+  "88107": {
+    "<turn_pc>Well, King Moonis awaits.  I must go\nto the throne room.  You may come,\ntoo.": ""
+  },
+  "85450": {
+    "<pc>Is that what you mean?  The king is\nwaiting for you.": ""
+  },
+  "85455": {
+    "<attr><feel_sad_lv1><end_attr>Ah!<pc>Three. Hello.  The king wants to see\nyou.  Go to the throne room. I'm not\nwanted because I'm useless anyway.\n<br>\nHuh.": ""
+  },
+  "85456": {
+    "Minister Caboose<pc>I heard that you are looking for a\ntraveler by the name of  King Moonis\nwants to see you. Travelers. If you\n<br>\nknow of any travelers, please make\nyour way to the throne room of the\ncastle.": ""
+  },
+  "85457": {
+    "<attr><feel_happy_lv1><end_attr>Minister Caboose has informed us that\nthe missing King Moonis has returned.\n I am glad to hear that he is safe!<bw_break>": ""
+  },
+  "85458": {
+    "But it's a little strange why the king\nhimself doesn't appear in public.": ""
+  },
+  "85459": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>Oh!<pc>Hello!  You have come to the right\nplace.  King Moonis has sent for you.\nHe has a special favor to ask of you.\n<br>\n If you are free, will you go to the\nthrone room and ask the king's favor?": ""
+  },
+  "85460": {
+    "<pc>I take it that this is you?  King\nMoonis wants to see you.": ""
+  },
+  "85461": {
+    "I heard the king is back. Is it true?\nBut I haven't seen him.  Maybe he was\nseriously wounded in the war?  I'm\n<br>\nworried.": ""
+  },
+  "85462": {
+    "<attr><feel_sad_lv1><end_attr>Ah!<pc>Mr.. Hello!  I see you've finished\ntalking with the king. That's nice. I\nwish I could be depended on by the\n<br>\nking too. I can't do anything even if\nhe asked me for help. Huh.": ""
+  },
+  "85463": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>oh!<pc>Which one?  You will do the King's\nfavor? I'm asking you because I'm\ncounting on you, so I've asked for\n<br>\nyour kind attention.": ""
+  },
+  "85464": {
+    "Are you done talking to the king?  It\nseems that King Moonis trusts you\nabove all.": ""
+  },
+  "85465": {
+    "<attr><feel_sad_lv3><end_attr>Before I knew it, the king had\nreturned to his original form. I'm a\nsoldier in chief, after all, but I\n<br>\ndidn't know anything about it. I'm not\none of them.  Ugh, I'm so sad.": ""
+  },
+  "85466": {
+    "<attr><feel_happy_lv3><end_attr>The king just passed by!  It seems he\nwas on his way somewhere. I hadn't\nseen him since his return, so I was\n<br>\nvery moved.": ""
+  },
+  "85467": {
+    "<attr><feel_happy_lv1><end_attr>This is the first time I have seen\nKing Moonis since he went off to war.\n He is the symbol of our country. I\n<br>\nhope this is the beginning of a\nrevitalization of our nation.": ""
+  },
+  "85468": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>oh!<pc>Hello!  The king awaits you in the\nthrone room.  Make haste, make haste!": ""
+  },
+  "87283": {
+    "<attr><feel_happy_lv1><end_attr>I'm so glad the king is back.\n Everyone in the castle is relieved.\n I'm sure the castle will be brighter\n<br>\nthan ever now.": ""
+  },
+  "85469": {
+    "<attr><feel_happy_lv1><end_attr>oh!<pc>The king is waiting for you! The king\nis waiting for you.  Come on, come\ninside.": ""
+  },
+  "85470": {
+    "<attr><feel_happy_lv1><end_attr>Oh, there you are<pc>Thanks to you, I can appear before the\npeople in my original form.  Thanks to\nyou, I am able to appear before the\n<br>\npublic in my original form. I am\nindebted to you.  I thank you once\nagain. Now, here is the gift of\n<br>\ngratitude.  Please accept it.": ""
+  },
+  "85471": {
+    "<attr><feel_sad_lv1><end_attr>Where in the world have all the\nsoldiers and messengers been taken\naway? If only I could break the curse\n<br>\nat the Fountain of Kudus, I could\nreturn them to their original forms.\nAnyway, thank you for your hard work.<pc>I will need your help from now on.  I\nwill need your help from now on, but\nfor now, you may step back.": ""
+  },
+  "87284": {
+    "I can't believe the king looked like\nthat.  Strange things happen.": ""
+  },
+  "85472": {
+    "<attr><feel_happy_lv1><end_attr>Just now, King Moonis was walking\nbriskly through the streets of Castle\nTown! I thought he might have suffered\n<br>\na life-threatening injury, but I'm\nrelieved.": ""
+  },
+  "85473": {
+    "<attr><feel_happy_lv1><end_attr>Minister Caboose has served King\nMoonis since he was a child. I am sure\nthat Minister Caboose is more relieved\n<br>\nthan anyone else that King Moonis has\nreturned.": ""
+  },
+  "85475": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc><pc>Thanks to you, the king was able to\nreturn to his human form.  The people\nwere thrilled to see him back in good\n<br>\nhealth. Now, we must put even more\nenergy into the search for the other\nmissing persons.  We will be busy from\n<br>\nnow on.": ""
+  },
+  "85476": {
+    "I am back to normal, but it will take\nsome time for the country to regain\nits former vigor. I can't wait to find\n<br>\nthose who are missing and return them\nto their former selves.": ""
+  },
+  "85484": {
+    "<attr><feel_happy_lv1><end_attr>Oh, my God It's you<pc>I see.  King Moonis is looking for\nyou. I'm told that it is with your\nhelp that King Moonith has returned.\n<br>\nAnd again...<pc>Perhaps she is seeking the power of\nthe Lord. If you would be so kind,\nplease make your way to the throne\n<br>\nroom of the castle.": ""
+  },
+  "85485": {
+    "<attr><feel_angry_lv1><end_attr>My daughter's husband didn't come home\nfrom the war.  My daughter couldn't\nstay, so she went to King Mounis to\n<br>\nplead with him. He's a bastard for\nputting her through all that trouble!": ""
+  },
+  "85486": {
+    "The door has stubbornly closed.": ""
+  },
+  "85487": {
+    "My daughter and grandson are out right\nnow.  They said they were going to\nKing Moonith's to plead with him now\n<br>\nthat he's back from the war.": ""
+  },
+  "88808": {
+    "<attr><feel_happy_lv1><end_attr>I hear that King Moonis is back,\nthanks to your help. Thank you.": ""
+  },
+  "85488": {
+    "Oh, I heard about you. I heard you're\ngoing to help me find my daughter's\nhusband, Callebaut. I'm sorry for\n<br>\ntaking care of you travelers.  For the\nsake of my daughter and grandson, I'm\ncounting on you!": ""
+  },
+  "87285": {
+    "It is hard for a child to be without a\nfather.  Please help them.": ""
+  },
+  "85489": {
+    "<attr><feel_happy_lv1><end_attr><pc>Dear.  Thank you for all you have done\nfor us. For the sake of our son, we\nask that you find my husband's Calevan\n<br>\nsomehow.": ""
+  },
+  "85490": {
+    "I want you to find a young man named\nKalevan, who will be a charmer.<open_irai><bw_break>": ""
+  },
+  "85491": {
+    "Callevan must have had a cross-shaped\nscar over his left eye.  Even if he\nwas transformed into a demon, that\n<br>\nscar would probably remain. If you\nfind a demon with a cross-shaped scar\nover its left eye, please bring it to\n<br>\nme in secret.  Then, I ask for your\ncooperation.": ""
+  },
+  "87286": {
+    "I'm sure that with the young man,\nCallevan, in tow, Lord Maleika will be\nat ease.  I look forward to working\n<br>\nwith you.": ""
+  },
+  "85492": {
+    "Soon, soon, soon, when can I see my\ndad?": ""
+  },
+  "85493": {
+    "<attr><feel_happy_lv1><end_attr>King Moonis is willing to give up his\nskin for my daughter!  I guess I'll\nhave to ask him.": ""
+  },
+  "85494": {
+    "My daughter went to see King Moonis\nagain to ask him how he's doing. She's\nso worried that she can't sit still at\n<br>\nhome.": ""
+  },
+  "85495": {
+    "The door has stubbornly closed.": ""
+  },
+  "85496": {
+    "If you're looking for her, she's on\nher way to King Moonis.  She said she\nwas going to ask him if there was any\n<br>\nprogress.": ""
+  },
+  "85497": {
+    "<attr><feel_angry_lv1><end_attr>Hey, Callevan's guy! You're alive!\n You've got me worried.  I'm going to\nkick your ass when you get back!<bw_break>": ""
+  },
+  "85498": {
+    "Oh, I'm sorry.  I'm grateful to you\nfor finding me.  Thanks for your help,\ntraveler.": ""
+  },
+  "85499": {
+    "<attr><feel_happy_lv1><end_attr><pc>Thank you very much.  Just knowing\nthat my husband is alive has helped me\na lot. There must be some reason why\n<br>\nhe can't come back soon. I will wait\nhere.  I will wait here, believing in\nhis words.": ""
+  },
+  "85500": {
+    "I heard that Callevan said his cameo\nwas stolen in Naseem's cave. Hmm.\nNaseem's Cave.": ""
+  },
+  "87287": {
+    "Is this young man, Callevan, in a\nplace called Rendasia under false\npretenses?  I don't know what is going\n<br>\non.": ""
+  },
+  "85501": {
+    "<attr><feel_happy_lv1><end_attr>You know, Papa said he's going to come\nback soon!": ""
+  },
+  "85502": {
+    "<attr><feel_happy_lv1><end_attr>My daughter told me all about you.\n She said you went to a lot of trouble\nfor her. Thank you~. My daughter's\n<br>\nface is a little brighter now.": ""
+  },
+  "85507": {
+    "<attr><feel_happy_lv1><end_attr><pc>Mr!  Are you sure you want to be here?\n King Moonis wants to see you. As a\nmatter of fact, the king is about to\n<br>\norder us to go to work as well.  It's\nfinally my turn!": ""
+  },
+  "85508": {
+    "King Moonis<pc>I think he is looking for you. Also<pc>Perhaps she is seeking the power of\nthe Lord. If you would be so kind,\nplease make your way to the throne\n<br>\nroom of the castle.": ""
+  },
+  "85509": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>Oh!<pc>Hello!  You have come to the right\nplace.  King Moonis summons you. He\nseems to recall something about the\n<br>\ntime he was turned into a demon.  Will\nyou go to the throne room and speak\nwith him?": ""
+  },
+  "87288": {
+    "I don't know what's going on in\nNaseem's cave, but do the king a\nfavor. I'm counting on you.": ""
+  },
+  "85510": {
+    "<pc>King Mounis wants to see you. King\nMoonis wants to see you.  Enter the\nthrone room quickly.": ""
+  },
+  "85511": {
+    "oh!<pc>Oh, my God! You know, when you told me\nabout the time you recovered the cameo\nfrom Callevan, it reminded me of\n<br>\nsomething. When we were turned into\ndemons, it seems to me that the\nsoldiers were taken to Naseem's cave.\n<br>\nAnd in the other world, it was also in\nNaseem's cave that Kalevan's cameo was\nstolen. That's when it hit me.  These\n<br>\ntwo caves must be connected! I knew\nit. So I want you to go with Calevan\nto Naseem's cave in the other world\n<br>\nand see if you can get back to this\nworld! This is something I can only\nask of you, who can travel between the\n<br>\ntwo worlds.  What do you think? Will\nyou do it?": ""
+  },
+  "85512": {
+    "<attr><feel_happy_lv1><end_attr>Oh! You were right to ask.  Now, you\nwill go to Arraghagirolo over there\nand look for Kalevan. I'll go to\n<br>\nNaseem's cave to check it out.  Good\nluck.<pc>Oh my god!!!": ""
+  },
+  "85513": {
+    "<attr><feel_happy_lv1><end_attr>Oh. I would say thank you, but you\nseem to have your hands full with\nother requests. Take care of them\n<br>\nquickly and hurry back to the office.\n I will be waiting for you here.": ""
+  },
+  "85514": {
+    "<attr><feel_sad_lv1><end_attr>What? I had no idea that my benefactor\nwas such a heartless man. However, I\ncan only ask you to do this job.  If\n<br>\nyou change your mind, come again.": ""
+  },
+  "85515": {
+    "<attr><feel_happy_lv1><end_attr>Ah!<pc>Mr. Kai.  We Araghaghiro soldiers are\non our way to Naseem's cave. King\nMoonis is going to investigate the\n<br>\ncave, and I've been entrusted with the\njob of escorting him.  I'll do my best\nto clear my name!": ""
+  },
+  "88810": {
+    "<attr><feel_happy_lv1><end_attr>I hear that King Moonis is back,\nthanks to your help. Thank you.": ""
+  },
+  "85516": {
+    "<turn_pc>Have you heard from King Moonis yet?\n Well, I'm afraid I'm going to have to\nask for your help again. But King\n<br>\nMoonis trusts you above all.  Please\nlive up to his expectations.": ""
+  },
+  "85517": {
+    "<pc>King Moonis will go to Naseem's cave\nsoon. King Moonith will soon be on his\nway to Naseem's cave.  If you have\n<br>\nsomething to tell me, do it quickly.": ""
+  },
+  "85518": {
+    "Naseem's Cave in this world and\nNaseem's Cave in the other world where\nCallebaut's cameo was stolen. These\n<br>\ntwo caves must be connected! I had an\nepiphany. So I want you to go with\nKalevan to Naseem's cave in the other\n<br>\nworld and see if you can get back to\nour world!<open_irai><bw_break>": ""
+  },
+  "85519": {
+    "This is something that only you, who\ncan travel between the two worlds, can\ndo.  I'm counting on you.<pc>Oh my god!!!": ""
+  },
+  "85520": {
+    "<attr><feel_sad_lv1><end_attr>Aaah!<pc>Mr.! Listen to me!  I was supposed to\nescort King Moonis to Naseem's Cave.\nBut, King Moonis just strolled off\n<br>\nwithout me!  But I did my best to\ncatch up with him. Suddenly, King\nMoonith appeared from his cave, riding\n<br>\non the back of his white killer\npanther, and ran off. I was so\nfrightened that I was knocked out\n<br>\ncold.  How awful, isn't it? If he were\nthe king, he would have returned to\nthe throne room by now.": ""
+  },
+  "85521": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>oh!<pc>Who is it?  The king is in his throne\nroom.  He has returned from the\nFountain of Kudus.": ""
+  },
+  "85522": {
+    "oh!<pc>The king is waiting for you! The king\nis waiting for you.  Come on, come\ninside.": ""
+  },
+  "85523": {
+    "<attr><feel_happy_lv2><end_attr>Ah!<pc>Hi, Mr. Callevan, I'm so glad you were\nable to reunite with your family!  I'm\nso glad you were able to reunite with\n<br>\nyour family, Mr. Callebaut! Seeing\nthat family, I kind of wish I had a\nwife too! I was even thinking to\n<br>\nmyself, \"I wish I had a wife too! I\nneed to find a beautiful woman like\nMaleika, who is graceful and will\n<br>\nstand up for herself with a man.\n Okay, I'll try my best to get\nengaged!": ""
+  },
+  "85524": {
+    "<attr><feel_happy_lv1><end_attr>To the lizard of the Araghagiro Reconstruction<pc>I heard that you have been a great\nhelp to us.  Thank you very much.": ""
+  },
+  "85525": {
+    "If we who are waiting are depressed,\nthose who are missing will not be\nhelped. It may be a long time in the\n<br>\nfuture, but I'm trying to be prepared\nfor when my brother comes back from\nthe war.<bw_break>": ""
+  },
+  "85526": {
+    "<attr><feel_happy_lv1><end_attr>We should welcome them with a smile\nand prepare delicious food and a warm\nbed for them!": ""
+  },
+  "85527": {
+    "<attr><feel_happy_lv1><end_attr>Hey, you know what?  I heard that\nCallevan has become the new manager of\nthe Monster Fighting Grounds!\n<br>\nCallevan, who was famous for his\nnickname Southern Cross of the Wind,\nwas a great demon hunter.<bw_break>": ""
+  },
+  "85528": {
+    "Come to think of it, I thought I had a\nwhimsical slime as a partner, but I\nhaven't seen him around.": ""
+  },
+  "85529": {
+    "<attr><feel_happy_lv1><end_attr>Mm? You're a traveler.  You can now\nenter the Monster Fighting Grounds.\n The new manager has been appointed.\n<br>\nBut for now, it's still in the process\nof preparation.  Look forward to when\nthe fighting arena reopens in earnest!": ""
+  },
+  "102526": {
+    "<attr><feel_happy_lv1><end_attr>This is the famous monster fighting\narena of Araguajillo. Anyone, native\nor traveler, is welcome to join in the\n<br>\nfun.  Come on, let's go inside.": ""
+  },
+  "85530": {
+    "<attr><feel_angry_lv1><end_attr>That son of a bitch Calevin made it\nback alive!  I can't believe he came\nback after worrying my daughter and\n<br>\ngrandson so much! What a pusillanimous\nbastard!<bw_break>": ""
+  },
+  "85531": {
+    "<attr><feel_sad_lv3><end_attr>Gusung. But, I'm really glad you made\nit back alive.  I'm so glad you made\nit back alive. Ugh. Gusssssss. Eh? I'm\n<br>\nnot crying.  I'm not crying.  Now,\nplease go away! Gusshu.": ""
+  },
+  "85532": {
+    "<attr><feel_sad_lv2><end_attr>I'm really glad that that bastard\nCallevan came back alive. I'm so glad\nyou made it back alive.  I'm\n<br>\ndefinitely not crying!": ""
+  },
+  "102527": {
+    "<attr><feel_sad_lv2><end_attr>I hear that Callevan's doing well as\nthe caretaker of the Monster Fighting\nGrounds.  He's a real hard worker.\n<br>\nGususususu. Hmm? You think I'm crying?\n No, no, I caught a nose cold last\nnight when I went to bed without a\n<br>\nfuton. Gusssss.": ""
+  },
+  "85533": {
+    "The other day, King Moonis spoke to\nthe nation about the war. He said that\nthe soldiers who went missing have\n<br>\nnever been found.  It is unfortunate.\nHe said that we will never forget the\nsacrifices made, and that we will\n<br>\nbuild a peaceful nation.": ""
+  },
+  "85534": {
+    "King Moonis told me.  Now there's no\nway to get the missing soldiers back\nhere. What the hell does that mean?\n<br>\n They must have gone somewhere far\naway, somewhere we don't know about.": ""
+  },
+  "85535": {
+    "<attr><feel_happy_lv2><end_attr><turn_pc>oh!<pc>Dear!  You have been a great help to\nme.  Let me thank you once again.\nThank you. From now on, I will work\n<br>\nwith King Moonis to rebuild this\ncountry.  You can look forward to a\nnew Arraghagiello.": ""
+  },
+  "87289": {
+    "<attr><feel_happy_lv2><end_attr>I'm so relieved that Calevan is safely\nreunited with his family.  It's the\nbest thing for us to be together.": ""
+  },
+  "85536": {
+    "<attr><feel_happy_lv2><end_attr><pc>Thank you very much. Thank you very\nmuch for your help on that occasion.\nThanks to you, we are living together\n<br>\nas a family again.<bw_break>": ""
+  },
+  "85537": {
+    "<attr><feel_sad_lv1><end_attr>However, we just got back and maybe\nbecause he is not used to living in\nthis house, my husband keeps\n<br>\nsharpening his claws on the pillars\nand sleeping on the floor. I hope we\ncan get back to a more settled life\n<br>\nsoon.": ""
+  },
+  "102528": {
+    "<attr><feel_happy_lv2><end_attr>oh!<pc>Dear Mrs. K.  I would like to thank\nyou for the great help you have given\nmy husband, Calevan. Now he is working\n<br>\nfor the country as the new caretaker\nof the Monster Fighting Grounds. He\nsaid that he loves monsters and wants\n<br>\nto grow stronger together with them,\neven to the extent of the late Mr.\nBelmud.": ""
+  },
+  "85538": {
+    "This is the throne room. Oh!<pc>I wonder.  You've come to greet King\nMoonis?  Come on, come inside.": ""
+  },
+  "85539": {
+    "<attr><feel_angry_lv1><end_attr>Demons are truly horrifying.  They are\nthe ones who play with the darkness of\npeople's hearts.<pc>You have a mission to fight demons,\ndon't you?  Take care of it.<bw_break>": ""
+  },
+  "85540": {
+    "<attr><feel_happy_lv2><end_attr>If you are ever in trouble in the\nfuture, I will be there to help you\nthis time!  You can visit me anytime.": ""
+  },
+  "87290": {
+    "<attr><feel_sad_lv2><end_attr>Not one of our missing soldiers has\nreturned.  I want to see my friends\nagain.": ""
+  },
+  "85541": {
+    "Seraphi, you're gone.  She was my\ndad's whimsical slime.  Daddy said he\nwas saying bye-bye.<bw_break>": ""
+  },
+  "85542": {
+    "<attr><feel_happy_lv2><end_attr>I don't want to say bye-bye to my dad\nanymore.  I want to play with him as\nmuch as I did when I was saying bye-\n<br>\nbye!": ""
+  },
+  "85543": {
+    "<attr><feel_happy_lv2><end_attr>When I see King Moonis waving to\nchildren as he walks through the\nstreets of the city, I'm so glad he's\n<br>\nsafe. I don't usually know what he's\ndoing, but just by showing his face,\nhe gives the people a boost, doesn't\n<br>\nhe?": ""
+  },
+  "85544": {
+    "<attr><feel_angry_lv1><end_attr>What's the matter? The cheese I left\nhere is gone again. Hey, rat! I'm\ngoing to punish you!  Let's set some\n<br>\ntraps for a while.": ""
+  },
+  "85545": {
+    "<attr><feel_happy_lv3><end_attr>Hey, good news!  I heard that the\nMonster Fighting Grounds has a new\nadministrator! I'm so excited, my\n<br>\nheart is dancing!  It's going to be a\nwhile before it reopens, but I'm\nstarting to see some hope! Whoo..!": ""
+  },
+  "102529": {
+    "<attr><feel_happy_lv3><end_attr>Since the reopening of the monster\nfighting arena, my eyes have been\nriveted to the battles of the real\n<br>\nmonster warriors! I'm glad I came all\nthe way to the Kingdom of Arahagiaro!\n I wonder what kind of battles we'll\n<br>\nsee today!": ""
+  },
+  "85546": {
+    "<attr><feel_happy_lv2><end_attr>The air in my house is so much\nbrighter now that you've found Mr.\nCallevan! My grandson is doing well,\n<br>\nand we can all live together as a\nfamily, so there's nothing more to\nsay!": ""
+  },
+  "85547": {
+    "<attr><feel_happy_lv1><end_attr>At first, I wondered if it would be\nall right for a weakling like Mr.\nAbutar to be the new head of soldiers,\n<br>\nbut the fact that someone like that is\nthe head of soldiers means that this\ncountry is at peace.  I'm starting to\n<br>\nthink that's fine now. If it had been\nthe previous Chief of Staff Gorius,\nI'm sure there would have been hell to\n<br>\npay even after the war was over, and\npeace is the best!": ""
+  },
+  "85548": {
+    "<attr><feel_angry_lv1><end_attr>I came to this country to apprentice\nmyself to Master Belmud, but I heard\nthat he is no longer here. But I'm not\n<br>\ngiving up!  I will not return to my\nhometown until Master Callevan accepts\nme as his apprentice!": ""
+  },
+  "81296": {
+    "Hey, hey, hey.  I'm in charge of crime\ncontrol here in the Kingdom of\nAraguaguiro. There's been a bunch of\n<br>\nthieves around lately.  I'm trying to\ncatch them, but they're so quick on\nthe run that it's not going well.": ""
+  },
+  "93895": {
+    "<attr><feel_happy_lv2><end_attr>Hey, hey, hey.  I'm in charge of\npolicing the crimes that happen here\nin the Kingdom of Araguaguiro.\n<br>\nYes? The coffin in the royal tomb of\nthe Kingdom of Granze Dora has been\nexposed?  Ha~hmm. That's probably\n<br>\nthem. They're a group of thieves\ncalling themselves the Desert\nEarthers.  They're the cheap bastards\n<br>\nwho've been raiding the pyramids\nlately. We've tried to catch them many\ntimes, but they run away so fast and\n<br>\nlure demons to us, so we've had no\nluck. If you want to catch them, be my\nguest.  But we're busy with other\n<br>\nthings.  I won't be able to help you!\nThe pyramid is in the Deferu\nWilderness.  I'll talk to the soldiers\n<br>\nat the entrance. If you're confident\nin your skills, why don't you go\nthere?": ""
+  },
+  "93896": {
+    "<attr><feel_happy_lv1><end_attr>I think that the ones who ransacked\nthe royal tombs of the Kingdom of\nGranzedora were a group of thieves\n<br>\ncalled the Desert Daleons who are\ncurrently raiding the pyramids over\nhere. I've tried to catch them many\n<br>\ntimes, but they run away so fast and\nlure demons, so I've had no luck. If\nyou want to catch them, be my guest.\n<br>\n But we're busy with other things.  I\nwon't be able to help you! The pyramid\nis in the Deferu Wilderness.  I'll\n<br>\ntalk to the soldiers at the entrance,\nso if you're confident in your skills,\nwhy don't you go?": ""
+  },
+  "93897": {
+    "<attr><feel_happy_lv1><end_attr>Hi, hi, hi.  Thanks to you, for the\nfirst time in a long time, I'm happy\nto be able to take credit for\n<br>\nsomething big. Hmm? What happened to\nthe desert mole? Their trial is over\nand they've been sentenced to exile.\n<br>\n They're no longer in this country.  I\ndon't know where they went. Well, I\nguess your part in all this is over,\n<br>\nisn't it?  You can go back to Gran\nZedorra now.": ""
+  },
+  "93898": {
+    "Hey, hey, hey.  You've done me a great\nservice, and my stock is soaring.\nHmm? What happened to the desert mole?\n<br>\nTheir trial is over and they've been\nexiled.  They're no longer in this\ncountry.  I don't know where they\n<br>\nwent. They might misbehave again, but\nthat's just the way it is.": ""
+  },
+  "90889": {
+    "<attr><feel_happy_lv2><end_attr>Ah!<pc>Hi, Mr. K!  It looks like I'll be\nescorting the king in the near future.\nIf I play an active role there, it\n<br>\nwould be a great point increase,\nwouldn't it?  It would be advantageous\nfor my marriage activity, wouldn't\n<br>\nit? Okay, I'll do my best!": ""
+  },
+  "90890": {
+    "<attr><feel_happy_lv1><end_attr><pc>Mr. Meegar.  King Moonis is looking\nfor you. Perhaps he needs your help\nagain to rebuild his kingdom.  Please\n<br>\nmake your way to the throne room of\nthe castle.": ""
+  },
+  "94215": {
+    "<turn_pc>When King Moonis entered the treasury\nthe other day, did you hear something\ncracking?  I hope I'm imagining\n<br>\nthings.": ""
+  },
+  "90891": {
+    "<attr><feel_angry_lv1><end_attr><turn_pc>Oh, my God! King Mounis was all set to\ngo to the pyramids, but now he's\ndillydallying and delaying his\n<br>\ndeparture, saying he has a stomachache\nand the day is bad! But now he's\ndelaying his departure, complaining of\n<br>\na stomach ache and the day being bad!\n What is the matter with you?": ""
+  },
+  "90892": {
+    "<attr><feel_sad_lv3><end_attr>Oh! I'm so glad you're here.<pc>What?  What is it? Are you looking for\nthe Scarlet Stone of God?  No, no,\nthat's not the point. I'm in trouble!\n<br>\nAs a matter of fact, our country's\nfinances have been wiped out by the\nwar against the Demon King's army.\n<br>\n Our people are suffering because of\nit. Therefore, I have decided to\nobtain the treasure that is said to be\n<br>\nhidden in the pyramid where our\nancestors are buried, and use it as\nfunds to save our people! However, in\n<br>\norder to open the door to the sun\nchamber, where the treasure is hidden,\nI need the Mirror of the Phantom Sun,\n<br>\nwhich is kept in the castle's\ntreasury! I tried to take the mirror\nfrom its pedestal, and it cracked!\n<br>\n When I tried to take the mirror from\nits pedestal, I broke it~~! I couldn't\nsay that I couldn't retrieve the\n<br>\ntreasure because the mirror was\nbroken. We were in a desperate\nsituation!<pc>～I'm so sorry! Do something about it~!": ""
+  },
+  "90893": {
+    "<attr><feel_happy_lv1><end_attr>even (eg \"even a genius\")<pc>I can rely on him!  So, the broken\nmirror, the repairman I secretly\ncalled said it was too shattered to be\n<br>\nrepaired. That mirror is the only one\nthat exists in this world.  I know\nthis is an unreasonable request, but\n<br>\nplease find me a mirror exactly like\nthat one.": ""
+  },
+  "90894": {
+    "If only I could find a duplicate of\nthat mirror somewhere.  Just for the\nrecord, please don't tell the Minister\n<br>\nand the Chief of Soldiers about this!": ""
+  },
+  "90895": {
+    "<attr><feel_sad_lv2><end_attr>even (eg \"even a genius\")<pc>I would say, \"You can count on me!  I\nwould say, but you have your hands\nfull with other requests! Take care of\n<br>\nthem and get back here as soon as\npossible!  I'm being pushed by the\nminister to go to the pyramid as soon\n<br>\nas possible, and it's making me very\nuncomfortable.": ""
+  },
+  "90896": {
+    "<attr><feel_sad_lv2><end_attr>That's so strange!  I thought you\nwould listen to my unreasonable\nrequest. I hope you'll come back if\n<br>\nyou change your mind.  I'm being\npushed by the minister to go to the\npyramid as soon as possible, and it's\n<br>\nmaking me very uncomfortable.": ""
+  },
+  "90897": {
+    "It looks like a pedestal to stand\nsomething.": ""
+  },
+  "90898": {
+    "<attr><feel_happy_lv1><end_attr>King Moonis<pc>I understand that the King is relying\non you very much. I hear that the king\nis working day and night to rebuild\n<br>\nthe kingdom of Arahagiro.  Please help\nhim.": ""
+  },
+  "90899": {
+    "The Sun Chamber is the sacred place\nwhere the royal family of Alahaghiro\nrests. Its doors can only be opened\n<br>\nthrough a ritual using the Mirror of\nIllusion. I know it will be difficult\nto find the equivalent of the Mirror\n<br>\nof the Phantom Sun, but you are the\nonly one I can count on.": ""
+  },
+  "90900": {
+    "<attr><feel_sad_lv1><end_attr>I can't tell you that I decided to go\nto the pyramids to procure the\ntreasures in the chamber of the sun\n<br>\nand use them to save my people, only\nto break the mirror I needed to get\nthere when I tried to take it off the\n<br>\npedestal in the castle treasury!<open_irai><bw_break>": ""
+  },
+  "90901": {
+    "<pc>I've been looking for the exact same\nmirror as the one in the sunset. Find\nme a mirror exactly the same as the\n<br>\nmirror of the day of illusion! Please\ndon't tell the Minister and the Chief\nof Soldiers about this!": ""
+  },
+  "90902": {
+    "They are not saying so openly, but\nthey have extraordinary hopes for the\ntreasure of the pyramid, which is said\n<br>\nto lie in the chamber of the sun.\nThat's why the king has been suffering\nfor some time, unable to tell even his\n<br>\nclosest ministers that the Mirror of\nthe Sun has been broken.": ""
+  },
+  "94216": {
+    "<attr><feel_angry_lv1><end_attr>What a surprise!  I checked the\ntreasury a few minutes ago and found\nthat the Mirror of the Phantom Sun was\n<br>\nmissing! What? What did you say?\n You've been asked by the king to\nretrieve the Mirror of Illusory Day\n<br>\nthat was stolen?<bw_break>": ""
+  },
+  "94217": {
+    "<attr><feel_happy_lv1><end_attr>Well, that was a nice touch.  Now,\nquickly, deliver the Mirror of the\nPhantom Sun to King Moonis!": ""
+  },
+  "94218": {
+    "<attr><feel_happy_lv1><end_attr>Thank you so much for retrieving the\nstolen Mirror of the Phantom Sun. Now,\nquickly deliver it to King Moonis!": ""
+  },
+  "90903": {
+    "<attr><feel_sad_lv2><end_attr>I guess I've been left behind again.\n I was sure that King Munis would\nappoint me as his escort to the\n<br>\npyramids.": ""
+  },
+  "94219": {
+    "<attr><feel_happy_lv1><end_attr>Thank you for retrieving the Mirror of\nthe Phantom Sun for me the other day.\nFrom now on, I'll be watching the\n<br>\ntreasury more closely.": ""
+  },
+  "90904": {
+    "<turn_pc>I have heard that the pyramids are\nequipped to respond to a particular\ndance. The instructions are written on\n<br>\na stone monument in the pyramid. If\nyou find the inscription, you might\ntry to decipher it with the dictionary\n<br>\nI mentioned earlier. Now then...<pc>Hello.  I'm really sorry to trouble\nyou again, but please take good care\nof King Moonis!": ""
+  },
+  "90905": {
+    "<attr><feel_happy_lv1><end_attr>The Throne Room is closed as King\nMoonith heads for the Pyramid of the\nSun Chamber. But it is heartening to\n<br>\nknow that even the Princess Anlusia,\nnow a brave woman, will accompany us\nto the pyramid.": ""
+  },
+  "90906": {
+    "<attr><feel_happy_lv2><end_attr>I heard that King Moonis brought back\na rare fruit called Shiny Melon!  I\nheard it smelled so good and looked\n<br>\ndelicious. If you give it to him as a\ngift, you will win the hearts of\nwomen, right? Okay, I'll try my best\n<br>\nto cultivate fruits from now on!  I'm\ngoing to try my best to grow fruits\nfrom now on!": ""
+  },
+  "90907": {
+    "<attr><feel_happy_lv2><end_attr>King Mounis said that he found hope in\nthe pyramids. If he said so, our lives\nwill be changed for the better in the\n<br>\nfuture.<pc>Mr.. Thank you very much.": ""
+  },
+  "90908": {
+    "<attr><feel_happy_lv2><end_attr><turn_pc><pc>I have heard that you and the Princess\nAnlusia have defeated the terrible\ndemon that appeared in the Stone\n<br>\nChamber of the Sun!  I heard that you\nand Princess Anlusia defeated the\nterrible monster that appeared in the\n<br>\nStone Chamber of the Sun! It is thanks\nto you that King Moonis was able to\nbring back the Shiny Melon.  This is a\n<br>\npromise for the development of our\ncountry. Let us cultivate the Shiny\nMelons with great care, and we will\n<br>\nsurely rebuild the Kingdom of\nAraghaghiro into the beautiful and\nprosperous kingdom it once was.": ""
+  },
+  "90909": {
+    "<attr><feel_happy_lv1><end_attr>The Shiny Mellon was said to have been\nall burned down by the scorching heat\nof the Leidametes about 500 years ago.\n<br>\nI didn't realize that it had been left\nbehind in the solar chamber.  The\nScarlet Stone of God protected the\n<br>\nShiny Melon from the scorching heat.": ""
+  },
+  "90910": {
+    "<attr><feel_happy_lv1><end_attr>This is the throne room. Oh!<pc>Oh, no!  King Moonis is already back.\n Come on, come inside.": ""
+  },
+  "90911": {
+    "<attr><feel_happy_lv2><end_attr>oh!<pc>Well done. You have done well.  You\nhave once again taken care of me.\nHowever, I am truly relieved to have\n<br>\nobtained the incomparable treasure of\nthe Shiny Melon in the Stone Chamber\nof the Sun. With this, we have found a\n<br>\nsilver lining in our quest to rebuild\nthe Kingdom of Araghaghiro. All of it.<pc>I owe it all to you. Please accept my\ngratitude.": ""
+  },
+  "90912": {
+    "<attr><feel_happy_lv2><end_attr>If I had not broken the Mirror of\nIllusions, I would have been killed by\nthat demon in the Stone Chamber of the\n<br>\nSun, and the Scarlet Stone of God\nwould have been destroyed. It was your\ngood fortune that you were able to\n<br>\npass through to the other world, and\nthat you found the Mirror of Illusions\nin the other world. A number of\n<br>\nfortunate events combined to produce\nthis miracle.  I will continue to\nnurture the Shiny Melon with great\n<br>\ncare, never forgetting this feeling of\ngratitude!": ""
+  },
+  "90913": {
+    "<attr><feel_happy_lv1><end_attr><pc>Which!  Thank you for being in the Sun\nStone Room!  I don't know what would\nhave happened if we had been alone.\n<br>\nI'm surprised that the spider that was\nattached to King Moonis turned out to\nbe such a gigantic monster!": ""
+  },
+  "90914": {
+    "<attr><feel_happy_lv1><end_attr>This is the throne room. Oh!<pc>I'm here to pay my respects to King\nMoonis.  You've come to greet King\nMoonis?  Come on, come inside.": ""
+  },
+  "90915": {
+    "<attr><feel_happy_lv2><end_attr>If I had not broken the Mirror of\nIllusory Day, I would have been killed\nby that demon in the Stone Chamber of\n<br>\nthe Sun, and the Scarlet Stone of God\nwould have been destroyed. Looking\nback, it was your good fortune that\n<br>\nyou were able to pass through to the\nother world, and that there was the\nMirror of Illusions in the other\n<br>\nworld. A number of fortunate events\ncombined to produce a miracle.  I will\nnever forget this feeling of\n<br>\ngratitude, and I will continue to\nnurture the Shiny Melon with the\nutmost care! Of course, I will not\n<br>\nforget the mission of the Araguajillo\nroyal family. I will protect the\nPyramid, the Stone Chamber of the Sun,\n<br>\nand the Scarlet Stone of God!": ""
+  },
+  "102509": {
+    "<attr><feel_happy_lv3><end_attr>Oh! I'm glad you're here.<pc>I heard that! I have heard, I have\nheard!  I hear that you and the\nPrincess of Anrutia have defeated the\n<br>\ndreadful Madesagora, the Great Demon\nKing! Not only did you save the two\nworlds of Araghaghiro, but all of\n<br>\nAstartia as well!  I am truly\nastonished. As might be expected of a\nhero and a friend!  You are indeed a\n<br>\nhero and my ally!  I'm truly\nimpressed!<pc>You are the world's greatest\nbenefactor!  I have decided that I\nwill not only carry on the mission of\n<br>\nthe Araghaghiro royal family, but I\nwill also carry on your story!": ""
+  },
+  "92267": {
+    "「ようこそ　モンスター格闘場へ。\n　私は　当格闘場の従業員です。\n<br>\n「しかし　それは　仮の姿。\n　真実の私は　重要な役目を果たすため\n　来たるべき時を　ここで　待っているのです。": "「ようこそ　モンスター格闘場へ。\n　私は　当格闘場の従業員です。\n<br>\n「しかし　それは　仮の姿。\n　真実の私は　重要な役目を果たすため\n　来たるべき時を　ここで　待っているのです。"
+  },
+  "92268": {
+    "「……お待ちしていました。\n　勇者の盟友　<pc>さんですね。\n　ブロッゲンさまより　お話をうかがっています。\n<br>\n「……勇者とその盟友が　破邪の秘技を\n　会得すべく　ここに来る時を　待っていました。\n　ついに　私の役目を果たせるのですね。<bw_break>": "「……お待ちしていました。\n　勇者の盟友　<pc>さんですね。\n　ブロッゲンさまより　お話をうかがっています。\n<br>\n「……勇者とその盟友が　破邪の秘技を\n　会得すべく　ここに来る時を　待っていました。\n　ついに　私の役目を果たせるのですね。<bw_break>"
+  },
+  "92270": {
+    "「試練の魔物との戦いの舞台は　できています。\n<br>\n「さっそく　試練の魔物に　挑戦なさいますか？<yesno><break>": "「試練の魔物との戦いの舞台は　できています。\n<br>\n「さっそく　試練の魔物に　挑戦なさいますか？<yesno><break>"
+  },
+  "92271": {
+    "「そうですか。それでは　準備ができましたら\n　また　こちらに　お越しください。": "「そうですか。それでは　準備ができましたら\n　また　こちらに　お越しください。"
+  },
+  "92272": {
+    "「かしこまりました！\n　それでは　はりきって　どうぞ！": "「かしこまりました！\n　それでは　はりきって　どうぞ！"
+  },
+  "92273": {
+    "「お待ちしていました　<pc>さん。\n　賢者ブロッゲンさまの用意した　試練の魔物に\n　挑戦するのですね。<bw_break>": "「お待ちしていました　<pc>さん。\n　賢者ブロッゲンさまの用意した　試練の魔物に\n　挑戦するのですね。<bw_break>"
+  },
+  "92275": {
+    "「おお……。ついに　勇者姫アンルシアさまが\n　破邪の秘技を　会得したのですね。\n　おめでとうございます　<pc>さま。\n<br>\n「……私の役目も　終わりました。\n　これからは　ただの従業員として\n　ここで　働いていこうと思います。": "「おお……。ついに　勇者姫アンルシアさまが\n　破邪の秘技を　会得したのですね。\n　おめでとうございます　<pc>さま。\n<br>\n「……私の役目も　終わりました。\n　これからは　ただの従業員として\n　ここで　働いていこうと思います。"
+  },
+  "83954": {
+    "<attr><feel_sad_lv1><end_attr>My name is Abdul, and I am the newly\nappointed Chief of Soldiers. I've been\nentrusted with the great\n<br>\nresponsibility of leading a search\nparty to find the missing King Moonis.\nNo matter how hard I search, I can't\n<br>\nfind a single clue. Ugh. I'm not a\nsoldier captain after all!": ""
+  },
+  "83955": {
+    "Minister Caboose tells me that\nPrincess Anlusia of the Kingdom of\nGranzedora has awakened as a brave\n<br>\nwarrior. As the neighboring kingdom of\nAraghagiello, we would like to\ncongratulate her, but since the king\n<br>\nis not here, the minister seems to be\nalone in his distress.": ""
+  },
+  "83956": {
+    "<attr><feel_happy_lv1><end_attr>This oasis has sustained the\nprosperity of the kingdom of\nAlahaghiro, surrounded by desert.  The\n<br>\nwater is smooth and good for drinking.\nTraveller! If you ever need water,\njust let me know.  I'll fetch you as\n<br>\nmuch as I can.": ""
+  },
+  "83957": {
+    "<attr><feel_happy_lv1><end_attr>Welcome, travelers!  This is the\nKingdom of Arahagiro, known as the\nsacred land of the monster messengers.\n<br>\nThe famous monster fighting arena is\nalso here.  It is currently closed due\nto certain circumstances. But that\n<br>\naside, I'm sure you must be tired from\nyour journey through the desert.\n Please take your time and relax.": ""
+  },
+  "83958": {
+    "My brother was a soldier in the\ncastle, but he went off to war a while\nago and we lost track of him. It's\n<br>\nhard to wait for the return of someone\nyou don't know if he's alive or dead.\n I'm just so tired of it.": ""
+  },
+  "83959": {
+    "Up these stairs is the Throne Room.\nHowever, King Moonis is not in the\nthrone room at the moment, so you will\n<br>\nnot be able to enter.": ""
+  },
+  "83960": {
+    "<attr><feel_angry_lv1><end_attr>The guy who used to be the fighting\nring manager got sent off to war, and\nhe's missing.  That's why the fighting\n<br>\ngrounds are closed. Araguagiro without\nmonster battles is like a whimsical\nslime that can't use whimsies. Damn.": ""
+  },
+  "83961": {
+    "Mm? You are a traveler.  The Monster\nFighting Grounds is closed. There's no\nword on when it will reopen.  I'm\n<br>\nsorry, but I'm going to have to ask\nyou to leave.": ""
+  },
+  "84002": {
+    "The Monster Fighting Grounds is\nclosed.  There's no word yet on when\nit will reopen.  I'm sorry, but I'm\n<br>\ngoing to have to ask you to leave.": ""
+  },
+  "83962": {
+    "<if_woman><attr><feel_happy_lv1><end_attr>Hey, Mister over there.  How about 50\ngold for this Yakuza?  You don't want\nto buy it?<yesno>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break><else><attr><feel_happy_lv1><end_attr>Hey, hey, hey, hey.  How about 50 gold\nfor this Yakuza?  You want to buy it?<yesno>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break><endif>": ""
+  },
+  "83963": {
+    "Really? You're going to buy them for\nme?  50 gold for one!<yesno><case 1><break><case 2><break><case_cancel><break>": ""
+  },
+  "83964": {
+    "<attr><feel_sad_lv3><end_attr>I see. Well, that's right, isn't it?\n Huh~. Hara, it's gone down.": ""
+  },
+  "83965": {
+    "<attr><feel_sad_lv1><end_attr>What do you mean? You don't seem to\nhave anything to start with, do you?\n Don't make me feel happy!": ""
+  },
+  "83966": {
+    "<attr><feel_angry_lv1><end_attr>Okay, I'll give you 50 gold for this\none! What's that? Your bag is full.\n I'm in real trouble here.  Make room\n<br>\nin your bag and come back again.": ""
+  },
+  "83967": {
+    "<attr><feel_happy_lv2><end_attr>I'll take one for 50 gold!<attr><feel_happy_lv2><end_attr>": ""
+  },
+  "83968": {
+    "<if_woman><attr><feel_happy_lv1><end_attr>Well, thanks to you, I can finally\nenjoy my meal.  I haven't eaten for\nthe past few days, so thank God. All\n<br>\nright! I have a good thing to tell you\nfor being so nice to me! I heard that\nthere is a door in the pyramid that no\n<br>\nkey can open.  Probably there are\ntreasures inside.<else><attr><feel_happy_lv1><end_attr>Well, thanks to you, I can finally\nenjoy my meal.  I haven't eaten for\nthe past few days, so thank God. All\n<br>\nright! I have a good thing to tell my\nhusband for being so nice to me!\nThere's a door in the pyramid that no\n<br>\nkey can open.  Maybe there's a\ntreasure inside.<endif>": ""
+  },
+  "83969": {
+    "<attr><feel_happy_lv1><end_attr>I heard that there is a door in the\npyramid that cannot be opened with any\nkey.  Perhaps there are treasures\n<br>\nhidden inside.": ""
+  },
+  "83971": {
+    "<attr><feel_normal_one><end_attr>My daughter and grandson are back\nhome.  As an old man, I'm happy to see\nmy grandchildren, but I'm totally\n<br>\ndepressed now that their father is\nmissing.  Where the hell has he gone?": ""
+  },
+  "83972": {
+    "<attr><feel_sad_lv1><end_attr>The country has been through a great\nwar.  Since then, King Mounis and his\nsoldiers have gone missing. This has\n<br>\ncaused the country to lose its\nvitality, and the people have become\nvery anxious.": ""
+  },
+  "83973": {
+    "<attr><feel_sad_lv1><end_attr>Not one of my fellow soldiers has\nreturned home.  Our army, or rather\nthis country, has lost too much in\n<br>\nthat war.": ""
+  },
+  "83974": {
+    "<attr><feel_normal_one><end_attr>Hmmm... What would be a good gift for\nthe celebration?  For the princess, a\ndress... No, since she's a brave\n<br>\nwarrior, should it be a yoroi (armor)?\nI can't decide at all! I can't decide\nat all!  Ah, if only Moonisama were\n<br>\nhere at a time like this.": ""
+  },
+  "83975": {
+    "<icon_exc><turn_pc>Ah, a traveler.  I'm sorry, but I'm\nafraid I must ask you to leave me\nalone, as I have an important\n<br>\ndiplomatic matter to discuss.": ""
+  },
+  "83976": {
+    "<attr><feel_sad_lv1><end_attr>I'm looking for my husband who went\noff to war and never came back.  Where\nhas he disappeared to?": ""
+  },
+  "83977": {
+    "<attr><feel_sad_lv1><end_attr>I'm sorry to bother you, but King\nMoonith is not here right now.  I'm\nafraid I can't let you into the throne\n<br>\nroom. Because, a short time ago, the\nGreat Demon King's army suddenly swept\ninto the Pyramid in the Deferu\n<br>\nWilderness. In order to stop them,\nKing Moonis led his army to the\npyramid, and then disappeared. But\n<br>\nafter that, it seems that the demon\ntribe also disappeared suddenly.  I\nwonder what is going on here.": ""
+  },
+  "84003": {
+    "I'm sorry to bother you, but King\nMoonith is not in the throne room at\nthe moment.": ""
+  },
+  "83978": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>I'm surprised you came all this way!\n I've been on armory duty and I've\nbeen missing people.  All right, I'll\n<br>\ntell you what's good for you! There's\nan old underground tunnel that opens\nup into a well in the Arraguajillo\n<br>\nregion.  You might want to explore\nthat.": ""
+  },
+  "86541": {
+    "<attr><feel_happy_lv1><end_attr>Do you know the book \"The Golden\nTreasures of the Pyramids\"? It's the\nstory of a seeker in search of a\n<br>\nhidden treasure in the pyramids. It's\na dream come true for adventurers, but\nit's just a myth.  Don't take it\n<br>\nseriously. Ha-ha-ha.": ""
+  },
+  "83981": {
+    "<attr><feel_sad_lv1><end_attr>Pappa.": ""
+  },
+  "83982": {
+    "<attr><feel_happy_lv1><end_attr>The king of this country, his name is\nKing Moonis, and he is popular among\nthe people for his unpretentious\n<br>\npersonality. Until recently, I used to\nsee him wandering around town buying\nand eating by himself.": ""
+  },
+  "83986": {
+    "<attr><feel_happy_lv1><end_attr>Leave it to this charismatic\nhairdresser, Mr. Marjan, to create the\nmost trendy hairstyles in\n<br>\nAraguajillo! Let's get started!<bw_break>": ""
+  },
+  "86563": {
+    "<attr><feel_happy_lv1><end_attr>If you feel that the demon is strong,\nyou can buy armor at Hakam's store.\n They won't be scared off by a few\n<br>\nattacks.": ""
+  },
+  "83987": {
+    "<attr><feel_normal_one><end_attr>This country is now full of unrest.\n Please join me in praying for peace\nto come to the Kingdom of Alahaghiro.<bw_break>": ""
+  },
+  "83988": {
+    "My daughter seems to believe in rumors\nabout ghosts and is telling them to\nall kinds of people.  If she tells you\n<br>\nanything, just ignore her.<bw_break>": ""
+  },
+  "83989": {
+    "<attr><feel_happy_lv1><end_attr>In this country, there is a castle\nright above the castle town.  It's a\nunique structure, isn't it? You should\n<br>\ntake a look around after you get tired\nfrom your trip. Well...<bw_break>": ""
+  },
+  "83990": {
+    "What's the matter? I left the cheese\nhere, but it's gone.  Where did it go?\nHmmm. Well, there was a time when the\n<br>\ncheese was missing before.  Did the\nrats eat it up~?": ""
+  },
+  "83991": {
+    "<attr><feel_sad_lv1><end_attr>I came all the way to this country\nbecause I heard it was the sacred land\nof the \"monster messengers,\" but it\n<br>\nseems the monster fighting arena is\nnow closed. I was hoping to catch a\nglimpse of a real monster fighting.\n<br>\n Ah, what a waste of time and effort.": ""
+  },
+  "83992": {
+    "There is a great pyramid in the Deferu\nWilderness, north of Arraghaghiro.\n Have you ever seen it?<yesno><case 1><break><case 2><break><case_cancel><break>": ""
+  },
+  "83993": {
+    "Oh, I see. The pyramid is the tomb of\nthe ancient Araghaghiro kings, a\ntestament to the kingdom's long and\n<br>\nprosperous history. According to\nscholars, the deepest part of the\npyramid is an impenetrable chamber,\n<br>\nwhere no one is allowed to set foot.": ""
+  },
+  "83994": {
+    "<pipipi_off><pc>I got the fastest one!<se_nots System Item>": ""
+  },
+  "88102": {
+    "On the pedestal is a magnificent\nmirror.": ""
+  },
+  "88103": {
+    "The door is locked.": ""
+  },
+  "83995": {
+    "<attr><feel_sad_lv1><end_attr>It's been a long time since my\ndaughter's husband went missing. She's\nbeen waiting for him, believing he's\n<br>\nstill alive, but as a parent, it's\nhard to watch.": ""
+  },
+  "83996": {
+    "I'm just a new soldier!  The\nAraghagiolo Army was famous for the\nhellish discipline of Petty Officer\n<br>\nGorius. But now that Petty Officer\nGorius is gone, and that unreliable\nguy is the captain of the army.  Are\n<br>\nthe Araghagiolo army really okay? I'm\ngoing to endure the hardships of my\ncaptain and become the strongest\n<br>\nsoldier in the history of Araguaghero!\n That's what I promised myself when I\nenlisted.": ""
+  },
+  "83997": {
+    "Hey, you know that wizard Master\nBelmud?<yesno><case 1><break><case 2><break><case_cancel><break>": ""
+  },
+  "83998": {
+    "Hmm? The king who became a demon?\n What are you talking about?<bw_break>": ""
+  },
+  "83999": {
+    "Master Belmud is so famous that he is\nsaid to be a legendary sorcerer and\nwas the keeper of the fighting ring in\n<br>\nthis country. I don't know where he is\nnow, but I came all the way to\nAlahagiaro to become his apprentice.\n<br>\nI'm not going home until I meet Master\nBelmud and he accepts me as his\napprentice!": ""
+  }
+}
