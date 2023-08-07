@@ -1,0 +1,3 @@
+[Tab separated: id, start (conditional), text, end (condtional)]
+Search: ((\{\n)?\s{2}")(\d+)(":\s\{\n\s{4}")(<voice.*?>(<start.*?>)?)?(.*?)(<(stop|[ms]e).*?>)?(": ""\n\s{2}\}(,|\n\})?)
+Replace: $3\t$5\t$7\t$8
