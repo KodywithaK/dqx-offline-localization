@@ -495,34 +495,34 @@
     "<attr><feel_happy_one><end_attr>I'm the Queen's royal guard number １\nMizar, nice to meet you.\n<br>\nThe Queen always cares for the\nlittle kids, you know.\n<br>\nBut she's super tough on adults and Muccino.\nBe careful not to make her angry.": ""
   },
   "58633": {
-    "<attr><feel_happy_lv3><end_attr>「あたし　おおきくなったら\n　すいーつ　いっぱいたべて　ひひょーする\n　すごく　えらいひとに　なるの！\n<br>\n「ムッチーノが　出してくれる　おやつはね！\n　えぇっと……星　いち　に　さん……。\n<br>\n「……うーんと　星いっぱい！\n　ムッチーノのおやつは　とにかく\n　いっぱい　おいしいのよ！": ""
+    "<attr><feel_happy_lv3><end_attr>When I grow up\nI'm going to be a famous candy critic!\n<br>\nI'll review Muccino's snacks!\nLet's see, how many stars... 1, 2, 3...\n<br>\n...Umm, 5 stars!\nMuccino's snacks really are delicious!": ""
   },
   "58634": {
     "<attr><feel_angry_lv1><end_attr>「２階のろうかの　つきあたりには\n　まえ　神父さんがつかってた部屋が　あるんだ。\n　いまは　女王さまが　つかってるよ！\n<br>\n「だけど　オマエなんか　ゼッタイ　ゼッタイ\n　入っちゃ　だめなんだからな！\n　女王さまが許しても　オレが許さないぞ！": ""
   },
   "58635": {
-    "<attr><feel_normal_one><end_attr>「ムーッ！　ハムハム！　ホーッ！　ムホムホ！\n　食べても食べても　おやつが　あるなんて！\n　ダッハー！！　オイラ　もう死んでもいい！！": ""
+    "<attr><feel_normal_one><end_attr>Mmm! Munch! Hoh! Mmm!\n<br>\nI could eat and eat these sweets all day!\nDahh!! I could eat\nthese things until the day I die!": ""
   },
   "58637": {
-    "<if_woman><attr><feel_normal_lv1><end_attr>「おねえちゃん　女王さまに　あいたいの？\n　女王さま　お部屋で　なにか\n　しらべもの　してるみたいだよ。\n<br>\n「ちょっと　きになるけど……。\n　はいったら　きっと　しかられるから\n　やめておこうっと。<else><attr><feel_normal_lv1><end_attr>「おにいちゃん　女王さまに　あいたいの？\n　女王さま　お部屋で　なにか\n　しらべもの　してるみたいだよ。\n<br>\n「ちょっと　きになるけど……。\n　はいったら　きっと　しかられるから\n　やめておこうっと。<endif>": ""
+    "<if_woman><attr><feel_normal_lv1><end_attr>You want to see the Queen, Big Sis?\nI would check in her room then.\n<br>\nTake care though...\nYou'll get scolded, if you just barge in.<else><attr><feel_normal_lv1><end_attr>You want to see the Queen, Big Bro?\nI would check in her room then.\n<br>\nTake care though...\nYou'll get scolded, if you just barge in.<endif>": ""
   },
   "58638": {
-    "<attr><feel_sad_one><end_attr>「こ……　こんな生活\n　やっぱり　おかしいよ……。": ""
+    "<attr><feel_sad_one><end_attr>T-this kind of life is wrong...": ""
   },
   "70542": {
-    "<attr><feel_normal_one><end_attr><turn_pc>「あ……もしかして　リズに　ご用ですか？\n　彼女なら　２階の自室に　いると思いますよ。": ""
+    "<attr><feel_normal_one><end_attr><turn_pc>Oh... You need to see Liz?\nI think she's upstairs, in her room.": ""
   },
   "70591": {
-    "<attr><feel_sad_one><end_attr>「こ……　こんな生活\n　やっぱり　おかしいよ……。\n<br>\n「リズは……リゼロッタは\n　大人がいなくても　平気なのかな……？": ""
+    "<attr><feel_sad_one><end_attr>T-this kind of life is wrong...\n<br>\nI wonder if\nLiz...Liselotte is ok without adults...": ""
   },
   "58639": {
     "<attr><feel_happy_one><end_attr>「あ～　おいしかった！\n<br>\n「おかしだけじゃなくて\n　ちゃんと　ゴハンも食べなさいって\n　いつも　ママに　おこられてたけど……。\n<br>\n「いまは　おかしばっかり　食べても\n　だーれも　なーんにも　言わないから\n　すごく　しあわせ！": ""
   },
   "58642": {
-    "<attr><feel_angry_lv2><end_attr>「フィーロったら　弱虫のくせに\n　女王様のこと　なれなれしく　名前で呼ぶのよ。\n<br>\n「さっきも　楽しいおやつの時間に\n　クチをはさんでくるし……。\n　女王様も　ビシッと怒ってやればいいのに！": ""
+    "<attr><feel_angry_lv2><end_attr>That Firo is a wimp, I tell you, and yet\nhe dares call the Queen by her name.\n<br>\nHe just interrupted our delicious meal...\nThe Queen should've yelled at him!": ""
   },
   "58643": {
-    "<attr><feel_angry_lv1><end_attr>「フィーロのヤツ　いきなり\n　大人に　帰ってきてほしいなんて\n　変なこと　言いやがって……。\n<br>\n「大人なんかが　戻ってきたら\n　今みたいに　好きなことばっかり\n　やれなくなっちまう。冗談じゃないぜ。": ""
+    "<attr><feel_angry_lv1><end_attr>That Firo guy, dont tell me he suddenly\nwants all the grown-up to come back...\n<br>\nIf the adults come back, we\nwon't be able to do what we like anymore.\nGimme a break...": ""
   },
   "58644": {
     "<attr><feel_happy_one><end_attr>The Amber Jewel lies at Linja Tower\n<br>\n\"Thou shalt not fear Word of the Goddess\"\n\"Rather, ask to be Her spokesperson\"\n...Haha, that's it.": ""
