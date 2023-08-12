@@ -93,3 +93,64 @@ SYSTXT_BOUKENNOSHO_45010,"{Slot}：{Name}　{Lv}<cf>{Place}　{Hour} : {Minutes}
 SYSTXT_BOUKENNOSHO_46010,"プレゼントを受け取りました！"
 ```
 ---
+# UE4.27 Editor
+### Create New Project
+- Default 'no starter options'
+### Settings
+> `Edit > Project Settings > Project > Packaging`
+>
+> `Use Io Store` [x]
+>
+> `Generate Chunks` [x]
+>
+### Content Browser
+- Create new folders
+- `Content > StringTables`
+- Right-click and create `Miscellaneous > Data Asset`
+> Double-click Data Asset
+>
+> `Chunk ID` [x]
+>
+> `Cook Rule` Always Cook
+>
+> `Label Assets in My Directory` [x]
+>
+> `Save`
+>
+- `Content > StringTables > GAME (> Battle/Event/Field/System/System_Shop/etc.)`
+Right-click and create `Miscellaneous > String Table`
+> Rename to match .csv to be imported (e.g. ***STT_Title_Boukennnosho.csv*** [Title Screen Text])
+>
+> Double-click String Table `Import from CSV` then choose matching .csv
+>
+> Repeat steps until finished importing.
+>
+> `Save`
+>
+### Create Packaged Game (.pak & .ucas & .utoc)
+- `File > Package Project > Windows (64-bit)`, choose `outputDir`
+> After a while (usually, 5-10 minutes), new (.pak/.ucas/.utoc) will be created at previously chosen `outputDir`
+- Referred to as `ucasPath` and `utocPath` below.
+---
+# UECastoc (190nm's fork)
+### Create Manifest File
+- Open command prompt at the install location for `190nm/UECastoc/UEcastoc_1.0.2/cpp`
+```js
+main.exe manifest utocPath, ucasPath, outputManifest.json, NULL
+```
+### Unpack Raw Packaged Game
+```js
+main.exe unpackAll utocPath, ucasPath, outputDir, NULL
+```
+### Pack Game For Use
+```js
+main.exe pack outputDir\Content\StringTables\Game, outputManifest.json, outputPackageDir, None, NULL
+```
+- Outputs finalized `.pak` & `.ucas` & `.utoc` to location you chose as `outputPackageDir`
+- Copy/move `.pak` & `.ucas` & `.utoc` to your mods folder.
+> Switch: `sd:\atmosphere\contents\0100E2E0152E4(0/8)00\romfs\Holiday\Content\Paks\`
+>
+> Yuzu: `%YUZU_DIR%\load\0100E2E0152E4(0/8)00\<YOUR_MOD_NAME>\romfs\Holiday\Content\Paks\`
+>
+---
+### Enjoy your newly localized game!
