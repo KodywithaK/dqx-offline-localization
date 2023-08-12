@@ -109,7 +109,7 @@ SYSTXT_BOUKENNOSHO_46010,"プレゼントを受け取りました！"
 - Right-click and create `Miscellaneous > Data Asset`
 > Double-click Data Asset
 >
-> `Chunk ID` [x]
+> `Chunk ID` [#]
 >
 > `Cook Rule` Always Cook
 >
