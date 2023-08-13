@@ -1,5 +1,5 @@
 # Schema
-`Key, SourceString` needed by ***UE4.27*** UE4Editor.exe to `import from csv`
+`Key,SourceString` needed by ***UE4.27*** UE4Editor.exe to `import from csv`
 ```js
 Key,SourceString
 Your_Key,"Your_SourceString"
@@ -8,7 +8,7 @@ Your_Key,"Your_SourceString"
 ### STT_System_Title.uasset.csv (title screen)
 (JP)
 ```js
-Key, SourceString
+Key,SourceString
 SYSTXT_BOUKENNOSHO_00010,"冒険をする"
 SYSTXT_BOUKENNOSHO_00020,"冒険の書をつくる"
 SYSTXT_BOUKENNOSHO_00030,"冒険の書を消す"
