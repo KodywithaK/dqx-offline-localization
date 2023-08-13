@@ -136,21 +136,25 @@ Right-click and create `Miscellaneous > String Table`
 ### Create Manifest File
 - Open command prompt at the install location for `190nm/UECastoc/UEcastoc_1.0.2/cpp`
 ```js
-main.exe manifest utocPath, ucasPath, outputManifest.json, NULL
+main.exe manifest "utocPath" "ucasPath" "outputManifest.json" NULL
 ```
 ### Unpack Raw Packaged Game
 ```js
-main.exe unpackAll utocPath, ucasPath, outputDir, NULL
+main.exe unpackAll "utocPath" "ucasPath" "outputDir" NULL
 ```
 ### Pack Game For Use
 ```js
-main.exe pack outputDir\Content\StringTables\Game, outputManifest.json, outputPackageDir, None, NULL
+main.exe pack "outputDir\Content\StringTables\GAME" "outputManifest.json" "outputPackageDir" "None" NULL
 ```
 - Outputs finalized `.pak` & `.ucas` & `.utoc` to location you chose as `outputPackageDir`
+  - NEEDS to have `_P` to be recognized as mod `(e.g. pakchunk0-Switch_P)`.
+    - Cannot have anything after `_P`, otherwise it will not load.
 - Copy/move `.pak` & `.ucas` & `.utoc` to your mods folder.
-> Switch: `sd:\atmosphere\contents\0100E2E0152E4(0/8)00\romfs\Holiday\Content\Paks\`
+> Switch:
+> `sd:\atmosphere\contents\0100E2E0152E4000\romfs\Holiday\Content\Paks\`
 >
-> Yuzu: `%YUZU_DIR%\load\0100E2E0152E4(0/8)00\<YOUR_MOD_NAME>\romfs\Holiday\Content\Paks\`
+> Yuzu:
+> `%YUZU_DIR%\load\0100E2E0152E4000\<YOUR_MOD_NAME>\romfs\Holiday\Content\Paks\`
 >
 ---
 ### Enjoy your newly localized game!
