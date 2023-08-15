@@ -9,7 +9,7 @@
     "Quest \"<%sEV_QUEST_NAME>I received a copy of the \"The World's\nBest of the Best\" from the company.<update_quedate><me 74>": ""
   },
   "26182": {
-    "I have been asked to do a quest. Do\nyou accept this quest?<select>\nstop receiving\nquit<select_end><close>": ""
+    "I have been asked to do a quest. Do\nyou accept this quest?<select>\nAccept\nReject<select_end><close>": ""
   },
   "26196": {
     "<pc>is\nspecial move, usually one unique to a certain fighter or fighting style<%sEV_FEE_ACTION>I learned to<me 71>Special Moves can only be used during\nbattle when the borrowing command\nappears. Please note that they will\n<br>\ndisappear after a certain period of\ntime.<bw_break>": ""
@@ -15606,7 +15606,7 @@
     "You cannot accept any more Requests\nQuests! Please cancel the Request Form\nQuest from the Quest List in the\n<br>\nHistory command.": ""
   },
   "67061": {
-    "If you accept the quest, the request\nform will be lost. Do you want to\naccept this quest?<select>\nstop receiving\nquit<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+    "If you accept the quest, the request\nform will be lost. Do you want to\naccept this quest?<select>\nAccept\nReject<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
   },
   "67062": {
     "Bring Your Friends Request Form Quest\nThe<%sQUE_IRAISYA>request!\" received.<me 74><auto_bw=3000><close>": ""
@@ -23094,7 +23094,7 @@
     "You can only receive one Urgent\nRequisition Quest! Please cancel the\nUrgent Requisition Quest from the list\n<br>\nof Quests in the History command.": ""
   },
   "102570": {
-    "After receiving this quest<%nEV_QUE_LIMIT>You will need to accomplish this in\nless than a minute. Do you accept this\nquest?<select>\nstop receiving\nquit<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
+    "After receiving this quest<%nEV_QUE_LIMIT>You will need to accomplish this in\nless than a minute. Do you accept this\nquest?<select>\nAccept\nReject<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": ""
   },
   "102571": {
     "Bring Your Friends Request Form Quest\nThe<%sQUE_IRAISYA>Urgent request for \"The! received.<me 74><auto_bw=1000><close>": ""
