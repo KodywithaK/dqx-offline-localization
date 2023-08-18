@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_WarpRuraSys",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_WarpRura",
+      "KeysToMetaData": {
+        "SYSTXT_WARP_RURA_00010": "ルーラストーン",
+        "SYSTXT_WARP_RURA_00020": "目の前に　不思議な石碑が浮かんでいる。\r\n{Character_Name}が　石碑に近づくと\r\n持っていたルーラストーンが　輝きだした。<br_break>",
+        "SYSTXT_WARP_RURA_00030": "どうやら　この場所で念じれば\r\nルーラストーンに飛び先として\r\n記憶させることが　できるようだ。<br_break>",
+        "SYSTXT_WARP_RURA_00040": "ルーラストーンに\r\n{Place_Name}を　記憶させますか？\r\n<yesno><break>",
+        "SYSTXT_WARP_RURA_00050": "{Character_Name}は　ルーラストーンを持ち　念じた。\r\n<break>",
+        "SYSTXT_WARP_RURA_00060": "ルーラストーンに\r\n{Place_Name}を　記憶させました。\r\n<end>",
+        "SYSTXT_WARP_RURA_00070": "すでに　この場所は\r\nルーラストーンに記憶されているようだ。\r\n<end>",
+        "SYSTXT_WARP_RURA_00080": "{Character_Name}は　ルーラストーンに\r\n記憶させるのをやめた。\r\n<end>",
+        "SYSTXT_WARP_RURA_00090": "石碑は　静かに　たたずんでいる。\r\n<end>",
+        "SYSTXT_WARP_RURA_00100": "しかし　ふしぎなチカラで　かき消された！\r\n<end>",
+        "SYSTXT_WARP_RURA_01010": "どこへ？",
+        "SYSTXT_WARP_RURA_01020": "お気に入り登録",
+        "SYSTXT_WARP_RURA_01030": "施設",
+        "SYSTXT_WARP_RURA_01040": "大陸名",
+        "SYSTXT_WARP_RURA_01050": "お気に入り",
+        "SYSTXT_WARP_RURA_01060": "（未登録）",
+        "SYSTXT_WARP_RURA_01070": "選択した項目を　追加する場所を選んでください。\r\n<break>",
+        "SYSTXT_WARP_RURA_01080": "項目を追加しました。\r\n<end>",
+        "SYSTXT_WARP_RURA_01090": "その項目は　すでに\r\nお気に入りに追加されています。\r\n<end>",
+        "SYSTXT_WARP_RURA_01100": "その項目には　すでに\r\n登録されている場所があります。\r\n上書きしてしまって　よいですか？\r\n<yesno><break>",
+        "SYSTXT_WARP_RURA_01110": "配置を入れ替える",
+        "SYSTXT_WARP_RURA_01120": "その項目には　まだ場所が追加されていません。\r\n<end>",
+        "SYSTXT_WARP_RURA_01130": "位置を変更したい項目を　選んでください。\r\n<break>",
+        "SYSTXT_WARP_RURA_01140": "入れ替え先を　選んでください。\r\n<break>",
+        "SYSTXT_WARP_RURA_01150": "配置入れ替え終了",
+        "SYSTXT_WARP_RURA_01160": "{Character_Name}はルーラストーンを使った。\r\n<end>",
+        "SYSTXT_WARP_RURA_01170": "{Location_Name}へ\r\nルーラで移動しても　よろしいですか？\r\n<yesno><break>",
+        "SYSTXT_WARP_RURA_01180": "{Character_Name}は　天井に　あたまをぶつけた。\r\n<end>",
+        "SYSTXT_WARP_RURA_01190": "違う時代へ　移動することは　できません！",
+        "SYSTXT_WARP_RURA_01200": "ここでは頭をぶつけそうだ",
+        "SYSTXT_WARP_RURA_02000": "地図をみる",
+        "SYSTXT_WARP_RURA_02010": "メニューに戻る"
+      }
+    },
+    "StringTableId": 0
+  }
+]

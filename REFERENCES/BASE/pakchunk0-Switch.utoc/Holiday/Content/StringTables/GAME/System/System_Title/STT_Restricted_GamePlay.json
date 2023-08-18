@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_Restricted_GamePlay",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_Restricted_GamePlay",
+      "KeysToMetaData": {
+        "SYSTXT_RESTRICTED_GAMEPLAY_00010": "しばりプレイ",
+        "SYSTXT_RESTRICTED_GAMEPLAY_01010": "しばりプレイの解除",
+        "SYSTXT_RESTRICTED_GAMEPLAY_01020": "設定中のしばりプレイ",
+        "SYSTXT_RESTRICTED_GAMEPLAY_01030": "しばりプレイの\n設定を解除します",
+        "SYSTXT_RESTRICTED_GAMEPLAY_02010": "しばりプレイ達成状況",
+        "SYSTXT_RESTRICTED_GAMEPLAY_02020": "達成状況",
+        "SYSTXT_RESTRICTED_GAMEPLAY_02030": "達成済",
+        "SYSTXT_RESTRICTED_GAMEPLAY_02040": "解除",
+        "SYSTXT_RESTRICTED_GAMEPLAY_02050": "一時解除",
+        "SYSTXT_RESTRICTED_GAMEPLAY_02060": "設定中",
+        "SYSTXT_RESTRICTED_GAMEPLAY_03010": "しばりプレイ設定",
+        "SYSTXT_RESTRICTED_GAMEPLAY_03020": "しばりプレイの\n設定と確認\nをします",
+        "SYSTXT_RESTRICTED_GAMEPLAY_03110": "設定項目の確認",
+        "SYSTXT_RESTRICTED_GAMEPLAY_03120": "画面表示設定",
+        "SYSTXT_RESTRICTED_GAMEPLAY_03130": "挑戦中の\nしばりプレイを\n確認できます",
+        "SYSTXT_RESTRICTED_GAMEPLAY_03140": "しばりプレイの\n画面表示設定を\n変更します",
+        "SYSTXT_RESTRICTED_GAMEPLAY_03210": "画面表示設定",
+        "SYSTXT_RESTRICTED_GAMEPLAY_03220": "する",
+        "SYSTXT_RESTRICTED_GAMEPLAY_03230": "しない",
+        "SYSTXT_RESTRICTED_GAMEPLAY_03240": "しばりプレイの\n設定内容を画面に\n表示します",
+        "SYSTXT_RESTRICTED_GAMEPLAY_03250": "しばりプレイの\n設定内容を画面に\n表示しません",
+        "SYSTXT_RESTRICTED_GAMEPLAY_20010": "防具を装備できない",
+        "SYSTXT_RESTRICTED_GAMEPLAY_20020": "楽な戦いは経験値なし",
+        "SYSTXT_RESTRICTED_GAMEPLAY_20030": "消費ＭＰがすべて２倍",
+        "SYSTXT_RESTRICTED_GAMEPLAY_20040": "主人公がやられたら全滅",
+        "SYSTXT_RESTRICTED_GAMEPLAY_20050": "すべての敵が強くなる",
+        "SYSTXT_RESTRICTED_GAMEPLAY_20060": "逃げられない",
+        "SYSTXT_RESTRICTED_GAMEPLAY_20070": "必殺技はテンション100消費",
+        "SYSTXT_RESTRICTED_GAMEPLAY_20080": "使う道具の持てる数を制限",
+        "SYSTXT_RESTRICTED_GAMEPLAY_30010": "すべての　防具やアクセサリーを\n装備できなくなります！\nじゅもんやスキル　どうぐを\nうまく　使いこなしましょう！",
+        "SYSTXT_RESTRICTED_GAMEPLAY_30020": "自分達の　最高レベルに満たない\n敵から　経験値がもらえません！\nレベルを上げたい時は\n強い敵と　戦いましょう！",
+        "SYSTXT_RESTRICTED_GAMEPLAY_30030": "とくぎや　じゅもんを\n使うときに無くなるＭＰが\nすべて２倍になります！\nうまく　やりくりしましょう！",
+        "SYSTXT_RESTRICTED_GAMEPLAY_30040": "バトル中に　主人公がやられると\nその時点で　ゲームオーバーに\nなってしまいます。\n注意して　戦いましょう。",
+        "SYSTXT_RESTRICTED_GAMEPLAY_30050": "すべての敵が　強くなり\n厳しい　戦いになります！\nバトルに　自信のある人のみ\n覚悟を決めて　挑みましょう！",
+        "SYSTXT_RESTRICTED_GAMEPLAY_30060": "すべてのバトルで\n敵から　逃げられなくなります。\nスキルや　どうぐを\nうまく使い　切りぬけましょう！",
+        "SYSTXT_RESTRICTED_GAMEPLAY_30070": "必殺技の　消費テンションが\nすべて　最大値になります。\nとっておきの　切り札として\nここぞの場面で　使いましょう。",
+        "SYSTXT_RESTRICTED_GAMEPLAY_30080": "素材以外のどうぐは　持てる数に\n制限がかかります。\nやりくりして　どうぐを\nうまく　使いましょう！",
+        "SYSTXT_RESTRICTED_GAMEPLAY_40010": "挑戦したい　しばりプレイの項目を\n選択してください。",
+        "SYSTXT_RESTRICTED_GAMEPLAY_40020": "しばりプレイの　達成状況を　確認できます。\n達成済みの　しばりプレイには　★が記されます。\nすべての　冒険の記録が　反映されています。",
+        "SYSTXT_RESTRICTED_GAMEPLAY_20011": "防具を装備できない　しばりプレイでは\nクリアできないクエストや\n取得できない職業があります。\n<br>\n本当に　このしばりプレイのままプレイしますか？\n（しばりプレイは　ゲーム中でも解除できます）\n<yesno><break>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

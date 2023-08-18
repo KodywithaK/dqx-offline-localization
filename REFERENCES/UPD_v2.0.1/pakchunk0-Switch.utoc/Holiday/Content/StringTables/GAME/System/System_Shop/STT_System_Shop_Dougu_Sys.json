@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_System_Shop_Dougu_Sys",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_System_Shop_Dougu_Sys",
+      "KeysToMetaData": {
+        "SYSTXT_SHOP_DOUGU_00010": "売り物",
+        "SYSTXT_SHOP_DOUGU_00020": "誰に？",
+        "SYSTXT_SHOP_DOUGU_00030": "そうび",
+        "SYSTXT_SHOP_DOUGU_00040": "売れない",
+        "SYSTXT_SHOP_DOUGU_00050": "売り切れ",
+        "SYSTXT_SHOP_DOUGU_01010": "{Character_Selected_Name}は　{Item_Selected_Name}を\n装備させてもらった！\n<bw_break>",
+        "SYSTXT_SHOP_DOUGU_01020": "{Character_Selected_Name}は　{Item_Selected_Name}を\n両手に　装備させてもらった！\n<bw_break>",
+        "SYSTXT_SHOP_DOUGU_01030": "ひつぎの中の　{Character_Selected_Name}に　\n{Item_Selected_Name}を　装備させた。\n<bw_break>",
+        "SYSTXT_SHOP_DOUGU_01040": "ひつぎの中の　{Character_Selected_Name}の両手に　\n{Item_Selected_Name}を　装備させた。\n<bw_break>",
+        "SYSTXT_SHOP_DOUGU_01050": "{Character_Selected_Name}は　{Item_Selected_Name}を\n右手に　装備させてもらった！\n<bw_break>",
+        "SYSTXT_SHOP_DOUGU_01060": "{Character_Selected_Name}は　{Item_Selected_Name}を\n左手に　装備させてもらった！\n<bw_break>",
+        "SYSTXT_SHOP_DOUGU_01070": "{Item_Selected_Name}を\nひつぎの中の　{Character_Selected_Name}の\n右手に　装備させた。\n<bw_break>",
+        "SYSTXT_SHOP_DOUGU_01080": "{Item_Selected_Name}を\nひつぎの中の　{Character_Selected_Name}の\n左手に　装備させた。\n<bw_break>",
+        "SYSTXT_SHOP_DOUGU_01090": "「{Character_Selected_Name}は　{Item_Selected_Name}を　手に入れた！\n<se_nots system Item><br_break>",
+        "SYSTXT_SHOP_DOUGU_01100": "「{Character_Selected_Name}は　{Item_Selected_Name}を\n　{Item_Selected_Quantity}枚手に入れた！\n<se_nots system Item><br_break>",
+        "SYSTXT_SHOP_DOUGU_00060": "装備中のそうびひん",
+        "SYSTXT_SHOP_DOUGU_01110": "{Character_Name}は　\n{Item_Name}を　手に入れた！\n<se_nots system Item>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

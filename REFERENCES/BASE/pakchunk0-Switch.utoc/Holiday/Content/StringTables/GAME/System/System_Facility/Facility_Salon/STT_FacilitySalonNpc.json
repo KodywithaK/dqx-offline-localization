@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_FacilitySalonNpc",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_FacilitySalonNpc",
+      "KeysToMetaData": {
+        "SYSTXT_FACILITY_SALON_NPC_00010": "「いらっしゃいませ！\n　美容院　サロン・フェリシアへ　ようこそ♪\n　今日は　どんな感じにするのかしら？\n<select>\n見た目を変える\nやめる\n<select_end><break>",
+        "SYSTXT_FACILITY_SALON_NPC_00030": "「美容院　サロン・フェリシアは\n　いつでも　あなたを待ってるわ。\n　また来てね♪\n<turn_end>",
+        "SYSTXT_FACILITY_SALON_NPC_01010": "「見た目を変えるのね。\n　{Gold}ゴールドかかるけれど\n　いいかしら？\n<yesno><break>",
+        "SYSTXT_FACILITY_SALON_NPC_01020": "「あら？　お金が　足りないみたいね。\n<bw_break>",
+        "SYSTXT_FACILITY_SALON_NPC_01025": "「スタイルは　変更するのかしら？\n<yesno_nc><break>",
+        "SYSTXT_FACILITY_SALON_NPC_01030": "「体型は　どうするのかしら？\n<select_nc>\nおとな\nこども\n<select_end><break>",
+        "SYSTXT_FACILITY_SALON_NPC_02010": "「それじゃあ　新しい自分を　イメージして\n　なりたい姿を　選んでね。\n<break>",
+        "SYSTXT_FACILITY_SALON_NPC_02030": "「あら？　やめちゃうのかしら？\n<yesno><break>",
+        "SYSTXT_FACILITY_SALON_NPC_02035": "「わかったわ。\n　何も　変更しないのね。\n<bw_break>",
+        "SYSTXT_FACILITY_SALON_NPC_02040": "「あら？　これじゃあ\n　もとの姿と　おんなじじゃない！\n　もう一度　なりたい姿を　選んでくれるかしら？\n<bw_break>",
+        "SYSTXT_FACILITY_SALON_NPC_03010": "「とってもステキね。\n　このイメージに　チェンジするけど\n　いいかしら？\n<yesno><break>",
+        "SYSTXT_FACILITY_SALON_NPC_03030": "「オッケー　まかせてっ！\n　ステキに　イメチェンしてあげる♪\n<bw_break>",
+        "SYSTXT_FACILITY_SALON_NPC_03040": "「ほら！　バッチリ　イメチェンできたわ。\n　とっても似合っているわ♪\n<bw_break>",
+        "SYSTXT_FACILITY_SALON_NPC_01015": "「そう　残念ね。\n<bw_break>",
+        "SYSTXT_FACILITY_SALON_NPC_00035": "「そう　残念ね。\n　美容院　サロン・フェリシアは\n　いつでも　あなたを待ってるわ。また来てね♪\n<turn_end>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

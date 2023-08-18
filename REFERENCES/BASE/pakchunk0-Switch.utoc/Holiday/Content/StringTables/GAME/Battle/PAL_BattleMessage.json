@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "PrimaryAssetLabel",
+    "Name": "PAL_BattleMessage",
+    "Class": "UScriptClass'PrimaryAssetLabel'",
+    "Properties": {
+      "Rules": {
+        "bApplyRecursively": true,
+        "CookRule": "EPrimaryAssetCookRule::AlwaysCook"
+      },
+      "bLabelAssetsInMyDirectory": true,
+      "bIsRuntimeLabel": true
+    }
+  }
+]

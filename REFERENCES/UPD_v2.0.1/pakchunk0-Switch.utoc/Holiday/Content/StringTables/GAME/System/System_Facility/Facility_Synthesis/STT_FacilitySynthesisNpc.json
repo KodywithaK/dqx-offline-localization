@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_FacilitySynthesisNpc",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_FacilitySynthesisNpc",
+      "KeysToMetaData": {
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_00010": "「ヤッホー。\n　ここは　アクセサリー合成屋だよ。\n<bw_break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_00020": "「まず　合成のベースになる\n　アクセサリーを　選んでくれるかなあ？\n<break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_00030": "「んー？　{Item_Selected_Name}に\n　合成できるアクセを　持ってないみたいだね。\n<bw_break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_10010": "「どのアクセサリーを合成素材にしちゃう？\n<break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_10020": "「そのアクセサリーは\n　{Character_Selected_Name}が　装備してるみたいだけど\n　合成素材に　しちゃって　いいのかな？\n<yesno><break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_10030": "「そのアクセサリーには\n　合成効果がついているけど\n　合成素材に　しちゃって　いいのかな？\n<yesno><break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_10040": "「このままだと　付いてる効果が　多すぎだね。\n　消す効果を　選ばないといけないけど\n　いいのかな？\n<yesno><break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_10050": "「どの合成効果を　消すのかな？\n<break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_10060": "「あたらしく　伝承効果をつけるなら\n　いま　ついている伝承効果は\n　消さないといけないけど　いいのかな？\n<yesno><break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_10070": "「そのアクセサリーには\n　伝承効果がついているけど\n　合成素材に　しちゃって　いいのかな？\n<yesno><break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_20010": "「どの合成効果を　つけるのかな？\n<break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_20020": "「どの伝承効果を　つけるのかな？\n<break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_30010": "「{Item_Selected_Name}と\n　{Item_Selected_Effect_Name}で　合成だね？\n<bw_break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_30020": "「{Gold_Need_Synthesis}ゴールドいただくけど　オッケー？\n<yesno><break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_30030": "「効果を消すのと合わせて\n　{Gold_Need}ゴールドいただくけど　オッケー？\n<yesno><break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_40010": "「そんじゃ　いっちょ　いってみます！\n　うまくいくよう　そこで祈っててよね……。\n<bw_break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_40020": "「でっきた～♪　うまいこといったよ！\n　君が　こいつを気に入ってくれるといいな！\n<bw_break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_50010": "「他にも　合成したいアクセサリーがあったり？\n<yesno><break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_60010": "「んー。合成できるアクセサリーを\n　今は　持ってないみたいだねー。\n<bw_break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_60020": "「残念だけど　アクセサリーを手に入れたら\n　また　来てくれるかなあ？\n　そんじゃ　まった来ってね～♪\n<turn_end>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_60030": "「あちゃ～……。\n　お金が　足らないみたいだねー。\n<bw_break>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_60040": "「合成するには　{Gold_Need_Syntyhesis}ゴールド\n　合成効果を消すには　{Gold_Need_Synthesis_Erase}ゴールド\n　それぞれ　必要になるから　よろしくねっ。\n<turn_end>",
+        "SYSTXT_FACILITY_SYNTHESIS_NPC_60050": "「そんじゃ　どうもありがとうございました！\n　まった来ってね～♪\n<turn_end>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

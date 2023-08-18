@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_System_ItabaeAlbum",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_System_ItabaeAlbum",
+      "KeysToMetaData": {
+        "SYSTXT_ITABAEALBUM_SYS_00010": "『遊びクラブ★イタ映えアルバム』\nという本だ。\n<br>\nこれまで　遊びクラブが\n活動してきた写真が　かざられているようだ。\n<end>",
+        "SYSTXT_ITABAEALBUM_SYS_00020": "『遊びクラブ★イタ映えアルバム』\nという本だ。\n<br_break>",
+        "SYSTXT_ITABAEALBUM_SYS_00030": "どの写真を　見ますか？\n<select {Index}>\n{SelectMenus}\nやめる\n<select_end>\n<break>",
+        "SYSTXT_ITABAEALBUM_SYS_10010": "ウワサのイタ映え絶景",
+        "SYSTXT_ITABAEALBUM_SYS_10020": "ツスクルの畑でたがやして",
+        "SYSTXT_ITABAEALBUM_SYS_10030": "ハニーパーティ",
+        "SYSTXT_ITABAEALBUM_SYS_10040": "遊び人ファイアーワークス",
+        "SYSTXT_ITABAEALBUM_SYS_10050": "パーティ集合写真",
+        "SYSTXT_ITABAEALBUM_SYS_20010": "＃これがウワサのイタ映え　＃レインボートレイン\n＃鉄道ごっこ　＃撮影は{pc}っち\n＃見てるか　ミヤビっち　＃あそクラ最高！\n<bw_break>",
+        "SYSTXT_ITABAEALBUM_SYS_20020": "＃畑たがやすの楽しー！　＃ミヤビっちの実家\n＃イタ映え女王　＃たくみなクワさばき\n＃エナジパウダーまじアガる　＃あそクラ最高！\n<bw_break>",
+        "SYSTXT_ITABAEALBUM_SYS_20030": "＃ハニーパーティー！　＃ハチミツざんまい\n＃ごくらく温泉　＃パンケーキうまし\n＃ゴランゾ食いすぎ　＃あそクラ最高！\n<bw_break>",
+        "SYSTXT_ITABAEALBUM_SYS_20040": "＃遊び人の花火！　＃オレたちのソウル\n＃ピンキー　＃ゴランゾ　＃フォーエバー\n＃デスワーク倒したぞ　＃あそクラ最高！\n<bw_break>",
+        "SYSTXT_ITABAEALBUM_SYS_20050": "＃遊びクラブ復活記念　＃ペアレンツ\n＃ピンキー　＃ゴランゾ　＃ミヤビっちもいるよ\n＃パイセンこれからもシクヨロ　＃あそクラ最高！\n<bw_break>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

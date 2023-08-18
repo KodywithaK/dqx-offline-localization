@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_System_ProfileWord",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_System_ProfileWord",
+      "KeysToMetaData": {
+        "SYSTXT_SYSTEM_PROFILEWORD_00010": "かたがきをせっていする",
+        "SYSTXT_SYSTEM_PROFILEWORD_00020": "前半",
+        "SYSTXT_SYSTEM_PROFILEWORD_00030": "後半",
+        "SYSTXT_SYSTEM_PROFILEWORD_00040": "キャラクター名",
+        "SYSTXT_SYSTEM_PROFILEWORD_00050": "モンスター名",
+        "SYSTXT_SYSTEM_PROFILEWORD_00060": "かたがきのことば",
+        "SYSTXT_SYSTEM_PROFILEWORD_00070": "称号",
+        "SYSTXT_SYSTEM_PROFILEWORD_00080": "今のかたがき",
+        "SYSTXT_SYSTEM_PROFILEWORD_90010": "かたがきの前半に　称号を設定している場合\r\n後半部分は　使うことができません！",
+        "SYSTXT_SYSTEM_PROFILEWORD_90020": "かたがきの最大文字数の\r\n１５文字を超えてしまうため\r\nこの言葉は　選べません。"
+      }
+    },
+    "StringTableId": 10
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_SystemTrainNpc",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_SystemTrainNpc",
+      "KeysToMetaData": {
+        "SYSTXT_MOVE_TRAIN_NPC_00010": "「大陸間鉄道公社へようこそ！\r\n　どちらの駅まで　行きますか？\r\n<break>",
+        "SYSTXT_MOVE_TRAIN_NPC_00020": "「では　どちらの駅まで　行きますか？\r\n<break>",
+        "SYSTXT_MOVE_TRAIN_NPC_00030": "「おやめに　なるのですね。\r\n　またのご利用を　お待ちしています。\r\n<turn_end>",
+        "SYSTXT_MOVE_TRAIN_NPC_01010": "「{Station_Name_Selected}ですね。\r\n　{Gold_Need}ゴールド　いただきます。\r\n　よろしいですか？\r\n<yesno><break>",
+        "SYSTXT_MOVE_TRAIN_NPC_01020": "「おや？　お客さん\n　お金が足りないようです。",
+        "SYSTXT_MOVE_TRAIN_NPC_01030": "「おや？　お客さん\n　また　お金が足りないようです。",
+        "SYSTXT_MOVE_TRAIN_NPC_01040": "「……仕方がありませんね。\r\n　今回だけですよ？",
+        "SYSTXT_MOVE_TRAIN_NPC_01050": "「……まったく　仕方がありませんね。\r\n　今回だけですよ？",
+        "SYSTXT_MOVE_TRAIN_NPC_01060": "「{Station_Name_Selected}ですね。\r\n　以前ご利用した時の　運賃と合わせて\r\n　{Gold_Need_Unpaid}ゴールド　いただきます。\r\n<yesno><break>",
+        "SYSTXT_MOVE_TRAIN_NPC_02010": "「では　お気をつけて。\r\n　よい旅路を！\r\n<turn_end>",
+        "SYSTXT_MOVE_TRAIN_NPC_03010": "「なんと……　？？？？行きでございますか？\r\n<br>\r\n「くわしいことは存じませんが　その行き先へ\r\n　ご案内できるのは　エテーネの民の方のみと\r\n　聞いております。\r\n<br>\r\n「お客様自身が人間でないと　ご案内できません。\r\n　他の行き先を　お選びください。\r\n<break>",
+        "SYSTXT_MOVE_TRAIN_NPC_03020": "「？？？？行きでよろしいですか？\r\n<yesno><break>",
+        "SYSTXT_MOVE_TRAIN_NPC_03030": "「かしこまりました。\r\n　それでは　こちらへ。\r\n<turn_end>",
+        "SYSTXT_MOVE_TRAIN_NPC_04010": "「{Station_Name_Selected}に　とうちゃく～。\r\n<turn_end>",
+        "SYSTXT_MOVE_TRAIN_NPC_05010": "「おかえりなさいませ　{PC}様。\r\n　もとの時代に　お戻りになりますか？\r\n<yesno><break>",
+        "SYSTXT_MOVE_TRAIN_NPC_05020": "「かしこまりました。\r\n　それでは　良い旅を。\r\n<turn_end>",
+        "SYSTXT_MOVE_TRAIN_NPC_05030": "「かしこまりました。\r\n　お帰りになりたい時は\r\n　いつでも　声を　おかけください。\r\n<turn_end>",
+        "SYSTXT_MOVE_TRAIN_NPC_06010": "「おや？　{PC}様は　我が国での\n　列車利用の許可が　下りていないようです。\n　残念ながら　当駅では　ご乗車になれません。\n<turn_end>",
+        "SYSTXT_MOVE_TRAIN_NPC_06020": "「大陸間鉄道公社へようこそ！\n<br>\n　おや？　大陸間鉄道パスを\n　お持ちでないようですね。\n　残念ながら　お客様は　ご乗車になれません。"
+      }
+    },
+    "StringTableId": 0
+  }
+]

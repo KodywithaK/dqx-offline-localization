@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_WarpRiremitoSys",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_WarpRiremitoSys",
+      "KeysToMetaData": {
+        "SYSTXT_WARP_RIREMITO_00010": "リレミトをとなえて\nダンジョンから　ぬけだしますか？\n<yesno><break>",
+        "SYSTXT_WARP_RIREMITO_00020": "はい",
+        "SYSTXT_WARP_RIREMITO_00030": "いいえ",
+        "SYSTXT_WARP_RIREMITO_01010": "{Character_Name}は　リレミトをとなえた！\n<break>",
+        "SYSTXT_WARP_RIREMITO_01020": "{Character_Name}は　おもいでのすずをつかった！",
+        "SYSTXT_WARP_RIREMITO_01030": "{Character_Name}は　おもいでのすずを\n道具として　使ってみた。",
+        "SYSTXT_WARP_RIREMITO_02010": "しかし　ここでは　何も　おこらなかった。\n<end>",
+        "SYSTXT_WARP_RIREMITO_02020": "リレミトをとなえて\nダンジョンから　ぬけだしますか？\n<yesno><break>",
+        "SYSTXT_WARP_RIREMITO_02030": "しかし　ふしぎなチカラで　かき消された！\n<end>",
+        "SYSTXT_WARP_RIREMITO_21010": "このままダンジョンから脱出します。\nよろしいですか？\n<yesno><close>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

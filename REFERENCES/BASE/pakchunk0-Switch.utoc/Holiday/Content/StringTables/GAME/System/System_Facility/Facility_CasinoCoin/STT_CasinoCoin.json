@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_CasinoCoin",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_CasinoCoin",
+      "KeysToMetaData": {
+        "SYSTXT_CASINO_COIN_0010": "「ギャンブラーの桃源郷　カジノへようこそ！ \n　ここは　カジノコイン　売り場です。",
+        "SYSTXT_CASINO_COIN_0011": "「カジノコインは　合計が　１０００枚になるまで\n　ご購入いただけます。",
+        "SYSTXT_SYSTEM_COMMON_09200": "しょじきん",
+        "SYSTXT_SYSTEM_COMMON_09210": "コイン数",
+        "SYSTXT_SYSTEM_COMMON_09100": "枚",
+        "SYSTXT_COMMON": "G",
+        "SYSTXT_CASINO_COIN_0020": "「{PC}さまは　現在　カジノコインを\n　{Casinocoin}枚　お持ちですね。",
+        "SYSTXT_CASINO_COIN_0021": "「お手持ちのカジノコインを　１０００枚まで\n　ご購入いただけます。１枚　{Gold}ゴールドですが\n　何枚　お求めになりますか？",
+        "SYSTXT_CASINO_COIN_0022": "「{Casinocoin}枚ですね。\n　{Gold}ゴールドになりますが\n　よろしいですか？\n<yesno><break>",
+        "SYSTXT_CASINO_COIN_0023": "「うふっ。ありがとうございます。\n　あなたに　幸運の女神が　ほほえみますように\n　お祈りしておりますわ。",
+        "SYSTXT_CASINO_COIN_0024": "「……あら。{PC}さまは\n　１０００枚以上の　カジノコインを\n　お持ちのようですね。",
+        "SYSTXT_CASINO_COIN_0025": "「おそれいりますが　すでに\n　１０００枚以上お持ちの方には　それ以上\n　カジノコインを　お売りすることが　できません。",
+        "SYSTXT_CASINO_COIN_0026": "「景品と交換するか　カジノのゲームを\n　プレイするかして　コインが足りなくなったら\n　また　おこしくださいませ。",
+        "SYSTXT_SYSTEM_COMMON_09220": "何枚？",
+        "SYSTXT_SYSTEM_COMMON_09230": "計",
+        "SYSTXT_CASINO_COIN_0030": "「ご利用ありがとうございました。\n　また　いつでも　おこしください。",
+        "SYSTXT_CASINOCOIN_TRADE_CONFIRM": "「{itemname}と　交換するには\n　カジノコイン{required}枚が　必要ですが\n　よろしいですか？",
+        "SYSTXT_CASINOCOIN_TRADE_INSUFFICIENT": "「{itemname}を　交換するには\n　カジノコインの枚数が足りません。\n　他の景品をおえらびください。",
+        "SYSTXT_CASINOCOIN_TRADE_RESULT00": "「では　{itemname}は\n　これより　{pc}さまの物です！",
+        "SYSTXT_CASINOCOIN_TRADE_RESULT01": "{pc}は\n{itemname}を　手に入れた！",
+        "SYSTXT_CASINOCOIN_TRADE_RETRY": "「他にも　交換したい品は\n　ございますか？",
+        "SYSTXT_CASINOCOIN_TRADE_00100": "「ここは　カジノコインとひきかえに\n　景品をおわたしする　交換所です。",
+        "SYSTXT_CASINOCOIN_TRADE_00110": "「{PC}さまは　現在　カジノコインを\n　{Casinocoin}枚　お持ちです。",
+        "SYSTXT_CASINOCOIN_TRADE_00130": "「{PC}さまは　現在……",
+        "SYSTXT_CASINOCOIN_TRADE_00140": "「あら？　１枚もカジノコインを\n　お持ちではありませんね。",
+        "SYSTXT_CASINOCOIN_TRADE_00150": "「カジノコインを　お持ちでしたら\n　さまざまな景品と　交換してさしあげます。",
+        "SYSTXT_CASINOCOIN_TRADE_00160": "「ご利用ありがとうございました。\n　また　いつでも　おこしください。",
+        "SYSTXT_CASINOCOIN_TRADE_00170": "「この中に　ほしい物がございましたら\n　カジノコインと　交換してさしあげます。\n　ただし　青い文字の品物は　一度きりです。\n<break>",
+        "SYSTXT_CASINOCOIN_TRADE_00180": "「残念ながら　{itemname}は\n　それ以上　持てないようです。\n　他の景品をおえらびください。",
+        "SYSTXT_CASINOCOIN_TRADE_00190": "ＶＩＰルームに入室することが　可能になった！",
+        "SYSTXT_CASINOCOIN_TRADE_00200": "「あら？　お客さまは　防具を装備できない\n　しばりプレイ中でございますね。\n<br>\n　手に入れても　装備できませんが\n　よろしいですか？\n<yesno><break>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

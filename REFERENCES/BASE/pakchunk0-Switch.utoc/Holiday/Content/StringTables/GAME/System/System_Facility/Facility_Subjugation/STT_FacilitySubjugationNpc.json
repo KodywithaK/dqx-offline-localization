@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_FacilitySubjugationNpc",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_FacilitySubjugationNpc",
+      "KeysToMetaData": {
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01010": "「おお！　{PC}！\n　来てくれたか！\n<br_break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01020": "「む。しかしどうやら　討伐依頼書を\n　持っていないようだ。\n　手に入れてから　また来てくれ。\n<end>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01030": "「む。しかしどうやら　討伐を依頼できる\n　フレンドが　いないようだ。\n　頼めるひとができたら　また来てくれ。\n<end>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01040": "「いまは　討伐依頼に　向かわせている\n　討伐隊は　いないみたいだな。\n<br_break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01050": "「討伐隊を編成して\n　討伐依頼に　向かわせるか？\n<yesno><break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01060": "「やめておくか？\n　気が向いたら　また声をかけてくれ。\n<end>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01070": "「どの依頼にするか　決めてくれ。\n<break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01080": "「討伐隊に入ってもらう\n　フレンドを　選んでくれ。\n<break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01090": "「そのひとは　既に\n　討伐隊に　入っているな。\n<br_break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01100": "「このひとたちに\n　討伐を　頼むんだな？\n<yesno><break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01110": "「討伐隊に空きがあるが\n　頼んでしまって　いいんだな？\n<yesno 2><break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01120": "「よし　そうしたら　討伐が終わる\n　{Subjugation_Time_Remain_Hour}時間　{Subjugation_Time_Remain_Minute}分後ごろに　また来てくれ。\n<end>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01130": "「討伐隊が帰還してるぞ。\n　報酬を受け取ってくれ。\n<br_break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01140": "「む。{Subjugation_Reward_Name}は\n　もう持てないようだな。\n　整理してから　また来てくれ。\n<end>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01150": "「また　討伐隊を　編成して\n　討伐依頼に向かわせるか？\n<yesno><break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01160": "「そうか　わかった。\n　気が向いたら　また声をかけてくれ。\n　次も　よろしく頼むぜ。\n<end>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01170": "「いま　討伐隊は\n　討伐に　向かっているようだな。\n<br_break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01180": "「あと　{Subjugation_Time_Remain_Hour}時間　{Subjugation_Time_Remain_Minute}分で\n　帰ってくるはずだ。\n<br_break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01190": "「討伐を中断し　討伐隊に\n　戻ってきてもらうか？\n　この場合　アイテムは　手に入らないぞ。\n<yesno 2><break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01200": "「わかった。呼び戻しておくよ。\n　新しく討伐隊を　編成して\n　討伐依頼に　向かわせるか？\n<yesno><break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01210": "「そうか　わかった。\n　そうしたら　討伐隊が帰ってくる\n　{Subjugation_Time_Remain_Hour}時間　{Subjugation_Time_Remain_Minute}分後ごろに　また来てくれ。\n<end>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01220": "「討伐依頼書を　手に入れたら\n　また声をかけてくれ　次も　よろしく頼むぜ。\n<end>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01230": "「む。どうやら　{Subjugation_Reward_Name}は\n　もう持てないようだな。\n<br_break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01240": "「報酬を　受け取らずに\n　この依頼を　終わらせるか？\n<yesno 2><break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01250": "「報酬を　受け取らないんだな。\n　それじゃ　この依頼は　終わりにしておくぞ。\n<br_break>",
+        "SYSTXT_FACILITY_SUBJUGATION_NPC_01260": "「それじゃ　もちものを整理してから\n　また来てくれ。それまで\n　報酬の品は　預かっておくからな。\n<end>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

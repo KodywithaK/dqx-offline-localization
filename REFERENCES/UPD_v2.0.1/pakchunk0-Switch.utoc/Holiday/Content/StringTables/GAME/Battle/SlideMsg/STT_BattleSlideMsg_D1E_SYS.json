@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_BattleSlideMsg_D1E_SYS",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_BattleSlideMsg_D1E_SYS",
+      "KeysToMetaData": {
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI": "<%sB_TARGET>の こうげき力を 少し さげた！",
+        "ODDMESSAGE_NO_SLIDE_SYUBI": "<%sB_TARGET>の しゅび力を 少し さげた！",
+        "ODDMESSAGE_NO_SLIDE_KOUDOUJIKAN": "<%sB_TARGET>の すばやさを 少し さげた！",
+        "ODDMESSAGE_NO_SLIDE_MIRYOKU": "<%sB_TARGET>の みりょくを 少し さげた！",
+        "ODDMESSAGE_NO_SLIDE_BREATH": "<%sB_TARGET>の ブレス耐性を 少し さげた！",
+        "ODDMESSAGE_NO_SLIDE_MAGIC": "<%sB_TARGET>の 呪文耐性を 少し さげた！",
+        "ODDMESSAGE_NO_SLIDE_MAGIC_DAMAGE": "<%sB_TARGET>の 呪文の威力を 少し さげた！",
+        "ODDMESSAGE_NO_SLIDE_HEAL": "<%sB_TARGET>の 呪文の回復力を 少し さげた！",
+        "ODDMESSAGE_NO_SLIDE_SYUBI2": "<%sB_TARGET>の しゅび力が 少し さがった！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_PLUS": "<%sB_TARGET>の こうげき力を 少し へらした！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR": "<%sB_TARGET>の こうげき力を 少し さげた！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_PIORA": ""
+      }
+    },
+    "StringTableId": 0
+  }
+]

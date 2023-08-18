@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_UIJumonSys",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_UIJumonSys",
+      "KeysToMetaData": {
+        "SYSTXT_UI_Jumon_00010": "{Character_Active_Name}は　{Action_Name_Spell}を　となえた！",
+        "SYSTXT_UI_Jumon_00020": "{Character_Active_Name}は　{Action_Name_Spell}を　となえようとした。",
+        "SYSTXT_UI_Jumon_01010": "{Character_Active_Name}は　{Action_Name_Ability}を　した！",
+        "SYSTXT_UI_Jumon_01020": "{Character_Active_Name}は　{Action_Name_Ability}を　しようとした。",
+        "SYSTXT_UI_Jumon_02010": "しかし　今は　使えないようだ。",
+        "SYSTXT_UI_Jumon_02020": "しかし　ＭＰが　足りない！",
+        "SYSTXT_UI_Jumon_10010": "しかし　今の　{Character_Passive_Name}には\n必要なさそうだ。",
+        "SYSTXT_UI_Jumon_10020": "{Character_Passive_Name}の　キズが　回復した！",
+        "SYSTXT_UI_Jumon_10030": "{Character_Passive_Name}の　からだから\n毒が　きえた！",
+        "SYSTXT_UI_Jumon_10040": "なんと　{Character_Passive_Name}は　生き返った！",
+        "SYSTXT_UI_Jumon_10050": "{Character_Passive_Name}たちの　キズが　回復した！",
+        "SYSTXT_UI_Jumon_10060": "しかし　{Character_Passive_Name}は　生き返らなかった。",
+        "SYSTXT_UI_Jumon_10070": "しかし　{Character_Passive_Name}は　すでに死んでいる。",
+        "SYSTXT_UI_Jumon_10080": "しかし　今の　{Character_Passive_Name}たちには\n必要なさそうだ。",
+        "SYSTXT_UI_Jumon_11010": "聖なるチカラに　つつまれ\n魔物を　寄せつけにくくなった！",
+        "SYSTXT_UI_Jumon_20010": "{Character_Active_Name}は　宝箱を　しらべた。",
+        "SYSTXT_UI_Jumon_20020": "しかし　みやぶれるものが　近くにない！",
+        "SYSTXT_UI_Jumon_20030": "あやしい様子はない……。\nふつうの　宝箱のようだ。",
+        "SYSTXT_UI_Jumon_20040": "宝箱に　モンスターが潜んでいた！\nモンスターは　逃げ出した！",
+        "SYSTXT_UI_Jumon_21010": "{Character_Active_Name}は　おたからを　さがした！",
+        "SYSTXT_UI_Jumon_21020": "しかし　何も　みつからなかった。",
+        "SYSTXT_UI_Jumon_21030": "おたからのありかを　新しい情報に\n書き換えて　よいですか？\n<yesno><break>",
+        "SYSTXT_UI_Jumon_22010": "{Character_Active_Name}は　おはらいをした！",
+        "SYSTXT_UI_Jumon_22020": "{Character_Passive_Name}の　呪いが　とけた！",
+        "SYSTXT_UI_Jumon_23010": "{Character_Passive_Name}は　しんだふりをした。",
+        "SYSTXT_UI_Jumon_23020": "しかし　ドルボードに乗っているので\nしんだふりが　できない！",
+        "SYSTXT_UI_Jumon_24010": "{Character_Passive_Name}から\n悪い効果が　消え去った！",
+        "SYSTXT_UI_Jumon_25010": "{Character_Active_Name}は　タロットを引いた！",
+        "SYSTXT_UI_Jumon_00030": "どれを使う？"
+      }
+    },
+    "StringTableId": 0
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_BattleSlideSumMsg_RSP_SYS",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_BattleSlideSumMsg_RSP_SYS",
+      "KeysToMetaData": {
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI": "<%sB_TARGET>の こうげき力が もとにもどった！",
+        "ODDMESSAGE_NO_SLIDE_SYUBI": "<%sB_TARGET>の しゅび力が もとにもどった！",
+        "ODDMESSAGE_NO_SLIDE_KOUDOUJIKAN": "<%sB_TARGET>の すばやさが もとにもどった！",
+        "ODDMESSAGE_NO_SLIDE_MIRYOKU": "<%sB_TARGET>の みりょくが もとにもどった！",
+        "ODDMESSAGE_NO_SLIDE_BREATH": "<%sB_TARGET>の ブレス耐性が もとにもどった！",
+        "ODDMESSAGE_NO_SLIDE_MAGIC": "<%sB_TARGET>の 呪文の耐性が もとにもどった！",
+        "ODDMESSAGE_NO_SLIDE_MAGIC_DAMAGE": "<%sB_TARGET>の 呪文の威力が もとにもどった！",
+        "ODDMESSAGE_NO_SLIDE_HEAL": "<%sB_TARGET>の 呪文の回復力が もとにもどった！",
+        "ODDMESSAGE_NO_SLIDE_SYUBI2": "<%sB_TARGET>の しゅび力が もとにもどった！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_PLUS": "<%sB_TARGET>の こうげき力が もとにもどった！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR": "<%sB_TARGET>の こうげき力が もとにもどった！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_PIORA": "<%sB_TARGET>の バイシオンとピオラの効果が発動！"
+      }
+    },
+    "StringTableId": 0
+  }
+]

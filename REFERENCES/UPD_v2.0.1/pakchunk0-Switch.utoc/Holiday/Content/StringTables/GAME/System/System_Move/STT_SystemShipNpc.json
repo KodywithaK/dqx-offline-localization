@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_SystemShipNpc",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_SystemShipNpc",
+      "KeysToMetaData": {
+        "SYSTXT_MOVE_SHIP_NPC_00010": "「本船　グランドタイタス号は\r\n　ココラタの浜辺を目指して　出発いたします。\r\n<yesno><break>",
+        "SYSTXT_MOVE_SHIP_NPC_00020": "「本船　グランドタイタス号は\r\n　レンドア島を目指して　出発いたします。\r\n<yesno><break>",
+        "SYSTXT_MOVE_SHIP_NPC_00030": "「まもなく　グランドタイタス号は\n　レンドア島へ向けて　出発いたします。\n　グランドタイタス号に　乗船なさいますか？\n<yesno><break>",
+        "SYSTXT_MOVE_SHIP_NPC_00040": "「タイタス号乗船パスを　お持ちの　お客さまは\n　２００ゴールドで　ご乗船になれます。\n　グランドタイタス号へ　ご乗船なさいますか？\n<yesno><break>",
+        "SYSTXT_MOVE_SHIP_NPC_00050": "「本船の行き先は　ココラタの浜辺と\r\n　グランゼドーラ王国です。\r\n　どちらに　向かわれますか？\r\n<select>\r\n偽りのココラタの浜辺\r\n真のグランゼドーラ王国\r\n<select_end><break>",
+        "SYSTXT_MOVE_SHIP_NPC_00060": "「では　また　お越しください。",
+        "SYSTXT_MOVE_SHIP_NPC_00070": "「レンドア島までの乗船料は　不要です。\n　お戻りになりたい時は\n　いつでも　私に　お申し付けください。",
+        "SYSTXT_MOVE_SHIP_NPC_00080": "「申し訳ありませんが　お金が足りないようです。\n　またの　ご乗船を　お待ちしております。",
+        "SYSTXT_MOVE_SHIP_NPC_00090": "「それでは　乗船料の\n　２００ゴールドを　いただきます。",
+        "SYSTXT_MOVE_SHIP_NPC_00100": "「それでは　乗船料の\n　２００ゴールドを　いただきます。\n　さあ　グランドタイタス号へ　どうぞ。",
+        "SYSTXT_MOVE_SHIP_NPC_00110": "「かしこまりました。\n　では　こちらの舟で　グランドタイタス号まで\n　お送りさせていただきます。どうぞ……。",
+        "SYSTXT_MOVE_SHIP_NPC_10010": "「船内での　ご用が　お済みでしたら\r\n　お部屋まで　ご案内させていただきます。\r\n<br>\r\n「お客さまが　休んでいらっしゃる間に\r\n　本船は　レンドア島に到着するでしょう。\r\n　お部屋への案内を　ご希望なさいますか？\r\n<yesno><break>",
+        "SYSTXT_MOVE_SHIP_NPC_10020": "「それでは　引き続き\n　グランドタイタス号での　船旅を\n　お楽しみください。",
+        "SYSTXT_MOVE_SHIP_NPC_10030": "「では　ご案内させていただきます。\n　こちらへ　どうぞ……。"
+      }
+    },
+    "StringTableId": 0
+  }
+]
