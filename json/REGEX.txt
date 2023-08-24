@@ -1,3 +1,9 @@
 [Tab separated: id, start (conditional), text, end (condtional)]
-Search: ((\{\n)?\s{2}")(\d+)(":\s\{\n\s{4}")(<voice.*?>(<start.*?>)?)?(.*?)(<(stop|[ms]e).*?>)?(": ""\n\s{2}\}(,|\n\})?)
-Replace: $3\t$5\t$7\t$8
+
+REFERENCES .json
+Search: ((\{\n)?\s{2}")(\d+)(":\s\{\n\s{4}")((<voice.*?>)?(<start.*?>)?)?(.*?)(<(stop|[ms]e).*?>)?(": ""\n\s{2}\}(,|\n\})?)
+Replace: $3\t$5\t$8\t$9
+
+Clarity EN Translated .json
+Search: ((\{\n)?\s{2}")(\d+)(":\s\{\n\s{4}")(<voice.*?>(<start.*?>)?)?(.*?)(<(stop|[ms]e).*?>)?(": "(.*?)"\n\s{2}\}(,|\n\})?)
+Replace: $3\t\t$11
