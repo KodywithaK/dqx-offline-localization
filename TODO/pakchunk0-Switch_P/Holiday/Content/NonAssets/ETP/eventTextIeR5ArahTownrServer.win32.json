@@ -93,7 +93,7 @@
     "Do you want to give the unopened box to Grane?<yesno><case 1><break><case 2><close><case_cancel><close>": ""
   },
   "86403": {
-    "<pc>handed the unopened box to Grane.": ""
+    "<pc> handed the unopened box to Grane.": ""
   },
   "86404": {
     "Grane took the unopened box, dexterously rotated it with both hands, and in one motion, the unopened box was opened! Out of the box emerged a key and a folded up piece of paper!": ""
@@ -282,13 +282,13 @@
     "<attr><feel_happy_lv1><end_attr>There's a place in the Al-Ahagiro region called the sunshade cave where the eurei are said to come out. There's a rumor that you can hear a gruff voice coming from around the jar there.": ""
   },
   "85421": {
-    "<attr><feel_happy_lv1><end_attr>Hello, traveler! What? What's up? You want some water from the oasis? Well, I've got some water in a bottle.": ""
+    "<attr><feel_happy_lv1><end_attr>Hello, traveler! What? What's up? You want\nsome water from the oasis? Well, I've got\nsome water in a bottle.": ""
   },
   "85422": {
-    "<attr><feel_happy_lv1><end_attr>Do you also understand the charm of this water? I'm kind of happy. Water is precious, so please use it carefully.": ""
+    "<attr><feel_happy_lv1><end_attr>Do you also understand the charm of this\nwater? I'm glad. Water is precious, so\nplease use it carefully.": ""
   },
   "85426": {
-    "<pc> got the water of the oasis (Key Item)!<me 60>": ""
+    "<pc> received the\nOasis Water (Key Item)!<me 60>": ""
   },
   "85427": {
     "<attr><feel_happy_lv1><end_attr>Since you're here, please take good care of the water at the oasis.": ""
@@ -330,19 +330,19 @@
     "The Monster Fighting Grounds are closed. What? You want to go to the basement of the fighting hall? Then go through the service entrance for monsters only. Once you're outside the kingdom, go around the wall to the east.": ""
   },
   "85445": {
-    "<turn_pc>Oh. If it is you...<pc>Is he not a traveler named<yesno><case 1><break><case 2><break><case_cancel><break>": ""
+    "<turn_pc>Oh. If it isn't you... The traveler named,\n<pc>, isn't it?<yesno><case 1><break><case 2><break><case_cancel><break>": ""
   },
   "85446": {
-    "I see, I must have been mistaken. I'm sorry.": ""
+    "I see, I must have been mistaken.\nMy apologies.": ""
   },
   "85447": {
-    "<attr><feel_sad_lv1><end_attr>Oh, I didn't know they really existed! I have a favor to ask of you. Will you listen to me? By favor, I mean nothing else. It's about the demon that invaded the castle town of Al-Ahagiro the other day and we captured it. That demon was a rare, rambling demon.<pc>Take me to this place! He is making a fuss in your name. It is a strange thing for a demon to summon a traveler, but if you are free, please go and check on him. He is kept in a cage in the basement of the fighting hall. Once outside, go around to the east side of the wall and go through the service entrance reserved for demons. The guards are in a lot of trouble. Please do me a favor.": ""
+    "<attr><feel_sad_lv1><end_attr>Oh, I didn't know they really existed!\nI have a favor to ask of you. Will you\nlisten to me?\n<br>\nBy favor, I mean nothing else. It's about\nthe monster that invaded Al-Ahagiro castle\nthe other day that we captured.\n<br>\nThat monster was a rare, rambling one,\n<pc>. Let me take you there!\nHe's making a fuss and brings up your name.\n<br>\nIt's strange for a monster to call upon a\ntraveler, but if you are free, please go\nand check on him.\n<br>\nHe is being kept caged in the basement of\nthe arena.\n<br>\nOutside the castle, go along the eastern\nwall, and through the service entrance\nreserved for monsters.\n<br>\nThe guards are very troubled, please do me\nthis favor.": ""
   },
   "88062": {
-    "Minister Caboose<pc>You were looking for a traveler by the name of \"M. Caboose\". If this rings a bell, you might want to go upstairs to the conference room and pay a visit to Minister Caboose.": ""
+    "Minister Caboose was looking for a traveler\nby the name of \"<pc>\".\n<br>\nIf that rings a bell, you might want to go\nupstairs and visit Minister Caboose in the\nconference room.": ""
   },
   "85448": {
-    "<attr><feel_sad_lv1><end_attr><turn_pc>The demons we captured the other day after invading the castle town are kept in a cage in the basement of the fighting hall, but we're having a little trouble handling them.<pc>The soldiers on guard duty are getting very tired of the noise and the trouble you are causing. I'm sorry to ask on such short notice, but if you can spare the time, I'd like you to go and check on them. Go outside and go around the castle wall to the east, and head for the service entrance for demons only. Thank you very much.": ""
+    "<attr><feel_sad_lv1><end_attr><turn_pc>The monster that invaded Al-Ahagiro castle\nthe other day that we captured.\n<br>\nHe is being kept caged in the basement of\nthe arena, but we're having trouble\nhandling them.\n<br>\n<pc>, the guards on duty are\ngetting very tired of fuss, he's causing.\n<br>\nI'm sorry to ask on such short notice, but\nif you can spare the time, I'd like you to\ngo and check on them.\n<br>\nOutside the castle, go along the eastern\nwall, and through the service entrance\nreserved for monsters.\n<br>\nThe guards are very troubled, please do me\nthis favor.": ""
   },
   "85449": {
     "<attr><feel_sad_lv3><end_attr>I've heard that kind of complaint from the king. Could it be that I've been fired? I've just been appointed as a soldier captain!": ""
@@ -426,7 +426,7 @@
     "I am back to normal, but it will take some time for the country to regain its former vigor. I can't wait to find those who are missing and return them to their former selves.": ""
   },
   "85484": {
-    "<attr><feel_happy_lv1><end_attr>Oh, my God It's you<pc>I see. King Moonis is looking for you. I'm told that it is with your help that King Moonith has returned. And again...<pc>Perhaps she is seeking the power of the Lord. If you would be so kind, please make your way to the throne room of the castle.": ""
+    "<attr><feel_happy_lv1><end_attr>Oh, my God It's you<pc>I see. King Moonis is looking for you. I'm told that it is with your help that King Moonis has returned. And again...<pc>Perhaps she is seeking the power of the Lord. If you would be so kind, please make your way to the throne room of the castle.": ""
   },
   "85485": {
     "<attr><feel_angry_lv1><end_attr>My daughter's husband didn't come home from the war. My daughter couldn't stay, so she went to King Moonis to plead with him. He's a bastard for putting her through all that trouble!": ""
@@ -435,7 +435,7 @@
     "The door has stubbornly closed.": ""
   },
   "85487": {
-    "My daughter and grandson are out right now. They said they were going to King Moonith's to plead with him now that he's back from the war.": ""
+    "My daughter and grandson are out right now. They said they were going to King Moonis's to plead with him now that he's back from the war.": ""
   },
   "88808": {
     "<attr><feel_happy_lv1><end_attr>I hear that King Moonis is back, thanks to your help. Thank you.": ""
@@ -531,7 +531,7 @@
     "<turn_pc>Have you heard from King Moonis yet? Well, I'm afraid I'm going to have to ask for your help again. But King Moonis trusts you above all. Please live up to his expectations.": ""
   },
   "85517": {
-    "<pc>, King Moonis will go to Naseem's cave soon. King Moonith will soon be on his way to Naseem's cave. If you have something to tell me, do it quickly.": ""
+    "<pc>, King Moonis will go to Naseem's cave soon. King Moonis will soon be on his way to Naseem's cave. If you have something to tell me, do it quickly.": ""
   },
   "85518": {
     "Naseem's Cave in this world and Naseem's Cave in the other world where Callebaut's cameo was stolen. These two caves must be connected! I had an epiphany. So I want you to go with Kalevan to Naseem's cave in the other world and see if you can get back to our world!<open_irai><bw_break>": ""
@@ -540,7 +540,7 @@
     "This is something that only you, who can travel between the two worlds, can do. I'm counting on you.<pc>Oh my god!!!": ""
   },
   "85520": {
-    "<attr><feel_sad_lv1><end_attr>Aaah!<pc>! Listen to me! I was supposed to escort King Moonis to Naseem's Cave. But, King Moonis just strolled off without me! But I did my best to catch up with him. Suddenly, King Moonith appeared from his cave, riding on the back of his white killer panther, and ran off. I was so frightened that I was knocked out cold. How awful, isn't it? If he were the king, he would have returned to the throne room by now.": ""
+    "<attr><feel_sad_lv1><end_attr>Aaah!<pc>! Listen to me! I was supposed to escort King Moonis to Naseem's Cave. But, King Moonis just strolled off without me! But I did my best to catch up with him. Suddenly, King Moonis appeared from his cave, riding on the back of his white killer panther, and ran off. I was so frightened that I was knocked out cold. How awful, isn't it? If he were the king, he would have returned to the throne room by now.": ""
   },
   "85521": {
     "<attr><feel_happy_lv1><end_attr><turn_pc>oh!<pc>Who is it? The king is in his throne room. He has returned from the Fountain of Kudus.": ""
@@ -723,7 +723,7 @@
     "<turn_pc>I have heard that the pyramids are equipped to respond to a particular dance. The instructions are written on a stone monument in the pyramid. If you find the inscription, you might try to decipher it with the dictionary I mentioned earlier. Now then...<pc>Hello. I'm really sorry to trouble you again, but please take good care of King Moonis!": ""
   },
   "90905": {
-    "<attr><feel_happy_lv1><end_attr>The Throne Room is closed as King Moonith heads for the Pyramid of the Sun Chamber. But it is heartening to know that even the Princess Anlusia, now a brave woman, will accompany us to the pyramid.": ""
+    "<attr><feel_happy_lv1><end_attr>The Throne Room is closed as King Moonis heads for the Pyramid of the Sun Chamber. But it is heartening to know that even the Princess Anlusia, now a brave woman, will accompany us to the pyramid.": ""
   },
   "90906": {
     "<attr><feel_happy_lv2><end_attr>I heard that King Moonis brought back a rare fruit called Shiny Melon! I heard it smelled so good and looked delicious. If you give it to him as a gift, you will win the hearts of women, right? Okay, I'll try my best to cultivate fruits from now on! I'm going to try my best to grow fruits from now on!": ""
@@ -849,10 +849,10 @@
     "<attr><feel_sad_lv1><end_attr>I'm looking for my husband who went off to war and never came back. Where has he disappeared to?": ""
   },
   "83977": {
-    "<attr><feel_sad_lv1><end_attr>I'm sorry to bother you, but King Moonith is not here right now. I'm afraid I can't let you into the throne room. Because, a short time ago, the Great Demon King's army suddenly swept into the Pyramid in the Defel Wilderness. In order to stop them, King Moonis led his army to the pyramid, and then disappeared. But after that, it seems that the demon tribe also disappeared suddenly. I wonder what is going on here.": ""
+    "<attr><feel_sad_lv1><end_attr>I'm sorry to bother you, but King Moonis\nis not in the throne room at the moment.\n<br>\nI'm afraid I can't let you in. Because, a\nshort time ago, the Great Demon King's army\ninvaded the Pyramid in the Defel Wilderness.\n<br>\nIn order to stop them, King Moonis led his\narmy to the pyramid, and then disappeared.\n<br>\nBut after that, it seems that the demons\nalso disappeared suddenly. I wonder what\nis going on here.": ""
   },
   "84003": {
-    "I'm sorry to bother you, but King Moonith is not in the throne room at the moment.": ""
+    "I'm sorry to bother you, but King Moonis\nis not in the throne room at the moment.": ""
   },
   "83978": {
     "<attr><feel_happy_lv2><end_attr><icon_exc>I'm surprised you came all this way! I've been on armory duty and I've been missing people. Al-Ahagiro right, I'll tell you what's good for you! There's an old underground tunnel that opens up into a well in the Al-Ahagiro region. You might want to explore that.": ""
