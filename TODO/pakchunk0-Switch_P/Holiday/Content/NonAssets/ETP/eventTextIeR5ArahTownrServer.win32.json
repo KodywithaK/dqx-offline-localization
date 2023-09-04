@@ -9,16 +9,16 @@
     "<attr><feel_happy_lv1><end_attr>I've tried to open every lock in the world,\nand this one is a piece of cake. By the\nway, do you know what the Tribe's key is?\n<br>\nIt's a special key to open locked doors\nand treasure chests.\n<br>\nIf there are any travelers who have it,\nI'd like to talk to them for a bit, but I\nwonder if there are any out there.": ""
   },
   "86376": {
-    "<attr><feel_happy_lv1><end_attr>I've tried to open every kind of lock in\nthe world, and this one is a piece of cake.\n<br>\nBy the way, it seems you have a request\nfrom another locksmith. You'll have to take care of that before we can talk.": ""
+    "<attr><feel_happy_lv1><end_attr>I've tried to open every kind of lock in\nthe world, and this one is a piece of cake.\n<br>\nBy the way, it seems you have a request\nfrom another keymaster. You'll have to take care of that before we can talk.": ""
   },
   "86377": {
-    "<attr><feel_happy_lv1><end_attr>I've tried to open every lock in the world,\nand this one is a piece of cake. Oh, you're a level 70+ traveler, aren't you? I'm just curious... have you ever met any other locksmiths?<yesno><case 1><close><case 2><break><case_cancel><break>": ""
+    "<attr><feel_happy_lv1><end_attr>I've tried to open every lock in the world,\nand this one is a piece of cake. Oh, you're a level 70+ traveler, aren't you? I'm just curious... have you ever met any other keymasters?<yesno><case 1><close><case 2><break><case_cancel><break>": ""
   },
   "86378": {
     "Oh, I see. I'm sorry for asking such a\nstrange question. I don't know what he's\ndoing or where he's going.": ""
   },
   "86379": {
-    "<icon_exc>What? You've met Nejero, the locksmith?\nWhere did you meet him?": ""
+    "<icon_exc>What? You've met Nejiro, the keymaster?\nWhere did you meet him?": ""
   },
   "86380": {
     "<attr><feel_angry_lv1><end_attr>Nejiro retired as a key maker? I can't\nbelieve it. If that's true, I can't forgive\nhim.\n<br>\nMe and Nejiro have been rivals since our\ntraining days. I can't accept that he just\nquit being a key maker without informing me.\n<br>\nI'd like to ask you for a favor in\nanticipation of you being entrusted with\nthe key by him.\n<br>\nI want you to deliver this box I made to\nNejiro. I'm sure he'll think twice about\nretiring when he sees this.": ""
@@ -27,7 +27,7 @@
     "Will you take it? Then I'll leave it with\nyou.": ""
   },
   "86382": {
-    "The box is a sealed object that I have\nused all of my locksmithing skills to make\nso that even I myself can no longer open it.\n<br>\nNejiro will surely try to open the box, \nstimulated by his locksmith's instincts.\n<br>\nAnd if he can't open it, I don't consider\nhim a rival anymore and he can stop being\na key maker as he likes.\n<br>\nIf he still has his pride as a key maker\nif he opens the box, he will probably think\ntwice about retiring.\n<br>\nAccording to you, Nejiro's location is in\nthe treasure room of Megistris Castle,\nright? Well then, I'm counting on you.": ""
+    "The box is a sealed object that I have\nused all of my keymastering skills to make\nso that even I myself can no longer open it.\n<br>\nNejiro will surely try to open the box, \nstimulated by his keymaster's instincts.\n<br>\nAnd if he can't open it, I don't consider\nhim a rival anymore and he can stop being\na key maker as he likes.\n<br>\nIf he still has his pride as a key maker\nif he opens the box, he will probably think\ntwice about retiring.\n<br>\nAccording to you, Nejiro's location is in\nthe treasure room of Megistris Castle,\nright? Well then, I'm counting on you.": ""
   },
   "86383": {
     "Hey. You're getting too many requests.\nFinish those requests and come back here.": ""
@@ -42,10 +42,10 @@
     "<pc> received the\nunopened small box (Key Item)!<me 60>": ""
   },
   "86387": {
-    "I have entrusted you with the unopened box\nthat I have sealed in various ways so that\neven I myself can no longer open it.\n<br>\nI want you to deliver it to Nejiro.\nAccording to you, he's in the treasure\nroom of Megistris Castle, isn't he?<open_irai><bw_break>": ""
+    "I have entrusted you with the small, unopened box\nthat I have sealed in various ways so that\neven I myself can no longer open it.\n<br>\nI want you to deliver it to Nejiro.\nAccording to you, he's in the treasure\nroom of Megistris Castle, isn't he?<open_irai><bw_break>": ""
   },
   "86388": {
-    "If that little box is opened and he still has his pride as a key-maker, I'm sure he'll think twice about retiring.": ""
+    "If that little box is opened and he still has his pride as a keymaster, I'm sure he'll think twice about retiring.": ""
   },
   "87539": {
     "<pc> tried to open the\nunopened box. However, the lid of the box\ndid not budge and could not be opened.": ""
@@ -54,70 +54,70 @@
     "<pc> poked around in the\nunopened box. It seems that the spell\nhas been broken!": ""
   },
   "86389": {
-    "Did you deliver the unopened box I left\nfor you to Nejiro?": ""
+    "Did you deliver the small, unopened box to Nejiro?": ""
   },
   "86390": {
     "What, you haven't done it yet? Get on with\nit and deliver it!": ""
   },
   "86391": {
-    "<attr><feel_happy_lv1><end_attr>It looks like he delivered it to Nejiro.\nI guess he must have successfully broken\nthe spell I put on the little box.\n<br>\nHeh. He went to the trouble of reapplying\nthe sealing spell to the box. I'm looking\nforward to seeing what's inside.<bw_break>": ""
+    "<attr><feel_happy_lv1><end_attr>It looks like you delivered it to Nejiro.\nI guess he must have successfully broken\nthe seal I put on the little box.\n<br>\nHeh, he went to the trouble of reapplying\nthe sealing spell to the box. I'm looking\nforward to seeing what's inside.<bw_break>": ""
   },
   "86392": {
-    "What is this simple technique?\nAre you underestimating me, Nejero?": ""
+    "What is this simple technique? Are you\nunderestimating me, Nejiro?": ""
   },
   "86393": {
-    "<attr><feel_angry_one><end_attr>This is a key I just made! He returned the\nkey to me without doing anything?\n<br>\nSo, it's like the promise she made to me\nwas of no importance to him. Is this piece\nof paper a recipe for something?": ""
+    "<attr><feel_angry_one><end_attr>That's the key I already made! He returned\nthe key to me without doing anything?\n<br>\nSo, look's like the promise he made to me\nwas of no importance to him. Is this piece\nof paper a recipe for something?": ""
   },
   "86394": {
-    "<attr><feel_normal_one><end_attr><icon_exc>This is the key to the Great Family! Was that so? I never thought I could complete the key with such a simple thing. But why? If he knew all this, why didn't he complete the key to the Great Horde? Is this a message to me?": ""
+    "<attr><feel_normal_one><end_attr><icon_exc>This is the Great Thief's Key! Is that so?\nI never thought I could complete the key\nwith such a simple thing.\n<br>\nBut why? If he knew all this, why didn't he\ncomplete the Great Thief's Key himself?\nIs this a message to me?": ""
   },
   "86395": {
-    "<attr><feel_normal_one><end_attr>Nejero. That idiot. I have indeed received Master Nejirou's last wish. Grane the Key Master will surely complete the Great Horde's key! Well, then, let's hurry up and do it! I have all the necessary materials. I'll get started right away.<pc>You've got to be there! You should be there!": ""
+    "<attr><feel_normal_one><end_attr>Nejiro, that old fool... I'll see to Master\nNejiro's last wish. I, Grane the keymaster,\nwill surely complete the Great Thief's Key!\n<br>\nWell, then, let's hurry up and do it!\nI have all the necessary materials, so\nI'll get started right away.\n<br>\n<pc>, you've got to be here!": ""
   },
   "86396": {
-    "<attr><feel_happy_lv2><end_attr>It's done. This is the key to the great treasure that I, or rather we both, have been pursuing. This is the key that will open all the black treasure chests in the world, as well as the black locked doors scattered all over Lendersia. In other words, whoever possesses this key is qualified to take possession of what lies beyond the locked doors.<bw_break>": ""
+    "<attr><feel_happy_lv2><end_attr>It's done. This is the key to the great\ntreasure that I, or rather we both, have\nbeen pursuing.\n<br>\nThis key will open all the black treasure\nchests in the world, as well as the black\nlocked doors scattered all over Lendersia.\n<br>\nIn other words, whoever possesses this key\nis qualified to take possession of what\nlies beyond the locked doors.<bw_break>": ""
   },
   "86397": {
-    "<attr><feel_normal_silent><end_attr>The following is a list of the most common problems with the<bw_break>": ""
+    "<attr><feel_normal_silent><end_attr>.......<bw_break>": ""
   },
   "86398": {
-    "<attr><feel_happy_lv1><end_attr>You should keep this, since Nejiro entrusted you with the key to the family. I'm sure that will make her happy.<bw_break>": ""
+    "<attr><feel_happy_lv1><end_attr>You should keep this, since Nejiro\nentrusted you with the Thief's Key.\nI'm sure that would make him happy.<bw_break>": ""
   },
   "86399": {
-    "<attr><feel_happy_lv1><end_attr>But in exchange, I'd like you to give me the key to your family. It is the last work of Nejirou the key-maker. It is as important to me as this key.": ""
+    "<attr><feel_happy_lv1><end_attr>But in exchange, I'd like you to give me\nthe Thief's Key. It is the last work of\nNejiro the keymaster.\n<br>\nIt is as important to me as this key is.": ""
   },
   "86401": {
-    "<attr><feel_happy_lv1><end_attr>Now, go around Lendershire and look for a locked door! What lies beyond is yours. I'll continue to be a locksmith. And one day, I'll surpass his skill. I'll come see him then.": ""
+    "<attr><feel_happy_lv1><end_attr>Now, go around Lendersia and look for\nblack locked doors! What lies beyond them\nis yours.\n<br>\nI'll continue as a keymaster. And one day,\nwhen I surpass Nejiro's skill, I'll go\nsee him.": ""
   },
   "86402": {
-    "Do you want to give the unopened box to Grane?<yesno><case 1><break><case 2><close><case_cancel><close>": ""
+    "Give Grane the small, unopened box?<yesno><case 1><break><case 2><close><case_cancel><close>": ""
   },
   "86403": {
-    "<pc> handed the unopened box to Grane.": ""
+    "<pc> handed the small, unopened box\nto Grane.": ""
   },
   "86404": {
-    "Grane took the unopened box, dexterously rotated it with both hands, and in one motion, the unopened box was opened! Out of the box emerged a key and a folded up piece of paper!": ""
+    "Grane took the small, unopened box.\n<br>\nShe dexterously rotated it with both hands,\nand in one motion, the small, unopened box\nwas opened!\n<br>\nOut of the box emerged a key and a folded\npiece of paper!": ""
   },
   "86405": {
-    "Dear Grane. I received your letter of challenge for sure. But you can see my answer. My technique on that little box was terrible, wasn't it? That's the best I can do for now. I had a serious illness a few years ago that saved my life, but since then I've lost most of the feeling in my fingertips and my skills as a key- maker have been decimated. This recipe is my last work, written with all my knowledge as a key-maker. You are the only one I can entrust it to. Please use this recipe to complete our promise of a Great Family Key! I believe you can do it.": ""
+    "\"Dear Grane. I received your letter of\nchallenge. But you can see my answer. My\nwork on that box was terrible, wasn't it?\"\n<br>\n\"That's the best I can do for now. I had a\nserious illness a few years ago, I survived,\nbut lost most of the feeling in my fingers\"\n<br>\n\"My skills as a keymaster have been\ndecimated. This recipe is my last work,\nwritten with all my knowledge as a keymaster.\"\n<br>\n\"You are the only one I can entrust it to.\"\n<br>\n\"Please use this recipe to complete our\npromised Great Thief's Key! I believe you\ncan do it\".": ""
   },
   "86406": {
-    "Grane used all the skills at his disposal, following Nejiro's recipe, to process the key he was about to make.<bw_break>": ""
+    "Grane used all the skills at her disposal,\nfollowing Nejiro's recipe, to process the\nkey she was about to make.<bw_break>": ""
   },
   "86407": {
-    "After a long and arduous struggle, the key that was in the process of being made became the key to a great family!<me_71>": ""
+    "After a long and arduous struggle, Grane\ncreated the Great Thief's Key!<me_71>": ""
   },
   "86408": {
-    "<pc> handed Grane the key to his own family.": ""
+    "<pc> handed Grane the Thief's Key.": ""
   },
   "87541": {
-    "<pc> panned carefully over the unopened box. The box was unlikely to open because of Nejero's magic.": ""
+    "<pc> panned carefully over the small, unopened box. The box was unlikely to open because of Nejiro's magic.": ""
   },
   "86409": {
-    "<attr><feel_happy_lv1><end_attr>Now, go to Lendersia and find the key to the locked door! What lies ahead is yours. I'll continue to be a locksmith. And one day, I'll surpass his skills. I'll come see him then.": ""
+    "<attr><feel_happy_lv1><end_attr>Now, go to Lendersia and find the key to the locked door! What lies ahead is yours. I'll continue to be a keymaster. And one day, I'll surpass his skills. I'll come see him then.": ""
   },
   "119148": {
-    "<attr><feel_normal_one><end_attr>The following is a list of the most common problems with the": ""
+    "<attr><feel_normal_one><end_attr>.......": ""
   },
   "119149": {
     "Customer. I don't recognize your face. You want my cut? I'm sorry, but we're all booked up for the time being. From now on, it'll be a six- month wait. If you don't mind, make an appointment. It'll be worth the wait.": ""
@@ -135,7 +135,7 @@
     "Wait and see.": ""
   },
   "119153": {
-    "<attr><feel_normal_one><end_attr><turn_pc>The following is a list of the most common problems with the": ""
+    "<attr><feel_normal_one><end_attr><turn_pc>.......": ""
   },
   "119154": {
     "<attr><feel_think_lv2><end_attr>I give the perfect direction and my partner, Graham, does the cutting. With this perfect combination, we don't need color anymore. If you understand, give up and go home. We're busy with appointments. I'm not a bad hairdresser, you know.": ""
@@ -162,10 +162,10 @@
     "<pc> got a green kara (Key Item).<me 60>": ""
   },
   "119162": {
-    "<attr><feel_normal_one><end_attr>The following is a list of the most common problems with the": ""
+    "<attr><feel_normal_one><end_attr>.......": ""
   },
   "119163": {
-    "<attr><feel_normal_one><end_attr>The following is a list of the most common problems with the": ""
+    "<attr><feel_normal_one><end_attr>.......": ""
   },
   "119164": {
     "Red rust, blue Namida, and the green Kara should be handed over to Serns.": ""
@@ -240,7 +240,7 @@
     "difficult problem<pc>I'm not! You wanted to see me?": ""
   },
   "165808": {
-    "<icon_exc>A key to an iron safe? That's a very difficult thing to do. An ordinary locksmith won't be able to do it. Hmm. Sounds interesting! I can't refuse your request. I'll make that key myself. I said that, but I can't make a key without certain materials. Bring me a piece of shard of magnetite. You can find them in the Al-Ahagiro region.<%sEV_QUE_NAME0>They should drop it when they defeat the": ""
+    "<icon_exc>A key to an iron safe? That's a very difficult thing to do. An ordinary keymaster won't be able to do it. Hmm. Sounds interesting! I can't refuse your request. I'll make that key myself. I said that, but I can't make a key without certain materials. Bring me a piece of shard of magnetite. You can find them in the Al-Ahagiro region.<%sEV_QUE_NAME0>They should drop it when they defeat the": ""
   },
   "165809": {
     "<pc>told Grane about the key to the iron safe.": ""
@@ -258,7 +258,7 @@
     "Nice texture. This is worth making. Then, let's get started!": ""
   },
   "165814": {
-    "Hmm, that's pretty good. The keyhole of an iron safe has a mechanism that prevents the key from being inserted unless it is deformed by the proper amount of heat. Well, even if you know how it works, an ordinary locksmith can't make a key that generates heat. See? With this, you can unlock a steel safe.": ""
+    "Hmm, that's pretty good. The keyhole of an iron safe has a mechanism that prevents the key from being inserted unless it is deformed by the proper amount of heat. Well, even if you know how it works, an ordinary keymaster can't make a key that generates heat. See? With this, you can unlock a steel safe.": ""
   },
   "165815": {
     "Would you give Grane a piece of textile breakage?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
