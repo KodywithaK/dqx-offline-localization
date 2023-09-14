@@ -1,0 +1,38 @@
+{
+  "99937": {
+    "「今から　ヴェリナード領南の　海辺の交易所と\n　ブーナー熱帯雨林の　密林の野営地に\n　行くんだけどよー。一緒に　どーだい？<bw_break>": "I'm going to the Beach Trading Post in\nVerinard South and the Jungle Camp in\nBooner Rainforest. Would you like to\n<br>\njoin me?<bw_break>"
+  },
+  "99940": {
+    "<pipipi_low>「うーん。すまねー。\n　今そこへ向かうのは\n　ちっと　都合が悪いようだぜ。\n<br>\n「金は　返すからよー。\n　時間をおいて　また来てくれよー。": "<pipipi_low>Hmmm. I'm sorry. It's not a good time\nto head out there. I'll give you your\nmoney back. Just give me some time to\n<br>\ncome back."
+  },
+  "99941": {
+    "「ただよー　送るだけで　迎えには行けねーぜ？\n　それでもよけりゃ　どこに行くよー？\n<name_off><select>\n海辺の交易所（ヴェリナード領南）\n密林の野営地（ブーナー熱帯雨林）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": "But I can't just drop you off and pick\nyou up, can I? Where will you go if\nyou want?\n<name_off><select>\nBeach Trading Post (Verinard South)\nJungle Camp (Booner Rainforest)\nNo Ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+  },
+  "99942": {
+    "<attr><feel_happy_lv2><end_attr>「まいどありー。\n　じゃー　行くぜ！": "<attr><feel_happy_lv2><end_attr>Thank you very much. I'll see you\nlater!"
+  },
+  "99943": {
+    "「そうかー。乗らねーかー。\n　乗りたくなったら　また来るんだぜー。": "I see. I guess I won't ride. If you\nwant to ride, come back again."
+  },
+  "99944": {
+    "<pipipi_low>「おまちどー。\n　海辺の交易所に　着いたぜ！\n　そんじゃまた　よろしくなー。": "<pipipi_low>Hey there, guys! I'm at the Beach\nTrading Post! See you soon!"
+  },
+  "99945": {
+    "<pipipi_low>「おまちどー。\n　密林の野営地に　着いたぜ！\n　そんじゃまた　よろしくなー。": "<pipipi_low>Hey there, guys! I'm here at Jungle\nCamp! See you soon!"
+  },
+  "99946": {
+    "「あー。金が足りねーな。\n　すまねーが　金のある時に\n　また来てくれよー。": "Ah. I ain't got enough money. I'm\nsorry, but please come back when you\nhave more money."
+  },
+  "99947": {
+    "「<%sL_TIMEI>まで\n　だな。\n　あと　代金２５ゴールドいただくぜ？<yesno><break>": "<%sL_TIMEI>. And I'll take 25 gold for\nthat.<yesno><break>"
+  },
+  "99948": {
+    "「そうかー。やめるのかー。\n　乗りたくなったら　また来るんだぜー。": "I see. You're quitting? If you want to\nride again, come back."
+  },
+  "124154": {
+    "「おぅいえー　旅人さん。\n　オレは　行商人エナギってんだ。\n　よろしくどうぞー！\n<br>\n「この馬車で　ヴェリナードからの商品を\n　各所に運ぶのが　オレのお仕事だぜ！\n<br>\n「今から　ヴェリナード領南の　海辺の交易所と\n　ブーナー熱帯雨林の　密林の野営地に\n　行くんだけどよー。一緒に　どーだい？<bw_break>": "Hey there, traveler. My name is\nPeddler Enagi. Pleased to meet you!\nIt's my job to carry the goods from\n<br>\nVerinard to the various places with\nthis wagon! I'm going to the Beach\nTrading Post in Verinard South and the\n<br>\nJungle Camp in Booner Rainforest.\nWon't you join me?<bw_break>"
+  },
+  "125637": {
+    "「ここから南の　ヴェリナード領南を　南下すると\n　海辺の交易所って　集落があるぜー。\n<br>\n「この　ヴェリナード領北を道なりに\n　ずっと東に進むと　ブーナー熱帯雨林の\n　密林の野営地に　行き着くぜー。\n<br>\n「まだ　行ったことが　ないなら\n　一度くらい　行ってみると　いいんじゃねーか。": "If you go south on Verinard South from\nhere, you will find a settlement\ncalled Beach Trading Post. If you\n<br>\nfollow this Verinard North road all\nthe way to the east, you will reach\nthe Jungle Camp at Booner Rainforest.\n<br>\nIf you have never been there, you\nshould go there at least once."
+  }
+}

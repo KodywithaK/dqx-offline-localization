@@ -1,0 +1,902 @@
+{
+  "116117": {
+    "「この村は今　切実な食糧不足で　困っているの。\n　数少ない食糧を　皆で分けあって\n　なんとか　食いつないでいる状態なのよ。\n<br>\n「……あら？　あなた　さっき\n　ダストン様に　名前を呼ばれていなかった？\n<br>\n「ダストン様なら　村長の家よ。\n　村の北東の　いちばん高い所にあるわ。\n　気になるのなら　訪ねてみたら？": "This village is in dire need of food.\nWe have to share what little food we\nhave and manage to eat. Oh? Didn't\n<br>\nDuston call your name earlier? Duston\nis in the Chief's house. It's on the\nhighest point in the northeast part of\n<br>\nthe village. If you're curious, why\ndon't you pay a visit?"
+  },
+  "116118": {
+    "<attr><feel_happy_one><end_attr>「村にやってきた　べっぴんな　ねーちゃんが\n　食糧の援助が　どうのって\n　話しているのを　聞いたんだ。\n<br>\n「恵みの木が　凍っちまってから \n　村のモンは　ずっと　ハラすかせてたもんで\n　本当に援助が来るなら　ありがてぇよなぁ……。\n<br>\n「最近　オイラもめっきり　やせてきてさぁ。\n　ほんと　まいっちゃうよ。": "<attr><feel_happy_one><end_attr>I heard a sweet lady who came to the\nvillage talking about food aid. The\nvillagers have been on edge ever since\n<br>\nthe Tree of Grace froze over, and\nthey'd be very grateful for any real\naid that comes their way. I've lost a\n<br>\nlot of weight lately. It's really\ngetting to me."
+  },
+  "116119": {
+    "「私は　ここで　この村を監視しております。\n　う～。それにしても　炎の領界出身の私には\n　この寒さは　こたえます。……ずびっ。": "I am here to keep an eye on this\nvillage. Ugh... Still, this cold is\nhard on me from the Fire Realm. Slip."
+  },
+  "116120": {
+    "<attr><feel_angry_one><end_attr>「この村より東に進んだ地の　小さなほら穴に\n　少女がひとりで　暮らしているんですけれどね。\n　この子が少々　問題のある子でして……。\n<br>\n「あんな子と一緒に遊んだら\n　うちの子が　倒れてしまうのは\n　目に見えてますわ。": "<attr><feel_angry_one><end_attr>There is a girl living alone in Small\nCave, a little further east than this\nvillage. This girl is a bit of a\n<br>\nproblem. It's obvious that my child\nwill collapse if she plays with that\ngirl."
+  },
+  "116121": {
+    "<attr><feel_angry_one><end_attr>「おうおうっ。なんだ　お前？\n　オレは　村の少年団のリーダー\n　ジャイム様だぞっ！\n<br>\n「教団だかなんだか　知らねえけど\n　用がないなら　気安く話しかけてくんなよなっ！": "<attr><feel_angry_one><end_attr>Oh, wow. What are you? I'm Jaimu-sama,\nleader of the village boy band! I\ndon't know if it's a cult or what, but\n<br>\nif you don't have anything to do,\ndon't talk to me so casually!"
+  },
+  "116122": {
+    "<attr><feel_sad_one><end_attr>「ボク　本当に　恵みの木が大好きなんだ……。\n　こんなことになるなんて　悲しすぎるよ……。\n　早く　恵みの木が　よくなりますように。": "<attr><feel_sad_one><end_attr>I really love Tree of Grace. It's too\nsad to see this happen. I hope Tree of\nGrace gets better soon."
+  },
+  "116123": {
+    "「あんたも　最近　つながったって言う\n　炎の領界から　来た人かい？<yesno><break>": "Are you one of those from the Fire\nRealm that you say you've recently\nconnected with?<yesno><break>"
+  },
+  "116124": {
+    "「突然　見たこともない連中が　村に来た時は\n　おどろいたんだけど……　領界は　もともと\n　ひとつだと言われて　もっと　おどろいたよ！\n<br>\n「炎の領界から来た　教団の人達は\n　塔を探してるって　言ってたけど……\n　なんだって　あんなもの　探してるんだろうな？\n<br>\n「そんなものを　探すヒマがあるくらいなら\n　この空腹を　どうにかしてほしいもんだよ。": "I was surprised when suddenly a group\nof people I've never seen before came\nto my village, but I was even more\n<br>\nsurprised when they told me that there\nwas only one realm to begin with! The\ncultists from the Fire Realm said they\n<br>\nwere looking for a tower, but I wonder\nwhat they were looking for? If they\nhave time to look for something like\n<br>\nthat, they should do something about\nthis hunger."
+  },
+  "116125": {
+    "<attr><feel_think_one><end_attr>「……え？　もっと遠く……\n　あ…あすとるてぃあ？\n　ごめん　聞いたこともないや。": "<attr><feel_think_one><end_attr>What? Farther away. Aasutorutia?\nSorry, I've never heard of it."
+  },
+  "116126": {
+    "「ダストン様が　恵みの木を治してくだされば\n　この村は　必ず　救われます。\n　今は　そう信じて　待ちましょう……。": "If Master Duston heals the Tree of\nGrace, this village will surely be\nsaved. Let's wait and believe that for\n<br>\nnow."
+  },
+  "116128": {
+    "<attr><feel_angry_one><end_attr>「やいやいっ。なんだ　オマエ。\n　オイラは　村の少年団　団員２号の\n　リエイグちゃんだぞっ！\n<br>\n「教団とか　なんかカッコイイからって\n　いばるなよなっ！": "<attr><feel_angry_one><end_attr>No, no, no. Hey, you! I'm Rieigu-chan,\nthe second member of the village boy\ngroup! Don't get all excited just\n<br>\nbecause you're a member of a cult or\nsomething!"
+  },
+  "116129": {
+    "<attr><feel_happy_one><end_attr>「うちの息子は　恵みの木を治すための\n　儀式のことを　心配してるみたいなんだけどね。\n　なに　伝説の緑の者が　現れたんだ。\n<br>\n「きっと　すべて　うまくいくはずだよ。": "<attr><feel_happy_one><end_attr>My son seems concerned about the\nritual to cure the Tree of Grace.\nWhat, the legendary green one has\n<br>\nappeared. I'm sure everything will be\nfine."
+  },
+  "116131": {
+    "「氷の領界の開通を聞きつけ　世界宿屋協会は\n　こちらにも　すぐに　派遣を始めました。\n<br>\n「今後も　領界が開通されるたびに\n　行く先々で　冒険者の皆さまを\n　お待ちしておりますので　ご安心くださいね！<bw_break>": "When we heard about the opening of the\nIce Realm, the World Association of\nInnkeepers began dispatching people to\n<br>\nthe Ice Realm immediately. Rest\nassured that we will be waiting for\nadventurers wherever they go as the\n<br>\nterritory opens up!<bw_break>"
+  },
+  "116132": {
+    "「職業を変えたい者のため　これまで\n　さまざまな場所を　放浪してきましたが\n　これほど　寒い地に来たのは　はじめてです。\n<br>\n「あまりの寒さに　こごえる思いですが…… \n　私も　ダーマ神に仕える身。\n　務めは　しっかりと　果たしましょう。<bw_break>": "I have wandered in many places in my\nlife for those who wish to change\ntheir location, but I have never been\n<br>\nin a place as cold as this. It's so\ncold that it's almost chilling, but I,\ntoo, am a servant of Dharma God. I\n<br>\nwill fulfill my duty well.<bw_break>"
+  },
+  "116133": {
+    "「あそこにいる　レノリモって子はさ\n　恵みの木の周りに実った果実を\n　収穫するのが　仕事だったんだよ。\n<br>\n「恵みの木ってのは　慈しみ深い存在でね。\n　この極寒の地であっても　あの木の周りだけは\n　草花が息づく。それは　ありがたーい木なんだ。\n<br>\n「それなのに……　ちょいと前に\n　その恵みの木が　凍りついちまったのさ。\n　こんなこと　生まれてはじめてだよ！": "This Renorimo over there, his job was\nto harvest the fruit that grew around\nthe Tree of Grace. The Tree of Grace\n<br>\nis a benevolent being. Even in this\nvery cold place, the flowers and grass\ngrow around that tree. It's a very\n<br>\ngrateful tree. And yet, a little while\nago, the Tree of Grace froze over.\nThis is the first time in my life!"
+  },
+  "116134": {
+    "<attr><feel_happy_one><end_attr>「ああ……　ダストン様……。\n　うるわしき　お姿を　もっともっと\n　みつめていたい……。": "<attr><feel_happy_one><end_attr>Oh, Duston-sama. I want to look at\nyour beautiful figure more and more."
+  },
+  "116135": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「伝説の緑の者が　現れたからには\n　私達は　もう安心よね？\n　この苦労からも　やっと解放されるんだわ！": "<attr><feel_happy_lv1><end_attr><turn_pc>Now that the legendary green one has\nshown up, we can all rest easy, can't\nwe? We'll finally be free of all this\n<br>\ntrouble!"
+  },
+  "116136": {
+    "<attr><feel_think_one><end_attr>「恵みの木を治すためには\n　伝説の緑の者が　恵みの儀と呼ばれる儀式を\n　おこなわなければなりません。\n<br>\n「ですが　儀式に必要なものが手に入らず\n　ずっと準備が　ととのわないのですよ。\n　……困ったものです。": "<attr><feel_think_one><end_attr>In order to cure the Tree of Grace,\nthe legendary green one must perform a\nritual called the Rite of Grace. But I\n<br>\nhaven't been able to get what I need\nfor the ritual, and I haven't been\nable to prepare it in time. It's a\n<br>\nproblem."
+  },
+  "116137": {
+    "<attr><feel_sad_lv1><end_attr>「あたし　リルチェラちゃんと友達になりたい！\n　でも　ママもパパも　ダメだって言うの……。\n　どうしてかな？　つまんないよー。": "<attr><feel_sad_lv1><end_attr>I want to be friends with Lilcherat!\nBut my mom and dad say I can't. Why is\nthat? It's so boring!"
+  },
+  "116138": {
+    "「ダストン様は　我が家におりますが \n　今は　儀式の準備で　お忙しいようです。\n　くわしくは　夫のノグリッドに聞いてください。": "Master Duston is at home, but he is\nbusy preparing for the ceremony.\nPlease ask my husband Nogrid for more\n<br>\ninformation."
+  },
+  "116139": {
+    "<attr><feel_sad_one><end_attr>「……おうおう。なんだ　お前？\n　オレは　村の少年団のリーダー\n　ジャイム様だ……。\n<br>\n「……だが　今は　そっとしておいてくれ。\n　リルチェラのせいで　ちょっとばかし\n　調子が　悪いんだ……。": "<attr><feel_sad_one><end_attr>Oh, oh, oh. What's up? I'm Jaimu,\nleader of the village boy band. But\nfor now, please leave me alone.\n<br>\nLilcherat's been giving me a bit of a\nheadache."
+  },
+  "116140": {
+    "「ん……？　あなたは　先ほど\n　女性神官の方と　一緒にいましたね？\n　教団の方でも　緑の者への面会はできませんぞ。\n<br>\n「この領界の民は　凍てついた過酷な世界でも\n　恵みの木と呼ばれる大樹のおかげで\n　これまで　生きながらえてこられました。\n<br>\n「寒さ厳しい　この領界でも\n　恵みの木の周りには　植物が育つのですよ。\n　ところが……\n<br>\n「最近になって　領界の寒さが　いちだんと増し\n　恵みの木が　凍りついてしまったのです。\n　このままでは　食べていくこともできません。\n<br>\n「伝説の緑の者とは　恵みの木を治し\n　その名の通り　私達に緑をもたらす人のこと。\n　どうか　緑の者のジャマは　しないでください。": "Hmm? You were with the female priest\nearlier, weren't you? Even the Order\ndoes not allow visitors to the green\n<br>\nones. The people of this realm have\nsurvived in this harsh, frozen world\nthanks to a great tree called the Tree\n<br>\nof Grace. Even in the coldest of\nlands, plants grow around the Tree of\nGrace. Recently, however, the cold has\n<br>\nincreased and the Tree of Grace has\nfrozen over. The Tree of Grace is not\nable to eat. The legendary Green Man\n<br>\nis the one who cures the Tree of Grace\nand brings us greenery, as his name\nsuggests. Please don't let the Greens\n<br>\nget in our way."
+  },
+  "116141": {
+    "「あなた　ダストン様と知り合いなんですか？ \n　……ふむ。確かに　先ほど　ダストン様が\n　何やら奇妙な名前を　呼んでいたような……？<bw_break>": "Are you acquainted with Mr.\nDuston?Hmm. Certainly, Master Duston\nwas calling me some strange name just\n<br>\nnow?<bw_break>"
+  },
+  "116142": {
+    "<attr><feel_angry_one><end_attr>「やいやいっ。なんだ　オマエ。\n　オイラは　村の少年団　団員２号の\n　リエイグちゃんだぞっ！\n<br>\n「でも　今は　そんなことはいいんだ。 \n　オイラは　元気ドロボウに　怒ってるんだよ。\n　あんなヤツが　村を歩き回るなんて迷惑なんだ！\n<br>\n「えっ！？　オマエ　村長の家に行きたいのか？\n　だったら　すぐそこの家が　そうだぞっ！": "<attr><feel_angry_one><end_attr>No, no, no. Hey, you! I'm Rieigu, the\nsecond member of the village boy band!\nBut that doesn't matter now.I'm just\n<br>\nangry at the \"energy thief\". It's a\nnuisance to have him roaming around\nthe village! What? You want to go to\n<br>\nChief's house? Then that's the house\nright there!"
+  },
+  "116143": {
+    "「なんでも　うちの息子ったら　ジャイムを\n　リルチェラに　触らせてしまったらしいね。\n　まったく　ジャイムは　災難だったね……。\n<br>\n「リルチェラの　あのチカラは\n　いったい　なんなんだろうねえ……？\n　村人達も原因がわからず　おびえてるんだよ。": "I heard that my son let Jaimu touch\nLilcherat. Jaimu had a bad luck. I\nwonder what that Lilcherat's power is?\n<br>\nThe villagers are frightened because\nthey don't know the cause."
+  },
+  "116144": {
+    "<pc>は　村長に\nダストンを　探していたことを説明した。": "<pc> explained to chief that\nhe was looking for Duston."
+  },
+  "116145": {
+    "扉には　カギが　かかっている。": "The door is locked."
+  },
+  "116148": {
+    "<attr><feel_sad_one><end_attr>「私は　先ほど　所用で村長の家に行ったのですが\n　その途中で　ジャイムくんに\n　かわいそうなことを　してしまいました。\n<br>\n「……え？　彼に何が起こったかですか？\n　いえ　それは……\n　私のクチからは　ちょっと言いにくいです……。": "<attr><feel_sad_one><end_attr>I had to go to the Chief's house for\nsome business earlier, but on the way\nthere, I did a pitiful thing to Jaimu-\n<br>\nkun. What? What happened to him? No,\nthat's a little hard to say from my\nmouth."
+  },
+  "116149": {
+    "<attr><feel_happy_one><end_attr>「夫との話は　聞いておりました。\n　あなた　ダストン様の　お知り合いなのですね。\n<br>\n「ダストン様は　２階の部屋におります。\n　くつろいで　いただけてるはずですわ。\n　どうぞ　ごゆっくり。": "<attr><feel_happy_one><end_attr>I have heard about you and my husband.\nYou are an acquaintance of Mrs.\nDuston's, are you not? Mr. Duston is\n<br>\nupstairs. I'm sure he's making himself\nat home. Please make yourself at home."
+  },
+  "116150": {
+    "「私達　イーサの村の民は\n　恵みの木が　凍りついてからというもの\n　食糧不足で困っておりました。\n<br>\n「そこに現れたのが　恵みの木を治すことで\n　私達に　緑をもたらす　伝説の緑の者……\n　ダストン様なのです！\n<br>\n「あなたは　ダストン様と知り合いなのですね。\n　本来なら　儀式の準備のため会えないのですが\n　特別に　許可しましょう。\n<br>\n「ダストン様は　２階の部屋におりますよ。\n　ただし　話が終わったら　ここに\n　戻ってきてください。お願いしますよ。": "We, the people of Ether Village, have\nbeen suffering from food shortages\never since the Tree of Grace froze\n<br>\nover. Then, the legendary Green One,\nMaster Duston, appeared to heal the\nTree of Grace and bring us green! You\n<br>\nare acquainted with Master Duston, are\nyou not? Normally, I would not be able\nto see him due to the preparation of\n<br>\nthe ritual, but I will allow it\nspecially. Master Duston is upstairs\nin his room. But please come back here\n<br>\nwhen you are finished. Please do so."
+  },
+  "116151": {
+    "<attr><feel_think_lv1><end_attr>「ここだけの話……\n　ダストン様って　好みや考えかたが\n　少々　変わってるんですよね。\n<br>\n「でも　ダストン様の頭に　咲いているのは\n　まぎれもなく　恵みの木の花……。\n　伝説の緑の者であることは　間違いないはず。\n<br>\n「やっぱり　伝説の緑の者ともなると\n　私達とは感性が　違うのでしょうか？": "<attr><feel_think_lv1><end_attr>Between you and me, Duston-sama's\ntastes and ways of thinking are a bit\nunusual. But the flower blooming in\n<br>\nDuston's head is undoubtedly the Tree\nof Grace. There is no doubt that you\nare the legendary Green One. After\n<br>\nall, the legendary Greens have\ndifferent sensibilities from us, don't\nthey?"
+  },
+  "116152": {
+    "「ダストン様と　お話しできたようですね。\n　……ふむ。やはり　ダストン様の　ご機嫌は\n　すぐれない　ご様子でしたか。\n<br>\n「きっと　ダストン様は　儀式の準備が\n　とどこおっていることを\n　気にしているに　違いありません。\n<br>\n「じつは　あなたに　ご相談があります。\n　伝説の緑の者は　恵みの儀という儀式をおこない\n　恵みの木を　再生させるのですが……\n<br>\n「私達では　儀式に必要なものが入手できず\n　困っていたのです。見たところ　あなたは\n　ずいぶんと旅慣れた　手練れのご様子。\n<br>\n「どうでしょう？\n　私達を　助けると思って\n　恵みの儀の準備を　手伝ってくれませんか？\n<br>\n「それに　教団の方が探しているという塔も\n　凍りついた恵みの木によって\n　閉ざされた道の　先にあるんです。\n<br>\n「恵みの木が治れば　塔への道も開かれましょう。\n　……お願いします。\n　どうか　恵みの儀の準備を手伝ってください。<yesno><break>": "I see you have had a chance to speak\nwith Mr. Duston. Hmmm. As I expected,\nDuston-sama's mood was not very good.\n<br>\nI am sure that she is concerned that\nthe preparations for the ceremony are\nnot going smoothly. In fact, I have\n<br>\nsomething to discuss with you. The\nlegendary Green One is to perform a\nritual called the Rite of Grace to\n<br>\nregenerate the Tree of Grace, but we\nhave been unable to obtain the\nnecessary items for the ritual. From\n<br>\nthe looks of you, you are well-\ntraveled and skilled. What do you\nthink? Would you be willing to assist\n<br>\nus in the preparation of the Blessing\nRitual? And the tower that the\ncultists are looking for is at the end\n<br>\nof the path blocked by the frozen Tree\nof Grace. Once the Tree of Grace is\nhealed, the path to the tower will be\n<br>\nopened. Please help us. Please help us\nprepare for the blessing ceremony.<yesno><break>"
+  },
+  "116153": {
+    "「そう言っていただけて　よかった……。\n　ありがとうございます！！\n<br>\n「では　さっそくですが\n　あなたには　儀式に必要な　ある物を\n　採ってきていただきたいのです。\n<br>\n「それは　極光の魔鉱石というオーロラの光を\n　浴び続けた石。この鉱石こそが　伝説の緑の者の\n　チカラを引きだすと　言われています。\n<br>\n「ですが　恵みの木が凍った後くらいでしたか……\n　魔鉱石が採れる遺跡の奥に　凶悪な魔物どもが\n　住みついてしまい　困っていたのですよ。\n<br>\n「どうか　遺跡まで行き　魔物どもを討伐して\n　極光の魔鉱石を　お持ちかえりください！\n　これを　あなたに　渡しておきますね。": "I'm glad you said that. Thank you very\nmuch! Now, let's get started. I would\nlike you to gather a certain object\n<br>\nfor the ritual. It is the Aurora\nOrealis, a stone that has been bathed\nin the light of the aurora. It is said\n<br>\nthat this ore will unlock the power of\nthe legendary Green Ones. However,\naround the time after the Tree of\n<br>\nGrace was frozen, a group of vicious\nmonsters took up residence in the\ndepths of the ruins where the magical\n<br>\nore is extracted, and we are now in\ntrouble. Please go to the ruins,\ndefeat the monsters, and bring back\n<br>\nthe Aurora Orealis! I will give this\nto you."
+  },
+  "116154": {
+    "「極光の魔鉱石は　とこしえの氷原の東の果て……\n　アヴィーロ遺跡という場所で　採れますよ。\n　渡したピッケルで　けずってきてくださいね。": "Aurora Orealis can be found at Aviro\nRuins, east end of Eternal Ice Field.\nPlease use the Pikkele I gave you to\n<br>\ndig it out."
+  },
+  "116155": {
+    "「そうですか……　それは　残念です。\n　ですが　気が変わりましたら　いつでも\n　私に話しかけてください。お待ちしています。": "I see. Well, I'm sorry to hear that.\nBut if you change your mind, you can\nalways talk to me. I'll be waiting for\n<br>\nyou."
+  },
+  "116156": {
+    "<attr><feel_happy_one><end_attr>「あなた　儀式の手伝いをしてくれているの？\n　なんて　ありがたいのかしら！\n　道中　くれぐれも　気をつけてくださいね。": "<attr><feel_happy_one><end_attr>You're helping me with the ritual? How\nkind of you! Please be careful on your\nway."
+  },
+  "116157": {
+    "<attr><feel_happy_one><end_attr>「ここで　べっぴんな　ねーちゃんが \n　食糧援助の話をしてるの　聞いたんだ。\n　彼女は　いつ　戻ってくんだろな？\n<br>\n「恵みの木が　凍っちまってから \n　村のモンは　ずっと　ハラすかせてたもんで\n　本当に援助が来るなら　ありがてぇよなぁ……。\n<br>\n「最近　オイラもめっきり　やせてきてさぁ。\n　ほんと　まいっちゃうよ。": "<attr><feel_happy_one><end_attr>I heard a sweet lady here talking\nabout food aid. When is her coming\nback? The villagers have been on edge\n<br>\never since the Tree of Grace froze\nover, so they'll be very grateful if\nthey actually get help. I've lost a\n<br>\nlot of weight lately. It's really\ngetting to me."
+  },
+  "116158": {
+    "「恵みの木が　凍りついてる影響で\n　教団の人が探してるっていう　氷晶の聖塔には\n　今は　行く手段がないんだ。\n<br>\n「でも　あそこに行ったって　なーんにもないぜ？ \n　塔の前にいる魔物が　試練がどうのと言うだけで\n　中に入ることは　できないんだ。": "Due to the freezing of the Tree of\nGrace, there is no way to get to the\nIce Tower that the cult is looking for\n<br>\nright now. But even if we go there,\nthere's nothing there.The monster in\nfront of the tower says something\n<br>\nabout a trial, but there's no way to\nget inside."
+  },
+  "116160": {
+    "「<pc>さんには　儀式のために必要な\n　極光の魔鉱石という石を\n　採ってきていただきたいのですよ。\n<br>\n「恵みの木が凍った後くらいでしたか……\n　魔鉱石が採れる遺跡の奥に　凶悪な魔物どもが\n　住みついてしまい　困っていたのです。\n<br>\n「極光の魔鉱石は　とこしえの氷原の東の果て……\n　アヴィーロ遺跡という場所で　採れますよ。\n　どうか　よろしくお願いいたしますね。": "I would like <pc> to go and\nget the Aurora Orealis stone that is\nneeded for the ritual. It was around\n<br>\nthe time after the Tree of Grace was\nfrozen, and we were in trouble because\nevil monsters had taken up residence\n<br>\nin the depths of the ruins where the\nmagical ore was extracted. Aurora\nOrealis can be found at Aviro Ruins,\n<br>\neast end of Eternal Ice Field. I would\nappreciate it if you could help me."
+  },
+  "116161": {
+    "「あそこにいる　レノリモって子はさ\n　恵みの木の周りに実った果実を\n　収穫するのが　仕事だったんだよ。\n<br>\n「恵みの木ってのは　慈しみ深い存在でね。\n　この極寒の地であっても　あの木の周りだけは\n　草花が息づく。それは　ありがたーい木なんだ。\n<br>\n「それなのに……　ちょいと前に\n　その恵みの木が　凍りついちまったのさ。\n　こんなこと　生まれてはじめてだよ！\n<br>\n「……え？　あんた　恵みの儀の準備を\n　手伝っているのかい？\n　それは　ありがたーい話だねえ。\n<br>\n「どれ　ひとつ　感謝させておくれ。\n　ありがたや～　ありがたや～。": "This Renorimo over there, his job was\nto harvest the fruit that grew around\nthe Tree of Grace. The Tree of Grace\n<br>\nis a benevolent being. Even in this\nvery cold place, the flowers and grass\ngrow around that tree. It's a very\n<br>\ngrateful tree. And yet, a little while\nago, the Tree of Grace froze over.\nThis is the first time in my life!\n<br>\nWhat? You're helping prepare for the\nblessing? I'm so grateful. Let me\nthank you for one thing. Thank you~\n<br>\nThank you~ Thank you~ Thank you."
+  },
+  "116162": {
+    "<attr><feel_happy_one><end_attr>「ああ……　ダストン様……。\n　うるわしき　お姿を　もっともっと\n　みつめていたい……。": "<attr><feel_happy_one><end_attr>Oh, Duston-sama. I want to look at\nyour beautiful figure more and more."
+  },
+  "116163": {
+    "「あなた　極光の魔鉱石を採ってきてくれたのね？\n　早く　それを　村長の所へ届けてあげて。\n　村長の家は　村の北東の　いちばん高い所よ。": "You picked Aurora Orealis, didn't you?\nHurry up and bring it to the chief.\nThe chief's house is on the highest\n<br>\npoint northeast of the village."
+  },
+  "116166": {
+    "<attr><feel_sad_one><end_attr>「ああ……。\n　大変なことに　なってしまったわ……。": "<attr><feel_sad_one><end_attr>Oh. Oh, my God, I'm in trouble."
+  },
+  "116167": {
+    "<attr><feel_happy_lv1><end_attr><icon_exc>「まあ　あなた。本当に　極光の魔鉱石を\n　持ってきてくださったのですね！？\n　ありがとうございます。\n<br>\n「どうか　それを　夫に　お渡しください。\n　あなたのお帰りを　待っておりましたから。": "<attr><feel_happy_lv1><end_attr><icon_exc>Oh, my God, it's you. You really\nbrought Aurora Orealis! Thank you very\nmuch. Please give it to my husband.\n<br>\nWe've been waiting for you."
+  },
+  "116171": {
+    "「おおっ　<pc>さん。待ってましたよ。\n　極光の魔鉱石を　お持ちいただけたのですね？\n　さあ　それを　こちらに。": "Oh <pc>. I've been waiting\nfor you. I see you brought the Aurora\nOrealis? Here it is."
+  },
+  "116172": {
+    "「どうして　渡してくれないんですか？\n　それがなければ　儀式をおこなえないのです。\n　どうか　村を救うために　お願いします。": "Why won't you give it to me? Without\nit, we cannot perform the ritual.\nPlease, we are asking you to save our\n<br>\nvillage."
+  },
+  "116173": {
+    "「ありがとうございます。\n　このお礼は　儀式のあとで　必ず……！\n　というのも　少々困ったことになっていまして。\n<br>\n「じつは……　先ほど　ダストン様の部屋を\n　訪ねたのですが　お姿が見えず…………。\n　どうも　どこかへ行ってしまったようなのです。\n<br>\n「せっかく　儀式の準備が　ととのいそうなのに\n　かんじんの　ダストン様がいないのでは\n　元も子もありません。\n<br>\n「とにかく　極光の魔鉱石のことは\n　本当に　ありがとうございました。\n　私は　村の者と　ダストン様を探してみます。": "Thank you. I will be sure to thank you\nfor this after the ceremony! I am in a\nbit of a pickle. I visited Mr.\n<br>\nDuston's room a while ago, but I\ncouldn't see him. It seems that he has\ngone somewhere. I am sure that you\n<br>\nwill be able to find the perfect\nsolution to your problem. Anyway,\nthank you very much for your help with\n<br>\nthe Aurora Orealis. I will try to find\nMaster Duston with the villagers."
+  },
+  "116176": {
+    "ノグリッド村長に\n極光の魔鉱石を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Aurora Orealis to Chief\nNogrid?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "116177": {
+    "<pc>は　ノグリッド村長に\n極光の魔鉱石を渡し\nクリスタルピッケルを　返却した！": "<pc> gave Aurora Orealis to\nChief Nogrid and returned Crystal\nPickaxe!"
+  },
+  "116181": {
+    "「あそこにいる　レノリモって子はさ\n　恵みの木の周りに実った果実を\n　収穫するのが　仕事だったんだよ。\n<br>\n「恵みの木ってのは　慈しみ深い存在でね。\n　この極寒の地であっても　あの木の周りだけは\n　草花が息づく。それは　ありがたーい木なんだ。\n<br>\n「それなのに……　ちょいと前に\n　その恵みの木が　凍りついちまったのさ。\n　こんなこと　生まれてはじめてだよ！\n<br>\n「……え？　あんた　恵みの儀の準備で\n　極光の魔鉱石を　持ってきてくれたのかい？\n　それは　ありがたーい話だねえ。\n<br>\n「どれ　ひとつ　感謝させておくれ。\n　ありがたや～　ありがたや～。": "This Renorimo over there, his job was\nto harvest the fruit that grew around\nthe Tree of Grace. The Tree of Grace\n<br>\nis a benevolent being. Even in this\nvery cold place, the flowers and grass\ngrow around that tree. It's a very\n<br>\ngrateful tree. And yet, a little while\nago, the Tree of Grace froze over.\nThis is the first time in my life!\n<br>\nWhat? You brought Aurora Orealis to\nthe blessing? I'm so grateful. Let me\nthank you for one thing. Thank you~\n<br>\nThank you~ Thank you~ Thank you."
+  },
+  "116185": {
+    "「ねえ　聞いて！　大変なの！\n　村長の家にいたはずの　伝説の緑の者……\n　ダストン様が　いなくなってしまったそうよ！": "Hey, listen! I'm in trouble! The\nlegendary green one Duston, who was\nsupposed to be in the Chief's house,\n<br>\nhas disappeared!"
+  },
+  "116186": {
+    "<attr><feel_sad_one><end_attr>「どうやら　ダストン様は　部屋にある暖炉から\n　えんとつの中を　はいあがって\n　外に　出たようなんです。\n<br>\n「あんな　狭い所をのぼっていったなんて\n　まだ　信じられませんわ！": "<attr><feel_sad_one><end_attr>It seems that Master Duston climbed\nout of the fireplace in his room\nthrough the doorway. I still can't\n<br>\nbelieve he climbed up that narrow\npassage!"
+  },
+  "116187": {
+    "「<pc>さん　極光の魔鉱石のことは \n　ありがとうございました。\n　このお礼は　儀式のあとで　必ず……！\n<br>\n「というのも　少々困ったことになっていまして。\n　ダストン様が　いなくなられてしまったのです。\n<br>\n「せっかく　儀式の準備が　ととのいそうなのに\n　かんじんの　ダストン様がいないのでは\n　元も子もありません。\n<br>\n「私は　村の者とダストン様を探し\n　なんとしてでも　連れ帰ってきます。": "<pc> Thank you for your help\nwith Aurora Orealis. I will be sure to\nthank you for this after the ritual! I\n<br>\nam in a bit of trouble. We have lost\nMaster Duston. I was so happy to see\nthat the preparations for the ceremony\n<br>\nwere almost complete, but without the\nKANSAN Master Duston, there was\nnothing we could do to help him. I\n<br>\nwill find Master Duston with the\nvillagers and bring him back to the\nvillage, no matter what it takes."
+  },
+  "116193": {
+    "「ねえ　聞いてちょうだい。\n　伝説の緑の者　ダストン様が　帰ってきたの。\n　もうすぐ　恵みの儀も　始まるそうよ。\n<br>\n「ああ……　本当に　ほっとしたわ。\n　儀式は　恵みの木の前で　おこなうの。\n　興味あるなら　あなたも　いらしてみたら？": "Hey, listen up. The legendary Master\nDuston the Green has returned. The\nblessing ceremony will be starting\n<br>\nsoon. Oh, that's such a relief. The\nceremony will take place in front of\nthe Tree of Grace. If you're\n<br>\ninterested, you should come."
+  },
+  "116194": {
+    "<attr><feel_happy_one><end_attr>「前に　べっぴんな　ねーちゃんが\n　食糧援助の話をしてるの　聞いたんだけど\n　きっと　もうすぐ戻ってくると思うんだ。\n<br>\n「まもなく　恵みの儀も始まるって言うし\n　これで　この村も　もう安心だな。\n　あ～　よかったよかった。": "<attr><feel_happy_one><end_attr>I heard a sweet lady talking about\nfood aid before, and I'm sure it will\ncome back soon. The blessing ceremony\n<br>\nwill be starting soon, so this village\nwill be safe now. Ah~ that's good,\nthat's good."
+  },
+  "116195": {
+    "「私は　ここで　この村を監視しております。\n　少し前まで　村の中が　さわがしかったのですが\n　今は　落ち着きを　取り戻しました。\n<br>\n「どうやら　問題は　解決したようですな。\n　う～。それにしても　炎の領界出身の私には\n　この寒さは　こたえます。……ずびっ。": "I am here to keep an eye on the\nvillage. There was a lot of noise in\nthe village not too long ago, but it's\n<br>\ncalmed down now. It seems the problem\nhas been resolved. Hmmm... Still, this\ncold is hard on me, coming from the\n<br>\nFire Realm. It's so cold."
+  },
+  "116196": {
+    "「この村より東に進んだ地の　小さなほら穴に\n　少女がひとりで　暮らしているんですけれどね。\n　この子が少々　問題のある子でして……。\n<br>\n「ええっ　あなた　そこへ行ってきたんですか？\n　だ…大丈夫でした……？": "There is a girl living alone in Small\nCave, a little further east than this\nvillage. This girl has a bit of a\n<br>\nproblem. You went there? Are you all\nright?"
+  },
+  "116197": {
+    "「今は　儀式の準備のため\n　ダストン様に　会うことはできないんです。\n　ごめんなさいね。": "I can't see Master Duston right now\nbecause of the ritual preparations. I\nam sorry."
+  },
+  "116198": {
+    "<attr><feel_angry_one><end_attr>「おっ　お前！\n　どうやら　村の少年団の活躍のおかげで\n　ダストン様の居場所が　わかったようだな。\n<br>\n「へっへへん！　これからも　困った時は\n　村の少年団のリーダー\n　このジャイム様を　たよるといいぞ！": "<attr><feel_angry_one><end_attr>Hey, you! It seems that thanks to the\nefforts of the village boy band, they\nhave found the whereabouts of Master\n<br>\nDuston. Heh heh heh! From now on, when\nyou are in trouble, you can always\nturn to the leader of the village\n<br>\nboys, Jaimu-sama!"
+  },
+  "116199": {
+    "<attr><feel_think_one><end_attr>「恵みの儀が終わって　恵みの木が治れば\n　きっと　道をふさいでいた氷も解けて\n　その先へ　行けるようになるはずだよ。\n<br>\n「……でも　いったい　ダストン様は\n　どんなふうに　恵みの木を\n　治してしまうんだろうなあ？": "<attr><feel_think_one><end_attr>Once the blessing ceremony is over and\nthe Tree of Grace is healed, I am sure\nthat the ice blocking the path will\n<br>\nmelt and we will be able to go beyond\nit. But how in the world will Master\nDuston heal the Tree of Grace?"
+  },
+  "116200": {
+    "「ダストン様は　なんだって\n　リルチェラの家になど　行ったのでしょう……？\n<br>\n「あの子に　生気を吸われ\n　ダストン様が　倒れてしまっていたらと思うと\n　ゾッとしますよ。": "What did Duston want with Lilcherat's\nhouse? I shudder to think what would\nhave happened if she had sucked his\n<br>\nlife force and he had collapsed."
+  },
+  "116201": {
+    "「おや　<pc>さん。\n　戻ってきてくださったのですね。\n　ですが　儀式の準備は　まもなく終わります。\n<br>\n「どうか先に　恵みの木へ\n　向かっていてください。\n　恵みの木は　村から南の位置にありますよ。": "Oh <pc>. I see that you have\nreturned. But the preparations for the\nritual will be finished soon. Please\n<br>\ngo to Tree of Grace first. Tree of\nGrace is located south of the village."
+  },
+  "116202": {
+    "<attr><feel_angry_one><end_attr>「やいやいっ。なんだ　オマエ。\n　オイラは　村の少年団　団員２号の\n　リエイグちゃんだぞっ！\n<br>\n「村の少年団は　結成して　もう１年になるんだ。\n　リーダーは　クチは悪いけど\n　じつは　けっこう　やさしいんだぞ！": "<attr><feel_angry_one><end_attr>No, no, no. Hey, you! I'm Rieigu, the\nsecond member of the Village Boys\nClub! The village boys have been\n<br>\ntogether for a year now. The leader\nmay have a bad mouth, but he's\nactually quite kind!"
+  },
+  "116203": {
+    "「もうすぐ　恵みの儀が　始まるらしいね。 \n　どれ。あたしたちも\n　そろそろ　でかける準備をしようかね。": "I hear the blessing ceremony will be\nstarting soon.Which one is it? I think\nit's time for us to get ready to go\n<br>\nout."
+  },
+  "116204": {
+    "扉には　カギが　かかっている。": "The door is locked."
+  },
+  "116205": {
+    "<attr><feel_happy_one><end_attr>「ダストン様も　お戻りになられたし\n　もうすぐ　恵みの儀も　始まるそうだよ。\n　ありがたや～　ありがたや～。": "<attr><feel_happy_one><end_attr>Master Duston has returned and the\nblessing ceremony will be starting\nsoon. Thank you~ Thank you~ Thank you."
+  },
+  "116206": {
+    "<attr><feel_happy_one><end_attr>「ああ……　ダストン様……。\n　うるわしき　お姿に\n　また　お目にかかれる時が来たのですね……。": "<attr><feel_happy_one><end_attr>Oh, Mr. Duston. The time has come for\nme to see you again."
+  },
+  "116207": {
+    "<attr><feel_happy_one><end_attr><turn_pc>「もう　まもなく　恵みの儀が始まるの。\n　ダストン様の活躍を\n　しっかり　見ておかなくっちゃ。": "<attr><feel_happy_one><end_attr><turn_pc>The blessing ceremony is about to\nbegin. We need to keep an eye on\nDuston-sama's activities."
+  },
+  "116208": {
+    "<attr><feel_happy_one><end_attr>「恵みの儀には　母と一緒に参列するつもりです。\n　ダストン様が　いなくなったと聞いた時は\n　どうなることかと思いましたが……\n<br>\n「無事に　見つかって　本当によかったですよ。": "<attr><feel_happy_one><end_attr>I plan to attend the blessing ceremony\nwith my mother. When I heard that\nMaster Duston was missing, I wondered\n<br>\nwhat would happen, but I am so glad\nthat he was found safe and sound."
+  },
+  "116209": {
+    "<attr><feel_normal_lv3><end_attr>「きゃー！　今は　お話ししている余裕はないの！\n　伝説の緑の者　ダストン様を助けるために\n　村の中は　てんてこまいなのよ～！": "<attr><feel_normal_lv3><end_attr>Oh, no! I don't have time to talk to\nyou right now! The whole village is\nbusy trying to save the legendary\n<br>\ngreen one, Master Duston!"
+  },
+  "116210": {
+    "<attr><feel_angry_lv1><end_attr>「あわわ。大変だ～　大変だ～。\n　やっと　恵みの儀がおこなえると思ったのに\n　ダストン様が　地中に引きずり込まれた～！": "<attr><feel_angry_lv1><end_attr>Aww. Oh my God~ Oh my God~ Oh my God~!\nJust when I thought we could finally\nperform the blessing ceremony, Duston-\n<br>\nsama was dragged into the ground~!"
+  },
+  "116211": {
+    "<attr><feel_think_lv2><end_attr>「私は　ここで　この村を監視しております。\n　村人たちが　いっせいに　出ていったと思ったら\n　あわてて　戻ってきたんです。\n<br>\n「どうやら　恵みの木と呼ばれる場所に\n　行っていたようなのですが\n　そこで　何か　あったんでしょうか？": "<attr><feel_think_lv2><end_attr>I am here to keep an eye on this\nvillage. The villagers were leaving in\ndroves, and then they came back in a\n<br>\nhurry. They were going to a place\ncalled Tree of Grace."
+  },
+  "116212": {
+    "「ダストン様を　助けるためには\n　カーレルの氷雪洞から　回り込むという方法も\n　あるのですが　夫は　それを避けたようです。\n<br>\n「カーレルの氷雪洞には　古くから\n　白銀の死神と呼ばれる魔物が　おりまして……。\n　村の者は　絶対に　近づかないのです。": "One way to help Mr. Duston would have\nbeen to go through the Carrel Ice\nCave, but my husband avoided that\n<br>\noption. The Carrel Ice Cave is home to\nan ancient monster known as the\nsilvery reaper. The villagers never go\n<br>\nnear it."
+  },
+  "116213": {
+    "<attr><feel_angry_one><end_attr>「おうっ　お前。\n　元気ドロボウの　リルチェラと一緒に\n　カーレルの氷雪洞に　行くんだろ？\n<br>\n「カーレルの氷雪洞の入り口なら\n　恵みの木の東だぞっ。まっ　その間に\n　オレ達が　ロープを　作っちまうけどな。": "<attr><feel_angry_one><end_attr>Hey, you. You're going to Carrel Ice\nCave with Lilcherat, right? The\nentrance to Carrel Ice Cave is east of\n<br>\nTree of Grace. But we'll make a rope\nin the meantime."
+  },
+  "116214": {
+    "<attr><feel_angry_lv1><end_attr>「今は　忙しいんだ。\n　話があるなら　後にしてくれ。\n<br>\n「とにかく　今は　村中のロープを\n　つなぎ合わせて　ダストン様を\n　穴から　引きあげなくちゃ！": "<attr><feel_angry_lv1><end_attr>I'm busy right now. If you want to\ntalk, we can talk later. Anyway, right\nnow we need to get every rope in the\n<br>\nvillage into a knot and pull Mr.\nDuston up out of that hole!"
+  },
+  "116215": {
+    "「<pc>さんでしたか。\n　なんとしてでも　ダストン様を　引きあげ\n　恵みの儀を　やり直さなければ……！\n<br>\n「そのために今　村の者　総出で\n　ロープを　つなぎあわせています。\n　しかし……　少し　気になることがあるのです。\n<br>\n「ダストン様を　引きずり込んだものの正体が \n　私には　木の根のように見えたのですが……。\n　恵みの木が　お怒りになられたのでしょうか？\n<br>\n「まさか　ダストン様は……。\n　いやいや　考えすぎですよね。": "<&13_aaaaaaaad>, was it? We must do\neverything in our power to pull Duston\nup and perform the blessing ceremony\n<br>\nagain! That's why everyone in the\nvillage is working together to get the\nropes in place. But there is one thing\n<br>\nthat concerns me. The thing that\ndragged Mr. Duston into the tree looks\nto me like a tree root. Is the Tree of\n<br>\nGrace angry? No way, Duston. No, no,\nyou are thinking too much."
+  },
+  "116216": {
+    "<attr><feel_angry_one><end_attr>「リーダーって　いつも　ひどいこと言ってるけど\n　本当は　リルチェラのこと\n　心配してるんじゃないかと　思うんだぞ！\n<br>\n「リルチェラが　村に来ると\n　なにかと　理由をつけて\n　ちょっかい　かけてるしな。\n<br>\n「ここは　リーダーのためにも\n　早く　なっがいロープを作って\n　いいとこ　見させてあげたいんだぞ！": "<attr><feel_angry_one><end_attr>The leader is always saying terrible\nthings, but I think he's really\nworried about Lilcherat! Whenever\n<br>\nLilcherat comes to the village, he\nalways has some reason to bother us.\nI'm just trying to make a little rope\n<br>\nfor Lilcherat so he can see the good\nside of things!"
+  },
+  "116217": {
+    "扉には　カギが　かかっている。": "The door is locked."
+  },
+  "116218": {
+    "扉には　カギが　かかっている。\nどうやら　今は　外出しているようだ。": "The door is locked. It seems that he\nis out of the house."
+  },
+  "116219": {
+    "扉には　カギが　かかっている。\nどうやら　今は　外出しているようだ。": "The door is locked. It seems that he\nis out of the house."
+  },
+  "116220": {
+    "<attr><feel_sad_one><end_attr>「あんたも　見ただろう？ \n　得体の知れないものが地中から　のびてきて\n　ダストン様を　引きずり込んでいくのをさ。\n<br>\n「ああ……　おそろしや。\n　この村は　いったい\n　どうなってしまうんだろう……。不安だよ。": "<attr><feel_sad_one><end_attr>You saw it, didn't you?You saw that\nsomething unidentifiable came out of\nthe ground and dragged Mr. Duston down\n<br>\nwith it. Oh, it's terrifying. What is\ngoing to happen to this village? I'm\nworried."
+  },
+  "116221": {
+    "<attr><feel_sad_one><end_attr>「ああ……　ダストン様……。\n　あんな　穴の中に　引きずり込まれて……\n　ご無事で　いらっしゃるのかしら……。": "<attr><feel_sad_one><end_attr>Oh, Mr. Duston. I wonder if you are\nsafe and sound after being dragged\ndown that hole."
+  },
+  "116222": {
+    "「ああ　あなた！　村長からの伝言があるの。\n　お礼を渡したいから　家に来てほしいそうよ。\n　村長の家は　村の北東の　いちばん高い所よ。": "Oh, honey! I have a message from the\nCHIEF. He wants you to come to his\nhouse to give him a thank-you gift.\n<br>\nThe Chief's house is on the highest\npoint northeast of the village."
+  },
+  "116223": {
+    "「リルチェラの両親は　幼い頃に亡くなってね。\n　その後　おばあちゃんに引き取られて\n　あの穴ぐらの家で　育てられたんだ。\n<br>\n「でも　おばあちゃんも　ほどなく亡くなり…… \n　その頃からだったな。\n　あの子が　村に寄りつかなくなったのは。\n<br>\n「周りの目に浮かぶ恐怖の色を　幼いながらに\n　感じ取っていたんだろうな……。\n　本当に　悪いことをしちまったと思ってるよ。": "Lilcherat's parents died when he was\nvery young. After that, his\ngrandmother took him in and raised him\n<br>\nin that cellar house. But her\ngrandmother passed away soon after.\nThat's when she stopped coming to the\n<br>\nvillage. She must have sensed the fear\nin the eyes of those around her, even\nat a young age. I really feel bad\n<br>\nabout what I did."
+  },
+  "116224": {
+    "「私は　ここで　この村を監視しております。\n　炎の領界出身の私には　この寒さは\n　こたえるばかりだったのですが……\n<br>\n「今は　ここに来たばかりの頃よりも\n　村の空気が　暖かくなった気がするのです。\n　気のせいでしょうか？": "I am here monitoring the village.\nBeing from the Fire Realm, the cold\nused to get to me, but now the air in\n<br>\nthe village seems warmer than when I\nfirst came here. Is it my imagination?"
+  },
+  "116225": {
+    "「私達　一度　娘を連れて \n　リルチェラに　会いにいこうと思ってるんです。\n　娘とも　仲良くなれるといいんですけど。": "We are thinking of taking our daughter\nto see Lilcherat once. I hope she and\nmy daughter will get along well."
+  },
+  "116226": {
+    "「オレは　村の少年団のリーダー\n　ジャイム様だっ！\n<br>\n「元気ドロボウのリルチェラが\n　伝説の緑の者だったってことは……\n<br>\n「リルチェラが　オレから奪い取った元気も\n　今は　恵みの木の中にあるってことなのか！？\n　うおお！！　なんか　すげえな！": "I am Jaimu-sama, leader of the village\nboy band! If Lilcherat, the energy\nthief, was the legendary green one,\n<br>\ndoes that mean that the energy\nLilcherat stole from me is now inside\nthe Tree of Grace? Wow! This is\n<br>\namazing!"
+  },
+  "116227": {
+    "「ボク　本当に　恵みの木が大好きなんだ。 \n　だから　恵みの木が　よくなって\n　心から　うれしいよ！\n<br>\n「でも　リルチェラは……\n　これから　どうするんだろう……？": "I really love Tree of Grace.So I'm\nreally happy that Tree of Grace is\ndoing well! But what will Lilcherat do\n<br>\nnow?"
+  },
+  "116228": {
+    "<attr><feel_happy_one><end_attr>「リルチェラが　伝説の緑の者だったなんて\n　おどろいたけど　とにかく\n　恵みの木が治って　本当に　よかった！<bw_break>": "<attr><feel_happy_one><end_attr>I was surprised that Lilcherat was the\nlegendary green one, but anyway, I'm\nreally glad that Tree of Grace is\n<br>\ncured!<bw_break>"
+  },
+  "116229": {
+    "「リルチェラの　あのチカラは\n　村に危機がおとずれる　この時のためにそなえ\n　生命力を　たくわえておくものだったのですね。\n<br>\n「目先のことばかりに　とらわれて\n　本質に　気づけなかった自分が\n　恥ずかしいです……。": "The power of the Lilcherat was to keep\nthe village's vitality in reserve for\na time of crisis, wasn't it? I am\n<br>\nashamed of myself for being so\npreoccupied with immediate concerns\nthat I failed to recognize the true\n<br>\nnature of the situation."
+  },
+  "116230": {
+    "「オイラは　村の少年団　団員２号の\n　リエイグちゃんだぞっ！\n<br>\n「げ…元気ドロボウの　リルチェラが\n　伝説の緑の者だったなんて……。\n　オイラ　今まで　悪いことしちゃったんだぞ。": "I am Rieigu, the second member of the\nvillage boy band! I can't believe that\nLilcherat, the cheerful slob, is the\n<br>\nlegendary green one. I've done some\nbad things."
+  },
+  "116231": {
+    "「リルチェラってさ　ちょっと気の強いところが\n　あるだろう？　村人達から　何か言われても\n　まったく　めげたりしないしさ。\n<br>\n「だから……　あの子でも　あんなふうに\n　さみしいなんて　思ったりするんだなぁって。\n　なんだか　ハッとさせられたよ。\n<br>\n「よく考えれば　わかりそうなもんなのに。\n　気づいてあげられなかった　あたし達は\n　ほんと　バカだね……。": "Lilcherat has a bit of a temper, don't\nyou think? She doesn't get discouraged\nat all when the villagers say\n<br>\nsomething to her. That's why I\nwondered if even she could feel sad\nlike that. It made me realize\n<br>\nsomething. It's something that should\nbe obvious if you think about it. We\nare really stupid for not noticing it."
+  },
+  "116232": {
+    "村長に　家へ来るよう言われたので\n外に出る前に　一度\n村長の家に寄った方が　よさそうだ。\n<br>\n外へ　出ますか？<yesno 2><close>": "Chief asked me to come over to his\nhouse, so I guess I better stop by\nChief's house before I go outside.\n<br>\nWould you like to go outside?<yesno 2><close>"
+  },
+  "116233": {
+    "「リルチェラは　本当に強い子だねえ。\n　子供ひとりで　この世界を生きていくのは\n　たくさん　つらいこともあったはずなのに……\n<br>\n「私達に　うらみ言のひとつも　言わないで\n　なんでもなかったような顔して\n　接してくれるんだよ。\n<br>\n「これからは　村人　全員で\n　あの子の笑顔を　守ってやらなきゃねえ。\n　それが　あの子のため　できることだと思うよ。": "Lilcherat is really a strong girl. She\nmust have gone through a lot of\nhardships to live in this world on her\n<br>\nown, but she never once grumbled at us\nand treated us as if nothing had\nhappened. From now on, all villagers\n<br>\nmust protect her smile. I think that's\nthe best thing we can do for her."
+  },
+  "116234": {
+    "<attr><feel_happy_one><end_attr>「ああ……　ダストン様……。\n　あなたが　伝説の緑の者じゃなくても\n　お慕いする　この気持ちは変わりません……。": "<attr><feel_happy_one><end_attr>Oh, Mr. Duston. Even if you are not\nthe legendary green one, I still adore\nyou."
+  },
+  "116235": {
+    "<attr><feel_happy_one><end_attr>「まさかリルチェラが　伝説の緑の者だったなんて\n　本当に　おどろきました。\n　あの子には　感謝しても　しきれません。\n<br>\n「あの子のおこないに　報いられるよう\n　これからは　毎日を　大切に\n　過ごしていきたいものですね。": "<attr><feel_happy_one><end_attr>I was really surprised that Lilcherat\nwas the legendary green one. I can't\nthank her enough. I hope to spend\n<br>\nevery day carefully from now on so\nthat I can repay her kindness."
+  },
+  "116236": {
+    "<attr><feel_happy_lv3><end_attr>「ママと　パパがね。\n　これからは　リルチェラちゃんと一緒に\n　遊んでもいいよって　言ってたの。\n<br>\n「わーい。うれしいなー。": "<attr><feel_happy_lv3><end_attr>Mom and Dad. Mom and Dad said I can\nplay with Lilcherat from now on. Yay.\nI'm so happy."
+  },
+  "116237": {
+    "「まあ　あなた。リルチェラと一緒に\n　恵みの木を治してくれた　恩人さんだったわね？\n　本当に　どうもありがとう。\n<br>\n「あなた　氷晶の聖塔に行きたいの？\n　だったら　恵みの木を越えて\n　さらに　南にあるわよ。": "Well, you...you and Lilcherat were the\nbenefactors who cured the Tree of\nGrace, weren't you? Thank you so much.\n<br>\nYou want to go to the Ice Tower? It's\nfurther south, beyond the Tree of\nGrace."
+  },
+  "116238": {
+    "<attr><feel_happy_one><end_attr>「じつは　私と夫は\n　以前から　子供が　ほしかったんです。\n　けれど　あいにく恵まれなくて……。\n<br>\n「リルチェラが　我が家に　来ることになって\n　いちばん　喜んでいるのは\n　夫かもしれませんね。": "<attr><feel_happy_one><end_attr>Actually, my husband and I had always\nwanted to have a child. But\nunfortunately, we were not blessed\n<br>\nwith a child. My husband is probably\nthe most excited about Lilcherat\ncoming to our home."
+  },
+  "116239": {
+    "<attr><feel_happy_one><end_attr>「オレは　村の少年団のリーダー\n　ジャイム様だっ！\n<br>\n「しょうがねえから　これからは\n　オレ様の子分として　リルチェラを\n　少年団に入れてやることにしたのさ！　へへっ。": "<attr><feel_happy_one><end_attr>I am Jaimu, the leader of the village\nboy gang! So from now on, I'm going to\ntake Lilcherat as my henchman in the\n<br>\nboyband! Heh heh."
+  },
+  "116240": {
+    "<attr><feel_happy_one><end_attr>「ボク　本当に　恵みの木が大好きなんだ。\n　だから　恵みの木が　よくなって\n　本当に　うれしい！\n<br>\n「それに　これからは　リルチェラも\n　この村で暮らすことになったって聞いて\n　もっともっと　うれしいよ！": "<attr><feel_happy_one><end_attr>I really love Tree of Grace. So I'm\nreally happy that Tree of Grace is\ngetting better! And I'm even happier\n<br>\nto hear that Lilcherat will be living\nin this village from now on!"
+  },
+  "116241": {
+    "「私は　村長として　大きな過ちを\n　おかしてしまいました。\n　この償いは　一生かかっても　するつもりです。\n<br>\n「これからは　村のため　リルチェラのために\n　いちばん　正しいと思える選択をしていきたいと\n　思っています。\n<br>\n「<pc>さんは　氷晶の聖塔に\n　行かれるのでしたね。塔へは　恵みの木を越えて\n　南に進んで行くと　たどり着けますよ。": "I have made a huge mistake as chief. I\nintend to make amends for this, even\nif it takes the rest of my life. From\n<br>\nnow on, I will make the choice that I\nthink is right for the village and for\nLilcherat. <pc> is going to\n<br>\nthe Ice Tower, right?"
+  },
+  "116244": {
+    "<attr><feel_happy_one><end_attr>「オイラは　村の少年団　団員２号の\n　リエイグちゃんだぞっ！\n<br>\n「これからはリルチェラも　村で暮らすって聞いて \n　真っ先に　リーダーは　リルチェラを\n　村の少年団に　引き入れようとしてるんだ。\n<br>\n「前から　思ってたけど\n　リーダーって　本当は　リルチェラのこと\n　好きなんじゃないかなぁ……？　にししっ。": "<attr><feel_happy_one><end_attr>I am Rieigu, the second member of the\nvillage boy group! I heard that\nLilcherat will be living in the\n<br>\nvillage from now on, and the leader is\ntrying to recruit Lilcherat into the\nvillage boy group. I've always thought\n<br>\nthat the leader really likes\nLilcherat. Nishish."
+  },
+  "116245": {
+    "<attr><feel_think_one><end_attr>「あたし　もしかして　あの儀式の後から……。\n　でも　試すわけにもいかないし……。う～ん。": "<attr><feel_think_one><end_attr>I wonder if it could be me, from after\nthe ritual. But I can't try. Hmmm..."
+  },
+  "116249": {
+    "<attr><feel_sad_one><end_attr>「ああ……　ダストン様……。\n　何も告げず　村を出ていってしまうなんて……。": "<attr><feel_sad_one><end_attr>Oh, Mr. Duston. I can't believe you\nleft the village without telling me."
+  },
+  "116250": {
+    "<turn_pc>「ねえ　聞いてちょうだい！ \n　ダストン様は　炎の領界に行ってしまわれたの。\n　こうなったら私も　追いかけるべきかしら？": "<turn_pc>Hey, listen to me!Master Duston has\ngone to the Fire Realm. Do you think I\nshould go after him?"
+  },
+  "116252": {
+    "<attr><feel_happy_lv1><end_attr>「まあっ　村を救ってくださった恩人さん。\n　あなたのおかげで　村の食糧不足問題も\n　少しずつ　よくなっていってるの。\n<br>\n「それに　エステラさんのおかげで\n　ナドラガ教団からの　援助が得られて\n　ずいぶんと　助かっているのよ。": "<attr><feel_happy_lv1><end_attr>Ah, the benefactor who saved our\nvillage. Thanks to you, the food\nshortage problem in our village is\n<br>\ngetting better little by little. And\nthanks to Estella's help, the Nadraga\nOrder has been very generous in\n<br>\nhelping us."
+  },
+  "120390": {
+    "<attr><feel_sad_one><end_attr><turn_pc>「次に　ダストン様に　お会いできるのは\n　恵みの儀の時だと思うのよね。\n　でも　儀式の準備は　大丈夫なのかしら……。": "<attr><feel_sad_one><end_attr><turn_pc>I think the next time we will see\nMaster Duston will be during the\nblessing ceremony. But I wonder if we\n<br>\nare ready for the ritual."
+  },
+  "120391": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「なんというか　あの見たこともない\n　もちっとした感じが　たまらないのよね！": "<attr><feel_happy_lv1><end_attr><turn_pc>I just can't get enough of that\nglutinous texture I've never seen\nbefore!"
+  },
+  "125304": {
+    "「ここは　村で唯一の水くみ場なんだ。\n<br>\n「村は　食糧不足で困ってるけど\n　このスクリューで　かきまわしているおかげで\n　水不足にだけは　ならずにすんでいるよ。": "This is the only water pump in the\nvillage. The village is suffering from\nfood shortages, but thanks to the\n<br>\nstirring of this screw, we don't have\nto worry about water shortages."
+  },
+  "125306": {
+    "<attr><feel_happy_one><end_attr>「ここは　村で唯一の水くみ場なんだ。\n　スクリューが　水をかきまわしているおかげで\n　村は水不足にならずに　すんでいたのさ。\n<br>\n「まもなく　恵みの儀が　おこなわれるらしい。\n　これで　ようやく\n　食料不足からも　解放されるんだな。": "<attr><feel_happy_one><end_attr>This is the only water pump in the\nvillage. Thanks to the screw churning\nthe water, the village has never been\n<br>\nshort of water. Soon, a blessing\nceremony will be held. This will\nfinally relieve us from the shortage\n<br>\nof food."
+  },
+  "125307": {
+    "<attr><feel_sad_lv1><end_attr>「ここは　村で唯一の水くみ場なんだ。 \n　このスクリューが　水をかきまわすおかげで\n　村は水不足にならずに　すんでいたんだけど……\n<br>\n「水だけで　生きていくのには限界がある。\n　ダストン様を　失ったら\n　村は　もうおしまいだよ……。": "<attr><feel_sad_lv1><end_attr>This is the only water pump in the\nvillage.Thanks to this screw that\nstirs up the water, the village has\n<br>\nnever been short of water, but there\nis a limit to how long we can survive\non water alone. If we lose Mr. Duston,\n<br>\nthe village will be finished."
+  },
+  "125308": {
+    "<attr><feel_happy_one><end_attr>「ここは　村で唯一の水くみ場なんだ。\n<br>\n「食糧不足で　困っていた時にも\n　村人が　だれひとり　失われずにすんだのは\n　このスクリューの　おかげだと思うな。": "<attr><feel_happy_one><end_attr>This is the only water hole in the\nvillage. I think it is thanks to this\nscrew that no one in the villager\n<br>\ncommunity lost their lives during the\nshortage of food."
+  },
+  "130820": {
+    "<attr><feel_sad_lv1><end_attr>「う～ん……？\n　気を失っている間の　あのフワフワと\n　浮いているような感覚は　なんだったんだろう？": "<attr><feel_sad_lv1><end_attr>Hmmm? What was that floating sensation\nI had while I was unconscious?"
+  },
+  "130821": {
+    "<attr><feel_sad_lv3><end_attr>「おねーちゃん。おなかすいたよう……。\n　えーん　えーん。": "<attr><feel_sad_lv3><end_attr>Onee-chan. I'm hungry. Mmm, mmm."
+  },
+  "130822": {
+    "「おにーちゃんも　ゴハン\n　見つけられなかったんだって。\n　だから　もう少し　まっててね。": "He said he couldn't find any rice,\neither. So please wait a little\nlonger."
+  },
+  "130823": {
+    "<attr><feel_sad_one><end_attr><turn_pc>「ドハジデにーちゃんが　あたしたちのために\n　ゴハン　探しにいってくれたんだけどね。\n　無理して　倒れちゃったの。\n<br>\n「だから　まだ　なーんにも　食べれてないんだ。\n　あー　おなかすいちゃったぁ……。": "<attr><feel_sad_one><end_attr><turn_pc>Dohajide-ni went to look for food for\nus. But he overworked himself and\ncollapsed. That's why I haven't eaten\n<br>\nanything yet. Ah, I'm so hungry."
+  },
+  "130824": {
+    "「ダストン様のご機嫌が　すぐれないのは\n　儀式の準備が　とどこおっていることを\n　気にしているからに　違いありません。\n<br>\n「じつは　あなたに　ご相談があります。\n　伝説の緑の者は　恵みの儀という儀式を行い\n　恵みの木を　再生させるのですが……\n<br>\n「私達では　儀式に必要なものが入手できず\n　困っていたのです。見たところ　あなたは\n　ずいぶんと旅慣れた　手練れのご様子。\n<br>\n「どうでしょう？\n　私達を　助けると思って\n　恵みの儀の準備を　手伝ってくれませんか？\n<br>\n「それに　教団の方が探しているという塔も\n　凍りついた恵みの木によって\n　閉ざされた道の　先にあるんです。\n<br>\n「恵みの木が治れば　塔への道も開かれましょう。\n　……お願いします。 \n　どうか　恵みの儀の準備を手伝ってください。<yesno><break>": "The reason Duston is not in a good\nmood must be because he is concerned\nthat the preparations for the ritual\n<br>\nare out of order. In fact, we have\nsomething to discuss with you. The\nlegendary Green One is to perform a\n<br>\nritual called the Rite of Grace to\nregenerate the Tree of Grace, but we\nhave been unable to obtain the\n<br>\nnecessary items for the ceremony. From\nthe looks of you, you are well-\ntraveled and skilled. What do you\n<br>\nthink? Would you be willing to assist\nus in the preparation of the Blessing\nRitual? And the tower that the\n<br>\ncultists are looking for is at the end\nof the path blocked by the frozen Tree\nof Grace. Once the Tree of Grace is\n<br>\nhealed, the path to the tower will be\nopened. Please help us.Please help us\nprepare for the blessing ceremony.<yesno><break>"
+  },
+  "130825": {
+    "<pc>は\nクリスタルピッケル（だいじなもの）を\n手に入れた！<me 60>": "<pc> received Crystal Pickaxe\n(Key Item)!<me 60>"
+  },
+  "130826": {
+    "<attr><feel_angry_one><end_attr>「おうおうっ。なんだ　お前？ \n　オレは　村の少年団のリーダー\n　ジャイム様だぞっ！\n<br>\n「リルチェラのやつ　許さないぞ！\n　あとで　ぜってぇー\n　仕返ししてやるんだからなっ！": "<attr><feel_angry_one><end_attr>Oh, wow. What are you?I'm Jaimu,\nleader of the village boy band! I\nwon't forgive Lilcherat! I'll get even\n<br>\nwith him later!"
+  },
+  "130827": {
+    "<attr><feel_angry_one><end_attr>「やいやいっ。なんだ　オマエ。\n　オイラは　村の少年団　団員２号の\n　リエイグちゃんだぞっ！\n<br>\n「でも　今は　そんなことはいいんだ。 \n　オイラは　元気ドロボウに　怒ってるんだよ。\n　あんなヤツが　村を歩き回るなんて迷惑なんだ！": "<attr><feel_angry_one><end_attr>No, no, no. Hey, you! I'm Rieigu, the\nsecond member of the village boy band!\nBut that doesn't matter now.I'm just\n<br>\nangry at the \"energy thief\". I don't\nwant him roaming around the village!"
+  },
+  "130828": {
+    "ダストンを探したほうが　よさそうだ。\n村の中に　何か　知っている人がいないか\n話を　聞いてまわってみよう。": "I think we should look for Duston. We\nshould ask around in the village to\nsee if anyone knows anything."
+  },
+  "130829": {
+    "<attr><feel_angry_lv1><end_attr>「あわわ。大変だ～　大変だ～。\n　ダストン様が　いなくなってしまった～。\n　あと　探していないところと言ったら……\n<br>\n「ぶるぶる！\n　も…もういっぺん　村の中を探してみよう！": "<attr><feel_angry_lv1><end_attr>Aww. Oh my God~ Oh my God~ Oh my God~\nMaster Duston is gone! I'm so shaky...\nI'm so shaky! Let's search the village\n<br>\none more time!"
+  },
+  "130830": {
+    "<attr><feel_think_one><end_attr>「私は　ここで　この村を監視しております。\n　さっきから　村の中が\n　さわがしいようですが　何があったのでしょう？\n<br>\n「……そういえば　先ほど\n　頭に花を咲かせた変な男が　身を隠すように\n　村を出ていったんですが　関係あるんですかね？\n<br>\n「どこに向かったのかは　わかりかねますので\n　もし追うなら　村人に話を聞くなりして\n　見当をつけてからのほうが　よいと思いますよ。": "<attr><feel_think_one><end_attr>I am here to watch over the village.\nThere's a lot of noise in the village.\nWhat's going on? I noticed a strange\n<br>\nman with a flower on his head leaving\nthe village earlier, as if to hide. I\ndon't know where he went, so if you\n<br>\nwant to follow him, I suggest you talk\nto the villager and find out what he's\nup to."
+  },
+  "130831": {
+    "<attr><feel_sad_lv3><end_attr>「おねーちゃん。おなかすいたよう……。\n　えーん　えーん。": "<attr><feel_sad_lv3><end_attr>Onee-chan. I'm hungry. Mmm, mmm."
+  },
+  "130832": {
+    "<if_woman><attr><feel_sad_lv3><end_attr>「おねえちゃん　村の子供達に\n　ダストン様のこと　聞いているの？\n<br>\n「でも　ボク　なんにもわかんない～！\n　えーん　えーん。<else><attr><feel_sad_lv3><end_attr>「おにいちゃん　村の子供達に\n　ダストン様のこと　聞いているの？\n<br>\n「でも　ボク　なんにもわかんない～！\n　えーん　えーん。<endif>": "<if_woman><attr><feel_sad_lv3><end_attr>Are you asking the children in the\nvillage about Master Duston? But I\ndon't know anything about it! I don't\n<br>\nknow anything!<else><attr><feel_sad_lv3><end_attr>Are you asking the children in the\nvillage about Master Duston? But I\ndon't know anything about it! I don't\n<br>\nknow anything!<endif>"
+  },
+  "130833": {
+    "「おうおうっ。なんだ　お前？\n　オレは　村の少年団のリーダー\n　ジャイム様だぞっ！\n<br>\n「なんだって！？\n　ダストン様が　いなくなったぁ！？\n　オレは　なんにも　見てないけど……": "Oh, wow. What are you? I'm Jaimu, the\nleader of the village boy band! What?\nMaster Duston is missing? I didn't see\n<br>\nanything."
+  },
+  "130834": {
+    "<icon_exc>「へっへへん！　少年団員はな　オレとリエイグの\n　ふたりだけじゃないんだ。もしかしたら\n　ほかの団員が　何か知ってるかもしれない！\n<br>\n「村の子供は　みーんな　団員だから\n　子供を見かけたら　話を聞いてみろよ！\n　もちろん　ジャイム様の命令だって言うんだぞ！": "<icon_exc>Heh heh heh! I and Rieigu aren't the\nonly two members of the boyband. Maybe\nsome of the other members know\n<br>\nsomething! Every kid in the village is\na member of the group, so if you see a\nkid, ask him or her about it! Of\n<br>\ncourse, tell them it was Jaimu-sama's\norder!"
+  },
+  "130835": {
+    "「ダストン様が　いなくなっただなんて\n　それは　村の一大事！\n　しょうがねぇから　村の少年団も協力してやる！\n<br>\n「村の子供は　みーんな　団員だから\n　子供を見かけたら　話を聞いてみろよ！\n　もちろん　ジャイム様の命令だって言うんだぞ！": "Master Duston is gone. That's a big\ndeal for the village! The village boy\nband is going to help out! All the\n<br>\nkids in the village are members of the\ngroup, so if you see a kid, ask him\nabout it! Of course, tell them it's\n<br>\nJaimu-sama's order!"
+  },
+  "130836": {
+    "<attr><feel_happy_lv1><end_attr>「ダストン様が　恵みの木をなおしたら\n　今に　おなか　いーっぱい\n　ゴハン　食べられるようになるよ！": "<attr><feel_happy_lv1><end_attr>If Master Duston fixes the Tree of\nGrace, you will be able to eat a lot\nof rice right now!"
+  },
+  "130837": {
+    "<attr><feel_sad_lv3><end_attr><turn_pc>「えっ！？　ダストン様　いなくなったの！？\n　じゃあ　あたしたち\n　もう　なんにも　食べられないんだ。うわ～ん。": "<attr><feel_sad_lv3><end_attr><turn_pc>What? Master Duston is gone? Then we\nwon't be able to eat anything anymore.\nUgh~."
+  },
+  "130838": {
+    "<if_woman><attr><feel_sad_lv3><end_attr><turn_pc>「えっ！？　ダストン様　いなくなったの！？\n　それで　お姉さん\n　村の少年団から　話を聞いているのかぁ。\n<br>\n「ごめんね。あたし　ダストン様が\n　どこに　行ったかは　わからないの。\n　でも　ほかの団員のことなら　教えてあげるよ！\n<br>\n「ジャイムでしょー　リエイグでしょー\n　あたしでしょー　ゲハジデでしょー。\n　それからねぇ……　ヤミーちゃん！！\n<br>\n「ヤミーちゃんは　きっと\n　自分のお家に　いると思うんだ。\n　もし　話を聞いてないなら　行ってみたら？<else><attr><feel_sad_lv3><end_attr><turn_pc>「えっ！？　ダストン様　いなくなったの！？\n　それで　お兄さん\n　村の少年団から　話を聞いているのかぁ。\n<br>\n「ごめんね。あたし　ダストン様が\n　どこに　行ったかは　わからないの。\n　でも　ほかの団員のことなら　教えてあげるよ！\n<br>\n「ジャイムでしょー　リエイグでしょー\n　あたしでしょー　ゲハジデでしょー。\n　それからねぇ……　ヤミーちゃん！！\n<br>\n「ヤミーちゃんは　きっと\n　自分のお家に　いると思うんだ。\n　もし　話を聞いてないなら　行ってみたら？<endif>": "<if_woman><attr><feel_sad_lv3><end_attr><turn_pc>What? Master Duston is gone! So,\nsister, you're hearing from the boy\nband in the village. I'm sorry. I\n<br>\ndon't know where Master Duston went.\nBut I can tell you about the other\nmembers! You must be Jaimu, Rieigu,\n<br>\nme, Gehajide... And hey, Yami! I'm\nsure Yami is at her house. If you\nhaven't heard anything, why don't you\n<br>\ngo there?<else><attr><feel_sad_lv3><end_attr><turn_pc>What? Master Duston is gone! So, your\nbrother is hearing from the village\nboy band. I'm sorry. I don't know\n<br>\nwhere Master Duston went. But I can\ntell you about the other members! You\nmust be Jaimu, Rieigu, me, Gehajide...\n<br>\nAnd hey, Yami! I'm sure Yami is at her\nhouse. If you haven't heard anything,\nwhy don't you go there?<endif>"
+  },
+  "130839": {
+    "<attr><feel_think_one><end_attr>「村をあげて　丁重に　もてなしていたというのに\n　なんだって　ダストン様は\n　いなくなってしまったんだろう……。": "<attr><feel_think_one><end_attr>The whole village had been hospitable\nto him, but what happened to Duston-\nsama?"
+  },
+  "130840": {
+    "「ダストン様がいなくなったこと　聞きましたよ。\n　私は　すぐにでも　村長と一緒に\n　ダストン様を　探しにいくつもりです。": "I heard about the disappearance of Mr.\nDuston. I am going with chief to look\nfor Duston immediately."
+  },
+  "130841": {
+    "「やいやいっ。なんだ　オマエ。\n　オイラは　村の少年団　団員２号の\n　リエイグちゃんだぞっ！\n<br>\n「ん……？　オマエ　困ったような顔してんな。\n　困った時は　村の少年団に相談だ！\n　オイラのとなりのリーダーに　話してみろよ！": "No, no, no. Hey, you! I'm Rieigu,\nvillage boy group member #2! Hm? You\nlook like you're in trouble. If you're\n<br>\nin trouble, talk to the Village Boyz!\nTalk to the leader next to me!"
+  },
+  "130842": {
+    "「やいやいっ。なんだ　オマエ。\n　オイラは　村の少年団　団員２号の\n　リエイグちゃんだぞっ！\n<br>\n「ええっ！？　ダストン様がいなくなったぁ！？\n　オイラは　見てないなぁ。\n　リーダーと話してたから　気づかなかったよ。": "No, no, no. Hey, you! I'm Rieigu-chan,\nthe second member of the village boy\nband! What? Master Duston is gone! I\n<br>\nhaven't seen him. I didn't notice\nbecause I was talking to the leader."
+  },
+  "130843": {
+    "<attr><feel_sad_lv1><end_attr>「ダストン様がいなくなったと　聞いた時は \n　言葉が　出てこなかったよ。\n　早く　見つかれば　いいんだけど……。": "<attr><feel_sad_lv1><end_attr>I was speechless when I heard that\nDuston was missing. I hope they find\nhim soon."
+  },
+  "130844": {
+    "<attr><feel_sad_one><end_attr>「ここは　村で唯一の水くみ場なんだ。\n　スクリューが　水をかきまわしているおかげで\n　村は水不足にならずに　すんでいたんだけど……\n<br>\n「水だけで　生きていくのには限界がある。\n　ダストン様が　見つからないと\n　村は　もうおしまいだよ……。": "<attr><feel_sad_one><end_attr>This is the only water pump in the\nvillage. Thanks to the screw stirring\nup the water, the village has been\n<br>\nable to survive without running out of\nwater, but there is a limit to how\nlong we can survive on water alone.\n<br>\nWithout Mr. Duston, the village is\ndoomed."
+  },
+  "130845": {
+    "<attr><feel_sad_one><end_attr>「恵みの儀を行う予定だった　ダストン様が\n　いなくなってしまったんだと……。\n<br>\n「これじゃあ　儀式の準備をしたって \n　何の意味もないじゃないか……。\n　村の希望は　ついえたんだよ……。": "<attr><feel_sad_one><end_attr>I heard that Master Duston, who was\nsupposed to perform the blessing\nceremony, had disappeared. What's the\n<br>\npoint of preparing for the ritual if\nhe's gone? The village's hope was\nfulfilled."
+  },
+  "130846": {
+    "<attr><feel_sad_one><end_attr>「ああ……　ダストン様……。\n　うるわしき　お姿を　もっともっと\n　みつめていたかったのに……　どうして……？": "<attr><feel_sad_one><end_attr>Oh, Mr. Duston. I wanted to see you\nmore and more, but why?"
+  },
+  "130847": {
+    "<attr><feel_sad_one><end_attr><turn_pc>「村長の家にいたはずの　ダストン様が\n　いなくなってしまったんですって。\n　ああ……。もう　この村は終わりだわ……。": "<attr><feel_sad_one><end_attr><turn_pc>I heard that Mr. Duston, who was\nsupposed to be at Chief's house, has\ndisappeared. Ah. This village is\n<br>\nfinished."
+  },
+  "130848": {
+    "<attr><feel_sad_one><end_attr>「ああ……　神よ。\n　我らの救世主　ダストン様を\n　お返しください……。": "<attr><feel_sad_one><end_attr>Oh, God. Give us back our savior, Mr.\nDuston."
+  },
+  "130849": {
+    "<if_woman>「あたし　リルチェラちゃんと友達になりたい！\n　でも　ママもパパも　ダメだって言うの……。\n　どうしてかな？　つまんないよー。\n<br>\n「ええっ　お姉ちゃん\n　ダストン様のこと　探してるの！？\n<br>\n「うんとね。ダストン様も　あたしと　おんなじで\n　リルチェラちゃんと　遊びたかったみたいなの。\n　もしかしたら　会いにいったのかもよ？\n<br>\n「リルチェラちゃんはね　村から東にある\n　小さなほら穴に　住んでるんだ。\n　村の子とは　あまり会ってくれないんだけど……\n<br>\n「前に　おうちの扉を３回ノックして　大きな声で\n　おままごとしましょー！　って言ったら\n　扉を開けて　少しだけお話ししてくれたんだよ。<else>「あたし　リルチェラちゃんと友達になりたい！\n　でも　ママもパパも　ダメだって言うの……。\n　どうしてかな？　つまんないよー。\n<br>\n「ええっ　お兄ちゃん\n　ダストン様のこと　探してるの！？\n<br>\n「うんとね。ダストン様も　あたしと　おんなじで\n　リルチェラちゃんと　遊びたかったみたいなの。\n　もしかしたら　会いにいったのかもよ？\n<br>\n「リルチェラちゃんはね　村から東にある\n　小さなほら穴に　住んでるんだ。\n　村の子とは　あまり会ってくれないんだけど……\n<br>\n「前に　おうちの扉を３回ノックして　大きな声で\n　おままごとしましょー！　って言ったら\n　扉を開けて　少しだけお話ししてくれたんだよ。<endif>": "<if_woman>I want to be friends with Lilcherat!\nBut my mom and dad say I can't. Why is\nthat? It's so boring! You're looking\n<br>\nfor Master Duston? Duston wanted to\nplay with Lilcherat just like me.\nMaybe she went to see him? Lilcherat\n<br>\nlives in Small Cave, east of the\nvillage. She doesn't meet many\nchildren from the village, but once\n<br>\nshe knocked on the door three times\nand said in a loud voice, \"Let's play\nhouse! they opened the door and talked\n<br>\nto me for a little while.<else>I want to be friends with Lilcherat!\nBut my mom and dad say I can't. Why is\nthat? It's so boring! Are you looking\n<br>\nfor Master Duston? Duston wanted to\nplay with Lilcherat just like me.\nMaybe he went to see her? Lilcherat\n<br>\nlives in Small Cave, east of the\nvillage. She doesn't meet many\nchildren from the village, but once\n<br>\nshe knocked on the door three times\nand said in a loud voice, \"Let's play\nhouse! they opened the door and talked\n<br>\nto me for a little while.<endif>"
+  },
+  "130850": {
+    "「リルチェラちゃんはね　村から東にある\n　小さなほら穴に　住んでるんだ。\n　村の子とは　あまり会ってくれないんだけど……\n<br>\n「前に　おうちの扉を３回ノックして　大きな声で\n　おままごとしましょー！　って言ったら\n　扉を開けて　少しだけお話ししてくれたんだよ。\n<br>\n「ダストン様も　あたしと　おんなじで\n　リルチェラちゃんと　遊びたかったみたいだから\n　もしかしたら　会いにいったんじゃないかなぁ。": "Lilcherat lives in Small Cave, east of\nthe village. She doesn't meet many\nchildren from the village, but when I\n<br>\nknocked on her door three times and\nsaid in a loud voice, \"Let's play\nhouse! and they opened the door and\n<br>\ntalked to us for a little while. It\nseems Master Duston wanted to play\nwith Lilcherat just like me, so maybe\n<br>\nhe went to see her."
+  },
+  "130851": {
+    "<attr><feel_happy_one><end_attr>「ダストン様が　恵みの木をなおしてくれるから\n　もうすぐ　おなか　いーっぱい\n　ゴハン　食べられるようになるよ！": "<attr><feel_happy_one><end_attr>Master Duston is going to fix the Tree\nof Grace, and soon I will be able to\neat a lot of rice!"
+  },
+  "130852": {
+    "<if_woman>「あっ　お姉ちゃん。\n　ダストン様には　会えた？\n<br>\n「あたしが　前に\n　リルチェラちゃんのおうちに　行ったことは\n　ママとパパには　ないしょにしてね。<else>「あっ　お兄ちゃん。\n　ダストン様には　会えた？\n<br>\n「あたしが　前に\n　リルチェラちゃんのおうちに　行ったことは\n　ママとパパには　ないしょにしてね。<endif>": "<if_woman>Oh, sis. Did you meet Mr. Duston?\nDon't tell Mom and Dad that I went to\nLilcherat's house before.<else>Oh, big brother. Did you meet Mr.\nDuston? Don't tell Mom and Dad that I\nwent to Lilcherat's house before.<endif>"
+  },
+  "130853": {
+    "<attr><feel_sad_lv1><end_attr>「私は　年の離れた　妹と弟のために\n　食糧を持ちかえろうと　村を出たのですが\n　途中で　いきだおれてしまったのです。\n<br>\n「炎の領界から　やって来たという\n　美しい女性神官のおかげで\n　命を　救われました……。\n<br>\n「体調が　万全ではないため　恵みの儀には\n　行かなかったのですが……緑の者が　地中に\n　連れさられたと聞きました。大丈夫でしょうか。": "<attr><feel_sad_lv1><end_attr>I had left the village to bring food\nfor my younger sister and brother, but\non the way, I collapsed. I was saved\n<br>\nby a beautiful female priestess from\nthe Fire Realm. I didn't go to the\nblessing ceremony because I wasn't\n<br>\nfeeling well, but I heard that a green\nman was taken underground. I hope she\nis okay."
+  },
+  "130854": {
+    "<attr><feel_sad_lv3><end_attr>「うわ～ん。ダストン様～。\n　ダストン様が　恵みの儀をしてくれないと\n　あたしたち　なんにも　食べられないよ～。": "<attr><feel_sad_lv3><end_attr>Oh my god, Duston-sama~! If Duston-\nsama doesn't perform the blessing\nceremony, we won't be able to eat\n<br>\nanything!"
+  },
+  "130855": {
+    "<attr><feel_happy_one><end_attr>「私は　年の離れた　妹と弟のために\n　食糧を持ちかえろうと　村を出たのですが\n　途中で　いきだおれてしまったのです。\n<br>\n「炎の領界から　やって来たという\n　美しい女性神官のおかげで\n　命を　救われました……。\n<br>\n「体調が　万全ではないため　恵みの儀には\n　行かなかったのですが……\n　恵みの木が治ったと聞き　本当に安心しました。": "<attr><feel_happy_one><end_attr>I had left the village to bring food\nfor my younger sister and brother, but\non the way, I collapsed. I was saved\n<br>\nby a beautiful Priestess from the Fire\nRealm. I did not go to the blessing\nceremony because I was not in perfect\n<br>\nhealth, but I was so relieved to hear\nthat Tree of Grace was healed."
+  },
+  "130856": {
+    "<attr><feel_happy_lv3><end_attr>「わーい　わーい！\n　これからは　おなかいっぱい\n　ゴハンが　食べられるよう～！！": "<attr><feel_happy_lv3><end_attr>Yay, yay, yay! From now on, I'm going\nto be able to eat a full meal~!"
+  },
+  "130857": {
+    "<attr><feel_happy_lv3><end_attr>「やったー！　恵みの木が　なおったから\n　これからは　もう　おなかがすいて\n　ひもじい思いを　しなくてすむんだよね。": "<attr><feel_happy_lv3><end_attr>Yay! Now that the Tree of Grace is\nfixed, I won't have to suffer from\nhunger pangs anymore."
+  },
+  "131332": {
+    "「じつは　私と夫は\n　以前から　子供が　ほしかったんです。\n　けれど　あいにく恵まれなくて……。\n<br>\n「リルチェラが　我が家に　来ることになって \n　いちばん　喜んでいるのは\n　夫かもしれませんね。\n<br>\n「それで　夫や村の皆と相談し \n　リルチェラを　我が家に迎える　記念として\n　あたたかいふとんを　贈ることにしたのです。\n<br>\n「ですが　それには　問題があって……。 \n　ふとん作りのために　<pc>さんの\n　チカラを　お借りできませんか？": "Actually, my husband and I had always\nwanted to have a child. But\nunfortunately, we were not blessed\n<br>\nwith a child. My husband is probably\nthe most excited about Lilcherat\ncoming to our home. So, after\n<br>\nconsulting with my husband and\neveryone in the village, we decided to\nsend Lilcherat a warm comforter as a\n<br>\nmemorial gift to welcome her into our\nhome. But there was a problem.Can you\nhelp us to make the futon?"
+  },
+  "131333": {
+    "<attr><feel_happy_one><end_attr>「重ね重ね　ありがとうございます。\n　アヴィーロ遺跡で　魔獣イーギュアを倒した\n　<pc>さんなら　安心ですわ。\n<br>\n「私達　イーサの村の民は　白霜の流氷野にいる\n　<%sEV_QUE_NAME1>の　羽毛を集めて\n　寒さに負けない　おふとんを作っているんです。\n<br>\n「ところが　魔獣イーギュアの生き残りが\n　白霜の流氷野にまで　現れて\n　羽毛が　集められなくなってしまいましたの。\n<br>\n「その生き残り……<%sEV_QUE_NAME0>は\n　悪魔じみた　凶暴さを宿しており　村人や\n　教団の方にも　少なからぬ被害が出ています。\n<br>\n「もしも　ご無理でなければ　白霜の流氷野にいる\n　<%sEV_QUE_NAME0>を倒して　その証に\n　牙を　持ちかえっていただけませんか？\n<br>\n「ただ　今回は　本当に危険な相手…… \n　討伐の代わりに　<%sEV_QUE_NAME1>の羽毛を\n　<%nEV_QUE_T_NUM1>個　集めていただいても　かまいません。\n<br>\n「<%sEV_QUE_NAME0>の　討伐か\n　<%sEV_QUE_NAME1>の羽毛を　<%nEV_QUE_T_NUM1>個集めるか\n　お好きなほうを　おまかせいたしますね。": "<attr><feel_happy_one><end_attr>Thanks again. You can rest easy\n<pc> having defeated\nRapscallion in Aviro Ruins. We, the\n<br>\npeople of Ether Village, have been\ncollecting the feathers of the\n<%sev_que_name1> in the Frosty Ice\n<br>\nField and making cold-weather bedding.\nHowever, the survivors of the\nRapscallion have reached the Frosty\n<br>\nIce Field, and they can no longer\ncollect the feathers. The survivor\n<%sEV_QUE_NAME0> has developed a\n<br>\ndemon-like ferocity that has caused a\ngreat deal of damage to villagers and\ncultists. If it is not too much to\n<br>\nask, would you be willing to defeat\n<%sEV_QUE_NAME0> in the Frosty Ice\nField and bring back his fangs to\n<br>\nprove it? But this time, instead of\ntaking down a truly dangerous\nopponent, you may collect\n<br>\n<%sev_que_name1>'s <%nev_que_t_num1>\nfeathers. We will leave it to you to\nchoose between defeating\n<br>\n<%sEV_QUE_NAME0> or collecting\n<%sEV_QUE_NAME1> <%nev_que_t_num1>\nfeathers."
+  },
+  "131334": {
+    "「重ね重ね　ありがとうございます。\n　ですが　<pc>さんは　頼まれごとが\n　たまっておられるようですわ。\n<br>\n「どうか　お手がすきましたら\n　私達のお願いを　聞いていただけますか。": "Thank you again. But it seems that\n<pc> has a lot of requests.\nIf you are free, could you please do\n<br>\nus a favor?"
+  },
+  "131335": {
+    "「まあ　<pc>さん。\n　リルチェラの　ふとん作りの　手伝いを\n　引き受けてくださって　ありがとうございます。\n<br>\n「私達　イーサの村の民は　白霜の流氷野にいる\n　<%sEV_QUE_NAME1>の　羽毛を集めて\n　寒さに負けない　おふとんを作っているんです。<open_irai><bw_break>": "Well <pc>. Thank you for\ntaking on the task of helping\nLilcherat make his futons. We Ether\n<br>\nVillage folk are collecting feathers\nfrom the <%sev_que_name1> in the\nFrosty Ice Field and making cold-\n<br>\nweather comforters.<open_irai><bw_break>"
+  },
+  "131336": {
+    "「ところが　魔獣イーギュアの生き残りが\n　白霜の流氷野にまで　現れて\n　羽毛が　集められなくなってしまいましたの。\n<br>\n「その生き残り……<%sEV_QUE_NAME0>は\n　悪魔じみた　凶暴さを宿しており　村人や\n　教団の方にも　少なからぬ被害が出ています。\n<br>\n「もしも　ご無理でなければ　白霜の流氷野にいる\n　<%sEV_QUE_NAME0>を倒して　その証に\n　牙を　持ちかえっていただけませんか？\n<br>\n「ただ　今回は　本当に危険な相手…… \n　討伐の代わりに　<%sEV_QUE_NAME1>の羽毛を\n　<%nEV_QUE_T_NUM1>個　集めていただいても　かまいません。\n<br>\n「<%sEV_QUE_NAME0>の　討伐か\n　<%sEV_QUE_NAME1>の羽毛を　<%nEV_QUE_T_NUM1>個集めるか\n　お好きなほうを　おまかせいたしますね。": "However, the survivors of the\nRapscallion have appeared in the\nFrosty Ice Field, making it impossible\n<br>\nto collect their feathers. The\nsurvivor, <%sEV_QUE_NAME0>, has\ndeveloped a demon-like ferocity that\n<br>\nhas caused considerable damage to\nvillagers and cultists alike. If it is\nnot too much to ask, would you be\n<br>\nwilling to defeat <%sEV_QUE_NAME0> in\nthe Frosty Ice Field and bring back\nhis fangs to prove it? But this time,\n<br>\ninstead of taking down a truly\ndangerous opponent, you may collect\n<%sev_que_name1> <%nev_que_t_num1>\n<br>\nfeathers. We will leave it to you to\nchoose between defeating\n<%sEV_QUE_NAME0> or collecting\n<br>\n<%sEV_QUE_NAME1> <%nev_que_t_num1>\nfeathers."
+  },
+  "131337": {
+    "<attr><feel_happy_one><end_attr><icon_exc>「そ…それは　イーギュアの大牙！？\n　何人もが牙の犠牲になった　あの凶悪な魔獣を\n　倒してくださったというのですか……！？\n<br>\n「じつは　この大牙に　せいすいを振りかけて\n　持っていれば　大魔獣イーギュアは\n　近づいてこないのです。\n<br>\n「これで　おふとんの材料を集めに行けますわ。\n　リルチェラも　村の皆も　よろこびます！\n　それでは　お渡しいただけますでしょうか？": "<attr><feel_happy_one><end_attr><icon_exc>Eagle's Greatfang! You mean to say\nthat you have defeated that vicious\nmonster whose fangs have killed many\n<br>\npeople? As a matter of fact, if you\nsprinkle Holy Water on this great fang\nand hold it, Giga Rapscallion will not\n<br>\ncome near it. Now I can go and gather\nmaterials for my futon. Lilcherat and\neveryone in the village will be\n<br>\npleased! Now then, would you please\nhand it over?"
+  },
+  "131338": {
+    "<attr><feel_happy_one><end_attr><icon_exc>「ま…まさか！！　<pc>さん！\n　ホンワカ羽毛を　<%nEV_QUE_T_NUM1>個も\n　集めてくださったのですか……！？\n<br>\n「<pc>さんは　なんと　根気強く\n　優しい　お方でしょう……。\n　それでは　お渡しいただけますでしょうか？": "<attr><feel_happy_one><end_attr><icon_exc>Mamasama! <pc>! You have\ncollected <%nev_que_t_num1> Snuggly\nFeathers! What a patient and kind man\n<br>\nyou are, <pc>. Now, would you\nhand them over to me?"
+  },
+  "131339": {
+    "<attr><feel_happy_lv3><end_attr><icon_exc>「ま…まさか　イーギュアの大牙と\n　ホンワカ羽毛の　両方を\n　手に入れてきてくださったのですか！？\n<br>\n「お強い上に　優しく　根気を持ち合わせるなんて\n　目から竜のうろこが落ちるほど　感動しました。\n　では　両方を　いただいてもよろしいですか？": "<attr><feel_happy_lv3><end_attr><icon_exc>You have obtained both Eagle's\nGreatfang and Snuggly Feather? I am so\nimpressed by your strength, kindness,\n<br>\nand patience that the Dragon Scale\nfell from my eyes. May I have both?"
+  },
+  "131340": {
+    "「あら　私ったら……\n　急かしてしまって　ごめんなさいね。": "Oh, I'm sorry for rushing you."
+  },
+  "131341": {
+    "<attr><feel_happy_one><end_attr>「あなたに　心から　感謝いたします。\n　<pc>さんのおかげで　リルチェラに\n　あたたかいふとんを　作ってあげられそうです。\n<br>\n「こちらは　<pc>さんの\n　はたらきに比べたら　ささいなものになりますが\n　お礼に　もらってください。": "<attr><feel_happy_one><end_attr>Thank you from the bottom of my heart.\nThanks to <pc>, I will be\nable to make a warm futon for\n<br>\nLilcherat. This is a small thing\ncompared to what <&13_aaaaaaad> has\ndone for us, but please take it as a\n<br>\nthank you."
+  },
+  "131342": {
+    "<attr><feel_happy_one><end_attr>「イーサの村では　ふとんというのは\n　寒さから命を守る　本当に大切なものですから\n　子を授かった時　最高の１枚をこしらえますの。\n<br>\n「リルチェラは　もう赤ちゃんではないけれど \n　他の子供たちが　当たり前に受け取った\n　しあわせを　味わわせてあげたいんです。\n<br>\n「この贈り物だけで　心が近づくとは思いませんが\n　ほんのささやかなことの　積み重ねが\n　家族を形作っていくのだと　私は信じています。\n<br>\n「そんな　小さなありがとうを \n　たくさんたくさん　重ねていって　いつか\n　この村が　あたたかいと思ってくれたら……\n<br>\n「いつか　本当の家族になれたら……。\n<br>\n「その日を夢見て　あの子と過ごす日々を\n　大切にしていこうと思います。": "<attr><feel_happy_one><end_attr>At Ether Village, a futon is a truly\nprecious item that protects you from\nthe cold, so when we have a baby, we\n<br>\nmake sure it's the best one we can\nafford. Lilcherat is no longer a baby,\nbut we want her to experience the\n<br>\nhappiness that other children have\ntaken for granted. I don't think this\ngift alone will bring us closer\n<br>\ntogether, but I do believe that it is\nthe little things that add up to make\na family. If we accumulate many, many\n<br>\nsuch small thank yous, and one day\nthis village will feel warm, one day\nwe will become a real family. I will\n<br>\ncherish every day I spend with her,\ndreaming of that day."
+  },
+  "131343": {
+    "ヒヤーネに　イーギュアの大牙を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Eagle's Greatfang to\nHyane?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "131344": {
+    "ヒヤーネに　ホンワカ羽毛の束を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to give Hyane the\nSnuggly Feather Bundle?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "131345": {
+    "ヒヤーネに　イーギュアの大牙と\nホンワカ羽毛の束を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Hyane the Eagle's\nGreatfang and Snuggly Feather Bundle?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "131346": {
+    "<pc>は　ヒヤーネに\n手に入れてきたものを　渡した！": "<pc> gave Hyane what he had\ngotten!"
+  },
+  "131347": {
+    "<attr><feel_happy_one><end_attr>「<pc>さんの　おかげで\n　リルチェラ用の　ふとんを\n　村の皆で　作っているところなのですよ。\n<br>\n「イーサの村では　ふとんというのは\n　寒さから命を守る　本当に大切なものですから\n　子を授かった時　最高の１枚をこしらえますの。\n<br>\n「リルチェラは　もう赤ちゃんではないけれど \n　他の子供たちが　当たり前に受け取った\n　しあわせを　味わわせてあげたいんです。\n<br>\n「この贈り物だけで　心が近づくとは思いませんが\n　ほんのささやかなことの　積み重ねが\n　家族を形作っていくのだと　私は信じています。\n<br>\n「そんな　小さなありがとうを \n　たくさんたくさん　重ねていって　いつか\n　この村が　あたたかいと思ってくれたら……\n<br>\n「いつか　本当の家族になれたら……。\n<br>\n「その日を夢見て　あの子と過ごす日々を\n　大切にしていこうと思います。": "<attr><feel_happy_one><end_attr>Thanks to <pc>, we are in the\nprocess of making futons for\nLilcherat. In Ether Village, a futon\n<br>\nis a truly precious item that protects\nyou from the cold, so when we have a\nbaby, we make the best one we can.\n<br>\nLilcherat may not be a baby anymore,\nbut we want her to have the happiness\nthat other children have taken for\n<br>\ngranted. I don't think this gift alone\nwill bring us closer together, but I\ndo believe that it is the little\n<br>\nthings that add up to make a family.\nIf we accumulate many, many such small\nthank yous, and one day this village\n<br>\nwill feel warm, one day we will become\na real family. I will cherish every\nday I spend with her, dreaming of that\n<br>\nday."
+  },
+  "131350": {
+    "「まあ……それは　残念です。\n　<pc>さんに　頼りきりではいけませんし\n　私達でも　何かできないか考えてみますわ。": "Well, that's a shame. We can't rely on\n<pc> all the time, and I'll\nsee what we can do."
+  },
+  "131688": {
+    "<icon_exc><turn_pc>「あ。旅の方でしたか。失礼しました。\n　私は　今　療養中でして。\n　というのも……\n<br>\n「年の離れた　妹と弟のために\n　食糧を持ちかえろうと　村を出たのですが\n　途中で　いきだおれてしまったのです。\n<br>\n「炎の領界から　やって来たという\n　美しい女性神官のおかげで\n　命を　救われました……。\n<br>\n「村に戻った後も　私が　落ち着くまで\n　手厚く介抱してくださって……。\n　炎の領界の女性は　心まで温かいのですね。": "<icon_exc><turn_pc>Ah. You are a traveler? I apologize. I\nam currently undergoing medical\ntreatment. I left the village to bring\n<br>\nfood for my younger sister and\nbrother, but I collapsed on the way. I\nwas saved by a beautiful Priestess\n<br>\nfrom the Fire Realm. After we returned\nto the village, she took good care of\nme until I calmed down. Fire Realm\n<br>\nwomen are warm to the core, aren't\nthey?"
+  },
+  "131689": {
+    "<turn_pc>「私は　年の離れた　妹と弟のために\n　食糧を持ちかえろうと　村を出たのですが\n　途中で　いきだおれてしまったのです。\n<br>\n「炎の領界から　やって来たという\n　美しい女性神官のおかげで\n　命を　救われました……。\n<br>\n「村に戻った後も　私が　落ち着くまで\n　手厚く介抱してくださって……。\n　炎の領界の女性は　心まで温かいのですね。": "<turn_pc>I had left the village to bring food\nfor my younger sister and brother, but\non the way, I collapsed. I was saved\n<br>\nby a beautiful Priestess from the Fire\nRealm. After we returned to the\nvillage, she took good care of me\n<br>\nuntil I calmed down. Fire Realm women\nare warm to the core, aren't they?"
+  },
+  "131690": {
+    "<attr><feel_sad_one><end_attr>「この氷に囲まれた世界は　そりゃあ寒いけどさ\n　ここで生まれた　おれ達なら　耐えられるし\n　今までだって　なんとか　生活できてた。\n<br>\n「でもさ　ハラが減るのは　ダメだ。\n　こればっかりは　耐えられねぇよ。": "<attr><feel_sad_one><end_attr>It's cold in this icy world, but we\nwho were born here can stand it, and\nwe've managed to live here until now.\n<br>\nBut, I can't lose my belly. I just\ncan't stand it."
+  },
+  "131691": {
+    "「それに　あなたの　その姿……！\n　緑の者と　見間違うほどの　それっぽさ！\n　ダストン様と同じく　異世界からの客人ですか。<bw_break>": "And your appearance! You look so much\nlike a green man! Are you a guest from\nanother world like Mr. Duston?<bw_break>"
+  },
+  "131692": {
+    "「それに　あなたの　その姿…… \n　私達　竜族とは　違うようです。\n　ダストン様と同じく　異世界からの客人ですか。<bw_break>": "And your appearance seems to be\ndifferent from us dragon people. Are\nyou a guest from another world like\n<br>\nMr. Duston?<bw_break>"
+  },
+  "131693": {
+    "「うーん……　わかりました。仕方ありません。\n　本来なら　儀式の準備のため会えないのですが\n　ダストン様に　会うことを　許可しましょう。\n<br>\n「ダストン様は　２階の部屋におりますよ。 \n　ただし　話が終わったら　ここに\n　戻ってきてください。お願いしますよ。": "Hmm. Okay. I don't have a choice.\nNormally, I would not be able to see\nyou because of the ritual\n<br>\npreparations, but I will allow you to\nsee Master Duston. Master Duston is\nupstairs in his room.But please come\n<br>\nback here when you are finished.\nPlease do."
+  },
+  "131694": {
+    "<attr><feel_think_lv1><end_attr>ダストンと話し終わったので\n村長の所へ　戻ったほうが　よさそうだ。": "<attr><feel_think_lv1><end_attr>Now that I'm done talking to Duston, I\nshould probably head back to the\nchief's office."
+  },
+  "131695": {
+    "「この氷に囲まれた世界は　そりゃあ寒いけどさ\n　ここで生まれた　おれ達なら　耐えられるし\n　今までだって　なんとか　生活できてた。\n<br>\n「でもさ　ハラが減るのは　ダメだ。\n　こればっかりは　耐えられねぇよ。\n<br>\n「早く　恵みの儀をしたいところだけど……\n　恵みの儀で使う　極光の魔鉱石を\n　入手するのは　難しいだろうなぁ。\n<br>\n「えっ！？　おめえさんが極光の魔鉱石を採りに？\n　あそこに住み着いた魔物どもは　とても凶悪で\n　村の男達じゃ　歯が立たなかったんだよ！": "It's cold in this icy world, but we\nwho were born here can stand it, and\nwe've managed to live here until now.\n<br>\nBut, I can't lose my belly. I just\ncan't stand it. I'd like to do the\nblessing ceremony soon, but it'll be\n<br>\ndifficult to get the Aurora Orealis\nfor the blessing ceremony. What? You\nwent to get Aurora Orealis? The\n<br>\nmonsters that live there are so\nvicious that the men in the village\nare no match for them!"
+  },
+  "131696": {
+    "「この氷に囲まれた世界は　そりゃあ寒いけどさ\n　ここで生まれた　おれ達なら　耐えられるし\n　今までだって　なんとか　生活できてた。\n<br>\n「でもさ　ハラが減るのは　ダメだ。\n　こればっかりは　耐えられねぇよ。\n　早く　ダストン様を　引きあげなくちゃ！": "It's cold in this icy world, but we\nwho were born here can stand it, and\nwe've managed to live here until now.\n<br>\nBut, I can't lose my belly. I just\ncan't stand it. We have to get Duston\nback soon!"
+  },
+  "131697": {
+    "「どうやら　ダストン様は　ご自身の頭に\n　恵みの木の花が　引っかかっていたことに\n　ずーっと　気づいていなかったみたいなんだ。\n<br>\n「指摘したら　すぐに　引っこ抜いて\n　そんな大事なものなら　いらねえですッ！　って\n　リルチェラに　渡していたよ。\n<br>\n「村人の誰もが　あの花を見て　ダストン様こそ\n　伝説の緑の者だって　勘違いしたってのに\n　なんだか　拍子抜けしちゃったなぁ……。": "It seems that Master Duston had not\nnoticed that the Tree of Grace flower\nwas stuck in his head for a long time.\n<br>\nWhen I pointed it out, he immediately\npulled it out and gave it to\nLilcherat, saying, \"If it's that\n<br>\nimportant, I don't want it! He gave it\nto Lilcherat. I was kind of\ndisappointed that all the villagers\n<br>\nsaw the flower and thought that Mr.\nDuston was the legendary green one."
+  },
+  "131741": {
+    "「この氷に囲まれた世界は　そりゃあ寒いけどさ\n　ここで生まれた　おれ達なら　耐えられるし\n　今までだって　なんとか　生活できてた。\n<br>\n「でもさ　ハラが減るのは　ダメだ。\n　こればっかりは　耐えられねぇよ。\n<br>\n「えっ！？\n　恵みの儀に　必要な　極光の魔鉱石を\n　持ってきたってぇ！？\n<br>\n「おお　おめえさん　すげえな！\n　あそこに住み着いた魔物どもは　とても凶悪で\n　村の男達じゃ　歯が立たなかったんだよ！": "It's cold in this icy world, but we\nwho were born here can stand it, and\nwe've managed to live here until now.\n<br>\nBut, I can't lose my belly. I just\ncan't stand it. What? You brought the\nAurora Orealis needed for the blessing\n<br>\nceremony! Oh, you're amazing! The\nmonsters that lived there were so\nvicious that the men in the village\n<br>\ncouldn't stand up to them!"
+  },
+  "131742": {
+    "<attr><feel_sad_one><end_attr>「ダストン様が　いなくなっちまったなんて\n　おれ達　これから　どうすればいいんだよ……。\n<br>\n「この氷に囲まれた世界は　そりゃあ寒いけどさ\n　ここで生まれた　おれ達なら　耐えられるし\n　今までだって　なんとか　生活できてた。\n<br>\n「でもさ　ハラが減るのは　ダメだ。\n　こればっかりは　耐えられねぇよ。": "<attr><feel_sad_one><end_attr>I can't believe Master Duston is gone.\nWhat are we going to do now? It's cold\nin this icy world, but we who were\n<br>\nborn here can stand it, and we've\nmanaged to live here until now. But\nthe loss of hara is no good. I just\n<br>\ncan't stand it."
+  },
+  "131743": {
+    "「ダストン様が　戻ってきてくれて\n　本当に　よかったなぁ。\n<br>\n「この氷に囲まれた世界は　そりゃあ寒いけどさ\n　ここで生まれた　おれ達なら　耐えられるし\n　今までだって　なんとか　生活できてた。\n<br>\n「でもさ　ハラが減るのは　ダメだ。\n　こればっかりは　耐えられねぇからな。": "I'm really glad that Duston came back.\nIt's cold in this icy world, but those\nof us who were born here can stand it,\n<br>\nand we've managed to live here until\nnow. But, I can't lose my belly. I\njust can't stand it."
+  },
+  "131765": {
+    "「オレっちは　氷を削って家を建てる名人だべ！ \n　氷のことが知りたければ　オレっちに\n　聞くがいいべさ！": "I'm an expert at building houses out\nof ice!If you want to know anything\nabout ice, just ask me!"
+  },
+  "131766": {
+    "「オレっちは　氷を削って家を建てる名人だべ！ \n　氷のことが知りたければ　オレっちに\n　聞くがいいべさ！<bw_break>": "I'm an expert at building houses out\nof ice!If you want to know anything\nabout ice, just ask me!<bw_break>"
+  },
+  "131767": {
+    "「……オゥ！？　炎の領界ってとこに\n　氷を　持ちかえりたいのかい？\n<br>\n「炎の領界ってとこは　地面が燃えてるんだべな？\n　そんなとこに　氷を持っていったら\n　一瞬で　解けてしまうっしょ。<bw_break>": "Oh? You want to take the ice back to\nthe Fire Realm? The Fire Realm is a\nplace where the ground is on fire,\n<br>\nright? If you bring ice to a place\nlike that, it will melt in an instant.<bw_break>"
+  },
+  "131768": {
+    "「……いや　ひとつだけ　手があるべ。 \n　とこしえの氷原の　<%sEV_QUE_NAME0>って\n　魔物の毛皮は　天然の保冷袋なんだべ。\n<br>\n「だから　<%sEV_QUE_NAME0>を倒して\n　その毛皮を　持って来たら\n　オレっちが氷を削って　分けてやるべや！": "No, there is only one way.Eternal Ice\nField's <%sEV_QUE_NAME0> monster's fur\nis a natural cooling bag. So if you\n<br>\nkill <%sev_que_name0> and bring back\nits pelt, I'll shave the ice and share\nit with you!"
+  },
+  "131769": {
+    "「炎の領界ってとこは　地面が燃えてるんだべな？\n　そんなとこに　氷を持っていったら\n　一瞬で　解けてしまうっしょ。<bw_break>": "The ground is on fire in the Fire\nRealm, right? If you bring ice to a\nplace like that, it will melt in an\n<br>\ninstant.<bw_break>"
+  },
+  "131770": {
+    "「そこで　考えたんだべさ。\n　とこしえの氷原の　<%sEV_QUE_NAME0>って\n　魔物の毛皮は　天然の保冷袋なんだべ。\n<br>\n「だから　<%sEV_QUE_NAME0>を倒して\n　その毛皮を　持って来たら\n　オレっちが氷を削って　分けてやるべや！": "Then I thought of something. Eternal\nIce Field's <%sEV_QUE_NAME0> monster's\nfur is a natural cooling bag. So if\n<br>\nyou kill <%sev_que_name0> and bring\nback its pelt, I'll shave the ice and\nshare it with you!"
+  },
+  "131771": {
+    "<attr><feel_happy_lv2><end_attr>「オゥ！　氷獣の毛皮を　手に入れたのかい？\n　オメェー　なかなか　やるべな。\n<br>\n「この　氷獣の毛皮があれば\n　炎の領界へも　氷が運べるようになるべよ。\n　んじゃ　さっそく　氷を分けてやるべ！<bw_break>": "<attr><feel_happy_lv2><end_attr>Oh! You received the Ice Beast Fur?\nYou're pretty good, aren't you? With\nthis Ice Beast Fur, you'll be able to\n<br>\ntransport ice to the Fire Realm. Then\nI'll share the ice with you right\naway!<bw_break>"
+  },
+  "131772": {
+    "<attr><feel_normal_lv1><end_attr>「ただし……いくら　氷獣の毛皮を使っても\n　氷は　時間とともに　解けてしまうべ。\n<br>\n「だから　氷が解ける前に　炎の領界の村まで\n　大急ぎで　届けるしかないべさ。\n<br>\n「ちなみに　ルーラストーンや旅の扉を使うと\n　デリケートな氷ちゃんは　なくなってしまうべ。\n<br>\n「どうだい？　炎の領界の村まで\n　かけっこする準備は　ととのってるかい？<yesno 2><break>": "<attr><feel_normal_lv1><end_attr>However, no matter how much Ice Beast\nFur you use, the ice will melt over\ntime. Therefore, you have to deliver\n<br>\nthe ice to the Fire Realm village in a\nhurry before it melts. By the way, if\nyou use Zoomstone or teleportal, the\n<br>\ndelicate ice will disappear. What do\nyou think? Are you ready for the\nsprint to the Fire Realm?<yesno 2><break>"
+  },
+  "131773": {
+    "「オゥ！　炎の領界の村まで　かけっこする準備が\n　ととのったら　もう一度　話しかけてほしいべ。": "Oh! When you're ready to make the\nsprint to the Fire Realm village, talk\nto me again."
+  },
+  "131774": {
+    "「オゥ！　んじゃ　氷獣の毛皮に\n　氷を　包んでやるべ！": "Oh! I'll wrap the ice in the Ice Beast\nFur!"
+  },
+  "131775": {
+    "「もしも　氷が解けちまったら\n　オレっちのところに　戻ってきて\n　また　受け取ればいいべよ！\n<br>\n「そんじゃあ　氷が解けちまう前に\n　炎の領界の村まで　かけっこだべ！": "If the ice melts, you can come back to\nme and pick it up again! Then we'll\nmake a run for the village in the Fire\n<br>\nRealm before the ice melts!"
+  },
+  "131776": {
+    "ヘッグは　<pc>の持つ　氷獣の毛皮に\n氷を　たくさん包んだ！<bw_break>": "Hegg wrapped a lot of ice in\n<pc>'s Ice Beast Fur!<bw_break>"
+  },
+  "131777": {
+    "<pc>は　ヘッグから\n毛皮に包まれた氷（だいじなもの）を受け取った！<me 60>": "<pc> received Fur-wrapped Ice\n(Key Item) from Hegg!<me 60>"
+  },
+  "131778": {
+    "<color_yellow>氷が解けてしまう前に　炎の領界　アぺカの村の\nネオル村長へ　氷を届けよう！": "<color_yellow>Deliver the ice to Chief\nNeoru in the village of Fire Realm\nApeka before it melts!"
+  },
+  "131779": {
+    "「モタモタしてないで　氷が解けちまう前に\n　炎の領界の村まで　かけっこだべ！\n<br>\n「ちなみに　ルーラストーンや旅の扉を使うと\n　デリケートな氷ちゃんは　なくなってしまうべ。": "Don't wait too long, just run to the\nvillage in the Fire Realm before the\nice melts! By the way, if you use\n<br>\nZoomstone or teleportal, you will lose\nthe delicate ice."
+  },
+  "131780": {
+    "「オゥ！　失敗して　氷をなくしちまったんだな。\n　そんじゃ　もう一度　分けてやるべ！<bw_break>": "Oh! I must have screwed up and lost\nthe ice. Well, I'll share it with you\nagain!<bw_break>"
+  },
+  "131781": {
+    "「オゥ！　氷は無事に　届けられたようだべな！\n　オメェーの足なら　立派な氷売りになれるべや！\n<br>\n「それと　オメェーが　駆け抜けた道を使って\n　炎の領界に暮らす　竜族たちと\n　交易を　始めることになったべよ！\n<br>\n「この氷の領界では　とても貴重で足りてねえ\n　燃料を　定期的に届けてくれるんだべ！\n　アリガテェー話っしょ！<bw_break>": "Oh! It seems the ice was delivered\nsafely! I'm sure your legs will make\nyou a great ice peddler! Also, I've\n<br>\ndecided to use the road you ran\nthrough to start a trade with the\ndragon people in the Fire Realm! They\n<br>\nregularly bring us fuel, which is very\nprecious and scarce here in the Ice\nRealm! That's great news!<bw_break>"
+  },
+  "131782": {
+    "<attr><feel_angry_lv3><end_attr>「代わりに　オレっちが　氷を運んで\n　炎の領界のヤツらに　涼んでもらうんだべ！\n　ウォー！　燃えてきたべや！": "<attr><feel_angry_lv3><end_attr>Instead, I'm going to bring ice to the\nFire Realm to cool them off! Whoa! I'm\non fire!"
+  },
+  "132377": {
+    "<icon_exc><turn_pc>「あっ　<pc>さん！\n　来てくれたんだね。ありがとう。\n<br>\n「ノグリッド村長と　奥様が\n　これからは　この部屋を使っていいって\n　言ってくれたんだけどね……\n<br>\n「家の中に　自分以外の誰かがいるって\n　変な感じで　落ち着かないんだ。\n　でも　不思議と　嫌な感じはしないの。えへへ。": "<icon_exc><turn_pc>Ah <pc>! I'm glad you came.\nThank you. Chief Nogrid and his wife\nsaid I can use this room from now on,\n<br>\nbut it feels strange to have someone\nother than myself in the house, and it\nmakes me uncomfortable. But strangely\n<br>\nenough, I don't feel uncomfortable.\nHeh heh."
+  },
+  "132378": {
+    "<attr><turn_pc><end_attr>「ノグリッド村長と　奥様が\n　これからは　この部屋を使っていいって\n　言ってくれたんだけどね……\n<br>\n「家の中に　自分以外の誰かがいるって\n　変な感じで　落ち着かないんだ。\n　でも　不思議と　嫌な感じはしないの。えへへ。\n<br>\n「<pc>さんは　やるべきことのために\n　もう　行っちゃうんだよね？\n<br>\n「あたし　<pc>さんのこと応援してるよ！\n　また　会えたら　うれしいな。\n　がんばってね　ばいばーいっ！！": "<attr><turn_pc><end_attr>Chief Nogrid and his wife said I can\nuse this room from now on, but it\nfeels strange and uncomfortable to\n<br>\nhave someone other than myself in the\nhouse. But strangely enough, I don't\nfeel uncomfortable. Hehehe.\n<br>\n<pc> is leaving already to do\nwhat he has to do, right? I'm rooting\nfor you, <&13_aaaaaaad>! I would be\n<br>\nhappy if I could see you again. I hope\nto see you again!"
+  },
+  "132379": {
+    "「おや　<pc>さん。\n　あなたは　氷晶の聖塔へと向かったのでは\n　なかったのですか？\n<br>\n「いえ……　せっかく　戻ってきてくれたのです。\n　ぜひ　リルチェラにも\n　会っていってやってください。\n<br>\n「リルチェラなら　我が家の　２階におりますよ。": "Oh <pc>. I thought you were\nheaded to the Ice Tower. No, you came\nback. Please go and see Lilcherat.\n<br>\nLilcherat is upstairs in my house."
+  },
+  "132380": {
+    "「おや　<pc>さん。\n　イーサの村に　戻ってきてくださったのですね。\n<br>\n「あなたが　来てくださると\n　リルチェラも　よろこびます。\n　また　いつでも　村を訪ねてきてくださいね。": "Oh <pc>. I see you have\nreturned to Ether Village. Lilcherat\nis happy to have you. Please visit us\n<br>\nagain anytime."
+  },
+  "132381": {
+    "<pc>は　リルチェラに\n氷晶の聖塔の　氷晶の実について説明した。": "<pc> explained to Lilcherat\nabout the ice crystals in Ice Tower."
+  },
+  "132382": {
+    "<pc>は　リルチェラと\n手を　つないだ。": "<pc> joined hands with\nLilcherat."
+  },
+  "132383": {
+    "<center>緑の者よ……\nその者に　あなたのチカラの一部を\n分けあたえるのです。": "Share some of your power with those\nwho are green and those who are not."
+  },
+  "132384": {
+    "リルチェラが　強く念じると\nなんと　<pc>に　恵みのチカラが宿った！<me 71>": "Lilcherat reminded him and to his\nsurprise, <pc> was endowed\nwith the power of blessing!<me 71>"
+  },
+  "132385": {
+    "「あっ　<pc>さん。\n　村に用事があって　戻ってきたの？\n　あたしは　なんとか　うまく　やっているよ。\n<br>\n「ええっ？　あ…あたしに　触れたい！？\n　……ダメダメ！\n　あたしに触れるのは　あぶないんだから！": "Ah <pc>. Have you come back\nto the village for something? I'm\nmanaging just fine. Eh? You want to\n<br>\ntouch me? No, no, no! It's dangerous\nto touch me!"
+  },
+  "132386": {
+    "「……うーん　そっか。\n　<pc>さんにも　事情があるんだね。\n　そういうことなら仕方ない。わかったよ。\n<br>\n「それに　もしかしたら　あたし\n　あの時から……　ううん。なんでもない。\n<br>\n「それじゃっ　心の準備は　いーい！？<yesno><break>": "Hmmm, I see. <pc> has his own\nreasons. If that's the case, it can't\nbe helped. I understand. Besides,\n<br>\nmaybe it's because I've been thinking\nabout it since then. It's nothing.\nThen, prepare yourselves!<yesno><break>"
+  },
+  "132387": {
+    "<attr><feel_happy_one><end_attr>「わかったよ。心の準備ができたら\n　また　あたしに話しかけてね。": "<attr><feel_happy_one><end_attr>I understand. When you are ready,\nplease talk to me again."
+  },
+  "132388": {
+    "<attr><feel_happy_one><end_attr>「おっけー！\n　それじゃ　いくよっ！": "<attr><feel_happy_one><end_attr>Okay! Okay, here we go!"
+  },
+  "132389": {
+    "「…………あれっ？\n<br>\n「やっぱり　あたし……\n　<pc>さんから\n　元気を　もらってないみたい！？": "Huh? I guess I'm not getting any\nenergy from <&13_aaaaaaad> after all!"
+  },
+  "132390": {
+    "「えっえっ……！？\n　よくわからないけど　やってみるね。\n　……えいっ！": "What? I don't know, but I'll give it a\ntry. I'll give it a try!"
+  },
+  "132736": {
+    "<attr><feel_sad_lv3><end_attr>「ハラへったなぁ……。 \n　お湯なんか飲んでも　腹はふくれないよ。\n<br>\n「ヘモニグばあさんが　\n　何か　ウマいもの　作ってくれないかなぁ……。": "<attr><feel_sad_lv3><end_attr>I'm so hungry.Drinking hot water won't\nmake me hungry. I wonder if Grandma\nHemonig will make something good for\n<br>\nme."
+  },
+  "132737": {
+    "<attr><feel_happy_one><end_attr>「村のみんなが　笑顔を取り戻したな。\n　おれも　ウマいもん食べて\n　元気になるぞー！\n<br>\n「あぁ　ヘモニグばあさんの \n　自慢の料理が　早く食べたいぜっ！": "<attr><feel_happy_one><end_attr>Everyone in the village has regained\ntheir smiles. I'm going to eat good\nfood too and get better! I can't wait\n<br>\nto eat Grandma Hemonig's signature\ndish!"
+  },
+  "132738": {
+    "「恵みの木が凍っちまって　このままじゃ\n　村のみんなが　飢え死にしちまうよ……。\n<br>\n「食材が手に入れば　アタシも　自慢の料理を\n　村のみんなに　ご馳走するのにねぇ。": "The Tree of Grace is frozen over and\neveryone in the village will starve to\ndeath. If I could get the ingredients,\n<br>\nI'd serve my pride and joy to everyone\nin the village."
+  },
+  "132739": {
+    "<attr><feel_happy_one><end_attr>「フェフェフェ。恵みの木の氷が　解けて \n　ホントに　よかったよ。\n　あんたも　村を救ってくれた恩人だね。\n<br>\n「食材が手に入ったら　アタシの自慢の料理を\n　あんたにも　ふるまおうじゃないか。\n　楽しみにしておいで♪": "<attr><feel_happy_one><end_attr>I'm really glad the Tree of Grace is\nice-free. I'm so glad the Tree of\nGrace ice is broken. When I get the\n<br>\ningredients, I'll treat you to some of\nmy signature dishes. You can look\nforward to it."
+  },
+  "134437": {
+    "<attr><feel_happy_one><end_attr>「わぁ……！　もしかしてと思っていたんだけど\n　あたし　元気をもらうチカラを\n　自由に　あやつれるように　なったみたい！\n<br>\n「<pc>さんのおかげで　気づけたよ。\n　ありがとう！<bw_break>": "<attr><feel_happy_one><end_attr>Wow! I was wondering if it might be\npossible, but it seems that I've been\nable to freely use my power to cheer\n<br>\nmyself up! Thanks to <pc> I\nrealized it. Thanks to <pc>!<bw_break>"
+  },
+  "134438": {
+    "「でも　さっきの声は　なんだったんだろう？\n　懐かしいような　不思議な感じがしたけど……\n　うーん……　よくわからないや。<bw_break>": "But what was that voice I heard\nearlier? I had a strange, nostalgic\nfeeling, but, umm, I don't really\n<br>\nknow.<bw_break>"
+  },
+  "134439": {
+    "<attr><feel_happy_one><end_attr>「これで　きっと　<pc>さんの\n　用事も終わったんだよねっ？\n　少しでも　あたしが　役に立てたならよかった！\n<br>\n「あたし　<pc>さんのこと\n　応援してるよ！　また　何かあれば\n　いつでも　村に戻ってきてねっ。": "<attr><feel_happy_one><end_attr>I'm sure you've finished your business\nwith <pc> now, right? I'm\nglad I could be of some help! I'm\n<br>\nrooting for you! If you need anything\nelse, please come back to the village\nanytime."
+  },
+  "134444": {
+    "「本当は　あたしに触れるのは　あぶないんだけど\n　<pc>さんにも　事情があるのは\n　わかったから　心の準備ができたら　教えてね。\n<br>\n「あたしに触れる準備は　できた！？<yesno><break>": "I know it's actually dangerous to\ntouch me, but I understand that\n<pc> has her own reasons, so\n<br>\nplease let me know when you're ready.\nAre you ready to touch me?<yesno><break>"
+  },
+  "134445": {
+    "<attr><feel_happy_one><end_attr>「あっ　<pc>さん。\n　<pc>さんの冒険は　順調？\n　あたしは　なんとか　うまく　やっているよ。\n<br>\n「<pc>さんに　触れた時　聞こえた声……\n　懐かしいような　不思議な感じがしたんだ。\n<br>\n「あれ　なんだったんだろうねっ？\n　よくわからないけど　少しでも\n　<pc>さんの　役に立てたならよかった！\n<br>\n「あたし　<pc>さんのこと\n　応援してるよ！　また　何かあれば\n　いつでも　村に戻ってきてねっ。": "<attr><feel_happy_one><end_attr>Ah <pc>. <How are your\nadventures going? I'm managing just\nfine. When I touched <&13_aaaaaaaad>,\n<br>\nthe voice I heard sounded familiar and\nstrange. What was that all about? I\ndon't really know, but I'm glad I\n<br>\ncould be of some help to\n<&13_aaaaaaad>! I'm rooting for you!\nIf you need anything else, please come\n<br>\nback to the village anytime."
+  },
+  "134942": {
+    "「恵みの木が治ったから　教団の人が探してる\n　氷晶の聖塔にも　行けるようになったんだ。\n　でも　あそこに行ったって　なーんにもないぜ？\n<br>\n「塔の前にいる魔物が　試練がどうのと言うだけで\n　中に入ることは　できないんだ。\n　まったく　意味がわからないよ。<bw_break>": "Now that the Tree of Grace is healed,\nwe can go to the Ice Tower where the\ncult is looking for us. But there's\n<br>\nnothing there, you know? The monster\nin front of the tower says something\nabout a trial, but I can't get inside.\n<br>\nIt doesn't make any sense at all.<bw_break>"
+  },
+  "134943": {
+    "<attr><feel_think_lv1><end_attr>「えっ！？　あのナゾかけを解いたら\n　不思議なキノコの空間が　あっただって？\n　…………なおさら　意味がわからないよ。": "<attr><feel_think_lv1><end_attr>What? You found a mysterious mushroom\nspace after solving that riddle? I\ndon't understand it any more."
+  },
+  "134949": {
+    "「恵みの木が治ったから　教団の人が探してる\n　氷晶の聖塔にも　行けるようになったんだ。\n　でも　あそこに行ったって　なーんにもないぜ？\n<br>\n「塔の前にいる魔物が　試練がどうのと言うだけで\n　中に入ることは　できないんだ。\n　まったく　意味がわからないよ。": "Now that the Tree of Grace is healed,\nwe can go to the Ice Tower where the\ncult is looking for us. But there's\n<br>\nnothing there, you know? The monster\nin front of the tower says something\nabout a trial, but I can't get inside.\n<br>\nIt doesn't make any sense at all."
+  },
+  "134952": {
+    "ダストンの頭に　ついていた\n恵みの木の花のようだ。\nリルチェラのそばで　今日も元気に咲いている。": "They look like the flowers of the Tree\nof Grace on Duston's head, which is\nblooming today near Lilcherat."
+  },
+  "135785": {
+    "<attr><feel_happy_one><end_attr>「フェフェフェ。恵みの木も　元に戻ったことだし\n　アタシも　ひさびさに　村のみんなに\n　ご馳走を　ふるまおうかねぇ。\n<br>\n「あんたも　アタシの料理を食べてくかい？\n　村を救ってくれた恩人だ。ウデによりをかけて\n　とっておきの料理を作るよ。\n<br>\n「ただ　この鍋を　のぞいておくれよ。\n　……見ての通り　決め手の食材が　なくて\n　調理を　始められないんだ。\n<br>\n「とっておきを作るには　その食材が \n　ぜったいに　欠かせないのさ。\n　すまないが　代わりに調達してきてくれるかい？": "<attr><feel_happy_one><end_attr>Now that the Tree of Grace is back to\nnormal, I'm going to treat everyone in\nthe village to a feast. Would you like\n<br>\nto try some of my cooking? I owe you\nfor saving my village. I'll put my\nskills to good use and cook you a\n<br>\nspecial dish. Just take a peek at this\npot. As you can see, I don't have the\nkey ingredients to start cooking. That\n<br>\ningredient is absolutely essential if\nI'm going to make my special dish. I'm\nsorry, but can you go get it for me?"
+  },
+  "135786": {
+    "<attr><feel_happy_one><end_attr>「フェフェフェ。ありがとうねぇ。\n　取ってきてほしい食材は　３つあるよ。\n<br>\n「ひとつ目は　ふっくらにんにく。 \n　<%sEV_QUE_NAME0>が　好んで食べてるから\n　ちょっくら　いただいておいで。\n<br>\n「ふたつ目は　特濃ラード。\n　<%sEV_QUE_NAME1>が　持っているから\n　そいつを　取っておいで。\n<br>\n「<%sEV_QUE_NAME0>と　<%sEV_QUE_NAME1>は\n　どちらも　白霜の流氷野に　いたはずさ。\n　そこへ行くのが　早いんじゃないかねぇ。\n<br>\n「３つ目は　ソイヤー豆。これが肝心だ。\n　恵みの木が　解けた今なら　木の近くを\n　探してみれば　見つかるだろうさ。\n<br>\n「食材を集め終わったら　アタシんとこに \n　持っておいで。あんたのためにも\n　ウデによりをかけて　作ってやるからねぇ♪": "<attr><feel_happy_one><end_attr>Fefefe. Thank you. There are three\ningredients I want you to get. The\nfirst is Fluffy Garlic, which\n<br>\n<%sEV_QUE_NAME0> likes to eat, so go\ngrab some. The second is High-Grade\nLard. <%seV_QUE_NAME1> has it, so go\n<br>\nget it. Both <%sEV_QUE_NAME0> and\n<%sEV_QUE_NAME1> should be at the\nFrosty Ice Field. I think they're on\n<br>\ntheir way there now. Third is Soyer\nBean, which is the key. Now that the\nTree of Grace has been solved, look\n<br>\nnear the tree and you'll find it. When\nyou're done gathering the ingredients,\nbring them to me. I'll put my skill to\n<br>\nwork cooking for you."
+  },
+  "135787": {
+    "<attr><feel_happy_one><end_attr>「フェフェフェ。ありがとうねぇ。\n　だけど　あんた　頼まれごとが\n　いっぱいのようだよ。\n<br>\n「手が空いたときで　かまわないさ。\n　また　おいで。": "<attr><feel_happy_one><end_attr>Fefefe. Thank you very much. But it\nseems you have a lot of favors to do.\nWhenever you're free, it's fine. Come\n<br>\nagain."
+  },
+  "135788": {
+    "「おやま　そうかい。そりゃ残念だ。\n　アタシの料理が　食べたくなったら\n　また　おいで。": "Oh, really? That's too bad. Come again\nwhen you want to eat my cooking."
+  },
+  "135789": {
+    "<attr><feel_happy_lv1><end_attr>「ヘモニグばあさんが　鍋の支度を始めたぞ。\n　ということは……ははっ！\n　もうすぐ　ウマいもんが　食えるんだなっ！": "<attr><feel_happy_lv1><end_attr>Grandma Hemonig has started to prepare\na pot. That means we'll be eating good\nfood soon! We'll soon be able to eat\n<br>\nsomething delicious!"
+  },
+  "135790": {
+    "<attr><feel_happy_one><end_attr>「フェフェフェ。引き受けてくれてありがとねぇ。\n　あんたに　食材の調達は　任せたよ♪\n　取ってきてほしい食材は　３つだ。<open_irai><bw_break>": "<attr><feel_happy_one><end_attr>Fefefe. Thanks for taking care of it.\nI'll leave the food procurement to\nyou...  There are three ingredients I\n<br>\nneed you to get for me.<open_irai><bw_break>"
+  },
+  "135791": {
+    "「ひとつ目は　ふっくらにんにく。 \n　<%sEV_QUE_NAME0>が　好んで食べてるから\n　ちょっくら　いただいておいで。\n<br>\n「ふたつ目は　特濃ラード。\n　<%sEV_QUE_NAME1>が　持っているから\n　そいつを　取っておいで。\n<br>\n「<%sEV_QUE_NAME0>と　<%sEV_QUE_NAME1>は\n　どちらも　白霜の流氷野に　いたはずさ。\n　そこへ行くのが　早いんじゃないかねぇ。\n<br>\n「３つ目は　ソイヤー豆。これが肝心だ。\n　恵みの木が　解けた今なら　木の近くを\n　探してみれば　見つかるだろうさ。<bw_break>": "The first is Fluffy Garlic, which\n<%sEV_QUE_NAME0> likes to eat, so go\nahead and grab some. The second is\n<br>\nHigh-Grade Lard. <%sEV_QUE_NAME1> has\nsome, so go ahead and grab it. Both\n<%sEV_QUE_NAME0> and <%sEV_QUE_NAME1>\n<br>\nshould be at the Frosty Ice Field. I\nthink they're on their way there now.\nThird, Soyer Bean is the key. Now that\n<br>\nthe Tree of Grace has been solved,\nlook near the tree and you'll find it.<bw_break>"
+  },
+  "135792": {
+    "<close_irai>「食材を集め終わったら　アタシんとこに \n　持っておいで。あんたのためにも\n　ウデによりをかけて　作ってやるからねぇ♪": "<close_irai>When you're done gathering the\ningredients, bring them to me. I'll\nput my skill to work cooking for you."
+  },
+  "135796": {
+    "<attr><feel_happy_lv1><end_attr>「おっ　あんたの持ってる　その食材！\n　ヘモニグばあさんに　頼まれたものだろ？\n　はやく　渡してやってくれよ！": "<attr><feel_happy_lv1><end_attr>Hey, that food you're holding! Your\nGrandma Hemonig asked you to get that\nfor her, didn't she? Give it to her as\n<br>\nsoon as you can!"
+  },
+  "135797": {
+    "「おや　おかえり。支度は　ととのえておいたよ。\n　食材のほうは　バッチリかい？": "Oh, welcome back. I've prepared\neverything for you. Is the food\nperfectly ready?"
+  },
+  "135798": {
+    "「おやま。あんたが　自信満々に \n　戻ってきたから　てっきり……。\n　悪かったねぇ。引き続き　がんばっておくれ。": "Oh, well. You came back so confidently\nthat I was sure. I'm sorry. Keep up\nthe good work."
+  },
+  "135799": {
+    "<attr><feel_happy_one><end_attr>「フェフェフェ。ありがとうねぇ。\n　今度は　アタシの番だ！\n　出来あがるまで　ちょっと待ってな。": "<attr><feel_happy_one><end_attr>Fefefe. Thank you. Now it's my turn!\nJust wait till it's done."
+  },
+  "135800": {
+    "<se_nots FQ_140_1 0>「あんた　いい食材を取ってきたねぇ♪\n　まずは　ソイヤー豆を　砕いて　温水に入れる。\n　豆がふくらんだら　ぎゅーっと絞るよ。\n<br>\n「特濃ラードで　ふっくらにんにくと\n　きざんだ野菜を　いためるよ。\n　絞った豆のエキスに　野菜を投入っと！\n<br>\n「よーし　あとは　鍋がグツグツ煮えるまで\n　待つだけだ。もう少しで完成だよ。": "<se_nots FQ_140_1 0>You've got some good ingredients...\nFirst, crush the soyer beans and put\nthem in warm water. When the beans are\n<br>\npuffy, squeeze them tight. Psyche up\nthe Fluffy Garlic and chopped\nvegetables in a High-Grade Lard. Add\n<br>\nthe vegetables to the squeezed bean\nextract! Now all I have to do is wait\nfor the pot to come to a simmer. It's\n<br>\nalmost done."
+  },
+  "135801": {
+    "<attr><feel_happy_lv3><end_attr>「フェフェフェ。ヘモニグ特製にんにく豆乳鍋が\n　よく煮えてきたよ。あんたも　よく見てごらん。\n　う～ん♪　我ながら　ウマそうだねぇ。\n<br>\n「でも　鍋の完成には　もうひとつ\n　足りないものがあるよ。\n　アタシ秘伝の　隠し味さ。\n<br>\n「料理は　愛情がいちばん！　 \n　いつもは　アタシがしてるんだけど\n　今回は　あんたに　やってもらおうかねぇ。\n<br>\n「なぁに　簡単さね。鍋にむかって　愛を込めて\n　しぐさの　『投げキッス』を　やればいい。\n　それで　この豆乳鍋は　完成さ！\n<br>\n「投げキッスをするには　さくせんコマンドの\n　キャラ設定の　よく使うセリフ設定から\n　使えるようにするんだよ。": "<attr><feel_happy_lv3><end_attr>Hemonig's special garlic soybean milk\ncasserole is simmering well. Take a\ngood look at it. It looks good, even\n<br>\nif I say so myself. But there is one\nmore thing missing to complete the\npot. It's my secret secret ingredient.\n<br>\nCooking is all about love!I usually do\nit myself, but this time I'll let you\ndo it. It's easy. Just play emote's\n<br>\n\"Blow Kiss\" with love to the pot.\nThat's how this soybean milk nabe is\ncompleted! To play \"Blow Kiss\", go to\n<br>\nMisc. command and select \"Character\nSettings\", then \"Frequently Used\nLines\"."
+  },
+  "135802": {
+    "ヘモニグに　すべての食材を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Do you want to give Hemonig all the\ningredients?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "135803": {
+    "<pc>は　ヘモニグに\n手に入れてきた食材を　渡した！": "<pc> gave Hemonig the\ningredients he had acquired!"
+  },
+  "135804": {
+    "鍋のまわりに　いい匂いがたちこめてきた。<me 60>": "A good smell started to fill the air\naround the pot.<me 60>"
+  },
+  "135805": {
+    "<attr><feel_happy_lv1><end_attr>「ヘモニグばあさん……\n　いつもの　アレを　するのか？\n　早く　食いたいなっ！": "<attr><feel_happy_lv1><end_attr>Grandma Hemonig, are you going to do\nyour usual thing? I can't wait to eat!"
+  },
+  "135806": {
+    "<attr><feel_happy_lv1><end_attr>「さあ　最後の仕上げだ。 \n　アタシに代わって　豆乳鍋に\n　しぐさの　『投げキッス』を　やっておくれ。<open_irai><bw_break>": "<attr><feel_happy_lv1><end_attr>Now, the final touch.Please play\nemote's \"Blow Kiss\" on the soy milk\npot for me.<open_irai><bw_break>"
+  },
+  "135807": {
+    "<attr><feel_happy_lv1><end_attr>「投げキッスのしぐさは　どこかに\n　ちいさなメダルと　交換してくれる人がいると\n　聞いたことがあるよ。": "<attr><feel_happy_lv1><end_attr>I've heard that Blow Kiss emote has\nsomeone somewhere who will trade it\nfor a Mini Medal."
+  },
+  "135808": {
+    "<attr><feel_happy_lv1><end_attr>「さあ　最後の仕上げだ。 \n　アタシに代わって　豆乳鍋に\n　しぐさの　『投げキッス』を　やっておくれ。<open_irai><bw_break>": "<attr><feel_happy_lv1><end_attr>Now, the final touch.Please play\nemote's \"Blow Kiss\" on the soy milk\npot for me.<open_irai><bw_break>"
+  },
+  "135809": {
+    "<attr><feel_happy_lv1><end_attr>「こう　ブチュっと\n　愛を込めて　やるんだよ。\n　それで　この豆乳鍋は　完成さ。\n<br>\n「投げキッスをするには　さくせんコマンドの\n　キャラ設定の　よく使うセリフ設定から\n　使えるようにするんだよ。": "<attr><feel_happy_lv1><end_attr>You have to do it with love, like\nthis. That's how this soymilk pot is\nmade. To do the Blow Kiss, go to the\n<br>\nMisc. command and select the most\nfrequently used lines in the character\nsettings."
+  },
+  "135810": {
+    "<attr><feel_happy_lv3><end_attr>「フェフェフェ。あんたの愛情が　伝わったよ<heart>\n　これで　あんたとアタシの\n　特製にんにく豆乳鍋が　完成さ！\n<br>\n「おっと　いただきますの前に\n　こいつを　受け取っておくれ。\n　食材調達と　投げキッスのお礼だよ。": "<attr><feel_happy_lv3><end_attr>Fefefefe. I can feel your love <heart>\nnow you and I can make our special\ngarlic soy milk casserole! Oh, and\n<br>\nbefore you say good-bye, please accept\nthis. Before you start eating, I'd\nlike you to accept this, as a thank\n<br>\nyou for the ingredients and the Blow\nKiss."
+  },
+  "135811": {
+    "<attr><feel_happy_one><end_attr>「さあさ　ボケッとしてないで\n　出来たての　アツアツのうちに　お上がり。\n　身体が　あったまるよぉ♪": "<attr><feel_happy_one><end_attr>Come on, Pratfalls, don't just sit\nback and enjoy it while it's still\nhot. It will warm you up."
+  },
+  "135812": {
+    "<attr><feel_happy_lv3><end_attr>「あんたが持ってきてくれた　特濃ラードで\n　先に野菜をいためたんだ。まろやかな豆乳の味に\n　いいコクを出してるだろ。\n<br>\n「それに　ふっくらにんにくが　いい具合に \n　パンチを効かせてる。これで寒さなんか\n　いっぱつで吹き飛ぶわさ！　あ～幸せだねぇ。\n<br>\n「なによりも　あんたの愛情が \n　とっておきの隠し味さ<heart>\n　さっそく　村人たちにも　食べてもらおうねぇ♪": "<attr><feel_happy_lv3><end_attr>I cooked the veggies first with the\nHigh-Grade Lard you brought. It gives\na nice richness to the mild soy milk\n<br>\nflavor. And the Fluffy Garlic gives it\na nice bread flavor. It's enough to\nmake the cold go away in a single\n<br>\nbreath! I'm so happy. Above all, your\nlove is the best secret ingredient\n<heart> Let's get the villagers to try\n<br>\nit right away!"
+  },
+  "135813": {
+    "<pc>は　特製にんにく豆乳鍋に\n投げキッスをした！<bw_break>": "<pc> gave a Blow Kiss to the\nspecial garlic soy milk hot pot!<bw_break>"
+  },
+  "135814": {
+    "鍋に　<pc>の愛情が　注ぎ込まれた！<se_nots FQ_140_1 1>": "The pot was filled with <&13_aaaaaaad>\nlove!<se_nots FQ_140_1 1>"
+  },
+  "135815": {
+    "<pc>は　特製にんにく豆乳鍋を食べた！\n<br>\n<pc>の　胃袋の中から　幸せがあふれた！<me 71><bw_break>": "<pc> ate a special garlic soy\nmilk hot pot! Happiness overflowed\nfrom <pc>'s stomach!<me 71><bw_break>"
+  },
+  "135816": {
+    "<attr><feel_happy_lv3><end_attr>「う　うめぇ～！　身も心も温まるぅ～。\n　さすが　ヘモニグばあさんの\n　特製にんにく豆乳鍋だぜっ！": "<attr><feel_happy_lv3><end_attr>Ummm, yummy~! It warms my body and\nsoul~! As expected of Grandma\nHemonig's special garlic soy milk\n<br>\nnabe!"
+  },
+  "135817": {
+    "<attr><feel_happy_one><end_attr>「食材の調達も　投げキッスもありがとうねぇ。\n　おかげで　いい鍋ができた。\n　村人たちの喜ぶ顔が　目にうかぶよ。　": "<attr><feel_happy_one><end_attr>Thanks for the food and Blow Kiss.\nThanks to you, we were able to make a\nnice pot. I can see the happy faces of\n<br>\nthe villagers in my eyes."
+  },
+  "139327": {
+    "<pc>の　ＨＰとＭＰが\n全回復した！<se_nots FQ_140_1 2>": "All of <pc>'s HP and MP were\nrestored!<se_nots FQ_140_1 2>"
+  },
+  "163183": {
+    "<attr><feel_happy_lv1><end_attr>「まあっ　村を救ってくださった恩人さん。\n　あなたとリルチェラのおかげで　村の食糧不足も\n　すっかり　よくなったのよ。\n<br>\n「かつて　飢えに苦しんでいたのが　ウソのように\n　今　とっても幸せだわ。これからも　おおいなる\n　恵みに感謝して　生きていくつもりよ。": "<attr><feel_happy_lv1><end_attr>Oh, you are the benefactor who saved\nour village. Thanks to you and\nLilcherat, the food shortage in our\n<br>\nvillage is completely alleviated. It\nis a lie that we used to suffer from\nhunger, but now we are very happy. I\n<br>\nwill continue to live in gratitude for\nyour great blessings."
+  },
+  "163184": {
+    "<attr><feel_happy_one><end_attr>「村を　元気に走りまわる　リルチェラを見てると\n　こうして　一緒に過ごせるようになって\n　本当に　よかったと　思えるんだ。\n<br>\n「オイラたちは　間違いをおかしたけれど\n　それを　正すことができて　よかった。\n　あんたや　ダストン様のおかげだよ。": "<attr><feel_happy_one><end_attr>When I see spin Lilcherat running\naround the village, I feel really\nhappy that we can spend time together\n<br>\nlike this. We made mistakes, but I'm\nglad we were able to correct them.\nThanks to you and Duston."
+  },
+  "163185": {
+    "<attr><feel_happy_one><end_attr>「私　以前　村が　食糧難におちいった時\n　年の離れた兄弟のために　食糧を持ちかえろうと\n　村を出て　いきだおれてしまったんです。\n<br>\n「その時　炎の領界から　やって来たという\n　美しい女性神官のおかげで\n　命を　救われたのですよ……。\n<br>\n「私は　その女性神官のことが\n　どうしても　忘れられないのです。\n　ああ……　この気持ちは　なんなんでしょう？": "<attr><feel_happy_one><end_attr>Once, when our village was in a food\ncrisis, I left the village to bring\nback food for my older brothers. At\n<br>\nthat time, a beautiful female\npriestess from the Fire Realm saved my\nlife. I cannot forget her for the life\n<br>\nof me. Ah, what is this feeling?"
+  },
+  "163186": {
+    "<attr><feel_happy_one><end_attr>「私は　かつて　ナドラガ教団の教団員として\n　この村を監視するため　派遣されてきたのですが\n　すっかり　ここを　気に入ってしまいましてね。\n<br>\n「もう役目は終えたので　炎の領界に戻ることも\n　できるのですが　自ら名乗り出て　この村と\n　他の領界の橋渡しを　することにしたんです。\n<br>\n「今では　ここで　生涯の伴侶を見つけるのも\n　悪くないなぁなんて　思っていますよ。\n　わっはっはっ！": "<attr><feel_happy_one><end_attr>I was once sent as a member of the\nOrder of Nadraga to oversee this\nvillage, but I've grown quite fond of\n<br>\nit. I could have returned to the Fire\nRealm, but I decided to come forward\nand serve as a bridge between this\n<br>\nvillage and the other realms. Now I'm\nthinking that it would be a bad kunai\nto find my life partner here. Ha ha\n<br>\nha!"
+  },
+  "163187": {
+    "<attr><feel_happy_one><end_attr>「前にね　ゴハンたりない時が　あったんだけど\n　今はもう　おなかいっぱい　食べられるんだ！\n　昨日も　たくさん　おかわりしたよ。えへへ。": "<attr><feel_happy_one><end_attr>There was a time when I didn't have\nenough rice, but now I can eat a full\nmeal! I had a lot of second helpings\n<br>\nyesterday too. Hehehe."
+  },
+  "163188": {
+    "「娘ったら　いつも　村の少年団のみんなや\n　リルチェラと　遊んだ話ばかりしますの。\n　毎日　本当に楽しいんでしょうね。": "My daughter is always talking about\nhow she played with all the boys and\nlilcherats in the village. She must\n<br>\nreally be having fun every day."
+  },
+  "163189": {
+    "「オレは　村の少年団のリーダー\n　ジャイム様だっ！\n　今日も　少年団は　元気に活動中だぜ！\n<br>\n「リルチェラのヤツ　少年団に　入れてやったら\n　大喜びでさ。やたらと　オレのとこに来ては\n　遊ぼうって言ってくるから　大変なんだよ。": "I am Mr. Jaimu, the leader of the boy\nband in our village! Today, the boy\nband is still going strong! Lilcherat\n<br>\nis so happy to be a member of the\nboyband. He keeps coming to me and\nasking me to play with him."
+  },
+  "163190": {
+    "<attr><feel_happy_one><end_attr>「恵みの木は　今日も　元気だし\n　子供達も　元気いっぱいで　村は平和そのもの。\n　それが　ボク　とっても　うれしいんだ！": "<attr><feel_happy_one><end_attr>The Tree of Grace is in high spirits\ntoday, the children are full of\nenergy, and the village is at peace.\n<br>\nThat makes me very happy!"
+  },
+  "163191": {
+    "<attr><feel_happy_one><end_attr>「ゲハジデが　あたしの分のおかず食べちゃうの。\n　でも　あたし　お姉さんだから　ガマンして\n　分けてあげるんだ。エライでしょー！": "<attr><feel_happy_one><end_attr>Gehajide is eating my side dish. But\nsince I'm the big sister, I'm patient\nand share with him. Isn't that great?"
+  },
+  "163192": {
+    "<attr><feel_happy_one><end_attr>「教団の人に　聞いたんだけど\n　どうやら　わるーいヤツが　倒されて\n　竜族の世界が　救われたらしい。\n<br>\n「これから　領界どうしの交流も\n　もっと　盛んになっていくんだろうか？\n　そう考えると　今から　楽しみだよな！": "<attr><feel_happy_one><end_attr>I heard from the cult that the bad guy\nwas defeated and the world of the\ndragon tribe was saved. I wonder if\n<br>\nthe exchange between the realms will\nbecome more active in the future? I'm\nreally looking forward to it!"
+  },
+  "163193": {
+    "「なんでも　リルチェラは\n　あの生命力を　たくわえておくチカラを\n　自在に　制御できるようになったそうですね。\n<br>\n「子供の成長とは　めまぐるしいものですな。\n　これからも　村人　みんなで\n　あの子の成長を　見守っていきますよ。": "Lilcherat seems to have developed the\nability to freely control his life\nforce. Children grow up at a dizzying\n<br>\npace, don't they? We villagers will\nall continue to watch over Lilcherat's\ngrowth."
+  },
+  "163194": {
+    "「ああ　<pc>さん。\n　あなたが　竜族の世界を　救ったという時の話を\n　リルチェラから　聞きましたぞ！\n<br>\n「私に　うれしそうに　話してくれる姿を\n　見ていると　胸がいっぱいになってしまって……\n　少しでも親子に近づけていると　いいのですが。\n<br>\n「いやはや　それにしても　私達の村だけでなく\n　竜族まるごと　救ってしまわれるなんて\n　さすが　<pc>さんですな！\n<br>\n「あなたが　イーサの村に　来てくださると\n　リルチェラや村人も　よろこびます。\n　また　いつでも　訪ねてきてくださいね。": "Oh <pc>. Lilcherat told me\nabout the time you saved the world of\nthe Dragon People! I hope I've been\n<br>\nable to bring you and your son even a\nlittle closer. Well, even so, you are\nindeed <pc> to have saved not\n<br>\nonly our village, but the entire\nDragon Tribe! Lilcherat and villager\nwill be delighted if you come to Ether\n<br>\nVillage. Please visit us again\nanytime."
+  },
+  "163195": {
+    "<attr><feel_happy_one><end_attr>「オイラは　村の少年団　団員２号の \n　リエイグちゃんだぞっ！\n<br>\n「リーダーは　いつも　リルチェラのほうが\n　自分と遊んでほしいみたいに　言ってるけど\n　実際に　誘ってるのは　リーダーなんだ。\n<br>\n「前から　思ってたけど……\n　リーダーって　本当は　リルチェラのこと\n　好きなんだと思うんだぞ。にししっ。": "<attr><feel_happy_one><end_attr>I am Rieigu, the second member of the\nvillage boy band! The leader always\nmakes it sound like he wants Lilcherat\n<br>\nto play with him, but in fact it's the\nleader who invites Lilcherat to play\nwith him. I've always thought that the\n<br>\nleader really likes Lilcherat.\nShhhh..."
+  },
+  "163196": {
+    "<attr><feel_happy_one><end_attr>「あっ　<pc>さん　来てくれたんだね。\n　決戦の時　すっごく　すーっごく\n　かっこよかったよー！！　興奮しちゃったっ！\n<br>\n「それに　こんなあたしでも　ちょっとでも\n　<pc>さんや　竜族の世界のため……\n　役に立てたのかなって思うと　うれしかった。\n<br>\n「もう　誰も苦しまなくて　すむんだよね。\n　それが　何よりも　うれしいや。\n　<pc>さんの　おかげだね。ありがとう！\n<br>\n「いつか　また　ダストン様にも会えるといいな。\n　あたし　今　すっごく幸せだよって\n　伝えたいんだ！": "<attr><feel_happy_one><end_attr>Ah <pc> You came, didn't you?\nYou were soooooooooooooooooooooooooooo\noooooooooooooooooooooooooooooooooooooo\n<br>\noo cool during the battle! I was so\nexcited! And I was happy to think that\neven if I was like this, I was able to\n<br>\nhelp <pc> and the world of\nthe Dragon Clan, even if just a\nlittle. No one has to suffer anymore.\n<br>\nThat makes me happier than anything\nelse. Thanks to <&13_aaaaaaaad>. Thank\nyou! I hope I can meet Duston again\n<br>\nsomeday. I want to tell you that I'm\nreally happy right now!"
+  },
+  "163197": {
+    "「晩ごはんの　おかず　作りすぎちゃったわ。\n　村長さん家にでも　分けにいこうかしらね。": "I made too many side dishes for\ndinner. Maybe I should share it with\nthe chief's family."
+  },
+  "163198": {
+    "「ダストン様　元気にしてるかなぁ？\n　あのドタバタな感じが　なつかしいよ。\n<br>\n「あんな人　領界中　全部探したって\n　どこにも　見つからないだろうさ。\n　また村に来てくれたら　にぎやかになるのにな。": "Dear Duston, I hope you are doing\nwell. I miss that slapstick feeling\nfrom my past. You couldn't find him\n<br>\nanywhere even if you searched the\nwhole territory. If only he would come\nto our village again, it would be more\n<br>\nlively."
+  },
+  "163199": {
+    "「リルチェラは　本当に強い子だねえ。 \n　子供ひとりで　この世界を生きていくのは\n　たくさん　つらいこともあったはずなのに……\n<br>\n「私達に　うらみ言のひとつも　言わないで\n　なんでもなかったような顔して\n　接してくれるんだよ。\n<br>\n「これからも　村人　全員で\n　あの子の笑顔を　守ってやらなきゃねえ。\n　それが　あの子のため　できることだと思うよ。": "Lilcherat is really a strong girl.She\nmust have gone through a lot of\nhardships to live in this world on her\n<br>\nown, but she never once grumbled at us\nand treated us as if nothing had\nhappened. We villagers all have to\n<br>\nprotect her smile from now on. I think\nthat's the best thing we can do for\nher."
+  },
+  "163200": {
+    "<attr><feel_sad_one><end_attr>「ああ……　ダストン様……。\n　どうか　もう一度　お会いしたいわ……。": "<attr><feel_sad_one><end_attr>Oh, Mr. Duston. Please, I'd like to\nsee you again."
+  },
+  "163201": {
+    "<turn_pc>「私　いまだに　ダストン様のことが\n　忘れられないのよ。\n　また　この村に　遊びにきてくれないかしら？": "<turn_pc>I still can't stop thinking about\nMaster Duston. Will you come to our\nvillage again?"
+  },
+  "163202": {
+    "「竜族の世界は　平和になったそうですが\n　私達は　リルチェラを　しいたげてきた日々を\n　けっして　忘れたりはしていません。\n<br>\n「これからも　あの子のおこないに　報いるよう\n　毎日を　過ごしていきたいと思っています。": "We have heard that the world of the\ndragon tribe is now at peace, but we\nhave not forgotten the days we spent\n<br>\ntorturing Lilcherat. We will continue\nto live each and every day to repay\nLilcherat's kindness."
+  },
+  "163203": {
+    "<attr><feel_happy_one><end_attr>「この前ねー　リルチェラちゃんと　いっしょに\n　お絵かきして　遊んだんだ。たのしかったー！\n　オニごっこも　かくれんぼもするんだよ。\n<br>\n「でも　いちばん好きなのは　おままごと！\n　リルチェラちゃんが　おねえちゃんでー\n　あたしが　いもうとの役なんだー！　えへへ。": "<attr><feel_happy_one><end_attr>The other day, I had fun drawing with\nLilcherat. It was fun! We play hide-\nand-seek and hide-and-seek. But my\n<br>\nfavorite thing to do is to play make-\nbelieve! Lilcherat-chan is the big\ngirl and I play the role of the little\n<br>\nboy! Hehehe."
+  },
+  "170365": {
+    "「あっ。来てくれたんだね　<pc>しゃん。\n　じゃなくて　<pc>たん……\n　まちがった……　<pc>さん！\n<br>\n「訪ねてきてくれて　ありがとう！\n　あたし　ちょうど　<pc>さんに\n　会いたかったんだ！\n<br>\n「あのね。あたし　今　悩んでることがあって……\n　<pc>さんに　相談に　のってほしいの。\n　どうか　あたしのお話　聞いてくれない……？": "Ah. You came, <&13_aaaaaaaad>. No,\n<&13_aaaaaaad>tan, I was wrong\n<&13_aaaaaaad>! Thanks for visiting\n<br>\nme! I just wanted to meet you\n<&13_aaaaaaad>! You know what? I'm\nhaving a hard time right now, and I\n<br>\nwas hoping that <&13_aaaaaaad> could\ntalk to me about it. Will you please\nlisten to my story?"
+  },
+  "170366": {
+    "<attr><feel_happy_lv2><end_attr>「うわぁ　よかったぁ。ありがとう！\n<br>\n「じつはね。前から　たまーに　あったんだけど\n　あたし　どこからともなく　聞こえてくる\n　ふしぎな声に　呼ばれてるような気がするの。\n<br>\n「最近は　あたしが　お留守番してる時だったり\n　お風呂に入っている時だったり　ひとりの時を\n　みはからって　話しかけてくるんだ。\n<br>\n「その声が　恵みの木の裏側を　調べろって\n　言ってくるから　ためしに\n　調べてみようと　思うんだけど……\n<br>\n「そこで　何が起こるか　わからないでしょ？\n　ひとりじゃ　不安だから\n　<pc>さんにも　ついてきてほしいんだ！\n<br>\n「あたしは　<pc>さんの後ろから\n　ついていくから　一緒に　恵みの木の裏側を\n　調べてみてくれないかな？　どうか　お願いね！": "<attr><feel_happy_lv2><end_attr>Wow, that's great. Thank you! To tell\nyou the truth. I've had this feeling\nfrom time to time before, but I feel\n<br>\nas if I'm being called by a mysterious\nvoice that comes out of nowhere.\nLately, when I'm at home, or in the\n<br>\nbath, or when I'm alone, she catches\nme out and talks to me. The voice\ntells me to check the back of Tree of\n<br>\nGrace, so I think I'll check it out\nfor myself, but I don't know what will\nhappen there, right? I'm not sure if I\n<br>\ncan do it alone, so I want\n<pc> to come with me! I'll be\nright behind you, so I was wondering\n<br>\nif you'd be willing to check out the\nother side of the Tree of Grace with\nme? Please do me a favor!"
+  },
+  "170367": {
+    "<attr><feel_happy_lv1><end_attr>「うわぁ　よかったぁ。ありがとう！\n　でもでもっ　<pc>さんは\n　ほかの頼まれごとで　いっぱいみたいだよ？\n<br>\n「ほかの用事が　終わったら\n　また　あたしに　話しかけてほしいなっ。": "<attr><feel_happy_lv1><end_attr>Wow, that's great. Thank you! But you\nknow, <pc> seems to be full\nof other requests, right? I hope\n<br>\nyou'll talk to me again when you're\ndone with other things."
+  },
+  "170368": {
+    "<attr><feel_sad_lv1><end_attr>「そっかぁ……。\n　でも　お話　聞いてくれる気分になったら\n　また話しかけてくれると　うれしいな。": "<attr><feel_sad_lv1><end_attr>I see. But I would be happy if you\nwould talk to me again when you feel\nlike listening to me."
+  },
+  "170369": {
+    "<attr><feel_normal_lv1><end_attr>「じつはね。前から　たまーに　あったんだけど\n　あたし　どこからともなく　聞こえてくる\n　ふしぎな声に　呼ばれてるような気がするの。<open_irai><bw_break>": "<attr><feel_normal_lv1><end_attr>To tell the truth. I've had this\nfeeling from time to time before, but\nI feel as if I'm being called by a\n<br>\nmysterious voice that comes out of\nnowhere.<open_irai><bw_break>"
+  },
+  "170370": {
+    "<attr><feel_normal_lv1><end_attr>「その声が　恵みの木の裏側を　調べろって\n　言ってくるから　ためしに\n　調べてみようと　思うんだけど……\n<br>\n「そこで　何が起こるか　わからないでしょ？\n　ひとりじゃ　不安だから\n　<pc>さんにも　ついてきてほしいんだ！<bw_break>": "<attr><feel_normal_lv1><end_attr>The voice is telling me to check out\nthe other side of Tree of Grace, so\nI'm going to give it a shot, but you\n<br>\nnever know what might happen there, do\nyou? I'm not sure if I can do it\nalone, so I want <pc> to come\n<br>\nwith me!<bw_break>"
+  },
+  "170371": {
+    "<attr><feel_happy_lv1><end_attr><close_irai>「あたしは　<pc>さんの後ろから\n　ついていくから　一緒に　恵みの木の裏側を\n　調べてみてくれないかな？　どうか　お願いね！": "<attr><feel_happy_lv1><end_attr><close_irai>I'll follow behind <pc> and\nwe can check out the back of Tree of\nGrace together. Please do me a favor!"
+  },
+  "170372": {
+    "<attr><feel_happy_lv2><end_attr>「あっ。<pc>さん。\n　来てくれたんだね。<open_irai><bw_break>": "<attr><feel_happy_lv2><end_attr>Ah. <pc>. You came.<open_irai><bw_break>"
+  },
+  "170463": {
+    "「恵みの木の中にあった　ふしぎな世界！\n　あたしが　触れた本のことも　気になるし\n　もっと　あの場所のことを　調べてみようよ！": "The wondrous world in Tree of Grace!\nI'm also curious about the book I\ntouched, so let's find out more about\n<br>\nthat place!"
+  },
+  "188662": {
+    "「お待ちしていました　<pc>さん。　\n　ご足労いただき　ありがとうございます。\n<br>\n「トビアスさんなら　ひと足先に　兵士を連れて \n　暴魔の調査に　向かいました。\n<br>\n「ああ……　お連れの　お嬢さんなら　こちらで\n　お預かりしたので　心配いりませんよ。\n　今ごろ　リルチェラと　遊んでいるでしょう。\n<br>\n「それよりも　こちらに現れた暴魔ですが…… \n　またもや　アヴィーロ遺跡に　出現したのです。\n<br>\n「<pc>さんには　以前　極光の魔鉱石を\n　採ってきてもらうため　あの遺跡に巣食う\n　凶悪な魔物どもを　倒していただきましたな。\n<br>\n「極光都市アヴィーロ……それは　かつて \n　オーロラのチカラを　たくわえた魔鉱石で\n　この地に栄えた　古代都市でした。\n<br>\n「その技術がもたらす発展は　めざましく \n　魔鉱石が　都市全体の機能を\n　司っていたと　いわれています。<bw_break>": "We have been waiting for you\n<pc>.Thank you for your\nvisit. If you are Tobias, he has\n<br>\nalready gone to investigate the demon\nattack with his soldiers. Oh, and\ndon't worry about your daughter, she's\n<br>\nin our custody. She's probably playing\nwith Lilcherat by now. But more\nimportantly, the demon that appeared\n<br>\nhere has once again appeared in Aviro\nRuins. I asked <pc> to\ncollect Aurora Orealis for me, and he\n<br>\ndefeated the vicious monsters that\nlurked in those ruins, didn't he?\nAvilo, the city of polar light, was\n<br>\nonce an ancient city that flourished\nhere with the magic ore that had the\npower of aurora. It is said that the\n<br>\nmagic ore controlled the functions of\nthe entire city.<bw_break>"
+  },
+  "188663": {
+    "「しかし……ある日　魔鉱石のチカラが暴走し \n　都市は　一夜にして　滅んだそうです。\n<br>\n「あの石は　恵みをもたらす一方で\n　災いも呼ぶ……　そんな石なのです。\n<br>\n「今では　石に残されたチカラは　わずかですが\n　それでも　あのチカラに　吸い寄せられて\n　魔物たちが　たびたび　住みつくようですな。\n<br>\n「ですから　今回　現れた暴魔も \n　その類なのではないかと……。\n<br>\n「いずれにしても　私たちの脅威であることには\n　かわりません。トビアスさんの　後を追い\n　退治していただけないでしょうか？\n<br>\n「アヴィーロ遺跡は　村を出て　南東にあります。\n　どうか　お気をつけて。": "But one day, the power of the magic\nore went out of control and the city\nwas destroyed in a night. That stone\n<br>\nis a stone that brings blessings, but\nalso brings disasters. Nowadays, there\nis only a little power left in the\n<br>\nstone, but even so, it seems that\nmonsters are often sucked in by its\npower and take up residence. So I\n<br>\nsuspect that the monsters that\nappeared this time may be one of them.\nIn any case, it's still a threat to\n<br>\nus, and we hope you will follow Mr.\nTobias to exterminate it. Aviro Ruins\nis southeast of the village. Please be\n<br>\ncareful."
+  },
+  "188664": {
+    "<attr><pipipi_shigh><end_attr>「ルビーちゃんと　遊んでるから\n　今は　入っちゃダメー！": "<attr><pipipi_shigh><end_attr>I'm playing with Ruby, so you can't go\nin there right now!"
+  },
+  "188665": {
+    "扉には　カギが　かかっている。": "The door is locked."
+  },
+  "188666": {
+    "「極光都市アヴィーロは　かつて \n　オーロラのチカラを　たくわえた魔鉱石で\n　この地に栄えた　古代都市でした。\n<br>\n「その技術がもたらす発展は　めざましく \n　魔鉱石が　都市全体の機能を\n　司っていたと　いわれています。\n<br>\n「しかし……ある日　魔鉱石のチカラが暴走し \n　都市は　一夜にして　滅んだそうです。\n<br>\n「あの石は　恵みをもたらす一方で\n　災いも呼ぶ……　そんな石なのです。\n<br>\n「暴物が　魔鉱石のチカラに　吸い寄せられて\n　現れたのかは　さだかではありませんが\n　私たちの脅威であることには　かわりません。\n<br>\n「<pc>さん　お願いです。\n　トビアスさんの　後を追い \n　暴魔を　退治していただけないでしょうか？\n<br>\n「アヴィーロ遺跡は　村を出て　南東にあります。\n　どうか　お気をつけて。": "Avilo, the City of Polar Light, was\nonce an ancient city that flourished\non this land of magic ore that had\n<br>\nbeen tapped with the power of aurora.\nIt is said that the magic ore\ncontrolled the functions of the entire\n<br>\ncity. But one day, the magic ore's\npower went out of control and the city\nwas destroyed in a single night. While\n<br>\nthat stone brings blessings, it also\nbrings disasters. It is not certain if\nthe beast was sucked in by the power\n<br>\nof the demon ore and appeared, but it\nremains a threat to us all.\n<pc> Please. Would you please\n<br>\nfollow Mr. Tobias and exterminate the\ndemon? Aviro Ruins is southeast of the\nvillage. Please be careful."
+  },
+  "188667": {
+    "「<pc>さん　トビアスさんから\n　聞きましたよ。\n<br>\n「アヴィーロ遺跡に現れた　暴魔を\n　倒してくださったのですね。\n　ありがとうございました。\n<br>\n「トビアスさんたち　御一行は\n　お嬢さんが　体調を　崩してしまったらしく\n　皆さんで　先に　お帰りになりましたよ。\n<br>\n「聞くところによると……\n　暴魔が　現れたのは\n　魔瘴というものが　原因だとか……。\n<br>\n「魔瘴は　魔物だけでなく　極光の魔鉱石にまで\n　憑りついていたようですね。\n<br>\n「アヴィーロ遺跡に巣食っていた　暴魔は\n　そのせいで　現れたのでしょう……。\n<br>\n「遺跡の暴魔が　倒されたとはいえ\n　また　新たな暴魔が　現れないとも限りません。\n　今後も　注意することにします。\n<br>\n「……そういえば　トビアスさんが \n　<pc>さんから　魔瘴について\n　くわしい話を聞きたいと　言ってましたよ。<bw_break>": "<pc> Tobias told me about\nyou. You have defeated the demon that\nappeared in Aviro Ruins. Thank you\n<br>\nvery much. Tobias-san and his group\nwent home before the others because\nhis daughter got sick. According to\n<br>\nwhat I heard, the demon miasma was the\ncause. It seems that demon miasma\npossessed not only monsters but also\n<br>\nAurora Orealis. The demon miasma that\nwas nesting in Aviro Ruins must have\nbeen the cause of its manifestation.\n<br>\nEven though the demon in the ruins has\nbeen defeated, there is no guarantee\nthat a new demon will not appear\n<br>\nagain. I will be careful in the\nfuture. By the way, Tobias-san said\nthat he would like to hear more about\n<br>\ndemon miasma from <pc>.<bw_break>"
+  },
+  "188668": {
+    "「<pc>さんも　ナドラガ教団大神殿へ\n　お向かいください。どうか　お気をつけて。": "<pc> also head to Nadraga\nOrder Great Temple. Please be careful."
+  },
+  "188669": {
+    "「あっ！\n　<pc>さん　聞いて！\n<br>\n「ルビーちゃんってば　遊んでいる途中で\n　暖炉の中に　潜っちゃって \n　いくら　呼んでも　出てこなかったの。\n<br>\n「それで　しばらくして　現れたときには\n　煤だらけで　びっくりしちゃった！\n<br>\n「そのせいか　急に　元気が\n　なくなっちゃったんだけど……大丈夫かな？": "Ah! <pc> Listen! Ruby, while\nwe were playing, she hid herself in\nthe fireplace and didn't come out no\n<br>\nmatter how many times I called her.\nWhen she came out a while later, I was\nso surprised to see her covered in\n<br>\nsoot! Maybe that's why he suddenly\nlost his energy."
+  },
+  "188670": {
+    "「<pc>さん　暴魔を　倒してくださり\n　ありがとうございました。\n<br>\n「トビアスさんは　お嬢さんが \n　体調を　崩してしまったらしく\n　皆さんで　先に　お帰りになりましたよ。\n<br>\n「……そういえば　トビアスさんが \n　<pc>さんから　魔瘴について\n　くわしい話を聞きたいと　言ってましたよ。\n<br>\n「<pc>さんも　ナドラガ教団大神殿へ\n　お向かいください。\n　どうか　お気をつけて。": "<pc> Thank you very much for\ndefeating the demon. Tobias-san's\ndaughter got sick, so we all left\n<br>\nbefore he did. By the way, Tobias said\nhe wanted to hear more about demon\nmiasma from <pc>.\n<br>\n<pc> please head to the\nNadraga Order Great Temple. Please be\ncareful."
+  },
+  "188671": {
+    "「<pc>さん　暴魔を　倒してくださり\n　ありがとうございました。\n<br>\n「私達も　できるかぎり\n　邪悪なる意志に関する情報を　集めてみます。": "<pc> Thank you for defeating\nthe rampaging demon. We will try to\ngather as much information about Evil\n<br>\nWill as we can."
+  },
+  "188704": {
+    "「魔瘴と思しき　風が現れ\n　いずこかへ　流れていったのです。\n<br>\n「あれが　また　魔物に\n　憑りつくようなことがあれば　一大事ですぞ。": "A wind that seemed to be demon miasma\nappeared and drifted away. If it\nshould come back to haunt the monster,\n<br>\nit would be a big problem."
+  },
+  "188705": {
+    "「<pc>さんと　トビアスさんが\n　邪悪なる意志を　倒してくださらなければ\n　今ごろ　どうなっていたか……。\n<br>\n「本当に　どうも　ありがとうございました。": "Without <pc> and Tobias\ndefeating Evil Will, I don't know what\nwould have happened by now. Thank you\n<br>\nvery much."
+  },
+  "188706": {
+    "「ルビーちゃんって　なんだか　あたしと\n　似てる気が　するんだ。\n<br>\n「うまく　説明できないけど\n　不思議なチカラを　感じるっていうか……。\n　また　いつか　一緒に遊べるよね？": "I feel like you and Ruby are similar.\nI can't explain it well, but I feel a\nmysterious power. We can play together\n<br>\nagain sometime, right?"
+  }
+}

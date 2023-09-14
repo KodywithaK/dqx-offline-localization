@@ -1,0 +1,164 @@
+{
+  "99936": {
+    "「おぅいえー　旅人さん。\n　オレは　行商人ウエギってんだ。\n　よろしくどうぞー！\n<br>\n「この馬車で　ヴェリナードからの商品を\n　各所に運ぶのが　オレのお仕事だぜ！\n<br>\n「今から　ヴェリナード領南の　海辺の交易所と\n　ブーナー熱帯雨林の　密林の野営地に\n　行くんだけどよー。一緒に　どーだい？<bw_break>": "Hey there, traveler. My name is\nPeddler Uegi. Pleased to meet you!\nIt's my job to transport goods from\n<br>\nVerinard to various places with this\nwagon! I'm on my way to Beach Trading\nPost in Verinard South and Jungle Camp\n<br>\nin Booner Rainforest. Won't you join\nme?<bw_break>"
+  },
+  "99937": {
+    "「今から　ヴェリナード領南の　海辺の交易所と\n　ブーナー熱帯雨林の　密林の野営地に\n　行くんだけどよー。一緒に　どーだい？<bw_break>": "I'm going to the Beach Trading Post in\nVerinard South and the Jungle Camp in\nBooner Rainforest. Would you like to\n<br>\njoin me?<bw_break>"
+  },
+  "99938": {
+    "「おぅいえー　旅人さん。\n　オレは　行商人ウエギってんだ。\n　よろしくどうぞー！\n<br>\n「この馬車で　ヴェリナードからの商品を\n　各所に運ぶのが　オレのお仕事だぜ！\n<br>\n「今から　ヴェリナード領南の\n　海辺の交易所に　行くんだけどよー。\n　一緒に　どーだい？<bw_break>": "Hey there, traveler. My name is\nPeddler Uegi. Pleased to meet you!\nIt's my job to transport goods from\n<br>\nVerinard to various places with this\nwagon! I'm on my way to Beach Trading\nPost in Verinard South. Would you like\n<br>\nto join me?<bw_break>"
+  },
+  "99939": {
+    "「今から　ヴェリナード領南の\n　海辺の交易所に　行くんだけどよー。\n　一緒に　どーだい？<bw_break>": "I'm on my way to the Beach Trading\nPost in Verinard South. Would you like\nto join me?<bw_break>"
+  },
+  "99940": {
+    "<pipipi_low>「うーん。すまねー。\n　今そこへ向かうのは\n　ちっと　都合が悪いようだぜ。\n<br>\n「金は　返すからよー。\n　時間をおいて　また来てくれよー。": "<pipipi_low>Hmmm. I'm sorry. It's not a good time\nto head out there. I'll give you your\nmoney back. Just give me some time to\n<br>\ncome back."
+  },
+  "99941": {
+    "「ただよー　送るだけで　迎えには行けねーぜ？\n　それでもよけりゃ　どこに行くよー？\n<name_off><select>\n海辺の交易所（ヴェリナード領南）\n密林の野営地（ブーナー熱帯雨林）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": "But I can't just drop you off and pick\nyou up, can I? Where will you go if\nyou want?\n<name_off><select>\nBeach Trading Post (Verinard South)\nJungle Camp (Booner Rainforest)\nNo Ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+  },
+  "99942": {
+    "<attr><feel_happy_lv2><end_attr>「まいどありー。\n　じゃー　行くぜ！": "<attr><feel_happy_lv2><end_attr>Thank you very much. I'll see you\nlater!"
+  },
+  "99943": {
+    "「そうかー。乗らねーかー。\n　乗りたくなったら　また来るんだぜー。": "I see. I guess I won't ride. If you\nwant to ride, come back again."
+  },
+  "99944": {
+    "<pipipi_low>「おまちどー。\n　海辺の交易所に　着いたぜ！\n　そんじゃまた　よろしくなー。": "<pipipi_low>Hey there, guys! I'm at the Beach\nTrading Post! See you soon!"
+  },
+  "99945": {
+    "<pipipi_low>「おまちどー。\n　密林の野営地に　着いたぜ！\n　そんじゃまた　よろしくなー。": "<pipipi_low>Hey there, guys! I'm here at Jungle\nCamp! See you soon!"
+  },
+  "99946": {
+    "「あー。金が足りねーな。\n　すまねーが　金のある時に\n　また来てくれよー。": "Ah. I ain't got enough money. I'm\nsorry, but please come back when you\nhave more money."
+  },
+  "99947": {
+    "「<%sL_TIMEI>まで\n　だな。\n　あと　代金２５ゴールドいただくぜ？<yesno><break>": "<%sL_TIMEI>. And I'll take 25 gold for\nthat.<yesno><break>"
+  },
+  "99948": {
+    "「そうかー。やめるのかー。\n　乗りたくなったら　また来るんだぜー。": "I see. You're quitting? If you want to\nride again, come back."
+  },
+  "117318": {
+    "「ここから　南に行くと\n　海辺の交易所って　集落があるぜー。\n<br>\n「ここから北東の　ヴェリナード領北を道なりに\n　ずっと東に進むと　ブーナー熱帯雨林の\n　密林の野営地に　行き着くぜー。\n<br>\n「まだ　行ったことが　ないなら\n　一度くらい　行ってみると　いいんじゃねーか。": "Go south from here and you will find a\nsettlement called Beach Trading Post.\nIf you follow Verinard North northeast\n<br>\nfrom here all the way to the east, you\nwill reach the Jungle Camp in Booner\nRainforest. If you've never been\n<br>\nthere, you should go there at least\nonce."
+  },
+  "46214": {
+    "「私は　さすらいの考古学者　カーラム。\n　古き物　歴史ある物を求めて\n　旅から旅への　渡り魚。\n<br>\n「このウェナ諸島には　多くの歴史と\n　その遺産が　眠っているのだ。": "I am Karamu, a wandering\narchaeologist, a migratory fish from\njourney to journey in search of the\n<br>\nold and the historic. The Wena Islands\nhave a lot of history and a lot of\nlegacies."
+  },
+  "46215": {
+    "「私は　さすらいの考古学者　カーラム。\n　古き物　歴史ある物を求めて\n　旅から旅への　渡り魚。\n<br>\n「そんな私に　君は興味があるようだ。\n　何か　聞きたいことがあるのだろう？<yesno><break>": "I am Karamu, a wandering\narchaeologist, a migratory fish from\njourney to journey, in search of the\n<br>\nold and the historic. You seem to be\ninterested in me. You seem to be\ninterested in me.<yesno><break>"
+  },
+  "46216": {
+    "「……そうか。興味はなかったか。": "I see. You weren't interested?"
+  },
+  "46217": {
+    "「君のような旅の者が\n　わざわざ　話を聞きにくるとは　めずらしい。\n　私に　わかることなら　答えてみせよう。\n<br>\n「……ほう？　ふたつ滝の巡礼という本か。\n　路銀の足しにと　誰かに　ゆずった記憶がある。\n　その内容を　聞きたいのだな？\n<br>\n「あれは　ラーディス王の時代に作られた\n　巡礼の手引書だが　女王が王位を継ぐようになり\n　内容が合わなくなってしまったシロモノだ。\n<br>\n「ゆずった本は　不完全な物だったと思うが\n　私は　完全な物を読んだことがある。\n　覚えている内容を　教えよう。\n<br>\n「あの本には　瀑布の王へ行った後に\n　瀑布の女王へ行くという　巡礼の道筋が\n　紹介されていたのだ。\n<br>\n「たしか　瀑布の王は　清廉の大滝を。\n　瀑布の女王は　ヴァース大山林の東にある滝を\n　指していたと　私の記憶にある。\n<br>\n「ふたつの滝に祈り　海の神の加護を\n　得るというのが　巡礼の目的だったようだな。\n<br>\n「覚えているのは　以上だ。\n　君が聞いてこいと頼まれた内容か　わからぬが\n　城の王立調査団に　伝えにいくといい。": "It is unusual for a traveler like you\nto come all the way here to talk to\nus. If I know what I'm talking about,\n<br>\nI'll give you an answer. What is it? A\nbook called \"The Pilgrimage of the Two\nFalls\"? I remember giving it away to\n<br>\nsomeone to help pay the bills. You\nwant to hear about it, don't you? It\nwas a pilgrim's guidebook written in\n<br>\nthe reign of King Ladis, but when the\nqueen took over the throne, the\ncontents no longer fit the book. I\n<br>\nbelieve the book you gave me was\nincomplete, but I have read the\ncomplete work. Let me tell you what I\n<br>\nremember. In that book, there was a\npilgrimage route that went to the\nWaterfall King and then to the\n<br>\nWaterfall Queen. The King of the Falls\nis the Great Falls of Innocence. I\nremember that Waterfall Queen refers\n<br>\nto the waterfall to the east of Verse\nMountain Forest. It seems that the\npurpose of the pilgrimage was to pray\n<br>\nto the two waterfalls and obtain the\nblessings of the God of the Sea.\nThat's all I remember. I don't know if\n<br>\nthis is what you were asked to ask\nabout, but you may go and tell the\nRoyal Commission at the castle."
+  },
+  "46218": {
+    "「当時　瀑布の女王と呼ばれていた滝は\n　ヴァース大山林の　東にあるはずだ。\n<br>\n「いくつか　似たような滝があって\n　まちがえやすいと　書かれていたな。\n　他よりも大きい滝が　瀑布の女王ということだ。\n<br>\n「このことを　城の王立調査団に\n　早く　伝えてあげたほうが　よいだろうな。": "The waterfall then called Waterfall\nQueen is supposed to be east of Verse\nMountain Forest. You wrote that there\n<br>\nwere several similar waterfalls and it\nwas easy to get confused. The one\nlarger than the others is called\n<br>\nWaterfall Queen. We'd better tell this\nto the Royal Commissioners of the\ncastle as soon as possible."
+  },
+  "46219": {
+    "「私は　さすらいの考古学者　カーラム。\n　古き物　歴史ある物を求めて\n　旅から旅への　渡り魚。\n<br>\n「今しばらくは　この地に　とどまろう。\n　まだまだ　見つけていない歴史が\n　眠っているような気がするのだ。": "I am Karamu, a wandering\narchaeologist, a migratory fish from\njourney to journey in search of old\n<br>\nand historic things. I will stay here\nfor the time being. I have a feeling\nthat there is still a lot of\n<br>\nundiscovered history here."
+  },
+  "48265": {
+    "<pc>は　あかつきの海岸から\n海に向かって　ひざまずいた。\n<br>\nシオンの花を　海に捧げますか？<yesno><close>": "<pc> knelt from Daybreak\nCoast towards the sea. Would you like\nto dedicate Shion's Flower to the sea?<yesno><close>"
+  },
+  "48266": {
+    "<pc>は\nシオンの花を　海に投げ入れた……。\n<br>\nシオンの花は　波間をゆらゆらと揺れたあと\n海の彼方へと消えていった。": "<pc> threw Shion's Flower\ninto the sea. Shion's Flower swayed\nbetween the waves and then disappeared\n<br>\nbeyond the sea."
+  },
+  "58957": {
+    "道具屋チャーロンに\nチャーロンへの荷物を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close>": "Do you want to give the Baggage to\nCharon to Item Shop Charon?<yesno><case 1><break><case 2><close><case_cancel><close>"
+  },
+  "58958": {
+    "<pc>は　道具屋チャーロンに\nチャーロンへの荷物を　渡した！": "<pc> gave Baggage to Charon\nto Item Shop Charon!"
+  },
+  "58959": {
+    "<attr><feel_normal_lv1><end_attr>「ややっ　道具屋のチャーロンなら\n　まさしく　わたくしのことですが\n　何か　ご用でも？": "<attr><feel_normal_lv1><end_attr>Oh, hey, if you're Charon from the\nItem Shop, that would be me."
+  },
+  "58960": {
+    "<attr><feel_normal_lv1><end_attr>「なんです　冷やかしですか？\n　そんなこと言わずに　ちょっとくらい\n　品物を　見ていってくださいよ。さて……<bw_break>": "<attr><feel_normal_lv1><end_attr>What is it? Are you just cold-cocking\nus? Don't say that. Please take a look\nat the items. Well...<bw_break>"
+  },
+  "58961": {
+    "<attr><feel_happy_lv1><end_attr>「おおおっ！\n　ボルターに注文した　巨大などうぐかばんを\n　持ってきてくださったんですなっ！\n<br>\n「わたくし　ムネが　はちきれんばかりに \n　楽しみにしておりましたよ。では　さっそく\n　確認させていただきましょうかね。さて……<bw_break>": "<attr><feel_happy_lv1><end_attr>Oh, wow! You brought the huge item bag\nthat you ordered from Bolter! I've\nbeen looking forward to it so much\n<br>\nthat my mune is bursting with\nexcitement. Well, let's check it out\nright away, shall we? Well, let's see.<bw_break>"
+  },
+  "58962": {
+    "<attr><feel_normal_silent><end_attr>「………………。<bw_break>": "<attr><feel_normal_silent><end_attr>The following is a list of the most\ncommon problems with the<bw_break>"
+  },
+  "58963": {
+    "<attr><feel_angry_lv1><end_attr>「……むむむ？\n<br>\n「ちょっと　お聞きしますが\n　この　巨大などうぐかばんは　本当に\n　ボルターが作った品ですかな？<yesno><break>": "<attr><feel_angry_lv1><end_attr>Mm-hmm? May I ask you, was this huge\nitem bag really made by Bolter?<yesno><break>"
+  },
+  "58964": {
+    "<attr><feel_happy_lv1><end_attr>「ハハハ！　冗談ですよ。\n　しかし　このかばんは　ロウ引きの密度が悪いし\n　形に　ゆがみがあるようです。\n<br>\n「こんな　お粗末な　どうぐかばんをよこすとは\n　ボルターも　伝説のかばん職人などと\n　おだてられて　ウデを落としたようですな！\n<br>\n「おっと　失礼。お持ちくださった　あなたに\n　罪はありませんな。はるばる　お越しいただき\n　どうも　ありがとうございました。": "<attr><feel_happy_lv1><end_attr>Hahaha! Just kidding. However, this\nbag seems to be badly waxed and\ndistorted in shape. To give us such a\n<br>\nlousy item bag, Bolter must have lost\nhis prestige as a legendary bag-maker!\nOh, excuse me. You are not to blame\n<br>\nfor bringing this to us. Thank you\nvery much for coming all the way here."
+  },
+  "58965": {
+    "<attr><feel_sad_lv1><end_attr>「こんな　お粗末な　どうぐかばんをよこすとは\n　ボルターも　伝説のかばん職人などと\n　おだてられて　ウデを落としたようですな！\n<br>\n「まあ　いいでしょう。\n　それより　せっかく　いらしたんですから\n　何か　買っていきません？<bw_break>": "<attr><feel_sad_lv1><end_attr>It seems that Bolter has lost his\nprestige as a legendary bag-maker by\ngiving us such a lousy item bag! Well,\n<br>\nthat's all right. Since you're here,\nwhy don't you buy something?<bw_break>"
+  },
+  "71867": {
+    "<attr><feel_happy_lv1><end_attr>「ややっ！　あなたは　ボルターのかばんを\n　届けてくださった方では　ありませんか。\n　いつぞやは　ありがとうございました。\n<br>\n「いやね。あの時は　受け取ったかばんのことを\n　悪く言ったものですが　使っているうちに\n　不思議と　愛着がわいてきましてねえ。\n<br>\n「うーむ。さすがは　伝説のかばん職人ボルター。\n　いつもながら　いい仕事をしますな。\n　さてさて……": "<attr><feel_happy_lv1><end_attr>Oh, no! You are the one who delivered\nthe bag to us, aren't you? Thank you\nfor the other day. No, I didn't. At\n<br>\nthe time, I was bad-mouthing the bag I\nreceived, but as I was using it, I\nbecame strangely attached to it. Hmmm.\n<br>\nAs expected of the legendary bag\ncraftsman Bolter. As usual, he does a\ngood job. Now, now..."
+  },
+  "71697": {
+    "<attr><feel_happy_lv1><end_attr>「ごきげんよう　旅の方。\n　ただいま　美容院　サロン・フェリシアは\n　一斉オープンの準備を　進めております。\n<br>\n「もし　ご興味が　おありでしたら\n　ヴェリナード城下町にある　美容院まで\n　おいでくださいませ。お待ちしております。": "<attr><feel_happy_lv1><end_attr>Cheery Hello, travelers. The Salon Fee\nLycia is now preparing to open its\ndoors to the public. If you are\n<br>\ninterested, please come to the Salon\nin Verinard Castle Town. We are\nwaiting for you."
+  },
+  "71698": {
+    "<attr><feel_happy_lv1><end_attr>「ごきげんよう　旅の方。わたくし\n　サロン・フェリシアで　見習い美容師をしている\n　ソーネと申します。どうぞ　お見知り置きを。\n<br>\n「わたくし　美容院で使える　新色を開発するため\n　この辺りに生息する　<%sEV_QUE_NAME0>が\n　たまに落とす　白銀ホタテを　求めております。\n<br>\n「ですが　美容師ふぜいでは　魔物とは戦えず……\n　どうか　この辺りの　<%sEV_QUE_NAME0>を倒し\n　白銀ホタテを　手に入れてきてください！": "<attr><feel_happy_lv1><end_attr>Dear Cheery, Traveler. My name is\nSonet and I am an apprentice\nhairdresser at Salon Fee Lycia. Please\n<br>\nallow me to introduce myself. In order\nto develop new colors for the salon, I\nam in search of Silver Scallops that\n<br>\n<%sev_que_name0> sometimes drops\naround here. However, I am not a\nhairdresser, and I can't fight against\n<br>\nthe monster, so please go defeat the\n<%sev_que_name0> around here and get\nthe Silver Scallop!"
+  },
+  "71699": {
+    "<attr><feel_happy_lv2><end_attr>「なんと　お優しい……ありがとうございます。\n　<%sEV_QUE_NAME0>は　この辺りに\n　生息しておりますので　どうか　お気をつけて。": "<attr><feel_happy_lv2><end_attr>How kind of you. <%sEV_QUE_NAME0>\nlives around here, so please be\ncareful."
+  },
+  "71700": {
+    "<attr><feel_think_lv1><end_attr>「まあっ　頼もしいお返事……。\n　ぜひとも　お願いしたいところですが\n　どうやら　他の頼まれ事で　お忙しいご様子。\n<br>\n「他の方々に　ご迷惑をおかけするわけには\n　まいりません。もし　後ほど　あなた様の\n　手が空きましたら　改めて　お願いいたします。": "<attr><feel_think_lv1><end_attr>Oh, what a reliable reply. I would\nlike to ask you to do so, but it seems\nthat you are busy with other requests.\n<br>\nWe don't want to inconvenience anyone\nelse. If you are free later, I would\nlike to ask you again."
+  },
+  "71701": {
+    "<attr><feel_sad_lv1><end_attr>「ぶしつけな　お願いをしてしまい\n　たいへん　申し訳ございませんでした。\n　では　お気をつけて　旅を続けてくださいませ。": "<attr><feel_sad_lv1><end_attr>I am very sorry for making such a\nblunt request. Please continue your\njourney with care."
+  },
+  "71702": {
+    "<attr><feel_normal_lv1><end_attr>「美容院で使える　新色の開発のため\n　この辺りに生息する　<%sEV_QUE_NAME0>が\n　たまに落とす　白銀ホタテを　求めております。<open_irai><bw_break>": "<attr><feel_normal_lv1><end_attr>We are looking for Silver Scallop that\n<%sEV_QUE_NAME0> sometimes drops\naround here to develop new colors for\n<br>\nSalon.<open_irai><bw_break>"
+  },
+  "71703": {
+    "<attr><feel_happy_lv1><end_attr><close_irai>「旅の方。あなた様の　ご厚意に甘えてしまい\n　申し訳ございませんが　なにとぞ\n　白銀ホタテを　手に入れてくださいませ。": "<attr><feel_happy_lv1><end_attr><close_irai>Traveler. I'm sorry to take advantage\nof your kindness, but please, please,\nplease get Silver Scallop."
+  },
+  "71704": {
+    "<attr><feel_happy_lv1><end_attr>「クンクン　その香りは……。\n　旅の方　もしや　白銀ホタテを\n　手に入れてくださったのでは　ありませんか！？": "<attr><feel_happy_lv1><end_attr>Kun-kun-kun, what is that scent? If\nyou are a traveler, did you happen to\nget a Silver Scallop?"
+  },
+  "71705": {
+    "<attr><feel_sad_lv1><end_attr>「あら？　わたくしの　思い違いでしたか。\n　たいへん　失礼いたしました。\n　はぁ……。": "<attr><feel_sad_lv1><end_attr>Oh? Was I mistaken? I am very sorry.\nHuh."
+  },
+  "71706": {
+    "「ああ……これこそは　白銀ホタテ！\n　ゴクリッ。では　さっそく……。": "Oh, this is the Silver Scallop! Let's\nget started."
+  },
+  "71707": {
+    "<attr><feel_happy_lv2><end_attr>「……ふぅっ。やはり　とれたての\n　白銀ホタテの味は　格別ですね。\n　ああ……舌が　とろけそう……。\n<br>\n「はっ！？　し　失礼いたしましたっ！\n　わたくし　その……ホタテが　大好物で。\n　ああ　本当に　美味でございました……。\n<br>\n「あ！　そうそう！　このホタテの中に\n　入っていた　ちっちゃな真珠。この輝きで\n　新色を作ろうと　思っていたのです！": "<attr><feel_happy_lv2><end_attr>Phew. After all, the taste of freshly\ncaught Silver Scallop is exceptional.\nAh, my tongue seems to be melting.\n<br>\nWhat? I'm sorry! I'm a big fan of that\nScallop. Ah, it was really delicious.\nAh! That's right! The tiny true gem\n<br>\nthat was inside this Scallop. I was\nthinking of making a new color with\nthis sparkle!"
+  },
+  "71708": {
+    "「では　おいしい白銀ホタテの\n　真珠をくだいて　粉にして……\n　あとは　魔法をかけるだけですね。<bw_break>": "Now all we have to do is break the\ntrue beads of the delicious Silver\nScallop, grind them into powder, and\n<br>\nthen cast a spell.<bw_break>"
+  },
+  "71709": {
+    "「では……参ります。\n　マジカル　マジカル　トレタテ　ホタテー\n　アゲタテ　ヤキタテ　タベサセテー！": "Now, I'm going to go."
+  },
+  "71710": {
+    "<attr><feel_happy_lv3><end_attr>「完成いたしました！\n　ラグジュアリーに輝く　美容院の新色……\n　名付けて　ホタ……いえ　パール色です！": "<attr><feel_happy_lv3><end_attr>We are pleased to announce the\ncompletion of the new color of the\nSalon! The new color of Salon shines\n<br>\nwith luxury!"
+  },
+  "71711": {
+    "<attr><feel_happy_one><end_attr>「それと……こちらは　わたくしの\n　ぶしつけな　お願いを聞いてくださった\n　お礼でございます。ありがとうございました。": "<attr><feel_happy_one><end_attr>Also, this is to thank you for\nlistening to my impolite request.\nThank you very much."
+  },
+  "71712": {
+    "<attr><feel_happy_lv2><end_attr>「この　ホタ……パール色は\n　どちらの美容院でも　使えるはずです。\n　ぜひ　あなた様も　お試しくださいませ。\n<br>\n「ホタテを　はじめとした\n　おいしい食事は　身体の内側からの美に\n　みがきを　かけてくれます。\n<br>\n「外側からの美を　みがきたい時は\n　わたくしたち　美容師に\n　どうぞ　おまかせくださいませ。": "<attr><feel_happy_lv2><end_attr>This hota pearl color should work for\nboth salons. We hope you will try it\ntoo. Delicious meals such as Scallop\n<br>\nwill help you enhance your beauty from\nthe inside out. If you want to enhance\nyour beauty from the outside, please\n<br>\nleave it to our beauticians."
+  },
+  "71714": {
+    "ソーネに\n白銀ホタテを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to give Silver Scallop\nto Sonet?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "71715": {
+    "<pc>は　ソーネに\n白銀ホタテを　渡した！": "<pc> gave Sonet a Silver\nScallop!"
+  },
+  "71716": {
+    "ソーネは　白銀ホタテの　カラを開くと\n中の　ホタテを　丸のみにしてしまった！": "Sonet opened the carapace of the\nSilver Scallop and gutted the entire\nscallop inside!"
+  },
+  "71717": {
+    "ソーネは　生つばを　飲み込みながら\nくだいた真珠に　魔法をかけた！<me 69>": "Sonet cast a spell on the true bead as\nshe swallowed the raw spit!<me 69>"
+  },
+  "71718": {
+    "美容院で　新しい色\n『パール』が　使えるようになった！<me 71>": "A new color \"pearl\" is now available\nin Salon!<me 71>"
+  },
+  "71719": {
+    "<attr><feel_happy_lv2><end_attr>「……つい　いつものクセで\n　ホタテを生のまま　食べてしまったけれど\n　マリネにしたほうが　よかったかしら。\n<br>\n「それとも　たまには　網焼きで？\n　これは　食べ比べてみなくては。\n　……はっ！　し　失礼いたしましたっ！！": "<attr><feel_happy_lv2><end_attr>I ate the scallop raw, as is my habit,\nbut I wonder if I should have\nmarinated it. Or, do you sometimes\n<br>\ngrill them in a grill? I'll have to\ncompare them. I'm sorry! I'm sorry for\nmy mistake!"
+  }
+}
