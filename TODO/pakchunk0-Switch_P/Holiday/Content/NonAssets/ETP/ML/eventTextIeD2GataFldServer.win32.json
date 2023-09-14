@@ -1,0 +1,74 @@
+{
+  "94079": {
+    "「ここから　南東へ街道沿いに進むと\n　モガリム街道っちゅう　街道に出ます。\n<br>\n「そんでもって　街道沿いに進むと\n　そのうち　アグラニの町っちゅう\n　ドワーフらが暮らす町に　着きます。\n<br>\n「まだ　行ったことがないなら\n　一度は　行ってみることを　お勧めします。\n　なかなか　おもろい所なんですわ。": "From here, you will reach Mogarim\nHighway, which is a road that goes\nsoutheast. If you continue along the\n<br>\nroad, you will eventually reach the\nTown of Agrani, where Dwarfs live. If\nyou have never been there, I recommend\n<br>\nyou to go there at least once. It's\nquite an interesting place."
+  },
+  "94080": {
+    "「ごきげんよう　旅の人。\n　わいは　行商人のワバンいいます。\n　以後　ごひいきに。\n<br>\n「わいの仕事は　この馬車で\n　岳都ガタラからの商品を　運ぶことですねん。\n<br>\n「これから　アグラニの町へ行きますけど\n　そっち方面に行く　ご用ってありますか？\n　よければ　そこまで乗せていきまっせ。<bw_break>": "Cheery, I'm Waban, a peddler. My name\nis Waban, a peddler. I am Waban, a\npeddler. My job is to carry goods from\n<br>\nMount Gatara in this wagon. I am going\nto the Town of Agrani now. If you\nlike, I can give you a ride there.<bw_break>"
+  },
+  "94081": {
+    "「これから　アグラニの町へ行きますけど\n　そっち方面に行く　ご用ってありますか？\n　よければ　そこまで乗せていきまっせ。<bw_break>": "I'm on my way to the Town of Agrani.\nIf you want, I can give you a ride\nthere.<bw_break>"
+  },
+  "94082": {
+    "「ごきげんよう　旅の人。\n　わいは　行商人のワバンいいます。\n　以後　ごひいきに。\n<br>\n「わいの仕事は　この馬車で\n　岳都ガタラからの商品を　運ぶことですねん。\n<br>\n「これから　モガレキャンプへ行きますけど\n　そっち方面に行く　ご用ってありますか？\n　よければ　そこまで乗せていきまっせ。<bw_break>": "Cheery, I'm Waban, a peddler. My name\nis Waban, a peddler. I am Waban, a\npeddler. My job is to carry goods from\n<br>\nMount Gatara in this wagon. I am going\nto Mogare Camp now. Do you have any\nbusiness in that area? If you want, I\n<br>\ncan give you a ride there.<bw_break>"
+  },
+  "94083": {
+    "「これから　モガレキャンプへ行きますけど\n　そっち方面に行く　ご用ってありますか？\n　よければ　そこまで乗せていきまっせ。<bw_break>": "I'm on my way to Mogare Camp. Do you\nhave any business in that area? If you\nwant, I can give you a ride there.<bw_break>"
+  },
+  "94084": {
+    "<pipipi_low>「……ありゃ！？ \n　えらい　すんまへんけど　今そこへ行くんは\n　ちぃと　都合が悪いようですわ。\n<br>\n「お代は　返しますよってに\n　時間をおいてから　また　来てください。": "<pipipi_low>Oh, no!I'm very sorry, but it's not a\ngood time to go there. I'll pay you\nback. Please give me some time before\n<br>\nyou come back."
+  },
+  "94085": {
+    "「ただし　送るだけで　迎えはありまへん。\n　それでも　ええなら　どこまで行かれます？\n<name_off><select>\nアグラニの町\nモガレキャンプ（モガリム街道）\nオアシスの隊商宿（ゴブル砂漠東）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>": "But I can only drop you off, not pick\nyou up. If that's all right, where\nwould you like to go?\n<name_off><select>\nTown of Agrani\nMogare Camp (Mogarim Highway)\nOasis Caravan (Goble Desert East)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+  },
+  "94086": {
+    "<attr><feel_happy_lv2><end_attr>「まいど　おおきに！\n　ほなすぐに　出発しますで。": "<attr><feel_happy_lv2><end_attr>Thank you very much! Well, we'll be\nleaving soon."
+  },
+  "94087": {
+    "「あらら。やめますか。\n　ほなまた　よろしゅう。": "Oops. I guess I'll stop now. Well,\nI'll be glad to see you again."
+  },
+  "94088": {
+    "<pipipi_low>「おまっとさん。\n　モガレキャンプに　着きましたで。\n　ほなまた　よろしゅう。": "<pipipi_low>Hello, Mr. Omatto. We've arrived at\nMogare Camp. I look forward to seeing\nyou again."
+  },
+  "94089": {
+    "<pipipi_low>「おまっとさん。\n　アグラニの町に　着きましたで。\n　ほなまた　よろしゅう。": "<pipipi_low>Hello, Mr. Omatto. We have arrived at\nTown of Agrani. I hope to see you\nagain."
+  },
+  "94090": {
+    "「あちゃー。残念やけど　お金が足りまへん。\n　悪いんやけど　こっちも商売なんで。\n　お金のある時に　また　よろしゅう頼んます。": "Oops. I'm sorry, but we don't have\nenough money. I'm sorry, but we're in\nthe business too. Please come again\n<br>\nwhen you have more money."
+  },
+  "94091": {
+    "「<%sL_TIMEI>まで\n　行かれるんやね。\n　２５ゴールド　もらいますけど　ええですか？<yesno><break>": "I see you are going to <%sL_TIMEI>.\nI'll take 25 gold. Is that okay?<yesno><break>"
+  },
+  "94092": {
+    "「さいですか。\n　ほなまた　よろしゅう。": "Is that right? I look forward to\nseeing you again."
+  },
+  "127384": {
+    "<pipipi_low>「おまっとさん。\n　オアシスの隊商宿に　着きましたで。\n　ほなまた　よろしゅう。": "<pipipi_low>Hi, Mr. Omatto. I've arrived at Oasis\nCaravan. I hope to see you again."
+  },
+  "47262": {
+    "朽ち果てた　遺跡の祭壇がある。": "There is an altar of decaying ruins."
+  },
+  "47289": {
+    "朽ち果てた　遺跡の祭壇がある。\n<br>\n<pc>は\nくぼみの間にスイッチを　見つけた！\nスイッチを押してみますか？<yesno><close>": "There is a rotting ruin altar.\n<pc> found a switch between\nthe hollows!<yesno><close>"
+  },
+  "47290": {
+    "なんと　柱の跡の機械から　雨雲がわきあがり\n辺りに　強い雨が　降りだした！": "Rain clouds were rising from the\nmachine at the remains of the pillars,\nand the area began to rain hard!"
+  },
+  "144981": {
+    "古い建物の　一部のようだ。\nカベが崩れて　辺りには　床石が\n無造作に　積み上げられている。": "It looks like part of an old building.\nThe wall has collapsed and the floor\nstones are piled up haphazardly in the\n<br>\narea."
+  },
+  "144982": {
+    "カベが崩れて　辺りには　床石が\n無造作に　積み上げられている。\nしかし　特に何も見つからなかった。": "The wall had collapsed and floor\nstones were piled haphazardly around\nthe area. But nothing in particular\n<br>\nwas found."
+  },
+  "144983": {
+    "<pc>は　その場から\n立ち去ろうとした。": "<pc> tried to leave the\nplace."
+  },
+  "144984": {
+    "<center>待って……。\n<br>\n私は　ここ……。": "Wait. I'm here."
+  },
+  "144985": {
+    "<pc>は　積み上げられた床石の下に\n神カラクリの残がいがあるのに　気がついた。\n<br>\n<pc>は\nドルボードの残がい（だいじなもの）を\n手に入れた！<me 60>": "<pc> noticed the remains of\nthe Divine Machine under a pile of\nfloor stones. <pc> received\n<br>\nDolboard Remains (Key Item)!<me 60>"
+  },
+  "144986": {
+    "古い建物の　一部のようだ。\nカベが崩れて　辺りには　床石が\n無造作に　積み上げられている。": "It looks like part of an old building.\nThe wall has collapsed and the floor\nstones are piled up haphazardly in the\n<br>\narea."
+  }
+}

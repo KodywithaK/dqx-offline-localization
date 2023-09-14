@@ -1,0 +1,53 @@
+{
+  "99896": {
+    "「これから　イナミノ街道の　山間の関所と \n　落陽の草原の　ガケっぷち村に行くでござるが\n　よければ　そこまで乗って行かれるかな？<bw_break>": "I am going to Mountain Pass on Inamino\nHighway and Ruined Village in Sunset\nMeadow, that I know of.<bw_break>"
+  },
+  "99897": {
+    "「やあやあ　旅のお方。\n　それがしは　トルギと申す。\n　馬車で　行商を営む者でござる。\n<br>\n「それがしの仕事は　この馬車で\n　カミハルムイからの　商品を\n　各地に　運ぶことでござる。\n<br>\n「これから　イナミノ街道にある\n　山間の関所に　行くでござるが\n　よければ　そこまで乗って行かれるかな？<bw_break>": "Hello there, fellow traveler. My name\nis Tolgi. I am a wagon peddler, that I\nam. My job is to transport goods from\n<br>\nKamiharmui to various places with this\nwagon, that I do. I am going to\nMountain Pass on the Inamino Highway,\n<br>\nthat I will go to, if you would like\nto take me there.<bw_break>"
+  },
+  "99898": {
+    "「これから　イナミノ街道にある\n　山間の関所に　行くでござるが\n　よければ　そこまで乗って行かれるかな？<bw_break>": "We are going to Mountain Pass on the\nInamino Highway, that we can ride to\nthere, if you don't mind.<bw_break>"
+  },
+  "99899": {
+    "<pipipi_low>「むむむ？　めんぼくない。\n　今　そこに向かうのは\n　少々都合が　悪いようでござる。\n<br>\n「運賃は　お返しするので\n　時間をおいてから　また来てほしいでござる。": "<pipipi_low>Mm-hmm? Menbo Kunai, it seems a little\ninconvenient for you to go there now,\nthat it does. I will refund your fare,\n<br>\nthat I hope you will come back again\nafter some time."
+  },
+  "99900": {
+    "「ただし　送るだけで　迎えには行けぬでござる。\n　それでもよければ\n　どちらに　向かわれるでござるか？\n<name_off><select>\n山間の関所（イナミノ街道）\nガケっぷち村（落陽の草原）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": "However, I can only drop you off and\nnot pick you up, that I cannot. If you\nstill wish, where would you like to\n<br>\ngo, that you would?\n<name_off><select>\nMountain Pass (Inamino Highway)\nRuined Village (Sunset Meadow)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+  },
+  "99901": {
+    "<attr><feel_happy_lv2><end_attr>「まいどあり！　でござる。\n　では　すぐに行くでござる。": "<attr><feel_happy_lv2><end_attr>There is a \"mairi\"! That I am, that I\nam. Then, I will go immediately, that\nI will."
+  },
+  "99902": {
+    "「おお。お乗りにはなられぬか。\n　では　乗りたくなったら\n　また来てほしいでござる。": "Oh. You don't ride, do you? Then, if\nyou feel like riding, that you should\ncome again."
+  },
+  "99903": {
+    "<pipipi_low>「おまちどおさま！　でござる。\n　山間の関所に　着いたでござるよ。": "<pipipi_low>Thank you for your patience! We have\narrived at Mountain Pass, that we\nhave. We have arrived at Mountain\n<br>\nPass, that we have."
+  },
+  "99904": {
+    "<pipipi_low>「おまちどおさま！　でござる。\n　ガケっぷち村に　着いたでござるよ。": "<pipipi_low>Thank you for your patience! We have\narrived at the Ruined Village, that we\nhave. We have arrived at the Ruined\n<br>\nVillage, that we have."
+  },
+  "99905": {
+    "「むむ。お金が足りないようでござるな。\n　お金を持って　また来てほしいでござる。": "Hmmm. It seems that you are short of\nmoney. I hope you will come back again\nwith more money, that I hope."
+  },
+  "99906": {
+    "「<%sL_TIMEI>まで\n　行くでござるな。\n　運賃２５ゴールド　いただくが　よろしいか？<yesno><break>": "You are going to <%sL_TIMEI>. I'll\ncharge you 25 gold for the ride, if\nyou don't mind.<yesno><break>"
+  },
+  "99907": {
+    "「おお。それは残念でござるな。\n　機会があれば　また来てほしいでござる。": "Oh. That is unfortunate. I hope you\nwill come again if you have a chance,\nthat I do."
+  },
+  "124151": {
+    "「やあやあ　旅のお方。\n　それがしは　ナルギと申す。\n　馬車で　行商を営む者でござる。\n<br>\n「それがしの仕事は　この馬車で\n　カミハルムイからの　商品を\n　各地に　運ぶことでござる。\n<br>\n「これから　イナミノ街道の　山間の関所と \n　落陽の草原の　ガケっぷち村に行くでござるが\n　よければ　そこまで乗って行かれるかな？<bw_break>": "Hello there, fellow traveler. My name\nis Nargi. I am a wagon peddler, that I\nam. My job is to transport goods from\n<br>\nKamiharmui to various places with this\nwagon, that I do. I am going to\nMountain Pass on Inamino Highway and\n<br>\nRuined Village in Sunset Meadow, that\nI know.<bw_break>"
+  },
+  "125636": {
+    "「ここから南の　カミハルムイ領南から\n　東に行くと　山間の関所という\n　集落があるでござる。\n<br>\n「ここから北西の　落陽の草原に行き\n　西に進むと　ガケっぷち村という\n　村があるでござる。\n<br>\n「まだ　行ったことがなければ\n　一度　行ってみると　いいでござるよ。": "Go east from Kamiharmui South to the\nsouth of here, that there is a\nsettlement called Mountain Pass. If\n<br>\nyou go northwest from here to Sunset\nMeadow and then west, there is a\nvillage called Ruined Village, that\n<br>\nthere is. If you have never been\nthere, it would be good to go there\nonce, that it would be."
+  },
+  "76474": {
+    "魔物を従えていなければ\nここより先へは　進めないようだ。": "It seems that one cannot go any\nfurther than this point without having\nmonster in tow."
+  },
+  "76475": {
+    "魔物を従えていなければ\nここより先へは　進めないようだ。\n<br>\n仲間の魔物が　死んでしまっているので\n生き返らせてから　もう一度　来てみよう。": "It seems that we cannot proceed any\nfurther without a monster. The\ncompanion monster is dead, so let's\n<br>\nbring it back to life and come back\nagain."
+  },
+  "76476": {
+    "魔物を従えていなければ\nここより先へは　進めないようだ。\n<br>\n仲間の魔物が　待機状態になっているので\n参加状態にしてから　もう一度　来てみよう。": "It seems that we cannot proceed any\nfurther unless we have a \"monster\"\nwith us. Since the companion's monster\n<br>\nis in a standby state, let's make it\njoin and come back again."
+  }
+}
