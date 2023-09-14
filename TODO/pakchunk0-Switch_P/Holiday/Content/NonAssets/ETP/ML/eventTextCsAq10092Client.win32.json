@@ -36,7 +36,7 @@
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": "I have been asked to do a quest. Do\nyou accept this quest?\n<select>\nAccept\nStop\n<select_end><close>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sev_quest_name>\".<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sEV_QUEST_NAME>\".<me 74>"
   },
   "19000444": {
     "<start_lip_sync n00340 _normal m00001>「ありがとうございます！\n　それでは　出発しましょう！<stop_lip_animation n00340 CLOSE_MOUTH>": "<start_lip_sync n00340 _normal m00001>Thank you very much! Now let's depart!<stop_lip_animation n00340 CLOSE_MOUTH>"
@@ -90,7 +90,7 @@
     "<start_lip_sync m06804 _normal m00001>「パルカラス王ガ　フタタび\n　号令ヲ　かけタ時……。\n　我らハ進軍シ　愛すル家族ヲ　救いダす……。<stop_lip_animation m06804 CLOSE_MOUTH>": "<start_lip_sync m06804 _normal m00001>When King Parkaras gave the order to\nhis men to attack, we marched in and\nsaved our beloved families. We march\n<br>\nto save our beloved families.<stop_lip_animation m06804 CLOSE_MOUTH>"
   },
   "19001510": {
-    "<cs_pchero>は\nボロボロの本（だいじなもの）を　手に入れた！<me 60>": "<13_aaaaaac>received Tattered Book (Key Item)!<me 60>"
+    "<cs_pchero>は\nボロボロの本（だいじなもの）を　手に入れた！<me 60>": "<cs_pchero>received Tattered Book (Key Item)!<me 60>"
   },
   "19000453": {
     "<start_lip_sync n00340 _normal m00001>「……おや？　<pc>さん。\n　その本は　いったい……。\n　なるほど。亡霊兵士が落とした物ですか。<stop_lip_animation n00340 CLOSE_MOUTH>": "<start_lip_sync n00340 _normal m00001>Oy? <pc>. What on earth is\nthat book? I see. It was dropped by a\nghost soldier?<stop_lip_animation n00340 CLOSE_MOUTH>"
@@ -138,7 +138,7 @@
     "<start_lip_sync n00340 _normal m00001>「亡霊を討伐し　貴重な本まで手に入れるとは\n　さすがは　<pc>さんですね。\n　どうぞ　これを受け取ってください。<stop_lip_animation n00340 CLOSE_MOUTH>": "<start_lip_sync n00340 _normal m00001>You are indeed <pc> to have\ndefeated the ghosts and even obtained\nthe precious book. Please take this.<stop_lip_animation n00340 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sEV_QUEST_NAME>\" has been\ncompleted!<update_quedate><open_irai>"
   },
   "19000457": {
     "<start_lip_sync n00340 _normal m00001>「急いで　解読を行いたいです。\n　城に戻りましょう！<stop_lip_animation n00340 CLOSE_MOUTH>": "<start_lip_sync n00340 _normal m00001>I want to do a quick decipherment.\nLet's go back to the castle!<stop_lip_animation n00340 CLOSE_MOUTH>"

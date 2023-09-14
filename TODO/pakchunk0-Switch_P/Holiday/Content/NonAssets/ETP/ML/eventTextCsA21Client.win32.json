@@ -150,10 +150,10 @@
     "<start_lip_sync n01507 _normal m00001>「たいした　もてなしは　できないが\n　クスリを作ってもらった　礼がしたい。\n　今夜は　ぜひ　うちに泊まっていってくれ。<stop_lip_animation n01507 CLOSE_MOUTH>": "<start_lip_sync n01507 _normal m00001>I can't offer much in the way of\nhospitality, but I would like to thank\nyou for the drugs you made me. Please\n<br>\nstay at my house tonight.<stop_lip_animation n01507 CLOSE_MOUTH>"
   },
   "23033": {
-    "<center><kyodai>は　イッショウから\n手厚い　もてなしを受けた。": "<&13_aaaaaaac> received generous\nhospitality from Issho."
+    "<center><kyodai>は　イッショウから\n手厚い　もてなしを受けた。": "<kyodai> received generous\nhospitality from Issho."
   },
   "23034": {
-    "<center>リリオルの病状は　目に見えて　落ち着いてゆき\nイッショウと　<kyodai>も　眠りについた。": "Lyriol's condition visibly calmed and\nboth Isho and <&13_aaaaaaac> went to\nsleep."
+    "<center>リリオルの病状は　目に見えて　落ち着いてゆき\nイッショウと　<kyodai>も　眠りについた。": "Lyriol's condition visibly calmed and\nboth Isho and <kyodai> went to\nsleep."
   },
   "23035": {
     "<center>そして　夜が明けた！": "And dawn broke!"
@@ -180,13 +180,13 @@
     "<start_lip_sync n01507 _normal m00001>「なあ　宿ナシ。\n　お前　いったい　どこから来た？\n　どうして　あんな所で　倒れてたんだ？<stop_lip_animation n01507 CLOSE_MOUTH>": "<start_lip_sync n01507 _normal m00001>Hey, innkeeper. Where the hell did you\ncome from? How did you end up there?<stop_lip_animation n01507 CLOSE_MOUTH>"
   },
   "23043": {
-    "<kyodai>は　故郷の　エテーネの村が襲われ\n気づいたら　この島にいたことを話した。": "<&13_aaaaaaac> told how his hometown,\nEthene Village, was attacked and he\nfound himself on this island."
+    "<kyodai>は　故郷の　エテーネの村が襲われ\n気づいたら　この島にいたことを話した。": "<kyodai> told how his hometown,\nEthene Village, was attacked and he\nfound himself on this island."
   },
   "23044": {
     "<start_lip_sync n01508 _normal m00001>「エテーネ……！？<stop_lip_animation n01508 CLOSE_MOUTH>": "<start_lip_sync n01508 _normal m00001>Ethene!<stop_lip_animation n01508 CLOSE_MOUTH>"
   },
   "23045": {
-    "<start_lip_sync n01508 _normal m00001>「<kyodai>って　エテーネの人なの？\n　私　エテーネの村のことを　知ってるわ！<stop_lip_animation n01508 CLOSE_MOUTH>": "<start_lip_sync n01508 _normal m00001><&13_aaaaaaac> is from Ethene? I know\nabout Ethene Village!<stop_lip_animation n01508 CLOSE_MOUTH>"
+    "<start_lip_sync n01508 _normal m00001>「<kyodai>って　エテーネの人なの？\n　私　エテーネの村のことを　知ってるわ！<stop_lip_animation n01508 CLOSE_MOUTH>": "<start_lip_sync n01508 _normal m00001><kyodai> is from Ethene? I know\nabout Ethene Village!<stop_lip_animation n01508 CLOSE_MOUTH>"
   },
   "23046": {
     "<start_lip_sync n01508 _normal m00001>「ほら　これを見て！\n　すこし前に拾った　ボトルレターなの。<stop_lip_animation n01508 CLOSE_MOUTH>": "<start_lip_sync n01508 _normal m00001>Hey, look at this! It's a bottle\nletter I picked up a while back.<stop_lip_animation n01508 CLOSE_MOUTH>"
@@ -207,7 +207,7 @@
     "<start_lip_sync n01508 _normal m00001>「でも　きっと　そんなに遠くないよ！\n　だって　このビンが　割れないで\n　流れ着いたくらいだもん！<stop_lip_animation n01508 CLOSE_MOUTH>": "<start_lip_sync n01508 _normal m00001>But I'm sure it's Kunai that far away!\nBecause this bottle even drifted\nashore without breaking!<stop_lip_animation n01508 CLOSE_MOUTH>"
   },
   "23052": {
-    "<start_lip_sync n01508 _normal m00001>「ねえ　<kyodai>。うちで暮らしなよ！\n　エテーネの村の場所が　わかるまで\n　ず～っと　うちに　いればいいよ。<stop_lip_animation n01508 CLOSE_MOUTH>": "<start_lip_sync n01508 _normal m00001>Hey <&13_aaaaac>. Come live with us!\nYou can stay with us forever until you\nfigure out where Ethene Village is.<stop_lip_animation n01508 CLOSE_MOUTH>"
+    "<start_lip_sync n01508 _normal m00001>「ねえ　<kyodai>。うちで暮らしなよ！\n　エテーネの村の場所が　わかるまで\n　ず～っと　うちに　いればいいよ。<stop_lip_animation n01508 CLOSE_MOUTH>": "<start_lip_sync n01508 _normal m00001>Hey <kyodai>. Come live with us!\nYou can stay with us forever until you\nfigure out where Ethene Village is.<stop_lip_animation n01508 CLOSE_MOUTH>"
   },
   "23053": {
     "<start_lip_sync n01507 _normal m00001>「……はあ？\n　てめえ　勝手に決めてんじゃねえ！\n　この家の主は　オレだ！<stop_lip_animation n01507 CLOSE_MOUTH>": "<start_lip_sync n01507 _normal m00001>Huh? Don't decide on your own! I'm the\nowner of this house!<stop_lip_animation n01507 CLOSE_MOUTH>"
@@ -219,7 +219,7 @@
     "<start_lip_sync n01507 _normal m00001>「て……　てめえっ　リリオル！\n　元気になったとたん　言いたい放題だな。\n　このヤロウ！<stop_lip_animation n01507 CLOSE_MOUTH>": "<start_lip_sync n01507 _normal m00001>You've been saying all the things you\nwant to say as soon as you're feeling\nbetter. You're a bastard!<stop_lip_animation n01507 CLOSE_MOUTH>"
   },
   "23056": {
-    "<start_lip_sync n01508 _normal m00001>「そういうわけで　お父さんのことは\n　気にしなくていいから　よろしくね！\n　<kyodai>！<stop_lip_animation n01508 CLOSE_MOUTH>": "<start_lip_sync n01508 _normal m00001>That's why you don't have to worry\nabout your dad, so nice to meet you!\n<&13_aaaaaaac>!<stop_lip_animation n01508 CLOSE_MOUTH>"
+    "<start_lip_sync n01508 _normal m00001>「そういうわけで　お父さんのことは\n　気にしなくていいから　よろしくね！\n　<kyodai>！<stop_lip_animation n01508 CLOSE_MOUTH>": "<start_lip_sync n01508 _normal m00001>That's why you don't have to worry\nabout your dad, so nice to meet you!\n<kyodai>!<stop_lip_animation n01508 CLOSE_MOUTH>"
   },
   "23057": {
     "<start_lip_sync n01507 _normal m00001>「くっそう！\n　よくも　そこまで　オレを無視して\n　話を　進められるもんだな！<stop_lip_animation n01507 CLOSE_MOUTH>": "<start_lip_sync n01507 _normal m00001>Damn it! How dare you ignore me to\nthat extent?<stop_lip_animation n01507 CLOSE_MOUTH>"
@@ -243,7 +243,7 @@
     "<start_lip_sync n01507 _normal m00001>「この町で　錬金に　はげんでりゃあ\n　いずれ　故郷に帰るための手掛かりが\n　見つかる日も　来るだろう！　オレの勘だがな！<stop_lip_animation n01507 CLOSE_MOUTH>": "<start_lip_sync n01507 _normal m00001>If you keep on smelting in this town,\nthere will come a day when you will\nfind a clue that will lead you back to\n<br>\nyour homeland! That's just my hunch!<stop_lip_animation n01507 CLOSE_MOUTH>"
   },
   "23064": {
-    "<start_lip_sync n01508 _normal m00001>「よかったわね　<kyodai>。\n　故郷に帰れるように　私も　応援するからね！<stop_lip_animation n01508 CLOSE_MOUTH>": "<start_lip_sync n01508 _normal m00001>Good for you <&13_aaaaaaac>. I'll be\nrooting for you too so you can go\nhome!<stop_lip_animation n01508 CLOSE_MOUTH>"
+    "<start_lip_sync n01508 _normal m00001>「よかったわね　<kyodai>。\n　故郷に帰れるように　私も　応援するからね！<stop_lip_animation n01508 CLOSE_MOUTH>": "<start_lip_sync n01508 _normal m00001>Good for you <kyodai>. I'll be\nrooting for you too so you can go\nhome!<stop_lip_animation n01508 CLOSE_MOUTH>"
   },
   "23079": {
     "<start_lip_sync n01544 _normal m00001>「では　さっそく　アバさまに\n　この豆を　お見せしてこよう。\n　……そなたは　ここで　待つがよい。<stop_lip_animation n01544 CLOSE_MOUTH>": "<start_lip_sync n01544 _normal m00001>I will show these beans to Abba\nimmediately. You can wait here.<stop_lip_animation n01544 CLOSE_MOUTH>"
@@ -288,7 +288,7 @@
     "<start_lip_sync n01509 _normal m00001>「儀式は　終わった……。<stop_lip_animation n01509 CLOSE_MOUTH>": "<start_lip_sync n01509 _normal m00001>The ceremony is over.<stop_lip_animation n01509 CLOSE_MOUTH>"
   },
   "23093": {
-    "<start_lip_sync n01509 _normal m00001>「<kyodai>だな？\n　そなたのおかげだ。礼を言うぞ。<stop_lip_animation n01509 CLOSE_MOUTH>": "<start_lip_sync n01509 _normal m00001><&13_aaaaaaac>, right? You made it\nhappen. I thank you.<stop_lip_animation n01509 CLOSE_MOUTH>"
+    "<start_lip_sync n01509 _normal m00001>「<kyodai>だな？\n　そなたのおかげだ。礼を言うぞ。<stop_lip_animation n01509 CLOSE_MOUTH>": "<start_lip_sync n01509 _normal m00001><kyodai>, right? You made it\nhappen. I thank you.<stop_lip_animation n01509 CLOSE_MOUTH>"
   },
   "23094": {
     "<start_lip_sync n01509 _normal m00001>「チャツカ！\n　村の者たちを　集めるのじゃ！<stop_lip_animation n01509 CLOSE_MOUTH>": "<start_lip_sync n01509 _normal m00001>Gather the villagers!<stop_lip_animation n01509 CLOSE_MOUTH>"
@@ -336,19 +336,19 @@
     "<start_lip_sync n01510 _normal m00001>「ふっふっふっ。これで　ハツラツ豆が\n　いつでも　食べられるようになるわい。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>Phew, phew, phew. Now I can have Pep\nBeans anytime I want.<stop_lip_animation n01510 CLOSE_MOUTH>"
   },
   "23109": {
-    "<start_lip_sync n01509 _normal m00001>「アバ！\n　大事な話を　忘れておるじゃろう。\n　<kyodai>のことを　皆に　説明せんか！<stop_lip_animation n01509 CLOSE_MOUTH>": "<start_lip_sync n01509 _normal m00001>Abba! You forgot to tell me something\nimportant. You forgot to tell us about\n<&13_aaaaaaac>!<stop_lip_animation n01509 CLOSE_MOUTH>"
+    "<start_lip_sync n01509 _normal m00001>「アバ！\n　大事な話を　忘れておるじゃろう。\n　<kyodai>のことを　皆に　説明せんか！<stop_lip_animation n01509 CLOSE_MOUTH>": "<start_lip_sync n01509 _normal m00001>Abba! You forgot to tell me something\nimportant. You forgot to tell us about\n<kyodai>!<stop_lip_animation n01509 CLOSE_MOUTH>"
   },
   "23110": {
     "<start_lip_sync n01510 _normal m00001>「ああ……。\n　そうじゃった　そうじゃった。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>Yes, it was. That's right. That's\nright.<stop_lip_animation n01510 CLOSE_MOUTH>"
   },
   "23111": {
-    "<start_lip_sync n01510 _normal m00001>「皆に　紹介しよう！\n　この　ハツラツ豆を作ってくれたのが\n　ここにいる　<kyodai>じゃ。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>I would like to introduce to you all!\nThe man who made this Pep Beans is\nhere <&13_aaaaaaac>.<stop_lip_animation n01510 CLOSE_MOUTH>"
+    "<start_lip_sync n01510 _normal m00001>「皆に　紹介しよう！\n　この　ハツラツ豆を作ってくれたのが\n　ここにいる　<kyodai>じゃ。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>I would like to introduce to you all!\nThe man who made this Pep Beans is\nhere <kyodai>.<stop_lip_animation n01510 CLOSE_MOUTH>"
   },
   "23112": {
     "<start_lip_sync n01510 _normal m00001>「カメさまの　お告げの通り\n　わしが　新たなる巫女となるために\n　チカラを尽くしてくれた！<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>As Galapagod had predicted, he did\neverything in his power to help me\nbecome a new priestess!<stop_lip_animation n01510 CLOSE_MOUTH>"
   },
   "23113": {
-    "<start_lip_sync n01510 _normal m00001>「わしは　村の救世主　<kyodai>に敬意を表し\n　エテーネの民のひとりとして　迎えると決めた。\n　皆の者も　仲良くしてやってくれい！<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>I have decided to honor the savior of\nour village, <&13_aaaaaaac>, and\nwelcome him as one of the people of\n<br>\nEthene. I hope you will all get along!<stop_lip_animation n01510 CLOSE_MOUTH>"
+    "<start_lip_sync n01510 _normal m00001>「わしは　村の救世主　<kyodai>に敬意を表し\n　エテーネの民のひとりとして　迎えると決めた。\n　皆の者も　仲良くしてやってくれい！<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>I have decided to honor the savior of\nour village, <kyodai>, and\nwelcome him as one of the people of\n<br>\nEthene. I hope you will all get along!<stop_lip_animation n01510 CLOSE_MOUTH>"
   },
   "23114": {
     "<start_lip_sync n01510 _normal m00001>「以上！　解散っ！！<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>That is all! Dismissed!<stop_lip_animation n01510 CLOSE_MOUTH>"
@@ -357,7 +357,7 @@
     "<start_lip_sync n01509 _normal m00001>「ふう……。\n　これで　わしも　肩の荷が下りたわい……。<stop_lip_animation n01509 CLOSE_MOUTH>": "<start_lip_sync n01509 _normal m00001>Phew. Now I too feel a weight has been\nlifted from my shoulders.<stop_lip_animation n01509 CLOSE_MOUTH>"
   },
   "146741": {
-    "<start_lip_sync n01510 _normal m00001>「<kyodai>。わしには　わかっておるぞ。\n　お前は　時渡りの術により\n　この時代に　来たのじゃろう？<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001><&13_aaaaaaac>. I know what it is. You\nhave come to this time through the art\nof time travel, have you not?<stop_lip_animation n01510 CLOSE_MOUTH>"
+    "<start_lip_sync n01510 _normal m00001>「<kyodai>。わしには　わかっておるぞ。\n　お前は　時渡りの術により\n　この時代に　来たのじゃろう？<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001><kyodai>. I know what it is. You\nhave come to this time through the art\nof time travel, have you not?<stop_lip_animation n01510 CLOSE_MOUTH>"
   },
   "146742": {
     "<start_lip_sync n01510 _normal m00001>「……何も言わんでよい。\n　このことは　お前と　わしの\n　ふたりだけの　秘密にしておこう。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>You don't have to say anything. You\nand I will keep this between us.<stop_lip_animation n01510 CLOSE_MOUTH>"
@@ -369,10 +369,10 @@
     "<start_lip_sync n01510 _normal m00001>「……そう。今　この時代に\n　時渡りの術を使える者は　おらん。\n　お前が　元の時代に帰る方法はないのじゃ。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>That's right. There is no one who can\nuse the art of time travel in this\ntime period. There is no way for you\n<br>\nto return to your time.<stop_lip_animation n01510 CLOSE_MOUTH>"
   },
   "146745": {
-    "<start_lip_sync n01510 _normal m00001>「だが　<kyodai>よ　気を落とすでない。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>But <&13_aaaaaaac>, do not be\ndiscouraged.<stop_lip_animation n01510 CLOSE_MOUTH>"
+    "<start_lip_sync n01510 _normal m00001>「だが　<kyodai>よ　気を落とすでない。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>But <kyodai>, do not be\ndiscouraged.<stop_lip_animation n01510 CLOSE_MOUTH>"
   },
   "146746": {
-    "<start_lip_sync n01510 _normal m00001>「会うことは　かなわぬとも\n　我が祈りにより　せめて　お前の思いを\n　<pc>の元へと　届けてやろう。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>Even though we may never meet, through\nmy prayers, I will at least send your\nthoughts to <&13_aaaaaaad>.<stop_lip_animation n01510 CLOSE_MOUTH>"
+    "<start_lip_sync n01510 _normal m00001>「会うことは　かなわぬとも\n　我が祈りにより　せめて　お前の思いを\n　<pc>の元へと　届けてやろう。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>Even though we may never meet, through\nmy prayers, I will at least send your\nthoughts to <pc>.<stop_lip_animation n01510 CLOSE_MOUTH>"
   },
   "146747": {
     "<start_lip_sync n01510 _normal m00001>「さあ　祈るのじゃ。\n　遠く離れた場所にいる　<pc_rel2>を思って……。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>Now pray. Think of <pc_rel2> who is far\naway.<stop_lip_animation n01510 CLOSE_MOUTH>"
@@ -381,7 +381,7 @@
     "<start_lip_sync n01510 _normal m00001>「強く祈れば　その思いは　形となり\n　必ず　<pc>の元へ　届くはずじゃ。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>If you pray hard enough, your thoughts\nwill take shape and reach\n<pc> without fail.<stop_lip_animation n01510 CLOSE_MOUTH>"
   },
   "146749": {
-    "<start_lip_sync n01510 _normal m00001>「救世主　<kyodai>の<pc_rel2>　<pc>よ。\n　<kyodai_rel3>は　この時代で　がんばったぞ。\n　その思いを　しっかり　受け取っておくれ。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>Savior <&13_aaaaaaac> of <pc_rel2>\n<&13_aaaaaaad>. <kyodai_rel3> has done his\nbest in this time. Please accept his\n<br>\nthoughts and feelings.<stop_lip_animation n01510 CLOSE_MOUTH>"
+    "<start_lip_sync n01510 _normal m00001>「救世主　<kyodai>の<pc_rel2>　<pc>よ。\n　<kyodai_rel3>は　この時代で　がんばったぞ。\n　その思いを　しっかり　受け取っておくれ。<stop_lip_animation n01510 CLOSE_MOUTH>": "<start_lip_sync n01510 _normal m00001>Savior <kyodai> of <pc_rel2>\n<pc>. <kyodai_rel3> has done his\nbest in this time. Please accept his\n<br>\nthoughts and feelings.<stop_lip_animation n01510 CLOSE_MOUTH>"
   },
   "37759": {
     "<start_lip_sync m08700 _normal m00001>「ゴルルルゥ。におう……におうぞォ！\n　こいつは　錬金術師の　においだなァ！？<stop_lip_animation m08700 CLOSE_MOUTH>": "<start_lip_sync m08700 _normal m00001>Gorloo. I can smell it! This guy\nsmells like an alchemist!<stop_lip_animation m08700 CLOSE_MOUTH>"

@@ -27,7 +27,7 @@
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": "I have been asked to do a quest. Do\nyou accept this quest?\n<select>\nAccept\nStop\n<select_end><close>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sev_quest_name>\".<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sEV_QUEST_NAME>\".<me 74>"
   },
   "20139": {
     "<start_lip_sync m50016 _normal m00001>「ありがたニャ。<pc>なら\n　やってくれると思ってたのニャ。<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>Thanks, Meow. I knew <pc>\nwould do it.<stop_lip_animation m50016 CLOSE_MOUTH>"
@@ -228,7 +228,7 @@
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「ミャギャッ！<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Myaggy!<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "20206": {
-    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「ミャひー　<cs_pchero>さま～。　\n　ここは　一肌　脱いでほしいでヤンスよ～。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Okinawan yellow cucumber<13_aaaaaac>~I'd like you to take off some skin\nhere.I wish you would take off your\nskin for me~.<stop_lip_animation m00501 CLOSE_MOUTH>"
+    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「ミャひー　<cs_pchero>さま～。　\n　ここは　一肌　脱いでほしいでヤンスよ～。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Okinawan yellow cucumber<cs_pchero>~I'd like you to take off some skin\nhere.I wish you would take off your\nskin for me~.<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "20207": {
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「アッシは　うしろで\n　ラブリーに　応援してるでヤンスから～！<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>I'll be right behind you, cheering you\non lovingly!<stop_lip_animation m00501 CLOSE_MOUTH>"
@@ -237,10 +237,10 @@
     "<start_lip_sync m03401 _normal m00001>「グァルルルルゥ！！<stop_lip_animation m03401 CLOSE_MOUTH>": "<start_lip_sync m03401 _normal m00001>Guarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr!<stop_lip_animation m03401 CLOSE_MOUTH>"
   },
   "20209": {
-    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「ミャヒィィッ　<cs_pchero>さま！\n　アッシを　ひとりにするミャんて\n　ひどいでヤンスよ。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Myahey.<13_aaaaaac>Oh, my God! It's terrible of you to\nleave me alone.<stop_lip_animation m00501 CLOSE_MOUTH>"
+    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「ミャヒィィッ　<cs_pchero>さま！\n　アッシを　ひとりにするミャんて\n　ひどいでヤンスよ。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Myahey.<cs_pchero>Oh, my God! It's terrible of you to\nleave me alone.<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "20210": {
-    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「リベリオの旦那も　帰ってこねえでヤンスし\n　ここは　<cs_pchero>さまに\n　一肌　脱いでほしいでヤンス～！！<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>The master of Rebelio is not coming\nback.<13_aaaaaac>I want you to take off your skin for\nme!<stop_lip_animation m00501 CLOSE_MOUTH>"
+    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「リベリオの旦那も　帰ってこねえでヤンスし\n　ここは　<cs_pchero>さまに\n　一肌　脱いでほしいでヤンス～！！<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>The master of Rebelio is not coming\nback.<cs_pchero>I want you to take off your skin for\nme!<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "20211": {
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「アッシは　うしろで\n　ラブリーに　応援してるでヤンスから～！<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>I'll be right behind you, cheering you\non lovingly!<stop_lip_animation m00501 CLOSE_MOUTH>"
@@ -249,7 +249,7 @@
     "<start_lip_sync m03401 _normal m00001>「グァルルルルゥ！！<stop_lip_animation m03401 CLOSE_MOUTH>": "<start_lip_sync m03401 _normal m00001>Guarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr!<stop_lip_animation m03401 CLOSE_MOUTH>"
   },
   "20213": {
-    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「さっすが　<cs_pchero>さまでヤンス。\n　その強さに　アッシは　メロメロでヤンスよ！<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>as one would expect<13_aaaaaac>I'm in love with her strength! I'm in\nlove with his strength!<stop_lip_animation m00501 CLOSE_MOUTH>"
+    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「さっすが　<cs_pchero>さまでヤンス。\n　その強さに　アッシは　メロメロでヤンスよ！<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>as one would expect<cs_pchero>I'm in love with her strength! I'm in\nlove with his strength!<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "20214": {
     "<start_lip_sync m50016 _normal m00001>「ニャー！　このオレに恐れをなしたか\n　ヒポポ・サードォォォォン！！<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>Meow! Are you afraid of this me,\nHippopo-third-o!<stop_lip_animation m50016 CLOSE_MOUTH>"
@@ -288,19 +288,19 @@
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「……また　置いていかれたでヤンス。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>I've been left behind again.<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "20226": {
-    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「アッシも　追いかけるでヤンスね。\n　<cs_pchero>さまの　シゴトは\n　いったん　ここで終わりってことで。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>I'm going after them too.<13_aaaaaac>I'm going to end my work here for now.<stop_lip_animation m00501 CLOSE_MOUTH>"
+    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「アッシも　追いかけるでヤンスね。\n　<cs_pchero>さまの　シゴトは\n　いったん　ここで終わりってことで。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>I'm going after them too.<cs_pchero>I'm going to end my work here for now.<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "20227": {
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「じつは　マンマーさまから　預かった\n　お礼の品が　あるんでヤンスよ。\n　受け取ってほしいでヤンス。　<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>In fact, I have a gift for you that\nMomma gave me. I would like you to\naccept it.<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sEV_QUEST_NAME>\" has been\ncompleted!<update_quedate><open_irai>"
   },
   "20228": {
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「それじゃ　ごめんなすってでヤンス。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>I'm sorry, then.<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "28425": {
-    "<cs_pchero>は　クエストをクリアした！": "<13_aaaaaac>completed the quest!"
+    "<cs_pchero>は　クエストをクリアした！": "<cs_pchero>completed the quest!"
   },
   "20229": {
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「ミャハー　<pc>さま。\n　猫島へ　行ったんでヤンスが\n　マンマーさまに　追いだされちまいヤンした。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Miaha <pc>. I went to Cat\nIsland and Momma kicked me out.<stop_lip_animation m00501 CLOSE_MOUTH>"

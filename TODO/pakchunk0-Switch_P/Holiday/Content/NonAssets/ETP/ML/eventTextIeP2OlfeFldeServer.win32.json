@@ -105,13 +105,13 @@
     "<attr><feel_happy_lv2><end_attr>「ザッケス氏の　ぬいぐるみ屋から\n　追加発注が　届いてきとるぞ！\n　どうやら　無事に営業再開できたようじゃな。\n<br>\n「一時は　どうなることかと思ったが……\n　わしの野望は　まだまだ　これからじゃ。\n　革命　起こしてやるけんのー！！": "<attr><feel_happy_lv2><end_attr>We have received an additional order from Mr.\nZackes' stuffed animal shop! It seems that\nthey have successfully reopened for business.\n<br>\nFor a while I wondered what would happen, but\nmy ambitions are far from over. I'm going to\nstart a revolution!"
   },
   "46350": {
-    "<%sEV_QUE_NAME0>を　<%nEV_QUE_S_NUM0>匹　たおした！\nこれで　<%nEV_QUE_T_NUM0>匹　たおしおわった！": "I killed <%sev_que_name0> and\n<%nev_que_s_num0>! We have killed\n<%nev_que_t_num0>!"
+    "<%sEV_QUE_NAME0>を　<%nEV_QUE_S_NUM0>匹　たおした！\nこれで　<%nEV_QUE_T_NUM0>匹　たおしおわった！": "I killed <%sEV_QUE_NAME0> and\n<%nEV_QUE_S_NUM0>! We have killed\n<%nEV_QUE_T_NUM0>!"
   },
   "59248": {
     "「ああ～ん。あたし　セクシーなお姉さ～ん。\n　エレガントな物が　大　大　大好き～ん。\n　これから　見習いとして美容師になるわ～ん。\n<br>\n「ずぅっと西の　メギストリスの都に\n　美容院っていう　お店があってぇ　これから\n　オープンするからぁ　足を運んでみてね～ん。": "Ah~n. I'm a sexy sister. I love all things\nelegant. I'm going to become an apprentice\nhairdresser. There's a store called Salon in\n<br>\nthe City of Megistris, way to the west, and\nit's about to open, so please come visit."
   },
   "59249": {
-    "「あたし　サロン・フェリシアの見習い美容師～。\n　今度　美容院で使う\n　新しい色を　作ることになったの～ん。\n<br>\n「よりセクシーで　エレガントな色を作ろうと\n　思うんだけどぉ　<%sEV_QUE_NAME0>が持ってる\n　夜のささやきっていう宝石が　必要なの～ん。\n<br>\n「ポーポラ地方の　賢者の隠れ家にいる\n　その魔物が　夜のささやきを落とすらしいけどぉ\n　けっこう強いから　あたしじゃ　ムリムリ～ん。": "I am an apprentice hairdresser at Salon Fee\nLycia. I'm going to create a new color for the\nsalon. I want to make a sexier and more\n<br>\nelegant color, but I need a gemstone called\nNight Whisper that <%sev_que_name0> has. I\nheard that the monster in Sage's Lair in\n<br>\nPopola Region drops Night Whisper, but it's\nvery strong, so it's impossible for me to get\nit."
+    "「あたし　サロン・フェリシアの見習い美容師～。\n　今度　美容院で使う\n　新しい色を　作ることになったの～ん。\n<br>\n「よりセクシーで　エレガントな色を作ろうと\n　思うんだけどぉ　<%sEV_QUE_NAME0>が持ってる\n　夜のささやきっていう宝石が　必要なの～ん。\n<br>\n「ポーポラ地方の　賢者の隠れ家にいる\n　その魔物が　夜のささやきを落とすらしいけどぉ\n　けっこう強いから　あたしじゃ　ムリムリ～ん。": "I am an apprentice hairdresser at Salon Fee\nLycia. I'm going to create a new color for the\nsalon. I want to make a sexier and more\n<br>\nelegant color, but I need a gemstone called\nNight Whisper that <%sEV_QUE_NAME0> has. I\nheard that the monster in Sage's Lair in\n<br>\nPopola Region drops Night Whisper, but it's\nvery strong, so it's impossible for me to get\nit."
   },
   "59250": {
     "「ああ～ん。そんなセクシーボイスで　あたしの\n　お願いを聞いてくれるなんて　カンゲキ～ん。\n　その声に　あたし思わず　失神クラクラ～ん。\n<br>\n「何匹か　<%sEV_QUE_NAME0>を倒していけばぁ\n　そのうち　夜のささやきを　落とすはず～ん。\n　がんばり　がんば～。がんばり　がんば～。": "Ah~n. It's so wonderful that you listen to my\nrequest with such a sexy voice. I was so\nexcited to hear her voice that I fainted~. If\n<br>\nI kill a few <%sEV_QUE_NAME0>, they should\ndrop the Night Whisper sooner or later~. Hang\nin there, hang in there, hang in there. Hang\n<br>\nin there, hang in there, hang in there."
@@ -126,7 +126,7 @@
     "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>「いやん。あなたってば　ストロングガール～。\n　ああ～ん。あたしからの　お・ね・が・い<heart>\n　夜のささやきを　手に入れてきて～ん。<else><attr><feel_happy_lv2><end_attr><icon_exc>「いやん。あなたってば　ストロングボーイ～。\n　ああ～ん。あたしからの　お・ね・が・い<heart>\n　夜のささやきを　手に入れてきて～ん。<endif>": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>No. You are such a Strongholdgirl~. Ah~n. Go\nget me that Night Whisper I've been begging\nfor~~.<else><attr><feel_happy_lv2><end_attr><icon_exc>No. You are such a Stronghboy~. Ah~n. Go get\nme that Night Whisper I've been begging for~.<endif>"
   },
   "59253": {
-    "「ああ～ん。ポーポラ地方の　賢者の隠れ家にいる\n　<%sEV_QUE_NAME0>を倒して\n　夜のささやきっていう宝石を　手に入れて～ん。<open_irai><bw_break>": "Ahhhh, I need to defeat <%sev_que_name0> in\nSage's Lair in Popola Region to get a gem\ncalled Night Whisper.<open_irai><bw_break>"
+    "「ああ～ん。ポーポラ地方の　賢者の隠れ家にいる\n　<%sEV_QUE_NAME0>を倒して\n　夜のささやきっていう宝石を　手に入れて～ん。<open_irai><bw_break>": "Ahhhh, I need to defeat <%sEV_QUE_NAME0> in\nSage's Lair in Popola Region to get a gem\ncalled Night Whisper.<open_irai><bw_break>"
   },
   "63703": {
     "「よりセクシーで　エレガントな色を作るためには\n　その宝石が　どうしても必要なの～ん。\n　がんばり　がんば～。がんばり　がんば～。": "I really need those gems to make the color\nmore sexy and elegant~. Hang in there, hang in\nthere, hang in there. Hang in there, hang in\n<br>\nthere, hang in there."

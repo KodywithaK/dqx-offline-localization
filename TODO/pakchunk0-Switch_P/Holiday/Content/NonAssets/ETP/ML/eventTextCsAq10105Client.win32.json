@@ -9,7 +9,7 @@
     "<start_lip_sync n00121 _normal m00001>「こ　このままでは　村王の　命が危ない！\n　急いで　解熱薬を用意せねばならん！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001>At this rate, the life of the Village\nKing will be in danger! We must hurry\nand prepare an antifebrile!<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15678": {
-    "<start_lip_sync n00121 _normal m00001>「<pc>よ！　材料となる\n　<%sEV_QUE_NAME4>と　きつけそうを\n　早急に　持ってきてもらえんか！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001><pc>! Could you please bring\nme <%sev_que_name4> and Softwort as\nsoon as possible?<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>「<pc>よ！　材料となる\n　<%sEV_QUE_NAME4>と　きつけそうを\n　早急に　持ってきてもらえんか！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001><pc>! Could you please bring\nme <%sEV_QUE_NAME4> and Softwort as\nsoon as possible?<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "26333": {
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": "I have been asked to do a quest. Do\nyou accept this quest?\n<select>\nAccept\nStop\n<select_end><close>"
@@ -21,7 +21,7 @@
     "<start_lip_sync n00121 _normal m00001>「私は　村王から　目が離せん！\n　よろしく頼むぞ！！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001>I can't take my eyes off the Village\nKing! I'll be counting on you!<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sev_quest_name>\".<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sEV_QUEST_NAME>\".<me 74>"
   },
   "15681": {
     "<start_lip_sync n00121 _normal m00001>「やってくれるか……。\n　だが　頼まれごとで　いっぱいではないか！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001>Will you do it? But aren't you full of\nrequests?<stop_lip_animation n00121 CLOSE_MOUTH>"
@@ -39,7 +39,7 @@
     "<start_lip_sync n00121 _normal m00001>「村王が　熱で　意識を失ってしまった……。\n　このままでは　命が危ない！\n　急いで　解熱薬を用意せねばならん！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001>The village king has lost\nconsciousness due to fever. His life\nis in danger! We must quickly prepare\n<br>\nan antipyretic!<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15686": {
-    "<start_lip_sync n00121 _normal m00001>「<pc>よ！　材料となる\n　<%sEV_QUE_NAME4>と　きつけそうを\n　早急に　持ってきてもらえんか！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001><pc>! Could you please bring\nme <%sev_que_name4> and Softwort as\nsoon as possible?<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>「<pc>よ！　材料となる\n　<%sEV_QUE_NAME4>と　きつけそうを\n　早急に　持ってきてもらえんか！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001><pc>! Could you please bring\nme <%sEV_QUE_NAME4> and Softwort as\nsoon as possible?<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15687": {
     "<start_lip_sync n00121 _normal m00001>「<pc>！　戻ったか！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001><pc>! You're back!<stop_lip_animation n00121 CLOSE_MOUTH>"
@@ -51,10 +51,10 @@
     "ギュランに　<%sEV_QUE_NAME4>と\nきつけそうを　渡しますか？<yesno><close>": "Do you want to give Guran\n<%sEV_QUE_NAME4> and Softwort?<yesno><close>"
   },
   "15688": {
-    "<start_lip_sync n00121 _normal m00001>「む……。どうやら　まだ\n　<%sEV_QUE_NAME4>と　きつけそうは\n　手に入らないようだな……。<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001>Hmmm... Looks like we can't get\n<%sev_que_name4> and Softwort yet.<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>「む……。どうやら　まだ\n　<%sEV_QUE_NAME4>と　きつけそうは\n　手に入らないようだな……。<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001>Hmmm... Looks like we can't get\n<%sEV_QUE_NAME4> and Softwort yet.<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15693": {
-    "<pc>は　ギュランに\n<%sEV_QUE_NAME4>と\nきつけそうを　渡した！": "<pc> gave Guran\n<%sev_que_name4> and Softwort!"
+    "<pc>は　ギュランに\n<%sEV_QUE_NAME4>と\nきつけそうを　渡した！": "<pc> gave Guran\n<%sEV_QUE_NAME4> and Softwort!"
   },
   "15694": {
     "<start_lip_sync n00121 _normal m00001>「おおっ！　ありがたい！\n　さっそく　解熱薬を　調合しよう！\n　これで　村王を　助けられるぞ！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001>Oh! Thank goodness! I'll mix up some\nantifebrile medicine right away! With\nthis, we can save the village king!<stop_lip_animation n00121 CLOSE_MOUTH>"
@@ -207,10 +207,10 @@
     "<start_lip_sync n01442 _normal m00001>「変わったなど　オレは認めんっ！！\n　貴様ら　皆殺しにしてやるっ！！<stop_lip_animation n01442 CLOSE_MOUTH>": "<start_lip_sync n01442 _normal m00001>I don't accept that you've changed! I\nwill kill you all!<stop_lip_animation n01442 CLOSE_MOUTH>"
   },
   "15742": {
-    "<start_lip_sync n00121 _normal m00001>「<cs_pchero>っ！　村王を！\n　村王を　お守りしてくれっ！！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001><13_aaaaaac>I'll get the village king! Protect the\nvillage king! Protect the Village\nKing!<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>「<cs_pchero>っ！　村王を！\n　村王を　お守りしてくれっ！！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001><cs_pchero>I'll get the village king! Protect the\nvillage king! Protect the Village\nKing!<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15743": {
-    "<start_lip_sync n00121 _normal m00001>「<cs_pchero>っ！　戻ってきてくれたか！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001><13_aaaaaac>Oh, man! You're back!<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>「<cs_pchero>っ！　戻ってきてくれたか！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001><cs_pchero>Oh, man! You're back!<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15744": {
     "<start_lip_sync n00121 _normal m00001>「今度こそ　ガガイを倒し　村王を……\n　いや　この村を　守ってくれっ！！<stop_lip_animation n00121 CLOSE_MOUTH>": "<start_lip_sync n00121 _normal m00001>This time, defeat Gagai and protect\nthe Village King, or rather, this\nvillage!<stop_lip_animation n00121 CLOSE_MOUTH>"
@@ -237,7 +237,7 @@
     "<start_lip_sync n00122 _normal m00001>「ガガイーっ！\n　お前は　負けはしたが　すごかったぞー！<stop_lip_animation n00122 CLOSE_MOUTH>": "<start_lip_sync n00122 _normal m00001>Gagai! You lost, but you were amazing!<stop_lip_animation n00122 CLOSE_MOUTH>"
   },
   "50297": {
-    "<start_lip_sync n00112 _normal m00001>「最後まで　あきらめずに戦い続けて\n　<cs_pchero>も　ガガイも　本当に立派だよ！\n　あたし　感動で　泣けてきたよっ！！<stop_lip_animation n00112 CLOSE_MOUTH>": "<start_lip_sync n00112 _normal m00001>Keep fighting and never give up until\nthe end.<13_aaaaaac>and Gagai are really great! I was so\nmoved I started to cry!<stop_lip_animation n00112 CLOSE_MOUTH>"
+    "<start_lip_sync n00112 _normal m00001>「最後まで　あきらめずに戦い続けて\n　<cs_pchero>も　ガガイも　本当に立派だよ！\n　あたし　感動で　泣けてきたよっ！！<stop_lip_animation n00112 CLOSE_MOUTH>": "<start_lip_sync n00112 _normal m00001>Keep fighting and never give up until\nthe end.<cs_pchero>and Gagai are really great! I was so\nmoved I started to cry!<stop_lip_animation n00112 CLOSE_MOUTH>"
   },
   "15753": {
     "<start_lip_sync n01444 _normal m00001>「どっちも　サイコーに　かっけーぜっ！\n　オイラ　チョーあこがれちまうぜーっ！<stop_lip_animation n01444 CLOSE_MOUTH>": "<start_lip_sync n01444 _normal m00001>Both of them are so cool! I'm so hot\nfor them!<stop_lip_animation n01444 CLOSE_MOUTH>"
@@ -288,7 +288,7 @@
     "<start_lip_sync n01442 _normal m00001>「オレは　罪を重ねすぎた……。<stop_lip_animation n01442 CLOSE_MOUTH>": "<start_lip_sync n01442 _normal m00001>I have sinned too many times.<stop_lip_animation n01442 CLOSE_MOUTH>"
   },
   "15769": {
-    "<start_lip_sync n00091 _normal m00001>「ありがとう　<cs_pchero>よ。\n　まったく　お前には\n　最後まで　世話に　なりっぱなしだったな。<stop_lip_animation n00091 CLOSE_MOUTH>": "<start_lip_sync n00091 _normal m00001>Thank you.<13_aaaaaac>I've been indebted to you to the very\nend, haven't I? I've been indebted to\nyou to the very end, haven't I?<stop_lip_animation n00091 CLOSE_MOUTH>"
+    "<start_lip_sync n00091 _normal m00001>「ありがとう　<cs_pchero>よ。\n　まったく　お前には\n　最後まで　世話に　なりっぱなしだったな。<stop_lip_animation n00091 CLOSE_MOUTH>": "<start_lip_sync n00091 _normal m00001>Thank you.<cs_pchero>I've been indebted to you to the very\nend, haven't I? I've been indebted to\nyou to the very end, haven't I?<stop_lip_animation n00091 CLOSE_MOUTH>"
   },
   "15770": {
     "<start_lip_sync n00091 _normal m00001>「せめてものことは　させてほしい。\n　後で　わしの所に　来てくれ。<stop_lip_animation n00091 CLOSE_MOUTH>": "<start_lip_sync n00091 _normal m00001>Let me do the least I can do. Come to\nme later.<stop_lip_animation n00091 CLOSE_MOUTH>"

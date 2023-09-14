@@ -3,7 +3,7 @@
     "<attr><feel_think_lv1><end_attr>「あたいにとって　スギム局長は　あこがれなの。\n　局長みたいな　ステキなお方になれるように\n　日々の努力は　欠かしてないわ。\n<br>\n「でも　さえずりのみつで　キレイな声になっても\n　うつくし草パックで　お肌ツルツルにしても\n　スギム局長の魅力には　遠く及ばないのよ。\n<br>\n「でね。ベコン渓谷にいる　チャームバットが\n　落とす　ゆうわくエキスを使えば\n　超モテモテになれるって　ウワサで聞いたの。\n<br>\n「それさえあれば　きっと　あたいも \n　ステキなお姉さまに　なれるはず……。\n　ああん　ほしい　ほしい～ッ！": "<attr><feel_think_lv1><end_attr>For me, Director Sugimu is my dream. I'm\nalways striving to become a wonderful person\nlike Director Sugimu. But even if I have a\n<br>\nbeautiful voice with Birdsong Nectar or smooth\nskin with Utsukushigusa Pack, I still can't\nreach Director Sugimu's charm. I heard a rumor\n<br>\nthat if I use the Luring Extract that the\nCharm Bat in Becon Valley drops, I can become\na super Mote Mote. If I only had that, surely\n<br>\nI could become a wonderful sister. I want it,\nI want it, I want it~!"
   },
   "48187": {
-    "<attr><feel_happy_lv1><end_attr>「ああん　うれし～い。\n　エキスを使う時には　まっさきに見せて\n　あ・げ・る<heart>": "<attr><feel_happy_lv1><end_attr>Ohhh, I'm so happy~! When I use the extract,\nI'll show it to you first<&2a"
+    "<attr><feel_happy_lv1><end_attr>「ああん　うれし～い。\n　エキスを使う時には　まっさきに見せて\n　あ・げ・る<heart>": "<attr><feel_happy_lv1><end_attr>Ohhh, I'm so happy~! When I use the extract,\nI'll show it to you first<heart>"
   },
   "48188": {
     "<attr><feel_happy_lv1><end_attr>「ああん　うれし～い。\n　……って　アナタ。他の人からもラブコールが\n　たくさん来てるみたいじゃな～い？\n<br>\n「八方美人なアナタも　キライじゃないけど \n　もうチョット　依頼を片付けてから\n　あたいのラブコールを受け止めてね<heart>": "<attr><feel_happy_lv1><end_attr>Oh, I'm so happy~! It seems like you're\ngetting a lot of love calls from other people,\ndoesn't it? I don't mind you being a beauty on\n<br>\nall sides, but please accept my love calls\nafter you finish your requests."
@@ -264,19 +264,19 @@
     "「今度の特別便に　載せる予定の積荷が\n　まだ　レンドア島内に　５個　残っているのよ。\n　それを回収して　この建物内に運んでほしいの。\n<br>\n「そうね……　未回収の積荷は\n　ここ港町レンドア南に２つ　北に２つ\n　駅に１つあるようね。\n<br>\n「特別便の積荷は　ブルーの木箱よ。\n　管理局に入った所……ナバーロの横にあるのと\n　同じだから　見れば　すぐにわかると思うわ。\n<br>\n「あんっ……　お客さまの　大切な積荷だから\n　木箱は　ひとつずつ運んでね。ヨ・ロ・シ・ク<heart>": "There are still five loads left on Lendor\nIsland that are scheduled to be placed on an\nupcoming special delivery. I need you to\n<br>\nretrieve them and bring them into the\nbuilding. Well, it looks like there are two\nunclaimed loads here at South Port Lendor, two\n<br>\nto the north, and one at the train station.\nSpecial delivery's in the blue crate. It's the\nsame one that's next to Navarro's as you enter\n<br>\nthe control center, so you'll know it when you\nsee it. Anh, please take the crates one at a\ntime, as they are very important cargo for our\n<br>\ncustomers. Yo, shh, shh, shh, shh, shh."
   },
   "189223": {
-    "<pc>は　立ち止まって\nタイタス号の積荷を　じっくり　ながめてみた。\n<br>\nタイタス号の特別便に　載せる予定の木箱は\nこれを含めて　あと　<%nEV_QUE_T_NUM1>個あるようだ。\n管理局内にある　積荷置き場に持っていこう。": "<pc> stopped to pore over the Titus\nCargo. It looks like there are\n<%nev_que_t_num1> more crates, including this\n<br>\none, to go on the Titus' special flight. Let's\ntake it to the loading yard in the\nadministration office."
+    "<pc>は　立ち止まって\nタイタス号の積荷を　じっくり　ながめてみた。\n<br>\nタイタス号の特別便に　載せる予定の木箱は\nこれを含めて　あと　<%nEV_QUE_T_NUM1>個あるようだ。\n管理局内にある　積荷置き場に持っていこう。": "<pc> stopped to pore over the Titus\nCargo. It looks like there are\n<%nEV_QUE_T_NUM1> more crates, including this\n<br>\none, to go on the Titus' special flight. Let's\ntake it to the loading yard in the\nadministration office."
   },
   "189224": {
     "<pc>は　立ち止まって\nタイタス号の積荷を　じっくり　ながめてみた。\n<br>\nタイタス号の特別便に　載せる予定の木箱は\nこれが　最後の１個のようだ。\n管理局内にある　積荷置き場に持っていこう。": "<pc> stopped to pore over the Titus\nCargo. It looks like this is the last of the\ncrates that will be loaded onto the Titus'\n<br>\nspecial flight. Let's take it to the loading\ndock in the administration office."
   },
   "188366": {
-    "ここに　回収した積荷を　置けばいいようだ。\nレンドア島に　まだ　<%nEV_QUE_T_NUM2>個残っているので\nブルーの木箱を　探しにいこう。": "There are still <%nev_que_t_num2> pieces left\non Lendor Island, so let's go look for the\nblue crate."
+    "ここに　回収した積荷を　置けばいいようだ。\nレンドア島に　まだ　<%nEV_QUE_T_NUM2>個残っているので\nブルーの木箱を　探しにいこう。": "There are still <%nEV_QUE_T_NUM2> pieces left\non Lendor Island, so let's go look for the\nblue crate."
   },
   "188367": {
     "ここに　回収した積荷を　置けばいいようだ。\n木箱を置きますか？<yesno><close>": "I guess this is where we should put the\nrecovered cargo.<yesno><close>"
   },
   "188369": {
-    "<pc>は　持っていた木箱を　置いた！\nレンドア島に　まだ　<%nEV_QUE_T_NUM2>個残っているので\nブルーの木箱を　探しにいこう。<se map_common 11>": "<pc> put down the crate he had! There\nare still <%nev_que_t_num2> crates left on\nLendor Island, so let's go look for a blue\n<br>\none.<se map_common 11>"
+    "<pc>は　持っていた木箱を　置いた！\nレンドア島に　まだ　<%nEV_QUE_T_NUM2>個残っているので\nブルーの木箱を　探しにいこう。<se map_common 11>": "<pc> put down the crate he had! There\nare still <%nEV_QUE_T_NUM2> crates left on\nLendor Island, so let's go look for a blue\n<br>\none.<se map_common 11>"
   },
   "188370": {
     "<pc>は　持っていた木箱を　置いた！": "<pc> put down the crate he had!"

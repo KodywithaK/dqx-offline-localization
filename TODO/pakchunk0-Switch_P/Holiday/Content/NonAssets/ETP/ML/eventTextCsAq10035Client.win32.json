@@ -21,7 +21,7 @@
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": "I have been asked to do a quest. Do\nyou accept this quest?\n<select>\nAccept\nStop\n<select_end><close>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sev_quest_name>\".<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sEV_QUEST_NAME>\".<me 74>"
   },
   "29906": {
     "<start_lip_sync n01418 _normal m00001>「あ…ありがと。ボク　なんだか\n　その場所から　呼ばれてる気がするんだ。\n　そ…それじゃあ……<stop_lip_animation n01418 CLOSE_MOUTH>": "<start_lip_sync n01418 _normal m00001>Oh, thanks. I feel like I'm being\ncalled from that place. Well then...<stop_lip_animation n01418 CLOSE_MOUTH>"
@@ -231,7 +231,7 @@
     "<start_lip_sync n01419 _normal m00001>「もし　前みたいに　魔瘴から魔物が現れたら\n　あたしたちじゃ　太刀打ちできないわ。\n　<pc>。あなたも　暗黒大樹に来てね。<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001>If a monster appears from demon miasma\nlike before, we won't be able to\ncompete with him. <pc>. You\n<br>\nshould come to Dark Tree too.<stop_lip_animation n01419 CLOSE_MOUTH>"
   },
   "18689": {
-    "<start_lip_sync n01419 _normal m00001>「お待たせ　<cs_pchero>。<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001>waiting (e.g. for someone to finish\none's work)<13_aaaaaac>The following is a list of the most\ncommon problems with the<stop_lip_animation n01419 CLOSE_MOUTH>"
+    "<start_lip_sync n01419 _normal m00001>「お待たせ　<cs_pchero>。<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001>waiting (e.g. for someone to finish\none's work)<cs_pchero>The following is a list of the most\ncommon problems with the<stop_lip_animation n01419 CLOSE_MOUTH>"
   },
   "18690": {
     "<start_lip_sync n01419 _normal m00001>「聖地のチカラを宿した　今のハッパなら\n　魔瘴を　消滅させることができるはずよ。\n　暗黒大樹の芯を覆う　魔瘴もね。<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001>With the power of the Holy Land in\nher, Happa should be able to\nextinguish demon miasma. And the demon\n<br>\nmiasma that covers the core of the\nDark Tree.<stop_lip_animation n01419 CLOSE_MOUTH>"
@@ -249,13 +249,13 @@
     "<start_lip_sync n01419 _normal m00001>「地面から　震動……！？<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001>Tremors from the ground!<stop_lip_animation n01419 CLOSE_MOUTH>"
   },
   "29970": {
-    "<start_lip_sync n01419 _normal m00001>「<cs_pchero>！　魔物が出るわよ！\n　あなたに　まかせるわ！<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001><13_aaaaaac>Oh, my God! Monster's coming out! I'll\nleave it to you!<stop_lip_animation n01419 CLOSE_MOUTH>"
+    "<start_lip_sync n01419 _normal m00001>「<cs_pchero>！　魔物が出るわよ！\n　あなたに　まかせるわ！<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001><cs_pchero>Oh, my God! Monster's coming out! I'll\nleave it to you!<stop_lip_animation n01419 CLOSE_MOUTH>"
   },
   "29971": {
     "<start_lip_sync m09003 _normal m00001>「グオオオオオオオオォォォーーーーーッ！！<stop_lip_animation m09003 CLOSE_MOUTH>": "<start_lip_sync m09003 _normal m00001>Gooooooooooooooooooooooooooooooooooooo\noooooooooooooooooooooooooooooooooooooo\noo!<stop_lip_animation m09003 CLOSE_MOUTH>"
   },
   "18700": {
-    "<start_lip_sync n01419 _normal m00001>「<cs_pchero>！　あいつを倒さないと\n　芯に　近づくことができないわ！<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001><13_aaaaaac>Oh, my God! We'll never get close to\nthe core if we don't beat him!<stop_lip_animation n01419 CLOSE_MOUTH>"
+    "<start_lip_sync n01419 _normal m00001>「<cs_pchero>！　あいつを倒さないと\n　芯に　近づくことができないわ！<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001><cs_pchero>Oh, my God! We'll never get close to\nthe core if we don't beat him!<stop_lip_animation n01419 CLOSE_MOUTH>"
   },
   "18701": {
     "<start_lip_sync n01419 _normal m00001>「魔物の討伐！　あなたに　まかせるわ！<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001>Defeat the monster! I'll leave it to\nyou!<stop_lip_animation n01419 CLOSE_MOUTH>"
@@ -264,7 +264,7 @@
     "<start_lip_sync m09003 _normal m00001>「グオオオオオオオオォォォーーーーーッ！！<stop_lip_animation m09003 CLOSE_MOUTH>": "<start_lip_sync m09003 _normal m00001>Gooooooooooooooooooooooooooooooooooooo\noooooooooooooooooooooooooooooooooooooo\noo!<stop_lip_animation m09003 CLOSE_MOUTH>"
   },
   "18708": {
-    "<start_lip_sync n01419 _normal m00001>「ナイス　<cs_pchero>！\n　やっぱり　あなたは頼りになるね！<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001>nice<13_aaaaaac>I knew I could count on you! I knew I\ncould count on you!<stop_lip_animation n01419 CLOSE_MOUTH>"
+    "<start_lip_sync n01419 _normal m00001>「ナイス　<cs_pchero>！\n　やっぱり　あなたは頼りになるね！<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001>nice<cs_pchero>I knew I could count on you! I knew I\ncould count on you!<stop_lip_animation n01419 CLOSE_MOUTH>"
   },
   "18709": {
     "<start_lip_sync n01419 _normal m00001>「さてと……<stop_lip_animation n01419 CLOSE_MOUTH>": "<start_lip_sync n01419 _normal m00001>well<stop_lip_animation n01419 CLOSE_MOUTH>"
@@ -330,16 +330,16 @@
     "<start_lip_sync n01418 _normal m00001>「え…えへへ。<stop_lip_animation n01418 CLOSE_MOUTH>": "<start_lip_sync n01418 _normal m00001>Eh, heh, heh.<stop_lip_animation n01418 CLOSE_MOUTH>"
   },
   "18730": {
-    "<start_lip_sync n01418 _normal m00001>「<cs_pchero>さんと　一緒に\n　いろんな経験が　できたから\n　ボク…強くなれたんだと思う。<stop_lip_animation n01418 CLOSE_MOUTH>": "<start_lip_sync n01418 _normal m00001><13_aaaaaac>I think I became stronger because I\nwas able to experience many things\nwith him.<stop_lip_animation n01418 CLOSE_MOUTH>"
+    "<start_lip_sync n01418 _normal m00001>「<cs_pchero>さんと　一緒に\n　いろんな経験が　できたから\n　ボク…強くなれたんだと思う。<stop_lip_animation n01418 CLOSE_MOUTH>": "<start_lip_sync n01418 _normal m00001><cs_pchero>I think I became stronger because I\nwas able to experience many things\nwith him.<stop_lip_animation n01418 CLOSE_MOUTH>"
   },
   "18731": {
     "<start_lip_sync n01418 _normal m00001>「今まで　ありがとね……。\n　こ…これ　受け取って。<stop_lip_animation n01418 CLOSE_MOUTH>": "<start_lip_sync n01418 _normal m00001>Thank you for everything. Here, take\nthis.<stop_lip_animation n01418 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sEV_QUEST_NAME>\" has been\ncompleted!<update_quedate><open_irai>"
   },
   "28425": {
-    "<cs_pchero>は　クエストをクリアした！": "<13_aaaaaac>completed the quest!"
+    "<cs_pchero>は　クエストをクリアした！": "<cs_pchero>completed the quest!"
   },
   "18732": {
     "<start_lip_sync m50042 _normal m00001>「世界樹に　危機　訪れし時\n　世界樹を救うため　世に現れる存在……。\n　ハッパ　もしかしたら……。<stop_lip_animation m50042 CLOSE_MOUTH>": "<start_lip_sync m50042 _normal m00001>When a crisis comes to Yggdrasil, a\nbeing appears in the world to save\nYggdrasil. Happa Maybe.<stop_lip_animation m50042 CLOSE_MOUTH>"

@@ -3,7 +3,7 @@
     "「おっと　そうじゃ！　この　せんべいを２枚\n　せんべい２……　せんべいツー……\n　せんべつを　もっていけ！<bw_break>": "That's right! Take two of these crackers, two\ncrackers, two crackers, two crackers!<bw_break>"
   },
   "10150001": {
-    "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": "<pc> received a brick kiln (Key\nItem)!<me 60> In addition, he received a recipe book,\n\"Hajimeyo Alchemy!<se_nots System Item> <pc> has read \"Let's Get Started:\nAlchemy\"! <&13_aaaaaaad> learned the recipe\nfor Hajimeteyo Alchemy!<se_nots System Item> The Renkin pot is a special tool that can be\nused to smelt another item by inserting the\nitem as a material. You can smelt an item by\n<br>\nselecting \"Renkin Gama\" from the \"item\"\ncommand. To smelt an item, you will need the\nrecipe of the item you want to smelt. Recipes\n<br>\ncan be obtained from the Recipe Shop or\nbookshelf."
+    "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": "<pc> received a brick kiln (Key\nItem)!<me 60> In addition, he received a recipe book,\n\"Hajimeyo Alchemy!<se_nots System Item> <pc> has read \"Let's Get Started:\nAlchemy\"! <pc> learned the recipe\nfor Hajimeteyo Alchemy!<se_nots System Item> The Renkin pot is a special tool that can be\nused to smelt another item by inserting the\nitem as a material. You can smelt an item by\n<br>\nselecting \"Renkin Gama\" from the \"item\"\ncommand. To smelt an item, you will need the\nrecipe of the item you want to smelt. Recipes\n<br>\ncan be obtained from the Recipe Shop or\nbookshelf."
   },
   "10150002": {
     "「仕組みはわからんが　便利そうじゃろ！\n　きっと　新しい笑いに　つながるぞい！\n　それでは　しっかりな！": "I don't know how it works, but it sounds\nconvenient! I'm sure it will lead to new\nlaughs! Well then, good luck!"
@@ -111,7 +111,7 @@
     "<attr><feel_happy_lv2><end_attr>「じつは　演芸グランプリの１次予選を\n　そろそろ　始めようと思うのじゃが\n　ひとつ足りない物が　あるのじゃ。\n<br>\n「下準備に必要な　ネバネバエキスを\n　<%sEV_QUE_NAME0>に　取られてしまってのう。<bw_break>": "<attr><feel_happy_lv2><end_attr>I'm about to start the first round of the\nGoofball Grand Prix, but there's one thing I'm\nmissing. The Sticky Extract that I need for\n<br>\nthe preliminary has been taken by\n<%sEV_QUE_NAME0>.<bw_break>"
   },
   "40166": {
-    "<attr><feel_happy_lv2><end_attr>「じつは　そろそろ　演芸グランプリの１次予選を\n　始めようと思うのじゃが　そのためには\n　<%sEV_QUE_NAME4>が　必要なんじゃよ。\n<br>\n「……おっと　お前さん　すでに\n　<%sEV_QUE_NAME4>を　持っとるのか！\n<br>\n「しかし　なんだか　くっつきが甘いのう。\n　これじゃ　装備しても　１次予選の最中に\n　ペローンと　はがれてしまいそうじゃ。\n<br>\n「じつは　のり付けに使う　ネバネバエキスを\n　<%sEV_QUE_NAME0>に　取られてしまってのう。<bw_break>": "<attr><feel_happy_lv2><end_attr>I'm about to start the first round of the\nGoofball Grand Prix, but for that I need\n<%sev_que_name4>. Oh, you already have\n<br>\n<%sev_que_name4>! But it's kind of a loose\nfit. Even if I equip it with this, it will\nprobably peel off during the first round.\n<br>\nActually, <%sEV_QUE_NAME0> has taken the\nSticky Extract that we use for glue.<bw_break>"
+    "<attr><feel_happy_lv2><end_attr>「じつは　そろそろ　演芸グランプリの１次予選を\n　始めようと思うのじゃが　そのためには\n　<%sEV_QUE_NAME4>が　必要なんじゃよ。\n<br>\n「……おっと　お前さん　すでに\n　<%sEV_QUE_NAME4>を　持っとるのか！\n<br>\n「しかし　なんだか　くっつきが甘いのう。\n　これじゃ　装備しても　１次予選の最中に\n　ペローンと　はがれてしまいそうじゃ。\n<br>\n「じつは　のり付けに使う　ネバネバエキスを\n　<%sEV_QUE_NAME0>に　取られてしまってのう。<bw_break>": "<attr><feel_happy_lv2><end_attr>I'm about to start the first round of the\nGoofball Grand Prix, but for that I need\n<%sEV_QUE_NAME4>. Oh, you already have\n<br>\n<%sEV_QUE_NAME4>! But it's kind of a loose\nfit. Even if I equip it with this, it will\nprobably peel off during the first round.\n<br>\nActually, <%sEV_QUE_NAME0> has taken the\nSticky Extract that we use for glue.<bw_break>"
   },
   "40167": {
     "<attr><feel_happy_lv2><end_attr>「取り返しに　いきたくても\n　まくらが合わないせいで　首が痛くて……。\n<br>\n「あうっ！　痛い……。\n　ネバネバエキスなしに　１次予選はできん。\n　わしの代わりに　取り返してきてくれんか？": "<attr><feel_happy_lv2><end_attr>I wanted to go and get it back, but my neck\nhurt because my tail tailor didn't fit. Ugh!\nIt hurts. I can't make it to the first round\n<br>\nwithout Sticky Extract. Will you go get it for\nme?"
@@ -126,7 +126,7 @@
     "<attr><feel_think_lv3><end_attr>「むう　そうか。だが　手伝ってくれんと\n　１次予選を　始めることはできん……。\n　いったい　どうしたもんかのお。": "<attr><feel_think_lv3><end_attr>Mm, I see. But we can't start the first round\nwithout your help. I don't know what the hell\nI'm going to do."
   },
   "40168": {
-    "<attr><feel_sad_lv1><end_attr>「演芸グランプリに必要な　ネバネバエキスを\n　<%sEV_QUE_NAME0>に　取られてしまってな。\n<br>\n「取り返しに　いきたくても\n　まくらが合わないせいで　首が痛くて……。<open_irai><bw_break>": "<attr><feel_sad_lv1><end_attr>Sticky Extract for the Goofball Grand Prix was\ntaken by <%sev_que_name0>. I wanted to go and\nget it back, but my neck hurts because my\n<br>\nstop-lock doesn't fit.<open_irai><bw_break>"
+    "<attr><feel_sad_lv1><end_attr>「演芸グランプリに必要な　ネバネバエキスを\n　<%sEV_QUE_NAME0>に　取られてしまってな。\n<br>\n「取り返しに　いきたくても\n　まくらが合わないせいで　首が痛くて……。<open_irai><bw_break>": "<attr><feel_sad_lv1><end_attr>Sticky Extract for the Goofball Grand Prix was\ntaken by <%sEV_QUE_NAME0>. I wanted to go and\nget it back, but my neck hurts because my\n<br>\nstop-lock doesn't fit.<open_irai><bw_break>"
   },
   "40169": {
     "「あうっ！　痛い……。\n　ネバネバエキスなしに　１次予選はできん。\n　わしの代わりに　取り返してきてくれ！\n<br>\n「村を出て地図を開けば　３本の橋がある。\n　わしが　<%sEV_QUE_NAME0>に襲われたのは\n　真ん中の橋を　渡った先じゃ！<bw_break>": "Agh! Ouch. I can't make it to the first round\nwithout Sticky Extract. Go get it for me! When\nyou leave the village and open the map, you\n<br>\nwill see three bridges. I was attacked by\n<%sEV_QUE_NAME0> after crossing the bridge in\ntrue!<bw_break>"
@@ -165,7 +165,7 @@
     "<attr><feel_sad_lv1><end_attr>「よし！　それでは　ちょっと待っとれ。": "<attr><feel_sad_lv1><end_attr>All right! Now wait a minute."
   },
   "47936": {
-    "「フウッ！　どうやら　ネバネバエキスを\n　無事　取り返してきたようじゃな！\n<br>\n「ネバネバエキスがあれば\n　<%sEV_QUE_NAME4>が　もっと\n　ペッタリ　くっつくようになるじゃろう。\n<br>\n「ほれ。ワシが　のり付けしてやるから\n　ネバネバエキスと　<%sEV_QUE_NAME4>を\n　両方とも　渡してくれんか？\n<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": "Huh! It seems that you have successfully\nretrieved Sticky Extract! With the Sticky\nExtract, <%sev_que_name4> will be more tightly\n<br>\nattached. Here. I'll glue them together, and\nyou can give me both Sticky Extract and\n<%sev_que_name4>.\n<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "「フウッ！　どうやら　ネバネバエキスを\n　無事　取り返してきたようじゃな！\n<br>\n「ネバネバエキスがあれば\n　<%sEV_QUE_NAME4>が　もっと\n　ペッタリ　くっつくようになるじゃろう。\n<br>\n「ほれ。ワシが　のり付けしてやるから\n　ネバネバエキスと　<%sEV_QUE_NAME4>を\n　両方とも　渡してくれんか？\n<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": "Huh! It seems that you have successfully\nretrieved Sticky Extract! With the Sticky\nExtract, <%sEV_QUE_NAME4> will be more tightly\n<br>\nattached. Here. I'll glue them together, and\nyou can give me both Sticky Extract and\n<%sEV_QUE_NAME4>.\n<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "47937": {
     "「フウッ！　どうした　<pc>？\n　それがないと　いつまでたっても\n　１次予選が　始められんぞ。": "Huuuuh! What's up <pc>? Without that,\nwe won't be able to start the first round for\never."
@@ -192,10 +192,10 @@
     "<attr><feel_sad_lv1><end_attr><pc>は　プックレイ村長に\nネバネバエキスを　渡した！": "<attr><feel_sad_lv1><end_attr><pc> gave Sticky Extract to Chief\nPukklei!"
   },
   "47945": {
-    "<attr><feel_sad_lv1><end_attr><pc>は　プックレイ村長に\nネバネバエキスと\n<%sEV_QUE_NAME4>を　渡した！": "<attr><feel_sad_lv1><end_attr><pc> gave Sticky Extract and\n<%sev_que_name4> to Chief Pukklei!"
+    "<attr><feel_sad_lv1><end_attr><pc>は　プックレイ村長に\nネバネバエキスと\n<%sEV_QUE_NAME4>を　渡した！": "<attr><feel_sad_lv1><end_attr><pc> gave Sticky Extract and\n<%sEV_QUE_NAME4> to Chief Pukklei!"
   },
   "47946": {
-    "<pc>は\n<%sEV_QUE_NAME4>を　受け取った！<se_nots System Item>": "<pc> received <%sev_que_name4>!<se_nots System Item>"
+    "<pc>は\n<%sEV_QUE_NAME4>を　受け取った！<se_nots System Item>": "<pc> received <%sEV_QUE_NAME4>!<se_nots System Item>"
   },
   "40177": {
     "「……むう？　どうやら　お前\n　せっかく渡した　<%sEV_QUE_NAME4>を\n　どこかで　なくしてしまったようじゃな。\n<br>\n「フウッ！　しかたのないヤツじゃのう。\n　こんなこともあろうかと　予備用の\n　<%sEV_QUE_NAME4>を　とっておいたんじゃ。\n<br>\n「ほれ。特別に　もうひとつ　ゆずってやろう。\n　今度は　なくしたりするでないぞ。": "Hmm? It seems that you lost the\n<%sEV_QUE_NAME4> that I gave you somewhere.\nHuh! What a pity. I kept a spare\n<br>\n<%sEV_QUE_NAME4> just in case something like\nthis happens. Here. I'll give you another one\nas a special treat. Don't lose it this time."
@@ -213,7 +213,7 @@
     "<attr><feel_happy_lv1><end_attr>「フウッ！　<%sEV_QUE_NAME4>を\n　ちゃんと装備しているな。\n　かっかっか！　よく似合っとるぞ！\n<br>\n「よし。では　１次予選を始めよう。\n　なにぶん　わしは　首が痛いから\n　審査は　お前がやってくれ。頼んだぞ。": "<attr><feel_happy_lv1><end_attr>Huh! You're really equipped with\n<%sEV_QUE_NAME4>. Look at you! It suits you\nwell! All right, let's start the first round.\n<br>\nLet's start the preliminary round. I have a\nneckache, so you'll have to do the judging.\nI'm counting on you."
   },
   "47949": {
-    "<pc>は\n<%sEV_QUE_NAME4>を　受け取った！<se_nots System Item>": "<pc> received <%sev_que_name4>!<se_nots System Item>"
+    "<pc>は\n<%sEV_QUE_NAME4>を　受け取った！<se_nots System Item>": "<pc> received <%sEV_QUE_NAME4>!<se_nots System Item>"
   },
   "47950": {
     "<attr><feel_think_lv3><end_attr>「むう……。ホッププは　謎かけで来おったか。\n　しかも　けっこう　やりおる……。\n　オレっちも　負けてられんわい。": "<attr><feel_think_lv3><end_attr>Hoppupu came with a riddle, didn't he? And he\ndoes it well. I can't lose to him either."
@@ -456,7 +456,7 @@
     "「おや　<pc>では　ありませんか。\n　ごきげんよう。\n<br>\n「小さな　あなたが　この教会の前に\n　捨てられていた時……\n　わたしは　神に祈ったものです。\n<br>\n「この子が　誰よりも元気で……\n　そして　誰よりも　みんなを楽しませる\n　プクリポに育ちますように……とね。": "Oh, isn't it <pc>? Cheery. When you\nwere abandoned in front of this church, I\nprayed to God that you would grow up to be a\n<br>\nPukulipo, who is more healthy than anyone\nelse, and who entertains everyone more than\nanyone else. I prayed to God that you would\n<br>\ngrow up to be a Pukulipo, who is more\nenergetic than anyone else, and who entertains\neveryone more than anyone else."
   },
   "34733": {
-    "<attr><feel_happy_lv2><end_attr>「あっ　<pc>だ！　<pc>だ！\n　サイコーの　死んだフリが　できるんだよね！\n　すごいなあ……。": "<attr><feel_happy_lv2><end_attr>Oh, it's <pc>! It's <&13_aaaaaaad>!\nHe can play dead so well, can't he? That's\namazing."
+    "<attr><feel_happy_lv2><end_attr>「あっ　<pc>だ！　<pc>だ！\n　サイコーの　死んだフリが　できるんだよね！\n　すごいなあ……。": "<attr><feel_happy_lv2><end_attr>Oh, it's <pc>! It's <pc>!\nHe can play dead so well, can't he? That's\namazing."
   },
   "34734": {
     "「相方だったピリッポと　コンビを解消したの\n　演技の方向性のちがいが　原因なんですって？\n　ま　よくあることだし　気を落とさないでね！": "I heard that you and your partner, Pirippo,\nhave broken up because of your different\nacting styles. Well, it happens all the time,\n<br>\nso don't be discouraged!"
@@ -465,7 +465,7 @@
     "「ピリッポが　お前を呼んでたよ。\n　わかってると思うけど　あいつの家は\n　村の南側　宿屋のとなりだからな。": "Pirippo called for you. As you probably know,\nhis house is on the south side of the village,\nnext to the inn."
   },
   "34736": {
-    "<attr><feel_happy_lv2><end_attr>「<pc>！　おいっ　<pc>！\n　お前の　いちばん得意なアレを見せてくれよ！\n<br>\n「ほら　アレだよ。\n　腹から声を出す　というか\n　へそで　お茶をわかす　例のアレだよ。なっ？<yesno><close>": "<attr><feel_happy_lv2><end_attr><pc>! Hey <&13_aaaaaaad>! Let's see\nwhat you're best at! You know, that thing. You\nknow, that thing where you emit a voice from\n<br>\nyour belly, or rather, the thing where you\nboil tea in your navel. Huh?<yesno><close>"
+    "<attr><feel_happy_lv2><end_attr>「<pc>！　おいっ　<pc>！\n　お前の　いちばん得意なアレを見せてくれよ！\n<br>\n「ほら　アレだよ。\n　腹から声を出す　というか\n　へそで　お茶をわかす　例のアレだよ。なっ？<yesno><close>": "<attr><feel_happy_lv2><end_attr><pc>! Hey <pc>! Let's see\nwhat you're best at! You know, that thing. You\nknow, that thing where you emit a voice from\n<br>\nyour belly, or rather, the thing where you\nboil tea in your navel. Huh?<yesno><close>"
   },
   "34737": {
     "<attr><feel_angry_lv1><end_attr>「なんだよ　やってくれないのか？\n　フン。もうすぐ　都会に出るからって\n　お高く　とまっちまって。がっかりだよ。": "<attr><feel_angry_lv1><end_attr>What, you won't do it? Hmph. Just because I'll\nbe leaving for the city soon, I got all stuck\nup. I'm disappointed."
@@ -618,7 +618,7 @@
     "<attr><feel_happy_lv2><end_attr>「おはようプクー！\n<br>\n「おはプクリー！\n<br>\n「おはっプク！\n<br>\n「演芸グランプリは　つかみが命よ。\n　ステージに出た瞬間の　あいさつから\n　戦いは　始まっているの！": "<attr><feel_happy_lv2><end_attr>Good morning, Pukoo! Good morning Pukly! Good\nmorning, Puk! The Goofball Grand Prix is all\nabout grabbing hold. The battle begins the\n<br>\nmoment you step on stage and say hello!"
   },
   "34788": {
-    "<attr><feel_think_lv2><end_attr>「プディンったら　毎晩　ずっと\n　お父さん　お母さん……って　うなされてるの。\n　泣きながら　何度も　目を覚ましちゃうみたい。\n<br>\n「目の前で　ご両親が殺されたんだもの。\n　夢に見ちゃうのも　しかたないわよね。\n　かわいそうな　プディン。\n<br>\n「でもね　不思議なのよ。\n　最近　あの子　<pc>の名前を\n　寝言で　呼んでるみたいなの。\n<br>\n「<pc>さん　ごめんなさい……\n　ボクのせいで……って。\n　いったい　なんのことかしらね？": "<attr><feel_think_lv2><end_attr>Pudin is having nightly nightmares about his\nmother and father. She wakes up crying over\nand over again. Her parents were murdered in\n<br>\nfront of her eyes. No wonder she dreams about\nit. Poor Pudin. But you know what's strange?\nLately she seems to be calling <pc>'s\n<br>\nname in her sleep. <&13_aaaaaaaad> I'm sorry,\nit's my fault. I wonder what he's talking\nabout?"
+    "<attr><feel_think_lv2><end_attr>「プディンったら　毎晩　ずっと\n　お父さん　お母さん……って　うなされてるの。\n　泣きながら　何度も　目を覚ましちゃうみたい。\n<br>\n「目の前で　ご両親が殺されたんだもの。\n　夢に見ちゃうのも　しかたないわよね。\n　かわいそうな　プディン。\n<br>\n「でもね　不思議なのよ。\n　最近　あの子　<pc>の名前を\n　寝言で　呼んでるみたいなの。\n<br>\n「<pc>さん　ごめんなさい……\n　ボクのせいで……って。\n　いったい　なんのことかしらね？": "<attr><feel_think_lv2><end_attr>Pudin is having nightly nightmares about his\nmother and father. She wakes up crying over\nand over again. Her parents were murdered in\n<br>\nfront of her eyes. No wonder she dreams about\nit. Poor Pudin. But you know what's strange?\nLately she seems to be calling <pc>'s\n<br>\nname in her sleep. <pc> I'm sorry,\nit's my fault. I wonder what he's talking\nabout?"
   },
   "34789": {
     "<attr><feel_happy_lv1><end_attr>「おっ　おっ　おお～っ！\n　戻ったな　<pc>よ！\n<br>\n「どうじゃ　どうじゃ　賢者エイドスは。\n　なかなか厳しい　ジジイじゃろう！\n　……おっと　忘れておった。\n<br>\n「エイドスは　ルーラストーンの　ありかを\n　探しだしてくれたのか？<yesno><close>": "<attr><feel_happy_lv1><end_attr>Whoa, whoa, whoa~! You're back <pc>!\nWhat do you think, Sage Eidos? Sage Eidos is a\ntough old man, isn't he? Oh, I forgot. Did\n<br>\nEidos find out where Zoomstone is?<yesno><close>"
@@ -723,7 +723,7 @@
     "<attr><feel_happy_lv2><end_attr>「チャンピオぉ～ンヌ！！！\n<br>\n「よくぞ　生きて帰った！　チャンピオン！\n　もうすこしで　<pc>をしのぶ石碑を\n　広場に　建てるところじゃったぞ！\n<br>\n「して　どうじゃったんじゃ。\n　けがれの大蛇は？　ルーラストーンは\n　無事　見つかったのか？\n<br>\n「……おお！　そうかそうか。\n　さすがは　演芸チャンピオンヌじゃ！\n　あの　けがれの大蛇まで追い払うとは！\n<br>\n「よくやったな　<pc>！\n　プディンも　帰りを待ちわびていたぞ。\n　さあ　元気な姿を見せてやれ。": "<attr><feel_happy_lv2><end_attr>Champio~nooo~nooo! You made it out alive!\nChampion! You almost had a stone monument\nerected in the plaza in memory of\n<br>\n<pc>! So, what happened? Where's the\nToxic Viper? Did you find the Zoomstone? Oh,\nyes! Oh, yes, yes. You are indeed a champion\n<br>\nperformer! You even got rid of that Toxic\nViper! Well done, <pc>! Pudin has\nbeen looking forward to your return. Let's see\n<br>\nhow he's doing."
   },
   "34824": {
-    "<attr><feel_happy_lv2><end_attr>「<pc>よ　よくぞ　生きて帰った！\n　まったく　心配をかけおって。\n<br>\n「よくやったな　<pc>！\n　プディンも　帰りを待ちわびていたぞ。\n　さあ　元気な姿を見せてやれ。": "<attr><feel_happy_lv2><end_attr><pc>, you made it back alive! You\nhave caused me a great deal of worry. You did\na great job, <&13_aaaaaaad>! Pudin has been\n<br>\nwaiting for you. Come on, let's see how well\nyou're doing."
+    "<attr><feel_happy_lv2><end_attr>「<pc>よ　よくぞ　生きて帰った！\n　まったく　心配をかけおって。\n<br>\n「よくやったな　<pc>！\n　プディンも　帰りを待ちわびていたぞ。\n　さあ　元気な姿を見せてやれ。": "<attr><feel_happy_lv2><end_attr><pc>, you made it back alive! You\nhave caused me a great deal of worry. You did\na great job, <pc>! Pudin has been\n<br>\nwaiting for you. Come on, let's see how well\nyou're doing."
   },
   "34825": {
     "「<pc>。あんたのおかげで\n　ずっと　ふさぎ込んでた　プディンも\n　元気を取り戻したよ。ありがとう。\n<br>\n「これなら　オルフェアのしんせきに\n　引き取られても　だいじょうぶだな。": "<pc>. Thanks to you, Pudin, who has\nbeen depressed for a long time, has regained\nhis strength. Thank you. With this, he'll be\n<br>\nfine even if he's taken in by Orphea's\nrelatives."
@@ -1002,7 +1002,7 @@
     "「おお　演芸チャンピオンじゃないか。\n　気のせいか　ずいぶんと\n　カンロクをつけたような気がするな。\n<br>\n「成長した姿を　みんなに見せたらどうじゃ？\n　よろこぶと思うぞ。ほっほっほ。": "Oh, it's the champion of the arts, isn't it?\nIs it my imagination, or do you look like\nyou've gained a lot of weight? Why don't you\n<br>\nshow everyone how much you've grown? I think\nit will be a joy. Hohoho."
   },
   "34918": {
-    "「ここだけの話じゃが　わしゃあ \n　しびれくらげ先生の　後を継ぐのは\n　<pc>しか　おらんと　思っておるのよ。\n<br>\n「しびれくらげ先生の　笑いに対する厳しさ。\n　つねに　おのれを　甘やかさぬ強さ。\n　……そして　ふと見せる優しさ。\n<br>\n「<pc>ならば　いつの日か \n　しびれくらげ先生級に　しびれる芸人に\n　なれるはずじゃ。わしは　そう信じておるぞ。 ": "Between you and me, I think only\n<&13_aaaaaaad> can succeed Sir Man o' War. Sir\nMan o' War's strictness toward laughter. The\n<br>\nstrength that always does not allow itself to\nbe spoiled. And the gentleness he suddenly\nshows. <&13_aaaaaaaad> If so, one day you will\n<br>\nbe a comedian who can impress us as much as\nSir Man o' War. I believe so."
+    "「ここだけの話じゃが　わしゃあ \n　しびれくらげ先生の　後を継ぐのは\n　<pc>しか　おらんと　思っておるのよ。\n<br>\n「しびれくらげ先生の　笑いに対する厳しさ。\n　つねに　おのれを　甘やかさぬ強さ。\n　……そして　ふと見せる優しさ。\n<br>\n「<pc>ならば　いつの日か \n　しびれくらげ先生級に　しびれる芸人に\n　なれるはずじゃ。わしは　そう信じておるぞ。 ": "Between you and me, I think only\n<pc> can succeed Sir Man o' War. Sir\nMan o' War's strictness toward laughter. The\n<br>\nstrength that always does not allow itself to\nbe spoiled. And the gentleness he suddenly\nshows. <pc> If so, one day you will\n<br>\nbe a comedian who can impress us as much as\nSir Man o' War. I believe so."
   },
   "34919": {
     "「ここだけの話じゃが…… \n　しびれくらげ先生ってのは\n　……ありゃあ　モテるぞ。\n<br>\n「この間　女の旅人が転んで\n　ケガをした時　通りかかったのが\n　誰あろう　しびれくらげ先生よ。\n<br>\n「しびれ攻撃で　ケガの痛みをマヒさせ \n　近くの村まで　送ってやったそうじゃ。\n　他の魔物どもから　旅人を守りながらな。\n<br>\n「次に会った時は　敵と味方。 \n　情けは　かけるな……と　言い残してな。\n<br>\n「かーっ！　キザじゃのう！　にくいのう！ \n　わしも　しびれくらげ先生にじゃったら\n　抱かれてもいいわい！": "Between you and me, Sir Man o' War is a\npopular guy. The other day, when a female\ntraveler fell and hurt herself, Sir Man o'\n<br>\nWar, of all people, walked by. He paralyzed\nher with a numbing attack and drove her to the\nnearest village. Protecting the traveler from\n<br>\nother monsters. Next time we meet, friend or\nfoe.He told them not to show mercy. Ahh..!\nThat's a tough one! You're a tough one!I\n<br>\nwouldn't mind being held by Sir Man o' War!"

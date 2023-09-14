@@ -3,7 +3,7 @@
     "「そうだ　<pc>よ。\n　ヒメア様が　これを……と。\n　旅立つお前への　せんべつ　だそうだ。<br_break>": "Yes, <pc>. Himea-sama sent me\nthis. It is a special gift for your\ndeparture.<br_break>"
   },
   "10093001": {
-    "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": "<pc> received a brick kiln\n(Key Item)!<me 60> In addition, he received a recipe\nbook, \"Hajimeyo Alchemy!<se_nots System Item> <pc> has read \"Let's Get\nStarted: Alchemy\"! <&13_aaaaaaad>\nlearned the recipe for Hajimeteyo\n<br>\nAlchemy!<se_nots System Item> The Renkin pot is a special tool that\ncan be used to smelt another item by\ninserting the item as a material. You\n<br>\ncan smelt an item by selecting \"Renkin\nGama\" from the \"item\" command. To\nsmelt an item, you will need the\n<br>\nrecipe of the item you want to smelt.\nRecipes can be obtained from the\nRecipe Shop or bookshelf."
+    "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": "<pc> received a brick kiln\n(Key Item)!<me 60> In addition, he received a recipe\nbook, \"Hajimeyo Alchemy!<se_nots System Item> <pc> has read \"Let's Get\nStarted: Alchemy\"! <pc>\nlearned the recipe for Hajimeteyo\n<br>\nAlchemy!<se_nots System Item> The Renkin pot is a special tool that\ncan be used to smelt another item by\ninserting the item as a material. You\n<br>\ncan smelt an item by selecting \"Renkin\nGama\" from the \"item\" command. To\nsmelt an item, you will need the\n<br>\nrecipe of the item you want to smelt.\nRecipes can be obtained from the\nRecipe Shop or bookshelf."
   },
   "10093002": {
     "「ふむ……　なかなか便利そうなものだな。\n　きっと　旅の役に立ってくれるだろう。\n　それでは　しっかりやるんだぞ！": "Hmmm, that looks quite useful. I'm\nsure it will come in handy on our\njourney. Well, then, do it well!"
@@ -60,7 +60,7 @@
     "<close_irai>「アカシは　まだ年若い娘だが\n　薬の調合にかけては　右に出る者はいない。\n　必ずや　そなたの役に立つだろう。": "<close_irai>Akashi is still a young girl, but she\nhas no equal when it comes to mixing\nmedicines. She will surely be of use\n<br>\nto you."
   },
   "40770": {
-    "<attr><feel_think_lv1><end_attr>「仙者の霊薬を作るには　キリカ草原などにいる\n　<%sEV_QUE_NAME0>が　時々落とすという\n　おおみみずの化石が　必要です。\n<br>\n「あたしは　薬の調合の　準備をしておきますから\n　<pc>さんは　おおみみずの化石を\n　手に入れてきてください。": "<attr><feel_think_lv1><end_attr>To make the elixir of the Immortals,\nyou need the Wiggly Fossil that\n<%sev_que_name0> sometimes drops at\n<br>\nKirika Steppe and other places. I will\nprepare the potion, so <pc>\nplease go get the Wiggly Fossil."
+    "<attr><feel_think_lv1><end_attr>「仙者の霊薬を作るには　キリカ草原などにいる\n　<%sEV_QUE_NAME0>が　時々落とすという\n　おおみみずの化石が　必要です。\n<br>\n「あたしは　薬の調合の　準備をしておきますから\n　<pc>さんは　おおみみずの化石を\n　手に入れてきてください。": "<attr><feel_think_lv1><end_attr>To make the elixir of the Immortals,\nyou need the Wiggly Fossil that\n<%sEV_QUE_NAME0> sometimes drops at\n<br>\nKirika Steppe and other places. I will\nprepare the potion, so <pc>\nplease go get the Wiggly Fossil."
   },
   "40771": {
     "<attr><feel_happy_lv3><end_attr>「おかえりなさい　<pc>さん！\n　無事に　おおみみずの化石が\n　手に入ったみたいですね。": "<attr><feel_happy_lv3><end_attr>Welcome back <pc>! Looks like\nyou got your Wiggly Fossil in one\npiece."
@@ -243,7 +243,7 @@
     "<attr><feel_sad_lv1><end_attr>「<pc>さん　大変です！\n　ついさっき　ヒメア様の従者の方が\n　お見えになったんです。\n<br>\n「ヒメア様が　あたしたちを呼んでるから\n　急いで　お屋敷に　来るようにって……。": "<attr><feel_sad_lv1><end_attr><pc> Oh my God! Just a few\nminutes ago, one of Himea's attendants\ncame to see us. She told us to hurry\n<br>\nup and come to her house because\nHimea-sama wanted to see us."
   },
   "40831": {
-    "<attr><feel_sad_lv1><end_attr>「あの　<pc>さん　いいんですか？\n　ヒメア様と　一緒に行かなくて……。\n　あたしたちが　ヒメア様を　お助けしなきゃ。": "<attr><feel_sad_lv1><end_attr>Um, <&13_aaaaaaaad> Are you sure you\ndon't mind? You don't have to go with\nHimea-sama. We have to help Himea-\n<br>\nsama."
+    "<attr><feel_sad_lv1><end_attr>「あの　<pc>さん　いいんですか？\n　ヒメア様と　一緒に行かなくて……。\n　あたしたちが　ヒメア様を　お助けしなきゃ。": "<attr><feel_sad_lv1><end_attr>Um, <pc> Are you sure you\ndon't mind? You don't have to go with\nHimea-sama. We have to help Himea-\n<br>\nsama."
   },
   "40832": {
     "<attr><feel_angry_lv1><end_attr>「アカシと　ふたりで　ヒメア様の周りを\n　ウロチョロしてるらしいけど\n　いったい　どういうつもりだよ？\n<br>\n「なあ　<pc>。\n　若葉の探検隊は　もう解散したんだ。\n　神代の間での出来事なんて　忘れちまえよ。": "<attr><feel_angry_lv1><end_attr>I heard that you and Akashi are\nhanging around Himea-sama together.\nHey, <pc>. Wakaba's\n<br>\nexpedition has already been disbanded.\nForget about what happened at God's\nHall."
@@ -261,7 +261,7 @@
     "<attr><feel_happy_lv1><end_attr>「ヒメア様が　あたしたちのことを\n　必要としてくださるだなんて……\n　よかった。なんだか　ホッとしちゃいました。\n<br>\n「だって　あたし　アズランでは\n　出過ぎたことをしたんじゃないかって\n　ずっと　気にしてたんです。\n<br>\n「さあ　<pc>さん。\n　あたしたちも　世界樹の丘がある\n　東の　久遠の森へ　急いで向かいましょう。": "<attr><feel_happy_lv1><end_attr>I am glad to hear that Himea-sama\nneeds us. I feel relieved. I've been\nworried that I might have gone too far\n<br>\nin Azlan. Now <pc>. Let's\nhurry to the Forest of Eternity to the\neast where Yggdrahill is located."
   },
   "40837": {
-    "「ああ　<pc>さん！\n　よかった……よく　ご無事で！！\n　あたし　命からがら　逃げだしてきたんです！\n<br>\n「でも　<pc>さん　どうしましょう！？\n　世界樹の丘には　まだ　ヒメア様が……。": "Oh <pc>! Thank goodness\nyou're alive! I escaped with my life!\nBut <&13_aaaaaaaad> what should I do?\n<br>\nYggdrahill still has Master Himea."
+    "「ああ　<pc>さん！\n　よかった……よく　ご無事で！！\n　あたし　命からがら　逃げだしてきたんです！\n<br>\n「でも　<pc>さん　どうしましょう！？\n　世界樹の丘には　まだ　ヒメア様が……。": "Oh <pc>! Thank goodness\nyou're alive! I escaped with my life!\nBut <pc> what should I do?\n<br>\nYggdrahill still has Master Himea."
   },
   "40838": {
     "「ヒメア様は　我らとは\n　異なる時間の流れの中で　生きておられる。\n　そのせいか　人に心を開くことは少なかった。\n<br>\n「……だが　そなたたちに対しては　ちがう。 \n　ヒメア様は　そなたたちを\n　心から　信頼しているようだ。\n<br>\n「世界樹の丘で　なにが起きるか　わからんが\n　どうか　あの方のことを　頼む。\n　そなたたちが　ヒメア様を守ってくれ。": "Himea lives in a different time than\nwe do. Because of this, she has rarely\nopened her heart to others. But not to\n<br>\nyou.It seems that Himea truly trusts\nyou. I don't know what will happen at\nYggdrahill, but please take care of\n<br>\nher. I ask that you protect Himea."
@@ -390,7 +390,7 @@
     "<attr><feel_happy_one><end_attr>「ニッシッシ……　危ないところだったわい。\n<br>\n「この学びの庭の　師ともあろう者が\n　こんな本を　隠しているなどと知られては\n　さすがに　まずいからのう。<bw_break>": "<attr><feel_happy_one><end_attr>Nissh, that was a close call. It would\nbe a shame for it to be known that the\nmaster of this garden of learning is\n<br>\nhiding a book like this.<bw_break>"
   },
   "33799": {
-    "<attr><feel_happy_one><end_attr><turn_pc>「おおっ　<pc>か。\n　さっきは　世話になったのう。\n<br>\n「なんじゃ　この本が　気になるか？\n　ニッシッシ！　<pc>には　まだ早いわ！": "<attr><feel_happy_one><end_attr><turn_pc>Oh, <pc>. Thanks for your\nhelp earlier. What, you're interested\nin this book? Nisshhh! It's too early\n<br>\nfor <&13_aaaaaaad>!"
+    "<attr><feel_happy_one><end_attr><turn_pc>「おおっ　<pc>か。\n　さっきは　世話になったのう。\n<br>\n「なんじゃ　この本が　気になるか？\n　ニッシッシ！　<pc>には　まだ早いわ！": "<attr><feel_happy_one><end_attr><turn_pc>Oh, <pc>. Thanks for your\nhelp earlier. What, you're interested\nin this book? Nisshhh! It's too early\n<br>\nfor <pc>!"
   },
   "33800": {
     "<attr><feel_happy_lv3><end_attr><icon_exc>「おお！　すまん　<pc>！ \n　その本を　ずっと探していたんじゃ。<bw_break>": "<attr><feel_happy_lv3><end_attr><icon_exc>Oh! Sorry <pc>!I've been\nlooking for that book for a long time.<bw_break>"
@@ -435,13 +435,13 @@
     "<attr><feel_think_lv3><end_attr>「若葉の試みに　落ち続けて　もう４年……。\n<br>\n「１０年間　落ち続けている \n　キュウスケが　いるとはいえ\n　下を見て　安心するような　オレじゃねえ。\n<br>\n「やってやる！　今年こそ　合格する。\n　いいか。オレは　やればできる子なんだ。\n　ぶつぶつ……。": "<attr><feel_think_lv3><end_attr>It's already been four years since\nI've fallen into the trial of the\nyoung leaves. Although there is\n<br>\nKyusuke who has been falling for 10\nyears, I'm not the kind of guy who\nlooks down and feels relieved. I'm\n<br>\ngoing to do it! This is the year I'm\ngoing to pass. Listen to me. I'm a kid\nwho can do it if I try. Bump."
   },
   "33815": {
-    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sev_item>!<se_nots System Item>"
+    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sEV_ITEM>!<se_nots System Item>"
   },
   "33816": {
     "『イシカズム理論における\n　ヌラカワ対比について』と書かれた\nとても　むずかしそうな表紙の本がある。": "There is a book with a very\ncomplicated cover that reads \"On the\nNurakawa Contrast in the Theory of\n<br>\nIsicasm."
   },
   "33817": {
-    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sev_item>!<se_nots System Item>"
+    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sEV_ITEM>!<se_nots System Item>"
   },
   "33818": {
     "<attr><feel_happy_lv3><end_attr>「知ってる？　知の試練に合格すると\n　ルーラストーンが　もらえるんだよ！\n<br>\n「いいよなー　ルーラストーン。\n　使うと　その石に記憶させた場所へ\n　一瞬で飛んでいける　魔法の石なんだって。": "<attr><feel_happy_lv3><end_attr>Did you know? You can get a Zoomstone\nwhen you pass a knowledge trial! The\nZoomstone is a magic stone that allows\n<br>\nyou to instantly fly to the place you\nmemorized in the stone."
@@ -795,7 +795,7 @@
     "<attr><feel_happy_lv1><end_attr>「この先は　寄宿舎と食堂。\n　学びの徒のための　施設です。\n<br>\n「見学は　ご自由にどうぞ。\n　でも　くれぐれも　修練のさまたげには\n　ならぬよう　お願いしますね。": "<attr><feel_happy_lv1><end_attr>Beyond this are dormitory and dining\nroom. These are facilities for\nstudents. Please feel free to visit.\n<br>\nBut please don't let it hinder your\ntraining."
   },
   "33937": {
-    "<if_hum><attr><feel_happy_lv2><end_attr>「わあっ　<pc>さん！\n　来てくださって　うれしいです。\n<br>\n「……えっ　<pc>さんが\n　どこか　変わったんですか？\n<br>\n「………………。\n<br>\n「あっ　わかりました！\n　<pc>さん　髪を切りました？\n　私　そういうのに　あんまり気づかなくて。<else><attr><feel_happy_lv2><end_attr>「<pc>さん！\n　来てくださって　うれしいです。\n<br>\n「まあっ　キーエンブレムをお持ちなんですね！\n　すごいです　本当に。私　これからも\n　<pc>さんを　目標に　がんばります。<endif>": "<if_hum><attr><feel_happy_lv2><end_attr>Wow <pc>! I'm so glad you\ncame. What, did <pc> change\nsomewhere? Oh, I see! Oh, I see!\n<br>\n<&13_aaaaaaaad> Did you cut your hair?\nI didn't really notice anything like\nthat.<else><attr><feel_happy_lv2><end_attr><pc>! I'm so glad you came. I\nsee you have a key emblem! That's\namazing, really. I will continue to do\n<br>\nmy best with <pc> as my goal.<endif>"
+    "<if_hum><attr><feel_happy_lv2><end_attr>「わあっ　<pc>さん！\n　来てくださって　うれしいです。\n<br>\n「……えっ　<pc>さんが\n　どこか　変わったんですか？\n<br>\n「………………。\n<br>\n「あっ　わかりました！\n　<pc>さん　髪を切りました？\n　私　そういうのに　あんまり気づかなくて。<else><attr><feel_happy_lv2><end_attr>「<pc>さん！\n　来てくださって　うれしいです。\n<br>\n「まあっ　キーエンブレムをお持ちなんですね！\n　すごいです　本当に。私　これからも\n　<pc>さんを　目標に　がんばります。<endif>": "<if_hum><attr><feel_happy_lv2><end_attr>Wow <pc>! I'm so glad you\ncame. What, did <pc> change\nsomewhere? Oh, I see! Oh, I see!\n<br>\n<pc> Did you cut your hair?\nI didn't really notice anything like\nthat.<else><attr><feel_happy_lv2><end_attr><pc>! I'm so glad you came. I\nsee you have a key emblem! That's\namazing, really. I will continue to do\n<br>\nmy best with <pc> as my goal.<endif>"
   },
   "33939": {
     "<attr><feel_happy_lv1><end_attr>「世界中には　いろんなギルドがあるのじゃ。\n　<pc>も　いくつか\n　目にしたことがあるじゃろう？\n<br>\n「こう見えても　わしは　さいほうギルドに\n　入っておってな！　セクシーなドレス作りなら\n　誰にも負けん　自信があるわい。": "<attr><feel_happy_lv1><end_attr>There are many guilds in the world.\nI'm sure you've seen some of them,\nhaven't you <pc>? I'm a\n<br>\nmember of the Sewing Guild! I'm\nconfident that I can make sexy dresses\nas well as anyone else."

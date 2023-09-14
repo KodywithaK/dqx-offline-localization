@@ -18,7 +18,7 @@
     "<start_lip_sync n00129 _normal m00001>「ボヤくな　ボヤくな。\n　城に　閉じこもってばかりいないで\n　たまには　身体を動かすのも　いいものだぞ。<stop_lip_animation n00129 CLOSE_MOUTH>": "<start_lip_sync n00129 _normal m00001>Don't blabber, don't blabber. Don't\njust stay cooped up in the castle.\nIt's good to move your body once in a\n<br>\nwhile.<stop_lip_animation n00129 CLOSE_MOUTH>"
   },
   "16065": {
-    "<start_lip_sync n00129 _normal m00001>「さて　今回の獲物だが……\n　このザマ峠の　博愛の碑辺りに　出現する\n　<%sEV_QUE_NAME0>にしようと思う。<stop_lip_animation n00129 CLOSE_MOUTH>": "<start_lip_sync n00129 _normal m00001>Now, as for my latest catch, I'm\nthinking of <%sev_que_name0>, which\nappears around the Love Statues in\n<br>\nZama Pass.<stop_lip_animation n00129 CLOSE_MOUTH>"
+    "<start_lip_sync n00129 _normal m00001>「さて　今回の獲物だが……\n　このザマ峠の　博愛の碑辺りに　出現する\n　<%sEV_QUE_NAME0>にしようと思う。<stop_lip_animation n00129 CLOSE_MOUTH>": "<start_lip_sync n00129 _normal m00001>Now, as for my latest catch, I'm\nthinking of <%sEV_QUE_NAME0>, which\nappears around the Love Statues in\n<br>\nZama Pass.<stop_lip_animation n00129 CLOSE_MOUTH>"
   },
   "16066": {
     "<start_lip_sync n00129 _normal m00001>「だが　普通に倒すだけでは　つまらんからな。\n　ひとつ　競争することにしようか。\n　優勝者には　わしから　ほうびを取らせよう。<stop_lip_animation n00129 CLOSE_MOUTH>": "<start_lip_sync n00129 _normal m00001>But it's boring to just beat them.\nLet's have a competition. The winner\nwill get a reward from me.<stop_lip_animation n00129 CLOSE_MOUTH>"
@@ -96,15 +96,15 @@
     "<start_lip_sync n00129 _normal m00001>「……フム。そうか　わしの優勝か！\n　しかし　わしが　賞品をもらっても　仕方ない。\n　優勝の名誉だけを　いただくとしよう。<stop_lip_animation n00129 CLOSE_MOUTH>": "<start_lip_sync n00129 _normal m00001>Hm. I see, so I won! But it's no use\nfor me to accept the prize. I will\nonly accept the honor of winning.<stop_lip_animation n00129 CLOSE_MOUTH>"
   },
   "16091": {
-    "<start_lip_sync n00129 _normal m00001>「というわけで　優勝賞品は　２位である\n　<pc>に　贈るとしよう。\n　さあ　ありがたく　受け取るがよいぞ。<stop_lip_animation n00129 CLOSE_MOUTH>": "<start_lip_sync n00129 _normal m00001>So, the first prize goes to the second\nplace winner, <&13_aaaaaaad>. You may\naccept it gratefully.<stop_lip_animation n00129 CLOSE_MOUTH>"
+    "<start_lip_sync n00129 _normal m00001>「というわけで　優勝賞品は　２位である\n　<pc>に　贈るとしよう。\n　さあ　ありがたく　受け取るがよいぞ。<stop_lip_animation n00129 CLOSE_MOUTH>": "<start_lip_sync n00129 _normal m00001>So, the first prize goes to the second\nplace winner, <pc>. You may\naccept it gratefully.<stop_lip_animation n00129 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sEV_QUEST_NAME>\" has been\ncompleted!<update_quedate><open_irai>"
   },
   "16092": {
     "<start_lip_sync n00129 _normal m00001>「今回の魔物狩りは　これで終了とする。\n　思いがけぬトラブルも　起こったが\n　ひさしぶりで　なかなか　楽しめたぞ。<stop_lip_animation n00129 CLOSE_MOUTH>": "<start_lip_sync n00129 _normal m00001>This concludes this monster hunt.\nAlthough some unexpected troubles\noccurred, it has been a while since I\n<br>\nwas here, and it was quite enjoyable.<stop_lip_animation n00129 CLOSE_MOUTH>"
   },
   "16093": {
-    "<start_lip_sync n00129 _normal m00001>「では　わしらは　城に戻るとしよう！\n　<pc>　ジャンガ　ご苦労であった。<stop_lip_animation n00129 CLOSE_MOUTH>": "<start_lip_sync n00129 _normal m00001>Then we shall return to the castle!\n<&13_aaaaaaaad> Janga, thank you very\nmuch.<stop_lip_animation n00129 CLOSE_MOUTH>"
+    "<start_lip_sync n00129 _normal m00001>「では　わしらは　城に戻るとしよう！\n　<pc>　ジャンガ　ご苦労であった。<stop_lip_animation n00129 CLOSE_MOUTH>": "<start_lip_sync n00129 _normal m00001>Then we shall return to the castle!\n<pc> Janga, thank you very\nmuch.<stop_lip_animation n00129 CLOSE_MOUTH>"
   }
 }

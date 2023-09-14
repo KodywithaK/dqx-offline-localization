@@ -3,7 +3,7 @@
     "「おっと　そうだ！　\n　最近　手に入れた　こいつを\n　せんべつに　もっていけ！<bw_break>": "Oops, that's right!Put this one on the ship\nrecently received!<bw_break>"
   },
   "10002001": {
-    "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": "<pc> received a brick kiln (Key\nItem)!<me 60> In addition, he received a recipe book,\n\"Hajimeyo Alchemy!<se_nots System Item> <pc> has read \"Let's Get Started:\nAlchemy\"! <&13_aaaaaaad> learned the recipe\nfor Hajimeteyo Alchemy!<se_nots System Item> The Renkin pot is a special tool that can be\nused to smelt another item by inserting the\nitem as a material. You can smelt an item by\n<br>\nselecting \"Renkin Gama\" from the \"item\"\ncommand. To smelt an item, you will need the\nrecipe of the item you want to smelt. Recipes\n<br>\ncan be obtained from the Recipe Shop or\nbookshelf."
+    "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": "<pc> received a brick kiln (Key\nItem)!<me 60> In addition, he received a recipe book,\n\"Hajimeyo Alchemy!<se_nots System Item> <pc> has read \"Let's Get Started:\nAlchemy\"! <pc> learned the recipe\nfor Hajimeteyo Alchemy!<se_nots System Item> The Renkin pot is a special tool that can be\nused to smelt another item by inserting the\nitem as a material. You can smelt an item by\n<br>\nselecting \"Renkin Gama\" from the \"item\"\ncommand. To smelt an item, you will need the\nrecipe of the item you want to smelt. Recipes\n<br>\ncan be obtained from the Recipe Shop or\nbookshelf."
   },
   "10002002": {
     "「仕組みはわからんが　便利そうだろ！\n　ガハハハハハハ！\n　それじゃ　暴れてこい！": "I don't know how it works, but it sounds\nconvenient! Gahahahahahaha! Well then, go on a\nrampage!"
@@ -30,7 +30,7 @@
     "「おお　<pc>　よく来てくれた。\n<br>\n「ちょっと　困っていることがあってな。\n　命の恩人に対して　気が引けるのだが\n　ひとつ　頼まれてくれんか。\n<br>\n「ひさしぶりに　村の武闘場の　清めの儀式を\n　行いたいのだが　その儀式で　武闘場にまく\n　特別な塩を　切らしていてな。\n<br>\n「特別な塩というのは　エゼソルトってやつだ。\n　その名の通り　ドワチャッカ大陸の\n　エゼソル峡谷にある　塩湖で採れる。\n<br>\n「すまないが　そいつを採りにいってくれんか？\n　もちろん　礼はさせてもらうぞ。": "Oh <pc>, thank you for coming. I'm in\na bit of a bind. I'm a bit embarrassed to ask\nthis of the man who saved my life, but I have\n<br>\na favor to ask of you. I would like to perform\nthe purification ceremony of the Village Arena\nfor the first time in a long time, but I am\n<br>\nout of the special salt that is to be\nsprinkled in the arena for the purification\nceremony. The special salt is called Eze Salt.\n<br>\nIt comes from Salt Lake in Ezesol Canyon in\nthe Dwachakka Continent. I'm sorry, but could\nyou go pick it up for me? Of course, I'll\n<br>\nthank you."
   },
   "37050": {
-    "<attr><feel_happy_lv2><end_attr>「おお　やってくれるか！\n　さすがは　<pc>だ！　ガハハ！\n<br>\n「塩湖の入り口付近に　山小屋がある。\n　そこに　塩を採取しているドワーフがいるので\n　わからないことは　聞いてみるといい。\n<br>\n「エゼソル峡谷くらい　<pc>なら\n　散歩がてらに　行ける範囲だろう。\n　それじゃあ　頼んだぞ。": "<attr><feel_happy_lv2><end_attr>Oh, you can do it! That's what I'm talking\nabout <pc>! Gahaha! There is a\nmountain cabin near the entrance of Salt Lake.\n<br>\nThere is a Dwarf who collects salt there, so\nyou can ask him if you have any questions.\nEzesol Canyon <&13_aaaaaaad> should be within\n<br>\nwalking distance. Well then, I'm counting on\nyou."
+    "<attr><feel_happy_lv2><end_attr>「おお　やってくれるか！\n　さすがは　<pc>だ！　ガハハ！\n<br>\n「塩湖の入り口付近に　山小屋がある。\n　そこに　塩を採取しているドワーフがいるので\n　わからないことは　聞いてみるといい。\n<br>\n「エゼソル峡谷くらい　<pc>なら\n　散歩がてらに　行ける範囲だろう。\n　それじゃあ　頼んだぞ。": "<attr><feel_happy_lv2><end_attr>Oh, you can do it! That's what I'm talking\nabout <pc>! Gahaha! There is a\nmountain cabin near the entrance of Salt Lake.\n<br>\nThere is a Dwarf who collects salt there, so\nyou can ask him if you have any questions.\nEzesol Canyon <pc> should be within\n<br>\nwalking distance. Well then, I'm counting on\nyou."
   },
   "37051": {
     "<attr><feel_happy_lv2><end_attr>「おお　やってくれるか！\n　だが　頼まれごとで　いっぱいらしいな。\n<br>\n「人の頼みを断れないのは　<pc>の\n　よいところだが　もうすこし　手が空いたら\n　また来てくれ。よろしく頼むぞ。ガハハ！": "<attr><feel_happy_lv2><end_attr>Oh, you can do it! But I hear you are full of\nrequests. It's a good thing that <pc>\ncan't say no to requests, but come back when\n<br>\nyou have a little more time on your hands.\nI'll be counting on you. Gahaha!"
@@ -282,7 +282,7 @@
     "「昔から　村王は\n　娘のマイユを嫁にやるなら　村で\n　いちばん強い男に……と言っていたからな。\n<br>\n「マイユさんの結婚相手は　村の武闘大会で\n　５年も　チャンピオンの座に君臨している\n　ジーガンフに　決まりだろう。": "The village king had always said that if he\nwanted to marry off his daughter, Maille, to\nthe most powerful man in the village. The man\n<br>\nto whom Maille will marry must be Jiganf, who\nhas been the reigning champion of the village\nmartial arts tournament for five years."
   },
   "34333": {
-    "「ガハハ！　<pc>　聞いたぞ！\n　死んでたのに　生き返ったそうじゃないか！\n　マイユのヤツも　おどろいていたぞ。\n<br>\n「……ところで　<pc>。\n　ちょうど　お前に聞きたいことがあったのだ。\n<br>\n「先日の武闘大会でも　圧倒的な強さを見せ\n　５年連続チャンピオンになった　ジーガンフ。\n　アイツをどう思う？　近頃　変だと思わないか？<yesno><break>": "Gahaha! <pc> I heard! I heard that\nyou came back from the dead! Even the Maille\nguy was surprised. By the way,\n<br>\n<&13_aaaaaaaad>. I just had a question I\nwanted to ask you. What do you think of\nJiganf, who showed overwhelming strength in\n<br>\nthe recent martial arts tournament and became\nthe champion for the fifth year in a row? Do\nyou think he's been acting strange lately?<yesno><break>"
+    "「ガハハ！　<pc>　聞いたぞ！\n　死んでたのに　生き返ったそうじゃないか！\n　マイユのヤツも　おどろいていたぞ。\n<br>\n「……ところで　<pc>。\n　ちょうど　お前に聞きたいことがあったのだ。\n<br>\n「先日の武闘大会でも　圧倒的な強さを見せ\n　５年連続チャンピオンになった　ジーガンフ。\n　アイツをどう思う？　近頃　変だと思わないか？<yesno><break>": "Gahaha! <pc> I heard! I heard that\nyou came back from the dead! Even the Maille\nguy was surprised. By the way,\n<br>\n<pc>. I just had a question I\nwanted to ask you. What do you think of\nJiganf, who showed overwhelming strength in\n<br>\nthe recent martial arts tournament and became\nthe champion for the fifth year in a row? Do\nyou think he's been acting strange lately?<yesno><break>"
   },
   "34334": {
     "<attr><feel_think_lv1><end_attr>「そうか……。\n　やはり　お前も　そう思うか。<bw_break>": "<attr><feel_think_lv1><end_attr>I see. After all, you think so too.<bw_break>"
@@ -321,10 +321,10 @@
     "<attr><feel_think_lv1><end_attr>「ルーラストーンを　なくしたって？\n　あれは　めったに手に入らない　貴重な物だよ。\n<br>\n「使うと　記憶させた場所へ飛んでいける\n　すごい石だからね。\n　<pc>のような修行者には　必需品だ。\n<br>\n「誰かに持っていかれちまう前に\n　急いで　探しにいったほうがいいよ。\n　西のロンダの氷穴の中も　よーく探しなよ？": "<attr><feel_think_lv1><end_attr>I heard you lost your Zoomstone. It's a very\nrare and precious item. When you use it, you\ncan fly to the place you memorized. It's a\n<br>\nnecessity for a practitioner like\n<pc>. You'd better hurry and find it\nbefore someone takes it away. You should also\n<br>\nlook for it in the Rhonda Ice Cave to the\nwest."
   },
   "34345": {
-    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sev_item>!<se_nots System Item>"
+    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sEV_ITEM>!<se_nots System Item>"
   },
   "34346": {
-    "<pc>は\n<%sEV_ITEM2>を　手に入れた！<se_nots System Item>": "<pc> received <%sev_item2>!<se_nots System Item>"
+    "<pc>は\n<%sEV_ITEM2>を　手に入れた！<se_nots System Item>": "<pc> received <%sEV_ITEM2>!<se_nots System Item>"
   },
   "34347": {
     "「この先は　武闘場。\n　毎年　武闘大会が行われる　神聖な戦いの場だ。": "Beyond this point is the battlefield. It is a\nsacred battlefield where martial arts\ntournaments are held every year."
@@ -420,7 +420,7 @@
     "<attr><feel_angry_lv1><end_attr>「武闘場で　騒ぎがあったようだが　大丈夫か？\n　村王とアロルドが　ただならぬ様子で\n　飛びだしていったぞ。": "<attr><feel_angry_lv1><end_attr>There was a commotion in the arena. Are you\nall right? The Village King and Arold are\nrunning out of here looking for trouble."
   },
   "34377": {
-    "<attr><feel_think_lv1><end_attr>「ねえ　なんか　ヤバい雰囲気じゃない？\n　マイユさんの悲鳴や　ジーガンフさんの\n　どなり声まで　聞こえたわよ。\n<br>\n「ま…まさか　愛の三角関係！？\n　ジーガンフさんと　アロルドが　恋のライバル？\n　きゃ～　どうなっちゃうのかしら～<heart>": "<attr><feel_think_lv1><end_attr>Hey, isn't there a bad vibe here? I could hear\nMaille's screams and Jiganf's yells. No way! A\nlove triangle! Jiganf and Arold are rivals? Oh\n<br>\nmy gosh, what's going to happen~<&2a"
+    "<attr><feel_think_lv1><end_attr>「ねえ　なんか　ヤバい雰囲気じゃない？\n　マイユさんの悲鳴や　ジーガンフさんの\n　どなり声まで　聞こえたわよ。\n<br>\n「ま…まさか　愛の三角関係！？\n　ジーガンフさんと　アロルドが　恋のライバル？\n　きゃ～　どうなっちゃうのかしら～<heart>": "<attr><feel_think_lv1><end_attr>Hey, isn't there a bad vibe here? I could hear\nMaille's screams and Jiganf's yells. No way! A\nlove triangle! Jiganf and Arold are rivals? Oh\n<br>\nmy gosh, what's going to happen~<heart>"
   },
   "34378": {
     "「ジェニャなら　ホクホクした顔で出ていったよ。\n　村王さまに　たっぷりと　こづかいを\n　もらったんだろう。しっかりしてるよ！": "Jenya left with a relieved look on her face.\nThe village king must have given her a\ngenerous allowance. She's a good girl!"
@@ -576,7 +576,7 @@
     "<attr><feel_happy_lv1><end_attr>「<pc>　元気だったか？\n　マイユさまの部屋は　オレが守る！\n　お前は　安心して　旅を続けてくれ。": "<attr><feel_happy_lv1><end_attr><pc> How are you? I'll take care of\nMaille's room! I'll take care of Maille's\nroom!"
   },
   "34429": {
-    "<attr><feel_happy_lv1><end_attr>「どっひゃ～！　<pc>！\n　キーエンブレムを　もらうまでになったのかい？\n　ちゃんと　トレーニングしてるんだなあ！": "<attr><feel_happy_lv1><end_attr>Dooooooooooooooooooooooooooooooooooooooooooooo\noooooooo! <&13_aaaaaaad>! You've even gotten a\nkey emblem? You've been training hard, huh?"
+    "<attr><feel_happy_lv1><end_attr>「どっひゃ～！　<pc>！\n　キーエンブレムを　もらうまでになったのかい？\n　ちゃんと　トレーニングしてるんだなあ！": "<attr><feel_happy_lv1><end_attr>Dooooooooooooooooooooooooooooooooooooooooooooo\noooooooo! <pc>! You've even gotten a\nkey emblem? You've been training hard, huh?"
   },
   "34430": {
     "<if_hum>「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「おお　<pc>　ひさしぶりだな！\n　なに？　人間になった？\n<br>\n「ええと……　前から　そうだったよな？<else>「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「おお　<pc>　ひさしぶりだな！\n　村を離れた者が　こうして戻ってきてくれるのは\n　うれしいもんだ。ゆっくりしていってくれ！<endif>": "<if_hum>This is Langao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strenghten themselves. Oh\n<br>\n<pc> It's been a while! What? Have\nyou become a human? Well, you were like that\nbefore, weren't you?<else>This is Langao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strenghten themselves. Oh\n<br>\n<pc> It's been a long time! It's nice\nto see someone who left the village come back\nlike this. Please take your time!<endif>"
@@ -603,7 +603,7 @@
     "<attr><feel_happy_lv2><end_attr>「あら　<pc>　ひさしぶり～！\n　この村にも　いろんな大陸から\n　旅の人が来るようになったのよ。": "<attr><feel_happy_lv2><end_attr>Hello <pc> It's been a while! We've\nhad travelers from many continents come to our\nvillage."
   },
   "34440": {
-    "<if_hum><attr><feel_think_lv1><end_attr>「おや　<pc>。\n　なんだって？　人間になった？\n<br>\n「ええと……。あたしには　いつもの\n　<pc>にしか見えないけどねえ。\n　町じゃ　そういう冗談が　はやっているのかい？<else><attr><feel_happy_lv1><end_attr>「<pc>　おかえり。\n　のんびりしていきな。\n　ここは　あんたの故郷なんだからね。<endif>": "<if_hum><attr><feel_think_lv1><end_attr>Oh <pc>. Excuse me? Did you become a\nHUMAN? Well... You look like your usual\n<&13_aaaaaaad> to me. Is that kind of joke\n<br>\ngoing around town?<else><attr><feel_happy_lv1><end_attr><pc> Welcome back. Take it easy. This\nis your hometown.<endif>"
+    "<if_hum><attr><feel_think_lv1><end_attr>「おや　<pc>。\n　なんだって？　人間になった？\n<br>\n「ええと……。あたしには　いつもの\n　<pc>にしか見えないけどねえ。\n　町じゃ　そういう冗談が　はやっているのかい？<else><attr><feel_happy_lv1><end_attr>「<pc>　おかえり。\n　のんびりしていきな。\n　ここは　あんたの故郷なんだからね。<endif>": "<if_hum><attr><feel_think_lv1><end_attr>Oh <pc>. Excuse me? Did you become a\nHUMAN? Well... You look like your usual\n<pc> to me. Is that kind of joke\n<br>\ngoing around town?<else><attr><feel_happy_lv1><end_attr><pc> Welcome back. Take it easy. This\nis your hometown.<endif>"
   },
   "34442": {
     "<attr><feel_sad_lv1><end_attr>「ジーガンフさんは　今頃\n　どこを旅しているのかな……。\n　ああっ　ジーガンフさんを追っていきたい<heart>": "<attr><feel_sad_lv1><end_attr>I wonder where Jiganf-san is traveling now.\nOh, I want to follow Mr. Jiganf<heart>."
@@ -636,6 +636,6 @@
     "「北の果てにある　こんな村にも　よく\n　旅人さんが　いらっしゃるようになりました。\n<br>\n「さらなる冒険を求めて　世界のすみずみまで\n　旅をしていらっしゃるそうですわ。": "Travelers often come to this village in the\nfar north. They travel to every corner of the\nworld in search of more adventures."
   },
   "37709": {
-    "<if_hum><attr><feel_think_lv1><end_attr>「おや　<pc>。\n　なんだって？　人間になった？\n<br>\n「ええと……。あたしには　いつもの\n　<pc>にしか　見えないけどねえ。\n　町じゃ　そういう冗談が　はやっているのかい？<else><attr><feel_happy_lv1><end_attr>「おかえり　<pc>。\n　ひと仕事　終わったような　いい顔してるよ。<endif>": "<if_hum><attr><feel_think_lv1><end_attr>Oh <pc>. Excuse me? Did you become a\nHUMAN? Well... You look like your usual\n<&13_aaaaaaad> to me. Is that kind of joke\n<br>\ngoing around town?<else><attr><feel_happy_lv1><end_attr>Welcome back <pc>. You look good,\nlike you've finished your work.<endif>"
+    "<if_hum><attr><feel_think_lv1><end_attr>「おや　<pc>。\n　なんだって？　人間になった？\n<br>\n「ええと……。あたしには　いつもの\n　<pc>にしか　見えないけどねえ。\n　町じゃ　そういう冗談が　はやっているのかい？<else><attr><feel_happy_lv1><end_attr>「おかえり　<pc>。\n　ひと仕事　終わったような　いい顔してるよ。<endif>": "<if_hum><attr><feel_think_lv1><end_attr>Oh <pc>. Excuse me? Did you become a\nHUMAN? Well... You look like your usual\n<pc> to me. Is that kind of joke\n<br>\ngoing around town?<else><attr><feel_happy_lv1><end_attr>Welcome back <pc>. You look good,\nlike you've finished your work.<endif>"
   }
 }

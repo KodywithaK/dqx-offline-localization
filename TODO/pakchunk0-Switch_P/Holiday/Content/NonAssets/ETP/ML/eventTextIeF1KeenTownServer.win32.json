@@ -1167,13 +1167,13 @@
     "「ふふ……あなた　とてもおなかが\n　空いていたのね。いい　食べっぷりでしたわ。\n<br>\n「細かなマナーは　他にも　たくさんあります。\n　でも　おいしそうに食べることも　忘れないで。\n　それが　見る人を快く感じさせるの。\n<br>\n「……基本は　こんなところね。\n　それでは　実践に移りましょうか。\n<br>\n「そうね……　こうしましょう！\n　キィンベルの中央広場に\n　オルウェンという男性が　いると思うわ。\n<br>\n「彼に　先ほど教えた　エテーネのあいさつを\n　してきてごらんなさい。\n<br>\n「先に　さくせんコマンドの　キャラ設定の\n　よく使うセリフ設定から　エテーネのあいさつを\n　使えるよう　準備しておくと　よろしいですわ。": "You must be very hungry. You ate very\nwell. There are many more manners to\nbe observed. But don't forget to eat\n<br>\nwell. It makes the viewer feel good.\nThat's the basics. Shall we put them\ninto practice? Okay, here's what we'll\n<br>\ndo! There is a man named Olwen at the\nCentral Plaza in Kimbel. Go give him\nthe Ethene Greeting that I just taught\n<br>\nyou. You may want to prepare for the\nEthene Greeting in the Character\nPreferences of the Misc. command."
   },
   "187318": {
-    "<pc>は　エミリエから\nしぐさ『エテーネのあいさつ』を　教わった。\n<br>\n<pc>は\nしぐさ『エテーネのあいさつ』を　覚えた！<me_71>": "<pc> learned the mote \"Ethene\nGreeting\" from Emily. <&13_aaaaaaad>\nlearned the mote \"Ethene Greeting\"\n<br>\nfrom Emily!<me_71>"
+    "<pc>は　エミリエから\nしぐさ『エテーネのあいさつ』を　教わった。\n<br>\n<pc>は\nしぐさ『エテーネのあいさつ』を　覚えた！<me_71>": "<pc> learned the mote \"Ethene\nGreeting\" from Emily. <pc>\nlearned the mote \"Ethene Greeting\"\n<br>\nfrom Emily!<me_71>"
   },
   "187319": {
     "<pc>は　椅子に座った。\nどこからともなく　おいしそうな匂いがしてくる。": "<pc> sat down on a chair. A\ndelicious smell came out of nowhere."
   },
   "187320": {
-    "<pc>は　エミリエから\nテーブルマナーについての　あれやこれやを\nひと通り　教えてもらった！\n<br>\n<pc>は　エミリエの手料理を\nきれいに　たいらげた！<me 71>": "<&13_aaaaaaad> learned all about table\nmanners from Emily! <&13_aaaaaaaad>\nate up all of Emily's food!<me 71>"
+    "<pc>は　エミリエから\nテーブルマナーについての　あれやこれやを\nひと通り　教えてもらった！\n<br>\n<pc>は　エミリエの手料理を\nきれいに　たいらげた！<me 71>": "<pc> learned all about table\nmanners from Emily! <pc>\nate up all of Emily's food!<me 71>"
   },
   "187321": {
     "「あら　もう一度　説明しましょうか？\n　このキィンベルの　中央広場に\n　オルウェンという男性が　いると思うわ。<open_irai><bw_break>": "Oh, let me explain again. I think\nthere's a man named Olwen here in\nKimbel's Central Plaza.<open_irai><bw_break>"
@@ -1197,7 +1197,7 @@
     "<pc>は　オルウェンに　エミリエの\nマナー講座の一環で　エテーネのあいさつを\n実践しにきたと　説明した！": "<pc> explained to Olwen that\nshe had come to practice the Ethene\nGreeting as part of Emily's etiquette\n<br>\ncourse!"
   },
   "187328": {
-    "<pc>は　オルウェンに\nテーブルマナーも　教え込まれたことを伝えた！": "<&13_aaaaaaaad> told Olwen that she\nwas also taught table manners!"
+    "<pc>は　オルウェンに\nテーブルマナーも　教え込まれたことを伝えた！": "<pc> told Olwen that she\nwas also taught table manners!"
   },
   "187329": {
     "「おかえりなさい　<pc>さん。\n　エテーネのあいさつを　実践できたようね。": "Welcome back <pc>. Looks like\nyou were able to practice the Ethene\nGreeting."
@@ -1230,7 +1230,7 @@
     "<pc>は　ヨンゲ所長宛ての手紙に\n目を通した。": "<pc> looked over the letter\naddressed to Director Yong."
   },
   "187633": {
-    "<pc>は　<%04nEV_LUA_NUM_1>と入力しようとした。\n<br>\nしかし　ワグミカから教えてもらった\n暗証番号とは　ちがっている気がしたので\n<pc>は　入力を取りやめた。": "<&13_aaaaaaad> tried to enter\n<%04nEV_LUA_NUM_1>. However,\n<pc> decided not to enter the\n<br>\nPIN because it seemed different from\nthe one Wagmika had given him."
+    "<pc>は　<%04nEV_LUA_NUM_1>と入力しようとした。\n<br>\nしかし　ワグミカから教えてもらった\n暗証番号とは　ちがっている気がしたので\n<pc>は　入力を取りやめた。": "<pc> tried to enter\n<%04nEV_LUA_NUM_1>. However,\n<pc> decided not to enter the\n<br>\nPIN because it seemed different from\nthe one Wagmika had given him."
   },
   "187634": {
     "<attr><feel_happy_lv2><end_attr>「キィンベルは　いいところだよ。\n　こんなに気のいい　穏やかな連中が暮らす町を\n　俺は　他に知らないね。\n<br>\n「やっぱり　指針書があるのと　ないのとでは\n　心の持ちようも　違ってくるんだろうなぁ。\n　人生に　余裕があるってのはいいね。": "<attr><feel_happy_lv2><end_attr>Kimbel is a nice place. I don't know\nany other town where such a pleasant\nand peaceful people live. I guess\n<br>\nhaving a guideline book and not having\none makes a difference in one's\nmindset. It's nice to have a\n<br>\ncomfortable life."
@@ -1515,7 +1515,7 @@
     "<attr><feel_happy_lv3><end_attr>「見ての通り　アテシは　ドワーフだけど\n　れっきとした　エテーネの国民っしょ！\n<br>\n「貧乏がイヤで　エテーネ王国に移住したっしょ。\n　錬金術師になって　石コロを黄金に変えて\n　大金持ちになるっしょ！　がっぽがっぽ～！": "<attr><feel_happy_lv3><end_attr>As you can see, I am a Dwarf, but I am\na citizen of Ethene! You didn't want\nto live in poverty, so you moved to\n<br>\nthe Ethene Kingdom. You'll become an\nalchemist, turn rocks into gold, and\nbecome very rich! Gobble, bobble,\n<br>\nbobble!"
   },
   "188829": {
-    "<pipipi_shigh>「……<pc>　<pc>。\n<br>\n「聞こえるキュ？　もう寝てしまったキュ？\n　ゆうべの歌は　なかなかヒドかったキュルね。\n<br>\n「まあ　寝たままでもいいから　聞くキュ。 \n　ボクも　<pc>も　この時代については\n　じつに　情報が乏しい状態キュ。\n<br>\n「そこで　今後の活動範囲を　広げるためにも\n　王都のあちこちを見て回ることは\n　非常に有意義であると　判断したキュ。\n<br>\n「行き先は　<pc>にまかせるキュ。\n　あの　ヒドい歌姫に会いにいくなら\n　覚悟を決めていくといいキュ。\n<br>\n「というわけで　ボクも寝るキュ。 \n　エテーネルキューブの中は\n　なかなか　快適な寝心地キュル……。": "<pipipi_shigh><pc> <pc>. Can you\nhear me, Cu? Have you fallen asleep\nalready? The song you sang last night\n<br>\nwas pretty bad Kyuru. Well, I'll\nlisten to it even if I stay in\nbed.Neither I nor <&13_aaaaaaad> have\n<br>\nmuch information about this period.\nSo, in order to broaden the scope of\nour future activities, we have decided\n<br>\nthat it would be very meaningful to\nlook around the Royal City. I will\nleave the destination to\n<br>\n<&13_aaaaaaad>. If you are going to\nsee that awful diva, you'd better be\nprepared. That's why I'm going to bed\n<br>\ntoo.Inside the Ethenel Cube is quite\ncomfortable Kyuru."
+    "<pipipi_shigh>「……<pc>　<pc>。\n<br>\n「聞こえるキュ？　もう寝てしまったキュ？\n　ゆうべの歌は　なかなかヒドかったキュルね。\n<br>\n「まあ　寝たままでもいいから　聞くキュ。 \n　ボクも　<pc>も　この時代については\n　じつに　情報が乏しい状態キュ。\n<br>\n「そこで　今後の活動範囲を　広げるためにも\n　王都のあちこちを見て回ることは\n　非常に有意義であると　判断したキュ。\n<br>\n「行き先は　<pc>にまかせるキュ。\n　あの　ヒドい歌姫に会いにいくなら\n　覚悟を決めていくといいキュ。\n<br>\n「というわけで　ボクも寝るキュ。 \n　エテーネルキューブの中は\n　なかなか　快適な寝心地キュル……。": "<pipipi_shigh><pc> <pc>. Can you\nhear me, Cu? Have you fallen asleep\nalready? The song you sang last night\n<br>\nwas pretty bad Kyuru. Well, I'll\nlisten to it even if I stay in\nbed.Neither I nor <pc> have\n<br>\nmuch information about this period.\nSo, in order to broaden the scope of\nour future activities, we have decided\n<br>\nthat it would be very meaningful to\nlook around the Royal City. I will\nleave the destination to\n<br>\n<pc>. If you are going to\nsee that awful diva, you'd better be\nprepared. That's why I'm going to bed\n<br>\ntoo.Inside the Ethenel Cube is quite\ncomfortable Kyuru."
   },
   "188830": {
     "そして　夜が明けた。<me 64>": "And dawn broke.<me 64>"
@@ -1710,7 +1710,7 @@
     "<pipipi_mid>「……キミは　ベルマに連れていかれた\n　僕の大切な家族を　連れ戻してくれたね。<bw_break>": "<pipipi_mid>You brought back my precious family\nthat was taken away by Belma.<bw_break>"
   },
   "188925": {
-    "<pipipi_mid>「……イヒヒッ。僕は　引きこもりだけど\n　外で起きてる　だいたいのことは\n　把握しているし　キミには　感謝している。\n<br>\n「キミの事情は　よく　わかったよ。\n　うまく解決する方法が　ないわけじゃあ　ない。\n　困っているキミに　知恵を貸せそうだよ。\n<br>\n「だけど　僕の助言に　従うのなら\n　確認したいことが　あるんだ。\n　とっても　大切なことだよ……イヒヒッ。\n<br>\n「<pc>……。キミには　これから\n　人をだましたり　人に怒られたり\n　危ない橋を　渡ってもらう　必要があるんだ。\n<br>\n「うまく解決する自信は　あるけど\n　キミは途中で　イヤな気分になるかも知れない。\n　それでも　やってみるかい……？<yesno><break>": "<pipipi_mid>I'm a shut-in, but I know what's going\non out there, and I appreciate you.\nI'm a shut-in, but I'm aware of what's\n<br>\ngoing on out there, and I'm grateful\nto you. I understand your situation.\nIt's not that I don't know how to\n<br>\nsolve it. I may be able to help you in\nyour time of need. But if you're going\nto take my advice, there's something I\n<br>\nneed to confirm. It's very important.\n<&13_aaaaaaaad> I'm going to need you\nto cross a lot of dangerous bridges,\n<br>\nto cheat people, to get angry with\npeople, etc. I'm confident that we can\nwork this out, but I'm not sure you'll\n<br>\nbe able to. I'm confident we can work\nit out, but you might get a bad\nfeeling along the way. Still, do you\n<br>\nwant to give it a try?<yesno><break>"
+    "<pipipi_mid>「……イヒヒッ。僕は　引きこもりだけど\n　外で起きてる　だいたいのことは\n　把握しているし　キミには　感謝している。\n<br>\n「キミの事情は　よく　わかったよ。\n　うまく解決する方法が　ないわけじゃあ　ない。\n　困っているキミに　知恵を貸せそうだよ。\n<br>\n「だけど　僕の助言に　従うのなら\n　確認したいことが　あるんだ。\n　とっても　大切なことだよ……イヒヒッ。\n<br>\n「<pc>……。キミには　これから\n　人をだましたり　人に怒られたり\n　危ない橋を　渡ってもらう　必要があるんだ。\n<br>\n「うまく解決する自信は　あるけど\n　キミは途中で　イヤな気分になるかも知れない。\n　それでも　やってみるかい……？<yesno><break>": "<pipipi_mid>I'm a shut-in, but I know what's going\non out there, and I appreciate you.\nI'm a shut-in, but I'm aware of what's\n<br>\ngoing on out there, and I'm grateful\nto you. I understand your situation.\nIt's not that I don't know how to\n<br>\nsolve it. I may be able to help you in\nyour time of need. But if you're going\nto take my advice, there's something I\n<br>\nneed to confirm. It's very important.\n<pc> I'm going to need you\nto cross a lot of dangerous bridges,\n<br>\nto cheat people, to get angry with\npeople, etc. I'm confident that we can\nwork this out, but I'm not sure you'll\n<br>\nbe able to. I'm confident we can work\nit out, but you might get a bad\nfeeling along the way. Still, do you\n<br>\nwant to give it a try?<yesno><break>"
   },
   "188926": {
     "<pipipi_mid>「……イヒヒッ。それが　当然だよね。\n　引きこもりの僕には　知恵を貸す以外の\n　手助けなんて　無理そうだな……。\n<br>\n「やっぱり　僕は　おとなしくしていよう。\n　だけど　気が変わったら　また来てもいいよ。\n　いくらでも　知恵を貸すから……イヒヒッ。": "<pipipi_mid>Yeehaw. That's the way it should be.\nAs a shut-in, it seems impossible for\nme to help, other than lending my\n<br>\nwits. I think I'll just lay low. But\nif you change your mind, you can come\nback again. I'll lend you my wisdom as\n<br>\nmuch as I can."
@@ -2025,7 +2025,7 @@
     "<attr><feel_normal_one><end_attr>「キミは　大切な家族を\n　助けてくれた　恩人だからね……。\n<br>\n「……イヒヒッ。僕は　引きこもりだけど\n　キミには　とても感謝しているし\n　お礼が言いたくて　部屋から　出てきたんだ。<bw_break>": "<attr><feel_normal_one><end_attr>You saved my precious family. I owe\nyou that. I'm a shut-in, but I'm so\ngrateful to you, I came out of my room\n<br>\nto thank you. I'm a shut-in, but I'm\nvery grateful to you, and I came out\nof my room to say thank you.<bw_break>"
   },
   "189039": {
-    "<attr><feel_normal_one><end_attr>「本当に　ありがとう……　<pc>。\n　僕の知恵が　キミの助けに　なったのなら\n　とても　うれしいけど……イヒヒッ。\n<br>\n「あとは……\n　キミの　ふところにある　アルケミ水だけど\n　ほしがっている人は　もう　僕だけだよね。\n<br>\n「３人の錬金術師の　仕事ができるように\n　１本しかないアルケミ水を　ちゃんと届ける。\n　……これで　キミも　目的を果たせるよ。": "<attr><feel_normal_one><end_attr>Thank you so much <&13_aaaaaaad>. I'm\nso happy if my wisdom could help you.\nAll that's left is the Alchemy Water\n<br>\nfrom your bosom, but I'm the only one\nwho wants it now. I will deliver the\none and only bottle of Alchemy Water\n<br>\nso that the three alchemists can do\ntheir work. Now you can fulfill your\npurpose."
+    "<attr><feel_normal_one><end_attr>「本当に　ありがとう……　<pc>。\n　僕の知恵が　キミの助けに　なったのなら\n　とても　うれしいけど……イヒヒッ。\n<br>\n「あとは……\n　キミの　ふところにある　アルケミ水だけど\n　ほしがっている人は　もう　僕だけだよね。\n<br>\n「３人の錬金術師の　仕事ができるように\n　１本しかないアルケミ水を　ちゃんと届ける。\n　……これで　キミも　目的を果たせるよ。": "<attr><feel_normal_one><end_attr>Thank you so much <pc>. I'm\nso happy if my wisdom could help you.\nAll that's left is the Alchemy Water\n<br>\nfrom your bosom, but I'm the only one\nwho wants it now. I will deliver the\none and only bottle of Alchemy Water\n<br>\nso that the three alchemists can do\ntheir work. Now you can fulfill your\npurpose."
   },
   "189040": {
     "<attr><feel_normal_one><end_attr>「……イヒヒッ。ありがとう。\n　このアルケミ水を　生地に混ぜて　焼き上げると\n　ふわっふわの　パンケーキが　できるんだ。\n<br>\n「そいつを食べると　家族のみんなが\n　とても　しあわせそうな　笑顔になるんだよ。\n　僕の　とっておきの錬金術さ……イヒヒッ。<bw_break>": "<attr><feel_normal_one><end_attr>Yeehaw. Thank you. I mix the Alchemy\nWater into the batter and bake it to\nmake a fluffy bread cake. When you eat\n<br>\nit, everyone in the family will have a\nvery happy smile on their faces. It's\nmy favorite alchemy.<bw_break>"
@@ -2307,7 +2307,7 @@
     "<attr><feel_sad_one><end_attr>「じしん　グラグラ　こわいよう！\n　ふえ～ん。ふえ～ん。": "<attr><feel_sad_one><end_attr>Seismic tremor! Whee~n. Whee~n."
   },
   "204481": {
-    "「<pc>さん……\n　ああああ会えて　うう…うれしいよ。\n<br>\n「ク…クオード様のことは　ぜぜぜ絶対……\n　あきらめず　さ…探しつづけるよ。\n　みみみ…みんなが　待ってるんだから……。": "<&13_aaaaaaaad> Oh, I'm so happy to\nsee you. I'll never give up looking\nfor Mr. Quard. I'll never give up\n<br>\nlooking for him."
+    "「<pc>さん……\n　ああああ会えて　うう…うれしいよ。\n<br>\n「ク…クオード様のことは　ぜぜぜ絶対……\n　あきらめず　さ…探しつづけるよ。\n　みみみ…みんなが　待ってるんだから……。": "<pc> Oh, I'm so happy to\nsee you. I'll never give up looking\nfor Mr. Quard. I'll never give up\n<br>\nlooking for him."
   },
   "204482": {
     "「王都の建築物は　頑丈なつくりだから\n　おいそれとは　倒壊しないだろうが\n　このまま　地震が続けば　どうなるか……。\n<br>\n「地震への対処も必要だが　抜本的な\n　原因の調査を　進めなければならんぞ。\n　指針書には　もう　頼れぬのだからな……。": "The buildings in Royal City are sturdy\nand will not collapse easily, but what\nwill happen if the earthquakes\n<br>\ncontinue? We need to deal with\nearthquakes, but we must also proceed\nwith a drastic investigation of the\n<br>\ncauses. We can no longer rely on the\nguidelines."
@@ -2397,7 +2397,7 @@
     "<attr><feel_normal_lv1><end_attr>「ここは　王都キィンベル。\t\n　錬金術をいしずえに栄えた　我が国も\t\n　頻発する地震に　手をこまねいている。\t\n<br>\n「だが　クオード陛下が　かならずや\t\n　この事態を　おさめてくれると　信じている。\t": "<attr><feel_normal_lv1><end_attr>This is Royal City Kimbel. Our\ncountry, which flourished on the\nfoundation of alchemy, has been held\n<br>\nback by the frequent earthquakes.\nHowever, I believe that His Majesty\nQuard will definitely bring this\n<br>\nsituation under control."
   },
   "212970": {
-    "<attr><feel_normal_lv1><end_attr>「<pc>さんに　お願いしたいのは\t\n　地脈の結晶を錬金できそうな　錬金術師を探し\t\n　実際に　作ってもらうことですよぉ。\t\n<br>\n「私が考案したレシピを　この人ならと思う\t\n　錬金術師に見せて　作れるかどうか\t\n　たずねてみてください。\t\n<br>\n「ちなみに　錬金術師を　なりわいにしてる人は\n　私が着てるような　ローブを　はおってますから\n　見た目で　すぐ　わかるはずですよぉ。\t\n<br>\n「あとは　そうですね……やみくもに探し回るより\n　この国の　錬金術師の知り合いを　訪ねて\n　優秀な方を紹介してもらうと　いいですよぅ。": "<attr><feel_normal_lv1><end_attr>What I would like to ask\n<&13_aaaaaaad> to do is to find an\nalchemist who can alchemize Geode\n<br>\nCrystal and ask him or her to actually\ndo it. Please show the recipe I\ninvented to the alchemist you think\n<br>\nhe/she can do it, and ask him/her if\nhe/she can do it. By the way, people\nwho make a living as an alchemist wear\n<br>\nrobes like the one I wear, so you\nshould be able to recognize them by\ntheir appearance. As for the rest,\n<br>\nwell, instead of blindly searching\naround, it would be better to visit\nalchemists you know in this country\n<br>\nand ask them to introduce you to\nexcellent ones."
+    "<attr><feel_normal_lv1><end_attr>「<pc>さんに　お願いしたいのは\t\n　地脈の結晶を錬金できそうな　錬金術師を探し\t\n　実際に　作ってもらうことですよぉ。\t\n<br>\n「私が考案したレシピを　この人ならと思う\t\n　錬金術師に見せて　作れるかどうか\t\n　たずねてみてください。\t\n<br>\n「ちなみに　錬金術師を　なりわいにしてる人は\n　私が着てるような　ローブを　はおってますから\n　見た目で　すぐ　わかるはずですよぉ。\t\n<br>\n「あとは　そうですね……やみくもに探し回るより\n　この国の　錬金術師の知り合いを　訪ねて\n　優秀な方を紹介してもらうと　いいですよぅ。": "<attr><feel_normal_lv1><end_attr>What I would like to ask\n<pc> to do is to find an\nalchemist who can alchemize Geode\n<br>\nCrystal and ask him or her to actually\ndo it. Please show the recipe I\ninvented to the alchemist you think\n<br>\nhe/she can do it, and ask him/her if\nhe/she can do it. By the way, people\nwho make a living as an alchemist wear\n<br>\nrobes like the one I wear, so you\nshould be able to recognize them by\ntheir appearance. As for the rest,\n<br>\nwell, instead of blindly searching\naround, it would be better to visit\nalchemists you know in this country\n<br>\nand ask them to introduce you to\nexcellent ones."
   },
   "212972": {
     "<attr><feel_think_one><end_attr>「王都の建築物は　頑丈なつくりだから\t\n　おいそれと　倒壊はしないだろうが\t\n　このまま　地震が続けば　どうなるか……。\t": "<attr><feel_think_one><end_attr>The buildings in Royal City are sturdy\nand will not collapse easily, but what\nwill happen if the earthquakes\n<br>\ncontinue?"
@@ -2586,7 +2586,7 @@
     "<attr><feel_happy_lv2><end_attr>「よく　わからんが　地震への対策は\t\n　完了したっていう　話じゃないか！\t\n　だったら　次は　指針書の復活だな。\t\n<br>\n「クオード陛下には　より　いっそう\t\n　がんばって　いただかなくては！\t": "<attr><feel_happy_lv2><end_attr>I don't know about you, but I think\nthey are saying that the earthquake\ncountermeasures are complete! Then the\n<br>\nnext step is to revive the guidelines.\nThen, the next step is to revive the\nguidelines!"
   },
   "213096": {
-    "<attr><feel_happy_lv1><end_attr>「地震を止められて　よかったですよぉ。\n　何より　ひさびさに　クオード様のお役に\n　立てたことが　うれしくて　うれしくて……。\n<br>\n「こんなふうに　協力しあうのって\n　黄金刑にされかけた　<pc>さんを\n　救出しようとしたとき　以来でしょうか。\n<br>\n「あのときは　助けるつもりが\n　逆に　助けられたりして　いまいち\n　カッコ悪かったですよねぇ……てへへ。<bw_break>": "<attr><feel_happy_lv1><end_attr>I'm glad you were able to stop the\nearthquake. Above all, I am happy that\nI could be of help to Mr. Quard for\n<br>\nthe first time in a long time. I don't\nthink we have cooperated with each\nother like this since we tried to\n<br>\nrescue <&13_aaaaaaad> who was about to\nbe sentenced to the golden punishment.\nAt that time, I was trying to save\n<br>\nhim, but he saved me... it wasn't\ncool, was it?<bw_break>"
+    "<attr><feel_happy_lv1><end_attr>「地震を止められて　よかったですよぉ。\n　何より　ひさびさに　クオード様のお役に\n　立てたことが　うれしくて　うれしくて……。\n<br>\n「こんなふうに　協力しあうのって\n　黄金刑にされかけた　<pc>さんを\n　救出しようとしたとき　以来でしょうか。\n<br>\n「あのときは　助けるつもりが\n　逆に　助けられたりして　いまいち\n　カッコ悪かったですよねぇ……てへへ。<bw_break>": "<attr><feel_happy_lv1><end_attr>I'm glad you were able to stop the\nearthquake. Above all, I am happy that\nI could be of help to Mr. Quard for\n<br>\nthe first time in a long time. I don't\nthink we have cooperated with each\nother like this since we tried to\n<br>\nrescue <pc> who was about to\nbe sentenced to the golden punishment.\nAt that time, I was trying to save\n<br>\nhim, but he saved me... it wasn't\ncool, was it?<bw_break>"
   },
   "213098": {
     "<attr><feel_happy_lv3><end_attr>「さあさあ！　みずみずしい　お花はいかが？\t\n　エテーネの豊かな水で　のびのびと育てた\t\n　色とりどりの　お花だよっ。\t\n<br>\n「オススメは　錬金仕上げの青いバラ！\t\n　こんなに　あざやかな花は　他の町じゃ\t\n　お目にかかれないよっ！\t": "<attr><feel_happy_lv3><end_attr>Come on, come on! How about some fresh\nflowers? We have colorful flowers\ngrown freely in the rich water of\n<br>\nEthene. We recommend the alchemy blue\nroses! You won't find such a brilliant\nflower in any other town!"
@@ -2658,7 +2658,7 @@
     "<attr><feel_happy_lv2><end_attr>「もう　ぐらぐら　しないんだってー。\t\n　ぐんじんさんが　ゆってたよー。\t": "<attr><feel_happy_lv2><end_attr>I heard that it doesn't wobble\nanymore. Gungjin-san told me that."
   },
   "213144": {
-    "<attr><feel_think_lv1><end_attr>「<pc>さんが　きき…来てくれたから\n　よよよ良い方向に　じじじ事態が　ころがった。\n　そ…その結果として　いいい　今がある！\n<br>\n「しししかし！　気になるのは　いいい以前の\n　クク…クオード様なら　<pc>さんと共に\n　じじじ地震の元凶を　たたた倒しにいったはず！\n<br>\n「ここ国王という立場を考え　じじ自重したのか\n　そそそ…それとも　ほかに理由があるのか。\n　へへ変化のきざしを　かか…感じる！": "<attr><feel_think_lv1><end_attr>Because <pc> came to us, the\nsituation has turned out well. And\nnow, as a result, we are here! But,\n<br>\nbut...! What I'm wondering is that\nbefore the earthquake, Kuku Quard\nwould have gone with <&13_aaaaaaaad>\n<br>\nto destroy the cause of the\nearthquake! Considering his position\nas the king of this country, he has\n<br>\ndecided to give up on the son of a\nbitch, or is there some other reason?\nI can sense the beginning of a change!"
+    "<attr><feel_think_lv1><end_attr>「<pc>さんが　きき…来てくれたから\n　よよよ良い方向に　じじじ事態が　ころがった。\n　そ…その結果として　いいい　今がある！\n<br>\n「しししかし！　気になるのは　いいい以前の\n　クク…クオード様なら　<pc>さんと共に\n　じじじ地震の元凶を　たたた倒しにいったはず！\n<br>\n「ここ国王という立場を考え　じじ自重したのか\n　そそそ…それとも　ほかに理由があるのか。\n　へへ変化のきざしを　かか…感じる！": "<attr><feel_think_lv1><end_attr>Because <pc> came to us, the\nsituation has turned out well. And\nnow, as a result, we are here! But,\n<br>\nbut...! What I'm wondering is that\nbefore the earthquake, Kuku Quard\nwould have gone with <pc>\n<br>\nto destroy the cause of the\nearthquake! Considering his position\nas the king of this country, he has\n<br>\ndecided to give up on the son of a\nbitch, or is there some other reason?\nI can sense the beginning of a change!"
   },
   "213146": {
     "<attr><feel_normal_lv1><end_attr>「王国軍によると　地中の奥深くで\t\n　悪さをしてる魔物が　地震の元凶だったとか。\t\n<br>\n「しかも　魔物が　地震を起こしていたのではなく\n　魔物のせいで　地脈エネルギーが減少し\t\n　それが　地震発生の　原因になっていたとか。\t\n<br>\n「地脈エネルギーなんてものを　これまで\t\n　意識もしませんでした……目に映るものだけが\t\n　すべてではない　ということですかね。\t": "<attr><feel_normal_lv1><end_attr>According to the Royal Army, the\nsource of the earthquakes was a\nmonster that was doing bad things deep\n<br>\nin the earth. Moreover, it was not the\nmonster that was causing the\nearthquakes, but the monster that was\n<br>\ndepleting the earth's vein energy,\nwhich in turn was causing the\nearthquakes to occur. I have never\n<br>\nbeen aware of geo-energy, but I guess\nit means that what we see is not all\nthere is."
@@ -2967,7 +2967,7 @@
     "<attr><feel_normal_lv1><end_attr>「いんせきは　もう　おちてこないんだって。\n　エテーネおうきゅうみたいに　ずーっと\n　おそらに　プカプカ　ういてるんだって。": "<attr><feel_normal_lv1><end_attr>I heard that the waters no longer\ndescend. It's soaring in the sky all\nthe time like an ethene balloon."
   },
   "213837": {
-    "<attr><feel_normal_lv1><end_attr>「<pc>さん！　ぼぼぼ僕は　心に\n　ぽぽぽっかり穴が　あ…あいてしまったようだ！<bw_break>": "<attr><feel_normal_lv1><end_attr><&13_aaaaaaad>! I seem to have a hole\nin my heart!<bw_break>"
+    "<attr><feel_normal_lv1><end_attr>「<pc>さん！　ぼぼぼ僕は　心に\n　ぽぽぽっかり穴が　あ…あいてしまったようだ！<bw_break>": "<attr><feel_normal_lv1><end_attr><pc>! I seem to have a hole\nin my heart!<bw_break>"
   },
   "213839": {
     "<attr><feel_normal_lv1><end_attr>「一時は　国外への避難も考えていましたが\n　隕石落下の危機は　去ったようなので\n　当面のあいだ　見送りですかね……。\n<br>\n「とはいえ　今回のことで　災害のための準備は\n　大切だということを　思い知らされました。\n　今後も　備えだけは　おこたらぬようにせねば。": "<attr><feel_normal_lv1><end_attr>At one point I was thinking of\nevacuating out of the country, but\nsince the meteorite crisis seems to\n<br>\nhave passed, I guess I'll have to put\nthat off for the time being.\nNevertheless, this time has made me\n<br>\nrealize how important it is to be\nprepared for disasters. We must\ncontinue to do nothing but be\n<br>\nprepared."
@@ -3150,7 +3150,7 @@
     "「こっ…このベリルの石は……！\n　ボロボロだけど　紛れもなく　僕のペンダント！\n　ああ……！　全部　思いだしたぞ……。": "This is a beryl stone! It's battered\nand bruised, but it's unmistakably my\npendant! Ah! I remember everything."
   },
   "234935": {
-    "「僕は　海洋都市リンジャハルの市長\n　リンジャーラ様に　仕えていた者なんです。\n<br>\n「リンジャーラ様は　お若いのに\n　たいへん優秀で　市民からの人望も厚く\n　本当に　すばらしい方です……。\n<br>\n「だから………………。\n<br>\n「…………<pc>さん。\n　じつは　このペンダントは\n　リンジャハルにある　地下書庫のカギなんです。\n<br>\n「扉にある小さなくぼみに　このペンダントの\n　ベリル石をはめれば　書庫のカギが\n　開く仕組みに　なっているんです。\n<br>\n「書庫には　記憶の結晶が　しまわれているので\n　それを　取ってきてもらえないでしょうか。\n　ペンダントは　お預けしておきます。": "I used to work for Linjara, the mayor\nof the maritime city of Linjahar. He\nis young, but very talented, well-\n<br>\nliked by the citizens, and a truly\nwonderful person. So, I am very happy\nto see him. <&13_aaaaaaad>. Actually,\n<br>\nthis pendant is the key to the\nunderground archives in Linjahar. If\nyou fit the beryl stone of this\n<br>\npendant into the small indentation on\nthe door, it will unlock the archives.\nThe archives has a Memory Crystal in\n<br>\nit, so could you please fetch it for\nme? I will leave the pendant with you."
+    "「僕は　海洋都市リンジャハルの市長\n　リンジャーラ様に　仕えていた者なんです。\n<br>\n「リンジャーラ様は　お若いのに\n　たいへん優秀で　市民からの人望も厚く\n　本当に　すばらしい方です……。\n<br>\n「だから………………。\n<br>\n「…………<pc>さん。\n　じつは　このペンダントは\n　リンジャハルにある　地下書庫のカギなんです。\n<br>\n「扉にある小さなくぼみに　このペンダントの\n　ベリル石をはめれば　書庫のカギが\n　開く仕組みに　なっているんです。\n<br>\n「書庫には　記憶の結晶が　しまわれているので\n　それを　取ってきてもらえないでしょうか。\n　ペンダントは　お預けしておきます。": "I used to work for Linjara, the mayor\nof the maritime city of Linjahar. He\nis young, but very talented, well-\n<br>\nliked by the citizens, and a truly\nwonderful person. So, I am very happy\nto see him. <pc>. Actually,\n<br>\nthis pendant is the key to the\nunderground archives in Linjahar. If\nyou fit the beryl stone of this\n<br>\npendant into the small indentation on\nthe door, it will unlock the archives.\nThe archives has a Memory Crystal in\n<br>\nit, so could you please fetch it for\nme? I will leave the pendant with you."
   },
   "234937": {
     "「何度も　すみませんが　よろしくお願いします。\n　リンジャハルの地下書庫は　塔から見て\n　南西付近の建物内に　あるはずです。": "I'm sorry to keep repeating myself,\nbut thank you for your patience. The\nunderground archives for Linjahar\n<br>\nshould be located in the southwest\ncorner of the building as seen from\nthe tower."
@@ -3195,7 +3195,7 @@
     "レグルが　記憶の結晶を　かかげると\nなんと　ドミネウスの　立体映像が現れた！": "When Regul raised the Memory Crystal,\na three-dimensional image of Domineus\nappeared!"
   },
   "234965": {
-    "<pc>は　<%sEV_QUE_NAME4>を\n手に入れた！": "<pc> received\n<%sev_que_name4>!"
+    "<pc>は　<%sEV_QUE_NAME4>を\n手に入れた！": "<pc> received\n<%sEV_QUE_NAME4>!"
   },
   "234967": {
     "「<pc>さん　僕のせいで\n　今回は　いろいろと　ご迷惑をおかけしました。\n<br>\n「リンジャーラ様は　優しく繊細な方でしたが\n　仕事には情熱的で　民のために尽くす\n　すばらしいお方でした。\n<br>\n「そんな方が　万が一にでも　罪を疑われ\n　名誉を汚されることが　僕には\n　どうしても　耐えられなかった……。\n<br>\n「僕に　真実と向き合う　勇気さえあったら\n　あのような悲劇は避けられ　リンジャーラ様も\n　亡くならずに　済んだのかもしれない……。\n<br>\n「僕の罪は　あまりに重いものですが\n　あの大災害の　真実の近くにいた者として\n　一生をかけてでも　償いたい……。\n<br>\n「……このケガが治ったら　ダーマ神殿へおもむき\n　亡くなった方たちのために\n　毎日　祈りを捧げようと思います。": "<pc> I am sorry for all the\ntrouble I have caused this time.\nLinjara-sama was a kind and sensitive\n<br>\nperson, but he was passionate about\nhis work and a wonderful person who\nserved his people well. I just\n<br>\ncouldn't bear the thought of such a\nperson being suspected of a crime and\nhaving his honor tarnished. If only I\n<br>\nhad had the courage to face the truth,\nsuch a tragedy could have been avoided\nand Linjara-sama might not have died.\n<br>\nMy sins are too serious, but as\nsomeone who was close to the true\nfacts of that catastrophe, I would\n<br>\nlike to atone for them even if it\ntakes the rest of my life. When I\nrecover from this injury, I will go to\n<br>\nAlltrades Abbey and pray every day for\nthose who died."
@@ -3225,7 +3225,7 @@
     "<pipipi_mid>「……イヒッ。\n　思考の邪魔は　されたくないよ。<pc>。\n<br>\n「高機能錬金食品のレシピを　理解できたら\n　ここを出て　ゼフさんの部屋に行くから\n　そこにいる僕に　話しかけてよ……イヒヒッ。": "<pipipi_mid>Yikes. I was interrupted in my\nthoughts by Kunai. <pc>. If\nyou can figure out the recipe for\n<br>\nhigh-performance alchemicals, I'll\nleave here and go to Zef's room so you\ncan talk to me there, yippee."
   },
   "245352": {
-    "<pipipi_mid>「……イヒッ。その声は　<pc>かな？\n　僕はいま　とっても忙しいから\n　話しかけないでほしいな……イヒヒッ。": "<pipipi_mid>Yikes. Is that voice <&13_aaaaaaad>?\nI'm very busy right now, so please\ndon't talk to me."
+    "<pipipi_mid>「……イヒッ。その声は　<pc>かな？\n　僕はいま　とっても忙しいから\n　話しかけないでほしいな……イヒヒッ。": "<pipipi_mid>Yikes. Is that voice <pc>?\nI'm very busy right now, so please\ndon't talk to me."
   },
   "245452": {
     "高機能錬金食品のレシピを　理解するには\n時間がかかるようだ。時を見計らって\nゼフの部屋にいる　ルオンに会いにいこう。": "It seems to take a while to figure out\nthe recipe for high performance\nalchemicals. I'll see Luon in Zef's\n<br>\nroom when the time is right."

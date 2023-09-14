@@ -9,7 +9,7 @@
     "「おっと　そうだ！　\n　最近　手に入れた　こいつを\n　せんべつに　くれてやる！<bw_break>": "Oops, that's right!I'll give this one\nto the recently received Senji!<bw_break>"
   },
   "10267001": {
-    "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": "<pc> received a brick kiln\n(Key Item)!<me 60> In addition, he received a recipe\nbook, \"Hajimeyo Alchemy!<se_nots System Item> <pc> has read \"Let's Get\nStarted: Alchemy\"! <&13_aaaaaaad>\nlearned the recipe for Hajimeteyo\n<br>\nAlchemy!<se_nots System Item> The Renkin pot is a special tool that\ncan be used to smelt another item by\ninserting the item as a material. You\n<br>\ncan smelt an item by selecting \"Renkin\nGama\" from the \"item\" command. To\nsmelt an item, you will need the\n<br>\nrecipe of the item you want to smelt.\nRecipes can be obtained from the\nRecipe Shop or bookshelf."
+    "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": "<pc> received a brick kiln\n(Key Item)!<me 60> In addition, he received a recipe\nbook, \"Hajimeyo Alchemy!<se_nots System Item> <pc> has read \"Let's Get\nStarted: Alchemy\"! <pc>\nlearned the recipe for Hajimeteyo\n<br>\nAlchemy!<se_nots System Item> The Renkin pot is a special tool that\ncan be used to smelt another item by\ninserting the item as a material. You\n<br>\ncan smelt an item by selecting \"Renkin\nGama\" from the \"item\" command. To\nsmelt an item, you will need the\n<br>\nrecipe of the item you want to smelt.\nRecipes can be obtained from the\nRecipe Shop or bookshelf."
   },
   "10267002": {
     "「なんだか　便利そうだろ？\n　きっと　これからの旅の　役に立つと思うぜ！\n　それじゃ　しっかりな！": "Seems kind of convenient, doesn't it?\nI'm sure it will come in handy for\nyour future travels! Well then, good\n<br>\nluck!"
@@ -390,7 +390,7 @@
     "<attr><feel_sad_lv1><end_attr><start_lip_sync n00511 _normal m00001>「なんで　そんなこと言うの～？\n　おにいちゃんの　いじわる～。": "<attr><feel_sad_lv1><end_attr><start_lip_sync n00511 _normal m00001>Why are you saying that~? You're so\nmean to me, Onii-chan."
   },
   "5166": {
-    "<attr><feel_happy_lv1><end_attr>「戒めの地で　バケモノに襲われたとき\n　<pc>のおかげで　助かったって\n　賢者ブロッゲンさまが言ってただ。\n<br>\n「あの賢者さまに　感謝されるなんて\n　やっぱ　<pc>は　すげえんだなあ……。\n<br>\n「オメエは　こんな町に　とどまるヤツじゃねえ。\n　オラ　応援するよォ！\n　世界に　羽ばたいてくれ　<pc>！！": "<attr><feel_happy_lv1><end_attr>Sage Broggen told me that\n<&13_aaaaaaad> saved his life when he\nwas attacked by a monster in Cave of\n<br>\nCounsel. To be thanked by Sage\nBroggen, <pc> must be\namazing. You don't belong in a town\n<br>\nlike this. I'll be rooting for you!\nSpread your wings to the world\n<&13_aaaaaaad>!"
+    "<attr><feel_happy_lv1><end_attr>「戒めの地で　バケモノに襲われたとき\n　<pc>のおかげで　助かったって\n　賢者ブロッゲンさまが言ってただ。\n<br>\n「あの賢者さまに　感謝されるなんて\n　やっぱ　<pc>は　すげえんだなあ……。\n<br>\n「オメエは　こんな町に　とどまるヤツじゃねえ。\n　オラ　応援するよォ！\n　世界に　羽ばたいてくれ　<pc>！！": "<attr><feel_happy_lv1><end_attr>Sage Broggen told me that\n<pc> saved his life when he\nwas attacked by a monster in Cave of\n<br>\nCounsel. To be thanked by Sage\nBroggen, <pc> must be\namazing. You don't belong in a town\n<br>\nlike this. I'll be rooting for you!\nSpread your wings to the world\n<pc>!"
   },
   "5167": {
     "<attr><feel_happy_lv1><end_attr>「ちょっと前はな　アクロニア鉱山に\n　変な紫の霧が出たり　バケモノが出たりして\n　大変なことに　なってたんだ。\n<br>\n「でも　今は　すっかり平和さ。\n　採掘も　できるようになったしなあ。": "<attr><feel_happy_lv1><end_attr>A while ago, the Acronia Mine was in\ntrouble because of the weird purple\nfog and the monsters. But now it's\n<br>\ncompletely peaceful. We can do some\nmining now."
@@ -462,10 +462,10 @@
     "<attr><feel_think_lv1><end_attr>「……なに？　本当に　見た目も変わって\n　今は　人間になっているだと！？\n<br>\n「……………？\n<br>\n「う～む。どれだけ　目を凝らしてみても\n　いつもの　<pc>にしか見えんが……。\n　旅先で　そんなジョークを身につけたのか。": "<attr><feel_think_lv1><end_attr>What? You've really changed your look\nand now you're human? What? Hmmm. No\nmatter how hard I look at it, it just\n<br>\nlooks like the usual <pc>.\nDid you learn that joke in your\ntravels?"
   },
   "5197": {
-    "<attr><feel_happy_lv1><end_attr>「<pc>は　つつましいな。\n　さすが　キーエンブレムを贈られるだけある。\n　中身も立派に　成長してるんだな！": "<attr><feel_happy_lv1><end_attr><&13_aaaaaaaad> is a very good person.\nAs one would expect from someone who\nis presented with a key emblem. You've\n<br>\ngrown up inside as well!"
+    "<attr><feel_happy_lv1><end_attr>「<pc>は　つつましいな。\n　さすが　キーエンブレムを贈られるだけある。\n　中身も立派に　成長してるんだな！": "<attr><feel_happy_lv1><end_attr><pc> is a very good person.\nAs one would expect from someone who\nis presented with a key emblem. You've\n<br>\ngrown up inside as well!"
   },
   "5198": {
-    "<attr><feel_happy_lv1><end_attr><turn_pc>「よく訪ねてきてくれた　<pc>。\n　お前さんには　あらためて\n　礼を言わなくてはと　思っていたんだ。\n<br>\n「あれから　また鉱石が採れるようになり\n　みんな　はりきって　仕事に打ち込んでいる。\n　<pc>の　おかげだ。ありがとう。\n<br>\n「お前さんも　ずいぶん成長したな！\n　キーエンブレムまで　もらうようになるとは\n　本当に　たいしたものだ。": "<attr><feel_happy_lv1><end_attr><turn_pc>Thanks for visiting me <pc>.\nI had to thank you again. Since then,\nthe ore has been extracted again, and\n<br>\neveryone is working hard. Thanks to\n<&13_aaaaaaaad>. Thank you. You have\ngrown up a lot! You even got a key\n<br>\nemblem, that's quite a feat!"
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「よく訪ねてきてくれた　<pc>。\n　お前さんには　あらためて\n　礼を言わなくてはと　思っていたんだ。\n<br>\n「あれから　また鉱石が採れるようになり\n　みんな　はりきって　仕事に打ち込んでいる。\n　<pc>の　おかげだ。ありがとう。\n<br>\n「お前さんも　ずいぶん成長したな！\n　キーエンブレムまで　もらうようになるとは\n　本当に　たいしたものだ。": "<attr><feel_happy_lv1><end_attr><turn_pc>Thanks for visiting me <pc>.\nI had to thank you again. Since then,\nthe ore has been extracted again, and\n<br>\neveryone is working hard. Thanks to\n<pc>. Thank you. You have\ngrown up a lot! You even got a key\n<br>\nemblem, that's quite a feat!"
   },
   "5201": {
     "「おかえり　<pc>！\n　もう　みんなから　話を聞いたと思うけど\n　鉱山から　いい石が採れるようになっただよ！": "Welcome back <pc>! I'm sure\nyou've all heard by now that we've got\nsome good rock from the mine!"
@@ -474,7 +474,7 @@
     "「オラ　<pc>に会えたら\n　これを　あげようって……。": "He said he would give this to Ora\n<pc> if he saw her."
   },
   "33267": {
-    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sev_item>!<se_nots System Item>"
+    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sEV_ITEM>!<se_nots System Item>"
   },
   "33268": {
     "<attr><feel_happy_lv1><end_attr>「<pc>が　旅立った後\n　はじめて採れた　いい石なんだ。うれしくてよォ\n　オメエに　もらってもらいたかったんだァ。": "<attr><feel_happy_lv1><end_attr>It's the first good stone I found\nafter <pc> left. I was so\nhappy, I wanted you to have it."
@@ -498,7 +498,7 @@
     "「アグラニは　あれ以来　ずっと平和だよ。\n　ルナナって小娘も　帰ってこないしね！\n<br>\n「<pc>みたいに　世界を旅していたら\n　どこかで　バッタリなんてこともあったりして！\n　……考えただけで　恐ろしいよ。": "Agrani has been peaceful ever since.\nAnd that little girl Lunana hasn't\ncome back either! I wonder if I'll\n<br>\nbump into her somewhere when I'm\ntraveling around the world like\n<pc>! Just thinking about it\n<br>\nis terrifying."
   },
   "5209": {
-    "<attr><feel_happy_lv2><end_attr>「<pc>じゃないか！\n　アグラニも　ずいぶん\n　雰囲気が　変わっただろう？\n<br>\n「アクロニア鉱山の　異常がなくなって\n　以前のような暮らしに　戻ったんだ。\n　<pc>の　おかげだよ。ありがとう！": "<attr><feel_happy_lv2><end_attr><pc>, isn't it? Agrani has\nchanged a lot, hasn't it? The Acronia\nMine has been cleared of its anomalies\n<br>\nand life has returned to the way it\nused to be. Thanks to <&13_aaaaaaad>.\nThank you!"
+    "<attr><feel_happy_lv2><end_attr>「<pc>じゃないか！\n　アグラニも　ずいぶん\n　雰囲気が　変わっただろう？\n<br>\n「アクロニア鉱山の　異常がなくなって\n　以前のような暮らしに　戻ったんだ。\n　<pc>の　おかげだよ。ありがとう！": "<attr><feel_happy_lv2><end_attr><pc>, isn't it? Agrani has\nchanged a lot, hasn't it? The Acronia\nMine has been cleared of its anomalies\n<br>\nand life has returned to the way it\nused to be. Thanks to <pc>.\nThank you!"
   },
   "5210": {
     "「あなた　以前　下の町にいたでしょ？\n　今は　ちゃんと　鉱石が採れるし\n　たまに　いい宝石も出るようになったんだよ！\n<br>\n「惜しいことしたねえ。\n　ずっと　ここで採掘してれば\n　小金持ちに　なれたかもしれないのに。": "You used to live down town, didn't\nyou? Now you can get ore and sometimes\ngood gems! What a pity. You could have\n<br>\nbeen a millionaire if you'd just\nstayed here."
@@ -510,7 +510,7 @@
     "<attr><feel_happy_lv1><end_attr>「山神イプチャルさまの　おチカラが\n　回復してきたみたいだね。\n　アクロニア鉱山が　生き返ったようだよ。\n<br>\n「すこしずつ　生活も　ラクになってきた。\n　これも　<pc>と\n　賢者ブロッゲンさまの　おかげだね。": "<attr><feel_happy_lv1><end_attr>It seems that the power of Yppchal,\nthe mountain god, has been restored.\nAcronia Mine seems to have come back\n<br>\nto life. Life is getting a little\neasier. Thanks to <pc> and\nSage Broggen."
   },
   "5217": {
-    "<attr><feel_happy_lv1><end_attr><turn_pc>「よく訪ねてきてくれた　<pc>。\n　お前さんの顔を見れば　わかる！\n　ついに　使命を果たしたんだな。\n<br>\n「お前さんに　身体をゆずった　ドワーフの\n　<pc>も　よろこんでいるだろう。\n　ありがとう　<pc>！": "<attr><feel_happy_lv1><end_attr><turn_pc>You used to visit me <pc>. I\ncan see it in your face! You have\nfinally accomplished your mission.\n<br>\nDwarf <&13_aaaaaaad> must be pleased\nto have given you his body. Thank you\n<pc>!"
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「よく訪ねてきてくれた　<pc>。\n　お前さんの顔を見れば　わかる！\n　ついに　使命を果たしたんだな。\n<br>\n「お前さんに　身体をゆずった　ドワーフの\n　<pc>も　よろこんでいるだろう。\n　ありがとう　<pc>！": "<attr><feel_happy_lv1><end_attr><turn_pc>You used to visit me <pc>. I\ncan see it in your face! You have\nfinally accomplished your mission.\n<br>\nDwarf <pc> must be pleased\nto have given you his body. Thank you\n<pc>!"
   },
   "5221": {
     "<attr><feel_happy_lv1><end_attr>「<pc>　元気そうだねえ！\n　なんだか　立派になったよ。\n　ええっ！！　世界を救ったってのかい！？\n<br>\n「あんたは昔っから　キラリと光ってて\n　私たちとは　どこか　ちがってたよ。\n　やっぱり　すごい人だったんだねえ！": "<attr><feel_happy_lv1><end_attr><pc> You look good! You look\nkind of splendid. What? You saved the\nworld! You've always been shining with\n<br>\nKirari, so different from the rest of\nus. You must have been an amazing\nperson after all!"

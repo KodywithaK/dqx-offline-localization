@@ -57,7 +57,7 @@
     "<voice 01802_29000152><start_lip_sync n02085 _normal m00001>「遺跡の中を　くまなく探してでも\n　アンルシアを　見つけ出すのだ。\n　私たちも　準備をしてから　そなたの後を追う。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 01802_29000152><start_lip_sync n02085 _normal m00001>You must search every inch of the\nruins to find Anlucia. We will follow\nyou when we are ready.<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sev_quest_name>\".<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sEV_QUEST_NAME>\".<me 74>"
   },
   "62116": {
     "<voice 01867_00062116><start_lip_sync n02085 _normal m00001>「そうだ　<pc>。\n　運命の振り子は　そなたに返しておこう。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 01867_00062116><start_lip_sync n02085 _normal m00001>Yes <pc>. I return the\nPendulum of Fate to you.<stop_lip_animation n02085 CLOSE_MOUTH>"
@@ -144,7 +144,7 @@
     "ここで　勇者の命運を\n終わらせるわけには　いきません。": "We cannot let Hero's fate end here."
   },
   "29000161": {
-    "<cs_pchero>よ……。\n勇者を　守るのです。": "<13_aaaaaac>Protect Hero."
+    "<cs_pchero>よ……。\n勇者を　守るのです。": "<cs_pchero>Protect Hero."
   },
   "29000162": {
     "<voice 04580_29000162><start_lip_sync n02085 _normal m00001>「い　今のは　まさか……。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 04580_29000162><start_lip_sync n02085 _normal m00001>No way.<stop_lip_animation n02085 CLOSE_MOUTH>"
@@ -174,7 +174,7 @@
     "<voice 00227_00062142><start_lip_sync n02085 _normal m00001>「ちっ。アンルシアを守りながらとなると\n　そうカンタンには　いかぬな……。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 00227_00062142><start_lip_sync n02085 _normal m00001>It's not so easy when you're trying to\nprotect Anlucia.<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "62143": {
-    "<voice 00322_00062143><start_lip_sync n02085 _normal m00001>「<cs_pchero>！　ボヤボヤするな！\n　私は　アンルシアの守りに専念する！\n　こいつは　そなたに　まかせたぞ！<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 00322_00062143><start_lip_sync n02085 _normal m00001><13_aaaaaac>Don't blah, blah, blah! Don't blabber\non! I will concentrate on defending\nAnlucia! I leave this to you!<stop_lip_animation n02085 CLOSE_MOUTH>"
+    "<voice 00322_00062143><start_lip_sync n02085 _normal m00001>「<cs_pchero>！　ボヤボヤするな！\n　私は　アンルシアの守りに専念する！\n　こいつは　そなたに　まかせたぞ！<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 00322_00062143><start_lip_sync n02085 _normal m00001><cs_pchero>Don't blah, blah, blah! Don't blabber\non! I will concentrate on defending\nAnlucia! I leave this to you!<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "62144": {
     "<voice 00432_00062144><start_lip_sync m50085 _normal m00001>「ガルルルガアアアーーーーーッ！！<stop_lip_animation m50085 CLOSE_MOUTH>": "<voice 00432_00062144><start_lip_sync m50085 _normal m00001><stop_lip_animation m50085 CLOSE_MOUTH>"
@@ -192,13 +192,13 @@
     "<voice 00765_00062148><start_lip_sync n02085 _normal m00001>「待て。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 00765_00062148><start_lip_sync n02085 _normal m00001>Wait.<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "29000165": {
-    "<voice 00865_29000165><start_lip_sync n02085 _normal m00001>「少しは　自重するのだ。アンルシアよ。\n　ミルトと　<cs_pchero>が　いなければ\n　そなたは　死んでいたかもしれんぞ？<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 00865_29000165><start_lip_sync n02085 _normal m00001>A little self-effacement, Anlucia.\nMilt and<13_aaaaaac>You'd be dead if it weren't for the<stop_lip_animation n02085 CLOSE_MOUTH>"
+    "<voice 00865_29000165><start_lip_sync n02085 _normal m00001>「少しは　自重するのだ。アンルシアよ。\n　ミルトと　<cs_pchero>が　いなければ\n　そなたは　死んでいたかもしれんぞ？<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 00865_29000165><start_lip_sync n02085 _normal m00001>A little self-effacement, Anlucia.\nMilt and<cs_pchero>You'd be dead if it weren't for the<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "62150": {
     "<voice 00965_00062150><start_lip_sync n02076 _normal m00001>「………………。<stop_lip_animation n02076 CLOSE_MOUTH>": "<voice 00965_00062150><start_lip_sync n02076 _normal m00001>The following is a list of the most\ncommon problems with the<stop_lip_animation n02076 CLOSE_MOUTH>"
   },
   "62151": {
-    "<voice 01065_00062151><start_lip_sync n02085 _normal m00001>「ところで　ふたりに　話があるのだ。\n　<cs_pchero>が　アンルシアを助けた時の\n　あの技だが……<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 01065_00062151><start_lip_sync n02085 _normal m00001>By the way, I need to talk to you\nboth.<13_aaaaaac>The same technique used by the \"Mere\nOld Man\" to save Anlucia's life.<stop_lip_animation n02085 CLOSE_MOUTH>"
+    "<voice 01065_00062151><start_lip_sync n02085 _normal m00001>「ところで　ふたりに　話があるのだ。\n　<cs_pchero>が　アンルシアを助けた時の\n　あの技だが……<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 01065_00062151><start_lip_sync n02085 _normal m00001>By the way, I need to talk to you\nboth.<cs_pchero>The same technique used by the \"Mere\nOld Man\" to save Anlucia's life.<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "62152": {
     "<voice 01155_00062152><start_lip_sync n02076 _normal m00001>「ルシェンダさま……。\n　そのような話をしているヒマは　ありません。\n　一刻も早く　先へ向かいましょう。<stop_lip_animation n02076 CLOSE_MOUTH>": "<voice 01155_00062152><start_lip_sync n02076 _normal m00001>Dear Lushenda. We don't have time for\nsuch talk. Let's move on as soon as\npossible.<stop_lip_animation n02076 CLOSE_MOUTH>"
@@ -210,10 +210,10 @@
     "勇者姫アンルシアが\nかってに　パーティから外れた。": "Hero Princess Anlucia has been removed\nfrom the party on her own accord."
   },
   "62153": {
-    "<voice 01425_00062153><start_lip_sync n02085 _normal m00001>「やれやれ……。こりておらぬな……。\n　<cs_pchero>。とりあえず　話は後だ。\n　今は　アンルシアを追うとしよう。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 01425_00062153><start_lip_sync n02085 _normal m00001>Oh, dear. You're not getting any\nbetter.<13_aaaaaac>I'll talk to you later. For now, let's\ntalk later. For now, let's follow\nAnlucia.<stop_lip_animation n02085 CLOSE_MOUTH>"
+    "<voice 01425_00062153><start_lip_sync n02085 _normal m00001>「やれやれ……。こりておらぬな……。\n　<cs_pchero>。とりあえず　話は後だ。\n　今は　アンルシアを追うとしよう。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 01425_00062153><start_lip_sync n02085 _normal m00001>Oh, dear. You're not getting any\nbetter.<cs_pchero>I'll talk to you later. For now, let's\ntalk later. For now, let's follow\nAnlucia.<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "62154": {
-    "<voice 01510_00062154><start_lip_sync n02085 _normal m00001>「覚えておけ　<cs_pchero>。\n　これからの魔族との戦いは　そなたと\n　アンルシアの協力が　必要不可欠となるだろう。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 01510_00062154><start_lip_sync n02085 _normal m00001>Remember.<13_aaaaaac>The future of the fight against the\ndemons will require the cooperation of\nyou and Anlucia. Your cooperation with\n<br>\nAnlucia will be essential in the fight\nagainst the demons.<stop_lip_animation n02085 CLOSE_MOUTH>"
+    "<voice 01510_00062154><start_lip_sync n02085 _normal m00001>「覚えておけ　<cs_pchero>。\n　これからの魔族との戦いは　そなたと\n　アンルシアの協力が　必要不可欠となるだろう。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 01510_00062154><start_lip_sync n02085 _normal m00001>Remember.<cs_pchero>The future of the fight against the\ndemons will require the cooperation of\nyou and Anlucia. Your cooperation with\n<br>\nAnlucia will be essential in the fight\nagainst the demons.<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "62155": {
     "<voice 00195_00062155><start_lip_sync m50075 _normal m00001>「クックック……。やはりな……。\n　悠久の時の間に　神の緋石はチカラを消費し\n　ずいぶんと　弱まっているようだ。<stop_lip_animation m50075 CLOSE_MOUTH>": "<voice 00195_00062155><start_lip_sync m50075 _normal m00001>Cookek. As I thought. Divine\nCrimsonite has been drained of its\npower over time and seems to have\n<br>\nweakened considerably.<stop_lip_animation m50075 CLOSE_MOUTH>"
@@ -438,7 +438,7 @@
     "<voice 02546_00062222><start_lip_sync n02085 _normal m00001>「<pc>よ。アンルシアを守るという\n　今回の任務を　見事に果たしてくれたな。\n　報酬として　これを受け取ってくれ。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 02546_00062222><start_lip_sync n02085 _normal m00001><pc>, you have successfully\naccomplished this mission to protect\nAnlucia. Take this as your reward.<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sEV_QUEST_NAME>\" has been\ncompleted!<update_quedate><open_irai>"
   },
   "62223": {
     "<voice 02646_00062223><start_lip_sync n02085 _normal m00001>「そうだ。トーマが　よみがえったことは\n　くれぐれも　他言無用で頼むぞ。\n　皆に知れ渡れば　パニックになるからな。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 02646_00062223><start_lip_sync n02085 _normal m00001>Oh, and please don't tell anyone that\nToma has come back to life, because if\nanyone finds out, there will be a\n<br>\npanic. If anyone finds out, there will\nbe a panic.<stop_lip_animation n02085 CLOSE_MOUTH>"
@@ -486,7 +486,7 @@
     "<voice 00671_29000188><start_lip_sync n02076 _normal m00001>「わかり……ました。\n　見ててください！\n　ミルトさん！　兄さま！<stop_lip_animation n02076 CLOSE_MOUTH>": "<voice 00671_29000188><start_lip_sync n02076 _normal m00001>I understand. Watch this! Mr. Milt!\nBrother!<stop_lip_animation n02076 CLOSE_MOUTH>"
   },
   "29000189": {
-    "<voice 01131_29000189><start_lip_sync n02076 _normal m00001>「<cs_pchero>……。\n　偽の世界で　魔勇者を倒した時と同じように\n　チカラを合わせましょう！<stop_lip_animation n02076 CLOSE_MOUTH>": "<voice 01131_29000189><start_lip_sync n02076 _normal m00001><13_aaaaaac>Let's join forces just like we did\nwhen we defeated the demon Hero in the\nworld of false! Let's join forces just\n<br>\nas we did when we defeated the demon\nHero in the false world!<stop_lip_animation n02076 CLOSE_MOUTH>"
+    "<voice 01131_29000189><start_lip_sync n02076 _normal m00001>「<cs_pchero>……。\n　偽の世界で　魔勇者を倒した時と同じように\n　チカラを合わせましょう！<stop_lip_animation n02076 CLOSE_MOUTH>": "<voice 01131_29000189><start_lip_sync n02076 _normal m00001><cs_pchero>Let's join forces just like we did\nwhen we defeated the demon Hero in the\nworld of false! Let's join forces just\n<br>\nas we did when we defeated the demon\nHero in the false world!<stop_lip_animation n02076 CLOSE_MOUTH>"
   },
   "29000190": {
     "勇者姫アンルシアが\nふたたび　パーティに加わった。<se_nots System Guest_joinSE>": "Hero Princess Anlucia joined the party\nagain.<se_nots System Guest_joinSE>"
