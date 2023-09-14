@@ -1,0 +1,344 @@
+{
+  "20371000": {
+    "<attr><feel_happy_lv3><end_attr>「ふふっ　すごいです！　最高傑作です！\n　ここまでカンペキに　勇者姫さまの\n　おカオを描いたものは　ないでしょう！\n<br>\n「……あっ　お客さま！　失礼しました。\n　今度　売り出そうとしている　便せんの試作で\n　我らが　勇者姫さまの　ご勇姿を描いたのです。\n<br>\n「……そうよ。ここのまつげのライン。\n　このビミョウな流れが　キモなのよ……。\n　ああ。いいわ。これよ……これだわ……。\n　": "<attr><feel_happy_lv3><end_attr>Phew! It's amazing! It's a masterpiece! I\ndon't think I've ever seen anything so\nperfectly depicting the face of the hero\n<br>\nprincess! Oh, ah, a customer! My apologies.\nIt's a prototype for the letter paper we're\nplanning to sell next. I drew the hero\n<br>\nprincess's heroic figure. That's right. The\nline of her eyelashes here. This mysterious\nflow is the key. Ah. It's good. That's it,\n<br>\nthat's it."
+  },
+  "115018": {
+    "<attr><feel_normal_one><end_attr>「ああ　困った　困ったわ……。\n　マダムって　どうして　いつもこう\n　面倒事を　押しつけてくれるのかしら……。\n<br>\n「あら　お客様かしら？\n　美容院に　ご用でしたら\n　カウンターのスタッフまで　お願いね！": "<attr><feel_normal_one><end_attr>Oh, I'm in trouble, I'm in trouble. Why is it\nthat madams always force us to go through all\nthis trouble? Oh, is that a customer? If you\n<br>\nneed anything from Salon, just ask for the\nstaff at the counter!"
+  },
+  "115019": {
+    "<attr><feel_sad_one><end_attr>「ああ　困った　困ったわ……。\n　マダムって　どうして　いつもこう\n　面倒事を　押しつけてくれるのかしら……。": "<attr><feel_sad_one><end_attr>Oh, I'm in trouble, I'm in trouble. Why do\nmadams always force us to go through all this\ntrouble?"
+  },
+  "115020": {
+    "<attr><feel_normal_one><end_attr><turn_pc>「あら　お客様！　聞こえちゃったかしら？\n　じつは　美容院　サロン・フェリシアのオーナー\n　マダム・フェリシアに　無理難題を言われてね。\n<br>\n「刺激が強すぎて　使えなかったヘアカラーを\n　とあるオイルを混ぜることで　使用可能にする\n　画期的手法を　マダムが　開発したんだけど……\n<br>\n「肝心のオイルは　自分で調達して\n　新ヘアカラーを使えるようにしろ！　って\n　無茶を　言い出してくれちゃったワケ。\n<br>\n「でも　そのオイルは　グランゼドーラ領にいる\n　<%sEV_QUE_NAME0>からしか　手に入らないの。\n　さすがの私にも　危険すぎて　とても　とても。<bw_break>": "<attr><feel_normal_one><end_attr><turn_pc>Oh, hello, customer! Did you hear me? Madame\nFelicia, the owner of Salon Fe Lycia, gave me\na difficult request. Madame Felicia has\n<br>\ndeveloped a revolutionary method of mixing a\ncertain oil with hair color that has been too\nirritating to use, but she wanted me to\n<br>\nprocure the essential oil by myself so that\nshe could use the new hair color! She insisted\nthat I get the essential oil myself so that I\n<br>\ncould use the new hair color. But the oil can\nonly be obtained from <%sev_que_name0> in Gran\nZedora Territory. It's too dangerous, even for\n<br>\nme.<bw_break>"
+  },
+  "115021": {
+    "「あっ！　ごめんなさいね　お客様。\n　ご予約は　おありだったかしら？\n　お名前　教えてくださる？\n<br>\n「……まあ！　<pc>さん！\n　あなたが　<pc>さんなのね！\n　ずっと　お待ちしていたの！\n<br>\n「<pc>さん　どうかお願いです！\n　私の代わりに　<%sEV_QUE_NAME0>を倒して\n　サラツヤオイルを　手に入れてもらえない？": "Ah! I'm sorry, sir. Do you have an\nappointment? Can you tell me your name? Oh,\nmy! <&13_aaaaaaad>! You must be\n<br>\n<&13_aaaaaaad>! I've been waiting for you for\na long time! <&13_aaaaaaaad> Please, please,\nplease! Would you please defeat\n<br>\n<%sEV_QUE_NAME0> for me and get Glossy Oil for\nme?"
+  },
+  "115022": {
+    "<attr><feel_happy_lv2><end_attr>「きゃー！　ありがとう！\n　マダムって　おっかないから　できないなんて\n　言ったら　どんな目にあわされたことか……。\n<br>\n「もし　サラツヤオイルが　無事手に入ったら\n　新しいヘアカラーが\n　一気に８色も　使えるようになるわよ。\n<br>\n「<pc>さんが　引き受けてくれて\n　本当に　助かったわ。\n　どうか気をつけて　行ってきてね。": "<attr><feel_happy_lv2><end_attr>Kya! Thank you! I don't know what they would\nhave done to me if I told them I couldn't do\nit because madams are so disgusting. If I can\n<br>\nget my hands on some Glossy Oil, I'll be able\nto use 8 new hair colors at once. Thank you\n<pc> for taking care of this. Please\n<br>\nhave a safe trip."
+  },
+  "115023": {
+    "<attr><feel_happy_lv2><end_attr>「きゃー！　ありがとう！\n　あら？　でも　ほかの人たちからの頼みごとで\n　お忙しいみたいね……？\n<br>\n「でも　私には　とてもムリだから\n　<pc>さんの手が空くまで　待ってるわ！\n　ヒマになったら　また　ここに来てね。": "<attr><feel_happy_lv2><end_attr>Kya! Thank you! Oh? But I see you're busy with\nother people's requests? But I can't do it, so\nI'll wait until <pc> is free! Come\n<br>\nback here again when you're free."
+  },
+  "115407": {
+    "<attr><feel_sad_lv2><end_attr>「ああん！　残念……。\n　でも　そりゃ　そうよね……。\n<br>\n「<%sEV_QUE_NAME0>って　見た目の割に\n　凶暴だし　戦って　オイルを手に入れるなんて\n　とてもムリ……。": "<attr><feel_sad_lv2><end_attr>Ahh! That's too bad. But of course it's true.\n<%sEV_QUE_NAME0> is so fierce for its looks,\nit's impossible to get oil by fighting with\n<br>\nit."
+  },
+  "115645": {
+    "<turn_pc>「あっ　<pc>さん！　いらっしゃいませ！\n　もしかして　気が変わって\n　依頼を　受けてくれる気になった！？\n<br>\n「どうか　お願い！\n　私の代わりに　<%sEV_QUE_NAME0>を倒して\n　サラツヤオイルを　手に入れてもらえない？": "<turn_pc>Ah <pc>! Welcome! Perhaps you've\nchanged your mind and are ready to accept my\nrequest? Please, please! Could you defeat\n<br>\n<%sev_que_name0> for me and get Glossy Oil for\nme?"
+  },
+  "115024": {
+    "「刺激の強い　新色のヘアカラーを\n　使えるようにするためには　髪を保護する\n　サラツヤオイルが　どうしても必要でね……。<open_irai><bw_break>": "In order to be able to use the new, more\naggressive hair colors, I really need Glossy\nOil to protect my hair.<open_irai><bw_break>"
+  },
+  "115025": {
+    "「サラツヤオイルは　グランゼドーラ領にいる\n　<%sEV_QUE_NAME0>からしか　手に入らないの。\n　私の代わりに　取ってきて！": "I can only get Glossy Oil from\n<%sev_que_name0> in Gran Zedora Territory. Go\nget it for me!"
+  },
+  "115026": {
+    "ヴィタルに　サラツヤオイルを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Glossy Oil to Vitar?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "115027": {
+    "<pc>は　ヴィタルに\nサラツヤオイルを　渡した！": "<pc> gave Glossy Oil to Vitar!"
+  },
+  "115380": {
+    "ヴィタルは　新色ヘアカラー８色と\nサラツヤオイルを　素早い手つきで\n混ぜながら　魔法をかけた！<me 69>": "Vitar worked her magic, mixing eight new hair\ncolors and Glossy Oil with a quick hand!<me 69>"
+  },
+  "115381": {
+    "<pc>は　\n美容院で　新しい色『シルバー』『ミモザ』\n『こがねいろ』『オレンジ』『さんご』\n<br>\n『あずき』『ダークプラム』\n『バイオレット』が　使えるようになった！<me 71>": "<pc> can now use the new colors\n\"silver\", \"mimosa\", \"golden\", \"orange\",\n\"coral\", \"red bean\", \"dark plum\" and \"violet\"\n<br>\nin Salon!<me 71>"
+  },
+  "115028": {
+    "<attr><feel_happy_lv1><end_attr>「ああん！　<pc>さん！\n　もしかして　サラツヤオイルを\n　手に入れてきてくれたの？": "<attr><feel_happy_lv1><end_attr>Ahhhh! <pc>! Did you by any chance\nget your hands on some Glossy Oil?"
+  },
+  "115029": {
+    "<attr><feel_sad_one><end_attr>「あん　違ったのね……残念……。\n　ここで待ってるから　どうかお願いね。": "<attr><feel_sad_one><end_attr>I'm sorry you're wrong. I'll be waiting for\nyou here, so please do me a favor."
+  },
+  "115030": {
+    "<attr><feel_happy_lv2><end_attr>「まあっ！　まさしく　サラツヤオイル！\n　これだけあれば　新色ヘアカラーを\n　８色増やせるわ！　本当にありがとう！\n<br>\n「それじゃ！　少しはいいとこ見せなきゃね！\n　サロン・フェリシア現役ナンバーワンである\n　この私の　ウデの見せ所よ！": "<attr><feel_happy_lv2><end_attr>Oh, no! I can add 8 new hair colors if I have\nenough of this! Thank you so much! Well then!\nI have to show you something! As the current\n<br>\nnumber one at Salon Fe Lycia, it's time to\nshow off my skills!"
+  },
+  "115031": {
+    "<se_nots Joutyu_SE SUCCESS>「まずは　新ヘアカラー８色を調合して……と。\n　刺激が強くて　危ないから　扱いには\n　注意しないとね。\n<br>\n「一気に８色なんて　初めての挑戦だけど\n　うまく　できるかしら……。\n　いいえ！　私だったら　できるはず……！<bw_break>": "<se_nots Joutyu_SE SUCCESS>First, we need to mix eight new hair colors.\nIt's very stimulating and dangerous, so we\nhave to be careful with it. It's my first time\n<br>\ntrying eight colors at once, but I wonder if I\ncan do it well. No, I'm sure I can do it! I'm\nsure I can do it!<bw_break>"
+  },
+  "115382": {
+    "「マジカル　マジカル♪\n　フルフル　カラフル　フルカラー！": "Magical Magical  Full Full Full Color Full\nColor!"
+  },
+  "115383": {
+    "<attr><feel_happy_lv3><end_attr>「やった！　成功したわ！\n　なんてきれいなカラーたちなの！\n　これで美容院の　新色の完成よ。": "<attr><feel_happy_lv3><end_attr>We did it! I've got it! What beautiful colors!\nNow we have a new color for Salon."
+  },
+  "115384": {
+    "「これで　マダムに　怒られなくてすむわ……。\n　どうぞ　私からのお礼よ。\n　遠慮せずに　受け取ってね！": "Now I don't have to get mad at Madame. Here\nyou go. It's my way of saying thank you. Don't\nhesitate to accept it!"
+  },
+  "115385": {
+    "<attr><feel_happy_lv1><end_attr>「じつは　マダムに　泣きついたときに\n　冒険者の　<pc>さんなら　\n　なんとかしてくれるだろうって　言われたの。\n<br>\n「さすが　あのマダムが認めるだけあって\n　あなたって　本当に　頼りになるのね。\n　これからも　サロン・フェリシアをごひいきに！": "<attr><feel_happy_lv1><end_attr>Actually, when I cried to the madam, she told\nme that <pc>, an adventurer, would be\nable to help me out. As expected of that\n<br>\nmadam, you are really reliable. I hope you\nwill continue to patronize Salon Fee Lycia!"
+  },
+  "115032": {
+    "<attr><feel_happy_lv1><end_attr>「ああん　<pc>さん！\n　手伝ってくれて　本当にありがとう。\n　さすが　あのマダムが認めるだけあるわね！\n<br>\n「<pc>さんも　いろいろ試して\n　ぜひ　ステキにイメチェンしてちょうだいね！\n　これからも　サロン・フェリシアをごひいきに！": "<attr><feel_happy_lv1><end_attr>Ahn <pc>! Thank you so much for\nhelping me. As expected of that madam, she\napproves! <&13_aaaaaaaad>, please try out all\n<br>\nsorts of things and give your hair a wonderful\nmakeover! Please continue to patronize Salon\nFee Lycia!"
+  },
+  "119178": {
+    "<attr><feel_sad_one><end_attr>「またしても　困った　困ったわ……。\n　マダムがお怒りになる前に　なんとかしないと\n　私まで　巻きぞえに……。": "<attr><feel_sad_one><end_attr>I'm in trouble again. I'm in trouble. If I\ndon't do something before Madame gets angry,\neven I will be dragged into the mess."
+  },
+  "119179": {
+    "<attr><feel_normal_one><end_attr><turn_pc>「あら　<pc>さん！　グッドタイミング！\n　悪いんだけど　あなたに　どうしても\n　お願いしたいことが　あってね……。\n<br>\n「じつは　アラハギーロ王国の美容院にいる同僚が\n　新ヘアカラーを　開発してるはずなんだけど\n　いつまでたっても　完成する気配がないの。\n<br>\n「もう　とっくに期日は過ぎてるし……。\n　本当は自分で　急かしに　いきたいんだけど\n　あいにく　仕事で手が離せないってワケ。\n<br>\n「<pc>さん。ここはひとつ　私の代わりに \n　アラハギーロに行って　さっさと\n　完成させるよう　急かしてきてくれないかしら？\n<br>\n「これが　完成すれば　また　新しいヘアカラーが\n　一気に８色　使えるようになるから……お願い！\n　このままじゃ　マダムの　カミナリが……。": "<attr><feel_normal_one><end_attr><turn_pc>Oh my <pc>! Good timing! I'm sorry,\nbut there's something I really need you to do\nfor me. Actually, my colleague at the Kingdom\n<br>\nof Al-Ahagiro Salon is supposed to be\ndeveloping a new hair color, but there is no\nsign of its completion. The deadline has\n<br>\nalready passed. I'd like to go and rush him\nmyself, but unfortunately, I'm busy with work.\n<pc>. Would you go to Al-Ahagiro for\n<br>\nme and hurry up and hurry up and hurry up to\nget it done? Once it's done, we'll be able to\nuse 8 new hair colors all at once! If you\n<br>\ndon't, Madame's thunder."
+  },
+  "119180": {
+    "<attr><feel_happy_lv2><end_attr>「きゃー！　ありがとう！ \n　<pc>さんが　行ってくれるなら\n　きっと　なんとかなるわね。本当に助かるわ。\n<br>\n「８色同時に　完成させるのは　至難の技だけど\n　その　高度なテクニックで　世界唯一の\n　男性美容師として　認められた　アイツ……\n<br>\n「私と　現役ナンバーワンを争った\n　サーンズの実力なら　きっと可能なはず。\n　どうぞよろしくね。": "<attr><feel_happy_lv2><end_attr>Kya! Thank you!If <pc> is going to be\nthere, I'm sure we can manage. I really\nappreciate it. It's a difficult task to\n<br>\ncomplete 8 colors at the same time, but with\nhis advanced technique, he's recognized as the\nonly male hairdresser in the world. I'm sure\n<br>\nit's possible with the skills of Sans, who\ncompeted with me for the number one spot in\nthe industry. I look forward to working with\n<br>\nyou."
+  },
+  "119181": {
+    "<attr><feel_happy_lv2><end_attr>「きゃー！　ありがとう！\n　あら？　でも　ほかの人たちからの頼みごとで\n　お忙しいみたいね……？\n<br>\n「うう。このままじゃマダムのカミナリが……。\n　お願いだから　急いで　ほかの頼みごとを\n　終わらせて　また　来てちょうだい！": "<attr><feel_happy_lv2><end_attr>Kya! Thank you! Oh? But you're busy with other\npeople's requests, aren't you? Ugh. If I don't\ndo my job, madam's thunder will start. Please\n<br>\nhurry up and finish your other requests and\ncome back again!"
+  },
+  "119182": {
+    "<attr><feel_sad_lv2><end_attr>「ああん！　そんなぁ……。このままじゃ\n　何の罪もない　私まで　マダムの怒りを買って\n　降格……左遷……ああ！　そんなのダメ　絶対！\n<br>\n「お願い　この通りよ！　あわれな\n　現役ナンバーワン美容師に　愛の手を！\n　あなただけが　頼りなのよう……。": "<attr><feel_sad_lv2><end_attr>Oh, no! Oh, no. If this continues, even I, an\ninnocent woman, will incur Madam's wrath and\nbe demoted to the left! No, no, no, no, no,\n<br>\nno, no, no, no, no, no, no, no, no! Please,\nplease! Give a loving hand to the pathetic\ncurrent number one beautician! You're the only\n<br>\none I can count on."
+  },
+  "119183": {
+    "<turn_pc>「あっ　<pc>さん！　いらっしゃいませ！\n　もしかして　気が変わって\n　依頼を　受けてくれる気になった！？\n<br>\n「お願い！　アラハギーロ王国の　美容院に行って\n　早く　新しいヘアカラーを　完成させるよう\n　私の同僚を　急かしてきてくれないかしら？": "<turn_pc>Ah <pc>! Welcome! Perhaps you've\nchanged your mind and are ready to accept my\nrequest? Please! Could you go to the Kingdom\n<br>\nof Al-Ahagiro Salon and hurry up and rush my\ncolleagues to complete the new hair color?"
+  },
+  "119184": {
+    "「アイツが　ちゃんと仕事をこなせば\n　また　新しいヘアカラーが\n　一気に８色　使えるようになるはずよ。<open_irai><bw_break>": "If he does his job right, he should be able to\nuse eight new hair colors at once again.<open_irai><bw_break>"
+  },
+  "119185": {
+    "「８色同時……ってのは　至難の技だけど\n　その　高度なテクニックで　世界唯一の\n　男性美容師として　認められた　アイツ……<bw_break>": "It's a difficult feat to do 8 colors at the\nsame time, but with his advanced technique,\nhe's the only male hairdresser in the world to\n<br>\nbe recognized as such.<bw_break>"
+  },
+  "119186": {
+    "<close_irai>「私と　現役ナンバーワンを争った\n　サーンズの実力なら　きっと可能なはず。\n　どうぞよろしくね。": "<close_irai>I am sure that Sans, who competed with me for\nthe number one spot in the current\ncompetition, will be able to do it. I look\n<br>\nforward to working with you."
+  },
+  "119187": {
+    "<pc>は　\n美容院で　新しい色『ポイズン』『ブルー』\n『グレーブルー』『ネイビー』『フォレスト』\n<br>\n『オリーブ』『オニキス』\n『イエロー』が　使えるようになった！<me 71>": "<pc> can now use the new colors\n\"poison\", \"blue\", \"gray-blue\", \"navy\",\n\"forest\", \"Olive\", \"onyx\", and \"yellow\" in\n<br>\nSalon!<me 71>"
+  },
+  "119188": {
+    "<attr><feel_happy_lv3><end_attr>「ああん　<pc>さん！　ありがとう！\n　さっき　サーンズから　連絡がきたわ。\n　無事　新色ヘアカラーが　完成したのね！\n<br>\n「さっそく　全ての美容院で　新色が\n　使えるように　手配しておいたわ。\n　本当に　ありがとうね。": "<attr><feel_happy_lv3><end_attr>Ahn <pc>! Thanks! I just heard from\nSans. The new hair color has been successfully\ncompleted! I've arranged for the new color to\n<br>\nbe available at all salons right away. Thank\nyou so much."
+  },
+  "119189": {
+    "「これは　今回のお礼よ。\n　遠いところまで　わざわざ　ありがとうね。\n　どうか　受け取ってちょうだい。": "This is for you. Thank you for coming all the\nway out here. Please accept it."
+  },
+  "119190": {
+    "<attr><feel_happy_lv1><end_attr>「ふふ。<pc>さんの　おかげで\n　ひさびさに　本気のアイツと\n　勝負することができそう。\n<br>\n「あ……じつは　マダムたっての　ご要望で\n　近々　ある催しを　計画中なのよ。\n　<pc>さんも　楽しみにしててね。": "<attr><feel_happy_lv1><end_attr>Hmm. Thanks to <pc>, I'll be able to\ncompete with him for the first time in a\nwhile. Actually, I'm planning an event in the\n<br>\nnear future at Madame's request. <pc>\nYou can look forward to it, too."
+  },
+  "119191": {
+    "<attr><feel_happy_lv1><end_attr>「ふふ。<pc>さんの　おかげで\n　ひさびさに　本気のアイツと\n　勝負することができそう。\n<br>\n「じつは　マダムたっての　ご要望で\n　近々　ある催しを　計画中なの。\n　<pc>さんも　楽しみにしててね。": "<attr><feel_happy_lv1><end_attr>Hmm. Thanks to <pc>, I'll be able to\ncompete with a serious guy for the first time\nin a while. As a matter of fact, at Madame's\n<br>\nrequest, I'm planning an event in the near\nfuture. <&13_aaaaaaaad> You can look forward\nto it, too."
+  },
+  "125416": {
+    "<attr><feel_sad_one><end_attr>「またしても　困った　困ったわ……。\n　期日までに　なんとかしないと\n　今度こそ　本当に　マダムのカミナリが……！": "<attr><feel_sad_one><end_attr>Once again, I'm stumped. I'm stumped. If I\ndon't do something by the deadline, this time\nMadame's thunder will really hit!"
+  },
+  "125417": {
+    "<attr><feel_normal_one><end_attr><icon_exc><turn_pc>「きゃー！　<pc>さん。\n　なんて　グッドタイミング！！\n　私の話を　聞いてちょうだい。\n<br>\n「近々　マダム・フェリシアたっての　ご要望で\n　とある催しが　計画されているって\n　話したのを　覚えている？\n<br>\n「その催しは　第１回フェリシア杯といって\n　選りすぐりの美容師が集まり　技術を競いあい\n　最高の美容師を　決定するってものなの。\n<br>\n「もちろん　現役ナンバーワンである私は\n　参加メンバーに　選ばれているんだけど\n　そのコンテストのお題について　困ってて……\n<br>\n「それがね。自分の考える『幸せの色』を\n　新ヘアカラーにして　コンテスト会場で\n　発表するっていう　お題なのよ。\n<br>\n「作るべき色の　レシピまでは完成したんだけど\n　かんじんの素材が足りなくて　困っていたの。\n　お願い！　どうか私を手伝ってくれないかしら？": "<attr><feel_normal_one><end_attr><icon_exc><turn_pc>Kyaa! <pc>. What good timing! Listen\nto me. Remember I told you that Madame Felicia\nhad a special event planned for the near\n<br>\nfuture? It's called the first annual Felicia\nCup, where a select group of hairdressers will\ngather to compete and determine who the best\n<br>\nhairdresser is. Of course, as the current\nnumber one hairdresser, I was chosen to\nparticipate, but I'm having a problem with the\n<br>\ntheme of the contest. I was asked to create a\nnew hair color of my own \"happy color\" and\npresent it at the contest. I have already\n<br>\ncompleted the recipe for the color, but I am\nstill missing the ingredients for KANDAI.\nPlease, please, please, please help me! Please\n<br>\nhelp me out!"
+  },
+  "125418": {
+    "<attr><feel_happy_lv2><end_attr>「きゃー！　ありがとう！\n　じつは　私　このコンテストに参加するの\n　とっても　楽しみにしていたの。\n<br>\n「美容師たちは　自分の開発した新ヘアカラーに\n　髪色を変えて　モデルとしても参加するから\n　そりゃもう　お祭り気分ってワケ。\n<br>\n「出場するからには　絶対　優勝したいし\n　サーンズのやつとも　白黒つけるチャンスだから\n　どうか　協力をお願いね。\n<br>\n「持ってきてほしいのは　<%sEV_QUE_NAME0>を\n　倒すと手に入る　オーロラパウダーってものよ。\n　それで　私の思う幸せの色を　形にできるの！\n<br>\n「<%sEV_QUE_NAME0>は　グランゼドーラ領の先\n　レビュール街道南なんかに　いるみたい。\n　どんな色になるかは　完成を　お楽しみにね！": "<attr><feel_happy_lv2><end_attr>Kya! Thank you so much! I was really looking\nforward to participating in this contest. The\nhair stylists are going to change their hair\n<br>\ncolor to a new hair color that they developed,\nand they'll be modeling as well, so it's going\nto be a real festival. I really want to win\n<br>\nthis contest, and it's my chance to make\nthings black and white with Sans, so please\nhelp me out. All I want you to bring is Aurora\n<br>\nPowder, which you can get by defeating\n<%sEV_QUE_NAME0>. With it, I can create the\ncolor of my happiness! <%sEV_QUE_NAME0> is\n<br>\nlocated at the end of Gran Zedora Territory,\nsomewhere like Reviewle Highway South. I can't\nwait to see what color it turns out to be!"
+  },
+  "125419": {
+    "<attr><feel_happy_lv2><end_attr>「きゃー！　ありがとう！\n　あら？　でも　ほかの人たちからの頼みごとで\n　お忙しいみたいね……？\n<br>\n「ああん。でも　お願い！\n　私　このコンテストに参加するの\n　とっても　楽しみにしてたのよー！\n<br>\n「急いで　ほかの頼みごとを終わらせて！\n　そうしたらまた　私の所へ　戻ってきてね。": "<attr><feel_happy_lv2><end_attr>Kya! Thank you! Oh? But you're busy with other\npeople's requests, aren't you? Oh, yeah. But\nplease! I was really looking forward to\n<br>\nparticipating in this contest! Hurry up and\nfinish your other requests! Then come back to\nme again."
+  },
+  "125420": {
+    "<attr><feel_sad_lv2><end_attr>「ああん！　そんなぁ……。\n　お願い……　私　このコンテストに参加するの\n　とっても　楽しみにしてたのよう……。\n<br>\n「これまで　きずきあげてきた\n　私と　<pc>さんの仲じゃなぁーい。\n　今さら　見捨てるなんて…………　ぐすぐす。": "<attr><feel_sad_lv2><end_attr>Oh, no! Oh, no. Please, I've been looking\nforward to participating in this contest so\nmuch. It's not like I and <pc>\n<br>\nhaven't worked together before. I can't\nbelieve you're abandoning me now."
+  },
+  "125709": {
+    "<icon_exc><turn_pc>「あっ　<pc>さん！　いらっしゃいませ！\n　もしかして　気が変わって\n　依頼を　受けてくれる気になった！？\n<br>\n「フェリシア杯っていう　美容師のコンテストに\n　参加することに　なったんだけど……\n　コンテストのお題について　困ってるの。\n<br>\n「それがね。自分の考える『幸せの色』を\n　新ヘアカラーにして　コンテスト会場で\n　発表するっていう　お題なのよ。\n<br>\n「作るべき色の　レシピまでは完成したんだけど\n　かんじんの素材が足りなくて　困っていたの。\n　お願い！　どうか私を手伝ってくれないかしら？": "<icon_exc><turn_pc>Ah <pc>! Welcome! Did you change your\nmind and accept my request? I'm going to\nparticipate in a contest for hairdressers\n<br>\ncalled the Fe Lycia Cup, but I'm having a\nproblem with the theme of the contest. That's\nthe thing. I'm supposed to come up with a new\n<br>\nhair color that I think will bring me\nhappiness, and present it at the contest. I\nhave already completed the recipe for the\n<br>\ncolor, but I still need more KANDAI (KANDAI\nmeans \"the color of happiness\") ingredients.\nPlease, please, please, please help me!\n<br>\nPlease, can you help me?"
+  },
+  "124457": {
+    "「新ヘアカラーの素材は　入手が難しいの。\n　だから　<pc>さんに　協力してもらえて\n　本当に助かるわ。ありがとう！<open_irai><bw_break>": "The materials for the new hair color are hard\nto get. So I really appreciate <pc>'s\nhelp. Thank you!<open_irai><bw_break>"
+  },
+  "125712": {
+    "「持ってきてほしいのは　<%sEV_QUE_NAME0>を\n　倒すと手に入る　オーロラパウダーってものよ。\n　それで　私の思う幸せの色を　形にできるの！<bw_break>": "I want you to bring me Aurora Powder, which\nyou can get by defeating <%sEV_QUE_NAME0>.\nWith it, you can make the color of my\n<br>\nhappiness!<bw_break>"
+  },
+  "125714": {
+    "<close_irai>「<%sEV_QUE_NAME0>は　グランゼドーラ領の先\n　レビュール街道南なんかに　いるみたい。\n　どんな色になるかは　完成を　お楽しみにね！": "<close_irai><%sev_que_name0> seems to be at the end of\nGran Zedora Territory, on Reviewle Highway\nSouth or something. Please look forward to\n<br>\nseeing the finished product to see what color\nit will be!"
+  },
+  "124458": {
+    "ヴィタルに　オーロラパウダーを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to give Aurora Powder to Vitar?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "124459": {
+    "<pc>は　ヴィタルに\nオーロラパウダーを　渡した！": "<pc> gave Aurora Powder to Vitar!"
+  },
+  "124460": {
+    "ヴィタルは　なれた手つきで\nオーロラパウダーに　魔法をかけた。<me 69>": "Vitar cast a spell on Aurora Powder with a\nfamiliar hand.<me 69>"
+  },
+  "124462": {
+    "<pc>は　髪色をオーロラに変えられた！\n<br>\nそして　そのまま　ヴィタルに見送られながら\nフェリシア杯の　コンテスト会場に移動した。<se_nots map_common 2>": "<pc> had her hair color changed to\naurora! And just like that, Vitar saw her off\nand moved to the FeLycia Cup contest site.<se_nots map_common 2>"
+  },
+  "124463": {
+    "<attr><feel_sad_one><end_attr>「ブツブツ……　まさか　コンテスト会場が\n　あそこになるなんて　計算外だったわ……。": "<attr><feel_sad_one><end_attr>I didn't expect the contest to be held there."
+  },
+  "124464": {
+    "<icon_exc><turn_pc>「ああっ　<pc>さん！\n　オーロラパウダーを　持ってきてくれたのね？": "<icon_exc><turn_pc>Ah <pc>! You brought Aurora Powder,\ndidn't you?"
+  },
+  "124465": {
+    "<attr><feel_sad_one><end_attr>「ああん　違ったのね……。\n　でも　今となっては　それも…………。": "<attr><feel_sad_one><end_attr>Oh, that was different. But now, that too."
+  },
+  "124466": {
+    "「ああ……　あれほど切望していた\n　オーロラパウダーなのに……。\n<br>\n「ううん。ごめんなさい　<pc>さん。\n　せっかく　持ってきてもらったんだもの\n　すぐに　新ヘアカラーを　完成させるわね！<bw_break>": "Oh, it's the Aurora Powder I've been craving\nfor so long. Nah. I'm sorry <pc>.\nSince you brought it here, I'll finish the new\n<br>\nhair color right away!<bw_break>"
+  },
+  "124467": {
+    "「幸せとは　みんなの笑顔……。 \n　どうか　この新ヘアカラーを見た　すべての人が\n　きらめく笑顔を　見せてくれますように。": "Happiness is everyone's smile.Please pray that\nthis new hair color will bring a sparkling\nsmile to everyone who sees it."
+  },
+  "124468": {
+    "「うん　成功よ！\n　これが　私の思う幸せの色\n　オーロラの完成っ！　でも…………\n<br>\n「ああん……　どうしよう……\n　はあ……　でも　やっぱり……\n　うーんうーん…………。": "Yes, it's success! This is the completion of\naurora, the color of my happiness! But ah,\nwhat should I do?"
+  },
+  "124469": {
+    "<attr><feel_sad_lv3><end_attr><icon_exc>「イ…イタタタタタ！\n<br>\n「きゅ…急に　オナカがイタくなってきたミタイ。\n　こんなんじゃ　コンテストには\n　参加できそうにないわ！\n<br>\n「でも　コンテストに穴を開けたら\n　それこそ　マダムのカミナリが……\n　……ぶるぶる。\n<br>\n「ねえ　お願い！　髪色を　オーロラに変えて\n　私の代理モデルとして　<pc>さんが\n　コンテストに　参加してきてくれない？<yesno><break>": "<attr><feel_sad_lv3><end_attr><icon_exc>I'm tired! My mummy is suddenly getting sick.\nI don't think I can enter the contest like\nthis! But if I open a hole in the contest,\n<br>\nMadame's thunder will be shaken. Hey, please!\nCan't you change your hair color to aurora and\nhave <pc> enter the contest as my\n<br>\nsurrogate model?<yesno><break>"
+  },
+  "124470": {
+    "<attr><feel_sad_lv3><end_attr>「えぇ　そんなぁ……。\n　いたいけな　美容師が\n　これだけ真剣に　お願いしてるのにぃ……。": "<attr><feel_sad_lv3><end_attr>Yeah, that's not right. Even though a humble\nhairdresser is asking for so much from True\nSword..."
+  },
+  "125724": {
+    "<attr><feel_happy_lv2><end_attr>「きゃー！　ありがとう！": "<attr><feel_happy_lv2><end_attr>Kya! Thank you!"
+  },
+  "125726": {
+    "<attr><feel_sad_lv3><end_attr><icon_exc>「…………って　オナカがイタタタタ。\n　協力してくれて　助かるわ。\n　<pc>さん　本当に　どうもありがとう。\n<br>\n「そうね……　会場に着いてからは\n　係の人の案内に従って！\n　話は　私が通しておくから。\n<br>\n「それじゃ　チャチャっと\n　髪色を変えたら　会場まで送るわね。\n　いってらっしゃーい！　グッドラック！": "<attr><feel_sad_lv3><end_attr><icon_exc>My stomach is aching. Thanks for your help.\n<pc> Thank you so much. Well, once\nyou get to the venue, follow the directions of\n<br>\nthe staff! I'll talk you through. I'll walk\nyou to the venue after I change my hair color.\nHave a good day! Good luck!"
+  },
+  "125728": {
+    "<attr><feel_sad_lv3><end_attr><icon_exc><turn_pc>「イ…イタタタタタ！\n　ああん　急にオナカがイタくなってきちゃった！\n　このままじゃ　コンテストに参加できないわー。\n<br>\n「もしかして　<pc>さん。\n　私の代わりに髪色を変えて　代理モデルとして\n　コンテストに　参加してくれる気になった！？<yesno><break>": "<attr><feel_sad_lv3><end_attr><icon_exc><turn_pc>I'm getting itchy! Oh, my stomach is suddenly\ngetting really tight! I can't enter the\ncontest at this rate! Could it be\n<br>\n<pc>? You're willing to change your\nhair color and enter the contest as a\nsubstitute model instead of me!<yesno><break>"
+  },
+  "125730": {
+    "「マジカル　マジカル♪\n　キラキラ　キラメク　スマイルカラー！": "Magical Magical  Sparkling Sparkling Smile\nColor!"
+  },
+  "124474": {
+    "<pc>は　髪色をオーロラに変えられた！\n<br>\nそして　そのまま　ヴィタルに見送られながら\nフェリシア杯の　コンテスト会場に移動した。<se_nots map_common 2>": "<pc> had her hair color changed to\naurora! And just like that, Vitar saw her off\nand moved to the FeLycia Cup contest site.<se_nots map_common 2>"
+  },
+  "124481": {
+    "「あら？　<pc>さん　戻ってきたの！？\n　あなたには　私の代理モデルとして\n　フェリシア杯に　参加してきてほしいの！<open_irai><bw_break>": "Oh? <pc> You're back! I'd like you to\ncome and join the Fe Lycia Cup as my surrogate\nmodel!<open_irai><bw_break>"
+  },
+  "124482": {
+    "<close_irai>「会場には　話を通してあるから\n　係の人の案内に　従ってちょうだい。\n　もう一度　会場へ移動する？<yesno><break>": "<close_irai>I've already spoken to the venue, so please\nfollow the instructions of the staff. Do you\nwant to move to the venue again?<yesno><break>"
+  },
+  "124483": {
+    "「まあ！　用があるなら　それを済ませて\n　また　私に話しかけてね。": "Well! If you need me, finish that and talk to\nme again."
+  },
+  "124484": {
+    "「オッケー　それじゃ　チャチャっと\n　髪色を変えたら　会場まで送るわね。\n　いってらっしゃーい！　グッドラック！": "Okay, then, Chacha, I'll take you to the venue\nafter I change my hair color. Have a good day!\nGood luck!"
+  },
+  "124486": {
+    "<pc>は　ショコラフォンテヌ城での\n一連のできごとを　ヴィタルに報告した。\n<br>\nさらに　ミローレからの伝言を\nヴィタルに　伝えた。": "<pc> reported to Vitar a series of\nevents at Chocolat Fontenay Castle. He also\npassed on a message from Milore to Vitar."
+  },
+  "124487": {
+    "<pc>は　\n美容院で　新しい色『オーロラ』『ビリジアン』\n『スカイブルー』『だいだい』『ブラッド』\n<br>\n『レタス』『ベージュ』\n『クリーム』が　使えるようになった！<me 71>": "<pc> can now use the new colors\n\"aurora\", \"viridian\", \"sky blue\", \"sour\norange\", \"blood\", \"lettuce\", \"beige\" and\n<br>\n\"cream\" in Salon!<me 71>"
+  },
+  "124490": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc><turn_pc>「きゃー！　<pc>さん。\n　おかえりなさい。それで！？\n　フェリシア杯の結果は　どうだった？<bw_break>": "<attr><feel_happy_lv2><end_attr><icon_exc><turn_pc>Kyaa! <pc>. Welcome back. So! How did\nthe Fe Lycia Cup turn out?<bw_break>"
+  },
+  "124491": {
+    "<attr><feel_happy_lv2><end_attr>「ふふふっ。言わなくても　わかってる。\n　その顔を見れば　一目瞭然よ！\n　ああん　やっぱり　私も行きたかったなー。": "<attr><feel_happy_lv2><end_attr>Hmm. You don't have to say it. It's obvious\nfrom the look on your face! I wish I could've\ngone too."
+  },
+  "124492": {
+    "「って　その顔を見れば\n　なんとなく結果の想像は　つくけど……。": "I can imagine the outcome by looking at his\nface."
+  },
+  "124493": {
+    "<attr><feel_sad_lv3><end_attr>「げっ！　ミ…ミミミミミローレなんて人……\n　私は　しし知らないけど……。\n<br>\n「………………。<bw_break>": "<attr><feel_sad_lv3><end_attr>Geez! I don't know who Milore is, but I really\ndon't know him. I don't know any Mimi Milore.<bw_break>"
+  },
+  "124494": {
+    "「ああん　もう！　白状するわ！\n　昔　アイツとは色々あったのよ。\n　だから　どーっしても　会いたくなくてね。\n<br>\n「今回　<pc>さんには\n　迷惑かけちゃって　申し訳なかったけど……\n　代理モデルを引き受けてくれて　助かったわ！\n<br>\n「フェリシア杯に　参加していたメンバーの新色は\n　美容院でも　使えるようになったみたいだから\n　<pc>さんも　ぜひ　試してみてね。": "Oh, God! I'll confess! I had a lot of trouble\nwith him in the past. That's why I didn't want\nto see him. I'm sorry for the trouble I caused\n<br>\n<pc> this time, but I'm glad he\nagreed to be our substitute model! It seems\nthat the new colors of the members who\n<br>\nparticipated in the FE-Lycia Cup are now\navailable at Salon, so <pc>, please\ngive them a try."
+  },
+  "124495": {
+    "「これは　色々と助けてもらったから\n　私からの　お礼よ。\n　どうか　受け取って！": "This is my way of saying thank you for all the\nhelp you've given me. Please accept it!"
+  },
+  "125744": {
+    "「どうか　今後とも\n　美容院　サロン・フェリシアを　ごひいきに♪": "Please continue to patronize Salon Salon Fe\nLycia"
+  },
+  "124496": {
+    "<attr><feel_happy_one><end_attr>「ふふふっ。やっぱり　私が　現役ナンバーワン♪\n　フェリシア杯の優勝で　証明されちゃった。\n　これからも　がんばらなくっちゃ！": "<attr><feel_happy_one><end_attr>Hmmm. I'm still the number one active\nplayer... and my victory in the Fe Lycia Cup\nproved it. I must continue to do my best!"
+  },
+  "124497": {
+    "<attr><feel_sad_one><end_attr>「はあ……　まさか優勝できないなんて……\n　現役ナンバーワンの名折れだわ。\n　これからは　もっと　がんばらなくっちゃ……！": "<attr><feel_sad_one><end_attr>I can't believe I didn't win. I'm the number\none active player in the tournament, and I've\nlost my name. I'll have to work harder from\n<br>\nnow on!"
+  },
+  "124498": {
+    "<icon_exc><turn_pc>「まあ　<pc>さん。いらっしゃいませ。\n　フェリシア杯では　どうも　ありがとう。\n　代理モデルを引き受けてくれて　助かったわ！\n<br>\n「えっ！？　ミローレとは　いったい\n　過去に　何があったかですって？\n　やだ　あなたってば　意外とヤボなのね。": "<icon_exc><turn_pc>Well <pc>. Welcome. Thanks for the fe\nLycia Cup. It was very helpful of you to take\non the proxy modeling! What? What in the world\n<br>\nhappened with Milore in the past? You're a\nreal dope, aren't you?"
+  },
+  "165945": {
+    "「ごきげんよう　旅の方。\n　私は　今　キャンペーンの当選者様を\n　お待ちしているところです。\n<br>\n「そうですね……たとえば　書き換え可能な\n　ルーラストーンを　６個以上\n　持っているような　剛の者ですね。\n<br>\n「フフ……お会いできるのが楽しみです。": "Cheery, and welcome to the journey. I am now\nwaiting for the winner of the campaign. Yes,\nfor example, a stiff who has more than 6\n<br>\nrewritable Zoomstones. I look forward to\nmeeting you."
+  },
+  "165950": {
+    "「ルラムーン草は　セレドット山道の北側にある\n　洞くつの水辺で　採れるといわれています。\n　今回　必要なのは　花を咲かせているものです。\n<br>\n「その洞くつの水辺は　夜の間だけ\n　壁の鉱石が　光るのですが　ルラムーン草は\n　その光を浴びると　花を咲かせるそうです。": "Lunar Zoombloom is said to be collected from\nthe waterside of a cave on the north side of\nCeledot Mountain Pass. All we need this time\n<br>\nis a blooming one. The ore on the wall of the\ncave glows at night, and it is said that Lunar\nZoombloom blooms when exposed to the light."
+  },
+  "165784": {
+    "「ふんぬぬ！　……はぁはぁ\n　やはり　どうやっても　開かないな。\n　どこかに　ウデの立つカギ師は　いないものか。": "Hmmm! As I thought, it won't open no matter\nhow I try. I wonder if there is a locksmith\nsomewhere who knows how to do this."
+  },
+  "165785": {
+    "「ふんぬぬ！　……はぁはぁ\n　やはり　どうやっても　開かないな。\n　どこかに　ウデの立つカギ師は　いないものか。": "Hmmm! As I thought, it won't open no matter\nhow I try. I wonder if there is a locksmith\nsomewhere who knows how to do this."
+  },
+  "165786": {
+    "<icon_exc><turn_pc>「いやはや　お恥ずかしいところを\n　お見せいたしましたね。\n　私はレイバッサという　旅の商人です。\n<br>\n「……おや　アナタは　ずいぶんと旅慣れた\n　冒険者の方みたいですね　お名前は……\n　ほう　<pc>さんと　いうのですか。<bw_break>": "<icon_exc><turn_pc>Well, I'm afraid I've shown you the\nembarrassing part. My name is Reybassa, and I\nam a Peddler. You seem to be a well-traveled\n<br>\nadventurer.<bw_break>"
+  },
+  "165787": {
+    "<attr><feel_happy_lv1><end_attr>「おお！　無謀は承知で　聞いてみたのですが\n　声をかけてくださった方が　ご存知とは　\n　渡りに船とは　まさしく　このことですな。<bw_break>": "<attr><feel_happy_lv1><end_attr>Oh! I know it was reckless of me to ask, but\nto think that the person who approached me\nknew about this is exactly what I mean when I\n<br>\nsay that I was in the right place at the right\ntime.<bw_break>"
+  },
+  "165788": {
+    "<attr><feel_happy_lv1><end_attr>「おお！　ありがとうございます！\n　さっそくですが　伝説の防具を手に入れるには\n　鉄の金庫のカギを　開けないといけません。\n<br>\n「鉄の金庫は　特殊なカギを採用しており\n　ふつうのカギ師では　歯が立ちません。\n　そこで　一流カギ師のウデ前が　必要なのです。\n<br>\n「旅の途中で聞いた　ウワサによると\n　一流のカギ師は　アラハギーロ王国のどこかに\n　いるらしいので　仕事を頼んできてください。\n<br>\n「私も一緒に行きたいのですが　まだ商売の途中で\n　しばらく　この町にいなければならないのです。\n　すみませんが　よろしくお願いします。": "<attr><feel_happy_lv1><end_attr>Oh! Thank you very much! First of all, in\norder to get the legendary armor, you have to\nopen the Iron Safe Key. Iron Safe uses a\n<br>\nspecial key, and there are no ordinary\nlocksmiths who can open it. So, a top-notch\nlocksmith's skill is needed. I heard a rumor\n<br>\nduring my trip that a top-notch locksmith is\nsomewhere in the Kingdom of Al-Ahagiro, so\nplease go and ask him for a job. I would like\n<br>\nto go with you, but I am still in the middle\nof my business and need to stay in this town\nfor a while. I'm sorry, but thank you very\n<br>\nmuch."
+  },
+  "165789": {
+    "<attr><feel_sad_lv1><end_attr>「そうですか……。残念です。\n　私はしばらく　商売でこの町に　おりますので\n　もし　気が変わったら　声をかけてください。": "<attr><feel_sad_lv1><end_attr>I see. I'm sorry to hear that. I'll be in town\nfor business for a while, so if you change\nyour mind, give me a call."
+  },
+  "165790": {
+    "「おや？　どうやら　<pc>さんは\n　ほかの依頼で　手いっぱいのようですな。\n<br>\n「商売と同じで　忙しいうちが華ですが\n　これ以上の依頼は　不良在庫になりそうです。\n　ほかの依頼が片付いたら　また　来てください。": "Hmm? It seems that <pc> has his hands\nfull with other requests. As with any\nbusiness, the busier the better, but I'm\n<br>\nafraid that any more requests will result in\nbad inventory. Please come back when you are\ndone with the other requests."
+  },
+  "165791": {
+    "<icon_exc><turn_pc>「おお　<pc>さん。\n　伝説の防具を　手に入れるための\n　お手伝いを　していただけるのですか？": "<icon_exc><turn_pc>Oh <pc>. Will you be assisting me in\nobtaining the legendary armor?"
+  },
+  "165792": {
+    "<attr><feel_sad_lv1><end_attr>「そうですか……。いきなり　失礼しました。\n　商人として　目利きには自信があったのですが\n　どうやら　ハズしたようでした。": "<attr><feel_sad_lv1><end_attr>I see. I apologize for my abruptness. As a\nmerchant, I had confidence in my discernment,\nbut it seems I was wrong."
+  },
+  "165991": {
+    "「出会っていきなり　お聞きするのも　なんですが\n　大とうぞくのカギを作れるほどの　ウデを持つ\n　一流のカギ師を　ご存知ないでしょうか？<yesno><break>": "I know this is a bit of a forward question,\nbut do you know of any top-notch locksmiths\nwho are skilled enough to make a Great Thief's\n<br>\nKey?<yesno><break>"
+  },
+  "165995": {
+    "「じつは　私　一流の商人を目指しながら\n　伝説の防具を　探し求めていたのですが\n　この町で　ついに　目的の品を入手したのです！\n<br>\n「……ただ　肝心のブツは\n　メガンテでも壊せないと有名な　鉄の金庫に\n　しまわれており　取り出せずに困ってまして。\n<br>\n「ここで　会ったのも何かの縁。よろしければ\n　伝説の防具を　手に入れる　お手伝いを\n　してもらえないでしょうか？": "I've been searching for a legendary armor,\naiming to become a top merchant, and I finally\ngot the item I wanted in this town! However,\n<br>\nthe key item is locked away in the Iron Safe,\nwhich is famous for being unbreakable even by\nMegante, and I'm having trouble getting it\n<br>\nout. I'm having a hard time getting it out. If\nyou would be so kind as to assist me in\nobtaining the legendary armor?"
+  },
+  "167213": {
+    "「ふんぬぬ！　……はぁはぁ\n　やはり　どうやっても　開かないな。\n　どこかに　ウデの立つカギ師は　いないものか。": "Hmmm! As I thought, it won't open no matter\nhow I try. I wonder if there is a locksmith\nsomewhere who knows how to do this."
+  },
+  "165793": {
+    "「おお　<pc>さん\n　伝説の防具が入った　鉄の金庫を開けるカギは\n　できたのでしょうか？<open_irai><bw_break>": "Oh <pc> Did you get the key to open\nthe Iron Safe that contains the legendary\narmor?<open_irai><bw_break>"
+  },
+  "166336": {
+    "「ウワサによると　アラハギーロ王国のどこかに\n　一流のカギ師が　いるらしいので\n　カギを作ってもらえるよう　頼んでください。\n<br>\n「ただ　一流のカギ師は　伝説の防具と同じくらい\n　たいへん　珍しい存在らしいので\n　人目につく場所には　まず　いないと思います。": "Rumor has it that somewhere in the Kingdom of\nAl-Ahagiro there is a top-notch locksmith, so\nask him to make you a key. However, it is said\n<br>\nthat a top-notch locksmith is as rare as\nlegendary armor, so it is unlikely that you\nwill find one in a conspicuous place."
+  },
+  "165794": {
+    "「おお　<pc>さん\n　伝説の防具が入った　鉄の金庫を開けるカギは\n　できたのでしょうか？<open_irai><bw_break>": "Oh <pc> Did you get the key to open\nthe Iron Safe that contains the legendary\narmor?<open_irai><bw_break>"
+  },
+  "166337": {
+    "「なんと　カギを作るには　特別な素材が必要で\n　今は　それを　取りにいくところなのですか。\n　いやはや　一筋縄にはいかないようですな。": "Oh my, you need special materials to make a\nkey, and you're on your way to get them now?\nWell, it seems that it is not a simple task."
+  },
+  "165795": {
+    "「おお　<pc>さん \n　伝説の防具が入った　鉄の金庫を開けるカギは\n　できたのでしょうか？<open_irai><bw_break>": "Oh <pc> Did you get the key to open\nthe Iron Safe that contains the legendary\narmor?<open_irai><bw_break>"
+  },
+  "166338": {
+    "「なんと　カギの素材を　入手したのですか！\n　では　アラハギーロ王国にいる　カギ師に\n　鉄の金庫のカギを　作ってもらいましょう！": "You have obtained the material for a key? Now,\nlet's ask the locksmith in the Kingdom of Al-\nAhagiro to make an Iron Safe Key for us!"
+  },
+  "165796": {
+    "「おお　<pc>さん\n　もしかして　鉄の金庫を開けるカギが\n　できたのでしょうか？": "Oh <pc> could it be that you have the\nkey to open Iron Safe?"
+  },
+  "165797": {
+    "「おお！　これが鉄の金庫のカギですか。\n　これで　ついに　伝説の防具が私の手に！\n　それでは　さっそく……": "Oh, is this the Iron Safe Key? Is this the\nIron Safe Key? With this, I finally have the\nlegendary armor in my hands! Let's get\n<br>\nstarted!"
+  },
+  "165798": {
+    "「おお……　年月を積み重ねて　にじみ出る\n　独特の風格と　なお美しい　たてじま模様。\n　手ざわりもよく　羽のように軽い。\n<br>\n「間違いない　これぞ　かの大商人が愛した\n　伝説の防具……\n<br>\n「ステテコパンツだ！！<me 57>": "The unique character that oozes out over the\nyears and the beautiful vertical pattern. It\nis soft to the touch and light as a feather.\n<br>\nThis is the legendary boxer shorts loved by\nthe great merchant!<me 57>"
+  },
+  "165799": {
+    "<icon_exc>「……失礼いたしました。\n　念願の伝説の防具を　手に入れたことで\n　つい　興奮してしまって。\n<br>\n「一流の商人たるもの　装備も伝説の一品を\n　身に着けなければ　なりませんが\n　このステテコパンツなら　申し分ありません。\n<br>\n「本当に　ありがとうございます。\n　これは　お礼です。受け取ってください。": "<icon_exc>I apologize. I was just excited to have\nreceived this legendary piece of armor. As a\ntop merchant, you must wear legendary gear,\n<br>\nand these boxer shorts are perfect. Thank you\nso much. It's my way of saying thank you.\nPlease accept it."
+  },
+  "165800": {
+    "<attr><feel_happy_lv1><end_attr>「これで　一流の商人として　店を持つことを\n　決心できました。故郷の女房と息子も呼び　\n　一緒に盛り立てて　立派な店にしてみせます。": "<attr><feel_happy_lv1><end_attr>With this, I have decided to own my own store\nas a first-class merchant. I will call my wife\nand son from my hometown and together we will\n<br>\nmake it a great store."
+  },
+  "165801": {
+    "「私はもう　行商の旅には　出ないので\n　鉄の金庫は　<pc>さんに差し上げます。\n　よければ　冒険に　役立ててください。": "Since I will no longer be peddling, I will\ngive the Iron Safe to <pc>. If you\nlike, you can use it for your adventures."
+  },
+  "165802": {
+    "「鉄の金庫を持っていると　旅の途中で\n　死んでしまい　教会に戻ることになっても\n　持っているゴールドが　減ることはありません。\n<br>\n「無理な旅は　禁物ですが　商売と同じで\n　時には　引けぬ戦いも　あるかと思います。\n　そんな時のために　ぜひ　役立ててください。": "If you have Iron Safe, you will not lose any\nof your gold if you die on the road and have\nto return to the church. We do not want you to\n<br>\ntravel too hard, but just like in business,\nthere will be times when you will have to\nfight a battle that you cannot win. Please use\n<br>\nit for those times when you need it."
+  },
+  "165803": {
+    "「おや　まだカギは　作られてないのですか。\n　すみません　気がせいてしまって。\n　カギができたら　また　お声がけください。": "Oh, you haven't made the key yet? I'm sorry,\nI've been distracted. Please let me know when\nthe key is ready."
+  },
+  "166058": {
+    "<attr><feel_happy_lv3><end_attr>「ついに……ついに　手に入れたぞ！\n　これで私も　一流商人の　仲間入りだ！": "<attr><feel_happy_lv3><end_attr>At long last, at long last, I have received\nit! I am now a companion of a first-class\nmerchant!"
+  },
+  "165804": {
+    "レイバッサに　鉄の金庫のカギを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to give Reybassa your Iron Safe\nKey?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "165805": {
+    "レイバッサは　鉄の金庫のカギを使った！<se_nots map_r2020 8><bw_break>": "Reybassa used Iron Safe Key!<se_nots map_r2020 8><bw_break>"
+  },
+  "166061": {
+    "<pc>は　レイバッサに\n鉄の金庫のカギを　渡した！": "<pc> gave Reybassa the Iron Safe Key!"
+  },
+  "166914": {
+    "レイバッサは　震える手つきで\n金庫の中にある　伝説の防具を　取りだした！": "With trembling hands, Reybassa retrieved the\nlegendary armor in the safe!"
+  },
+  "165806": {
+    "「<pc>さんの　おかげで\n　一流の商人として　店を持つ決心ができました。\n<br>\n「家族と一緒に盛り立てて　立派な店にするので\n　開店した際は　ぜひ　いらしてください。": "Thanks to <pc>, I have decided to\nopen my own store as a first-class merchant.\nMy family and I will work together to make it\n<br>\na great store, so please come visit us when we\nopen."
+  }
+}

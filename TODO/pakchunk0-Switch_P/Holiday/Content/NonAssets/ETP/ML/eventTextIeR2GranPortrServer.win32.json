@@ -1,0 +1,5 @@
+{
+  "93370": {
+    "このエレベーターで　グランゼドーラ城の１階\nまたは　秘密会議室へ　行けるようだ。\nどちらへ　行きますか？\n<select>\nグランゼドーラ城・１階\n秘密会議室\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "This elevator will take you to the first floor\nof Gran Zedora Castle or to the secret meeting\nroom. Which way do you want to go?\n<select>\nGran Zedora Castle, 1st floor\nsecret meeting room\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  }
+}

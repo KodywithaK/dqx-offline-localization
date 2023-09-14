@@ -1,0 +1,59 @@
+{
+  "94113": {
+    "<pipipi_low>「……む。すまない。\n　今　そこへ向かうのは　少々都合が悪いようだ。\n<br>\n「お金は返す。\n　時間をおいてから　また利用してくれ。": "<pipipi_low>Mm. I'm sorry. It's just not a good time for\nus to be heading out there right now. I'll\ngive you your money back. Please take\n<br>\nadvantage of it again after some time."
+  },
+  "94114": {
+    "「ただし　送るのみで　迎えには行けん。\n　それでも　よければ　どこまで行く？\n<name_off><select>\nランガーオ村\n獅子門\n橋上の宿（ゲルト海峡）\nザマ烽火台（ザマ峠）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": "But I can only drop you off. I can't pick you\nup. Even so, if you don't mind, where would\nyou like to go?\n<name_off><select>\nLangao Village\nLion Gate\nBridge Inn (Gert Strait)\nZama Beacon (Zama Pass)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+  },
+  "94115": {
+    "<attr><feel_happy_lv2><end_attr>「まいど　ありがとう。\n　ではすぐに　出発するぞ。": "<attr><feel_happy_lv2><end_attr>Thank you very much. We'll be leaving soon."
+  },
+  "94116": {
+    "「そうか。乗らないか。\n　機会があれば　また利用してくれ。": "Oh, well. You don't want a ride? If you get a\nchance, take advantage of it again."
+  },
+  "94117": {
+    "<pipipi_low>「おまちどおさん。\n　獅子門に　到着したぞ。\n　では　さらばだ。": "<pipipi_low>Hello, ladies and gentlemen. We have arrived\nat Lion Gate. Well then, farewell."
+  },
+  "94118": {
+    "<pipipi_low>「おまちどおさん。\n　ランガーオ村に　到着したぞ。\n　では　さらばだ。": "<pipipi_low>Hello, ladies and gentlemen. We have arrived\nat Langao Village. Well then, farewell."
+  },
+  "127388": {
+    "<pipipi_low>「おまちどおさん。\n　橋上の宿に　到着したぞ。\n　では　さらばだ。": "<pipipi_low>Hello, ladies and gentlemen. We have arrived\nat the Bridge Inn. Well, goodbye."
+  },
+  "128315": {
+    "<pipipi_low>「おまちどおさん。\n　ザマ烽火台に　到着したぞ。\n　では　さらばだ。": "<pipipi_low>Hey there, ladies and gentlemen. You have\narrived at Zama Beacon. Well then, farewell."
+  },
+  "94119": {
+    "「すまない。お金が足りないようだ。\n　お金を持って　また来てくれ。": "Sorry. I'm sorry. I don't have enough money.\nPlease come back with more money."
+  },
+  "94120": {
+    "「<%sL_TIMEI>まで\n　行くのか。\n　運賃を２５ゴールドいただくが　いいか？<yesno><break>": "You are going to <%sL_TIMEI>. I'll give you 25\ngold for the fare.<yesno><break>"
+  },
+  "94121": {
+    "「そうか。それは残念だ。\n　機会があれば　また来てくれ。": "I see. I'm sorry to hear that. Come again when\nyou get a chance."
+  },
+  "129211": {
+    "「これから　ランガーオ村を経由して\n　ザマ烽火台へ向かうのだが\n　よければ　そこまで　乗せていくぞ。<bw_break>": "I'm on my way to Zama Beacon via Langao\nVillage, and if you want, I can give you a\nride there.<bw_break>"
+  },
+  "173703": {
+    "「自分は　行商人のリドバンという。\n　以後　よろしく頼む。\n<br>\n「自分の仕事は　この馬車で\n　グレン城下町からの　商品を\n　各所へ　運ぶことだ。\n<br>\n「これから　ランガーオ村を経由して\n　ザマ烽火台へ向かうのだが\n　よければ　そこまで　乗せていくぞ。<bw_break>": "My name is Lidban, a peddler. Please take care\nof me from now on. My job is to transport\ngoods from Glen Castle Town to various places\n<br>\nwith this wagon. I am heading to Zama Beacon\nvia Langao Village, and if you like, I can\ngive you a ride there.<bw_break>"
+  },
+  "181719": {
+    "「ここから　グレン城下町を　ぬけて\n　グレン領東の街道を　北に進むと\n　獅子門という　大きな集落に出る。\n<br>\n「さらに　そこから街道沿いに進むと\n　ランガーオ村という　オーガたちが\n　暮らす村に　行き着く。\n<br>\n「まだ　行ったことがないのであれば\n　一度　行ってみると　いいぞ。": "From here, passing through Glen Castle Town\nand heading north on the Glen East road, you\nwill come to a large village called Lion Gate.\n<br>\nIf you continue along the road, you will reach\nLangao Village, a village where Ogre live. If\nyou have never been to Langao Village, it is\n<br>\nworth a visit."
+  },
+  "201148": {
+    "キケン！　ガケ崩れに注意！\n<br>\n……看板のスミに　ラクガキがある。\n<br>\nココに　イタ映え絶景ポイントあり！\nまじ　バイブスふるえた！　さいこー<heart>\n　　　　　　　　　　　　　イタ映え女王　ミヤビ": "Kiken! Beware of the collapse of the gakke!\nThere's a rakugaki at the bottom of the sign.\nHere's a great view point! I really got the\n<br>\nvibes going! Great <heart> Miyabi, the queen of\nita-ei!"
+  },
+  "201150": {
+    "<%sEV_QUE_NAME0>を　あそぶをキメてから　倒した！\n<br>\nこの近くの　集合場所\nグレン城が見える　ガケ沿いの立て札を探そう！": "I defeated <%SEV_QUE_NAME0> after playing with\nhim! Look for the sign along the gaket where\nyou can see Glen Castle, the rendezvous point\n<br>\nnear here!"
+  },
+  "201151": {
+    "<pipipi_mid>「おっ！　<pc>っち！\n　はやいな～！": "<pipipi_mid>Oops! <pc>! You're fast!"
+  },
+  "201152": {
+    "キケン！　ガケ崩れに注意！\n<br>\n……看板のスミに　ラクガキがある。\n<br>\nココに　イタ映え絶景ポイントあり！\nまじ　バイブスふるえた！　さいこー<heart>\n　　　　　　　　　　　　　イタ映え女王　ミヤビ": "Kiken! Beware of the collapse of the gakke!\nThere's a rakugaki at the bottom of the sign.\nHere's a great view point! I really got the\n<br>\nvibes going! Great <heart> Miyabi, the queen of\nita-ei!"
+  },
+  "201153": {
+    "キケン！　ガケ崩れに注意！\n……看板のスミに　ラクガキがある。\n<br>\nココに　イタ映え絶景ポイントあり！\nまじ　バイブスふるえた！　さいこー<heart>\n　　　　　　　　　　　　　イタ映え女王　ミヤビ\n<br>\n……さらに　その横に\n書き足された　ラクガキがある。\n<br>\nイタ映え絶景は　いただいた！\n　　　　　　　　　　　遊びクラブ代表　ルッチー": "Kiken! Beware of the collapse of the gakke!\nThere's a rakugaki at the bottom of the sign.\nHere's a great view point! I could really\n<br>\nvibe! Miyabi, the queen of \"Ita-Ei Ei Ei\nQueen\"! I got the best view of the ita-ei!\nLucchie, representative of the play club"
+  }
+}
