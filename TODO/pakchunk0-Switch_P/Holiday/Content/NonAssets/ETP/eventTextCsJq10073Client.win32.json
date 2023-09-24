@@ -42,10 +42,10 @@
     "<start_lip_sync n01421 _normal m00001>「アンタも　聞きたいこととかあるだろうが\n　オレのほうの用件を　優先させてもらおう。\n　……それと　こいつも　忘れんなよ！<stop_lip_animation n01421 CLOSE_MOUTH>": ""
   },
   "19001525": {
-    "<cs_pchero>は\n闘士の割符（だいじなもの）を　受け取った！<me 60>": ""
+    "<cs_pchero>は\n闘士の割符（だいじなもの）を　受け取った！<me 60>": "<cs_pchero> received the\nFighters' Tally (Key Item)!<me 60>"
   },
   "31993": {
-    "クラークに\n闘士の割符を　渡した！": ""
+    "クラークに\n闘士の割符を　渡した！": "Gave the Fighters' Tally to Clark!"
   },
   "31994": {
     "<start_lip_sync n01427 _normal m00001>「……確かに　これは　闘士の割符。\n　これで　<pc>選手の予選は\n　終了となります。<stop_lip_animation n01427 CLOSE_MOUTH>": ""
@@ -90,7 +90,7 @@
     "<start_lip_sync n01426 _normal m00001>「セインズも　参加してんのかよ……。\n　まあ　とにかく　修行は達成できたわけだな。\n　それなら　こいつを持ってけよ。<stop_lip_animation n01426 CLOSE_MOUTH>": ""
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": ""
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "Quest \"<%sEV_QUEST_NAME>\" cleared.\n<update_quedate><open_irai>"
   },
   "32008": {
     "<start_lip_sync n01426 _normal m00001>「ところで　予選の順位は　どうだったんだ？\n　セインズと　<pc>の\n　どっちが　勝ったんだよ？<stop_lip_animation n01426 CLOSE_MOUTH>": ""
