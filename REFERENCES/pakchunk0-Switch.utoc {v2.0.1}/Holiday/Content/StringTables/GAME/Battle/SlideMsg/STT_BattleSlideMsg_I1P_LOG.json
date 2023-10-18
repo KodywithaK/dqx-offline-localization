@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_BattleSlideMsg_I1P_LOG",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_BattleSlideMsg_I1P_LOG",
+      "KeysToMetaData": {
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI": "<%sB_LOG_ABILITY_UP><%sB_TARGET>の こうげき力が 少し あがった！",
+        "ODDMESSAGE_NO_SLIDE_SYUBI": "<%sB_LOG_ABILITY_UP><%sB_TARGET>の しゅび力が 少し あがった！",
+        "ODDMESSAGE_NO_SLIDE_KOUDOUJIKAN": "<%sB_LOG_ABILITY_UP><%sB_TARGET>の すばやさが 少し あがった！",
+        "ODDMESSAGE_NO_SLIDE_MIRYOKU": "<%sB_LOG_ABILITY_UP><%sB_TARGET>の みりょくが 少し あがった！",
+        "ODDMESSAGE_NO_SLIDE_BREATH": "<%sB_LOG_ABILITY_UP><%sB_TARGET>の ブレス耐性が 少し あがった！",
+        "ODDMESSAGE_NO_SLIDE_MAGIC": "<%sB_LOG_ABILITY_UP><%sB_TARGET>の 呪文耐性が 少し あがった！",
+        "ODDMESSAGE_NO_SLIDE_MAGIC_DAMAGE": "<%sB_LOG_ABILITY_UP><%sB_TARGET>の 呪文の威力が 少し あがった！",
+        "ODDMESSAGE_NO_SLIDE_HEAL": "<%sB_LOG_ABILITY_UP><%sB_TARGET>の 呪文の回復力が 少し あがった！",
+        "ODDMESSAGE_NO_SLIDE_SYUBI2": "<%sB_LOG_ABILITY_UP><%sB_TARGET>の しゅび力が 少し あがった！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_PLUS": "<%sB_LOG_ABILITY_UP><%sB_TARGET>の こうげき力が 少し ふえた！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR": "<%sB_LOG_ABILITY_UP><%sB_TARGET>の こうげき力が 少し あがった！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_PIORA": "<%sB_LOG_ABILITY_UP><%sB_TARGET>の バイシオンとピオラの効果が発動！"
+      }
+    },
+    "StringTableId": 0
+  }
+]

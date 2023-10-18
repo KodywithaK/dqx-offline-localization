@@ -1,0 +1,29 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_UIShiraberuSys",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_LD_SerchFieldObject",
+      "KeysToMetaData": {
+        "SYSTXT_SHIRABERU_00010": "{Shiraberu_Item_Name}を　手に入れた！\n<end>",
+        "SYSTXT_SHIRABERU_00020": "{Shiraberu_Gold}ゴールドを　手に入れた！\n<end>",
+        "SYSTXT_SHIRABERU_00030": "なんと！　{pc}は\n{Shiraberu_Item_Name}を　手に入れた！\n<end>",
+        "SYSTXT_SHIRABERU_00040": "しかし　{Shiraberu_Item_Name}は　もう持てない。\n{pc}は　もとの場所に　もどした。\n<end>",
+        "SYSTXT_SHIRABERU_00050": "なにも　みつからなかった。\n<end>",
+        "SYSTXT_SHIRABERU_01010": "{Shiraberu_Item_Name}を　{Shiraberu_Item_Num}個　手に入れた！\n<end>",
+        "SYSTXT_SHIRABERU_01020": "なんと！　{pc}は\n{Shiraberu_Item_Name}を　{Shiraberu_Item_Num}個　手に入れた！\n<end>",
+        "SYSTXT_SHIRABERU_02010": "なんと！　宝箱は\n{Treasure_Monster}だった！\n<end>",
+        "SYSTXT_SHIRABERU_02020": "この宝箱を開けるには　特別なカギが\n必要なようだ。\n<end>",
+        "SYSTXT_SHIRABERU_02030": "{pc}は　大とうぞくのカギを使った。\n<br_break>",
+        "SYSTXT_SHIRABERU_02040": "{pc}は\n{Shiraberu_Item_Name}を　手に入れた！\n<end>",
+        "SYSTXT_SHIRABERU_02050": "{pc}は\n{Shiraberu_Gold}ゴールドを　手に入れた！\n<end>",
+        "SYSTXT_SHIRABERU_02051": "しかし　{Shiraberu_Item_Name}は　もう持てない。\n{pc}は　宝箱に　もどした。\n<end>",
+        "SYSTXT_SHIRABERU_02060": "{pc}は\n{Shiraberu_Item_Name}を　{Shiraberu_Item_Num}個　手に入れた！\n<end>",
+        "SYSTXT_SHIRABERU_03010": "扉は　かたく　閉ざされている。\n<end>",
+        "SYSTXT_SHIRABERU_03020": "この扉を開けるには　特別なカギが\n必要なようだ。\n<end>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

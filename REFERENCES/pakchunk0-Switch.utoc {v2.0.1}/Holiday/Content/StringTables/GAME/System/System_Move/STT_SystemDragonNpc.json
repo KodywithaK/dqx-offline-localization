@@ -1,0 +1,31 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_SystemDragonNpc",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_SystemDragonNpc",
+      "KeysToMetaData": {
+        "SYSTXT_MOVE_DRAGON_NPC_01010": "「よう来なすった。\n　ここで　竜守りに伝わる技を　使えるでなあ。\n　今日は飛竜を　どう変えなさるんでさあ？\n<select>\nカスタムする\n説明をきく\n<select_end><break>",
+        "SYSTXT_MOVE_DRAGON_NPC_01020": "「他に何を　なさるんでさあ？\n<select>\nカスタムする\n説明をきく\n<select_end><break>",
+        "SYSTXT_MOVE_DRAGON_NPC_01030": "「あんがとな～。\n　また　飛竜に顔を見せに\n　来てくだせえよお。",
+        "SYSTXT_MOVE_DRAGON_NPC_01040": "「カラーリングですな。\n　カラーリングしたい　部位を選んでくだせえ。",
+        "SYSTXT_MOVE_DRAGON_NPC_01050": "「セットした色を元に戻していいかのう？\n<yesno><break>",
+        "SYSTXT_MOVE_DRAGON_NPC_01060": "「はぁ？　それじゃあ　今と変わりませんぞお。",
+        "SYSTXT_MOVE_DRAGON_NPC_01070": "「この色で　よろしいですかのう？\n　ほんでは　{Gold_Need}ゴールド\n　必要なんで　よろしいですかのう？\n<yesno><break>",
+        "SYSTXT_MOVE_DRAGON_NPC_01080": "「むー？　お金が足りませんぞお。",
+        "SYSTXT_MOVE_DRAGON_NPC_01090": "「よ～ス。\n　ほんでは　カラーリングしますぞ。\n　ちっとばかし　おとなしくしててくれよなあ。",
+        "SYSTXT_MOVE_DRAGON_NPC_01100": "「ほ～れ！\n　きれいに　できましたぞお！",
+        "SYSTXT_MOVE_DRAGON_NPC_01110": "「名前を　かえるんですな。\n　いい名前を　つけてやってくだせえ。",
+        "SYSTXT_MOVE_DRAGON_NPC_01120": "「…んー？　どうやら　その名前は\n　付けることが　できないようですだ。\n　別の名前を　付けてくだせえなあ。",
+        "SYSTXT_MOVE_DRAGON_NPC_01130": "「{Hiryu_Name}　ですかな。\n　この名前で　いいですかのう？\n<yesno><break>",
+        "SYSTXT_MOVE_DRAGON_NPC_01140": "「ほんでは　今から　この子は\n　{Hiryu_Name}　だな。\n　これからも　かわいがってやってくだせえよお。",
+        "SYSTXT_MOVE_DRAGON_NPC_01150": "「何について　聞きたいかのう？\n<select>\n飛竜の操作について\nカラーリングについて\n<select_end><break>",
+        "SYSTXT_MOVE_DRAGON_NPC_01160": "「他に　聞きたいことは　あるかのう？\n<select>\n飛竜の操作について\nカラーリングについて\n<select_end><break>",
+        "SYSTXT_MOVE_DRAGON_NPC_01170": "「<emoji LeftStick>で　前進や旋回したり\n　<emoji RightStick_UpDown>で　高度を変えることが　できますぞお。\n<br>\n「地上に　降りたい場合は\n　<emoji FaceButton_Right>で　地上へ降りることができるんでさあ\n<br>\n「あとは　地上での操作と　だいたい同じですだ。\n　それから　飛竜はな　レンダーシアでしか\n　呼べないから　気ぃ付けてくんなせえよ。\n<br>\n「ほんでは　飛竜と　一体になって\n　かっちょよく　飛んでみてくれよなぁ。\n<bw_break>",
+        "SYSTXT_MOVE_DRAGON_NPC_01180": "「飛竜の　身体の色を\n　自由に変えられる技でなあ。\n　背中と腹部の色が　変えられますぞお。\n<br>\n「カラーリングには　料金が必要なんでさあ。\n<br>\n「生まれたままの　飛竜を\n　自分好みに　染めてやってくだせえよ。\n<bw_break>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_PartyMainSys",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_",
+      "KeysToMetaData": {
+        "SYSTXT_PARTY_MAIN_00010": "メンバーいれかえ",
+        "SYSTXT_PARTY_MAIN_00020": "バトルメンバー",
+        "SYSTXT_PARTY_MAIN_00030": "番号",
+        "SYSTXT_PARTY_MAIN_00040": "スタンバイ",
+        "SYSTXT_PARTY_MAIN_00050": "ゲスト",
+        "SYSTXT_PARTY_MAIN_00060": "状態をみる",
+        "SYSTXT_PARTY_MAIN_00070": "状態（バトルメンバー）",
+        "SYSTXT_PARTY_MAIN_00080": "状態（スタンバイ）",
+        "SYSTXT_PARTY_MAIN_00090": "状態（ゲスト）",
+        "SYSTXT_PARTY_MAIN_00100": "（なし）",
+        "SYSTXT_PARTY_MAIN_00110": "そのメンバーでは　戦えない！",
+        "SYSTXT_PARTY_MAIN_10010": "ここから先の戦いは　{Character_Name_PTforce}を\nバトルメンバーに　くわえる必要があります。　\n<br>\nまた　戦闘中も　{Character_Name_PTforce}を\nバトルメンバーから　はずすことはできません。",
+        "SYSTXT_PARTY_MAIN_10011": "ここから先の戦いは　{Character_Name_PTforce}\n{Character_Name_PTforce_2}を\nバトルメンバーに　くわえる必要があります。　\n<br>\nまた　戦闘中も　{Character_Name_PTforce}\n{Character_Name_PTforce_2}を\nバトルメンバーから　はずすことはできません。",
+        "SYSTXT_PARTY_MAIN_10012": "ここから先の戦いは　{Character_Name_PTforce}\n{Character_Name_PTforce_2}　{Character_Name_PTforce_3}を\nバトルメンバーに　くわえる必要があります。　\n<br>\nまた　戦闘中も　{Character_Name_PTforce}\n{Character_Name_PTforce_2}　{Character_Name_PTforce_3}を\nバトルメンバーから　はずすことはできません。",
+        "SYSTXT_PARTY_MAIN_10013": "ここから先の戦いは　{Character_Name_PTforce}\n{Character_Name_PTforce_2}　{Character_Name_PTforce_3}　{Character_Name_PTforce_4}を\nバトルメンバーに　くわえる必要があります。　\n<br>\nまた　戦闘中も　{Character_Name_PTforce}\n{Character_Name_PTforce_2}　{Character_Name_PTforce_3}　{Character_Name_PTforce_4}を\nバトルメンバーから　はずすことはできません。",
+        "SYSTXT_PARTY_MAIN_11010": "このメンバーで　よろしいですか？\n<yesno><break>",
+        "SYSTXT_PARTY_MAIN_11020": "{Character_Name_PTforce}を　バトルメンバーに\nくわえてください。",
+        "SYSTXT_PARTY_MAIN_11021": "{Character_Name_PTforce}　{Character_Name_PTforce2}を\nバトルメンバーに　くわえてください。",
+        "SYSTXT_PARTY_MAIN_11022": "{Character_Name_PTforce}　{Character_Name_PTforce2}\n{Character_Name_PTforce3}を　バトルメンバーに\nくわえてください。",
+        "SYSTXT_PARTY_MAIN_11023": "{Character_Name_PTforce}　{Character_Name_PTforce2}\n{Character_Name_PTforce3}　{Character_Name_PTforce4}を\nバトルメンバーに　くわえてください。",
+        "SYSTXT_PARTY_MAIN_11030": "この戦闘では　{Character_Name_PTforce_Select}を\nバトルメンバーから　はずすことはできません。"
+      }
+    },
+    "StringTableId": 0
+  }
+]

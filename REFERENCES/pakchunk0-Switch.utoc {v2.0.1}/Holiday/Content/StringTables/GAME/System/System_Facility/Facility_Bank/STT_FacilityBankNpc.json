@@ -1,0 +1,28 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_FacilityBankNpc",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_FacilityBankNpc",
+      "KeysToMetaData": {
+        "SYSTXT_FACILITY_BANK_NPC_01010": "「愛と信頼のゴールド銀行へ　ようこそ。\r\n<br_break>",
+        "SYSTXT_FACILITY_BANK_NPC_01020": "「{PC}さまからは　現在\r\n　{Bank_Deposit_Total}ゴールド　お預かりしています。\r\n　ご用は　なんでしょう？\r\n<select_se_off>\r\nあずける\r\nひきだす\r\nやめる\r\n<select_end><break>",
+        "SYSTXT_FACILITY_BANK_NPC_01030": "「{PC}さまからは　現在\r\n　{Bank_Deposit_Total}ゴールド　お預かりしています。\r\n　他に　ご用はありますか？\r\n<select_se_off>\r\nあずける\r\nひきだす\r\nやめる\r\n<select_end><break>",
+        "SYSTXT_FACILITY_BANK_NPC_01040": "「現在は　{PC}さまからの\r\n　お預かり金は　ございません。\r\n　ご用は　なんでしょう？\r\n<select_se_off>\r\nあずける\r\nひきだす\r\nやめる\r\n<select_end><break>",
+        "SYSTXT_FACILITY_BANK_NPC_01050": "「現在　{Bank_Deposit_Total}ゴールド\r\n　お預かりしています。\r\n　また　お越しくださいませ。\r\n<end>",
+        "SYSTXT_FACILITY_BANK_NPC_01060": "「現在　{PC}さまからの\r\n　お預かり金は　ございません。\r\n　また　お越しくださいませ。\r\n<end>",
+        "SYSTXT_FACILITY_BANK_NPC_01070": "「失礼ですが　{PC}さまは\n　預けられるだけの　ゴールドを\n　お持ちでないようです。\n<br_break>",
+        "SYSTXT_FACILITY_BANK_NPC_01080": "「大変　申し訳ございませんが\r\n　これ以上　お預かりできません。\r\n<br_break>",
+        "SYSTXT_FACILITY_BANK_NPC_01090": "「ご入金は　１０００ゴールド単位で\r\n　うけたまわります。\r\n　いくら　お預かりしましょうか？\r\n<break>",
+        "SYSTXT_FACILITY_BANK_NPC_01100": "「{Bank_Deposit}ゴールド\r\n　たしかに　お預かりしました。\r\n<br_break>",
+        "SYSTXT_FACILITY_BANK_NPC_01110": "「えっ？　{PC}さまのゴールドは\n　お預かりしていませんが……。\n<br_break>",
+        "SYSTXT_FACILITY_BANK_NPC_01120": "「失礼ですが　{PC}さまは\n　これ以上　ゴールドを\n　お持ちになれないようです。\n<br_break>",
+        "SYSTXT_FACILITY_BANK_NPC_01130": "「現在　{Bank_Deposit_Total}ゴールド\r\n　お預かりしていますが\r\n　いくら　お引き出しいたしますか？\r\n<break>",
+        "SYSTXT_FACILITY_BANK_NPC_01140": "「{Bank_Withdraw}ゴールドですね。\r\n　はい　どうぞ。\r\n<br_break>",
+        "SYSTXT_FACILITY_BANK_NPC_01150": "「やめるのですね。\r\n<br_break>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_BattleSlideMsg_I2E_SYS",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_BattleSlideMsg_I2E_SYS",
+      "KeysToMetaData": {
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI": "<%sB_TARGET>の こうげき力が かなり あがった！",
+        "ODDMESSAGE_NO_SLIDE_SYUBI": "<%sB_TARGET>の しゅび力が かなり あがった！",
+        "ODDMESSAGE_NO_SLIDE_KOUDOUJIKAN": "<%sB_TARGET>の すばやさが かなり あがった！",
+        "ODDMESSAGE_NO_SLIDE_MIRYOKU": "<%sB_TARGET>の みりょくが かなり あがった！",
+        "ODDMESSAGE_NO_SLIDE_BREATH": "<%sB_TARGET>の ブレス耐性が かなり あがった！",
+        "ODDMESSAGE_NO_SLIDE_MAGIC": "<%sB_TARGET>の 呪文耐性が かなり あがった！",
+        "ODDMESSAGE_NO_SLIDE_MAGIC_DAMAGE": "<%sB_TARGET>の 呪文の威力が かなり あがった！",
+        "ODDMESSAGE_NO_SLIDE_HEAL": "<%sB_TARGET>の 呪文の回復力が かなり あがった！",
+        "ODDMESSAGE_NO_SLIDE_SYUBI2": "<%sB_TARGET>の しゅび力が かなり あがった！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_PLUS": "<%sB_TARGET>の こうげき力が かなり ふえた！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR": "<%sB_TARGET>の こうげき力が かなり あがった！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_PIORA": "<%sB_TARGET>の バイシオンとピオラの効果が発動！"
+      }
+    },
+    "StringTableId": 0
+  }
+]

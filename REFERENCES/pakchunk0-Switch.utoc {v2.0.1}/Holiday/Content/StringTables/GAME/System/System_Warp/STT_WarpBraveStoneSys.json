@@ -1,0 +1,15 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_WarpBraveStoneSys",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_WarpBraveStoneSys",
+      "KeysToMetaData": {
+        "SYSTXT_BRAVESTONE_00010": "翼を生やした　五角形の石塔がある。\n特に　何も起こらないようだ。\n<end>",
+        "SYSTXT_BRAVESTONE_00020": "ブレイブストーンをかざして\n{Location_Name}へ　飛びますか？\n<yesno><break>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_FishingExchangeNPC",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "NewStringTable",
+      "KeysToMetaData": {
+        "SYSTXT_FISHING_EXCHANGE_NPC_01010": "「ありがとうございました。\n　また　お越しください。\n<turn end>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01020": "「こちらは　おさかな交換員です。\n　本日は　いかがなさいますか？\n<select_se_off>\nさかなを選んで渡す\nさかなを全て渡す\n景品を交換する\n説明を聞く\n<select_end><break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01040": "「お持ちのさかなを　全部まとめて\n　おさかなコイン　{Fish_Coin}枚で\n　引き取りますが　よろしいですか？\n<yesno><break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01050": "「{Fish_Name}を\r\n　おさかなコイン　{Fish_Coin}枚で\r\n　引き取りますが　よろしいですか？\r\n<yesno><break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01060": "「青い文字の品物の交換は　一度だけになります。\n　交換したい物を　選んでください。\n<break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01070": "「{Item_Name}を\n　おさかなコイン　{Fish_Coin}枚と\n　交換しますが　よろしいですか？\n<yesno><break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01080": "「{Item_Name}　{Item_Selected_Quantity}個を\n　おさかなコイン　{Fish_Coin}枚と\n　交換しますが　よろしいですか？\n<yesno><break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01090": "「私ども　おさかな交換員は\n　お客さまが釣り上げた　さかなを\n　おさかなコインと　交換いたします。\n<br>\n「おさかなコインを　お持ちいただければ\n　枚数に見合った景品と　交換いたしましょう。\n<bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01100": "「おや……。\n　交換できるさかなを　お持ちでないようですね。\n<bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01110": "「その景品を交換するには\n　おさかなコインが　足りません。\n<bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01120": "「おや　ふくろがいっぱいで\n　{Item_Name}は\n　持ちきれないみたいですね。\n<bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01130": "「{Item_Name}は\n　これ以上　交換できません。\n<bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01150": "「どのさかなを　渡していただけますか？\n<break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01160": "<speed=0>\n{Character_Name}は　{Fish_Name}を渡して\nおさかなコインを　{Fish_Coin}枚　手に入れた！\n<se system Item><speed=default><bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01170": "<speed=0>\n{Character_Name}は\nビッグサイズの　{Fish_Name}を渡して\nおさかなコインを　{Fish_Coin}枚　手に入れた！\n<se system Item><speed=default><bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01180": "<speed=0>\n{Character_Name}は\nキングサイズの　{Fish_Name}を渡して\nおさかなコインを　{Fish_Coin}枚　手に入れた！\n<se system Item><speed=default><bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01190": "<speed=0>\n{Character_Name}は\nさかなを　まとめて渡して\nおさかなコインを　{Fish_Coin}枚　手に入れた！\n<se system Item><speed=default><bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01230": "<speed=0>\n{Character_Name}は\n{Item_Name}を　手に入れた！\n<se system Item><speed=default><bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01240": "<speed=0>\n{Character_Name}は\n{Item_Name}を　{Item_Selected_Quantity}個　手に入れた！\n<se system Item><speed=default><bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01250": "「他に　交換したい物は　ありますか？\n<break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01260": "「他に　ご用はありますか？\n<break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01280": "「ごめんなさい　紹介の無い方は\n　おさかな交換の施設を　利用できないんです。\n<br>\n「まずは　おとなりにいる\n　釣り老師ハルモス様の\n　お話を　聞いてみてください。\n<turn end>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01320": "「このまま　さかなを交換しても\n　おさかなコインを　持ちきれませんね。\n<br>\n「景品と交換して　おさかなコインを減らしてから\n　また　さかなをお渡しください。\n<bw_break>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

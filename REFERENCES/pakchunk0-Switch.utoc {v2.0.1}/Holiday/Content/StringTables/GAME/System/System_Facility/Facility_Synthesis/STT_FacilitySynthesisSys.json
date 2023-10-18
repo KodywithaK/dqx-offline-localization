@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_FacilitySynthesisSys",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_FacilitySynthesisSys",
+      "KeysToMetaData": {
+        "SYSTXT_FACILITY_SYNTHESIS_SYS_00010": "アクセサリー",
+        "SYSTXT_FACILITY_SYNTHESIS_SYS_00020": "ベースの合成効果",
+        "SYSTXT_FACILITY_SYNTHESIS_SYS_00030": "合成素材の合成効果",
+        "SYSTXT_FACILITY_SYNTHESIS_SYS_00040": "つける合成効果",
+        "SYSTXT_FACILITY_SYNTHESIS_SYS_00050": "つける伝承効果",
+        "SYSTXT_FACILITY_SYNTHESIS_SYS_01010": "（合成効果をつけよう）",
+        "SYSTXT_FACILITY_SYNTHESIS_SYS_01020": "（合成効果なし）",
+        "SYSTXT_FACILITY_SYNTHESIS_SYS_02010": "伝承：",
+        "SYSTXT_FACILITY_SYNTHESIS_SYS_02020": "なし",
+        "SYSTXT_FACILITY_SYNTHESIS_SYS_10010": "{Item_Selected_Name}に\r\n{Effect_Selected_Name}の　効果がついた！"
+      }
+    },
+    "StringTableId": 0
+  }
+]

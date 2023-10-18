@@ -1,0 +1,37 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_FacilityColoringNpc",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_FacilityColoringNpc",
+      "KeysToMetaData": {
+        "SYSTXT_FACILITY_COLORING_NPC_00010": "「いらっしゃいませ！\r\n　ここは　カラーリング屋です！\r\n　本日は　どうなさいますか？\r\n<bw_break>",
+        "SYSTXT_FACILITY_COLORING_NPC_00020": "「ありがとうございました。\r\n　またのご来店を　お待ちしております。",
+        "SYSTXT_FACILITY_COLORING_NPC_10010": "「すみませんが　その装備品は\r\n　カラーリングが　できません。\r\n　他の装備品を　お選びください。\r\n<bw_break>",
+        "SYSTXT_FACILITY_COLORING_NPC_10020": "「そこには　何も装備していないようですね。\r\n<bw_break>",
+        "SYSTXT_FACILITY_COLORING_NPC_10030": "「この装備品は　見た目に表示されていませんが\r\n　それでもカラーリングしますか？　\r\n<yesno><close>",
+        "SYSTXT_FACILITY_COLORING_NPC_10040": "「あら？　それだと\r\n　今と変わらないようですが　よろしいですか？\r\n<yesno><close>",
+        "SYSTXT_FACILITY_COLORING_NPC_10050": "「セットしたカラーを　元に戻しますか？\r\n<yesno><close>",
+        "SYSTXT_FACILITY_COLORING_NPC_10060": "「あら？　それだと　今と変わらないようです。\r\n　他の色を　お選びください。\r\n<bw_break>",
+        "SYSTXT_FACILITY_COLORING_NPC_10070": "「カラーリングするアイテムを\r\n　お確かめください。\r\n　この内容で　カラーリングいたしますか？\r\n<yesno><close>",
+        "SYSTXT_FACILITY_COLORING_NPC_10080": "「カラーリングするアイテムを\r\n　お確かめください。\r\n　この内容で　カラーリングいたしますか？\r\n<yesno><close>",
+        "SYSTXT_FACILITY_COLORING_NPC_10090": "「それでは　{金額}ゴールドが\r\n　必要ですが　よろしいですか？\r\n<yesno><close>",
+        "SYSTXT_FACILITY_COLORING_NPC_10100": "「おやめになるのですね。\n<br>\n「他に　ご用はありますか？\n<bw_break>",
+        "SYSTXT_FACILITY_COLORING_NPC_10110": "「あら？　お金が足りないようです。\r\n<bw_break>",
+        "SYSTXT_FACILITY_COLORING_NPC_20010": "「{装備品種別名}は　これ以上登録できません。\r\n　既に登録されているアイテムを　消して\r\n　登録することになりますが　よろしいですか？\r\n<yesno><close>",
+        "SYSTXT_FACILITY_COLORING_NPC_20020": "「{登録中アイテム}を消して\r\n　{新規登録アイテム}を\r\n　保存して　よろしいですか？\r\n<yesno><close>",
+        "SYSTXT_FACILITY_COLORING_NPC_20030": "「{新規登録アイテム}の\r\n　カラーリングを　やめますか？\r\n<yesno><close>",
+        "SYSTXT_FACILITY_COLORING_NPC_20040": "「かしこまりました。\r\n　それでは　カラーリングしますね。\r\n<bw_break>",
+        "SYSTXT_FACILITY_COLORING_NPC_20050": "「……はい！\r\n　きれいに　カラーリングできました！\r\n<bw_break>",
+        "SYSTXT_FACILITY_COLORING_NPC_20060": "「他にも　カラーリングしたい装備品は\r\n　ありますか？\r\n<yesno><close>",
+        "SYSTXT_FACILITY_COLORING_NPC_20070": "「この装備は　マイコーデに使われていますが\r\n　本当に　登録を消しても　よろしいですか？\r\n<yesno><close>",
+        "SYSTXT_FACILITY_COLORING_NPC_20080": "「この装備は　マイコーデに使われていますが\n　カラーリング　いたしますか？\n<yesno><close>",
+        "SYSTXT_FACILITY_COLORING_NPC_20090": "「カラーリングされている装備を\r\n　持っていないようです。\r\n<bw_break>",
+        "SYSTXT_FACILITY_COLORING_NPC_20100": "「あら？　装備品を持っていないようです。\r\n<bw_break>",
+        "SYSTXT_FACILITY_COLORING_NPC_20110": "「選択した装備品の\r\nカラーリングをやめますか?\r\n<yesno><close>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

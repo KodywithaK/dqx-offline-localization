@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_BattleSlideMsg_D2E_LOG",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_BattleSlideMsg_D2E_LOG",
+      "KeysToMetaData": {
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI": "<%sB_LOG_ABILITY_DOWN><%sB_TARGET>の こうげき力が かなり さがった！",
+        "ODDMESSAGE_NO_SLIDE_SYUBI": "<%sB_LOG_ABILITY_DOWN><%sB_TARGET>の しゅび力が かなり さがった！",
+        "ODDMESSAGE_NO_SLIDE_KOUDOUJIKAN": "<%sB_LOG_ABILITY_DOWN><%sB_TARGET>の すばやさが かなり さがった！",
+        "ODDMESSAGE_NO_SLIDE_MIRYOKU": "<%sB_LOG_ABILITY_DOWN><%sB_TARGET>の みりょくが かなり さがった！",
+        "ODDMESSAGE_NO_SLIDE_BREATH": "<%sB_LOG_ABILITY_DOWN><%sB_TARGET>の ブレス耐性が かなり さがった！",
+        "ODDMESSAGE_NO_SLIDE_MAGIC": "<%sB_LOG_ABILITY_DOWN><%sB_TARGET>の 呪文耐性が かなり さがった！",
+        "ODDMESSAGE_NO_SLIDE_MAGIC_DAMAGE": "<%sB_LOG_ABILITY_DOWN><%sB_TARGET>の 呪文の威力が かなり さがった！",
+        "ODDMESSAGE_NO_SLIDE_HEAL": "<%sB_LOG_ABILITY_DOWN><%sB_TARGET>の 呪文の回復力が かなり さがった！",
+        "ODDMESSAGE_NO_SLIDE_SYUBI2": "<%sB_LOG_ABILITY_DOWN><%sB_TARGET>の しゅび力が かなり さがった！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_PLUS": "<%sB_LOG_ABILITY_DOWN><%sB_TARGET>の こうげき力が かなり へった！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR": "<%sB_LOG_ABILITY_DOWN><%sB_TARGET>の こうげき力が かなり さがった！",
+        "ODDMESSAGE_NO_SLIDE_KOUGEKI_PIORA": ""
+      }
+    },
+    "StringTableId": 0
+  }
+]

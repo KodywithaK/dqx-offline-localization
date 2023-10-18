@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_SystemDragonSys",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_SystemDragonSys",
+      "KeysToMetaData": {
+        "SYSTXT_MOVE_DRAGON_SYS_01010": "降りる",
+        "SYSTXT_MOVE_DRAGON_SYS_01020": "オートラン",
+        "SYSTXT_MOVE_DRAGON_SYS_01030": "カメラ・高度",
+        "SYSTXT_MOVE_DRAGON_SYS_01040": "{Map_Name}の\nどこへ　降りますか？",
+        "SYSTXT_MOVE_DRAGON_SYS_01050": "{Map_Name}に　降りますか？",
+        "SYSTXT_MOVE_DRAGON_SYS_01060": "ダッシュ",
+        "SYSTXT_MOVE_DRAGON_SYS_02010": "カラーリングする",
+        "SYSTXT_MOVE_DRAGON_SYS_02020": "名前をかえる",
+        "SYSTXT_MOVE_DRAGON_SYS_02030": "説明をきく",
+        "SYSTXT_MOVE_DRAGON_SYS_02040": "カラーリング",
+        "SYSTXT_MOVE_DRAGON_SYS_02050": "背面カラー",
+        "SYSTXT_MOVE_DRAGON_SYS_02060": "腹部カラー",
+        "SYSTXT_MOVE_DRAGON_SYS_02070": "回転",
+        "SYSTXT_MOVE_DRAGON_SYS_02080": "名前をかえる",
+        "SYSTXT_MOVE_DRAGON_SYS_02090": "飛竜の見た目の色を変更。\n※ゴールドが必要となります。",
+        "SYSTXT_MOVE_DRAGON_SYS_02100": "飛竜の名前を変更。",
+        "SYSTXT_MOVE_DRAGON_SYS_03010": "{Hiryu_Name}で　よろしいですか？\n<yesno><break>",
+        "SYSTXT_MOVE_DRAGON_SYS_03020": "{PC}は飛竜に\n{Hiryu_Name}と　名付けた。",
+        "SYSTXT_MOVE_DRAGON_SYS_03030": "この名前は　使用できません。",
+        "SYSTXT_MOVE_DRAGON_SYS_03040": "降りない",
+        "SYSTXT_SYSTEM_MOVE_SYS_00010": "降りる",
+        "SYSTXT_SYSTEM_MOVE_SYS_00020": "すすむ",
+        "SYSTXT_SYSTEM_MOVE_SYS_00030": "とまる",
+        "SYSTXT_SYSTEM_MOVE_SYS_00040": "ダッシュ",
+        "SYSTXT_SYSTEM_MOVE_SYS_10010": "行き先を選ぶ",
+        "SYSTXT_SYSTEM_MOVE_SYS_10020": "どこへ？",
+        "SYSTXT_SYSTEM_MOVE_SYS_20010": "飛竜",
+        "SYSTXT_SYSTEM_MOVE_SYS_20020": "カラーリング",
+        "SYSTXT_SYSTEM_MOVE_SYS_20030": "名前をかえる",
+        "SYSTXT_SYSTEM_MOVE_SYS_20040": "飛竜の見た目の色を変更します。",
+        "SYSTXT_SYSTEM_MOVE_SYS_20050": "飛竜の名前を変更します。",
+        "SYSTXT_SYSTEM_MOVE_SYS_20060": "背面カラー",
+        "SYSTXT_SYSTEM_MOVE_SYS_20070": "腹部カラー",
+        "SYSTXT_SYSTEM_MOVE_SYS_90010": "ここでは　つかえない！",
+        "SYSTXT_SYSTEM_MOVE_SYS_90020": "{Dragon_LandingPlace}に　降りますか？\n<yesno><break>",
+        "SYSTXT_SYSTEM_MOVE_SYS_90030": "{Dragon_SetPlace}に　向かいますか？\n<yesno><break>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

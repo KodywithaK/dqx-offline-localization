@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_TinyMedalsWindow",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "STT_TinyMedalsWindow",
+      "KeysToMetaData": {
+        "SYSTXT_TINYMEDALS_INTRO00": "「よく参られたでありますな！\n　自分はこのラッカラン島のオーナー\n　ゴーレックと申す者であります。",
+        "SYSTXT_TINYMEDALS_INTRO01": "「なるほど。今{pc}は\n　{count}枚のちいさなメダルを\n　持っているようでありますな。",
+        "SYSTXT_TINYMEDALS_INTRO02": "「この中にほしい物があるなら\n　そのメダルと交換してさしあげます。\n　ただし青い文字の品物は一度きりですぞ。",
+        "SYSTXT_TINYMEDALS_CONFIRM": "「{itemname}　と交換するには\n　ちいさなメダルが　{required}枚　必要ですが\n　よろしいですか？",
+        "SYSTXT_TINYMEDALS_RESULT00": "「では　{itemname}は\n　これより　{pc}の物であります！",
+        "SYSTXT_TINYMEDALS_RESULT01": "「{pc}は\n　{itemname}　を手に入れた！",
+        "SYSTXT_TINYMEDALS_INSUFFICIENT": "「ちいさなメダルが不足しています。\n　では　もういちど　選んでくだされ。",
+        "SYSTXT_TINYMEDALS_RETRY": "「では　もういちど　選んでくだされ。",
+        "SYSTXT_TINYMEDALS_LIMIT": "「残念ながら　{itemname}は\n　それ以上　持てないようであります。\n　かばんを整理してから　出直してくだされ。",
+        "SYSTXT_TINYMEDALS_RETURN": "「ほかにも　ちいさなメダルと\n　交換したい物は　ありますかな？",
+        "SYSTXT_TINYMEDALS_END01": "「新しく　ちいさなメダルを　見つけたり\n　お宝と　交換したくなったりしたら\n　いつでも　私に言ってくだされ。",
+        "SYSTXT_TINYMEDALS_END02": "「待っているでありますぞ　{pc}！",
+        "SYSTXT_TINYMEDALS_RESTRICTED": "「おや？　今　{pc}は\n　防具を装備できない\n　しばりプレイ中でありますね。\n<br>\n　手に入れても　装備できないでありますが\n　それでも　交換していくでありますか？\n<yesno><break>"
+      }
+    },
+    "StringTableId": 0
+  }
+]

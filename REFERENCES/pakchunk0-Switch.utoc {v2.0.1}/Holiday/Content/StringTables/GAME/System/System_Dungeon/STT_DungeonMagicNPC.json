@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_DungeonMagicNPC",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "NewStringTable",
+      "KeysToMetaData": {
+        "SYSTXT_DUNGEON_MAGIC_NPC_01010": "「魔法の迷宮の主と　戦いたければ\n　魔法の迷宮に送ルン！\n　コインは　持ってルン？\n<select_se_off>\nコインを渡す\n説明を聞く\n<select_end>\n<break>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01020": "「魔法の迷宮の主と　戦いたければ\n　魔法の迷宮に送ルン！\n<br>\n「……おや？　ゲストがいるルン。\n　ゲストがいる状態では　戦えないので\n　用事をすませてから、また来るルン♪\n<end>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01030": "「魔法の迷宮の主と　戦いたければ\n　魔法の迷宮に送ルン！\n<br>\n「……コインを　持ってないルン。\t\n　コインを見つけたら　持ってくるルン♪\t\n<end>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01040": "「やめておくルン？\n　魔法の迷宮に　行きたくなったら\n　また来るルン♪\n<end>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01050": "「ちょっと待つルン！\n<br>\n「冒険者さんからは　不思議なちからを\n　感じるルン！\n<br>\n「話を聞いていくルン～♪\n<br_break>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01060": "「使いたいコインを　選ぶルン！\n<break>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01070": "「{Item_Selected_Name}を　使うルン？\n<yesno><break>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01080": "「それじゃあ　魔法の迷宮に送るルン♪\n　いってらっしゃいルン～♪\n<end>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01090": "「どの説明が　聞きたいルン？\n<select_se_off>\n魔法の迷宮\nコイン\nボスバトル\n<select_end><break>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01100": "「魔法の迷宮では　コインを使って\n　迷宮の主と　戦うルン！\n<br>\n「戦いが終わったら　冒険者さんのことは\n　元の世界に戻すから　心配しなくていいルン♪\n<br_break>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01110": "「コインは　宝箱や景品　ふくびきで\n　もらえるルン。\n<br>\n「持っている　コインを\n　渡してくれたら　迷宮へと　\n　送ってあげるルン。\n<br>\n「もし　迷宮の主に負けても\n　コインは　失われないルン！\n<br>\n「だから　どんどん\n　迷宮の主に　挑戦して欲しいルン！\n<br_break>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01120": "「魔法の迷宮の主は　とても強いルン！\n<br>\n「倒すといいものを　もらえるから\n　がんばるルン♪\n<br_break>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01130": "「他に聞きたい説明は　あるルン？\n<select_se_off>\n魔法の迷宮\nコイン\nボスバトル\n<select_end><break>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01140": "「おかえりなさいルン♪\n　無事に　魔法の迷宮の主を倒せたみたいルン！\n<br_break>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01150": "「残念だったルン……。\n<br>\n　でも　魔法の迷宮の主を　倒すまで\n　コインは　失われないから\n　また　がんばるルン！\n<br_break>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01160": "「まだ続けるルン？\n<yesno><break>",
+        "SYSTXT_DUNGEON_MAGIC_NPC_01170": "「……あれ？　使えるコインが　ないルン。\n　コインを　みつけたら　またくるルン♪\n<end>"
+      }
+    },
+    "StringTableId": 0
+  }
+]
