@@ -984,7 +984,7 @@
     "<voice 08319_19000908><start_lip_sync n00340 _normal m00001>「…………そう……か……\n　そうか……あなた…………が……\n　……いや……でも………………<stop_lip_animation n00340 CLOSE_MOUTH>": "<voice 08319_19000908><start_lip_sync n00340 _normal m00001>Is that so...?\nBut... I... Have the power...?<stop_lip_animation n00340 CLOSE_MOUTH>"
   },
   "19000909": {
-    "<voice 08379_19000909><start_lip_sync n00340 _normal m00001>「……<pc>さん！　ぼくと　一緒に\n　儀式の間まで　来てほしい！\n　お父さんを……王を　止めるんだ！！<yesno><close><stop_lip_animation n00340 CLOSE_MOUTH>": "<voice 08379_19000909><start_lip_sync n00340 _normal m00001><pc> I need you to come with\nme to the Ritual Hall!\nWe must help the king!<stop_lip_animation n00340 CLOSE_MOUTH>"
+    "<voice 08379_19000909><start_lip_sync n00340 _normal m00001>「……<pc>さん！　ぼくと　一緒に\n　儀式の間まで　来てほしい！\n　お父さんを……王を　止めるんだ！！<yesno><close><stop_lip_animation n00340 CLOSE_MOUTH>": "<voice 08379_19000909><start_lip_sync n00340 _normal m00001><pc> I need you to come with\nme to the Ritual Hall!\nWe must help the king!<yesno><close><stop_lip_animation n00340 CLOSE_MOUTH>"
   },
   "19000910": {
     "<voice 08380_19000910><start_lip_sync n00340 _normal m00001>「ありがとうございます！\n　さぁ　キラキラ大風車塔の\n　儀式の間に　急ぎましょう！<stop_lip_animation n00340 CLOSE_MOUTH>": "<voice 08380_19000910><start_lip_sync n00340 _normal m00001>Thank you!\nLet's hurry to the Glittering\nWindmill Tower and stop the ritual!<stop_lip_animation n00340 CLOSE_MOUTH>"
@@ -1071,7 +1071,7 @@
     "<voice 00500_00004793><start_lip_sync m50000 _normal m00001>「……だが　すべては　もう手遅れよ。\n　王の命は　じきに尽きる。\n　……くっくっく……。<stop_lip_animation m50000 CLOSE_MOUTH>": "<voice 00500_00004793><start_lip_sync m50000 _normal m00001>...It's too late for that. The king's life\nis ebbing away as we speak.\n...Heh heh heh...<stop_lip_animation m50000 CLOSE_MOUTH>"
   },
   "4794": {
-    "<voice 00656_00004794><start_lip_sync m50000 _normal m00001>「王は死に　儀式は失敗する。\n　……プクランド大陸は\n　じきに　魔瘴に包まれ　滅び去るのだ！<stop_lip_animation m50000 CLOSE_MOUTH>": "<voice 00656_00004794><start_lip_sync m50000 _normal m00001>If the king dies, then the ritual will\nfail. ...The continent of Pukuland\nwill soon be enveloped by the\n<br>\nmiasma and perish!<stop_lip_animation m50000 CLOSE_MOUTH>"
+    "<voice 00656_00004794><start_lip_sync m50000 _normal m00001>「王は死に　儀式は失敗する。\n　……プクランド大陸は\n　じきに　魔瘴に包まれ　滅び去るのだ！<stop_lip_animation m50000 CLOSE_MOUTH>": "<voice 00656_00004794><start_lip_sync m50000 _normal m00001>If the king dies, then the ritual will\nfail... The continent of Pukuland\nwill soon be enveloped by the\n<br>\nmiasma and perish!<stop_lip_animation m50000 CLOSE_MOUTH>"
   },
   "19000914": {
     "<voice 00657_19000914><start_lip_sync m50000 _normal m00001>「……ネルゲル様……偉大なる我が王よ……<stop_lip_animation m50000 CLOSE_MOUTH>": "<voice 00657_19000914><start_lip_sync m50000 _normal m00001>Nergel... O great one...<stop_lip_animation m50000 CLOSE_MOUTH>"
@@ -1086,7 +1086,7 @@
     "<voice 00990_00004796><start_lip_sync m50000 _normal m00001>「すでに　フォステイルになりたいという\n　ひとつ目の願いを　書いてしまった貴様が\n　あと　ふたつの願いを書けば……<stop_lip_animation m50000 CLOSE_MOUTH>": "<voice 00990_00004796><start_lip_sync m50000 _normal m00001>You already made your first wish\nwhen you became Fostail.\nIf you write two more wishes, then...<stop_lip_animation m50000 CLOSE_MOUTH>"
   },
   "4797": {
-    "<voice 01170_00004797><start_lip_sync m50000 _normal m00001>「貴様の母親　アルウェと同じように\n　おぞましい破滅と　死が待つのみよ。\n　……それでも　願いを書けるのか？<stop_lip_animation m50000 CLOSE_MOUTH>": "<voice 01170_00004797><start_lip_sync m50000 _normal m00001>You'll die a horrible death, just like\nyour mother. ...Knowing that, can\nyou still write your wishes?<stop_lip_animation m50000 CLOSE_MOUTH>"
+    "<voice 01170_00004797><start_lip_sync m50000 _normal m00001>「貴様の母親　アルウェと同じように\n　おぞましい破滅と　死が待つのみよ。\n　……それでも　願いを書けるのか？<stop_lip_animation m50000 CLOSE_MOUTH>": "<voice 01170_00004797><start_lip_sync m50000 _normal m00001>You'll die a horrible death, just like\nyour mother... Knowing that, can\nyou still write your wishes?<stop_lip_animation m50000 CLOSE_MOUTH>"
   },
   "4798": {
     "<voice 01210_00004798><start_lip_sync m50000 _normal m00001>「くっくっくっく……<stop_lip_animation m50000 CLOSE_MOUTH>": "<voice 01210_00004798><start_lip_sync m50000 _normal m00001>Heh heh heh heh...<stop_lip_animation m50000 CLOSE_MOUTH>"
@@ -1284,7 +1284,7 @@
     "<voice 00809_19000922><start_lip_sync n00340 _normal m00001>「<pc>さん　ぼくは\n　あなたの戦いに　ついていきます。<stop_lip_animation n00340 CLOSE_MOUTH>": "<voice 00809_19000922><start_lip_sync n00340 _normal m00001><pc> I will join you in your\nstruggle.<stop_lip_animation n00340 CLOSE_MOUTH>"
   },
   "19000923": {
-    "<voice 00810_19000923><start_lip_sync n00340 _normal m00001>「ぼくの予言と　謎の声　どちらも\n　あなたと共にあれと　言うなら……\n　それが　ぼくの運命なのでしょう。<stop_lip_animation n00340 CLOSE_MOUTH>": "<voice 00810_19000923><start_lip_sync n00340 _normal m00001>If I've had a prophecy about it and\nthat mysterious voice speaking to me...\nIt must be my destiny to join you.<stop_lip_animation n00340 CLOSE_MOUTH>"
+    "<voice 00810_19000923><start_lip_sync n00340 _normal m00001>「ぼくの予言と　謎の声　どちらも\n　あなたと共にあれと　言うなら……\n　それが　ぼくの運命なのでしょう。<stop_lip_animation n00340 CLOSE_MOUTH>": "<voice 00810_19000923><start_lip_sync n00340 _normal m00001>I had a prophecy about it and\nthat mysterious voice speaking to me...\nIt must be my destiny to join you.<stop_lip_animation n00340 CLOSE_MOUTH>"
   },
   "19000924": {
     "<voice 00811_19000924><start_lip_sync n00340 _normal m00001>「そして……ぼく自身の願い\n　この国を守ることにも　つながります。\n　どうか　一緒に行かせてください。<stop_lip_animation n00340 CLOSE_MOUTH>": "<voice 00811_19000924><start_lip_sync n00340 _normal m00001>And of course my own wish is to\nprotect this country so... Please\nallow me to join you.<stop_lip_animation n00340 CLOSE_MOUTH>"
