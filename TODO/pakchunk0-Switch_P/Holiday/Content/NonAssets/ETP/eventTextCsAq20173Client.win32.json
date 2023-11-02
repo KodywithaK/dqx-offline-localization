@@ -48,7 +48,7 @@
     "<start_lip_sync m14300 _normal m00001>「ギシャアアァァーッ！！！<stop_lip_animation m14300 CLOSE_MOUTH>": "<start_lip_sync m14300 _normal m00001>Gishaaaaaah!<stop_lip_animation m14300 CLOSE_MOUTH>"
   },
   "29000847": {
-    "<cs_pchero>は\nアルゴンハート（だいじなもの）を　手に入れた！<me 60>": "<13_aaaaaac>received Argon Heart (Key Item)!<me 60>"
+    "<cs_pchero>は\nアルゴンハート（だいじなもの）を　手に入れた！<me 60>": "<cs_pchero>received Argon Heart (Key Item)!<me 60>"
   },
   "63845": {
     "<start_lip_sync n02203 _normal m00001>「よし……。\n　これで　うまくいくはず。<stop_lip_animation n02203 CLOSE_MOUTH>": "<start_lip_sync n02203 _normal m00001>All right. This should work.<stop_lip_animation n02203 CLOSE_MOUTH>"
@@ -80,8 +80,11 @@
   "63854": {
     "<start_lip_sync n02200 _normal m00001>「ファンの方も　ありがとうございます。\n　あなたが持ってきた　アルゴンハートのおかげで\n　息子の身体は　すっかり　元に戻りました。<stop_lip_animation n02200 CLOSE_MOUTH>": "<start_lip_sync n02200 _normal m00001>Thank you very much, Fan. Thanks to\nthe Argon Heart you brought, my son's\nbody is completely back to normal.<stop_lip_animation n02200 CLOSE_MOUTH>"
   },
-  "29100041": {
-    "<start_lip_sync n02200 _normal m00001>「なんと　お礼を言ったらいいのか……。\n　あなたのようなファンが　いてくださって\n　この子は　本当に　幸せ者です。<stop_lip_animation n02200 CLOSE_MOUTH>": "<start_lip_sync n02200 _normal m00001>How can I thank you? She is really a\nlucky girl to have a Fan like you.<stop_lip_animation n02200 CLOSE_MOUTH>"
+  "63855": {
+    "<start_lip_sync n02200 _normal m00001>「今すぐには　お礼になりそうな物を\n　ご用意できないのですが……\n　必ず　この　ご恩はお返しいたします。<stop_lip_animation n02200 CLOSE_MOUTH>": "<start_lip_sync n02200 _normal m00001>I am not able to offer you anything\nthat would be of any use to you right\nnow, but I will certainly repay you\n<br>\nfor your kindness.<stop_lip_animation n02200 CLOSE_MOUTH>"
+  },
+  "99643": {
+    "<start_lip_sync n02200 _normal m00001>「後ほど　旅のコンシェルジュに\n　贈り物を　届けておきますので\n　どうか　受け取ってくださいね。<stop_lip_animation n02200 CLOSE_MOUTH>": "<start_lip_sync n02200 _normal m00001>I will deliver your gift to Travel\nConcierge later, please accept it.<stop_lip_animation n02200 CLOSE_MOUTH>"
   },
   "63857": {
     "<start_lip_sync n02203 _normal m00001>「患者さんの病気が　治ったのは\n　ひとえに　あなたのおかげです。\n　本当に　ありがとうございました。<stop_lip_animation n02203 CLOSE_MOUTH>": "<start_lip_sync n02203 _normal m00001>The patient's illness was cured thanks\nto you. Thank you very much.<stop_lip_animation n02203 CLOSE_MOUTH>"
@@ -180,7 +183,7 @@
     "<start_lip_sync n02046 _normal m00001>「彼の命を　救ってくださって\n　本当に　ありがとうございました。\n　さあ　こちらを　お受け取りください。<stop_lip_animation n02046 CLOSE_MOUTH>": "<start_lip_sync n02046 _normal m00001>Thank you so much for saving his life.\nNow, please take this one.<stop_lip_animation n02046 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！": "The quest \"<%sev_quest_name>\" has been\ncompleted!"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
   },
   "70775": {
     "<start_lip_sync n02046 _normal m00001>「向こうの世界の　セリクの活躍を\n　見ることができないのは　心残りですが\n　彼なら　きっと　夢をかなえてくれますわよね。<stop_lip_animation n02046 CLOSE_MOUTH>": "<start_lip_sync n02046 _normal m00001>I regret that I won't be able to see\nSelik in action on the other side of\nthe world, but I'm sure he'll make my\n<br>\ndreams come true.<stop_lip_animation n02046 CLOSE_MOUTH>"

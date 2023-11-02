@@ -48,7 +48,7 @@
     "<start_lip_sync n00129 _normal m00001>「ここで　断るとか　ありえんじゃろう！\n　しっかりしろ　<pc>よ！<stop_lip_animation n00129 CLOSE_MOUTH>": "<start_lip_sync n00129 _normal m00001>It's impossible to refuse here! Pull\nyourself together, <pc>!<stop_lip_animation n00129 CLOSE_MOUTH>"
   },
   "16309": {
-    "<start_lip_sync n01449 _normal m00001>「まさか　この場所が　見つかるとは\n　思いませんでしたよ。\n　なかなか　優秀ですな　<cs_pchero>さん。<stop_lip_animation n01449 CLOSE_MOUTH>": "<start_lip_sync n01449 _normal m00001>I didn't think you would find this\nplace. You are quite brilliant, <cs_pchero>.<stop_lip_animation n01449 CLOSE_MOUTH>"
+    "<start_lip_sync n01449 _normal m00001>「まさか　この場所が　見つかるとは\n　思いませんでしたよ。\n　なかなか　優秀ですな　<cs_pchero>さん。<stop_lip_animation n01449 CLOSE_MOUTH>": "<start_lip_sync n01449 _normal m00001>I didn't think you would find this\nplace. You are quite brilliant.<cs_pchero>...<stop_lip_animation n01449 CLOSE_MOUTH>"
   },
   "16310": {
     "<start_lip_sync n01449 _normal m00001>「あなたの目的は　わかってますよ。\n　この人形……　本物のゼラリム姫を\n　助けだしに　来たのでしょう？<stop_lip_animation n01449 CLOSE_MOUTH>": "<start_lip_sync n01449 _normal m00001>I know what you're here for. This\ndoll, she's here to rescue the real\nPrincess Zelarim, isn't she?<stop_lip_animation n01449 CLOSE_MOUTH>"
@@ -63,7 +63,7 @@
     "<start_lip_sync n01449 _normal m00001>「帰って　グロスナー王に伝えなさい。\n　姑息なマネなどしないで　いさぎよく\n　玉座から　退くようにとね！<stop_lip_animation n01449 CLOSE_MOUTH>": "<start_lip_sync n01449 _normal m00001>Go home and tell King Grossner. Tell\nhim to leave the throne with dignity,\nand not to do anything stupid!<stop_lip_animation n01449 CLOSE_MOUTH>"
   },
   "16314": {
-    "<start_lip_sync n00131 _normal m00001>「<cs_pchero>くんっ　目を閉じたまえっ！！<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001><13_aaaaaac>Close your eyes!<stop_lip_animation n00131 CLOSE_MOUTH>"
+    "<start_lip_sync n00131 _normal m00001>「<cs_pchero>くんっ　目を閉じたまえっ！！<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001><cs_pchero>Close your eyes!<stop_lip_animation n00131 CLOSE_MOUTH>"
   },
   "16315": {
     "<start_lip_sync n00131 _normal m00001>「……フウ　フウ。\n　ガートラント兵士団　支給品の閃光玉は\n　なかなかの威力だろう？<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001>Hmph, hmph. Gartlant Soldier Corps,\nthose flashbulbs they give you are\npretty powerful, aren't they?<stop_lip_animation n00131 CLOSE_MOUTH>"
@@ -72,7 +72,7 @@
     "<start_lip_sync n00131 _normal m00001>「謹慎中の身だが　どうにも\n　じっとしていられなくてね。\n　気がついたら　ここまで来てしまったよ。<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001>I'm under house arrest, but I just\ncan't sit still. I found myself here.<stop_lip_animation n00131 CLOSE_MOUTH>"
   },
   "16317": {
-    "<start_lip_sync n00131 _normal m00001>「さあ　姫は　救いだした！\n　あとは　王家にたてつく　不届き者どもを\n　退治するのみだぞ　<cs_pchero>くん！<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001>Now, the princess has been rescued!\nNow all that remains is to exterminate\nthose who dare to stand in the way of\n<br>\nthe royal family.<13_aaaaaac>Oh my god!!!<stop_lip_animation n00131 CLOSE_MOUTH>"
+    "<start_lip_sync n00131 _normal m00001>「さあ　姫は　救いだした！\n　あとは　王家にたてつく　不届き者どもを\n　退治するのみだぞ　<cs_pchero>くん！<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001>Now, the princess has been rescued!\nNow all that remains is to exterminate\nthose who dare to stand in the way of\n<br>\nthe royal family.<cs_pchero>Oh my god!!!<stop_lip_animation n00131 CLOSE_MOUTH>"
   },
   "16318": {
     "<start_lip_sync n01449 _normal m00001>「き　貴様は　スピンドル！\n　……そうか。このアジトの場所は\n　お前が　教えたというわけか？<stop_lip_animation n01449 CLOSE_MOUTH>": "<start_lip_sync n01449 _normal m00001>You are Spindle! You're the one who\ntold me where this Horse Mackerel is?<stop_lip_animation n01449 CLOSE_MOUTH>"
@@ -117,10 +117,10 @@
     "<start_lip_sync m50032 _normal m00001>「ガズバランの剣を　解散に追い込み\n　私を追放した　グロスナーに……\n　ガートラントに　思い知らせてくれるっ！！<stop_lip_animation m50032 CLOSE_MOUTH>": "<start_lip_sync m50032 _normal m00001>I will remind Grossner and Gartlant,\nwho drove the sword of Gazbalan to\ndissolution and exiled me!<stop_lip_animation m50032 CLOSE_MOUTH>"
   },
   "16332": {
-    "<start_lip_sync n00131 _normal m00001>「<cs_pchero>！\n　私は　姫様の御身を　守らねばならぬ。\n　この戦いは　キミにまかせるぞ！<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001><13_aaaaaac>I must protect the princess! I must\nprotect the princess. I leave this\nbattle to you!<stop_lip_animation n00131 CLOSE_MOUTH>"
+    "<start_lip_sync n00131 _normal m00001>「<cs_pchero>！\n　私は　姫様の御身を　守らねばならぬ。\n　この戦いは　キミにまかせるぞ！<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001><cs_pchero>I must protect the princess! I must\nprotect the princess. I leave this\nbattle to you!<stop_lip_animation n00131 CLOSE_MOUTH>"
   },
   "16333": {
-    "<start_lip_sync n00131 _normal m00001>「フウ　フウ……　<cs_pchero>。\n　わ　私は　姫様を守らねば……ならん。\n　後のこと……　ま　まかせるぞ……。<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001>Huau. Huau. Huau.<13_aaaaaac>I must protect the princess. I must\nprotect the princess. I'll leave the\nrest to you.<stop_lip_animation n00131 CLOSE_MOUTH>"
+    "<start_lip_sync n00131 _normal m00001>「フウ　フウ……　<cs_pchero>。\n　わ　私は　姫様を守らねば……ならん。\n　後のこと……　ま　まかせるぞ……。<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001>Huau. Huau. Huau.<cs_pchero>I must protect the princess. I must\nprotect the princess. I'll leave the\nrest to you.<stop_lip_animation n00131 CLOSE_MOUTH>"
   },
   "16334": {
     "<start_lip_sync m50032 _normal m00001>「何度　来ようとも　結果は同じ。\n　人を超える存在となった私に\n　人たる身で　かなうものか。<stop_lip_animation m50032 CLOSE_MOUTH>": "<start_lip_sync m50032 _normal m00001>No matter how many times I come back,\nthe result will be the same. I have\nbecome more than a human being, and I\n<br>\nam no match for a human being.<stop_lip_animation m50032 CLOSE_MOUTH>"
@@ -186,7 +186,7 @@
     "<start_lip_sync n00137 _normal m00001>「それじゃ　ボクは　そろそろ失礼するよ♪<stop_lip_animation n00137 CLOSE_MOUTH>": "<start_lip_sync n00137 _normal m00001>Well, I'd better be off.<stop_lip_animation n00137 CLOSE_MOUTH>"
   },
   "16355": {
-    "<start_lip_sync n00137 _normal m00001>「……ああ　<cs_pchero>くん。\n　キミのことは　よ～く覚えておくよ。\n　いつか　また　遊ぼうね～♪<stop_lip_animation n00137 CLOSE_MOUTH>": "<start_lip_sync n00137 _normal m00001>Ah!<13_aaaaaac>I'll remember you well. I'll remember\nyou well. Let's play again sometime~<stop_lip_animation n00137 CLOSE_MOUTH>"
+    "<start_lip_sync n00137 _normal m00001>「……ああ　<cs_pchero>くん。\n　キミのことは　よ～く覚えておくよ。\n　いつか　また　遊ぼうね～♪<stop_lip_animation n00137 CLOSE_MOUTH>": "<start_lip_sync n00137 _normal m00001>Ah!<cs_pchero>I'll remember you well. I'll remember\nyou well. Let's play again sometime~<stop_lip_animation n00137 CLOSE_MOUTH>"
   },
   "16356": {
     "<start_lip_sync n01513 _normal m00001>「クッ……ククククク。\n　アーッハッハッハッ……。<stop_lip_animation n01513 CLOSE_MOUTH>": "<start_lip_sync n01513 _normal m00001>Cooke kook. Argghhhh.<stop_lip_animation n01513 CLOSE_MOUTH>"
@@ -198,7 +198,7 @@
     "<start_lip_sync n01513 _normal m00001>「……これが　笑わずにいられようか。\n　魔物のチカラまで……借りて\n　復讐に……走った挙句が　このザマだ。<stop_lip_animation n01513 CLOSE_MOUTH>": "<start_lip_sync n01513 _normal m00001>How can I not laugh at this? They even\nborrowed the help of Monster to seek\nrevenge, and now this is what they\n<br>\nget.<stop_lip_animation n01513 CLOSE_MOUTH>"
   },
   "16359": {
-    "<start_lip_sync n01513 _normal m00001>「スピンドル　<cs_pchero>。\n　どうか　グロスナー王に……伝えてくれ。<stop_lip_animation n01513 CLOSE_MOUTH>": "<start_lip_sync n01513 _normal m00001>Spindle<13_aaaaaac>I am a member of the board of\ndirectors of the National Association\nof State and Local Governments. Please\n<br>\ntell King Grossner that I am not a\nmember of the board of directors and\nthat I am not a member of the board of\n<br>\ndirectors.<stop_lip_animation n01513 CLOSE_MOUTH>"
+    "<start_lip_sync n01513 _normal m00001>「スピンドル　<cs_pchero>。\n　どうか　グロスナー王に……伝えてくれ。<stop_lip_animation n01513 CLOSE_MOUTH>": "<start_lip_sync n01513 _normal m00001>Spindle<cs_pchero>I am a member of the board of\ndirectors of the National Association\nof State and Local Governments. Please\n<br>\ntell King Grossner that I am not a\nmember of the board of directors and\nthat I am not a member of the board of\n<br>\ndirectors.<stop_lip_animation n01513 CLOSE_MOUTH>"
   },
   "16360": {
     "<start_lip_sync n01513 _normal m00001>「私の復讐は　実体のない……ハリボテだったが\n　今のままのガートラントでは　いずれまた\n　剣の遺志を継ぐ者が……現れよう。<stop_lip_animation n01513 CLOSE_MOUTH>": "<start_lip_sync n01513 _normal m00001>My vengeance was a mere euphemism\nwithout substance, but with Gartlant\nas it is now, there will eventually be\n<br>\nanother who will carry on the sword's\nlegacy.<stop_lip_animation n01513 CLOSE_MOUTH>"
@@ -216,7 +216,7 @@
     "<start_lip_sync n00144 _normal m00001>「あのう……　ここは　どこなのでしょう？<stop_lip_animation n00144 CLOSE_MOUTH>": "<start_lip_sync n00144 _normal m00001>Excuse me, where am I?<stop_lip_animation n00144 CLOSE_MOUTH>"
   },
   "16364": {
-    "<start_lip_sync n00144 _normal m00001>「<cs_pchero>さまには\n　いろいろ　ご迷惑をおかけしてしまったようで\n　本当に　申し訳ありませんでした。<stop_lip_animation n00144 CLOSE_MOUTH>": "<start_lip_sync n00144 _normal m00001><13_aaaaaac>I am truly sorry for all the trouble I\nhave caused you and your family.<stop_lip_animation n00144 CLOSE_MOUTH>"
+    "<start_lip_sync n00144 _normal m00001>「<cs_pchero>さまには\n　いろいろ　ご迷惑をおかけしてしまったようで\n　本当に　申し訳ありませんでした。<stop_lip_animation n00144 CLOSE_MOUTH>": "<start_lip_sync n00144 _normal m00001><cs_pchero>I am truly sorry for all the trouble I\nhave caused you and your family.<stop_lip_animation n00144 CLOSE_MOUTH>"
   },
   "16365": {
     "<start_lip_sync n00144 _normal m00001>「まさか　あのチョコ神ぬいぐるみが\n　そのような　恐ろしい企みに\n　利用されていたなんて……。<stop_lip_animation n00144 CLOSE_MOUTH>": "<start_lip_sync n00144 _normal m00001>I had no idea that the Choco-God\nPlushie was being used in such a\nterrible scheme.<stop_lip_animation n00144 CLOSE_MOUTH>"
@@ -225,7 +225,7 @@
     "<start_lip_sync n00131 _normal m00001>「それでは　私は　ひと足先に\n　姫を城まで　お送りさせていただく。<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001>I will now escort the princess to the\ncastle.<stop_lip_animation n00131 CLOSE_MOUTH>"
   },
   "16367": {
-    "<start_lip_sync n00131 _normal m00001>「<cs_pchero>くんも　できるだけ早く\n　戻ってくれたまえ。<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001><13_aaaaaac>Please come back as soon as you can.<stop_lip_animation n00131 CLOSE_MOUTH>"
+    "<start_lip_sync n00131 _normal m00001>「<cs_pchero>くんも　できるだけ早く\n　戻ってくれたまえ。<stop_lip_animation n00131 CLOSE_MOUTH>": "<start_lip_sync n00131 _normal m00001><cs_pchero>Please come back as soon as you can.<stop_lip_animation n00131 CLOSE_MOUTH>"
   },
   "16368": {
     "<start_lip_sync n00129 _normal m00001>「お前さんの活躍は　すでに\n　スピンドルから　聞いておるぞ。\n　よくやってくれたな　<pc>！<stop_lip_animation n00129 CLOSE_MOUTH>": "<start_lip_sync n00129 _normal m00001>I've already heard about your exploits\nfrom Spindle. Well done <pc>!<stop_lip_animation n00129 CLOSE_MOUTH>"

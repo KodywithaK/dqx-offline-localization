@@ -24,7 +24,7 @@
     "<start_lip_sync n00001 _normal m00001>「フフン。止めても　無駄じゃぞ。\n　では　わしは　先に行っておるからな。\n　あまり　待たせるでないぞ！<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>Hmph. There's no use in stopping me.\nI'll go on ahead. Don't keep me\nwaiting too long!<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15918": {
-    "<start_lip_sync n00001 _normal m00001>「遅いぞ　<cs_pchero>。\n　ほれっ！　あれを見てみい。<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>You're late.<13_aaaaaac>Hooray! Here! Look at that.<stop_lip_animation n00001 CLOSE_MOUTH>"
+    "<start_lip_sync n00001 _normal m00001>「遅いぞ　<cs_pchero>。\n　ほれっ！　あれを見てみい。<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>You're late.<cs_pchero>Hooray! Here! Look at that.<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15919": {
     "<start_lip_sync m50004 _normal m00001>「ずいぶん長い間　待たせてしまったな……。<stop_lip_animation m50004 CLOSE_MOUTH>": "<start_lip_sync m50004 _normal m00001>I've kept you waiting a long time.<stop_lip_animation m50004 CLOSE_MOUTH>"
@@ -81,16 +81,16 @@
     "<start_lip_sync n00001 _normal m00001>「わかっていながら　わしには\n　あやつを止めることが　できんかった。<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>I knew it, but I couldn't stop him.<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15937": {
-    "<start_lip_sync n00001 _normal m00001>「……すまぬ　<cs_pchero>。\n　お前が　オーレンを止めてやってくれ！<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>excuse me<13_aaaaaac>You stop Oren! You stop Oren!<stop_lip_animation n00001 CLOSE_MOUTH>"
+    "<start_lip_sync n00001 _normal m00001>「……すまぬ　<cs_pchero>。\n　お前が　オーレンを止めてやってくれ！<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>excuse me<cs_pchero>You stop Oren! You stop Oren!<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15938": {
     "<start_lip_sync m50004 _normal m00001>「ウォオオォオオオォォ！！<stop_lip_animation m50004 CLOSE_MOUTH>": "<start_lip_sync m50004 _normal m00001>Woowowowowowowowowowow!<stop_lip_animation m50004 CLOSE_MOUTH>"
   },
   "15939": {
-    "<start_lip_sync n00001 _normal m00001>「戻ってきたか　<cs_pchero>。\n　……もはや　今のオーレンには\n　何を言っても　通じぬようだ。<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>You're back.<13_aaaaaac>I am not sure what I can say to Oren\nnow. It seems that nothing I say makes\nsense to Oren now.<stop_lip_animation n00001 CLOSE_MOUTH>"
+    "<start_lip_sync n00001 _normal m00001>「戻ってきたか　<cs_pchero>。\n　……もはや　今のオーレンには\n　何を言っても　通じぬようだ。<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>You're back.<cs_pchero>I am not sure what I can say to Oren\nnow. It seems that nothing I say makes\nsense to Oren now.<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15940": {
-    "<start_lip_sync n00001 _normal m00001>「こうなることを　予想はしていたが……。\n　すまんな　<cs_pchero>。\n　お前が　オーレンを　止めてやってくれ。<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>I expected this to happen. I'm sorry.<13_aaaaaac>You stop Oren. You can stop Oren.<stop_lip_animation n00001 CLOSE_MOUTH>"
+    "<start_lip_sync n00001 _normal m00001>「こうなることを　予想はしていたが……。\n　すまんな　<cs_pchero>。\n　お前が　オーレンを　止めてやってくれ。<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>I expected this to happen. I'm sorry.<cs_pchero>You stop Oren. You can stop Oren.<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15941": {
     "<start_lip_sync m50004 _normal m00001>「……オォオオォオオオォォ！！\n　なぜだ？　なぜ　こうなった！？\n　私は　なんのために　ここまで……。<stop_lip_animation m50004 CLOSE_MOUTH>": "<start_lip_sync m50004 _normal m00001>Oooooooooooooooooooooooooooooooooooooo\noooooooooooooooooooooooooooooo! How\ndid this happen? How did this happen?\n<br>\nWhy did I come all this way?<stop_lip_animation m50004 CLOSE_MOUTH>"
@@ -129,13 +129,13 @@
     "<start_lip_sync n00001 _normal m00001>「あとは　この聖杯じゃが……\n　お前さん　こいつを　グレン城の\n　チグリ大臣のとこに　返してきてくれ。<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>Now all that's left is this chalice,\nand you can return it to Minister\nChigri at Glen Castle.<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15953": {
-    "<cs_pchero>は\nレムルの聖杯（だいじなもの）を　受け取った！<me 60>": "<13_aaaaaac>received Lemur's Chalice (Key Item)!<me 60>"
+    "<cs_pchero>は\nレムルの聖杯（だいじなもの）を　受け取った！<me 60>": "<cs_pchero>received Lemur's Chalice (Key Item)!<me 60>"
   },
   "15954": {
     "<start_lip_sync n00001 _normal m00001>「これで　すべて　片付いた。\n　ようやく　わしも　過去の罪から\n　解放された気がする。<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>Now everything is cleared up. At last,\nI feel that I am free from the sins of\nthe past.<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15955": {
-    "<start_lip_sync n00001 _normal m00001>「それでは　わしは　ひと足先に\n　失礼させてもらうぞ！\n　達者でな　<cs_pchero>。<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>Now, if you'll excuse me, I have to\nleave first! Good luck, <cs_pchero>.<stop_lip_animation n00001 CLOSE_MOUTH>"
+    "<start_lip_sync n00001 _normal m00001>「それでは　わしは　ひと足先に\n　失礼させてもらうぞ！\n　達者でな　<cs_pchero>。<stop_lip_animation n00001 CLOSE_MOUTH>": "<start_lip_sync n00001 _normal m00001>Now, if you'll excuse me, I have to\nleave first! Good luck.<cs_pchero>...<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15956": {
     "<start_lip_sync n01448 _normal m00001>「すべて　聞かせていただいたのデス。<stop_lip_animation n01448 CLOSE_MOUTH>": "<start_lip_sync n01448 _normal m00001>I have heard it all.<stop_lip_animation n01448 CLOSE_MOUTH>"

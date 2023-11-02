@@ -126,7 +126,7 @@
     "<start_lip_sync m06706 _normal m00001>「ドハハハァッ！　ならば　相手になるドン。\n　かかってくるがいいドーン！！<stop_lip_animation m06706 CLOSE_MOUTH>": "<start_lip_sync m06706 _normal m00001>Dohahahaha! Then I'll be your partner,\nDawn. Come at me, Dawn!<stop_lip_animation m06706 CLOSE_MOUTH>"
   },
   "27654": {
-    "<start_lip_sync m50016 _normal m00001>「<cs_pchero>！　手出し無用ニャ。\n　これは　決闘なのニャーーー！！<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001><13_aaaaaac>Don't touch me! Don't touch me. This\nis a duel!<stop_lip_animation m50016 CLOSE_MOUTH>"
+    "<start_lip_sync m50016 _normal m00001>「<cs_pchero>！　手出し無用ニャ。\n　これは　決闘なのニャーーー！！<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001><cs_pchero>Don't touch me! Don't touch me. This\nis a duel!<stop_lip_animation m50016 CLOSE_MOUTH>"
   },
   "27655": {
     "<start_lip_sync m50016 _normal m00001>「…………ニャギャッ！？<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>Nyagah!<stop_lip_animation m50016 CLOSE_MOUTH>"
@@ -159,7 +159,7 @@
     "<start_lip_sync m06706 _normal m00001>「おぬしが　ワシと戦うだド？\n　ドハハハッ。笑わせるな　チビスケ。<stop_lip_animation m06706 CLOSE_MOUTH>": "<start_lip_sync m06706 _normal m00001>You want to fight me? Doohahaha. Don't\nmake me laugh, Chibisuke.<stop_lip_animation m06706 CLOSE_MOUTH>"
   },
   "27665": {
-    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「ミャッ。アッシじゃないでヤンス。\n　そこにいる　<cs_pchero>さまが\n　相手になると言っているのでヤンス～！<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Mia. It's not me. There you are.<13_aaaaaac>I'm saying that the other party will\nbe a<stop_lip_animation m00501 CLOSE_MOUTH>"
+    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「ミャッ。アッシじゃないでヤンス。\n　そこにいる　<cs_pchero>さまが\n　相手になると言っているのでヤンス～！<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Mia. It's not me. There you are.<cs_pchero>I'm saying that the other party will\nbe a<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "27666": {
     "<start_lip_sync m06706 _normal m00001>「……ドハハハッ　リベリオは倒したドン。\n　もうワシに勝てる者など　おらんド！<stop_lip_animation m06706 CLOSE_MOUTH>": "<start_lip_sync m06706 _normal m00001>I've defeated Rebelio. There is no one\nwho can beat me now!<stop_lip_animation m06706 CLOSE_MOUTH>"
@@ -168,10 +168,10 @@
     "<start_lip_sync m06706 _normal m00001>「どのみち　すべて　始末するつもりだドン。\n　おぬしから　冥土に送ってやるド。<stop_lip_animation m06706 CLOSE_MOUTH>": "<start_lip_sync m06706 _normal m00001>I'm going to take care of everything\nanyway, Don. I'm going to send you to\nthe underworld first.<stop_lip_animation m06706 CLOSE_MOUTH>"
   },
   "27668": {
-    "<start_lip_sync m06706 _normal m00001>「<cs_pchero>とやら　覚悟するドーン！！<stop_lip_animation m06706 CLOSE_MOUTH>": "<start_lip_sync m06706 _normal m00001><13_aaaaaac>and apparently. I'll be ready Dawn!<stop_lip_animation m06706 CLOSE_MOUTH>"
+    "<start_lip_sync m06706 _normal m00001>「<cs_pchero>とやら　覚悟するドーン！！<stop_lip_animation m06706 CLOSE_MOUTH>": "<start_lip_sync m06706 _normal m00001><cs_pchero>and apparently. I'll be ready Dawn!<stop_lip_animation m06706 CLOSE_MOUTH>"
   },
   "27669": {
-    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「<cs_pchero>さま　お願いするでヤンス！\n　ヒポポ・サードンを　やっつけて\n　ほしいんでヤンスよ！！<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh><13_aaaaaac> I want you to do me a favor! I want\nyou to kill Hippo Sardon!<stop_lip_animation m00501 CLOSE_MOUTH>"
+    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「<cs_pchero>さま　お願いするでヤンス！\n　ヒポポ・サードンを　やっつけて\n　ほしいんでヤンスよ！！<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh><cs_pchero> I want you to do me a favor! I want\nyou to kill Hippo Sardon!<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "27670": {
     "<start_lip_sync m06706 _normal m00001>「ぬう？　おぬし　冥土に送ったと思ったが\n　まだ　生きておったのかドン。<stop_lip_animation m06706 CLOSE_MOUTH>": "<start_lip_sync m06706 _normal m00001>No? I thought I sent you to the\nnetherworld, but you are still alive,\nDon.<stop_lip_animation m06706 CLOSE_MOUTH>"
@@ -186,13 +186,13 @@
     "<start_lip_sync m06706 _normal m00001>「ぬおお……ワシが敗れるだド……。\n　なんたる不覚……だドン……。<stop_lip_animation m06706 CLOSE_MOUTH>": "<start_lip_sync m06706 _normal m00001>Noooooo, I'm defeated. What a blunder.<stop_lip_animation m06706 CLOSE_MOUTH>"
   },
   "27674": {
-    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「ミャハッ。さすがでヤンス　<cs_pchero>さま。\n　リベリオの旦那も勝てなかった\n　サードンを　倒しちまうんでヤンスから。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Miahaha. That's what I'm talking\nabout.<13_aaaaaac>I'm going to beat Sardon. Even\nRebelio's master couldn't beat Sardon,\nso we're going to beat him.<stop_lip_animation m00501 CLOSE_MOUTH>"
+    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「ミャハッ。さすがでヤンス　<cs_pchero>さま。\n　リベリオの旦那も勝てなかった\n　サードンを　倒しちまうんでヤンスから。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Miahaha. That's what I'm talking\nabout.<cs_pchero>I'm going to beat Sardon. Even\nRebelio's master couldn't beat Sardon,\nso we're going to beat him.<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "27675": {
     "<start_lip_sync m50016 _normal m00001>「ぐっ……情けないのニャ……。\n　こんなんじゃ　マンマーさまに\n　ゆるしてもらえないのは　当然ニャ……。<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>I'm so pathetic. It's no wonder Momma\nwon't let me off the hook like this.<stop_lip_animation m50016 CLOSE_MOUTH>"
   },
   "27676": {
-    "<start_lip_sync n00422 _normal m00001>「リベリオよ。そなたは　これまで\n　<cs_pchero>に頼り　ソーミャに頼り……。\n　何をやるにしても　人まかせにしていたな。<stop_lip_animation n00422 CLOSE_MOUTH>": "<start_lip_sync n00422 _normal m00001>Rebelio. You have been<13_aaaaaac>I relied on Somya and Somya relied on\nme. I left everything to others.<stop_lip_animation n00422 CLOSE_MOUTH>"
+    "<start_lip_sync n00422 _normal m00001>「リベリオよ。そなたは　これまで\n　<cs_pchero>に頼り　ソーミャに頼り……。\n　何をやるにしても　人まかせにしていたな。<stop_lip_animation n00422 CLOSE_MOUTH>": "<start_lip_sync n00422 _normal m00001>Rebelio. You have been<cs_pchero>I relied on Somya and Somya relied on\nme. I left everything to others.<stop_lip_animation n00422 CLOSE_MOUTH>"
   },
   "27677": {
     "<start_lip_sync n00422 _normal m00001>「……しかし今　この猫島のため　命をかけて\n　ひとりで戦う姿　しかと見させてもらった。<stop_lip_animation n00422 CLOSE_MOUTH>": "<start_lip_sync n00422 _normal m00001>But now, I was able to see him fight\nalone, risking his life for this Cat\nIsland.<stop_lip_animation n00422 CLOSE_MOUTH>"
@@ -210,7 +210,7 @@
     "<start_lip_sync m50016 _normal m00001>「……ソーミャも　ありがとニャ。<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>Thank you, Somya.<stop_lip_animation m50016 CLOSE_MOUTH>"
   },
   "27682": {
-    "<start_lip_sync m50016 _normal m00001>「<cs_pchero>。心の友よ。\n　ヒポポ・サードンを　よくぞ倒してくれたニャ。\n　キサマには　本当に感謝するのニャ。<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001><13_aaaaaac>I am a friend of the heart. My friend\nof the heart. You did a great job\ndefeating Hippo Sardon. I really\n<br>\nappreciate you, Kisama.<stop_lip_animation m50016 CLOSE_MOUTH>"
+    "<start_lip_sync m50016 _normal m00001>「<cs_pchero>。心の友よ。\n　ヒポポ・サードンを　よくぞ倒してくれたニャ。\n　キサマには　本当に感謝するのニャ。<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001><cs_pchero>I am a friend of the heart. My friend\nof the heart. You did a great job\ndefeating Hippo Sardon. I really\n<br>\nappreciate you, Kisama.<stop_lip_animation m50016 CLOSE_MOUTH>"
   },
   "27683": {
     "<start_lip_sync m50016 _normal m00001>「コイツは　オレのとっておきなのニャ。\n　受け取ってほしいのニャ。<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>This is my special one. I want you to\ntake it.<stop_lip_animation m50016 CLOSE_MOUTH>"
@@ -219,10 +219,10 @@
     "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
   },
   "27684": {
-    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「アッシからも　礼を言うでヤンス。\n　リベリオの旦那のために　いろいろと\n　ありがとうでヤンした　<cs_pchero>さま。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>I would like to thank you as well.\nThank you for everything you did for\nthe Rebelio master.<13_aaaaaac>The following is a list of the most\ncommon problems with the<stop_lip_animation m00501 CLOSE_MOUTH>"
+    "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「アッシからも　礼を言うでヤンス。\n　リベリオの旦那のために　いろいろと\n　ありがとうでヤンした　<cs_pchero>さま。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>I would like to thank you as well.\nThank you for everything you did for\nthe Rebelio master.<cs_pchero>...<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "27685": {
-    "<start_lip_sync n00422 _normal m00001>「これで　猫島の平和は守られた。\n　<cs_pchero>の名は　猫島の救世主として\n　わらわが　語り継ごう。<stop_lip_animation n00422 CLOSE_MOUTH>": "<start_lip_sync n00422 _normal m00001>Now the peace of Cat Island is\nsecured.<13_aaaaaac>The name of \"The Cat Island\" will be\npassed down from generation to\ngeneration as the savior of Cat\n<br>\nIsland.<stop_lip_animation n00422 CLOSE_MOUTH>"
+    "<start_lip_sync n00422 _normal m00001>「これで　猫島の平和は守られた。\n　<cs_pchero>の名は　猫島の救世主として\n　わらわが　語り継ごう。<stop_lip_animation n00422 CLOSE_MOUTH>": "<start_lip_sync n00422 _normal m00001>Now the peace of Cat Island is\nsecured.<cs_pchero>The name of \"The Cat Island\" will be\npassed down from generation to\ngeneration as the savior of Cat\n<br>\nIsland.<stop_lip_animation n00422 CLOSE_MOUTH>"
   },
   "27686": {
     "<start_lip_sync n00346 _normal m00001>「これで　ジュニアちゃんも　安心できますね。\n　私は　町に帰ります　マンマーさん。<stop_lip_animation n00346 CLOSE_MOUTH>": "<start_lip_sync n00346 _normal m00001>Now Junior can rest easy. I'm going\nback to town, Momma.<stop_lip_animation n00346 CLOSE_MOUTH>"

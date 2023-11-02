@@ -45,7 +45,7 @@
     "<start_lip_sync n02035 _normal m00001>「こっちの世界の　アラハギーロ地方にいる\n　<%sEV_QUE_NAME0>を　倒すと\n　手に入るらしいわ。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>I heard that you can get it by\ndefeating <%sev_que_name0> in Al-\nAhagiro Region in this world.<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64779": {
-    "<start_lip_sync n02035 _normal m00001>「ホント！？　あっ　でも……\n　<pc>さん　他の人からの頼まれごとも\n　いっぱい　引き受けてるんじゃない？<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>Really? Oh, but <&13_aaaaaaaad> don't\nyou take on lots of requests from\nother people?<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<start_lip_sync n02035 _normal m00001>「ホント！？　あっ　でも……\n　<pc>さん　他の人からの頼まれごとも\n　いっぱい　引き受けてるんじゃない？<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>Really? Oh, but <pc> don't\nyou take on lots of requests from\nother people?<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64781": {
     "<start_lip_sync n02035 _normal m00001>「そっか……。これをまかせられるの\n　<pc>さんしか　いないんだけどな……。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>I see. I think <pc> is the\nonly one who can take care of this.<stop_lip_animation n02035 CLOSE_MOUTH>"
@@ -129,7 +129,7 @@
     "<start_lip_sync n02035 _normal m00001>「じゃあ　作戦開始ね！\n　<pc>さん　準備ができたら\n　格闘場の闘いの広間へ　来てね。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>Then let's get to work! <pc>\nWhen you are ready, come to the\nMonstrous Pit in the Arena.<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64804": {
-    "<start_lip_sync n02035 _normal m00001>「<cs_pchero>さん。\n　魔法陣の準備は　バッチリできてるよ。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001><13_aaaaaac>I'm perfectly ready for the magic\ncircle. The magic circle is perfectly\nready.<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<start_lip_sync n02035 _normal m00001>「<cs_pchero>さん。\n　魔法陣の準備は　バッチリできてるよ。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001><cs_pchero>I'm perfectly ready for the magic\ncircle. The magic circle is perfectly\nready.<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64805": {
     "<start_lip_sync m03101 _normal m00001>「父は　現れるでしょうか……。<stop_lip_animation m03101 CLOSE_MOUTH>": "<start_lip_sync m03101 _normal m00001>Will my father show up?<stop_lip_animation m03101 CLOSE_MOUTH>"
@@ -159,7 +159,7 @@
     "<start_lip_sync n02040 _normal m00001>「セラフィ！　応援に来てやったぞ。<stop_lip_animation n02040 CLOSE_MOUTH>": "<start_lip_sync n02040 _normal m00001>Seraphi! I'm here to cheer you up.<stop_lip_animation n02040 CLOSE_MOUTH>"
   },
   "64814": {
-    "<start_lip_sync n02039 _normal m00001>「いけ　セラフィ！\n　<cs_pchero>！！\n　怨霊どもを　ぶっとばせ！<stop_lip_animation n02039 CLOSE_MOUTH>": "<start_lip_sync n02039 _normal m00001>Go Seraphi!<13_aaaaaac>I'll be right back! Crush the grudges!<stop_lip_animation n02039 CLOSE_MOUTH>"
+    "<start_lip_sync n02039 _normal m00001>「いけ　セラフィ！\n　<cs_pchero>！！\n　怨霊どもを　ぶっとばせ！<stop_lip_animation n02039 CLOSE_MOUTH>": "<start_lip_sync n02039 _normal m00001>Go Seraphi!<cs_pchero>I'll be right back! Crush the grudges!<stop_lip_animation n02039 CLOSE_MOUTH>"
   },
   "64815": {
     "<start_lip_sync n02035 _normal m00001>「え……　どうして　みんな……。\n　ここは危険よ！　早く離れてっ！！<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>What? Why, guys? It's not safe here!\nGet out of here!<stop_lip_animation n02035 CLOSE_MOUTH>"
@@ -168,7 +168,7 @@
     "<start_lip_sync n02040 _normal m00001>「オレたちだって　手伝ったんだから\n　最後まで　見届けさせろよ。<stop_lip_animation n02040 CLOSE_MOUTH>": "<start_lip_sync n02040 _normal m00001>We helped too, so let us see it\nthrough to the end.<stop_lip_animation n02040 CLOSE_MOUTH>"
   },
   "64817": {
-    "<start_lip_sync n02035 _normal m00001>「…………。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>.......<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<start_lip_sync n02035 _normal m00001>「…………。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>...<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64818": {
     "<start_lip_sync n02069 _normal m00001>「ヒョーッヒョッヒョ！\n　もうすぐ　自分たちも滅ぼされるというのに\n　いい気なものですねぇ。<stop_lip_animation n02069 CLOSE_MOUTH>": "<start_lip_sync n02069 _normal m00001>Hee hee hee hee! They're so optimistic\nwhen they're about to be destroyed\ntoo.<stop_lip_animation n02069 CLOSE_MOUTH>"
@@ -177,13 +177,13 @@
     "<start_lip_sync n02035 _normal m00001>「そんなことは　させないわ！<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>I won't let that happen!<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64820": {
-    "<start_lip_sync n02069 _normal m00001>「ヒョヒョ！　このゴリウス君のパワーを見ても\n　そんなこと　言ってられますかねぇ。\n　まずは　<cs_pchero>ッ！　あなたからです！！<stop_lip_animation n02069 CLOSE_MOUTH>": "<start_lip_sync n02069 _normal m00001>Oh, no! I wonder if I can say such a\nthing when I see the power of Mr.\nGorius here. First of all<13_aaaaaac>Dang! It's from you!<stop_lip_animation n02069 CLOSE_MOUTH>"
+    "<start_lip_sync n02069 _normal m00001>「ヒョヒョ！　このゴリウス君のパワーを見ても\n　そんなこと　言ってられますかねぇ。\n　まずは　<cs_pchero>ッ！　あなたからです！！<stop_lip_animation n02069 CLOSE_MOUTH>": "<start_lip_sync n02069 _normal m00001>Oh, no! I wonder if I can say such a\nthing when I see the power of Mr.\nGorius here. First of all<cs_pchero>Dang! It's from you!<stop_lip_animation n02069 CLOSE_MOUTH>"
   },
   "64821": {
     "<start_lip_sync m14403 _normal m00001>「グオォォォォォォォ！！<stop_lip_animation m14403 CLOSE_MOUTH>": "<start_lip_sync m14403 _normal m00001>Guoooooooooooooooooooooooooooooooooooo\nooooooooooooooooooooooooooooooooooo!<stop_lip_animation m14403 CLOSE_MOUTH>"
   },
   "64822": {
-    "<start_lip_sync n02035 _normal m00001>「<cs_pchero>さん！　来てくれたのね。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001><13_aaaaaac>Oh, my God! You came.<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<start_lip_sync n02035 _normal m00001>「<cs_pchero>さん！　来てくれたのね。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001><cs_pchero>Oh, my God! You came.<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64823": {
     "<start_lip_sync n02069 _normal m00001>「ヒョーッヒョッヒョ。\n　またもや　やられに来るとは　愚かですねぇ。<stop_lip_animation n02069 CLOSE_MOUTH>": "<start_lip_sync n02069 _normal m00001>Hee hee hee hee. You're so foolish to\ncome back to get hit again.<stop_lip_animation n02069 CLOSE_MOUTH>"
@@ -216,7 +216,7 @@
     "<start_lip_sync m14403 _normal m00001>「グルアァァァァァァァァ！！<stop_lip_animation m14403 CLOSE_MOUTH>": "<start_lip_sync m14403 _normal m00001>Grrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr\n!<stop_lip_animation m14403 CLOSE_MOUTH>"
   },
   "64833": {
-    "<start_lip_sync n02035 _normal m00001>「このままじゃ　まずいわ……。\n　<cs_pchero>さん　どうしようっ！？<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>I'm not good at this.<13_aaaaaac> What shall we do!<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<start_lip_sync n02035 _normal m00001>「このままじゃ　まずいわ……。\n　<cs_pchero>さん　どうしようっ！？<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>I'm not good at this.<cs_pchero> What shall we do!<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64834": {
     "<start_lip_sync m03101 _normal m00001>「セラフィさん　大丈夫です。\n　今度こそ　父を止めてみせます。<stop_lip_animation m03101 CLOSE_MOUTH>": "<start_lip_sync m03101 _normal m00001>Don't worry, Seraphi. I will stop my\nfather this time.<stop_lip_animation m03101 CLOSE_MOUTH>"
@@ -273,13 +273,13 @@
     "<start_lip_sync n02045 _normal m00001>「もう本当に　終わるのだな……。\n　なんと　長い戦いであったことか……<stop_lip_animation n02045 CLOSE_MOUTH>": "<start_lip_sync n02045 _normal m00001>It's really over now. What a long\nbattle it has been.<stop_lip_animation n02045 CLOSE_MOUTH>"
   },
   "64852": {
-    "<start_lip_sync n02554 _normal m00001>「セラフィさん　<cs_pchero>さん……。\n　ありがとうございました……<stop_lip_animation n02554 CLOSE_MOUTH>": "<start_lip_sync n02554 _normal m00001>Mr. Seraphi.<13_aaaaaac>Thank you very much. Thank you very\nmuch.<stop_lip_animation n02554 CLOSE_MOUTH>"
+    "<start_lip_sync n02554 _normal m00001>「セラフィさん　<cs_pchero>さん……。\n　ありがとうございました……<stop_lip_animation n02554 CLOSE_MOUTH>": "<start_lip_sync n02554 _normal m00001>Mr. Seraphi.<cs_pchero>Thank you very much. Thank you very\nmuch.<stop_lip_animation n02554 CLOSE_MOUTH>"
   },
   "64853": {
     "<start_lip_sync n02035 _normal m00001>「……タジウスさんっ！<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>Tajius!<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64854": {
-    "<start_lip_sync n02035 _normal m00001>「……<cs_pchero>さん。\n　私　わからないよ……。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001><13_aaaaaac>I don't know. I don't know.<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<start_lip_sync n02035 _normal m00001>「……<cs_pchero>さん。\n　私　わからないよ……。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001><cs_pchero>I don't know. I don't know.<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64855": {
     "<start_lip_sync n02035 _normal m00001>「アラハギーロを守りたいって気持ちは\n　誰もが　おんなじだったのに　どうして\n　こんな　悲しい結末になっちゃったんだろう。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>We all wanted to protect Al-Ahagiro,\nbut why did it have to end in such a\nsad way?<stop_lip_animation n02035 CLOSE_MOUTH>"
@@ -294,7 +294,7 @@
     "<start_lip_sync n02040 _normal m00001>「なぁ……セラフィ。\n　ちょっと　城下町まで来てくれよ。 \n　話しておきたいことが　あるんだ。<stop_lip_animation n02040 CLOSE_MOUTH>": "<start_lip_sync n02040 _normal m00001>Hey Seraphi, come to Castle Town for a\nminute.I have something to tell you.<stop_lip_animation n02040 CLOSE_MOUTH>"
   },
   "64857": {
-    "<start_lip_sync n02035 _normal m00001>「……えっ？\n　もしかして　また　何かあったのかな。\n　<cs_pchero>さん。城下町に行ってみよう！<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>Eh? Perhaps something happened again.<13_aaaaaac>Let's go to Castle Town!<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<start_lip_sync n02035 _normal m00001>「……えっ？\n　もしかして　また　何かあったのかな。\n　<cs_pchero>さん。城下町に行ってみよう！<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>Eh? Perhaps something happened again.<cs_pchero>Let's go to Castle Town!<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64858": {
     "<start_lip_sync n02035 _normal m00001>「……えっ　なに？　どうしたの？<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>What? What? What's wrong?<stop_lip_animation n02035 CLOSE_MOUTH>"
@@ -306,7 +306,7 @@
     "<start_lip_sync n02041 _normal m00001>「あんがとね！　アラハギーロを守ってくれて。<stop_lip_animation n02041 CLOSE_MOUTH>": "<start_lip_sync n02041 _normal m00001>Thank you! For protecting Al-Ahagiro.<stop_lip_animation n02041 CLOSE_MOUTH>"
   },
   "64861": {
-    "<start_lip_sync n02039 _normal m00001>「おー　<cs_pchero>！\n　オメーも　なかなか　がんばってたな。<stop_lip_animation n02039 CLOSE_MOUTH>": "<start_lip_sync n02039 _normal m00001>Ooh.<13_aaaaaac>Hey, you're doing pretty good, too!\nYou were doing pretty well, too.<stop_lip_animation n02039 CLOSE_MOUTH>"
+    "<start_lip_sync n02039 _normal m00001>「おー　<cs_pchero>！\n　オメーも　なかなか　がんばってたな。<stop_lip_animation n02039 CLOSE_MOUTH>": "<start_lip_sync n02039 _normal m00001>Ooh.<cs_pchero>Hey, you're doing pretty good, too!\nYou were doing pretty well, too.<stop_lip_animation n02039 CLOSE_MOUTH>"
   },
   "64862": {
     "<start_lip_sync n02348 _normal m00001>「ありがとう　セラフィ！<stop_lip_animation n02348 CLOSE_MOUTH>": "<start_lip_sync n02348 _normal m00001>Thanks Seraphi!<stop_lip_animation n02348 CLOSE_MOUTH>"
@@ -315,7 +315,7 @@
     "<start_lip_sync n02345 _normal m00001>「おつかれさま！<stop_lip_animation n02345 CLOSE_MOUTH>": "<start_lip_sync n02345 _normal m00001>Good night!<stop_lip_animation n02345 CLOSE_MOUTH>"
   },
   "64864": {
-    "<start_lip_sync n02035 _normal m00001>「そんな……　あれは　<cs_pchero>さんや\n　タジウスさんの　おかげだよ！\n　私は　ちょっと手伝っただけで……<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>Oh, no. That's...<13_aaaaaac>I would like to thank Mr. Tajius and\nMr. Krishnamoorthy for their help! I\nwas just helping out a little bit.<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<start_lip_sync n02035 _normal m00001>「そんな……　あれは　<cs_pchero>さんや\n　タジウスさんの　おかげだよ！\n　私は　ちょっと手伝っただけで……<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>Oh, no. That's...<cs_pchero>I would like to thank Mr. Tajius and\nMr. Krishnamoorthy for their help! I\nwas just helping out a little bit.<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64865": {
     "<start_lip_sync n02040 _normal m00001>「……なぁ　セラフィ。\n　じつは　みんなで　考えてたんだけどさ……<stop_lip_animation n02040 CLOSE_MOUTH>": "<start_lip_sync n02040 _normal m00001>You know, Seraphi, we've all been\nthinking about it.<stop_lip_animation n02040 CLOSE_MOUTH>"
@@ -345,21 +345,21 @@
     "<start_lip_sync n02035 _normal m00001>「リーダーとか　ガラじゃないけど……\n　これからも　このアラハギーロと\n　みんなを守るために　私　がんばるね！<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>I'm not a leader or a galah, but I\nwill do my best to protect Al-Ahagiro\nand everyone here!<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64873": {
-    "<start_lip_sync n02035 _normal m00001>「<cs_pchero>さん。そういうわけで\n　私　ここのリーダーになっちゃうみたい。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001><13_aaaaaac>I'm going to be the leader here.\nThat's why I'm going to be the leader\nhere.<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<start_lip_sync n02035 _normal m00001>「<cs_pchero>さん。そういうわけで\n　私　ここのリーダーになっちゃうみたい。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001><cs_pchero>I'm going to be the leader here.\nThat's why I'm going to be the leader\nhere.<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64874": {
-    "<start_lip_sync n02035 _normal m00001>「……あっ　そうだ！\n　とりあえず　リーダーの初仕事として\n　<cs_pchero>さんに　お礼を　渡さなきゃね！<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>Oh, that's right! Anyway, as the\nleader's first task...<13_aaaaaac>I'll have to give the thank-you note\nto<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<start_lip_sync n02035 _normal m00001>「……あっ　そうだ！\n　とりあえず　リーダーの初仕事として\n　<cs_pchero>さんに　お礼を　渡さなきゃね！<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>Oh, that's right! Anyway, as the\nleader's first task...<cs_pchero>I'll have to give the thank-you note\nto<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "42173": {
     "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
   },
   "64875": {
-    "<start_lip_sync n02035 _normal m00001>「これまで　ずーっと　<cs_pchero>さんには\n　頼りっぱなしだったけど　これからは\n　町のみんなと協力して　ここを守っていくわ。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>All this time.<13_aaaaaac>I've been relying on the \"Mere Old\nMan\" for so long, but from now on, I'm\ngoing to work with everyone in the\n<br>\ntown to protect this place.<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<start_lip_sync n02035 _normal m00001>「これまで　ずーっと　<cs_pchero>さんには\n　頼りっぱなしだったけど　これからは\n　町のみんなと協力して　ここを守っていくわ。<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>All this time.<cs_pchero>I've been relying on the \"Mere Old\nMan\" for so long, but from now on, I'm\ngoing to work with everyone in the\n<br>\ntown to protect this place.<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64876": {
     "<start_lip_sync n02035 _normal m00001>「今まで　本当にありがとね！\n　私たちの作る　新しい国に　期待してて！<stop_lip_animation n02035 CLOSE_MOUTH>": "<start_lip_sync n02035 _normal m00001>Thank you so much for everything!\nPlease look forward to the new country\nwe're going to build!<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "28425": {
-    "<cs_pchero>は　クエストをクリアした！": "<13_aaaaaac>completed the quest!"
+    "<cs_pchero>は　クエストをクリアした！": "<cs_pchero>completed the quest!"
   }
 }

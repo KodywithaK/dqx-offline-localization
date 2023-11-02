@@ -1,6 +1,6 @@
 {
   "19001497": {
-    "<cs_pchero>は\nニーベルのゆびわ（だいじなもの）を\n手に入れた！<me 60>": "<13_aaaaaac>received Nibel's Ring (Key Item)!<me 60>"
+    "<cs_pchero>は\nニーベルのゆびわ（だいじなもの）を\n手に入れた！<me 60>": "<cs_pchero>received Nibel's Ring (Key Item)!<me 60>"
   },
   "17296": {
     "<center>……待っ……　れ……": "Wait."
@@ -18,13 +18,13 @@
     "<start_lip_sync n00210 _normal m00001>「ボクの名は　シグルド！\n　世界の均衡を守るべく戦う　ヴァルハラの戦士！<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>My name is Sigurd! I am a Valhalla\nwarrior who fights to protect the\nbalance of the world!<stop_lip_animation n00210 CLOSE_MOUTH>"
   },
   "17301": {
-    "<start_lip_sync n00210 _normal m00001>「キミの名は……　そうか　<cs_pchero>か！\n　ボクの想像どおり　猛々しく　美しい名前だ。<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>I see.<13_aaaaaac>I guess! The name is as fierce and\nbeautiful as I imagined.<stop_lip_animation n00210 CLOSE_MOUTH>"
+    "<start_lip_sync n00210 _normal m00001>「キミの名は……　そうか　<cs_pchero>か！\n　ボクの想像どおり　猛々しく　美しい名前だ。<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>I see.<cs_pchero>I guess! The name is as fierce and\nbeautiful as I imagined.<stop_lip_animation n00210 CLOSE_MOUTH>"
   },
   "19000400": {
     "<start_lip_sync n00212 _normal m00001>「け……ケキちゃん……？？？\n　しゃべった……！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<start_lip_sync n00212 _normal m00001>Cakey? I talked!<stop_lip_animation n00212 CLOSE_MOUTH>"
   },
   "17302": {
-    "<start_lip_sync n00210 _normal m00001>「勇猛な巨人族　<cs_pchero>よ！\n　キミは　気づいているか？\n　我らの世界の均衡が　崩れ始めていることに。<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>The Brave Giants<13_aaaaaac>You're aware of it? Have you noticed?\nThe balance of our world is beginning\nto shift.<stop_lip_animation n00210 CLOSE_MOUTH>"
+    "<start_lip_sync n00210 _normal m00001>「勇猛な巨人族　<cs_pchero>よ！\n　キミは　気づいているか？\n　我らの世界の均衡が　崩れ始めていることに。<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>The Brave Giants<cs_pchero>You're aware of it? Have you noticed?\nThe balance of our world is beginning\nto shift.<stop_lip_animation n00210 CLOSE_MOUTH>"
   },
   "19000401": {
     "<start_lip_sync n00212 _normal m00001>「この　ケキちゃん……人形……。\n　ナブナブ人形セットの……？？\n　なんか　見覚え　ある……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<start_lip_sync n00212 _normal m00001>This Cakey doll. Is this from the\nNabunabu doll set? It looks familiar.<stop_lip_animation n00212 CLOSE_MOUTH>"
@@ -33,7 +33,7 @@
     "<start_lip_sync n00210 _normal m00001>「ボクは　それを食い止めるために　長い旅を\n　していたが　その途中で　先ほどの巨鳥に捕まり\n　この巣に　囚われてしまったんだ。<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>I was on a long journey to stop it,\nbut along the way I was caught by the\ngiant bird I mentioned earlier and\n<br>\ntrapped in this nest.<stop_lip_animation n00210 CLOSE_MOUTH>"
   },
   "17305": {
-    "<start_lip_sync n00210 _normal m00001>「まったく　とんだ目にあったが\n　これも　<cs_pchero>に　出会うための\n　運命だったのかもしれない。<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>I've been through a hell of a lot, but\nI've also been through a lot.<13_aaaaaac>Perhaps it was fate that led me to\nmeet the<stop_lip_animation n00210 CLOSE_MOUTH>"
+    "<start_lip_sync n00210 _normal m00001>「まったく　とんだ目にあったが\n　これも　<cs_pchero>に　出会うための\n　運命だったのかもしれない。<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>I've been through a hell of a lot, but\nI've also been through a lot.<cs_pchero>Perhaps it was fate that led me to\nmeet the<stop_lip_animation n00210 CLOSE_MOUTH>"
   },
   "17306": {
     "<start_lip_sync n00210 _normal m00001>「キミに　相談したいことがあるんだ。\n　すまないが　仲間の待つ　ヴァルハラの館へ\n　ボクを　連れていってくれないだろうか？<yesno><close><stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>I have something I need to discuss\nwith you. I'm sorry, but can you take\nme to Valhalla Hall where my companion\n<br>\nis waiting?<yesno><close><stop_lip_animation n00210 CLOSE_MOUTH>"
@@ -45,10 +45,10 @@
     "<start_lip_sync n00210 _normal m00001>「それなら　優先すべきは　その使命だな。\n　まずは　その指輪を　持ち主に届けよう！<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>Then our priority is the mission.\nFirst, we must deliver the ring to its\nrightful owner!<stop_lip_animation n00210 CLOSE_MOUTH>"
   },
   "17309": {
-    "<start_lip_sync n00210 _normal m00001>「勇猛な巨人族　<cs_pchero>よ！\n　ボクの足では　移動するのに　時間がかかる。\n　キミの　かばんに　入らせてもらうぞ。<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>The Brave Giants<13_aaaaaac>I'm not sure how long it will take me\nto get there! It takes me a long time\nto get around on my feet. I'm going to\n<br>\nhave to get into your bag.<stop_lip_animation n00210 CLOSE_MOUTH>"
+    "<start_lip_sync n00210 _normal m00001>「勇猛な巨人族　<cs_pchero>よ！\n　ボクの足では　移動するのに　時間がかかる。\n　キミの　かばんに　入らせてもらうぞ。<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>The Brave Giants<cs_pchero>I'm not sure how long it will take me\nto get there! It takes me a long time\nto get around on my feet. I'm going to\n<br>\nhave to get into your bag.<stop_lip_animation n00210 CLOSE_MOUTH>"
   },
   "19001498": {
-    "<cs_pchero>は\n戦士シグルド（だいじなもの）を　手に入れた！<me 60>": "<13_aaaaaac>received Warrior Sigurd (Key Item)!<me 60>"
+    "<cs_pchero>は\n戦士シグルド（だいじなもの）を　手に入れた！<me 60>": "<cs_pchero>received Warrior Sigurd (Key Item)!<me 60>"
   },
   "17311": {
     "かばんの中から　シグルドの声が聞こえる。": "I hear Sigurd's voice from inside the\nbag."

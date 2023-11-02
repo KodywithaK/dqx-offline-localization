@@ -198,7 +198,7 @@
     "<start_lip_sync m50009 _normal m00001>「くそっ……　なんだよ……\n　いったい　どういうつもりなんだよ……\n　オレは　ただ……ハニーのために……。<stop_lip_animation m50009 CLOSE_MOUTH>": "<start_lip_sync m50009 _normal m00001>What the hell is going on?<stop_lip_animation m50009 CLOSE_MOUTH>"
   },
   "17639": {
-    "<start_lip_sync n00210 _normal m00001>「<cs_pchero>……\n　滅びの魔竜に　とどめをさせ！<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001><13_aaaaaac> Let the dragon of perdition finish\nthe job!<stop_lip_animation n00210 CLOSE_MOUTH>"
+    "<start_lip_sync n00210 _normal m00001>「<cs_pchero>……\n　滅びの魔竜に　とどめをさせ！<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001><cs_pchero> Let the dragon of perdition finish\nthe job!<stop_lip_animation n00210 CLOSE_MOUTH>"
   },
   "17640": {
     "<start_lip_sync n00210 _normal m00001>「放っておけば　いずれ　この者は\n　天命の戦乙女を　奪い返しにくるだろう！<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>If left unchecked, this one will\neventually come to take back Fate's\nWar Maiden!<stop_lip_animation n00210 CLOSE_MOUTH>"
@@ -258,10 +258,10 @@
     "<start_lip_sync n00231 _normal m00001>「さあて　時間が　ありやせん。\n　世界の均衡を　取り戻すため\n　ヴァルハラの館へ　帰りやしょう。<stop_lip_animation n00231 CLOSE_MOUTH>": "<start_lip_sync n00231 _normal m00001>Well, there's no time to waste. Let's\ngo back to Valhalla Hall to restore\nbalance to the world.<stop_lip_animation n00231 CLOSE_MOUTH>"
   },
   "17659": {
-    "<start_lip_sync n00210 _normal m00001>「う…うむ！　巨人族の戦士　<cs_pchero>よ！\n　天命の戦乙女を連れ　ヴァルハラの館へ帰ろう！\n　キミの　かばんに　入らせてもらうぞ！<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>Ummm! Giant Tribe WARRIOR<13_aaaaaac>Let's take Fate's War Maiden and go\nback to Valhalla Hall! Take the Fate's\nWar Maiden back to Valhalla Hall! I'm\n<br>\ngoing to get into your bag!<stop_lip_animation n00210 CLOSE_MOUTH>"
+    "<start_lip_sync n00210 _normal m00001>「う…うむ！　巨人族の戦士　<cs_pchero>よ！\n　天命の戦乙女を連れ　ヴァルハラの館へ帰ろう！\n　キミの　かばんに　入らせてもらうぞ！<stop_lip_animation n00210 CLOSE_MOUTH>": "<start_lip_sync n00210 _normal m00001>Ummm! Giant Tribe WARRIOR<cs_pchero>Let's take Fate's War Maiden and go\nback to Valhalla Hall! Take the Fate's\nWar Maiden back to Valhalla Hall! I'm\n<br>\ngoing to get into your bag!<stop_lip_animation n00210 CLOSE_MOUTH>"
   },
   "19001509": {
-    "<cs_pchero>は　天命の戦乙女（だいじなもの）と\nヴァルハラの戦士たち（だいじなもの）を\n手に入れた！<me 60>": "<13_aaaaaac>received Fate's War Maiden (Key Item)\nand Warriors of Valhalla (Key Item)!<me 60>"
+    "<cs_pchero>は　天命の戦乙女（だいじなもの）と\nヴァルハラの戦士たち（だいじなもの）を\n手に入れた！<me 60>": "<cs_pchero>received Fate's War Maiden (Key Item)\nand Warriors of Valhalla (Key Item)!<me 60>"
   },
   "17661": {
     "<start_lip_sync n00228 _normal m00001>「そうでしたか……。<pc>\n　あなたは　この私を　目醒めさせるために\n　さまざまな　努力をしてくださったのですね。<stop_lip_animation n00228 CLOSE_MOUTH>": "<start_lip_sync n00228 _normal m00001>Was that so? <pc> You have\nmade various efforts to awaken me.<stop_lip_animation n00228 CLOSE_MOUTH>"
@@ -348,7 +348,7 @@
     "<start_lip_sync n00228 _normal m00001>「最終……　戦争だ……！！<stop_lip_animation n00228 CLOSE_MOUTH>": "<start_lip_sync n00228 _normal m00001>Final war!<stop_lip_animation n00228 CLOSE_MOUTH>"
   },
   "17692": {
-    "<start_lip_sync n00228 _normal m00001>「<pc>っ……　<pc>～～！！<stop_lip_animation n00228 CLOSE_MOUTH>": "<start_lip_sync n00228 _normal m00001><&13_aaaaaaad>!<stop_lip_animation n00228 CLOSE_MOUTH>"
+    "<start_lip_sync n00228 _normal m00001>「<pc>っ……　<pc>～～！！<stop_lip_animation n00228 CLOSE_MOUTH>": "<start_lip_sync n00228 _normal m00001><pc>!<stop_lip_animation n00228 CLOSE_MOUTH>"
   },
   "17693": {
     "<start_lip_sync n00228 _normal m00001>「わ　我らの世界が……<stop_lip_animation n00228 CLOSE_MOUTH>": "<start_lip_sync n00228 _normal m00001>Our world<stop_lip_animation n00228 CLOSE_MOUTH>"
