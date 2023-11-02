@@ -1,0 +1,626 @@
+{
+  "182719": {
+    "「チミも　指針書を捨て　自由を得るために\n　この集落に　合流したんだモーン？<yesno><break>": "You, too, have abandoned the directive\nand joined this settlement to gain\nyour freedom, haven't you, Morn?<yesno><break>"
+  },
+  "182720": {
+    "「今日から　チミも　同志だモーン！": "From today on, you are my comrade,\ntoo!"
+  },
+  "182721": {
+    "「たとえ　同志でなくても\n　ゆっくりしていけば　いいんだモーン。": "Even if we are not comrades, it's okay\nto slow down, Morn."
+  },
+  "182722": {
+    "話しかけても　返事はない。\nどうやら　まどろんでいるようだ……。": "I tried to talk to him, but he did not\nrespond. He seems to be in a slumber."
+  },
+  "182723": {
+    "<attr><feel_sad_one><end_attr>「むにゃむにゃ…………ひっく！": "<attr><feel_sad_one><end_attr>Mushy hiccups!"
+  },
+  "182724": {
+    "<attr><feel_angry_one><end_attr><shake_big>「くおらぁあああッ！！\n　人さまのモンに　手をつけるでない！<bw_break>": "<attr><feel_angry_one><end_attr><shake_big>Kuhlaaaaaaah! Don't touch my property!<bw_break>"
+  },
+  "182725": {
+    "<attr><feel_think_lv2><end_attr>「モモンタルさんは　すげえよ。\n　なまけものの　ワグミカさんを　せっついて\n　錬金を　させちまうんだからさぁ。\n<br>\n「もう　どっちが主人だか　わかんねえな。\n　アルケミアの所長だったのは\n　じつは　モモンタルさんなんじゃね？": "<attr><feel_think_lv2><end_attr>Sanguintal is amazing. He made the\nlazy Wagmika do the alchemy without\npushing him. I don't know who's the\n<br>\nmaster now. I think it was Sanguintal\nwho was the director of Alchemia,\nwasn't it?"
+  },
+  "182726": {
+    "「ややっ　チミも　ご主人を訪ねて\n　遠路はるばる　やってきたんだモン？<yesno><break>": "Hey, you came all the way to visit the\nmaster, too, didn't you?<yesno><break>"
+  },
+  "182727": {
+    "「今日は　千客万来なんだモーン。\n<br>\n「さっきも　ファラス君という剣士が\n　訪ねてきたんだモーン！": "We have many visitors today. Just now,\na swordsman named Faras came to visit\nme!"
+  },
+  "182728": {
+    "「見てのとおり　ご主人は　グデングデンだから\n　話を聞きたければ　かなりの忍耐強さが\n　求められるんだモーン！": "As you can see, the master is\ngudengden, so you'll have to be very\npatient if you want to hear what he\n<br>\nhas to say, morn!"
+  },
+  "182729": {
+    "「ファラス君には　悪いコトをしたんだモーン。\n　ボクが　ご主人の　物忘れのひどさを\n　失念していたばっかりに…………くっ。\n<br>\n「ご主人を　キツく　しかっておくので\n　どうか　どうか　許してほしいと\n　ファラス君に　謝罪の念を送るんだモーン！": "I feel bad for Mr. Faras. It's only\nbecause I was so oblivious to the fact\nthat the master is forgetful. I'm\n<br>\ngoing to take a hard look at master,\nso please, please, please forgive me\nand send my apologies to Mr. Faras!"
+  },
+  "182731": {
+    "<attr><feel_happy_lv2><end_attr>「おお！！　旅の者か。\n　ここは　自由人の集落だ。\n<br>\n「指針書の束縛から　自由になろう！\n　という　思想のもとに　王都をはなれ\n　自給自足をいとなむ者たちの　共同体だ。\n<br>\n「去る者は追わず　来る者は大歓迎。\n　それが　我らのモットーだ。\n<br>\n「しかし　訪問者が　立て続けに来るなぁ。\n　つい　先ほども　ファラスとかいう剣士が\n　ワグミカさんを　訪ねてきたんだよ。": "<attr><feel_happy_lv2><end_attr>Oh! You're a traveler. This is Freedom\nVillage. Freedom Village is a\ncommunity of self-sufficient people\n<br>\nwho have left the Royal City! We are a\ncommunity of people who are willing to\nleave the Royal City and become self-\n<br>\nsufficient. We welcome all comers, not\nthose who leave. That is our motto.\nBut we keep getting visitors. Just a\n<br>\nfew days ago, a swordsman named Faras\ncame to visit Wagmika."
+  },
+  "182732": {
+    "<pc>は　王立アルケミアへの\n秘密の通路のありかを　聞きたいと伝えた。": "<pc> asked for the location\nof the secret passage to Royal\nAlchemia."
+  },
+  "182733": {
+    "<pc>は　宝箱をあけた。<se_nots Joutyu_SE 9><bw_break>": "<pc> opened the treasure\nchest.<se_nots Joutyu_SE 9><bw_break>"
+  },
+  "182734": {
+    "中には　ワグミカの私物が　つまっていた。\n<pc>は　秘密の取っ手（だいじなもの）を\n手に入れた！<me 60>": "Wagmika's personal belongings were\ninside. <pc> received Secret\nHandles (Key Item)!<me 60>"
+  },
+  "182735": {
+    "王都キィンベルに戻って\nヨンゲ所長の家の　タンスに使ってみよう。": "Let's go back to Royal City Kimbel and\nuse it for Wardrobe in Director Yong's\nhouse."
+  },
+  "182736": {
+    "<attr><feel_normal_one><end_attr>「ふにゃ！？　なんじゃ　お前さん。\n　このワグミカに　なんの用じゃ？": "<attr><feel_normal_one><end_attr>Punyah! What is it, you? What do you\nwant with this Wagmika?"
+  },
+  "182737": {
+    "<attr><feel_normal_one><end_attr>「なんじゃ　お前もか……。\n　こうも立て続けに　モノ好きが来るとはのう。\n<br>\n「さっきも　ファラスとかいう　オッサンが\n　……ひっく！　秘密の通路のありかを\n　聞きにきおったぞい。\n<br>\n「暑苦しい男じゃった……。うっとうしいんで\n　さっさと　通路をひらく方法を教えて\n　お帰り願ったところじゃ。\n<br>\n「よいか？　屋敷の２階にある　タンスが\n　秘密の通路の　入り口になっておる。\n<br>\n「そのタンスに　暗証番号を打ち込めば\n　あら不思議　王立アルケミアに　一瞬で行ける\n　便利な通路が　ひらけるんだぞい。\n<br>\n「暗証番号は……ひっく！　０５２７じゃ！\n　さあ　満足したろう。帰った帰った……。": "<attr><feel_normal_one><end_attr>What? You too? I never thought I'd see\nso many monophiles in a row. I've got\nFaras Ossa here too! He came to ask\n<br>\nwhere the secret passage is. He was a\nhot and bothered guy. He was annoying\nme, so I quickly taught him how to\n<br>\nopen the passage and asked him to\nleave. May I? The wardrobe on the\nsecond floor of the villa is the\n<br>\nentrance to the secret passage. If you\nenter the password into the Wardrobe,\nyou will be able to open a convenient\n<br>\npassage that will take you to the\nRoyal Alchemia in an instant. The code\nis HIKKU! It's 0527! Well, I hope\n<br>\nyou're satisfied. I'm home."
+  },
+  "182739": {
+    "<attr><feel_normal_one><end_attr>「取っ手は　お前がもってけ。\n　そこの宝箱に　入っておるでな。\n<br>\n「取っ手を　タンスにくっつければ　暗証番号を\n　入力できるようになる……。暗証番号は\n　０５２７だから　忘れずにな……　ひっく！！": "<attr><feel_normal_one><end_attr>You take the handle. It is in the\ntreasure chest. Attach the handle to\nthe wardrobe and you'll be able to\n<br>\nenter your PIN. The code is 0527, so\ndon't forget it!"
+  },
+  "182740": {
+    "<attr><feel_angry_one><end_attr>「この　うつけ者が……ひっく！\n　断りなく　人の持ち物を　あさるでない。": "<attr><feel_angry_one><end_attr>This is a snitch! Don't go rummaging\nthrough people's belongings without\nasking."
+  },
+  "182741": {
+    "<attr><feel_think_lv1><end_attr>「え？　王立アルケミアの所長だった人に\n　会いにきただって？\n<br>\n「ああ　そういえば　ワグミカさんが\n　王都にいたころ　そんな肩書きだったって\n　いばってたっけなぁ……。\n<br>\n「ともあれ　ワグミカさんの住まいなら\n　集落の奥のほうにあるから　訪ねてみな。\n　……話せる状態じゃないかも　しれんけど。": "<attr><feel_think_lv1><end_attr>What? You came to see the former\ndirector of Royal Alchemia? Oh, I\nremember when Wagmika was in Royal\n<br>\nCity, he was always bragging about\nhaving such a title. Anyway, Wagmika's\nresidence is in the back of the\n<br>\nvillage, so you should visit there.\nYou should visit her. She may not be\nin a condition to talk."
+  },
+  "182742": {
+    "「ごめんなさいだモーン。\n　無礼　かつ　非常識なご主人に代わって\n　平謝りなんだモーン。\n<br>\n「王立アルケミアで　エリートとして\n　はたらいていたころの　ご主人は　ここまで\n　やさぐれては　いなかったんだモーン。\n<br>\n「少し長くなるけど　ご主人が　挫折して\n　やさぐれたワケを　聞いていくんだモーン？<yesno><break>": "I'm sorry, Morn. I apologize on behalf\nof the rude and insane master. The\nmaster when he was working as Elliet\n<br>\nin Royal Alchemia was not this soft.\nIt's going to be a bit long, but let's\nhear the reason why the master was so\n<br>\nfrustrated and became so soft, shall\nwe?<yesno><break>"
+  },
+  "182743": {
+    "「お時間のあるときに\n　聞いてくれると　うれしいんだモーン！": "I would be happy if you could ask me\nwhen you have time!"
+  },
+  "182744": {
+    "「じゃあ　お話しするモーン。\n<br>\n「王立アルケミアの　所長だったころの　ご主人は\n　とある指針に激怒。それから　まもなくして\n　職場を　解雇されてしまったんだモン。\n<br>\n「伝え聞くところによると　指針書にさからって\n　ある研究を拒否したコトが　解雇の理由だったと\n　ウワサされてるんだモン……。\n<br>\n「非常識なご主人が　断るくらいだから　よほど\n　人倫にもとる研究なのだと　予想してるけど\n　ご主人は　ボクにすら　語らないんだモーン。\n<br>\n「その後　ご主人に代わって　所長の座に\n　おさまったのが　当時　ご主人の部下だった\n　ヨンゲ君という　おっさんなんだモーン。\n<br>\n「少し前　ヨンゲ君に　お手紙を書いていたときの\n　ご主人は　めずらしく　グデングデンになる\n　悪魔の水の誘惑に　打ち勝ったんだモーン。\n<br>\n「だけど　手紙の返事は　来なかったようで\n　ご主人は　ヤケをおこして　またまた\n　人をダメにする水に　おぼれたんだモーン。\n<br>\n「人生はクソだとさけぶ　ご主人を　どうか\n　責めないでやって　ほしいんだモーン……。": "Then I will tell you a story, Morn.\nWhen he was the director of Royal\nAlchemia, the master was furious about\n<br>\na certain guideline. Not long after\nthat, he was fired from his job.\nAccording to the rumor, the reason he\n<br>\nwas fired was because he refused to do\na certain research in violation of the\nguidelines. Since the insane master\n<br>\nrefused to do the research, I expect\nthat it was a very unethical research,\nbut the master won't even tell me\n<br>\nabout it. After that, Yong-kun, who\nwas working under the master at that\ntime, took over the position of the\n<br>\ndirector. When master was writing a\nletter to Yong-kun a while ago, he\novercame the temptation of demon\n<br>\nwater, which made him unusually\ngudeungdengdeng. But the letter didn't\nseem to get a reply, and master got\n<br>\ndesperate and drowned himself in the\nwater that was ruining people once\nagain. Please don't blame the master\n<br>\nfor crying out that life sucks."
+  },
+  "182745": {
+    "<attr><feel_happy_lv2><end_attr>「旅人よ　ここは　自由人の集落だ。\n<br>\n「指針書の束縛から　自由になろう！\n　という　思想のもとに　王都をはなれ\n　自給自足をいとなむ者たちの　共同体だ。": "<attr><feel_happy_lv2><end_attr>Travelers, this is Freedom Village.\nLet us be free from the shackles of\nthe guidelines! We are a community of\n<br>\npeople who are willing to leave the\nRoyal City and become self-sufficient."
+  },
+  "182746": {
+    "ワグミカの私物がつまった　宝箱だ。": "It is a treasure chest filled with\nWagmika's personal belongings."
+  },
+  "182747": {
+    "<attr><feel_sad_one><end_attr>「２階のタンスに　取っ手をつけるのじゃ。\n　暗証番号は　０５２７……　むにゃむにゃ。\n<br>\n「人生は　クソだ！！\n　生きるに値しない……　ぐがぁー！": "<attr><feel_sad_one><end_attr>We need a handle for the Wardrobe on\nthe second floor. The code is 0527.\nLife sucks! Life is not worth living,\n<br>\nGugaru!"
+  },
+  "182748": {
+    "<attr><feel_think_lv2><end_attr>「身近に　すごウデの錬金術師が　いるんだし\n　もう一度　錬金術を　学びなおそうかな。\n<br>\n「でも　そのためには　ワグミカさんの酔いを\n　覚ますところから　始めなきゃいけないのか。\n　錬金術の道は　けわしい……。": "<attr><feel_think_lv2><end_attr>There is a very skilled alchemist\nclose to me, so I think I'd like to\nlearn alchemy again. But for that, I\n<br>\nhave to start from the point of\nsobering up Wagmika, don't I? The path\nof alchemy is steep."
+  },
+  "182749": {
+    "<attr><feel_normal_one><end_attr>「ふぁ？　暗証番号が　ちがったじゃと……。\n<br>\n「フン　ヨンゲめ　再設定しおったな。\n　あやつが設定し直した　暗証番号など\n　ワシが知るわけなかろう……　ひっく！<bw_break>": "<attr><feel_normal_one><end_attr>Huh? You gave me the wrong PIN. Yong,\nyou re-set it. There's no way I know\nthe PIN number he just reset!<bw_break>"
+  },
+  "182750": {
+    "ワグミカの目に　涙が浮かんでいる……。": "Tears in Wagmika's eyes."
+  },
+  "182751": {
+    "<attr><feel_normal_one><end_attr>「ふぁ？　ヨンゲが　死んだじゃと？\n　そりゃあ　本当なのか……？<bw_break>": "<attr><feel_normal_one><end_attr>Huh? You said Yong is dead? Is that\ntrue?<bw_break>"
+  },
+  "183493": {
+    "<attr><feel_angry_lv2><end_attr>「俺は　指針書が　信用できねーんだわ。\n　なんでも　王様が　時渡りのチカラをあやつって\n　指針書を更新してるそうだが……\n<br>\n「いくら　王様でも　ひとりの人間が\n　全国民の行動を　こと細かに決めるなんて\n　どう考えても　おかしいだろう？": "<attr><feel_angry_lv2><end_attr>I don't trust the guidelines. I hear\nthat the king is using his temporal\npowers to update the guidelines, but\n<br>\nno matter how much you think about it,\nit's crazy that a single human decides\nthe actions of the entire nation in\n<br>\ndetail, no matter how kingly he may\nbe, isn't it?"
+  },
+  "183494": {
+    "「畑を　たがやせ　エンヤコラ～！\n　わしらの国は　豊作だ～！": "Tag the fields, Enyakora! Our country\nwill have a bountiful harvest~!"
+  },
+  "183495": {
+    "<attr><feel_happy_lv1><end_attr>「王都にいたころは　指針書に命じられるまま\n　アレしなきゃ　コレしなきゃって\n　いつも　追い立てられてたっけ……。\n<br>\n「それに比べ　何をするにも　自由なココは\n　天国さ。家が粗末なんで　暑さ寒さが\n　身にこたえる点だけは　ツライけどね。": "<attr><feel_happy_lv1><end_attr>When I was in Royal City, I was always\ndriven to do whatever the guidelines\nsaid I had to do. Compared to that, I\n<br>\nam free to do whatever I want here.\nThe only thing that's hard is that the\nhouse is so shabby that the heat and\n<br>\ncold are hard on my body."
+  },
+  "183496": {
+    "「私有財産は　没収だッ！！\n　共有せよ　共有せよ。": "Private property is confiscated!\nShare, share, share."
+  },
+  "183497": {
+    "「オリのスコップ　返せよぅ！": "Give me back my shovel!"
+  },
+  "183498": {
+    "<attr><feel_happy_lv2><end_attr>「ワグミカさんの　作ってくれた井戸で\n　くみあげた水って　王都の飲み水にも\n　負けないくらい　おいしいのよ。\n<br>\n「なにやら　水を　キレイにするとかいう装置を\n　錬金術でこしらえたって　説明されたけどさ\n　私には　チンプンカンプンだったわね。": "<attr><feel_happy_lv2><end_attr>The water brushed from the wells made\nby Wagmika is as good as Royal City's\ndrinking water. He explained that he\n<br>\nused alchemy to create a device to\nclean the water, but I couldn't\nunderstand a thing about it."
+  },
+  "183499": {
+    "<attr><feel_happy_lv2><end_attr>「おお　旅人よ！　\n　ようこそ　自由人の集落へ。\n<br>\n「ここは　時の指針書の束縛から　自由になろう！\n　という思想のもとに　自給自足の暮らしを\n　いとなむ者たちの　共同体だ。": "<attr><feel_happy_lv2><end_attr>Oh, travelers!Welcome to Freedom\nVillage. This is a community of people\nwho are willing to live a self-\n<br>\nsufficient life based on the idea of\nfreedom from the shackles of the Time\nGuidebook! This is a community of\n<br>\npeople who are willing to live a self-\nsufficient life based on the idea of\n\"Freedom from the constraints of the\n<br>\nTime Guidebook\"."
+  },
+  "183500": {
+    "<attr><feel_happy_lv2><end_attr>「王都から　エース級の自由人が\n　来てくれたんだ！　その名も　ワグミカ。\n<br>\n「錬金術の上級者である　彼女は\n　便利な道具を　次々と錬金して\n　ここでの生活を　ゆたかにしてくれたんだ。": "<attr><feel_happy_lv2><end_attr>We have an Ace-class free spirit from\nRoyal City! Her name is Wagmika, and\nas an expert in alchemy, she has made\n<br>\nour life here more comfortable by\nsmelting useful tools one after\nanother."
+  },
+  "183501": {
+    "<attr><feel_sad_lv1><end_attr>「ある日　ボクの指針書に　魔法生物を処分せよ\n　なんてコトが　書かれてあってね。\n<br>\n「無視してたら　指針監督官とかいう連中が\n　ボクの　かわいい相棒を　むりやり\n　どこかへ　連れ去ってしまったんだ。\n<br>\n「ボクが　自由人になったワケ……\n　これ以上ないってくらい　わかりやすいだろ。": "<attr><feel_sad_lv1><end_attr>One day, I read in my guidelines that\nI had to dispose of magical creatures.\nWhen I ignored it, the Supervisor or\n<br>\nwhatever his name was, he forcefully\ntook my cute little buddy and took him\naway. How I became a free man couldn't\n<br>\nbe more obvious."
+  },
+  "183502": {
+    "「エテーネ王宮が　消滅したらしいモン。\n　それで　きゅうに　ファラス君の身が\n　心配になってきたんだモーン……。\n<br>\n「つかえる　あるじは　ちがえども\n　ゆるぎない忠誠心をもった　ファラス君を\n　ボクは　他人とは思えないんだモーン！": "I heard that Ethene Royal Palace has\ndisappeared. So I'm suddenly worried\nabout Mr. Faras's safety. I can't\n<br>\nbelieve that Faras is a stranger to me\nbecause of his unwavering loyalty to\nme, despite the fact that he has a\n<br>\ndifferent master!"
+  },
+  "183503": {
+    "<attr><feel_think_lv1><end_attr>「いつも見えていた　エテーネ王宮が\n　見えなくなったんだけど　どうなったの？\n　ウワサどおり　消滅しちゃったとか？<yesno><break>": "<attr><feel_think_lv1><end_attr>I don't see Ethene Royal Palace\nanymore. Has it disappeared as\nrumored?<yesno><break>"
+  },
+  "183504": {
+    "<attr><feel_sad_lv2><end_attr>「えっ　そうなの……　がっかりだわ。\n　王宮がなくなれば　時の指針書も\n　なくなるだろうって　期待してたのになぁ。": "<attr><feel_sad_lv2><end_attr>Oh, really? I'm so disappointed. I was\nhoping that with the palace gone,\nthere would be no more Time Guidebook."
+  },
+  "183505": {
+    "<attr><feel_happy_lv2><end_attr>「それは　おめでたい話ね！\n　だって　王宮の消滅は\n　指針書の更新停止を　意味するのよ。\n<br>\n「すなわち　王都で暮らす人たちも\n　否応なしに　指針の束縛から\n　解放されるって　ことなんだから！": "<attr><feel_happy_lv2><end_attr>That's cause for celebration! Because\nthe disappearance of the Royal Palace\nmeans that the guidelines will no\n<br>\nlonger be updated. In other words, the\npeople living in the Royal City will\nbe freed from the constraints of the\n<br>\nguidelines!"
+  },
+  "183506": {
+    "「同志モモンタルに　忠誠を誓えッ！": "Swear allegiance to Comrade\nSanguintal!"
+  },
+  "183507": {
+    "「フレー　フレー　モモンタル！\n　けっぱれ　けっぱれ　モモンタル！": "Fray Fray Sanguintal!"
+  },
+  "183508": {
+    "<attr><feel_happy_lv2><end_attr>「王宮が消滅したそうね！？　国家の支配層が\n　いなくなったって　ことじゃないのよ！\n　今こそ　革命のチャンス！！\n<br>\n「指針書を必要としない　国家建設に\n　乗りだすときが　ついに来たんだわ！\n　王都で暮らす　同志たちに期待ね。\n<br>\n「……まあ　私にとっての革命は\n　ここで　畑を　たがやすことだから\n　王都で革命が起こっても　参加しないけどー。": "<attr><feel_happy_lv2><end_attr>I heard the palace disappeared! It\ndoesn't mean that the ruling class is\ngone! Now is the time for revolution!\n<br>\nIt's finally time to start building a\nnation that doesn't need a guideline!\nI hope my comrades in arms in the\n<br>\nRoyal City will be able to do the\nsame. Well, the revolution for me is\nto stubble the fields here, so even if\n<br>\nthere is a revolution in Royal City, I\nwon't participate in it."
+  },
+  "183509": {
+    "<attr><feel_think_lv2><end_attr>「時の指針書がイヤで　王都から\n　この集落に　移住してきたんだが……。\n<br>\n「王宮が消滅した　今なら　王都でも\n　指針書に　しばられることなく　自由に\n　生きられそうな気がする……　帰ろっかな。": "<attr><feel_think_lv2><end_attr>I moved from Royal City to this\nvillage because I didn't like the Time\nGuidebook. Now that the royal palace\n<br>\nhas disappeared, I feel like I can\nlive freely in Royal City without\nbeing bound by the Time Guidebook."
+  },
+  "183510": {
+    "<attr><feel_happy_one><end_attr>「ドミネウスの　アホウが\n　王宮ごと　消滅したそうじゃな！\n　ぶひゃひゃ！　ザマァないのう！<bw_break>": "<attr><feel_happy_one><end_attr>I heard that the assholes from\nDomineus have wiped out the entire\npalace! Bwahahaha! I'll be damned!<bw_break>"
+  },
+  "185000": {
+    "<attr><feel_angry_one><end_attr>「この　うっかりさんめ……ひっく！\n　取っ手は　ほれ……そこの宝箱に\n　入っておるでな。もってけ　もってけ。\n<br>\n「取っ手を　タンスにくっつければ　暗証番号を\n　入力できるようになる……。暗証番号は\n　０５２７だから　忘れずにな……　ひっく！！": "<attr><feel_angry_one><end_attr>You careless little bitch! The handle\nis in the treasure chest over there.\nTake it, take it, take it. Attach the\n<br>\nhandle to the wardrobe, and you'll be\nable to enter your PIN. The code is\n0527, so don't forget it!"
+  },
+  "187642": {
+    "「まっ　待つんだモーン！！": "Well, wait for it, Morn!"
+  },
+  "187643": {
+    "「ゴ　ゴシュジ～ン！！\n　大事なことを　伝え忘れてるモンッ！\n<br>\n「あのタンスに　暗証番号を入力するには\n　取っ手をつけないと　ダメなんだモーン！": "Goshujin~n! You forgot to tell me\nsomething important! To enter the PIN\ncode into that Wardrobe, you have to\n<br>\nput a handle on it!"
+  },
+  "187644": {
+    "<attr><feel_normal_one><end_attr>「よいか？　屋敷の２階にある　タンスが\n　秘密の通路の　入り口になっておる。\n<br>\n「そのタンスに　暗証番号を打ち込めば\n　あら不思議　王立アルケミアに　一瞬で行ける\n　便利な通路が　ひらけるんだぞい。\n<br>\n「暗証番号は……ひっく！　０５２７じゃ！\n　さあ　満足したろう。帰った帰った……。": "<attr><feel_normal_one><end_attr>May I? The Wardrobe on the second\nfloor of the mansion is the entrance\nto the secret passage. If you enter\n<br>\nthe password into the Wardrobe, you\nwill be able to open a convenient\npassage that will take you to the\n<br>\nRoyal Alchemia in an instant. The code\nis HIKKU! It's 0527! Well, I hope\nyou're satisfied. I'm home."
+  },
+  "187645": {
+    "<attr><feel_think_one><end_attr>「………………はっ！？　そうじゃった！！\n<br>\n「う～む……ファラスとかいう　オッサンには\n　悪いことをしたのう。暗証番号だけ　教えて\n　取っ手のことを　言い忘れるとは……。<bw_break>": "<attr><feel_think_one><end_attr>Ha! That's right! I feel bad for Faras\nand Ossa. I only gave him the PIN\nnumber and forgot to tell him about\n<br>\nthe handle.<bw_break>"
+  },
+  "189170": {
+    "「アンタ　マジ強そうだな。旅の人か？\n　指針書を　持ってないってことは\n　王都から来たわけでも　なさそうだし……。\n<br>\n「もし　時間あんなら\n　アンタに頼みてえことあんだけどさ。\n　マジで　聞いてもらえないか？\n<br>\n「じつは　オレ　自由人になろうと思って\n　王都を出てきたんだけどさ。ここで　暮らすなら\n　覚悟を示せって　課題を出されちまったんだ。\n<br>\n「んで　その課題のひとつが　オレひとりだと\n　マジで　こころもとないっつーか……。\n　要するに　課題の助っ人を　頼みたいんだ。": "YOU You look seriously strong. Are you\na traveler? You don't seem to be from\nthe Royal City if you don't have a\n<br>\nguidebook. If you have time, I'd like\nto ask you a favor. Seriously, would\nyou listen to me? I actually left\n<br>\nRoyal City to become a free man. But\nI've been given assignments to show\nthat I'm ready to live here. And one\n<br>\nof those assignments is that if I'm on\nmy own, I can't really have any toys.\nIn short, I'd like to ask for help\n<br>\nwith an assignment."
+  },
+  "189171": {
+    "「マジでっ！？　\n　いやー　課題とか聞いた時には　ショージキ\n　カンベンって思ったけど　マジ助かるわ。\n<br>\n「そんで　課題は　３つ出されててさ。\n　地獄の薪割りと　悪夢の野良仕事ってのは\n　オレも　マジ気合いで　こなしたんだけどな。\n<br>\n「残った　ひとつってのが……\n　残響の海蝕洞で　袋ひとつ分も\n　緑青色の鉱石を集める　戦慄の採掘なんだよ。\n<br>\n「あそこには　見るもおぞましい　こんぶ大将が\n　出るって　話も聞いたし　ひとりで行くとか\n　マジありえねーって感じで……。\n<br>\n「それで　アンタに頼みたいんだけどさ。\n　いざという時に　助太刀してもらえるよう\n　一緒に　採掘してほしいんだ。\n<br>\n「採掘には　つるはしが　必要なんだけど\n　この集落にいる　ノビッチってヤツが管理してて\n　マジで頼めば　貸してくれるはずだ。\n<br>\n「準備ができたら　海蝕洞に向かってくれ。\n　オレは　マジ後ろからついていくぜ。\n<br>\n「手分けして掘れば　早く終わるだろうし\n　襲われる前に　パッパと終わらせたいもんだな。\n　終わったら　洞窟奥の廃棄場で　落ち合おうぜ。": "Seriously?Well, when I heard about the\nassignment, I thought, \"Shojiki, I\ncan't do it,\" but you're really\n<br>\nhelpful. And there were three\nassignments. I did the wood-chopping\nin hell and the nightmare field work,\n<br>\nbut I was really determined to do\nthem. The only one left is the Echoing\nSea Cave, where I have to collect a\n<br>\nbagful of Greenish-Blue Ore. I've\nheard that there's a horrifying\nCaterwaulin' out there, and I really\n<br>\ndon't think I can go by myself. So I'd\nlike to ask you for a favor. I want\nyou to go digging with me so that you\n<br>\ncan help me when the time comes. I\nneed a pickaxe for digging, but Novich\nhere in the village manages it, and\n<br>\nhe'll lend it to me if I really ask\nhim. When you're ready, head for the\nsea cave. I'll be right behind you. If\n<br>\nwe dig in groups, we can finish\nquickly, and I'd like to get this over\nwith before we get attacked. When\n<br>\nyou're done, meet me at the disposal\nat the back of the cave."
+  },
+  "189172": {
+    "「マジでっ！？　\n　いやー　課題とか聞いた時には　ショージキ\n　カンベンって思ったけど　マジ助かるわ。\n<br>\n「……あー　でもなんか\n　今は　手いっぱいみたいだな。\n　他の用事が済んだら　また考えてくれよな。": "Seriously?Well, when I heard about the\nassignment, I thought \"Shojiki,\nkanben,\" but you're really helpful.\n<br>\nAh, but I guess I've got my hands full\nright now. Think about it again when\nyou're done with other things, okay?"
+  },
+  "189173": {
+    "「えー　マジかー。\n　アンタだったら　ヨユーだと思ったんだけどな。\n　まあいいや　もし気が向いたら　頼んだぜ！": "Oh, seriously? I thought if it was\nyou, it would be you. Well, if you\nfeel like it, I'm counting on you!"
+  },
+  "189174": {
+    "「さあ　緑青色の鉱石を採りに\n　残響の海蝕洞へ　向かおうぜ。\n　そういえば　つるはしは借りてきたか？<open_irai><bw_break>": "Let's head to Echoing Sea Cave to pick\nsome Greenish-Blue Ore. Speaking of\nwhich, did you borrow that pickaxe?<open_irai><bw_break>"
+  },
+  "189175": {
+    "「戦慄の採掘のために\n　つるはしを　借りたいだと？\n<br>\n「うむ　集落のために　勤勉に労働する姿は\n　まことに　美しい……。\n　よろしい！　貸し出しを許可する！\n<br>\n「ただし　つるはしは　集落の共有財産である。\n　使用後は　可及的速やかに　返却すること！\n　いいな？　では　作業に当たるべし！": "You want to borrow a pickaxe for\nshiver mining? Yes, it's beautiful to\nsee you working so diligently for the\n<br>\ngood of the community. Very well! I\nwill allow you to borrow it! However,\na pickaxe is the common property of\n<br>\nthe community. You must return it as\nsoon as possible after use! Is that\nclear? Now, let's get to work!"
+  },
+  "189176": {
+    "<pc>は\n自由人のつるはし（だいじなもの）を\n手に入れた！<me 60>": "<pc> received Freedom Pickaxe\n(Key Item)!<me 60>"
+  },
+  "189177": {
+    "「マジで　つるはし借りられたようだな。\n　さあ　残響の海蝕洞に向かおうぜ。\n　オレはマジ　後ろから　ついていくからな。<open_irai>": "Seriously, looks like I owe you a\npickaxe. Let's head to Echoing Sea\nCave. I'll be right behind you.<open_irai>"
+  },
+  "189178": {
+    "「おお　戻ってきたんだな。\n　こっちも無事　採掘した鉱石を渡したから\n　後は　マジ結果待ちってところだ。\n<br>\n「ちょっと待っててくれ……とは言われたが\n　もしかして　採掘は　ひとりで行ってこないと\n　ダメだったとかねえよな？\n<br>\n「そう考えると　他の課題も　あれでよかったのか\n　マジで　気になってきたし……。\n　なあ　ちょっと様子を　探ってきてくれねえか？\n<br>\n「集落の入り口にいる　ロジチって　じーさんが\n　課題を採点してると　思うんだけどさ。\n　バレないように　自然な感じで　な！": "Oh, you're back. I gave them the ore I\nmined without incident, so now I'm\nreally just waiting for the results. I\n<br>\nwas told to wait a bit, but maybe I\nhad to go mining alone, right? I'm\nreally starting to wonder if I did the\n<br>\nright thing with the other\nassignments. Hey, why don't you go\ncheck it out? I think an old man named\n<br>\nLogichi is grading the assignments at\nthe entrance of the village. He's\ndoing it in a natural way, so he\n<br>\ndoesn't get caught!"
+  },
+  "189179": {
+    "「うーん……マジで　課題の結果が　どうだったか\n　気になって　仕方ねえな。\n　なあ　ちょっと　様子を探ってきてくれねえか？<open_irai><bw_break>": "Well, seriously, I can't help but\nwonder what the results of the\nassignment were. Hey, why don't you go\n<br>\ncheck on him?<open_irai><bw_break>"
+  },
+  "189180": {
+    "「ふむ……お前さん　ホムディと\n　一緒にいた　旅人だな。\n<br>\n「どうした。あのボウズが\n　お前さんに　手伝ってもらったのを　気にして\n　様子を探ってこいとでも　頼まれたのか？<bw_break>": "Hmmm, you must be the traveler who was\nwith Homdi. What's the matter? Did he\nask you to check up on him because he\n<br>\nwas concerned about the boy who helped\nyou?<bw_break>"
+  },
+  "189181": {
+    "「……なんだ？　それぐらい気づいてたさ。\n　別に気にせんでも　課題に影響はない。\n　むしろ　周りに頼ることを知ってて　安心した。\n<br>\n「魔物を怖がるあたり　あの課題は\n　城壁に囲まれて育った　ボウズには\n　まだ　早かったのかもしれんがな。\n<br>\n「……自由ってのは　聞こえはいいが\n　言ってみりゃそりゃ　何にもねえ　ってことだ。\n<br>\n「食うものもねえ。誰も　守ってくれねえ。\n　全て　自分で選択し　日々を生き抜いていく。\n　あらゆるものが　自給自足だ。\n<br>\n「みんなで　仕事を分担して　その義務を負う。\n　……自由ってものを　守るために\n　不自由を背負うってのも　皮肉なもんだ。\n<br>\n「あの指針書ってやつは　行動が不自由な代わりに\n　城壁も　飯も　家も与えてくれた。\n　生きてくだけなら　あんなラクな場所はねえ。\n<br>\n「壁を出たばかりの　あのボウズは　そこが\n　意識できてねえんじゃねえかと　思ったのよ。\n　……指針書を捨てることの　重さを……な。<bw_break>": "What? I've noticed that much. It\ndoesn't affect my assignments. I'm\njust relieved that he knows he can\n<br>\nrely on his surroundings. I guess\nBowes wasn't ready for the challenge\nof growing up behind walls, though,\n<br>\nbeing afraid of the monster. Freedom\nsounds good, but in reality, it means\nnothing. Nothing to eat. No one to\n<br>\nprotect you. You make all your own\nchoices and live out your days.\nEverything is self-sufficient. We all\n<br>\nshare the work and assume the duties.\nIt's ironic that we have to bear the\ninconvenience of freedom in order to\n<br>\nprotect it. That guideline gave us\nwalls, food, and a home instead of\ncrippling us. There's no place like it\n<br>\nif you just want to live. I thought\nthat the boy who just got out of the\nwall might not be aware of that. I\n<br>\nwondered if he was aware of the weight\nof throwing away the guidelines.<bw_break>"
+  },
+  "189182": {
+    "「どうだった？\n　じーさん　何か言ってたか？": "How'd it go? Did he say anything?"
+  },
+  "189183": {
+    "「…………。\n<br>\n「……この集落に来たとき　思ったんだよ。\n　オレの　イメージしていた\n　自由人ってのと　ちがうなって。\n<br>\n「みんな　自由なはずなのに\n　薪割りだとか　畑仕事だとか\n　とにかく　いそがしそうに　働いてんだぜ。\n<br>\n「こんなキツいこと　よくやってられんなって。\n　だけど　なんか　王都のオトナたちより\n　マジで　楽しそうに見えてさ。\n<br>\n「でも　そうか……。\n　これが　自分で選択するってことだし\n　自由を守るための　義務ってことなんだよな。\n<br>\n「……よーし　わかった！　今のままじゃ\n　マジ　壁の中と同じで　周りに頼るだけ。\n　自由を守るには　オレは　まだまだってことだ。\n<br>\n「じーさんが何と言おうが　マジの合格じゃねえ。\n　今のオレは　さしずめ　見習い自由人だな。\n　早く一人前になって　自由を手に入れてやるぜ！\n<br>\n「そうそう　アンタには　マジで世話になったな。\n　こいつは　礼だ。受け取ってくれよ。": "I thought, \"I'm not going to be able\nto do that. When I first came to this\nvillage, I thought. It was different\n<br>\nfrom my image of free people. Everyone\nwas supposed to be free, but they were\nbusy chopping wood, working in the\n<br>\nfields, and so on. I wondered how they\ncould do such hard work. But they\nseemed to be having more fun than the\n<br>\nadults in Royal City. But I see. This\nis what it means to make your own\nchoices, and this is what it means to\n<br>\ndo your duty to protect your freedom.\nAll right, I get it! I'm seriously\njust as dependent on the people around\n<br>\nme as I am on the wall. I'm not ready\nto protect my freedom. No matter what\ngrandpa says, I haven't really passed\n<br>\nthe test. I'm at the moment an\napprentice free spirit. I'll quickly\nbecome a full-fledged person and get\n<br>\nmy freedom! Oh yeah, you really took\ncare of me. This is a courtesy. Please\naccept it."
+  },
+  "189184": {
+    "「ボウズに出した課題は　合格だ。\n　よかったら　お前さんから\n　ホムディに　伝えてくれるか。\n<br>\n「指針書を捨てる覚悟ができたら　いつでも来い。\n　自由人の集落は　お前を歓迎する……ってな。": "Bowles passed his assignment. If you\nwant, you can tell Homdi about it.\nWhenever you're ready to abandon the\n<br>\nguidelines, come to me. Freedom\nVillage welcomes you."
+  },
+  "189185": {
+    "<pc>は　課題の合格と\nロジチが　課題を出した意図について\nホムディに　話した。": "<pc> told Homdi about the\npassing of the assignment and\nLogichi's intention in submitting it."
+  },
+  "189186": {
+    "「いやー　自由ってのが\n　こんなに　いそがしいもんだとはな。\n　……でも　こういうのも　悪くねえな。\n<br>\n「自由を　マンキツするためにも\n　早いとこ　マジ　一人前の仕事が\n　できるようになりたいぜ！": "I didn't realize that freedom is such\na busy thing. But this kind of thing\nis not bad either. I want to be able\n<br>\nto do a real full-fledged job as soon\nas possible to make the most of my\nfreedom!"
+  },
+  "189411": {
+    "「この集落にいる　ノビッチが貸してくれるから\n　行く前に　取りに寄っていってくれよな。<close_irai>": "Novich here in the village will lend\nit to you, so please drop by and pick\nit up before you go.<close_irai>"
+  },
+  "189412": {
+    "「集落の入り口にいる　ロジチって　じーさんが\n　課題を採点してると　思うんだけどさ。\n　バレないように　自然な感じで　な！<close_irai>": "I think that old man Logichi at the\nentrance of the village is grading the\nassignments. He does it in a natural\n<br>\nway, so as not to be noticed!<close_irai>"
+  },
+  "189413": {
+    "「……ああ　課題は　もちろん合格だ。\n<br>\n「よかったら　お前さんから　伝えてくれるか。\n　指針書を捨てる覚悟ができたら　いつでも来い。\n　自由人の集落は　お前を歓迎する……ってな。": "Yes, of course I passed the\nassignment. If you don't mind, will\nyou pass it on to me? Whenever you're\n<br>\nready to abandon the guidelines, come\nto me. Freedom Village welcomes you."
+  },
+  "189575": {
+    "「王都から　移住してきた者に\n　まっさきに　やってもらうことは\n　自身の　時の指針書を　燃やすことじゃ。\n<br>\n「まあ　時の指針書を持ち込む　移住者なんぞ\n　これまで　見たことがないがな。\n<br>\n「なにせ　ここに　やってくる者たちは\n　みな　指針に　嫌気がさしておるワケじゃし。": "The first thing I ask all newcomers\nfrom the Royal City to do is to burn\ntheir own Time Guidebooks. I've never\n<br>\nseen an immigrant bring a Time\nGuidebook with him. I've never seen\nany immigrants bring their own Time\n<br>\nGuidebooks with them, because they are\nall sick and tired of the guidelines."
+  },
+  "189576": {
+    "<attr><feel_think_lv1><end_attr>「……おぬし　異国からの旅の者じゃな。\n　ちょうどよい。ぜひ　わしの頼みを\n　聞いてもらえんかのう。\n<br>\n「頼みというのはな　古参の　わしから見れば\n　まだまだ　ひよっこともいえる\n　新参者の自由人　ワグミカのことじゃ。\n<br>\n「じつは　このワグミカ……\n　なんと！　王国軍と　内通しておるのじゃよ！\n<br>\n「あやつは　自由人の集落を　内部崩壊させるべく\n　王国軍が送り込んだ　工作員なんじゃ！\n　自由を侵害する　体制の犬じゃ！！\n<br>\n「そこで　あやつが　王国軍と通じている証拠を\n　持ってきてほしいというのが　わしからの\n　依頼じゃ。どうか　引き受けてくれんか？": "<attr><feel_think_lv1><end_attr>You are a traveler from another\ncountry. Just in time. I have a favor\nto ask you. I am talking about\n<br>\nWagmika, a newcomer, a free man, who\nis still a newcomer in my eyes, a\nnewcomer to the world. Wagmika is, in\n<br>\nfact! He is in league with the Royal\nArmy! He is an agent sent by the Royal\nArmy to destroy Freedom Village! He is\n<br>\na dog of the regime that is infringing\non freedom! I have asked you to bring\nme proof of his connections to the\n<br>\nRoyal Army. Will you accept my\nrequest?"
+  },
+  "189577": {
+    "<attr><feel_happy_lv1><end_attr>「おおっ　引き受けてもらえるか！\n　ありがたや　ありがたや。\n<br>\n「……フム。まずは　順を追って話さねばな。\n　ある日　わしは　出不精のワグミカが\n　外出するのを見かけ　あとをつけた……。\n<br>\n「すると　なんと！！\n　あやつが　行きついた先は\n　バントリユ地方の　辺境警備隊詰所！\n<br>\n「しかも　王国軍の兵士と　親しげに話し\n　何事かを報告しておるような　身ぶりじゃった。\n<br>\n「尾行がバレる恐れが　あったからのう……。\n　近づくことは　できんかったゆえ\n　会話の内容までは　わからんかった。\n<br>\n「……おおかた　指針書を捨てた自由人を\n　危険視する　国家の犬どもが　情報収集のため\n　ワグミカを　利用しておるんじゃろう。\n<br>\n「じゃが　裏切りの疑惑が　濃厚であっても\n　それを裏付ける　証拠がないかぎり\n　ワグミカを　追い出すことはできん。\n<br>\n「そこで　おぬしに　ワグミカが王国軍と\n　いかにして通じているかを　調査し\n　その証拠を　持ち帰ってほしいのじゃ。<bw_break>": "<attr><feel_happy_lv1><end_attr>Oh, you'll take care of it? Thank you,\nthank you, thank you. Hm. First of\nall, let me tell you the story step by\n<br>\nstep. One day, I saw Wagmika, who was\na stay-at-home mom, going out, and I\nfollowed her. And lo and behold! He\n<br>\nwas talking to a soldier of the Royal\nArmy in a friendly manner and acting\nas if he was reporting something. I\n<br>\ncouldn't get close to him because I\nwas afraid that he might find out that\nI was following him. Since I couldn't\n<br>\nget close enough to him, I didn't know\nwhat he was talking about. Most\nlikely, the dogs of the state, who\n<br>\nconsider free men who have abandoned\nthe guidelines to be dangerous, are\nusing Wagmika to gather information.\n<br>\nBut even if the suspicion of betrayal\nis strong, Wagmika cannot be removed\nwithout evidence to back it up. So I\n<br>\nwant you to investigate how Wagmika is\ncommunicating with the Royal Army and\nbring back the evidence.<bw_break>"
+  },
+  "189578": {
+    "<attr><feel_happy_lv1><end_attr>「まずは　辺境警備隊詰所におもむき\n　情報収集を　こころみると　よいじゃろう。\n　頼んだぞ　旅の者よ！": "<attr><feel_happy_lv1><end_attr>First, you should visit the Frontier\nGuard Post and gather information. I'm\ncounting on you, travelers!"
+  },
+  "189579": {
+    "<attr><feel_happy_lv1><end_attr>「おおっ　引き受けてもらえるか！\n　ありがたや　ありがたや。\n<br>\n「……むむむ　なんということじゃ。\n　おぬし　頼まれごとを\n　たくさん　抱えておるようじゃな。\n<br>\n「気持ちは　ありがたいが　今のおぬしに\n　頼むわけには　いかんようじゃ。\n　手が空いたときに　また来てくれ。": "<attr><feel_happy_lv1><end_attr>Oh, you'll take care of it? Thank you,\nthank you, thank you. Mm-hmm, what a\nthing to say. You seem to have a lot\n<br>\nof favors to ask of me. I appreciate\nyour kindness, but I don't think I can\nask you to do it now. Please come\n<br>\nagain when you are free."
+  },
+  "189580": {
+    "「ふむ。いそがしいのであれば　しかたがない。\n　手が空いたときにでも　また来てくれ。": "Hmmm. If you are busy, that's all\nright. Please come again when you are\nfree."
+  },
+  "189581": {
+    "<attr><feel_think_lv1><end_attr>「指針書を捨てた自由人を　危険視する\n　国家の犬どもが　情報収集のため　ワグミカを\n　工作員として　利用しておるようじゃ。<open_irai><bw_break>": "<attr><feel_think_lv1><end_attr>It seems that the dogs of the state,\nwho consider free men who have\nabandoned the guidelines as dangerous,\n<br>\nare using Wagmika as an agent to\ngather information.<open_irai><bw_break>"
+  },
+  "189582": {
+    "<attr><feel_think_lv1><end_attr>「そこで　おぬしに　ワグミカが王国軍と\n　いかにして通じているかを　調査し\n　その証拠を　持ち帰ってほしい。<bw_break>": "<attr><feel_think_lv1><end_attr>So I want you to investigate how\nWagmika is communicating with the\nRoyal Army and bring back proof.<bw_break>"
+  },
+  "189583": {
+    "<attr><feel_think_lv1><end_attr><close_irai>「まずは　辺境警備隊詰所におもむき\n　情報収集を　こころみると　よいじゃろう。\n　頼んだぞ　旅の者よ！": "<attr><feel_think_lv1><end_attr><close_irai>First, you should visit the Frontier\nGuard Post and gather information. I'm\ncounting on you, travelers!"
+  },
+  "189584": {
+    "<attr><feel_happy_one><end_attr>「おお　旅の者よ！\n　わしには　わかるぞ。\n<br>\n「ワグミカと　王国軍のつながりを示す\n　重要な証拠を　持ってきてくれたのじゃな。\n　さあ　さっそく　わたしてくれ。": "<attr><feel_happy_one><end_attr>Oh, traveler! I see it. You have\nbrought important evidence of the\nconnection between Wagmika and the\n<br>\nRoyal Army. Come on, let's get\nstarted."
+  },
+  "189585": {
+    "<attr><feel_sad_one><end_attr>「……おぬしは　何がしたいんじゃ？\n　もったいぶらんで　持っておるなら\n　素直に　わたしてくれても　よかろうに……。": "<attr><feel_sad_one><end_attr>What do you want? If you have it, why\ndon't you just give it to me?"
+  },
+  "189586": {
+    "「む？　なんじゃ　この液体は……。\n　これが　ワグミカと　王国軍が通じている\n　証拠だとでも　いうのか……？": "Mm? What is this liquid? Are you\nsaying that this is proof of\ncommunication between Wagmika and the\n<br>\nRoyal Army?"
+  },
+  "189587": {
+    "「こ　この匂いは！？\n<br>\n「……たびたび　ワグミカが　集落の同志たちに\n　ふるまっている　けしからん水！？\n　本当に　これを　詰所で手に入れたのか？": "What is that smell? The Scandalous\nWater that Wagmika is often serving to\nthe comrades of the settlement? Did\n<br>\nthey really receive this at the\nmeeting place?"
+  },
+  "189588": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>「そうか　そうだったのか！！\n　今　わかったぞ！！\n<br>\n「ワグミカは……いや！　同志ワグミカは\n　けしからん水を通じ　王国軍を末端から\n　切り崩すべく　分断工作をしかけていたのじゃ！\n<br>\n「内通どころか　同志ワグミカは　頑迷なる\n　王国軍の犬どもに　自由人の思想を植えつけ\n　同志を増やそうと　なさっていた……。\n<br>\n「ああ！　わしは　なんというカンちがいを！\n　あやうく　偉大なる同志ワグミカを……\n　革命的自由人を　失うところじゃった！！\n<br>\n「わしが　あやまちを　犯さなかったのも\n　おぬしが　骨を折ってくれた　おかげじゃな。\n　ぜひ　礼をさせてくれ。": "<attr><feel_happy_lv2><end_attr><icon_exc>Oh yeah, that's right! Now I get it!\nNo, not Wagmika! Comrade Wagmika was\nworking through Scandalous Water to\n<br>\ndivide the Royal Army in order to cut\nit down from the bottom! Instead of\ninfiltrating, Comrade Wagmika has been\n<br>\ntrying to increase the number of\ncomrades by instilling the idea of\nfree men into the stubborn dogs of the\n<br>\nRoyal Army. Ah! How wrong I was! I\nalmost lost the great Comrade Wagmika,\nthe revolutionary free man! The only\n<br>\nreason I didn't make a mistake is\nbecause of your efforts. Please allow\nme to thank you."
+  },
+  "189589": {
+    "<attr><feel_happy_one><end_attr>「わしは　ここに誓おう！\n　腐敗した王政の　打倒を目指し\n　自由と解放のための　闘争を続けると！": "<attr><feel_happy_one><end_attr>I hereby pledge to overthrow the\ncorrupt monarchy and continue the\nstruggle for freedom and liberty! I\n<br>\nhereby pledge to continue the struggle\nfor freedom and liberty, to overthrow\nthe corrupt monarchy!"
+  },
+  "189590": {
+    "けしからん水を　バクーモフにわたしますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to send Scandalous\nWater to Bakumov?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "189591": {
+    "<pc>は　けしからん水を\nバクーモフに　わたした。": "<pc> gave Scandalous Water to\nBakumov."
+  },
+  "189592": {
+    "バクーモフは　ボトルの栓を抜き\nけしからん水の匂いを　かいだ。": "Bakumov uncorked the bottle and\nsmelled the Scandalous Water."
+  },
+  "189593": {
+    "削除": "deletion"
+  },
+  "189594": {
+    "<pc>は　けしからん水こそ\n辺境警備隊とワグミカの　友好の証だという\n隊員バイネンの証言を　伝えた。": "<pc> reported the testimony\nof Bynen, a member of the frontier\npatrol, that Scandalous Water is a\n<br>\nsign of friendship between the\nfrontier patrol and Wagmika."
+  },
+  "189595": {
+    "<attr><feel_happy_one><end_attr>「同志ワグミカは　けしからん水を通じ\n　王国軍を末端から　切り崩すべく\n　分断工作を　しかけていたのじゃ。\n<br>\n「内通どころか　同志ワグミカは　頑迷なる\n　王国軍の犬どもに　自由人の思想を植えつけ\n　同志を増やそうと　なさっていた……。\n<br>\n「わしは　ここに誓おう！\n　腐敗した王政の　打倒を目指し\n　自由と解放のための　闘争を続けると！": "<attr><feel_happy_one><end_attr>Through Scandalous Water, Comrade\nWagmika was working to divide the\nRoyal Army in order to cut it down\n<br>\nfrom the bottom. Instead of\ninfiltrating the Royal Army, Comrade\nWagmika was trying to increase the\n<br>\nnumber of comrades by instilling the\nidea of free men into the stubborn\ndogs of the Royal Army. I hereby swear\n<br>\nto you! I hereby pledge to continue\nthe struggle for freedom and\nliberation, to overthrow the corrupt\n<br>\nmonarchy!"
+  },
+  "191587": {
+    "<attr><feel_sad_one><end_attr>「むにゃむにゃ……。": "<attr><feel_sad_one><end_attr>Mushy."
+  },
+  "191588": {
+    "<attr><feel_sad_one><end_attr>「人生は　クソだ！\n　生きるに値しない！！\n<br>\n「…………むにゃむにゃ。<bw_break>": "<attr><feel_sad_one><end_attr>Life sucks! Life is not worth living!\nMnya mnya.<bw_break>"
+  },
+  "191589": {
+    "<attr><feel_normal_one><end_attr>「ま…まあ　よいか……。\n　あのタンスの取っ手は　お前にくれてやる。\n　ほれ……壁際にある宝箱に　入っておるでな。\n<br>\n「取っ手を　タンスにくっつければ　暗証番号を\n　入力できるようになる……。暗証番号は\n　０５２７だから　忘れずにな……　ひっく！！": "<attr><feel_normal_one><end_attr>Oh well. I'll give you the handle to\nthe Wardrobe. It's in the treasure\nchest by the wall. Attach the handle\n<br>\nto the Wardrobe and you'll be able to\nenter your PIN. The code is 0527, so\ndon't forget it!"
+  },
+  "191590": {
+    "<attr><feel_sad_one><end_attr>「やはり　人生はクソだ！\n　生きるに値しない……　ぐがぁー！": "<attr><feel_sad_one><end_attr>After all, life sucks! It's not worth\nliving. Gugah!"
+  },
+  "191591": {
+    "<attr><feel_sad_one><end_attr>「むぐぐ……　殺しても　死ななそうな\n　奴じゃったのに……人間　死ぬときは\n　カンタンなもんじゃなぁ。<bw_break>": "<attr><feel_sad_one><end_attr>He didn't seem like he'd die even if I\nkilled him, but he was a human, and\ndying is so easy.<bw_break>"
+  },
+  "191592": {
+    "<attr><feel_angry_one><end_attr>「もし　本当のことだとしたら　心の底から\n　ザマァと　ののしってやりたいわい……ひっく！": "<attr><feel_angry_one><end_attr>If it were true, I would want to scold\nhim from the bottom of my heart!"
+  },
+  "191593": {
+    "<attr><feel_sad_one><end_attr>「とはいえ　巻き込まれた者たちが\n　気の毒でならんのう……。\n　やはり　人生はクソだ……ひっく！": "<attr><feel_sad_one><end_attr>However, I do feel sorry for those who\ngot caught up in it. After all, life\nsucks!"
+  },
+  "213395": {
+    "<attr><feel_normal_lv1><end_attr>「止まらない地震に　ヤな予感が　ビンビン！\t\n　そんなこんなで　移住先を　みつくろうため\t\n　東の島に　調査隊を出す予定だモン。\t\n<br>\n「実際に　移住するにせよ　しないにせよ\t\n　未知の島を　調査しておくことは\t\n　ムダにはならない　はずなんだモーン。\t": "<attr><feel_normal_lv1><end_attr>I have a bad feeling about the\nearthquakes! That's why I'm planning\nto send a survey team to the east\n<br>\nisland to find a place to settle down.\nWhether we actually move to the island\nor not, investigating an unknown\n<br>\nisland should not be a waste of time."
+  },
+  "213397": {
+    "<attr><feel_sad_lv3><end_attr>「最近　地震が多くて　イヤになるわ。\t\n　この島　大丈夫なのかしら……。\t<bw_break>": "<attr><feel_sad_lv3><end_attr>I hate that there have been so many\nearthquakes lately. I wonder if this\nisland is safe.<bw_break>"
+  },
+  "213399": {
+    "<attr><feel_normal_lv1><end_attr>「斉唱！　モモンタル賛歌！\t": "<attr><feel_normal_lv1><end_attr>Simultaneous singing! Sanguintal Hymn!"
+  },
+  "213401": {
+    "<attr><feel_normal_lv1><end_attr>「はがねの身体で　我らを守る～\n　頼もしき　自由の御旗よ～♪\n<br>\n「その背は　楽園への　進路を照らす♪\n　言葉は　我らを団結させ～\n　明日への労働へと　ふるい立たせる♪\n<br>\n「あ～あ～♪　モモンタル万歳！\n　万歳！　万歳！　モモンタル♪": "<attr><feel_normal_lv1><end_attr>The flag of liberty that protects us\nwith its gold body, its back lights\nthe way to Utopia, its words unite us\n<br>\nand make us sift toward tomorrow's\nlabor! Hooray for Sanguintal! Hooray\nfor Sanguintal! Hooray for Sanguintal!\n<br>\nSanguintal!"
+  },
+  "213403": {
+    "<attr><feel_angry_lv1><end_attr>「私　移住には反対だわ！\t<bw_break>": "<attr><feel_angry_lv1><end_attr>I'm against immigration!<bw_break>"
+  },
+  "213405": {
+    "<attr><feel_normal_lv1><end_attr>「旅人よ　ここは　自由人の集落だ。\t\n　指針書の束縛から　自由になろうという\t\n　思想のもとに　我らは　一致団結した。\t\n<br>\n「だが　最近　我らの団結を\t\n　ゆさぶるがごとく　地面がグラグラ……\t": "<attr><feel_normal_lv1><end_attr>Travelers, this is Freedom Village. We\nare united in the idea of freedom from\nthe shackles of the Book of\n<br>\nGuidelines. But lately, as if to shake\nour unity, the ground has become\nunstable."
+  },
+  "213407": {
+    "<attr><feel_angry_one><end_attr>「言ってるそばから　地震だ！\t\n　こんなふうに　地震が増えてるんだ。\t": "<attr><feel_angry_one><end_attr>Even as I'm saying it, there's an\nearthquake! Earthquakes are increasing\nlike this."
+  },
+  "213409": {
+    "<attr><feel_normal_lv1><end_attr>「旅人よ　ここは　自由人の集落だ。\t\n　最近　我らの団結を　ゆさぶるがごとく\t\n　地震が多発している。不安だなぁ。\t": "<attr><feel_normal_lv1><end_attr>Travelers, this is Freedom Village.\nRecently, there have been many\nearthquakes that have shaken our\n<br>\nunity. I'm worried."
+  },
+  "213411": {
+    "<attr><feel_normal_lv1><end_attr>「今度　海の向こうの　東の島に\t\n　調査隊を出すっていうから　志願したんだ。\t\n<br>\n「地震が　ひどくなって　いよいよ\t\n　この島が　ダメそうなときは　新天地に移住さ。\n　オレは　そのための　水先案内人になるんだ！": "<attr><feel_normal_lv1><end_attr>I volunteered for the survey team\nthat's going to be sent to the eastern\nisland across the sea. If the\n<br>\nearthquakes get worse and the island\nis finally damaged, we'll move to a\nnew place. I'm going to be the pilot\n<br>\nfor that!"
+  },
+  "213413": {
+    "<attr><feel_sad_one><end_attr>「ここに越してきたときですら　大変じゃったのに\n　東の島に移住とか……クッソ面倒じゃのう。\t\n　やはり　人生はクソだ……ひっく！\t": "<attr><feel_sad_one><end_attr>Even moving here was hard enough, but\nmoving to the East Island is a pain in\nthe ass. Life sucks, after all!"
+  },
+  "213415": {
+    "<attr><feel_normal_lv1><end_attr>「<pc>君ッ！\t\n　耳よりな情報が　あるんだモーン！\t\n　ボクと　ナイショ話をするんだモーン！\t": "<attr><feel_normal_lv1><end_attr><pc>! I've got some good news\nfor you! Talk to me in private!"
+  },
+  "213417": {
+    "錬金術師の　ワグミカに\t\n地脈の結晶のレシピを　見せますか？\t<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to show the alchemist\nWagmika the Geode Crystal Recipe?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "213419": {
+    "<pc>は　ワグミカに\t\n地脈の結晶のレシピを　見せた。\t": "<pc> showed Wagmika the Geode\nCrystal Recipe."
+  },
+  "213421": {
+    "<attr><feel_normal_one><end_attr>「おお　お前さんは　いつぞやの。\t\n　覚えておるぞ……またぞろ\t\n　頼みごとでも　持ち込んできたのか？\t": "<attr><feel_normal_one><end_attr>Oh, I remember you from the other day.\nI remember you... again... did you\ncome to me with a request?"
+  },
+  "213423": {
+    "<attr><feel_happy_one><end_attr>「ひっく！　愉快なレシピじゃな。\t\n　ややこしいが　充分　錬金可能じゃ。\t<bw_break>": "<attr><feel_happy_one><end_attr>Hiccup! A delightful recipe. It's\ncomplicated, but it's alchemically\nfeasible.<bw_break>"
+  },
+  "213425": {
+    "<attr><feel_normal_lv1><end_attr>「ご主人の　手のふるえは　自制心のなさが\t\n　原因となった　自業自得なんだモーン。\t\n<br>\n「けれど　ご主人が　自分のクチから\t\n　あの薬を飲んでもよいと　言ったのを\t\n　ボクは　聞きのがさなかったモン！\t\n<br>\n「これは　千載一遇のチャンスなんだモーン！\t\n　ご主人のいう　薬を飲むのに必要な　甘い水に\t\n　ボクは　心当たりがあるんだモーン！\t\n<br>\n「チミは　王立アルケミアの所長　ヨンゲ君を\t\n　覚えているモン？　彼は　超甘いシロップを\t\n　自前で錬金するほどの　大の甘党だったモン。\t\n<br>\n「きっと　王立アルケミアの所長室には\t\n　あま～いシロップが　置いてあるはず！\n<br>\n「王立アルケミアの所長室には\n　ヨンゲ君の家の　２階にあるタンスから\n　直接　行けるんだモーン。\n<br>\n「シロップが手に入れば　ご主人に　お薬を\n　飲ませられるはず！　ご主人の更生は\n　<pc>君の双肩に　かかってるモン！": "<attr><feel_normal_lv1><end_attr>The master's hand tremors were caused\nby his lack of self-control, and he\ndeserved it. But I didn't listen when\n<br>\nthe master told me that I could take\nthe medicine from his own mouth! This\nis a once-in-a-lifetime opportunity! I\n<br>\nknow what kind of sweet water is\nneeded to take the medicine that the\nmaster said! Do you remember Mr. Yong,\n<br>\nthe director of Royal Alchemia? He had\nsuch a big sweet tooth that he even\nmade his own super-sweet Shiropp. I'm\n<br>\nsure there must be some sweet Shiropp\nin the director's office at Royal\nAlchemia! The director's office of\n<br>\nRoyal Alchemia is directly accessible\nfrom the wardrobe on the second floor\nof Yong's house. If we can get the\n<br>\nShiropp, we can give the medicine to\nthe master! Master's rehabilitation\nrests on <pc>'s shoulders!"
+  },
+  "213427": {
+    "<attr><feel_normal_lv1><end_attr>「レシピさえあれば　なんでも錬金できる。\t\n　じゃが　手のふるえが　おさまらぬ\t\n　今のワシに　複雑な錬金は　できんのじゃ。\t\n<br>\n「……まあ　ふるえを治す薬が\t\n　手元にあるんじゃが　あれは　超苦い！！\t\n　苦すぎて　飲めたもんじゃないッ！\t\n<br>\n「薬の苦さを　打ち消すような　クッソ甘い\t\n　水でもあれば　飲んでやっても　よいがな。\t\n　どこにでも　あるもんじゃないぞ……ひっく！\t": "<attr><feel_normal_lv1><end_attr>As long as I have the recipe, I can\nsmelt anything. But I can't do\ncomplicated alchemy now that I can't\n<br>\nstop my hands from shaking. Well, I\nhave a medicine on hand to cure the\nshaking, but it is extremely bitter!\n<br>\nIt is too bitter to drink! If there\nwas some sweet water to counteract the\nbitterness of the medicine, I would be\n<br>\nwilling to drink it. You can't find it\nanywhere!"
+  },
+  "213429": {
+    "ワグミカに　甘々シロップを渡しますか？\t<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to give Wagmika some\nSweet Syrup?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "213431": {
+    "<pc>は　ワグミカに\t\n甘々シロップを渡した。\t": "<pc> gave Wagmika some Sweet\nSyrup."
+  },
+  "213433": {
+    "ワグミカは　ビンの飲みくちに　舌をのばし\t\n甘々シロップの　味見をした。\t": "Wagmika put her tongue over the mouth\nof the bottle and tasted the Sweet\nSyrup."
+  },
+  "213435": {
+    "<attr><feel_normal_lv1><end_attr>「くんくん……お前さんから\t\n　甘ったる～い　匂いがするのう。\t\n<br>\n「ま…まさか　お前さん。\t\n　ワシに　超苦い薬を飲ませるため　わざわざ\t\n　甘いものを　持ってきたんじゃ……ひっく！\t": "<attr><feel_normal_lv1><end_attr>I can smell the sweet~smell of you. No\nway, you. You brought something sweet\nall the way here to make me take this\n<br>\nsuper bitter medicine!"
+  },
+  "213437": {
+    "<attr><feel_normal_lv1><end_attr>「本当に　持ってくるとは　バカ正直な奴め。\t\n　じゃが　その愚直さは　きらいじゃないぞ。\t\n<br>\n「たわむれに　クチにしたことじゃが……\t\n　どれ……ひさかたぶりに　あの　超苦い薬に\t\n　挑戦してみるかのう……ひっく！\t": "<attr><feel_normal_lv1><end_attr>You really brought it, you stupid and\nhonest fellow. But I don't like your\nhonesty. I'm going to try that super\n<br>\nbitter medicine for the first time in\na long time!"
+  },
+  "213439": {
+    "「おええええええッ！！\t\n　なんじゃあ　こりゃあああッ！\t\n<br>\n「いくらなんでも　甘すぎるじゃろッ！\t\n　こりゃあ　人が飲めるもんじゃあ　ない！\t": "Oh, yeah, yeah, yeah! What the hell is\nthis? No matter how much you say, it's\ntoo sweet! This is not something one\n<br>\ncan drink!"
+  },
+  "213441": {
+    "<attr><feel_sad_one><end_attr>「……なんだか　具合が悪くなってきたぞ。\t\n<br>\n「ワシゃあ　しばらく　横になりたい。\t\n　すまぬが　地脈の結晶とやらの　錬金は\t\n　金輪際　あきらめてくれい……ひっく！\t": "<attr><feel_sad_one><end_attr>I'm starting to feel sick. I want to\nlie down for a while. I'm sorry, but\nI'm going to have to give up on the\n<br>\nGeode Crystal for now!"
+  },
+  "213443": {
+    "<attr><feel_normal_lv1><end_attr>「<pc>君ッ！　ありがとうモン。\t\n　チミのおかげで　正気のご主人に\t\n　ひさびさに　出会えたんだモ～ン♪\t\n<br>\n「更生への第一歩を　あゆみだした　ご主人に\t\n　井戸水で　乾杯なんだモーン！\t": "<attr><feel_normal_lv1><end_attr><pc>! Thank you, Mon. Thanks\nto you, I met a sane master for the\nfirst time in a long time...  I'd like\n<br>\nto toast to the master who has taken\nthe first step toward rehabilitation\nwith well water!"
+  },
+  "213445": {
+    "<attr><feel_sad_one><end_attr>「……ひっく！\t": "<attr><feel_sad_one><end_attr>Hiccup!"
+  },
+  "213447": {
+    "<attr><feel_think_lv2><end_attr>「身近に　すごウデの錬金術師が　いるんだし\t\n　もう一度　錬金術を　学びなおそうかな。\t": "<attr><feel_think_lv2><end_attr>There's a super skilled alchemist\nclose by, so maybe I should relearn\nalchemy again."
+  },
+  "213449": {
+    "<attr><feel_normal_lv1><end_attr>「地震がおさまっても　ボクの第六感が\t\n　この島は危険だと　告げてるモン。\t\n<br>\n「そんなワケで　東の島への調査隊の派遣は\t\n　予定どおり　実行するモン！\t": "<attr><feel_normal_lv1><end_attr>Even though the earthquake has\nsubsided, my sixth sense is telling me\nthat this island is dangerous. That's\n<br>\nwhy I'm going to send a survey team to\nthe East Island as planned!"
+  },
+  "213451": {
+    "<attr><feel_think_lv3><end_attr>「地震が起こってないのは　あれよ！\t\n　きっと　大地震の前触れなのよ！\t\n　だから　危機は　まだ去ってないわ！\t\n<br>\n「同志モモンタルが　もしもの時のために\t\n　移住を　検討しているの。\t\n　東の海に　よさげな島があるんだとか。\t": "<attr><feel_think_lv3><end_attr>That's why there haven't been any\nearthquakes! It must be a prelude to a\nbig earthquake! So the crisis is not\n<br>\nover yet! Comrade Sanguintal is\nconsidering relocating, just in case.\nThere's a nice island in the East Sea."
+  },
+  "213453": {
+    "<attr><feel_normal_lv1><end_attr>「旅人よ　ここは　自由人の集落だ。\t\n　王国軍が　地震の終息宣言を　出したそうだが\t\n　我らは　警戒をおこたらないぞ！\t": "<attr><feel_normal_lv1><end_attr>Travelers, this is Freedom Village.\nThe Royal Army has declared the\nearthquake over, but we must remain\n<br>\nvigilant!"
+  },
+  "213455": {
+    "<attr><feel_happy_one><end_attr>「地震がやんだのは　地脈の結晶を\n　役立てたためと　お見受けしましたが\n　じつのところ　どうなのでしょう？": "<attr><feel_happy_one><end_attr>I understand that the quake stopped\nbecause of the Geode Crystal, but what\nreally happened?"
+  },
+  "213919": {
+    "<attr><feel_normal_lv1><end_attr>「帰還した　調査隊によると　東の島には\n　村を作れそうな　開けた土地があるそうな。<bw_break>": "<attr><feel_normal_lv1><end_attr>According to the returning survey\nteam, there is open land on the\neastern island where a village could\n<br>\nbe built.<bw_break>"
+  },
+  "213921": {
+    "<attr><feel_normal_lv1><end_attr>「畑を　たがやせ　エンヤコラ～！ \n　新天地でも　豊作だ～！ ": "<attr><feel_normal_lv1><end_attr>Let the fields fall down,\nEnyakora~!We'll have a bountiful\nharvest in the new land~!"
+  },
+  "213923": {
+    "<attr><feel_normal_lv1><end_attr>「<pc>君……\n　人をダメにする水を　飲んでしまい　ご主人は\n　また　元に戻ってしまったんだモン……。\n<br>\n「くっ……。新天地の調査隊と　連絡を取るため\n　ボクが　ちょっと　外出したばっかりに……。": "<attr><feel_normal_lv1><end_attr><pc> He drank the water that\nruins people, and now master is back\nto normal again. Damn. It's because I\n<br>\nwent out for a bit to contact the\nresearch team in the new place."
+  },
+  "213925": {
+    "<attr><feel_normal_one><end_attr>「王都の方角に　隕石が落ちてくのを　見たわ。\n　地震がおさまったと　思いきや　矢継ぎ早に\n　次なる災厄が……この島は　呪われてるのよ。<bw_break>": "<attr><feel_normal_one><end_attr>I saw a meteorite falling in the\ndirection of Royal City. Just when you\nthink the earthquakes have subsided,\n<br>\nthere's another one, and another, and\nanother, and another, and another, and\nthis island is cursed.<bw_break>"
+  },
+  "213927": {
+    "<attr><feel_normal_lv1><end_attr>「新天地へと旅立つ　同志オルギンに\n　エテーネルスコップを　授けん！": "<attr><feel_normal_lv1><end_attr>Let's give Comrade Holguin an Ethenel\nshovel as he sets out on his journey\nto a new world!"
+  },
+  "213929": {
+    "<attr><feel_normal_lv1><end_attr>「そのスコップで　新天地をたがやし\n　五穀豊穣を　もたらさんことを！": "<attr><feel_normal_lv1><end_attr>With your shovels, may you bring about\na new earth and a bountiful harvest!"
+  },
+  "213931": {
+    "<attr><feel_normal_lv1><end_attr>「おお！　感謝の極み！": "<attr><feel_normal_lv1><end_attr>Oh! The utmost in gratitude!"
+  },
+  "213933": {
+    "<attr><feel_normal_lv1><end_attr>「たがやすだけで　土地に　めぐみをもたらす\n　自由人の至宝を　オリなんかのために……\n　ううっ！　感謝感激なんだよぅ。": "<attr><feel_normal_lv1><end_attr>The treasure of a free man, who brings\nblessings to the land just by being\nidle, for the sake of a creeper! I'm\n<br>\nso grateful."
+  },
+  "213935": {
+    "<attr><feel_think_lv2><end_attr>「実際に　あの隕石を　目にしてしまったら\n　移住はイヤだとか　しのごの\n　言っていられなくなったわ。\n<br>\n「やっぱり　命あっての物種だしね。\n　移住先でも　ここと　同じくらい\n　愛着を抱ける住まいを　築いてみせるわ。": "<attr><feel_think_lv2><end_attr>Once I saw that meteorite, I couldn't\nsay I didn't want to emigrate. After\nall, life is what we make of it. I'm\n<br>\ngoing to build a home that I'll be\njust as attached to as this one."
+  },
+  "213937": {
+    "<attr><feel_normal_lv1><end_attr>「旅人よ　ここは　自由人の集落だ。\n　しかし　間もなく我々は\n　この地を去り　新天地へと向かう。\n<br>\n「この島の東にある　謎の島に\n　新たな集落を　築くのだ。": "<attr><feel_normal_lv1><end_attr>Travelers, this is Freedom Village.\nSoon, however, we will leave this\nplace and head for a new land. We will\n<br>\nestablish a new settlement on Strange\nIsland to the east of this island."
+  },
+  "213939": {
+    "<attr><feel_normal_one><end_attr>「東の島は　複雑な海流のせいで\n　上陸はおろか　接近さえできなかった。<bw_break>": "<attr><feel_normal_one><end_attr>The islands to the east could not be\napproached, let alone landed on, due\nto the complicated ocean currents.<bw_break>"
+  },
+  "213941": {
+    "<attr><feel_sad_one><end_attr>「あ～ん？　隕石ぃ。けっこうじゃないか。\n　死ねば　この　クソみたいな人生から\n　逃れられるのじゃ……ひっく！": "<attr><feel_sad_one><end_attr>Ah~hmm? Meteorite. That's good. If I\ndie, I can get out of this shitty\nlife!"
+  },
+  "213943": {
+    "<attr><feel_sad_lv3><end_attr>「新天地に移住したあとは　錬金術を\n　イチから　学ぶ予定だったんだ。\n　なのに　なのに……同志ワグミカが……。": "<attr><feel_sad_lv3><end_attr>I was going to learn alchemy from\nscratch after moving to a new place.\nAnd yet, and yet, Comrade Wagmika."
+  },
+  "222042": {
+    "<pc>は　メガロダインを\n倒すまでの経緯を　ワグミカに説明した。": "<pc> explained to Wagmika how\nhe had defeated Megalodyne."
+  },
+  "222044": {
+    "<attr><feel_normal_one><end_attr>「なんと　まあ……イチかバチかの \n　危険な綱渡りだったようですね　ひっく！\n<br>\n「……失礼。今のは　しゃっくりです。": "<attr><feel_normal_one><end_attr>Well, it was a risky tightrope walk!\nExcuse me. That was a hiccup."
+  },
+  "224481": {
+    "<attr><feel_sad_lv2><end_attr>「同志モモンタルが　もしもの時のために\t\n　移住を　検討しているそうなの。\t\n　東の海に　よさげな島があるんだとか。\t": "<attr><feel_sad_lv2><end_attr>Comrade Sanguintal is considering\nmoving there in case of emergency.\nThere is a nice island in the East\n<br>\nSea."
+  },
+  "224483": {
+    "<attr><feel_normal_lv1><end_attr>「いつか　この集落で　王都に負けないくらい\t\n　便利な暮らしが　できるようにって\t\n　今日まで　がんばってきたのに……。\t": "<attr><feel_normal_lv1><end_attr>I've been working hard until today,\nhoping that one day I can lead a life\nas convenient as the Royal City here\n<br>\nin this village."
+  },
+  "224485": {
+    "<attr><feel_sad_one><end_attr>「人生は　クソだ！\t\n　生きるに値しない！！\t\n<br>\n「…………むにゃむにゃ？\t<bw_break>": "<attr><feel_sad_one><end_attr>Life sucks! Life is not worth living!\nMushy?<bw_break>"
+  },
+  "224487": {
+    "<attr><feel_normal_one><end_attr>「ん？　なんじゃと！？\t\n　ワシに　これを　錬金しろというのか。\t\n<br>\n「こんな複雑な錬金　つねに　手のふるえが\t\n　おさまらぬ　ワシに　できるワケがなかろう。\t\n<br>\n「……まあ　ふるえを治す薬は\t\n　手元にあるんじゃが　あれは　超苦い！！\t\n　苦すぎて　飲めたもんじゃないッ！\t\n<br>\n「薬の苦さを　打ち消すような　クッソ甘い\t\n　水でもあれば　飲んでやっても　よいがな。\t\n　どこにでも　あるもんじゃないぞ……ひっく！\t": "<attr><feel_normal_one><end_attr>Hmm? What is that? You want me to\nsmelt this? There's no way I can do\nsuch a complicated alchemy if my hands\n<br>\ndon't shake all the time. Well, I have\na medicine on hand to cure the\nshaking, but it is extremely bitter!\n<br>\nIt's too bitter to drink! If there was\nsome sweet water to counteract the\nbitterness of the medicine, I'd be\n<br>\nhappy to drink it. You can't find it\nanywhere!"
+  },
+  "224489": {
+    "<attr><feel_normal_lv1><end_attr>「何に使うか　知りませんが　地脈の結晶は\t\n　地脈エネルギーを吸い上げる　危険な代物。\t\n　くれぐれも　使い方を　あやまりませんように。\n<br>\n「……久方ぶりに　思考が　クリアになりました。\n　この感覚を思えば　これまでは\t\n　悪夢の中にいるような　毎日でした。\t<bw_break>": "<attr><feel_normal_lv1><end_attr>I don't know what you use it for, but\nGeode Crystal is a dangerous device\nthat sucks up the energy of the\n<br>\nearth's veins. Please do not use it\nimproperly. For the first time in a\nlong time, my thoughts have become\n<br>\nclear. Thinking about this feeling, I\nused to be in a nightmare every day.<bw_break>"
+  },
+  "224719": {
+    "<attr><feel_happy_lv1><end_attr>「移住後は　王都キィンベルに負けない\n　近代的な集落を　築いてみせるぞ！": "<attr><feel_happy_lv1><end_attr>After we move in, we will build a\nmodern settlement that will rival\nRoyal City Kimbel!"
+  },
+  "224721": {
+    "<attr><feel_angry_lv1><end_attr>「きっと　代々の　エテーネの王族が\n　ろくでもない　悪事を　はたらいたせいだわ。\n　巨大隕石は　その　むくいなのよ。": "<attr><feel_angry_lv1><end_attr>It must be because the royal family of\nEthene has been doing evil things for\ngenerations. The giant meteorite is\n<br>\nthe work of them."
+  },
+  "224723": {
+    "<attr><feel_happy_one><end_attr>「しかし　同志ワグミカが　作ってくれた\n　海流をものともしない　船のおかげで\n　無事　調査隊を派遣できたんだ。": "<attr><feel_happy_one><end_attr>But thanks to a boat built by Comrade\nWagmika, which defied the currents, we\nwere able to send a survey team."
+  },
+  "229619": {
+    "「ややっ！？　<pc>君の身体から\n　あま～い匂いが　ただよってくるんだモーン！\n<br>\n「ということは　ヨンゲ君のシロップを\n　手に入れたんだモ～ン？\n　ならば　今すぐ　シロップをご主人に！": "What? I can smell the sweet smell\ncoming from <pc>'s body! Does\nthis mean that Yong has received\n<br>\nShiropp? If so, master Shiropp now!"
+  },
+  "245179": {
+    "<attr><feel_normal_lv1><end_attr>「俺らが　東の島を発見できたのも\n　モモンタルさんの　ひらめきと\n　指導力の　たまものなんだよなぁ。\n<br>\n「今後も　たぐいまれなる指導力で　俺たちを\n　模範的自由人として　ふさわしい存在に\n　高めてくれると　信じてるぜ。": "<attr><feel_normal_lv1><end_attr>We owe our discovery of the East Isles\nto the inspiration and leadership of\nMr. Sanguintal. I am confident that\n<br>\nyou will continue to use your\nunparalleled leadership skills to\nraise us to the level of exemplary\n<br>\nfree men and women we deserve."
+  },
+  "245290": {
+    "<attr><feel_happy_one><end_attr>「まもなく　この集落で暮らす　同志たちと\n　東の島へと　旅立つところさ。\n　新天地に　新しい集落を　開拓するんだ。\n<br>\n「時の指針書から　解放された\n　自由を愛する　新しいエテーネの民の集落だよ。\n　どうだい？　すばらしいだろう。<bw_break>": "<attr><feel_happy_one><end_attr>Soon I will be leaving with my\ncomrades who live in this village for\nthe East Island. We are going to\n<br>\nsettle a new settlement in a new land.\nA new settlement of freedom-loving\nEtheneans, freed from the Time\n<br>\nGuidebook. How's that sound? It's\nwonderful, isn't it?<bw_break>"
+  },
+  "245291": {
+    "<attr><feel_think_lv3><end_attr>「だけど　心配なことも　あるんだ。\n　調査隊の報告書によると　どうやら　東の島には\n　食べられるものが　少ないみたいでね。\n<br>\n「これでも　ボクは　錬金術師だから\n　食べ物を錬成できれば　いいんだけれど……\n　あいにく　ウデも知識も　イマイチなんだ。\n<br>\n「東の島で　手に入る素材だけで\n　食べ物を錬成できる　レシピが　ほしいんだけど\n　頼みのワグミカさんが　あんな状態では……。\n<br>\n「せめて　同志モモンタルに　相談したいけど\n　ボクも移住の準備で　忙しくてね。\n　代わりに　相談してきてくれないかい？": "<attr><feel_think_lv3><end_attr>But I have some concerns. According to\nthe report of the research team, it\nseems that there is not much edible\n<br>\nfood on the East Island. I am an\nalchemist, so it would be nice if I\ncould smelt food, but unfortunately,\n<br>\nmy skills and knowledge are not very\ngood. I would like to have a recipe\nfor smelting food using only the\n<br>\nmaterials available on the East\nIsland, but with Wagmika in the\ncondition he is in, it's not possible.\n<br>\nI'd like to consult with Comrade\nSanguintal, but I'm also busy with\npreparations for emigration. Would you\n<br>\nbe willing to go and consult with him\ninstead?"
+  },
+  "245292": {
+    "「<pc>君　ようこそだモ～ン。\n　遠路はるばる　やってくるなんて\n　何か　お困りごとでも　あるんだモン？": "<pc> Welcome, Mon. You've\ncome a long way, is there something\ntroubling you?"
+  },
+  "245293": {
+    "「……たしかに　調査隊の報告書にも\n　食べ物が少ないようだと　書いてあったモン。\n　さっそく　ご主人に　相談するモーン！": "Indeed, the survey team's report also\nsaid that there seemed to be little\nfood. Morn immediately consults with\n<br>\nthe master!"
+  },
+  "245294": {
+    "「ご主人！　移住する　同志たちのために\n　食べ物のレシピを　作ってほしいモーン！": "I want you to make food recipes for my\ncomrades who are moving to the area!"
+  },
+  "245295": {
+    "「……ご主人も　調査報告書は　読んだモン？\n　東の島に　自給自足の集落を　築きあげるには\n　ご主人のチカラが　必要なんだモーン！": "Have you read the survey report,\nmaster? We need your help to build a\nself-sufficient village in the East\n<br>\nIsland!"
+  },
+  "245296": {
+    "「ご主人……ッ！！": "MASTER!"
+  },
+  "245297": {
+    "<shake_big>「ゴシュジーンッ！！\n　いい加減に　するんだモーーン！\n<br>\n「ファラス君にもらった　あの薬を飲んで\n　食べ物のレシピを　作るんだモーーーン！！": "<shake_big>Gosh Jean! That's enough, Morn! Take\nthat medicine that Mr. Faras gave you\nand make up some food recipes, Morn!"
+  },
+  "245298": {
+    "「<pc>君！　申しわけないモン！\n　ご主人の説得には　時間がかかりそうだモンッ！\n　時を見計らって　また来てほしいモーン！": "<pc>! I'm sorry, Mon! It's\ngoing to take some time to convince\nthe master! I hope you will come back\n<br>\nagain when the time is right!"
+  },
+  "245299": {
+    "<pc>は　モモンタルに\nジーナフが　食べ物を錬成するレシピを\nほしがっていることを　伝えた。": "<pc> informed Sanguintal that\nGenaf wanted a recipe for smelting\nfood."
+  },
+  "245300": {
+    "モモンタルは　プルプルと震えると\n大きく息を　吸いこんだ……。": "Sanguintal shivered and took a deep\nbreath."
+  },
+  "245301": {
+    "<attr><feel_sad_one><end_attr>「ひっく！　……めんどくさいのう。\n　おのれの　食いぶちくらい\n　おのれのチカラで　なんとか　せい！": "<attr><feel_sad_one><end_attr>Hiccup! What a pain in the ass! You'll\nhave to manage your own food expenses\nwith your own power!"
+  },
+  "245302": {
+    "<attr><feel_angry_one><end_attr>「ひっく！　……モンモンと　うるさいのう。\n　ワシは　今　クッソ眠いんじゃ！\n　レシピ作りなぞ　クソ面倒で　たまらんわ！<bw_break>": "<attr><feel_angry_one><end_attr>Crap! You're making too much noise.\nI'm so sleepy right now! I can't be\nbothered to make recipes!<bw_break>"
+  },
+  "245303": {
+    "<attr><feel_happy_one><end_attr>「やくそうなら　たくさん　生えておるんじゃろ？\n　ワシの錬金レシピになんぞ　頼らずに\n　草でも　かじってろ。ウェヒヒヒヒィー！": "<attr><feel_happy_one><end_attr>I'm sure you have plenty of Medicinal\nHerbs growing around here, don't you?\nDon't rely on my alchemy recipe. Hee-\n<br>\nhee-hee!"
+  },
+  "245304": {
+    "<attr><feel_angry_one><end_attr>「コ……コワい顔しても　ダメじゃ！\n　クソ苦い薬も　クソ甘いシロップも\n　もう二度と　ワシは飲まんぞーーっ！！": "<attr><feel_angry_one><end_attr>Don't be coy! I will never take bitter\npills or sweet Shiropp again!"
+  },
+  "245305": {
+    "<attr><feel_think_lv3><end_attr>「東の島で　手に入る素材だけで\n　食べ物を錬成できる　レシピが　ほしいんだけど\n　頼みのワグミカさんが　あんな状態では……。\n<br>\n「せめて　同志モモンタルに　相談したいけど\n　ボクも移住の準備で　忙しくてね。\n　代わりに　相談してきてくれないかい？": "<attr><feel_think_lv3><end_attr>I need a recipe for refining food\nusing only the materials available on\nthe East Island, but with Wagmika in\n<br>\nsuch a state, I'm not sure what I can\ndo. I'd like to consult with Comrade\nSanguintal, but I'm also busy\n<br>\npreparing to emigrate. Would you be\nwilling to go and consult with him\ninstead?"
+  },
+  "245306": {
+    "「ゴシュジーン！！　いい加減にするモン！\n　ファラス君がくれた　薬を飲んで\n　食べ物のレシピを　作るんだモーン！": "Gosh Jean! That's enough, Morn! Faras,\ntake the pills you gave me and make up\nsome food recipes, Morn!"
+  },
+  "245307": {
+    "「<pc>君！　申しわけないモーン！\n　ご主人の説得には　時間が　かかりそうだから\n　今は　ここにいても　ラチがあかないモン！\n<br>\n「なんとしてでも　ご主人に　薬を飲ませて\n　食べ物のレシピを　作ってもらうから\n　説得が終わったころ　また来てほしいモーン！": "<pc>! I'm sorry, Morn! It's\ngoing to take some time to persuade\nthe master, so I can't stay here for\n<br>\nnow! I'll do whatever I can to get\nmaster to take the medicine and make a\nfood recipe, so please come back when\n<br>\nyou're done convincing him!"
+  },
+  "245308": {
+    "<attr><feel_angry_one><end_attr>「イヤじゃ！　コワい顔しても　ダメじゃ！\n　クソ苦い薬も　クソ甘いシロップも\n　もう二度と　ワシは飲まんぞーーっ！！": "<attr><feel_angry_one><end_attr>No! Don't look so scared! I will never\ntake bitter pills or sweet Shiropp\nagain!"
+  },
+  "245309": {
+    "<attr><feel_angry_one><end_attr>「イヤじゃ！　コワい顔しても　ダメじゃ！\n　クソ苦い薬も　クソ甘いシロップも\n　もう二度と　ワシは飲まんぞーーっ！！": "<attr><feel_angry_one><end_attr>No! Don't look so scared! I will never\ntake bitter pills or sweet Shiropp\nagain!"
+  },
+  "245310": {
+    "ジーナフに　高機能錬金食品の本を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Genaf the Efficient\nAlchemy Food Book?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "245311": {
+    "<pc>は　ジーナフに\n高機能錬金食品の本を　渡した。": "<pc> gave Genaf the Efficient\nAlchemy Food Book."
+  },
+  "245312": {
+    "高機能錬金食品の本を　読み進める\nジーナフの顔が　次第に　曇っていった……。": "Genaf's face gradually clouded as he\nread through the Efficient Alchemy\nFood Book."
+  },
+  "245313": {
+    "「おお……もしや　ワグミカ殿が\n　食べ物の錬成レシピを　作ってくれたのかい？": "Oh, did Wagmika create a food recipe\nfor you?"
+  },
+  "245314": {
+    "<attr><feel_sad_lv1><end_attr>「そ……そうか。\n　東の島への出発まで　もう時間がないので\n　ちょっと　あせってしまったよ。": "<attr><feel_sad_lv1><end_attr>I see. I'm in a bit of a hurry because\nI don't have much time left before I\nhave to leave for the East Island."
+  },
+  "245315": {
+    "<attr><feel_happy_lv1><end_attr>「おお……これは　ありがたい！\n　さっそく　レシピを確認してみるよ。": "<attr><feel_happy_lv1><end_attr>Oh, thank goodness for that! I'll\ncheck out the recipe right away."
+  },
+  "245316": {
+    "<attr><feel_sad_lv3><end_attr>「……こんな高度な錬金　お手上げだよ。\n　ボクみたいな　イマイチな錬金術師には\n　初手の第一工程から　難しすぎる……。\n<br>\n「もっと簡単な　レシピにできないか\n　ワグミカ殿に相談……しても　無駄だろうな。\n　そもそものレベルが　違いすぎる。\n<br>\n「もっと　お手軽に　錬成できる\n　レシピだったら　ありがたいんだけどなあ……。": "<attr><feel_sad_lv3><end_attr>I don't know how to do this kind of\nadvanced alchemy. It's too difficult\nfor a poor alchemist like me from the\n<br>\nvery first step. It would be futile to\nask Wagmika if there is a simpler\nrecipe. The level is too different to\n<br>\nbegin with. I would be grateful if it\nwere a recipe that can be smelted more\neasily."
+  },
+  "245317": {
+    "<attr><feel_normal_lv1><end_attr><icon_exc>「……そうだ！　お得意さまの　あの人なら\n　お手軽なレシピに　できるかもしれない。\n<br>\n「ボクの錬金のウデは　イマイチだけど\n　素材を探して　収集するのは　大得意でね。\n　素材収集で　お金を稼いでいるのさ。\n<br>\n「いろんな錬金術師から　依頼を受けるけど\n　たびたび　依頼の手紙を送ってくる\n　お得意さまが　王都キィンベルにいるんだ。\n<br>\n「手紙の内容から　豊富な知識を感じるし\n　ボクにもわかるよう　くわしく説明してくれる。\n　きっと　面倒見の良い人なんだろう。\n<br>\n「王都キィンベルにいる　その錬金術師の名前は\n　ルオンというんだ。移住の準備で忙しい\n　ボクの代わりに　頼みにいってくれないか？": "<attr><feel_normal_lv1><end_attr><icon_exc>That's right! Maybe that customer of\nours can make a recipe that's easy to\nmake. My alchemy skills aren't great,\n<br>\nbut I'm really good at finding and\ncollecting materials. I make money by\ncollecting materials. I receive\n<br>\nrequests from various alchemists, but\nthere is a client in Royal City Kimbel\nwho often sends me letters of request.\n<br>\nThe contents of his letters reveal a\nwealth of knowledge, and he explains\nmore about him so that I can\n<br>\nunderstand. He must be a very caring\nperson. The alchemist in Royal City\nKimbel is named Luon. He's busy\n<br>\npreparing for his new residence, so I\nwas wondering if you could go and ask\nhim for me."
+  },
+  "245318": {
+    "<attr><feel_normal_lv1><end_attr>「錬金術師の名前は　ルオンというんだ。\n　高機能錬金食品のレシピを　簡単にできないか\n　ボクの代わりに　頼みにいってほしい。\n<br>\n「時の指針書に　縛られない人のようだから\n　この集落に来ないかと　誘ったこともあるんだが\n　大切な家族がいるからと　断られたよ。\n<br>\n「直接　会ったことは　ないけれど\n　我々の同志に　ふさわしい立派な人物だと思う。\n　きっと　移住のために　協力してくれるよ。": "<attr><feel_normal_lv1><end_attr>The alchemist's name is Luon. I'd like\nyou to ask him if he could simplify\nthe recipe for high-performance\n<br>\nalchemical foods for me. Since he\nseems to be a person who is not bound\nby the Time Guidebook, I once invited\n<br>\nhim to come to this village, but he\nrefused because he has an important\nfamily. Although I have never met him\n<br>\nin person, I think he is a fine person\nwho is worthy of our comradeship. I am\nsure he will help us with the\n<br>\nimmigration."
+  },
+  "245319": {
+    "ジーナフに　ふしぎな豆の本を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Genaf the Mysterious\nBean Book?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "245320": {
+    "<pc>は　ジーナフに\nふしぎな豆の本を　渡した。": "<pc> gave Genaf the\nMysterious Bean Book."
+  },
+  "245321": {
+    "ふしぎな豆の本を　読み進める\nジーナフの顔が　次第に　明るくなっていった。": "Genaf's face grew brighter and\nbrighter as he read the Mysterious\nBean Book."
+  },
+  "245322": {
+    "「おお……もしかして　あのレシピを\n　お手軽なレシピに　書き換えられたのかい？": "Oh, did they rewrite that recipe into\na quick and easy recipe, by any\nchance?"
+  },
+  "245323": {
+    "<attr><feel_sad_lv1><end_attr>「そ……そうか。\n　もう　時間がないので　あせってしまったよ。": "<attr><feel_sad_lv1><end_attr>I see. I'm in a hurry because I don't\nhave much time left."
+  },
+  "245324": {
+    "<attr><feel_think_lv1><end_attr>「ゴクリ……。ボクにも　錬成できる\n　お手軽なレシピだと　ありがたいけど……。\n　さっそく　確認してみよう。": "<attr><feel_think_lv1><end_attr>Gobble. I'd appreciate it if it's an\neasy recipe that even I can concoct.\nI'll check it out right away."
+  },
+  "245325": {
+    "<attr><feel_happy_lv2><end_attr>「これなら　ボクでも　錬成できそうだ。\n　この豆さえあれば　きっと　移住は成功して\n　新天地に　立派な集落を　築けると思う。\n<br>\n「同志たちと　もう　決めているんだ。\n　集落の名前は　エテーネの村に　しようってね。\n<br>\n「キミには　たくさん　助けてもらったね。\n　ありがとう。同志　<pc>！\n　いつか　エテーネの村を　見にきてほしい。<bw_break>": "<attr><feel_happy_lv2><end_attr>I think even I can make these beans.\nIf I have these beans, I'm sure I'll\nbe able to successfully migrate to a\n<br>\nnew place and build a great village. I\nhave already decided with my comrades.\nWe are going to name the village\n<br>\nEthene Village. You helped me a lot,\ndidn't you? Thank you. Comrade\n<pc>! I hope you come to see\n<br>\nEthene Village someday.<bw_break>"
+  },
+  "245327": {
+    "<attr><feel_think_lv2><end_attr>「だけど……正直に言うと　不安があるんだ。\n　ボクの錬金のウデで　ちゃんと　ふしぎな豆を\n　錬成できるか　試しておかないと……。\n<br>\n「今から　早速　チャレンジしてみるよ。\n　最後の頼みなんだけど　ボクの代わりに\n　同志モモンタルに　お礼を　伝えてほしい。": "<attr><feel_think_lv2><end_attr>But to be honest, I have my doubts. I\nneed to see if I can properly smelt\nMysterious Beans with my skill of\n<br>\nalchemy. I'll give it a try right\naway. As a final request, I would like\nyou to thank Comrade Sanguintal on my\n<br>\nbehalf."
+  },
+  "245328": {
+    "<attr><feel_normal_lv1><end_attr>「最後の頼みなんだけど　ボクの代わりに\n　同志モモンタルに　お礼を　伝えてほしい。\n　今から　早速　錬金チャレンジするからさ。": "<attr><feel_normal_lv1><end_attr>As a final request, I would like you\nto thank Comrade Sanguintal on my\nbehalf. I'm going to try my hand at\n<br>\nalchemy right now."
+  },
+  "245329": {
+    "<attr><feel_normal_lv1><end_attr>「ボクの錬金のウデで　ちゃんと　ふしぎな豆を\n　錬成できるか　試しておかないと……。\n　今から　早速　チャレンジしてみるよ。": "<attr><feel_normal_lv1><end_attr>I'll have to see if I can properly\nsmelt Mysterious Beans with my alchemy\nskills. I'll give it a try right away."
+  },
+  "245433": {
+    "<attr><feel_think_one><end_attr>「さっきの人……　なんだったのかしら？": "<attr><feel_think_one><end_attr>What was that guy just now?"
+  },
+  "245434": {
+    "<attr><feel_happy_lv3><end_attr><icon_exc><turn_pc>「ねえ　あなたも見た！？\n　とっても　キレイな人だったわね。\n<br>\n「えっ　見てないの……？\n　大きなアイスブルーの瞳が　印象的な女の人よ。\n<br>\n「集落の人じゃないから　誰だろうって思いながら\n　話してたんだけど……　急に　光に包まれて\n　消えちゃったから　びっくりしたわ。": "<attr><feel_happy_lv3><end_attr><icon_exc><turn_pc>Hey, you saw her too! She was so\nbeautiful. What? You haven't seen her?\nShe's a woman with big ice blue eyes.\n<br>\nShe's not from our village, so I was\ntalking to her, wondering who she was,\nwhen suddenly she disappeared in a\n<br>\nflash of light."
+  },
+  "245435": {
+    "<attr><feel_think_lv2><end_attr>「うーん　ちょうど今　私　指輪を拾ったけど……\n　それはさっきの　キレイな女の人が\n　落としたものだと　思うの。\n<br>\n「きっと　大切なものだから\n　あの人に会えたら　ちゃんと渡してあげなきゃ！\n　それまでは　私が　預かっておくわ。\n<br>\n「それに……　ユマテルって　昔の……\n　７００年くらい前の人じゃない？\n　あなたが探している指輪とは　別物だと思うわ。": "<attr><feel_think_lv2><end_attr>Well, I just picked up a ring, but I\nthink it was dropped by that beautiful\nwoman. I'm sure it's very important,\n<br>\nso I'll give it to her when I see her!\nI'll hold on to it until then.\nBesides, isn't Umater a person who\n<br>\nlived about 700 years ago? I think the\nring you're looking for is different."
+  },
+  "245436": {
+    "<pc>は　ネブリィに\nユマテルが作った指輪について　調べるため\n自由人の集落に　来たことを伝えた。": "<pc> told Nebri that he had\ncome to Freedom Village to investigate\nthe ring that Umater had made."
+  },
+  "245437": {
+    "ネブリィは　指輪を渡してくれないようだ。\nマルフェのところに　戻ろう。": "Nebri is not going to give us the\nring, let's go back to Malfe's place."
+  },
+  "245438": {
+    "<attr><feel_think_lv2><end_attr>「たしかに私　指輪を拾ったけど……\n　それは　光に包まれて消えた　さっきの女の人が\n　落としたものだと　思うの。\n<br>\n「きっと　大切なものだから\n　あの人に会えたら　ちゃんと渡せるように\n　それまでは　私が　預かっておくわ。\n<br>\n「それに……　ユマテルって　昔の……\n　７００年くらい前の人じゃない？\n　あなたが探している指輪とは　別物だと思うわ。": "<attr><feel_think_lv2><end_attr>It's true that I picked up the ring,\nbut I think it was dropped by the\nwoman who disappeared in the light.\n<br>\nI'm sure it's very important, so I'll\nhold on to it until then so that I can\ngive it to her when I see her again.\n<br>\nBesides, isn't Umater a person who\nlived about 700 years ago? I think\nit's different from the ring you're\n<br>\nlooking for."
+  },
+  "245439": {
+    "ネブリィは　指輪を渡してくれないようだ。\nマルフェのところに　戻ろう。": "Nebri is not going to give us the\nring, let's go back to Malfe's place."
+  },
+  "245450": {
+    "ワグミカの説得には　時間がかかるようだ。\n時を見計らって　説得が終わったころの\n自由人の集落にいる　モモンタルに会いにいこう。": "It will take some time to persuade\nWagmika. Let's wait and see Sanguintal\nin Freedom Village when the persuasion\n<br>\nis over."
+  },
+  "245537": {
+    "「私　この前　指輪を拾ったけど……\n　それは　光に包まれて消えた　女の人が\n　落としたものだと　思うの。\n<br>\n「きっと　大切なものだから\n　あの人に会えたら　ちゃんと渡せるように\n　それまでは　私が　預かっておくわ。": "I picked up a ring the other day, but\nI think it was dropped by a woman who\ndisappeared in the light. I'm sure\n<br>\nit's very important, so I'll hold on\nto it until then so that I can give it\nto her when I see her again."
+  },
+  "246941": {
+    "「ゴシュジーン！！\n　ファラス君がくれた　薬を飲んで\n　正気のご主人に　戻るモーン！\n<br>\n「ボクは　また　従者として\n　ご主人を　ほこりに思いたいんだモン！": "Gosh Jean! Faras gave me a potion to\nmake me a sane master again! I want to\nbe a squire again, and I want to take\n<br>\na grudge against the master!"
+  },
+  "247332": {
+    "「…………。": "..."
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "43578": {
+    "アグラニの下の町に行く　神カラクリがある。\nスイッチを押して　移動しますか？<yesno><close>": "Going to the town below Agrani there\nis a Divine Machine, do you want to\npress switch and move?<yesno><close>"
+  },
+  "43579": {
+    "アグラニの上の町に行く　神カラクリがある。\nスイッチを押して　移動しますか？<yesno><close>": "Go to the town above Agrani there is a\nDivine Machine, press switch to move?<yesno><close>"
+  },
+  "10267000": {
+    "「おっと　そうだ！　\n　最近　手に入れた　こいつを\n　せんべつに　くれてやる！<bw_break>": "Oops, that's right!I'll give this one\nto the recently received Senji!<bw_break>"
+  },
+  "10267001": {
+    "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": "<pc> received a brick kiln\n(Key Item)!<me 60> In addition, he received a recipe\nbook, \"Hajimeyo Alchemy!<se_nots System Item> <pc> has read \"Let's Get\nStarted: Alchemy\"! <pc>\nlearned the recipe for Hajimeteyo\n<br>\nAlchemy!<se_nots System Item> The Renkin pot is a special tool that\ncan be used to smelt another item by\ninserting the item as a material. You\n<br>\ncan smelt an item by selecting \"Renkin\nGama\" from the \"item\" command. To\nsmelt an item, you will need the\n<br>\nrecipe of the item you want to smelt.\nRecipes can be obtained from the\nRecipe Shop or bookshelf."
+  },
+  "10267002": {
+    "「なんだか　便利そうだろ？\n　きっと　これからの旅の　役に立つと思うぜ！\n　それじゃ　しっかりな！": "Seems kind of convenient, doesn't it?\nI'm sure it will come in handy for\nyour future travels! Well then, good\n<br>\nluck!"
+  },
+  "10267003": {
+    "<attr><feel_happy_lv1><end_attr>「下の町に　ウウラって名前の\n　私の幼なじみが　住んでるんだけど\n　お誕生日を　サプライズで　お祝いしたいの。\n<br>\n「私たち　小さい頃から　お互いの誕生日に\n　『おめでとーん！』って　お祝いし合うんだけど\n　今年は　ちょっと　趣向を変えたいのよね。": "<attr><feel_happy_lv1><end_attr>I have a childhood friend of mine\nnamed Uura who lives down town, and I\nwant to celebrate her birthday with\n<br>\nSupura-isms. We've been saying \"Happy\nBirthday!\" to each other since we were\nkids. but this year we want to change\n<br>\nit up a bit."
+  },
+  "37331": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「ねえねえ　たびびとさん。\n　おにいちゃんの　はなし　きいてってよ！\n　わたしたち　おねがいがあるの！": "<attr><feel_happy_lv1><end_attr><turn_pc>Hey, hey, Tabibito! Please tell me all\nabout it! We have a favor to ask you!"
+  },
+  "37332": {
+    "<if_woman><turn_pc>「あっ！　お姉ちゃん　旅の人！？<bw_break><else><turn_pc>「あっ！　お兄ちゃん　旅の人！？<bw_break><endif>": "<if_woman><turn_pc>Ah! Sis, you're a traveler!<bw_break><else><turn_pc>Ah! Big brother, the traveler!<bw_break><endif>"
+  },
+  "37334": {
+    "「ねえねえ　賢者ブロッゲンさまって　知ってる？<yesno><break>": "Hey, hey, do you know who Sage Broggen\nis?<yesno><break>"
+  },
+  "37335": {
+    "<attr><feel_normal_lv1><end_attr>「賢者ブロッゲンさまはね\n　このアグラニの町に　少し前までいた\n　長～い　おヒゲの　えらい賢者さまなんだ！\n<br>\n「その　賢者ブロッゲンさまの\n　トレードマークといえば　なんといっても\n　いつも持ち歩いてる　しゃべる杖さ！\n<br>\n「ブロッゲンさまは　無口な人なんだけど\n　代わりに　杖が　ペラペラしゃべるんだよ！\n　ねっ　不思議だと思わない？<bw_break>": "<attr><feel_normal_lv1><end_attr>Sage Broggen is a great sage with a\nlong beard who used to live here in\nthe Town of Agrani until a short while\n<br>\nago! Sage Broggen's trademark is the\ntalking cane he always carries with\nhim! Sage Broggen doesn't talk much,\n<br>\nbut his cane does the talking for him!\nIsn't that strange?<bw_break>"
+  },
+  "37336": {
+    "<attr><feel_happy_lv1><end_attr>「うん　そうそう。賢者ブロッゲンさまはね\n　このアグラニの町に　少し前までいた\n　長～い　おヒゲの　えらい賢者さまなんだ！\n<br>\n「その　賢者ブロッゲンさまの\n　トレードマークといえば　なんといっても\n　いつも持ち歩いてる　しゃべる杖さ！\n<br>\n「ブロッゲンさまは　無口な人なんだけど\n　代わりに　杖が　ペラペラしゃべるんだよ！\n　ねっ　不思議だと思わない？<bw_break>": "<attr><feel_happy_lv1><end_attr>Yes, yes, Sage Broggen is the great\nsage with the long beard who used to\nlive here in the Town of Agrani until\n<br>\nnot so long ago! Sage Broggen's\ntrademark is the talking cane he\nalways carries with him! Broggen\n<br>\ndoesn't talk much, but his cane does\nthe talking for him! Isn't that\nstrange?<bw_break>"
+  },
+  "37337": {
+    "<if_woman><turn_pc>「あっ！　<pc>の　お姉ちゃん！\n　あのね　ボクね　賢者ブロッゲンさまのことで\n　お姉ちゃんに　相談があるんだけど……。<bw_break><else><turn_pc>「あっ！　<pc>の　お兄ちゃん！\n　あのね　ボクね　賢者ブロッゲンさまのことで\n　お兄ちゃんに　相談があるんだけど……。<bw_break><endif>": "<if_woman><turn_pc>Ah! Sis of <pc>! I have some\nadvice for you about Sage Broggen.<bw_break><else><turn_pc>Ah! Hey, big brother of <pc>!\nI have some advice for you about Sage\nBroggen.<bw_break><endif>"
+  },
+  "37338": {
+    "「もちろん　賢者ブロッゲンさまのことは\n　覚えているよね？<yesno><break>": "Of course you remember Sage Broggen,\ndon't you?<yesno><break>"
+  },
+  "37339": {
+    "<if_woman><attr><feel_angry_lv1><end_attr>「え～っ。お姉ちゃんは　ブロッゲンさまから\n　ルーラストーンを　もらったりしたんでしょ？\n　お世話になった人を　忘れちゃダメだよ～。\n<br>\n「賢者ブロッゲンさまはね\n　このアグラニの町に　少し前までいた\n　長～い　おヒゲの　えらい賢者さまだよ。\n<br>\n「ルナナが引き起こした　アクロニア鉱山の事件を\n　お姉ちゃんが　解決したときも\n　ブロッゲンさまが　そばにいたって聞いたよ。\n<br>\n「それでさ！　トレードマークの　しゃべる杖を\n　いっつも　持ち歩いてたじゃん！\n　でアール！　ってのが　クチぐせの　あの杖さ！<bw_break><else><attr><feel_angry_lv1><end_attr>「え～っ。お兄ちゃんは　ブロッゲンさまから\n　ルーラストーンを　もらったりしたんでしょ？\n　お世話になった人を　忘れちゃダメだよ～。\n<br>\n「賢者ブロッゲンさまはね\n　このアグラニの町に　少し前までいた\n　長～い　おヒゲの　えらい賢者さまだよ。\n<br>\n「ルナナが引き起こした　アクロニア鉱山の事件を\n　お兄ちゃんが　解決したときも\n　ブロッゲンさまが　そばにいたって聞いたよ。\n<br>\n「それでさ！　トレードマークの　しゃべる杖を\n　いっつも　持ち歩いてたじゃん！\n　でアール！　ってのが　クチぐせの　あの杖さ！<bw_break><endif>": "<if_woman><attr><feel_angry_lv1><end_attr>What~... Didn't you get a Zoomstone\nfrom Broggen-sama? Don't forget about\nthe people who helped you! Sage\n<br>\nBroggen-sama is the great sage with a\nlong beard who lived in this Town of\nAgrani until a while ago. I heard that\n<br>\nSage Broggen was there when you solved\nthe Acronia Mine case caused by\nLunana. That's why! She always carried\n<br>\naround her trademark talking cane,\nright? You always carried around your\ntrademark talking cane! That talking\n<br>\ncane!<bw_break><else><attr><feel_angry_lv1><end_attr>Eh~... Didn't Broggen give you\nZoomstone? Don't forget about the\npeople who helped you! Sage Broggen is\n<br>\nthe great sage with a long beard who\nused to live in this Town of Agrani\nuntil a while ago. I heard that Sage\n<br>\nBroggen was there when my brother\nsolved the Acronia Mine case caused by\nLunana. That's why! He was always\n<br>\ncarrying around his trademark talking\ncane, right? You always carried that\ntrademark talking cane with you! That\n<br>\ntalking cane!<bw_break><endif>"
+  },
+  "37340": {
+    "<if_woman>「それでね　相談っていうのは\n　賢者ブロッゲンさまの持っている\n　あの　ヘンテコな　しゃべる杖のことなんだ。\n<br>\n「いつも　無口な　ブロッゲンさまに代わって\n　ペラペラしゃべる　あの杖……。\n　お姉ちゃんも　不思議に思ったことない？<bw_break><else>「それでね　相談っていうのは\n　賢者ブロッゲンさまの持っている\n　あの　ヘンテコな　しゃべる杖のことなんだ。\n<br>\n「いつも　無口な　ブロッゲンさまに代わって\n　ペラペラしゃべる　あの杖……。\n　お兄ちゃんも　不思議に思ったことない？<bw_break><endif>": "<if_woman>So, by \"consultation,\" I mean that\nweird talking cane that Sage Broggen\nhas. That cane that speaks in place of\n<br>\nthe always mute Sage Broggen. Have you\never wondered about that, too, Sage?<bw_break><else>So, by \"consultation,\" I mean that\nweird talking cane that Sage Broggen\nhas. That cane that speaks in place of\n<br>\nthe always mute Sage Broggen. Have you\never wondered about that, too, big\nbrother?<bw_break><endif>"
+  },
+  "37341": {
+    "<attr><feel_happy_lv1><end_attr>「ボクね　賢者ブロッゲンさまが持ってる杖を\n　ど～しても　間近で　ジロジロ見たいんだ！\n　なにかヒミツが　わかるかもしれないでしょ？\n<br>\n「でね！　旅に出てたはずの　ブロッゲンさまが\n　また　戻ってきて　今は　モガリム街道にある\n　モガレキャンプに　立ち寄っているらしいんだ！\n<br>\n「ねえ　お願いだよ！　ボクと　妹のココンを\n　ブロッゲンさまのいる　モガレキャンプまで\n　連れてってくれないかな？": "<attr><feel_happy_lv1><end_attr>I'd really like to get a closer look\nat the cane that Sage Broggen is\nholding! Maybe I'll learn a secret,\n<br>\nyou know? So..! I heard that Sage\nBroggen, who was supposed to be on a\ntrip, came back and is now stopping by\n<br>\nMogare Camp on Mogarim Highway! Hey,\ndo me a favor! Can you take me and my\nsister, Kokon, to Mogare Camp where\n<br>\nBroggen is?"
+  },
+  "39030": {
+    "<if_woman><attr><feel_happy_lv2><end_attr>「うわーい！　ありがとう！\n　ボクと　ココンは　お姉ちゃんのうしろを\n　こっそり　ついていくことにするよ。\n<br>\n「モガレキャンプは　ここから　北に行って\n　モガリム街道を　道沿いに北西へ行けばあるよ。\n　それじゃ　よろしくね　お姉ちゃん！<else><attr><feel_happy_lv2><end_attr>「うわーい！　ありがとう！\n　ボクと　ココンは　お兄ちゃんのうしろを\n　こっそり　ついていくことにするよ。\n<br>\n「モガレキャンプは　ここから　北に行って\n　モガリム街道を　道沿いに北西へ行けばあるよ。\n　それじゃ　よろしくね　お兄ちゃん！<endif>": "<if_woman><attr><feel_happy_lv2><end_attr>Wow! Thank you! Kokon and I are going\nto sneak along behind my sister.\nMogare Camp is north of here, along\n<br>\nMogarim Highway to the northwest. Well\nthen, nice to meet you, sis!<else><attr><feel_happy_lv2><end_attr>Wow! Thank you! Kokon and I are going\nto sneak along behind my brother.\nMogare Camp is north of here, and you\n<br>\ncan find it by following the Mogarim\nHighway to the northwest. Well then,\nnice to meet you, big brother!<endif>"
+  },
+  "39031": {
+    "<if_woman><attr><feel_normal_lv1><end_attr>「あれ？　お姉ちゃんは　他の人の頼まれごとが\n　いっぱい　たまってるみたいだよ。\n　急いでないし　ボクのは　後回しで　いいや。<else><attr><feel_normal_lv1><end_attr>「あれ？　お兄ちゃんは　他の人の頼まれごとが\n　いっぱい　たまってるみたいだよ。\n　急いでないし　ボクのは　後回しで　いいや。<endif>": "<if_woman><attr><feel_normal_lv1><end_attr>What is it? Your sister seems to have\na lot of other people's requests\npiling up. I'm not in a hurry, so mine\n<br>\ncan wait.<else><attr><feel_normal_lv1><end_attr>What is it? It seems that you have a\nlot of other people's requests piling\nup. I'm not in a hurry, so mine can\n<br>\nwait.<endif>"
+  },
+  "39032": {
+    "<attr><feel_normal_lv1><end_attr>「うーん。そっかあ。\n　じゃあ　親切な旅人さんが　現れるまで\n　ココンを　からかって　遊んでよーっと。": "<attr><feel_normal_lv1><end_attr>Hmmm. I see. Well then, I'll just\ntease Kokon and play with him until a\nkind traveler shows up."
+  },
+  "37342": {
+    "<attr><feel_happy_lv3><end_attr><turn_pc>「やった　やったー！\n　おにいちゃんと　しゃべるつえー！\n<br>\n「エヘヘ。ブロッゲンさまが\n　モガレキャンプに　いるってのは\n　ココンが　しいれた　じょうほうなんだよ。": "<attr><feel_happy_lv3><end_attr><turn_pc>Yay, yay! I can talk with my brother!\nHehehe, Kokon gave me the information\nthat Broggen-sama is at Mogare Camp."
+  },
+  "37343": {
+    "<turn_pc>「ボクね　賢者ブロッゲンさまの　しゃべる杖を\n　ど～しても　間近で　ジロジロ見たいんだ！\n　なにかヒミツが　わかるかもしれないでしょ？\n<br>\n「ブロッゲンさまは　今　モガレキャンプに\n　立ち寄ってるみたいなんだ。\n　ボクと　ココンを　そこまで連れていってね。<open_irai><bw_break>": "<turn_pc>I really want to get up close and\npersonal with Sage Broggen's talking\ncane! What secrets might that reveal?\n<br>\nI think Sage Broggen is stopping by\nMogare Camp right now. Please take me\nand Kokon there.<open_irai><bw_break>"
+  },
+  "37344": {
+    "<if_woman><attr><feel_normal_lv1><end_attr>「モガレキャンプは　ここから　北に行って\n　モガリム街道を　道沿いに北西へ行けばあるよ。\n　それじゃ　よろしくね　お姉ちゃん！<bw_break><else><attr><feel_normal_lv1><end_attr>「モガレキャンプは　ここから　北に行って\n　モガリム街道を　道沿いに北西へ行けばあるよ。\n　それじゃ　よろしくね　お兄ちゃん！<bw_break><endif>": "<if_woman><attr><feel_normal_lv1><end_attr>Mogare Camp can be found by going\nnorth from here and following the\nMogarim Highway to the northwest. Well\n<br>\nthen, nice to meet you, sis!<bw_break><else><attr><feel_normal_lv1><end_attr>Mogare Camp is north of here, and you\ncan find it by following the Mogarim\nHighway to the northwest. Well then,\n<br>\nnice to meet you, big brother!<bw_break><endif>"
+  },
+  "37345": {
+    "<close_irai>「……ボクの予想だと　あの杖の中には\n　ちっちゃいオッサンが　入ってると思うんだ。\n　そいつが　しゃべってるんだよ　きっと！": "<close_irai>My guess is that there is a little\nOssaan inside that cane. I'm sure he's\nthe one doing the talking!"
+  },
+  "37346": {
+    "<attr><feel_sad_lv1><end_attr><turn_pc>「おにいちゃんと　あそんでるときは\n　いいんだけど……\n<br>\n「ひとりで　おふとんに　はいると\n　ブロッゲンさまの　おこった　おかおが\n　ゆめに　でてきそうで　こわいの。ふぇえ～ん！": "<attr><feel_sad_lv1><end_attr><turn_pc>It's fine when I'm playing with my\nbrother, but when I go to bed alone,\nI'm scared that I'll see Broggen's\n<br>\nangry face in my dreams. Ew~n!"
+  },
+  "37347": {
+    "<if_woman><turn_pc>「おかえり　<pc>の　お姉ちゃん！\n　ブロッゲンさまに　怒られちゃったけど\n　ボク的には　すごい楽しかったよ！\n<br>\n「はい　これ。今回のお礼だよ。\n　ありがとね　お姉ちゃん！<else><turn_pc>「おかえり　<pc>の　お兄ちゃん！\n　ブロッゲンさまに　怒られちゃったけど\n　ボク的には　すごい楽しかったよ！\n<br>\n「はい　これ。今回のお礼だよ。\n　ありがとね　お兄ちゃん！<endif>": "<if_woman><turn_pc>Welcome back, sister of <pc>!\nI got scolded by Mr. Broggen, but from\nmy point of view, it was a lot of fun!\n<br>\nHere. This is my thanks for this time.\nThanks, sis!<else><turn_pc>Welcome back, brother of\n<pc>! I got scolded by Mr.\nBroggen, but from my point of view, it\n<br>\nwas a lot of fun! Here you go. This is\nmy thanks for this time. Thank you,\nbig brother!<endif>"
+  },
+  "37348": {
+    "<if_woman>「……でも　ブロッゲンさまが怒っちゃって\n　結局　しゃべる杖のヒミツは\n　あんまり　わかんなかったなあ……。\n<br>\n「ブロッゲンさま　つらそうにしてたから\n　なんか　やな思い出でも　ありそうだけど……。\n　ボクには　よくわかんないや！\n<br>\n「じゃあね　お姉ちゃん！\n　何かあったら　また　お願いするね！<else>「……でも　ブロッゲンさまが怒っちゃって\n　結局　しゃべる杖のヒミツは\n　あんまり　わかんなかったなあ……。\n<br>\n「ブロッゲンさま　つらそうにしてたから\n　なんか　やな思い出でも　ありそうだけど……。\n　ボクには　よくわかんないや！\n<br>\n「じゃあね　お兄ちゃん！\n　何かあったら　また　お願いするね！<endif>": "<if_woman>But Broggen got angry, and in the end\nI didn't really understand the secret\nof the talking cane. Broggen looked\n<br>\nlike he was giving me a hard time, so\nI guess he had some bad memories. I\ndon't really understand! Bye, sis!\n<br>\nI'll ask you again if there's anything\nelse I can do!<else>But Broggen got angry, and in the end\nI didn't really understand the secret\nof the talking cane. Broggen looked\n<br>\nlike he was giving me a hard time, so\nI guess he had some bad memories. I\ndon't really understand! Bye, big\n<br>\nbrother! If there's anything else I\ncan do, please let me know!<endif>"
+  },
+  "37349": {
+    "<if_woman><turn_pc>「ブロッゲンさまの杖を　間近で見たけど\n　結局　しゃべる杖のヒミツは\n　あんまり　わかんなかったなあ……。\n<br>\n「ブロッゲンさま　つらそうにしてたから\n　なんか　やな思い出でも　ありそうだけど……。\n　ボクには　よくわかんないや！\n<br>\n「ありがとね　お姉ちゃん！\n　何かあったら　また　お願いするね！<else><turn_pc>「ブロッゲンさまの杖を　間近で見たけど\n　結局　しゃべる杖のヒミツは\n　あんまり　わかんなかったなあ……。\n<br>\n「ブロッゲンさま　つらそうにしてたから\n　なんか　やな思い出でも　ありそうだけど……。\n　ボクには　よくわかんないや！\n<br>\n「ありがとね　お兄ちゃん！\n　何かあったら　また　お願いするね！<endif>": "<if_woman><turn_pc>I saw Broggen's cane up close, but in\nthe end I didn't understand much about\nthe secret of the talking cane.\n<br>\nBroggen looked like he was giving me a\nhard time, so I guess he had some bad\nmemories. I don't really understand!\n<br>\nThanks, sis! If there's anything else\nI can do, I'll ask you again!<else><turn_pc>I saw Broggen's cane up close, but in\nthe end I didn't understand much about\nthe secret of the talking cane.\n<br>\nBroggen looked like he was giving me a\nhard time, so I guess he had some bad\nmemories. I don't really understand!\n<br>\nThanks, big brother! If there's\nanything else I can do, I'll ask you\nagain!<endif>"
+  },
+  "37350": {
+    "「最近　アグラニ付近には\n　ぬけがらみたいに　干からびて死んでる\n　旅人のホトケさんが　多いそうだ。\n<br>\n「ようやく　景気を盛り返したってとこに\n　イヤな　しらせが　入ったもんだぜ。\n　あんたも　じゅうぶん　気をつけなよ。": "Lately, there are many dried-up dead\ntravelers around Agrani, I hear. Just\nwhen the economy was finally picking\n<br>\nup, we got a nasty warning. You'd\nbetter be careful, too."
+  },
+  "37351": {
+    "<attr><feel_sad_one><end_attr>「……イツツツツ……。<bw_break>": "<attr><feel_sad_one><end_attr>Itzutsu.<bw_break>"
+  },
+  "37352": {
+    "<turn_pc>「おお！　<pc>！　ひさしぶりだな！\n　……うっ！　大声を出すと　キズが開く……\n　ィツツツツ……。<bw_break>": "<turn_pc>Oh! <pc>! It's been a while!\nUgh! Yelling out loud opens up\nscratches.<bw_break>"
+  },
+  "37353": {
+    "<turn_pc>「お？　旅人かい。オレは　ホッツィ。\n　このアグラニでは　ちいと知れた顔だ。\n　ホッツィ親方とでも　呼んでくれ。\n<br>\n「え～と？　お前さんは……\n　へえ～　<pc>ってのか。\n　なかなか　ウデが立ちそうじゃねえか！\n<br>\n「ううっ！　イテテテ……。\n　やっぱ　大声を出すと　キズが開く……。\n　……ィツツツツ……。<bw_break>": "<turn_pc>Oh? You're a traveler. I'm Hottsi, a\nfamiliar face here in Agrani. You can\ncall me Boss Hottsi. What? You're Hee~\n<br>\n<pc>, huh? You seem to be\npretty good at it, don't you? Ugh!\nOuch. I knew I'd open a wound if I\n<br>\nshouted too loud. I'll get it.<bw_break>"
+  },
+  "37354": {
+    "「……不覚にも　このホッツィ\n　全身キズだらけの　大ケガをしてな。\n　服の下は　包帯だらけの　ミイラ男状態よ。\n<br>\n「……っていうのもな　つい先日のことだ。\n　ガタラ原野に　仕事道具を忘れたんで\n　そこまで　取りに戻ったんだ。\n<br>\n「だがよ　オレとしたことが　探すのに手間取って\n　すっかり　帰りが　遅くなっちまってな。\n　暗い夜道を　ひとり歩いて帰ってたのよ。\n<br>\n「……そしたらよ　見えちまったんだなあ\n　闇夜にビカーッと光る　ふたつの目ん玉が……！\n　こいつはヤベエ！　魔物の野郎の　お出ましさ！\n<br>\n「こう見えてもオレは　俊足で鳴らしたクチでね。\n　ヤツの　ひっかき攻撃を　何度か食らいながらも\n　ここまで　逃げかえってきたのよ。\n<br>\n「だが　あの野郎。時折　ぶってえ光線を\n　クチから　発射しやがってよ！\n　アレを食らってたら　命は　なかったぜ！\n<br>\n「あんな魔物が　もしも　アグラニの方に来たら\n　せっかく取り戻した　この町の活気も\n　また　地の底に　逆戻りってなもんだぜ。\n<br>\n「そこで　どうだ？　倒してこいとは　言わねえ。\n　お前さん　オレが襲われた場所を見てきて\n　魔物の正体を　突き止めてくれねえかい？": "Unexpectedly, Hottsi here has been\nbadly injured, with scratches all over\nher body. Underneath my clothes, I'm a\n<br>\nMummy Boy with bandages all over.\nThat's because, just the other day. I\nleft my work gear at Gatara Fields and\n<br>\nhad to go back there to get it. But it\ntook me so long to find them that I\nended up coming home late. I was\n<br>\nwalking home alone in the dark. I was\nwalking home alone in the dark, and I\nsaw it... those two eyes shining\n<br>\nbrightly in the dark night! This is\nbad! Here comes the monster! I'm a\nfast and agile \"MOUTH,\" as they say.\n<br>\nI've escaped from his scratching\nattacks several times, but I've\nmanaged to escape all the way here.\n<br>\nBut that bastard. He occasionally\nfires a beam of lightning out of his\nmouth! I wouldn't have made it out\n<br>\nalive if I had been hit by that thing!\nIf a monster like that comes toward\nAgrani, this town's vitality, which\n<br>\nwe've just regained, will go back to\nthe depths of the earth. So what do\nyou think? I won't tell you to go and\n<br>\nbeat him. Why don't you go see where I\nwas attacked and find out who this\nmonster is?"
+  },
+  "37355": {
+    "<attr><feel_sad_lv1><end_attr>「へへっ！　ありがとよ！\n　お前さんなら　そう言ってくれる気がしたぜ！\n<br>\n「オレが　魔物に襲われたのは\n　ガタラ原野にある　遺跡の森って場所を\n　東に抜けた　突きあたりだ。\n<br>\n「とりあえず　ヤツの正体が　わかりゃあいい。\n　対策を立てんのは　それからだ。\n　それじゃあ　よろしくなッ！！\n<br>\n「ううっ！　イテテテ……。\n　今ので　また　キズが開いちまった……。\n　……ィツツツツ……。": "<attr><feel_sad_lv1><end_attr>Hehe! Thanks, man! I had a feeling you\nwould say that! The monster attacked\nme at the end of Forest Ruins in\n<br>\nGatara Fields, just east of where I\nleft off. All I need to do is find out\nwho it is. Then we can start planning\n<br>\ncountermeasures. Well then, good luck!\nUgh! Ouch. Now I've got another\nscratch. Tstststststs."
+  },
+  "37356": {
+    "<attr><feel_normal_lv1><end_attr>「おっとっとぉ！　その返事は　ありがてえが\n　お前さんは　仕事を　引き受けすぎみてえだ。\n　オレのほうは　後でいいから　また頼むよ。\n<br>\n「……とはいえ　不安が　つのると\n　また　キズが開いちまうな……。\n　うっ……！　イツツツツ……。": "<attr><feel_normal_lv1><end_attr>Oops! I appreciate the response, but I\nthink you're taking on too much work.\nI'll ask you again later. However, I'm\n<br>\nafraid my insecurity will open up\nanother can of worms. Ugh! Ittsu-ttsu-\nttsu."
+  },
+  "37357": {
+    "<attr><feel_sad_lv1><end_attr>「そうか。断られるとは　意外だったぜ。\n　お前さん……　外のハデな空気に　ふれて\n　変わっちまったんだなあ。\n<br>\n「まあ　いいや。すまなかったな。\n　オレのことなど気にせず　旅を続けてくれよ。\n　うっ……！　キズが……　イツツツツ……。": "<attr><feel_sad_lv1><end_attr>I see. I didn't expect you to refuse.\nI guess you must have changed after\nbeing exposed to the fancy atmosphere\n<br>\noutside. Well, never mind. I'm sorry.\nPlease continue your journey without\nworrying about me. Ugh! I've got a\n<br>\nscratch."
+  },
+  "37358": {
+    "<attr><feel_sad_lv1><end_attr>「そうかい。いや　すまなかったな。\n　オレのことなど気にせず　旅を続けてくれよ。\n　うっ……！　キズが……　イツツツツ……。": "<attr><feel_sad_lv1><end_attr>Oh, okay. No, I'm sorry. Don't worry\nabout me. Just keep traveling. Ugh!\nI've got a scratch."
+  },
+  "37359": {
+    "<turn_pc>「イツツツ……。おお　<pc>！\n　魔物に襲われた　オレを　あわれんで\n　頼みを　聞きにきてくれたのか？\n<br>\n「ガタラ原野から　帰ってくる夜道に\n　正体不明の魔物に　襲われちまってな。\n　とにかく　デカくて　すばしっこいヤツだった。\n<br>\n「あんな魔物が　もしも　アグラニの方に来たら\n　せっかく取り戻した　この町の活気も\n　また　地の底に　逆戻りってなもんだぜ。\n<br>\n「なあ　頼むよ。倒してこいとは　言わねえ。\n　お前さん　オレが襲われた場所を見てきて\n　魔物の正体を　突き止めてくれねえかい？": "<turn_pc>Itzutsu. Oh, <pc>! Did you\ncome to ask me a favor out of pity for\nme being attacked by a monster? I was\n<br>\nattacked by an unidentified monster on\nmy way back from Gatara Fields. He was\nbig and speedy. If a monster like that\n<br>\ncomes toward Agrani, the vitality of\nthis town, which we've just regained,\nwill go back to the bottom of the\n<br>\nearth. Hey, please. I won't tell you\nto go and beat him. Why don't you go\nsee where I was attacked and find out\n<br>\nwho this monster is?"
+  },
+  "37360": {
+    "<attr><feel_happy_lv2><end_attr>「おお　<pc>じゃないか！\n　ホッツィ親方を　心配して\n　はるばる　駆けつけてきてくれたのか？<yesno><break>": "<attr><feel_happy_lv2><end_attr>Oh, <pc>! You came all the\nway out here to see Boss Hottsi?<yesno><break>"
+  },
+  "37361": {
+    "<attr><feel_normal_lv1><end_attr>「じつはよ　少し前に\n　ホッツィ親方が　全身キズだらけの\n　大ケガをして　帰ってきたんだ。\n<br>\n「パッと見　元気そうに見えるが\n　服を脱げば　包帯で　ぐるぐる巻きの状態よ。\n　とにかく　親方の話を聞いてやってくんな。": "<attr><feel_normal_lv1><end_attr>As a matter of fact, Boss Hottsi came\nhome a little while ago with a full\nbody wound. He looks fine on the\n<br>\noutside, but when he takes his clothes\noff, he's all bandaged up. Anyway, you\nshould listen to your master."
+  },
+  "37362": {
+    "「ここは　ホッツィ親方の家。\n　……だが　親方は　少し前に\n　大ケガをして　帰ってきてな……。\n<br>\n「アンタみたいな　ウデの立ちそうな旅人なら\n　親方の頼みも　聞いてやれるかもしれん。\n　ぜひ　話を聞いてやってくれ。": "This is Boss Hottsi's house. But he\ncame back from a serious injury a\nwhile ago. A skilled traveler like you\n<br>\nmight be able to do him a favor.\nPlease listen to him."
+  },
+  "37363": {
+    "「すまねえな。\n　オレが　謎の魔物に襲われた場所に行って\n　そいつの正体を　突き止めてきてくれ。<open_irai><bw_break>": "I'm sorry. Go to the place where I was\nattacked by the mysterious monster and\nfind out who it is.<open_irai><bw_break>"
+  },
+  "37364": {
+    "「オレが　魔物に襲われたのは\n　ガタラ原野にある　遺跡の森って場所を\n　東に抜けた　突きあたりだ。<bw_break>": "I was attacked by the monster at the\nend of the forest ruins in Gatara\nFields, just east of where I left.<bw_break>"
+  },
+  "37365": {
+    "<close_irai>「あんな魔物が　もしも　アグラニの方に来たら\n　せっかく取り戻した　この町の活気も\n　また　地の底に　逆戻りってなもんだぜ。\n<br>\n「とりあえず　ヤツの正体が　わかりゃあいい。\n　対策を立てんのは　それからだ。\n　それじゃあ　よろしくな！": "<close_irai>If such a monster comes to Agrani, the\nvitality of this town, which we have\njust regained, will be back to the\n<br>\ndepths of the earth. All we need to do\nis find out who he is. Then we can\nstart planning our countermeasures.\n<br>\nThen, I'll see you soon!"
+  },
+  "37366": {
+    "「親方の頼みを　聞いてくれたみたいだな。\n　ありがとよ。オレからも　礼を言うぜ。\n<br>\n「正体不明の魔物が出るなんて　ウワサが立ったら\n　誰も　アグラニに　寄り付かなくなっちまう。\n　なんとかして　対策を立てなきゃな。": "Looks like you did your master a\nfavor. Thanks. I'd like to thank you\ntoo. If there are rumors of an\n<br>\nunidentified monster, no one will come\nto Agrani. We'll have to do something\nabout it."
+  },
+  "37367": {
+    "<attr><feel_think_one><end_attr><turn_pc>「魂を吸い取る　魔獣ビュブロスか……。\n　ヘタしたら　オレも　魂を吸い取られ\n　ぬけがらに　されるところだったんだな……。\n<br>\n「まあ　賢者ブロッゲンさまに　まかせておけば\n　きっと　なんとかしてくださるだろう。\n　オレらが　対策を立てるまでもねえな。\n<br>\n「なにはともあれ　お前さんのおかげで\n　オレを襲った魔物の件は　よ～く　わかったよ。\n　ありがとな！": "<attr><feel_think_one><end_attr><turn_pc>Magical Beast Byblos sucking souls. If\nI had messed up, my soul would have\nbeen sucked out and turned into a\n<br>\ncorpse too. Well, if we leave it to\nSage Broggen, I'm sure he'll take care\nof it. We don't need to take any\n<br>\nmeasures. At any rate, thanks to you,\nI now understand what happened to the\nmonster that attacked me. Thanks a\n<br>\nlot!"
+  },
+  "37368": {
+    "「……そうか。親方を襲った魔物ってのは\n　魂を吸い取る　とんでもねえ化け物だったか。\n　ホッツィ親方も　よく無事だったな……。\n<br>\n「ブロッゲンさまが　なんとかしてくれるとはいえ\n　町の者が　動揺しねえように\n　このことは　だまっていたほうがいいだろうな。": "I see. The monster that attacked my\nmaster was a soul-sucking monster. I'm\nsurprised Boss Hottsi survived.\n<br>\nAlthough Broggen-sama will take care\nof it, I think it's best to keep quiet\nabout this so that the townspeople\n<br>\nwon't get upset."
+  },
+  "37369": {
+    "<attr><feel_think_one><end_attr>「困ったねえ……。\n　ルナナとかいう　タチの悪い女が\n　この宿屋に　居ついちまったよ。\n<br>\n「あんなのに　ウロウロされたんじゃ\n　宿屋のイメージが　悪くなるよ。\n　誰か　なんとかしてくれないかねえ。<bw_break>": "<attr><feel_think_one><end_attr>I'm in trouble. A bad girl named\nLunana has taken up residence in this\ninn. It's not good for the inn's image\n<br>\nto have a woman like that hanging\naround. Will someone do something\nabout it?<bw_break>"
+  },
+  "156436": {
+    "<attr><feel_angry_one><end_attr>「このところ　ずっと平和だったのに\n　ルナナって小娘が　帰ってきやがったんだ！\n　また　騒ぎを起こされたら　たまらんぞ……。": "<attr><feel_angry_one><end_attr>It's been peaceful for a while now,\nand then this little bitch Lunana came\nback! I'll be damned if she's going to\n<br>\ncause trouble again."
+  },
+  "37370": {
+    "<attr><feel_happy_one><end_attr>「この宿屋に　居ついてた\n　ルナナとかいう　タチの悪い女が\n　やっと　出てってくれたよ！\n<br>\n「あんたが　追いだしてくれたのかい？\n　助かったよ！　あんなのに居つかれたんじゃ\n　うちのイメージが　悪くなっちまうからね！<bw_break>": "<attr><feel_happy_one><end_attr>That nasty woman, Lunana, who used to\nstay at this inn, has finally left!\nYou got her out, didn't you? Thank\n<br>\nGod! It would have tarnished our image\nif she had stayed!<bw_break>"
+  },
+  "156437": {
+    "<attr><feel_normal_one><end_attr>「ルナナが　町を出てったそうだね。\n　いやはや　ホッとしたよ……。\n　もう　二度と帰ってこないでほしいもんだ。": "<attr><feel_normal_one><end_attr>I heard Lunana left town. What a\nrelief. I hope she never comes back."
+  },
+  "37371": {
+    "「おお　<pc>。その後　どうだ？\n　魔獣ビュブロスの件は　何か進展があったか？<yesno><break>": "Oh <pc>. How about after\nthat? Any progress on the Magical\nBeast Byblos?<yesno><break>"
+  },
+  "37372": {
+    "<attr><feel_angry_one><end_attr>「なにぃっ……！\n　魔獣ビュブロスは　全部で　３頭もいるだと！？\n　こいつぁ　おったまげたぜ！\n<br>\n「でもよ　ブロッゲンさまが\n　なんなく　１頭　倒してくれたんだろ？\n　残り２頭も　きっと　なんとかしてくださるさ！": "<attr><feel_angry_one><end_attr>What? There are three Magical Beasts\nByblos in total? That's crazy! But,\nBroggen took down one of them without\n<br>\nany trouble, didn't he? I'm sure he'll\ntake care of the other two too!"
+  },
+  "37373": {
+    "<attr><feel_normal_lv1><end_attr>「そうかい……。早いとこ　心の底から\n　安心して　暮らしたいもんだぜ。\n　ヤツにやられたキズが　うずいてしょうがねえ。": "<attr><feel_normal_lv1><end_attr>I see. I'd like to live in peace at\nthe very earliest opportunity. I can't\nhelp but ache from the scars he left\n<br>\nme."
+  },
+  "37374": {
+    "<attr><feel_normal_lv1><end_attr>「魔獣ビュブロスみてえな　化け物が\n　３頭もいたとは　おったまげたな！\n　一度に来られたら　アグラニも終わりだったぜ！\n<br>\n「でもよ　ブロッゲンさまが\n　なんなく　１頭　倒してくれたんだろ？\n　残り２頭も　きっと　なんとかしてくださるさ！": "<attr><feel_normal_lv1><end_attr>I was surprised that there were three\nmonsters like Magical Beast Byblos! If\nthey came at once, Agrani would have\n<br>\nbeen finished! But, Broggen took down\none of them without any trouble,\ndidn't he? I'm sure he'll take care of\n<br>\nthe other two too!"
+  },
+  "37375": {
+    "<attr><feel_happy_lv2><end_attr>「聞いておくれよ！\n　今　この宿屋にね　あの賢者ブロッゲンさまが\n　泊まっていらっしゃるんだよ！\n<br>\n「大賢者も　のんびり過ごせる　お宿！\n　ってことで　うちも　ハクがついたよ。\n　さ～て　はりきって仕事しようかね！<bw_break>": "<attr><feel_happy_lv2><end_attr>Listen to me! The Sage Broggen is\nstaying at this inn right now! A place\nwhere even a big Sage can spend a\n<br>\nrelaxing night! And that's why I've\ngot a good name, too. Now, let's get\nto work!<bw_break>"
+  },
+  "37376": {
+    "<attr><feel_angry_one><end_attr>「あの　賢者ブロッゲンさまが\n　すごく　苦しそうな顔をして帰ってきたんだ。\n<br>\n「どうしたんですか？　って　たずねても\n　何も答えず　杖も　だまったまんまだったのよ。\n　いくらエライ人でも　あの態度は　いけねえな。": "<attr><feel_angry_one><end_attr>That Sage Broggen came home with a\nvery distressed look on his face. I\nasked him what was wrong. He didn't\n<br>\nanswer anything, and his cane remained\nsilent. I don't care how good he is,\nhe shouldn't behave like that."
+  },
+  "37377": {
+    "<attr><feel_think_one><end_attr>「今　賢者ブロッゲンさまが\n　うちに　泊まってくれてるんだけどさ。\n　ものすごく　つらそうなのよね……。\n<br>\n「まさか……！\n<br>\n「布団が　カビ臭くて　眠れないとか！？\n　だ…大丈夫よね？\n　５日くらい前に　干したはずだもの……。<bw_break>": "<attr><feel_think_one><end_attr>Sage Broggen is staying with us right\nnow. It's not very hard on her. No\nway! The bedding smells musty and she\n<br>\ncan't sleep? It's okay, isn't it? I'm\nsure I aired it out about five days\nago.<bw_break>"
+  },
+  "37378": {
+    "<attr><feel_think_lv2><end_attr>「賢者ブロッゲンさまの杖さまを盗むとは……\n　ルナナのヤツ　とんだ　バチあたり娘だぜ！\n<br>\n「ルナナの親父さんの　ホルタ神父は\n　かつて　アグラニの町おこしに努めてくれた\n　大人物だってのに……。\n<br>\n「どこでどう道を踏みはずしたら\n　あんな　ムチャクチャな大人になるってんだ？\n　アグラニ七不思議の　ひとつにしてやりてえよ！": "<attr><feel_think_lv2><end_attr>Lunana is a crazy girl to steal Sage\nBroggen's walking stick! Lunana's\nfather, Father Holta, was once a great\n<br>\nman who helped revitalize the Town of\nAgrani. How could she have gone so\nwrong and become such a whipmouth\n<br>\nadult? I wish I could make him one of\nthe Seven Wonders of Agrani!"
+  },
+  "37379": {
+    "「賢者ブロッゲンさまが　必死の形相で\n　ルナナの足取りを追うよう　頼んできてな。\n　なんでも　杖をルナナに盗られたそうなんだ。\n<br>\n「思い返すと　ブロッゲンさまが\n　杖と　一緒じゃねえときって　なかったな。\n　よっぽど　大切な杖なんだろうよ。": "Sage Broggen was frantic and asked me\nto follow Lunana's footsteps. He told\nme that Lunana had stolen his wand.\n<br>\nCome to think of it, there was never a\ntime when Broggen was not with his\nwand. It must be a very precious wand."
+  },
+  "44829": {
+    "「賢者ブロッゲンさまは　旅に出たみたいだよ。\n　また　アグラニに　帰ってきたときは\n　うちに　泊まってほしいもんだねえ。<bw_break>": "Sage Broggen seems to have gone on a\ntrip. I hope he will stay with us\nagain when he comes back to Agrani.<bw_break>"
+  },
+  "37381": {
+    "「以前　このアグラニ付近にゃ\n　ぬけがらみてえに　干からびて死んじまう\n　旅人が　たくさん　いたらしいんだが……。\n<br>\n「今は　もう　その話も聞かなくなってよ。\n　みんな　安心して　アグラニに来てくれるんだ！\n　この町の景気も　息を吹き返したぜ！": "I heard that there used to be many\ntravelers who dried up and died like\ndead bodies around here in Agrani. But\n<br>\nnow we don't hear about that anymore.\nPeople come to Agrani with peace of\nmind! This town's economy has come\n<br>\nback to life!"
+  },
+  "37382": {
+    "<attr><feel_happy_lv1><end_attr>「よう　<pc>。よく来たな。\n　賢者ブロッゲンさまから　聞いたぜ。\n　魔獣騒動じゃ　大活躍だったそうじゃねえか！\n<br>\n「なんでも　最後は　魔獣が巨大化した\n　レオン・ビュブロとかいうヤツを　倒したとか？\n　かぁ～っ！　お前さん　やってくれるねえ！<bw_break>": "<attr><feel_happy_lv1><end_attr>Hey <pc>. Welcome to the\nsite. I heard from Sage Broggen. I\nheard you were very active in the\n<br>\nHexenbiest riots! I heard that in the\nend, you defeated Leon Byblo, who was\na giant hexenbiest? I heard that he\n<br>\ndid a great job in the Hexenbiest\nriots! You're really good, aren't you?<bw_break>"
+  },
+  "37383": {
+    "<attr><feel_happy_lv1><end_attr>「人知れず　魔獣を倒してくれたおかげで\n　皆　おびえることなく　暮らすことができた。\n　町を代表して　礼を言うぜ！　ありがとよ！": "<attr><feel_happy_lv1><end_attr>Thanks to you, who defeated the beast\nwithout being seen, we can all live\nwithout being scared. On behalf of the\n<br>\ntown, I thank you! Thank you!"
+  },
+  "37384": {
+    "<attr><feel_happy_lv1><end_attr>「アクロニア鉱山じゃ　マアモンから\n　オレらを守ってくれたし……。\n　お前さんは　ホント　アグラニの英雄だな！": "<attr><feel_happy_lv1><end_attr>You protected us from Maamon at the\nAcronia Mine. You are truly an Agrani\nhero!"
+  },
+  "41912": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「さいきんは　ブロッゲンさまの　つえの\n　マネっこごっこが　はやってるのでアール！\n　どう？　いまの　にてたでしょ？": "<attr><feel_happy_lv1><end_attr><turn_pc>Recently, it's become very popular to\nplay with Broggen's pincers! How's\nthat? Did you see that?"
+  },
+  "37386": {
+    "<if_woman><turn_pc>「あっ！　お姉ちゃん。<bw_break><else><turn_pc>「あっ！　お兄ちゃん。<bw_break><endif>": "<if_woman><turn_pc>Ah! Sis.<bw_break><else><turn_pc>Ah! Big brother.<bw_break><endif>"
+  },
+  "37387": {
+    "「ブロッゲンさまの杖のヒミツ\n　あれから　なにか　わかった？<yesno><break><yesno><break>": "Did you find out the secret of Mr.\nBroggen's cane?<yesno><break><yesno><break>"
+  },
+  "41913": {
+    "<attr><feel_happy_lv1><end_attr>「そっかー。また　いつか\n　ブロッゲンさまが　この近くに来たら\n　杖を　見せてもらうことにするよ！": "<attr><feel_happy_lv1><end_attr>I see. I'll ask Broggen to show me his\ncane again someday when he comes\naround here!"
+  },
+  "37388": {
+    "「魔獣ビュブロスとかいう　魔物にやられた\n　ホッツィ親方のキズも　順調に回復しているよ。\n　親方の現場復帰も　こりゃ時間の問題だな。": "Boss Hottsi's wounds from the Magical\nBeast Byblos monster are healing up\nnicely. It's only a matter of time\n<br>\nbefore he's back in the field."
+  },
+  "33229": {
+    "「ここは　アグラニの町。\n　アクロニア鉱山が近くにある\n　採掘と　宝石細工の町だ。\n<br>\n「町の外は　ラニアッカ断層帯と呼ばれている。\n　北に抜けて　モガリム街道を進んでいけば\n　やがて　ガタラ原野に行けるぞ。\n<br>\n「ガタラ原野には　岳都ガタラという町がある。\n　アグラニよりも　大きな町で\n　大地の箱舟に乗れる　鉄道駅があるんだ。": "This is the Town of Agrani, a mining\nand lapidary town with the Acronia\nMine nearby. Outside of the town is\n<br>\ncalled Raniakka Fault Zone. If you\ncontinue north on Mogarim Highway, you\nwill eventually reach Gatara Fields.\n<br>\nIn Gatara Fields, there is a town\ncalled Mount Gatara. It is a larger\ntown than Agrani and has a train\n<br>\nstation where you can ride the Ark of\nthe Earth."
+  },
+  "33230": {
+    "「どうした　<pc>？\n　いつにも増して　ぼ～っとしているようだが\n　本当に　大丈夫か？\n<br>\n「上の町にある教会へ行って\n　ルナナの誘いを　断ってくる話\n　忘れては　おらんだろうな？\n<br>\n「いいか！　ビシッと断るんだぞ！\n　ホルタ神父の娘だからといって\n　エンリョなんぞ　せんでいいいからな！": "What's wrong <pc>? You seem\neven more spaced out than usual. Are\nyou sure you're okay? I hope you\n<br>\ndidn't forget to tell me that you're\ngoing to Church in the upper town to\nturn down Lunana's offer. You haven't\n<br>\nforgotten about me, have you? You're\ngoing to turn down Lunana's offer, and\nyou're going to turn it down loud and\n<br>\nclear! You don't have to be Enrile\njust because she's Father Holta's\ndaughter!"
+  },
+  "33231": {
+    "「よう　<pc>。\n　がんばって　魔物を倒してるみたいだな。\n　だが　それだけじゃ　お金が貯まらないだろ？\n<br>\n「お金かせぎのコツってのはな。\n　今すぐ必要じゃない物は　取っておかずに\n　どんどん　お店に売って　お金に換えることだ。": "Hey <pc>. Looks like you're\ndoing your best to beat the monster.\nBut that's not enough to save money,\n<br>\nis it? The trick to earning money is.\nDon't keep things you don't need right\nnow, sell them to the stores and make\n<br>\nmoney."
+  },
+  "5165": {
+    "<attr><feel_sad_lv1><end_attr><start_lip_sync n00511 _normal m00001>「なんで　そんなこと言うの～？\n　おにいちゃんの　いじわる～。": "<attr><feel_sad_lv1><end_attr><start_lip_sync n00511 _normal m00001>Why are you saying that~? You're so\nmean to me, Onii-chan."
+  },
+  "33235": {
+    "<attr><feel_happy_lv1><end_attr>「おお　<pc>～。\n　オメエが助かってくれて\n　オラ　心の底から　うれしかったよォ。\n<br>\n「……って　え？\n　ここは　エテーネの村じゃないのかって？\n　おいおい　大丈夫かあ　<pc>？\n<br>\n「どうやら　事故のショックで\n　記憶が　混乱してるみてえだなあ……。\n　どれ　いっちょ　オラが説明してやろうか？<yesno><break>": "<attr><feel_happy_lv1><end_attr>Oh <pc>~. I was happy from\nthe bottom of my heart that you saved\nme. What? Isn't this Ethene Village?\n<br>\nHey, hey, hey, are you okay? It seems\nthat the shock of the accident has\nconfused your memory. Shall I explain\n<br>\nit to you?<yesno><break>"
+  },
+  "33236": {
+    "「そうかあ？　そんなら　いいけど。\n　あんまり　無理しねえでくれよ。": "Is that so? If that's the case, that's\nfine. Don't take it too hard."
+  },
+  "33237": {
+    "<attr><feel_happy_lv1><end_attr>「ここは　オラたち採掘士の町　アグラニだ。\n　ほれ。オメエも　ついさっきまで\n　アクロニア鉱山で　仕事してたでねえか。\n<br>\n「このアグラニは　地上と地下に\n　町が広がっててな。オラたちは　それぞれ\n　上の町　下の町って　呼んでるだよ。\n<br>\n「上の町に行くには\n　アクロニア鉱山の入り口の　反対側の崖に見える\n　神カラクリっつう　昇降機を使うんだ。\n<br>\n「オメエが　これから行く教会も\n　上の町にあるからよ。\n　さっそく　神カラクリに乗ってみるだよ。": "<attr><feel_happy_lv1><end_attr>This is Agrani, the town of our\nminers. Here. You were working at the\nAcronia Mine just a while ago, weren't\n<br>\nyou? This Agrani has a town spread out\nabove and below ground. We call them\nthe upper town and the lower town,\n<br>\nrespectively. To get to the upper\ntown, use the Divine Machine elevator\non the opposite side of the cliff from\n<br>\nthe entrance to Acronia Mine. The\nChurch you are going to is in the\nupper town. Let's get on the Divine\n<br>\nMachine right away."
+  },
+  "33238": {
+    "「鉱石が　ろくに採れんようになってから\n　この鉱山で　はたらく者たちも\n　すいぶん　減ってしまったのう……。\n<br>\n「ムチェと　ブチャのように\n　不満をブチまけて　出ていくヤツもいれば\n　いつの間にか　いなくなったヤツもおる。\n<br>\n「見切りをつけるのは　まだ早いと思うがのう。\n　わしらが　戒めを守っている限り\n　アクロニア鉱山は　大丈夫なはずじゃ。": "Since the ore has become scarce, the\nnumber of people who have been\nsnapping away at this mine has\n<br>\ndecreased by a lot. Some of them, like\nMutch and Butch, left the mine in\ndiscontent, while others disappeared\n<br>\nbefore we knew it. I don't think it's\ntoo early to give up on them. As long\nas we keep our commandments, Acronia\n<br>\nMine should be fine."
+  },
+  "33239": {
+    "<attr><feel_happy_one><end_attr>「<pc>さん　よく来てくださいました！\n　教会の入り口から見て　左にある　お部屋で\n　ルナナさんが　お待ちですわよ。さて……。<bw_break>": "<attr><feel_happy_one><end_attr><pc> Thank you for coming!\nLunana is waiting for you in the room\nto the left of the Church entrance.\n<br>\nWell...<bw_break>"
+  },
+  "33240": {
+    "<attr><feel_happy_lv1><end_attr><start_lip_sync n00510 _normal m00001><start_lip_sync n00511 _normal m00001><stop_lip_animation n00511 CLOSE_MOUTH>「なあ　ココン。お前　いっつも\n　母ちゃんの分まで　ご飯食べてるだろ。\n<br>\n「よくばって　人の分まで食ってると\n　強欲オバケに　なっちゃうんだぞ！": "<attr><feel_happy_lv1><end_attr><start_lip_sync n00510 _normal m00001><start_lip_sync n00511 _normal m00001><stop_lip_animation n00511 CLOSE_MOUTH>Hey Kokon, you always eat enough for\nMom, don't you? If you eat enough for\nothers, you'll turn into a greedy\n<br>\nghost!"
+  },
+  "33242": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>　すげえな！\n　死んだと思ったら　生き返るなんてよ！\n<br>\n「しかし　前とは　どことなく\n　雰囲気が　ちがって見えるが……。\n<br>\n「まあ　いいか。そんなことより\n　親方の頼みを　忘れちゃいないだろうな？\n　さっさと教会へ行って　ルナナに会ってきな。": "<attr><feel_happy_lv1><end_attr><pc> Amazing! I thought I was\ndead, but I've come back to life! But\nthe atmosphere seems somehow different\n<br>\nfrom before. Well, that's okay. I hope\nyou didn't forget to do my master a\nfavor. Go to Church and see Lunana."
+  },
+  "33243": {
+    "「あっ！　おい　<pc>！\n　そっちは　事故があった　アクロニア鉱山だぞ！\n　教会に行くなら　反対の方向だぜ！\n<br>\n「本調子じゃねえみたいだし　とりあえず\n　教会へ行ってきちゃあ　どうだ？\n　鉱山なんて　いつでも入れるんだからよ。": "Ah! Hey <pc>! That's the\nAcronia Mine where the accident\nhappened! If you want to go to Church,\n<br>\nit's the other way! You don't look\nlike you're in bad shape. Why don't\nyou go to Church anyway? You can get\n<br>\ninto the mine anytime you want."
+  },
+  "33244": {
+    "「<pc>が　無事で　よかったよ。\n　山神イプチャルさまが\n　守ってくださったんだねえ。\n<br>\n「さあさ　神さまに　お礼を言っておいで。\n　教会に住んでる　ルナナさんを訪ねるのも\n　忘れずにね！": "I'm glad <pc> is safe. The\nmountain god Yppchal must have\nprotected you. Now, go and say thank\n<br>\nyou to God. Don't forget to visit\nLunana who lives in Church!"
+  },
+  "5177": {
+    "「この世界には　ドワーフ　オーガ\n　ウェディ　プクリポ　エルフ　人間と\n　さまざまな種族が　住んでいます。\n<br>\n「私たちドワーフは　その中で\n　いちばん　高度な文明を築くチカラを\n　持っていたのですよ。\n<br>\n「……ええ　持っていたのです。\n　今となっては　その高度な技術力も\n　失われてしまったのですがね。": "This world is inhabited by Dwarf Ogre\nWeddie Pukulipo Elf human and various\nraces. We Dwarfs had the power to\n<br>\nbuild the most advanced civilization\namong them. Yes, we did. But now, we\nhave lost that advanced technology."
+  },
+  "33247": {
+    "「お前さん　上の町に行くのかね？\n　……だとしたら　こいつの出番だな。": "You, sir. Are you going to the town\nabove? If so, this guy's on his way."
+  },
+  "33248": {
+    "「この神カラクリってヤツは\n　何千年も前の　時代のものらしいが……。\n<br>\n「今でも　オレたちを乗せて\n　スーッと上まで　運んでくれる。\n　いやはや　すごい発明品だよなあ！": "This Divine Machine is said to be\nthousands of years old. Even now, it\ncarries us up to the top. It's an\n<br>\namazing invention, isn't it?"
+  },
+  "33249": {
+    "「ここは　ホッツィ親方の家だ。\n　……って　<pc>じゃないか！\n<br>\n「崩落に巻き込まれたと　聞いたが\n　その様子だと　大丈夫そうだな。\n　たいしたことがなくて　本当に　よかったよ！\n<br>\n「ただでさえ　鉱石が採れなくなって\n　みんな　元気をなくしているときだ。\n　死人なんて出たら　どうなっていたか……。": "This is Boss Hottsi's house. I thought\nit was <pc>! I heard you were\ninvolved in the collapse, but from the\n<br>\nlooks of it, you seem to be ok. I'm\nreally glad it was nothing serious!\nEven if it was just a matter of time,\n<br>\npeople are losing energy because of\nthe lack of ore extraction. I wonder\nwhat would have happened if anyone had\n<br>\ndied."
+  },
+  "33250": {
+    "「ここは　ホッツィ親方の家だ。\n　よく来たな　<pc>。\n<br>\n「崩落に巻き込まれたと　聞いたが\n　その様子だと　大丈夫そうだな。\n　たいしたことがなくて　本当に　よかったよ！\n<br>\n「ただでさえ　鉱石が採れなくなって\n　みんな　元気をなくしているときだ。\n　死人なんて出たら　どうなっていたか……。": "This is Boss Hottsi's house. Nice to\nsee you <pc>. I heard you\nwere involved in the collapse, but\n<br>\nfrom the looks of it, you seem to be\nok. I'm really glad it was nothing\nserious! Even if it was just a matter\n<br>\nof time, everyone is losing energy\nsince they can't extract ore anymore.\nI wonder what would have happened if\n<br>\nanyone had died."
+  },
+  "33251": {
+    "<attr><feel_normal_lv1><end_attr>「う～ん……。\n　この町も　ずいぶん　さびれたなあ。": "<attr><feel_normal_lv1><end_attr>Hmmm. This town has become very\ndeserted."
+  },
+  "33252": {
+    "<turn_pc>「……おっと　すまない。\n　キミは　下の町の人だね。\n　どうだい　いい石は　採れそうかい？<yesno><break>": "<turn_pc>Oops, sorry. You must be from down\ntown. How's it going? You think you\ncan get some good rocks?<yesno><break>"
+  },
+  "33253": {
+    "<attr><feel_happy_lv1><end_attr>「おおっ　期待してるよ！\n　昔のように　たくさんの買いつけ人が\n　押し寄せる日も　近いね！": "<attr><feel_happy_lv1><end_attr>Oh, I'm counting on it! The day is\ncoming soon when there will be as many\nbuyers as there used to be!"
+  },
+  "33254": {
+    "<attr><feel_think_lv1><end_attr>「そうか……。\n　やっぱり　アクロニア鉱山からは\n　もう　いい石は　採れないのかなあ。\n<br>\n「良質の宝石と　この町の職人の細工技術が\n　組み合わさって生まれた　宝飾品は\n　まさに　芸術と呼べるものだったのに……。": "<attr><feel_think_lv1><end_attr>I see. I guess they can't get good\nstones from the Acronia Mine anymore.\nThe jewelry born from the combination\n<br>\nof high quality gemstones and the\ncraftsmanship of the artisans in this\ntown was truly an art."
+  },
+  "33255": {
+    "「以前の　アクロニア鉱山からは\n　たくさんの鉱石にまじって　質のいい\n　宝石の原石が　採れたもんだった。\n<br>\n「その原石をみがいて　細工をほどこし\n　立派な宝飾品を生みだすのが\n　わしら　職人の仕事だったのさ。": "In the past, the Acronia Mine yielded\nhigh-quality gemstones among many\nother ores. It was our job to polish\n<br>\nthe gemstones and create fine jewelry."
+  },
+  "33256": {
+    "<attr><feel_sad_lv1><end_attr>「今日は　なんとか　子供たちに\n　食べさせてやれたけど\n　明日は　どうなることか……。": "<attr><feel_sad_lv1><end_attr>I managed to feed the kids today, but\nI don't know what will happen\ntomorrow."
+  },
+  "5188": {
+    "「アグラニの者は　ちっとばかり　強欲での。\n　以前は　鉱石や宝石を買いつけにくる商人と\n　トラブルが　絶えなかったんじゃ。\n<br>\n「だが　ホルタ神父が来てからは　変わった。\n　あの人は　わしらの技術を高く評価し\n　商人との仲介役を　買ってでてくれたのじゃ。\n<br>\n「いつも　いがみあっていた　わしらと\n　商人の間に　信頼関係が生まれ\n　おかげで　町も大きくなった。\n<br>\n「ホルタ神父は　ほんに　いい人間じゃったよ。\n　はやり病で　ポックリいってしまったが\n　もっと　長生きしてほしかったのう。": "The Agrani are a bit greedy. We used\nto have a lot of trouble with the\nmerchants who came to buy our ores and\n<br>\ngems. But that changed after Father\nHolta arrived. He appreciated our\nskills and acted as an intermediary\n<br>\nbetween us and the merchants. Thanks\nto this relationship of trust between\nus and the merchants, which had always\n<br>\nbeen a source of quarrels between us,\nthe town grew. Father Holta was a very\ngood man. I wish he had lived longer."
+  },
+  "5130": {
+    "<attr><feel_happy_lv1><end_attr>「おおっ。どうやら　ルナナのヤツに\n　ガツンと　言ってきてくれたようだな？\n　お前さんの顔を見れば　わかるぞ！\n<br>\n「あとは　何か言ってきても\n　放っておけばいい。\n　どうせ　小娘だけでは　何もできんからな。\n<br>\n「あ～　早く　ルナナが　あきらめて\n　アグラニから　出ていってくれるのを\n　祈るばかりだわい。": "<attr><feel_happy_lv1><end_attr>Oh. Looks like you gave Lunana a good\ntalking to, huh? I can tell by the\nlook on your face! Now all you have to\n<br>\ndo is let him go. She can't do\nanything on her own anyway. Ah~ I just\nhope Lunana gives up and leaves Agrani\n<br>\nsoon."
+  },
+  "5131": {
+    "<attr><feel_sad_lv2><end_attr>「なあ　<pc>。\n　オラは　崩落の原因になった　あの紫色の霧が\n　気になって気になって　しょうがねえんだ。\n<br>\n「オラたちの　アクロニア鉱山が\n　やべえことに　なってんじゃないかって……。\n　不安で　ならねえんだよォ。": "<attr><feel_sad_lv2><end_attr>Hey <pc>. I've been wondering\nabout that purple fog that caused the\ncollapse. I'm afraid that our Acronia\n<br>\nMine might be in trouble. I can't stop\nworrying about it."
+  },
+  "33259": {
+    "<attr><feel_normal_one><end_attr>「聞きましたわ　<pc>さん。\n　賢者ブロッゲンさまに会うため\n　アクロニア鉱山へ行くのですね。\n<br>\n「アクロニア鉱山には　魔物がいます。\n　中に入る前に　持っている武器や防具を\n　忘れずに　装備していってください。\n<br>\n「それから　下の町には　防具屋さんがないので\n　もしも　防具が必要なら\n　上の町で　買っていくといいでしょう。\n<br>\n「準備が整ったら　下の町に降りて\n　鉱山の入り口付近にいる　ニンチャイさんに\n　くわしい話を聞いてくださいね。さて……<bw_break>": "<attr><feel_normal_one><end_attr>I hear you <pc>. You are\ngoing to Acronia Mine to meet Sage\nBroggen. There is a monster in Acronia\n<br>\nMine. Before you go in, please\nremember to equip yourself with the\nweapons and armor you have. There is\n<br>\nno Armor Shop in the lower town, so if\nyou need armor, you can buy it in the\nupper town. When you are ready, go\n<br>\ndown to the lower town and ask Ninchai\nnear the entrance of the mine for more\ninformation. Now, let's see...<bw_break>"
+  },
+  "5132": {
+    "「……なに？\n　賢者ブロッゲンさまに会いたいだと？\n<br>\n「う～む。\n　ブロッゲンさまは　お忙しい方だからな。\n　どこにいらっしゃるか　わからないぞ。\n<br>\n「……そうだな。アクロニア鉱山の中ほどに\n　守人の部屋という　ブロッゲンさまが\n　よく立ち寄る部屋がある。\n<br>\n「そこに　お前を運んできてくれた\n　守人のチャルコがいるから\n　ヤツに　話を聞いてみるといいだろう。\n<br>\n「かがり火を目印に進めば　守人の部屋に行けるが\n　鉱山に入る前に　必ず　武器は装備しとけよ！\n　お前は　初心者用の武器を持ってたはずだしな。": "What? You want to meet Sage Broggen?\nHmmm. Broggen is a very busy man. I\ndon't know where he is. Well, there is\n<br>\na guardian's room in the middle of\nAcronia Mine that Broggen often stops\nby. Chalko, the guardian who brought\n<br>\nyou here, is there, so you might want\nto talk to him. If you follow the\nbonfire, you can get to the guardian's\n<br>\nroom, but be sure to equip yourself\nwith a weapon before you enter the\nmine! You should have a beginner's\n<br>\nweapon."
+  },
+  "5133": {
+    "「アクロニア鉱山の中ほどに\n　守人の部屋という　ブロッゲンさまが\n　よく立ち寄る部屋がある。\n<br>\n「そこに　お前を運んできてくれた\n　守人のチャルコがいるから\n　ヤツに　話を聞いてみるといいだろう。\n<br>\n「かがり火を目印に進めば　守人の部屋に行けるが\n　鉱山に入る前に　必ず　武器は装備しとけよ！\n　お前は　初心者用の武器を持ってたはずだしな。": "There is a guardian's room in the\nmiddle of the Acronia Mine where\nBroggen often stops. There is Chalko,\n<br>\nthe guardian who brought you here, so\nyou should talk to him. If you follow\nthe bonfire, you can get to the\n<br>\nguardian's room, but be sure to equip\nyourself with a weapon before you\nenter the mine! You should have a\n<br>\nbeginner's weapon."
+  },
+  "5134": {
+    "「古くさい風習と思うかもしれないけど\n　昔から　ここで　はたらく者たちは\n　ひとつの誓いを　立てるんだよ。\n<br>\n「かつての過ちを　戒めとし\n　欲に　身をまかせることはしない……ってね。\n<br>\n「ホルタ神父は　そのことを理解してくれたけど\n　娘のルナナさんは　ダメだね。\n　あれじゃ　誰も言うことを聞かないよ。": "It may sound old-fashioned, but from\ntime immemorial, those who have dared\nto stand here have sworn a vow. We\n<br>\nmust be reminded of our past mistakes\nand not give in to greed. Father Holta\nunderstood that, but not his daughter\n<br>\nLunana. No one will listen to her."
+  },
+  "5135": {
+    "「<pc>は　知らないだろうけど\n　ホルタ神父は　人間でありながら\n　オレたちのことを　よく理解してくれたんだ。\n<br>\n「オレたちドワーフのよろこび　悲しみ……\n　強さ　弱さも　全部　受けとめてくれた。\n　だから　オレたちも　心を開けたのさ。": "<pc> may not know this, but\nFather Holta understood us well even\nthough he was a human being. He\n<br>\naccepted our Dwarf joys, sorrows,\nstrengths and weaknesses. That's why\nwe were able to open our hearts."
+  },
+  "5137": {
+    "<attr><feel_sad_one><end_attr>「先ほど　賢者ブロッゲンさまが来て\n　ルナナさんの　お部屋に入っていきましたわ。\n　お説教をされているようですが……。さて……。<bw_break>": "<attr><feel_sad_one><end_attr>Sage Broggen just came and entered\nLunana's room. It seems he is giving a\nsermon. Well...<bw_break>"
+  },
+  "5138": {
+    "「ついさっき　賢者ブロッゲンさまが\n　ここを　お通りになったよ。\n　上の町の教会へ行くと　言っていたな。": "Sage Broggen passed by here just a few\nminutes ago. He said he was going to\nthe Church in the upper town."
+  },
+  "5139": {
+    "「私の記憶が　確かならば\n　先ほど　お見かけした　ご老人は\n　賢者ブロッゲンさま！\n<br>\n「あの高名な賢者さまが\n　どうして　こんな所に……。": "If I remember correctly, the old man I\nsaw earlier was Sage Broggen! How did\nthe famous Sage come to be here?"
+  },
+  "5140": {
+    "<attr><feel_happy_lv1><end_attr>「さっき　カミの毛くるくるで\n　ヒゲをみつあみにした老人が\n　神カラクリに　乗ったんだよ。\n<br>\n「もしかして　あの方が　超有名な\n　賢者ブロッゲンさまじゃないだろうか！？\n　くーっ　サイン　もらっとくんだった！": "<attr><feel_happy_lv1><end_attr>An old man with curly hair and a beard\nin a honeycomb just got on the Divine\nMachine. Could that be the famous Sage\n<br>\nBroggen? Damn, I should have gotten\nhis autograph!"
+  },
+  "5142": {
+    "<attr><feel_normal_one><end_attr>「ブロッゲンさまは　戒めの地に向かう前に\n　ホッツィ親方の家に　寄っていくと\n　おっしゃってましたわ。\n<br>\n「ホッツィ親方の家は　下の町にある\n　ひときわ　大きな　おうちですわ。\n　広場を見回せば　きっと　わかりますわよ。<bw_break>": "<attr><feel_normal_one><end_attr>Broggen said he would stop by Boss\nHottsi's house before heading to the\nCave of Counsel. Boss Hottsi's house\n<br>\nis a very large house down town. If\nyou look around the plaza, you will\nrecognize it.<bw_break>"
+  },
+  "5143": {
+    "「おお　<pc>。賢者ブロッゲンさまなら\n　こっちには来ていないぞ。\n　親方の所にでも　行ったんじゃないか？": "Oh <pc>, Sage Broggen is not\nhere. Maybe he went to his master's?"
+  },
+  "33260": {
+    "「ややっ　あなたが持っているのは\n　ルーラストーンでは　ありませんか！\n<br>\n「ルーラストーンは　使うと　記憶させた場所に\n　またたく間に飛んでいくことができる\n　とても　すばらしい　魔力の宿った石なんです。\n<br>\n「町や村など　教会のある場所は　一度　訪れると\n　自動で記憶されます。アグラニの町も\n　すでに　記憶されているはずですよ。\n<br>\n「いくつでも　記憶できますので\n　記憶させれば　させるほど\n　飛んでいけるところが　増えるのです。\n<br>\n「また　フィールドやダンジョンの入口などにある\n　不思議な石碑も　ルーラストーンに\n　記憶させることが　できますよ。\n<br>\n「ルーラストーンは　『どうぐ』から使えます。\n　よく行く場所は　<emoji SpecialRight>で　お気に入りに\n　登録もできますので　試してみてくださいね。": "I think you are holding a Zoomstone!\nThe Zoomstone is a magical stone with\ngreat magic power, which allows you to\n<br>\nfly to the place you memorized in no\ntime at all. Once you visit a town or\nvillage, it is automatically\n<br>\nmemorized, so the Town of Agrani\nshould already be in your memory. You\ncan memorize any number of places, so\n<br>\nthe more you memorize, the more places\nyou can fly to. Also, the mysterious\nstone monuments in the fields and at\n<br>\nthe entrance of Dan Jon can be stored\nin the Zoomstone. The Zoomstone can be\nused from the \"item\" menu. Frequently\n<br>\nvisited places are<emoji SpecialRight>You can also register it in your\nfavorites at"
+  },
+  "33261": {
+    "「ルーラストーンは　使うと　記憶させた場所に\n　またたく間に飛んでいくことができる\n　とても　すばらしい　魔力の宿った石なんです。\n<br>\n「町や村など　教会のある場所は　一度　訪れると\n　自動で記憶されます。アグラニの町も\n　すでに　記憶されているはずですよ。\n<br>\n「いくつでも　記憶できますので\n　記憶させれば　させるほど\n　飛んでいけるところが　増えるのです。\n<br>\n「また　フィールドやダンジョンの入口などにある\n　不思議な石碑も　ルーラストーンに\n　記憶させることが　できますよ。\n<br>\n「ルーラストーンは　『どうぐ』から使えます。\n　よく行く場所は　<emoji SpecialRight>で　お気に入りに\n　登録もできますので　試してみてくださいね。": "The Zoomstone is a magical stone with\ngreat magic power that allows you to\nfly to the place you memorized in no\n<br>\ntime at all. Once you visit a town or\nvillage, it is automatically\nmemorized, and the Town of Agrani\n<br>\nshould already be there. You can\nmemorize any number of places, so the\nmore you memorize, the more places you\n<br>\ncan fly to. Also, the mysterious stone\nmonuments in the fields and at the\nentrance of Dan Jon can be stored in\n<br>\nthe Zoomstone. The Zoomstone can be\nused from the \"item\" menu. Frequently\nvisited places are<emoji SpecialRight>You can also register it in your\nfavorites at"
+  },
+  "5144": {
+    "「カミの毛くるくるで　みつあみヒゲの老人が\n　上の町から　下りてきたよ。\n　ホッツィ親方の家に　行ったみたいだな。": "An old man with curly hair and a\nhoneycombed beard came down from the\ntown above. It looks like he went to\n<br>\nBoss Hottsi's house."
+  },
+  "5145": {
+    "「おお　<pc>か。\n　賢者ブロッゲンさまが　お待ちだぞ。\n　さあ　早く　親方の部屋へ。": "Oh, <pc>. Sage Broggen is\nwaiting for you. Quickly, go to your\nmaster's room."
+  },
+  "5146": {
+    "「さっき　えらく怒った女の人が\n　教会から飛びだしてきて\n　そのまま　どっか行っちゃったよ。\n<br>\n「目つきの悪い　ふたり組のドワーフも\n　うろうろしてたし……。\n　この町も　ガラが悪くなったなぁ。": "A few minutes ago, a very angry woman\njumped out from the Church and went\naway. I also saw two pairs of Dwarfs\n<br>\nwith bad eyes wandering around. This\ntown has become a bit of a joke,\nhasn't it?"
+  },
+  "33262": {
+    "扉は　かたく　閉ざされている。": "The door is tightly closed."
+  },
+  "5147": {
+    "「ホッツィ親方と　賢者ブロッゲンさまが\n　中に入っていったんだ。\n　なんでも　戒めの地に向かうとか……。\n<br>\n「もし　ふたりを追って　戒めの地に向かうなら\n　かがり火を頼りに　守人の部屋に行くんだ。\n　戒めの地は　あそこからしか行けないからな。\n<br>\n「ただ　守人の部屋から先は　危険だぜ。\n　上の町で　防具をそろえたりして\n　充分に　準備を整えてから　鉱山に入りな。": "Boss Hottsi and Sage Broggen went\ninside. They were going to the Cave of\nCounsel. If you want to follow them to\n<br>\nthe Cave of Counsel, go to the\nguardian's room by the bonfire. Cave\nof Counsel is only accessible from\n<br>\nthere. But it's not safe to go beyond\nthe guardian's room. You should go to\nthe upper town to prepare yourself\n<br>\nwith armor and other supplies before\nyou enter the mine."
+  },
+  "5148": {
+    "「カミの毛くるくるで　みつあみヒゲの老人が\n　上の町から　下りてきたよ。\n　ホッツィ親方の家に　行ったみたいだな。\n<br>\n「……えっ。もう　親方の家には　いないって？\n　そうか。ずいぶん　あわただしいんだなぁ。": "An old man with curly hair and a\nhoneycombed beard came down from the\ntown above. Looks like he went to Boss\n<br>\nHottsi's house. What? He's not at the\nboss's house anymore? I see. He must\nbe very busy."
+  },
+  "5149": {
+    "<attr><feel_happy_lv1><end_attr>「聞いたぞ　<pc>。\n　ブロッゲンさまから　指名されて\n　アクロニア鉱山の調査に　同行するんだって？\n<br>\n「これって　すごく名誉なことだぞ。\n　がんばってこいよ！": "<attr><feel_happy_lv1><end_attr>I heard <pc>. Broggen has\nasked you to accompany him on a survey\nof the Acronia Mine. That's quite an\n<br>\nhonor. Good luck with that!"
+  },
+  "5150": {
+    "「町を出ていったはずの　ムチェとブチャが\n　ルナナに　引き連れられて\n　アクロニア鉱山に　乗り込んでったぞ！\n<br>\n「ルナナのヤツときたら　女王さまみたいに\n　ムチェとブチャを　アゴで使ってたぜ。": "Mutch and Butch, who were supposed to\nhave left the town, were dragged into\nthe Acronia Mine by Lunana! Lunana was\n<br>\nusing Mutch and Butch like a queen."
+  },
+  "5151": {
+    "「気の強い女性も　嫌いじゃないけど\n　アレは　ないね……。\n<br>\n「アレっていうのは　もちろん\n　ルナナとかいう　わがまま娘のことさ。\n　あの娘は　怖い女だよ。オレの勘だけどね。": "I don't mind strong-willed women, but\nnot that one. By that, of course, I\nmean Lunana, the spoiled brat. She's a\n<br>\nscary woman. That's just my hunch."
+  },
+  "5153": {
+    "「ルナナも　ムチェも　ブチャも\n　親方も　ブロッゲンさまも　みんな\n　ひどく疲れた様子で　帰ってきたよ。\n<br>\n「いったい　アクロニア鉱山で\n　何が　あったんだろうな？": "Lunana, Mutch, Butch, the master, and\nBroggen all came back looking very\ntired. I wonder what happened at the\n<br>\nAcronia Mine?"
+  },
+  "5154": {
+    "「<pc>　見たかい！？\n　空が　真っ白にパアッと光って\n　上の町みたいに　明るくなったんだよ！\n<br>\n「心まで　あたたかくなるような……\n　そんな光だったねぇ。": "<pc> Did you see that! The\nsky lit up with a true white light and\nbecame as bright as the city above! It\n<br>\nwas the kind of light that makes you\nfeel warm inside."
+  },
+  "153957": {
+    "サポート仲間が　くわわりました。\n<br>\n『さくせん』コマンドの中に\n『サポートなかま』が　追加されました。": "support companion has been added.\nsupport companion\" was added to the\n\"Misc.\" command."
+  },
+  "5156": {
+    "「おお　<pc>　おかえり！\n　ブロッゲンさまと親方が　お待ちだぞ。\n　さあ　早く　部屋の中へ。": "Oh <pc> welcome back!\nBroggen-sama and the master are\nwaiting for you. Come on, quickly,\n<br>\ninto the room."
+  },
+  "5157": {
+    "「ここは　アグラニの町。\n　アクロニア鉱山からの恵みに　育まれた\n　採掘と　宝石細工の町だ。\n<br>\n「町の外は　ラニアッカ断層帯と呼ばれている。\n　北に抜けて　モガリム街道を進んでいけば\n　やがて　ガタラ原野に行けるぞ。\n<br>\n「ガタラ原野には　岳都ガタラという町がある。\n　アグラニよりも　大きな町で\n　大地の箱舟に乗れる　鉄道駅があるんだ。": "This is the Town of Agrani, a mining\nand lapidary town nurtured by the\nbounty of the Acronia Mine. The area\n<br>\noutside the town is called the\nRaniakka Fault Zone. If you continue\nnorth on Mogarim Highway, you will\n<br>\neventually reach Gatara Fields. In\nGatara Fields, there is a town called\nMount Gatara. It is a larger town than\n<br>\nAgrani and has a train station where\nyou can ride the Ark of the Earth."
+  },
+  "5159": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「その　一人前の証があれば\n　世界中で　ウデききと認めてもらえるはずだ。\n　これからの旅に　役立つだろう。\n<br>\n「ブロッゲンさまは　自分の使命を果たす前に\n　各地で　栄誉の勲章　キーエンブレムを集め\n　チカラを示せと　おっしゃっていたな。\n<br>\n「ドワーフの　<pc>の身体に　お前さんが\n　入っちまったのも　何かの縁なんだろう。\n　アイツの分まで　がんばってくれ！": "<attr><feel_happy_lv1><end_attr><turn_pc>With that Proof of Adulthood, you'll\nbe recognized around the world as a\nudeki. It will be useful for the\n<br>\njourney ahead. Broggen told you to\ncollect the Medal of Honor key emblems\nand show your strength before you go\n<br>\non your mission. It must be some kind\nof fate that you have been placed in\nDwarf's <pc> body. Good luck\n<br>\nto him!"
+  },
+  "5160": {
+    "<turn_pc>「なんだい　あんた？<bw_break>": "<turn_pc>Yes, you?<bw_break>"
+  },
+  "5161": {
+    "「アクロニア鉱山に　用があるのかい？<yesno><break>": "What do you want with the Acronia\nMine?<yesno><break>"
+  },
+  "5162": {
+    "「おお　そうか。\n　オレは　この鉱山の親方をやってる\n　ホッツィってもんだ。\n<br>\n「アクロニア鉱山に入るのは　かまわんが\n　中には　魔物もいる。\n　じゅうぶん　気をつけていくんだな。": "Oh, I see. My name is Hottsi, and I'm\nthe master of this mine. You are\nwelcome to enter the Acronia Mine, but\n<br>\nthere are monsters inside. Be very\ncareful."
+  },
+  "44815": {
+    "「ふむ……。\n　じゃあ　あんたも　あの事件について\n　聞きにきたんだな？\n<br>\n「あれは……　考えさせられる出来事だった。\n　欲にまみれた　ドワーフの魂が\n　あんな　バケモノになるなんてな。\n<br>\n「死してなお　さまよい続けるなんて\n　オレは　ゴメンだ。あんたも\n　欲をかきすぎないよう　気をつけなよ。": "Hmm. So you're here to ask about the\nincident, too? That was a thought-\nprovoking incident. How could the soul\n<br>\nof a greedy Dwarf become such a\nmonster? I don't want to continue\nwandering around even after death. You\n<br>\nshould be careful not to be too\ngreedy."
+  },
+  "5163": {
+    "「鉱石が採れる量にゃ　波があるもんだ。\n　欲に走らず　戒めを守っている限り\n　山神さまが　オレたちを見捨てることはない。\n<br>\n「オレは　今　ビンビン感じてるぜ。\n　もうすぐ　鉱石が　たんまり採れる\n　大波が　来るんじゃないかってな！": "The amount of ore that can be\nextracted comes in waves. As long as\nwe keep the commandments and don't get\n<br>\ngreedy, the mountain gods will never\nabandon us. I'm feeling it right now.\nI have a strong feeling that there\n<br>\nwill be a big wave of abundant ore\nproduction soon!"
+  },
+  "33233": {
+    "<attr><feel_sad_lv1><end_attr><start_lip_sync n00511 _normal m00001>「なんで　そんなこと言うの～？\n　おにいちゃんの　いじわる～。": "<attr><feel_sad_lv1><end_attr><start_lip_sync n00511 _normal m00001>Why are you saying that~? You're so\nmean to me, Onii-chan."
+  },
+  "5166": {
+    "<attr><feel_happy_lv1><end_attr>「戒めの地で　バケモノに襲われたとき\n　<pc>のおかげで　助かったって\n　賢者ブロッゲンさまが言ってただ。\n<br>\n「あの賢者さまに　感謝されるなんて\n　やっぱ　<pc>は　すげえんだなあ……。\n<br>\n「オメエは　こんな町に　とどまるヤツじゃねえ。\n　オラ　応援するよォ！\n　世界に　羽ばたいてくれ　<pc>！！": "<attr><feel_happy_lv1><end_attr>Sage Broggen told me that\n<pc> saved his life when he\nwas attacked by a monster in Cave of\n<br>\nCounsel. To be thanked by Sage\nBroggen, <pc> must be\namazing. You don't belong in a town\n<br>\nlike this. I'll be rooting for you!\nSpread your wings to the world\n<pc>!"
+  },
+  "5167": {
+    "<attr><feel_happy_lv1><end_attr>「ちょっと前はな　アクロニア鉱山に\n　変な紫の霧が出たり　バケモノが出たりして\n　大変なことに　なってたんだ。\n<br>\n「でも　今は　すっかり平和さ。\n　採掘も　できるようになったしなあ。": "<attr><feel_happy_lv1><end_attr>A while ago, the Acronia Mine was in\ntrouble because of the weird purple\nfog and the monsters. But now it's\n<br>\ncompletely peaceful. We can do some\nmining now."
+  },
+  "5168": {
+    "「かつて　この町には　強欲な者が多くての。\n　おいしい話を聞くと飛びついて　自分だけが\n　得をしようとする者ばかりだったのじゃ。\n<br>\n「アクロニア鉱山の宝石を　奪い合った者が\n　怨霊となってしまった事件は\n　まさに　その強欲さが生んだ　悲劇じゃった。\n<br>\n「二度と　その過ちを繰り返さぬよう\n　わしらは　あの地を　山神さまに捧げ\n　欲に走らぬよう　自らを戒めておるのじゃよ。": "There used to be many greedy people in\nthis town. Whenever they heard of a\ngood deal, they would jump on it and\n<br>\ntake advantage of it for themselves.\nThe incident in which the robbers of\nthe Acronia Mine's jewelry turned into\n<br>\na grudge was a tragedy of such greed.\nTo prevent that mistake from happening\nagain, we dedicate the land to the\n<br>\nmountain god and remind ourselves not\nto be greedy."
+  },
+  "5169": {
+    "<attr><feel_sad_one><end_attr>「ルナナさん　出ていかれたんです。\n　もう　二度と戻らないって……。<bw_break>": "<attr><feel_sad_one><end_attr>Lunana left. She said she would never\ncome back.<bw_break>"
+  },
+  "5170": {
+    "<attr><feel_happy_lv1><end_attr><start_lip_sync n00510 _normal m00001><start_lip_sync n00511 _normal m00001><stop_lip_animation n00511 CLOSE_MOUTH>「なあ　ココン。お前　いっつも\n　母ちゃんの分まで　ご飯食べてるだろ。\n<br>\n「よくばって　人の分まで食ってると\n　ルナナみたいな女に　なっちゃうんだぞ！": "<attr><feel_happy_lv1><end_attr><start_lip_sync n00510 _normal m00001><start_lip_sync n00511 _normal m00001><stop_lip_animation n00511 CLOSE_MOUTH>Hey Kokon, you always eat enough for\nMom, don't you? If you eat for others,\nyou'll become a woman like Lunana!"
+  },
+  "5171": {
+    "「<pc>　旅に出るんだって？\n　お前は　まじめに　仕事を手伝ってくれたけど\n　まだ　見習いだったしな。\n<br>\n「世界を見てまわるのも　いいと思うよ。\n　アクロニア鉱山が　恋しくなったら\n　いつでも帰ってこい。": "<pc> I hear you're going on a\ntrip? You've been helping me out\ndiligently, but you're still an\n<br>\napprentice. It's good to see the world\nand spin. If you ever miss Acronia\nMine, come back anytime."
+  },
+  "33266": {
+    "<attr><feel_happy_lv1><end_attr>「この先は　かつて　宝と夢の山と言われた\n　アクロニア鉱山……　オレたちの仕事場さ！\n<br>\n「今日こそ　いい石が採れるかなあ。\n　さあ　はりきって　仕事行くか～！": "<attr><feel_happy_lv1><end_attr>Acronia Mine, once known as the\nmountain of treasure and dreams, is\nwhere we work! Let's see if we can get\n<br>\nsome good stones today. Let's go to\nwork!"
+  },
+  "5172": {
+    "<attr><feel_happy_lv2><end_attr>「<pc>　見たかい！？\n　空が　真っ白にパアッと光って\n　上の町みたいに　明るくなったんだよ！\n<br>\n「心まで　あたたかくなるような……\n　そんな光だったねぇ。": "<attr><feel_happy_lv2><end_attr><pc> Did you see that! The\nsky lit up with a true white light and\nbecame as bright as the city above! It\n<br>\nwas the kind of light that makes you\nfeel warm inside."
+  },
+  "5173": {
+    "<attr><feel_happy_lv1><end_attr>「ここは　鉱山で採掘する者たちの町だよ。\n　ほら　アクロニア鉱山の入り口が　近いだろ？\n　だから　とても便利なのさ！": "<attr><feel_happy_lv1><end_attr>This is the town of the miners. See\nthe entrance to Acronia Mine is close\nby? So it's very convenient!"
+  },
+  "33246": {
+    "「この世界には　ドワーフ　オーガ\n　ウェディ　プクリポ　エルフ　人間と\n　さまざまな種族が　住んでいます。\n<br>\n「私たちドワーフは　その中で\n　いちばん　高度な文明を築くチカラを\n　持っていたのですよ。\n<br>\n「……ええ　持っていたのです。\n　今となっては　その高度な技術力も\n　失われてしまったのですがね。": "This world is inhabited by Dwarf Ogre\nWeddie Pukulipo Elf human and various\nraces. We Dwarfs had the power to\n<br>\nbuild the most advanced civilization\namong them. Yes, we did. But now, we\nhave lost that advanced technology."
+  },
+  "5178": {
+    "「旅立つ　お前さんに　忠告してやろう。\n<br>\n「いいか。あの　ルナナとかいう小娘だけには\n　気をつけるんだぞ！\n<br>\n「今まで　何度も　女に痛い目にあわされた\n　おじさんの忠告だ。\n　胸に　きざんでおくんだな。": "Let me give you some advice on your\ndeparture. Listen up. Be careful with\nthat Lunana chick! That's the advice\n<br>\nof an uncle who's been hurt many times\nby women in his life. Keep it close to\nyour heart."
+  },
+  "5179": {
+    "「この町の教会に　すっげー高飛車で\n　イヤな感じの　人間の小娘がいてな。\n<br>\n「聞いたところによると　そいつのせいで\n　アクロニア鉱山に　バケモノが出たらしいんだ。\n<br>\n「もう　アグラニから　出ていったんだが\n　あんたも　ルナナって女を見かけたら\n　気をつけたほうがいいぜ！": "There's a very high spirited and\nobnoxious little human girl at the\nChurch in this town. I heard that\n<br>\nshe's the reason why the Acronia Mine\nis haunted. She's already left Agrani,\nbut you should be careful if you see\n<br>\nLunana!"
+  },
+  "5180": {
+    "「賢者ブロッゲンさまから　話は聞いたよ。\n　アクロニア鉱山は　もう大丈夫だって。\n<br>\n「<pc>の　おかげだそうだな……。\n　本当に　ありがとうな。": "I heard from Sage Broggen. Acronia\nMine is safe now. Thanks to\n<pc>. Thank you so much."
+  },
+  "5181": {
+    "「ここは　ホッツィ親方の家。\n　アクロニア鉱山の問題も片付き\n　採掘も　ようやく再開した。\n<br>\n「アクロニア鉱山に　入りたいなら\n　ひと言　親方に　あいさつしてゆくといい。": "This is Boss Hottsi's house. The\nproblems at the Acronia Mine have been\nresolved and mining has finally\n<br>\nresumed. If you want to enter the\nAcronia Mine, just say hello to the\nmaster."
+  },
+  "5182": {
+    "「何か知らないけど　下の町の者たちが\n　活気づいてるようだねえ。\n<br>\n「こりゃ　いい宝石が　出る日も近いな。\n　もうしばらく　ここで吉報を待つか。": "I don't know what it is, but it looks\nlike the folks down town are coming\nalive. I guess the day is near when a\n<br>\nnice gem will appear. Let's stay here\nfor a while longer and wait for good\nnews."
+  },
+  "5183": {
+    "<attr><feel_happy_lv1><end_attr>「あなたも　宝飾品目当てで　アグラニに？\n　私なんてねえ　もう　何年も前から\n　ここに通ってるんですよ！\n<br>\n「良質の宝石と　この町の職人が持つ\n　最高の細工技術を　組み合わせた宝飾品は\n　まさに　芸術ですからね。": "<attr><feel_happy_lv1><end_attr>You come to Agrani for jewelry too? I\nhave been coming here for many years\nnow! The combination of fine gemstones\n<br>\nand the best craftsmanship of the\nartisans of this town makes jewelry a\ntrue work of art."
+  },
+  "5184": {
+    "<attr><feel_happy_lv2><end_attr>「あんただね　<pc>というのは。\n　アクロニア鉱山を復活させた\n　立役者だと聞いてるよ。\n<br>\n「ありがとう　ありがとう！\n　これで　きっと　宝石も採れるようになる。\n　また　いい細工を作ってみせるよ！": "<attr><feel_happy_lv2><end_attr>You must be <pc>. I hear you\nwere instrumental in bringing Acronia\nMine back to life. Thank you, thank\n<br>\nyou! I'm sure you'll be able to pick\nup some gems now. I'll make some more\ngood crafts!"
+  },
+  "5185": {
+    "<attr><feel_happy_lv1><end_attr>「わしは　宝石に　最高の細工をほどこす\n　アグラニいちばんの職人さ。\n<br>\n「アクロニア鉱山から採れる宝石は\n　山神さまからの　お恵みだ。\n　心を込めて　細工しないとな！": "<attr><feel_happy_lv1><end_attr>I am Agrani's best artisan, crafting\nthe finest gemstones. The gems from\nthe Acronia Mine are a blessing from\n<br>\nthe mountain gods. I must put my heart\nand soul into my work!"
+  },
+  "5186": {
+    "「あたしには　山神さまの声が聞こえたんだ。\n　もう　大丈夫だって。\n<br>\n「これからは　きっと　昔のように\n　鉱石も　宝石も　採れるようになるはずさ。\n　あたしも　がんばるよ！": "I heard the voice of the mountain god.\nI heard the voice of the mountain god\ntelling me that everything would be\n<br>\nall right. From now on, I'm sure we'll\nbe able to extract ores and gems like\nin the old days. I'll do my best!"
+  },
+  "5187": {
+    "「決して　欲ばらず　山神イプチャルさまに\n　敬意を払って　鉱山に入れば　きっと\n　山神さまからの　お恵みがあるはずさ。\n<br>\n「意地きたなく　他者と争ったりもしない。\n　むずかしいけど　そこが大事なんだよ。": "If you enter the mine without greed\nand with respect to Yppchal, the\nmountain god, you will surely receive\n<br>\nblessings from him. Do not be stubborn\nand do not fight with others. It's\ndifficult, but that's the important\n<br>\nthing."
+  },
+  "33257": {
+    "「アグラニの者は　ちっとばかり　強欲での。\n　以前は　鉱石や宝石を買いつけにくる商人と\n　トラブルが　絶えなかったんじゃ。\n<br>\n「だが　ホルタ神父が来てからは　変わった。\n　あの人は　わしらの技術を高く評価し\n　商人との仲介役を　買ってでてくれたのじゃ。\n<br>\n「いつも　いがみあっていた　わしらと\n　商人の間に　信頼関係が生まれ\n　おかげで　町も大きくなった。\n<br>\n「ホルタ神父は　ほんに　いい人間じゃったよ。\n　はやり病で　ポックリいってしまったが\n　もっと　長生きしてほしかったのう。": "The Agrani are a bit greedy. We used\nto have a lot of trouble with the\nmerchants who came to buy our ores and\n<br>\ngems. But that changed after Father\nHolta arrived. He appreciated our\nskills and acted as an intermediary\n<br>\nbetween us and the merchants. Thanks\nto this relationship of trust between\nus and the merchants, which had always\n<br>\nbeen a source of quarrels between us,\nthe town grew. Father Holta was a very\ngood man. I wish he had lived longer."
+  },
+  "5194": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「よく訪ねてきてくれた　<pc>。\n　お前さんには　あらためて\n　礼を言わなくてはと　思っていたんだ。<bw_break>": "<attr><feel_happy_lv1><end_attr><turn_pc>Thanks for visiting me <pc>.\nI had to thank you again.<bw_break>"
+  },
+  "5195": {
+    "<attr><feel_happy_lv1><end_attr>「あれから　また鉱石が採れるようになり\n　みんな　はりきって　仕事に打ち込んでいる。\n　お前さんの活躍が　あってこそだ。ありがとう。\n<br>\n「<pc>も　見ちがえるように\n　立派になったな！<yesno><break>": "<attr><feel_happy_lv1><end_attr>Since then, ore has been extracted\nagain, and everyone is working hard.\nIt is only because of your efforts.\n<br>\nThank you very much. <pc> has\nbecome more splendid than ever!<yesno><break>"
+  },
+  "5196": {
+    "<attr><feel_think_lv1><end_attr>「……なに？　本当に　見た目も変わって\n　今は　人間になっているだと！？\n<br>\n「……………？\n<br>\n「う～む。どれだけ　目を凝らしてみても\n　いつもの　<pc>にしか見えんが……。\n　旅先で　そんなジョークを身につけたのか。": "<attr><feel_think_lv1><end_attr>What? You've really changed your look\nand now you're human? What? Hmmm. No\nmatter how hard I look at it, it just\n<br>\nlooks like the usual <pc>.\nDid you learn that joke in your\ntravels?"
+  },
+  "5197": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>は　つつましいな。\n　さすが　キーエンブレムを贈られるだけある。\n　中身も立派に　成長してるんだな！": "<attr><feel_happy_lv1><end_attr><pc> is a very good person.\nAs one would expect from someone who\nis presented with a key emblem. You've\n<br>\ngrown up inside as well!"
+  },
+  "5198": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「よく訪ねてきてくれた　<pc>。\n　お前さんには　あらためて\n　礼を言わなくてはと　思っていたんだ。\n<br>\n「あれから　また鉱石が採れるようになり\n　みんな　はりきって　仕事に打ち込んでいる。\n　<pc>の　おかげだ。ありがとう。\n<br>\n「お前さんも　ずいぶん成長したな！\n　キーエンブレムまで　もらうようになるとは\n　本当に　たいしたものだ。": "<attr><feel_happy_lv1><end_attr><turn_pc>Thanks for visiting me <pc>.\nI had to thank you again. Since then,\nthe ore has been extracted again, and\n<br>\neveryone is working hard. Thanks to\n<pc>. Thank you. You have\ngrown up a lot! You even got a key\n<br>\nemblem, that's quite a feat!"
+  },
+  "5201": {
+    "「おかえり　<pc>！\n　もう　みんなから　話を聞いたと思うけど\n　鉱山から　いい石が採れるようになっただよ！": "Welcome back <pc>! I'm sure\nyou've all heard by now that we've got\nsome good rock from the mine!"
+  },
+  "5202": {
+    "「オラ　<pc>に会えたら\n　これを　あげようって……。": "He said he would give this to Ora\n<pc> if he saw her."
+  },
+  "33267": {
+    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sev_item>!<se_nots System Item>"
+  },
+  "33268": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>が　旅立った後\n　はじめて採れた　いい石なんだ。うれしくてよォ\n　オメエに　もらってもらいたかったんだァ。": "<attr><feel_happy_lv1><end_attr>It's the first good stone I found\nafter <pc> left. I was so\nhappy, I wanted you to have it."
+  },
+  "33269": {
+    "「オラ　<pc>に会えたら\n　これをあげようって　決めてたんだけんど……\n<br>\n「オメエ　持ち物が　いっぺえのようだなァ。\n　せっかく　<pc>にも　いい鉱石を\n　おすそわけしようと　思ってたのによォ。": "I was going to give this to\n<pc> when I saw him, but you\nseem to have a lot of stuff with you.\n<br>\nI was going to give you a nice ore to\ngive to <pc> too."
+  },
+  "33270": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>　いつでも　帰ってきてくれよォ。\n　オメエの顔が見られると　うれしいんだ。\n<br>\n「会うたびに　<pc>が\n　すっごく　成長してるのが　わかるから\n　オラも　がんばろうって思うんだァ。": "<attr><feel_happy_lv1><end_attr><pc> Please come back\nanytime. It makes me happy to see your\nface. Every time I see you, I can see\n<br>\nthat <pc> has grown up so\nmuch, and it makes me want to do my\nbest too."
+  },
+  "5203": {
+    "「いよお　<pc>　ひさしぶりだな！\n　アクロニア鉱山が　恋しくなったのか？\n<br>\n「こっちは　相変わらず　鉱山にもぐる日々だ。\n　こう変化がないと　旅に出た　お前が\n　うらやましく思えてくるよ。": "Hello <pc> It's been a while!\nYou miss Acronia Mine? I'm still\nhiding in mine as usual. I'm envious\n<br>\nof you for going on a trip like this."
+  },
+  "5204": {
+    "「オレたちは　この先のアクロニア鉱山で\n　採掘をしながら　生計を立てているんだ。\n<br>\n「だが　毎日　鉱山にもぐってると\n　あんたみたいに　自由に世界を旅してる人が\n　うらやましく思えてくるよ。": "We make our living by mining in the\nAcronia Mine down the road. But every\nday I spend in the mine, I envy those\n<br>\nwho travel the world as freely as you\ndo."
+  },
+  "5205": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>　元気そうだねえ！\n　なんだか　立派になったよ。\n　まあ　キーエンブレムまで　もらったのかい！？\n<br>\n「あんたは昔っから　キラリと光ってて\n　私たちとは　どこか　ちがってたよ。\n　やっぱり　すごい人だったんだねえ！": "<attr><feel_happy_lv1><end_attr><pc> You look good! You're\nlooking great! Did you even get a key\nemblem? You've always had that Kirari\n<br>\nglow about you, so different from the\nrest of us. You must have been an\namazing person after all!"
+  },
+  "5208": {
+    "「アグラニは　あれ以来　ずっと平和だよ。\n　ルナナって小娘も　帰ってこないしね！\n<br>\n「<pc>みたいに　世界を旅していたら\n　どこかで　バッタリなんてこともあったりして！\n　……考えただけで　恐ろしいよ。": "Agrani has been peaceful ever since.\nAnd that little girl Lunana hasn't\ncome back either! I wonder if I'll\n<br>\nbump into her somewhere when I'm\ntraveling around the world like\n<pc>! Just thinking about it\n<br>\nis terrifying."
+  },
+  "5209": {
+    "<attr><feel_happy_lv2><end_attr>「<pc>じゃないか！\n　アグラニも　ずいぶん\n　雰囲気が　変わっただろう？\n<br>\n「アクロニア鉱山の　異常がなくなって\n　以前のような暮らしに　戻ったんだ。\n　<pc>の　おかげだよ。ありがとう！": "<attr><feel_happy_lv2><end_attr><pc>, isn't it? Agrani has\nchanged a lot, hasn't it? The Acronia\nMine has been cleared of its anomalies\n<br>\nand life has returned to the way it\nused to be. Thanks to <pc>.\nThank you!"
+  },
+  "5210": {
+    "「あなた　以前　下の町にいたでしょ？\n　今は　ちゃんと　鉱石が採れるし\n　たまに　いい宝石も出るようになったんだよ！\n<br>\n「惜しいことしたねえ。\n　ずっと　ここで採掘してれば\n　小金持ちに　なれたかもしれないのに。": "You used to live down town, didn't\nyou? Now you can get ore and sometimes\ngood gems! What a pity. You could have\n<br>\nbeen a millionaire if you'd just\nstayed here."
+  },
+  "5211": {
+    "<attr><feel_happy_lv2><end_attr>「よお　<pc>！\n　おかげで　すこしずつ　宝石も採れるように\n　なってきたんだよ。\n<br>\n「ありがとう　ありがとう！\n　この気持ちを忘れずに　いつか\n　世界最高の細工ができるように　精進するよ！": "<attr><feel_happy_lv2><end_attr>Hey <pc>! Thanks to you, I've\nbeen able to pick a few gems. Thanks a\nlot! I'll never forget this feeling,\n<br>\nand I'll work hard so that one day I\ncan make the best gems in the world!"
+  },
+  "5213": {
+    "<attr><feel_happy_lv1><end_attr>「山神イプチャルさまの　おチカラが\n　回復してきたみたいだね。\n　アクロニア鉱山が　生き返ったようだよ。\n<br>\n「すこしずつ　生活も　ラクになってきた。\n　これも　<pc>と\n　賢者ブロッゲンさまの　おかげだね。": "<attr><feel_happy_lv1><end_attr>It seems that the power of Yppchal,\nthe mountain god, has been restored.\nAcronia Mine seems to have come back\n<br>\nto life. Life is getting a little\neasier. Thanks to <pc> and\nSage Broggen."
+  },
+  "5217": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「よく訪ねてきてくれた　<pc>。\n　お前さんの顔を見れば　わかる！\n　ついに　使命を果たしたんだな。\n<br>\n「お前さんに　身体をゆずった　ドワーフの\n　<pc>も　よろこんでいるだろう。\n　ありがとう　<pc>！": "<attr><feel_happy_lv1><end_attr><turn_pc>You used to visit me <pc>. I\ncan see it in your face! You have\nfinally accomplished your mission.\n<br>\nDwarf <pc> must be pleased\nto have given you his body. Thank you\n<pc>!"
+  },
+  "5221": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>　元気そうだねえ！\n　なんだか　立派になったよ。\n　ええっ！！　世界を救ったってのかい！？\n<br>\n「あんたは昔っから　キラリと光ってて\n　私たちとは　どこか　ちがってたよ。\n　やっぱり　すごい人だったんだねえ！": "<attr><feel_happy_lv1><end_attr><pc> You look good! You look\nkind of splendid. What? You saved the\nworld! You've always been shining with\n<br>\nKirari, so different from the rest of\nus. You must have been an amazing\nperson after all!"
+  },
+  "70271": {
+    "<attr><feel_happy_lv1><end_attr>「ボクは　カメラ小僧の　ジロチャ。\n　写真機で　思わず笑っちゃうような\n　面白い写真を撮るのが　ボクの趣味なんだ！": "<attr><feel_happy_lv1><end_attr>I'm Jirocha, a Frizz kid, and my hobby\nis to make funny Take a Picture that\nmakes you laugh out loud with a photo\n<br>\nmachine!"
+  }
+}

@@ -1,0 +1,1115 @@
+{
+  "200234": {
+    "「あらーと　あらーと。\n　ウルベア帝国城ヘ　入ルニハ\n　入城許可証ガ　必要ダ！": "Oh, no, oh, no, oh, no. You need an\nEntry Permit to enter Urbea Empire\nCastle!"
+  },
+  "200236": {
+    "「ここは　神聖なる祈りの場。\n　どうぞ　静粛に　お願いいたします。": "This is a place of Divine Care Prayer.\nPlease be quiet."
+  },
+  "200237": {
+    "「あなたも　ウッツァ神父と\n　めんこバトルをしに　いらしたのでしょう？\n　ひとつ　耳寄りな情報があるんです……。\n<br>\n「……ウッツァ神父は　めんこバトルの\n　初心者が相手だと　いつも同じ順番で\n　めんこを　くりだすのですよ。\n<br>\n「最初に出す　めんこは\n　たしか　銅だったような……？": "I assume you are here to play\npogbattle with Father Uzza. I have an\ninteresting piece of information.\n<br>\nWhenever Father Uzza plays against a\nbeginner in a pogbattle, he always\nplays pogs in the same order. The\n<br>\nfirst pog he gives out is a copper\npog, I think."
+  },
+  "200238": {
+    "「ウルベア地下帝国における　教会とは\n　役所として　行政を取り扱う場でもあります。\n　神父様は　町長みたいなものですね。": "In Urbea Underground City, the Church\nis also a government office that\nhandles administrative matters. The\n<br>\npriest is like the mayor of the town."
+  },
+  "200239": {
+    "「よくぞ参った　旅の者よ。\n　何か　お困りかな？<yesno><case 1><close><case 2><break><case_cancel><break><case_end>": "Welcome, my fellow traveler. What can\nI do for you?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>"
+  },
+  "200240": {
+    "「もし　困ったことがあれば\n　いつでも　訪ねてきなさい。では……<bw_break>": "If you have any trouble, come visit me\nanytime. Well then...<bw_break>"
+  },
+  "200241": {
+    "<attr><feel_angry_one><end_attr><icon_exc>「……なるほど。この国の事情に\n　通じている人物を　探していたら\n　私に　たどり着いたわけだね。\n<br>\n「私は　ウッツァ神父。\n　だが　教会の神父とは　世を忍ぶ仮の姿……。\n<br>\n「その正体は　情熱のめんこバトラー！\n　ウルベア地下帝国について　知りたいならば\n　ウルベアめんこバトルで　私に勝利してみせよ！<bw_break>": "<attr><feel_angry_one><end_attr><icon_exc>I see. So you were looking for someone\nwith knowledge of the affairs of this\ncountry and you found me. I am Father\n<br>\nUzza, but I am not a priest of the\nChurch. In reality, I am a passionate\npog butler! If you want to know more\n<br>\nabout the Urbea Underground City, you\nwill win me in the Urbeapogbattle!<bw_break>"
+  },
+  "200242": {
+    "<attr><feel_angry_one><end_attr>「私は　情熱のめんこバトラー！\n　ウルベア地下帝国について　知りたいならば\n　ウルベアめんこバトルで　私に勝利してみせよ！<bw_break>": "<attr><feel_angry_one><end_attr>I am a passionate pogbutler! If you\nwant to know more about the Urbea\nUnderground City, you can win me in\n<br>\nthe Urbeapogbattle!<bw_break>"
+  },
+  "200243": {
+    "「……むっ？　ウルベアめんこが　足りないぞ。\n　金・銀・銅の３種類を　ひとつずつ\n　どうぐかばんに入れてから　声をかけたまえ。": "Hmm? You are short of Urbeapog. Put\none each of gold, silver and bronze in\nyour item bag and call out to me."
+  },
+  "200244": {
+    "<attr><feel_angry_one><end_attr>「ウルベアめんこバトルの　ルールは簡単だ。 \n　お互いに　ひとつずつのめんこを\n　同時に出して　ぶつけあう。\n<br>\n「金のめんこは　銀のめんこに　強い。\n　銀のめんこは　銅のめんこに　強い。\n　そして　銅のめんこは　金のめんこに　強い！\n<br>\n「このように　三すくみで勝敗を決めるのだ。\n　これから　私との３回勝負に　全勝してみせよ。\n　引き分けでは　勝利にならないぞ。<bw_break>": "<attr><feel_angry_one><end_attr>The rules of Urbeapogbattle are\nsimple.Players play one pog at a time\nagainst each other. A gold pog is\n<br>\nstronger than a silver pog. The silver\npog is strong against the copper pog.\nAnd the copper pog is strong against\n<br>\nthe gold pog! In this way, the winner\nis decided by the three pogs. From now\non, you must win all three of your\n<br>\ngames against me. A draw is not a\nvictory.<bw_break>"
+  },
+  "200245": {
+    "<attr><feel_angry_one><end_attr>「では　ウルベアめんこ　１回戦……\n　ゴーッ！　ファイッ！！\n<select_nc>\n金のめんこを出す\n銀のめんこを出す\n銅のめんこを出す\nルール説明を聞く\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_angry_one><end_attr>Now, Urbeapog 1st round go! Fyah!\n<select_nc>\nput out a gold pog\nProduce a silver pog\nProduce a bronze pog\nRules Explanation\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "200246": {
+    "<icon_exc>「……残念ッ。\n　私がくりだした　銅のめんこに\n　金のめんこを出した　君の敗北だ。<se Joutyu_SE 35><bw_break>": "<icon_exc>Too bad. You lost when you played the\ngold pog against the copper pog I\nplayed.<se Joutyu_SE 35><bw_break>"
+  },
+  "200247": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>「……見事ッ。\n　私がくりだした　銅のめんこに\n　銀のめんこを出した　君の勝利だ。<se System 7><bw_break>": "<attr><feel_happy_lv2><end_attr><icon_exc>Brilliant. You won by hitting a silver\npog to my copper pog.<se System 7><bw_break>"
+  },
+  "200248": {
+    "<icon_exc>「……両者　銅のめんこを出して　引き分けだ。\n　引き分けは　勝利ではない。残念ッ！<se Joutyu_SE 35><bw_break>": "<icon_exc>Both sides produce a copper pog and\nit's a tie. A tie is not a victory.\nToo bad!<se Joutyu_SE 35><bw_break>"
+  },
+  "200249": {
+    "「もう一度　ルール説明を　確認するのだな？\n　よい　心がけだぞ！\n　ルールあってこその　真剣勝負だからな。\n<br>\n「めんこバトルのルールは簡単だ。 \n　お互いに　ひとつずつのめんこを\n　同時に出して　ぶつけあう。\n<br>\n「金のめんこは　銀のめんこに　強い。\n　銀のめんこは　銅のめんこに　強い。\n　そして　銅のめんこは　金のめんこに　強い！\n<br>\n「このように　三すくみで勝敗を決めるのだ。\n　これから　私との３回勝負に　全勝してみせよ。\n　引き分けでは　勝利にならないぞ。<bw_break>": "You're going to go over the rules one\nmore time, aren't you? That's a good\nattitude! The rules are what true\n<br>\nswordfighting is all about. The rules\nof pogbattle are simple.You play one\npog at a time and hit each other. The\n<br>\ngold pog is stronger than the silver\npog. The silver pog is strong against\nthe copper pog. And the copper pog is\n<br>\nstrong against the gold pog! In this\nway, the winner is decided by the\nthree pogs. From now on, you must win\n<br>\nall three of your games against me. A\ndraw is not a victory.<bw_break>"
+  },
+  "200250": {
+    "<attr><feel_angry_one><end_attr>「では　ウルベアめんこ　２回戦……\n　ゴーッ！　ファイッ！！\n<select_nc>\n金のめんこを出す\n銀のめんこを出す\n銅のめんこを出す\nルール説明を聞く\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_angry_one><end_attr>Now, Urbeapog 2nd round go! Fyah!\n<select_nc>\nput out a gold pog\nProduce a silver pog\nProduce a bronze pog\nRules Explanation\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "200251": {
+    "<icon_exc>「……両者　金のめんこを出して　引き分けだ。\n　引き分けは　勝利ではない。残念ッ！<se Joutyu_SE 35><bw_break>": "<icon_exc>Both sides put out a golden pog, and\nit's a tie. A tie is not a victory.\nToo bad!<se Joutyu_SE 35><bw_break>"
+  },
+  "200252": {
+    "<icon_exc>「……残念ッ。\n　私がくりだした　金のめんこに\n　銀のめんこを出した　君の敗北だ。<se Joutyu_SE 35><bw_break>": "<icon_exc>What a pity. You lost.<se Joutyu_SE 35><bw_break>"
+  },
+  "200253": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>「……見事ッ。\n　私がくりだした　金のめんこに\n　銅のめんこを出した　君の勝利だ。<se System 7><bw_break>": "<attr><feel_happy_lv2><end_attr><icon_exc>Brilliant. You won by hitting a copper\npog to the gold pog that I had thrown\nout.<se System 7><bw_break>"
+  },
+  "200254": {
+    "<attr><feel_angry_one><end_attr>「泣いても笑っても　次が　最後だッ。\n　ラストバトル……かかってこいッ！\n　ゴーッ！　ファイッ！！\n<select_nc>\n金のめんこを出す\n銀のめんこを出す\n銅のめんこを出す\nルール説明を聞く\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_angry_one><end_attr>Whether you cry or laugh, the next one\nwill be your last. Last battle! Go!\nFight!\n<select_nc>\nput out a gold pog\nProduce a silver pog\nProduce a bronze pog\nRules Explanation\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "200255": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>「……見事ッ。\n　私がくりだした　銀のめんこに\n　金のめんこを出した　君の勝利だ。<me 71><bw_break>": "<attr><feel_happy_lv2><end_attr><icon_exc>Brilliant. You won by hitting a gold\npog to my silver pog.<me 71><bw_break>"
+  },
+  "200256": {
+    "<icon_exc>「……両者　銀のめんこを出して　引き分けだ。\n　引き分けは　勝利ではない。残念ッ！<se Joutyu_SE 35><bw_break>": "<icon_exc>Both sides roll out the silver pog,\nand it's a tie. A tie is not a\nvictory. Too bad!<se Joutyu_SE 35><bw_break>"
+  },
+  "200257": {
+    "<icon_exc>「……残念ッ。\n　私がくりだした　銀のめんこに\n　銅のめんこを出した　君の敗北だ。<se Joutyu_SE 35><bw_break>": "<icon_exc>Too bad. You lost. I made a silver\npog, and you made a bronze pog.<se Joutyu_SE 35><bw_break>"
+  },
+  "200258": {
+    "<attr><feel_happy_lv1><end_attr>「おお……よくぞ　３連戦を勝ち抜いた！\n　君は　なかなかスジがいいぞ！\n　まるで　在りし日の　ジャ・クバ陛下のようだ！\n<br>\n「……コホン。今の発言は　忘れるように。\n　さて　この私に　何を聞きたいのかね？": "<attr><feel_happy_lv1><end_attr>Well done on winning three in a row!\nYou're pretty good, you know that?\nYou're like the Ja Kuba of old! Cough,\n<br>\ncough, forget I said that. Now, what\ndo you want to ask me?"
+  },
+  "200259": {
+    "<attr><feel_angry_lv1><end_attr>「ウルベア地下帝国について　教えてほしい？\n　んまー！　それどころじゃないザマス！\n　銀のウルベアめんこが　見当たらないザマス！\n<br>\n「この家のどこかに　必ずあるはずザマス。 \n　それか　あーた　どこかで調達してくるザマス！\n　話は　それからザマスよ！": "<attr><feel_angry_lv1><end_attr>Want to tell me about Urbea\nUnderground City? Oh no! I'm not\ninterested in that! I can't find the\n<br>\nsilver Urbeapog! I'm sure it's\nsomewhere in this house.Or I'm sure\nthere's a silver Urbeapog somewhere in\n<br>\nthe house! Then we'll talk about it!"
+  },
+  "200260": {
+    "<attr><feel_happy_lv1><end_attr>「ホホホ！　よくやったザマス！ \n　……どうやら　あーた　この帝都の雰囲気に\n　すっかり　飲まれているザマスね？\n<br>\n「まあ　無理もないザマス。\n　行き交う万能浮遊椅子　高速道路や\n　快適な空調設備　清潔な水道設備……。\n<br>\n「特に　宰相グルヤンラシュ様が\n　地脈エネルギーを　活用しはじめてから\n　あらゆる生活が　便利で快適になったザマス。\n<br>\n「あたくし　これから　大型反重力飛行装置で\n　遊覧飛行しながら　めんこでオールするザマス。\n　上流階級にだけ許された　ぜいたくザマス。\n<br>\n「徹夜めんこの話が　ウッツァ神父の耳に入ると\n　長いお説教をくらって　面倒ザマス。\n　ここだけの話に　しておくザマスよ……！": "<attr><feel_happy_lv1><end_attr>Hohoho! Well done, my friend!It seems\nthat you have been completely swept up\nin the atmosphere of the Imperial\n<br>\nCity, haven't you? Well, that's\nunderstandable. The universal floating\nchairs that come and go, the highways,\n<br>\nthe comfortable air-conditioning, the\nclean water supply. Especially since\nPrime Minister Guryan Rush started\n<br>\nutilizing geo-energy, life has become\nmore convenient and comfortable. I'm\ngoing to take a sightseeing flight in\n<br>\na large anti-gravity flying machine,\nand I'm going to do Oar with a pog.\nIt's a luxury reserved for the upper\n<br>\nclass. If Father Uzza hears about my\nall-night pog, he will give me a long\nlecture, and it will be troublesome.\n<br>\nI'll keep this between you and me!"
+  },
+  "200261": {
+    "「行き交う万能浮遊椅子　高速道路や\n　快適な空調設備　清潔な水道設備……。\n<br>\n「特に　宰相グルヤンラシュ様が\n　地脈エネルギーを　活用しはじめてから\n　あらゆる生活が　便利で快適になったザマス。\n<br>\n「あたくし　これから　大型反重力飛行装置で\n　遊覧飛行しながら　めんこでオールするザマス。\n　上流階級にだけ許された　ぜいたくザマス。\n<br>\n「徹夜めんこの話が　ウッツァ神父の耳に入ると\n　長いお説教をくらって　面倒ザマス。\n　ここだけの話に　しておくザマスよ……！": "The universal floating chairs that\ncome and go, the highways, the\ncomfortable air conditioning, the\n<br>\nclean water supply. Especially since\nPrime Minister Guryan Rush started to\nutilize geo-energy, every aspect of\n<br>\nlife has become convenient and\ncomfortable. I'm going to take a\nsightseeing flight in a large anti-\n<br>\ngravity flying machine, and I'm going\nto do Oar with a pog. It's a luxury\nreserved for the upper class. If\n<br>\nFather Uzza hears about my all-night\npog, he will give me a long lecture,\nand it will be troublesome. I'll keep\n<br>\nthis between you and me!"
+  },
+  "200262": {
+    "<attr><feel_happy_lv1><end_attr>「あらーん！　チャイチャさまーん！\n　私も　旅行に　連れてってーっ<heart>": "<attr><feel_happy_lv1><end_attr>Oh my! Oh my goodness! Take me on a\ntrip with you <heart>"
+  },
+  "200263": {
+    "<attr><feel_sad_one><end_attr>「こちらは　高級宝飾店でございます。\n　選りすぐりの鉱山から産出した　レアな鉱石を\n　ジュエラーの手で　一品ずつ加工しています。\n<br>\n「当店の商品は　ウルベアの富裕層にのみ\n　販売しておりますので　おそれいりますが\n　お客様には　早々に　お引き取り願います。": "<attr><feel_sad_one><end_attr>This is Luxury Jewelry Shop. Rare ores\nfrom selected mines are processed one\nby one by Juei Laer's hand. Our\n<br>\nproducts are sold only to the wealthy\npeople of Urbea, so we are sorry, but\nwe ask our customers to leave as soon\n<br>\nas possible."
+  },
+  "200264": {
+    "<attr><feel_happy_lv1><end_attr>「ねえちゃん　ねえちゃん。\n　そろそろ　あのポンコツ　くるかな？": "<attr><feel_happy_lv1><end_attr>Hey, hey, hey. Is that junk coming\nsoon?"
+  },
+  "200265": {
+    "<attr><feel_sad_lv1><end_attr>「クチうるさい妻と　６人の子供を養うために\n　朝から晩まで　製油工場で　はたらく毎日……\n　人生の楽しみは　ウルベアめんこだけさ。": "<attr><feel_sad_lv1><end_attr>To support my wife and six children, I\nwork from morning to night in an oil\nrefinery, and the only thing I enjoy\n<br>\nin life is Urbeapog."
+  },
+  "200266": {
+    "「ムッ。なんだキミは？\n　ウルベア地下帝国について　教えてほしい？\n　ええい　それどころじゃ　ないんだよ！\n<br>\n「クチうるさい妻と　６人の子供を養うために\n　朝から晩まで　製油工場で　はたらく毎日……\n　人生の楽しみは　ウルベアめんこだけ！\n<br>\n「それなのに　レアめんこを高値で買ったら\n　な　な　なんと！　スカルガルーに\n　盗まれちまったのさ！　くやしいー！！\n<br>\n「誰か　ガタラ大山林にいる　あいつを倒して\n　めんこを　取り戻してくれないかなあ。": "Mwah. What about you? You want to tell\nme about Urbea Underground City? Yes,\nthat's not the point! To support my\n<br>\nwife and 6 children, I work from\nmorning till night in a refinery, and\nthe only thing I enjoy in life is\n<br>\nUrbeapog! But when I buy a rare pog at\na high price, what do I get? But when\nI bought a rare pog at a high price,\n<br>\nit was stolen by Guaardvark! I'm so\ndisappointed! I hope someone can\ndefeat him in Gatara Mountain Forest\n<br>\nand bring back the pog."
+  },
+  "200267": {
+    "「レアめんこを高値で買ったら\n　な　な　なんと！　スカルガルーに\n　盗まれちまったのさ！　くやしいー！！\n<br>\n「誰か　ガタラ大山林にいる　あいつを倒して\n　めんこを　取り戻してくれないかなあ。": "I bought a rare pog for a great price,\nand lo and behold, it was stolen by\nGuaardvark! Guaardvark stole it from\n<br>\nme! I'm so disappointed! I wonder if\nsomeone can defeat him in Gatara\nMountain Forest and get the pog back."
+  },
+  "200268": {
+    "<icon_exc>「こっ　こ……これは！\n　あいつに盗まれた　ギザ縁ウルベアめんこ！\n　取り戻してくれたのか！？　ありがとうッ！\n<br>\n「１年間限定で発行された　ギザ縁めんこは\n　レア度が高い　コレクターズアイテムなんだ。\n　よく　ニセモノが出回ってるんだぜ。\n<br>\n「めんこを偽造するヤツが出たら\n　ウッツァ神父が捕まえて　説教してるけど\n　もっと　ちゃんとした法律　作ってほしいよな。\n<br>\n「グルヤンラシュ様なら　やってくれそうだろ？\n　ウルタ皇女の後見人だけど　ホントのとこ\n　帝国の実権　握ってんの　あの人だし。\n<br>\n「皇女みたいな　引きこもりには　期待できない。\n　やっぱ　俺らの　グルヤンラシュ様だな！": "<icon_exc>What's this? The Convex Urbea Pog that\nhe stole! You got it back? Thank you!\nThe gizzard-rimmed pog was issued for\n<br>\none year only, and is a very rare\ncollector's item. There are often\ncounterfeit ones out there. Father\n<br>\nUzza catches anyone who makes a false\npog and lectures them, but I wish\nthere would be a more proper law. I'm\n<br>\nsure Guryan Rush will do it, right?\nHe's Princess Ulta's guardian, but\nhe's the one who really controls the\n<br>\nempire. We can't expect anything from\na recluse like the princess. It's our\nGuryan Rush!"
+  },
+  "200269": {
+    "「めんこを偽造するヤツが出たら\n　ウッツァ神父が捕まえて　説教してるけど\n　もっと　ちゃんとした法律　作ってほしいよな。\n<br>\n「グルヤンラシュ様なら　やってくれそうだろ？\n　ウルタ皇女の後見人だけど　ホントのとこ\n　帝国の実権　握ってんの　あの人だし。\n<br>\n「皇女みたいな　引きこもりには　期待できない。\n　やっぱ　俺らの　グルヤンラシュ様だな！": "Father Uzza catches anyone who makes a\nfalse pog and lectures them, but I\nwish he would make a better law.\n<br>\nGuryan Rush would do it, wouldn't he?\nHe's Princess Ulta's guardian, but\nhe's the one who really controls the\n<br>\nempire. We can't expect anything from\na recluse like the princess. It's our\nGuryan Rush!"
+  },
+  "200270": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>「情報入力完了。\n　フムフム　ナルホド……。\n<br>\n「別階層ニ存在スル　めんこ愛好者カラ\n　追加情報　入手ノ可能性大。\n　モット　めんこ愛好者ヲ　探シテミマショウ！": "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed. Hmmm...\nHmmm... NARUHODO. There is a\npossibility that additional\n<br>\ninformation may be obtained from pog\nlovers who exist on a different level.\nLet's try to find more pog lovers!"
+  },
+  "200271": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>「情報入力完了。\n　フムフム　ナルホド……。\n<br>\n「めんこ愛好者　３名ノ情報ヲ　統合。\n　解析中…………\n　シバラク　オ待チクダサイ。\n<br>\n「……３名ガ　共通デ　話題ニシタ人物。 \n　人脈ガ広ク　情報ニ通ジタ　有力者ヲ\n　ウッツァ神父ト　断定。\n<br>\n「帝都中層ノ　教会ヘ　行ッテミマショウ！": "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed. Hm-hm-hm,\nI see. 3 pog lovers' information is\nintegrated. Analyzing. Please wait.\n<br>\nThe person that the three of you have\ntalked about in common.I've determined\nthat the most influential person with\n<br>\nextensive connections and access to\ninformation is Father Uzza. Let's go\nto the Church in the middle of the\n<br>\ncapital!"
+  },
+  "200272": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>「無理ニ　通ロウトスレバ　通報サレマス。\n　ウルタ皇女ニ　謁見スルニハ\n　入城許可証ノ入手ガ　急務。\n<br>\n「入城許可証ヲ　手ニ入レルタメ \n　人脈ガ広ク　情報ニ通ジタ　有力者ヲ\n　探ス必要アリト　判断。\n<br>\n「帝都デ　ウルベアめんこガ　大流行中。 \n　人脈ガ広ク　情報ニ通ジタ　有力者ハ\n　めんこ愛好者ノ　可能性大。\n<br>\n「ウルベアめんこトハ……\n　一般的ナ　紙製めんこト　異ナリ\n　金　銀　銅ナドデ形成サレタ　円盤状ノ金属片。\n<br>\n「遊ビ方ハ　独自ノ　ろーかるるーるガ採用サレ \n　これくしょん対象トシテモ　大人気。\n　帝都デ　めんこ愛好者ヲ　探シテミマショウ！": "<se_nots S4_FOR7_001 0><pipipi_mid>If you fail to pass, you will be\nreported to the police. In order to\ngain an audience with Princess Ulta,\n<br>\nit is imperative that we obtain an\nEntry Permit. In order to obtain an\nEntry Permit, it is necessary to find\n<br>\na powerful person with a wide network\nof contacts and access to information.\nUrbeapog is very popular in the\n<br>\ncapital.The most important people who\nare well-connected and well-informed\nare likely to be pog lovers. Urbeapog\n<br>\nis a disk-shaped piece of metal made\nof gold, silver, and copper, different\nfrom ordinary paper pog. It is very\n<br>\npopular among pog lovers in the\nImperial City. Let's look for pog\nlovers in the Imperial Capital!"
+  },
+  "200274": {
+    "<attr><se_nots S4_FOR7_001 0><pipipi_mid><end_attr>「……帝都デノ　情報収集完了。\n　多クノ　成果ガ　得ラレマシタネ。\n　オツカレサマデシタ。\n<br>\n「ウルタ皇女ハ　大ノ　人嫌イ……。\n　ソノヨウナ方ノ　信頼ヲ得ルノハ\n　ナカナカ　骨ガ折レソウデスネ。\n<br>\n「入城許可証ニ　ツナガル情報源ヲ \n　ウルタ皇女ノ魔神機ト　判断。\n　広場ノ周辺デ　探シテミマショウ！": "<attr><se_nots S4_FOR7_001 0><pipipi_mid><end_attr>Information gathering in the Imperial\nCapital is complete. I have obtained\nmany results. Thank you very much.\n<br>\nPrincess Ulta hates people. It's going\nto take a lot of effort to gain her\ntrust. The source of information for\n<br>\nthe Entry Permit is Princess Ulta's\ndemon machine. I'll search around the\nplaza!"
+  },
+  "200275": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>「情報入力完了。\n　フムフム　ナルホド……。\n<br>\n「別階層ニ存在スル　めんこ愛好者カラ\n　追加情報　入手ノ可能性大。\n　モット　めんこ愛好者ヲ　探シテミマショウ！": "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed. Hmmm...\nHmmm... NARUHODO. There is a\npossibility that additional\n<br>\ninformation may be obtained from pog\nlovers who exist on a different level.\nLet's try to find more pog lovers!"
+  },
+  "200276": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>「情報入力完了。\n　フムフム　ナルホド……。\n<br>\n「めんこヲ対価ニ得ラレタ　３名ノ情報ヲ　統合。\n　解析中…………\n　シバラク　オ待チクダサイ。\n<br>\n「……３名ガ　共通デ　話題ニシタ人物。 \n　人脈ガ広ク　情報ニ通ジタ　有力者ヲ\n　ウッツァ神父ト　断定。\n<br>\n「帝都中層ノ　教会ヘ　行ッテミマショウ！": "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed. Hm-hm-hm,\nI see. The information of the three\npeople who obtained it in exchange for\n<br>\npog has been integrated. Please wait\nwhile we analyze. The person that the\nthree of them talked about in\n<br>\ncommon.The one who is well-connected\nand well-informed is identified as\nFather Uzza. Let's go to the Church in\n<br>\nthe middle of the capital!"
+  },
+  "200277": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>「情報入力完了。\n　フムフム　ナルホド……。\n<br>\n「別階層ニ存在スル　めんこ愛好者カラ\n　追加情報　入手ノ可能性大。\n　モット　めんこ愛好者ヲ　探シテミマショウ！": "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed. Hmmm...\nHmmm... NARUHODO. There is a\npossibility that additional\n<br>\ninformation may be obtained from pog\nlovers who exist on a different level.\nLet's try to find more pog lovers!"
+  },
+  "200278": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>「情報入力完了。\n　フムフム　ナルホド……。\n<br>\n「めんこヲ対価ニ得ラレタ　３名ノ情報ヲ　統合。\n　解析中…………\n　シバラク　オ待チクダサイ。\n<br>\n「……３名ガ　共通デ　話題ニシタ人物。 \n　人脈ガ広ク　情報ニ通ジタ　有力者ヲ\n　ウッツァ神父ト　断定。\n<br>\n「帝都中層ノ　教会ヘ　行ッテミマショウ！": "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed. Hm-hm-hm,\nI see. The information of the three\npeople who obtained it in exchange for\n<br>\npog has been integrated. Please wait\nwhile we analyze. The person that the\nthree of them talked about in\n<br>\ncommon.The one who is well-connected\nand well-informed is identified as\nFather Uzza. Let's go to the Church in\n<br>\nthe middle of the capital!"
+  },
+  "200279": {
+    "<attr><feel_happy_lv1><end_attr>「ウルベアでは　大人になると\n　万能浮遊椅子の　免許が取れるの。\n<br>\n「地下帝国は　とっても広いのに\n　反重力飛行装置の利用が　制限されてるから\n　これがないと　買い出しにも行けないわっ。": "<attr><feel_happy_lv1><end_attr>In Urbea, as an adult you can get a\nlicense for the universal levitation\nchair. The underground empire is so\n<br>\nbig, but since access to anti-gravity\nequipment is restricted, I can't even\ngo shopping without one."
+  },
+  "200280": {
+    "<attr><feel_happy_lv1><end_attr>「へへ……めんこ　めんこ。\n　ちょいと細工すれば　高く売れる……。\n　バカなウルベア民め……ボロい商売さ！": "<attr><feel_happy_lv1><end_attr>Hehe pog pog. A little work and you\ncan sell them for a lot. Stupid\nUrbeans, it's a small business!"
+  },
+  "200281": {
+    "「あたしゃ　下層に　いくつかの家を持っててね \n　ここも　貸家のひとつにしてるんだよ。\n　老後にそなえて　たくわえとかないとね。": "I own several houses on the lower\nlevel, and this is one of the houses I\nrent out. I have to stock up for my\n<br>\nold age."
+  },
+  "200282": {
+    "<attr><feel_happy_lv1><end_attr>「５回目の再試験で　ようやく免許が取れたよ！\n　アタシも晴れて　大人の仲間入りってわけさ。\n<br>\n「昔は　そこそこ　ヤンチャしたもんでね。\n　万能浮遊椅子を　かっぱらって\n　無免許でブッ飛ばしたのが　なつかしいよ。": "<attr><feel_happy_lv1><end_attr>I finally got my license after the 5th\nretest! I am now a member of the adult\ncompanion. I used to be a bit of a\n<br>\nrascal. It was my sweet summer when I\nbought a universal floating chair and\ndrove off without a license."
+  },
+  "200283": {
+    "<attr><feel_sad_lv1><end_attr>「こほっ　こほっ……。\n　ウルベア地下帝国は　下層になるほど\n　よごれた空気が　たまりやすいの。\n<br>\n「昔は　もっと　ひどかったんだけど\n　ジャ・クバ陛下と　グルヤンラシュ様が\n　対策してくれて　だいぶ　よくなったのよ。": "<attr><feel_sad_lv1><end_attr>Here, here, here. The lower you go in\nUrbea Underground City, the more dirty\nair tends to accumulate. It used to be\n<br>\nworse, but His Majesty Ja Kuba and\nGuryan Rush took measures and it's\nmuch better now."
+  },
+  "200284": {
+    "「路地裏をウロついてるのは　だいたいが\n　故郷や戦場から逃げてきた　ガテリア難民だぜ。\n　まあ　オレも　そうだけどな……。\n<br>\n「ウルベア民が捨てた　ジャンク品を修理しながら\n　細々と食いつないでる。みじめだが\n　生きるためなら　なんでもやってやるさ。": "Most of the people hanging around the\nback alley are Gateria refugees who\nfled their hometowns or the\n<br>\nbattlefields. Well, I'm one of them.\nI'm just scraping by, fixing up junk\nthat the Urbeans throw away. I'm\n<br>\nmiserable, but I'll do anything to\nsurvive."
+  },
+  "200285": {
+    "<attr><feel_happy_lv1><end_attr>「はやく　ポンコツの　めいわくビームで\n　ビカビカ<heart>　キャーッ<heart>　したいね～！": "<attr><feel_happy_lv1><end_attr>I can't wait to see how the junk's\nmaze beam makes me feel!"
+  },
+  "200286": {
+    "<attr><feel_happy_lv1><end_attr>「ガタラ大山林の地下には　広大な都市が\n　果てしなく　広がっているの！\n<br>\n「最近は　火山のふもとにも\n　大規模な集合住宅が　できたって話よ。\n　マグマのそばで眠るって　どんな気分かしら？": "<attr><feel_happy_lv1><end_attr>There is a vast city spreading\nendlessly beneath the Gatara Mountain\nForest! Recently, a large housing area\n<br>\nhas been built at the base of the\nvolcano. How does it feel to sleep\nnext to Magma Blast?"
+  },
+  "200287": {
+    "「ピピッ……本機ハ　支援魔神機０２２号。\n　マモナク　良質ナ泥ヲ購入シテ\n　本機ノ管理者ガ待ツ　貴族特区ヘ帰還予定。\n<br>\n「本機ノ管理者ガ　泥ヲ購入スル理由……\n　全身ヲ泥デ覆ウコトデ　美容保湿効果ヲ高メ\n　自己満足度ノ向上ガ　期待デキルト推測。": "This machine is Aztech Support Mech\nNo. 022. The administrator of this\nmachine is waiting for the purchase of\n<br>\ngood quality mud and plans to return\nto the Aristocratic District. The\nreason why the administrator of this\n<br>\nmachine purchased mud is that covering\nthe whole body with mud will increase\nthe beauty moisturizing effect and\n<br>\nimprove the level of self-\nsatisfaction."
+  },
+  "200288": {
+    "「ヨウコソ　ウルベア地下帝国ヘ。\n　旅人ノ来訪ヲ　歓迎シマス。\n<br>\n「ココハ　広大ナ地下帝国ノ　帝都。 \n　下層　中層　上層ト　３階層ニ分カレテオリ\n　現在地ハ　中層ニ　ナリマス。": "Welcome to Urbea Underground City. We\nwelcome you, travelers. This is the\nimperial capital of the vast\n<br>\nunderground empire.It is divided into\nthree levels: the lower level, the\nmiddle level and the upper level."
+  },
+  "200289": {
+    "「中層……異常ナシ！\n　ココ帝都ニハ　ウルベアノ城門ガ　存在。\n　他ノ区画ヨリ　警備ヲ　強化シテイマス。": "There is no abnormality in the middle\nlevel! Urbea's castle gate exists here\nin the capital. Security has been\n<br>\nstrengthened in other areas."
+  },
+  "200290": {
+    "「下層……巡視警戒中。\n　本階層ニ　難民ノ流入ヲ　確認。\n　路地裏ニハ　近ヅカナイデクダサイ。": "Lower level patrol is on alert. We\nhave confirmed an influx of refugees\nin this level. Please do not approach\n<br>\nthe back alley."
+  },
+  "200291": {
+    "「上層　異常ナシ。\n　本階層ニハ　富裕層ガ　多数居住中。\n　入念ニ巡回スルヨウ　要請アリ……。": "There is nothing wrong with the upper\nlevel. There are many wealthy people\nliving in this level. We have a\n<br>\nrequest to patrol carefully."
+  },
+  "200292": {
+    "<attr><feel_happy_lv1><end_attr>「当店は　王室御用達の仕立て屋ですの。 \n　わたくし　あの　グルヤンラシュ様から\n　直々に　オーダーいただいてるんですのよ！\n<br>\n「帝国のカリスマが　歩く広告塔ですので\n　注文が殺到して　てんてこまいですの。\n　なので　一般の方は　ごめんなさいですの～。": "<attr><feel_happy_lv1><end_attr>We are a royal tailor.I have orders\ndirectly from Guryan Rush! The\ncharismatic man of the empire is a\n<br>\nwalking advertisement tower, so we've\nbeen inundated with orders and we're\nswamped. I'm sorry for the general\n<br>\npublic."
+  },
+  "200294": {
+    "<pc>は　ツテバクに\nウルベア銅貨を　ひとつ　渡した！": "<pc> gave Tsutebaku one Urbea\nCopper Coin!"
+  },
+  "200296": {
+    "<pc>は\n銅のウルベアめんこを　手に入れた！\n<br>\n……なんと　それは　ウルベア銅貨だった！<se_nots System 7>": "<pc> received a copper\nUrbeapog!<se_nots System 7>"
+  },
+  "200297": {
+    "<pc>は\n銀のウルベアめんこを　手に入れた！\n<br>\n……なんと　それは　ウルベア銀貨だった！<se_nots System 7>": "<pc> received a silver\nUrbeapog!<se_nots System 7>"
+  },
+  "200298": {
+    "<pc>は\n金のウルベアめんこを　手に入れた！\n<br>\n……なんと　それは　ウルベア金貨だった！<se_nots System 7>": "<pc> received a gold\nUrbeapog!<se_nots System 7>"
+  },
+  "200299": {
+    "<pc>は\nめんこスターターセットを　手に入れた！\n<br>\n……なんと　それは　ウルベア金貨と\nウルベア銀貨と　ウルベア銅貨だった！<se_nots System 7>": "<pc> received a set of pogues\ntarta!<se_nots System 7>"
+  },
+  "200301": {
+    "<pc>は　フフママに\nウルベア銀貨を　ひとつ　渡した！": "<pc> gave Fufumama one Urbea\nSilver Coin!"
+  },
+  "200303": {
+    "クワックに　ギザ縁ウルベアめんこを\n渡しますか？<yesno><break>": "Would you give Convex Urbea Pog to\nQuack?<yesno><break>"
+  },
+  "200304": {
+    "<pc>は　クワックに\nギザ縁ウルベアめんこを　渡した！": "<pc> gave Quack a Convex\nUrbea Pog!"
+  },
+  "200305": {
+    "<attr><feel_sad_lv1><end_attr>「恐ろしい巨人が現れて　ガテリアを燃やした。\n　生き残った人も　魔神兵に追い詰められて\n　海や溶岩に　飛び込んで　亡くなったわ……。\n<br>\n「妹を連れて　ガテリアから逃げだして\n　気がついたら　ここにいたの。\n　もう　あんな思いは　イヤ……。": "<attr><feel_sad_lv1><end_attr>Terrible giants appeared and burned\nGateria. Even those who survived were\nhunted down by the demon soldiers and\n<br>\ndied jumping into the sea and lava. I\nescaped from Gateria with my sister\nand found myself here. I don't want to\n<br>\ngo through that again."
+  },
+  "200306": {
+    "「あんちゃんが　都会のヨメさんをもらうんで \n　はじめて　帝都まで　やってきたけど\n　すごいとこで　目が回っちゃったよお！\n<br>\n「都会のスピードには　ついてけないわ。\n　エゼソルで　塩作って暮らしてるほうが\n　あたしなんかにゃ　お似合いだよお。": "I came to the Imperial City for the\nfirst time because Anchan got a wife\nfrom the city, but I got dizzy in the\n<br>\nmiddle of nowhere! I can't keep up\nwith Peid in the city. I'd be better\noff living in Ezesol making salt."
+  },
+  "200307": {
+    "<attr><feel_sad_lv1><end_attr>「あっ　あっ　ぶたないで……。\n　悪いこと　なんにもしてないよ？": "<attr><feel_sad_lv1><end_attr>Don't beat yourself. I didn't do\nanything wrong."
+  },
+  "200308": {
+    "<attr><feel_happy_lv3><end_attr>「ガテリアを滅ぼした　ウルベア地下帝国は\n　ついに　ドワチャッカ大陸の　ほぼすべてを\n　領土として　掌握することになった。\n<br>\n「ゴブル砂漠には　小国ドルワームが残ってるが\n　ガテリアにも　ウルベアにも属さず\n　城ごと砂に埋もれて　隠れ住んでいるんだ。\n<br>\n「ウルベアが　天下を統一するのも\n　時間の問題ってことだな。わっはっは。": "<attr><feel_happy_lv3><end_attr>Having destroyed Gateria, the Urbea\nUnderground City has finally gained\ncontrol of almost all of the Dwachakka\n<br>\nContinent. The small nation of Dolworm\nremains in the Goble Desert, but it\nbelongs to neither Gateria nor Urbea,\n<br>\nand it lives in hiding, its entire\ncastle buried in the sand. It's only a\nmatter of time before Urbea unifies\n<br>\nthe world. Ha-ha-ha."
+  },
+  "200309": {
+    "<attr><feel_happy_lv1><end_attr>「ウルベアめんこって　知ってる？ \n　この帝都で　大流行中なんだぜっ。": "<attr><feel_happy_lv1><end_attr>Have you heard of Urbeapog?It's all\nthe rage here in the capital."
+  },
+  "200310": {
+    "「あっ。お前　おのぼりさんだなー？\n　親切なオレが　ちょびっとだけ\n　ウルベアのこと　教えてやろうかー？\n<br>\n「ただーし！　タダでは　ダメだー！\n　銅のウルベアめんこを　ひとつくれたら\n　教えてやってもいいぜっ。": "Ah. You're an aboriginal, aren't you?\nShall I kindly tell you a little bit\nabout Urbea? But..! No free stuff!\n<br>\nI'll teach you if you give me one\ncopper Urbeapog."
+  },
+  "200311": {
+    "「うおおー！　ありがとな！\n　最近　ウルベアめんこに　超ハマってんだけど\n　おこづかいが　ピンチでさ。へへへー。\n<br>\n「約束通り　ウルベアのことを教えてやるよ！\n　この国を語る上で　はずせないのは\n　なんたって　前の皇帝の　ジャ・クバ陛下だ！\n<br>\n「この　見事な街並みも　陛下が整備したんだぜ。\n　いつまでも　豊かで　平和に暮らせるようにって\n　すっげー　みんなのこと　考えてくれてさ！\n<br>\n「オレたち　みんな　陛下が大好きだったんだよ。\n　なのに　ガテリアのせいで　陛下は……。\n　うっうっ……あいつら　許せない！\n<br>\n「グルヤンラシュ様は　ガテリアを滅ぼして\n　陛下のカタキを　取ってくれたんだっ。\n　やっぱ　最後には　正義が勝つんだよなー！\n<br>\n「以上っ　おのぼりさんへの　解説終わり！\n　よーし……ウルベアめんこも　手に入ったし\n　ウッツァ神父に　めんこ勝負を　挑むぞーっ！": "Woohoo! Thanks a lot! I've been really\ninto Urbeapog lately, but my allowance\nis really tight. Heh heh heh. I'll\n<br>\ntell you about Urbea as promised! The\none thing that can't be said enough\nabout this country is its former\n<br>\nemperor, His Majesty Ja Kuba! You can\nsee the beautiful streets of Urbea,\nwhich were built by his majesty. He\n<br>\nthought of us all and wanted us to\nlive in prosperity and peace! We all\nloved him so much. But because of\n<br>\nGateria... I can't forgive them!\nGuryan Rush destroyed Gateria and took\nHis Majesty's place. I guess justice\n<br>\nwill prevail in the end! That's all\nfor the aborigines! Okay, now that we\nhave Urbeapog, let's challenge Father\n<br>\nUzza to a game of pog!"
+  },
+  "200312": {
+    "「この町は　前の皇帝の　ジャ・クバ陛下が\n　いつまでも　豊かで　平和に暮らせるようにって\n　みんなのことを考えて　作ってくれたんだ！\n<br>\n「オレたち　みんな　陛下が大好きだったんだよ。\n　なのに　ガテリアのせいで　陛下は……。\n　うっうっ……あいつら　許せない！\n<br>\n「グルヤンラシュ様は　ガテリアを滅ぼして\n　陛下のカタキを　取ってくれたんだっ。\n　やっぱ　最後には　正義が勝つんだよなー！\n<br>\n「以上っ　おのぼりさんへの　観光案内終わり！\n　よーし……ウルベアめんこも　手に入ったし\n　ウッツァ神父に　めんこ勝負を　挑むぞーっ！": "This town was built by His Majesty Ja\nKuba, the former emperor, for everyone\nto live in prosperity and peace\n<br>\nforever! We all loved His Majesty. But\nbecause of Gateria, His Majesty... I\ncan't forgive them! Guryan Rush\n<br>\ndestroyed Gateria and took His\nMajesty's place. I guess justice will\nprevail in the end! That's all for\n<br>\nnow! Now that we have Urbeapog, let's\nchallenge Father Uzza to a game of\npog!"
+  },
+  "200313": {
+    "<attr><feel_happy_lv1><end_attr>「うふふ……。 \n　世界中を探しても　このウルベア地下帝国ほど\n　栄えてる国は　どこにもないでしょうね！": "<attr><feel_happy_lv1><end_attr>Hmmm.I doubt if there is any other\ncountry in the world as prosperous as\nUrbea Underground City!"
+  },
+  "200314": {
+    "<attr><feel_happy_lv1><end_attr>「へへっ　よく来たな……。\n　お前さんが　ほしがってる物　売ってやるよ。\n<select>\n銅のウルベアめんこ\n銀のウルベアめんこ\n金のウルベアめんこ\nめんこスターターセット\nやめる\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": "<attr><feel_happy_lv1><end_attr>Heh, you came well. I'll sell you what\nyou want.\n<select>\nCopper Urbeapog\nSilver Urbeapog\nGold Urbeapog\npogstarta set\nQuit\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+  },
+  "200315": {
+    "<attr><feel_happy_lv1><end_attr>「他に　ほしい物は　あるか？\n<select>\n銅のウルベアめんこ\n銀のウルベアめんこ\n金のウルベアめんこ\nめんこスターターセット\nやめる\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": "<attr><feel_happy_lv1><end_attr>Is there anything else you want?\n<select>\nCopper Urbeapog\nSilver Urbeapog\nGold Urbeapog\npogstarta set\nQuit\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+  },
+  "200316": {
+    "<attr><feel_happy_lv1><end_attr>「銅のウルベアめんこなら\n　ひとつ　１２０ゴールドだ。\n　こいつを　買っていくかい？<yesno><break>": "<attr><feel_happy_lv1><end_attr>One copper Urbeapog costs 120 gold.\nWould you like to buy one?<yesno><break>"
+  },
+  "200317": {
+    "<attr><feel_happy_lv1><end_attr>「へへっ……　まいどあり。": "<attr><feel_happy_lv1><end_attr>Heh heh. Here you go."
+  },
+  "200318": {
+    "<attr><feel_happy_lv1><end_attr>「銀のウルベアめんこなら\n　ひとつ　６００ゴールドだ。\n　こいつを　買っていくかい？<yesno><break>": "<attr><feel_happy_lv1><end_attr>One silver Urbeapog costs 600 gold.\nWould you like to buy one?<yesno><break>"
+  },
+  "200319": {
+    "<attr><feel_happy_lv1><end_attr>「へへっ……　まいどあり。": "<attr><feel_happy_lv1><end_attr>Heh heh. Here you go."
+  },
+  "200320": {
+    "<attr><feel_happy_lv1><end_attr>「金のウルベアめんこなら\n　ひとつ　２４００ゴールドだ。\n　こいつを　買っていくかい？<yesno><break>": "<attr><feel_happy_lv1><end_attr>One gold Urbeapog costs 2400 gold.\nWould you like to buy one?<yesno><break>"
+  },
+  "200321": {
+    "<attr><feel_happy_lv1><end_attr>「へへっ……　まいどあり。": "<attr><feel_happy_lv1><end_attr>Heh heh. Here you go."
+  },
+  "200322": {
+    "<attr><feel_happy_lv1><end_attr>「めんこスターターセットは　金・銀・銅が\n　ひとつずつ入って　３０００ゴールドだ。\n　こいつは　お得だぜ。買っていくかい？<yesno><break>": "<attr><feel_happy_lv1><end_attr>The pogstarta set contains one gold,\none silver, and one bronze for 3,000\ngold. That's a bargain. Want to buy\n<br>\none?<yesno><break>"
+  },
+  "200323": {
+    "<attr><feel_happy_lv1><end_attr>「へへっ……　まいどあり。": "<attr><feel_happy_lv1><end_attr>Heh heh. Here you go."
+  },
+  "200324": {
+    "<attr><feel_happy_lv1><end_attr>「おっと……　それを買うには　金が足りないぜ。<bw_break>": "<attr><feel_happy_lv1><end_attr>Oops, not enough money to buy that\none.<bw_break>"
+  },
+  "200325": {
+    "<attr><feel_happy_lv1><end_attr>「おっと……　それ以上　持ちきれないようだぜ。\n　整理してから　また　買いにきてくれ。": "<attr><feel_happy_lv1><end_attr>Oops, looks like I can't hold it any\nlonger. Come back and buy some more\nafter you've sorted it out."
+  },
+  "200326": {
+    "<attr><feel_happy_lv1><end_attr>「何が起きてもいいように　各種１枚ずつ\n　持っておくのが　めんこ好きのたしなみだ……。\n　また　いつでも　来てくれよな。": "<attr><feel_happy_lv1><end_attr>It is a pog lover's custom to have a\ncopy of each type of pog, just in case\nsomething happens. Please come again\n<br>\nanytime."
+  },
+  "200327": {
+    "<attr><feel_happy_lv1><end_attr>「先日　五大陸一周旅行に　出かけたんだけどねえ\n　ぼかぁ　オーグリード大陸というのは\n　じつに　野蛮な土地だと　感じてしまったね！\n<br>\n「野性全開で　獣の皮をまとっただけの\n　創意工夫のカケラもない　ファッション！\n　生きていて　はずかしくないのかねえ？\n<br>\n「その点　ぼくら　ウルベア文明の\n　なんと美しく　洗練されていることよ。\n　また　ドワーフが　勝ってしまったか……。": "<attr><feel_happy_lv1><end_attr>I went on a trip around the five\ncontinents the other day, and I have\nto say, I found the Ogreed Continent\n<br>\nto be a very barbaric place! The\nfashion is wild and full of animal\nskins, without a shred of ingenuity!\n<br>\nIs it a shame to live in Kunai? How\nbeautiful and refined our Urbea\ncivilization is! Dwarfs have won\n<br>\nagain."
+  },
+  "200328": {
+    "<attr><feel_happy_lv1><end_attr>「見たまえ……眼下に広がる　圧巻の風景を！\n　たとえ　何千年の時が過ぎようと\n　この栄華は　永遠に　語り継がれるだろうよ。": "<attr><feel_happy_lv1><end_attr>Look at the breathtaking scenery\nspread out below you! Even if\nthousands of years pass, this splendor\n<br>\nwill be remembered forever."
+  },
+  "200329": {
+    "<attr><feel_sad_lv1><end_attr>「ここいらは　住宅街になってましてね\n　時間になると　表通りは　万能浮遊椅子の\n　通勤ラッシュで　大混雑するんですよ。\n<br>\n「都会暮らしは　イヤになりますねえ……。\n　だけど　身体が弱い妻のために\n　上層の家を買ってやりたいんで　がんばります。": "<attr><feel_sad_lv1><end_attr>This area is a residential area, and\nat certain times of the day, the main\nstreet is crowded with commuters in\n<br>\ntheir all-purpose floating chairs. I\nhate living in the city. But I want to\nbuy a high-rise house for my frail\n<br>\nwife, so I'll do my best."
+  },
+  "200330": {
+    "<attr><feel_sad_lv1><end_attr>「うあ……話しかけないでくだせえ。\n　おいらは　奥様の世話係。\n　そこいらの　石ころみてえなモンです……。": "<attr><feel_sad_lv1><end_attr>Oh, please don't talk to me. I'm your\nwife's caretaker. I'm just a stone's\nthrow away."
+  },
+  "200331": {
+    "<attr><feel_happy_lv1><end_attr>「ふわーん！　チャイチャさまーん！\n　今日も　お美しいですわーん<heart>": "<attr><feel_happy_lv1><end_attr>Woohoo! Oh, my dear Chaicha! You look\nbeautiful today <heart>!"
+  },
+  "200332": {
+    "「上層や中層の連中が　いらないモンを\n　ポイ捨てするもんだから　ガテリア難民どもが\n　裏通りに　住みついちまったよ。\n<br>\n「こっちを　ギラッと　にらんでくるんで\n　すれ違うたびに　気分が悪いぜ。": "Because the upper and middle class\npeople litter the alleyway with their\nunwanted stuff, Gateria refugees have\n<br>\ntaken up residence there. I feel bad\nevery time I pass by them."
+  },
+  "200333": {
+    "「あらーと　あらーと。\n　ウルベア帝国城ヘ　入ルニハ\n　入城許可証ガ　必要ダ！": "Oh, no, oh, no, oh, no. You need an\nEntry Permit to enter Urbea Empire\nCastle!"
+  },
+  "200334": {
+    "「デハ……通ッテヨ～シ！": "Deha dori tte yoshi!"
+  },
+  "200335": {
+    "「入場ヲ許可。通ッテヨ～シ！": "Permission granted. Coming through!"
+  },
+  "200336": {
+    "<attr><feel_happy_lv1><end_attr>「あのねえ　皇女様が　ポンコツだから\n　マリッチも　ポンコツなんだって\n　とうちゃんが　いってたよ！": "<attr><feel_happy_lv1><end_attr>You know, my dad says that because the\nprincess is a junk, Marich is a junk\ntoo!"
+  },
+  "200337": {
+    "<attr><feel_happy_lv1><end_attr>「めいわくビーム　たのしかった！\n　また　マリッチと　遊びたいなー！": "<attr><feel_happy_lv1><end_attr>The beam was fun! I want to play with\nMarich again!"
+  },
+  "200338": {
+    "<pc>は　防衛魔神兵０５４号に\n入城許可証を　回収された！": "Entry Permit was recovered for\n<pc> by Aztech Guard No. 054!"
+  },
+  "200339": {
+    "<attr><feel_sad_one><end_attr>「まだ　目の前が　チカチカしてるわ……。\n　今度　あの魔神機が来たら\n　お城に　クレーム入れちゃう！": "<attr><feel_sad_one><end_attr>I can still see it flickering in front\nof my eyes. I'm going to file a\ncomplaint with the castle the next\n<br>\ntime that demonic machine comes!"
+  },
+  "200340": {
+    "「なんでか知らないが　皇女様の魔神機には\n　言語機能が　実装されてないらしいんだ。\n　今時　警備魔神兵だって　しゃべれるのにな。": "I don't know why, but it seems that\nthe Princess's Demon Goddess machine\nis not equipped with a language\n<br>\nfunction. Even security guards can\nspeak nowadays."
+  },
+  "200341": {
+    "「皇女様は　まだ　えてーね人を\n　探してるのかしら……。\n<br>\n「いつまでも　魔神機なんかで　遊んでないで\n　忙しい　グルヤンラシュ様のことを\n　手伝って差し上げれば　いいのにねえ。": "I wonder if the Princess is still\nlooking for someone. Why don't you\nhelp busy Guryan Rush-sama instead of\n<br>\nplaying with your magical machine\nforever?"
+  },
+  "200342": {
+    "「当店は　王室御用達の仕立て屋ですの。\n　わたくし　あの　グルヤンラシュ様から\n　直々に　オーダーいただくんですの！\n<br>\n「グルヤンラシュ様は　人間さんですの。\n　ウルベアの仕立て屋は　ドワーフ向けの服しか\n　作れなかったので　とても　お困りでしたの。\n<br>\n「そこで　レンダーシア帰りのわたくしに\n　お声がかかった……というわけですの。\n<br>\n「おしゃれさんな　グルヤンラシュ様の要望で\n　何度も仕立て直したのが　なつかしいですの。\n　今でも　毎月　一着ずつ納品してますの！": "We are a royal tailor. I get orders\ndirectly from that Guryan Rush! Guryan\nRush is a human. The tailor in Urbea\n<br>\ncould only make clothes for Dwarfs, so\nhe was in a lot of trouble. That's why\nhe asked me, a returnee from\n<br>\nLendersia, to help him out. I remember\nin my sweet summer days how many times\nI had to re-tailor the clothes for the\n<br>\nfashionable Guryan Rush. Even now, I\ndeliver one dress every month!"
+  },
+  "200343": {
+    "<attr><feel_happy_lv1><end_attr>「先日　五大陸一周旅行に　出かけたんだけどねえ\n　ぼかぁ　ウェナ諸島というのは\n　じつに　無粋な土地だと　感じてしまったね！\n<br>\n「土地っていうか　ほぼ　海なんだけどね！\n　砂浜で　魚を焼く女どもは　やかましいし\n　男は裸同然で　うろついてて　ウンザリさ。\n<br>\n「その点　ぼくら　ウルベア文明の\n　なんと美しく　洗練されていることよ。\n　また　ドワーフが　勝ってしまったか……。": "<attr><feel_happy_lv1><end_attr>The other day, I went on a trip around\nthe five continents, and I felt that\nthe Wena Islands are a very tactless\n<br>\nplace! Well, not so much the land, but\nmostly the sea! The women grilling\nfish on the beach are disgusting, and\n<br>\nthe men wandering around naked is\ndisgusting. I am disgusted by the\nbeauty and sophistication of our Urbea\n<br>\ncivilization. Dwarfs have won again."
+  },
+  "200344": {
+    "「ウルタ皇女より　ガテリア難民たちの救済に\n　手を貸してほしいとの　お話がありました。\n<br>\n「教会としても　下層の路地裏にいる\n　彼らの　きびしい実情は　見過ごせません。\n　もちろん　協力させていただきますわ。": "Princess Ulta has asked for your help\nin helping the Gateria refugees. As\nthe Church, we cannot overlook the\n<br>\nharsh conditions they are facing in\nthe lower back alley. Of course, we\nwould like to help."
+  },
+  "200345": {
+    "「誰が治める帝国であろうと　迷える者を救い\n　ウルベアめんこを広めるのが　私の職務です。\n　さて……<bw_break>": "It is my duty to save the lost and\nspread the Urbeapog, no matter who\ngoverns the empire. Now...<bw_break>"
+  },
+  "200346": {
+    "<attr><feel_angry_lv1><end_attr>「グルヤンラシュ様の死後　地脈エネルギーを\n　規制するような動きが　あるらしいザマス。\n　とんでもないことザマス！\n<br>\n「万能浮遊椅子も　空調設備もない生活……\n　想像するだけで　イヤになるザマス。\n　規制反対ザマスー！": "<attr><feel_angry_lv1><end_attr>I heard that after the death of Guryan\nRush, there is a move to regulate geo-\nenergy. It's a terrible thing! I just\n<br>\nhate to think of living without the\nuniversal floating chair and air\nconditioning. I am against the\n<br>\nregulation!"
+  },
+  "200347": {
+    "<attr><feel_happy_lv1><end_attr>「ウルタ皇女が　おしろで　がんばってるから\n　マリッチも　おしろで　いそがしいって\n　とうちゃんが　いってたよ！": "<attr><feel_happy_lv1><end_attr>My dad said that Princess Ulta is\nworking hard behind the scenes, so\nMarich is busy behind the scenes too!"
+  },
+  "200348": {
+    "「グルヤンラシュのせいで　ウルベアは\n　罪もないガテリアを　滅ぼしちまった……。\n　ウルベア民は　みんな　平和主義なのにさ。\n<br>\n「ウルタ皇女は　あわれなガテリア難民や\n　捕虜たちを救うため　がんばってるらしいぜ。\n　やっぱ　俺たちの　ウルタ皇女なんだよなあ！": "Because of Guryan Rush, Urbea has\ndestroyed innocent Gateria. The people\nof Urbea are all pacifists. Princess\n<br>\nUlta is doing her best to save the\npoor Gateria refugees and prisoners.\nShe is our Princess Ulta after all!"
+  },
+  "200349": {
+    "<attr><feel_angry_lv1><end_attr>「皇女様が　国民に　お触れを出して\n　皇帝暗殺の真実を　教えてくれたわ。\n　グルヤンラシュ……なんて　ひどい奴なの！\n<br>\n「ジャ・クバ陛下を暗殺して　ガテリアの皇子に\n　罪をなすりつけて　帝国を乗っ取って……\n　こんなヒドイこと　人のすることじゃないわ。\n<br>\n「あいつは　魔物よ。魔物！\n　グルヤンラシュの正体は　魔物だったのよ！！\n　それ以外に　考えられないわよっ。": "<attr><feel_angry_lv1><end_attr>The Princess has sent word to the\npeople and told them the truth about\nthe emperor's assassination. Guryan\n<br>\nRush is such a horrible man! He\nassassinated His Majesty Ja Kuba,\nblamed the Prince of Gateria, took\n<br>\nover the empire, and did such a\nterrible thing. He's a monster! I\ncan't think of anything else."
+  },
+  "200350": {
+    "<attr><feel_sad_lv1><end_attr>「グルヤンラシュめ　ざまあみろ！\n　俺の娘は　ウルベア大魔神に焼かれて……\n　うう　ぐすっ……。\n<br>\n「ヤツが死んでも　まだ　腹の虫が収まらねえ。\n　へへ……めんこに細工して\n　バカなウルベア民から　巻き上げてやる！": "<attr><feel_sad_lv1><end_attr>Guryan Rush, you son of a bitch! My\ndaughter was burned by Urbea Colossus.\nEven after he's dead, I'm still pissed\n<br>\noff. I'm going to work on my hehepog\nand take it out of the stupid Urbea\npeople's pockets!"
+  },
+  "200351": {
+    "「グルヤンラシュには　まんまとダマされたよ。\n　あいつを尊敬してた　あたしたちが\n　バカみたいじゃないかい！\n<br>\n「ヤツは　皇女が　討ってくれたそうだね。\n　あたしと　年も変わらないのに　やるねえ……。\n　なんだか　好きになってきちゃったよ！": "Guryan Rush has got us all fooled. We\nwho respected him look like fools,\ndon't we? I heard that the princess\n<br>\ntook him down. He's not much older\nthan me. I'm starting to like you!"
+  },
+  "200352": {
+    "<attr><feel_sad_lv1><end_attr>「こほっ　こほっ……。\n　ウルベア地下帝国は　下層になるほど\n　よごれた空気が　たまりやすいの。\n<br>\n「昔は　もっと　ひどかったんだけど\n　ジャ・クバ陛下と　グルヤンラシュ様が\n　対策してくれて　だいぶ　よくなったのよ。\n<br>\n「だから　本当のことが　わかっても\n　グルヤンラシュ様のこと　あまり\n　悪い人だとは　思えないの……。": "<attr><feel_sad_lv1><end_attr>Here, here, here. The lower you go in\nUrbea Underground City, the more dirty\nair tends to accumulate. It used to be\n<br>\nworse, but His Majesty Ja Kuba and\nGuryan Rush took countermeasures and\nit's much better now. So, even though\n<br>\nI know the truth, I don't think Guryan\nRush is a very bad person."
+  },
+  "200353": {
+    "「グルヤンラシュが死んでも　何も変わんねえよ。\n　俺たちは　鼻つまみ者のままだし\n　ゴミ拾いをしなくちゃ　生きていけないんだ。\n<br>\n「オレの兄貴は　ウルベアと戦う兵士になるって \n　手紙を寄こして　それきりになっちまった。\n　きっと　もう　あの世にいるんだろうよ……。": "Guryan Rush's death won't change\nanything. We'll still be snobs, and\nwe'll still have to pick up trash to\n<br>\nsurvive. My brother wrote me a letter\nsaying he was going to be a soldier\nagainst Urbea, and that was it. I'm\n<br>\nsure he's already in the other world."
+  },
+  "200354": {
+    "<attr><feel_happy_lv1><end_attr>「おしろに　あそびに　いこうかな？\n　そしたら　マリッチに　あえるかも！？": "<attr><feel_happy_lv1><end_attr>Do you want to play behind me? Then\nyou might meet Marich!"
+  },
+  "200355": {
+    "<attr><feel_angry_lv1><end_attr>「グルヤンラシュって　魔物だったんですって！\n　なるほどって感じ。あんな　極悪非道なこと\n　平気なカオで　やれちゃうんですものね。\n<br>\n「あたしたち　みんな　魔物にダマされてたのね。\n　そもそも　あたしは最初から\n　ガテリアとの戦争なんて　反対だったのよ。": "<attr><feel_angry_lv1><end_attr>Guryan Rush was a monster! I see. They\ncan do such diabolical things without\na care in the world, can't they? We\n<br>\nwere all deceived by the monster,\nweren't we? I was against the war with\nGateria from the very beginning."
+  },
+  "200356": {
+    "「ピピッ……本機ハ　支援魔神機０２２号。\n　マモナク　良質ナ　どるせりんヲ購入シテ\n　本機ノ管理者ガ待ツ　貴族特区ヘ帰還予定。\n<br>\n「本機ノ管理者ガ　どるせりんヲ購入スル理由…… \n　今後　地脈えねるぎー　規制傾向アリ。\n　どるせりん需要ノ高マリヲ見越シテ　買イシメ。": "This machine is Aztech Support Mech\nNo. 022. The administrator of this\nmachine is waiting for the purchase of\n<br>\na good quality Druserin and plans to\nreturn to the Aristocratic District.\nThe reason why the administrator of\n<br>\nthis machine purchases Dorcerin is\nthat there is a trend toward the\nregulation of geo-politics. In\n<br>\nanticipation of high demand for\nDorserin, they purchased this machine."
+  },
+  "200358": {
+    "<attr><feel_sad_lv1><end_attr>「恐ろしい巨人が現れて　ガテリアを燃やした。\n　生き残った人も　魔神兵に追い詰められて\n　海や溶岩に　飛び込んで　亡くなったわ……。\n<br>\n「妹を連れて　ガテリアから逃げてきたけど \n　こんな　偽善者だらけの街　耐えられない……。\n　どこか遠くに　旅立つことにするわ。": "<attr><feel_sad_lv1><end_attr>Terrible giants appeared and burned\nGateria. Even those who survived were\nhunted down by demon soldiers and died\n<br>\njumping into the sea or lava. I've\nfled Gateria with my sister, but I\ncan't stand such a city full of false\n<br>\ngood guys. I'm going to leave for\nsomewhere far away."
+  },
+  "200359": {
+    "「あんちゃんが　都会のヨメさんをもらうんで \n　はじめて　帝都まで　やってきたけど\n　すごいとこで　目が回っちゃったよお！\n<br>\n「しかも　エライ人が　どエライ人を\n　やっつけたとか　やっつけられたとか……？\n　ひえーっ　おっかねえ世の中だなあ。\n<br>\n「都会のスピードには　ついてけないわ。\n　エゼソルで　塩作って暮らしてるほうが\n　あたしなんかにゃ　お似合いだよお。": "I came to the Imperial City for the\nfirst time to get a wife from the\ncity, but I got dizzy in the middle of\n<br>\nnowhere! And what's more, a very\nimportant person defeated a very\nimportant person? Wow, this is a very\n<br>\ndangerous world. I can't keep up with\nthe city peids. Living in Ezesol\nmaking salt would be better suited for\n<br>\nme."
+  },
+  "200360": {
+    "<attr><feel_happy_lv1><end_attr>「最近　町の人たちが　ちょっと優しいの。\n　なにか　いいこと　あったのかな？": "<attr><feel_happy_lv1><end_attr>People in town have been a little\nnicer to me lately. Did something good\nhappen?"
+  },
+  "200361": {
+    "「ガテリアを滅ぼした　ウルベア地下帝国は\n　ついに　ドワチャッカ大陸の　ほぼすべてを\n　領土として　掌握することになった。\n<br>\n「ゴブル砂漠には　小国ドルワームが残ってるが\n　ガテリアにも　ウルベアにも属さず\n　城ごと砂に埋もれて　隠れ住んでいるんだ。\n<br>\n「ウルベアが　天下を統一するのも\n　時間の問題だったんだが　グルヤンラシュ様が\n　いなくなっちまったからなあ……。": "Having destroyed Gateria, the Urbea\nUnderground City has finally gained\ncontrol of almost all of the Dwachakka\n<br>\nContinent. The small nation of Dolworm\nremains in the Goble Desert, but it\nbelongs to neither Gateria nor Urbea,\n<br>\nand it lives in hiding, its entire\ncastle buried in the sand. It was only\na matter of time before Urbea would\n<br>\nhave united the country, but now that\nGuryan Rush is gone, it's only a\nmatter of time."
+  },
+  "200362": {
+    "「ジャ・クバ陛下を　暗殺した犯人は\n　グルヤンラシュ様だったんだって！\n　なんか　悪い魔物だったらしいぞー。\n<br>\n「ビャン皇子　悪くなかったんじゃん！\n　ガテリアも滅びなくて　よかったんじゃん！\n　くそー魔物め！　めんこバトルで勝負しろー！": "The person who assassinated His\nMajesty Ja Kuba was Guryan Rush! I\nheard he was a bad monster! Prince\n<br>\nByan wasn't so bad! It's a good thing\nthat Gateria didn't perish too! Damn\nmonsters! Fight in the pogbattle!"
+  },
+  "200363": {
+    "「ウルタ皇女ってば　さすがよねえ。\n　グルヤンラシュの本性に　いち早く気づいて\n　自分の手で　断罪したんでしょ？\n<br>\n「引きこもったり　えてーね人を探したりと\n　ちょっと変な行動をしてたのは　全部演技。\n　じつは　反撃の機会を　狙ってたらしいわよ！": "Princess Ulta is really talented,\nisn't she? She was the first to\nrealize Guryan Rush's true nature and\n<br>\ncondemned him with her own hands,\nwasn't she? Her acting a little\nstrange, like hiding out and looking\n<br>\nfor someone, was all an act. In fact,\nit seems he was looking for an\nopportunity to strike back!"
+  },
+  "200364": {
+    "<attr><feel_happy_lv1><end_attr>「先日　五大陸一周旅行に　出かけたんだけどねえ \n　ぼかぁ　エルトナ大陸というのは\n　じつに　偏狭な土地だと　感じてしまったね！\n<br>\n「部屋に入ろうとすれば　クツを脱げだの\n　森に入ろうとすれば　身体を洗って清めろだの\n　まるで　ドワーフを　泥ダンゴ扱いさ！\n<br>\n「その点　ぼくら　ウルベア文明の\n　なんと美しく　洗練されていることよ。\n　また　ドワーフが　勝ってしまったか……。": "<attr><feel_happy_lv1><end_attr>The other day I went on a trip around\nthe five continents, and I found\nEltona Continent to be a very insular\n<br>\nplace! When you go into a room, you're\ntold to take off your shoes, and when\nyou go into the woods, you're told to\n<br>\nwash and cleanse yourself, as if Dwarf\nwere a mud sling! How beautiful and\nrefined we Urbea civilization are!\n<br>\nDwarf has won again."
+  },
+  "200365": {
+    "「見たまえ……眼下に広がる　圧巻の風景を！\n　たとえ　何千年の時が過ぎようと\n　この栄華は　永遠に　語り継がれるだろうよ。\n<br>\n「そう……平和を愛した　ジャ・クバ陛下と\n　その愛娘　ウルタ皇女の名と共にな！\n　グルなんとかなんて　わしは　知らんぞ。": "Look at the breathtaking scenery\nspread out below you! Thousands of\nyears may pass, but the glory of this\n<br>\nplace will be remembered forever. Yes,\nwith the name of His Majesty the\npeace-loving Ja Kuba and his beloved\n<br>\ndaughter Princess Ulta! I don't know\nanything about Guru."
+  },
+  "200366": {
+    "<attr><feel_sad_lv1><end_attr>「うあ……難しいことはわかんねです。\n　ただ　奥様のごきげんが　よろしくねえのは\n　おいら　困っちまうですよ……。": "<attr><feel_sad_lv1><end_attr>I don't know anything difficult.\nHowever, I am troubled that your\nwife's cheery is not good."
+  },
+  "200367": {
+    "<attr><feel_sad_lv1><end_attr>「俺たち　一般の国民は　なんにも悪くねえ！\n　そそのかされた皇女様と　グルヤンラシュが\n　全部　悪いんだ。そうだろ！？\n<br>\n「お触れが出て　ホントのことがわかってから\n　ガテリア難民に　復讐されそうな気がして\n　おちおち　路地裏も歩けねえよお……。": "<attr><feel_sad_lv1><end_attr>We, the general public, are not to\nblame! It's all the fault of the\nPrincess and Guryan Rush who seduced\n<br>\nus. Right? I can't even walk down the\nback alley without feeling like the\nGateria refugees are going to get\n<br>\nrevenge on me after they find out the\ntruth."
+  },
+  "200368": {
+    "<attr><feel_happy_lv1><end_attr>「先日　五大陸一周旅行に　出かけたんだけどねえ\n　各大陸の様子を　聞きたいなら\n　大金持ちのぼくが　教えてあげてもいいよ！\n<br>\n「どの大陸の様子が　聞きたいんだい？\n<select_mem>\nオーグリード大陸\nウェナ諸島\nエルトナ大陸\nプクランド大陸\n聞かない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv1><end_attr>I went on a trip around the five\ncontinents the other day, and if you\nwant to ask me what it was like on\n<br>\neach continent, I'm a rich man and I\ncan tell you! Which continent do you\nwant to hear about?\n<select_mem>\nOgreed Continent\nWena Islands\nEltona Continent\nPukuland Continent\nNever heard of\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "200369": {
+    "<attr><feel_happy_lv1><end_attr>「ほかに　どの大陸の様子が　聞きたいんだい？\n<select_mem>\nオーグリード大陸\nウェナ諸島\nエルトナ大陸\nプクランド大陸\n聞かない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv1><end_attr>What other continents do you want to\nhear about?\n<select_mem>\nOgreed Continent\nWena Islands\nEltona Continent\nPukuland Continent\nNever heard of\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "200370": {
+    "<attr><feel_happy_lv1><end_attr>「ぼかぁ　オーグリード大陸というのは\n　じつに　野蛮な土地だと　感じてしまったね！\n<br>\n「野性全開で　獣の皮をまとっただけの\n　創意工夫のカケラもない　ファッション！\n　生きていて　はずかしくないのかねえ？\n<br>\n「その点　ぼくら　ウルベア文明の \n　なんと美しく　洗練されていることよ。\n　また　ドワーフが　勝ってしまったか……。<bw_break>": "<attr><feel_happy_lv1><end_attr>I'm getting the feeling that Ogreed\nContinent is a very barbaric place! A\nwild, beast-skinned, fashionable place\n<br>\nwithout a shred of ingenuity! Is it a\nshame to live in Kunai? How beautiful\nand refined our Urbea civilization is!\n<br>\nDwarfs have won again.<bw_break>"
+  },
+  "200371": {
+    "<attr><feel_happy_lv1><end_attr>「ぼかぁ　ウェナ諸島というのは\n　じつに　無粋な土地だと　感じてしまったね！\n<br>\n「土地っていうか　ほぼ　海なんだけどね！ \n　砂浜で　魚を焼く女どもは　やかましいし\n　男は裸同然で　うろついてて　ウンザリさ。\n<br>\n「その点　ぼくら　ウルベア文明の \n　なんと美しく　洗練されていることよ。\n　また　ドワーフが　勝ってしまったか……。<bw_break>": "<attr><feel_happy_lv1><end_attr>I have a feeling that the Wena Islands\nis a very tactless place! It's not\nreally a land, it's more like an\n<br>\nocean!The women grilling fish on the\nbeach is repulsive, and the men\nwandering around naked is disgusting.\n<br>\nI am disgusted by the beauty and\nsophistication of our Urbea\ncivilization. Dwarfs have won again.<bw_break>"
+  },
+  "200372": {
+    "<attr><feel_happy_lv1><end_attr>「ぼかぁ　エルトナ大陸というのは\n　じつに　偏狭な土地だと　感じてしまったね！\n<br>\n「部屋に入ろうとすれば　クツを脱げだの\n　森に入ろうとすれば　身体を洗って清めろだの\n　まるで　ドワーフを　泥ダンゴ扱いさ！\n<br>\n「その点　ぼくら　ウルベア文明の\n　なんと美しく　洗練されていることよ。\n　また　ドワーフが　勝ってしまったか……。<bw_break>": "<attr><feel_happy_lv1><end_attr>I'm finding Eltona Continent to be a\nvery insular place! When you go into a\nroom, you're told to take off your\n<br>\nshoes, and when you go into the woods,\nyou're told to wash and cleanse\nyourself, as if Dwarf were a mud\n<br>\nsling! How beautiful and refined we\nUrbea civilization are! Dwarf has won\nagain.<bw_break>"
+  },
+  "200373": {
+    "<attr><feel_happy_lv1><end_attr>「ぼかぁ　プクランド大陸というのは\n　じつに　ウザい土地だと　感じてしまったね！\n<br>\n「町を歩いてると　プクリポが集まってきて\n　雑な一発ギャグで　笑わせようとしてくるんだ！\n　やめろ！　ツッコミが　間に合わない！\n<br>\n「その点　ぼくら　ウルベア文明の\n　なんと美しく　洗練されていることよ。\n　また　ドワーフが　勝ってしまったか……。<bw_break>": "<attr><feel_happy_lv1><end_attr>I have found Pukuland Continent to be\na very annoying place! When I walk\naround town, Pukulipo gather around\n<br>\nand try to make me laugh with their\ncrude one-liners! Stop it! I'll never\nmake it to the Sobering Slap in time!\n<br>\nHow beautiful and sophisticated we\nUrbea civilization are! Dwarf has won\nagain.<bw_break>"
+  },
+  "200581": {
+    "「しかし　私は　情熱のめんこバトラー……。\n　いつでも　この教会で　君の挑戦を受けよう。": "But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church."
+  },
+  "200582": {
+    "「だが　勝負は　はじまったばかり。\n　まだまだ　これからだぞッ！<bw_break>": "But the game has just begun. This is\njust the beginning!<bw_break>"
+  },
+  "200583": {
+    "「しかし　私は　情熱のめんこバトラー……。\n　いつでも　この教会で　君の挑戦を受けよう。": "But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church."
+  },
+  "200584": {
+    "「しかし　私は　情熱のめんこバトラー……。\n　いつでも　この教会で　君の挑戦を受けよう。": "But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church."
+  },
+  "200585": {
+    "「しかし　私は　情熱のめんこバトラー……。\n　いつでも　この教会で　君の挑戦を受けよう。": "But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church."
+  },
+  "200586": {
+    "「しかし　私は　情熱のめんこバトラー……。\n　いつでも　この教会で　君の挑戦を受けよう。": "But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church."
+  },
+  "200587": {
+    "「しかし　私は　情熱のめんこバトラー……。\n　いつでも　この教会で　君の挑戦を受けよう。": "But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church."
+  },
+  "200623": {
+    "<attr><feel_angry_lv1><end_attr>「んまー！　あーた　どちら様ザマス？\n　あたくし　探し物してるザマス！\n　あーたの相手をしてる　時間はないザマスよ！": "<attr><feel_angry_lv1><end_attr>Oh, no! Who are you? I'm looking for\nsomething! I don't have time for you!"
+  },
+  "200799": {
+    "「ピピッ！　入城許可証　未確認…………\n　コチラニ来テ　認証ヲ　済マセルヨウニ！": "Bleep! Entry Permit Unconfirmed Please\ncome here and complete the\nauthorization!"
+  },
+  "200801": {
+    "<icon_exc>「あらーと　あらーと。\n　ウルベア帝国城ヘ　入ルニハ\n　入城許可証ガ　必要ダ！": "<icon_exc>Oh, no, oh, no, oh, no. You need an\nEntry Permit to enter Urbea Empire\nCastle!"
+  },
+  "200866": {
+    "「当店は　王室御用達の仕立て屋ですの。\n　わたくし　あの　グルヤンラシュ様から\n　直々に　オーダーいただいてましたのよ。\n<br>\n「それなのに　まさか　グルヤンラシュ様が\n　あんなことに　なるなんて……。\n　そのうえ　筆頭研究員様まで　行方不明ですの！\n<br>\n「筆頭研究員様のために　お作りした服は\n　赤と緑が　ビビッドに決まった\n　会心のデザインでしたのに　残念ですの～。\n<br>\n「あなた　筆頭研究員様に代わる　この服に\n　ふさわしい方を　探してきてくれませんですの？\n　このままじゃ　服が　かわいそうですの！": "We are a royal tailor. I had received\nan order directly from that Guryan\nRush. And yet, I never thought that\n<br>\nMr. Guryan Rush would turn out like\nthat. And on top of that, Mr. Pen head\nresearcher is missing too! It's a\n<br>\nshame~, because the dress I made for\nMr. Penhead was a design of my heart,\nwith a vivid red and green color\n<br>\nscheme. Would you please find a\nsuitable replacement for Master\nPenhead? I feel sorry for the outfit\n<br>\nas it is!"
+  },
+  "200867": {
+    "「そうこなくっちゃですの！\n　こっちで　ある程度\n　目星は　付けてあるんですのよ！\n<br>\n「帝国技術庁の　第一庁舎にいる　チュカカ様\n　パカル様　ツォンデム様……この　３名の\n　研究員の方々を　当たってほしいんですの。\n<br>\n「どの方も　魔神機開発部の主任を\n　務めてるそうなので　次の筆頭候補として\n　見どころが　あると思いますのよ。\n<br>\n「３名それぞれに　筆頭研究員の服を着てもらい\n　その姿を　写真に　収めてきてほしいんですの。\n　よろしく頼みますの！": "That's the way it should be! We\nalready have a good idea of what we're\nlooking for! Mr. Chukaka, Mr. Pacal,\n<br>\nand Mr. Tsondem, these three\nresearchers at the Empire Tech\nAgency's first office are the ones I\n<br>\nwant you to look into. All of them are\nworking as chiefs of the magical\nmachine development department, so I\n<br>\nthink they would be great candidates\nto be the next head of the Pen. I want\neach of the three to wear the Top\n<br>\nResearcher Suit and capture their\nappearance on film. Thank you!"
+  },
+  "200868": {
+    "「そうこなくっちゃですの！\n　……って　あなた　頼まれごとが\n　いっぱいですの。\n<br>\n「気持ちは　ありがたいのですけど\n　少し整理してから　また　来てほしいですの！": "That's the way it should be! I have a\nlot of favors to do for you. I\nappreciate your concern, but I'd like\n<br>\nyou to sort things out before you come\nback again!"
+  },
+  "200869": {
+    "<attr><feel_sad_lv2><end_attr>「……そうですの。\n　一般の方には　関係ない話でしたの……。\n　残念ですの……。": "<attr><feel_sad_lv2><end_attr>That's right. This is not for the\ngeneral public. It's a pity."
+  },
+  "200870": {
+    "<pc>は\n筆頭研究員の服（だいじなもの）を　手に入れた！<me 60>": "<pc> received Top Researcher\nSuit (Key Item)!<me 60>"
+  },
+  "200871": {
+    "「筆頭研究員様に代わる　その服に\n　ふさわしい方を　探してきてほしいんですの！\n　このままじゃ　服が　かわいそうですの！<open_irai><bw_break>": "I want you to find a suitable\nreplacement for Mr. Penhead! I don't\nwant to see those clothes go to waste!<open_irai><bw_break>"
+  },
+  "200872": {
+    "「帝国技術庁の　第一庁舎にいる　チュカカ様\n　パカル様　ツォンデム様……\n<br>\n「この　３名の　主任研究員の方々が\n　見どころがあると思いますの。\n<br>\n「３名それぞれに　筆頭研究員の服を着てもらい\n　その姿を　写真に　収めてきてほしいんですの。\n　よろしく頼みますの！": "We have three PI's at the Empire Tech\nAgency, Mr. Chukaka, Mr. Pacal, and\nMr. Tsondem, who are in the first\n<br>\nbuilding of the Empire Tech Agency. I\nwould like each of them to wear the\nTop Researcher Suit and have them\n<br>\nphotographed. Thank you very much!"
+  },
+  "200873": {
+    "「待ってましたの！\n　３名の主任研究員の写真は　撮れたんですの？": "We've been waiting for you! Did you\nget the three PI's on tape?"
+  },
+  "200874": {
+    "「あら　まだですの？\n　その服に　ふさわしい方が\n　見つかるといいのですけど……。": "Oh, no, not yet? I hope you can find\nsomeone who fits that dress."
+  },
+  "200875": {
+    "<attr><feel_angry_lv2><end_attr>「あら　１枚しかありませんの？\n　……なんですって？　他のふたりには\n　断られた？\n<br>\n「まあ！　なんて　失礼な方たちですの！\n　この服を着られることが　どんなに\n　名誉なことか　わかってないんですの！\n<br>\n「そんな　無礼者は\n　こっちから　願い下げですの！\n<br>\n「この写真の方なら　きっと　筆頭研究員の服に\n　ふさわしいに　ちがいありませんの。\n　さっそく　見せてもらいますの。": "<attr><feel_angry_lv2><end_attr>Oh, you only have one? I beg your\npardon? The other two turned you down?\nOh, dear! How rude of them! They have\n<br>\nno idea what an honor it is to be\nallowed to wear this dress! We don't\nwant such rudeness! I'm sure that the\n<br>\nperson in this photo-true is qualified\nfor the Top Researcher Suit. I'll have\na look at it right away."
+  },
+  "200876": {
+    "<attr><feel_sad_lv2><end_attr><icon_exc>「まあ！　なんですの！　この写真！\n　筆頭研究員様とは　似ても似つきませんの！\n　こんな人に着られたら　服が泣きますの！\n<br>\n「やっぱり　筆頭研究員様に　代わる人なんて\n　そう　カンタンには　見つからないですの……。\n<br>\n「せめて　筆頭研究員様と　同じ種族の方が\n　どこかに　いればいいですのに……。": "<attr><feel_sad_lv2><end_attr><icon_exc>Well! What is it? This picture true!\nIt bears no resemblance to the pen-\nheaded researcher! My clothes would\n<br>\ncry if they were worn by such a\nperson! After all, it's not so easy to\nfind someone who can replace Mr.\n<br>\nPenhead. At the very least, it would\nbe nice if there was someone somewhere\nwho has the same races as you."
+  },
+  "200877": {
+    "<icon_exc>「……って　あなた\n　よく見たら　人間じゃないですの！\n　ちょっと　この服を　着てみてほしいですの！": "<icon_exc>If you take a closer look, you'll see\nthat it's not human! I'd like you to\ntry on this dress!"
+  },
+  "200878": {
+    "「あらまあ！　とっても　似合ってますの！\n　面影も　どことなく　筆頭研究員様に似ているし\n　遠目で見たら　見間違いますの！\n<br>\n「こんなにも　立派に　シックに\n　着こなしてもらって　この服も　喜んでますの！\n　仕立て屋冥利に　つきますの！<bw_break>": "Oh My! It suits you very well! The\nface looks somewhat like Mr.\nPenhead's, and from a distance you\n<br>\ncould easily mistake him for someone\nelse! I'm so pleased to see you\nwearing it so splendidly and so\n<br>\nchicly! It's the best thing for a\ntailor!<bw_break>"
+  },
+  "200879": {
+    "「あなた以上に　この服が　似合う人なんて\n　もう　見つかりっこないですの。\n<br>\n「わたくし　決めましたの！\n　今後　どんな方が　筆頭研究員になろうと\n　この服を着てもらうのは　やめますの。\n<br>\n「お世話に　なりましたの。\n　お礼に　これを　受け取ってほしいですの！": "You'll never find anyone who looks\nbetter in this dress than you do. I\nhave made my decision! From now on, no\n<br>\nmatter who becomes the head pen\nresearcher, I will not have you wear\nthis dress. Thank you for your help. I\n<br>\nwould like you to accept this in\nreturn!"
+  },
+  "200880": {
+    "「はぁ～　満足しましたの。\n<br>\n「この服は　あなたになら\n　いくらでも　売ってあげますのよ。\n　ぜひ　いらしてほしいですの！": "I'm satisfied. I'll sell these clothes\nto you for as much as you want. I'd\nlike you to come!"
+  },
+  "200881": {
+    "「やっぱり　筆頭研究員様に　代わる人なんて\n　そう　カンタンには　見つからないですの……。<open_irai><bw_break>": "After all, it's not so easy to find\nsomeone to replace Mr. Penhead.<open_irai><bw_break>"
+  },
+  "200882": {
+    "「せめて　筆頭研究員様と同じ　種族の方が\n　どこかに　いればいいですのに……。": "It would be nice if there was at least\none researcher somewhere who shares\nthe same races as Mr. Penhead."
+  },
+  "200883": {
+    "サテテに　ツォンデム主任の写真を\n渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Chief Tsondem Photo to\nSatete?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "200884": {
+    "<pc>は　サテテに\nツォンデム主任の写真を　渡した！": "<pc> gave Satete the Chief\nTsondem Photo!"
+  },
+  "200885": {
+    "サテテは　ツォンデム主任の写真を\nまじまじと　ながめた。": "Satete gazed intently at Chief Tsondem\nPhoto."
+  },
+  "200886": {
+    "<pc>は　サテテに\n筆頭研究員の服を　着せられた！<se GS_009_1 0>": "<pc> was given the Top\nResearcher Suit by Satete!<se GS_009_1 0>"
+  },
+  "200887": {
+    "「あなたには　筆頭研究員の服を\n　売ってあげる約束でしたの！　ふさわしい方が\n　見つかって　よかったですの！　それでは……<bw_break>": "I promised to sell you the Top\nResearcher Suit! I'm glad you found\nsomeone suitable! Good bye.<bw_break>"
+  },
+  "200952": {
+    "「感無量！　私財をなげうって　開発した\n　本を売る自動販売機が　ついに完成しました。\n　おそらく　世界初でしょうな！　ガハハ！": "I am deeply moved! The vending machine\nthat I spent my personal fortune to\ndevelop has finally been completed.\n<br>\nProbably the first of its kind in the\nworld! Gahaha!"
+  },
+  "200953": {
+    "どうやら　本を売る機械のようだ。\nしかし　ゴールドでは　購入できないらしい……。": "It appears to be a machine that sells\nbooks. But apparently you can't buy\nthem with gold."
+  },
+  "200954": {
+    "「昨今　万能浮遊椅子のせいで　国民の運動不足が\n　社会問題に　なってますからねぇ。\n　そこで　本を売る　自動販売機ですよ。\n<br>\n「私財をなげうって開発した　この販売機で\n　大金ガッポガッポ！　同時に　社会問題も解決！\n　……カラクリ　お聞きになりたいです？<yesno><break>": "The lack of exercise has become a\nsocial problem recently because of the\nuniversal floating chairs. That's why\n<br>\nwe developed a vending machine that\nsells books. I developed this vending\nmachine with my own money and made a\n<br>\nlot of money! At the same time, it\nsolves a social problem! Would you\nlike to hear how it works?<yesno><break>"
+  },
+  "200955": {
+    "「さいですか……。誰かに話したくて\n　ウズウズしてるんですが　興味のない　お人に\n　話して聞かせるほど　ヤボじゃございません。": "Is that right? I'm itching to talk to\nsomeone, but I'm not a fool enough to\ntalk to someone who isn't interested."
+  },
+  "200956": {
+    "「では　ご説明を……。販売機で　売ってる本は\n　どれもこれも　続きが気になる内容でしてね。\n<br>\n「でも　続きが読みたきゃ　帝都の外にある\n　販売機まで　買いにいかねば　ならんのです。\n<br>\n「販売機を置いた場所は　どこも　万能浮遊椅子で\n　行けるような　整地された場所ではなく\n　自然と　足を使うほかない　未開の地ばかり！\n<br>\n「続きを読みたい　という欲望に駆られ\n　運動せざるをえない状況に　人を追いこむ。\n　そして　商品が売れるって寸法です。ガハハ！": "Let me explain. The books sold at the\nvending machines all have a story that\nmakes me want to read the rest of the\n<br>\nbook. But if you want to read the\nrest, you have to go to the vending\nmachines outside the capital to buy\n<br>\nthem. The places where the vending\nmachines are located are not well-\ndeveloped places that can be accessed\n<br>\nwith a universal floating chair, but\nare all uncharted areas where you have\nno choice but to use nature and your\n<br>\nfeet! The desire to read more puts\npeople in a situation where they have\nno choice but to exercise. And the\n<br>\nproduct sells. Gahaha!"
+  },
+  "200957": {
+    "本を売る　販売機だ。売り物の中に\n週刊ウルベア魔神兵１巻という本が　ある。\n<br>\n磁気式図書購入札を使って\n週刊ウルベア魔神兵の　１巻を\n購入しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "It is a vending machine selling books.\nAmong the books for sale is Weekly\nUrbea Aztech Vol. 1. Would you like to\n<br>\npurchase Weekly Urbea Aztech Vol. 1\nusing the Magnet Book Purchase Tag?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "200958": {
+    "<pc>は\n週刊ウルベア魔神兵１巻（だいじなもの）を\n手に入れた。<me 60>\n<br>\n週刊ウルベア魔神兵は　全６巻だ。\n抜けている巻を　探しにいこう！": "<pc> received Weekly Urbea\nAztech Vol. 1 (Key Item).<me 60> Urbea Aztech Weekly has 6 volumes.\nLet's look for the missing volume!"
+  },
+  "200959": {
+    "<pc>は\n週刊ウルベア魔神兵１巻（だいじなもの）を\n手に入れた。<me 60>\n<br>\nこれで　すべての　週刊ウルベア魔神兵を\n手に入れた。グランゼドーラ城にいる\nフィロソロスに　渡しにいこう！": "<pc> received Weekly Urbea\nAztech Vol. 1 (Key Item).<me 60> Now that all the Urbea Aztech Weekly\nhave been received, let's go to\nPhilosolos at the Gran Zedora Castle\n<br>\nand give them to him!"
+  },
+  "200960": {
+    "本を売る　販売機だ。\n週刊ウルベア魔神兵１巻は　購入ずみだ。": "Selling books I already bought Weekly\nUrbea Aztech Vol. 1."
+  },
+  "201033": {
+    "「やっぱり　筆頭研究員様に　代わる人なんて\n　そう　カンタンには　見つからないですの……。\n<br>\n「せめて　筆頭研究員様と同じ　種族の方が\n　どこかに　いればいいですのに……。": "It is not so easy to find a\nreplacement for Mr. Penhead. At the\nvery least, it would be nice if there\n<br>\nwas someone somewhere with the same\nraces as Mr. Penhead."
+  },
+  "201346": {
+    "「ヨウコソ　ウルベア地下帝国ヘ。\n　旅人でーた更新中………………登録完了。\n　アナタハ　１０８２３１５番目ノ　旅人デス。\n<br>\n「帝都滞在ヲ　許可シマス。タダシ　入城許可証ヲ\n　持タナイ旅人ニハ　ウルベア帝国城ノ見学\n　ウルタ皇女ヘノ謁見ハ　許可サレマセン。\n<br>\n「尚　入城許可証ノ発行ハ\n　現在　オコナッテオリマセン。 \n　アラカジメ　ゴ了承クダサイ。": "Yokoso Urbea Underground City -\nTravelers' Register You are the\n1082315th traveler in Urbea\n<br>\nUnderground City. You are the\n1082315th traveler. You are permitted\nto stay in the capital. However,\n<br>\ntravelers without an Entry Permit will\nnot be allowed to visit the Urbea\nEmpire Castle or have an audience with\n<br>\nPrincess Ulta. Furthermore, the\nissuance of Entry Permit is currently\nnot permitted.Please acknowledge this."
+  },
+  "201350": {
+    "「入城許可証ヲ　持タナイ旅人ニハ\n　ウルベア帝国城ノ見学ハ　許可サレマセン。\n　尚　許可証ノ発行ハ　オコナッテオリマセン。": "Travelers without an Entry Permit will\nnot be allowed to visit the Urbea\nEmpire Castle. Furthermore, no permit\n<br>\nwill be issued."
+  },
+  "201351": {
+    "「コノ先ハ　ウルベア地下帝国ノ　帝都。\n　コチラデ　旅人でーた登録ヲ　オコナイ\n　滞在許可ヲ　得テクダサイ。": "This is the imperial capital of Urbea\nUnderground City. Please register as a\ntraveler here and obtain permission to\n<br>\nstay."
+  },
+  "201352": {
+    "<attr><feel_angry_lv1><end_attr>「んまー　あーた！\n　道具を　ひとつも　持ってないザマスよ！": "<attr><feel_angry_lv1><end_attr>Oh, my God, you guys! I don't have a\nsingle tool!"
+  },
+  "201353": {
+    "<attr><feel_angry_lv1><end_attr>「あーた！　全然　違うザマス！\n　あたくしが探してるのは　銀のウルベアめんこ！\n　銀貨のように　美しいめんこザマス！": "<attr><feel_angry_lv1><end_attr>Aata! Not at all! What I'm looking for\nis a silver Urbeapog!"
+  },
+  "201354": {
+    "<attr><feel_angry_lv1><end_attr>「キーッ！　役立たずには\n　何も　教えてやらないザマスよ！": "<attr><feel_angry_lv1><end_attr>Keek! I'm not going to teach you\nanything you don't know!"
+  },
+  "201355": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>「……<pc>サマ　聞キマシタカ？\n　ウルタ皇女ニ　謁見スルニハ\n　入城許可証ガ　必要ノヨウデスネ。\n<br>\n「入城許可証ヲ　手ニ入レルタメ \n　人脈ガ広ク　情報ニ通ジタ　有力者ヲ\n　探ス必要アリト　判断。\n<br>\n「人脈ガ広ク　情報ニ通ジタ　有力者ヲ探ス \n　最適解ヲ　検索中………………\n<br>\n「検索結果　ウルベア式めんこ。\n　現在　帝都デ　大流行中。\n　めんこ愛好者ハ　人脈ガ広イ可能性大。\n<br>\n「ウルベアめんこトハ……\n　一般的ナ　紙製めんこト　異ナリ\n　金　銀　銅ナドデ形成サレタ　円盤状ノ金属片。\n<br>\n「遊ビ方ハ　独自ノ　ろーかるるーるガ採用サレ \n　これくしょん対象トシテモ　大人気。\n　帝都デ　めんこ愛好者ヲ　探シテミマショウ！": "<se_nots S4_FOR7_001 0><pipipi_mid><pc>Sama, are you listening?\nI need an Entry Permit to gain an\naudience with Princess Ulta. In order\n<br>\nto obtain an Entry Permit, we need to\nfind a powerful person who is well-\nconnected and well-informed. Searching\n<br>\nfor the best solution to find a well-\nconnected and well-informed person\nSearching for the best solution Search\n<br>\nresults Urbea style pog. It is\ncurrently very popular in the capital.\nUrbea pog is currently very popular in\n<br>\nthe capital. Urbeapog is a disc-shaped\npiece of metal made of gold, silver,\nand copper, different from ordinary\n<br>\npaper pog. It uses a unique ro-ro-ru-\nru method of play, and is very popular\namongst pog lovers in the Imperial\n<br>\nCity. Let's look for pog lovers in the\nImperial Capital!"
+  },
+  "201356": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>「入城許可証ヲ　手ニ入レルタメ \n　人脈ガ広ク　情報ニ通ジタ　有力者ヲ\n　探ス必要アリト　判断。\n<br>\n「検索結果　ウルベアめんこ。\n　現在　帝都デ　大流行中。\n　めんこ愛好者ハ　人脈ガ広イ可能性大。\n<br>\n「ウルベアめんこトハ……\n　一般的ナ　紙製めんこト　異ナリ\n　金　銀　銅ナドデ形成サレタ　円盤状ノ金属片。\n<br>\n「遊ビ方ハ　独自ノ　ろーかるるーるガ採用サレ \n　これくしょん対象トシテモ　大人気。\n　帝都デ　めんこ愛好者ヲ　探シテミマショウ！": "<se_nots S4_FOR7_001 0><pipipi_mid>To obtain an Entry Permit, it is\nnecessary to search for a person who\nis well connected and well informed.\n<br>\nThe search result is Urbeapog. It is\ncurrently very popular in the capital.\nUrbeapog lovers are likely to be well-\n<br>\nconnected. Urbeapog is a disk-shaped\npiece of metal made of gold, silver,\nand copper, different from ordinary\n<br>\npaper pog. It uses a unique ro-ro-ru-\nru method of play, and is very popular\namongst pog lovers in the Imperial\n<br>\nCity. Let's look for pog lovers in the\nImperial Capital!"
+  },
+  "201357": {
+    "<se_nots S4_FOR7_001 0><pipipi_mid>「任務了解。当該者ノ　特別ナめんこヲ\n　取リ戻セバ　情報ヲ　得ラレル可能性。\n　スカルガルーヲ　コラシメニ　行キマショウ！": "<se_nots S4_FOR7_001 0><pipipi_mid>Mission understood. If you retrieve\nthe special pog of the person in\nquestion, you may be able to obtain\n<br>\ninformation. Guaardvark is to be\ncollapsed!"
+  },
+  "201358": {
+    "<pc>は　<%sEV_LUA_STRING1>を　くりだした！\nウッツァ神父は　銅のめんこを　くりだした！": "<pc> delivered\n<%sev_lua_strings1>! Father Uzza\ndelivered a copper pog!"
+  },
+  "201359": {
+    "<pc>は　<%sEV_LUA_STRING1>を　くりだした！\nウッツァ神父は　金のめんこを　くりだした！": "<pc> delivered a\n<%sev_lua_strings1>! Father Uzza\ndelivered a golden pog!"
+  },
+  "201360": {
+    "<pc>は　<%sEV_LUA_STRING1>を　くりだした！\nウッツァ神父は　銀のめんこを　くりだした！": "<pc> delivered a\n<%sev_lua_strings1>! Father Uzza\ndelivered a silver pog!"
+  },
+  "201361": {
+    "「あっ　お前って……\n　道具を　ひとつも　持ってないじゃーん。": "You don't have a single tool, do you?"
+  },
+  "201362": {
+    "「ああ　それじゃなくってさー。\n　オレがほしいのは　銅のウルベアめんこ！\n　パッと見で　コインみたいに見えるやーつ！": "Oh, no, that's not what I want. I want\na copper Urbeapog that looks like a\ncoin!"
+  },
+  "201363": {
+    "「ちぇっ。ちょっと期待したのになあ……。": "Damn. I had high hopes for this."
+  },
+  "201389": {
+    "「ヨウコソ　ウルベア地下帝国ヘ。\n　アナタノ　帝都滞在ヲ　許可シマス。": "You are now in Urbea Underground City.\nYou are allowed to stay in the\nImperial City."
+  },
+  "202225": {
+    "<attr><feel_happy_lv1><end_attr>「へへっ　そりゃあ　残念だ……。<bw_break>": "<attr><feel_happy_lv1><end_attr>That's too bad.<bw_break>"
+  },
+  "202437": {
+    "<icon_exc>「入城許可証ヲ　確認……登録完了！\n　当該ノ　ウルベア帝国城ヘノ　入城ヲ認メル。\n　以後　許可証ハ不要。本機ガ回収スル。": "<icon_exc>Entry Permit confirmed and registered!\nEntry into the Urbea Empire Castle is\ngranted. No further permits are\n<br>\nrequired. This machine will be\nretrieved."
+  },
+  "202438": {
+    "<pc>は　防衛魔神兵０５４号に\n入城許可証を　渡した。": "<pc> gave Entry Permit to\nAztech Guard No. 054."
+  },
+  "202836": {
+    "便せん屋ツクシに\nコンパクトギアを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Compact Gear to Paper\nShop Tsukushi?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "202837": {
+    "<pc>は　便せん屋ツクシに\nコンパクトギアを　渡した！": "<pc> gave Compact Gear to\nPaper Shop Tsukushi!"
+  },
+  "202874": {
+    "「最近の若い子たちは　つまんないねぇ。\n　また　昔　家を貸したあの子たちみたいに\n　気概がある子を　手助けしたいもんだよ。": "Young people these days are so boring.\nI wish I could help those who have\nspirit like those kids I rented out my\n<br>\nhouse to in the past."
+  },
+  "202875": {
+    "<attr><feel_happy_one><end_attr>「おっ！　いいよ。話してやろうじゃないか！\n　今時は　ああいう気概のある若者が少ないって\n　ちょうど　なげいてたとこだったんだよ！<bw_break>": "<attr><feel_happy_one><end_attr>Whoa! All right. I'll tell you what!\nYou know, I was just saying the\nLassiter's Lassiter's Lassiter's\n<br>\nLassiter's Lassiter's Lassiter's\nLassiter's Lassiter's Lassiter!<bw_break>"
+  },
+  "202876": {
+    "<attr><feel_normal_lv1><end_attr>「ちょうど　１０年前くらいだったかねえ。\n　突然　文無しの人間　ふたり組が　都に来てね。\n　お情けで　空いてた家を　貸してやったんだよ。\n<br>\n「ひとりは　まだ若造だったグルヤンラシュで\n　もうひとりは　<kyodai>って名前の\n　なんだか　不思議な技を　使える子だったよ。\n<br>\n「それで　仕事がないって言うから　教会の雑用を\n　紹介してやってね。神父が　いろいろと\n　任せてみたら　これが　役に立つ子たちでさ。\n<br>\n「帝都じゅうで　ふたりの働きが　評判になって\n　そのおかげか　城で働くことになってさ。\n　あたしの貸家を　出ていっちまった。<bw_break>": "<attr><feel_normal_lv1><end_attr>It was about 10 years ago. Suddenly,\ntwo broke people came to the capital.\nI lent them my empty house as a favor.\n<br>\nOne was a young Guryan Rush, and the\nother was a boy by the name of\n<kyodai> who could do some kind\n<br>\nof mysterious trick. So when they said\nthey were out of work, I introduced\nthem to the chores at Church. Father\n<br>\nentrusted them with various things,\nand they turned out to be very useful.\nTheir work became well known\n<br>\nthroughout the capital, and they ended\nup working at the castle. They moved\nout of my rental house.<bw_break>"
+  },
+  "202877": {
+    "<attr><feel_happy_lv1><end_attr>「出ていく時　何者とも知れない自分たちに\n　家を貸してくれた礼にって　すごい大金を\n　気前よく　置いていってくれたよ。\n<br>\n「今となっちゃ　いろいろ言われてるけど\n　夢のある若者ってのは　見ていて気分がいい。\n　それにチカラを貸せて　あたしゃ満足だったよ！\n<br>\n「当時の　あの子たちのことなら　教会にいる \n　ウッツァ神父が　もっと　くわしいから\n　興味があったら　聞いてみるといいさね。": "<attr><feel_happy_lv1><end_attr>When we left, he generously left us a\nhuge sum of money as a thank-you for\nrenting the house to us, who knew\n<br>\nnothing about us. I know people say a\nlot of things about young people\nnowadays, but it feels good to see a\n<br>\nyoung person with a dream. I was happy\nto be able to help them! Father Uzza\nat Church knows a lot more about those\n<br>\nkids back then, so if you're\ninterested, you can ask him."
+  },
+  "202878": {
+    "オヤヤに　グルヤンラシュについて\nインタビューしてみますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to interview Oyaya\nabout Guryan Rush?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "202879": {
+    "<pc>は　オヤヤに\n昔のグルヤンラシュについて　たずねてみた！": "<pc> asked Oyaya about the\nold Guryan Rush!"
+  },
+  "202880": {
+    "オヤヤの話は　磁帯式録音機に\nバッチリ　録音されたようだ！\n次は　ウッツァ神父に　話を聞きにいこう！": "Oyaya's story seems to have been\nperfectly recorded on the Sound\nRecorder! Let's go talk to Father Uzza\n<br>\nnext!"
+  },
+  "202881": {
+    "<attr><feel_happy_one><end_attr>「前回の　めんこ勝負は　楽しかったぞ。\n　また　手合わせしたいものだな。": "<attr><feel_happy_one><end_attr>The last pog match was a lot of fun.\nI'm looking forward to another match."
+  },
+  "202882": {
+    "<attr><feel_normal_one><end_attr>「おっと　つい　雑談をしてしまったな。\n　それでは……<bw_break>": "<attr><feel_normal_one><end_attr>Oops, I got a little chatty. Well\nthen.<bw_break>"
+  },
+  "202883": {
+    "<attr><feel_normal_one><end_attr>「ふむ……\n　昔のグルヤンラシュについて　教えてほしいと？\n<br>\n「よかろう！　知りたいならば　全力の私に\n　ウルベアめんこバトルで\n　ふたたび　勝利してみせよ！<bw_break>": "<attr><feel_normal_one><end_attr>Hmm, you want me to tell you about the\nold Guryan Rush? Very well! If you\nwant to know, I'll give it my all and\n<br>\nwin again in the Urbeapogbattle!<bw_break>"
+  },
+  "202884": {
+    "<attr><feel_normal_one><end_attr>「……むっ？　ウルベアめんこが　足りないぞ。\n　金・銀・銅の３種類を　ひとつずつ\n　どうぐかばんに入れてから　声をかけたまえ。": "<attr><feel_normal_one><end_attr>Hmm? You are short of Urbeapog. Put\none each of gold, silver and bronze in\nyour item bag and call out to me."
+  },
+  "202885": {
+    "<attr><feel_normal_lv1><end_attr>「めんこバトルのルールは簡単だ。\n　お互いに　ひとつずつのめんこを\n　同時に出して　競いあう。\n<br>\n「金のめんこは　銀のめんこに　強い。\n　銀のめんこは　銅のめんこに　強い。\n　そして　銅のめんこは　金のめんこに　強い！\n<br>\n「このように　三すくみで勝敗を決めるのだ。\n　今回は　１回きりの　真剣勝負としよう！\n　本気の私に　勝てるかな？　では……ゆくぞッ！": "<attr><feel_normal_lv1><end_attr>The rules of pogbattle are simple.\nEach player competes by placing one\npog at a time. A gold pog is stronger\n<br>\nthan a silver pog. The silver pog is\nstronger than the copper pog. And the\ncopper pog is strong against the gold\n<br>\npog! In this way, the winner is\ndecided by the three pogs. This time,\nlet's make it a one-time true sword\n<br>\nfight! Can you beat the real me? Let's\ngo!"
+  },
+  "202886": {
+    "<attr><feel_normal_one><end_attr>「昔のグルヤンラシュについて　知りたいならば\n　全力の私に　ウルベアめんこバトルで　\n　ふたたび勝利してみせよ！　さあ　勝負するか？<yesno><case 1><close><case 2><break><case_cancel><break><case_end>": "<attr><feel_normal_one><end_attr>If you want to know about the old\nGuryan Rush, let me win again in the\nUrbeapogbattle with all my might! You\n<br>\nwant to play?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>"
+  },
+  "202887": {
+    "<attr><feel_normal_one><end_attr>「そうか　勝負しないんだな。\n　それもまた　いいだろう。\n　それでは……<bw_break>": "<attr><feel_normal_one><end_attr>I see. You don't want to compete.\nThat's also fine. All right, then.<bw_break>"
+  },
+  "202888": {
+    "<attr><feel_angry_one><end_attr>「ウルベアめんこ　一本勝負……\n　ゴーッ！　ファイッ！！\n<select_nc>\n金のめんこを出す\n銀のめんこを出す\n銅のめんこを出す\nルール説明を聞く\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_angry_one><end_attr>Urbeapog One-Shot Match Go! Fight!\n<select_nc>\nput out a gold pog\nProduce a silver pog\nProduce a bronze pog\nRules Explanation\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "202889": {
+    "<attr><feel_normal_lv1><end_attr>「めんこバトルのルールは簡単だ。\n　お互いに　ひとつずつのめんこを\n　同時に出して　競いあう。\n<br>\n「金のめんこは　銀のめんこに　強い。\n　銀のめんこは　銅のめんこに　強い。\n　そして　銅のめんこは　金のめんこに　強い！\n<br>\n「このように　三すくみで勝敗を決めるのだ。\n　今回は　１回きりの　真剣勝負としよう！\n　さあ　準備はいいか？<bw_break>": "<attr><feel_normal_lv1><end_attr>The rules of pogbattle are simple.\nEach player competes by placing one\npog at a time. A gold pog is stronger\n<br>\nthan a silver pog. The silver pog is\nstronger than the copper pog. And the\ncopper pog is strong against the gold\n<br>\npog! In this way, the winner is\ndecided by the three pogs. This time,\nit will be a one-time true sword\n<br>\nfight! Are you ready?<bw_break>"
+  },
+  "202890": {
+    "<attr><feel_normal_one><end_attr><icon_exc>「……見事ッ。\n　私がくりだした　<%sEV_LUA_STRING1>に\n　<%sEV_LUA_STRING2>を出した　君の勝利だ。<me 71><bw_break>": "<attr><feel_normal_one><end_attr><icon_exc>Brilliant. I made <%sEV_LUA_STRING1>\nand you made <%sEV_LUA_STRING2>, you\nwin.<me 71><bw_break>"
+  },
+  "202891": {
+    "<attr><feel_normal_one><end_attr><icon_exc>「……お互いに　<%sEV_LUA_STRING1>を出し　引き分けだ。\n　引き分けは　勝利ではない。残念ッ！<se Joutyu_SE 35><bw_break>": "<attr><feel_normal_one><end_attr><icon_exc>Both sides roll <%sev_lua_string1> and\nit's a tie. A tie is not a victory.\nToo bad!<se Joutyu_SE 35><bw_break>"
+  },
+  "202892": {
+    "<attr><feel_normal_one><end_attr><icon_exc>「……残念ッ。\n　私がくりだした　<%sEV_LUA_STRING1>に\n　<%sEV_LUA_STRING2>を出した　君の敗北だ。<se Joutyu_SE 35><bw_break>": "<attr><feel_normal_one><end_attr><icon_exc>Too bad. You lost by\n<%sEV_LUA_STRING2> on my\n<%sEV_LUA_STRING1>.<se Joutyu_SE 35><bw_break>"
+  },
+  "202894": {
+    "<attr><feel_normal_lv1><end_attr>「おお……本気を出した　この私に勝つとは！\n　こんなに熱い勝負は　久々だったぞ。\n　君の　その強さ　じつに　すばらしい！\n<br>\n「……いいだろう！　では　昔のグルヤンラシュに\n　ついて　私の知っていることは\n　すべて　君に話そうではないか。\n<br>\n「当時　文無しだったグルヤンラシュと\n　彼の相棒の　<kyodai>は　オヤヤさんの家の\n　家賃を払うため　私の手伝いを　始めたのだ。\n<br>\n「それで　教会に　悩み事を相談に来た人の\n　問題を解決する仕事を　任せてみたところ\n　どんどん難題を解決し　都中の評判になってね。\n<br>\n「即座に　解決策を考えだす　グルヤンラシュと\n　不思議な技で　それを実現する　<kyodai>の\n　コンビネーションは　じつに見事なものだった。\n<br>\n「私は　彼らを　下働きで終わらせるのは\n　もったいないと思い　お忍びで　めんこ勝負に\n　来ていた　ジャ・クバ陛下に　紹介したのだよ。\n<br>\n「それで　陛下は　彼らの才能を見込んで\n　ふたりを　城に召し上げ　その時から\n　彼らは　城の神官見習いに　なったのだ。<bw_break>": "<attr><feel_normal_lv1><end_attr>Oh, I'm serious. I can't believe you\nbeat me! I haven't seen such a hot\ncompetition in a long time. Your\n<br>\nstrength is truly amazing! All right!\nNow let me tell you everything I know\nabout the old Guryan Rush. Guryan Rush\n<br>\nand his partner <kyodai>, who\nwas penniless at the time, started\nhelping me to pay the rent on Oyaya's\n<br>\nhouse. So I gave them the job of\nsolving the problems of people who\ncame to Church for help, and they\n<br>\nsolved more and more difficult\nproblems and became well known all\nover the city. The combination of\n<br>\nGuryan Rush, who came up with\nsolutions on the spot, and\n<kyodai>, who did it with\n<br>\nuncanny skill, was quite brilliant. I\nthought it would be a shame to let\nthem end up as servants, so I\n<br>\nintroduced them to His Majesty Ja\nKuba, who had come secretly to play\npog. His Majesty, seeing their talent,\n<br>\ntook them up to the castle, and from\nthat moment on they became apprentices\nto the priests of the castle.<bw_break>"
+  },
+  "202895": {
+    "<attr><feel_normal_one><end_attr>「ふたりの目覚ましい出世は　当然のことだった。\n　だが　権力は　時に人の目を　曇らせる。\n　彼らが　道を誤らぬよう……祈っているよ。<bw_break>": "<attr><feel_normal_one><end_attr>Their remarkable rise to prominence\nwas no surprise. But sometimes power\nblinds us. I pray they don't go down\n<br>\nthe wrong path.<bw_break>"
+  },
+  "202896": {
+    "<attr><feel_normal_one><end_attr>「志を持った　いい若者たちだったのに　\n　どこで道を　誤ったのか……。今は　ただ\n　グルヤンラシュの冥福を　祈るばかりだよ。<bw_break>": "<attr><feel_normal_one><end_attr>They were good young men with good\nintentions, but where did they go\nwrong? I can only pray for Guryan\n<br>\nRush's soul now.<bw_break>"
+  },
+  "202897": {
+    "<attr><feel_normal_one><end_attr>「これが　昔のグルヤンラシュについて\n　私が知っている　すべてだよ。\n　お役に立てたなら　いいのだがね。": "<attr><feel_normal_one><end_attr>This is all I know about the old\nGuryan Rush. I hope I've been helpful."
+  },
+  "202898": {
+    "<attr><feel_normal_lv1><end_attr>「おや。それは　磁帯式録音機のようだね。\n　壊れてしまったようだが……そういうのを\n　直すのが　得意な男を　知っているぞ。\n<br>\n「この町の下層に　ポコマムという者が\n　いるはずだ。彼のもとに　それを持っていけば\n　きっと　直してくれるだろう。": "<attr><feel_normal_lv1><end_attr>Oops. That looks like a Sound\nRecorder. I know a guy who is good at\nfixing things like that. There's a guy\n<br>\nnamed Pocomam in the lower levels of\nthis town. If you bring it to him, I'm\nsure he can fix it."
+  },
+  "202899": {
+    "<attr><feel_normal_lv1><end_attr>「今となっちゃ　いろいろ言われてるけど\n　夢のある若者ってのは　見ていて気分がいい。\n　それにチカラを貸せて　あたしゃ満足だったよ！\n<br>\n「あの頃のグルヤンラシュのことなら　教会にいる\n　ウッツァ神父が　もっと　くわしいから\n　興味があったら　聞いてみるといいさね。": "<attr><feel_normal_lv1><end_attr>I know there are a lot of things being\nsaid nowadays, but it's nice to see\nyoung people with dreams. I was happy\n<br>\nto be able to contribute to that!\nFather Uzza at Church knows more about\nGuryan Rush back then, so if you are\n<br>\ninterested, you can ask him."
+  },
+  "202900": {
+    "ウッツァ神父に　グルヤンラシュについて\nインタビューしてみますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to interview Father\nUzza about Guryan Rush?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "202901": {
+    "<pc>は　ウッツァ神父に\n昔のグルヤンラシュについて　たずねてみた！": "<pc> asked Father Uzza about\nthe old Guryan Rush!"
+  },
+  "202902": {
+    "これまでの　ウッツァ神父との勝負で\n得た経験が　<pc>の中で積み重なり……\n<br>\n突然　ウッツァ神父が次に出す\nめんこの色が　読めるような気がした！\n<br>\nこのまま　意識を　集中してみますか？<yesno 2><break>": "The experience I had gained from my\nprevious matches with Father Uzza was\nbuilding up in <pc>, and\n<br>\nsuddenly I felt as if I could read the\ncolor of the next pog that Father Uzza\nwas going to release! Would you like\n<br>\nto continue to focus your attention?<yesno 2><break>"
+  },
+  "202905": {
+    "<pc>は　ひらめいた！\n次に　ウッツァ神父が出すのは……\n<%sEV_LUA_STRING1>だ！": "<pc> has an inspiration! Next\nthing Father Uzza will produce is\n<%sev_lua_string1>!"
+  },
+  "202906": {
+    "そんな気がしたが\n気のせいだったようだ……。": "I had a feeling that this was the\ncase, but I must have been imagining\nthings."
+  },
+  "202907": {
+    "突然　<pc>の持っていた\n磁帯式録音機が　おかしな音を立てて\n止まってしまった！<se FQ_182_2 0><bw_break>": "Suddenly, <pc>'s Sound\nRecorder stopped making strange\nnoises!<se FQ_182_2 0><bw_break>"
+  },
+  "202908": {
+    "いくら　スイッチを押しても反応しない……。": "No matter how hard I press the switch,\nit does not respond."
+  },
+  "202909": {
+    "<attr><feel_normal_one><end_attr>「君の磁帯式録音機は　壊れてしまったようだが\n　ちょうど　そういうのを直すのが　得意な男を\n　私は　知っているんだよ。\n<br>\n「この町の下層に　ポコマムという者が\n　いるはずだ。彼のもとに　それを持っていけば\n　きっと　直してくれるだろう。さて……<bw_break>": "<attr><feel_normal_one><end_attr>Your Sound Recorder seems to be\nbroken, but I know a guy who is just\nas good at fixing things like that.\n<br>\nThere's a guy named Pocomam in the\nlower levels of this town. If you\nbring it to him, I'm sure he'll fix\n<br>\nit. Well...<bw_break>"
+  },
+  "202910": {
+    "<attr><feel_normal_one><end_attr>「ん……なんだ？　オレになんか用か？\n　珍しいジャンク品の持ち込みなら　大歓迎だぜ。": "<attr><feel_normal_one><end_attr>What is it? What do you want from me?\nYou're welcome to bring in any rare\njunk you like."
+  },
+  "202911": {
+    "<attr><feel_normal_one><end_attr>「……なんだ　用はないのか。\n　壊れた機械があったら　持ってきてくれよな。": "<attr><feel_normal_one><end_attr>What, you don't have anything to do?\nIf you have a broken machine, bring it\nto me."
+  },
+  "202912": {
+    "<attr><feel_normal_lv1><end_attr>「あんたの持ってんのは　磁帯式録音機だな。\n　だいぶ型落ちで　しかも　壊れてる……と。\n　これは　直しても　売り物にならねぇなあ。\n<br>\n「でも　必要な素材さえ　持ってくれば\n　仕事の合間に　直してやってもいいぜ。\n　ちょうど　気分転換も　したかったしな。\n<br>\n「……ふん　なるほどな。\n　見たところ　故障の原因は　内部の歯車が\n　すり減って　かみ合わなくなったってとこか。\n<br>\n「この耐熱式歯車は　カルデア溶岩帯の\n　灼熱の溶岩窟とかにいる　<%sEV_QUE_NAME0>を\n　倒すと手に入るから　取ってきてくれ。": "<attr><feel_normal_lv1><end_attr>You have a Sound Recorder. It's a very\nold model, and it's broken. Even if I\nfix it, it's not for sale. But if you\n<br>\nbring me the necessary materials, I\ncan fix it for you in between jobs. I\njust needed a change of pace. Hmm, I\n<br>\nsee. The cause of the malfunction is\nthat the inner gear is worn out and no\nlonger meshes. You can get this Heat-\n<br>\nProof Gear by defeating\n<%sev_que_name0> in Burning Lava Cave\nin Chaldea Lava Belt."
+  },
+  "202913": {
+    "ポコマムに　壊れた磁帯式録音機を\n見せてみますか？<yesno><close>": "Would you like to show Pocomam your\nbroken Sound Recorder?<yesno><close>"
+  },
+  "202914": {
+    "「あんたの　磁帯式録音機の故障は\n　機械内部の歯車が　すり減って\n　かみ合わなくなったのが　原因だ。\n<br>\n「この耐熱式歯車は　灼熱の溶岩窟にいる\n　<%sEV_QUE_NAME0>を倒すと　手に入るから\n　ちょっと行って　新しいのを　取ってきてくれ。": "The malfunction of your Sound Recorder\nwas caused by the gear inside the\nmachine wearing down and becoming\n<br>\nmisaligned. You can get this Heat-\nProof Gear by defeating\n<%sev_que_name0> in Burning Lava Cave,\n<br>\nso please go and get a new one."
+  },
+  "202915": {
+    "<attr><feel_normal_one><end_attr>「よう　耐熱式歯車は手に入ったか？\n　こっちは　面倒なジャンク品の修理が多くてな。\n　今なら　気分転換に　タダで直してやるぜ。": "<attr><feel_normal_one><end_attr>Hey, did you get the Heat-Proof Gear?\nI've been doing a lot of tedious\njanitorial work over here. I'll fix it\n<br>\nfor free for a change."
+  },
+  "202916": {
+    "<attr><feel_normal_one><end_attr>「なんだ　まだだったのか。\n　あんたの磁帯式録音機は　耐熱式歯車があれば\n　すぐに直るんだから　はやく　持ってこいよ。": "<attr><feel_normal_one><end_attr>What, you haven't done it yet? Your\nSound Recorder can be fixed as soon as\nyou have the Heat-Proof Gear, so get\n<br>\nit here as soon as possible."
+  },
+  "202917": {
+    "<attr><feel_happy_one><end_attr>「おっ！　耐熱式歯車を　手に入れたんだな！\n　それじゃあ　気晴らしも兼ねて　さっそく\n　あんたの録音機を　修理してやるぜ！": "<attr><feel_happy_one><end_attr>Whoa...you received Heat-Proof Gear!\nYou received Heat-Proof Gear? Well\nthen, I'll start repairing your\n<br>\nrecorder as soon as I can, to take the\nedge off!"
+  },
+  "202918": {
+    "<attr><feel_angry_lv2><end_attr><icon_exc>「あぁん！　グルヤンラシュだあ！？\n　あんた　あの野郎について　調べてるのか？\n　それなら　オレにも言いたいことがある！\n<br>\n「オレの意見も　貴重な情報に　なるはずだぜ！\n　グルヤンラシュについて　オレにも話を\n　させてくれよ！　なあ　いいだろ？<yesno><break>": "<attr><feel_angry_lv2><end_attr><icon_exc>Ahhhh! Guryan Rush? You're checking up\non that son of a bitch? I've got\nsomething to say! I'm sure you'll find\n<br>\nmy opinion valuable! Let me talk to\nhim about Guryan Rush! Come on, man.<yesno><break>"
+  },
+  "202919": {
+    "<attr><feel_angry_lv3><end_attr>「オレは　グルヤンラシュの野郎に　たっぷり\n　恨みがあるんだ！　いい話ばかり取材するのは\n　不公平ってもんだぜ。なあ　聞いてくれよ！<yesno><break>": "<attr><feel_angry_lv3><end_attr>I have a lot of beef with Guryan Rush!\nIt's not fair to give him all the good\nstories. Hey, listen!<yesno><break>"
+  },
+  "202920": {
+    "<attr><feel_normal_lv1><end_attr>「よし　それじゃ　オレの話をさせてもらう。\n　オレは　ガテリア出身でな。ウルベアの技術を\n　学ぶため　若い頃に　この国に来たんだ。\n<br>\n「この国で修行してるうちに　戦争が起こって\n　グルヤンラシュの　やりくちを見てきたが\n　あいつは　最低のクソ野郎だ！\n<br>\n「オレの故郷の　あの美しいガテリアを\n　ウルベア大魔神を使って　徹底的に攻撃し\n　あっという間に　滅ぼしやがったんだ！\n<br>\n「国に残ってた兄とは　今も連絡がとれねえ。\n　きっと……もう　生きてはいないんだろうな。\n<br>\n「くそっ！　ガテリアが　何したっていうんだ！\n　できることなら　オレが　この手で\n　グルヤンラシュを……。<bw_break>": "<attr><feel_normal_lv1><end_attr>Okay, then, let me tell you my story.\nI am from Gateria and came to this\ncountry as a young man to learn the\n<br>\nart of Urbea. During my training here,\nthe war broke out and I have seen what\nGuryan Rush is capable of, he is the\n<br>\nworst son of a bitch! He attacked my\nhome, the beautiful Gateria, with the\nUrbea Colossus and destroyed it in the\n<br>\nblink of an eye! I still have no\ncontact with my brother who remained\nin the country. I guess he's not alive\n<br>\nanymore. Damn! What did Gateria do? If\nI could, I would take Guryan Rush with\nmy own hands.<bw_break>"
+  },
+  "202921": {
+    "ポコマムに　耐熱式歯車を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Pocomam the Heat-Proof\nGear?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "202922": {
+    "<pc>は　ポコマムに\n耐熱式歯車を　渡した！": "<pc> gave Pocomam the Heat-\nProof Gear!"
+  },
+  "202923": {
+    "磁帯式録音機のスイッチを入れ\n音声を再生してみると\n録音された　ウッツァ神父の声が　流れはじめた！": "When I switched on the Sound Recorder\nand played back the audio, Father\nUzza's recorded voice began to play!"
+  },
+  "202924": {
+    "<pipipi_low>……いいだろう！　では　昔のグルヤンラシュに\nついて　私の知っていることは\nすべて　君に話そうではないか……": "<pipipi_low>All right! Then I will tell you\neverything I know about the old Guryan\nRush."
+  },
+  "202925": {
+    "ポコマムの話は　磁帯式録音機に\nバッチリ　録音されたようだ！\nそろそろ　キキミミの所に　報告に戻ろう！": "Pocomam's story seems to have been\nrecorded perfectly on the Sound\nRecorder! I'd better get back to\n<br>\nKikimimi!"
+  },
+  "202926": {
+    "<attr><feel_angry_lv3><end_attr>「グルヤンラシュの野郎は　オレの故郷の\n　ガテリア皇国に　戦争をしかけ　\n　徹底的に攻撃して　滅ぼしやがったんだ！\n<br>\n「あいつは　人の姿をした……悪魔だよ。\n　ガテリアの民は　みんな　あいつを恨んでるって\n　事実を　ちゃんと　記録に残してくれよな。": "<attr><feel_angry_lv3><end_attr>Guryan Rush has waged war on my home\nkingdom of Gateria, attacking and\nannihilating it in the process! He is\n<br>\na demon in human form. I hope you will\nrecord the fact that all the people of\nGateria hate him."
+  },
+  "202976": {
+    "<attr><feel_normal_one><end_attr>「悪いが　今　面倒な修理をやってるんだ。\n　話があるなら　あとにしてくれ。\n　……変だな。なんで　動かないんだ……？": "<attr><feel_normal_one><end_attr>I'm sorry, but I'm working on some\ntroublesome repairs right now. If you\nwant to talk, we can talk later.\n<br>\nThat's strange. Why isn't it working?"
+  },
+  "202977": {
+    "<attr><feel_normal_one><end_attr>「よう　またあんたか。最近　やけに\n　忙しかったんだが　ようやく手が空いたぜ。\n　それで　オレになんか用か？": "<attr><feel_normal_one><end_attr>Hey, it's you again. I've been very\nbusy lately, but I finally found some\nfree time. So, what do you want from\n<br>\nme?"
+  },
+  "202978": {
+    "<attr><feel_normal_one><end_attr>「……なんだ　用はないのか。 \n　壊れた機械があったら　持ってきてくれよな。 ": "<attr><feel_normal_one><end_attr>What, you don't have anything to do?If\nyou have a broken machine, bring it to\nme."
+  },
+  "202979": {
+    "<attr><feel_normal_lv1><end_attr>「これは……また　壊れた磁帯式録音機か。 \n　しかも　かなりの旧型だ。古すぎて　直すには\n　前回よりも　ちょっと手間がかかるな。\n<br>\n「でも　あんたにはグルヤンラシュについての\n　恨み言も　聞いてもらったし　直してやるよ。\n　アレのおかげで　だいぶ　スッキリしたしな。\n<br>\n「見たところ　今回の故障は\n　中の配線が古くて　へたっちまってるのと\n　磁帯テープが切れてんのが　原因だな。\n<br>\n「まずは　ガタラ大山林とかにいる　\n　<%sEV_QUE_NAME0>から　配線代わりに使える\n　じょうぶなヒゲと……\n<br>\n「あとは　カルデア溶岩帯とかに　生息している \n　<%sEV_QUE_NAME1>から　高熱マグマ液を\n　取ってきてくれ。それで　直せるはずだ！\n<br>\n「おっと！　言っておくが　<%sEV_QUE_NAME1>は\n　普段　土の中に隠れていて　姿を見せないから\n　注意して探してくれ。それじゃ　よろしくな！": "<attr><feel_normal_lv1><end_attr>This is another broken Sound\nRecorder.And it's a very old model.\nIt's so old, it'll take more work than\n<br>\nlast time to fix it. But I'll fix it\nafter listening to you complain about\nGuryan Rush. I feel much better now\n<br>\nthat I have that thing. From the looks\nof it, this malfunction is caused by\nold, worn-out wiring inside and a\n<br>\nbroken magnetic tape. First, get me\nsome Strong Mustache from Gatara\nMountain Forest <%sEV_QUE_NAME0> to\n<br>\nuse as wiring, and some Magma Solution\nfrom Chaldea Lava Belt\n<%sEV_QUE_NAME1>. Chaldea Lava Belt or\n<br>\nsomething. That should fix it! Oops! I\nshould warn you that <%sEV_QUE_NAME1>\nis usually hiding in the ground and is\n<br>\nnever seen, so be careful when looking\nfor him. So please be careful!"
+  },
+  "202980": {
+    "ポコマムに　グルヤンラシュの　昔のすみかで\n拾った　磁帯式録音機を　見せてみますか？ <yesno><close>": "Shall I show Pocomam the Sound\nRecorder I picked up at Guryan Rush's\nold haunt?<yesno><close>"
+  },
+  "202981": {
+    "<attr><feel_normal_lv1><end_attr>「見たところ　その磁帯式録音機の故障は　\n　中の配線が古くて　へたっちまってるのと\n　磁帯テープが切れてんのが　原因だな。\n<br>\n「まずは　ガタラ大山林とかにいる\n　<%sEV_QUE_NAME0>から \n　配線代わりに使える　じょうぶなヒゲと……\n<br>\n「あとは　カルデア溶岩帯とかに　生息している \n　<%sEV_QUE_NAME1>から　高熱マグマ液を\n　取ってきてくれ。それで　直せるはずだ！\n<br>\n「おっと！　言っておくが　<%sEV_QUE_NAME1>は\n　普段　土の中に隠れていて　姿を見せないから\n　注意して探してくれ。それじゃ　よろしくな！": "<attr><feel_normal_lv1><end_attr>From the looks of it, the problem with\nthe Sound Recorder is that the wiring\ninside it is old and worn out, and the\n<br>\nmagnetic tape is broken. First, get me\na Strong Mustache from Gatara Mountain\nForest <%sEV_QUE_NAME0> to use as\n<br>\nwiring, and a Magma Solution from\nChaldea Lava Belt <%sEV_QUE_NAME1>.\nChaldea Lava Belt or something. That\n<br>\nshould fix it! Oops! I should warn you\nthat <%sEV_QUE_NAME1> is usually\nhiding in the ground and is never\n<br>\nseen, so be careful when looking for\nhim. So please be careful!"
+  },
+  "202982": {
+    "<attr><feel_normal_one><end_attr>「よう　じょうぶなヒゲと　高熱マグマ液は \n　手に入ったか？　それさえありゃ　なんとか\n　あの磁帯式録音機は　直せそうだぜ。": "<attr><feel_normal_one><end_attr>Hey, did you get Strong Mustache and\nMagma Solution? With that, I think I\ncan fix that Sound Recorder."
+  },
+  "202983": {
+    "<attr><feel_normal_one><end_attr>「なんだ。まだだったのか。\n　あんなにひどい故障は　オレにしか直せないぜ？\n　オレがヒマなうちに　道具を持ってこいよな。": "<attr><feel_normal_one><end_attr>What the heck. You haven't done it\nyet? I'm the only one who can fix a\nbreakdown that bad. Bring me the tools\n<br>\nwhile I'm still free."
+  },
+  "202984": {
+    "<attr><feel_normal_lv1><end_attr>「おっ　そろったか！　それじゃ　オレのウデの \n　見せ所だな。このオレに　直せない機械は\n　ないってことを　よーく見とけよ！": "<attr><feel_normal_lv1><end_attr>Oh, I see you got it all! Now it's\ntime to show off my skills. I'll show\nyou that there is no machine that I\n<br>\ncan't fix!"
+  },
+  "202985": {
+    "「ヒゲにオイルを塗って　へたった配線と交換し \n　あとは　切れたテープの端を　高熱マグマ液で\n　溶かして　くっつけてやれば……。<se FQ_182_2 1>": "We just need to oil the whiskers,\nreplace the dented wires, and then\ndissolve the broken tape ends with\n<br>\nMagma Solution and stick them back\ntogether.<se FQ_182_2 1>"
+  },
+  "202986": {
+    "<attr><feel_normal_one><end_attr>「よし！　直ったぜ！　見たところ\n　中の磁帯テープは　無事だったみたいだ。\n　試しに　動くか　再生してみるぜ。": "<attr><feel_normal_one><end_attr>All right! It's fixed! From the looks\nof it, the magnetic tape inside is\nintact. Let's see if it works or not."
+  },
+  "202987": {
+    "<attr><feel_normal_one><end_attr><icon_exc>「……この声は　オレも　聞いたことあるぞ！ \n　もしかして　グルヤンラシュの肉声か……？\n　帝都に来る前の　あいつの記録なのか！？\n<br>\n「あいつも　家族と生き別れて　ただもう一度 \n　会うために　必死で　もがいてたのか……。\n　それが　あの戦争を引き起こしたと……。\n<br>\n「オレだって　たったひとりの兄　ポコムチに \n　会えるんだったら　何だってするさ……。\n　そう　生きてさえいてくれりゃあ……な。": "<attr><feel_normal_one><end_attr><icon_exc>I've heard that voice before!Could it\nbe Guryan Rush's voice? Is this a\nrecord of Guryan Rush before he came\n<br>\nto the capital? He was separated from\nhis family and struggling desperately\njust to see them again? That's what\n<br>\ncaused that war. I would do anything\nif I could see my only brother\nPokomuchi again. Yes, as long as he's\n<br>\nalive."
+  },
+  "202988": {
+    "<attr><feel_normal_one><end_attr><icon_exc>「なんだって！　ポコムチ！？ \n　そりゃあ　間違いねえ！　オレの兄貴だ！\n　ダラズ大鉱脈で　生きてるってのか！？<bw_break>": "<attr><feel_normal_one><end_attr><icon_exc>What's that? Pokomuchi!That's\ndefinitely him! That's my brother!\nHe's alive in Daraz Large Vein?<bw_break>"
+  },
+  "202989": {
+    "ポコマムに　じょうぶなヒゲと　\n高熱マグマ液を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Pocomam Strong Mustache\nand Magma Solution?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "202990": {
+    "<pc>は　ポコマムに\nじょうぶなヒゲと　高熱マグマ液を　渡した！ ": "<pc> gave Pocomam Strong\nMustache and Magma Solution!"
+  },
+  "202991": {
+    "ポコマムは　磁帯式録音機のスイッチを入れて\n音声を　再生した！\n<br>\nすると　磁帯式録音機から\n聞き覚えのある　男の声が　流れはじめた……。": "Pocomam switched on the Sound Recorder\nand played back the audio! Then a\nfamiliar male voice started playing\n<br>\nfrom the Sound Recorder."
+  },
+  "202992": {
+    "<pipipi_low>時間を漂流し　気付いたら　この穴倉にいた。\nここが　どこかもわからず　生きるためにさまよい\n水場を見つけ　木の実を採って　飢えをしのいだ。\n<br>\n辺りをさまよい　ただ時間だけが過ぎていき……\n孤独に耐えかねた頃　穴倉の外に倒れている\n<kyodai>を見つけた。\n<br>\n<kyodai>を介抱し　話を聞くと\n俺と同じ　時間漂流者だと判明した。\n孤独の中で得た仲間は　とても心強かった。\n<br>\n俺は　<kyodai>に　おのれの身の上を話し\n俺は　姉に再会するため　<kyodai>も　\n<pc_rel2>と再会するため　協力することになった。\n<br>\n我々は　大きな野望を　果たすために\n穴倉を出て　どこかの町を目指して　旅立つ。\nこの先の困難は　並大抵のことではないはずだ。\n<br>\nだが……俺　クオードと　<kyodai>は\n必ず　やりとげるだろう……。\n初心を忘れぬため　決意を　ここに残す……。": "<pipipi_low>I drifted through time and found\nmyself in this hole in the ground. Not\nknowing where I was, I wandered around\n<br>\nto find a watering hole to survive,\nand picked berries to stave off my\nhunger. I wandered around, but time\n<br>\njust kept passing, and when I couldn't\nbear the solitude any longer, I found\n<kyodai> lying outside the hole\n<br>\nin the cave. I took care of\n<kyodai>, and after talking to\nhim, I found out that he was a time\n<br>\ncastaway just like me. The\ncompanionship I gained in my solitude\nwas very reassuring. I told\n<br>\n<kyodai> about my situation, and\n<kyodai> agreed to help me\nreunite with <pc_rel2> in order to\n<br>\nreunite me with my sister. We leave\nthe cave and set off for some town to\nfulfill our great ambition. The\n<br>\nchallenges ahead will be\nextraordinary. But I, Quard and\n<kyodai>, will make it through.\n<br>\nI leave my resolution here so that I\nwill not forget my original intention."
+  },
+  "202993": {
+    "<pc>は　この古ぼけた磁帯式録音機の\n場所を教えてくれたのは　ポコムチという\n元捕虜だと　ポコマムに教えてあげた！": "<pc> told Pocomam that it was\na former POW named Pokomuchi who told\nhim the location of this Old Sound\n<br>\nRecorder!"
+  },
+  "202994": {
+    "<attr><feel_happy_lv3><end_attr>「あんた　教えてくれてありがとうな！\n　今すぐに　ポコムチに　会いにいって\n　オレも生きてるって　知らせてやらねえと！\n<br>\n「それもこれも　あんたの取材のおかげだぜ！\n　グルヤンラシュについて　記事を書いてる奴にも\n　礼を言っておいてくれよな！": "<attr><feel_happy_lv3><end_attr>Thanks for letting me know! Now I have\nto go see Pokomuchi and let him know\nI'm alive too! I owe it all to you for\n<br>\nyour coverage! You should also thank\nthe guy who wrote the article about\nGuryan Rush!"
+  },
+  "202995": {
+    "<attr><feel_happy_one><end_attr>「あんたのおかげで　ダラズ大鉱脈にいる\n　オレの兄の　ポコムチと　再会できたぜ！\n　教えてくれて　ありがとな！\n<br>\n「グルヤンラシュのことは　今も嫌いだが\n　あいつも　家族と会いたがっていたと思うと\n　前ほど　憎めなくなっちまったよ。": "<attr><feel_happy_one><end_attr>Thanks to you, I have reunited with my\nbrother Pokomuchi in Daraz Large Vein!\nThanks for the tip! I still hate\n<br>\nGuryan Rush, but now that I know he\nmisses his family, I don't hate him as\nmuch as I used to."
+  },
+  "203064": {
+    "<attr><feel_normal_lv1><end_attr>「ありがとうございました！\n　ところで　お客さまっ。突然ですが……\n　私からの　お願い　聞いていただけません？<yesno><break>": "<attr><feel_normal_lv1><end_attr>Thank you very much! By the way, you\nhave a visitor. I know this is sudden,\nbut could you do me a favor?<yesno><break>"
+  },
+  "203065": {
+    "<attr><feel_sad_lv1><end_attr>「う～ん　残念っ。\n　またのお越しを　お待ちしてますっ！": "<attr><feel_sad_lv1><end_attr>Too bad. We look forward to seeing you\nagain!"
+  },
+  "203066": {
+    "<attr><feel_happy_lv1><end_attr>「わあ　うれしいっ！　お願いというのは\n　これから　この郵便局で売り出そうと思ってる\n　新しい便せんについてのことなんです。\n<br>\n「じつは……　便せんが　まったく売れず\n　このままでは　郵便局が　閉鎖の危機なんです。\n　そこで　なぜ売れないのか　考えてみました。\n<br>\n「おそらく原因は　この国の技術力です。\n　機械に声を録音したり　魔神機に伝言を頼んだり\n　お手紙を書くより　早くて便利ですもんね。\n<br>\n「……お手紙の良さを　知ってほしいとか\n　そんな　キレイごとは　言っていられません。\n　まずは便せんを　買っていただかないとっ！\n<br>\n「そのために　便せんのデザインを\n　お客さまの好みに　合わせようと思いました。\n　ずばりっ　歯車じかけの便せん！　です。\n<br>\n「ガタラ大山林などで　<%sEV_QUE_NAME0>って\n　魔物を倒すと　コンパクトギアという\n　紙のように薄い歯車が　手に入るらしいです。\n<br>\n「その歯車を　便せんに組み込んで\n　メカ好きドワーフさんの　ハートをワシづかみ！\n　きっと飛ぶように　売れることでしょうっ。\n<br>\n「……というわけで　どうか　コンパクトギアを\n　手に入れてきて　いただけませんか？　もちろん\n　できあがった便せんは　さしあげますからっ！": "<attr><feel_happy_lv1><end_attr>Wow, I'm so happy! I'm asking for a\nfavor regarding the new letter paper\nthat I'm going to start selling here\n<br>\nat Post Office. As a matter of fact,\nthe letter paper is not selling at\nall, and if this situation continues,\n<br>\nPost Office is in danger of closing\ndown. So I thought about why they are\nnot selling well. Probably because of\n<br>\nthe technology of this country. It is\nfaster and more convenient than\nrecording your voice in a machine, or\n<br>\nasking a magical machine to send a\nmessage, or writing a letter, right? I\ncan't talk about how nice it is to\n<br>\nwrite letters. First of all, we need\nto get people to buy letter paper!\nThat's why we decided to make the\n<br>\ndesign of the letter paper to suit\nyour taste. Gear Paper! I heard that\nyou can get a paper-thin gear called\n<br>\nCompact Gear by defeating the\n<%sev_que_name0> monster in Gatara\nMountain Forest and so on. We put the\n<br>\ngear on the letter paper and grab the\nhearts of Dwarfs who love mechas! I am\nsure it will sell like hotcakes. So,\n<br>\nplease, could you go and get Compact\nGear? Of course, we'll give you a\nchance to give away the finished\n<br>\nletterhead!"
+  },
+  "203067": {
+    "<attr><feel_happy_lv2><end_attr>「本当ですかっ？　やった～！！\n　とっても　うれしいですっ。\n　それでは　楽しみに　待ってますね！": "<attr><feel_happy_lv2><end_attr>Really? I'm so happy! I'm so happy!\nThen, I'll be waiting for it with\npleasure!"
+  },
+  "203068": {
+    "「本当ですかっ？　やった～！\n　……ってあれっ？　もしかして　お客さまって\n　たくさん　お仕事を引き受けてません？\n<br>\n「ダメですよ～。忙しいのに　ムリしちゃ。\n　私　待ってますから　大丈夫です！\n　手が空いたら　また来てくださいねっ！": "Really? I did it! What is it? Are you\nsure you're not taking on too many\njobs? That's no good! You're too busy.\n<br>\nI'll be waiting for you, so don't\nworry! Please come back when you are\nfree!"
+  },
+  "203069": {
+    "<attr><feel_sad_lv1><end_attr>「う～ん　残念っ。\n　気が変わったら　また来てくださいね！": "<attr><feel_sad_lv1><end_attr>Hmmm, too bad. Please come back if you\nchange your mind!"
+  },
+  "203070": {
+    "<shake_big>「ゆっ！　郵便局へ　ようそこっ！\n　ほ……本日は　ご用は……ごほっ　ごほん！\n<br>\n「……失礼しました。\n　ひさしぶりの　お客さまですので\n　すこし　あわててしまいました。\n<br>\n「それでは　あらためて……。<bw_break>": "<shake_big>Yup! Hey there, to the Post Office!\nHow may I help you today? I'm sorry.\nIt's been a while since I've had a\n<br>\nvisitor, so I was a bit in a rush.\nI'll see you later.<bw_break>"
+  },
+  "203071": {
+    "「ありがとうございました！\n　それと　お客さま。コンパクトギアを\n　手に入れる約束も　忘れないでくださいねっ。<open_irai><bw_break>": "Thank you very much! And, Sir, don't\nforget your promise to get the Compact\nGear.<open_irai><bw_break>"
+  },
+  "203072": {
+    "「コンパクトギアは　ガタラ大山林などにいる\n　<%sEV_QUE_NAME0>って魔物を倒すと\n　手に入ることが　あるみたいですよっ！": "Compact Gear can be obtained by\ndefeating <%sev_que_name0> monster in\nGatara Mountain Forest!"
+  },
+  "203073": {
+    "「あっ　お客さま！\n　ひょっとして　お願いしたものを\n　持ってきてくれたんですか？": "Ah, you have a visitor! Did you bring\nwhat I asked for by any chance?"
+  },
+  "203074": {
+    "「それじゃ　便せんを　お買い求めですねっ。\n　さてと……<bw_break>": "Well then, I guess I'll have to buy\nsome letter paper. Let's see...<bw_break>"
+  },
+  "203075": {
+    "<attr><feel_happy_lv1><end_attr>「わあっ　ありがとうございます！\n　さっそく　コンパクトギアを　組み込んで\n　歯車じかけの便せんを　作りますわっ！": "<attr><feel_happy_lv1><end_attr>Wow, thank you very much! I'm going to\nbuild Compact Gear and make Gear Paper\nright away!"
+  },
+  "203076": {
+    "<attr><feel_happy_lv3><end_attr>「ふふっ　すごいです！　最高傑作です！\n　ハイ　どうぞ。ウルベア地下帝国　限定品\n　ご当地便せん　できました～っ！": "<attr><feel_happy_lv3><end_attr>Phew! It's amazing! It's a\nmasterpiece! Here you go, Urbea\nUnderground City's limited edition\n<br>\nlocal stationery!"
+  },
+  "203077": {
+    "<attr><feel_happy_lv1><end_attr>「チラリと見える　回転する歯車が\n　メカ好きドワーフさんの　ハートをワシづかみ！\n　きっと飛ぶように　売れることでしょうっ。\n<br>\n「回転する歯車には　何の機能も　ありませんけど\n　まずは　興味を持ってもらうこと。\n　それこそが　販売戦略の　第一歩なのです！\n<br>\n「便せんのデザインにも　こだわりましたよ。\n　メカ好きドワーフさんの　代表として\n　ウルタ皇女を　モチーフにしてみましたっ。\n<br>\n「歯車じかけの便せんは　さっそく\n　この郵便局限定で　売り出していきますね！\n　それでは　またのお越しを　お待ちしてますっ。": "<attr><feel_happy_lv1><end_attr>The rotating gears that can be\nglimpsed from the top of the model\nwill grab the heart of Dwarfs who love\n<br>\nmechanical devices! We are sure it\nwill sell like hotcakes. The spinning\near has no function, but the first\n<br>\nstep is to get people interested in\nit. That is the first step in our\nsales strategy! We were also\n<br>\nparticular about the design of the\nletter paper. I used Princess Ulta as\nthe motif to represent Dwarf's love of\n<br>\nmecha. Gear Paper will be available\nexclusively at the Post Office as soon\nas possible! We look forward to seeing\n<br>\nyou again soon."
+  },
+  "203078": {
+    "「お客さまっ　聞いてください！\n　さっそく　歯車じかけの便せんが　売れました！\n<br>\n「便せんを購入された　ドワーフさんは\n　その場で　便せんを分解すると\n　歯車の薄さに　とても感心されていました。\n<br>\n「おともだちにも見せたい！　とのことで\n　歯車じかけの便せんに　メッセージを添えて\n　郵便局から　お手紙を送っていましたわ。\n<br>\n「販売戦略の第一歩は　大成功です！\n　もっと　興味をもっていただけるように\n　がんばろうと思います。それでは……<feel_happy_lv1><bw_break>": "Listen up, customers! Gear Paper was\nsold immediately! Dwarf, who bought\nthe letter paper, was very impressed\n<br>\nwith the thinness of the gear when he\ntook it apart on the spot. He wanted\nto show it to his friends! He sent a\n<br>\nletter from the Post Office with a\nmessage on the Gear Paper. The first\nstep of our sales strategy is\n<br>\nperfection! I will do my best to make\nthem more interested in our products.\nI will try my best to get more people\n<br>\ninterested in our products.<feel_happy_lv1><bw_break>"
+  },
+  "203201": {
+    "<pc>は　筆頭研究員の服を\n買えるようになった！<me 71>": "<pc> can now buy Top\nResearcher Suit!<me 71>"
+  },
+  "203560": {
+    "<pc>は　<%sEV_LUA_STRING2>を　くりだした！\nウッツァ神父は　<%sEV_LUA_STRING1>を　くりだした！": "<pc> reeled off\n<%sEV_LUA_STRING2>! Father Uzza reeled\noff <%sEV_LUA_STRING1>!"
+  },
+  "203561": {
+    "<pc>は　<%sEV_LUA_STRING2>を　くりだした！\nウッツァ神父は　<%sEV_LUA_STRING1>を　くりだした！": "<pc> reeled off\n<%sEV_LUA_STRING2>! Father Uzza reeled\noff <%sEV_LUA_STRING1>!"
+  },
+  "203562": {
+    "<pc>は　<%sEV_LUA_STRING2>を　くりだした！\nウッツァ神父は　<%sEV_LUA_STRING1>を　くりだした！": "<pc> reeled off\n<%sEV_LUA_STRING2>! Father Uzza reeled\noff <%sEV_LUA_STRING1>!"
+  },
+  "203569": {
+    "「こんなもんは　裏面を開いて　この新品の\n　耐熱式歯車に　ちゃちゃっと交換し……\n　フタを閉めれば　いっちょあがり！<se FQ_182_2 1>": "Just open the back, replace it with\nthis brand new Heat-Proof Gear, close\nthe lid, and you're good to go!<se FQ_182_2 1>"
+  },
+  "203570": {
+    "<attr><feel_happy_one><end_attr>「よし！　直ったぜ！　ボタンを押して\n　ちゃんと動くか　確認してみろよ。後になって\n　直ってなかったってクレームは　お断りだぜ？": "<attr><feel_happy_one><end_attr>All right! It's fixed! Press the\nbutton and make sure it works. I don't\nwant any complaints later that it\n<br>\nwasn't fixed."
+  },
+  "203748": {
+    "<attr><feel_normal_one><end_attr>「やあ。ここは　ガラクタ置き場だよ～。\n　すり減ったギア　ひん曲がったシャフト……。\n　役に立たない　壊れたパーツの墓場だね。\n<br>\n「だけどさ　このガラクタたちは\n　帝都のために尽くしてきた　働き者なんだよ～。\n　まだ働ける！　って　言っている気がしてね。\n<br>\n「昇降機みたいに　人を運んだり\n　魔神兵たちみたいに　戦ったりなんて\n　チカラ仕事は　もう無理だろうけど……。\n<br>\n「ここに捨てられた　ガラクタたちでさ\n　作ってみたいものが　あるんだよね。\n　だからさ～　お手伝いを　頼めないかな？": "<attr><feel_normal_one><end_attr>Hey there. This is junk storage. Worn-\nout gears, filleted shafts. A\ngraveyard of useless, broken parts.\n<br>\nBut you know what, these junks are\nhard workers who have done their best\nfor the Imperial City. They can still\n<br>\nwork! I think they are saying that. I\ndon't think they can carry people like\nelevator or fight like the demon\n<br>\nsoldiers anymore. But there's\nsomething I want to make with the\njunks that were thrown away here. So,\n<br>\nI was wondering if I could ask you to\nhelp me."
+  },
+  "203749": {
+    "<attr><feel_happy_lv3><end_attr>「手伝ってくれるの？　ありがと～ん！\n　ガラクタ置き場じゃあ　手に入らないパーツが\n　１つだけあって　困っていたんだよ～。<bw_break>": "<attr><feel_happy_lv3><end_attr>Will you help me? Thanks~! There was\none part that I couldn't get at junk\nstorage, and I was having a hard time\n<br>\nfinding it~.<bw_break>"
+  },
+  "203750": {
+    "<attr><feel_happy_lv3><end_attr>「ピッカピカな　レンズが　ほしいんだよね。\n　レンズは貴重品で　だれも捨てたりしないし\n　パーツ屋にも　売ってなくってさ～。\n<br>\n「たくさんのレンズ職人が　ガテリアとの戦争で\n　帝国技術庁に　召集されちゃったから\n　レンズを作れる人が　いなくってね～。\n<br>\n「そういうわけで　キミには\n　レンズを　手に入れてほしいんだよ～。\n　ガラクタたちと　待ってるね♪": "<attr><feel_happy_lv3><end_attr>I want a shiny lens. Lenses are so\nvaluable that no one throws them away\nand no parts store sells them. Many\n<br>\nlens makers have been drafted into the\nEmpire Tech Agency because of the war\nwith Gateria, so there is no one who\n<br>\ncan make lenses. That's why I want you\nto get the lenses. I'll be waiting for\nyou with the junks."
+  },
+  "203751": {
+    "<attr><feel_normal_one><end_attr>「レンズを手に入れる　アテなんだけど……。\n　帝都の中層にいる　めんこ屋さんは\n　いろんな商材に　入手のコネが　あるみたい。\n<br>\n「ボッタクリって　ウワサもあるけど……\n　ためしに　めんこ屋さんから　話を聞いてみて。\n　たしか　チャガンっていう　名前だったよ～。": "<attr><feel_normal_one><end_attr>I'm trying to get a lens. The pog shop\nin the middle of the capital seems to\nhave access to a variety of goods.\n<br>\nThere are rumors that he is a botta-\ncop, but you should talk to him to see\nif you can get a hold of him. I think\n<br>\nhis name is Chagan."
+  },
+  "203752": {
+    "<attr><feel_normal_lv1><end_attr>「やったー！\n　……って　キミ　とっても忙しそうだよね。\n　他の頼まれごとで　いっぱいじゃない？\n<br>\n「お手伝いは　手が空いた時でいいよ～。\n　ガラクタたちと　待っているから\n　用事をすませてから　また来てほしいな。": "<attr><feel_normal_lv1><end_attr>Yay! You seem to be very busy, don't\nyou? Aren't you busy with other things\nyou've been asked to do? You can help\n<br>\nout when you can. I'll be waiting for\nyou and the juncks, so please come\nback after you finish your chores."
+  },
+  "203753": {
+    "<attr><feel_normal_lv1><end_attr>「そっかぁ……。うーん　残念。\n　もしも　手伝ってくれる気になったら\n　いつでも　声をかけてほしいな～。": "<attr><feel_normal_lv1><end_attr>I see. Hmm, too bad. If you ever feel\nlike helping out, please give me a\ncall anytime."
+  },
+  "203754": {
+    "<attr><feel_normal_one><end_attr>「ここに捨てられた　ガラクタたちでさ\n　作ってみたいものが　あるんだけど\n　ピッカピカな　レンズが　必要なんだよ～。<open_irai><bw_break>": "<attr><feel_normal_one><end_attr>I'd like to make something out of the\njunks that were thrown away here, but\nI need a shiny lens.<open_irai><bw_break>"
+  },
+  "203755": {
+    "<attr><feel_normal_one><end_attr>「手に入れる方法は　帝都の中層にいる\n　めんこ屋のチャガンさんが　知っているかも。\n　ためしに　話を聞いてみて～。": "<attr><feel_normal_one><end_attr>Chagan, the pog shop owner in the\nmiddle of the Imperial City, might\nknow how to get it. Ask him for a try."
+  },
+  "203756": {
+    "<pc>は　めんこ屋チャガンに\n３０００ゴールドを　支払った。": "<pc> paid Pogs Shop Chagan\n3000 gold."
+  },
+  "203757": {
+    "<pc>は　めんこ屋チャガンに\n２０００ゴールドを　支払った。": "<pc> paid Pogs Shop Chagan\n2000 gold."
+  },
+  "203758": {
+    "<pc>は　めんこ屋チャガンに\n１５００ゴールドを　支払った。": "<pc> paid Pogs Shop Chagan\n1500 gold."
+  },
+  "203759": {
+    "<attr><feel_normal_lv1><end_attr>「へへっ　何か用かい？\n　金さえ払えば　なんでも売るぜ？\n<select>\nレンズがほしい\nめんこがほしい\nやめる\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_normal_lv1><end_attr>Heh, heh. What can I do for you? I'll\nsell you anything you want as long as\nyou pay me.\n<select>\nI want a lens\nI want a POG\nstop\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "203760": {
+    "<attr><feel_normal_lv1><end_attr>「どれが　ほしいんだ？\n<select>\n銅のウルベアめんこ\n銀のウルベアめんこ\n金のウルベアめんこ\nめんこスターターセット\nやめる\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": "<attr><feel_normal_lv1><end_attr>Which one do you want?\n<select>\nCopper Urbeapog\nSilver Urbeapog\nGold Urbeapog\npogstarta set\nQuit\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+  },
+  "203761": {
+    "<attr><feel_think_lv3><end_attr>「レンズがほしいって？　バカ言っちゃいけねぇ。\n　魔神兵の目に　欠かせないパーツだから\n　帝国技術庁が　独占しちまっているんだぜ。\n<br>\n「オレたちみたいな　貧民や　難民じゃ\n　手の届かない　シロモノなのさ。あきらめな。<bw_break>": "<attr><feel_think_lv3><end_attr>You want a lens? Don't be ridiculous.\nEmpire Tech Agency has a monopoly on\nthem because they are indispensable\n<br>\nfor the eyes of the Demon God Soldier.\nIt's a white thing that poor people\nand refugees like us can't afford.\n<br>\nGive up.<bw_break>"
+  },
+  "203762": {
+    "<attr><feel_normal_one><end_attr>「……なんてぇのは　三流商人の言うことさ。\n　とっておきの　情報があるぜ。\n　へへっ……　３０００ゴールドで　買うかい？<yesno 2><break>": "<attr><feel_normal_one><end_attr>That's just third-rate merchant talk.\nI've got some great information for\nyou. For 3,000 gold, you want to buy\n<br>\nit?<yesno 2><break>"
+  },
+  "203763": {
+    "<attr><feel_happy_one><end_attr>「いい買いっぷりだなあ。まいどあり！": "<attr><feel_happy_one><end_attr>That's a good buy. There's always a\ngood buy!"
+  },
+  "203764": {
+    "<attr><feel_normal_one><end_attr>「へへっ　しかたねえな……。\n　２０００ゴールドで　売ってやるよ。\n　これなら　いいだろ？<yesno 2><break>": "<attr><feel_normal_one><end_attr>Heh, well, I can't help it. I'll sell\nit to you for 2000 gold. That's good,\nright?<yesno 2><break>"
+  },
+  "203765": {
+    "<attr><feel_happy_one><end_attr>「いい買いものしたな。まいどあり。": "<attr><feel_happy_one><end_attr>Good buy. Thank you very much."
+  },
+  "203766": {
+    "<attr><feel_normal_one><end_attr>「へへっ　そうだなあ……。\n　１５００ゴールドなら　どうだい？\n　これ以上は　無理だぜ？<yesno 2><break>": "<attr><feel_normal_one><end_attr>Heh, heh, heh. How about 1,500 gold? I\ncan't do better than that.<yesno 2><break>"
+  },
+  "203767": {
+    "<attr><feel_normal_one><end_attr>「やれやれ……。\n　こりゃ　商売上がったりだぜ。まいどあり。": "<attr><feel_normal_one><end_attr>Oh, man. This is good for business.\nThank you very much."
+  },
+  "203768": {
+    "<attr><feel_think_lv3><end_attr>「うーん……　そうか。ザンネンだ。\n　これ以上は　オレが　大損しちまうぜ。\n　また来てくれよな。あばよ。": "<attr><feel_think_lv3><end_attr>Hmmm...okay. That's too bad. I'm going\nto lose a lot of money. Come back\nagain. Bye."
+  },
+  "203769": {
+    "<attr><feel_normal_lv1><end_attr>「じゃあ　とっておきの情報を　教えてやろう。\n　帝国技術庁が　独占しているレンズは\n　魔神兵の目に　使われるって　言っただろ？\n<br>\n「だったら　魔神兵から　取っちまえばいい。\n　へへっ……　そんなことすりゃ\n　あっという間に　捕まっちまうけどな。\n<br>\n「ダラズ大鉱脈の　強制労働所に行ってみな。\n　あそこなら　捕まったりはしないぜ。\n　理由は　ここじゃあ言えねえがな……へへっ。<bw_break>": "<attr><feel_normal_lv1><end_attr>Then I'll give you the best news of\nall. I told you that the lenses that\nEmpire Tech Agency has a monopoly on\n<br>\nare used for the eyes of the Demon\nSoldiers, didn't I? Then we should\njust take it away from the Demon\n<br>\nSoldier. We'd get caught in a\nheartbeat if we did. Go to the Forced\nLabor Camp in Daraz Large Vein. You\n<br>\nwon't get caught there. I can't tell\nyou why here.<bw_break>"
+  },
+  "203770": {
+    "<attr><feel_normal_one><end_attr>「とっておきの情報は　以上だぜ。\n　壊れた魔神兵でも　探してみるんだな。\n　あとは　お前さんの　運しだいさ。\n<br>\n「……そうそう。\n　めんこがほしいなら　また来てくれよな。": "<attr><feel_normal_one><end_attr>That's all the information I have for\nyou. Try to find a broken Demon\nSoldier. The rest is up to your luck.\n<br>\nOh yeah. If you want some pog, come\nback again."
+  },
+  "203771": {
+    "<attr><feel_think_one><end_attr>「レンズが　ほしいって？\n　情報ってのは　タダじゃあ　ねぇんだぜ。\n　まずは　金を用意しな。あばよっ。": "<attr><feel_think_one><end_attr>You want a lens? Information doesn't\ncome for free. First, you need to get\nthe money. Bye-bye."
+  },
+  "203772": {
+    "<attr><feel_normal_one><end_attr>「ピッカピカなレンズが　ほしいんだろ？\n　とっておきの　情報があるぜ。\n　へへっ……　３０００ゴールドで　買うかい？<yesno 2><break>": "<attr><feel_normal_one><end_attr>You want a shiny lens? I've got some\ngreat information for you. You want to\nbuy it for 3,000 gold?<yesno 2><break>"
+  },
+  "203773": {
+    "<attr><feel_normal_one><end_attr>「ここに捨てられた　ガラクタたちでさ\n　作ってみたいものが　あるんだけど\n　ピッカピカな　レンズが　必要なんだよ～。<open_irai><bw_break>": "<attr><feel_normal_one><end_attr>I'd like to make something out of the\njunks that were thrown away here, but\nI need a shiny lens.<open_irai><bw_break>"
+  },
+  "203774": {
+    "<attr><feel_normal_one><end_attr>「ダラズ大鉱脈の　強制労働所にいけって？\n　チャガンさんが言うなら　期待できるかな……。\n　ためしに　行ってみてほしいな～。": "<attr><feel_normal_one><end_attr>You want me to go to Forced Labor Camp\nat Daraz Large Vein? If Mr. Chagan\nsays so, I guess I can count on him.\n<br>\nI'd like you to go there just for the\nsake of it."
+  },
+  "203775": {
+    "<attr><feel_normal_lv1><end_attr>「レンズなら　魔神兵から　取っちまえばいい。\n　ダラズ大鉱脈の　強制労働所に行ってみな。\n　あそこなら　捕まったりはしないぜ……へへっ。\n<br>\n「とっておきの情報は　以上だぜ。\n　壊れた魔神兵でも　探してみるんだな。\n　あとは　お前さんの　運しだいさ。<bw_break>": "<attr><feel_normal_lv1><end_attr>If you want a lens, take it off the\ndemon soldiers. Go to the Forced Labor\nCamp in Daraz Large Vein. You won't\n<br>\nget caught there, hehe. That's all the\ninformation I have. Try to find a\nbroken Demon Soldier. The rest depends\n<br>\non your luck.<bw_break>"
+  },
+  "203776": {
+    "<attr><feel_normal_one><end_attr>「ここに捨てられた　ガラクタたちでさ\n　作ってみたいものが　あるんだけど\n　ピッカピカな　レンズが　必要なんだよ～。": "<attr><feel_normal_one><end_attr>I'd like to make something out of the\njunks that were thrown away here, but\nI need a shiny lens."
+  },
+  "203777": {
+    "<attr><feel_think_lv3><end_attr><icon_exc>「うーん……。\n　確かに　これは　レンズだけれど\n　キズだらけで　使えそうにないね……。<open_irai><bw_break>": "<attr><feel_think_lv3><end_attr><icon_exc>Hmmm. It's true that this is a lens,\nbut it's so scratched up that I don't\nthink I can use it.<open_irai><bw_break>"
+  },
+  "203778": {
+    "<attr><feel_think_lv3><end_attr>「こんな時に　バフチョさんのような\n　ウデのいい　レンズ職人が　いてくれたら\n　ピッカピカに　みがいてくれたのにな……。": "<attr><feel_think_lv3><end_attr>If only there had been a lens\ncraftsman as skilled as Bafcho at a\ntime like this, he would have polished\n<br>\nthe lenses to a shine."
+  },
+  "203779": {
+    "<pc>は　リリペアに\nキズだらけのレンズを　見せた。": "<pc> showed Riripea the\nScratched Lens."
+  },
+  "203780": {
+    "<attr><feel_normal_one><end_attr>「ここに捨てられた　ガラクタたちでさ\n　作ってみたいものが　あるんだけど\n　ピッカピカな　レンズが　必要なんだよ～。": "<attr><feel_normal_one><end_attr>I'd like to make something out of the\njunks that were thrown away here, but\nI need a shiny lens."
+  },
+  "203781": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>「わあ。ピッカピカな　レンズだ！\n　ウデのいい　レンズ職人さんが　みがいたの？\n　さっそく取りかかるから　待っててね。": "<attr><feel_happy_lv2><end_attr><icon_exc>Wow. Shining lenses! Did a skilled\nlens craftsman polish them? I'll get\nright to work, so please wait for me."
+  },
+  "203782": {
+    "「できた……！\n　ガラクタ映写機の　完成だよ！": "It's done! Junk Projector is complete!"
+  },
+  "203783": {
+    "<attr><feel_happy_one><end_attr>「くたびれた　ガラクタたちでも\n　軽いフィルムなら　まわし続けることができる。\n　そう考えて　作ってみたんだ～。\n<br>\n「フィルムに　刻まれた映像は\n　キミが手に入れた　ピッカピカなレンズで\n　拡大されて　投影されるって仕組みだよ。<bw_break>": "<attr><feel_happy_one><end_attr>Even tired junks can keep turning the\nlight film. That's what I thought and\nmade this film. The images engraved on\n<br>\nthe film are magnified and projected\nby the shiny lens you received.<bw_break>"
+  },
+  "203784": {
+    "<attr><feel_happy_lv2><end_attr>「ここに捨てられた　ガラクタたちの\n　もっと働きたいという　声にこたえられて\n　アタシは　とってもうれしいよ～。\n<br>\n「レンズがないと　作れなかったからさ。\n　このガラクタ映写機は　レンズを手に入れた\n　キミに　もらってほしいな～。": "<attr><feel_happy_lv2><end_attr>I'm very happy to answer the call for\nmore work from the junks who were\ndumped here. I couldn't have made it\n<br>\nwithout the lenses. I hope this Junk\nProjector will be given to the lens\nreceived by you."
+  },
+  "203785": {
+    "<attr><feel_happy_one><end_attr>「ガラクタ映写機の　使いかた　わかる？\n　自分の家の中に配置すれば　キミの思い出を\n　映しだすことが　できるはずだよ。\n<br>\n「ガラクタたちも　うれしそうだね。\n　その子たちに　キミのステキな思い出を\n　たっくさん　見せてあげてほしいなっ♪": "<attr><feel_happy_one><end_attr>Do you know how to use the Junk\nProjector? If you place it in your\nhouse, it will be able to project your\n<br>\nmemories. I'm sure the kids will be\nhappy to see it. I hope you will show\nthem many wonderful memories of you."
+  },
+  "203786": {
+    "リリペアに\nピッカピカなレンズを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Riripea a shiny lens?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "203787": {
+    "<pc>は　リリペアに\nピッカピカなレンズを　渡した。": "<pc> handed Riripea a shiny\nlens."
+  },
+  "203788": {
+    "リリペアは　なれた手つきで\n捨てられたガラクタたちを　組み上げると\n最後に　レンズを　はめこんだ！<se FQ_182_1 0>": "Riripea assembled the discarded junks\nwith a practiced hand and inserted the\nlens at the end!<se FQ_182_1 0>"
+  },
+  "203789": {
+    "リリペアは　<pc>に\nガラクタ映写機を　手渡した。": "Riripea handed Junk Projector to\n<pc>."
+  },
+  "203790": {
+    "「ガラクタ映写機の　調子はどう？\n　家の中に配置すれば　キミの思い出を\n　映しだすことが　できるはずだよ。\n<br>\n「ガラクタたちも　うれしそうだね。\n　その子たちに　キミのステキな思い出を\n　たっくさん　見せてあげてほしいなっ♪": "How's the Junk Projector coming along?\nI'm sure it's going to be a great way\nto capture all the memories of you\n<br>\nwhen it's placed in your home. I'm\nsure the junks will be happy to see\nit. I hope you show them lots of great\n<br>\nmemories of you."
+  },
+  "203860": {
+    "<attr><feel_happy_lv1><end_attr>「不思議そうなカオをしてるな……。\n　そいつが　間違いなく　ウルベアめんこだぜ。\n　へへっ……まがいものは　売らねえよ。<bw_break>": "<attr><feel_happy_lv1><end_attr>He's got a curious look on his face.\nThat's definitely Urbeapog. I don't\nsell fake ones.<bw_break>"
+  },
+  "203876": {
+    "<attr><feel_normal_one><end_attr>「しかし　私は　情熱のめんこバトラー……。\n　いつでも　この教会で　君の挑戦を受けよう。": "<attr><feel_normal_one><end_attr>But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church."
+  },
+  "203877": {
+    "<attr><feel_normal_one><end_attr>「しかし　私は　情熱のめんこバトラー……。\n　いつでも　この教会で　君の挑戦を受けよう。": "<attr><feel_normal_one><end_attr>But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church."
+  },
+  "203895": {
+    "防衛魔神兵０５４号に\n入城許可証を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Do you want to give Entry Permit to\nAztech Guard No. 054?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "203896": {
+    "<attr><feel_sad_one><end_attr>「あの子が　ついてるんだから\n　大丈夫だとは　思うんだけど……\n　やっぱり　心配だわ。": "<attr><feel_sad_one><end_attr>I'm sure she'll be fine since she's\nwith me, but I'm still worried."
+  },
+  "203897": {
+    "<icon_exc><turn_pc>「……あら！？　あたしには　わかるわ。\n　あなた　すごく　ウデの立つ冒険者でしょ？\n　あたしのお願い　聞いてくれないかしら。\n<br>\n「じつは　あたしの旦那も冒険者で\n　若いころから　ヒスイのつばさ　なんて名乗って\n　冒険に出てるんだけど　毎回　無茶ばかり……\n<br>\n「今回も　カルデア溶岩帯にある\n　灼熱の溶岩窟に　すごいロマンがあるって言って\n　相棒と一緒に　出ていってしまったの。\n<br>\n「お願い！　灼熱の溶岩窟に行って\n　旦那を　手伝ってもらえないかしら？\n　……今回は　なんだか　嫌な予感がするの。": "<icon_exc><turn_pc>Oh? I know what you mean. You're a\nvery skilled adventurer, aren't you?\nWill you do me a favor? Actually, my\n<br>\nmaster is an adventurer too, and since\nhe was young, he's been going on\nadventures under the name \"Jade\n<br>\nWings\", but he's always reckless. This\ntime, he and his partner went off to\nthe Burning Lava Cave in the Chaldea\n<br>\nLava Belt, saying there was something\nvery romantic about it. Please! Can\nyou go to Burning Lava Cave and help\n<br>\nme with the master? I have a bad\nfeeling about this one."
+  },
+  "203898": {
+    "<attr><feel_happy_lv1><end_attr>「ありがとう！　旦那はキバチェっていうの。\n　灼熱の溶岩窟は　カルデア溶岩帯にあるわ。\n　どうか　よろしくお願いします。": "<attr><feel_happy_lv1><end_attr>Thank you! My master is called\nKibache. Burning Lava Cave is in\nChaldea Lava Belt. Thank you very\n<br>\nmuch."
+  },
+  "203899": {
+    "「ありがとう！　\n　……でも　あなた　色々な人から\n　頼みごと　されてるみたい。\n<br>\n「先に　そちらを解決してから\n　また来てね。": "Thank you!But you seem to be getting\nrequests from a lot of people. Please\nsolve those first, and then come back\n<br>\nagain."
+  },
+  "203900": {
+    "<attr><feel_sad_one><end_attr>「……そう　残念だわ。\n　もし　気が変わったら　また来てね。": "<attr><feel_sad_one><end_attr>Yes, I'm sorry to hear that. If you\nchange your mind, come back."
+  },
+  "203901": {
+    "「カルデア溶岩帯にある　灼熱の溶岩窟に\n　冒険に行った　あたしの旦那　キバチェを\n　手伝ってきてくれない？<open_irai><bw_break>": "Would you help my master Kibache on\nhis adventure to the Burning Lava Cave\nin the Chaldea Lava Belt?<open_irai><bw_break>"
+  },
+  "203902": {
+    "<attr><feel_sad_one><end_attr>「……考えてみると　今回は\n　何か様子が　おかしかった気がするわ。\n　神様……　旦那とリュウタを　お守りください。": "<attr><feel_sad_one><end_attr>Thinking about it, something seems\nstrange this time. God, please protect\nmaster and Ryuta."
+  },
+  "203903": {
+    "<attr><feel_happy_lv1><end_attr><icon_exc><turn_pc>「よかった……　旦那とリュウタは　無事なのね。\n　なんだか　今回は　すごく嫌な予感がしてたの。\n　……これは　お礼よ。受け取って。": "<attr><feel_happy_lv1><end_attr><icon_exc><turn_pc>Thank God master and Ryuta are safe. I\nhad a bad feeling this time. This is\nfor you. Please accept it."
+  },
+  "203904": {
+    "<attr><feel_happy_lv1><end_attr>「それにしても　デアダイアか……。\n　本当に　持ってきちゃう日が来るなんて\n　夢にも　思わなかったわ。\n<br>\n「結婚する　ずっとずっと　前の話なんだけど\n　あたし　キバチェに　デアダイアを持ってきたら\n　デートしてあげるって　言ったことがあったの。\n<br>\n「正直　しつこい誘いを　断るための\n　口実だったんだけど　あの人　それを真に受けて\n　デアダイアを探す旅に　出ちゃったの。<bw_break>": "<attr><feel_happy_lv1><end_attr>But still... Deirdre. I never dreamed\nthat the day would come when I would\nactually bring them to you. Long\n<br>\nbefore we got married, I once told\nKibache that I would go on a date with\nher if she brought me a set of Dia\n<br>\nDiamonds. To be honest, it was just an\nexcuse to turn down his persistent\nadvances, but he took it to heart and\n<br>\nset off on a journey to find the\ndiamonds.<bw_break>"
+  },
+  "203905": {
+    "<attr><feel_happy_lv2><end_attr>「……でね　旅から帰った　キバチェが言ったの。\n　幻の宝石は　見つからなかったけど\n　代わりに　幻の珍獣を　見つけたって。\n<br>\n「それで　会わせてくれたのが\n　あの人の相棒……紅竜のリュウタだったの。\n<br>\n「キミにプレゼントするよ！　って　あの人が\n　言うから　物あつかいすんなドラ！　って\n　リュウタが怒って　大ゲンカになってたけどね。\n<br>\n「……そんな姿に　ほっこりしてね。\n　その後　三人で遊ぶようになって\n　なんだかんだで　気がついたら結婚してたの。\n<br>\n「はぁ……　あの日の約束を果たすつもりなら\n　自分で　持って来ればいいのに……。": "<attr><feel_happy_lv2><end_attr>When Kibache returned from his trip,\nhe said, \"I didn't find the gem, but\ninstead I found a phantom beast. He\n<br>\ncouldn't find the gemstone, but he\nfound a rare animal instead. And the\none who took me to see him was his\n<br>\npartner, Ryuta, the red dragon. He\nsaid, \"I'll give it to you as a\npresent! Ryuuta got angry and said,\n<br>\n\"Don't treat it like an object! Ryuuta\ngot angry and they had a big fight.\nRyuuta was so relieved to see him like\n<br>\nthat. After that, the three of us\nstarted playing together, and before I\nknew it, we were married. If she\n<br>\nwanted to fulfill the Promise of the\nDay, she should have brought it\nherself."
+  },
+  "203907": {
+    "ララコネアに\nデアダイアのかけらを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Laraconea the Deadia\nShard?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "203908": {
+    "<pc>は　ララコネアに\nデアダイアのかけらを渡し\nキバチェからの　伝言を伝えた。": "<pc> gave Laraconea the\nDeadia Shard and passed on a message\nfrom Kibache."
+  },
+  "203909": {
+    "<attr><feel_happy_lv1><end_attr>「冒険が終わって　家に帰ると\n　彼　決まって　冒険の話をしてくれるのよ。\n<br>\n「今回は　あたしと彼の　約束の宝石\n　デアダイアのお話ね……。\n　どんな冒険だったか　ワクワクするわ<heart><bw_break>": "<attr><feel_happy_lv1><end_attr>Whenever I come home after an\nadventure, he always tells me about\nhis adventures. This time it's about\n<br>\nme and his promised jewel, the\nDaredire. I'm excited to see what kind\nof adventure we had.<bw_break>"
+  },
+  "203910": {
+    "<attr><feel_happy_one><end_attr>「はぁ……\n　キバチェとリュウタ　早く帰ってこないかなぁ。": "<attr><feel_happy_one><end_attr>I can't wait for Kibache and Ryuta to\ncome back."
+  },
+  "203911": {
+    "<attr><feel_sad_one><end_attr>「あたしの旦那　また　冒険に出ちゃった……。\n　あの子が　ついてるんだから\n　大丈夫だとは　思うんだけど……心配だわ。　": "<attr><feel_sad_one><end_attr>My master has gone on another\nadventure. I'm sure she'll be fine\nsince she's with me, but I'm worried."
+  },
+  "204071": {
+    "<attr><feel_normal_one><end_attr>「へー　お前さん　買いもの上手だな。\n　商人泣かせで　まいっちまうぜ。<bw_break>": "<attr><feel_normal_one><end_attr>You're a good shopper, aren't you? I'm\ngoing to end up making the merchant\ncry.<bw_break>"
+  },
+  "204072": {
+    "<attr><feel_normal_one><end_attr>「おいおい……。ケチケチすんなよ。\n　だが　お前さんのことが　気に入ったぜ。\n　ともだち価格で　売ってやるよ。<bw_break>": "<attr><feel_normal_one><end_attr>Oh, come on. Don't be stingy. But I\nlike you. I'll sell it to you at a\nfriend's price.<bw_break>"
+  },
+  "204093": {
+    "<attr><feel_happy_lv3><end_attr>「あんた　教えてくれてありがとうな！ \n　こうしちゃいられねえ！　すぐに会いにいって\n　オレも生きてるって　知らせてやらねえと！": "<attr><feel_happy_lv3><end_attr>Thanks for the tip, man!I can't let\nthis happen! I gotta go see him right\nnow and let him know I'm alive too!"
+  },
+  "204272": {
+    "「無茶をするのは　いつものことなんだけど　\n　今回は　なんだか　嫌な予感がするの。\n　どうか　よろしくお願いします。": "I always do reckless things, but this\ntime I have a bad feeling about it.\nPlease, I'm counting on you."
+  },
+  "204273": {
+    "「ふむ　なるほど。ウルタ皇女……か。\n<br>\n「すでに　知っているとは思うが\n　陛下亡き後　宰相グルヤンラシュ殿が\n　帝国の実権を　握っておられる。\n<br>\n「というのも　大きな声では　言えないが……\n　前皇帝ジャ・クバ陛下の遺児　ウルタ皇女は\n　国民からの評判が　よろしくなくてね。\n<br>\n「変わり者の皇女は　大の人嫌い。\n　グルヤンラシュ殿を除いては\n　誰とも　関わりを持とうとしないという。\n<br>\n「玉座の間に引きこもり　外に用がある時は\n　世話係の魔神機を　使いに出しているそうだ。\n<br>\n「うむ……そうだな。\n　ウルタ皇女の魔神機なら　入城許可証を\n　発行する権限を　与えられているかもしれん。\n<br>\n「その魔神機は　ときどき　帝都で見かけるから\n　広場の辺りで　探してみるといい。\n<br>\n「私が話せるのは　このくらいだ。\n　じつに　よい　めんこバトルだったよ。\n　再戦できる日を　心待ちにしているぞ！": "I see...Princess Ulta, I see. As you\nmay already know, since the death of\nHer Majesty, the Prime Minister,\n<br>\nGuryan Rush, has been in charge of the\nEmpire. I can't say it out loud, but\nPrincess Ulta, the orphaned daughter\n<br>\nof former Emperor Ja Kuba, is not\nwell-liked by the people. The\neccentric princess is a misanthrope.\n<br>\nWith the exception of Lord Guryan\nRush, she refuses to associate with\nanyone. She's holed up in the throne\n<br>\nroom, and when she needs to go\noutside, she sends her caretaker, the\nDemon Goddess Machine, out on errands.\n<br>\nYes, that's right. Princess Ulta's\ndemonic machine might be authorized to\nissue Entry Permits. You can sometimes\n<br>\nfind them in the Imperial City, so you\nshould look around the plaza. That's\nabout all I can tell you. It was a\n<br>\ngood pogbattle. I look forward to our\nrematch!"
+  },
+  "204274": {
+    "<pc>は　ウルタ皇女に謁見するため\n入城許可証がほしいと　説明した。": "<pc> explained that he wanted\nan Entry Permit to have an audience\nwith Princess Ulta."
+  },
+  "204281": {
+    "「当店は　王室御用達の仕立て屋ですの。\n　わたくし　あの　グルヤンラシュ様から\n　直々に　オーダーいただいてたですのに……。\n<br>\n「まさかの　筆頭研究員様まで　行方不明ですの！\n　赤と緑が　ビビッドに決まった\n　会心のデザインでしたのに　残念ですの～。\n<br>\n「この無念は　ウルタ皇女の戴冠式ドレスで\n　晴らすしかないですの。とびっきり豪華で\n　華やかな一着を　仕立てるんですの！": "We are a royal tailor. I had received\nan order directly from Guryan Rush. I\nwas surprised to find that even the\n<br>\nhead pen researcher is missing! It's a\npity, because it was a design of my\nheart, with its vivid red and green\n<br>\ncolors. We have no choice but to make\nup for this disappointment with\nPrincess Ulta's coronation gown. We'll\n<br>\nmake her the most gorgeous and\nspectacular one!"
+  },
+  "204287": {
+    "「すぐそこの通路が　下層との行き来に\n　便利だからか　時々　あなたみたいな人が\n　通り抜けていくんですよね……。\n<br>\n「とはいえ　預かり所のセキュリティは\n　万全ですので　ご安心ください。\n　ご用の際は　カウンター正面からどうぞ。": "Perhaps it's because the passages\nright there are convenient to go to\nand from the lower levels, but\n<br>\nsometimes people like you walk through\nthem. However, you can rest assured\nthat the Depository's security is top\n<br>\nnotch. If you need anything, please\ncome to the front of the counter."
+  },
+  "204399": {
+    "<attr><feel_sad_one><end_attr>「…………取り乱して　悪かったな。\n　だけど　ガテリアの民なら　みんなそうだぜ。\n　あいつは　人の姿をした……悪魔だよ。\n<br>\n「……どうだ？　ちゃんと録音されたか？\n　あいつを恨んでる奴らも　たくさんいるって\n　事実を　ちゃんと　記録に残してくれよな。": "<attr><feel_sad_one><end_attr>I'm sorry for being so upset. But so\nare all the people of Gateria. He's a\ndemon in human form. How's it coming?\n<br>\nDid you get it on tape? Make sure to\nrecord the fact that there are a lot\nof people who hate him."
+  },
+  "204826": {
+    "<attr><feel_sad_one><end_attr>「もしも　レンズが　手に入らないのなら\n　ガラクタで　作ってみたいものは\n　あきらめるしか　ないかも……。ぐすっ。": "<attr><feel_sad_one><end_attr>If I can't get the lenses, I may have\nto give up what I want to make with\njunk. Sigh."
+  },
+  "234580": {
+    "<attr><feel_sad_one><end_attr>「……まさか　リュウタが　あんなに大きく\n　育つなんて　思わなかったわ。\n　さすがに　引っ越しするしかないわね……。": "<attr><feel_sad_one><end_attr>I never thought Ryuuta would grow so\nbig. As expected, we'll have to move."
+  },
+  "234582": {
+    "<icon_exc><turn_pc>「あら　お久しぶり。ウチの旦那ったら\n　帰ってきて　またすぐ　冒険に出ちゃったの。\n　まったく　人の気も知らないで……。": "<icon_exc><turn_pc>Oh, it's been a while. My master went\non an adventure right after he came\nback. He doesn't even know what people\n<br>\nare up to."
+  },
+  "234584": {
+    "<attr><feel_normal_one><end_attr>「えーっと　話が難しくて　よくわからないけど\n　つまり　デアダイアを　ゆずってほしい。\n　……ということなのね？<bw_break>": "<attr><feel_normal_one><end_attr>Well, I don't know what you're talking\nabout, but I'm asking you to give up\nDeirdre. Is that what you're saying?<bw_break>"
+  },
+  "234586": {
+    "<attr><feel_happy_lv1><end_attr>「……あなたは　前に　あたしの予感を信じて\n　灼熱の溶岩窟へ　キバチェたちの手伝いに\n　向かってくれたわ。\n<br>\n「そんな　あなたが　デアダイアが必要だと\n　言うのなら　それはきっと　本当に\n　大切なことなんだと　あたし　思うの。\n<br>\n「その宝石は　あたしと旦那のキバチェ\n　そして　親友のリュウタを結ぶ　特別な宝石……\n　大事に使ってくれると　うれしいわ。": "<attr><feel_happy_lv1><end_attr>You once believed my hunch and went to\nBurning Lava Cave to help Kibache and\nthe others. If you say that you need\n<br>\nthe Dare Diamond, then I think it must\nbe really important. I hope you will\ntake good care of this special gem\n<br>\nthat connects me with my master\nKibache and my best friend Ryuta."
+  },
+  "234588": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「デアダイアは　あたしと旦那のキバチェ　\n　そして　親友のリュウタを結ぶ　特別の宝石……\n　大事に使ってくれると　うれしいわ。": "<attr><feel_happy_lv1><end_attr><turn_pc>The Dare Diamond is a special jewel\nthat connects me, my master Kibache,\nand my best friend Ryuta, and I hope\n<br>\nyou will take good care of it."
+  },
+  "234590": {
+    "ララコネアに　デアダイアのことを\n話しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you tell Laraconea about De\nAdaia?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "234592": {
+    "<pc>は　ララコネアに\n３０００年後の　魔物の浄化に\nデアダイアが　必要なことを話した。": "<pc> told Laraconea that he\nwould need the Deedia to cleanse the\nmonster after 3000 years."
+  },
+  "234594": {
+    "<pc>は　\nデアダイアのかけら（だいじなもの）を\n手に入れた。<me 60>": "<pc> received Deadia Shard\n(Key Item).<me 60>"
+  },
+  "234596": {
+    "デアダイアのかけらと　黒呪のつぼを\n手に入れることができた。\n賢者セレディーネのもとに　戻ろう。": "Now that we have the Deadia Shard and\nthe Black Curse vase, let's get back\nto Sage Celedine."
+  },
+  "234598": {
+    "次に　ゼドラの影の浄化に必要な　黒呪のつぼを\n探しにいこう。": "Next, let's look for the Black Curse\nvase needed to purify Shadow of Zedra."
+  },
+  "244252": {
+    "<attr><feel_happy_one><end_attr>「……いいわ。\n　これ　持っていって。": "<attr><feel_happy_one><end_attr>Okay. Take this with you."
+  },
+  "244257": {
+    "「旦那の相棒が　帝都に入れなくなっちゃったから\n　あたしたちも　引っ越さないと\n　いけなくなったの……。\n<br>\n「新しい拠点の候補地は　帝都の東の高台……\n　って言ってたかしら？\n　今度　下見に　行ってみようかな。": "We had to move because my master\npartner couldn't get into the capital\nanymore. I think the new location is\n<br>\nin the eastern part of the capital. I\nthink I'll go check it out next time."
+  }
+}

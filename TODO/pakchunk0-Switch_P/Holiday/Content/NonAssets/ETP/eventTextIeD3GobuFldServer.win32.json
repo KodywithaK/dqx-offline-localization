@@ -1,0 +1,131 @@
+{
+  "99882": {
+    "「ごきげんよう　旅ん人。\n　おいは　行商人のドギーっちゅうモンたい。\n　どうぞ　ごひいきに。\n<br>\n「おいの仕事は　この馬車で\n　ドルワームからの商品ば　運ぶこったい。\n<br>\n「これから　ゴブル砂漠東の　オアシスの隊商宿と\n　ゴブル砂漠西の　商人たちのテントに\n　行こうち思っちょうが　乗ってかんね？<bw_break>": "Cheery, traveler. I am Dogi, a\npeddler. Please patronize me. My job\nis to carry goods from Dolworm in this\n<br>\nwagon. I'm thinking of going to Oasis\nCaravan in Goble Desert East and\nmerchants' tents in Goble Desert West.<bw_break>"
+  },
+  "99883": {
+    "「これから　ゴブル砂漠東の　オアシスの隊商宿と\n　ゴブル砂漠西の　商人たちのテントに\n　行こうち思っちょうが　乗ってかんね？<bw_break>": "I'm thinking of going to Oasis Caravan\nin Goble Desert East and merchants'\ntents in Goble Desert West.<bw_break>"
+  },
+  "99884": {
+    "「ごきげんよう　旅ん人。\n　おいは　行商人のドギーっちゅうモンたい。\n　どうぞ　ごひいきに。\n<br>\n「おいの仕事は　この馬車で\n　ドルワームからの商品ば　運ぶこったい。\n<br>\n「これから　ゴブル砂漠東の　オアシスの隊商宿に\n　行こうち思っちょうが　乗ってかんね？<bw_break>": "Cheery, traveler. I am Dogi, a\npeddler. Please patronize me. My job\nis to carry goods from Dolworm in this\n<br>\nwagon. I'm thinking of going to the\nOasis Caravan in Goble Desert East.<bw_break>"
+  },
+  "99885": {
+    "「これから　ゴブル砂漠東の　オアシスの隊商宿に\n　行こうち思っちょうが　乗ってかんね？<bw_break>": "I'm thinking of going to the Oasis\nCaravan in Goble Desert East.<bw_break>"
+  },
+  "99886": {
+    "<pipipi_low>「おっとと？　すんまっせん。\n　今そこに　向かうんな\n　ちょっと都合の　悪かちゃうたい。\n<br>\n「代金は　お返しするたい。\n　時間ばおいてから　また来んしゃい。": "<pipipi_low>Oops? Sorry. I'm on my way there now.\nIt's not a good time. You'll get your\nmoney back. Come back after some time."
+  },
+  "99887": {
+    "「ばってん　送るだけで　迎えには行かれんばい\n　そいでもよかなら　どこさ行くと？\n<name_off><select>\nオアシスの隊商宿（ゴブル砂漠東）\n商人たちのテント（ゴブル砂漠西）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": "I'll just drop you off, but I won't\npick you up.\n<name_off><select>\nOasis Caravan (Goble Desert East)\nmerchants' tents (Goble Desert West)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+  },
+  "99888": {
+    "<attr><feel_happy_lv2><end_attr>「まいどありがとね。\n　そしたら　出発するばい。": "<attr><feel_happy_lv2><end_attr>Thanks again. Then I'll be on my way."
+  },
+  "99889": {
+    "「おっとと。乗らんと？\n　乗りたくなりよったら　また来んしゃい。": "Oops. Don't you want to ride? If you\nfeel like riding, come back again."
+  },
+  "99890": {
+    "<pipipi_low>「おまちどお。\n　オアシスの隊商宿に　着いたばい。": "<pipipi_low>Hey there, guys. We've arrived at the\nOasis Caravan."
+  },
+  "99891": {
+    "<pipipi_low>「おまちどお。\n　商人たちのテントに　着いたばい。": "<pipipi_low>Here we are. We've arrived at the\nmerchants' tents."
+  },
+  "99892": {
+    "「おっとと。金が足らんちゃ。\n　金んある時に　また来んしゃい。": "Oops. I don't have enough money. Come\nback when you have more money."
+  },
+  "99893": {
+    "「<%sL_TIMEI>まで\n　行くんやね。\n　お代は２５ゴールドたい。そいでもよかと？<yesno><break>": "You're going to <%sL_TIMEI>. I'll give\nyou 25 gold. Is that all right with\nyou?<yesno><break>"
+  },
+  "99894": {
+    "「おっとと。やめると？\n　乗りたくなりよったら　また来んしゃい。": "Oops. Quit? Come back when you feel\nlike riding again."
+  },
+  "115108": {
+    "トロッコに乗って　移動しますか？<yesno><close>": "Would you like to travel in a\nMinecart?<yesno><close>"
+  },
+  "117312": {
+    "「ここから　東に行くと\n　オアシスの隊商宿っちゅう\n　集落に　行き着くたい。\n<br>\n「南西の　ゴブル砂漠西に行くと\n　その　途中に　商人たちのテントっちゅう\n　集落に　行き着くたい。\n<br>\n「まだ　行ったことがなければ\n　一度　行ってみると　よかばい。": "If you go east from here, you will\nreach the settlement of Oasis Caravan.\nIf you go southwest to Goble Desert\n<br>\nWest, you will reach a settlement\ncalled merchants' tents. If you\nhaven't been there yet, you should go\n<br>\nthere."
+  },
+  "47279": {
+    "砂に埋もれた　大きな半球体がある。": "There is a large semi-ball body buried\nin the sand."
+  },
+  "47280": {
+    "砂に埋もれた　大きな半球体がある。\nサンプルを採取しますか？<yesno><close>": "There is a large semi-ball object\nburied in the sand. Would you like to\ntake a sample?<yesno><close>"
+  },
+  "47281": {
+    "なんと　半球体は　意外とやわらかかった！<bw_break>": "The half-ball body was surprisingly\nsoft!<bw_break>"
+  },
+  "47282": {
+    "<pc>は\n半球体のかけら（だいじなもの）を\n手に入れた！<me 60>": "<pc> received Sphere Fragment\n(Key Item)!<me 60>"
+  },
+  "52994": {
+    "<attr><feel_normal_lv1><end_attr>「ここから西の方角にある　ドルワーム王国には\n　防具鍛冶ギルドがあるそうです。\n<br>\n「どんなところなのか\n　一度　見にいってみたいのですが\n　なかなか　勇気が出ないんですよね……。": "<attr><feel_normal_lv1><end_attr>I heard that there is an Armorsmith\nGuild in Dolworm Kingdom, which is\nlocated to the west of here. I would\n<br>\nlike to visit there, but I don't have\nthe courage to do so."
+  },
+  "71720": {
+    "<attr><feel_happy_lv1><end_attr>「あら……あなた……。\n　ふぅん。今は　まだ原石だけど\n　センスをみがけば　美しく光りそうじゃない？\n<br>\n「あ……そうだ。美容院　サロン・フェリシアが\n　今　一斉オープンの準備を進めてる……って\n　カリスマ美容師のアタシに　オファーが来たわ。\n<br>\n「アタシみたいに　美しくなりたいなら\n　あなたも行ってみたら？　美容院は\n　この先の　ドルワーム王国にあるわよ。": "<attr><feel_happy_lv1><end_attr>Oh, you. Hmm. You're still a gem in\nthe rough right now, but if you work\non your sense of style, you'll shine\n<br>\nbeautifully, won't you? Oh, that's\nright, Salon Salon Fe Lycia is getting\nready to open all over the place, and\n<br>\nI, the charismatic hair stylist, got\nan offer. If you want to be as\nbeautiful as me, why don't you go\n<br>\nthere? The salon is just down the road\nin Dolworm Kingdom."
+  },
+  "71721": {
+    "<attr><feel_happy_one><end_attr>「悪いけど　アタシ　今日はオフなの。\n　今は　カリスマ美容師と　お客様じゃなくて\n　美しいセレブと　行きずりの旅人……。\n<br>\n「あら　あなた……そこそこウデが立つみたいね。\n　ちょうど　バカンス中に思いついたアイディアを\n　試したくって。使いっ走りを　お願いしたいの。\n<br>\n「美容院で使える　セレブな新色を作るために\n　<%sEV_QUE_NAME0>って魔物が　たまに落とす\n　こんじきオイル……持ってきてちょうだい。": "<attr><feel_happy_one><end_attr>Sorry, but I'm off today. Now I'm not\nwith a charismatic hairdresser and her\nclients, but a beautiful celebrity and\n<br>\na wayward traveler. Well, you seem to\nbe pretty good at it. I just wanted to\ntry out an idea I had on vacation. I\n<br>\nneed you to run an errand for me.\nBring me some of that Golden Oil that\n<%sEV_QUE_NAME0> monster sometimes\n<br>\ndrops to make a new celebrity color\nfor the salon."
+  },
+  "71722": {
+    "<attr><feel_happy_lv1><end_attr>「ま　当然の選択よね。\n　<%sEV_QUE_NAME0>は　この辺りの砂漠で\n　ランニングしてるわ。じゃ　よろしくね。": "<attr><feel_happy_lv1><end_attr>Well, it's an obvious choice.\n<%sEV_QUE_NAME0> is running in the\ndesert around here. Nice to meet you."
+  },
+  "71723": {
+    "<attr><feel_normal_one><end_attr>「賢明な選択ね……って　言いたいとこだけど\n　あなた　他の頼まれごとで　手がいっぱいよ。\n　そっちを片付けてから　出直してらっしゃい。": "<attr><feel_normal_one><end_attr>I'd say that's a wise choice, but you\nhave your hands full with other things\nyou need to do. Why don't you finish\n<br>\nthat and come back later?"
+  },
+  "71724": {
+    "<attr><feel_angry_one><end_attr>「……あら　ご不満？　あ　そう。\n　ま……オフの日に仕事なんて　疲れるし\n　ある意味　あなたに感謝するわ。": "<attr><feel_angry_one><end_attr>Oh, you're not satisfied? Oh, yeah.\nI'm tired of working on my day off,\nand in a way, I appreciate you."
+  },
+  "71725": {
+    "<attr><feel_happy_one><end_attr>「美容院で使える　最高にセレブな新色……\n　<%sEV_QUE_NAME0>って魔物が　たまに落とす\n　こんじきオイルがあれば　作れるわ。<open_irai><bw_break>": "<attr><feel_happy_one><end_attr>I can make the most celebrity new\ncolor <%sev_que_name0> for Salon with\nGolden Oil that monster sometimes\n<br>\ndrops.<open_irai><bw_break>"
+  },
+  "71726": {
+    "<attr><feel_happy_one><end_attr>「<%sEV_QUE_NAME0>は　ちょうど　この辺\n　ゴブル砂漠東で　ランニングしてるから。\n　じゃ　よろしくね。うふん。": "<attr><feel_happy_one><end_attr><%sEV_QUE_NAME0> is just running\naround here in Goble Desert East. So\nit's nice to meet you. Hmmm."
+  },
+  "71727": {
+    "<attr><feel_happy_one><end_attr>「あら……早かったじゃない。\n　こんじきオイル　手に入ったのね。\n　ちょっと　見せていただける？": "<attr><feel_happy_one><end_attr>Well, you're early. You got Golden\nOil. Can I see it?"
+  },
+  "71728": {
+    "<attr><feel_happy_lv1><end_attr>「なあに？　まだ見つかってないの？\n　ふふん……しょうがない　子猫ちゃんね。\n<br>\n「普段なら　めっ！　するところだけど\n　今日はオフだし　許してあげる。\n　ま　のんびり　がんばってちょうだい。": "<attr><feel_happy_lv1><end_attr>What is it? You haven't found it yet?\nYou're such a good kitty, aren't you?\nNormally, I'd say \"Meh. But since I'm\n<br>\noff duty today, I'll let you off the\nhook. Just take it easy and do your\nbest."
+  },
+  "71729": {
+    "<attr><feel_happy_lv2><end_attr>「ン～　いい香り。\n　それじゃ……ホラ　手を出して。\n　はい。アタシの背中に　ぬってちょうだい。": "<attr><feel_happy_lv2><end_attr>What a nice aroma. Then, give me your\nhand. Here. Wet it on my back."
+  },
+  "71730": {
+    "<attr><feel_happy_lv2><end_attr>「いい手つきね。あなた　才能あるわよ。\n　はぁ……気持ちいい……。": "<attr><feel_happy_lv2><end_attr>You have good hands. You're very\ntalented. Oh, that feels good."
+  },
+  "71731": {
+    "「おつかれさま。アタシ　どうしても\n　この　こんじきオイルが　必要だったのよ。\n　バカンスには　日焼けがマストですもの。\n<br>\n「……じゃ　約束どおり\n　残りの　こんじきオイルを使って\n　ついでに　新色も作っちゃおうかしら？": "Good night. I really needed this\nGolden Oil. Tanning is a must on\nvacation. Then, as promised, I'll use\n<br>\nthe rest of the Golden Oil to make a\nnew color."
+  },
+  "71732": {
+    "「まずは　こんじきオイルを　温めて……\n　フフ　太陽みたいな　美しい金色ね。\n　あとは　アタシの魔法を　かけるだけ。<bw_break>": "First, warm up the Golden Oil, it's a\nbeautiful golden color like the sun.\nThen I'll let my magic do the rest.<bw_break>"
+  },
+  "71733": {
+    "「マジカル　マジカル……アブラ　カタブラ\n　ビビデ・ビジョデ・ショー！": "Magical Magical Abra Katabra Bibide,\nBijode, and Sho!"
+  },
+  "71734": {
+    "「ふぅん……いい色が　できたじゃない。\n　セレブの休日にふさわしい　この新色……\n　サンゴールドと　名付けようかしら。": "Well, they've come up with a nice\ncolor. I think I'll name this new\ncolor \"sungold\", suitable for\n<br>\ncelebrity holidays."
+  },
+  "71735": {
+    "<attr><feel_happy_one><end_attr>「……あ　そうそう。\n　これ　今回のお礼よ。\n　ま　アタシの気持ちだから。とっといて。": "<attr><feel_happy_one><end_attr>Oh, that's right. I want to thank you\nfor this. Well, it's my feeling. Keep\nit."
+  },
+  "71736": {
+    "<attr><feel_happy_one><end_attr>「この　サンゴールド色は\n　美容院なら　どこでも　使えるはずよ。\n　あなたも　さっそく試してみてちょうだい。\n<br>\n「さすが　美容院　サロン・フェリシアの\n　カリスマ美容師ビビデ……って　もしかして\n　アタシのこと　リスペクトしちゃったかしら？\n<br>\n「ふぅ……オフだっていうのに　仕事しちゃった。\n　やっぱり　アタシって　生まれながらにして\n　美の追究者なのね。うふん。": "<attr><feel_happy_one><end_attr>This sungold color should work\nanywhere in Salon. You can try it out\nright away. I think that charismatic\n<br>\nhairdresser Bibide from Salon Fe Lycia\nmight respect me? I worked even though\nit was my day off. I guess I'm a born\n<br>\nbeauty seeker after all. Hmmm."
+  },
+  "71737": {
+    "ビビデに\nこんじきオイルを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Bibide the Golden Oil?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "71738": {
+    "<pc>は　ビビデに\nこんじきオイルを　渡した！": "<pc> gave Bibide the Golden\nOil!"
+  },
+  "71739": {
+    "<pc>は　ビビデの背中に\nこんじきオイルを　塗りたくった！": "<pc> smeared Golden Oil on\nBibide's back!"
+  },
+  "71740": {
+    "ビビデは　けだるい手つきで\n温めた　こんじきオイルに　魔法をかけた！<me 69>": "Bibide worked his magic on the Golden\nOil, which he warmed up with a lazy\nhand!<me 69>"
+  },
+  "71741": {
+    "美容院で　新しい色\n『サンゴールド』が　使えるようになった！<me 71>": "A new color, \"sungold,\" is now\navailable at Salon!<me 71>"
+  },
+  "71742": {
+    "<attr><feel_happy_lv1><end_attr>「知ってる？　<%sEV_QUE_NAME0>の毛皮\n　本当は　純白なの。\n　こんじきオイルで　あの色に焼いてるのよ。\n<br>\n「日ごろから　毛皮の手入れを　おこたらない\n　あの姿勢……モンスターながら　あっぱれね。\n　同じ　美の追究者として　リスペクトするわ。": "<attr><feel_happy_lv1><end_attr>Did you know? <%SEV_QUE_NAME0>'s fur\nis actually pure white. It's baked in\nGolden Oil to that color. I admire\n<br>\nyour attitude, Monster, for not taking\nthe time to care for your fur. As a\nfellow beauty seeker, I respect you."
+  }
+}

@@ -1,0 +1,923 @@
+{
+  "10093000": {
+    "「そうだ　<pc>よ。\n　ヒメア様が　これを……と。\n　旅立つお前への　せんべつ　だそうだ。<br_break>": "Yes, <pc>. Himea-sama sent me\nthis. It is a special gift for your\ndeparture.<br_break>"
+  },
+  "10093001": {
+    "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": "<pc> received a brick kiln\n(Key Item)!<me 60> In addition, he received a recipe\nbook, \"Hajimeyo Alchemy!<se_nots System Item> <pc> has read \"Let's Get\nStarted: Alchemy\"! <pc>\nlearned the recipe for Hajimeteyo\n<br>\nAlchemy!<se_nots System Item> The Renkin pot is a special tool that\ncan be used to smelt another item by\ninserting the item as a material. You\n<br>\ncan smelt an item by selecting \"Renkin\nGama\" from the \"item\" command. To\nsmelt an item, you will need the\n<br>\nrecipe of the item you want to smelt.\nRecipes can be obtained from the\nRecipe Shop or bookshelf."
+  },
+  "10093002": {
+    "「ふむ……　なかなか便利そうなものだな。\n　きっと　旅の役に立ってくれるだろう。\n　それでは　しっかりやるんだぞ！": "Hmmm, that looks quite useful. I'm\nsure it will come in handy on our\njourney. Well, then, do it well!"
+  },
+  "40755": {
+    "<attr><feel_think_lv2><end_attr>「今　ツスクルの村は　大変なの。\n　まさか　巫女のヒメア様が　あんなことに……。\n<br>\n「なのに　シシノタと　コノタったら\n　さっきから　ずいぶん楽しそう。\n　いったい　なにをやってるのかしら……。": "<attr><feel_think_lv2><end_attr>Tsusukul Village is in trouble. I\ncan't believe they did that to Himea,\nthe priestess. And yet Shishinota and\n<br>\nKonota seem to be having so much fun.\nWhat on earth are they doing?"
+  },
+  "40756": {
+    "<attr><feel_sad_lv2><end_attr>「まさか　あの方が　病をわずらわれるとは。\n　すぐにでも　病に効く薬を\n　学者たちに　調べさせなくては……。<bw_break>": "<attr><feel_sad_lv2><end_attr>I had no idea that he was suffering\nfrom the disease. We must get our\nscholars to find a cure for his\n<br>\nillness immediately.<bw_break>"
+  },
+  "58805": {
+    "<turn_pc>「おお　<pc>！　里帰りか？\n　この館には通せぬが　学びの庭へ戻れば\n　誰か　迎えてくれるのではないかな。": "<turn_pc>Oh <pc>! You're back home? I\ncan't pass this mansion, but I'm sure\nsomeone will welcome you back to the\n<br>\nGarden of Learning."
+  },
+  "58806": {
+    "<turn_pc>「……ム？　そなた　旅の者か。\n　この館には　許可なき者は通せぬ。\n　観光であれば　学びの庭へ行くといい。": "<turn_pc>M? Are you a traveler? No one is\nallowed in this mansion without\npermission. If you are a tourist, go\n<br>\nto the Garden of Learning."
+  },
+  "40757": {
+    "<attr><feel_happy_lv3><end_attr><start_lip_sync n00222 _normal m00001>「オ…オイラ　なんだか\n　ムネが　きゅんきゅんしてきたぜ……。": "<attr><feel_happy_lv3><end_attr><start_lip_sync n00222 _normal m00001>I'm getting a little pungent in my\nbones."
+  },
+  "40758": {
+    "<attr><feel_sad_lv2><end_attr>「ヒメア様は　５００年も生きておられる\n　尊い巫女さまなのよ。病に倒れるなんて\n　これまで　一度も　なかったのに……。\n<br>\n「それで今　ヒメア様を助けるために\n　従者の方が　ウデききの旅人を　探しているの。\n　よかったら　あなたも　手を貸して。\n<br>\n「くわしい話は　この学びの庭を出て　東……\n　村はずれにある　ヒメア様の　お屋敷にいる\n　従者のヨンジャさまに　聞くといいわ。": "<attr><feel_sad_lv2><end_attr>Himea-sama is a noble priestess who\nhas lived for 500 years. She has never\nfallen ill. And now, in order to help\n<br>\nher, her squire is looking for a\ntraveler with an udeki. If you would\nlike to help, you can lend a hand. For\n<br>\nmore information, leave the Garden of\nLearning and go to the squire Yonja at\nMaster Himea's mansion on the eastern\n<br>\nedge of the village."
+  },
+  "40759": {
+    "<attr><feel_happy_lv2><end_attr><start_lip_sync n00223 _normal m00001><start_lip_sync n00222 _normal m00001><stop_lip_animation n00222 CLOSE_MOUTH>「うへへ……　こいつは　マジで　すげえ。\n　こんなもんが　床下に　隠されてたなんて。\n　このラブレターって　先生のかな……。": "<attr><feel_happy_lv2><end_attr><start_lip_sync n00223 _normal m00001><start_lip_sync n00222 _normal m00001><stop_lip_animation n00222 CLOSE_MOUTH>Wow, this is seriously amazing. I\ncan't believe something like this was\nhidden under the floor. I wonder if\n<br>\nthis Love Letter is for the teacher."
+  },
+  "40760": {
+    "<turn_pc>「おお　<pc>か！\n　このような時に　そなたが　訪ねてくるとは\n　なんたる　めぐり合わせか。<bw_break>": "<turn_pc>Oh, <pc>! What a coincidence\nthat you should come to visit me at\nsuch a time as this.<bw_break>"
+  },
+  "40761": {
+    "<turn_pc>「おお　そなたは　旅の者か！\n　それも　なかなかの\n　ウデききと　お見受けする。<bw_break>": "<turn_pc>Oh, you are a traveler! I see that you\nare quite skillful.<bw_break>"
+  },
+  "40762": {
+    "<attr><feel_sad_lv1><end_attr>「じつは　この村を統べる　巫女ヒメア様が\n　ご病気に　なられてしまってな。\n　どうか　手助け願えないだろうか？\n<br>\n「そなたには　この　ツスクルの村に伝わる\n　秘伝の万能薬　仙者の霊薬という品を\n　用意していただきたい。\n<br>\n「仙者の霊薬の製法は　この村の西の\n　知恵の社に置かれた　薬学の書に記されている。\n　どうだ　引き受けてもらえんか？": "<attr><feel_sad_lv1><end_attr>The fact is that Maiden Himea, the\nleader of this village, has become\nill. I ask for your help. I would like\n<br>\nyou to prepare the elixir of the\nImmortal, a secret elixir that has\nbeen passed down in Tsusukul Village.\n<br>\nThe recipe for the elixir of the\nImmortal is written in the Book of\nPharmacy located in the Wisdom Altar\n<br>\nto the west of this village. Will you\naccept it?"
+  },
+  "40763": {
+    "「おお　かたじけない！\n　そうか　引き受けてもらえるか！": "Oh, I'm sorry! I see. You'll take care\nof it!"
+  },
+  "40764": {
+    "<attr><feel_think_lv1><end_attr>「おおっ！　かたじけない……\n　と言いたいところだが　どうやら\n　他にも　多くの仕事を　抱えているようだな。\n<br>\n「ならば　そなたの手を\n　借りるわけには　いかんな。\n　お心だけ　ありがたく　いただくことにしよう。": "<attr><feel_think_lv1><end_attr>Oh, I'd like to say I'm sorry, but\napparently you have a lot of other\nwork to do! I'd say I'm sorry, but it\n<br>\nseems you have a lot of other work to\ndo. If that's the case, I can't ask\nfor your help. I will only accept your\n<br>\nkindness."
+  },
+  "40765": {
+    "<attr><feel_think_lv1><end_attr>「ううむ……そうか。\n　そなたなら　適任だと思っただけに　残念だ。\n　気が変わったら　また声をかけてくれ。": "<attr><feel_think_lv1><end_attr>Hmmm... I see. It's a pity, because I\nthought you would be the right person\nfor the job. If you change your mind,\n<br>\ncall on me again."
+  },
+  "40766": {
+    "<attr><feel_happy_lv1><end_attr>「知恵の社は　この村を出て\n　ずっと　西に行った所にある　お社です。\n<br>\n「準備ができたら　すぐに　追いかけますから\n　<pc>さんは　先に\n　知恵の社に　向かってください。": "<attr><feel_happy_lv1><end_attr>Wisdom Altar is a shrine located far\nwest of this village. I will follow\nyou as soon as I am ready, so\n<br>\n<pc> please head to the\nWisdom Altar first."
+  },
+  "40767": {
+    "<attr><feel_think_lv2><end_attr>「ヒメア様は　５００年も生きておられる\n　尊い巫女さまなのよ。病に倒れるなんて\n　これまで　一度も　なかったのに……。": "<attr><feel_think_lv2><end_attr>Himea-sama is a noble priestess who\nhas lived for 500 years. She has never\nonce fallen ill."
+  },
+  "40768": {
+    "「西にある　知恵の社で　薬学の書を探しだし\n　記されている通りに　仙者の霊薬を作ってくれ。<open_irai><bw_break>": "Go to the Wisdom Altar in the west,\nfind the Book of Pharmacy, and make\nthe elixir of the Immortals as\n<br>\ndescribed.<open_irai><bw_break>"
+  },
+  "40769": {
+    "<close_irai>「アカシは　まだ年若い娘だが\n　薬の調合にかけては　右に出る者はいない。\n　必ずや　そなたの役に立つだろう。": "<close_irai>Akashi is still a young girl, but she\nhas no equal when it comes to mixing\nmedicines. She will surely be of use\n<br>\nto you."
+  },
+  "40770": {
+    "<attr><feel_think_lv1><end_attr>「仙者の霊薬を作るには　キリカ草原などにいる\n　<%sEV_QUE_NAME0>が　時々落とすという\n　おおみみずの化石が　必要です。\n<br>\n「あたしは　薬の調合の　準備をしておきますから\n　<pc>さんは　おおみみずの化石を\n　手に入れてきてください。": "<attr><feel_think_lv1><end_attr>To make the elixir of the Immortals,\nyou need the Wiggly Fossil that\n<%sev_que_name0> sometimes drops at\n<br>\nKirika Steppe and other places. I will\nprepare the potion, so <pc>\nplease go get the Wiggly Fossil."
+  },
+  "40771": {
+    "<attr><feel_happy_lv3><end_attr>「おかえりなさい　<pc>さん！\n　無事に　おおみみずの化石が\n　手に入ったみたいですね。": "<attr><feel_happy_lv3><end_attr>Welcome back <pc>! Looks like\nyou got your Wiggly Fossil in one\npiece."
+  },
+  "40772": {
+    "アカシに　おおみみずの化石を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to give Akashi the\nWiggly Fossil?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "40773": {
+    "<attr><feel_think_lv2><end_attr>「あれ？　すみません……。\n　あたしの　カンちがいだったみたいですね。": "<attr><feel_think_lv2><end_attr>Huh? I'm sorry. It seems I was\nmistaken."
+  },
+  "40774": {
+    "<pc>は　アカシに\nおおみみずの化石を　渡した！": "<pc> gave Akashi the Wiggly\nFossil!"
+  },
+  "40775": {
+    "<attr><feel_happy_lv2><end_attr>「ありがとうございます！\n　さっそく　薬を調合しちゃいますね。": "<attr><feel_happy_lv2><end_attr>Thank you very much! I'll get right on\nmixing up the medicine."
+  },
+  "40776": {
+    "なんと　仙者の霊薬が　完成した！<me 71>": "What a surprise. The elixir of the\nImmortals is complete!<me 71>"
+  },
+  "40777": {
+    "<attr><feel_happy_lv2><end_attr>「ふう……よかった　できました！\n　仙者の霊薬の完成です！　さっそく\n　ヒメア様の　お屋敷に　お持ちしましょう！": "<attr><feel_happy_lv2><end_attr>Thank goodness it's done! The elixir\nof the Immortal is ready! Let's bring\nit to Himea-sama's mansion right away!"
+  },
+  "40778": {
+    "<attr><feel_happy_lv2><end_attr>「やりましたね！　仙者の霊薬の完成です！\n　さっそく　ヒメア様の　お屋敷に\n　お持ちしましょう！\n<br>\n「この霊薬で　ヒメア様の　ご病気が\n　よくなってくれると　いいなあ。": "<attr><feel_happy_lv2><end_attr>You did it! The elixir of the Immortal\nis ready! Let's take it to Himea-\nsama's house right away! I hope this\n<br>\nelixir will make Himea-sama's illness\nbetter."
+  },
+  "40779": {
+    "「どうやら　順調に　仙者の霊薬の\n　用意が　進んでいるようだな。\n　引き続き　よろしく頼むぞ。<open_irai><bw_break>": "It seems that the preparation of the\nelixir of the Immortals is progressing\nsmoothly. Please keep up the good\n<br>\nwork.<open_irai><bw_break>"
+  },
+  "40780": {
+    "<close_irai>「アカシは　まだ年若い娘だが\n　薬の調合にかけては　右に出る者はいない。\n　必ずや　そなたの役に立つだろう。": "<close_irai>Akashi is still a young girl, but she\nhas no equal when it comes to mixing\nmedicines. She will surely be of use\n<br>\nto you."
+  },
+  "40781": {
+    "<attr><feel_think_lv2><end_attr>「ヒメア様が　ご自身の役割が終わると\n　おっしゃっていたが……\n　あれは　いったい　どういうことだろうか？\n<br>\n「案ずることはないと言われても\n　心配が　治まらんよ。": "<attr><feel_think_lv2><end_attr>Himea-sama said that her role in this\nproject will end, but what on earth\ndoes that mean? I can't stop worrying\n<br>\neven if you say there's nothing to\nworry about."
+  },
+  "40782": {
+    "<attr><feel_think_lv1><end_attr>「ねえ　<pc>さん。\n　知恵の社で見つけた　この書物を\n　もう一度　読みましょうか？<yesno><break>": "<attr><feel_think_lv1><end_attr>Hey <pc>. Shall I read this\nbook again that I found on Wisdom\nAltar?<yesno><break>"
+  },
+  "40783": {
+    "「それじゃ　読みますね。ええと……\n　エルトナの東端　ツスクルの村の地下には\n　大いなるチカラを秘めし　神代の間が存在する。\n<br>\n「かの地では　古来より　大がかりな秘術が\n　行われてきた。あの部屋は　エルフの歴史であり\n　大いなる財産なのだ。\n<br>\n「その神代の間を……ざす……とは\n　あの方は　ご乱心　なされ…ろうか……。\n<br>\n「……これ以上は　読めそうにないですね。\n　神代の間なんて部屋　はじめて聞きました。\n　それも　ふつうの部屋じゃないみたい……。": "Okay, I'll read it then. In the\nbasement of Tsusukul Village, at the\neastern end of Eltona, there is God's\n<br>\nHall, which holds great power. In this\nplace, since ancient times, great\nmysteries have been performed. That\n<br>\nroom is the history of Elf and a great\nasset. He must be in a great hurry to\nviolate God's Hall. I don't think I\n<br>\ncan read any more. I've never heard of\nGod's Hall. It's not an ordinary room."
+  },
+  "40784": {
+    "<attr><feel_think_lv2><end_attr>「そうですね。この本って　ボロボロで\n　今にも　こわれちゃいそう。\n　いったい　どれくらい古い本なのかな……。": "<attr><feel_think_lv2><end_attr>Yes, that's right. This book is so\ntattered that it looks like it might\nfall apart at any moment. I wonder how\n<br>\nold this book is."
+  },
+  "49828": {
+    "<attr><feel_think_lv1><end_attr>「ヒメア様を　お支えするためにも\n　私たち　たくさん　学ばなきゃね。": "<attr><feel_think_lv1><end_attr>We have to learn a lot to support\nHimea."
+  },
+  "40787": {
+    "<attr><feel_happy_lv2><end_attr>「うへへ……おう　<pc>！\n　いいところに　来てくれたんだぜ！\n<br>\n「とにかく　まずは\n　あんちゃんに　話を聞いてくれ。うへへ……。": "<attr><feel_happy_lv2><end_attr>Uhehe-oh <pc>! You've come to\nthe right place! Anyway, first of all,\nlet me talk to you. Heh heh."
+  },
+  "40788": {
+    "<attr><feel_angry_lv1><end_attr>「よう　<pc>！\n　あれから　ツスクルの村の　神代の間について\n　オレなりに　調べてみたんだけどさ……\n<br>\n「誰に聞いても　そんな部屋なんて\n　知らないって言われるし\n　記録も　なにひとつ　残っちゃいねえ。\n<br>\n「だからこそ　オレのハートが　うずくワケよ。\n　これは　冒険の始まりだってな！\n<br>\n「どうだい？　謎の部屋　神代の間を\n　とことん　探してみようじゃないか！\n　未知なるものを追い求め　ロマンに生きようぜ！": "<attr><feel_angry_lv1><end_attr>Hey <pc>! Since then, I did\nmy own research on God's Hall in\nTsusukul Village, but when I asked\n<br>\neveryone about it, they said they had\nnever heard of such a room, and there\nis no record of it whatsoever. That's\n<br>\nwhy my heart is beating so fast. This\nis the beginning of an adventure! What\ndo you think? Let's search the mystery\n<br>\nof God's Hall to the end! Let's pursue\nthe unknown and live a romantic life!"
+  },
+  "40789": {
+    "「よっしゃ　話の　わかるヤツだぜ……\n　と　言いたいところだが　なんだよ！\n　頼まれごとで　手が　いっぱいじゃないか。\n<br>\n「そんなんじゃ　オレの　一大計画に\n　お前を　誘うわけには　いかねえな。": "I'd like to say, \"Okay, I'm a guy who\nknows what he's talking about,\" but\nwhat the heck! You've got your hands\n<br>\nfull with requests. I can't ask you to\njoin me on my big project like that."
+  },
+  "40790": {
+    "<attr><feel_sad_lv1><end_attr>「え……　それマジで？\n　そりゃないよ　<pc>～。": "<attr><feel_sad_lv1><end_attr>Oh, that's for real? That's not gonna\nhappen <pc>~."
+  },
+  "40791": {
+    "<attr><feel_think_lv2><end_attr>「この封印された書物……　あの人だったら\n　いつの時代に　書かれた物なのか　わかるかも！\n　よ　よ～し……。": "<attr><feel_think_lv2><end_attr>If it's him, he might be able to tell\nus when it was written! Yo~yo."
+  },
+  "40792": {
+    "<attr><feel_happy_lv1><end_attr>「おう　<pc>！　一応言っとくけど\n　若葉の探検隊　隊員１号は　オイラだぜ！\n　そこんとこ　ヨロシクたのむだぜ！": "<attr><feel_happy_lv1><end_attr>Oh <pc>! Just for your\ninformation, I am the first member of\nWakaba's expedition team! Please do me\n<br>\na favor!"
+  },
+  "40793": {
+    "<attr><feel_angry_lv1><end_attr>「ようし　隊員２号！\n　神代の間の　謎に　せまるべく\n　さっそく　聞き込みを開始してくれ！<open_irai><bw_break>": "<attr><feel_angry_lv1><end_attr>All right, Troop 2! Start asking\naround to find out the mysteries of\nGod's Hall!<open_irai><bw_break>"
+  },
+  "40794": {
+    "<attr><feel_happy_lv1><end_attr><close_irai>「えっ　いきなり　どこへ行けばいいのか\n　わからないって？　はっはっは！\n　なかなか　いい質問だ　隊員２号！\n<br>\n「……ま　とりあえず　研究室辺りから\n　あたってみてくれよ。あそこの　先生には\n　まだ　話を聞いてなかったからな。": "<attr><feel_happy_lv1><end_attr><close_irai>What, you suddenly don't know where to\ngo? Ha-ha-ha! That's a very good\nquestion, Troop 2! Well, for now, try\n<br>\nthe laboratory area. I haven't talked\nto the teacher there yet."
+  },
+  "40795": {
+    "<attr><feel_happy_lv2><end_attr>「ねっ　ハジカ先生って　すごいでしょ？\n　ちょっと　本を見ただけで　その本が\n　書かれた時代まで　わかっちゃうんですから。\n<br>\n「おまけにね。いつだって　優しいし\n　見た目だって……　ほら　カッコいいし。\n　なんていうか　オトナーって感じですよね。": "<attr><feel_happy_lv2><end_attr>Isn't Dr. Hajika amazing? Just by\nlooking at a book, she can tell the\ntime period in which it was written.\n<br>\nAnd on top of that. He's always so\nkind, and he's so cool too. He's kind\nof like an otner."
+  },
+  "40796": {
+    "<attr><feel_angry_lv2><end_attr>「あんちゃん　ズルいんだぜ……。\n　隊長とか　なんとか言って\n　自分じゃ　なんにも　しないんだぜ？": "<attr><feel_angry_lv2><end_attr>You're cheating. You say you're the\ncaptain or something, but you don't do\nanything by yourself."
+  },
+  "40797": {
+    "<attr><feel_angry_lv1><end_attr>「神代の間の　ありかに　せまるべく\n　ドルワームに　出発せよ！\n　そして　ドン家を訪ねるのだ！<open_irai><bw_break>": "<attr><feel_angry_lv1><end_attr>Go to the Dolworm to find out where\nGod's Hall is! And visit the Don's!<open_irai><bw_break>"
+  },
+  "40798": {
+    "<close_irai>「ケガや　病気に　気をつけて！\n　寄り道などせず　調査に　あたるように！\n　諸君らの　はたらきに　期待しているぞ！ ": "<close_irai>Be careful of injuries and illnesses!\nPlease do not take a detour and work\non the investigation! We are counting\n<br>\non you to work hard!"
+  },
+  "40799": {
+    "<attr><feel_happy_lv1><end_attr>「さあ　<pc>さん！\n　ドルワームで調べたことを\n　シシノタに　教えてあげましょうよ。 ": "<attr><feel_happy_lv1><end_attr>Come on <pc>! Let's tell\nShishinota what we found out on\nDolworm."
+  },
+  "40800": {
+    "<attr><feel_think_lv2><end_attr>「まさか　あの　いわくつきの桜の間が\n　地下迷宮の　入り口になってたなんて。\n<br>\n「ああ　すぐにでも　見にいきたいけど……\n　みんなで　一緒に行くんですもんね。\n　ガマン　ガマン。": "<attr><feel_think_lv2><end_attr>I had no idea that the so-called\nCherry Blossom Room was the entrance\nto the underground labyrinth. Ah, I\n<br>\nwant to go see it right away, but\nwe're all going together, right?\nGanman, ganman."
+  },
+  "40801": {
+    "<attr><feel_sad_lv3><end_attr>「あのさ……　オイラ　ほんとに\n　桜の間で　女の幽霊を見たんだ。\n　ほんとなんだ……。\n<br>\n「グスッ……オイラ　やだよ。\n　桜の間になんか　入りたくないよ……。": "<attr><feel_sad_lv3><end_attr>You know, I really did see a ghost of\na woman among the cherry blossoms.\nIt's true. Gusshhhh... I don't like\n<br>\nit. I don't want to go in there."
+  },
+  "40803": {
+    "<attr><feel_happy_lv1><end_attr>「待ってましたよ　<pc>さん！\n　ついに　待望の地下探検に　出発するそうです。\n　早く　シシノタに　声をかけてください。\n<br>\n「入り口があるのは　幽霊部屋　桜の間……。\n　あたし　桜の間に入るのは\n　はじめてなんです。ドキドキするなあ。": "<attr><feel_happy_lv1><end_attr>We have been waiting for you\n<pc>! At last, they are\nleaving for their long-awaited\n<br>\nunderground expedition. Please give\nShishinota a call as soon as possible.\nThe entrance is in the ghost room,\n<br>\nSakura-no-Ma. I've never been in the\nCherry Room before. I'm very nervous."
+  },
+  "40804": {
+    "<attr><feel_angry_lv1><end_attr>「ナイスタイミングだ　隊員２号！\n　時は満ちた！　これより我々は　謎の部屋\n　神代の間を目指して　地下探索に出発する！\n<br>\n「これより　神代の間へ続く\n　地下迷宮の入り口がある　桜の間へ向かうが……\n　もちろん　２号も　来てくれるな？": "<attr><feel_angry_lv1><end_attr>Nice timing, Capt. 2! Time is up! We\nwill now depart on our underground\nsearch for the mysterious God's Hall!\n<br>\nWe're heading for the Cherry Blossom\nRoom, the entrance to the underground\nlabyrinth that leads to God's Hall."
+  },
+  "40805": {
+    "<attr><feel_angry_lv1><end_attr>「よし！　２号らしい　ナイスな返事だ。\n　では　さっそく　職員宿舎にある\n　桜の間へ　向かってもらおう。\n<br>\n「いいか　よく聞け！　職員宿舎とは\n　この食堂を出て　すぐ右手に見える建物だ。\n　桜の間は　その右端にある。\n<br>\n「行くぞ　２号よ！　若葉の探検隊の悲願\n　神代の間　発見の時は近い！\n　お前の　はたらきに　期待しているぞ！": "<attr><feel_angry_lv1><end_attr>Good! That's a nice reply, just like\nNo. 2. Let's have him head straight\nfor the cherry blossom room in the\n<br>\nstaff dormitory. All right, listen up!\nThe staff dormitory is the building\nyou see on your right after you leave\n<br>\nthis dining room. The cherry blossom\nroom is on the far right. Let's go,\nNo. 2! The time of the discovery of\n<br>\nGod's Hall, a long-cherished dream of\nthe Wakaba expedition team, is near! I\nam expecting your work!"
+  },
+  "40806": {
+    "<attr><feel_angry_lv3><end_attr>「よおし！　２号らしい　ナイスな返事だ。\n　……と　言いたいとこだが　頼まれごとで\n　手が　いっぱいじゃねーか！\n<br>\n「そんな　中途半端な気持ちで\n　探索に　あたられては　困る！\n　さあ　早急に　手を空けてくるのだ！": "<attr><feel_angry_lv3><end_attr>Yo oshi! That's a nice reply, just\nlike No. 2. I'd like to say \"yes,\" but\nI've got my hands full with all these\n<br>\nfavors! I don't want you to go\nsearching with such a half-hearted\nattitude! Now, go get your hands free\n<br>\nas soon as possible!"
+  },
+  "40807": {
+    "<attr><feel_sad_lv2><end_attr>「え……　それマジで？\n　そりゃないよ　<pc>～。": "<attr><feel_sad_lv2><end_attr>Oh, that's for real? That's not gonna\nhappen <pc>~."
+  },
+  "45135": {
+    "棚の下に　扉のようなものが見える。": "I see what appears to be a door under\nthe shelf."
+  },
+  "40808": {
+    "<attr><feel_happy_lv2><end_attr>「ああ　どうしよう　どうしよう。\n　やくそうは　これで足りるかな？\n　おニューの　くつは　やめておくべきかしら。\n<br>\n「なんだか　髪型もキマらないし……って\n　これは　探検に関係なかったですね。\n　ああ　ダメダメ。落ち着かなきゃ……。": "<attr><feel_happy_lv2><end_attr>Oh, what to do, what to do. Is this\nenough Medicinal Herb? I should\nprobably stop wearing my new shoes. My\n<br>\nhair doesn't look good either... This\nhas nothing to do with the expedition.\nOh, no, no, no. I have to calm down."
+  },
+  "40809": {
+    "<attr><feel_angry_lv1><end_attr>「いいか　<pc>。職員宿舎ってのは\n　この食堂を出て　すぐ右手に見える建物だ。\n　桜の間は　その右端にあるからな。<open_irai><bw_break>": "<attr><feel_angry_lv1><end_attr>Listen <pc>. The staff\ndormitory is the building you see on\nyour right just after this dining\n<br>\nroom. The cherry blossom room is on\nthe far right.<open_irai><bw_break>"
+  },
+  "40810": {
+    "<attr><feel_angry_lv2><end_attr><close_irai>「この先は　いかなる危険が　待ち受けているか\n　わからん！　準備を　おこたるなよ！": "<attr><feel_angry_lv2><end_attr><close_irai>You never know what dangers lie ahead!\nDo not be careless in your\npreparations!"
+  },
+  "44844": {
+    "棚の下に　扉のようなものが見える。\n棚を　どかしますか？<yesno><close>": "I see what looks like a door under the\nshelf. Would you like me to move the\nshelf?<yesno><close>"
+  },
+  "40811": {
+    "<attr><feel_happy_lv1><end_attr>「やりましたね　<pc>さん！\n　ハジカ先生が　一緒なら\n　もう　怖いものナシですよ！\n<br>\n「先生なら　幽霊だって　得意の呪文で\n　コテンパンにしちゃうんですから！": "<attr><feel_happy_lv1><end_attr>You did it <pc>! With Hajika-\nsensei with you, there's nothing to be\nafraid of anymore! Even ghosts can be\n<br>\nmade into a \"bread\" with his/her\nspecial spells!"
+  },
+  "40812": {
+    "<attr><feel_sad_lv3><end_attr>「なあ　なあ……　<pc>も\n　さっきの　うめき声　聞いただろ？\n　やっぱり幽霊が　いるんだよ……。\n<br>\n「も　もう探検なんて　やめようぜ……。\n　戻ってきて　正解なんだぜ。": "<attr><feel_sad_lv3><end_attr>Hey, hey, you heard the moaning\nearlier, didn't you? There's a ghost\nafter all. Let's not explore anymore.\n<br>\nIt's a good thing we came back."
+  },
+  "40813": {
+    "<attr><feel_angry_lv1><end_attr>「なんだよ　戻ってくるなんて。\n　お前まで　ビビってんじゃねーだろうな。\n　すぐに　桜の間に　行こうぜ！<open_irai><bw_break>": "<attr><feel_angry_lv1><end_attr>I can't believe he's back. I hope\nyou're not too scared. Let's go to the\ncherry blossom room right away!<open_irai><bw_break>"
+  },
+  "40814": {
+    "<attr><feel_angry_lv1><end_attr><close_irai>「あの　うめき声が　気になるのか？\n　あんなの風の音に　決まってるだろ。\n　コノタのやつ　余計なこと言いやがって。": "<attr><feel_angry_lv1><end_attr><close_irai>That moaning bothering you? Of course\nit's the sound of the wind. That\nKonota guy said unnecessary things."
+  },
+  "40815": {
+    "<attr><feel_think_lv3><end_attr>「ヒメア様も　ハジカ先生も\n　どこへ　行ってしまったんでしょうか……。\n<br>\n「うう……どうしよう。あたしたちのせいで\n　大変なことに。それに　ハジカ先生が\n　あんな人だったなんて……。": "<attr><feel_think_lv3><end_attr>Where did Master Himea and Dr. Hajika\ngo? What should I do? It's all our\nfault. And I can't believe Hajika-\n<br>\nsensei was like that."
+  },
+  "40816": {
+    "<attr><feel_happy_lv2><end_attr>「オイラさ……　ある雨の日に\n　授業をサボって　昼寝でもしようと思って\n　桜の間に向かったんだ。\n<br>\n「そしたら　ちょうど雷が落ちて\n　窓に　白い女の顔が見えたんだけど……\n　あれって　ヒメア様だったんだな。　\n<br>\n「へへっ……　オイラさ\n　ヒメア様に会ったことなかったから\n　カンちがいしちまったんだぜ。": "<attr><feel_happy_lv2><end_attr>One rainy day, I decided to skip class\nand take a nap in the cherry blossom\ngarden. Just then, I saw a white\n<br>\nwoman's face in the window when\nlightning struck.I had never met\nHimea-sama before, so I must have\n<br>\nmisunderstood her."
+  },
+  "40817": {
+    "<attr><feel_angry_lv2><end_attr>「こんな　おおごとになるなんて\n　オレは　もう　まっぴらだね。\n　これにて　若葉の探検隊は　解散ってことで。\n<br>\n「あの獣といい　ハジカ先生といい\n　なんだか　あぶねーニオイが　プンプンするぜ。": "<attr><feel_angry_lv2><end_attr>I'm not going to let this happen\nagain. I've had enough of this. The\nWakaba Expedition is now disbanded.\n<br>\nThat beast and Hajika-sensei smell\ndangerous."
+  },
+  "40818": {
+    "<attr><feel_think_lv2><end_attr>「<pc>さん……\n　あたし　とんでもないことに\n　気づいちゃったかもしれません。\n<br>\n「この　シシノタが持ってた\n　ラブレターを見てください。\n　ええと……　ちょっと　読みますね。\n<br>\n「生涯をかけて　君を幸せにしたい。\n　神代の間にて　願いが　天に通じたなら\n　約束の　あの丘へ向かおう。\n<br>\n「そして　永遠を約束する　誓いの盃を\n　ふたりで　交わそう……。\n<br>\n「……ずっと　気づかなかったけど\n　このラブレターには　神代の間のことが\n　書かれていたんです。\n<br>\n「あたし　このことには\n　大切な意味が　あるような気がして……。\n<br>\n「<pc>さん。獣を追いかけていった\n　ヒメア様を　一緒に探してくれませんか？\n　ひとつ　確かめたいことがあるんです。": "<attr><feel_think_lv2><end_attr><pc> I may have noticed\nsomething terrible. Look at this Love\nLetter that Shishinota had. Let me\n<br>\nread it to you. I want to make you\nhappy for the rest of my life. If my\nwish is granted in God's Hall, we will\n<br>\ngo to the promised hill. And we'll\nexchange the Oath Cup that promises\neternity. I didn't realize it, but\n<br>\nGod's Hall was written in this Love\nLetter. I felt like there was an\nimportant meaning to this.\n<br>\n<pc>. Would you please help\nme find Himea who chased after the\nbeast? There is one thing I want to\n<br>\nmake sure of."
+  },
+  "40819": {
+    "<attr><feel_happy_lv1><end_attr>「ああ　よかった！\n　シシノタたちは　頼りにならないし\n　あたし　ひとりじゃ　心細くて……。\n<br>\n「とにかく　まずは　ヒメア様の　お屋敷で\n　話を聞いてみましょう。ヒメア様の行き先の\n　手がかりが　つかめるかもしれません。": "<attr><feel_happy_lv1><end_attr>Oh, thank goodness! Shishinota and the\nothers are unreliable, and I'm so\nlonely on my own. Anyway, let's go to\n<br>\nHimea's mansion first and see if we\ncan get some clues as to where Himea\nis headed."
+  },
+  "40820": {
+    "「ああ　よかった！\n　でも……<pc>さん。ひょっとして\n　頼まれごとを　たくさん抱えていませんか？\n<br>\n「それじゃ　なんだか申し訳ないです。\n　手が空いたら　また声を　かけてくださいね。": "Oh thank goodness! But <pc>.\nAre you by any chance carrying a lot\nof requests? I'm sorry if that's the\n<br>\ncase. Please call on me again when you\nhave some free time."
+  },
+  "40821": {
+    "<attr><feel_sad_lv2><end_attr>「うっ　そうですか……。\n　あの……もし　気が変わったら\n　声をかけて　くださいね。": "<attr><feel_sad_lv2><end_attr>I see. Well, if you change your mind,\nplease give me a call."
+  },
+  "40822": {
+    "<attr><feel_think_lv2><end_attr>「妙だな……　今日の　祈りの時間は\n　とうに　過ぎているというのに\n　ヒメア様が　お部屋から　出てこられない。\n<br>\n「しばらく　部屋には入るなと\n　おおせつかっているのだが……。\n　どうも　胸さわぎがしてならん。": "<attr><feel_think_lv2><end_attr>It's strange, today's prayer time has\nalready passed, yet Himea-sama hasn't\ncome out of her room. I've ordered her\n<br>\nnot to enter the room for a while. But\nI can't help feeling uneasy."
+  },
+  "40823": {
+    "<attr><feel_happy_lv1><end_attr>「よかった。<pc>さんが　いてくれて。\n　ヒメア様の　おちからに　なりたいけど\n　ひとりじゃ　やっぱり　心細くて……。<open_irai><bw_break>": "<attr><feel_happy_lv1><end_attr>Thank goodness <pc> is here.\nI'm glad that <pc> is here. I\nwant to be Himea-sama's man, but I'm\n<br>\nso lonely on my own.<open_irai><bw_break>"
+  },
+  "40824": {
+    "「まずは　ヒメア様の　お屋敷で\n　話を　聞いてみましょう。\n　なにか　手がかりが　つかめるかもしれません。": "First, let's go to Himea's house and\ntalk to her. We may be able to find\nsome clues."
+  },
+  "40825": {
+    "<attr><feel_sad_lv2><end_attr>「オイラだって　なにかしたいんだぜ。\n　でも　アカシみたいに　アタマよくないし\n　できることなんて　ないし……。\n<br>\n「オイラみたいのは　じっとしてたほうが\n　よっぽど　人のために　なるんだぜ。": "<attr><feel_sad_lv2><end_attr>I want to do something, too. But I'm\nnot like Akashi, there's nothing I can\ndo. It's better for people like me to\n<br>\nstay put."
+  },
+  "40826": {
+    "<attr><feel_angry_lv1><end_attr><turn_pc>「えっ！　アカシと　一緒に\n　ヒメア様を　探してるって！？\n　……ふーん。へーえ。そう。\n<br>\n「悪いけど　オレは　もう降りるね。\n　まさか　あんな　おおごとになるなんて\n　思ってなかったんだよ……。\n<br>\n「ヒメア様を　追いかけるのなら\n　そっちで　勝手に　やってくれよ。\n　オレは　もう関係ないからな。": "<attr><feel_angry_lv1><end_attr><turn_pc>What? You and Akashi are looking for\nMaster Himea? Hmm. Heehee. I see. I'm\nsorry, but I'm getting out of here. I\n<br>\ndidn't think it would turn out like\nthat. If you want to go after Himea,\nyou're on your own. I have nothing to\n<br>\ndo with this anymore."
+  },
+  "40827": {
+    "<attr><feel_think_lv2><end_attr>「おお　<pc>か　よく来てくれた！ \n　じつは　ヒメア様が姿を消してしまったのだ。\n<br>\n「風の町アズランに向かう\n　ヒメア様らしき方を見た　という情報もあり\n　たった今　人を差し向けたところだ。\n<br>\n「ヒメア様の身に　なにかあったら　一大事。\n　頼む………　どうか　そなたも\n　ヒメア様を　探してくれ！": "<attr><feel_think_lv2><end_attr>Oh <pc>, you are welcome!As a\nmatter of fact, Himea-sama has\ndisappeared. We have a report that\n<br>\nsomeone saw someone who looks like\nHimea heading to Wind Town Azlan, so\nwe've just sent someone to her. If\n<br>\nsomething happens to Himea-sama, it\nwould be a disaster. Please, please,\nplease find Himea-sama!"
+  },
+  "40828": {
+    "<attr><feel_sad_lv1><end_attr>「今は　ヒメア様の　お心が\n　変わるのを　待ちましょう……。\n　他に　できることなんて　ないもの。\n<br>\n「それに……きっと　ヒメア様になら\n　コハクさんが　誓いの盃を持って\n　どこへ行ったのか　わかると思うんです。": "<attr><feel_sad_lv1><end_attr>For now, let's wait for Himea to\nchange her mind. There is nothing else\nwe can do. Besides, I am sure that\n<br>\nHimea will be able to tell where\nKohaku went with the Oath Cup."
+  },
+  "40829": {
+    "<attr><feel_think_lv2><end_attr>「ようやく　ヒメア様が\n　お戻りになったのだが\n　なにやら　様子が　おかしいのだ……。\n<br>\n「どこへ行っていたのか　たずねても\n　なにも　教えてくださらないし\n　ずっと　ふさぎこんでおられるのだよ。": "<attr><feel_think_lv2><end_attr>Finally, Himea-sama returned, but\nthere was something strange about her.\nWhen I asked her where she had been,\n<br>\nshe wouldn't tell me anything, and she\nhas been very depressed."
+  },
+  "40830": {
+    "<attr><feel_sad_lv1><end_attr>「<pc>さん　大変です！\n　ついさっき　ヒメア様の従者の方が\n　お見えになったんです。\n<br>\n「ヒメア様が　あたしたちを呼んでるから\n　急いで　お屋敷に　来るようにって……。": "<attr><feel_sad_lv1><end_attr><pc> Oh my God! Just a few\nminutes ago, one of Himea's attendants\ncame to see us. She told us to hurry\n<br>\nup and come to her house because\nHimea-sama wanted to see us."
+  },
+  "40831": {
+    "<attr><feel_sad_lv1><end_attr>「あの　<pc>さん　いいんですか？\n　ヒメア様と　一緒に行かなくて……。\n　あたしたちが　ヒメア様を　お助けしなきゃ。": "<attr><feel_sad_lv1><end_attr>Um, <pc> Are you sure you\ndon't mind? You don't have to go with\nHimea-sama. We have to help Himea-\n<br>\nsama."
+  },
+  "40832": {
+    "<attr><feel_angry_lv1><end_attr>「アカシと　ふたりで　ヒメア様の周りを\n　ウロチョロしてるらしいけど\n　いったい　どういうつもりだよ？\n<br>\n「なあ　<pc>。\n　若葉の探検隊は　もう解散したんだ。\n　神代の間での出来事なんて　忘れちまえよ。": "<attr><feel_angry_lv1><end_attr>I heard that you and Akashi are\nhanging around Himea-sama together.\nHey, <pc>. Wakaba's\n<br>\nexpedition has already been disbanded.\nForget about what happened at God's\nHall."
+  },
+  "40833": {
+    "「おお　<pc>か！\n　ヒメア様より　話は聞いている。\n　世界樹の丘へ行く　決心が　ついたのだな？<yesno><break>": "Oh <pc>! I have heard from\nHimea. You've decided to go to\nYggdrahill, haven't you?<yesno><break>"
+  },
+  "40834": {
+    "「やはり　そうか。\n　私は　そなたが戻ってくると　信じていたぞ。\n　中に入るがよい。アカシも　すでに来ている。": "I knew it. I knew you would come back.\nGo inside, Akashi is already here."
+  },
+  "40835": {
+    "「そうか……。ならば　ムリにとは言わぬ。\n　もし　気が変わったら　また声をかけてくれ。": "I see. If that's the case, I won't say\nit's too much to ask. If you change\nyour mind, call on me again."
+  },
+  "40836": {
+    "<attr><feel_happy_lv1><end_attr>「ヒメア様が　あたしたちのことを\n　必要としてくださるだなんて……\n　よかった。なんだか　ホッとしちゃいました。\n<br>\n「だって　あたし　アズランでは\n　出過ぎたことをしたんじゃないかって\n　ずっと　気にしてたんです。\n<br>\n「さあ　<pc>さん。\n　あたしたちも　世界樹の丘がある\n　東の　久遠の森へ　急いで向かいましょう。": "<attr><feel_happy_lv1><end_attr>I am glad to hear that Himea-sama\nneeds us. I feel relieved. I've been\nworried that I might have gone too far\n<br>\nin Azlan. Now <pc>. Let's\nhurry to the Forest of Eternity to the\neast where Yggdrahill is located."
+  },
+  "40837": {
+    "「ああ　<pc>さん！\n　よかった……よく　ご無事で！！\n　あたし　命からがら　逃げだしてきたんです！\n<br>\n「でも　<pc>さん　どうしましょう！？\n　世界樹の丘には　まだ　ヒメア様が……。": "Oh <pc>! Thank goodness\nyou're alive! I escaped with my life!\nBut <pc> what should I do?\n<br>\nYggdrahill still has Master Himea."
+  },
+  "40838": {
+    "「ヒメア様は　我らとは\n　異なる時間の流れの中で　生きておられる。\n　そのせいか　人に心を開くことは少なかった。\n<br>\n「……だが　そなたたちに対しては　ちがう。 \n　ヒメア様は　そなたたちを\n　心から　信頼しているようだ。\n<br>\n「世界樹の丘で　なにが起きるか　わからんが\n　どうか　あの方のことを　頼む。\n　そなたたちが　ヒメア様を守ってくれ。": "Himea lives in a different time than\nwe do. Because of this, she has rarely\nopened her heart to others. But not to\n<br>\nyou.It seems that Himea truly trusts\nyou. I don't know what will happen at\nYggdrahill, but please take care of\n<br>\nher. I ask that you protect Himea."
+  },
+  "40839": {
+    "<attr><feel_sad_lv3><end_attr>「ぐすん　ぐすん……　ヒック。\n　かわいそうな　コハクさんと　ヒメア様……。\n<br>\n「あたし　もっと　もっと……\n　めいっぱい勉強するわ。\n　それで　なんでも治せる　お医者さんになる。\n<br>\n「それでね　コハクさんみたいな人も助けるの。\n　グスン……　えぐえぐっ。": "<attr><feel_sad_lv3><end_attr>Gusun, gusun, hiccup. Poor Kohaku-san\nand Himea-sama. I'll study harder and\nharder. Then I'll become a doctor who\n<br>\ncan heal anything. And then, I'll help\npeople like Kohaku-san. Gusun...\negugugu..."
+  },
+  "40840": {
+    "「なーなー　<pc>～。\n　早く　ヒメア様の　お屋敷に行こうぜ。\n　待たせたら　怒られちまうよ。": "Na naa <pc>~. Let's hurry up\nand go to Himea-sama's mansion. If we\nkeep them waiting, they'll get mad at\n<br>\nus."
+  },
+  "40841": {
+    "「……まあ　なんだ。悪かったな。\n　言いだしっぺのオレが　途中で放りだして\n　探検隊　降りちゃってさ。\n<br>\n「でも　このままじゃ　いけないと思って\n　お前たちのことを　追いかけたんだ。\n　すこしは助けになれて　よかったよ。": "Well, what the hell. I'm sorry. I was\nthe one who started the whole thing,\nbut I got out in the middle and got\n<br>\noff the expedition. But I knew I\ncouldn't go on like this, so I went\nafter you guys. I'm glad I could help\n<br>\nat least a little."
+  },
+  "40842": {
+    "「おお　そなたか！\n　ヒメア様から　話は聞いておる。\n　ささっ　中に入るがよい。": "Oh, it is you! I've heard about you\nfrom Himea. Go on, go inside."
+  },
+  "40843": {
+    "<attr><feel_sad_lv3><end_attr>「ぐすん　ぐすん……　ヒック。\n　かわいそうな　コハクさんと　ヒメア様……。\n<br>\n「ヒック……それに　ハジカ先生は\n　不老の禁術を　あきらめて\n　この村から　出ていっちゃったそうです……。\n<br>\n「さよなら……　あたしの　初恋の人……。": "<attr><feel_sad_lv3><end_attr>Gusun, gusun, hiccup. Poor Kohaku and\nHimea-sama. Hiccup, and I heard that\nHajika-sensei has given up on the\n<br>\nElixir of Life and has left this\nvillage. Goodbye, my first love."
+  },
+  "40844": {
+    "<attr><feel_sad_lv1><end_attr>「あんちゃーん　元気出せって。\n　いったい　どうしたってんだよ……。": "<attr><feel_sad_lv1><end_attr>Anchan, cheer up. What the hell is\nwrong with you?"
+  },
+  "40845": {
+    "<attr><feel_sad_lv3><end_attr>「ううっ。アカシのやつ\n　ハジカ先生なんかが　よかったのか……。\n<br>\n「オレは決めた……これからは　オトナの男だ。\n　探検隊なんて　ガキの遊びはやめて\n　フェロモン　ムンムンに　なってやるんだ……。": "<attr><feel_sad_lv3><end_attr>Akashi's guy, did he really want\nHajika-sensei? I've made up my mind,\nfrom now on I'm an adult man. I'm\n<br>\ngoing to stop playing the \"explorer\"\ngame and become a pheromone munchkin."
+  },
+  "40846": {
+    "<attr><feel_happy_lv1><end_attr>「ヒメア様から　話は　すべて聞いた。\n　そなたには　たいへん世話になったな。\n　本当に　ありがとう。\n<br>\n「ふさぎこんでいた　ヒメア様も\n　晴れやかな顔を　見せてくださるようになった。\n　皆　そなたたちの　おかげだな。": "<attr><feel_happy_lv1><end_attr>I have heard all about you from Master\nHimea. You have been a great help to\nme. Thank you so much. Himea-sama, who\n<br>\nhad been depressed, is now showing her\nsunny face. I owe it all to you."
+  },
+  "33767": {
+    "<attr><feel_happy_lv1><end_attr>「フウラさんの声が　外まで聞こえてきたから\n　びっくりしちゃいました。何事もなくて\n　よかったですね　<pc>さん。\n<br>\n「えっ？　エテ…ネの村？　ネルゲル？\n　それって　研究の話ですか？\n　この村の名前なら　ツスクルの村ですけど……。\n<br>\n「それより　外の広場に　急いでください！\n　ついに　若葉の試みが　始まりますよ。\n<br>\n「若葉の試みは　この学びの庭で\n　年に一度　行われる\n　巣立ちのための　最終試験。\n<br>\n「この試験の結果で　最上級生の皆さんの\n　運命が　決まるんですね……。\n　なんだか　あたしまでキンチョーしちゃいます。": "<attr><feel_happy_lv1><end_attr>I was so surprised when I heard\nFuura's voice outside. I'm glad\nnothing happened to you <pc>.\n<br>\nEh? The village of Etene? Nergel? Are\nyou talking about your research? If\nthat's the name of this village, it's\n<br>\nTsusukul Village. More importantly,\nplease hurry to the plaza outside! At\nlast, the Trial of the Young Leaves is\n<br>\nabout to begin. The Trial of the Young\nis an annual final exam held here in\nthe Garden of Learning to prepare the\n<br>\nfinal class to leave the nest. The\nresults of this exam will determine\nthe fate of all of you, the senior\n<br>\nclass students. I'm getting nervous\ntoo."
+  },
+  "33768": {
+    "<attr><feel_happy_lv1><end_attr>「さあ　外の広場に　急いでください！\n　ついに　若葉の試みが　始まりますよ。\n<br>\n「若葉の試みは　この学びの庭で\n　年に一度　行われる\n　巣立ちのための　最終試験。\n<br>\n「この試験の結果で　最上級生の皆さんの\n　運命が　決まるんですね……。\n　なんだか　あたしまでキンチョーしちゃいます。": "<attr><feel_happy_lv1><end_attr>Come on, hurry to the plaza outside!\nAt last, the Trial of the Young Leaves\nis about to begin. The Trial of the\n<br>\nYoung Leaves is the final exam for the\nnesters, held once a year in this\ngarden of learning. The results of\n<br>\nthis exam will determine the fate of\nall of you, the senior class students.\nI'm getting nervous too."
+  },
+  "33769": {
+    "<attr><feel_happy_one><end_attr>「ガツガツ　ガツガツ　ガツガツ　ガツガツ\n　ガツガツ　ガツガツ　ガツガツ……。\n<br>\n「ゲフーッ！<bw_break>": "<attr><feel_happy_one><end_attr>GatsuGatsu GatsuGatsu GatsuGatsu\nGatsuGatsu GatsuGatsu GatsuGatsu\nGatsuGatsu GatsuGatsu. Geef!<bw_break>"
+  },
+  "33770": {
+    "<attr><feel_happy_lv2><end_attr><turn_pc>「若葉の試みに　受かっちまったら\n　おばちゃんの味とも　おさらばだろ？\n　今のうちに　食いだめしておかないとな！": "<attr><feel_happy_lv2><end_attr><turn_pc>If I get accepted at the Wakaba\ntrials, I'll never have to taste\nauntie's food again, right? I'll have\n<br>\nto stock up on food while I still can!"
+  },
+  "33771": {
+    "<attr><feel_happy_lv2><end_attr><turn_pc>「若葉の試みに　受かっちまったら\n　おばちゃんの味とも　おさらばだろ？\n<br>\n「試験が始まるまでに\n　あと１０杯は　食べておかねーとな！！": "<attr><feel_happy_lv2><end_attr><turn_pc>If I pass the Wakaba exam, I'll never\nhave to taste auntie's food again,\nright? I'll have to eat at least 10\n<br>\nmore bowls before the exam starts!"
+  },
+  "33772": {
+    "<attr><feel_sad_lv1><end_attr>「あっ　あんちゃん　ヤバイってそれ……。": "<attr><feel_sad_lv1><end_attr>Oh, An-chan, that's not good."
+  },
+  "33773": {
+    "<attr><feel_sad_lv2><end_attr>「あんちゃん…………。": "<attr><feel_sad_lv2><end_attr>Anchan."
+  },
+  "33774": {
+    "<attr><feel_happy_lv1><end_attr>「助かったわ　<pc>さん。\n　キュウスケさん　しつこいから　困ってたの。\n<br>\n「あの人ったら　ロクに授業も出ないのに\n　若葉の試みの時だけは　来るんだから。\n<br>\n「しかも　毎年　知の試練には受かるけど\n　力の試練に落ち続けて　１０年ですって。\n　ほーんと　筋金入りの　ダメ留年生よねえ。": "<attr><feel_happy_lv1><end_attr>Thanks for the help <pc>.\nKyusuke-san was bothering me because\nhe kept pestering me. He doesn't even\n<br>\nattend my classes, but only comes to\nthe Trial of Strength. And he says\nthat he has been failing the Trial of\n<br>\nStrength for the past 10 years, even\nthough he passed the Trial of\nKnowledge every year. She's really a\n<br>\nhard-core bad student, isn't she?"
+  },
+  "33775": {
+    "<attr><feel_angry_lv3><end_attr>「ああ　忙しい　忙しい！！\n　なんで　学生ってのは　こんなにも\n　食べっぷりが　いいんだろうね！\n<br>\n「作っても　作っても\n　きりが　ありゃしないよっ！！": "<attr><feel_angry_lv3><end_attr>Oh, busy, busy, busy! Why do students\neat so much? There's no end to the\namount of food I can make!"
+  },
+  "33776": {
+    "<attr><feel_angry_lv1><end_attr>「ゴホンッ！ \n　ここでは　学びの庭の　伝統ある卒業試験\n　若葉の試みへの　参加を受け付けている。\n<br>\n「そなたは　最上級生の　<pc>だな。\n　若葉の試みを受ける　準備はいいな？<yesno><case 1><close><case 2><break><case_cancel><break><case_end>": "<attr><feel_angry_lv1><end_attr>Gohonk!Here at the Garden of Learning,\nwe are accepting applications for the\ntraditional graduation exam, the Young\n<br>\nLeaves Attempt. You are <pc>,\nthe most senior student. Are you ready\nto take the Trial of the Young Leaves?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>"
+  },
+  "33777": {
+    "<attr><feel_angry_lv1><end_attr>「そうか。まだ　開始まで　時間がある。\n　急ぎ　準備を済ませてくるといい。": "<attr><feel_angry_lv1><end_attr>I see. There is still time before the\nstart. You should hurry up and finish\nyour preparations."
+  },
+  "33778": {
+    "<attr><feel_happy_lv2><end_attr>「ぐへへ……　このクスリを　ちょちょいと\n　この本に　かけてだな……。\n<br>\n「こいつを　ぐっと丸飲みすると\n　中身を覚えられるって話だ。\n　どれ　ムシャムシャ……。<bw_break>": "<attr><feel_happy_lv2><end_attr>Hehehe, just pour a little bit of this\nmedicine on this book. It's said that\nif you swallow it whole, you'll\n<br>\nremember what's inside. Here, munch.<bw_break>"
+  },
+  "33779": {
+    "<attr><feel_angry_silent><end_attr>「うぐっ！！！<bw_break>": "<attr><feel_angry_silent><end_attr>Ugh!<bw_break>"
+  },
+  "49775": {
+    "<attr><feel_angry_lv3><end_attr>「ぺっぺっ！！　食べられたものじゃねえや！\n　大体これ　ただの　ショウユじゃねえか！\n　キュウスケの野郎　だましやがって！": "<attr><feel_angry_lv3><end_attr>Petch! It's not edible! This is just a\npiece of shoyu! You bastard Kyusuke,\nyou cheated me!"
+  },
+  "49776": {
+    "<attr><feel_angry_lv3><end_attr>「本の中身を覚えられる\n　魔法のクスリだって言うから　買ったのに！\n　これ　ただのショウユじゃねえか！\n<br>\n「キュウスケの野郎！　だましやがって！": "<attr><feel_angry_lv3><end_attr>I bought it because you said it was a\nmagic drug that would help me remember\nwhat was in the book! This is just\n<br>\nShoyu, isn't it? You bastard Kyusuke!\nYou cheated me!"
+  },
+  "33780": {
+    "「若葉の試みが始まるっていう　この時に\n　自分の研究のほうに　明け暮れてたんだって？\n　さすが　天才<pc>さんは　ちがうよな。\n<br>\n「まったく　アサナギさんも　ついてないよ。\n　大天才の　<pc>さんと　同じ年に\n　入学しちゃうなんてさ～。\n<br>\n「別の年に入学してれば　間違いなく \n　天才と　もてはやされていただろうにね！": "He was busy with his own research at\nthe time when the trial for the young\nleaves was about to begin? That's what\n<br>\na genius <pc> should do.\nYou're not having any luck at all,\nAsanagi. How could you have entered\n<br>\nthe university in the same year as the\ngenius <pc>? If he had\nentered in another year, he would have\n<br>\nbeen hailed as a genius for sure!"
+  },
+  "33781": {
+    "<attr><feel_sad_lv1><end_attr>「若葉の試みって　それは　それは \n　むずかしい　卒業試験らしいだなや。\n　フウラさんは　大丈夫だんべか？<yesno><break>": "<attr><feel_sad_lv1><end_attr>I heard that the attempt of the young\nleaves is a very difficult graduation\nexam. I wonder if Fuura-san will be\n<br>\nokay?<yesno><break>"
+  },
+  "33782": {
+    "<attr><feel_happy_lv2><end_attr>「<pc>さんが\n　そう言ってくれるなら　安心だ！\n　フウラさんも　がんばってただもんな！\n<br>\n「ああっ　神さま！\n　フウラさんの　ヤマを当ててやってくだせえ。": "<attr><feel_happy_lv2><end_attr>If <pc> says so, I'm\nrelieved! Fuura-san did his best, too!\nOh, God! Please guess Mr. Fuura's\n<br>\ngoal."
+  },
+  "33783": {
+    "<attr><feel_sad_lv1><end_attr>「そうだよな……。\n　若葉の試みは　直前の　つめ込み勉強だけで\n　合格できるほど　甘くねえよなあ。\n<br>\n「ああっ　神さま！\n　フウラさんの　ヤマを当ててやってくだせえ。": "<attr><feel_sad_lv1><end_attr>That's right. The attempts of young\nleaves are not so sweet that you can\npass the exam only by cramming in last\n<br>\nminute studies, right? Oh, God! Please\nhelp me guess Mr. Fuura's exam."
+  },
+  "33784": {
+    "<attr><feel_happy_lv1><end_attr>「ここ学びの庭は　子供たちのために作られた\n　学問の聖地。若葉の試みは　その創設の頃から\n　行われてきた　伝統ある試験です。\n<br>\n「若葉の試みに　参加される方は\n　このまま廊下を進み　受け付けの　ロクショウに\n　声を　おかけください。\n<br>\n「<pc>さんも　がんばってくださいね！\n　……なーんて　あなたなら　目をつぶってたって\n　やすやすと　合格しちゃうんでしょうけど。": "<attr><feel_happy_lv1><end_attr>Here at the Garden of Learning, we are\nan academic sanctuary designed for\nchildren. The Wakaba no Tesimonial is\n<br>\na traditional test that has been held\nsince its inception. If you wish to\nparticipate in the Wakaba Trials,\n<br>\nplease continue down the hallway and\nspeak to Rokusho at the reception\ndesk. Good luck with <pc>\n<br>\ntoo! If I were you, I'm sure you'd\npass with ease even with your eyes\nclosed."
+  },
+  "33785": {
+    "<attr><feel_happy_lv1><end_attr>「おっと　<pc>さん！\n　若葉の試みに　参加されるのなら\n　そちらではありませんよ。\n<br>\n「廊下を進んで　受け付けの　ロクショウに\n　声を　おかけください。": "<attr><feel_happy_lv1><end_attr>Oops <pc>! If you want to\nparticipate in the Wakaba-no-Tempt,\nyou are not in the right place. Please\n<br>\ngo down the hallway and speak to\nRokusho at the reception desk."
+  },
+  "33786": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>さん　おかえりなさい。\n　すこし　お部屋で　休んでいきますか？<yesno><break>": "<attr><feel_happy_lv1><end_attr><pc> Welcome back. Would you\nlike to rest a little in your room?<yesno><break>"
+  },
+  "33787": {
+    "<attr><feel_happy_lv1><end_attr>「それでは　ゆっくり　お休みくださいね。": "<attr><feel_happy_lv1><end_attr>Well then, please have a good night's\nrest."
+  },
+  "33788": {
+    "<attr><feel_happy_lv1><end_attr>「よく　お休みになれましたか？\n　いってらっしゃい　<pc>さん！\n　がんばってくださいね。": "<attr><feel_happy_lv1><end_attr>I hope you had a good rest. Have a\ngood day <pc>! Good luck!"
+  },
+  "33789": {
+    "<attr><feel_happy_lv1><end_attr>「疲れた時は　私に声をかけてくださいね。\n　いってらっしゃい　<pc>さん！": "<attr><feel_happy_lv1><end_attr>If you're tired, give me a holler.\nHave a good day <pc>!"
+  },
+  "33790": {
+    "<attr><feel_happy_lv1><end_attr>「よく　お休みになれましたか？\n　いってらっしゃい　<pc>さん！\n　がんばってくださいね。": "<attr><feel_happy_lv1><end_attr>I hope you had a good rest. Have a\ngood day <pc>! Good luck!"
+  },
+  "33791": {
+    "<attr><feel_happy_one><end_attr>「ガツガツ　ガツガツ　ガツガツ　ガツガツ\n　ガツガツ　ガツガツ　ガツガツ……。\n<br>\n「ゲフーッ！<bw_break>": "<attr><feel_happy_one><end_attr>GatsuGatsu GatsuGatsu GatsuGatsu\nGatsuGatsu GatsuGatsu GatsuGatsu\nGatsuGatsu GatsuGatsu. Geef!<bw_break>"
+  },
+  "33792": {
+    "<turn_pc>「ん？　知恵の社までは　けっこう歩くからな。\n　その前に　食べて体力をつけようってワケさ。\n　急がば回れって　言うだろ？": "<turn_pc>Hmm? It's a long walk to Wisdom Altar.\nWe're going to have to eat something\nto keep our strength up before we get\n<br>\nthere. You know what they say, the\nsooner the better, right?"
+  },
+  "33793": {
+    "<attr><feel_think_one><end_attr>「おかしいのう　おかしいのう。\n　確かに　この辺りに\n　隠したはずなんじゃが……。<bw_break>": "<attr><feel_think_one><end_attr>That's strange. I'm sure I hid it\nsomewhere around here.<bw_break>"
+  },
+  "33794": {
+    "<attr><feel_think_one><end_attr><turn_pc>「おおっ　<pc>。\n　若葉の試みを　ほったらかして遊びにくるとは\n　さすが　やることが　ちがうのう！\n<br>\n「それにしても　わしの　心のユートピアは\n　いったい　どこに消えたのやら……。\n　トシは　取りたくないものじゃのう。": "<attr><feel_think_one><end_attr><turn_pc>Oh <pc>. I'm not sure where\nmy utopia in my mind has gone! I\nwonder where in the world the utopia\n<br>\nin my heart has disappeared to. I\nwonder where the utopia in my heart\nhas disappeared to."
+  },
+  "33796": {
+    "<attr><feel_happy_one><end_attr><turn_pc>「いやはや　かたじけないのう！\n　この本を　ずーっと　探しておったんじゃよ。\n　ほれ　ほんの気持ちじゃ　受け取っとくれ！\n<br>\n「……むむっ？　どうやら\n　持ち物が　いっぱいのようじゃな。\n　とっておきを　ゆずってやろうと思ったのに。": "<attr><feel_happy_one><end_attr><turn_pc>I'm sorry to have to do this! I've\nbeen looking for this book for a long\ntime. Here, take it as a token of my\n<br>\ngratitude! Hmm? It seems you are full\nof possessions. I was going to give\nyou my best one."
+  },
+  "33797": {
+    "<attr><feel_happy_lv3><end_attr><turn_pc>「いやはや　かたじけないのう！\n　この本を　ずっと　探しておったんじゃよ。\n　ほれ　ほんの気持ちじゃ　受け取っとくれ！": "<attr><feel_happy_lv3><end_attr><turn_pc>I am sorry to have to do this! I've\nbeen looking for this book for a long\ntime. Here, take it as a token of my\n<br>\ngratitude!"
+  },
+  "33798": {
+    "<attr><feel_happy_one><end_attr>「ニッシッシ……　危ないところだったわい。\n<br>\n「この学びの庭の　師ともあろう者が\n　こんな本を　隠しているなどと知られては\n　さすがに　まずいからのう。<bw_break>": "<attr><feel_happy_one><end_attr>Nissh, that was a close call. It would\nbe a shame for it to be known that the\nmaster of this garden of learning is\n<br>\nhiding a book like this.<bw_break>"
+  },
+  "33799": {
+    "<attr><feel_happy_one><end_attr><turn_pc>「おおっ　<pc>か。\n　さっきは　世話になったのう。\n<br>\n「なんじゃ　この本が　気になるか？\n　ニッシッシ！　<pc>には　まだ早いわ！": "<attr><feel_happy_one><end_attr><turn_pc>Oh, <pc>. Thanks for your\nhelp earlier. What, you're interested\nin this book? Nisshhh! It's too early\n<br>\nfor <pc>!"
+  },
+  "33800": {
+    "<attr><feel_happy_lv3><end_attr><icon_exc>「おお！　すまん　<pc>！ \n　その本を　ずっと探していたんじゃ。<bw_break>": "<attr><feel_happy_lv3><end_attr><icon_exc>Oh! Sorry <pc>!I've been\nlooking for that book for a long time.<bw_break>"
+  },
+  "33801": {
+    "<attr><feel_think_one><end_attr>「……むむっ？　どうやら\n　持ち物が　いっぱいのようじゃな。\n　とっておきを　ゆずってやろうと思ったのに。<bw_break>": "<attr><feel_think_one><end_attr>Hmm? It seems you have a lot of\nbelongings. I was going to give you my\nbest one.<bw_break>"
+  },
+  "33802": {
+    "<attr><feel_happy_one><end_attr>「やっと見つけた　わしの心のユートピア！\n　こーんな本に　まさか　こんな表紙が\n　かかっているとは誰も思うまいて……ニシシ！": "<attr><feel_happy_one><end_attr>I have finally found the utopia of my\nheart! No one would have thought that\na book like this would have such a\n<br>\ncover!"
+  },
+  "49771": {
+    "<attr><feel_happy_lv3><end_attr>「なかなか　見つからんで　困っていての。 \n　まったく　かたじけない。\n　ほんの気持ちじゃ　受け取っとくれ！": "<attr><feel_happy_lv3><end_attr>I'm having a hard time finding it.I'm\nvery sorry. I'm just feeling sorry for\nyou!"
+  },
+  "33803": {
+    "<attr><feel_happy_lv1><end_attr>「まあ　<pc>さん！\n　大切な試験中に　私などに\n　声を　かけてくださるなんて……ポッ<heart>\n<br>\n「お礼に　あなたに\n　いいコト教えてあげますわ。\n<br>\n「知恵の社を目指すのなら\n　ここではなく　村の西から\n　外に出たほうが　ずーっと近道ですよ。": "<attr><feel_happy_lv1><end_attr>Well, <pc>! I'll tell you\nsomething good in return for your\nkindness. If you want to reach the\n<br>\nWisdom Altar, it is much shorter to go\nout from the west of the village, not\nhere."
+  },
+  "33804": {
+    "<attr><feel_sad_lv2><end_attr>「ううっ　キンチョーで　ハラの調子が……。\n　オレのことは　気にしないで\n　先に　行ってくれ。": "<attr><feel_sad_lv2><end_attr>I'm so nervous, my stomach is in\nknots. Don't mind me, just go ahead."
+  },
+  "33805": {
+    "<attr><feel_happy_lv1><end_attr>「若葉の試みとは　知の試練と　力の試練の\n　ふたつから成る　学びの庭の最終試験だ。\n<br>\n「さあ　<pc>よ！\n　第一の試験　知の試練は　始まった。\n<br>\n「このツスクルの村の　西の出口から　外に出て\n　道なりに　知恵の社へと　向かいなさい。\n　そこが　知の試練の会場だ。": "<attr><feel_happy_lv1><end_attr>The Trial of Young Leaves is the final\ntest in the Garden of Learning, which\nconsists of two parts: the Trial of\n<br>\nKnowledge and the Trial of Strength.\nNow, <pc>! The first trial,\nthe Trial of Knowledge, has begun. Go\n<br>\nout the west exit of this Tsusukul\nVillage and follow the path to the\nWisdom Altar. That is the site of the\n<br>\nknowledge trial."
+  },
+  "33807": {
+    "<attr><feel_sad_one><end_attr>「ああ……　あんちゃん　大丈夫かなあ。\n　オイラのほうが　キンチョーしてきちゃったよ！": "<attr><feel_sad_one><end_attr>I wonder if An-chan is okay. I'm\ngetting nervous!"
+  },
+  "33808": {
+    "<attr><feel_happy_lv1><end_attr>「やあ　あんた。若葉の試みを受けるんだろ？\n　ツスクルの村の　外に出るんなら\n　しっかり　準備をしていきな。さて！<bw_break>": "<attr><feel_happy_lv1><end_attr>Hey, you. You're going to take the\nyoung leaves' attempt, right? If\nyou're going to be outside Tsusukul\n<br>\nVillage, make sure you're prepared.\nWell..!<bw_break>"
+  },
+  "33809": {
+    "<attr><feel_happy_lv1><end_attr>「まだ出発しないのかって？\n　私は　気持ちを落ち着けて　ゆっくり行くわ。\n<br>\n「ふふっ。ジマンじゃないけど　あたし\n　この試練を受けるのは　３回目なの。\n　いわば　知の試練のベテランなのよ。": "<attr><feel_happy_lv1><end_attr>You mean you haven't left yet? I'll\ncalm down and go slowly. I'm not\nZiman, but this is the third time I'm\n<br>\ntaking this trial. I'm not Ziman, but\nthis is the third time I'm taking this\ntrial. It's the beTerran of knowledge\n<br>\ntrials, so to speak."
+  },
+  "33810": {
+    "<attr><feel_angry_lv3><end_attr>「ちょっと　あんた！\n　こんな所で　何をトロトロしてんだい！？\n<br>\n「いいかい？　料理でも　なんでも\n　スピードってのは　欠かしちゃいけないんだ。\n　とっとと　知の試練の会場に　向かいなっ！": "<attr><feel_angry_lv3><end_attr>Hey, you! What are you doing strolling\naround here? You know what? You must\nalways have a peid, no matter what\n<br>\nyou're cooking. Get on your way to the\nvenue of the Trial of Knowledge!"
+  },
+  "33811": {
+    "「お前が　若葉の試みに　挑む日が来るとはな。\n　月日が経つのは　早いものじゃ。\n<br>\n「<pc>。\n　わしは　お前が　この村に来た日のことを\n　昨日のことのように　思いだせるよ。\n<br>\n「村の外に倒れていた　お前を見つけたのは\n　巫女の館にお仕えする　ノマさんだった。\n<br>\n「お前は　やせこけた小さな身体で……　おまけに\n　重い病に侵されていてな。ヒメア様の祈りで\n　奇跡的に　命を取りとめたのだよ。\n<br>\n「しかし　親のない子を　ドレイのように\n　はたらかせ　病気になったら捨てるとは……。\n　血も涙もないヤツが　いるものだ。": "I never thought the day would come\nwhen you would challenge Wakaba's\nattempt. The days go by quickly.\n<br>\n<pc>. I can remember the day\nyou came to this village as if it were\nyesterday. You were found lying\n<br>\noutside the village by the Maiden\nManor's servant, Noma. You were a\nskinny little thing, and very ill, and\n<br>\nit was only through Himea's prayers\nthat you were miraculously spared. But\nyou work a parentless child like a\n<br>\ndrei and throw him away when he falls\nill. There are those who have neither\nblood nor tears in their hearts."
+  },
+  "33813": {
+    "<attr><feel_happy_lv1><end_attr>「まずは　このツスクルの村の　西の出口から\n　外に出るのだ。そして　そのまま\n　道なりに西へ向かい　知恵の社に行きなさい。\n<br>\n「試験は長い。疲れたら　無理をせずに\n　この寄宿舎の　自室に戻って\n　身体を　休ませるといいだろう。": "<attr><feel_happy_lv1><end_attr>First, go out from the west exit of\nTsusukul Village. Then, follow the\nroad west to the Wisdom Altar. The\n<br>\ntest is long. If you are tired, you\nmay want to go back to your room in\nthe dormitory and rest your body."
+  },
+  "33814": {
+    "<attr><feel_think_lv3><end_attr>「若葉の試みに　落ち続けて　もう４年……。\n<br>\n「１０年間　落ち続けている \n　キュウスケが　いるとはいえ\n　下を見て　安心するような　オレじゃねえ。\n<br>\n「やってやる！　今年こそ　合格する。\n　いいか。オレは　やればできる子なんだ。\n　ぶつぶつ……。": "<attr><feel_think_lv3><end_attr>It's already been four years since\nI've fallen into the trial of the\nyoung leaves. Although there is\n<br>\nKyusuke who has been falling for 10\nyears, I'm not the kind of guy who\nlooks down and feels relieved. I'm\n<br>\ngoing to do it! This is the year I'm\ngoing to pass. Listen to me. I'm a kid\nwho can do it if I try. Bump."
+  },
+  "33815": {
+    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sev_item>!<se_nots System Item>"
+  },
+  "33816": {
+    "『イシカズム理論における\n　ヌラカワ対比について』と書かれた\nとても　むずかしそうな表紙の本がある。": "There is a book with a very\ncomplicated cover that reads \"On the\nNurakawa Contrast in the Theory of\n<br>\nIsicasm."
+  },
+  "33817": {
+    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sev_item>!<se_nots System Item>"
+  },
+  "33818": {
+    "<attr><feel_happy_lv3><end_attr>「知ってる？　知の試練に合格すると\n　ルーラストーンが　もらえるんだよ！\n<br>\n「いいよなー　ルーラストーン。\n　使うと　その石に記憶させた場所へ\n　一瞬で飛んでいける　魔法の石なんだって。": "<attr><feel_happy_lv3><end_attr>Did you know? You can get a Zoomstone\nwhen you pass a knowledge trial! The\nZoomstone is a magic stone that allows\n<br>\nyou to instantly fly to the place you\nmemorized in the stone."
+  },
+  "33819": {
+    "「若葉の試みに　合格できなかったら\n　もう１年　修練の　やり直しかあ……。\n　最上級生になると　大変だなあ。": "If I don't pass the Wakaba trials,\nI'll have to start my training all\nover again for another year. It's\n<br>\ntough to be the most senior student,\nisn't it?"
+  },
+  "33820": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>どのに言うまでもありませんが\n　ここから村を出て　道なりに西に向かえば\n　知の試練を行う　知恵の社に行けますぞ。\n<br>\n「そういえば　<pc>どのは\n　初心者用の武器を　ご用意されていましたな。\n　外に出る前に　忘れずに　装備してくださいね。": "<attr><feel_happy_lv1><end_attr>I don't need to tell <pc>,\nbut if you leave the village from here\nand head west along the road, you can\n<br>\nget to the Wisdom Altar where the\nknowledge trial is held. By the way,\n<pc> has prepared weapons for\n<br>\nbeginners. Don't forget to equip\nyourself with it before you go out."
+  },
+  "33821": {
+    "<attr><feel_think_lv1><end_attr>「お前さんなら　若葉の試みなんて　かる～く\n　合格すると　先生方は　みんな期待しておる。\n　天才っちゅうのも　大変じゃのう。": "<attr><feel_think_lv1><end_attr>The teachers are all expecting that\nyou will easily pass the young leaves'\nattempt. It's not easy being a genius."
+  },
+  "33822": {
+    "<attr><feel_angry_lv1><end_attr>「ここは　ツスクルの巫女　ヒメア様の館。\n　許可なき者を　通すわけにはゆかぬ。\n　立ち去るがよい。": "<attr><feel_angry_lv1><end_attr>This is the mansion of Tsusukul's\npriestess, Himea. No unauthorized\npersons are allowed to pass. You may\n<br>\nleave."
+  },
+  "33823": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>さんは　いい人だなや。\n　勉強も運動も　できるのに\n　全然　いばったりしねえで……。\n<br>\n「あたしみたいな　いなか者にも\n　フウラさんみたいな　落ちこぼれにも\n　優しくしてくれるんだもんなあ。": "<attr><feel_happy_lv1><end_attr><pc> is a good person. He can\nstudy and do sports, but he doesn't\nbully me at all. He's kind to peasants\n<br>\nlike me and dropouts like Fuura."
+  },
+  "33824": {
+    "<attr><feel_happy_lv1><end_attr>「ついに　若葉の試みが　始まりましたね。\n　なつかしいなぁ。ボクも　昔\n　同じように　若葉の試みを受けたんです。\n<br>\n「ずっと　学びの庭に　こもっていたボクには\n　知恵の社から見た景色が　本当に　すばらしい\n　かけがえのない宝物に　思えたものでした。": "<attr><feel_happy_lv1><end_attr>At last, the Wakaba trial has begun. I\nmiss it so much. I was also a\nrecipient of the Wakaba Trial a long\n<br>\ntime ago. I had been staying in the\ngarden of learning for a long time,\nand the view from the Wisdom Altar\n<br>\nseemed to me a truly wonderful and\nirreplaceable treasure."
+  },
+  "33825": {
+    "<attr><feel_happy_lv2><end_attr>「おかえりなさい　<pc>さん！\n　知の試練が　終わったんですね。\n<br>\n「お部屋で　お休みになる前に\n　イズヤノイ先生に　知の試練を受けてきたって\n　報告したほうが　いいですよ。": "<attr><feel_happy_lv2><end_attr>Welcome back <pc>! I see that\nyou have finished the knowledge trial.\nBefore you go back to your room to\n<br>\nrest, you should tell Dr. Izuyanoi\nthat you had a knowledge trial."
+  },
+  "33826": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>さん\n　知の試練　お疲れさまでした！\n<br>\n「結果が出るまで　時間が　かかるそうですし\n　お部屋で　すこし　休んでいきませんか？<yesno><break>": "<attr><feel_happy_lv1><end_attr><pc> Thank you for your hard\nwork on the knowledge trial! It will\ntake some time to get the results, so\n<br>\nwhy don't you go to your room and get\nsome rest?<yesno><break>"
+  },
+  "33827": {
+    "<attr><feel_happy_lv1><end_attr>「わかりました！\n　疲れた時は　いつでも声をかけてくださいね。\n<br>\n「ああっ　それにしても\n　結果発表が　待ち遠しいなあ……。\n　いい結果だといいですね　<pc>さん。": "<attr><feel_happy_lv1><end_attr>I understand! Whenever you are tired,\nplease feel free to call on me. I\ncan't wait to hear the results, by the\n<br>\nway. I hope the results are good\n<pc>."
+  },
+  "33828": {
+    "<attr><feel_happy_lv1><end_attr>「では　ゆっくり　お休みください。": "<attr><feel_happy_lv1><end_attr>Well then, have a good night's sleep."
+  },
+  "33829": {
+    "<attr><feel_think_lv2><end_attr>「<pc>さん！　早く広場に行かなきゃ。\n　知の試練の　合格者が　発表されるんですって！\n<br>\n「きっと……　みんな　合格してますよね？\n　あんなに　がんばったんですもん。": "<attr><feel_think_lv2><end_attr><pc>! I have to go to plaza\nsoon. I heard that they are going to\nannounce the successful candidates for\n<br>\nthe Trial of Knowledge! I'm sure\neveryone passed, right? I'm sure they\nall passed, right?"
+  },
+  "33830": {
+    "<attr><feel_happy_one><end_attr>「ガツガツ　ガツガツ　ガツガツ　ガツガツ\n　ガツガツ　ガツガツ　ガツガツ……。\n<br>\n「ゲフーッ！<bw_break>": "<attr><feel_happy_one><end_attr>GatsuGatsu GatsuGatsu GatsuGatsu\nGatsuGatsu GatsuGatsu GatsuGatsu\nGatsuGatsu GatsuGatsu. Geef!<bw_break>"
+  },
+  "33831": {
+    "<turn_pc>「アタマを使うと　ハラが減るよな。\n　知の試練　気張りすぎちゃったかなあ。": "<turn_pc>I have to use my brain to keep my\nstomach full. Trial of Knowledge I may\nhave been overzealous."
+  },
+  "33832": {
+    "「幼いうちから　親元を離れ\n　勉学に　はげんできた　子供たちにとって\n　今日は　もっとも故郷を想う日かもしれません。\n<br>\n「学びの庭の卒業生として \n　大きくムネをはって　故郷に帰れるか。\n　もう１年　修行を　やり直すことになるか。\n<br>\n「子供たち　みんなの運命が\n　今日の試練の結果で　決められるのですね。": "For children who have been away from\ntheir parents since childhood and have\nspent their entire lives studying\n<br>\nhard, today may be the day they feel\nthe most nostalgic for their\nhometowns. Will they return to their\n<br>\nhometowns as graduates of the Garden\nof Learning with big dreams? Or will\nthey have to start their training all\n<br>\nover again for another year? The\noutcome of today's trial will\ndetermine the fate of all the\n<br>\nchildren."
+  },
+  "33833": {
+    "<attr><feel_angry_lv2><end_attr>「知の試練……　受けてきたけど \n　全然　できなかったような気がする。\n　くそっ……！": "<attr><feel_angry_lv2><end_attr>I took the Trial of Knowledge, but I\ndon't think I could do it at all.\nDamn!"
+  },
+  "33834": {
+    "<attr><feel_happy_lv2><end_attr>「おお　<pc>よ　よく戻ってきたな。\n　知の試練は　終わったのか？\n<br>\n「なに？　知の試練ではなく\n　トヨホロ先生の問いに　答えただけ？\n<br>\n「わはは！　トヨホロ先生も　味なマネをなさる。\n　まあ　<pc>の学力をもってすれば\n　知の試練など　簡単すぎる問題だからな。\n<br>\n「皆が戻ってきたら　合格者を発表しよう。\n　それまで　寄宿舎にいる\n　アカシに声をかけて　休んでいるといい。": "<attr><feel_happy_lv2><end_attr>Oh <pc>, how nice of you to\ncome back. Is the TRIAL of knowledge\nover? What? Not a knowledge trial,\n<br>\njust an answer to Dr. Toyohoro's\nquestion? Wahaha! Toyohoro-sensei does\na good job of that. Well, with\n<br>\n<pc>'s academic ability, the\nknowledge trial is too easy. I will\nannounce the successful candidates\n<br>\nwhen everyone returns. Until then, you\ncan call Akashi in the dormitory and\nhave a rest."
+  },
+  "33835": {
+    "<attr><feel_happy_lv1><end_attr>「ご苦労だったな。\n　最上級生たちが　皆　戻ってきたら\n　合格者を　発表するとしよう。\n<br>\n「お前は　それまで　寄宿舎にいる\n　アカシに声をかけて　休んでいるといい。": "<attr><feel_happy_lv1><end_attr>Thanks for your hard work. We will\nannounce the successful candidates\nwhen all the top students return.\n<br>\nUntil then, you can go talk to Akashi\nin the dormitory and get some rest."
+  },
+  "33836": {
+    "<attr><feel_happy_lv1><end_attr>「なあ　あんちゃん　大丈夫だって。\n　４年も　がんばってきたんだから。なっ？": "<attr><feel_happy_lv1><end_attr>Anchan, don't worry. You've worked\nhard for four years. Right?"
+  },
+  "33837": {
+    "<attr><feel_think_lv2><end_attr>「ねえ　知恵の社で　キュウスケさんを見た？\n　トヨホロ先生の問いに\n　スラスラと　答えていたのよ！\n<br>\n「あの人って　じつは\n　アタマだけは　いいのかしら……？": "<attr><feel_think_lv2><end_attr>Hey, did you see Kyusuke at Wisdom\nAltar? He was answering Toyohoro-\nsensei's questions so clearly! I\n<br>\nwonder if he's actually smart."
+  },
+  "33838": {
+    "<attr><feel_angry_lv3><end_attr>「ああ　忙しい　忙しい！！\n　なんで　学生ってのは　こんなにも\n　食べっぷりが　いいんだろうね！\n<br>\n「作っても　作っても\n　きりが　ありゃしないよっ！！": "<attr><feel_angry_lv3><end_attr>Oh, busy, busy, busy! Why do students\neat so much? There's no end to the\namount of food I can make!"
+  },
+  "33839": {
+    "「<pc>よ　よく戻ったな。\n<br>\n「知の試練の　合格者発表は\n　皆が帰ってきてから　行われる。\n　それまで　自分の部屋で　待つといい。": "<pc>, good to see you back.\nThe successful candidates for the\nTrial of Knowledge will be announced\n<br>\nafter everyone has returned. Until\nthen, you can wait in your room."
+  },
+  "33840": {
+    "「ふむっ。最上級生の　<pc>だな。\n　これより　知の試練の　合格者発表が\n　始まるところだ。さあ　行きなさい。": "Hmmm. The most senior <pc>.\nThe announcement of the successful\ncandidates for the knowledge trial is\n<br>\nabout to begin. Go on, then."
+  },
+  "33841": {
+    "<attr><feel_sad_lv3><end_attr>「ダメだ……　絶望だ……！\n　この世は　まっくら闇だ……！\n<br>\n「なあ？　なんで　知の試練って\n　あんなに　むずかしいんだよ……。\n　絶対　おかしいって……。マジで……。": "<attr><feel_sad_lv3><end_attr>No, it's hopeless! The world is pitch\nblack! Right? Why are trials of\nknowledge so difficult? It's\n<br>\nabsolutely ridiculous. Seriously."
+  },
+  "33842": {
+    "<attr><feel_sad_lv2><end_attr>「ぼちぼち　帰ってきた人もいるけど\n　みんな　なんだか暗いんだ……。\n<br>\n「ボク　最上級生になるのが\n　怖くなってきちゃった。\n　ヤだな～　若葉の試みなんて。": "<attr><feel_sad_lv2><end_attr>Some people have come back, but\neveryone is kind of gloomy. I'm\ngetting scared to be a senior. I don't\n<br>\nlike the idea of trying out for the\nyoung."
+  },
+  "33843": {
+    "<attr><feel_happy_lv2><end_attr>「いやはや！　お早い　お帰りで。\n　どうやら　知の試練を終えてきたようですな。\n<br>\n「それでは　広場で待っている\n　師イズヤノイに　試練を終えたことを\n　ご報告なさってください。": "<attr><feel_happy_lv2><end_attr>Well, well, well! You are back early.\nIt seems that you have completed your\nknowledge trial. Please report to\n<br>\nMaster Izuyanoi, who is waiting for\nyou in the plaza, that you have\ncompleted the trial."
+  },
+  "33844": {
+    "<attr><feel_happy_lv1><end_attr>「全員が　試練を終えて　戻ってくるまでには\n　まだ　時間が　かかるでしょう。\n　どうぞ　寄宿舎で　休んでいてください。": "<attr><feel_happy_lv1><end_attr>It will be some time before everyone\nreturns after the trial. Please rest\nin the dormitory."
+  },
+  "33845": {
+    "<attr><feel_sad_lv2><end_attr>「ああ　<pc>さん。\n　フウラさんなら　まだ戻ってこねえだ。\n　きっと　知の試練で　苦労してるんだろうな。": "<attr><feel_sad_lv2><end_attr>Oh <pc>. If it's Mr. Fuura,\nhe ain't back yet. I bet he's having a\nhard time with the TRIAL of knowledge."
+  },
+  "33846": {
+    "<attr><feel_angry_lv3><end_attr>「広場で　合格者発表が　始まるから\n　急いだほうが　ええだよ。\n　もう　フウラさんも　広場に向かっただ。\n<br>\n「あたしは　みんなが受かるように \n　ふるさとに伝わる　まじない音頭を\n　ここで　おどってるだ！　フンフン！": "<attr><feel_angry_lv3><end_attr>The announcement of the applicants\nwill start at the plaza, so you'd\nbetter hurry. I'm already on my way to\n<br>\nthe plaza, Fuura-san. I'm here to\nfrighten the spirits of my hometown so\nthat everyone will pass the entrance\n<br>\nexam! Hmph, hmph!"
+  },
+  "33847": {
+    "<attr><feel_happy_lv1><end_attr>「知の試練に　合格した者は　ツスクルの巫女\n　ヒメア様との　お目通りが　かなうのです。\n<br>\n「ヒメア様は　５００年もの長きにわたって \n　村を統べ　この学びの庭を　お作りになった\n　それは　それは　尊い巫女様です。\n<br>\n「学びの庭で　先生方の助手をしている\n　ボクでも　ヒメア様に　お会いできたのは\n　たった　一度きりなんですよ。": "<attr><feel_happy_lv1><end_attr>Those who pass the knowledge trial\nwill have the privilege of meeting the\nTsusukul priestess Himea. Himea is the\n<br>\ndeity who has governed the village for\n500 years and created the Garden of\nLearning. Even I, the teacher's\n<br>\nassistant in the Garden of Learning,\nhave only had the privilege of meeting\nHimea once."
+  },
+  "33848": {
+    "<attr><feel_happy_lv1><end_attr>「あっ　<pc>さん！\n　これから　合格者発表が始まりますよ！\n　広場に　急いでください！": "<attr><feel_happy_lv1><end_attr>Ah <pc>! They are going to\nstart announcing the successful\napplicants now! Please hurry to the\n<br>\nplaza!"
+  },
+  "33849": {
+    "<attr><feel_happy_lv3><end_attr>「知の試練に　合格されたそうですね！\n　さすが　<pc>さんです！\n　この調子で　力の試練も　ファイトですよ！\n<br>\n「試練に　そなえて\n　お部屋で　休んでいきますか？<yesno><break>": "<attr><feel_happy_lv3><end_attr>I heard you passed the TRIAL of\nKnowledge! You are indeed\n<pc>! Keep up the good work\n<br>\non the Trial of Strength! Would you\nlike to rest in your room in\npreparation for the Trial?<yesno><break>"
+  },
+  "33850": {
+    "<attr><feel_happy_lv1><end_attr>「それでは　ゆっくり　お休みくださいね。": "<attr><feel_happy_lv1><end_attr>Well then, please have a good night's\nrest."
+  },
+  "33851": {
+    "<attr><feel_happy_lv2><end_attr>「よく　お休みになれましたか？\n　いってらっしゃい　<pc>さん！\n　がんばってくださいね！": "<attr><feel_happy_lv2><end_attr>I hope you had a good rest. Have a\ngood day <pc>! Good luck!"
+  },
+  "33852": {
+    "<attr><feel_happy_lv1><end_attr>「疲れた時は　私に声をかけてくださいね。\n　いってらっしゃい　<pc>さん！": "<attr><feel_happy_lv1><end_attr>If you're tired, give me a holler.\nHave a good day <pc>!"
+  },
+  "33853": {
+    "<attr><feel_happy_lv1><end_attr>「よく　お休みになれましたか？\n　いってらっしゃい　<pc>さん！\n　がんばってくださいね。": "<attr><feel_happy_lv1><end_attr>I hope you had a good rest. Have a\ngood day <pc>! Good luck!"
+  },
+  "33854": {
+    "<attr><feel_happy_one><end_attr>「ガツガツ　ガツガツ　ガツガツ　ガツガツ\n　ガツガツ　ガツガツ　ガツガツ……。\n<br>\n「ゲフーッ！！<bw_break>": "<attr><feel_happy_one><end_attr>GatsuGatsu GatsuGatsu GatsuGatsu\nGatsuGatsu GatsuGatsu GatsuGatsu\nGatsuGatsu GatsuGatsu. Geef!<bw_break>"
+  },
+  "33855": {
+    "<turn_pc>「ちくしょう！　ほっといてくれよ！\n　落ちたヤツの気持ちなんて　わかんないだろ？\n　食わずに　やってられるかってんだ。": "<turn_pc>God damn it! Leave me alone! You don't\nknow what it's like to be the one who\nfell, do you? How can you do this\n<br>\nwithout eating?"
+  },
+  "33856": {
+    "<attr><feel_angry_lv2><end_attr>「悪いけど　ほっといてくれよ。\n　<pc>さんは　落ちたヤツの気持ちなんて\n　わかりゃしないだろっ。": "<attr><feel_angry_lv2><end_attr>I'm sorry, but please leave me alone.\nYou <pc> don't know what it's\nlike to be a failure."
+  },
+  "33857": {
+    "「さて。次なる試練は　力の試練だ。\n　神聖なる　世界樹の丘で行うため　お前たちは\n　出発の前に　みそぎを受けねばならん。\n<br>\n「すぐに　ツスクルの村の　奥にある\n　巫女の館へ　向かいなさい。\n<br>\n「……そういえば　お前は\n　幼い頃　ヒメア様に\n　お会いしたことが　あるのだったな。\n<br>\n「死にかけていた　お前に　ヒメア様が\n　聖なる祈りを　授けてくださらなかったら\n　今頃　お前の命は　なかっただろう。\n<br>\n「ヒメア様は　村を守る　まこと尊きお方。\n　そして　お前にとっては　命の恩人でもある。\n　くれぐれも　そそうのないようにな。": "Well. The next trial is the Trial of\nStrength. To conduct it in the holy\ncity of Yggdrahill, you must undergo\n<br>\npurification before departure. You\nwill go immediately to Maiden Manor,\nlocated deep inside Tsusukul Village.\n<br>\nCome to think of it, you once met\nMaster Himea when you were a child,\ndidn't you? If Himea had not given you\n<br>\nthe Care Prayer when you were dying,\nyou would not be alive today. Himea-\nsama is a truly precious person who\n<br>\nprotects the village. He is also the\none who saved your life. Please do not\nlet that happen to me."
+  },
+  "33858": {
+    "<attr><feel_sad_lv2><end_attr>「あんちゃーん……　元気だそうよ。\n<br>\n「これで来年も　オイラと\n　一緒に　勉強できるじゃないか……。\n　……なっ？": "<attr><feel_sad_lv2><end_attr>Let's cheer up, Anchan. With this, you\ncan study with me again next year.\nRight?"
+  },
+  "33859": {
+    "<attr><feel_sad_one><end_attr>「ダメだわ　私……。\n　試験を受けるの　今回でもう　３回目だったの。<bw_break>": "<attr><feel_sad_one><end_attr>It's no good. This is the third time\nI've taken the test.<bw_break>"
+  },
+  "33860": {
+    "<attr><feel_sad_lv3><end_attr>「ああっ　神さま　教えてください！\n　私は　学問の道をあきらめて\n　ここを出たほうが　いいのでしょうか！？": "<attr><feel_sad_lv3><end_attr>Oh, God, please tell me! Should I give\nup my academic career and leave this\nplace?"
+  },
+  "33861": {
+    "<attr><feel_angry_lv3><end_attr>「ああん　なんだって？　一次試験に受かった？\n　そりゃあ　あんたが受からないで\n　誰が　受かるんだい！！\n<br>\n「さ　わかったから　行ってくれ！\n　あたしゃ　忙しいんだよ！": "<attr><feel_angry_lv3><end_attr>Oh, what? You passed the first test?\nWell, if you didn't pass, who will?\nOkay, go! I'm busy!"
+  },
+  "33863": {
+    "「落第者は　さぞや無念であろう。\n<br>\n「……しかし　これも試練のうち。\n　自らのチカラを信じて　挑み続けた者だけが\n　学びの庭の　卒業生となれるのだ。": "Those who failed must be very\ndisappointed. However, this is part of\nthe trial. Only those who believe in\n<br>\ntheir own abilities and continue to\nchallenge themselves can become\ngraduates of the Garden of Learning."
+  },
+  "33864": {
+    "<attr><feel_sad_lv3><end_attr>「ううう……　うぐっ！！\n　コ……　コノタぁー……。\n　オレ　ふがいねぇよう…………。ズビーッ！": "<attr><feel_sad_lv3><end_attr>Ughhhhhh! Konotaaaa. I can't find it.\nZubby!"
+  },
+  "33865": {
+    "<attr><feel_happy_lv1><end_attr>「ヒメアさまの館は　学びの庭を出て\n　武器防具屋さんの前の道を\n　奥に向かって　歩いた所にあるよ。\n<br>\n「ヒメアさまは　何百年も生きてるっていう\n　すっごい　巫女さまだから　ボク　いつも \n　ヒメアさまの館に向かって　お祈りしてるんだ。\n<br>\n「ボクのアタマが　よくなりますように。\n　それで　若葉の試みに　すぐに合格して……\n　早く　ママの所に　帰れますようにってね。": "<attr><feel_happy_lv1><end_attr>Himea's mansion is just outside the\nGarden of Learning, walking towards\nthe back on the road in front of\n<br>\nWeapons & Armor. Himea is an amazing\npriestess who has lived for hundreds\nof years, so I always pray to her\n<br>\nmansion. I pray that my head will get\nbetter. And that I'll soon pass the\nYoung Leaves' test and be able to go\n<br>\nhome to my mom."
+  },
+  "33866": {
+    "<attr><feel_happy_lv2><end_attr>「何度も受けてる　キュウスケさんは　ともかく\n　一発で　知の試練に合格しちゃうなんて！\n　<pc>さんも　アサナギさんも　すごい！": "<attr><feel_happy_lv2><end_attr>I can't believe that Kyusuke, who has\ntaken the test many times, passed the\nknowledge trial on the first try!\n<br>\n<pc> and Asanagi-san are both\namazing!"
+  },
+  "33867": {
+    "「この道から　ツスクルの村の　外に出られます。\n　道なりに　西に向かえば　知の試練をおこなった\n　知恵の社に　行けますぞ。": "This road will take you out of\nTsusukul Village. If you follow the\nroad to the west, you will reach the\n<br>\nWisdom Altar where the knowledge trial\nwas conducted."
+  },
+  "33868": {
+    "「力の試練を受ける　<pc>だな。\n　この館へ　みそぎを受けに　参られたのか？<yesno><break>": "You are <pc> undergoing the\nTrial of Strength. Have you come to\nthis mansion to undergo purification?<yesno><break>"
+  },
+  "49640": {
+    "「では　中に入りたまえ。\n　案内の者に　従うのだ。": "Then come inside. Obey the guides."
+  },
+  "49641": {
+    "「ふむ。すでに　他の合格者の\n　アサナギと　キュウスケは　中に入っているぞ。\n　用があるなら　早く済ませてくるのだな。": "Hmmm. Asanagi and Kyusuke, the other\nsuccessful applicants, are already\ninside. If you have something to do,\n<br>\nyou'd better hurry up and get it done."
+  },
+  "33869": {
+    "「<pc>さん　力の試練に\n　行かなきゃいけねえって時に　わざわざ\n　来てくれて　ありがとうごぜえましただ。\n<br>\n「フウラさんなら　もう大丈夫だ。\n　力の試練　がんばってくんろ！": "<pc> Thank you for coming all\nthe way when I had to go to Trial of\nStrength. I'm sure Fuura-san will be\n<br>\nfine now. Good luck with the Trial of\nStrength!"
+  },
+  "33870": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>さん。ルーラストーンの\n　使い方を　お聞きになりますか？<yesno><break>": "<attr><feel_happy_lv1><end_attr><pc>, would you like to hear\nhow we use Zoomstone?<yesno><break>"
+  },
+  "33871": {
+    "「そうですか。\n　ルーラストーンについて　聞きたいときは\n　いつでも　ボクに　声をかけてくださいね。": "Okay. If you have any questions about\nZoomstone, please give me a call\nanytime."
+  },
+  "33872": {
+    "<attr><feel_happy_lv1><end_attr>「ルーラストーンは　使うと　記憶させた場所に\n　またたく間に飛んでいくことができる\n　とても　すばらしい　魔力の宿った石なんです。\n<br>\n「町や村など　教会のある場所は　一度　訪れると\n　自動で記憶されます。ツスクルの村も\n　すでに　記憶されているはずですよ。\n<br>\n「いくつでも　記憶できますので\n　記憶させれば　させるほど\n　飛んでいけるところが　増えるのです。\n<br>\n「また　フィールドやダンジョンの入口などにある\n　不思議な石碑も　ルーラストーンに\n　記憶させることが　できますよ。\n<br>\n「ルーラストーンは　『どうぐ』から使えます。\n　よく行く場所は　<emoji SpecialRight>で　お気に入りに\n　登録もできますので　試してみてくださいね。": "<attr><feel_happy_lv1><end_attr>The Zoomstone is a magical stone with\ngreat magic power that allows you to\nfly to the place you memorized in no\n<br>\ntime at all. Once you visit a town or\nvillage, it is automatically\nmemorized, and Tsusukul Village should\n<br>\nalready be there. You can memorize any\nnumber of places, so the more you\nmemorize, the more places you can fly\n<br>\nto. The mysterious stone monuments in\nthe fields and at the entrance of Dan\nJon can also be stored in the\n<br>\nZoomstone. The Zoomstone can be used\nfrom the \"item\" menu. Frequently\nvisited places are<emoji SpecialRight>You can also register it in your\nfavorites at"
+  },
+  "33873": {
+    "<attr><feel_happy_lv1><end_attr>「無事　みそぎを　受けられたようですね。\n　それでは　この道から　村の外に出て\n　東へ向かってください。\n<br>\n「やがて　たどり着く　久遠の森を抜けて\n　その奥地にある　世界樹の丘を目指すのです。\n　どうか　お気をつけて。": "<attr><feel_happy_lv1><end_attr>It seems that you have received\npurification without incident. Now,\nplease take this road out of the\n<br>\nvillage and head east. You will\neventually reach the Forest of\nEternity, and then head for\n<br>\nYggdrahill, which is located deep\nwithin the Forest of Eternity. Please\nbe careful."
+  },
+  "33874": {
+    "「うむ。みそぎを　受けてきたようだな。\n　これで　第二の試練\n　力の試練を受ける　準備は整った！\n<br>\n「それでは　村の南の出口から　外に出て\n　東へ向かい　久遠の森の奥地にある\n　世界樹の丘を　目指しなさい。\n<br>\n「そこで待つ　世界樹の精霊が\n　お前に　力の試練を与えるだろう。\n<br>\n「そうそう。力の試練には　\n　ルーラストーンが　役に立つだろう。\n　使い方は　そこのジアンに　教わるといい。": "Well, it looks like you've been\npurified. You are now ready for the\nsecond Trial of Strength! Now, go out\n<br>\nthe south exit of the village and head\neast to Yggdrahill in the depths of\nthe Forest of Eternity. There, the\n<br>\nwaiting Yggdrasil Spirit will grant\nyou the Trial of Strength. The Trial\nof Strength will be aided by the\n<br>\nZoomstone. Jian there will teach you\nhow to use it."
+  },
+  "33876": {
+    "<attr><feel_happy_lv1><end_attr>「ヒメアさまは　何百年も生きてるっていう\n　すっごい　巫女さまだから　ボク　いつも \n　ヒメアさまの館に向かって　お祈りしてるんだ。\n<br>\n「ボクのアタマが　よくなりますように。\n　それで　若葉の試みに　すぐに合格して……\n　早く　ママの所に　帰れますようにってね。": "<attr><feel_happy_lv1><end_attr>Himea is an amazing priestess who has\nlived for hundreds of years, so I\nalways pray to her mansion. I pray\n<br>\nthat my brain will get better. And\nthat I'll soon pass the Young Leaves'\ntest and be able to go home to my mom."
+  },
+  "33877": {
+    "<attr><feel_happy_lv1><end_attr>「この道から　ツスクルの村の　外に出られます。\n　道なりに　西に向かえば　知の試練をおこなった\n　知恵の社に　行けますぞ。\n<br>\n「世界樹の丘へ　向かうのですな？\n　ならば　この道ではなく　南の出口から\n　村の外に出て　東を目指してください。": "<attr><feel_happy_lv1><end_attr>This road will take you out of\nTsusukul Village. If you follow the\nroad west, you will reach the Wisdom\n<br>\nAltar where the Trial of Knowledge was\nconducted. Are you heading to\nYggdrahill? Then you should not take\n<br>\nthis road, but take the south exit out\nof the village and head east."
+  },
+  "33878": {
+    "「みそぎにより　そなたの身体は　清められた。\n　南にある出口から　村を出て　東に向かい\n　久遠の森の奥地　世界樹の丘を目指すがよい。\n<br>\n「世界樹の丘には　精霊がいらっしゃる。\n　そのお方から　そなたに\n　力の試練が　与えられるだろう。\n<br>\n「さあ　行くがよい　世界樹の若葉よ。\n　健闘を　祈っているぞ。": "The purification has cleansed your\nbody. Leave the village by the exit to\nthe south and head east to Yggdrahill,\n<br>\ndeep in the Forest of Eternity. There\nis a spirit in Yggdrahill. He will\ngive you the Trial of Strength. Go\n<br>\nnow, young leaf of Yggdrasil. I wish\nyou good luck."
+  },
+  "33879": {
+    "<attr><feel_sad_lv2><end_attr>「<pc>さん……！\n　ああっ　無事だったんですね。\n　本当に　よかっ……うっ……。<bw_break>": "<attr><feel_sad_lv2><end_attr><pc>! Oh, you are safe,\naren't you? I'm so glad.<bw_break>"
+  },
+  "33880": {
+    "<attr><feel_sad_lv3><end_attr>「うえ～～～～～ん！！\n　ひっく　ひっく……。ぐずっ……。": "<attr><feel_sad_lv3><end_attr>Ue~~~~~n! Hiccup, hiccup. Stuck."
+  },
+  "45161": {
+    "<attr><feel_sad_lv3><end_attr>「うっ　うっ……　ホッとしたら\n　なんだか　なみだ　出てきちゃって……\n　うわ～ん！　うわ～ん！": "<attr><feel_sad_lv3><end_attr>I was so relieved, I felt a bit of a\nsouthern tear! Uu~n!"
+  },
+  "33881": {
+    "<attr><feel_sad_lv1><end_attr>「そうか……。\n　師コウが　魔瘴にのまれ　命を落としたか。\n<br>\n「わしゃ　コウが　学びの徒であった頃から\n　よく知っておった。\n　いたずらばかりの　生意気な少年でな。\n<br>\n「それが　みるみる成長し……\n　努力の末に　才能を開花させて\n　学びの徒を導く　師となったというのに。\n<br>\n「無念でならぬ……。": "<attr><feel_sad_lv1><end_attr>I see. Mstr Kou lost his life to demon\nmiasma. I knew Mstr Kou well when he\nwas a student. He was a naughty,\n<br>\ncheeky boy who was always up to\nmischief. He grew up quickly and\nthrough hard work, his talent\n<br>\nblossomed and he became a teacher who\nguided the students of learning. It is\nwith a heavy heart that I regret this."
+  },
+  "33882": {
+    "<attr><feel_sad_silent><end_attr>「………………。": "<attr><feel_sad_silent><end_attr>..."
+  },
+  "33883": {
+    "<attr><feel_sad_lv2><end_attr>「<pc>さん！　よかった……。\n　よくぞ　ご無事で　戻ってきてくれました。\n<br>\n「アサナギさんから　話は聞いています。\n　今は　力の試練のことは　後にして\n　巫女の館に　お急ぎくださいませ。": "<attr><feel_sad_lv2><end_attr><pc>! Thank God. I am so glad\nto hear that you are back safe and\nsound. I heard from Asanagi-san.\n<br>\nPlease put the Trial of Strength\nbehind you and hurry to Maiden Manor."
+  },
+  "33884": {
+    "<attr><feel_think_lv3><end_attr>「なあっ　見たか？\n　見たこともないような　強くて　きれいな光が\n　大空を　おおったんだ！！\n<br>\n「いったい　あの光は　なんだったんだ？\n　大天才のお前なら　知ってるんじゃないのか！？": "<attr><feel_think_lv3><end_attr>Did you see that? A beautiful, strong\nlight like I've never seen before\ncovered the sky! What was that light?\n<br>\nYou're a genius, don't you know!"
+  },
+  "33885": {
+    "<attr><feel_sad_lv2><end_attr>「<pc>！　無事でよかった。\n　先に戻ってきたアサナギより　話は聞いた。\n　本当に　大変な思いをしたな。\n<br>\n「今は　若葉の試みのことは　後回しだ。\n　巫女の館へ　急ぎなさい。\n　アサナギとキュウスケも　待っているぞ。": "<attr><feel_sad_lv2><end_attr><pc>! I'm glad you are safe.\nI heard from Asanagi who came back\nearlier. It must have been a really\n<br>\ntough time for you. We'll put the\nyoung leaves' attempt on the back\nburner for now. Hurry to Maiden Manor.\n<br>\nAsanagi and Kyusuke are waiting for\nyou."
+  },
+  "33886": {
+    "「<pc>さん　見た？\n　さっき　空が　真っ白に光ったのよ！": "<pc> Did you see that? The\nsky lit up true white just now!"
+  },
+  "33887": {
+    "<attr><feel_angry_lv3><end_attr>「ああ　忙しい　忙しい！！\n　なんで　学生ってのは　こんなにも\n　食べっぷりが　いいんだろうね！\n<br>\n「作っても　作っても\n　きりが　ありゃしないよっ！！": "<attr><feel_angry_lv3><end_attr>Oh, busy, busy, busy! Why do students\neat so much? There's no end to the\namount of food I can make!"
+  },
+  "33888": {
+    "<attr><feel_think_lv1><end_attr>「私の考えが　当たっているのなら\n　あの光こそ　我らが\n　長年　待ち望んでいたものかもしれん。\n<br>\n「こうしてはおられぬ……。\n　ただちに　師たちを招集しなくては。": "<attr><feel_think_lv1><end_attr>If I'm right, that light may be the\none we've been waiting for all these\nyears. This is not the way to go. We\n<br>\nmust summon the masters immediately."
+  },
+  "33890": {
+    "<attr><feel_think_lv2><end_attr>「あの　世界中に降り注いだ　美しい光は\n　いったい　なんだったのだろうか？\n<br>\n「私は　あんな光景は　一度も見たことはない。\n　なのに……　なぜだろうな。\n　どこか　なつかしい気持ちがしたのだ……。": "<attr><feel_think_lv2><end_attr>What on earth was that beautiful light\nthat poured over the world? I have\nnever seen anything like that. And\n<br>\nyet, I wonder why. I felt somewhat\nnostalgic."
+  },
+  "33891": {
+    "<attr><feel_happy_lv3><end_attr>「ねえねえ　すごかったよね！\n　もう　そこらじゅうが　キラキラーって！\n　キラキラ　ピカピカーって！": "<attr><feel_happy_lv3><end_attr>Hey, hey, it was amazing, wasn't it?\nIt was so sparkly! Sparkles, sparkles,\nsparkles, sparkles, sparkles,\n<br>\nsparkles, sparkles, sparkles,\nsparkles, sparkles!"
+  },
+  "33892": {
+    "<attr><feel_sad_lv2><end_attr>「おおっ　<pc>どの……！\n　よくぞ無事に　お戻りになられました。\n　皆　あなたのことを　案じておりましたよ。": "<attr><feel_sad_lv2><end_attr>Oh <pc>! Welcome back safe\nand sound. We were all thinking of\nyou."
+  },
+  "33893": {
+    "<attr><feel_sad_lv1><end_attr>「おお　<pc>！　ケガはないか？\n　お前さんなら　無事だと　信じていたが\n　顔を見るまで　気が気でなくてのう……。": "<attr><feel_sad_lv1><end_attr>Oh <pc>! Are you hurt? I was\nsure you'd be okay, but I wasn't sure\nuntil I saw your face."
+  },
+  "33894": {
+    "「来たか　<pc>。\n　ヒメア様が　そなたをお呼びだ。\n　さあ　中に入りたまえ。": "You have come <pc>. Master\nHimea wants to see you. Come, come\ninside."
+  },
+  "33895": {
+    "<attr><feel_sad_lv3><end_attr>「あっ　<pc>さん……！\n　よがった～！　よぐ\n　無事に　帰ってきてくれただな。\n<br>\n「先に　アサナギさんたちだけが \n　血相変えて　戻ってきたもんだから\n　オラ　てっきり　何か　あったのかと……。": "<attr><feel_sad_lv3><end_attr>Ah <pc>! I'm so glad~! You\ncame back safe and sound, didn't you?\nI thought something had happened\n<br>\nbecause Asanagi and the others came\nback first."
+  },
+  "33896": {
+    "<attr><feel_think_lv3><end_attr>「<pc>さん。あなたに会ったら\n　ヒメア様が　お待ちしていると伝えるよう\n　師の方々より　命じられました。\n<br>\n「いったい　どういうことでしょう。\n　若葉の試みは　どうなってしまったのですか？": "<attr><feel_think_lv3><end_attr><pc>. I have been instructed\nby my teachers to tell you that Himea\nis waiting for you when you see her.\n<br>\nWhat is going on? What happened to the\nattempt of the young leaves?"
+  },
+  "33897": {
+    "<attr><feel_happy_lv1><end_attr>「あっ　<pc>さん！\n　ご卒業　おめでとうございます！\n<br>\n「もう　このお部屋で　一緒に過ごすことも\n　なくなるんですね。さみしくなります。\n<br>\n「でも　ここには　<pc>さんとの\n　思い出が　あふれています。\n　それを胸に　私も　がんばりますね！": "<attr><feel_happy_lv1><end_attr>Ah <pc>! Congratulations on\nyour graduation! I guess we won't be\nspending time together in this room\n<br>\nanymore. I will miss you. But this\nroom is full of memories of you and\n<pc>. With that in mind, I\n<br>\nwill do my best!"
+  },
+  "33898": {
+    "<attr><feel_sad_lv1><end_attr>「<pc>さんが　使っていらっしゃった\n　この　お部屋にも　しばらくしたら\n　新入生が　入ってくることでしょうね。": "<attr><feel_sad_lv1><end_attr>I'm sure that the room that\n<pc> was using will be\noccupied by new students in a while."
+  },
+  "33899": {
+    "<attr><feel_sad_lv1><end_attr>「ここは　学びの庭いちばんの大天才と\n　称えられた方の　お部屋でした。\n　今は　もう　ご卒業なさいましたが……。": "<attr><feel_sad_lv1><end_attr>This was the room of the person who\nwas praised as the greatest genius in\nthe Garden of Learning. He has already\n<br>\ngraduated."
+  },
+  "33900": {
+    "<attr><feel_happy_one><end_attr>「ガツガツ　ガツガツ　ガツガツ　ガツガツ\n　ガツガツ　ガツガツ　ガツガツ……。\n<br>\n「ゲフーッ！<bw_break>": "<attr><feel_happy_one><end_attr>GatsuGatsu GatsuGatsu GatsuGatsu\nGatsuGatsu GatsuGatsu GatsuGatsu\nGatsuGatsu GatsuGatsu. Geef!<bw_break>"
+  },
+  "33901": {
+    "<turn_pc>「試験に落ちたけど……　もう　いいんだ。\n　おばちゃんの飯が食える　この幸せ！\n　それに気づくことが　できたんだから！！": "<turn_pc>I failed the exam, but that's okay.\nI'm happy to be able to eat my\nauntie's food! Because I was able to\n<br>\nrealize that!"
+  },
+  "33902": {
+    "<attr><feel_happy_lv1><end_attr>「このエルトナ大陸には　木工ギルドがある。\n　世界中には　他にも\n　いろんなギルドが　あるのじゃ。": "<attr><feel_happy_lv1><end_attr>There is a Woodworking Guild here in\nEltona Continent. There are many other\nguilds around the world."
+  },
+  "33903": {
+    "<attr><feel_happy_lv2><end_attr>「ニッシッシ！　この学びの庭も　ずいぶんと\n　世界的に　有名になったようじゃ。\n　いろんな国から　美人さんが　来るぞい。": "<attr><feel_happy_lv2><end_attr>Nisshhh! It seems that this garden of\nlearning has become famous all over\nthe world. Beautiful women from all\n<br>\nover the world are coming here."
+  },
+  "33904": {
+    "<attr><feel_sad_lv2><end_attr>「<pc>さんが　行ってしまうと\n　この村も　さみしくなりますね……。\n<br>\n「まずは　鉄道の走る　風の町アズランを\n　目指してみては　いかがでしょう。\n<br>\n「ここから村の外へ出て　西へ向かい \n　やがて見えてくる　光の河より　さらに西へと\n　歩いていけば　風の町アズランに着きますわ。": "<attr><feel_sad_lv2><end_attr>I will miss this village once\n<pc> is gone. Why not start\nby heading for Wind Town Azlan, where\n<br>\nthe railroad runs? From here, head\nwest out of the village and continue\nwest of the River of Light, which you\n<br>\nwill soon see, and you will arrive at\nWind Town Azlan."
+  },
+  "33905": {
+    "「ここは　エルフたちの\n　古き学問を伝える　ツスクルの村。\n<br>\n「そして　この先が　学徒たちが修練にはげむ\n　学びの庭に　ございますわ。": "This is Tsusukul Village, where the\nancient learning of the Elves is\npreserved, and beyond that is the\n<br>\nGarden of Learning, where the students\nare trained."
+  },
+  "33906": {
+    "<attr><feel_think_lv2><end_attr>「なあっ！　<pc_race>の　あんたも\n　強い光が　空をおおうのを見ただろ？<yesno><break>": "<attr><feel_think_lv2><end_attr>Hey! <You saw the strong light\ncovering the sky, didn't you?<yesno><break>"
+  },
+  "33907": {
+    "<attr><feel_happy_lv3><end_attr>「そうか……！\n　やっぱり　あの光は　世界中に届いたんだ！": "<attr><feel_happy_lv3><end_attr>I see! After all, that light reached\nthe whole world!"
+  },
+  "33908": {
+    "<attr><feel_think_lv1><end_attr>「そうか……。オレは　まばゆい光が\n　大空を染めるのを　見たんだ。\n　本当に　キレイだったんだよ。": "<attr><feel_think_lv1><end_attr>I see. I saw a dazzling light stain\nthe sky. It was really beautiful."
+  },
+  "33909": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>　卒業おめでとう！\n　新たな旅立ちを　ゆっくり　祝ってやりたいが\n　進むべき道を　示されたそうだな。\n<br>\n「ならば　行くがよい　知恵ある者よ！\n　一人前の証を手に入れた　お前のチカラを\n　必要とする者たちのために。\n<br>\n「この村より　はるか西の　アズラン地方には\n　鉄道が走る　風の町アズランがある。\n　まずは　そこに向かってみるといいだろう。\n<br>\n「そういえば　学びの庭を去った　フウラも\n　たしか　風の町アズランの出身であったな。": "<attr><feel_happy_lv1><end_attr><pc> Congratulations on your\ngraduation! I wish I could take the\ntime to congratulate you on your new\n<br>\ndeparture, but I hear you've been\nshown the path you must take. Then go,\nO wise one! Proof of Adulthood is\n<br>\nreceived for those who need your help.\nIn Azlan Region, far west of this\nvillage, there is Wind Town Azlan with\n<br>\nits railroad. You might want to head\nthere first. I remember that Fuura,\nwho left the Garden of Learning, was\n<br>\nalso from Wind Town Azlan."
+  },
+  "33910": {
+    "<attr><feel_think_lv1><end_attr>「私が　学びの庭の師となったばかりの頃は\n　この村には　エルフたちの姿しか\n　なかったものだ……。\n<br>\n「それが　今では　さまざまな種族たちの姿を\n　見かけるようになった。\n　時代は　すこしずつ　変化しているのだな。": "<attr><feel_think_lv1><end_attr>When I first became a teacher in the\nGarden of Learning, there were only\nelves in this village. Now, however, I\n<br>\nsee many different kinds of races.\nTimes are changing little by little."
+  },
+  "33911": {
+    "<attr><feel_happy_one><end_attr>「す……すげえぜ　あんちゃん！\n　そいつぁ　名推理ってヤツだよ！": "<attr><feel_happy_one><end_attr>That's great, you guys! That's what I\ncall a good guess!"
+  },
+  "33912": {
+    "<attr><feel_sad_lv1><end_attr>「いいわね　一人前の証。\n　私も　ヒメア様から　一人前の証を\n　いただけるように　がんばろうかな。": "<attr><feel_sad_lv1><end_attr>Proof of Adulthood is nice. I will try\nto get Proof of Adulthood from Himea\ntoo."
+  },
+  "33913": {
+    "<attr><feel_happy_lv1><end_attr>「この学びの庭の　学徒は\n　若葉の試みという　卒業試験に合格しないと\n　巣立ちを　許されないの。\n<br>\n「めったに合格できない　むずかしい試験なのに\n　今年は　３人も　合格者が出たのよ！": "<attr><feel_happy_lv1><end_attr>The students of the Garden of Learning\nare not allowed to leave the nest\nuntil they pass a graduation exam\n<br>\ncalled the \"Trial of the Young\nLeaves\". It is a very difficult exam\nthat is rarely passed, but this year,\n<br>\nthree students passed it!"
+  },
+  "33914": {
+    "<attr><feel_angry_lv3><end_attr>「ああ　忙しい　忙しい！！\n　なんで　学生ってのは　こんなにも\n　食べっぷりが　いいんだろうね！\n<br>\n「作っても　作っても\n　きりが　ありゃしないよっ！！": "<attr><feel_angry_lv3><end_attr>Oh, busy, busy, busy! Why do students\neat so much? There's no end to the\namount of food I can make!"
+  },
+  "33915": {
+    "<attr><feel_happy_lv1><end_attr>「幼い頃から　つらい目にあってきたのに\n　よくも　ここまで　まっすぐに育ったものだ。\n　さあ　行きなさい。風の導くままに。\n<br>\n「これより　たくさんの出会いがあるだろうが\n　礼儀を忘れることなく　接しなさい。\n　お前は　学びの庭の代表なのだからな。\n<br>\n「そして　<pc>。\n　巣立ちを終えても　この庭は　お前の家だ。\n　いつでも　帰ってきなさい。待っているぞ。": "<attr><feel_happy_lv1><end_attr>How could you have grown up so\nstraight despite all the hardships\nyou've endured since you were a child?\n<br>\nNow, go. Follow the wind. You will\nmeet many more, but treat them with\ncourtesy. You represent the Garden of\n<br>\nLearning. And <pc>. Even\nafter you leave the nest, this garden\nis your home. Come home whenever you\n<br>\nwant. We are waiting for you."
+  },
+  "33916": {
+    "「お客人か。ようこそ　学びの庭へ。\n　ここは　この庭で　師をつとめる者が\n　自ら　学ぶための部屋だ。\n<br>\n「学問に果てはない。\n　この学びの庭の　師たちも\n　学徒の一員と　言えるのかもしれんな。": "You have a guest. Welcome to the\nGarden of Learning. This is a room for\nthose of you who are masters in this\n<br>\ngarden to learn for yourselves.\nLearning knows no bounds. I suppose\nyou could say that the masters in this\n<br>\ngarden of learning are also students."
+  },
+  "33919": {
+    "<attr><feel_angry_lv2><end_attr>「おい　コノタ。\n　オレってば　気づいちまったぜ……。\n　この若葉の試みの　真実ってヤツによお！\n<br>\n「キュウスケのヤツは　本物の\n　なんでも覚えられるクスリを\n　自分のために　隠し持ってやがったんだ！\n<br>\n「オレには　ニセ物つかませやがって……！\n　でなきゃ　アイツが　若葉の試みに\n　合格するなんて　ありえねえよ。": "<attr><feel_angry_lv2><end_attr>Hey Konota, I just realized something.\nI've noticed the true fruit of this\nyoung leaf's endeavor! Kyusuke has\n<br>\nbeen keeping the real, full-blown,\neverything-learning drug for himself!\nHe made me take a fake one! Otherwise,\n<br>\nthere's no way he would've passed\nWakaba's test."
+  },
+  "33920": {
+    "<attr><feel_think_lv3><end_attr>「……アサナギも　キュウスケも\n　なんだか　コワイ顔してた。\n　せっかく　卒業が決まったのに　ヘンなの～。": "<attr><feel_think_lv3><end_attr>Asanagi and Kyusuke both looked kind\nof scared. It's so strange that\nthey've decided to graduate."
+  },
+  "33921": {
+    "<attr><feel_happy_lv2><end_attr>「あのね。今年の卒業生は　すごかったんだよ！\n　あんなに　優秀な学徒たちが　集まる年は\n　もう　ないだろうって　先生が言ってた。": "<attr><feel_happy_lv2><end_attr>You know what? This year's graduates\nwere amazing! The teacher said there\nwon't be another year when we can\n<br>\ngather such an outstanding group of\nstudents."
+  },
+  "33922": {
+    "<attr><feel_think_lv1><end_attr>「力の試練で　何かあったの？\n　アサナギさんが　厳しい顔をしてたんだ。\n<br>\n「でも　さっそうと　荷物をまとめて\n　旅立っていった　アサナギさんは\n　かっこよかったなあ！": "<attr><feel_think_lv1><end_attr>Did something happen at Trial of\nStrength? Asanagi-san had a stern look\non his face. But Asanagi-san was so\n<br>\ncool that he packed up his bag and\nleft for home!"
+  },
+  "33923": {
+    "<attr><feel_sad_lv1><end_attr>「ボク　来年は　最上級生になるんだ……。\n　最上級生になると　若葉の試みっていう\n　とっても　むずかしい試験が　あるんだよ。": "<attr><feel_sad_lv1><end_attr>I will be a senior next year. When you\nbecome a senior, you have to take a\nvery difficult exam called \"Wakaba no\n<br>\nTrial\"."
+  },
+  "33924": {
+    "<attr><feel_happy_lv3><end_attr>「ご卒業おめでとうございます！\n　今年は　３人も　若葉の試みに合格するなんて。\n　いやあ～　めでたいっ！\n<br>\n「この道から　ツスクルの村の　外に出られます。\n　道なりに　西に向かえば　知の試練をおこなった\n　知恵の社に　行けますぞ。\n<br>\n「鉄道駅のある　風の町アズランを　目指すなら\n　ここではなく　村の南にある出口から\n　外に出たほうが　近道できますよ。": "<attr><feel_happy_lv3><end_attr>Congratulations on your graduation! I\ncan't believe that three of you passed\nthe Young Leaves' exam this year.\n<br>\nCongratulations! This road will take\nyou out of Tsusukul Village. If you\nfollow the road to the west, you will\n<br>\nreach the Wisdom Altar where the\nknowledge trial was conducted. If you\nwant to go to Wind Town Azlan, where\n<br>\nthere is a train station, you should\ntake the exit to the south of the\nvillage instead of this road."
+  },
+  "33925": {
+    "<attr><feel_happy_lv1><end_attr>「ようこそ　いらっしゃいました。\n　ここは　古き学問を　今に伝える\n　ツスクルの村にございます。\n<br>\n「ここから村を出て　道なりに　西に向かえば\n　太古からの知恵が眠る\n　知恵の社に　行けますぞ。": "<attr><feel_happy_lv1><end_attr>Welcome to Tsusukul Village. You are\nin Tsusukul Village, a place of\nancient learning. From here you can\n<br>\nleave the village and follow the road\nwest to the Wisdom Altar, where the\nwisdom of the ancients rests."
+  },
+  "33926": {
+    "<attr><feel_happy_lv1><end_attr>「お前さんの知識は　充分じゃ。\n　これからは　いろんなことを　その身で体験して\n　大きくなっていきなされ！": "<attr><feel_happy_lv1><end_attr>Your knowledge is enough. From now on,\nexperience all kinds of things with\nyour own body and grow up!"
+  },
+  "33927": {
+    "<attr><feel_think_lv1><end_attr>「ここ　エルフたちの学びの庭には\n　１０年も　若葉の試みに合格できなかった\n　キュウスケという　オッサンがいてな。\n<br>\n「今年の試験で　奇跡的に卒業したんじゃが \n　あちこちで　迷惑をかけておらんか\n　心配で　しょーがないわい。": "<attr><feel_think_lv1><end_attr>Here at Elf's Garden of Learning,\nthere is an Ossa named Kyusuke who has\nbeen unable to pass the Younger\n<br>\nStudents' exam for the past 10 years.\nHe miraculously graduated this year,\nbut I can't help but worry that he is\n<br>\ncausing trouble here and there."
+  },
+  "33928": {
+    "<attr><feel_happy_lv1><end_attr>「おめでとう　<pc>。 \n　これで　そなたは　学びの庭を卒業となる。\n<br>\n「これからは　各国で　英雄に贈られる\n　キーエンブレムという　カギの形をした\n　勲章を集めるのだ。\n<br>\n「そうして　他国で　名を上げれば\n　おのずと　そなたの進むべき道も\n　見えてくることだろう。\n<br>\n「さあ行け　若葉よ。\n　村の南から　外に出て　西に進んでいけば\n　光の河を渡る橋が　見えてくる。\n<br>\n「その橋を渡って　さらに西へ西へと進めば\n　鉄道の走る　風の町アズランに着く。\n　そなたの旅は　ここから始まるのだ。": "<attr><feel_happy_lv1><end_attr>Congratulations <pc>.You have\nnow graduated from the Garden of\nLearning. From now on, you will\n<br>\ncollect key-emblems, key-shaped medals\ngiven to heroes in various countries.\nIf you make a name for yourself in\n<br>\nother countries, you will be able to\nsee the path you should take. Go now,\nyoung leaves. If you go out from the\n<br>\nsouth of the village and go westward,\nyou will see a bridge across the River\nof Light. If you cross that bridge and\n<br>\ncontinue westward, you will reach Wind\nTown Azlan, where the railroad runs.\nYour journey begins here."
+  },
+  "33929": {
+    "<attr><feel_happy_lv1><end_attr>「キーエンブレムを集め　名を上げれば \n　おのずと　そなたの進むべき道も\n　見えてくることだろう。\n<br>\n「さあ行け　若葉よ。村の南から　外に出て\n　西に進んでいけば　光の河を渡る橋が\n　見えてくることだろう。\n<br>\n「その橋を渡って　さらに西へ西へと進めば\n　鉄道の走る　風の町アズランに着く。\n　そなたの旅は　ここから始まるのだ。": "<attr><feel_happy_lv1><end_attr>If you collect key emblems and make a\nname for yourself, you will be able to\nsee the path you should take. Go now,\n<br>\nyoung leaves. If you go out from the\nsouth of the village and go westward,\nyou will see a bridge across the River\n<br>\nof Light. If you cross that bridge and\ncontinue westward, you will reach Wind\nTown Azlan, where the railroad runs.\n<br>\nYour journey begins here."
+  },
+  "33930": {
+    "<attr><feel_angry_lv1><end_attr>「ここは　ツスクルの巫女　ヒメア様の館。\n　許可なき者を　通すわけにはゆかぬ。\n　早々に　立ち去るがよい。": "<attr><feel_angry_lv1><end_attr>This is the mansion of Himea, the\nTsusukul priestess. We will not allow\nunauthorized persons to pass. You\n<br>\nshould leave as soon as possible."
+  },
+  "33931": {
+    "<attr><feel_sad_lv1><end_attr>「あっ　<pc>さん……。\n<br>\n「フウラさんは　村を出ていってしまっただ。\n　若葉の試みに落ちたら　ふるさとに帰るって\n　お父さんと　約束してたらしいだよ……。\n<br>\n「<pc>さんに　あいさつするって言って\n　さっきまで　待ってたんだけども……\n　今一歩　遅かっただな。": "<attr><feel_sad_lv1><end_attr>Ah <pc>. Mr. Fuura has left\nthe village. He promised his father\nthat he would return to his hometown\n<br>\nafter he fell in the trial of the\nyoung leaves. He said he would say\nhello to <pc> and waited\n<br>\nuntil just now, but he was a step too\nlate."
+  },
+  "33932": {
+    "<attr><feel_sad_lv1><end_attr>「この部屋には　フウラさんって先輩がいただ。\n　フウラさんは　泣き虫で　甘ったれで\n　おまけに　落ちこぼれでなあ。\n<br>\n「でも　いつでも　にぎやかな先輩だっただなや。\n　フウラさんが　いないと　部屋が静かで\n　さみしくて　しょうがねえだよ。": "<attr><feel_sad_lv1><end_attr>There was a senior in this room named\nFuura. Mr. Fuura was a crybaby,\nspoiled brat, and a failure. But he\n<br>\nwas always a lively senior. Without\nMr. Fuura, the room would be quiet and\nI would miss him."
+  },
+  "33933": {
+    "<attr><feel_happy_lv3><end_attr>「ご卒業　おめでとうございます。\n　<pc>さんは　学びの庭の誇りです！\n<br>\n「ところで　ルーラストーンの使い方を\n　お聞きになりますか？<yesno><break>": "<attr><feel_happy_lv3><end_attr>Congratulations on your graduation.\n<pc> is a proud member of the\nGarden of Learning! By the way, would\n<br>\nyou like to hear how we use Zoomstone?<yesno><break>"
+  },
+  "33934": {
+    "<attr><feel_sad_lv1><end_attr>「そうですか。\n　ルーラストーンについて　聞きたいときは\n　いつでも　ボクに　声をかけてくださいね。": "<attr><feel_sad_lv1><end_attr>Okay. If you have any questions about\nZoomstone, please give me a call\nanytime."
+  },
+  "33935": {
+    "<attr><feel_happy_lv1><end_attr>「ルーラストーンは　使うと　記憶させた場所に\n　またたく間に飛んでいくことができる\n　とても　すばらしい　魔力の宿った石なんです。\n<br>\n「町や村など　教会のある場所は　一度　訪れると\n　自動で記憶されます。ツスクルの村も\n　すでに　記憶されているはずですよ。\n<br>\n「いくつでも　記憶できますので\n　記憶させれば　させるほど\n　飛んでいけるところが　増えるのです。\n<br>\n「また　フィールドやダンジョンの入口などにある\n　不思議な石碑も　ルーラストーンに\n　記憶させることが　できますよ。\n<br>\n「ルーラストーンは　『どうぐ』から使えます。\n　よく行く場所は　<emoji SpecialRight>で　お気に入りに\n　登録もできますので　試してみてくださいね。": "<attr><feel_happy_lv1><end_attr>The Zoomstone is a magical stone with\ngreat magic power that allows you to\nfly to the place you memorized in no\n<br>\ntime at all. Once you visit a town or\nvillage, it is automatically\nmemorized, and Tsusukul Village should\n<br>\nalready be there. You can memorize any\nnumber of places, so the more you\nmemorize, the more places you can fly\n<br>\nto. The mysterious stone monuments in\nthe fields and at the entrance of Dan\nJon can also be stored in the\n<br>\nZoomstone. The Zoomstone can be used\nfrom the \"item\" menu. Frequently\nvisited places are<emoji SpecialRight>You can also register it in your\nfavorites at"
+  },
+  "33936": {
+    "<attr><feel_happy_lv1><end_attr>「この先は　寄宿舎と食堂。\n　学びの徒のための　施設です。\n<br>\n「見学は　ご自由にどうぞ。\n　でも　くれぐれも　修練のさまたげには\n　ならぬよう　お願いしますね。": "<attr><feel_happy_lv1><end_attr>Beyond this are dormitory and dining\nroom. These are facilities for\nstudents. Please feel free to visit.\n<br>\nBut please don't let it hinder your\ntraining."
+  },
+  "33937": {
+    "<if_hum><attr><feel_happy_lv2><end_attr>「わあっ　<pc>さん！\n　来てくださって　うれしいです。\n<br>\n「……えっ　<pc>さんが\n　どこか　変わったんですか？\n<br>\n「………………。\n<br>\n「あっ　わかりました！\n　<pc>さん　髪を切りました？\n　私　そういうのに　あんまり気づかなくて。<else><attr><feel_happy_lv2><end_attr>「<pc>さん！\n　来てくださって　うれしいです。\n<br>\n「まあっ　キーエンブレムをお持ちなんですね！\n　すごいです　本当に。私　これからも\n　<pc>さんを　目標に　がんばります。<endif>": "<if_hum><attr><feel_happy_lv2><end_attr>Wow <pc>! I'm so glad you\ncame. What, did <pc> change\nsomewhere? Oh, I see! Oh, I see!\n<br>\n<pc> Did you cut your hair?\nI didn't really notice anything like\nthat.<else><attr><feel_happy_lv2><end_attr><pc>! I'm so glad you came. I\nsee you have a key emblem! That's\namazing, really. I will continue to do\n<br>\nmy best with <pc> as my goal.<endif>"
+  },
+  "33939": {
+    "<attr><feel_happy_lv1><end_attr>「世界中には　いろんなギルドがあるのじゃ。\n　<pc>も　いくつか\n　目にしたことがあるじゃろう？\n<br>\n「こう見えても　わしは　さいほうギルドに\n　入っておってな！　セクシーなドレス作りなら\n　誰にも負けん　自信があるわい。": "<attr><feel_happy_lv1><end_attr>There are many guilds in the world.\nI'm sure you've seen some of them,\nhaven't you <pc>? I'm a\n<br>\nmember of the Sewing Guild! I'm\nconfident that I can make sexy dresses\nas well as anyone else."
+  },
+  "33940": {
+    "<attr><feel_happy_lv2><end_attr>「ここは　エルフたちの\n　古き学問を伝える　ツスクルの村。\n<br>\n「ひさしぶりですね　<pc>さん。 \n　えっ？　どこか　変わって見えないかですって？\n<br>\n「うふっ　そうですね。\n　なんだか　たくましくなった気がします。\n　旅をしていると　やっぱり変わりますよね。": "<attr><feel_happy_lv2><end_attr>This is Tsusukul Village, where Elf\nand his friends tell us of their\nancient learning. It's been a while\n<br>\n<pc>.What? Don't I look\ndifferent? Well, yes, it has. I feel\nlike I've become sturdier. Traveling\n<br>\nchanges you, doesn't it?"
+  },
+  "41980": {
+    "<attr><feel_happy_lv2><end_attr>「ここは　エルフたちの\n　古き学問を伝える　ツスクルの村。\n<br>\n「ひさしぶりですね　<pc>さん。 \n　えっ？　どこか　変わって見えないかですって？\n<br>\n「うふふっ　そうですね。\n　ちょっぴり　背が　伸びたんじゃないかしら。\n　顔も　なんだか　オトナびてきましたね。": "<attr><feel_happy_lv2><end_attr>This is Tsusukul Village, where Elf\nand his friends tell us of their\nancient learning. It's been a while\n<br>\n<pc>.What? Don't I look\ndifferent? Hmmm... Yes, you have. I\nthink you've grown a little taller.\n<br>\nYour face looks a bit more mature."
+  },
+  "33941": {
+    "<attr><feel_happy_lv1><end_attr>「この道を抜ければ　村の外に出られます。\n　東へ向かえば　神聖なる土地　久遠の森。\n　西へ行けば　キリカ草原へ行き着くでしょう。\n<br>\n「キリカ草原より　さらに先のアズラン地方には\n　この村から　もっとも近い\n　風の町アズランが　ありますわ。": "<attr><feel_happy_lv1><end_attr>This road will take you out of the\nvillage. If you head east, you will\nreach the sacred Forest of Eternity.\n<br>\nIf you head west, you will reach\nKirika Steppe. Further beyond Kirika\nSteppe, in Azlan Region, there is Wind\n<br>\nTown Azlan, which is the closest town\nto this village."
+  },
+  "33942": {
+    "<attr><feel_happy_lv2><end_attr>「あの世界をおおった光が　なんなのか。\n　オレは　来年こそ　この庭を出て\n　自分のチカラで　確かめてみせる！\n<br>\n「きっと　この世界に　何かが起きてるんだ。\n　いつまでも　こんな所で\n　じっとなんか　してられない！": "<attr><feel_happy_lv2><end_attr>What was that light that covered the\nworld? Next year, I will get out of\nthis garden and find out for myself!\n<br>\nThere must be something going on in\nthis world. I can't just sit here like\nthis forever!"
+  },
+  "33943": {
+    "<attr><feel_happy_lv1><end_attr>「よく訪ねてきてくれた　<pc>！ \n　見ちがえるように　立派に　なったな！<yesno><break>": "<attr><feel_happy_lv1><end_attr>Thanks for visiting me\n<pc>!You're looking better\nthan ever!<yesno><break>"
+  },
+  "33944": {
+    "<attr><feel_think_lv3><end_attr>「……なに？　本当に　見た目も変わって\n　今は　人間になっているだと！？\n<br>\n「う～む……　<pc>は\n　前から　その姿だろう？\n<br>\n「ああ　そうか！\n　今のは　ギャグだったんだな。\n　すまんな　理解してやれなくて……。": "<attr><feel_think_lv3><end_attr>What? You've really changed your look\nand now you're human? Hmmm...\n<pc> has always looked that\n<br>\nway, hasn't he? Oh, I see! That was a\ngag. I'm sorry I didn't understand."
+  },
+  "33945": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>は　つつましいな。\n　さすがは　キーエンブレムを持つほどの人物だ。\n　中身も　立派に　成長してるのだな！": "<attr><feel_happy_lv1><end_attr><pc> is a very good person.\nHe is indeed a person who has a key\nemblem. He has grown up to be a fine\n<br>\nperson inside as well!"
+  },
+  "33946": {
+    "<attr><feel_happy_lv2><end_attr>「よく戻ってきてくれた　<pc>。\n　あの時は　ゆっくり　卒業を祝ってやれなくて\n　すまなかったな。\n<br>\n「だが　そのキーエンブレムを見ればわかる。\n　お前の旅は　順調なのだな。\n<br>\n「この先も　苦労があるかもしれんが\n　お前になら　ここで学んだことを活かし\n　最後まで　やりとげられると　信じているぞ！": "<attr><feel_happy_lv2><end_attr>Welcome back <pc>. I'm sorry\nI wasn't there to celebrate your\ngraduation with you. But I can tell by\n<br>\nthat key emblem. Your journey is going\nwell. There may be hardships ahead,\nbut I have faith that you will be able\n<br>\nto take what you have learned here and\nmake it all the way to the end!"
+  },
+  "33947": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>さん　ひさしぶり！\n　最近　とても　勉強に集中できるの。\n　来年こそは　合格できる気がするわ！": "<attr><feel_happy_lv1><end_attr><pc> Long time no see! I've\nbeen able to concentrate so much on my\nstudies lately. I think I can pass the\n<br>\nexam next year!"
+  },
+  "33948": {
+    "<attr><feel_happy_lv1><end_attr>「おお　<pc>よ。よく帰ってきたな。\n　旅はどうだ？　多くの出会いが　あっただろう。\n　礼儀を忘れることなく　接しているか？\n<br>\n「苦しんでいる者がいたら　助けてあげなさい。\n　お前の　いちばん　すばらしいところは\n　知力でも　武力でもない。その優しさなのだ。\n<br>\n「そのチカラは　始めこそ弱いチカラだが \n　いずれは　人と　お前を結びつけ\n　何にも負けぬ　強いチカラとなることだろう。": "<attr><feel_happy_lv1><end_attr>Oh <pc>. Glad to see you're\nback. How was your trip? You must have\nmet a lot of people. Have you been\n<br>\ncourteous to them? If someone is\nsuffering, help him. The most\nwonderful thing about you is not your\n<br>\nintelligence or your military prowess.\nIt is your kindness. It may be weak in\nthe beginning, but it will eventually\n<br>\nbecome a powerful force that will\nunite you with others and will be\nunmatched by anything."
+  },
+  "33950": {
+    "<attr><feel_happy_lv3><end_attr>「わあっ　<pc>さんだ！\n　おかえりなさい！\n　ねえねえ　旅の話を聞かせてよ！": "<attr><feel_happy_lv3><end_attr>Wow <pc>! Welcome back! Hey,\nhey, tell me about your trip!"
+  },
+  "33951": {
+    "<attr><feel_think_lv1><end_attr>「アサナギさんは　卒業してから\n　一度も　ここには来ていないよ。\n　元気で　やっているのかなあ。": "<attr><feel_think_lv1><end_attr>Asanagi hasn't come here even once\nsince she graduated. I wonder if she\nis doing well."
+  },
+  "33952": {
+    "<attr><feel_happy_lv2><end_attr>「やあやあ　<pc>さん！\n　おひさしぶりですな。\n　皆　あなたの顔を見たら　よろこぶでしょう。": "<attr><feel_happy_lv2><end_attr>Hey there <pc>! It's been a\nwhile, hasn't it? Everyone would be\nJOY to see your face."
+  },
+  "33953": {
+    "<attr><feel_happy_lv1><end_attr>「大陸間鉄道パスを使って\n　いろんな大陸へ　渡ってみたかい？\n<br>\n「お前さんの知識は　充分じゃ。\n　これからは　いろんなことを　その身で体験して\n　大きくなっていきなされ！": "<attr><feel_happy_lv1><end_attr>Have you used your Rail Pass to travel\nto different continents? You know\nenough. From now on, experience all\n<br>\nkinds of things with your own body and\ngrow up!"
+  },
+  "33954": {
+    "<attr><feel_happy_lv1><end_attr>「ふむ　ヒメア様に　ご用かな？\n　すまないが　学びの庭の卒業生であっても\n　おいそれと　館に　入れることはできんのだ。\n<br>\n「だが　ヒメア様から聞いているぞ。\n　いつでも　そなたの旅を見守っている……とな。": "<attr><feel_happy_lv1><end_attr>I see you are here to see Master\nHimea. I'm sorry, but even graduates\nof the Garden of Learning are not\n<br>\nallowed to enter the mansion without\npermission. But Himea has told me that\nshe is always watching over you on\n<br>\nyour journey. She is always watching\nover you on your journey."
+  },
+  "33955": {
+    "<attr><feel_angry_lv1><end_attr>「若葉の試みに落ちたら　ふるさとに帰るって\n　お父さんと　約束してたなんて。\n　フウラさんも　色々苦労してるだなや。\n<br>\n「あたし　フウラさんの分まで\n　一生懸命　勉強がんばるだ！": "<attr><feel_angry_lv1><end_attr>I can't believe that you promised your\nfather that you would return to your\nhometown when you fell into the trial\n<br>\nof young leaves. You must have gone\nthrough a lot of hardships, Fuura-san.\nI'll study hard to make up for you,\n<br>\nFuura-san!"
+  },
+  "33956": {
+    "<attr><feel_sad_lv1><end_attr>「あっ　<pc>さん！\n　わざわざ　ここを　訪ねてくるなんて。\n　あっ　フウラさんも　いっしょだか？<yesno><break>": "<attr><feel_sad_lv1><end_attr>Ah <pc>! I can't believe you\ntook the trouble to visit here. Oh, is\nMr. Fuura with you?<yesno><break>"
+  },
+  "33957": {
+    "<attr><feel_happy_lv3><end_attr>「えっ　フウラさんが\n　風の町アズランの　風乗りに！？\n　すごいや。フウラさんも　がんばっただなあ！": "<attr><feel_happy_lv3><end_attr>What? Fuura-san became a wind rider at\nWind Town Azlan? That's amazing,\nFuura-san, you did your best!"
+  },
+  "33958": {
+    "<attr><feel_happy_lv1><end_attr>「それなら　いいだ。\n　あたし　フウラさんの分まで　勉強がんばるだ！": "<attr><feel_happy_lv1><end_attr>If that's the case, that's fine. I'll\nstudy hard to make up for Mr. Fuura!"
+  },
+  "33959": {
+    "<attr><feel_happy_lv2><end_attr>「こんにちは　<pc>さん！\n　ルーラストーンの使い方を\n　お聞きになりますか？<yesno><break>": "<attr><feel_happy_lv2><end_attr>Hello <pc>! Would you like to\nask how to use Zoomstone?<yesno><break>"
+  },
+  "47787": {
+    "<attr><feel_sad_lv1><end_attr>「そうですか。\n　ルーラストーンについて　聞きたいときは\n　いつでも　ボクに　声をかけてくださいね。": "<attr><feel_sad_lv1><end_attr>Okay. If you have any questions about\nZoomstone, please give me a call\nanytime."
+  },
+  "47788": {
+    "<attr><feel_happy_lv1><end_attr>「ルーラストーンは　使うと　記憶させた場所に\n　またたく間に飛んでいくことができる\n　とても　すばらしい　魔力の宿った石なんです。\n<br>\n「町や村など　教会のある場所は　一度　訪れると\n　自動で記憶されます。ツスクルの村も\n　すでに　記憶されているはずですよ。\n<br>\n「いくつでも　記憶できますので\n　記憶させれば　させるほど\n　飛んでいけるところが　増えるのです。\n<br>\n「また　フィールドやダンジョンの入口などにある\n　不思議な石碑も　ルーラストーンに\n　記憶させることが　できますよ。\n<br>\n「ルーラストーンは　『どうぐ』から使えます。\n　よく行く場所は　<emoji SpecialRight>で　お気に入りに\n　登録もできますので　試してみてくださいね。": "<attr><feel_happy_lv1><end_attr>The Zoomstone is a magical stone with\ngreat magic power that allows you to\nfly to the place you memorized in no\n<br>\ntime at all. Once you visit a town or\nvillage, it is automatically\nmemorized, and Tsusukul Village should\n<br>\nalready be there. You can memorize any\nnumber of places, so the more you\nmemorize, the more places you can fly\n<br>\nto. The mysterious stone monuments in\nthe fields and at the entrance of Dan\nJon can also be stored in the\n<br>\nZoomstone. The Zoomstone can be used\nfrom the \"item\" menu. Frequently\nvisited places are<emoji SpecialRight>You can also register it in your\nfavorites at"
+  },
+  "33961": {
+    "<attr><feel_happy_lv1><end_attr>「<pc>だな。\n　巫女ヒメア様が　お待ちだぞ。\n　さあ　中に入りたまえ。": "<attr><feel_happy_lv1><end_attr><pc>. Maiden Himea is waiting\nfor you. Come, come inside."
+  },
+  "33962": {
+    "<attr><feel_happy_lv1><end_attr>「巫女ヒメア様の　お部屋への扉は\n　しかるべき時に　開かれるだろう。\n　これからも　がんばるのだぞ！": "<attr><feel_happy_lv1><end_attr>The door to Maiden Himea's room will\nbe opened in due time. Keep up the\ngood work!"
+  },
+  "48070": {
+    "<attr><feel_happy_lv1><end_attr>「はいはい。私は　現役のころ\n　美人教師と呼ばれた　レタラ先生ですよ。\n　人にものを教えるのが　大好きなの。\n<br>\n「<emoji RightTrigger>ボタンを押すと　冒険を進める中で\n　よく使う機能が　ひとまとめになった\n　メニューが　出てきますよ。\n<br>\n「冒険を進めると　選べる機能が増えていくの。\n　たまに開いて　何があるか見ておくと\n　きっと　冒険を便利に　進められますよ。": "<attr><feel_happy_lv1><end_attr>Yes, yes, yes. I am Ms. Retara, who\nwas called a beautiful teacher when\nshe was working. I love to teach\n<br>\npeople.\n<emoji RightTrigger>Pressing the button brings up a menu\nthat lists all the functions you will\nuse in your adventures. The more\n<br>\nadventures you go on, the more\nfunctions you will be able to choose\nfrom. If you open the menu every once\n<br>\nin a while and look at what is\navailable, you will surely be able to\nproceed with your adventures in a more\n<br>\nconvenient manner."
+  },
+  "70274": {
+    "<attr><feel_normal_lv1><end_attr>「オイラ　写真を撮るのが　趣味でね。\n　いい風景を見ると　ついつい\n　シャッターを切っちまうんだ。": "<attr><feel_normal_lv1><end_attr>I like to take a picture. When I see a\nnice scenery, I always take the\nshutter."
+  },
+  "201155": {
+    "<turn_pc>「は～　かったるう～。\n　なんだって　このイタ映え女王のアタシが\n　ハタケを　たがやさなくっちゃならないのよっ！": "<turn_pc>Ha~ so frustrating~! Why do I, the\nqueen of bad looks, have to brush\naside the hatake mushrooms?"
+  },
+  "201156": {
+    "鬼気せまる様子で　畑を　たがやしている。\n今は　話しかけないほうが　よさそうだ。": "He is busy with Hatake with a devilish\nlook on his face. It's probably best\nnot to talk to him right now."
+  },
+  "201157": {
+    "「裏手の畑の　ハデなお嬢さん……\n　連日　すこしも休まずに　働いてるようです。\n<br>\n「熱心なのは　よいことですが……\n　身体を壊してしまわないか　心配ですな。": "The fancy young lady in the field\nbehind us seems to be working day\nafter day without a moment's rest. Her\n<br>\nenthusiasm is good, but I'm worried\nthat she might break her body."
+  },
+  "201158": {
+    "「……アンタも　あそクラの一味？\n　今　ハタケの元気がなくて　まじ大変なの。\n　仕事のジャマ　しないでくれる？　シッシッ！": "Are you part of the Asokura group? I'm\nhaving a hard time with Hatake's\nhealth. Can you please not interfere\n<br>\nwith my work? Shoo-shoo!"
+  },
+  "201159": {
+    "畑の問題を解決しないと　話にならなそうだ。\nツスクル平野の　知恵の社へ\n肥料について　調べにいこう。": "I'm going to go to the Wisdom Altar in\nTsusukul Plains to find out about\nfertilizers."
+  },
+  "201160": {
+    "「ここから村を出て　道なりに　西に向かえば\n　太古からの知恵が眠る\n　知恵の社に　行けますぞ。\n<br>\n「それにしても　裏手の畑の　ハデなお嬢さん\n　連日　すこしも休まずに　働いてるようで……\n　身体を壊してしまわないか　心配ですな。": "If you leave the village from here and\nhead west along the road, you will\nreach the Wisdom Altar, where the\n<br>\nwisdom of the ancients rests. By the\nway, the pretty lady in the field at\nthe back of the house seems to be\n<br>\nworking day after day without a\nmoment's rest, and I'm worried that\nshe might get sick."
+  },
+  "201161": {
+    "「……シツコいわねッ！　ハタケの元気がなくて\n　まじ大変なの！　アンタみたいな\n　おジャマ虫は　お断り！　シッシッ！": "That's tough! I'm having a hard time\nbecause the hatake mushrooms aren't\nhealthy! I don't want a nuisance like\n<br>\nyou! Shhhh..!"
+  },
+  "201162": {
+    "畑の問題を解決しないと　話にならなそうだ。\n<%sEV_QUE_NAME0>が落とすという\nエナジーパウダーを　取りにいこう。": "I guess we'll have to solve the\nproblem in the field before we can\ntalk about it. Let's go get the Energy\n<br>\nPowder that <%sEV_QUE_NAME0> drops."
+  },
+  "201163": {
+    "「……アンタも　あそクラの一味でしょ！？\n　今　ハタケの元気がなくて　まじムリなの！\n　仕事のジャマ　しないでくれる？　シッシッ！": "You're one of them, aren't you? I\ncan't do this right now! Can you\nplease not interfere with my work?\n<br>\nShhhh!"
+  },
+  "201164": {
+    "エナジーパウダーを\nミヤビに　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to give Energy Powder\nto Miyabi?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "201165": {
+    "<pc>は　エナジーパウダーを\nミヤビに　渡した！": "<pc> handed Energy Powder to\nMiyabi!"
+  },
+  "201166": {
+    "「……あそクラの　<pc>だっけ。\n　アンタがくれた　肥料のおかげで\n　ハタケのバイブス　ぐんぐんアガったの！\n<br>\n「それと　安眠香で　夜もグッスリ眠れそう！\n　ルッチーたちも　意外と　いいトコあんじゃん？\n　まじ感謝してる……　チョーありがと！": "I think it was <pc> from\nAsokura. Thanks to the fertilizer you\ngave me, my hatake's vibes are moving\n<br>\nup through the ranks! And the sleeping\nincense is helping me sleep better!\nLucchie and the others have some good\n<br>\nqualities too, don't they? I really\nappreciate it. Thank you, Cho!"
+  },
+  "201167": {
+    "「……あそクラの　<pc>だっけ。\n　アンタがくれた　肥料のおかげで\n　ハタケのバイブス　ぐんぐんアガったの！\n<br>\n「それと　安眠香で　夜もグッスリ眠れたよ！\n　ルッチーたちも　意外と　いいトコあんじゃん？\n　まじ感謝してる……　チョーありがと！": "I think it was <pc> from\nAsokura. Thanks to the fertilizer you\ngave me, Hatake's vibes are moving up\n<br>\nthrough the ranks! And the sleeping\nincense helped me sleep through the\nnight! Lucchie and the others have\n<br>\nsome good qualities, don't they? I\nreally appreciate it. Thank you, Cho!"
+  },
+  "201341": {
+    "「あっ　<pc>だっけ！！\n　デスワーク　アンタが　倒したらしいじゃん！\n　まじスゴくない！？　チョーウケるんだけど！\n<br>\n「え？　アタシ？　とーぜん　遊び人に戻ったし！\n　だって　イタ映えの女王だし？\n　フォロワーが　アタシを　待ってるってゆーか♪\n<br>\n「でも　このとおり　農家も続けることにしたの！\n　なんか働いてたら　楽しくなったってゆーか？\n　農家やりながらでも　遊び人できるし！\n<br>\n「てゆーことで　アタシ　農家系遊び人として\n　売り出してくことにする！　イカしてるっしょ！\n　よかったら　おーえん　ヨロシクゥ♪": "Oh, <pc>, right! I heard that\nyou, Death Work, beat him! Seriously,\nthat's amazing Kunai! That's so funny!\n<br>\nWhat? Me? I'm back to gadabout!\nBecause I'm the queen of bad pictures,\nright? I've got followers waiting for\n<br>\nme... but I've decided to continue\nworking as a farmer! I'm enjoying\nworking here, you know? I can gadabout\n<br>\nwhile farming! So I'm going to market\nmyself as a farmer's gadabout! I think\nit's cool! I hope you like it."
+  }
+}

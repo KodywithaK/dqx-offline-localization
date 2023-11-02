@@ -1,0 +1,329 @@
+{
+  "143917": {
+    "<attr><feel_normal_one><end_attr>「ここからは　いくつかの場所に\n　渡し舟を出せるぜ。\n　どこに　乗っていくんだい？\n<select>\n南の船着場\n南の出入口\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_normal_one><end_attr>From here we can take the ferry to a\ncouple of places. Where are you going\nto take the boat?\n<select>\nSouth wharf\nSouth entrance/exit\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "144325": {
+    "<attr><feel_normal_one><end_attr>「ここからは　いくつかの場所に\n　渡し舟を出せるぜ。\n　どこに　乗っていくんだい？\n<select>\n南の船着場\n南の出入口\n西城門前\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": "<attr><feel_normal_one><end_attr>From here we can take the ferry to a\ncouple of places. Where are you going\nto take the boat?\n<select>\nSouth wharf\nSouth entrance/exit\nIn front of west castle gate\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+  },
+  "189498": {
+    "<attr><feel_happy_lv2><end_attr><pipipi_mid>「よっしゃ！　それじゃあ　出発するぜ。\n　足下に気をつけて　降りてくれよっ。": "<attr><feel_happy_lv2><end_attr><pipipi_mid>All right! Let's go then. Watch your\nstep."
+  },
+  "62318": {
+    "<pipipi_mid>「さあ　目的地に　着いたぜ。\n　それじゃ　おれっちは　ここで失礼するぜ。": "<pipipi_mid>Well, we're at our destination. Well\nthen, I'll leave you to it."
+  },
+  "34201": {
+    "<attr><feel_happy_lv2><end_attr>「妻が　この都を\n　気に入ったようだからな。\n　さっそく　屋敷を買いとったんだ！\n<br>\n「うははは！　金なら　いくらでもある！\n　妻が欲しがるものなら\n　なんだって　買っちゃるわい！": "<attr><feel_happy_lv2><end_attr>My wife seems to like this city. So I\nbought a house right away! Ha-ha-ha! I\nhave plenty of money! I'll buy\n<br>\nwhatever my wife wants!"
+  },
+  "34202": {
+    "<attr><feel_happy_lv1><end_attr>「風情のある　エルフの国で\n　あこがれスローライフを　満喫しようと思ったら\n　この都って　すごく　お家賃が高いの。\n<br>\n「それで　ずいぶん\n　手狭な部屋になっちゃったワケだけど。\n　かえって　動かずにすむから　ラクちんよ。": "<attr><feel_happy_lv1><end_attr>I wanted to enjoy the slow life I\nlonged for in the country of Elf, but\nthe rent in this city is very\n<br>\nexpensive. That's why we ended up with\na very cramped room. But it's so much\neasier to live here without having to\n<br>\nmove."
+  },
+  "34203": {
+    "<attr><feel_sad_lv1><end_attr>「ぬすっと続けて　２０年。\n　墓荒らしだろうが　なんだろうが　やってきた\n　ベテランの俺様から　教えておいてやる。\n<br>\n「捨てられた城は　本気で　おっかねえ。\n　あの辺りにゃ　俺たちには　想像もつかねえ\n　ヤバすぎる何かが　あるんだよ……。\n<br>\n「あんな所に　ひとりで行くなんて\n　まったく　ニコロイ王には　おそれいるよ。": "<attr><feel_sad_lv1><end_attr>I've been a slut for 20 years. I've\nbeen trolling tombs and whatnot for 20\nyears, so let me tell you from my\n<br>\nexperience as a Beteran. Abandoned\nCastle is really scary. There's\nsomething in that area that we can't\n<br>\neven imagine. I'm afraid of King\nNikoroi, going there alone."
+  },
+  "34204": {
+    "<attr><feel_angry_lv1><end_attr>「こらこら　君っ！\n　まさか　この北門の先に行くつもりかい？<yesno><break>": "<attr><feel_angry_lv1><end_attr>Hey, hey, hey, kid! You're not going\nbeyond the north gate, are you?<yesno><break>"
+  },
+  "34205": {
+    "<attr><feel_sad_lv1><end_attr>「ダメだよ　考え直しな。\n　都の北には　おっかない　捨てられた城や\n　魔瘴に満ちた　呪われた大地があるだけだ。\n<br>\n「いくら　ウデに覚えがあったとしても\n　あの森の亡霊だけは……　うう……。\n　思いだしただけで　背筋が凍っちまう。\n<br>\n「……とにかく　どんな用事があったって\n　おいそれと　立ち入る場所じゃあないんだよ。\n　わかったね？": "<attr><feel_sad_lv1><end_attr>No, no, no. Think again. North of the\ncity, there is only an Abandoned\nCastle and a Cursed Land filled with\n<br>\ndemon miasma. No matter how good I am\nat this, I can't help but feel a chill\ndown my spine just thinking about the\n<br>\nghosts in that forest. Just thinking\nabout it sends chills down my spine.\nAnyway, no matter what kind of\n<br>\nbusiness you have, it's not a place\nyou should venture into. Understood?"
+  },
+  "34206": {
+    "<attr><feel_happy_lv1><end_attr>「それならいいんだ。\n　最近　怖いもの見たさで\n　北に行く旅人が　多いもんだからさ。": "<attr><feel_happy_lv1><end_attr>That's all right. Lately there are a\nlot of travelers who go up north\nbecause they want to see something\n<br>\nscary."
+  },
+  "34207": {
+    "<attr><feel_sad_lv1><end_attr>「ボクの両親は　北西にある　呪われた大地という\n　魔瘴に侵された土地の　研究をしていました。\n　あの大地を浄化するのが　夢だったのです。\n<br>\n「万全の準備をして　呪われた大地に\n　行ったのですが　想像以上の魔瘴に襲われ\n　両親は　命を落としました。\n<br>\n「今も　あの地は　絶え間なく\n　魔瘴に　包まれているはず。命が大事なら\n　呪われた大地にだけは　近づかないことです。": "<attr><feel_sad_lv1><end_attr>My parents were studying the Cursed\nLand, a demon miasma-infested land in\nthe northwest. It was their dream to\n<br>\ncleanse the land. They went to Cursed\nLand with everything ready, but it was\nattacked by more demon miasma than\n<br>\nthey could ever have imagined, and\nthey lost their lives. Even now, that\nplace must be constantly enveloped in\n<br>\ndemon miasma. If you value your life,\nstay away from the Cursed Land."
+  },
+  "34208": {
+    "<attr><feel_think_lv2><end_attr>「あたしゃ　絵を売り歩いて　このトシまで\n　生きてきたんだがね。ニコロイ様の　お城にある\n　肖像画ほど　美しい絵は　見たことがないよ。\n<br>\n「しかし　ひとつ気になるのは　あの絵に描かれた\n　ニコロイ様の　姉上の　お姿さ。\n<br>\n「髪の毛も　肌も　雪のように真っ白……。\n　大昔　そういう子供は　白き者と呼ばれて\n　神の使いとして　扱われたそうだよ。": "<attr><feel_think_lv2><end_attr>I've been selling paintings all my\nlife, and I've never seen anything as\nbeautiful as the portrait in Nikoroi's\n<br>\ncastle. I have never seen a more\nbeautiful portrait than the one in\nNikoroi's castle, but one thing I\n<br>\ncannot help wondering about is the\nappearance of Nikoroi's sister in that\npainting. Her hair and skin are as\n<br>\nwhite as snow. I heard that in ancient\ntimes, such children were called\n\"white ones\" and were treated as\n<br>\nmessengers of the gods."
+  },
+  "34209": {
+    "<attr><feel_sad_lv1><end_attr>「王都カミハルムイが　この地に遷都されたのは\n　今より　５０年ほど前のこと。\n<br>\n「それなのに　捨てられた城は　まるで\n　千年もの月日を　越えてきたかのごとく\n　朽ち果てているそうです。\n<br>\n「きっと　あの城には　何か\n　よからぬものが　住まうのです。\n　決して　立ち入ってはなりませんわ。": "<attr><feel_sad_lv1><end_attr>Royal City Kamiharmui was relocated to\nthis place about 50 years ago. And\nyet, the Abandoned Castle looks as if\n<br>\nit has been rotting away for a\nthousand years. Something evil must be\nliving in that castle. You must never\n<br>\nenter it."
+  },
+  "62320": {
+    "<attr><feel_normal_one><end_attr>「なんでえ　乗らねえのかい？\n　乗りたくなったら　また来てくんなっ。": "<attr><feel_normal_one><end_attr>Why don't you get in? If you want to\nride, come back again."
+  },
+  "62322": {
+    "<pipipi_mid>「さあ　目的地に　着いたぜ。\n　それじゃ　おれっちは　ここで失礼するぜ。": "<pipipi_mid>Well, we're at our destination. Well\nthen, I'll leave you to it."
+  },
+  "34210": {
+    "<attr><feel_angry_lv2><end_attr>「この橋の先は　我らエルフの誇る\n　カミハルムイ城である！\n<br>\n「今は　貴様のような　旅の者を\n　通すわけにはいかぬのだ。\n　さあ　立ち去るがよい！": "<attr><feel_angry_lv2><end_attr>Beyond this bridge is Kamiharmui\nCastle, the pride of Elf! We cannot\nallow a traveler like you to pass now.\n<br>\nNow, leave!"
+  },
+  "34211": {
+    "<attr><feel_angry_lv1><end_attr>「少し前まで　貴様のような旅の者は\n　城への立ち入りを　断っていたのだ。\n　……城内で　少々　問題が起きてな。\n<br>\n「だが　ある程度　事態は収拾した。\n　貴様は……一人前の証を持っているようだな。\n　カミハルムイ城への　立ち入りを許可しよう！": "<attr><feel_angry_lv1><end_attr>Until recently, travelers like you\nwere not allowed to enter the castle.\nThere was a bit of trouble in the\n<br>\ncastle. But things are under control\nnow, to a point. You seem to have the\nProof of Adulthood. I will allow you\n<br>\nto enter Kamiharmui Castle!"
+  },
+  "34212": {
+    "<attr><feel_angry_lv1><end_attr>「そこの者　止まれ！\n　この橋を渡った先は\n　神聖なる　カミハルムイ城である。\n<br>\n「今は　貴様のような　旅の者を\n　通すわけにはいかぬのだ。\n　たとえ　一人前の証を持っていようとな。\n<br>\n「さあ　立ち去るがよい！\n　どうしても入りたくば　時間を置いてから\n　再び　訪れてみるのだな。": "<attr><feel_angry_lv1><end_attr>Stop right there! Across this bridge\nis the sacred Kamiharmui Castle. Now,\nwe cannot allow a traveler like you to\n<br>\npass. Even if you have Proof of\nAdulthood. Now, go away! If you must\nenter, wait a little longer and visit\n<br>\nagain."
+  },
+  "34213": {
+    "<attr><feel_happy_lv2><end_attr>「異国の別荘に　ステキな　お庭！\n　う～ん　アタシってば\n　みんなが　うらやむ　セ・レ・ブ<heart>": "<attr><feel_happy_lv2><end_attr>A beautiful garden in an exotic villa!\nI'm the kind of person everyone\nenvies."
+  },
+  "54659": {
+    "<attr><feel_happy_lv1><end_attr>「まあっ　お客さま！\n　こんな所に　入ってくるなんて\n　もしかして　店番を手伝ってくださるんですか？<yesno><break>": "<attr><feel_happy_lv1><end_attr>Oh, hello, there's a customer! I can't\nbelieve you came all this way. Are you\nhere to help me with the store?<yesno><break>"
+  },
+  "54664": {
+    "<attr><feel_happy_lv2><end_attr>「ウフフ　冗談ですよ。\n　お客さまって　お優しいんですね。": "<attr><feel_happy_lv2><end_attr>Just kidding. Customers are so kind,\naren't they?"
+  },
+  "54665": {
+    "<attr><feel_sad_lv2><end_attr>「まあっ　冗談ですのに\n　そんなに　一生懸命　否定されなくても……。\n　私　ちょっとキズつきました。クスン。": "<attr><feel_sad_lv2><end_attr>I was just kidding, but you don't have\nto deny it so hard. I'm a little hurt.\nKusun."
+  },
+  "34214": {
+    "<attr><feel_happy_one><end_attr>「なあ　知ってるか？\n　この川って　ずーっと遠くの\n　風の町アズランと　つながってるらしいぜ。\n<br>\n「なんでも　川を使って\n　木材を運ぶためなんだってさ。\n　エルフって　アッタマいーよなー。": "<attr><feel_happy_one><end_attr>Hey, you know what? This river is\nconnected to Wind Town Azlan, which is\nfar away. They use the river to\n<br>\ntransport lumber. Elf is so cool."
+  },
+  "34215": {
+    "<attr><feel_angry_lv1><end_attr>「あのね。ママも　パパも　あの北門の外には\n　ぜったい　出ちゃダメっていうの。\n　あたし　ちゃーんと言いつけ守ってるわ。\n<br>\n「でもね。あたし　ニコロイ王様が　こっそり\n　あの門から　外に出ていくの見ちゃったの。\n<br>\n「ニコロイ王様は　きっと　あの門の先を\n　自分だけの　遊び場にしてるのよ！": "<attr><feel_angry_lv1><end_attr>You know what? Mom and Dad both said\nthat we must never go outside that\nnorth gate. I'm following their advice\n<br>\nto the letter. But you know what? I\nsaw King Nikoroi sneaking out of that\ngate. King Nikoroi must have his own\n<br>\nprivate playground beyond that gate!"
+  },
+  "34216": {
+    "<attr><feel_angry_lv1><end_attr>「神聖なる　カミハルムイ城に\n　いなか者が　なんの用だ？\n　通行のジャマだろうが。行った　行った！": "<attr><feel_angry_lv1><end_attr>What do peasants want with the sacred\nKamiharmui Castle? What do peasants\nwant in sacred Kamiharmui Castle? He's\n<br>\ngone. He's gone!"
+  },
+  "34217": {
+    "<attr><feel_think_lv1><end_attr>「旅の者か。今　この王都では　すこしばかり\n　困った事態が発生していてな……。\n　コトル大臣が　人手を求めているのだ。\n<br>\n「そなた　なかなかの　ウデききとお見受けした。\n　ぜひ　コトル大臣に会ってはくれぬだろうか。": "<attr><feel_think_lv1><end_attr>Travelers. There is a bit of a problem\nin the Royal City right now. The\nMinister Cottle is in need of\n<br>\nmanpower. I see that you are quite\nskillful. I hope you will meet with\nMinister Cottle."
+  },
+  "34218": {
+    "<attr><feel_sad_lv2><end_attr>「まあ！　捨てられた城に　行きたいですって？\n　あの城は　都では禁忌の地とされています。\n　怖いもの見たさなら　およしなさいな！\n<br>\n「それに　捨てられた城に行くには\n　北門を抜けた先にある　夢幻の森の奥地を\n　目指さなくてはなりません。\n<br>\n「夢幻の森は　深い霧で\n　旅人たちを惑わすと　言われています。\n　つまり　城に　たどりつくのも困難なんですよ。": "<attr><feel_sad_lv2><end_attr>Oh, my God! You want to go to\nAbandoned Castle? That castle is\nforbidden in the capital. If you want\n<br>\nto see something scary, don't do it!\nBesides, to get to Abandoned Castle,\nyou have to go deep into the Dream\n<br>\nForest, just past the north gate. The\nDream Forest is said to have a deep\nfog that deceives travelers. This\n<br>\nmeans that even reaching the castle\nwill be difficult."
+  },
+  "34219": {
+    "「若き日の　ニコロイ様は\n　刀を抜けば　いかなる戦士であろうとも\n　屈服させてしまうほどの　強者であった。\n<br>\n「だが　近頃は　お年を召されたせいか \n　そのウデ前も　めっきり　見られなくなったな。": "In his younger days, Nikoroi-sama was\nso strong that he could bring any\nwarrior to his knees when he drew his\n<br>\nsword. But nowadays, perhaps because\nof his advanced age, we rarely see him\nin action."
+  },
+  "34220": {
+    "<attr><feel_sad_lv1><end_attr>「ううむ　そうか。コトル大臣より\n　ニコロイ王を追って　捨てられた城へ行くよう\n　依頼されたというのか……。\n<br>\n「その話は　あまり　口外してくれるなよ。\n　王が　捨てられた城に　出入りするなど\n　本来なら　あってはならぬことなのだ……。": "<attr><feel_sad_lv1><end_attr>Hmmm...I see, you have been asked by\nMister Cottle to go to Abandoned\nCastle in pursuit of King Nikoroi.\n<br>\nDon't talk about it too much. A king\ngoing in and out of Abandoned Castle\nis something that should not be\n<br>\nallowed."
+  },
+  "34221": {
+    "<attr><feel_think_lv1><end_attr>「いや～　まいったね。\n　王様が　捨てられた城に出入りしているっていう\n　あのウワサ……　ホントだったらしいよ！\n<br>\n「あの　温和なニコロイ王様が\n　危険を冒してまで　禁忌の地に行くなんて。\n　いったい　なんの用があるっていうんだ？": "<attr><feel_think_lv1><end_attr>Oh, no! It seems that the rumors about\nthe king's access to the Abandoned\nCastle were true! I can't believe that\n<br>\nthe mild-mannered King Nikoroi would\nrisk going to that forbidden place.\nWhat on earth could he have to do with\n<br>\nit?"
+  },
+  "34222": {
+    "<attr><feel_sad_lv2><end_attr>「ああ　大変です……。ニコロイ様が\n　捨てられた城で　お倒れになったそうなのです。\n　たった今　お城に運ばれていきましたわ。\n<br>\n「もしも　キュウスケ様が　お近くに\n　いらっしゃらなければ　ニコロイ様の身に\n　何が　起きていたことか……。\n<br>\n「あなたも　ニコロイ様が　ご心配なら\n　どうか　お城へ行ってくださいまし！": "<attr><feel_sad_lv2><end_attr>Oh my God, they say that Master\nNikoroi has collapsed at the Abandoned\nCastle. She has just been carried to\n<br>\nthe castle. I wonder what would have\nhappened to Nikoroi if Kyusuke had not\nbeen so close by. If you are worried\n<br>\nabout Nikoroi, please go to the\ncastle!"
+  },
+  "34223": {
+    "<attr><feel_normal_lv1><end_attr>「そなたが　<pc>だな。\n　キュウスケと共に　ニコロイ王を\n　お救いしたこと　お手柄であった。\n<br>\n「さあ　城に入るがいい。\n　ニコロイ王が　そなたのことを　お待ちかねだ。": "<attr><feel_normal_lv1><end_attr>You are <pc>. You and Kyusuke\ndid well to save King Nikoroi. Now\nenter the castle. King Nikoroi is\n<br>\nwaiting for you."
+  },
+  "34224": {
+    "<attr><feel_think_lv2><end_attr>「ねえ　北門の向こうに行ってきたんでしょ？ \n　いいなあ～。あたし知ってるのよ。\n　この門の先には　桜が　いっぱい咲いてるって。\n<br>\n「あたし　向こうで　遊びたいなあ。\n　どうして　北門の向こうには\n　行っちゃいけないのかな……？": "<attr><feel_think_lv2><end_attr>Hey, you went over the north gate,\ndidn't you?I love it! I know. I know\nthere are lots of cherry blossoms\n<br>\nbeyond this gate. I want to play\nthere. Why can't I go beyond the north\ngate?"
+  },
+  "34225": {
+    "<attr><feel_sad_lv2><end_attr>「話は　聞いたぞ。\n　ニコロイ王が　捨てられた城で\n　お倒れになったそうだな……。\n<br>\n「これだから　捨てられた城に行くなど\n　おやめするよう　申し上げたのに。\n　なぜ　聞く耳を持ってくださらぬのか……。": "<attr><feel_sad_lv2><end_attr>I heard a story. I heard that King\nNikoroi fell ill at Abandoned Castle.\nThis is why I told you not to go to\n<br>\nAbandoned Castle. Why won't you listen\nto me?"
+  },
+  "34226": {
+    "<attr><feel_think_lv2><end_attr>「若い頃　お城で女官をしてた　ばーちゃんが\n　言ってたんだ。ニコロイ王の姉上には\n　不思議なチカラが　あったんだって。\n<br>\n「その上　何を考えてるのか\n　わからないところがあって……　ばーちゃんは\n　その子のことが　怖かったんだってさ。": "<attr><feel_think_lv2><end_attr>My grandma, who worked as a lady's\nmaid at the castle when she was young,\ntold me that King Nikoroi's sister had\n<br>\na mysterious power. She was also\nafraid of her because she didn't know\nwhat she was thinking."
+  },
+  "34227": {
+    "<attr><feel_happy_lv1><end_attr>「ステキですね……　キュウスケ様って。\n<br>\n「あの　すずやかな　ひとみ。\n　恐れを知らぬ　勇敢な心。\n　まるっこいところも　たまらなくキュートだわ。": "<attr><feel_happy_lv1><end_attr>You're so beautiful, Kyusuke-sama.\nThat sultry pupil. The fearless and\nbrave heart. The roundness and the\n<br>\nclothes are irresistibly cute."
+  },
+  "34228": {
+    "<attr><feel_angry_lv2><end_attr>「なんと……　ニコロイ王の命令で\n　呪われた大地に行くだと！\n<br>\n「それも　暗黒大樹の葉を手に入れるためとは。\n　そのような　恐ろしい命令を　旅人にくだすなど\n　王は　いったい　何をお考えなのだ……。": "<attr><feel_angry_lv2><end_attr>What a surprise... King Nikoroi has\nordered us to go to the Cursed Land!\nAnd to obtain the Dark Tree Leaf, too!\n<br>\nWhat in the world was the king\nthinking, giving such a terrible order\nto a traveler?"
+  },
+  "34229": {
+    "<attr><feel_happy_lv3><end_attr>「あの　うるわしのキュウスケ様から\n　<pc>って旅人に会ったら\n　城に来るよう　伝えてほしいと　頼まれたの！\n<br>\n「でも　<pc>さんが　どの人かなんて\n　わかるワケないじゃない。きっと　これって\n　私に　話しかける口実が　欲しかったのよね！": "<attr><feel_happy_lv3><end_attr>Kyusuke the Uruwashi asked me to tell\nyou to come to his castle if you meet\na traveler named <pc>! But\n<br>\nhow would I know which one was\n<pc>? I'm sure he just\nwanted an excuse to talk to me!"
+  },
+  "34230": {
+    "<attr><feel_happy_lv1><end_attr>「なんと　暗黒大樹の葉を　持ち帰るとは。\n　キュウスケも　<pc>も\n　並々ならぬ　ウデ前と　度胸をお持ちなのだな。": "<attr><feel_happy_lv1><end_attr>What a surprise to bring back the Dark\nTree Leaf. Both Kyusuke and\n<pc> have extraordinary skill\n<br>\nand nerve."
+  },
+  "34231": {
+    "<attr><feel_happy_lv2><end_attr>「おおっ！　よくぞ　あの呪われた大地から\n　無事に　帰ってきてくれたな！\n<br>\n「さあ　急ぎ　玉座の間へ行くといい。\n　ニコロイ王様が　そなたを　お待ちだ。": "<attr><feel_happy_lv2><end_attr>Oh, wow! You made it back from the\nCursed Land in one piece! Now hurry to\nthe throne room. King Nikoroi awaits\n<br>\nyou."
+  },
+  "34232": {
+    "<attr><feel_happy_lv3><end_attr>「ねえねえ　あなた……って！！\n　きゃ～　うるわしのキュウスケ様！！\n　ご一緒だとは！！\n<br>\n「実物も　なんて　ハードボイルドなの！\n　ああっ！！　この　すずやかな　ひとみに\n　吸い込まれてしまいたい……。": "<attr><feel_happy_lv3><end_attr>Hey, hey, you are! Kya~ Uruwashi no\nKyusuke-sama! I didn't know we were\ntogether! How hard-boiled you are in\n<br>\nreal life too! Aaah! I want to be\nsucked into this tinny pupil."
+  },
+  "34233": {
+    "<attr><feel_think_lv2><end_attr>「ニコロイ王は　ここを通って\n　また　捨てられた城へ　行ってしまわれたよ。\n　お止めしたのだが　聞いてはいただけなかった。\n<br>\n「なんの　ご用事があるのかは　わからぬが\n　あの強情さには　深い事情があるのだろう。\n　私は　ニコロイ王を　信じることにしたよ。": "<attr><feel_think_lv2><end_attr>King Nikoroi passed through here and\nwent back to Abandoned Castle. I tried\nto stop him, but he would not listen\n<br>\nto me. I don't know what his business\nis, but his stubbornness must have\ndeep reasons. I have decided to trust\n<br>\nKing Nikoroi."
+  },
+  "34234": {
+    "<attr><feel_think_lv2><end_attr>「なにっ！！　捨てられた城で\n　アグシュナ王妃が　生きていただと？\n<br>\n「……なんてな。そなた　捨てられた城の亡霊を\n　見たのだろうよ。知っているだろう？\n　あの辺りには　死者が　うろつくものなのさ。": "<attr><feel_think_lv2><end_attr>What! Queen Agushuna is alive in\nAbandoned Castle? What a surprise. You\nmust have seen the ghost of Abandoned\n<br>\nCastle. You know what I mean. You\nknow, the dead do hang around there."
+  },
+  "34235": {
+    "<attr><feel_happy_lv1><end_attr>「なあ　あんた　知ってるかい？\n　捨てられた城の聖地が　５０年ぶりに\n　チカラを取り戻したらしいんだ！\n<br>\n「ニコロイ王様が　捨てられた城に\n　出入りされてるって聞いた時は\n　何事かと思って　ビビっちゃったけど……\n<br>\n「きっと　ニコロイ王様は　聖地の復活のために\n　自ら　足を運んでいらっしゃったんだろうな。": "<attr><feel_happy_lv1><end_attr>Hey, you know what? I heard that the\nsacred site of Abandoned Castle has\nregained its power for the first time\n<br>\nin 50 years! When I heard that King\nNikoroi was in and out of Abandoned\nCastle, I freaked out thinking what's\n<br>\ngoing on, but I'm sure that King\nNikoroi himself was there to restore\nthe sacred site."
+  },
+  "34236": {
+    "<attr><feel_think_lv3><end_attr>「あのう……　もしや\n　あなたが　<pc>さんでは？<yesno><break>": "<attr><feel_think_lv3><end_attr>Sir, if I may ask, are you\n<pc>?<yesno><break>"
+  },
+  "34237": {
+    "<attr><feel_happy_lv3><end_attr>「まあ　やっぱり！！\n　きっと　そうなんじゃないかと思いましたわ！\n<br>\n「ニコロイ様が　あなたと　キュウスケ様を\n　英雄とたたえて　ほうびを　くださるのだとか！\n　もう　都中が　大騒ぎですわ！": "<attr><feel_happy_lv3><end_attr>Well, I knew it! I knew it! I knew it!\nI heard Nikoroi-sama is giving you and\nKyusuke a heroic reward! The whole\n<br>\ncity is in an uproar!"
+  },
+  "34238": {
+    "<attr><feel_happy_lv2><end_attr>「なーんだ！　やっぱり　そうですよね。\n　だって　私のイメージと　ちがいますもの。": "<attr><feel_happy_lv2><end_attr>Nah! I knew it. Because it is\ndifferent from my image."
+  },
+  "34239": {
+    "<attr><feel_happy_lv2><end_attr>「これは　これは　<pc>どの！\n　ニコロイ王が　お待ちでございます。\n　急ぎ　玉座の間まで行ってくださいませ。": "<attr><feel_happy_lv2><end_attr>Well, well, well <pc>! King\nNikoroi is waiting for you. Please\nhurry up and go to the throne room."
+  },
+  "34240": {
+    "<attr><feel_angry_lv2><end_attr>「聖地のちょーさ？　とか言って\n　お城の学者さんたちが　わんさか北に行ったの。\n<br>\n「ズルいんだー　オトナって。\n　子供には　さんざん\n　北門の先には行っちゃダメって　言ってたのに！": "<attr><feel_angry_lv2><end_attr>The Holy Land? A lot of the castle\nscholars are heading up north. That's\nso unfair, man. I told my kids never\n<br>\nto go beyond the north gate!"
+  },
+  "34241": {
+    "<attr><feel_happy_lv2><end_attr>「よくぞ　お戻りになられた！\n　ニコロイ王が　そなたを　お待ちだぞ。": "<attr><feel_happy_lv2><end_attr>Welcome back! King Nikoroi awaits you."
+  },
+  "34242": {
+    "<attr><feel_happy_lv1><end_attr>「城にお仕えしてた　ばーちゃんは\n　ニコロイ王の　姉姫が　あまりにキレイだから\n　最初は　なんだか　怖かったんだって。\n<br>\n「でも　見ているうちに　優しく家族想いな \n　ふつうの　子供なんだって　わかって\n　大好きになったって言ってたよ。": "<attr><feel_happy_lv1><end_attr>My grandma, who worked at the castle,\nsaid that King Nikoroi's sister was so\nbeautiful that she was kind of scared\n<br>\nat first. But as she watched her, she\nrealized that she was a kind, family-\noriented, ordinary kid, and she fell\n<br>\nin love with her."
+  },
+  "34243": {
+    "「ボクの両親は　研究者でした。 \n　研究のため　あの呪われた大地へ足を運び\n　魔瘴に襲われて　命を落としたのです。\n<br>\n「両親の夢は　呪われた大地の浄化でした。\n　よみがえった聖地のチカラが　大陸中に広がれば\n　その夢も　かなうのではないでしょうか。": "My parents were researchers.They\ntraveled to the Cursed Land for\nresearch and were attacked and killed\n<br>\nby demon miasma. My parents' dream was\nto purify the Cursed Land. If the\npower of the revived sanctuary spreads\n<br>\nthroughout the continent, their dream\nwill be fulfilled."
+  },
+  "34244": {
+    "<attr><feel_happy_lv2><end_attr>「ああん……　キュウスケ様に\n　心に決めた　女性がいただなんて……。\n　失恋しちゃいましたわ。\n<br>\n「でも　いいの。\n　そんな　つれないところも　ス・テ・キ<heart>": "<attr><feel_happy_lv2><end_attr>I can't believe Kyusuke-sama had a\nwoman in mind. I've lost my heart. But\nthat's okay. I'm not that boring."
+  },
+  "34245": {
+    "<attr><feel_happy_lv1><end_attr>「おおっ！　これは　<pc>どの。\n　どうぞ　お通りくださいませ。": "<attr><feel_happy_lv1><end_attr>Oh! This is <pc>. Please,\ncome through."
+  },
+  "34246": {
+    "<attr><feel_happy_lv2><end_attr>「よくぞ　いらっしゃいました\n　カミハルムイの英雄　<pc>どの！": "<attr><feel_happy_lv2><end_attr>Well done for coming, hero of\nKamiharmui <pc>!"
+  },
+  "79544": {
+    "<attr><feel_normal_lv1><end_attr>「おや　見学の人かな。\n　木工は　気に入ってくれた？\n<br>\n「普段から　杖とか　棍とか　木の武器を\n　使ってる人じゃないと　いまひとつ\n　魅力が　伝わらないかもしれないけどね。": "<attr><feel_normal_lv1><end_attr>Oh, you're a visitor. Did you like my\nwoodworking? I'm not sure if you'd\nfind it all that appealing if you're\n<br>\nnot used to wands, rods, and other\nwooden weapons."
+  },
+  "79545": {
+    "<attr><feel_think_lv1><end_attr>「うん……なんだい？\n　僕の顔に　何か　ついてるかい？": "<attr><feel_think_lv1><end_attr>Yeah, what is it? Do you see something\non my face?"
+  },
+  "79546": {
+    "<attr><feel_normal_lv1><end_attr>「そうか　気のせいだったみたいだね。\n　もし　何か　困ったことがあったら\n　いつでも　相談においで。": "<attr><feel_normal_lv1><end_attr>I see, it was all in my imagination.\nIf you have any problems, come to me\nanytime."
+  },
+  "79547": {
+    "<attr><feel_normal_lv1><end_attr>「ふぅむ。木工のやり方を知りたいのか。\n　しかし　いきなり　そう言われても\n　そうそう　パッと教えられるものじゃないよ。\n<br>\n「……え？\n　レンダーシアの子供が　僕の評判を聞いて\n　木工を　習いたがってるだって？\n<br>\n「……ふぅむ。そういうことなら\n　ひと肌　脱いであげるしかないね。\n　この本を　その子に　渡してあげておくれ。": "<attr><feel_normal_lv1><end_attr>Hmmm. You want to know how to do\nwoodworking? But it's not something I\ncan teach you so suddenly and easily.\n<br>\nHuh? A kid from Lendersia heard about\nme and wants to learn woodworking?\nHmmm. Well, in that case, I'll just\n<br>\nhave to give him the skinny. Give him\nthis book."
+  },
+  "79548": {
+    "<attr><feel_happy_lv1><end_attr>「それは　僕が　子供の頃から使ってた教本さ。 \n　もう　今さら読むこともないから\n　その子に　プレゼントしてあげておくれよ。\n<br>\n「……しかし　そんな　海の向こうの大陸まで \n　名前が　広まっているなんて\n　僕の評判も　捨てたものじゃないね。ふふっ。": "<attr><feel_happy_lv1><end_attr>It's a book I've used since I was a\nchild.I'll never read it again, so\nplease give it to the boy as a gift.\n<br>\nBut to have my name spread to a\ncontinent on the other side of the\nsea, my reputation is not in jeopardy.\n<br>\nHmm."
+  },
+  "79549": {
+    "フェクトの言っていた　\nウデのいい職人　ハヤトのようだ。\nハヤトに　木工のやり方について聞きますか？<yesno><case 1><break><case 2><close><case_cancel><close>": "Sounds like Hayato, the skilled\ncraftsman Fecto mentioned.<yesno><case 1><break><case 2><close><case_cancel><close>"
+  },
+  "79550": {
+    "<pc>は　ハヤトに\n木工のやり方について　聞いてみた。": "<pc> asked Hayato about his\nwoodworking methods."
+  },
+  "79551": {
+    "<pc>は\n子供向けの木工教本（だいじなもの）を\n受け取った！<me 60>": "<pc> received Children's\nWoodwork Manual (Key Item)!<me 60>"
+  },
+  "79552": {
+    "<attr><feel_happy_lv2><end_attr>「キミに渡したのは　僕が　昔使ってた教本さ。\n　もう　今さら読むこともないから\n　その子に　プレゼントしてあげておくれよ。\n<br>\n「……しかし　そんな　海の向こうの大陸まで\n　評判が　広まっているなんて\n　僕も　有名になったもんだね。ふふっ。": "<attr><feel_happy_lv2><end_attr>I gave you the book I used to use in\nthe past. I don't have time to read it\nanymore, so please give it to her as a\n<br>\ngift. But to have my reputation spread\nto a continent beyond the sea, I've\nbecome famous, haven't I? Hmmm."
+  },
+  "48115": {
+    "<attr><feel_normal_lv1><end_attr>「おう　ここは　木工ギルド本部だぜ。\n　世界中から　ウデに　覚えのある\n　木工職人が集う　総本山さ。": "<attr><feel_normal_lv1><end_attr>This is the headquarters of the\nWoodworking Guild. This is the\nheadquarters of the Woodworking Guild,\n<br>\nwhere woodworkers from all over the\nworld gather."
+  },
+  "48116": {
+    "<attr><feel_normal_lv1><end_attr>「木材ってのは　生きている。\n　息をしているんだ！　ってのが\n　先代のギルドマスターの　クチぐせだったんだ。\n<br>\n「俺は　先代のマスターに　あこがれて\n　木工職人になったんだ……。\n　けど　その先代は　もういない。": "<attr><feel_normal_lv1><end_attr>Wood is alive. It breathes! That was\nthe motto of the previous guild\nmaster. I became a woodworker because\n<br>\nI admired him. But he is no longer\nwith us."
+  },
+  "69565": {
+    "<attr><feel_happy_lv1><end_attr>「いらっしゃいませ。王都カミハルムイが誇る\n　木工ギルドへ　ようこそ！\n　私は　ギルドマスターの　カンナと申します。\n<br>\n「あなたの　お名前は……\n　<pc>さんですね。\n　もしや　木工に興味を　お持ちですか！？\n<br>\n「木工は　スティック　両手杖　棍　扇などの\n　木製の武器を　作りだせる\n　たいへん　魅力的な技術ですっ。\n<br>\n「使う人の手に　ピッタリなじむように\n　木目を見定め　削っていくのは\n　技術がいりますが　楽しいですよっ。\n<br>\n「そうして　ひとつひとつ　ていねいに削りだした\n　木工製品を　世界中のお客さまにお届けするのが\n　我々　木工ギルドの　使命なのですっ！\n<br>\n「あっ　でも……　今は　新たな職人さんを\n　雇ったり　個人のお客さまとの取引は\n　中止させていただいてるんです。\n<br>\n「このところ　魔瘴の影響なのか　以前に増して\n　魔物たちの凶暴化が　激しくなっていて\n　武器の需要が上がってまして……\n<br>\n「いろんな国からの　ご注文に対応するので\n　ギルド全体の業務が　手いっぱいなのです……。\n　せっかく来てもらったのに　ごめんなさい。\n<br>\n「あっ　そうだ　ちょっと　いいことを\n　教えましょう。<pc>さんは\n　ふしぎな鍛冶台を　お持ちでしょうか。\n<br>\n「このカミハルムイから北にある　夢幻の森や\n　呪われた大地は　名前の通り　危険な場所です。\n　ただ　その分　貴重な素材も手に入るとか。\n<br>\n「もし　ご自分で装備品の製作ができるのでしたら\n　素材集めには　ちょうどいいと　思いますよ。\n　でも　くれぐれも　無理はしないでくださいね！": "<attr><feel_happy_lv1><end_attr>Welcome to the Woodworking Guild, the\npride of Royal City Kamiharmui! My\nname is Kanna, the Guild Master. Your\n<br>\nname is <pc>. Are you\ninterested in woodworking? Woodworking\nis a fascinating craft that can be\n<br>\nused to make wooden weapons such as\nwand staffs, rod fans, and more. It is\na fun and skillful process to find the\n<br>\ngrain of the wood and to cut it so\nthat it fits perfectly in the user's\nhand. It is our mission at the\n<br>\nWoodworking Guild to deliver these\ncarefully crafted wooden products to\ncustomers all over the world! But now,\n<br>\nwe have to hire new craftsmen and stop\ndoing business with private customers.\nThe monsters have become even more\n<br>\nferocious than before, perhaps due to\ndemon miasma, and the demand for\nweapons has risen, so the guild as a\n<br>\nwhole is overwhelmed with orders from\nmany different countries. I'm sorry\nyou had to come all this way. Oh, by\n<br>\nthe way, I have something good to tell\nyou. Does <pc> have a\nmysterious blacksmithing stand? The\n<br>\nDream Forest and Cursed Land north of\nKamiharmui are, as the name suggests,\ndangerous places. However, I heard\n<br>\nthat you can get valuable materials\nthere. If you can make equipment by\nyourself, it is a good place to\n<br>\ncollect materials. But please don't\noverdo it!"
+  },
+  "53287": {
+    "「あーあ。楽して　ボロもうけできる\n　おれっちに　ぴったりの\n　割のいい仕事ないかなー。": "Ahhh... I wonder if there are any good\npaying jobs that suit me, where I can\nmake money while having fun."
+  },
+  "49285": {
+    "「ウチの２軒となりに　立派なお屋敷があってね。\n　しばらく　空き屋だったんだけど\n　最近　ドワーフのご夫妻が　引っ越してきたよ。\n<br>\n「とても　いいお屋敷なのに　もったいないと\n　思っていたから　よかったわ。": "There's a great house two doors down\nfrom ours. It had been vacant for a\nwhile, but recently Mr. and Mrs. Dwarf\n<br>\nmoved in. I thought it was a waste of\na very nice house, so I'm glad they\nmoved in."
+  },
+  "49286": {
+    "<attr><feel_happy_lv2><end_attr>「妻が　この都を　気に入ったようだからな。\n　さっそく　屋敷を買い取ったんだ！\n<br>\n「前は　プクリポの豪商が　住んでいたとか。\n　手入れが　行き届いていて　すばらしいわい！\n　うはははは！": "<attr><feel_happy_lv2><end_attr>My wife seems to like this city. He\nbought the house immediately! It used\nto be occupied by a wealthy merchant\n<br>\nfrom Pukulipo. It's well taken care\nof, it's wonderful! Ha-ha-ha-ha!"
+  },
+  "49287": {
+    "「なんだい？\n　ウチで　ササラナの面倒をみていた\n　マトイってのは　あたしだけど……。\n<br>\n「え？　ササラナに頼まれて\n　母親のことを　聞きにきたって！？\n　ん……ちょいと長くなるけど　いいかい？<yesno><break>": "What is it? I'm the Matoi who was\ntaking care of Sasalana at home. What?\nSasalana asked you to ask about her\n<br>\nmother? It's a bit of a long story,\nokay?<yesno><break>"
+  },
+  "49288": {
+    "<attr><feel_sad_lv1><end_attr>「おや　そうかい？\n　ま　それなら　それでいいさ。\n　あんまり　聞かせたい話でもないしねぇ。": "<attr><feel_sad_lv1><end_attr>Oh, really? Well, that's all right\nthen. It's not a story I want to tell\nyou too much."
+  },
+  "49289": {
+    "「それじゃ　いい機会だし　話しておこうかねぇ。\n　あの子の母親……　エンジュさんは　幼い娘と\n　この都に現れ　整理術で生計を立ててたんだ。\n<br>\n「ウチの２軒となりの　お屋敷に住んでた\n　プクリポの豪商が　彼女の整理術を気に入って\n　エンジュさんは　そこで働いてたのさ。\n<br>\n「彼女が　お屋敷で働いてる間　よくウチで\n　ササラナを　預かってあげてたんだけどね……。\n<br>\n「……ある日の深夜　ウチの扉を叩く音がした。\n　開けると　エンジュさんが立っていて\n　いつになく　険しい表情で　こう言ったんだ。\n<br>\n「カミハルムイに　いられなくなった。\n　連れていけないので　娘を頼みたい……ってね。\n　それが　あの子の母親を見た　最後さ。\n<br>\n「翌日　お屋敷に　泥棒が入ったって聞いたよ。\n　エンジュさんが犯人だって　ウワサも流れたけど\n　よく　わからないまま　うやむやになってねぇ。\n<br>\n「騒ぎの後　しばらくして　プクリポの豪商は\n　屋敷を手放し　息子のパッポルちゃんを連れて\n　故郷のメギストリスの都に　帰ったよ。\n<br>\n「メギストリスの都の北西側に　今も\n　住んでると思うから　話を聞いてみたいなら\n　訪ねてみたらどうだい？": "Well then, it's a good opportunity for\nme to tell you a story. Her mother,\nMs. Enge, came to the city with her\n<br>\nyoung daughter and made a living by\norganizing things. A wealthy Pukulipo\nmerchant who lived two houses down\n<br>\nfrom us liked her organizing skills,\nso Ms. Enju worked there. While she\nwas working at the mansion, I used to\n<br>\ntake care of Sasalana for him. Late\none night, I heard a knock at our\ndoor. When I opened the door, I found\n<br>\nMr. Enju standing there with an\nunusually stern expression on his\nface. I can't stay at Kamiharmui\n<br>\nanymore. I can't take her with me, so\nI asked her to take care of my\ndaughter. That was the last time I saw\n<br>\nher mother. The next day I heard that\nthe house was robbed. There were\nrumors that Mr. Enju was the culprit,\n<br>\nbut they were never fully understood,\nand the matter was never solved. Some\ntime after the commotion, the wealthy\n<br>\nmerchant of Pukulipo gave up his house\nand returned to his hometown, City of\nMegistris, with his son, Pappol. I\n<br>\nthink he still lives on the northwest\nside of City of Megistris, so if you\nwant to talk to him, why don't you\n<br>\nvisit him?"
+  },
+  "49290": {
+    "「エンジュさんが　ウチに　あの子を預けたまま\n　いなくなったのは　プクリポの豪商のお屋敷に\n　泥棒が入ったと騒ぎがあった　前の晩のことさ。\n<br>\n「彼女が犯人だって　ウワサも流れたけど\n　よく　わからないまま　うやむやになってねぇ。\n<br>\n「騒ぎの後　しばらくして　プクリポの豪商は\n　屋敷を手放し　息子のパッポルちゃんを連れて\n　故郷のメギストリスの都に　帰ったよ。\n<br>\n「メギストリスの都の北西側に　今も\n　住んでると思うから　話を聞いてみたいなら\n　訪ねてみたらどうだい？": "The night before there was a commotion\nthat the house of a wealthy merchant\nin Pukulipo had been burglarized.\n<br>\nThere were rumors that HER was the\nculprit, but they were never fully\nunderstood, and the matter was never\n<br>\nsolved. Some time after the commotion,\nthe wealthy merchant of Pukulipo gave\nup his house and returned to his\n<br>\nhometown, City of Megistris, with his\nson, Pappol. I think he still lives on\nthe northwest side of City of\n<br>\nMegistris, so if you want to talk to\nhim, why don't you visit him?"
+  },
+  "49291": {
+    "<attr><feel_sad_lv1><end_attr>「エンジュさんが　ウチに　あの子を預けたまま\n　いなくなったのは　プクリポの豪商のお屋敷に\n　泥棒が入ったと騒ぎがあった　前の晩のことさ。\n<br>\n「彼女が犯人だって　ウワサも流れたけど\n　よく　わからないまま　うやむやになってねぇ。\n　あたしが話せるのは　これくらいだよ。": "<attr><feel_sad_lv1><end_attr>The night before there was a commotion\nthat the house of a wealthy merchant\nin Pukulipo had been burglarized.\n<br>\nThere were rumors that HER was the\nculprit, but it all went unanswered\nwithout being fully understood. That's\n<br>\nall I can tell you."
+  },
+  "49292": {
+    "<attr><feel_happy_lv2><end_attr>「ササラナは　元気にしているようだね。\n　あんたのおかげだよ　ありがとう。\n<br>\n「……あんたには　話しておこうかね。\n　じつは　エンジュさんから　手紙がきたんだよ。\n<br>\n「もう　身を隠す必要は　なくなったようだから\n　いつの日か　娘に会いにいきたいと\n　書いてあったよ。\n<br>\n「母親が生きていると知ったら　ササラナは\n　喜ぶだろうねぇ。あの子を　驚かせたいから\n　このことは　誰にもナイショだよ。": "<attr><feel_happy_lv2><end_attr>Sasalana seems to be doing well.\nThanks to you. I should tell you\nsomething. I got a letter from Mr.\n<br>\nEnge. She wrote that since she no\nlonger has to hide herself, she would\nlike to see her daughter someday.\n<br>\nSasalana will be happy to know that\nher mother is alive. I don't want to\ntell anyone about this because I want\n<br>\nto surprise her."
+  },
+  "49293": {
+    "<attr><feel_happy_lv2><end_attr>「エンジュさんから　手紙がきてね。\n　もう　身を隠す必要は　なくなったようだから\n　いつの日か　娘に会いたいと　書いてあったよ。\n<br>\n「母親が生きていると知ったら　ササラナは\n　喜ぶだろうねぇ。あの子を　驚かせたいから\n　このことは　誰にもナイショだよ。": "<attr><feel_happy_lv2><end_attr>I got a letter from Enju-san. She\nwrote that she would like to see her\ndaughter someday, since it seems she\n<br>\nno longer has to hide herself.\nSasalana will be happy to know that\nher mother is alive. I don't want to\n<br>\ntell anyone about this because I want\nto surprise her."
+  },
+  "108502": {
+    "<attr><feel_happy_one><end_attr>「この店は　王都カミハルムイができたとき\n　わしが　この場所で始めたんじゃ。\n　５０年ほど前のことかのう。\n<br>\n「今はもう　店は娘ムコに任せて\n　気楽な隠居の身じゃがな。ほっほっ。": "<attr><feel_happy_one><end_attr>I started this place when Royal City\nKamiharmui was built. That was about\n50 years ago. Now I leave the store to\n<br>\nmy daughter, Muko, and am enjoying a\ncomfortable retirement. Hohoho."
+  },
+  "108503": {
+    "「おや？　<pc>じゃないか。\n　ササラナは　元気にしているのかい？\n<br>\n「え？　ササラナに頼まれて\n　あたしに　会いにきたって！？\n　いったいぜんたい　どうしたんだい？": "Oh? <pc>. How is Sasalana\ndoing? What? Sasalana asked you to\ncome and see me? What's going on?"
+  },
+  "108504": {
+    "「うーん。なんちゃらの摂理は　わからないけど\n　確かに　エンジュさんは　何か目的があって\n　カミハルムイに住んでいると　話していたね。\n<br>\n「仕事の合間に　ササラナをウチに預けて\n　よく古書店に　調べものに行っていたようだよ。\n　研究熱心な人だったねぇ。\n<br>\n「その古書店なら　今もやってるよ。\n　王都カミハルムイの東側　お城をはさんで\n　ウチの反対側あたりだねぇ。": "Hmmm. I don't know about providence,\nbut Mr. Enge surely had a purpose for\nliving in Kamiharmui. It seems that he\n<br>\noften left Sasalana at our house and\nwent to used bookshop for research in\nbetween his work. He was an\n<br>\nenthusiastic researcher, wasn't he?\nThat used bookshop is still open. It's\non the east side of Royal City\n<br>\nKamiharmui, across the castle, on the\nother side of our house."
+  },
+  "108505": {
+    "<pc>は　ササラナの母　エンジュが\n星辰の摂理というものを　探していなかったか\n聞いてみた！": "<pc> asked Sasalana's mother\nEnge if she was looking for something\ncalled the providence of the stars and\n<br>\ndragons!"
+  },
+  "108506": {
+    "「あんたの言ってた　なんちゃらの摂理は\n　わからないけど　エンジュさんは　何か\n　目的があって　カミハルムイに住んでいたね。\n<br>\n「仕事の合間に　ササラナをウチに預けて\n　よく古書店に　調べものに行っていたようだよ。\n　研究熱心な人だったねぇ。\n<br>\n「その古書店なら　今もやってるよ。\n　王都カミハルムイの東側　お城をはさんで\n　ウチの反対側あたりだねぇ。": "I don't know what providence you were\ntalking about, but Mr. Enju lived in\nKamiharmui for a purpose. He used to\n<br>\nleave Sasalana at our house and go to\nused bookshop to research in between\nwork. He was an enthusiastic\n<br>\nresearcher, wasn't he? That used\nbookshop is still open. It's on the\neast side of Royal City Kamiharmui,\n<br>\nacross the castle, on the other side\nof our house."
+  },
+  "108507": {
+    "「昔のことを　調べているのですか？\n　でしたら　そこにウチのご隠居がおりますので\n　聞いてみるのが　よろしいかと。さて……<bw_break>": "Are you looking into the past? If so,\nI think it would be a good idea to ask\none of my retirees there. Well...<bw_break>"
+  },
+  "108508": {
+    "<attr><feel_think_one><end_attr>「エンジュさんは　不思議なツボを持つ\n　隠者のことを　調べていたんだって？\n　ツボ……………………なんか引っかかるねぇ。": "<attr><feel_think_one><end_attr>I heard that Enge-san was looking into\nhermit with the mysterious \"pot\"? I'm\nstuck on the \"pot\"."
+  },
+  "108509": {
+    "<icon_exc>「そうそう　思い出したよ！\n　昔　エンジュさんが　たいそう古そうなツボを\n　抱えていたのを　見かけたことがあったんだ。\n<br>\n「深刻な様子だったから　声もかけにくくてさ。\n　でもね　それこそが　隠者の持っていたという\n　不思議なツボだったのかもしれないよ。": "<icon_exc>Oh yes, I remember now! A long time\nago, I saw Mr. Enju carrying a very\nold looking pot. It was hard to talk\n<br>\nto him because he looked so serious.\nBut, that might have been the\nmysterious pot that HERMIT had."
+  },
+  "108510": {
+    "「昔　エンジュさんが　たいそう古そうなツボを\n　抱えていたのを　見かけたことがあったんだ。\n<br>\n「深刻な様子だったから　声もかけにくくてさ。\n　でもね　それこそが　隠者の持っていたという\n　不思議なツボだったのかもしれないよ。": "A long time ago, I saw Mr. Enju\ncarrying a very old looking pot. It\nwas hard to talk to him because he\n<br>\nlooked so serious. But maybe that was\nthe mysterious pot that hermit was\ncarrying."
+  },
+  "108511": {
+    "<attr><feel_happy_one><end_attr>「ほっほっ。どうされた　お若いの。\n　ジジイの昔話を　聞いてくれるのかね？<yesno><break>": "<attr><feel_happy_one><end_attr>Hohoho. What's the matter, young man?\nAre you going to listen to an old\nman's tales of the past?<yesno><break>"
+  },
+  "108512": {
+    "<attr><feel_happy_lv1><end_attr>「ほっほっ　うれしいのぅ。\n　この店は　５０年ほど前に　王都カミハルムイが\n　できたとき　わしが　この場所で始めたんじゃ。\n<br>\n「でな。店を大きく建て替えたとき　なんと\n　地中から　古いツボが見つかったんじゃ。\n　そのツボは　店に飾っておったんじゃが……\n<br>\n「１０年ほど前　店に立ち寄った　エルフの女が\n　ぜひとも　ゆずってほしいと言うので\n　渡してしもうた。\n<br>\n「ツボの引き取りの日　エルフの女は\n　レンジャーの姿をした　プクリポの男と\n　一緒じゃったよ。\n<br>\n「わしが　どうせ　ただで手に入れたものじゃから\n　代金はいらんと言うと　そのプクリポが\n　ただでツボをくれるなんて　だツボうしました。\n<br>\n「……などと　寒いダジャレを言っておったのが\n　今も　妙に心に残っておるわい。\n　たしか　レンジャー協会の者と名乗っていたな。": "<attr><feel_happy_lv1><end_attr>I am so happy. I started this\nrestaurant about 50 years ago when\nRoyal City Kamiharmui was built.\n<br>\nSo.... When I rebuilt the store, I\nfound an old pot in the ground. The\npot was displayed in the store, but\n<br>\nabout 10 years ago, an Elf woman came\nby the store and asked me to give it\nto her, so I gave it to her. On the\n<br>\nday I picked up the pot, the Elf woman\nwas accompanied by a Pukulipo man who\nlooked like a ranger. When I told her\n<br>\nthat I didn't want to pay for the pot\nbecause I had received it for free\nanyway, the Pukulipo said, \"I'm sorry,\n<br>\nbut I can't believe you gave me the\npot for free. I still remember that\nPukulipo made a cold pun like \"I'm so\n<br>\nhappy that you gave me a pot for free.\nI think he called himself a member of\nthe Ranger Association."
+  },
+  "108513": {
+    "<attr><feel_happy_one><end_attr>「歳をとると　つい長話をしとうなってな。\n　時間があるときに　また相手をしとくれ。\n　ほっほっ。": "<attr><feel_happy_one><end_attr>As I get older, I tend to want to talk\ntoo long. When you have time, take me\nup on it again. Hohoho."
+  },
+  "108514": {
+    "<attr><feel_think_one><end_attr>「エンジュさんは　不思議なツボを持つ\n　隠者のことを　調べていたんだって？\n　ツボ……………………なんか引っかかるねぇ。": "<attr><feel_think_one><end_attr>I heard that Enge-san was looking into\nhermit with the mysterious \"pot\"? I'm\nstuck on the \"pot\"."
+  },
+  "108515": {
+    "<icon_exc>「そうそう　思い出したよ！\n　昔　エンジュさんが　たいそう古そうなツボを\n　抱えていたのを　見かけたことがあったんだ。\n<br>\n「深刻な様子だったから　声もかけにくくてさ。\n　でもね　それこそが　隠者の持っていたという\n　不思議なツボだったのかもしれないよ。\n<br>\n「ツボの行方を追えば　あんたとササラナが\n　探している　なんちゃらの摂理ってやつも\n　見つかるかもしれないねぇ。応援しているよ。": "<icon_exc>Oh yes, I remember now! I once saw Mr.\nEnju carrying a very old looking pot.\nIt was hard to talk to him because he\n<br>\nlooked so serious. But, that may have\nbeen the mysterious pot that hermit\nwas carrying. If we follow the\n<br>\nwhereabouts of the pot, we may be able\nto find the providence that you and\nSasalana are looking for. I'll be\n<br>\nrooting for you."
+  },
+  "108516": {
+    "「昔　エンジュさんが　たいそう古そうなツボを\n　抱えていたのを　見かけたことがあったんだ。\n<br>\n「深刻な様子だったから　声もかけにくくてさ。\n　でもね　それこそが　隠者の持っていたという\n　不思議なツボだったのかもしれないよ。\n<br>\n「ツボの行方を追えば　あんたとササラナが\n　探している　なんちゃらの摂理ってやつも\n　見つかるかもしれないねぇ。応援しているよ。": "A long time ago, I saw Mr. Enju\ncarrying a very old looking pot. It\nwas hard to talk to him because he\n<br>\nlooked so serious. But, that might\nhave been the mysterious pot that\nhermit was carrying. If we follow the\n<br>\nwhereabouts of the pot, we may be able\nto find the providence that you and\nSasalana are looking for. I'll be\n<br>\nrooting for you."
+  },
+  "108517": {
+    "「店を建て替えるときに　見つかったツボは\n　１０年ほど前に　エルフの女と　プクリポの\n　レンジャーの２人組に　ゆずってしもうた。\n<br>\n「わしが　どうせ　ただで手に入れたものじゃから\n　代金はいらんと言うと　そのレンジャーが\n　ただでツボをくれるなんて　だツボうしました！\n<br>\n「……などと　寒いダジャレを言っておったのが\n　今も　妙に心に残っておるわい。\n　たしか　レンジャー協会の者と名乗っていたな。": "The pot that I found when I was\nrebuilding my store was given away to\na woman in Elf and a couple of rangers\n<br>\nin Pukulipo about 10 years ago. When I\ntold them that I didn't want to pay\nfor it because I had received it for\n<br>\nfree anyway, the ranger said, \"I'm\nsorry, I didn't mean to give you the\npot for free! I still remember the\n<br>\nranger making a cold pun like \"I'm so\nproud of you for giving me a free pot!\nI think he called himself a member of\n<br>\nthe ranger association."
+  },
+  "108518": {
+    "<attr><feel_think_one><end_attr>「エンジュさんは　不思議なツボを持つ\n　隠者のことを　調べていたんだって？\n　ツボ……………………なんか引っかかるねぇ。": "<attr><feel_think_one><end_attr>I heard that Enge-san was looking into\nhermit with the mysterious \"pot\"? I'm\nstuck on the \"pot\"."
+  },
+  "108519": {
+    "<icon_exc>「そうそう　思い出したよ！\n　昔　エンジュさんが　たいそう古そうなツボを\n　抱えていたのを　見かけたことがあったんだ。\n<br>\n「深刻な様子だったから　声もかけにくくてさ。\n　でもね　それこそが　隠者の持っていたという\n　不思議なツボだったのかもしれないよ。\n<br>\n「……なんだって？\n　あんた　そのツボを手に入れたって！？\n　それなら　ササラナに持っていっておあげよ。": "<icon_exc>Oh yes, I remember now! A long time\nago, I saw Mr. Enju carrying a very\nold looking pot. It was hard to talk\n<br>\nto him because he looked so serious.\nBut, that may have been the mysterious\npot that HERMIT was carrying. What?\n<br>\nYou said you received the pot? If so,\nI'll take it to Sasalana for you."
+  },
+  "108520": {
+    "「昔　エンジュさんが　たいそう古そうなツボを\n　抱えていたのを　見かけたことがあったんだ。\n<br>\n「深刻な様子だったから　声もかけにくくてさ。\n　でもね　それこそが　隠者の持っていたという\n　不思議なツボだったのかもしれないよ。\n<br>\n「……なんだって？\n　あんた　そのツボを手に入れたって！？\n　それなら　ササラナに持っていっておあげよ。": "A long time ago, I saw Mr. Enju\ncarrying a very old looking pot. It\nwas hard to talk to him because he\n<br>\nlooked so serious. But maybe that was\nthe mysterious pot that HERMIT was\ncarrying. What? You said you received\n<br>\nthe pot? If so, I'll take it to\nSasalana for you."
+  },
+  "108521": {
+    "<attr><feel_think_one><end_attr>「エンジュさんは　不思議なツボを持つ\n　隠者のことを　調べていたんだって？\n　ツボ……………………なんか引っかかるねぇ。": "<attr><feel_think_one><end_attr>I heard that Enge-san was looking into\nhermit with the mysterious \"pot\"? I'm\nstuck on the \"pot\"."
+  },
+  "108522": {
+    "<icon_exc>「そうそう　思い出したよ！\n　昔　エンジュさんが　たいそう古そうなツボを\n　抱えていたのを　見かけたことがあったんだ。\n<br>\n「深刻な様子だったから　声もかけにくくてさ。\n　でもね　それこそが　隠者の持っていたという\n　不思議なツボだったんだろうね。\n<br>\n「エンジュさんが　探していたツボが\n　今　ササラナのもとにあるなんてねぇ。\n　……なんとも　感慨深いもんだよ。": "<icon_exc>Oh yes, I remember now! A long time\nago, I saw Mr. Enju carrying a very\nold looking pot. It was hard to talk\n<br>\nto him because he looked so serious.\nBut I guess that was the mysterious\npot that HERMIT was carrying. The pot\n<br>\nthat Enge-san was looking for is now\nin Sasalana's possession. I am deeply\nmoved."
+  },
+  "108523": {
+    "「昔　エンジュさんが　たいそう古そうなツボを\n　抱えていたのを　見かけたことがあったんだ。\n<br>\n「深刻な様子だったから　声もかけにくくてさ。\n　でもね　それこそが　隠者の持っていたという\n　不思議なツボだったんだろうね。\n<br>\n「エンジュさんが　探していたツボが\n　今　ササラナのもとにあるなんてねぇ。\n　……なんとも　感慨深いもんだよ。": "A long time ago, I saw Mr. Enju\ncarrying a very old looking pot. He\nlooked so serious that it was hard to\n<br>\nspeak to him. But I guess that was the\nmysterious pot that hermit was\ncarrying. The pot that Enge-san was\n<br>\nlooking for is now in Sasalana's\npossession. I am deeply moved."
+  },
+  "108524": {
+    "<attr><feel_happy_lv2><end_attr>「おや　あんたかい。\n　あの後　ササラナからお礼の手紙が来てね。\n　わざわざ丁寧なもんだ。いい子だよ。\n<br>\n「しかし　エンジュさんが　探していたツボが\n　今　ササラナのもとにあるなんてねぇ。\n　……なんとも　感慨深いもんだよ。\n<br>\n「あの子はずっと　母親を追いかけているんだね。\n　いつか　再会できる日が　来るといいね。": "<attr><feel_happy_lv2><end_attr>Oh, it's you. I received a thank-you\nletter from Sasalana after that. She\nwent to a lot of trouble to be so\n<br>\npolite. She's a good girl. However,\nthe pot that Mr. Enge was looking for\nis now in Sasalana's possession. I was\n<br>\ndeeply moved. She has been chasing\nafter her mother for a long time,\nhasn't she? I hope we can meet again\n<br>\nsomeday."
+  },
+  "188412": {
+    "「おや？　<pc>じゃないか。\n　ササラナは　元気にしているのかい？\n<br>\n「え？　ササラナに頼まれて\n　あたしに　会いにきたって！？\n　いったいぜんたい　どうしたんだい？": "Oh? <pc>. How is Sasalana\ndoing? What? Sasalana asked you to\ncome and see me? What's going on?"
+  },
+  "188413": {
+    "「あらまあ　ササラナが　桜細工の木箱をねぇ。\n　ええ　ええ　ちゃんと　しまっていますよ。\n　取ってくるから　ちょいと　待ってておくれ。": "Oh My! Sasalana is playing Cherry Wood\nCrate, isn't she? Yes, yes, I've put\nit away properly. I'll go get it, just\n<br>\nwait a bit."
+  },
+  "188414": {
+    "<attr><feel_happy_lv1><end_attr>「これよ　これ。懐かしいわねぇ。\n　ササラナはね　ああ見えて　小さいころは\n　すぐに　モノを散らかす子だったんだよ。\n<br>\n「この箱はね　そんなあの子のために\n　整理術の使い手である　母親のエンジュさんが\n　作った　おもちゃ箱なんだよ。\n<br>\n「ササラナが　この箱には　魔法がかかっていて\n　いっぱい　おもちゃが片づけられるって\n　喜んでいたのを　おぼえているよ。\n<br>\n「それから　あの子は　整理術に興味を\n　持ったんだろうね。母親から教えてもらったり\n　彼女なりに　真似たりしてね……。\n<br>\n「おかげで　めきめきと　整理整頓が\n　上手くなっていったよ。ほんと　懐かしいねぇ。\n<br>\n「……おっと　話が長くなったね。\n　さあ　ササラナに　これを持っていっておやり。": "<attr><feel_happy_lv1><end_attr>This is it. It brings back memories.\nSasalana may look like that, but when\nshe was little, she was a messy child.\n<br>\nThis box is a toy box that her mother\nEnju, a master organizer, made for\nher. I remember Sasalana telling me\n<br>\nhow happy she was that this box was\nmagical and that she could put away\nall the toys in it. I guess that's how\n<br>\nshe got interested in organization.\nShe learned from her mother and tried\nto be like her. Thanks to that, she\n<br>\nbecame very good at organizing things.\nIt really brings back memories. Oops,\nthat was a long story. Now, take this\n<br>\nto Sasalana and give it to her."
+  },
+  "188415": {
+    "<attr><feel_happy_lv1><end_attr>「桜細工の木箱はね　ササラナのために\n　整理術の使い手である　母親のエンジュさんが\n　作った　おもちゃ箱なんだよ。\n<br>\n「ササラナが　この箱には　魔法がかかっていて\n　いっぱい　おもちゃが片づけられるって\n　喜んでいたのを　おぼえているよ。\n<br>\n「それから　あの子は　整理術に興味を\n　持ったんだろうね。母親から教えてもらったり\n　彼女なりに　真似たりしてね……。\n<br>\n「おかげで　めきめきと　整理整頓が\n　上手くなっていったよ。ほんと　懐かしいねぇ。": "<attr><feel_happy_lv1><end_attr>Cherry Wood Crate is a toy box made\nfor Sasalana by her mother Enju, a\nmaster organizer. I remember how\n<br>\nSasalana was so happy that this box\nwas magical and full of toys that she\ncould put away. I guess that's how she\n<br>\ngot interested in organization. She\nlearned from her mother and tried to\nbe like her. Thanks to that, she\n<br>\nbecame very good at organizing things.\nIt really brings back memories."
+  },
+  "188416": {
+    "<pc>は　ササラナから頼まれて\n桜細工の木箱を　取りにきたことを伝えた！": "<pc> informed that he had\ncome for Cherry Wood Crate as\nrequested by Sasalana!"
+  },
+  "188417": {
+    "マトイは　立ちあがり　部屋の奥へ向かうと\n古い木箱を持って　戻ってきた！": "Matoi gets up, heads to the back of\nthe room, and returns with an old\ncrate!"
+  },
+  "188418": {
+    "<pc>は\n桜細工の木箱（だいじなもの）を　手に入れた！<me 60>": "<pc> received Cherry Wood\nCrate (Key Item)!<me 60>"
+  },
+  "188419": {
+    "<pc>は\n桜細工の木箱（だいじなもの）を　手に入れた！<me 60><bw_break>": "<pc> received Cherry Wood\nCrate (Key Item)!<me 60><bw_break>"
+  },
+  "188420": {
+    "ササラナに　頼まれたものが\nそろったので　港町レンドアの\nグランドタイタス号の　倉庫へ向かおう！": "Now that we have everything Sasalana\nasked for, we head to the Grand Titus\nwarehouse in Port Town Lendor!"
+  }
+}

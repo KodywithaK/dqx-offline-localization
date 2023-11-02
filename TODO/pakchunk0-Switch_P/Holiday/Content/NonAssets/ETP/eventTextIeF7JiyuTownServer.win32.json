@@ -1,0 +1,293 @@
+{
+  "224047": {
+    "<attr><feel_normal_lv1><end_attr>「ご主人の身体から　悪魔の水の毒素が\n　抜けきるまで　東の島への出発は\n　見送りなんだモン。\n<br>\n「でも　ただ　待っているだけの時間は\n　もどかしいモン。ご主人には　もう一度\n　超苦い薬を　飲んでほしいんだモーン！": "<attr><feel_normal_lv1><end_attr>Until the toxins from the demon water are\nreleased from the master's body, the departure\nto the East Island will be postponed. But it's\n<br>\nfrustrating to just wait and see, and I want\nmaster to take the super bitter medicine\nagain!"
+  },
+  "224049": {
+    "<attr><feel_normal_one><end_attr>「皆　新天地に旅立ったか……。\n　間もなく　私も　かけつける。\n<br>\n「再会の時は　近い。\n　待っていろよ　オルギン……\n　そして　親愛なる　自由の同志たちよ。": "<attr><feel_normal_one><end_attr>I see that everyone has left for a new place.\nI'll be along shortly. The time for our\nreunion is near. Wait for me, Holguin, and my\n<br>\ndear comrades in freedom."
+  },
+  "224051": {
+    "<attr><feel_normal_lv1><end_attr>「ん？　住民が　減ってるだって？ \n　そりゃあ　大半の同志たちが　脱出したからね。\n<br>\n「この島は　地震だ　隕石だと　何かと物騒だろ？\n　だから　避難のため　海の向こうにある\n　東の島に　移住することにしたんだ。\n<br>\n「オレも　近いうちに　ここを旅立つよ。\n　ワグミカさんの体調が　回復したころにね。<bw_break>": "<attr><feel_normal_lv1><end_attr>What? Residents are dwindling?That's because\nmost of our comrades have left. Earthquakes,\nmeteorites, all kinds of things are happening\n<br>\non this island, right? So we decided to move\nacross the sea to an island to the east for\nshelter. I'll be leaving soon. When Wagmika is\n<br>\nfeeling better.<bw_break>"
+  },
+  "224053": {
+    "<attr><feel_sad_lv1><end_attr>「船を　あつかえる者の中から　誰かが\n　残らなければ　ならなかったんだ。\n　ワグミカさんが　ああなっちゃったから……。": "<attr><feel_sad_lv1><end_attr>Someone had to stay behind from among those in\ncharge of the ship. Because of what happened\nto Wagmika."
+  },
+  "224055": {
+    "<if_woman><attr><feel_normal_one><end_attr>「ほえ～　お前さんのとなりに　そっくりさんが\n　立っておるのう……うりふたつの姉妹が\n　お前さんにいたとは　知らなんだ。<bw_break><else><attr><feel_normal_one><end_attr>「ほえ～　お前さんのとなりに　そっくりさんが\n　立っておるのう……うりふたつの兄弟が\n　お前さんにいたとは　知らなんだ。<bw_break><endif>": "<if_woman><attr><feel_normal_one><end_attr>I didn't know you had two identical sisters\nstanding next to you.<bw_break><else><attr><feel_normal_one><end_attr>I didn't know you had two identical brothers\nstanding next to you.<bw_break><endif>"
+  },
+  "224057": {
+    "<attr><feel_sad_one><end_attr>「うえっぷ！\n　……吐き気が　おさまらんのう。\n　ほんに　人生とはクソじゃ。": "<attr><feel_sad_one><end_attr>Uppp! I can't stop the nausea. Life sucks."
+  },
+  "224059": {
+    "<attr><feel_angry_one><end_attr>「安易に　薬に頼るものではないッ！\n　自然の回復力に　身をまかせるのじゃ！\n　……うえっぷ！": "<attr><feel_angry_one><end_attr>Do not rely on medicines easily! Let nature's\nresilience take over! Upppp!"
+  },
+  "225897": {
+    "「…………。": "..."
+  },
+  "225899": {
+    "「みんな　いなくなっちゃったから\n　畑を　たがやすのも　ひと苦労だ～。": "Now that everyone is gone, it's hard to keep\nthe fields spruced up."
+  },
+  "225901": {
+    "扉には　カギが　かかっている。": "The door is locked."
+  },
+  "225903": {
+    "「むむ？　おまえ　なんだか　におうぞ～？\n　ちゃんと　お風呂に　入ってるか～？": "Hmm? What's that stink? Are you taking a bath?"
+  },
+  "225905": {
+    "ワグミカに　小さな異形獣を\n見せますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to show Small Hexabeast to\nWagmika?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "225907": {
+    "<pc>は　ワグミカに\n小さな異形獣を　見せた。": "<pc> showed Wagmika a Small\nHexabeast."
+  },
+  "225909": {
+    "ワグミカに　小さな異形獣を\n見せますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to show Small Hexabeast to\nWagmika?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "225911": {
+    "<pc>は　ワグミカに\n小さな異形獣を　見せた。": "<pc> showed Wagmika a Small\nHexabeast."
+  },
+  "225913": {
+    "「あら？　何かご用でしょうか？": "Oh? Can I help you?"
+  },
+  "225915": {
+    "「そうですか。\n　また　いつでも　いらしてください。": "I see. Please come again anytime."
+  },
+  "225917": {
+    "<icon_exc>「これは　ヘルゲゴーグ……！\n　……にしては　ずいぶんと　小さいですね。\n<br>\n「なるほど……本来　異形獣が持ち合わせている\n　精神エネルギーの吸収器官が　ありませんね。\n　どおりで　未成熟なわけです。\n<br>\n「この様子では　危害を及ぼすことは\n　ないでしょうし　ここに置いても\n　かまわないでしょう。\n<br>\n「そうですね……この子の面倒は\n　表にいるコルビィに　見てもらいましょう。\n　この子は　彼に　預けてください。": "<icon_exc>This is very small for a Helgegog! I see that\nit does not have the mental energy absorbing\norgan that a Hexabeast has. No wonder it is\n<br>\nimmature. By the looks of him, I don't think\nhe will be harmed, and you can leave him here\nif you like. Yes, let's have Corby out front\n<br>\ntake care of her. Please leave her with him."
+  },
+  "225919": {
+    "<attr><feel_sad_one><end_attr>「人生は　クソだ！ \n　生きるに値しない！！ \n<br>\n「…………むにゃむにゃ？ \n<br>\n「お前さん　また来たのか。\n　今度は　なんの用じゃ？": "<attr><feel_sad_one><end_attr>Life sucks!Life is not worth living!Munchy-\nmunchy?You're here again, aren't you? What do\nyou want this time?"
+  },
+  "225921": {
+    "<attr><feel_normal_one><end_attr>「なんじゃ　いつもの幻覚か……ひっく！": "<attr><feel_normal_one><end_attr>What is it, the usual hallucination?"
+  },
+  "225923": {
+    "<attr><feel_angry_one><end_attr><icon_exc>「ひっく！　お前さん\n　なんつーもんを　持ってきたんじゃ！\n　この　うつけ者め！\n<br>\n「……っと　なんじゃ　こやつは。\n　ずいぶんと　ちっこいのう。\n<br>\n「ほえ～　こやつ　ヘルゲゴーグのくせに\n　精神エネルギーの吸収器官を　持たぬのか。\n　どおりで　チンチクリンなわけじゃ。\n<br>\n「できそこない　１匹　ここに\n　置くぐらいはかまわんが　世話するなんて\n　クッソ面倒なことは　ごめんじゃ。\n<br>\n「こやつのことは　表にいるコルビィにでも\n　頼め……ひっく！ ": "<attr><feel_angry_one><end_attr><icon_exc>Damn! What did you bring me? You impudent\nbastard! What is this thing? He's so tiny. He~\nHe's a Helgegog, but he doesn't have an organ\n<br>\nto absorb mental energy. No wonder he's so\nshort. I don't mind having one of the little\nbastards here, but I don't want to go through\n<br>\nthe trouble of taking care of him. Ask Corby\nout front to take care of him for you, Hiccup!"
+  },
+  "225925": {
+    "<if_woman>「お姉さん！<else>「お兄さん！<endif>": "<if_woman>Sis!<else>Brother!<endif>"
+  },
+  "225927": {
+    "<attr><feel_happy_lv1><end_attr>「キミも　元気になったんだね！\n　よかった……。": "<attr><feel_happy_lv1><end_attr>I'm glad to hear that you are feeling better!\nI'm glad."
+  },
+  "225929": {
+    "<attr><feel_happy_lv1><end_attr>「ここが　自由人の集落なんだね。\n　はじめて来たけど　この場所なら　この子も\n　きっと　のんびり暮らせるよ！": "<attr><feel_happy_lv1><end_attr>So this is Freedom Village. It's my first time\nhere, but I'm sure she will be able to live a\nrelaxed life in this place!"
+  },
+  "225931": {
+    "<attr><feel_sad_lv1><end_attr>「そんな……。\n　この集落だけが　頼りなんです。\n　僕からも　どうか　お願いします！": "<attr><feel_sad_lv1><end_attr>Oh, no. This village is all we can rely on.\nPlease, I'm counting on you too!"
+  },
+  "225933": {
+    "「えっ？　これが　ほしいの？\n　ナンシーが　僕のために　一生懸命\n　作ってくれたものだけど……\n<br>\n「でも……　この子のために　なるんなら！": "What? You want this? Nancy worked very hard on\nit for me, but if it's good for her, I'll give\nit to her!"
+  },
+  "225935": {
+    "<attr><feel_happy_lv1><end_attr>「ありがとう！\n　この子のこと　よろしくお願いします！": "<attr><feel_happy_lv1><end_attr>Thank you! Please take care of her!"
+  },
+  "225937": {
+    "<attr><feel_happy_lv1><end_attr>「コルビィさんと　仲良くするんだよ。\n　また　会いにくるからね！": "<attr><feel_happy_lv1><end_attr>Be good friends with Mr. Corby. I'll come back\nto see you again!"
+  },
+  "225939": {
+    "<if_woman>「それじゃ　僕は　王都キィンベルに戻るよ。\n　ナンシーが待ってるから　お姉さんも来てね！<else>「それじゃ　僕は　王都キィンベルに戻るよ。\n　ナンシーが待ってるから　お兄さんも来てね！<endif>": "<if_woman>Well then, I'm going back to Royal City\nKimbel. Nancy is waiting for me!<else>Well, I'm going back to Royal City Kimbel.\nNancy is waiting for me!<endif>"
+  },
+  "225941": {
+    "「キィ！": "Ky!"
+  },
+  "225943": {
+    "「キィ！": "Ky!"
+  },
+  "225945": {
+    "「むむ？　おめえ　なんだか　におうぞ～？\n　ちゃんと　お風呂に　入ってるか～？": "Hmm? What's that stinky smell? Are you taking\na bath?"
+  },
+  "225947": {
+    "「まあ　お風呂に　入らないのも\n　個性ってヤツかもな～。": "Well, maybe not taking a bath is just part of\nmy personality."
+  },
+  "225949": {
+    "「わわわわわ！！\n　な…なんだ　この化け物はっ！！": "Woah woah woah! What a monster!"
+  },
+  "225951": {
+    "「ええっ？　こいつの　面倒を見ろって？\n　ワグミカさんの頼みでも　そんな\n　おっかねえこと　わしには　ムリだ～！": "What? You want me to take care of him? I can't\ndo such a complicated thing even if Wagmika\nasks me to!"
+  },
+  "225953": {
+    "「だ…だから　わしは　こいつの面倒なんて……。": "That's why I can't take care of him."
+  },
+  "225955": {
+    "「ま…まいったな……。": "I'm sorry, man."
+  },
+  "225957": {
+    "「ありがてえ！\n　ついに　手に入れたぞ～！　わしだけの道具！\n　私有財産があるってのは　いい気分だな～！\n<br>\n「おお～！　軽い　軽い！\n　これで　仕事が楽になるぞ～！\n<br>\n「心配するな　小僧～。\n　わしが　収穫した野菜を\n　こいつにも　たらふく　食わしてやるからな～！": "Thanks a lot! I finally received it! My very\nown tool! It feels good to have private\nproperty! Oh~! It's so light! This will make\n<br>\nmy job so much easier~! Don't worry, kid~!\nI'll feed him plenty of the vegetables I\nharvested too~!"
+  },
+  "225959": {
+    "コルビィに　小さな異形獣を\n渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Small Hexabeast to Corby?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "225961": {
+    "<pc>は　コルビィに\n小さな異形獣を　渡した！": "<pc> gave Corby a Small Hexabeast!"
+  },
+  "225963": {
+    "ジョゼは　コルビィに\nナンシー作の短剣を　渡した！": "Jose gave Corby a dagger made by Nancy!"
+  },
+  "225965": {
+    "「その子は　本来　異形獣が持ち合わせている\n　精神エネルギーの吸収器官が　ありません。\n<br>\n「その様子では　危害を及ぼすことは\n　ないでしょうし　ここに置いても\n　かまわないでしょう。\n<br>\n「表にいるコルビィに　面倒を見てもらうので\n　その子は　彼に　預けてくださいね。": "The child does not have the psycho-energy\nabsorbing organs that Hexabeast inherently\npossesses. By the looks of it, it will not be\n<br>\nharmed, and you may leave it here. Corby out\nfront will take care of her, so please leave\nher with him."
+  },
+  "225967": {
+    "<attr><feel_angry_one><end_attr>「できそこない　１匹　ここに\n　置くぐらいはかまわんが　世話するなんて\n　クッソ面倒なことは　ごめんじゃ。\n<br>\n「そやつのことは　表にいるコルビィにでも\n　頼め……ひっく！ ": "<attr><feel_angry_one><end_attr>I don't mind if you keep one here, but I don't\nwant the hassle of taking care of it. Ask\nCorby out front to take care of him!"
+  },
+  "225970": {
+    "「キィ！": "Ky!"
+  },
+  "225972": {
+    "「ついに　手に入れたぞ～！　わしだけの道具！\n　私有財産があるってのは　いい気分だな～！\n<br>\n「……ん？　おめえ　ちっとも\n　におわなくなったじゃねえか～。\n　あれは　キィキィの　においだったんだな～。\n<br>\n「キィキィなら　そこの家で飼うことにしたぞ～。\n　わしが　収穫した野菜を\n　たらふく　食わしてやるからな～！": "I finally received it! My very own tool! It\nfeels good to have private property, doesn't\nit? Hmm? You're not smelling at all anymore!\n<br>\nThat must have been the smell of Keekie! If\nit's Keekie, I've decided to keep her at the\nhouse! I'll feed her with all the vegetables\n<br>\nI've harvested~!"
+  },
+  "235219": {
+    "<attr><feel_happy_lv1><end_attr>「おや　お客さんとは　うれしいな。\n　集落から　多くの人が　出ていってしまって\n　売り上げが　かんばしくなくてね。\n<br>\n「王都に　新しい商材を仕入れにいったり\n　がんばっては　いるんだけども。<bw_break>": "<attr><feel_happy_lv1><end_attr>Well, I'm glad to hear you have a visitor.\nMany people have moved out of the village and\nour sales have been slow. I've been trying my\n<br>\nbest to stock up on new products at Royal\nCity.<bw_break>"
+  },
+  "235221": {
+    "「それなら　いいんだ。\n　あのカギは　もうないからね。\n　じゃ　こっちの仕事を　始めさせてもらうよ。<bw_break>": "That's all right then. I don't have that key\nanymore. Well then, let me get on with my\nwork.<bw_break>"
+  },
+  "235223": {
+    "<attr><feel_sad_lv1><end_attr>「そうか……。そいつは　すまないな。\n　あのカギは　ここに帰ってくる途中で\n　盗られてしまったんだよ。<bw_break>": "<attr><feel_sad_lv1><end_attr>Oh, yeah. Sorry about that. That key was\nstolen on the way back here.<bw_break>"
+  },
+  "235225": {
+    "「王都の雑貨屋で　手に入れた金色のカギは\n　ここに帰ってくる途中で　盗られてしまった。\n<br>\n「……突然　金ピカに輝く魔物に\n　空から　おそわれたんだ。\n　もうダメかと　覚悟を決めたときだった。\n<br>\n「ふところから　あのカギが　こぼれ落ちて\n　そうしたら　魔物は　目の色を変え\n　カギをくわえて　飛び去ってしまったんだ。\n<br>\n「ティプローネ高地の北のほう……\n　星落ちる谷に向かっていったな。\n　なぜだか　とても　うれしそうだったよ。\n<br>\n「危険かもしれないが　行ってみたら　どうかな。\n　カギを見つけたら　君に　タダで　ゆずるよ。\n　また　おそわれたら　たまらないからね。\n<br>\n「さて　話せることは　話したし\n　仕事を　させてもらおうかな。<bw_break>": "The golden key I received at the Royal City\nShop was stolen on my way back here. Suddenly,\na shiny golden monster was threatening me from\n<br>\nthe sky. I thought I was finished, but then\nthe key fell out of my hand. The key fell out\nof my pocket, and the monster's eyes changed\n<br>\ncolor, and it took the key in its mouth and\nflew away. It went to Starfall Valley, north\nof Tiplone Highlands. I don't know why, but it\n<br>\nlooked so happy. It might be dangerous, but\nyou should try it. If I find the key, I'll\ngive it to you for free. I won't be happy if\n<br>\nyou scare me again. Now that I've told you\nwhat I can, let's get to work.<bw_break>"
+  },
+  "235227": {
+    "「おお　お客さん。もしや　魔物から\n　金色のカギを　取り返してきたのかい？\n　こりゃ　おどろいたな。\n<br>\n「すまないが　そのカギは　見せないでくれ。\n　あのときの恐怖を　思いだしそうだ。\n　仕事で　気をまぎらわさなきゃ。<bw_break>": "Oh, hello there. Did you get the golden key\nback from the monster? I'm surprised at you.\nI'm sorry, but you mustn't show me that key.\n<br>\nIt reminds me of the horror of that time. I'll\nhave to distract myself with work.<bw_break>"
+  },
+  "236645": {
+    "<attr><feel_normal_one><end_attr>「……突然　金ピカに輝く魔物に\n　空から　おそわれたんだ。\n　もうダメかと　覚悟を決めたときだった。\n<br>\n「ふところから　あのカギが　こぼれ落ちて\n　そうしたら　魔物は　目の色を変え\n　カギをくわえて　飛び去ってしまったんだ。\n<br>\n「ティプローネ高地の北のほう……\n　星落ちる谷に向かっていったな。\n　なぜだか　とても　うれしそうだったよ。\n<br>\n「危険かもしれないが　行ってみたら　どうかな。\n　カギを見つけたら　君に　タダで　ゆずるよ。\n　また　おそわれたら　たまらないからね。": "<attr><feel_normal_one><end_attr>Suddenly, a shiny, golden monster threatened\nme from the sky. I thought I was going to be\ndead, but then the key fell out of my hand.\n<br>\nThe key spilled out of my pocket, and the\nmonster's eyes changed color, and it grabbed\nthe key and flew away. It went to Starfall\n<br>\nValley, north of Tiplone Highlands. I don't\nknow why, but it looked so happy. It might be\ndangerous, but you should try it. If I find\n<br>\nthe key, I'll give it to you for free. I won't\nbe happy if you scare me again."
+  },
+  "236647": {
+    "「……えっ？　王都の雑貨屋で\n　金色のカギを　買い取らなかったかって？\n　お客さん　そのカギが　目当てなのかい？<yesno><case 1><break><case 2><break><case_cancel><break><case_end>": "What? You mean to tell me you didn't buy the\ngolden key from the Royal City Shop? Sir, are\nyou looking for the key?<yesno><case 1><break><case 2><break><case_cancel><break><case_end>"
+  },
+  "236981": {
+    "ワグミカの私物がつまった　宝箱だ。": "It is a treasure chest filled with Wagmika's\npersonal belongings."
+  },
+  "238231": {
+    "「リンカさんから　聞いたよ。\n　この子を連れてきてくれて　ありがとう。\n<br>\n「……ああ　僕なら大丈夫。\n　ナンシーの薬のおかげで　よくなったよ。": "I heard from Mr. Linka. Thanks for bringing\nher in. Yeah, I'll be fine. I'm fine. Nancy's\nmeds are helping."
+  },
+  "238235": {
+    "「……ん？　おめえ　なかなか\n　いい短剣を　持ってるな～。\n　すっごく　使いやすそうだ～。\n<br>\n「ようし！　その短剣を　ゆずってくれるんなら\n　こいつの面倒を　見てやってもいいぞ～。": "Hmm? You've got quite a nice dagger~. Looks\nreally easy to use~. All right! If you give me\nthat dagger, I can take care of him~."
+  },
+  "245260": {
+    "<icon_exc><turn_pc>「<pc>君ッ！\n　いいところに　きてくれたモーン！\n　話を　聞いてほしいんだモン！<bw_break>": "<icon_exc><turn_pc><pc>! You've come to the right place,\nMorn! I want you to listen to me!<bw_break>"
+  },
+  "245261": {
+    "<turn_pc>「ボクには　大きな　心残りがあるモ～ン。\n　チミは　この集落にいた　多くの同志たちが\n　東の島に　移住したことは　知っているモン？\n<br>\n「その中のひとり　錬金術師のジーナフ君が\n　東の島へ出発する　すこし前に\n　頼みがあると　訪ねてきたんだモ～ン。\n<br>\n「だけど……悪魔の水の誘惑に\n　負けてしまった　ご主人が　大暴れしたせいで\n　ジーナフ君の頼みを　聞きそびれたモン……。\n<br>\n「今はもう　はるか東の　新天地にいる\n　ジーナフ君の頼みが　なんだったのか\n　気になって　気になって　モンモンするモ～ン。\n<br>\n「もしも！　もしもで　いいんだモン。\n　<pc>君が　ジーナフ君に　会えたなら\n　カレの頼みを　聞いてやってほしいモーン！": "<turn_pc>I have a big regret. Did you know that many of\nyour comrades from this village have moved to\nthe East Island? One of them, Genaf, an\n<br>\nalchemist, came to me for a favor just before\nhe left for the East Island. But because the\nmaster was tempted by the demon water and went\n<br>\non a rampage, he failed to listen to Genaf's\nrequest. Now he is in a new land far to the\neast, and I've been wondering what Genaf-kun's\n<br>\nrequest was. What if...? What if, that's all\nright. If <pc> could meet Genaf-kun,\nplease do him a favor!"
+  },
+  "245262": {
+    "「本当だモン！？\n　さすがは　ファラス君の　ご友人だモン。\n　かたじけないモーン！": "It's true! That's just like Mr. Faras' friend.\nI'm not going to let you down!"
+  },
+  "245263": {
+    "「どうしたら　ジーナフ君に　会えるのか\n　ボクにも　さっぱり　わからないけど\n　途方にくれたら　相談しに来てほしいモ～ン♪": "I have no idea how to get to Genaf, but if you\nare at a loss, please come to me for advice."
+  },
+  "245264": {
+    "「……<pc>君は　頼まれごとが\n　いっぱいの　ご様子なんだモ～ン。\n　さすがは　ファラス君の　ご友人だモン。\n<br>\n「無理は　カラダに　よくないモン。\n　余裕がある時に　また来てほしいモ～ン。": "<pc> seems to be full of requests. As\nexpected of a friend of Mr. Faras. You should\nnot overwork your body, Kunai-mon. I hope you\n<br>\nwill come again when you can spare some time."
+  },
+  "245265": {
+    "「ショックだモ～ン……。\n　ジーナフ君の頼みが　なんだったのか\n　わからないまま　モンモンと暮らすモン……。": "I'm shocked. Monmon lives with Genaf without\nknowing what he asked her to do."
+  },
+  "245266": {
+    "「移住していった　錬金術師のジーナフ君に\n　もしも　出会うことができたなら\n　カレの頼みを　聞いてやってほしいモーン！<open_irai><bw_break>": "If you happen to meet Genaf, the alchemist who\nemigrated, please do him a favor!<open_irai><bw_break>"
+  },
+  "245267": {
+    "「<pc>君。おかえりだモン。\n　もしかして　ジーナフ君の頼みが　なんだったか\n　聞き出すことが　できたモ～ン？": "<pc>. Welcome back. Did you manage to\nfind out what Genaf-kun asked for, by any\nchance?"
+  },
+  "245268": {
+    "<icon_exc>「……ジーナフ君ッ！\n　東の島への移住を　成功させるために\n　そんなことを　考えていたんだモン……。<open_irai><bw_break>": "<icon_exc>Genaf! I was thinking of doing that in order\nto succeed in moving to the East Island.<open_irai><bw_break>"
+  },
+  "245269": {
+    "<pc>は　モモンタルに\nジーナフが　食べ物を錬成するレシピを\nほしがっていたことを　伝えた。": "<pc> informed Sanguintal that Genaf\nwanted a recipe for smelting food."
+  },
+  "245270": {
+    "<icon_exc>「<pc>君！　やったモン！\n　あの時から　説得しつづけて　ようやく\n　ご主人が　薬を飲んでくれたモ～ン♪": "<icon_exc><pc>! I did it! I've been trying to\nconvince him since that time, and finally\nmaster took the medicine."
+  },
+  "245271": {
+    "「……説得に夢中で　忘れていたけど\n　東の島へ　出発するのは　いつだモ～ン？\n　急げば　まだ　間に合うと思うモン。\n<br>\n「<pc>君。レシピは　宝箱の中だモン。\n　ジーナフ君が　新天地へと　旅立つ前に\n　高機能錬金食品の本を　届けてほしいモーン！": "I've been so busy trying to persuade him that\nI've forgotten when we're leaving for the East\nIsles. If we hurry, I think we can still make\n<br>\nit in time. <pc>. The recipe is in\nthe treasure chest. I want you to deliver\nEfficient Alchemy Food Book to Genaf before he\n<br>\nleaves for the new land!"
+  },
+  "245272": {
+    "「ご迷惑を　おかけしました。<pc>様。\n　ご注文のレシピは　すでに　完成しております。\n<br>\n「東の島で　手に入る　素材のみを使い\n　エテーネの民の　健康を保つ　食材のレシピ……\n　高機能錬金食品の本でございます。\n<br>\n「錬成で得られる　白くて丸い　お団子には\n　生命に必要な栄養が　すべて含まれております。\n　長期保存も可能な　高機能食品ですわ。\n<br>\n「その上　魔法生物学の　秘術を応用し\n　種子植物の特性を　組み込みましたので\n　畑に植えて　増やすこともできます。\n<br>\n「もちろん　味も　重要ですから\n　エテーネの民の好みに　仕上げております。\n　煮ても　焼いても　おいしいですよ。\n<br>\n「元アルケミア所長としての　すべての叡智を\n　白くて丸い　お団子に　注ぎ込みました。\n　どうぞ　新天地の開拓に　お役立てください。": "We apologize for any inconvenience caused.\n<pc>. The recipe you ordered has\nalready been completed. It is an Efficient\n<br>\nAlchemy Food Book, using only the ingredients\navailable on the Eastern Isles, recipes for\nfoods that will keep the people of Ethene\n<br>\nhealthy. The white, round dumplings obtained\nfrom the alchemy process contain all the\nnutrients necessary for life. It is a highly\n<br>\nfunctional food that can be stored for a long\ntime. Moreover, by applying the secrets of\nmagical biology, we have incorporated the\n<br>\nproperties of seed plants so that you can\nplant them in your fields and multiply them.\nOf course, taste is also important, which is\n<br>\nwhy we have made it to the liking of the\npeople of Ethene. It is delicious both boiled\nand roasted. As a former director of Alchemia,\n<br>\nI put all my wisdom into these white, round\ndumplings. Please make use of them to explore\na new world."
+  },
+  "245273": {
+    "「ようこそ　<pc>様。\n　従者のモモンタルが　あなた様のご来訪を\n　ずっと　待っておりましたよ。": "Welcome <pc>. My squire Sanguintal\nhas been waiting for you all day."
+  },
+  "245274": {
+    "「ジーナフ君が　出発するのは　いつだモン？\n　急げば　間に合うと思うから　宝箱の中の\n　高機能錬金食品の本を　届けてほしいモーン！<open_irai>": "When is Genaf leaving? If you hurry, I'm sure\nyou'll make it in time, so please deliver the\nEfficient Alchemy Food Book in the treasure\n<br>\nchest!<open_irai>"
+  },
+  "245275": {
+    "<pc>は　宝箱をあけた。": "<pc> opened the treasure chest."
+  },
+  "245276": {
+    "<pc>は　宝箱の中から\n高機能錬金食品の本（だいじなもの）を\n手に入れた！<me 60>": "<pc> received Efficient Alchemy Food\nBook (Key Item) from treasure chest!<me 60>"
+  },
+  "245277": {
+    "東の島へと　旅立つ前の　ジーナフに\n高機能錬金食品の本を　届けよう。": "Deliver the Efficient Alchemy Food Book to\nGenaf before he leaves for the eastern\nislands."
+  },
+  "245278": {
+    "「久方ぶりに　思考を　フル回転させました。\n　さすがに　ワタクシも　疲れたので\n　このような姿勢で　失礼いたしますね。\n<br>\n「魔法生物の特性を　組み込むにあたり\n　自慢の弟子のひとり　アルテオが\n　遺した理論を　活用いたしました……ひっく。<bw_break>": "For the first time in a long time, my thoughts\nhave been fully engaged. As expected, I myself\nam tired, so please excuse my posture. In\n<br>\norder to incorporate the characteristics of\nmagical creatures, I utilized the theory left\nbehind by one of my proud disciples, Alteo.<bw_break>"
+  },
+  "245279": {
+    "<attr><feel_sad_one><end_attr>「……失礼。今のは　しゃっくりです。": "<attr><feel_sad_one><end_attr>Excuse me. That was a hiccup."
+  },
+  "245280": {
+    "「高機能錬金食品の本を　手に入れたなら\n　新天地へと　出発する前に\n　ジーナフ君に　届けてあげてほしいモ～ン。<open_irai>": "If you have received Efficient Alchemy Food\nBook, please deliver it to Genaf before he\nleaves for a new place.<open_irai>"
+  },
+  "245281": {
+    "「<pc>君には　ジーナフ君の\n　頼みを　聞いてやってほしいモ～ン。<open_irai><bw_break>": "I hope <pc> will do Genaf a favor.<open_irai><bw_break>"
+  },
+  "245282": {
+    "「高機能錬金食品が　作れない……？\n　何をおっしゃっているのか　わかりかねます。\n　錬成レシピに従えば　完成しますよ？<bw_break>": "You can't make high-performance alchemicals? I\ndon't know what you are talking about. If you\nfollow the alchemy recipe, it will be\n<br>\ncompleted, right?<bw_break>"
+  },
+  "245283": {
+    "<attr><feel_sad_one><end_attr>「……むにゃ。\n　思考を　フル回転させて　疲れました。\n　すこし休養が　必要です……ひっく。": "<attr><feel_sad_one><end_attr>Muni. I'm tired from all the thinking I've\nbeen doing. I need some rest."
+  },
+  "245284": {
+    "「……<pc>君。\n　とっても残念な　お知らせが　あるモン……。<bw_break>": "<pc>. I have some very unfortunate\nnews.<bw_break>"
+  },
+  "245285": {
+    "「集落にいた　ジーナフ君や　同志のみんなは\n　すでに　新天地へと　移住していて\n　自由人の集落から　いなくなっていたモ～ン。<open_irai><bw_break>": "Genaf and his comrades in the village had\nalready moved to a new place and were no\nlonger in Freedom Village.<open_irai><bw_break>"
+  },
+  "245286": {
+    "<attr><feel_sad_one><end_attr>「……むにゃ。\n　思考を　フル回転させて　疲れました。\n　すこし休養が　必要です……ひっく。": "<attr><feel_sad_one><end_attr>Muni. I'm tired from all the thinking I've\nbeen doing. I need some rest."
+  },
+  "245287": {
+    "「<pc>君。おかえりだモ～ン♪\n　さっき　気がついたんだけれど\n　ジーナフ君から　届け物が　きてたモ～ン。\n<br>\n「頼みを聞いてくれて　ありがとうって\n　メモが　添えられているモ～ン。\n　ボクからも　お礼を言うモン。ありがモーン！\n<br>\n「届け物は　見たことのない　みどり色の豆と\n　何かの錬金レシピの　写しだモン。\n　これは　チミが　受け取るといいモーン！": "<pc>. Welcome back........I just\nnoticed that I received a delivery from Genaf-\nkun. He wrote a note thanking me for doing\n<br>\nwhat he asked me to do. I want to thank you\ntoo. Thank you! The package contains green\nbeans of a color I've never seen before and a\n<br>\ncopy of some kind of alchemy recipe. I hope\nyou'll take it!"
+  },
+  "245288": {
+    "「ご主人は　悪魔の水の誘惑に負けて\n　グデングデンに　なってしまったけれど……。\n　大目に見てやって　ほしいんだモン。\n<br>\n「ご主人のレシピで　多くの同志が救われる……。\n　そんな予感が　ビンビンするモン。\n　ご主人は　ボクの　ほこりなんだモーン！": "Master has become a gudenguden (a doughy\nperson) because he was tempted by demon's\nwater. I hope you will tolerate him. I have a\n<br>\nfeeling that many comrades will be saved by\nhis recipe. I have a strong feeling that many\ncomrades will be saved by master's recipes.\n<br>\nMaster is my dust!"
+  },
+  "245289": {
+    "「ジーナフ君の頼みを　聞いてくれた\n　<pc>君に　ボクも　お礼を言うモ～ン。\n　さすがは　ファラス君の　ご友人だモン！\n<br>\n「ご主人のレシピで　多くの同志が救われる……。\n　そんな予感が　ビンビンするモン。\n　ご主人は　ボクの　ほこりなんだモーン！": "I also want to thank <pc> for doing\nGenaf's request. He is indeed a friend of Mr.\nFaras! I have a feeling that many comrades\n<br>\nwill be saved by the master's recipe. I have a\nstrong feeling that many comrades will be\nsaved by master's recipes. Master is my dust!"
+  },
+  "245440": {
+    "「ん？　住民が　減ってるだって？\n　そりゃあ　大半の同志たちが　脱出したからね。\n<br>\n「この島は　地震だ　隕石だと　何かと物騒だろ？\n　だから　避難のため　海の向こうにある\n　東の島に　移住することにしたんだ。<bw_break>": "What? Residents are dwindling? That's because\nmost of our comrades have left. Earthquakes,\nmeteorites, all kinds of things are happening\n<br>\non this island, right? So we decided to move\nto an island to the east, across the sea, for\nshelter.<bw_break>"
+  },
+  "245441": {
+    "「ん？　住民が　減ってるだって？\n　そりゃあ　大半の同志たちが　脱出したからね。\n<br>\n「この島は　地震だ　隕石だと　何かと物騒だろ？\n　だから　避難のため　海の向こうにある\n　東の島に　移住することにしたんだ。<bw_break>": "What? Residents are dwindling? That's because\nmost of our comrades have left. Earthquakes,\nmeteorites, all kinds of things are happening\n<br>\non this island, right? So we decided to move\nto an island to the east, across the sea, for\nshelter.<bw_break>"
+  },
+  "245448": {
+    "<close_irai>ジーナフの　頼みを聞くには\n東の島へ出発する前の　古・自由人の集落にいる\nジーナフに会いにいけば　いいようだ。": "<close_irai>It seems that in order to get Genaf's favor,\nwe should go to see him at the old Freedom\nVillage before leaving for the East Island."
+  },
+  "245449": {
+    "<close_irai>ジーナフが　東の島へ出発する前に\n食べ物を錬成するレシピを　作ってもらえるよう\nモモンタルに相談すれば　いいようだ。": "<close_irai>It would be good if Genaf could consult\nSanguintal to prepare a recipe for smelting\nfood before he leaves for the eastern islands."
+  },
+  "245477": {
+    "「……え？　あんた　ネブリィに　会いにきた？\n　残念だけど　遅かったね。\n　あいつは　先に　東の島に　旅立ったよ。\n<br>\n「とはいえ　地震も落ち着いたし　隕石も\n　どっかへ行っちまったようだ。今となっては　\n　新天地への移住は　早計だったかなぁ……。": "What? You came to see Nebri? I'm sorry, but\nyou're too late. He has already left for the\nEast Island. However, the earthquakes have\n<br>\ncalmed down and the meteorite seems to have\ngone away. Now I wonder if it was too soon to\nmove to the new place."
+  },
+  "245478": {
+    "「そういえば　ネブリィが　ここを旅立つ前に\n　奇妙なことを　話してたんだ。\n<br>\n「気づいたら　見知らぬ女の人が　家の中にいて\n　光と共に　消えちまったんだと。\n　……で　指輪を拾っただとか　なんとか。\n<br>\n「指輪は　ネブリィが　東の島に持っていったよ。\n　きっと　大切な指輪だろうから\n　落とし主に会えるまで　預かっておくってさ。": "You know, Nebri told me something strange\nbefore he left. He said that when he came to,\nhe found a strange woman in his house and she\n<br>\ndisappeared with a light. She picked up a ring\nor something. Nebri took the ring to the East\nIsland. She said it must be a very precious\n<br>\nring and that she would keep it until she\ncould find the owner."
+  },
+  "246940": {
+    "ジーナフから届いた　みどり色の豆は\n<pc>には　見覚えのある\nとても　なつかしい　豆だった……。": "The green beans that arrived from Genaf were\nvery familiar to <pc> and looked\nvery sweet."
+  },
+  "246942": {
+    "「<pc>君。おかえりだモ～ン♪\n　さっき　気がついたんだけれど\n　ジーナフ君から　届け物が　きてたモ～ン。\n<br>\n「頼みを聞いてくれて　ありがとうって\n　メモが　添えられているモ～ン。\n　ボクからも　お礼を言うモン。ありがモーン！": "<pc>. Welcome back........I just\nnoticed that I received a delivery from Genaf-\nkun. He wrote a note thanking me for doing\n<br>\nwhat he asked me to do. I want to thank you\ntoo. Thank you!"
+  },
+  "247475": {
+    "「……やっぱり　ジーナフ君に　会えないモン？\n　ううーん。それは　困ったモ～ン……。\n<br>\n「もしも　東の島へ出発する前に　戻れたら\n　この自由人の集落で　ジーナフ君に会えたのに\n　時　すでに遅し……なんだモ～ン。": "I still can't see Genaf? Hmmm... That's a\nproblem. If I could get back before leaving\nfor the East Island, I could have met Genaf-\n<br>\nkun here in Freedom Village, but it's already\ntoo late."
+  },
+  "247476": {
+    "「もしも　出発する前に　戻れたのなら\n　なんとしてでも　ご主人を説得して\n　食べ物のレシピを　作ってもらったのに……。\n<br>\n「ご主人なら　きっと　レシピを作れるモン。\n　だけど　時　すでに遅し……\n　<pc>君。ボクは　くやしいモ～ン。": "If I could have gotten back before I left, I\nwould have persuaded master to make me a\nrecipe for food at any cost. I'm sure master\n<br>\ncan make recipes. But it was already too late\n<pc>. I'm so disappointed."
+  },
+  "247477": {
+    "「……ご主人のレシピが　難しすぎるモン？\n　それは　錬金術師として　努力不足だモン。\n　ジーナフ君には　一層の精進を　求めるモ～ン。\n<br>\n「もし　ジーナフ君が　<pc>君に\n　助けてほしいと　望んでいるのなら\n　ぜひとも　協力してあげて　ほしいモーン！": "Master's recipe is too difficult? That's\nbecause you are not working hard enough as an\nalchemist. I ask Genaf to be more diligent. If\n<br>\nGenaf wants <pc> to help him, please\nhelp him!"
+  },
+  "247478": {
+    "「ご主人の説得に　夢中になっていて\n　同志たちが　あいさつに来てくれたことも\n　ボンヤリとしか　覚えてないモン……。\n<br>\n「新天地へと　出発する前だったら\n　この自由人の集落で　ジーナフ君に会えたのに\n　時　すでに遅し……なんだモ～ン。": "I was so engrossed in trying to persuade the\nmaster that I don't even remember that my\ncomrades came to greet me. If it had been\n<br>\nbefore I left for a new place, I would have\nmet Genaf at this Freedom Village, but it was\nalready too late."
+  }
+}
