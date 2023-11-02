@@ -1,0 +1,29 @@
+{
+  "200619": {
+    "<pipipi_mid>「おっと　<pc>君。\n　興味があるのは　わかるが\n　勝手に　いじってもらっては　困るな。": "<pipipi_mid>Oops <pc>. I understand your\ninterest, but I don't want you tinkering with\nit on your own."
+  },
+  "200620": {
+    "目の前の台に　埋め込まれたガラス板には\n光を放つ文字が　刻まれている。\n<br>\nどうやら　<pc>の知らない\n未知の技術が　使われているようだ。\n<br>\nガラス板に　触れてみますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Embedded in the stand in front of me is a\nglass plate engraved with glowing letters. It\nappears that an unknown technology, unknown to\n<br>\n<pc>, is being used. Would you like\nto touch the glass plate?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "200621": {
+    "何者かに　見られているような気配を感じる……。\n本当に　ガラス板に　触れてみますか？<yesno 2><case 1><break><case 2><close><case_cancel><close><case_end>": "I get the feeling that someone is watching me.\nWould you really like to touch the glass\nplate?<yesno 2><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "200622": {
+    "目の前の台に　埋め込まれたガラス板には\n光を放つ文字が　刻まれている。\n<br>\nどうやら　<pc>の知らない\n未知の技術が　使われているようだ。": "Embedded in the stand in front of me is a\nglass plate engraved with glowing letters. It\nappears that an unknown technology, unknown to\n<br>\n<pc>, is being used."
+  },
+  "201029": {
+    "何やら　レバーのようなものがある。\n引いてみますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "There's some kind of lever. Would you like to\npull it?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "201030": {
+    "<pc>は\nレバーのようなものを　思いっきり　引いた！<bw_break>": "<pc> pulled something like a lever as\nhard as he could!<bw_break>"
+  },
+  "201031": {
+    "どこからか　無機質な女性の声が\nひびいてきた。": "From somewhere, an inorganic woman's voice\ncame over."
+  },
+  "201032": {
+    "<pipipi_high>「警告！\n　当施設の　緊急自爆システムの\n　起動スイッチが　オンになりました。\n<br>\n「自己崩壊プログラムの　ロードを完了。\n　実行オペレーターの権限を　認証します。\n<br>\n「……生体認証エラー。権限外の入力につき\n　自己崩壊プログラムの開始を　キャンセル。\n　緊急自爆システムの起動は　中止されました。": "<pipipi_high>Warning! The activation switch for our\nfacility's emergency self-destruct system has\nbeen turned on. Completed loading the self-\n<br>\ndestruct program. Authenticating execution\noperator authorization. Biometric error. Start\nof self-destruct program canceled due to\n<br>\nunauthorized input. Emergency self-destruct\nsystem activation aborted."
+  },
+  "202820": {
+    "<pc>は　ガラス板に向けて\n手を伸ばそうとした。": "<pc> tried to reach for the glass\nplate."
+  }
+}
