@@ -1,0 +1,164 @@
+{
+  "94136": {
+    "「ここから　南東のジュレー島下層へ行き\n　東端のカヌーに乗って　レーナム緑野へ渡ると\n　祈りの宿ってぇ　建物に行き着きやす。\n<br>\n「さらに　そこから南東へ街道沿いに進むと\n　レーンの村ってぇ　ウェディたちが\n　暮らす村に　たどり着くんでさあ。\n<br>\n「まだ　行ったことがなければ\n　一度　行ってみると　いいですぜ。": "From here, go southeast to Lower Jule Island,\ntake a canoe at the east end and cross over to\nLenam Fields, where you will find a building\n<br>\ncalled Prayer Inn. If you continue southeast\nalong the road, you will reach Lane Village,\nwhere Weddie and his family live. If you have\n<br>\nnever been there, you should go there."
+  },
+  "94137": {
+    "「こりゃどうも　旅のお方。\n　あっしは　エバンってぇ　ケチな行商人でさあ。\n　以後　お見知りおきを。\n<br>\n「あっしの　仕事は\n　この馬車で　ジュレットの町からの\n　商品を　各所へ運ぶことなんでさあ。\n<br>\n「これから　レーンの村を経由して\n　海辺の交易所まで　行くんですが\n<br>\n「その辺りに　ご用は　おありですかい？\n　ご要望とあらば　乗せていきますぜ。<bw_break>": "Hello there, traveler. I'm Eban, a cheap\npeddler. I'm Eban, a small-time peddler. My\njob is to carry goods from Julet Town to\n<br>\nvarious places by this wagon. I'm going to the\nBeach Trading Post via Lane Village. If you\nwant, I can give you a ride.<bw_break>"
+  },
+  "94138": {
+    "「これから　祈りの宿を経由して\n　海辺の交易所まで　行くんですが\n<br>\n「その辺りに　ご用は　おありですかい？\n　ご要望とあらば　乗せていきますぜ。<bw_break>": "I'm on my way to the Beach Trading Post via\nthe Prayer Inn. If you want, I can give you a\nride.<bw_break>"
+  },
+  "94142": {
+    "「ただし　送るだけで　迎えには行けやせん。\n　それでも　いいなら　どこまで行きやすか？\n<name_off><select>\nレーンの村\n祈りの宿（レーナム緑野）\n浜辺の小屋（ラーディス王島）\n海辺の交易所（ヴェリナード領南）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": "But I can only drop you off, not pick you up.\nIf you don't mind, where would you like to go?\n<name_off><select>\nLane Village\nPrayer Inn (Lenam Fields)\nBeach Hut (King Ladis Island)\nBeach Trading Post (Verinard South)\nNo rides\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+  },
+  "94143": {
+    "<attr><feel_happy_lv2><end_attr>「まいど　どうも。\n　それじゃ　出発しますぜ！": "<attr><feel_happy_lv2><end_attr>Thank you very much. Well then, let's get\ngoing!"
+  },
+  "94144": {
+    "「おや。乗らないですかい。\n　では乗りたくなったら　また来ておくんなせい。": "Oh, well. You don't want to ride? Well, if you\nwant to ride, come back again."
+  },
+  "94145": {
+    "<pipipi_low>「おまっとさん！\n　祈りの宿に　着きやしたぜ。\n　では　あっしは　これにて失礼。": "<pipipi_low>Hey, guys! We've arrived at the Prayer Inn.\nNow, if you'll excuse me."
+  },
+  "94146": {
+    "<pipipi_low>「おまっとさん！\n　レーンの村に　着きやしたぜ。\n　では　あっしは　これにて失礼。": "<pipipi_low>Hey, guys! We have arrived at Lane Village.\nNow, if you'll excuse me."
+  },
+  "94147": {
+    "「おっと残念。金が足りないようですぜ。\n　金がある時に　また来ておくんなせい。": "Oops, too bad. It seems we are short of money.\nCome back when you have more money."
+  },
+  "94148": {
+    "「<%sL_TIMEI>まで\n　行くんですな。\n　お代２５ゴールドで　よろしいですかい？<yesno><break>": "You're going to <%sL_TIMEI>. 25 gold. Is that\nall right with you?<yesno><break>"
+  },
+  "94149": {
+    "「そうですかい。\n　では乗りたくなったら　また来ておくんなせい。": "I see. Well, if you ever want to ride again,\ncome back and see me."
+  },
+  "116573": {
+    "<pipipi_low>「おまっとさん！\n　浜辺の小屋に　着きやしたぜ。\n　では　あっしは　これにて失礼。": "<pipipi_low>Hey, Mr. Omatto! We've arrived at the beach\nhut. Now, if you'll excuse me."
+  },
+  "127401": {
+    "<pipipi_low>「おまっとさん！\n　海辺の交易所に　着きやしたぜ。\n　では　あっしは　これにて失礼。": "<pipipi_low>Hey there, guys! I've arrived at the Beach\nTrading Post. Now, if you'll excuse me."
+  },
+  "201111": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　聞いたぜ　きょうだい！\n　遊びクラブに　入会したんだってなぁ～！\n　んじゃ　俺とおんなじ　遊び人ってワケだ～！\n<br>\n「つーことで～　俺の舟に乗って\n　遊びハウスまで　遊びにいっちゃう？<yesno><break>": "<attr><feel_happy_lv1><end_attr>Whee! I heard that you guys have joined a play\nclub! I heard you joined a play club! So we're\ngadabout the same as me~! So, why don't you\n<br>\nget on my boat and take a ride to Gadabode?<yesno><break>"
+  },
+  "201057": {
+    "<attr><feel_happy_lv1><end_attr>「アハハ～。\n　ま～　そんな気分の時も　あるよな！\n　バイブス　アガってきたら　また来いよ！": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well~ Sometimes you're in that kind\nof mood, right? Come again when the vibes get\naggravated!"
+  },
+  "201058": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　イイ返事だぜ！\n　んじゃ　ひと波　乗りましょっか！": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!"
+  },
+  "201114": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　きょうだい　どったの？\n　遊びに行ったんじゃ　なかったっけ？\n　……ま～　遊びハウスまで　俺の舟で乗ってく？<yesno><break>": "<attr><feel_happy_lv1><end_attr>Whee~! Where are your siblings? I thought you\nwent to the beach. Well, you want to take my\nboat to Gadabode?<yesno><break>"
+  },
+  "201115": {
+    "<attr><feel_happy_lv1><end_attr>「アハハ～。\n　そりゃ　遊びのほうが　大事だわな！\n　俺の舟に　乗りたくなったら　また来いよ！": "<attr><feel_happy_lv1><end_attr>Ahahaha~. That's right, fun is more important!\nCome again if you want to take my boat!"
+  },
+  "201061": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　イイ返事だぜ！\n　んじゃ　ひと波　乗りましょっか！": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!"
+  },
+  "201117": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　きょうだい！\n　イタ映え絶景　ゲットしたんだな～！\n　俺の舟に乗って　遊びハウスに帰っちゃう？<yesno><break>": "<attr><feel_happy_lv1><end_attr>Whee~! Siblings! You got a great view! You\nwant to get on my boat and go back to\nGadabode?<yesno><break>"
+  },
+  "201060": {
+    "<attr><feel_happy_lv1><end_attr>「アハハ～。\n　ま～　そんな気分の時も　あるよな！\n　バイブス　アガってきたら　また来いよ！": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well~ Sometimes you're in that kind\nof mood, right? Come again when the vibes get\naggravated!"
+  },
+  "201065": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　イイ返事だぜ！\n　んじゃ　ひと波　乗りましょっか！": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!"
+  },
+  "201210": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　きょうだい！\n　イタ映え女王のミヤビに　会ったんだってな～！\n　んじゃ　俺の舟に乗って　遊びハウスに帰る？<yesno><break>": "<attr><feel_happy_lv1><end_attr>Whee~! Siblings! I heard that you met Miyabi,\nthe queen of the bad pictures! So, you wanna\nget on my boat and go back to Gadabode?<yesno><break>"
+  },
+  "201112": {
+    "<attr><feel_happy_lv1><end_attr>「アハハ～。\n　ま～　そんな気分の時も　あるよな！\n　バイブス　アガってきたら　また来いよ！": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well~ Sometimes you're in that kind\nof mood, right? Come again when the vibes get\naggravated!"
+  },
+  "201068": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　イイ返事だぜ！\n　んじゃ　ひと波　乗りましょっか！": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!"
+  },
+  "201244": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　きょうだい！\n　なんか　あま～い香りがするな～？\n　俺の舟に乗って　遊びハウスに帰る？<yesno><break>": "<attr><feel_happy_lv1><end_attr>Whee~! Siblings! What's that sweet smell? You\nwant to get on my boat and go back to\nGadabode?<yesno><break>"
+  },
+  "201118": {
+    "<attr><feel_happy_lv1><end_attr>「アハハ～。\n　ま～　そんな気分の時も　あるよな！\n　バイブス　アガってきたら　また来いよ！": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well~ Sometimes you're in that kind\nof mood, right? Come again when the vibes get\naggravated!"
+  },
+  "201113": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　イイ返事だぜ！\n　んじゃ　ひと波　乗りましょっか！": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!"
+  },
+  "201273": {
+    "<attr><feel_normal_lv1><end_attr>「ウィ～……　どったの？\n　シケたカオして　元気ねーな？\n　とりま　遊びハウスまで行くか～？<yesno><break>": "<attr><feel_normal_lv1><end_attr>Hey, what's up? What's the matter? You don't\nlook so good, with your sissy face? Let's just\ngo to Gadabode, shall we?<yesno><break>"
+  },
+  "201274": {
+    "<attr><feel_normal_lv1><end_attr>「アハハ～。\n　まー　事情はしらねーが　元気だせよ！\n　バイブス　アガってきたら　また来いよな！": "<attr><feel_normal_lv1><end_attr>Ahahaha~! Well, I don't know what's going on,\nbut cheer up! Vibes, when you get aggravated,\ncome back again!"
+  },
+  "201116": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　イイ返事だぜ！\n　んじゃ　ひと波　乗りましょっか！": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!"
+  },
+  "201338": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　遊び人のヒーロー！\n　今日の波も　イイ感じだぜ！\n　俺の舟に乗って　遊びハウスに行っちゃう？<yesno><break>": "<attr><feel_happy_lv1><end_attr>Whee~! Hero of gadabout! Today's waves are\ngreat too! Wanna get on my boat and go to\nGadabode?<yesno><break>"
+  },
+  "201339": {
+    "<attr><feel_happy_lv1><end_attr>「アハハ～。\n　まー　そんな気分の日も　あるよな！\n　バイブス　アガってきたら　また来いよ！": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well, there are days when I'm in\nthat kind of mood! Come again when the vibes\nget aggravated!"
+  },
+  "201119": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　イイ返事だぜ！\n　んじゃ　ひと波　乗りましょっか！": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!"
+  },
+  "201054": {
+    "「俺は～　ここら辺の　波を愛する\n　フリーな　遊び人の船乗りなんだけど～！\n　遊びクラブの代表とは　ダチなんだよね～！\n<br>\n「アンタ　知ってる～？　遊びクラブ！\n　遊び人が集まってさ～　いろんな遊びしまくる\n　とにかく　イケてるクラブなワケ！\n<br>\n「そんで　遊びクラブに　入りたそ～な人がいたら\n　連れてきてくれって　頼まれてんだけど～\n<br>\n「……う～ん　きょうだい　アンタはまだ\n　連れてくワケには　いかない　感じだな～。\n　いや　遊びってさ～　何気に金かかるじゃん？\n<br>\n「ワリィけど　アンタ　あんまり　金なさそうだし\n　ある程度　生活にヨユーの　ありそうなヤツしか\n　誘わないように　してるワケなのよ　俺は～。\n<br>\n「見た目で　判断するなって～？　いやいや\n　遊び人は　見た目が大事っしょ！　っつー\n　ポリシーで　やってま～す！　ウィ～！\n<br>\n「ま～　でも　そうだな～。ほかの職業が\n　何かひとつでも　レベル５０になったら\n　それなりに　生活に　ヨユー出てくるっしょ！\n<br>\n「つーことで　そんときゃ　また\n　シクヨロちゃんで～す！　ウィ～！": "I'm a free gadabout sailor who loves the waves\naround here! I'm friends with the head of the\nplay club! You know who that is? Play club!\n<br>\nIt's a cool club where gadabouts get together\nand have all kinds of fun! And they asked me\nto bring anyone who might want to join the\n<br>\nplay club... but I don't think I can bring you\nyet. I don't know... fun is kind of expensive,\nyou know? I know you don't seem to have a lot\n<br>\nof money, so I only invite people who seem to\nhave a certain amount of money to live on.\nYou're saying I shouldn't judge people by\n<br>\ntheir looks? No, no, looks are important in\ngadabout! That's our policy! Whee~! Well~ But\nyou're right~. If you reach level 50 in any of\n<br>\nthe other locations, you'll be able to live a\nmore comfortable life! So, in that case, I'll\nbe looking forward to seeing you again! Whee~!"
+  },
+  "201055": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　きょうだい！\n　今日の波も　イイ感じだぜ！": "<attr><feel_happy_lv1><end_attr>Whee~! Hey, guys! Today's wave is also nice!"
+  },
+  "201056": {
+    "<attr><feel_happy_lv1><end_attr><icon_exc>「あ～！　もしかして～！\n　遊びクラブに　入会したい系の人？\n<br>\n「俺は～　ここら辺の　波を愛する\n　フリーな　遊び人の船乗りなんだけど～！\n　遊びクラブの代表とは　ダチなんだよね～！\n<br>\n「そんで　遊びクラブに　入りたそ～な人がいたら\n　連れてきてくれって　頼まれてんだけど～\n　俺の舟で　遊びハウスまで　行っちゃうかい？<yesno><break>": "<attr><feel_happy_lv1><end_attr><icon_exc>Ah~! Could it be? Are you the kind of guy who\nwants to join a fun club? I'm a free gadabout\nsailor who loves the waves around here! I'm\n<br>\nfriends with the head of the fun club! And he\nasked me to bring anyone who might be\ninterested in joining the club to Gadabode on\n<br>\nmy boat.<yesno><break>"
+  },
+  "201211": {
+    "<attr><feel_happy_lv1><end_attr>「アハハ～。\n　ま～　そんな気分の時も　あるよな！\n　バイブス　アガってきたら　また来いよ！": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well~ Sometimes you're in that kind\nof mood, right? Come again when the vibes get\naggravated!"
+  },
+  "201212": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　イイ返事だぜ！\n　んじゃ　ひと波　乗りましょっか！": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!"
+  },
+  "201059": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　きょうだい！\n　今日の波も　イイ感じだぜ！\n　俺の舟に乗って　遊びハウスに行っちゃう？<yesno><break>": "<attr><feel_happy_lv1><end_attr>Whee~! Hey, guys! Today's surf is great too!\nHow about we get on my boat and go to\nGadabode?<yesno><break>"
+  },
+  "201245": {
+    "<attr><feel_happy_lv1><end_attr>「アハハ～。\n　ま～　そんな気分の時も　あるよな！\n　バイブス　アガってきたら　また来いよ！": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well~ Sometimes you're in that kind\nof mood, right? Come again when the vibes get\naggravated!"
+  },
+  "201246": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　イイ返事だぜ！\n　んじゃ　ひと波　乗りましょっか！": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!"
+  },
+  "201062": {
+    "<%sEV_QUE_NAME0>は　ネコヤシの実を\n落としていった！\nネコヤシの実を　<%nEV_QUE_T_NUM0>個　集めおわった！\n<br>\n<pc>は\nネコヤシの実（だいじなもの）を　手に入れた！\n遊びハウスのルッチーに渡そう。": "<%sev_que_name0> dropped off a Cat Coconut! I\nhave collected <%nev_que_t_num0> Cat Coconut!\n<pc> received Cat Coconut (Key Item)!"
+  },
+  "201063": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　きょうだい！\n　なんか　集めおわったって　カオしてんな～？\n　俺の舟に乗って　遊びハウスに行っちゃう？<yesno><break>": "<attr><feel_happy_lv1><end_attr>Whee~! Siblings! What's that look on your face\nwhen you're done collecting? You wanna get on\nmy boat and go to Gadabode?<yesno><break>"
+  },
+  "201064": {
+    "<attr><feel_happy_lv1><end_attr>「アハハ～。\n　まー　そんな気分の時も　あるよな！\n　バイブス　アガってきたら　また来いよ！": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well, there are times when I'm in\nthat kind of mood! Come again when the vibes\nget aggravated!"
+  },
+  "201275": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　イイ返事だぜ！\n　んじゃ　ひと波　乗りましょっか！": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!"
+  },
+  "201066": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　きょうだい！\n　ルッチーが　アンタを探してたみたいだぜ！\n　俺の舟に乗って　遊びハウスに行っちゃう？<yesno><break>": "<attr><feel_happy_lv1><end_attr>Whee~! Siblings! Looks like Lucchie's been\nlooking for you! How about we get on my boat\nand go to Gadabode?<yesno><break>"
+  },
+  "201067": {
+    "<attr><feel_happy_lv1><end_attr>「アハハ～。\n　まー　そんな気分の時も　あるよな！\n　バイブス　アガってきたら　また来いよ！": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well, there are times when I'm in\nthat kind of mood! Come again when the vibes\nget aggravated!"
+  },
+  "201340": {
+    "<attr><feel_happy_lv1><end_attr>「ウィ～！　イイ返事だぜ！\n　んじゃ　ひと波　乗りましょっか！": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!"
+  },
+  "10228000": {
+    "「ここは　ラーディス王島行きの\n　渡し船乗り場ですぜ。女王様の統治のおかげで\n　タダとなっておりやすが……\n<br>\n「申し訳ねえが　今は　ちょいと　休業中\n　なんでさあ。いやね　渡し船を漕ぐための\n　オールが　どっかいっちまいまして。\n<br>\n「今　代わりのオールが届くのを\n　待っているんでさあ。少し　時間が　かかると\n　思うんで　またあとで　来ておくんなせえ。\n<br>\n「おっと　そうだ。ここから北にある\n　ジュレットの町には　もう行きましたかい？\n　時間をつぶすには　ちょうどいい場所ですぜ。": "This is the ferry pier to King Ladis Island.\nThanks to the Queen's rule, it's free of\ncharge, but I'm sorry to say that it's closed\n<br>\nfor a bit now. Well, the Oar for rowing the\nferry has gone somewhere. We are waiting for a\nreplacement to arrive. I think it will take\n<br>\nsome time, so please come back later. Oh,\nthat's right. Have you been to Julet Town\nnorth of here yet? It's a good place to kill\n<br>\nsome time."
+  },
+  "35535": {
+    "「オイラは　折れたオールのヤツを直してます。\n<br>\n「その間に　あの娘っ子の様子を\n　見てきてくれませんかね　お客さん。": "I'm fixing Broken Oar's stuff. In the\nmeantime, would you go check on that little\ngirl, please, sir."
+  },
+  "35536": {
+    "「やあ　お客さん。\n　やっと　オールが直ったところなんでさあ。\n<br>\n「あの娘っ子は　どんな様子でした？\n　町へ帰るって言ってましたかい？<yesno><break>": "Hey there. I just got Oar fixed. How was the\nlittle girl? Did she say she was going back to\ntown?<yesno><break>"
+  },
+  "35537": {
+    "「そうですかい。そんなら　いいんです。\n<br>\n「いやあ　お手間を取らせました。\n　今度こそ　ラーディス王島へ行きましょうや。": "I see. If that's the case, it's all right.\nWell, thank you for your time. Let's go to\nKing Ladis Island this time."
+  },
+  "35538": {
+    "「そうですかい。そんなら　しかたない。\n　しばらくすりゃあ　勝手に帰っていくでしょう。\n<br>\n「いやあ　お手間を取らせました。\n　今度こそ　ラーディス王島へ行きましょうや。": "I see. Well, then, that's all right. After a\nwhile, they will go home on their own. Well,\nthank you for your time. Let's go to King\n<br>\nLadis Island this time."
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "10244000": {
+    "<attr><feel_normal_lv1><end_attr>「ヴェリナード城の屋根は　世にもめずらしい\n　白亜の貝がらを　もとにして\n　デザインされたものらしいんです。\n<br>\n「ウワサでは　とってもキレイな貝がらで\n　見ているだけで　海の生き物のざわめきや\n　潮騒までも　聴こえてくるとかこないとか。\n<br>\n「そんな貝がらをモチーフにすれば\n　見ただけで　波のさざめきが聴こえてくるような\n　ステキな便せんが　作れそうですよね！": "<attr><feel_normal_lv1><end_attr>The roof of Verinard Castle was\ndesigned based on a unique chalk\nshell. Rumor has it that it is a very\n<br>\nbeautiful shell, and just by looking\nat it, you can hear the murmur of sea\ncreatures and even the roar of the\n<br>\ntide. If you use such shells as a\nmotif, you can make wonderful letter\npaper that makes you feel as if you\n<br>\ncan hear the rustling of waves just by\nlooking at it, can't you?"
+  },
+  "41934": {
+    "「おや　なんだい　あんた。\n　ソネーゼってのは　あたしのことだけど……。\n　うちに　何か用かい？<yesno><break>": "Oh, what's the matter, you? Soneize is\nme. What can I do for you?<yesno><break>"
+  },
+  "41935": {
+    "<attr><feel_angry_lv1><end_attr>「用がないなら　帰っておくれ。\n　うちには　珍しいモンなんて　ないよ。": "<attr><feel_angry_lv1><end_attr>If you have nothing to do, please\nleave. We don't have anything rare."
+  },
+  "41936": {
+    "<attr><feel_think_lv1><end_attr>「……はあ。ソーミャの両親について\n　知りたいってのかい？\n<br>\n「ソーミャに　あたしのことを聞いたんだね。\n　じゃあ　教えないわけには　いかないか。\n<br>\n「あたしが　ソーミャを育てていたのは事実さ。\n　でもね。拾ったというのは　ウソなんだよ……。\n<br>\n「本当は　見ず知らずの夫婦に頼まれて\n　ソーミャを　預かることになったのさ。\n<br>\n「あたしは　預かる気なんか　なかったんだよ。\n　でも　その夫婦の思いつめた様子を見て\n　どうしても　断れなくてさ……。\n<br>\n「その後　ふたりは　大地の箱舟に乗って\n　どこかへ行っちまったから\n　名前も知らないし　カオも覚えてないけどね。\n<br>\n「そうだ。あんたに渡しておこうかね。\n　その夫婦が　あたしに預けた手紙があるのさ。": "<attr><feel_think_lv1><end_attr>You want to know about Somya's\nparents? You asked Somya about me.\nWell, how could I not tell you? It is\n<br>\ntrue that I raised Somya. But you know\nwhat? I lied when I said I found her.\nI was asked by a couple of strangers\n<br>\nto take care of Somya. I had no\nintention of taking care of her. But\nwhen I saw how distressed they were, I\n<br>\njust couldn't say no. After that, they\nwent away on the Ark of the Earth, so\nI don't remember their names or faces.\n<br>\nBut you're right. I'll give them to\nyou. I have a letter that they left\nwith me."
+  },
+  "41937": {
+    "<pc>は　ソネーゼから\nソーミャ宛ての手紙（だいじなもの）を\n受け取った！<me 60>": "<pc> received Letter to Somya\n(Key Item) from Soneize!<me 60>"
+  },
+  "41938": {
+    "「ソーミャも　そろそろ　両親のことを\n　知ってもいい年頃だろうからね。\n<br>\n「つらいことが　書いてあるかもしれない。\n　でも　そういうことを知って\n　あの子は　オトナになっていかなきゃ。": "Somya is probably old enough to know\nabout her parents. There may be\npainful things written about them. But\n<br>\nshe has to grow up knowing such\nthings."
+  },
+  "41939": {
+    "<attr><feel_think_lv1><end_attr>「ソーミャも　そろそろ　両親のことを\n　知ってもいい年頃だろうね。\n<br>\n「その手紙で　ソーミャは　つらいことを\n　知ってしまうかもしれないけれど\n　それが　オトナになるってことなんだよ。": "<attr><feel_think_lv1><end_attr>Somya is probably old enough to know\nabout her parents. Somya may know some\nhard things from that letter, but\n<br>\nthat's what it means to be an adult."
+  },
+  "41988": {
+    "「ふうふう。酒場に買い出しに来るのは\n　なんとも　ひと苦労じゃのう……。\n<br>\n「おんや？　なんじゃね　あんたは。\n　わしゃ　確かに　以前に城で書庫係だった\n　ケーモスという者じゃが……。\n<br>\n「……ほほう。王子の勉強のために\n　王家の古代文字で書かれた本が　必要とな？\n<br>\n「ふ～む。図書室にあった　古い王家の本は\n　どこかに　片付けたんじゃったよなあ。\n　はて　どこじゃったかのう……。\n<br>\n「おお　そうじゃ……。\n　あんた　<%sEV_QUE_NAME4>を持ってきて\n　わしに　ゆずっては　くれんかのう？\n<br>\n「そうしてくれたら　よろこびのあまり\n　忘れていたことも　思いだせそうなんじゃ！": "Coming to the tavern to buy groceries\nis quite a task, isn't it? Hello? What\nare you? I am indeed Keimos, who used\n<br>\nto be in charge of the archives at the\ncastle. I see. You need a book written\nin the ancient script of the royal\n<br>\nfamily for the prince's study?\nHmmm...I thought I had put all the old\nroyal books in the library away\n<br>\nsomewhere. Well, where is it? Oh, yes.\nCould you bring me <%SEV_QUE_NAME4>\nand give it to me? It would be a\n<br>\npleasure to do so, and I might even\nremember things I've forgotten!"
+  },
+  "41989": {
+    "「図書室にあった　古い王家の本を\n　どこかに　片付けたんじゃが\n　どこに片付けたか　忘れてしまってのう……。\n<br>\n「<%sEV_QUE_NAME4>を　ゆずってくれたら\n　よろこびのあまり　思いだせそうなんじゃ。\n　もし　持っていたら　ゆずってくれんかのう？<yesno><case 1><close><case 2><break><case_cancel><break><case_end>": "I put the old royal books in library\naway somewhere, but I forgot where I\nput them. If you could give me\n<br>\n<%sEV_QUE_NAME4>, I would be delighted\nto remember it. If you have it, could\nyou give it to me?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>"
+  },
+  "41990": {
+    "「なんじゃ　ケチじゃのう。\n　それをもらえれば　王家の本のことを\n　思いだせそうなんじゃがなあ。": "What a stingy fellow. If you give it\nto me, I'll remember the Book of\nKings."
+  },
+  "41991": {
+    "「ゆずってもらえるのは　いいが\n　<%sEV_QUE_NAME4>を　持っておらんぞ？\n　手に入れてから　来てほしいのう。": "It's nice of you to give it to me, but\nyou don't have <%sEV_QUE_NAME4>.\nYou'll have to come back and get it."
+  },
+  "41992": {
+    "「おおっ　これは　ありがたや。\n　ずーっと　ほしかったんじゃよ　これ。\n<br>\n「……むむっ　思いだしたぞ！！\n<br>\n「あまりにも古い　王家の本は\n　城の大使室の本棚の　奥のほうに\n　押し込めたんじゃったわ！\n<br>\n「どの本棚だったかは　忘れてしもうたが\n　とにかく　大使室にある本棚を探せば\n　お望みのものが　見つかると思うぞ。": "Oh, thank you for this. I've been\nwanting one of these for a long time.\nI remember now! I had shoved the too-\n<br>\nold books of the royal family into the\nback of the bookshelf in the\nambassador's office in the castle! I\n<br>\ndon't remember which bookshelf it was,\nbut anyway, if you search the\nbookshelves in the ambassador's\n<br>\noffice, I'm sure you'll find what\nyou're looking for."
+  },
+  "42030": {
+    "<pc>は　ケーモスに\n<%sEV_QUE_NAME4>を　渡した！": "<pc> passed <%sEV_QUE_NAME4>\nto Keimos!"
+  },
+  "41993": {
+    "「城の大使室の本棚の　奥のほうに\n　古い王家の本を　押し込めてあるんじゃ。\n<br>\n「どの本棚だったかは　忘れてしもうたが\n　とにかく　大使室にある本棚を探せば\n　お望みのものが　見つかると思うぞ。": "I have some old royal books stashed\naway in the back of a bookshelf in the\nambassador's office in the castle. I\n<br>\ndon't remember which bookshelf it was,\nbut in any case, if you search the\nbookshelves in the ambassador's\n<br>\noffice, you'll find what you're\nlooking for."
+  },
+  "41994": {
+    "「オーディス王子は　古代の文字を勉強して\n　歴史などを読み解く気なのじゃろう。\n<br>\n「どうやら　本気で男の王になる\n　おつもりのようじゃな。": "Prince Odis must be studying ancient\nscripts and trying to decipher\nhistory. It seems that he really wants\n<br>\nto be a king of men."
+  },
+  "48323": {
+    "<attr><feel_angry_one><end_attr>「ギリギリギリ……　うちのヨメのやつめ。\n　本当に　憎らしいったら　ありゃしない。\n　もう　ガマンの限界じゃよ……。\n<br>\n「アレさえ　手に入れることができれば\n　うるさいヨメを　だまらせる\n　禁断の薬が　作れるものを……。": "<attr><feel_angry_one><end_attr>Just in time. That's my wife. I really\nhate her. I can't take it anymore. If\nonly I could get my hands on that\n<br>\nthing, I could make a forbidden potion\nthat would make my noisy wife stop."
+  },
+  "48324": {
+    "<attr><feel_normal_lv1><end_attr><icon_exc><turn_pc>「おんやぁ。お前さん　いけない人じゃねぇ。 \n　ワシの　ヒミツの　ひとりごとを\n　盗み聞きするなんて。\n<br>\n「ああ　そうともさ。ワシは　もう　耐えられん。\n　あのヨメに　好き勝手させたまま\n　余生を送るなんて　まっぴらゴメンじゃ。\n<br>\n「なあ　お前さん……。 \n　ワシの　ひとりごとを聞いたのじゃから\n　禁断の薬の材料を　取ってきてはくれんかのう？\n<br>\n「薬の材料は　ヴァース大山林に現れる \n　<%sEV_QUE_NAME0>という魔物が\n　落とすという　じごくのネギボーズじゃ。\n<br>\n「ワシの代わりに　この材料を \n　取ってきておくれよ。\n　老い先短い　年寄りの願いじゃ。頼む！": "<attr><feel_normal_lv1><end_attr><icon_exc><turn_pc>Hey there. You're not a bad person,\nare you?Eavesdropping on my secret\nconversations. Oh, that's right. I\n<br>\ncan't stand it any longer. I can't\nlive the rest of my life with that\nwoman doing whatever she pleases. Hey,\n<br>\nyou.Now that you've heard my\nsoliloquy, could you please fetch me\nthe ingredients for the forbidden\n<br>\nmedicine? The ingredients for the\npotion are Hellish Onion Flower, which\nis dropped by a monster named\n<br>\n<%SEV_QUE_NAME0> that appears in Verse\nMountain Forest. Please fetch this\ningredient for me. It is the wish of\n<br>\nan old man with a short life\nexpectancy. Please!"
+  },
+  "48325": {
+    "<attr><feel_happy_lv2><end_attr>「ありがたい！　頼まれてくれるか！ \n　では　くれぐれも　ヨメには内密に……。\n　ヒッヒッヒ。": "<attr><feel_happy_lv2><end_attr>Thanks! Will you do me a favor?Well\nthen, please don't tell my wife. Hee-\nhee-hee."
+  },
+  "48326": {
+    "<attr><feel_normal_lv1><end_attr>「ヒョ。どうやら　お前さん\n　頼まれごとを　抱えすぎておるようじゃな。 \n　すまんが　もっと余裕がある時に　来ておくれ。": "<attr><feel_normal_lv1><end_attr>Hyoh. It seems you are taking on too\nmany requests.I'm sorry, but please\ncome back when you have more time."
+  },
+  "48327": {
+    "<attr><feel_sad_lv1><end_attr>「ヒョ。そうか。それは残念じゃ……。": "<attr><feel_sad_lv1><end_attr>Hyo. I see. That's too bad."
+  },
+  "48362": {
+    "<attr><feel_normal_lv1><end_attr>「禁断の薬を　作ることができれば \n　うるさいヨメを　だまらせられる。\n<br>\n「禁断の薬の材料は　ヴァース大山林に現れる \n　<%sEV_QUE_NAME0>という魔物が\n　落とすという　じごくのネギボーズじゃ。<open_irai><bw_break>": "<attr><feel_normal_lv1><end_attr>If you can make the forbidden potion,\nyou can calm down a noisy wife. The\nmaterial of the forbidden medicine is\n<br>\nHellish Onion Flower, which is dropped\nby a monster named <%sev_que_name0>\nthat appears in Verse Mountain Forest.<open_irai><bw_break>"
+  },
+  "48363": {
+    "<attr><feel_normal_lv1><end_attr><close_irai>「老い先短い　年寄りの願いじゃ。\n　どうか　よろしく頼むぞい！": "<attr><feel_normal_lv1><end_attr><close_irai>It is the wish of an old man with a\nshort life expectancy. Please do me a\nfavor!"
+  },
+  "48328": {
+    "<attr><feel_happy_lv1><end_attr>「ヒヒヒ……。よく　戻ってきたのう。 \n　じごくのネギボーズを　手に入れたのかえ？": "<attr><feel_happy_lv1><end_attr>Hee-hee. You've come back well.Did you\nreceive Hellish Onion Flower?"
+  },
+  "48329": {
+    "ウィーマに\nじごくのネギボーズを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Wiema the Hellish Onion\nFlower?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "48330": {
+    "<attr><feel_sad_lv1><end_attr>「ヒョ……。 \n　まだ　手に入れておらんかったか。\n　すまんのう。どうにも　気が急いてしもうてな。": "<attr><feel_sad_lv1><end_attr>Oh, no.I didn't get it yet. I'm sorry.\nI was in a bit of a hurry."
+  },
+  "48331": {
+    "<pc>は　ウィーマに\nじごくのネギボーズを　渡した！": "<pc> gave Wiema a Hellish\nOnion Flower!"
+  },
+  "48332": {
+    "<attr><feel_happy_lv3><end_attr>「ギヒヒヒ！　これじゃ　これじゃ。 \n　さあ　礼を受け取っておくれ。\n　もちろん　口止め料も込みじゃからな。": "<attr><feel_happy_lv3><end_attr>Gihihee! This is it. This is it.Now,\nplease accept my gratitude. Of course,\nthe hush money is included."
+  },
+  "48333": {
+    "<attr><feel_happy_lv3><end_attr>「これで……これで　ようやく \n　レーンの村に伝わる　秘伝の妙薬……\n　イビキシラズを　作ることができるわい！\n<br>\n「うちのヨメのイビキときたら　とにかく\n　うるさすぎてな。長い間　ゆっくり\n　眠ることも　かなわなかったのじゃ。\n<br>\n「じゃが　妙薬イビキシラズさえ　あれば\n　ヨメもスヤスヤ　ワシもスヤスヤで\n　ワシの睡眠ライフは　安泰じゃ！": "<attr><feel_happy_lv3><end_attr>With this, I can finally make\nIbixyraz, a secret remedy passed down\nin Lane Village! My wife snores so\n<br>\nloudly. For a long time, I couldn't\neven get a good night's sleep. But if\nI have the miracle drug Ibixyraz, she\n<br>\nwill sleep soundly and I will sleep\nsoundly, and my sleeping life will be\nsafe and sound!"
+  },
+  "48334": {
+    "<attr><feel_happy_lv1><end_attr>「なんで　イビキ止めの妙薬イビキシラズが\n　禁断の薬と　呼ばれておるかと言うとな。\n　イビキは　確実に止まるのじゃが……\n<br>\n「その代わり　背中のヒレが　カユくなるという \n　それは恐ろしい副作用が　あるからなんじゃ！\n<br>\n「……まあ　うちのヨメは　鈍感じゃし\n　たぶん　問題ないじゃろうがな。\n　ヒッヒッヒ。": "<attr><feel_happy_lv1><end_attr>The reason why Ibixylaz, the wonder\ndrug to stop snoring, is called the\nforbidden drug is because it surely\n<br>\nstops snoring, but at the same time,\nit has the terrible side effect of\nmaking the fins on your back itch! The\n<br>\nreason why it is called \"forbidden\nmedicine\" is because, although it\ndefinitely stops snoring, it has the\n<br>\nterrible side effect of making the\nfins on one's back itch! Well, my wife\nis insensitive, so it probably won't\n<br>\nbe a problem. Hee-hee-hee."
+  },
+  "146895": {
+    "「どこかに　お手頃な価格で　錬金効果を\n　つけてくれる職人が　いないものかな。": "I wonder if there is a craftsman\nsomewhere who can add alchemical\neffects at a reasonable price."
+  },
+  "49321": {
+    "「ヴェリナード教会へ　ようこそ。\n　この教会には　毎日　さまざまな人たちが\n　訪れますのよ。\n<br>\n「その人たちの　話を聞いているだけで\n　私は　まるで　世界中を旅しているような\n　気持ちになれるのです。": "Welcome to Verinardchurch. Everyday\npeople from all walks of life visit\nthis church. Just by listening to\n<br>\ntheir stories, I feel as if I am\ntraveling around the world."
+  },
+  "49322": {
+    "「ヴェリナード教会へ　ようこそ。\n　旅の方　あわてているようですが\n　何か　あったのですか？": "Welcome to Verinardchurch. I see\nyou're in a bit of a hurry to get to\nVerinardchurch."
+  },
+  "49323": {
+    "「まあ　そんな大変なことが……。\n　わかりました。メラゾ熱で　お困りなら\n　お話しできることが　あります。\n<br>\n「……ずいぶんと以前の話になります。\n　エルフの女性が　この教会に入るや倒れ込み\n　気づいた私は　急いで駆け寄りました。\n<br>\n「魔物に襲われたのでしょうか。ひどいキズで……\n　何か言おうと　女性が　クチを動かしたので\n　私は　彼女の口元に　耳をよせました。\n<br>\n「その女性は　かすれる声で言いました。\n　いつか　メラゾ熱が　はやることがあったら\n　自分の言葉を　思いだしてほしいと。\n<br>\n「ブーナー熱帯雨林の東　小さな石碑の下に\n　あるものを隠した。\n　きっと　助けになるはずだから　調べてほしい。\n<br>\n「……私に　そう言葉を託されたのです。\n　ブーナー熱帯雨林までは　かなりの距離。\n　しっかりと準備をしてから　出発されますよう。": "Oh, my God, it's such a big deal.\nOkay, if you're having trouble with\nKafrizz Fever, there's something I can\n<br>\ntell you. It was a long time ago. A\nwoman in Elf fell down as soon as she\nentered the church and I rushed over\n<br>\nto her when I noticed. I think she was\nattacked by a monster. The woman moved\nher mouth to say something, and I put\n<br>\nmy ear to her mouth. I put my ear to\nher mouth and the woman said in a\nhushed voice, \"One day I will have\n<br>\nKafrizz Fever. The woman said in a\nfaint voice, \"If Kafrizz Fever ever\nbecomes popular, I want you to\n<br>\nremember my words. I hid something\nunder a small stone monument east of\nBooner Rainforest. I hope you will\n<br>\nlook into it, because it might help\nyou. He asked me to look into it. It\nis a long way to Booner Rainforest.\n<br>\nPlease be well prepared before you\nleave."
+  },
+  "49324": {
+    "<pc>は　キャソーに\nこれまでのことを話した。": "<pc> told Kyasso what had\nhappened so far."
+  },
+  "49325": {
+    "「ヴェリナード教会へ　ようこそ。\n　旅の方　もう一度　エルフの女性が\n　私に託した言葉を　伝えましょう。\n<br>\n「ブーナー熱帯雨林の東　小さな石碑の下に\n　あるものを隠した。\n　助けになるはずだから　調べてほしい。\n<br>\n「……ブーナー熱帯雨林までは　かなりの距離。\n　しっかりと準備をしてから　出発されますよう。\n　旅の安全を　お祈りいたします。": "Welcome to Verinardchurch. Travelers,\nlet me once again share with you the\nwords that the lady Elf entrusted to\n<br>\nme. I hid something under a small\nstone monument east of Booner\nRainforest. It should help you, so\n<br>\nplease look into it. It is a long way\nto Booner Rainforest. Please be well\nprepared before you leave. I wish you\n<br>\na safe trip."
+  },
+  "49326": {
+    "「ヴェリナード教会へ　ようこそ。\n　旅の方　石碑を調べに　ブーナー熱帯雨林へ\n　行かれたのですね。\n<br>\n「手に入れたものは　どうぞお持ちください。\n　それで　メラゾ熱の流行を止められたなら\n　何よりです。": "Welcome to Verinardchurch. I see that\nyou went to Booner Rainforest to check\nout the stone monument. Please take\n<br>\nwhat you received with you. I'm glad\nyou were able to stop the Kafrizz\nFever epidemic."
+  },
+  "49327": {
+    "「ヴェリナード教会へ　ようこそ。\n　メラゾ熱は　大事に至らなかったのですね……。\n　神に感謝いたします。\n<br>\n「言いそびれておりましたが　じつは\n　昔　この教会に現れた　エルフの女性は\n　なんとか　一命を取りとめていたのです。\n<br>\n「しかし　自分が　生きていると知れれば\n　王都カミハルムイにいる娘に　危険がおよぶ。\n　だから　死んだことにしてほしい。\n<br>\n「そう言い残して　このヴェリナード教会から\n　姿を消したのです。": "Welcome to Verinardchurch. Kafrizz\nFever didn't turn out to be serious,\ndid it? Thank God. I forgot to mention\n<br>\nthat the Elf woman who appeared at the\nchurch in the past managed to survive.\nHowever, if her daughter in Royal City\n<br>\nKamiharmui knew she was alive, she\nwould be in danger. So, I want you to\npretend that she is dead. With these\n<br>\nwords, she disappeared from\nVerinardchurch."
+  },
+  "35651": {
+    "<attr><feel_angry_lv3><end_attr>「ああー　まったく　ヨーレイってば\n　なぜ　こんなに支度に　時間がかかるんだ！\n<br>\n「早くしないと　女王さまの歌が\n　始まっちまうじゃねーか！！": "<attr><feel_angry_lv3><end_attr>Oh, my God, why does it take Yolei so\nlong to get ready? Hurry up, or the\nQueen's song will start!"
+  },
+  "35652": {
+    "<attr><feel_sad_lv2><end_attr>「女王さまの　お姿を見るのが\n　オレの　ゆいいつの楽しみだったのに\n　間に合わなかったとは……。": "<attr><feel_sad_lv2><end_attr>It was my big pleasure to see you,\nJoOusama, but I'm surprised you\ncouldn't make it."
+  },
+  "35653": {
+    "<attr><feel_happy_lv2><end_attr>「故郷のカミハルムイを　はなれて\n　妻とふたりで　諸国漫遊の旅をしております。\n<br>\n「故郷にいただけでは　知ることのなかった\n　多くのできごとを　体験してきました。\n　やはり　旅は　いいものですな。": "<attr><feel_happy_lv2><end_attr>My wife and I have been traveling\naround the world, away from our\nhometown of Kamiharmui. I have\n<br>\nexperienced many things that I would\nnot have known about if I had just\nstayed in my hometown. Traveling is a\n<br>\ngood thing, isn't it?"
+  },
+  "35654": {
+    "「ヴェリナード城下町へ　ようこそ！\n　旅人向けの情報を　聞かせてあげよう。\n<br>\n「町の北には　女王のおられる\n　ヴェリナード城が　建っているぞ。\n<br>\n「町の南には　カヌー乗り場がある。\n　ここは　湖の中にあるから\n　カヌーに乗って　町の外に出るんだ。\n<br>\n「ここじゃあ　島と島の移動には\n　ほとんど　カヌーを使うことになる。\n　慣れておいたほうが　いいだろうな。": "Welcome to Verinard Castle Town! Let\nme give you some information for\ntravelers. To the north of the town\n<br>\nstands Verinard Castle, where the\nqueen resides. South of town is a\ncanoe stop. This is in the lake, so\n<br>\nyou can get out of town by canoe.\nHere, we'll be using canoes for most\nof our island-to-island transfers.\n<br>\nYou'd better get used to it."
+  },
+  "35655": {
+    "<attr><feel_happy_lv1><end_attr>「ここは　ウェナ諸島で\n　もっとも大きな町　ヴェリナード城下町よ。\n　この辺りのことを　教えてあげましょうか。\n<br>\n「まず　そこのカヌー乗り場だけど\n　向かって右が　ヴェリナード領南行きで\n　向かって左は　ヴェリナード領北行きなの。\n<br>\n「ヴェリナード領南の西側には\n　ヴェリナード領西行き　カヌー乗り場があるわ。\n　南側にある乗り場は　ジュレー島行きよ。\n<br>\n「ヴェリナード領北は　東の方に\n　いくつもの土地が連なってて　その果てに\n　清廉の大滝っていう　すごい滝があるの！": "<attr><feel_happy_lv1><end_attr>This is Verinard Castle Town, the\nlargest town on the Wena Islands. Let\nme tell you about the area. First of\n<br>\nall, the canoe dock there, the one on\nthe right goes to Verinard South, and\nthe one on the left goes to Verinard\n<br>\nNorth. On the west side of Verinard\nSouth, there is a canoe ramp to\nVerinard West. The south dock is for\n<br>\nJule Island. Verinard North is a\nseries of lands to the east, at the\nend of which is an amazing waterfall\n<br>\ncalled Seiren no Ootaki (Great Falls\nof Ren)!"
+  },
+  "35656": {
+    "<attr><feel_happy_lv1><end_attr>「ウェディ族の者たちは　ナヨッとした\n　見た目のわりに　戦うのも　うまいようだ。\n<br>\n「武器屋の品ぞろえを見れば　わかる。\n　なかなか　いいモノが　そろっておるな。": "<attr><feel_happy_lv1><end_attr>The Weddies seem to be good fighters\nin spite of their slender appearance.\nJust look at the selection in the\n<br>\nWeapon Shop. They are very well\nstocked."
+  },
+  "35657": {
+    "<attr><feel_happy_lv1><end_attr>「旅の人かね？　それなら\n　まずは　女王ディオーレさまに\n　ごあいさつを　するといいだろう。\n<br>\n「女王さまのいらっしゃる　ヴェリナード城は\n　町の北側にあるぞ。この町は　迷いやすいから\n　地図を見ながら　行くといいだろう。\n<br>\n「……とと　そういえば　その女王さまの命で\n　城はしばらく　門を閉ざす事になったんだった。\n　どうも　王子さまが　何か　やらかしたらしい。\n<br>\n「もう　入れるように　なったかなぁ。\n　気になるんなら　城の門まで　行くといい。\n　まだ入れないなら　門番に止められるはずだ。": "<attr><feel_happy_lv1><end_attr>Are you a traveler? If so, you might\nwant to pay your respects to Queen\nDiore first. Verinard Castle, where\n<br>\nthe queen resides, is on the north\nside of town. It's easy to get lost in\nthis town, so it would be better to go\n<br>\nthere with a map. And come to think of\nit, the queen has ordered the gates of\nthe castle to be closed for a while.\n<br>\nApparently, the prince has done\nsomething wrong. I wonder if we can\nget in now. If you are interested, you\n<br>\ncan go to the castle gate. If you\nstill can't get in, the gatekeeper\nwill stop you."
+  },
+  "35658": {
+    "<attr><feel_happy_lv3><end_attr>「いつ聴いても　恵みの歌……\n　女王さまの歌は　最高だ。\n<br>\n「歴代の女王の中でも　ナンバーワンの\n　美声の持ち主だと　オレは思うぞ！": "<attr><feel_happy_lv3><end_attr>She always sings the most beautiful\nsongs of grace. I think she has the\nmost beautiful voice of all the\n<br>\nqueens!"
+  },
+  "35659": {
+    "<attr><feel_sad_lv1><end_attr>「ふうふう。町の真ん中の流水坑は\n　なんとかならんものか……。\n　酒場に　買いだしにくるのも　ひと苦労じゃ。\n<br>\n「女王が唄う　恵みの歌の効果を　多くの水に与え\n　島中に巡らせるためにも　必要なものじゃが\n　せめて　橋くらいは　かけてくれんかのう……。": "<attr><feel_sad_lv1><end_attr>Hmmm. Can't they do something about\nthe water runoff mine in the middle of\nthe town? It's a pain in the ass to go\n<br>\nto the tavern to buy it. It is\nnecessary for the Queen's song of\nblessings to be effective, and to have\n<br>\nmore water circulating around the\nisland, but at least build a bridge."
+  },
+  "35660": {
+    "「この先は　ヴェリナード城だ。\n<br>\n「一人前の証を持つ者に限り\n　旅の者の出入りも　許されているぞ。\n<br>\n「ただし　城内の状況によっては\n　誰も　通せないこともある。\n　その時は　すまぬが　出直してもらいたい。": "Verinard Castle is just beyond. Only\nthose with Proof of Adulthood are\nallowed to enter. However, depending\n<br>\non the conditions in the castle, no\none may be allowed through. In that\ncase, I'm sorry, but you'll have to\n<br>\ncome back."
+  },
+  "35661": {
+    "「待つのだ　旅の者よ。\n<br>\n「すまぬが　しばらくの間　何人も\n　ここを通ること　まかりならん。\n　女王さまの命でな。\n<br>\n「……じつは　王子さまが　たびたび\n　城を抜け出しては　なにやら　女王さまの\n　お気にさわる事を　しでかしたみたいでな。\n<br>\n「ましてや今　城内では　女王さまが\n　恵みの歌の準備を　されているところだ。\n　警備は　厳重にせねばならん。": "Wait, travelers. I'm sorry, but no one\nis allowed to pass through here for a\nwhile. By order of the queen. It seems\n<br>\nthat the prince has been sneaking out\nof the castle every now and then to do\nsomething that displeases the queen.\n<br>\nAnd now the queen is preparing to sing\na song of blessing inside the castle.\nSecurity must be tight."
+  },
+  "35662": {
+    "<attr><feel_sad_lv1><end_attr>「今日は　メルーのおじさん\n　町には来てないのかなあ。\n<br>\n「お城のシゴトが　いそがしいのかなー。\n　いつもなら　このくらいの時間に来て\n　みんなに　お菓子とか　くれるんだけどな。": "<attr><feel_sad_lv1><end_attr>I wonder if Meru's uncle is in town\ntoday. I wonder if he is busy working\nat the castle. He usually comes around\n<br>\nthis time to give us sweets or\nsomething."
+  },
+  "35663": {
+    "<attr><feel_happy_lv1><end_attr>「メルーのおじさん……じゃなくて\n　メルー公が　町に遊びにこなかったのは\n　女王さまが　お歌を唄うからだったのかあ。\n<br>\n「今度は　いつ遊びにきてくれるかなー。\n　また　お菓子くれるかなー。": "<attr><feel_happy_lv1><end_attr>So the reason Lord Meru, not Meru's\nuncle, didn't come to town was because\nthe queen sang a song. I wonder when\n<br>\nshe will come to visit us again. I\nwonder if she will give me sweets\nagain."
+  },
+  "35665": {
+    "<attr><feel_happy_lv1><end_attr>「この辺りの井戸水の　うまさは\n　格別なんだよ。\n<br>\n「なんたって　女王ディオーレさまの\n　恵みの歌の　おチカラを\n　いちばん近くで　受けているからね！": "<attr><feel_happy_lv1><end_attr>The well water in this area is\nexceptionally pure. After all, we are\nthe closest recipient of the power of\n<br>\nQueen Diore's song of blessing!"
+  },
+  "35666": {
+    "<attr><feel_think_lv2><end_attr>「良さげなアクセが　入荷してるんだけど\n　あたしのヘソクリじゃ　手が出ないのよ。\n<br>\n「やっぱ　カレシに　おねだりしちゃおうかな。": "<attr><feel_think_lv2><end_attr>There are some nice accessories in\nstock, but I can't afford them with my\nmeager resources. I think I'll just\n<br>\nbeg my boyfriend."
+  },
+  "35667": {
+    "<attr><feel_think_lv1><end_attr>「そろそろ　時間か。\n　さて　どうやって　おっかぁの目を盗んで\n　城の方へ　行くかな……。": "<attr><feel_think_lv1><end_attr>It's about time. Now, how can I get\naway from my mom and go to the castle?"
+  },
+  "35668": {
+    "<attr><feel_sad_lv1><end_attr>「おっかぁのマークが　きつくて\n　城へ行けなかったよ……。ちぇっ。": "<attr><feel_sad_lv1><end_attr>I couldn't go to the castle because my\nmom's mark was too tight. Damn."
+  },
+  "35669": {
+    "<attr><feel_think_lv1><end_attr>「この町。なんで　こんなにキレイ？\n　うちの住んでる町と　ぜんぜん　ちがう。\n<br>\n「でも　こんなにキレイだと　落ち着かない。\n　ちょっとくらい　汚してもいいかな？\n　ダメか？　ダメだよな。": "<attr><feel_think_lv1><end_attr>This town. Why is it so beautiful?\nIt's completely different from the\ntown where I live. But I don't feel at\n<br>\nhome when it's this clean. Is it okay\nif I make it a little dirty? Is that\nbad? Of course not."
+  },
+  "35670": {
+    "<attr><feel_think_lv1><end_attr>「ウェディたちの間で　流行しているのは\n　どんなヘアースタイルかしら？\n<br>\n「旅先では　その土地に合わせたスタイルに\n　するっていうのが　あたしのポリシーなの。": "<attr><feel_think_lv1><end_attr>What kind of hair styles are popular\namong Weddies? It's my policy to adapt\nmy hair to the local style when I\n<br>\ntravel."
+  },
+  "35671": {
+    "<attr><feel_happy_lv1><end_attr>「女王さまのお歌は　まだ？\n　こないだは聴けなかったから　楽しみ～。": "<attr><feel_happy_lv1><end_attr>Has JoOusama sung yet? I didn't get to\nhear it the other night, so I'm\nlooking forward to it."
+  },
+  "35672": {
+    "<attr><feel_happy_lv1><end_attr>「女王さまのお歌　聴いてきたよ！\n<br>\n「とっても　キレイな声だったなあ。\n　また　聴きたいな～。": "<attr><feel_happy_lv1><end_attr>I heard JoOusama sing! She has such a\nbeautiful voice. I want to hear it\nagain."
+  },
+  "35673": {
+    "「どうも私は　テーブルとイスのある部屋に\n　なじむことが　できません。\n<br>\n「それに　ベッドというものに\n　寝るのが　怖いのです。\n　だって　落ちたら大変ですよ？": "I have a hard time adjusting to a room\nwith a table and chairs, and I'm\nafraid to sleep in a bed. I am also\n<br>\nafraid to sleep in a bed. I mean, what\nif I fall out of bed?"
+  },
+  "35674": {
+    "「あんた　旅の人だな。\n　もしかして　お城に行きたいんじゃないのか？\n<br>\n「ここは　造りが複雑だからなあ。\n　階段を上ったり　下りたりしないと\n　なかなか　お城へは　たどり着けないぞ。": "You're a traveler. Perhaps you want to\ngo to the castle? This place is\ncomplicated. You have to go up and\n<br>\ndown the stairs to reach the castle."
+  },
+  "35675": {
+    "<attr><feel_happy_lv1><end_attr>「海は美しいし　活きのいい魚も採れる。\n　この町は　とても　いい所ですよ。\n<br>\n「それも　すべて　女王ディオーレさまの唄う\n　恵みの歌のおかげなんです。\n　ああ　ありがたや　ありがたや。": "<attr><feel_happy_lv1><end_attr>The sea is beautiful and we can catch\nfresh fish. This town is a very nice\nplace. It's all thanks to the song of\n<br>\nblessings sung by Queen Diore. Oh,\nthank you, thank you, thank you."
+  },
+  "35676": {
+    "<attr><feel_angry_lv1><end_attr>「おや　いらっしゃい。\n<br>\n「……て　あんた　誰だい。旅の人かい？\n　うちには　珍しいモンなんて　ないよ。\n　帰っておくれ。　": "<attr><feel_angry_lv1><end_attr>Oh, welcome. Who are you? Are you a\ntraveler? We don't have anything rare.\nPlease go home."
+  },
+  "35677": {
+    "「女王さまが唄う　恵みの歌の　おチカラは\n　この町だけじゃなく　ウェナ諸島の全体に\n　効果があるんだってねえ。\n<br>\n「なんでも　ジュレー島の近くに\n　歌の　おチカラを　広げるための\n　しかけが　あるらしいわよ。": "I heard that the power of the song of\nblessing that the Queen sings has an\neffect not only on this town but also\n<br>\non the whole Wena Islands. I heard\nthat there is a mechanism to spread\nthe power of the song near Jule\n<br>\nIsland."
+  },
+  "128642": {
+    "<attr><feel_happy_lv3><end_attr>「あら　な～に？\n　そんな　あらためて　お願いされたりしても\n　困っちゃうんだよね～。\n<br>\n「いつだって　私は　全力全開！\n　まごころ込めて　おシゴトしてるんだから！\n<br>\n「でも　いつも　ご利用ありがとっ。\n　こちらこそ　これからも　よろしくね♪": "<attr><feel_happy_lv3><end_attr>Oh, what? I'm not sure I can handle a\nnew request like that. I always give\nmy all! I do my job with all my heart\n<br>\nand soul! But thank you for your\nservice. Thank you for always being\nwith us, and I look forward to working\n<br>\nwith you in the future."
+  },
+  "128643": {
+    "<attr><feel_happy_lv3><end_attr>「いつも　ご利用ありがとっ。\n　こちらこそ　これからも　よろしくね♪": "<attr><feel_happy_lv3><end_attr>Thank you for always using our site.\nThank you very much for your continued\npatronage."
+  },
+  "35679": {
+    "「女王ディオーレさまのため\n　今日も今日とて　門番にいそしむ\n　私なので　あります。": "For the sake of Queen Diore, today and\ntoday again, I am busy being a\ngatekeeper."
+  },
+  "35680": {
+    "<attr><feel_happy_lv2><end_attr>「女王ディオーレさまの歌は\n　いつ聴いても　すばらしい！！\n<br>\n「ですが　いつもとちがって\n　どこか　さみしげな感じがしたのは\n　私の思いすごしでしょうか？\n<br>\n「このところ　王子さまとの仲が\n　よろしくないとのウワサも　あるようで\n　ちょっと　心配なのであります。\n<br>\n「あなたのような旅の方の　お話を聞けば\n　女王さまの気分も　よくなるかもしれません。\n　ぜひ　お会いしていってください。": "<attr><feel_happy_lv2><end_attr>Queen Diore's songs are always\nwonderful! However, was it my\nimagination that she seemed somewhat\n<br>\nsad, unlike usual? There are rumors\nthat Kunai and the prince are getting\nalong well these days, and I am a\n<br>\nlittle worried. Perhaps the queen will\nfeel better if she hears a story from\na traveler like you. Please do come\n<br>\nand meet her."
+  },
+  "35681": {
+    "<attr><feel_think_lv2><end_attr>「お化粧のノリが　イマイチだわ。\n　これじゃ　女王さまに笑われてしまうかしら。\n<br>\n「あっ　それに　ハンカチを忘れているわ。\n　ああっ　家のカギは　どこへやったかしら。": "<attr><feel_think_lv2><end_attr>My makeup doesn't look good. I wonder\nif the queen will laugh at me now. Oh,\nand I forgot my handkerchief. Oh,\n<br>\nwhere did I put the house key?"
+  },
+  "35682": {
+    "<attr><feel_think_lv2><end_attr>「女王さまの恵みの歌は\n　これからも　何回も聴けるんだから\n　そんなに　ガッカリしなくてもいいのに……。\n<br>\n「まったく　うちの人ったら\n　美人に弱いんだから……。": "<attr><feel_think_lv2><end_attr>You don't have to be so disappointed\nsince you can listen to JoOusama's\nsong of grace many times in the\n<br>\nfuture. My family has a weakness for\nbeautiful women."
+  },
+  "35683": {
+    "<attr><feel_happy_lv3><end_attr>「たいくつだなぁ。\n　いっつも　おなじ遊びで　あきちゃった。": "<attr><feel_happy_lv3><end_attr>I'm bored. I'm tired of playing the\nsame games all the time."
+  },
+  "61694": {
+    "「ねぇねぇ！\n　なにか　あたらしい遊びを　しらない？": "Hey, hey! Do you want to play\nsomething different?"
+  },
+  "35684": {
+    "「さっき　王子が　町の外へ\n　出ていくのを見かけたんだが……。\n<br>\n「永遠の地下迷宮へ行くと　言っていた。\n　ヴェリナード領北で　見つかったという\n　新しい遺跡のことだな。\n<br>\n「そこのカヌーで　ヴェリナード領北に渡って\n　北西の方に向かえば　入口があるらしいぜ。": "I saw the prince leaving town just\nnow. He said he was going to Eternal\nMaze. He was talking about the new\n<br>\nruins found in Verinard North. He said\nyou can take a canoe across to\nVerinard North and head northwest to\n<br>\nfind the entrance."
+  },
+  "35685": {
+    "「女王ディオーレさまのため\n　今日も今日とて　門番に　いそしむ\n　私なので　あります。": "For the sake of Queen Diore, I am busy\nguarding the gate today and tomorrow."
+  },
+  "35687": {
+    "<attr><feel_think_lv1><end_attr>「さっき　オーディス王子が通ったんで\n　あいさつしたんだけど　様子が変でさ……。\n<br>\n「母上に歌を……とか　ブツブツ言うだけで\n　こっちを　見もしなかったよ。\n　女王さまの所へ　急いでたんだろうな。\n<br>\n「なんだか　心配でなあ……。\n　あんた　一人前の証を持ってるんだろ。\n　お城に　様子を見にいってくれないか？": "<attr><feel_think_lv1><end_attr>Prince Odis passed by earlier and I\nsaid hello to him, but he was acting\nweird. He just mumbled something about\n<br>\nsinging a song for his mother, but\ndidn't even look at me. He must have\nbeen in a hurry to get to the Queen. I\n<br>\nwas kind of worried. You have Proof of\nAdulthood, don't you? Why don't you go\ncheck on her at the castle?"
+  },
+  "35689": {
+    "<attr><feel_happy_lv3><end_attr>「さっき　メルー公が　町に遊びにきたよ！\n<br>\n「お菓子もらっちゃった。えへへ～。": "<attr><feel_happy_lv3><end_attr>Lord Meru just came to town for a\nvisit! He gave me some sweets.\nHehehe~."
+  },
+  "35690": {
+    "「うちの息子が　ときどき\n　お菓子をもらって　帰ってくるのよ。\n<br>\n「お菓子をくれた人は　どうやら\n　女王さまのダンナさま　メルー公らしいの。\n<br>\n「メルー公は　お城じゃ　役に立ってないようだし\n　そのくらいの　国民サービスをしてもらっても\n　バチは　当たらないわよね。": "My son sometimes comes home with\nsweets. Apparently, the person who\ngave him sweets is Lord Meru, the\n<br>\nQueen's husband. Lord Meru doesn't\nseem to be very useful in the castle,\nso I don't think he deserves to be\n<br>\npunished for that kind of national\nservice."
+  },
+  "35691": {
+    "<attr><feel_think_lv2><end_attr>「ブーナー熱帯雨林の南に\n　行きたいのか？\n　あそこには　何もないんだけどな……。\n<br>\n「ブーナー熱帯雨林は　遠いぞ。\n　ヴェリナード領北を北東に抜けて　その先の\n　ヴァース大山林を　さらに越えた所なんだ。": "<attr><feel_think_lv2><end_attr>You want to go south of Booner\nRainforest? There is nothing there.\nBooner Rainforest is far away. You\n<br>\nhave to go northeast through Verinard\nNorth, and beyond that, you have to go\nbeyond Verse Mountain Forest."
+  },
+  "35692": {
+    "「今度は　永遠の地下迷宮に行くのか。\n　あんたも　大変だな。": "Now you are going to Eternal Maze.\nIt's tough for you, too."
+  },
+  "35693": {
+    "「まだ　永遠の地下迷宮に　行ってないのか。\n　まぁ　がんばれ。": "You haven't been to Eternal Maze yet?\nWell, good luck."
+  },
+  "35694": {
+    "<attr><feel_think_lv3><end_attr>「女王さまが　メルー公を連れて\n　城へ　帰っていったみたいなんだが……。\n<br>\n「ふたりとも　疲れた顔をしておられたなあ。\n　いったい　どこへ　お出かけに\n　なっていたんだろう……。\n<br>\n「あんた　はやく　王子を連れて\n　様子を見てきたほうが　よさそうだぞ。": "<attr><feel_think_lv3><end_attr>It seems that the queen has returned\nto the castle with Lord Meru. Both of\nthem looked tired. I wonder where in\n<br>\nthe world they were going. You'd\nbetter go and check on the prince with\nhim as soon as possible."
+  },
+  "35695": {
+    "<attr><feel_happy_lv2><end_attr>「やっぱり　女王さまの歌は\n　近くで聴くと　すばらしいな！\n<br>\n「あのお顔を　拝見しながら聴くのが\n　ツウってもんだぜ！": "<attr><feel_happy_lv2><end_attr>Her Majesty's songs are wonderful when\nyou hear them up close! It's a real\npleasure to listen to her songs while\n<br>\nlooking at her face!"
+  },
+  "35696": {
+    "「私は　この町を　たいへん気に入りました。\n　諸国漫遊の途中では　ありますが\n　もうしばらく　とどまろうと思います。\n<br>\n「決して　女王さまが美しいからとか\n　そういう　ふらちな理由では　ありませんよ！": "I like this town very much. I am in\nthe middle of my travels around the\ncountry, but I think I will stay here\n<br>\nfor a while longer. It is not because\nthe queen is beautiful or for any such\nsilly reason!"
+  },
+  "35697": {
+    "「ヴェリナード城下町へ　ようこそ！\n　旅人向けの情報を　聞かせてあげよう。\n<br>\n「町の北には　女王のおられる \n　ヴェリナード城が　建っているぞ。\n<br>\n「町の南には　カヌー乗り場がある。 \n　ここは　湖の中にあるから\n　カヌーに乗って　町の外に出るんだ。　\n<br>\n「もう　カヌーには　慣れたか？\n　この世には　もっと　でっかい船も\n　あるって　聞いたことがあるぜ！": "Welcome to Verinard Castle Town! Let\nme give you some information for\ntravelers. To the north of the town\n<br>\nstands Verinard Castle, where the\nqueen resides. South of town is a\ncanoe stop.This is in the lake, so you\n<br>\ncan take a canoe out of town.Are you\nused to canoes now? I've heard there\nare bigger boats in this world!"
+  },
+  "35698": {
+    "<attr><feel_think_lv2><end_attr>「さっき　女王さまの恵みの歌を\n　聴きにいったんだ。\n<br>\n「王子さまやメルー公のほかに　女性が\n　ひとり　いたんだが　あれは王家の人なのか？\n　はじめて見る顔だったが……。": "<attr><feel_think_lv2><end_attr>I went to hear the queen sing a song\nof grace. Besides the prince and Lord\nMeru, there was a woman. I had never\n<br>\nseen her face before."
+  },
+  "35699": {
+    "「女王さまの恵みの歌を　聴いたら\n　もりもりと元気が　出てきたわい。\n　これで　しばらくは　がんばれそうじゃ！": "Listening to JoOusama's song of grace,\nI'm feeling more and more energetic.\nWith this, I will be able to keep\n<br>\ngoing for a while!"
+  },
+  "35700": {
+    "「ヴェリナード城に　用があるのなら\n　いつでも　入ってかまわんぞ。\n<br>\n「ただし　騒ぎは　起こさぬようにな。": "If you have business in Verinard\nCastle, you are welcome to enter at\nany time. Just don't make a scene."
+  },
+  "35701": {
+    "「今のディオーレさまの　次の王さまも\n　女の人が　なるんだよね？\n　それじゃ　王子さまは　どうなるのかな？\n<br>\n「ボクは　王子さまが　王さまになっても\n　いいんじゃないかなーと　思うんだよね。": "The next king after the current Diore\nwill be a woman, right? What will\nhappen to the prince then? I think it\n<br>\nwould be fine if the prince became\nking."
+  },
+  "35702": {
+    "<attr><feel_sad_lv3><end_attr>「カレシに　アクセサリーを買ってもらおうと\n　おねだりしたんだけど　ダメだって……。\n<br>\n「お城の兵士って　お給金　安いのね……。": "<attr><feel_sad_lv3><end_attr>I begged my boyfriend to buy me\nAccessory, but he said no. Soldiers in\nthe castle are not paid well."
+  },
+  "35703": {
+    "<attr><feel_happy_lv2><end_attr>「おっかぁの目を盗んで　女王さまの歌を\n　やっと　聴くことができたんだよ！\n<br>\n「やっぱり　いいよなあ　女王さま……。\n　男のロマンが　満たされるっ。": "<attr><feel_happy_lv2><end_attr>I was finally able to listen to the\nqueen's song, stealing my mom's eyes!\nShe's really good, isn't she? It\n<br>\nsatisfies a man's romantic side."
+  },
+  "35704": {
+    "「この町。キレイすぎて　いづらい。\n　自分の町の汚さが　なつかしいな。": "This town. It's too beautiful to stay\nhere. The dirtiness of my own town is\nnot so nice."
+  },
+  "35705": {
+    "「ウェディたちの間で\n　流行している　ヘアースタイルを\n　試してみるつもりだったんだけど……。\n<br>\n「ちょっと　あたしには合わないみたい。\n　残念だわあ。": "I was going to try the hair-as-suite\nstyle that's all the rage among\nWeddies. But I guess it's not for me.\n<br>\nToo bad."
+  },
+  "35706": {
+    "<attr><feel_happy_lv1><end_attr>「女王さまのお歌は　いつ聴いても\n　とっても　キレイだね。\n<br>\n「でも　あのお歌を　男の人が唄ったら\n　どんなふうに　なるのかな？\n　ちょっと　聴いてみたいな～。": "<attr><feel_happy_lv1><end_attr>JoOusama's songs are always so\nbeautiful. But I wonder what it would\nbe like if a man sang that song? I'd\n<br>\nlike to listen to it."
+  },
+  "35707": {
+    "<attr><feel_sad_lv1><end_attr>「故郷のカミハルムイに　そろそろ\n　帰りたいのですが　主人が\n　この町を　気に入ってしまったようで……。\n<br>\n「テーブルやイスには　だいぶ慣れてきましたが\n　ベッドで寝るのは　まだ怖いのです。": "<attr><feel_sad_lv1><end_attr>I would like to go back to my\nhometown, Kamiharmui, but master seems\nto have fallen in love with this town.\n<br>\nI've gotten used to the table and\nchairs, but I'm still afraid to sleep\non the bed."
+  },
+  "35708": {
+    "<attr><feel_happy_lv3><end_attr>「恵みの歌を唄うのを見て　改めて思ったよ。\n　女王ディオーレさまほど　美しい女王は\n　この世界に　いないだろうな！\n<br>\n「我々　ヴェリナードの民の自慢の女王だ。\n　この国に生まれて　よかった！！": "<attr><feel_happy_lv3><end_attr>I saw her sing a song of grace, and I\nthought to myself once again. There\nwill never be a more beautiful queen\n<br>\nin the world than Queen Diore! We, the\npeople of Verinard, are proud of her.\nI am glad I was born in this country!"
+  },
+  "35709": {
+    "「女王さまが唄う　恵みの歌がある限り\n　私たちは　安心して暮らせます。\n<br>\n「恵みの歌は　次の女王さまにも継がれていき\n　歌声が　とだえることはないのですから。": "As long as there is a song of grace\nsung by JoOusama, we can live in\npeace. The song of grace will be\n<br>\npassed on to the next queen, and her\nvoice will never cease to sing."
+  },
+  "35710": {
+    "<attr><feel_angry_lv3><end_attr>「まったく　うちの人にも困ったもんだ。\n<br>\n「いいトシして　女王さまのあとを\n　追っかけるなんざ　はずかしいったら\n　ありゃしないよ！": "<attr><feel_angry_lv3><end_attr>It's a real shame that our people are\nin such a bind. At my age, it's not at\nall embarrassing to chase after the\n<br>\nqueen!"
+  },
+  "35712": {
+    "<attr><feel_happy_lv2><end_attr>「女王さまの　となりにいた\n　あの女の人は　王子さまの恋人に\n　まちがいないと　思うのよ！\n<br>\n「次の女王さまは　あの人になるのね。\n　うん。いいんじゃない？": "<attr><feel_happy_lv2><end_attr>I think that the woman next to the\nqueen must be the prince's lover! She\nwill be the next queen, right? I guess\n<br>\nso. Isn't that good?"
+  }
+}

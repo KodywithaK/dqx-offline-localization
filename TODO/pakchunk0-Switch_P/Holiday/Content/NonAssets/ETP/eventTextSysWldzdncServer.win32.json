@@ -1,0 +1,137 @@
+{
+  "52036": {
+    "仲間と一緒に　この先に行くためには\n一緒に行きたい仲間の準備が\n完了している必要があります。\n<select>\n仲間の準備完了を待つ\nこの先に行くのをやめる\n<select_end>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": "In order to proceed, you'll have to be ready\nwith your party.\n<select>\nWait for Party\nStop Waiting\n<select_end>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+  },
+  "92484": {
+    "地下１階　薄明の空園": "B1F Twilit Sky Garden"
+  },
+  "92485": {
+    "地下２階　薄明の砂漠": "B2F Twilit Desert"
+  },
+  "92486": {
+    "地下３階　薄明の聖林": "B3F Twilit Forest"
+  },
+  "92487": {
+    "地下４階　陽光の空園": "B4F Sunny Sky Garden"
+  },
+  "92488": {
+    "地下５階　陽光の砂漠": "B5F Sunlight Desert"
+  },
+  "92489": {
+    "地下６階　陽光の聖林": "B6F Sunlight Forest"
+  },
+  "92490": {
+    "地下７階　落陽の空園": "B7F Sunset Garden"
+  },
+  "92491": {
+    "地下８階　落陽の砂漠": "B8F Sunset Desert"
+  },
+  "92492": {
+    "地下９階　落陽の聖林": "B9F Sunset Forest"
+  },
+  "92493": {
+    "地下10階　眠れる空園": "B10F Sleeping Sky Garden"
+  },
+  "92494": {
+    "地下11階　眠れる砂漠": "B11F Sleeping Desert"
+  },
+  "92495": {
+    "地下12階　眠れる聖林": "B12F Sleeping Forest"
+  },
+  "92496": {
+    "地下13階　終焉の間": "B13F Hall of Demise"
+  },
+  "92497": {
+    "地下14階　薄明の空園": "B14F Twilit Sky Garden"
+  },
+  "92498": {
+    "地下15階　薄明の砂漠": "B15F Twilit Desert"
+  },
+  "92499": {
+    "地下16階　薄明の聖林": "B16F Twilit Forest"
+  },
+  "92500": {
+    "地下17階　陽光の空園": "B17F Sunny Sky Garden"
+  },
+  "92501": {
+    "地下18階　陽光の砂漠": "B18F Sunlight Desert"
+  },
+  "92502": {
+    "地下19階　陽光の聖林": "B19F Sunlight Forest"
+  },
+  "92503": {
+    "地下20階　落陽の空園": "B20F Sunset Sky Garden"
+  },
+  "92504": {
+    "地下21階　落陽の砂漠": "B21F Sunset Desert"
+  },
+  "92505": {
+    "地下22階　落陽の聖林": "B22F Sunset Forest"
+  },
+  "92506": {
+    "地下23階　眠れる空園": "B23F Sleeping Sky Garden"
+  },
+  "92507": {
+    "地下24階　眠れる砂漠": "B24F Sleeping Desert"
+  },
+  "92508": {
+    "地下25階　眠れる聖林": "B25F Sleeping Forest"
+  },
+  "92509": {
+    "<%sC_SENTAKU_TEXT>で　よろしいですか？": "<%sC_SENTAKU_TEXT> is okay?"
+  },
+  "102336": {
+    "仲間が　そろいました。\nパーティ同盟相手の　仲間たちを待ちます。<wait=1000><close>": "The party has gathered.\nPlease wait for the other parties.<wait=1000><close>"
+  },
+  "130439": {
+    "<pc>は　立て札を読んだ。\nしかし　こちらは　裏側だった！": "You tried to read the sign.\nBut you're standing on the wrong side!"
+  },
+  "130440": {
+    "こちらは　裏側だ。\n<end>": "This is the back side.\n<end>"
+  },
+  "130441": {
+    "<left>預かり所の　看板だ。": "<left>It's a depository sign."
+  },
+  "130442": {
+    "<pc>は　看板を読んだ。\nしかし　こちらからは　裏側だった！\n<end>": "You tried to read the sign.\nBut you're standing on the wrong side!\n<end>"
+  },
+  "130443": {
+    "<left>道具屋の　看板だ。": "<left>It's an item shop sign."
+  },
+  "130444": {
+    "<left>教会の　看板だ。": "<left>It's a church sign."
+  },
+  "130445": {
+    "<left>モンスター酒場の　看板だ。": "<left>It's a monster tavern sign."
+  },
+  "130446": {
+    "<left>酒場の　看板だ。": "<left>It's a tavern sign."
+  },
+  "130447": {
+    "<left>宿屋の　看板だ。": "<left>It's an inn sign."
+  },
+  "130448": {
+    "<left>郵便局の　看板だ。": "<left>It's a post office sign."
+  },
+  "130449": {
+    "<left>預かり所の　看板だ。": "<left>It's a depository sign."
+  },
+  "130450": {
+    "<left>道具屋の　看板だ。": "<left>It's an item shop sign."
+  },
+  "130451": {
+    "<left>教会の　看板だ。": "<left>It's a church sign."
+  },
+  "130452": {
+    "<left>モンスター酒場の　看板だ。": "<left>It's a monster tavern sign."
+  },
+  "130453": {
+    "<left>酒場の　看板だ。": "<left>It's a tavern sign."
+  },
+  "130454": {
+    "<left>宿屋の　看板だ。": "<left>It's an inn sign."
+  },
+  "130455": {
+    "<left>郵便局の　看板だ。": "<left>It's a post office sign."
+  }
+}
