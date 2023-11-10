@@ -18,7 +18,7 @@
     "<turn_pc>「急に話しかけられたから　びっくりして\n　指に　さいほう針を　刺しちゃいました！\n　てへへへ。失敗　失敗……。\n<br>\n「私たち夫婦は　夫が　兵士として\n　グランゼドーラ城に仕えるため\n　こちらに　越してきたばかりなんですけどね。\n<br>\n「その夫が　どうも　眠れないみたいなのです。\n　それで　今は　夫のために\n　枕を　手作りしているところなんですよ。": "<turn_pc>I was so surprised when he suddenly\nspoke to me that I stuck a sewing\nneedle in my finger! Tehehehehe. Fail,\n<br>\nfail. My husband and I just moved here\nto serve Gran Zedora Castle as a\nsoldier. He can't seem to sleep. So\n<br>\nI'm in the process of making a pillow\nfor him."
   },
   "106763": {
-    "<icon_exc>「イタっ……！": "<icon_exc>Ouch!"
+    "<icon_exc>「イタっ……！": "<icon_exc>OUCH!"
   },
   "115018": {
     "<attr><feel_normal_one><end_attr>「ああ　困った　困ったわ……。\n　マダムって　どうして　いつもこう\n　面倒事を　押しつけてくれるのかしら……。\n<br>\n「あら　お客様かしら？\n　美容院に　ご用でしたら\n　カウンターのスタッフまで　お願いね！": "<attr><feel_normal_one><end_attr>Oh, I'm in trouble, I'm in trouble.\nWhy is it that madams always force us\nto go through all this trouble? Oh, is\n<br>\nthat a customer? If you need anything\nfrom Salon, just ask for the staff at\nthe counter!"
@@ -357,142 +357,188 @@
     "リンクスのオフィスへ　行きますか？<yesno><close>": "Would you like to go to Lynx's Office?<yesno><close>"
   },
   "165784": {
-    "「ふんぬぬ！　……はぁはぁ\n　やはり　どうやっても　開かないな。\n　どこかに　ウデの立つカギ師は　いないものか。": "OOMPH!... *Huff-Huff* As I thought, it won't\nopen no matter how I try.\n<br>\nThere's has to be a talented enough locksmith\nsomewhere that can open this, isn't there."
+    "「ふんぬぬ！　……はぁはぁ\n　やはり　どうやっても　開かないな。\n　どこかに　ウデの立つカギ師は　いないものか。": 
+    "OOMPH!... *Huff-Huff* As I thought, it won't\nopen no matter how I try.\n<br>\nThere's has to be a talented enough locksmith\nsomewhere that can open this, isn't there."
   },
   "165785": {
-    "「ふんぬぬ！　……はぁはぁ\n　やはり　どうやっても　開かないな。\n　どこかに　ウデの立つカギ師は　いないものか。": "OOMPH!... *Huff-Huff* As I thought, it won't\nopen no matter how I try.\n<br>\nThere's has to be a talented enough locksmith\nsomewhere that can open this, isn't there."
+    "「ふんぬぬ！　……はぁはぁ\n　やはり　どうやっても　開かないな。\n　どこかに　ウデの立つカギ師は　いないものか。": 
+    "OOMPH!... *Huff-Huff* As I thought, it won't\nopen no matter how I try.\n<br>\nThere's has to be a talented enough locksmith\nsomewhere that can open this, isn't there."
   },
   "165786": {
-    "<icon_exc><turn_pc>「いやはや　お恥ずかしいところを\n　お見せいたしましたね。\n　私はレイバッサという　旅の商人です。\n<br>\n「……おや　アナタは　ずいぶんと旅慣れた\n　冒険者の方みたいですね　お名前は……\n　ほう　<pc>さんと　いうのですか。<bw_break>": "<icon_exc><turn_pc>Oh dear, how embarrassing to for you to see.\nI'm Reybassa, a traveling merchant.\n<br>\n...Oh, you seem to be a well-traveled adventurer,\nand you are... Ho, <pc>, is it.<bw_break>"
+    "<icon_exc><turn_pc>「いやはや　お恥ずかしいところを\n　お見せいたしましたね。\n　私はレイバッサという　旅の商人です。\n<br>\n「……おや　アナタは　ずいぶんと旅慣れた\n　冒険者の方みたいですね　お名前は……\n　ほう　<pc>さんと　いうのですか。<bw_break>": 
+    "<icon_exc><turn_pc>Oh dear, how embarrassing to for you to see.\nI'm Reybassa, a traveling merchant.\n<br>\n...Oh, you seem to be a well-traveled adventurer,\nand you are... Ho, <pc>, is it.<bw_break>"
   },
   "165787": {
-    "<attr><feel_happy_lv1><end_attr>「おお！　無謀は承知で　聞いてみたのですが\n　声をかけてくださった方が　ご存知とは　\n　渡りに船とは　まさしく　このことですな。<bw_break>": "<attr><feel_happy_lv1>Ooh! I know it's reckless of me to ask,\nbut the fact that one who approached me\nhappened to know of one is a lifesaver.<end_attr><bw_break>"
+    "<attr><feel_happy_lv1><end_attr>「おお！　無謀は承知で　聞いてみたのですが\n　声をかけてくださった方が　ご存知とは　\n　渡りに船とは　まさしく　このことですな。<bw_break>": 
+    "<attr><feel_happy_lv1>Ooh! I know it's reckless of me to ask,\nbut the fact that one who approached me\nhappened to know of one is a lifesaver.<end_attr><bw_break>"
   },
   "165788": {
-    "<attr><feel_happy_lv1><end_attr>「おお！　ありがとうございます！\n　さっそくですが　伝説の防具を手に入れるには\n　鉄の金庫のカギを　開けないといけません。\n<br>\n「鉄の金庫は　特殊なカギを採用しており\n　ふつうのカギ師では　歯が立ちません。\n　そこで　一流カギ師のウデ前が　必要なのです。\n<br>\n「旅の途中で聞いた　ウワサによると\n　一流のカギ師は　アラハギーロ王国のどこかに\n　いるらしいので　仕事を頼んできてください。\n<br>\n「私も一緒に行きたいのですが　まだ商売の途中で\n　しばらく　この町にいなければならないのです。\n　すみませんが　よろしくお願いします。": "<attr><feel_happy_lv1>Ooh! Thank you so much!<end_attr>\n<br>\nLet's get down to business: this Iron Safe's\nkey to get to the legendary armor, is the\nwrong one and is of no use.\n<br>\nThe Iron Safe uses a special key, and an\nordinary locksmith isn't capable of making\nit.\n<br>\nSo, a top-notch locksmith's skill is needed.\nDuring my travels, I heard a rumor of a\ntop-notch locksmith being somewhere in\nAl-Ahagiro Kingdom.\n<br>\nSo please go and ask them about the job.\n<br>\nI'd like to go with you, but I'm in the\nmiddle of some business and need to stay\nin town for a while.\n<br>\nI'm sorry, but thank you so much."
+    "<attr><feel_happy_lv1><end_attr>「おお！　ありがとうございます！\n　さっそくですが　伝説の防具を手に入れるには\n　鉄の金庫のカギを　開けないといけません。\n<br>\n「鉄の金庫は　特殊なカギを採用しており\n　ふつうのカギ師では　歯が立ちません。\n　そこで　一流カギ師のウデ前が　必要なのです。\n<br>\n「旅の途中で聞いた　ウワサによると\n　一流のカギ師は　アラハギーロ王国のどこかに\n　いるらしいので　仕事を頼んできてください。\n<br>\n「私も一緒に行きたいのですが　まだ商売の途中で\n　しばらく　この町にいなければならないのです。\n　すみませんが　よろしくお願いします。": 
+    "<attr><feel_happy_lv1>Ooh! Thank you so much!<end_attr>\n<br>\nLet's get down to business: this Iron Safe's\nkey to get to the legendary armor, is the\nwrong one and is of no use.\n<br>\nThe Iron Safe uses a special key, and an\nordinary locksmith isn't capable of making it.\nSo, a top-notch locksmith's skill is needed.\n<br>\nDuring my travels, I heard a rumor of a top-notch\nlocksmith being somewhere in Al-Ahagiro Kingdom.\n<br>\nSo please go and ask them about the job.\n<br>\nI would go with you, but I'm in the middle\nof some business and need to stay in town\nfor a while.\n<br>\nI'm sorry, but thank you so much."
   },
   "165789": {
-    "<attr><feel_sad_lv1><end_attr>「そうですか……。残念です。\n　私はしばらく　商売でこの町に　おりますので\n　もし　気が変わったら　声をかけてください。": "<attr><feel_sad_lv1>Is that so... That's disappointing.<end_attr>\nI'll be in town for business for a while,\nso if you change your mind, please, let's talk."
+    "<attr><feel_sad_lv1><end_attr>「そうですか……。残念です。\n　私はしばらく　商売でこの町に　おりますので\n　もし　気が変わったら　声をかけてください。": 
+    "<attr><feel_sad_lv1>Is that so... That's disappointing.<end_attr>\nI'll be in town for business for a while,\nso if you change your mind, please, let's talk."
   },
   "165790": {
-    "「おや？　どうやら　<pc>さんは\n　ほかの依頼で　手いっぱいのようですな。\n<br>\n「商売と同じで　忙しいうちが華ですが\n　これ以上の依頼は　不良在庫になりそうです。\n　ほかの依頼が片付いたら　また　来てください。": "Oh? It seems that you have your hands full\nwith other requests.\n<br>\nAs with any business, the busier the better,\nbut any more requests may result in deadstock.\n<br>\nPlease come back when you are done with the\nother requests."
+    "「おや？　どうやら　<pc>さんは\n　ほかの依頼で　手いっぱいのようですな。\n<br>\n「商売と同じで　忙しいうちが華ですが\n　これ以上の依頼は　不良在庫になりそうです。\n　ほかの依頼が片付いたら　また　来てください。": 
+    "Oh? It seems that you have your hands full\nwith other requests.\n<br>\nAs with any business, the busier the better,\nbut any more requests may result in deadstock.\n<br>\nPlease come back when you are done with the\nother requests."
   },
   "165791": {
-    "<icon_exc><turn_pc>「おお　<pc>さん。\n　伝説の防具を　手に入れるための\n　お手伝いを　していただけるのですか？": "<icon_exc><turn_pc>Ooh, <pc>. Will you assist me in\nobtaining the legendary armor?"
+    "<icon_exc><turn_pc>「おお　<pc>さん。\n　伝説の防具を　手に入れるための\n　お手伝いを　していただけるのですか？": 
+    "<icon_exc><turn_pc>Ooh, <pc>. Will you assist me in\nobtaining the legendary armor?"
   },
   "165792": {
-    "<attr><feel_sad_lv1><end_attr>「そうですか……。いきなり　失礼しました。\n　商人として　目利きには自信があったのですが\n　どうやら　ハズしたようでした。": "<attr><feel_sad_lv1>Is that so... I apologize for my abruptness.\nAs a merchant, I had confidence in my\ndiscernment, but it seems I was wrong.<end_attr>"
+    "<attr><feel_sad_lv1><end_attr>「そうですか……。いきなり　失礼しました。\n　商人として　目利きには自信があったのですが\n　どうやら　ハズしたようでした。": 
+    "<attr><feel_sad_lv1>Is that so... I apologize for my abruptness.\nAs a merchant, I had confidence in my\ndiscernment, but it seems I was wrong.<end_attr>"
   },
   "165991": {
-    "「出会っていきなり　お聞きするのも　なんですが\n　大とうぞくのカギを作れるほどの　ウデを持つ\n　一流のカギ師を　ご存知ないでしょうか？<yesno><break>": "I know we just met, but you wouldn't know\nof any top-notch locksmiths skilled enough\nto make a Great Thief's Key, would you?<yesno><break>"
+    "「出会っていきなり　お聞きするのも　なんですが\n　大とうぞくのカギを作れるほどの　ウデを持つ\n　一流のカギ師を　ご存知ないでしょうか？<yesno><break>": 
+    "I know we just met, but you wouldn't know\nof any top-notch locksmiths skilled enough\nto make a Great Thief's Key, would you?<yesno><break>"
   },
   "165995": {
-    "「じつは　私　一流の商人を目指しながら\n　伝説の防具を　探し求めていたのですが\n　この町で　ついに　目的の品を入手したのです！\n<br>\n「……ただ　肝心のブツは\n　メガンテでも壊せないと有名な　鉄の金庫に\n　しまわれており　取り出せずに困ってまして。\n<br>\n「ここで　会ったのも何かの縁。よろしければ\n　伝説の防具を　手に入れる　お手伝いを\n　してもらえないでしょうか？": "To tell you the truth, I'm aiming to be top-\nnotch merchant by searching for legendary armor,\nand finally got such an item in this town!\n<br>\n...But, it's locked inside this Iron Safe that\neven a Megante can't break open, so I'm at\na loss.\n<br>\nBut the fact that we met here. You wouldn't\nmind assisting me in obtaining the legendary\narmor, would you?"
+    "「じつは　私　一流の商人を目指しながら\n　伝説の防具を　探し求めていたのですが\n　この町で　ついに　目的の品を入手したのです！\n<br>\n「……ただ　肝心のブツは\n　メガンテでも壊せないと有名な　鉄の金庫に\n　しまわれており　取り出せずに困ってまして。\n<br>\n「ここで　会ったのも何かの縁。よろしければ\n　伝説の防具を　手に入れる　お手伝いを\n　してもらえないでしょうか？": 
+    "To tell you the truth, I'm aiming to be top-\nnotch merchant by searching for legendary armor,\nand finally got such an item in this town!\n<br>\n...But, it's locked inside this Iron Safe that\neven a Megante can't break open, so I'm at\na loss.\n<br>\nBut the fact that we met here. You wouldn't\nmind assisting me in obtaining the legendary\narmor, would you?"
   },
   "167213": {
-    "「ふんぬぬ！　……はぁはぁ\n　やはり　どうやっても　開かないな。\n　どこかに　ウデの立つカギ師は　いないものか。": "OOMPH!... *Huff-Huff* As I thought, it won't\nopen no matter how I try.\n<br>\nThere's has to be a talented enough locksmith\nsomewhere that can open this, isn't there."
+    "「ふんぬぬ！　……はぁはぁ\n　やはり　どうやっても　開かないな。\n　どこかに　ウデの立つカギ師は　いないものか。": 
+    "OOMPH!... *Huff-Huff* As I thought, it won't\nopen no matter how I try.\n<br>\nThere's has to be a talented enough locksmith\nsomewhere that can open this, isn't there."
   },
   "165793": {
-    "「おお　<pc>さん\n　伝説の防具が入った　鉄の金庫を開けるカギは\n　できたのでしょうか？<open_irai><bw_break>": "Oh <pc> Did you get the key\nto open the Iron Safe that contains\nthe legendary armor?<open_irai><bw_break>"
+    "「おお　<pc>さん\n　伝説の防具が入った　鉄の金庫を開けるカギは\n　できたのでしょうか？<open_irai><bw_break>": 
+    "Oh <pc>, did you get the key\nto open the Iron Safe containing\nthe legendary armor?<open_irai><bw_break>"
   },
   "166336": {
-    "「ウワサによると　アラハギーロ王国のどこかに\n　一流のカギ師が　いるらしいので\n　カギを作ってもらえるよう　頼んでください。\n<br>\n「ただ　一流のカギ師は　伝説の防具と同じくらい\n　たいへん　珍しい存在らしいので\n　人目につく場所には　まず　いないと思います。": "Rumor has it that somewhere in the\nKingdom of Al-Ahagiro there is a top-\nnotch locksmith, so ask him to make\n<br>\nyou a key. However, it is said that a\ntop-notch locksmith is as rare as\nlegendary armor, so it is unlikely\n<br>\nthat you will find one in a\nconspicuous place."
+    "「ウワサによると　アラハギーロ王国のどこかに\n　一流のカギ師が　いるらしいので\n　カギを作ってもらえるよう　頼んでください。\n<br>\n「ただ　一流のカギ師は　伝説の防具と同じくらい\n　たいへん　珍しい存在らしいので\n　人目につく場所には　まず　いないと思います。": 
+    "Rumor has it that somewhere in Al-Ahagiro\nKingdom is a top-notch locksmith, so could\nyou ask them to make the key, please.\n<br>\nHowever, a top-notch locksmith-much like\nlegendary armor-is rare. So one probably\nwould not find them in a conspicuous place."
   },
   "165794": {
-    "「おお　<pc>さん\n　伝説の防具が入った　鉄の金庫を開けるカギは\n　できたのでしょうか？<open_irai><bw_break>": "Oh <pc> Did you get the key\nto open the Iron Safe that contains\nthe legendary armor?<open_irai><bw_break>"
+    "「おお　<pc>さん\n　伝説の防具が入った　鉄の金庫を開けるカギは\n　できたのでしょうか？<open_irai><bw_break>": 
+    "Oh <pc>, did you get the key\nto open the Iron Safe containing\nthe legendary armor?<open_irai><bw_break>"
   },
   "166337": {
-    "「なんと　カギを作るには　特別な素材が必要で\n　今は　それを　取りにいくところなのですか。\n　いやはや　一筋縄にはいかないようですな。": "Oh my, you need special materials to\nmake a key, and you're on your way to\nget them now? Well, it seems that it\n<br>\nis not a simple task."
+    "「なんと　カギを作るには　特別な素材が必要で\n　今は　それを　取りにいくところなのですか。\n　いやはや　一筋縄にはいかないようですな。": 
+    "What's that, you need special materials to\nmake a key, and you're on your way to get\nthem now?\n<br>\nOh my, it seems that it is not a simple task."
   },
   "165795": {
-    "「おお　<pc>さん \n　伝説の防具が入った　鉄の金庫を開けるカギは\n　できたのでしょうか？<open_irai><bw_break>": "Oh <pc> Did you get the key\nto open the Iron Safe that contains\nthe legendary armor?<open_irai><bw_break>"
+    "「おお　<pc>さん \n　伝説の防具が入った　鉄の金庫を開けるカギは\n　できたのでしょうか？<open_irai><bw_break>": 
+    "Oh <pc>, did you get the key\nto open the Iron Safe containing\nthe legendary armor?<open_irai><bw_break>"
   },
   "166338": {
-    "「なんと　カギの素材を　入手したのですか！\n　では　アラハギーロ王国にいる　カギ師に\n　鉄の金庫のカギを　作ってもらいましょう！": "You have obtained the material for a\nkey? Now, let's ask the locksmith in\nthe Kingdom of Al-Ahagiro to make an\n<br>\nIron Safe Key for us!"
+    "「なんと　カギの素材を　入手したのですか！\n　では　アラハギーロ王国にいる　カギ師に\n　鉄の金庫のカギを　作ってもらいましょう！": 
+    "What's that, you obtained the key's material!\n<br>\nThen go to Al-Ahagiro Kingdom and ask the\nkeymaster to make an Iron Safe Key please!"
   },
   "165796": {
-    "「おお　<pc>さん\n　もしかして　鉄の金庫を開けるカギが\n　できたのでしょうか？": "Ooh <pc> could it be that you have\nthe key to open Iron Safe?"
+    "「おお　<pc>さん\n　もしかして　鉄の金庫を開けるカギが\n　できたのでしょうか？": 
+    "Oh <pc>, could it be that you\nhave the key to open Iron Safe?"
   },
   "165797": {
-    "「おお！　これが鉄の金庫のカギですか。\n　これで　ついに　伝説の防具が私の手に！\n　それでは　さっそく……": "Ooh! Is this the Iron Safe Key? With this,\nI'll finally have the legendary armor in\nmy hands! So, let's do it..."
+    "「おお！　これが鉄の金庫のカギですか。\n　これで　ついに　伝説の防具が私の手に！\n　それでは　さっそく……": 
+    "Ooh! Is this the Iron Safe Key? With this,\nI'll finally have the legendary armor in my\nhands! So, let's do it..."
   },
   "165798": {
-    "「おお……　年月を積み重ねて　にじみ出る\n　独特の風格と　なお美しい　たてじま模様。\n　手ざわりもよく　羽のように軽い。\n<br>\n「間違いない　これぞ　かの大商人が愛した\n　伝説の防具……\n<br>\n「ステテコパンツだ！！<me 57>": "Ooh... The unique style that oozes out over\nthe years and the more beautiful vertical\npattern.\n<br>\nSoft to the touch and light as a feather.\nNo doubt, this is that marvelous merchant's\nlegendary armor... The Long Johns!!<me 57>"
+    "「おお……　年月を積み重ねて　にじみ出る\n　独特の風格と　なお美しい　たてじま模様。\n　手ざわりもよく　羽のように軽い。\n<br>\n「間違いない　これぞ　かの大商人が愛した\n　伝説の防具……\n<br>\n「ステテコパンツだ！！<me 57>": 
+    "Ooh... The unique style that oozes out over\nthe years and the more beautiful vertical\npattern.\n<br>\nSoft to the touch and light as a feather.\nNo doubt, this is that marvelous merchant's\nlegendary armor... The Long Johns!!<me 57>"
   },
   "165799": {
-    "<icon_exc>「……失礼いたしました。\n　念願の伝説の防具を　手に入れたことで\n　つい　興奮してしまって。\n<br>\n「一流の商人たるもの　装備も伝説の一品を\n　身に着けなければ　なりませんが\n　このステテコパンツなら　申し分ありません。\n<br>\n「本当に　ありがとうございます。\n　これは　お礼です。受け取ってください。": "<icon_exc>...My apologizes. I was just so excited to\nhave received the legendary armor of my\ndreams.\n<br>\nAs a first-class merchant, one must wear\nlegendary gear, and these Long Johns are\nperfect.\n<br>\nTruly, thank you so much. This is my way\nof saying thanks. Please accept it."
+    "<icon_exc>「……失礼いたしました。\n　念願の伝説の防具を　手に入れたことで\n　つい　興奮してしまって。\n<br>\n「一流の商人たるもの　装備も伝説の一品を\n　身に着けなければ　なりませんが\n　このステテコパンツなら　申し分ありません。\n<br>\n「本当に　ありがとうございます。\n　これは　お礼です。受け取ってください。": 
+    "<icon_exc>...My apologizes. I was just so excited to\nhave received the legendary armor of my\ndreams.\n<br>\nAs a first-class merchant, one must wear\nlegendary gear, and these Long Johns are\nperfect.\n<br>\nTruly, thank you so much. This is my way\nof saying thanks. Please accept it."
   },
   "165800": {
-    "<attr><feel_happy_lv1><end_attr>「これで　一流の商人として　店を持つことを\n　決心できました。故郷の女房と息子も呼び　\n　一緒に盛り立てて　立派な店にしてみせます。": "<attr><feel_happy_lv1>As a first-class merchant, I've decided to\nown my own store.\n<br>\nI'll invite my wife and son from my\nhometown; together we'll make it a great\nstore worth seeing.<end_attr>"
+    "<attr><feel_happy_lv1><end_attr>「これで　一流の商人として　店を持つことを\n　決心できました。故郷の女房と息子も呼び　\n　一緒に盛り立てて　立派な店にしてみせます。": 
+    "<attr><feel_happy_lv1>As a first-class merchant, I've decided to\nown my own store.\n<br>\nI'll invite my wife and son from my\nhometown; together we'll make it a great\nstore worth seeing.<end_attr>"
   },
   "165801": {
-    "「私はもう　行商の旅には　出ないので\n　鉄の金庫は　<pc>さんに差し上げます。\n　よければ　冒険に　役立ててください。": "Since I'll no longer be a traveling merchant,\nI'll give you the Iron Safe. If you like,\nplease use it on your adventures."
+    "「私はもう　行商の旅には　出ないので\n　鉄の金庫は　<pc>さんに差し上げます。\n　よければ　冒険に　役立ててください。": 
+    "Since I'll no longer be a traveling merchant,\nI'll give you the Iron Safe. If you like,\nplease use it on your adventures."
   },
   "165802": {
-    "「鉄の金庫を持っていると　旅の途中で\n　死んでしまい　教会に戻ることになっても\n　持っているゴールドが　減ることはありません。\n<br>\n「無理な旅は　禁物ですが　商売と同じで\n　時には　引けぬ戦いも　あるかと思います。\n　そんな時のために　ぜひ　役立ててください。": "As long as you have the Iron Safe, if you\nhappen to die in your travels and revive at\na church, you won't lose any of your gold.\n<br>\nExcessive travel should be avoided, but\njust like in business, there are times when\nyou can't quit. At such times, please use it."
+    "「鉄の金庫を持っていると　旅の途中で\n　死んでしまい　教会に戻ることになっても\n　持っているゴールドが　減ることはありません。\n<br>\n「無理な旅は　禁物ですが　商売と同じで\n　時には　引けぬ戦いも　あるかと思います。\n　そんな時のために　ぜひ　役立ててください。": 
+    "As long as you have the Iron Safe, if you\nhappen to die in your travels and revive at\na church, you won't lose any of your gold.\n<br>\nExcessive travel should be avoided, but\njust like in business, there are times when\nyou can't quit. At such times, please use it."
   },
   "165803": {
-    "「おや　まだカギは　作られてないのですか。\n　すみません　気がせいてしまって。\n　カギができたら　また　お声がけください。": "Oh, you haven't made the key yet? I'm\nsorry, I've been distracted. Please\nlet me know when the key is ready."
+    "「おや　まだカギは　作られてないのですか。\n　すみません　気がせいてしまって。\n　カギができたら　また　お声がけください。": 
+    "Oh, you haven't made the key yet? Sorry, I\ngot carried away. Please let me know when\nthe key is ready."
   },
   "166058": {
-    "<attr><feel_happy_lv3><end_attr>「ついに……ついに　手に入れたぞ！\n　これで私も　一流商人の　仲間入りだ！": "<attr><feel_happy_lv3>Finally... At long last, I have it!\nWith this, I'm one among the first-class\nmerchants!<end_attr>"
+    "<attr><feel_happy_lv3><end_attr>「ついに……ついに　手に入れたぞ！\n　これで私も　一流商人の　仲間入りだ！": 
+    "<attr><feel_happy_lv3>Finally... At long last, I have it!\nWith this, I'm one among the first-class\nmerchants!<end_attr>"
   },
   "165804": {
-    "レイバッサに　鉄の金庫のカギを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Give Reybassa the Iron Safe Key?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "レイバッサに　鉄の金庫のカギを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
+    "Give Reybassa the Iron Safe Key?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "165805": {
-    "レイバッサは　鉄の金庫のカギを使った！<se_nots joutyu tag_nots_map_r2020_8><bw_break>": "Reybassa used Iron Safe Key!<se_nots joutyu tag_nots_map_r2020_8><bw_break>"
+    "レイバッサは　鉄の金庫のカギを使った！<se_nots joutyu tag_nots_map_r2020_8><bw_break>": 
+    "Reybassa used Iron Safe Key!<se_nots joutyu tag_nots_map_r2020_8><bw_break>"
   },
   "165937": {
-    "<pc>は\n鉄の金庫（だいじなもの）を手に入れた！<me 60>": "<pc> received the\nIron Safe (Key Item)!<me 60>"
+    "<pc>は\n鉄の金庫（だいじなもの）を手に入れた！<me 60>": 
+    "<pc> received the\nIron Safe (Key Item)!<me 60>"
   },
   "166061": {
-    "<pc>は　レイバッサに\n鉄の金庫のカギを　渡した！": "<pc> gave Reybassa the Iron Safe Key!"
+    "<pc>は　レイバッサに\n鉄の金庫のカギを　渡した！": 
+    "<pc> gave Reybassa the Iron Safe Key!"
   },
   "166914": {
-    "レイバッサは　震える手つきで\n金庫の中にある　伝説の防具を　取りだした！": "Reybassa, with trembling hands, retrieved\nthe legendary armor from inside the safe!"
+    "レイバッサは　震える手つきで\n金庫の中にある　伝説の防具を　取りだした！": 
+    "Reybassa, with trembling hands, retrieved\nthe legendary armor from inside the safe!"
   },
   "165806": {
-    "「<pc>さんの　おかげで\n　一流の商人として　店を持つ決心ができました。\n<br>\n「家族と一緒に盛り立てて　立派な店にするので\n　開店した際は　ぜひ　いらしてください。": "Thanks to you, <pc>, as a first-class\nmerchant, I've decided to own my own store.\n<br>\nTogether, my family, will make it a great\nstore, so please come visit us when we open."
+    "「<pc>さんの　おかげで\n　一流の商人として　店を持つ決心ができました。\n<br>\n「家族と一緒に盛り立てて　立派な店にするので\n　開店した際は　ぜひ　いらしてください。": 
+    "Thanks to you, <pc>, as a first-class\nmerchant, I've decided to own my own store.\n<br>\nTogether, my family, will make it a great\nstore, so please come visit us when we open."
   },
   "81270": {
-    "<attr><feel_happy_lv1><end_attr>「私どもの店は　グランゼドーラ王家御用達の\n　由緒正しい　防具店でございます。\n　安心して　お買い物を楽しんでください。": "<attr><feel_happy_lv1><end_attr>Our store is a legitimate armory of\nthe royal family of Gran Zedora.\nPlease enjoy your shopping with\n<br>\nconfidence."
+    "<attr><feel_happy_lv1><end_attr>「私どもの店は　グランゼドーラ王家御用達の\n　由緒正しい　防具店でございます。\n　安心して　お買い物を楽しんでください。": 
+    "<attr><feel_happy_lv1>Our store is an armor shop in long-standing\nservice of Gran Zedora's royal family.\n<br>\nPlease enjoy your shopping with confidence.<end_attr>"
   },
   "81271": {
-    "<attr><feel_happy_lv1><end_attr>「私どもの店は　グランゼドーラ王家御用達の\n　由緒正しい　防具店でございます。\n　安心して　お買い物を楽しんでください。\n<br>\n「……おお　なんと！\n　王妃さまに頼まれて　私どもの手伝いに\n　来てくださった方なのですね。\n<br>\n「王妃さまの　おっしゃるとおり\n　マントを作るのに必要な　素材の入手が\n　たいへん　むずかしく　困っておりました。\n<br>\n「その素材は　月光の金糸と呼ばれるものでして\n　主に　ししゅうに使われる\n　それは　それは　美しい糸なのでございます。\n<br>\n「この町を出た先に広がる　グランゼドーラ領。\n　月光の金糸は　その南の　見張り塔近くに棲む\n　<%sEV_QUE_NAME0>からのみ　手に入る逸品。\n<br>\n「マントを完成させるには　月光の金糸が\n　<%nEV_QUE_T_NUM0>本分まとめて　必要になります。\n　手に入りましたら　こちらへ　お持ちください。": "<attr><feel_happy_lv1><end_attr>Our store is a legitimate armory of\nthe royal family of Gran Zedora.\nPlease feel free to shop with us. Oh,\n<br>\nmy! So you are the one who came to\nhelp us at the request of the queen.\nAs the queen said, it was very\n<br>\ndifficult to obtain the materials\nneeded to make the cloak. The material\nis called Goldmoon Thread, which is a\n<br>\nbeautiful thread used mainly for\nembroidery. Goldmoon Thread can only\nbe obtained from <%sev_que_name0>,\n<br>\nwhich lives near the watchtower in the\nsouth of the Gran Zedora Territory,\njust beyond this town. You will need\n<br>\n<%nev_que_t_num0> Goldmoon Threads to\ncomplete the cape. Please bring them\nto us when you have them."
+    "<attr><feel_happy_lv1><end_attr>「私どもの店は　グランゼドーラ王家御用達の\n　由緒正しい　防具店でございます。\n　安心して　お買い物を楽しんでください。\n<br>\n「……おお　なんと！\n　王妃さまに頼まれて　私どもの手伝いに\n　来てくださった方なのですね。\n<br>\n「王妃さまの　おっしゃるとおり\n　マントを作るのに必要な　素材の入手が\n　たいへん　むずかしく　困っておりました。\n<br>\n「その素材は　月光の金糸と呼ばれるものでして\n　主に　ししゅうに使われる\n　それは　それは　美しい糸なのでございます。\n<br>\n「この町を出た先に広がる　グランゼドーラ領。\n　月光の金糸は　その南の　見張り塔近くに棲む\n　<%sEV_QUE_NAME0>からのみ　手に入る逸品。\n<br>\n「マントを完成させるには　月光の金糸が\n　<%nEV_QUE_T_NUM0>本分まとめて　必要になります。\n　手に入りましたら　こちらへ　お持ちください。": 
+    "<attr><feel_happy_lv1>Our business comes from a long line of\narmor shops that catered to Gran Zedora's\nroyal family.\n<br>\nPlease, have peace of mind and enjoy your\nshopping.<end_attr>\n<br>\n...Ooh, what's that! You would be so kind as\nto offer yourself to help us with the\nQueen's request.\n<br>\nIt is as the Queen says: the necessary\ningredients to make the mantle are terribly\ndifficult to come by, putting us at a loss.\n<br>\nThe ingredient is called Golden Moonlight\nThread, primarily used in embroidery, it\nis the most beautiful thread there is.\n<br>\nOutside the city, stretches the Gran\nZedora Territory.\n<br>\nThere, Golden Moonlight Thread may be\nobtained from <%sEV_QUE_NAME0>s\nliving nearby, south of the watchtower.\n<br>\nTo complete the mantle you must obtain <%nEV_QUE_T_NUM0>\nspools of Golden Moonlight Thread.\nPlease return once you have obtained them."
   },
   "81272": {
-    "<attr><feel_happy_lv1><end_attr>「王妃さまから　ご注文いただいたマントを\n　完成させるためには　月光の金糸が\n　必要でございます。\n<br>\n「この町を出た先に広がる　グランゼドーラ領。\n　月光の金糸は　その南の　見張り塔近くに棲む\n　<%sEV_QUE_NAME0>からのみ　手に入る逸品。\n<br>\n「<%nEV_QUE_T_NUM0>本分の月光の金糸が　手に入りましたら\n　このレンケンのもとへ　お持ちください。\n　くれぐれも　お気をつけて。": "<attr><feel_happy_lv1><end_attr>In order to complete the cloak you\nordered from the queen, you will need\nGolden Moonlight Thread. The Gran Zedora\n<br>\nTerritory stretches beyond this town.\nGoldmoon Threads can only be obtained\nfrom <%sev_que_name0>, which lives in\n<br>\nthe south near the watchtower. When\nyou have <%nev_que_t_num0> Goldmoon\nThreads, please bring them to Renken.\n<br>\nPlease be careful."
+    "<attr><feel_happy_lv1><end_attr>「王妃さまから　ご注文いただいたマントを\n　完成させるためには　月光の金糸が\n　必要でございます。\n<br>\n「この町を出た先に広がる　グランゼドーラ領。\n　月光の金糸は　その南の　見張り塔近くに棲む\n　<%sEV_QUE_NAME0>からのみ　手に入る逸品。\n<br>\n「<%nEV_QUE_T_NUM0>本分の月光の金糸が　手に入りましたら\n　このレンケンのもとへ　お持ちください。\n　くれぐれも　お気をつけて。": 
+    "<attr><feel_happy_lv1>The Queen ordered a mantle, but if it is\nto be completed, Golden Moonlight Thread\nis necessary.\n<br>\nOutside the city, stretches the Gran\nZedora Territory.\n<br>\nThere, Golden Moonlight Thread may be\nobtained from <%sEV_QUE_NAME0>s\nliving nearby, south of the watchtower.\n<br>\nTo complete the mantle you must obtain <%nEV_QUE_T_NUM0>\nspools of Golden Moonlight Thread.\nPlease return once you have obtained them.<end_attr>"
   },
   "81273": {
-    "<attr><feel_happy_lv1><end_attr>「おかえりなさいませ。もしや\n　月光の金糸が　手に入ったのではありませんか？": "<attr><feel_happy_lv1><end_attr>Welcome back. If you have Goldmoon\nThread in your possession?"
+    "<attr><feel_happy_lv1><end_attr>「おかえりなさいませ。もしや\n　月光の金糸が　手に入ったのではありませんか？": 
+    "<attr><feel_happy_lv1>Welcome! By chance, you wouldn't have\nobtained Golden Moonlight Thread, would\nyou?<end_attr>"
   },
   "81274": {
-    "「……おや。私の思いちがいでしたか。\n　月光の金糸が　手に入りましたら\n　このレンケンのもとへ　お持ちください。": "Oops. Was I mistaken? When you get\nyour Goldmoon Thread, please bring it\nto Renken here."
+    "「……おや。私の思いちがいでしたか。\n　月光の金糸が　手に入りましたら\n　このレンケンのもとへ　お持ちください。": 
+    "...Oh, I am mistaken. Please return once\nyou have obtained the Golden Moonlight\nThread."
   },
   "81275": {
-    "<attr><feel_happy_lv2><end_attr>「おおっ。これは　まぎれもなく　月光の金糸！\n　よくぞ　手に入れてくださいました。\n　さっそく　仕上げに　取りかかりましょう。\n<br>\n「王家のマントが　できあがり次第\n　すぐに　お城まで　お届けいたしますので\n　王妃さまに　そのように　お伝えください。": "<attr><feel_happy_lv2><end_attr>Oh, this is definitely a Goldmoon\nThread! This is definitely a Goldmoon\nThread! Let's get to work on the\n<br>\nfinishing touches right away. As soon\nas the royal cloak is finished, we\nwill deliver it to the castle, so\n<br>\nplease tell the queen that."
+    "<attr><feel_happy_lv2><end_attr>「おおっ。これは　まぎれもなく　月光の金糸！\n　よくぞ　手に入れてくださいました。\n　さっそく　仕上げに　取りかかりましょう。\n<br>\n「王家のマントが　できあがり次第\n　すぐに　お城まで　お届けいたしますので\n　王妃さまに　そのように　お伝えください。": 
+    "<attr><feel_happy_lv2>Ooh. That is unmistakably the Golden\nMoonlight Thread! Thank you very much for\ncollecting it.\n<br>\nWithout delay, I will start putting on the\nfinishing touches.\n<br>\nAs soon as the royal family's mantle is\ncompleted, I will immediately deliver it to the\ncastle, please report this back to the Queen.<end_attr>"
   },
   "81277": {
-    "レンケンに\n月光の金糸を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Renken the Goldmoon\nThread?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "レンケンに\n月光の金糸を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
+    "Give Renken the Golden Moonlight Thread?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "81278": {
-    "<pc>は　レンケンに\n月光の金糸を　渡した！": "<pc> gave Renken the Goldmoon\nThread!"
+    "<pc>は　レンケンに\n月光の金糸を　渡した！": 
+    "<pc> gave Renken the Golden\nMoonlight Thread!"
   },
   "81280": {
-    "「王家のマントは　できあがり次第\n　すぐに　お城まで　お届けいたしますので\n　王妃さまに　そのように　お伝えください。": "The royal cloak will be delivered to\nthe castle as soon as it is finished,\nso please tell the queen that."
+    "「王家のマントは　できあがり次第\n　すぐに　お城まで　お届けいたしますので\n　王妃さまに　そのように　お伝えください。": 
+    "As soon as the royal family's mantle is\ncompleted, I will immediately deliver it to the\ncastle, please report this back to the Queen."
   },
   "81281": {
-    "<attr><feel_happy_lv1><end_attr>「王家のマントは　王妃さまに\n　すでに　お届けしたので　ご安心ください。\n　いろいろと　お手数をおかけしました。": "<attr><feel_happy_lv1><end_attr>Rest assured that I have already\ndelivered the royal cloak to the\nqueen. I apologize for all the trouble\n<br>\nI have caused you."
+    "<attr><feel_happy_lv1><end_attr>「王家のマントは　王妃さまに\n　すでに　お届けしたので　ご安心ください。\n　いろいろと　お手数をおかけしました。": 
+    "<attr><feel_happy_lv1><end_attr>Please, rest assured that I have already\ndelivered the royal cloak to the Queen.\n<br>\nThank you so much for all that I have put\nyou through.."
   },
   "81282": {
-    "<attr><feel_happy_lv1><end_attr>「これは　これは。王家のマントの件では\n　たいへん　お世話になりました。\n<br>\n「当店では　品質の高い　高級な防具を\n　取りそろえておりますので　あなたさまも\n　ぜひ　ご利用なさってください。": "<attr><feel_happy_lv1><end_attr>Well, well, well. Thank you very much\nfor your help with the royal cloak. We\nhave a wide selection of high-quality,\n<br>\nhigh-grade protective gear, so we hope\nyou will use our store as well."
+    "<attr><feel_happy_lv1><end_attr>「これは　これは。王家のマントの件では\n　たいへん　お世話になりました。\n<br>\n「当店では　品質の高い　高級な防具を\n　取りそろえておりますので　あなたさまも\n　ぜひ　ご利用なさってください。": 
+    "<attr><feel_happy_lv1>Truly, thank you very much for taking care\nof the royal family's mantle affair.\n<br>\nThis store has a wide selection of high\nquality and high-end armor, certainly, you\nwill find something useful as well.<end_attr>"
   },
   "92585": {
-    "<attr><feel_think_lv2><end_attr>「しばらく前まで　お城の兵士さんを\n　町の中で　よう見かけましたのう。\n<br>\n「防具屋さんに入って　店主に\n　何かを　たずねておりましたが\n　探し物でも　あるんですかな？": "<attr><feel_think_lv2><end_attr>A while ago, I used to see a soldier\nin a castle in the town. He went into\nthe Armor Shop and asked the owner\n<br>\nwhat he was looking for."
+    "<attr><feel_think_lv2><end_attr>「しばらく前まで　お城の兵士さんを\n　町の中で　よう見かけましたのう。\n<br>\n「防具屋さんに入って　店主に\n　何かを　たずねておりましたが\n　探し物でも　あるんですかな？": 
+    "<attr><feel_think_lv2>Just a little bit ago, I happened to see\nsoldiers from the castle inside the town.\n<br>\nThey entered the armor shop and visited\nwith the owner about something. Were they\nlooking for something, I wonder?<end_attr>"
   },
   "92586": {
-    "<attr><feel_think_lv2><end_attr>「先日　アラハギーロ王国から\n　来たという行商人から　多くの装飾品を\n　買い取ったのですが……。\n<br>\n「その中に　グランゼドーラ王家ゆかりの品が\n　いくつか　混じっていたのに　気づいたのです。\n<br>\n「すでに　お城には　報告して\n　装飾品は　お返ししましたが……。\n　何か　事件でも　あったのでしょうか。": "<attr><feel_think_lv2><end_attr>The other day I bought a lot of\nornaments from a peddler from the\nKingdom of Al-Ahagiro. Among them, I\n<br>\nnoticed that there were some items\nrelated to the royal family of Gran\nZedora. I had already reported it to\n<br>\nthe castle and returned the ornaments.\nWas there some kind of incident?"
+    "<attr><feel_think_lv2><end_attr>「先日　アラハギーロ王国から\n　来たという行商人から　多くの装飾品を\n　買い取ったのですが……。\n<br>\n「その中に　グランゼドーラ王家ゆかりの品が\n　いくつか　混じっていたのに　気づいたのです。\n<br>\n「すでに　お城には　報告して\n　装飾品は　お返ししましたが……。\n　何か　事件でも　あったのでしょうか。": 
+    "<attr><feel_think_lv2>The other day a peddler from Al-Ahagiro\nKingdom came and sold many trinkets, but...\n<br>\nTherein many items linked to Gran Zedora\nKingdom's royal family were mixed in,\nI noticed.\n<br>\nI already reported and returned the\ntrinkets to the castle... But what a thing\nto come about, don't you think?<end_attr>"
   },
   "92587": {
     "<attr><feel_think_lv2><end_attr>「高価な品を　たくさん\n　売り払おうとしている者を　見なかったかって\n　お城の兵士さんに　聞かれたの。\n<br>\n「防具屋さんで　そんな感じの人を見たから\n　それを　言っておいたんだけど……。\n　いったい　なんだったのかしらねえ？": "<attr><feel_think_lv2><end_attr>A soldier at the castle asked me if I\nhad seen anyone trying to sell off a\nlot of expensive items. I told him\n<br>\nthat I had seen someone like that at\nthe Armor Shop. I wonder what it was\nall about?"
