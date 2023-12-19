@@ -153,7 +153,8 @@
     "<attr><feel_happy_lv2><end_attr>「テグラムさまは　王国の復興に向けて\n　毎日　忙しそうにしているわ。\n　私たちも　できる限りのお手伝いをしなきゃね。": ""
   },
   "100910": {
-    "「グランゼドーラ城へ　ようこそ。\n　私が　城内の説明をいたしましょう。\n<br>\n「まず　ここ１階の奥には\n　伝説の勇者の像が　置かれております。\n　本当に　勇者なのかは　知りません。\n<br>\n「玉座の間は　２階にありますが\n　玉座に座れるような人は　いません。\n　あえて言うなら　テグラムさんですかね。\n<br>\n「なお　３階は　王家の方々が使う\n　お部屋になっていますが　そのような方も\n　もう　いないので……ああ　締まらないなぁ。": ""
+    "「グランゼドーラ城へ　ようこそ。\n　私が　城内の説明をいたしましょう。\n<br>\n「まず　ここ１階の奥には\n　伝説の勇者の像が　置かれております。\n　本当に　勇者なのかは　知りません。\n<br>\n「玉座の間は　２階にありますが\n　玉座に座れるような人は　いません。\n　あえて言うなら　テグラムさんですかね。\n<br>\n「なお　３階は　王家の方々が使う\n　お部屋になっていますが　そのような方も\n　もう　いないので……ああ　締まらないなぁ。": 
+    "TODO_Welcome to Gran Zedora Castle.\nLet me explain the castle to you.\n<br>\nStarting on the first floor, is the\nstatue of the Legendary Hero."
   },
   "100911": {
     "「しばらく　何も食わせてもらえなかったんだが\n　やっと　メシを寄こしてくれたんだ。\n　あやうく　骨になるところだったぜ……。": ""
@@ -261,7 +262,8 @@
     "「これから　この王国は\n　どうなっていくんでしょうね……。\n<br>\n「……いえ。それは　私たち次第ですよね。\n　自分たちの手で　理想の国を\n　作っていかなきゃ　いけないんだわ。": ""
   },
   "100950": {
-    "<attr><feel_happy_lv1><end_attr>「グランゼドーラ城へ　ようこそ。\n　私が　城内の説明をいたしましょう。\n<br>\n「まず　ここ１階の奥には\n　伝説の勇者の像が　置かれております。\n　本当に　勇者なのかは　知りません。\n<br>\n「玉座の間は　２階にありますが\n　王と呼べる人は　いません。\n　いるのは　リゲス大臣だけです。\n<br>\n「なお　３階は　王家の方々が使う\n　お部屋になっていますが　そのような方も\n　もう　存在しないので……ないない尽くしです。\n<br>\n「ですが　私たちの心には　希望があります。\n　それさえあれば　生きていけるんです。": ""
+    "<attr><feel_happy_lv1><end_attr>「グランゼドーラ城へ　ようこそ。\n　私が　城内の説明をいたしましょう。\n<br>\n「まず　ここ１階の奥には\n　伝説の勇者の像が　置かれております。\n　本当に　勇者なのかは　知りません。\n<br>\n「玉座の間は　２階にありますが\n　王と呼べる人は　いません。\n　いるのは　リゲス大臣だけです。\n<br>\n「なお　３階は　王家の方々が使う\n　お部屋になっていますが　そのような方も\n　もう　存在しないので……ないない尽くしです。\n<br>\n「ですが　私たちの心には　希望があります。\n　それさえあれば　生きていけるんです。": 
+    "TODO_<attr><feel_happy_lv1>Welcome to Gran Zedora Castle.\nLet me explain the castle to you.\n<br>\n<end_attr>"
   },
   "100951": {
     "「テグラムさんは　旅立ってしまいましたが\n　彼をたたえる歌を　作りましたので\n　ぜひ　あなたも　聴いていってください。\n<br>\n「おお～　剣士テグラム～♪\n　その言葉～　するどい　つるぎとなりて\n　闇に沈む　人々の心　突きうごかす～♪\n<br>\n「そして　彼は　人々のため～♪\n　聖なる城から　荒野へ旅立つ～♪\n　どこへ行くのか　剣士テグラム～♪": ""
@@ -462,14 +464,16 @@
     "「ここは　牢獄だよ。\n　旅の人が来るような場所じゃないんだけどな。\n<br>\n「でもまあ　見学したいのなら　ご自由に。\n　面白いものなんか　何もないけどね。": ""
   },
   "65477": {
-    "<attr><feel_normal_one><end_attr>「あのですね。旅の人。\n　ここは　大事な　お話をするときに\n　お城のえらい人が使う　執務室なんです。\n<br>\n「なのでですね。すみませんが\n　出ていって　いただけませんか？": ""
+    "<attr><feel_normal_one><end_attr>「あのですね。旅の人。\n　ここは　大事な　お話をするときに\n　お城のえらい人が使う　執務室なんです。\n<br>\n「なのでですね。すみませんが\n　出ていって　いただけませんか？": 
+    "<attr><feel_normal_one>Umm, travelers. This office is used by\nthe castle's officials when they need to\ntalk about important matters.\n<br>\nUmm, sorry, but could you please leave?<end_attr>"
   },
   "65478": {
     "<attr><feel_happy_lv3><end_attr>「そこに見える　大きな勇者の像は\n　かつて　この世界を救ったと言われる\n　伝説の勇者の姿が　モチーフになっているの。\n<br>\n「アンルシア姫さまは\n　その伝説の勇者さまに　負けないくらい\n　りりしくて　カッコいいのよぉ！": 
     "<attr><feel_happy_lv3>That huge Hero statue you see there is\nbased on the Legendary Hero who once\nsaved the world.\n<br>\nPrincess Anlucia is just as brave and\nbeautiful as the Legendary Hero!<end_attr>"
   },
   "65479": {
-    "<attr><feel_happy_lv1><end_attr>「グランゼドーラ城へ　ようこそ！\n　私が　城内の説明をいたしましょう。\n<br>\n「まず　ここ１階の奥には\n　伝説の勇者の像が　置かれております。\n<br>\n「玉座の間は　２階。\n　勇者姫さまへの謁見は　そちらへどうぞ。\n<br>\n「なお　３階には　姫さまと\n　そのお付きの方々の　お部屋がありますので\n　一般の方は立ち入らぬよう　お願いいたします。": ""
+    "<attr><feel_happy_lv1><end_attr>「グランゼドーラ城へ　ようこそ！\n　私が　城内の説明をいたしましょう。\n<br>\n「まず　ここ１階の奥には\n　伝説の勇者の像が　置かれております。\n<br>\n「玉座の間は　２階。\n　勇者姫さまへの謁見は　そちらへどうぞ。\n<br>\n「なお　３階には　姫さまと\n　そのお付きの方々の　お部屋がありますので\n　一般の方は立ち入らぬよう　お願いいたします。": 
+    "<attr><feel_happy_lv1>Welcome to Gran Zedora Castle!\nLet me explain the castle to you.\n<br>\nStarting on the first floor, is the\nstatue of the Legendary Hero.\nThe throne room is on the second floor\n<br>\nPlease go there if you seek an audience\nwith the Hero Princess. Lastly, the\nthird floor.\n<br>\nWhere the Princess and her royal servants'\nrooms are; commoners are not permitted\nthere, thank you for your cooperation.<end_attr>"
   },
   "65480": {
     "<attr><feel_sad_lv2><end_attr>「オレは　ケチなスリさ。\n　大都会なら　仕事が　はかどると思って\n　わざわざ　アラハギーロから　やってきたんだ。\n<br>\n「なのに　最初の仕事で　とっ捕まっちまった！\n　勇者が　目を光らせてると　知っていれば\n　こんな所には　来なかったよ……。": ""
@@ -483,7 +487,8 @@
     "<attr><feel_normal_one>...Looking up at the Hero Statue is a good\nand all, but I think you should try\nseeing it from the Hero's Altar there.<end_attr>"
   },
   "65482": {
-    "「国王である　父君を亡くされてから\n　姫さまは　統治者と勇者の　ふたつの役目を\n　果たさねばならなくなりました。\n<br>\n「姫さまは　見事　それをこなしておられる。\n　私は　この城で　おそばに仕えられることを\n　光栄に思っております。": ""
+    "「国王である　父君を亡くされてから\n　姫さまは　統治者と勇者の　ふたつの役目を\n　果たさねばならなくなりました。\n<br>\n「姫さまは　見事　それをこなしておられる。\n　私は　この城で　おそばに仕えられることを\n　光栄に思っております。": 
+    "After her father—the king—passed away,\nthe princess had to fulfill both roles\nof ruler and hero.\n<br>\nDespite that, the Princess has done an\nadmirable job. I am honored to serve at\nher side in the castle."
   },
   "65483": {
     "<attr><feel_happy_lv1><end_attr>「奥に　でっかい勇者の像が見えるだろ？\n　この城に来たんなら　じっくりと\n　あれを見ていかなきゃ　もったいないぜ！\n<br>\n「像の前の　高台になっているとこは\n　勇者の聖壇って　呼ばれてるんだ。\n　そこから見るのが　オススメだぞ！": 
@@ -496,28 +501,34 @@
     "<attr><feel_happy_lv1><end_attr>「勇者姫さまの　ご指示でな。\n　姫さまにも　城で働く連中と\n　同じ食事を出すことに　なってるんだ。\n<br>\n「豪華な食材を　いじれないってのは\n　料理人のオレとしちゃ　物足りないんだが\n　その分　味付けの工夫で　勝負してるぜ。": ""
   },
   "65486": {
-    "<attr><feel_sad_lv1><end_attr>「私たち　従者をまとめている　ダイム老には\n　剣士として　名を馳せた　お孫さんがおり\n　それはそれは　目をかけておられました。\n<br>\n「ですが　しばらく前に　そのお孫さんが\n　城下で　行方不明となる事件があり……。\n　今も　見つかっていないのです。\n<br>\n「なのに　ダイム老は　その悲しみを見せず\n　今日も　仕事に　はげんでおられます。\n　私も　見習わなくては。": ""
+    "<attr><feel_sad_lv1><end_attr>「私たち　従者をまとめている　ダイム老には\n　剣士として　名を馳せた　お孫さんがおり\n　それはそれは　目をかけておられました。\n<br>\n「ですが　しばらく前に　そのお孫さんが\n　城下で　行方不明となる事件があり……。\n　今も　見つかっていないのです。\n<br>\n「なのに　ダイム老は　その悲しみを見せず\n　今日も　仕事に　はげんでおられます。\n　私も　見習わなくては。": 
+    "<attr><feel_sad_lv1>We servants are managed by Old Dyme who\nhas a grandson—a renowned swordsman—that\nhe is very proud of.\n<br>\nBut a while back his grandson went missing\nin castle town... Even now, he hasn't\nbeen found.\n<br>\nDespite that, Old Dyme—showing no sign\nof grief—keeps working hard. I, too,\nshould follow his example.<end_attr>"
   },
   "65487": {
-    "「この扉より先は　王族の方の\n　プライベートな　お部屋となっている。\n　用のない者は　なるべく　立ち入らぬように。\n<br>\n「もっとも　王族と呼べる方は\n　今や　アンルシア姫さま　おひとりを\n　残すだけと　なってしまったのだがな……。": ""
+    "「この扉より先は　王族の方の\n　プライベートな　お部屋となっている。\n　用のない者は　なるべく　立ち入らぬように。\n<br>\n「もっとも　王族と呼べる方は\n　今や　アンルシア姫さま　おひとりを\n　残すだけと　なってしまったのだがな……。": 
+    "Through this door are the royal chambers.\nThose without business shouldn't go\ninside, if it can be helped.\n<br>\nAlthough the only person left you could\ncall royalty is Princess Anlucia..."
   },
   "65488": {
     "「勇者姫さまのおかげで　この国で\n　犯罪をしようと考える者は　いなくなったわ。\n<br>\n「牢屋も　ほとんど　空っぽだから\n　ヒマで　ヒマで　困っているところよ。\n　ぜいたくな　悩みだけどね。": ""
   },
   "65489": {
-    "「アンルシア姫さまを　お守りするのが\n　我ら　近衛騎士の任務なり。\n<br>\n「確かに　アンルシア姫さまは　勇者であり\n　我らなどより　はるかに　お強い。\n　たとえ　そうだとしても……だ。": ""
+    "「アンルシア姫さまを　お守りするのが\n　我ら　近衛騎士の任務なり。\n<br>\n「確かに　アンルシア姫さまは　勇者であり\n　我らなどより　はるかに　お強い。\n　たとえ　そうだとしても……だ。": 
+    "Protecting Princess Anlucia is we the\nroyal guards' duty.\n<br>\nSure, Princess Anlucia the hero is\nleagues ahead of us in strength.\nNevertheless..."
   },
   "65490": {
-    "「向こうの階段を上がると　３階に行けるが\n　奥の方には　王族の方々の部屋があるから\n　あまり　近づかないようにな。": ""
+    "「向こうの階段を上がると　３階に行けるが\n　奥の方には　王族の方々の部屋があるから\n　あまり　近づかないようにな。": 
+    "The stairs there go up to the third\nfloor where the royal chambers are,\njust don't get too close."
   },
   "65491": {
     "「旅の方。もしや　アンルシア姫さまに\n　謁見をご所望でしたかな？\n<br>\n「申し訳ありませんが　姫さまは\n　日課のお祈りを捧げるため\n　１階の勇者の聖壇へ　行っております。": ""
   },
   "65492": {
-    "<attr><feel_happy_lv1><end_attr>「私は　ダイムさまに　あこがれて\n　この城の　侍女になったんです。\n<br>\n「ダイムさまというのは　この城の従者たちを\n　まとめている　とっても　立派な方でして\n　アンルシア姫さまの信頼も　厚いんですよ！": ""
+    "<attr><feel_happy_lv1><end_attr>「私は　ダイムさまに　あこがれて\n　この城の　侍女になったんです。\n<br>\n「ダイムさまというのは　この城の従者たちを\n　まとめている　とっても　立派な方でして\n　アンルシア姫さまの信頼も　厚いんですよ！": 
+    "<attr><feel_happy_lv1>I became a maid at the castle, because I\nlooked up to Lord Dyme.\n<br>\nLord Dyme manages the castle's servants\nand is an elegant man whom Princess Anlucia\nhas a lot of trust in!<end_attr>"
   },
   "65493": {
-    "<attr><feel_happy_lv1><end_attr>「こちらは　王家の書庫でございます。\n　一般の方にも　開放しておりますので\n　ご自由に　お読みください。\n<br>\n「グランゼドーラ王家の歴史など\n　旅の方にも　興味深い書物が\n　たくさん　ございますよ。": ""
+    "<attr><feel_happy_lv1><end_attr>「こちらは　王家の書庫でございます。\n　一般の方にも　開放しておりますので\n　ご自由に　お読みください。\n<br>\n「グランゼドーラ王家の歴史など\n　旅の方にも　興味深い書物が\n　たくさん　ございますよ。": 
+    "<attr><feel_happy_lv1>This is the royal library. It is open to\nthe public, so please feel free to read.\n<br>\nTravelers will find there are many\ninteresting books about the history of\nGran Zedora's royal family.<end_attr>"
   },
   "65494": {
     "<attr><feel_think_lv1><end_attr>「ああ～。見回りなんかより\n　やりがいのある仕事に　つきてえなあ。\n<br>\n「勇者姫さまが　いらっしゃる　この王国で。\n　ましてや　城の中で　悪さを働こうなんてヤツが\n　いるわけないもんなあ～。": ""
@@ -535,7 +546,8 @@
     "<center>勇者の聖壇\n<br>\n千年の昔　不死の魔王に戦いを挑み\n苦闘の果てに　勝利を収めた\n偉大なる勇者をここに称える": ""
   },
   "65497": {
-    "「こちらは　グランゼドーラ港へと\n　つながっている　エレベーターなのですが\n　故障中で　ご利用になれません。\n<br>\n「修理の手配が　遅れておりまして\n　直るまで　時間が　かかりそうです。\n　あしからず　ご了承ください。": ""
+    "「こちらは　グランゼドーラ港へと\n　つながっている　エレベーターなのですが\n　故障中で　ご利用になれません。\n<br>\n「修理の手配が　遅れておりまして\n　直るまで　時間が　かかりそうです。\n　あしからず　ご了承ください。": 
+    "This is the elevator that connects to\nGran Zedora Harbor, but it is currently\nout of service.\n<br>\nThere is a delay in repairs, so it will\ntake some time to fix the problem.\nI apologize for the inconvenience."
   },
   "65498": {
     "<attr><feel_happy_lv1><end_attr>「ここは　玉座の間です。\n　アンルシア姫さまの　はからいで\n　旅の方でも　出入りは自由ですよ。": ""
@@ -556,13 +568,16 @@
     "Hohoh. You met Princess Anlucia at the\nHero's Altar, yes.\n<br>\nThe Princess aims to be a splendid hero.\nSo everyday—without fail—she comes to\npray at the Hero's Altar."
   },
   "65502": {
-    "「おいおい　聞いたか？\n　勇者姫さまに　そっくりな女の子が\n　この城に　現れたらしいぞ。\n<br>\n「オレは　まだ見てないんだが\n　どのくらい　そっくりなのかを\n　この目で　確かめたいぜ！": ""
+    "「おいおい　聞いたか？\n　勇者姫さまに　そっくりな女の子が\n　この城に　現れたらしいぞ。\n<br>\n「オレは　まだ見てないんだが\n　どのくらい　そっくりなのかを\n　この目で　確かめたいぜ！": 
+    "Hey, hey, did you hear? Seems a girl\nwho's the spitting image of the Hero\nPrincess showed up at the castle.\n<br>\nI haven't seen her yet, but I wanna see\nhow similar they are with my own eyes!"
   },
   "65503": {
-    "<attr><feel_angry_lv1><end_attr>「先ほど　アンルシア姫さまが\n　女の子を連れて　玉座の間に\n　入っていったんですが……。\n<br>\n「この子が　アンルシア姫さまに\n　うりふたつの顔をしていたんです。\n　そりゃもう　ビックリですよ！": ""
+    "<attr><feel_angry_lv1><end_attr>「先ほど　アンルシア姫さまが\n　女の子を連れて　玉座の間に\n　入っていったんですが……。\n<br>\n「この子が　アンルシア姫さまに\n　うりふたつの顔をしていたんです。\n　そりゃもう　ビックリですよ！": 
+    "<attr><feel_angry_lv1>A little while ago, Princess Anlucia\nbrought a girl inside the throne room...\n<br>\nThat girl and Princess Anlucia looked\nlike two peas in a pod. It startled me!<end_attr>"
   },
   "75442": {
-    "「こちらは　勇者姫さまのお客人\n　ミシュアさまが　お使いになる部屋です。\n　ご用がなければ　お引き取りを。": ""
+    "「こちらは　勇者姫さまのお客人\n　ミシュアさまが　お使いになる部屋です。\n　ご用がなければ　お引き取りを。": 
+    "This room is for the use of the Hero\nPrincess' guest, Mishua. If you have no\nbusiness here, leave."
   },
   "65504": {
     "「あなたが　<pc>さんですね。\n　お話は　うかがっております。\n<br>\n「こちらが　あなたのお部屋となります。\n　お疲れのようでしたら　寝室のベッドを調べ\n　ごゆるりと　お休みください。": ""
@@ -725,7 +740,8 @@
     "<attr><feel_angry_lv3><end_attr>「私たちなんか　そこにある\n　勇者の像と同じ　ただの作り物なのよ！\n<br>\n「もう　どうなったって　かまわないわ。\n　私のことは　ほっといてよ！": ""
   },
   "70237": {
-    "<attr><feel_happy_lv1><end_attr>「グランゼドーラ城へ　ようこそ。\n　私が　城内の説明をいたしましょう。<bw_break>": ""
+    "<attr><feel_happy_lv1><end_attr>「グランゼドーラ城へ　ようこそ。\n　私が　城内の説明をいたしましょう。<bw_break>": 
+    "<attr><feel_happy_lv1><end_attr>Welcome to Gran Zedora Castle.\nLet me explain the castle to you.<bw_break>"
   },
   "70238": {
     "<attr><feel_sad_lv3><end_attr>「あっ。主のいない城の説明なんか\n　聞いても　しょうがないですよね。\n　私のことは　忘れてください……。": ""
