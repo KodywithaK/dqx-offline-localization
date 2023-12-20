@@ -455,7 +455,8 @@
     "「この先は　勇者姫さまのお部屋なのですが\n　勇者姫さまが　こちらに　おられることは\n　めったに　ありません。\n<br>\n「謁見をお望みならば　２階の\n　玉座の間に　行くのがよいでしょう。": ""
   },
   "65474": {
-    "<attr><feel_happy_one><end_attr>「うまし　うましっ！\n<br>\n「毎日　おいしい食事ができるのも\n　勇者姫さまが　国民の平和を守るため\n　日夜　戦っておられる　おかげです！！": ""
+    "<attr><feel_happy_one><end_attr>「うまし　うましっ！\n<br>\n「毎日　おいしい食事ができるのも\n　勇者姫さまが　国民の平和を守るため\n　日夜　戦っておられる　おかげです！！": 
+    "<attr><feel_happy_one>Yum, Yumm! We can enjoy delicious meals every\nday because the Hero Princess fights day and\nnight to protect the peace of the people!!<end_attr>"
   },
   "65475": {
     "<attr><feel_happy_lv1><end_attr>「こちらは　勇者姫さまが\n　大事な　お客さまを　お泊めになる客間です。\n<br>\n「今は　お客さまは　おられませんので\n　見学ならば　ご自由にどうぞ。": ""
@@ -488,17 +489,19 @@
   },
   "65482": {
     "「国王である　父君を亡くされてから\n　姫さまは　統治者と勇者の　ふたつの役目を\n　果たさねばならなくなりました。\n<br>\n「姫さまは　見事　それをこなしておられる。\n　私は　この城で　おそばに仕えられることを\n　光栄に思っております。": 
-    "After her father—the king—passed away,\nthe princess had to fulfill both roles\nof ruler and hero.\n<br>\nDespite that, the Princess has done an\nadmirable job. I am honored to serve at\nher side in the castle."
+    "After her father—the king—passed away,\nthe princess had to fulfill the roles of\nboth sovereign and hero.\n<br>\nDespite that, the Princess has done an\nadmirable job. I am honored to serve at\nher side in the castle."
   },
   "65483": {
     "<attr><feel_happy_lv1><end_attr>「奥に　でっかい勇者の像が見えるだろ？\n　この城に来たんなら　じっくりと\n　あれを見ていかなきゃ　もったいないぜ！\n<br>\n「像の前の　高台になっているとこは\n　勇者の聖壇って　呼ばれてるんだ。\n　そこから見るのが　オススメだぞ！": 
     "<attr><feel_happy_lv1>See that huge Hero statue in the back?\nIf you came to the castle, it'd be a\nwaste not to take a good look at it!\n<br>\nThe platform in front of the statue is\ncalled the Hero's Altar. I recommend you\nsee it from up there!<end_attr>"
   },
   "65484": {
-    "<attr><feel_angry_one><end_attr>「我らが　アンルシア姫さまは\n　強くなるために　日々　努力を重ねておられる。\n<br>\n「我々も　負けてはいられない。\n　時間があれば　訓練！　訓練だ！！": ""
+    "<attr><feel_angry_one><end_attr>「我らが　アンルシア姫さまは\n　強くなるために　日々　努力を重ねておられる。\n<br>\n「我々も　負けてはいられない。\n　時間があれば　訓練！　訓練だ！！": 
+    "<attr><feel_angry_one>Our Princess Anlucia strives to get\nstronger everyday. We wont yield either.\nIt's time to train! Train!!<end_attr>"
   },
   "65485": {
-    "<attr><feel_happy_lv1><end_attr>「勇者姫さまの　ご指示でな。\n　姫さまにも　城で働く連中と\n　同じ食事を出すことに　なってるんだ。\n<br>\n「豪華な食材を　いじれないってのは\n　料理人のオレとしちゃ　物足りないんだが\n　その分　味付けの工夫で　勝負してるぜ。": ""
+    "<attr><feel_happy_lv1><end_attr>「勇者姫さまの　ご指示でな。\n　姫さまにも　城で働く連中と\n　同じ食事を出すことに　なってるんだ。\n<br>\n「豪華な食材を　いじれないってのは\n　料理人のオレとしちゃ　物足りないんだが\n　その分　味付けの工夫で　勝負してるぜ。": 
+    "<attr><feel_happy_lv1>By the Princess' order, she is to be served\nthe same food as the castle workers.\n<br>\nAs a chef, it's not satisfying being told to\nnot tinker with the luxurious ingredients,\nso I'm experimenting with the seasonings.<end_attr>"
   },
   "65486": {
     "<attr><feel_sad_lv1><end_attr>「私たち　従者をまとめている　ダイム老には\n　剣士として　名を馳せた　お孫さんがおり\n　それはそれは　目をかけておられました。\n<br>\n「ですが　しばらく前に　そのお孫さんが\n　城下で　行方不明となる事件があり……。\n　今も　見つかっていないのです。\n<br>\n「なのに　ダイム老は　その悲しみを見せず\n　今日も　仕事に　はげんでおられます。\n　私も　見習わなくては。": 
@@ -537,20 +540,23 @@
     "城内を移動できる　エレベーターのようだ。\nしかし　扉は　かたく　閉ざされている。": ""
   },
   "65514": {
-    "ふかふかの布団が敷かれた　ベッドがある。": ""
+    "ふかふかの布団が敷かれた　ベッドがある。": 
+    "There's a fluffy futon on the bed."
   },
   "78635": {
     "<pc>は　壇上に刻まれた文字を読んだ。": ""
   },
   "78636": {
-    "<center>勇者の聖壇\n<br>\n千年の昔　不死の魔王に戦いを挑み\n苦闘の果てに　勝利を収めた\n偉大なる勇者をここに称える": ""
+    "<center>勇者の聖壇\n<br>\n千年の昔　不死の魔王に戦いを挑み\n苦闘の果てに　勝利を収めた\n偉大なる勇者をここに称える": 
+    "<center>Hero's Altar\n<br>\nThis stands as a monument to the mighty hero who,\nlong ago, challenged the Immortal Demon King to\nbattle and—after a bitter struggle—emerged victorious."
   },
   "65497": {
     "「こちらは　グランゼドーラ港へと\n　つながっている　エレベーターなのですが\n　故障中で　ご利用になれません。\n<br>\n「修理の手配が　遅れておりまして\n　直るまで　時間が　かかりそうです。\n　あしからず　ご了承ください。": 
     "This is the elevator that connects to\nGran Zedora Harbor, but it is currently\nout of service.\n<br>\nThere is a delay in repairs, so it will\ntake some time to fix the problem.\nI apologize for the inconvenience."
   },
   "65498": {
-    "<attr><feel_happy_lv1><end_attr>「ここは　玉座の間です。\n　アンルシア姫さまの　はからいで\n　旅の方でも　出入りは自由ですよ。": ""
+    "<attr><feel_happy_lv1><end_attr>「ここは　玉座の間です。\n　アンルシア姫さまの　はからいで\n　旅の方でも　出入りは自由ですよ。": 
+    "<attr><feel_happy_lv1>This is the throne room. Princess Anlucia\nhas arranged for visitors to come and go\nas they please.<end_attr>"
   },
   "65499": {
     "<attr><feel_think_lv1><end_attr>「勇者姫さまが　がんばってくれるおかげで\n　何か　事件が起こったときでも\n　オレたち　兵士の出番が　なくてねえ。\n<br>\n「楽なのは　いいんだけどさあ。\n　いつ　国民に　給料ドロボーって言われるかと\n　ヒヤヒヤしてるよ。": ""
@@ -580,43 +586,56 @@
     "This room is for the use of the Hero\nPrincess' guest, Mishua. If you have no\nbusiness here, leave."
   },
   "65504": {
-    "「あなたが　<pc>さんですね。\n　お話は　うかがっております。\n<br>\n「こちらが　あなたのお部屋となります。\n　お疲れのようでしたら　寝室のベッドを調べ\n　ごゆるりと　お休みください。": ""
+    "「あなたが　<pc>さんですね。\n　お話は　うかがっております。\n<br>\n「こちらが　あなたのお部屋となります。\n　お疲れのようでしたら　寝室のベッドを調べ\n　ごゆるりと　お休みください。": 
+    "You're <pc>, aren't you. I've heard about you.\n<br>\nYour room is this way. If you feel tired,\nplease check the bed in your bedroom and\nhave a good night's sleep."
   },
   "65505": {
-    "「この扉より先は　アンルシア姫さまの\n　プライベートな　お部屋となっている。\n　用のない者は　なるべく　立ち入らぬように。\n<br>\n「……むむ。これは　失礼した。\n　あなたは　姫の客人　<pc>殿ですな。\n　通っていただいて　かまいませんぞ。": ""
+    "「この扉より先は　アンルシア姫さまの\n　プライベートな　お部屋となっている。\n　用のない者は　なるべく　立ち入らぬように。\n<br>\n「……むむ。これは　失礼した。\n　あなたは　姫の客人　<pc>殿ですな。\n　通っていただいて　かまいませんぞ。": 
+    "Through this door is Princess Anlucia's\nprivate chamber. Those without business\nshouldn't go inside, if it can be helped.\n<br>\n...Hmm, excuse me. You're the Princess' guest,\n<if_woman>Ms.<else>Mr.<endif> <pc>. Come and go as you please."
   },
   "65506": {
-    "<attr><feel_think_lv1><end_attr>「ダイム老が　娘をひとり\n　上の階へ　連れていったんだが\n　なんと　勇者姫さまの　お客人だそうだ。\n<br>\n「ずっと　うつむいていて　顔は見えなかったが\n　なんとなく　姫さまに似ていたような……。": ""
+    "<attr><feel_think_lv1><end_attr>「ダイム老が　娘をひとり\n　上の階へ　連れていったんだが\n　なんと　勇者姫さまの　お客人だそうだ。\n<br>\n「ずっと　うつむいていて　顔は見えなかったが\n　なんとなく　姫さまに似ていたような……。": 
+    "<attr><feel_think_lv1>Lord Dyme took that girl upstairs, what a\nsurprise for the Hero Princess have a\nguest.\n<br>\nShe kept her head down the whole time so\nI couldn't see much, but she looked a\nlittle like the Princess...<end_attr>"
   },
   "65507": {
-    "扉は　かたく　閉ざされている。": ""
+    "扉は　かたく　閉ざされている。": 
+    "The door is locked."
   },
   "65508": {
-    "ふかふかの布団が敷かれた　ベッドがある。\n勇者姫の客人である　<pc>は\nこのベッドを　使っていいらしい。\n<br>\nこのベッドで　ひと晩　休みますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": ""
+    "ふかふかの布団が敷かれた　ベッドがある。\n勇者姫の客人である　<pc>は\nこのベッドを　使っていいらしい。\n<br>\nこのベッドで　ひと晩　休みますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
+    "There's a fluffy futon on the bed.\nIt should be okay for the Hero Princess'\nguests to use.\n<br>\nRest in the bed overnight?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "65509": {
-    "<pc>は　ベッドで休むことにした……。": ""
+    "<pc>は　ベッドで休むことにした……。": 
+    "<pc> decided to rest on the bed..."
   },
   "65510": {
-    "「アンルシア姫さまの　ご公務中につき\n　玉座の間への出入りは　ご遠慮ください。\n<br>\n「<pc>さんには　城の３階から行ける\n　東の塔　最上階の部屋を　用意してありますので\n　そちらで　ゆっくりと　お休みください。\n<br>\n「ちなみに　ミシュアさんには\n　西の塔　最上階の部屋が　用意されました。\n　ダイム老と一緒に　向かっているはずです。": ""
+    "「アンルシア姫さまの　ご公務中につき\n　玉座の間への出入りは　ご遠慮ください。\n<br>\n「<pc>さんには　城の３階から行ける\n　東の塔　最上階の部屋を　用意してありますので\n　そちらで　ゆっくりと　お休みください。\n<br>\n「ちなみに　ミシュアさんには\n　西の塔　最上階の部屋が　用意されました。\n　ダイム老と一緒に　向かっているはずです。": 
+    "Princess Anlucia is on duty, so please\nrefrain from entering the throne room.\n<br>\nIt'd be good if you rest in the room\nprovided for you in top of the eastern\ntower on the castle's third floor.\n<br>\nBy the way, Mishua was provided a room in\nthe top of the western tower. She and\nLord Dyme should be headed that way."
   },
   "65511": {
-    "「<pc>さん。アンルシア姫さまが\n　あなたを　お呼びになっているそうです。\n<br>\n「申し訳ありませんが　玉座の間に\n　行っていただけませんか。": ""
+    "「<pc>さん。アンルシア姫さまが\n　あなたを　お呼びになっているそうです。\n<br>\n「申し訳ありませんが　玉座の間に\n　行っていただけませんか。": 
+    "<pc>, I hear that Princess Anlucia\nsummoned for you all.\n<br>\nSorry, but I must ask you to proceed to\nthe throne room."
   },
   "65512": {
-    "<attr><feel_normal_one><end_attr>「あのですね。<pc>さま。\n　私　ちゃんと　姫さまからの伝言を\n　あなたに　お伝えしましたよね？\n<br>\n「なのでですね。すみませんが\n　玉座の間へ　行っていただけませんか。\n　私が　怒られてしまいますので。": ""
+    "<attr><feel_normal_one><end_attr>「あのですね。<pc>さま。\n　私　ちゃんと　姫さまからの伝言を\n　あなたに　お伝えしましたよね？\n<br>\n「なのでですね。すみませんが\n　玉座の間へ　行っていただけませんか。\n　私が　怒られてしまいますので。": 
+    "<attr><feel_normal_one>Umm, <pc>. I did pass on the message\nfrom the Princess to you, didn't I?\n<br>\nSo, umm, sorry, but could you go to the\nthrone room. Or else she will get angry\nat me.<end_attr>"
   },
   "75443": {
-    "<attr><feel_think_lv2><end_attr>「ダイム老が　世話をしている\n　ミシュアという娘は　何者なのだ？\n<br>\n「世の中には　自分に似た者が\n　３人いるとは　よく言うが……。\n　あれほど　勇者姫さまに　似ているとは。": ""
+    "<attr><feel_think_lv2><end_attr>「ダイム老が　世話をしている\n　ミシュアという娘は　何者なのだ？\n<br>\n「世の中には　自分に似た者が\n　３人いるとは　よく言うが……。\n　あれほど　勇者姫さまに　似ているとは。": 
+    "<attr><feel_think_lv2>Who's that Mishua girl that Old Man Dyme\nis taking care of?\n<br>\nIt's said that there can be 3 people that\nlook like oneself in the world... The fact\nshe looks just like the Hero Princess though.<end_attr>"
   },
   "65513": {
-    "<attr><feel_think_lv1><end_attr>「ちまたでウワサの　ミシュアって子を\n　ついに　この目にしたんだが\n　本当に　姫さまに　そっくりだったぞ！\n<br>\n「ふたりの間に　血のつながりでもあるのか？\n　たとえば　生き別れの姉妹とかさ。\n　今まで　そんな話を聞いたことはないが……。": ""
+    "<attr><feel_think_lv1><end_attr>「ちまたでウワサの　ミシュアって子を\n　ついに　この目にしたんだが\n　本当に　姫さまに　そっくりだったぞ！\n<br>\n「ふたりの間に　血のつながりでもあるのか？\n　たとえば　生き別れの姉妹とかさ。\n　今まで　そんな話を聞いたことはないが……。": 
+    "<attr><feel_think_lv1>The word on the street is that Mishua girl\nreally did look exactly like the Princess!\n<br>\nAre those two related? Like twins separated\nat birth. I've never heard of a thing\nlike that before...<end_attr>"
   },
   "70373": {
-    "ふかふかの布団が敷かれた　ベッドがある。": ""
+    "ふかふかの布団が敷かれた　ベッドがある。": 
+    "There's a fluffy futon on the bed."
   },
   "65515": {
-    "「これは　<pc>さん。\n　アンルシア姫さまが　お待ちです。\n　さあ　玉座の間の中へ！": ""
+    "「これは　<pc>さん。\n　アンルシア姫さまが　お待ちです。\n　さあ　玉座の間の中へ！": 
+    "Hey there, <pc>. Princess Anlucia\nawaits, so head inside the throne room!"
   },
   "65516": {
     "「おや？　<pc>さんは\n　アンルシア姫さまより　ミシュアさんの\n　警護役を　まかされておられるはず。\n<br>\n「姫さまは　すでに　出発なさっています。\n　すぐに　ゼドラ洞へ向かってください！": ""
@@ -659,7 +678,8 @@
     "Hmm... <if_woman>Ms.<else>Mr.<endif> <pc>."
   },
   "65528": {
-    "<attr><feel_think_lv1><end_attr>「ダイム老が　世話をしていた娘……。\n　たしか　ミシュアという名だったか？\n<br>\n「何をやったのか知らないが\n　アンルシア姫の指示で　西の塔の部屋に\n　閉じ込めることに　なったそうだ。": ""
+    "<attr><feel_think_lv1><end_attr>「ダイム老が　世話をしていた娘……。\n　たしか　ミシュアという名だったか？\n<br>\n「何をやったのか知らないが\n　アンルシア姫の指示で　西の塔の部屋に\n　閉じ込めることに　なったそうだ。": 
+    "<attr><feel_think_lv1>Old Man Dyme took care of that girl... If I remember, she was named Mishua, right?\n<br>\nI don't know what she did, but Princess\nAnlucia instructed us to lock her in the\nbedroom in the western tower.<end_attr>"
   },
   "65529": {
     "<attr><feel_happy_lv2><end_attr>「アンルシア姫さまは　たいへん\n　興奮なされた様子で　お戻りになりました。\n<br>\n「無理もありません。\n　悲願であった　真の勇者への覚醒を\n　ついに　迎えることができるのですから！": ""
