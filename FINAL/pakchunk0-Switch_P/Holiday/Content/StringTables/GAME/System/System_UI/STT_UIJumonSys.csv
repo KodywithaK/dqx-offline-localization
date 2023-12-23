@@ -1,5 +1,5 @@
 Key,SourceString
-SYSTXT_UI_Jumon_00010,"{Character_Active_Name} spoke {Action_Name_Spell}!"
+SYSTXT_UI_Jumon_00010,"{Character_Active_Name} used {Action_Name_Spell}!"
 SYSTXT_UI_Jumon_00020,"{Character_Active_Name} attempted to cast {Action_Name_Spell}."
 SYSTXT_UI_Jumon_00030,"Which one should I use?"
 SYSTXT_UI_Jumon_01010,"{Character_Active_Name} has performed {Action_Name_Ability}!"
@@ -7,7 +7,7 @@ SYSTXT_UI_Jumon_01020,"{Character_Active_Name} attempted to perform {Action_Name
 SYSTXT_UI_Jumon_02010,"But it seems like it can't be used now."
 SYSTXT_UI_Jumon_02020,"But I don't have enough MP!"
 SYSTXT_UI_Jumon_10010,"But {Character_Passive_Name} doesn't \n need it now."
-SYSTXT_UI_Jumon_10020,"{Character_Passive_Name}'s scratches have been healed!"
+SYSTXT_UI_Jumon_10020,"{Character_Passive_Name}'s wounds have been healed!"
 SYSTXT_UI_Jumon_10030,"{Character_Passive_Name}'s body is free of \n poison!"
 SYSTXT_UI_Jumon_10040,"Wow, {Character_Passive_Name} has come back to life!"
 SYSTXT_UI_Jumon_10050,"{Character_Passive_Name}'s wounds have been healed!"

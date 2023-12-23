@@ -653,16 +653,20 @@
     "「アンルシア姫さまは　魔物退治へと\n　お出かけになられたので　玉座の間には\n　おられませんよ。": ""
   },
   "65521": {
-    "<attr><feel_normal_one><end_attr>「お疲れさまです　<pc>さま。\n　アンルシア姫さまの　お手伝いは\n　終わったんですね。": ""
+    "<attr><feel_normal_one><end_attr>「お疲れさまです　<pc>さま。\n　アンルシア姫さまの　お手伝いは\n　終わったんですね。": 
+    "<attr><feel_normal_one>Thank you for your hard work, <pc>.\nPrincess Anlucia's need for help is over, I see.<end_attr>"
   },
   "65522": {
-    "<attr><feel_happy_lv3><end_attr>「アンルシア姫が　真の勇者に覚醒なされたら\n　きっと　国中をあげての宴が　開かれるわね。\n　今から　楽しみだわ～<heart>": ""
+    "<attr><feel_happy_lv3><end_attr>「アンルシア姫が　真の勇者に覚醒なされたら\n　きっと　国中をあげての宴が　開かれるわね。\n　今から　楽しみだわ～<heart>": 
+    "<attr><feel_happy_lv3>When Princess Anlucia awakens as a true hero,\nsurely there'll be a feast for the whole country.\nI can't waiiit<heart><end_attr>"
   },
   "65523": {
-    "<attr><feel_think_lv2><end_attr>「勇者姫さまが　町娘を連れて\n　意気揚々とした感じで　城に戻ってきたんだ。\n　何が　あったんだろうな。<bw_break>": ""
+    "<attr><feel_think_lv2><end_attr>「勇者姫さまが　町娘を連れて\n　意気揚々とした感じで　城に戻ってきたんだ。\n　何が　あったんだろうな。<bw_break>": 
+    "<attr><feel_think_lv2>The Hero Princess seemed to be in high spirits as\nshe returned to the castle with that town girl.\nI wonder what happened.<end_attr><bw_break>"
   },
   "70220": {
-    "<attr><feel_think_lv3><end_attr>「ん？　町娘のほうが　気になるのか？\n　なんだか　ぐったりしていて\n　今にも　死にそうな感じだったぞ。": ""
+    "<attr><feel_think_lv3><end_attr>「ん？　町娘のほうが　気になるのか？\n　なんだか　ぐったりしていて\n　今にも　死にそうな感じだったぞ。": 
+    "<attr><feel_think_lv3>Huh? You're interested in the town girl's condition?\nShe was limp, like she was on the brink of death.<end_attr>"
   },
   "65524": {
     "<attr><feel_angry_one><end_attr>「ついに　アンルシア姫さまの\n　日々の努力が　むくわれる時が来るのだな。\n<br>\n「我々も　負けてはいられない。\n　時間があれば　訓練！　訓練だ！！": ""
@@ -679,19 +683,22 @@
   },
   "65528": {
     "<attr><feel_think_lv1><end_attr>「ダイム老が　世話をしていた娘……。\n　たしか　ミシュアという名だったか？\n<br>\n「何をやったのか知らないが\n　アンルシア姫の指示で　西の塔の部屋に\n　閉じ込めることに　なったそうだ。": 
-    "<attr><feel_think_lv1>Old Man Dyme took care of that girl... If I remember, she was named Mishua, right?\n<br>\nI don't know what she did, but Princess\nAnlucia instructed us to lock her in the\nbedroom in the western tower.<end_attr>"
+    "<attr><feel_think_lv1>That girl that Old Man Dyme took care of...\nIf I remember, she was named Mishua, right?\n<br>\nI don't know what she did, but Princess\nAnlucia instructed us to lock her in the\nbedroom in the western tower.<end_attr>"
   },
   "65529": {
     "<attr><feel_happy_lv2><end_attr>「アンルシア姫さまは　たいへん\n　興奮なされた様子で　お戻りになりました。\n<br>\n「無理もありません。\n　悲願であった　真の勇者への覚醒を\n　ついに　迎えることができるのですから！": ""
   },
   "65530": {
-    "<attr><feel_think_lv1><end_attr>「先ほどより　ダイムさまが\n　あわてた様子で　城内を行ったり来たり\n　しているのですが　なにごとでしょう……。\n<br>\n「かわいがっていた　お孫さんが\n　行方不明になったときでも\n　決して　取り乱すことのなかった方なのに。": ""
+    "<attr><feel_think_lv1><end_attr>「先ほどより　ダイムさまが\n　あわてた様子で　城内を行ったり来たり\n　しているのですが　なにごとでしょう……。\n<br>\n「かわいがっていた　お孫さんが\n　行方不明になったときでも\n　決して　取り乱すことのなかった方なのに。": 
+    "<attr><feel_think_lv1>A little while ago, Lord Dyme looked flustered\nand was pacing around the castle, I wonder\nwhat happened...\n<br>\nHe wasn't even this worried when his\nfavorite grandchild went missing.<end_attr>"
   },
   "65531": {
-    "<attr><feel_think_lv1><end_attr>「ミシュアという子なら\n　姫さまに連れられて　３階に向かったぞ。\n<br>\n「あの子が　あれだけ　姫さまに似てるのは\n　ただの　偶然なんかじゃないと思うんだが\n　本当のところ　どうなんだろうなあ？": ""
+    "<attr><feel_think_lv1><end_attr>「ミシュアという子なら\n　姫さまに連れられて　３階に向かったぞ。\n<br>\n「あの子が　あれだけ　姫さまに似てるのは\n　ただの　偶然なんかじゃないと思うんだが\n　本当のところ　どうなんだろうなあ？": 
+    "<attr><feel_think_lv1>The Princess took that Mishua girl to the\nthird floor.\n<br>\nThat girl looked so much like the Princess that\nthere's no way it was a coincidence, but who\nreally knows for sure?<end_attr>"
   },
   "65532": {
-    "<attr><feel_think_lv1><end_attr>「ここは　玉座の間です。\n　申し訳ありませんが　アンルシア姫さまは\n　現在　こちらには　おられません。\n<br>\n「３階の　王族の私室の方へ向かわれました。\n　覚醒を前に　何か　準備でも\n　あるのではないでしょうか？": ""
+    "<attr><feel_think_lv1><end_attr>「ここは　玉座の間です。\n　申し訳ありませんが　アンルシア姫さまは\n　現在　こちらには　おられません。\n<br>\n「３階の　王族の私室の方へ向かわれました。\n　覚醒を前に　何か　準備でも\n　あるのではないでしょうか？": 
+    "<attr><feel_think_lv1>This is the throne room. Sorry, but Princess\nAnlucia isn't here right now.\n<br>\nShe was headed for the third floor royal chambers.\nYou think she's preparing something before\nher awakening?<end_attr>"
   },
   "65533": {
     "「勇者姫さまが　真の勇者に覚醒したら\n　オレたちの出番なんか　ひとつも\n　なくなっちゃうんだろうなあ。\n<br>\n「でも　仕方ないよな。\n　それが　姫さまの願いなんだもんな。\n　よろこんで　オレは　ヒマになるよ！": ""
