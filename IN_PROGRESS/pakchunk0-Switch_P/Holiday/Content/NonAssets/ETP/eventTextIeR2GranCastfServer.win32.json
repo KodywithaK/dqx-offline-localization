@@ -45,7 +45,7 @@
     "<pc>は　スペシャルランチを受け取り\n海風の洞くつの　弔いの間で待っている\n行き倒れの男のもとに　向かった。": ""
   },
   "107857": {
-    "<pc>は　行き倒れの男を助けたことを\nリゲス大臣に　報告するため\nグランゼドーラ城の玉座の間に　向かった。": ""
+    "<pc>は　行き倒れの男を助けたことを\nリゲス大臣に　報告するため\nグランゼドーラ城の玉座の間に　向かった。": "<pc> headed towards Gran Zedora Castle's\nthrone room to report to Minister Rigez\nabout the sick man they had rescued."
   },
   "100823": {
     "「オレのスペシャルランチは\n　ちゃんと　届けてくれたんだろうな？<yesno><close>": ""
@@ -153,8 +153,7 @@
     "<attr><feel_happy_lv2><end_attr>「テグラムさまは　王国の復興に向けて\n　毎日　忙しそうにしているわ。\n　私たちも　できる限りのお手伝いをしなきゃね。": ""
   },
   "100910": {
-    "「グランゼドーラ城へ　ようこそ。\n　私が　城内の説明をいたしましょう。\n<br>\n「まず　ここ１階の奥には\n　伝説の勇者の像が　置かれております。\n　本当に　勇者なのかは　知りません。\n<br>\n「玉座の間は　２階にありますが\n　玉座に座れるような人は　いません。\n　あえて言うなら　テグラムさんですかね。\n<br>\n「なお　３階は　王家の方々が使う\n　お部屋になっていますが　そのような方も\n　もう　いないので……ああ　締まらないなぁ。": 
-    "TODO_Welcome to Gran Zedora Castle.\nLet me explain the castle to you.\n<br>\nStarting on the first floor, is the\nstatue of the Legendary Hero."
+    "「グランゼドーラ城へ　ようこそ。\n　私が　城内の説明をいたしましょう。\n<br>\n「まず　ここ１階の奥には\n　伝説の勇者の像が　置かれております。\n　本当に　勇者なのかは　知りません。\n<br>\n「玉座の間は　２階にありますが\n　玉座に座れるような人は　いません。\n　あえて言うなら　テグラムさんですかね。\n<br>\n「なお　３階は　王家の方々が使う\n　お部屋になっていますが　そのような方も\n　もう　いないので……ああ　締まらないなぁ。": "TODO_Welcome to Gran Zedora Castle.\nLet me explain the castle to you.\n<br>\nStarting on the first floor, is the\nstatue of the Legendary Hero."
   },
   "100911": {
     "「しばらく　何も食わせてもらえなかったんだが\n　やっと　メシを寄こしてくれたんだ。\n　あやうく　骨になるところだったぜ……。": ""
@@ -262,8 +261,7 @@
     "「これから　この王国は\n　どうなっていくんでしょうね……。\n<br>\n「……いえ。それは　私たち次第ですよね。\n　自分たちの手で　理想の国を\n　作っていかなきゃ　いけないんだわ。": ""
   },
   "100950": {
-    "<attr><feel_happy_lv1><end_attr>「グランゼドーラ城へ　ようこそ。\n　私が　城内の説明をいたしましょう。\n<br>\n「まず　ここ１階の奥には\n　伝説の勇者の像が　置かれております。\n　本当に　勇者なのかは　知りません。\n<br>\n「玉座の間は　２階にありますが\n　王と呼べる人は　いません。\n　いるのは　リゲス大臣だけです。\n<br>\n「なお　３階は　王家の方々が使う\n　お部屋になっていますが　そのような方も\n　もう　存在しないので……ないない尽くしです。\n<br>\n「ですが　私たちの心には　希望があります。\n　それさえあれば　生きていけるんです。": 
-    "TODO_<attr><feel_happy_lv1>Welcome to Gran Zedora Castle.\nLet me explain the castle to you.\n<br>\n<end_attr>"
+    "<attr><feel_happy_lv1><end_attr>「グランゼドーラ城へ　ようこそ。\n　私が　城内の説明をいたしましょう。\n<br>\n「まず　ここ１階の奥には\n　伝説の勇者の像が　置かれております。\n　本当に　勇者なのかは　知りません。\n<br>\n「玉座の間は　２階にありますが\n　王と呼べる人は　いません。\n　いるのは　リゲス大臣だけです。\n<br>\n「なお　３階は　王家の方々が使う\n　お部屋になっていますが　そのような方も\n　もう　存在しないので……ないない尽くしです。\n<br>\n「ですが　私たちの心には　希望があります。\n　それさえあれば　生きていけるんです。": "TODO_<attr><feel_happy_lv1>Welcome to Gran Zedora Castle.\nLet me explain the castle to you.\n<br>\n<end_attr>"
   },
   "100951": {
     "「テグラムさんは　旅立ってしまいましたが\n　彼をたたえる歌を　作りましたので\n　ぜひ　あなたも　聴いていってください。\n<br>\n「おお～　剣士テグラム～♪\n　その言葉～　するどい　つるぎとなりて\n　闇に沈む　人々の心　突きうごかす～♪\n<br>\n「そして　彼は　人々のため～♪\n　聖なる城から　荒野へ旅立つ～♪\n　どこへ行くのか　剣士テグラム～♪": ""
@@ -314,7 +312,8 @@
     "「オレは　作り物だ。\n　この事実は　どうやったって　変わらないよ。\n<br>\n「でも　大事なのは　これから\n　どう生きていくか……だと思うんだ。": ""
   },
   "84503": {
-    "<attr><feel_happy_one><end_attr>「うまし　うましっ！\n<br>\n「こんなに　うまいものが\n　食えるなら　自分が作り物だって\n　ぜんぜん　かまわないですよっ！！\n<br>\n「しかも　カノックさんは\n　新しいメニューを　考えているみたいです。\n　くうっ。今から　楽しみすぎる！": ""
+    "<attr><feel_happy_one><end_attr>「うまし　うましっ！\n<br>\n「こんなに　うまいものが\n　食えるなら　自分が作り物だって\n　ぜんぜん　かまわないですよっ！！\n<br>\n「しかも　カノックさんは\n　新しいメニューを　考えているみたいです。\n　くうっ。今から　楽しみすぎる！": 
+    "<attr><feel_happy_one>Yum, yumm! If I could make delicious food\nlike this myself, I wouldn't care about\nanything else!!\n<br>\nEven better, it seems that Cannock is\ncoming up with a new menu.\nMan, I'm looking forward to it already!<end_attr>"
   },
   "79715": {
     "<attr><feel_think_lv1><end_attr>「オレが　作り物だとか　どうでもいい。\n　オレが作る料理が　うまい。\n　その事実さえあれば　充分だ。\n<br>\n「だが　他のヤツらの　落ち込みっぷりは\n　とてもじゃないが　見てられん。\n　だから　オレがなんとかしてやろうと思うんだ。\n<br>\n「落ち込んだときは　うまいものを食えばいい！\n　そこで　元気爆発まちがいなしの\n　スペシャルランチを　考えたんだが……\n<br>\n「食材の入手が　難しいものばかりでなあ。\n　あんたは　ウデに覚えがありそうだし\n　ちっとばかり　手伝ってくれよ！": ""
@@ -599,7 +598,7 @@
   },
   "65507": {
     "扉は　かたく　閉ざされている。": 
-    "The door is locked."
+    "The door is locked up tight"
   },
   "65508": {
     "ふかふかの布団が敷かれた　ベッドがある。\n勇者姫の客人である　<pc>は\nこのベッドを　使っていいらしい。\n<br>\nこのベッドで　ひと晩　休みますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
@@ -650,7 +649,8 @@
     "「アンルシア姫さまは　赤き巨竜を退治するため\n　グランゼドーラ領より南の　ロヴォス高地にある\n　ゼドラ洞へと　ご出陣なさいました。\n<br>\n「<pc>殿にも　ミシュア殿の警護役として\n　ゼドラ洞へ　向かってほしいとのこと。\n　どうか　よろしくお願いいたします。": ""
   },
   "65520": {
-    "「アンルシア姫さまは　魔物退治へと\n　お出かけになられたので　玉座の間には\n　おられませんよ。": ""
+    "「アンルシア姫さまは　魔物退治へと\n　お出かけになられたので　玉座の間には\n　おられませんよ。": 
+    "Princess Anlucia is about to set out to\ndestroy the monsters and isn't in the\nthrone room."
   },
   "65521": {
     "<attr><feel_normal_one><end_attr>「お疲れさまです　<pc>さま。\n　アンルシア姫さまの　お手伝いは\n　終わったんですね。": 
@@ -672,7 +672,8 @@
     "<attr><feel_angry_one><end_attr>「ついに　アンルシア姫さまの\n　日々の努力が　むくわれる時が来るのだな。\n<br>\n「我々も　負けてはいられない。\n　時間があれば　訓練！　訓練だ！！": ""
   },
   "65525": {
-    "<attr><feel_happy_lv2><end_attr>「勇者姫さまが　真の目覚めを迎えるとか。\n　こりゃあ　久々に　料理のウデを\n　遠慮なく　振るえることになりそうだ！": ""
+    "<attr><feel_happy_lv2><end_attr>「勇者姫さまが　真の目覚めを迎えるとか。\n　こりゃあ　久々に　料理のウデを\n　遠慮なく　振るえることになりそうだ！": 
+    "<attr><feel_happy_lv2>The Hero Princess is reaching a true awakening\nor something. Say, it's been a while since I've\nhad a chance to flex my culinary chops!<end_attr>"
   },
   "65526": {
     "<attr><feel_sad_lv1><end_attr>「勇者姫さまが　ミシュアを\n　西の塔の部屋に閉じ込めろと　命じたとき\n　ダイム老が　それに　反対したのです。\n<br>\n「これまで　ダイム老が\n　勇者姫さまのお言葉に　逆らうことなど\n　一度たりとて　なかったのですが……。": ""
@@ -701,7 +702,8 @@
     "<attr><feel_think_lv1>This is the throne room. Sorry, but Princess\nAnlucia isn't here right now.\n<br>\nShe was headed for the third floor royal chambers.\nYou think she's preparing something before\nher awakening?<end_attr>"
   },
   "65533": {
-    "「勇者姫さまが　真の勇者に覚醒したら\n　オレたちの出番なんか　ひとつも\n　なくなっちゃうんだろうなあ。\n<br>\n「でも　仕方ないよな。\n　それが　姫さまの願いなんだもんな。\n　よろこんで　オレは　ヒマになるよ！": ""
+    "「勇者姫さまが　真の勇者に覚醒したら\n　オレたちの出番なんか　ひとつも\n　なくなっちゃうんだろうなあ。\n<br>\n「でも　仕方ないよな。\n　それが　姫さまの願いなんだもんな。\n　よろこんで　オレは　ヒマになるよ！": 
+    ""
   },
   "65534": {
     "<attr><feel_angry_lv1><end_attr>「アンルシア姫さまの　ご命令により\n　この先は　立ち入り禁止となった。\n<br>\n「客人であろうと　通すわけには　いかぬ。\n　すみやかに　立ち去られよ。": ""
@@ -710,13 +712,16 @@
     "<attr><feel_angry_lv1><end_attr>「アンルシア姫さまの　ご命令により\n　この先は　立ち入り禁止となった。\n<br>\n「客人であろうと　通すわけには　いかぬ。\n　すみやかに　立ち去られよ。": ""
   },
   "65536": {
-    "「以前　ウワサを聞いたんですけど\n　西の塔の地下には　抜け道があって\n　海風の洞くつという所に　つながっているとか。\n<br>\n「そこから　レビュール街道北の海に面したガケに\n　出られるそうなんですけど……。\n<br>\n「ただのウワサだと　私は思うんですよね。\n　だって　抜け道を　逆に　たどったら\n　城へ　こっそり　入れちゃうじゃないですか！": ""
+    "「以前　ウワサを聞いたんですけど\n　西の塔の地下には　抜け道があって\n　海風の洞くつという所に　つながっているとか。\n<br>\n「そこから　レビュール街道北の海に面したガケに\n　出られるそうなんですけど……。\n<br>\n「ただのウワサだと　私は思うんですよね。\n　だって　抜け道を　逆に　たどったら\n　城へ　こっそり　入れちゃうじゃないですか！": 
+    "I heard a rumor before about there being\na secret, underground passageway to the\nwestern tower through Seabreeze Cave.\n<br>\nI'm told one can reach it by going to the\nsea-facing cave at Reviewle Highway, but...\n<br>\nThat's just a rumour, don't you think.\nBecause one could follow the secret passageway\nback to sneak into the castle, couldn't they!"
   },
   "65537": {
-    "扉は　かたく　閉ざされている。": ""
+    "扉は　かたく　閉ざされている。": 
+    "The door is locked up tight"
   },
   "65538": {
-    "<attr><feel_sad_lv1><end_attr>「ここは　玉座の間です。\n　申し訳ありませんが　アンルシア姫さまは\n　現在　こちらには　おられません。": ""
+    "<attr><feel_sad_lv1><end_attr>「ここは　玉座の間です。\n　申し訳ありませんが　アンルシア姫さまは\n　現在　こちらには　おられません。": 
+    "<attr><feel_sad_lv1>This is the throne room. Sorry, but Princess\nAnlucia isn't here right now.<end_attr>"
   },
   "70221": {
     "<attr><feel_normal_one><end_attr>「これは　<pc>さま。\n　あのですね。私　見ちゃいました。\n<br>\n「えっとですね。西の塔から　すごい光が\n　ビャーって　あふれだして　ドーンと　お空へ\n　伸びていきました。ホントですよ？": ""
@@ -746,7 +751,7 @@
     "<attr><feel_think_lv2><end_attr>「ミシュアって子と　勇者姫さまが\n　そっくりな理由は　結局　わからずじまいだ。\n　くそう……。気になるぞっ。": ""
   },
   "70230": {
-    "扉は　かたく　閉ざされている。": ""
+    "扉は　かたく　閉ざされている。": "The door is locked up tight"
   },
   "70231": {
     "「勇者姫さまは　玉座の間には　おられません。\n　理由は　わかりかねますが　ダーマ神殿に行くと\n　城下の者に告げ　出ていかれたようです。": ""
