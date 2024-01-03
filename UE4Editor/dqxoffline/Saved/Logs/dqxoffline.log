@@ -1,0 +1,937 @@
+﻿Log file open, 01/02/24 16:41:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: dqxoffline
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.259046
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogLuminAPIImpl: Warning: MLSDK not found.  This likely means the MLSDK environment variable is not set.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.59.0
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/Ryzen3/Desktop/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Engine.ini]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Engine.ini]
+[2024.01.02-23.41.06:641][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Engine.ini]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Engine.ini]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2024.01.02-23.41.06:641][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Engine.ini]
+[2024.01.02-23.41.06:641][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Engine.ini]
+[2024.01.02-23.41.06:686][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.01.02-23.41.06:686][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.01.02-23.41.06:687][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.01.02-23.41.06:687][  0]LogInit: Selected Device Profile: [Windows]
+[2024.01.02-23.41.06:687][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.01.02-23.41.06:687][  0]LogHAL: Display: Platform has ~ 24 GB [25698824192 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.01.02-23.41.06:687][  0]LogInit: Going up to parent DeviceProfile []
+[2024.01.02-23.41.06:687][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.01.02-23.41.06:688][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:688][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.01.02-23.41.06:689][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.01.02-23.41.06:689][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Scalability.ini]
+[2024.01.02-23.41.06:689][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.01.02-23.41.06:689][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.01.02-23.41.06:689][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.01.02-23.41.06:689][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.01.02-23.41.06:689][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2024.01.02-23.41.06:689][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2024.01.02-23.41.06:689][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2024.01.02-23.41.06:689][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Engine.ini]
+[2024.01.02-23.41.06:689][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Config/Windows/Editor.ini]
+[2024.01.02-23.41.06:689][  0]LogInit: Computer: RYZEN7
+[2024.01.02-23.41.06:689][  0]LogInit: User: Ryzen3
+[2024.01.02-23.41.06:689][  0]LogInit: CPU Page size=4096, Cores=8
+[2024.01.02-23.41.06:689][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.01.02-23.41.06:689][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2024.01.02-23.41.06:689][  0]LogMemory: Platform Memory Stats for Windows
+[2024.01.02-23.41.06:689][  0]LogMemory: Process Physical Memory: 148.12 MB used, 148.12 MB peak
+[2024.01.02-23.41.06:689][  0]LogMemory: Process Virtual Memory: 133.47 MB used, 133.47 MB peak
+[2024.01.02-23.41.06:689][  0]LogMemory: Physical Memory: 12673.66 MB used,  11834.64 MB free, 24508.31 MB total
+[2024.01.02-23.41.06:689][  0]LogMemory: Virtual Memory: 134200696.00 MB used,  17033.45 MB free, 134217728.00 MB total
+[2024.01.02-23.41.06:696][  0]LogWindows: WindowsPlatformFeatures enabled
+[2024.01.02-23.41.06:743][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2024.01.02-23.41.06:743][  0]LogInit: Using OS detected language (en-US).
+[2024.01.02-23.41.06:743][  0]LogInit: Using OS detected locale (en-US).
+[2024.01.02-23.41.06:749][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2024.01.02-23.41.06:937][  0]LogInit: Setting process to per monitor DPI aware
+[2024.01.02-23.41.06:955][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.01.02-23.41.06:974][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.01.02-23.41.06:974][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.01.02-23.41.07:136][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2024.01.02-23.41.07:140][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.01.02-23.41.07:140][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2024.01.02-23.41.07:140][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2024.01.02-23.41.07:140][  0]LogD3D11RHI: D3D11 adapters:
+[2024.01.02-23.41.07:290][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2024.01.02-23.41.07:290][  0]LogD3D11RHI:       8081/0/12254 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2024.01.02-23.41.07:292][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.01.02-23.41.07:292][  0]LogD3D11RHI:       0/0/12254 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.01.02-23.41.07:292][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2024.01.02-23.41.07:292][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1070
+[2024.01.02-23.41.07:292][  0]LogD3D11RHI:     VendorId    : 10de
+[2024.01.02-23.41.07:292][  0]LogD3D11RHI:     DeviceId    : 1b81
+[2024.01.02-23.41.07:292][  0]LogD3D11RHI:     SubSysId    : 51733842
+[2024.01.02-23.41.07:292][  0]LogD3D11RHI:     Revision    : 00a1
+[2024.01.02-23.41.07:292][  0]LogD3D11RHI:     DedicatedVideoMemory : 8473542656 bytes
+[2024.01.02-23.41.07:292][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.01.02-23.41.07:292][  0]LogD3D11RHI:     SharedSystemMemory : 12849412096 bytes
+[2024.01.02-23.41.07:292][  0]LogD3D11RHI:     AdapterLuid : 0 59908
+[2024.01.02-23.41.07:304][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.01.02-23.41.07:304][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2024.01.02-23.41.07:304][  0]LogWindows: EnumDisplayDevices:
+[2024.01.02-23.41.07:304][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2024.01.02-23.41.07:305][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2024.01.02-23.41.07:305][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2024.01.02-23.41.07:305][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2024.01.02-23.41.07:305][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI:   Driver Version: 545.84 (internal:31.0.15.4584, unified:545.84)
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI:      Driver Date: 10-11-2023
+[2024.01.02-23.41.07:305][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1070
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI:     VendorId    : 10de
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI:     DeviceId    : 1b81
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI:     SubSysId    : 51733842
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI:     Revision    : 00a1
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI:     DedicatedVideoMemory : 8473542656 bytes
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI:     SharedSystemMemory : 12849412096 bytes
+[2024.01.02-23.41.07:305][  0]LogD3D11RHI:     AdapterLuid : 0 59908
+[2024.01.02-23.41.07:402][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2024.01.02-23.41.07:402][  0]LogD3D11RHI: Async texture creation enabled
+[2024.01.02-23.41.07:402][  0]LogD3D11RHI: Array index from any shader is supported
+[2024.01.02-23.41.07:438][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2024.01.02-23.41.07:470][  0]LogRHI: GeForceNow SDK initialized: 1
+[2024.01.02-23.41.07:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2024.01.02-23.41.07:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2024.01.02-23.41.07:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2024.01.02-23.41.07:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2024.01.02-23.41.07:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2024.01.02-23.41.07:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2024.01.02-23.41.07:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2024.01.02-23.41.07:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2024.01.02-23.41.07:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2024.01.02-23.41.07:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2024.01.02-23.41.07:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2024.01.02-23.41.07:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2024.01.02-23.41.07:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2024.01.02-23.41.07:825][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2024.01.02-23.41.07:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2024.01.02-23.41.07:834][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2024.01.02-23.41.07:839][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2024.01.02-23.41.07:849][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2024.01.02-23.41.07:854][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2024.01.02-23.41.07:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2024.01.02-23.41.07:887][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2024.01.02-23.41.07:887][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2024.01.02-23.41.07:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2024.01.02-23.41.07:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2024.01.02-23.41.07:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2024.01.02-23.41.07:911][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2024.01.02-23.41.07:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2024.01.02-23.41.07:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2024.01.02-23.41.07:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2024.01.02-23.41.07:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2024.01.02-23.41.07:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2024.01.02-23.41.07:947][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2024.01.02-23.41.07:947][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.01.02-23.41.07:956][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.01.02-23.41.07:993][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2024.01.02-23.41.08:032][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2024.01.02-23.41.08:032][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Intermediate/Shaders/WorkingDirectory/41176/).
+[2024.01.02-23.41.08:033][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ryzen3/AppData/Local/Temp/UnrealShaderWorkingDir/5DB7C3DC46CF5335B7F8EA96B42D992E/'.
+[2024.01.02-23.41.08:033][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.01.02-23.41.08:033][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.01.02-23.41.08:033][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.01.02-23.41.08:811][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.01.02-23.41.08:873][  0]LogDerivedDataCache: Loaded boot cache 0.06s 94MB C:/Users/Ryzen3/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2024.01.02-23.41.08:873][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ryzen3/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2024.01.02-23.41.08:873][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.01.02-23.41.08:873][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.01.02-23.41.08:874][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.01.02-23.41.08:874][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.01.02-23.41.08:893][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.01.02-23.41.08:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.01.02-23.41.08:893][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2024.01.02-23.41.08:905][  0]LogDerivedDataCache: Speed tests for C:/Users/Ryzen3/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2024.01.02-23.41.08:905][  0]LogDerivedDataCache: Display: Performance to C:/Users/Ryzen3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.05ms. RandomReadSpeed=950.31MBs, RandomWriteSpeed=93.65MBs. Assigned SpeedClass 'Local'
+[2024.01.02-23.41.08:906][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ryzen3/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.01.02-23.41.08:906][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.01.02-23.41.08:906][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.01.02-23.41.08:959][  0]LogSlate: Using FreeType 2.10.0
+[2024.01.02-23.41.08:960][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.01.02-23.41.08:983][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2024.01.02-23.41.09:377][  0]LogInit: Selected Device Profile: [Windows]
+[2024.01.02-23.41.09:377][  0]LogInit: Active device profile: [000001D06B7BD100][000001D06ABECF40 49] Windows
+[2024.01.02-23.41.09:377][  0]LogInit: Profiles: [000001D06B7BD100][000001D06ABECF40 49] Windows, [000001D06B782C00][000001D0697DD0C0 49] WindowsNoEditor, [000001D06B7BE200][000001D06BE2F240 49] WindowsServer, [000001D06B781E00][000001D06BE333C0 49] WindowsClient, [000001D06B7BD700][000001D06BE37540 49] IOS, [000001D06B782E00][000001D06BE3B6C0 49] iPadAir, [000001D06B7BFC00][000001D06BE3F840 49] iPadAir2, [000001D06B711400][000001D06BE47B00 49] IPadPro, [000001D06B711500][000001D06BE43B40 49] iPadAir3, [000001D06B783F00][000001D06BE4A140 49] iPadAir4, [000001D06B712300][000001D06BE4E2C0 49] iPadMini2, [000001D06B783600][000001D06BE52440 49] iPadMini3, [000001D06B712F00][000001D06BE565C0 49] iPadMini4, [000001D06B782300][000001D06BE5A740 49] iPadMini5, [000001D06B719000][000001D0697D89C0 49] iPhone6, [000001D06B719100][000001D06BE5EA00 49] iPodTouch6, [000001D06B7BF900][000001D06BE66C40 49] iPhone7, [000001D06B7BE900][000001D06BE62C80 49] iPodTouch7, [000001D06B711000][000001D06BE6ADC0 49] iPhone5S, [000001D06B7BEF00][000001D06BE72F40 49] iPhone6Plus, [000001D06B713600][000001D06BE770C0 49] iPhone6S, [000001D06B7BCC00][000001D06BE7B240 49] iPhone6SPlus, [000001D06B7BDD00][000001D06BE7F3C0 49] iPhone7Plus, [000001D06B718800][000001D06BE83540 49] iPhoneSE, [000001D06B7BC400][000001D06BE876C0 49] iPhone8, [000001D06B718900][000001D06BE8B840 49] iPhone8Plus, [000001D06B71AE00][000001D06BE8F9C0 49] iPhoneX, [000001D06B711D00][000001D06BE93B40 49] iPhoneXS, [000001D06B71A700][000001D06BE96140 49] iPhoneXSMax, [000001D06B711C00][000001D06BE9E2C0 49] iPhoneXR, [000001D06B71A800][000001D06BED2440 49] iPhone11, [000001D06B710F00][000001D06BED65C0 49] iPhone11Pro, [000001D06B718B00][000001D06BEDA740 49] iPhone11ProMax, [000001D06B710D00][000001D06BEDE8C0 49] iPhoneSE2, [000001D06B718E00][000001D06BEE2A40 49] iPhone12Mini, [000001D06B7BF800][000001D06BE6EB80 49] iPhone12, [000001D06B71B000][000001D06BEE6CC0 49] iPhone12Pro, [000001D06B7BF700][000001D06BEEAE00 49] iPhone12ProMax, [000001D06B719E00][000001D06BEEEF40 49] iPadPro105, [000001D06B7BD300][000001D06BEF70C0 49] iPadPro129, [000001D06B71BE00][000001D06BEFB240 49] iPadPro97, [000001D06B7BDC00][000001D06BEFF3C0 49] iPadPro2_129, [000001D06B71A000][000001D06BF03540 49] iPad5, [000001D06B7BE300][000001D06BF076C0 49] iPad6, [000001D06B71BB00][000001D06BF0B840 49] iPad7, [000001D06B7BDE00][000001D06BF0F9C0 49] iPad8, [000001D06B718A00][000001D06BF13B40 49] iPadPro11, [000001D06B7BE600][000001D06BF16140 49] iPadPro2_11, [000001D06B718F00][000001D06BF1A2C0 49] iPadPro3_129, [000001D06B7BE800][000001D06BF1E440 49] iPadPro4_129, [000001D06B71BC00][000001D06BF225C0 49] AppleTV, [000001D06B7BDA00][000001D06BF26740 49] AppleTV4K, [000001D06B71A600][000001D06BF2A8C0 49] TVOS, [000001D06B7BE100][000001D06BF2EA40 49] Mac, [000001D06B71AF00][000001D06BF32BC0 49] MacClient, [000001D06B7BEA00][000001D06BF36D40 49] MacNoEditor, [000001D06B71AC00][000001D06BEF2E80 49] MacServer, [000001D06B7BF000][000001D06BF3AFC0 49] Linux, [000001D06B718400][000001D06BF3F100 49] LinuxAArch64, [000001D06B7BC700][000001D06BF47280 49] LinuxNoEditor, [000001D06B71B700][000001D06BF4B400 49] LinuxAArch64NoEditor, [000001D06B7BFB00][000001D06BF4F580 49] LinuxClient, [000001D06B71B400][000001D06BF53700 49] LinuxAArch64Client, [000001D06B7BFE00][000001D06BF57880 49] LinuxServer, [000001D06B718700][000001D06BF5BA00 49] LinuxAArch64Server, [000001D06B7BDF00][000001D06BF5FB80 49] Android, [000001D06B71AA00][000001D06BF62180 49] Android_Low, [000001D06B7BED00][000001D06BF66300 49] Android_Mid, [000001D06B719F00][000001D06BF6A480 49] Android_High, [000001D06B7BEB00][000001D06BF6E600 49] Android_Default, [000001D06B718100][000001D06BF72780 49] Android_Adreno4xx, [000001D06B7BC500][000001D06BF76900 49] Android_Adreno5xx_Low, [000001D06B719400][000001D06BF7AA80 49] Android_Adreno5xx, [000001D06B7BF400][000001D06BF7EC00 49] Android_Adreno6xx, [000001D06B71A300][000001D06BF82D80 49] Android_Adreno6xx_Vulkan, [000001D06B7BFD00][000001D06BF86F00 49] Android_Mali_T6xx, [000001D06B718200][000001D06BF43040 49] Android_Mali_T7xx, [000001D06B7BF600][000001D06BF8B180 49] Android_Mali_T8xx, [000001D06B71B200][000001D06BF8F2C0 49] Android_Mali_G71, [000001D06B713100][000001D06BF97440 49] Android_Mali_G72, [000001D06B783400][000001D06BF9B5C0 49] Android_Mali_G72_Vulkan, [000001D06B712B00][000001D06BF9F740 49] Android_Mali_G76, [000001D06B780500][000001D06BFA38C0 49] Android_Mali_G76_Vulkan, [000001D06B710C00][000001D06BFA7A40 49] Android_Mali_G77, [000001D06B780600][000001D06BFABBC0 49] Android_Mali_G77_Vulkan, [000001D06B712400][000001D06BFAE1C0 49] Android_Mali_G78, [000001D06B780D00][000001D06BFB2340 49] Android_Mali_G78_Vulkan, [000001D06B713D00][000001D06BFB64C0 49] Android_Mali_G710, [000001D06B783000][000001D06BFBA640 49] Android_Mali_G710_Vulkan, [000001D06B712A00][000001D06BFBE7C0 49] Android_Vulkan_SM5, [000001D06B781F00][000001D06BFC2940 49] Android_PowerVR_G6xxx, [000001D06B710500][000001D06BFC6AC0 49] Android_PowerVR_GT7xxx, [000001D06B780200][000001D06BFCAC40 49] Android_PowerVR_GE8xxx, [000001D06B713B00][000001D06BFCEDC0 49] Android_PowerVR_GM9xxx, [000001D06B782600][000001D06BFD2F40 49] Android_PowerVR_GM9xxx_Vulkan, [000001D06B711F00][000001D06BFD70C0 49] Android_TegraK1, [000001D06B780A00][000001D06BF93200 49] Android_Unknown_Vulkan, [000001D06B713900][000001D06BFDB340 49] Lumin, [000001D06B781100][000001D06BFDF480 49] Lumin_Desktop, [000001D06B712000][000001D06BFE35C0 49] HoloLens, 
+[2024.01.02-23.41.09:604][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.01.02-23.41.09:604][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2024.01.02-23.41.09:604][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.01.02-23.41.09:604][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2024.01.02-23.41.09:604][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2024.01.02-23.41.09:639][  0]LogNetVersion: dqxoffline 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 3046987937)
+[2024.01.02-23.41.10:324][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2024.01.02-23.41.10:452][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2024.01.02-23.41.10:466][  0]LogUObjectArray: 17178 objects as part of root set at end of initial load.
+[2024.01.02-23.41.10:466][  0]LogUObjectAllocator: 4302048 out of 0 bytes used by permanent object pool.
+[2024.01.02-23.41.10:466][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.01.02-23.41.11:031][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: C7A287594B9A1E59B8551CB77FE14A2A | Instance: 99C2C0804DBC576A02362ABF7874788D (RYZEN7-41176).
+[2024.01.02-23.41.11:102][  0]LogPython: Using Python 3.7.7
+[2024.01.02-23.41.11:910][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.01.02-23.41.11:930][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.01.02-23.41.12:327][  0]LogOpenImageDenoise: OIDN starting up
+[2024.01.02-23.41.12:396][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.01.02-23.41.12:432][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.01.02-23.41.12:432][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.01.02-23.41.12:585][  0]SourceControl: Source control is disabled
+[2024.01.02-23.41.12:585][  0]SourceControl: Source control is disabled
+[2024.01.02-23.41.12:590][  0]SourceControl: Source control is disabled
+[2024.01.02-23.41.12:600][  0]SourceControl: Source control is disabled
+[2024.01.02-23.41.12:605][  0]LogUProjectInfo: Found projects:
+[2024.01.02-23.41.12:619][  0]SourceControl: Source control is disabled
+[2024.01.02-23.41.12:635][  0]LogCollectionManager: Loaded 0 collections in 0.002142 seconds
+[2024.01.02-23.41.12:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Collections/' took 0.00s
+[2024.01.02-23.41.12:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/Developers/Ryzen3/Collections/' took 0.00s
+[2024.01.02-23.41.12:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/Collections/' took 0.00s
+[2024.01.02-23.41.12:667][  0]LogOcInput: OculusInput pre-init called
+[2024.01.02-23.41.12:907][  0]LogEngine: Initializing Engine...
+[2024.01.02-23.41.12:963][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2024.01.02-23.41.12:963][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.01.02-23.41.12:963][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2024.01.02-23.41.12:964][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2024.01.02-23.41.13:083][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.01.02-23.41.13:092][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.01.02-23.41.13:100][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2024.01.02-23.41.13:104][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2024.01.02-23.41.13:104][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2024.01.02-23.41.13:105][  0]LogAudio: Display: Audio Device Manager Initialized
+[2024.01.02-23.41.13:105][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2024.01.02-23.41.13:105][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.02-23.41.13:105][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.02-23.41.13:105][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2024.01.02-23.41.13:105][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2024.01.02-23.41.13:105][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2024.01.02-23.41.13:105][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.02-23.41.13:105][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.02-23.41.13:105][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.02-23.41.13:105][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.02-23.41.13:105][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.02-23.41.13:105][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.02-23.41.13:105][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.02-23.41.13:116][  0]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.02-23.41.13:116][  0]LogAudioMixer: Display: 1: FrontRight
+[2024.01.02-23.41.13:141][  0]LogAudioMixer: Display: Using Audio Device (L) D2719HGF (NVIDIA High Definition Audio)
+[2024.01.02-23.41.13:146][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.02-23.41.13:149][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.02-23.41.13:149][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.02-23.41.13:149][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.02-23.41.13:150][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.02-23.41.13:150][  0]LogAudioMixer: Display: Output buffers initialized: Frames=256, Channels=2, Samples=512
+[2024.01.02-23.41.13:151][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.02-23.41.13:151][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.02-23.41.13:151][  0]LogInit: FAudioDevice initialized.
+[2024.01.02-23.41.13:151][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.01.02-23.41.13:151][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.01.02-23.41.13:215][  0]LogDerivedDataCache: Saved boot cache 0.06s 94MB C:/Users/Ryzen3/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2024.01.02-23.41.13:216][  0]LogInit: Texture streaming: Enabled
+[2024.01.02-23.41.13:231][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2024.01.02-23.41.13:236][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.01.02-23.41.13:236][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2024.01.02-23.41.13:238][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2024.01.02-23.41.13:263][  0]LogInit: Transaction tracking system initialized
+[2024.01.02-23.41.13:292][  0]BlueprintLog: New page: Editor Load
+[2024.01.02-23.41.13:387][  0]LocalizationService: Localization service is disabled
+[2024.01.02-23.41.13:418][  0]TimingProfiler: Initialize
+[2024.01.02-23.41.13:418][  0]TimingProfiler: OnSessionChanged
+[2024.01.02-23.41.13:418][  0]LoadingProfiler: Initialize
+[2024.01.02-23.41.13:418][  0]LoadingProfiler: OnSessionChanged
+[2024.01.02-23.41.13:418][  0]NetworkingProfiler: Initialize
+[2024.01.02-23.41.13:418][  0]NetworkingProfiler: OnSessionChanged
+[2024.01.02-23.41.13:418][  0]MemoryProfiler: Initialize
+[2024.01.02-23.41.13:418][  0]MemoryProfiler: OnSessionChanged
+[2024.01.02-23.41.13:736][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2024.01.02-23.41.13:736][  0]LogCook: Display: Mobile HDR setting 1
+[2024.01.02-23.41.13:965][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ryzen3/Desktop/github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/' took 0.00s
+[2024.01.02-23.41.14:156][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.01.02-23.41.14:161][  0]SourceControl: Source control is disabled
+[2024.01.02-23.41.14:161][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.972
+[2024.01.02-23.41.14:161][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.02-23.41.14:161][  0]LightingResults: New page: Lighting Build
+[2024.01.02-23.41.14:163][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.01.02-23.41.14:163][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-23.41.14:163][  0]MapCheck: New page: Map Check
+[2024.01.02-23.41.14:163][  0]LightingResults: New page: Lighting Build
+[2024.01.02-23.41.14:168][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.02-23.41.14:171][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.01.02-23.41.14:236][  0]LogTexture: Display: Building textures: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2024.01.02-23.41.14:242][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2024.01.02-23.41.14:244][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2024.01.02-23.41.14:249][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.02-23.41.14:255][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.01.02-23.41.14:255][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.02-23.41.14:256][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.198ms to complete.
+[2024.01.02-23.41.14:256][  0]LogFileHelpers: Loading map 'Template_Default' took 0.095
+[2024.01.02-23.41.14:258][  0]LogUnrealEdMisc: Total Editor Startup Time, took 9.069
+[2024.01.02-23.41.14:423][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.02-23.41.14:430][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.02-23.41.14:436][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.02-23.41.14:441][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.02-23.41.14:470][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0106 seconds. Added 3822 classes and 928 folders.
+[2024.01.02-23.41.14:474][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.01.02-23.41.14:478][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.01.02-23.41.14:482][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2024.01.02-23.41.14:613][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.02-23.41.14:620][  0]LogSlate: Took 0.005567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.01.02-23.41.14:622][  0]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.01.02-23.41.14:755][  0]LogRenderer: Reallocating scene render targets to support 1208x568 Format 10 NumSamples 1 (Frame:1).
+[2024.01.02-23.41.14:862][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.01.02-23.41.14:862][  0]LogLoad: (Engine Initialization) Total time: 9.67 seconds
+[2024.01.02-23.41.14:862][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.01.02-23.41.14:906][  0]LogAssetRegistry: Asset discovery search completed in 5.9241 seconds
+[2024.01.02-23.41.14:911][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2024.01.02-23.41.14:914][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.01.02-23.41.28:317][474]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2024.01.02-23.42.37:244][741]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.02-23.42.37:252][741]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.02-23.42.54:702][820]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.02-23.42.54:707][820]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.02-23.42.54:799][820]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.02-23.43.01:269][596]LogContentBrowser: Attempting asset rename: NewFolder -> StringTables
+[2024.01.02-23.43.01:270][596]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.02-23.43.11:444][759]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.02-23.43.11:477][759]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.01.02-23.43.15:914][759]LogSlate: Window 'Pick Data Asset Class' being destroyed
+[2024.01.02-23.43.15:924][759]LogContentBrowser: Deferred new asset file creation: NewDataAsset
+[2024.01.02-23.43.15:931][759]LogContentBrowser: Creating deferred item: NewDataAsset
+[2024.01.02-23.43.17:771][980]LogContentBrowser: Attempting asset rename: NewDataAsset -> NewDataAsset
+[2024.01.02-23.43.17:772][980]LogContentBrowser: End creating deferred item NewDataAsset
+[2024.01.02-23.43.18:340][ 46]LogAssetEditorSubsystem: Opening Asset editor for PrimaryAssetLabel /Game/NewDataAsset.NewDataAsset
+[2024.01.02-23.43.54:039][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewDataAsset" FILE="../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/NewDataAsset.uasset" SILENT=true
+[2024.01.02-23.43.54:045][ 68]LogSavePackage: Moving '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/NewDataAssetF5A5EB1E4DF513893EC16DBCDEE532B5.tmp' to '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/NewDataAsset.uasset'
+[2024.01.02-23.43.54:057][ 68]AssetCheck: New page: Asset Save: NewDataAsset
+[2024.01.02-23.43.54:057][ 68]LogContentValidation: Display: Validating PrimaryAssetLabel /Game/NewDataAsset.NewDataAsset
+[2024.01.02-23.43.56:088][306]LogSlate: Window 'NewDataAsset' being destroyed
+[2024.01.02-23.43.56:096][306]LogSlate: Window 'NewDataAsset' being destroyed
+[2024.01.02-23.44.19:493][104]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.02-23.44.19:498][104]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.02-23.44.22:169][425]LogContentBrowser: Attempting asset rename: NewFolder -> GAME
+[2024.01.02-23.44.22:169][425]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.02-23.46.55:001][361]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.02-23.46.55:010][361]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.02-23.46.56:888][587]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_Battle_UI
+[2024.01.02-23.46.56:889][587]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.02-23.46.57:870][702]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/STT_Battle_UI.STT_Battle_UI
+[2024.01.02-23.47.30:797][229]LogSlate: Took 0.009037 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.01.02-23.47.41:630][516]LogSlate: Window 'STT_Battle_UI' being destroyed
+[2024.01.02-23.47.41:640][516]LogSlate: Window 'STT_Battle_UI' being destroyed
+[2024.01.02-23.48.01:884][  7]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.02-23.48.01:893][  7]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.02-23.48.03:738][229]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_System_Location
+[2024.01.02-23.48.03:739][229]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.02-23.48.04:232][286]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/STT_System_Location.STT_System_Location
+[2024.01.02-23.48.44:552][550]LogSlate: Window 'STT_System_Location' being destroyed
+[2024.01.02-23.48.44:559][550]LogSlate: Window 'STT_System_Location' being destroyed
+[2024.01.02-23.48.58:216][685]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.02-23.48.58:223][685]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.02-23.49.00:202][923]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_System_Title
+[2024.01.02-23.49.00:203][923]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.02-23.49.00:649][974]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/STT_System_Title.STT_System_Title
+[2024.01.02-23.49.55:111][241]LogSlate: Window 'STT_System_Title' being destroyed
+[2024.01.02-23.49.55:120][241]LogSlate: Window 'STT_System_Title' being destroyed
+[2024.01.02-23.50.09:906][466]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.02-23.50.09:917][466]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.02-23.50.11:622][671]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_System_UI
+[2024.01.02-23.50.11:623][671]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.02-23.50.11:981][711]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/STT_System_UI.STT_System_UI
+[2024.01.02-23.50.29:803][ 24]LogSlate: Window 'STT_System_UI' being destroyed
+[2024.01.02-23.50.29:812][ 24]LogSlate: Window 'STT_System_UI' being destroyed
+[2024.01.02-23.50.39:950][647]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.02-23.50.39:959][647]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.02-23.50.43:101][ 24]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_System_WeaponTypes
+[2024.01.02-23.50.43:102][ 24]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.02-23.50.43:983][127]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/STT_System_WeaponTypes.STT_System_WeaponTypes
+[2024.01.02-23.51.33:619][125]LogSlate: Window 'STT_System_WeaponTypes' being destroyed
+[2024.01.02-23.51.33:629][125]LogSlate: Window 'STT_System_WeaponTypes' being destroyed
+[2024.01.02-23.51.45:571][928]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.02-23.51.45:580][928]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.02-23.51.47:161][118]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_Sytem_UI_Status
+[2024.01.02-23.51.47:162][118]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.02-23.51.47:529][159]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/STT_Sytem_UI_Status.STT_Sytem_UI_Status
+[2024.01.02-23.51.57:564][689]LogSlate: Window 'STT_Sytem_UI_Status' being destroyed
+[2024.01.02-23.51.57:572][689]LogSlate: Window 'STT_Sytem_UI_Status' being destroyed
+[2024.01.02-23.53.42:785][444]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.02-23.53.42:793][444]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.02-23.53.46:422][880]LogContentBrowser: Attempting asset rename: NewFolder -> Event
+[2024.01.02-23.53.46:422][880]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.02-23.53.50:547][375]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.02-23.53.50:553][375]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.02-23.53.56:109][ 42]LogContentBrowser: Attempting asset rename: NewFolder -> Event_Common
+[2024.01.02-23.53.56:110][ 42]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.02-23.54.21:136][646]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.02-23.54.21:145][646]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.02-23.54.22:723][836]LogContentBrowser: Attempting asset rename: NewStringTable -> Event_Common
+[2024.01.02-23.54.22:724][836]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.02-23.54.23:096][877]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/Event/Event_Common/Event_Common.Event_Common
+[2024.01.02-23.54.42:288][484]LogSlate: Window 'Event_Common' being destroyed
+[2024.01.02-23.54.42:296][484]LogSlate: Window 'Event_Common' being destroyed
+[2024.01.02-23.57.16:135][258]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.02-23.57.16:143][258]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.02-23.57.22:521][ 24]LogContentBrowser: Attempting asset rename: NewFolder -> System_Shop
+[2024.01.02-23.57.22:522][ 24]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.02-23.57.24:372][246]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.02-23.57.24:379][246]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.02-23.57.27:667][641]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2024.01.02-23.57.27:667][641]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.02-23.57.35:467][547]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.02-23.57.35:476][547]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.02-23.57.37:489][789]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_System_Shop_Dougu
+[2024.01.02-23.57.37:489][789]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.02-23.57.38:007][849]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/System_Shop/STT_System_Shop_Dougu.STT_System_Shop_Dougu
+[2024.01.02-23.57.53:170][ 71]LogSlate: Window 'STT_System_Shop_Dougu' being destroyed
+[2024.01.02-23.57.53:178][ 71]LogSlate: Window 'STT_System_Shop_Dougu' being destroyed
+[2024.01.02-23.58.32:731][851]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.02-23.58.32:739][851]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.02-23.58.34:879][108]LogContentBrowser: Attempting asset rename: NewFolder -> Field
+[2024.01.02-23.58.34:880][108]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.02-23.58.41:058][820]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.02-23.58.41:067][820]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.02-23.58.42:364][976]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_Dorubaord
+[2024.01.02-23.58.42:364][976]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.02-23.58.42:888][ 36]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/Field/STT_Dorubaord.STT_Dorubaord
+[2024.01.02-23.58.55:272][711]LogSlate: Window 'STT_Dorubaord' being destroyed
+[2024.01.02-23.58.55:279][711]LogSlate: Window 'STT_Dorubaord' being destroyed
+[2024.01.03-00.01.13:976][981]LogSlate: Took 0.005726 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.01.03-01.16.31:652][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   9.71ms
+[2024.01.03-01.16.38:311][ 73]LogSlate: Window 'Save Content' being destroyed
+[2024.01.03-01.16.38:355][ 73]LogSavePackage: Moving '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/Event_CommonDD0C4396428B02091F7BCD9DD1F91A26.tmp' to '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/StringTables/GAME/Event/Event_Common/Event_Common.uasset'
+[2024.01.03-01.16.38:359][ 73]LogSavePackage: Moving '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/STT_Battle_UI4B2455A5475055488490D49B3C647EE1.tmp' to '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/StringTables/GAME/STT_Battle_UI.uasset'
+[2024.01.03-01.16.38:361][ 73]LogSavePackage: Moving '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/STT_Dorubaord715542C64499E8A36A68D4800A251E68.tmp' to '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/StringTables/GAME/Field/STT_Dorubaord.uasset'
+[2024.01.03-01.16.38:595][ 73]LogSavePackage: Moving '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/STT_System_Location8F6AE29E41973B844999F597006D6651.tmp' to '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/StringTables/GAME/STT_System_Location.uasset'
+[2024.01.03-01.16.38:599][ 73]LogSavePackage: Moving '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/STT_System_Shop_Dougu7ACDD6A14B945467D82420AE7896231C.tmp' to '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/StringTables/GAME/System_Shop/STT_System_Shop_Dougu.uasset'
+[2024.01.03-01.16.38:602][ 73]LogSavePackage: Moving '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/STT_System_Title13FD3B374271E3AD1ECB3D8CAFB46DFA.tmp' to '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/StringTables/GAME/STT_System_Title.uasset'
+[2024.01.03-01.16.38:605][ 73]LogSavePackage: Moving '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/STT_System_UIE08F15174796244C616968A30296B160.tmp' to '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/StringTables/GAME/STT_System_UI.uasset'
+[2024.01.03-01.16.38:610][ 73]LogSavePackage: Moving '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/STT_System_WeaponTypes8F6D2A61411F06A5D5D8AB999AA6FC5D.tmp' to '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/StringTables/GAME/STT_System_WeaponTypes.uasset'
+[2024.01.03-01.16.38:612][ 73]LogSavePackage: Moving '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Saved/STT_Sytem_UI_StatusCF48176D46555A147AB7C2A7FE421FA8.tmp' to '../../../../github.com/KodywithaK/dqx-offline-localization/UE4Editor/dqxoffline/Content/StringTables/GAME/STT_Sytem_UI_Status.uasset'
+[2024.01.03-01.16.38:628][ 73]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.03-01.16.38:628][ 73]LogContentValidation: Display: Validating StringTable /Game/StringTables/GAME/STT_Battle_UI.STT_Battle_UI
+[2024.01.03-01.16.38:628][ 73]LogContentValidation: Display: Validating StringTable /Game/StringTables/GAME/STT_System_Location.STT_System_Location
+[2024.01.03-01.16.38:628][ 73]LogContentValidation: Display: Validating StringTable /Game/StringTables/GAME/STT_System_Title.STT_System_Title
+[2024.01.03-01.16.38:628][ 73]LogContentValidation: Display: Validating StringTable /Game/StringTables/GAME/STT_System_UI.STT_System_UI
+[2024.01.03-01.16.38:628][ 73]LogContentValidation: Display: Validating StringTable /Game/StringTables/GAME/STT_System_WeaponTypes.STT_System_WeaponTypes
+[2024.01.03-01.16.38:628][ 73]LogContentValidation: Display: Validating StringTable /Game/StringTables/GAME/STT_Sytem_UI_Status.STT_Sytem_UI_Status
+[2024.01.03-01.16.38:628][ 73]LogContentValidation: Display: Validating StringTable /Game/StringTables/GAME/Event/Event_Common/Event_Common.Event_Common
+[2024.01.03-01.16.38:628][ 73]LogContentValidation: Display: Validating StringTable /Game/StringTables/GAME/System_Shop/STT_System_Shop_Dougu.STT_System_Shop_Dougu
+[2024.01.03-01.16.38:628][ 73]LogContentValidation: Display: Validating StringTable /Game/StringTables/GAME/Field/STT_Dorubaord.STT_Dorubaord
+[2024.01.03-01.16.58:484][875]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/STT_Battle_UI.STT_Battle_UI
+[2024.01.03-01.17.26:202][ 79]LogSlate: Window 'STT_Battle_UI' being destroyed
+[2024.01.03-01.17.26:213][ 79]LogSlate: Window 'STT_Battle_UI' being destroyed
+[2024.01.03-01.21.21:770][132]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.03-01.21.21:778][132]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.03-01.21.26:541][704]LogContentBrowser: Attempting asset rename: NewFolder -> System
+[2024.01.03-01.21.26:541][704]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.03-01.21.33:937][591]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.03-01.21.33:946][591]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.03-01.21.42:093][569]LogContentBrowser: Attempting asset rename: NewFolder -> System_CareerStory
+[2024.01.03-01.21.42:093][569]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.03-01.25.37:594][ 93]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.03-01.25.37:603][ 93]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.03-01.25.39:349][303]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_CareerStoryVer1
+[2024.01.03-01.25.39:350][303]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.03-01.25.39:776][352]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/System/System_CareerStory/STT_CareerStoryVer1.STT_CareerStoryVer1
+[2024.01.03-01.25.56:350][415]LogSlate: Window 'STT_CareerStoryVer1' being destroyed
+[2024.01.03-01.25.56:360][415]LogSlate: Window 'STT_CareerStoryVer1' being destroyed
+[2024.01.03-01.26.08:698][199]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.03-01.26.08:706][199]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.03-01.26.10:327][394]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_EventPalceName
+[2024.01.03-01.26.10:327][394]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.03-01.26.10:675][432]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/System/System_CareerStory/STT_EventPalceName.STT_EventPalceName
+[2024.01.03-01.53.39:046][628]LogSlate: Window 'STT_EventPalceName' being destroyed
+[2024.01.03-01.53.39:056][628]LogSlate: Window 'STT_EventPalceName' being destroyed
+[2024.01.03-01.53.51:048][591]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.03-01.53.51:058][591]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.03-01.53.52:596][776]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_LoadingArasujiVer1
+[2024.01.03-01.53.52:597][776]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.03-01.53.52:933][814]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/System/System_CareerStory/STT_LoadingArasujiVer1.STT_LoadingArasujiVer1
+[2024.01.03-01.54.09:017][924]LogSlate: Window 'STT_LoadingArasujiVer1' being destroyed
+[2024.01.03-01.54.09:027][924]LogSlate: Window 'STT_LoadingArasujiVer1' being destroyed
+[2024.01.03-01.54.28:340][269]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.03-01.54.28:349][269]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.03-01.54.30:229][495]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_CareerStoryVer2
+[2024.01.03-01.54.30:230][495]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.03-01.54.30:562][533]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/System/System_CareerStory/STT_CareerStoryVer2.STT_CareerStoryVer2
+[2024.01.03-01.55.44:339][555]LogSlate: Window 'STT_CareerStoryVer2' being destroyed
+[2024.01.03-01.55.44:348][555]LogSlate: Window 'STT_CareerStoryVer2' being destroyed
+[2024.01.03-01.55.51:376][361]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.03-01.55.51:385][361]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.03-01.55.53:964][671]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_LoadingArasujiVer2
+[2024.01.03-01.55.53:965][671]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.03-01.55.54:477][729]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/System/System_CareerStory/STT_LoadingArasujiVer2.STT_LoadingArasujiVer2
+[2024.01.03-01.56.33:413][ 62]LogSlate: Window 'STT_LoadingArasujiVer2' being destroyed
+[2024.01.03-01.56.33:423][ 62]LogSlate: Window 'STT_LoadingArasujiVer2' being destroyed
+[2024.01.03-01.59.23:315][454]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.03-01.59.23:322][454]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.03-01.59.29:464][191]LogContentBrowser: Attempting asset rename: NewFolder -> System_Warp
+[2024.01.03-01.59.29:465][191]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.03-01.59.43:052][128]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.03-01.59.43:061][128]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.03-01.59.44:665][321]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_WarpBraveStoneSys
+[2024.01.03-01.59.44:665][321]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.03-01.59.45:440][411]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/System/System_Warp/STT_WarpBraveStoneSys.STT_WarpBraveStoneSys
+[2024.01.03-02.00.16:831][484]LogSlate: Window 'STT_WarpBraveStoneSys' being destroyed
+[2024.01.03-02.00.16:842][484]LogSlate: Window 'STT_WarpBraveStoneSys' being destroyed
+[2024.01.03-02.00.20:985][936]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.03-02.00.20:993][936]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.03-02.00.23:074][186]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_WarpRiremitoSys
+[2024.01.03-02.00.23:074][186]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.03-02.00.23:855][278]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/System/System_Warp/STT_WarpRiremitoSys.STT_WarpRiremitoSys
+[2024.01.03-02.00.58:620][756]LogSlate: Window 'STT_WarpRiremitoSys' being destroyed
+[2024.01.03-02.00.58:628][756]LogSlate: Window 'STT_WarpRiremitoSys' being destroyed
+[2024.01.03-02.01.03:410][292]LogContentBrowser: Deferred new asset file creation: NewStringTable
+[2024.01.03-02.01.03:421][292]LogContentBrowser: Creating deferred item: NewStringTable
+[2024.01.03-02.01.05:176][503]LogContentBrowser: Attempting asset rename: NewStringTable -> STT_WarpRuraSys
+[2024.01.03-02.01.05:176][503]LogContentBrowser: End creating deferred item NewStringTable
+[2024.01.03-02.01.05:438][533]LogAssetEditorSubsystem: Opening Asset editor for StringTable /Game/StringTables/GAME/System/System_Warp/STT_WarpRuraSys.STT_WarpRuraSys
+[2024.01.03-02.01.27:720][992]LogSlate: Window 'STT_WarpRuraSys' being destroyed
+[2024.01.03-02.01.27:729][992]LogSlate: Window 'STT_WarpRuraSys' being destroyed

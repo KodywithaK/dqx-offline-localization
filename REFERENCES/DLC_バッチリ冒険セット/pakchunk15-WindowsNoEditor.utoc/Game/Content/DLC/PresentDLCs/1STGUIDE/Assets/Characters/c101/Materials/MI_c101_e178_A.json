@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_c101_e178_A",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Properties": {
+      "Parent": null,
+      "ScalarParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "diff_mult",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.35,
+          "ExpressionGUID": "6DD1CE49-4C03A8A4-6A2DC89F-C800C1E1"
+        },
+        {
+          "ParameterInfo": {
+            "Name": "RefractionDepthBias",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterInfo": {
+            "Name": "col",
+            "Association": "EMaterialParameterAssociation::GlobalParameter",
+            "Index": -1
+          },
+          "ParameterValue": {
+            "ObjectName": "Texture2D'c101u178'",
+            "ObjectPath": "/Game/DLC/PresentDLCs/1STGUIDE/Assets/Characters/c101/Textures/c101u178.0"
+          },
+          "ExpressionGUID": "AD8FE38D-40709B95-E43439B3-869453E4"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "CachedReferencedTextures": [
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

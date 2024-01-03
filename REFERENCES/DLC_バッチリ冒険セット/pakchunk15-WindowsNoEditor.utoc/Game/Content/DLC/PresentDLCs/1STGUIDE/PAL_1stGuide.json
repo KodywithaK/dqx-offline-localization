@@ -1,0 +1,17 @@
+[
+  {
+    "Type": "PrimaryAssetLabel",
+    "Name": "PAL_1stGuide",
+    "Class": "UScriptClass'PrimaryAssetLabel'",
+    "Properties": {
+      "Rules": {
+        "Priority": 52,
+        "ChunkId": 15,
+        "bApplyRecursively": true,
+        "CookRule": "EPrimaryAssetCookRule::AlwaysCook"
+      },
+      "bLabelAssetsInMyDirectory": true,
+      "bIsRuntimeLabel": true
+    }
+  }
+]
