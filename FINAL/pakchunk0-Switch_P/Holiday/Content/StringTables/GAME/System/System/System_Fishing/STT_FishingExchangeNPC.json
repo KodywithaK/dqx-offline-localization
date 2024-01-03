@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "StringTable",
+    "Name": "STT_FishingExchangeNPC",
+    "Class": "UScriptClass'StringTable'",
+    "StringTable": {
+      "TableNamespace": "NewStringTable",
+      "KeysToMetaData": {
+        "SYSTXT_FISHING_EXCHANGE_NPC_01010": "Thank you.\nPlease come again soon.\n<turn end>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01020": "This is a fish exchange.\nWhat would you like to do?\n<select_se_off>\nChoose a fish to give to them\nGive them all of your fish\nExchange for prizes\nExplanation of services\n<select_end><break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01040": "Are you ok with trading all your fish for\n{Fish_Coin} Fishing Coins?\n <yesno> <break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01050": "I can offer you {Fish_Coin} Fish Coins\nfor {Fish_Name}. Is that ok?\r\n <yesno> <break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01060": "Items in blue text can only be exchanged for once.\nPlease select the item you wish to exchange.\n<break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01070": "You want to exchange {Fish_Coin} Fish Coins\nfor {Item_Name}.  Is that correct?\n<yesno><break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01080": "You want to exchange {Fish_Coin} Fish Coins for  {Item_Selected_Quantity} {Item_Name}s. Is that correct?\n<yesno><break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01090": "Here at the fish exchange you may exchange\nfish younhave caught for Fish Coins.\nYou may then exchange Fish Coins for\n<br>\nother items if you wish.\n<bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01100": "Oh...\nIt looks like you don't have any fish to exchange.\n<bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01110": "You don't have enough Fish Coins for that prize.\n<bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01120": "Oops, it looks like you have too much stuff\nto carry a {Item_Name}.\n<bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01130": "No more {Item_Name} can be\nexchanged for.\n<bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01150": "'Which fish do you want to give me?\n<break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01160": "<speed=0>\n{Character_Name} traded {Fish_Name} and got\n{Fish_Coin} Fish Coins!\n<se system Item><speed=default><bw_break >",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01170": "<speed=0>\n{Character_Name} traded\na big {Fish_Name} and got {Fish_Coin} fish coins!\n<se system Item><speed =default><bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01180": "<speed=0>\n{Character_Name} traded\na king-sized {Fish_Name} and got\n{Fish_Coin} Fish Coins!\n<se system Item><speed =default><bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01190": "<speed=0>\n{Character_Name} traded all their fish\nand got {Fish_Coin} Fish Coins!\n<se system Item><speed=default> <bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01230": "<speed=0>\n{Character_Name} got\n{Item_Name}!\n<se system Item><speed=default><bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01240": "<speed=0>\n{Character_Name} has obtained\n{Item_Selected_Quantity} of {Item_Name}!\n<se system Item><speed=default><bw_break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01250": "Is there anything else you would like to\nexchange for?\n<break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01260": "Is there anything else you need?\n<break>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01280": "I'm sorry, but you can't use the fish exchange until\nyou have spoken with Fish Master Haslow next door.\n<turn end>",
+        "SYSTXT_FISHING_EXCHANGE_NPC_01320": "Even if you continue to exchange fish\n, you won't have enough fish coins.\n<br>\n"After exchanging for prizes and reducing the number of fish coins,\nI will give you another fish. Please.\n<bw_break>"
+      }
+    },
+    "StringTableId": 0
+  }
+]
