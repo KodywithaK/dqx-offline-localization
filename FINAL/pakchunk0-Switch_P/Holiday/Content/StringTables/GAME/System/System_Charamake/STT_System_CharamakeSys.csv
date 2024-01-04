@@ -1,87 +1,75 @@
-[
-  {
-    "Type": "StringTable",
-    "Name": "STT_System_CharamakeSys",
-    "Class": "UScriptClass'StringTable'",
-    "StringTable": {
-      "TableNamespace": "STT_System_CharamakeSys",
-      "KeysToMetaData": {
-        "SYSTXT_CHARAMAKE_00010": "Player",
-         "SYSTXT_CHARAMAKE_00020": "Sibling",
-         "SYSTXT_CHARAMAKE_00030": "Older sister",
-         "SYSTXT_CHARAMAKE_00040": "Younger sister",
-         "SYSTXT_CHARAMAKE_00050": "Older brother",
-         "SYSTXT_CHARAMAKE_00060": "Younger brother",
-         "SYSTXT_CHARAMAKE_01010": "Pattern playback",
-         "SYSTXT_CHARAMAKE_01020": "Voice",
-         "SYSTXT_CHARAMAKE_01030": "Leave it to me",
-         "SYSTXT_CHARAMAKE_10010": "You will now create two characters:\none for the player and one for their sibling.r\n<br_break>",
-         "SYSTXT_CHARAMAKE_10020": "Please choose a\r\nform for the player character.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_10030": "Your progress wasn't saved.\r\nYou will return to the main menu.\r\nAre you sure you want to do this?\r\n <yesno> <break>",
-         "SYSTXT_CHARAMAKE_10040": "Choose your characters body type.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_10050": "Edit each category to personalize\r\nyour character.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_10060": "Please enter a name!\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_10070": "Is this what you want your character to look like?\r\n <yesno> <break>",
-         "SYSTXT_CHARAMAKE_10080": "Now please create a character for the players sibling.\r\n<br_break>",
-         "SYSTXT_CHARAMAKE_10090": "An Adventure Log will be created with \r\nthese two characters.\r\nAre you sure you want to proceed?\r\n <yesno> <break>",
-         "SYSTXT_CHARAMAKE_10100": "Which character would you like to recreate?\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_10110": "Your progress wasn't saved.\r\nYou will return to the main menu.\r\nAre you sure you want to do this?\r\n<yesno><break>",
-         "SYSTXT_CHARAMAKE_10120": "This name cannot be used.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_20010": "Do you want to be reborn as a {Tribe_Selected_Name}?",
-         "SYSTXT_CHARAMAKE_20020": "Are you sure you wish to be reborn as a {Job_Selected_Name}?",
-         "SYSTXT_CHARAMAKE_30010": "Please choose the color of your characters skin.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_30020": "Please choose your characters figure.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_30030": "Please choose the color of your character's face.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_30040": "Please choose your characters hair color.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_30050": "Choose your characters eye color.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_30060": "Choose your character's voice type.\nIf you don't want to hear spoken voices\nthey can be turned off in the Misc. menu.\n<bw_break>",
-         "SYSTXT_CHARAMAKE_30070": "Please enter a name for your character.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_31010": "Please choose a form for your sibling.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_31020": "What is your relationship with your brother from your perspective?\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_31030": "Please choose your brothers body type.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_31040": "Edit each field to personalize a character\r\nfor your brother.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_31050": "Choose your brothers character.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_31060": "Please choose the color of your brother.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_31070": "Please enter a name for your brother.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_31080": "Please choose the skin\r\ncolor for your brothers character.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_31090": "Please enter a name for your brother.\r\n<bw_break>",
-        "SYSTXT_CHARAMAKE_31100": "Are you sure this is how you want your brother\r\nto appear?\r\n<yesno><break>",
-         "SYSTXT_CHARAMAKE_32010": "What is your relationship with your sister\r\nfrom your perspective?\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_32020": "Please choose your sisters body type.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_32030": "Edit each field to personalize a character\r\nfor your sister.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_32040": "Choose your sisters character.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_32050": "Please choose the color of your sister.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_32060": "Please enter a name for your sister.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_32070": "Please choose the color of your sister.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_32080": "Please enter a name for your sister.\r\n<bw_break>",
-         "SYSTXT_CHARAMAKE_32090": "Are you sure this is how you want your sister\r\nto appear?\r\n <yesno> <break>",
-         "SYSTXT_CHARAMAKE_40010": "High strength, defense and HP, the warrior is\neffective at dealing damage and protecting allies.\nCan equip  one-handed swords, two-handed swords and axes.",
-         "SYSTXT_CHARAMAKE_40020": "Whipping Boy, Morale Masher",
-         "SYSTXT_CHARAMAKE_40030": "Critical Claim",
-         "SYSTXT_CHARAMAKE_40040": "A specialist with recovery spells they can also deal\nrepectable physical damage. \nAble to equip a spears, staves and clubs.",
-         "SYSTXT_CHARAMAKE_40050": "Heal, Benediction, Alma Mater",
-         "SYSTXT_CHARAMAKE_40060": "Saint's Song",
-         "SYSTXT_CHARAMAKE_40070": "A specialist with offensive magic. Able to wield\ntwo-handed staves, daggers and whips.",
-         "SYSTXT_CHARAMAKE_40080": "Frizz, Wizard Ward, Spooky Aura",
-         "SYSTXT_CHARAMAKE_40090": "O Zone",
-         "SYSTXT_CHARAMAKE_40100": "Utilizes tension to increase power, with exceptional\nstrength and speed. \nAble to equip claws, clubs and fans.",
-         "SYSTXT_CHARAMAKE_40110": "Psyche Up, Mens Sana, Meditation",
-         "SYSTXT_CHARAMAKE_40120": "Roaring Tirade",
-         "SYSTXT_CHARAMAKE_40130": "A good all-arounder he has good physical strength\nand high speed. Can steal items from enemies. \nAble to equip daggers, whips and claws.",
-         "SYSTXT_CHARAMAKE_40140": "Half-inch, Nose for Treasure",
-         "SYSTXT_CHARAMAKE_40150": "Itemized Kill",
-         "SYSTXT_CHARAMAKE_90010": "Ogres, the People of Fire\nThey live strong in the harsh lands,\nwith large bodies, horns and tails.",
-         "SYSTXT_CHARAMAKE_90020": "They are belligerent, respect the strong\nand use their superior strength and\nstamina to risk their lives for the weak.",
-         "SYSTXT_CHARAMAKE_90030": "Pukulipo, People of Flowers\nIn a town with colors like a picture book,\nthey have fluffy, adorable little bodies living\n<br\nin search of fun.",
-         "SYSTXT_CHARAMAKE_90040": "Born with strong magical power and dexterity,\nthey are more passionate about creating things\nfor fun than for fighting.",
-         "SYSTXT_CHARAMAKE_90050": "Elves, People of Wind\nThey are beautiful people with wings\non their back who love nature and live\n<br>\nwith the forest.",
-         "SYSTXT_CHARAMAKE_90060": "They value tradition, studied the ways\nof the world, and produced many excellent\nspellcasters.",
-         "SYSTXT_CHARAMAKE_90070": "Dwarves, People of Earth"\nThey live with the earth, blessed by the\nmajestic mountains, with small bodies and\n<br>\nbig ears. ",
-         "SYSTXT_CHARAMAKE_90080": "With their high technology and strong desires,\nthey built many advanced civilizations with\ntheir pure dexterity and speed.",
-         "SYSTXT_CHARAMAKE_90090": "Weddie, People of Water"\nThey live freely on beautiful islands in the\nsea and their bodies are blue like water.",
-         "SYSTXT_CHARAMAKE_90100": "They hate constraints and value singing and love.\nThey use their speed and strength to fight only\nwhen they have to protect those they love."
-      }
-    },
-    "StringTableId": 0
-  }
-]
+Key,SourceString
+SYSTXT_CHARAMAKE_00010,"Player"
+SYSTXT_CHARAMAKE_00020,"Sibling"
+SYSTXT_CHARAMAKE_00030,"Older sister"
+SYSTXT_CHARAMAKE_00040,"Younger sister"
+SYSTXT_CHARAMAKE_00050,"Older brother"
+SYSTXT_CHARAMAKE_00060,"Younger brother"
+SYSTXT_CHARAMAKE_01010,"Pattern playback"
+SYSTXT_CHARAMAKE_01020,"Voice"
+SYSTXT_CHARAMAKE_01030,"Leave it to me"
+SYSTXT_CHARAMAKE_10010,"You will now create two characters:\none for the player and one for their sibling.r\n<br_break>"
+SYSTXT_CHARAMAKE_10020,"Please choose a\nform for the player character.\n<bw_break>"
+SYSTXT_CHARAMAKE_10030,"Your progress wasn't saved.\nYou will return to the main menu.\nAre you sure you want to do this?\n<yesno> <break>"
+SYSTXT_CHARAMAKE_10040,"Choose your characters body type.\n<bw_break>"
+SYSTXT_CHARAMAKE_10050,"Edit each category to personalize\nyour character.\n<bw_break>"
+SYSTXT_CHARAMAKE_10060,"Please enter a name!\n<bw_break>"
+SYSTXT_CHARAMAKE_10070,"Is this what you want your character to look like?\n<yesno> <break>"
+SYSTXT_CHARAMAKE_10080,"Now please create a character for the players sibling.\n<br_break>"
+SYSTXT_CHARAMAKE_10090,"An Adventure Log will be created with\nthese two characters.\nAre you sure you want to proceed?\n<yesno> <break>"
+SYSTXT_CHARAMAKE_10100,"Which character would you like to recreate?\n<bw_break>"
+SYSTXT_CHARAMAKE_10110,"Your progress wasn't saved.\nYou will return to the main menu.\nAre you sure you want to do this?\n<yesno><break>"
+SYSTXT_CHARAMAKE_10120,"This name cannot be used.\n<bw_break>"
+SYSTXT_CHARAMAKE_20010,"Do you want to be reborn as a {Tribe_Selected_Name}?"
+SYSTXT_CHARAMAKE_20020,"Are you sure you wish to be reborn as a {Job_Selected_Name}?"
+SYSTXT_CHARAMAKE_30010,"Please choose the color of your characters skin.\n<bw_break>"
+SYSTXT_CHARAMAKE_30020,"Please choose your characters figure.\n<bw_break>"
+SYSTXT_CHARAMAKE_30030,"Please choose the color of your character's face.\n<bw_break>"
+SYSTXT_CHARAMAKE_30040,"Please choose your characters hair color.\n<bw_break>"
+SYSTXT_CHARAMAKE_30050,"Choose your characters eye color.\n<bw_break>"
+SYSTXT_CHARAMAKE_30060,"Choose your character's voice type.\nIf you don't want to hear spoken voices\nthey can be turned off in the Misc. menu.\n<bw_break>"
+SYSTXT_CHARAMAKE_30070,"Please enter a name for your character.\n<bw_break>"
+SYSTXT_CHARAMAKE_31010,"Please choose a form for your sibling.\n<bw_break>"
+SYSTXT_CHARAMAKE_31020,"What is your relationship with your brother from your perspective?\n<bw_break>"
+SYSTXT_CHARAMAKE_31030,"Please choose your brothers body type.\n<bw_break>"
+SYSTXT_CHARAMAKE_31040,"Edit each field to personalize a character\nfor your brother.\n<bw_break>"
+SYSTXT_CHARAMAKE_31050,"Choose your brothers character.\n<bw_break>"
+SYSTXT_CHARAMAKE_31060,"Please choose the color of your brother.\n<bw_break>"
+SYSTXT_CHARAMAKE_31070,"Please enter a name for your brother.\n<bw_break>"
+SYSTXT_CHARAMAKE_31080,"Please choose the skin\ncolor for your brothers character.\n<bw_break>"
+SYSTXT_CHARAMAKE_31090,"Please enter a name for your brother.\n<bw_break>"
+SYSTXT_CHARAMAKE_31100,"Are you sure this is how you want your brother\nto appear?\n<yesno><break>"
+SYSTXT_CHARAMAKE_32010,"What is your relationship with your sister\nfrom your perspective?\n<bw_break>"
+SYSTXT_CHARAMAKE_32020,"Please choose your sisters body type.\n<bw_break>"
+SYSTXT_CHARAMAKE_32030,"Edit each field to personalize a character\nfor your sister.\n<bw_break>"
+SYSTXT_CHARAMAKE_32040,"Choose your sisters character.\n<bw_break>"
+SYSTXT_CHARAMAKE_32050,"Please choose the color of your sister.\n<bw_break>"
+SYSTXT_CHARAMAKE_32060,"Please enter a name for your sister.\n<bw_break>"
+SYSTXT_CHARAMAKE_32070,"Please choose the color of your sister.\n<bw_break>"
+SYSTXT_CHARAMAKE_32080,"Please enter a name for your sister.\n<bw_break>"
+SYSTXT_CHARAMAKE_32090,"Are you sure this is how you want your sister\nto appear?\n<yesno> <break>"
+SYSTXT_CHARAMAKE_40010,"High strength, defense and HP, the warrior is\neffective at dealing damage and protecting allies.\nCan equip  one-handed swords, two-handed swords and axes."
+SYSTXT_CHARAMAKE_40020,"Whipping Boy, Morale Masher"
+SYSTXT_CHARAMAKE_40030,"Critical Claim"
+SYSTXT_CHARAMAKE_40040,"A specialist with recovery spells they can also deal\nrepectable physical damage.\nAble to equip a spears, staves and clubs."
+SYSTXT_CHARAMAKE_40050,"Heal, Benediction, Alma Mater"
+SYSTXT_CHARAMAKE_40060,"Saint's Song"
+SYSTXT_CHARAMAKE_40070,"A specialist with offensive magic. Able to wield\ntwo-handed staves, daggers and whips."
+SYSTXT_CHARAMAKE_40080,"Frizz, Wizard Ward, Spooky Aura"
+SYSTXT_CHARAMAKE_40090,"O Zone"
+SYSTXT_CHARAMAKE_40100,"Utilizes tension to increase power, with exceptional\nstrength and speed.\nAble to equip claws, clubs and fans."
+SYSTXT_CHARAMAKE_40110,"Psyche Up, Mens Sana, Meditation"
+SYSTXT_CHARAMAKE_40120,"Roaring Tirade"
+SYSTXT_CHARAMAKE_40130,"A good all-arounder he has good physical strength\nand high speed. Can steal items from enemies.\nAble to equip daggers, whips and claws."
+SYSTXT_CHARAMAKE_40140,"Half-inch, Nose for Treasure"
+SYSTXT_CHARAMAKE_40150,"Itemized Kill"
+SYSTXT_CHARAMAKE_90010,"Ogres, the People of Fire\n<br>\nThey live strong in the harsh lands,\nwith large bodies, horns and tails."
+SYSTXT_CHARAMAKE_90020,"They are belligerent, respect the strong\nand use their superior strength and\nstamina to risk their lives for the weak."
+SYSTXT_CHARAMAKE_90030,"Pukulipo, People of Flowers\n<br>\nIn a town with colors like a picture book,\nthey have fluffy, adorable little bodies living\nin search of fun."
+SYSTXT_CHARAMAKE_90040,"Born with strong magical power and dexterity,\nthey are more passionate about creating things\nfor fun than for fighting."
+SYSTXT_CHARAMAKE_90050,"Elves, People of Wind\n<br>\nThey are beautiful people with wings\non their back who love nature and live\nwith the forest."
+SYSTXT_CHARAMAKE_90060,"They value tradition, studied the ways\nof the world, and produced many excellent\nspellcasters."
+SYSTXT_CHARAMAKE_90070,"Dwarves, People of Earth\n<br>\nThey live with the earth, blessed by the\nmajestic mountains, with small bodies and\nbig ears. "
+SYSTXT_CHARAMAKE_90080,"With their high technology and strong desires,\nthey built many advanced civilizations with\ntheir pure dexterity and speed."
+SYSTXT_CHARAMAKE_90090,"Weddie, People of Water\n<br>\nThey live freely on beautiful islands in the\nsea and their bodies are blue like water."
+SYSTXT_CHARAMAKE_90100,"They hate constraints and value singing and love.\nThey use their speed and strength to fight only\nwhen they have to protect those they love."
