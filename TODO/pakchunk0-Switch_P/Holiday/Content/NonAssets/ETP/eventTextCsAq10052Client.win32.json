@@ -90,7 +90,7 @@
     "<start_lip_sync m50016 _normal m00001>「おおっ　さすが　心の友ニャ。\n　それじゃあ　よろしく頼むのニャ！！<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>Oh, as expected of a friend of mind.\nWell then, I'll be counting on you!<stop_lip_animation m50016 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sev_quest_name>\".<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n''<%sev_quest_name>''.<me 74>"
   },
   "19968": {
     "<start_lip_sync m50016 _normal m00001>「ネコマンマの実を　手に入れたら\n　まっすぐに　巨猫の巣へ向かっていいからニャ。\n　オレも　それを見計らって　行くのニャ～。<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>If you received Cat Manma Fruit, you\ncan go straight to Big Cat Nest. I'll\nbe there as soon as I see it.<stop_lip_animation m50016 CLOSE_MOUTH>"
@@ -228,7 +228,7 @@
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「……<pc>さま。\n　手を貸してくれて　ありがとうでヤンス。\n　これは　ささやかな気持ちでヤンス。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh><pc>. Thanks for lending a\nhand, Yance. This is just a small\ntoken of my appreciation.<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
   },
   "20015": {
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「それじゃ　アッシも　これで……。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Well then, I'll take this as well.<stop_lip_animation m00501 CLOSE_MOUTH>"

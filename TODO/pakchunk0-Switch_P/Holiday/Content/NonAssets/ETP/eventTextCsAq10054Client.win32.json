@@ -27,7 +27,7 @@
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": "I have been asked to do a quest. Do\nyou accept this quest?\n<select>\nAccept\nStop\n<select_end><close>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sev_quest_name>\".<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n''<%sev_quest_name>''.<me 74>"
   },
   "20139": {
     "<start_lip_sync m50016 _normal m00001>「ありがたニャ。<pc>なら\n　やってくれると思ってたのニャ。<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>Thanks, Meow. I knew <pc>\nwould do it.<stop_lip_animation m50016 CLOSE_MOUTH>"
@@ -264,7 +264,7 @@
     "<start_lip_sync m03401 _normal m00001>「ククク……おろかな……。\n　サ……サードンさまが　ブタネコごときに\n　おびえたり　するものかよ……。<stop_lip_animation m03401 CLOSE_MOUTH>": "<start_lip_sync m03401 _normal m00001>Kukuku, you fool. I don't think\nSassadon-sama would be frightened by a\npiggy cat.<stop_lip_animation m03401 CLOSE_MOUTH>"
   },
   "20218": {
-    "<start_lip_sync m50016 _normal m00001>「ブタネコって言うの　ヤメろニャ！<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>Don't call me \"pig cat!<stop_lip_animation m50016 CLOSE_MOUTH>"
+    "<start_lip_sync m50016 _normal m00001>「ブタネコって言うの　ヤメろニャ！<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>Don't call me ''pig cat!<stop_lip_animation m50016 CLOSE_MOUTH>"
   },
   "20219": {
     "<start_lip_sync m50016 _normal m00001>「そうニャ。コイツに聞けば　いいのニャ。<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>That's right. You can ask him.<stop_lip_animation m50016 CLOSE_MOUTH>"
@@ -294,7 +294,7 @@
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「じつは　マンマーさまから　預かった\n　お礼の品が　あるんでヤンスよ。\n　受け取ってほしいでヤンス。　<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>In fact, I have a gift for you that\nMomma gave me. I would like you to\naccept it.<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
   },
   "20228": {
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「それじゃ　ごめんなすってでヤンス。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>I'm sorry, then.<stop_lip_animation m00501 CLOSE_MOUTH>"

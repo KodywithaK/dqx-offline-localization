@@ -66,7 +66,7 @@
     "<voice 01577_00064397><start_lip_sync n02239 _normal m00001>「戦争の時　まもの使いたちには\n　だいぶ　助けられたからの……。\n　ワシからも　どうか　よろしく頼む。<stop_lip_animation n02239 CLOSE_MOUTH>": "<voice 01577_00064397><start_lip_sync n02239 _normal m00001>The monster masters helped me a lot\nduring the war. I would also like to\nask for your kind cooperation.<stop_lip_animation n02239 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sev_quest_name>\".<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n''<%sev_quest_name>''.<me 74>"
   },
   "64398": {
     "<voice 01917_00064398><start_lip_sync n02239 _normal m00001>「……<pc>。これは　奥方には\n　ヒミツじゃが　おそらく　カレヴァンも\n　魔物の姿に　変えられていることじゃろう。<stop_lip_animation n02239 CLOSE_MOUTH>": "<voice 01917_00064398><start_lip_sync n02239 _normal m00001><pc>. This is a secret from\nthe mistress, but perhaps Kalevan has\nbeen transformed into a monster.<stop_lip_animation n02239 CLOSE_MOUTH>"
@@ -123,7 +123,7 @@
     "<pc>は　真のレンダーシアに戻る方法と\nそこで見てきたことを　セラフィに説明した。": "<pc> explained to Seraphi how\nto return to True Lendersia and what\nhe had seen there."
   },
   "64416": {
-    "<voice 00805_00064416><start_lip_sync n02035 _normal m00001>「へえー！　その…ぶれいぶすとーん？\n　っていうのを使えば　元の世界に戻れるんだね。<stop_lip_animation n02035 CLOSE_MOUTH>": "<voice 00805_00064416><start_lip_sync n02035 _normal m00001>Heh! So you can get back to your\noriginal world by using that\n\"Bureibuston\"? I can get back to my\n<br>\noriginal world by using that thing\ncalled \"Bureibuston\".<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<voice 00805_00064416><start_lip_sync n02035 _normal m00001>「へえー！　その…ぶれいぶすとーん？\n　っていうのを使えば　元の世界に戻れるんだね。<stop_lip_animation n02035 CLOSE_MOUTH>": "<voice 00805_00064416><start_lip_sync n02035 _normal m00001>Heh! So you can get back to your\noriginal world by using that\n''Bureibuston''? I can get back to my\n<br>\noriginal world by using that thing\ncalled ''Bureibuston''.<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64417": {
     "<voice 00835_00064417><start_lip_sync n02035 _normal m00001>「しかも　そっちの世界には\n　魔物に変えられた　呪いを解く\n　クドゥスの泉なんてものがあるんだ……。<stop_lip_animation n02035 CLOSE_MOUTH>": "<voice 00835_00064417><start_lip_sync n02035 _normal m00001>Besides, there's a Kudus Spring in\nthat world that breaks the curse of\nbeing turned into a monster.<stop_lip_animation n02035 CLOSE_MOUTH>"
@@ -303,7 +303,7 @@
     "<voice 01295_00064468><start_lip_sync m14103 _normal m00001>「ガル　ガルルル。ガルル　ガルルルル……。<stop_lip_animation m14103 CLOSE_MOUTH>": "<voice 01295_00064468><start_lip_sync m14103 _normal m00001>Gull Gull Gull Gull Gull Gull Gull\nGull Gull Gull Gull Gull Gull Gull\nGull Gull Gull Gull Gull Gull Gull\n<br>\nGull Gull Gull Gull Gull Gull Gull\nGull Gull<stop_lip_animation m14103 CLOSE_MOUTH>"
   },
   "64469": {
-    "<voice 01435_00064469><start_lip_sync n02035 _normal m00001>「<cs_pchero>さん。このカメオを渡すときに\n　今すぐには帰れないが　いずれ　必ず帰るって\n　メッセージも　伝えておいてほしいんだって。<stop_lip_animation n02035 CLOSE_MOUTH>": "<voice 01435_00064469><start_lip_sync n02035 _normal m00001><cs_pchero>He said, \"When I give you this Cameo.\nWhen you give them this Cameo, please\ntell them that you can't go home right\n<br>\nnow, but you will be back sooner or\nlater.<stop_lip_animation n02035 CLOSE_MOUTH>"
+    "<voice 01435_00064469><start_lip_sync n02035 _normal m00001>「<cs_pchero>さん。このカメオを渡すときに\n　今すぐには帰れないが　いずれ　必ず帰るって\n　メッセージも　伝えておいてほしいんだって。<stop_lip_animation n02035 CLOSE_MOUTH>": "<voice 01435_00064469><start_lip_sync n02035 _normal m00001><cs_pchero>He said, ''When I give you this Cameo.\nWhen you give them this Cameo, please\ntell them that you can't go home right\n<br>\nnow, but you will be back sooner or\nlater.<stop_lip_animation n02035 CLOSE_MOUTH>"
   },
   "64470": {
     "<voice 01475_00064470><start_lip_sync n02035 _normal m00001>「じゃあ　コレ\n　<cs_pchero>さんに　あずけるわね。<stop_lip_animation n02035 CLOSE_MOUTH>": "<voice 01475_00064470><start_lip_sync n02035 _normal m00001>Okay, here we go.<cs_pchero>I'll leave it with you.<stop_lip_animation n02035 CLOSE_MOUTH>"
@@ -378,7 +378,7 @@
     "<voice 02005_00072333><start_lip_sync n02239 _normal m00001>「そうじゃ！　おぬしへの礼が　まだじゃったな。\n　むずかしい頼みを聞いてくれて　感謝しておる。\n　これを受け取ってたもれ！<stop_lip_animation n02239 CLOSE_MOUTH>": "<voice 02005_00072333><start_lip_sync n02239 _normal m00001>That's right! I haven't thanked you\nyet. Thank you for doing me this\ndifficult favor. Please accept this!<stop_lip_animation n02239 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
   },
   "72334": {
     "<voice 02135_00072334><start_lip_sync n02239 _normal m00001>「そういえば　おぬし……。\n　カレヴァンのカメオを　ナシームの洞くつで\n　見つけたと　言っておったな……。<stop_lip_animation n02239 CLOSE_MOUTH>": "<voice 02135_00072334><start_lip_sync n02239 _normal m00001>By the way, you said you found\nKalevan's Cameo at Naseem Cave. You\nsaid you found Kalevan's Cameo at\n<br>\nNaseem Cave.<stop_lip_animation n02239 CLOSE_MOUTH>"

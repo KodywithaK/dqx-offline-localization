@@ -57,7 +57,7 @@
     "<voice 01802_29000152><start_lip_sync n02085 _normal m00001>「遺跡の中を　くまなく探してでも\n　アンルシアを　見つけ出すのだ。\n　私たちも　準備をしてから　そなたの後を追う。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 01802_29000152><start_lip_sync n02085 _normal m00001>You must search every inch of the\nruins to find Anlucia. We will follow\nyou when we are ready.<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sev_quest_name>\".<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n''<%sev_quest_name>''.<me 74>"
   },
   "62116": {
     "<voice 01867_00062116><start_lip_sync n02085 _normal m00001>「そうだ　<pc>。\n　運命の振り子は　そなたに返しておこう。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 01867_00062116><start_lip_sync n02085 _normal m00001>Yes <pc>. I return the\nPendulum of Fate to you.<stop_lip_animation n02085 CLOSE_MOUTH>"
@@ -198,7 +198,7 @@
     "<voice 00965_00062150><start_lip_sync n02076 _normal m00001>「………………。<stop_lip_animation n02076 CLOSE_MOUTH>": "<voice 00965_00062150><start_lip_sync n02076 _normal m00001>...<stop_lip_animation n02076 CLOSE_MOUTH>"
   },
   "62151": {
-    "<voice 01065_00062151><start_lip_sync n02085 _normal m00001>「ところで　ふたりに　話があるのだ。\n　<cs_pchero>が　アンルシアを助けた時の\n　あの技だが……<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 01065_00062151><start_lip_sync n02085 _normal m00001>By the way, I need to talk to you\nboth.<cs_pchero>The same technique used by the \"Mere\nOld Man\" to save Anlucia's life.<stop_lip_animation n02085 CLOSE_MOUTH>"
+    "<voice 01065_00062151><start_lip_sync n02085 _normal m00001>「ところで　ふたりに　話があるのだ。\n　<cs_pchero>が　アンルシアを助けた時の\n　あの技だが……<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 01065_00062151><start_lip_sync n02085 _normal m00001>By the way, I need to talk to you\nboth.<cs_pchero>The same technique used by the ''Mere\nOld Man'' to save Anlucia's life.<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "62152": {
     "<voice 01155_00062152><start_lip_sync n02076 _normal m00001>「ルシェンダさま……。\n　そのような話をしているヒマは　ありません。\n　一刻も早く　先へ向かいましょう。<stop_lip_animation n02076 CLOSE_MOUTH>": "<voice 01155_00062152><start_lip_sync n02076 _normal m00001>Dear Lushenda. We don't have time for\nsuch talk. Let's move on as soon as\npossible.<stop_lip_animation n02076 CLOSE_MOUTH>"
@@ -321,7 +321,7 @@
     "<voice 00250_00062189><start_lip_sync n02085 _normal m00001>「さて　さっそくだが　本題に入ろう。\n　これから　重要な話をいくつかする。\n　よく　聞いておくのだ。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 00250_00062189><start_lip_sync n02085 _normal m00001>Now, let's get right to the point. I'm\ngoing to tell you a few important\nthings. Listen carefully.<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "62190": {
-    "<voice 00290_00062190><start_lip_sync n02085 _normal m00001>「まず　そなたが　獣魔将ガルレイと戦った際に\n　アンルシアを守らんと　発動した技について……\n　あの技は　盟友の守りと呼ばれるものだ。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 00290_00062190><start_lip_sync n02085 _normal m00001>First, regarding the technique you\ninvoked to protect Anlucia when you\nfought Beast General Gullray, that\n<br>\ntechnique is called \"ally's defense\".<stop_lip_animation n02085 CLOSE_MOUTH>"
+    "<voice 00290_00062190><start_lip_sync n02085 _normal m00001>「まず　そなたが　獣魔将ガルレイと戦った際に\n　アンルシアを守らんと　発動した技について……\n　あの技は　盟友の守りと呼ばれるものだ。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 00290_00062190><start_lip_sync n02085 _normal m00001>First, regarding the technique you\ninvoked to protect Anlucia when you\nfought Beast General Gullray, that\n<br>\ntechnique is called ''ally's defense''.<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "62191": {
     "<voice 00330_00062191><start_lip_sync n02076 _normal m00001>「盟友の守り…………。<stop_lip_animation n02076 CLOSE_MOUTH>": "<voice 00330_00062191><start_lip_sync n02076 _normal m00001>ally protection.<stop_lip_animation n02076 CLOSE_MOUTH>"
@@ -438,7 +438,7 @@
     "<voice 02546_00062222><start_lip_sync n02085 _normal m00001>「<pc>よ。アンルシアを守るという\n　今回の任務を　見事に果たしてくれたな。\n　報酬として　これを受け取ってくれ。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 02546_00062222><start_lip_sync n02085 _normal m00001><pc>, you have successfully\naccomplished this mission to protect\nAnlucia. Take this as your reward.<stop_lip_animation n02085 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
   },
   "62223": {
     "<voice 02646_00062223><start_lip_sync n02085 _normal m00001>「そうだ。トーマが　よみがえったことは\n　くれぐれも　他言無用で頼むぞ。\n　皆に知れ渡れば　パニックになるからな。<stop_lip_animation n02085 CLOSE_MOUTH>": "<voice 02646_00062223><start_lip_sync n02085 _normal m00001>Oh, and please don't tell anyone that\nToma has come back to life, because if\nanyone finds out, there will be a\n<br>\npanic. If anyone finds out, there will\nbe a panic.<stop_lip_animation n02085 CLOSE_MOUTH>"

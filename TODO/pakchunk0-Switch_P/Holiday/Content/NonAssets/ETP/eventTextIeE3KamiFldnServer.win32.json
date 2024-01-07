@@ -15,7 +15,7 @@
     "「ただし　送るだけで　迎えには行けぬでござる。\n　それでもよければ\n　どちらに　向かわれるでござるか？\n<name_off><select>\n山間の関所（イナミノ街道）\nガケっぷち村（落陽の草原）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": "However, I can only drop you off and\nnot pick you up, that I cannot. If you\nstill wish, where would you like to\n<br>\ngo, that you would?\n<name_off><select>\nMountain Pass (Inamino Highway)\nRuined Village (Sunset Meadow)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "99901": {
-    "<attr><feel_happy_lv2><end_attr>「まいどあり！　でござる。\n　では　すぐに行くでござる。": "<attr><feel_happy_lv2><end_attr>There is a \"mairi\"! That I am, that I\nam. Then, I will go immediately, that\nI will."
+    "<attr><feel_happy_lv2><end_attr>「まいどあり！　でござる。\n　では　すぐに行くでござる。": "<attr><feel_happy_lv2><end_attr>There is a ''mairi''! That I am, that I\nam. Then, I will go immediately, that\nI will."
   },
   "99902": {
     "「おお。お乗りにはなられぬか。\n　では　乗りたくなったら\n　また来てほしいでござる。": "Oh. You don't ride, do you? Then, if\nyou feel like riding, that you should\ncome again."
@@ -48,6 +48,6 @@
     "魔物を従えていなければ\nここより先へは　進めないようだ。\n<br>\n仲間の魔物が　死んでしまっているので\n生き返らせてから　もう一度　来てみよう。": "It seems that we cannot proceed any\nfurther without a monster. The\ncompanion monster is dead, so let's\n<br>\nbring it back to life and come back\nagain."
   },
   "76476": {
-    "魔物を従えていなければ\nここより先へは　進めないようだ。\n<br>\n仲間の魔物が　待機状態になっているので\n参加状態にしてから　もう一度　来てみよう。": "It seems that we cannot proceed any\nfurther unless we have a \"monster\"\nwith us. Since the companion's monster\n<br>\nis in a standby state, let's make it\njoin and come back again."
+    "魔物を従えていなければ\nここより先へは　進めないようだ。\n<br>\n仲間の魔物が　待機状態になっているので\n参加状態にしてから　もう一度　来てみよう。": "It seems that we cannot proceed any\nfurther unless we have a ''monster''\nwith us. Since the companion's monster\n<br>\nis in a standby state, let's make it\njoin and come back again."
   }
 }

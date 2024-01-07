@@ -21,7 +21,7 @@
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": "I have been asked to do a quest. Do\nyou accept this quest?\n<select>\nAccept\nStop\n<select_end><close>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n\"<%sev_quest_name>\".<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n''<%sev_quest_name>''.<me 74>"
   },
   "29906": {
     "<start_lip_sync n01418 _normal m00001>「あ…ありがと。ボク　なんだか\n　その場所から　呼ばれてる気がするんだ。\n　そ…それじゃあ……<stop_lip_animation n01418 CLOSE_MOUTH>": "<start_lip_sync n01418 _normal m00001>Oh, thanks. I feel like I'm being\ncalled from that place. Well then...<stop_lip_animation n01418 CLOSE_MOUTH>"
@@ -336,7 +336,7 @@
     "<start_lip_sync n01418 _normal m00001>「今まで　ありがとね……。\n　こ…これ　受け取って。<stop_lip_animation n01418 CLOSE_MOUTH>": "<start_lip_sync n01418 _normal m00001>Thank you for everything. Here, take\nthis.<stop_lip_animation n01418 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest \"<%sev_quest_name>\" has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
   },
   "28425": {
     "<cs_pchero>は　クエストをクリアした！": "<cs_pchero>completed the quest!"
