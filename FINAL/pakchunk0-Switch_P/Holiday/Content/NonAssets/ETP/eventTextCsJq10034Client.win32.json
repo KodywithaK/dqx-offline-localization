@@ -45,7 +45,7 @@
     "<start_lip_sync m02230 _normal m00001>「奴らに　見つかるとマズいので\n　今後　連絡は　ひかえるようにしますが\n　どうか　よろしくお願いします。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>I will refrain from contacting you in the\nfuture because I don't want them to find\nout.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "You accepted the quest\n'<%sEV_QUEST_NAME>'."
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "Quest ''<%sEV_QUEST_NAME>''\nreceived.<me 74>"
   },
   "13441": {
     "<start_lip_sync m02230 _normal m00001>「私のほうは　まだ　しばらく\n　持ちこたえられそうですから\n　まずは　そちらを　片付けてきてください。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>I think I can hold out for a while yet, so\nplease go and clean that up first.<stop_lip_animation m02230 CLOSE_MOUTH>"
@@ -81,10 +81,10 @@
     "<start_lip_sync m02230 _normal m00001>「今　あなたの目の前にあるのは\n　メギドロームが　私を逃がさないために張った\n　魔法の結界で　ふつうには通れません。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>What you see in front of you now is a magical\nward that Megidrome put up to keep me from\nescaping, and it's impossible for any normal\n<br>\nperson to get through.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "13451": {
-    "<start_lip_sync m02230 _normal m00001>「この結界を解くには　<%sEV_QUE_NAME0>に\n　ヒャドで　とどめをさしたときだけ\n　手に入るという　トラマナ石が　必要なんです。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>The only way to break the barrier is to get a\nSafe Pass Stone, which can only be obtained by\ndefeating an Incubus with Crack.<stop_lip_animation m02230 CLOSE_MOUTH>"
+    "<start_lip_sync m02230 _normal m00001>「この結界を解くには　<%sEV_QUE_NAME0>に\n　ヒャドで　とどめをさしたときだけ\n　手に入るという　トラマナ石が　必要なんです。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>The only way to break the barrier is to get a\nSafe Pass Stone, which can only be obtained by\ndefeating an <%sEV_QUE_NAME0> with Crack.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "13452": {
-    "<start_lip_sync m02230 _normal m00001>「<%sEV_QUE_NAME0>は　夢幻の森に\n　夜だけ　現れるそうです。どうか\n　トラマナ石を　持ってきてもらえませんか？<yesno><close><stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Incubus is said to appear only at night in the\nDream Forest. Could you please bring me a Safe\nPass Stone?<yesno><close><stop_lip_animation m02230 CLOSE_MOUTH>"
+    "<start_lip_sync m02230 _normal m00001>「<%sEV_QUE_NAME0>は　夢幻の森に\n　夜だけ　現れるそうです。どうか\n　トラマナ石を　持ってきてもらえませんか？<yesno><close><stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001><%sEV_QUE_NAME0> is said to appear only at night in the\nDream Forest. Could you please bring me a Safe\nPass Stone?<yesno><close><stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "13454": {
     "<start_lip_sync m02230 _normal m00001>「……そうですか。\n　残念ですが　しかたありませんね。\n　でも　来てくれただけで　うれしいですよ。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>I see. I'm sorry to hear that, but it can't be\nhelped. But I'm glad you came.<stop_lip_animation m02230 CLOSE_MOUTH>"
@@ -96,10 +96,10 @@
     "<start_lip_sync m02230 _normal m00001>「でも　その結界は　トラマナ石がないと\n　解くことは　できないんです。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>But the Safe Pass Stone is the only way to\nbreak the barrier.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "13458": {
-    "<start_lip_sync m02230 _normal m00001>「トラマナ石は　<%sEV_QUE_NAME0>に\n　ヒャドで　とどめをさしたときだけ\n　手に入るという　めずらしい石です。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Safe Pass Stone is a rare stone that can only\nbe obtained by defeating Incubus with Crack.<stop_lip_animation m02230 CLOSE_MOUTH>"
+    "<start_lip_sync m02230 _normal m00001>「トラマナ石は　<%sEV_QUE_NAME0>に\n　ヒャドで　とどめをさしたときだけ\n　手に入るという　めずらしい石です。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Safe Pass Stone is a rare stone that can only\nbe obtained by defeating <%sEV_QUE_NAME0> with Crack.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "13459": {
-    "<start_lip_sync m02230 _normal m00001>「たしか　<%sEV_QUE_NAME0>は\n　夢幻の森に　夜だけ現れるはずです。\n　どうか　トラマナ石を　持ってきてください。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>I believe Incubus appears in Dream Forest only\nat night. Please bring me the Safe Pass\nStone.<stop_lip_animation m02230 CLOSE_MOUTH>"
+    "<start_lip_sync m02230 _normal m00001>「たしか　<%sEV_QUE_NAME0>は\n　夢幻の森に　夜だけ現れるはずです。\n　どうか　トラマナ石を　持ってきてください。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>I believe <%sEV_QUE_NAME0> appears in Dream Forest only\nat night. Please bring me the Safe Pass\nStone.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "13460": {
     "トラマナ石のチカラで　結界は消し飛んだ！": "The power of the Safe Pass Stone has\nobliterated the wards!"
@@ -156,7 +156,7 @@
     "<start_lip_sync m02230 _normal m00001>「深き知恵と　大いなる魔力を持つ者よ。\n　汝の名は　<pc>。\n　今こそ　魔術の深奥へと　至らんっ！！<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>O Thou who art of deep wisdom and great magic.\nThy name is <pc>. Now let us reach\nthe depths of magic!<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest\n'<%sEV_QUEST_NAME>' has transgressed with finesse!"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "Quest ''<%sEV_QUEST_NAME>''cleared!<update_quedate><open_irai>"
   },
   "13549": {
     "<start_lip_sync m02230 _normal m00001>「私は　これから　メギドロームを探しつつ\n　奴を倒すための修行に　入ろうと思います。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>I am going to start training to defeat him\nwhile looking for Megidrome.<stop_lip_animation m02230 CLOSE_MOUTH>"

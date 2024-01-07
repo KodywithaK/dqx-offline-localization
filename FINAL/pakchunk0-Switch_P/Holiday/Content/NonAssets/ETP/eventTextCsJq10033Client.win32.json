@@ -27,7 +27,7 @@
     "<start_lip_sync m02230 _normal m00001>「おたがい　相手の顔が　わからないので\n　目印となる服装と　待ち合わせ場所を\n　決めておくと　いいと思うんです。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Since neither of us knows what the other looks\nlike, I think it's a good idea to have some\nsort of landmark attire and a meeting place.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "13388": {
-    "<start_lip_sync m02230 _normal m00001>「……そうですね。<%sEV_QUE_NAME4>を装備して\n　プクランド大陸のミュルエルの森\n　フォステイル広場で会うなんて　どうです？<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>...Yes, that's right. How about we meet at\nMuruel Forest Fostail Square in Pukuland\nContinent, equipped with a Saffron Hat?<stop_lip_animation m02230 CLOSE_MOUTH>"
+    "<start_lip_sync m02230 _normal m00001>「……そうですね。<%sEV_QUE_NAME4>を装備して\n　プクランド大陸のミュルエルの森\n　フォステイル広場で会うなんて　どうです？<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>...Yes, that's right. How about we meet at\nMuruel Forest Fostail Square in Pukuland\nContinent, equipped with a <%sEV_QUE_NAME4>?<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "26333": {
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": "You have been asked to receive a quest.\nDo you accept?\n<select>\nAccept\nDecline\n<select_end><close>"
@@ -48,13 +48,13 @@
     "<start_lip_sync m02230 _normal m00001>「じつは　以前から　<pc>さんとは\n　直接　会ってみたいと思ってたんです。\n　あなたも　同じ気持ちだったみたいですね。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Actually, I have been wanting to meet\nyou in person for some time.\nIt seems that you feel the same way.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "13391": {
-    "<start_lip_sync m02230 _normal m00001>「おたがいに　<%sEV_QUE_NAME4>を装備して\n　ミュルエルの森のフォステイル広場で\n　待ち合わせですよ。忘れないでくださいね！<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>We will both be equipped with a Saffron Hat\nand we will meet at Fostail Square in Muruel\nForest. Don't forget!<stop_lip_animation m02230 CLOSE_MOUTH>"
+    "<start_lip_sync m02230 _normal m00001>「おたがいに　<%sEV_QUE_NAME4>を装備して\n　ミュルエルの森のフォステイル広場で\n　待ち合わせですよ。忘れないでくださいね！<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>We will both be equipped with a <%sEV_QUE_NAME4>\nand we will meet at Fostail Square in Muruel\nForest. Don't forget!<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "13392": {
     "<start_lip_sync m02230 _normal m00001>「それでは　今日のところは　失礼します。\n　お会いできるの　楽しみにしてますから！<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Well, if you'll excuse me for today.\nI look forward to seeing you soon!<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "You have received the quest\n'<%sEV_QUEST_NAME>'.<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "Quest ''<%sEV_QUEST_NAME>''\nreceived.<me 74>"
   },
   "41544": {
     "<pc>は　鏡のある客室に　泊まった。": "<pc> stayed in a guest room with a\nmirror."
@@ -66,13 +66,13 @@
     "<start_lip_sync m02230 _normal m00001>「……あ！　もしかして　直接　会いたいって\n　私の願いを　かなえてくださるとか？<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Ah! Are you going to grant my wish to\nmeet you in person?<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "13398": {
-    "<start_lip_sync m07800 _normal m00001>「<%sEV_QUE_NAME4>をつけたヤツ……\n　貴様が　リュナンだな？<stop_lip_animation m07800 CLOSE_MOUTH>": "<start_lip_sync m07800 _normal m00001>The one with the Saffron Hat... you must be\nLunan?<stop_lip_animation m07800 CLOSE_MOUTH>"
+    "<start_lip_sync m07800 _normal m00001>「<%sEV_QUE_NAME4>をつけたヤツ……\n　貴様が　リュナンだな？<stop_lip_animation m07800 CLOSE_MOUTH>": "<start_lip_sync m07800 _normal m00001>The one with the <%sEV_QUE_NAME4>... you must be\nLunan?<stop_lip_animation m07800 CLOSE_MOUTH>"
   },
   "13399": {
     "<start_lip_sync m06701 _normal m00001>「……あで？　おかしいど　アニキ。\n　聞いた話だど　リュナンって奴は　もっと……<stop_lip_animation m06701 CLOSE_MOUTH>": "<start_lip_sync m06701 _normal m00001>And? You're crazy, big brother. I've heard\nthat Lunan is more...<stop_lip_animation m06701 CLOSE_MOUTH>"
   },
   "13400": {
-    "<shake_camera 29><start_lip_sync m07800 _normal m00001>「うっせー　うっせー！\n　メギドローム様は　<%sEV_QUE_NAME4>を\n　つけたヤツを　連れてこいって言ってただろ？<stop_lip_animation m07800 CLOSE_MOUTH>": "<shake_camera 29><start_lip_sync m07800 _normal m00001>Shut up, shut up! Didn't Master Megidrome tell\nyou to bring me someone with a Saffron Hat\non his head?<stop_lip_animation m07800 CLOSE_MOUTH>"
+    "<shake_camera 29><start_lip_sync m07800 _normal m00001>「うっせー　うっせー！\n　メギドローム様は　<%sEV_QUE_NAME4>を\n　つけたヤツを　連れてこいって言ってただろ？<stop_lip_animation m07800 CLOSE_MOUTH>": "<shake_camera 29><start_lip_sync m07800 _normal m00001>Shut up, shut up! Didn't Master Megidrome tell\nyou to bring me someone with a <%sEV_QUE_NAME4>\non his head?<stop_lip_animation m07800 CLOSE_MOUTH>"
   },
   "13401": {
     "<shake_camera 30><start_lip_sync m07800 _normal m00001>「だったら　オレら　舎弟は\n　言われたとおりにするだけだろーが！<stop_lip_animation m07800 CLOSE_MOUTH>": "<shake_camera 30><start_lip_sync m07800 _normal m00001>Then we, the prefects, will just do as we're\ntold!<stop_lip_animation m07800 CLOSE_MOUTH>"
@@ -159,7 +159,7 @@
     "<start_lip_sync m02230 _normal m00001>「……でも　こっちの勝手な都合ですよね。\n　せめてもの　おわびの気持ちです。\n　どうか　これを受け取ってください。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>But it's for my own convenience, isn't it? At\nthe very least, this is my way of apologizing.\nPlease accept this.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest '<%sEV_QUEST_NAME>'\nhas transgressed with finesse!"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "Quest ''<%sEV_QUEST_NAME>''\ncleared!<update_quedate><open_irai>"
   },
   "13424": {
     "<start_lip_sync m02230 _normal m00001>「……今回のことで　こりましたよ。\n　魔物にねらわれている身の上で\n　人と会おうなんて　まちがいでした。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>This whole thing has made me sick. I was\nmistaken to meet with a person when I was\nbeing hunted by a monster.<stop_lip_animation m02230 CLOSE_MOUTH>"

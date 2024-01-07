@@ -120,16 +120,16 @@
     "<start_lip_sync n00786 _normal m00001>「<pc>。ご苦労だったな。\n　この日を祝って　私たちからの　贈り物だ。<stop_lip_animation n00786 CLOSE_MOUTH>": "<start_lip_sync n00786 _normal m00001><pc>. Thank you for your efforts.\nIn honor of this day, here's a little\nsomething from us.<stop_lip_animation n00786 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "Success! The quest has been\ntransgressed with finesse!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "Quest ''<%sEV_QUEST_NAME>''\ncleared!<update_quedate><open_irai>"
   },
   "13850": {
     "<start_lip_sync n00786 _normal m00001>「……かがり火の石を　手に入れるのは\n　なかなか　手を焼いただろう。<stop_lip_animation n00786 CLOSE_MOUTH>": "<start_lip_sync n00786 _normal m00001>...must have been quite a challenge\nto receive the Bonfire Stone.<stop_lip_animation n00786 CLOSE_MOUTH>"
   },
   "13851": {
-    "<start_lip_sync n00786 _normal m00001>「じつは　お前には　教えなかったが\n　かがり火の石は　<%sEV_QUE_NAME1>を\n　倒すことでも　簡単に　手に入るのだ。<stop_lip_animation n00786 CLOSE_MOUTH>": "<start_lip_sync n00786 _normal m00001>Actually, I didn't tell you this, but\nBonfire Stones can be easily\nobtained by defeating Wax Murderer.<stop_lip_animation n00786 CLOSE_MOUTH>"
+    "<start_lip_sync n00786 _normal m00001>「じつは　お前には　教えなかったが\n　かがり火の石は　<%sEV_QUE_NAME1>を\n　倒すことでも　簡単に　手に入るのだ。<stop_lip_animation n00786 CLOSE_MOUTH>": "<start_lip_sync n00786 _normal m00001>Actually, I didn't tell you this, but\nBonfire Stones can be easily\nobtained by defeating the <%sEV_QUE_NAME1>.<stop_lip_animation n00786 CLOSE_MOUTH>"
   },
   "13852": {
-    "<start_lip_sync n00786 _normal m00001>「だが　お前には　あえて　強い方の\n　<%sEV_QUE_NAME0>と　教えたのだ。\n　弟子に　厳しいのが　私のやり方でな。<stop_lip_animation n00786 CLOSE_MOUTH>": "<start_lip_sync n00786 _normal m00001>But I dared to tell you about the\nstronger one, Abracadabrador. It's my\nway of being tough on my pupils.<stop_lip_animation n00786 CLOSE_MOUTH>"
+    "<start_lip_sync n00786 _normal m00001>「だが　お前には　あえて　強い方の\n　<%sEV_QUE_NAME0>と　教えたのだ。\n　弟子に　厳しいのが　私のやり方でな。<stop_lip_animation n00786 CLOSE_MOUTH>": "<start_lip_sync n00786 _normal m00001>But I dared to tell you about the\nstronger one, <%sEV_QUE_NAME0>. It's my\nway of being tough on my pupils.<stop_lip_animation n00786 CLOSE_MOUTH>"
   },
   "13853": {
     "<start_lip_sync n00786 _normal m00001>「これも　お前をきたえるため。\n　強くなれ　<pc>。\n　お前のような者のチカラが　いずれ必要となる。<stop_lip_animation n00786 CLOSE_MOUTH>": "<start_lip_sync n00786 _normal m00001>This is also to strengthen you.\nBe strong <pc>. We will need the\nstrength of people like you.<stop_lip_animation n00786 CLOSE_MOUTH>"

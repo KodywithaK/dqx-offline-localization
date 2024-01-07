@@ -216,8 +216,7 @@
         "<voice 00246_00050927><start_lip_sync c00552 _normal m00001>「ここは……？<stop_lip_animation c00552 CLOSE_MOUTH>": "<voice 00246_00050927><start_lip_sync c00552 _normal m00001>Is this...?<stop_lip_animation c00552 CLOSE_MOUTH>"
   },
   "50928": {
-        "<voice 00620_00050928><start_lip_sync n02069 _normal m00001>「ヒョッ？　まさか　本当に追ってくるとは。\n　なんと　あわれで　おろかなる実験素材。\n　ヒョーヒョッヒョッ！<stop_lip_animation n02069 CLOSE_MOUTH>": 
-        "<voice 00620_00050928><start_lip_sync n02069 _normal m00001>Hyoh? I truly didn't expect you to have\nfollowed us here. What a pathetic test subject you are! hyohhyohhyoh!<stop_lip_animation n02069 CLOSE_MOUTH>"
+        "<voice 00620_00050928><start_lip_sync n02069 _normal m00001>「ヒョッ？　まさか　本当に追ってくるとは。\n　なんと　あわれで　おろかなる実験素材。\n　ヒョーヒョッヒョッ！<stop_lip_animation n02069 CLOSE_MOUTH>": "<voice 00620_00050928><start_lip_sync n02069 _normal m00001>Hyoh? I truly didn't expect you to have\nfollowed us here. What a pathetic test\nsubject you are! hyohhyohhyoh!<stop_lip_animation n02069 CLOSE_MOUTH>"
   },
   "50929": {
         "<voice 00730_00050929><start_lip_sync c00552 _normal m00001>「実験素材……？\n　いったい　何を企んでいるの！？<stop_lip_animation c00552 CLOSE_MOUTH>": "<voice 00730_00050929><start_lip_sync c00552 _normal m00001>Test subject...?\nJust what are you scheming!?<stop_lip_animation c00552 CLOSE_MOUTH>"
@@ -292,7 +291,7 @@
         "<voice 00581_00050954><start_lip_sync n02068 _normal m00001>「……どんなに強かろうと　お前では\n　私を滅ぼすことは　できない。<stop_lip_animation n02068 CLOSE_MOUTH>": "<voice 00581_00050954><start_lip_sync n02068 _normal m00001>...No matter how strong you may be, you\ncannot destroy me.<stop_lip_animation n02068 CLOSE_MOUTH>"
   },
   "50955": {
-        "<voice 01716_00050955><start_lip_sync m50065 _normal m00001>「お前に　残されているのは\n　私に　消し飛ばされるという運命だけなのさ！<stop_lip_animation m50065 CLOSE_MOUTH>": "<voice 01716_00050955><start_lip_sync m50065 _normal m00001>All you have left is your fate of being\nscattered to ashes by me!!<stop_lip_animation m50065 CLOSE_MOUTH>"
+        "<voice 01716_00050955><start_lip_sync m50065 _normal m00001>「お前に　残されているのは\n　私に　消し飛ばされるという運命だけなのさ！<stop_lip_animation m50065 CLOSE_MOUTH>": "<voice 01716_00050955><start_lip_sync m50065 _normal m00001>The only thing fate has in store for you\nnow is to be reduced to ashes by me!!<stop_lip_animation m50065 CLOSE_MOUTH>"
   },
   "50956": {
         "<voice 02431_00050956><start_lip_sync c00552 _normal m00001>「…………！！<stop_lip_animation c00552 CLOSE_MOUTH>": "<voice 02431_00050956><start_lip_sync c00552 _normal m00001>.......!!<stop_lip_animation c00552 CLOSE_MOUTH>"
@@ -472,8 +471,7 @@
         "<voice 00505_00075307><start_lip_sync m08203 _normal m00001>「グオオォォォォン！！<stop_lip_animation m08203 CLOSE_MOUTH>": "<voice 00505_00075307><start_lip_sync m08203 _normal m00001>GRAAAAAAAAAAAAGH!!<stop_lip_animation m08203 CLOSE_MOUTH>"
   },
   "75308": {
-        "<cs_pchero>のもとに　天から\n白い光を宿した　水晶のツメが降ってきた。": 
-        "A crystal claw of white light descended\nfrom above to <cs_pchero>."
+        "<cs_pchero>のもとに　天から\n白い光を宿した　水晶のツメが降ってきた。": "A crystal claw of white light descended\nfrom above to <cs_pchero>."
   },
   "29000860": {
         "<cs_pchero>は\n白水晶のツメ（だいじなもの）を　手に入れた！<me 60>": "<cs_pchero> received the\nWhite Crystal Claw (Key Item)!<me 60>"

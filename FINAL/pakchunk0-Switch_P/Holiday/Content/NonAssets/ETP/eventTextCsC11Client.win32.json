@@ -123,7 +123,7 @@
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": "You've been asked to undertake a quest.\nWill you acquiesce this request?\n<select>\nAccept\nDecline\n<select_end><close>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "The quest '<%sEV_QUEST_NAME>' has begun'"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "Quest ''<%sEV_QUEST_NAME>''\naccepted<me 74>"
   },
   "184209": {
     "<pc>は\n受注中のクエストが多かったため\nこのクエストを　受けられなかった。": "<pc> cannot accept this\nquest because there are already too\nmany active quests in the queue."

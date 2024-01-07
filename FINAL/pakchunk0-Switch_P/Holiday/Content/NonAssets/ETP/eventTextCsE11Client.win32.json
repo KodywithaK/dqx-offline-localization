@@ -387,10 +387,10 @@
     "<voice 00943_00000149><start_lip_sync n00215 _normal m00001>「知の試練に合格した証として　ふたりに\n　ルーラストーンを授与する。使い方は\n　寄宿舎の前にいる　ジアンに聞くといい。<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00943_00000149><start_lip_sync n00215 _normal m00001>As a sign that you have passed the\ntest, you will both receive a Zoomstone.\nAsk Jian how to use it.<stop_lip_animation n00215 CLOSE_MOUTH>"
   },
   "19001518": {
-    "<pc>は\nルーラストーンを　受け取った！<me 61>": "<pc> received a Zoomstone!<me 61>"
+    "<pc>は\nルーラストーンを　受け取った！<me 61>": "<pc> received the\nZoomstone!<me 61>"
   },
   "39108": {
-    "ルーラストーンは　記憶させた場所に\n一瞬で移動できる　魔法の石です。\n何度使っても　なくなりません。": "The Zoomstone  allows you to travel\nto a recorded location instantly.\nIt can be used indefinitely ."
+    "ルーラストーンは　記憶させた場所に\n一瞬で移動できる　魔法の石です。\n何度使っても　なくなりません。": "The Zoomstone allows you to travel\nto a recorded location instantly.\nIt can be used indefinitely ."
   },
   "19000628": {
     "このルーラストーンには\nツスクルの村が　記憶されています。": "There is no location set in this Zoomstone\nyet. You may set one at the church."
@@ -468,7 +468,7 @@
     "<voice 01275_00009717><start_lip_sync n00212 _normal m00001>「あ…あはは。そうだよね。\n　私からの　プレゼントなんて\n　<pc>さまには　必要ないよね。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01275_00009717><start_lip_sync n00212 _normal m00001>A...ahaha... Of course.\n You don't need a present from me,\ndo you?<stop_lip_animation n00212 CLOSE_MOUTH>"
   },
   "172": {
-    "<pc>は\n<%sEV_ITEM>　５個を　受け取った！<se_nots System Item>": "<pc>received five <%sEV_ITEM>s!<se_nots System Item>"
+    "<pc>は\n<%sEV_ITEM>　５個を　受け取った！<se_nots System Item>": "<pc> received the\n5 <%sEV_ITEM>s!<se_nots System Item>"
   },
   "173": {
     "<voice 01275_00000173><start_lip_sync n00212 _normal m00001>「故郷の　お父さまが　送ってくれたんだけど\n　私　ダメだったから……。\n　代わりに　<pc>さまが　使って。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01275_00000173><start_lip_sync n00212 _normal m00001>My dad back home sent these to me,\nbut I didn't get a chance to use them,\nso... you can have them instead.<stop_lip_animation n00212 CLOSE_MOUTH>"

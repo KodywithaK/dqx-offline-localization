@@ -42,7 +42,7 @@
     "<start_lip_sync m02230 _normal m00001>「そ…うですか。残念……です。\n　もし　気が変わ……たら　また\n　この鏡に　話しかけてみ……ください。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>I see.... I'm sorry. If you change your mind,\nplease talk to this mirror again.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "19001522": {
-    "<pc>は　\nメイジダスター（だいじなもの）を　受け取った！<me 60>": "<pc> received\na Mage Duster (Key Item)!<me 60>"
+    "<pc>は　\nメイジダスター（だいじなもの）を　受け取った！<me 60>": "<pc> received the\nMage Duster (Key Item)!<me 60>"
   },
   "13356": {
     "<start_lip_sync m02230 _normal m00001>「メイジダスターは　魔力を吸…収して\n　こすった…モノに　その魔力をあた…える\n　特別な…魔法の布……。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Mage Duster is a special Magicloth that\nabsorbs magic power and rubs it into the\nobject it is rubbed on.<stop_lip_animation m02230 CLOSE_MOUTH>"
@@ -54,7 +54,7 @@
     "<start_lip_sync m02230 _normal m00001>「くれぐれも　よろし……くお願いします。\n　では　今日のとこ…ろは　\n　こ……れで　失礼させていた……きますね。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Please take care of me. Well then, I'll leave\nyou with this... today.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "You received the quest '<%sEV_QUEST_NAME>'.<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "Quest ''<%sEV_QUEST_NAME>''\nreceived.<me 74>"
   },
   "41537": {
     "<pc>は　鏡のある客室に　泊まった。": "<pc> stayed in a guest room with a\nmirror."
@@ -99,7 +99,7 @@
     "<start_lip_sync m02230 _normal m00001>「本当に　ありがとうございます。\n　お礼と言っては　なんですが\n　これを　受け取ってください。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Thank you so much. I don't mean to thank you,\nbut please accept this.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest '<%sEV_QUEST_NAME>'\nhas transgressed with finesse!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "Quest ''<%sEV_QUEST_NAME>''\ncleared!<update_quedate><open_irai>"
   },
   "13373": {
     "<start_lip_sync m02230 _normal m00001>「この　シーバの鏡を手に入れてから\n　毎晩のように　語りかけてきたのですが\n　応えてくれたのは　あなただけでした。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>I have spoke into ot every night since I\nreceived this Sheba mirror, and you were the\nonly one who responded.<stop_lip_animation m02230 CLOSE_MOUTH>"

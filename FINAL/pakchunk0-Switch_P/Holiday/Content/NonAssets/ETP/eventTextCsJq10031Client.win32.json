@@ -36,7 +36,7 @@
     "<start_lip_sync m02230 _normal m00001>「知りあった…ばかりの　あな…たに\n　こんなこと頼む…のも　気が引けますが\n　ひとつ　お願いが……るんです。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Even though... we've just met...\nI'm sorry to ask... but there's a favor I'd... like\nto ask of you.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "13191": {
-    "<start_lip_sync m02230 _normal m00001>「じつは　その　ゲルト海峡に出現す…る\n　<%sEV_QUE_NAME0>に　イオでとどめをさすと\n　魔導の石を　落とす……ですよ。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>While in the Gert Strait... use Bang to\nkill the Clockwork Cuckoo that appears.\nOnce defeated, it will drop a Magic Stone.<stop_lip_animation m02230 CLOSE_MOUTH>"
+    "<start_lip_sync m02230 _normal m00001>「じつは　その　ゲルト海峡に出現す…る\n　<%sEV_QUE_NAME0>に　イオでとどめをさすと\n　魔導の石を　落とす……ですよ。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>While in the Gert Strait... use Bang to\nkill the <%sEV_QUE_NAME0> that appears.\nOnce defeated, it will drop a Magic Stone.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "13192": {
     "<start_lip_sync m02230 _normal m00001>「その　魔導の石を　手に入れて……\n　もう一度　こ…の鏡に　話しかけて……\n　もらえませ…んか？<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Once you obtain the Magic Stone.. Can you\ntalk to the mirror... once more... and give\nthe stone... to me?<stop_lip_animation m02230 CLOSE_MOUTH>"
@@ -51,7 +51,7 @@
     "<start_lip_sync m02230 _normal m00001>「くれぐれも　よろし……くお願いします。\n　それでは　今日のとこ…ろは　\n　こ……れで　失礼させていた……きますね。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Please do not hesitate to... contact me.\nFor today... I leave you with this.<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "You have accepted the quest\n'<%sEV_QUEST_NAME>'"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "Quest ''<%sEV_QUEST_NAME>''\naccepted!<me 74>"
   },
   "13195": {
     "<start_lip_sync m02230 _normal m00001>「おお。ありがとうござ…います。\n　で…も　あなたは　たく…さんの\n　頼まれご…とを　抱えているよ……ですね。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Thank you very much... but you are\ncarrying too many requests... from others...\nwho are in... need of help.<stop_lip_animation m02230 CLOSE_MOUTH>"
@@ -90,7 +90,7 @@
     "<start_lip_sync m02230 _normal m00001>「ちゃん…と　届きまし…たよ。\n　それでは　こちらか……も　今回のお礼……\n　送らせてもら……ますね！<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>It... has arrived.. let me thank you... properly\nwith... a token of my... appreciation!<stop_lip_animation m02230 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest '<%sEV_QUEST_NAME>'\n has transgressed with finesse!"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "Quest ''<%sEV_QUEST_NAME>''\ncleared!<update_quedate><open_irai>"
   },
   "13341": {
     "<start_lip_sync m02230 _normal m00001>「本当……あり……とうござい……た。\n　あな……が　親切な……で……かったです。<stop_lip_animation m02230 CLOSE_MOUTH>": "<start_lip_sync m02230 _normal m00001>Thank you... very much... you were very...\nkind... and helpful.<stop_lip_animation m02230 CLOSE_MOUTH>"
