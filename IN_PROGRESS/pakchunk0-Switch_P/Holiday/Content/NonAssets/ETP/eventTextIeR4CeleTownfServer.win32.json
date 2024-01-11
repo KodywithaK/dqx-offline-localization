@@ -4,7 +4,7 @@
     "<attr><feel_happy_lv3><end_attr>"
   },
   "20443001": {
-    "「いらっちゃいまて！\n　あたち　ゆうびんやしゃんゴッコ　ちてるの！": "Welcome! We're playing postman!"
+    "「いらっちゃいまて！\n　あたち　ゆうびんやしゃんゴッコ　ちてるの！": "Welcome! I'm playing postman!"
   },
   "95910": {
     "<attr><feel_think_one><end_attr>「このまえ　教会の子たち\n　そとに　あそびにいったのに\n　すぐ　もどってきちゃったんだ。\n<br>\n「きっと　おっかない魔物が　でたんだぜ。\n　ちょっと　オマエ　やっつけてこいよ！\n　コドモのいうことは　ゼッタイなんだからな！": 
@@ -361,11 +361,11 @@
   },
   "58589": {
     "<if_woman><attr><feel_think_lv1><end_attr>「おばちゃんって　もうオトナなのに\n　コドモのなかまに　なったのよね。<bw_break><else><attr><feel_think_lv1><end_attr>「おじちゃんって　もうオトナなのに\n　コドモのなかまに　なったのよね。<bw_break><endif>": 
-    "<if_woman><attr><feel_think_lv1><end_attr><bw_break>  <else><attr><feel_think_lv1><end_attr><bw_break><endif>"
+    "<if_woman><attr><feel_think_lv1><end_attr><bw_break><else><attr><feel_think_lv1><end_attr><bw_break><endif>"
   },
   "58590": {
     "<if_woman><attr><feel_happy_one><end_attr>「……もしかして　オトナのともだち　いないの？\n　かわいそうだから　あたし　おばちゃんの\n　ともだちになったげるね！<else><attr><feel_happy_one><end_attr>「……もしかして　オトナのともだち　いないの？\n　かわいそうだから　あたし　おじちゃんの\n　ともだちになったげるね！<endif>": 
-    "<if_woman><attr><feel_happy_one><end_attr>  <else><attr><feel_happy_one><end_attr><endif>"
+    "<if_woman><attr><feel_happy_one><end_attr><else><attr><feel_happy_one><end_attr><endif>"
   },
   "58591": {
     "<attr><feel_normal_one><end_attr>「……ン。女王様　お出かけみたいッスね。\n<br>\n「町の外　危ないんで　心配ッスけど\n　ムッチーノが付いてれば　大丈夫だって\n　ボッシュ兄ちゃんが　言ってたッス。": 
