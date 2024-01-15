@@ -129,15 +129,15 @@
   },
   "38950": {
     "「おお　<pc>どの。\n　よい所に　来てくださいましたな。\n<br>\n「やはり　書物で調べただけでは\n　オーレンの真実も　エイドスさまのお考えも\n　わからないと　思い直しましてな。\n<br>\n「ここは　ひとつ　事件の中心である\n　妖剣士オーレンに　話を聞いてみようと\n　決心したのですよ。\n<br>\n「そこで　今　学者のダンデルに\n　オーレンと会話をするための方法を\n　調べさせておるのですが……。\n<br>\n「よい方法が　見つかったら\n　ぜひ　<pc>どのにも\n　ご協力願おうと　思っていたところなのです。": 
-    "Oh <pc>. You have come to the right\nplace. I have come to the conclusion that I\ncannot understand the truth of Ouren's story or\n<br>\nthe thoughts of Mr. Eidos just from reading\nthe books. I decided to ask Swordmaster Ouren,\nwho is at the center of the case, about it. So\n<br>\nI'm having our scholar Danderu look into ways\nto communicate with Ouren. If you find a good\nway, we would be happy to cooperate with\n<br>\n<pc> as well."
+    "Ooh, <pc>, I'm pleased you have come.\n<br>\nEven after studying the historical text, I have yet\nto understand neither the truth of Ouren nor Master\nEidos' intent.\n<br>\nI decided to listen to the one at the center of the\ncase, Spirit Swordsman Ouren. Therefore, I now have our\nscholar Danderu search for a way of speaking with Ouren...\n<br>\nShould he find a reliable method, I would ask of\nyour cooperation as well, <pc>."
   },
   "38951": {
     "「おお　<pc>どの。\n　もしかして　私からの依頼を\n　引き受けてくれる気に　なられましたか？\n<br>\n「あらためて　お願いしましょう。\n　どうか　<%sEV_QUE_NAME0>を倒し\n　鎮魂のロウソクを　取ってきてくれませぬか？\n<br>\n「そして　そのまま　ベコン渓谷の奥地\n　妖剣士の塚まで　おもむき\n　ロウソクに　火を灯してください。\n<br>\n「妖剣士オーレンと話して　奴が　どうして\n　レムルの聖杯を　求めているのかを\n　聞きだしてきてほしいのです！\n<br>\n「この件は　オーレンとも　エイドスさまとも\n　因縁の深い　<pc>どのでなければ\n　果たせぬと思うのですよ。": 
-    "Oh <pc>. Are you sure you are ready\nto accept my request? Let me ask you again.\nPlease, can you defeat <%SEV_QUE_NAME0> and\n<br>\nfetch me the Requiem Candle? Then, go to\nSwordsman Mound, deep in the Becon Valley, and\nlight the candle. Talk to Swordmaster Ouren and\n<br>\nfind out why he wants Realm's Chalice! I\nbelieve that only <pc>, who has a\ndeep connection with both Ouren and Eidos, can\n<br>\naccomplish this."
+    "Oh <pc>. Are you sure you are ready\nto accept my request? Let me ask you again.\nPlease, can you defeat <%sEV_QUE_NAME0> and\n<br>\nfetch me the Requiem Candle? Then, go to\nSwordsman Mound, deep in the Becon Valley, and\nlight the candle. Talk to Swordmaster Ouren and\n<br>\nfind out why he wants Realm's Chalice! I\nbelieve that only <pc>, who has a\ndeep connection with both Ouren and Eidos, can\n<br>\naccomplish this."
   },
   "38952": {
     "<if_woman><attr><feel_happy_lv1><end_attr>「おお　引き受けてくださるか！\n　さすがは　<pc>どの。\n　いざという時　頼りになる　ナイスギャル！\n<br>\n「では　くれぐれも　お願いします。\n　<%sEV_QUE_NAME0>は　ドワチャッカ大陸の\n　カルサドラ火山に　棲息しているはずですぞ！<else><attr><feel_happy_lv1><end_attr>「おお　引き受けてくださるか！\n　さすがは　<pc>どの。\n　いざという時　頼りになる　ナイスガイ！\n<br>\n「では　くれぐれも　お願いします。\n　<%sEV_QUE_NAME0>は　ドワチャッカ大陸の\n　カルサドラ火山に　棲息しているはずですぞ！<endif>": 
-    "<if_woman><attr><feel_happy_lv1><end_attr>Oh, you'll take care of it! That's what I'm\ntalking about <pc>. A nice gal who\ncan be relied on in times of need! Well then,\n<br>\nI'll be counting on you. <%sev_que_name0>\nshould be living in Calsadora Volcano in\nDwachakka Continent!<else><attr><feel_happy_lv1><end_attr>Oh, you'll take care of it! That's what I'm\ntalking about <pc>. A nice guy who\ncan be relied on in times of need! Well then,\n<br>\nplease do me a favor. <%sev_que_name0> should\nbe living in Calsadora Volcano in Dwachakka\nContinent!<endif>"
+    "<if_woman><attr><feel_happy_lv1><end_attr>Oh, you'll take care of it! That's what I'm\ntalking about <pc>. A nice gal who\ncan be relied on in times of need! Well then,\n<br>\nI'll be counting on you. <%sEV_QUE_NAME0>\nshould be living in Calsadora Volcano in\nDwachakka Continent!<else><attr><feel_happy_lv1><end_attr>Oh, you'll take care of it! That's what I'm\ntalking about <pc>. A nice guy who\ncan be relied on in times of need! Well then,\n<br>\nplease do me a favor. <%sEV_QUE_NAME0> should\nbe living in Calsadora Volcano in Dwachakka\nContinent!<endif>"
   },
   "38953": {
     "<attr><feel_sad_lv1><end_attr>「お気持ちは　うれしいのですが\n　どうやら　他の方からの頼まれごとで\n　お忙しい　ご様子ですな。\n<br>\n「どうか　先に　そちらを片付けてから\n　また　私に　話しかけてくだされ。": 
@@ -149,15 +149,15 @@
   },
   "38955": {
     "「ドワチャッカ大陸の　カルサドラ火山にいる\n　凶悪な魔物　<%sEV_QUE_NAME0>を倒し\n　鎮魂のロウソクを　取ってきてくだされ。<open_irai><bw_break>": 
-    "Kill the evil monster <%sev_que_name0> in\nCalsadora Volcano in Dwachakka Continent and\nget the Requiem Candle.<open_irai><bw_break>"
+    "In Calsadora Volcano, Dwachakka, obtain the\nRequiem Candle by defeating the vicious monster,\n<%sEV_QUE_NAME0>.<open_irai><bw_break>"
   },
   "38956": {
     "「そして　そのまま　ベコン渓谷の奥地\n　妖剣士の塚まで　おもむき\n　ロウソクに　火を灯してください。\n<br>\n「妖剣士オーレンと話して　奴が　どうして\n　レムルの聖杯を　求めているのかを\n　聞きだしてきてほしいのです！<bw_break>": 
-    "Then go to Swordsman Mound, deep in the Becon\nValley, and light a candle. Talk to\nSwordmaster Ouren and find out why he wants\n<br>\nRealm's Chalice!<bw_break>"
+    "Then, continue on to Swordsman Mound-deep in\nBecon Valley-and light said candle.\n<br>\nI want you to speak with Spirit Swordmaster Ouren and\nfind out why he seeks Realm's Chalice!<bw_break>"
   },
   "38957": {
     "<close_irai>「この件は　オーレンとも　エイドスさまとも\n　因縁の深い　<pc>どのでなければ\n　果たせぬと思うのですよ。": 
-    "<close_irai>I believe that only <pc>, who has a\nclose relationship with both Ouren and Eidos,\ncan make this happen."
+    "<close_irai>I don't know what connection Ouren and Eidos have,\nbut I believe that without you, <pc>,\nthis matter will not be resolved."
   },
   "38958": {
     "「おお　さっそく　鎮魂のロウソクを\n　手に入れてこられたのですな。\n　さすがは　<pc>どの！\n<br>\n「では　次は　いよいよ　ベコン渓谷に行き\n　妖剣士オーレンと　対面ですな。<open_irai><bw_break>": 
@@ -169,15 +169,15 @@
   },
   "38960": {
     "<close_irai>「この件は　オーレンとも　エイドスさまとも\n　因縁の深い　<pc>どのでなければ\n　果たせぬと思うのですよ。": 
-    "<close_irai>I believe that only <pc>, who has a\nclose relationship with both Ouren and Eidos,\ncan make this happen."
+    "<close_irai>I don't know what connection Ouren and Eidos have,\nbut I believe that without you, <pc>,\nthis matter will not be resolved."
   },
   "38961": {
     "「おお。お帰りでしたか　<pc>どの。\n　……して　妖剣士オーレンから\n　レムルの聖杯のことを　聞きだせたのですか？\n<br>\n「……なんと！\n　またもや　エイドスさまが　現れて\n　そんなことを！？\n<br>\n「……むむう。エイドスさま　ご自身が\n　話してくださると言うなら　仕方ありませんな。\n　その時まで　待つことにしましょう。\n<br>\n「ああ。もちろん　<pc>どのへの報酬は\n　ちゃんと　お渡ししますぞ。\n　さあ　こちらを　受け取ってくだされ。": 
-    "Oh. You are back <pc>. And you were\nable to get Swordmaster Ouren to tell you about\nRealm's Chalice? Oh, my! Eidos-sama shows up\n<br>\nagain and says such a thing? If Eidos himself\nis willing to tell us, then we have no choice.\nLet's wait until then. Ah. Of course, we will\n<br>\nmake sure to deliver the reward for\n<pc>. Please accept this."
+    "Ooh, welcome back, <pc>.\n...So were you able to find out about Realm's Chalice\nfrom Spirit Swordsman Ouren?\n<br>\n...What's that! Once again, Master Eidos turned up and\nsaid such a thing!?\n<br>\n...Mmm. If Master Eidos, himself, is willing to tell us,\nthen there is no other way about it. Let's wait\nuntil then.\n<br>\nAah, Of course, I shall proper reward you,\n<pc>. Now, please accept this."
   },
   "38962": {
     "<attr><feel_think_lv2><end_attr>「しかし　エイドスさまたちの様子を\n　聞いた限りでは　やはり　ふたりは\n　以前からの　知り合いだったようですな。\n<br>\n「歴史の表舞台から消された　大悪党と\n　あまねく　世に知られた　大賢者……。\n<br>\n「何が　ふたりを結びつけているのか？\n　じつに　興味深いところですな。": 
-    "<attr><feel_think_lv2><end_attr>However, from what I have heard from Eidos and\nthe others, it seems that they have known each\nother for a long time. What connects the two?\n<br>\nWhat connects the two?"
+    "<attr><feel_think_lv2><end_attr>However, based on what we have heard from Eidos and\nOuren, it does appears that the two have long since\nknown each other.\n<br>\nA great villain, erased from the public historical\nrecord, and a great sage, known throughout the world...\n<br>\nWhat connects the two? It's fascinating, indeed,\nno matter the reason."
   },
   "38966": {
     "「おお　<pc>どの。\n　よいところに　来てくださいましたな。\n<br>\n「先日の一件以来　エイドスさまからは\n　なんの連絡も　ありませんでな。\n<br>\n「そろそろ　<pc>どのに頼んで\n　様子を　見てきていただこうかと\n　思っておったところなのです。": 
