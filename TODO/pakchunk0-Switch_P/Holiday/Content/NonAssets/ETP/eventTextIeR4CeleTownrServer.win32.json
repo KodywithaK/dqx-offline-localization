@@ -991,5 +991,44 @@
   },
   "75083": {
     "<attr><feel_sad_lv1><end_attr>「言葉を　伝えたい相手がいるというのは\n　うらやましいことですね。\n　私には　もう　そんな人はいませんが……。<bw_break>": "<attr><feel_sad_lv1><end_attr>I envy you that you have someone to whom you\nwant to convey your words. I don't have anyone\nlike that anymore.<bw_break>"
+  },
+  "75085": {
+    "<attr><feel_normal_lv1><end_attr>「この町は　ダーマ神殿に行く　修行者や\n　旅人の足休めのために　作られたんだよ。\n　アンタも　神殿を目指して来たのかい？<yesno><case 1><break><case 2><break><case_cancel><break>": "<attr><feel_normal_lv1><end_attr>This town was built as a resting place\nfor ascetics and travelers going to\nAlltrades Abbey. Did you come for the\n<br>\ntemple too?<yesno><case 1><break><case 2><break><case_cancel><break>"
+  },
+  "75086": {
+    "<attr><feel_think_lv1><end_attr>「おや。神殿が目当てじゃないってことは\n　もしかして　この町に　用があるのかい？\n　……光の河以外　なんにもない町だけどねぇ。": "<attr><feel_think_lv1><end_attr>If you're not looking for a temple,\nthen perhaps you have something to do\nin this town? There's nothing here but\n<br>\nthe River of Light."
+  },
+  "75087": {
+    "<attr><feel_normal_lv1><end_attr>「それなら　この町の北西にある出口から出て\n　山の頂上に行ってごらん。ダーマ神殿の\n　あの神々しい姿は　一度見たら忘れられないよ。": "<attr><feel_normal_lv1><end_attr>Then take the exit northwest of town\nand go to the top of the mountain, you\nwill never forget the divine sight of\n<br>\nAlltrades Abbey."
+  },
+  "75088": {
+    "<attr><feel_normal_lv1><end_attr>「あら　ウチの主人に　ご用かしら？\n　ごめんなさい　ちょっと今　外出中ですの。\n<br>\n「娘なら　さっき帰ってきたところですけど\n　ちょっと　気難しい子で……。\n　この頃　部屋に　こもりがちなんです。": "<attr><feel_normal_lv1><end_attr>Oh, you don't want to talk to our\nmaster, do you? I'm sorry, I'm out of\nthe office right now. My daughter just\n<br>\ncame home, but she's a bit difficult.\nShe tends to stay indoors these days."
+  },
+  "75089": {
+    "<pc>は　石碑に刻まれた\n文字を読んだ。": "<pc> read the inscription on\nthe stone monument."
+  },
+  "75090": {
+    "<center>ここは　光の河をたたえる　セレドの地。\n我らセレドの民　光の河と共に栄え\n共に生きる　さだめなり。": "This is the land of Celed, where the\nRiver of Light is honored. We, the\npeople of Celed, are destined to\n<br>\nprosper and live together with the\nRiver of Light."
+  },
+  "86547": {
+    "カリーネは　静かに　祈っている。": "Carine is quietly praying."
+  },
+  "86083": {
+    "扉は　かたく　閉ざされている。": "The door is tightly closed."
+  },
+  "86084": {
+    "扉は　かたく　閉ざされている。": "The door is tightly closed."
+  },
+  "87784": {
+    "<attr><feel_sad_lv2><end_attr>「うちのダーリン　以前は　毎日\n　お花持って　お見舞いに来てくれたのに\n　最近　ちっとも来てくれないの……。\n<br>\n「やっぱり　病気のカノジョなんて\n　付き合ってても　タイクツなのかしら。\n　ダーリン　私　さびしいよう……。": "<attr><feel_sad_lv2><end_attr>My darling used to come to visit me\nevery day with flowers, but lately she\nhasn't come at all. I guess it's tough\n<br>\nto be in a relationship with a sick\ngirlfriend. Darling, I will miss you."
+  },
+  "75094": {
+    "<attr><feel_sad_lv3><end_attr>「あの日……重体の患者さんたちが　大勢\n　この施療院に　かつぎこまれた日に……\n　私は　自分の無力さを　思い知りました。\n<br>\n「次々と消えていく命の炎を　手をこまねいて\n　見ているしか　できないなんて……\n　もう　医者を続けていく自信がありません。": "<attr><feel_sad_lv3><end_attr>I realized how helpless I was that day\nwhen many critically ill patients were\nbrought to this clinic. I am not sure\n<br>\nI can continue to be a doctor any\nlonger."
+  },
+  "75095": {
+    "<attr><feel_normal_lv1><end_attr>「ここは　重病の患者さんが入る　特別病室。\n　ご家族の方や　関係者以外は\n　立ち入り禁止です。お引き取りください。": "<attr><feel_normal_lv1><end_attr>This is a special ward for seriously\nill patients. Only family members and\nother concerned persons are allowed to\n<br>\nenter. Please leave the room."
+  },
+  "96001": {
+    "<attr><feel_angry_lv1><end_attr><icon_exc>「ここは　重病の患者さんが入る　特別病室です。\n　関係者以外の方は　ご遠慮ください。": "<attr><feel_angry_lv1><end_attr><icon_exc>This is a special ward for seriously\nill patients. Please refrain from\ncoming here if you are not related to\n<br>\nthe hospital."
   }
 }
