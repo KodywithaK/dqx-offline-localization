@@ -1,11 +1,83 @@
 {
+  "96282": {
+    "「えっと……　ボク　何してるんだっけ？\n　思いだせないプッケ。": "What am I doing? Pukke can't remember."
+  },
+  "96283": {
+    "「えっと……　ボク　何してるんだっけ？": "What am I doing?"
+  },
+  "96284": {
+    "<if_woman><icon_exc>「そうだった！　真珠！\n　ボク　風の真珠　探してたプケ！\n<br>\n「風の真珠　ほしい！\n　おねーちゃん　風の真珠　探してこいプッケ！<else><icon_exc>「そうだった！　真珠！\n　ボク　風の真珠　探してたプケ！\n<br>\n「風の真珠　ほしい！\n　おにーちゃん　風の真珠　探してこいプッケ！<endif>": "<if_woman><icon_exc>It was! A true gem! I'm looking for\nWind Pearl! I want Wind Pearl! Go find\nWind Pearl, girl!<else><icon_exc>It was! A true gem! I'm looking for\nWind Pearl! I want Wind Pearl! Go find\nWind Pearl, Onii-chan!<endif>"
+  },
+  "96285": {
+    "<if_woman>「うれしいプケ！\n　風の真珠　この島の　誰か持ってる！\n　おねーちゃん　がんばって　探してこいプッケ！<else>「うれしいプケ！\n　風の真珠　この島の　誰か持ってる！\n　おにーちゃん　がんばって　探してこいプッケ！<endif>": "<if_woman>Happy puke! Wind Pearl, someone on\nthis island has it! Good luck finding\nit, Puke!<else>Happy puke! Wind Pearl Someone on this\nisland has it! Good luck finding it,\nPuke!<endif>"
+  },
+  "96286": {
+    "<if_woman>「プケェェ……。\n　おねーちゃん　他の頼まれごと　いっぱい。\n　ヒマにして　また来いプッケ！！<else>「プケェェ……。\n　おにーちゃん　他の頼まれごと　いっぱい。\n　ヒマにして　また来いプッケ！！<endif>": "<if_woman>Pukee. I've got a lot of other things\nto do, lady. Get some free time and\ncome back later, Pukke!<else>Pukee. Onii-chan, I have lots of other\nthings to do. Get some free time and\ncome back later, Pukke!<endif>"
+  },
+  "96287": {
+    "「プケェェ……。冷たいプッケ。": "Pukeye. Cold puke."
+  },
+  "96288": {
+    "<if_woman>「ボク　風の真珠　ほしいプッケ！\n　風の真珠　この島の　誰か持ってる！\n　おねーちゃん　がんばって　探してこいプッケ！<open_irai><end><else>「ボク　風の真珠　ほしいプッケ！\n　風の真珠　この島の　誰か持ってる！\n　おにーちゃん　がんばって　探してこいプッケ！<open_irai><end><endif>": "<if_woman>I want a Wind Pearl! Wind Pearl,\nsomeone on this island has it! Good\nluck finding it, Pukke!<open_irai><end><else>I want a Wind Pearl! Wind Pearl,\nsomeone on this island has it! I'll do\nmy best to find it, Pukke!<open_irai><end><endif>"
+  },
+  "96289": {
+    "<if_woman>「おねーちゃん　風の真珠　持ってきたプケ！\n　ボク　それ　すごくすごく　ほしい！\n　風の真珠　ボクにくれプッケ！！<else>「おにーちゃん　風の真珠　持ってきたプケ！\n　ボク　それ　すごくすごく　ほしい！\n　風の真珠　ボクにくれプッケ！！<endif>": "<if_woman>Puke, who brought Wind Pearl! I want\nit so, so much! Wind Pearl, give it to\nme, Pukke!<else>Puke, who brought Wind Pearl! I want\nit so, so much! Wind Pearl, give it to\nme, Puke!<endif>"
+  },
+  "96290": {
+    "<if_woman>「プケェェ……。\n　おねーちゃん　いじわるプケ…………。<else>「プケェェ……。\n　おにーちゃん　いじわるプケ…………。<endif>": "<if_woman>Pukeye. Onee-chan, teasing Puke.<else>Pukeye. Onii-chan, teasing Puke.<endif>"
+  },
+  "96291": {
+    "<if_woman>「あ…あ……　あああ……！\n<br>\n「……全部　思いだした。\n　風の真珠　持ってきた人　花の所　連れていく！\n　ボク　<kyodai>さんと　約束したプケ！\n<br>\n「おねーちゃん！\n　飛竜に乗って　この島から　南東の方角にある\n　ラゼアの風穴って所に　来い！\n<br>\n「ボクも　すぐに飛んでいく！ \n　ラゼアの風穴の　岩扉の前で　待ってろプッケ！<else>「あ…あ……　あああ……！\n<br>\n「……全部　思いだした。\n　風の真珠　持ってきた人　花の所　連れていく！\n　ボク　<kyodai>さんと　約束したプケ！\n<br>\n「おにーちゃん！\n　飛竜に乗って　この島から　南東の方角にある\n　ラゼアの風穴って所に　来い！\n<br>\n「ボクも　すぐに飛んでいく！ \n　ラゼアの風穴の　岩扉の前で　待ってろプッケ！<endif>": "<if_woman>Ah, ah, ah! I remember everything. The\none who brought Wind Pearl, I'll take\nhim to the flowers! I promised Puke\n<br>\nthat I would! Hey, girl! Come to a\nplace called Lazea Wind Cave,\nsoutheast of this island, on a flying\n<br>\ndragon! I'll fly there right away!Wait\nfor me in front of the rock door of\nLazea Wind Cave, Puke!<else>Ah, ah, ah! I remember everything. The\none who brought Wind Pearl, I'll take\nhim to the flowers! I promised Puke\n<br>\nthat I would! Hey, girl! Come to a\nplace called Lazea Wind Cave,\nsoutheast of this island, on a flying\n<br>\ndragon! I'll fly there right away!Wait\nfor me in front of the rock door of\nLazea Wind Cave, Puke!<endif>"
+  },
+  "96293": {
+    "ハナに　風の真珠を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to give Hannah the Wind\nPearl?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "96294": {
+    "<pc>は　ハナに\n風の真珠を　渡した！": "<pc> gave Wind Pearl to Hana!"
+  },
+  "96295": {
+    "<if_woman>「……全部　思いだした。\n　風の真珠　持ってきた人　花の所　連れていく！\n　ボク　<kyodai>さんと　約束したプケ！\n<br>\n「おねーちゃん！\n　飛竜に乗って　この島から　南東の方角にある\n　ラゼアの風穴って所に　来い！<open_irai><bw_break><else>「……全部　思いだした。\n　風の真珠　持ってきた人　花の所　連れていく！\n　ボク　<kyodai>さんと　約束したプケ！\n<br>\n「おにーちゃん！\n　飛竜に乗って　この島から　南東の方角にある\n　ラゼアの風穴って所に　来い！<open_irai><bw_break><endif>": "<if_woman>I remember everything. The one who\nbrought Wind Pearl, I'll take him to\nthe flowers! Puke promised me\n<br>\n<kyodai>! Hey, girl! Ride the\nflying dragon to a place called Lazea\nWind Cave, southeast of this island!<open_irai><bw_break><else>I remember everything. The one who\nbrought Wind Pearl, I'll take him to\nthe flowers! Puke promised me\n<br>\n<kyodai>! Hey, girl! Ride the\nflying dragon to a place called Lazea\nWind Cave, which is southeast of this\n<br>\nisland!<open_irai><bw_break><endif>"
+  },
+  "96296": {
+    "「ボクも　すぐ行く！\n　ラゼアの風穴の　岩扉の前で　待ってろプッケ！": "I'll be right there! Wait for me at\nthe rock door of Lazea Wind Cave,\nPukke!"
+  },
   "98500": {
     "「ボク　風の真珠のチカラで\n　ラゼアの風穴の岩扉　開けたプケ！<open_irai><bw_break>": "Puke opened the rock door of Lazea\nWind Cave with the power of Boku Wind\nPearl!<open_irai><bw_break>"
   },
   "98498": {
     "<if_woman>「おねーちゃん！\n　岩扉の向こう　早く　行けプッケ！！\n　だいじな花を　守ってほしいプケ！<else>「おにーちゃん！\n　岩扉の向こう　早く　行けプッケ！！\n　だいじな花を　守ってほしいプケ！<endif>": "<if_woman>Onee-chan! Behind the rock door,\nquickly, go, Puke! I want you to\nprotect my precious flower, Puke!<else>Onii-chan! Behind the rock door,\nquickly, go, Puke! I want you to\nprotect my precious flower, Puke!<endif>"
   },
+  "96299": {
+    "<if_woman>「おねーちゃんに　輝くテンスの花と\n　錬金釜　あげたから\n　ボクの役目　全部　終わったプッケ！\n<br>\n「ボク　ヒマにしてくれて　ありがとう！\n　そのお礼　受け取れプケ！<else>「おにーちゃんに　輝くテンスの花と\n　錬金釜　あげたから\n　ボクの役目　全部　終わったプッケ！\n<br>\n「ボク　ヒマにしてくれて　ありがとう！\n　そのお礼　受け取れプケ！<endif>": "<if_woman>I gave Shining Tens Flower and Alchemy\nPot to you, so all my work is done,\nPukke! Thanks for keeping me busy! You\n<br>\ncan thank me for that, Puke!<else>I gave Shining Tens Flower and Alchemy\nPot to Oni-chan, so all my work is\ndone, Pukke! Thanks for keeping me\n<br>\nbusy! You can thank me for that, Puke!<endif>"
+  },
+  "96300": {
+    "<if_woman>「おねーちゃん！\n　輝くテンスの花　カメさまにやれ！\n　やるの　おねーちゃんの　役目プッケ！<else>「おにーちゃん！\n　輝くテンスの花　カメさまにやれ！\n　やるの　おにーちゃんの　役目プッケ！<endif>": "<if_woman>Onee-chan! Do it to Shining Tens\nFlower Galapagod! I'll do it, onee-\nchan!<else>Onii-chan! Do it to Shining Tens\nFlower Galapagod! Do it, Onii-chan's\nrole, Pukke!<endif>"
+  },
   "98502": {
     "先に　ハナに報告した方が　よさそうだ。\nハナの所に　戻ろう。": "I'd better report to Hana first. Let's\ngo back to Hana."
+  },
+  "96302": {
+    "<if_woman>「ボク　<kyodai>さんの花の所に\n　おねーちゃん　連れていくために　作られた！\n　丈夫で　長持ちする　すごい生き物！\n<br>\n「おねーちゃんに　輝くテンスの花あげたから\n　ボクの役目　全部　終わったプッケ！\n　これからは　お昼寝し放題プケ！\n<br>\n「おねーちゃんは\n　輝くテンスの花　カメさまにやれ！\n　やるの　おねーちゃんの　役目プッケ！<else>「ボク　<kyodai>さんの花の所に\n　おにーちゃん　連れていくために　作られた！\n　丈夫で　長持ちする　すごい生き物！\n<br>\n「おにーちゃんに　輝くテンスの花あげたから\n　ボクの役目　全部　終わったプッケ！\n　これからは　お昼寝し放題プケ！\n<br>\n「おにーちゃんは\n　輝くテンスの花　カメさまにやれ！\n　やるの　おにーちゃんの　役目プッケ！<endif>": "<if_woman>It was made to take my <kyodai>\nto her flower place! A tough, long-\nlasting, amazing creature! I gave my\n<br>\nShining Tens Flower to my lady, so all\nof my duties are done, Puke! From now\non, I can take all the naps I want!\n<br>\nYou give Shining Tens Flower\nGalapagod! I'll do it, Puke. It's my\nrole as a lady!<else>It was made to take Oni-chan to my\n<kyodai>'s flower place! An\namazing creature that is strong and\n<br>\nlong-lasting! I gave Oni-chan the\nShining Tens Flower, so all of my\nduties are done, Puke! From now on, I\n<br>\ncan take all the naps I want! Oni-\nchan, give Shining Tens Flower\nGalapagod! It's your role to do it,\n<br>\nPukke!<endif>"
+  },
+  "100320": {
+    "<if_woman>「ボク　<kyodai>さんの花の所に\n　おねーちゃん　連れていくために　作られた！\n　丈夫で　長持ちする　すごい生き物！\n<br>\n「おねーちゃんに　輝くテンスの花あげたから\n　ボクの役目　全部　終わったプッケ！\n　おねーちゃんも役目　終わったプッケ？\n<br>\n「それなら　もう　何も言うことない。\n　これからは　お気楽に暮らすプケ。 \n　お昼寝し放題プッケ！<else>「ボク　<kyodai>さんの花の所に\n　おにーちゃん　連れていくために　作られた！\n　丈夫で　長持ちする　すごい生き物！\n<br>\n「おにーちゃんに　輝くテンスの花あげたから\n　ボクの役目　全部　終わったプッケ！\n　おにーちゃんも役目　終わったプッケ？\n<br>\n「それなら　もう　何も言うことない。\n　これからは　お気楽に暮らすプケ。 \n　お昼寝し放題プッケ！<endif>": "<if_woman>It was made to take my <kyodai>\nto her flower place! A tough, long-\nlasting, amazing creature! I gave the\n<br>\nShining Tens Flower to onee-chan, so\nall my work is done, Pukke! You've\ndone your part too, Pukke? Then I have\n<br>\nnothing more to say. From now on, I'm\ngoing to live a carefree life.You can\ntake all the naps you want, Pukke!<else>It was made to take Oni-chan to my\n<kyodai>'s flower place! A\ntough, long-lasting, amazing creature!\n<br>\nI gave Oni-chan the Shining Tens\nFlower, so all of my work is done!\nOnii-chan's part in this is over too?\n<br>\nThen I have nothing more to say. From\nnow on, I'm going to live a carefree\nlife.You can take all the naps you\n<br>\nwant, Pukke!<endif>"
+  },
+  "101372": {
+    "<pc>は　妹からの手紙を\n読んでみた。\n<br><center>\nお姉ちゃんへ。\nやっと　錬金できたんだよ　輝くテンスの花が！\nお姉ちゃん　これが　必要なんだよね？\n<br>\n私は　あの日　お姉ちゃんと別れてから　ずっと\n自分だけ　生きていていいのか……\nどうして　この時代へ来てしまったのか悩んでた。\n<br>\nでも　アバさまに　お姉ちゃんが生きてることを\n教えてもらい　自分の使命を知って\nこの時代に来た理由が　わかったんだよ。\n<br>\n普通のテンスの花より　ずっと強いチカラを持つ\nテンスの花を　何年も　何十年もかけて\n錬金すること。それが　私の使命だったんだ。\n<br>\n私　いつも　テキトーだったけど\nまわりの人が　助けてくれたおかげで\n今回は　最後まで　やり通せたよ。\n<br>\nお姉ちゃんは　すごい使命を持ってるんだよね。\n私の錬金術が　すこしでも　その使命を果たす\n手伝いになったなら　うれしいな。\n<br>\n本当は　自分の手で渡したかったけど　ごめんね。\n時間がないの。でも　これだけは言っておくね。\n……お姉ちゃんが　使命を果たせるよう祈ってる！": "<pc> read Sister's Letter.\nDear Sis. I finally managed to\nalchemize Shining Tens Flower! Sis,\n<br>\nyou need this, right? Ever since I\nleft my sister that day, I've been\nwondering if I should live on my own\n<br>\nor why I came to this time period. But\nwhen Abba-sama told me that my sister\nwas still alive, and I learned my\n<br>\nmission, I understood the reason why I\ncame to this time period. To spend\nyears and decades refining the Tens\n<br>\nFlower, which has a much stronger\npower than the ordinary Tens Flower.\nThat was my mission. I've always been\n<br>\na bit of a do-it-yourselfer, but\nthanks to the help of the people\naround me, I was able to finish it\n<br>\nthis time. You have a great mission,\ndon't you? I'm glad if my alchemy\ncould help you to fulfill your mission\n<br>\neven a little. I really wanted to give\nit to you with my own hands, but I'm\nsorry. I don't have time. But I'll\n<br>\ntell you this. I pray that you can\nfulfill your mission!"
+  },
+  "101373": {
+    "<pc>は　妹からの手紙を\n読んでみた。\n<br><center>\nお兄ちゃんへ。\nやっと　錬金できたんだよ　輝くテンスの花が！\nお兄ちゃん　これが　必要なんだよね？\n<br>\n私は　あの日　お兄ちゃんと別れてから　ずっと\n自分だけ　生きていていいのか……\nどうして　この時代へ来てしまったのか悩んでた。\n<br>\nでも　アバさまに　お兄ちゃんが生きてることを\n教えてもらい　自分の使命を知って\nこの時代に来た理由が　わかったんだよ。\n<br>\n普通のテンスの花より　ずっと強いチカラを持つ\nテンスの花を　何年も　何十年もかけて\n錬金すること。それが　私の使命だったんだ。\n<br>\n私　いつも　テキトーだったけど\nまわりの人が　助けてくれたおかげで\n今回は　最後まで　やり通せたよ。\n<br>\nお兄ちゃんは　すごい使命を持ってるんだよね。\n私の錬金術が　すこしでも　その使命を果たす\n手伝いになったなら　うれしいな。\n<br>\n本当は　自分の手で渡したかったけど　ごめんね。\n時間がないの。でも　これだけは言っておくね。\n……お兄ちゃんが　使命を果たせるよう祈ってる！": "<pc> read Sister's Letter.\nDear Brother. I finally managed to\nalchemize the Shining Tens Flower! Big\n<br>\nbrother, you need this, don't you?\nEver since I left my brother that day,\nI've been wondering if I should live\n<br>\non my own or why I came to this time\nperiod. But when Abba-sama told me\nthat my brother was still alive, I\n<br>\nknew my mission and understood why I\ncame to this time period. To spend\nyears and decades refining the Tens\n<br>\nFlower, which has a much stronger\npower than the ordinary Tens Flower.\nThat was my mission. I've always been\n<br>\na bit of a do-it-yourselfer, but\nthanks to the help of the people\naround me, I was able to finish it\n<br>\nthis time. You have a great mission,\ndon't you? I'm glad if my alchemy\ncould help you to fulfill your mission\n<br>\neven a little. I really wanted to give\nit to you with my own hands, but I'm\nsorry. I don't have time. But I'll\n<br>\ntell you this. I pray that you can\nfulfill your mission!"
+  },
+  "101374": {
+    "<pc>は　弟からの手紙を\n読んでみた。\n<br><center>\n姉ちゃんへ。\nやっと　錬金できたよ　輝くテンスの花が！\n姉ちゃん　これが　必要なんだよね？\n<br>\nおいらは　あの日　姉ちゃんと別れてから　ずっと\n自分だけ　生きていていいのか……\nどうして　この時代へ来てしまったのか悩んでた。\n<br>\nでも　アバさまに　姉ちゃんが生きてることを\n教えてもらい　自分の使命を知って\nこの時代に来た理由が　わかったよ。\n<br>\n普通のテンスの花より　ずっと強いチカラを持つ\nテンスの花を　何年も　何十年もかけて\n錬金すること。それが　おいらの使命だったんだ。\n<br>\nおいら　いつも　いいかげんだったけど\nまわりの人が　助けてくれたおかげで\n今回は　最後まで　やり通せたんだ。\n<br>\n姉ちゃんは　すごい使命を持ってるんだってね。\nおいらの錬金術が　すこしでも　その使命を果たす\n手伝いになったなら　うれしいよ。\n<br>\n本当は　自分の手で渡したかったけど　ごめん。\n時間がないんだ。でも　これだけは言っておくよ。\n……姉ちゃんが　使命を果たせるように祈ってる！": "<pc> read Brother's Letter.\nDear Sis. I finally managed to\nalchemize the Shining Tens Flower!\n<br>\nSis, you need this, right? Ever since\nI left my sister that day, I've been\nwondering if I should live alone or\n<br>\nwhy I came to this time period. But\nwhen Abba-sama told me that my sister\nwas still alive, and I learned my\n<br>\nmission, I understood why I came to\nthis time period. To spend years and\ndecades refining the Tens Flower,\n<br>\nwhich is much more powerful than the\nordinary Tens Flower. That was my\nmission. I've always been a bit of a\n<br>\nlazy person, but thanks to the help of\nthe people around me, I was able to\nfinish the project this time. I heard\n<br>\nthat you have a great mission. I'm\nglad if my alchemy helped you fulfill\nthat mission, even a little. I really\n<br>\nwanted to give it to you with my own\nhands, but I'm sorry. I don't have\ntime. But I'll tell you this. I'm\n<br>\npraying for you to fulfill your\nmission!"
+  },
+  "101375": {
+    "<pc>は　弟からの手紙を\n読んでみた。\n<br><center>\n兄ちゃんへ。\nやっと　錬金できたよ　輝くテンスの花が！\n兄ちゃん　これが　必要なんだよね？\n<br>\nおいらは　あの日　兄ちゃんと別れてから　ずっと\n自分だけ　生きていていいのか……\nどうして　この時代へ来てしまったのか悩んでた。\n<br>\nでも　アバさまに　兄ちゃんが生きてることを\n教えてもらい　自分の使命を知って\nこの時代に来た理由が　わかったよ。\n<br>\n普通のテンスの花より　ずっと強いチカラを持つ\nテンスの花を　何年も　何十年もかけて\n錬金すること。それが　おいらの使命だったんだ。\n<br>\nおいら　いつも　いいかげんだったけど\nまわりの人が　助けてくれたおかげで\n今回は　最後まで　やり通せたんだ。\n<br>\n兄ちゃんは　すごい使命を持ってるんだってね。\nおいらの錬金術が　すこしでも　その使命を果たす\n手伝いになったなら　うれしいよ。\n<br>\n本当は　自分の手で渡したかったけど　ごめん。\n時間がないんだ。でも　これだけは言っておくよ。\n……兄ちゃんが　使命を果たせるように祈ってる！": "<pc> read Brother's Letter.\nDear Brother. I finally managed to\nalchemize the Shining Tens Flower!\n<br>\nBrother, you need this, don't you?\nEver since I left my brother that day,\nI've been wondering if I should live\n<br>\non my own or why I came to this time\nperiod. But when Abba-sama told me\nthat my brother was still alive, and I\n<br>\nlearned my mission, I understood why I\ncame to this time period. To spend\nyears and decades refining the Tens\n<br>\nFlower, which has a much stronger\npower than the ordinary Tens Flower.\nThat was my mission. I've always been\n<br>\na bit of a lazy person, but thanks to\nthe help of the people around me, I\nwas able to finish the project this\n<br>\ntime. I heard you have a great\nmission. I'm glad if my alchemy helped\nyou fulfill that mission, even a\n<br>\nlittle. I really wanted to give it to\nyou with my own hands, but I'm sorry.\nI don't have time. But I'll tell you\n<br>\nthis. I'm praying for you to fulfill\nyour mission!"
+  },
+  "97251": {
+    "「えっと……　ボク　何してるんだっけ？\n　思いだせないプッケ。": "What am I doing? Pukke can't remember."
+  },
+  "102337": {
+    "扉は　かたく　閉ざされている。": "The door is tightly closed."
   }
 }
