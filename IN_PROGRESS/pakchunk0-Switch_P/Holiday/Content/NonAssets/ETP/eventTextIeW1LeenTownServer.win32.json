@@ -253,7 +253,7 @@
   },
   "38002": {
     "「あっ　<pc>。\n　いいところに　来てくれたね。 \n　また　私の助手を　頼めるかな。\n<br>\n「ちょっと　この村にある孤児院に\n　聞き込みに　行こうと思うの。\n<br>\n「孤児院を建てた　バルチャさんにも\n　いろいろ　話を聞いてみたいのよ。\n　一緒に　行ってくれるよね？": 
-    "Ah <pc>. You've come to the right\nplace.I wonder if you could be my assistant\nagain. I'm thinking of going to the orphanage\n<br>\nin this village to ask around. I'd like to\ntalk to Balcha-san, who built the orphanage,\nabout various things. Will you go with me?"
+    "Ahh, <pc>, it's a good thing you came.\nI hoped to ask if you'd be my sidekick again.\n<br>\nIn a little bit, I was thinking of going to the\nvillage orphanage to get info.\n<br>\nI'd like to try to talk to Mr. Balcha, who built\nthe orphanage, a lot of questions. You'll go with\nme, won't you?"
   },
   "38003": {
     "「私の推理によれば　バルチャさんに\n　話を聞けば　あの女の子のことが\n　何か　わかるはずなのよ。": 
@@ -261,11 +261,11 @@
   },
   "38004": {
     "「あれ？　他の人の頼みを\n　たくさん　受けてるみたいだね。\n<br>\n「それを　後回しにさせるのは　気が引けるから\n　先に　やってきちゃっていいよ。": 
-    "Huh? You seem to be doing a lot of favors for\nother people. I don't feel comfortable putting\nthem off, so you can go ahead and do them."
+    "Huh? Looks like you have lots of other requests,\ndon't you.\n<br>\nEven if you put those off for me, I'd feel weird,\nso you can go ahead and do those first."
   },
   "38005": {
     "「少女探偵ルベカちゃんの助手は\n　<pc>しか　できないのに～。\n　忙しいんなら　後でも　いいよ。": 
-    "Girl Detective Rubecca's assistant can only do\n<pc>. If you're busy, we can talk\nlater."
+    "Girl Detective Rubecca's sidekick can only be\n<pc>. If you're busy now, later on is fine."
   },
   "38006": {
     "「ここは　フィーヤ孤児院。\n　……なんだ　<pc>だったか。<bw_break>": 
@@ -273,39 +273,39 @@
   },
   "38007": {
     "「ここは　フィーヤ孤児院。\n　わしは院長の　バルチャという者だ。\n　旅の者が　用があるとは思えんが……。<bw_break>": 
-    "This here is Fiya Orphanage. I'm the\ndirector, Balcha. I don't think travelers\nhave any business here...<bw_break>"
+    "This here is Fiya Orphanage. I'm the director,\nBalcha. I don't think travelers have any business\nhere...<bw_break>"
   },
   "38008": {
     "「ふむ。わしに聞きたいことが　あるようだな。\n　遠慮など　いらん。何について聞きたい？\n<select_nc>\nフィーヤ孤児院\n名前の由来\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
-    "Hmmm. You seem to have a question for me.\nDon't hesitate to ask. What do you want to ask\nme about?\n<select_nc>\nFiyaorphanage\nName Origin\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "Hmm, seems you'd like to ask me something. Don't\nhesitate to ask. What would you like to ask me about?\n<select_nc>\nFiya Orphanage\nName Origin\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "38009": {
     "「フィーヤ孤児院では　身寄りのない子を\n　引き取って　育てているのだ。\n<br>\n「最近は　大きな争いや　災いもなく\n　孤児院に引き取られる子は　少なくなっておる。\n<br>\n「今は　コタースという男の子がいるだけだ。\n　世話係として　はたらいとる　ティーティも\n　この孤児院出身だがな。": 
-    "Fiyaorphanage takes in children who have no\nrelatives and raises them. These days there\nare not many children taken in by the\n<br>\norphanage without major conflicts or\ndisasters. Now there is only one boy, Cotters.\nTeatea, who works as a caretaker, is also from\n<br>\nthis orphanage."
+    "Fiya Orphanage takes in children who have no\nrelatives and raises them.\n<br>\nThese days, there aren't major conflicts or disasters\nso children taken in by the orphanage has lessened.\n<br>\nNow there's only a boy named Cotters and the\npart-time caregiver, Teaty, who is also originally\nfrom this orphanage."
   },
   "38010": {
     "「おお。名前の由来か。\n　おまえも　よい名だと思うだろう？\n　わしの母親が　つけてくれたのだ。\n<br>\n「ウェディの古い言葉で　知恵ある者\n　という意味だそうだ。バルチャというのは。\n<br>\n「……ぬ？　わしの名じゃない？\n　では　なんの由来を聞きたいというのだ？\n<select_nc>\nフィーヤ孤児院\n名前の由来\n孤児院の名前の由来\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
-    "Oh. That's a good name, isn't it? You think\nit's a good name, don't you? My mother gave it\nto me. It's an old Weddie word meaning ''wise\n<br>\none. Balcha? Not my name? Then what do you\nwant to know about its origin?\n<select_nc>\nFiyaorphanage\nOrigin of the name\nOrigin of the name orphanage\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "Oh, the origin of the name, eh? Seems you think\nit's a good name too? My mother gave it to me; it's\nan old Weddie word meaning 'wise one'.\n<br>\nThat's why I'm called Balcha.\n...Not that? Not my name? Then what origin would\nyou like to know?\n<select_nc>\nFiya Orphanage\nOrigin of the name\nOrigin of the orphanage's name\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "38011": {
     "「フィーヤ孤児院では　身寄りのない子を\n　引き取って　育てているのだ。\n<br>\n「最近は　大きな争いや　災いもなく\n　孤児院に引き取られる子は　少なくなっておる。\n<br>\n「今は　コタースという男の子がいるだけだ。\n　世話係として　はたらいとる　ティーティも\n　この孤児院出身だがな。": 
-    "Fiyaorphanage takes in children who have no\nrelatives and raises them. These days there\nare not many children taken in by the\n<br>\norphanage without major conflicts or\ndisasters. Now there is only one boy, Cotters.\nTeatea, who works as a caretaker, is also from\n<br>\nthis orphanage."
+    "Fiya Orphanage takes in children who have no\nrelatives and raises them.\n<br>\nThese days, there aren't major conflicts or disasters\nso children taken in by the orphanage has lessened.\n<br>\nNow there's only a boy named Cotters and the\npart-time caregiver, Teaty, who is also originally\nfrom this orphanage."
   },
   "38012": {
     "「バルチャとは　ウェディの古い言葉で\n　知恵ある者という意味だ。\n　わしの母親が　名付けてくれたのだ。": 
-    "Balcha is an old Weddie word meaning ''wise\none. My mother named me."
+    "Balcha is an old Weddie word meaning 'wise one';\nmy mother named me after it."
   },
   "38013": {
     "<attr><feel_think_lv2><end_attr>「孤児院の名前の由来だと？\n　なぜ　そんなことを聞く……。": 
-    "<attr><feel_think_lv2><end_attr>You think that's where the name ORPHANAGE came\nfrom? Why do you ask such a thing?"
+    "<attr><feel_think_lv2><end_attr>The origin of the orphanage's name? Why do you\nask such a thing..."
   },
   "38014": {
     "「ふむ。まだ　聞き足りないようだな。\n　聞きたいことを　ちゃんと　順に聞いてくれ。\n<select_nc>\nフィーヤ孤児院\n名前の由来\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
-    "Hmmm. It seems you haven't listened enough.\nPlease listen to what I want to ask you in the\nproper order.\n<select_nc>\nFiyaorphanage\nName Origin\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "Hmm, seems hearing it once wasn't enough.\nPlease ask what you want to know properly.\n<select_nc>\nFiya Orphanage\nName Origin\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "38015": {
     "<pipipi_low>「この村の孤児院を建てた　バルチャさんに\n　いろいろと　聞き込みしたい。\n　キミも　孤児院に　行ってくれたまえ。<open_irai><bw_break>": 
-    "<pipipi_low>I'd like to ask Mr. Balcha, who built the\norphanage in this village, a lot of questions.<open_irai><bw_break>"
+    "<pipipi_low>I'd like to try to talk to Mr. Balcha, who built\nthe orphanage, a lot of questions. You go on ahead.<open_irai><bw_break>"
   },
   "41623": {
     "<pipipi_low>「私の推理によれば　バルチャさんの話から\n　あの女の子について　新たに　わかることが\n　あるはずなのだよ。": 
@@ -313,27 +313,27 @@
   },
   "38016": {
     "<attr><feel_sad_lv1><end_attr>「……わしが　知ることは　もうない。\n　すべて　おまえたちに　話した。\n<br>\n「もし　フィーヤについて\n　新たに　わかったことがあったならば\n　わしにも　教えてほしい。": 
-    "<attr><feel_sad_lv1><end_attr>...I no nothing more. I've explained everything to you all.\nIf you happened to have learned anything new about\nFiya, I'd like you to tell me too."
+    "<attr><feel_sad_lv1><end_attr>...I know nothing more. I've explained everything to\nyou all. If you happened to have learned anything\nnew about Fiya, I'd like you to tell me too."
   },
   "38020": {
     "「フィーヤの遺体が　引き取られた祈りの宿で\n　聞き込みをしてみたいの。行ってくれるよね。<open_irai><bw_break>": 
-    "I'd like to interview people at the Prayer Inn\nwhere they took Fiya's body. Will you go?<open_irai><bw_break>"
+    "I'd like to find info at Prayer Inn where Fiya's\nbody was taken. You'll go, won't you.<open_irai><bw_break>"
   },
   "41624": {
     "「お父さんが　私のこと　心配してるみたいなの。\n　外出許可を取るのに　時間が　かかりそうだから\n　先に　祈りの宿へ向かっててほしいな。": 
-    "My dad is worried about me. It's going to take\nme a while to get permission to go out, so I'd\nlike you to go to the Prayer Inn first."
+    "Dad seems worried about me. Getting permission to\nleave will take time, so I'd like you to go to\nPrayer Inn first."
   },
   "38022": {
     "「ジュレリア地下廃坑にいる\n　<%sEV_QUE_NAME0>から　神官のカギ束を\n　取り返してほしいの。<open_irai><bw_break>": 
-    "I need Priest's Keys back from\n<%sev_que_name0> at Juleria Underground Mine.<open_irai><bw_break>"
+    "I need the Priest's Keyring back from the\n<%sEV_QUE_NAME0> at Juleria Underground Mine.<open_irai><bw_break>"
   },
   "38023": {
     "「どの　<%sEV_QUE_NAME0>が　盗ったのか\n　わからないけど　日記のカギは\n　そのカギ束の中に　あるはずだから！": 
-    "I don't know which <%sev_que_name0> stole it,\nbut the key to the diary must be in those\nkeys!"
+    "I don't know which <%sEV_QUE_NAME0> stole it,\nbut the key to the diary must be on that keyring!"
   },
   "38024": {
     "「おかえり　<pc>。\n　神官のカギ束が　見つかったみたいね。\n<br>\n「この日記に合うカギがあるか　探してみるから\n　神官のカギ束を　渡してくれるかな？<yesno><close>": 
-    "Welcome back <pc>. I see you found\nPriest's Keys. I'll see if I can find a key\nthat fits in this diary, so can you give me\n<br>\nPriest's Keys?<yesno><close>"
+    "Welcome back <pc>. I see you found\nthe Priest's Keyring. I'll see if I can find a key\nthat fits in this diary, so can you give me\n<br>\nthe Priest's Keyring?<yesno><close>"
   },
   "38025": {
     "「カギがないと　神官の日記が読めないの。\n　大事なことが書かれてると　思うのに……。": 
@@ -341,7 +341,7 @@
   },
   "38026": {
     "<pc>は　ルベカに\n神官のカギ束を　渡した。": 
-    "<pc> gave Rubecca Priest's Keys."
+    "<pc> gave Rubecca the\nPriest's Keyring."
   },
   "38029": {
     "<attr><feel_sad_lv2><end_attr>「フィーヤは　清廉の大滝から　帰る途中で\n　ドルロイの滝に　身を投げて死んだと\n　ルベカに聞いた……。\n<br>\n「なんという　あわれな最期なのだ。\n　わしが　フィーヤに　してやれることは\n　何か　なかったのだろうか……。": 
@@ -421,7 +421,7 @@
   },
   "46197": {
     "「なんだ？　旅の者が\n　うちに　用があるとは　思えんが……。<bw_break>": 
-    "What is it? I don't think a traveler has\nbusiness in my house.<bw_break>"
+    "What is it? I don't think travelers have any\nbusiness here...<bw_break>"
   },
   "46198": {
     "「ほう……。ヴェリナードの王子が\n　シェルナーについて　聞きたいんだって？\n　でも　王子なんか　来ていないが……。": 
@@ -445,7 +445,7 @@
   },
   "35281": {
     "「おお　<pc>か。\n<br>\n「おぬしが　このフィーヤ孤児院に来てから\n　どのくらい　時が過ぎたのか。\n<br>\n「あの日　浜に流れ着いた小舟に\n　幼い　おぬしが乗っているのを\n　見つけたときは　おどろいたものよ。\n<br>\n「いつの日か　おぬしが　この村を旅立ち\n　ふたたび　両親に会える日がくることを\n　わしも　心から　願ってやまぬ。\n<br>\n「そのためには　まずは\n　シェルナーになることを　目指せ。\n　この村を旅立つために　必要なことだ。\n<br>\n「……長話は　やめておくか。\n　アーシクに　なんぞ　頼まれているのだろう？\n　行ってやるがよい。": 
-    "Oh, <pc>. How much time has passed\nsince you came to Fiyaorphanage. I was\nsurprised to find you in a small boat on the\n<br>\nbeach that day. I sincerely hope that one day\nyou will be able to leave this village and\nreturn to see your parents again. To do so,\n<br>\nyou must first aim to become a Shellner.\nThat's what you need to do to leave this\nvillage. Let's not make this a long story.\n<br>\nAashik has asked you to do something for him,\nhasn't he? Go ahead and do it."
+    "Oh, <pc>. How much time has passed\nsince you came to Fiya Orphanage. I was\nsurprised to find you in a small boat on the\n<br>\nbeach that day. I sincerely hope that one day\nyou will be able to leave this village and\nreturn to see your parents again. To do so,\n<br>\nyou must first aim to become a Shellner.\nThat's what you need to do to leave this\nvillage. Let's not make this a long story.\n<br>\nAashik has asked you to do something for him,\nhasn't he? Go ahead and do it."
   },
   "35282": {
     "「両親を探しにいきたいのならば\n　まずは　シェルナーになることを目指せ。\n　この村を旅立つために　必要なことだ。\n<br>\n「……おっと　いかん。\n　アーシクに　なんぞ　頼まれているのだろう？\n　行ってやるがよい。": 
@@ -469,7 +469,7 @@
   },
   "35287": {
     "「はぁ～。カノジョ　ほしいなあー。\n　やっぱ　ウェディの男たるもの\n　恋に生きなきゃ　ダメなんだよ。\n<br>\n「あちこちに　声かけてるんだけどさ。\n　なかなか　うまくいかないんだよねー。\n　ボクは　こんなに魅力的なのに！": 
-    "I want a girlfriend. I want a girlfriend. A\nWeddie man has to be in love. I've been\ntalking to a lot of people, but it's not going\n<br>\nwell. But it's not going so well. I'm so\nattractive!"
+    "*sigh* I want a girlfriend. A Weddie man living\nwithout love is hopeless.\n<br>\nI've been talking to a lot of girls, but it\ndoesn't make a difference. It doesn't work out,\ny'know. At least I'm still charming!"
   },
   "35290": {
     "「久々に結婚式なんて　ビッグイベントが\n　来やがったと思ったら　先に葬式をやるだと？\n　なんて　エキサイティングなんだ～！！\n<br>\n「……と　コーフンしてたのによお。\n　トンだ　肩すかしだったぜ。\n<br>\n「おっと　カンちがいすんなよ？\n　<pc>が　生き返ったことは\n　オレだって　よろこんでるんだからよ。": 
@@ -697,11 +697,11 @@
   },
   "35354": {
     "「<pc>　何をしている？\n　ヒューザを破り　お前はシェルナーになった。\n　その役目を　果たさねばならん。\n<br>\n「祈りの宿へ行くには　村を出て\n　道なりに進み　小川を見つければいい。\n　次は　その小川に沿って　北を目指せ。\n<br>\n「そうすれば　小さな滝へ　たどり着く。\n　その左　レーナム緑野への道を越えたら\n　すぐ右手に建っているのが　祈りの宿だ。\n<br>\n「かなり遠いが　さきほど渡した\n　ルーラストーンが　役に立つぞ。\n　その石には　村の場所が記憶されているからな。\n<br>\n「旅先で　危なくなっても\n　ルーラストーンを使うことで　一瞬にして\n　村まで　飛んでかえってこられるのだ。\n<br>\n「ルーラストーンについては　孤児院にいる\n　ティーティが　くわしかったはずだ。\n　わからぬことがあれば　聞きにいくがいい。\n<br>\n「さあ　急ぐのだ　<pc>。\n　花嫁が首を長くして　待っているはずだぞ。": 
-    "<pc> What are you doing? You defeated\nHyuza and became a Shellner. You are now a\nShellner, and you must fulfill that role. To\n<br>\nget to the Prayer Inn, leave the village,\nfollow the road, and find the creek. Next,\nfollow the creek to the north. Next, follow\n<br>\nthe stream north until you reach a small\nwaterfall. After crossing the road to Leenam\nFields, the Prayer Inn will be on your right.\n<br>\nIt's a long way, but the Zoomstone I gave you\nearlier will help you. The Zoomstone will\nremember the location of the village. If you\n<br>\nare in danger on your journey, you can use the\nZoomstone to fly back to the village in an\ninstant. Teatea in the orphanage must have\n<br>\ntaught you about Zoomstone. If you have any\nquestions, go and ask her. Now hurry\n<pc>. Your bride will be waiting for\n<br>\nyou with bated breath."
+    "<pc> What are you doing? You defeated\nHyuza and became a Shellner. You are now a\nShellner, and you must fulfill that role. To\n<br>\nget to the Prayer Inn, leave the village,\nfollow the road, and find the creek. Next,\nfollow the creek to the north. Next, follow\n<br>\nthe stream north until you reach a small\nwaterfall. After crossing the road to Leenam\nFields, the Prayer Inn will be on your right.\n<br>\nIt's a long way, but the Zoomstone I gave you\nearlier will help you. The Zoomstone will\nremember the location of the village. If you\n<br>\nare in danger on your journey, you can use the\nZoomstone to fly back to the village in an\ninstant. Teaty in the orphanage must have\n<br>\ntaught you about Zoomstone. If you have any\nquestions, go and ask her. Now hurry\n<pc>. Your bride will be waiting for\n<br>\nyou with bated breath."
   },
   "35355": {
     "<if_woman><attr><feel_happy_lv3><end_attr>「<pc>ねーちゃんが　祈りの宿ってとこに\n　およめさんを　むかえにいくんだよね？\n<br>\n「じゃあ　もうすぐ　およめさんが来るんだね！\n　楽しみだなあ～。<else><attr><feel_happy_lv3><end_attr>「<pc>にーちゃんが　祈りの宿ってとこに\n　およめさんを　むかえにいくんだよね？\n<br>\n「じゃあ　もうすぐ　およめさんが来るんだね！\n　楽しみだなあ～。<endif>": 
-    "<if_woman><attr><feel_happy_lv3><end_attr><pc>Nee-chan is going to meet Oyome-\nsan at a place called Prayer Inn, right? So\nOyome-san will be here soon! I'm looking\n<br>\nforward to it!<else><attr><feel_happy_lv3><end_attr><pc>Nee-chan is going to meet Oyome-\nsan at a place called Prayer Inn, right? So\nOyome-san will be here soon! I'm looking\n<br>\nforward to it!<endif>"
+    "<if_woman><attr><feel_happy_lv3><end_attr><pc>Nee-chan is going to meet wife at a place called Prayer Inn, right? So\nwife will be here soon! I'm looking\n<br>\nforward to it!<else><attr><feel_happy_lv3><end_attr><pc>Nee-chan is going to meet Oyome-\nsan at a place called Prayer Inn, right? So\nwife will be here soon! I'm looking\n<br>\nforward to it!<endif>"
   },
   "35356": {
     "「おお～　よくやったぞ　<pc>。\n　お前のおかげで　ひともうけできたぜ。": 
@@ -765,7 +765,7 @@
   },
   "35370": {
     "<attr><feel_happy_lv2><end_attr>「アーシクとキールの　ふたりは\n　フィーヤ孤児院の　バルチャじいさんのとこに\n　あいさつに　行ったみたいだ。\n<br>\n「明日は　いよいよ　結婚式だ。\n　<pc>も　孤児院に顔を出しとけよ。\n　キールを救った　シェルナーとしてな。": 
-    "<attr><feel_happy_lv2><end_attr>It seems that Aashik and Keel went to greet\ntheir grandfather Balcha at Fiyaorphanage.\nTomorrow is the wedding day. <pc>\n<br>\nshould also show up at the orphanage. As the\nShellner who saved Keel."
+    "<attr><feel_happy_lv2><end_attr>It seems that Aashik and Keel went to greet\ntheir grandfather Balcha at Fiya Orphanage.\nTomorrow is the wedding day. <pc>\n<br>\nshould also show up at the orphanage. As the\nShellner who saved Keel."
   },
   "35371": {
     "「ヒューザが　また　あいつに勝てなかった\n　……って　ブツブツ言ってたよ。\n<br>\n「あの子なりに　がんばってるんだろうにね。\n　今回だって　まっさきに　キールのとこへ\n　駆けつけたのは　ヒューザだったんだろ？": 
@@ -805,11 +805,11 @@
   },
   "35381": {
     "「おお　<pc>。\n　よくぞ　花嫁のキールを救ってくれた。\n　お前をシェルナーにして　正解だったな。\n<br>\n「でな。急な話だが　アーシクとキールの\n　結婚式は　明日　とりおこなうことになった。\n<br>\n「お前は　フィーヤ孤児院に戻り\n　バルチャ老とともに　結婚式の準備をしてくれ。": 
-    "Oh <pc>. You did well to save your\nbride Keel. I guess I was right to make you a\nShellner. And by the way. On a short notice,\n<br>\nAashik and Keel's wedding will take place\ntomorrow. You will go back to Fiyaorphanage\nand prepare for the wedding with old Balcha."
+    "Oh <pc>. You did well to save your\nbride Keel. I guess I was right to make you a\nShellner. And by the way. On a short notice,\n<br>\nAashik and Keel's wedding will take place\ntomorrow. You will go back to Fiya Orphanage\nand prepare for the wedding with old Balcha."
   },
   "35382": {
     "<attr><feel_happy_lv2><end_attr>「はなよめさん　見たよ！\n　とっても　キレイだったよ！\n<br>\n「でも　さっき　お空が\n　ピカーッて　白く　光ったんだ。\n　そっちも　キレイだったよ！！": 
-    "<attr><feel_happy_lv2><end_attr>I saw the ''Hanayome-san''! It was so beautiful!\nBut just now, the sky flashed with a white\nlight. It was beautiful too!"
+    "<attr><feel_happy_lv2><end_attr>I saw the ''bride''! It was so beautiful!\nBut just now, the sky flashed with a white\nlight. It was beautiful too!"
   },
   "35383": {
     "扉には　カギが　かかっている。": 
@@ -981,11 +981,11 @@
   },
   "35428": {
     "<attr><feel_happy_lv3><end_attr>「おねーさん　この村に\n　はなよめさんに　なりに来ない？\n<br>\n「だいじょうぶ。もう　さらわれないから。\n　はなよめさんを　また見たいんだよう～！": 
-    "<attr><feel_happy_lv3><end_attr>Hey, lady, would you like to come to this\nvillage and become a Hana-yome-san? Don't\nworry. I won't be kidnapped anymore. I want to\n<br>\nsee Hanyome-san again!"
+    "<attr><feel_happy_lv3><end_attr>Hey, lady, would you like to come to this\nvillage and become a bride? Don't\nworry. I won't be kidnapped anymore. I want to\n<br>\nsee bride again!"
   },
   "35429": {
     "<attr><feel_happy_lv3><end_attr>「おにーさん　ぼくの　はなよめさんに\n　なってくれそうな女の人　知らない？\n<br>\n「さらわれないようにするから　教えてよ。\n　はなよめさんを　また見たいんだよう～！": 
-    "<attr><feel_happy_lv3><end_attr>Hey, do you know a girl who could be my\nHanyome-san? I'll try not to get kidnapped, so\nplease tell me. I want to see her again!"
+    "<attr><feel_happy_lv3><end_attr>Hey, do you know a girl who could be my\nbride? I'll try not to get kidnapped, so\nplease tell me. I want to see her again!"
   },
   "35430": {
     "「シェルナーの役目を果たせた　お前なら\n　どこへ行っても　やっていけるさ。\n　この村のことは　まかせておきな。": 
@@ -997,7 +997,7 @@
   },
   "35433": {
     "「ここは　フィーヤ孤児院よ。\n　身寄りのない子を　バルチャさんが\n　引き取って　育てているの。\n<br>\n「私もそう。他にも何人かいたけど\n　みんな　ここから　巣立っていったわ。": 
-    "This is Fiyaorphanage. Balcha-san takes in\nchildren who have no relatives and raises\nthem. I am one of them. There were a few\n<br>\nothers, but they all left the nest."
+    "This is Fiya Orphanage. Mr. Balcha takes in children\nwho have no relatives and raises them.\n<br>\nI'm one of them. There were more of us, but they\nall left the nest."
   },
   "35434": {
     "「結婚式での　アーシクとキール。\n　とっても　幸せそうだったわ。\n<br>\n「私たちも　負けてられないわね～。": 
@@ -1005,7 +1005,7 @@
   },
   "35435": {
     "<attr><feel_sad_lv2><end_attr>「旅の人。教会のとなりの家には\n　近づかないほうが　いいわよ。\n<br>\n「そこには　新婚さんが住んでるの。\n　ひとり身や　生活に疲れた夫婦には\n　目の毒なのよ……。": 
-    "<attr><feel_sad_lv2><end_attr>Traveler, you should stay away from the house\nnext to CHURCH. There are newlyweds living\nthere. It's a real eyesore for single people\n<br>\nand tired couples."
+    "<attr><feel_sad_lv2><end_attr>Traveler, you should stay away from the house\nnext to the church. There are newlyweds living\nthere. It's a real eyesore for single people\n<br>\nand tired couples."
   },
   "35436": {
     "「次に　この村で　結婚式を挙げるのは\n　ルベカじゃないかと　にらんでるんだ。\n　今から　楽しみだねえ。": 
@@ -1157,7 +1157,7 @@
   },
   "35477": {
     "「おねーさん　この村に\n　はなよめさんに　なりに来ない？\n<br>\n「だいじょうぶ。もう　さらわれないから。\n　はなよめさんを　また見たいんだよう～！": 
-    "Hey, lady, would you like to come to this\nvillage and become a Hana-yome-san? Don't\nworry. I won't be kidnapped anymore. I want to\n<br>\nsee Hanyome-san again!"
+    "Hey, lady, would you like to come to this\nvillage and become a bride? Don't\nworry. I won't be kidnapped anymore. I want to\n<br>\nsee bride again!"
   },
   "35479": {
     "<attr><feel_sad_lv2><end_attr>「アーシクと　キールを見習って\n　うちも　ラブラブな感じでいこうと\n　思ってるんだけど……。\n<br>\n「サーニが　恥ずかしがるのよ。\n　昔は　そんなことなかったのに～。": 
@@ -1277,7 +1277,7 @@
   },
   "35510": {
     "<attr><feel_think_lv2><end_attr>「ルベカおねーちゃんは\n　はなよめさんに　ならないのかな？\n<br>\n「ほかに　はなよめさんに\n　なれそうな人は　いたかなあ……。": 
-    "<attr><feel_think_lv2><end_attr>Rubecca-ne-chan will never become a ''Hana-\nyome-san''? I wonder if there were others who\ncould be the flower girl."
+    "<attr><feel_think_lv2><end_attr>Rubecca-ne-chan will never become a ''bride''? I wonder if there were others who\ncould be the flower girl."
   },
   "35512": {
     "<attr><feel_think_lv1><end_attr>「もう　新婚とは　いえないと思うけど\n　アーシクとキールは　まだまだ\n　ラブラブなカンジなのよ。\n<br>\n「ラブラブが　長続きするヒケツを\n　聞いてこようかしら……。": 
