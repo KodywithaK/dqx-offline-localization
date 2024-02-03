@@ -1,11 +1,11 @@
 name: Publish Latest Dialog _P.pak As GitHub Actions Artifact
 
 on:
-  workflow_dispatch:
   push:
     branches: [testing]
     paths:
       - 'FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/**'
+  workflow_dispatch:
 
 jobs:
   archive-build-artifacts:
