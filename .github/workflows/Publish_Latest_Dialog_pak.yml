@@ -1,0 +1,61 @@
+name: Publish Latest Dialog _P.pak As GitHub Actions Artifact
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [testing]
+    paths:
+      - 'FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/**'
+
+jobs:
+  archive-build-artifacts:
+    # runs-on: ubuntu-latest
+    runs-on: self-hosted # UnrealEngine-4.27 being 40GB~, it's too big for a regular GitHub Runner
+    steps:
+      - name: Checkout dqx_dat_dump
+        uses: actions/checkout@v4
+        with:
+          path: ./dqx_dat_dump
+          repository: KodywithaK/dqx_dat_dump
+
+      - name: Checkout dqx-offline-localization
+        uses: actions/checkout@v4
+        with:
+          path: ./dqx-offline-localization
+          repository: KodywithaK/dqx-offline-localization
+          ref: testing
+          sparse-checkout: | # Checks out only the dialog folder
+            FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
+      
+      # - name: Install Python
+      #   uses: actions/setup-python@v4
+      #   with:
+      #     architecture: 'x64'
+      #     # python-version: '3.x'
+      #     python-version: '3.11'
+      #     cache: 'pip' # caching pip dependencies
+      # - name: Run Python         
+      #   run: |
+      #     cd ./dqx_dat_dump/
+      #     python -m venv venv
+      #     source ./venv/bin/activate
+      #     pip install -r requirements.txt
+      #     cd ./tools/packing/
+      #     python ./pack_etp_GitHubActions.py -a
+      #     deactivate
+      #     cd ~
+      #     ./UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ../../../../actions-runner/_work/test/test/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak -Create=../../../../dqx_dat_dump/tools/packing/responsefile_WindowsNoEditor.txt
+      #     ./UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ../../../../actions-runner/_work/test/test/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak -Create=../../../../dqx_dat_dump/tools/packing/responsefile_Switch.txt
+        # <UnrealPak Filepath>/UnrealPak     <UnrealPak Filepath Reversed>/downloads/pakchunk0-{PLATFORM}_Dialog_Latest_P.pak -Create=<UnrealPak Filepath Reversed>/dqx_dat_dump/tools/packing/responsefile_{PLATFORM}.txt
+
+      # - name: Get Current Time
+      #   run: |
+      #     echo "time=$(date +'%Y_%m_%d_%H%M')" >> $GITHUB_ENV
+
+      # - name: Upload Artifact GitHub Action
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: GitHubActions_Dialog_Latest_${{ env.time }}
+      #     path: |
+      #       downloads
+          # retention-days: 1

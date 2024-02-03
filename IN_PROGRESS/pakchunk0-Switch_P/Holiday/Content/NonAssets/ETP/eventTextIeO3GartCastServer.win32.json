@@ -17,11 +17,11 @@
   },
   "39205": {
     "<attr><feel_sad_lv1><end_attr>「グロスナー王にも　困ったものです。\n　もう　若くないのですから　魔物狩りなど\n　自重していただきたいのですが……。": 
-    "<attr><feel_sad_lv1><end_attr>King Grossner is also in trouble. He is a\nyoung Kunai, so I would like to ask him to be\nmore careful about hunting monsters."
+    "<attr><feel_sad_lv1><end_attr>King Grossner is incorrigible. He's not young\nanymore, so I'd like to ask him to be more careful\nabout monster hunting, nevertheless..."
   },
   "39206": {
     "「魔物狩りに　参加するつもりなら\n　ザマ烽火台まで　行って\n　ジャンガという兵士に　話しかけてくれ。<open_irai><bw_break>": 
-    "If you plan to join the monster hunt, go to\nZama Beacon and talk to a soldier named Janga.<open_irai><bw_break>"
+    "If you intent to join the monster hunt, go to\nZama Beacon and speak with a soldier named Janga.<open_irai><bw_break>"
   },
   "39207": {
     "<attr><feel_happy_lv2><end_attr><close_irai>「わしは　若いころから　魔物狩りが\n　なによりの　楽しみでのう。\n　ムフフッ……。ひさびさに　ウデが鳴るわい！\n<br>\n「それと　今回の狩りは　お忍びじゃからな。\n　くれぐれも　他言無用で頼むぞ！": 
@@ -345,11 +345,19 @@
   },
   "39366": {
     "<attr><feel_sad_lv1><end_attr>「……ええっ？　ぬいぐるみ屋さんが\n　スピンドル兵士長から　そんな疑いを\n　かけられていらっしゃるのですか？\n<br>\n「それは　大変ですわ。\n　一刻も早く　ぬいぐるみ屋さんを\n　助けて差し上げて！\n<br>\n「それまで　チョコ神ぬいぐるみのことは\n　忘れることにしますわ。\n　どうか　急いでくださいまし！": 
-    "<attr><feel_sad_lv1><end_attr>What? A stuffed animal shop owner is under such suspicion from Captain Spindle? That's terrible. Please help the stuffed animal shop owner as soon as possible! Until then, I'll forget about Choc-God Plushie. Please hurry!"
+    "<attr><feel_sad_lv1><end_attr>...Whaaat? The plushie shop owner has come under\nsuspicion from Captain Spindle? That's terrible.\n<br>\nAs soon as possible, please help the plushie shop\nowner! Until then, I'll forget about the Choco-God\nPlushie. Please, please hurry!"
   },
   "39368": {
     "「これは　<pc>くん。\n　ぬいぐるみ屋の件では　ご苦労だったな。\n<br>\n「それにしても　あんなブサイクな人形が\n　人気とはね。大衆の美的センスというのは\n　私には　理解しがたいものだよ。": 
-    "This is <pc>. I'm sorry to hear about the stuffed animal shop. I still can't believe that such an ugly doll is so popular. The aesthetic sense of the masses is something I find hard to understand."
+    "Hey there, <pc>. Sorry to trouble you\nwith that plushie shop affair.\n<br>\nAt any rate, how about that ugly doll being so\npopular, eh. The masses' aesthetic sense is\nsomething I find hard to understand."
+  },
+  "39369": {
+    "<attr><feel_happy_lv2><end_attr>「まあっ　<pc>さま！\n　その手に持っているのは　まぎれもなく\n　チョコ神ぬいぐるみっ！\n<br>\n「さすがは　この国を救ってくださった\n　英雄さまですわね。\n　すばらしい　仕事ぶりでしたわ！<bw_break>": 
+    "<attr><feel_happy_lv2><end_attr>Oh my, <pc>! That which you are holding\nis unmistakably a Choco-God Plushie!\n<br>\nAs expected of the hero who saved this country,\nis it not. You did a wonderful job!<bw_break>"
+  },
+  "39370": {
+    "「さあ　そのステキな　ぬいぐるみを\n　私に　渡してくださいませ。": 
+    "Now, please give me that lovely plushie, please."
   },
   "41300": {
     "ゼラリム姫に\nチョコ神ぬいぐるみを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
@@ -359,31 +367,18 @@
     "<pc>は　ゼラリム姫に\nチョコ神ぬいぐるみを　渡した！": 
     "<pc> gave Princess Zelarim the\nChoco-God Plushie!"
   },
-  "39369": {
-    "<attr><feel_happy_lv2><end_attr>「まあっ　<pc>さま！\n　その手に持っているのは　まぎれもなく\n　チョコ神ぬいぐるみっ！\n<br>\n「さすがは　この国を救ってくださった\n　英雄さまですわね。\n　すばらしい　仕事ぶりでしたわ！<bw_break>": 
-    "<attr><feel_happy_lv2><end_attr>Oh, <pc>! What he's holding in his hand is definitely a Choco-God Plushie! As expected of the hero who saved this country. You did a wonderful job!<bw_break>"
-  },
-  "39370": {
-    "「さあ　そのステキな　ぬいぐるみを\n　私に　渡してくださいませ。": 
-    "Now, please give me that wonderful stuffed animal."
-  },
   "39371": {
     "<attr><feel_think_lv2><end_attr>「オホホ……いやですわ。\n　<pc>さまったら　ご冗談ばっかり。<bw_break>": 
-    "<attr><feel_think_lv2><end_attr>Ohoho..., no. <pc> You are joking all the time.<bw_break>"
+    "<attr><feel_think_lv2><end_attr>Ohoho... You are so bad. <pc>, you are\nsuch a joker.<bw_break>"
   },
   "41298": {
     "<attr><feel_happy_lv2><end_attr>「まあ　なんて　愛らしいっ<heart>\n　おじいさまの　買ってくださる\n　高級ビスクドールとは　大ちがいですわ。\n<br>\n「<pc>さま　ありがとうございます。\n　これは　せめてもの　お礼の気持ちですわ。\n　どうぞ　お受け取りになってくださいまし。": 
-    "<attr><feel_happy_lv2><end_attr>Oh, how adorable<heart> She's nothing like the fancy bisque dolls your grandfather buys you. <pc> Thank you. It's the least I can do to thank you. Please accept it."
+    "<attr><feel_happy_lv2><end_attr>Oh my, how lovely<heart> She's nothing like the fancy\nbisque dolls Grandfather buys for me.\n<br>\n<pc>, thank you so much. It's the least\nI can do to thank you. Please accept it for me."
   },
   "39374": {
     "<attr><feel_happy_lv1><end_attr>「本当に　チョコ神ぬいぐるみの愛らしさは\n　他に　類を見ないほどですわ。\n<br>\n「城の者に見つかると　いろいろ　うるさいので\n　ふだんは　タンスの奥に　しまい込んでおいて\n　こっそり　愛でていますのよ<heart>": 
-    "<attr><feel_happy_lv1><end_attr>Choco-God Plushie's loveliness is truly unparalleled. The castle guards make a lot of noise when they find her, so I usually keep her in the back of the wardrobe and love her in secret<heart>."
+    "<attr><feel_happy_lv1><end_attr>Truly, Choco-God Plushie's loveliness is\nunparalleled.\n<br>\nThe people of the castle would make a fuss if they\nfound her, so I usually keep her in the back of the\nwardrobe to love her in secret<heart>."
   },
-
-
-
-
-
   "47541": {
     "<if_woman><attr><feel_happy_lv1><end_attr>「うちの子たちは　よく働いて　よく食べるから\n　毎日作る食事の量も　ハンパなくってね。\n　ゆっくり　腰を伸ばすヒマもないよ。\n<br>\n「朝ごはんを作ったら　すぐに昼ごはん。\n　昼が終わったと思ったら　もう晩ごはん。\n　ああ　忙しい！　忙しい！\n<br>\n「でもね　城のみんなが　あたしの料理を\n　おいしいって　残さず食べてくれるのは\n　何よりの楽しみなんだよ。\n<br>\n「だから　こっちもウデによりをかけて\n　パワーの出る新メニューを　考えなきゃあね。\n　……てなわけで　冒険者のお姉さん。\n<br>\n「ちょっくら　あたしを助けると思ってさ。\n　ギルザッド地方の　ギルザの入り江まで行って\n　タコツキ貝を　採ってきてくれないかい？<else><attr><feel_happy_lv1><end_attr>「うちの子たちは　よく働いて　よく食べるから\n　毎日作る食事の量も　ハンパなくってね。\n　ゆっくり　腰を伸ばすヒマもないよ。\n<br>\n「朝ごはんを作ったら　すぐに昼ごはん。\n　昼が終わったと思ったら　もう晩ごはん。\n　ああ　忙しい！　忙しい！\n<br>\n「でもね　城のみんなが　あたしの料理を\n　おいしいって　残さず食べてくれるのは\n　何よりの楽しみなんだよ。\n<br>\n「だから　こっちもウデによりをかけて\n　パワーの出る新メニューを　考えなきゃあね。\n　……てなわけで　冒険者のお兄さん。\n<br>\n「ちょっくら　あたしを助けると思ってさ。\n　ギルザッド地方の　ギルザの入り江まで行って\n　タコツキ貝を　採ってきてくれないかい？<endif>": 
     "<if_woman><attr><feel_happy_lv1><end_attr>My children work hard and eat a lot, so the\namount of food I have to cook every day is too\nmuch. I don't even have time to stretch my\n<br>\nlegs. As soon as I cook breakfast, lunch is\nready. Just when I think lunch is over, dinner\nis ready. Oh, I'm so busy! I'm so busy! But\n<br>\nthe most exciting thing for me is that\neveryone at the castle eats every last bite of\nmy cooking because they think it's so\n<br>\ndelicious. That's why I have to put my skills\nto the test and come up with a new menu that\nwill bring out their energy. So, adventurer\n<br>\nlady. I thought you could help me out a\nlittle. I need you to go to Gilza Cove in\nGilzad Region and pick up some Octopus Shells\n<br>\nfor me.<else><attr><feel_happy_lv1><end_attr>My children work hard and eat a lot, so the\namount of food I have to cook every day is too\nmuch. I don't even have time to stretch my\n<br>\nlegs. As soon as I cook breakfast, lunch is\nready. Just when I think lunch is over, dinner\nis ready. Oh, I'm so busy! I'm so busy! But\n<br>\nthe most exciting thing for me is that\neveryone at the castle eats every last bite of\nmy cooking because they think it's so\n<br>\ndelicious. That's why I have to put my skills\nto the test and come up with a new menu that\nwill bring out their energy. So, adventurer\n<br>\nbrother. I thought you could help me out a\nlittle. I want you to go to Gilza Cove in\nGilzad Region and pick up some Octopus Shells\n<br>\nfor me.<endif>"
@@ -1146,7 +1141,7 @@
   },
   "34710": {
     "「アロルドさんと　マイユさん\n　そして　ジーガンフさんは　はるか北にある\n　ランガーオ村の出身で　幼なじみだそうです。\n<br>\n「でも　何か　事情があるのでしょうね……。\n　ひさしぶりの再会なのに　ジーガンフさんは\n　旅の途中だからと　行ってしまわれました。": 
-    "Arold, Maille, and Jiganf are from Rangao\nVillage, far to the north, and have known each\nother since childhood. But there must be some\n<br>\ncircumstances. It has been a long time since\nwe met, but Mr. Jiganf left because he was on\nhis way on a trip."
+    "Arold, Maille, and Jiganf are from Rangao Village,\nfar to the north, and people say they have known\neach other since childhood.\n<br>\nBut there must be some circumstances...\nIt had been a long time since we met, but Jiganf\nleft because he was in the middle of a trip."
   },
   "34711": {
     "「助けてくださって　ありがとうございました。\n　すでに　回復したギザックは\n　次の任務に　おもむいたようです。": 
@@ -1154,7 +1149,7 @@
   },
   "34712": {
     "「この先は　グロスナー王がおわす　玉座の間。\n　王は　そなたになら　いつでも\n　よろこんで　お会いになるだろう。": 
-    "Beyond this is the throne room of King\nGrossner, who will be pleased to meet you at\nany time."
+    "Beyond this is the throne room of King Grossner.\nThe King will always be pleased to meet with you,\nI believe."
   },
   "34713": {
     "<attr><feel_happy_lv1><end_attr>「やあ　<pc>くん！\n　どうしたんだい？\n　この私が　元気そうで意外かね！？\n<br>\n「あの　でかくて　ジャマで\n　うっとうしいマリーンが　いなくなったんだ。\n　また　私の時代が　来たんだよ！\n<br>\n「フッフッフッフッフ……。\n　これを　よろこばずにいられようか。": 
