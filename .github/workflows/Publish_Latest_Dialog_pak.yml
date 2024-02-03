@@ -44,14 +44,15 @@ jobs:
           python ./pack_etp_GitHubActions.py -a
           deactivate
           cd ~
-          ./UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak -Create=../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/dqx_dat_dump/tools/packing/responsefile_WindowsNoEditor.txt
-          ./UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak -Create=../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/dqx_dat_dump/tools/packing/responsefile_Switch.txt
+          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx_dat_dump/tools/packing/responsefile_Switch.txt
+          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx_dat_dump/tools/packing/responsefile_WindowsNoEditor.txt
+        # ./UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak -Create=../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/dqx_dat_dump/tools/packing/responsefile_WindowsNoEditor.txt
+        # ./UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak -Create=../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/dqx_dat_dump/tools/packing/responsefile_Switch.txt
         # <UnrealPak Filepath>/UnrealPak     <UnrealPak Filepath Reversed>/downloads/pakchunk0-{PLATFORM}_Dialog_Latest_P.pak -Create=<UnrealPak Filepath Reversed>/dqx_dat_dump/tools/packing/responsefile_{PLATFORM}.txt
 
       - name: Get Current Time
         run: |
           echo "time=$(date +'%Y_%m_%d_%H%M')" >> $GITHUB_ENV
-          echo "${{ github.workspace }}"
 
       - name: Upload Artifact GitHub Action
         uses: actions/upload-artifact@v4
