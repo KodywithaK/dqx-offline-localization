@@ -1,4 +1,5 @@
-name: Publish Latest Dialog _P.pak As GitHub Actions Artifact
+name: Publish Dialogue_Latest_P.pak As GitHub Actions Artifact
+run-name: Publish Dialogue_Latest_P.pak As GitHub Actions Artifact
 
 on:
   push:
@@ -24,7 +25,7 @@ jobs:
           path: ./dqx-offline-localization
           repository: KodywithaK/dqx-offline-localization
           ref: testing
-          sparse-checkout: | # Checks out only the dialog folder
+          sparse-checkout: | # Checks out only the FINAL dialog folder
             FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
       
       - name: Install Python
@@ -46,9 +47,6 @@ jobs:
           cd ~
           ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx_dat_dump/tools/packing/responsefile_Switch.txt
           ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx_dat_dump/tools/packing/responsefile_WindowsNoEditor.txt
-        # ./UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak -Create=../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/dqx_dat_dump/tools/packing/responsefile_WindowsNoEditor.txt
-        # ./UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak -Create=../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/dqx_dat_dump/tools/packing/responsefile_Switch.txt
-        # <UnrealPak Filepath>/UnrealPak     <UnrealPak Filepath Reversed>/downloads/pakchunk0-{PLATFORM}_Dialog_Latest_P.pak -Create=<UnrealPak Filepath Reversed>/dqx_dat_dump/tools/packing/responsefile_{PLATFORM}.txt
 
       - name: Get Current Time
         run: |
