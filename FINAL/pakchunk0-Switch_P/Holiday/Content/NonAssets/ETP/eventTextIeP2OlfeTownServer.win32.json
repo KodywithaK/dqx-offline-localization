@@ -1,0 +1,850 @@
+{
+  "10163000": {
+    "<attr><feel_normal_lv2><end_attr>「プクランド大陸のどこかに　プクベリーという\n　とっても甘くて　いい香りのする果実が\n　実っていることが　あるそうです。\n<br>\n「ただ　実っても　すぐに魔物が食べてしまって\n　とても　手に入れるのが　難しいので\n　幻の果実　なんて言われているのですが……。\n<br>\n「オルフェアご出身の　メギストリスのお妃様も\n　生前は　プクベリーの香りが　お気に入りで\n　香水にして　いつも持ち歩いていたそうですよ。": 
+    "<attr><feel_normal_lv2><end_attr>It is said that somewhere in the Pukuland\nContinent, there are sometimes very sweet and\nfragrant fruits called Pukuberries. However,\n<br>\nthey are very hard to find because monsters\neat them right after they are harvested, so\nthey are said to be a phantom fruit. The\n<br>\nMegistris Queen from Orphea also loved the\nscent of Pukuberries and used to carry them\naround with her as perfume."
+  },
+  "10163001": {
+    "「この先は　ご遠慮ください。\n<br>\n「町のみんなのために\n　新たな住宅地を　作っている\n　最中なのです。": 
+    "Please refrain from continuing. We are in the\nprocess of building a new residential area for\neveryone in town."
+  },
+  "175999": {
+    "<pc>は\n<%sEV_FEE_ITEM_A>を　手に入れた！<se_nots System Item>": 
+    "<pc> received <%sev_fee_item_a>!<se_nots System Item>"
+  },
+  "40268": {
+    "<attr><feel_happy_one><end_attr>「ああ……。愛しの　バロさま……。\n　どこ？　どこにいるの？\n　あなたを探しにいきたい　１０秒前……。": 
+    "<attr><feel_happy_one><end_attr>Oh. My dear Mr. Baro. Where is he? Where are\nyou? I want to find you. 10 seconds ago."
+  },
+  "40269": {
+    "<attr><feel_happy_one><end_attr>「ああ……。愛しの　ダン団リーダー\n　バロさま……。どこ？　どこにいるの？\n　あなたを探しにいきたい　１０秒前……。\n<br>\n「９…８…７…うん？": 
+    "<attr><feel_happy_one><end_attr>Oh. My dear Lord Duncan leader, Mr. Baro.\nWhere are you? Where are you? I want to find\nyou. 10 seconds ago. 987, yes?"
+  },
+  "40270": {
+    "<attr><feel_sad_lv3><end_attr>「って　ノー！　ズッコーン！\n　くっ……！　あたしの　そろえる分だけじゃ\n　超大量に　料理を作れないわね。\n<br>\n「でも　あたしは　あきらめないわよ！\n　あなたが　その気になってくれるまで\n　何年たっても　ここで待ち続けるわ！": 
+    "<attr><feel_sad_lv3><end_attr>I mean, no! Zuccoon! Damn! I don't think I'll\nbe able to cook a super large batch with just\nthe amount of food I have. But I won't give\n<br>\nup! I'll wait here for years until you're\nready!"
+  },
+  "40271": {
+    "<turn_pc>「き…きた！　戻ってきてくれた！\n　やっと　その気になってくれたのね！\n<br>\n「バロさまが　ギックリ腰で　かわいそうなの！\n　お見舞い用に　とっておきの料理を大量に作って\n　いっぱい　介抱してあげたいの！\n<br>\n「オルフェア地方東の　<%sEV_QUE_NAME0>って\n　魔物を倒すと　時々落とす\n　プクプクピーチを<%nEV_QUE_T_NUM0>個　集めてきてくれない？": 
+    "<turn_pc>I'm back! You came back! You're finally ready\nto do it! Poor Mr. Baro. He's got a bad back!\nI'm going to cook him a big batch of his\n<br>\nfavorite dishes and take care of him! Can you\nplease go to Orphea Region East and collect\n<%nev_que_t_num0> Pukupuku Peach, which is\n<br>\nsometimes dropped when you kill the\n<%sev_que_name0> monster?"
+  },
+  "40281": {
+    "<attr><feel_happy_lv3><end_attr>「イエス！　その返事を待っていたわ！\n　バロさま！　待っててね！　もうすぐ\n　あなたのギックリ腰は　治りマックス１００％！": 
+    "<attr><feel_happy_lv3><end_attr>YES! I've been waiting for your answer! Lord\nBaro! Wait and see! Soon your gimpy back will\nbe healed Max 100%!"
+  },
+  "40273": {
+    "<attr><feel_sad_lv3><end_attr>「イエス！　その返事を待っていた…けど！\n　なんか　いっぱい頼みごとを抱えてるわね。\n<br>\n「困っている人がいたら　助けるのが人情よ。\n　先に　用事を片付けてらっしゃい。": 
+    "<attr><feel_sad_lv3><end_attr>YES! I've been waiting for your answer! You\nseem to be asking a lot of me. If someone is\nin trouble, it's human nature to help them.\n<br>\nWhy don't you go take care of your business\nfirst?"
+  },
+  "40274": {
+    "<attr><feel_sad_lv3><end_attr>「って　ノー！　ズッコーン！\n　くっ……！　あたしの　そろえる分だけじゃ\n　超大量に　料理を作れないわね。\n<br>\n「でも　あたしは　あきらめないわよ！\n　あなたが　その気になってくれるまで\n　何年たっても　ここで待ち続けるわ！": 
+    "<attr><feel_sad_lv3><end_attr>I mean, no! Zuccoon! Damn! I don't think I'll\nbe able to cook a super large batch with just\nthe amount of food I have. But I won't give\n<br>\nup! I'll wait here for years until you're\nready!"
+  },
+  "40275": {
+    "<turn_pc>「ねぇ　あなた。…６。\n　ダン団が　どこにいるか　知らない？\n　…５。あ。ダンダダ団を略して　ダン団ね。\n<br>\n「あたし　リーダーのバロさまにメロメロなの。\n　…４。前まで　この町で大活躍してたのよ。\n　もう　すっごい　かっこよかったわ。\n<br>\n「…３。でも　パクレ警部が追いまわしたから\n　最近　姿を見せなくなっちゃったの。\n　バロさま……。どうしちゃったのかしら。": 
+    "<turn_pc>Hey, you, 6, do you know where the Dangdang\nare? 5. Oh, Robbin' Ood Gang, or Dan Dan-dan\nfor short. I'm crazy about their leader, Mr.\n<br>\nBaro. 4. He used to be very active in this\ntown. He was so cool. 3. But Inspector Pakul\nchased him away, so he's been out of sight\n<br>\nlately. Mr. Baro. I wonder what happened to\nhim."
+  },
+  "40276": {
+    "バロが　ギックリ腰になったことを\n教えてあげますか？<yesno><close>": 
+    "Would you like me to tell you that Barro has a\ngimpy back?<yesno><close>"
+  },
+  "40277": {
+    "<attr><feel_sad_lv3><end_attr>「バロさま……。もしかして　この恋って\n　かなわず…実らず…存じませぬ？\n　でも　かなわぬ恋に胸キュンな　あたし……。": 
+    "<attr><feel_sad_lv3><end_attr>Mr. Baro. Could it be that this love has not\nborne fruit? But I, who am so excited by the\nlove that cannot be fulfilled."
+  },
+  "40278": {
+    "<pc>は　ハナポッパに\nバロのギックリ腰のことを　教えてあげた！": 
+    "<pc> told Hanapoppa about Barro's\ngimpy back!"
+  },
+  "40279": {
+    "「ギックリ腰ですって……？\n　しかも　オルフェア地方西の井戸にいる……？": 
+    "I've got a bad back? And you're in Orphea\nRegion West well?"
+  },
+  "40280": {
+    "<attr><feel_happy_lv3><end_attr><icon_exc>「よーし！　こうしちゃいられないわ！\n　善は急げ！　急がば善善！\n<br>\n「お見舞い用に　とっておきの料理を大量に作って\n　バロさまを　いっぱい介抱しちゃうんだから！\n　猪突猛進！　あたし　まっしぐら！\n<br>\n「って　そうだ。\n　あたしが　そろえる分だけじゃ足りないから\n　ひとつ　お願いがあるんだけど。\n<br>\n「オルフェア地方東の　<%sEV_QUE_NAME0>って\n　魔物を倒すと　時々落とす\n　プクプクピーチを<%nEV_QUE_T_NUM0>個　集めてきてくれない？": 
+    "<attr><feel_happy_lv3><end_attr><icon_exc>Alright! I can't let this happen! Hurry up and\ndo the right thing! Hurry up and do it right!\nI'm going to make a lot of special dishes for\n<br>\nthe visit to the hospital and give Baro-sama a\nlot of care! I'm going to go for it! I'm going\nstraight for it! That's right. I'd like to ask\n<br>\nyou to do something for me, since the amount\nof food I have isn't enough. Can you please\nget me <%nev_que_t_num0> of the Pukupuku\n<br>\nPeaches that are sometimes dropped when you\ndefeat the <%sev_que_name0> monster in Orphea\nRegion East?"
+  },
+  "40272": {
+    "<attr><feel_happy_lv3><end_attr>「イエス！　その返事を待っていたわ！\n　バロさま！　待っててね！　もうすぐ\n　あなたのギックリ腰は　治りマックス１００％！": 
+    "<attr><feel_happy_lv3><end_attr>YES! I've been waiting for your answer! Lord\nBaro! Wait and see! Soon your gimpy back will\nbe healed Max 100%!"
+  },
+  "40282": {
+    "<attr><feel_sad_lv3><end_attr>「イエス！　その返事を待っていた…けど！\n　なんか　いっぱい頼みごとを抱えてるわね。\n<br>\n「困っている人がいたら　助けるのが人情……。\n　先に　用事を片付けてくるのよ！": 
+    "<attr><feel_sad_lv3><end_attr>YES! I've been waiting for your answer! You\nseem to be asking a lot of me. If someone is\nin trouble, we should help them. You should go\n<br>\ntake care of your business first!"
+  },
+  "40283": {
+    "「オルフェア地方東の　<%sEV_QUE_NAME0>って\n　魔物を倒せば　時々落とす\n　プクプクピーチを<%nEV_QUE_T_NUM0>個　集めてきてね！<open_irai><bw_break>": 
+    "If you kill the <%sEV_QUE_NAME0> monster in\nOrphea Region East, collect <%nev_que_t_num0>\nPukupuku Peach that it sometimes drops!<open_irai><bw_break>"
+  },
+  "40284": {
+    "「バロさまが　ギックリ腰で　かわいそうだから\n　お見舞い用に　とっておきの料理を大量に作って\n　いっぱい　介抱しちゃうの！　よろしくね！": 
+    "I'm going to make a big batch of my favorite\ndishes and take care of Baro-sama in my\nhospital because he's got a bad back! I'll\n<br>\ntake care of him a lot!"
+  },
+  "40285": {
+    "<attr><feel_happy_lv3><end_attr>「あなた　プクプクピーチは……。\n　って　それは　まさしく！\n<br>\n「イエス！　あたしが買い占めた分と\n　あなたが持ってきた分の　プクプクピーチで\n　とっておきの料理を　１年分くらい　作れるわ！\n<br>\n「あたしんち　こう見えて　お金持ちなのよ。\n　だから　オルフェア中の　プクプクピーチを\n　ぜーんぶ　買い占めちゃったの！\n<br>\n「これで　バロさまも　元気になるはず！\n　もう　結婚秒読み　まちがいナッシング！\n　さあ！　これは礼よ！　受け取りなっさーい！": 
+    "<attr><feel_happy_lv3><end_attr>You, Puk Puk Peach. That's exactly what I\nmean! Yes! I can cook a year's worth of\nspecial dishes with all the Puk Puk peaches I\n<br>\nbought up and the ones you brought! I'm rich,\nyou know. That's why I bought up all the\nPukupuku Peach in Orphea! I'm sure this will\n<br>\ncheer up Mr. Baro! We're getting married soon,\nthat's for sure! Here we go! This is for you!\nPlease accept this!"
+  },
+  "40286": {
+    "<attr><feel_happy_lv3><end_attr>「料理ができたら　ダン団の井戸に行って\n　いっぱい　介抱しちゃうんだから！\n　待っててね！　愛しのバロさま！": 
+    "<attr><feel_happy_lv3><end_attr>When I'm done cooking, I'll go to Dan Dan's\nwell and cuddle with him a lot! Wait for me!\nMy dearest Baro!"
+  },
+  "40287": {
+    "<attr><feel_happy_lv3><end_attr>「イエス！　あたしが買い占めた分と\n　あなたが持ってきた分の　プクプクピーチで\n　とっておきの料理を　１年分くらい　作れるわ！\n<br>\n「料理ができたら　ダン団の井戸に行って\n　いっぱい　介抱しちゃうんだから！\n　待っててね！　愛しのバロさま！": 
+    "<attr><feel_happy_lv3><end_attr>Yes! I can make enough of the best food for a\nyear with all the puk-puk peaches I've bought\nup and the rest you've brought! And when I'm\n<br>\ndone cooking, I'm going to go to Dan's Well\nand give him a big hug! I'll be waiting for\nyou! My dearest Baro!"
+  },
+  "40288": {
+    "「ふ～。あなたが持ってきた分と　あたしが\n　買い占めた分の　プクプクピーチを使って\n　料理を作ってるけど　量が多くて時間かかるわ。\n<br>\n「でも　あたし　ちょっと悪いことしたかも。\n　プクプクピーチが　町から　なくなっちゃって\n　困ってる人とか　いるかもしれないわね。": 
+    "Hmmm... I'm cooking with the amount of\nPukupuku Peach you brought and the amount I\nbought up, but it's a lot and it's taking a\n<br>\nlong time. But I might have done something\nwrong. Maybe there are people who are in\ntrouble because Pukupuku Peach has disappeared\n<br>\nfrom the town."
+  },
+  "40289": {
+    "<attr><feel_sad_lv3><end_attr>「なんて　ついてないんだ　私は……。\n　うう……。聞いてください。\n　この　世にも恐ろしい出来事を！\n<br>\n「私　じつは料理人でしてね。これでも\n　プクプクピーチを用いた料理を作らせれば\n　右に出る者はいないと　町では言われています。\n<br>\n「私は　いつものように　自慢の料理を作ろうと\n　プクプクピーチを買いにいきました……。\n<br>\n「が！　あろうことか　どこの店をまわっても\n　すべて売り切れで　手に入らなくなったんです！\n　なんと　恐ろしいことでしょう！\n<br>\n「あの料理が作れなくては　料理人として\n　やっていく自信が　ありません……。\n　ああ……。絶望です……。\n<br>\n「これは　料理人をやめろという\n　神の　お告げなのでしょうか……？\n　あなたも　そう思いますよね？<yesno><break>": 
+    "<attr><feel_sad_lv3><end_attr>How unlucky I am. Ugh. Listen to this. Listen\nto this horrifying incident! I'm actually a\ncook. It is said that there is no one in town\n<br>\nwho can make a dish using Pukupuku Peach\nbetter than me. I went to buy some Pukupuku\nPeach to make a dish I am proud of. But...! Of\n<br>\ncourse, no matter where I went to buy them,\nthey were all sold out and I couldn't get any\nmore! What a terrible thing! If I can't make\n<br>\nthat dish, I don't have the confidence to make\nit as a chef. Ah, it's hopeless. I'm in\ndespair. Is this a sign from God that I should\n<br>\nstop being a chef? You think so too, don't\nyou?<yesno><break>"
+  },
+  "40296": {
+    "「おお。やってくれるのですね。\n　その気持ちは　ありがたいのですが……。\n<br>\n「どうやら　他の方々の頼みごとを\n　たくさん抱えている　ご様子。\n　そちらを　優先していただいて構いません。": 
+    "Oh. You are going to do it, aren't you? I\nappreciate the sentiment, but... It seems that\nyou have a lot of other people asking you for\n<br>\nfavors. You can give priority to that."
+  },
+  "40297": {
+    "<attr><feel_sad_lv2><end_attr>「うう……。仕方ありません。\n　ここで断られるのも　私の運命なのでしょう。\n　私は　自然の流れに身をまかせるのみです。": 
+    "<attr><feel_sad_lv2><end_attr>Ugh. It can't be helped. I guess it is my\ndestiny to be rejected here. I will just let\nnature take its course."
+  },
+  "40292": {
+    "<attr><feel_sad_lv3><end_attr>「そうですか……。でも　でも\n　あの料理が作れないのに　どうすれば……。\n　ああ……。絶望です……。": 
+    "<attr><feel_sad_lv3><end_attr>I see. But... But how can I make that dish if\nI can't make it? Ah. It's hopeless."
+  },
+  "40293": {
+    "<attr><feel_sad_lv3><end_attr>「そうですよね。私も　そう思います。\n　でも　料理人をやめたら\n　いったい　どういう職業に転職すれば……。": 
+    "<attr><feel_sad_lv3><end_attr>Yes, I think so. I think so too. But if I quit\nmy job as a cook, what kind of location should\nI change to?"
+  },
+  "40294": {
+    "<icon_exc>「……そうか！　はっはっは！\n　なんで　気がつかなかったんだろう！\n<br>\n「神父になろう！　神の　お告げが聞こえたんだし\n　神父になりたいという　子供のころからの夢を\n　かなえる時が　きたんだ！\n<br>\n「よし。さっそく　洗礼をやろう。\n　あの　すみませんが　洗礼に必要な\n　神秘の水を　持ってきてくれませんか？\n<br>\n「神秘の水は　ミュルエルの森にいる\n　<%sEV_QUE_NAME0>を　倒すと\n　手に入るはずです。お願いできませんか？": 
+    "<icon_exc>I see! Haha! Why didn't I notice that? I'm\ngoing to be a priest! I heard God's voice\ntelling me it was time to fulfill my childhood\n<br>\ndream of becoming a priest! All right. I'll\nbaptize him right away. Excuse me, can you\nbring the Sacred Water for the baptism? Sacred\n<br>\nWater can be obtained by defeating\n<%sev_que_name0> in Muruel Forest. Can you do\nthat for me?"
+  },
+  "40295": {
+    "<attr><feel_happy_lv2><end_attr>「おお！　やってくれるのですね！\n　協力してくれる人に出会えるとは　やはり\n　私は　神父に転職する運命にあるようです。": 
+    "<attr><feel_happy_lv2><end_attr>Oh! You are going to do it, aren't you? To\nmeet someone who is willing to help me, it\nseems I am destined to become a priest after\n<br>\nall."
+  },
+  "40290": {
+    "「おお。やってくれるのですね。\n　その気持ちは　ありがたいのですが……。\n<br>\n「どうやら　他の方々の頼みごとを\n　たくさん抱えている　ご様子。\n　そちらを　優先していただいて構いません。": 
+    "Oh. You are going to do it, aren't you? I\nappreciate the sentiment, but... It seems that\nyou have a lot of other people asking you for\n<br>\nfavors. You can give priority to that."
+  },
+  "40291": {
+    "<attr><feel_sad_lv2><end_attr>「うう……。仕方ありません。\n　ここで断られるのも　私の運命なのでしょう。\n　私は　自然の流れに身をまかせるのみです。": 
+    "<attr><feel_sad_lv2><end_attr>Ugh. It can't be helped. I guess it is my\ndestiny to be rejected here. I will just let\nnature take its course."
+  },
+  "40298": {
+    "<attr><feel_happy_lv2><end_attr>「おお！　戻ってきてくれたんですね！\n　どうやら　私は見捨てられてないらしい！\n<br>\n「よし。さっそく　洗礼をやろう。\n　あの　すみませんが　洗礼に必要な\n　神秘の水を　持ってきてくれませんか？\n<br>\n「神秘の水は　ミュルエルの森にいる\n　<%sEV_QUE_NAME0>を　倒すと\n　手に入るはずです。お願いできませんか？": 
+    "<attr><feel_happy_lv2><end_attr>Oh! You've come back! Apparently, I wasn't\nabandoned! All right. Let's do the baptism\nright away. Excuse me, can you bring me the\n<br>\nSacred Water I need for the baptism? Sacred\nWater can be obtained by defeating\n<%sev_que_name0> in Muruel Forest. Can you do\n<br>\nthat for me?"
+  },
+  "40299": {
+    "<attr><feel_happy_lv2><end_attr>「おお！　やってくれるのですね！\n　協力してくれる人に出会えるとは　やはり\n　私は　神父に転職する運命にあるようです。": 
+    "<attr><feel_happy_lv2><end_attr>Oh! You are going to do it, aren't you? To\nmeet someone who is willing to help me, it\nseems I am destined to become a priest after\n<br>\nall."
+  },
+  "40300": {
+    "「得意の料理が　作れなくなったぐらいで\n　落ちこんでるなんて　主人ったら\n　ホント　情けないですよね。\n<br>\n「もっと　前向きに考えたらいいのにって\n　あたしなんかは　思うんですけどね。\n　そういうわけには　いかないのかしら。": 
+    "It's really pathetic for a master to be\ndepressed just because he can't cook his\nfavorite dish anymore. I think it would be\n<br>\nbetter if he had a more positive outlook on\nthings. But I guess that's not possible."
+  },
+  "40301": {
+    "「神秘の水は　ミュルエルの森にいる\n　<%sEV_QUE_NAME0>を　倒すと\n　手に入るはずです。<open_irai><bw_break>": 
+    "Sacred Water can be obtained by defeating\n<%sev_que_name0> in Muruel Forest.<open_irai><bw_break>"
+  },
+  "40302": {
+    "「神父になるために　洗礼を行いますので\n　神秘の水を　持ってきてください。\n　よろしくお願いしますね。": 
+    "I am baptizing you to become a priest, so\nplease bring Sacred Water with you. Thank you\nvery much."
+  },
+  "40303": {
+    "<attr><feel_angry_lv2><end_attr>「料理人をやめて　どうするのかと思ったら\n　まさか　神父になりたいだなんて……。\n<br>\n「はあ。呆れるのを通りこして\n　言葉にも　なりませんわ。\n　もう　ご自由にどうぞって感じです。": 
+    "<attr><feel_angry_lv2><end_attr>I wondered what you were going to do when you\nquit being a cook, but I didn't expect you to\nwant to be a priest. I'm beyond stunned. I'm\n<br>\nbeyond stunned. I don't even know what to say.\nI feel like I should be free to do as I\nplease."
+  },
+  "40304": {
+    "「おお！　それは　神秘の水！\n　ありがとうございます！\n　本当に　ありがとうございます！\n<br>\n「これで　洗礼を行える！\n　私は　ついに　神父となるのだ！\n<br>\n「おお。今の私には見えます。\n　料理人の時には見えなかった　私の使命が。\n　これで　やりたいことができますよ。\n<br>\n「これは　お礼です。受け取ってください。": 
+    "Oh! That's Sacred Water! Thank you! Thank you\nso much! Now I can perform baptism! I'll\nfinally be a priest! Oh. I see it now. My\n<br>\nmission, which I couldn't see when I was a\ncook. Now I can do what I want. This is my\nthanks. Please accept it."
+  },
+  "40305": {
+    "「そうだ。そういえば　この町には\n　神父さんが　もうひとりいたな。\n　後で　ごあいさつに行かなくては。": 
+    "That's right. Come to think of it, there is\nanother priest in this town. I'll have to go\nsay hello to him later."
+  },
+  "40306": {
+    "「そういえば　この町には\n　神父さんが　もうひとりいたな。\n　後で　ごあいさつに行かなくては。": 
+    "Come to think of it, there is another priest\nin this town. I'll have to go say hello to him\nlater."
+  },
+  "40307": {
+    "「神父さまは　この町の誇りですわ。\n　長年の　ご奉仕が実を結び\n　町の方々も　神父さまを愛しておられます。": 
+    "Father is the pride of this town. His many\nyears of service have borne fruit, and the\npeople of this town love him."
+  },
+  "40308": {
+    "「洗礼を済ませたから　この町の神父さまに\n　ごあいさつに　行ったんだよ。\n<br>\n「新しく神父になります　ヘッチャーフです。\n　これから　お世話になりますってね。\n　でも　ちょっと気がかりが　あったんだ。\n<br>\n「神父さまは　こころよく承諾してくれたが\n　そばにいたシスターが　にらんでいたんだよ。\n　私　なんか悪いことでもしたのかな。": 
+    "I've been baptized, so I went to say hello to\nthe priest in this town. I'm Hetchaffe, the\nnew priest. He said he would take care of me\n<br>\nfrom now on. But I had a little concern. The\npriest gave his consent with all his heart,\nbut the sisters beside him were looking at me.\n<br>\nDid I do something wrong?"
+  },
+  "40309": {
+    "<attr><feel_think_lv1><end_attr>「まさか　本当に　神父になるなんて……。\n　うちの主人の考えていることは\n　私の理解を　こえていますわ。": 
+    "<attr><feel_think_lv1><end_attr>I never thought that he would really become a\npriest. What our master is thinking is beyond\nmy comprehension."
+  },
+  "40310": {
+    "「ようこそ　お越しくださいました。\n　……あなたは　ウデが立つようですね。\n　じつは　問題が……。ちょっと聞いてください。\n<br>\n「ヘッチャーフという　さえない料理人が\n　神父になろうとしています。そうなれば\n　この町の神父は　ふたりになってしまいますわ。\n<br>\n「ふたりもいては　片方が用済みになるのは必然。\n　長年　築きあげてきた神父さまのキャリアを\n　こんな形で　失わせたくありません。\n<br>\n「この町で　これからも神父を続けさせるには\n　方法は　ひとつ。結果を残すことですわ。\n　誰もが納得するような　大きな結果をね。\n<br>\n「で　あたくし考えました。神父さまが\n　呪われてる方の呪いを解けば　名声を保てるから\n　当面　町から追いだされる心配は　なくなると。\n<br>\n「しかも　ただの呪いではなく　より特殊な……。\n　そうね……　イスから立ち上がれなくなるとか\n　インパクトのある呪いが　いいですわね。\n<br>\n「そこで　あなたに　お願いがあるんです。\n　オルフェア地方西の南東辺りに\n　特殊な呪いを使う魔物が　いると聞きます。\n<br>\n「お礼はしますから　その辺りへ向かって\n　そんな　特殊な呪いにかかっている方を\n　探してくださいませんか？": 
+    "Welcome, welcome. You seem to have a knack for\nthis. Actually, there's a problem. Listen to\nme for a moment. A poor cook named Hetchaffe\n<br>\nis trying to become a priest. That would leave\ntwo priests in this town. With two, one will\ninevitably become useless. I don't want to see\n<br>\nyou lose your career that you have built up\nover the years. There is only one way to keep\nhim in this town. We have to get results. A\n<br>\nbig result that everyone will be satisfied\nwith. So I've been thinking. If the priest\nbreaks the curse of the one who is cursed, he\n<br>\ncan keep his reputation, and he won't have to\nworry about being kicked out of town for the\ntime being. And not just a curse, but\n<br>\nsomething more specific. Something that would\nmake him unable to get up from his chair, or\nsomething with more impact. So I have a favor\n<br>\nto ask of you. I heard that there is a monster\nwho uses a special curse in the southeast area\nof Orphea Region West. I would be very\n<br>\ngrateful if you could head to that area and\nfind out who is under such a particular curse."
+  },
+  "40311": {
+    "「まあ　うれしい。ありがとうございます。\n<br>\n「イスから　立ち上がれなくなるような\n　特殊な呪いに　かかってる方を　見つけたら\n　この　クラッカーを　鳴らしてください。\n<br>\n「音が聞こえる範囲でしたら\n　あたくし　すぐに駆けつけますので。\n　それでは　よろしくお願いしますね。": 
+    "Well, I'm glad. Thank you very much. If you\nfind someone who is under a special curse that\nprevents him or her from getting up from a\n<br>\nchair, please ring this Krakka. If I can hear\nthe sound, I will come right away. Thank you\nvery much."
+  },
+  "40312": {
+    "<pc>は　シスター・プリミンから\nどこでもクラッカー（だいじなもの）を\n受け取った！<me 60>": 
+    "<pc> received an Anywhere Cracker\n(Key Item) from Sister Purimin!<me 60>"
+  },
+  "40313": {
+    "「まあ　うれしい。ありがとうございます。\n　お気持ちは　うれしいのですが……。\n<br>\n「他の方の頼みごとで　いっぱいのようですね。\n　困っている方に　手を差しのべるのは当然です。\n　そちらを　優先してくださいな。": 
+    "Well, I'm glad. Thank you very much. I'm glad\nto hear that. But you seem to be full of other\npeople's requests. It's natural to give a\n<br>\nhelping hand to those in need. Please put them\nfirst."
+  },
+  "40314": {
+    "<attr><feel_sad_lv1><end_attr>「そうですか……。それは　残念ですね。\n　やはり　ここは　あたくし自ら\n　探しにいくしかないのかしら……。": 
+    "<attr><feel_sad_lv1><end_attr>I see. That is unfortunate. I guess I'll have\nto go looking for it myself."
+  },
+  "42175": {
+    "<pc>は\nどこでもクラッカーを　鳴らそうとした。\n<br>\nしかし　呪われた人が　いないところで\n鳴らすわけにはいかない！": 
+    "<pc> tried to ring Anywhere Cracker.\nBut we can't ring it where the damned are not!"
+  },
+  "40315": {
+    "「神父さまが　呪われている方の呪いを解けば\n　名声を保てるから　町から追いだされる心配は\n　なくなると　あたくしは考えています。\n<br>\n「イスから　立ち上がれなくなるというような\n　特殊な呪いに　かかっている方を　見つけたら\n　その　どこでもクラッカーを鳴らしてください。<open_irai><bw_break>": 
+    "I believe that if a priest can break a curse\non someone, he can keep his good name and not\nworry about being run out of town. If you find\n<br>\nsomeone under a particular curse that prevents\nthem from getting up from their chair, please\nring the Anywhere Cracker.<open_irai><bw_break>"
+  },
+  "40316": {
+    "「オルフェア地方西の　南東辺りには\n　特殊な呪いを使う魔物が　いると聞きます。\n　呪われてる方が　いるかもしれませんね。": 
+    "I heard that there is a monster who uses a\nspecial curse in the southeast area of Orphea\nRegion West. There might be someone who is\n<br>\ncursed."
+  },
+  "40317": {
+    "<attr><feel_happy_lv2><end_attr>「あなたには　お世話になりましたね。\n　ウワサが広まれば　神父さまの地位も安泰です。\n　町から　追いだされずに済むでしょう。\n<br>\n「これは　お礼になりますので　どうぞ。": 
+    "<attr><feel_happy_lv2><end_attr>You've been a great help to me. If word gets\nout, Father's position will be secure. You\nwon't be driven out of town. This is my way of\n<br>\nsaying thank you."
+  },
+  "40318": {
+    "<attr><feel_happy_lv2><end_attr>「あなたには　お世話になりましたね。\n　ウワサが広まれば　神父さまの地位も安泰です。\n　町から　追いだされずに済むでしょう。": 
+    "<attr><feel_happy_lv2><end_attr>You've been a great help to me. If word gets\nout, Father's position will be secure. You\nwon't be driven out of town."
+  },
+  "69834": {
+    "<attr><feel_angry_lv3><end_attr><turn_pc>「くそっ　パクレの野郎……。\n　ようやく　姿を現したと思ったら\n　また　雲隠れしやがって……！\n<br>\n「借りた金　踏みたおせるなんて思うなよ！\n　今度　見つけたら　とっ捕まえて\n　ケツの毛まで　１本残らず　むしりとってやる！": 
+    "<attr><feel_angry_lv3><end_attr><turn_pc>Damn Pakul. Just when I thought he'd finally\ncome out of hiding, he goes into cloud cover\nagain! Don't think you can just walk away from\n<br>\nthe money you owe me! Next time I see him, I'm\ngonna grab him and rip every hair out of his\nass!"
+  },
+  "40319": {
+    "<attr><feel_happy_lv2><end_attr><turn_pc>「バロさまったら　あたしの料理を\n　ぜーんぶ　たいらげちゃったのよ！\n　これぞ　まさしく愛！　愛よ！　愛だわ！\n<br>\n「こうなったら　猛烈にアプローチして\n　速攻で　結婚まで　いってやるんだから！\n　猪突猛進！　あたし　まっしぐら！": 
+    "<attr><feel_happy_lv2><end_attr><turn_pc>Mr. Baro ate all of my food! This is love!\nIt's love! It's love! I'm going to make a\nfierce approach and end up getting married\n<br>\nright away! I'm going to go for it! I'm going\nstraight for it!"
+  },
+  "69835": {
+    "<attr><feel_angry_one><end_attr>「なんかぁー。しばらく消えてた\n　パクレっていう　常連のオヤジが\n　戻ってきたみたいだけどぉー。\n<br>\n「アイツ　酒グセ　最悪だし～\n　飲み代は　いっつもツケてばっかだし～。\n　ぶっちゃけ　いても　ビミョーなんすけどぉー。": 
+    "<attr><feel_angry_one><end_attr>What's going on? It seems that Pakul, a\nregular customer who has been gone for a\nwhile, has come back. He has a terrible\n<br>\ndrinking habit and always pays for his drinks.\nTo be honest, I'm not sure if he's still here."
+  },
+  "40320": {
+    "<attr><feel_happy_lv2><end_attr>「私　この前　神父デビューしたんですよ。\n　生まれてはじめて　町の方々に\n　神の教えを　説いてきました。\n<br>\n「プクプクピーチが　売り切れてなければ\n　私は　神父に　なっていませんでしたよ。\n　これも　おそらく　神の導きでしょうね。": 
+    "<attr><feel_happy_lv2><end_attr>I made my debut as a priest the other day. For\nthe first time in my life, I preached God's\nteachings to the people of this town. I\n<br>\nwouldn't have become a priest if they hadn't\nsold out of Pukupuku Peach. Perhaps it was\nGod's guidance."
+  },
+  "40321": {
+    "「神の　お告げとか　ありがたい教えとか\n　主人は　一日中そんなことを言ってますけど\n　まあ　元気になって　よかったです。\n<br>\n「料理人をやめると　言っていた時は\n　本当に　落ちこんでいましたからね。\n　元気でいられるのが　なによりですよ。": 
+    "I'm glad to hear that you are doing well, even\nthough you talk all day long about ''God's\noracle'' and ''thankful teachings. When you said\n<br>\nyou were going to quit being a chef, you were\nreally depressed. The best thing is that you\nare doing well."
+  },
+  "40322": {
+    "<attr><feel_happy_lv2><end_attr>「神父さまが　呪いを解いたウワサは\n　順調に　広まっているようです。\n　ふふふ……。これで　ひと安心ですわ。\n<br>\n「これで　ヘッチャーフが　実力をつけても\n　神父さまの名声を　超えることはないでしょう。\n　この勝負。あたくしたちが　もらいましたわ。": 
+    "<attr><feel_happy_lv2><end_attr>Rumors that Father has broken the curse seem\nto be spreading smoothly. Hmm. Now I can rest\neasy. Now, even if Hetchaffe grows in\n<br>\nstrength, he will never surpass Father's fame.\nThis match. We got it."
+  },
+  "198970": {
+    "いくつかの木箱が　無造作に置かれている。\n特に　気になるものは　見つからなかった。": 
+    "Several crates were randomly placed. I didn't\nfind anything of particular interest."
+  },
+  "48133": {
+    "「こんな裏通りにあるもんだから\n　親父から受け継いだ　ボクの鍛冶屋も\n　お客さんが　サッパリ来ないんだよね。\n<br>\n「でも　知ってる？　今は大人気のサーカスも\n　以前は　裏通りのケーキ屋だったんだよ。\n　あの成功には　ヒミツがあるんだ。\n<br>\n「当時　ケーキ職人だった　ナブレットさんは\n　伝説の職人　ピプゼールから\n　オーブンをもらって　大成功したんだよ。\n<br>\n「ピプゼールが作った道具は\n　どれも魔法がかかっていて　それを使えば\n　なんだって　うまくいくんだって！\n<br>\n「そこで　お願いなんだけど　ミュルエルの森の \n　小屋に住むピプゼールに　ボクにも魔法の道具を\n　作ってほしいって　頼んできてくれないかな。": 
+    "Because it's located on this alleyway, my\nblacksmith shop, which I inherited from my\nfather, doesn't get many customers. But you\n<br>\nknow what? The circus that is so popular now\nused to be a cake shop on alleyway. There's a\nsecret to that success. Mr. Nablette, who was\n<br>\na cake maker at that time, got an oven from\nPipzer, a legendary cake maker, and perfected\nit. He said that every tool Pipzer made had\n<br>\nmagic in them, and that if you used them,\neverything would turn out well! So, I would\nlike to ask Pipzer, who lives in a cabin in\n<br>\nMuruel Forest, to make me a magic tool too."
+  },
+  "48135": {
+    "<attr><feel_happy_lv1><end_attr>「わーい　ありがとう！\n　ホントは　自分で　頼みにいきたいけど\n　森の魔物が　怖くて　行けなかったんだ。\n<br>\n「お礼は　必ず　するから\n　よろしく頼んだよ。 ": 
+    "<attr><feel_happy_lv1><end_attr>Wow, thank you! I really wanted to ask you\nmyself, but I was afraid of the monster in the\nforest, so I couldn't go. I'll be sure to\n<br>\nreturn the favor, so please do."
+  },
+  "48136": {
+    "「わーい　ありがとう！　でも　見たところ\n　たくさんの仕事を　抱えているみたいだね。\n　手が空いてから　また来ておくれよ。": 
+    "Wow, thanks! But from the looks of it, you've\ngot a lot of work on your plate. Come back\nwhen you're free."
+  },
+  "48527": {
+    "「そう……。自分で行けって　言うんだろ？\n　でも　ミュルエルの森に出る　魔物が怖くて\n　とても　ひとりじゃ行けないよ。": 
+    "Yeah. You want me to go by myself, right? But\nI'm too scared of the monsters in Muruel\nForest to go by myself."
+  },
+  "48137": {
+    "「伝説の職人ピプゼールに　魔法の道具を\n　作ってもらえれば　親父から受け継いだ\n　ボクの鍛冶屋も　きっと　成功すると思うんだ。<open_irai><bw_break>": 
+    "If I can get the legendary Pipzer to make me a\nmagic tool, I'm sure my blacksmithing\nbusiness, which I inherited from my father,\n<br>\nwill be a success.<open_irai><bw_break>"
+  },
+  "48138": {
+    "<close_irai>「ピプゼールは　ミュルエルの森の小屋に\n　住んでいるから　何か　魔法の道具を\n　作ってもらえるよう　頼んできてくれよ。": 
+    "<close_irai>Pipzer lives in the cabin of Muruel Forest, so\ngo ask him to make you some kind of magic\ntool."
+  },
+  "48139": {
+    "「おかえり！　どうだった？\n　ピプゼールは　魔法の道具を作ることを\n　引き受けてくれたかい？\n<br>\n「えっ！　魔法の道具なんて　作れないし\n　あのオーブンに　魔法をかけたのは\n　自分じゃないと　言われたって？　そんな……。": 
+    "Welcome back! How'd it go? Did Pipzer take on\nthe task of creating the magical tool? What?\nHe told you that he can't make magic and that\n<br>\nhe didn't put the spell on the oven? Oh, no."
+  },
+  "48140": {
+    "<attr><feel_sad_lv1><end_attr>「ナブレットさんには　魔法のオーブンを作れて\n　どうして　ボクの道具は　できないんだよ！\n　そんなのヘンだよ！　まちがいだよ……。": 
+    "<attr><feel_sad_lv1><end_attr>Why can't Nablette make The Magic Oven and I\ncan't make my tools? That's not right! You're\nwrong."
+  },
+  "48141": {
+    "<attr><feel_think_lv1><end_attr>「この写真は……若い頃の　ナブレットさん？\n　てことは　奥にあるのが魔法のオーブンか。\n<br>\n「あはは。ナブレットさん……ススまみれで\n　真っ黒だ。それに　なんだか必死な顔して\n　とても　魔法のオーブンを使ってるようには……": 
+    "<attr><feel_think_lv1><end_attr>Is this a photo of Nablette in her younger\ndays? So that's The Magic Oven in the back.\nNablette is sooty and true black. And he\n<br>\ndoesn't look like he's using The Magic Oven\nwith his desperate face."
+  },
+  "48733": {
+    "<icon_exc>「そっか……。オーブンに魔法をかけたのは\n　ピプゼールじゃないって　そういうことか……。\n<br>\n「ナブレットさんが　ケーキ屋で成功したのは\n　魔法のおかげなんかじゃなくて……\n　成功したいと願って　必死でがんばったからだ。\n<br>\n「つまり　オーブンに魔法をかけたのは\n　ナブレットさん本人……\n　ピプゼールは　そう言いたかったんだな。\n<br>\n「……わざわざ　ミュルエルの森まで\n　行ってきてもらって　悪かったね。\n　これ　お礼に　受け取っておくれよ。": 
+    "<icon_exc>I see. So it wasn't Pipzer who put the magic\nin the oven. Nablette's success at the cake\nshop was not because of magic, but because she\n<br>\nwanted to succeed and worked hard. In other\nwords, it was Nablette herself who enchanted\nthe oven. I'm sorry you had to go all the way\n<br>\nto Muruel Forest. Here, take it as a thank-\nyou."
+  },
+  "48142": {
+    "オーブンの古い写真を\nレポッチに　渡しますか？<yesno><close>": 
+    "Would you like to give Old Oven Photograph to\nRepotchi?<yesno><close>"
+  },
+  "48143": {
+    "<pc>は　レポッチに\nオーブンの古い写真を　渡した！": 
+    "<pc> gave Old Oven Photograph to\nRepotchi!"
+  },
+  "48144": {
+    "「ナブレットさんが　成功したのは\n　魔法のオーブンのチカラなんかじゃなくて\n　あの人自身が　努力した成果なんだ。\n<br>\n「それなのに　魔法のオーブンだなんて\n　ナブレットさんの　照れ隠しの作り話を\n　信じ込んだりして……自分が　恥ずかしいよ。\n<br>\n「ボクも　いつか　魔法の道具を使っていると\n　ウワサされるぐらいの職人を　目指すんだ。\n　親父から継いだ鍛冶屋を　立て直してみせるよ！": 
+    "Nablette's success was not the result of The\nMagic Oven, but of her own efforts. And yet,\nI'm ashamed of myself for believing in\n<br>\nNablette's shy, fictional story about The\nMagic Oven. One day, I too aim to become a\ncraftsman who is rumored to be using magic\n<br>\ntools. I'll rebuild the blacksmith shop I\ninherited from my father!"
+  },
+  "48385": {
+    "巨大なホルンが　そびえ立っている。": 
+    "A huge horn stands tall."
+  },
+  "48386": {
+    "「広場にある　オルフェア名物　ビッグホルンは\n　今でこそ　ただの　大きな置物じゃが\n　前は　子供たちに　大人気だったんじゃよ……。": 
+    "Orphea's famous Big Horn in the plaza is now\njust a big figurine, but it used to be very\npopular among children."
+  },
+  "48387": {
+    "「おお　そうか。引き受けてくれるか！\n　やってきてくれたら　わしが　お前さんに\n　いいこと　してやろうかの。<bw_break>": 
+    "Oh, yeah. Will you accept? If you come, I'll\ndo something nice for you.<bw_break>"
+  },
+  "48388": {
+    "「いやはや　管理人のわしが　ヒザを悪くして\n　ホルンの掃除が　できなくなったせいで\n　管の中が　サビついてしまったんじゃ。\n<br>\n「困っていたところに　お前さんが来てくれて……\n　わしってば　なんて　ラッキーボーイ！\n　じゃあ　よろしくね！　キャピ♪": 
+    "Well, I, the janitor, have been unable to\nclean the horn because of my bad knee, and the\ninside of the pipe has become rusty. I was in\n<br>\ntrouble, and you came to me. What a Drang boy\nI am! Well then, I'm glad to meet you! Capi..."
+  },
+  "48390": {
+    "「そうか　そうか！　気持ちは　うれしいんじゃが\n　お前さん　今　他の人からの頼まれごとで\n　手が　いっぱいなんじゃないか？\n<br>\n「わしのことは　後回しでいいから\n　他の人の頼まれごとを　片付けてから\n　また　来てくれんかの。": 
+    "I see. I see! I'm glad you feel that way, but\nyou must have your hands full with other\npeople's requests, don't you? I'm sure you\n<br>\nhave your hands full with other people's\nrequests right now, don't you?"
+  },
+  "48391": {
+    "「そっ　そうか。残念じゃのう。\n　お前さんなら……　と思ったんじゃがのう。\n　本当に　残念じゃ。": 
+    "Oh, I see. That's too bad. I thought you would\nbe the one. It's a shame, really."
+  },
+  "50457": {
+    "<icon_exc>「ふぬっ！　ここに　うってつけの人物が……。\n　ちょいと　お前さん\n　哀れな老人の願い　聞いてもらえんかのう？\n<br>\n「まず　ウェナ諸島の　地底湖の洞くつにいる\n　<%sEV_QUE_NAME0>を倒すと　まれに手に入る\n　ポムポムオイルを　ゲットしてほしいんじゃ。\n<br>\n「ポムポムオイルは　どんなサビ汚れも一撃！\n　……の万能オイルでな。それを使って\n　ビッグホルンの　掃除をしてきてくれんかの。\n<br>\n「そして　掃除が終わったら　ビッグホルンが\n　息を吹き返したかどうか　しらべておくれ。\n　フッフプ　一生のお願い<heart>　お願い<heart>": 
+    "<icon_exc>Hmm! Here's just the man for the job. Hey, can\nyou do the poor old man a favor? First of all,\nI want you to get Pom Pom Oil, which is rarely\n<br>\nfound after defeating <%sev_que_name0> in\nUnderground Lake Cave, Wena Islands. Pom Pom\nOil is an all-purpose oil that can kill any\n<br>\nrust stain! It's an all-purpose oil. Go use it\nto clean the bighorns. And when you're done,\nplease tell me if Big Horn has come back to\n<br>\nlife. Fuffupu, a lifetime wish<heart>\nplease<heart>"
+  },
+  "48392": {
+    "「ポムポムオイルは　ウェナ諸島にある\n　地底湖の洞くつの　<%sEV_QUE_NAME0>を倒すと\n　まれに手に入る　サビ取り用のオイルじゃよ。<open_irai><bw_break>": 
+    "Pom Pom Oil is a rust remover rarely obtained\nby killing <%sev_que_name0> at Underground\nLake Cave in the Wena Islands.<open_irai><bw_break>"
+  },
+  "48393": {
+    "「お前さんには　そのオイルを使って\n　ビッグホルンの　掃除をしてきてほしいんじゃ。\n　やってくれなきゃ　フッフプ　泣いちゃうもん！<bw_break>": 
+    "I want you to go use that oil to clean the big\nhorn. Fuffupu will cry if you don't!<bw_break>"
+  },
+  "48394": {
+    "「掃除が終わって　ビッグホルンが\n　息を吹き返したかどうか　しらべてきてくれたら\n　お前さんに　いいこと　してやろうかの。": 
+    "If you could get back to me when you're done\ncleaning up and see if Big Horn has come back\nto life, I'll do you a favor."
+  },
+  "48396": {
+    "「ふごっ！　お前さんが持ってるのは\n　ポムポムオイルじゃな！<open_irai><bw_break>": 
+    "Gosh! That's Pom Pom Oil you're holding!<open_irai><bw_break>"
+  },
+  "48397": {
+    "「手に入れたなら　そのオイルを使って\n　ビッグホルンの掃除をして　ホルンが\n　息を吹き返したか　しらべてきてほしいんじゃ！<bw_break>": 
+    "If it's received, I'd like you to use the oil\nto clean the big horn and see if the horn came\nback to life!<bw_break>"
+  },
+  "48398": {
+    "「ちゃんと　最後まで　やってきてくれたら\n　お前さんに　いいこと　してあげるからっ！\n　おねが～い<heart>　キャピッ。": 
+    "I'll do something good for you if you come\nthrough to the end! I'll do something nice for\nyou if you do it right to the end!"
+  },
+  "48400": {
+    "巨大なホルンが　そびえ立っている。\n<br>\nポムポムオイルを使って\nビッグホルンの　掃除をしますか？<yesno><close>": 
+    "A huge horn stands tall. Would you like to\nclean the big horn with Pom Pom Oil?<yesno><close>"
+  },
+  "48401": {
+    "<pc>は　ポムポムオイルを使って\nビッグホルンの　サビ汚れを落とした。\n<br>\nきれいになった　ビッグホルンを\n使えるようになった！": 
+    "<pc> used Pom Pom Oil to remove rust\nstains from the big horn. Now the big horn is\nclean and ready to use!"
+  },
+  "48402": {
+    "「ん？　お前さん　そのスッキリとした顔は……\n　ビッグホルンの掃除をしてきてくれたんじゃな？\n<br>\n「じゃが　しかーし！\n　まだ　ビッグホルンが　息を吹き返したかどうか\n　確認しとらんようじゃな。<open_irai><bw_break>": 
+    "Hmm? You, you're looking refreshed. You've\ncleaned Big Horn, haven't you? But, but..! I\nguess you haven't checked to see if Big Horn\n<br>\nhas come up for air yet.<open_irai><bw_break>"
+  },
+  "48403": {
+    "「ちゃんと　しらべてから　来てほしいんじゃ。\n　最後まで　やってくれなきゃ　いいこと\n　してやれんぞ。だから　お・ね・が・い<heart>": 
+    "I want you to do your research before you\ncome. If you don't finish, I can't do anything\ngood for you. So I beg you."
+  },
+  "48405": {
+    "ビッグホルンを　使いますか？<yesno><close>": 
+    "Would you like to use the Big Horn?<yesno><close>"
+  },
+  "48406": {
+    "「おおっ！　お前さんの　見事な飛びっぷり。\n　ここから　しかと　見ておったぞ！\n　ありがとう。ご苦労じゃったな。\n<br>\n「……ぬ？　あれは　楽器じゃないのかって？\n　ビッグホルンは　入った者を　遠くへ飛ばす\n　れっきとした　アトラクションじゃよ。\n<br>\n「オルフェア名物が直ったと　ウワサが広まれば\n　ビッグホルンで　遊ぶ人たちが集まって\n　また　にぎやかなスポットになるじゃろうな。<bw_break>": 
+    "Oh, wow! You've done a fine job of flying.\nI've been watching you from here! Thank you.\nThanks for your hard work. What? I thought you\n<br>\nsaid it was an instrument? The Big Horn is a\nmarks action that makes people who enter it\nfly far away from it. If word gets out that\n<br>\nOrphea's specialty has been fixed, it will be\na lively spot where people gather to play with\nthe big horn again.<bw_break>"
+  },
+  "48407": {
+    "「どれ　さっそく　ビッグホルン復活のウワサを\n　あることないこと　流さなければのう。\n　いそがしく　なりそうじゃわい！\n<br>\n「……ふぬっ？　約束の　いいこと　とは\n　なにかじゃと？　ほっほっほ。お前さんも\n　なかなかの　おとぼけものじゃのう。\n<br>\n「ビッグホルンが直って　ぶっ飛び体験が\n　できるように　してやったじゃろうが。\n　それが　何よりの　いいこと　じゃよ<heart>": 
+    "I'm going to have to start spreading rumors of\nBighorn's return right away. We're going to be\nvery busy! What? What good thing did you\n<br>\npromise me? What is the good thing you\npromised? You're quite the goofball, aren't\nyou? I've fixed your bighorn so you can have a\n<br>\nblast. That's the best thing you could have\ndone."
+  },
+  "48408": {
+    "「なぬっ？　ビッグホルンが直ったのは\n　自分が　ポムポムオイルをゲットして\n　掃除をしたから　じゃと？\n<br>\n「……まぁ　そうとも言えないこともなくもないが\n　小さいことは　気にしなさんな。\n　ビッグホルンのように　大きな心を持つのじゃ！\n<br>\n「ビッグホルンは　いつでも使えるからの。\n　町の東側から　西側の出入り口前に\n　飛んで行きたいとき……\n<br>\n「それから　悩みを　ぶっ飛ばしたいとき！\n　ぜひとも　バシバシっと　使ってちょうだい♪": 
+    "What? You think the bighorn was fixed because\nyou got some Pom Pom Oil and cleaned it up?\nWell, it's not impossible to say that, but\n<br>\ndon't worry about the little things. Have a\nheart as big as a bighorn! Big horns are\nalways available. Whenever you want to fly\n<br>\nfrom the east side of town to the west side of\ntown, or when you just want to blow your mind!\nBy all means, use it with gusto."
+  },
+  "48411": {
+    "「わしも　さっそく　ビッグホルンで\n　以前のように　飛びまくりたいんじゃが\n　まずは　ヒザを治さねばならんの。\n<br>\n「じつは　前に　ビッグホルンを使ったとき\n　ハデに　着地を決めようとしたものの\n　失敗して　転んで　ヒザを痛めたんじゃ。\n<br>\n「これでは　プクレット村で　村長をやっておる\n　わしの兄に　情けないと　笑われてしまうわい。\n　アヤツは　踊りまくっているというのに……。\n<br>\n「お前さんも　ビッグホルンを使うときには\n　調子に乗って　３回転しながら着地なんて\n　無茶はするでないぞい！　アイタタタ……。": 
+    "I want to start flying with the Big Horn as\nsoon as possible, but first, I need to fix my\nknee. I tried to make a big landing on the\n<br>\nbighorn before, but I failed and fell down,\nhurting my knee. My brother, who is the chief\nof Pukulet Village, would laugh at me for\n<br>\nbeing so pathetic. He is dancing all over the\nplace. When you use the Big Horn, don't get\ncarried away and do a triple-turn while\n<br>\nlanding on the ground! Aita-ta-ta-ta."
+  },
+  "61164": {
+    "「おめえ　称号って知ってるか？　称号ってのは\n　付けてる人の　人とナリさ表すもんだ。\n　この世界には　すんごい数の称号があるんだべ。\n<br>\n「オラ　いろんな称号さ　いっぱい見てえだ。\n　なあ　おめえ。オラの見てえ称号さ\n　かたがきに付けて　見せてくれねえか？\n<br>\n「見てえのは　死んだ　ばっちゃが\n　オラが　小さい時に付けてた\n　一流コレクターっちゅう　称号だ。<bw_break>": 
+    "You know what a title is? A title is an\nexpression of one's personality. There are so\nmany titles in this world. I want to see so\n<br>\nmany different titles. Hey, you. Can you show\nme the titles you've seen, with a catechism?\nThe one I want to see is the title of first-\n<br>\nclass collector that my dead grandma used to\nwear when I was little.<bw_break>"
+  },
+  "61167": {
+    "「見せてくれるだか？　ありがとな！\n　一流コレクターの称号を　かたがきにした状態で\n　もう一度　オラに話しかけてけろ。\n<br>\n「かたがきは　『せんれき』の画面で\n　<emoji FaceButton_Left>を押せば　設定できるだよ。\n<br>\n「一流コレクターっちゅうんは　なんでも\n　アイテムを　とんでもなく　たくさん\n　手に入れると　もらえる称号らしいだ。\n<br>\n「そんでもって　そいつを　かたがきとして\n　設定すると　誰からも　その称号が\n　見えるようになるっちゅう　寸法だ。\n<br>\n「オラの　ばっちゃも　一流コレクターさ\n　かたがきにして　町ん中\n　肩で風きって　ねり歩いてたもんだ。\n<br>\n「ああ　なつかしいべ……　ばっちゃと\n　手ぇつないで　オラも　なんだか\n　誇らしい気持ちに　なってよ……\n<br>\n「おっとっと　ちょっと自分語りしすぎたべ。\n　はずかしいから　今の話は忘れてけろ！\n　そんじゃ　称号見せてくれるの　待ってるべ！": 
+    "You gonna show me? Thanks! Talk to me again\nwith the first-class collector's title in your\nhatchet. The Katagaki is on the Records\n<br>\nscreen.<emoji FaceButton_Left>You can set it up by clicking on the\n''Collector'' button. A first-class collector is\na title that you get when you get a lot of\n<br>\nitems. And if you set up the collector as a\ncrony, everyone will see the title. My grandma\nused to be a first-class collector and she\n<br>\nused to sway softly around town with her cakes\non her shoulders. Oh, how sweet it was,\nholding hands with my grandma, making me feel\n<br>\nproud. Oops, I talked too much. Forget what I\nsaid, it's embarrassing! Well, I'll be waiting\nfor you to show me your title!"
+  },
+  "61169": {
+    "<attr><feel_think_lv2><end_attr>「見せてくれるだか？\n　……でも　おめえ　他の人の頼みごとさ\n　たくさん抱えてるみてえだな。\n<br>\n「そんなら　他の用事さ　すんだら\n　また　オラに会いにきてけろ！": 
+    "<attr><feel_think_lv2><end_attr>Will you show me? But you seem to have a lot\nof other people's requests. Then come see me\nagain when you're done with your other\n<br>\nbusiness!"
+  },
+  "61170": {
+    "<attr><feel_sad_lv2><end_attr>「見せてくれねえってか？\n　どーしても　ダメだか！？　……仕方ねえ。\n　気が変わったら　また来てけろ！": 
+    "<attr><feel_sad_lv2><end_attr>You won't let me see it? I can't do anything\nabout it. I can't help it. Come back if you\nchange your mind!"
+  },
+  "61215": {
+    "「オラが見てえのは　一流コレクターって\n　称号さ　付けてる人だべ。かたがきに\n　設定したら　オラに話しかけてけろ。\n<br>\n「かたがきは　『せんれき』の画面で\n　<emoji FaceButton_Left>を押せば　設定できるだよ。<open_irai>\n<br>\n「一流コレクターっちゅうんは　なんでも\n　アイテムを　とんでもなく　たくさん\n　手に入れると　もらえる称号らしいだ。\n<br>\n「そんでもって　そいつを　かたがきとして\n　設定すると　誰からも　その称号が\n　見えるようになるっちゅう　寸法だ。\n<br>\n<close_irai>「オラの　ばっちゃも　一流コレクターさ\n　かたがきにして　町ん中\n　肩で風きって　ねり歩いてたもんだ。\n<br>\n「ああ　なつかしいべ……　ばっちゃと\n　手ぇつないで　オラも　なんだか\n　誇らしい気持ちに　なってよ……\n<br>\n「おっとっと　ちょっと自分語りしすぎたべ。\n　はずかしいから　今の話は忘れてけろ！\n　そんじゃ　称号見せてくれるの　待ってるべ！": 
+    "I want to see who has the title of ''first-\nclass collector''. If you set up a profile,\nplease talk to me. The hatagaki will be on the\n<br>\nRecords screen.<emoji FaceButton_Left>You can set it up by pressing the ''+'' button.<open_irai> A first-rate collector is a title that you\nget when you get a lot of items. Then, when\nyou set up the crony as a catechist, everyone\n<br>\nwill be able to see the title.\n<close_irai>My grandma was a first-class collector, too,\nand she used to walk softly around town with\nher shoulders in the wind. Oh, how sweet it\n<br>\nwas, holding hands with my grandma, making me\nfeel so proud. Oops, I talked too much. Forget\nwhat I said, it's embarrassing! Well, I'll be\n<br>\nwaiting for you to show me your title!"
+  },
+  "61207": {
+    "<attr><feel_happy_lv2><end_attr><icon_exc>「そ　その称号は……！！\n<br>\n「それが　一流コレクターって称号か！\n　ばっちゃと　同じ称号！<bw_break>": 
+    "<attr><feel_happy_lv2><end_attr><icon_exc>That's the title! That's the title of a first-\nclass collector? The same title as Bacchan!<bw_break>"
+  },
+  "61208": {
+    "<attr><feel_think_lv2><end_attr>「そこはかとない　気品を感じるべ。\n　きっと　ばっちゃは　ワンランク上の女って\n　ヤツだったんだべな！\n<br>\n「はー　一流コレクターほどにもなると\n　やっぱり　まとう空気が　ちがうべな……。\n　オラ　圧倒されちまっただ。\n<br>\n「ちっせえころのオラは　一流コレクターが\n　どんだけ　すげえもんだったのか\n　あんまり　気にしてなかったけんども……\n<br>\n「いろんな称号　見てきた今ならわかるべ。\n　おめえや　ばっちゃが　どんだけ苦労して\n　その称号を　手に入れたのか……。\n<br>\n「おめえのおかげで　ばっちゃのこと\n　ちょっと　わかった気がするだ。\n　あんがとな！　これは　お礼だべ。": 
+    "<attr><feel_think_lv2><end_attr>You can sense a certain elegance there. Bacha\nmust have been a woman of a higher rank! When\nyou're a first-rate collector, there's a\n<br>\ncertain air about you. I was overwhelmed. When\nI was younger, I didn't really care much about\nhow great a first-rate collector was, but now\n<br>\nthat I've seen all kinds of titles, I\nunderstand. I don't know how hard you and\nBacha had to work to receive that title.\n<br>\nThanks to you, I think I know a little bit\nabout Bacchan. Thanks a lot! This is my way of\nsaying thank you."
+  },
+  "61209": {
+    "<attr><feel_happy_lv2><end_attr>「はー　やっぱり　称号っていいモンだ。\n　ロマンが　あふれてるべ！\n　オラ　称号さ　もっと見てみてえ。\n<br>\n「おめえも　もっともっと称号を手に入れて\n　いろんな人に　見せてやるといいだよ。\n　きっと　誇らしい気持ちで　旅ができるべ！": 
+    "<attr><feel_happy_lv2><end_attr>I knew it! A title is a good thing, isn't it?\nIt's full of romance! I want to see more\ntitles. You should get more and more titles\n<br>\nand show them to all kinds of people. You will\nbe able to travel with pride!"
+  },
+  "61212": {
+    "「称号さ持ってる人は　みんな立派な人たちだべ。\n　オラ　ますます　称号さ好きになっただ。\n　もっと　いろんな称号さ　見たいだよ。\n<br>\n「おめえも　もっともっと称号を手に入れて\n　いろんな人に　胸張って　肩で風きって\n　誇りを持って　旅を続けてくれな！": 
+    "All people who have titles are very\nrespectable people. I'm liking titles more and\nmore. I want to see more titles. I want to see\n<br>\nmore and more titles, and I want you to get\nmore and more titles, too, and continue\ntraveling proudly with your shoulders\n<br>\noutstretched to all kinds of people!"
+  },
+  "84505": {
+    "<attr><feel_happy_lv1><end_attr>「ふんわり　とろける　クッキンドリーム<heart>\n　あたし　調理ギルドの新人マスター\n　クッキング☆エンジェル　ポシェルだよっ！\n<br>\n「キミの名前は……<pc>さんね！\n　なんて　おいしそうな名前っ。\n　コトコト煮込めば　いい調理職人になれそー！\n<br>\n「ここは　料理アイテムを作る　調理ギルドなの！ \n　料理アイテムを食べると　一定時間\n　チカラやＨＰが　高まるんだよ～！\n<br>\n「なにより　おいしい　お料理を食べると \n　ポワ～ッと　幸せな気分になっちゃうんだから！\n　さあ　キミも　調理職人になってみよっか？\n<br>\n「って　言いたいところ　なんだけどぉー……\n　今はー　新人さんの勧誘は　してないの～。\n<br>\n「あたしが　まだまだ　新人だからぁ\n　もうちょっと　ケーケン積んで　マスターの\n　お仕事に慣れるまで　勧誘ストップ中なのだっ。\n<br>\n「でもでも　ギルドの中は　見学自由だから\n　ぜひぜひ　いろいろ見ていってねっ！\n　自慢の料理も　買ってくれると　うれしいなっ<heart>": 
+    "<attr><feel_happy_lv1><end_attr>I'm Poshel, the new master of the Cooking\nGuild, Cooking Angel! Your name is\n<pc>! What a delicious name! If you\n<br>\ncook it hard, it will be a good cook! This is\na Cooking Guild that makes cooking items!When\nyou eat a cooking item, your power and HP will\n<br>\nincrease for a certain amount of time! Above\nall, when you eat a delicious dish, you'll\nfeel happy! So, why don't you become a Cook\n<br>\ntoo? I'd like to say ''Why don't you become a\ncook too?'' but right now we're not recruiting\nnew cooks. I'm still a rookie, so I'm on a\n<br>\nrecruiting freeze until I get used to working\nas a master with a little more experience. But\nyou're free to visit the guild, so by all\n<br>\nmeans, please take a look around! I'd be very\nhappy if you could buy some of my pride and\njoy."
+  },
+  "84527": {
+    "<attr><feel_happy_lv3><end_attr>「クッキング☆エンジェル　ポシェルちゃんはさ！ \n　この調理ギルドを　再開するために\n　チョー　がんばっちゃったのよ！\n<br>\n「オレってば　そんな　あの子にあこがれて \n　調理職人になっちゃったワケよー。": 
+    "<attr><feel_happy_lv3><end_attr>Cooking Angel Poshel has been working very\nhard to reopen the Cooking Guild!Poshel worked\nso hard to reopen the Cooking Guild! I admired\n<br>\nher so much that I became a Cook."
+  },
+  "84528": {
+    "<attr><feel_happy_one><end_attr>「……おいしそうな　においがするでしょう？\n　みんなの　おなかと　笑顔を満たす\n　調理ギルドへ　ようこそ！\n<br>\n「調理ギルドのモットーは　おいしくって \n　夢いっぱいで　安全第一です！\n　そのため　食の品質チェックも欠かせません。\n<br>\n「このギルドの経理担当である　ワタクシも\n　安全のためには　予算を惜しみませんよ。\n　それが　クッキングエンジェルの方針ですから！": 
+    "<attr><feel_happy_one><end_attr>Can you smell the delicious aroma? Welcome to\nthe Cooking Guild, where you can fill your\nstomach and smile! Cooking Guild's motto is\n<br>\n''Delicious, full of dreams, and safe! That's\nwhy we also have to check the quality of our\nfood. We also have our own accountant, who is\n<br>\nin charge of the guild's finances, and he\nspares no expense when it comes to food\nsafety. That is Cookin' Nguyen Gel's policy!"
+  },
+  "201238": {
+    "「オルフェア来たなら　よっといで～。\n　アクロバットケーキ屋だよ～。\n<br>\n「今なら　新作　アクロバット・パンケーキを\n　当店限定で　販売中だよ～。超大人気につき\n　早く　買わないと　売り切れちゃうかも～。\n<br>\n「あ　お客さん　もしかして\n　うちのパンケーキを　お買い求めかな～？<yesno><break>": 
+    "If you're in Orphea, come on in! We are\nAcrobatic Cake shop! We are now selling our\nnew Acro Bat bread cake exclusively at our\n<br>\nstore. It's very popular and if you don't buy\nit soon, it might be sold out! Oh, maybe\nyou're here to buy one of our bread cakes?<yesno><break>"
+  },
+  "201239": {
+    "<icon_exc>「……って　思ったけど　ありゃりゃのりゃ～。\n　パンケーキ　もう　１枚しか残ってないや～。\n<br>\n「なんかね～　ハデなグラサンかけた人たちが\n　次々と　やってきて　パンケーキを\n　たくさん　買い占めていったんだよね～。\n<br>\n「でも　コレがはけたら　店じまいできるし\n　めんどくさいから　タダで　あげるね～。\n　はいっ　どうぞ～。": 
+    "<icon_exc>I thought, ''Oh no, no, no, no! There's only\none bread cake left! People wearing big\nglasses came in one after another and bought\n<br>\nup all the breadcakes. But once they're gone,\nI can close up store and give them away for\nfree. Here you go~."
+  },
+  "201240": {
+    "「ハチミツとかをつけて　食べたら\n　きっと　ほっぺた　落っこちるよ～。\n　ご賞味あ～れ～。": 
+    "I bet if you dip them in honey or something,\nyour cheeks will fall off! Try it~!"
+  },
+  "201241": {
+    "<pc>は\nふんわりパンケーキ（だいじなもの）を\n手に入れた！<me 60>": 
+    "<pc> received Fluffy Pancakes (Key\nItem)!<me 60>"
+  },
+  "201242": {
+    "「オルフェア来たなら　よっといで～。\n　アクロバットケーキ屋だよ～。\n<br>\n「待望の新作～　アクロバット・パンケーキ～。\n　ハチミツかけたら　ほっぺた落っこちるよ～。\n　けど　あっという間に売り切れ　ごめ～ん。": 
+    "If you're in Orphea, come on in! We are\nAcrobatic Cake shop! Our long-awaited new Acro\nBat Bread Cake! If you pour honey on it, your\n<br>\ncheeks will fall off! But it sold out so fast,\nsorry."
+  },
+  "69815": {
+    "「ここねー　冒険者の酒場っていうのー。\n　あなたって　冒険者でしょー？　それなら\n　絶対に必要になる施設と　言ってもいいわー。\n<br>\n「だってー　依頼書のクエストを\n　フレンドに頼むことができるのよー。\n　これを利用しない手は　ないわよー。": 
+    "This place is called the Adventurer's Tavern.\nYou are an adventurer, right? If you are an\nadventurer, then you definitely need this\n<br>\nplace. You can ask your friends to do quests\nfor you in the request form. You can't miss\nout on this!"
+  },
+  "10163002": {
+    "<pc>は\n女神の蒼銀石を　わたされた！<se_nots System Item>": 
+    "<pc> was given the Silver Goddess Gem!<se_nots System Item>"
+  },
+  "52907": {
+    "<attr><feel_happy_one><end_attr>「さ～てと　レベル５０に達した\n　屈強な子猫ちゃんは　どこですか～っと。": 
+    "<attr><feel_happy_one><end_attr>Now let's see, where is the strong kitty who\nhas reached level 50?"
+  },
+  "52908": {
+    "<attr><feel_happy_lv1><end_attr><icon_exc><turn_pc>「おーっと　これは失礼。\n　オレは　超一流の冒険者を探しているんだ。\n<br>\n「いずれかの職業のレベルが　５０になった時\n　さらなる高みを求めるんなら　ここに来な。\n　ちなみに　プライベートの用件は　カンベンな。": 
+    "<attr><feel_happy_lv1><end_attr><icon_exc><turn_pc>Oh, excuse me. I'm looking for a top-notch\nadventurer. When you reach level 50 in any of\nthe locations, if you're looking to take it to\n<br>\nthe next level, come here. By the way, no\nprivate matters, please."
+  },
+  "53853": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「オレの儀式を受けるのは　まだ早いようだな。\n　聖使者ベニヒナちゃんの儀式を　こなしてから\n　また　ここへ来てくれ。待ってるぜ。": 
+    "<attr><feel_happy_lv1><end_attr><turn_pc>It seems you are not ready for my ritual yet.\nYou can come back here after you've completed\nLight Guide Beniha's ritual. I'll be\n<br>\nwaiting for you."
+  },
+  "52916": {
+    "<attr><feel_happy_lv1><end_attr><turn_pc>「ははーん。キミだね？　レベル５０に達した\n　超一流の冒険者　<pc>っていうのは。\n　聖使者のベニヒナちゃんから　話は聞いてるぜ。\n<br>\n「オレの名は　セーケン。\n　キミと出会えた運命に　感謝するぜ。\n　これから　よろしくってな。\n<br>\n「……さ～てと　改めて説明しなくても\n　知ってると思うけど　規則でね。\n　ちょっとだけ　ガマンしてくれ。\n<br>\n「え～と　オレら　六聖陣に仕える聖使者の役割は\n　キミみたいな　貪欲に強さを求める\n　冒険者を　さらなる高みに　上げることにある。\n<br>\n「つーわけで　キミが　より上の\n　高みを望むのであれば　ちょっとした儀式……\n　秘術の儀式を　受けてくれ。": 
+    "<attr><feel_happy_lv1><end_attr><turn_pc>Haha, it's you, isn't it? The top-notch adventurer\nwho reached level 50 <pc>? I heard about\nyou from Light Guide Beniha.\n<br>\nMy name is Seiken, and I thank fate that I met you.\nFrom here on, let's take care of each other.\n<br>\n...Weeell, I don't have to explain it again, but\nit's a rule. So please bear with me for a moment.\n<br>\nThe role of the Light Guides in the service of the\nSix Saints is to elevate adventurers like you, who\nseek even more strength, to a higher level.\n<br>\nSo, if you want to take it to the next level, you'll\nhave to undergo a little ritual... And receive a\nmystical ceremony."
+  },
+  "52917": {
+    "<attr><feel_happy_lv3><end_attr>「んじゃ　やることやって　スッキリさせるか。\n　早く片付けたほうが　なんか　落ち着くだろ。\n　つーわけで　光の河の前で儀式をやるかい？\n<br>\n「おっと　渡すのを　忘れるトコだった！\n　これは　女神の蒼銀石といわれる\n　貴重な宝石だ。": 
+    "<attr><feel_happy_lv3><end_attr>Well, let's do what needs to be done and take the\nweight off our shoulders. It'll be more relaxing if\nwe get it done quickly.\n<br>\nSo, how about we do a ceremony in front of the\nRiver of Light?\n<br>\nOops, I almost forgot to give it to you! This is a\nprecious jewel called the Silver Goddess Gem."
+  },
+  "52919": {
+    "<attr><feel_happy_lv1><end_attr>「キミにも　女神の声は届いたよな？\n　これで　儀式は終了だぜ。": 
+    "<attr><feel_happy_lv1><end_attr>You heard the voice of the Goddess, didn't you?\nWith that, the ritual is complete."
+  },
+  "52920": {
+    "<attr><feel_happy_lv1><end_attr>「そんじゃ　解放の儀式をこなしたキミに\n　ちょっとだけ　いいことを教えてやろう。<bw_break>": 
+    "<attr><feel_happy_lv1><end_attr>Well, then, I have a little something good to tell\nyou who has completed the liberation ritual.<bw_break>"
+  },
+  "52921": {
+    "<attr><feel_normal_lv1><end_attr>「アストルティアの歴史に残る\n　大きな戦いの陰には　常に　六聖陣に導かれた\n　強者たちの姿が　あったんだ。\n<br>\n「ある者は　英雄として勇名をはせ\n　ある者は　一兵卒として\n　戦場に　散っていった……。\n<br>\n「しかし　彼らのすべてが　この世界を守るため\n　自らの命を　使命に捧げることを選んだんだ。\n　そして　今度は　キミらの世代ってわけさ。\n<br>\n「……と　次は\n　風車の丘の　南東の井戸にいる\n　聖使者キルパッポを　訪ねてくれな！": 
+    "<attr><feel_normal_lv1><end_attr>Behind every great battle in the history of Astoltia,\nthere have always been strong ones led by the Six\nSaints.\n<br>\nSome were heroes of great renown, some were minor\nplayers, and some fell on the battlefields...\n<br>\nHowever, they all chose to give their lives for the\nmission of protecting this world. And now it's your\ngeneration's turn.\n<br>\n...Next, in Windmill Hill, at the southeastern well,\npay a visit to Light Guide Kilpappo!"
+  },
+  "52928": {
+    "<attr><feel_happy_lv1><end_attr>「次に待つ聖使者は　キルパッポという者だ。\n　プクランド大陸　風車の丘にある\n　キラキラ大風車塔の近くの　井戸にいるからな。<open_irai>\n<br>\n「さらなる修練に　はげむといいぜ。": 
+    "<attr><feel_happy_lv1><end_attr>The next Light Guide waiting for you is a man named\nKilpappo. He's in a well at Windmill Hill near\nGlitter Windmill Tower, Pukuland.<open_irai>\n<br>\nIt'd be good to further devote yourself to training."
+  },
+  "52929": {
+    "<attr><feel_happy_lv3><end_attr>「もう　キルパッポの儀式をこなしたとは驚きだ。\n　オレに手助けできることは　もうないが\n　キミの活躍を　ここで見守ってるよ。": 
+    "<attr><feel_happy_lv3><end_attr>You've already completed Kilpappo's ritual, that's\nsurprising. I can't help you anymore, but I'll be\nhere to keep watch over your actions."
+  },
+  "34977": {
+    "<attr><feel_think_lv1><end_attr>「キーエンブレムを　得るために\n　はるばる　やってきたのだが\n　この町の町長が　見つからんのだ。\n<br>\n「町の者に　聞いても\n　サーカステントへ行けと　答えるばかりで……。\n　まったく　どうなっておるのだ？": 
+    "<attr><feel_think_lv1><end_attr>I came all the way here to get the key emblem,\nbut I can't find the mayor of this town. I've\nasked the townspeople, but they just tell me\n<br>\nto go to the circus tent. What is going on\nhere?"
+  },
+  "34978": {
+    "<attr><feel_angry_lv1><end_attr>「ちっ……。\n　パクレの野郎　どこに　逃げやがった。\n　利息の返済日は　今日だってのによう。": 
+    "<attr><feel_angry_lv1><end_attr>Damn. Where the hell did that bastard Pakul\nrun off to? The interest is due today."
+  },
+  "37181": {
+    "<attr><feel_angry_lv2><end_attr><turn_pc>「おい！　お前！！\n<br>\n「パクレって名前の　コートを着た\n　しょぼくれたプクリポを　見かけたら\n　金返さねえと丸刈りにしてやるって　伝えとけ！": 
+    "<attr><feel_angry_lv2><end_attr><turn_pc>Hey! You! If you see a small, punk-ass\nPukulipo wearing a coat named Pakul, tell him\nI'll cut his head off if he doesn't return my\n<br>\nmoney!"
+  },
+  "34979": {
+    "「亡くなった　メギストリス王国のお妃様は\n　この町の出身なのよ。\n　もともと　ケーキ屋さんの看板娘だったの。\n<br>\n「……えっ　そのケーキ屋さん？\n　今は　ナブナブ大サーカスに　なってるわよ。": 
+    "The late Queen of Megistris was from this\ntown. She was originally the daughter of a\ncake shop owner. What? That cake shop? It's\n<br>\nnow called Navnav Grand Circus."
+  },
+  "132430": {
+    "<attr><feel_happy_lv2><end_attr>「やあ！　あんた　旅の人だね。": 
+    "<attr><feel_happy_lv2><end_attr>Hello! You must be the traveler."
+  },
+  "34980": {
+    "<attr><feel_happy_lv2><end_attr>「オルフェアの町の名物といったら\n　やっぱり　ナブナブ大サーカスだよ。\n　今回は　すっげえ出し物があるらしいぜ。\n<br>\n「特別公演だから　オルフェアの住人か\n　まあ　一人前の証を持ってるヤツなら\n　入れてもらえるかもな。\n<br>\n「もし　一人前の証を持ってるんなら\n　サーカステントに　行ってみるといい。\n　坂を登ったとこに見える　ド派手なテントだぜ。": 
+    "<attr><feel_happy_lv2><end_attr>Town of Orphea is famous for its Nabunabu\nCircus. This time, they are going to put on a\ngreat show. It's a special show, so Orphea\n<br>\nresidents or those with Proof of Adulthood may\nbe allowed in. If you have Proof of Adulthood,\ngo to the circus tent. It's the fancy tent up\n<br>\nthe hill."
+  },
+  "132307": {
+    "<attr><feel_happy_lv2><end_attr>「オルフェアの町の名物といったら\n　やっぱり　ナブナブ大サーカスだよ。\n　今回は　すっげえ出し物があるらしいぜ。\n<br>\n「特別公演だから　オルフェアの住人か\n　まあ　一人前の証を持ってるヤツなら\n　入れてもらえるかもな。\n<br>\n「もし　一人前の証を持ってるんなら\n　サーカステントに　行ってみるといい。\n　坂を登ったとこに見える　ド派手なテントだぜ。": 
+    "<attr><feel_happy_lv2><end_attr>Town of Orphea is famous for its Nabunabu\nCircus. This time, they are going to put on a\ngreat show. It's a special show, so Orphea\n<br>\nresidents or those with Proof of Adulthood may\nbe allowed in. If you have Proof of Adulthood,\ngo to the circus tent. It's the fancy tent up\n<br>\nthe hill."
+  },
+  "34981": {
+    "<attr><feel_happy_lv1><end_attr>「子供たちが　出かけてるおかげで\n　ひさしぶりに　羽が　のばせるわあ～。\n　今日は　いっぱい買い物しちゃおっと。\n<br>\n「え？　子供たち？　ナブナブ大サーカスを\n　観にいったの。サーカスの　１５周年記念に\n　オルフェア中の子供は　タダで観れるんだって！": 
+    "<attr><feel_happy_lv1><end_attr>Thanks to the kids being out, I can spread my\nwings for the first time in a while. I'm going\nto do a lot of shopping today. What? The kids?\n<br>\nWe went to see the Navnav Circus. They said\nthat for the 15th anniversary of the circus,\nchildren in Orphea can see the show for free!"
+  },
+  "34982": {
+    "<attr><feel_angry_one><end_attr>「よく酒場に来る　パクレってオヤジ\n　マジありえなくってえー。\n<br>\n「なんか　アタシの服とか\n　ワイセツ物チンレツ罪だ！　とかいって\n　ゴミ袋　かぶせようとすんのおー。": 
+    "<attr><feel_angry_one><end_attr>This Pakul guy who often comes to the Tavern\nis really unbelievable. He would try to put my\nclothes on a garbage bag and say, ''I'm guilty\n<br>\nof rape and other crimes! He tries to put a\ngarbage bag over my clothes."
+  },
+  "34983": {
+    "「まずしく　さびれた町だった　オルフェアを\n　ここまで大きくしたのは　町長さ。\n<br>\n「町長が　ナブナブ大サーカスを　始めてから\n　観光客が　どっと　押しよせてね。\n　町長　いや　団長は町の恩人だよ。": 
+    "The mayor of Orphea is the one who has made\nOrphea from a once deserted town to this.\nSince the mayor started the Nabunabu Circus,\n<br>\ntourists have been pouring in. The mayor, no,\nthe mayor is the town's benefactor."
+  },
+  "34984": {
+    "「ここは　オルフェアの町です。\n　ここまで来るのは　大変だったでしょう。\n　ゆっくり　町を見て回ってください。\n<br>\n「酒場では　フレンド登録ができます。\n　紹介人の頼みを聞けば　酒場を　利用\n　できるようになりますよ。転職神官もいます。\n<br>\n「この町の酒場は　ここから　北へ\n　旅人バザーのある通りを　道なりに進んで\n　トンネルに入った先に　あります。\n<br>\n「宿屋には　様々なサービスを提供してくれる\n　旅のコンシェルジュがいます。\n　案内係に話せば　利用登録ができますよ。\n<br>\n「そうやって　町を見て回ったら　この町の問題を\n　解決してください。敵が強ければ　レベルを\n　上げたり　転職してみるのも　アリですね。\n<br>\n「もし　大陸間鉄道パスという　アイテムを\n　お持ちでしたら　列車で他の大陸にも行けます。\n　パスは　めったに手に入らないそうですが……。\n<br>\n「それから　あなたに　伝えたいことがある人は\n　ふきだしがピンク色<emoji Fukidashi_Icon>や紫色<emoji Question_Icon>になっています。\n　見つけたら　積極的に　話しかけてくださいね！": 
+    "This is the Town of Orphea. It must have been\nhard work to get here. Please take your time\nto look around the town. You can register as a\n<br>\nfriend at the tavern. There is also a Vocation\nPriest. The tavern is located just north of\nTraveler's Bazaar on the street that leads to\n<br>\nthe tunnel. There is a Travel Concierge at the\ninn who can provide you with various services.\nYou can register by talking to the information\n<br>\ndesk. Once you have had a chance to look\naround the town, you should be able to solve\nthe town's problems. If the enemies are\n<br>\nstrong, you can try leveling up or changing\njobs. If you have a Rail Pass, you can take\nthe train to other continents. I heard that\n<br>\npasses are rarely available. And if you have\nsomething to tell us, please wipe your wipe in\npink.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>Please talk to them when you see them! If you\nfind one, please talk to him or her!"
+  },
+  "61582": {
+    "「ここは　オルフェアの町です。\n　ここまで来るのは　大変だったでしょう。\n　ひとつ　いいことを教えてあげましょう。\n<br>\n「あなたに　伝えたいことがある人は\n　あそこにいる　ハーポッポさん　みたいに\n　ふきだしがピンク色<emoji Fukidashi_Icon>や紫色<emoji Question_Icon>になっています。\n<br>\n「さっそく　ハーポッポさんに\n　話しかけてみては　いかがですか？\n　ほら　このまま　まっすぐ行ったところですよ。": 
+    "This is the Town of Orphea. It must have been\nhard work to get here. Let me tell you\nsomething. If you have something to tell\n<br>\nsomeone, they're right over there, just like\nMr. Hapopo, with the pink wipeout and the pink\nwipeout.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>I'm sure you'll be able to find a way to get\nin touch with Hapopo. Why don't you go talk to\nMr. Hapopo right away? Look, it's just down\n<br>\nthe street."
+  },
+  "130575": {
+    "「ここは　オルフェアの町です。ここを出ると\n　オルフェア地方東で　東に進むとポーポラ地方。\n　さらに東に行くと　プクレット地方があります。\n<br>\n「オルフェア地方東は　オルフェアの町周辺では\n　弱めの魔物たちが　生息する場所ですよ。\n　修行を始めるなら　こちら側がいいでしょう。\n<br>\n「そうそう　この町の酒場は　ちょっと\n　わかりづらいところに　あるので\n　ついでに　お教えしておきましょう。\n<br>\n「この町の酒場は　ここから　北へ\n　旅人バザーのある通りを　道なりに進んで\n　トンネルに入った先ですよ。\n<br>\n「それから　あなたに　伝えたいことがある人は\n　ふきだしがピンク色<emoji Fukidashi_Icon>や紫色<emoji Question_Icon>になっています。\n　見つけたら　積極的に　話しかけてくださいね！": 
+    "This is the Town of Orphea. After leaving\nhere, you will find Orphea Region East, Popola\nRegion to the east, and Pukulet Region further\n<br>\nto the east. Orphea Region East is where the\nweaker monsters around the Town of Orphea\nlive. If you want to start training, this side\n<br>\nis the best place. Oh, by the way, the tavern\nin this town is in a rather obscure location,\nso let me tell you something else. The tavern\n<br>\nis just north of here, down the street from\nTraveler's Bazaar, and into the tunnel. And if\nyou have something to tell me, please wipe\n<br>\nyour lips with the color pink.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>Please talk to them when you see them! If you\nfind one, please talk to him or her!"
+  },
+  "130576": {
+    "「ここは　オルフェアの町です。ここを出ると\n　オルフェア地方東で　東に進むとポーポラ地方。\n　さらに東に行くと　プクレット地方があります。\n<br>\n「オルフェア地方東は　オルフェアの町周辺では\n　弱めの魔物たちが　生息する場所ですよ。\n　修行を始めるなら　こちら側がいいでしょう。\n<br>\n「そうそう　この町の酒場は　ちょっと\n　わかりづらいところに　あるので\n　ついでに　お教えしておきましょう。\n<br>\n「この町の酒場は　ここから　北へ\n　旅人バザーのある通りを　道なりに進んで\n　トンネルに入った先ですよ。\n<br>\n「それから　あなたに　伝えたいことがある人は\n　あそこにいる　ハーポッポさん　みたいに\n　ふきだしがピンク色<emoji Fukidashi_Icon>や紫色<emoji Question_Icon>になっています。\n<br>\n「さっそく　ハーポッポさんに\n　話しかけてみては　いかがですか？\n　ほら　このまま　まっすぐ行ったところですよ。": 
+    "This is the Town of Orphea. After leaving\nhere, you will find Orphea Region East, Popola\nRegion to the east, and Pukulet Region further\n<br>\nto the east. Orphea Region East is where the\nweaker monsters around the Town of Orphea\nlive. If you want to start training, this side\n<br>\nis the best place. Oh, by the way, the tavern\nin this town is in a rather obscure location,\nso let me tell you something else. The tavern\n<br>\nis just north of here, down the street from\nTraveler's Bazaar, and into the tunnel. And if\nyou have something to tell someone, he or she\n<br>\nis over there, like Hapopo, with a pink wipe-\noff.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>I'm sure you'll be able to find a way to get\nin touch with Hapopo. Why don't you go talk to\nMr. Hapopo right away? Look, it's just down\n<br>\nthe street."
+  },
+  "34985": {
+    "「ああ　ナブナブ大サーカスだったら\n　あそこに見える　へんちくりんな建物さ……。\n　え？　そんなこと聞いてない？\n<br>\n「ごめんごめん。オルフェアに来る旅人は\n　みんな　サーカスが　目当てだから\n　いつものクセで　答えちゃったよ。": 
+    "Yeah, if it's the Navnav Grand Circus, you can\nsee it over there, the weird building. What?\nYou didn't ask me that? Sorry, sorry. I'm\n<br>\nsorry, I just answered as I always do, since\nall travelers to Orphea come here for the\ncircus."
+  },
+  "34986": {
+    "<attr><feel_happy_lv2><end_attr>「ほんと　ナブレットさんは\n　すばらしい町長さんだわねえ。\n<br>\n「町中の子供たちを　タダで\n　サーカスに　招待してくれるなんて！\n　ほんっと　ふとっぱらだわ。": 
+    "<attr><feel_happy_lv2><end_attr>Mr. Nablette is a wonderful mayor, isn't he?\nInviting all the kids in town to the circus\nfor free! It's really tubby."
+  },
+  "44087": {
+    "「お客さん。こっちは　楽屋口だよ。\n　ナブナブ大サーカスが　見たいなら\n　反対側の扉に　まわってくんな！": 
+    "Sir, this is the backstage entrance. This is\nthe backstage entrance. If you want to see the\nNabunabu Circus, go around to the other side\n<br>\nof the door!"
+  },
+  "34987": {
+    "<attr><feel_think_lv1><end_attr>「ナブレット団長さんって　いいトシして\n　まだ　ひとり身なのよ。\n　結婚するつもりないのかしらね？": 
+    "<attr><feel_think_lv1><end_attr>Captain Nablette is still single at a very old\nage. I wonder if she's ever going to get\nmarried."
+  },
+  "34988": {
+    "<attr><feel_think_lv1><end_attr>「ナブレット団長さんが　親を亡くした男の子を\n　自分のサーカス団に　入団させたらしいわ。\n　プクレットの村の　プディンって子ですって。\n<br>\n「団長さん　いいトシして　ひとり身だし\n　サーカス団の　あとつぎにでも\n　するつもりかしらね？": 
+    "<attr><feel_think_lv1><end_attr>Captain Nablette has enrolled a boy who lost\nhis parents in his circus troupe. His name is\nPudin from Pukulet Village. I wonder if he's\n<br>\ngoing to be the next in line for the circus\ntroupe?"
+  },
+  "34989": {
+    "「ここから出ると　オルフェア地方西です。\n　オルフェア地方東よりも　手強い魔物たちが\n　たくさん　生息していますよ。\n<br>\n「さらに　南西に抜けると　強力な魔物たちが\n　たくさんいる　風車の丘に　出ます。\n　充分に修行した後で　行くといいでしょう。": 
+    "After leaving this area, you will find\nyourself in Orphea Region West. There are many\nmore powerful monsters than in Orphea Region\n<br>\nEast. If you go further southwest, you will\nreach Windmill Way, where there are many\npowerful monsters. It is best to go there\n<br>\nafter you have had enough training."
+  },
+  "34991": {
+    "「悪いねえ　お客さん。今回は特別公演だから\n　オルフェアの人間しか　観れないんだ。\n<br>\n「今回のところは　あきらめてくれよ。\n　また今度　来てくんな！": 
+    "Sorry, my dear guests. This is a special show,\nso you can only see Orphea's human. Give it up\nfor now. Come back next time!"
+  },
+  "34992": {
+    "<attr><feel_happy_lv2><end_attr>「本日のナブナブ大サーカスは　特別公演！\n　オルフェアの住人限定の　スペシャルショーだ！\n　なんと　子供たちなら　無料でご招待だよっ！\n<br>\n「ん？　どうした　旅の人。\n　……ははあ。一人前の証を　持ってるってことは\n　キーエンブレムが　欲しいのか。\n<br>\n「この町の町長は　団長のナブレットさんだが\n　今は　上演中だからなあ……。\n<br>\n「まあ　中へ入ってもいいけど\n　サーカスが終わるまで待ってから　団長に\n　キーエンブレムのことを　頼んでみなよ。": 
+    "<attr><feel_happy_lv2><end_attr>Today's Nabunabu Grand Circus is a special\nperformance! It's a special Sho for Orphea\nresidents only! What a surprise, children are\n<br>\ninvited for free! Hmm? What's up, traveler?\nYou have Proof of Adulthood, so you want the\nkey emblem. The mayor of this town is Lord\n<br>\nCommander Nablette, but he's in the middle of\na performance. Well, you can go in, but wait\nuntil the circus is over, then ask the\n<br>\nCommander for the key emblem."
+  },
+  "34993": {
+    "「悪いねえ　お客さん。今回は特別公演だから\n　オルフェアの人間しか　観れないんだ。\n　一人前の証でも持ってれば　話は別だがね。\n<br>\n「今回のところは　あきらめてくれよ。\n　また今度　来てくんな！": 
+    "Sorry, my dear guests. This is a special show,\nso you can only see Orphea's ''human''. Unless\nyou have Proof of Adulthood or something. Give\n<br>\nit up for now. Come back next time!"
+  },
+  "34994": {
+    "「私は　世界中の魔瘴を　調査するため\n　連れの者と　旅をしておる。\n<br>\n「魔瘴の出現する場所に　魔物が集まるのか\n　それとも　邪悪なる魔物が\n　魔瘴を　呼びよせているのか……。\n<br>\n「それを　明らかにするため\n　カミハルムイ王の命により\n　こうして　各地を　巡っているのだ。": 
+    "I am traveling with a companion to investigate\ndemon miasma around the world. Do monsters\ngather where demon miasma appear, or do evil\n<br>\nmonsters call demon miasma to them? To find\nout, I am traveling around the world by order\nof King Kamiharmui."
+  },
+  "48476": {
+    "「旅人さん。知ってるかな？\n　光の河っていうのは　この橋の下に広がっている\n　光を放つ　大地の裂け目のことなんだ。\n<br>\n「光の河は　ここオルフェアだけじゃなく\n　アストルティアの　いろんな所にあるけど\n　底に何があるのかは　わからなくてね。\n<br>\n「まるで　大地を切り裂くみたいに光ってるから\n　恐ろしくもあるけど　このキレイな景色が\n　悪いものだとは　ボクには　思えないんだな。": 
+    "Traveler. Do you know what it is? The River of\nLight is the rift in the earth that spreads\nout beneath this bridge and emits light. The\n<br>\nRiver of Light is not only here in Orphea, but\nin many places in Astoltia, but we don't know\nwhat's at the bottom. It's scary because it's\n<br>\nshining like it's cutting through the earth,\nbut I don't see anything wrong with this\nbeautiful scenery."
+  },
+  "34995": {
+    "「わが故郷　エルトナ大陸でも\n　この　プクランド大陸と　同じように\n　あちこちに　魔瘴が　現れています。\n<br>\n「大きな闇のチカラが\n　世界を　覆おうとしている……\n　そんなふうに　私には　思えるのです。": 
+    "In my hometown, Eltona Continent, demon miasma\nis appearing here and there, just like in\nPukuland Continent. It seems to me that a\n<br>\ngreat dark power is trying to cover the world."
+  },
+  "34996": {
+    "「いらっしゃい。\n　……うん？　買い物なら\n　カウンターの前からに　しておくれ。": 
+    "Come on in. Yeah? If you want to shop, do it\nfrom in front of the counter."
+  },
+  "48858": {
+    "「素材屋は　妹のポピールに　まかせて\n　コイン屋に　専念することにしたんだ。\n　あ　買い物なら　カウンターの前から　頼むよ！": 
+    "I've decided to leave the Material Shop to my\nsister Popil and concentrate on the Coin Shop.\nOh, and if you want to shop, you can do it\n<br>\nfrom in front of the counter!"
+  },
+  "150190": {
+    "「あらら。迷子になっちゃったのかしら？\n　お買い物がしたいなら\n　カウンターの前から　話しかけてくださいな。": 
+    "Oops. I'm lost, aren't I? If you want to shop,\njust talk to me from the counter."
+  },
+  "48734": {
+    "「いらっしゃい。\n　……うん？　買い物なら\n　カウンターの前からに　しておくれ。": 
+    "Come on in. Yeah? If you want to shop, do it\nfrom in front of the counter."
+  },
+  "34997": {
+    "<attr><feel_think_one><end_attr>「やけに　サーカステントの方が騒がしいな。\n　そんなに面白いなら　今度　観にいってみるか。": 
+    "<attr><feel_think_one><end_attr>I wonder why the circus tent is so much\nnoisier than the other one. If it's that\ninteresting, I'll go see it sometime."
+  },
+  "34998": {
+    "<attr><feel_angry_lv3><end_attr>「聞いたわよ。ナブレット団長さんは\n　サーカステントに　子供たちを　おびきよせて\n　さらってしまったんでしょ！\n<br>\n「極悪非道とは　このことだわ！\n　神様　ナブレットのヤツに\n　うーんと　バチを当ててください！！": 
+    "<attr><feel_angry_lv3><end_attr>I heard that Captain Nablette lured the\nchildren to the circus tent and kidnapped\nthem! That's just diabolical! God, please give\n<br>\nthis Nablette guy a good whuppin'!"
+  },
+  "34999": {
+    "<attr><feel_sad_lv1><end_attr>「ナブナブ大サーカスを　観ていた\n　子供たちが　さらわれたらしいな。\n<br>\n「ん？　なんで知ってるかって？\n　こっそり　サーカステントの　すきまから\n　サーカスを　のぞいてたからなっ！": 
+    "<attr><feel_sad_lv1><end_attr>I heard that some kids were kidnapped while\nwatching the Nabunabu Circus. Hmm? How do I\nknow? Because they were sneaking a peek at the\n<br>\ncircus through a crack in the circus tent!"
+  },
+  "35000": {
+    "<attr><feel_sad_lv3><end_attr>「どうして　あたしの子供が　さらわれるのよ！\n　あの子が　何をしたっていうの！？\n　ああ……無事でいてちょうだい……。": 
+    "<attr><feel_sad_lv3><end_attr>Why has my child been kidnapped? What has she\ndone? Oh, please be safe."
+  },
+  "35001": {
+    "<attr><feel_angry_lv3><end_attr>「さっき　パクレさんが　やってきて\n　うちの子が　ナブレット団長に\n　さらわれたと　教えてくれたんだ。\n<br>\n「オルフェアの　町長ともあろう者が\n　子供をさらうだなんて……。\n　ナブレットめ！　ゆるさんぞ！！": 
+    "<attr><feel_angry_lv3><end_attr>Mr. Pakul just came in and told me that our\nchild was kidnapped by Captain Nablette. How\ncould the mayor of Orphea kidnap a child?\n<br>\nNablette! I won't forgive you!"
+  },
+  "35002": {
+    "「なんだよ　そんなにあわてて。\n　えっ？　サーカスの団長を見なかったかって？\n　いや　こっちの方には　来てないよ。": 
+    "What's the matter? You're in such a rush.\nWhat? Have you seen the circus leader? No, he\ndidn't come this way."
+  },
+  "35003": {
+    "<attr><feel_sad_lv3><end_attr>「あの　ナブレット団長さんにかぎって\n　子供をさらうなんてこと　あるわけないわ。\n<br>\n「でも……パクレさんは　確かに\n　この目で見たのである！　って言うし\n　ああ　どうなっているの！？": 
+    "<attr><feel_sad_lv3><end_attr>There is no way that Captain Nablette would\nkidnap a child. But Mr. Pakul saw it with his\nown eyes! What's going on?"
+  },
+  "44088": {
+    "「お客さん。こっちは　楽屋口だよ。\n　団員たちが休憩中だから　静かにな。": 
+    "Sir, this is the backstage entrance. This is\nthe backstage exit. The group is taking a\nbreak, so be quiet."
+  },
+  "35004": {
+    "<attr><feel_angry_lv1><end_attr>「サーカステントから　悲鳴が聞こえたと思ったら\n　パクレさんが　大騒ぎしながら出てきたけど\n　いったい　何があったの？\n<br>\n「えっ　ナブレット団長さんが　子供たちを！？\n<br>\n「じゃあ　さっきの悲鳴は　うちの子のっ！？\n　うちの子まで　さらわれてしまったの！？": 
+    "<attr><feel_angry_lv1><end_attr>I thought I heard a scream from the circus\ntent, and then Mr. Pakul came out with a big\nfuss, but what happened? Captain Nablette took\n<br>\nthe kids? Then those screams were my\nchildren's screams! My child has been\nkidnapped too!"
+  },
+  "35005": {
+    "<attr><feel_sad_lv3><end_attr>「ナブレット団長さんが　子供たちを\n　さらうなんて　信じられないわ……。\n　ああ　うちの子は　無事かしら。": 
+    "<attr><feel_sad_lv3><end_attr>I can't believe Captain Nablette took the\nkids. Oh, I wonder if my kids are safe."
+  },
+  "35006": {
+    "<attr><feel_sad_lv1><end_attr>「まさか　あんな奇術を使って\n　自分も子供たちも　消しちまうとは……。\n　団長は　どうしちまったんだろな……。\n<br>\n「このままじゃ　サーカスの開催は無理だが\n　今は　そんなことを考えてる場合じゃないな。\n<br>\n「サーカステントの裏の　楽屋にいる団員なら\n　団長について　何か知ってるかもしれん。\n　後で　聞いてこよう。": 
+    "<attr><feel_sad_lv1><end_attr>I never thought he would use such magic to\nwipe out both himself and his children. I\nwonder what happened to the Commander. We\n<br>\ncan't hold the circus if things continue like\nthis, but now's not the time to be thinking\nabout that. The group members in the backstage\n<br>\narea behind the circus tent might know\nsomething about the group leader. I'll ask\nthem later."
+  },
+  "35007": {
+    "<attr><feel_sad_lv1><end_attr>「事件が　解決するまでは\n　ナブナブ大サーカス団は　閉鎖だよ。\n<br>\n「それにしても　あんな奇術を使って\n　自分も子供たちも　消しちまうなんて\n　団長は　どうしちまったんだろな……。": 
+    "<attr><feel_sad_lv1><end_attr>Until the case is solved, the Nabunabu Circus\nis closed. I wonder what's wrong with the head\nof the troupe that he used such magic to wipe\n<br>\nout both himself and his children."
+  },
+  "35008": {
+    "<attr><feel_angry_lv3><end_attr>「聞いたぞ。ナブレットという　ならず者が\n　オルフェア中の子供たちを　さらったようだな。\n<br>\n「なんと　あくどい　プクリポよ！\n　見つけたら　首の骨を　へし折ってやるわ！！": 
+    "<attr><feel_angry_lv3><end_attr>I heard that a ruffian named Nablette has\nkidnapped all the children in Orphea. What a\nwicked Pukulipo! I'll break his neck if I find\n<br>\nhim!"
+  },
+  "35009": {
+    "<attr><feel_angry_lv3><end_attr>「さっき　ナブレット団長が　風のように\n　サーカステントの裏から　飛びだしてきたんだ！\n　西の方に　向かっていったよ！\n<br>\n「捕まえようと思ったけど　あんまり\n　すばやいんで　あっという間に\n　見失っちまったよ！　くっそ～！！\n<br>\n「ちなみに　こっちは東側だからな！\n　西は　反対側だから注意してくれ！": 
+    "<attr><feel_angry_lv3><end_attr>Captain Nablette just popped out from behind\nthe circus tent like the wind! He was heading\nwest! I tried to catch him, but he was so\n<br>\nquick, I lost him in the blink of an eye! Damn\nit~! By the way, we're on the east side! West\nis the other way, so be careful!"
+  },
+  "35010": {
+    "<attr><feel_angry_lv3><end_attr>「ナブレットのヤツが　ここを通っていったぜ！\n　町中の子供たちを　さらっちまうだなんて\n　まったく　ひでえヤツだよな！": 
+    "<attr><feel_angry_lv3><end_attr>Nablette's just walked through here! He must\nbe a real scumbag to kidnap all the kids in\ntown!"
+  },
+  "35011": {
+    "<attr><feel_angry_lv3><end_attr>「やっぱり　ナブレット団長が\n　うちの子を　さらったのよ！！\n<br>\n「あたし　見たもの！\n　泣きわめくプディンを　無理矢理　連れて\n　団長が　町の外へ　出ていくのを！": 
+    "<attr><feel_angry_lv3><end_attr>I knew it! Captain Nablette took my baby! I\nsaw him! I saw the Commander leave town with\nPudin, who was crying!"
+  },
+  "35012": {
+    "「あれれ？　見まちがえたかな。\n　ナブレット団長が　楽屋の方へ\n　向かっていったような気が……。": 
+    "Oh, no? I must have misjudged. I thought I saw\nCaptain Nablette heading towards the\nbackstage."
+  },
+  "35013": {
+    "<attr><feel_think_lv2><end_attr>「さっき　ナブレットらしきヤツが\n　この橋を　走っていったぜ。\n　まだ　この町に　いるんじゃねえかな。": 
+    "<attr><feel_think_lv2><end_attr>I saw a guy who looked like Nablette running\non this bridge just now. I wonder if he is\nstill in this town."
+  },
+  "35014": {
+    "<attr><feel_happy_lv2><end_attr>「見たか！　あの　おそろしい魔物を！！\n　あんな小さい身体で　魔物に立ち向かうとは\n　ナブレットとやら　見上げたものよっ！\n<br>\n「ううむ……これは　チャンスだぞ。\n　ミュルエルの森に行き　魔物を倒せば\n　キーエンブレム　まちがいなしだ！！\n<br>\n「たしか　ミュルエルの森は　西の出口から出て\n　オルフェア地方西を　さらに西へ進んだ所に\n　あるんだったな！　急ぎ　向かわねば！": 
+    "<attr><feel_happy_lv2><end_attr>Did you see it? That horrible monster!\nNablette, you've really outdone yourself with\nsuch a small body to stand up to a monster!\n<br>\nWell, here's your chance. If we go to Muruel\nForest and defeat the monster, we'll get the\nkey emblem for sure! I think Muruel Forest is\n<br>\nlocated at the west exit of Orphea Region\nWest, further west! We've got to get there as\nsoon as possible!"
+  },
+  "35015": {
+    "「神様……　天国の　アルウェ王妃様……\n　どうか　ナブレット団長さんを\n　悪魔ザイガスの手から　お守りください。\n<br>\n「あっ　もちろん　あなたが\n　悪魔ザイガスから　守ってくれたっていいのよ。": 
+    "Dear God, Queen Alwe in heaven, please protect\nCaptain Nablette from the hands of the Duke\nSigras. Oh, of course you can protect me from\n<br>\nDuke Sigras."
+  },
+  "35016": {
+    "<attr><feel_think_lv2><end_attr>「あの悪魔ザイガスってヤツ\n　アルウェと　契約したとか　なんだとか\n　おかしなことを　言ってたな……。\n<br>\n「アルウェっていえば　このオルフェアから\n　メギストリスに嫁いだ　亡くなられた王妃様だが\n　いったい　悪魔と　なんの関係が……。\n<br>\n「あの悪魔は　ミュルエルの森にいるらしい。\n　こっちは東側だから　もし　森に行きたかったら\n　西側の出口から　出ていくといいぜ。": 
+    "<attr><feel_think_lv2><end_attr>That Duke Sigras said something strange about\nsigning a contract with Alwe. Speaking of\nAlwe, what does the late queen who married\n<br>\ninto Megistris from Orphea have to do with the\ndemon? I heard that the demon is in Muruel\nForest. This is the east side, so if you want\n<br>\nto go to the forest, take the west exit."
+  },
+  "35017": {
+    "「さっき　オルフェア地方西を歩いてたら\n　ナブレット団長と　会ったぜ。\n<br>\n「銀の丘に　子供たちを迎えに行くとか\n　そんなことを　言ってたが\n　ザイガスの件は　もう片付いたのかな？": 
+    "I just met Captain Nablette while walking in\nOrphea Region West. He mentioned something\nabout going to Silver Hill to pick up the\n<br>\nkids, but I wonder if the Sigras thing has\nbeen taken care of yet."
+  },
+  "35018": {
+    "<attr><feel_sad_lv2><end_attr>「う　うちの子……本当に　無事なの！？\n　団長さんを　うたがうわけじゃないけど\n　相手は　あんな　おそろしい魔物なのよ！？": 
+    "<attr><feel_sad_lv2><end_attr>Is my baby really safe? I don't mean to pick\non the Commander, but he's dealing with such a\nhorrible monster!"
+  },
+  "35019": {
+    "<attr><feel_happy_lv2><end_attr>「やってくれるじゃないか　町長……。\n　たった　ひとりで　魔物を出し抜くだなんて。\n<br>\n「しかも　あの　かろやかな身のこなし！\n　いや～　まったく　ホレちまうよなっ。": 
+    "<attr><feel_happy_lv2><end_attr>You've done it, Mr. Mayor. Outsmarting the\nmonsters all by yourself. And with such a\ngraceful way of carrying himself! I can't help\n<br>\nbut fall in love with you."
+  },
+  "35020": {
+    "<attr><feel_sad_lv1><end_attr>「オレたちは　バカだよなあ……。\n　ナブレット団長が　子供たちを　さらったのには\n　ちゃんと理由が　あったのに。\n<br>\n「しかし　悪魔ザイガスが　子供を襲うのを\n　なぜ　団長は　知っていたんだろう……。\n　考えてみると　不思議だな。": 
+    "<attr><feel_sad_lv1><end_attr>We're idiots, aren't we? Captain Nablette had\na good reason for kidnapping the children. But\nhow did the Commander know that Duke Sigras\n<br>\nwas going to attack the children? It's a\nmystery when I think about it."
+  },
+  "35021": {
+    "<attr><feel_happy_lv2><end_attr>「ほんと　ナブレットさんは\n　すばらしい町長さんだわねえ。\n<br>\n「町中の子供たちを　おそろしい魔物から\n　守ってくれるだなんて！\n　ほんっと　勇気があるわあ。": 
+    "<attr><feel_happy_lv2><end_attr>Mr. Nablette is a wonderful mayor. Protecting\nall the children in the town from the terrible\nmonster! You really have courage."
+  },
+  "44148": {
+    "<attr><feel_angry_lv2><end_attr>「悪魔ザイガス……　こえーっ！\n　でも　ナブレット団長　かっこよかったなぁ。": 
+    "<attr><feel_angry_lv2><end_attr>Duke Sigras! But Captain Nablette was cool."
+  },
+  "35022": {
+    "<attr><feel_sad_lv2><end_attr>「あんな　おそろしい魔物が現れるなんて……。\n　もし　うちの子が　さらわれてなかったら\n　あいつに　殺されてたかもしれないわ。\n<br>\n「団長さんは　何もかも　わかっていて\n　町のみんなのために　子供を　さらったのね。\n　どうか　団長さん　無事でいて！": 
+    "<attr><feel_sad_lv2><end_attr>I can't believe that such a horrible monster\nwould appear. If my child hadn't been\nkidnapped, he might have killed her. The\n<br>\nCommander must have known what was going on,\nand took our child for the good of everyone in\nthe town. Please, Commander, stay safe!"
+  },
+  "35023": {
+    "<attr><feel_sad_lv1><end_attr>「ナブレット団長は　自分が　おとりになって\n　町と子供たちを　守ろうとしてくれたのか。\n　くそうっ　泣かせるじゃないか！\n<br>\n「よしっ！　ここはオレに　まかせて\n　お前は　団長を追って　ミュルエルの森にいる\n　悪魔ザイガスを　倒すんだ！": 
+    "<attr><feel_sad_lv1><end_attr>Captain Nablette took the bait and tried to\nprotect the town and the children? Damn, that\nmakes me cry! All right! I'll take over here\n<br>\nand you go after the Commander and take down\nDuke Sigras in Muruel Forest!"
+  },
+  "35024": {
+    "<attr><feel_sad_lv1><end_attr>「ナブレット団長は　自分が　おとりになって\n　町と子供たちを　守ろうとしてくれたのか。\n　くそうっ　泣かせるじゃないか！\n<br>\n「ナブナブ大サーカスは　オレが守るぜ！\n　団長が　無事に帰ってくるまで\n　ネズミ１匹　サーカステントには入れないぞ！": 
+    "<attr><feel_sad_lv1><end_attr>Captain Nablette took the bait and tried to\nprotect the town and the children? Damn, that\nmakes me cry! I'll protect the Nabunabu\n<br>\nCircus! Not a single mouse is allowed in the\ncircus tent until the leader returns safely!"
+  },
+  "35025": {
+    "「私は　世界中の魔瘴を　調査するため\n　カミハルムイ王の命により\n　連れの者と　旅をしておる。\n<br>\n「よもや　町の中まで\n　あのような魔物が　現れるとは……。\n　これも　魔瘴の影響だろうか……。": 
+    "I am traveling with my companions by order of\nKing Kamiharmui to investigate demon miasmas\naround the world. Who would have thought that\n<br>\nsuch a monster would appear even inside a\ntown? Is this also due to the influence of\ndemon miasma?"
+  },
+  "35026": {
+    "<attr><feel_angry_lv1><end_attr>「町に現れた　悪魔ザイガスという魔物は\n　すさまじいほどの　邪悪なチカラを\n　まとっていました……。\n<br>\n「魔物が　戻ってくる前に\n　急ぎ　カミハルムイへ帰り\n　わが王に　この大事件を　お伝えせねば！": 
+    "<attr><feel_angry_lv1><end_attr>A monster named Duke Sigras has appeared in\ntown and is clad in tremendous evil power.\nBefore the monster returns, I must hurry back\n<br>\nto Kamiharmui and inform my king of this great\nevent!"
+  },
+  "35027": {
+    "<attr><feel_angry_lv2><end_attr>「なにィッ！？　貴様が！\n　この私をさしおいて　魔物を倒しただとっ！\n　うぐぐ……。ぬかったわ！\n<br>\n「仕方ない。キーエンブレムは\n　貴様に　ゆずってやる。　\n　見かけによらず　すばやいヤツめ。": 
+    "<attr><feel_angry_lv2><end_attr>What? You! You beat the monster, while I am\nleft to fend for myself! Ugh... I was wrong!\nIt can't be helped. I'll give the key emblem\n<br>\nto you.You're quicker than you look."
+  },
+  "35028": {
+    "「いいのいいの　お礼なんて！\n　私は　当たり前のことを　しただけよ。\n<br>\n「そりゃ　あなたみたいな　弱っちい旅人が\n　あんなコワい魔物を　倒せたのは\n　私が　神様に　祈ったおかげだわ。\n<br>\n「でもね　誰だって　ああいう時なら\n　同じことを　したはずなのよ。\n　だから　お礼なんか　気にしないでねっ。": 
+    "No need to thank me! I was only doing the\nobvious. It's because I prayed to God that a\nweak traveler like you was able to defeat such\n<br>\na scary monster. But you know what, anyone\nwould have done the same thing in a situation\nlike that. So don't worry about thanking me."
+  },
+  "35029": {
+    "<attr><feel_happy_lv1><end_attr>「オレも　もうちょっと　強かったら\n　あんたらの助太刀が　できたんだけどなあ～。\n　とにかく　無事で　よかったよ。\n<br>\n「さあ　早いとこ　サーカステントに行って\n　みんなに　顔を見せてきな。\n　町中が　あんたの帰りを待ってるぜ。": 
+    "<attr><feel_happy_lv1><end_attr>If I were a little stronger, I would have been\nable to help you guys out. Anyway, I'm glad\nyou're safe. Now, go to the circus tent and\n<br>\nshow your face to everyone. The whole town is\nwaiting for your return."
+  },
+  "35030": {
+    "<attr><feel_angry_lv3><end_attr>「そりゃあ　魔物から助けてくれたのは\n　ありがたいけど　うちの子　銀の丘からの帰りに\n　ヒザを　すりむいちゃったのよ！\n<br>\n「大事な子供に　ケガをさせるなんて。\n　ナブレット団長さんも　ひどいわよねえ。": 
+    "<attr><feel_angry_lv3><end_attr>Well, thank you for saving me from the\nmonster, but my little girl scraped her knee\non the way back from Silver Hill! I can't\n<br>\nbelieve you would hurt your precious child.\nCaptain Nablette, you are terrible, aren't\nyou?"
+  },
+  "35031": {
+    "「うちの子も　町中の子供たちも\n　団長さんが　連れて帰ってきてくれたんだ。\n　あの人は　オルフェアの恩人だよ。\n<br>\n「しかも　町のみんなを　騒がせたおわびにって\n　タダでサーカスに　招待してくれたんだ！\n　まったく　団長には　頭が下がるね。": 
+    "Our boy and all the kids in town were brought\nhome by the leader of the group. He is\nOrphea's benefactor. He even invited us to the\n<br>\ncircus for free to make up for disturbing the\nwhole town! I really bow down to the leader."
+  },
+  "35032": {
+    "<attr><feel_happy_lv3><end_attr>「よう！　聞いたぜ！\n　あんたが　悪魔ザイガスを倒したんだろっ。\n　やってくれるじゃねえかっ。\n<br>\n「おかげで　子供たちが帰ってきたぜ！\n　もちろん団長も　一緒さ！！\n　いや～　よかった　よかった！\n<br>\n「みんな　サーカステントに　いるはずだぜ。\n　あんたも　行ってみなよ！": 
+    "<attr><feel_happy_lv3><end_attr>Yo! I heard! I heard you beat Duke Sigras. You\ndid it! Thanks to you, the kids are back! With\nthe Commander too, of course! Good, good,\n<br>\ngood! They should all be at the circus tent.\nYou should go there, too!"
+  },
+  "44090": {
+    "「お客さん。こっちは　楽屋口だよ。\n　ナブナブ大サーカスが　見たいなら\n　反対側の扉に　まわってくんな！": 
+    "Sir, this is the backstage entrance. This is\nthe backstage entrance. If you want to see the\nNabunabu Circus, go around to the other side\n<br>\nof the door!"
+  },
+  "35033": {
+    "<attr><feel_happy_lv3><end_attr>「あたしの子供が　帰ってきたのよ！\n　もちろん　他の子供たちや\n　サーカスの　プディンぼうやも　一緒よ。\n<br>\n「みんなが　無事だったのも\n　ナブレット団長さんの　おかげね。\n　あの方が町長で　本当によかった！": 
+    "<attr><feel_happy_lv3><end_attr>My child is back! Of course, with the other\nkids and Pudin Boy from the circus. Thanks to\nCaptain Nablette, everyone is safe. I'm so\n<br>\nglad he's the mayor!"
+  },
+  "35034": {
+    "<attr><feel_happy_lv3><end_attr>「さあさあ！　オルフェアに平和が戻ったのを\n　記念して　ナブナブ大サーカスの特別公演だ！\n　どちらさんも　ごらんくださーい！": 
+    "<attr><feel_happy_lv3><end_attr>Come on, come on! To celebrate the return of\npeace to Orphea, we have a special performance\nby the Great Nabunabu Circus! Come and see it!"
+  },
+  "35035": {
+    "「私は　世界中の魔瘴を　調査するため\n　カミハルムイ王の命により\n　連れの者と　旅をしておる。\n<br>\n「かつて　悪魔ザイガスと\n　契約をとりかわした　アルウェ王妃には\n　予言のチカラが　あったそうだな。\n<br>\n「もし彼女が　今も　生きていてくれたら\n　アストルティアに忍び寄る　魔瘴と災厄から\n　逃れる道を　教えてもらいたかったものだ。": 
+    "I am traveling with my companions by order of\nKing Kamiharmui to investigate demon miasmas\naround the world. I heard that Queen Alwe, who\n<br>\nonce made a pact with Duke Sigras, had the\npower of prophecy. If her were alive today, I\nwould have asked her to show me the way out of\n<br>\nthe demon miasma and the evil that is creeping\ninto Astoltia."
+  },
+  "35036": {
+    "<attr><feel_think_lv1><end_attr>「遅いわね　イナニワ……。急がなければ\n　悪魔ザイガスが　戻ってきてしまう。\n　早く　この町から　逃げねばならないのに！\n<br>\n「えっ　あなたが　ザイガスを倒したのですか？\n　……あなたが？　本当に　あなたが？\n<br>\n「ゴ　ゴホン！\n　なら　あわてて出ていく必要はありませんね。\n　さらなる調査を　続けることにしましょう。": 
+    "<attr><feel_think_lv1><end_attr>You're late Inaniwa, if you don't hurry Duke\nSigras will come back. We have to get out of\nhere as soon as possible! Did you defeat\n<br>\nSigras? Did you? Really? Really? Then there's\nno need to leave in haste. Then there's no\nneed to rush out. Let's continue our\n<br>\ninvestigation."
+  },
+  "35037": {
+    "<attr><feel_happy_lv3><end_attr>「ナブナブ大サーカス　大道具係にして\n　客引きの　ギガーデ様とは　私のことだ！\n<br>\n「さあ！　貧弱な旅人どもよ！！\n　サーカステントへと　集うがよいわ！": 
+    "<attr><feel_happy_lv3><end_attr>I am the Nabunabu Circus, and I am the props\nman, and I am the tout, Master Gigarde! Come\non! Poor travelers! Gather round the circus\n<br>\ntent!"
+  },
+  "35038": {
+    "<attr><feel_angry_lv3><end_attr><turn_pc>「くっそお……。\n　パクレの野郎　どこに　雲隠れしてやがんだ。\n　返済日は　とっくに　過ぎてるじゃねえか！\n<br>\n「このままじゃ　オレが　ボスに\n　ツノを　バッキバキに　折られちまう。\n　ちっくしょう　パクレめ！　金返せ！！": 
+    "<attr><feel_angry_lv3><end_attr><turn_pc>Damn. Where the hell is that bastard Pakul\nhiding in the clouds? The repayment date has\nlong passed! If I don't do something, the boss\n<br>\nwill break my horn. Damn Pakul! I want my\nmoney back!"
+  },
+  "35039": {
+    "「メギストリス王と　亡くなった　お妃様は\n　結婚するまで　一度も会ったことが\n　なかったんだって！\n<br>\n「ただの　町娘だった　お妃様のもとに\n　突然　王様からの　迎えが来たって\n　おばあちゃんが　言ってたわ。": 
+    "King Megistris and the late queen had never\nmet before they were married! My grandma told\nme that she was just a town girl when all of a\n<br>\nsudden the king came for her."
+  },
+  "35040": {
+    "<attr><feel_think_lv2><end_attr>「子供の頃　ナブレット団長は\n　よく　妹のアルウェちゃんと\n　銀の丘を　遊び場にしてたな。\n<br>\n「アルウェちゃん　かわいかったよ。\n　いやあ　なつかしいなあ。": 
+    "<attr><feel_think_lv2><end_attr>When I was a kid, Captain Nablette used to\nhang out at Silver Hill with his sister Alwe.\nAlwe was so cute. Oh, my God, it was so sweet."
+  },
+  "35041": {
+    "「子供たちったら　毎日　ナブナブ大サーカスを\n　観にいくのよ。大きくなったら\n　サーカスの芸人に　なりたいんですって！": 
+    "The kids go to see the Nabunabu Circus every\nday. They want to be circus performers when\nthey grow up!"
+  },
+  "35042": {
+    "<attr><feel_angry_one><end_attr>「よく酒場に来てた　パクレってオヤジが\n　いなくなっちゃってえー。\n　酒場のツケ　ふみたおされたんだけどー。\n<br>\n「アタシ　そういうの　くわしくないけど\n　これって犯罪とか言うんじゃないのー？\n　マジ　ありえないんだけどー。": 
+    "<attr><feel_angry_one><end_attr>Pakul, who used to come to the tavern often,\nis gone. I've been made to pay for the tavern.\nI'm Kunai Kusshi, but isn't this called a\n<br>\ncrime or something? It's really impossible."
+  },
+  "35043": {
+    "<attr><feel_think_lv1><end_attr>「オルフェアは　たのしい町だけど\n　メギストリスの都の方は　なんていうか\n　かたっくるしい所でねえ。\n<br>\n「町ってのは　治めてる人の\n　人柄が　出るもんなんじゃないかねえ。": 
+    "<attr><feel_think_lv1><end_attr>Orphea is a fun town, but the City of\nMegistris is kind of a cushy place. I think a\ntown shows the personality of the people who\n<br>\nrule it."
+  },
+  "35044": {
+    "<attr><feel_happy_lv3><end_attr>「オルフェア名物　ナブナブ大サーカス団は\n　あの　へんちくりんな建物で　やってるよ！\n<br>\n「オルフェアの子供たちを　救った英雄\n　ナブレット団長の　ステキな芸と\n　おいしい　アクロバットケーキが食べれるよ！": 
+    "<attr><feel_happy_lv3><end_attr>Orphea's famous Nabunabu Circus Troupe is in\nthat weird building! You can enjoy the\nwonderful performance of Captain Nablette, the\n<br>\nhero who saved the children of Orphea, and\ndelicious Acrobatic Cake!"
+  },
+  "35045": {
+    "<attr><feel_happy_lv2><end_attr>「ほんと　ナブレットさんは\n　すばらしい町長さんだわねえ。\n<br>\n「魔物から　町を守ってくれるし\n　すてきなサーカスを　観せてくれるし。\n　ほんっと　尊敬しちゃうわ。": 
+    "<attr><feel_happy_lv2><end_attr>Nablette is a wonderful mayor. He protects the\ntown from monster, and he lets us see his\nwonderful circus. I really admire him."
+  },
+  "44149": {
+    "「お客さん。こっちは　楽屋口だよ。\n　ナブナブ大サーカスが　見たいなら\n　反対側の扉に　まわってくんな！": 
+    "Sir, this is the backstage entrance. This is\nthe backstage entrance. If you want to see the\nNabunabu Circus, go around to the other side\n<br>\nof the door!"
+  },
+  "35046": {
+    "「ナブナブ大サーカスの団長さんが　面倒見ている\n　プディンって男の子は　昔　サーカスにいた\n　芸人さんの　忘れ形見なんですって。\n<br>\n「大きくなったら　ご両親みたいに\n　サーカス芸人になるのが夢だ　って\n　この前　言ってたわ。": 
+    "The leader of the Nabunabu Grand Circus is\ntaking care of a boy named Pudin, who is a\nmemento of a circus performer who used to be\n<br>\nin the circus. He told me the other day that\nhe dreams of becoming a circus performer like\nhis parents when he grows up."
+  },
+  "35047": {
+    "<attr><feel_happy_lv3><end_attr>「はい　いらっしゃい　いらっしゃい！\n　ナブナブ大サーカス　入り口は　こちら！\n　手に汗にぎる　出し物が　いっぱいだよ～！": 
+    "<attr><feel_happy_lv3><end_attr>Welcome, welcome, welcome! Nabunabu Grand\nCircus Entrance is here! We have a lot of\nexciting acts to show you!"
+  },
+  "126616": {
+    "ただいま　改装中につき\n立ち入りはご遠慮ください。": 
+    "Please refrain from entering the building\nwhile it is being renovated."
+  }
+}
