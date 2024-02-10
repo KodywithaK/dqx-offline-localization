@@ -24,7 +24,8 @@ jobs:
           path: ./dqx-offline-localization
           repository: KodywithaK/dqx-offline-localization
           ref: testing
-          sparse-checkout: | # Checks out only the FINAL dialog folder
+          sparse-checkout: | # Checks out only the BACKLOG...ML & FINAL dialog folders
+            BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/ML/
             FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
       
       - name: Install Python
