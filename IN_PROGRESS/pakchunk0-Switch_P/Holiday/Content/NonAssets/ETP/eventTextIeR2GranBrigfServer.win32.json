@@ -72,14 +72,15 @@
   },
   "83045": {
     "「ここは　作られた世界だったんだって。\n　大人たちが　みーんな　そう言ってるもん。\n　だから　ノアも　わかっちゃったんだ。\n<br>\n「でも　どうして　あんなに　大人たちが \n　落ち込んでいるのか　わかんないんだ。\n　作られたものって　そんなにショックなのかな？\n<br>\n「みんな　元気なくなっちゃって　つまんないよ。 \n　誰もノアと　遊んでくれなくなっちゃった。\n　お城には　年の近いお友だちもいないのに……。": 
-    ""
+    "I heard that this is a made-up world. That's what all\nthe grown-ups say, and I think so too.\n<br>\nBut I don't get why so many grown-ups are sad.\nWas it the shock of things being made-up?\n<br>\nEveryone lost their spirit and turned boring, and no\none wants to play with me. And I don't have any\nfriends in the castle my age..."
   },
   "83046": {
-    "<attr><feel_happy_one><end_attr><icon_exc>「あ　そうだ！\n　ノア　いいこと　思いついちゃった！！\n　ノアも　人形を作ってみることにしようっと。\n<br>\n「そうしたら　その子と　友だちになって\n　いつも　いっしょに遊ぶんだ。\n　ねっ　いい考えでしょ？\n<br>\n「そうと決まれば\n　まずは　友達のモデルを　探さないと！\n　そうだなあ……。<bw_break>": "<attr><feel_happy_one><end_attr><icon_exc>Th-that's it! I thought of the perfect\nthing for Noor!! I'll see about making her\na doll too.\n<br>\nThat way she'll always have a friend to\nplay with. That's a good idea, right?\n<br>\nIt's decided, but first, I have to find a\nmodel friend to base it off of! Say...<bw_break>"
+    "<attr><feel_happy_one><end_attr><icon_exc>「あ　そうだ！\n　ノア　いいこと　思いついちゃった！！\n　ノアも　人形を作ってみることにしようっと。\n<br>\n「そうしたら　その子と　友だちになって\n　いつも　いっしょに遊ぶんだ。\n　ねっ　いい考えでしょ？\n<br>\n「そうと決まれば\n　まずは　友達のモデルを　探さないと！\n　そうだなあ……。<bw_break>": 
+    "<attr><feel_happy_one><end_attr><icon_exc>Ah, that's it! I thought of the perfect thing for me!!\nI'll try to make myself a doll.\n<br>\nThen I'll always have a friend to play with. That's a\ngood idea, don't you think?\n<br>\nIt's decided, but first, I have to find a friend to model! That's right...<bw_break>"
   },
   "83047": {
     "<if_woman>「ノアね　レンダーシアの外には　人間以外の\n　ひともいるって　聞いたことがあるんだ。\n　そんな子と　友だちになりたいなっ。\n<br>\n「ここに　そういうひとが　来てくれたら \n　ぜひ　モデルになってください！　って\n　お願いするのになあ……。\n<br>\n「おねーちゃんは　人間……だよね。\n　いっしょにいる　ひとたちって\n　もしかして　人間以外の　ひとたち……？\n<br>\n「うーん　いいセン　いってるけど\n　なんかちょっと　ノアのイメージと\n　ちがうかなあ……。\n<br>\n「もうちょっと　こう　何のヘンテツもない\n　ふつーで　ぼんやりした感じの子が\n　来てくれると　いいんだけどなあ……。<else>「ノアね　レンダーシアの外には　人間以外の\n　ひともいるって　聞いたことがあるんだ。\n　そんな子と　友だちになりたいなっ。\n<br>\n「ここに　そういうひとが　来てくれたら \n　ぜひ　モデルになってください！　って\n　お願いするのになあ……。\n<br>\n「おにーちゃんは　人間……だよね。\n　いっしょにいる　ひとたちって\n　もしかして　人間以外の　ひとたち……？\n<br>\n「うーん　いいセン　いってるけど\n　なんかちょっと　ノアのイメージと\n　ちがうかなあ……。\n<br>\n「もうちょっと　こう　何のヘンテツもない\n　ふつーで　ぼんやりした感じの子が\n　来てくれると　いいんだけどなあ……。<endif>": 
-    "<if_woman><else><endif>"
+    "<if_woman>I heard that there's other people, besides humans,\noutside Lendersia. I'd like to be friends with a kid\nlike that.\n<br>\nIf someone like that came here, they'd be the perfect\nmodel! If only there was someone I could ask to do\nthat, you know...\n<br>\nBig Sister, you're a human... Aren't you. The people\nyou're with, could they be the non-human people...?\n<br>\nUmm, they're on the right track, but I had a different\nimage in mind... A kid that's a little more plain and\ntraditional looking would be nice, you know...<else>I heard that there's other people, besides humans,\noutside Lendersia. I'd like to be friends with a kid\nlike that.\n<br>\nIf someone like that came here, they'd be the perfect\nmodel! If only there was someone I could ask to do\nthat, you know...\n<br>\nBig Brother, you're a human... Aren't you. The people\nyou're with, could they be the non-human people...?\n<br>\nUmm, they're on the right track, but I had a different\nimage in mind... A kid that's a little more plain and\ntraditional looking would be nice, you know...<endif>"
   },
   "83048": {
     "<if_woman>「……ところで　おねーちゃん。\n　名前は　なんて言うの？\n<br>\n「ふ～ん。<pc>って言うのかあ。\n　うん　決めた！\n　ノアね　<pc>をモデルにする！\n<br>\n「<pc>は　レンダーシアの外から\n　来たんだよね？　ノア　前から人間以外のひとと\n　友だちに　なりたいなって思ってたんだ。\n<br>\n「ねえ　<pc>！\n　ノアの　友だち人形のモデルになって\n　ノアが　人形を作る　お手伝いをしてよ！<else>「……ところで　おにーちゃん。\n　名前は　なんて言うの？\n<br>\n「ふ～ん。<pc>って言うのかあ。\n　うん　決めた！\n　ノアね　<pc>をモデルにする！\n<br>\n「<pc>は　レンダーシアの外から\n　来たんだよね？　ノア　前から人間以外のひとと\n　友だちに　なりたいなって思ってたんだ。\n<br>\n「ねえ　<pc>！\n　ノアの　友だち人形のモデルになって\n　ノアが　人形を作る　お手伝いをしてよ！<endif>": 
@@ -91,126 +92,131 @@
   },
   "83050": {
     "「ん～。だけど　まだ　なにか足りないなあ。 \n　もっと　い…いんすぴれーしょん？　が\n　必要だと思うの。\n<br>\n「うん。きっと　<pc>が \n　自分の種族らしい格好を　してくれたら\n　ノア　なにか　ひらめくような気がするっ！\n<br>\n「お願い！　種族の服をそろえてきて！ \n　種族の服は　きっと　<pc>の故郷に\n　売っていると思うんだ。\n<br>\n「自分の故郷に帰って　そこで売っている\n　種族の名前が　ついた装備を\n　ぜーんぶ　着て　戻ってきてね！　待ってるよ。": 
-    ""
+    "Yes～ But there's still something missing. More\nin-inspiration? I think that's what's needed.\n<br>\nUmm, definitely, <pc>, if you wore what\nyour tribe typically does, I think it'd come to me!\n<br>\nPlease! Go get your tribe's clothes! The tribe's\nclothes definitely should be sold in your hometown,\nI think.\n<br>\nGo back to your hometown and after you've bought the\nclothes, put on the whole set and come back! I'll be\nwaiting for you."
   },
   "83051": {
     "「わーい　ありがとっ！\n　……って思ったけど　頼まれごとでいっぱいで\n　忙しそうだね。\n<br>\n「頼まれごとが　片付いたら\n　また　ノアに話しかけてよ。\n　その時は　人形を作るのを手伝ってね！": 
     "Wowee, thanks!"
   },
   "83052": {
-    "<attr><feel_sad_one><end_attr>「……えー。 \n　やっと　友だちが　できると思ったのにィ。\n　そんなんじゃ　ノア　つまらないよー。": "<attr><feel_sad_one><end_attr>...Ehh. Just when I thought I could finally\nmake her a friend. It just can't be for\npoor Noor."
+    "<attr><feel_sad_one><end_attr>「……えー。 \n　やっと　友だちが　できると思ったのにィ。\n　そんなんじゃ　ノア　つまらないよー。": 
+    "<attr><feel_sad_one><end_attr>...Ehh. Just when I thought I finally made friends.\nIt just can't be for poor Noor."
   },
   "83053": {
-    "<attr><feel_happy_one><end_attr>「あ！　<pc>！\n　戻ってきてくれたんだね。待ってたよっ！\n<br>\n「ノアね　みーんな　元気がなくてつまらないから\n　自分で　人形を作って　その子と友だちになって\n　いっしょに遊ぼうと思うの。<bw_break>": "<attr><feel_happy_one><end_attr>AH, <pc>! You came back. I was waiting for you!\n<br>\nI think if Noor had a doll friend of her\nown to play with, she wouldn't feel like\nshe was boring to everyone.<bw_break>"
+    "<attr><feel_happy_one><end_attr>「あ！　<pc>！\n　戻ってきてくれたんだね。待ってたよっ！\n<br>\n「ノアね　みーんな　元気がなくてつまらないから\n　自分で　人形を作って　その子と友だちになって\n　いっしょに遊ぼうと思うの。<bw_break>": 
+    "<attr><feel_happy_one><end_attr>Ah, <pc>! You came back, did you. I was\nwaiting for you!\n<br>\nSince everyone lost their spirit and turned boring,\nI think I'll make myself a doll, then I'll always\nhave a friend to play with.<bw_break>"
   },
   "83054": {
-    "<attr><feel_normal_one><end_attr>「レンダーシアの外には　人間以外の\n　ひともいるって　聞いたことがあるんだ。\n　ノア　そんな子と　友だちになりたいなっ。\n<br>\n「ここに　そういうひとが　来てくれたら \n　ぜひ　モデルになってください！　って\n　お願いするのになあ……。": "<attr><feel_normal_one><end_attr>I've heard of other peoples outside of\nLendersia. Noor would like to have such\na friend.\n<br>\nPlease bring a person like that here, so\nthey can be the model! I'm begging you..."
+    "<attr><feel_normal_one><end_attr>「レンダーシアの外には　人間以外の\n　ひともいるって　聞いたことがあるんだ。\n　ノア　そんな子と　友だちになりたいなっ。\n<br>\n「ここに　そういうひとが　来てくれたら \n　ぜひ　モデルになってください！　って\n　お願いするのになあ……。": 
+    "<attr><feel_normal_one><end_attr>I heard that there's other people, besides humans,\noutside Lendersia. I'd like to be friends with a kid\nlike that.\n<br>\nIf someone like that came here, they'd be the perfect\nmodel! If only there was someone I could ask to do\nthat, you know..."
   },
   "83055": {
     "<attr><feel_happy_one><end_attr>「<pc>は　レンダーシアの外から\n　来たんだよね？　ノア　前から人間以外のひとと\n　友だちに　なりたいなって思ってたんだ。\n<br>\n「ねえ　<pc>！\n　ノアの　友だち人形のモデルになって\n　ノアが　人形を作る　お手伝いをしてよ！": 
-    "<attr><feel_happy_one><end_attr>"
+    "<attr><feel_happy_one><end_attr><pc>, you came from outside Lendersia,\ndidn't you?\n<br>\nI heard before that there's other people, besides\nhumans, I'd like to be friends with a kid like that,\nI think.\n<br>\nHey, <pc>! You can be my doll friend's\nmodel and help me make it!"
   },
   "83056": {
     "「そこにおる　孫娘のノアは \n　最近　この国の活気がないことに\n　気をもんでいるようなのです。\n<br>\n「旅人さん　どうか時間があるようでしたら\n　ノアの話を　聞いてやってくれませんかのう。": 
-    ""
+    "My granddaughter, Noor, over there seems to be\nworried about the kingdom's lack of spirit recently.\n<br>\nTraveler, if you have time to spare, would you\nmind speaking with Noor."
   },
   "83057": {
     "<attr><feel_happy_one><end_attr>「お城中　元気がなくてつまらないから\n　ノア　自分で　人形を作って\n　その子と友だちになって　遊ぼうと思うんだ。<open_irai><bw_break>": 
-    "<attr><feel_happy_one><end_attr><open_irai><bw_break>"
+    "<attr><feel_happy_one><end_attr>Since everyone lost their spirit and turned boring,\nI think I'll make myself a doll, then I'll always\nhave a friend to play with.<open_irai><bw_break>"
   },
   "83058": {
     "<attr><feel_happy_one><end_attr>「だから　その　お手伝いをしてほしいの！ \n　友だちのモデルは　<pc>に決めたから\n　あとは　種族の服をそろえてきてね。\n<br>\n「自分の故郷に帰って　そこで売っている\n　種族の名前が　ついた装備を\n　ぜーんぶ　着て　戻ってきて！　待ってるよ。": 
-    "<attr><feel_happy_one><end_attr>"
+    "<attr><feel_happy_one><end_attr>So, I'd like you to be my helper! Since I decided to\nmake you, <pc>, my doll's model, go get\nyour tribe's clothes!\n<br>\nGo back to your hometown and after you've bought the\nclothes, put on the whole set and come back! I'll be\nwaiting for you."
   },
   "83059": {
     "<attr><feel_happy_one><end_attr>「<pc>！　着替えてきてくれたんだね。 \n　うんうん。とっても　よく似合ってる。\n<br>\n「ノアも　今の　<pc>を見て　\n　ムクムク　いんすぴれーしょん　わいてきたよ！\n　この勢いで　さっそく　人形作りをはじめるね！ <bw_break>": 
-    "<attr><feel_happy_one><end_attr><bw_break>"
+    "<attr><feel_happy_one><end_attr><pc>! You went and changed your clothes,\ndidn't you. Uh-huh. Everything matches properly.\n<br>\nAs I look at you, <pc>, I feel the\ninspiration welling up! With this influence, I'll\nstart making the doll right away!<bw_break>"
   },
   "83060": {
-    "<attr><feel_normal_one><end_attr>「……あっ　そうだ！\n　じゃーん！\n　これ見て　<pc>。": "<attr><feel_normal_one><end_attr>...Ahh, that's right! Ta-dah!\nLook at this <pc>."
+    "<attr><feel_normal_one><end_attr>「……あっ　そうだ！\n　じゃーん！\n　これ見て　<pc>。": 
+    "<attr><feel_normal_one><end_attr>...Ahh, that's right! Ta-dah!\nLook at this <pc>."
   },
   "83061": {
     "<attr><feel_happy_one><end_attr>「ノアが　何か　始めたようですな。\n　あんなに　楽しそうにしておるのを見るのは\n　ひさしぶりですわい。\n<br>\n「どれ　ワシも　何か手伝えることがないか\n　ちょっとばかり　話を聞いてみますかのう。": 
-    "<attr><feel_happy_one><end_attr> It's been a while since I've seen her have so much fun!\n<br>\n"
+    "<attr><feel_happy_one><end_attr>Noor seems to have started something. It's been a\nwhile since I've seen her have so much fun!\n<br>\nWell, even If I can't help out, I'll gladly talk\nwith her a little bit to try."
   },
   "83083": {
     "<se_nots system medalget>ノアは　<pc>に\n銀色の　小さな　さいほう針を\n見せてくれた！": 
-    "<se_nots system medalget>Noor showed <pc> a small, silver needle!"
+    "<se_nots system medalget>Noor showed <pc> a small, silver sewing\nneedle!"
   },
   "83066": {
     "<attr><feel_happy_one><end_attr>「おじいちゃんがね　ノアが\n　ぬいぐるみ　作りたいんだー　って言ったら\n　この　さいほう針を　くれたの！\n<br>\n「ピカピカしてて　とってもキレイなの。\n　それに　ふつうの針より　小さくて\n　ノアの手にピッタリで　使いやすいのよ！\n<br>\n「これだけ　リッパな針があれば\n　ノアでも　上手に人形を作れるよね。\n　よーし　さっそく　取りかかろうっ！": 
-    "<attr><feel_happy_one><end_attr>"
+    "<attr><feel_happy_one>Grandpa gave me this sewing needle when I said I\nwanted to make myself a plushie!\n<br>\nShiny and new, it's really pretty. Plus, it's smaller\nthan regular needles, perfect for my hands to use!\n<br>\nWith a needle this nice, even I can make a good doll,\nright. Okay, let's get started right away!<end_attr>"
   },
   "83084": {
-    "ちくちく　ちくちく……\nちくちく……\n<br>\nノアは　ちくちく　さいほう針を使って\n手作り感たっぷりの　友だち人形を完成させた。": "Knit one, purl two... Knit one, purl two...\n<br>\nNoor, using the sewing needle, completed\nthe handmade friend doll."
+    "ちくちく　ちくちく……\nちくちく……\n<br>\nノアは　ちくちく　さいほう針を使って\n手作り感たっぷりの　友だち人形を完成させた。": 
+    "Knit one, purl two... Knit one, purl two...\n<br>\nNoor, using the sewing needle, completed\nthe handmade friend doll."
   },
   "83067": {
     "<attr><feel_happy_lv3><end_attr>「じゃーん！！　上手にできたでしょー？\n　ノアの　はじめての友だちだよ！\n　ああ　これから毎日が楽しみだなあ～っ！\n<br>\n「だって今　ノア　とっても　わくわくしてるの。 \n　この子と遊んだり　もっと友だち増やしたり\n　これから　楽しいことが　いっぱいだよね！\n<br>\n「大人たちが　言っていること。\n　作られた世界が　どうとか\n　むずかしいことは　よくわかんないけど……\n<br>\n「たとえ　ノアたちが　作られたものでも\n　何かを作るって　こんなに楽しいんだから\n　落ち込むことないって　思ったんだ！\n<br>\n「<pc>とも　遊べて楽しかったよ！ \n　人形を作るの　手伝ってくれて　ありがとう。\n<br>\n「あ　最後にいっこだけ！\n　この子の名前を　<pc>にしようと\n　思ってるんだけど　いーい？<yesno><break>": 
-    "<attr><feel_happy_lv3><end_attr>Ta-dah!! Pretty good, isn't it?\nNoor's first friend! Aah, from now on,\nI'll be happy every day!\n<br>\n<yesno><break>"
+    "<attr><feel_happy_lv3><end_attr>Ta-dah!! Pretty good, isn't it? Noor's first friend!\nAah, from now on, I'll have fun every day～!\n<br>\nI'm already excited. If I make even more friends to\nplay with, there'll be lots of fun stuff to do!\n<br>\nThat stuff the grown-ups talk about. About how this\nworld and stuff is made-up, I don't get what they're\nsad about, because...\n<br>\nEven if me and everybody is made-up, making something\nlike this is fun and that's nothing to be sad about,\nI think!\n<br>\n<pc>, it was fun playing with you! Thank\nyou for helping me make my doll.\n<br>\nAh, one last thing though! You think it'd be okay if\nI named this doll after you, <pc>?<yesno><break>"
   },
   "83068": {
     "「ほかにも　名前は　いろいろ考えてるんだけど\n　本当に　<pc>って名前で　いいんだね？<yesno><break>": 
-    "<yesno><break>"
+    "I thought about all sorts of names, but really,\n<pc>'s a good name, you know?<yesno><break>"
   },
   "83069": {
     "<attr><feel_happy_one><end_attr>「ありがとう！　それじゃ　今日から\n　<pc>と　お姫さまごっこして遊ぼっと。\n　そっちの　<pc>も　また遊びに来てね。\n<br>\n「それから　これは　ノアからのお礼だよっ！\n　どうか　受け取って！": 
-    "<attr><feel_happy_one><end_attr>"
+    "<attr><feel_happy_one><end_attr>Thank you! Then starting today, I'll play princess with\n<pc>. You should come play with us too,\nyou know.\n<br>\nAnd this is a thank you gift from me! Please accept it!"
   },
   "83070": {
     "「えー　だめなの……。\n　ん～。それじゃ　ナーシャなんて　どうかな？\n　いい名前でしょー！<yesno><break>": 
-    "<yesno><break>"
+    "Ehh, it's not... Ok～. Then how about Nasha? That's a\ngood name, right!<yesno><break>"
   },
   "83071": {
     "「ほかにも　名前は　いろいろ考えてるんだけど\n　本当に　ナーシャって名前で　いいんだね？<yesno><break>": 
-    "<yesno><break>"
+    "I thought about all sorts of names, but really,\nNasha's a good name, you know?<yesno><break>"
   },
   "83072": {
     "<attr><feel_happy_one><end_attr>「ありがとう！　それじゃ　今日から\n　ナーシャと　お姫さまごっこして遊ぼっと。\n　<pc>も　また遊びに来てね。\n<br>\n「それから　これは　ノアからのお礼だよっ！\n　どうか　受け取って！": 
-    "<attr><feel_happy_one><end_attr>"
+    "<attr><feel_happy_one><end_attr>Thank you! Then starting today, I'll play princess with\nNasha. You should come play with us too, you know.\n<br>\nAnd this is a thank you gift from me! Please accept it!"
   },
   "83073": {
     "「えー　これもだめなの～？\n　それじゃあ　人形の名前はコッピィにしよう！\n　今度は　いいでしょ？<yesno><break>": 
-    "<yesno><break>"
+    "Ehh, not that one either... Then this doll's name\nwill be Koppy! That one's good, right?<yesno><break>"
   },
   "83074": {
     "「ほかにも　名前は　いろいろ考えてるんだけど\n　本当に　コッピィって名前で　いいんだね？<yesno><break>": 
-    "<yesno><break>"
+    "I thought about all sorts of names, but really,\nKoppy's a good name, you know?<yesno><break>"
   },
   "83075": {
     "<attr><feel_happy_one><end_attr>「ありがとう！　それじゃ　今日から\n　コッピィと　お姫さまごっこして遊ぼっと。\n　<pc>も　また遊びに来てね。\n<br>\n「それから　これは　ノアからのお礼だよっ！\n　どうか　受け取って！": 
-    "<attr><feel_happy_one><end_attr>"
+    "<attr><feel_happy_one><end_attr>Thank you! Then starting today, I'll play princess with\nKoppy. You should come play with us too, you know.\n<br>\nAnd this is a thank you gift from me! Please accept it!"
   },
   "83076": {
     "<attr><feel_happy_one><end_attr>「……これでも　だめなんて。\n　<pc>って　こだわり派なんだね。\n　しょうがない！　ノアのとっておきのにするね！\n<br>\n「その名も……ニャホタマ！！\n　夢にも出そうな　忘れられない名前でしょー！\n　どう？　今度こそ　いいよね？<yesno><break>": 
-    "<attr><feel_happy_one><end_attr><yesno><break>"
+    "<attr><feel_happy_one><end_attr>...Even that's no good. <pc>, you're picky,\naren't you. It can't be helped! I'll have to use my\ntrump card!\n<br>\nThe name... Nyahotama!! There's no refusing such an\nunforgettable name, is there! So? That one's good,\nright?<yesno><break>"
   },
   "83077": {
     "「ノアが考えてた名前は　これで　ぜんぶだけど\n　本当に　ニャホタマって　名前でいいんだね？<yesno><break>": 
-    "<yesno><break>"
+    "I thought about all sorts of names, but really,\nNyahotama's a good name, you know?<yesno><break>"
   },
   "83078": {
     "<attr><feel_happy_one><end_attr>「ありがとう！　それじゃ　今日から\n　ニャホタマと　お姫さまごっこして遊ぼっと。\n　<pc>も　また遊びに来てね。\n<br>\n「それから　これは　ノアからのお礼だよっ！\n　どうか　受け取って！": 
-    "<attr><feel_happy_one><end_attr>"
+    "<attr><feel_happy_one><end_attr>Thank you! Then starting today, I'll play princess with\nNyahotama. You should come play with us too, you know.\n<br>\nAnd this is a thank you gift from me! Please accept it!"
   },
   "83079": {
     "<attr><feel_angry_one><end_attr>「もーぉ！　まじめに考える気ないでしょ！\n　もう１回聞くから　ちゃんと\n　ノアの友だちの名前を　考えてっ！": 
-    "<attr><feel_angry_one><end_attr>"
+    "<attr><feel_angry_one><end_attr>Jeez! You're not taking this seriously, are you!\nI'll ask you 1 more time to listen for a good name\nfor my doll!"
   },
   "83080": {
     "<attr><feel_normal_one><end_attr>「ノアは　やっぱり　<pc>って名前が\n　いいな～って　思ってるんだけど。\n　<pc>と　同じ名前にしても　いーい？<yesno><break>": 
-    "<attr><feel_normal_one><end_attr><yesno><break>"
+    "<attr><feel_normal_one><end_attr>I, as you'd expect, thought it would be okay～ to name\nit after you, but, even if it is the same name as\nyours, <pc>, is that okay?<yesno><break>"
   },
   "83085": {
     "<attr><feel_happy_one><end_attr>「あ　<pc>！\n　今日も　ノアの　<%sEV_NUIGURUMI>は元気だよ！\n<br>\n「いつも　ノアが　お姫さまの役で\n　<%sEV_NUIGURUMI>が　魔物の役で遊んでるんだ！\n　今度は　王子さま役の　友だちも作ろうかな～。": 
-    "<attr><feel_happy_one><end_attr>"
+    "<attr><feel_happy_one><end_attr>Ah, <pc>! My <%sEV_NUIGURUMI> is doing well today too!\n<br>\nI'm always play as the princess and <%sEV_NUIGURUMI>\nas the monster! Next time, I wonder if I should have\nthem play as the prince～"
   },
   "83086": {
     "<attr><feel_happy_one><end_attr>「あ　<pc>！\n　今日も　ノアの　<pc>は元気だよ！\n<br>\n「いつも　ノアが　お姫さまの役で\n　<pc>が　魔物の役で遊んでるんだ！\n　今度は　王子さま役の　友だちも作ろうかな～。": 
-    "<attr><feel_happy_one><end_attr>"
+    "<attr><feel_happy_one><end_attr>Ah, <pc>! My <pc> is doing well today too!\n<br>\nI'm always play as the princess and <pc>\nas the monster! Next time, I wonder if I should have\nthem play as the prince～"
   },
   "83087": {
     "<attr><feel_happy_one><end_attr>「そこにおる　孫娘のノアは \n　最近　さいほうの楽しさに目覚めたようでして。\n　ヒマがあれば　針をにぎっております。\n<br>\n「あの　さいほう針は　軽い気持ちで\n　ワシから　与えたものですじゃが……\n　まさか　こんなにも使い込んでくれるとはのう。\n<br>\n「いやはや　前から　わしに似て\n　何かを作ったり　育てたりする才能があると\n　思っとりましたのじゃ。\n<br>\n「……作られた世界でも　草花は育ちます。 \n　人の心も　同じじゃ。\n　そこに　光があれば　成長できるのです。\n<br>\n「わしは　これからも\n　ノアと一緒に　この庭の世話を\n　続けようと　思っとりますのじゃ。": 
-    "<attr><feel_happy_one><end_attr>"
+    "<attr><feel_happy_one><end_attr>My granddaughter, Noor, over there seems to have woke\nup and found fun in sewing recently.\n<br>\nI gave her the sewing needle, thinking she'd use it\ncasually, but... I never expected she'd keep herself\nbusy with it for so long.\n<br>\nGood gracious, just think, had I known earlier that\nshe'd take after me having a talent for making and\ncaring for things.\n<br>\n...Even in a made-up world, flowers grow. People's\nhearts are exactly the same. If there is light,\nthey will grow.\n<br>\nFrom here on, I believe that Noor and I will continue\nto care for this garden."
   },
   "65462": {
     "「馬ってヤツは　愛情を注げば　注ぐほど\n　それに　応えてくれるんだ。\n<br>\n「こいつらには　表も裏もない。\n　信じれば　それだけ　信じてくれる。\n　人間はダメさ。勇者姫さま以外はね。": "The more love you give a horse, the more\nthey'll respond to you. These guys aren't\ntwo-faced.\n<br>\nSo the more faith you put in them, the\nmore faith they put in you. With people,\nnot so much; except for the Hero Princess."
