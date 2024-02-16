@@ -1,194 +1,258 @@
 {
   "57661": {
-    "<voice 00350_00057661><start_lip_sync n02212 _normal m00001>It's hopeless...\nEven though, I promised Grandpa Lapett.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00350_00057661><start_lip_sync n02212 _normal m00001>「困ったわ……。\n　ラペットおじいさんと　約束したのに。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00350_00057661><start_lip_sync n02212 _normal m00001>It's hopeless... Even though, I promised Grandpa Lapett.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57662": {
-    "<voice 00390_00057662><start_lip_sync n02212 _normal m00001>...Oh?<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00390_00057662><start_lip_sync n02212 _normal m00001>「…………あら？<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00390_00057662><start_lip_sync n02212 _normal m00001>...Oh?<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57663": {
-    "<voice 00420_00057663><start_lip_sync n02212 _normal m00001>Oh, you're travelers, are you. Welcome to\nthe folktown of fairy tales. I'm Aili.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00420_00057663><start_lip_sync n02212 _normal m00001>「まあ　旅の方ですね。\n　ようこそ　童話の里　メルサンディ村へ。 \n　私は　アイリといいます。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00420_00057663><start_lip_sync n02212 _normal m00001>Oh, you're travelers, are you. Welcome to the fairy\ntale town, Melsandy Village. I'm Aili.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57664": {
-    "<voice 00470_00057664><start_lip_sync n02212 _normal m00001>...That's right!\nMaybe someone strong like you can help me\nwith a problem.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00470_00057664><start_lip_sync n02212 _normal m00001>「……そうだわ！ \n　お強そうな　あなたになら　私の悩みを\n　解決していただけるかもしれません。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00470_00057664><start_lip_sync n02212 _normal m00001>...That's right! Maybe someone strong like you can\nhelp me with a problem.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57665": {
-    "<voice 00510_00057665><start_lip_sync n02212 _normal m00001>I promised to bake bread and deliver it to\nGrandpa Lapett doing the picture-show.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00510_00057665><start_lip_sync n02212 _normal m00001>「私　紙芝居をしている　ラペットおじいさんに\n　パンを焼いて　お届けしますねって\n　約束したんです。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00510_00057665><start_lip_sync n02212 _normal m00001>I promised to bake bread and deliver it to Grandpa\nLapett doing the picture-show.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57666": {
-    "<voice 00540_00057666><start_lip_sync n02212 _normal m00001>But evil <%sEV_QUE_NAME0>s stole all the wheat\nstored in the house...<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00540_00057666><start_lip_sync n02212 _normal m00001>「ですが　この家で　たくわえていた小麦を \n　悪い　<%sEV_QUE_NAME0>さんたちが\n　盗んでいってしまって……。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00540_00057666><start_lip_sync n02212 _normal m00001>But all the wheat stored in the house was stolen by\nevil <%sEV_QUE_NAME0>s...<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57667": {
-    "<voice 00580_00057667><start_lip_sync n02212 _normal m00001>Please, travelers, will you return the\nwheat back from the <%sEV_QUE_NAME0>s?<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00580_00057667><start_lip_sync n02212 _normal m00001>「旅の方　お願いです。 \n　<%sEV_QUE_NAME0>さんたちから　小麦を\n　取り戻してきていただけませんか？<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00580_00057667><start_lip_sync n02212 _normal m00001>Please, travelers, will you return the wheat back\nfrom the <%sEV_QUE_NAME0>s?<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "26333": {
-    "A quest has been requested.\nDo you accept this quest?\n<select>\nAccept\nReject\n<select_end><close>": ""
+    "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": 
+    "You have been asked to do a quest. Do you accept?\n<select>\nAccept\nDecline\n<select_end><close>"
   },
   "57668": {
-    "<voice 00645_00057668><start_lip_sync n02212 _normal m00001>Oh! Thank you so much!\nYou're very kind...<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00645_00057668><start_lip_sync n02212 _normal m00001>「まあ！　ありがとうございます。 \n　お優しいんですね……。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00645_00057668><start_lip_sync n02212 _normal m00001>Oh! Thank you so much! You're very kind...<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "26332": {
-    "Quest ''<%sEV_QUEST_NAME>'' accepted.<me 74>": ""
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": 
+    "Quest '<%sEV_QUEST_NAME>' received.<me 74>"
   },
   "57669": {
-    "<voice 00820_00057669><start_lip_sync n02212 _normal m00001>The <%sEV_QUE_NAME0>s that stole the wheat should\nbe at Melsandy Granary.\n<auto_br=3500>\nI think the culprits will drop the wheat\nif you defeat them.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00820_00057669><start_lip_sync n02212 _normal m00001>「小麦を盗んだ　<%sEV_QUE_NAME0>さんたちは\n　メルサンディ穀倉帯に　いるはずです。\n　犯人をやっつけたら　小麦を落とすでしょう。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00820_00057669><start_lip_sync n02212 _normal m00001>The <%sEV_QUE_NAME0>s that stole the wheat should be at\nMelsandy Granary. If you defeat the culprits, they\nshould drop the wheat, I think.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "87195": {
-    "<voice 00850_00087195><start_lip_sync n02212 _normal m00001>If you gather <%nEV_QUE_T_NUM0> bundles of wheat, that\nshould be enough to bake some bread, I think.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00850_00087195><start_lip_sync n02212 _normal m00001>「その小麦を　５つほど集めて\n　束ねたら　パンを焼くのに\n　なんとか足りる量になると　思うんです。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00850_00087195><start_lip_sync n02212 _normal m00001>If you gather 5 bundles of wheat, that should be enough\nto bake some bread, I think.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57670": {
-    "<voice 00880_00057670><start_lip_sync n02212 _normal m00001>By the way, northwest of town is Melan\nwaterwheel; I'd appreciate if you'd mill\nthe wheat and bring back the flour here.\n<auto_br=5000>\nPlease, if you would....<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00880_00057670><start_lip_sync n02212 _normal m00001>「ついでと言ってはなんですが　村の北西の\n　メルン水車郷で　小麦をひいてきていただけると\n　うれしいです。どうか　お願いしま……<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00880_00057670><start_lip_sync n02212 _normal m00001>Next, northwest of town is Melan waterwheel; I'd\nappreciate if you'd mill the wheat and bring back the\nflour here. Please, if you would...<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57671": {
-    "<voice 01170_00057671><start_lip_sync n02212 _normal m00001>*cough* *cough*<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 01170_00057671><start_lip_sync n02212 _normal m00001>「ゴホッ　ゴホッ。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 01170_00057671><start_lip_sync n02212 _normal m00001>*cough* *cough*<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57672": {
-    "<voice 01240_00057672><start_lip_sync n02212 _normal m00001>...Excuse me. I'll be waiting in my room.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 01240_00057672><start_lip_sync n02212 _normal m00001>「……ごめんなさい。私は\n　お部屋の中で　お待ちしていますね。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 01240_00057672><start_lip_sync n02212 _normal m00001>...Excuse me. I'll be waiting in my room.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57673": {
-    "<voice 00710_00057673><start_lip_sync n02212 _normal m00001>Oh. You're very kind.\nBut it looks like you have a lot of\nrequests already.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00710_00057673><start_lip_sync n02212 _normal m00001>「まあ。お優しいんですね。 \n　でも　頼まれごとが　いっぱいのようですよ。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00710_00057673><start_lip_sync n02212 _normal m00001>Oh. You're very kind. But it looks like you have a\nlot of requests already.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57674": {
-    "<voice 00930_00057674><start_lip_sync n02212 _normal m00001>Please, if you're free, will you hear my\nrequest...<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00930_00057674><start_lip_sync n02212 _normal m00001>「どうか　ご無理はなさらず\n　手が空きましたら　私のお願いを\n　聞いていただけると……<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00930_00057674><start_lip_sync n02212 _normal m00001>Please, if it's not to much to ask, once you're\navailable will you hear my request...<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57675": {
-    "<voice 01350_00057675><start_lip_sync n02212 _normal m00001>*cough* *cough*<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 01350_00057675><start_lip_sync n02212 _normal m00001>「ゴホッ　ゴホッ。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 01350_00057675><start_lip_sync n02212 _normal m00001>*cough* *cough*<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57676": {
-    "<voice 01420_00057676><start_lip_sync n02212 _normal m00001>...Excuse me. I'm going to my room, if you\nhave any spare time, please come visit\nme again.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 01420_00057676><start_lip_sync n02212 _normal m00001>「……ごめんなさい。\n　私は　お部屋に入りますので\n　また　おヒマな時に　訪ねてきてくださいね。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 01420_00057676><start_lip_sync n02212 _normal m00001>...Excuse me. I'm going to my room, if you have any\nspare time, please come visit me again.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57677": {
-    "<voice 00750_00057677><start_lip_sync n02212 _normal m00001>Is that so. It is a lot to ask for...<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00750_00057677><start_lip_sync n02212 _normal m00001>「そうですね。\n　無理を　言って……<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00750_00057677><start_lip_sync n02212 _normal m00001>Is that so. It is a lot to ask for...<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57678": {
-    "<voice 00980_00057678><start_lip_sync n02212 _normal m00001>*cough* *cough*<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00980_00057678><start_lip_sync n02212 _normal m00001>「ゴホッ　ゴホッ。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00980_00057678><start_lip_sync n02212 _normal m00001>*cough* *cough*<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57679": {
-    "<voice 01060_00057679><start_lip_sync n02212 _normal m00001>...Excuse me. I'm going to my room, in case\nyou feel like hearing my request.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 01060_00057679><start_lip_sync n02212 _normal m00001>「……ごめんなさい。私は\n　お部屋に入りますので　もし気が向いたら\n　お願いを　聞いてくださいね。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 01060_00057679><start_lip_sync n02212 _normal m00001>...Excuse me. I'm going to my room, in case you feel\nlike hearing my request.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57680": {
-    "<voice 00200_00057680><start_lip_sync n02213 _normal m00001>Grandpa Lapett's picture-show is about\nto begin!<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 00200_00057680><start_lip_sync n02213 _normal m00001>「ラペットじいしゃんの\n　紙芝居が　はじまるよう！<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 00200_00057680><start_lip_sync n02213 _normal m00001>Grandpa Lapett's picture-show is about to begin!<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57681": {
-    "<voice 00974_00057681><start_lip_sync n02214 _normal m00001>Grandpa Lapett, I'm tired of waiting!<stop_lip_animation n02214 CLOSE_MOUTH>": ""
+    "<voice 00974_00057681><start_lip_sync n02214 _normal m00001>「ラペットじいさん　待ちくたびれたよー！<stop_lip_animation n02214 CLOSE_MOUTH>": 
+    "<voice 00974_00057681><start_lip_sync n02214 _normal m00001>Grandpa Lapett, I'm tired of waiting!<stop_lip_animation n02214 CLOSE_MOUTH>"
   },
   "57682": {
-    "<voice 01036_00057682><start_lip_sync n02217 _normal m00001>Totally. I was starting to think it\nwouldn't happen today.<stop_lip_animation n02217 CLOSE_MOUTH>": ""
+    "<voice 01036_00057682><start_lip_sync n02217 _normal m00001>「ほんとよぉ。\n　今日は　やらないのかと思っちゃった。<stop_lip_animation n02217 CLOSE_MOUTH>": 
+    "<voice 01036_00057682><start_lip_sync n02217 _normal m00001>Totally. I was starting to think it wouldn't happen\ntoday.<stop_lip_animation n02217 CLOSE_MOUTH>"
   },
   "57683": {
-    "<voice 01111_00057683><start_lip_sync n02213 _normal m00001>Sorry about that.\nTook a little longer than expected to warm\nup the ol' vocal chords, didn't it.<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01111_00057683><start_lip_sync n02213 _normal m00001>「それは～　しゅまんかったの。\n　発声れんすうに　手間どってねえ。<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01111_00057683><start_lip_sync n02213 _normal m00001>Sorry about that～ Took a little longer than expected\nto warm up the ol' vocal chords, didn't it.<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57684": {
-    "<voice 01233_00057684><start_lip_sync n02213 _normal m00001>Don't be shy, travelers.\nThe more the merrier!<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01233_00057684><start_lip_sync n02213 _normal m00001>「ささ　旅人さん。\n　もっと　前へどうぞ！<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01233_00057684><start_lip_sync n02213 _normal m00001>Don't be shy, travelers. The more the merrier!<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57685": {
-    "<voice 01351_00057685><start_lip_sync n02213 _normal m00001>Now for my best friend Pampanini's\nmasterpiece of a fairy tale...<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01351_00057685><start_lip_sync n02213 _normal m00001>「うぉっほん。\n　それでは　わしのいちばんの～親友\n　パンパニーニの傑作童話……<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01351_00057685><start_lip_sync n02213 _normal m00001>Ahem. Now for my best friend Pampanini's masterpiece\nof a fairy-tale...<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57686": {
-    "<voice 01566_00057686><start_lip_sync n02213 _normal m00001>The ''Tale of Little Hero Zankrone'' part 3\n begins.<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01566_00057686><start_lip_sync n02213 _normal m00001>「『小さな英雄ザンクローネの物語』　第３話\n　はじまり～　はじまり～～～。<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01566_00057686><start_lip_sync n02213 _normal m00001>The 'Tale of Little Hero Zankrone', part 3 begins～.<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57687": {
-    "<voice 01686_00057687><start_lip_sync n02213 _normal m00001>Now then, to rescue his stolen sister,\nRaska boy and the mysterious traveler headed\nstraight for the underground waterway...<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01686_00057687><start_lip_sync n02213 _normal m00001>「さてさて　さらわれた姉を助けに\n　おどろおどろしゅい　地下水路にやってきた\n　ラスカ少年と　不思議な旅人……。<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01686_00057687><start_lip_sync n02213 _normal m00001>Now then, to rescue his stolen sister, young Raska\nand the mysterious traveler arrived at an eerie\nunderground waterway...<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57688": {
-    "<voice 01716_00057688><start_lip_sync n02213 _normal m00001>THUUUD!! There was a loud noise. Then, behind Raska boy...<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01716_00057688><start_lip_sync n02213 _normal m00001>「ズシーーーーーン！！　大きな音がしゅてね。\n　ラスカ少年の　後ろに……<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01716_00057688><start_lip_sync n02213 _normal m00001>THUUUD!! There was a loud noise. Then, behind young\nRaska...<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57689": {
-    "<voice 01786_00057689><start_lip_sync n02213 _normal m00001>Fell a monster hand!<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01786_00057689><start_lip_sync n02213 _normal m00001>「手の化け物が　降ってきたあ！<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01786_00057689><start_lip_sync n02213 _normal m00001>Fell a monster hand!<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57690": {
-    "<voice 01801_00057690><start_lip_sync n02213 _normal m00001>...Raska boy roused himself, and with all his\nmight, shouted!<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01801_00057690><start_lip_sync n02213 _normal m00001>「……ふるえる　ラスカ少年！\n　チカラいっぱい　叫ぶよ！<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01801_00057690><start_lip_sync n02213 _normal m00001>...Young Raska roused himself, and with all his\nmight, shouted!<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57691": {
-    "<voice 01826_00057691><start_lip_sync n02213 _normal m00001>Zankrooone～!!<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01826_00057691><start_lip_sync n02213 _normal m00001>「ザンクローネしゃま～～～！！<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01826_00057691><start_lip_sync n02213 _normal m00001>'Zankrooone～!!'<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57692": {
-    "<voice 01866_00057692><start_lip_sync n02213 _normal m00001>Thereupon the mysterious traveler's gem\nlet out a brilliant flash of light!<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01866_00057692><start_lip_sync n02213 _normal m00001>「すると　不思議な旅人の持つ宝石が\n　ピカリと　光った！<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01866_00057692><start_lip_sync n02213 _normal m00001>Thereupon, the gem the mysterious traveler held let\nout a brilliant flash of light!<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57693": {
-    "<voice 01956_00057693><start_lip_sync n02213 _normal m00001>''Sorry to keep you waitin', kid!''<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01956_00057693><start_lip_sync n02213 _normal m00001>「待たせたな　ボウズ！<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01956_00057693><start_lip_sync n02213 _normal m00001>'Sorry to keep you waitin', kid!'<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57694": {
-    "<voice 01966_00057694><start_lip_sync n02213 _normal m00001>Zankrone swings his magical flaming\ngreatsword, the Blaze Sword...<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01966_00057694><start_lip_sync n02213 _normal m00001>「ザンクローネ様は　魔炎の大剣\n　火燐刀を　ふり回し……<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01966_00057694><start_lip_sync n02213 _normal m00001>Zankrone swung his magical flaming greatsword, the\nBlaze Sword...<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57695": {
-    "<voice 01981_00057695><start_lip_sync n02213 _normal m00001>Slaying the hand monster!\nAnd then, gave his catchphrase!<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 01981_00057695><start_lip_sync n02213 _normal m00001>「おそろしゅい　手の化け物を　\n　ザクーッ　メコメコーッと　やっつけた！\n　そして　最後に決めゼリフ！<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 01981_00057695><start_lip_sync n02213 _normal m00001>He slayed the terrible hand monster with a 'zaku\nmekomekoo'! And right after called out his\ncatchphrase!<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57696": {
-    "<voice 02006_00057696><start_lip_sync n02213 _normal m00001>No matter what, never give up hope.\nMelsandy Village is with me!<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 02006_00057696><start_lip_sync n02213 _normal m00001>「どんな時も　希望は捨てんな。 \n　メルサンディ村は　俺とともにある！<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 02006_00057696><start_lip_sync n02213 _normal m00001>No matter what, never give up hope. Melsandy Village,\nI'm with you!<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57697": {
-    "<voice 02096_00057697><start_lip_sync n02213 _normal m00001>Thus the hand monster was defeated and the\nsister, Mishua, saved.<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 02096_00057697><start_lip_sync n02213 _normal m00001>「こうして　手の化け物は倒され\n　姉のミシュアは　助かったわけだねえ。<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 02096_00057697><start_lip_sync n02213 _normal m00001>Thus the hand monster was defeated and sister Mishua\nsaved.<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57698": {
-    "<voice 02175_00057698><start_lip_sync n02213 _normal m00001>And so ends part three of\n''The Tale of Little Hero Zankrone''～.<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 02175_00057698><start_lip_sync n02213 _normal m00001>「しゃて　『小さな英雄ザンクローネの物語』\n　第３話は　これでおしゅまい～。<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 02175_00057698><start_lip_sync n02213 _normal m00001>And so ends part 3 of 'The Tale of Little Hero\nZankrone'～.<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "57699": {
-    "<voice 02246_00057699><start_lip_sync n02218 _normal m00001>Wow, even after seeing it so many times\n''The Tale of Zankrone'' is still interesting,\nyou know.<stop_lip_animation n02218 CLOSE_MOUTH>": ""
+    "<voice 02246_00057699><start_lip_sync n02218 _normal m00001>「うーん　何度見ても\n　ザンクローネの物語は　面白いなあ。<stop_lip_animation n02218 CLOSE_MOUTH>": 
+    "<voice 02246_00057699><start_lip_sync n02218 _normal m00001>Wow, even after seeing it so many times 'The Tale\nof Zankrone' is still interesting, you know.<stop_lip_animation n02218 CLOSE_MOUTH>"
   },
   "57700": {
-    "<voice 02286_00057700><start_lip_sync n02214 _normal m00001>Hey Grandpa Lapett!\nWhat's next? Is there anything after!?<stop_lip_animation n02214 CLOSE_MOUTH>": ""
+    "<voice 02286_00057700><start_lip_sync n02214 _normal m00001>「ねーねー　ラペットじいさん！\n　この続きは？　続きはないのっ！？<stop_lip_animation n02214 CLOSE_MOUTH>": 
+    "<voice 02286_00057700><start_lip_sync n02214 _normal m00001>Hey, Grandpa Lapett! What's next? Is there anything\nafter!?<stop_lip_animation n02214 CLOSE_MOUTH>"
   },
   "57701": {
-    "<voice 02351_00057701><start_lip_sync n02213 _normal m00001>Hmm... Sorry, there's nothing more.\nWell, that's it for today～.<stop_lip_animation n02213 CLOSE_MOUTH>": ""
+    "<voice 02351_00057701><start_lip_sync n02213 _normal m00001>「ふーーーむ……。\n　しゅまんが　続きはないんだよ。\n　さあさ　今日は　これでおしゅまい～。<stop_lip_animation n02213 CLOSE_MOUTH>": 
+    "<voice 02351_00057701><start_lip_sync n02213 _normal m00001>Uuuumm... Sorry, there's nothing more. Well, that's\nit for today～.<stop_lip_animation n02213 CLOSE_MOUTH>"
   },
   "29000010": {
-    "<voice 02352_29000010><start_lip_sync n02076 _normal m00001>Th-This is...??<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+    "<voice 02352_29000010><start_lip_sync c00552 _normal m00001>「こ……これは……？？<stop_lip_animation c00552 CLOSE_MOUTH>": 
+    "<voice 02352_29000010><start_lip_sync n02076 _normal m00001>Th-This was...??<stop_lip_animation n02076 CLOSE_MOUTH>"
   },
   "29000011": {
-    "<voice 02353_29000011><start_lip_sync n00330 _normal m00001>The exact same fight we went through,\nisn't it!!<stop_lip_animation n00330 CLOSE_MOUTH>": ""
+    "<voice 02353_29000011><start_lip_sync n00330 _normal m00001>「オレたちが　経験した騒動と\n　まったく　同じじゃねぇか！！<stop_lip_animation n00330 CLOSE_MOUTH>": 
+    "<voice 02353_29000011><start_lip_sync n00330 _normal m00001>The exact same fight we went through, wasn't it!!<stop_lip_animation n00330 CLOSE_MOUTH>"
   },
   "29000012": {
-    "<voice 02354_29000012><start_lip_sync n02076 _normal m00001>Raska and... Then me too...\nHow!?<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+    "<voice 02354_29000012><start_lip_sync c00552 _normal m00001>「ラスカも……そして　私も…………。\n　なんで！？<stop_lip_animation c00552 CLOSE_MOUTH>": 
+    "<voice 02354_29000012><start_lip_sync n02076 _normal m00001>Raska and... Then me too....... How!?<stop_lip_animation n02076 CLOSE_MOUTH>"
   },
   "29000013": {
-    "<voice 02355_29000013><start_lip_sync n00092 _normal m00001>Everything that happened in that village\nmust have been made up...<stop_lip_animation n00092 CLOSE_MOUTH>": ""
+    "<voice 02355_29000013><start_lip_sync n00092 _normal m00001>「あの村での　出来事は\n　全部　作り物だったはず……。<stop_lip_animation n00092 CLOSE_MOUTH>": 
+    "<voice 02355_29000013><start_lip_sync n00092 _normal m00001>Everything that happened in that village must have\nbeen made up...<stop_lip_animation n00092 CLOSE_MOUTH>"
   },
   "29000014": {
-    "<voice 02356_29000014><start_lip_sync n00212 _normal m00001>Why are you in the picture-show??<stop_lip_animation n00212 CLOSE_MOUTH>": ""
+    "<voice 02356_29000014><start_lip_sync n00212 _normal m00001>「なんで　紙芝居に\n　出てきてるの！？？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02356_29000014><start_lip_sync n00212 _normal m00001>How did they turn up in the picture-show!??<stop_lip_animation n00212 CLOSE_MOUTH>"
   },
   "57702": {
-    "<voice 00160_00057702><start_lip_sync n02212 _normal m00001>Oh traveler, welcome back!\n<auto_br=2500>\nThank you for delivering the bread to\nGrandpa Lapett, I could see it from up here.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00160_00057702><start_lip_sync n02212 _normal m00001>「まあ　旅の方　おかえりなさい！\n　ラペットおじいさんに　パンを届けてくださるの\n　ここから　見えていました。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00160_00057702><start_lip_sync n02212 _normal m00001>Oh my, travelers, welcome back! Thank you for\ndelivering the bread to Grandpa Lapett for me, I\ncould see it from up here.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57703": {
-    "<voice 00330_00057703><start_lip_sync n02212 _normal m00001>Truly, thank you for listening to my\nstrange request. It's not much, but please\ntake this as thanks.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00330_00057703><start_lip_sync n02212 _normal m00001>「無理なお願いを　聞いてくださって\n　本当に　ありがとうございます。\n　ささやかですが　こちらは　お礼です。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00330_00057703><start_lip_sync n02212 _normal m00001>Truly, thank you for listening to my strange request.\nIt's not much, but please take this as thanks.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "42173": {
-    "Quest ''<%sEV_QUEST_NAME>'' cleared!\n<update_quedate><open_irai>": ""
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！": 
+    "Quest '<%sEV_QUEST_NAME>' cleared!<update_quedate><open_irai>"
   },
   "87892": {
-    "<voice 00430_00087892><start_lip_sync n02212 _normal m00001>Also, our helper, Rudy, has kindly reserved\nthe VIP room at the inn, so please use it.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00430_00087892><start_lip_sync n02212 _normal m00001>「それと　お手伝いのルーデさんが\n　気を利かせて　村の宿屋さんのビップルームを\n　予約してくれたので　お使いくださいね。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00430_00087892><start_lip_sync n02212 _normal m00001>Also, my maid, Miss Rudy, thought ahead and reserved\nthe VIP room at the inn, so please use it.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57704": {
-    "<voice 00446_00057704><start_lip_sync n02212 _normal m00001>...Traveler. Grandpa Lapett wanted to speak\nwith you for some reason?<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00446_00057704><start_lip_sync n02212 _normal m00001>「……旅の方。ラペットおじいさんは\n　なにか　おっしゃってましたか？<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00446_00057704><start_lip_sync n02212 _normal m00001>...Travelers. Did Grandpa Lapett speak with you\nabout something?<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57705": {
-    "<voice 00583_00057705><start_lip_sync n02212 _normal m00001>Oh. ''The Tale of Zankrone'''s sequel doesn't\nexist, that's unfortunate...?<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00583_00057705><start_lip_sync n02212 _normal m00001>「まあ。ザンクローネの物語の続きが\n　ないのが　残念だと……？<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00583_00057705><start_lip_sync n02212 _normal m00001>Oh my, He said he was disappointed that 'The Tale of\nZankrone' sequel doesn't exist...?<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57706": {
-    "<voice 00617_00057706><start_lip_sync n02212 _normal m00001>...Please wait a moment.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00617_00057706><start_lip_sync n02212 _normal m00001>「…………ちょっと　お待ちくださいね。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00617_00057706><start_lip_sync n02212 _normal m00001>.......Please wait a moment.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57707": {
-    "<voice 00947_00057707><start_lip_sync n02212 _normal m00001>Grandpa Pampanini was a fairy tale writer\nof Melsandy Village, who wrote fairy tales of\na hero set in this village he so cherished.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00947_00057707><start_lip_sync n02212 _normal m00001>「童話作家だった　パンパニーニおじいさまは\n　メルサンディ村を　深く愛し\n　村を舞台に　英雄の物語を書いたのです。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00947_00057707><start_lip_sync n02212 _normal m00001>Grandpa Pampanini was a fairy-tale writer who wrote\nfairy-tales of a hero set in Melsandy Village, the\nvillage that he so cherished.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57708": {
-    "<voice 00977_00057708><start_lip_sync n02212 _normal m00001>The Little Hero's heroics are fairy tales\nloved by everyone in the village; up to part\n3 which was published just before he died.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 00977_00057708><start_lip_sync n02212 _normal m00001>「小さな英雄さんの活躍する　童話は\n　村の皆さんに　親しまれ\n　生前に　第３話まで　発表されました。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 00977_00057708><start_lip_sync n02212 _normal m00001>The Little Hero's escapades are fairy-tales known by\neveryone in the village and, during his life, 3 parts\nwere published.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57709": {
-    "<voice 01047_00057709><start_lip_sync n02212 _normal m00001>And so Grandfather left the fabled\n''Tale of Little Hero Zankrone'' part 4.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 01047_00057709><start_lip_sync n02212 _normal m00001>「そして　これが　おじいさまが遺した\n　『小さな英雄ザンクローネの物語』の\n　まぼろしの　４話です。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 01047_00057709><start_lip_sync n02212 _normal m00001>And so Grandfather left me the fabled 'Tale of Little\nHero Zankrone', part 4.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57710": {
-    "<voice 01127_00057710><start_lip_sync n02212 _normal m00001>But... The ending it depicts is so sad,\nthat I couldn't show anyone.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 01127_00057710><start_lip_sync n02212 _normal m00001>「けれど……\n　あまりに　悲しい結末が描かれているので\n　皆さんには　お見せできなくって。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 01127_00057710><start_lip_sync n02212 _normal m00001>Although... Because the ending is so sad, I couldn't\nshow it to anyone.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57711": {
-    "<voice 01157_00057711><start_lip_sync n02212 _normal m00001>That's why Grandpa Lapett's dream can't\ncome true...<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 01157_00057711><start_lip_sync n02212 _normal m00001>「だから　ラペットおじいさんの夢は\n　かなえてあげられないんです……。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 01157_00057711><start_lip_sync n02212 _normal m00001>That's why Grandpa Lapett's dream can't come true...<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57712": {
-    "<voice 01247_00057712><start_lip_sync n02212 _normal m00001>That's right. I completely forgot to ask\nyou what your name was. What did you say?<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 01247_00057712><start_lip_sync n02212 _normal m00001>「そうだわ。私ったら　うっかり\n　あなたのお名前を　聞き忘れておりました。\n　なんと　おっしゃるのですか？<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 01247_00057712><start_lip_sync n02212 _normal m00001>That's right. I completely forgot to ask you what\nyour name was. What did you say?<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57713": {
-    "<voice 01327_00057713><start_lip_sync n02212 _normal m00001>...You're <pc>?\nThe mysterious traveler from Grandfather's\nfairy tale has the same name.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 01327_00057713><start_lip_sync n02212 _normal m00001>「……<pc>さんですって？\n　おじいさまの　童話に出てくる\n　不思議な旅人さんと　同じ名前だわ。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 01327_00057713><start_lip_sync n02212 _normal m00001>...You say you're <pc>? The mysterious\ntraveler from Grandfather's fairy-tale has the same\nname.<stop_lip_animation n02212 CLOSE_MOUTH>"
   },
   "57714": {
-    "<voice 01357_00057714><start_lip_sync n02212 _normal m00001>...What are the chances.\nAgain, it's a please to meet you.<stop_lip_animation n02212 CLOSE_MOUTH>": ""
+    "<voice 01357_00057714><start_lip_sync n02212 _normal m00001>「……不思議な　ご縁ですね。\n　また　お会いできたら　うれしいです。<stop_lip_animation n02212 CLOSE_MOUTH>": 
+    "<voice 01357_00057714><start_lip_sync n02212 _normal m00001>...What are the chances. Again, it's a pleasure\nto meet you.<stop_lip_animation n02212 CLOSE_MOUTH>"
   }
 }
