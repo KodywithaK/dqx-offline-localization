@@ -1,0 +1,326 @@
+{
+  "38911": {
+    "「おお。これは　<pc>どの！\n　よいところに　来てくださいましたな。\n　じつは　おりいって　ご相談したいことが。\n<br>\n「最近　このグレン周辺の集落で　夜になると\n　見たこともない　おそろしげな魔物が\n　現れるというウワサが　流れておりましてな。\n<br>\n「真相を調べようにも　わが国は　人手不足。\n　ここは　人をやとって　調査を依頼しようと\n　思っていたところなのですよ。\n<br>\n「魔物が出たというのは　獅子門の集落。\n　そこにいる　目撃者から\n　魔物について　聞いてきてほしいのです。\n<br>\n「もちろん　報酬も　用意しておりますぞ。\n　どうか　頼まれてくださらんかな？": "Oh. This is <pc>! You have come to\nthe right place. In fact, I would like to\ndiscuss something with you. Recently, there\n<br>\nhave been rumors that a terrifying monster,\nthe likes of which I have never seen before,\nappears at night in the villages around Glen.\n<br>\nEven if we wanted to investigate the truth,\nour country is short of manpower. I was\nthinking of hiring someone to investigate. The\n<br>\nmonster is said to have appeared in Lion Gate\nVillage. I want you to go there and talk to\nthe witnesses about the monster. Of course, I\n<br>\nhave a reward for you. Will you do me a favor?"
+  },
+  "38912": {
+    "<if_woman><attr><feel_happy_lv1><end_attr>「おお　引き受けてくださるか！\n　さすがは　<pc>どの。\n　いざという時　頼りになる　ナイスギャル！<else><attr><feel_happy_lv1><end_attr>「おお　引き受けてくださるか！\n　さすがは　<pc>どの。\n　いざという時　頼りになる　ナイスガイ！<endif>": "<if_woman><attr><feel_happy_lv1><end_attr>Oh, you'll take care of it! That's what I'm\ntalking about <pc>. A nice gal who\ncan be relied on in times of need!<else><attr><feel_happy_lv1><end_attr>Oh, you'll take care of it! That's what I'm\ntalking about <pc>. A nice guy who\ncan be relied on in times of need!<endif>"
+  },
+  "38913": {
+    "<attr><feel_sad_lv1><end_attr>「お気持ちは　うれしいのですが\n　どうやら　他の方からの頼まれごとで\n　お忙しい　ご様子ですな。\n<br>\n「どうか　先に　そちらを片付けてから\n　また　私に　話しかけてくだされ。": "<attr><feel_sad_lv1><end_attr>I appreciate your concern, but it seems that\nyou are busy with other requests. Please take\ncare of that first, and then talk to me again."
+  },
+  "38914": {
+    "<attr><feel_sad_lv1><end_attr>「……むむう　残念ですなぁ。\n　<pc>どのになら　安心して\n　仕事を　まかせられるのに……。\n<br>\n「また　気が変わりましたら\n　いつでも　私に　話しかけてくだされ。": "<attr><feel_sad_lv1><end_attr>Mmmm, it's a pity. I would have been able to\nentrust <pc> with my work with peace\nof mind. If you change your mind again, please\n<br>\nfeel free to talk to me anytime."
+  },
+  "38915": {
+    "「おお　<pc>どの！\n　もしかして　私からの依頼を\n　引き受けてくれる気に　なりましたか？\n<br>\n「獅子門の集落に　現れたという\n　魔物の目撃情報を　聞いてきてほしいのですが\n　どうか　頼まれてくださらんかな？": "Oh <pc>! Are you sure you're ready to\naccept my request? I'd like you to go to Lion\nGate Village and ask about a sighting of a\n<br>\nmonster that's been spotted there."
+  },
+  "38916": {
+    "「獅子門の集落に　現れたという\n　なぞの魔物の話を　現地の目撃者から\n　くわしく　聞いてきてほしいのです。<open_irai><bw_break>": "Please tell me more about the mysterious\nmonster that appeared in Lion Gate Village\nfrom local witnesses.<open_irai><bw_break>"
+  },
+  "38917": {
+    "<close_irai>「<pc>どのには　簡単すぎて\n　物足りない仕事かも　しれませんが\n　くれぐれも　頼みましたぞ！": "<close_irai>It may be too easy for <pc> to do,\nbut please be careful!"
+  },
+  "38918": {
+    "「おお　<pc>どの！\n　どうやら　調査は　終わったようですな。\n　では　報告を聞きましょうぞ。\n<br>\n「……なんと　レムルの聖杯をっ！？\n　しかも　魔物が　この城の方向に……。\n　いったい　どういうことでしょうかな……？\n<br>\n「じつは　そのレムルの聖杯ですが\n　先の事件のあとは　我が城の宝物庫で\n　あずかっておりましてな。\n<br>\n「調べてみたところ　あれは　数十年前まで\n　隣国　ガートラントに暮らす\n　さる大商人の所有物だったようなのです。\n<br>\n「商人の血筋は　今はもう　絶えているのですが\n　そのような宝物が　どうして　ベコン渓谷の\n　魔物のもとなどに　あったのやら……？\n<br>\n「とにかく　ガートラントとの友好のためにも\n　遠からず　聖杯は　ガートラント王家への\n　贈り物に……　という話になっておったのです。\n<br>\n「その魔物が　何者かは　わかりませんが\n　狙う者がいると　わかった以上\n　宝物庫の警戒は　厳重にしておきましょうぞ！\n<br>\n「いや～　調査してもらって　よかった！\n　約束通り　お礼をさせていただきましょう。\n　さあ　これを　お受け取りくだされ！": "Oh <pc>! Looks like the investigation\nis over. Now let's hear the report. Lemur's\nChalice! And the monster is in the direction\n<br>\nof this castle. What in the world is going on?\nAs a matter of fact, Lemur's Chalice has been\nin the custody of the treasury at our castle\n<br>\nsince the incident. I found out that until a\nfew decades ago, it belonged to a wealthy\nmerchant who lived in the neighboring country\n<br>\nof Gartlant. The merchant's lineage is now\nextinct, but how could such a treasure have\nended up in the possession of a Becon Valley\n<br>\nmonster? Anyway, in the interest of friendship\nwith Gartlant, the chalice was to be a gift to\nthe Gartlant royal family in the not-too-\n<br>\ndistant future. We don't know who this monster\nis, but now that we know who is after it,\nlet's keep a very close watch on the treasury!\n<br>\nWell, I'm glad you investigated! I will return\nthe favor as promised. Please accept this!"
+  },
+  "38922": {
+    "「レムルの聖杯のことは\n　チグリ大臣に　一任してある。\n　わしから　言うべきことは　何もないぞ。": "Lemur's Chalice has been entrusted to Minister\nChigri. I have nothing to say."
+  },
+  "38920": {
+    "<attr><feel_sad_lv1><end_attr>「エイドスさまってば　いくら止めようとしても\n　ちっとも　聞いてくれないんですよ。\n<br>\n「……はあ。おかげで　チグリ大臣に\n　大目玉くらっちゃいました。": "<attr><feel_sad_lv1><end_attr>Eidos-sama doesn't listen to me at all, no\nmatter how much I try to stop him. Oh, no.\nThanks to that, Minister Chigri gave me a hard\n<br>\ntime."
+  },
+  "38926": {
+    "「おっほ！\n　ワタクシは　このグレン城で　ただひとり\n　歴史を研究している　学者なのデス。\n<br>\n「もともと　オーガは　あまり　昔のことに\n　こだわらない性格デスからねぇ……。\n<br>\n「ワタクシのやっている研究の価値も\n　なかなか　理解してもらえません。\n　まったく　なげかわしいことデス。": "Oh-ho! myself is the only scholar who studies\nhistory here in Glen Castle. Ogre is not very\nparticular about the past, you know. He\n<br>\ndoesn't understand the value of what myself is\ndoing. It's a shame that he's so passionate\nabout it."
+  },
+  "38927": {
+    "<attr><feel_think_lv2><end_attr>「ワタクシ　今　大臣サマからの命令で\n　妖剣士オーレンなる者の記録を\n　探しているところなのデス。\n<br>\n「ところが　この城に残る歴史書には\n　そんな者の名前は\n　どこにも　発見できないのデスよ。\n<br>\n「そういえば　大臣サマに　この調査の助っ人を\n　探してくださるよう　頼んでいるのデスが……\n　まぁだ　見つからないようデスねぇ。\n<br>\n「……仕方ありません。もう　しばらく待っても\n　音沙汰ないようなら　大臣サマの所に行って\n　助っ人の件を　聞いてきてほしいデスよ。": "<attr><feel_think_lv2><end_attr>I am currently searching the records for a\nSwordmaster Oren by order of the Minister.\nHowever, I can't find his name anywhere in the\n<br>\ncastle's history books. Speaking of which,\nI've asked the Minister to find someone to\nhelp me with this investigation, but he can't\n<br>\nseem to find anyone. It can't be helped. If\nyou still haven't heard from him after waiting\nfor a while, please go to the Minister and ask\n<br>\nhim about his helpers."
+  },
+  "38928": {
+    "<attr><feel_think_lv1><end_attr>「おお　<pc>どの。\n　よいところに　来てくださいましたな。\n　じつは　おりいって　ご相談したいことが。\n<br>\n「先日の　レムルの聖杯の件。\n　やはり　エイドスさまの　振る舞いには\n　どうにも　納得できかねましてな……。\n<br>\n「とにかく　まずは　真相を知ろうと\n　今　妖剣士オーレンについて\n　城の学者に　調べさせておるのですよ。\n<br>\n「しかし　どうにも　苦戦しておるようでして\n　学者のダンデルから　ウデの立つ助っ人を\n　探してくれるよう　頼まれておったのです。\n<br>\n「ダンデルは　１階の使用人部屋にいるので\n　もし　手が空いているようでしたら\n　どうか　手伝ってやってください。": "<attr><feel_think_lv1><end_attr>Oh <pc>. You have come to the right\nplace. Actually, I would like to discuss\nsomething with you. The other day at Lemur's\n<br>\nChalice. I am still not convinced by the\nbehavior of Mr. Eidos. Anyway, I am having the\nscholars of the castle investigate Swordmaster\n<br>\nOren in order to find out the truth. However,\nhe seems to be having a hard time, so Danderu\nhas asked me to find someone to help him out.\n<br>\nDanderu is in the Servant Room on the first\nfloor, so if he is free, please help him."
+  },
+  "38929": {
+    "「おっほ！\n　もしかして　大臣サマに頼んでいた\n　助っ人サマが　来てくれたのデスかな？\n<br>\n「ワタクシは　このグレン城で　ただひとり\n　歴史を研究している　ダンデルという者デス。\n<br>\n「大臣サマの命令で　妖剣士オーレンの記録を\n　調べているのデスが　この城に残る歴史書の\n　どこにも　その名が　見つからないのデスよ。\n<br>\n「じつは　グレン城の歴史書は　戦乱の時代に\n　焼失から守るため　ある洞くつに移されて\n　今も　一部は　そこに残されているのデス。\n<br>\n「あなたサマには　その洞くつに行って\n　オーレンの記述が残る　歴史書を\n　探してきてほしいのデスよ。\n<br>\n「洞くつの場所は　ランドンフット地方の\n　北西辺りなのデス。\n　どうか　頼まれてくれませんデスか？": "Oh-ho! Perhaps the help I asked for from the\nMinister has arrived? My self is Danderu, the\nonly historian here at Glen Castle. I was\n<br>\nordered by the Minister to look into the\nrecords of Swordmaster Oren, but I can't find\nhis name anywhere in the history books that\n<br>\nremain in this castle. In fact, the history of\nGlen Castle was moved to a cave during the war\nto protect it from burning, and part of it\n<br>\nremains there to this day. I want you to go to\nthat cave and look for the history books that\nstill contain Oren's writings. The cave is\n<br>\nlocated in the northwestern part of the\nLandonfoot region. Will you do me a favor?"
+  },
+  "38930": {
+    "<attr><feel_happy_lv2><end_attr>「おっほ！　やっていただけますか！\n　では　グレンの歴史４７巻という本を\n　探してきてください。\n<br>\n「前後の歴史書から　妖剣士オーレンは\n　その時代に　出現したと思われるのデス。\n　どうか　よろしくお願いしましたぞ！": "<attr><feel_happy_lv2><end_attr>Whoa-ho! Can you do it for me? Now, please go\nfind the book Glen History Vol. 47. The\nhistorical books before and after it suggest\n<br>\nthat Swordmaster Oren appeared during that\ntime period. Thank you very much!"
+  },
+  "38931": {
+    "<attr><feel_sad_lv1><end_attr>「のっほ！\n　お気持ちは　うれしいのデスが\n　それは　ムリというものデス。\n<br>\n「引き受けてくださる　おつもりなら\n　まず　その　山ほどの頼まれごとを\n　解決してきてからに　してください。": "<attr><feel_sad_lv1><end_attr>Noooo...! I appreciate your kindness, but it's\nnot possible. If you are willing to accept my\noffer, please first solve that mountain of\n<br>\nrequests before you accept my offer."
+  },
+  "38932": {
+    "<attr><feel_sad_lv1><end_attr>「のっほ！　大臣サマから　頼まれて\n　来てくれた方かと　思っていたのデスが\n　どうやら　カンちがいだったようデス。": "<attr><feel_sad_lv1><end_attr>Noooooo! I thought you were the one who was\nasked by the Minister to come here, but it\nseems I was mistaken."
+  },
+  "38933": {
+    "「おっほ！　\n　やはり　あなたサマは　大臣サマに頼まれて\n　助っ人に　来てくれた方なのデスな？\n<br>\n「それなら　グレン城の歴史書が移された\n　洞くつに行って　オーレンの記述のある\n　歴史書を　探してきてほしいのデスよ。\n<br>\n「洞くつの場所は　ランドンフット地方の\n　北西辺りなのデス。\n　どうか　頼まれてくれませんデスか？": "Oh-ho!So you are the one who came to help us\nat the minister's request, are you? If so, I\nwant you to go to the cave where the history\n<br>\nbook of Glen Castle was moved and find the\nhistory book that mentions Oren. The cave is\nlocated in the northwestern part of the\n<br>\nLandonfoot region. Please, will you do me a\nfavor?"
+  },
+  "38934": {
+    "<attr><feel_think_lv1><end_attr>「今　妖剣士オーレンについて\n　城の学者に　調べさせておるのですが\n　どうにも　苦戦しておるようでしてな。\n<br>\n「学者のダンデルから　ウデの立つ助っ人を\n　探してくれるよう　頼まれておったのです。\n<br>\n「ダンデルは　１階の使用人部屋にいるので\n　もし　手が空いているようでしたら\n　どうか　手伝ってやってくだされ。": "<attr><feel_think_lv1><end_attr>I'm trying to find out more about Swordmaster\nOren from the castle scholars, but they seem\nto be having a hard time. Danderu, the\n<br>\nscholar, has asked me to find a skilled helper\nfor him. Danderu is in the Servant Room on the\nfirst floor, so if he is free, please help\n<br>\nhim."
+  },
+  "38935": {
+    "「ランドンフット地方　北西の洞くつから\n　グレンの歴史４７巻という本を\n　探してきてください。<open_irai><bw_break>": "Please find the book Glen History Vol. 47 in\nthe northwest cave of Landonfoot.<open_irai><bw_break>"
+  },
+  "38936": {
+    "<close_irai>「前後の歴史書から　妖剣士オーレンは\n　その時代に　出現したと思われるのデス。\n　どうか　お願いするのデス！": "<close_irai>From the historical books before and after,\nSwordmaster Oren is believed to have appeared\nduring that period. Please, please, please!"
+  },
+  "38937": {
+    "「ダンデルは　オーガにしては　めずらしい\n　知性派で　なにより　どんなことでも\n　真剣に取り組む　生真面目な男です。\n<br>\n「彼が　見つけられないと言う以上\n　妖剣士オーレンのことは　城の歴史書には\n　記されていないのでしょうな……。": "Danderu is an unusually intelligent man for an\nOgre, and above all, he is a true-blue guy who\nwill do whatever it takes to get what he\n<br>\nwants. Since he can't be found, Swordmaster\nOren must not be mentioned in the castle's\nhistory books."
+  },
+  "38938": {
+    "「おっほ！　その手にあるのは　まさしく\n　グレンの歴史４７巻なのデス！！\n　は　早く　それを渡してください。": "Oh-ho! What you have in your hand is exactly\nGlen History Vol. 47! Please hand it over\nquickly."
+  },
+  "38939": {
+    "<attr><feel_sad_lv2><end_attr>「そんな　意地悪言わないで\n　どーかどーか　お願いするのデスよ！": "<attr><feel_sad_lv2><end_attr>Don't be so mean, please, please, please!"
+  },
+  "38940": {
+    "<attr><feel_happy_lv2><end_attr>「おっほ！　ありがとうございます。\n　これで　妖剣士オーレンの研究を\n　進めることができるのデス！": "<attr><feel_happy_lv2><end_attr>Ho ho! Thank you very much. Now I can continue\nmy research on Swordmaster Oren!"
+  },
+  "39006": {
+    "ダンデルに　\nグレンの歴史４７巻を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to give Danderu a copy of Glen\nHistory Vol. 47?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "39007": {
+    "<pc>は　ダンデルに\nグレンの歴史４７巻を　渡した！": "<pc> gave Danderu a copy of Glen\nHistory Vol. 47!"
+  },
+  "38943": {
+    "「おお　<pc>どの。\n　ダンデルから　頼まれたという\n　歴史書探しは　うまくいっておりますか？<yesno><break>": "Oh <pc>. How is your search for the\nhistory book that Danderu asked you to find\ngoing?<yesno><break>"
+  },
+  "38944": {
+    "<attr><feel_happy_lv1><end_attr>「ほほう。さすがは　<pc>どの。\n　歴史書探しくらい　朝メシ前ということですな。\n　ならば　早く　届けてやってくだされ。": "<attr><feel_happy_lv1><end_attr>Hoho. That's what I expected of <pc>.\nI guess you can look for history books before\nbreakfast. If that's the case, please deliver\n<br>\nthem quickly."
+  },
+  "38945": {
+    "<attr><feel_think_lv2><end_attr>「……むう。\n　<pc>どのでも　見つけられぬとは。\n　妖剣士オーレン……いったい何者なのだ？": "<attr><feel_think_lv2><end_attr>Mwah. <pc> But you can't find it. Who\nthe hell is Swordmaster Oren?"
+  },
+  "38948": {
+    "<attr><feel_think_lv1><end_attr>「大臣サマから　命じられて\n　今　妖剣士オーレンのような亡者と\n　話す方法を　調べているのデス。\n<br>\n「しかし　オカルト関係は専門外なので\n　どうにも　苦労しておりますよ。": "<attr><feel_think_lv1><end_attr>I've been ordered by the Minister to find out\nhow to talk to a wraith like Swordmaster Oren.\nBut since I'm not an expert in occult matters,\n<br>\nI'm having a hard time."
+  },
+  "38949": {
+    "「なんとか　大臣サマのご要望に\n　こたえることができて\n　ホッと　ひと安心なのデスよ。\n<br>\n「やはり　ワタクシは　歴史書を\n　開いているのが　落ち着きますな。\n　オカルトは　もう　コリゴリなのデス。": "I am relieved that I was able to meet the\nMinister's request. After all, I feel at home\nwith a history book open. I've had enough of\n<br>\nthe occult."
+  },
+  "38950": {
+    "「おお　<pc>どの。\n　よい所に　来てくださいましたな。\n<br>\n「やはり　書物で調べただけでは\n　オーレンの真実も　エイドスさまのお考えも\n　わからないと　思い直しましてな。\n<br>\n「ここは　ひとつ　事件の中心である\n　妖剣士オーレンに　話を聞いてみようと\n　決心したのですよ。\n<br>\n「そこで　今　学者のダンデルに\n　オーレンと会話をするための方法を\n　調べさせておるのですが……。\n<br>\n「よい方法が　見つかったら\n　ぜひ　<pc>どのにも\n　ご協力願おうと　思っていたところなのです。": "Oh <pc>. You have come to the right\nplace. I have come to the conclusion that I\ncannot understand the truth of Oren's story or\n<br>\nthe thoughts of Mr. Eidos just from reading\nthe books. I decided to ask Swordmaster Oren,\nwho is at the center of the case, about it. So\n<br>\nI'm having our scholar Danderu look into ways\nto communicate with Oren. If you find a good\nway, we would be happy to cooperate with\n<br>\n<pc> as well."
+  },
+  "38951": {
+    "「おお　<pc>どの。\n　もしかして　私からの依頼を\n　引き受けてくれる気に　なられましたか？\n<br>\n「あらためて　お願いしましょう。\n　どうか　<%sEV_QUE_NAME0>を倒し\n　鎮魂のロウソクを　取ってきてくれませぬか？\n<br>\n「そして　そのまま　ベコン渓谷の奥地\n　妖剣士の塚まで　おもむき\n　ロウソクに　火を灯してください。\n<br>\n「妖剣士オーレンと話して　奴が　どうして\n　レムルの聖杯を　求めているのかを\n　聞きだしてきてほしいのです！\n<br>\n「この件は　オーレンとも　エイドスさまとも\n　因縁の深い　<pc>どのでなければ\n　果たせぬと思うのですよ。": "Oh <pc>. Are you sure you are ready\nto accept my request? Let me ask you again.\nPlease, can you defeat <%SEV_QUE_NAME0> and\n<br>\nfetch me the Requiem Candle? Then, go to\nSwordsman Mound, deep in the Becon Valley, and\nlight the candle. Talk to Swordmaster Oren and\n<br>\nfind out why he wants Lemur's Chalice! I\nbelieve that only <pc>, who has a\ndeep connection with both Oren and Eidos, can\n<br>\naccomplish this."
+  },
+  "38952": {
+    "<if_woman><attr><feel_happy_lv1><end_attr>「おお　引き受けてくださるか！\n　さすがは　<pc>どの。\n　いざという時　頼りになる　ナイスギャル！\n<br>\n「では　くれぐれも　お願いします。\n　<%sEV_QUE_NAME0>は　ドワチャッカ大陸の\n　カルサドラ火山に　棲息しているはずですぞ！<else><attr><feel_happy_lv1><end_attr>「おお　引き受けてくださるか！\n　さすがは　<pc>どの。\n　いざという時　頼りになる　ナイスガイ！\n<br>\n「では　くれぐれも　お願いします。\n　<%sEV_QUE_NAME0>は　ドワチャッカ大陸の\n　カルサドラ火山に　棲息しているはずですぞ！<endif>": "<if_woman><attr><feel_happy_lv1><end_attr>Oh, you'll take care of it! That's what I'm\ntalking about <pc>. A nice gal who\ncan be relied on in times of need! Well then,\n<br>\nI'll be counting on you. <%sEV_QUE_NAME0>\nshould be living in Calsadora Volcano in\nDwachakka Continent!<else><attr><feel_happy_lv1><end_attr>Oh, you'll take care of it! That's what I'm\ntalking about <pc>. A nice guy who\ncan be relied on in times of need! Well then,\n<br>\nplease do me a favor. <%sEV_QUE_NAME0> should\nbe living in Calsadora Volcano in Dwachakka\nContinent!<endif>"
+  },
+  "38953": {
+    "<attr><feel_sad_lv1><end_attr>「お気持ちは　うれしいのですが\n　どうやら　他の方からの頼まれごとで\n　お忙しい　ご様子ですな。\n<br>\n「どうか　先に　そちらを片付けてから\n　また　私に　話しかけてくだされ。": "<attr><feel_sad_lv1><end_attr>I appreciate your concern, but it seems that\nyou are busy with other requests. Please take\ncare of that first, and then talk to me again."
+  },
+  "38954": {
+    "<attr><feel_sad_lv1><end_attr>「……むむう　残念ですなぁ。\n　<pc>どのになら　安心して\n　仕事を　まかせられるのに……。\n<br>\n「また　気が変わりましたら\n　いつでも　私に　話しかけてくだされ。": "<attr><feel_sad_lv1><end_attr>Mmmm, it's a pity. I would have been able to\nentrust <pc> with my work with peace\nof mind. If you change your mind again, please\n<br>\nfeel free to talk to me anytime."
+  },
+  "38955": {
+    "「ドワチャッカ大陸の　カルサドラ火山にいる\n　凶悪な魔物　<%sEV_QUE_NAME0>を倒し\n　鎮魂のロウソクを　取ってきてくだされ。<open_irai><bw_break>": "Kill the evil monster <%sEV_QUE_NAME0> in\nCalsadora Volcano in Dwachakka Continent and\nget the Requiem Candle.<open_irai><bw_break>"
+  },
+  "38956": {
+    "「そして　そのまま　ベコン渓谷の奥地\n　妖剣士の塚まで　おもむき\n　ロウソクに　火を灯してください。\n<br>\n「妖剣士オーレンと話して　奴が　どうして\n　レムルの聖杯を　求めているのかを\n　聞きだしてきてほしいのです！<bw_break>": "Then go to Swordsman Mound, deep in the Becon\nValley, and light a candle. Talk to\nSwordmaster Oren and find out why he wants\n<br>\nLemur's Chalice!<bw_break>"
+  },
+  "38957": {
+    "<close_irai>「この件は　オーレンとも　エイドスさまとも\n　因縁の深い　<pc>どのでなければ\n　果たせぬと思うのですよ。": "<close_irai>I believe that only <pc>, who has a\nclose relationship with both Oren and Eidos,\ncan make this happen."
+  },
+  "38958": {
+    "「おお　さっそく　鎮魂のロウソクを\n　手に入れてこられたのですな。\n　さすがは　<pc>どの！\n<br>\n「では　次は　いよいよ　ベコン渓谷に行き\n　妖剣士オーレンと　対面ですな。<open_irai><bw_break>": "Oh, you got the Requiem Candle right away,\ndidn't you? As expected of <pc>!\nWell, next, we're finally going to Becon\n<br>\nValley to face Swordmaster Oren, aren't we?<open_irai><bw_break>"
+  },
+  "38959": {
+    "「鎮魂のロウソクで　オーレンを正気に戻し\n　奴が　どうして　レムルの聖杯を\n　求めるのかを　聞きだしてきてくだされ。<bw_break>": "Use the Requiem Candle to bring Oren back to\nhis senses and find out why he wants Lemur's\nChalice.<bw_break>"
+  },
+  "38960": {
+    "<close_irai>「この件は　オーレンとも　エイドスさまとも\n　因縁の深い　<pc>どのでなければ\n　果たせぬと思うのですよ。": "<close_irai>I believe that only <pc>, who has a\nclose relationship with both Oren and Eidos,\ncan make this happen."
+  },
+  "38961": {
+    "「おお。お帰りでしたか　<pc>どの。\n　……して　妖剣士オーレンから\n　レムルの聖杯のことを　聞きだせたのですか？\n<br>\n「……なんと！\n　またもや　エイドスさまが　現れて\n　そんなことを！？\n<br>\n「……むむう。エイドスさま　ご自身が\n　話してくださると言うなら　仕方ありませんな。\n　その時まで　待つことにしましょう。\n<br>\n「ああ。もちろん　<pc>どのへの報酬は\n　ちゃんと　お渡ししますぞ。\n　さあ　こちらを　受け取ってくだされ。": "Oh. You are back <pc>. And you were\nable to get Swordmaster Oren to tell you about\nLemur's Chalice? Oh, my! Eidos-sama shows up\n<br>\nagain and says such a thing? If Eidos himself\nis willing to tell us, then we have no choice.\nLet's wait until then. Ah. Of course, we will\n<br>\nmake sure to deliver the reward for\n<pc>. Please accept this."
+  },
+  "38962": {
+    "<attr><feel_think_lv2><end_attr>「しかし　エイドスさまたちの様子を\n　聞いた限りでは　やはり　ふたりは\n　以前からの　知り合いだったようですな。\n<br>\n「歴史の表舞台から消された　大悪党と\n　あまねく　世に知られた　大賢者……。\n<br>\n「何が　ふたりを結びつけているのか？\n　じつに　興味深いところですな。": "<attr><feel_think_lv2><end_attr>However, from what I have heard from Eidos and\nthe others, it seems that they have known each\nother for a long time. What connects the two?\n<br>\nWhat connects the two?"
+  },
+  "38966": {
+    "「おお　<pc>どの。\n　よいところに　来てくださいましたな。\n<br>\n「先日の一件以来　エイドスさまからは\n　なんの連絡も　ありませんでな。\n<br>\n「そろそろ　<pc>どのに頼んで\n　様子を　見てきていただこうかと\n　思っておったところなのです。": "Oh <pc>. You have come to the right\nplace. I haven't heard anything from Eidos\nsince the other day. I was just about to ask\n<br>\n<pc> to go and check on him."
+  },
+  "38967": {
+    "「ここまで　聞いてしまった以上\n　私は　オーレンが　何をするつもりなのか\n　最後まで　見届けたいと思うのですよ。\n<br>\n「<pc>どの。\n　もう一度　お願いさせていただきましょう。\n<br>\n「どうか　ランドン山脈の雲上湖まで行って\n　オーレンの行いを　見届け　その様子を\n　私に　報告してくださらんかな？": "Now that I've heard this much, I want to see\nwhat Oren is going to do until the end.\n<pc>. Let me ask you one more time.\n<br>\nWill you please go to Sky Lake in the Landon\nMountains, witness Oren's deed, and report\nback to me how it went?"
+  },
+  "38968": {
+    "<attr><feel_angry_lv1><end_attr>「おお　引き受けてくださるか！\n　やはり　<pc>どのも　この件が\n　どうなるのか　気になるのですな。\n<br>\n「それでこそ　おまかせできるというもの。\n　では　くれぐれも　頼みましたぞ！": "<attr><feel_angry_lv1><end_attr>Oh, you're willing to do it! After all,\n<pc> is also interested in how this\nmatter will turn out. That's why we can leave\n<br>\nit to you. Well then, I'll be counting on you!"
+  },
+  "38969": {
+    "<attr><feel_sad_lv1><end_attr>「お気持ちは　うれしいのですが\n　どうやら　他の方からの頼まれごとで\n　お忙しい　ご様子ですな。\n<br>\n「どうか　先に　そちらを片付けてから\n　また　私に　話しかけてくだされ。": "<attr><feel_sad_lv1><end_attr>I appreciate your concern, but it seems that\nyou are busy with other requests. Please take\ncare of that first, and then talk to me again."
+  },
+  "38970": {
+    "<attr><feel_sad_lv1><end_attr>「……むむう　残念ですなぁ。\n　この件を託せるのは　<pc>どのを\n　おいて　他にないというのに……。\n<br>\n「もし　気が変わりましたら\n　すぐにでも　私に　話しかけてくだされ。": "<attr><feel_sad_lv1><end_attr>Hmmm... What a pity. There is no one else I\nwould entrust this matter to but\n<pc>. If you change your mind, please\n<br>\ntalk to me right away."
+  },
+  "38971": {
+    "「エイドスが　来ていたようだが\n　われに　何も言わず　帰ったようだな。\n<br>\n「クックック……。\n　相変わらずの　王を　王とも思わぬ態度。\n　さすがは　大賢者エイドスよ。": "Eidos was here, but they left without saying a\nword to me. Cookek. As usual, you don't even\nthink of kings as kings. As expected of the\n<br>\ngreat Sage Eidos."
+  },
+  "38972": {
+    "「ランドン山脈の雲上湖まで行き\n　オーレンの行いを見定め　その様子を\n　私に　報告してほしいのです。<open_irai><bw_break>": "I want you to go to Sky Lake in the Landon\nMountains, assess Oren's actions, and report\nback to me.<open_irai><bw_break>"
+  },
+  "38973": {
+    "<close_irai>「ここまで　知ってしまっては\n　もはや　最後まで　見届けないことには\n　気が　すまんのですよ。\n<br>\n「<pc>どのも\n　きっと　同じ気持ちなのでしょう？\n　それでこそ　おまかせできるというものです。": "<close_irai>I'm not happy about not seeing it through to\nthe end, now that I know so much about it. I'm\nsure <pc> feels the same way. That's\n<br>\nwhy I can leave it to you."
+  },
+  "39073": {
+    "<pc>は　チグリ大臣に\n雲上湖での出来事を　教えた。": "<pc> told Minister Chigri about the\nevents at Sky Lake."
+  },
+  "38974": {
+    "<attr><feel_angry_lv1><end_attr>「おお　待ちかねておりましたぞ。\n　……して　雲上湖では　何があったのです？\n　どうか　くわしく教えてくだされ。": "<attr><feel_angry_lv1><end_attr>Oh, I've been waiting for you. So, what\nhappened at Sky Lake? Please tell me more\nabout it."
+  },
+  "38975": {
+    "<attr><feel_think_lv2><end_attr>「……なるほど　そんなことが。\n　どうやら　エイドスさまは　まだ\n　すべてを語ったわけではないようですな。\n<br>\n「まあ　とにかく　お疲れ様でした。\n　こちらは　心ばかりの　お礼の品です。\n　どうぞ　お受け取りくだされ。": "<attr><feel_think_lv2><end_attr>I see. It seems that Eidos has not told us\neverything yet. Well, anyway, thank you for\nyour hard work. Here is a small token of our\n<br>\nsincere appreciation. Please accept it."
+  },
+  "38976": {
+    "「エイドスさまは　オーレンの話は\n　また今度……と言っておりましたか。\n<br>\n「ならば　今は　それを信じて\n　待つとしましょう。\n　あの方ならば　ウソは　つきますまい。": "I see that Eidos-sama said that we will talk\nabout Oren in the future. If so, I will\nbelieve that and wait for now. He would not\n<br>\nlie to us."
+  },
+  "38980": {
+    "「大臣サマから　妖剣士オーレンは　じつは\n　歴史書に書かれていたような　悪人ではなく\n　ひどく不幸な男なのだと　聞いたのデス。\n<br>\n「こういう　思いもかけない事実が\n　明らかになるのが　歴史学のダイゴ味だと\n　ワタクシは　思うのデス。ハイ。": "I was told by the minister that Swordmaster\nOren was not, in fact, a bad man as written in\nthe history books, but a very unhappy man. I\n<br>\nthink this kind of unexpected revelation is\none of the great joys of historiography."
+  },
+  "38981": {
+    "「おお　<pc>どの。\n　よいところに　来てくださいましたな。\n<br>\n「雲上湖で見失って以来　行方知れずだった\n　オーレンの足取りが　つかめましたぞ！\n<br>\n「ベコン渓谷周辺を　巡回していた兵士から\n　どうやら　オーレンが　渓谷に\n　戻ったらしいとの報告を受けたのです。\n<br>\n「<pc>どの。前回に引き続き\n　オーレンが何をしているのかを　見届けて\n　その様子を　報告していただけませんかな？": "Oh <pc>. You have come to the right\nplace. We have tracked down Oren, who has been\nmissing since we lost him at Sky Lake! A\n<br>\nsoldier patrolling the Becon Valley area\nreported that Oren had apparently returned to\nthe valley. <pc>. Would you please\n<br>\ncontinue to see what Oren is doing and report\nback to us how he is doing, as you did last\ntime?"
+  },
+  "38982": {
+    "<attr><feel_angry_lv1><end_attr>「おお　引き受けてくださいますか！\n　こうなったら　最後まで　つき合うぞ！　という\n　<pc>どのの心意気を　感じますな。": "<attr><feel_angry_lv1><end_attr>Oh, you'll take me on? I feel the spirit of\n<pc> that says, \"If this happens,\nI'll stay with you until the end! I can feel\n<br>\nthe spirit of <pc> that he is willing\nto stay with us to the end!"
+  },
+  "38983": {
+    "<attr><feel_sad_lv1><end_attr>「お気持ちは　うれしいのですが\n　どうやら　他の方からの頼まれごとで\n　お忙しい　ご様子ですな。\n<br>\n「どうか　先に　そちらを片付けてから\n　また　私に　話しかけてくだされ。": "<attr><feel_sad_lv1><end_attr>I appreciate your concern, but it seems that\nyou are busy with other requests. Please take\ncare of that first, and then talk to me again."
+  },
+  "38984": {
+    "<attr><feel_sad_lv1><end_attr>「……むむう　残念ですなぁ。\n　この件を託せるのは　<pc>どのを\n　おいて　他にないというのに……。\n<br>\n「もし　気が変わりましたら\n　すぐにでも　私に　話しかけてくだされ。": "<attr><feel_sad_lv1><end_attr>Hmmm... What a pity. There is no one else I\nwould entrust this matter to but\n<pc>. If you change your mind, please\n<br>\ntalk to me right away."
+  },
+  "38985": {
+    "<attr><feel_think_lv2><end_attr>「また　エイドスが　来ていたようだが\n　われには　何も言わず　帰ったようだな。\n<br>\n「……う～む。すっかり　空気あつかいで\n　さすがに　ちょっと　さびしいぞ。": "<attr><feel_think_lv2><end_attr>Eidos was here again, but he left without\nsaying a word to me. Hmmm. I'll miss them a\nlittle, as expected."
+  },
+  "38986": {
+    "「雲上湖での一件以来　行方知れずだった\n　オーレンが　ベコン渓谷に戻ったという\n　報告が　あったのです。\n<br>\n「<pc>どの　お願いします。\n　どうか　ベコン渓谷の奥地まで行って\n　オーレンの様子を　見届けてきてくだされ。<open_irai><bw_break>": "We received a report that Oren, who had been\nmissing since the Sky Lake incident, had\nreturned to Becon Valley. <pc>\n<br>\nPlease. Please go deep into the Becon Valley\nand check on Oren.<open_irai><bw_break>"
+  },
+  "38987": {
+    "<close_irai>「しかし　エイドスさまも　一緒に行くと\n　言いだすとは　予想外でしたな。\n　いよいよ　大詰めという感じがしますぞ。": "<close_irai>However, I did not expect that Eidos-sama\nwould also insist on going with us. I have a\nfeeling that we are finally at the end of the\n<br>\nprocess."
+  },
+  "39074": {
+    "<pc>は　チグリ大臣に\nレムルの聖杯を　渡し\nベコン渓谷での出来事を　教えた！": "<pc> gave Minister Chigri Lemur's\nChalice and told him about the events in the\nBecon Valley!"
+  },
+  "38988": {
+    "<attr><feel_angry_lv1><end_attr>「おお　待ちかねておりましたぞ。\n　……して　今回は　何があったのです？\n　どうか　くわしく教えてくだされ。": "<attr><feel_angry_lv1><end_attr>Oh, I've been waiting for you. So, what\nhappened this time? Please tell me, please."
+  },
+  "38989": {
+    "<attr><feel_think_lv2><end_attr>「……なんと　そんなことが！？\n　エイドスさまは　友である　オーレンのことで\n　ずっと　苦しんでおられたのですなぁ。\n<br>\n「とにかく　レムルの聖杯にまつわる\n　この一連の事件は　これで　ようやく\n　解決したというわけですな。\n<br>\n「私のワガママに　お付き合いいただき\n　本当に　ありがとうございました。\n　さあ　お礼に　これを受け取ってくだされ。": "<attr><feel_think_lv2><end_attr>How is that possible? Eidos-sama must have\nbeen suffering for a long time over his friend\nOren. Anyway, this series of incidents\n<br>\nconcerning Lemur's Chalice has finally been\nresolved. Thank you very much for your\npatience with my selfishness. Please accept\n<br>\nthis in return."
+  },
+  "38991": {
+    "「どうやら　レムルの聖杯の一件は\n　片付いたようだな。\n<br>\n「長らく　ものうげだった　大臣の表情が\n　ようやく　もとに戻ったのだ。\n　われからも　礼を言わせてもらうぞ。": "It seems that the Lemur's Chalice case has\nbeen settled. The minister's long-suffering\nexpression has finally returned to normal. I\n<br>\nwould like to thank you as well."
+  },
+  "38992": {
+    "「おっほ！　これは　<pc>どの。\n　ワタクシ　今　新しい歴史書を書くのに\n　構想を練っているところなのデス。\n<br>\n「悲劇の剣聖オーレンの真実を　必ずや\n　世の中に　知らしめてやるのデスよ！": "Whoa-ho! This is <pc>. I'm currently\nworking on a plot to write a new history book.\nI'll make sure the world knows the true story\n<br>\nof the tragic Sword Saint Oren!"
+  },
+  "38993": {
+    "「取り戻していただいた　レムルの聖杯は\n　グレン城の宝物庫に　安置してありますぞ。\n<br>\n「オーレンの悲劇を知ってしまった　今\n　ガートラント王家との友好のためとはいえ\n　贈り物にするのも　ためらわれましてな……。\n<br>\n「いずれ　エイドスさまが来られた時にでも\n　ご相談しようかと　思っておるのですよ。": "The Lemur's Chalice, which you retrieved for\nus, is enshrined in the treasury of Glen\nCastle. Now that I know of the tragedy of\n<br>\nOren, I hesitate to give it as a gift, even if\nit is for the sake of friendship with the\nGartlant royal family. I am thinking of\n<br>\ndiscussing it with Eidos when he comes to\nvisit."
+  },
+  "68428": {
+    "<attr><feel_happy_lv1><end_attr>「よく来たな。\n　オレは　この武器鍛冶ギルドの\n　ギルドマスターをやってる　ラセドってモンだ。\n<br>\n「あんた　名前は……ふむ　<pc>か。\n　なかなか　華のある　いい名前だな。\n　武器鍛冶職人に　向いている気がするぜ！\n<br>\n「武器鍛冶ってのは　剣とか　ヤリとか　オノとか\n　そういう　金属製の　かっこいい武器を\n　自分の手で　作りだすことさ。\n<br>\n「オレたち武器鍛冶ギルドは　作りだした武器を\n　各国の店に卸している。そう！　この世界で\n　売ってる武器は　大体オレたちが作ってるのさ！\n<br>\n「あんたは冒険者だな？　あんたのように\n　旅をしながら　職人のウデも磨くような\n　流しの職人も　いないことはないんだが……\n<br>\n「最近は　どこの職人ギルドも忙しいみたいでな。\n　新たに職人を雇ったり　個人相手の取引は\n　あんまりしてないみたいなんだ。\n<br>\n「ウチも　ギルドとしては　相手はできないんだが\n　せっかく　来てもらったからには\n　いいことを教えてやろう。\n<br>\n「この世界には　ふしぎな鍛冶台という\n　特別な鍛冶台があるんだ。レシピと素材があれば\n　誰でも　いろいろな装備品を作れるって代物だ。\n<br>\n「もし　手に入れられたら　ラッキーだぜ。\n　なんたって　新しい装備品を　店で買わなくても\n　よくなるんだからな！\n<br>\n「まあ　レシピ書や素材は　自分で用意する\n　必要があるんだがな。それがめんどくさかったら\n　ぜひ　店売りの装備品も　買ってくれよな！": "<attr><feel_happy_lv1><end_attr>Welcome to the Weaponsmith Guild. My name is\nRasedo and I am the guildmaster of the\nWeaponsmith Guild. Your name is <pc>.\n<br>\nThat's a pretty name. I think you'd make a\ngood Weaponsmith! Weaponsmithing is the art of\nmaking swords, spears, axes, and other cool\n<br>\nmetal weapons with your own hands. We, the\nWeaponsmith Guild, distribute the weapons we\nmake to stores all over the world. That's\n<br>\nright! We make most of the weapons sold in the\nworld! You are an adventurer, aren't you?\nThere are some people like you who travel and\n<br>\nhone their craftsmanship skills, but these\ndays, all the craftsmen's guilds are very\nbusy. They don't seem to be hiring new\n<br>\ncraftsmen or doing much business with\nindividuals. As a guild, we can't help you,\nbut since you've come all this way, I'll tell\n<br>\nyou something good. In this world, there is a\nspecial blacksmith's stand called the\nWonderful Blacksmith's Stand. Anyone with a\n<br>\nrecipe and the right materials can make all\nsorts of equipment. If you can get your hands\non one, you are a Drang. After all, you don't\n<br>\nhave to go to the store to buy new equipment!\nWell, you'll have to prepare the recipe and\nmaterials yourself. If that's too much of a\n<br>\nhassle for you, you can always buy equipment\nfrom the store!"
+  },
+  "205748": {
+    "「……え？　ゴランゾは　どこかって？\n<br>\n「そういえば　新入りは　そんな名前だったな。\n　この奥の部屋に　いるはずだぜ。": "What? Where's Golanzo? Well, the new guy has a\nname like that. He should be in this back\nroom."
+  },
+  "53433": {
+    "「あなた　新しい訓練生？\n　ランババ先生は　ここでグレン城の兵士を\n　ビシバシ　育成しているのよ！\n<br>\n「ああ！　ランババ先生ってステキ！ \n　こんなに真剣に　教えてもらえるなんて\n　私　最高に　幸せだわ！": "Are you a new trainee? Mr. Ranbaba is here to\ntrain Glen Castle's soldiers! Ah! Ranbaba-\nsensei is so nice!I'm so happy to be taught by\n<br>\nsuch a true sword!"
+  },
+  "53435": {
+    "<attr><feel_normal_one><end_attr>「ここは　グレン特別訓練場だ！\n　ワタシは　ここの教官の　ランババである！\n　強くなりたいなら　キサマも特訓だ！\n<br>\n「最近の若者は　気合いがたりん！\n　あんな　へなちょこどもに\n　アストルティアの未来を　まかせておけるか！": "<attr><feel_normal_one><end_attr>This is Glen's special training grounds! I am\nRanbaba, the instructor here! If you want to\nbe strong, you have to train too! Young people\n<br>\nthese days don't have enough spirit! I can't\nleave the future of Astoltia to such a bum!"
+  },
+  "34453": {
+    "「町の外へかかる　つり橋といい\n　がっしりした　お城の造りといい\n　ここは　まるで　要塞だなあ。\n<br>\n「だからかねえ？\n　もうすぐ　いくさだってのに\n　兵士さんたちが　落ち着いてられんのは。": "From the lifting bridge over the town to the\nmassive castle, this place looks like a\nfortress. Is that why? The soldiers can't seem\n<br>\nto relax even though we're almost there."
+  },
+  "34454": {
+    "<attr><feel_think_lv2><end_attr>「王は　大丈夫なのだろうか。\n　……いや　なんでもない。\n<br>\n「主君のために　戦うのが　兵士の役目。\n　オレは　バグド王のために\n　チカラの限りを　つくす！": "<attr><feel_think_lv2><end_attr>I wonder if the king is all right. No, he's\nfine. A soldier's duty is to fight for his\nlord. I will do everything I can for King\n<br>\nBagudo!"
+  },
+  "34455": {
+    "<attr><feel_think_lv1><end_attr>「バグド王は　よほどの悪人でない限り\n　牢に入れたりは　なさらない。\n　人の本質は善だと　信じていらっしゃるのだ。\n<br>\n「だが……　どうも　最近\n　牢に入れられる者が　多いんだよな。": "<attr><feel_think_lv1><end_attr>King Bagudo would not throw a man in jail\nunless he is a very bad person. He believes\nthat the essence of human beings is goodness.\n<br>\nBut, lately, there have been a lot of people\nthrown in jail."
+  },
+  "34456": {
+    "「ようこそ　グレン城へ！\n　我が国が誇る　武器鍛冶ギルドは\n　この通路の　奥にある。\n<br>\n「兵士になりたくて来たのなら\n　２階の　玉座の間の前にいる　ニドルフと\n　話をするがいい。": "Welcome to Glen Castle! The Weaponsmith Guild,\nthe pride of our nation, is located in the\nback of this passage. If you have come here to\n<br>\nbecome a soldier, talk to Nidolf in front of\nthe throne room on the second floor."
+  },
+  "34457": {
+    "「……チッ！\n　バグド王のヤツ　ヤキが回ったんじゃね？\n<br>\n「温厚なバグド王に　投獄されるのは\n　大それた悪事をやらかした証っていう\n　ちょっとした　ステイタスだったのによう。\n<br>\n「悪意のかけらも　ねえような\n　お人好しまで　牢に入れちまうなんて……。\n　あー　もう　ヤダヤダ！　ありえねー！": "Damn! King Bagudo must have lost his temper.\nBeing imprisoned by the benevolent King Bagudo\nwas a bit of a status symbol for doing\n<br>\nsomething so evil. They even put good-natured\npeople in jail who don't have a shred of\nmalice in their hearts. Oh, no, no, no! That's\n<br>\nimpossible!"
+  },
+  "34458": {
+    "<attr><feel_sad_lv2><end_attr>「どうも　疲れが取れないな。\n　ここんとこ　ずっと\n　城の中が　バタバタしてるせいだよなぁ。": "<attr><feel_sad_lv2><end_attr>I can't seem to get rid of fatigue. It's\nprobably because the castle has been so busy\nthese days."
+  },
+  "34459": {
+    "「この先は　バグド王がおわす　玉座の間。\n　王は　我が国の兵士になりたいと\n　志願する者のみに　お会いになる。\n<br>\n「兵士として　必要な条件は\n　一人前の証を持つ者であること！\n　資格なき者には　お引き取り願おう。": "Beyond this is the throne room of King Bagudo,\nwho will only see those who wish to become\nsoldiers in his kingdom. As a soldier, you\n<br>\nmust have Proof of Adulthood! Those who are\nnot qualified will be asked to leave."
+  },
+  "34460": {
+    "「この先は　バグド王がおわす　玉座の間。\n　王は　我が国の兵士になりたいと\n　志願する者のみに　お会いになる。\n<br>\n「旅人よ。そなたも　我が国の兵士となって活躍し\n　グレン城の英雄の証　黒のキーエンブレムを\n　手に入れたいと願うか？<yesno><break>": "Beyond this is the throne room of King Bagudo,\nwho will only see those who wish to become our\nsoldiers. Traveler. Would you like to become a\n<br>\nsoldier of our kingdom and receive the Black\nKey Emblem, the proof of Glen Castle's\nheroism?<yesno><break>"
+  },
+  "34461": {
+    "「ならば　立ち去るがいい。": "Then walk away."
+  },
+  "34462": {
+    "「ならば　一人前の証を　見せてもらおうか？\n　……うむ。確かに　持っているようだな！\n<br>\n「よかろう！　玉座の間へ　入るがよい！\n　グレンの兵士として　雇うかどうかは\n　バグド王が　お決めになる。\n<br>\n「王は　今　客人を迎えておられるゆえ\n　静かに　中で待つがよい。": "Then let's see Proof of Adulthood, shall we?\nMm. You certainly seem to have it! Very well!\nYou may enter the throne room! King Bagudo\n<br>\nwill decide whether or not to hire you as a\nsoldier of Glen. King Bagudo will decide if he\nwants to hire me as one of Glen's soldiers.\n<br>\nThe king is expecting a guest right now, so\nwait inside quietly."
+  },
+  "34463": {
+    "<attr><feel_happy_lv2><end_attr>「あなた　新しい訓練生？\n　ランババ先生は　ここでグレン城の兵士を\n　ビシバシ　育成しているのよ！\n<br>\n「ああ！　ランババ先生ってステキ！\n　こんなに　真剣に教えてくれるなんて！\n　私　最高に　幸せだわ！": "<attr><feel_happy_lv2><end_attr>Are you a new trainee? Mr. Ranbaba is here to\ntrain Glen Castle's soldiers! Ah! Ranbaba-\nsensei is so nice! He teaches us with such a\n<br>\ntrue sword! I'm so happy!"
+  },
+  "34465": {
+    "<attr><feel_sad_lv1><end_attr>「一人前の証を持つ者は　少ないし\n　持っていても　王に　気に入られなければ\n　兵士には　なれない……。\n<br>\n「これじゃ　いつまでたっても\n　兵士の数が　そろわないよ。": "<attr><feel_sad_lv1><end_attr>Few people have Proof of Adulthood, and even\nif they have it, they can't become soldiers\nunless they are favored by the king. Even if\n<br>\nyou have Proof of Adulthood, you can't become\na soldier unless you are favored by the king."
+  },
+  "34466": {
+    "「あんたには　知られたから話すが　王の様子が\n　おかしいんだ。このままでは　本当に\n　オーグリード大陸で　いくさが起きてしまう。\n<br>\n「もし　この国を救ってくれる気があるなら\n　エイドスさまに話を聞き　チカラを貸してくれ！\n<br>\n「エイドスさまがいらっしゃる宿は\n　城の前の階段を　真ん中までおりて右だ。\n　頼んだぞ！": "I'll tell you now that you know, but there's\nsomething wrong with the king. If things\ncontinue as they are, there will be real\n<br>\ntrouble in the Ogreed Continent. If you are\nwilling to save this country, please talk to\nEidos and lend me your help! The inn where\n<br>\nEidos is staying is in front of the castle,\ndown the stairs to the true center of the\ncastle, and to the right. I'm counting on you!"
+  },
+  "34467": {
+    "「ジダン兵士長から　話は聞いた。\n　王を治すため　そなたが　エイドスさまから\n　知恵を借り　尽力してくれると……。\n<br>\n「エイドスさまが　いらっしゃる宿屋なら\n　城の前の階段をおりていった先の　右側だ。\n　頼んだぞ！": "Captain Jidan told me about you. He told me\nthat you would borrow wisdom from Eidos and do\nyour best to heal the king. The inn where\n<br>\nEidos is located is just down the stairs in\nfront of the castle on the right. I'm counting\non you!"
+  },
+  "34468": {
+    "<attr><feel_sad_lv2><end_attr>「うたた寝してたのを　ジダン兵士長に見つかって\n　思いっきり　なぐられちまったよ……。\n<br>\n「それにしても　兵士長の左ストレート……。\n　昔と変わらない　破壊力だったぜ！": "<attr><feel_sad_lv2><end_attr>Captain Jidan found me napping and gave me a\ngood smack. By the way, Captain Jidan's\nstraight left hand was as destructive as ever!\n<br>\nIt was just as destructive as in the old days!"
+  },
+  "34469": {
+    "<attr><feel_sad_lv1><end_attr>「ジダン兵士長の　はからいで\n　牢から　出してもらえたようだな……。\n　迷惑をかけて　すまなかった。\n<br>\n「王の気性が　あのように激しくなったのは\n　ひどい頭痛に　苦しめられているからなのだ。\n　なぜ　王ばかりが　こんな目に……！\n<br>\n「……そなたが　玉座の間に入れば\n　また　王の容体が　悪くなるやもしれん。\n　すまぬが　お引き取り願おう。": "<attr><feel_sad_lv1><end_attr>Captain Jidan got you out of jail. I'm sorry\nto have caused you so much trouble. The king's\ntemper has flared up like that because he\n<br>\nsuffers from a terrible headache. Why is this\nhappening to only the king? If you enter the\nthrone room, the king's condition may\n<br>\ndeteriorate again. I am sorry, but I must ask\nyou to leave."
+  },
+  "34470": {
+    "「あんたには　知られたから話すが\n　先日　ご病気から回復なさって以来\n　王のご様子が　おかしいんだ。\n<br>\n「バグド王は　いくさをするといって聞かず\n　異論を唱えた者は　牢に入れ\n　首をはねるよう　命令なさる始末……。\n<br>\n「もちろん　ジダン兵士長や　チグリ大臣の\n　はからいで　その者たちは\n　ひそかに　助けられたのだが……。\n<br>\n「このままでは　本当に　いくさになる。\n　もし　エイドスさまの言うとおり\n　王を元に戻せるなら　チカラを貸してほしい。": "Since you are aware, I must tell you that ever\nsince his recovery from his recent illness,\nthere has been something wrong with the king.\n<br>\nKing Bagudo has been refusing to listen to his\norders to do something about it, and has even\nordered that anyone who objects be thrown in\n<br>\njail and beheaded. Of course, thanks to the\nefforts of Captain Jidan and Minister Chigri,\nthose people were secretly saved. If things\n<br>\ncontinue as they are, things will get really\nbad. If Eidos is right and the king can be\nrestored, please lend me your help."
+  },
+  "34471": {
+    "「エイドスさまと　会うことができたか！\n　……なんと　王が　そんなものに\n　侵されておるとは……。\n<br>\n「オレたちは　今回の　いくさが\n　バグド王の本意だとは　思えなかったが\n　なるほど　合点がいった。\n<br>\n「王が　本当に望んでいらっしゃる　いくさなら\n　オレたちは　いつでも　命をかけて戦おう！\n　だが　今回は……たのむ　王をお救いしてくれ！": "Have you had the pleasure of meeting with the\nLord Eidos? How could such a thing invade the\nking? We didn't think King Bagudo really\n<br>\nwanted to do this, but now we see the point.\nWe will fight with our lives whenever the king\nwants us to! But this time, please, save the\n<br>\nking!"
+  },
+  "34472": {
+    "「おおっ　そなた……！\n　エイドスさまから　話は聞いているぞ。\n　グロリスのしずくを　持ってきてくれたのだな？\n<br>\n「さあ　玉座の間へ入ってくれ。\n　ジダン兵士長が　お待ちかねだ。": "Oh, you! I have heard from Eidos. You brought\nme the Droplet of Gloris? Come on in to the\nthrone room. Captain Jidan is waiting for you."
+  },
+  "34473": {
+    "「町の外へかかる　つり橋といい\n　がっしりした　お城の造りといい\n　ここは　まるで　要塞だなあ。": "From the lifting bridge over the town to the\nmassive castle structure, this place looks\nlike a fortress."
+  },
+  "34474": {
+    "「われの正気を　失わせたのは魔瘴だな。\n　はるか昔　そう呼ばれる存在があったのを\n　思いだした。\n<br>\n「魔瘴がざわめくときは　大いなる闇が\n　しのび寄っているという。\n<br>\n「種族をこえて　結束せねば\n　とても　立ち向かえぬだろう。\n　生かされた　この命　世界のために使おうぞ。": "It is demon miasma that has driven me insane.\nI remember a long time ago, there was a being\ncalled \"demon miasma\". When demon miasma is in\n<br>\nthe air, a great darkness is creeping in. We\nmust unite beyond the races to face it. Let's\nuse this life we have been given for the sake\n<br>\nof the world."
+  },
+  "34475": {
+    "<attr><feel_think_lv1><end_attr>「ガートラントとの　いくさ中止のおふれは\n　あっという間に　広まったようだ。\n<br>\n「町の者たちも　きっと　いくさが\n　中止になるのを　期待していたのだろうな。": "<attr><feel_think_lv1><end_attr>Word of the cancellation of the Irukuso with\nGartlant spread fast. I am sure the\ntownspeople were hoping that the Irukuso would\n<br>\nbe cancelled."
+  },
+  "34476": {
+    "「ご様子が　おかしかったとはいえ　敬愛する王の\n　命令に反し　牢に入れられた者を逃がすのは\n　ジダン兵士長も　心苦しかったはず。\n<br>\n「チグリ大臣も　バグド王の頭痛を案じて\n　夜も眠れぬご様子だったし　あのままだと\n　ふたりとも　心労で倒れていただろう。\n<br>\n「あなたは　バグド王だけでなく\n　多くの者を救い　平和をもたらしてくれたんだ。\n　心から感謝するよ。ありがとう！": "Even though he was acting strangely, Captain\nJidan must have felt anguished to let a man go\nto jail against the order of his beloved king.\n<br>\nMinister Chigri was also worried about King\nBagudo's headache and could not sleep at\nnight, and both of them would have collapsed\n<br>\nfrom exhaustion. You saved not only King\nBagudo but many others and brought peace to\nthe world. I thank you from the bottom of my\n<br>\nheart. Thank you!"
+  },
+  "34477": {
+    "「ようこそ　グレン城へ！\n　我が国に平穏が戻ったのは　そなたのおかげだ！\n　王と　国を救ってくれたこと　感謝する！！": "Welcome to Glen Castle! It is thanks to you\nthat peace has been restored to our land!\nThank you for saving our king and our country!"
+  },
+  "34478": {
+    "「へー。\n　やっぱ　バグド王のヤツ　おかしかったのか。\n<br>\n「悪意のかけらも　ねえような　お人好しまで\n　牢に入れちまうなんて……\n　どう考えても　おかしかったもんな！": "Heh. So King Bagudo was crazy. It was strange\nto think that he would throw even a good-\nnatured person with no trace of malice in\n<br>\njail!"
+  },
+  "34479": {
+    "「王が　見ちがえるように　元気になられた。\n　あんたと　エイドスさまのおかげだ。\n　感謝してるぜ。\n<br>\n「だけど　ネックレスを処分してくれた\n　賢者マリーンへの感謝も　忘れちゃいけねえ。\n　みんなのおかげで　この国は救われたんだ。": "The king has been restored to health. Thanks\nto you and Eidos. Thanks to you and Eidos. But\nlet's not forget to thank Sage Malynn for\n<br>\ngetting rid of the necklace. Thanks to all of\nyou, this country is saved."
+  },
+  "34480": {
+    "<attr><feel_happy_lv2><end_attr>「バグド王の頭痛が治って\n　元の温厚な性格に　戻ったって！？\n<br>\n「……よかった！　本当に　よかった！\n　王が元気になったのなら　もう安心だ。\n　この国は　以前の明るさを　取り戻すよ！": "<attr><feel_happy_lv2><end_attr>King Bagudo's headache is gone, and he's back\nto his old mild-mannered self? That's great!\nI'm so glad! Now that the king is back on his\n<br>\nfeet, we can all rest easy. This country will\nregain its former brightness!"
+  },
+  "34481": {
+    "「この先は　バグド王がおわす　玉座の間。\n　我が国の英雄　<pc>よ。\n　玉座の間へ　入りたいのか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Beyond here is the throne room of King Bagudo,\nour hero <pc>. Do you wish to enter\nthe throne room?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "41976": {
+    "「よかろう！　中へ　入られるがよい。": "Very well! Please come in."
+  },
+  "34483": {
+    "「聞いたところによると　ガートラントには\n　いくさに応じる気が　なかったとか。\n　いったい　どういうことなんでしょうね？": "I heard that Gartlant had no intention of\naccepting Iruka's offer. I wonder what is\ngoing on here?"
+  },
+  "34484": {
+    "「頭痛に苦しんでおられる　王の様子が\n　あまりに　痛ましくてな。\n<br>\n「私たちは　どんな命令にも　従うことで\n　王のお心を　なぐさめようとしていたのだ。\n　……だが　それは　まちがいだった。\n<br>\n「王の本意でない命令のまま　いくさを始めれば\n　悔やみきれぬ結果を　招いただろう。\n　そなたのおかげで助かった。感謝するぞ。": "The king's headache was too painful to bear.\nWe tried to console him by obeying his every\ncommand. But we were wrong. If we had started\n<br>\nthe Irukis under the king's displeasure, the\nresult would have been unforgivable. You saved\nus. I thank you."
+  },
+  "34485": {
+    "<attr><feel_happy_lv2><end_attr>「あなたさまのおかげで！\n　いくさの危機は　回避されました！\n<br>\n「数々の　すばらしい　はたらき！\n　あなたさまに出会えて　よかったなと！\n　こう思う次第であります！": "<attr><feel_happy_lv2><end_attr>Thanks to you! Thanks to you! I'm so glad I\nmet you! I'm so glad I met you! I am so glad\nto have met you!"
+  },
+  "34486": {
+    "「ネックレスを　はずした後も\n　魔瘴が　あのように　王を苦しめるとは……\n　賢者マリーンも　思わなかったようですね。\n<br>\n「エイドスさまと　<pc>さんが\n　この国に来てくださって　よかった。\n　本当に　ありがとうございました！": "I guess Sage Malynn had no idea that demon\nmiasma would torment the king like that even\nafter he took off the necklace. I am glad that\n<br>\nyou and Eidos <pc> came to our\ncountry. Thank you so much!"
+  }
+}
