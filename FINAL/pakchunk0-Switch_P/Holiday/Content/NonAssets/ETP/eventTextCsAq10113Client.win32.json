@@ -29,7 +29,7 @@
   },
   "15821": {
     "<start_lip_sync n01448 _normal m00001>「鎮魂のロウソクに灯る\n　明かりを見れば　魔物となった亡者は\n　正気を　取り戻すのだとか……。<stop_lip_animation n01448 CLOSE_MOUTH>": 
-    "<start_lip_sync n01448 _normal m00001>Upon seeing the light of the Requiem Candle,\nit is said the deceased-turned-monster's sanity\nwill be restored.<stop_lip_animation n01448 CLOSE_MOUTH>"
+    "<start_lip_sync n01448 _normal m00001>Upon seeing the light of the Requiem Candle, it is said\nthat the deceased-turned-monster's sanity will be\nrestored.<stop_lip_animation n01448 CLOSE_MOUTH>"
   },
   "15822": {
     "<start_lip_sync n00004 _normal m00001>「……ふむ。<%sEV_QUE_NAME0>といえば\n　ドワチャッカ大陸の　カルサドラ火山にいるが\n　手に入れるには　骨が折れるな……。<stop_lip_animation n00004 CLOSE_MOUTH>": 
@@ -41,7 +41,7 @@
   },
   "15824": {
     "<start_lip_sync n01448 _normal m00001>「おっほ！　ありがとうございますデス！\n　では　ワタクシは　これにて……。<stop_lip_animation n01448 CLOSE_MOUTH>": 
-    "<start_lip_sync n01448 _normal m00001>Oh-ho! Thank you very much! Then, I shall take my leave.<stop_lip_animation n01448 CLOSE_MOUTH>"
+    "<start_lip_sync n01448 _normal m00001>Oh-ho! Thank you very much! Then, I shall take my\nleave...<stop_lip_animation n01448 CLOSE_MOUTH>"
   },
   "15825": {
     "<start_lip_sync n00004 _normal m00001>「<pc>どの。\n　話は　聞いての通りです。<stop_lip_animation n00004 CLOSE_MOUTH>": 
@@ -49,7 +49,7 @@
   },
   "15826": {
     "<start_lip_sync n00004 _normal m00001>「あらためて　お願いしましょう。\n　どうか　<%sEV_QUE_NAME0>が　よく落とす\n　鎮魂のロウソクを　取ってきてくだされ。<stop_lip_animation n00004 CLOSE_MOUTH>": 
-    "<start_lip_sync n00004 _normal m00001>Once again, I ask of you: please fetch the\nRequiem Candle, often dropped by <%sEV_QUE_NAME0>s.<stop_lip_animation n00004 CLOSE_MOUTH>"
+    "<start_lip_sync n00004 _normal m00001>Once again, I ask of you: please fetch the Requiem\nCandle, often dropped by <%sEV_QUE_NAME0>s.<stop_lip_animation n00004 CLOSE_MOUTH>"
   },
   "15827": {
     "<start_lip_sync n00004 _normal m00001>「そして　そのまま　ベコン渓谷の奥地\n　妖剣士の塚まで　おもむき\n　ロウソクに　火を灯してください。<stop_lip_animation n00004 CLOSE_MOUTH>": 
@@ -61,27 +61,27 @@
   },
   "15829": {
     "<start_lip_sync n00004 _normal m00001>「この件は　オーレンとも　エイドスさまとも\n　因縁の深い　<pc>どのでなければ\n　果たせぬと思うのですよ。<stop_lip_animation n00004 CLOSE_MOUTH>": 
-    "<start_lip_sync n00004 _normal m00001>I don't know what connection Ouren and Eidos have,\nbut I believe that without you, <pc>,\nthis matter will not be resolved.<stop_lip_animation n00004 CLOSE_MOUTH>"
+    "<start_lip_sync n00004 _normal m00001>I don't know what connection Ouren and Eidos have,\nbut I believe that without you, <pc>, this\nmatter will not be resolved.<stop_lip_animation n00004 CLOSE_MOUTH>"
   },
   "26333": {
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": 
-    "I have been asked to do a quest. Accept this quest?\n<select>\nAccept\nDecline\n<select_end><close>"
+    "You have been asked to do a quest. Accept this quest?\n<select>\nAccept\nDecline\n<select_end><close>"
   },
   "19000479": {
     "<start_lip_sync n00004 _normal m00001>「おお　引き受けてくださるか！\n　さすがは　<pc>どの。\n　いざという時　頼りになる　ナイスギャル！<stop_lip_animation n00004 CLOSE_MOUTH>": 
-    "<start_lip_sync n00004 _normal m00001>Ooh, you'll take care of it! Just as expected of\nMs. <pc>. When push comes to shove, you can rely on\na nice gal!<stop_lip_animation n00004 CLOSE_MOUTH>"
+    "<start_lip_sync n00004 _normal m00001>Ooh, you'll take care of it! Just as expected of Ms.\n<pc>. When push comes to shove, you can rely\non a nice gal!<stop_lip_animation n00004 CLOSE_MOUTH>"
   },
   "19000480": {
     "<start_lip_sync n00004 _normal m00001>「おお　引き受けてくださるか！\n　さすがは　<pc>どの。\n　いざという時　頼りになる　ナイスガイ！<stop_lip_animation n00004 CLOSE_MOUTH>": 
-    "<start_lip_sync n00004 _normal m00001>Ooh, you'll take care of it! Just as expected of\nMr. <pc>. When push comes to shove, you can rely on\na nice guy!<stop_lip_animation n00004 CLOSE_MOUTH>"
+    "<start_lip_sync n00004 _normal m00001>Ooh, you'll take care of it! Just as expected of Mr.\n<pc>. When push comes to shove, you can rely\non a nice guy!<stop_lip_animation n00004 CLOSE_MOUTH>"
   },
   "15831": {
     "<start_lip_sync n00004 _normal m00001>「では　くれぐれも　お願いします。\n　<%sEV_QUE_NAME0>は　ドワチャッカ大陸の\n　カルサドラ火山に　棲息しているはずですぞ！<stop_lip_animation n00004 CLOSE_MOUTH>": 
-    "<start_lip_sync n00004 _normal m00001>Now then, thank you again and again.\n<%sEV_QUE_NAME0>s are supposed to be inhabiting\nCalsadora Volcano, Dwachakka!<stop_lip_animation n00004 CLOSE_MOUTH>"
+    "<start_lip_sync n00004 _normal m00001>Now then, thank you again and again. <%sEV_QUE_NAME0>s\nare supposed to be inhabiting Calsadora Volcano,\nDwachakka!<stop_lip_animation n00004 CLOSE_MOUTH>"
   },
   "26332": {
     "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": 
-    "Quest '<%sEV_QUEST_NAME>'\nreceived.<me 74>"
+    "Quest '<%sEV_QUEST_NAME>' received.<me 74>"
   },
   "15832": {
     "<start_lip_sync n00004 _normal m00001>「お気持ちは　うれしいのですが\n　どうやら　他の方からの頼まれごとで\n　お忙しい　ご様子ですな。<stop_lip_animation n00004 CLOSE_MOUTH>": 
@@ -145,11 +145,11 @@
   },
   "15847": {
     "<start_lip_sync m50004 _normal m00001>「……だが　調査地点に　たどり着く前に\n　突然　吹きだした魔瘴に　部下たちが\n　巻き込まれて……　うううっ。<stop_lip_animation m50004 CLOSE_MOUTH>": 
-    "<start_lip_sync m50004 _normal m00001>...But before we could reach the survey point, the\ndemon miasma suddenly engulfed my men...\nUuugh.<stop_lip_animation m50004 CLOSE_MOUTH>"
+    "<start_lip_sync m50004 _normal m00001>...But before we could reach the survey point, the\ndemon miasma suddenly engulfed my men... Uuugh.<stop_lip_animation m50004 CLOSE_MOUTH>"
   },
   "15848": {
     "<start_lip_sync n00001 _normal m00001>「捨て置けと　言っておいたのに……\n　ずいぶん　余計なことをしてくれたようだな。<stop_lip_animation n00001 CLOSE_MOUTH>": 
-    "<start_lip_sync n00001 _normal m00001>I told you to leave him be...\nIt seems you've done a lot of unnecessary work.<stop_lip_animation n00001 CLOSE_MOUTH>"
+    "<start_lip_sync n00001 _normal m00001>I told you to leave him be... It seems you've done\na lot of unnecessary work.<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15849": {
     "<start_lip_sync n00001 _normal m00001>「……やれやれ。\n　もしやと思って　来てみたが……\n　こうなってしまっては　是非もない。<stop_lip_animation n00001 CLOSE_MOUTH>": 
@@ -157,19 +157,19 @@
   },
   "15850": {
     "<start_lip_sync m50004 _normal m00001>「エ……ド…ス？　エイ…ドスなのか？\n　そうだ　私は　お前に……　うううっ。<stop_lip_animation m50004 CLOSE_MOUTH>": 
-    "<start_lip_sync m50004 _normal m00001>Ei...do...s? Is that... Eidos? That's right,\nyou and I... Uuugh.<stop_lip_animation m50004 CLOSE_MOUTH>"
+    "<start_lip_sync m50004 _normal m00001>Ei...do...s? Is that... Eidos? That's right, you and\nI... Uuugh.<stop_lip_animation m50004 CLOSE_MOUTH>"
   },
   "15851": {
     "<start_lip_sync n00001 _normal m00001>「ほれ。オーレンも　混乱しておる。\n　今は　そっとしておいてやってくれ。<stop_lip_animation n00001 CLOSE_MOUTH>": 
-    "<start_lip_sync n00001 _normal m00001>Look, Ouren is too confused. For now, please\nleave him be.<stop_lip_animation n00001 CLOSE_MOUTH>"
+    "<start_lip_sync n00001 _normal m00001>Look, Ouren is too confused. For now, please leave\nhim be.<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15852": {
     "<start_lip_sync n00001 _normal m00001>「お前さんたちの　知りたいことは\n　いずれ　わしから　話してやるから……\n　とりあえず　ここは　わしに　まかせてくれ。<stop_lip_animation n00001 CLOSE_MOUTH>": 
-    "<start_lip_sync n00001 _normal m00001>I'll tell you what you want to know eventually,\nbut for now... Please leave this to me.<stop_lip_animation n00001 CLOSE_MOUTH>"
+    "<start_lip_sync n00001 _normal m00001>I'll tell you what you want to know eventually, but\nfor now... Please leave this to me.<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15853": {
     "<start_lip_sync n00001 _normal m00001>「チグリ大臣にも　そう伝えておけ。\n　さあ　そうと決まったら\n　さっさと　グレン城に戻るのじゃ。<stop_lip_animation n00001 CLOSE_MOUTH>": 
-    "<start_lip_sync n00001 _normal m00001>Tell that to Minister Chigri as well. Now, do as\nI say and return to Glen Castle without delay.<stop_lip_animation n00001 CLOSE_MOUTH>"
+    "<start_lip_sync n00001 _normal m00001>Tell that to Minister Chigri as well. Now, do as I say\nand return to Glen Castle without delay.<stop_lip_animation n00001 CLOSE_MOUTH>"
   },
   "15854": {
     "<start_lip_sync n00001 _normal m00001>「なんじゃ？　また来たのか！<stop_lip_animation n00001 CLOSE_MOUTH>": 
@@ -181,6 +181,6 @@
   },
   "15856": {
     "<start_lip_sync n00001 _normal m00001>「いいから　グレン城に　戻っておれ！\n　お前さんたちの　知りたいことなら\n　いずれ　わしが行って　話してやるわい。<stop_lip_animation n00001 CLOSE_MOUTH>": 
-    "<start_lip_sync n00001 _normal m00001>Listen, just return to Glen Castle! I'll tell\nyou what you want to know eventually.<stop_lip_animation n00001 CLOSE_MOUTH>"
+    "<start_lip_sync n00001 _normal m00001>Listen, just return to Glen Castle! I'll tell you what\nyou want to know eventually.<stop_lip_animation n00001 CLOSE_MOUTH>"
   }
 }
