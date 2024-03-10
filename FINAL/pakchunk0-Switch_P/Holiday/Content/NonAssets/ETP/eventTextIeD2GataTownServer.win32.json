@@ -867,7 +867,7 @@
     "ツナナは　分解した　まほうの玉を使って\n見事な手さばきで　花火の玉を作りあげた！": "Tsunana used the disassembled Magic\nBall to create the fireworks ball with\nher amazing handiwork!"
   },
   "201335": {
-    "<pc>は\n遊び人の特注花火（だいじなもの）を手に入れた！<me 60>": "<pc> received Gadabout's\nFireworks (Key Item)!<me 60>"
+    "<pc>は\n遊び人の特注花火（だいじなもの）を手に入れた！<me 60>": "<pc> received the\nGadabout's Fireworks (Key Item)!<me 60>"
   },
   "201336": {
     "「ルッチーさんの伝言では　ヴェリナード城の\n　シェルブリッジで　先に　待ってるぜ。\n　遊び人で来いよな！　……とのこと　でしたね。\n<br>\n「例の特注花火は　まほうの玉を使ったので\n　ステキなものになること　まちがいなしです。\n　楽しんでください！": "Lucchie's message said she'll be\nwaiting for you at Shell Bridge in\nVerinard Castle. Come on gadabout it!\n<br>\nI hope you will be there. The custom-\nmade fireworks are using Magic Balls,\nso we are sure they will be fantastic.\n<br>\nEnjoy!"
@@ -882,40 +882,52 @@
     "<attr><feel_happy_lv1><end_attr>「うちのダンナ　酒場の紹介人をやってて\n　けっこう　評判がいいのよ。\n　よかったら　利用していってね。": "<attr><feel_happy_lv1><end_attr>My husband is an introducer for\ntaverns, and they have a good\nreputation. If you like, you can take\n<br>\nadvantage of it."
   },
   "48557": {
-    "<attr><feel_normal_one><end_attr>「私は　壊れてしまった　古代の神カラクリを\n　再生して　よみがえらせてあげるのが　好き。\n<br>\n「最近　神カラクリの残がいが　見つからない。\n　でも　いずれ　あの子たちの声を聞ける人の\n　現れる時が　きっと　来るわ。": "<attr><feel_normal_one><end_attr>I like to revive ancient Divine\nMachines that have been broken.\nLately, I haven't been able to find\n<br>\nwhat's left of the Divine Machine. But\nthere will come a time when someone\nwill be able to hear their voices."
+    "<attr><feel_normal_one><end_attr>「私は　壊れてしまった　古代の神カラクリを\n　再生して　よみがえらせてあげるのが　好き。\n<br>\n「最近　神カラクリの残がいが　見つからない。\n　でも　いずれ　あの子たちの声を聞ける人の\n　現れる時が　きっと　来るわ。": 
+    "<attr><feel_normal_one><end_attr>I like to restore brokedown ancient divine machines.\n<br>\nNowadays, there's not much divine machine wreckage to\nbe found. But, undoubtedly, there will be a time when\nsomeone who can hear those babies' voices comes along."
   },
   "48558": {
-    "<attr><feel_normal_one><end_attr>「私は　壊れてしまった　古代の神カラクリを\n　再生して　よみがえらせてあげるのが　好き。\n　中でも　ドルボードという　神カラクリがいい。\n<br>\n「ドルボードは　宙に浮かぶという\n　失われた技術が使われた　古代の乗り物。\n　今はもう　残がいが　時々見つかるだけ。\n<br>\n「……あなた　もしかして\n　ドルボードに興味があって　私の所へ？<yesno><break>": "<attr><feel_normal_one><end_attr>I like to revive ancient Divine\nMachines that have been broken. One of\nmy favorites is the Dolboard Divine\n<br>\nMachine. Dolboard is an ancient\nvehicle that used a lost technology to\nfloat in the air. Nowadays, only the\n<br>\nremnants can be found from time to\ntime. Are you interested in the\nDolboard, by any chance?<yesno><break>"
+    "<attr><feel_normal_one><end_attr>「私は　壊れてしまった　古代の神カラクリを\n　再生して　よみがえらせてあげるのが　好き。\n　中でも　ドルボードという　神カラクリがいい。\n<br>\n「ドルボードは　宙に浮かぶという\n　失われた技術が使われた　古代の乗り物。\n　今はもう　残がいが　時々見つかるだけ。\n<br>\n「……あなた　もしかして\n　ドルボードに興味があって　私の所へ？<yesno><break>": 
+    "<attr><feel_normal_one><end_attr>I like to restore brokedown ancient divine machines.\nEspecially divine machines called 'dolboards'.\n<br>\nDolboards are said to be an ancient vehicles that used\nlost technology to float in the air. Nowadays, only\nremnants can be occasionally found.\n<br>\n...By any chance, did you come to me because you are\ninterested in a dolboard?<yesno><break>"
   },
   "48559": {
-    "<attr><feel_normal_one><end_attr>「そう……。なら　いいわ。さよなら。": "<attr><feel_normal_one><end_attr>Okay. Okay, then. Bye."
+    "<attr><feel_normal_one><end_attr>「そう……。なら　いいわ。さよなら。": 
+    "<attr><feel_normal_one><end_attr>I see... Okay, then. Goodbye."
   },
   "48560": {
-    "<attr><feel_normal_one><end_attr>「そう……。やっぱり　そうなのね。\n　あなたは　私と同じだもの。\n　きっと　そうだと思ってた。\n<br>\n「もしも　あなたが　ドルボードの残がいを\n　見つけたなら　私が再生してあげてもいい。\n<br>\n「でも　今は　ダメ……。あなたが\n　一人前の証を得るほどの　冒険者でなければ\n　あの子たちの声は　届かない。": "<attr><feel_normal_one><end_attr>Yes, that's right. I knew it. You're\njust like me. You're just like me. I\nknew you would be. If you find\n<br>\nDolboard Remains, I can play it for\nyou. But not now. Unless you're\nadventurous enough to earn Proof of\n<br>\nAdulthood, their voices won't be\nheard."
+    "<attr><feel_normal_one><end_attr>「そう……。やっぱり　そうなのね。\n　あなたは　私と同じだもの。\n　きっと　そうだと思ってた。\n<br>\n「もしも　あなたが　ドルボードの残がいを\n　見つけたなら　私が再生してあげてもいい。\n<br>\n「でも　今は　ダメ……。あなたが\n　一人前の証を得るほどの　冒険者でなければ\n　あの子たちの声は　届かない。": 
+    "<attr><feel_normal_one><end_attr>I see... I knew you would. You're just like me. I just\nknew you would.\n<br>\nSupposing you come across some dolboard remains, I can\nrestore it for you. But not now... Unless you have a\nProof of Adulthood, the babies' voices won't reach you."
   },
   "49088": {
-    "<attr><feel_normal_one><end_attr>「私は　壊れてしまった　古代の神カラクリを\n　再生して　よみがえらせてあげるのが　好き。\n　中でも　ドルボードという　神カラクリがいい。\n<br>\n「ドルボードは　宙に浮かぶという\n　失われた技術が使われた　古代の乗り物。\n　今はもう　残がいが　時々見つかるだけ。\n<br>\n「……あなた　もしかして\n　ドルボードに興味があって　私の所へ？<yesno><break>": "<attr><feel_normal_one><end_attr>I like to revive ancient Divine\nMachines that have been broken. One of\nmy favorites is the Dolboard Divine\n<br>\nMachine. Dolboard is an ancient\nvehicle that used a lost technology to\nfloat in the air. Nowadays, only the\n<br>\nremnants can be found from time to\ntime. Are you interested in the\nDolboard, by any chance?<yesno><break>"
+    "<attr><feel_normal_one><end_attr>「私は　壊れてしまった　古代の神カラクリを\n　再生して　よみがえらせてあげるのが　好き。\n　中でも　ドルボードという　神カラクリがいい。\n<br>\n「ドルボードは　宙に浮かぶという\n　失われた技術が使われた　古代の乗り物。\n　今はもう　残がいが　時々見つかるだけ。\n<br>\n「……あなた　もしかして\n　ドルボードに興味があって　私の所へ？<yesno><break>": 
+    "<attr><feel_normal_one><end_attr>I like to restore brokedown ancient divine machines.\nEspecially divine machines called 'dolboards'.\n<br>\nDolboards are said to be an ancient vehicles that used\nlost technology to float in the air. Nowadays, only\nremnants can be occasionally found.\n<br>\n...By any chance, did you come to me because you are\ninterested in a dolboard?<yesno><break>"
   },
   "49089": {
-    "<attr><feel_normal_one><end_attr>「そう……。なら　いいわ。さよなら。": "<attr><feel_normal_one><end_attr>Okay. Okay, then. Bye."
+    "<attr><feel_normal_one><end_attr>「そう……。なら　いいわ。さよなら。": 
+    "<attr><feel_normal_one><end_attr>I see... Okay, then. Goodbye."
   },
   "49090": {
-    "<attr><feel_normal_one><end_attr>「そう……。やっぱり　そうなのね。\n　あなたは　私と同じだもの。\n　きっと　そうだと思ってた。\n<br>\n「もしも　あなたが　ドルボードの残がいを\n　見つけたなら　私が再生してあげてもいい。\n<br>\n「……あなたは　一人前の証を得たほどの冒険者。\n　それなら　見つけられるかもしれない。\n　探してみる？": "<attr><feel_normal_one><end_attr>Yes, that's right. You're just like\nme. You're just like me. I knew you\nwould be. If you find Dolboard\n<br>\nRemains, I can play it for you. You're\nadventurous enough to have earned\nProof of Adulthood. Maybe you can find\n<br>\nthem. Want to find out?"
+    "<attr><feel_normal_one><end_attr>「そう……。やっぱり　そうなのね。\n　あなたは　私と同じだもの。\n　きっと　そうだと思ってた。\n<br>\n「もしも　あなたが　ドルボードの残がいを\n　見つけたなら　私が再生してあげてもいい。\n<br>\n「……あなたは　一人前の証を得たほどの冒険者。\n　それなら　見つけられるかもしれない。\n　探してみる？": 
+    "<attr><feel_normal_one><end_attr>I see... I knew you would. You're just like me. I just\nknew you would.\n<br>\nSupposing you come across some dolboard remains, I can\nrestore it for you...\n<br>\nYou're an adventurer with a Proof of Adulthood. If\nthat's the case, you might be able to find one. Want\nto try to find one?"
   },
   "49091": {
-    "<attr><feel_normal_one><end_attr>「やるのね。わかったわ。\n　ドルボードの残がいが　よく見つかる場所だけど\n　たとえば………………あっ！？<bw_break>": "<attr><feel_normal_one><end_attr>You're going to do it. Okay. I know\nwhere to find Dolboard Remains, for\nexample.<bw_break>"
+    "<attr><feel_normal_one><end_attr>「やるのね。わかったわ。\n　ドルボードの残がいが　よく見つかる場所だけど\n　たとえば………………あっ！？<bw_break>": 
+    "<attr><feel_normal_one><end_attr>You'll do it. Okay. Dolboard remains are often found\nin one place in particular.......Ah!?<bw_break>"
   },
   "49092": {
-    "<attr><feel_normal_silent><end_attr>「……………………。<bw_break>": "<attr><feel_normal_silent><end_attr>...<bw_break>"
+    "<attr><feel_normal_silent><end_attr>「……………………。<bw_break>": 
+    "<attr><feel_normal_silent><end_attr>.......<bw_break>"
   },
   "49093": {
-    "<attr><feel_normal_one><end_attr>「……今　声が聞こえた。\n　ドルボードの声。あなたを呼んでる。\n<br>\n「これは……。\n　この町を出た先の　ガタラ原野……。\n<br>\n「ガタラ原野の東にある　遺跡の森……。\n　いくつか　壊れた建物が　残されているから\n　その辺りを　調べてみて……。": "<attr><feel_normal_one><end_attr>I just heard a voice. Dolboard's\nvoice. It's calling you. What's this?\nGatara Fields, just outside of town,\n<br>\nand the Forest Ruins east of Gatara\nFields. There are a few broken\nbuildings left, so check around there."
+    "<attr><feel_normal_one><end_attr>「……今　声が聞こえた。\n　ドルボードの声。あなたを呼んでる。\n<br>\n「これは……。\n　この町を出た先の　ガタラ原野……。\n<br>\n「ガタラ原野の東にある　遺跡の森……。\n　いくつか　壊れた建物が　残されているから\n　その辺りを　調べてみて……。": 
+    "<attr><feel_normal_one><end_attr>...I just heard a voice. A dolboard's voice. It's\ncalling you. What's that... Just outside of town, in\nGatara Fields...\n<br>\nEast of Gatara Fields are forest ruins... There are\nseveral collapsed buildings left behind, try checking\naround there..."
   },
   "49094": {
-    "<attr><feel_normal_one><end_attr>「きっと　見つけられる。\n　耳を澄ませば　あなたにも　聞こえるはず。\n　あなたは　私と同じだから……。": "<attr><feel_normal_one><end_attr>You will find it. If you listen\ncarefully, you will hear them too.\nBecause you are just like me."
+    "<attr><feel_normal_one><end_attr>「きっと　見つけられる。\n　耳を澄ませば　あなたにも　聞こえるはず。\n　あなたは　私と同じだから……。": 
+    "<attr><feel_normal_one><end_attr>You'll surely find it. If you listen carefully, you\nshould hear it too. Since you are just like me..."
   },
   "49095": {
-    "<attr><feel_normal_one><end_attr>「やるのね。わかったわ。\n　……でも　あなたは　他の頼まれごとで\n　手が　いっぱいみたい。\n<br>\n「他の頼まれごとを　片付けてから\n　また　私の所へ来てほしい。": "<attr><feel_normal_one><end_attr>You're going to do it. I understand.\nBut you seem to have your hands full\nwith other requests. I'd like you to\n<br>\ncome back to me after you've taken\ncare of those other things."
+    "<attr><feel_normal_one><end_attr>「やるのね。わかったわ。\n　……でも　あなたは　他の頼まれごとで\n　手が　いっぱいみたい。\n<br>\n「他の頼まれごとを　片付けてから\n　また　私の所へ来てほしい。": 
+    "<attr><feel_normal_one><end_attr>You'll do it. Okay... But you seem to have your hands\nfull with other requests. Once you have some requests\ncleared, I'd like you to come back to me."
   },
   "49096": {
     "<attr><feel_normal_one><end_attr>「……やらないのね。わかったわ。\n　でも　私は　待ってる。あの子たちも……。\n　気が変わったら　また来て。": "<attr><feel_normal_one><end_attr>You won't do it. I understand. But I'm\nwaiting. And those girls, too. If you\nchange your mind, come again."
@@ -924,28 +936,48 @@
     "<attr><feel_normal_one><end_attr>「ドルボードが　あなたを呼んでる。\n　私には　わかるの。\n<br>\n「この町を出た先の　ガタラ原野。\n　その東にある　遺跡の森……。\n<br>\n「いくつか　壊れた建物が　残されているから\n　その辺りを　調べてみて……。<open_irai><bw_break>": "<attr><feel_normal_one><end_attr>Dolboard is calling you. I know it.\nGatara Fields just outside of town,\nand Forest Ruins to the east of it,\n<br>\nand there are some broken buildings\nleft behind, so check around there.<open_irai><bw_break>"
   },
   "49098": {
-    "<attr><feel_normal_one><end_attr>「ドルボードの残がいが　見つかったら\n　ここへ持ってきて。私が　直してあげる。<bw_break>": "<attr><feel_normal_one><end_attr>If you find Dolboard Remains, bring it\nhere. I'll fix it for you.<bw_break>"
+    "<attr><feel_normal_one><end_attr>「ドルボードの残がいが　見つかったら\n　ここへ持ってきて。私が　直してあげる。<bw_break>": 
+    "<attr><feel_normal_one><end_attr>Once you find the Dolboard Remains, bring it here.\nI'll restore it for you.<bw_break>"
   },
   "49099": {
-    "<attr><feel_normal_one><end_attr><close_irai>「きっと　見つけられる。\n　耳を澄ませば　あなたにも　聞こえるはず。\n　あなたは　私と同じだから……。": "<attr><feel_normal_one><end_attr><close_irai>You will find it. If you listen\ncarefully, you will hear them too.\nBecause you are just like me."
+    "<attr><feel_normal_one><end_attr><close_irai>「きっと　見つけられる。\n　耳を澄ませば　あなたにも　聞こえるはず。\n　あなたは　私と同じだから……。": 
+    "<attr><feel_normal_one><end_attr><close_irai>You'll surely find it. If you listen carefully, you\nshould hear it too. Since you are just like me..."
   },
   "49100": {
-    "<attr><feel_normal_one><end_attr>「ドルボード……。見つかったのね？\n　それなら　私に預けてくれる？": "<attr><feel_normal_one><end_attr>Dolboard. Then you'll leave it with\nme, won't you?"
+    "<attr><feel_normal_one><end_attr>「ドルボード……。見つかったのね？\n　それなら　私に預けてくれる？": 
+    "<attr><feel_normal_one><end_attr>A dolboard... You found it, didn't you? Then will you\nleave it with me?"
+  },
+  "49103": {
+    "メンメに\nドルボードの残がいを　預けますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
+    "Leave Menme the Dolboard Remains?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "49104": {
+    "<pc>は　メンメに\nドルボードの残がいを　預けた。": 
+    "<pc> left Menme the Dolboard Remains."
   },
   "93431": {
-    "<attr><feel_normal_one><end_attr>「ごめんなさい。まだ見つかってなかった？\n　大丈夫。あなたなら　きっと　見つけられる。": "<attr><feel_normal_one><end_attr>I'm sorry. You didn't find it yet?\nIt's okay. I'm sure you'll find it."
+    "<attr><feel_normal_one><end_attr>「ごめんなさい。まだ見つかってなかった？\n　大丈夫。あなたなら　きっと　見つけられる。": 
+    "<attr><feel_normal_one><end_attr>Pardon me. Still haven't found it yet? It's okay.\nYou'll surely find it."
   },
   "49101": {
-    "<attr><feel_normal_one><end_attr>「なんて　ひどい……。\n　今まで見た中で　いちばんの重症だわ。\n　でも　大丈夫。私が　直してあげる。\n<br>\n「すぐに　終わるから……。": "<attr><feel_normal_one><end_attr>What a mess. This is the most serious\nthing I've ever seen. But don't worry.\nI'll fix it. It'll all be over soon."
+    "<attr><feel_normal_one><end_attr>「なんて　ひどい……。\n　今まで見た中で　いちばんの重症だわ。\n　でも　大丈夫。私が　直してあげる。\n<br>\n「すぐに　終わるから……。": 
+    "<attr><feel_normal_one><end_attr>What a mess... This is the most serious case I've seen\nthus far. But don't worry. I'll restore it for you.\nIt'll all be over soon..."
+  },
+  "93435": {
+    "メンメは　慣れた手つきで\n一気に　ドルボードの修理を終わらせた！": 
+    "Menme with her experienced hands finished repairing\nthe Dolboard in one fell swoop!"
   },
   "93432": {
-    "<attr><feel_normal_one><end_attr>「この子の乗り方を　教えてあげる。": "<attr><feel_normal_one><end_attr>Let me show you how to ride this boy."
+    "<attr><feel_normal_one><end_attr>「この子の乗り方を　教えてあげる。": 
+    "<attr><feel_normal_one><end_attr>Let me show you how to ride this baby."
   },
   "49102": {
-    "<attr><feel_normal_one><end_attr>「どうぐの　だいじなものの中にある\n　ドルボードを使うか\n　<emoji LeftTrigger>を押せば　乗ることができるわ。\n<br>\n「でも　町の中とか　乗れない場所もある。\n　そういう場所に　乗ったまま入ろうとすると\n　自動的に　降りてしまうから。\n<br>\n「あと　乗っている時に<emoji RightShoulder>で　ダッシュもできる。\n　けっこう速いと思うから\n　事故を起こさないように　注意すること。\n<br>\n「普通に降りるときは　<emoji LeftTrigger>を押して。\n　……説明は　終わりよ。<bw_break>": "<attr><feel_normal_one><end_attr>Use the Dolboard in the Key Items\nsection of item or<emoji LeftTrigger>You can get on the bus by pressing the\n''+'' button. But there are some places\nwhere you can't get on the bus. If you\n<br>\ntry to enter such places while riding,\nyou will be automatically disembarked.\nAlso, if you don't want to get off the\n<br>\nbus<emoji RightShoulder>You can also dash with the Be careful\nnot to cause an accident. When you get\noff normally<emoji LeftTrigger>Press. You're done.<bw_break>"
+    "<attr><feel_normal_one><end_attr>「どうぐの　だいじなものの中にある\n　ドルボードを使うか\n　<emoji LeftTrigger>を押せば　乗ることができるわ。\n<br>\n「でも　町の中とか　乗れない場所もある。\n　そういう場所に　乗ったまま入ろうとすると\n　自動的に　降りてしまうから。\n<br>\n「あと　乗っている時に<emoji RightShoulder>で　ダッシュもできる。\n　けっこう速いと思うから\n　事故を起こさないように　注意すること。\n<br>\n「普通に降りるときは　<emoji LeftTrigger>を押して。\n　……説明は　終わりよ。<bw_break>": 
+    "<attr><feel_normal_one><end_attr>To ride the dolboard, select it in the 'Key Items'\nmenu or by pressing <emoji LeftTrigger>.\n<br>\nBut there are some places, like towns, where you can't\nride. If you try to enter such places while riding,\nyou'll automatically disembark.\n<br>\nAlso, after you're on it, you can use <emoji RightShoulder> to dash.\nIt's nice and fast, but be careful not to cause an\naccident.\n<br>\nWhen you want to get off, press <emoji LeftTrigger>\n...Explanation over.<bw_break>"
   },
   "93433": {
-    "<attr><feel_normal_one><end_attr>「ドルボードの乗り方　教えてほしい？<yesno><break>": "<attr><feel_normal_one><end_attr>Want me to teach you how to ride\nDolboard?<yesno><break>"
+    "<attr><feel_normal_one><end_attr>「ドルボードの乗り方　教えてほしい？<yesno><break>": 
+    "<attr><feel_normal_one><end_attr>Would you like me to teach you how to ride the Dolboard?<yesno><break>"
   },
   "93434": {
     "<attr><feel_normal_one><end_attr>「……なら　いいわ。\n<br>\n「そうそう……。そこにいる　デコリーが\n　あなたのドルボードを　カスタムしてくれるの。\n　よかったら　話しかけてあげて。": "<attr><feel_normal_one><end_attr>Okay, then. That's right. Decory over\nthere will customize your Dolboard for\nyou. You can talk to him if you want."
@@ -953,25 +985,19 @@
   "146187": {
     "<attr><feel_normal_one><end_attr>「そうそう……。そこにいる　デコリーが\n　あなたのドルボードを　カスタムしてくれるの。\n　よかったら　話しかけてあげて。": "<attr><feel_normal_one><end_attr>That's right. Decory there will\ncustomize your Dolboard for you. You\ncan talk to him if you want."
   },
-  "49103": {
-    "メンメに\nドルボードの残がいを　預けますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to deposit Dolboard\nRemains in Menme?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
-  },
-  "49104": {
-    "<pc>は　メンメに\nドルボードの残がいを　預けた。": "<pc> deposited Dolboard\nRemains with Menme."
-  },
-  "93435": {
-    "メンメは　慣れた手つきで\n一気に　ドルボードの修理を終わらせた！": "Menme finished repairing Dolboard in\none fell swoop with a practiced hand!"
-  },
   "49119": {
     "<attr><feel_normal_one><end_attr>「あなたと　そのドルボードは\n　きっと　長い付き合いになるわ。\n　仲良くしてあげて。<bw_break>": "<attr><feel_normal_one><end_attr>I'm sure you and that Dolboard will be\nfriends for a long time. Be good to\nthem.<bw_break>"
   },
   "49121": {
-    "<attr><feel_normal_one><end_attr>「そうだ。ドルボードの乗り方　教えてほしい？<yesno><break>": "<attr><feel_normal_one><end_attr>Yes, would you like me to teach you\nhow to ride Dolboard?<yesno><break>"
+    "<attr><feel_normal_one><end_attr>「そうだ。ドルボードの乗り方　教えてほしい？<yesno><break>": 
+    "<attr><feel_normal_one><end_attr>Alright. Would you like me to teach you how to ride\nthe Dolboard?<yesno><break>"
   },
   "49122": {
-    "<attr><feel_normal_one><end_attr>「そう……。なら　いいわ。さよなら。": "<attr><feel_normal_one><end_attr>Okay. Okay, then. Bye."
+    "<attr><feel_normal_one><end_attr>「そう……。なら　いいわ。さよなら。": 
+    "<attr><feel_normal_one><end_attr>I see... Okay, then. Goodbye."
   },
   "49123": {
-    "<attr><feel_normal_one><end_attr>「どうぐの　だいじなものの中にある\n　ドルボードを使うか\n　<emoji LeftTrigger>を押せば　乗ることができるわ。\n<br>\n「でも　町の中とか　乗れない場所もある。\n　そういう場所に　乗ったまま入ろうとすると\n　自動的に　降りてしまうから。\n<br>\n「あと　乗っている時に<emoji RightShoulder>で　ダッシュもできる。\n　けっこう速いと思うから\n　事故を起こさないように　注意すること。\n<br>\n「普通に降りるときは　<emoji LeftTrigger>を押して。\n　……説明は　終わりよ。": "<attr><feel_normal_one><end_attr>Use the Dolboard in the Key Items\nsection of item or<emoji LeftTrigger>You can get on the bus by pressing the\n''+'' button. But there are some places\nwhere you can't get on the bus. If you\n<br>\ntry to enter such places while riding,\nyou will be automatically disembarked.\nAlso, if you don't want to get off the\n<br>\nbus<emoji RightShoulder>You can also dash with the Be careful\nnot to cause an accident. When you get\noff normally<emoji LeftTrigger>Press. You're done."
+    "<attr><feel_normal_one><end_attr>「どうぐの　だいじなものの中にある\n　ドルボードを使うか\n　<emoji LeftTrigger>を押せば　乗ることができるわ。\n<br>\n「でも　町の中とか　乗れない場所もある。\n　そういう場所に　乗ったまま入ろうとすると\n　自動的に　降りてしまうから。\n<br>\n「あと　乗っている時に<emoji RightShoulder>で　ダッシュもできる。\n　けっこう速いと思うから\n　事故を起こさないように　注意すること。\n<br>\n「普通に降りるときは　<emoji LeftTrigger>を押して。\n　……説明は　終わりよ。": 
+    "<attr><feel_normal_one><end_attr>To ride the dolboard, select it in the 'Key Items'\nmenu or by pressing <emoji LeftTrigger>.\n<br>\nBut there are some places, like towns, where you can't\nride. If you try to enter such places while riding,\nyou'll automatically disembark.\n<br>\nAlso, after you're on it, you can use <emoji RightShoulder> to dash.\nIt's nice and fast, but be careful not to cause an\naccident.\n<br>\nWhen you want to get off, press <emoji LeftTrigger>\n...Explanation over."
   }
 }
