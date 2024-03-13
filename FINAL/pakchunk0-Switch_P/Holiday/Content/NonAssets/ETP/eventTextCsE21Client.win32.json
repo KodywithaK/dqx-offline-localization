@@ -1,755 +1,1006 @@
 {
-  "301": {
-    "<voice 00030_00000301><start_lip_sync n00255 _normal m00001>「帰ってきたか。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00030_00000301><start_lip_sync n00255 _normal m00001>You've returned?<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "302": {
-    "<voice 00174_00000302><start_lip_sync n00255 _normal m00001>「おお　フウラ！\n　よくぞ　帰ってきてくれた！<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00174_00000302><start_lip_sync n00255 _normal m00001>Oh, Fuura! Welcome home!<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "303": {
-    "<voice 00309_00000303><start_lip_sync n00212 _normal m00001>「……………………。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00309_00000303><start_lip_sync n00212 _normal m00001>................<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "304": {
-    "<voice 00405_00000304><start_lip_sync n00255 _normal m00001>「初志を貫きたかった　お前の気持ちはわかる。\n　だが　フウラよ。もっと柔軟に考えてはどうだ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00405_00000304><start_lip_sync n00255 _normal m00001>I know that you're still intent\nabout this, but please, Fuura, try to\nbe a little more open-minded.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "41429": {
-    "<voice 00405_00041429><start_lip_sync n00255 _normal m00001>「若葉の試みに　合格できなかったからといって\n　そう　気に病むな！　むしろ　あきらめがついて\n　よかったではないか。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00405_00041429><start_lip_sync n00255 _normal m00001>Don't be so downhearted that you\ndidn't pass the Trial of Young Leaves! In\nfact, it's a good thing that you gave up.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "306": {
-    "<voice 00533_00000306><start_lip_sync n00255 _normal m00001>「やはり　お前は　カザユラの後を継ぎ\n　風乗りになるべきなのだ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00533_00000306><start_lip_sync n00255 _normal m00001>It's your sovereign duty to\nfollow in Kazayura's footsteps and\nbecome a Wind Rider.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "307": {
-    "<voice 00642_00000307><start_lip_sync n00212 _normal m00001>「イヤだよ　風乗りなんて……。\n　カムシカに乗るなんて　絶対にイヤ！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00642_00000307><start_lip_sync n00212 _normal m00001>I don't want to be a Wind Rider...\nand I definitely won't ride an\nAzlantelope!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "308": {
-    "<voice 00747_00000308><start_lip_sync n00255 _normal m00001>「フウラよ。あれは　事故だ……。\n　カムシカたちが　悪いわけではない。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00747_00000308><start_lip_sync n00255 _normal m00001>It was an accident, Fuura...\nIt wasn't the Azlantelope's fault.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "309": {
-    "<voice 00876_00000309><start_lip_sync n00212 _normal m00001>「……………………。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00876_00000309><start_lip_sync n00212 _normal m00001>..............<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "310": {
-    "<voice 00957_00000310><start_lip_sync n00255 _normal m00001>「それに　どうやら　ヨキじいの具合が\n　相当　悪いらしい……。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00957_00000310><start_lip_sync n00255 _normal m00001>Moreover, I've heard that Yokiji's\nnot feeling very well lately...<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "311": {
-    "<voice 01075_00000311><start_lip_sync n00212 _normal m00001>「じいやが！？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01075_00000311><start_lip_sync n00212 _normal m00001>Grandpa?!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "312": {
-    "<voice 01148_00000312><start_lip_sync n00255 _normal m00001>「フウラ。この町は　もう６年も　風送りの儀を\n　おこなっておらん。町の風は　よどみ\n　身体の不調を　うったえる者も　増えている。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 01148_00000312><start_lip_sync n00255 _normal m00001>Fuura. We haven't held the Wind\nSend-Off Ceremony in this town\nfor six years now.\n<br>\nThe winds have stagnated, and\nthe number of complaints by ailing\ntownsfolk has been on the rise.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "313": {
-    "<voice 01190_00000313><start_lip_sync n00255 _normal m00001>「わしは領主として　新たな風乗りを決め\n　風送りの儀を　とりおこなわねばならん。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 01190_00000313><start_lip_sync n00255 _normal m00001>As lord of Azlan, it is my obligation\nto select the new Wind Rider to\nperform the Wind Send-Off Ceremony.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "314": {
-    "<voice 01288_00000314><start_lip_sync n00212 _normal m00001>「でも………。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01288_00000314><start_lip_sync n00212 _normal m00001>But...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "315": {
-    "<voice 01347_00000315><start_lip_sync n00255 _normal m00001>「見よ　フウラ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 01347_00000315><start_lip_sync n00255 _normal m00001>Behold, Fuura.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "316": {
-    "<voice 01387_00000316><start_lip_sync n00212 _normal m00001>「……！？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01387_00000316><start_lip_sync n00212 _normal m00001>......!?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "317": {
-    "<voice 01555_00000317><start_lip_sync n00255 _normal m00001>「お前は　カザユラと同じ\n　カムシカに　愛されし者なのだ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 01555_00000317><start_lip_sync n00255 _normal m00001>The same Azlantelopes which were\nfond of Kazayura have taken a\nliking to you as well.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "318": {
-    "<voice 01645_00000318><start_lip_sync n00212 _normal m00001>「知らない……。カムシカなんてキライ。\n　それに　私……　すごい子じゃないもん。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01645_00000318><start_lip_sync n00212 _normal m00001>I don't know... I don't like Azlantelopes.\nBesides, I'm not...anything special.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "319": {
-    "<voice 01724_00000319><start_lip_sync n00255 _normal m00001>「お前ほどの素質を持つ者は　他におらぬ。\n　生まれもったチカラを　なぜ人のために\n　役立てようと　考えることができない？<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 01724_00000319><start_lip_sync n00255 _normal m00001>There is no one else who shares\nyour gift. Why won't you consider\nusing it for the benefit of others?<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "320": {
-    "<voice 01834_00000320><start_lip_sync n00255 _normal m00001>「フウラよ。まずは　頭を冷やしてきなさい。\n　そして　落ち着いて　よく考えるのだ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 01834_00000320><start_lip_sync n00255 _normal m00001>Go and cool your head, Fuura. Calm\nyour heart and think things through.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "321": {
-    "<voice 02233_00000321><start_lip_sync n00255 _normal m00001>「今　そなたが見たとおり\n　このアズランは　面倒な問題を抱えている。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 02233_00000321><start_lip_sync n00255 _normal m00001>As you just witnessed, Azlan's\nexperiencing somewhat of a problem\nof late.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "322": {
-    "<voice 02342_00000322><start_lip_sync n00255 _normal m00001>「フウラが　風乗りになると決心しないことには\n　風送りの儀は　できぬ。\n　だが　わしも鬼ではない……。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 02342_00000322><start_lip_sync n00255 _normal m00001>The Wind Send-Off ceremony can't\ntake place unless Fuura agrees\nto become the Wind Rider.\n<br>\nBut it's not like I'm heartless...<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "323": {
-    "<voice 02462_00000323><start_lip_sync n00255 _normal m00001>「ああは言ったが　娘が\n　かたくなに　風乗りの継承を拒むなら\n　他の方法を探すつもりだ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 02462_00000323><start_lip_sync n00255 _normal m00001>I know what I said, but if my daughter\ncontinues to stubbornly refuse to\ncarry on our tradition, I'll have to\n<br>\nfind another way.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "24802": {
-    "<voice 02586_00024802><start_lip_sync n00255 _normal m00001>「そなたは　旅の者か？\n　ふむ………。よい目をしているな。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 02586_00024802><start_lip_sync n00255 _normal m00001>Are you a traveler?\nHmm... I like the look in your eyes.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "9224": {
-    "<voice 02586_00009224><start_lip_sync n00255 _normal m00001>「そなたは　学びの庭から来たのではないか？\n　ならば　フウラとも　顔なじみであろう。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 02586_00009224><start_lip_sync n00255 _normal m00001>Have you come from the Garden\nof Learning? Then you must\nalready be familiar with Fuura.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "324": {
-    "<voice 02664_00000324><start_lip_sync n00255 _normal m00001>「すまぬが　ひとつ　頼みを聞いてほしい。\n　フウラに会い　胸のうちを\n　聞いてきてほしいのだ……。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 02664_00000324><start_lip_sync n00255 _normal m00001>Forgive me, but I must request your\naid. Please see Fuura and ask her\nwhat's on her mind.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "9225": {
-    "<voice 02678_00009225><start_lip_sync n00255 _normal m00001>「恥ずかしい話だが　娘は　私に\n　心を開いてはくれない。だが　そなたになら……\n　そなたの目は　そんな気にさせてくれるのだ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 02678_00009225><start_lip_sync n00255 _normal m00001>I am ashamed to say that my\ndaughter does not open up to me.\nBut you... You have the eyes of\n<br>\nsomeone who could bridge that gap.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "28555": {
-    "<voice 02678_00028555><start_lip_sync n00255 _normal m00001>「恥ずかしい話だが　娘は　私に\n　心を開いてはくれない。だが　そなたになら\n　本音を　打ち明けるかもしれん。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 02678_00028555><start_lip_sync n00255 _normal m00001>I'm ashamed to confess that my daughter\nhas never opened up to me.\nBut perhaps she will to you.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "28557": {
-    "<voice 02690_00028557><start_lip_sync n00255 _normal m00001>「フウラの部屋は　この部屋の向かいだ。\n　すまぬが　どうか　頼んだぞ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 02690_00028557><start_lip_sync n00255 _normal m00001>Fuura's room is just across the hall.\nThank you, and sorry for the inconvenience.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "24614": {
-    "<voice 00030_00024614><start_lip_sync n00256 _normal m00001>「おや。フウラおじょうさんに　ご用かい？<stop_lip_animation n00256 CLOSE_MOUTH>": "<voice 00030_00024614><start_lip_sync n00256 _normal m00001>Oh, you wish to see my daughter Fuura?<stop_lip_animation n00256 CLOSE_MOUTH>"
-  },
-  "24619": {
-    "<voice 00180_00024619><start_lip_sync n00256 _normal m00001>「残念だけど　おじょうさんなら\n　たった今　墓参りに　出かけちまったよ。<stop_lip_animation n00256 CLOSE_MOUTH>": "<voice 00180_00024619><start_lip_sync n00256 _normal m00001>Alas, if it's my daughter you're after,\nshe just left to visit the cemetery.<stop_lip_animation n00256 CLOSE_MOUTH>"
-  },
-  "326": {
-    "<voice 00210_00000326><start_lip_sync n00256 _normal m00001>「町を出て　北に行った所にある　風泣き岬には\n　フウラおじょうさんの　お母さん……\n　カザユラ奥様の　お墓があるんだけどね。<stop_lip_animation n00256 CLOSE_MOUTH>": "<voice 00210_00000326><start_lip_sync n00256 _normal m00001>Just north of town you'll find\nthe grave of mistress Kazayura...\nYoung miss Fuura's mother.<stop_lip_animation n00256 CLOSE_MOUTH>"
-  },
-  "327": {
-    "<voice 00260_00000327><start_lip_sync n00256 _normal m00001>「おじょうさんは　なにか　つらいことがあると\n　いつも　あの墓に行くんだ。<stop_lip_animation n00256 CLOSE_MOUTH>": "<voice 00260_00000327><start_lip_sync n00256 _normal m00001>Whenever she's distressed, she\nalways goes to that grave.<stop_lip_animation n00256 CLOSE_MOUTH>"
-  },
-  "24615": {
-    "<voice 00319_00024615><start_lip_sync n00256 _normal m00001>「……なあ　あんた。\n　フウラおじょうさんに　ご用があるのなら\n　風泣き岬まで　行ってみたらどうだい？<stop_lip_animation n00256 CLOSE_MOUTH>": "<voice 00319_00024615><start_lip_sync n00256 _normal m00001>...Hey, you there.\nIf you have some business with Fuura,\nwhy don't you go to Windy Cape?<stop_lip_animation n00256 CLOSE_MOUTH>"
-  },
-  "328": {
-    "<voice 00010_00000328><start_lip_sync n00212 _normal m00001>「きゃーっ！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00010_00000328><start_lip_sync n00212 _normal m00001>Kyaaah!!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "329": {
-    "<voice 00060_00000329><start_lip_sync n00212 _normal m00001>「<pc>さまっ！？\n　た　助けて……！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00060_00000329><start_lip_sync n00212 _normal m00001><pc>?!\nH-help me...!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "330": {
-    "<voice 00198_00000330><start_lip_sync n00212 _normal m00001>「た　助けて……！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00198_00000330><start_lip_sync n00212 _normal m00001>Help me...!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "331": {
-    "<voice 01010_00000331><start_lip_sync n00212 _normal m00001>「な……　なんなの……？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01010_00000331><start_lip_sync n00212 _normal m00001>Wh...why did you...?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "332": {
-    "<voice 01130_00000332><start_lip_sync n00212 _normal m00001>「あんたたちになんか　助けてほしくない！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01130_00000332><start_lip_sync n00212 _normal m00001>I didn't need your help!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000631": {
-    "<voice 01230_19000631><start_lip_sync n00212 _normal m00001>「大っきら……あっ！！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01230_19000631><start_lip_sync n00212 _normal m00001>I hate you...!! Ah!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000632": {
-    "<voice 01351_19000632><start_lip_sync n00212 _normal m00001>「ケキちゃんが……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01351_19000632><start_lip_sync n00212 _normal m00001>Cakey's...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000636": {
-    "<voice 01356_19000636><start_lip_sync n00212 _normal m00001>「ケキちゃん……ケキちゃん……\n　ケキちゃん…………。\n　…………え？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01356_19000636><start_lip_sync n00212 _normal m00001>Cakey... Cakey...\nCakey... Huh?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000637": {
-    "<voice 01357_19000637><start_lip_sync n00212 _normal m00001>「……ケキちゃん……私の…………。\n　……私のケキちゃん……？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01357_19000637><start_lip_sync n00212 _normal m00001>Cakey... My..\nMy Cakey...?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000638": {
-    "<voice 01358_19000638><start_lip_sync n00212 _normal m00001>「……あ…ありがと……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01358_19000638><start_lip_sync n00212 _normal m00001>T... Thank you...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000639": {
-    "<voice 01934_19000639><start_lip_sync n00212 _normal m00001>「……よ　よけいなこと　しないでよねっ！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01934_19000639><start_lip_sync n00212 _normal m00001>T-that was uncalled for!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "336": {
-    "<voice 02014_00000336><start_lip_sync n00212 _normal m00001>「ケキちゃんを　取りにいって\n　死なれたりなんかしたら……\n　メーワクなんだから！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02014_00000336><start_lip_sync n00212 _normal m00001>If you went after Cakey and died\nor something...it'd be a big\ninconvenience for me!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "337": {
-    "<voice 02109_00000337><start_lip_sync n00212 _normal m00001>「もう　行ってよ！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02109_00000337><start_lip_sync n00212 _normal m00001>Just go already!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "338": {
-    "<voice 02328_00000338><start_lip_sync n00212 _normal m00001>「こんな所で　<pc>さまに\n　会うなんて思わなかった……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02328_00000338><start_lip_sync n00212 _normal m00001>Never thought I'd see you here,\n<pc>.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "339": {
-    "<voice 02388_00000339><start_lip_sync n00212 _normal m00001>「あ……学びの庭　卒業おめでとうございます。\n　言えなかったこと　気になってたの。\n　私　あわてて　出てきちゃったから……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02388_00000339><start_lip_sync n00212 _normal m00001>Oh, congratulations on your\ngraduation from the Garden of Learning.\nI felt bad because I forgot to\n<br>\ntell you.I was in a rush...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "340": {
-    "<voice 02458_00000340><start_lip_sync n00212 _normal m00001>「あ　あの……　あなたは？\n　そういえば　お父さまの部屋でも　会ったけど。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02458_00000340><start_lip_sync n00212 _normal m00001>U-umm... Who're you?\nCome to think of it, I met you\nearlier in my father's room.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "341": {
-    "<voice 02518_00000341><start_lip_sync n00212 _normal m00001>「そう……　<pc>さまっていうのね。\n　私は　アズラン領主の娘　フウラです。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02518_00000341><start_lip_sync n00212 _normal m00001>So, your name is <pc>.\nI'm Fuura, daughter of the lord of Azlan.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "342": {
-    "<voice 02608_00000342><start_lip_sync n00212 _normal m00001>「その……　今の……。 <stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02608_00000342><start_lip_sync n00212 _normal m00001>Just now...that was...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "343": {
-    "<voice 02668_00000343><start_lip_sync n00212 _normal m00001>「私を　助けてくれたカムシカに\n　あんな態度を取るなんて……\n　私のこと　ひどいヤツだって思ったでしょ？<yesno><close><stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02668_00000343><start_lip_sync n00212 _normal m00001>You must've thought I was a horrible\nperson to act like that towards\nthe Azlantelope who just saved me.<yesno><close><stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "344": {
-    "<voice 02728_00000344><start_lip_sync n00212 _normal m00001>「ふふっ……　正直だね。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02728_00000344><start_lip_sync n00212 _normal m00001>Heh... You sure are an honest one.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "345": {
-    "<voice 02728_00000345><start_lip_sync n00212 _normal m00001>「そう……？\n　ありがとう。優しいんだね。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02728_00000345><start_lip_sync n00212 _normal m00001>Really...?\nThanks. That's really kind of you.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "28558": {
-    "<voice 02781_00028558><start_lip_sync n00212 _normal m00001>「……お母さまは　アズランの歴史の中でも\n　特に　すごい風乗りだったの。\n　だから　町の誰もが　お母さまを慕ってた。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02781_00028558><start_lip_sync n00212 _normal m00001>...My mother was one of the greatest\nWind Riders in Azlan's history.\nThat's why everyone adored her.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "28559": {
-    "<voice 02836_00028559><start_lip_sync n00212 _normal m00001>「カムシカに乗った　お母さまが \n　舞うように駆ける姿は　今でも　目に浮かぶの。\n　ずっと　その背中を見てた……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02836_00028559><start_lip_sync n00212 _normal m00001>I can still envision her riding the\nAzlantelopes as though she were\ndancing, while I looked on from afar...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "28560": {
-    "<voice 02948_00028560><start_lip_sync n00212 _normal m00001>「私だって　ほんとは　お父さまの言う通り \n　お母さまの後を継いで　風乗りになれたら\n　どんなにいいかって思う……。でもね…………<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02948_00028560><start_lip_sync n00212 _normal m00001>I really do wish that I could follow in\nmy mother's footsteps and become\na Wind Rider, just like my father \n<br>\nsaid... But, well...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "346": {
-    "<voice 03059_00000346><start_lip_sync n00212 _normal m00001>「お母さま……\n　ここから落ちて　死んじゃったんだ。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03059_00000346><start_lip_sync n00212 _normal m00001>My mother...fell from here and died.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "347": {
-    "<voice 03337_00000347><start_lip_sync n00212 _normal m00001>「崖から落ちて　あそこに引っかかってた\n　カムシカの子を　助けようとして……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03337_00000347><start_lip_sync n00212 _normal m00001>She was trying to save a young\nAzlantelope that had fallen from\nthe cliff and gotten stuck.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "348": {
-    "<voice 03535_00000348><start_lip_sync n00212 _normal m00001>「カムシカなんて　いなければ\n　私　今も　お母さまと　いられたのにな……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03535_00000348><start_lip_sync n00212 _normal m00001>If the Azlantelopes never existed,\nmy mother would still be with us...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "349": {
-    "<voice 03924_00000349><start_lip_sync n00212 _normal m00001>「これ……　お母さまが　好きだった花？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03924_00000349><start_lip_sync n00212 _normal m00001>This is...my mother's favorite flower?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "351": {
-    "<voice 04159_00000351><start_lip_sync n00212 _normal m00001>「そっか……　カムシカが　供えてるんだ。\n　お母さまのために　６年経った　今も……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04159_00000351><start_lip_sync n00212 _normal m00001>So the Azlantelopes left this\nas an offering. Even after six years,\nthey still...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "352": {
-    "<voice 04292_00000352><start_lip_sync n00212 _normal m00001>「私……　お母さまが\n　この花を好きだったことも　忘れてた……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04292_00000352><start_lip_sync n00212 _normal m00001>I...had forgotten that my mother\nliked these flowers...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "354": {
-    "<voice 04422_00000354><start_lip_sync n00212 _normal m00001>「……………………。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04422_00000354><start_lip_sync n00212 _normal m00001>................<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "355": {
-    "<voice 04532_00000355><start_lip_sync n00212 _normal m00001>「……決めた。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04532_00000355><start_lip_sync n00212 _normal m00001>...I've decided.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "356": {
-    "<voice 04604_00000356><start_lip_sync n00212 _normal m00001>「カムシカのこと　好きには　なれないけど……\n　風乗りは　やっても　いいかなあ。 \n　アズランの……　みんなのためだもんね！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04604_00000356><start_lip_sync n00212 _normal m00001>I don't know if I'll ever truly like\nAzlantelopes, but...I wouldn't mind\nat least performing the Wind Riding.\n<br>\nFor the sake of the people of Azlan!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "357": {
-    "<voice 04934_00000357><start_lip_sync n00212 _normal m00001>「<pc>さまに\n　話を聞いてもらえて　よかった！\n　なんだか　スッキリしたよ。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04934_00000357><start_lip_sync n00212 _normal m00001>Thanks for listening, <pc>!\nIt was kind of refreshing.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "358": {
-    "<voice 05004_00000358><start_lip_sync n00212 _normal m00001>「私　風乗りになるって\n　お父さまに　言ってくる！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 05004_00000358><start_lip_sync n00212 _normal m00001>I'm going to go tell my father that\nI've decided to be the Wind Rider!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "359": {
-    "<voice 05064_00000359><start_lip_sync n00212 _normal m00001>「またね　<pc>さま！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 05064_00000359><start_lip_sync n00212 _normal m00001>See you later!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "360": {
-    "<voice 00025_00000360><start_lip_sync n00255 _normal m00001>「おお　<pc>！　そなたを待っていたぞ。\n　風泣き岬に行っていた　フウラを\n　呼び戻してくれたようだな。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00025_00000360><start_lip_sync n00255 _normal m00001>Oh, <pc>! I've been awaiting\nyour return. It seems that you\nmanaged to recall Fuura from Windy Cape.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "361": {
-    "<voice 00070_00000361><start_lip_sync n00255 _normal m00001>「わしは　もう　風乗りに　ならなくてよいと……\n　そう言うつもりで　あの子の帰りを待っていた。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00070_00000361><start_lip_sync n00255 _normal m00001>I was awaiting her return with\nthe intention of informing her that I\nno longer had need for her to\n<br>\nbecome a Wind Rider.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "362": {
-    "<voice 00095_00000362><start_lip_sync n00255 _normal m00001>「だが　先ほど　フウラが帰ってきて\n　風乗りになりたいと　言ってくれたのだ！<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00095_00000362><start_lip_sync n00255 _normal m00001>But just a few minutes ago, she came\nback and told me that she\nwished to be one after all!<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "363": {
-    "<voice 00125_00000363><start_lip_sync n00255 _normal m00001>「どういう心境の変化があったか　知らないが\n　じつに　よろこばしい。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00125_00000363><start_lip_sync n00255 _normal m00001>I don't know what spurred this\nsudden change of heart, but I\ncouldn't be more delighted.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "364": {
-    "<voice 00197_00000364><start_lip_sync n00255 _normal m00001>「ときに　そなた。一人前の証を持っておるな。\n　もしや　キーエンブレムを集めるために\n　旅しているのではないか？<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00197_00000364><start_lip_sync n00255 _normal m00001>Now then.\nI see that you have a Mark of\nAdulthood. Are you perhaps traveling\n<br>\nto collect the Key Emblems?<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "365": {
-    "<voice 00321_00000365><start_lip_sync n00255 _normal m00001>「ならば　そなたを見込んで\n　わしから　頼みたいことがある！<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00321_00000365><start_lip_sync n00255 _normal m00001>In that case, I must yet again\nrequest your aid!<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "366": {
-    "<voice 00351_00000366><start_lip_sync n00255 _normal m00001>「フウラが風乗りになり　風送りの儀を行うには\n　風のたづな　風のころもという　ふたつの神具を\n　フウラ自身が　取りにいかねばならぬのだ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00351_00000366><start_lip_sync n00255 _normal m00001>For Fuura to become a Wind Rider\nand perform the ceremony, she must\nretrieve the two sacred items,\n<br>\nthe Wind Reins and the Wind Robe.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "367": {
-    "<voice 00401_00000367><start_lip_sync n00255 _normal m00001>「そこでだな……。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00401_00000367><start_lip_sync n00255 _normal m00001>So there you have it...<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "368": {
-    "<voice 00451_00000368><start_lip_sync n00255 _normal m00001>「そなたには　あの子が \n　無事に　神具を持ってかえれるよう\n　手助けしてやってほしいのだ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00451_00000368><start_lip_sync n00255 _normal m00001>Please aid her in returning the\nitems safely.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "9226": {
-    "<voice 00471_00009226><start_lip_sync n00255 _normal m00001>「そなたの　はたらきで　無事に\n　風送りの儀を　終えることができたら\n　緑のキーエンブレムを授けよう。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00471_00009226><start_lip_sync n00255 _normal m00001>If you successfully see the Wind\nSend-Off Ceremony to\ncompletion, I shall bestow you the\n<br>\nGreen Key Emblem.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "9227": {
-    "<voice 00486_00009227><start_lip_sync n00255 _normal m00001>「フウラは　ひとつめの神具　風のたづなを取りに\n　すでに　山間の関所へ向かった。\n　今すぐ出発すれば　向こうで落ち合えるはずだ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00486_00009227><start_lip_sync n00255 _normal m00001>Fuura is already on her way to the\nmountain pass to retrieve the\nfirst sacred tool, the Wind Reins.\n<br>\nIf you leave now,\nyou should be able to catch\nup with her there.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "9228": {
-    "<voice 00516_00009228><start_lip_sync n00255 _normal m00001>「山間の関所は　アズラン地方の南\n　イナミノ街道の　南方にある。\n　娘を頼んだぞ　<pc>！<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00516_00009228><start_lip_sync n00255 _normal m00001>The mountain pass is located south\nof Inamino Highway in the South\nAzlan Region. Please offer her your aid.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "369": {
-    "<voice 00415_00000369><start_lip_sync n00212 _normal m00001>「<pc>さまっ！\n　どうして　ここに……？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00415_00000369><start_lip_sync n00212 _normal m00001><pc>! Why are you here...?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "370": {
-    "<voice 00542_00000370><start_lip_sync n00212 _normal m00001>「……そっか。\n　お父さまに頼まれて　来てくれたんだね。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00542_00000370><start_lip_sync n00212 _normal m00001>...I see. My father asked you to come.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "371": {
-    "<voice 00592_00000371><start_lip_sync n00212 _normal m00001>「ねえ　聞いて　<pc>さま！\n　私　魔物　やっつけたんだよ！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00592_00000371><start_lip_sync n00212 _normal m00001>Hey, <pc>, guess what?!\nI defeated a monster!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "372": {
-    "<voice 00622_00000372><start_lip_sync n00212 _normal m00001>「まあ　頼みもしないのに　カムシカが\n　手伝ってくれたってのもあるけど……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00622_00000372><start_lip_sync n00212 _normal m00001>Well, the Azlantelopes helped\nwithout my asking...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "373": {
-    "<voice 00672_00000373><start_lip_sync n00212 _normal m00001>「でも　やってみれば　できることって\n　あるんだね！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00672_00000373><start_lip_sync n00212 _normal m00001>But it just goes to show that\nanything's possible!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "375": {
-    "<voice 00762_00000375><start_lip_sync n00257 _normal m00001>「いやー　こりゃ　たまげたね。 \n　風乗り様は　カムシカに好かれるとは聞くが……<stop_lip_animation n00257 CLOSE_MOUTH>": "<voice 00762_00000375><start_lip_sync n00257 _normal m00001>Wow, this is amazing.\nI've heard that Wind Riders are\nloved by the Azlantelopes...<stop_lip_animation n00257 CLOSE_MOUTH>"
-  },
-  "376": {
-    "<voice 00812_00000376><start_lip_sync n00257 _normal m00001>「なるほど　おじょうちゃんが\n　次の風乗り様に　まちがいないな。\n　アズランのフウラって　あんたなんだろ？<stop_lip_animation n00257 CLOSE_MOUTH>": "<voice 00812_00000376><start_lip_sync n00257 _normal m00001>Seems the young lady is destined to be\nthe next Wind Rider after all. You're\nFuura from the town of Azlan, right?<stop_lip_animation n00257 CLOSE_MOUTH>"
-  },
-  "377": {
-    "<voice 00852_00000377><start_lip_sync n00212 _normal m00001>「はい。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00852_00000377><start_lip_sync n00212 _normal m00001>Yes.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "378": {
-    "<voice 00892_00000378><start_lip_sync n00257 _normal m00001>「よし！　じゃあ　領主様から\n　頼まれた品を　持ってってくんな！<stop_lip_animation n00257 CLOSE_MOUTH>": "<voice 00892_00000378><start_lip_sync n00257 _normal m00001>Excellent! Then, please accept the\nitem which milord requested!<stop_lip_animation n00257 CLOSE_MOUTH>"
-  },
-  "19001519": {
-    "フウラは　風のたづなを　受け取った！<me 60>": "Fuura received the\nWind Reins!<me 60>"
-  },
-  "380": {
-    "<voice 01090_00000380><start_lip_sync n00257 _normal m00001>「さあて。よく聞きな　おじょうちゃん。\n　向こうに　高く　そびえる塔が見えるだろう。<stop_lip_animation n00257 CLOSE_MOUTH>": "<voice 01090_00000380><start_lip_sync n00257 _normal m00001>Now then. Listen closely, young\nmiss Fuura. You see that\nenormous tower over there?<stop_lip_animation n00257 CLOSE_MOUTH>"
-  },
-  "381": {
-    "<voice 01145_00000381><start_lip_sync n00257 _normal m00001>「もうひとつの神具　風のころもは\n　あのスイの塔で　新しい風乗り様を待って\n　風のチカラを　たくわえているのさ。<stop_lip_animation n00257 CLOSE_MOUTH>": "<voice 01145_00000381><start_lip_sync n00257 _normal m00001>The other sacred item, the Wind Robe,\nis in the Sui Tower waiting for a\nnew Wind Rider to come and\n<br>\nfill it with the power of wind.<stop_lip_animation n00257 CLOSE_MOUTH>"
-  },
-  "382": {
-    "<voice 01175_00000382><start_lip_sync n00257 _normal m00001>「風のころもが　祀られている時に\n　最上階の扉を　開くことができるのは\n　風乗り様として　塔に　認められた者だけだ。<stop_lip_animation n00257 CLOSE_MOUTH>": "<voice 01175_00000382><start_lip_sync n00257 _normal m00001>Only those who are recognized by\nthe tower as the Wind Rider can\nopen the door to the top floor\n<br>\nwhere the Wind Robe is enshrined.<stop_lip_animation n00257 CLOSE_MOUTH>"
-  },
-  "383": {
-    "<voice 01205_00000383><start_lip_sync n00257 _normal m00001>「おじょうちゃんが　風乗り様として\n　ふさわしいかどうかが\n　そこで　試されることだろう。<stop_lip_animation n00257 CLOSE_MOUTH>": "<voice 01205_00000383><start_lip_sync n00257 _normal m00001>There, you will be tested\nto determine if you are suitable for\nthe role.<stop_lip_animation n00257 CLOSE_MOUTH>"
-  },
-  "384": {
-    "<voice 01265_00000384><start_lip_sync n00257 _normal m00001>「カムシカたちは　塔には入れない。\n　塔の中では　カムシカたちのチカラは\n　借りられないが　大丈夫かい？<stop_lip_animation n00257 CLOSE_MOUTH>": "<voice 01265_00000384><start_lip_sync n00257 _normal m00001>The Azlantelope cannot enter the tower,\nso you will not be able to receive\ntheir help. Are you okay with that?<stop_lip_animation n00257 CLOSE_MOUTH>"
-  },
-  "385": {
-    "<voice 01355_00000385><start_lip_sync n00212 _normal m00001>「はいっ！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01355_00000385><start_lip_sync n00212 _normal m00001>Yes!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "386": {
-    "<voice 01570_00000386><start_lip_sync n00212 _normal m00001>「<pc>さまは\n　お父さまに言われて　来てるんでしょ？\n　私　先に行ってるねっ！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01570_00000386><start_lip_sync n00212 _normal m00001>You're here because my father\ntold you to come, right?\nI'm going on ahead!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "387": {
-    "<voice 01762_00000387><start_lip_sync n00212 _normal m00001>「なんで　ついてくるかなあ……。\n　あんたたちは　スイの塔に入れないのに。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01762_00000387><start_lip_sync n00212 _normal m00001>I wonder why they're following me...\nYou guys can't enter Sui Tower.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "388": {
-    "<voice 01838_00000388><start_lip_sync n00212 _normal m00001>「カムシカって　絶対　アタマ悪いよね。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01838_00000388><start_lip_sync n00212 _normal m00001>Azlantelopes sure are dumb,\naren't they?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "389": {
-    "<voice 00005_00000389><start_lip_sync n00212 _normal m00001>「やっと　着いた……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00005_00000389><start_lip_sync n00212 _normal m00001>We're finally here...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "390": {
-    "<voice 00169_00000390><start_lip_sync n00212 _normal m00001>「なんだか　結局……<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00169_00000390><start_lip_sync n00212 _normal m00001>Somehow, we made it...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "391": {
-    "<voice 00273_00000391><start_lip_sync n00212 _normal m00001>「いろいろ　助けてもらっちゃった……　かな？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00273_00000391><start_lip_sync n00212 _normal m00001>Did you help me...?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "392": {
-    "<voice 00343_00000392><start_lip_sync n00212 _normal m00001>「あ……　ありがとっ！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00343_00000392><start_lip_sync n00212 _normal m00001>Th...thank you!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "393": {
-    "<voice 00507_00000393><start_lip_sync n00212 _normal m00001>「きゃっ！　<pc>さまっ！？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00507_00000393><start_lip_sync n00212 _normal m00001>Eep! <pc>?!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "395": {
-    "<voice 00594_00000395><start_lip_sync n00212 _normal m00001>「もしかして　今の　聞いてたの？\n　わ…私は　ただ　お礼を言っただけで\n　別に　カムシカのこと　認めたわけじゃないよ！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00594_00000395><start_lip_sync n00212 _normal m00001>Did you hear that? I was just\nthanking you. I-I certainly wasn't\ncomplimenting the Azlantelopes!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "396": {
-    "<voice 00707_00000396><start_lip_sync n00212 _normal m00001>「でも……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00707_00000396><start_lip_sync n00212 _normal m00001>But...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "397": {
-    "<voice 00737_00000397><start_lip_sync n00212 _normal m00001>「どうして　カムシカたちは\n　私を　助けてくれるんだろ。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00737_00000397><start_lip_sync n00212 _normal m00001>Why are these Azlantelopes helping\nme?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "398": {
-    "<voice 00819_00000398><start_lip_sync n00212 _normal m00001>「お母さまを　死なせちゃったことを\n　悪いと思ってるから？　それとも……　私が\n　カムシカのチカラを引きだせる　風乗りだから？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00819_00000398><start_lip_sync n00212 _normal m00001>Do they feel bad that they\nlet my mother die?\nOr...is it because I'm a Wind Rider\n<br>\nwho can bring out their power?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "399": {
-    "<voice 00974_00000399><start_lip_sync n00212 _normal m00001>「カムシカって……　変な動物だよね。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00974_00000399><start_lip_sync n00212 _normal m00001>Azlantelopes sure are...\nOdd creatures, aren't they?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "400": {
-    "<voice 01183_00000400><start_lip_sync n00212 _normal m00001>「風のころもは　この塔のてっぺんか……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01183_00000400><start_lip_sync n00212 _normal m00001>The Wind Robe is at the top of this\ntower...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000640": {
-    "<voice 01282_19000640><start_lip_sync n00212 _normal m00001>「<pc>さま！　お願いがあります！\n　私……この塔に登りたい！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01282_19000640><start_lip_sync n00212 _normal m00001><pc>... I have a favor to\nask of you. Please join me in\nmy ascent to the top of the tower.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000641": {
-    "<voice 01283_19000641><start_lip_sync n00212 _normal m00001>「でも……でも\n　今まで　手助けしてくれた　カムシカたちは\n　この中には　入れないんです。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01283_19000641><start_lip_sync n00212 _normal m00001>The Azlantelope cannot enter this\ntower to help me.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000642": {
-    "<voice 01284_19000642><start_lip_sync n00212 _normal m00001>「私……カムシカたちが　いなければ\n　ここまでも　たどり着けないくらい\n　ダメな子なのは　自分で　わかってます！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01284_19000642><start_lip_sync n00212 _normal m00001>And I...\nknow that I couldn't have made\nit this far without their help...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000643": {
-    "<voice 01285_19000643><start_lip_sync n00212 _normal m00001>「それでも　私　この塔に登りたい！\n　お願いします！\n　私に　チカラを貸してください！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01285_19000643><start_lip_sync n00212 _normal m00001>Please, lend me your power so that\nI can ascend the tower, claim the\nWind Robe and honor my mother!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000644": {
-    "フウラが\nパーティに　加わった。<se_nots System Guest_joinSE>": "Fuura has joined the party!"
-  },
-  "52883": {
-    "<voice 00204_00052883><start_lip_sync n00212 _normal m00001>「この部屋の中に\n　風のころもが　あるんだね。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00204_00052883><start_lip_sync n00212 _normal m00001>The Wind Robe is in this room, isn't it?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "52884": {
-    "<voice 00371_00052884><start_lip_sync n00212 _normal m00001>「そして　このトビラが\n　風乗りになる　資格を持つ者にしか\n　開くことができないトビラ……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00371_00052884><start_lip_sync n00212 _normal m00001>And this is the door that can only\nbe opened by those who are\nqualified to be a Wind Rider...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "52885": {
-    "<voice 00624_00052885><start_lip_sync n00212 _normal m00001>「開いた！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00624_00052885><start_lip_sync n00212 _normal m00001>It opened!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "406": {
-    "<voice 00809_00000406><start_lip_sync n00212 _normal m00001>「な　なに　この部屋……？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00809_00000406><start_lip_sync n00212 _normal m00001>What's with this room...?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "407": {
-    "<voice 01084_00000407><start_lip_sync m50009 _normal m00001>「誰だっ！？<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01084_00000407><start_lip_sync m50009 _normal m00001>Who's there?!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "408": {
-    "<voice 01369_00000408><start_lip_sync m50009 _normal m00001>「この　怪獣プスゴンさまの\n　スウィートホームに\n　土足で　あがりこむヤツは！？<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01369_00000408><start_lip_sync m50009 _normal m00001>Who dares tromp around in the\nsweet little home of Pusgon\nthe monster?!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "409": {
-    "<voice 01474_00000409><start_lip_sync m50009 _normal m00001>「な　なんてことだ……！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01474_00000409><start_lip_sync m50009 _normal m00001>Wh-what is that...?!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "410": {
-    "<voice 01564_00000410><start_lip_sync m50009 _normal m00001>「キュートだ……。<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01564_00000410><start_lip_sync m50009 _normal m00001>CUUUUUUUUUTE...<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "411": {
-    "<voice 01684_00000411><start_lip_sync m50009 _normal m00001>「ただ　かわいいだけじゃない。\n　ちょっと　毒のある瞳！\n　抱きしめたくなるような　身体のサイズ！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01684_00000411><start_lip_sync m50009 _normal m00001>No, not just cute. Eyes with a bit of\nspunk in 'em! A cute li'l body that\nyou just can't help but wanna hug!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "412": {
-    "<voice 01784_00000412><start_lip_sync m50009 _normal m00001>「こんな気持ちは　はじめてだ！\n　オレと　いてくれ！\n　ずっとずっと　一緒に暮らそう！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01784_00000412><start_lip_sync m50009 _normal m00001>I've never been so enraptured before!\nStay here with me!\nStay with me forever and ever!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "413": {
-    "<voice 01954_00000413><start_lip_sync n00212 _normal m00001>「わ　私……！？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01954_00000413><start_lip_sync n00212 _normal m00001>M-me...?!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "414": {
-    "<voice 02039_00000414><start_lip_sync n00212 _normal m00001>「ど　どうしよう～。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02039_00000414><start_lip_sync n00212 _normal m00001>O-oh dear～<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "415": {
-    "<voice 02164_00000415><start_lip_sync n00212 _normal m00001>「困るわ。だって　あなた　怪獣だし……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02164_00000415><start_lip_sync n00212 _normal m00001>This is a bit awkward.\nI mean, you're a monster, so...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "416": {
-    "<voice 02214_00000416><start_lip_sync n00212 _normal m00001>「きっと　お父さまも　許してくれないと思う。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02214_00000416><start_lip_sync n00212 _normal m00001>I'm sure my father would never\napprove.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "417": {
-    "<voice 02353_00000417><start_lip_sync n00212 _normal m00001>「えっ！？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02353_00000417><start_lip_sync n00212 _normal m00001>Huh?!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "418": {
-    "<voice 02429_00000418><start_lip_sync m50009 _normal m00001>「お前っ！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 02429_00000418><start_lip_sync m50009 _normal m00001>You dumb runt!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "419": {
-    "<voice 02486_00000419><start_lip_sync m50009 _normal m00001>「この……<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 02486_00000419><start_lip_sync m50009 _normal m00001>This..<stop_lip_animation m50009 CLOSE_MOUTH>."
-  },
-  "420": {
-    "<voice 02541_00000420><start_lip_sync m50009 _normal m00001>「キュートなハニーを　よこせえええっ！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 02541_00000420><start_lip_sync m50009 _normal m00001>Gimme that little cutie!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "421": {
-    "<voice 02692_00000421><start_lip_sync n00212 _normal m00001>「えええええええっ！？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02692_00000421><start_lip_sync n00212 _normal m00001>WHAAAAAAAAAAT?!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "422": {
-    "<voice 02767_00000422><start_lip_sync n00212 _normal m00001>「ケキちゃんは　ダメええっ！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02767_00000422><start_lip_sync n00212 _normal m00001>Not Cakey!!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "423": {
-    "<voice 02872_00000423><start_lip_sync m50009 _normal m00001>「ぐぬぬぬぬぬううう！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 02872_00000423><start_lip_sync m50009 _normal m00001>Grrrrrrrggggghhhhhh!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "424": {
-    "<voice 02932_00000424><start_lip_sync n00212 _normal m00001>「くう～～～～～っ！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02932_00000424><start_lip_sync n00212 _normal m00001>Hhnnnnnnnnnnngggghh!!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "425": {
-    "<voice 03210_00000425><start_lip_sync m50009 _normal m00001>「ちっ　なかなかやるな　エルフめ！\n　何しに　来やがった！？<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 03210_00000425><start_lip_sync m50009 _normal m00001>Tch, not bad little elf!\nWhy'd you come here, anyway?!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "426": {
-    "<voice 03351_00000426><start_lip_sync n00212 _normal m00001>「私たちは……　風のころもを取りに！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03351_00000426><start_lip_sync n00212 _normal m00001>We're here...to get the Wind Robe!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "427": {
-    "<voice 03491_00000427><start_lip_sync m50009 _normal m00001>「風のころも！？<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 03491_00000427><start_lip_sync m50009 _normal m00001>The Wind Robe?!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "428": {
-    "<voice 03591_00000428><start_lip_sync m50009 _normal m00001>「くっくっくっく……。\n　お前たちが　そうだったとはな。\n　ちょうどいい！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 03591_00000428><start_lip_sync m50009 _normal m00001>Gweh heh heh...\nI didn't realize you were the ones.\nAnd you're just in time!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "429": {
-    "<voice 03771_00000429><start_lip_sync m50009 _normal m00001>「オレは　風のころもを取りにきたヤツを\n　倒すように言われているんだ！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 03771_00000429><start_lip_sync m50009 _normal m00001>I've been told to clobber whoever\ncame for the Wind Robe!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "430": {
-    "<voice 04021_00000430><start_lip_sync m50009 _normal m00001>「頼まれた仕事を果たし　ついでに\n　マイ・スウィートハニーを手に入れる！\n　一石二鳥とは　このことだぁっ！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 04021_00000430><start_lip_sync m50009 _normal m00001>I do the job they asked me to do and\nI get that little cutie patootie, too!\nTwo birds, one stone!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "431": {
-    "<voice 04239_00000431><start_lip_sync n00212 _normal m00001>「あうっ！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04239_00000431><start_lip_sync n00212 _normal m00001>Agh!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000645": {
-    "<voice 04240_19000645><start_lip_sync n00212 _normal m00001>「ああ……やっぱり　私……\n　ダメな子なのかな……。\n　……気……が…………遠く…………<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04240_19000645><start_lip_sync n00212 _normal m00001>Aaaggh... I-I guess... It's... true.\nI'm just a useless... child... after all...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19001566": {
-    "<voice 09000_19001566><center>フウラ　聞こえますか？": "<voice 09000_19001566><center>Fuura, can you hear me?"
-  },
-  "19001564": {
-    "<voice 09000_19001564><center><pc>は　悪しき気配から世界を守るための\n重大な使命を果たす　旅をしています。": "<voice 09000_19001564><center><pc>\nis on a very important mission to\nprotect the world from a great darkness."
-  },
-  "19000646": {
-    "<voice 04241_19000646><start_lip_sync n00212 _normal m00001>「…………え？　……だ……れ…………？\n　私を…………呼……ぶ……\n　…………だ…………れ……？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04241_19000646><start_lip_sync n00212 _normal m00001>...Huh? ...Who... is it? ...That voice...?\nWho is it...?<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19001565": {
-    "<voice 09000_19001565><center>あなたなら　<pc>を助けることができるでしょう。\nこの世界の希望を　絶やさぬように……。　": "<voice 09000_19001565><center>You have the power to help <pc>.\nTo keep hope for this world alive."
-  },
-  "19000647": {
-    "<voice 04242_19000647><start_lip_sync n00212 _normal m00001>「…………！\n　……私……が……！？<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04242_19000647><start_lip_sync n00212 _normal m00001>.........!\n...I...do?!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "432": {
-    "<voice 04332_00000432><start_lip_sync m50009 _normal m00001>「あ　あぶねえっ！\n　オレの　ウルトラ・ハイセンスな\n　インテリアが！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 04332_00000432><start_lip_sync m50009 _normal m00001>Th-that was close!\nMy ultra classy interior design!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "433": {
-    "<voice 04443_00000433><start_lip_sync m50009 _normal m00001>「ちょっと　タンマな！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 04443_00000433><start_lip_sync m50009 _normal m00001>Hold on, time out!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "434": {
-    "<voice 04684_00000434><start_lip_sync m50009 _normal m00001>「これでよし！\n　まずは　お前から　片付けてやるぜ！\n　さっさと　くたばりなっ！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 04684_00000434><start_lip_sync m50009 _normal m00001>There, good! I had to clean up first!\nNow I can go postal on you dirtbags!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000648": {
-    "<voice 04685_19000648><start_lip_sync n00212 _normal m00001>「待ちなさい！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04685_19000648><start_lip_sync n00212 _normal m00001>Hold it!!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000649": {
-    "<voice 04686_19000649><start_lip_sync n00212 _normal m00001>「<pc>さまを\n　ひとりで　戦わせたりしない！！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04686_19000649><start_lip_sync n00212 _normal m00001><pc>, I won't let you fight alone!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000650": {
-    "<voice 04687_19000650><start_lip_sync m50009 _normal m00001>「な　なんだぁ？\n　お前みたいに　弱っちいのは\n　おとなしく　寝てろ！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 04687_19000650><start_lip_sync m50009 _normal m00001>What's this? A baby like you should be at home\nwith their bottle!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000651": {
-    "<voice 04688_19000651><start_lip_sync n00212 _normal m00001>「私も　あなたと戦うって　言ってるの！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04688_19000651><start_lip_sync n00212 _normal m00001>I'm ready to fight now!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "438": {
-    "<voice 00135_00000438><start_lip_sync m50009 _normal m00001>「ちっ！　しつこいヤツだな！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 00135_00000438><start_lip_sync m50009 _normal m00001>Tch!\nYou're a stubborn little rat!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "439": {
-    "<voice 00205_00000439><start_lip_sync m50009 _normal m00001>「しかも　またしても　きたない足で\n　オレのスウィートホームに　あがりやがって！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 00205_00000439><start_lip_sync m50009 _normal m00001>And once again, you've climbed into\nmy sweet little home on those\ngrubby feet of yours!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "440": {
-    "<voice 00295_00000440><start_lip_sync m50009 _normal m00001>「礼儀を知らないヤツめ！\n　何度でも　痛い目にあわせてやるぜっ！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 00295_00000440><start_lip_sync m50009 _normal m00001>You have no manners!\nI'll just have to clobber you over\nand over again!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "24803": {
-    "<voice 00550_00024803><start_lip_sync m50009 _normal m00001>「これでよし！　\n　さあ　かかってきな！\n　コテンパンに　のしてやるぜっ！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 00550_00024803><start_lip_sync m50009 _normal m00001>Come on! Let's go!\nI'm gonna beat you to a pulp!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "441": {
-    "<voice 00020_00000441><start_lip_sync m50009 _normal m00001>「ぐおおおお！！\n　お前ら　本気で　オレを怒らせたなっ！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 00020_00000441><start_lip_sync m50009 _normal m00001>GRAAAAAAAAAAH!!\nNow you've REALLY done it!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "442": {
-    "<voice 00226_00000442><start_lip_sync m50009 _normal m00001>「オレの　真のチカラを見せてやるぜっ！！\n　お前なんて　メッタメタだぞ！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 00226_00000442><start_lip_sync m50009 _normal m00001>Now I'll show you what I'm REALLY\nmade of. Who do you inconsiderate\nlittle twits think you are?!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "443": {
-    "<voice 00314_00000443><start_lip_sync n00212 _normal m00001>「やめてっっ！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00314_00000443><start_lip_sync n00212 _normal m00001>Stop it!!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "444": {
-    "<voice 00433_00000444><start_lip_sync m50009 _normal m00001>「お……！？<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 00433_00000444><start_lip_sync m50009 _normal m00001>Oh...?!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "445": {
-    "<voice 00488_00000445><start_lip_sync n00212 _normal m00001>「それ　あげるから……<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00488_00000445><start_lip_sync n00212 _normal m00001>I'll give it to you...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000652": {
-    "<voice 00583_19000652><start_lip_sync n00212 _normal m00001>「もうやめて！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00583_19000652><start_lip_sync n00212 _normal m00001>Take it...!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "447": {
-    "<voice 01023_00000447><start_lip_sync m50009 _normal m00001>「……………………。<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01023_00000447><start_lip_sync m50009 _normal m00001>................<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000653": {
-    "<voice 01024_19000653><start_lip_sync m50009 _normal m00001>「お前　さっきはアレほど……<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01024_19000653><start_lip_sync m50009 _normal m00001>But you were just...<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000654": {
-    "<voice 01025_19000654><start_lip_sync n00212 _normal m00001>「あ・げ・る・か・ら！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01025_19000654><start_lip_sync n00212 _normal m00001>You. can. have. it!!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000655": {
-    "<voice 01026_19000655><start_lip_sync m50009 _normal m00001>「死ぬほど　大事なモノなんじゃ\n　ないのかよぉ！？<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01026_19000655><start_lip_sync m50009 _normal m00001>It seemed like you were willing to\ndie for it...<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000656": {
-    "<voice 01027_19000656><start_lip_sync n00212 _normal m00001>「死ぬほど　大事なものよ！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01027_19000656><start_lip_sync n00212 _normal m00001>It's worth dying for!!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000657": {
-    "<voice 01028_19000657><start_lip_sync m50009 _normal m00001>「じゃあ……<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01028_19000657><start_lip_sync m50009 _normal m00001>Then...<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000658": {
-    "<voice 01029_19000658><start_lip_sync n00212 _normal m00001>「いいの！\n　あげる！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01029_19000658><start_lip_sync n00212 _normal m00001>It's fine! Take it!!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000659": {
-    "<voice 01030_19000659><start_lip_sync n00212 _normal m00001>「私は　風乗りになる！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01030_19000659><start_lip_sync n00212 _normal m00001>I must become a Wind Rider!!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000660": {
-    "<voice 01031_19000660><start_lip_sync m50009 _normal m00001>「…………。<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01031_19000660><start_lip_sync m50009 _normal m00001>..........<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000661": {
-    "<voice 01032_19000661><start_lip_sync n00212 _normal m00001>「それは　思い出なの。\n　亡くなった　お母さまとの思い出……。\n　でも　もう　いらないの。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01032_19000661><start_lip_sync n00212 _normal m00001>It was a memento...\nGiven to me by my mother...\nBut I don't need it anymore.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000662": {
-    "<voice 01033_19000662><start_lip_sync n00212 _normal m00001>「私　風乗りになるの！\n　お母さまの後を継いで\n　風乗りに　絶対なるの！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01033_19000662><start_lip_sync n00212 _normal m00001>I will honor her memory by following\nin her footsteps!\nI will become a Wind Rider!!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000663": {
-    "<voice 01034_19000663><start_lip_sync n00212 _normal m00001>「風のころもを着て　風乗りになる私と\n　<pc>さまは　明日なの！\n　明日のためなら　思い出はいらないの！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01034_19000663><start_lip_sync n00212 _normal m00001>I'll wear the Wind Robe and ride the\nWind like my mother... And follow\n<pc> toward a brighter future!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000664": {
-    "<voice 01035_19000664><start_lip_sync m50009 _normal m00001>「……うっ<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01035_19000664><start_lip_sync m50009 _normal m00001>...*sniff*<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000665": {
-    "<voice 01036_19000665><start_lip_sync m50009 _normal m00001>「うわぁあああああんん！！\n　なんて　泣ける話だ！\n　お前も　苦労してるんだなぁ！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01036_19000665><start_lip_sync m50009 _normal m00001>UWAAAAAAAAHH!!!\nWhat a tear-jerker! You must have\nstruggled so much to get here!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000666": {
-    "<voice 01037_19000666><start_lip_sync m50009 _normal m00001>「……わかった。\n　ハニーと引き換えに　もう何もしない！\n　……ぐずッ……うわぁああああん！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01037_19000666><start_lip_sync m50009 _normal m00001>I understand now. If you give\nme that baby I won't do anything\nelse to hamper your quest!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000667": {
-    "<voice 01038_19000667><start_lip_sync m50009 _normal m00001>「オレに　風のころもを守らせたヤツは\n　風乗りを絶えさせ　風をよどませ……<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01038_19000667><start_lip_sync m50009 _normal m00001>The one who sent me to guard\nthe Wind Robe and stop a new\nWind Rider from ascending...<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000668": {
-    "<voice 01039_19000668><start_lip_sync m50009 _normal m00001>「ここいらを　闇の封印に堕とすって\n　ワケの分からないこと　言ってたんだ。<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01039_19000668><start_lip_sync m50009 _normal m00001>Said that he planned to cover the\nworld in darkness. He was some\npunk who called himself 'Nergel.'<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000669": {
-    "<voice 01040_19000669><start_lip_sync m50009 _normal m00001>「えらそうに命令してくる　ネルゲルっていう\n　いけ好かない奴だ。あんな奴の計画より\n　お前の　明日……の方が　ハイセンスだ！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01040_19000669><start_lip_sync m50009 _normal m00001>He went around acting like a big shot\nbut to tell you the truth I like your\nplan for the future better!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000670": {
-    "<voice 01041_19000670><start_lip_sync n00212 _normal m00001>「ありがとう……じゃ\n　大事にしてね。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01041_19000670><start_lip_sync n00212 _normal m00001>Thanks... Take care of Cakey for me.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000671": {
-    "<voice 01042_19000671><start_lip_sync m50009 _normal m00001>「……いや　やっぱり　もらえねえ。\n　オレ　もらえねえよ……。<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01042_19000671><start_lip_sync m50009 _normal m00001>No... I can't take her from you...<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000672": {
-    "<voice 01043_19000672><start_lip_sync n00212 _normal m00001>「約束だから。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01043_19000672><start_lip_sync n00212 _normal m00001>Keep her. A promise is a promise.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000673": {
-    "<voice 01044_19000673><start_lip_sync m50009 _normal m00001>「いいのかよぉ……ホントにもらうぞ？\n　……もらっちゃうぞ？<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01044_19000673><start_lip_sync m50009 _normal m00001>Are you sure you don't want her? Last chance!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "19000674": {
-    "<voice 01045_19000674><start_lip_sync m50009 _normal m00001>「……じゃあなっ！\n　あばよっ！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01045_19000674><start_lip_sync m50009 _normal m00001>Well, that's all folks! See ya!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "450": {
-    "<voice 01543_00000450><start_lip_sync m50009 _normal m00001>「いやっほ～～～う　ハニー！！<stop_lip_animation m50009 CLOSE_MOUTH>": "<voice 01543_00000450><start_lip_sync m50009 _normal m00001>YAHOOOOOOOOOO, SO\nCUTEEEEEEEEE!!<stop_lip_animation m50009 CLOSE_MOUTH>"
-  },
-  "451": {
-    "<voice 01658_00000451><start_lip_sync n00212 _normal m00001>「……いいの。\n　ケキちゃんがいなくても\n　私は　もう大丈夫だから。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01658_00000451><start_lip_sync n00212 _normal m00001>...Don't worry.\nI'm already fine, even without Cakey.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "452": {
-    "<voice 02203_00000452><start_lip_sync n00212 _normal m00001>「きれい……！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02203_00000452><start_lip_sync n00212 _normal m00001>So pretty...!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "453": {
-    "<voice 02453_00000453><start_lip_sync n00212 _normal m00001>「お母さまの……　においがする……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02453_00000453><start_lip_sync n00212 _normal m00001>This scent... It's my mother's...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "454": {
-    "<voice 02548_00000454><start_lip_sync n00212 _normal m00001>「そうだ！　こうしてる場合じゃないわ。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02548_00000454><start_lip_sync n00212 _normal m00001>Oh, right! This isn't the time for that.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "455": {
-    "<voice 02583_00000455><start_lip_sync n00212 _normal m00001>「早く帰って　風送りの儀をしなくちゃ！\n　アズランのみんなが　待ってるもの。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02583_00000455><start_lip_sync n00212 _normal m00001>I have to get back home and perform\nthe Wind Send-Off Ceremony!\nEveryone in Azlan is waiting for me!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000675": {
-    "<voice 02668_19000675><start_lip_sync n00212 _normal m00001>「<cs_pchero>さま\n　チカラを貸してくれて　ありがとう。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02668_19000675><start_lip_sync n00212 _normal m00001>Thank you <cs_pchero>.\nFor all your help.<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000676": {
-    "<voice 02669_19000676><start_lip_sync n00212 _normal m00001>「あのね。さっき　戦いの前\n　怪獣さんに　はじき飛ばされて\n　気を失ったときに……<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02669_19000676><start_lip_sync n00212 _normal m00001>You know what...\nEarlier when the monster knocked\nme unconscious I...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000677": {
-    "<voice 02670_19000677><start_lip_sync n00212 _normal m00001>「とても　不思議な声を聞いたんです。\n　私の頭の中だけに　聞こえた\n　とても　不思議な声。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02670_19000677><start_lip_sync n00212 _normal m00001>...I think I heard a strange voice\ninside my head...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000678": {
-    "<voice 02671_19000678><start_lip_sync n00212 _normal m00001>「それを聞いて　風乗りにならなきゃって！\n　何がなんでも　風送りの儀を\n　私が　やりとげなきゃって！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02671_19000678><start_lip_sync n00212 _normal m00001>When I heard it I knew that I had to\ncomplete the ceremony and become\nthe next Wind Rider no matter what!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000679": {
-    "<voice 02672_19000679><start_lip_sync n00212 _normal m00001>「そう思ったら　ケキちゃんを\n　あの怪獣さんに　あげても　いいかなって。\n　ふふふ……。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02672_19000679><start_lip_sync n00212 _normal m00001>After that I felt better about giving\nCakey to that monster... *sniff*...<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19000680": {
-    "<voice 02673_19000680><start_lip_sync n00212 _normal m00001>「<pc>さま\n　早くアズランの町に　戻りましょう！\n　風送りの儀の　準備をしなくちゃ。<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 02673_19000680><start_lip_sync n00212 _normal m00001><pc>!\nLet's return to Azlan so that I can\ncomplete the Wind Riders ceremony!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "19100000": {
-    "フウラが\nパーティから　外れた。": "Fuura left the party."
-  },
-  "457": {
-    "<voice 03008_00000457><start_lip_sync n00212 _normal m00001>「カムシカー！　戻るよーっ！！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03008_00000457><start_lip_sync n00212 _normal m00001>Azlantelopes! I'm baaaaaack!!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "458": {
-    "<voice 03248_00000458><start_lip_sync n00212 _normal m00001>「<cs_pchero>さまも \n　私がやる　風送りの儀　見にきてねっ！<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03248_00000458><start_lip_sync n00212 _normal m00001>Come watch me in the Wind Send-Off\nCeremony, <cs_pchero>!<stop_lip_animation n00212 CLOSE_MOUTH>"
-  },
-  "459": {
-    "<voice 01059_00000459><start_lip_sync n00254 _normal m00001>「ただいまの　風送りの儀により……<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01059_00000459><start_lip_sync n00254 _normal m00001>Because of this ceremony...<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "460": {
-    "<voice 01125_00000460><start_lip_sync n00254 _normal m00001>「これまで　アズランに吹いていた古き風は\n　その役目を終え　かなたへと去りゆきました。<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01125_00000460><start_lip_sync n00254 _normal m00001>The old winds that were blowing\nin Azlan have reached the end of their\nusefulness and moved on.<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "461": {
-    "<voice 01205_00000461><start_lip_sync n00254 _normal m00001>「今　このアズランに吹くのは\n　育みのチカラあふるる　新しき風！<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01205_00000461><start_lip_sync n00254 _normal m00001>And now, a new wind full of\nnurturing power is blowing in Azlan!<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "462": {
-    "<voice 01335_00000462><start_lip_sync n00254 _normal m00001>「このアズランに…………　えっと……<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01335_00000462><start_lip_sync n00254 _normal m00001>Azlan is... Ummm...<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "463": {
-    "<voice 01422_00000463><start_lip_sync n00254 _normal m00001>「えーーーーーと……？<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01422_00000463><start_lip_sync n00254 _normal m00001>Uuuuhhhhhhhhhhh...?<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "464": {
-    "<voice 01442_00000464><start_lip_sync n00254 _normal m00001>「このアズランに……<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01442_00000464><start_lip_sync n00254 _normal m00001>Azlan is...<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "465": {
-    "<voice 01497_00000465><start_lip_sync n00254 _normal m00001>「風乗りフウラが　あるかぎり！<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01497_00000465><start_lip_sync n00254 _normal m00001>For as long as I'm the Wind Rider...<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "466": {
-    "<voice 01607_00000466><start_lip_sync n00254 _normal m00001>「育みの風を　絶え間なく吹かせ\n　町を守り　育ててゆくことを　誓いましょう！<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01607_00000466><start_lip_sync n00254 _normal m00001>...let us pledge to keep the nurturing\nwinds blowing, to protect\nand nurture our town!<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "13597": {
-    "<voice 00155_00013597><start_lip_sync n00254 _normal m00001>「あっ　<pc>さま！<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 00155_00013597><start_lip_sync n00254 _normal m00001>Oh, <pc>!<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "27580": {
-    "<voice 00250_00027580><start_lip_sync n00254 _normal m00001>「見て見て！　ほらっ　風のころも！\n　私の　風送りの儀も　ちゃんと見ててくれた？<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 00250_00027580><start_lip_sync n00254 _normal m00001>Look, look! The wind is blowing again!\nDid you see me at the ceremony?<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "467": {
-    "<voice 00305_00000467><start_lip_sync n00255 _normal m00001>「待っておったぞ　<pc>。\n　さあ　わしの部屋へ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00305_00000467><start_lip_sync n00255 _normal m00001>I've been waiting for you, <pc>.\nPlease come to my room.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "468": {
-    "<voice 00615_00000468><start_lip_sync n00255 _normal m00001>「フウラの口上には　ヒヤヒヤさせられたが\n　なんとか無事に　風送りの儀を\n　終えることができた。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00615_00000468><start_lip_sync n00255 _normal m00001>Though Fuura's speech made me a\nlittle nervous, we managed to complete\nthe Wind Send-Off Ceremony\n<br>\nwithout incident.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "469": {
-    "<voice 00743_00000469><start_lip_sync n00255 _normal m00001>「これも　ひとえに　<pc>のおかげだ。\n　本当にありがとう。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00743_00000469><start_lip_sync n00255 _normal m00001>Thank you again for all your help.\nI am truly indebted to you.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "470": {
-    "<voice 00773_00000470><start_lip_sync n00255 _normal m00001>「まだ　大きな変化は　出ておらぬが\n　このアズランに　よい風が吹き始めた。\n　これからは　よい方向へ　向かってゆくだろう。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00773_00000470><start_lip_sync n00255 _normal m00001>Though we have yet to experience\nany major changes, a hale wind now\nblows in Azlan. Things will only\n<br>\nget better from here on.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "471": {
-    "<voice 00828_00000471><start_lip_sync n00255 _normal m00001>「この町に　希望をもたらしてくれた\n　アズランの英雄　<pc>よ。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00828_00000471><start_lip_sync n00255 _normal m00001>O great hero of Azlan who has\nrestored hope to our town.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "472": {
-    "<voice 00878_00000472><start_lip_sync n00255 _normal m00001>「そなたに　緑のキーエンブレムを贈ろう。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00878_00000472><start_lip_sync n00255 _normal m00001>I hereby confer upon you\nthe Green Key Emblem.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "473": {
-    "<pc>は\n緑のキーエンブレム（だいじなもの）を\n手に入れた！<me 61>": "<pc> received the\nGreen Key Emblem (Key Item)!<me 61>"
-  },
-  "19000681": {
-    "<voice 00974_19000681><start_lip_sync n00255 _normal m00001>「それと……そなたは　ヒメア様から\n　世界をめぐり　修練を積むよう\n　言われて　おるのだったな。　<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00974_19000681><start_lip_sync n00255 _normal m00001>It seems that Lady Himea urged\nyou to travel the world and hone\nyour skills... If that is so then...<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "19000682": {
-    "<voice 00975_19000682><start_lip_sync n00255 _normal m00001>「ならば　これも\n　持っていくがいい。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00975_19000682><start_lip_sync n00255 _normal m00001>Please accept this as well.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "19000683": {
-    "<pc>は\n大陸間鉄道パス（だいじなもの）を\n受け取った！<me 61>": "<pc> received the\nIntercontinental Rail Pass (Key Item)!<me 61>"
-  },
-  "19000684": {
-    "<voice 00977_19000684><start_lip_sync n00255 _normal m00001>「それは　５つの大陸を　自由に\n　行き来する列車に　乗るためのパスだ。\n　とても高価なものだが　持っていくがよい。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00977_19000684><start_lip_sync n00255 _normal m00001>This pass will allow you to ride the\ntrain from continent to continent.\nIt's a very valuable item indeed.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "19000685": {
-    "<voice 00978_19000685><start_lip_sync n00255 _normal m00001>「鉄道駅は　宿屋の近くにある。\n　便利に使うが　よかろう。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 00978_19000685><start_lip_sync n00255 _normal m00001>The Azlan train station is located near\nthe Inn. Feel free to use it as needed.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "474": {
-    "<voice 01093_00000474><start_lip_sync n00255 _normal m00001>「しかし　風のころもが　風乗りの手に渡らぬよう\n　スイの塔に　魔物を配した者がいたのか……。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 01093_00000474><start_lip_sync n00255 _normal m00001>But who put a monster in Sui Tower\nto prevent the Wind Rider from\nchanging the winds in the first place...?<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "475": {
-    "<voice 01138_00000475><start_lip_sync n00255 _normal m00001>「このような　辺境にまで\n　悪しき魔の手が　およんでいようとは\n　世の中　どうなっておるのだ……。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 01138_00000475><start_lip_sync n00255 _normal m00001>What is the world coming to,\nthat the hand of evil should\nextend even to such a secluded place...?<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "19000686": {
-    "<voice 01139_19000686><start_lip_sync n00254 _normal m00001>「お父さま　それを企んだのは\n　ネルゲルっていう奴だって\n　スイの塔の　怪獣さんが　言ってた。<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01139_19000686><start_lip_sync n00254 _normal m00001>The monster who guarded the\nWind Robe said it was part of\nNergel's plan.<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "19000688": {
-    "<voice 01141_19000688><start_lip_sync n00254 _normal m00001>「…………それで　お父さま\n　とても大事な　お願いがあるの！<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01141_19000688><start_lip_sync n00254 _normal m00001>...So, father, I have an important\nfavor to ask of you!<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "19000689": {
-    "<voice 01142_19000689><start_lip_sync n00255 _normal m00001>「なんだい　フウラ　改まって……<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 01142_19000689><start_lip_sync n00255 _normal m00001>Yes, Fuura...? I am here for you...<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "19001550": {
-    "<voice 01188_00000479><start_lip_sync n00255 _normal m00001>「この先　困ったことがあったときには\n　いつでも　チカラになろう。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 01188_00000479><start_lip_sync n00255 _normal m00001>As I have been and will always be.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "480": {
-    "<voice 01332_00000480><start_lip_sync n00254 _normal m00001>「<pc>さま　本当に　ありがとう。\n　おかげで　私も　すこしだけ\n　自分に　自信が持てるようになったよ。<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01332_00000480><start_lip_sync n00254 _normal m00001>Thanks so much, <pc>.\nYou've made me feel a little more\nconfident in myself.<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "19001544": {
-    "<voice 01382_00000481><start_lip_sync n00254 _normal m00001>「私　風乗りとして　がんばる。\n　大好きな　お母さまの仕事を継いでみせる。\n　助けてくれる人たちだって　たくさんいるもの。<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01382_00000481><start_lip_sync n00254 _normal m00001>I will do my best as a Wind Rider.\nI'll continue where my mother left off\nand I will help many who are in need...<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "19000690": {
-    "<voice 01412_19000690><start_lip_sync n00254 _normal m00001>「私　<pc>さまに　ついて行きたい。\n　<pc>さまの戦いを\n　お手伝いしたいの！<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01412_19000690><start_lip_sync n00254 _normal m00001><pc> I want to follow you.\nI can help you in your struggle\nagainst the darkness!<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "19000691": {
-    "<voice 01413_19000691><start_lip_sync n00254 _normal m00001>「声を聞いたの　戦いの時に。\n　<pc>さまに　ついて行きなさい\n　っていう声を。<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01413_19000691><start_lip_sync n00254 _normal m00001>I heard a voice, during the battle at\nthe top of the tower.\nA voice that told me to join you.<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "19000692": {
-    "<voice 01414_19000692><start_lip_sync n00255 _normal m00001>「フウラ……。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 01414_19000692><start_lip_sync n00255 _normal m00001>Fuura...<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "19000693": {
-    "<voice 01492_19000693><start_lip_sync n00254 _normal m00001>「……今までも　留守にしてたのに\n　ごめんなさい。\n　でも　守りたいの。この町も　世界も！<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01492_19000693><start_lip_sync n00254 _normal m00001>I'm sorry that I've been away for\nso long... But I want to help. I want to\nprotect my home and my people!<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "19000694": {
-    "<voice 01493_19000694><start_lip_sync n00255 _normal m00001>「……いいとも。\n　お前が　初めて　みずから望んだ事だ。\n　チカラの限り　やってみなさい。<stop_lip_animation n00255 CLOSE_MOUTH>": "<voice 01493_19000694><start_lip_sync n00255 _normal m00001>...Yes, of course.\nThis is a very difficult task,\nyou must give it your all.<stop_lip_animation n00255 CLOSE_MOUTH>"
-  },
-  "19000695": {
-    "<voice 01494_19000695><start_lip_sync n00254 _normal m00001>「お父さま！！<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01494_19000695><start_lip_sync n00254 _normal m00001>Father!<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
-  "19000696": {
-    "フウラが　仲間になった！<me 2401>": "Fuura has joined the party! <me 2401>"
-  },
-  "19000697": {
-    "<voice 01496_19000697><start_lip_sync n00254 _normal m00001>「<cs_pchero>さま　よろしくね。\n　私　一生懸命がんばるから。　<stop_lip_animation n00254 CLOSE_MOUTH>": "<voice 01496_19000697><start_lip_sync n00254 _normal m00001><cs_pchero>, I'll try my best!<stop_lip_animation n00254 CLOSE_MOUTH>"
-  },
   "130567": {
-    "<voice 00051_00130567><start_lip_sync n00262 _normal m00001>「ワシは　剣士グンザ。 \n　チカラを認められた者の証　キーエンブレムを\n　集めるため　各地を旅しておる。<stop_lip_animation n00262 CLOSE_MOUTH>": "<voice 00051_00130567><start_lip_sync n00262 _normal m00001>I am Gunza the Swordsman.\nI travel the world to collect Key\nEmblems to prove my strength.<stop_lip_animation n00262 CLOSE_MOUTH>"
+    "<voice 00051_00130567><start_lip_sync n00262 _normal m00001>「ワシは　剣士グンザ。 \n　チカラを認められた者の証　キーエンブレムを\n　集めるため　各地を旅しておる。<stop_lip_animation n00262 CLOSE_MOUTH>": 
+    "<voice 00051_00130567><start_lip_sync n00262 _normal m00001>I am Gunza the Swordsman. I travel the world to collect\nKey Emblems to prove my strength.<stop_lip_animation n00262 CLOSE_MOUTH>"
   },
   "130568": {
-    "<voice 00190_00130568><start_lip_sync n00262 _normal m00001>「しかし　この町の連中は　変わり者ばかりだな。\n　風が　よどんでいると　なげきおるが\n　ワシには　フツーの風にしか思えんわ。<stop_lip_animation n00262 CLOSE_MOUTH>": "<voice 00190_00130568><start_lip_sync n00262 _normal m00001>However, the people of this town are\nall kind of eccentric, aren't they?\n<br>\nThey complain that the wind has\nstagnated, but it seems perfectly\nfine to me.<stop_lip_animation n00262 CLOSE_MOUTH>"
+    "<voice 00190_00130568><start_lip_sync n00262 _normal m00001>「しかし　この町の連中は　変わり者ばかりだな。\n　風が　よどんでいると　なげきおるが\n　ワシには　フツーの風にしか思えんわ。<stop_lip_animation n00262 CLOSE_MOUTH>": 
+    "<voice 00190_00130568><start_lip_sync n00262 _normal m00001>However, the people of this town are all kind of\neccentric, aren't they? They complain that the wind\nhas stagnated, but it seems perfectly fine to me.<stop_lip_animation n00262 CLOSE_MOUTH>"
   },
   "130569": {
-    "<voice 00289_00130569><start_lip_sync n00262 _normal m00001>「だが　そんな今こそ　絶好のチャンスじゃ！\n　ここで　領主タケトラ様の　お役に立てば\n　キーエンブレムを　もらえるかもしれんしな！<stop_lip_animation n00262 CLOSE_MOUTH>": "<voice 00289_00130569><start_lip_sync n00262 _normal m00001>But now is the perfect time!\nIf I can be of aid to Lord Taketora here,\nhe may even give me a Key Emblem!<stop_lip_animation n00262 CLOSE_MOUTH>"
+    "<voice 00289_00130569><start_lip_sync n00262 _normal m00001>「だが　そんな今こそ　絶好のチャンスじゃ！\n　ここで　領主タケトラ様の　お役に立てば\n　キーエンブレムを　もらえるかもしれんしな！<stop_lip_animation n00262 CLOSE_MOUTH>": 
+    "<voice 00289_00130569><start_lip_sync n00262 _normal m00001>But now is the perfect time! If I can be of aid to\nLord Taketora here, he may even give me a Key Emblem!<stop_lip_animation n00262 CLOSE_MOUTH>"
   },
   "130570": {
-    "<voice 00590_00130570><start_lip_sync n00262 _normal m00001>「タケトラ様の家なら　町の一番奥にある\n　ひときわ　大きな　お屋敷じゃよ。<stop_lip_animation n00262 CLOSE_MOUTH>": "<voice 00590_00130570><start_lip_sync n00262 _normal m00001>Lord Taketora's house is the enormous\nmansion at the far end of town.<stop_lip_animation n00262 CLOSE_MOUTH>"
+    "<voice 00590_00130570><start_lip_sync n00262 _normal m00001>「タケトラ様の家なら　町の一番奥にある\n　ひときわ　大きな　お屋敷じゃよ。<stop_lip_animation n00262 CLOSE_MOUTH>": 
+    "<voice 00590_00130570><start_lip_sync n00262 _normal m00001>Lord Taketora's house is the enormous mansion at the\nfar end of town.<stop_lip_animation n00262 CLOSE_MOUTH>"
   },
   "130571": {
-    "<voice 01037_00130571><start_lip_sync n00262 _normal m00001>「まずは　お屋敷の南側にある\n　赤い鳥居を　目指すとよい。<stop_lip_animation n00262 CLOSE_MOUTH>": "<voice 01037_00130571><start_lip_sync n00262 _normal m00001>First, you should aim for the big red\ngate on the south side of the mansion.<stop_lip_animation n00262 CLOSE_MOUTH>"
+    "<voice 01037_00130571><start_lip_sync n00262 _normal m00001>「まずは　お屋敷の南側にある\n　赤い鳥居を　目指すとよい。<stop_lip_animation n00262 CLOSE_MOUTH>": 
+    "<voice 01037_00130571><start_lip_sync n00262 _normal m00001>First, you should aim for the big red gate on the south\nside of the mansion.<stop_lip_animation n00262 CLOSE_MOUTH>"
   },
   "130572": {
-    "<voice 01077_00130572><start_lip_sync n00262 _normal m00001>「あとは　その先の階段をのぼって道沿いだ。\n　おぬしもキーエンブレムが　ほしいのなら\n　お屋敷で　話を聞いてみるのが　よいじゃろう。<stop_lip_animation n00262 CLOSE_MOUTH>": "<voice 01077_00130572><start_lip_sync n00262 _normal m00001>Then just head up the stairs and keep\ngoing. If you're interested in the\nKey Emblem as well, you can ask\n<br>\nabout it there.<stop_lip_animation n00262 CLOSE_MOUTH>"
+    "<voice 01077_00130572><start_lip_sync n00262 _normal m00001>「あとは　その先の階段をのぼって道沿いだ。\n　おぬしもキーエンブレムが　ほしいのなら\n　お屋敷で　話を聞いてみるのが　よいじゃろう。<stop_lip_animation n00262 CLOSE_MOUTH>": 
+    "<voice 01077_00130572><start_lip_sync n00262 _normal m00001>Then just head up the stairs and keep going. If you're\ninterested in the Key Emblem as well, you can ask about\nit there.<stop_lip_animation n00262 CLOSE_MOUTH>"
+  },
+  "301": {
+    "<voice 00030_00000301><start_lip_sync n00255 _normal m00001>「帰ってきたか。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00030_00000301><start_lip_sync n00255 _normal m00001>You've returned?<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "302": {
+    "<voice 00174_00000302><start_lip_sync n00255 _normal m00001>「おお　フウラ！\n　よくぞ　帰ってきてくれた！<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00174_00000302><start_lip_sync n00255 _normal m00001>Oh, Fuura! Welcome home!<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "303": {
+    "<voice 00309_00000303><start_lip_sync n00212 _normal m00001>「……………………。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00309_00000303><start_lip_sync n00212 _normal m00001>................<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "304": {
+    "<voice 00405_00000304><start_lip_sync n00255 _normal m00001>「初志を貫きたかった　お前の気持ちはわかる。\n　だが　フウラよ。もっと柔軟に考えてはどうだ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00405_00000304><start_lip_sync n00255 _normal m00001>I know that you're still intent about this, but\nplease, Fuura, try to be a little more open-minded.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "41429": {
+    "<voice 00405_00041429><start_lip_sync n00255 _normal m00001>「若葉の試みに　合格できなかったからといって\n　そう　気に病むな！　むしろ　あきらめがついて\n　よかったではないか。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00405_00041429><start_lip_sync n00255 _normal m00001>Don't be so downhearted that you didn't pass the Trial\nof Young Leaves! In fact, it's a good thing that you\ngave up.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "306": {
+    "<voice 00533_00000306><start_lip_sync n00255 _normal m00001>「やはり　お前は　カザユラの後を継ぎ\n　風乗りになるべきなのだ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00533_00000306><start_lip_sync n00255 _normal m00001>It's your sovereign duty to follow in Kazayura's\nfootsteps and become a Wind Rider.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "307": {
+    "<voice 00642_00000307><start_lip_sync n00212 _normal m00001>「イヤだよ　風乗りなんて……。\n　カムシカに乗るなんて　絶対にイヤ！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00642_00000307><start_lip_sync n00212 _normal m00001>I don't want to be a Wind Rider... and I definitely\nwon't ride an Azlantelope!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "308": {
+    "<voice 00747_00000308><start_lip_sync n00255 _normal m00001>「フウラよ。あれは　事故だ……。\n　カムシカたちが　悪いわけではない。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00747_00000308><start_lip_sync n00255 _normal m00001>It was an accident, Fuura... It wasn't the Azlantelope's\nfault.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "309": {
+    "<voice 00876_00000309><start_lip_sync n00212 _normal m00001>「……………………。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00876_00000309><start_lip_sync n00212 _normal m00001>..............<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "310": {
+    "<voice 00957_00000310><start_lip_sync n00255 _normal m00001>「それに　どうやら　ヨキじいの具合が\n　相当　悪いらしい……。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00957_00000310><start_lip_sync n00255 _normal m00001>Moreover, I've heard that Yokiji's not feeling very\nwell lately...<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "311": {
+    "<voice 01075_00000311><start_lip_sync n00212 _normal m00001>「じいやが！？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01075_00000311><start_lip_sync n00212 _normal m00001>Grandpa!?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "312": {
+    "<voice 01148_00000312><start_lip_sync n00255 _normal m00001>「フウラ。この町は　もう６年も　風送りの儀を\n　おこなっておらん。町の風は　よどみ\n　身体の不調を　うったえる者も　増えている。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 01148_00000312><start_lip_sync n00255 _normal m00001>Fuura. We haven't held the Wind Send-Off Ceremony in\nthis town for six years now.\n<auto_br=3500>\nThe winds have stagnated, and the number of complaints\nby ailing townsfolk has been on the rise.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "313": {
+    "<voice 01190_00000313><start_lip_sync n00255 _normal m00001>「わしは領主として　新たな風乗りを決め\n　風送りの儀を　とりおこなわねばならん。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 01190_00000313><start_lip_sync n00255 _normal m00001>As lord of Azlan, it is my obligation to select the new\nWind Rider to perform the Wind Send-Off Ceremony.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "314": {
+    "<voice 01288_00000314><start_lip_sync n00212 _normal m00001>「でも………。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01288_00000314><start_lip_sync n00212 _normal m00001>But...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "315": {
+    "<voice 01347_00000315><start_lip_sync n00255 _normal m00001>「見よ　フウラ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 01347_00000315><start_lip_sync n00255 _normal m00001>Behold, Fuura.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "316": {
+    "<voice 01387_00000316><start_lip_sync n00212 _normal m00001>「……！？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01387_00000316><start_lip_sync n00212 _normal m00001>......!?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "317": {
+    "<voice 01555_00000317><start_lip_sync n00255 _normal m00001>「お前は　カザユラと同じ\n　カムシカに　愛されし者なのだ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 01555_00000317><start_lip_sync n00255 _normal m00001>The same Azlantelopes which were fond of Kazayura have\ntaken a liking to you as well.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "318": {
+    "<voice 01645_00000318><start_lip_sync n00212 _normal m00001>「知らない……。カムシカなんてキライ。\n　それに　私……　すごい子じゃないもん。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01645_00000318><start_lip_sync n00212 _normal m00001>I don't know... I don't like Azlantelopes. Besides,\nI'm not...anything special.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "319": {
+    "<voice 01724_00000319><start_lip_sync n00255 _normal m00001>「お前ほどの素質を持つ者は　他におらぬ。\n　生まれもったチカラを　なぜ人のために\n　役立てようと　考えることができない？<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 01724_00000319><start_lip_sync n00255 _normal m00001>There is no one else who shares your gift. Why won't\nyou consider using it for the benefit of others?<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "320": {
+    "<voice 01834_00000320><start_lip_sync n00255 _normal m00001>「フウラよ。まずは　頭を冷やしてきなさい。\n　そして　落ち着いて　よく考えるのだ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 01834_00000320><start_lip_sync n00255 _normal m00001>Go and cool your head, Fuura. Calm your heart and think\nthings through.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "321": {
+    "<voice 02233_00000321><start_lip_sync n00255 _normal m00001>「今　そなたが見たとおり\n　このアズランは　面倒な問題を抱えている。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 02233_00000321><start_lip_sync n00255 _normal m00001>As you just witnessed, Azlan's experiencing somewhat of\na problem of late.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "322": {
+    "<voice 02342_00000322><start_lip_sync n00255 _normal m00001>「フウラが　風乗りになると決心しないことには\n　風送りの儀は　できぬ。\n　だが　わしも鬼ではない……。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 02342_00000322><start_lip_sync n00255 _normal m00001>The Wind Send-Off ceremony can't take place unless\nFuura agrees to become the Wind Rider. But it's not\nlike I'm heartless...<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "323": {
+    "<voice 02462_00000323><start_lip_sync n00255 _normal m00001>「ああは言ったが　娘が\n　かたくなに　風乗りの継承を拒むなら\n　他の方法を探すつもりだ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 02462_00000323><start_lip_sync n00255 _normal m00001>I know what I said, but if my daughter continues to\nstubbornly refuse to carry on our tradition, I'll have\nto find another way.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "24802": {
+    "<voice 02586_00024802><start_lip_sync n00255 _normal m00001>「そなたは　旅の者か？\n　ふむ………。よい目をしているな。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 02586_00024802><start_lip_sync n00255 _normal m00001>Are you a traveler? Hmm... I like the look in your\neyes.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "9224": {
+    "<voice 02586_00009224><start_lip_sync n00255 _normal m00001>「そなたは　学びの庭から来たのではないか？\n　ならば　フウラとも　顔なじみであろう。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 02586_00009224><start_lip_sync n00255 _normal m00001>Have you come from the Garden of Learning? Then you\nmust already be familiar with Fuura.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "324": {
+    "<voice 02664_00000324><start_lip_sync n00255 _normal m00001>「すまぬが　ひとつ　頼みを聞いてほしい。\n　フウラに会い　胸のうちを\n　聞いてきてほしいのだ……。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 02664_00000324><start_lip_sync n00255 _normal m00001>Forgive me, but I must request your aid. Please see\nFuura and ask her what's on her mind...<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "9225": {
+    "<voice 02678_00009225><start_lip_sync n00255 _normal m00001>「恥ずかしい話だが　娘は　私に\n　心を開いてはくれない。だが　そなたになら……\n　そなたの目は　そんな気にさせてくれるのだ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 02678_00009225><start_lip_sync n00255 _normal m00001>I am ashamed to say that my daughter does not open up\nto me. But if you... You have the eyes of someone who\ncould bridge that gap.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "28555": {
+    "<voice 02678_00028555><start_lip_sync n00255 _normal m00001>「恥ずかしい話だが　娘は　私に\n　心を開いてはくれない。だが　そなたになら\n　本音を　打ち明けるかもしれん。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 02678_00028555><start_lip_sync n00255 _normal m00001>I'm ashamed to confess that my daughter has never\nopened up to me. But perhaps she will to you.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "28557": {
+    "<voice 02690_00028557><start_lip_sync n00255 _normal m00001>「フウラの部屋は　この部屋の向かいだ。\n　すまぬが　どうか　頼んだぞ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 02690_00028557><start_lip_sync n00255 _normal m00001>Fuura's room is just across the hall. Thank you, and\nsorry for the inconvenience.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "24614": {
+    "<voice 00030_00024614><start_lip_sync n00256 _normal m00001>「おや。フウラおじょうさんに　ご用かい？<stop_lip_animation n00256 CLOSE_MOUTH>": 
+    "<voice 00030_00024614><start_lip_sync n00256 _normal m00001>Oh, do you have business with Lady Fuura?<stop_lip_animation n00256 CLOSE_MOUTH>"
+  },
+  "24619": {
+    "<voice 00180_00024619><start_lip_sync n00256 _normal m00001>「残念だけど　おじょうさんなら\n　たった今　墓参りに　出かけちまったよ。<stop_lip_animation n00256 CLOSE_MOUTH>": 
+    "<voice 00180_00024619><start_lip_sync n00256 _normal m00001>Sorry, but if it's the young lady you're after, she\njust left to visit the cemetery.<stop_lip_animation n00256 CLOSE_MOUTH>"
+  },
+  "326": {
+    "<voice 00210_00000326><start_lip_sync n00256 _normal m00001>「町を出て　北に行った所にある　風泣き岬には\n　フウラおじょうさんの　お母さん……\n　カザユラ奥様の　お墓があるんだけどね。<stop_lip_animation n00256 CLOSE_MOUTH>": 
+    "<voice 00210_00000326><start_lip_sync n00256 _normal m00001>If you leave north of town you'll find Windweep Cape\nwhere young lady Fuura's mother... Mistress Kazayura's\ngrave is.<stop_lip_animation n00256 CLOSE_MOUTH>"
+  },
+  "327": {
+    "<voice 00260_00000327><start_lip_sync n00256 _normal m00001>「おじょうさんは　なにか　つらいことがあると\n　いつも　あの墓に行くんだ。<stop_lip_animation n00256 CLOSE_MOUTH>": 
+    "<voice 00260_00000327><start_lip_sync n00256 _normal m00001>Whenever she's distressed, she always goes to that grave.<stop_lip_animation n00256 CLOSE_MOUTH>"
+  },
+  "24615": {
+    "<voice 00319_00024615><start_lip_sync n00256 _normal m00001>「……なあ　あんた。\n　フウラおじょうさんに　ご用があるのなら\n　風泣き岬まで　行ってみたらどうだい？<stop_lip_animation n00256 CLOSE_MOUTH>": 
+    "<voice 00319_00024615><start_lip_sync n00256 _normal m00001>...Hey, you there. If you have some business with Fuura,\nwhy don't you go to Windweep Cape?<stop_lip_animation n00256 CLOSE_MOUTH>"
+  },
+  "328": {
+    "<voice 00010_00000328><start_lip_sync n00212 _normal m00001>「きゃーっ！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00010_00000328><start_lip_sync n00212 _normal m00001>Kyaaah!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "329": {
+    "<voice 00060_00000329><start_lip_sync n00212 _normal m00001>「<pc>さまっ！？\n　た　助けて……！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00060_00000329><start_lip_sync n00212 _normal m00001><pc>!? H-help me...!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "330": {
+    "<voice 00198_00000330><start_lip_sync n00212 _normal m00001>「た　助けて……！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00198_00000330><start_lip_sync n00212 _normal m00001>H-help me...!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "331": {
+    "<voice 01010_00000331><start_lip_sync n00212 _normal m00001>「な……　なんなの……？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01010_00000331><start_lip_sync n00212 _normal m00001>Wh... Why did you...?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "332": {
+    "<voice 01130_00000332><start_lip_sync n00212 _normal m00001>「あんたたちになんか　助けてほしくない！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01130_00000332><start_lip_sync n00212 _normal m00001>I didn't need your help!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000631": {
+    "<voice 01230_19000631><start_lip_sync n00212 _normal m00001>「大っきら……あっ！！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01230_19000631><start_lip_sync n00212 _normal m00001>I hate you... Ah!!! Ah!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000632": {
+    "<voice 01351_19000632><start_lip_sync n00212 _normal m00001>「ケキちゃんが……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01351_19000632><start_lip_sync n00212 _normal m00001>Cakey's...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000636": {
+    "<voice 01356_19000636><start_lip_sync n00212 _normal m00001>「ケキちゃん……ケキちゃん……\n　ケキちゃん…………。\n　…………え？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01356_19000636><start_lip_sync n00212 _normal m00001>Cakey... Cakey... Cakey... Huh?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000637": {
+    "<voice 01357_19000637><start_lip_sync n00212 _normal m00001>「……ケキちゃん……私の…………。\n　……私のケキちゃん……？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01357_19000637><start_lip_sync n00212 _normal m00001>Cakey... My.. My Cakey...?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000638": {
+    "<voice 01358_19000638><start_lip_sync n00212 _normal m00001>「……あ…ありがと……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01358_19000638><start_lip_sync n00212 _normal m00001>T... Thank you...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000639": {
+    "<voice 01934_19000639><start_lip_sync n00212 _normal m00001>「……よ　よけいなこと　しないでよねっ！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01934_19000639><start_lip_sync n00212 _normal m00001>...T-that was uncalled for!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "336": {
+    "<voice 02014_00000336><start_lip_sync n00212 _normal m00001>「ケキちゃんを　取りにいって\n　死なれたりなんかしたら……\n　メーワクなんだから！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02014_00000336><start_lip_sync n00212 _normal m00001>If you went after Cakey and died or something... It'd\nbe a big inconvenience for me!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "337": {
+    "<voice 02109_00000337><start_lip_sync n00212 _normal m00001>「もう　行ってよ！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02109_00000337><start_lip_sync n00212 _normal m00001>Just go already!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "338": {
+    "<voice 02328_00000338><start_lip_sync n00212 _normal m00001>「こんな所で　<pc>さまに\n　会うなんて思わなかった……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02328_00000338><start_lip_sync n00212 _normal m00001>Never thought I'd see you here,\n<pc>.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "339": {
+    "<voice 02388_00000339><start_lip_sync n00212 _normal m00001>「あ……学びの庭　卒業おめでとうございます。\n　言えなかったこと　気になってたの。\n　私　あわてて　出てきちゃったから……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02388_00000339><start_lip_sync n00212 _normal m00001>Oh, congratulations on your graduation from the Garden\nof Learning. I felt bad because I forgot to tell you.\nI was in a rush...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "340": {
+    "<voice 02458_00000340><start_lip_sync n00212 _normal m00001>「あ　あの……　あなたは？\n　そういえば　お父さまの部屋でも　会ったけど。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02458_00000340><start_lip_sync n00212 _normal m00001>U-umm... You are? Come to think of it, I met you\nearlier in my father's room.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "341": {
+    "<voice 02518_00000341><start_lip_sync n00212 _normal m00001>「そう……　<pc>さまっていうのね。\n　私は　アズラン領主の娘　フウラです。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02518_00000341><start_lip_sync n00212 _normal m00001>So, your name is <pc>. I'm Fuura, daughter of\nthe lord of Azlan.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "342": {
+    "<voice 02608_00000342><start_lip_sync n00212 _normal m00001>「その……　今の……。 <stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02608_00000342><start_lip_sync n00212 _normal m00001>Just now...that was...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "343": {
+    "<voice 02668_00000343><start_lip_sync n00212 _normal m00001>「私を　助けてくれたカムシカに\n　あんな態度を取るなんて……\n　私のこと　ひどいヤツだって思ったでしょ？<yesno><close><stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02668_00000343><start_lip_sync n00212 _normal m00001>I shouldn't act like that towards the Azlantelope who\njust saved me... You must think I'm a heartless person,\ndon't you?<yesno><close><stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "344": {
+    "<voice 02728_00000344><start_lip_sync n00212 _normal m00001>「ふふっ……　正直だね。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02728_00000344><start_lip_sync n00212 _normal m00001>Heheh... You sure are honest.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "345": {
+    "<voice 02728_00000345><start_lip_sync n00212 _normal m00001>「そう……？\n　ありがとう。優しいんだね。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02728_00000345><start_lip_sync n00212 _normal m00001>Really...? Thanks. That's really kind of you.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "28558": {
+    "<voice 02781_00028558><start_lip_sync n00212 _normal m00001>「……お母さまは　アズランの歴史の中でも\n　特に　すごい風乗りだったの。\n　だから　町の誰もが　お母さまを慕ってた。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02781_00028558><start_lip_sync n00212 _normal m00001>...My mother was one of the greatest Wind Riders in\nAzlan's history. That's why everyone adored her.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "28559": {
+    "<voice 02836_00028559><start_lip_sync n00212 _normal m00001>「カムシカに乗った　お母さまが \n　舞うように駆ける姿は　今でも　目に浮かぶの。\n　ずっと　その背中を見てた……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02836_00028559><start_lip_sync n00212 _normal m00001>I can still envision her riding the Azlantelopes as\nthough she were dancing, while I looked on from afar...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "28560": {
+    "<voice 02948_00028560><start_lip_sync n00212 _normal m00001>「私だって　ほんとは　お父さまの言う通り \n　お母さまの後を継いで　風乗りになれたら\n　どんなにいいかって思う……。でもね…………<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02948_00028560><start_lip_sync n00212 _normal m00001>I really do wish that I could follow in my mother's\nfootsteps and become a Wind Rider, just like my father\nsaid... But, well...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "346": {
+    "<voice 03059_00000346><start_lip_sync n00212 _normal m00001>「お母さま……\n　ここから落ちて　死んじゃったんだ。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 03059_00000346><start_lip_sync n00212 _normal m00001>My mother... Fell from here and died.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "347": {
+    "<voice 03337_00000347><start_lip_sync n00212 _normal m00001>「崖から落ちて　あそこに引っかかってた\n　カムシカの子を　助けようとして……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 03337_00000347><start_lip_sync n00212 _normal m00001>While she was trying to save a young Azlantelope that\nhad fallen from the cliff and gotten stuck...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "348": {
+    "<voice 03535_00000348><start_lip_sync n00212 _normal m00001>「カムシカなんて　いなければ\n　私　今も　お母さまと　いられたのにな……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 03535_00000348><start_lip_sync n00212 _normal m00001>Had the Azlantelope not been there, my mother would\nstill be with me...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "349": {
+    "<voice 03924_00000349><start_lip_sync n00212 _normal m00001>「これ……　お母さまが　好きだった花？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 03924_00000349><start_lip_sync n00212 _normal m00001>This is... My mother's favorite flower?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "351": {
+    "<voice 04159_00000351><start_lip_sync n00212 _normal m00001>「そっか……　カムシカが　供えてるんだ。\n　お母さまのために　６年経った　今も……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04159_00000351><start_lip_sync n00212 _normal m00001>So the Azlantelopes left this as an offering. Even\nafter six years, they still...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "352": {
+    "<voice 04292_00000352><start_lip_sync n00212 _normal m00001>「私……　お母さまが\n　この花を好きだったことも　忘れてた……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04292_00000352><start_lip_sync n00212 _normal m00001>I... Had forgotten that my mother liked these flowers...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "354": {
+    "<voice 04422_00000354><start_lip_sync n00212 _normal m00001>「……………………。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04422_00000354><start_lip_sync n00212 _normal m00001>................<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "355": {
+    "<voice 04532_00000355><start_lip_sync n00212 _normal m00001>「……決めた。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04532_00000355><start_lip_sync n00212 _normal m00001>...I've decided.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "356": {
+    "<voice 04604_00000356><start_lip_sync n00212 _normal m00001>「カムシカのこと　好きには　なれないけど……\n　風乗りは　やっても　いいかなあ。 \n　アズランの……　みんなのためだもんね！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04604_00000356><start_lip_sync n00212 _normal m00001>I don't know if I'll ever truly like Azlantelopes,\nbut... I wouldn't mind at least performing the Wind\nRiding. For the sake of the people of Azlan!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "357": {
+    "<voice 04934_00000357><start_lip_sync n00212 _normal m00001>「<pc>さまに\n　話を聞いてもらえて　よかった！\n　なんだか　スッキリしたよ。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04934_00000357><start_lip_sync n00212 _normal m00001><pc>, thanks for listening! It was kind\nof refreshing.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "358": {
+    "<voice 05004_00000358><start_lip_sync n00212 _normal m00001>「私　風乗りになるって\n　お父さまに　言ってくる！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 05004_00000358><start_lip_sync n00212 _normal m00001>I'm going to go tell my father that I've decided to be\nthe Wind Rider!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "359": {
+    "<voice 05064_00000359><start_lip_sync n00212 _normal m00001>「またね　<pc>さま！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 05064_00000359><start_lip_sync n00212 _normal m00001>See you later, <pc>!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "360": {
+    "<voice 00025_00000360><start_lip_sync n00255 _normal m00001>「おお　<pc>！　そなたを待っていたぞ。\n　風泣き岬に行っていた　フウラを\n　呼び戻してくれたようだな。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00025_00000360><start_lip_sync n00255 _normal m00001>Oh, <pc>! I've been awaiting you. It seems\nthat you managed to recall Fuura from Windweep Cape.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "361": {
+    "<voice 00070_00000361><start_lip_sync n00255 _normal m00001>「わしは　もう　風乗りに　ならなくてよいと……\n　そう言うつもりで　あの子の帰りを待っていた。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00070_00000361><start_lip_sync n00255 _normal m00001>I was awaiting her return with the intention of\ninforming her that I no longer had need for her to\nbecome a Wind Rider.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "362": {
+    "<voice 00095_00000362><start_lip_sync n00255 _normal m00001>「だが　先ほど　フウラが帰ってきて\n　風乗りになりたいと　言ってくれたのだ！<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00095_00000362><start_lip_sync n00255 _normal m00001>But just a few minutes ago, Fuura came back and told\nme that she wished to be a Wind Rider after all!<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "363": {
+    "<voice 00125_00000363><start_lip_sync n00255 _normal m00001>「どういう心境の変化があったか　知らないが\n　じつに　よろこばしい。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00125_00000363><start_lip_sync n00255 _normal m00001>I don't know what spurred this sudden change of heart,\nbut I couldn't be more delighted.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "364": {
+    "<voice 00197_00000364><start_lip_sync n00255 _normal m00001>「ときに　そなた。一人前の証を持っておるな。\n　もしや　キーエンブレムを集めるために\n　旅しているのではないか？<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00197_00000364><start_lip_sync n00255 _normal m00001>Now then. I see that you have a Mark of Adulthood.\nAre you perhaps traveling to collect the Key Emblems?<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "365": {
+    "<voice 00321_00000365><start_lip_sync n00255 _normal m00001>「ならば　そなたを見込んで\n　わしから　頼みたいことがある！<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00321_00000365><start_lip_sync n00255 _normal m00001>In that case, I must ask to place my trust in you again!<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "366": {
+    "<voice 00351_00000366><start_lip_sync n00255 _normal m00001>「フウラが風乗りになり　風送りの儀を行うには\n　風のたづな　風のころもという　ふたつの神具を\n　フウラ自身が　取りにいかねばならぬのだ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00351_00000366><start_lip_sync n00255 _normal m00001>For Fuura to become a Wind Rider and perform the\nceremony, she must retrieve the two sacred items, the\nWind Reins and the Wind Robe.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "367": {
+    "<voice 00401_00000367><start_lip_sync n00255 _normal m00001>「そこでだな……。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00401_00000367><start_lip_sync n00255 _normal m00001>That said...<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "368": {
+    "<voice 00451_00000368><start_lip_sync n00255 _normal m00001>「そなたには　あの子が \n　無事に　神具を持ってかえれるよう\n　手助けしてやってほしいのだ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00451_00000368><start_lip_sync n00255 _normal m00001>I would like you to please aid her in obtaining the\nitems and returning safely.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "9226": {
+    "<voice 00471_00009226><start_lip_sync n00255 _normal m00001>「そなたの　はたらきで　無事に\n　風送りの儀を　終えることができたら\n　緑のキーエンブレムを授けよう。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00471_00009226><start_lip_sync n00255 _normal m00001>If you successfully see the Wind Send-Off Ceremony to\ncompletion, I shall bestow you the Green Key Emblem.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "9227": {
+    "<voice 00486_00009227><start_lip_sync n00255 _normal m00001>「フウラは　ひとつめの神具　風のたづなを取りに\n　すでに　山間の関所へ向かった。\n　今すぐ出発すれば　向こうで落ち合えるはずだ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00486_00009227><start_lip_sync n00255 _normal m00001>Fuura is already on her way to the mountain pass to\nretrieve the first sacred tool, the Wind Reins. If you\nleave now, you should be able to catch up with her there.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "9228": {
+    "<voice 00516_00009228><start_lip_sync n00255 _normal m00001>「山間の関所は　アズラン地方の南\n　イナミノ街道の　南方にある。\n　娘を頼んだぞ　<pc>！<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00516_00009228><start_lip_sync n00255 _normal m00001>The mountain pass is located south of Inamino Highway\nin the South Azlan Region. Please offer her your aid.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "369": {
+    "<voice 00415_00000369><start_lip_sync n00212 _normal m00001>「<pc>さまっ！\n　どうして　ここに……？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00415_00000369><start_lip_sync n00212 _normal m00001><pc>! Why are you here...?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "370": {
+    "<voice 00542_00000370><start_lip_sync n00212 _normal m00001>「……そっか。\n　お父さまに頼まれて　来てくれたんだね。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00542_00000370><start_lip_sync n00212 _normal m00001>...I see. My father asked you to come.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "371": {
+    "<voice 00592_00000371><start_lip_sync n00212 _normal m00001>「ねえ　聞いて　<pc>さま！\n　私　魔物　やっつけたんだよ！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00592_00000371><start_lip_sync n00212 _normal m00001>Hey, <pc>, guess what! I defeated a monster!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "372": {
+    "<voice 00622_00000372><start_lip_sync n00212 _normal m00001>「まあ　頼みもしないのに　カムシカが\n　手伝ってくれたってのもあるけど……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00622_00000372><start_lip_sync n00212 _normal m00001>Well, the Azlantelopes helped without my asking...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "373": {
+    "<voice 00672_00000373><start_lip_sync n00212 _normal m00001>「でも　やってみれば　できることって\n　あるんだね！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00672_00000373><start_lip_sync n00212 _normal m00001>But it just goes to show that anything's possible!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "375": {
+    "<voice 00762_00000375><start_lip_sync n00257 _normal m00001>「いやー　こりゃ　たまげたね。 \n　風乗り様は　カムシカに好かれるとは聞くが……<stop_lip_animation n00257 CLOSE_MOUTH>": 
+    "<voice 00762_00000375><start_lip_sync n00257 _normal m00001>Wow, this is amazing. I've heard that Wind Riders are\nloved by the Azlantelopes...<stop_lip_animation n00257 CLOSE_MOUTH>"
+  },
+  "376": {
+    "<voice 00812_00000376><start_lip_sync n00257 _normal m00001>「なるほど　おじょうちゃんが\n　次の風乗り様に　まちがいないな。\n　アズランのフウラって　あんたなんだろ？<stop_lip_animation n00257 CLOSE_MOUTH>": 
+    "<voice 00812_00000376><start_lip_sync n00257 _normal m00001>Seems the young lady is destined to be the next Wind\nRider after all. You're Fuura from the town of Azlan,\nright?<stop_lip_animation n00257 CLOSE_MOUTH>"
+  },
+  "377": {
+    "<voice 00852_00000377><start_lip_sync n00212 _normal m00001>「はい。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00852_00000377><start_lip_sync n00212 _normal m00001>Yes.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "378": {
+    "<voice 00892_00000378><start_lip_sync n00257 _normal m00001>「よし！　じゃあ　領主様から\n　頼まれた品を　持ってってくんな！<stop_lip_animation n00257 CLOSE_MOUTH>": 
+    "<voice 00892_00000378><start_lip_sync n00257 _normal m00001>Excellent! Then, please accept the item which milord\nrequested!<stop_lip_animation n00257 CLOSE_MOUTH>"
+  },
+  "19001519": {
+    "フウラは　風のたづなを　受け取った！<me 60>": 
+    "Fuura received the Wind Reins!<me 60>"
+  },
+  "380": {
+    "<voice 01090_00000380><start_lip_sync n00257 _normal m00001>「さあて。よく聞きな　おじょうちゃん。\n　向こうに　高く　そびえる塔が見えるだろう。<stop_lip_animation n00257 CLOSE_MOUTH>": 
+    "<voice 01090_00000380><start_lip_sync n00257 _normal m00001>Now then. Listen closely, young miss Fuura. You see\nthat enormous tower over there?<stop_lip_animation n00257 CLOSE_MOUTH>"
+  },
+  "381": {
+    "<voice 01145_00000381><start_lip_sync n00257 _normal m00001>「もうひとつの神具　風のころもは\n　あのスイの塔で　新しい風乗り様を待って\n　風のチカラを　たくわえているのさ。<stop_lip_animation n00257 CLOSE_MOUTH>": 
+    "<voice 01145_00000381><start_lip_sync n00257 _normal m00001>The other sacred item, the Wind Robe, is in the Sui\nTower waiting for a new Wind Rider to come and fill it\nwith the power of wind.<stop_lip_animation n00257 CLOSE_MOUTH>"
+  },
+  "382": {
+    "<voice 01175_00000382><start_lip_sync n00257 _normal m00001>「風のころもが　祀られている時に\n　最上階の扉を　開くことができるのは\n　風乗り様として　塔に　認められた者だけだ。<stop_lip_animation n00257 CLOSE_MOUTH>": 
+    "<voice 01175_00000382><start_lip_sync n00257 _normal m00001>Only those who are recognized by the tower as the\nWind Rider can open the door to the top floor where\nthe Wind Robe is enshrined.<stop_lip_animation n00257 CLOSE_MOUTH>"
+  },
+  "383": {
+    "<voice 01205_00000383><start_lip_sync n00257 _normal m00001>「おじょうちゃんが　風乗り様として\n　ふさわしいかどうかが\n　そこで　試されることだろう。<stop_lip_animation n00257 CLOSE_MOUTH>": 
+    "<voice 01205_00000383><start_lip_sync n00257 _normal m00001>There, young lady, it seems you'll be tested on whether\nor not you are worthy of being the Wind Rider.<stop_lip_animation n00257 CLOSE_MOUTH>"
+  },
+  "384": {
+    "<voice 01265_00000384><start_lip_sync n00257 _normal m00001>「カムシカたちは　塔には入れない。\n　塔の中では　カムシカたちのチカラは\n　借りられないが　大丈夫かい？<stop_lip_animation n00257 CLOSE_MOUTH>": 
+    "<voice 01265_00000384><start_lip_sync n00257 _normal m00001>The Azlantelope cannot enter the tower, so you will\nnot be able to receive their help. Are you okay with\nthat?<stop_lip_animation n00257 CLOSE_MOUTH>"
+  },
+  "385": {
+    "<voice 01355_00000385><start_lip_sync n00212 _normal m00001>「はいっ！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01355_00000385><start_lip_sync n00212 _normal m00001>Yes!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "386": {
+    "<voice 01570_00000386><start_lip_sync n00212 _normal m00001>「<pc>さまは\n　お父さまに言われて　来てるんでしょ？\n　私　先に行ってるねっ！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01570_00000386><start_lip_sync n00212 _normal m00001><pc>, you're here because my father told you\nto come, right? I'm going on ahead!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "387": {
+    "<voice 01762_00000387><start_lip_sync n00212 _normal m00001>「なんで　ついてくるかなあ……。\n　あんたたちは　スイの塔に入れないのに。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01762_00000387><start_lip_sync n00212 _normal m00001>I wonder why they're following me... You guys can't\nenter Sui Tower.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "388": {
+    "<voice 01838_00000388><start_lip_sync n00212 _normal m00001>「カムシカって　絶対　アタマ悪いよね。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01838_00000388><start_lip_sync n00212 _normal m00001>Azlantelopes sure are dumb, aren't they?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "389": {
+    "<voice 00005_00000389><start_lip_sync n00212 _normal m00001>「やっと　着いた……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00005_00000389><start_lip_sync n00212 _normal m00001>We're finally here...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "390": {
+    "<voice 00169_00000390><start_lip_sync n00212 _normal m00001>「なんだか　結局……<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00169_00000390><start_lip_sync n00212 _normal m00001>Somehow, we made it...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "391": {
+    "<voice 00273_00000391><start_lip_sync n00212 _normal m00001>「いろいろ　助けてもらっちゃった……　かな？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00273_00000391><start_lip_sync n00212 _normal m00001>For all the help you gave me...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "392": {
+    "<voice 00343_00000392><start_lip_sync n00212 _normal m00001>「あ……　ありがとっ！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00343_00000392><start_lip_sync n00212 _normal m00001>Th... Thank you!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "393": {
+    "<voice 00507_00000393><start_lip_sync n00212 _normal m00001>「きゃっ！　<pc>さまっ！？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00507_00000393><start_lip_sync n00212 _normal m00001>Eep! <pc>!?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "395": {
+    "<voice 00594_00000395><start_lip_sync n00212 _normal m00001>「もしかして　今の　聞いてたの？\n　わ…私は　ただ　お礼を言っただけで\n　別に　カムシカのこと　認めたわけじゃないよ！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00594_00000395><start_lip_sync n00212 _normal m00001>Did you maybe hear that just now? I... I was just\nthanking them. It doesn't mean I approve of the\nAzlantelopes!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "396": {
+    "<voice 00707_00000396><start_lip_sync n00212 _normal m00001>「でも……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00707_00000396><start_lip_sync n00212 _normal m00001>But...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "397": {
+    "<voice 00737_00000397><start_lip_sync n00212 _normal m00001>「どうして　カムシカたちは\n　私を　助けてくれるんだろ。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00737_00000397><start_lip_sync n00212 _normal m00001>Why are these Azlantelopes helping me?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "398": {
+    "<voice 00819_00000398><start_lip_sync n00212 _normal m00001>「お母さまを　死なせちゃったことを\n　悪いと思ってるから？　それとも……　私が\n　カムシカのチカラを引きだせる　風乗りだから？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00819_00000398><start_lip_sync n00212 _normal m00001>Do they feel bad that they let my mother die? Or...\nIs it because I'm a Wind Rider who can bring out their\npower?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "399": {
+    "<voice 00974_00000399><start_lip_sync n00212 _normal m00001>「カムシカって……　変な動物だよね。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00974_00000399><start_lip_sync n00212 _normal m00001>Azlantelopes sure are... Odd creatures, aren't they?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "400": {
+    "<voice 01183_00000400><start_lip_sync n00212 _normal m00001>「風のころもは　この塔のてっぺんか……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01183_00000400><start_lip_sync n00212 _normal m00001>The Wind Robe is at the top of this tower...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000640": {
+    "<voice 01282_19000640><start_lip_sync n00212 _normal m00001>「<pc>さま！　お願いがあります！\n　私……この塔に登りたい！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01282_19000640><start_lip_sync n00212 _normal m00001><pc>... I have a favor to ask of you. Please\njoin me in my ascent to the top of the tower.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000641": {
+    "<voice 01283_19000641><start_lip_sync n00212 _normal m00001>「でも……でも\n　今まで　手助けしてくれた　カムシカたちは\n　この中には　入れないんです。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01283_19000641><start_lip_sync n00212 _normal m00001>But... But now that the Azlantelope can't enter this\ntower to help me.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000642": {
+    "<voice 01284_19000642><start_lip_sync n00212 _normal m00001>「私……カムシカたちが　いなければ\n　ここまでも　たどり着けないくらい\n　ダメな子なのは　自分で　わかってます！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01284_19000642><start_lip_sync n00212 _normal m00001>I... Know that had the Azlantelopes not been there,\nI couldn't have made it this far as a helpless child...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000643": {
+    "<voice 01285_19000643><start_lip_sync n00212 _normal m00001>「それでも　私　この塔に登りたい！\n　お願いします！\n　私に　チカラを貸してください！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01285_19000643><start_lip_sync n00212 _normal m00001>Please, lend me your power so that I can ascend the\ntower, claim the Wind Robe and honor my mother!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000644": {
+    "フウラが\nパーティに　加わった。<se_nots System Guest_joinSE>": 
+    "Fuura has joined the party!<se_nots System Guest_joinSE>"
+  },
+  "52883": {
+    "<voice 00204_00052883><start_lip_sync n00212 _normal m00001>「この部屋の中に\n　風のころもが　あるんだね。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00204_00052883><start_lip_sync n00212 _normal m00001>The Wind Robe is in this room, isn't it?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "52884": {
+    "<voice 00371_00052884><start_lip_sync n00212 _normal m00001>「そして　このトビラが\n　風乗りになる　資格を持つ者にしか\n　開くことができないトビラ……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00371_00052884><start_lip_sync n00212 _normal m00001>And this is the door that can only be opened by those\nwho are worthy of being the Wind Rider...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "52885": {
+    "<voice 00624_00052885><start_lip_sync n00212 _normal m00001>「開いた！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00624_00052885><start_lip_sync n00212 _normal m00001>It opened!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "406": {
+    "<voice 00809_00000406><start_lip_sync n00212 _normal m00001>「な　なに　この部屋……？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00809_00000406><start_lip_sync n00212 _normal m00001>What's with this room...?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "407": {
+    "<voice 01084_00000407><start_lip_sync m50009 _normal m00001>「誰だっ！？<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01084_00000407><start_lip_sync m50009 _normal m00001>Who's there!?<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "408": {
+    "<voice 01369_00000408><start_lip_sync m50009 _normal m00001>「この　怪獣プスゴンさまの\n　スウィートホームに\n　土足で　あがりこむヤツは！？<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01369_00000408><start_lip_sync m50009 _normal m00001>Who dares tromp around in the sweet little home of\nPusgon the monster!?<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "409": {
+    "<voice 01474_00000409><start_lip_sync m50009 _normal m00001>「な　なんてことだ……！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01474_00000409><start_lip_sync m50009 _normal m00001>Wh-what is that...!?<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "410": {
+    "<voice 01564_00000410><start_lip_sync m50009 _normal m00001>「キュートだ……。<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01564_00000410><start_lip_sync m50009 _normal m00001>CUUUUUUUUUTE...<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "411": {
+    "<voice 01684_00000411><start_lip_sync m50009 _normal m00001>「ただ　かわいいだけじゃない。\n　ちょっと　毒のある瞳！\n　抱きしめたくなるような　身体のサイズ！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01684_00000411><start_lip_sync m50009 _normal m00001>No, not just cute. Eyes with a bit of spunk in 'em!\nA cute li'l body that you just can't help but wanna hug!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "412": {
+    "<voice 01784_00000412><start_lip_sync m50009 _normal m00001>「こんな気持ちは　はじめてだ！\n　オレと　いてくれ！\n　ずっとずっと　一緒に暮らそう！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01784_00000412><start_lip_sync m50009 _normal m00001>I've never been so enraptured before! Stay here with\nme! Stay with me forever and ever!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "413": {
+    "<voice 01954_00000413><start_lip_sync n00212 _normal m00001>「わ　私……！？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01954_00000413><start_lip_sync n00212 _normal m00001>M-me...!?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "414": {
+    "<voice 02039_00000414><start_lip_sync n00212 _normal m00001>「ど　どうしよう～。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02039_00000414><start_lip_sync n00212 _normal m00001>O-oh dear～<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "415": {
+    "<voice 02164_00000415><start_lip_sync n00212 _normal m00001>「困るわ。だって　あなた　怪獣だし……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02164_00000415><start_lip_sync n00212 _normal m00001>This is a bit awkward. I mean, you're a monster, so...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "416": {
+    "<voice 02214_00000416><start_lip_sync n00212 _normal m00001>「きっと　お父さまも　許してくれないと思う。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02214_00000416><start_lip_sync n00212 _normal m00001>I'm sure my father would never approve.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "417": {
+    "<voice 02353_00000417><start_lip_sync n00212 _normal m00001>「えっ！？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02353_00000417><start_lip_sync n00212 _normal m00001>Huh!?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "418": {
+    "<voice 02429_00000418><start_lip_sync m50009 _normal m00001>「お前っ！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 02429_00000418><start_lip_sync m50009 _normal m00001>You!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "419": {
+    "<voice 02486_00000419><start_lip_sync m50009 _normal m00001>「この……<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 02486_00000419><start_lip_sync m50009 _normal m00001>This..<stop_lip_animation m50009 CLOSE_MOUTH>."
+  },
+  "420": {
+    "<voice 02541_00000420><start_lip_sync m50009 _normal m00001>「キュートなハニーを　よこせえええっ！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 02541_00000420><start_lip_sync m50009 _normal m00001>Haaaand over that cutey honey!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "421": {
+    "<voice 02692_00000421><start_lip_sync n00212 _normal m00001>「えええええええっ！？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02692_00000421><start_lip_sync n00212 _normal m00001>WHAAAAAAAAAAT!?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "422": {
+    "<voice 02767_00000422><start_lip_sync n00212 _normal m00001>「ケキちゃんは　ダメええっ！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02767_00000422><start_lip_sync n00212 _normal m00001>Not Cakey!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "423": {
+    "<voice 02872_00000423><start_lip_sync m50009 _normal m00001>「ぐぬぬぬぬぬううう！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 02872_00000423><start_lip_sync m50009 _normal m00001>Grrrrrrrggggghhhhhh!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "424": {
+    "<voice 02932_00000424><start_lip_sync n00212 _normal m00001>「くう～～～～～っ！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02932_00000424><start_lip_sync n00212 _normal m00001>Hhnnnnnnnnnnngggghh!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "425": {
+    "<voice 03210_00000425><start_lip_sync m50009 _normal m00001>「ちっ　なかなかやるな　エルフめ！\n　何しに　来やがった！？<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 03210_00000425><start_lip_sync m50009 _normal m00001>Tch, not bad little elf! Why'd you come here, anyway!?<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "426": {
+    "<voice 03351_00000426><start_lip_sync n00212 _normal m00001>「私たちは……　風のころもを取りに！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 03351_00000426><start_lip_sync n00212 _normal m00001>We're here...to get the Wind Robe!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "427": {
+    "<voice 03491_00000427><start_lip_sync m50009 _normal m00001>「風のころも！？<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 03491_00000427><start_lip_sync m50009 _normal m00001>The Wind Robe!?<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "428": {
+    "<voice 03591_00000428><start_lip_sync m50009 _normal m00001>「くっくっくっく……。\n　お前たちが　そうだったとはな。\n　ちょうどいい！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 03591_00000428><start_lip_sync m50009 _normal m00001>Gweh heh heh... I didn't realize you were the ones.\nAnd you're just in time!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "429": {
+    "<voice 03771_00000429><start_lip_sync m50009 _normal m00001>「オレは　風のころもを取りにきたヤツを\n　倒すように言われているんだ！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 03771_00000429><start_lip_sync m50009 _normal m00001>I've was told to clobber whoever came for the Wind Robe!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "430": {
+    "<voice 04021_00000430><start_lip_sync m50009 _normal m00001>「頼まれた仕事を果たし　ついでに\n　マイ・スウィートハニーを手に入れる！\n　一石二鳥とは　このことだぁっ！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 04021_00000430><start_lip_sync m50009 _normal m00001>I do the job they asked me to do and I get that little\ncutie patootie, too! Two birds, one stone!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "431": {
+    "<voice 04239_00000431><start_lip_sync n00212 _normal m00001>「あうっ！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04239_00000431><start_lip_sync n00212 _normal m00001>Agh!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000645": {
+    "<voice 04240_19000645><start_lip_sync n00212 _normal m00001>「ああ……やっぱり　私……\n　ダメな子なのかな……。\n　……気……が…………遠く…………<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04240_19000645><start_lip_sync n00212 _normal m00001>Aaaggh... I-I guess... It's... true. I'm just a useless...\nChild... After all...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19001566": {
+    "<voice 09000_19001566><center>フウラ　聞こえますか？": 
+    "<voice 09000_19001566><center>Fuura, can you hear me?"
+  },
+  "19000646": {
+    "<voice 04241_19000646><start_lip_sync n00212 _normal m00001>「…………え？　……だ……れ…………？\n　私を…………呼……ぶ……\n　…………だ…………れ……？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04241_19000646><start_lip_sync n00212 _normal m00001>...Huh? ...Who... Is it? ...That voice...? Who is it...?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19001564": {
+    "<voice 09000_19001564><center><pc>は　悪しき気配から世界を守るための\n重大な使命を果たす　旅をしています。": 
+    "<voice 09000_19001564><center><pc> is on a very important mission to protect\nthe world from a great darkness."
+  },
+  "19001565": {
+    "<voice 09000_19001565><center>あなたなら　<pc>を助けることができるでしょう。\nこの世界の希望を　絶やさぬように……。　": 
+    "<voice 09000_19001565><center>You have the power to help <pc>. To keep\nhope for this world alive."
+  },
+  "19000647": {
+    "<voice 04242_19000647><start_lip_sync n00212 _normal m00001>「…………！\n　……私……が……！？<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04242_19000647><start_lip_sync n00212 _normal m00001>.........! ...I...do!?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "432": {
+    "<voice 04332_00000432><start_lip_sync m50009 _normal m00001>「あ　あぶねえっ！\n　オレの　ウルトラ・ハイセンスな\n　インテリアが！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 04332_00000432><start_lip_sync m50009 _normal m00001>Th-that was close! My ultra classy interior design!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "433": {
+    "<voice 04443_00000433><start_lip_sync m50009 _normal m00001>「ちょっと　タンマな！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 04443_00000433><start_lip_sync m50009 _normal m00001>Hold on, time out!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "434": {
+    "<voice 04684_00000434><start_lip_sync m50009 _normal m00001>「これでよし！\n　まずは　お前から　片付けてやるぜ！\n　さっさと　くたばりなっ！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 04684_00000434><start_lip_sync m50009 _normal m00001>There, good! I had to clean up first! Now I can go\npostal on you dirtbags!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000648": {
+    "<voice 04685_19000648><start_lip_sync n00212 _normal m00001>「待ちなさい！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04685_19000648><start_lip_sync n00212 _normal m00001>Hold it!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000649": {
+    "<voice 04686_19000649><start_lip_sync n00212 _normal m00001>「<pc>さまを\n　ひとりで　戦わせたりしない！！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04686_19000649><start_lip_sync n00212 _normal m00001><pc>, I won't let you fight alone!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000650": {
+    "<voice 04687_19000650><start_lip_sync m50009 _normal m00001>「な　なんだぁ？\n　お前みたいに　弱っちいのは\n　おとなしく　寝てろ！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 04687_19000650><start_lip_sync m50009 _normal m00001>What's this? A baby like you should be at home with\ntheir bottle!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000651": {
+    "<voice 04688_19000651><start_lip_sync n00212 _normal m00001>「私も　あなたと戦うって　言ってるの！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 04688_19000651><start_lip_sync n00212 _normal m00001>I'm ready to fight now!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "438": {
+    "<voice 00135_00000438><start_lip_sync m50009 _normal m00001>「ちっ！　しつこいヤツだな！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 00135_00000438><start_lip_sync m50009 _normal m00001>Tch! You're a stubborn little rat!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "439": {
+    "<voice 00205_00000439><start_lip_sync m50009 _normal m00001>「しかも　またしても　きたない足で\n　オレのスウィートホームに　あがりやがって！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 00205_00000439><start_lip_sync m50009 _normal m00001>And once again, you've climbed into my sweet little\nhome on those grubby feet of yours!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "440": {
+    "<voice 00295_00000440><start_lip_sync m50009 _normal m00001>「礼儀を知らないヤツめ！\n　何度でも　痛い目にあわせてやるぜっ！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 00295_00000440><start_lip_sync m50009 _normal m00001>You have no manners! I'll just have to clobber you\nover and over again!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "24803": {
+    "<voice 00550_00024803><start_lip_sync m50009 _normal m00001>「これでよし！　\n　さあ　かかってきな！\n　コテンパンに　のしてやるぜっ！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 00550_00024803><start_lip_sync m50009 _normal m00001>Come on! Let's go! I'm gonna beat you to a pulp!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "441": {
+    "<voice 00020_00000441><start_lip_sync m50009 _normal m00001>「ぐおおおお！！\n　お前ら　本気で　オレを怒らせたなっ！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 00020_00000441><start_lip_sync m50009 _normal m00001>GRAAAAAAAAAAH!! Now you've REALLY done it!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "442": {
+    "<voice 00226_00000442><start_lip_sync m50009 _normal m00001>「オレの　真のチカラを見せてやるぜっ！！\n　お前なんて　メッタメタだぞ！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 00226_00000442><start_lip_sync m50009 _normal m00001>Now I'll show you what I'm REALLY made of!! Who do you\ninconsiderate little twits think you are!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "443": {
+    "<voice 00314_00000443><start_lip_sync n00212 _normal m00001>「やめてっっ！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00314_00000443><start_lip_sync n00212 _normal m00001>Stop iiit!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "444": {
+    "<voice 00433_00000444><start_lip_sync m50009 _normal m00001>「お……！？<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 00433_00000444><start_lip_sync m50009 _normal m00001>Oh...!?<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "445": {
+    "<voice 00488_00000445><start_lip_sync n00212 _normal m00001>「それ　あげるから……<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00488_00000445><start_lip_sync n00212 _normal m00001>I'll give it to you...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000652": {
+    "<voice 00583_19000652><start_lip_sync n00212 _normal m00001>「もうやめて！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 00583_19000652><start_lip_sync n00212 _normal m00001>Just stop already!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "447": {
+    "<voice 01023_00000447><start_lip_sync m50009 _normal m00001>「……………………。<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01023_00000447><start_lip_sync m50009 _normal m00001>................<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000653": {
+    "<voice 01024_19000653><start_lip_sync m50009 _normal m00001>「お前　さっきはアレほど……<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01024_19000653><start_lip_sync m50009 _normal m00001>But you were just...<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000654": {
+    "<voice 01025_19000654><start_lip_sync n00212 _normal m00001>「あ・げ・る・か・ら！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01025_19000654><start_lip_sync n00212 _normal m00001>You. Can. Have. It!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000655": {
+    "<voice 01026_19000655><start_lip_sync m50009 _normal m00001>「死ぬほど　大事なモノなんじゃ\n　ないのかよぉ！？<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01026_19000655><start_lip_sync m50009 _normal m00001>It seemed like you were willing to die for it...<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000656": {
+    "<voice 01027_19000656><start_lip_sync n00212 _normal m00001>「死ぬほど　大事なものよ！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01027_19000656><start_lip_sync n00212 _normal m00001>It's worth dying for!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000657": {
+    "<voice 01028_19000657><start_lip_sync m50009 _normal m00001>「じゃあ……<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01028_19000657><start_lip_sync m50009 _normal m00001>Then...<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000658": {
+    "<voice 01029_19000658><start_lip_sync n00212 _normal m00001>「いいの！\n　あげる！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01029_19000658><start_lip_sync n00212 _normal m00001>It's fine! Take it!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000659": {
+    "<voice 01030_19000659><start_lip_sync n00212 _normal m00001>「私は　風乗りになる！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01030_19000659><start_lip_sync n00212 _normal m00001>I must become a Wind Rider!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000660": {
+    "<voice 01031_19000660><start_lip_sync m50009 _normal m00001>「…………。<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01031_19000660><start_lip_sync m50009 _normal m00001>..........<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000661": {
+    "<voice 01032_19000661><start_lip_sync n00212 _normal m00001>「それは　思い出なの。\n　亡くなった　お母さまとの思い出……。\n　でも　もう　いらないの。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01032_19000661><start_lip_sync n00212 _normal m00001>It was a memento... Given to me by my mother... But I\ndon't need it anymore.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000662": {
+    "<voice 01033_19000662><start_lip_sync n00212 _normal m00001>「私　風乗りになるの！\n　お母さまの後を継いで\n　風乗りに　絶対なるの！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01033_19000662><start_lip_sync n00212 _normal m00001>I will honor her memory by following in her footsteps!\nI will become a Wind Rider!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000663": {
+    "<voice 01034_19000663><start_lip_sync n00212 _normal m00001>「風のころもを着て　風乗りになる私と\n　<pc>さまは　明日なの！\n　明日のためなら　思い出はいらないの！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01034_19000663><start_lip_sync n00212 _normal m00001>I'll wear the Wind Robe and ride the Wind like my mother... And follow\n<pc> toward a brighter future!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000664": {
+    "<voice 01035_19000664><start_lip_sync m50009 _normal m00001>「……うっ<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01035_19000664><start_lip_sync m50009 _normal m00001>...*sniff*<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000665": {
+    "<voice 01036_19000665><start_lip_sync m50009 _normal m00001>「うわぁあああああんん！！\n　なんて　泣ける話だ！\n　お前も　苦労してるんだなぁ！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01036_19000665><start_lip_sync m50009 _normal m00001>UWAAAAAAAAHH!!! What a tear-jerker! You must have\nstruggled so much to get here!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000666": {
+    "<voice 01037_19000666><start_lip_sync m50009 _normal m00001>「……わかった。\n　ハニーと引き換えに　もう何もしない！\n　……ぐずッ……うわぁああああん！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01037_19000666><start_lip_sync m50009 _normal m00001>...I understand. If you give me that baby I won't do\nanything else to hamper your quest!... Guzuh...\nUwaaaaaah!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000667": {
+    "<voice 01038_19000667><start_lip_sync m50009 _normal m00001>「オレに　風のころもを守らせたヤツは\n　風乗りを絶えさせ　風をよどませ……<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01038_19000667><start_lip_sync m50009 _normal m00001>The one who sent me to guard the Wind Robe and stop a\nnew Wind Rider from ascending...<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000668": {
+    "<voice 01039_19000668><start_lip_sync m50009 _normal m00001>「ここいらを　闇の封印に堕とすって\n　ワケの分からないこと　言ってたんだ。<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01039_19000668><start_lip_sync m50009 _normal m00001>Said some nonsense that he planned to cover everything\nhere in darkness.<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000669": {
+    "<voice 01040_19000669><start_lip_sync m50009 _normal m00001>「えらそうに命令してくる　ネルゲルっていう\n　いけ好かない奴だ。あんな奴の計画より\n　お前の　明日……の方が　ハイセンスだ！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01040_19000669><start_lip_sync m50009 _normal m00001>Pompous and bossy, a nasty guy called 'Nergel'. I prefer\nyour future over a guy like that's... Your way is more\nrefined!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000670": {
+    "<voice 01041_19000670><start_lip_sync n00212 _normal m00001>「ありがとう……じゃ\n　大事にしてね。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01041_19000670><start_lip_sync n00212 _normal m00001>Thanks... Take care of Cakey for me.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000671": {
+    "<voice 01042_19000671><start_lip_sync m50009 _normal m00001>「……いや　やっぱり　もらえねえ。\n　オレ　もらえねえよ……。<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01042_19000671><start_lip_sync m50009 _normal m00001>...No, I can really have her, right. I'll take her,\nyou know...<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000672": {
+    "<voice 01043_19000672><start_lip_sync n00212 _normal m00001>「約束だから。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01043_19000672><start_lip_sync n00212 _normal m00001>I already promised.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000673": {
+    "<voice 01044_19000673><start_lip_sync m50009 _normal m00001>「いいのかよぉ……ホントにもらうぞ？\n　……もらっちゃうぞ？<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01044_19000673><start_lip_sync m50009 _normal m00001>Are you sure it's okay... I can really have her?\n...I'm taking her?<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "19000674": {
+    "<voice 01045_19000674><start_lip_sync m50009 _normal m00001>「……じゃあなっ！\n　あばよっ！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01045_19000674><start_lip_sync m50009 _normal m00001>...Well, that's all folks! Ciao!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "450": {
+    "<voice 01543_00000450><start_lip_sync m50009 _normal m00001>「いやっほ～～～う　ハニー！！<stop_lip_animation m50009 CLOSE_MOUTH>": 
+    "<voice 01543_00000450><start_lip_sync m50009 _normal m00001>YAHOOOOOOOOOO, HONEY!!<stop_lip_animation m50009 CLOSE_MOUTH>"
+  },
+  "451": {
+    "<voice 01658_00000451><start_lip_sync n00212 _normal m00001>「……いいの。\n　ケキちゃんがいなくても\n　私は　もう大丈夫だから。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 01658_00000451><start_lip_sync n00212 _normal m00001>...It's okay. I'm already fine, even without Cakey.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "452": {
+    "<voice 02203_00000452><start_lip_sync n00212 _normal m00001>「きれい……！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02203_00000452><start_lip_sync n00212 _normal m00001>So pretty...!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "453": {
+    "<voice 02453_00000453><start_lip_sync n00212 _normal m00001>「お母さまの……　においがする……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02453_00000453><start_lip_sync n00212 _normal m00001>This scent... It's my mother's...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "454": {
+    "<voice 02548_00000454><start_lip_sync n00212 _normal m00001>「そうだ！　こうしてる場合じゃないわ。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02548_00000454><start_lip_sync n00212 _normal m00001>Oh, right! This isn't the time for that.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "455": {
+    "<voice 02583_00000455><start_lip_sync n00212 _normal m00001>「早く帰って　風送りの儀をしなくちゃ！\n　アズランのみんなが　待ってるもの。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02583_00000455><start_lip_sync n00212 _normal m00001>I have to get back home and perform the Wind Send-Off\nCeremony! Everyone in Azlan is waiting for me!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000675": {
+    "<voice 02668_19000675><start_lip_sync n00212 _normal m00001>「<cs_pchero>さま\n　チカラを貸してくれて　ありがとう。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02668_19000675><start_lip_sync n00212 _normal m00001>Thank you <cs_pchero>. For all your help.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000676": {
+    "<voice 02669_19000676><start_lip_sync n00212 _normal m00001>「あのね。さっき　戦いの前\n　怪獣さんに　はじき飛ばされて\n　気を失ったときに……<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02669_19000676><start_lip_sync n00212 _normal m00001>You know what... Earlier when the monster knocked me\nunconscious I...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000677": {
+    "<voice 02670_19000677><start_lip_sync n00212 _normal m00001>「とても　不思議な声を聞いたんです。\n　私の頭の中だけに　聞こえた\n　とても　不思議な声。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02670_19000677><start_lip_sync n00212 _normal m00001>That really strange voice I heard. Even stranger a voice\nsince I heard it in my head.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000678": {
+    "<voice 02671_19000678><start_lip_sync n00212 _normal m00001>「それを聞いて　風乗りにならなきゃって！\n　何がなんでも　風送りの儀を\n　私が　やりとげなきゃって！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02671_19000678><start_lip_sync n00212 _normal m00001>When I heard it I knew that I had to complete the\nceremony and become the next Wind Rider no matter what!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000679": {
+    "<voice 02672_19000679><start_lip_sync n00212 _normal m00001>「そう思ったら　ケキちゃんを\n　あの怪獣さんに　あげても　いいかなって。\n　ふふふ……。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02672_19000679><start_lip_sync n00212 _normal m00001>After that I felt better about giving Cakey to that\nmonster... Hahaha...<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19000680": {
+    "<voice 02673_19000680><start_lip_sync n00212 _normal m00001>「<pc>さま\n　早くアズランの町に　戻りましょう！\n　風送りの儀の　準備をしなくちゃ。<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 02673_19000680><start_lip_sync n00212 _normal m00001><pc>! Let's return to Azlan so that I can\ncomplete the Wind Riders ceremony!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19100000": {
+    "フウラが\nパーティから　外れた。": 
+    "Fuura has left the party."
+  },
+  "457": {
+    "<voice 03008_00000457><start_lip_sync n00212 _normal m00001>「カムシカー！　戻るよーっ！！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 03008_00000457><start_lip_sync n00212 _normal m00001>Azlantelopes! I'm baaaaaack!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "458": {
+    "<voice 03248_00000458><start_lip_sync n00212 _normal m00001>「<cs_pchero>さまも \n　私がやる　風送りの儀　見にきてねっ！<stop_lip_animation n00212 CLOSE_MOUTH>": 
+    "<voice 03248_00000458><start_lip_sync n00212 _normal m00001>Come watch me in the Wind Send-Off Ceremony,\n<cs_pchero>!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "459": {
+    "<voice 01059_00000459><start_lip_sync n00254 _normal m00001>「ただいまの　風送りの儀により……<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01059_00000459><start_lip_sync n00254 _normal m00001>Because of this ceremony...<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "460": {
+    "<voice 01125_00000460><start_lip_sync n00254 _normal m00001>「これまで　アズランに吹いていた古き風は\n　その役目を終え　かなたへと去りゆきました。<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01125_00000460><start_lip_sync n00254 _normal m00001>The old winds that were blowing in Azlan have reached\nthe end of their usefulness and moved on.<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "461": {
+    "<voice 01205_00000461><start_lip_sync n00254 _normal m00001>「今　このアズランに吹くのは\n　育みのチカラあふるる　新しき風！<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01205_00000461><start_lip_sync n00254 _normal m00001>And now, a new wind full of nurturing power is blowing\nin Azlan!<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "462": {
+    "<voice 01335_00000462><start_lip_sync n00254 _normal m00001>「このアズランに…………　えっと……<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01335_00000462><start_lip_sync n00254 _normal m00001>Azlan is... Ummm...<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "463": {
+    "<voice 01422_00000463><start_lip_sync n00254 _normal m00001>「えーーーーーと……？<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01422_00000463><start_lip_sync n00254 _normal m00001>Uuuuhhhhhhhhhhh...?<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "464": {
+    "<voice 01442_00000464><start_lip_sync n00254 _normal m00001>「このアズランに……<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01442_00000464><start_lip_sync n00254 _normal m00001>Azlan is...<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "465": {
+    "<voice 01497_00000465><start_lip_sync n00254 _normal m00001>「風乗りフウラが　あるかぎり！<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01497_00000465><start_lip_sync n00254 _normal m00001>For as long as I'm the Wind Rider...<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "466": {
+    "<voice 01607_00000466><start_lip_sync n00254 _normal m00001>「育みの風を　絶え間なく吹かせ\n　町を守り　育ててゆくことを　誓いましょう！<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01607_00000466><start_lip_sync n00254 _normal m00001>...Let us pledge to keep the nurturing winds blowing,\nto protect and nurture our town!<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "13597": {
+    "<voice 00155_00013597><start_lip_sync n00254 _normal m00001>「あっ　<pc>さま！<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 00155_00013597><start_lip_sync n00254 _normal m00001>Oh, <pc>!<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "27580": {
+    "<voice 00250_00027580><start_lip_sync n00254 _normal m00001>「見て見て！　ほらっ　風のころも！\n　私の　風送りの儀も　ちゃんと見ててくれた？<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 00250_00027580><start_lip_sync n00254 _normal m00001>Look, look! The wind is blowing again! Did you see me\nat the ceremony?<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "467": {
+    "<voice 00305_00000467><start_lip_sync n00255 _normal m00001>「待っておったぞ　<pc>。\n　さあ　わしの部屋へ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00305_00000467><start_lip_sync n00255 _normal m00001>I've been awaiting you, <pc>. Come now,\nto my room.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "468": {
+    "<voice 00615_00000468><start_lip_sync n00255 _normal m00001>「フウラの口上には　ヒヤヒヤさせられたが\n　なんとか無事に　風送りの儀を\n　終えることができた。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00615_00000468><start_lip_sync n00255 _normal m00001>Though Fuura's speech made me a little nervous, we\nmanaged to complete the Wind Send-Off Ceremony.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "469": {
+    "<voice 00743_00000469><start_lip_sync n00255 _normal m00001>「これも　ひとえに　<pc>のおかげだ。\n　本当にありがとう。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00743_00000469><start_lip_sync n00255 _normal m00001>This was all thanks to you, <pc>. I am\ntruly grateful.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "470": {
+    "<voice 00773_00000470><start_lip_sync n00255 _normal m00001>「まだ　大きな変化は　出ておらぬが\n　このアズランに　よい風が吹き始めた。\n　これからは　よい方向へ　向かってゆくだろう。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00773_00000470><start_lip_sync n00255 _normal m00001>Though we have yet to experience any major changes, a\nhale wind now blows in Azlan. Things will only get\nbetter from here on.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "471": {
+    "<voice 00828_00000471><start_lip_sync n00255 _normal m00001>「この町に　希望をもたらしてくれた\n　アズランの英雄　<pc>よ。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00828_00000471><start_lip_sync n00255 _normal m00001>You have brought hope to this town, O' Hero of Azlan,\n<pc>.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "472": {
+    "<voice 00878_00000472><start_lip_sync n00255 _normal m00001>「そなたに　緑のキーエンブレムを贈ろう。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00878_00000472><start_lip_sync n00255 _normal m00001>I hereby confer upon you the Green Key Emblem.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "473": {
+    "<pc>は\n緑のキーエンブレム（だいじなもの）を\n手に入れた！<me 61>": 
+    "<pc> received the\nGreen Key Emblem (Key Item)!<me 61>"
+  },
+  "19000681": {
+    "<voice 00974_19000681><start_lip_sync n00255 _normal m00001>「それと……そなたは　ヒメア様から\n　世界をめぐり　修練を積むよう\n　言われて　おるのだったな。　<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00974_19000681><start_lip_sync n00255 _normal m00001>In addition... It seems that Lady Himea urged you to\ntravel the world and hone your skills.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "19000682": {
+    "<voice 00975_19000682><start_lip_sync n00255 _normal m00001>「ならば　これも\n　持っていくがいい。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00975_19000682><start_lip_sync n00255 _normal m00001>Please accept this as well.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "19000683": {
+    "<pc>は\n大陸間鉄道パス（だいじなもの）を\n受け取った！<me 61>": 
+    "<pc> received the\nIntercontinental Rail Pass (Key Item)!<me 61>"
+  },
+  "19000684": {
+    "<voice 00977_19000684><start_lip_sync n00255 _normal m00001>「それは　５つの大陸を　自由に\n　行き来する列車に　乗るためのパスだ。\n　とても高価なものだが　持っていくがよい。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00977_19000684><start_lip_sync n00255 _normal m00001>This pass will allow you to ride the train from\ncontinent to continent. It's a very valuable item\nindeed.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "19000685": {
+    "<voice 00978_19000685><start_lip_sync n00255 _normal m00001>「鉄道駅は　宿屋の近くにある。\n　便利に使うが　よかろう。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 00978_19000685><start_lip_sync n00255 _normal m00001>The Azlan train station is located near the Inn. Feel\nfree to use it as needed.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "474": {
+    "<voice 01093_00000474><start_lip_sync n00255 _normal m00001>「しかし　風のころもが　風乗りの手に渡らぬよう\n　スイの塔に　魔物を配した者がいたのか……。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 01093_00000474><start_lip_sync n00255 _normal m00001>But who put a monster in Sui Tower to prevent the\nWind Rider from changing the winds in the first place...?<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "475": {
+    "<voice 01138_00000475><start_lip_sync n00255 _normal m00001>「このような　辺境にまで\n　悪しき魔の手が　およんでいようとは\n　世の中　どうなっておるのだ……。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 01138_00000475><start_lip_sync n00255 _normal m00001>What is the world coming to, that the hand of evil\nshould extend even to such a secluded place...?<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "19000686": {
+    "<voice 01139_19000686><start_lip_sync n00254 _normal m00001>「お父さま　それを企んだのは\n　ネルゲルっていう奴だって\n　スイの塔の　怪獣さんが　言ってた。<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01139_19000686><start_lip_sync n00254 _normal m00001>The monster who guarded the Wind Robe said it was part\nof Nergel's plan.<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "19000688": {
+    "<voice 01141_19000688><start_lip_sync n00254 _normal m00001>「…………それで　お父さま\n　とても大事な　お願いがあるの！<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01141_19000688><start_lip_sync n00254 _normal m00001>...So, father, I have an important favor to ask of you!<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "19000689": {
+    "<voice 01142_19000689><start_lip_sync n00255 _normal m00001>「なんだい　フウラ　改まって……<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 01142_19000689><start_lip_sync n00255 _normal m00001>What is it, Fuura, to ask so formally...<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "19001550": {
+    "<voice 01188_00000479><start_lip_sync n00255 _normal m00001>「この先　困ったことがあったときには\n　いつでも　チカラになろう。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 01188_00000479><start_lip_sync n00255 _normal m00001>From now on, whenever times of trouble arise, you can\ndepend on me.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "480": {
+    "<voice 01332_00000480><start_lip_sync n00254 _normal m00001>「<pc>さま　本当に　ありがとう。\n　おかげで　私も　すこしだけ\n　自分に　自信が持てるようになったよ。<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01332_00000480><start_lip_sync n00254 _normal m00001>Thanks so much, <pc>. You've made me feel\na little more confident in myself.<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "19001544": {
+    "<voice 01382_00000481><start_lip_sync n00254 _normal m00001>「私　風乗りとして　がんばる。\n　大好きな　お母さまの仕事を継いでみせる。\n　助けてくれる人たちだって　たくさんいるもの。<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01382_00000481><start_lip_sync n00254 _normal m00001>I will do my best as a Wind Rider. I'll continue where\nmy mother left off and I will help many who are in\nneed...<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "19000690": {
+    "<voice 01412_19000690><start_lip_sync n00254 _normal m00001>「私　<pc>さまに　ついて行きたい。\n　<pc>さまの戦いを\n　お手伝いしたいの！<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01412_19000690><start_lip_sync n00254 _normal m00001>I want to follow <pc>. <pc>\nI want to help in your battle!<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "19000691": {
+    "<voice 01413_19000691><start_lip_sync n00254 _normal m00001>「声を聞いたの　戦いの時に。\n　<pc>さまに　ついて行きなさい\n　っていう声を。<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01413_19000691><start_lip_sync n00254 _normal m00001>I heard a voice, during the battle at the top of the\ntower. A voice that told me to join you.<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "19000692": {
+    "<voice 01414_19000692><start_lip_sync n00255 _normal m00001>「フウラ……。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 01414_19000692><start_lip_sync n00255 _normal m00001>Fuura...<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "19000693": {
+    "<voice 01492_19000693><start_lip_sync n00254 _normal m00001>「……今までも　留守にしてたのに\n　ごめんなさい。\n　でも　守りたいの。この町も　世界も！<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01492_19000693><start_lip_sync n00254 _normal m00001>...I'm sorry that I'll be away for so long. But I want\nto protect them. This town and the world!<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "19000694": {
+    "<voice 01493_19000694><start_lip_sync n00255 _normal m00001>「……いいとも。\n　お前が　初めて　みずから望んだ事だ。\n　チカラの限り　やってみなさい。<stop_lip_animation n00255 CLOSE_MOUTH>": 
+    "<voice 01493_19000694><start_lip_sync n00255 _normal m00001>...Sounds good. It's the first time you've wished for\nit yourself. You must give it your all.<stop_lip_animation n00255 CLOSE_MOUTH>"
+  },
+  "19000695": {
+    "<voice 01494_19000695><start_lip_sync n00254 _normal m00001>「お父さま！！<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01494_19000695><start_lip_sync n00254 _normal m00001>Father!<stop_lip_animation n00254 CLOSE_MOUTH>"
+  },
+  "19000696": {
+    "フウラが　仲間になった！<me 2401>": 
+    "Fuura has joined the party!<me 2401>"
+  },
+  "19000697": {
+    "<voice 01496_19000697><start_lip_sync n00254 _normal m00001>「<cs_pchero>さま　よろしくね。\n　私　一生懸命がんばるから。　<stop_lip_animation n00254 CLOSE_MOUTH>": 
+    "<voice 01496_19000697><start_lip_sync n00254 _normal m00001><cs_pchero>, I'll try my very best!<stop_lip_animation n00254 CLOSE_MOUTH>"
   }
 }
