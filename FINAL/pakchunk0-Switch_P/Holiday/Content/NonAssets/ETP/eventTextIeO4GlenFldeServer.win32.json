@@ -65,7 +65,7 @@
   },
   "36078": {
     "「エルジュのことが気になるなら\n　アイツの代わりに　ヤクル様の申し出を\n　引き受けてやったらどうだ？\n<br>\n「グレン城から　水を持ってくるなんて\n　人間のあんたなら　楽勝だろ？": 
-    "If you care about that brat, why don't you\nhelp out with Lady Yakuru's request in his place?\n<br>\nGetting water from Glen Castle should be a walk in\nthe park for a human such as yourself, right?"
+    "If you care about that Erju, why don't you help out\nwith Lady Yakuru's request in his place?\n<br>\nGetting water from Glen Castle should be a walk in\nthe park for a human such as yourself, right?"
   },
   "36079": {
     "「おっ！　エルジュの代わりに\n　水を　もらってきてくれたみたいだな。\n<br>\n「さっそく　中に入って\n　ヤクル様に　お渡しするといい。\n　きっと　よろこんでくださるはずだ。": 
@@ -79,7 +79,8 @@
     "<if_woman>「おみず　もってきてくれて　ありがとう……。\n　なんだか　おねえちゃんって　\n　おしろの人たちと　ちがうね……。<else>「おみず　もってきてくれて　ありがとう……。\n　なんだか　おにいちゃんって　\n　おしろの人たちと　ちがうね……。<endif>": "<if_woman>Thank you for bringing the water. You are\ndifferent from the people behind me.<else>Thank you for bringing the water. You are\nsomehow different from the people around you,\naren't you?<endif>"
   },
   "36084": {
-    "「おばあさん　そんなこと言わないで。\n　ほら。親切な人間の方が　お城から\n　お水を持ってきてくれたそうよ。\n<br>\n「希望を捨てずに　生きていれば\n　きっと　ふるさとに帰れる日が来るわ。\n　ねっ　がんばりましょう？": "Grandma, don't say that. Look. A kind human\nbrought you water from the castle. If you\ndon't give up hope and stay alive, you'll be\n<br>\nable to return home one day. Let's do our\nbest, okay?"
+    "「おばあさん　そんなこと言わないで。\n　ほら。親切な人間の方が　お城から\n　お水を持ってきてくれたそうよ。\n<br>\n「希望を捨てずに　生きていれば\n　きっと　ふるさとに帰れる日が来るわ。\n　ねっ　がんばりましょう？": 
+    "Granny, don't say such a thing. Look. A kind human\nseems to have wanted to bring you water from the\ncastle.\n<br>\nIf we don't give up hope and stay alive, we'll be able\nto return home one day. Hey, let's do our best, okay?"
   },
   "36085": {
     "「強く　かしこく　正しい心を持った者のみが\n　四術師としての資質があると　言われます。\n<br>\n「あのエルジュという若者が\n　それらを持っているとは　思えませんが……。\n　ヤクル様には　お考えがあるのでしょう。": 
@@ -98,7 +99,8 @@
     "<attr><feel_happy_lv1><end_attr>Yo! Thanks to the water you brought, everyone in the\nsettlement is feeling a little better. Thanks, thanks\na lot!"
   },
   "36089": {
-    "「そうですか。フォステイルの継承の儀を\n　無事に　終えたのですね。\n　ひとまず　安心いたしました。\n<br>\n「しかし　最後の継承の儀を行うのは\n　術師　ガミルゴ……。\n<br>\n「人間であるエルジュが\n　今　彼のチカラを借りなくてはならないとは。\n　これも　神が与えた　試練なのでしょう。\n<br>\n「よろしければ　これからも　どうか\n　エルジュのチカラに　なってあげてください。": "I see that you have successfully completed the\nsuccession ceremony of Fostail. I am relieved\nfor the time being. However, the last\n<br>\nsuccession ceremony will be performed by a\nsurgeon, Gamilgo. I didn't realize that Erju,\na human, has to borrow his help now. This must\n<br>\nbe another trial given by God. I hope you will\ncontinue to help Erju in the future."
+    "「そうですか。フォステイルの継承の儀を\n　無事に　終えたのですね。\n　ひとまず　安心いたしました。\n<br>\n「しかし　最後の継承の儀を行うのは\n　術師　ガミルゴ……。\n<br>\n「人間であるエルジュが\n　今　彼のチカラを借りなくてはならないとは。\n　これも　神が与えた　試練なのでしょう。\n<br>\n「よろしければ　これからも　どうか\n　エルジュのチカラに　なってあげてください。": 
+    "Is it so. That you have successfully completed\nFostail's succession ceremony, yes. For the time being,\nI am relieved.\n<br>\nHowever, the final succession ceremony will be\nperformed by Sorcerer Gamilgo...\n<br>\nAs Erju is Human, currently, Gamilgo will be unwilling\nto lend him his power. This must be another trial\ngiven by the Goddess.\n<br>\nI hope you will continue to help Erju in the future."
   },
   "36090": {
     "「最後の継承の儀を行うのは\n　術師　ガミルゴ……。\n<br>\n「人間であるエルジュが\n　今　彼のチカラを借りなくてはならないとは。\n　これも　神が与えた　試練なのでしょう。": "The last rite of succession will be performed\nby Gamilgo, the surgeon. I didn't realize that\nErju, a human, has to borrow his help now.\n<br>\nThis must be another trial given by God."
