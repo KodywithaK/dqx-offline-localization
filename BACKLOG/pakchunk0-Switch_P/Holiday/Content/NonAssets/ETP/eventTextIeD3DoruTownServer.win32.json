@@ -339,31 +339,40 @@
     "「うちのギルドのマスターはなぁ。\n　言うことは　ち～っとばかり変わった　お方だが\n　天才っちゅうもんだから　仕方がねえっぺ。": "The master of our guild is a bit of an\noddball. He's a bit eccentric, but\nhe's a genius, so it can't be helped."
   },
   "49272": {
-    "「こちらは　愛と信頼のゴールド銀行\n　特別金庫の　カウンターでございます。\n<br>\n「当窓口は　通常のゴールド銀行サービスと異なり\n　特別な　お客さまのみに　ご利用いただける\n　サービスとなっております。\n<br>\n「お客さまは　特別金庫のカギを\n　お持ちではありませんね？　でしたら\n　通常窓口の方を　ご利用くださいませ。": "This is the counter of the Gold Bank\nof Love and Trust Special Safe. This\ncounter is different from the usual\n<br>\nGold Banking service and is only\navailable for special customers. You\ndo not have a Special Storage Key, do\n<br>\nyou? Then please use the regular\ncounter."
+    "「こちらは　愛と信頼のゴールド銀行\n　特別金庫の　カウンターでございます。\n<br>\n「当窓口は　通常のゴールド銀行サービスと異なり\n　特別な　お客さまのみに　ご利用いただける\n　サービスとなっております。\n<br>\n「お客さまは　特別金庫のカギを\n　お持ちではありませんね？　でしたら\n　通常窓口の方を　ご利用くださいませ。": 
+    "This is the counter of the Love and Trust Gold Bank's\nSpecial Storage.\n<br>\nThis counter differs from the usual Gold Bank service\nand its services are only available to special\ncustomers.\n<br>\nYou wouldn't happen to have a Special Storage Key,\ndo you? No? Then please use the regular counter."
   },
   "49273": {
-    "「こちらは　愛と信頼のゴールド銀行\n　特別金庫の　カウンターでございます。\n<br>\n「当窓口は　通常のゴールド銀行サービスと異なり\n　特別な　お客さまのみに　ご利用いただける\n　サービスとなっております。": "This is the counter of the Gold Bank\nof Love and Trust Special Safe. This\ncounter is different from the usual\n<br>\nGold Banking service and is only\navailable to special customers."
-  },
-  "49274": {
-    "「確かに　こちらは　当店で扱う\n　特別金庫のカギでございますね。\n　少々　お待ちください。": "Indeed, this is the Special Storage\nKey that we offer. Please wait a\nmoment."
-  },
-  "49275": {
-    "「……お待たせいたしました。\n　こちらが　お預かりしていた品物です。\n　ワレモノですので　気をつけてお持ちください。": "Thank you for your patience. Here are\nthe items we have been keeping. Please\nbe careful with it."
-  },
-  "49276": {
-    "「ありがとうございました。\n　またのご利用を　お待ちしています。": "Thank you very much. We look forward\nto serving you again."
+    "「こちらは　愛と信頼のゴールド銀行\n　特別金庫の　カウンターでございます。\n<br>\n「当窓口は　通常のゴールド銀行サービスと異なり\n　特別な　お客さまのみに　ご利用いただける\n　サービスとなっております。": 
+    "This is the counter of the Love and Trust Gold Bank's\nSpecial Storage.\n<br>\nThis counter differs from the usual Gold Bank service\nand its services are only available to special\ncustomers."
   },
   "49277": {
-    "メメリに　特別金庫のカギを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Do you want to give Memeri the Special\nStorage Key?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "メメリに　特別金庫のカギを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
+    "Give Memeri the Special Storage Key?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "49278": {
-    "<pc>は　メメリに\n特別金庫のカギを　渡した！": "<pc> gave Memeri a Special\nStorage Key!"
+    "<pc>は　メメリに\n特別金庫のカギを　渡した！": 
+    "<pc> gave Memeri the Special Storage Key!"
+  },
+  "49274": {
+    "「確かに　こちらは　当店で扱う\n　特別金庫のカギでございますね。\n　少々　お待ちください。": 
+    "Indeed, this is our establishment's Special Storage\nKey. Please wait a moment."
   },
   "49279": {
-    "メメリは　カウンターの裏へいき\n大切そうに　何かを持ってきた。": "Memeri went behind the counter and\nbrought something very important."
+    "メメリは　カウンターの裏へいき\n大切そうに　何かを持ってきた。": 
+    "Memeri went behind the counter and brought something\nvery important."
+  },
+  "49275": {
+    "「……お待たせいたしました。\n　こちらが　お預かりしていた品物です。\n　ワレモノですので　気をつけてお持ちください。": 
+    "...Thank you for your patience. Here is the item\nthat we have been keeping. It is fragile, so please\nbe careful with it."
   },
   "49280": {
-    "<pc>は\n赤い小ビン（だいじなもの）を　手に入れた！<me 60>": "<pc> received Small Red Phial\n(Key Item)!<me 60>"
+    "<pc>は\n赤い小ビン（だいじなもの）を　手に入れた！<me 60>": 
+    "<pc> obtained the Red Phial (Key Item)!<me 60>"
+  },
+  "49276": {
+    "「ありがとうございました。\n　またのご利用を　お待ちしています。": 
+    "Thank you very much. We look forward to serving\nyou again."
   },
   "144001": {
     "なんのヘンテツもない\nただの　井戸のようだ……。": "It seems to be just well without any\nkind of hentai."

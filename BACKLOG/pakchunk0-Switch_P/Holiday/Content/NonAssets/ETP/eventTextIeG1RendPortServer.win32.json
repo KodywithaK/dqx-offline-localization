@@ -350,53 +350,67 @@
   "188393": {
     "<attr><feel_happy_lv1><end_attr>「タイタス号の積荷整理は　ボクにまかせて。\n　スルスルスルっと　荷物を積んじゃうよ～。\n　……なんだか　魔法みたいだねっ！": "<attr><feel_happy_lv1><end_attr>Titus CargoLeave the organizing to me. I'll\nload it up smoothly and effortlessly. It's\nlike magic, isn't it?"
   },
-  "85880": {
-    "<pc>は\n<%sEV_QUE_NAME5>と　<%sEV_QUE_NAME4>を\n受け取った！<se_nots System Item>": "<pc> received <%sEV_QUE_NAME5> and\n<%sEV_QUE_NAME4>!<se_nots System Item>"
-  },
   "85882": {
-    "「私は　釣り老師ハルモス。\n　この世に生を受け　今に至るまで幾年月\n　数多の水辺で　魚を釣り続けてきた。\n<br>\n「時に　若者よ。釣り師には見えぬが……\n　澄んだ水面を思わせる　いい目をしているな。\n　名は……　ふむ。<pc>というのか。\n<br>\n「お前のような者を　待っていた。 \n　釣り道を極めるに値する　器量を持つ者をな。\n<br>\n「ちょうど　手元に　初心者用の釣り道具がある。 \n　私に弟子入りするのなら　これを与えて\n　すぐに　釣りを始められるようにしてやろう。\n<br>\n「<pc>よ。我が弟子となって \n　長く険しい釣り道を　歩んでいく覚悟はあるか？": "I am Old Fish Master Harmos, born into this\nworld and up until now, I have fished many\nwaters, many years. Sometimes, young man. You\n<br>\ndon't look like a fisherman, but you have eyes\nthat remind me of clear water. Name: Hm. Your\nname is <pc>, is it? I have been\n<br>\nwaiting for someone like you.I've been waiting\nfor someone like you, someone who has the\nability to master the art of fishing. I have a\n<br>\nbeginner's fishing tackle at hand.If you will\napprentice yourself to me, I will give you\nthis so that you can start fishing right away.\n<br>\nO <pc>. Are you ready to take the\nlong and arduous road of fishing as my\napprentice?"
+    "「私は　釣り老師ハルモス。\n　この世に生を受け　今に至るまで幾年月\n　数多の水辺で　魚を釣り続けてきた。\n<br>\n「時に　若者よ。釣り師には見えぬが……\n　澄んだ水面を思わせる　いい目をしているな。\n　名は……　ふむ。<pc>というのか。\n<br>\n「お前のような者を　待っていた。 \n　釣り道を極めるに値する　器量を持つ者をな。\n<br>\n「ちょうど　手元に　初心者用の釣り道具がある。 \n　私に弟子入りするのなら　これを与えて\n　すぐに　釣りを始められるようにしてやろう。\n<br>\n「<pc>よ。我が弟子となって \n　長く険しい釣り道を　歩んでいく覚悟はあるか？": 
+    "I am Old Master Fisher Harmos. From coming into this\nworld and up until my many years, I have fished\ncountless waters.\n<br>\nBy the way, young'un, you don't look like a fisher,\nbut... You've got good eyes; reminds me of the serene\nsurface of water.\n<br>\nYour name... Hmm. <pc>, ya say.\nI've been waitin' for someone like you. A capable one,\nworthy of carrying on the way of the fisher, ya see.\n<br>\nI just so happen to have a beginner's tackle on hand.\nIf ya become my apprentice, I give it to ya, so that\nya can start fishing right away.\n<br>\nSo, <pc>, are ya ready to walk on\nthat long, rugged way of the fisher?"
   },
   "85885": {
-    "「そうか。ならば　仕方ないな。\n　だが　もし　釣り道を歩む覚悟が決まったなら\n　ここを訪れるがいい。私は　待っているぞ。": "I see. Then we have no choice. But if you're\nready to take the fishing road, you can visit\nme here. I'll be waiting for you."
+    "「そうか。ならば　仕方ないな。\n　だが　もし　釣り道を歩む覚悟が決まったなら\n　ここを訪れるがいい。私は　待っているぞ。": 
+    "Is that so. Then, it can't be helped. But if ya\ndecide that ya're ready to take the way of the\nfisher, ya can visit me here. I'll be waitin'."
   },
   "85888": {
     "「よい返事だ。しかし　<pc>よ。\n　お前は　他にも　多くの頼まれごとを\n　引き受けているようだな。\n<br>\n「釣り道は　何かの片手間に歩めるほど \n　ゆるくはない。他の頼まれごとを　片付けてから\n　もう一度　ここへ来るがいい。": "Good reply. But, <pc>. You seem to be\ntaking on a lot of other requests. The road to\nfishing is not so loose that you can walk it\n<br>\non the side of something. You should come back\nhere again after you finish your other\nrequests."
   },
   "85890": {
-    "<attr><feel_happy_one><end_attr>「では　これを受け取れ。": "<attr><feel_happy_one><end_attr>Then take this."
+    "<attr><feel_happy_one><end_attr>「では　これを受け取れ。": 
+    "<attr><feel_happy_one><end_attr>Then take this."
+  },
+  "85880": {
+    "<pc>は\n<%sEV_QUE_NAME5>と　<%sEV_QUE_NAME4>を\n受け取った！<se_nots System Item>": 
+    "<pc> received the <%sEV_QUE_NAME5>\nand <%sEV_QUE_NAME4>!<se_nots System Item>"
   },
   "85892": {
     "「……と思ったが　そういえば　<pc>には\n　前にも　釣りざおとルアーを渡していたな。<bw_break>": "But then I remembered that I had given\n<pc> a fishing gadfly and a lure\nbefore.<bw_break>"
   },
   "85894": {
-    "「釣りざおとルアー　どちらが欠けても \n　釣りはできない。<bw_break>": "Fishing is not possible without either a\nfishing rod or a lure.<bw_break>"
+    "「釣りざおとルアー　どちらが欠けても \n　釣りはできない。<bw_break>": 
+    "Ya can't fish without a fishin' rod and lure.<bw_break>"
   },
   "85896": {
-    "「おまとめぶくろに　釣りざおとルアーが\n　入っているはずだ。一度　見ておくといい。\n　確認したら　私に話しかけてくれ。": "There should be a fishing rod and lure in the\ncurrencies bag. You might want to take a look.\nTalk to me when you see it."
+    "「おまとめぶくろに　釣りざおとルアーが\n　入っているはずだ。一度　見ておくといい。\n　確認したら　私に話しかけてくれ。": 
+    "That fishin' rod and lure should now be in that\n'Currency Bag' of yers. Have a look, it's okay.\nOnce ya've checked it, talk to me."
   },
   "85898": {
-    "「釣りざおとルアー　どちらが欠けても \n　釣りはできない。<open_irai><bw_break>": "Fishing is not possible without either a\nfishing rod or a lure.<open_irai><bw_break>"
+    "「釣りざおとルアー　どちらが欠けても \n　釣りはできない。<open_irai><bw_break>": 
+    "Ya can't fish without a fishin' rod and lure.<open_irai><bw_break>"
   },
   "85900": {
-    "「おまとめぶくろに　釣りざおとルアーが\n　入っているはずだ。一度　見ておくといい。\n　確認したら　私に話しかけてくれ。": "There should be a fishing rod and lure in the\ncurrencies bag. You might want to take a look.\nTalk to me when you see it."
+    "「おまとめぶくろに　釣りざおとルアーが\n　入っているはずだ。一度　見ておくといい。\n　確認したら　私に話しかけてくれ。": 
+    "That fishin' rod and lure should now be in that\n'Currency Bag' of yers. Have a look, it's okay.\nOnce ya've checked it, talk to me."
   },
   "85902": {
-    "<attr><feel_happy_lv1><end_attr>「釣りざおとルアーは　確認できたか。 \n　よし　ならば　水辺へ行くのだ。\n　<emoji FaceButton_Right>を押せば　釣りができるだろう。\n<br>\n「海や　川や　湖……　アストルティアには\n　釣りに適した場所が　豊富にある。\n　近場だと　そこの港の桟橋からも釣れるぞ。\n<br>\n「どこでもいいから　一度　釣りをしてみろ。 \n　実際に魚を釣れなくても　構わない。\n　まずは　経験してみることが　重要なのだ。": "<attr><feel_happy_lv1><end_attr>Did you check the lure and the fishing\nline?Good. Then go to the waterfront.<emoji FaceButton_Right>You can fish by pressing the ''FISHING'' button.\nThe sea, rivers and lakes of Astoltia are rich\nin places suitable for fishing. You can even\n<br>\nfish from the pier in the harbor. You can fish\nfrom the pier in the harbor.It doesn't matter\nif you don't catch any fish. It doesn't matter\n<br>\nif you don't actually catch a fish, the\nimportant thing is to experience it first."
+    "<attr><feel_happy_lv1><end_attr>「釣りざおとルアーは　確認できたか。 \n　よし　ならば　水辺へ行くのだ。\n　<emoji FaceButton_Right>を押せば　釣りができるだろう。\n<br>\n「海や　川や　湖……　アストルティアには\n　釣りに適した場所が　豊富にある。\n　近場だと　そこの港の桟橋からも釣れるぞ。\n<br>\n「どこでもいいから　一度　釣りをしてみろ。 \n　実際に魚を釣れなくても　構わない。\n　まずは　経験してみることが　重要なのだ。": 
+    "<attr><feel_happy_lv1><end_attr>Did you check the lure and the fishing\nline?Good. Then go to the waterfront.<emoji FaceButton_Right>You can fish by pressing the ''FISHING'' button.\nThe sea, rivers and lakes of Astoltia are rich\nin places suitable for fishing. You can even\n<br>\nfish from the pier in the harbor. You can fish\nfrom the pier in the harbor.It doesn't matter\nif you don't catch any fish. It doesn't matter\n<br>\nif you don't actually catch a fish, the\nimportant thing is to experience it first."
   },
   "85904": {
-    "「釣りざおとルアーがあれば　水辺へ行き \n　<emoji FaceButton_Right>を押して　釣りができるだろう。<open_irai><bw_break>": "If you have a fishing rod and a lure, go to\nthe water's edge.<emoji FaceButton_Right>Press ''+'' to go fishing.<open_irai><bw_break>"
+    "「釣りざおとルアーがあれば　水辺へ行き \n　<emoji FaceButton_Right>を押して　釣りができるだろう。<open_irai><bw_break>": 
+    "If ya have a fishin' rod and a lure, ya should be\nable go to the water's edge and press <emoji FaceButton_Right> to go fish.<open_irai><bw_break>"
   },
   "85906": {
-    "「海や　川や　湖……　アストルティアには\n　釣りに適した場所が　豊富にある。\n　近場だと　そこの港の桟橋からも釣れるぞ。<bw_break>": "The sea, rivers and lakes of Astoltia offer\nplenty of good fishing spots. You can even\nfish from the pier in the nearby harbor.<bw_break>"
+    "「海や　川や　湖……　アストルティアには\n　釣りに適した場所が　豊富にある。\n　近場だと　そこの港の桟橋からも釣れるぞ。<bw_break>": 
+    "Seas, rivers, lakes... Astoltia's full of fittin'\nfishin' spots. Even nearby, ya can fish from the\nharbor's pier.<bw_break>"
   },
   "85908": {
-    "「どこでもいいから　一度　釣りをしてみろ。 \n　実際に魚を釣れなくても　構わない。\n　まずは　経験してみることが　重要なのだ。": "Just try fishing once, anywhere.It doesn't\nmatter if you don't catch any fish. It doesn't\nmatter if you don't actually catch a fish."
+    "「どこでもいいから　一度　釣りをしてみろ。 \n　実際に魚を釣れなくても　構わない。\n　まずは　経験してみることが　重要なのだ。": 
+    "Anywhere's fine to try fishin' for the first time.\nEven if ya don't actually catch anything, it doesn't\nmatter."
   },
   "85910": {
-    "<attr><feel_happy_one><end_attr>「きちんと　釣りをしてきたようだな。 \n　これで　釣りの基本は　覚えられただろう。\n　釣り師　<pc>の誕生というわけだ。\n<br>\n「これから　私のもとを訪れた際には \n　釣りの仕事を紹介してやる。それと　そこにいる\n　おさかな交換員ピッチョに　話を通しておこう。\n<br>\n「ピッチョに　魚を渡せば 　相応の数の\n　おさかなコインを　もらえる。\n　コインがたまれば　専用の景品と交換できるぞ。": "<attr><feel_happy_one><end_attr>It seems you have been fishing properly.Now\nyou have learned the basics of fishing. You\nare now a fisherman <pc>. From now\n<br>\non, when you visit me, I will introduce you to\nthe fishing business. Also, I'll talk to\nPicho, the fish trader there. If you give\n<br>\nPicho a fish, you will receive the\ncorresponding number of fish coins. Once you\nhave enough coins, you can exchange them for\n<br>\nspecial prizes."
+    "<attr><feel_happy_one><end_attr>「きちんと　釣りをしてきたようだな。 \n　これで　釣りの基本は　覚えられただろう。\n　釣り師　<pc>の誕生というわけだ。\n<br>\n「これから　私のもとを訪れた際には \n　釣りの仕事を紹介してやる。それと　そこにいる\n　おさかな交換員ピッチョに　話を通しておこう。\n<br>\n「ピッチョに　魚を渡せば 　相応の数の\n　おさかなコインを　もらえる。\n　コインがたまれば　専用の景品と交換できるぞ。": 
+    "<attr><feel_happy_one><end_attr>It seems ya've been fishing properly. With that,\nya've learned the basics of fishing. That means ya\nare now a fisher, <pc>.\n<br>\nFrom now on, when ya visit me, I'll refer ya some\nfishin' jobs. Also, I'll talk to Fish Exchange\nMember, Picho, over there.\n<br>\nIf you give Picho a fish, he'll give ya a fittin'\nnumber of fish coins. Once ya've enough coins, ya\ncan exchange them for special prizes."
   },
   "85912": {
-    "「釣り道は　１日にして成らず。\n　毎日　１匹ずつでもいい。\n　釣り続けることが　お前の糧になるだろう。\n<br>\n「そうすれば　釣り師としての実力……\n　すなわち　釣りレベルが上昇し\n　釣り道具の扱い方も　上手くなるはずだ。\n<br>\n「ただ　今のままでは　釣りレベル２０で \n　釣り師としての　成長の限界が訪れるだろう。\n<br>\n「まずは　釣りレベル１8を目指して\n　より大きく　より強い魚を釣りまくり\n　どんどん　ウデをみがくのだ！　我が弟子よ！": "The road to fishing is not made in a day. Even\nif you catch one fish every day, it's okay.\nKeep on fishing, and you will become a better\n<br>\nangler. If you do so, your ability as an\nangler, in other words, your fishing level\nwill increase, and you will become better at\n<br>\nhandling fishing tackle. However, if you\ncontinue fishing at your current level, you\nwill reach the limit of your growth as an\n<br>\nangler at fishing level 20. First of all, you\nshould aim for Fishing Level 18, catch bigger\nand stronger fish, and improve your skill more\n<br>\nand more! My apprentice!"
+    "「釣り道は　１日にして成らず。\n　毎日　１匹ずつでもいい。\n　釣り続けることが　お前の糧になるだろう。\n<br>\n「そうすれば　釣り師としての実力……\n　すなわち　釣りレベルが上昇し\n　釣り道具の扱い方も　上手くなるはずだ。\n<br>\n「ただ　今のままでは　釣りレベル２０で \n　釣り師としての　成長の限界が訪れるだろう。\n<br>\n「まずは　釣りレベル１8を目指して\n　より大きく　より強い魚を釣りまくり\n　どんどん　ウデをみがくのだ！　我が弟子よ！": 
+    "The Way of Fishin' isn't finished in a day. But a\nfish a day is okay. Keep on fishin' and it'll be yer\nfood.\n<br>\nDo that and yer true ability as a fisher...\nIn other words, yer fishin' level will increase, and\nya'll be even better at handlin' yer fishin' tackle.\n<br>\nHowever, as it is, ya should reach your limit as a\nfisher as fishin' level 20.\n<br>\nFirst, ya should aim for Fishin' Level 18, then\nbigger and stronger fish will turn up one after\nanother to let ya improve yer skills! My apprentice!"
   },
   "89094": {
     "<attr><feel_happy_one><end_attr>「きちんと　釣りをしてきたようだな。 \n　これで　釣りの基本は　覚えられただろう。\n<br>\n「初心　忘れるべからず　という言葉がある。\n　基本に立ち返ることも　学びになるのだ。\n　またひとつ　成長したな　<pc>よ。": "<attr><feel_happy_one><end_attr>It seems you have been fishing properly.Now\nyou have learned the basics of fishing. There\nis a saying, ''Never forget your first love.\n<br>\nGoing back to the basics is also a learning\nexperience. You have grown up one more time,\n<pc>."
@@ -456,7 +470,7 @@
     "「それでこそ　我が弟子だ。 \n　では　次の試練の内容を　くわしく伝えよう。\n<br>\n「お前が　立ち向かうべき相手は　ジンベエザメ！\n　ヴェリナード領南や　ヴェリナード領西などに\n　生息するジンベエザメを　釣り上げてくるのだ！ \n<br>\n「見事　釣り上げられれば　レベル２６以上の \n　釣り師を目指すことを　許可しよう。\n　無事に釣れたら　ここへ報告に来い。\n<br>\n「さあ　<pc>よ。この試練を乗り越え \n　釣り道の　さらなる高みを　目指すのだ！": "That is my disciple.Now, tell me more about\nthe contents of this next trial. You must\ncatch a Whale Shark that lives in Verinard\n<br>\nSouth or Verinard West!If you successfully\ncatch a Whale Shark, I will allow you to\nbecome a level 26 or higher angler. If you\n<br>\nsuccessfully catch a Whale Shark, you will be\nallowed to become a level 26 or higher angler.\nCome on, <pc>. Overcome this trial\n<br>\nand aim for a higher level of fishing!"
   },
   "146772": {
-    "ジンベエザメを　釣り上げた！\n港町レンドア南の　釣り老師ハルモスへ\n報告しに行こう！": "You have caught a Whale Shark! Let's go and\nreport it to Old Fish Master Harmos in South\nPort Lendor!"
+    "ジンベエザメを　釣り上げた！\n港町レンドア南の　釣り老師ハルモスへ\n報告しに行こう！": "You have caught a Whale Shark! Let's go and\nreport it to Old Master Fisher Harmos in South\nPort Lendor!"
   },
   "146773": {
     "「もう一段上の釣り師になるため\n　巨大魚である　ジンベエザメに挑み\n　己のチカラで釣り上げるのだ。<open_irai><bw_break>": "To become a better angler, you must challenge\nthe giant Whale Shark and catch it with your\nown strength.<open_irai><bw_break>"
@@ -498,7 +512,7 @@
     "「それでこそ　我が弟子だ。 \n　では　次の試練の内容を　くわしく伝えよう。\n<br>\n「お前が　立ち向かうべき相手は……電気ウナギ！ \n　この時期になると　ブーナー熱帯雨林に現れて\n　他の魚たちを　放電で困らせているのだ。\n<br>\n「釣り道を目指す者として　時には\n　魚たちの平穏も　守らなければならない。\n　それには　こいつのサンプルが必要なのだ。\n<br>\n「見事　釣り上げられれば　レベル３１以上の \n　釣り師を目指すことを　許可しよう。\n　無事に釣れたら　ここへ報告に来い。\n<br>\n「さあ　<pc>よ。この試練を乗り越え \n　釣り道の　さらなる高みを　目指すのだ！": "That is my disciple.Now, tell me more about\nthe contents of the next trial. He appears in\nthe Booner Rainforest at this time of year and\n<br>\nannoys the other fish by discharging\nelectricity. As a fisherman, you must\nsometimes protect the peace of the fish. To do\n<br>\nthat, we need a sample of this guy. If you\ncatch him successfully, I will allow you to\nbecome a level 31 angler or above. If you\n<br>\ncatch it successfully, come here and report\nback to me. Come on, <pc>. Overcome\nthis trial and aim for a higher level of\n<br>\nfishing!"
   },
   "188426": {
-    "電気ウナギを　釣り上げた！\n港町レンドア南の　釣り老師ハルモスへ\n報告しに行こう！": "I caught an Electric Eel! Let's go report it\nto Old Fish Master Harmos at South Port\nLendor!"
+    "電気ウナギを　釣り上げた！\n港町レンドア南の　釣り老師ハルモスへ\n報告しに行こう！": "I caught an Electric Eel! Let's go report it\nto Old Master Fisher Harmos at South Port\nLendor!"
   },
   "188427": {
     "「もう一段上の釣り師になるため\n　ブーナー熱帯雨林に向かい　電気ウナギに挑み\n　己のチカラで釣り上げるのだ。<open_irai><bw_break>": "To become a better angler, you must head to\nthe Booner Rainforest, challenge the Electric\nEel, and catch it with your own power.<open_irai><bw_break>"
@@ -531,7 +545,7 @@
     "「それでこそ　我が弟子だ。 \n　では　次の試練の内容を　くわしく伝えよう。\n<br>\n「お前が　立ち向かう相手は　ノコギリエイ・黄！ \n　レンダーシア大陸の　グランゼドーラ領などで\n　幻の魚を　釣り上げてくるのだ。\n<br>\n「この魚は　本来青い体色をしているのだが \n　黄色に輝く　特殊な個体が\n　グランゼドーラ領などに　生息するという。\n<br>\n「見事　釣り上げられれば　レベル３６以上の \n　釣り師を目指すことを　許可しよう。\n　無事に釣れたら　ここへ報告に来い。\n<br>\n「さあ　<pc>よ。この試練を乗り越え \n　釣り道の　さらなる高みを　目指すのだ！": "That is my disciple.Now, tell me more about\nthe contents of this next trial. You are to\ncatch a phantom fish in the Gran Zedora\n<br>\nTerritory of the Lendersia continent. This\nfish is originally blue in color, but there\nare special yellow-colored individuals that\n<br>\ncan be found in the Gran Zedora Territory and\nother areas. If you successfully catch a fish,\nI will allow you to become a level 36 or\n<br>\nhigher angler. If you catch it successfully,\ncome here and report back to me. Come on,\n<pc>. Overcome this trial and aim for\n<br>\na higher level of fishing!"
   },
   "210451": {
-    "ノコギリエイ・黄を　釣り上げた！\n港町レンドア南の　釣り老師ハルモスへ\n報告しに行こう！": "We caught a Yellow Sawfish! Let's go report it\nto Old Fish Master Harmos at South Port\nLendor!"
+    "ノコギリエイ・黄を　釣り上げた！\n港町レンドア南の　釣り老師ハルモスへ\n報告しに行こう！": "We caught a Yellow Sawfish! Let's go report it\nto Old Master Fisher Harmos at South Port\nLendor!"
   },
   "210452": {
     "「もう一段上の釣り師になるため\n　グランゼドーラ領などに向かい　\n　ノコギリエイ・黄に挑み　釣り上げるのだ。<open_irai><bw_break>": "To take your fishing skills to the next level,\nhead to the Gran Zedora Territory or other\nareas and take on and catch Yellow Sawfish.<open_irai><bw_break>"
