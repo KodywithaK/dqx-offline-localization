@@ -54,7 +54,7 @@
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": "You have been offered a quest.\nWill you accept it?\n<select>\nYes\nNo\n<select_end><close>"
   },
   "19156": {
-    "<start_lip_sync n01514 _normal m00001>「それでは　頼んだぞ。\n　まず　先に森の奥へ行った　ユウギリに追いつき\n　具体的にどうするか　相談して決めるのじゃ。<stop_lip_animation n01514 CLOSE_MOUTH>": "<start_lip_sync n01514 _normal m00001>Alright then, first hurry and catch up with\nYugiri, who is already headed to the forest.\nWhen you find him, come up with a game\n<br>\plan to deal with this situation.<stop_lip_animation n01514 CLOSE_MOUTH>"
+    "<start_lip_sync n01514 _normal m00001>「それでは　頼んだぞ。\n　まず　先に森の奥へ行った　ユウギリに追いつき\n　具体的にどうするか　相談して決めるのじゃ。<stop_lip_animation n01514 CLOSE_MOUTH>": "<start_lip_sync n01514 _normal m00001>Alright then, first hurry and catch up with\nYugiri, who is already headed to the forest.\nWhen you find him, come up with a game\n<br>\nplan to deal with this situation.<stop_lip_animation n01514 CLOSE_MOUTH>"
   },
   "26332": {
     "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "You received the quest\n\"<%sev_quest_name>\".<me 74>"
