@@ -1,0 +1,167 @@
+{
+  "102417": {
+    "<attr><feel_happy_one><end_attr>哎呀……<pc>，怎麼了？\n你該不會是很在意那裡的小船吧？<yesno_nc><break>": "<attr><feel_happy_one><end_attr>哎呀……<pc>，怎麼了？\n你該不會是很在意那裡的小船吧？<yesno_nc><break>"
+  },
+  "102418": {
+    "<attr><feel_happy_lv3><end_attr>……那就好。\n只要有你和我們在就夠了，\n其他的都不需要……\n<br>\n<pc>……\n你別跟我走散喔。\n不安的時候，就呼喚我的名字……\n<select>\n安露西亞\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>……那就好。\n只要有你和我們在就夠了，\n其他的都不需要……\n<br>\n<pc>……\n你別跟我走散喔。\n不安的時候，就呼喚我的名字……\n<select>\n安露西亞\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "102419": {
+    "<attr><feel_think_one><end_attr>只要搭乘那艘小船，\n就能離開這座島，但是……\n你應該不會拋下我們離開吧？<yesno_nc><break>": "<attr><feel_think_one><end_attr>只要搭乘那艘小船，\n就能離開這座島，但是……\n你應該不會拋下我們離開吧？<yesno_nc><break>"
+  },
+  "102420": {
+    "<attr><feel_happy_lv3><end_attr>呵呵，我就知道。\n永遠跟我們在這裡生活吧……\n<br>\n<pc>……\n你別跟我走散喔。\n不安的時候，就呼喚我的名字……\n<select>\n安露西亞\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>呵呵，我就知道。\n永遠跟我們在這裡生活吧……\n<br>\n<pc>……\n你別跟我走散喔。\n不安的時候，就呼喚我的名字……\n<select>\n安露西亞\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "102421": {
+    "<attr><feel_sad_one><end_attr>怎麼這樣，好過分……<bw_break>": "<attr><feel_sad_one><end_attr>怎麼這樣，好過分……<bw_break>"
+  },
+  "102422": {
+    "<attr><feel_happy_one><end_attr>你要不要重新考慮？\n忘記其他事情，\n永遠跟我們一起在這裡生活吧？<yesno_nc><break>": "<attr><feel_happy_one><end_attr>你要不要重新考慮？\n忘記其他事情，\n永遠跟我們一起在這裡生活吧？<yesno_nc><break>"
+  },
+  "102423": {
+    "<attr><feel_happy_lv3><end_attr>我就知道你會這麼說。\n沒錯……\n你只要永遠跟我們一起在這裡生活就好了……\n<br>\n<pc>……\n你別跟我走散喔。\n不安的時候，就呼喚我的名字……\n<select>\n安露西亞\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>我就知道你會這麼說。\n沒錯……\n你只要永遠跟我們一起在這裡生活就好了……\n<br>\n<pc>……\n你別跟我走散喔。\n不安的時候，就呼喚我的名字……\n<select>\n安露西亞\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "102424": {
+    "<attr><feel_sad_one><end_attr>這樣啊……\n我說了這麼多，也無法改變你的心意。\n<br>\n……畢竟你努力到了這一步。\n我早就知道你會一往無前，\n不會輸給任何誘惑。<bw_break>": "<attr><feel_sad_one><end_attr>這樣啊……\n我說了這麼多，也無法改變你的心意。\n<br>\n……畢竟你努力到了這一步。\n我早就知道你會一往無前，\n不會輸給任何誘惑。<bw_break>"
+  },
+  "103265": {
+    "<attr><feel_happy_lv3><end_attr><pc>，你怎麼了？\n我會一直在這裡喔。\n<br>\n你也永遠待在這裡吧。\n沒錯……什麼都不用想……\n永遠都不用…………": "<attr><feel_happy_lv3><end_attr><pc>，你怎麼了？\n我會一直在這裡喔。\n<br>\n你也永遠待在這裡吧。\n沒錯……什麼都不用想……\n永遠都不用…………"
+  },
+  "113231": {
+    "<attr><feel_happy_one><end_attr>……我們不過是用來阻礙你的幻影。\n<br>\n不過大家都是與你有關……\n或是未來會結下緣分的人。\n受到以你為名的命運引導，出現在這裡。\n<br>\n……好了，<pc>，去吧。\n別忘了，\n你身上還背負著許多人的未來……": "<attr><feel_happy_one><end_attr>……我們不過是用來阻礙你的幻影。\n<br>\n不過大家都是與你有關……\n或是未來會結下緣分的人。\n受到以你為名的命運引導，出現在這裡。\n<br>\n……好了，<pc>，去吧。\n別忘了，\n你身上還背負著許多人的未來……"
+  },
+  "102425": {
+    "<attr><feel_normal_lv3><end_attr>嗨，<pc>。\n我等你很久了。\n你以後會一直待在這裡吧？\n<br>\n怕什麼，不必擔心那麼多。\n你別想些有的沒的，\n只要在我們旁邊開心得笑就好了！\n<br>\n嗯？喂喂喂，你該不會忘了我的名字吧？\n開頭是迪，結尾是哥喔！\n<select>\n迪亞哥\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_normal_lv3><end_attr>嗨，<pc>。\n我等你很久了。\n你以後會一直待在這裡吧？\n<br>\n怕什麼，不必擔心那麼多。\n你別想些有的沒的，\n只要在我們旁邊開心得笑就好了！\n<br>\n嗯？喂喂喂，你該不會忘了我的名字吧？\n開頭是迪，結尾是哥喔！\n<select>\n迪亞哥\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "103266": {
+    "<attr><feel_normal_lv3><end_attr>哈哈，答對了！\n不過就算你不叫我的名字，\n我也不會離開你。\n<br>\n你也不可以離開我，\n要一直待在這裡喔！": "<attr><feel_normal_lv3><end_attr>哈哈，答對了！\n不過就算你不叫我的名字，\n我也不會離開你。\n<br>\n你也不可以離開我，\n要一直待在這裡喔！"
+  },
+  "102426": {
+    "<attr><feel_happy_lv3><end_attr><pc>大人真的會\n跟我們一起生活對吧。\n<br>\n我會很努力的！\n為了<pc>大人，\n我什麼都願意做！\n<br>\n那個，<pc>大人，\n您不介意的話，請說出我的名字……\n算了，當我沒說！\n<select>\n芙拉\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr><pc>大人真的會\n跟我們一起生活對吧。\n<br>\n我會很努力的！\n為了<pc>大人，\n我什麼都願意做！\n<br>\n那個，<pc>大人，\n您不介意的話，請說出我的名字……\n算了，當我沒說！\n<select>\n芙拉\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "103267": {
+    "<attr><feel_happy_lv3><end_attr>是的～<pc>大人。\n您叫我對不對？\n<br>\n就算沒事，\n也可以隨時叫我的名字喔。\n因為我很高興能聽到您叫我！": "<attr><feel_happy_lv3><end_attr>是的～<pc>大人。\n您叫我對不對？\n<br>\n就算沒事，\n也可以隨時叫我的名字喔。\n因為我很高興能聽到您叫我！"
+  },
+  "102427": {
+    "<attr><feel_happy_lv3><end_attr>嗨，<pc>。\n雖然我討厭跟人結伴，\n不過如果是跟你，要我在這裡生活也可以。\n<br>\n我會順便幫你做吃的。\n別看我這樣，我很擅長做菜喔。\n只是我平常都自己一個人吃……\n<br>\n……自從跟你一起旅行之後，\n我偶爾會覺得……\n跟別人一起吃飯真不錯。\n<br>\n然後用名字稱呼彼此……\n哈，真不像我會說的話。你還是忘了吧！\n好了，來做菜！\n<select>\n修扎\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>嗨，<pc>。\n雖然我討厭跟人結伴，\n不過如果是跟你，要我在這裡生活也可以。\n<br>\n我會順便幫你做吃的。\n別看我這樣，我很擅長做菜喔。\n只是我平常都自己一個人吃……\n<br>\n……自從跟你一起旅行之後，\n我偶爾會覺得……\n跟別人一起吃飯真不錯。\n<br>\n然後用名字稱呼彼此……\n哈，真不像我會說的話。你還是忘了吧！\n好了，來做菜！\n<select>\n修扎\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "103268": {
+    "<attr><feel_happy_lv3><end_attr>哇啊，<pc>！\n別突然叫我名字，\n我差點就切歪了。\n<br>\n不過就算因為你受傷，\n我也沒差。": "<attr><feel_happy_lv3><end_attr>哇啊，<pc>！\n別突然叫我名字，\n我差點就切歪了。\n<br>\n不過就算因為你受傷，\n我也沒差。"
+  },
+  "102428": {
+    "<attr><feel_happy_lv3><end_attr>啊……<pc>……\n那個，呃……\n討厭啦，我都不好意思了。\n<br>\n呃，那個……該怎麼說呢……\n可以的話，請你靠近一點。\n小女子不才，請多多包涵。\n<br>\n然後，那個……\n如果你願意叫我的名字，\n我會很高興的……說說的啦……\n<select>\n梅優\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>啊……<pc>……\n那個，呃……\n討厭啦，我都不好意思了。\n<br>\n呃，那個……該怎麼說呢……\n可以的話，請你靠近一點。\n小女子不才，請多多包涵。\n<br>\n然後，那個……\n如果你願意叫我的名字，\n我會很高興的……說說的啦……\n<select>\n梅優\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "103269": {
+    "<attr><feel_happy_lv3><end_attr>聽見<pc>叫我的名字，\n還是會讓我心跳不已呢。\n<br>\n不過……我很高興。\n希望你能一直待在這裡，\n繼續叫我的名字……": "<attr><feel_happy_lv3><end_attr>聽見<pc>叫我的名字，\n還是會讓我心跳不已呢。\n<br>\n不過……我很高興。\n希望你能一直待在這裡，\n繼續叫我的名字……"
+  },
+  "102429": {
+    "<pipipi_high>……<pc>。\n<pc>，醒來吧……": "<pipipi_high>……<pc>。\n<pc>，醒來吧……"
+  },
+  "102430": {
+    "<attr><feel_happy_lv3><end_attr>我竟然可以跟<pc>永遠生活在一起，\n簡直像做夢一樣！\n<br>\n我一直覺得如果自己\n能有個哥哥而不是妹妹，\n希望是像你這樣的人當哥哥！\n<br>\n你也可以像叫妹妹一樣，\n叫我莉茲喔。\n你可以試著叫我的名字嗎？\n<select>\n莉茲\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>我竟然可以跟<pc>永遠生活在一起，\n簡直像做夢一樣！\n<br>\n我一直覺得如果自己\n能有個哥哥而不是妹妹，\n希望是像你這樣的人當哥哥！\n<br>\n你也可以像叫妹妹一樣，\n叫我莉茲喔。\n你可以試著叫我的名字嗎？\n<select>\n莉茲\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "103270": {
+    "<attr><feel_happy_lv3><end_attr>我在這，哥哥！\n<br>\n……啊，<pc>，對不起。\n我不小心把你叫成哥哥了。\n因為我希望可以跟你成為真正的家人。": "<attr><feel_happy_lv3><end_attr>我在這，哥哥！\n<br>\n……啊，<pc>，對不起。\n我不小心把你叫成哥哥了。\n因為我希望可以跟你成為真正的家人。"
+  },
+  "102431": {
+    "<attr><feel_happy_lv3><end_attr>哎呀，<pc>。\n以後我每天都會幫你做好吃的料理。\n<br>\n什麼？你懷疑我不會做飯嗎？\n要是你敢抱怨，\n我就餵你吃發霉的糰子！\n<br>\n為了你，我特地去找\n毛球烹飪工匠好好修行過了，\n所以不用擔心！\n<br>\n聽好囉！\n你只要在那邊乖乖等我送上料理就可以了。\n絕對不准叫我喔！\n<select>\n露娜娜\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>哎呀，<pc>。\n以後我每天都會幫你做好吃的料理。\n<br>\n什麼？你懷疑我不會做飯嗎？\n要是你敢抱怨，\n我就餵你吃發霉的糰子！\n<br>\n為了你，我特地去找\n毛球烹飪工匠好好修行過了，\n所以不用擔心！\n<br>\n聽好囉！\n你只要在那邊乖乖等我送上料理就可以了。\n絕對不准叫我喔！\n<select>\n露娜娜\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "103271": {
+    "<attr><feel_happy_lv3><end_attr><pc>，怎麼了？\n我做菜才做到一半，\n你老實等著。\n<br>\n還是說，你已經等不及了？\n呵呵……你真貪吃。\n好啦，我做快一點。": "<attr><feel_happy_lv3><end_attr><pc>，怎麼了？\n我做菜才做到一半，\n你老實等著。\n<br>\n還是說，你已經等不及了？\n呵呵……你真貪吃。\n好啦，我做快一點。"
+  },
+  "102432": {
+    "<attr><feel_happy_lv3><end_attr>……<pc>，\n我已經不再是引導你的賢者了。\n往後換你來為我引路吧。\n<br>\n你會怎麼改變我呢？\n真令人期待啊，呵呵……\n<select>\n露仙妲大人……\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>……<pc>，\n我已經不再是引導你的賢者了。\n往後換你來為我引路吧。\n<br>\n你會怎麼改變我呢？\n真令人期待啊，呵呵……\n<select>\n露仙妲大人……\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "103272": {
+    "<attr><feel_happy_lv3><end_attr><pc>，你叫我嗎？\n呵，原來如此。\n你想幫我擦油，避免皮膚受傷吧？<yesno><break>": "<attr><feel_happy_lv3><end_attr><pc>，你叫我嗎？\n呵，原來如此。\n你想幫我擦油，避免皮膚受傷吧？<yesno><break>"
+  },
+  "103273": {
+    "<attr><feel_happy_lv3><end_attr>好，那就請你幫我吧，每個地方都要擦到喔。": "<attr><feel_happy_lv3><end_attr>好，那就請你幫我吧，每個地方都要擦到喔。"
+  },
+  "103274": {
+    "<attr><feel_happy_lv3><end_attr>……<pc>，謝謝。\n為了你，\n我會永保這份美貌……": "<attr><feel_happy_lv3><end_attr>……<pc>，謝謝。\n為了你，\n我會永保這份美貌……"
+  },
+  "103275": {
+    "<attr><feel_sad_lv3><end_attr>……這樣啊，真可惜。": "<attr><feel_sad_lv3><end_attr>……這樣啊，真可惜。"
+  },
+  "102433": {
+    "<attr><feel_normal_lv3><end_attr>我討厭人類……\n可是，<pc>……\n只有你跟其他人不同。\n<br>\n如果是跟你在一起，我就能改變自己。\n所以可以請你永遠陪在我身邊嗎？\n希望你能叫我的名字……\n<select>\n薩利亞斯\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_normal_lv3><end_attr>我討厭人類……\n可是，<pc>……\n只有你跟其他人不同。\n<br>\n如果是跟你在一起，我就能改變自己。\n所以可以請你永遠陪在我身邊嗎？\n希望你能叫我的名字……\n<select>\n薩利亞斯\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "103276": {
+    "<attr><feel_normal_lv3><end_attr>啊啊……一聽見你叫我的名字，\n我的心裡就變得好平靜。\n<br>\n如果是跟你一起，我就能改變，\n所以請你哪裡都別去。": "<attr><feel_normal_lv3><end_attr>啊啊……一聽見你叫我的名字，\n我的心裡就變得好平靜。\n<br>\n如果是跟你一起，我就能改變，\n所以請你哪裡都別去。"
+  },
+  "102434": {
+    "<attr><feel_happy_lv3><end_attr>啊，<pc>！\n我想待在你身邊，\n溫柔地治癒你。\n<br>\n所以跟我一起永遠住在這裡好嗎？\n拜託嘛，可以吧？\n你願意的話，請叫我的名字吧！\n<br>\n<select>\n賽拉菲\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>啊，<pc>！\n我想待在你身邊，\n溫柔地治癒你。\n<br>\n所以跟我一起永遠住在這裡好嗎？\n拜託嘛，可以吧？\n你願意的話，請叫我的名字吧！\n<br>\n<select>\n賽拉菲\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "103277": {
+    "<attr><feel_happy_lv3><end_attr>……嘿嘿。\n一聽見<pc>叫我的名字，\n我就覺得好幸福。\n<br>\n所以我希望以後你也能\n一直叫我名字！": "<attr><feel_happy_lv3><end_attr>……嘿嘿。\n一聽見<pc>叫我的名字，\n我就覺得好幸福。\n<br>\n所以我希望以後你也能\n一直叫我名字！"
+  },
+  "102435": {
+    "<attr><feel_normal_lv3><end_attr>我被稱為技能大師已經有好一段時間，\n對這個名字也有點膩了。\n<br>\n以後的話，我想想……\n讓大家叫我<pc>專家好像也不錯呢。\n呵呵……\n<br>\n你不介意的話，\n可以叫我<pc>專家看看嗎？\n<select>\n<pc>專家\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_normal_lv3><end_attr>我被稱為技能大師已經有好一段時間，\n對這個名字也有點膩了。\n<br>\n以後的話，我想想……\n讓大家叫我<pc>專家好像也不錯呢。\n呵呵……\n<br>\n你不介意的話，\n可以叫我<pc>專家看看嗎？\n<select>\n<pc>專家\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "103278": {
+    "<attr><feel_normal_lv3><end_attr>呵呵……聽你呼喚我的名字，\n感覺果然很好。\n<br>\n話說回來，如果你要做日光浴的話，\n要不要我來幫你擦油呢？<yesno><break>": "<attr><feel_normal_lv3><end_attr>呵呵……聽你呼喚我的名字，\n感覺果然很好。\n<br>\n話說回來，如果你要做日光浴的話，\n要不要我來幫你擦油呢？<yesno><break>"
+  },
+  "103279": {
+    "<attr><feel_normal_lv3><end_attr>我知道了。\n那麼，請你躺在那邊吧。\n放鬆身體，把一切交給我……": "<attr><feel_normal_lv3><end_attr>我知道了。\n那麼，請你躺在那邊吧。\n放鬆身體，把一切交給我……"
+  },
+  "103280": {
+    "<attr><feel_normal_lv3><end_attr>……擦完了。\n曬成小麥色的你應該一樣魅力十足，\n我會好好期待。": "<attr><feel_normal_lv3><end_attr>……擦完了。\n曬成小麥色的你應該一樣魅力十足，\n我會好好期待。"
+  },
+  "103281": {
+    "<attr><feel_normal_lv3><end_attr>……這樣啊，真是可惜。": "<attr><feel_normal_lv3><end_attr>……這樣啊，真是可惜。"
+  },
+  "102436": {
+    "似乎在不知不覺間陷入了沉睡。\n<pc>醒來了。": "似乎在不知不覺間陷入了沉睡。\n<pc>醒來了。"
+  },
+  "103282": {
+    "<pc>已經把油擦在露仙妲身上了！": "<pc>已經把油擦在露仙妲身上了！"
+  },
+  "103283": {
+    "技能大師已經把油擦在<pc>身上了！": "技能大師已經把油擦在<pc>身上了！"
+  },
+  "103790": {
+    "有一盞不可思議的油燈。\n這盞油燈的亮度似乎可以調整。\n要改變亮度嗎？<yesno><close>": "有一盞不可思議的油燈。\n這盞油燈的亮度似乎可以調整。\n要改變亮度嗎？<yesno><close>"
+  },
+  "103791": {
+    "<pc>把油燈調亮了。\n油燈發出光芒，\n太陽升到了正上方。": "<pc>把油燈調亮了。\n油燈發出光芒，\n太陽升到了正上方。"
+  },
+  "103792": {
+    "<pc>把油燈調暗了。\n油燈噴出黑霧，\n周圍變成一片暮色。": "<pc>把油燈調暗了。\n油燈噴出黑霧，\n周圍變成一片暮色。"
+  },
+  "103794": {
+    "有一面不可思議的鏡子。<bw_break>": "有一面不可思議的鏡子。<bw_break>"
+  },
+  "103795": {
+    "有一群美麗的女人在鏡子的另一側招手。\n要觸摸鏡子嗎？<yesno><close>": "有一群美麗的女人在鏡子的另一側招手。\n要觸摸鏡子嗎？<yesno><close>"
+  },
+  "103796": {
+    "<pc>輕輕地觸摸鏡子。\n<br>\n<pc>的身體緩緩地\n被拉進鏡子裡……<se_nots joutyu tag_warp_in>": "<pc>輕輕地觸摸鏡子。\n<br>\n<pc>的身體緩緩地\n被拉進鏡子裡……<se_nots joutyu tag_warp_in>"
+  },
+  "103797": {
+    "有一群帥氣的男人在鏡子的另一側招手。\n要觸摸鏡子嗎？<yesno><close>": "有一群帥氣的男人在鏡子的另一側招手。\n要觸摸鏡子嗎？<yesno><close>"
+  },
+  "103798": {
+    "<pc>輕輕地觸摸鏡子。\n<br>\n<pc>的身體緩緩地\n被拉進鏡子裡……<se_nots joutyu tag_warp_in>": "<pc>輕輕地觸摸鏡子。\n<br>\n<pc>的身體緩緩地\n被拉進鏡子裡……<se_nots joutyu tag_warp_in>"
+  },
+  "103905": {
+    "<pc>把油燈調暗了。\n油燈噴出黑霧，\n四周降下夜幕。": "<pc>把油燈調暗了。\n油燈噴出黑霧，\n四周降下夜幕。"
+  },
+  "103906": {
+    "<pc>把油燈調亮了。\n油燈發出光芒，\n太陽開始照耀四周。": "<pc>把油燈調亮了。\n油燈發出光芒，\n太陽開始照耀四周。"
+  },
+  "102437": {
+    "<pipipi_mid>……<pc>！\n醒醒啊，<pc>！！": "<pipipi_mid>……<pc>！\n醒醒啊，<pc>！！"
+  },
+  "102438": {
+    "<attr><feel_happy_lv3><end_attr><pc>，<pc>！這是為什麼呢？\n只要看著你，我的心裡便覺得溫暖安定。\n<br>\n以後我們就能永遠在一起了……對吧？\n我會為你好好努力，\n你不能丟下我離開喔。\n<br>\n如果有事，\n直接叫我達茲伊就好了，不用客氣。\n你能現在叫叫看嗎？\n<select>\n達茲伊\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr><pc>，<pc>！這是為什麼呢？\n只要看著你，我的心裡便覺得溫暖安定。\n<br>\n以後我們就能永遠在一起了……對吧？\n我會為你好好努力，\n你不能丟下我離開喔。\n<br>\n如果有事，\n直接叫我達茲伊就好了，不用客氣。\n你能現在叫叫看嗎？\n<select>\n達茲伊\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "103284": {
+    "<attr><feel_happy_lv3><end_attr>是，<pc>！！\n我就在這裡！\n<br>\n你隨時都可以叫我。\n為了<pc>，我什麼都願意做。": "<attr><feel_happy_lv3><end_attr>是，<pc>！！\n我就在這裡！\n<br>\n你隨時都可以叫我。\n為了<pc>，我什麼都願意做。"
+  },
+  "102439": {
+    "<attr><feel_happy_lv3><end_attr>喔，<pc>，你來了。\n我決定要當一個專屬你的英雄。\n以後我們就能永遠在一起了。\n<br>\n無論發生什麼事，我都會保護你，\n所以你儘管放心吧。\n遭遇困難的時候，就叫我的名字！\n<select>\n桑克朗\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>喔，<pc>，你來了。\n我決定要當一個專屬你的英雄。\n以後我們就能永遠在一起了。\n<br>\n無論發生什麼事，我都會保護你，\n所以你儘管放心吧。\n遭遇困難的時候，就叫我的名字！\n<select>\n桑克朗\n算了\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+  },
+  "103285": {
+    "<attr><feel_happy_lv3><end_attr>嗯？<pc>，怎麼了啊？\n發生什麼事了嗎？\n<br>\n……咦？你只是想要叫看看？\n嘿嘿，感覺有點難為情啊。\n不過沒關係，慢慢習慣就好了。\n<br>\n如果你遇到什麼困難，\n隨時都可以叫我的名字。\n我一定會趕到你身邊！": "<attr><feel_happy_lv3><end_attr>嗯？<pc>，怎麼了啊？\n發生什麼事了嗎？\n<br>\n……咦？你只是想要叫看看？\n嘿嘿，感覺有點難為情啊。\n不過沒關係，慢慢習慣就好了。\n<br>\n如果你遇到什麼困難，\n隨時都可以叫我的名字。\n我一定會趕到你身邊！"
+  }
+}
