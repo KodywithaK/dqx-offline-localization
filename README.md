@@ -210,7 +210,103 @@ Copy the newly created `pakchunk0-{Platform}_{ModName}_{ModVersion}_P.pak` to yo
 > ### Yuzu
 > `%YUZU_DIR%/load/0100E2E0152E4000/<YOUR_MOD_NAME>/romfs/Holiday/Content/Paks/pakchunk0-Switch_{ModName}_{ModVersion}_P.(pak|ucas|utoc)`
 
-<hr>
+---
+<details><summary><h1>Translate via Game.locmeta/Game.locres files</h1></summary>
+
+## 0.Prerequisites
+  - [DRAGON QUEST X OFFLINE (or Demo) from Steam](https://store.steampowered.com/app/1358750/XOFFLINE/)
+  - FModel.exe from [4sval's github repo](https://github.com/4sval/FModel)
+    - DRAGON QUEST X OFFLINE (or Demo)'s [Mappings.usmap](https://github.com/OutTheShade/Unreal-Mappings-Archive/blob/main/Dragon%20Quest%20X%20Offline/Demo/Mappings.usmap)
+    - DRAGON QUEST X OFFLINE (or Demo)'s AES Key
+  - LocRes-Builder-v0.1.2.exe from  [matyalatte's github repo](https://github.com/matyalatte/LocRes-Builder)
+  - UnrealPak.exe (4.27.2 used in this tutorial) from [Epic Games' Unreal Engine](https://www.unrealengine.com/en-US/download)
+
+> [!NOTE]
+> Check the commit history if it is missing
+
+## 1.FModel.exe
+  - Download from [4sval's github repo](https://github.com/4sval/FModel), and extract all files.
+  - At the `Directory Selector` window:
+    - select `ADD UNDETECTED GAME`
+    - Name it anything, e.g. DRAGON QUEST X OFFLINE
+    - Choose where the game's paks are installed, e.g.:
+      - `C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks`
+    - Click the Add Game `+` button, then OK
+  - Inside the main window:
+    - `Settings` > `General` > `ADVANCED`
+      - `Local Mapping File` [x] Enabled
+      - `Mapping File Path` Choose where the DRAGON QUEST X OFFLINE Demo `Mappings.usmap` is installed.
+    - `Directory` > `AES` > Input the game's `Main Static Key` (AES Key), and click OK
+
+> [!Note]
+> The pakchunks that were grayed out can now be opened.
+
+  - Double-click `pakchunk0-WindowsNoEditor.pak` to open archive, from there:
+    - Right-click `Game/Content/Localization/Game` and select `Export Folder's Packages Raw Data (.uasset)`
+
+> [!Note]
+> Console will log: Successfully exported `Game/Content/Localization/Game`
+> 
+> Click that highlighted part to open where it was exported for the following step.
+
+## 2.LocRes-Builder-v0.1.2.exe
+  - Download from [matyalatte's github repo](https://github.com/matyalatte/LocRes-Builder), and extract all files.
+  - Drag and drop `Game.locmeta` onto `convert.bat`
+    - A command prompt will open and start saving out to: `./out/Game/*json`, for example:
+    ```
+    ./out/Game/locmeta.json
+    ./out/Game/en.json
+    ./out/Game/ja.json
+    ./out/Game/ko.json
+    ./out/Game/zh-Hans.json
+    ./out/Game/zh-Hant.json
+    ```
+    - Edit the values in the `.json` file for your specified language
+  - Drag and drop `locmeta.json` back onto the same `convert.bat` from previous step
+    - A command prompt will open and start saving out to:
+    ```
+    ./out/Game/Game.locmeta
+    ./out/Game/en/Game.locres
+    ./out/Game/ja/Game.locres
+    ./out/Game/ko/Game.locres
+    ./out/Game/zh-Hans/Game.locres
+    ./out/Game/zh-Hant/Game.locres
+    ```
+## 3.UnrealPak.exe
+  - Make a response file (`responsefile.txt`), edit to include where your new `.locmeta`/`.locres` files were created and where in the `.pak` they need to go, e.g.:
+    
+    `"<LOCMETA/LOCRES_LOCATION>" "../../../<LOCATION_IN_PAK>"`
+
+> [!IMPORTANT]
+> The double-quotes, space, and `../../../` are required for the `.pak` to be created properly.
+
+    ```
+    "C:\Downloads\LocRes-Builder-v0.1.2\out\Game\Game.locmeta" "../../../Game/Content/Localization/Game/Game.locmeta"
+    "C:\Downloads\LocRes-Builder-v0.1.2\out\Game\en\Game.locres" "../../../Game/Content/Localization/Game/en/Game.locres"
+    "C:\Downloads\LocRes-Builder-v0.1.2\out\Game\ja\Game.locres" "../../../Game/Content/Localization/Game/ja/Game.locres"
+    "C:\Downloads\LocRes-Builder-v0.1.2\out\Game\ko\Game.locres" "../../../Game/Content/Localization/Game/ko/Game.locres"
+    "C:\Downloads\LocRes-Builder-v0.1.2\out\Game\zh-Hans\Game.locres" "../../../Game/Content/Localization/Game/zh-Hans/Game.locres"
+    "C:\Downloads\LocRes-Builder-v0.1.2\out\Game\zh-Hant\Game.locres" "../../../Game/Content/Localization/Game/zh-Hant/Game.locres"
+    ```
+
+  - Open another command prompt, change to UnrealPak's directory, and input:
+    ```
+     UnrealPak <PakFilename> -Create=<ResponseFile>
+    ```
+    For example,
+    ```
+    UnrealPak "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks\pakchunk0-WindowsNoEditor_<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>_P.pak" -Create="C:\Downloads\responsefile.txt"
+    ```
+> [!IMPORTANT]
+> The `_P` is required for the patch `_P.pak` to be work properly.
+
+## 4. Start up the game
+  - All of your edited translations from [Step 2](#2.LocRes-Builder-v0.1.2) will now be loaded ingame, as long as you have the corresponding langauge selected.
+  - Have fun!
+
+</details>
+
+---
 
 # Glossary
 - ***`.ucas`*** is a Content Addressable Store, used by [Zen Loader](https://docs.unrealengine.com/5.2/en-US/zen-loader-in-unreal-engine/) to contain all the assets.
