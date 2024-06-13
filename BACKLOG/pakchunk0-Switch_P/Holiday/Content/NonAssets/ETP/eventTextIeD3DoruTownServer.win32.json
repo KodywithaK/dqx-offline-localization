@@ -1,9 +1,11 @@
 {
   "43666": {
-    "ドルワーム王国の出入り口付近に行く\n昇降用　神カラクリがある。\nスイッチを押して　移動しますか？<yesno><close>": "There is a Divine Machine for lifting\nand lowering that goes near the\nentrance/exit of Dolworm Kingdom,\n<br>\npress switch to move?<yesno><close>"
+    "ドルワーム王国の出入り口付近に行く\n昇降用　神カラクリがある。\nスイッチを押して　移動しますか？<yesno><close>": 
+    "There is a Divine Elevator Machine that goes to\nDolworm Kingdom's entrance, press switch to move?<yesno><close>"
   },
   "43667": {
-    "ドルワーム王国の城下町に行く\n昇降用　神カラクリがある。\nスイッチを押して　移動しますか？<yesno><close>": "There is a Divine Machine for\nelevation going to Castle Town in\nDolworm Kingdom, press switch to move?<yesno><close>"
+    "ドルワーム王国の城下町に行く\n昇降用　神カラクリがある。\nスイッチを押して　移動しますか？<yesno><close>": 
+    "There is a Divine Elevator Machine that goes to\nDolworm Kingdom's castle town, press switch to move?<yesno><close>"
   },
   "208220": {
     "この神カラクリからは　いくつかの場所に\n移動できそうだ。\nどこへ　移動しますか？\n<select>\n水晶宮の前\nゴールド銀行の前\n防具鍛冶ギルドの前\n酒場の前\n郵便局の前\n<select_end><close>": "From this Divine Machine, it looks\nlike we can go to several places.\nWhere would you like to go?\n<select>\nIn front of Crystal Palace\nIn front of Gold Bank\nIn front of Armorsmith Guild\nIn front of Tavern\nIn front of Post Office\n<select_end><close>"
@@ -84,10 +86,12 @@
     "「私は　この地で起きた　あらゆる出来事を\n　歌にして　後世に伝えていく者です。\n<br>\n「今は　ドルワーム王家に　まつわる\n　ある出来事を　歌にしているところです。\n　完成を　楽しみにしていてくださいね。": "I am the one who sings songs about all\nthe events that took place in this\nland and pass them on to future\n<br>\ngenerations. At the moment, I am\nwriting a song about an event that\nhappened to the Dolworm royal family.\n<br>\nPlease look forward to its completion."
   },
   "33660": {
-    "<attr><feel_normal_one><end_attr>「この　昇降用の神カラクリにより\n　城下町へ　移動することができます。\n　スイッチを　入れてください。": "<attr><feel_normal_one><end_attr>This Divine Machine for lifting and\nlowering allows you to move to Castle\nTown. Please turn on the switch."
+    "<attr><feel_normal_one><end_attr>「この　昇降用の神カラクリにより\n　城下町へ　移動することができます。\n　スイッチを　入れてください。": 
+    "<attr><feel_normal_one><end_attr>This Divine Machine can lift and lower you into\nand out from Castle Town. Please press the switch."
   },
   "33661": {
-    "<attr><feel_normal_one><end_attr>「この　昇降用の神カラクリにより\n　城下町へ　移動することができます。\n　スイッチを　入れてください。": "<attr><feel_normal_one><end_attr>This Divine Machine for lifting and\nlowering allows you to move to Castle\nTown. Please turn on the switch."
+    "<attr><feel_normal_one><end_attr>「この　昇降用の神カラクリにより\n　城下町へ　移動することができます。\n　スイッチを　入れてください。": 
+    "<attr><feel_normal_one><end_attr>This Divine Machine can lift and lower you into\nand out from Castle Town. Please press the switch."
   },
   "33662": {
     "「この国を守る　王立騎士団をご存知？\n　私のダーリンは　そこにつとめていて\n　騎士団長のラミザ王子を　お守りする役目なの<heart>\n<br>\n「カッコよくて　名誉ある　お仕事だけど\n　ケガとかしないで　無事に帰ってきてくれるか\n　毎日　不安なんですよ～。": "Have you ever heard of the Royal\nGuard? My darling works there and is\nin charge of protecting the Knight\n<br>\nCommander, Prince Ramiza<heart>. It's a\ncool and prestigious job, but I'm\nworried every day if he'll come back\n<br>\nsafely without getting hurt or\nsomething."
@@ -102,7 +106,8 @@
     "<attr><feel_normal_lv1><end_attr>「風のウワサで　聞いたんだが\n　人の顔を見るなり　下僕になりなさいっ！\n　と強要してくる　キョーレツな女がいるらしい。\n<br>\n「きっと　トロールみたいな顔をした\n　マッチョな大女なんだろうな。\n　おお　こわや　こわや……。": "<attr><feel_normal_lv1><end_attr>I heard from a rumor that there is a\nwoman who, as soon as she sees a\nperson's face, forces him or her to\n<br>\nbecome her servant! I heard that there\nis an unbelievable woman who forces\nyou to be her servant as soon as she\n<br>\nsees your face. She must be a big\nmacho woman with a face like a troll.\nOh, scared, scared."
   },
   "33666": {
-    "<attr><feel_happy_lv1><end_attr>「広大なるゴブル砂漠を越えて\n　ようこそ　いらっしゃいました。\n<br>\n「ここは　ドルワーム王国。\n　冒険者なら　誰もが　あこがれるという\n　砂漠の楽園でございます。\n<br>\n「近々　ドルワーム水晶宮にて\n　王立研究院の院長による　重大発表があるとかで\n　多くの方が　水晶宮へ　足を運んでいますわ。\n<br>\n「あなたも　一人前の証をお持ちなら\n　ドルワーム水晶宮に　足を運び\n　院長に　お目通りをなさると　いいでしょう。\n<br>\n「ただ　今の水晶宮は　とても慌ただしい\n　雰囲気です。入れてもらえるかどうか……\n　衛兵さんに　話してみてください。": "<attr><feel_happy_lv1><end_attr>Welcome to the Utopia of the Dolworm\nKingdom. This is the Dolworm Kingdom,\nthe desert Utopia that every\n<br>\nadventurer dreams of. Many are\nflocking to the Dolworm Crystal Palace\nfor a major announcement by the\n<br>\nPresident of the Royal Academy of\nSciences in the near future. If you\nhave Proof of Adulthood, you may wish\n<br>\nto visit the Dolworm Crystal Palace\nand pay him a visit. However, the\nCrystal Palace is very hectic at the\n<br>\nmoment. Ask one of the guards if you\ncan come in."
+    "<attr><feel_happy_lv1><end_attr>「広大なるゴブル砂漠を越えて\n　ようこそ　いらっしゃいました。\n<br>\n「ここは　ドルワーム王国。\n　冒険者なら　誰もが　あこがれるという\n　砂漠の楽園でございます。\n<br>\n「近々　ドルワーム水晶宮にて\n　王立研究院の院長による　重大発表があるとかで\n　多くの方が　水晶宮へ　足を運んでいますわ。\n<br>\n「あなたも　一人前の証をお持ちなら\n　ドルワーム水晶宮に　足を運び\n　院長に　お目通りをなさると　いいでしょう。\n<br>\n「ただ　今の水晶宮は　とても慌ただしい\n　雰囲気です。入れてもらえるかどうか……\n　衛兵さんに　話してみてください。": 
+    "<attr><feel_happy_lv1><end_attr>Great job crossing the vast Goble Desert to get here.\nWelcome to Dolworm Kingdom, the desert paradise that\nall adventures are said to admire.\n<br>\nMany are flocking to the Dolworm Crystal Palace for a major announcement by the President of the Royal Academy of Sciences in the near future. If you have Proof of Adulthood, you may wish to visit the Dolworm Crystal Palace and pay him a visit. However, the Crystal Palace is very hectic at the moment. Ask one of the guards if you can come in."
   },
   "33667": {
     "<attr><feel_happy_lv1><end_attr>「あなたも　ゴブル砂漠を越えて　ここに？\n　いやあ　大変だったでしょう？\n<br>\n「私なんて　途中で　ひからびるかと\n　思いましたよ。ウェディにとって\n　砂漠の旅は　ホント　命がけです。": "<attr><feel_happy_lv1><end_attr>You crossed the Goble Desert and came\nhere too? It must have been a tough\ntrip for you, wasn't it? For Weddie,\n<br>\ntraveling across the desert is a real\nrisk of life."
@@ -198,7 +203,8 @@
     "<attr><feel_happy_lv1><end_attr>「皆さんが協力してくれたおかげで\n　たくさんの魔瘴石が　集まりましたっ。\n<br>\n「そろそろ　玉座の間で　集めた魔瘴石を\n　太陽の石へと変える儀式が　始まる頃でしょう。\n　あなたも　玉座の間に　お急ぎくださいっ！": "<attr><feel_happy_lv1><end_attr>Thanks to everyone's help, we have\ncollected a lot of demon miasma\nstones. The ceremony to convert the\n<br>\ndemon miasma stones collected in the\nthrone room into sun stones should be\nstarting soon. Please hurry to the\n<br>\nthrone room!"
   },
   "33697": {
-    "「マショーセキ　マショーセキって叫びながら\n　外に飛びだしていった人たちが\n　黒い石を　布に包んで　持ちかえったんだ。\n<br>\n「おや？　あんたも持っているみたいだが\n　ひときわ　小さいなあ。\n　オレが見た中じゃ　いちばん小さいぞ　それ。\n<br>\n「……ああ　帰ってきた連中だったら\n　みんな　水晶宮の方に行ったみたいだぜ。\n　あんたも　行ったほうがいいんじゃないか？": "People ran outside shouting ''Masho\nSeki, Masho Seki'' and brought back a\nblack stone wrapped in a cloth. Hmm?\n<br>\nIt looks like you have one too, but\nit's very small. That's the smallest\none I've ever seen. Ah, it looks like\n<br>\neveryone who came back went to the\nCrystal Palace. Maybe you should go\nthere too."
+    "「マショーセキ　マショーセキって叫びながら\n　外に飛びだしていった人たちが\n　黒い石を　布に包んで　持ちかえったんだ。\n<br>\n「おや？　あんたも持っているみたいだが\n　ひときわ　小さいなあ。\n　オレが見た中じゃ　いちばん小さいぞ　それ。\n<br>\n「……ああ　帰ってきた連中だったら\n　みんな　水晶宮の方に行ったみたいだぜ。\n　あんたも　行ったほうがいいんじゃないか？": 
+    "Some people came outta nowhere with a black stone\nwrapped in cloth, shouting 'Devil Stone, Devil Stone'.\n<br>\nOh yeah? It looks like you have one too, but it's\nremarkably small, isn't it. Smallest one I've seen, at least.\n<br>\n...Ah, it looks like everyone who came back went to\nthe Crystal Palace. Maybe you should go there too,\nshouldn't you?"
   },
   "33698": {
     "「みんなが　持ちかえった黒い石を\n　あんたも持っているみたいだけど……。\n　オレが見た中じゃ　いちばん小さいぞ　それ。\n<br>\n「……ああ　帰ってきた連中だったら\n　みんな　水晶宮の方に行ったみたいだぜ。\n　あんたも　行ったほうがいいんじゃないか？": "You seem to have one of those black\nrocks that everyone else brought back.\nThat's the smallest one I've ever\n<br>\nseen. Yeah, it looks like everyone who\ncame back went to the Crystal Palace.\nMaybe you should go there too."
@@ -228,10 +234,12 @@
     "<attr><feel_happy_lv3><end_attr>「なにーっ！　あんた\n　ルナナさんの下僕だって！？\n<br>\n「あの　ルナナさんになら\n　アゴで　こき使われても幸せだな～。\n　下僕のアンタが　うらやましいよ。": "<attr><feel_happy_lv3><end_attr>What! You're Lunana's servant? I'd be\nhappy to be pushed around by that\nLunana-san with my chin! I envy you,\n<br>\nmy servant."
   },
   "33707": {
-    "<attr><feel_happy_lv1><end_attr>「私　聞いてしまいましたわ！\n　なんでも　伝説の魔物　天魔クァバルナが\n　玉座の間で　復活を果たしたとか！\n<br>\n「もしかして　旅人さんは\n　天魔クァバルナを追って　ここを出ていこうと\n　思っているのでは　ありませんか？<yesno><break>": "<attr><feel_happy_lv1><end_attr>I heard that legendary monster\nKukulkannibal is back in the throne\nroom! I heard that the legendary\n<br>\nmonster Kukulkannibal has made a\ncomeback in the throne room! Perhaps\nyou are thinking of following\n<br>\nKukulkannibal out of here?<yesno><break>"
+    "<attr><feel_happy_lv1><end_attr>「私　聞いてしまいましたわ！\n　なんでも　伝説の魔物　天魔クァバルナが\n　玉座の間で　復活を果たしたとか！\n<br>\n「もしかして　旅人さんは\n　天魔クァバルナを追って　ここを出ていこうと\n　思っているのでは　ありませんか？<yesno><break>": 
+    "<attr><feel_happy_lv1><end_attr>I heard all about it! Somehow the legendary monster,\nthe Demon Kukulkannibal, was resurrected in the\nthrone room!\n<br>\nTraveler, are you perhaps thinking of following\nKukulkannibal from here?<yesno><break>"
   },
   "33708": {
-    "<attr><feel_happy_lv1><end_attr>「いいえ　私には　わかりますわ。\n　あなたが　正義に燃え　誰よりも早く\n　クァバルナを討とうとしていることがっ！\n<br>\n「天魔クァバルナの向かった　ボロヌスの穴は\n　ここより南西にある　ゴブル砂漠西を\n　西に抜けた先の　ボロヌス溶岩流にあります。\n<br>\n「ボロヌス溶岩流に入って　道なりに進むと\n　奇妙な穴のあいた洞くつが　見えてくるので\n　そこを目指してください。健闘を祈りますわ！": "<attr><feel_happy_lv1><end_attr>No, I understand. I know that you are\nburning with justice and are trying to\ntake down Quaba Luna before anyone\n<br>\nelse! Kukulkannibal's Boronus Hole is\nlocated in Boronus Lava Flow, just\nwest of Goble Desert West, southwest\n<br>\nof here. Enter Boronus Lava Flow and\nfollow the road until you see a cave\nwith a strange hole in it. Good luck!"
+    "<attr><feel_happy_lv1><end_attr>「いいえ　私には　わかりますわ。\n　あなたが　正義に燃え　誰よりも早く\n　クァバルナを討とうとしていることがっ！\n<br>\n「天魔クァバルナの向かった　ボロヌスの穴は\n　ここより南西にある　ゴブル砂漠西を\n　西に抜けた先の　ボロヌス溶岩流にあります。\n<br>\n「ボロヌス溶岩流に入って　道なりに進むと\n　奇妙な穴のあいた洞くつが　見えてくるので\n　そこを目指してください。健闘を祈りますわ！": 
+    "<attr><feel_happy_lv1><end_attr>I don't get it at all. You're burning with justice,\nwho else is gonna quickly try taking down Kukulkannibal!\n<br>\nKukulkannibal was headed for Boronus Hole, southwest from here and at the western edge of Goble Desert West at Boronus Lava Flow.\n<br>\nTo enter Boronus Lava Flow, follow the road until you\nsee a strange cave, and please get the bottom of it.\nGood luck!"
   },
   "33709": {
     "<attr><feel_happy_lv1><end_attr>「天魔クァバルナの向かった　ボロヌスの穴は\n　ここより南西にある　ゴブル砂漠西を\n　西に抜けた先の　ボロヌス溶岩流にあります。\n<br>\n「ボロヌス溶岩流に入って　道なりに進むと\n　奇妙な穴のあいた洞くつが　見えてくるので\n　そこを目指してください。健闘を祈りますわ！": "<attr><feel_happy_lv1><end_attr>Boronus Hole, where Kukulkannibal was\nheaded, is located in Boronus Lava\nFlow, just west of Goble Desert West,\n<br>\nwhich is southwest of here. Enter\nBoronus Lava Flow and follow the road\nuntil you see a cave with a strange\n<br>\nhole in it. Good luck!"

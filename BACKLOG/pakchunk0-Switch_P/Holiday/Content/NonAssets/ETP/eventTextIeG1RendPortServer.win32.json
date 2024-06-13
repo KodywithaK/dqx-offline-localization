@@ -614,7 +614,8 @@
     "「レンダーシアの近海は　おだやかになったし\n　グランドタイタス号の修理も　終わった。\n　あとは　アレの完成が　いつになるか……。\n<br>\n「もし　レンダーシアに行きたいのなら\n　宿屋にいる旅のコンシェルジュから　話を聞いて\n　出港準備を　手伝ってくれ。": "The waters near Lendersia have calmed down and\nthe repairs to the Grand Titus are finished.\nNow we just have to wait and see when the\n<br>\nthing will be finished. If you want to go to\nLendersia, talk to the Travel Concierge at the\ninn and help him prepare the ship for\n<br>\ndeparture."
   },
   "187417": {
-    "「アンタ　出港の準備を\n　手伝ってくれたんだってな。\n　ありがとよ。\n<br>\n「乗船パス引換券は　そこの船舶管理局の\n　責任者に渡せば　タイタス号乗船パスに\n　交換してもらえるぜ。": "I heard that you helped me prepare the ship\nfor departure. Thanks. You can exchange your\nBoarding Pass Voucher for a Titus Boarding\n<br>\nPass by giving it to the Ship Bureau manager\nthere."
+    "「アンタ　出港の準備を\n　手伝ってくれたんだってな。\n　ありがとよ。\n<br>\n「乗船パス引換券は　そこの船舶管理局の\n　責任者に渡せば　タイタス号乗船パスに\n　交換してもらえるぜ。": 
+    "I heard that you helped prepare the ship for departure.\nThanks.\n<br>\nYou can exchange your Boarding Pass Voucher for a\nTitus Boarding Pass by giving it to the director in\nthe Ship Bureau there."
   },
   "67439": {
     "<attr><feel_happy_lv3><end_attr>「やりましたでー！\n　定期船の修理が　終わりましたんや。\n　これで　観光客が　ぎょうさん来まっせ～！\n<br>\n「これからは　忙しゅうなりますやろな。\n　わてのような　商売人には\n　願ったり　かなったりですわ　ほんま。": "<attr><feel_happy_lv3><end_attr>We did it! The liner has been repaired. Now,\nmany tourists will come! It's going to be busy\nfrom now on. For a businessman like me, it's\n<br>\njust what I've been hoping for."
@@ -632,19 +633,24 @@
     "<attr><feel_happy_one><end_attr>「やっと　船の修理が終わったよ。\n　ものすごい技術を持つ技師が　こだわりの修理を\n　見せてくれたんだ。もう　船は心配ないぜ！": "<attr><feel_happy_one><end_attr>I finally finished repairing the boat. The\nengineers, with their incredible skills,\nshowed me their meticulous repair work. I\n<br>\ndon't have to worry about the boat anymore!"
   },
   "67444": {
-    "「グランドタイタス号の修理は　終わったわ。\n　でも　別の問題があって……\n　当分の間は　出港できそうにないの。\n<br>\n「くわしい話が聞きたいなら　宿にいる\n　旅のコンシェルジュを　訪ねてみて。\n　そして　できれば　出港準備を手伝ってね<heart>": "The repairs on the Grand Titus are done. But\nthere is another problem that will keep her\nout of port for the time being. If you want to\n<br>\nknow more, please visit the Travel Concierge\nat the inn. And if you can, help us get ready\nto sail<heart>."
+    "「グランドタイタス号の修理は　終わったわ。\n　でも　別の問題があって……\n　当分の間は　出港できそうにないの。\n<br>\n「くわしい話が聞きたいなら　宿にいる\n　旅のコンシェルジュを　訪ねてみて。\n　そして　できれば　出港準備を手伝ってね<heart>": 
+    "The repairs on the Grand Titus are done, but there is\nanother problem... For the time being, we won't be\nable to leave port.\n<br>\nIf you want to know more, try paying the Travel\nConcierge at the inn a visit. And if you can, help\nus get ready to set sail<heart>."
   },
   "67445": {
-    "<attr><feel_happy_one><end_attr>「ああ～ん！　あなたってば　やるじゃない！\n　乗船パス引換券を　持ってるってことは\n　あなたも　羅針盤作成に協力してくれたのね<heart>\n<br>\n「うふん。これで　準備は完了よ。\n　夢のような大航海が　あなたを待ってるわ。\n　さっそく　タイタス号乗船パスに　交換する？\n<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": "<attr><feel_happy_one><end_attr>Ah~n! You're a real piece of work, aren't you?\nYou have a Boarding Pass Voucher, which means\nyou helped us with the compass <heart>. Now\n<br>\nyou're all set. The voyage of your dreams\nawaits. Shall we exchange it for a Titus\nBoarding Pass right away?\n<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "<attr><feel_happy_one><end_attr>「ああ～ん！　あなたってば　やるじゃない！\n　乗船パス引換券を　持ってるってことは\n　あなたも　羅針盤作成に協力してくれたのね<heart>\n<br>\n「うふん。これで　準備は完了よ。\n　夢のような大航海が　あなたを待ってるわ。\n　さっそく　タイタス号乗船パスに　交換する？\n<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
+    "<attr><feel_happy_one><end_attr>Aah~! You're the ones that did it, aren't you? That\nBoarding Pass Voucher you have means you helped us\nwith the compass' construction too. <heart>\n<br>\nMmm. Then we're all set; the grand voyage of your\ndreams awaits. Shall we exchange it for a Titus\nBoarding Pass right away?\n<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "67446": {
-    "「あらん。お楽しみは　後に取っておくタイプ？\n　そういう人……　キライじゃないわ<heart>\n　その気になったら　また来てね。": "Oh, no. Are you the type of person who saves\nthe fun for later? I don't hate people like\nthat<heart> Come back when you're ready."
-  },
-  "67447": {
-    "<attr><feel_happy_lv1><end_attr>「おかげで　材料は　着々と集まっているそうよ。\n　まもなく魔法の羅針盤が完成しそうだという\n　うれしい連絡が　あったの。\n<br>\n「魔法の羅針盤が届いたら　すぐに\n　グランドタイタス号を　出港させるつもりよ。\n　……あら？": "<attr><feel_happy_lv1><end_attr>Thanks to you, materials are steadily being\ngathered. I just received a very happy call\nthat the Magic Compass will be ready soon. As\n<br>\nsoon as the Magic Compass arrives, I plan to\nlaunch the Grand Titus. Oh?"
+    "「あらん。お楽しみは　後に取っておくタイプ？\n　そういう人……　キライじゃないわ<heart>\n　その気になったら　また来てね。": 
+    "Ah. Are you the type of person who saves fun for later?\nSomebody like that is... A killjoy, aren't they. <heart>\nWhen you're ready, come on back."
   },
   "67448": {
-    "<pc>は　スギム局長に　引換券を渡し\n代わりに　タイタス号乗船パス（だいじなもの）を\n受け取った！<me 60>": "<pc> gave the ticket to Director\nSugimu and received a Titus Boarding Pass (Key\nItem) instead!<me 60>"
+    "<pc>は　スギム局長に　引換券を渡し\n代わりに　タイタス号乗船パス（だいじなもの）を\n受け取った！<me 60>": 
+    "<pc> gave Director Sugimu the\nBoarding Pass Voucher in exchange for the\nTitus Boarding Pass (Key Item)!<me 60>"
+  },
+  "67447": {
+    "<attr><feel_happy_lv1><end_attr>「おかげで　材料は　着々と集まっているそうよ。\n　まもなく魔法の羅針盤が完成しそうだという\n　うれしい連絡が　あったの。\n<br>\n「魔法の羅針盤が届いたら　すぐに\n　グランドタイタス号を　出港させるつもりよ。\n　……あら？": 
+    "<attr><feel_happy_lv1><end_attr>Thanks to you, the materials are steadily being\ngathered. I just received a very happy call that the\nMagic Compass will be ready soon.\n<br>\nAs soon as the Magic Compass arrives, I plan to launch\nthe Grand Titus right away... Oh?"
   },
   "87443": {
     "「レンダーシアに　行ってみたいけど\n　ここから離れるわけにはいかないのよね。\n　今は　仕事優先で　がんばるわよ。": "I would love to go to Lendersia, but I can't\nleave here. I'm going to work first for now."
@@ -662,13 +668,16 @@
     "「船員たちの様子が　あわただしいですね。\n　もしかして　グランドタイタス号が\n　出港するのでしょうか？\n<br>\n「ボクの恋人が　生きていれば\n　一緒に　あの船に乗って……　彼女に\n　レンダーシアの海を　見せてあげたのにな。": "The crews seem to be in a hurry. Could it be\nthat the Grand Titus is about to set sail? If\nmy lover were still alive, I would have taken\n<br>\nher on that ship to show her the waters of\nLendersia."
   },
   "67453": {
-    "「タイタス号乗船パスを\n　お持ちの　お客さまですね。\n　ご乗船の前に　確認をさせていただきます。\n<br>\n「本船　グランドタイタス号は\n　レンダーシアの大国　グランゼドーラ王国の\n　港を目指し　出港いたします。\n<br>\n「いったん　ご乗船になりますと\n　港に到着するまで　降りることはできません。\n<br>\n「お急ぎの用事がある方には　用を済ませてからの\n　ご乗船を　おすすめしております。\n　長旅に出発する準備は　もう　お済みですか？<yesno><close>": "You are a Titus Boarding Pass holder. Before\nembarking, we would like to confirm that you\nhave a boarding pass. The Grand Titus will be\n<br>\ndeparting for a port in the Gran Zedora\nKingdom, a large country in Lendersia. Once on\nboard, you will not be allowed to disembark\n<br>\nuntil the ship arrives at the port. If you\nhave urgent business to attend to, we\nrecommend that you wait until you have\n<br>\nfinished your errands before boarding the\nship. Are you ready for a long trip?<yesno><close>"
+    "「タイタス号乗船パスを\n　お持ちの　お客さまですね。\n　ご乗船の前に　確認をさせていただきます。\n<br>\n「本船　グランドタイタス号は\n　レンダーシアの大国　グランゼドーラ王国の\n　港を目指し　出港いたします。\n<br>\n「いったん　ご乗船になりますと\n　港に到着するまで　降りることはできません。\n<br>\n「お急ぎの用事がある方には　用を済ませてからの\n　ご乗船を　おすすめしております。\n　長旅に出発する準備は　もう　お済みですか？<yesno><close>": 
+    "You're a Titus Boarding Pass holder, are you. Before\nembarking, I would like to verify that.\n<br>\nThis ship, the Grand Titus, will be departing for port\nin Lendersia's largest country, Gran Zedora Kingdom.\n<br>\nOnce on board, you will not be allowed to disembark\nuntil the ship arrives at port.\n<br>\nIf you have urgent business to attend to, I recommend\nthat you finish your errands before boarding. Are you\nready for your long trip?<yesno><close>"
   },
   "67454": {
-    "「では　準備が　お済みになりましたら\n　お越しください。": "Please come in when you are ready."
+    "「では　準備が　お済みになりましたら\n　お越しください。": 
+    "Then, once you've made preparations, please come again."
   },
   "67455": {
-    "<attr><feel_happy_one><end_attr>「今回は　運航再開後初の　記念出港ということで\n　お代はいただいておりません。\n　さあ　グランドタイタス号へ　どうぞ。": "<attr><feel_happy_one><end_attr>This is our first anniversary sailing since\nresuming service, so there is no charge.\nPlease come aboard the Grand Titus."
+    "<attr><feel_happy_one><end_attr>「今回は　運航再開後初の　記念出港ということで\n　お代はいただいておりません。\n　さあ　グランドタイタス号へ　どうぞ。": 
+    "<attr><feel_happy_one><end_attr>With this being our maiden voyage, there's no charge.\nNow then, all aboard the Grand Titus please."
   },
   "67456": {
     "「忙しい　忙しい！\n　出港の時が　ついに　来たんだぜっ！\n<br>\n「あんた　グランドタイタス号に\n　乗るつもりなら　急ぎなよ！\n　もうすぐ　船が出ちまうぜっ！！": "Busy, busy, busy! The time for sailing has\nfinally come! If you're gonna get on the Grand\nTitus, you better hurry up! The ship's leaving\n<br>\nsoon!"
