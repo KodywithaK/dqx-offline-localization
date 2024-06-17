@@ -1,0 +1,77 @@
+name: Publish KOtoEN_Dialogue_Latest_P.pak As GitHub Actions Artifact
+
+on:
+  push:
+    branches: [KOtoEN]
+    paths:
+      - 'Build_ID-14531340/FINAL/Game/Content/NonAssets/ETP_ko/**'
+  workflow_dispatch:
+
+jobs:
+  archive-build-artifacts:
+    # runs-on: ubuntu-latest
+    runs-on: self-hosted # UnrealEngine-4.27 being 40GB~, it's too big for a regular GitHub Runner
+    steps:
+      - name: Checkout dqx_dat_dump
+        uses: actions/checkout@v4
+        with:
+          path: ./dqx_dat_dump
+          repository: KodywithaK/dqx_dat_dump
+
+      - name: Checkout dqx-offline-localization
+        uses: actions/checkout@v4
+        with:
+          path: ./dqx-offline-localization
+          repository: KodywithaK/dqx-offline-localization
+          ref: KOtoEN
+          sparse-checkout: | # Checks out only the BACKLOG & FINAL Content folders & responseFiles
+            Build_ID-14531340/BACKLOG/Game/Content
+            Build_ID-14531340/FINAL/Game/Content
+            responsefile-Switch_KOtoEN_P.txt
+            responsefile-WindowsNoEditor_KOtoEN_P.txt
+
+      - name: Checkout LocRes-Builder
+        uses: actions/checkout@v4
+        with:
+          path: ./LocRes-Builder
+          repository: KodywithaK/LocRes-Builder
+
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          architecture: 'x64'
+          # python-version: '3.x'
+          python-version: '3.11'
+          cache: 'pip' # caching pip dependencies
+      - name: Run Python         
+        run: |
+          cd ./dqx_dat_dump/
+          python -m venv venv
+          source ./venv/bin/activate
+          pip install -r requirements.txt
+          cd ./tools/packing/
+          python ./pack-ETP_ko-GitHubActions.py -a
+          deactivate
+          cd ~
+          mkdir -p ${{ github.workspace }}/LocRes-Builder/in/
+          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/locmeta.json ${{ github.workspace }}/LocRes-Builder/in/locmeta.json
+          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/en/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/en.json
+          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/ja/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/ja.json
+          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/ko/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/ko.json
+          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/zh-Hans/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/zh-Hans.json
+          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/zh-Hant/Game.locres.json  ${{ github.workspace }}/LocRes-Builder/in/zh-Hant.json
+          python ${{ github.workspace }}/LocRes-Builder/src/main.py ${{ github.workspace }}/LocRes-Builder/in/locmeta.json -o=${{ github.workspace }}/LocRes-Builder/out -f=json
+          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-Switch_KOtoEN_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile-Switch_KOtoEN_P.txt
+          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_KOtoEN_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile-WindowsNoEditor_KOtoEN_P.txt
+
+      - name: Get Current Time
+        run: |
+          echo "time=$(date +'%Y_%m_%d_%H%M')" >> $GITHUB_ENV
+
+      - name: Upload Artifact GitHub Action
+        uses: actions/upload-artifact@v4
+        with:
+          name: GitHubActions_Dialog_Latest_${{ env.time }}
+          path: |
+            downloads
+          # retention-days: 1
