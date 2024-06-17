@@ -387,100 +387,130 @@
     "「酒場にいる　飲んだくれのジェイコフは\n　昔は　教官を　務めるほどの\n　優秀なバトルマスターだったらしいな。\n<br>\n「でも　今じゃ　ただの酔っぱらいさ。\n　あんた　もし　バトルマスターにならないかと\n　誘われても　相手にしないほうが　いいぜ。": "I heard that Jakov, the drunk in the tavern,\nused to be an excellent battlemaster, even\nserving as an instructor. But now he's just a\n<br>\ndrunk. If he asks you to become a\nbattlemaster, don't take him up on it."
   },
   "41498": {
-    "<attr><feel_sad_lv1><end_attr>「グムムム……ううん？\n　なんだい　オレに　何か用か？\n<br>\n「オレは　バトルマスターのジェイコフだ。\n　……ああ。もしかして　バトルマスターに\n　興味が　あるんじゃねえのかい？\n<br>\n「バトルマスターは　いいぜぇ。\n　片手剣　両手剣　ハンマーをあやつり\n　とにかくバトルひと筋な　戦闘のプロだからな。\n<br>\n「どうだ　聞いてるだけで　ムラムラッと\n　バトルマスターに　なりたくなってきただろ？\n<br>\n「オメーに　やる気と　根性があるなら\n　バトルマスターになるための試練を\n　受けさせてやっても　いいんだぜ？<yesno><break>": "<attr><feel_sad_lv1><end_attr>Gummmm...Umm? Whaddaya want from me?\nI'm battle master Jakov...Oh, are ya\ninterested in being a battle master?\n<br>\nBeing a battle master is good; swords,\ngreatswords, hammers, in any case we wield\n'em and are devoted to battle as our job.\n<br>\nHow about it, just hearing it has ya\nitching to be a battle master, don't it?\n<br>\nIf ya've the will and guts, I can put ya\nthrough the trials to become a battle\nmaster, sound good to ya?<yesno><break>"
+    "<attr><feel_sad_lv1><end_attr>「グムムム……ううん？\n　なんだい　オレに　何か用か？\n<br>\n「オレは　バトルマスターのジェイコフだ。\n　……ああ。もしかして　バトルマスターに\n　興味が　あるんじゃねえのかい？\n<br>\n「バトルマスターは　いいぜぇ。\n　片手剣　両手剣　ハンマーをあやつり\n　とにかくバトルひと筋な　戦闘のプロだからな。\n<br>\n「どうだ　聞いてるだけで　ムラムラッと\n　バトルマスターに　なりたくなってきただろ？\n<br>\n「オメーに　やる気と　根性があるなら\n　バトルマスターになるための試練を\n　受けさせてやっても　いいんだぜ？<yesno><break>": 
+    "<attr><feel_sad_lv1><end_attr>Gummmm...Umm? Whaddaya want from me? I'm battle\nmaster Jakov...Aah, maybe ya're interested in being a\nbattle master?\n<br>\nBeing a battle master is good; swords,\ngreatswords, hammers, in any case we wield\n'em and are devoted to battle as our job.\n<br>\nHow about it, just hearing it has ya\nitching to be a battle master, don't it?\n<br>\nIf ya've the will and guts, I can put ya\nthrough the trials to become a battle\nmaster, sound good to ya?<yesno><break>"
   },
   "41499": {
-    "<attr><feel_angry_lv1><end_attr>「チッ。なんだよ　ノリの悪い奴だなぁ。\n　いいカモが　現れたと思ったんだが……。\n<br>\n「……ああ　こっちの話だ。\n　今　二日酔いで　チョーシ悪いんだよ。\n　用がないなら　あっちへ行きな。": "<attr><feel_angry_lv1><end_attr>Tsk. A guy with a bad attitude. And here,\nI thought I'd found a nice sucker...\n<br>\n...Ah, it's none of yer business. I got a\nhangover and am in a bad state right now.\nIf ya don't have anything else, go away."
+    "<attr><feel_angry_lv1><end_attr>「チッ。なんだよ　ノリの悪い奴だなぁ。\n　いいカモが　現れたと思ったんだが……。\n<br>\n「……ああ　こっちの話だ。\n　今　二日酔いで　チョーシ悪いんだよ。\n　用がないなら　あっちへ行きな。": 
+    "<attr><feel_angry_lv1><end_attr>Tsk. A guy with a bad attitude. And here,\nI thought I'd found a nice sucker...\n<br>\n...Ah, it's none of yer business. I got a\nhangover and am in a bad state right now.\nIf ya don't have anything else, go away."
   },
   "41500": {
-    "「おお。ズバッと　的中しちまったか？\n　よしよし。オレが　オメーを\n　バトルマスターにしてやろうじゃねえか。\n<br>\n「それじゃ　まずは　どくけしそうと\n　<%sEV_QUE_NAME4>を　持ってきてくれ。\n　それが　バトルマスターへの第一歩だぜ！": "Ooh, hit the nail on the head, didn't I?\nAll right, I'm gonna make a battle master\noutta ya.\n<br>\nRight, first off, bring me an Antidotal\nHerb and <%sEV_QUE_NAME4>. That's the\nfirst step towards being a battle master!"
+    "「おお。ズバッと　的中しちまったか？\n　よしよし。オレが　オメーを\n　バトルマスターにしてやろうじゃねえか。\n<br>\n「それじゃ　まずは　どくけしそうと\n　<%sEV_QUE_NAME4>を　持ってきてくれ。\n　それが　バトルマスターへの第一歩だぜ！": 
+    "Ooh, hit the nail on the head, didn't I?\nAll right, I'm gonna make a battle master\noutta ya.\n<br>\nRight, first off, bring me an Antidotal\nHerb and <%sEV_QUE_NAME4>. That's the\nfirst step towards being a battle master!"
   },
   "41501": {
-    "<attr><feel_sad_lv2><end_attr>「どくけしそうと　<%sEV_QUE_NAME4>を\n　チャチャッと　持ってきてくれ……。\n　いいかげん　しんどくて　かなわんのだ。": "<attr><feel_sad_lv2><end_attr>Chacha me an Antidotal Herb and a\n<%sEV_QUE_NAME4>. It's getting too tedious for\nme."
+    "<attr><feel_sad_lv2><end_attr>「どくけしそうと　<%sEV_QUE_NAME4>を\n　チャチャッと　持ってきてくれ……。\n　いいかげん　しんどくて　かなわんのだ。": 
+    "<attr><feel_sad_lv2><end_attr>Chacha me an Antidotal Herb and a\n<%sEV_QUE_NAME4>. It's getting too tedious for\nme."
   },
   "41502": {
-    "<attr><feel_sad_lv2><end_attr>「おお。どくけしそうと　<%sEV_QUE_NAME4>\n　持ってきてくれたのか？\n　なら　はやく　渡してくれよ。": "<attr><feel_sad_lv2><end_attr>Oh, you brought Antidotal Herb and\n<%sEV_QUE_NAME4>? Then give them to me as soon\nas you can."
+    "<attr><feel_sad_lv2><end_attr>「おお。どくけしそうと　<%sEV_QUE_NAME4>\n　持ってきてくれたのか？\n　なら　はやく　渡してくれよ。": 
+    "<attr><feel_sad_lv2><end_attr>Oh, you brought Antidotal Herb and\n<%sEV_QUE_NAME4>? Then give them to me as soon\nas you can."
   },
   "41503": {
-    "<attr><feel_sad_lv2><end_attr>「あんだよ　ノロノロしてんなー。\n　いいかげん　しんどくて　かなわねーよ。\n　はやく　持ってきてくれ……ツツッ。": "<attr><feel_sad_lv2><end_attr>What's the matter with ya, moving so slowly.\nAre ya half-baked or half-asleep.\nHurry up and bring them to me...Tsktsktsk."
+    "<attr><feel_sad_lv2><end_attr>「あんだよ　ノロノロしてんなー。\n　いいかげん　しんどくて　かなわねーよ。\n　はやく　持ってきてくれ……ツツッ。": 
+    "<attr><feel_sad_lv2><end_attr>What's the matter with ya, moving so slowly.\nAre ya half-baked or half-asleep.\nHurry up and bring them to me...Tsktsktsk."
   },
   "41505": {
-    "<attr><feel_sad_lv2><end_attr><turn_rot 0.0>「おお　これ　これ！\n　どくけしそうを　<%sEV_QUE_NAME4>にひたして\n　クイッと　あおれば……。\n<br>\n「カーッ！　エグッと　にげぇっ！！\n　でも　二日酔いには　やっぱり\n　これが　いちばん効くわ～。<bw_break>": "<attr><feel_sad_lv2><end_attr><turn_rot 0.0>Oh, that's it, that's it! If you soak the\nAntidotal Herb and <%sEV_QUE_NAME4> and gulp it\ndown quick...\n<br>\nKah! Eugh, ngh!! Still, this is for sure the\nbest cure for a hangover!<bw_break>"
+    "<attr><feel_sad_lv2><end_attr><turn_rot 0.0>「おお　これ　これ！\n　どくけしそうを　<%sEV_QUE_NAME4>にひたして\n　クイッと　あおれば……。\n<br>\n「カーッ！　エグッと　にげぇっ！！\n　でも　二日酔いには　やっぱり\n　これが　いちばん効くわ～。<bw_break>": 
+    "<attr><feel_sad_lv2><end_attr><turn_rot 0.0>Oh, that's it, that's it! If you soak the\nAntidotal Herb and <%sEV_QUE_NAME4> and gulp it\ndown quick...\n<br>\nKah! Eugh, ngh!! Still, this is for sure the\nbest cure for a hangover!<bw_break>"
   },
   "41506": {
-    "<attr><feel_happy_lv2><end_attr><turn_pc>「で　オメー　名前は？\n　……フンフン。\n　<pc>ね。<pc>。\n<br>\n「<pc>は　バトルマスターに\n　なりたいんだったよな？\n　なら　転職の試練を　受けてもらわねーとな。\n<br>\n「……あん？　それじゃあ\n　さっきのお使いは　なんだったのかって？\n<br>\n「そりゃ　あれだ。オメーが　本気なのか\n　確かめさせてもらったんだよ。\n　オメーの本気　バシッと　伝わったぜ！<bw_break>": "<attr><feel_happy_lv2><end_attr><turn_pc>So, what's yer name? Uh-huh...\n<pc>, eh. <pc>.\n<br>\n<pc>, ya wanna be a battle master,\nright? Then you'll need another a trial for\nthe career change.\n<br>\n...Huh? So what was that errand ya did a\nlittle while ago?\n<br>\nThat, that was... I was trying to see if ya\nwere serious or not. Ya showed just how\nserious ya was, smack-dab at my feet!<bw_break>"
+    "<attr><feel_happy_lv2><end_attr><turn_pc>「で　オメー　名前は？\n　……フンフン。\n　<pc>ね。<pc>。\n<br>\n「<pc>は　バトルマスターに\n　なりたいんだったよな？\n　なら　転職の試練を　受けてもらわねーとな。\n<br>\n「……あん？　それじゃあ\n　さっきのお使いは　なんだったのかって？\n<br>\n「そりゃ　あれだ。オメーが　本気なのか\n　確かめさせてもらったんだよ。\n　オメーの本気　バシッと　伝わったぜ！<bw_break>": 
+    "<attr><feel_happy_lv2><end_attr><turn_pc>So, what's yer name? Uh-huh...\n<pc>, eh. <pc>.\n<br>\n<pc>, ya wanna be a battle master,\nright? Then you'll need another a trial for\nthe career change.\n<br>\n...Huh? So what was that errand ya did a\nlittle while ago?\n<br>\nThat, that was... I was trying to see if ya\nwere serious or not. Ya showed just how\nserious ya was, smack-dab at my feet!<bw_break>"
   },
   "41507": {
-    "「じゃ　転職の試練について　教えてやろう。\n　この試練は　これから　オレが渡す\n　<%sEV_QUE_NAME5>を使って　やってもらう。<bw_break>": "Now then, about yer career change\nchallenge, I'll tell ya about it, I suppose.\n<br>\nThe trial from here on, requires the\n<%sEV_QUE_NAME5>, which I'll give ya.<bw_break>"
+    "「じゃ　転職の試練について　教えてやろう。\n　この試練は　これから　オレが渡す\n　<%sEV_QUE_NAME5>を使って　やってもらう。<bw_break>": 
+    "Now then, about yer career change\nchallenge, I'll tell ya about it, I suppose.\n<br>\nThe trial from here on, requires the\n<%sEV_QUE_NAME5>, which I'll give ya.<bw_break>"
   },
   "41508": {
-    "「……っと　オメーは　今\n　そうびぶくろが　いっぱいみたいだな。\n<br>\n「それじゃ　試練が　できねーから \n　そうびぶくろに　空きを作ってから\n　また　オレの所に来てくれよな。": "...Eh, yer equipment bag is full right now,\nit looks like.\n<br>\nWell then, ya can't do the trial until ya\nmake room in your bag and come back to me\nagain."
+    "「……っと　オメーは　今\n　そうびぶくろが　いっぱいみたいだな。\n<br>\n「それじゃ　試練が　できねーから \n　そうびぶくろに　空きを作ってから\n　また　オレの所に来てくれよな。": 
+    "...Eh, yer equipment bag is full right now,\nit looks like.\n<br>\nWell then, ya can't do the trial until ya\nmake room in your bag and come back to me\nagain."
   },
   "41509": {
-    "「<%sEV_QUE_NAME5>は　オメーの手を\n　ギチギチに押さえつけ　攻撃の命中率を下げる\n　ジェイコフ様　特製のバングルさ。\n<br>\n「それを装備した状態で　<%sEV_QUE_NAME0>を\n　<%nEV_QUE_T_NUM0>匹　倒してくるんだ。\n<br>\n「<%sEV_QUE_NAME0>は　ウェナ諸島の \n　ヴェリナード領北に　多くいるはずだが\n　別に　他の場所で倒しても　かまわない。\n<br>\n「ただし　武器や盾は　はずしたまま\n　素手の『こうげき』で倒さないと無効だ。\n　どうだい　やってみるかい？": "The <%sEV_QUE_NAME5> hold yer hands tight\nand reduce yer attacks' hit rate; these\nbangles are a Master Jakov specialty.\n<br>\nEquipped with those, take out\n<%nEV_QUE_T_NUM0> <%sEV_QUE_NAME0>.\n<br>\n<%sEV_QUE_NAME0> are supposed to be in\nVerinard North, in the Wena Islands, but ya\ncan defeat them elsewhere too.\n<br>\nProvided that ya take off yer weapon\nand shield, and while barehanded, ''attack''\nto defeat them; otherwise it won't count.\n<br>\nWhat do ya think, will ya have a go at it?"
+    "「<%sEV_QUE_NAME5>は　オメーの手を\n　ギチギチに押さえつけ　攻撃の命中率を下げる\n　ジェイコフ様　特製のバングルさ。\n<br>\n「それを装備した状態で　<%sEV_QUE_NAME0>を\n　<%nEV_QUE_T_NUM0>匹　倒してくるんだ。\n<br>\n「<%sEV_QUE_NAME0>は　ウェナ諸島の \n　ヴェリナード領北に　多くいるはずだが\n　別に　他の場所で倒しても　かまわない。\n<br>\n「ただし　武器や盾は　はずしたまま\n　素手の『こうげき』で倒さないと無効だ。\n　どうだい　やってみるかい？": 
+    "The <%sEV_QUE_NAME5> hold yer hands tight\nand reduce yer attacks' hit rate; these\nbangles are a Master Jakov specialty.\n<br>\nEquipped with those, take out\n<%nEV_QUE_T_NUM0> <%sEV_QUE_NAME0>.\n<br>\n<%sEV_QUE_NAME0> are supposed to be in\nVerinard North, in the Wena Islands, but ya\ncan defeat them elsewhere too.\n<br>\nProvided that ya take off yer weapon\nand shield, and while barehanded, ''attack''\nto defeat them; otherwise it won't count.\n<br>\nWhat do ya think, will ya have a go at it?"
   },
   "60368": {
-    "「おし！　いい返事だ。\n　それじゃ　こいつを　受け取りな。": "Alright! Good answer. Now then, take these."
+    "「おし！　いい返事だ。\n　それじゃ　こいつを　受け取りな。": 
+    "Alright! Good answer. Now then, take these."
   },
   "60369": {
-    "「しっかり　やってこいよ。\n　オレは　ここで　グデ～ッとしながら\n　待ってるからよぅ。": "Get to it. I'll be getting drunk while\nwaiting for ya."
+    "「しっかり　やってこいよ。\n　オレは　ここで　グデ～ッとしながら\n　待ってるからよぅ。": 
+    "Get to it. I'll be getting drunk while\nwaiting for ya."
   },
   "60370": {
-    "<attr><feel_angry_lv1><end_attr>「あん？　オメー　頼まれごと多すぎて\n　転職の試練　受けらんねーじゃねえか。\n　まったく　トロい奴だなぁ。\n<br>\n「そんなんじゃ　バトルマスターになっても\n　まともに　やってけねーぞ！": "<attr><feel_angry_lv1><end_attr>Huh? You're too busy asking me for favors to\ntake on a trial for a new job, huh? You're\nsuch a slow learner, aren't you? You're not\n<br>\ngoing to make it as a battlemaster like that!"
+    "<attr><feel_angry_lv1><end_attr>「あん？　オメー　頼まれごと多すぎて\n　転職の試練　受けらんねーじゃねえか。\n　まったく　トロい奴だなぁ。\n<br>\n「そんなんじゃ　バトルマスターになっても\n　まともに　やってけねーぞ！": 
+    "<attr><feel_angry_lv1><end_attr>Huh? You're too busy asking me for favors to\ntake on a trial for a new job, huh? You're\nsuch a slow learner, aren't you? You're not\n<br>\ngoing to make it as a battlemaster like that!"
   },
   "60371": {
-    "<attr><feel_angry_lv2><end_attr>「おいおい　やる気なしかよ？\n　オメー　こんなん　パパッとこなせなきゃ\n　この先　やってけねーぞ！": "<attr><feel_angry_lv2><end_attr>Hey, hey, hey, hey! You're not going to do it?\nIf you can't do this kind of thing in a flash,\nyou won't make it in the future!"
+    "<attr><feel_angry_lv2><end_attr>「おいおい　やる気なしかよ？\n　オメー　こんなん　パパッとこなせなきゃ\n　この先　やってけねーぞ！": 
+    "<attr><feel_angry_lv2><end_attr>Hey, hey, hey, hey! You're not going to do it?\nIf you can't do this kind of thing in a flash,\nyou won't make it in the future!"
   },
   "60372": {
-    "「……ん？　オメーは　たしか\n　<pc>だったな。 \n　転職の試練　受ける気になったのか？<bw_break>": "...Hmm? Ya was <pc>, if I\nremember right. Still interested in the\ncareer change challenge?<bw_break>"
+    "「……ん？　オメーは　たしか\n　<pc>だったな。 \n　転職の試練　受ける気になったのか？<bw_break>": 
+    "...Hmm? Ya was <pc>, if I\nremember right. Still interested in the\ncareer change challenge?<bw_break>"
   },
   "41510": {
-    "ジェイコフに　どくけしそうと\n<%sEV_QUE_NAME4>を　渡しますか？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "Give Jakov the Antidotal Herb and\n<%sEV_QUE_NAME4>?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "ジェイコフに　どくけしそうと\n<%sEV_QUE_NAME4>を　渡しますか？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "Give Jakov the Antidotal Herb and\n<%sEV_QUE_NAME4>?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "58357": {
-    "<pc>は　ジェイコフに　\nどくけしそうと　<%sEV_QUE_NAME4>を\n渡した！": "<pc> gave Jakov the Antidotal Herb\nand <%sEV_QUE_NAME4>!"
+    "<pc>は　ジェイコフに　\nどくけしそうと　<%sEV_QUE_NAME4>を\n渡した！": 
+    "<pc> gave Jakov the Antidotal Herb\nand <%sEV_QUE_NAME4>!"
   },
   "60373": {
-    "<pc>は\n<%sEV_QUE_NAME5>を　受け取った！<se_nots System Item>": "<pc> received the <%sEV_QUE_NAME5>!<se_nots System Item>"
+    "<pc>は\n<%sEV_QUE_NAME5>を　受け取った！<se_nots System Item>": 
+    "<pc> received the <%sEV_QUE_NAME5>!<se_nots System Item>"
   },
   "41511": {
-    "<attr><feel_think_lv1><end_attr>「オレは　ここで　グデ～ッとしながら\n　待ってるからよぅ。\n　チャチャッと　転職の試練を終わらしてきな。\n<br>\n「試練の内容は　<%sEV_QUE_NAME0>を\n　<%nEV_QUE_T_NUM0>匹　倒してくるってもんだ。\n<br>\n「<%sEV_QUE_NAME0>は　ウェナ諸島の \n　ヴェリナード領北に　多くいるはずだが\n　別に　他の場所で倒しても　かまわないぜ。　<open_irai><bw_break>": "<attr><feel_think_lv1><end_attr>I'll be getting drunk while waiting for ya.\nChop-chop, go finish the career change\nchallenge.\n<br>\nThe test is to defeat <%nEV_QUE_T_NUM0> <%sEV_QUE_NAME0>.\n<br>\n<%sEV_QUE_NAME0> are supposed to be in\nVerinard North, in the Wena Islands, but ya\ncan defeat them elsewhere too.<open_irai><bw_break>"
+    "<attr><feel_think_lv1><end_attr>「オレは　ここで　グデ～ッとしながら\n　待ってるからよぅ。\n　チャチャッと　転職の試練を終わらしてきな。\n<br>\n「試練の内容は　<%sEV_QUE_NAME0>を\n　<%nEV_QUE_T_NUM0>匹　倒してくるってもんだ。\n<br>\n「<%sEV_QUE_NAME0>は　ウェナ諸島の \n　ヴェリナード領北に　多くいるはずだが\n　別に　他の場所で倒しても　かまわないぜ。　<open_irai><bw_break>": 
+    "<attr><feel_think_lv1><end_attr>I'll be getting drunk while waiting for ya.\nChop-chop, go finish the career change\nchallenge.\n<br>\nThe test is to defeat <%nEV_QUE_T_NUM0> <%sEV_QUE_NAME0>.\n<br>\n<%sEV_QUE_NAME0> are supposed to be in\nVerinard North, in the Wena Islands, but ya\ncan defeat them elsewhere too.<open_irai><bw_break>"
   },
   "41512": {
-    "<close_irai>「ただし　<%sEV_QUE_NAME5>を　装備した状態で\n　武器と盾をはずし　素手の『こうげき』で\n　倒さないと　無効だから　気をつけろよ。": "<close_irai>Provided that ya take off yer weapon\nand shield, and while barehanded, ''attack''\nto defeat them; otherwise it won't count."
+    "<close_irai>「ただし　<%sEV_QUE_NAME5>を　装備した状態で\n　武器と盾をはずし　素手の『こうげき』で\n　倒さないと　無効だから　気をつけろよ。": 
+    "<close_irai>Provided that ya take off yer weapon\nand shield, and while barehanded, ''attack''\nto defeat them; otherwise it won't count."
   },
   "41514": {
-    "<%sEV_QUE_NAME5>を装備した状態で\n素手で <%sEV_QUE_NAME0>討伐 <%dEV_QUE_N_NUM0>匹目！ 残り <%dEV_QUE_R_NUM0>匹": "Defeated <%dEV_QUE_N_NUM0> <%sEV_QUE_NAME0>\nwith only the <%sEV_QUE_NAME5> equipped!\n<%dEV_QUE_R_NUM0> remain."
+    "<%sEV_QUE_NAME5>を装備した状態で\n素手で <%sEV_QUE_NAME0>討伐 <%dEV_QUE_N_NUM0>匹目！ 残り <%dEV_QUE_R_NUM0>匹": 
+    "Defeated <%dEV_QUE_N_NUM0> <%sEV_QUE_NAME0>\nwith only the <%sEV_QUE_NAME5> equipped!\n<%dEV_QUE_R_NUM0> remain."
   },
   "41516": {
-    "<attr><feel_happy_lv2><end_attr>「どうやら　試練を終わらしてきたみたいだな。\n　オメーの顔見りゃ　そんなことくらい\n　ズバッと　わかっちまうよ。<bw_break>": "<attr><feel_happy_lv2><end_attr>Looks like ya've finished the challenge.\nI can tell by the look on yer face. I'll\ncut to the chase then.<bw_break>"
+    "<attr><feel_happy_lv2><end_attr>「どうやら　試練を終わらしてきたみたいだな。\n　オメーの顔見りゃ　そんなことくらい\n　ズバッと　わかっちまうよ。<bw_break>": 
+    "<attr><feel_happy_lv2><end_attr>Looks like ya've finished the challenge. I can tell\nby the look on yer face. I'll cut to the chase then.<bw_break>"
   },
   "41517": {
-    "「それじゃ　ズババッと　転職できるように\n　してやらねーとな。\n　いくぜ　必殺　転職のツボっ！！<se_nots battle_cmn da_hit_l>": "Then, I'll have to help you get a new job.\nLet's go, desperately trying to change jobs!<se_nots battle_cmn da_hit_l>"
+    "「それじゃ　ズババッと　転職できるように\n　してやらねーとな。\n　いくぜ　必殺　転職のツボっ！！<se_nots battle_cmn da_hit_l>": 
+    "Then, I'll have to help you get a new job.\nLet's go, desperately trying to change jobs!<se_nots battle_cmn da_hit_l>"
   },
   "41518": {
-    "「それじゃ　ごほうびだ。これ持ってけよ。\n　まあ　たいしたモンじゃねーけど。": "Now then, here's yer reward. Take it.\nNow, it's not an important item, but..."
+    "「それじゃ　ごほうびだ。これ持ってけよ。\n　まあ　たいしたモンじゃねーけど。": 
+    "Now then, here's yer reward. Take it.\nNow, it's not an important item, but..."
   },
   "41519": {
-    "「それから　<%sEV_QUE_NAME5>は\n　もう　いらねーだろ？\n　オレが　回収しておくぜ。": "And ya don't want the <%sEV_QUE_NAME5>\nanymore, do ya? I'll take 'em off yer\nhands."
-  },
-  "60397": {
-    "「さて　これで　オメーは\n　バトルマスターに転職できるように\n　なったわけだが……。\n<br>\n「それも　すべて　オレの導きのおかげ。\n　要するに　オメーは　このジェイコフ様に\n　弟子入りしたも　同然ってわけだ！\n<br>\n「これからは　オレのことを師とあがめ\n　弟子として　尽くすようにしろよ。\n　いろいろ　コキ使ってやるからな！\n<br>\n「と　言っても　今のオメーじゃ話にならん。\n　しばらくして　レベル１０以上の\n　バトルマスターになったら　また来いよ。": "And with that, ya can change yer job to\nbattle master, however...\n<br>\nIt's all thanks to my guidance. In short,\nya've become like an apprentice of me,\nMaster Jakov!\n<br>\nFrom now on, ya should respect me as yer\nteacher and devote yerself as my disciple.\nI'll put ya to work in various ways!\n<br>\nThat said, ya're no good to me right now.\nOnce ya've reached, at least, level 10 as\na battle master, come back to me again."
+    "「それから　<%sEV_QUE_NAME5>は\n　もう　いらねーだろ？\n　オレが　回収しておくぜ。": 
+    "And ya don't want the <%sEV_QUE_NAME5>\nanymore, do ya? I'll take 'em off yer\nhands."
   },
   "60398": {
-    "<pc>は　ジェイコフに\n<%sEV_QUE_NAME5>を　返した。": "<pc> returned the <%sEV_QUE_NAME5> to\nJakov."
+    "<pc>は　ジェイコフに\n<%sEV_QUE_NAME5>を　返した。": 
+    "<pc> returned the <%sEV_QUE_NAME5> to\nJakov."
+  },
+  "60397": {
+    "「さて　これで　オメーは\n　バトルマスターに転職できるように\n　なったわけだが……。\n<br>\n「それも　すべて　オレの導きのおかげ。\n　要するに　オメーは　このジェイコフ様に\n　弟子入りしたも　同然ってわけだ！\n<br>\n「これからは　オレのことを師とあがめ\n　弟子として　尽くすようにしろよ。\n　いろいろ　コキ使ってやるからな！\n<br>\n「と　言っても　今のオメーじゃ話にならん。\n　しばらくして　レベル１０以上の\n　バトルマスターになったら　また来いよ。": 
+    "And with that, ya can change yer job to Battle Master,\nhowever...\n<br>\nIt's all thanks to my guidance. In short, ya've\nbecome like an apprentice to me, Master Jakov!\n<br>\nFrom now on, ya should respect me as yer teacher\nand devote yerself as my disciple. I'll put ya to\nwork in various ways!\n<br>\nThat said, ya're no good to me right now. Once ya've\nreached, at least, level 10 as a Battle Master,\ncome back to me again."
+  },
+  "41521": {
+    "「オレの弟子になったからには　これから\n　ビシビシっと　コキ使ってやんよ！<bw_break>": 
+    "Now that ya've become my disciple, I'll put ya to\nwork in various ways!<bw_break>"
+  },
+  "41523": {
+    "「でも　今のオメーじゃ　話にならん。\n　とりあえず　レベル１０以上の\n　バトルマスターに　なってこいよ。\n<br>\n「オレは　それまで　ここで\n　グデ～ッとしてっからよ。\n　あんまり　師匠を待たせんじゃねーぞ。": 
+    "That said, ya're no good to me right now. Once ya've\nreached, at least, level 10 as a Battle Master,\ncome back to me again.\n<br>\nI'll be getting drunk while waiting for ya. Don't\nkeep yer teacher waiting too long."
   },
   "41520": {
     "「……あーあ。あんた　ジェイコフから\n　バトルマスターに転職するための試練を\n　受けちまったんだな。\n<br>\n「これから　苦労するぜぇ。\n　前に弟子やってた　なんとかって奴も\n　そりゃあ　手ぇ焼いてたもんだったよ。": "Oh, no. You got a trial from Jakov to change\nyour job to battlemaster, didn't you? You're\ngoing to have a hard time from now on. My\n<br>\nformer apprentice, something like that, used\nto have a hard time with you."
   },
-  "41521": {
-    "「オレの弟子になったからには　これから\n　ビシビシっと　コキ使ってやんよ！<bw_break>": "Now that ya've become my disciple, I'll\nput ya to work in various ways!<bw_break>"
-  },
   "41522": {
     "「また　しばらくして　用のひとつもできたら\n　オメーに　頼むからよ。\n　そのときまで　自主トレでもしておきな。\n<br>\n「オレは　それまで　ここで\n　グデ～ッとしてっからよ。": "If I need you again in a while, I'll ask you\nto do something for me. Until then, do some\nvoluntary training. I'll just sit here and do\n<br>\nnothing until then."
-  },
-  "41523": {
-    "「でも　今のオメーじゃ　話にならん。\n　とりあえず　レベル１０以上の\n　バトルマスターに　なってこいよ。\n<br>\n「オレは　それまで　ここで\n　グデ～ッとしてっからよ。\n　あんまり　師匠を待たせんじゃねーぞ。": "That said, ya're no good to me right now.\nOnce ya've reached, at least, level 10 as\na battle master, come back to me again.\n<br>\nI'll be getting drunk while waiting for ya.\nDon't keep yer teacher waiting too long."
   },
   "10757000": {
     "「戦いの社交場　コロシアムへ　ようこそ！\n　ここでは　己のウデに自信のある　強者たちが\n　日夜　そのチカラを　競いあっています！\n<br>\n「お客さまは……　旅のお方のようですね。\n　申し訳ございませんが　ただいま　新規の\n　選手登録は　控えさせていただいております。\n<br>\n「それというのも　オープン以来　選手登録を\n　ご希望される方が　殺到しておりまして……\n　あまりの人数に　選手の管理が手いっぱいで。\n<br>\n「あ　でも　コロシアム内の施設は\n　自由に　ご利用いただけますので\n　お気軽に　お立ち寄りくださいね！\n<br>\n「それから　まれに　特別な参加者限定の\n　大会が　開かれることもありますので\n　その時は　ぜひ　奮ってご参加ください！": "Welcome to Coliseum, the social arena of\nbattle! Here, strong men and women, confident\nin their abilities, compete day and night! I\n<br>\nsee you are a traveler. We are sorry, but we\nare not accepting new player registrations at\nthis time. Since we opened, we have been\n<br>\ninundated with requests for player\nregistration, and we have our hands full\nmanaging so many players. However, you are\n<br>\nfree to use the facilities in the Coliseum, so\nplease feel free to stop by and see us! Also,\non rare occasions, we may hold a tournament\n<br>\nfor special participants only, so please feel\nfree to join us then!"
