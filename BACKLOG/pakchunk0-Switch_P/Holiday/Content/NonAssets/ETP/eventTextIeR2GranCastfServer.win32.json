@@ -685,7 +685,7 @@
   },
   "65493": {
     "<attr><feel_happy_lv1><end_attr>「こちらは　王家の書庫でございます。\n　一般の方にも　開放しておりますので\n　ご自由に　お読みください。\n<br>\n「グランゼドーラ王家の歴史など\n　旅の方にも　興味深い書物が\n　たくさん　ございますよ。": 
-    "<attr><feel_happy_lv1><end_attr>This is the royal library. It is open to\nthe public, so please feel free to read.\n<br>\nTravelers will find there are many\ninteresting books about the history of\nGran Zedora's royal family."
+    "<attr><feel_happy_lv1><end_attr>This is the royal library. It is open to the public,\nso please feel free to read.\n<br>\nTravelers will find that there are many interesting\nbooks about the history of Gran Zedora's royal\nfamily."
   },
   "65494": {
     "<attr><feel_think_lv1><end_attr>「ああ～。見回りなんかより\n　やりがいのある仕事に　つきてえなあ。\n<br>\n「勇者姫さまが　いらっしゃる　この王国で。\n　ましてや　城の中で　悪さを働こうなんてヤツが\n　いるわけないもんなあ～。": 
@@ -893,7 +893,7 @@
   },
   "70221": {
     "<attr><feel_normal_one><end_attr>「これは　<pc>さま。\n　あのですね。私　見ちゃいました。\n<br>\n「えっとですね。西の塔から　すごい光が\n　ビャーって　あふれだして　ドーンと　お空へ\n　伸びていきました。ホントですよ？": 
-    ""
+    "<attr><feel_normal_one><end_attr>There you are, <pc>. Umm. I saw everything.\n<br>\nEhh. From the western tower, an amazing light\nappeared, overflowed, and shot into the sky. Was that\nreal?"
   },
   "70222": {
     "<attr><feel_think_lv2><end_attr>「勇者姫さまが　ずっと\n　城に　おられないらしいんだが\n　いったい　どこへ　出かけたんだ？": 
@@ -901,31 +901,31 @@
   },
   "70223": {
     "<attr><feel_sad_one><end_attr>「ミシュアという娘が　いなくなったのと\n　時を合わせるようにして　ダイム老の\n　お姿も　見えなくなりました。\n<br>\n「ダイム老は　ミシュアの世話を\n　まかされておりましたから　責任を感じて\n　ほうぼうを　探しまわっているのでしょう。": 
-    ""
+    "<attr><feel_sad_one><end_attr>That Mishua girl disappeared and since then Old Man\nDyme hasn't been seen.\n<br>\nSince Old Man Dyme wound up in charge of Mishua's\ncare, did he feel responsible and is searching\neverywhere."
   },
   "70224": {
     "<attr><feel_angry_lv2><end_attr>「西の塔から消えた　ミシュアの捜索のため\n　この先は今も　立ち入り禁止となっている。\n<br>\n「客人であろうと　通すわけには　いかぬ。\n　すみやかに　立ち去られよ。": 
-    ""
+    "<attr><feel_angry_lv2><end_attr>In order to search for Mishua, who disappeared from\nthe western tower, beyond this point has become\noff-limits. Guest may not pass. Clear out quickly."
   },
   "70225": {
     "<attr><feel_angry_lv2><end_attr>「西の塔から消えた　ミシュアの捜索のため\n　この先は今も　立ち入り禁止となっている。\n<br>\n「客人であろうと　通すわけには　いかぬ。\n　すみやかに　立ち去られよ。": 
-    ""
+    "<attr><feel_angry_lv2><end_attr>In order to search for Mishua, who disappeared from\nthe western tower, beyond this point has become\noff-limits. Guest may not pass. Clear out quickly."
   },
   "70226": {
     "<attr><feel_think_lv1><end_attr>「やや　そこにいるのは\n　西の塔に　閉じ込められたはずの\n　ミシュアではないか？　もう出て良いのか？\n<br>\n「城から　白い光が　昇っていったのを\n　目にしたと言う者も　いるし……\n　最近の城の中は　わからない事だらけだ。": 
-    ""
+    "No way, that's not the Mishua who's supposed to be\nimprisoned in the western tower, is it? You came\nback already?\n<br>\nSomeone even claimed to have witnessed a white light\ncoming from the castle and... Recently, the castle's\nbeen riddled with mysterious events."
   },
   "70227": {
     "<attr><feel_angry_lv2><end_attr>「西の塔に閉じ込めたミシュアが　脱走したと\n　見張りの兵士から　報告があったのです。\n<br>\n「アンルシア姫さまが　お戻りになる前に\n　なんとか　ミシュアを見つけださなくては……。\n<br>\n「ところで　お連れの方……。\n　ひとり　増えたようですが\n　その　お顔は……いえ　まさかね……。": 
-    ""
+    "The guard stationed at the western tower, where Mishua\nwas imprisoned informed me that she had escaped. Before\nPrincess Anlucia returns, we must find Mishua...\n<br>\nBy the way, her companions... Your numbers appear to\nhave increased by one, but that face... No, it\ncouldn't be, could it..."
   },
   "70228": {
     "<attr><feel_sad_lv2><end_attr>「ダイムさまを　探しているのですが\n　お姿が　どこにも　見当たらないのです。\n<br>\n「いったい　何が起こっているのでしょう？\n　ダイムさまの身に　何事もなければ\n　よいのですが……。\n<br>\n「うしろの方　ダイムさまがお世話していた\n　ミシュアさんですよね？\n　何か　ご存じないですか？": 
-    ""
+    "I've been searching for Lord Dyme, however he's\nnowhere to be found. What in the world is going on?\nI hope nothing has happened to Lord Dyme, however...\n<br>\nThat person behind you is the one Lord Dyme was\nhelping, Miss Mishua, isn't it? What don't I know?"
   },
   "70229": {
     "<attr><feel_think_lv2><end_attr>「ミシュアって子と　勇者姫さまが\n　そっくりな理由は　結局　わからずじまいだ。\n　くそう……。気になるぞっ。": 
-    ""
+    "<attr><feel_think_lv2><end_attr>I never did figure out the reason for that Mishua\ngirl and the Hero Princess looking exactly alike.\nDamn... It's bothering me."
   },
   "70230": {
     "扉は　かたく　閉ざされている。": 
@@ -933,7 +933,7 @@
   },
   "70231": {
     "「勇者姫さまは　玉座の間には　おられません。\n　理由は　わかりかねますが　ダーマ神殿に行くと\n　城下の者に告げ　出ていかれたようです。": 
-    ""
+    "The Hero Princess is not in the throne room. I don't\nknow why, but a townsperson told me that she seemed\nto be going to Alltrades Abbey."
   },
   "70257": {
     "「この先は　勇者姫さまのお部屋なのですが\n　勇者姫さまが　こちらに　来られることは\n　今後　永遠に　ありません……。\n<br>\n「え？　この部屋に　用があるのですか？\n　勇者姫さまが　いなくなり　もはや\n　私がここに立つ　意味もないというのに……。": 
