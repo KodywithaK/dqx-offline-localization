@@ -284,9 +284,9 @@ UnrealPak.exe "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFL
   - All of your edited `.etp`'s from Step 1 will now be loaded ingame, as long as you have the corresponding langauge selected.
   - Have fun!
 
-</details>
-
 ---
+
+</details>
 
 # Glossary
 - ***`.ucas`*** is a Content Addressable Store, used by [Zen Loader](https://docs.unrealengine.com/5.2/en-US/zen-loader-in-unreal-engine/) to contain all the assets.
