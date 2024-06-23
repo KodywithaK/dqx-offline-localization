@@ -85,7 +85,7 @@
   },
   "83048": {
     "<if_woman>「……ところで　おねーちゃん。\n　名前は　なんて言うの？\n<br>\n「ふ～ん。<pc>って言うのかあ。\n　うん　決めた！\n　ノアね　<pc>をモデルにする！\n<br>\n「<pc>は　レンダーシアの外から\n　来たんだよね？　ノア　前から人間以外のひとと\n　友だちに　なりたいなって思ってたんだ。\n<br>\n「ねえ　<pc>！\n　ノアの　友だち人形のモデルになって\n　ノアが　人形を作る　お手伝いをしてよ！<else>「……ところで　おにーちゃん。\n　名前は　なんて言うの？\n<br>\n「ふ～ん。<pc>って言うのかあ。\n　うん　決めた！\n　ノアね　<pc>をモデルにする！\n<br>\n「<pc>は　レンダーシアの外から\n　来たんだよね？　ノア　前から人間以外のひとと\n　友だちに　なりたいなって思ってたんだ。\n<br>\n「ねえ　<pc>！\n　ノアの　友だち人形のモデルになって\n　ノアが　人形を作る　お手伝いをしてよ！<endif>": 
-    "<if_woman>...By the way, Big Sister, what did you say your\nname was?\n<br>\nHmm, you say it's <pc>, huh. Yeah, I've decided! I've have you, <pc>, be the model!\n<br>\n<pc>, you came from outside Lendersia,\ndidn't you?\n<br>\nI heard before that there's other people, besides\nhumans, I'd like to be friends with a kid like that,\nI think.\n<br>\nHey, <pc>! You can be my doll friend's model\nand help me make it!<else>...By the way, Big Brother, what did you say your\nname was?\n<br>\nHmm, you say it's <pc>, huh. Yeah, I've decided! I've have you, <pc>, be the model!\n<br>\n<pc>, you came from outside Lendersia,\ndidn't you?\n<br>\nI heard before that there's other people, besides\nhumans, I'd like to be friends with a kid like that,\nI think.\n<br>\nHey, <pc>! You can be my doll friend's model\nand help me make it!<endif>"
+    "<if_woman>...By the way, Big Sister, what did you say your\nname was?\n<br>\nHmm, you say it's <pc>, huh. Yeah, I've decided!\nI've have you, <pc>, be the model!\n<br>\n<pc>, you came from outside Lendersia,\ndidn't you?\n<br>\nI heard before that there's other people, besides\nhumans, I'd like to be friends with a kid like that,\nI think.\n<br>\nHey, <pc>! You can be my doll friend's model\nand help me make it!<else>...By the way, Big Brother, what did you say your\nname was?\n<br>\nHmm, you say it's <pc>, huh. Yeah, I've decided! I've have you, <pc>, be the model!\n<br>\n<pc>, you came from outside Lendersia,\ndidn't you?\n<br>\nI heard before that there's other people, besides\nhumans, I'd like to be friends with a kid like that,\nI think.\n<br>\nHey, <pc>! You can be my doll friend's model\nand help me make it!<endif>"
   },
   "83049": {
     "<attr><feel_happy_lv1><end_attr>「わーい　ありがとっ！\n　これで　やっと　ノアにも友だちができるね。": 
@@ -93,7 +93,7 @@
   },
   "83050": {
     "「ん～。だけど　まだ　なにか足りないなあ。 \n　もっと　い…いんすぴれーしょん？　が\n　必要だと思うの。\n<br>\n「うん。きっと　<pc>が \n　自分の種族らしい格好を　してくれたら\n　ノア　なにか　ひらめくような気がするっ！\n<br>\n「お願い！　種族の服をそろえてきて！ \n　種族の服は　きっと　<pc>の故郷に\n　売っていると思うんだ。\n<br>\n「自分の故郷に帰って　そこで売っている\n　種族の名前が　ついた装備を\n　ぜーんぶ　着て　戻ってきてね！　待ってるよ。": 
-    "Yes～ But there's still something missing. More\nin-inspiration? I think that's what's needed.\n<br>\nUmm, definitely, <pc>, if you wore what\nyour tribe typically does, I think it'd come to me!\n<br>\nPlease! Go get your tribe's clothes! The tribe's clothes\ndefinitely should be sold in your hometown, I think.\n<br>\nGo back to your hometown and after you've bought the\nclothes, put on the whole set and come back! I'll be\nwaiting for you."
+    "Yeees. But there's still something missing. More\nin-inspiration? I think that's what's needed.\n<br>\nUmm, definitely, <pc>, if you wore what\nyour tribe typically does, I think it'd come to me!\n<br>\nPlease! Go get your tribe's clothes! The tribe's clothes\ndefinitely should be sold in your hometown, I think.\n<br>\nGo back to your hometown and after you've bought the\nclothes, put on the whole set and come back! I'll be\nwaiting for you."
   },
   "83051": {
     "「わーい　ありがとっ！\n　……って思ったけど　頼まれごとでいっぱいで\n　忙しそうだね。\n<br>\n「頼まれごとが　片付いたら\n　また　ノアに話しかけてよ。\n　その時は　人形を作るのを手伝ってね！": 
@@ -129,7 +129,7 @@
   },
   "83059": {
     "<attr><feel_happy_one><end_attr>「<pc>！　着替えてきてくれたんだね。 \n　うんうん。とっても　よく似合ってる。\n<br>\n「ノアも　今の　<pc>を見て　\n　ムクムク　いんすぴれーしょん　わいてきたよ！\n　この勢いで　さっそく　人形作りをはじめるね！ <bw_break>": 
-    "<attr><feel_happy_one><end_attr><pc>! You went and changed your clothes,\ndidn't you. Uh-huh. Everything matches properly.\n<br>\nAs I look at you, <pc>, I feel the inspiration\nwelling up! With this influence, I'll start making\nthe doll right away!<bw_break>"
+    "<attr><feel_happy_one><end_attr><pc>! You went and changed your clothes,\ndidn't you. Uh-huh. Everything matches properly.\n<br>\nAs I look at you, <pc>, I feel the inspiration\nwelling up! With this inspiration, I'll start making the\ndoll right away!<bw_break>"
   },
   "83060": {
     "<attr><feel_normal_one><end_attr>「……あっ　そうだ！\n　じゃーん！\n　これ見て　<pc>。": 
@@ -149,11 +149,11 @@
   },
   "83084": {
     "ちくちく　ちくちく……\nちくちく……\n<br>\nノアは　ちくちく　さいほう針を使って\n手作り感たっぷりの　友だち人形を完成させた。": 
-    "Knit one, purl two... Knit one, purl two...\n<br>\nNoor, using the sewing needle, completed\nthe handmade friend doll."
+    "Knit one, purl two... Knit one, purl two...\n<br>\nNoor, using the sewing needle, completed the\nhandmade friend doll."
   },
   "83067": {
     "<attr><feel_happy_lv3><end_attr>「じゃーん！！　上手にできたでしょー？\n　ノアの　はじめての友だちだよ！\n　ああ　これから毎日が楽しみだなあ～っ！\n<br>\n「だって今　ノア　とっても　わくわくしてるの。 \n　この子と遊んだり　もっと友だち増やしたり\n　これから　楽しいことが　いっぱいだよね！\n<br>\n「大人たちが　言っていること。\n　作られた世界が　どうとか\n　むずかしいことは　よくわかんないけど……\n<br>\n「たとえ　ノアたちが　作られたものでも\n　何かを作るって　こんなに楽しいんだから\n　落ち込むことないって　思ったんだ！\n<br>\n「<pc>とも　遊べて楽しかったよ！ \n　人形を作るの　手伝ってくれて　ありがとう。\n<br>\n「あ　最後にいっこだけ！\n　この子の名前を　<pc>にしようと\n　思ってるんだけど　いーい？<yesno><break>": 
-    "<attr><feel_happy_lv3><end_attr>Ta-dah!! Pretty good, isn't it? Noor's first friend!\nAah, from now on, I'll have fun every day～!\n<br>\nI'm already excited. If I make even more friends to\nplay with, there'll be lots of fun stuff to do!\n<br>\nThat stuff the grown-ups talk about. About how this\nworld and stuff is made-up, I don't get what they're\nsad about, because...\n<br>\nEven if me and everybody is made-up, making\nsomething like this is fun and that's nothing to be\nsad about, I think!\n<br>\n<pc>, it was fun playing with you! Thank you\nfor helping me make my doll.\n<br>\nAh, one last thing though! You think it'd be okay if\nI named this doll after you, <pc>?<yesno><break>"
+    "<attr><feel_happy_lv3><end_attr>Ta-dah!! Pretty good, isn't it? Noor's first friend!\nAah, from now on, I'll have fun every daaay!\n<br>\nI'm already excited. If I make even more friends to\nplay with, there'll be lots of fun stuff to do!\n<br>\nThat stuff the grown-ups talk about. About how this\nworld and stuff is made-up, I don't get what they're\nsad about, because...\n<br>\nEven if me and everybody is made-up, making\nsomething like this is fun and that's nothing to be\nsad about, I think!\n<br>\n<pc>, it was fun playing with you! Thank you\nfor helping me make my doll.\n<br>\nAh, one last thing though! You think it'd be okay if\nI named this doll after you, <pc>?<yesno><break>"
   },
   "83068": {
     "「ほかにも　名前は　いろいろ考えてるんだけど\n　本当に　<pc>って名前で　いいんだね？<yesno><break>": 
@@ -217,7 +217,7 @@
   },
   "83087": {
     "<attr><feel_happy_one><end_attr>「そこにおる　孫娘のノアは \n　最近　さいほうの楽しさに目覚めたようでして。\n　ヒマがあれば　針をにぎっております。\n<br>\n「あの　さいほう針は　軽い気持ちで\n　ワシから　与えたものですじゃが……\n　まさか　こんなにも使い込んでくれるとはのう。\n<br>\n「いやはや　前から　わしに似て\n　何かを作ったり　育てたりする才能があると\n　思っとりましたのじゃ。\n<br>\n「……作られた世界でも　草花は育ちます。 \n　人の心も　同じじゃ。\n　そこに　光があれば　成長できるのです。\n<br>\n「わしは　これからも\n　ノアと一緒に　この庭の世話を\n　続けようと　思っとりますのじゃ。": 
-    "<attr><feel_happy_one><end_attr>My granddaughter, Noor, over there seems to have\nwoke up and found fun in sewing recently.\n<br>\nI gave her the sewing needle, thinking she'd use it\ncasually, but... I never expected she'd keep herself\nbusy with it for so long.\n<br>\nGood gracious, just think, had I known earlier that\nshe'd take after me, having a talent for making and\ncaring for things.\n<br>\n...Even in a made-up world, flowers grow. People's\nhearts are exactly the same. If there is light, they\nwill grow.\n<br>\nFrom here on, I believe that Noor and I will continue\nto care for this garden."
+    "<attr><feel_happy_one><end_attr>My granddaughter, Noor, over there seems to have\nwoke up and found fun in sewing recently.\n<br>\nI gave her the sewing needle, thinking she'd use it\ncasually, but... I never expected she'd keep herself\nbusy with it for so long.\n<br>\nGood gracious, just think, had I known earlier that\nshe'd take after me, having a talent for making and\ncaring for things.\n<br>\n...Even in a made-up world, flowers grow. People's\nhearts are exactly the same. If there is light, they will\ngrow.\n<br>\nFrom here on, I believe that Noor and I will continue\nto care for this garden."
   },
   "65462": {
     "「馬ってヤツは　愛情を注げば　注ぐほど\n　それに　応えてくれるんだ。\n<br>\n「こいつらには　表も裏もない。\n　信じれば　それだけ　信じてくれる。\n　人間はダメさ。勇者姫さま以外はね。": 
@@ -293,11 +293,11 @@
   },
   "70183": {
     "「この２頭の馬も　作り物……。\n　それどころか　自分まで　作り物さ。\n　もう　信じられるものなんか　ないんだ。": 
-    "These two horses aren't real... If fact, I'm not\neven real. I don't have anything to believe in\nanymore."
+    "These 2 horses aren't real... If fact, I'm not even real.\nI don't have anything to believe in anymore."
   },
   "70184": {
     "<attr><feel_sad_lv2><end_attr>「この世界が　作り物であるならば\n　妻に対する私の愛も　作り物なのでしょう。\n　悲しいことです……。": 
-    "<attr><feel_sad_lv2><end_attr>If this world is fake, then is the love between my\nwife and I too? It's miserable to think about..."
+    "<attr><feel_sad_lv2><end_attr>If this world is fake, then it seems the love for my\nwife is too. It's miserable to think about..."
   },
   "70185": {
     "「ヒヒヒヒヒ……。": 
@@ -305,7 +305,7 @@
   },
   "70186": {
     "「我らが勇者姫は　もういない。\n　この城を守る価値も　なくなった。\n<br>\n「だが　他にやることが　あるわけでもない。\n　このまま　番兵を続けていくよ。": 
-    "Our Hero Princess is no more. And our\nreason for protecting the castle is lost.\n<br>\nBut it's not like there's anything else\nto do. I'll keep guard."
+    "Our Hero Princess is no more. And our reason for\nprotecting the castle is lost. But it's not like\nthere's anything else to do. I'll keep guard."
   },
   "70187": {
     "「ヘヘヘヘヘ……。": 
@@ -317,14 +317,14 @@
   },
   "78269": {
     "<attr><feel_Think_lv1><end_attr>「この塔は　お城の３階からしか　入れないと\n　聞かされてたんだけど　海風の洞くつって所と\n　地下で　つながってるらしいんだ。\n<br>\n「それが　本当なら　警備とかしないと……。\n　でも　もう　どうでもいいよね。\n　勇者姫さまが　いなくなっちゃったし。": 
-    "<attr><feel_Think_lv1><end_attr>"
+    "<attr><feel_Think_lv1><end_attr>I was told this tower was only accessible from the\ncastle's 3rd floor, but I heard that there's an\nunderground passage linking it to Seabreeze Cave.\n<br>\nIf that's true, then it's defenseless. Although, it\ndoesn't matter anymore, does it. Since the Hero\nPrincess is no more."
   },
   "70189": {
     "返事がない。まるで　しかばねのようだ……。": 
-    "No reply. It's just a corpse..."
+    "There's no response. It's as though he is a corpse..."
   },
   "70190": {
     "<attr><feel_sad_lv3><end_attr>「私が感じていた　幸せも　愛情も\n　すべて　作り物だったのね……。\n　こんなの　ひどいわ……。": 
-    "<attr><feel_sad_lv3><end_attr>That peace and love I felt was all a lie, wasn't\nit... How cruel..."
+    "<attr><feel_sad_lv3><end_attr>That happiness and love I was feeling was all a lie,\nwasn't it... How cruel..."
   }
 }
