@@ -549,11 +549,11 @@
   },
   "78876": {
     "「魔王軍の将によって　トーマさまが討たれた後\n　アンルシア姫までもが　いずこかへと姿を消し\n　私たちは　全滅も覚悟しました……。\n<br>\n「しかし　なぜか　魔王軍は\n　それ以上の攻撃をせずに　引き上げていき\n　グランゼドーラ城は　陥落をまぬがれたのです。\n<br>\n「その後は　大きな襲撃もなく\n　魔王軍の意図は　今もって　不明のまま……。\n　私には　それが不気味で　仕方ないのです。": 
-    ""
+    "Since Master Toma's defeat by the Demon King's Army's\ncommander and the disappearance of Princess Anlucia\nup until now, we resigned ourselves to annihilation...\n<br>\nHowever, for some reason, the Demon King's Army did\nnot carry out futher assaults, and retreated; the\nfall of Gran Zedora castle had been averted.\n<br>\nAfter that, there's even been no large assaults;\nStill, as it is, the goal of the Demon King's remains\nunclear.\n<br>\nFor me, I cannot help but feel that there is\nsomething ominous about that."
   },
   "78877": {
     "<attr><feel_happy_lv2><end_attr>「先ほど　賢者ルシェンダさまの\n　お姿を拝見いたしました……。\n　ああっ！　いつ見ても　お美しいっ！": 
-    ""
+    "<attr><feel_happy_lv2><end_attr>A moment ago I was looking at Sage Lushenda's figure...\nAah! It puts me at ease, seeing such a lovely thing!"
   },
   "78878": {
     "<attr><feel_think_lv1><end_attr>「次の勇者と言われていた　トーマ王子が亡くなり\n　国の未来が　絶望視されていたが……\n　まさか　アンルシア姫のほうが勇者だったとは。\n<br>\n「これまでの王子の行動を　思い起こすと\n　姫が　勇者であることを知った上で\n　自ら影武者となり　姫を守っていたのだろうな。": 
@@ -565,7 +565,7 @@
   },
   "78880": {
     "<attr><feel_think_one><end_attr>「先の魔王軍との戦いで　トーマ王子は命を奪われ\n　アンルシア姫は姿を消し　この国は\n　どこから　どう見ても　絶体絶命だった。\n<br>\n「なのに　魔王軍は　そのまま陣を退いたのだ。\n　……いったい　なぜ　あの状況で\n　魔王軍は　この国を滅ぼさずに　退散したのだ？": 
-    ""
+    "<attr><feel_think_one><end_attr>Since the previous battle with the Demon King's Army,\nwhere Prince Toma's life was taken and Princess\nAnlucia vanished, this land was driven into a corner.\n<br>\nAnd yet, the Demon King's Army retreated from the\nfront lines... Why the in the world, did the Demon\nKing's Army not ruin our country, and retreat?"
   },
   "78881": {
     "<attr><feel_angry_lv1><end_attr>「先の　魔王軍との戦いでは\n　なんとか　グランゼドーラ城と　城下町を\n　守りきれたという　有様だ。\n<br>\n「だが　アンルシア姫が勇者となって　戻られた今\n　グランゼドーラは　神の祝福を受けたも同然。\n　必ずや　姫とともに　大魔王を打ち倒さねば！": 
@@ -593,7 +593,7 @@
   },
   "78887": {
     "<attr><feel_happy_lv1><end_attr>「<pc>どの！　この階段を上がれば\n　王家の方々の私室があります。\n<br>\n「そこから出て　西の塔は　姫さまのお部屋。\n　東の塔は　今は亡き　トーマ王子さまの\n　お部屋になっています。": 
-    ""
+    "<attr><feel_happy_lv1><end_attr>Rosef TEST: {if_woman}|gender(Lord,Lady) <pc>!\n<br>\n{pc}|gender(Lord,Lady) <pc>! If you take the stairs up, you'll\nfind the Royal Family's chambers.\n<br>\nFrom there, heading west, is the Princess' room.\nIn the eastern tower, is the late Prince Toma's\nroom."
   },
   "78888": {
     "「一見　平和そうに見える　この世界にも\n　大魔王の魔の手は　確実に伸びている……。\n　そなた達には　それを探ってもらいたい。\n<br>\n「そなた達が　レンダーシアを旅して\n　出会った事件を解決することは\n　大魔王の狙いを探る　手がかりとなるだろう。\n<br>\n「同時にそれは　この世界の運命をも変えてゆく。\n　そなたに託した　運命の振り子は　その時\n　変異した運命のチカラを　得ていくのだ。\n<br>\n「運命のチカラで満ちれば　振り子は輝きを放ち\n　より大きな運命の変異を　うながすはずだ。\n<br>\n「まずは　メルサンディ　セレド　アラハギーロの \n　３箇所をめぐり　異変の調査をしてきてくれ。\n　頼んだぞ　アンルシア　<pc>。": 
@@ -921,7 +921,7 @@
   },
   "20378006": {
     "「アンルシアよ。<pc>たちと　ともに\n　広い世界を　見てくるがいい。\n　志半ばで倒れた　トーマの分まで……な。\n<br>\n「<pc>。そして　５種族の　英雄たちよ。\n　勇者に覚醒したとはいえ　アンルシアは\n　まだまだ若輩。どうか手助けしてやってほしい。\n<br>\n「おお　そうだ。旅立つ前には　ぜひ　城や\n　城下町の者らの　話を聞いていくとよいぞ。\n　装備や道具　スキルの見直しも忘れるなよ。\n<br>\n「ともかく　準備は入念にな。\n　……いや　あれこれと　すまぬな。\n　アンルシアを……娘を　よろしく頼んだぞ。": 
-    ""
+    "Anlucia. <pc>, together with your party,\nplease search worldwide. Until Toma's unfulfilled\nduty...\n<br>\n<pc>, as well as the Heroes of the 5 Tribes.\nAlthough Awakened as the Hero, Anlucia is still\nyoung. Please, I wish for you to support her.\n<br>\nOoh, that's right. Before you depart, certainly,\nlistening with the people of the castle and of castle\ntown would be most beneficial.\n<br>\nDon't forget to re-examine your equipment, items, and\nskills. Speaking generally, take care in your\npreparations... No, I apologize for prattling on.\n<br>\nPlease take care of Anlucia... Of my daughter."
   },
   "20378007": {
     "「おお　アンルシアに　<pc>よ。\n　ルシェンダどのより　話は聞いておる。\n　運命の変異が　訪れたとな。\n<br>\n「レンダーシアの……いや　世界の命運は\n　そなたらの　働きに　かかっておる。\n　どうか　よろしく頼んだぞ。": 
