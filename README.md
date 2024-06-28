@@ -164,6 +164,32 @@
 
 </details>
 
+<details><summary><h1>Edit Fonts via GlyphrStudio</h1></summary>
+
+## 0.Prequisites
+  - A font of your choice
+
+## 1.GlyphrStudio.com/app/
+  - Following the `Replace Fonts via UE4Editor` tutorial, if your fonts don't look correct ingame (too wide/narrow, line gaps cutting off text, etc.):
+  - Go to [GlypherStudio](https://www.glyphrstudio.com/app/), and edit it to your liking, e.g.:
+  - `Landing page` > `Load` > drag-and-drop your font file, then wait for it to import into the editor.
+    - Text too wide/narrow:
+      - `Page Overview` > `Page Global Actions` > `Move and resize`
+        - `Horizontally scale all glyphs` > `Scale Value` > choose a value (narrower < 1 > wider) > `Scale All Glyphs`
+    - Line Gaps cutting off/smashing into other text:
+      - `Page Settings` > `Font` > `Font Metrics` > `Other Metrics` > `Line Gap:`
+        - choose a value (smaller gaps < current > bigger gaps)
+          - [!NOTE] You may have to increase by a `100 Em` at a time, to see any noticeable changes.
+    - Finished editing:
+      - `File` > `Export OTF File`
+        - [!NOTE] With that, your edited font is ready to be put back into UE4Editor
+
+## 2.UE4Editor.exe
+  - Follow the steps outlined in the above tutorial, to test out your new font.
+  - Have fun!
+  
+</details>
+
 <details><summary><h1>Translate .ETP files via dqx_dat_dump</h1></summary>
 
 ## 0.Prerequisites
