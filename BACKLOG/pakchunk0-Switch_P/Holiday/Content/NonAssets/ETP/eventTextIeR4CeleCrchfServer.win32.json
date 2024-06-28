@@ -421,7 +421,7 @@
   },
   "79512": {
     "<if_woman><attr><feel_happy_lv1><end_attr>「わーい　ありがとう！\n　そのプレゼントは　トモガラの木っていう\n　特別な木じゃないと　作れないんだ。\n<br>\n「ここから北の　リンジャハル海岸とかにいる\n　<%sEV_QUE_NAME0>を倒すと\n　トモガラの木の苗を　おとすんだって。\n<br>\n「おねがい　おねえちゃん。トモガラの苗と\n　それから　苗を育てるための　肥料になる\n　<%sEV_QUE_NAME4>を　１個　もってきて！<else><attr><feel_happy_lv1><end_attr>「わーい　ありがとう！\n　そのプレゼントは　トモガラの木っていう\n　特別な木じゃないと　作れないんだ。\n<br>\n「ここから北の　リンジャハル海岸とかにいる\n　<%sEV_QUE_NAME0>を倒すと\n　トモガラの木の苗を　おとすんだって。\n<br>\n「おねがい　おにいちゃん。トモガラの苗と\n　それから　苗を育てるための　肥料になる\n　<%sEV_QUE_NAME4>を　１個　もってきて！<endif>": 
-    "<if_woman><feel_happy_lv1><end_attr>Wooow, thanks! The present is called a Friend Fern,\nand I have to make it.\n<br>\nNorth of here, around Rinjahar Coast are\n<%sEV_QUE_NAME0>es that drop Friend Seedlings when\ndefeated.\n<br>\nPlease, big sis, bring me the Friend Seedling and\n1 pile of <%sEV_QUE_NAME4>!<else><feel_happy_lv1><end_attr>Wooow, thanks! The present is called a Friend Fern,\nand I have to make it.\n<br>\nNorth of here, around Rinjahar Coast are\n<%sEV_QUE_NAME0>es that drop Friend Seedlings when\ndefeated.\n<br>\nPlease, big bro, bring me the Friend Seedling and\n1 pile of <%sEV_QUE_NAME4>!<endif>"
+    "<if_woman><feel_happy_lv1><end_attr>Wooow, thanks! The present is called a Friend Fir,\nand I have to make it.\n<br>\nNorth of here, around Rinjahar Coast are\n<%sEV_QUE_NAME0>es that drop Friend Seedlings when\ndefeated.\n<br>\nPlease, big sis, bring me the Friend Seedling and\n1 pile of <%sEV_QUE_NAME4>!<else><feel_happy_lv1><end_attr>Wooow, thanks! The present is called a Friend Fir,\nand I have to make it.\n<br>\nNorth of here, around Rinjahar Coast are\n<%sEV_QUE_NAME0>es that drop Friend Seedlings when\ndefeated.\n<br>\nPlease, big bro, bring me the Friend Seedling and\n1 pile of <%sEV_QUE_NAME4>!<endif>"
   },
   "79513": {
     "<if_woman><attr><feel_think_lv1><end_attr>「……あれ？　おねえちゃん\n　いま　お仕事が　いっぱいみたいだね。\n<br>\n「ボクの頼みは　あとでいいから\n　また　ヒマになったら　来てね！<else><attr><feel_think_lv1><end_attr>「……あれ？　おにいちゃん\n　いま　お仕事が　いっぱいみたいだね。\n<br>\n「ボクの頼みは　あとでいいから\n　また　ヒマになったら　来てね！<endif>": 
@@ -433,7 +433,7 @@
   },
   "79515": {
     "<attr><feel_normal_lv1><end_attr>「これから　つらいことが　あっても \n　元気が出せるように　ボク　みんなに\n　プレゼントを　作ってあげたいんだ。\n<br>\n「そのプレゼントは　トモガラの木っていう \n　特別な木じゃないと　作れなくてさ。\n<br>\n「ここから北の　リンジャハル海岸とかにいる\n　<%sEV_QUE_NAME0>を倒すと\n　トモガラの木の苗を　おとすんだって。<open_irai><bw_break>": 
-    "<attr><feel_normal_lv1><end_attr>So, even though it'll be tough to do, I'll bring up\nour spirits by making a present for everybody.\n<br>\nThe present is called a Friend Fern, and I have to\nmake it.\n<br>\nNorth of here, around Rinjahar Coast are\n<%sEV_QUE_NAME0>es that drop Friend Seedlings when\ndefeated.<open_irai><bw_break>"
+    "<attr><feel_normal_lv1><end_attr>So, even though it'll be tough to do, I'll bring up\nour spirits by making a present for everybody.\n<br>\nThe present is called a Friend Fir, and I have to\nmake it.\n<br>\nNorth of here, around Rinjahar Coast are\n<%sEV_QUE_NAME0>es that drop Friend Seedlings when\ndefeated.<open_irai><bw_break>"
   },
   "79516": {
     "<if_woman><attr><feel_normal_lv1><end_attr>「おねがい　おねえちゃん。トモガラの苗と\n　それから　苗を育てるための　肥料になる\n　<%sEV_QUE_NAME4>を　１個　もってきて！<else><attr><feel_normal_lv1><end_attr>「おねがい　おにいちゃん。トモガラの苗と\n　それから　苗を育てるための　肥料になる\n　<%sEV_QUE_NAME4>を　１個　もってきて！<endif>": 
@@ -457,7 +457,7 @@
   },
   "79521": {
     "<attr><feel_happy_lv2><end_attr>「わあっ　ありがとう！ \n　この苗が　大きな木になるまで育てて\n　プレゼントの材料に　するつもりなんだ。\n<br>\n「トモガラの木って　すごく早く育つんだよ。 \n　だけど　みんなには　ナイショで作りたいから\n　見つからないよう　こっそり育てなくっちゃね。\n<br>\n「木が育ったら　お願いしたいことがあるから\n　しばらくしたら　また　きてほしいんだ。\n　うーん……３分くらいかなあ？": 
-    "<attr><feel_happy_lv2><end_attr>Wow, thanks! Once this seedling grows into a big\ntree, I plan on using it as materials for the\npresents.\n<br>\nThese Friend Ferns grow super fast, but since I want\nto make it a surprise for everyone, I'll have to\ngrow it in secret, y'know.\n<br>\nOnce the tree grows, there's something I want to ask\nyou about, so can you come back again. Umm... In\naround 3 minutes?"
+    "<attr><feel_happy_lv2><end_attr>Wow, thanks! Once this seedling grows into a big\ntree, I plan on using it as materials for the presents.\n<br>\nThese Friend Firs grow super fast, but since I want\nto make it a surprise for everyone, I'll have to grow it\nin secret, y'know.\n<br>\nOnce the tree grows, there's something I want to ask\nyou about, so can you come back again. Umm... In\naround 3 minutes?"
   },
   "79522": {
     "<pc>は　トモガラの苗と\n<%sEV_QUE_NAME4>　１個を\nフェクトに　渡した。": 
@@ -465,15 +465,15 @@
   },
   "79523": {
     "<pc>たちは　教会の中で\n思い思いに　３分間をすごした。\n<br>\n３分って　ただ待つには　長く感じるけど\n何かをするには　短いな……\n<br>\nそんなことを　考えていたら\nあっという間に　３分がすぎた。\nそろそろ　フェクトのところへ戻ってみよう。": 
-    "<pc> and friends did as pleased for the\nnext 3 minutes. Those 3 minutes feel like a long time\nto just wait, but it's too short to do anything...\n<br>\nWhile I was thinking about that, 3 minutes passed in\nan instant. It's about time, let's return to Fecto."
+    "<pc> and friends did as they pleased for the\nnext 3 minutes. Those 3 minutes feel like a long time\nto just wait, but it's too short to do anything...\n<br>\nWhile I was thinking about that, 3 minutes passed in\nan instant. It's about time, let's return to Fecto."
   },
   "79525": {
     "<if_woman><attr><feel_happy_lv1><end_attr>「あっ　おねえちゃん。きいて　きいて！\n　トモガラの木が　りっぱな\n　大きい木に　育ったんだよ！\n<br>\n「トモガラは　仲間って意味らしくて \n　同じ木から作ったモノを　みんなで　もってると\n　ずっと　仲良しでいられるんだって。\n<br>\n「だからね　ボク　トモガラの木を材料に\n　ロザリオを　つくって　みんなに\n　くばってあげたいんだ。\n<br>\n「オトナたちが　いなくっても\n　ボクたち　仲間のキズナがあれば\n　きっと　大丈夫だよって……。\n<br>\n「……でも　木工なんて　やったことないから\n　おねえちゃんに　もうひとつだけ\n　お願いしたいことが　あるんだよ。\n<br>\n「パパに　聞いたことがあるんだ……。 \n　木工ギルドって所に　ハヤトっていう\n　ウデのいい職人さんが　いるって。\n<br>\n「おねえちゃん　おねがい。 \n　その　ハヤトって職人さんから\n　木工のやり方や　コツを　聞いてきて！<else><attr><feel_happy_lv1><end_attr>「あっ　おにいちゃん。きいて　きいて！\n　トモガラの木が　りっぱな\n　大きい木に　育ったんだよ！\n<br>\n「トモガラは　仲間って意味らしくて \n　同じ木から作ったモノを　みんなで　もってると\n　ずっと　仲良しでいられるんだって。\n<br>\n「だからね　ボク　トモガラの木を材料に\n　ロザリオを　つくって　みんなに\n　くばってあげたいんだ。\n<br>\n「オトナたちが　いなくっても\n　ボクたち　仲間のキズナがあれば\n　きっと　大丈夫だよって……。\n<br>\n「……でも　木工なんて　やったことないから\n　おにいちゃんに　もうひとつだけ\n　お願いしたいことが　あるんだよ。\n<br>\n「パパに　聞いたことがあるんだ……。 \n　木工ギルドって所に　ハヤトっていう\n　ウデのいい職人さんが　いるって。\n<br>\n「おにいちゃん　おねがい。 \n　その　ハヤトって職人さんから\n　木工のやり方や　コツを　聞いてきて！<endif>": 
-    "<if_woman>Ah, big sis, Listen, listen! The Friend Fern grew\ninto a great tree!\n<br>\nThe 'friend' part of its name seems to come from a\nbelief that those who possess rosaries made from the\nsame tree will stay friends forever.\n<br>\nSo, y'know, that's why I want to give everyone a\nrosary made from this Friend Fern.\n<br>\nEven if the adults aren't here, so long as we have\nour friendship, I'm sure that we'll be okay...\n<br>\n...But since I've never done any woodworking, big\nsis, there's another thing I wanted to ask you\nabout.\n<br>\nI heard about it from my papa... At a woodworking\nguild, there's a skilled craftsman named Hayato.\n<br>\nBig sis, please. Can you go and learn the ways of\nwoodworking from that craftsman, Hayato!<else>Ah, big bro, Listen, listen! The Friend Fern grew\ninto a great tree!\n<br>\nThe 'friend' part of its name seems to come from a\nbelief that those who possess rosaries made from the\nsame tree will stay friends forever.\n<br>\nSo, y'know, that's why I want to give everyone a\nrosary made from this Friend Fern.\n<br>\nEven if the adults aren't here, so long as we have\nour friendship, I'm sure that we'll be okay...\n<br>\n...But since I've never done any woodworking, big\nbro, there's another thing I wanted to ask you\nabout.\n<br>\nI heard about it from my papa... At a woodworking\nguild, there's a skilled craftsman named Hayato.\n<br>\nBig bro, please. Can you go and learn the ways of\nwoodworking from that craftsman, Hayato!<endif>"
+    "<if_woman>Ah, big sis, Listen, listen! The Friend Fir grew into\na great tree!\n<br>\nThe 'friend' part of its name seems to come from a\nbelief that those who possess rosaries made from the\nsame tree will stay friends forever.\n<br>\nSo, y'know, that's why I want to give everyone a\nrosary made from this Friend Fir.\n<br>\nEven if the adults aren't here, so long as we have our\nfriendship, I'm sure that we'll be okay...\n<br>\n...But since I've never done any woodworking, big sis,\nthere's another thing I wanted to ask you about.\n<br>\nI heard about it from my papa... At a woodworking\nguild, there's a skilled craftsman named Hayato.\n<br>\nBig sis, please. Can you go and learn the ways of\nwoodworking from that craftsman, Hayato!<else>Ah, big bro, Listen, listen! The Friend Fir grew into\na great tree!\n<br>\nThe 'friend' part of its name seems to come from a\nbelief that those who possess rosaries made from the\nsame tree will stay friends forever.\n<br>\nSo, y'know, that's why I want to give everyone a\nrosary made from this Friend Fir.\n<br>\nEven if the adults aren't here, so long as we have our\nfriendship, I'm sure that we'll be okay...\n<br>\n...But since I've never done any woodworking, big bro,\nthere's another thing I wanted to ask you about.\n<br>\nI heard about it from my papa... At a woodworking\nguild, there's a skilled craftsman named Hayato.\n<br>\nBig bro, please. Can you go and learn the ways of\nwoodworking from that craftsman, Hayato!<endif>"
   },
   "79528": {
     "<if_woman><attr><feel_normal_lv1><end_attr>「トモガラは　仲間って意味らしいんだ。\n　同じ木から作ったモノを　みんなで　もってると\n　ずっと　仲良しでいられるんだって。\n<br>\n「……でも　木工なんて　やったことないから\n　おねえちゃんに　もうひとつだけ\n　お願いしたいことが　あるんだよ。<open_irai><bw_break><else><attr><feel_normal_lv1><end_attr>「トモガラは　仲間って意味らしいんだ。\n　同じ木から作ったモノを　みんなで　もってると\n　ずっと　仲良しでいられるんだって。\n<br>\n「……でも　木工なんて　やったことないから\n　おにいちゃんに　もうひとつだけ\n　お願いしたいことが　あるんだよ。<open_irai><bw_break><endif>": 
-    ""
+    "<if_woman><attr><feel_normal_lv1><end_attr>The 'friend' part of its name seems to come from a\nbelief that those who possess rosaries made from the\nsame tree will stay friends forever.\n<br>\n...But since I've never done any woodworking, big sis,\nthere's another thing I wanted to ask you about.\n<br>\nI heard about it from my papa... At a woodworking\nguild, there's a skilled craftsman named Hayato.\n<br>\nBig sis, please. Can you go and learn the ways of\nwoodworking from that craftsman, Hayato!<open_irai><bw_break><else><attr><feel_normal_lv1><end_attr>The 'friend' part of its name seems to come from a\nbelief that those who possess rosaries made from the\nsame tree will stay friends forever.\n<br>\n...But since I've never done any woodworking, big bro,\nthere's another thing I wanted to ask you about.\n<br>\nI heard about it from my papa... At a woodworking\nguild, there's a skilled craftsman named Hayato.\n<br>\nBig bro, please. Can you go and learn the ways of\nwoodworking from that craftsman, Hayato!<open_irai><bw_break><endif>"
   },
   "79529": {
     "<if_woman><attr><feel_normal_lv1><end_attr>「パパに　聞いたことがあるんだ……。 \n　木工ギルドって所に　ハヤトっていう\n　ウデのいい職人さんが　いるって。\n<br>\n「おねえちゃん　おねがい。 \n　その　ハヤトって職人さんから\n　木工のやり方や　コツを　聞いてきて！<else><attr><feel_normal_lv1><end_attr>「パパに　聞いたことがあるんだ……。 \n　木工ギルドって所に　ハヤトっていう\n　ウデのいい職人さんが　いるって。\n<br>\n「おにいちゃん　おねがい。 \n　その　ハヤトって職人さんから\n　木工のやり方や　コツを　聞いてきて！<endif>": 
@@ -489,15 +489,15 @@
   },
   "79532": {
     "<attr><feel_sad_one><end_attr>「そっか　まだみたいだね。\n　ボク　ここで　まってるから　よろしくね！": 
-    "<attr><feel_sad_one><end_attr>Okaaay, haven't found it yet, have you. I'll be\nwaiting here, I'm counting on you, y'know!"
+    "<attr><feel_sad_one><end_attr>Okaaay, haven't found it yet, have you. I'll be waiting\nhere, I'm counting on you, y'know!"
   },
   "79533": {
     "<if_woman><attr><feel_happy_lv1><end_attr>「わあ……！\n　これ　ハヤトさんが　くれた本なのかい？\n<br>\n「ふむ……ふむ……なるほど……。\n　おねえちゃん　ありがとう。\n　この本　すっごく　わかりやすいよ！\n<br>\n「じつはね　もう　トモガラの木の枝を\n　とってきて　用意していたんだ。\n　さっそく　ロザリオを　作ってみるね！<else><attr><feel_happy_lv1><end_attr>「わあ……！\n　これ　ハヤトさんが　くれた本なのかい？\n<br>\n「ふむ……ふむ……なるほど……。\n　おにいちゃん　ありがとう。\n　この本　すっごく　わかりやすいよ！\n<br>\n「じつはね　もう　トモガラの木の枝を\n　とってきて　用意していたんだ。\n　さっそく　ロザリオを　作ってみるね！<endif>": 
-    ""
+    "<if_woman><attr><feel_happy_lv1><end_attr>Whoa...! Mr. Hayato gave you this book? Hmm...\nOkay... I see...\n<br>\nBig sis, thanks. This book is super easy to\nunderstand! In fact, I've already got the Friend\nFir's branches ready.\n<br>\nI'll try making the rosaries right away, okay!<else><attr><feel_happy_lv1><end_attr>Whoa...! Mr. Hayato gave you this book? Hmm...\nOkay... I see...\n<br>\nBig bro, thanks. This book is super easy to\nunderstand! In fact, I've already got the Friend\nFir's branches ready.\n<br>\nI'll try making the rosaries right away, okay!<endif>"
   },
   "79534": {
     "<attr><feel_happy_lv3><end_attr>「……ん。できた！\n　あまり　キレイにできなかったけど\n　ちゃんと　ロザリオのカタチになったよ！\n<br>\n「これなら　みんなに　プレゼントできるね。 \n　何度も　ボクのお願い　きいてくれて\n　ホントに　ありがとう！<bw_break>": 
-    ""
+    "<attr><feel_happy_lv3><end_attr>...Huh. I did it! It wasn't very pretty, but it had\nthe proper shape of a rosary!\n<br>\nNow, I can make everyone's presents, y'know. For\nhearing all of requests, really, thank you!<bw_break>"
   },
   "79535": {
     "<if_woman><attr><feel_happy_lv2><end_attr>「お礼に　最初に作った　記念のロザリオを\n　あげるよ。だって　おねえちゃんも\n　子供だけの町　セレドの仲間だもんね！<else><attr><feel_happy_lv2><end_attr>「お礼に　最初に作った　記念のロザリオを\n　あげるよ。だって　おにいちゃんも\n　子供だけの町　セレドの仲間だもんね！<endif>": 
@@ -505,7 +505,7 @@
   },
   "79536": {
     "<attr><feel_normal_lv1><end_attr>「次は……やっぱり　女王さまにあげる\n　ロザリオを　作ろうっと。\n　うーっ　きんちょうするなぁ……。": 
-    ""
+    "<attr><feel_normal_lv1><end_attr>Next is... Knew it, the Queen's rosary is the one\nI'm making. Uuuuh, I'm nervous..."
   },
   "79537": {
     "<if_woman><attr><feel_happy_lv2><end_attr>「これは　ボクから　おねえちゃんへの \n　お礼だよ。うけとってね！<else><attr><feel_happy_lv2><end_attr>「これは　ボクから　おにいちゃんへの \n　お礼だよ。うけとってね！<endif>": 
@@ -513,7 +513,7 @@
   },
   "79538": {
     "<attr><feel_normal_lv1><end_attr>「次は……やっぱり　女王さまにあげる\n　ロザリオを　作ろうっと。\n　うーっ　きんちょうするなぁ……。": 
-    ""
+    "<attr><feel_normal_lv1><end_attr>Next is... Knew it, the Queen's rosary is the one\nI'm making. Uuuuh, I'm nervous..."
   },
   "79539": {
     "フェクトに　子供向けの木工教本を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close>": 
@@ -525,11 +525,11 @@
   },
   "79541": {
     "フェクトは　たどたどしい手つきで\nトモガラの木を　彫りはじめた……。": 
-    ""
+    "Fecto began to clumsily carve the Friend Fir..."
   },
   "79542": {
     "<attr><feel_happy_lv1><end_attr>「トモガラは　仲間って意味らしいんだ。\n　同じ木から作ったモノを　みんなで　もってると\n　ずっと　仲良しでいられるんだって。\n<br>\n「次は　このトモガラの木を材料に\n　女王さまにあげるロザリオを　つくってみるよ。\n　うーっ　きんちょうするなぁ……。": 
-    ""
+    "<attr><feel_happy_lv1><end_attr>The 'friend' part of its name seems to come from a\nbelief that those who possess rosaries made from the\nsame tree will stay friends forever.\n<br>\nNext, I'll try to make the Queen's rosary with the\nFriend Fir as materials. Uuuuh, I'm nervous..."
   },
   "100030": {
     "<attr><feel_happy_lv3><end_attr>「わーい。ボクの作った　ロザリオが\n　セリクにも　喜んでもらえて　うれしいよ。\n　ボクたちの絆は　永遠だよね！": 

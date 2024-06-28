@@ -183,7 +183,7 @@
   },
   "79547": {
     "<attr><feel_normal_lv1><end_attr>「ふぅむ。木工のやり方を知りたいのか。\n　しかし　いきなり　そう言われても\n　そうそう　パッと教えられるものじゃないよ。\n<br>\n「……え？\n　レンダーシアの子供が　僕の評判を聞いて\n　木工を　習いたがってるだって？\n<br>\n「……ふぅむ。そういうことなら\n　ひと肌　脱いであげるしかないね。\n　この本を　その子に　渡してあげておくれ。": 
-    "<attr><feel_normal_lv1><end_attr>Hmm. You want to know the way of woodworking, huh.\nHowever, even I suddenly told you, it's not something\nyou could be taught just like that.\n<br>\n...Eh? A Lendersian kid heard about my reputation\nand wants to learn woodworking from me?\n<br>\n...Hmmm. If that's what this is about, it's no skin\noff my back, is it. Give this book to that kid for me."
+    "<attr><feel_normal_lv1><end_attr>Hmm. You want to know the way of woodworking, eh.\nHowever, even I suddenly told you, it's not something\nyou could be taught just like that.\n<br>\n...Eh? A Lendersian kid heard about my reputation\nand wants to learn woodworking from me?\n<br>\n...Hmmm. If that's what this is about, it's no skin\noff my back, is it. Give this book to that kid for me."
   },
   "79548": {
     "<attr><feel_happy_lv1><end_attr>「それは　僕が　子供の頃から使ってた教本さ。 \n　もう　今さら読むこともないから\n　その子に　プレゼントしてあげておくれよ。\n<br>\n「……しかし　そんな　海の向こうの大陸まで \n　名前が　広まっているなんて\n　僕の評判も　捨てたものじゃないね。ふふっ。": 
@@ -191,11 +191,11 @@
   },
   "79549": {
     "フェクトの言っていた　\nウデのいい職人　ハヤトのようだ。\nハヤトに　木工のやり方について聞きますか？<yesno><case 1><break><case 2><close><case_cancel><close>": 
-    "Looks like this is the skilled craftsman, Hayato,\nthat Fecto mentioned. Ask Hayato about learning the\nways of woodworking?<yesno><case 1><break><case 2><close><case_cancel><close>"
+    "Looks like this is the skilled craftsman, Hayato, that\nFecto mentioned. Ask Hayato about learning the ways\nof woodworking?<yesno><case 1><break><case 2><close><case_cancel><close>"
   },
   "79550": {
     "<pc>は　ハヤトに\n木工のやり方について　聞いてみた。": 
-    "<pc> tried asking Hayato about learning\nthe ways of woodworking."
+    "<pc> tried asking Hayato about learning the\nway of woodworking."
   },
   "79551": {
     "<pc>は\n子供向けの木工教本（だいじなもの）を\n受け取った！<me 60>": 
