@@ -28,6 +28,7 @@ jobs:
           sparse-checkout: | # Checks out only the BACKLOG & FINAL Content folders & responseFiles
             Build_ID-14531340/BACKLOG/Game/Content
             Build_ID-14531340/FINAL/Game/Content
+            Build_ID-14531340/REFERENCES/Game/Content/NonAssets/
             responsefile-Switch_KOtoEN_P.txt
             responsefile-WindowsNoEditor_KOtoEN_P.txt
 
@@ -46,6 +47,7 @@ jobs:
           cache: 'pip' # caching pip dependencies
       - name: Run Python         
         run: |
+          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/REFERENCES/Game/Content/NonAssets/ETP ${{ github.workspace }}/dqx_dat_dump/tools/ETP_en
           cd ./dqx_dat_dump/
           python -m venv venv
           source ./venv/bin/activate
