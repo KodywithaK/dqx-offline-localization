@@ -4,6 +4,7 @@ on:
   push:
     branches: [KOtoEN]
     paths:
+      - '.github/workflows/Publish-Dialogue_KO_Latest_Ppak.yml'
       - 'Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/en/Game.locres.json'
       - 'Build_ID-14531340/BACKLOG/Game/Content/NonAssets/ETP_en/**'
       - 'Build_ID-14531340/FINAL/Game/Content/NonAssets/ETP_en/**'
@@ -50,13 +51,12 @@ jobs:
           cache: 'pip' # caching pip dependencies
       - name: Run Python         
         run: |
-          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/REFERENCES/Game/Content/NonAssets/ETP ${{ github.workspace }}/dqx_dat_dump/tools/ETP_en
           cd ./dqx_dat_dump/
           python -m venv venv
           source ./venv/bin/activate
           pip install -r requirements.txt
           cd ./tools/packing/
-          python ./pack-ETP_ko-GitHubActions.py -a
+          python ./pack-ETP_en-GitHubActions.py -a
           deactivate
           cd ~
           mkdir -p ${{ github.workspace }}/LocRes-Builder/in/
