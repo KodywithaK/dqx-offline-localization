@@ -5,6 +5,7 @@ on:
     branches: [KOtoEN]
     paths:
       - 'Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/en/Game.locres.json'
+      - 'Build_ID-14531340/BACKLOG/Game/Content/NonAssets/ETP_en/**'
       - 'Build_ID-14531340/FINAL/Game/Content/NonAssets/ETP_en/**'
       - 'Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/ko/Game.locres.json'
       - 'Build_ID-14531340/FINAL/Game/Content/NonAssets/ETP_ko/**'
