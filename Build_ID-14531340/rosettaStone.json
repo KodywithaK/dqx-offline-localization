@@ -13,6 +13,20 @@
       "zh-hant": ""
     }
   },
+  "194871": {
+    "files": {
+      "etp": "eventTextIeR4CeleTownrServer.win32",
+      "locres": "n/a"
+    },
+    "languages": {
+      "en": "",
+      "es": "",
+      "ja": "特に　変わった本はないようだ。",
+      "ko": "딱히 특별한 책은 없는 것 같다.",
+      "zh-hans": "似乎没有什么特别的书。",
+      "zh-hant": "似乎沒有什麼特別的書。"
+    }
+  },
   "102834": {
     "files": {
       "etp": "eventTextIeW2JureLowsServer.win32",
@@ -389,6 +403,20 @@
       "ko": "난이도:",
       "zh-hans": "难度：",
       "zh-hant": "難度："
+    }
+  },
+  "SYSTXT_SHIRABERU_00050": {
+    "files": {
+      "etp": "n/a",
+      "locres": "STT_LD_SerchFieldObject"
+    },
+    "languages": {
+      "en": "Nothing was found.\n<end>",
+      "es": "No se encontró nada\n<end>",
+      "ja": "なにも　みつからなかった。\n<end>",
+      "ko": "아무것도 발견하지 못했다.\n<end>",
+      "zh-hans": "什么也没有发现。\n<end>",
+      "zh-hant": "什麼都沒有發現。\n<end>"
     }
   }
 }
