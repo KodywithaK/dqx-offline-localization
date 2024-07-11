@@ -65,7 +65,7 @@
   },
   "37197": {
     "<pc>は\n<%sEV_ITEM>を　受け取った！<se_nots System Item>": 
-    "<pc> received <%sev_item>!<se_nots System Item>"
+    "<pc> received <%sEV_ITEM>!<se_nots System Item>"
   },
   "37198": {
     "<attr><feel_happy_lv2><end_attr>「あたし……このゆびわ　もう\n　ぜったい　なくさないように　大切にする。\n　ありがとう　旅人さん。": 
@@ -85,7 +85,7 @@
   },
   "37202": {
     "<pc>は\n<%sEV_ITEM>を　受け取った！<se_nots System Item>": 
-    "<pc> received <%sev_item>!<se_nots System Item>"
+    "<pc> received <%sEV_ITEM>!<se_nots System Item>"
   },
   "37203": {
     "<attr><feel_happy_lv2><end_attr>「あたし……このゆびわ　もう\n　ぜったい　なくさないように　大切にする。\n　ありがとう　旅人さん。": 
@@ -449,107 +449,107 @@
   },
   "48231": {
     "<attr><feel_sad_one><end_attr>「ハァ……。ボク　領主様のお屋敷で\n　カムシカの世話をされている　フシコさんに\n　ムネキュンなんです。\n<br>\n「フシコさんが　風音のユリという花を\n　ほしがってるってウワサを　耳にしたので\n　なんとか　プレゼントしようと思いまして。\n<br>\n「アズラン地方の　<%sEV_QUE_NAME0>が\n　落とすそうなんですが……\n　その……　旅人さん　お強いんでしょう？\n<br>\n「どうか　お願いします！\n　ボクの代わりに　<%sEV_QUE_NAME0>を倒して\n　風音のユリを　手に入れてもらえませんか？": 
-    "<attr><feel_sad_one><end_attr>Huh. I have a crush on Fushiko-san,\nwho takes care of Azlantelope at the\nlord's mansion. I heard a rumor that\n<br>\nFushiko-san wants a flower called Wind\nLily, so I thought I'd give it to her.\nI heard that <%sEV_QUE_NAME0> in Azlan\n<br>\nRegion is going to drop it. Please do\nme a favor! Will you defeat\n<%sEV_QUE_NAME0> for me and get Wind\n<br>\nLily for me?"
+    "<attr><feel_sad_one><end_attr>Haa... At the lord's mansion, the Azlantelopes'\ncaretaker, Fushiko, makes my heart go pitter-patter.\n<br>\nI heard a rumor that Fushiko wants a flower called\nthe 'Windwhistle Lily', so I thought I'd give it to\nher as a present.\n<br>\nIt seems that <%sEV_QUE_NAME0>s in Azlan Region drop it, but...\nIt's just... Traveler, you're strong, aren't you?\n<br>\nPlease do me a favor! Will you defeat the <%sEV_QUE_NAME0>s\nin my place and get a Windwhistle Lily for me?"
   },
   "48232": {
     "<attr><feel_happy_lv1><end_attr>「ああっ　ありがとうございます！\n　こんな願いを聞いてくれるなんて……\n　あなたは　本当に　いい人ですね！\n<br>\n「それじゃ　どうか　気をつけて\n　行ってきてくださいね。\n　ボクは　ここで　待ってますから！": 
-    "<attr><feel_happy_lv1><end_attr>Oh, thank you! You really are a nice\nperson to do me a favor like this!\nWell then, please be careful on your\n<br>\nway. I'll be waiting for you here!"
+    "<attr><feel_happy_lv1><end_attr>Aah, thank you so much! For hearing me out a favor\nlike this for me... You really are a nice person,\ny'know!\n<br>\nWell then, please be careful on your way, okay. I'll\nbe waiting for you here!"
   },
   "48233": {
     "「ああっ　ありがとうございます！\n　でも　ひょっとして　他にも　たくさん\n　頼まれごとを　抱えてませんか？\n<br>\n「ボク　そんなに　急いでいませんから\n　まずは　他の用事を優先してください。\n　手が空いたら　また声を　かけてくださいね。": 
-    "Oh, thank you very much! But by any\nchance, don't you have a lot of other\nfavors to take care of? I'm not in\n<br>\nsuch a hurry, so please prioritize\nother things first. Please call on me\nagain when you're free."
+    "Aah, thank you so much! But by any chance, don't you\nhave a lot of other favors to take care of?\n<br>\nSince I'm not in such a hurry, first please prioritize\nyour other request. And once you're free, please call\non me again, okay."
   },
   "48234": {
     "<attr><feel_sad_lv3><end_attr>「うっ……！　そ　そうですか……。\n<br>\n「ボクのチカラじゃ　とてもじゃないけど\n　<%sEV_QUE_NAME0>には　太刀打ちできません。\n　ハァ……　どうしたら　いいんだ……。": 
-    "<attr><feel_sad_lv3><end_attr>Ugh! I see. I can't even compete with\n<%sEV_QUE_NAME0>. What should I do?"
+    "<attr><feel_sad_lv3><end_attr>Ugh...! O-okay... But my strength can't compete with\na <%sEV_QUE_NAME0>'s. Haa... What should I do..."
   },
   "48235": {
     "<attr><feel_happy_lv1><end_attr>「ボク……　フシコさんが　欲しがっている\n　風音のユリを　なんとか　手に入れて\n　プレゼントしたいんです。<open_irai><bw_break>": 
-    "<attr><feel_happy_lv1><end_attr>I want to get the Wind Lily that\nFushiko wants and give it to her.<open_irai><bw_break>"
+    "<attr><feel_happy_lv1><end_attr>I... Fushiko wants a flower called the 'Windwhistle\nLily', so I thought I'd give it to her as a present.<open_irai><bw_break>"
   },
   "48236": {
     "<attr><feel_happy_lv1><end_attr>「アズラン地方の　<%sEV_QUE_NAME0>が\n　落とすそうなので\n　どうか　よろしくお願いしますね。": 
-    "<attr><feel_happy_lv1><end_attr>I'm afraid Azlan Region's\n<%sEV_QUE_NAME0> is going to drop it,\nso please, please take care of it."
+    "<attr><feel_happy_lv1><end_attr>It seems that <%sEV_QUE_NAME0>s in Azlan Region drop it, so\nplease take care of it for me, okay."
   },
   "48237": {
     "<attr><feel_happy_lv1><end_attr>「ああっ　その顔は……！\n　わかりますよ！　どうやら　風音のユリを\n　手に入れてくれたようですね。": 
-    "<attr><feel_happy_lv1><end_attr>Ah, that face! I can see it! It\nappears that you have acquired Wind\nLily."
+    "<attr><feel_happy_lv1><end_attr>Aah, that face...! I get it! It appears that you got\nme the Windwhistle Lily, right."
   },
   "48238": {
     "<attr><feel_sad_lv2><end_attr>「あっ……　そうでしたか。\n　スミマセン　早トチリしちゃって。\n　ボク待ってますから　どうか　お願いしますね。": 
-    "<attr><feel_sad_lv2><end_attr>Oh, is that so? I'm sorry, I Chiri'd\nyou so early. I'll be waiting for you,\nso please do me a favor."
+    "<attr><feel_sad_lv2><end_attr>Oh... Is that so. Sorry for jumping to the wrong\nconclusion. I'll be waiting for you, so please take\ncare of it for me, okay."
   },
   "48239": {
     "<attr><feel_happy_lv2><end_attr>「わあっ！　なんて　フシコさんに似合う\n　可憐で美しい花なんだ……。これなら絶対\n　よろこんでくれるに　違いありませんね！<bw_break>": 
-    "<attr><feel_happy_lv2><end_attr>Wow! What a dainty and beautiful\nflower that suits you, Fushiko. I'm\nsure she will be delighted with this\n<br>\none!<bw_break>"
+    "<attr><feel_happy_lv2><end_attr>Wow! A sweet and beautiful flower like this suits\nFushiko... With this, she'll definitely be delighted,\nno mistaking it!<bw_break>"
   },
   "48531": {
     "<attr><feel_sad_one><end_attr>「でも……　ボ　ボク　ダメなんです。\n　いざ　フシコさんの前に立つと\n　キンチョーで　もう　何もできなくて……。\n<br>\n「そうだ！　花に　メッセージカードをつけよう！\n　ええと……いつも　あなたを想っています……\n　マエタケより……と。これで　よし！<bw_break>": 
-    "<attr><feel_sad_one><end_attr>But I\ncan't do it. When I stood in\nfront of Fushiko, I was so nervous\nthat I couldn't do anything. That's\n<br>\nright! Let's put a message card on the\nflowers! ''Always thinking of you,\nMaetake. That's it!<bw_break>"
+    "<attr><feel_sad_one><end_attr>But... I-I can't do it. When I stand in front of\nFushiko already, I get so nervous that I can't do\nanything...\n<br>\nThat's it! I'll attach a message card to the flower!\nLet's see... ''Always thinking of you -Maetake''...\nThat's good!<bw_break>"
   },
   "48785": {
     "<attr><feel_sad_lv1><end_attr>「あの……　これ　あなたから　フシコさんに\n　渡してもらえませんか？　フシコさんなら\n　領主様のお屋敷の　カムシカ小屋にいますから！": 
-    "<attr><feel_sad_lv1><end_attr>Would you give this to Mr. Fushiko?\nFushiko is in Azlantelopecabin at the\nlord's mansion!"
+    "<attr><feel_sad_lv1><end_attr>Umm... Would you give this to Fushiko for me? Fushiko\nis in Azlantelope pen at the lord's mansion!"
   },
   "48240": {
     "マエタケに　風音のユリを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
-    "Would you like to give Wind Lily to\nMaetake?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "Give Maetake the Windwhistle Lily?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "48241": {
     "<pc>は　マエタケに\n風音のユリを　渡した！": 
-    "<pc> gave Wind Lily to\nMaetake!"
+    "<pc> gave Maetake the Windwhistle Lily!"
   },
   "48786": {
     "<pc>は　マエタケに\n風音のユリを　託された！<me 60>": 
-    "<pc> entrusted Wind Lily to\nMaetake!<me 60>"
+    "<pc> was entrusted with the Windwhistle Lily\nby Maetake!<me 60>"
   },
   "48243": {
     "<attr><feel_happy_lv1><end_attr>「まあっ　こんにちは。\n　なんだか　いい香りがしますけど\n　もしかして　お花でも　お持ちなんですか？": 
-    "<attr><feel_happy_lv1><end_attr>Oh, hello. You smell nice. Do you have\nflowers by any chance?"
+    "<attr><feel_happy_lv1><end_attr>My, hello. You smell nice; do you happen to have\nflowers?"
   },
   "48244": {
     "<attr><feel_sad_lv1><end_attr>「まあ　気のせいでしたの？\n　イヤだわ　私ったら……　はずかしいっ。": 
-    "<attr><feel_sad_lv1><end_attr>Oh, my God, was it just my\nimagination? I hate it. I'm so\nembarrassed."
+    "<attr><feel_sad_lv1><end_attr>Just my imagination? Oh no, I'm... So embarrassed."
   },
   "48245": {
     "<attr><feel_happy_lv3><end_attr>「まあっ　マエタケさんが　この花を私に？\n　とっても　うれしいですわ！\n　風音のユリは　大好物ですの。": 
-    "<attr><feel_happy_lv3><end_attr>Oh, Maetake gave me this flower? I'm\nso happy! Wind Lily is my favorite."
+    "<attr><feel_happy_lv3><end_attr>My, Maetake gave me this flower? I'm so happy!\nWindwhistle Lilies are my favorite."
   },
   "48246": {
     "<attr><feel_happy_lv2><end_attr>「風音のユリは　強い風の吹く丘に咲き\n　風のチカラをたくわえるという\n　たいへん　めずらしい　お花なのです。\n<br>\n「カムシカは　風音のユリを食べることで\n　風のように速く走り　高く跳ぶことができると\n　言われているんですよ。": 
-    "<attr><feel_happy_lv2><end_attr>The Wind Lily is a very rare flower\nthat blooms on windy hills and grows\nto be a reservoir of the power of the\n<br>\nwind. It is said that Azlantelope can\nrun as fast and jump as high as the\nwind by eating Wind Lily."
+    "<attr><feel_happy_lv2><end_attr>Windwhistle Lilies are very rare flowers that bloom\non super windy hills and are said to hold the power\nof the wind.\n<br>\nIt's said that Azlantelopes eating Windwhistle Lilies\nis what makes them run like the wind and jump so high."
   },
   "48247": {
     "フシコに　風音のユリを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
-    "Would you like to give Wind Lily to\nFushiko?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "Give Fushiko the Windwhistle Lily?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "48248": {
     "<pc>は　フシコに\n風音のユリを　渡した！": 
-    "<pc> gave Wind Lily to\nFushiko!"
+    "<pc> gave Fushiko the Windwhistle Lily!"
   },
   "48249": {
     "フシコは　風音のユリを　カムシカに食べさせた。\n<br>\nしかし　フシコは　メッセージカードに気づかず\n一緒に　カムシカに　食べさせてしまった！": 
-    "Fushiko fed Wind Lily to Azlantelope.\nHowever, Fushiko did not notice the\nmessage card and fed it to Azlantelope\n<br>\ntogether!"
+    "Fushiko fed the Windwhistle Lily to the Azlantelope.\nHowever, Fushiko didn't notice the message card and\nthe Azlantelope ate them both!"
   },
   "48250": {
     "<attr><feel_sad_lv3><end_attr>「ボ　ボク　ダメなんです。\n　いざ　フシコさんの前に立つと\n　キンチョーで　もう　何もできなくて……。\n<br>\n「どうか　代わりにフシコさんに　風音のユリを\n　渡してもらえませんか？　フシコさんなら\n　領主様のお屋敷の　カムシカ小屋にいますから。<open_irai>": 
-    "<attr><feel_sad_lv3><end_attr>I'm not good at this. When I stand in\nfront of Fushiko, I get nervous and\ncan't do anything. Please, can you\n<br>\ngive Wind Lily to Mr. Fushiko instead?\nFushiko is at Azlantelopecabin in the\nlord's mansion.<open_irai>"
+    "<attr><feel_sad_lv3><end_attr>I-I can't do it. When I stand in front of Fushiko\nalready, I get so nervous that I can't do anything...\n<br>\nPlease, would you give this to Fushiko for me?\nFushiko is in Azlantelope pen at the lord's mansion!<open_irai>"
   },
   "48251": {
     "<attr><feel_happy_lv1><end_attr>「風音のユリは　強い風の吹く丘に咲き\n　風のチカラをたくわえるという\n　たいへん　めずらしい　お花なのです。\n<br>\n「カムシカは　風音のユリを食べることで\n　風のように速く走り　高く跳ぶことができると\n　言われているんですよ。": 
-    "<attr><feel_happy_lv1><end_attr>The Wind Lily is a very rare flower\nthat blooms on windy hills and grows\nto be a reservoir of the power of the\n<br>\nwind. It is said that Azlantelope can\nrun as fast and jump as high as the\nwind by eating Wind Lily."
+    "<attr><feel_happy_lv1><end_attr>Windwhistle Lilies are very rare flowers that bloom\non super windy hills and are said to hold the power\nof the wind.\n<br>\nIt's said that Azlantelopes eating Windwhistle Lilies\nis what makes them run like the wind and jump so high."
   },
   "48252": {
     "<attr><feel_happy_lv2><end_attr>「あっ　旅人さん！　その顔は　どうやら\n　フシコさんに　ユリを渡してくれたようですね！\n　本当に　ありがとうございました。\n<br>\n「今ごろ　フシコさんも　メッセージカードに\n　気づいてくれてるかな……？　ああっ！\n　ドキドキして　もう　どうにかなりそうです！\n<br>\n「これは　ボクからの　お礼です！\n　遠慮しないで　受け取ってくださいね。": 
-    "<attr><feel_happy_lv2><end_attr>Ah, Mr. Traveler! That face apparently\npassed the lilies to Fushiko! Thank\nyou so much. I wonder if Fushiko has\n<br>\nnoticed the message card by now?\nAhh..! I'm so excited, I don't know\nwhat to do! This is my way of saying\n<br>\nthank you! Please don't hesitate to\naccept it."
+    "<attr><feel_happy_lv2><end_attr>Ah, traveler! That face seems to say you delivered\nFushiko the lily from me! Truly, thank you so much.\n<br>\nI wonder if Fushiko has noticed the message card by\nnow...? Aah! My heart's already pitter-pattering like\ncrazy!\n<br>\nThis is my way of saying thanks! Don't be modest,\nplease accept it, okay."
   },
   "48253": {
     "<attr><feel_happy_lv1><end_attr>「風の化身と呼ばれる\n　カムシカを　乗りこなすのは\n　それは　それは　難しいことですの。\n<br>\n「でも　あこがれますわ……。\n　高く飛び上がったカムシカの　背の上からは\n　いったい　どんな景色が見えるのかしら？": 
-    "<attr><feel_happy_lv1><end_attr>To ride Azlantelope, the incarnation\nof the wind, is a difficult task\nindeed. But I long to do it. I wonder\n<br>\nwhat kind of view I can see from the\ntop of Azlantelope's back when it\nsoars high above me."
+    "<attr><feel_happy_lv1><end_attr>Azlantelopes are considered the incarnations of wind,\nto ride one is a very, very difficult task indeed.\n<br>\nStill, I long to do it... I wonder what kind of views\nI can see from the top of a high-flying Azlantelope's\nback?"
   },
   "48254": {
     "<attr><feel_happy_lv2><end_attr>「そろそろ　フシコさんも　メッセージカードに\n　気づいてくれたかな……？　ああっ！\n　ドキドキして　もう　どうにかなりそうです！": 
-    "<attr><feel_happy_lv2><end_attr>I wonder if Fushiko has noticed the\nmessage card by now? Aah! I'm so\nnervous, I don't know what to do!"
+    "<attr><feel_happy_lv2><end_attr>I wonder if Fushiko has noticed the message card by\nnow...? Aah! My heart's already pitter-pattering like\ncrazy!"
   },
   "97968": {
     "「私は　さすらいの転職神官。\n　人々が　ダーマの神の助けを必要としたとき\n　私は　現れる。\n<br>\n「この町では　ダーマの神への信仰が厚く\n　多くの祈りが　捧げられている様子。\n　大いに結構！　私も　ひと肌脱ごうではないか。<bw_break>": 
@@ -633,19 +633,19 @@
   },
   "34076": {
     "「世を　神の望みし姿に近づけるため\n　我らキリカ修道会の僧侶は\n　日夜　きびしい修練に　はげんでいます。\n<br>\n「ふむ。レベル１０以上の　僧侶のようですが\n　修道会への入門を望み　参られたのですか？<yesno><break>": 
-    "To bring the world closer to the image\nof God's desire, we, the priests of\nthe Kirika Order, are working day and\n<br>\nnight in earnest in our discipline.\nHmm. You seem to be a priest of level\n10 or above. Did you come here hoping\n<br>\nto be initiated into the Order?<yesno><break>"
+    "To bring the world closer to the image of the Goddess'\ndesire, we priests of the Kirika Order devote ourselves\nday and night to our strict discipline.\n<br>\nHmm. You seem to be a level 10+ priest; did you come\nhere to be initiated into the Order?<yesno><break>"
   },
   "34077": {
     "<attr><feel_think_lv1><end_attr>「それでは　しばし　お待ちなさい。\n　今は　入門者を決める　ヘルガ僧正が\n　お出かけに　なられていましてね。\n<br>\n「なにやら　香木などというものを\n　採りにいかれたそうですが……\n　うーむ。なぜ　こうも　お戻りが遅いのか。\n<br>\n「くわしい話が　聞きたければ\n　そこにいる　旅の香術師に\n　聞いてみるといいでしょう。": 
-    "<attr><feel_think_lv1><end_attr>Now, please wait a moment. Priest\nHelga, who decides who will be\ninitiated into the program, is\n<br>\ncurrently on her way out. I heard that\nshe went to pick some kind of fragrant\nwood. I wonder why he is taking so\n<br>\nlong to return. If you want to hear\nmore details, ask the traveling\nperfumers there."
+    "<attr><feel_think_lv1><end_attr>Then, please wait for a while. Currently, the one who\ndecides upon newcomers, Priest Helga, has just left\non an outing, you see.\n<br>\nFor some reason, she seemed to want to go and gather\nfragrant wood and the like... Umm, I wonder why she\nis taking so long to return.\n<br>\nIf you want to hear more details, you should ask the\ntraveling incense maker there."
   },
   "34078": {
     "<attr><feel_think_lv1><end_attr>「僧侶の身でありながら\n　キリカ修道会に　入りたがらないとは。\n　あなたは　じつに　変わり者ですね。": 
-    "<attr><feel_think_lv1><end_attr>You are a priest and yet you do not\nwant to join the Kirika Order. You are\nan eccentric person, aren't you?"
+    "<attr><feel_think_lv1><end_attr>You are a priest and yet you do not want to join the\nKirika Order. You really are an eccentric person,\naren't you?"
   },
   "34079": {
     "<attr><feel_sad_lv2><end_attr>「はぁ……　参っちゃいました。\n　私なんかが　ヘルガ僧正様の心配なんて\n　１００年　早いかもしれませんが…………。\n<br>\n「……おやっ？　あなたは　レベル１０以上の\n　僧侶様ですね。ということは　やはり\n　キリカ修道会に　入門しにきたんでしょう？\n<br>\n「でしたら　そこにいらっしゃる　バート僧正様に\n　声をかけると　いいですよ。もっとも　今は\n　それどころじゃ　ないかもしれませんが……。": 
-    "<attr><feel_sad_lv2><end_attr>I'm so overwhelmed. I am probably a\nhundred years too early to be worrying\nabout Priest Helga, but... Oh? You\n<br>\nmust be a level 10 priest or above. So\nyou must have come to Kirika\nPriesthood, right? If so, it would be\n<br>\na good idea to contact Priest Bart\nthere. But, it may not be the time for\nthat."
+    "<attr><feel_sad_lv2><end_attr>Haa... I'm at a loss. Someone like me might be a 100\nyears too early to be worrying about Priestess\nHelga, but...\n<br>\n...Oh? You're a level 10+ priest, right. So you must\nhave come to enter the Kirika Order?\n<br>\nIf so, it would be a good idea to speak with Father\nBart there. Then again, now may not be the best time\nfor that..."
   },
   "34080": {
     "<attr><feel_think_lv1><end_attr>「しばし　お待ちなさい。\n　今は　入門者を決める　ヘルガ僧正が\n　お出かけに　なられているのです。\n<br>\n「なにやら　香木などというものを\n　採りにいかれたそうですが……\n　うーむ。なぜ　こうも　お戻りが遅いのか。\n<br>\n「くわしい話が　聞きたければ\n　そこにいる　旅の香術師に\n　聞いてみるといいでしょう。": 
@@ -653,31 +653,31 @@
   },
   "34081": {
     "<attr><feel_sad_lv2><end_attr>「私は　旅の香術師。\n　香りを使って　まじないごとをしたり\n　人の病を治したりしながら　旅をしてる者です。\n<br>\n「ヘルガ僧正が　私のために\n　ともしびの木という　香木を採りに\n　みかがみの泉へ出かけたまま　戻らないんです。\n<br>\n「探しにいこうにも　みかがみの泉の場所は\n　謎かけ詩で　伝えられておりましてね。\n　これが　私には　サッパリなんですよ。\n<br>\n「でも　ひょっとして　あなたなら……！\n　お願いします！　どうか　みかがみの泉へ行って\n　ヘルガ僧正を　探してもらえないでしょうか！？": 
-    "<attr><feel_sad_lv2><end_attr>I am a traveling perfumer. I am a\ntraveling perfumer, using scents to\nconjure spells and cure illnesses.\n<br>\nPriest Helga went to Mirror Fountain\nto gather for me a fragrant tree\ncalled Lamplight Tree and never\n<br>\nreturned. I tried to find it, but the\nlocation of Mirror Fountain was told\nto me in a riddle poem. I have no idea\n<br>\nwhere it is. But perhaps you could\nhelp me! I beg you! Can you please go\nto Mirror Fountain and find Priest\n<br>\nHelga?"
+    "<attr><feel_sad_lv2><end_attr>I am a traveling incense maker. Using scents to\nconjure spells to cure people of their illnesses is\nwhat I do as a traveling incense maker.\n<br>\nPriestess Helga went to Mirror Fountain to gather\na fragrant tree called the 'Lamplight Tree' for me\nand has yet to return.\n<br>\nI tried to find the location of Mirror Fountain by\nfollowing what was wrote in a riddle poem, you see.\nThat, for me, was hopeless.\n<br>\nBut perhaps if it were you...! I beg you! Please,\nwon't you go to Mirror Fountain and find Priestess\nHelga for me!?"
   },
   "34082": {
     "<attr><feel_happy_lv2><end_attr>「ホ　ホントですか？\n　ありがとうございます！\n<br>\n「みかがみの泉の場所を示す　謎かけ詩は\n　この聖堂にある書物に　記されております。\n　よろしく頼みましたよ！": 
-    "<attr><feel_happy_lv2><end_attr>Ho Really? Thank you very much! The\nriddle poem that points to the\nlocation of the Mirror Fountain is\n<br>\nwritten in a book in this Shrine.\nThank you very much!"
+    "<attr><feel_happy_lv2><end_attr>Re-really? Thank you very much!\n<br>\nThe riddle poem that points to the Mirror Fountain's\nlocation is written in a book within this shrine.\nI'm counting on you!"
   },
   "34083": {
     "<attr><feel_sad_lv1><end_attr>「ホ　ホントですか？　\n　でも　ちょっと待ってください。\n　ずいぶん　頼まれごとを　抱えていますね。\n<br>\n「それなら　他の方に　お願いしますよ。\n　私は　お気持ちだけで　ムネいっぱいです。": 
-    "<attr><feel_sad_lv1><end_attr>Ho Really?But wait a minute. You have\na lot of favors to ask of me. If\nthat's the case, I'll ask someone\n<br>\nelse. I'm just overwhelmed by your\nkindness."
+    "<attr><feel_sad_lv1><end_attr>Re-really? But please, wait a minute. You have too\nmany requests, don't you. If that's the case, I can\nask another. I'm just overwhelmed by your kindness."
   },
   "34084": {
     "<attr><feel_sad_lv2><end_attr>「ああっ。やっぱり　そうですよね……。\n　ムリを言って　すみません。": 
-    "<attr><feel_sad_lv2><end_attr>Ah. I knew it. I'm sorry for being so\nunreasonable."
+    "<attr><feel_sad_lv2><end_attr>Aah. I knew you'd say that, y'know... Sorry for being\nso unreasonable."
   },
   "34085": {
     "<attr><feel_happy_lv1><end_attr>「ありがとうございます　僧侶様！\n　このような　お願いを聞いていただけるなんて。<open_irai><bw_break>": 
-    "<attr><feel_happy_lv1><end_attr>Thank you, priest! I can't believe you\nwould do me such a favor.<open_irai><bw_break>"
+    "<attr><feel_happy_lv1><end_attr>Thank you very much, priest! I can't believe you\nwould do me such a favor.<open_irai><bw_break>"
   },
   "34086": {
     "<attr><feel_happy_lv1><end_attr><close_irai>「本来なら　キリカ修道会の方に\n　頼むべきところなんですが……\n　どうしても　手が　空かないらしくって。": 
-    "<attr><feel_happy_lv1><end_attr><close_irai>I would have asked Kirika, but it\nseems that she is not available."
+    "<attr><feel_happy_lv1><end_attr><close_irai>By all rights, I should have asked one of the Kirika\nOrder, but... It appears that no one is available to\nlend a hand."
   },
   "48833": {
     "ほこりをかぶった　古い書物だ。\n<br>\nみかがみの泉を　目指す者よ。\n水あふれ　草木茂る湿原に　向かうがよい。\n<br>\n天を突く塔を取り巻く　円輪の水辺。\nその水辺を繋ぐ　橋を巡り　塔の背を目指すのだ。\n<br>\n光粒をはべらす樹を　その身に宿す泉こそが\nなんじの求める　みかがみの泉なり。": 
-    "It's a dusty old book. Go to the\nMirror Fountain. Go to the marshland,\nfull of water, grass, and trees. A\n<br>\ncircle of waters surrounding the tower\nthat pierces the sky. You must walk\naround the bridge that connects the\n<br>\nwater's edge and aim at the tower's\nback. The fountain that bears in its\nbody a tree bejeweled with rays of\n<br>\nlight is the Mirror Fountain you seek."
+    "There is a dusty old book.\n<br>\nO those after the Mirror Fountain: go to the marshland,\nwhere water flows and plants grow. Surrounding the\ntower that pierces the heavens, a circle of waters.\n<br>\nAround that which bridges the water, aim for the\ntower's back. A tree bejeweled with rays of light\ncontains that which you so seek, the Mirror Fountain."
   },
   "34088": {
     "<attr><feel_happy_lv1><end_attr>「ここは　キリカ聖堂。\n　いにしえの大僧侶　キリカの造りし　救いの家。\n<br>\n「あなたが　<pc>ですね？\n　よくぞ　お戻りになりました。\n　中で　ヘルガ僧正が　待ちかねていますよ。": 
@@ -717,7 +717,7 @@
   },
   "34096": {
     "<attr><feel_happy_lv2><end_attr>「さすがは　<pc>さん！ \n　自信たっぷりな　返事ですね。\n<br>\n「それにしても　<%sEV_QUE_NAME0>だなんて。\n　ボクが　かがり火の石を用意した時より\n　手ごわい相手です……。\n<br>\n「くれぐれも　お気をつけて。\n　おうえんしてますからね！": 
-    "<attr><feel_happy_lv2><end_attr>As expected of <pc>!You are\nvery confident in your reply. But\nstill, <%sev_que_name0>. He's tougher\n<br>\nthan when I prepared Bonfire Stone.\nPlease be careful. I'm Egg On!"
+    "<attr><feel_happy_lv2><end_attr>As expected of <pc>!You are\nvery confident in your reply. But\nstill, <%sEV_QUE_NAME0>. He's tougher\n<br>\nthan when I prepared Bonfire Stone.\nPlease be careful. I'm Egg On!"
   },
   "34097": {
     "<attr><feel_think_lv1><end_attr>「あれっ？　ずいぶん　たくさん\n　頼まれごとを　抱えているようですね。\n<br>\n「そんな　ハンパな気持ちで \n　洗礼の儀の準備を　始めるなんて　ダメですよ。\n　手が空いたら　また来てください。": 
