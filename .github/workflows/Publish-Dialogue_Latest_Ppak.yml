@@ -4,6 +4,7 @@ on:
   push:
     branches: [testing]
     paths:
+      - 'BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/**'
       - 'FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/**'
   workflow_dispatch:
 
