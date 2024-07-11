@@ -4,6 +4,7 @@ on:
   push:
     branches: [testing]
     paths:
+      - '.github/workflows/Publish-Dialogue_Latest_Ppak.yml'
       - 'BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/**'
       - 'FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/**'
   workflow_dispatch:
@@ -28,6 +29,7 @@ jobs:
           sparse-checkout: | # Checks out only the BACKLOG...ETP & FINAL dialog folders
             BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
             FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
+            FINAL/pakchunk0-Switch_P/Holiday/Content/Settings/Version/version_settings.json
             responsefile_Switch.txt
             responsefile_WindowsNoEditor.txt
       
