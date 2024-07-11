@@ -1,641 +1,854 @@
 {
   "10002000": {
-    "「おっと　そうだ！　\n　最近　手に入れた　こいつを\n　せんべつに　もっていけ！<bw_break>": "Oops, that's right!Put this one on the ship\nrecently received!<bw_break>"
+    "「おっと　そうだ！　\n　最近　手に入れた　こいつを\n　せんべつに　もっていけ！<bw_break>": 
+    "Oops, that's right!Put this one on the ship\nrecently received!<bw_break>"
   },
   "10002001": {
-    "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": "<pc> received a brick kiln (Key\nItem)!<me 60> In addition, he received a recipe book,\n\"Hajimeyo Alchemy!<se_nots System Item> <pc> has read \"Let's Get Started:\nAlchemy\"! <pc> learned the recipe\nfor Hajimeteyo Alchemy!<se_nots System Item> The Renkin pot is a special tool that can be\nused to smelt another item by inserting the\nitem as a material. You can smelt an item by\n<br>\nselecting \"Renkin Gama\" from the \"item\"\ncommand. To smelt an item, you will need the\nrecipe of the item you want to smelt. Recipes\n<br>\ncan be obtained from the Recipe Shop or\nbookshelf."
+    "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": 
+    "<pc> received a brick kiln (Key\nItem)!<me 60> In addition, he received a recipe book,\n\"Hajimeyo Alchemy!<se_nots System Item> <pc> has read \"Let's Get Started:\nAlchemy\"! <pc> learned the recipe\nfor Hajimeteyo Alchemy!<se_nots System Item> The Renkin pot is a special tool that can be\nused to smelt another item by inserting the\nitem as a material. You can smelt an item by\n<br>\nselecting \"Renkin Gama\" from the \"item\"\ncommand. To smelt an item, you will need the\nrecipe of the item you want to smelt. Recipes\n<br>\ncan be obtained from the Recipe Shop or\nbookshelf."
   },
   "10002002": {
-    "「仕組みはわからんが　便利そうだろ！\n　ガハハハハハハ！\n　それじゃ　暴れてこい！": "I don't know how it works, but it sounds\nconvenient! Gahahahahahaha! Well then, go on a\nrampage!"
+    "「仕組みはわからんが　便利そうだろ！\n　ガハハハハハハ！\n　それじゃ　暴れてこい！": 
+    "I don't know how it works, but it sounds\nconvenient! Gahahahahahaha! Well then, go on a\nrampage!"
   },
   "39069": {
-    "扉には　カギが　かかっている。": "The door is locked."
+    "扉には　カギが　かかっている。": 
+    "The door is locked."
   },
   "37041": {
-    "<attr><feel_happy_lv2><end_attr>「お父さんが　帰ってきてくれて\n　本当に　よかったです！　<pc>さん！\n　いっぱいいっぱい　ありがとうございます！": "<attr><feel_happy_lv2><end_attr>I'm really glad your dad came back!\n<pc>! Thank you so much!"
+    "<attr><feel_happy_lv2><end_attr>「お父さんが　帰ってきてくれて\n　本当に　よかったです！　<pc>さん！\n　いっぱいいっぱい　ありがとうございます！": 
+    "<attr><feel_happy_lv2><end_attr>I'm really glad your dad came back!\n<pc>! Thank you so much!"
   },
   "37042": {
-    "「自分の命を助けてもらっておいて\n　こんなことを言うのは　変かもしれないが\n　村王を助けてくれて　本当に　ありがとう。\n<br>\n「この村は　村王の人望の元に　まとまっている。\n　自分のせいで　村王を失ったりしていたら\n　悔やんでも　悔やみきれなかったからな。": "It may seem strange to say this after having\nmy life saved, but thank you so much for\nsaving the village king. This village is\n<br>\nunited under the popularity of the village\nking. If I had lost the village king because\nof you, I could not repent even if I wanted\n<br>\nto."
+    "「自分の命を助けてもらっておいて\n　こんなことを言うのは　変かもしれないが\n　村王を助けてくれて　本当に　ありがとう。\n<br>\n「この村は　村王の人望の元に　まとまっている。\n　自分のせいで　村王を失ったりしていたら\n　悔やんでも　悔やみきれなかったからな。": 
+    "It may seem strange to say this after having\nmy life saved, but thank you so much for\nsaving the village king. This village is\n<br>\nunited under the popularity of the village\nking. If I had lost the village king because\nof you, I could not repent even if I wanted\n<br>\nto."
   },
   "36282": {
-    "<attr><feel_happy_lv1><end_attr>「そんおーって　いつも笑ってて\n　村のみんなに　すっごく優しいの。\n　昔は強かったって聞くけど　本当なのかなあ。": "<attr><feel_happy_lv1><end_attr>He always smiles and is very kind to everyone\nin the village. I heard that he used to be\nstrong, but I wonder if that's true."
+    "<attr><feel_happy_lv1><end_attr>「そんおーって　いつも笑ってて\n　村のみんなに　すっごく優しいの。\n　昔は強かったって聞くけど　本当なのかなあ。": 
+    "<attr><feel_happy_lv1><end_attr>He always smiles and is very kind to everyone\nin the village. I heard that he used to be\nstrong, but I wonder if that's true."
   },
   "37047": {
-    "「次に　村王になるのは　ジーガンフさん！\n　その次に　村王になるのは\n　オイラなんだぜいっ！！　アチョーッ！": "Jiganf will be the next Village King! And\nafter that, I will be the Village King! Achoo!"
+    "「次に　村王になるのは　ジーガンフさん！\n　その次に　村王になるのは\n　オイラなんだぜいっ！！　アチョーッ！": 
+    "Jiganf will be the next Village King! And\nafter that, I will be the Village King! Achoo!"
   },
   "37048": {
-    "「村王が　突然　武闘場の　正式な清めの儀式を\n　村の子供たちに見せたいと　言いだした。\n<br>\n「清めの儀式は　長年　略式で行われていたので\n　正式な儀式を　見たことがない子が\n　村には　多いのだ。": "Suddenly, the village king wanted to show the\nvillage children the formal purification\nrituals of the fighting arena. For many years,\n<br>\nthe purification ceremony had been performed\nin a simplified form, and many children in the\nvillage had never seen a formal ceremony."
+    "「村王が　突然　武闘場の　正式な清めの儀式を\n　村の子供たちに見せたいと　言いだした。\n<br>\n「清めの儀式は　長年　略式で行われていたので\n　正式な儀式を　見たことがない子が\n　村には　多いのだ。": 
+    "Suddenly, the village king wanted to show the\nvillage children the formal purification\nrituals of the fighting arena. For many years,\n<br>\nthe purification ceremony had been performed\nin a simplified form, and many children in the\nvillage had never seen a formal ceremony."
   },
   "37049": {
-    "「おお　<pc>　よく来てくれた。\n<br>\n「ちょっと　困っていることがあってな。\n　命の恩人に対して　気が引けるのだが\n　ひとつ　頼まれてくれんか。\n<br>\n「ひさしぶりに　村の武闘場の　清めの儀式を\n　行いたいのだが　その儀式で　武闘場にまく\n　特別な塩を　切らしていてな。\n<br>\n「特別な塩というのは　エゼソルトってやつだ。\n　その名の通り　ドワチャッカ大陸の\n　エゼソル峡谷にある　塩湖で採れる。\n<br>\n「すまないが　そいつを採りにいってくれんか？\n　もちろん　礼はさせてもらうぞ。": "Oh <pc>, thank you for coming. I'm in\na bit of a bind. I'm a bit embarrassed to ask\nthis of the man who saved my life, but I have\n<br>\na favor to ask of you. I would like to perform\nthe purification ceremony of the Village Arena\nfor the first time in a long time, but I am\n<br>\nout of the special salt that is to be\nsprinkled in the arena for the purification\nceremony. The special salt is called Eze Salt.\n<br>\nIt comes from Salt Lake in Ezesol Canyon in\nthe Dwachakka Continent. I'm sorry, but could\nyou go pick it up for me? Of course, I'll\n<br>\nthank you."
+    "「おお　<pc>　よく来てくれた。\n<br>\n「ちょっと　困っていることがあってな。\n　命の恩人に対して　気が引けるのだが\n　ひとつ　頼まれてくれんか。\n<br>\n「ひさしぶりに　村の武闘場の　清めの儀式を\n　行いたいのだが　その儀式で　武闘場にまく\n　特別な塩を　切らしていてな。\n<br>\n「特別な塩というのは　エゼソルトってやつだ。\n　その名の通り　ドワチャッカ大陸の\n　エゼソル峡谷にある　塩湖で採れる。\n<br>\n「すまないが　そいつを採りにいってくれんか？\n　もちろん　礼はさせてもらうぞ。": 
+    "Oh <pc>, thank you for coming. I'm in\na bit of a bind. I'm a bit embarrassed to ask\nthis of the man who saved my life, but I have\n<br>\na favor to ask of you. I would like to perform\nthe purification ceremony of the Village Arena\nfor the first time in a long time, but I am\n<br>\nout of the special salt that is to be\nsprinkled in the arena for the purification\nceremony. The special salt is called Eze Salt.\n<br>\nIt comes from Salt Lake in Ezesol Canyon in\nthe Dwachakka Continent. I'm sorry, but could\nyou go pick it up for me? Of course, I'll\n<br>\nthank you."
   },
   "37050": {
-    "<attr><feel_happy_lv2><end_attr>「おお　やってくれるか！\n　さすがは　<pc>だ！　ガハハ！\n<br>\n「塩湖の入り口付近に　山小屋がある。\n　そこに　塩を採取しているドワーフがいるので\n　わからないことは　聞いてみるといい。\n<br>\n「エゼソル峡谷くらい　<pc>なら\n　散歩がてらに　行ける範囲だろう。\n　それじゃあ　頼んだぞ。": "<attr><feel_happy_lv2><end_attr>Oh, you can do it! That's what I'm talking\nabout <pc>! Gahaha! There is a\nmountain cabin near the entrance of Salt Lake.\n<br>\nThere is a Dwarf who collects salt there, so\nyou can ask him if you have any questions.\nEzesol Canyon <pc> should be within\n<br>\nwalking distance. Well then, I'm counting on\nyou."
+    "<attr><feel_happy_lv2><end_attr>「おお　やってくれるか！\n　さすがは　<pc>だ！　ガハハ！\n<br>\n「塩湖の入り口付近に　山小屋がある。\n　そこに　塩を採取しているドワーフがいるので\n　わからないことは　聞いてみるといい。\n<br>\n「エゼソル峡谷くらい　<pc>なら\n　散歩がてらに　行ける範囲だろう。\n　それじゃあ　頼んだぞ。": 
+    "<attr><feel_happy_lv2><end_attr>Oh, you can do it! That's what I'm talking\nabout <pc>! Gahaha! There is a\nmountain cabin near the entrance of Salt Lake.\n<br>\nThere is a Dwarf who collects salt there, so\nyou can ask him if you have any questions.\nEzesol Canyon <pc> should be within\n<br>\nwalking distance. Well then, I'm counting on\nyou."
   },
   "37051": {
-    "<attr><feel_happy_lv2><end_attr>「おお　やってくれるか！\n　だが　頼まれごとで　いっぱいらしいな。\n<br>\n「人の頼みを断れないのは　<pc>の\n　よいところだが　もうすこし　手が空いたら\n　また来てくれ。よろしく頼むぞ。ガハハ！": "<attr><feel_happy_lv2><end_attr>Oh, you can do it! But I hear you are full of\nrequests. It's a good thing that <pc>\ncan't say no to requests, but come back when\n<br>\nyou have a little more time on your hands.\nI'll be counting on you. Gahaha!"
+    "<attr><feel_happy_lv2><end_attr>「おお　やってくれるか！\n　だが　頼まれごとで　いっぱいらしいな。\n<br>\n「人の頼みを断れないのは　<pc>の\n　よいところだが　もうすこし　手が空いたら\n　また来てくれ。よろしく頼むぞ。ガハハ！": 
+    "<attr><feel_happy_lv2><end_attr>Oh, you can do it! But I hear you are full of\nrequests. It's a good thing that <pc>\ncan't say no to requests, but come back when\n<br>\nyou have a little more time on your hands.\nI'll be counting on you. Gahaha!"
   },
   "37052": {
-    "<attr><feel_happy_lv2><end_attr>「そうかそうか！　いやいや　気にするな！\n　忙しい時に頼んだ　わしが悪い！　ガハハ！": "<attr><feel_happy_lv2><end_attr>Oh, yeah! No, no, no, don't worry about it!\nIt's my fault for asking you at a busy time!\nGahaha!"
+    "<attr><feel_happy_lv2><end_attr>「そうかそうか！　いやいや　気にするな！\n　忙しい時に頼んだ　わしが悪い！　ガハハ！": 
+    "<attr><feel_happy_lv2><end_attr>Oh, yeah! No, no, no, don't worry about it!\nIt's my fault for asking you at a busy time!\nGahaha!"
   },
   "37053": {
-    "「村の武闘場の清めの儀式で　武闘場にまく\n　エゼソルトを　採ってきてほしいのだ。\n<br>\n「エゼソルトは　その名の通り\n　ドワチャッカ大陸の　エゼソル峡谷にある\n　塩湖で採れる。<open_irai><bw_break>": "We need you to collect Eze Salt for the\npurification ceremony at the Village Arena.\nEze Salt, as the name implies, can be found in\n<br>\nSalt Lake in Ezesol Canyon in the Dwachakka\nContinent.<open_irai><bw_break>"
+    "「村の武闘場の清めの儀式で　武闘場にまく\n　エゼソルトを　採ってきてほしいのだ。\n<br>\n「エゼソルトは　その名の通り\n　ドワチャッカ大陸の　エゼソル峡谷にある\n　塩湖で採れる。<open_irai><bw_break>": 
+    "We need you to collect Eze Salt for the\npurification ceremony at the Village Arena.\nEze Salt, as the name implies, can be found in\n<br>\nSalt Lake in Ezesol Canyon in the Dwachakka\nContinent.<open_irai><bw_break>"
   },
   "37054": {
-    "<close_irai>「塩湖の入り口付近に　山小屋がある。\n　そこに　塩を採取しているドワーフがいるので\n　わからないことは　聞いてみるといい。\n<br>\n「エゼソル峡谷くらい　<pc>なら\n　散歩がてらに　行ける範囲だろう。\n　それじゃあ　頼んだぞ。": "<close_irai>There is a mountain cabin near the entrance to\nSalt Lake. There is a Dwarf who collects salt\nthere, so you can ask him if you have any\n<br>\nquestions. Ezesol Canyon <pc> should\nbe within walking distance. Well then, I'm\ncounting on you."
+    "<close_irai>「塩湖の入り口付近に　山小屋がある。\n　そこに　塩を採取しているドワーフがいるので\n　わからないことは　聞いてみるといい。\n<br>\n「エゼソル峡谷くらい　<pc>なら\n　散歩がてらに　行ける範囲だろう。\n　それじゃあ　頼んだぞ。": 
+    "<close_irai>There is a mountain cabin near the entrance to\nSalt Lake. There is a Dwarf who collects salt\nthere, so you can ask him if you have any\n<br>\nquestions. Ezesol Canyon <pc> should\nbe within walking distance. Well then, I'm\ncounting on you."
   },
   "37058": {
-    "「おお　<pc>　戻ってきたか。\n　エゼソルトは　無事に採ってこれたか？": "Oh <pc> you are back. Did you get the\nEze Salt safely?"
+    "「おお　<pc>　戻ってきたか。\n　エゼソルトは　無事に採ってこれたか？": 
+    "Oh <pc> you are back. Did you get the\nEze Salt safely?"
   },
   "37059": {
-    "<attr><feel_happy_lv2><end_attr>「そうかそうか。まだなんだな？\n　気長に待っているから　よろしく頼んだぞ！\n　ガハハ！": "<attr><feel_happy_lv2><end_attr>Oh, yeah, right. You're not ready yet? I'm\nwaiting patiently, so I'm counting on you!\nGahaha!"
+    "<attr><feel_happy_lv2><end_attr>「そうかそうか。まだなんだな？\n　気長に待っているから　よろしく頼んだぞ！\n　ガハハ！": 
+    "<attr><feel_happy_lv2><end_attr>Oh, yeah, right. You're not ready yet? I'm\nwaiting patiently, so I'm counting on you!\nGahaha!"
   },
   "37060": {
-    "<attr><feel_happy_lv2><end_attr>「おおっ　手に入れたか！\n　さすがは　<pc>だ！": "<attr><feel_happy_lv2><end_attr>Oh, received? That's <pc> for you!"
+    "<attr><feel_happy_lv2><end_attr>「おおっ　手に入れたか！\n　さすがは　<pc>だ！": 
+    "<attr><feel_happy_lv2><end_attr>Oh, received? That's <pc> for you!"
   },
   "39067": {
-    "村王クリフゲーンに\nエゼソルトを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to give Eze Salt to Chief\nCliffgain?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "村王クリフゲーンに\nエゼソルトを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
+    "Would you like to give Eze Salt to Chief\nCliffgain?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "39068": {
-    "<pc>は　村王クリフゲーンに\nエゼソルトを　渡した！": "<pc> gave Eze Salt to Chief\nCliffgain!"
+    "<pc>は　村王クリフゲーンに\nエゼソルトを　渡した！": 
+    "<pc> gave Eze Salt to Chief\nCliffgain!"
   },
   "37063": {
-    "「この先は　武闘場。\n　毎年　武闘大会が行われる　神聖な戦いの場だ。\n　村王ならば　中に　いらっしゃるぞ。": "Beyond this point is the battlefield. This is\nthe sacred battlefield where the annual\nmartial arts tournament is held. The King of\n<br>\nthe Village is inside."
+    "「この先は　武闘場。\n　毎年　武闘大会が行われる　神聖な戦いの場だ。\n　村王ならば　中に　いらっしゃるぞ。": 
+    "Beyond this point is the battlefield. This is\nthe sacred battlefield where the annual\nmartial arts tournament is held. The King of\n<br>\nthe Village is inside."
   },
   "37065": {
-    "<attr><feel_happy_lv1><end_attr>「現役バリバリのときの　そんおーと\n　今の　ジーガンフさん　本気で戦ったら\n　どっちが　つよいのかしらー。\n<br>\n「わたし　そういうこと考えだすと\n　ブオオオオって　身体が熱くなって\n　寝られなくなっちゃうのよねー。": "<attr><feel_happy_lv1><end_attr>I wonder who would be stronger in a real\nfight, Sonoo when he was active or Jiganf now.\nWhen I start thinking about that kind of\n<br>\nthing, I get all hot and bothered and can't\nsleep."
+    "<attr><feel_happy_lv1><end_attr>「現役バリバリのときの　そんおーと\n　今の　ジーガンフさん　本気で戦ったら\n　どっちが　つよいのかしらー。\n<br>\n「わたし　そういうこと考えだすと\n　ブオオオオって　身体が熱くなって\n　寝られなくなっちゃうのよねー。": 
+    "<attr><feel_happy_lv1><end_attr>I wonder who would be stronger in a real\nfight, Sonoo when he was active or Jiganf now.\nWhen I start thinking about that kind of\n<br>\nthing, I get all hot and bothered and can't\nsleep."
   },
   "37067": {
-    "「村王は　オイラたちに　いろんなことを\n　教えてくれる　先生なんだ。\n<br>\n「勝ったほうだけじゃなくて\n　負けたほうにも　ケイイを払う！　ってのも\n　村王が　教えてくれたことなんだよ。": "The Village King is a teacher who teaches us\nmany things. The Village King taught us that\nnot only the winner pays the loser, but also\n<br>\nthe loser pays the kei! That's what the\nVillage King taught us."
+    "「村王は　オイラたちに　いろんなことを\n　教えてくれる　先生なんだ。\n<br>\n「勝ったほうだけじゃなくて\n　負けたほうにも　ケイイを払う！　ってのも\n　村王が　教えてくれたことなんだよ。": 
+    "The Village King is a teacher who teaches us\nmany things. The Village King taught us that\nnot only the winner pays the loser, but also\n<br>\nthe loser pays the kei! That's what the\nVillage King taught us."
   },
   "37068": {
-    "<attr><feel_think_lv2><end_attr>「村王が　村を出ていこうとしているかも\n　しれないって？　何を　バカなことを……。\n<br>\n「村王が　ランガーオ村を出ていくなんて\n　ありえないよ。村王には　この村を\n　離れるわけにゃいかない　理由があるからね。\n<br>\n「あっと……。クチが　すべったね。\n　その理由を　聞きたいって言うんだろ？<yesno><break>": "<attr><feel_think_lv2><end_attr>You think the Village King might be trying to\nleave the village? What nonsense. There is no\nway the village king is leaving Langao\n<br>\nVillage. He has his own reasons for not\nleaving the village. Oh, MOUTH slipped up. You\nwant to ask him why?<yesno><break>"
+    "<attr><feel_think_lv2><end_attr>「村王が　村を出ていこうとしているかも\n　しれないって？　何を　バカなことを……。\n<br>\n「村王が　ランガーオ村を出ていくなんて\n　ありえないよ。村王には　この村を\n　離れるわけにゃいかない　理由があるからね。\n<br>\n「あっと……。クチが　すべったね。\n　その理由を　聞きたいって言うんだろ？<yesno><break>": 
+    "<attr><feel_think_lv2><end_attr>You think the Village King might be trying to\nleave the village? What nonsense. There is no\nway the village king is leaving Rangao\n<br>\nVillage. He has his own reasons for not\nleaving the village. Oh, MOUTH slipped up. You\nwant to ask him why?<yesno><break>"
   },
   "37069": {
-    "「ああ　そうかい。\n　だったら　今の話は　忘れておくれ。\n　軽々しく　人に話すようなことじゃないんだよ。": "Oh, okay. Then forget about what I just said.\nIt's not something to talk about lightly."
+    "「ああ　そうかい。\n　だったら　今の話は　忘れておくれ。\n　軽々しく　人に話すようなことじゃないんだよ。": 
+    "Oh, okay. Then forget about what I just said.\nIt's not something to talk about lightly."
   },
   "37070": {
-    "「やれやれ　仕方ないね……。\n　じゃあ　すこしだけ　教えてやるよ。\n<br>\n「この村の　ちょっと古い人間なら\n　誰でも知ってることさ。村王は　ある人が\n　村に帰ってくるのを　待ってるのさ。\n<br>\n「ある人ってのは　誰かって？　うーん。\n　それは　あたしのクチから　言いたくないね。\n<br>\n「それを知りたきゃ　村王から　直接聞くんだね。\n　村王の居場所なら　武器屋の横の階段の先に住む\n　コッシャばあさんが　知ってるだろうさ。": "Oh well, what can I do? I'll tell you a little\nsomething then. Any old human in this village\nknows this. The village king is waiting for\n<br>\nsomeone to come back to the village. Who is\nthis certain someone? Hmmm. That's Kunai from\nmy mouth. If you want to know that, you'll\n<br>\nhave to ask the Village King himself. If you\nwant to know where he is, Grandma Kossha, who\nlives at the end of the stairs next to the\n<br>\nWeapon Shop, will know."
+    "「やれやれ　仕方ないね……。\n　じゃあ　すこしだけ　教えてやるよ。\n<br>\n「この村の　ちょっと古い人間なら\n　誰でも知ってることさ。村王は　ある人が\n　村に帰ってくるのを　待ってるのさ。\n<br>\n「ある人ってのは　誰かって？　うーん。\n　それは　あたしのクチから　言いたくないね。\n<br>\n「それを知りたきゃ　村王から　直接聞くんだね。\n　村王の居場所なら　武器屋の横の階段の先に住む\n　コッシャばあさんが　知ってるだろうさ。": 
+    "Oh well, what can I do? I'll tell you a little\nsomething then. Any old human in this village\nknows this. The village king is waiting for\n<br>\nsomeone to come back to the village. Who is\nthis certain someone? Hmmm. That's Kunai from\nmy mouth. If you want to know that, you'll\n<br>\nhave to ask the Village King himself. If you\nwant to know where he is, Grandma Kossha, who\nlives at the end of the stairs next to the\n<br>\nWeapon Shop, will know."
   },
   "37071": {
-    "<attr><feel_think_lv2><end_attr>「やっぱり　村王が　この村を離れられない理由を\n　聞きたいのかい？<yesno><break>": "<attr><feel_think_lv2><end_attr>You still want to ask why the village king\ncan't leave this village?<yesno><break>"
+    "<attr><feel_think_lv2><end_attr>「やっぱり　村王が　この村を離れられない理由を\n　聞きたいのかい？<yesno><break>": 
+    "<attr><feel_think_lv2><end_attr>You still want to ask why the village king\ncan't leave this village?<yesno><break>"
   },
   "37072": {
-    "「ギュランさんが　村王さまのことを\n　探してらっしゃる？　そうですね……。\n　ギュランさんは　あのことを知りませんから。\n<br>\n「ですが　この村の年寄りなら　村王さまが\n　何をしているか　みんな知っております。\n　心配は　いりませんよ。": "Mr. Guran is looking for the Village King?\nThat's right. He doesn't know anything about\nit. But all the old people in this village\n<br>\nknow what the Village King is doing. Don't\nworry."
+    "「ギュランさんが　村王さまのことを\n　探してらっしゃる？　そうですね……。\n　ギュランさんは　あのことを知りませんから。\n<br>\n「ですが　この村の年寄りなら　村王さまが\n　何をしているか　みんな知っております。\n　心配は　いりませんよ。": 
+    "Mr. Guran is looking for the Village King?\nThat's right. He doesn't know anything about\nit. But all the old people in this village\n<br>\nknow what the Village King is doing. Don't\nworry."
   },
   "37073": {
-    "「さっき　村の外に出ていく村王を見かけたが\n　悩みが　すぐに顔に出るのは\n　子供の頃から　ちっとも変わっとらんなあ。\n<br>\n「きっと　また　あそこに行ったんじゃろう。\n　あやつは　悩みがあるときは\n　いつも　あそこに　行くからな。": "I saw the village king walking out of the\nvillage a while ago, but he hasn't changed a\nbit since he was a child, his worries showing\n<br>\non his face so easily. He must have gone there\nagain. He always goes there when he is\ntroubled."
+    "「さっき　村の外に出ていく村王を見かけたが\n　悩みが　すぐに顔に出るのは\n　子供の頃から　ちっとも変わっとらんなあ。\n<br>\n「きっと　また　あそこに行ったんじゃろう。\n　あやつは　悩みがあるときは\n　いつも　あそこに　行くからな。": 
+    "I saw the village king walking out of the\nvillage a while ago, but he hasn't changed a\nbit since he was a child, his worries showing\n<br>\non his face so easily. He must have gone there\nagain. He always goes there when he is\ntroubled."
   },
   "37074": {
-    "「村王は　この村で　ある人が帰ってくるのを\n　待ってるのさ。その　ある人ってのが\n　誰かを知りたきゃ　村王に　直接聞くんだね。\n<br>\n「村王の居場所なら　武器屋の横の階段の先に住む\n　コッシャばあさんが　知ってるだろうよ。": "The village king is waiting for someone to\ncome back to this village. If you want to know\nwho that someone is, you must ask the village\n<br>\nking directly. If you want to know where the\nvillage king is, Grandma Kossha, who lives at\nthe end of the stairs next to the Weapon Shop,\n<br>\nwill probably know."
+    "「村王は　この村で　ある人が帰ってくるのを\n　待ってるのさ。その　ある人ってのが\n　誰かを知りたきゃ　村王に　直接聞くんだね。\n<br>\n「村王の居場所なら　武器屋の横の階段の先に住む\n　コッシャばあさんが　知ってるだろうよ。": 
+    "The village king is waiting for someone to\ncome back to this village. If you want to know\nwho that someone is, you must ask the village\n<br>\nking directly. If you want to know where the\nvillage king is, Grandma Kossha, who lives at\nthe end of the stairs next to the Weapon Shop,\n<br>\nwill probably know."
   },
   "37075": {
-    "「さっき　村の外に出ていく村王を見かけたが\n　悩みが　すぐに顔に出るのは\n　子供の頃から　ちっとも変わっとらんなあ。\n<br>\n「ん？　村王の居場所を　わしが知ってると\n　ジェラルから　聞いたじゃと？\n　やれやれ。あやつも　クチが軽いのう。\n<br>\n「まあ　よい。教えてやろう。\n　村王なら　ランガーオ山地の　洞くつにおる。\n　南東にある　ダズの岩穴と呼ばれる洞くつじゃ。\n<br>\n「ダズの岩穴の　最奥まで　行ってみるがいい。\n　なぜ　そんな所にいるかは　行けばわかる。\n　自分の目で　確かめるが　よかろう。": "I saw the village king walking out of the\nvillage just now, but he hasn't changed a bit\nsince he was a child, the way his worries\n<br>\nimmediately show on his face. Hmm? Jeral told\nyou that I know where the Village King is?\nGood grief. He's got a light mouth, too. Oh,\n<br>\nwell. I'll tell you. The Village King is in a\ncave in the Langao Mountains. The cave is\ncalled Daz Grotto, in the southeast. You\n<br>\nshould go to the bottom of Daz Grotto. You\nwill know why he is there. See for yourself."
+    "「さっき　村の外に出ていく村王を見かけたが\n　悩みが　すぐに顔に出るのは\n　子供の頃から　ちっとも変わっとらんなあ。\n<br>\n「ん？　村王の居場所を　わしが知ってると\n　ジェラルから　聞いたじゃと？\n　やれやれ。あやつも　クチが軽いのう。\n<br>\n「まあ　よい。教えてやろう。\n　村王なら　ランガーオ山地の　洞くつにおる。\n　南東にある　ダズの岩穴と呼ばれる洞くつじゃ。\n<br>\n「ダズの岩穴の　最奥まで　行ってみるがいい。\n　なぜ　そんな所にいるかは　行けばわかる。\n　自分の目で　確かめるが　よかろう。": 
+    "I saw the village king walking out of the\nvillage just now, but he hasn't changed a bit\nsince he was a child, the way his worries\n<br>\nimmediately show on his face. Hmm? Jeral told\nyou that I know where the Village King is?\nGood grief. He's got a light mouth, too. Oh,\n<br>\nwell. I'll tell you. The Village King is in a\ncave in the Rangao Mountains. The cave is\ncalled Daz Grotto, in the southeast. You\n<br>\nshould go to the bottom of Daz Grotto. You\nwill know why he is there. See for yourself."
   },
   "37076": {
-    "「村王なら　ランガーオ山地の　洞くつにおる。\n　村から見て　南東の方角にある\n　ダズの岩穴と呼ばれる洞くつの奥じゃ。\n<br>\n「ダズの岩穴の　最奥まで　行ってみるがいい。\n　なぜ　そんな所にいるかは　行けばわかる。\n　自分の目で　確かめるが　よかろう。": "The village king is in a cave in the Langao\nMountains. It is located at the end of a cave\ncalled Daz Grotto, which is to the southeast\n<br>\nof the village. Go to the end of Daz Grotto.\nYou will know why you are in such a place when\nyou get there. See for yourself."
+    "「村王なら　ランガーオ山地の　洞くつにおる。\n　村から見て　南東の方角にある\n　ダズの岩穴と呼ばれる洞くつの奥じゃ。\n<br>\n「ダズの岩穴の　最奥まで　行ってみるがいい。\n　なぜ　そんな所にいるかは　行けばわかる。\n　自分の目で　確かめるが　よかろう。": 
+    "The village king is in a cave in the Rangao\nMountains. It is located at the end of a cave\ncalled Daz Grotto, which is to the southeast\n<br>\nof the village. Go to the end of Daz Grotto.\nYou will know why you are in such a place when\nyou get there. See for yourself."
   },
   "37077": {
-    "<attr><feel_think_lv2><end_attr>「村王から　聞いたのだが\n　野山に　草木の観察に行っていたところ\n　<pc>に会って　戻ってきたと？\n<br>\n「どうも　釈然としない話だが\n　本人が言うのだから　仕方あるまい……。\n　とにかく　礼をしよう。これを受け取ってくれ。": "<attr><feel_think_lv2><end_attr>The village king told me that he was out in\nthe field observing plants and trees when he\nmet <pc> and came back? I don't know\n<br>\nwhat to make of this story, but since he said\nso, it can't be helped. Anyway, let me thank\nyou. Please accept this."
+    "<attr><feel_think_lv2><end_attr>「村王から　聞いたのだが\n　野山に　草木の観察に行っていたところ\n　<pc>に会って　戻ってきたと？\n<br>\n「どうも　釈然としない話だが\n　本人が言うのだから　仕方あるまい……。\n　とにかく　礼をしよう。これを受け取ってくれ。": 
+    "<attr><feel_think_lv2><end_attr>The village king told me that he was out in\nthe field observing plants and trees when he\nmet <pc> and came back? I don't know\n<br>\nwhat to make of this story, but since he said\nso, it can't be helped. Anyway, let me thank\nyou. Please accept this."
   },
   "83029": {
-    "「それと村王が　手間をかけさせた　おわびに\n　この家で　身体を休めてゆけと言っておられる。\n　せっかくだから　恩義を受けるがいい。": "Also, the Village King has asked me to rest in\nthis house to repay you for all the trouble\nyou've caused. So, you should accept the\n<br>\nfavor."
+    "「それと村王が　手間をかけさせた　おわびに\n　この家で　身体を休めてゆけと言っておられる。\n　せっかくだから　恩義を受けるがいい。": 
+    "Also, the Village King has asked me to rest in\nthis house to repay you for all the trouble\nyou've caused. So, you should accept the\n<br>\nfavor."
   },
   "37078": {
-    "「村王が　ガガベスさんの　お墓を作って\n　ちょくちょく　そこを訪ねてることは\n　村の年寄りなら　誰でも　知ってることだよ。\n<br>\n「だけど　村王は　自分から言わないから\n　みんなも　知らないふりをしてるのさ。\n<br>\n「昔　敗者には　墓を作ってはならないっていう\n　オキテがあった時代に　村王が\n　そのオキテを破って　作った墓だからね。": "Everyone in the village knows that the village\nking made a tombola for Gagabesan, and that he\nvisits there frequently. But he doesn't say\n<br>\nso, so everyone pretends they don't know. In\nthe old days, when there was a rule that\nlosers were not allowed to make tombs, the\n<br>\nVillage King broke that rule and made this\ntomb."
+    "「村王が　ガガベスさんの　お墓を作って\n　ちょくちょく　そこを訪ねてることは\n　村の年寄りなら　誰でも　知ってることだよ。\n<br>\n「だけど　村王は　自分から言わないから\n　みんなも　知らないふりをしてるのさ。\n<br>\n「昔　敗者には　墓を作ってはならないっていう\n　オキテがあった時代に　村王が\n　そのオキテを破って　作った墓だからね。": 
+    "Everyone in the village knows that the village\nking made a tombola for Gagabesan, and that he\nvisits there frequently. But he doesn't say\n<br>\nso, so everyone pretends they don't know. In\nthe old days, when there was a rule that\nlosers were not allowed to make tombs, the\n<br>\nVillage King broke that rule and made this\ntomb."
   },
   "37079": {
-    "<attr><feel_happy_lv1><end_attr>「村王さまは　人の長所を見つけるのが\n　とても　お上手な方です。\n<br>\n「だから　村王さまは　村の皆が好きですし\n　村の皆も　心から村王さまを\n　尊敬しているのです。": "<attr><feel_happy_lv1><end_attr>The Village King is very good at finding the\ngood in people. That's why he likes everyone\nin the village and they respect him from the\n<br>\nbottom of their hearts."
+    "<attr><feel_happy_lv1><end_attr>「村王さまは　人の長所を見つけるのが\n　とても　お上手な方です。\n<br>\n「だから　村王さまは　村の皆が好きですし\n　村の皆も　心から村王さまを\n　尊敬しているのです。": 
+    "<attr><feel_happy_lv1><end_attr>The Village King is very good at finding the\ngood in people. That's why he likes everyone\nin the village and they respect him from the\n<br>\nbottom of their hearts."
   },
   "37080": {
-    "「今の　クリフゲーンが村王になってから\n　村の雰囲気は　ずいぶん　変わったよ。\n　昔は　今よりずっと　険悪な村だったね。\n<br>\n「まあ　昔から変わらんのは\n　うちの　じいさんくらいじゃなあ……。": "The atmosphere of the village has changed a\nlot since Cliffgain became the village king.\nIt used to be a much more dangerous village.\n<br>\nWell, the only person who hasn't changed is my\ngrandpa."
+    "「今の　クリフゲーンが村王になってから\n　村の雰囲気は　ずいぶん　変わったよ。\n　昔は　今よりずっと　険悪な村だったね。\n<br>\n「まあ　昔から変わらんのは\n　うちの　じいさんくらいじゃなあ……。": 
+    "The atmosphere of the village has changed a\nlot since Cliffgain became the village king.\nIt used to be a much more dangerous village.\n<br>\nWell, the only person who hasn't changed is my\ngrandpa."
   },
   "37081": {
-    "<attr><feel_happy_lv2><end_attr>「おお　<pc>。戻ったか。\n　ギュランには　うまいこと言っておいた。\n<br>\n「しつこいようだが　洞くつで話したことは\n　誰にも　言ってはならんぞ。ガハハハハ！": "<attr><feel_happy_lv2><end_attr>Oh <pc>. You're back. I told Guran\nthat you are Maiko. I know I'm being\npersistent, but you can't tell anyone what we\n<br>\ntalked about in the cave. Gahahahahaha!"
+    "<attr><feel_happy_lv2><end_attr>「おお　<pc>。戻ったか。\n　ギュランには　うまいこと言っておいた。\n<br>\n「しつこいようだが　洞くつで話したことは\n　誰にも　言ってはならんぞ。ガハハハハ！": 
+    "<attr><feel_happy_lv2><end_attr>Oh <pc>. You're back. I told Guran\nthat you are Maiko. I know I'm being\npersistent, but you can't tell anyone what we\n<br>\ntalked about in the cave. Gahahahahaha!"
   },
   "37083": {
-    "<attr><feel_happy_lv2><end_attr>「商人のエルフの人　ござんすござんすって\n　言うのが　すごい　おもしろいんですー。\n　ござんすござんすー。": "<attr><feel_happy_lv2><end_attr>The merchant's Elf person is very funny when\nhe says \"Gozasusu Gozasusu\". Gozasusu\ngozasusu."
+    "<attr><feel_happy_lv2><end_attr>「商人のエルフの人　ござんすござんすって\n　言うのが　すごい　おもしろいんですー。\n　ござんすござんすー。": 
+    "<attr><feel_happy_lv2><end_attr>The merchant's Elf person is very funny when\nhe says \"Gozasusu Gozasusu\". Gozasusu\ngozasusu."
   },
   "37084": {
-    "「こんな山奥の村ですからね。\n　ときどき　ああいう　旅の商人が来てくれて\n　とても　助かるんですよ。": "It's a village deep in the mountains.\nSometimes, peddlers like that come and help us\nout a lot."
+    "「こんな山奥の村ですからね。\n　ときどき　ああいう　旅の商人が来てくれて\n　とても　助かるんですよ。": 
+    "It's a village deep in the mountains.\nSometimes, peddlers like that come and help us\nout a lot."
   },
   "37085": {
-    "<attr><feel_angry_lv2><end_attr>「そ　村王が　戻ってくれたが\n　全身に　ひどいケガを　しておられる！\n<br>\n「<pc>が　見つけだしてくれたのだろう。\n　これは　そのお礼だ。受け取ってほしい。": "<attr><feel_angry_lv2><end_attr>So, the Village King has returned, but he is\nbadly injured all over his body! I guess\n<pc> found him. This is my thanks.\n<br>\nPlease accept it."
+    "<attr><feel_angry_lv2><end_attr>「そ　村王が　戻ってくれたが\n　全身に　ひどいケガを　しておられる！\n<br>\n「<pc>が　見つけだしてくれたのだろう。\n　これは　そのお礼だ。受け取ってほしい。": 
+    "<attr><feel_angry_lv2><end_attr>So, the Village King has returned, but he is\nbadly injured all over his body! I guess\n<pc> found him. This is my thanks.\n<br>\nPlease accept it."
   },
   "37086": {
-    "<attr><feel_sad_lv2><end_attr>「しかし……村王は　だまったままで\n　ケガのことも　遺書についても\n　何も　言ってくださらん……。\n<br>\n「何か事情があるのだろうとは　察するが\n　側近として　情けないことだな……。": "<attr><feel_sad_lv2><end_attr>However, the village king remained silent and\ndid not say anything about his injuries or his\nwill. I understand that there must be some\n<br>\nreason for this, but as his close aide, it's\nshameful."
+    "<attr><feel_sad_lv2><end_attr>「しかし……村王は　だまったままで\n　ケガのことも　遺書についても\n　何も　言ってくださらん……。\n<br>\n「何か事情があるのだろうとは　察するが\n　側近として　情けないことだな……。": 
+    "<attr><feel_sad_lv2><end_attr>However, the village king remained silent and\ndid not say anything about his injuries or his\nwill. I understand that there must be some\n<br>\nreason for this, but as his close aide, it's\nshameful."
   },
   "83030": {
-    "「村王は　ひどいケガを負っているというのに\n　お前に手間をかけさせたことを　気にしている。\n　……すこし　身体を休めていくがいい。": "The village king is very concerned about the\ntrouble he has put you through, even though\nyou are badly wounded. You should get some\n<br>\nrest."
+    "「村王は　ひどいケガを負っているというのに\n　お前に手間をかけさせたことを　気にしている。\n　……すこし　身体を休めていくがいい。": 
+    "The village king is very concerned about the\ntrouble he has put you through, even though\nyou are badly wounded. You should get some\n<br>\nrest."
   },
   "37087": {
-    "<attr><feel_sad_lv2><end_attr>「お…お……　<pc>……。\n　戻った…か……。\n<br>\n「どうにか…　この村まで　たどり着いたが……\n　ガガイから…受けたキズが……\n　思った以上に…　深手だったようだ……。\n<br>\n「ガガイの…ことについては……\n　わしに……考えがある……。しばらく……\n　村の者には…だまっていてくれ……。": "<attr><feel_sad_lv2><end_attr>Oh <pc>. You're back. I managed to\nmake it to this village, but it seems that the\nwound I received from Gagai was more serious\n<br>\nthan I thought. I have an idea about Gagai. I\nhave an idea about Gagai, so please keep the\nvillagers quiet for a while."
+    "<attr><feel_sad_lv2><end_attr>「お…お……　<pc>……。\n　戻った…か……。\n<br>\n「どうにか…　この村まで　たどり着いたが……\n　ガガイから…受けたキズが……\n　思った以上に…　深手だったようだ……。\n<br>\n「ガガイの…ことについては……\n　わしに……考えがある……。しばらく……\n　村の者には…だまっていてくれ……。": 
+    "<attr><feel_sad_lv2><end_attr>Oh <pc>. You're back. I managed to\nmake it to this village, but it seems that the\nwound I received from Gagai was more serious\n<br>\nthan I thought. I have an idea about Gagai. I\nhave an idea about Gagai, so please keep the\nvillagers quiet for a while."
   },
   "37089": {
-    "<attr><feel_angry_lv2><end_attr>「ジーガンフも　アロルドもいない今\n　あの　恐ろしいオーガに勝てるのは\n　<pc>だけだ！　がんばってくれ！": "<attr><feel_angry_lv2><end_attr>Now that Jiganf and Arold are gone, only\n<pc> can beat that dreaded Ogre! Good\nluck!"
+    "<attr><feel_angry_lv2><end_attr>「ジーガンフも　アロルドもいない今\n　あの　恐ろしいオーガに勝てるのは\n　<pc>だけだ！　がんばってくれ！": 
+    "<attr><feel_angry_lv2><end_attr>Now that Jiganf and Arold are gone, only\n<pc> can beat that dreaded Ogre! Good\nluck!"
   },
   "37090": {
-    "<attr><feel_angry_lv2><end_attr>「<pc>　次こそ　あいつを\n　やっつけちゃってね！　もっと　腰を低くして\n　どばばばあああーんって　やんのよ！？": "<attr><feel_angry_lv2><end_attr><pc> Next time, get that guy! You\nbetter get down low and yell,\n\"yabbaaaaaaaaaaahhhh!\", okay?"
+    "<attr><feel_angry_lv2><end_attr>「<pc>　次こそ　あいつを\n　やっつけちゃってね！　もっと　腰を低くして\n　どばばばあああーんって　やんのよ！？": 
+    "<attr><feel_angry_lv2><end_attr><pc> Next time, get that guy! You\nbetter get down low and yell,\n\"yabbaaaaaaaaaaahhhh!\", okay?"
   },
   "37091": {
-    "<attr><feel_angry_lv2><end_attr>「<pc>さん　がんばって！\n　あたしも　一緒に　武闘場に行きますっ！": "<attr><feel_angry_lv2><end_attr><pc> Good luck! I'm going to the\nbattlefield with you!"
+    "<attr><feel_angry_lv2><end_attr>「<pc>さん　がんばって！\n　あたしも　一緒に　武闘場に行きますっ！": 
+    "<attr><feel_angry_lv2><end_attr><pc> Good luck! I'm going to the\nbattlefield with you!"
   },
   "37092": {
-    "<attr><feel_angry_lv2><end_attr>「まさか　あんなやつが　現れるとは……。\n　今まで　村王や　ジーガンフたちに\n　頼り過ぎてしまった　報いだな……。\n<br>\n「だが　かんたんに　あきらめてたまるか！\n　<pc>さん！　この村の未来を！\n　娘たちの未来を　救ってください！": "<attr><feel_angry_lv2><end_attr>I never thought he would show up. I guess I've\nbeen relying on the Village King and Jiganf\nand the others too much. But I won't give up\n<br>\neasily! <pc>! Save the future of this\nvillage! Save the future of my daughters!"
+    "<attr><feel_angry_lv2><end_attr>「まさか　あんなやつが　現れるとは……。\n　今まで　村王や　ジーガンフたちに\n　頼り過ぎてしまった　報いだな……。\n<br>\n「だが　かんたんに　あきらめてたまるか！\n　<pc>さん！　この村の未来を！\n　娘たちの未来を　救ってください！": 
+    "<attr><feel_angry_lv2><end_attr>I never thought he would show up. I guess I've\nbeen relying on the Village King and Jiganf\nand the others too much. But I won't give up\n<br>\neasily! <pc>! Save the future of this\nvillage! Save the future of my daughters!"
   },
   "37093": {
-    "<attr><feel_angry_lv2><end_attr>「この先は　村の武闘場じゃ。\n<br>\n「<pc>よ！　がんばるのじゃ！\n　たとえ　どんなに相手が強くても\n　決して　あきらめては　ならんぞっ！": "<attr><feel_angry_lv2><end_attr>The Village Arena is just up ahead.\n<pc>! Do your best! No matter how\nstrong your opponent is, you must never give\n<br>\nup!"
+    "<attr><feel_angry_lv2><end_attr>「この先は　村の武闘場じゃ。\n<br>\n「<pc>よ！　がんばるのじゃ！\n　たとえ　どんなに相手が強くても\n　決して　あきらめては　ならんぞっ！": 
+    "<attr><feel_angry_lv2><end_attr>The Village Arena is just up ahead.\n<pc>! Do your best! No matter how\nstrong your opponent is, you must never give\n<br>\nup!"
   },
   "39070": {
-    "扉には　カギが　かかっている。": "The door is locked."
+    "扉には　カギが　かかっている。": 
+    "The door is locked."
   },
   "37095": {
-    "「この先は　武闘場。\n　毎年　武闘大会が行われる　神聖な戦いの場だ。\n<br>\n「……しかし　武闘場の中が　騒がしいな。\n　何か　起こっているのか？": "Beyond this point is the battlefield. It is a\nsacred battlefield where martial arts\ntournaments are held every year. But there's a\n<br>\nlot of noise inside. Is something happening?"
+    "「この先は　武闘場。\n　毎年　武闘大会が行われる　神聖な戦いの場だ。\n<br>\n「……しかし　武闘場の中が　騒がしいな。\n　何か　起こっているのか？": 
+    "Beyond this point is the battlefield. It is a\nsacred battlefield where martial arts\ntournaments are held every year. But there's a\n<br>\nlot of noise inside. Is something happening?"
   },
   "37096": {
-    "<attr><feel_angry_lv2><end_attr>「この先は　武闘場。\n　<pc>よ！　戻ってきてくれたか！\n<br>\n「お前が　この村の最後の希望だ！\n　ランガーオ村を　救ってくれ！": "<attr><feel_angry_lv2><end_attr>Beyond this point is a martial arts arena.\n<pc>! You have returned! You are the\nlast hope of this village! Save Langao\n<br>\nVillage!"
+    "<attr><feel_angry_lv2><end_attr>「この先は　武闘場。\n　<pc>よ！　戻ってきてくれたか！\n<br>\n「お前が　この村の最後の希望だ！\n　ランガーオ村を　救ってくれ！": 
+    "<attr><feel_angry_lv2><end_attr>Beyond this point is a martial arts arena.\n<pc>! You have returned! You are the\nlast hope of this village! Save Rangao\n<br>\nVillage!"
   },
   "37097": {
-    "<attr><feel_happy_lv2><end_attr>「ああ……。こんなときに　ジーガンフさんが\n　いてくれたら　きっと　あんなやつ\n　たちまち　やっつけてくれるのに～。\n<br>\n「でも　きっと　<pc>でも\n　やれると思うわ！　がんばってね！": "<attr><feel_happy_lv2><end_attr>Ahh... If only Mr. Jiganf were here at a time\nlike this. If only Jiganf were here at a time\nlike this, I'm sure he would take down that\n<br>\nguy in no time! But I'm sure <pc> can\ndo it too! Good luck!"
+    "<attr><feel_happy_lv2><end_attr>「ああ……。こんなときに　ジーガンフさんが\n　いてくれたら　きっと　あんなやつ\n　たちまち　やっつけてくれるのに～。\n<br>\n「でも　きっと　<pc>でも\n　やれると思うわ！　がんばってね！": 
+    "<attr><feel_happy_lv2><end_attr>Ahh... If only Mr. Jiganf were here at a time\nlike this. If only Jiganf were here at a time\nlike this, I'm sure he would take down that\n<br>\nguy in no time! But I'm sure <pc> can\ndo it too! Good luck!"
   },
   "37098": {
-    "<attr><feel_angry_lv2><end_attr>「<pc>さんっ！\n　さっきのバトル　チョー惜しかったぜっ！\n<br>\n「次は勝てるよっ！\n　オイラも　オーエンすっから\n　もっかい　がんばろーぜっ！！": "<attr><feel_angry_lv2><end_attr><pc>! That was a very close battle\nearlier! We can win next time! I'm going to\nOwen too, so let's try again!"
+    "<attr><feel_angry_lv2><end_attr>「<pc>さんっ！\n　さっきのバトル　チョー惜しかったぜっ！\n<br>\n「次は勝てるよっ！\n　オイラも　オーエンすっから\n　もっかい　がんばろーぜっ！！": 
+    "<attr><feel_angry_lv2><end_attr><pc>! That was a very close battle\nearlier! We can win next time! I'm going to\nOwen too, so let's try again!"
   },
   "37099": {
-    "<attr><feel_happy_lv1><end_attr>「<pc>！　これは　村王と私と\n　そして　このランガーオ村の　皆からの\n　心からの　礼だ。ぜひ　受け取ってくれ。": "<attr><feel_happy_lv1><end_attr><pc>! This is a heartfelt thank you\nfrom the Village King, myself and all of us\nhere in Langao Village. Please accept it."
+    "<attr><feel_happy_lv1><end_attr>「<pc>！　これは　村王と私と\n　そして　このランガーオ村の　皆からの\n　心からの　礼だ。ぜひ　受け取ってくれ。": 
+    "<attr><feel_happy_lv1><end_attr><pc>! This is a heartfelt thank you\nfrom the Village King, myself and all of us\nhere in Rangao Village. Please accept it."
   },
   "37100": {
-    "「私は　いつかの村王の手紙に\n　書かれていた通り　これから\n　このランガーオ村に　学校を作ろうと思う。\n<br>\n「<pc>には　今後も\n　いろいろと　協力を頼みたい。\n　これからも　よろしく頼むぞ！": "I am going to build a school in Langao Village\nas written in the letter of the King of the\nVillage. I would like to ask <pc> to\n<br>\ncooperate with me in many ways in the future.\nI will ask for your continued cooperation in\nthe future!"
+    "「私は　いつかの村王の手紙に\n　書かれていた通り　これから\n　このランガーオ村に　学校を作ろうと思う。\n<br>\n「<pc>には　今後も\n　いろいろと　協力を頼みたい。\n　これからも　よろしく頼むぞ！": 
+    "I am going to build a school in Rangao Village\nas written in the letter of the King of the\nVillage. I would like to ask <pc> to\n<br>\ncooperate with me in many ways in the future.\nI will ask for your continued cooperation in\nthe future!"
   },
   "37101": {
-    "<attr><feel_happy_lv1><end_attr>「<pc>さんの　ブギギってして\n　シュパパパってしたとこ　すごかったの！\n　とっても　ステキだったよ！": "<attr><feel_happy_lv1><end_attr><The part where they boogied and then did the\n\"Shupa Papa\" was amazing! It was very\nbeautiful!"
+    "<attr><feel_happy_lv1><end_attr>「<pc>さんの　ブギギってして\n　シュパパパってしたとこ　すごかったの！\n　とっても　ステキだったよ！": 
+    "<attr><feel_happy_lv1><end_attr><The part where they boogied and then did the\n\"Shupa Papa\" was amazing! It was very\nbeautiful!"
   },
   "37102": {
-    "<attr><feel_happy_lv2><end_attr>「やったー！　やりましたー！\n　<pc>さん　チャンピオンみたいですー！": "<attr><feel_happy_lv2><end_attr>We did it! I did it! <pc> I'm like a\nchampion!"
+    "<attr><feel_happy_lv2><end_attr>「やったー！　やりましたー！\n　<pc>さん　チャンピオンみたいですー！": 
+    "<attr><feel_happy_lv2><end_attr>We did it! I did it! <pc> I'm like a\nchampion!"
   },
   "37103": {
-    "「まったく　<pc>さんには\n　何から何まで　世話になりっぱなしだったな。\n<br>\n「この村を救ってくれて　ありがとう。\n　心から　礼を言わせてくれ。": "I am totally indebted to <pc> for\neverything. Thank you for saving this village.\nLet me thank you from the bottom of my heart."
+    "「まったく　<pc>さんには\n　何から何まで　世話になりっぱなしだったな。\n<br>\n「この村を救ってくれて　ありがとう。\n　心から　礼を言わせてくれ。": 
+    "I am totally indebted to <pc> for\neverything. Thank you for saving this village.\nLet me thank you from the bottom of my heart."
   },
   "37104": {
-    "「<pc>よ。もしも　お前が\n　この村に　いてくれなかったらと思うと\n　わしは　正直　ぞっとするよ。\n<br>\n「短い間に　何度も何度も　助けられた。\n　心の底から　礼を言わせてくれ。\n　本当に　ありがとう。\n<br>\n「ガガイが　行ってしまったことは\n　残念だったが　いつか　心の整理がついたら\n　この村に戻ってくれると　わしは信じる。\n<br>\n「……おっと！　礼が　まだだったな。\n　ガハハ！　礼なら　ギュランに渡してある。\n　ぜひ　受け取っていってくれ！": "<pc>. I must admit that I am\nhorrified at the thought of not having you\nhere in this village. In the short time I've\n<br>\nbeen here, you've saved my life many, many\ntimes. Let me thank you from the bottom of my\nheart. Thank you from the bottom of my heart.\n<br>\nI'm sorry to see Gagai go, but I have faith\nthat someday you will return to this village\nwhen you have a chance to get your mind right.\n<br>\nOops! I haven't thanked you yet. Gahaha! I've\nalready given it to Guran. Please take it!"
+    "「<pc>よ。もしも　お前が\n　この村に　いてくれなかったらと思うと\n　わしは　正直　ぞっとするよ。\n<br>\n「短い間に　何度も何度も　助けられた。\n　心の底から　礼を言わせてくれ。\n　本当に　ありがとう。\n<br>\n「ガガイが　行ってしまったことは\n　残念だったが　いつか　心の整理がついたら\n　この村に戻ってくれると　わしは信じる。\n<br>\n「……おっと！　礼が　まだだったな。\n　ガハハ！　礼なら　ギュランに渡してある。\n　ぜひ　受け取っていってくれ！": 
+    "<pc>. I must admit that I am\nhorrified at the thought of not having you\nhere in this village. In the short time I've\n<br>\nbeen here, you've saved my life many, many\ntimes. Let me thank you from the bottom of my\nheart. Thank you from the bottom of my heart.\n<br>\nI'm sorry to see Gagai go, but I have faith\nthat someday you will return to this village\nwhen you have a chance to get your mind right.\n<br>\nOops! I haven't thanked you yet. Gahaha! I've\nalready given it to Guran. Please take it!"
   },
   "37105": {
-    "「この先は　武闘場。\n　毎年　武闘大会が行われる　神聖な戦いの場だ。\n<br>\n「ガガイならば　村を出ていったぞ。\n　もう心配は　ないだろう。": "Beyond this point is the battlefield. It is a\nsacred battlefield where martial arts\ntournaments are held every year. Gagai has\n<br>\nleft the village. He is no longer a threat."
+    "「この先は　武闘場。\n　毎年　武闘大会が行われる　神聖な戦いの場だ。\n<br>\n「ガガイならば　村を出ていったぞ。\n　もう心配は　ないだろう。": 
+    "Beyond this point is the battlefield. It is a\nsacred battlefield where martial arts\ntournaments are held every year. Gagai has\n<br>\nleft the village. He is no longer a threat."
   },
   "37106": {
-    "<attr><feel_happy_lv2><end_attr>「キズを押さえながら　出ていった　ガガイって\n　なんだか　憂いを帯びた表情で\n　ハートに火をつける　いい男だったわ……。": "<attr><feel_happy_lv2><end_attr>Gagai, who left with a scratch on his face,\nwas a nice guy with a melancholy expression\nthat set hearts aflame."
+    "<attr><feel_happy_lv2><end_attr>「キズを押さえながら　出ていった　ガガイって\n　なんだか　憂いを帯びた表情で\n　ハートに火をつける　いい男だったわ……。": 
+    "<attr><feel_happy_lv2><end_attr>Gagai, who left with a scratch on his face,\nwas a nice guy with a melancholy expression\nthat set hearts aflame."
   },
   "37107": {
-    "<attr><feel_happy_lv2><end_attr>「もう　こーなったら　オイラのショーライの\n　モクヒョーは　<pc>さんってことに\n　しちゃうんだぜいっ！": "<attr><feel_happy_lv2><end_attr>I'm going to make my Sho Rai mokuhyo\n<pc> now!"
+    "<attr><feel_happy_lv2><end_attr>「もう　こーなったら　オイラのショーライの\n　モクヒョーは　<pc>さんってことに\n　しちゃうんだぜいっ！": 
+    "<attr><feel_happy_lv2><end_attr>I'm going to make my Sho Rai mokuhyo\n<pc> now!"
   },
   "37108": {
-    "「私は　いつかの村王の手紙に\n　書かれていた通り　これから\n　このランガーオ村に　学校を作ろうと思う。\n<br>\n「<pc>には　今後も\n　いろいろと　協力を頼みたい。\n　これからも　よろしく頼むぞ！": "I am going to build a school in Langao Village\nas written in the letter of the King of the\nVillage. I would like to ask <pc> to\n<br>\ncooperate with me in many ways in the future.\nI will ask for your continued cooperation in\nthe future!"
+    "「私は　いつかの村王の手紙に\n　書かれていた通り　これから\n　このランガーオ村に　学校を作ろうと思う。\n<br>\n「<pc>には　今後も\n　いろいろと　協力を頼みたい。\n　これからも　よろしく頼むぞ！": 
+    "I am going to build a school in Rangao Village\nas written in the letter of the King of the\nVillage. I would like to ask <pc> to\n<br>\ncooperate with me in many ways in the future.\nI will ask for your continued cooperation in\nthe future!"
   },
   "37109": {
-    "<attr><feel_happy_lv2><end_attr>「ガガイが　行ってしまったことは\n　残念だったが　いつか　心の整理がついたら\n　この村に戻ってくれると　わしは信じる。\n<br>\n「お前も　旅を続けるのだろうが\n　また　いつでも　この村に立ち寄ってくれ！\n<br>\n「わしも　まだまだ若い者に負けんように\n　この村のために　チカラを　尽くしていくぞ！\n　ガハハハハ！！": "<attr><feel_happy_lv2><end_attr>I am sorry to see Gagai go, but I have faith\nthat someday you will return to this village\nwhen you are ready. I know you will continue\n<br>\nyour journey, but please stop by the village\nagain anytime! I, too, will do my best for\nthis village so that I won't be outdone by the\n<br>\nyounger generation! Gahahahahaha!"
+    "<attr><feel_happy_lv2><end_attr>「ガガイが　行ってしまったことは\n　残念だったが　いつか　心の整理がついたら\n　この村に戻ってくれると　わしは信じる。\n<br>\n「お前も　旅を続けるのだろうが\n　また　いつでも　この村に立ち寄ってくれ！\n<br>\n「わしも　まだまだ若い者に負けんように\n　この村のために　チカラを　尽くしていくぞ！\n　ガハハハハ！！": 
+    "<attr><feel_happy_lv2><end_attr>I am sorry to see Gagai go, but I have faith\nthat someday you will return to this village\nwhen you are ready. I know you will continue\n<br>\nyour journey, but please stop by the village\nagain anytime! I, too, will do my best for\nthis village so that I won't be outdone by the\n<br>\nyounger generation! Gahahahahaha!"
   },
   "34396": {
-    "<attr><feel_happy_lv1><end_attr>「おっす！　旅人さん！\n　冒険の旅を　楽しむのもいいが\n　トレーニングもしろよ！": "<attr><feel_happy_lv1><end_attr>Oh, yes! Traveler! Enjoy your adventurous\njourney, but do some training too!"
+    "<attr><feel_happy_lv1><end_attr>「おっす！　旅人さん！\n　冒険の旅を　楽しむのもいいが\n　トレーニングもしろよ！": 
+    "<attr><feel_happy_lv1><end_attr>Oh, yes! Traveler! Enjoy your adventurous\njourney, but do some training too!"
   },
   "36279": {
-    "<attr><feel_happy_one><end_attr>「表面は　カリッと香ばしく　中は　ジューシー。\n　甘辛いタレと絶妙なスパイスが　たまらんのう<heart>": "<attr><feel_happy_one><end_attr>Crispy and savory on the surface, juicy on the\ninside. The sweet and spicy sauce and\nexquisite spices are irresistible."
+    "<attr><feel_happy_one><end_attr>「表面は　カリッと香ばしく　中は　ジューシー。\n　甘辛いタレと絶妙なスパイスが　たまらんのう<heart>": 
+    "<attr><feel_happy_one><end_attr>Crispy and savory on the surface, juicy on the\ninside. The sweet and spicy sauce and\nexquisite spices are irresistible."
   },
   "36280": {
-    "<attr><feel_angry_lv2><end_attr><turn_pc>「なっ　なんじゃ　おぬし！\n　ものほしそうに見るでない！\n　わしのヤキトリは　誰にもやらんぞ！": "<attr><feel_angry_lv2><end_attr><turn_pc>What are you doing? Don't look at me like you\nwant something! I won't give my chicken to\nanyone!"
+    "<attr><feel_angry_lv2><end_attr><turn_pc>「なっ　なんじゃ　おぬし！\n　ものほしそうに見るでない！\n　わしのヤキトリは　誰にもやらんぞ！": 
+    "<attr><feel_angry_lv2><end_attr><turn_pc>What are you doing? Don't look at me like you\nwant something! I won't give my chicken to\nanyone!"
   },
   "37046": {
-    "<attr><feel_happy_lv1><end_attr>「そんおーって　いつも笑ってて\n　村のみんなに　すっごく優しいの。\n　昔は強かったって聞くけど　本当なのかなあ。": "<attr><feel_happy_lv1><end_attr>He always smiles and is very kind to everyone\nin the village. I heard that he used to be\nstrong, but I wonder if that's true."
+    "<attr><feel_happy_lv1><end_attr>「そんおーって　いつも笑ってて\n　村のみんなに　すっごく優しいの。\n　昔は強かったって聞くけど　本当なのかなあ。": 
+    "<attr><feel_happy_lv1><end_attr>He always smiles and is very kind to everyone\nin the village. I heard that he used to be\nstrong, but I wonder if that's true."
   },
   "34329": {
-    "<attr><feel_angry_lv1><end_attr>「ボクは　このプライベートルームで\n　日頃の疲れを　いやしているのだ。\n　用がないなら　早々に立ち去れい。": "<attr><feel_angry_lv1><end_attr>I'm here in my private room to unwind from the\ndaily grind. If you have nothing to do, leave\nas soon as possible."
+    "<attr><feel_angry_lv1><end_attr>「ボクは　このプライベートルームで\n　日頃の疲れを　いやしているのだ。\n　用がないなら　早々に立ち去れい。": 
+    "<attr><feel_angry_lv1><end_attr>I'm here in my private room to unwind from the\ndaily grind. If you have nothing to do, leave\nas soon as possible."
   },
   "34331": {
-    "「まったく！　じいさんは\n　朝から晩まで　ヤキトリのことばかり。\n　……ほんに　困ったもんじゃわい。": "Not at all! My grandfather is always talking\nabout yakitori from morning till night. It's\nreally a problem."
+    "「まったく！　じいさんは\n　朝から晩まで　ヤキトリのことばかり。\n　……ほんに　困ったもんじゃわい。": 
+    "Not at all! My grandfather is always talking\nabout yakitori from morning till night. It's\nreally a problem."
   },
   "36292": {
-    "「私は　世界各地に封印されている\n　伝説の怪物について　調べています。\n　今は写真機があるから　記録も楽になりました。": "I've been researching the legendary monsters\nthat are sealed up all over the world. Now\nthat we have photo machines, it's easier to\n<br>\nkeep track of them."
+    "「私は　世界各地に封印されている\n　伝説の怪物について　調べています。\n　今は写真機があるから　記録も楽になりました。": 
+    "I've been researching the legendary monsters\nthat are sealed up all over the world. Now\nthat we have photo machines, it's easier to\n<br>\nkeep track of them."
   },
   "34350": {
-    "「ここは　村王さまの部屋。\n　村王さまは　過去の武闘大会で　いく度も\n　チャンピオンになられた　お方なのだ。": "This is the room of the Village King. The\nVillage King is a man who has won many\nchampions in past martial arts tournaments."
+    "「ここは　村王さまの部屋。\n　村王さまは　過去の武闘大会で　いく度も\n　チャンピオンになられた　お方なのだ。": 
+    "This is the Village King's room. The\nVillage King is a man who has won many\nchampions in past martial arts tournaments."
   },
   "85357": {
-    "「昔　ちょっとだけ　ツボ錬金を\n　かじったことが　あってね。\n　ギルドマスターは　厳しい人だったなあ。": "I used to dabble in Pot Alchemy for a little\nwhile. The guildmaster was a strict man."
+    "「昔　ちょっとだけ　ツボ錬金を\n　かじったことが　あってね。\n　ギルドマスターは　厳しい人だったなあ。": 
+    "I used to dabble in Pot Alchemy for a little\nwhile. The guildmaster was a strict man."
   },
   "34310": {
-    "<attr><feel_happy_lv1><end_attr>「お前　すごいな！\n　死んだと思ったら　生き返って！\n<br>\n「だが　これで　お前にも　ロンダの氷穴の怖さが\n　わかったろう。あんな所で修行ができるのは\n　武闘大会チャンピオン　ジーガンフくらいだぜ！": "<attr><feel_happy_lv1><end_attr>You're amazing! You thought you were dead, but\nyou came back to life! But now you know how\nscary Rhonda Ice Cave is. Only Jiganf, the\n<br>\nchampion of the tournament, could train in a\nplace like that!"
+    "<attr><feel_happy_lv1><end_attr>「お前　すごいな！\n　死んだと思ったら　生き返って！\n<br>\n「だが　これで　お前にも　ロンダの氷穴の怖さが\n　わかったろう。あんな所で修行ができるのは\n　武闘大会チャンピオン　ジーガンフくらいだぜ！": 
+    "<attr><feel_happy_lv1><end_attr>You're amazing! You thought you were dead, but\nyou came back to life! But now you know how\nscary Rhonda Ice Cave is. Only Jiganf, the\n<br>\nchampion of the tournament, could train in a\nplace like that!"
   },
   "34311": {
-    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。\n<br>\n「村王さまは　村の安全に　気を配っておられる。\n　<pc>も　何か気づいたことがあれば\n　必ず　村王さまに報告するのだぞ。": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament. The\nVillage King is concerned about the safety of\n<br>\nthe village. If you <pc> notice\nanything, be sure to report it to the Village\nKing."
+    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。\n<br>\n「村王さまは　村の安全に　気を配っておられる。\n　<pc>も　何か気づいたことがあれば\n　必ず　村王さまに報告するのだぞ。": 
+    "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament. The\nVillage King is concerned about the safety of\n<br>\nthe village. If you <pc> notice\nanything, be sure to report it to the Village\nKing."
   },
   "34313": {
-    "「ここは　マイユさまのお部屋だ。\n　死にかけたって聞いたが\n　元気そうだな　<pc>。": "This is Maille's room. I heard you almost\ndied, but you look fine <pc>."
+    "「ここは　マイユさまのお部屋だ。\n　死にかけたって聞いたが\n　元気そうだな　<pc>。": 
+    "This is Maille's room. I heard you almost\ndied, but you look fine <pc>."
   },
   "34314": {
-    "「ここは　マイユさまのお部屋だ。\n　マイユさまは　ご予定がある。\n　あまり　長居をしないようにな。": "This is Maille's room. Mr. Maille has an\nappointment. Don't stay too long."
+    "「ここは　マイユさまのお部屋だ。\n　マイユさまは　ご予定がある。\n　あまり　長居をしないようにな。": 
+    "This is Maille's room. Mr. Maille has an\nappointment. Don't stay too long."
   },
   "34315": {
-    "「<pc>は　知らないだろうけどな。\n　この村には　アロルドっていう\n　気の優しい若者が　いたんだ。\n<br>\n「この坂道にいると　思いだすよ。\n　アロルドとジーガンフ　そして　マイユさんは\n　子供の頃　よく上まで競争してたなあ。\n<br>\n「アロルドは　何をやっても勝てなかったけど\n　ジーガンフが　兄貴のように面倒見てやってね。\n　本当の兄弟みたいに　仲がよかったんだ。": "<pc> doesn't know this, though. There\nwas a kind-hearted young man named Arold in\nthis village. This slope reminds me of him.\n<br>\nArold, Jiganf and Mr. Maille used to race each\nother to the top when we were kids. Arold\ncouldn't win no matter what he did, but Jiganf\n<br>\ntook care of him like a big brother. We were\nlike real brothers."
+    "「<pc>は　知らないだろうけどな。\n　この村には　アロルドっていう\n　気の優しい若者が　いたんだ。\n<br>\n「この坂道にいると　思いだすよ。\n　アロルドとジーガンフ　そして　マイユさんは\n　子供の頃　よく上まで競争してたなあ。\n<br>\n「アロルドは　何をやっても勝てなかったけど\n　ジーガンフが　兄貴のように面倒見てやってね。\n　本当の兄弟みたいに　仲がよかったんだ。": 
+    "<pc> doesn't know this, though. There\nwas a kind-hearted young man named Arold in\nthis village. This slope reminds me of him.\n<br>\nArold, Jiganf and Mr. Maille used to race each\nother to the top when we were kids. Arold\ncouldn't win no matter what he did, but Jiganf\n<br>\ntook care of him like a big brother. We were\nlike real brothers."
   },
   "34316": {
-    "<attr><feel_angry_lv1><end_attr>「オーガのチカラは　強い。\n　だからこそ　チカラに　おぼれるようなことが\n　あってはならんのだ！\n<br>\n「ワザや　身体だけでなく　心もきたえる！\n　それこそが　オーガの生き方であり　誇り！\n　<pc>も　精進せいよ。": "<attr><feel_angry_lv1><end_attr>Ogre's power is strong. That is why we must\nnot allow ourselves to be drowned by our\npower! We must not only strengthen our skills\n<br>\nand our bodies, but also our minds! That is\nthe Ogre way of life and our pride! Be\ndiligent, <pc>."
+    "<attr><feel_angry_lv1><end_attr>「オーガのチカラは　強い。\n　だからこそ　チカラに　おぼれるようなことが\n　あってはならんのだ！\n<br>\n「ワザや　身体だけでなく　心もきたえる！\n　それこそが　オーガの生き方であり　誇り！\n　<pc>も　精進せいよ。": 
+    "<attr><feel_angry_lv1><end_attr>Ogre's power is strong. That is why we must\nnot allow ourselves to be drowned by our\npower! We must not only strengthen our skills\n<br>\nand our bodies, but also our minds! That is\nthe Ogre way of life and our pride! Be\ndiligent, <pc>."
   },
   "34317": {
-    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「おおっ！　<pc>　無事だったのか！\n　マイユさんが　ぐったりした　お前を\n　かついできた時は　びっくりしたぞ！\n<br>\n「ここから出ると　ランガーオ山地。\n　西の　橋の向こうにある　ロンダの氷穴には\n　強い魔物たちがいる。\n<br>\n「お前は　初心者用の武器を持っていたはず。\n　外へ出る前に　忘れずに　装備していくんだぞ？\n　レベルが低いうちは　村の近くで修行しろよ！": "This is Langao Village, a village of ogres who\nput themselves in extremely cold conditions\nand strenuously strenghten themselves. Oh,\n<br>\nwow! <pc> You're safe! I was\nsurprised when Mr. Maille carried you in his\nlimp arms! Beyond the bridge to the west is\n<br>\nthe Rhonda Ice Cave, where there are some\nstrong monsters. You should have a beginner's\nweapon. Don't forget to equip yourself with\n<br>\nthem before you go out. If you're low level,\ntrain near the village!"
+    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「おおっ！　<pc>　無事だったのか！\n　マイユさんが　ぐったりした　お前を\n　かついできた時は　びっくりしたぞ！\n<br>\n「ここから出ると　ランガーオ山地。\n　西の　橋の向こうにある　ロンダの氷穴には\n　強い魔物たちがいる。\n<br>\n「お前は　初心者用の武器を持っていたはず。\n　外へ出る前に　忘れずに　装備していくんだぞ？\n　レベルが低いうちは　村の近くで修行しろよ！": 
+    "This is Rangao Village, a village of ogres who\nput themselves in extremely cold conditions\nand strenuously strengthen themselves. Oh,\n<br>\nwow! <pc> You're safe! I was\nsurprised when Mr. Maille carried you in his\nlimp arms! Beyond the bridge to the west is\n<br>\nthe Rhonda Ice Cave, where there are some\nstrong monsters. You should have a beginner's\nweapon. Don't forget to equip yourself with\n<br>\nthem before you go out. If you're low level,\ntrain near the village!"
   },
   "34318": {
-    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「ここから出ると　ランガーオ山地。\n　西の　橋の向こうにある　ロンダの氷穴には\n　強い魔物たちがいる。\n<br>\n「お前は　初心者用の武器を持っていたはず。\n　外へ出る前に　忘れずに　装備していくんだぞ？\n　レベルが低いうちは　村の近くで修行しろよ！": "This is Langao Village, a village of ogres who\nlive in the extreme cold and strenghten\nthemselves severely. Beyond the bridge to the\n<br>\nwest is the Rhonda Ice Cave, where there are\nstrong monsters. You should have a beginner's\nweapon. Don't forget to equip them before you\n<br>\ngo out. If you're low level, train near the\nvillage!"
+    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「ここから出ると　ランガーオ山地。\n　西の　橋の向こうにある　ロンダの氷穴には\n　強い魔物たちがいる。\n<br>\n「お前は　初心者用の武器を持っていたはず。\n　外へ出る前に　忘れずに　装備していくんだぞ？\n　レベルが低いうちは　村の近くで修行しろよ！": 
+    "This is Rangao Village, a village of ogres who\nlive in the extreme cold and strengthen\nthemselves severely. Beyond the bridge to the\n<br>\nwest is the Rhonda Ice Cave, where there are\nstrong monsters. You should have a beginner's\nweapon. Don't forget to equip them before you\n<br>\ngo out. If you're low level, train near the\nvillage!"
   },
   "34319": {
-    "「アタマが悪くても　武闘大会で\n　チャンピオンになれば　大きな家を持てる。\n　母ちゃんに　楽させてやれる！\n<br>\n「見てろよ　母ちゃん！\n　オイラ　いつか　ジーガンフさんみたいな\n　無敵のチャンピオンになるぜっ！！": "If I'm not smart enough, I can still win the\nfighting championship, and I can still own a\nbig house. You can make life easy for Mom!\n<br>\nYou'll see, Ma! Someday I'll be an unbeatable\nchampion like Jiganf!"
+    "「アタマが悪くても　武闘大会で\n　チャンピオンになれば　大きな家を持てる。\n　母ちゃんに　楽させてやれる！\n<br>\n「見てろよ　母ちゃん！\n　オイラ　いつか　ジーガンフさんみたいな\n　無敵のチャンピオンになるぜっ！！": 
+    "If I'm not smart enough, I can still win the\nfighting championship, and I can still own a\nbig house. You can make life easy for Mom!\n<br>\nYou'll see, Ma! Someday I'll be an unbeatable\nchampion like Jiganf!"
   },
   "34322": {
-    "「ジーガンフは　男気があり　村の中でも\n　皆に慕われている　立派な男だ。\n<br>\n「そんなジーガンフに限って……とは思うが\n　マイユさまも　ジーガンフの変化を\n　心配していらっしゃるのだ。": "Jiganf is a manly man and a fine man who is\nloved by everyone in the village. I don't\nthink it's just Jiganf, but Maille is also\n<br>\nworried about Jiganf's change."
+    "「ジーガンフは　男気があり　村の中でも\n　皆に慕われている　立派な男だ。\n<br>\n「そんなジーガンフに限って……とは思うが\n　マイユさまも　ジーガンフの変化を\n　心配していらっしゃるのだ。": 
+    "Jiganf is a manly man and a fine man who is\nloved by everyone in the village. I don't\nthink it's just Jiganf, but Maille is also\n<br>\nworried about Jiganf's change."
   },
   "34323": {
-    "<attr><feel_happy_lv1><end_attr>「がんばって　魔物を倒しても　それだけじゃ\n　なかなか　お金が貯まらないでしょ？\n<br>\n「お金かせぎのコツは　今すぐ必要じゃない物は\n　取っておかずに　どんどん\n　お店に売って　お金に換えちゃうことだ！\n<br>\n「……って　お父さんが言ってたよ！": "<attr><feel_happy_lv1><end_attr>Even if you kill monsters as hard as you can,\nit's not enough to save money, right? The\ntrick to earning money is not to keep things\n<br>\nyou don't need right now, but to sell them to\nthe stores and make money! That's what my\nfather said!"
+    "<attr><feel_happy_lv1><end_attr>「がんばって　魔物を倒しても　それだけじゃ\n　なかなか　お金が貯まらないでしょ？\n<br>\n「お金かせぎのコツは　今すぐ必要じゃない物は\n　取っておかずに　どんどん\n　お店に売って　お金に換えちゃうことだ！\n<br>\n「……って　お父さんが言ってたよ！": 
+    "<attr><feel_happy_lv1><end_attr>Even if you kill monsters as hard as you can,\nit's not enough to save money, right? The\ntrick to earning money is not to keep things\n<br>\nyou don't need right now, but to sell them to\nthe stores and make money! That's what my\nfather said!"
   },
   "34324": {
-    "「ジーガンフは　あたしの息子だよ。\n　ガンコで　負けず嫌いで　意地っぱりだけど\n　誰より　まじめで　優しい子さ。\n<br>\n「次の村王は　ジーガンフに決まりだって\n　言われてる今でも\n　朝から晩まで　修行ばっかりしているよ。\n<br>\n「ただ　２年ほど前からかね……。あの子が\n　ときどき　恐ろしい顔をするようになってね。\n　あたしゃ　それが気がかりなんだよ。": "Jiganf is my son. He's stubborn, competitive,\nand stubborn, but he's the most honest and\nkindest boy I know. Even now that people say\n<br>\nthat Jiganf will be the next King of the\nVillage, he's been training from morning till\nnight. But since about two years ago. She\n<br>\nsometimes makes a scary face. That's Worrying."
+    "「ジーガンフは　あたしの息子だよ。\n　ガンコで　負けず嫌いで　意地っぱりだけど\n　誰より　まじめで　優しい子さ。\n<br>\n「次の村王は　ジーガンフに決まりだって\n　言われてる今でも\n　朝から晩まで　修行ばっかりしているよ。\n<br>\n「ただ　２年ほど前からかね……。あの子が\n　ときどき　恐ろしい顔をするようになってね。\n　あたしゃ　それが気がかりなんだよ。": 
+    "Jiganf is my son. He's stubborn, competitive,\nand stubborn, but he's the most honest and\nkindest boy I know. Even now that people say\n<br>\nthat Jiganf will be the next King of the\nVillage, he's been training from morning till\nnight. But since about two years ago. She\n<br>\nsometimes makes a scary face. That's Worrying."
   },
   "34325": {
-    "「はあ　忙しい　忙しい。\n　もうすぐ　お客さんが来るんですよ。\n<br>\n「マイユさまは　お父さまの望みどおり\n　村王の娘として　村で　いちばん強い男の人と\n　結婚なさるおつもりです。\n<br>\n「幼なじみの　あの人を家に呼んだってことは\n　武闘大会チャンピオン　ジーガンフさんとの\n　結婚を　報告するのかもしれませんね。": "I'm busy, busy, busy. We're going to have a\nguest soon. Maille is going to marry the most\npowerful man in the village as the daughter of\n<br>\nthe village king, just like her father wanted.\nIf she's invited her childhood friend, Jiganf,\nto the house, maybe she'll tell him about her\n<br>\nmarriage to the champion of the tournament,\nJiganf."
+    "「はあ　忙しい　忙しい。\n　もうすぐ　お客さんが来るんですよ。\n<br>\n「マイユさまは　お父さまの望みどおり\n　村王の娘として　村で　いちばん強い男の人と\n　結婚なさるおつもりです。\n<br>\n「幼なじみの　あの人を家に呼んだってことは\n　武闘大会チャンピオン　ジーガンフさんとの\n　結婚を　報告するのかもしれませんね。": 
+    "I'm busy, busy, busy. We're going to have a\nguest soon. Maille is going to marry the most\npowerful man in the village as the daughter of\n<br>\nthe village king, just like her father wanted.\nIf she's invited her childhood friend, Jiganf,\nto the house, maybe she'll tell him about her\n<br>\nmarriage to the champion of the tournament,\nJiganf."
   },
   "34326": {
-    "<attr><feel_angry_lv1><end_attr>「な…なんだ！\n　ここは　ボクのプライベートルームだ。\n　ボク以外は　入ってきちゃダメなんだぞ。\n<br>\n「キミがいると　心が休まらないんだ。\n　これをやるから　早々に立ち去れい。": "<attr><feel_angry_lv1><end_attr>What is it? This is my private room. No one\nbut me is allowed in here. I can't relax when\nyou're here. I'll give you this, so get out of\n<br>\nhere as soon as possible."
+    "<attr><feel_angry_lv1><end_attr>「な…なんだ！\n　ここは　ボクのプライベートルームだ。\n　ボク以外は　入ってきちゃダメなんだぞ。\n<br>\n「キミがいると　心が休まらないんだ。\n　これをやるから　早々に立ち去れい。": 
+    "<attr><feel_angry_lv1><end_attr>What is it? This is my private room. No one\nbut me is allowed in here. I can't relax when\nyou're here. I'll give you this, so get out of\n<br>\nhere as soon as possible."
   },
   "34327": {
-    "<attr><feel_angry_lv1><end_attr>「むむむ。まだ　いたのか。\n　もしかして　まだ　何か欲しいのかい？<yesno><break>": "<attr><feel_angry_lv1><end_attr>Mm-hmm. You're still here. Perhaps you still\nwant something?<yesno><break>"
+    "<attr><feel_angry_lv1><end_attr>「むむむ。まだ　いたのか。\n　もしかして　まだ　何か欲しいのかい？<yesno><break>": 
+    "<attr><feel_angry_lv1><end_attr>Mm-hmm. You're still here. Perhaps you still\nwant something?<yesno><break>"
   },
   "34328": {
-    "<attr><feel_angry_lv1><end_attr>「しかたないな　ボクも男だ。\n　男は　気前がよくなきゃダメだからな。\n　これもやるから　早々に立ち去れい。": "<attr><feel_angry_lv1><end_attr>I can't help it. I'm a man, too. A man has to\nbe generous. I'll give you this too, so get\nthe hell out of here."
+    "<attr><feel_angry_lv1><end_attr>「しかたないな　ボクも男だ。\n　男は　気前がよくなきゃダメだからな。\n　これもやるから　早々に立ち去れい。": 
+    "<attr><feel_angry_lv1><end_attr>I can't help it. I'm a man, too. A man has to\nbe generous. I'll give you this too, so get\nthe hell out of here."
   },
   "34407": {
-    "<attr><feel_angry_lv1><end_attr>「ボクは　このプライベートルームで\n　日頃の疲れを　いやしているのだ。\n　用がないなら　早々に立ち去れい。": "<attr><feel_angry_lv1><end_attr>I'm here in my private room to unwind from the\ndaily grind. If you have nothing to do, leave\nas soon as possible."
+    "<attr><feel_angry_lv1><end_attr>「ボクは　このプライベートルームで\n　日頃の疲れを　いやしているのだ。\n　用がないなら　早々に立ち去れい。": 
+    "<attr><feel_angry_lv1><end_attr>I'm here in my private room to unwind from the\ndaily grind. If you have nothing to do, leave\nas soon as possible."
   },
   "34330": {
-    "<attr><feel_angry_lv1><end_attr>「むむむ……。カバンが　いっぱいのようだな。\n　何もやれんが　早々に立ち去ってくれい。": "<attr><feel_angry_lv1><end_attr>Mmmm. Looks like your bag is full. I can't\nhelp you, but I'd like you to leave as soon as\npossible."
+    "<attr><feel_angry_lv1><end_attr>「むむむ……。カバンが　いっぱいのようだな。\n　何もやれんが　早々に立ち去ってくれい。": 
+    "<attr><feel_angry_lv1><end_attr>Mmmm. Looks like your bag is full. I can't\nhelp you, but I'd like you to leave as soon as\npossible."
   },
   "36287": {
-    "「まったく！　じいさんは\n　朝から晩まで　ヤキトリのことばかり。\n　……ほんに　困ったもんじゃわい。": "Not at all! My grandfather is always talking\nabout yakitori from morning till night. It's\nreally a problem."
+    "「まったく！　じいさんは\n　朝から晩まで　ヤキトリのことばかり。\n　……ほんに　困ったもんじゃわい。": 
+    "Not at all! My grandfather is always talking\nabout yakitori from morning till night. It's\nreally a problem."
   },
   "34332": {
-    "「昔から　村王は\n　娘のマイユを嫁にやるなら　村で\n　いちばん強い男に……と言っていたからな。\n<br>\n「マイユさんの結婚相手は　村の武闘大会で\n　５年も　チャンピオンの座に君臨している\n　ジーガンフに　決まりだろう。": "The village king had always said that if he\nwanted to marry off his daughter, Maille, to\nthe most powerful man in the village. The man\n<br>\nto whom Maille will marry must be Jiganf, who\nhas been the reigning champion of the village\nmartial arts tournament for five years."
+    "「昔から　村王は\n　娘のマイユを嫁にやるなら　村で\n　いちばん強い男に……と言っていたからな。\n<br>\n「マイユさんの結婚相手は　村の武闘大会で\n　５年も　チャンピオンの座に君臨している\n　ジーガンフに　決まりだろう。": 
+    "The village king had always said that if he\nwanted to marry off his daughter, Maille, to\nthe most powerful man in the village. The man\n<br>\nto whom Maille will marry must be Jiganf, who\nhas been the reigning champion of the village\nmartial arts tournament for five years."
   },
   "34333": {
-    "「ガハハ！　<pc>　聞いたぞ！\n　死んでたのに　生き返ったそうじゃないか！\n　マイユのヤツも　おどろいていたぞ。\n<br>\n「……ところで　<pc>。\n　ちょうど　お前に聞きたいことがあったのだ。\n<br>\n「先日の武闘大会でも　圧倒的な強さを見せ\n　５年連続チャンピオンになった　ジーガンフ。\n　アイツをどう思う？　近頃　変だと思わないか？<yesno><break>": "Gahaha! <pc> I heard! I heard that\nyou came back from the dead! Even the Maille\nguy was surprised. By the way,\n<br>\n<pc>. I just had a question I\nwanted to ask you. What do you think of\nJiganf, who showed overwhelming strength in\n<br>\nthe recent martial arts tournament and became\nthe champion for the fifth year in a row? Do\nyou think he's been acting strange lately?<yesno><break>"
+    "「ガハハ！　<pc>　聞いたぞ！\n　死んでたのに　生き返ったそうじゃないか！\n　マイユのヤツも　おどろいていたぞ。\n<br>\n「……ところで　<pc>。\n　ちょうど　お前に聞きたいことがあったのだ。\n<br>\n「先日の武闘大会でも　圧倒的な強さを見せ\n　５年連続チャンピオンになった　ジーガンフ。\n　アイツをどう思う？　近頃　変だと思わないか？<yesno><break>": 
+    "Gahaha! <pc> I heard! I heard that\nyou came back from the dead! Even the Maille\nguy was surprised. By the way,\n<br>\n<pc>. I just had a question I\nwanted to ask you. What do you think of\nJiganf, who showed overwhelming strength in\n<br>\nthe recent martial arts tournament and became\nthe champion for the fifth year in a row? Do\nyou think he's been acting strange lately?<yesno><break>"
   },
   "34334": {
-    "<attr><feel_think_lv1><end_attr>「そうか……。\n　やはり　お前も　そう思うか。<bw_break>": "<attr><feel_think_lv1><end_attr>I see. After all, you think so too.<bw_break>"
+    "<attr><feel_think_lv1><end_attr>「そうか……。\n　やはり　お前も　そう思うか。<bw_break>": 
+    "<attr><feel_think_lv1><end_attr>I see. After all, you think so too.<bw_break>"
   },
   "34335": {
-    "<attr><feel_think_lv1><end_attr>「ふむ　そうか……。\n　わしの思い過ごしなら　よいのだが\n　どうも　気になってな。<bw_break>": "<attr><feel_think_lv1><end_attr>Hmm, I see. I hope I'm just imagining things,\nbut it's been bothering me.<bw_break>"
+    "<attr><feel_think_lv1><end_attr>「ふむ　そうか……。\n　わしの思い過ごしなら　よいのだが\n　どうも　気になってな。<bw_break>": 
+    "<attr><feel_think_lv1><end_attr>Hmm, I see. I hope I'm just imagining things,\nbut it's been bothering me.<bw_break>"
   },
   "34336": {
-    "<attr><feel_normal_lv1><end_attr>「ジーガンフは　村の誰よりも強く　人望もある。\n　わしも　次の村王に任命し\n　マイユを　まかせようと思っていたのだ。\n<br>\n「だが　近頃のジーガンフは　何かがおかしい。\n　うまく言えんが　以前のジーガンフにはなかった\n　不穏な気配を　感じるんだ。\n<br>\n「<pc>も　ジーガンフのことで\n　何か気づいたら教えてくれ。頼んだぞ！": "<attr><feel_normal_lv1><end_attr>Jiganf is stronger and more popular than\nanyone in the village. I had planned to\nappoint him as the next king of the village\n<br>\nand put him in charge of Maille. But something\nis not right with Jiganf these days. I can't\nexplain it well, but I feel a sense of\n<br>\ndisquiet that I didn't feel in Jiganf before.\n<If you notice anything about Jiganf, please\nlet me know. I'm counting on you!"
+    "<attr><feel_normal_lv1><end_attr>「ジーガンフは　村の誰よりも強く　人望もある。\n　わしも　次の村王に任命し\n　マイユを　まかせようと思っていたのだ。\n<br>\n「だが　近頃のジーガンフは　何かがおかしい。\n　うまく言えんが　以前のジーガンフにはなかった\n　不穏な気配を　感じるんだ。\n<br>\n「<pc>も　ジーガンフのことで\n　何か気づいたら教えてくれ。頼んだぞ！": 
+    "<attr><feel_normal_lv1><end_attr>Jiganf is stronger and more popular than\nanyone in the village. I had planned to\nappoint him as the next king of the village\n<br>\nand put him in charge of Maille. But something\nis not right with Jiganf these days. I can't\nexplain it well, but I feel a sense of\n<br>\ndisquiet that I didn't feel in Jiganf before.\n<If you notice anything about Jiganf, please\nlet me know. I'm counting on you!"
   },
   "34337": {
-    "「どうも　近頃のジーガンフは　おかしい。\n　うまく言えんが　以前のジーガンフにはなかった\n　不穏な気配を　感じるんだ。\n<br>\n「万一の場合にそなえて　助っ人を呼んだが\n　<pc>も　ジーガンフのことで\n　何か気づいたら教えてくれ。頼んだぞ！": "There is something wrong with Jiganf these\ndays. I can't describe it, but I'm sensing\nsomething disturbing that I haven't seen in\n<br>\nJiganf before. I've called in some help just\nin case, but if <pc> notices anything\nabout Jiganf, please let me know. Thanks!"
+    "「どうも　近頃のジーガンフは　おかしい。\n　うまく言えんが　以前のジーガンフにはなかった\n　不穏な気配を　感じるんだ。\n<br>\n「万一の場合にそなえて　助っ人を呼んだが\n　<pc>も　ジーガンフのことで\n　何か気づいたら教えてくれ。頼んだぞ！": 
+    "There is something wrong with Jiganf these\ndays. I can't describe it, but I'm sensing\nsomething disturbing that I haven't seen in\n<br>\nJiganf before. I've called in some help just\nin case, but if <pc> notices anything\nabout Jiganf, please let me know. Thanks!"
   },
   "34338": {
-    "「マイユさまの父　村王クリフゲーンさまも\n　ひどい吹雪で　動けなくなった村人を\n　何時間も探して　連れかえったことがあったわ。\n<br>\n「村王さまも　マイユさまも　村のみんなのために\n　一生懸命に　なってくださるんだもの。\n　本当に　ありがたいわよね。": "Chief Cliffgain, Maille's father, once spent\nhours searching for a villager who was stuck\nin a terrible snowstorm and brought him back.\n<br>\nBoth the village king and Maille do so much\nfor everyone in the village. I'm really\ngrateful to them."
+    "「マイユさまの父　村王クリフゲーンさまも\n　ひどい吹雪で　動けなくなった村人を\n　何時間も探して　連れかえったことがあったわ。\n<br>\n「村王さまも　マイユさまも　村のみんなのために\n　一生懸命に　なってくださるんだもの。\n　本当に　ありがたいわよね。": 
+    "Chief Cliffgain, Maille's father, once spent\nhours searching for a villager who was stuck\nin a terrible snowstorm and brought him back.\n<br>\nBoth the village king and Maille do so much\nfor everyone in the village. I'm really\ngrateful to them."
   },
   "34340": {
-    "「ルーラストーンは　使うと　記憶させた場所に\n　またたく間に飛んでいくことができる\n　とても　すばらしい　魔力の宿った石です。\n<br>\n「何度でも使えますから　ひとつ持っていれば\n　外へ出かける時も　安心ですわ。\n　でも　めったに手に入らない　貴重な品だとか。": "The Zoomstone is a magical stone that can be\nused to instantly fly to the location you have\nmemorized. You can use it over and over again,\n<br>\nso if you have one in your possession, you'll\nbe safe when you go out. It is said that it is\na rare and precious item."
+    "「ルーラストーンは　使うと　記憶させた場所に\n　またたく間に飛んでいくことができる\n　とても　すばらしい　魔力の宿った石です。\n<br>\n「何度でも使えますから　ひとつ持っていれば\n　外へ出かける時も　安心ですわ。\n　でも　めったに手に入らない　貴重な品だとか。": 
+    "The Zoomstone is a magical stone that can be\nused to instantly fly to the location you have\nmemorized. You can use it over and over again,\n<br>\nso if you have one in your possession, you'll\nbe safe when you go out. It is said that it is\na rare and precious item."
   },
   "36585": {
-    "「魔物が　やけに増えてますからね。\n　私の店で　防具を買って\n　しっかり用心したほうがいいですよ。<bw_break>": "Monsters are increasing. You should buy some\nprotective gear at my store and be very\ncareful.<bw_break>"
+    "「魔物が　やけに増えてますからね。\n　私の店で　防具を買って\n　しっかり用心したほうがいいですよ。<bw_break>": 
+    "Monsters are increasing. You should buy some\nprotective gear at my store and be very\ncareful.<bw_break>"
   },
   "36586": {
-    "<attr><feel_normal_one><end_attr>「<pc>よ。\n　命が助かったこと　神に感謝するがよい。\n　さて……。<bw_break>": "<attr><feel_normal_one><end_attr>O <pc>! You may thank God that your\nlives have been spared. Now.<bw_break>"
+    "<attr><feel_normal_one><end_attr>「<pc>よ。\n　命が助かったこと　神に感謝するがよい。\n　さて……。<bw_break>": 
+    "<attr><feel_normal_one><end_attr>O <pc>! You may thank God that your\nlives have been spared. Now.<bw_break>"
   },
   "36587": {
-    "<attr><feel_happy_lv1><end_attr>「あら　おかえりなさい。\n　今日も　<pc>のために\n　ちゃんと　部屋を空けておいたわよ！<bw_break>": "<attr><feel_happy_lv1><end_attr>Oh, welcome back. I made sure to leave room\nfor <pc> today as well!<bw_break>"
+    "<attr><feel_happy_lv1><end_attr>「あら　おかえりなさい。\n　今日も　<pc>のために\n　ちゃんと　部屋を空けておいたわよ！<bw_break>": 
+    "<attr><feel_happy_lv1><end_attr>Oh, welcome back. I made sure to leave room\nfor <pc> today as well!<bw_break>"
   },
   "34342": {
-    "「この先は　村の武闘場じゃよ。\n　毎年　武闘大会が行われる　神聖な場所であり\n　村の子供たちが　修行を始める場所でもある。\n<br>\n「そして　いよいよ実戦という段階になった者は\n　この村の外にいる　魔物たちと戦い\n　レベルを上げてゆくのじゃ。\n<br>\n「ロンダの氷穴へ　ウデ試しに行くのは\n　この辺りの敵に　楽に勝てるようになってから。\n　……<pc>には　ちと早かったかのう。": "Just beyond is the Village Arena. It is a\nsacred place where martial arts tournaments\nare held every year, and where the children of\n<br>\nthe village begin their training. Those who\nhave reached the stage of actual competition\nfight monsters outside the village to raise\n<br>\ntheir level of skill. Only when they can\neasily defeat the enemies in this area do they\ngo to Rhonda Ice Cave to test their skills.\n<br>\nIt's a little early for <pc>."
+    "「この先は　村の武闘場じゃよ。\n　毎年　武闘大会が行われる　神聖な場所であり\n　村の子供たちが　修行を始める場所でもある。\n<br>\n「そして　いよいよ実戦という段階になった者は\n　この村の外にいる　魔物たちと戦い\n　レベルを上げてゆくのじゃ。\n<br>\n「ロンダの氷穴へ　ウデ試しに行くのは\n　この辺りの敵に　楽に勝てるようになってから。\n　……<pc>には　ちと早かったかのう。": 
+    "Just beyond is the Village Arena. It is a\nsacred place where martial arts tournaments\nare held every year, and where the children of\n<br>\nthe village begin their training. Those who\nhave reached the stage of actual competition\nfight monsters outside the village to raise\n<br>\ntheir level of skill. Only when they can\neasily defeat the enemies in this area do they\ngo to Rhonda Ice Cave to test their skills.\n<br>\nIt's a little early for <pc>."
   },
   "34343": {
-    "<attr><feel_think_lv1><end_attr>「うん？　エテーネの村って言ったかい？\n　聞いたことのない名前だねぇ。\n　死にかけた時に　おかしな夢でも見たんだろ。\n<br>\n「……なんだって？\n　自分のことが　よくわからない？\n<br>\n「じゃあ　今日のところは　村の人たちと\n　話したりして　のんびり過ごしな。\n　そのうち　自分のことも思いだすさ。\n<br>\n「そうそう……。後で　いいから\n　マイユちゃんに　お礼を言ってくるんだよ？\n　大変な思いをして　運んでくれたはずだからね。\n<br>\n「知ってのとおり　マイユちゃんは　村王の娘。\n　家は　よろいの看板を出してる防具屋の横の橋を\n　渡った先だよ。村王にも　あいさつしておいで。": "<attr><feel_think_lv1><end_attr>Yeah? Did you say Ethene Village? I've never\nheard of it. You must have had a funny dream\nwhen you almost died. Excuse me? You don't\n<br>\nknow yourself well? Well, for now, just relax\nand talk to the villagers. You'll remember who\nyou are in time. You'll remember who you are\n<br>\nin time. Just go thank Maille later, okay? She\nmust have gone through a lot of trouble to\nbring it here. As you know, Maille is the\n<br>\ndaughter of the village king. Her house is\nacross the bridge next to the Armor Shop,\nwhich has a sign of a yoroi (armor). Say hello\n<br>\nto the village king."
+    "<attr><feel_think_lv1><end_attr>「うん？　エテーネの村って言ったかい？\n　聞いたことのない名前だねぇ。\n　死にかけた時に　おかしな夢でも見たんだろ。\n<br>\n「……なんだって？\n　自分のことが　よくわからない？\n<br>\n「じゃあ　今日のところは　村の人たちと\n　話したりして　のんびり過ごしな。\n　そのうち　自分のことも思いだすさ。\n<br>\n「そうそう……。後で　いいから\n　マイユちゃんに　お礼を言ってくるんだよ？\n　大変な思いをして　運んでくれたはずだからね。\n<br>\n「知ってのとおり　マイユちゃんは　村王の娘。\n　家は　よろいの看板を出してる防具屋の横の橋を\n　渡った先だよ。村王にも　あいさつしておいで。": 
+    "<attr><feel_think_lv1><end_attr>Yeah? Did you say Ethene Village? I've never\nheard of it. You must have had a funny dream\nwhen you almost died. Excuse me? You don't\n<br>\nknow yourself well? Well, for now, just relax\nand talk to the villagers. You'll remember who\nyou are in time. You'll remember who you are\n<br>\nin time. Just go thank Maille later, okay? She\nmust have gone through a lot of trouble to\nbring it here. As you know, Maille is the\n<br>\ndaughter of the village king. Her house is\nacross the bridge next to the Armor Shop,\nwhich has a sign of a yoroi (armor). Say hello\n<br>\nto the village king."
   },
   "34344": {
-    "<attr><feel_think_lv1><end_attr>「ルーラストーンを　なくしたって？\n　あれは　めったに手に入らない　貴重な物だよ。\n<br>\n「使うと　記憶させた場所へ飛んでいける\n　すごい石だからね。\n　<pc>のような修行者には　必需品だ。\n<br>\n「誰かに持っていかれちまう前に\n　急いで　探しにいったほうがいいよ。\n　西のロンダの氷穴の中も　よーく探しなよ？": "<attr><feel_think_lv1><end_attr>I heard you lost your Zoomstone. It's a very\nrare and precious item. When you use it, you\ncan fly to the place you memorized. It's a\n<br>\nnecessity for a practitioner like\n<pc>. You'd better hurry and find it\nbefore someone takes it away. You should also\n<br>\nlook for it in the Rhonda Ice Cave to the\nwest."
+    "<attr><feel_think_lv1><end_attr>「ルーラストーンを　なくしたって？\n　あれは　めったに手に入らない　貴重な物だよ。\n<br>\n「使うと　記憶させた場所へ飛んでいける\n　すごい石だからね。\n　<pc>のような修行者には　必需品だ。\n<br>\n「誰かに持っていかれちまう前に\n　急いで　探しにいったほうがいいよ。\n　西のロンダの氷穴の中も　よーく探しなよ？": 
+    "<attr><feel_think_lv1><end_attr>I heard you lost your Zoomstone. It's a very\nrare and precious item. When you use it, you\ncan fly to the place you memorized. It's a\n<br>\nnecessity for a practitioner like\n<pc>. You'd better hurry and find it\nbefore someone takes it away. You should also\n<br>\nlook for it in the Rhonda Ice Cave to the\nwest."
   },
   "34345": {
-    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sEV_ITEM>!<se_nots System Item>"
+    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": 
+    "<pc> received <%sEV_ITEM>!<se_nots System Item>"
   },
   "34346": {
-    "<pc>は\n<%sEV_ITEM2>を　手に入れた！<se_nots System Item>": "<pc> received <%sEV_ITEM2>!<se_nots System Item>"
+    "<pc>は\n<%sEV_ITEM2>を　手に入れた！<se_nots System Item>": 
+    "<pc> received <%sEV_ITEM2>!<se_nots System Item>"
   },
   "34347": {
-    "「この先は　武闘場。\n　毎年　武闘大会が行われる　神聖な戦いの場だ。": "Beyond this point is the battlefield. It is a\nsacred battlefield where martial arts\ntournaments are held every year."
+    "「この先は　武闘場。\n　毎年　武闘大会が行われる　神聖な戦いの場だ。": 
+    "Beyond this point is the battlefield. It is a\nsacred battlefield where martial arts\ntournaments are held every year."
   },
   "34349": {
-    "<attr><feel_happy_lv2><end_attr>「今年の武闘大会も　ジーガンフさんの圧勝！\n　ステキだったわ～<heart>\n<br>\n「彼は　天才じゃなくて　努力の人よ。\n　だから　みんな　ジーガンフさんを尊敬して\n　目標にしているの。": "<attr><feel_happy_lv2><end_attr>Jiganf won this year's martial arts tournament\nas well! <heart> He is not a genius, but a hard\nworker. That's why we all look up to Jiganf\n<br>\nand aim for him."
+    "<attr><feel_happy_lv2><end_attr>「今年の武闘大会も　ジーガンフさんの圧勝！\n　ステキだったわ～<heart>\n<br>\n「彼は　天才じゃなくて　努力の人よ。\n　だから　みんな　ジーガンフさんを尊敬して\n　目標にしているの。": 
+    "<attr><feel_happy_lv2><end_attr>Jiganf won this year's martial arts tournament\nas well! <heart> He is not a genius, but a hard\nworker. That's why we all look up to Jiganf\n<br>\nand aim for him."
   },
   "34425": {
-    "「ここは　村王さまの部屋。\n　村王さまは　過去の武闘大会で　いく度も\n　チャンピオンになられた　お方なのだ。": "This is the room of the Village King. The\nVillage King is a man who has won many\nchampions in past martial arts tournaments."
+    "「ここは　村王さまの部屋。\n　村王さまは　過去の武闘大会で　いく度も\n　チャンピオンになられた　お方なのだ。": 
+    "This is the Village King's room. The\nVillage King is a man who has won many\nchampions in past martial arts tournaments."
   },
   "34351": {
-    "「<pc>が　この村に来たのは　１年前か。\n　なら　アロルドのことは知らないよな。\n　２年前まで　この村にいた男なのだ。\n<br>\n「以前のアロルドは　ジーガンフの後を\n　ついて回る　頼りない弟分って感じだったが\n　ずいぶん　たくましくなって　帰ってきたよ。\n<br>\n「あいつは強くなると　村王が言った時は\n　信じられなかったが……。あの頃から　村王は\n　アロルドのチカラを　見抜いていたのだな。": "So <pc> came to this village a year\nago. Then you don't know Arold, do you? He was\nin this village until two years ago. Arold\n<br>\nused to be like a little brother who followed\nJiganf around, but he has come back much\nstronger and tougher. I couldn't believe it\n<br>\nwhen the village king said he would become\nstronger. I guess the Village King had seen\nthrough Arold's power even back then."
+    "「<pc>が　この村に来たのは　１年前か。\n　なら　アロルドのことは知らないよな。\n　２年前まで　この村にいた男なのだ。\n<br>\n「以前のアロルドは　ジーガンフの後を\n　ついて回る　頼りない弟分って感じだったが\n　ずいぶん　たくましくなって　帰ってきたよ。\n<br>\n「あいつは強くなると　村王が言った時は\n　信じられなかったが……。あの頃から　村王は\n　アロルドのチカラを　見抜いていたのだな。": 
+    "So <pc> came to this village a year\nago. Then you don't know Arold, do you? He was\nin this village until two years ago. Arold\n<br>\nused to be like a little brother who followed\nJiganf around, but he has come back much\nstronger and tougher. I couldn't believe it\n<br>\nwhen the village king said he would become\nstronger. I guess the Village King had seen\nthrough Arold's power even back then."
   },
   "34352": {
-    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament."
+    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。": 
+    "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament."
   },
   "34353": {
-    "<attr><feel_think_lv1><end_attr>「アロルドを　村へ呼びもどしたのは\n　村王さまらしい。\n　なぜ　アロルドを　呼んだのだろうな？": "<attr><feel_think_lv1><end_attr>It seems it was the village king who called\nArold back to the village. I wonder why he\ncalled Arold back?"
+    "<attr><feel_think_lv1><end_attr>「アロルドを　村へ呼びもどしたのは\n　村王さまらしい。\n　なぜ　アロルドを　呼んだのだろうな？": 
+    "<attr><feel_think_lv1><end_attr>It seems it was the village king who called\nArold back to the village. I wonder why he\ncalled Arold back?"
   },
   "34354": {
-    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「<pc>。アロルドが帰ってきてるぞ。\n　……って　そういえば　お前は\n　アイツのことを知らないんだったな。\n<br>\n「マイユさんや　ジーガンフの　幼なじみでな。\n　２年前　修行の旅に出たきりだったんだが\n　村王に呼ばれて　帰ってきたそうだ。": "This is Langao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strenghten themselves. Arold is\n<br>\nback. Come to think of it, you don't know\nanything about him, do you? He was a childhood\nfriend of Maille and Jiganf. He went on a\n<br>\ntraining trip two years ago, but the village\nking called him to come back."
+    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「<pc>。アロルドが帰ってきてるぞ。\n　……って　そういえば　お前は\n　アイツのことを知らないんだったな。\n<br>\n「マイユさんや　ジーガンフの　幼なじみでな。\n　２年前　修行の旅に出たきりだったんだが\n　村王に呼ばれて　帰ってきたそうだ。": 
+    "This is Rangao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strengthen themselves. Arold is\n<br>\nback. Come to think of it, you don't know\nanything about him, do you? He was a childhood\nfriend of Maille and Jiganf. He went on a\n<br>\ntraining trip two years ago, but the village\nking called him to come back."
   },
   "34355": {
-    "「マイユさまは　お父さまの望みどおり\n　村王の娘として　村で　いちばん強い男の人と\n　結婚なさる　おつもりです。\n<br>\n「幼なじみの　あの人を家に呼んだってことは\n　武闘大会チャンピオン　ジーガンフさんとの\n　結婚を　報告するのかもしれませんね。": "As the daughter of the village king, Maille is\ngoing to marry the most powerful man in the\nvillage, just like her father wanted. If she\n<br>\nhas invited her childhood friend to the house,\nshe might report her marriage to Jiganf, the\nchampion of the tournament."
+    "「マイユさまは　お父さまの望みどおり\n　村王の娘として　村で　いちばん強い男の人と\n　結婚なさる　おつもりです。\n<br>\n「幼なじみの　あの人を家に呼んだってことは\n　武闘大会チャンピオン　ジーガンフさんとの\n　結婚を　報告するのかもしれませんね。": 
+    "As the daughter of the village king, Maille is\ngoing to marry the most powerful man in the\nvillage, just like her father wanted. If she\n<br>\nhas invited her childhood friend to the house,\nshe might report her marriage to Jiganf, the\nchampion of the tournament."
   },
   "34356": {
-    "「アロルドは　子供の頃から\n　気が弱いっていうか　優しいっていうか\n　とにかく　からかわれても　何もしなくてね。\n<br>\n「よく　マイユさまが　悪ガキどもから\n　助けてあげてたのよ。\n　アロルドをいじめないで！　って。": "Arold has always been a bit timid or gentle as\na child, but he never did anything about it,\neven when people made fun of him. Maille used\n<br>\nto save him from the bad kids. \"Don't bully\nArold,\" she would say! She used to say."
+    "「アロルドは　子供の頃から\n　気が弱いっていうか　優しいっていうか\n　とにかく　からかわれても　何もしなくてね。\n<br>\n「よく　マイユさまが　悪ガキどもから\n　助けてあげてたのよ。\n　アロルドをいじめないで！　って。": 
+    "Arold has always been a bit timid or gentle as\na child, but he never did anything about it,\neven when people made fun of him. Maille used\n<br>\nto save him from the bad kids. \"Don't bully\nArold,\" she would say! She used to say."
   },
   "47567": {
-    "「こんにちは。\n　ルーラストーンを　お持ちなのですね。\n　では　使い方を　説明させていただきますわ。\n<br>\n「ルーラストーンは　使うと　記憶させた場所に\n　またたく間に飛んでいくことができる\n　とても　すばらしい　魔力の宿った石です。\n<br>\n「町や村など　教会のある場所は　一度　訪れると\n　自動で記憶されます。ランガーオ村も\n　すでに　記憶されているはずですよ。\n<br>\n「いくつでも　記憶できますので\n　どんどん　記憶させれば\n　どんどん　飛んでいけるところが増えるのです。\n<br>\n「また　フィールドやダンジョンの入口などにある\n　不思議な石碑を　ルーラストーンに\n　記憶させることも　できますよ。\n<br>\n「ルーラストーンは　『どうぐ』から使えます。\n　よく行く場所は　<emoji SpecialRight>で　お気に入りに\n　登録もできますので　試してみてくださいね。": "Hello. I see that you have Zoomstone. Let me\nexplain how to use it. The Zoomstone is a\nstone with a very wonderful magic power that\n<br>\nallows you to fly to the place you memorized\nin no time at all. Once you visit a town,\nvillage, or church, it will automatically be\n<br>\nmemorized, and Langao Village should already\nbe there. You can memorize as many places as\nyou want, so the more you memorize, the more\n<br>\nplaces you can fly to. You can also use\nZoomstone to memorize the mysterious stone\nmonuments in the field or at the entrance of\n<br>\nDan Jon. You can use the Zoomstone from the\n\"item\" menu. Frequently visited places are<emoji SpecialRight>You can also register it in your favorites at"
+    "「こんにちは。\n　ルーラストーンを　お持ちなのですね。\n　では　使い方を　説明させていただきますわ。\n<br>\n「ルーラストーンは　使うと　記憶させた場所に\n　またたく間に飛んでいくことができる\n　とても　すばらしい　魔力の宿った石です。\n<br>\n「町や村など　教会のある場所は　一度　訪れると\n　自動で記憶されます。ランガーオ村も\n　すでに　記憶されているはずですよ。\n<br>\n「いくつでも　記憶できますので\n　どんどん　記憶させれば\n　どんどん　飛んでいけるところが増えるのです。\n<br>\n「また　フィールドやダンジョンの入口などにある\n　不思議な石碑を　ルーラストーンに\n　記憶させることも　できますよ。\n<br>\n「ルーラストーンは　『どうぐ』から使えます。\n　よく行く場所は　<emoji SpecialRight>で　お気に入りに\n　登録もできますので　試してみてくださいね。": 
+    "Hello. I see that you have Zoomstone. Let me\nexplain how to use it. The Zoomstone is a\nstone with a very wonderful magic power that\n<br>\nallows you to fly to the place you memorized\nin no time at all. Once you visit a town,\nvillage, or church, it will automatically be\n<br>\nmemorized, and Rangao Village should already\nbe there. You can memorize as many places as\nyou want, so the more you memorize, the more\n<br>\nplaces you can fly to. You can also use\nZoomstone to memorize the mysterious stone\nmonuments in the field or at the entrance of\n<br>\nDan Jon. You can use the Zoomstone from the\n\"item\" menu. Frequently visited places are<emoji SpecialRight>You can also register it in your favorites at"
   },
   "47568": {
-    "「ルーラストーンは　使うと　記憶させた場所に\n　またたく間に飛んでいくことができる\n　とても　すばらしい　魔力の宿った石です。\n<br>\n「町や村など　教会のある場所は　一度　訪れると\n　自動で記憶されます。ランガーオ村も\n　すでに　記憶されているはずですよ。\n<br>\n「いくつでも　記憶できますので\n　どんどん　記憶させれば\n　どんどん　飛んでいけるところが増えるのです。\n<br>\n「また　フィールドやダンジョンの入口などにある\n　不思議な石碑を　ルーラストーンに\n　記憶させることも　できますよ。\n<br>\n「ルーラストーンは　『どうぐ』から使えます。\n　よく行く場所は　<emoji SpecialRight>で　お気に入りに\n　登録もできますので　試してみてくださいね。": "The Zoomstone is a stone with a wonderful\nmagic power that allows you to fly to the\nplace you memorized in no time at all. Once\n<br>\nyou visit a town or village with a church, it\nwill be automatically memorized, so Langao\nVillage should already be there. You can\n<br>\nmemorize as many places as you want, so the\nmore you memorize, the more places you can fly\nto. You can also use Zoomstone to memorize the\n<br>\nmysterious stone monuments in the field or at\nthe entrance of Dan Jon. You can use the\nZoomstone from the \"item\" menu. Frequently\n<br>\nvisited places are<emoji SpecialRight>You can also register it in your favorites at"
+    "「ルーラストーンは　使うと　記憶させた場所に\n　またたく間に飛んでいくことができる\n　とても　すばらしい　魔力の宿った石です。\n<br>\n「町や村など　教会のある場所は　一度　訪れると\n　自動で記憶されます。ランガーオ村も\n　すでに　記憶されているはずですよ。\n<br>\n「いくつでも　記憶できますので\n　どんどん　記憶させれば\n　どんどん　飛んでいけるところが増えるのです。\n<br>\n「また　フィールドやダンジョンの入口などにある\n　不思議な石碑を　ルーラストーンに\n　記憶させることも　できますよ。\n<br>\n「ルーラストーンは　『どうぐ』から使えます。\n　よく行く場所は　<emoji SpecialRight>で　お気に入りに\n　登録もできますので　試してみてくださいね。": 
+    "The Zoomstone is a stone with a wonderful\nmagic power that allows you to fly to the\nplace you memorized in no time at all. Once\n<br>\nyou visit a town or village with a church, it\nwill be automatically memorized, so Rangao\nVillage should already be there. You can\n<br>\nmemorize as many places as you want, so the\nmore you memorize, the more places you can fly\nto. You can also use Zoomstone to memorize the\n<br>\nmysterious stone monuments in the field or at\nthe entrance of Dan Jon. You can use the\nZoomstone from the \"item\" menu. Frequently\n<br>\nvisited places are<emoji SpecialRight>You can also register it in your favorites at"
   },
   "34357": {
-    "「ルーラストーンが見つかった？　よかったねえ！\n　試しに『どうぐ』から　使ってみな！\n　この村のことが　記憶されてるはずだよ。\n<br>\n「よくわからなかったら\n　教会にいる　ピリリちゃんに聞いてみな。\n　ルーラストーンに　くわしいからね！\n<br>\n「……えっ？　ロンダ岬で\n　様子のおかしい　ジーガンフを見た？\n　そういう重要な話は　急いで　村王に報告だよ！": "Did you find Zoomstone? Good for you! Try it\nout on the \"items\" page! It should remember\nthis village. If you don't understand, ask\n<br>\nPiriri at the church. She knows a lot about\nZoomstone! What? Have you seen a strange\nJiganf at Rhonda Cape? You'd better hurry up\n<br>\nand report anything important like that to the\nvillage king!"
+    "「ルーラストーンが見つかった？　よかったねえ！\n　試しに『どうぐ』から　使ってみな！\n　この村のことが　記憶されてるはずだよ。\n<br>\n「よくわからなかったら\n　教会にいる　ピリリちゃんに聞いてみな。\n　ルーラストーンに　くわしいからね！\n<br>\n「……えっ？　ロンダ岬で\n　様子のおかしい　ジーガンフを見た？\n　そういう重要な話は　急いで　村王に報告だよ！": 
+    "Did you find Zoomstone? Good for you! Try it\nout on the \"items\" page! It should remember\nthis village. If you don't understand, ask\n<br>\nPiriri at the church. She knows a lot about\nZoomstone! What? Have you seen a strange\nJiganf at Rhonda Cape? You'd better hurry up\n<br>\nand report anything important like that to the\nvillage king!"
   },
   "34358": {
-    "「おお　<pc>。\n　村王さまに　急ぎの用事か？\n　それなら　部屋に入るがいい。": "Oh <pc>. You have urgent business\nwith the Village King? Then go into your room."
+    "「おお　<pc>。\n　村王さまに　急ぎの用事か？\n　それなら　部屋に入るがいい。": 
+    "Oh <pc>. You have urgent business\nwith the Village King? Then go into your room."
   },
   "34359": {
-    "「思えば　アロルドが修行の旅に出たのは\n　２年前の武闘大会で　ジーガンフに\n　ボロ負けした　すぐ後だったな。\n<br>\n「アロルドが　これまで\n　どんな修行をしてきたかは知らんが\n　ジーガンフには　まだ　かなわないだろう。": "Thinking back, Arold started his training\nright after he lost to Jiganf in a martial\narts tournament two years ago. I don't know\n<br>\nwhat kind of training Arold has been doing,\nbut I don't think he can match Jiganf yet."
+    "「思えば　アロルドが修行の旅に出たのは\n　２年前の武闘大会で　ジーガンフに\n　ボロ負けした　すぐ後だったな。\n<br>\n「アロルドが　これまで\n　どんな修行をしてきたかは知らんが\n　ジーガンフには　まだ　かなわないだろう。": 
+    "Thinking back, Arold started his training\nright after he lost to Jiganf in a martial\narts tournament two years ago. I don't know\n<br>\nwhat kind of training Arold has been doing,\nbut I don't think he can match Jiganf yet."
   },
   "34360": {
-    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament."
+    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。": 
+    "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament."
   },
   "34361": {
-    "「マイユさんが　武闘場へ行くなんて\n　めずらしいと思ったら\n　アロルドと　待ち合わせしてたんだな。\n<br>\n「あとは　ジーガンフが来れば\n　幼なじみの仲良し３人組が　そろうってワケだ！": "I thought it was unusual for Maille to go to\nthe battlefield, but I guess he was meeting up\nwith Arold. Now all we need is for Jiganf to\n<br>\narrive and we'll have the three best friends\nfrom childhood!"
+    "「マイユさんが　武闘場へ行くなんて\n　めずらしいと思ったら\n　アロルドと　待ち合わせしてたんだな。\n<br>\n「あとは　ジーガンフが来れば\n　幼なじみの仲良し３人組が　そろうってワケだ！": 
+    "I thought it was unusual for Maille to go to\nthe battlefield, but I guess he was meeting up\nwith Arold. Now all we need is for Jiganf to\n<br>\narrive and we'll have the three best friends\nfrom childhood!"
   },
   "34362": {
-    "<attr><feel_think_lv2><end_attr>「さっき　マイユちゃんを見かけたが\n　なんだか　元気がなかったのう。\n　心配ごとでも　あるんじゃろうか？": "<attr><feel_think_lv2><end_attr>I saw Maille a while ago, but she seemed to be\nin low spirits. Is she worried about\nsomething?"
+    "<attr><feel_think_lv2><end_attr>「さっき　マイユちゃんを見かけたが\n　なんだか　元気がなかったのう。\n　心配ごとでも　あるんじゃろうか？": 
+    "<attr><feel_think_lv2><end_attr>I saw Maille a while ago, but she seemed to be\nin low spirits. Is she worried about\nsomething?"
   },
   "34363": {
-    "<attr><feel_happy_lv1><end_attr>「アロルドが帰ってくるなんて\n　いよいよ　マイユちゃんと　ジーガンフの\n　結婚が　近いのかもしれないねえ。\n<br>\n「マイユちゃんも　結婚を前にして不安だろうけど\n　幼なじみの　アロルドの顔を見れば\n　きっと　安心するだろうね。": "<attr><feel_happy_lv1><end_attr>Arold's coming back, it looks like Maille and\nJiganf's wedding might be finally coming soon.\nI'm sure Maille is anxious about her upcoming\n<br>\nwedding, but I'm sure she will be relieved to\nsee her childhood friend Arold's face."
+    "<attr><feel_happy_lv1><end_attr>「アロルドが帰ってくるなんて\n　いよいよ　マイユちゃんと　ジーガンフの\n　結婚が　近いのかもしれないねえ。\n<br>\n「マイユちゃんも　結婚を前にして不安だろうけど\n　幼なじみの　アロルドの顔を見れば\n　きっと　安心するだろうね。": 
+    "<attr><feel_happy_lv1><end_attr>Arold's coming back, it looks like Maille and\nJiganf's wedding might be finally coming soon.\nI'm sure Maille is anxious about her upcoming\n<br>\nwedding, but I'm sure she will be relieved to\nsee her childhood friend Arold's face."
   },
   "34364": {
-    "扉は　かたく　閉ざされている。": "The door is locked up tight"
+    "扉は　かたく　閉ざされている。": 
+    "The door is locked up tight"
   },
   "34365": {
-    "「この先は　武闘場。\n　毎年　武闘大会が行われる　神聖な戦いの場だ。\n　マイユさんと　アロルドなら　中にいるよ。": "Beyond this point is the battlefield. It is a\nsacred battlefield where martial arts\ntournaments are held every year. Maille and\n<br>\nArold are inside."
+    "「この先は　武闘場。\n　毎年　武闘大会が行われる　神聖な戦いの場だ。\n　マイユさんと　アロルドなら　中にいるよ。": 
+    "Beyond this point is the battlefield. It is a\nsacred battlefield where martial arts\ntournaments are held every year. Maille and\n<br>\nArold are inside."
   },
   "34366": {
-    "「ふ～ん。弱虫のアロルドも　修行の旅で\n　ちょっとは　マシになったみたいね。\n　でも　ジーガンフさんに比べたら　まだまだよ。": "Hmmm. It seems that the wimpy Arold has gotten\na little better on his training trip. But\ncompared to Jiganf, he still has a long way to\n<br>\ngo."
+    "「ふ～ん。弱虫のアロルドも　修行の旅で\n　ちょっとは　マシになったみたいね。\n　でも　ジーガンフさんに比べたら　まだまだよ。": 
+    "Hmmm. It seems that the wimpy Arold has gotten\na little better on his training trip. But\ncompared to Jiganf, he still has a long way to\n<br>\ngo."
   },
   "34367": {
-    "「<pc>。\n　ジェニャに　追いだされたようだな。\n　あの子の　したたかさには　かなわんよ。\n<br>\n「……ほう。村の武闘場にいる　アロルドに\n　あいさつしてこいと　言われたって？\n　お前　意外と　村王に見込まれてるのかもな。\n<br>\n「武闘場は　この村の中だ。\n　広場から　北の坂道を上がってゆけば\n　神聖な戦いの場……　武闘場に着くだろう。": "<pc>. Looks like Jenya kicked you to\nthe curb. She's not as tough as she seems. I\nheard that Arold in the Village Arena told you\n<br>\nto say hello to him. Maybe the Village King is\nmore interested in you than I thought. The\nbattlefield is in this village. If you go up\n<br>\nthe hill to the north from the plaza, you will\nreach the sacred battlefield."
+    "「<pc>。\n　ジェニャに　追いだされたようだな。\n　あの子の　したたかさには　かなわんよ。\n<br>\n「……ほう。村の武闘場にいる　アロルドに\n　あいさつしてこいと　言われたって？\n　お前　意外と　村王に見込まれてるのかもな。\n<br>\n「武闘場は　この村の中だ。\n　広場から　北の坂道を上がってゆけば\n　神聖な戦いの場……　武闘場に着くだろう。": 
+    "<pc>. Looks like Jenya kicked you to\nthe curb. She's not as tough as she seems. I\nheard that Arold in the Village Arena told you\n<br>\nto say hello to him. Maybe the Village King is\nmore interested in you than I thought. The\nbattlefield is in this village. If you go up\n<br>\nthe hill to the north from the plaza, you will\nreach the sacred battlefield."
   },
   "34368": {
-    "<attr><feel_think_lv2><end_attr>「う～む……。\n　マイユさまが　お戻りにならない。\n<br>\n「村王さまも　お帰りにならないし\n　まさか　事件でも起きたのではなかろうか。": "<attr><feel_think_lv2><end_attr>Hmmm. The Maille-sama has not returned. I\nwonder if there is some kind of incident."
+    "<attr><feel_think_lv2><end_attr>「う～む……。\n　マイユさまが　お戻りにならない。\n<br>\n「村王さまも　お帰りにならないし\n　まさか　事件でも起きたのではなかろうか。": 
+    "<attr><feel_think_lv2><end_attr>Hmmm. The Maille-sama has not returned. I\nwonder if there is some kind of incident."
   },
   "34369": {
-    "<attr><feel_angry_lv2><end_attr>「び　び　び　びっくりしたあ！\n　黒っぽいヤツが　マイユさんを抱えて\n　山を　飛び越えていったぞ！": "<attr><feel_angry_lv2><end_attr>Surprise, surprise, surprise! A black guy\njumped over the mountain carrying Mr. Maille!"
+    "<attr><feel_angry_lv2><end_attr>「び　び　び　びっくりしたあ！\n　黒っぽいヤツが　マイユさんを抱えて\n　山を　飛び越えていったぞ！": 
+    "<attr><feel_angry_lv2><end_attr>Surprise, surprise, surprise! A black guy\njumped over the mountain carrying Mr. Maille!"
   },
   "34370": {
-    "<attr><feel_angry_lv2><end_attr>「あ…あの　気高きチャンピオン　ジーガンフが\n　悪鬼ゾンガロンと　契約しているだと！？\n<br>\n「ヤツは　はるか昔に　１０００人のオーガが\n　チカラを合わせて封印した　伝説の怪物だぞ。\n<br>\n「<pc>！　手遅れになる前に\n　ジーガンフが向かった　ロンダ岬へ行ってくれ！\n　しっかり準備していくのも　忘れるなよ！": "<attr><feel_angry_lv2><end_attr>The noble champion Jiganf has signed a\ncontract with Demon Zongalon? He's a legendary\nmonster that was sealed away by a thousand\n<br>\nOgres working together long ago.\n<pc>! Get to Rhonda Cape where Jiganf\nis headed before it's too late! And don't\n<br>\nforget to be prepared!"
+    "<attr><feel_angry_lv2><end_attr>「あ…あの　気高きチャンピオン　ジーガンフが\n　悪鬼ゾンガロンと　契約しているだと！？\n<br>\n「ヤツは　はるか昔に　１０００人のオーガが\n　チカラを合わせて封印した　伝説の怪物だぞ。\n<br>\n「<pc>！　手遅れになる前に\n　ジーガンフが向かった　ロンダ岬へ行ってくれ！\n　しっかり準備していくのも　忘れるなよ！": 
+    "<attr><feel_angry_lv2><end_attr>The noble champion Jiganf has signed a\ncontract with Demon Zongalon? He's a legendary\nmonster that was sealed away by a thousand\n<br>\nOgres working together long ago.\n<pc>! Get to Rhonda Cape where Jiganf\nis headed before it's too late! And don't\n<br>\nforget to be prepared!"
   },
   "34371": {
-    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「村王とアロルドが　西のロンダの氷穴の方へ\n　走っていったようだ。\n　村王は　いくつになっても　若いな！": "This is Langao Village. It is a village of\nOgres who have to strenuously strenghten\nthemselves in the extreme cold. It seems that\n<br>\nthe Village King and Arold are running west\ntoward the Rhonda Ice Cave. The Village King\nis always young, no matter how old he is!"
+    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「村王とアロルドが　西のロンダの氷穴の方へ\n　走っていったようだ。\n　村王は　いくつになっても　若いな！": 
+    "This is Rangao Village. It is a village of\nOgres who have to strenuously strengthen\nthemselves in the extreme cold. It seems that\n<br>\nthe Village King and Arold are running west\ntoward the Rhonda Ice Cave. The Village King\nis always young, no matter how old he is!"
   },
   "34372": {
-    "「オイラ　ジーガンフさんの気持ち　わかるよ。\n　戦う時は　互いに全力を尽くすのが礼儀。\n　手を抜かれるなんて　ひどい屈辱だよ。": "I Jiganf, I know how you feel. When fighting,\nit's polite to give each other your all. It is\na terrible humiliation to be left out."
+    "「オイラ　ジーガンフさんの気持ち　わかるよ。\n　戦う時は　互いに全力を尽くすのが礼儀。\n　手を抜かれるなんて　ひどい屈辱だよ。": 
+    "I Jiganf, I know how you feel. When fighting,\nit's polite to give each other your all. It is\na terrible humiliation to be left out."
   },
   "34373": {
-    "<attr><feel_think_lv2><end_attr>「ジーガンフを見かけたから\n　アロルドが帰ってきたよって　教えてあげたの。\n<br>\n「そしたら　ジーガンフ\n　ものすごく怖い顔で　武闘場へ走っていったわ。": "<attr><feel_think_lv2><end_attr>I saw Jiganf and told him that Arold had\nreturned. Jiganf looked really scared and ran\nto the fighting arena."
+    "<attr><feel_think_lv2><end_attr>「ジーガンフを見かけたから\n　アロルドが帰ってきたよって　教えてあげたの。\n<br>\n「そしたら　ジーガンフ\n　ものすごく怖い顔で　武闘場へ走っていったわ。": 
+    "<attr><feel_think_lv2><end_attr>I saw Jiganf and told him that Arold had\nreturned. Jiganf looked really scared and ran\nto the fighting arena."
   },
   "34374": {
-    "<attr><feel_think_lv1><end_attr>「武闘場の辺りが　騒がしかったのう。\n　おおかた　魔物でも出てきたんじゃろ。\n　まあ　たまーに　あることさ。": "<attr><feel_think_lv1><end_attr>There was a lot of noise around the\nbattlefield. Most likely some kind of monster\ncame out. It happens from time to time."
+    "<attr><feel_think_lv1><end_attr>「武闘場の辺りが　騒がしかったのう。\n　おおかた　魔物でも出てきたんじゃろ。\n　まあ　たまーに　あることさ。": 
+    "<attr><feel_think_lv1><end_attr>There was a lot of noise around the\nbattlefield. Most likely some kind of monster\ncame out. It happens from time to time."
   },
   "34375": {
-    "<attr><feel_angry_lv2><end_attr>「いったい　何が起こってんだい？\n　ジーガンフも帰ってきて　やっと\n　幼なじみの３人が　そろうところだったのに。\n<br>\n「武闘場の方からは　悲鳴が上がるし\n　村王と　アロルドは　村を飛びだしていくし\n　全然　幼なじみの再会って雰囲気じゃないよ！": "<attr><feel_angry_lv2><end_attr>What the hell is going on? Jiganf came back\nand the three childhood friends were just\nabout to be together at last. There are\n<br>\nscreams coming from the battlefield, and the\nVillage King and Arold are running away from\nthe village!"
+    "<attr><feel_angry_lv2><end_attr>「いったい　何が起こってんだい？\n　ジーガンフも帰ってきて　やっと\n　幼なじみの３人が　そろうところだったのに。\n<br>\n「武闘場の方からは　悲鳴が上がるし\n　村王と　アロルドは　村を飛びだしていくし\n　全然　幼なじみの再会って雰囲気じゃないよ！": 
+    "<attr><feel_angry_lv2><end_attr>What the hell is going on? Jiganf came back\nand the three childhood friends were just\nabout to be together at last. There are\n<br>\nscreams coming from the battlefield, and the\nVillage King and Arold are running away from\nthe village!"
   },
   "34376": {
-    "<attr><feel_angry_lv1><end_attr>「武闘場で　騒ぎがあったようだが　大丈夫か？\n　村王とアロルドが　ただならぬ様子で\n　飛びだしていったぞ。": "<attr><feel_angry_lv1><end_attr>There was a commotion in the arena. Are you\nall right? The Village King and Arold are\nrunning out of here looking for trouble."
+    "<attr><feel_angry_lv1><end_attr>「武闘場で　騒ぎがあったようだが　大丈夫か？\n　村王とアロルドが　ただならぬ様子で\n　飛びだしていったぞ。": 
+    "<attr><feel_angry_lv1><end_attr>There was a commotion in the arena. Are you\nall right? The Village King and Arold are\nrunning out of here looking for trouble."
   },
   "34377": {
-    "<attr><feel_think_lv1><end_attr>「ねえ　なんか　ヤバい雰囲気じゃない？\n　マイユさんの悲鳴や　ジーガンフさんの\n　どなり声まで　聞こえたわよ。\n<br>\n「ま…まさか　愛の三角関係！？\n　ジーガンフさんと　アロルドが　恋のライバル？\n　きゃ～　どうなっちゃうのかしら～<heart>": "<attr><feel_think_lv1><end_attr>Hey, isn't there a bad vibe here? I could hear\nMaille's screams and Jiganf's yells. No way! A\nlove triangle! Jiganf and Arold are rivals? Oh\n<br>\nmy gosh, what's going to happen~<heart>"
+    "<attr><feel_think_lv1><end_attr>「ねえ　なんか　ヤバい雰囲気じゃない？\n　マイユさんの悲鳴や　ジーガンフさんの\n　どなり声まで　聞こえたわよ。\n<br>\n「ま…まさか　愛の三角関係！？\n　ジーガンフさんと　アロルドが　恋のライバル？\n　きゃ～　どうなっちゃうのかしら～<heart>": 
+    "<attr><feel_think_lv1><end_attr>Hey, isn't there a bad vibe here? I could hear\nMaille's screams and Jiganf's yells. No way! A\nlove triangle! Jiganf and Arold are rivals?\n<br>\nOh,my gosh, what's going to happen~<heart>"
   },
   "34378": {
-    "「ジェニャなら　ホクホクした顔で出ていったよ。\n　村王さまに　たっぷりと　こづかいを\n　もらったんだろう。しっかりしてるよ！": "Jenya left with a relieved look on her face.\nThe village king must have given her a\ngenerous allowance. She's a good girl!"
+    "「ジェニャなら　ホクホクした顔で出ていったよ。\n　村王さまに　たっぷりと　こづかいを\n　もらったんだろう。しっかりしてるよ！": 
+    "Jenya left with a relieved look on her face.\nThe village king must have given her a\ngenerous allowance. She's a good girl!"
   },
   "34379": {
-    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。\n　<pc>。村王さまが　お待ちかねだぞ。": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament.\n<pc>. The King of the Village is\n<br>\nwaiting for you."
+    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。\n　<pc>。村王さまが　お待ちかねだぞ。": 
+    "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament.\n<pc>. The King of the Village is\n<br>\nwaiting for you."
   },
   "34380": {
-    "「マイユさまが　無事　お戻りになられたのだ！\n　お手柄だったな　<pc>！\n　さあ　村王さまの部屋へ行くがよい！": "The Maille has returned safely! Well done,\n<pc>! Now, go to the King of the\nVillage's room!"
+    "「マイユさまが　無事　お戻りになられたのだ！\n　お手柄だったな　<pc>！\n　さあ　村王さまの部屋へ行くがよい！": 
+    "The Maille has returned safely! Well done,\n<pc>! Now, go to the King of the\nVillage's room!"
   },
   "34381": {
-    "<attr><feel_happy_lv2><end_attr>「マイユさんが　無事に帰ってきたらしいな。\n　いやあ　よかったねえ！": "<attr><feel_happy_lv2><end_attr>I heard Mr. Maille came back safe and sound.\nI'm glad to hear that!"
+    "<attr><feel_happy_lv2><end_attr>「マイユさんが　無事に帰ってきたらしいな。\n　いやあ　よかったねえ！": 
+    "<attr><feel_happy_lv2><end_attr>I heard Mr. Maille came back safe and sound.\nI'm glad to hear that!"
   },
   "34382": {
-    "<attr><feel_angry_lv1><end_attr>「……なに？\n　あの白い光が　ジーガンフを正気に戻し\n　悪鬼ゾンガロンを　ふたたび封印しただと？\n<br>\n「なんという奇跡だ……！\n　きっと　ジーガンフの忠誠を見ていた\n　戦いの神が　彼を救ってくれたのだろうな！": "<attr><feel_angry_lv1><end_attr>What? That white light brought Jiganf back to\nhis senses and sealed Demon Zongalon once\nagain? What a miracle! I guess the gods of war\n<br>\nsaw Jiganf's loyalty and saved him!"
+    "<attr><feel_angry_lv1><end_attr>「……なに？\n　あの白い光が　ジーガンフを正気に戻し\n　悪鬼ゾンガロンを　ふたたび封印しただと？\n<br>\n「なんという奇跡だ……！\n　きっと　ジーガンフの忠誠を見ていた\n　戦いの神が　彼を救ってくれたのだろうな！": 
+    "<attr><feel_angry_lv1><end_attr>What? That white light brought Jiganf back to\nhis senses and sealed Demon Zongalon once\nagain? What a miracle! I guess the gods of war\n<br>\nsaw Jiganf's loyalty and saved him!"
   },
   "34383": {
-    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「村王たちが　そろって　帰ってきたんだ。\n　ジーガンフは　かなり疲れた様子だったな。": "This is Langao Village. It is the village of\nthe Ogres, who live in the extreme cold and\nstrenghten themselves severely. The village\n<br>\nkings have all returned. Jiganf looked very\ntired."
+    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「村王たちが　そろって　帰ってきたんだ。\n　ジーガンフは　かなり疲れた様子だったな。": 
+    "This is Rangao Village. It is the village of\nthe Ogres, who live in the extreme cold and\nstrengthen themselves severely. The village\n<br>\nkings have all returned. Jiganf looked very\ntired."
   },
   "34384": {
-    "<attr><feel_think_lv1><end_attr>「さっき　真っ白な光が　空から降ってきて\n　気づいたら　みんな　光の中にいたの。\n<br>\n「あたたかい光だったわ……。\n　あれは　なんだったんだろうって\n　ちょっとした騒ぎになったのよ。": "<attr><feel_think_lv1><end_attr>A true white light fell from the sky and we\nall found ourselves in the light. It was a\nwarm light. There was a bit of a commotion,\n<br>\nwondering what it was all about."
+    "<attr><feel_think_lv1><end_attr>「さっき　真っ白な光が　空から降ってきて\n　気づいたら　みんな　光の中にいたの。\n<br>\n「あたたかい光だったわ……。\n　あれは　なんだったんだろうって\n　ちょっとした騒ぎになったのよ。": 
+    "<attr><feel_think_lv1><end_attr>A true white light fell from the sky and we\nall found ourselves in the light. It was a\nwarm light. There was a bit of a commotion,\n<br>\nwondering what it was all about."
   },
   "34385": {
-    "「この先は　村の武闘場じゃよ。\n　ランガーオ村で生まれた者なら　誰でも\n　武闘場に　思い出があるのさ。": "Beyond this point is the Village Arena. Anyone\nwho was born in Langao Village has memories of\nthe fighting arena."
+    "「この先は　村の武闘場じゃよ。\n　ランガーオ村で生まれた者なら　誰でも\n　武闘場に　思い出があるのさ。": 
+    "Beyond this point is the Village Arena. Anyone\nwho was born in Rangao Village has memories of\nthe fighting arena."
   },
   "34386": {
-    "「ジーガンフの顔が　憑きものが落ちたように\n　おだやかだったねえ。\n　あの子のあんな表情は　ひさしぶりに見たよ。\n<br>\n「そういえば　村王が　<pc>を見かけたら\n　家に来るように　伝えてくれって。\n　お礼をしたいって言っていたよ。": "Jiganf's face was calm as if possessed. I\nhaven't seen that kind of expression on his\nface in a long time. By the way, the village\n<br>\nking asked me to tell <pc> to come to\nhis house if he sees him. He said he wanted to\nthank you."
+    "「ジーガンフの顔が　憑きものが落ちたように\n　おだやかだったねえ。\n　あの子のあんな表情は　ひさしぶりに見たよ。\n<br>\n「そういえば　村王が　<pc>を見かけたら\n　家に来るように　伝えてくれって。\n　お礼をしたいって言っていたよ。": 
+    "Jiganf's face was calm as if possessed. I\nhaven't seen that kind of expression on his\nface in a long time. By the way, the village\n<br>\nking asked me to tell <pc> to come to\nhis house if he sees him. He said he wanted to\nthank you."
   },
   "34387": {
-    "「空いっぱいに広がった　あの光は\n　いったい　なんだったんだろう？\n　あんな神々しい光景を見たのは　はじめてだよ。": "What in the world was that light that filled\nthe sky? I've never seen such a divine sight\nbefore."
+    "「空いっぱいに広がった　あの光は\n　いったい　なんだったんだろう？\n　あんな神々しい光景を見たのは　はじめてだよ。": 
+    "What in the world was that light that filled\nthe sky? I've never seen such a divine sight\nbefore."
   },
   "34388": {
-    "「おお　<pc>！\n　村王さまが　ぜひ　お礼をしたいとお待ちだ。\n　さあ　中に入るといい。": "Oh <pc>! The King of the Village is\nwaiting for you to pay his respects. Come,\ncome inside."
+    "「おお　<pc>！\n　村王さまが　ぜひ　お礼をしたいとお待ちだ。\n　さあ　中に入るといい。": 
+    "Oh <pc>! The King of the Village is\nwaiting for you to pay his respects. Come,\ncome inside."
   },
   "34389": {
-    "「村王が　アロルドを呼びもどしたのは\n　ふたりを戦わせ　マイユさまの結婚相手を\n　決めるためだったんだな！\n<br>\n「しかし　あのジーガンフが負けたとは\n　……その決闘　見たかったな。\n　きっと　歴史に残る　名勝負だっただろうに！": "I guess the reason the village king brought\nArold back was to have them fight and decide\nwho Maille would marry! But I didn't know that\n<br>\nJiganf lost. I wish I could have seen that\nduel. I wish I could have seen the duel. I'm\nsure it would have been a match that will go\n<br>\ndown in history!"
+    "「村王が　アロルドを呼びもどしたのは\n　ふたりを戦わせ　マイユさまの結婚相手を\n　決めるためだったんだな！\n<br>\n「しかし　あのジーガンフが負けたとは\n　……その決闘　見たかったな。\n　きっと　歴史に残る　名勝負だっただろうに！": 
+    "I guess the reason the village king brought\nArold back was to have them fight and decide\nwho Maille would marry! But I didn't know that\n<br>\nJiganf lost. I wish I could have seen that\nduel. I wish I could have seen the duel. I'm\nsure it would have been a match that will go\n<br>\ndown in history!"
   },
   "34390": {
-    "「この村では　毎年　武闘大会が開かれていて\n　圧倒的な強さを誇る　ジーガンフという男が\n　ずっと　チャンピオンに君臨していたんだ。\n<br>\n「誰もが　村王の娘マイユさまは　ジーガンフと\n　結婚すると思っていたが　村王に呼びもどされた\n　アロルドという若者が　ジーガンフを倒し……\n<br>\n「マイユさまは　アロルドの花嫁となって\n　ともに　旅立っていったのさ。\n　いやあ　なつかしいなあ……。": "In this village, a martial arts tournament is\nheld every year, and a man named Jiganf, who\nis overwhelmingly strong, has been the\n<br>\nreigning champion for a long time. Everyone\nthought that Maille, the daughter of the\nvillage king, would marry Jiganf, but a young\n<br>\nman named Arold, summoned by the village king,\ndefeated Jiganf and Maille became Arold's\nbride and left with him. Oh, my God, it was so\n<br>\nsweet."
+    "「この村では　毎年　武闘大会が開かれていて\n　圧倒的な強さを誇る　ジーガンフという男が\n　ずっと　チャンピオンに君臨していたんだ。\n<br>\n「誰もが　村王の娘マイユさまは　ジーガンフと\n　結婚すると思っていたが　村王に呼びもどされた\n　アロルドという若者が　ジーガンフを倒し……\n<br>\n「マイユさまは　アロルドの花嫁となって\n　ともに　旅立っていったのさ。\n　いやあ　なつかしいなあ……。": 
+    "In this village, a martial arts tournament is\nheld every year, and a man named Jiganf, who\nis overwhelmingly strong, has been the\n<br>\nreigning champion for a long time. Everyone\nthought that Maille, the daughter of the\nvillage king, would marry Jiganf, but a young\n<br>\nman named Arold, summoned by the village king,\ndefeated Jiganf and Maille became Arold's\nbride and left with him. Oh, my God, it was so\n<br>\nsweet."
   },
   "34391": {
-    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。\n<br>\n「アロルドと　マイユさん　そして\n　ジーガンフまで　村を出ていってしまった。\n　だが　みんな　いい顔してたよ。": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament. Arold,\nMr. Maille and even Jiganf have left the\n<br>\nvillage. But they all looked good."
+    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。\n<br>\n「アロルドと　マイユさん　そして\n　ジーガンフまで　村を出ていってしまった。\n　だが　みんな　いい顔してたよ。": 
+    "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament. Arold,\nMr. Maille and even Jiganf have left the\n<br>\nvillage. But they all looked good."
   },
   "34392": {
-    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament."
+    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。": 
+    "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament."
   },
   "34393": {
-    "<attr><feel_happy_lv1><end_attr>「お手柄だったな　<pc>！\n　マイユさまの幸せそうな笑顔が見られて\n　オレも　うれしかったよ。": "<attr><feel_happy_lv1><end_attr>Nice work <pc>! I was happy to see\nyour happy smile too."
+    "<attr><feel_happy_lv1><end_attr>「お手柄だったな　<pc>！\n　マイユさまの幸せそうな笑顔が見られて\n　オレも　うれしかったよ。": 
+    "<attr><feel_happy_lv1><end_attr>Nice work <pc>! I was happy to see\nyour happy smile too."
   },
   "34394": {
-    "「ここは　村王の娘　マイユさまのお部屋。\n　だが　マイユさまは　旅に出られたまま\n　ずっと　留守にしておられる。\n<br>\n「マイユさまが　旅の目的をはたし\n　お戻りになる　その日まで……\n　この部屋を守るのが　オレの使命だ！": "This is the room of Maille, the daughter of\nthe village king. However, Maille has been\naway on a journey for a long time. It is my\n<br>\nmission to protect this room until the day she\nreturns to fulfill the purpose of her journey!"
+    "「ここは　村王の娘　マイユさまのお部屋。\n　だが　マイユさまは　旅に出られたまま\n　ずっと　留守にしておられる。\n<br>\n「マイユさまが　旅の目的をはたし\n　お戻りになる　その日まで……\n　この部屋を守るのが　オレの使命だ！": 
+    "This is the room of Maille, the daughter of\nthe village king. However, Maille has been\naway on a journey for a long time. It is my\n<br>\nmission to protect this room until the day she\nreturns to fulfill the purpose of her journey!"
   },
   "34395": {
-    "<attr><feel_happy_lv1><end_attr>「おっす！　<pc>！\n　冒険の旅を　楽しむのもいいが\n　トレーニングもしろよ！": "<attr><feel_happy_lv1><end_attr>Ossssss! <pc>! Enjoy your adventures,\nbut get some training in!"
+    "<attr><feel_happy_lv1><end_attr>「おっす！　<pc>！\n　冒険の旅を　楽しむのもいいが\n　トレーニングもしろよ！": 
+    "<attr><feel_happy_lv1><end_attr>Ossssss! <pc>! Enjoy your adventures,\nbut get some training in!"
   },
   "36275": {
-    "<attr><feel_happy_lv1><end_attr>「おっす！　旅人さん！\n　冒険の旅を　楽しむのもいいが\n　トレーニングもしろよ！": "<attr><feel_happy_lv1><end_attr>Oh, yes! Traveler! Enjoy your adventurous\njourney, but do some training too!"
+    "<attr><feel_happy_lv1><end_attr>「おっす！　旅人さん！\n　冒険の旅を　楽しむのもいいが\n　トレーニングもしろよ！": 
+    "<attr><feel_happy_lv1><end_attr>Oh, yes! Traveler! Enjoy your adventurous\njourney, but do some training too!"
   },
   "36276": {
-    "<attr><feel_angry_lv1><end_attr>「オーガのチカラは　強い。\n　だからこそ　チカラに　おぼれるようなことが\n　あってはならんのだ！\n<br>\n「ワザや　身体だけでなく　心もきたえる！\n　それこそが　オーガの生き方であり\n　誇りなのだ！": "<attr><feel_angry_lv1><end_attr>Ogre's power is strong. That is why we must\nnot allow ourselves to be drowned by our\npower! We must not only strengthen our skills\n<br>\nand our bodies, but also our minds! That is\nthe Ogre way of life, and that is our pride!"
+    "<attr><feel_angry_lv1><end_attr>「オーガのチカラは　強い。\n　だからこそ　チカラに　おぼれるようなことが\n　あってはならんのだ！\n<br>\n「ワザや　身体だけでなく　心もきたえる！\n　それこそが　オーガの生き方であり\n　誇りなのだ！": 
+    "<attr><feel_angry_lv1><end_attr>Ogre's power is strong. That is why we must\nnot allow ourselves to be drowned by our\npower! We must not only strengthen our skills\n<br>\nand our bodies, but also our minds! That is\nthe Ogre way of life, and that is our pride!"
   },
   "34398": {
-    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「ここを出て　道なりに南へ行けば　獅子門だ。\n　その先にある　グレン城には\n　鉄道駅があるぞ。行ってみるといい。": "This is Langao Village. It is a village of\nOgres who put themselves in the extreme cold\nand strenuously strenghten themselves. If you\n<br>\nleave here and follow the road south, you will\nreach Lion Gate. There is a train station at\nGlen Castle. You should go there."
+    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「ここを出て　道なりに南へ行けば　獅子門だ。\n　その先にある　グレン城には\n　鉄道駅があるぞ。行ってみるといい。": 
+    "This is Rangao Village. It is a village of\nOgres who put themselves in the extreme cold\nand strenuously strengthen themselves. If you\n<br>\nleave here and follow the road south, you will\nreach Lion Gate. There is a train station at\nGlen Castle. You should go there."
   },
   "34399": {
-    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。": "This is Langao Village, a village of ogres who\nput themselves in extremely cold conditions\nand strenuously strenuous themselves."
+    "「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。": 
+    "This is Rangao Village, a village of ogres who\nput themselves in extremely cold conditions\nand strenuously strenuous themselves."
   },
   "34400": {
-    "「見てろよ！　母ちゃん！\n　オイラ　修行して　いつか絶対\n　チャンピオンになってみせるぜ！": "Watch it! I'm going to train and one day I'm\ngoing to be a champion! I'll train hard and\none day I'll be a champion!"
+    "「見てろよ！　母ちゃん！\n　オイラ　修行して　いつか絶対\n　チャンピオンになってみせるぜ！": 
+    "Watch it! I'm going to train and one day I'm\ngoing to be a champion! I'll train hard and\none day I'll be a champion!"
   },
   "34401": {
-    "「私たちオーガは　全身全霊をかけて勝負に臨む。\n　最高の技には　最高の技で応えるのが礼儀であり\n　手を抜くなどありえないことだ。\n<br>\n「だが　アロルドは　ジーガンフの弟分。\n　ジーガンフが　マイユさまを愛していると\n　知っていたから　戦えなかったのだろうな。": "We at Ogre put our whole heart and soul into\nour games. It is only polite to respond to the\nbest with the best, and there is no such thing\n<br>\nas cutting corners. But Arold is Jiganf's\nyounger brother. He knew that Jiganf loved\nMaille, so he couldn't fight."
+    "「私たちオーガは　全身全霊をかけて勝負に臨む。\n　最高の技には　最高の技で応えるのが礼儀であり\n　手を抜くなどありえないことだ。\n<br>\n「だが　アロルドは　ジーガンフの弟分。\n　ジーガンフが　マイユさまを愛していると\n　知っていたから　戦えなかったのだろうな。": 
+    "We at Ogre put our whole heart and soul into\nour games. It is only polite to respond to the\nbest with the best, and there is no such thing\n<br>\nas cutting corners. But Arold is Jiganf's\nyounger brother. He knew that Jiganf loved\nMaille, so he couldn't fight."
   },
   "34402": {
-    "<attr><feel_sad_lv2><end_attr>「マイユおねえちゃんね。\n　すっごく　うれしそうだったの。": "<attr><feel_sad_lv2><end_attr>Maille girl, right? She looked so happy."
+    "<attr><feel_sad_lv2><end_attr>「マイユおねえちゃんね。\n　すっごく　うれしそうだったの。": 
+    "<attr><feel_sad_lv2><end_attr>Maille girl, right? She looked so happy."
   },
   "34403": {
-    "「ジーガンフは　行ってしまったよ。\n　だけど　あんなに晴れ晴れとした\n　あの子の顔を見たのは　ひさしぶりだね。\n<br>\n「いつか　自分の不始末に　ケリをつける。\n　悪鬼ゾンガロンを倒すって　言ってたよ。": "Jiganf is gone. But it's been a while since\nI've seen her face so radiant. Someday, she'll\nclean up her own mess. She said she's going to\n<br>\ndefeat Demon Zongalon."
+    "「ジーガンフは　行ってしまったよ。\n　だけど　あんなに晴れ晴れとした\n　あの子の顔を見たのは　ひさしぶりだね。\n<br>\n「いつか　自分の不始末に　ケリをつける。\n　悪鬼ゾンガロンを倒すって　言ってたよ。": 
+    "Jiganf is gone. But it's been a while since\nI've seen her face so radiant. Someday, she'll\nclean up her own mess. She said she's going to\n<br>\ndefeat Demon Zongalon."
   },
   "34404": {
-    "「あたしの息子は　ジーガンフっていうんだ。\n　小さい頃から　ガンコで　負けず嫌いで\n　意地っぱりでね。\n<br>\n「だけど　たったひとりの　自慢の息子さ。\n　今は　悪鬼ゾンガロンっていう怪物を倒すために\n　修行の旅をしているんだよ。": "My son is called Jiganf. Ever since he was\nlittle, he's been stubborn, competitive, and\nmean. But he is my only son and I am proud of\n<br>\nhim. Now he is on a journey to defeat a\nmonster called Demon Zongalon."
+    "「あたしの息子は　ジーガンフっていうんだ。\n　小さい頃から　ガンコで　負けず嫌いで\n　意地っぱりでね。\n<br>\n「だけど　たったひとりの　自慢の息子さ。\n　今は　悪鬼ゾンガロンっていう怪物を倒すために\n　修行の旅をしているんだよ。": 
+    "My son is called Jiganf. Ever since he was\nlittle, he's been stubborn, competitive, and\nmean. But he is my only son and I am proud of\n<br>\nhim. Now he is on a journey to defeat a\nmonster called Demon Zongalon."
   },
   "34405": {
-    "「わしには　わかっておりましたとも。\n　マイユさまは　子供の頃から　ずーっと\n　優しいアロルドのことが　お好きだったんです。\n<br>\n「でも　チャンピオンと結婚するのが\n　いちばんの親孝行だからと\n　誰にも　本心を言えなかったんですよ。\n<br>\n「マイユさまと　アロルドさんが　一緒になれて\n　よかった！　これで　わしも　堂々と\n　ジーガンフさんを狙えますわい。ぽっ……<heart>": "I knew it. Since she was a child, Lady Maille\nhad always been fond of the gentle Arold. But\nshe couldn't tell anyone her true feelings\n<br>\nbecause she thought that marrying a champion\nwould be the best way to show her filial\npiety. I'm glad that Mr. Maille and Arold are\n<br>\nnow together! Now I can aim at Mr. Jiganf with\npride. Psst<heart>"
+    "「わしには　わかっておりましたとも。\n　マイユさまは　子供の頃から　ずーっと\n　優しいアロルドのことが　お好きだったんです。\n<br>\n「でも　チャンピオンと結婚するのが\n　いちばんの親孝行だからと\n　誰にも　本心を言えなかったんですよ。\n<br>\n「マイユさまと　アロルドさんが　一緒になれて\n　よかった！　これで　わしも　堂々と\n　ジーガンフさんを狙えますわい。ぽっ……<heart>": 
+    "I knew it. Since she was a child, Lady Maille\nhad always been fond of the gentle Arold. But\nshe couldn't tell anyone her true feelings\n<br>\nbecause she thought that marrying a champion\nwould be the best way to show her filial\npiety. I'm glad that Mr. Maille and Arold are\n<br>\nnow together! Now I can aim at Mr. Jiganf with\npride. Psst<heart>"
   },
   "34406": {
-    "「マイユさまは　村王の娘として\n　チャンピオンと結婚するのが　親孝行だと\n　思っていらっしゃったのです。\n<br>\n「お母さまを亡くされた後　たくさんの\n　愛情を注いで育ててくれた　お父さまに\n　心から　感謝しておられましたからね。\n<br>\n「でも　そのチャンピオンは　アロルドに敗北し\n　マイユさまは　晴れて　想い人アロルドと\n　一緒に　なれたのでございます。": "As the daughter of the village king, Maille\nthought it was her filial duty to marry the\nchampion. She was truly grateful to her father\n<br>\nfor raising her with so much love and\naffection after her mother's death. However,\nthe champion was defeated by Arold, and Maille\n<br>\nwas finally able to be with her beloved Arold."
+    "「マイユさまは　村王の娘として\n　チャンピオンと結婚するのが　親孝行だと\n　思っていらっしゃったのです。\n<br>\n「お母さまを亡くされた後　たくさんの\n　愛情を注いで育ててくれた　お父さまに\n　心から　感謝しておられましたからね。\n<br>\n「でも　そのチャンピオンは　アロルドに敗北し\n　マイユさまは　晴れて　想い人アロルドと\n　一緒に　なれたのでございます。": 
+    "As the daughter of the village king, Maille\nthought it was her filial duty to marry the\nchampion. She was truly grateful to her father\n<br>\nfor raising her with so much love and\naffection after her mother's death. However,\nthe champion was defeated by Arold, and Maille\n<br>\nwas finally able to be with her beloved Arold."
   },
   "36286": {
-    "<attr><feel_angry_lv1><end_attr>「ボクは　このプライベートルームで\n　日頃の疲れを　いやしているのだ。\n　用がないなら　早々に立ち去れい。": "<attr><feel_angry_lv1><end_attr>I'm here in my private room to unwind from the\ndaily grind. If you have nothing to do, leave\nas soon as possible."
+    "<attr><feel_angry_lv1><end_attr>「ボクは　このプライベートルームで\n　日頃の疲れを　いやしているのだ。\n　用がないなら　早々に立ち去れい。": 
+    "<attr><feel_angry_lv1><end_attr>I'm here in my private room to unwind from the\ndaily grind. If you have nothing to do, leave\nas soon as possible."
   },
   "34408": {
-    "「ジーガンフも　旅立ったそうだな。\n　何があったのか知らないけど\n　旅は　人を大きく成長させてくれる。\n<br>\n「ジーガンフもアロルドも\n　もっともっと　強くなるだろうな。": "I heard that Jiganf left too. I don't know\nwhat happened to him, but traveling makes you\ngrow up a lot. I'm sure Jiganf and Arold will\n<br>\ngrow stronger and stronger."
+    "「ジーガンフも　旅立ったそうだな。\n　何があったのか知らないけど\n　旅は　人を大きく成長させてくれる。\n<br>\n「ジーガンフもアロルドも\n　もっともっと　強くなるだろうな。": 
+    "I heard that Jiganf left too. I don't know\nwhat happened to him, but traveling makes you\ngrow up a lot. I'm sure Jiganf and Arold will\n<br>\ngrow stronger and stronger."
   },
   "34409": {
-    "「すこし前の　話なんだが\n　この村へ　修行にきていた若者が\n　いつの間にか　いなくなってたんだよな。\n<br>\n「キミを見ていたら　なぜだか\n　その若者のことを　思いだしたよ。\n　今頃　どうしているのかなあ。": "It was a while ago, but a young man who came\nto this village for training disappeared\nbefore I knew it. When I was looking at you,\n<br>\nfor some reason I remembered that young man. I\nwonder how he is doing now."
+    "「すこし前の　話なんだが\n　この村へ　修行にきていた若者が\n　いつの間にか　いなくなってたんだよな。\n<br>\n「キミを見ていたら　なぜだか\n　その若者のことを　思いだしたよ。\n　今頃　どうしているのかなあ。": 
+    "It was a while ago, but a young man who came\nto this village for training disappeared\nbefore I knew it. When I was looking at you,\n<br>\nfor some reason I remembered that young man. I\nwonder how he is doing now."
   },
   "34410": {
-    "「英雄の証キーエンブレムとは\n　町や城で　手柄を立てた者に与えられる勲章で\n　その名のとおり　カギの形をしていると聞く。\n<br>\n「南西のグレン城には　黒のキーエンブレム\n　はるか遠い南のガートラント城には\n　赤のキーエンブレムが　あるらしい。\n<br>\n「キーエンブレムを集めてゆけば\n　本当の　お前を知る者にも　会えるはずだ。\n　世界へ羽ばたけ　<pc>！　ガハハハ！": "The Key Emblem, a sign of heroism, is a medal\ngiven to those who have distinguished\nthemselves in a town or castle, and as the\n<br>\nname suggests, it is said to be in the shape\nof a key. There is a Black Key Emblem in Glen\nCastle in the southwest and a Red Key Emblem\n<br>\nin Gartland Castle in the far south. If you\ncollect the key emblems, you will meet someone\nwho knows the real you. Spread your wings to\n<br>\nthe world <pc>! Gahahahaha!"
+    "「英雄の証キーエンブレムとは\n　町や城で　手柄を立てた者に与えられる勲章で\n　その名のとおり　カギの形をしていると聞く。\n<br>\n「南西のグレン城には　黒のキーエンブレム\n　はるか遠い南のガートラント城には\n　赤のキーエンブレムが　あるらしい。\n<br>\n「キーエンブレムを集めてゆけば\n　本当の　お前を知る者にも　会えるはずだ。\n　世界へ羽ばたけ　<pc>！　ガハハハ！": 
+    "The Key Emblem, a sign of heroism, is a medal\ngiven to those who have distinguished\nthemselves in a town or castle, and as the\n<br>\nname suggests, it is said to be in the shape\nof a key. There is a Black Key Emblem in Glen\nCastle in the southwest and a Red Key Emblem\n<br>\nin Gartland Castle in the far south. If you\ncollect the key emblems, you will meet someone\nwho knows the real you. Spread your wings to\n<br>\nthe world <pc>! Gahahahaha!"
   },
   "34411": {
-    "「……旅の者か。\n　マイユから　この村で起きた事件のことを\n　聞いてきたのか？　くわしく聞きたいか？<yesno><break>": "Are you a traveler? Did Maille tell you about\nthe incident in this village? Would you like\nto hear more about it?<yesno><break>"
+    "「……旅の者か。\n　マイユから　この村で起きた事件のことを\n　聞いてきたのか？　くわしく聞きたいか？<yesno><break>": 
+    "Are you a traveler? Did Maille tell you about\nthe incident in this village? Would you like\nto hear more about it?<yesno><break>"
   },
   "34412": {
-    "「では　お前さんのチカラを見込んで\n　アロルドと　ジーガンフの間にあったことを\n　話してやろう……。\n<br>\n「武闘大会のチャンピオン　ジーガンフは\n　２年前の大会で　アロルドに勝ちをゆずられ\n　勝負を汚した　アロルドを憎んでいたんだ。\n<br>\n「無念を晴らすため　闇雲に強さを求めた\n　ジーガンフは　その心の弱さにつけこまれ\n　伝説の悪鬼ゾンガロンに操られ　暴走した。\n<br>\n「あるオーガの若者の活躍もあって\n　ジーガンフの暴走は　おさまり\n　悪鬼ゾンガロンも　ふたたび封印されたが……。\n<br>\n「いつか　悪鬼ゾンガロンとは\n　決着をつけねばならん。\n　その時は　チカラを貸してくれ！": "Now, in anticipation of your ability, I will\ntell you the story of what happened between\nArold and Jiganf. Jiganf, the champion of the\n<br>\ntournament, hated Arold for spoiling the\ntournament two years earlier when Arold had\ngiven up the victory to Jiganf. To avenge his\n<br>\nwrongdoing, Jiganf, seeking strength in the\ndark, was taken advantage of by the legendary\nDemon Zongalon, and went on a rampage. Thanks\n<br>\nto the efforts of a certain Ogre youth,\nJiganf's rampage was stopped and Demon\nZongalon was sealed away once again. One day,\n<br>\nDemon Zongalon will have to be dealt with.\nWhen that time comes, please lend me your\nhelp!"
+    "「では　お前さんのチカラを見込んで\n　アロルドと　ジーガンフの間にあったことを\n　話してやろう……。\n<br>\n「武闘大会のチャンピオン　ジーガンフは\n　２年前の大会で　アロルドに勝ちをゆずられ\n　勝負を汚した　アロルドを憎んでいたんだ。\n<br>\n「無念を晴らすため　闇雲に強さを求めた\n　ジーガンフは　その心の弱さにつけこまれ\n　伝説の悪鬼ゾンガロンに操られ　暴走した。\n<br>\n「あるオーガの若者の活躍もあって\n　ジーガンフの暴走は　おさまり\n　悪鬼ゾンガロンも　ふたたび封印されたが……。\n<br>\n「いつか　悪鬼ゾンガロンとは\n　決着をつけねばならん。\n　その時は　チカラを貸してくれ！": 
+    "Now, in anticipation of your ability, I will\ntell you the story of what happened between\nArold and Jiganf. Jiganf, the champion of the\n<br>\ntournament, hated Arold for spoiling the\ntournament two years earlier when Arold had\ngiven up the victory to Jiganf. To avenge his\n<br>\nwrongdoing, Jiganf, seeking strength in the\ndark, was taken advantage of by the legendary\nDemon Zongalon, and went on a rampage. Thanks\n<br>\nto the efforts of a certain Ogre youth,\nJiganf's rampage was stopped and Demon\nZongalon was sealed away once again. One day,\n<br>\nDemon Zongalon will have to be dealt with.\nWhen that time comes, please lend me your\nhelp!"
   },
   "34413": {
-    "「そうか……。\n　小さな村だが　ゆっくりしていくといい。": "Okay. It's a small village, but take your\ntime."
+    "「そうか……。\n　小さな村だが　ゆっくりしていくといい。": 
+    "Okay. It's a small village, but take your\ntime."
   },
   "34414": {
-    "<attr><feel_happy_lv2><end_attr>「マイユさまが　ひそかに思いを寄せていた\n　アロルドと　奇跡的に　結ばれたんですってね。\n　なんて　ロマンチックなの！\n<br>\n「それにしても　ジーガンフって　ステキよね～。\n　愛するマイユさまの幸せを\n　いちばんに考えるなんて　さすがだわ！": "<attr><feel_happy_lv2><end_attr>I heard that Maille-sama has miraculously tied\nthe knot with Arold, whom she had been\nsecretly attracted to. How romantic! Even so,\n<br>\nJiganf is wonderful, isn't he? To think of\nyour beloved Maille's happiness first and\nforemost, that's just as I expected!"
+    "<attr><feel_happy_lv2><end_attr>「マイユさまが　ひそかに思いを寄せていた\n　アロルドと　奇跡的に　結ばれたんですってね。\n　なんて　ロマンチックなの！\n<br>\n「それにしても　ジーガンフって　ステキよね～。\n　愛するマイユさまの幸せを\n　いちばんに考えるなんて　さすがだわ！": 
+    "<attr><feel_happy_lv2><end_attr>I heard that Maille-sama has miraculously tied\nthe knot with Arold, whom she had been\nsecretly attracted to. How romantic! Even so,\n<br>\nJiganf is wonderful, isn't he? To think of\nyour beloved Maille's happiness first and\nforemost, that's just as I expected!"
   },
   "34415": {
-    "<attr><feel_happy_lv2><end_attr>「この村には　村王の娘マイユさまと\n　兄貴分のジーガンフ　弟分のアロルドっていう\n　仲のいい　幼なじみがいたの。\n<br>\n「でも　ジーガンフも　アロルドも\n　マイユさまのことが　好きだったみたいでね。\n　それはもう　いろいろ　あったんだけど……\n<br>\n「結局　マイユさまが　ひそかに思いを寄せていた\n　アロルドと　奇跡的に　結ばれたのよ！\n　なんて　ロマンチックなの！\n<br>\n「でもね　ジーガンフも　オトコを見せたのよ～。\n　愛するマイユさまの幸せを\n　いちばんに考えて　身を引いたんだもの！": "<attr><feel_happy_lv2><end_attr>In this village, there were two good childhood\nfriends, Maille, the daughter of the village\nking, and Jiganf, her brother, and Arold, her\n<br>\nyounger brother. But both Jiganf and Arold\nseemed to like Maille. There were many things\nthat happened, but in the end, Lady Maille was\n<br>\nmiraculously united with Arold, whom she had\nsecretly had a crush on! How romantic! But you\nknow what, Jiganf showed his true colors too!\n<br>\nHe put his beloved Maille's happiness first\nand stepped aside!"
+    "<attr><feel_happy_lv2><end_attr>「この村には　村王の娘マイユさまと\n　兄貴分のジーガンフ　弟分のアロルドっていう\n　仲のいい　幼なじみがいたの。\n<br>\n「でも　ジーガンフも　アロルドも\n　マイユさまのことが　好きだったみたいでね。\n　それはもう　いろいろ　あったんだけど……\n<br>\n「結局　マイユさまが　ひそかに思いを寄せていた\n　アロルドと　奇跡的に　結ばれたのよ！\n　なんて　ロマンチックなの！\n<br>\n「でもね　ジーガンフも　オトコを見せたのよ～。\n　愛するマイユさまの幸せを\n　いちばんに考えて　身を引いたんだもの！": 
+    "<attr><feel_happy_lv2><end_attr>In this village, there were two good childhood\nfriends, Maille, the daughter of the village\nking, and Jiganf, her brother, and Arold, her\n<br>\nyounger brother. But both Jiganf and Arold\nseemed to like Maille. There were many things\nthat happened, but in the end, Lady Maille was\n<br>\nmiraculously united with Arold, whom she had\nsecretly had a crush on! How romantic! But you\nknow what, Jiganf showed his true colors too!\n<br>\nHe put his beloved Maille's happiness first\nand stepped aside!"
   },
   "47407": {
-    "「北の果てにある　こんな村にも　旅人さんが\n　よく　いらっしゃるようになりましたわ。\n　少し前まで　ここは　オーガばかりでしたのよ。": "We are getting a lot of travelers to this\nvillage in the far north. Not so long ago,\nthis place was full of Ogre."
+    "「北の果てにある　こんな村にも　旅人さんが\n　よく　いらっしゃるようになりましたわ。\n　少し前まで　ここは　オーガばかりでしたのよ。": 
+    "We are getting a lot of travelers to this\nvillage in the far north. Not so long ago,\nthis place was full of Ogre."
   },
   "36588": {
-    "<attr><feel_sad_lv1><end_attr>「さみしくなるわね。\n　でも　いつでも泊まりにきてね　<pc>。<bw_break>": "<attr><feel_sad_lv1><end_attr>I will miss you. But come stay with us anytime\n<pc>.<bw_break>"
+    "<attr><feel_sad_lv1><end_attr>「さみしくなるわね。\n　でも　いつでも泊まりにきてね　<pc>。<bw_break>": 
+    "<attr><feel_sad_lv1><end_attr>I will miss you. But come stay with us anytime\n<pc>.<bw_break>"
   },
   "34417": {
-    "<attr><feel_happy_lv1><end_attr>「この先は　村の武闘場じゃよ。\n　毎年　武闘大会が行われる　神聖な場所であり\n　村の子供たちが　修行を始める場所でもある。\n<br>\n「武闘場には　この村の者たちの思い出が\n　たくさん　つまっておるんじゃよ。": "<attr><feel_happy_lv1><end_attr>Just beyond is the Village Arena. It is a\nsacred place where martial arts tournaments\nare held every year and where the children of\n<br>\nthe village begin their training. The arena\nholds many memories for the people of this\nvillage."
+    "<attr><feel_happy_lv1><end_attr>「この先は　村の武闘場じゃよ。\n　毎年　武闘大会が行われる　神聖な場所であり\n　村の子供たちが　修行を始める場所でもある。\n<br>\n「武闘場には　この村の者たちの思い出が\n　たくさん　つまっておるんじゃよ。": 
+    "<attr><feel_happy_lv1><end_attr>Just beyond is the Village Arena. It is a\nsacred place where martial arts tournaments\nare held every year and where the children of\n<br>\nthe village begin their training. The arena\nholds many memories for the people of this\nvillage."
   },
   "34418": {
-    "<attr><feel_happy_lv1><end_attr>「すべてが　自然な形に　おさまったようだね。\n　<pc>の　おかげなんだろう？\n　その一人前の証を見れば　わかるさ。\n<br>\n「それをもらうために　この村に来て\n　修行してたんだもんね。\n　ついに　手柄を立てたんだねえ！　おめでとう！\n<br>\n「ランガーオ村を　出ていっても\n　たまには　あたしたちのことを思いだして\n　遊びにきておくれよ！": "<attr><feel_happy_lv1><end_attr>Everything seems to have settled into its\nnatural form. Thanks to <pc>, right?\nI can tell by the Proof of Adulthood. That's\n<br>\nwhat you came to this village to train for.\nYou finally got the credit! Congratulations!\nEven if you leave Langao Village, please come\n<br>\nback and visit us once in a while!"
+    "<attr><feel_happy_lv1><end_attr>「すべてが　自然な形に　おさまったようだね。\n　<pc>の　おかげなんだろう？\n　その一人前の証を見れば　わかるさ。\n<br>\n「それをもらうために　この村に来て\n　修行してたんだもんね。\n　ついに　手柄を立てたんだねえ！　おめでとう！\n<br>\n「ランガーオ村を　出ていっても\n　たまには　あたしたちのことを思いだして\n　遊びにきておくれよ！": 
+    "<attr><feel_happy_lv1><end_attr>Everything seems to have settled into its\nnatural form. Thanks to <pc>, right?\nI can tell by the Proof of Adulthood. That's\n<br>\nwhat you came to this village to train for.\nYou finally got the credit! Congratulations!\nEven if you leave Rangao Village, please come\n<br>\nback and visit us once in a while!"
   },
   "34419": {
-    "<attr><feel_happy_lv1><end_attr>「こんな　へんぴな村まで　よく来たねえ。\n　ぜひ　村王クリフゲーンにも　会っておゆき。\n　村王の家は　防具屋の横の橋を　渡った先だよ。": "<attr><feel_happy_lv1><end_attr>I'm surprised you came all the way to this\nremote village. Please come and meet Chief\nCliffgain. Chief's house is across the bridge\n<br>\nnext to the Armor Shop."
+    "<attr><feel_happy_lv1><end_attr>「こんな　へんぴな村まで　よく来たねえ。\n　ぜひ　村王クリフゲーンにも　会っておゆき。\n　村王の家は　防具屋の横の橋を　渡った先だよ。": 
+    "<attr><feel_happy_lv1><end_attr>I'm surprised you came all the way to this\nremote village. Please come and meet Chief\nCliffgain. Chief's house is across the bridge\n<br>\nnext to the Armor Shop."
   },
   "34420": {
-    "「<pc>も　この村で生まれた者だったら\n　武闘大会に出られたのに……。\n　お前の戦いぶりを　見てみたかったよ。": "If only <pc> had been born in this\nvillage, he could have participated in the\nmartial arts tournament. I wish I could have\n<br>\nseen you fight."
+    "「<pc>も　この村で生まれた者だったら\n　武闘大会に出られたのに……。\n　お前の戦いぶりを　見てみたかったよ。": 
+    "If only <pc> had been born in this\nvillage, he could have participated in the\nmartial arts tournament. I wish I could have\n<br>\nseen you fight."
   },
   "34422": {
-    "<attr><feel_sad_lv1><end_attr>「ジーガンフさん　大丈夫かな……。\n　彼は　マイユさんを　とても大切にしていたわ。\n　はたから見ても　よくわかるくらいにね。\n<br>\n「あ～ん　私が　ジーガンフさんの心を\n　いやしてあげたい～<heart>": "<attr><feel_sad_lv1><end_attr>I hope Mr. Jiganf is okay. He was very\nprotective of Ms. Maille. I can see that from\nthe outside. I wish I could soothe Mr.\n<br>\nJiganf's heart."
+    "<attr><feel_sad_lv1><end_attr>「ジーガンフさん　大丈夫かな……。\n　彼は　マイユさんを　とても大切にしていたわ。\n　はたから見ても　よくわかるくらいにね。\n<br>\n「あ～ん　私が　ジーガンフさんの心を\n　いやしてあげたい～<heart>": 
+    "<attr><feel_sad_lv1><end_attr>I hope Mr. Jiganf is okay. He was very\nprotective of Ms. Maille. I can see that from\nthe outside. I wish I could soothe Mr.\n<br>\nJiganf's heart."
   },
   "34423": {
-    "「この村では　毎年　武闘大会が行われているの。\n　５年連続　チャンピオンになった\n　ジーガンフさんは　今頃　どこかを旅してるわ。": "There is a martial arts tournament held every\nyear in this village. Jiganf, the champion\nfive years in a row, is traveling somewhere\n<br>\nright now."
+    "「この村では　毎年　武闘大会が行われているの。\n　５年連続　チャンピオンになった\n　ジーガンフさんは　今頃　どこかを旅してるわ。": 
+    "There is a martial arts tournament held every\nyear in this village. Jiganf, the champion\nfive years in a row, is traveling somewhere\n<br>\nright now."
   },
   "34424": {
-    "「ここは　村王さまの　お部屋。\n　<pc>になら　村王さまは\n　いつでも　お会いになるだろう。": "This is the room of the Village King. The\nVillage King will meet <pc> whenever\nhe wants to."
+    "「ここは　村王さまの　お部屋。\n　<pc>になら　村王さまは\n　いつでも　お会いになるだろう。": 
+    "This is the Village King's room. If it's you,\n<pc>, the Village King is sure to always meet\nwith you whenever."
   },
   "36298": {
-    "「ここは　村王さまの部屋。\n　村王さまは　過去の武闘大会で　いく度も\n　チャンピオンになられた　お方なのだ。": "This is the room of the Village King. The\nVillage King is a man who has won many\nchampions in past martial arts tournaments."
+    "「ここは　村王さまの部屋。\n　村王さまは　過去の武闘大会で　いく度も\n　チャンピオンになられた　お方なのだ。": 
+    "This is the Village King's room. The\nVillage King is a man who has won many\nchampions in past martial arts tournaments."
   },
   "34426": {
-    "「オレたち　オーガという種族は\n　極限まで強さを極めようと　命を燃やす！\n　強さは　大切なものを守るために必要だからな。": "We, the races called Ogre, burn our lives to\nthe utmost limit of strength! Strength is\nnecessary to protect what is important."
+    "「オレたち　オーガという種族は\n　極限まで強さを極めようと　命を燃やす！\n　強さは　大切なものを守るために必要だからな。": 
+    "We, the races called Ogre, burn our lives to\nthe utmost limit of strength! Strength is\nnecessary to protect what is important."
   },
   "34427": {
-    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。\n<br>\n「よう　<pc>！　元気でやってるか？": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament. Hey\n<pc>! How are you doing?"
+    "「ここは　武闘大会の名誉チャンピオン\n　村王クリフゲーンさまの　お住まいだ。\n<br>\n「よう　<pc>！　元気でやってるか？": 
+    "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament. Hey\n<pc>! How are you doing?"
   },
   "34428": {
-    "<attr><feel_happy_lv1><end_attr>「<pc>　元気だったか？\n　マイユさまの部屋は　オレが守る！\n　お前は　安心して　旅を続けてくれ。": "<attr><feel_happy_lv1><end_attr><pc> How are you? I'll take care of\nMaille's room! I'll take care of Maille's\nroom!"
+    "<attr><feel_happy_lv1><end_attr>「<pc>　元気だったか？\n　マイユさまの部屋は　オレが守る！\n　お前は　安心して　旅を続けてくれ。": 
+    "<attr><feel_happy_lv1><end_attr><pc>, how've you been? I'll guard Lady Maiyu's\nroom! You can rest assured of that while you continue\non your journey."
   },
   "34429": {
-    "<attr><feel_happy_lv1><end_attr>「どっひゃ～！　<pc>！\n　キーエンブレムを　もらうまでになったのかい？\n　ちゃんと　トレーニングしてるんだなあ！": "<attr><feel_happy_lv1><end_attr>Dooooooooooooooooooooooooooooooooooooooooooooo\noooooooo! <pc>! You've even gotten a\nkey emblem? You've been training hard, huh?"
+    "<attr><feel_happy_lv1><end_attr>「どっひゃ～！　<pc>！\n　キーエンブレムを　もらうまでになったのかい？\n　ちゃんと　トレーニングしてるんだなあ！": 
+    "<attr><feel_happy_lv1><end_attr>Dooooooooooooooooooooooooooooooooooooooooooooo\noooooooo! <pc>! You've even gotten a\nkey emblem? You've been training hard, huh?"
   },
   "34430": {
-    "<if_hum>「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「おお　<pc>　ひさしぶりだな！\n　なに？　人間になった？\n<br>\n「ええと……　前から　そうだったよな？<else>「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「おお　<pc>　ひさしぶりだな！\n　村を離れた者が　こうして戻ってきてくれるのは\n　うれしいもんだ。ゆっくりしていってくれ！<endif>": "<if_hum>This is Langao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strenghten themselves. Oh\n<br>\n<pc> It's been a while! What? Have\nyou become a human? Well, you were like that\nbefore, weren't you?<else>This is Langao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strenghten themselves. Oh\n<br>\n<pc> It's been a long time! It's nice\nto see someone who left the village come back\nlike this. Please take your time!<endif>"
+    "<if_hum>「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「おお　<pc>　ひさしぶりだな！\n　なに？　人間になった？\n<br>\n「ええと……　前から　そうだったよな？<else>「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「おお　<pc>　ひさしぶりだな！\n　村を離れた者が　こうして戻ってきてくれるのは\n　うれしいもんだ。ゆっくりしていってくれ！<endif>": 
+    "<if_hum>This is Rangao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strengthen themselves.\n<br>\nOh,<pc> It's been a while! What? Have\nyou become a human? Well, you were like that\nbefore, weren't you?<else>This is Rangao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strengthen themselves.\n<br>\nOh,<pc> It's been a long time! It's nice\nto see someone who left the village come back\nlike this. Please take your time!<endif>"
   },
   "34432": {
-    "「マイユさまが旅立たれた直後の　村王は\n　とても　さびしそうな　ご様子だったが\n　今は　もう元気を　取りもどされたようだ。\n<br>\n「こんな短期間で　気持ちの整理をつけるとは\n　さすが　村王だ！": "The Village King seemed to be very sad right\nafter the departure of the Mailed Lady, but\nnow he seems to have regained his strength. He\n<br>\nis indeed a village king, to have gotten his\nfeelings in such a short period of time!"
+    "「マイユさまが旅立たれた直後の　村王は\n　とても　さびしそうな　ご様子だったが\n　今は　もう元気を　取りもどされたようだ。\n<br>\n「こんな短期間で　気持ちの整理をつけるとは\n　さすが　村王だ！": 
+    "The Village King seemed to be very sad right\nafter the departure of the Mailed Lady, but\nnow he seems to have regained his strength. He\n<br>\nis indeed a village king, to have gotten his\nfeelings in such a short period of time!"
   },
   "34433": {
-    "<attr><feel_happy_lv1><end_attr>「がんばって　魔物を倒しても　それだけじゃ\n　なかなか　お金が貯まらないでしょ？\n<br>\n「お金かせぎのコツは　今すぐ必要じゃない物は\n　取っておかずに　どんどん\n　お店に売って　お金に換えちゃうことだ！\n<br>\n「……って　お父さんが言ってたよ！": "<attr><feel_happy_lv1><end_attr>Even if you kill monsters as hard as you can,\nit's not enough to save money, right? The\ntrick to earning money is not to keep things\n<br>\nyou don't need right now, but to sell them to\nthe stores and make money! That's what my\nfather said!"
+    "<attr><feel_happy_lv1><end_attr>「がんばって　魔物を倒しても　それだけじゃ\n　なかなか　お金が貯まらないでしょ？\n<br>\n「お金かせぎのコツは　今すぐ必要じゃない物は\n　取っておかずに　どんどん\n　お店に売って　お金に換えちゃうことだ！\n<br>\n「……って　お父さんが言ってたよ！": 
+    "<attr><feel_happy_lv1><end_attr>Even if you kill monsters as hard as you can,\nit's not enough to save money, right? The\ntrick to earning money is not to keep things\n<br>\nyou don't need right now, but to sell them to\nthe stores and make money! That's what my\nfather said!"
   },
   "34434": {
-    "「ジーガンフは　あれから\n　一度も　帰ってきていないよ。\n<br>\n「いつか　自分の不始末に　ケリをつける。\n　悪鬼ゾンガロンを倒すって言ってたからね。\n　あたしは　あの子を信じて　待っているのさ。": "Jiganf hasn't been back since. One day, he'll\nclean up his mess. He said he was going to\ntake down Demon Zongalon. I'm waiting for him."
+    "「ジーガンフは　あれから\n　一度も　帰ってきていないよ。\n<br>\n「いつか　自分の不始末に　ケリをつける。\n　悪鬼ゾンガロンを倒すって言ってたからね。\n　あたしは　あの子を信じて　待っているのさ。": 
+    "Jiganf hasn't been back since. One day, he'll\nclean up his mess. He said he was going to\ntake down Demon Zongalon. I'm waiting for him."
   },
   "34435": {
-    "「家に　お戻りにならないということは\n　マイユさまは　意味のある旅を\n　続けていらっしゃるんじゃな。\n<br>\n「あとは　ジーガンフさんが\n　帰ってきてくれれば　わしは……。\n　ぽっ……<heart>": "I think that if he is not back home, Mr.\nMaille is on a meaningful journey. Now all I\nneed is for Mr. Jiganf to come home. Psst!"
+    "「家に　お戻りにならないということは\n　マイユさまは　意味のある旅を\n　続けていらっしゃるんじゃな。\n<br>\n「あとは　ジーガンフさんが\n　帰ってきてくれれば　わしは……。\n　ぽっ……<heart>": 
+    "Since you haven't returned home yet, Lady Maiyu, that\nmust mean you're continuing on with an important\njourney, doesn't it.\n<br>\nNow if I could just get Jiganf to come back home to\nme... Pooh...<heart>"
   },
   "34436": {
-    "「キミは　前に　この村にいた若者じゃないか。\n　ふむ……　ずいぶん　チカラをつけたようだな。\n　やはり　旅は　人を大きく成長させるな。": "You are the young man who used to live in this\nvillage. Well, you seem to have gained a lot\nof strength. After all, traveling makes a\n<br>\nperson grow up a lot."
+    "「キミは　前に　この村にいた若者じゃないか。\n　ふむ……　ずいぶん　チカラをつけたようだな。\n　やはり　旅は　人を大きく成長させるな。": 
+    "You are the young man who used to live in this\nvillage. Well, you seem to have gained a lot\nof strength. After all, traveling makes a\n<br>\nperson grow up a lot."
   },
   "34437": {
-    "<if_hum><attr><feel_think_lv1><end_attr>「<pc>か？\n　ずいぶん　見ちがえたぞ。たくましくなって！\n　……なに？　人間の姿を取りもどした？\n<br>\n「う～む……。わしには\n　いつもと同じ　<pc>にしか見えんが\n　その姿が　人間だと言うのか。\n<br>\n「ガハハ！　よく　わからない冗談だな。\n　プクランド大陸の　プクレットの村へ行って\n　笑いの修行もしたほうが　いいんじゃないか？<else>「よく帰ってきてくれた　<pc>。\n　もう　キーエンブレムを　もらい受けているとは\n　めざましい　成長っぷりだな！　ガハハハ！\n<br>\n「この村のことなら　心配ないぞ。\n　悪鬼ゾンガロンの封印の様子も　今まで以上に\n　こまめに　確認しにいっているしな。\n<br>\n「だが　ヤツのチカラは　すさまじい。\n　いつか　決着をつけねばならん時が来る……！\n　そんな気がするんだ。<endif>": "<if_hum><attr><feel_think_lv1><end_attr><pc>? You look so different. You've\ngrown up! What? Have you regained your human\nform? Hmmm. I see the same <pc> as\n<br>\nalways, but you call that figure human?\nGahaha! I don't understand the joke. Maybe you\nshould go to Pukulet Village in Pukuland\n<br>\nContinent and learn how to laugh.<else>Welcome back <pc>. You've already\nreceived the key emblem, that's a remarkable\ngrowth! Gahahahaha! Don't worry about this\n<br>\nvillage. I've been checking on Demon\nZongalon's seal more frequently than ever. But\nhis power is tremendous. There will come a\n<br>\ntime when we will have to settle this! I have\na feeling that's coming.<endif>"
+    "<if_hum><attr><feel_think_lv1><end_attr>「<pc>か？\n　ずいぶん　見ちがえたぞ。たくましくなって！\n　……なに？　人間の姿を取りもどした？\n<br>\n「う～む……。わしには\n　いつもと同じ　<pc>にしか見えんが\n　その姿が　人間だと言うのか。\n<br>\n「ガハハ！　よく　わからない冗談だな。\n　プクランド大陸の　プクレットの村へ行って\n　笑いの修行もしたほうが　いいんじゃないか？<else>「よく帰ってきてくれた　<pc>。\n　もう　キーエンブレムを　もらい受けているとは\n　めざましい　成長っぷりだな！　ガハハハ！\n<br>\n「この村のことなら　心配ないぞ。\n　悪鬼ゾンガロンの封印の様子も　今まで以上に\n　こまめに　確認しにいっているしな。\n<br>\n「だが　ヤツのチカラは　すさまじい。\n　いつか　決着をつけねばならん時が来る……！\n　そんな気がするんだ。<endif>": 
+    "<if_hum><attr><feel_think_lv1><end_attr><pc>? You look so different. You've\ngrown up! What? Have you regained your human\nform? Hmmm. I see the same <pc> as\n<br>\nalways, but you call that figure human?\nGahaha! I don't understand the joke. Maybe you\nshould go to Pukulet Village in Pukuland\n<br>\nContinent and learn how to laugh.<else>Welcome back <pc>. You've already\nreceived the key emblem, that's a remarkable\ngrowth! Gahahahaha! Don't worry about this\n<br>\nvillage. I've been checking on Demon\nZongalon's seal more frequently than ever. But\nhis power is tremendous. There will come a\n<br>\ntime when we will have to settle this! I have\na feeling that's coming.<endif>"
   },
   "34439": {
-    "<attr><feel_happy_lv2><end_attr>「あら　<pc>　ひさしぶり～！\n　この村にも　いろんな大陸から\n　旅の人が来るようになったのよ。": "<attr><feel_happy_lv2><end_attr>Hello <pc> It's been a while! We've\nhad travelers from many continents come to our\nvillage."
+    "<attr><feel_happy_lv2><end_attr>「あら　<pc>　ひさしぶり～！\n　この村にも　いろんな大陸から\n　旅の人が来るようになったのよ。": 
+    "<attr><feel_happy_lv2><end_attr>Hello <pc> It's been a while! We've\nhad travelers from many continents come to our\nvillage."
   },
   "34440": {
-    "<if_hum><attr><feel_think_lv1><end_attr>「おや　<pc>。\n　なんだって？　人間になった？\n<br>\n「ええと……。あたしには　いつもの\n　<pc>にしか見えないけどねえ。\n　町じゃ　そういう冗談が　はやっているのかい？<else><attr><feel_happy_lv1><end_attr>「<pc>　おかえり。\n　のんびりしていきな。\n　ここは　あんたの故郷なんだからね。<endif>": "<if_hum><attr><feel_think_lv1><end_attr>Oh <pc>. Excuse me? Did you become a\nHUMAN? Well... You look like your usual\n<pc> to me. Is that kind of joke\n<br>\ngoing around town?<else><attr><feel_happy_lv1><end_attr><pc> Welcome back. Take it easy. This\nis your hometown.<endif>"
+    "<if_hum><attr><feel_think_lv1><end_attr>「おや　<pc>。\n　なんだって？　人間になった？\n<br>\n「ええと……。あたしには　いつもの\n　<pc>にしか見えないけどねえ。\n　町じゃ　そういう冗談が　はやっているのかい？<else><attr><feel_happy_lv1><end_attr>「<pc>　おかえり。\n　のんびりしていきな。\n　ここは　あんたの故郷なんだからね。<endif>": 
+    "<if_hum><attr><feel_think_lv1><end_attr>Oh <pc>. Excuse me? Did you become a\nHUMAN? Well... You look like your usual\n<pc> to me. Is that kind of joke\n<br>\ngoing around town?<else><attr><feel_happy_lv1><end_attr><pc> Welcome back. Take it easy. This\nis your hometown.<endif>"
   },
   "34442": {
-    "<attr><feel_sad_lv1><end_attr>「ジーガンフさんは　今頃\n　どこを旅しているのかな……。\n　ああっ　ジーガンフさんを追っていきたい<heart>": "<attr><feel_sad_lv1><end_attr>I wonder where Jiganf-san is traveling now.\nOh, I want to follow Mr. Jiganf<heart>."
+    "<attr><feel_sad_lv1><end_attr>「ジーガンフさんは　今頃\n　どこを旅しているのかな……。\n　ああっ　ジーガンフさんを追っていきたい<heart>": 
+    "<attr><feel_sad_lv1><end_attr>I wonder where Jiganf-san is traveling now.\nOh, I want to follow Mr. Jiganf<heart>."
   },
   "34443": {
-    "<attr><feel_happy_lv1><end_attr>「どっひゃ～！　<pc>！\n　世界を救っちまったって　すごいじゃないか。\n　ちゃんと　トレーニングしてるんだなあ！": "<attr><feel_happy_lv1><end_attr>Dooooooooooooooooooooooooooooooooooooooooooooo\noooooooo! <pc>! You saved the world,\nisn't that great? You must be training well!"
+    "<attr><feel_happy_lv1><end_attr>「どっひゃ～！　<pc>！\n　世界を救っちまったって　すごいじゃないか。\n　ちゃんと　トレーニングしてるんだなあ！": 
+    "<attr><feel_happy_lv1><end_attr>Dooooooooooooooooooooooooooooooooooooooooooooo\noooooooo! <pc>! You saved the world,\nisn't that great? You must be training well!"
   },
   "37707": {
-    "<if_hum>「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「おお　<pc>　ひさしぶりだな！\n　なに？　人間になった？\n<br>\n「ええと……　前から　そうだったよな？<else>「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「<pc>！　ウワサは聞いたぞ！\n　なんか　デカイことを　やりとげたんだってな！<endif>": "<if_hum>This is Langao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strenghten themselves. Oh\n<br>\n<pc> It's been a while! What? Have\nyou become a human? Well, you were like that\nbefore, weren't you?<else>This is Langao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strenghten themselves.\n<br>\n<pc>! I heard rumors! I heard they\naccomplished something big!<endif>"
+    "<if_hum>「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「おお　<pc>　ひさしぶりだな！\n　なに？　人間になった？\n<br>\n「ええと……　前から　そうだったよな？<else>「ここは　ランガーオ村。\n　極寒の地に身を置き　自らを\n　厳しく　きたえあげる　オーガたちの村だ。\n<br>\n「<pc>！　ウワサは聞いたぞ！\n　なんか　デカイことを　やりとげたんだってな！<endif>": 
+    "<if_hum>This is Rangao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strengthen themselves.\n<br>\nOh,<pc> It's been a while! What? Have\nyou become a human? Well, you were like that\nbefore, weren't you?<else>This is Rangao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strengthen themselves.\n<br>\n<pc>! I heard rumors! I heard they\naccomplished something big!<endif>"
   },
   "34445": {
-    "「マイユさまも　アロルドも\n　まだまだ　帰ってくるつもりはない　と。\n　<pc>の旅も　続きそうだな。\n<br>\n「だが　ひとつの区切りは　ついたのだろう？\n　ゆっくりと　今は　休むといい。": "Maille and Arold have no intention of coming\nback just yet. It seems that <pc>'s\njourney will continue. But you've reached a\n<br>\npoint of closure, haven't you? Take your time\nand rest now."
+    "「マイユさまも　アロルドも\n　まだまだ　帰ってくるつもりはない　と。\n　<pc>の旅も　続きそうだな。\n<br>\n「だが　ひとつの区切りは　ついたのだろう？\n　ゆっくりと　今は　休むといい。": 
+    "Maille and Arold have no intention of coming\nback just yet. It seems that <pc>'s\njourney will continue. But you've reached a\n<br>\npoint of closure, haven't you? Take your time\nand rest now."
   },
   "34446": {
-    "<attr><feel_think_lv1><end_attr>「どうも信じられないが　ウワサによると\n　キミは　世界を救おうとしてるとか……？<yesno><break>": "<attr><feel_think_lv1><end_attr>I don't believe it, but I've heard rumors that\nyou're trying to save the world.<yesno><break>"
+    "<attr><feel_think_lv1><end_attr>「どうも信じられないが　ウワサによると\n　キミは　世界を救おうとしてるとか……？<yesno><break>": 
+    "<attr><feel_think_lv1><end_attr>I don't believe it, but I've heard rumors that\nyou're trying to save the world.<yesno><break>"
   },
   "34447": {
-    "<attr><feel_normal_lv1><end_attr>「そうか。\n　こういう時代だから　キミのようなヤツらが\n　増えるんだよな。\n<br>\n「まあ　がんばりたまえ。": "<attr><feel_normal_lv1><end_attr>I see. It's times like these that make people\nlike you increase. Well, good luck."
+    "<attr><feel_normal_lv1><end_attr>「そうか。\n　こういう時代だから　キミのようなヤツらが\n　増えるんだよな。\n<br>\n「まあ　がんばりたまえ。": 
+    "<attr><feel_normal_lv1><end_attr>I see. It's times like these that make people\nlike you increase. Well, good luck."
   },
   "34448": {
-    "<attr><feel_normal_lv1><end_attr>「なに？　もう　世界を救ったって！？\n　……この村で修行した者は　大成すると言うが\n　まさか　そこまでは！\n<br>\n「はっはっはっ！\n　冗談がうまくなったな　<pc>！": "<attr><feel_normal_lv1><end_attr>What? You've already saved the world? They say\nthat those who train in this village will\nbecome great, but I never thought it would go\n<br>\nthat far! Ha-ha-ha! Your jokes are getting\nbetter <pc>!"
+    "<attr><feel_normal_lv1><end_attr>「なに？　もう　世界を救ったって！？\n　……この村で修行した者は　大成すると言うが\n　まさか　そこまでは！\n<br>\n「はっはっはっ！\n　冗談がうまくなったな　<pc>！": 
+    "<attr><feel_normal_lv1><end_attr>What? You've already saved the world? They say\nthat those who train in this village will\nbecome great, but I never thought it would go\n<br>\nthat far! Ha-ha-ha! Your jokes are getting\nbetter <pc>!"
   },
   "37708": {
-    "<if_hum>「<pc>か？\n　ずいぶん　見ちがえたぞ。たくましくなって！\n　……なに？　人間の姿を取りもどした？\n<br>\n「う～む……。わしには\n　いつもと同じ　<pc>にしか見えんが\n　その姿が　人間だと言うのか。\n<br>\n「ガハハ！　よく　わからない冗談だな。\n　プクランド大陸の　プクレットの村へ行って\n　笑いの修行もしたほうが　いいんじゃないか？<else>「よく帰ってきてくれた　<pc>。\n　お前の顔を見れば　わかる！\n　ついに　使命を果たしたようだな。ガハハハ！\n<br>\n「お前に　身体をゆずった　オーガの\n　<pc>も　よろこんでいるだろう！\n<br>\n「この村のことなら　心配ないぞ。\n　悪鬼ゾンガロンの封印の様子も\n　こまめに　見にいくようにしているしな。\n<br>\n「だが　ヤツのチカラは　すさまじい。\n　いつか　決着をつけねばならん時が来る……！\n　そんな気がするんだ。<endif>": "<if_hum><pc>? You look so different. You've\ngrown up! What? Have you regained your human\nform? Hmmm. I see the same <pc> as\n<br>\nalways, but you call that figure human?\nGahaha! I don't understand the joke. Maybe you\nshould go to Pukulet Village in Pukuland\n<br>\nContinent and learn how to laugh.<else>Welcome back <pc>. I can see it in\nyour face! Looks like you finally accomplished\nyour mission. Gahahahaha! I'm sure Ogre\n<br>\n<pc> is glad to have you back! Don't\nworry about this village. I've been checking\non Demon Zongalon frequently to see how he's\n<br>\ndoing. But his power is tremendous. There will\ncome a time when we will have to settle this!\nI have a feeling that will happen.<endif>"
+    "<if_hum>「<pc>か？\n　ずいぶん　見ちがえたぞ。たくましくなって！\n　……なに？　人間の姿を取りもどした？\n<br>\n「う～む……。わしには\n　いつもと同じ　<pc>にしか見えんが\n　その姿が　人間だと言うのか。\n<br>\n「ガハハ！　よく　わからない冗談だな。\n　プクランド大陸の　プクレットの村へ行って\n　笑いの修行もしたほうが　いいんじゃないか？<else>「よく帰ってきてくれた　<pc>。\n　お前の顔を見れば　わかる！\n　ついに　使命を果たしたようだな。ガハハハ！\n<br>\n「お前に　身体をゆずった　オーガの\n　<pc>も　よろこんでいるだろう！\n<br>\n「この村のことなら　心配ないぞ。\n　悪鬼ゾンガロンの封印の様子も\n　こまめに　見にいくようにしているしな。\n<br>\n「だが　ヤツのチカラは　すさまじい。\n　いつか　決着をつけねばならん時が来る……！\n　そんな気がするんだ。<endif>": 
+    "<if_hum><pc>? You look so different. You've\ngrown up! What? Have you regained your human\nform? Hmmm. I see the same <pc> as\n<br>\nalways, but you call that figure human?\nGahaha! I don't understand the joke. Maybe you\nshould go to Pukulet Village in Pukuland\n<br>\nContinent and learn how to laugh.<else>Welcome back <pc>. I can see it in\nyour face! Looks like you finally accomplished\nyour mission. Gahahahaha! I'm sure Ogre\n<br>\n<pc> is glad to have you back! Don't\nworry about this village. I've been checking\non Demon Zongalon frequently to see how he's\n<br>\ndoing. But his power is tremendous. There will\ncome a time when we will have to settle this!\nI have a feeling that will happen.<endif>"
   },
   "34450": {
-    "<attr><feel_happy_lv2><end_attr>「あら　<pc>　ひさしぶり～！\n　この村も　にぎやかになったと思わない？\n　いろんな大陸から　人が来るのよ。": "<attr><feel_happy_lv2><end_attr>Hello <pc> It's been a while! This\nvillage is getting more and more lively, don't\nyou think? People come from all continents."
+    "<attr><feel_happy_lv2><end_attr>「あら　<pc>　ひさしぶり～！\n　この村も　にぎやかになったと思わない？\n　いろんな大陸から　人が来るのよ。": 
+    "<attr><feel_happy_lv2><end_attr>Hello <pc> It's been a while! This\nvillage is getting more and more lively, don't\nyou think? People come from all continents."
   },
   "34451": {
-    "「北の果てにある　こんな村にも　よく\n　旅人さんが　いらっしゃるようになりました。\n<br>\n「さらなる冒険を求めて　世界のすみずみまで\n　旅をしていらっしゃるそうですわ。": "Travelers often come to this village in the\nfar north. They travel to every corner of the\nworld in search of more adventures."
+    "「北の果てにある　こんな村にも　よく\n　旅人さんが　いらっしゃるようになりました。\n<br>\n「さらなる冒険を求めて　世界のすみずみまで\n　旅をしていらっしゃるそうですわ。": 
+    "Travelers often come to this village in the\nfar north. They travel to every corner of the\nworld in search of more adventures."
   },
   "37709": {
-    "<if_hum><attr><feel_think_lv1><end_attr>「おや　<pc>。\n　なんだって？　人間になった？\n<br>\n「ええと……。あたしには　いつもの\n　<pc>にしか　見えないけどねえ。\n　町じゃ　そういう冗談が　はやっているのかい？<else><attr><feel_happy_lv1><end_attr>「おかえり　<pc>。\n　ひと仕事　終わったような　いい顔してるよ。<endif>": "<if_hum><attr><feel_think_lv1><end_attr>Oh <pc>. Excuse me? Did you become a\nHUMAN? Well... You look like your usual\n<pc> to me. Is that kind of joke\n<br>\ngoing around town?<else><attr><feel_happy_lv1><end_attr>Welcome back <pc>. You look good,\nlike you've finished your work.<endif>"
+    "<if_hum><attr><feel_think_lv1><end_attr>「おや　<pc>。\n　なんだって？　人間になった？\n<br>\n「ええと……。あたしには　いつもの\n　<pc>にしか　見えないけどねえ。\n　町じゃ　そういう冗談が　はやっているのかい？<else><attr><feel_happy_lv1><end_attr>「おかえり　<pc>。\n　ひと仕事　終わったような　いい顔してるよ。<endif>": 
+    "<if_hum><attr><feel_think_lv1><end_attr>Oh <pc>. Excuse me? Did you become a\nHUMAN? Well... You look like your usual\n<pc> to me. Is that kind of joke\n<br>\ngoing around town?<else><attr><feel_happy_lv1><end_attr>Welcome back <pc>. You look good,\nlike you've finished your work.<endif>"
   }
 }
