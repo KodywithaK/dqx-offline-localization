@@ -27,6 +27,8 @@ jobs:
           sparse-checkout: | # Checks out only the BACKLOG...ETP & FINAL dialog folders
             BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
             FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
+            responsefile_Switch.txt
+            responsefile_WindowsNoEditor.txt
       
       - name: Install Python
         uses: actions/setup-python@v4
