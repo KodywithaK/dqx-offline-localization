@@ -45,8 +45,8 @@ jobs:
           python ./pack_etp_GitHubActions.py -a
           deactivate
           cd ~
-          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx_dat_dump/tools/packing/responsefile_Switch.txt
-          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx_dat_dump/tools/packing/responsefile_WindowsNoEditor.txt
+          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_Switch.txt
+          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_WindowsNoEditor.txt
 
       - name: Get Current Time
         run: |
