@@ -50,17 +50,45 @@ jobs:
           python ./pack_etp_GitHubActions.py -a
           deactivate
           cd ~
-          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_Switch.txt
-          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_WindowsNoEditor.txt
+          mkdir -p ${{ github.workspace }}/downloadstest/
+          # ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_Switch.txt
+          # ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_WindowsNoEditor.txt
+          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloadstest/pakchunk0-Switch_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_Switch.txt
+          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloadstest/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_WindowsNoEditor.txt
+
+      # - name: Get Current Time
+      #   run: |
+      #     echo "time=$(date +'%Y_%m_%d_%H%M')" >> $GITHUB_ENV
+
+      # - name: Upload Artifact GitHub Action
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: GitHubActions_Dialog_Latest_${{ env.time }}
+      #     path: |
+      #       downloads
+      #     # retention-days: 1
 
       - name: Get Current Time
         run: |
           echo "time=$(date +'%Y_%m_%d_%H%M')" >> $GITHUB_ENV
 
-      - name: Upload Artifact GitHub Action
+      - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: GitHubActions_Dialog_Latest_${{ env.time }}
-          path: |
-            downloads
-          # retention-days: 1
+          path: ./downloads/*
+
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          path: ./downloadstest
+      - run: |
+          ls ./downloadstest/GitHubActions_Dialog_Latest_*
+
+      - name: Create Release
+        run: |
+          echo -e "GITHUB_REF =\n\t\033[0;32m${GITHUB_REF}"
+          echo -e "GITHUB_REF#refs/*/ =\n\t\033[0;32m${GITHUB_REF#refs/*/}"
+          echo -e "GITHUB_REF_NAME =\n\t\033[0;32m${GITHUB_REF_NAME}"
+          # gh release delete latest -y
+          gh release create latest ./downloadstest/GitHubActions_Dialog_Latest_*/* -p --generate-notes
