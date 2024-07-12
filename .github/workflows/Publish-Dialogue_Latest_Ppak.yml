@@ -11,6 +11,7 @@ on:
 
 jobs:
   archive-build-artifacts:
+    permissions: write-all
     # runs-on: ubuntu-latest
     runs-on: self-hosted # UnrealEngine-4.27 being 40GB~, it's too big for a regular GitHub Runner
     steps:
