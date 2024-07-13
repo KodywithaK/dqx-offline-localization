@@ -1,3 +1,5 @@
+![pakchunk0-{PLATFORM}_English_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml/badge.svg?branch=testing)
+
 <details><summary><h1>Translate Game.locmeta/Game.locres files via LocRes-Builder</h1></summary>
 
 ## 0.Prerequisites
@@ -309,6 +311,62 @@ UnrealPak.exe "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFL
 ## 4.Start up the game
   - All of your edited `.etp`'s from Step 1 will now be loaded ingame, as long as you have the corresponding langauge selected.
   - Have fun!
+
+---
+
+</details>
+
+<details><summary><h1>Build UnrealEngine4.27.2-release for<br>GitHub Actions Linux self-hosted runner</h1></summary>
+
+## 01.Create GitHub Actions Self-Hosted Runner (SHR)
+  -  `github.com/{YourUsername}/{YourRepo}` > `Settings` > `Actions` > `Runners` > `New Self-Hosted Runner`
+  - select `Linux`, then follow the instructions listed below the buttons.
+    - See GitHub's Documentation[^1] for more details.
+
+## 02.Setup Unreal Engine
+
+0. Open a Linux bash under your new created `SHR` user's root directory (`cd ~`), for the following steps:
+
+1.  `git clone --depth 1 -b 4.27.2-release --single-branch https://github.com/EpicGames/UnrealEngine.git`
+    -   clones just the latest commit of UnrealEngine 4.27.2
+    > [!NOTE] or download `Source Code` (`zip` or `tar.gz`) and `Commit.gitdeps.xml` from EpicGames' [GitHub repo](https://github.com/EpicGames/UnrealEngine/releases/tag/4.27.2-release)
+2.  `cd ./UnrealEngine`[^2]
+
+    1.  Replace "`./UnrealEngine/Engine/Build/`[Commit.gitdeps.xml](https://github.com/EpicGames/UnrealEngine/releases/download/4.27.2-release/Commit.gitdeps.xml)"[^3].
+        -   fixes `Failed to download '...dependencies...'` error in next step
+    2.  `sudo chmod +x` :
+
+        > `./Engine/Build/BatchFiles/Linux/GitDependencies.sh`
+        >
+        > `./Engine/Binaries/ThirdParty/Mono/Linux/bin/mono`
+        >
+        > `./Engine/Build/BatchFiles/Linux/Setup.sh`
+        >
+        >
+        > `./Engine/Build/BatchFiles/Linux/SetupToolchain.sh`
+        >
+        > -   Fixes `permission denied` errors.
+    3. `sudo apt-get install xdg-utils`
+        - fixes `/bin/bash: xdg-mime: No such file or directory` error.
+
+    4.  `./setup.sh -exclude=Android -exclude=Dingo -exclude=Documentation -exclude=HTML5 -exclude=IOS -exclude=Mac -exclude=MacOS -exclude=MacOSX -exclude=osx -exclude=osx32 -exclude=osx64 -exclude=PS4 -exclude=Samples -exclude=Switch -exclude=Templates -exclude=TVOS -exclude=Win32 -exclude=Win64 -exclude=Windows -exclude=WinRT -exclude=XboxOne`
+        > [!IMPORTANT] `DotNET` is required for `./GenerateProjectFiles.sh` step, **DO NOT ADD** `-exclude=DotNET`
+        -   excludes unnecessary builds aka less space taken up.
+        -   After successful run, `./Binaries/Linux/*` will be created
+    <!-- 5.  ???`./setup.sh -exclude=Android -exclude=Dingo -exclude=Documentation -exclude=HTML5 -exclude=IOS -exclude=Mac -exclude=MacOS -exclude=MacOSX -exclude=osx -exclude=osx32 -exclude=osx64 -exclude=PS4 -exclude=Samples -exclude=Switch -exclude=Templates -exclude=ThirdParty -exclude=TVOS -exclude=Win32 -exclude=Win64 -exclude=Windows -exclude=WinRT -exclude=XboxOne` -->
+    6.  `./GenerateProjectFiles.sh`
+        -   generates makefiles and CMakelists.txt
+    7.  `make UnrealPak`
+        -   makes `Unrealpak` and its dependencies in ~210s
+
+## External Links
+
+> [^1]: [GitHub Docs - Hosting your own runners](https://docs.github.com/en/actions/hosting-your-own-runners).
+>
+> [^2]: This tutorial roughly follows the [Linux Native compilation guide](https://github.com/EpicGames/UnrealEngine/blob/4.27.2-release/Engine/Build/BatchFiles/Linux/README.md) from `github.com/EpicGames/UnrealEngine`.
+>
+> [^3]: Correct [Commit.gitdeps.xml](https://github.com/EpicGames/UnrealEngine/releases/download/4.27.2-release/Commit.gitdeps.xml) to prevent `(403) Forbidden` errors during `updating dependencies` step.
+
 
 ---
 
