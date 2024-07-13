@@ -4,9 +4,9 @@ on:
   push:
     branches: [testing]
     paths:
-      - '.github/workflows/Publish-Dialogue_Latest_Ppak.yml'
-      - 'BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/**'
-      - 'FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/**'
+      - ".github/workflows/Publish-Dialogue_Latest_Ppak.yml"
+      - "BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/**"
+      - "FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/**"
   workflow_dispatch:
 
 jobs:
@@ -27,21 +27,22 @@ jobs:
           path: ./dqx-offline-localization
           repository: KodywithaK/dqx-offline-localization
           ref: testing
-          sparse-checkout: | # Checks out only the BACKLOG...ETP & FINAL dialog folders
+          sparse-checkout:
+            | # Checks out only the BACKLOG...ETP & FINAL dialog folders
             BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
             FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
             FINAL/pakchunk0-Switch_P/Holiday/Content/Settings/Version/version_settings.json
             responsefile_Switch.txt
             responsefile_WindowsNoEditor.txt
-      
+
       - name: Install Python
         uses: actions/setup-python@v4
         with:
-          architecture: 'x64'
+          architecture: "x64"
           # python-version: '3.x'
-          python-version: '3.11'
-          cache: 'pip' # caching pip dependencies
-      - name: Run Python         
+          python-version: "3.11"
+          cache: "pip" # caching pip dependencies
+      - name: Run Python
         run: |
           cd ./dqx_dat_dump/
           python -m venv venv
@@ -69,6 +70,22 @@ jobs:
       #       downloads
       #     # retention-days: 1
 
+  create_release:
+    permissions: write-all
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@main
+      - name: echo
+        id: echo
+        run: |
+          echo -e "\033[0;31m Error"
+          echo -e "\033[0;32m Success"
+          echo -e "\033[0;33m Warning"
+
+      # - run: |
+      #     mkdir -p ./downloads
+      #     echo hello > ./downloads/world.txt
+
       - name: Get Current Time
         run: |
           echo "time=$(date +'%Y_%m_%d_%H%M')" >> $GITHUB_ENV
@@ -82,11 +99,15 @@ jobs:
       # - name: Download Artifact
       #   uses: actions/download-artifact@v4
       #   with:
-      #     path: ./downloadstest
+      #     path: ./downloads
       # - run: |
-      #     ls ./downloadstest/GitHubActions_Dialog_Latest_*
+      #     ls ./downloads/GitHubActions_Dialog_Latest_*
 
       - name: Create Release
         run: |
+          echo -e "GITHUB_REF =\n\t\033[0;32m${GITHUB_REF}"
+          echo -e "GITHUB_REF#refs/*/ =\n\t\033[0;32m${GITHUB_REF#refs/*/}"
+          echo -e "GITHUB_REF_NAME =\n\t\033[0;32m${GITHUB_REF_NAME}"
+          ls ./downloadstest/
           # gh release delete latest -y
-          gh release create latest ./downloadstest/*.pak -p --generate-notes
+          gh release create latest ./downloadstest/* -p --generate-notes
