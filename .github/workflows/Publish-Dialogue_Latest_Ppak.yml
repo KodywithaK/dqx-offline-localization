@@ -71,6 +71,7 @@ jobs:
       #     # retention-days: 1
 
   create_release:
+    needs: archive-build-artifacts
     permissions: write-all
     runs-on: self-hosted
     steps:
