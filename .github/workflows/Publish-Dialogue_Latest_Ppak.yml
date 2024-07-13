@@ -79,17 +79,14 @@ jobs:
           name: GitHubActions_Dialog_Latest_${{ env.time }}
           path: ./downloadstest/*
 
-      - name: Download Artifact
-        uses: actions/download-artifact@v4
-        with:
-          path: ./downloadstest
-      - run: |
-          ls ./downloadstest/GitHubActions_Dialog_Latest_*
+      # - name: Download Artifact
+      #   uses: actions/download-artifact@v4
+      #   with:
+      #     path: ./downloadstest
+      # - run: |
+      #     ls ./downloadstest/GitHubActions_Dialog_Latest_*
 
       - name: Create Release
         run: |
-          echo -e "GITHUB_REF =\n\t\033[0;32m${GITHUB_REF}"
-          echo -e "GITHUB_REF#refs/*/ =\n\t\033[0;32m${GITHUB_REF#refs/*/}"
-          echo -e "GITHUB_REF_NAME =\n\t\033[0;32m${GITHUB_REF_NAME}"
           # gh release delete latest -y
-          gh release create latest ./downloadstest/GitHubActions_Dialog_Latest_*/* -p --generate-notes
+          gh release create latest ./downloadstest/*.pak -p --generate-notes
