@@ -1,92 +1,122 @@
 {
   "198928": {
-    "<if_woman>「ねえねえ！　お姉ちゃん　冒険者だよね？\n　パクレ警部っていう　プクリポのおじさんのこと\n　知ってたりする？<yesno><break><else>「ねえねえ！　お兄ちゃん　冒険者だよね？\n　パクレ警部っていう　プクリポのおじさんのこと\n　知ってたりする？<yesno><break><endif>": "<if_woman>Hey, hey! You're an adventurer, right? Do you\nknow Inspector Pakul, Pukulipo's uncle?<yesno><break><else>Hey, hey! You're an adventurer, right? Do you\nknow Inspector Pakul, Pukulipo's uncle?<yesno><break><endif>"
+    "<if_woman>「ねえねえ！　お姉ちゃん　冒険者だよね？\n　パクレ警部っていう　プクリポのおじさんのこと\n　知ってたりする？<yesno><break><else>「ねえねえ！　お兄ちゃん　冒険者だよね？\n　パクレ警部っていう　プクリポのおじさんのこと\n　知ってたりする？<yesno><break><endif>": 
+    "<if_woman>Hey, hey! You're an adventurer, right? Do you\nknow Inspector Pakul, Pukulipo's uncle?<yesno><break><else>Hey, hey! You're an adventurer, right? Do you\nknow Inspector Pakul, Pukulipo's uncle?<yesno><break><endif>"
   },
   "198929": {
-    "「そっか。知らないんだね……。\n　それじゃあ　ちょっと　ボクのお願いを\n　聞いてもらえそうに　ないかなあ。": "I see. You don't know, do you? Well, then, I\ndon't think I can ask you to do me a favor."
+    "「そっか。知らないんだね……。\n　それじゃあ　ちょっと　ボクのお願いを\n　聞いてもらえそうに　ないかなあ。": 
+    "I see. You don't know, do you... Well, then, I\ndon't think I can ask you to do me a favor."
   },
   "198930": {
-    "<attr><feel_happy_lv1><end_attr>「すごい。知ってるんだね！\n　もしかして　会ったこともあったりする？<yesno><break>": "<attr><feel_happy_lv1><end_attr>Amazing. You know them, don't you? Maybe\nyou've even met him?<yesno><break>"
+    "<attr><feel_happy_lv1><end_attr>「すごい。知ってるんだね！\n　もしかして　会ったこともあったりする？<yesno><break>": 
+    "<attr><feel_happy_lv1><end_attr>Amazing. You know them, don't you? Maybe\nyou've even met him?<yesno><break>"
   },
   "198931": {
-    "「会ったことは　ないんだね……。\n　それじゃあ　ちょっと　ボクのお願いを\n　聞いてもらえそうに　ないかなあ。": "I guess we have never met. Then, I wonder if\nyou would be willing to do me a favor."
+    "「会ったことは　ないんだね……。\n　それじゃあ　ちょっと　ボクのお願いを\n　聞いてもらえそうに　ないかなあ。": 
+    "I guess we have never met... Then, I wonder if\nyou would be willing to do me a favor."
   },
   "198932": {
-    "<attr><feel_happy_lv2><end_attr>「やった！　やっと　あこがれのパクレ警部に\n　会ったことがある人を　見つけたよ！！<bw_break>": "<attr><feel_happy_lv2><end_attr>I did it! I finally found the Inspector Pakul\nI've been longing to meet!<bw_break>"
+    "<attr><feel_happy_lv2><end_attr>「やった！　やっと　あこがれのパクレ警部に\n　会ったことがある人を　見つけたよ！！<bw_break>": 
+    "<attr><feel_happy_lv2><end_attr>I did it! I finally found the Inspector Pakul\nI've been longing to meet!<bw_break>"
   },
   "198933": {
-    "<if_woman><attr><feel_happy_lv2><end_attr>「パクレ警部は　すごいんだよ！\n　いろんな町で　むずかしい事件を解決したり\n　悪い犯人をつかまえてるって　ウワサなんだ！\n<br>\n「ボク　弟子入りしたくて　ここに来たんだけど\n　いつまで待っても　会えないんだよ。\n　どこか　他の町に　いるのかもしれないね。\n<br>\n「そこで　お姉ちゃんに　お願い。\n　ボクの書いた　弟子入り希望の手紙を\n　パクレ警部に　渡してほしいんだ！<else><attr><feel_happy_lv2><end_attr>「パクレ警部は　すごいんだよ！\n　いろんな町で　むずかしい事件を解決したり\n　悪い犯人をつかまえてるって　ウワサなんだ！\n<br>\n「ボク　弟子入りしたくて　ここに来たんだけど\n　いつまで待っても　会えないんだよ。\n　どこか　他の町に　いるのかもしれないね。\n<br>\n「そこで　お兄ちゃんに　お願い。\n　ボクの書いた　弟子入り希望の手紙を\n　パクレ警部に　渡してほしいんだ！<endif>": "<if_woman><attr><feel_happy_lv2><end_attr>Inspector Pakul is amazing! He's rumored to be\nsolving tough cases and catching bad criminals\nin various towns! I came here to become his\n<br>\napprentice, but I can't find him no matter how\nlong I wait. Maybe he's somewhere else. So, I\nhave a favor to ask you. I want you to give\n<br>\nInspector Pakul the letter I wrote, asking for\nan apprenticeship!<else><attr><feel_happy_lv2><end_attr>Inspector Pakul is amazing! He's rumored to be\nsolving tough cases and catching bad criminals\nin various towns! I came here to become his\n<br>\napprentice, but I can't find him no matter how\nlong I wait. Maybe he's somewhere else. So, I\nhave a favor to ask my brother. I want you to\n<br>\ngive Inspector Pakul the letter I wrote to\nyou, asking for an apprenticeship!<endif>"
+    "<if_woman><attr><feel_happy_lv2><end_attr>「パクレ警部は　すごいんだよ！\n　いろんな町で　むずかしい事件を解決したり\n　悪い犯人をつかまえてるって　ウワサなんだ！\n<br>\n「ボク　弟子入りしたくて　ここに来たんだけど\n　いつまで待っても　会えないんだよ。\n　どこか　他の町に　いるのかもしれないね。\n<br>\n「そこで　お姉ちゃんに　お願い。\n　ボクの書いた　弟子入り希望の手紙を\n　パクレ警部に　渡してほしいんだ！<else><attr><feel_happy_lv2><end_attr>「パクレ警部は　すごいんだよ！\n　いろんな町で　むずかしい事件を解決したり\n　悪い犯人をつかまえてるって　ウワサなんだ！\n<br>\n「ボク　弟子入りしたくて　ここに来たんだけど\n　いつまで待っても　会えないんだよ。\n　どこか　他の町に　いるのかもしれないね。\n<br>\n「そこで　お兄ちゃんに　お願い。\n　ボクの書いた　弟子入り希望の手紙を\n　パクレ警部に　渡してほしいんだ！<endif>": 
+    "<if_woman><attr><feel_happy_lv2><end_attr>Inspector Pakul is amazing! He's rumored to be\nsolving tough cases and catching bad criminals\nin various towns! I came here to become his\n<br>\napprentice, but I can't find him no matter how\nlong I wait. Maybe he's somewhere else. So, I\nhave a favor to ask you. I want you to give\n<br>\nInspector Pakul the letter I wrote, asking for\nan apprenticeship!<else><attr><feel_happy_lv2><end_attr>Inspector Pakul is amazing! He's rumored to be\nsolving tough cases and catching bad criminals\nin various towns! I came here to become his\n<br>\napprentice, but I can't find him no matter how\nlong I wait. Maybe he's somewhere else. So, I\nhave a favor to ask my brother. I want you to\n<br>\ngive Inspector Pakul the letter I wrote to\nyou, asking for an apprenticeship!<endif>"
   },
   "198934": {
-    "<if_woman><attr><feel_happy_lv3><end_attr>「わ～い　やってくれるんだね。\n　ありがとう　お姉ちゃん！\n<br>\n「パクレ警部のウワサは\n　いろいろ　集めてるんだけど\n　いちばん　新しいのを教えてあげるね。\n<br>\n「警部は今　ココナッツを使った飲み物に\n　ハマってるらしいんだ。\n<br>\n「だから　駅で売られる特産品になるくらいの\n　おいしいココナッツが　近くで採れる町を探して\n　そこの酒場に　行ってみたら　どうかな。\n<br>\n「ボクも　いっしょに　行きたいけど\n　ギャンドル父ちゃんに　怒られちゃうからね。\n　この手紙を　警部に届けてよ！<else><attr><feel_happy_lv3><end_attr>「わ～い　やってくれるんだね。\n　ありがとう　お兄ちゃん！\n<br>\n「パクレ警部のウワサは\n　いろいろ　集めてるんだけど\n　いちばん　新しいのを教えてあげるね。\n<br>\n「警部は今　ココナッツを使った飲み物に\n　ハマってるらしいんだ。\n<br>\n「だから　駅で売られる特産品になるくらいの\n　おいしいココナッツが　近くで採れる町を探して\n　そこの酒場に　行ってみたら　どうかな。\n<br>\n「ボクも　いっしょに　行きたいけど\n　ギャンドル父ちゃんに　怒られちゃうからね。\n　この手紙を　警部に届けてよ！<endif>": "<if_woman><attr><feel_happy_lv3><end_attr>Wow! You're doing it. Thank you, sis! I've\nbeen collecting rumors about Inspector Pakul,\nand I'll tell you the latest. He's into drinks\n<br>\nmade with Coconuts. So, why don't you find a\ntown nearby where you can get Coconuts that\nare good enough to be a specialty sold at\n<br>\ntrain stations, and visit a tavern there? I'd\nlike to go with you, but my dad would get mad\nat me. Please take this letter to the Captain!<else><attr><feel_happy_lv3><end_attr>Wow! You're doing it. Thank you, big brother!\nI've been collecting rumors about Inspector\nPakul, and I'll tell you the latest. He's into\n<br>\nCoconut-based beverages right now. So, why\ndon't you find a town nearby where you can get\nCoconuts that are good enough to be a\n<br>\nspecialty sold at train stations, and visit a\ntavern there? I'd like to go with you, but my\ndad would get mad at me. Please take this\n<br>\nletter to the Captain!<endif>"
+    "<if_woman><attr><feel_happy_lv3><end_attr>「わ～い　やってくれるんだね。\n　ありがとう　お姉ちゃん！\n<br>\n「パクレ警部のウワサは\n　いろいろ　集めてるんだけど\n　いちばん　新しいのを教えてあげるね。\n<br>\n「警部は今　ココナッツを使った飲み物に\n　ハマってるらしいんだ。\n<br>\n「だから　駅で売られる特産品になるくらいの\n　おいしいココナッツが　近くで採れる町を探して\n　そこの酒場に　行ってみたら　どうかな。\n<br>\n「ボクも　いっしょに　行きたいけど\n　ギャンドル父ちゃんに　怒られちゃうからね。\n　この手紙を　警部に届けてよ！<else><attr><feel_happy_lv3><end_attr>「わ～い　やってくれるんだね。\n　ありがとう　お兄ちゃん！\n<br>\n「パクレ警部のウワサは\n　いろいろ　集めてるんだけど\n　いちばん　新しいのを教えてあげるね。\n<br>\n「警部は今　ココナッツを使った飲み物に\n　ハマってるらしいんだ。\n<br>\n「だから　駅で売られる特産品になるくらいの\n　おいしいココナッツが　近くで採れる町を探して\n　そこの酒場に　行ってみたら　どうかな。\n<br>\n「ボクも　いっしょに　行きたいけど\n　ギャンドル父ちゃんに　怒られちゃうからね。\n　この手紙を　警部に届けてよ！<endif>": 
+    "<if_woman><attr><feel_happy_lv3><end_attr>Wow! You're doing it. Thank you, sis! I've\nbeen collecting rumors about Inspector Pakul,\nand I'll tell you the latest. He's into drinks\n<br>\nmade with Coconuts. So, why don't you find a\ntown nearby where you can get Coconuts that\nare good enough to be a specialty sold at\n<br>\ntrain stations, and visit a tavern there? I'd\nlike to go with you, but my dad would get mad\nat me. Please take this letter to the Captain!<else><attr><feel_happy_lv3><end_attr>Wow! You're doing it. Thank you, big brother!\nI've been collecting rumors about Inspector\nPakul, and I'll tell you the latest. He's into\n<br>\nCoconut-based beverages right now. So, why\ndon't you find a town nearby where you can get\nCoconuts that are good enough to be a\n<br>\nspecialty sold at train stations, and visit a\ntavern there? I'd like to go with you, but my\ndad would get mad at me. Please take this\n<br>\nletter to the Captain!<endif>"
   },
   "198935": {
-    "<if_woman><attr><feel_happy_lv3><end_attr>「それじゃあ　頼んだよ　お姉ちゃん！<else><attr><feel_happy_lv3><end_attr>「それじゃあ　頼んだよ　お兄ちゃん！<endif>": "<if_woman><attr><feel_happy_lv3><end_attr>Well then, I'm counting on you, sis!<else><attr><feel_happy_lv3><end_attr>Well then, I'm counting on you, big brother!<endif>"
+    "<if_woman><attr><feel_happy_lv3><end_attr>「それじゃあ　頼んだよ　お姉ちゃん！<else><attr><feel_happy_lv3><end_attr>「それじゃあ　頼んだよ　お兄ちゃん！<endif>": 
+    "<if_woman><attr><feel_happy_lv3><end_attr>Well then, I'm counting on you, sis!<else><attr><feel_happy_lv3><end_attr>Well then, I'm counting on you, big brother!<endif>"
   },
   "198936": {
-    "<if_woman><attr><feel_happy_lv1><end_attr>「わ～い　やってくれるんだね。\n　ありがとう　お姉ちゃん！\n<br>\n「……あれ？\n　でも　他の頼まれごとで　いっぱいみたいだよ。\n　それじゃあ　頼みづらいなあ。\n<br>\n「ヒマになったら　また来てくれる？\n　ボク　ずっと　待ってるから！<else><attr><feel_happy_lv1><end_attr>「わ～い　やってくれるんだね。\n　ありがとう　お兄ちゃん！\n<br>\n「……あれ？\n　でも　他の頼まれごとで　いっぱいみたいだよ。\n　それじゃあ　頼みづらいなあ。\n<br>\n「ヒマになったら　また来てくれる？\n　ボク　ずっと　待ってるから！<endif>": "<if_woman><attr><feel_happy_lv1><end_attr>Wow! You're doing it. Thank you, sis! Huh? But\nit looks like you're full of other requests.\nThat makes it hard for me to ask you. Will you\n<br>\ncome again when you're free? I'll be waiting\nfor you!<else><attr><feel_happy_lv1><end_attr>Wow! You're doing it. Thank you, big brother!\nWhat is it? But you seem to be full of other\nrequests. That makes it hard for me to ask\n<br>\nyou. Will you come again when you're free?\nI'll be waiting for you!<endif>"
+    "<if_woman><attr><feel_happy_lv1><end_attr>「わ～い　やってくれるんだね。\n　ありがとう　お姉ちゃん！\n<br>\n「……あれ？\n　でも　他の頼まれごとで　いっぱいみたいだよ。\n　それじゃあ　頼みづらいなあ。\n<br>\n「ヒマになったら　また来てくれる？\n　ボク　ずっと　待ってるから！<else><attr><feel_happy_lv1><end_attr>「わ～い　やってくれるんだね。\n　ありがとう　お兄ちゃん！\n<br>\n「……あれ？\n　でも　他の頼まれごとで　いっぱいみたいだよ。\n　それじゃあ　頼みづらいなあ。\n<br>\n「ヒマになったら　また来てくれる？\n　ボク　ずっと　待ってるから！<endif>": 
+    "<if_woman><attr><feel_happy_lv1><end_attr>Wow! You're doing it. Thank you, sis! Huh? But\nit looks like you're full of other requests.\nThat makes it hard for me to ask you. Will you\n<br>\ncome again when you're free? I'll be waiting\nfor you!<else><attr><feel_happy_lv1><end_attr>Wow! You're doing it. Thank you, big brother!\nWhat is it? But you seem to be full of other\nrequests. That makes it hard for me to ask\n<br>\nyou. Will you come again when you're free?\nI'll be waiting for you!<endif>"
   },
   "198937": {
-    "<if_woman><attr><feel_sad_lv1><end_attr>「ええ～　ダメなの？\n　頼めそうな人　お姉ちゃんしか\n　いないんだけどなあ……。\n<br>\n「気が変わったら　また来てくれる？\n　ボク　ずっと　待ってるから！<else><attr><feel_sad_lv1><end_attr>「ええ～　ダメなの？\n　頼めそうな人　お兄ちゃんしか\n　いないんだけどなあ……。\n<br>\n「気が変わったら　また来てくれる？\n　ボク　ずっと　待ってるから！<endif>": "<if_woman><attr><feel_sad_lv1><end_attr>Oh, no? The only person I can ask is my\nsister. If you change your mind, will you come\nagain? I'll be waiting for you!<else><attr><feel_sad_lv1><end_attr>Oh, no? The only person I can ask is my\nbrother. If you change your mind, will you\ncome again? I'll be waiting for you!<endif>"
+    "<if_woman><attr><feel_sad_lv1><end_attr>「ええ～　ダメなの？\n　頼めそうな人　お姉ちゃんしか\n　いないんだけどなあ……。\n<br>\n「気が変わったら　また来てくれる？\n　ボク　ずっと　待ってるから！<else><attr><feel_sad_lv1><end_attr>「ええ～　ダメなの？\n　頼めそうな人　お兄ちゃんしか\n　いないんだけどなあ……。\n<br>\n「気が変わったら　また来てくれる？\n　ボク　ずっと　待ってるから！<endif>": 
+    "<if_woman><attr><feel_sad_lv1><end_attr>Oh, no? The only person I can ask is my\nsister. If you change your mind, will you come\nagain? I'll be waiting for you!<else><attr><feel_sad_lv1><end_attr>Oh, no? The only person I can ask is my\nbrother. If you change your mind, will you\ncome again? I'll be waiting for you!<endif>"
   },
   "198938": {
-    "<attr><feel_angry_lv1><end_attr><turn_pc>「パクレの野郎……。\n　最近　ちょこちょこと　あちこちに\n　出没してるってウワサを　聞いたぜ。\n<br>\n「なのに　この家には　戻ってこねえ……。\n　いつになったら　オレは\n　あいつの借金を取り立てて　家に帰れるんだよ！": "<attr><feel_angry_lv1><end_attr><turn_pc>Hey, Pakul. I heard rumors that he's been\npopping up here and there a little bit lately.\nBut he never comes back to this house. When am\n<br>\nI going to be able to go back home to collect\nhis debt?"
+    "<attr><feel_angry_lv1><end_attr><turn_pc>「パクレの野郎……。\n　最近　ちょこちょこと　あちこちに\n　出没してるってウワサを　聞いたぜ。\n<br>\n「なのに　この家には　戻ってこねえ……。\n　いつになったら　オレは\n　あいつの借金を取り立てて　家に帰れるんだよ！": 
+    "<attr><feel_angry_lv1><end_attr><turn_pc>Hey, Pakul. I heard rumors that he's been\npopping up here and there a little bit lately.\nBut he never comes back to this house. When am\n<br>\nI going to be able to go back home to collect\nhis debt?"
   },
   "198939": {
-    "<pc>は\nボンドルの手紙（だいじなもの）を　受け取った！<me 60>": "<pc> received Bondor's Letter (Key\nItem)!<me 60>"
+    "<pc>は\nボンドルの手紙（だいじなもの）を　受け取った！<me 60>": 
+    "<pc> received Bondor's Letter (Key\nItem)!<me 60>"
   },
   "198940": {
-    "「警部は今　ココナッツを使った飲み物に\n　ハマってるってウワサが　あるんだ。<open_irai><bw_break>": "There are rumors that the Captain is now\naddicted to drinks made with Cocona nut.<open_irai><bw_break>"
+    "「警部は今　ココナッツを使った飲み物に\n　ハマってるってウワサが　あるんだ。<open_irai><bw_break>": 
+    "There are rumors that the Captain is now\naddicted to drinks made with Cocona nut.<open_irai><bw_break>"
   },
   "198941": {
-    "「だから　駅で売られる特産品になるくらいの\n　おいしいココナッツが　近くで採れる町を探して\n　そこの酒場に　行ってみたら　どうかな。\n<br>\n「ボクも　いっしょに　行きたいけど\n　父ちゃんに　怒られちゃうからね。\n　弟子入り希望の手紙を　警部に届けてよ！": "So, why don't you find a town nearby where you\ncan pick coconuts that are good enough to be\nsold at a train station and visit a tavern\n<br>\nthere? I'd like to go with you, but my dad\nwould get mad at me. Please send a letter to\nthe Captain, asking to become his apprentice!"
+    "「だから　駅で売られる特産品になるくらいの\n　おいしいココナッツが　近くで採れる町を探して\n　そこの酒場に　行ってみたら　どうかな。\n<br>\n「ボクも　いっしょに　行きたいけど\n　父ちゃんに　怒られちゃうからね。\n　弟子入り希望の手紙を　警部に届けてよ！": 
+    "So, why don't you find a town nearby where you\ncan pick coconuts that are good enough to be\nsold at a train station and visit a tavern\n<br>\nthere? I'd like to go with you, but my dad\nwould get mad at me. Please send a letter to\nthe Captain, asking to become his apprentice!"
   },
   "198942": {
-    "<if_woman>「あっ　お姉ちゃん。\n　パクレ警部は　見つかった？<open_irai><bw_break><else>「あっ　お兄ちゃん。\n　パクレ警部は　見つかった？<open_irai><bw_break><endif>": "<if_woman>Oh, sis. Did you find Inspector Pakul?<open_irai><bw_break><else>Oh, big brother. Did you find Inspector Pakul?<open_irai><bw_break><endif>"
+    "<if_woman>「あっ　お姉ちゃん。\n　パクレ警部は　見つかった？<open_irai><bw_break><else>「あっ　お兄ちゃん。\n　パクレ警部は　見つかった？<open_irai><bw_break><endif>": 
+    "<if_woman>Oh, sis. Did you find Inspector Pakul?<open_irai><bw_break><else>Oh, big brother. Did you find Inspector Pakul?<open_irai><bw_break><endif>"
   },
   "198943": {
-    "「……えっ。ジュレットの町の酒場で\n　お店の置き物を壊して　逃げていったの？\n　なんで　そんなことしたのかなあ……。\n<br>\n「でも　置き物の材料を　取ってくれば\n　警部の行方を　教えてもらえるんだよね。\n　悪いけど　それ　やってもらえるかな？": "What, he broke some ornaments in a tavern in\nJulet Town and ran away? I wonder why he did\nthat. But if I get the materials for the\n<br>\nornaments, you can tell me where the Captain\nis, right? I'm sorry, but can you do that for\nme?"
+    "「……えっ。ジュレットの町の酒場で\n　お店の置き物を壊して　逃げていったの？\n　なんで　そんなことしたのかなあ……。\n<br>\n「でも　置き物の材料を　取ってくれば\n　警部の行方を　教えてもらえるんだよね。\n　悪いけど　それ　やってもらえるかな？": 
+    "What, he broke some ornaments in a tavern in\nJulet Town and ran away? I wonder why he did\nthat. But if I get the materials for the\n<br>\nornaments, you can tell me where the Captain\nis, right? I'm sorry, but can you do that for\nme?"
   },
   "198944": {
-    "<if_woman>「あっ　お姉ちゃん。\n　パクレ警部の行方は　わかった？<open_irai><bw_break><else>「あっ　お兄ちゃん。\n　パクレ警部の行方は　わかった？<open_irai><bw_break><endif>": "<if_woman>Hey, sis. Did you find out where Inspector\nPakul is?<open_irai><bw_break><else>Hey, big brother. Did you find out where\nInspector Pakul is?<open_irai><bw_break><endif>"
+    "<if_woman>「あっ　お姉ちゃん。\n　パクレ警部の行方は　わかった？<open_irai><bw_break><else>「あっ　お兄ちゃん。\n　パクレ警部の行方は　わかった？<open_irai><bw_break><endif>": 
+    "<if_woman>Hey, sis. Did you find out where Inspector\nPakul is?<open_irai><bw_break><else>Hey, big brother. Did you find out where\nInspector Pakul is?<open_irai><bw_break><endif>"
   },
   "198945": {
-    "「……えっ。王都カミハルムイ南へ\n　職務質問するために　向かったらしいって？\n　なんだろう。何か　事件なのかなあ。\n<br>\n「とにかく　王都カミハルムイ南に行って\n　新しく　越してきたって人を　探してみてよ。\n　パクレ警部が　そこに　いるかもしれないから！": "What, they were headed to Royal City\nKamiharmui South for questioning? I wonder. I\nwonder if there's some kind of incident.\n<br>\nAnyway, you should go to Royal City Kamiharmui\nSouth and look for the newcomer. Inspector\nPakul might be there!"
+    "「……えっ。王都カミハルムイ南へ\n　職務質問するために　向かったらしいって？\n　なんだろう。何か　事件なのかなあ。\n<br>\n「とにかく　王都カミハルムイ南に行って\n　新しく　越してきたって人を　探してみてよ。\n　パクレ警部が　そこに　いるかもしれないから！": 
+    "What, they were headed to Royal City\nKamiharmui South for questioning? I wonder. I\nwonder if there's some kind of incident.\n<br>\nAnyway, you should go to Royal City Kamiharmui\nSouth and look for the newcomer. Inspector\nPakul might be there!"
   },
   "198946": {
-    "<if_woman>「お姉ちゃんのおかげで　パクレ警部のこと\n　いろいろ　わかったから\n　ボクも　追いかけてみようと思うんだ。\n<br>\n「ぜったい　弟子入りしてやる！\n　そのために　ボクは　ここに　来たんだから！！<else>「お兄ちゃんのおかげで　パクレ警部のこと\n　いろいろ　わかったから\n　ボクも　追いかけてみようと思うんだ。\n<br>\n「ぜったい　弟子入りしてやる！\n　そのために　ボクは　ここに　来たんだから！！<endif>": "<if_woman>Now that I know more about Inspector Pakul\nthanks to you, I'm going to try to follow him\ntoo. I'm definitely going to become his\n<br>\napprentice! That's why I came here!<else>Now that I know more about Inspector Pakul\nthanks to you, I'm going to try to follow him\ntoo. I'm definitely going to become his\n<br>\napprentice! That's why I came here!<endif>"
+    "<if_woman>「お姉ちゃんのおかげで　パクレ警部のこと\n　いろいろ　わかったから\n　ボクも　追いかけてみようと思うんだ。\n<br>\n「ぜったい　弟子入りしてやる！\n　そのために　ボクは　ここに　来たんだから！！<else>「お兄ちゃんのおかげで　パクレ警部のこと\n　いろいろ　わかったから\n　ボクも　追いかけてみようと思うんだ。\n<br>\n「ぜったい　弟子入りしてやる！\n　そのために　ボクは　ここに　来たんだから！！<endif>": 
+    "<if_woman>Now that I know more about Inspector Pakul\nthanks to you, I'm going to try to follow him\ntoo. I'm definitely going to become his\n<br>\napprentice! That's why I came here!<else>Now that I know more about Inspector Pakul\nthanks to you, I'm going to try to follow him\ntoo. I'm definitely going to become his\n<br>\napprentice! That's why I came here!<endif>"
   },
   "198947": {
-    "<attr><feel_angry_lv1><end_attr><turn_pc>「しかし　パクレの野郎……。\n　ジュレットや　カミハルムイなんかで\n　遊んでやがるとはなあ。\n<br>\n「まったく　いい気なもんだぜ。\n　オレが　ずっと　張り込んでるってのによう。": "<attr><feel_angry_lv1><end_attr><turn_pc>But, Pakul's a bastard. I can't believe he's\nplaying with Julet and Kamiharmui. He's got a\ngood mind, doesn't he? I've been staking out\n<br>\nthe place all day."
+    "<attr><feel_angry_lv1><end_attr><turn_pc>「しかし　パクレの野郎……。\n　ジュレットや　カミハルムイなんかで\n　遊んでやがるとはなあ。\n<br>\n「まったく　いい気なもんだぜ。\n　オレが　ずっと　張り込んでるってのによう。": 
+    "<attr><feel_angry_lv1><end_attr><turn_pc>But, Pakul's a bastard. I can't believe he's\nplaying with Julet and Kamiharmui. He's got a\ngood mind, doesn't he? I've been staking out\n<br>\nthe place all day."
   },
   "199017": {
-    "「パクレ警部は　神父の姿に変装して\n　何か　事件の捜査を　してるんだよね？\n<br>\n「弟子入りの話を　したかったけど\n　今回は　やめておくよ。\n　ジャマしちゃったら　大変だからね！": "Inspector Pakul is disguised as a priest and\nworking on some case, right? I wanted to tell\nyou about my apprenticeship, but I'm not going\n<br>\nto this time. I don't want to get in your way!"
+    "「パクレ警部は　神父の姿に変装して\n　何か　事件の捜査を　してるんだよね？\n<br>\n「弟子入りの話を　したかったけど\n　今回は　やめておくよ。\n　ジャマしちゃったら　大変だからね！": 
+    "Inspector Pakul is disguised as a priest and\nworking on some case, right? I wanted to tell\nyou about my apprenticeship, but I'm not going\n<br>\nto this time. I don't want to get in your way!"
   },
   "199018": {
-    "<if_woman>「あっ　お姉ちゃん。\n　パクレ警部のお手伝い　どうだった？\n　事件は　解決したの？<yesno><break><else>「あっ　お兄ちゃん。\n　パクレ警部のお手伝い　どうだった？\n　事件は　解決したの？<yesno><break><endif>": "<if_woman>Oh, sis. How did you help Inspector Pakul? Did\nyou solve the case?<yesno><break><else>Hey, big brother. How did you help Inspector\nPakul? Did you solve the case?<yesno><break><endif>"
+    "<if_woman>「あっ　お姉ちゃん。\n　パクレ警部のお手伝い　どうだった？\n　事件は　解決したの？<yesno><break><else>「あっ　お兄ちゃん。\n　パクレ警部のお手伝い　どうだった？\n　事件は　解決したの？<yesno><break><endif>": 
+    "<if_woman>Oh, sis. How did you help Inspector Pakul? Did\nyou solve the case?<yesno><break><else>Hey, big brother. How did you help Inspector\nPakul? Did you solve the case?<yesno><break><endif>"
   },
   "199019": {
-    "「そっか　まだなんだ。\n　今回のは　かなりの難事件みたいだね。": "I see, you haven't started yet. This one seems\nto be quite a difficult case."
+    "「そっか　まだなんだ。\n　今回のは　かなりの難事件みたいだね。": 
+    "I see, you haven't started yet. This one seems\nto be quite a difficult case."
   },
   "199020": {
-    "<if_woman><attr><feel_happy_lv1><end_attr>「そっか。さすが　パクレ警部と　お姉ちゃん！\n　ねえ。どんな事件だったのか　教えてよ！<else><attr><feel_happy_lv1><end_attr>「そっか。さすが　パクレ警部と　お兄ちゃん！\n　ねえ。どんな事件だったのか　教えてよ！<endif>": "<if_woman><attr><feel_happy_lv1><end_attr>I see. That's Inspector Pakul and his sister!\nHey. Tell me what happened!<else><attr><feel_happy_lv1><end_attr>I see. That's Inspector Pakul and your\nbrother! Hey. Tell me what happened!<endif>"
+    "<if_woman><attr><feel_happy_lv1><end_attr>「そっか。さすが　パクレ警部と　お姉ちゃん！\n　ねえ。どんな事件だったのか　教えてよ！<else><attr><feel_happy_lv1><end_attr>「そっか。さすが　パクレ警部と　お兄ちゃん！\n　ねえ。どんな事件だったのか　教えてよ！<endif>": 
+    "<if_woman><attr><feel_happy_lv1><end_attr>I see. That's Inspector Pakul and his sister!\nHey. Tell me what happened!<else><attr><feel_happy_lv1><end_attr>I see. That's Inspector Pakul and your\nbrother! Hey. Tell me what happened!<endif>"
   },
   "199021": {
-    "<attr><feel_think_lv1><end_attr>「ふ～ん。ドワーフの男のヒトが\n　おかしくなっちゃった原因を探ってたら\n　浮気のせいかもしれなくて……\n<br>\n「でも　じつは　浮気じゃなくて\n　そのヒトは　かわいそうな魔物を\n　助けてあげてたっていう　話なんだね？\n<br>\n「たいした事件じゃないように　思えるけど\n　パクレ警部のことだから　きっと　何か\n　裏があったに　ちがいないね！\n<br>\n「やっぱり　警部は　すごいなあ。\n　ボクも　そろそろ　本気を出して\n　追いかけてみようかな……。": "<attr><feel_think_lv1><end_attr>Hmmm...so you were looking for the reason why\nthe Dwarf guy went crazy, and it might have\nbeen because he was cheating on his wife, but\n<br>\nit turns out that he wasn't cheating on her,\nhe was helping the poor monster out, right? It\ndoesn't seem like a big case, but Inspector\n<br>\nPakul must have had something behind it! I\nknew it! He's a great inspector. I think it's\ntime for me to get serious and go after him."
+    "<attr><feel_think_lv1><end_attr>「ふ～ん。ドワーフの男のヒトが\n　おかしくなっちゃった原因を探ってたら\n　浮気のせいかもしれなくて……\n<br>\n「でも　じつは　浮気じゃなくて\n　そのヒトは　かわいそうな魔物を\n　助けてあげてたっていう　話なんだね？\n<br>\n「たいした事件じゃないように　思えるけど\n　パクレ警部のことだから　きっと　何か\n　裏があったに　ちがいないね！\n<br>\n「やっぱり　警部は　すごいなあ。\n　ボクも　そろそろ　本気を出して\n　追いかけてみようかな……。": 
+    "<attr><feel_think_lv1><end_attr>Hmmm...so you were looking for the reason why\nthe Dwarf guy went crazy, and it might have\nbeen because he was cheating on his wife, but\n<br>\nit turns out that he wasn't cheating on her,\nhe was helping the poor monster out, right? It\ndoesn't seem like a big case, but Inspector\n<br>\nPakul must have had something behind it! I\nknew it! He's a great inspector. I think it's\ntime for me to get serious and go after him."
   },
   "199022": {
-    "「今回の事件は　話だけ聞くと\n　たいしたものじゃないように　思えるけど\n　何か　裏があったに　ちがいないね！\n<br>\n「やっぱり　パクレ警部は　すごいなあ。\n　ボクも　そろそろ　本気を出して\n　追いかけてみようかな……。": "This incident may not sound like much to the\ncasual observer, but there must have been\nsomething going on behind the scenes!\n<br>\nInspector Pakul is amazing after all. I think\nit's time for me to get serious and go after\nhim."
+    "「今回の事件は　話だけ聞くと\n　たいしたものじゃないように　思えるけど\n　何か　裏があったに　ちがいないね！\n<br>\n「やっぱり　パクレ警部は　すごいなあ。\n　ボクも　そろそろ　本気を出して\n　追いかけてみようかな……。": 
+    "This incident may not sound like much to the\ncasual observer, but there must have been\nsomething going on behind the scenes!\n<br>\nInspector Pakul is amazing after all. I think\nit's time for me to get serious and go after\nhim."
   },
   "199023": {
-    "<turn_pc>「カミハルムイに　行ってみたんだが\n　パクレの野郎　どこを探しても\n　見つからなかったぜ。\n<br>\n「ご同業のツバクロ一家と　カオ合わせちまったら\n　どうしようかと　ヒヤヒヤしたが\n　そっちとも　会わずじまいだったな。": "<turn_pc>I went to Kamiharmui, but I couldn't find\nPakul's family anywhere. I was worried that I\nmight run into the Tsubakuro family, who are\n<br>\nin the same business, but I didn't see them\neither."
+    "<turn_pc>「カミハルムイに　行ってみたんだが\n　パクレの野郎　どこを探しても\n　見つからなかったぜ。\n<br>\n「ご同業のツバクロ一家と　カオ合わせちまったら\n　どうしようかと　ヒヤヒヤしたが\n　そっちとも　会わずじまいだったな。": 
+    "<turn_pc>I went to Kamiharmui, but I couldn't find\nPakul's family anywhere. I was worried that I\nmight run into the Tsubakuro family, who are\n<br>\nin the same business, but I didn't see them\neither."
   },
   "199024": {
-    "<pc>は　ボンドルに\n今回の事件の内容を　教えてあげた。": "<pc> gave Bondor a rundown of the\ncase."
+    "<pc>は　ボンドルに\n今回の事件の内容を　教えてあげた。": 
+    "<pc> gave Bondor a rundown of the\ncase."
   },
   "199112": {
-    "<if_woman>「あれれ？　お姉ちゃん\n　もしかして　また　パクレ警部に頼まれて\n　何か　しようとしてる？<bw_break><else>「あれれ？　お兄ちゃん\n　もしかして　また　パクレ警部に頼まれて\n　何か　しようとしてる？<bw_break><endif>": "<if_woman>What is it? Are you trying to do something\nInspector Pakul asked you to do again, sis?<bw_break><else>What is it? Are you trying to do something\nInspector Pakul asked you to do again, big\nbrother?<bw_break><endif>"
+    "<if_woman>「あれれ？　お姉ちゃん\n　もしかして　また　パクレ警部に頼まれて\n　何か　しようとしてる？<bw_break><else>「あれれ？　お兄ちゃん\n　もしかして　また　パクレ警部に頼まれて\n　何か　しようとしてる？<bw_break><endif>": 
+    "<if_woman>What is it? Are you trying to do something\nInspector Pakul asked you to do again, sis?<bw_break><else>What is it? Are you trying to do something\nInspector Pakul asked you to do again, big\nbrother?<bw_break><endif>"
   },
   "199113": {
-    "「なんとなく　わかっちゃうんだよね。\n　いいなあ。ボクも　パクレ警部から\n　頼まれごとを　受けてみたいなあ！": "I can understand it somehow. I like it. I wish\nI could get a favor from Inspector Pakul, too!"
+    "「なんとなく　わかっちゃうんだよね。\n　いいなあ。ボクも　パクレ警部から\n　頼まれごとを　受けてみたいなあ！": 
+    "I can understand it somehow. I like it. I wish\nI could get a favor from Inspector Pakul, too!"
   }
 }

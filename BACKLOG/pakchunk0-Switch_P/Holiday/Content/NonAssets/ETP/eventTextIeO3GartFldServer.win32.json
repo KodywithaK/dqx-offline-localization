@@ -1,59 +1,78 @@
 {
   "99908": {
-    "「…………。\n　俺……オリギ。行商人。\n<br>\n「俺の仕事……馬車で\n　ガートラントからの商品……運ぶ。\n<br>\n「これから……ゲルト海峡　橋上の宿。\n　ザマ峠　ザマ烽火台。\n　ギルザッド地方　入り江の集落……行く。\n<br>\n「馬車……乗ってく？<bw_break>": "I am Olgi. I'm Olgi, a peddler. My job is to\ncarry goods from Gartlant by wagon. I'm going\nto Gert Strait Bridge Inn, Zama Pass, Zama\n<br>\nBeacon, Gilzad Region Cove Village. Do you\nwant to take a wagon?<bw_break>"
+    "「…………。\n　俺……オリギ。行商人。\n<br>\n「俺の仕事……馬車で\n　ガートラントからの商品……運ぶ。\n<br>\n「これから……ゲルト海峡　橋上の宿。\n　ザマ峠　ザマ烽火台。\n　ギルザッド地方　入り江の集落……行く。\n<br>\n「馬車……乗ってく？<bw_break>": 
+    "...... I am... Olgi. I'm Olgi. A peddler.\n<br>\nMy job is... To carry goods from Gartlant by wagon.\n<br>\nI'm going to Gert Strait Bridge Inn, Zama Pass, Zama\n<br>\nBeacon, Gilzad Region Cove Village. Do you\nwant to take a wagon?<bw_break>"
   },
   "99909": {
-    "「これから……ゲルト海峡　橋上の宿。\n　ザマ峠　ザマ烽火台。\n　ギルザッド地方　入り江の集落……行く。\n<br>\n「馬車……乗ってく？<bw_break>": "I'm going to Gert Strait Bridge Inn, Zama\nPass, Zama Beacon, Gilzad Region Cove Village.\nWagon ride?<bw_break>"
+    "「これから……ゲルト海峡　橋上の宿。\n　ザマ峠　ザマ烽火台。\n　ギルザッド地方　入り江の集落……行く。\n<br>\n「馬車……乗ってく？<bw_break>": 
+    "I'm going to Gert Strait Bridge Inn, Zama\nPass, Zama Beacon, Gilzad Region Cove Village.\nWagon ride?<bw_break>"
   },
   "99910": {
-    "「…………。\n　俺……オリギ。行商人。\n<br>\n「俺の仕事……馬車で\n　ガートラントからの商品……運ぶ。\n<br>\n「これから……ゲルト海峡　橋上の宿。\n　ザマ峠　ザマ烽火台……行く。\n　馬車……乗ってく？<bw_break>": "I am Olgi. I'm Olgi, a peddler. My job is to\ncarry goods from Gartlant by wagon. I'm going\nto Gert Strait Bridge Inn, Zama Pass, Zama\n<br>\nBeacon. Wagon ride?<bw_break>"
+    "「…………。\n　俺……オリギ。行商人。\n<br>\n「俺の仕事……馬車で\n　ガートラントからの商品……運ぶ。\n<br>\n「これから……ゲルト海峡　橋上の宿。\n　ザマ峠　ザマ烽火台……行く。\n　馬車……乗ってく？<bw_break>": 
+    "...... I am... Olgi. I'm Olgi. A peddler.\n<br>\nMy job is... To carry goods from Gartlant by wagon.\n<br>\nI'm going\nto Gert Strait Bridge Inn, Zama Pass, Zama\n<br>\nBeacon. Wagon ride?<bw_break>"
   },
   "99911": {
-    "「これから……ゲルト海峡　橋上の宿。\n　ザマ峠　ザマ烽火台……行く。\n　馬車……乗ってく？<bw_break>": "Gert Strait Bridge Inn. I'm going to Zama Pass\nZama Beacon. Wagon ride?<bw_break>"
+    "「これから……ゲルト海峡　橋上の宿。\n　ザマ峠　ザマ烽火台……行く。\n　馬車……乗ってく？<bw_break>": 
+    "Gert Strait Bridge Inn. I'm going to Zama Pass\nZama Beacon. Wagon ride?<bw_break>"
   },
   "99912": {
-    "<pipipi_low>「あれ！？　……すまない。\n　今……そこ行く……都合悪い。\n<br>\n「……お金……返す。\n　時間をおいて……また来て。": "<pipipi_low>Huh! Sorry. It's not a good time to go there.\nI'll give you your money back. Come back\nlater."
+    "<pipipi_low>「あれ！？　……すまない。\n　今……そこ行く……都合悪い。\n<br>\n「……お金……返す。\n　時間をおいて……また来て。": 
+    "<pipipi_low>Huh! Sorry. It's not a good time to go there.\nI'll give you your money back. Come back\nlater."
   },
   "99913": {
-    "「……送るだけ。迎えには行けない……。\n　それでいいなら……どこ行く？\n<name_off><select>\nゲルト海峡\nザマ烽火台\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": "I can only drop you off. I can't pick you up.\nIf that's all right with you, where are you\ngoing?\n<name_off><select>\nGert Strait\nZama Beacon\nI don't ride.\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "「……送るだけ。迎えには行けない……。\n　それでいいなら……どこ行く？\n<name_off><select>\nゲルト海峡\nザマ烽火台\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
+    "...I can only drop you off... I can't pick you up.\nIf that's all right with you, where are you\ngoing?\n<name_off><select>\nGert Strait\nZama Beacon\nI don't ride.\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "99914": {
-    "<attr><feel_happy_lv2><end_attr>「……まいど。\n　……行く！": "<attr><feel_happy_lv2><end_attr>Thank you for coming. I'm going!"
+    "<attr><feel_happy_lv2><end_attr>「……まいど。\n　……行く！": 
+    "<attr><feel_happy_lv2><end_attr>Thank you for coming. I'm going!"
   },
   "99915": {
-    "「そうか……。": "Okay."
+    "「そうか……。": 
+    "Okay..."
   },
   "99916": {
-    "「……送るだけ。迎えには行けない……。\n　それでいいなら……どこ行く？\n<name_off><select>\n橋上の宿（ゲルト海峡）\nザマ烽火台（ザマ峠）\n入り江の集落（ギルザッド地方）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>": "I can only drop you off. I can't pick you up.\nIf that's all right with you, where are you\ngoing?\n<name_off><select>\nBridge Inn (Gert Strait)\nZama Beacon (Zama Pass)\nCove Village (Gilzad Region)\nNo Ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "「……送るだけ。迎えには行けない……。\n　それでいいなら……どこ行く？\n<name_off><select>\n橋上の宿（ゲルト海峡）\nザマ烽火台（ザマ峠）\n入り江の集落（ギルザッド地方）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
+    "...I can only drop you off... I can't pick you up.\nIf that's all right with you, where are you\ngoing?\n<name_off><select>\nBridge Inn (Gert Strait)\nZama Beacon (Zama Pass)\nCove Village (Gilzad Region)\nNo Ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "99917": {
-    "<pipipi_low>「……おまちどお。\n　橋上の宿……着いた。": "<pipipi_low>Here we are. Bridge Inn has arrived."
+    "<pipipi_low>「……おまちどお。\n　橋上の宿……着いた。": 
+    "<pipipi_low>...Here we are. Bridge Inn... We've arrived."
   },
   "99918": {
-    "<pipipi_low>「……おまちどお。\n　ザマ烽火台……着いた。": "<pipipi_low>Omawadoo. Zama Beacon has arrived."
+    "<pipipi_low>「……おまちどお。\n　ザマ烽火台……着いた。": 
+    "<pipipi_low>...Here we are. Zama Beacon... We've arrived."
   },
   "99919": {
-    "<pipipi_low>「……おまちどお。\n　入り江の集落……着いた。": "<pipipi_low>Here we are. I arrived at Cove Village."
+    "<pipipi_low>「……おまちどお。\n　入り江の集落……着いた。": 
+    "<pipipi_low>...Here we are. Cove Village... We've arrived."
   },
   "99920": {
-    "「…………。\n　お金……足りない。": "I need more money. Not enough money."
+    "「…………。\n　お金……足りない。": 
+    "......That's... Not gonna be enough."
   },
   "99921": {
-    "「<%sL_TIMEI>\n　行く。\n　２５ゴールドかかる……いい？<yesno><break>": "<%sL_TIMEI> I'm going. It'll cost you 25 gold,\nokay?<yesno><break>"
+    "「<%sL_TIMEI>\n　行く。\n　２５ゴールドかかる……いい？<yesno><break>": 
+    "<%sL_TIMEI> to go. It'll cost you 25 gold... That okay?<yesno><break>"
   },
   "99922": {
-    "「そうか……。残念だ。": "I see. Too bad."
+    "「そうか……。残念だ。": 
+    "I see... Too bad."
   },
   "117314": {
-    "「…………。\n　ここから北……ザマ峠。\n　そこに　ザマ烽火台……ある。\n<br>\n「ザマ峠の北……ランドンフット。\n　そこから　西行くと\n　ゲルト海峡　橋上の宿……ある。\n<br>\n「ここから南東……ギルザッド地方。\n　そこに　入り江の集落……ある。\n<br>\n「まだ……行ったことないなら\n　行ってみる……いい。": "North of here is Zama Pass. North of here is\nZama Pass. There is the Zama Beacon.\nLandonfoot, north of Zama Pass. Go west from\n<br>\nthere and you will find Gert Strait Bridge\nInn. Southeast of here is Gilzad Region. There\nis Cove Village there. If you haven't been\n<br>\nthere yet, you should go there."
+    "「…………。\n　ここから北……ザマ峠。\n　そこに　ザマ烽火台……ある。\n<br>\n「ザマ峠の北……ランドンフット。\n　そこから　西行くと\n　ゲルト海峡　橋上の宿……ある。\n<br>\n「ここから南東……ギルザッド地方。\n　そこに　入り江の集落……ある。\n<br>\n「まだ……行ったことないなら\n　行ってみる……いい。": 
+    "......North of here... Is Zama Pass. And there...\nIs Zama Beacon...\n<br>\nNorth of Zama Pass... Landonfoot. And west of there...\nGert Strait and the Bridge Inn.\n<br>\nFrom there to the southeast... The Gilzad Region.\nThere... Is Cove Village.\n<br>\nNow... If you've never been, try going... It's good."
   },
   "112690": {
-    "墓石には　「踊り子ファラン　ここに眠る」\nと刻まれている。": "The tomb stone is inscribed ''dancerFaran here\nlies''."
+    "墓石には　「踊り子ファラン　ここに眠る」\nと刻まれている。": 
+    "The tombstone is inscribed, ''Here lies Dancer Faran''."
   },
   "112691": {
-    "墓石には　「踊り子シャーラ　ここに眠る」\nと刻まれている。": "The tomb stone is inscribed ''dancerSharla lies\nhere."
+    "墓石には　「踊り子シャーラ　ここに眠る」\nと刻まれている。": 
+    "The tombstone is inscribed, ''Here lies Dancer Shara''."
   },
   "112692": {
-    "かなり古い墓石だ。\n名前が刻まれていたようだが\nかすれていて　読み取ることができない。": "It is a very old TOMB stone. It seems to have\nhad a name engraved on it, but it is too faint\nto read."
+    "かなり古い墓石だ。\n名前が刻まれていたようだが\nかすれていて　読み取ることができない。": 
+    "It is a very old tombstone. It seems to have\nhad a name engraved on it, but it is too faint\nto read."
   }
 }

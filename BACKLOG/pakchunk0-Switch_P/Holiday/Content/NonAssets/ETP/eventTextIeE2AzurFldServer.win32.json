@@ -1,164 +1,218 @@
 {
   "94093": {
-    "「ここから　北東へ街道沿いに進むと\n　木かげの集落という　集落に出ます。\n<br>\n「さらに　そこから街道沿いに進むと\n　ツスクルの村という　エルフたちが暮らす村に\n　行き着くのでございます。\n<br>\n「まだ　行ったことがないのであれば\n　一度　行ってみることを　お勧めいたしますよ。": "From here, you will reach the village\nof Treeshade Village by following the\nroad to the northeast. If you continue\n<br>\nalong the road from there, you will\nreach Tsusukul Village, where Elf\nlive. If you have never been to\n<br>\nTsusukul Village, I recommend you to\ngo there."
+    "「ここから　北東へ街道沿いに進むと\n　木かげの集落という　集落に出ます。\n<br>\n「さらに　そこから街道沿いに進むと\n　ツスクルの村という　エルフたちが暮らす村に\n　行き着くのでございます。\n<br>\n「まだ　行ったことがないのであれば\n　一度　行ってみることを　お勧めいたしますよ。": 
+    "From here, you will reach the village\nof Treeshade Village by following the\nroad to the northeast. If you continue\n<br>\nalong the road from there, you will\nreach Tsusukul Village, where Elf\nlive. If you have never been to\n<br>\nTsusukul Village, I recommend you to\ngo there."
   },
   "94094": {
-    "「ごきげんよう。旅のお方。\n　私は　行商人のルバンと申します。\n　以後　お見知りおきを。\n<br>\n「私の仕事は　この馬車で\n　風の町アズランからの　商品を\n　各所へ　運ぶことでございます。\n<br>\n「これから　ツスクルの村を経由して\n　山間の関所まで　行くのですが\n<br>\n「そちら方面に行かれる　ご用事はございますか？\n　よろしければ　お乗せいたしますよ。<bw_break>": "Cheery. Hello, traveler. My name is\nRuban, a peddler. I hope to make your\nacquaintance. My job is to transport\n<br>\ngoods from Wind Town Azlan to various\nplaces in this wagon. We are going to\nMountain Pass via Tsusukul Village. If\n<br>\nyou wish, I can give you a ride.<bw_break>"
+    "「ごきげんよう。旅のお方。\n　私は　行商人のルバンと申します。\n　以後　お見知りおきを。\n<br>\n「私の仕事は　この馬車で\n　風の町アズランからの　商品を\n　各所へ　運ぶことでございます。\n<br>\n「これから　ツスクルの村を経由して\n　山間の関所まで　行くのですが\n<br>\n「そちら方面に行かれる　ご用事はございますか？\n　よろしければ　お乗せいたしますよ。<bw_break>": 
+    "Cheery. Hello, traveler. My name is\nRuban, a peddler. I hope to make your\nacquaintance. My job is to transport\n<br>\ngoods from Wind Town Azlan to various\nplaces in this wagon. We are going to\nMountain Pass via Tsusukul Village. If\n<br>\nyou wish, I can give you a ride.<bw_break>"
   },
   "94095": {
-    "「これから　ツスクルの村を経由して\n　山間の関所まで　行くのですが\n<br>\n「そちら方面に行かれる　ご用事はございますか？\n　よろしければ　お乗せいたしますよ。<bw_break>": "We are going to Mountain Pass via\nTsusukul Village. If you like, I can\ngive you a ride.<bw_break>"
+    "「これから　ツスクルの村を経由して\n　山間の関所まで　行くのですが\n<br>\n「そちら方面に行かれる　ご用事はございますか？\n　よろしければ　お乗せいたしますよ。<bw_break>": 
+    "We are going to Mountain Pass via\nTsusukul Village. If you like, I can\ngive you a ride.<bw_break>"
   },
   "94099": {
-    "「ただし　送るのみで　迎えにはあがれません。\n　それでも　よろしければ\n　どこまで乗って行かれますか？\n<name_off><select>\nツスクルの村\n木かげの集落（アズラン地方）\nレンジャー協会支部（モリナラ大森林）\n山間の関所（イナミノ街道）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": "However, I can only drop you off, not\npick you up. If that is still the\ncase, where would you like to ride to?\n<name_off><select>\nTsusukul Village\nTreeshade Village (Azlan Region)\nRanger Association Branch (Molinara Forest)\nMountain Pass (Inamino Highway)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "「ただし　送るのみで　迎えにはあがれません。\n　それでも　よろしければ\n　どこまで乗って行かれますか？\n<name_off><select>\nツスクルの村\n木かげの集落（アズラン地方）\nレンジャー協会支部（モリナラ大森林）\n山間の関所（イナミノ街道）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
+    "However, I can only drop you off, not\npick you up. If that is still the\ncase, where would you like to ride to?\n<name_off><select>\nTsusukul Village\nTreeshade Village (Azlan Region)\nRanger Association Branch (Molinara Forest)\nMountain Pass (Inamino Highway)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "94100": {
-    "<attr><feel_happy_lv2><end_attr>「まいど　ありがとうございます。\n　ではすぐに　出発させていただきます。": "<attr><feel_happy_lv2><end_attr>Thank you very much. Then I will leave\nimmediately."
+    "<attr><feel_happy_lv2><end_attr>「まいど　ありがとうございます。\n　ではすぐに　出発させていただきます。": 
+    "<attr><feel_happy_lv2><end_attr>Thank you very much. Then I will leave\nimmediately."
   },
   "94101": {
-    "「お乗りに　なりませんか。\n　ではまた　別の機会に　ご利用くださいませ。": "Would you like to join us for a ride?\nWe look forward to seeing you again at\nanother time."
+    "「お乗りに　なりませんか。\n　ではまた　別の機会に　ご利用くださいませ。": 
+    "Would you like to join us for a ride?\nWe look forward to seeing you again at\nanother time."
   },
   "94102": {
-    "<pipipi_low>「おまちどおさまでございます。\n　木かげの集落に　到着いたしました。\n　それでは　ごきげんよう。": "<pipipi_low>Thank you for your patience. You have\narrived at Treeshade Village. Good\nday, Cheery."
+    "<pipipi_low>「おまちどおさまでございます。\n　木かげの集落に　到着いたしました。\n　それでは　ごきげんよう。": 
+    "<pipipi_low>Thank you for your patience. You have\narrived at Treeshade Village. Good\nday, Cheery."
   },
   "94103": {
-    "<pipipi_low>「おまちどおさまでございます。\n　ツスクルの村に　到着いたしました。\n　それでは　ごきげんよう。": "<pipipi_low>Thank you for your patience. We have\narrived at Tsusukul Village. Good day,\nCheery."
+    "<pipipi_low>「おまちどおさまでございます。\n　ツスクルの村に　到着いたしました。\n　それでは　ごきげんよう。": 
+    "<pipipi_low>Thank you for your patience. We have\narrived at Tsusukul Village. Good day,\nCheery."
   },
   "94104": {
-    "「残念ですが　お金が足りないようでございます。\n　お金を持って　また来ていただければ……。": "I am sorry, but we seem to be short of\nmoney. If you could come back again\nwith the money."
+    "「残念ですが　お金が足りないようでございます。\n　お金を持って　また来ていただければ……。": 
+    "I am sorry, but we seem to be short of\nmoney. If you could come back again\nwith the money."
   },
   "94105": {
-    "「<%sL_TIMEI>まで\n　行かれるのですね。\n　２５ゴールドになりますが　よろしいですか？<yesno><break>": "You are going to <%sL_TIMEI>. That\nwould be 25 gold, if I may?<yesno><break>"
+    "「<%sL_TIMEI>まで\n　行かれるのですね。\n　２５ゴールドになりますが　よろしいですか？<yesno><break>": 
+    "You are going to <%sL_TIMEI>. That\nwould be 25 gold, if I may?<yesno><break>"
   },
   "124149": {
-    "<pipipi_low>「おまちどおさまでございます。\n　レンジャー協会支部に　到着いたしました。\n　それでは　ごきげんよう。": "<pipipi_low>Thank you for your patience. You have\narrived at the Ranger Association\nBranch. Good day, Cheery."
+    "<pipipi_low>「おまちどおさまでございます。\n　レンジャー協会支部に　到着いたしました。\n　それでは　ごきげんよう。": 
+    "<pipipi_low>Thank you for your patience. You have\narrived at the Ranger Association\nBranch. Good day, Cheery."
   },
   "127385": {
-    "<pipipi_low>「おまちどおさまでございます。\n　山間の関所に　到着いたしました。\n　それでは　ごきげんよう。": "<pipipi_low>Thank you for your patience. We have\narrived at Mountain Pass. Good day,\nCheery."
+    "<pipipi_low>「おまちどおさまでございます。\n　山間の関所に　到着いたしました。\n　それでは　ごきげんよう。": 
+    "<pipipi_low>Thank you for your patience. We have\narrived at Mountain Pass. Good day,\nCheery."
   },
   "39137": {
-    "<attr><feel_happy_lv2><end_attr>「北の　モリナラ大森林には　行かれましたか？\n　とても美しい　豊かな森なのですよ。": "<attr><feel_happy_lv2><end_attr>Have you been to the Molinara Forest\nin the north? It is a very beautiful\nand rich forest."
+    "<attr><feel_happy_lv2><end_attr>「北の　モリナラ大森林には　行かれましたか？\n　とても美しい　豊かな森なのですよ。": 
+    "<attr><feel_happy_lv2><end_attr>Have you been to the Molinara Forest\nin the north? It is a very beautiful\nand rich forest."
   },
   "42261": {
-    "<attr><feel_happy_lv2><end_attr>「誰かと思えば　<pc>さんでしたか。\n　こんな所で　お会いするとは　奇遇ですね。\n<br>\n「おや　私を　覚えてらっしゃらない？ \n　はっはっは！　冗談が　お上手ですね。\n　みかがみの泉で会った　ザホックですよ。": "<attr><feel_happy_lv2><end_attr>Look who it is, <pc>. What a\ncoincidence to meet you here. Oh, you\ndon't remember me?Ha-ha-ha! You are\n<br>\nvery good at jokes, aren't you? I am\nZahokku, whom you met at Mirror\nFountain."
+    "<attr><feel_happy_lv2><end_attr>「誰かと思えば　<pc>さんでしたか。\n　こんな所で　お会いするとは　奇遇ですね。\n<br>\n「おや　私を　覚えてらっしゃらない？ \n　はっはっは！　冗談が　お上手ですね。\n　みかがみの泉で会った　ザホックですよ。": 
+    "<attr><feel_happy_lv2><end_attr>Look who it is, <pc>. What a\ncoincidence to meet you here. Oh, you\ndon't remember me?Ha-ha-ha! You are\n<br>\nvery good at jokes, aren't you? I am\nZahokku, whom you met at Mirror\nFountain."
   },
   "39138": {
-    "<attr><feel_happy_lv2><end_attr>「誰かと思えば　<pc>さんでしたか。\n　こんな所で　お会いするとは　奇遇ですね。\n<br>\n「おや　私を　覚えてらっしゃらない？\n　はっはっは！　冗談が　お上手ですね。\n　みかがみの泉で会った　ザホックですよ。\n<br>\n「ヘルガ僧正が　調べものをしたいと\n　おっしゃられましてね。\n　そのおともで　来ているんです。": "<attr><feel_happy_lv2><end_attr>Look who it is, <pc>. What a\ncoincidence to meet you here. Oh, you\ndon't remember me? Ha-ha-ha! You are\n<br>\nvery good at jokes, aren't you? I am\nZahokku, whom you met at Mirror\nFountain. Priest Helga wanted to do\n<br>\nsome research. I'm here as a\ncompanion."
+    "<attr><feel_happy_lv2><end_attr>「誰かと思えば　<pc>さんでしたか。\n　こんな所で　お会いするとは　奇遇ですね。\n<br>\n「おや　私を　覚えてらっしゃらない？\n　はっはっは！　冗談が　お上手ですね。\n　みかがみの泉で会った　ザホックですよ。\n<br>\n「ヘルガ僧正が　調べものをしたいと\n　おっしゃられましてね。\n　そのおともで　来ているんです。": 
+    "<attr><feel_happy_lv2><end_attr>Look who it is, <pc>. What a\ncoincidence to meet you here. Oh, you\ndon't remember me? Ha-ha-ha! You are\n<br>\nvery good at jokes, aren't you? I am\nZahokku, whom you met at Mirror\nFountain. Priest Helga wanted to do\n<br>\nsome research. I'm here as a\ncompanion."
   },
   "39139": {
-    "<attr><feel_think_lv1><end_attr>「おや　<pc>さん？\n　ヘルガ僧正ならば　あなたのために\n　アズランのキリカ聖堂に　戻られましたよ。\n<br>\n「すぐに　キリカ聖堂へ　向かうのです。\n　ヘルガ僧正は　お忙しい方。\n　あまり　お待たせしてはいけません。": "<attr><feel_think_lv1><end_attr>Oh <pc>? Priest Helga has\nreturned to the Kirika Shrine in Azlan\nfor you. You must go to Kirika Shrine\n<br>\nimmediately. Priest Helga is a busy\nperson. Do not keep him waiting too\nlong."
+    "<attr><feel_think_lv1><end_attr>「おや　<pc>さん？\n　ヘルガ僧正ならば　あなたのために\n　アズランのキリカ聖堂に　戻られましたよ。\n<br>\n「すぐに　キリカ聖堂へ　向かうのです。\n　ヘルガ僧正は　お忙しい方。\n　あまり　お待たせしてはいけません。": 
+    "<attr><feel_think_lv1><end_attr>Oh <pc>? Priest Helga has\nreturned to the Kirika Shrine in Azlan\nfor you. You must go to Kirika Shrine\n<br>\nimmediately. Priest Helga is a busy\nperson. Do not keep him waiting too\nlong."
   },
   "39140": {
-    "<attr><feel_happy_lv1><end_attr>「おお　<pc>さん。\n　洗礼の儀の準備に　入ったようですね。\n<br>\n「無事　洗礼の儀を済ませたならば\n　あなたと私は　まことの兄弟となれるでしょう！": "<attr><feel_happy_lv1><end_attr>Oh <pc>. It seems that you\nare getting ready for the baptismal\nrite. If you successfully complete the\n<br>\nbaptismal rite, you and I will be true\nbrothers!"
+    "<attr><feel_happy_lv1><end_attr>「おお　<pc>さん。\n　洗礼の儀の準備に　入ったようですね。\n<br>\n「無事　洗礼の儀を済ませたならば\n　あなたと私は　まことの兄弟となれるでしょう！": 
+    "<attr><feel_happy_lv1><end_attr>Oh <pc>. It seems that you\nare getting ready for the baptismal\nrite. If you successfully complete the\n<br>\nbaptismal rite, you and I will be true\nbrothers!"
   },
   "39142": {
-    "「おお　<pc>さん。\n　ヘルガ僧正が　イヨリ大僧正たちと共に\n　キリカの産屋へ　向かいました。\n<br>\n「さあ　あなたも　急ぎなさい。\n　東に向かえば　すぐにキリカの小島にある\n　産屋に　着くでしょう。": "Oh <pc>. Priest Helga has\ngone to Kirika Maternity with High\nPriest Iyori and others. Now you, too,\n<br>\nmust hurry. If you head east, you will\nsoon reach the maternity house at\nKirika Islet."
+    "「おお　<pc>さん。\n　ヘルガ僧正が　イヨリ大僧正たちと共に\n　キリカの産屋へ　向かいました。\n<br>\n「さあ　あなたも　急ぎなさい。\n　東に向かえば　すぐにキリカの小島にある\n　産屋に　着くでしょう。": 
+    "Oh <pc>. Priest Helga has\ngone to Kirika Maternity with High\nPriest Iyori and others. Now you, too,\n<br>\nmust hurry. If you head east, you will\nsoon reach the maternity house at\nKirika Islet."
   },
   "39141": {
-    "<if_woman><attr><feel_happy_lv2><end_attr>「おお　我が妹　<pc>。\n　洗礼の儀が　無事に終わり\n　あなたと私は　まことの兄弟となりました。\n<br>\n「これからは　あなたの手本となるよう\n　私も　精進しなければなりませんね。<else><attr><feel_happy_lv2><end_attr>「おお　我が弟　<pc>。\n　洗礼の儀が　無事に終わり\n　あなたと私は　まことの兄弟となりました。\n<br>\n「これからは　あなたの手本となるよう\n　私も　精進しなければなりませんね。<endif>": "<if_woman><attr><feel_happy_lv2><end_attr>Oh my sister <pc>. After the\nsuccessful completion of the baptismal\nrite, you and I have become true\n<br>\nbrothers. From now on, I must also\ndevote myself to follow your example.<else><attr><feel_happy_lv2><end_attr>Oh my brother <pc>. After the\nsuccessful completion of the baptismal\nrite, you and I have become true\n<br>\nbrothers. From now on, I must also\ndevote myself to follow your example.<endif>"
+    "<if_woman><attr><feel_happy_lv2><end_attr>「おお　我が妹　<pc>。\n　洗礼の儀が　無事に終わり\n　あなたと私は　まことの兄弟となりました。\n<br>\n「これからは　あなたの手本となるよう\n　私も　精進しなければなりませんね。<else><attr><feel_happy_lv2><end_attr>「おお　我が弟　<pc>。\n　洗礼の儀が　無事に終わり\n　あなたと私は　まことの兄弟となりました。\n<br>\n「これからは　あなたの手本となるよう\n　私も　精進しなければなりませんね。<endif>": 
+    "<if_woman><attr><feel_happy_lv2><end_attr>Oh my sister <pc>. After the\nsuccessful completion of the baptismal\nrite, you and I have become true\n<br>\nbrothers. From now on, I must also\ndevote myself to follow your example.<else><attr><feel_happy_lv2><end_attr>Oh my brother <pc>. After the\nsuccessful completion of the baptismal\nrite, you and I have become true\n<br>\nbrothers. From now on, I must also\ndevote myself to follow your example.<endif>"
   },
   "36190": {
-    "「うーん　むにゃ　むにゃ……\n　寝かせといてくれよ。": "Mmmm, mmmm, mmmm, mmmm, mmmm, let me\nsleep."
+    "「うーん　むにゃ　むにゃ……\n　寝かせといてくれよ。": 
+    "Mmmm, mmmm, mmmm, mmmm, mmmm, let me\nsleep."
   },
   "48834": {
-    "テントの中で　誰かが寝ている気配がする。\n今は　入らないほうが　よさそうだ。": "I feel someone is sleeping in the\ntent. I think it's best not to go in\nthere now."
+    "テントの中で　誰かが寝ている気配がする。\n今は　入らないほうが　よさそうだ。": 
+    "I feel someone is sleeping in the\ntent. I think it's best not to go in\nthere now."
   },
   "36193": {
-    "<attr><feel_sad_one><end_attr>「痛い……　痛いよ。\n　こんなに　背中が痛いのに\n　さすりたくても　ウデが　動かないんだ。\n<br>\n「なあ……　さすってくれよ　僧侶様。\n　亭主は　病気がうつったら　イヤだって\n　あたしを　置いてっちまったんだよ……。": "<attr><feel_sad_one><end_attr>It hurts. It hurts. My back hurts so\nmuch, but I can't move my udder to rub\nit. Come on, rub me, priest. My\n<br>\nhusband left me because he didn't want\nme to catch the disease."
+    "<attr><feel_sad_one><end_attr>「痛い……　痛いよ。\n　こんなに　背中が痛いのに\n　さすりたくても　ウデが　動かないんだ。\n<br>\n「なあ……　さすってくれよ　僧侶様。\n　亭主は　病気がうつったら　イヤだって\n　あたしを　置いてっちまったんだよ……。": 
+    "<attr><feel_sad_one><end_attr>It hurts. It hurts. My back hurts so\nmuch, but I can't move my udder to rub\nit. Come on, rub me, priest. My\n<br>\nhusband left me because he didn't want\nme to catch the disease."
   },
   "36194": {
-    "<attr><feel_think_lv3><end_attr>「おや　<pc>。\n　そういえば　この地での任務が\n　あなたの　初仕事でしたね。\n<br>\n「しかし　あなたの手など　必要ありません。\n　この仕事は　私　ザホックが\n　すべて　片付けてしまいますから。": "<attr><feel_think_lv3><end_attr>Oh <pc>. I recall that this\nwas your first assignment here. But I\ndon't need your help. I, Zahokku, will\n<br>\ntake care of everything."
+    "<attr><feel_think_lv3><end_attr>「おや　<pc>。\n　そういえば　この地での任務が\n　あなたの　初仕事でしたね。\n<br>\n「しかし　あなたの手など　必要ありません。\n　この仕事は　私　ザホックが\n　すべて　片付けてしまいますから。": 
+    "<attr><feel_think_lv3><end_attr>Oh <pc>. I recall that this\nwas your first assignment here. But I\ndon't need your help. I, Zahokku, will\n<br>\ntake care of everything."
   },
   "36195": {
-    "<attr><feel_think_lv1><end_attr>「なんと！　閃香樹という　香木が\n　死神の息吹に　効果があるというのですか？\n<br>\n「フム……　ならば　北西の森の中にある\n　レンジャー協会　モリナラ支部に行けば\n　閃香樹のことを　聞けるやも……　ブツブツ。": "<attr><feel_think_lv1><end_attr>Oh, my God! You mean to tell me that\nan aromatic tree called the Sparkling\nTree is effective against the deadly\n<br>\nSpelly Breath? Hm, then, if we go to\nthe Morinara branch of the Ranger\nAssociation in the northwest forest,\n<br>\nwe may be able to ask them about the\nfragrant tree."
+    "<attr><feel_think_lv1><end_attr>「なんと！　閃香樹という　香木が\n　死神の息吹に　効果があるというのですか？\n<br>\n「フム……　ならば　北西の森の中にある\n　レンジャー協会　モリナラ支部に行けば\n　閃香樹のことを　聞けるやも……　ブツブツ。": 
+    "<attr><feel_think_lv1><end_attr>Oh, my God! You mean to tell me that\nan aromatic tree called the Sparkling\nTree is effective against the deadly\n<br>\nSpelly Breath? Hm, then, if we go to\nthe Morinara branch of the Ranger\nAssociation in the northwest forest,\n<br>\nwe may be able to ask them about the\nfragrant tree."
   },
   "36196": {
-    "<attr><feel_think_lv1><end_attr>「さあ　あなたは　修練に戻りなさい。\n　閃香樹なら　この私　ザホックが\n　見つけてごらんにいれましょう。": "<attr><feel_think_lv1><end_attr>Now you go back to your training. I,\nZahokku, will find the fragrant tree\nand show it to you."
+    "<attr><feel_think_lv1><end_attr>「さあ　あなたは　修練に戻りなさい。\n　閃香樹なら　この私　ザホックが\n　見つけてごらんにいれましょう。": 
+    "<attr><feel_think_lv1><end_attr>Now you go back to your training. I,\nZahokku, will find the fragrant tree\nand show it to you."
   },
   "36197": {
-    "<attr><feel_sad_one><end_attr>「はあはあ……　み　見えないんだ　何も。\n　目が　見えなくなっちまって。\n<br>\n「あたし……　このまま　死ぬのかな……。": "<attr><feel_sad_one><end_attr>I can't see anything. I can't see\nanything. I wonder if I'm going to die\nlike this."
+    "<attr><feel_sad_one><end_attr>「はあはあ……　み　見えないんだ　何も。\n　目が　見えなくなっちまって。\n<br>\n「あたし……　このまま　死ぬのかな……。": 
+    "<attr><feel_sad_one><end_attr>I can't see anything. I can't see\nanything. I wonder if I'm going to die\nlike this."
   },
   "36198": {
-    "<if_woman><attr><feel_sad_lv3><end_attr>「うぐぐっ　我が妹よ……\n　何もできない　兄弟子の私を\n　笑うがいいでしょう。\n<br>\n「呪文に　薬に　新しい治療法……\n　あらゆるものを　試してみましたが\n　病人たちは　弱っていくばかり。\n<br>\n「閃香樹さえ　手に入れば……。<else><attr><feel_sad_lv3><end_attr>「うぐぐっ　我が弟よ……\n　何もできない　兄弟子の私を\n　笑うがいいでしょう。\n<br>\n「呪文に　薬に　新しい治療法……\n　あらゆるものを　試してみましたが\n　病人たちは　弱っていくばかり。\n<br>\n「閃香樹さえ　手に入れば……。<endif>": "<if_woman><attr><feel_sad_lv3><end_attr>Uggghhh, my sister, laugh at me, your\nbrother who can do nothing. I've tried\neverything, spells, medicines, new\n<br>\ncures, but the sick are only getting\nweaker. If only I could get my hands\non some sparkling wood.<else><attr><feel_sad_lv3><end_attr>Uggghhh, my brother, laugh at me, your\nbrother who can do nothing. I've tried\neverything, spells, medicines, new\n<br>\ncures, but the sick are only getting\nweaker. If only I could get my hands\non some sparkling wood.<endif>"
+    "<if_woman><attr><feel_sad_lv3><end_attr>「うぐぐっ　我が妹よ……\n　何もできない　兄弟子の私を\n　笑うがいいでしょう。\n<br>\n「呪文に　薬に　新しい治療法……\n　あらゆるものを　試してみましたが\n　病人たちは　弱っていくばかり。\n<br>\n「閃香樹さえ　手に入れば……。<else><attr><feel_sad_lv3><end_attr>「うぐぐっ　我が弟よ……\n　何もできない　兄弟子の私を\n　笑うがいいでしょう。\n<br>\n「呪文に　薬に　新しい治療法……\n　あらゆるものを　試してみましたが\n　病人たちは　弱っていくばかり。\n<br>\n「閃香樹さえ　手に入れば……。<endif>": 
+    "<if_woman><attr><feel_sad_lv3><end_attr>Uggghhh, my sister, laugh at me, your\nbrother who can do nothing. I've tried\neverything, spells, medicines, new\n<br>\ncures, but the sick are only getting\nweaker. If only I could get my hands\non some sparkling wood.<else><attr><feel_sad_lv3><end_attr>Uggghhh, my brother, laugh at me, your\nbrother who can do nothing. I've tried\neverything, spells, medicines, new\n<br>\ncures, but the sick are only getting\nweaker. If only I could get my hands\non some sparkling wood.<endif>"
   },
   "48835": {
-    "テントの中からは　アルノーの寝息が聞こえる。\n今は　入らないほうが　よさそうだ。": "I can hear Arnoud sleeping in the\ntent. I think it's better not to go in\nthere now."
+    "テントの中からは　アルノーの寝息が聞こえる。\n今は　入らないほうが　よさそうだ。": 
+    "I can hear Arnoud sleeping in the\ntent. I think it's better not to go in\nthere now."
   },
   "36200": {
-    "<attr><feel_happy_one><end_attr>「ありがとね　僧侶様。\n　あんたが　いなかったら　あたしは\n　まちがいなく　くたばってたね。\n<br>\n「こうして　助けてもらった命だ。\n　全力で　生き抜いてやるよ。\n　今なら　なんだって　やれる気がするんだ。": "<attr><feel_happy_one><end_attr>Thank you priest. If it wasn't for\nyou, I'd be wasted for sure. You saved\nmy life. I'll do my best to survive. I\n<br>\nfeel like I can do anything now."
+    "<attr><feel_happy_one><end_attr>「ありがとね　僧侶様。\n　あんたが　いなかったら　あたしは\n　まちがいなく　くたばってたね。\n<br>\n「こうして　助けてもらった命だ。\n　全力で　生き抜いてやるよ。\n　今なら　なんだって　やれる気がするんだ。": 
+    "<attr><feel_happy_one><end_attr>Thank you priest. If it wasn't for\nyou, I'd be wasted for sure. You saved\nmy life. I'll do my best to survive. I\n<br>\nfeel like I can do anything now."
   },
   "36201": {
-    "<if_woman><attr><feel_happy_lv1><end_attr>「おお　我が妹よ！\n　兄弟子として　あなたを　こんなに\n　誇りに思ったことは　ありません。\n<br>\n「洗礼の儀で　エルドナ神が\n　あなたを　必要としていた理由が\n　今なら　わかる気がします。<else><attr><feel_happy_lv1><end_attr>「おお　我が弟よ！\n　兄弟子として　あなたを　こんなに\n　誇りに思ったことは　ありません。\n<br>\n「洗礼の儀で　エルドナ神が\n　あなたを　必要としていた理由が\n　今なら　わかる気がします。<endif>": "<if_woman><attr><feel_happy_lv1><end_attr>Oh, my sister! I have never been so\nproud of you as a Brother's child. I\ncan see now why Eldona needed you at\n<br>\nher baptism.<else><attr><feel_happy_lv1><end_attr>Oh, my brother! I have never been so\nproud of you as a Brother's child. I\ncan see now why Eldona needed you at\n<br>\nher baptism.<endif>"
+    "<if_woman><attr><feel_happy_lv1><end_attr>「おお　我が妹よ！\n　兄弟子として　あなたを　こんなに\n　誇りに思ったことは　ありません。\n<br>\n「洗礼の儀で　エルドナ神が\n　あなたを　必要としていた理由が\n　今なら　わかる気がします。<else><attr><feel_happy_lv1><end_attr>「おお　我が弟よ！\n　兄弟子として　あなたを　こんなに\n　誇りに思ったことは　ありません。\n<br>\n「洗礼の儀で　エルドナ神が\n　あなたを　必要としていた理由が\n　今なら　わかる気がします。<endif>": 
+    "<if_woman><attr><feel_happy_lv1><end_attr>Oh, my sister! I have never been so\nproud of you as a Brother's child. I\ncan see now why Eldona needed you at\n<br>\nher baptism.<else><attr><feel_happy_lv1><end_attr>Oh, my brother! I have never been so\nproud of you as a Brother's child. I\ncan see now why Eldona needed you at\n<br>\nher baptism.<endif>"
   },
   "60374": {
-    "<attr><feel_happy_lv1><end_attr>「旅人はん　ご存じどすか？\n　ずうっと西の　王都カミハルムイには\n　美容院という　お店が　あるんどす。\n<br>\n「うちは　そこで　美容師見習いとして\n　働かしてもらうことになりましてなぁ。\n　これから　王都に向かうとこなんどすえ。": "<attr><feel_happy_lv1><end_attr>Travelers, do you know about this?\nThere is a salon in Royal City\nKamiharmui, far to the west. I've been\n<br>\nasked to work there as an apprentice\nhairdresser. I'm on my way to Royal\nCity now."
+    "<attr><feel_happy_lv1><end_attr>「旅人はん　ご存じどすか？\n　ずうっと西の　王都カミハルムイには\n　美容院という　お店が　あるんどす。\n<br>\n「うちは　そこで　美容師見習いとして\n　働かしてもらうことになりましてなぁ。\n　これから　王都に向かうとこなんどすえ。": 
+    "<attr><feel_happy_lv1><end_attr>Travelers, do you know about this?\nThere is a salon in Royal City\nKamiharmui, far to the west. I've been\n<br>\nasked to work there as an apprentice\nhairdresser. I'm on my way to Royal\nCity now."
   },
   "60375": {
-    "<attr><feel_happy_lv1><end_attr>「うちは　サロン・フェリシアの　見習い美容師を\n　やらしてもろてまして。今度　美容院で使う\n　新しい　お色を作ることになったんどすえ。\n<br>\n「せっかくやし　お客はんに　よろこんでもらえる\n　ほっこりした　おもてなしの色を作ろう思うて\n　チャノキの葉という物を採りにきたんどす。<bw_break>": "<attr><feel_happy_lv1><end_attr>I am an apprentice hairdresser at\nSalon Fee Lycia. I've decided to\ncreate a new color for the salon.\n<br>\nSince I've gone to all this trouble, I\nthought I'd make a color that would\nplease my customers, a color that\n<br>\nwould bring them a sense of dusty\nhospitality, so I came here to pick\nsomething called Tea Plant Leaves.<bw_break>"
+    "<attr><feel_happy_lv1><end_attr>「うちは　サロン・フェリシアの　見習い美容師を\n　やらしてもろてまして。今度　美容院で使う\n　新しい　お色を作ることになったんどすえ。\n<br>\n「せっかくやし　お客はんに　よろこんでもらえる\n　ほっこりした　おもてなしの色を作ろう思うて\n　チャノキの葉という物を採りにきたんどす。<bw_break>": 
+    "<attr><feel_happy_lv1><end_attr>I am an apprentice hairdresser at\nSalon Fee Lycia. I've decided to\ncreate a new color for the salon.\n<br>\nSince I've gone to all this trouble, I\nthought I'd make a color that would\nplease my customers, a color that\n<br>\nwould bring them a sense of dusty\nhospitality, so I came here to pick\nsomething called Tea Plant Leaves.<bw_break>"
   },
   "60376": {
-    "<attr><feel_sad_lv1><end_attr>「せやけど　今が摘みごろなのが　災いしたんか\n　南東の川沿いにおる　<%sEV_QUE_NAME0>に\n　チャノキの葉を　持ち去られてもうて……。\n<br>\n「旅人はん　後生どすえ。<%sEV_QUE_NAME0>は\n　この辺りじゃ　えらい　強い魔物なんやけど\n　チャノキの葉を　取り返してきてもらえまへん？": "<attr><feel_sad_lv1><end_attr>But it must have been a disaster that\nit was the best time to pick them,\nbecause <%sEV_QUE_NAME0>, who lives\n<br>\nalong the river in the southeast, took\naway my Tea Plant Leaves. I'm sorry,\ntraveler. <%sEV_QUE_NAME0> is a very\n<br>\nstrong monster around here, could you\nplease go and get the Tea Plant Leaves\nback?"
+    "<attr><feel_sad_lv1><end_attr>「せやけど　今が摘みごろなのが　災いしたんか\n　南東の川沿いにおる　<%sEV_QUE_NAME0>に\n　チャノキの葉を　持ち去られてもうて……。\n<br>\n「旅人はん　後生どすえ。<%sEV_QUE_NAME0>は\n　この辺りじゃ　えらい　強い魔物なんやけど\n　チャノキの葉を　取り返してきてもらえまへん？": 
+    "<attr><feel_sad_lv1><end_attr>But it must have been a disaster that\nit was the best time to pick them,\nbecause <%sEV_QUE_NAME0>, who lives\n<br>\nalong the river in the southeast, took\naway my Tea Plant Leaves. I'm sorry,\ntraveler. <%sEV_QUE_NAME0> is a very\n<br>\nstrong monster around here, could you\nplease go and get the Tea Plant Leaves\nback?"
   },
   "60377": {
-    "<attr><feel_happy_lv2><end_attr>「まあ……！　ほんまに　よろしおすか？ \n　なんや　安心したら　ほろりと涙が……。\n　おおきに　旅人はん。ほな　頼みましたえ。": "<attr><feel_happy_lv2><end_attr>Oh, well! Are you sure?I was so\nrelieved I had a bit of a bittersweet\ntear. Thank you, traveler. I'm\n<br>\ncounting on you."
+    "<attr><feel_happy_lv2><end_attr>「まあ……！　ほんまに　よろしおすか？ \n　なんや　安心したら　ほろりと涙が……。\n　おおきに　旅人はん。ほな　頼みましたえ。": 
+    "<attr><feel_happy_lv2><end_attr>Oh, well! Are you sure?I was so\nrelieved I had a bit of a bittersweet\ntear. Thank you, traveler. I'm\n<br>\ncounting on you."
   },
   "60378": {
-    "<attr><feel_think_lv1><end_attr>「まあ……！　ほんまに　よろしおすか？\n　せやけど　旅人はん。他に頼まれごとを\n　ぎょうさん　抱えてはるのでは……？\n<br>\n「そないな　お方に　お願いするわけには \n　いきまへんなぁ。また　手の空いてる時にでも\n　お声をかけておくれやす。": "<attr><feel_think_lv1><end_attr>Oh, well! Are you sure? But, traveler.\nDon't you have many other requests? I\ncan't ask such a favor from you.\n<br>\nPlease call on me again when you are\nfree."
+    "<attr><feel_think_lv1><end_attr>「まあ……！　ほんまに　よろしおすか？\n　せやけど　旅人はん。他に頼まれごとを\n　ぎょうさん　抱えてはるのでは……？\n<br>\n「そないな　お方に　お願いするわけには \n　いきまへんなぁ。また　手の空いてる時にでも\n　お声をかけておくれやす。": 
+    "<attr><feel_think_lv1><end_attr>Oh, well! Are you sure? But, traveler.\nDon't you have many other requests? I\ncan't ask such a favor from you.\n<br>\nPlease call on me again when you are\nfree."
   },
   "60379": {
-    "<attr><feel_sad_lv1><end_attr>「そうどすか。ほんなら　仕方ありまへんなぁ。\n　……うち　おもてなしの心を学ぼう思うて\n　ふるさとを出て　美容師の道を選んだんどす。\n<br>\n「魔物を相手にするなんて\n　うちには　とても　とても……。\n　ああ……　どないしたら　ええんやろか。": "<attr><feel_sad_lv1><end_attr>Is that so? If that's so, I can't help\nit. I left my hometown to study the\nspirit of hospitality, and chose to\n<br>\nbecome a hair stylist. Dealing with\nmonsters is just too, too much for me.\nAh, what should I do?"
+    "<attr><feel_sad_lv1><end_attr>「そうどすか。ほんなら　仕方ありまへんなぁ。\n　……うち　おもてなしの心を学ぼう思うて\n　ふるさとを出て　美容師の道を選んだんどす。\n<br>\n「魔物を相手にするなんて\n　うちには　とても　とても……。\n　ああ……　どないしたら　ええんやろか。": 
+    "<attr><feel_sad_lv1><end_attr>Is that so? If that's so, I can't help\nit. I left my hometown to study the\nspirit of hospitality, and chose to\n<br>\nbecome a hair stylist. Dealing with\nmonsters is just too, too much for me.\nAh, what should I do?"
   },
   "60380": {
-    "<attr><feel_happy_lv1><end_attr>「うち　美容院に来はる　お客はんに\n　よろこんでもらえるような　ほっこりした\n　おもてなしの色を　作ろう思ったんどす。<open_irai><bw_break>": "<attr><feel_happy_lv1><end_attr>I wanted to create a dusty, welcoming\ncolor scheme that would please the\nguests who come to the salon.<open_irai><bw_break>"
+    "<attr><feel_happy_lv1><end_attr>「うち　美容院に来はる　お客はんに\n　よろこんでもらえるような　ほっこりした\n　おもてなしの色を　作ろう思ったんどす。<open_irai><bw_break>": 
+    "<attr><feel_happy_lv1><end_attr>I wanted to create a dusty, welcoming\ncolor scheme that would please the\nguests who come to the salon.<open_irai><bw_break>"
   },
   "60381": {
-    "<attr><feel_happy_lv1><end_attr>「せやけど　それに必要な　チャノキの葉が \n　アズラン地方の　南東の川沿いにおる\n　<%sEV_QUE_NAME0>に　持ち去られてもうて。\n<br>\n「この辺りじゃ　えらい　強い魔物なんどす。\n　後生どすえ　旅人はん。どうか　やつを倒して\n　チャノキの葉を　取り返してきておくれやす。<close_irai>": "<attr><feel_happy_lv1><end_attr>But the Tea Plant Leaves we need were\ntaken away by <%sEV_QUE_NAME0> on the\nriver southeast of Azlan Region. He is\n<br>\na very strong monster around here. For\nyour sake, traveler. Please defeat him\nand bring back the Tea Plant Leaves.<close_irai>"
+    "<attr><feel_happy_lv1><end_attr>「せやけど　それに必要な　チャノキの葉が \n　アズラン地方の　南東の川沿いにおる\n　<%sEV_QUE_NAME0>に　持ち去られてもうて。\n<br>\n「この辺りじゃ　えらい　強い魔物なんどす。\n　後生どすえ　旅人はん。どうか　やつを倒して\n　チャノキの葉を　取り返してきておくれやす。<close_irai>": 
+    "<attr><feel_happy_lv1><end_attr>But the Tea Plant Leaves we need were\ntaken away by <%sEV_QUE_NAME0> on the\nriver southeast of Azlan Region. He is\n<br>\na very strong monster around here. For\nyour sake, traveler. Please defeat him\nand bring back the Tea Plant Leaves.<close_irai>"
   },
   "60382": {
-    "ヤツハに\nチャノキの葉を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you give Tea Plant Leaves to\nYatsuha?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "ヤツハに\nチャノキの葉を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
+    "Would you give Tea Plant Leaves to\nYatsuha?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "60383": {
-    "<pc>は　ヤツハに\nチャノキの葉を　渡した！": "<pc> gave Tea Plant Leaves to\nYatsuha!"
+    "<pc>は　ヤツハに\nチャノキの葉を　渡した！": 
+    "<pc> gave Tea Plant Leaves to\nYatsuha!"
   },
   "60384": {
-    "ヤツハは　ていねいな手つきで\nチャノキの葉に　魔法をかけた！<me 69>": "Yatsuha worked her magic on the Tea\nPlant Leaves with a deft hand!<me 69>"
+    "ヤツハは　ていねいな手つきで\nチャノキの葉に　魔法をかけた！<me 69>": 
+    "Yatsuha worked her magic on the Tea\nPlant Leaves with a deft hand!<me 69>"
   },
   "60385": {
-    "美容院で　新しい色\n『まっちゃ』が　使えるようになった！<me 71>": "A new color ''matcha'' is now available\nin Salon!<me 71>"
+    "美容院で　新しい色\n『まっちゃ』が　使えるようになった！<me 71>": 
+    "A new color ''matcha'' is now available\nin Salon!<me 71>"
   },
   "60386": {
-    "<attr><feel_happy_lv1><end_attr>「まあっ　おかえりやす　旅人はん。\n　ひょっとして　チャノキの葉を\n　手に入れてきてくれはったんどすか？": "<attr><feel_happy_lv1><end_attr>Welcome back, traveler. Did you get\nthe Tea Plant Leaves by any chance?"
+    "<attr><feel_happy_lv1><end_attr>「まあっ　おかえりやす　旅人はん。\n　ひょっとして　チャノキの葉を\n　手に入れてきてくれはったんどすか？": 
+    "<attr><feel_happy_lv1><end_attr>Welcome back, traveler. Did you get\nthe Tea Plant Leaves by any chance?"
   },
   "60387": {
-    "<attr><feel_sad_lv1><end_attr>「まあ……　うちの　カンちがいどすか？\n　イヤやわぁ　そそっかしくて。\n　どうか　かんにんしとくれやす。": "<attr><feel_sad_lv1><end_attr>Oh, my God. Am I barking up the wrong\ntree? I don't like it. You're just\ncareless. I don't like it. I'm just\n<br>\ntrying to look nice."
+    "<attr><feel_sad_lv1><end_attr>「まあ……　うちの　カンちがいどすか？\n　イヤやわぁ　そそっかしくて。\n　どうか　かんにんしとくれやす。": 
+    "<attr><feel_sad_lv1><end_attr>Oh, my God. Am I barking up the wrong\ntree? I don't like it. You're just\ncareless. I don't like it. I'm just\n<br>\ntrying to look nice."
   },
   "60388": {
-    "<attr><feel_happy_lv2><end_attr>「まあ　おおきに！　こんなに　やわらこうて\n　きれいな新芽を　持ってきてくれはったなんて。\n　うれしいわぁ。きっと　ええ色が出せますえ。<bw_break>": "<attr><feel_happy_lv2><end_attr>Oh, thank you! I can't believe you\nbrought me such soft and beautiful\nsprouts. I'm so happy. I'm sure you'll\n<br>\nget great colors.<bw_break>"
+    "<attr><feel_happy_lv2><end_attr>「まあ　おおきに！　こんなに　やわらこうて\n　きれいな新芽を　持ってきてくれはったなんて。\n　うれしいわぁ。きっと　ええ色が出せますえ。<bw_break>": 
+    "<attr><feel_happy_lv2><end_attr>Oh, thank you! I can't believe you\nbrought me such soft and beautiful\nsprouts. I'm so happy. I'm sure you'll\n<br>\nget great colors.<bw_break>"
   },
   "60389": {
-    "<attr><feel_happy_one><end_attr>「さっそく　つこうてみますね。\n　よかったら　旅人はんも　見てておくれやす。": "<attr><feel_happy_one><end_attr>I'll try it right away. If you like,\nyou can have a look at it, too."
+    "<attr><feel_happy_one><end_attr>「さっそく　つこうてみますね。\n　よかったら　旅人はんも　見てておくれやす。": 
+    "<attr><feel_happy_one><end_attr>I'll try it right away. If you like,\nyou can have a look at it, too."
   },
   "60390": {
-    "<se_nots joutyu SUCCESS>「まずは　チャノキの葉を　よぉ熱してから\n　じっくり　乾かしましてなぁ。\n　それから　細かく　砕いていくんどす。\n<br>\n「ウフフ。はんなりとした　ええ香り。\n　どこか懐かしくて……　なんや\n　離れて暮らす　お母はんを思いだしますわぁ。\n<br>\n「ほんで　すこぉしずつ　お湯を加え\n　まごころ込めて　ていねいに混ぜて……と。\n　仕上げに　魔法をかけて　できあがりどす。<bw_break>": "<se_nots joutyu SUCCESS>First, the Tea Plant Leaves are heated\nwell and allowed to dry slowly. Then I\nbreak them into small pieces. Hmmm...\n<br>\nA nice, soft aroma. It reminds me of\nmy mother who lives far away from me.\nThen, add hot water a little at a time\n<br>\nand mix carefully with all your heart.\nFinish with a touch of magic and it's\nready to serve.<bw_break>"
+    "<se_nots joutyu SUCCESS>「まずは　チャノキの葉を　よぉ熱してから\n　じっくり　乾かしましてなぁ。\n　それから　細かく　砕いていくんどす。\n<br>\n「ウフフ。はんなりとした　ええ香り。\n　どこか懐かしくて……　なんや\n　離れて暮らす　お母はんを思いだしますわぁ。\n<br>\n「ほんで　すこぉしずつ　お湯を加え\n　まごころ込めて　ていねいに混ぜて……と。\n　仕上げに　魔法をかけて　できあがりどす。<bw_break>": 
+    "<se_nots joutyu SUCCESS>First, the Tea Plant Leaves are heated\nwell and allowed to dry slowly. Then I\nbreak them into small pieces. Hmmm...\n<br>\nA nice, soft aroma. It reminds me of\nmy mother who lives far away from me.\nThen, add hot water a little at a time\n<br>\nand mix carefully with all your heart.\nFinish with a touch of magic and it's\nready to serve.<bw_break>"
   },
   "60391": {
-    "「ほな　マジカル　マジカル♪\n　ワビーノ　サビーノ！\n　チャノユノ　ココーロ！　……どすえ。": "Hona magical, magical  Wabino sabino!\nChano yuno cocorro! Dosue."
+    "「ほな　マジカル　マジカル♪\n　ワビーノ　サビーノ！\n　チャノユノ　ココーロ！　……どすえ。": 
+    "Hona magical, magical  Wabino sabino!\nChano yuno cocorro! Dosue."
   },
   "60392": {
-    "<attr><feel_happy_lv3><end_attr>「まあ　見ておくれやす！　おかげさんで\n　ほんに　はんなりとした色が　できましたわ。\n　これぞ　おもてなしの　まっちゃ色どすえ。": "<attr><feel_happy_lv3><end_attr>Well, take a look! Thanks to you, I\nwas able to create a very soft color.\nThis is the matcha color of\n<br>\nhospitality."
+    "<attr><feel_happy_lv3><end_attr>「まあ　見ておくれやす！　おかげさんで\n　ほんに　はんなりとした色が　できましたわ。\n　これぞ　おもてなしの　まっちゃ色どすえ。": 
+    "<attr><feel_happy_lv3><end_attr>Well, take a look! Thanks to you, I\nwas able to create a very soft color.\nThis is the matcha color of\n<br>\nhospitality."
   },
   "60393": {
-    "<attr><feel_happy_one><end_attr>「これは　旅人はんへの　お礼どす。\n　たいしたものや　ありまへんけど\n　どうか　受け取っておくれやす。": "<attr><feel_happy_one><end_attr>This is for the traveler. It's not\nmuch, but please accept it."
+    "<attr><feel_happy_one><end_attr>「これは　旅人はんへの　お礼どす。\n　たいしたものや　ありまへんけど\n　どうか　受け取っておくれやす。": 
+    "<attr><feel_happy_one><end_attr>This is for the traveler. It's not\nmuch, but please accept it."
   },
   "60394": {
-    "<attr><feel_happy_one><end_attr>「この　まっちゃ色は　美容院なら\n　どこでも　使えるようにしておきますえ。\n　ぜひ　旅人はんも　つこうてみてください。<bw_break>": "<attr><feel_happy_one><end_attr>This matcha color can be used anywhere\nin Salon. Please try it out.<bw_break>"
+    "<attr><feel_happy_one><end_attr>「この　まっちゃ色は　美容院なら\n　どこでも　使えるようにしておきますえ。\n　ぜひ　旅人はんも　つこうてみてください。<bw_break>": 
+    "<attr><feel_happy_one><end_attr>This matcha color can be used anywhere\nin Salon. Please try it out.<bw_break>"
   },
   "60395": {
-    "<attr><feel_happy_lv2><end_attr>「うちは　客商売に生きてきた　お母はんから\n　おもてなしの心を　たたき込まれましてなぁ。\n　その教えは　うちにとって　一生の宝物どす。\n<br>\n「そんな　お母はんは　風の町アズランで温泉宿を\n　やっとります。いっぱしの美容師になって\n　いずれ　一緒に働くのが　うちの夢なんどすえ。": "<attr><feel_happy_lv2><end_attr>My mother, who has been in the\ncustomer business all her life, taught\nme the spirit of hospitality. I will\n<br>\ntreasure that lesson for the rest of\nmy life. She runs a hot fountain inn\nin Wind Town Azlan. It is my dream to\n<br>\nbecome a full-fledged hairdresser and\nwork with her someday."
+    "<attr><feel_happy_lv2><end_attr>「うちは　客商売に生きてきた　お母はんから\n　おもてなしの心を　たたき込まれましてなぁ。\n　その教えは　うちにとって　一生の宝物どす。\n<br>\n「そんな　お母はんは　風の町アズランで温泉宿を\n　やっとります。いっぱしの美容師になって\n　いずれ　一緒に働くのが　うちの夢なんどすえ。": 
+    "<attr><feel_happy_lv2><end_attr>My mother, who has been in the\ncustomer business all her life, taught\nme the spirit of hospitality. I will\n<br>\ntreasure that lesson for the rest of\nmy life. She runs a hot fountain inn\nin Wind Town Azlan. It is my dream to\n<br>\nbecome a full-fledged hairdresser and\nwork with her someday."
   },
   "60396": {
-    "<attr><feel_happy_lv2><end_attr>「うちは　客商売に生きてきた　お母はんから \n　おもてなしの心を　たたき込まれましてなぁ。\n　その教えは　うちにとって　一生の宝物どす。\n<br>\n「そんな　お母はんは　風の町アズランで温泉宿を\n　やっとります。いっぱしの美容師になって\n　いずれ　一緒に働くのが　うちの夢なんどすえ。": "<attr><feel_happy_lv2><end_attr>My mother, who has been in the\ncustomer business all her life, taught\nme the spirit of hospitality. I will\n<br>\ntreasure that lesson for the rest of\nmy life. She runs a hot fountain inn\nin Wind Town Azlan. It is my dream to\n<br>\nbecome a full-fledged hairdresser and\nwork with her someday."
+    "<attr><feel_happy_lv2><end_attr>「うちは　客商売に生きてきた　お母はんから \n　おもてなしの心を　たたき込まれましてなぁ。\n　その教えは　うちにとって　一生の宝物どす。\n<br>\n「そんな　お母はんは　風の町アズランで温泉宿を\n　やっとります。いっぱしの美容師になって\n　いずれ　一緒に働くのが　うちの夢なんどすえ。": 
+    "<attr><feel_happy_lv2><end_attr>My mother, who has been in the\ncustomer business all her life, taught\nme the spirit of hospitality. I will\n<br>\ntreasure that lesson for the rest of\nmy life. She runs a hot fountain inn\nin Wind Town Azlan. It is my dream to\n<br>\nbecome a full-fledged hairdresser and\nwork with her someday."
   },
   "76534": {
-    "謎の生き人形の　撮影に成功した！\n<br>\n<pc>は\n謎の生き人形の写真（だいじなもの）を\n手に入れた！\n <me 60>": "<pc> received Mystery Lively\nDoll Photo (Key Item)! <pc>\nreceived Mystery Lively Doll Photo\n<br>\n(Key Item)!<me 60>"
+    "謎の生き人形の　撮影に成功した！\n<br>\n<pc>は\n謎の生き人形の写真（だいじなもの）を\n手に入れた！\n <me 60>": 
+    "<pc> received Mystery Lively\nDoll Photo (Key Item)! <pc>\nreceived Mystery Lively Doll Photo\n<br>\n(Key Item)!<me 60>"
   }
 }

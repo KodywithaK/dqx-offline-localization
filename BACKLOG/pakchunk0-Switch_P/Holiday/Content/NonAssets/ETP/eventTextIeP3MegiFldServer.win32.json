@@ -1,59 +1,78 @@
 {
   "99923": {
-    "「おお　ワタシの友達！\n　ワタシ　行商人のクラギいうよ。\n<br>\n「この馬車で　メギストリスからの\n　商品を運ぶのが　ワタシのお仕事ね。\n<br>\n「これから　荒野の休息所と　キラキラ大風車塔を\n　経由してオルファの丘に　行くよ。\n　アナタ　馬車に乗っていくね？<bw_break>": "Oh, my friend! My name is Kragi, a peddler. My\njob is to carry the goods from Megistris in\nthis wagon. We are going to Orpha Hill via\n<br>\nWilderness Retreat and Glitter Windmill Tower.\nWill you be riding in the wagon?<bw_break>"
+    "「おお　ワタシの友達！\n　ワタシ　行商人のクラギいうよ。\n<br>\n「この馬車で　メギストリスからの\n　商品を運ぶのが　ワタシのお仕事ね。\n<br>\n「これから　荒野の休息所と　キラキラ大風車塔を\n　経由してオルファの丘に　行くよ。\n　アナタ　馬車に乗っていくね？<bw_break>": 
+    "Oh, my friend! My name is Kragi, a peddler. My\njob is to carry the goods from Megistris in\nthis wagon. We are going to Orpha Hill via\n<br>\nWilderness Retreat and Glitter Windmill Tower.\nWill you be riding in the wagon?<bw_break>"
   },
   "99924": {
-    "「これから　荒野の休息所と　キラキラ大風車塔を\n　経由してオルファの丘に　行くよ。\n　アナタ　馬車に乗っていくね？<bw_break>": "I'm going to Orpha Hill via Wilderness Retreat\nand Glitter Windmill Tower. I'll take you on\nthe wagon, right?<bw_break>"
+    "「これから　荒野の休息所と　キラキラ大風車塔を\n　経由してオルファの丘に　行くよ。\n　アナタ　馬車に乗っていくね？<bw_break>": 
+    "I'm going to Orpha Hill via Wilderness Retreat\nand Glitter Windmill Tower. I'll take you on\nthe wagon, right?<bw_break>"
   },
   "99925": {
-    "「おお　ワタシの友達！\n　ワタシ　行商人のクラギいうよ。\n<br>\n「この馬車で　メギストリスからの\n　商品を運ぶのが　ワタシのお仕事ね。\n<br>\n「これから　オルフェア地方西の\n　オルファの丘に　行くよ。\n　アナタ　馬車に乗っていくね？<bw_break>": "Oh, my friend! My name is Kragi, a peddler. My\njob is to carry goods from Megistris in this\nwagon. We are going to Orpha Hill in Orphea\n<br>\nRegion West. I'm going to Orpha Hill in Orphea\nRegion West.<bw_break>"
+    "「おお　ワタシの友達！\n　ワタシ　行商人のクラギいうよ。\n<br>\n「この馬車で　メギストリスからの\n　商品を運ぶのが　ワタシのお仕事ね。\n<br>\n「これから　オルフェア地方西の\n　オルファの丘に　行くよ。\n　アナタ　馬車に乗っていくね？<bw_break>": 
+    "Oh, my friend! My name is Kragi, a peddler. My\njob is to carry goods from Megistris in this\nwagon. We are going to Orpha Hill in Orphea\n<br>\nRegion West. I'm going to Orpha Hill in Orphea\nRegion West.<bw_break>"
   },
   "99926": {
-    "「これから　オルフェア地方西の\n　オルファの丘に　行くよ。\n　アナタ　馬車に乗っていくね？<bw_break>": "I'm going to Orpha Hill in Orphea Region West.\nI'm going to Orpha Hill in Orphea Region West.<bw_break>"
+    "「これから　オルフェア地方西の\n　オルファの丘に　行くよ。\n　アナタ　馬車に乗っていくね？<bw_break>": 
+    "I'm going to Orpha Hill in Orphea Region West.\nI'm going to Orpha Hill in Orphea Region West.<bw_break>"
   },
   "99927": {
-    "<pipipi_low>「あら？　ごめんなさいよ。\n　今そこに　行くのは\n　都合が　悪いみたいね。\n<br>\n「お金は返すよ。\n　時間をおいてから　また来てね。": "<pipipi_low>Oh? I'm sorry. It's not a good time to go\nthere. I'll give you your money back. Come\nback later."
+    "<pipipi_low>「あら？　ごめんなさいよ。\n　今そこに　行くのは\n　都合が　悪いみたいね。\n<br>\n「お金は返すよ。\n　時間をおいてから　また来てね。": 
+    "<pipipi_low>Oh? I'm sorry. It's not a good time to go\nthere. I'll give you your money back. Come\nback later."
   },
   "99928": {
-    "「でも　送るだけで　迎えには行けないよ。\n　それでも　いいなら　どこまで行くね？\n<name_off><select>\nオルファの丘（まもの使いハウス）\nキラキラ大風車塔\n荒野の休息所（チョッピ荒野）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>": "But I can only drop you off. I can't pick you\nup. If you don't mind, where would you like to\ngo?\n<name_off><select>\nOrpha Hill (Monster Master House)\nGlitter Windmill Tower\nWilderness Retreat (Choppi Wilderness)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "「でも　送るだけで　迎えには行けないよ。\n　それでも　いいなら　どこまで行くね？\n<name_off><select>\nオルファの丘（まもの使いハウス）\nキラキラ大風車塔\n荒野の休息所（チョッピ荒野）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
+    "But I can only drop you off. I can't pick you\nup. If you don't mind, where would you like to\ngo?\n<name_off><select>\nOrpha Hill (Monster Master House)\nGlitter Windmill Tower\nWilderness Retreat (Choppi Wilderness)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "10196000": {
-    "「でも　送るだけで　迎えには行けないよ。\n　それでも　いいなら　どこまで行くね？\n<name_off><select>\nキラキラ大風車塔\n荒野の休息所（チョッピ荒野）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": "But I can only drop you off. I can't pick you\nup. If you don't mind, where would you like to\ngo?\n<name_off><select>\nGlitter Windmill Tower\nWilderness Retreat (Choppi Wilderness)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "「でも　送るだけで　迎えには行けないよ。\n　それでも　いいなら　どこまで行くね？\n<name_off><select>\nキラキラ大風車塔\n荒野の休息所（チョッピ荒野）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
+    "But I can only drop you off. I can't pick you\nup. If you don't mind, where would you like to\ngo?\n<name_off><select>\nGlitter Windmill Tower\nWilderness Retreat (Choppi Wilderness)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "99929": {
-    "<attr><feel_happy_lv2><end_attr>「まいどありね。\n　では　出発するよ。": "<attr><feel_happy_lv2><end_attr>Thank you very much. Well, I'm off."
+    "<attr><feel_happy_lv2><end_attr>「まいどありね。\n　では　出発するよ。": 
+    "<attr><feel_happy_lv2><end_attr>Thank you very much. Well, I'm off."
   },
   "99930": {
-    "「あら？　乗らないか？\n　それは　残念だよ。": "Oh, yeah? You don't want a ride? That's too\nbad."
+    "「あら？　乗らないか？\n　それは　残念だよ。": 
+    "Oh, yeah? You don't want a ride? That's too\nbad."
   },
   "99931": {
-    "<pipipi_low>「おまちどおさまね。\n　オルファの丘よ。\n　また来てね。": "<pipipi_low>Hello again. I'm Orpha Hill. Come again."
+    "<pipipi_low>「おまちどおさまね。\n　オルファの丘よ。\n　また来てね。": 
+    "<pipipi_low>Hello again. I'm Orpha Hill. Come again."
   },
   "99932": {
-    "<pipipi_low>「おまちどおさまね。\n　キラキラ大風車塔よ。\n　また来てね。": "<pipipi_low>Hello again. Glitter Windmill Tower. Come\nagain."
+    "<pipipi_low>「おまちどおさまね。\n　キラキラ大風車塔よ。\n　また来てね。": 
+    "<pipipi_low>Hello again. Glitter Windmill Tower. Come\nagain."
   },
   "99933": {
-    "「おお　お客さん　お金が足りないよ。\n　お金を持って　また来てね。": "Oh, customer, there's not enough money. Please\ncome back again with more money."
+    "「おお　お客さん　お金が足りないよ。\n　お金を持って　また来てね。": 
+    "Oh, customer, there's not enough money. Please\ncome back again with more money."
   },
   "99934": {
-    "「<%sL_TIMEI>まで\n　行くね。\n　２５ゴールドね。やすいよ。乗っていくね？<yesno><break>": "I'm going to <%sL_TIMEI>. 25 gold. It's easy.\nYou want a ride?<yesno><break>"
+    "「<%sL_TIMEI>まで\n　行くね。\n　２５ゴールドね。やすいよ。乗っていくね？<yesno><break>": 
+    "I'm going to <%sL_TIMEI>. 25 gold. It's easy.\nYou want a ride?<yesno><break>"
   },
   "99935": {
-    "「あら。それは残念だよ。\n　またきっと　来てね。": "Oh, my. I'm sorry to hear that. I'm sure\nyou'll come again."
+    "「あら。それは残念だよ。\n　またきっと　来てね。": 
+    "Oh, my. I'm sorry to hear that. I'm sure\nyou'll come again."
   },
   "117315": {
-    "「ここから北東の　風車の丘に\n　キラキラ大風車塔いう　塔あるよ。\n<br>\n「風車の丘から　さらに東にある\n　オルフェア地方西に\n　オルファの丘いう　丘あるよ。\n<br>\n「ここから南東の　チョッピ荒野に\n　荒野の休息所いう　集落あるよ。\n<br>\n「まだ　行ったことないなら\n　一度　行ってみると　いいね。": "There is a tower called Glitter Windmill Tower\non Windmill Way northeast of here. There is a\nhill called Orpha Hill in Orphea Region West,\n<br>\nfurther east from Windmill Way. There is a\nsettlement called Wilderness Retreat in Choppi\nWilderness, southeast of here. If you have\n<br>\nnever been there, you should go there."
+    "「ここから北東の　風車の丘に\n　キラキラ大風車塔いう　塔あるよ。\n<br>\n「風車の丘から　さらに東にある\n　オルフェア地方西に\n　オルファの丘いう　丘あるよ。\n<br>\n「ここから南東の　チョッピ荒野に\n　荒野の休息所いう　集落あるよ。\n<br>\n「まだ　行ったことないなら\n　一度　行ってみると　いいね。": 
+    "There is a tower called Glitter Windmill Tower\non Windmill Way northeast of here. There is a\nhill called Orpha Hill in Orphea Region West,\n<br>\nfurther east from Windmill Way. There is a\nsettlement called Wilderness Retreat in Choppi\nWilderness, southeast of here. If you have\n<br>\nnever been there, you should go there."
   },
   "10196001": {
-    "「ここから北東の　風車の丘に\n　キラキラ大風車塔いう　塔あるよ。\n<br>\n「ここから南東の　チョッピ荒野に\n　荒野の休息所いう　集落あるよ。\n<br>\n「まだ　行ったことないなら\n　一度　行ってみると　いいね。": "There is a tower called Glitter Windmill Tower\non Windmill Way northeast of here. There is a\nsettlement called Wilderness Retreat in Choppi\n<br>\nWilderness, southeast of here. If you have\nnever been there, you should go there."
+    "「ここから北東の　風車の丘に\n　キラキラ大風車塔いう　塔あるよ。\n<br>\n「ここから南東の　チョッピ荒野に\n　荒野の休息所いう　集落あるよ。\n<br>\n「まだ　行ったことないなら\n　一度　行ってみると　いいね。": 
+    "There is a tower called Glitter Windmill Tower\non Windmill Way northeast of here. There is a\nsettlement called Wilderness Retreat in Choppi\n<br>\nWilderness, southeast of here. If you have\nnever been there, you should go there."
   },
   "132718": {
-    "「おお　ワタシの友達！\n　ワタシ　行商人のクラギいうよ。\n<br>\n「この馬車で　メギストリスからの\n　商品を運ぶのが　ワタシのお仕事ね。\n<br>\n「これから　荒野の休息所を\n　経由してキラキラ大風車塔に　行くよ。\n　アナタ　馬車に乗っていくね？<bw_break>": "Oh, my friend! My name is Kragi, a peddler. My\njob is to carry the goods from Megistris in\nthis wagon. We are going to Glitter Windmill\n<br>\nTower via Wilderness Retreat. Will you get on\nthe wagon?<bw_break>"
+    "「おお　ワタシの友達！\n　ワタシ　行商人のクラギいうよ。\n<br>\n「この馬車で　メギストリスからの\n　商品を運ぶのが　ワタシのお仕事ね。\n<br>\n「これから　荒野の休息所を\n　経由してキラキラ大風車塔に　行くよ。\n　アナタ　馬車に乗っていくね？<bw_break>": 
+    "Oh, my friend! My name is Kragi, a peddler. My\njob is to carry the goods from Megistris in\nthis wagon. We are going to Glitter Windmill\n<br>\nTower via Wilderness Retreat. Will you get on\nthe wagon?<bw_break>"
   },
   "132719": {
-    "「これから　荒野の休息所を\n　経由してキラキラ大風車塔に　行くよ。\n　アナタ　馬車に乗っていくね？<bw_break>": "I'm going to Glitter Windmill Tower via\nWilderness Retreat. I'll take you on the\nwagon, right?<bw_break>"
+    "「これから　荒野の休息所を\n　経由してキラキラ大風車塔に　行くよ。\n　アナタ　馬車に乗っていくね？<bw_break>": 
+    "I'm going to Glitter Windmill Tower via\nWilderness Retreat. I'll take you on the\nwagon, right?<bw_break>"
   },
   "132720": {
-    "<pipipi_low>「おまちどおさまね。\n　荒野の休息所よ。\n　また来てね。": "<pipipi_low>Hello again. Wilderness Retreat. Please come\nagain."
+    "<pipipi_low>「おまちどおさまね。\n　荒野の休息所よ。\n　また来てね。": 
+    "<pipipi_low>Hello again. Wilderness Retreat. Please come\nagain."
   }
 }

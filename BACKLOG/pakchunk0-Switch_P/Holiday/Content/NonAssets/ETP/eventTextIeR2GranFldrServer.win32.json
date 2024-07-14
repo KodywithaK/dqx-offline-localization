@@ -1,47 +1,62 @@
 {
   "92325": {
-    "<attr><feel_happy_lv1><end_attr>「これは　これは　旅の方。\n　私は　行商人のラバンと申します。\n　どうか　お見知りおきを。\n<br>\n「……おお。あなたが　<pc>さんですか。\n　これより　レンダーシアをめぐるのでしょう？\n　お城の方より　お話は聞いておりますよ。\n<br>\n「私の馬車で　あなたを　レンダーシア各地へ\n　送り届けよ……とのことでした。\n　もちろん　よろこんで　引き受けますとも！\n<br>\n「今から　他の町へ行かれるおつもりでしたら\n　さっそく　私の馬車で　お送りしますよ。\n<br>\n「いえいえ。お代など　いただきません。\n　勇者姫さまの　命の恩人である方に\n　そのようなことは　できませんから。<bw_break>": "<attr><feel_happy_lv1><end_attr>Well, well, well, travelers. My name is Raban,\na peddler. Please allow me to make your\nacquaintance. Oh, you are <pc>,\n<br>\naren't you? You are <pc>? From now\non, you will travel around Lendersia, right? I\nhave heard of you from the people in the\n<br>\ncastle. He said that my wagon will take you to\nall parts of Lendersia. Of course, I will\ngladly accept! If you plan to go to another\n<br>\ntown now, I will send you there immediately\nwith my wagon. No, no, no. I will not charge\nyou anything. I cannot do such a thing to the\n<br>\nperson who saved your life, hero princess.<bw_break>"
+    "<attr><feel_happy_lv1><end_attr>「これは　これは　旅の方。\n　私は　行商人のラバンと申します。\n　どうか　お見知りおきを。\n<br>\n「……おお。あなたが　<pc>さんですか。\n　これより　レンダーシアをめぐるのでしょう？\n　お城の方より　お話は聞いておりますよ。\n<br>\n「私の馬車で　あなたを　レンダーシア各地へ\n　送り届けよ……とのことでした。\n　もちろん　よろこんで　引き受けますとも！\n<br>\n「今から　他の町へ行かれるおつもりでしたら\n　さっそく　私の馬車で　お送りしますよ。\n<br>\n「いえいえ。お代など　いただきません。\n　勇者姫さまの　命の恩人である方に\n　そのようなことは　できませんから。<bw_break>": 
+    "<attr><feel_happy_lv1><end_attr>Well, well, well, travelers. My name is Raban,\na peddler. Please allow me to make your\nacquaintance. Oh, you are <pc>,\n<br>\naren't you? You are <pc>? From now\non, you will travel around Lendersia, right? I\nhave heard of you from the people in the\n<br>\ncastle. He said that my wagon will take you to\nall parts of Lendersia. Of course, I will\ngladly accept! If you plan to go to another\n<br>\ntown now, I will send you there immediately\nwith my wagon. No, no, no. I will not charge\nyou anything. I cannot do such a thing to the\n<br>\nperson who saved your life, hero princess.<bw_break>"
   },
   "92326": {
-    "<attr><feel_happy_lv1><end_attr>「これは　これは　<pc>さん。\n　今から　他の町へ行かれるおつもりですか？\n　よろしければ　私の馬車で　お送りしますよ。<bw_break>": "<attr><feel_happy_lv1><end_attr>Well, well, well <pc>. Are you going\nto go to another town now? If you like, I can\nsend you on my wagon.<bw_break>"
+    "<attr><feel_happy_lv1><end_attr>「これは　これは　<pc>さん。\n　今から　他の町へ行かれるおつもりですか？\n　よろしければ　私の馬車で　お送りしますよ。<bw_break>": 
+    "<attr><feel_happy_lv1><end_attr>Well, well, well <pc>. Are you going\nto go to another town now? If you like, I can\nsend you on my wagon.<bw_break>"
   },
   "92327": {
-    "<pipipi_low>「……むむ！？\n　申し訳ありません。今そこへ行くのは\n　ちょっと　都合が悪いようです。\n<br>\n「ご不便をおかけしますが　時間をおいてから\n　また　ご利用ください。": "<pipipi_low>Mmm! I'm sorry. It is not convenient for you\nto go there now. We apologize for the\ninconvenience, but please come back after some\n<br>\ntime."
+    "<pipipi_low>「……むむ！？\n　申し訳ありません。今そこへ行くのは\n　ちょっと　都合が悪いようです。\n<br>\n「ご不便をおかけしますが　時間をおいてから\n　また　ご利用ください。": 
+    "<pipipi_low>...Mmm! I'm sorry. It is not convenient for you\nto go there now. We apologize for the\ninconvenience, but please come back after some\n<br>\ntime."
   },
   "92328": {
-    "<attr><feel_happy_lv1><end_attr>「ただし　お迎えにあがることはできません。\n　それでも　よろしければ\n　どちらまで　お向かいに　なられますか？\n<name_off><select>\nメルサンディ村\nセレドの町\nアラハギーロ王国\n三門の関所\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": "<attr><feel_happy_lv1><end_attr>However, we are unable to pick you up. If\nthat's okay with you, where would you like to\ngo?\n<name_off><select>\nMelsandy Village\nTown of Celed\nKingdom of Al-Ahagiro\nThree Way Gate\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "<attr><feel_happy_lv1><end_attr>「ただし　お迎えにあがることはできません。\n　それでも　よろしければ\n　どちらまで　お向かいに　なられますか？\n<name_off><select>\nメルサンディ村\nセレドの町\nアラハギーロ王国\n三門の関所\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
+    "<attr><feel_happy_lv1><end_attr>However, we are unable to pick you up. If\nthat's okay with you, where would you like to\ngo?\n<name_off><select>\nMelsandy Village\nTown of Celed\nKingdom of Al-Ahagiro\nThree Way Gate\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "92329": {
-    "<attr><feel_happy_lv2><end_attr>「メルサンディ村へ　行かれるのですね。\n　では　馬車へ　どうぞ　どうぞ。": "<attr><feel_happy_lv2><end_attr>I see you are going to Melsandy Village. Then\nplease come to wagon."
+    "<attr><feel_happy_lv2><end_attr>「メルサンディ村へ　行かれるのですね。\n　では　馬車へ　どうぞ　どうぞ。": 
+    "<attr><feel_happy_lv2><end_attr>I see you are going to Melsandy Village. Then\nplease come to wagon."
   },
   "92330": {
-    "<attr><feel_happy_lv2><end_attr>「セレドの町へ　行かれるのですね。\n　では　馬車へ　どうぞ　どうぞ。": "<attr><feel_happy_lv2><end_attr>I see you are going to the Town of Celed.\nThen, please come to wagon."
+    "<attr><feel_happy_lv2><end_attr>「セレドの町へ　行かれるのですね。\n　では　馬車へ　どうぞ　どうぞ。": 
+    "<attr><feel_happy_lv2><end_attr>I see you are going to the Town of Celed.\nThen, please come to wagon."
   },
   "92331": {
-    "<attr><feel_happy_lv2><end_attr>「アラハギーロ王国へ　行かれるのですね。\n　では　馬車へ　どうぞ　どうぞ。": "<attr><feel_happy_lv2><end_attr>I see you are going to the Kingdom of Al-\nAhagiro. Then, please come to wagon."
+    "<attr><feel_happy_lv2><end_attr>「アラハギーロ王国へ　行かれるのですね。\n　では　馬車へ　どうぞ　どうぞ。": 
+    "<attr><feel_happy_lv2><end_attr>I see you are going to the Kingdom of Al-\nAhagiro. Then, please come to wagon."
   },
   "92332": {
-    "<attr><feel_happy_lv2><end_attr>「三門の関所へ　行かれるのですね。\n　では　馬車へ　どうぞ　どうぞ。": "<attr><feel_happy_lv2><end_attr>I see you are going to Three Way Gate. Then,\nplease come to wagon."
+    "<attr><feel_happy_lv2><end_attr>「三門の関所へ　行かれるのですね。\n　では　馬車へ　どうぞ　どうぞ。": 
+    "<attr><feel_happy_lv2><end_attr>I see you are going to Three Way Gate. Then,\nplease come to wagon."
   },
   "92333": {
-    "<attr><feel_happy_lv1><end_attr>「おや　お乗りにならないのですね。\n　わかりました。\n　また　いつでも　声をかけてください。": "<attr><feel_happy_lv1><end_attr>Oh, you don't ride, do you? I understand.\nPlease give me a call anytime."
+    "<attr><feel_happy_lv1><end_attr>「おや　お乗りにならないのですね。\n　わかりました。\n　また　いつでも　声をかけてください。": 
+    "<attr><feel_happy_lv1><end_attr>Oh, you don't ride, do you? I understand.\nPlease give me a call anytime."
   },
   "92334": {
-    "<pipipi_low>「……はい　お疲れさまでした。\n　メルサンディ村に　到着しましたよ。\n　それでは　私は　これで失礼しますね。": "<pipipi_low>Good work. You have arrived at Melsandy\nVillage. Now if you'll excuse me."
+    "<pipipi_low>「……はい　お疲れさまでした。\n　メルサンディ村に　到着しましたよ。\n　それでは　私は　これで失礼しますね。": 
+    "<pipipi_low>Good work. You have arrived at Melsandy\nVillage. Now if you'll excuse me."
   },
   "92335": {
-    "<pipipi_low>「……はい　お疲れさまでした。\n　セレドの町に　到着しましたよ。\n　それでは　私は　これで失礼しますね。": "<pipipi_low>Good work, sir. You have arrived at the Town\nof Celed. Now, if you'll excuse me."
+    "<pipipi_low>「……はい　お疲れさまでした。\n　セレドの町に　到着しましたよ。\n　それでは　私は　これで失礼しますね。": 
+    "<pipipi_low>Good work, sir. You have arrived at the Town\nof Celed. Now, if you'll excuse me."
   },
   "92336": {
-    "<pipipi_low>「……はい　お疲れさまでした。\n　アラハギーロ王国に　到着しましたよ。\n　それでは　私は　これで失礼しますね。": "<pipipi_low>Good work, good job. You have arrived at the\nKingdom of Al-Ahagiro. Now, if you'll excuse\nme."
+    "<pipipi_low>「……はい　お疲れさまでした。\n　アラハギーロ王国に　到着しましたよ。\n　それでは　私は　これで失礼しますね。": 
+    "<pipipi_low>Good work, good job. You have arrived at the\nKingdom of Al-Ahagiro. Now, if you'll excuse\nme."
   },
   "92337": {
-    "<pipipi_low>「……はい　お疲れさまでした。\n　三門の関所に　到着しましたよ。\n　それでは　私は　これで失礼しますね。": "<pipipi_low>Good work, sir. You have arrived at the Three\nWay Gate. Now, if you'll excuse me."
+    "<pipipi_low>「……はい　お疲れさまでした。\n　三門の関所に　到着しましたよ。\n　それでは　私は　これで失礼しますね。": 
+    "<pipipi_low>Good work, sir. You have arrived at the Three\nWay Gate. Now, if you'll excuse me."
   },
   "92338": {
-    "<attr><feel_happy_lv1><end_attr>「お迎えにあがることは　できませんが\n　それでも　お乗りになりますか？<yesno><break>": "<attr><feel_happy_lv1><end_attr>I can't pick you up, but would you still like\na ride?<yesno><break>"
+    "<attr><feel_happy_lv1><end_attr>「お迎えにあがることは　できませんが\n　それでも　お乗りになりますか？<yesno><break>": 
+    "<attr><feel_happy_lv1><end_attr>I can't pick you up, but would you still like\na ride?<yesno><break>"
   },
   "92339": {
-    "「……そうですか。それなら　いいんです。\n　また　いつでも　声をかけてください。": "I see. That's all right then. Please call on\nme again anytime."
+    "「……そうですか。それなら　いいんです。\n　また　いつでも　声をかけてください。": 
+    "I see. That's all right then. Please call on\nme again anytime."
   }
 }

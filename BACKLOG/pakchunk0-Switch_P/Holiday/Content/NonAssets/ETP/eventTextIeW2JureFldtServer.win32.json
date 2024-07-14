@@ -1,44 +1,58 @@
 {
   "94141": {
-    "<pipipi_low>「……おっと？\n　こいつぁ　失敬。今　そこへ向かうのは\n　ちぃとばかり　都合が悪いようで。\n<br>\n「お代は　お返ししやす。\n　時間をおいてから　また来ておくんなせい！": "<pipipi_low>Oops? Sorry about that. It's not a good time\nto go there. I'll pay you back. Come back\nafter a while!"
+    "<pipipi_low>「……おっと？\n　こいつぁ　失敬。今　そこへ向かうのは\n　ちぃとばかり　都合が悪いようで。\n<br>\n「お代は　お返ししやす。\n　時間をおいてから　また来ておくんなせい！": 
+    "<pipipi_low>Oops? Sorry about that. It's not a good time\nto go there. I'll pay you back. Come back\nafter a while!"
   },
   "94142": {
-    "「ただし　送るだけで　迎えには行けやせん。\n　それでも　いいなら　どこまで行きやすか？\n<name_off><select>\nレーンの村\n祈りの宿（レーナム緑野）\n浜辺の小屋（ラーディス王島）\n海辺の交易所（ヴェリナード領南）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": "But I can only drop you off, not pick you up.\nIf you don't mind, where would you like to go?\n<name_off><select>\nLeen Village\nPrayer Inn (Lenam Fields)\nBeach Hut (King Ladis Island)\nBeach Trading Post (Verinard South)\nNo rides\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "「ただし　送るだけで　迎えには行けやせん。\n　それでも　いいなら　どこまで行きやすか？\n<name_off><select>\nレーンの村\n祈りの宿（レーナム緑野）\n浜辺の小屋（ラーディス王島）\n海辺の交易所（ヴェリナード領南）\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
+    "But I can only drop you off, not pick you up.\nIf you don't mind, where would you like to go?\n<name_off><select>\nLeen Village\nPrayer Inn (Lenam Fields)\nBeach Hut (King Ladis Island)\nBeach Trading Post (Verinard South)\nNo rides\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "94143": {
-    "<attr><feel_happy_lv2><end_attr>「まいど　どうも。\n　それじゃ　出発しますぜ！": "<attr><feel_happy_lv2><end_attr>Thank you very much. Well then, let's get\ngoing!"
+    "<attr><feel_happy_lv2><end_attr>「まいど　どうも。\n　それじゃ　出発しますぜ！": 
+    "<attr><feel_happy_lv2><end_attr>Thank you very much. Well then, let's get\ngoing!"
   },
   "94144": {
-    "「おや。乗らないですかい。\n　では乗りたくなったら　また来ておくんなせい。": "Oh, well. You don't want to ride? Well, if you\nwant to ride, come back again."
+    "「おや。乗らないですかい。\n　では乗りたくなったら　また来ておくんなせい。": 
+    "Oh, well. You don't want to ride? Well, if you\nwant to ride, come back again."
   },
   "94145": {
-    "<pipipi_low>「おまっとさん！\n　祈りの宿に　着きやしたぜ。\n　では　あっしは　これにて失礼。": "<pipipi_low>Hey, guys! We've arrived at the Prayer Inn.\nNow, if you'll excuse me."
+    "<pipipi_low>「おまっとさん！\n　祈りの宿に　着きやしたぜ。\n　では　あっしは　これにて失礼。": 
+    "<pipipi_low>Hey, guys! We've arrived at the Prayer Inn.\nNow, if you'll excuse me."
   },
   "94146": {
-    "<pipipi_low>「おまっとさん！\n　レーンの村に　着きやしたぜ。\n　では　あっしは　これにて失礼。": "<pipipi_low>Hey, guys! We have arrived at Leen Village.\nNow, if you'll excuse me."
+    "<pipipi_low>「おまっとさん！\n　レーンの村に　着きやしたぜ。\n　では　あっしは　これにて失礼。": 
+    "<pipipi_low>Hey, guys! We have arrived at Leen Village.\nNow, if you'll excuse me."
   },
   "94147": {
-    "「おっと残念。金が足りないようですぜ。\n　金がある時に　また来ておくんなせい。": "Oops, too bad. It seems we are short of money.\nCome back when you have more money."
+    "「おっと残念。金が足りないようですぜ。\n　金がある時に　また来ておくんなせい。": 
+    "Oops, too bad. It seems we are short of money.\nCome back when you have more money."
   },
   "94148": {
-    "「<%sL_TIMEI>まで\n　行くんですな。\n　お代２５ゴールドで　よろしいですかい？<yesno><break>": "You're going to <%sL_TIMEI>. 25 gold. Is that\nall right with you?<yesno><break>"
+    "「<%sL_TIMEI>まで\n　行くんですな。\n　お代２５ゴールドで　よろしいですかい？<yesno><break>": 
+    "You're going to <%sL_TIMEI>. 25 gold. Is that\nall right with you?<yesno><break>"
   },
   "94149": {
-    "「そうですかい。\n　では乗りたくなったら　また来ておくんなせい。": "I see. Well, if you ever want to ride again,\ncome back and see me."
+    "「そうですかい。\n　では乗りたくなったら　また来ておくんなせい。": 
+    "I see. Well, if you ever want to ride again,\ncome back and see me."
   },
   "116573": {
-    "<pipipi_low>「おまっとさん！\n　浜辺の小屋に　着きやしたぜ。\n　では　あっしは　これにて失礼。": "<pipipi_low>Hey, Mr. Omatto! We've arrived at the beach\nhut. Now, if you'll excuse me."
+    "<pipipi_low>「おまっとさん！\n　浜辺の小屋に　着きやしたぜ。\n　では　あっしは　これにて失礼。": 
+    "<pipipi_low>Hey, Mr. Omatto! We've arrived at the beach\nhut. Now, if you'll excuse me."
   },
   "127401": {
-    "<pipipi_low>「おまっとさん！\n　海辺の交易所に　着きやしたぜ。\n　では　あっしは　これにて失礼。": "<pipipi_low>Hey there, guys! I've arrived at the Beach\nTrading Post. Now, if you'll excuse me."
+    "<pipipi_low>「おまっとさん！\n　海辺の交易所に　着きやしたぜ。\n　では　あっしは　これにて失礼。": 
+    "<pipipi_low>Hey there, guys! I've arrived at the Beach\nTrading Post. Now, if you'll excuse me."
   },
   "128318": {
-    "「ミューズ海岸から　南東のジュレー島下層へ行き\n　東端のカヌーに乗って　レーナム緑野へ渡ると\n　祈りの宿ってぇ　建物に行き着きやす。\n<br>\n「さらに　そこから南東へ街道沿いに進むと\n　レーンの村ってぇ　ウェディたちが\n　暮らす村に　たどり着くんでさあ。\n<br>\n「まだ　行ったことがなければ\n　一度　行ってみると　いいですぜ。": "From Muse Coast, go southeast to Lower Jule\nIsland, take a canoe at the east end and cross\nover to Lenam Fields to reach a building\n<br>\ncalled the Prayer Inn. If you continue along\nthe road southeast from there, you will reach\nLeen Village, where Weddie and his family\n<br>\nlive. If you have never been there, you should\ngo there."
+    "「ミューズ海岸から　南東のジュレー島下層へ行き\n　東端のカヌーに乗って　レーナム緑野へ渡ると\n　祈りの宿ってぇ　建物に行き着きやす。\n<br>\n「さらに　そこから南東へ街道沿いに進むと\n　レーンの村ってぇ　ウェディたちが\n　暮らす村に　たどり着くんでさあ。\n<br>\n「まだ　行ったことがなければ\n　一度　行ってみると　いいですぜ。": 
+    "From Muse Coast, go southeast to Lower Jule\nIsland, take a canoe at the east end and cross\nover to Lenam Fields to reach a building\n<br>\ncalled the Prayer Inn. If you continue along\nthe road southeast from there, you will reach\nLeen Village, where Weddie and his family\n<br>\nlive. If you have never been there, you should\ngo there."
   },
   "129231": {
-    "「こりゃどうも　旅のお方。\n　あっしは　ウェバンってぇケチな行商人でさあ。\n　以後　お見知りおきを。\n<br>\n「あっしの　仕事は\n　この馬車で　ジュレットの町からの\n　商品を　各所へ運ぶことなんでさあ。\n<br>\n「これから　浜辺の小屋を経由して\n　海辺の交易所まで　行くんですが\n<br>\n「その辺りに　ご用は　おありですかい？\n　ご要望とあらば　乗せていきますぜ。<bw_break>": "Hello there, traveler. I'm Ueban, a cheap\npeddler. I'm Ueban, a cheap peddler. My job is\nto carry goods from Julet Town to other places\n<br>\nby this wagon. I'm going to Beach Trading Post\nvia beach hut. If you want, I can give you a\nride.<bw_break>"
+    "「こりゃどうも　旅のお方。\n　あっしは　ウェバンってぇケチな行商人でさあ。\n　以後　お見知りおきを。\n<br>\n「あっしの　仕事は\n　この馬車で　ジュレットの町からの\n　商品を　各所へ運ぶことなんでさあ。\n<br>\n「これから　浜辺の小屋を経由して\n　海辺の交易所まで　行くんですが\n<br>\n「その辺りに　ご用は　おありですかい？\n　ご要望とあらば　乗せていきますぜ。<bw_break>": 
+    "Hello there, traveler. I'm Ueban, a cheap\npeddler. I'm Ueban, a cheap peddler. My job is\nto carry goods from Julet Town to other places\n<br>\nby this wagon. I'm going to Beach Trading Post\nvia beach hut. If you want, I can give you a\nride.<bw_break>"
   },
   "129233": {
-    "「これから　浜辺の小屋を経由して\n　海辺の交易所まで　行くんですが\n<br>\n「その辺りに　ご用は　おありですかい？\n　ご要望とあらば　乗せていきますぜ。<bw_break>": "I'm on my way to Beach Trading Post via beach\nhut, can I help you in that area? If you want,\nI can give you a ride.<bw_break>"
+    "「これから　浜辺の小屋を経由して\n　海辺の交易所まで　行くんですが\n<br>\n「その辺りに　ご用は　おありですかい？\n　ご要望とあらば　乗せていきますぜ。<bw_break>": 
+    "I'm on my way to Beach Trading Post via beach\nhut, can I help you in that area? If you want,\nI can give you a ride.<bw_break>"
   }
 }

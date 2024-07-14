@@ -1,272 +1,362 @@
 {
   "94127": {
-    "<pipipi_low>「……あれー？\n　ごめんなさいー　今そこへ向かうのは\n　ちょっと　都合が悪いみたいですー。\n<br>\n「代金は　お返ししますのでー\n　時間をおいてから　また　ご利用くださいー。": "<pipipi_low>Huh? I'm sorry, but it's not convenient for us\nto go there right now. We will refund your\nmoney, so please come back again after some\n<br>\ntime."
+    "<pipipi_low>「……あれー？\n　ごめんなさいー　今そこへ向かうのは\n　ちょっと　都合が悪いみたいですー。\n<br>\n「代金は　お返ししますのでー\n　時間をおいてから　また　ご利用くださいー。": 
+    "<pipipi_low>...Huh? I'm sorry, but it's not convenient for us\nto go there right now. We will refund your\nmoney, so please come back again after some\n<br>\ntime."
   },
   "10170002": {
-    "「えー。ここから街道沿いに　南西に進むとー\n　キラキラ大風車塔という　塔がありますー。\n<br>\n「あとー。オルフェアの町の反対側のー\n　オルフェア地方東からー　東に進むとー\n　ピィピのお宿という　集落に出ますー。\n<br>\n「さらにー。そこから街道沿いに進むと\n　プクレットの村という　プクリポたちが\n　暮らす村に　行きますー。\n<br>\n「まだ　行ったことがなければー\n　一度　行ってみると　いいですよー。": "Eh.... If you go southwest along the road from\nhere, you will find a tower called Glitter\nWindmill Tower. Also, on the other side of\n<br>\nTown of Orphea, from Orphea Region East, go\neast to the settlement called Pipi's Inn.\nFurthermore... If you continue along the road\n<br>\nfrom there, you will come to Pukulet Village,\nwhere Pukulipo live. If you have not been\nthere yet, it would be good to go there once."
+    "「えー。ここから街道沿いに　南西に進むとー\n　キラキラ大風車塔という　塔がありますー。\n<br>\n「あとー。オルフェアの町の反対側のー\n　オルフェア地方東からー　東に進むとー\n　ピィピのお宿という　集落に出ますー。\n<br>\n「さらにー。そこから街道沿いに進むと\n　プクレットの村という　プクリポたちが\n　暮らす村に　行きますー。\n<br>\n「まだ　行ったことがなければー\n　一度　行ってみると　いいですよー。": 
+    "Eh. If you go southwest along the road from\nhere, you will find a tower called Glitter\nWindmill Tower. Also, on the other side of\n<br>\nTown of Orphea, from Orphea Region East, go\neast to the settlement called Pipi's Inn.\nFurthermore... If you continue along the road\n<br>\nfrom there, you will come to Pukulet Village,\nwhere Pukulipo live. If you have not been\nthere yet, it would be good to go there once."
   },
   "94128": {
-    "「ただし　送るだけで　迎えには行けませーん。\n　それでも　いいなら　どこまで行きますかー？\n<name_off><select>\nプクレットの村\nピィピのお宿（オルフェア地方東）\nオルファの丘（まもの使いハウス）\nキラキラ大風車塔\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": "However, I can only drop you off, not pick you\nup. If you don't mind, where would you like to\ngo?\n<name_off><select>\nPukulet Village\nPipi's Inn (Orphea Region East)\nOrpha Hill (Monster Master House)\nGlitter Windmill Tower\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "「ただし　送るだけで　迎えには行けませーん。\n　それでも　いいなら　どこまで行きますかー？\n<name_off><select>\nプクレットの村\nピィピのお宿（オルフェア地方東）\nオルファの丘（まもの使いハウス）\nキラキラ大風車塔\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
+    "However, I can only drop you off, not pick you\nup. If you don't mind, where would you like to\ngo?\n<name_off><select>\nPukulet Village\nPipi's Inn (Orphea Region East)\nOrpha Hill (Monster Master House)\nGlitter Windmill Tower\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "10170001": {
-    "「ただし　送るだけで　迎えには行けませーん。\n　それでも　いいなら　どこまで行きますかー？\n<name_off><select>\nプクレットの村\nピィピのお宿（オルフェア地方東）\nキラキラ大風車塔\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>": "However, I can only drop you off, not pick you\nup. If you don't mind, where would you like to\ngo?\n<name_off><select>\nPukulet Village\nPipi's Inn (Orphea Region East)\nGlitter Windmill Tower\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "「ただし　送るだけで　迎えには行けませーん。\n　それでも　いいなら　どこまで行きますかー？\n<name_off><select>\nプクレットの村\nピィピのお宿（オルフェア地方東）\nキラキラ大風車塔\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
+    "However, I can only drop you off, not pick you\nup. If you don't mind, where would you like to\ngo?\n<name_off><select>\nPukulet Village\nPipi's Inn (Orphea Region East)\nGlitter Windmill Tower\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "94129": {
-    "<attr><feel_happy_lv2><end_attr>「まいど　ありがとうございますー。\n　ではすぐに　出発しますねー。": "<attr><feel_happy_lv2><end_attr>Thank you very much. I'll be leaving soon."
+    "<attr><feel_happy_lv2><end_attr>「まいど　ありがとうございますー。\n　ではすぐに　出発しますねー。": 
+    "<attr><feel_happy_lv2><end_attr>Thank you very much. I'll be leaving soon."
   },
   "94130": {
-    "「あー。乗らないんですねー。\n　機会があれば　また　利用してくださいー。": "Ah. You don't ride, do you? If you have a\nchance, please use us again."
+    "「あー。乗らないんですねー。\n　機会があれば　また　利用してくださいー。": 
+    "Ah. You don't ride, do you? If you have a\nchance, please use us again."
   },
   "94131": {
-    "<pipipi_low>「おまちどおさまー。\n　ピィピのお宿に　着きましたー。\n　では　さようならー。": "<pipipi_low>Hello, ladies and gentlemen. I've arrived at\nPipi's Inn. Well then, good bye."
+    "<pipipi_low>「おまちどおさまー。\n　ピィピのお宿に　着きましたー。\n　では　さようならー。": 
+    "<pipipi_low>Hello, ladies and gentlemen. I've arrived at\nPipi's Inn. Well then, good bye."
   },
   "94132": {
-    "<pipipi_low>「おまちどおさまー。\n　プクレットの村に　着きましたー。\n　では　さようならー。": "<pipipi_low>Hello, ladies and gentlemen. I have arrived at\nPukulet Village. Then, good bye."
+    "<pipipi_low>「おまちどおさまー。\n　プクレットの村に　着きましたー。\n　では　さようならー。": 
+    "<pipipi_low>Hello, ladies and gentlemen. I have arrived at\nPukulet Village. Then, good bye."
   },
   "94133": {
-    "「あー。お金が足りないようですねー。\n　お金を持って　また来てくださいー。": "Ahh. It looks like you don't have enough\nmoney! Please come back again with money."
+    "「あー。お金が足りないようですねー。\n　お金を持って　また来てくださいー。": 
+    "Ahh. It looks like you don't have enough\nmoney! Please come back again with money."
   },
   "94134": {
-    "「<%sL_TIMEI>まで\n　行くんですねー。\n　２５ゴールドになりますがー　いいですかー？<yesno><break>": "You are going to <%sL_TIMEI>. I'm going to 25\ngold, is that ok?<yesno><break>"
+    "「<%sL_TIMEI>まで\n　行くんですねー。\n　２５ゴールドになりますがー　いいですかー？<yesno><break>": 
+    "You are going to <%sL_TIMEI>. I'm going to 25\ngold, is that ok?<yesno><break>"
   },
   "94135": {
-    "「そうですかー。それは残念ですー。\n　機会があれば　また利用してくださいー。": "I see. I'm sorry to hear that. If you have a\nchance, please use us again."
+    "「そうですかー。それは残念ですー。\n　機会があれば　また利用してくださいー。": 
+    "I see. I'm sorry to hear that. If you have a\nchance, please use us again."
   },
   "127394": {
-    "<pipipi_low>「おまちどおさまー。\n　オルファの丘に　着きましたー。\n　では　さようならー。": "<pipipi_low>Hello, ladies and gentlemen. I have arrived at\nOrpha Hill. Well then, good bye."
+    "<pipipi_low>「おまちどおさまー。\n　オルファの丘に　着きましたー。\n　では　さようならー。": 
+    "<pipipi_low>Hello, ladies and gentlemen. I have arrived at\nOrpha Hill. Well then, good bye."
   },
   "132711": {
-    "<pipipi_low>「おまちどおさまー。\n　キラキラ大風車塔に　着きましたー。\n　では　さようならー。": "<pipipi_low>Hello, ladies and gentlemen. I've arrived at\nGlitter Windmill Tower. Well then, good bye."
+    "<pipipi_low>「おまちどおさまー。\n　キラキラ大風車塔に　着きましたー。\n　では　さようならー。": 
+    "<pipipi_low>Hello, ladies and gentlemen. I've arrived at\nGlitter Windmill Tower. Well then, good bye."
   },
   "132722": {
-    "「ごきげんようー。旅の人。\n　私は　行商人のクラバンといいますー。\n　以後　お見知りおきを。\n<br>\n「私のお仕事は　この馬車でー\n　オルフェアの町からの　商品を\n　各所へ　運ぶことですー。\n<br>\n「これから　プクレットの村を経由してー\n　キラキラ大風車塔へ　向かうんですがー\n<br>\n「その辺りで　用事などありませんかー？\n　よければ　乗せていきますよー。<bw_break>": "Cheery Yo. Hello, traveler. My name is Kraban,\na peddler. I hope to make your acquaintance.\nMy job is to carry goods from Town of Orphea\n<br>\nto various places by this wagon. I'm heading\nto Glitter Windmill Tower via Pukulet Village.\nIf you want, I will give you a ride.<bw_break>"
+    "「ごきげんようー。旅の人。\n　私は　行商人のクラバンといいますー。\n　以後　お見知りおきを。\n<br>\n「私のお仕事は　この馬車でー\n　オルフェアの町からの　商品を\n　各所へ　運ぶことですー。\n<br>\n「これから　プクレットの村を経由してー\n　キラキラ大風車塔へ　向かうんですがー\n<br>\n「その辺りで　用事などありませんかー？\n　よければ　乗せていきますよー。<bw_break>": 
+    "Cheery Yo. Hello, traveler. My name is Kraban,\na peddler. I hope to make your acquaintance.\nMy job is to carry goods from Town of Orphea\n<br>\nto various places by this wagon. I'm heading\nto Glitter Windmill Tower via Pukulet Village.\nIf you want, I will give you a ride.<bw_break>"
   },
   "132723": {
-    "「これから　プクレットの村を経由してー\n　キラキラ大風車塔へ　向かうんですがー\n<br>\n「その辺りで　用事などありませんかー？\n　よければ　乗せていきますよー。<bw_break>": "I'm heading to Glitter Windmill Tower via\nPukulet Village, and I was wondering if there\nis anything you need me to do around there. If\n<br>\nyou want, I can give you a ride.<bw_break>"
+    "「これから　プクレットの村を経由してー\n　キラキラ大風車塔へ　向かうんですがー\n<br>\n「その辺りで　用事などありませんかー？\n　よければ　乗せていきますよー。<bw_break>": 
+    "I'm heading to Glitter Windmill Tower via\nPukulet Village, and I was wondering if there\nis anything you need me to do around there. If\n<br>\nyou want, I can give you a ride.<bw_break>"
   },
   "132725": {
-    "「ごきげんようー　旅の人。\n　私は　行商人のクラバンといいますー。\n　以後　お見知りおきをー。\n<br>\n「私のお仕事は　この馬車でー\n　オルフェアの町からの　商品を\n　各所へ　運ぶことですー。\n<br>\n「これから　ピィピのお宿と\n　オルファの丘を経由してー\n　キラキラ大風車塔へ　向かうんですがー\n<br>\n「その辺りで　用事などありませんかー？\n　よければ　乗せていきますよー。<bw_break>": "Cheery hello, traveler. My name is Kraban, a\npeddler. I hope to make your acquaintance. My\njob is to carry goods from the Town of Orphea\n<br>\nto various places on this wagon. I'm heading\nto Glitter Windmill Tower via Pipi's Inn and\nOrpha Hill. I can give you a ride if you like.<bw_break>"
+    "「ごきげんようー　旅の人。\n　私は　行商人のクラバンといいますー。\n　以後　お見知りおきをー。\n<br>\n「私のお仕事は　この馬車でー\n　オルフェアの町からの　商品を\n　各所へ　運ぶことですー。\n<br>\n「これから　ピィピのお宿と\n　オルファの丘を経由してー\n　キラキラ大風車塔へ　向かうんですがー\n<br>\n「その辺りで　用事などありませんかー？\n　よければ　乗せていきますよー。<bw_break>": 
+    "Cheery hello, traveler. My name is Kraban, a\npeddler. I hope to make your acquaintance. My\njob is to carry goods from the Town of Orphea\n<br>\nto various places on this wagon. I'm heading\nto Glitter Windmill Tower via Pipi's Inn and\nOrpha Hill. I can give you a ride if you like.<bw_break>"
   },
   "132726": {
-    "「これから　ピィピのお宿と\n　オルファの丘を経由してー\n　キラキラ大風車塔へ　向かうんですがー\n<br>\n「その辺りで　用事などありませんかー？\n　よければ　乗せていきますよー。<bw_break>": "I'm heading to Glitter Windmill Tower via\nPipi's Inn and Orpha Hill. I'll give you a\nride if you like.<bw_break>"
+    "「これから　ピィピのお宿と\n　オルファの丘を経由してー\n　キラキラ大風車塔へ　向かうんですがー\n<br>\n「その辺りで　用事などありませんかー？\n　よければ　乗せていきますよー。<bw_break>": 
+    "I'm heading to Glitter Windmill Tower via\nPipi's Inn and Orpha Hill. I'll give you a\nride if you like.<bw_break>"
   },
   "40323": {
-    "「私は　カメラマンをやっています。\n　町で撮る写真に　限界を感じましてね。\n　今は　大自然を舞台に　写真を撮ってますよ。": "I am a Turtle Raman. I felt the limit of\ntaking Shaketrue pictures in the city. Now I\nshoot true pictures in the great outdoors."
+    "「私は　カメラマンをやっています。\n　町で撮る写真に　限界を感じましてね。\n　今は　大自然を舞台に　写真を撮ってますよ。": 
+    "I am a Turtle Raman. I felt the limit of\ntaking Shaketrue pictures in the city. Now I\nshoot true pictures in the great outdoors."
   },
   "40324": {
-    "<attr><feel_sad_lv3><end_attr>「魔物の呪いで　イスから\n　立ち上がれなくなってしまいました……。\n　お願いです……。助けてください……。": "<attr><feel_sad_lv3><end_attr>I can no longer get up from my chair because\nof the curse of the Monster. Please help me.\nPlease help me."
+    "<attr><feel_sad_lv3><end_attr>「魔物の呪いで　イスから\n　立ち上がれなくなってしまいました……。\n　お願いです……。助けてください……。": 
+    "<attr><feel_sad_lv3><end_attr>I can no longer get up from my chair because\nof the curse of the Monster. Please help me.\nPlease help me."
   },
   "45078": {
-    "<pc>は\nどこでもクラッカーを　鳴らした！": "<pc> rang Anywhere Cracker!"
+    "<pc>は\nどこでもクラッカーを　鳴らした！": 
+    "<pc> rang Anywhere Cracker!"
   },
   "45079": {
-    "クラッカーの音が\n遠くまで　ひびきわたった！": "The sound of ku rakka echoed far into the\ndistance!"
+    "クラッカーの音が\n遠くまで　ひびきわたった！": 
+    "The sound of ku rakka echoed far into the\ndistance!"
   },
   "40328": {
-    "<attr><feel_happy_lv2><end_attr>「ありがとうございます。\n　おかげさまで　動けるようになりました。\n　これで　仕事をすることができますよ。\n<br>\n「私　カメラマンをやっております。\n　町で撮る写真に　限界を感じましてね。\n　今は　大自然を舞台に　写真を撮ってますよ。": "<attr><feel_happy_lv2><end_attr>Thank you very much. Thanks to you, I can move\nnow. Now I can do my job. I am a turtle Raman.\nI felt I had reached the limit of what I could\n<br>\ndo in town. Now I shoot true pictures in the\ngreat outdoors."
+    "<attr><feel_happy_lv2><end_attr>「ありがとうございます。\n　おかげさまで　動けるようになりました。\n　これで　仕事をすることができますよ。\n<br>\n「私　カメラマンをやっております。\n　町で撮る写真に　限界を感じましてね。\n　今は　大自然を舞台に　写真を撮ってますよ。": 
+    "<attr><feel_happy_lv2><end_attr>Thank you very much. Thanks to you, I can move\nnow. Now I can do my job. I am a turtle Raman.\nI felt I had reached the limit of what I could\n<br>\ndo in town. Now I shoot true pictures in the\ngreat outdoors."
   },
   "40329": {
-    "「おお　あなたは！　あの時は\n　神父さまを呼び　呪いを解いていただき\n　おかげさまで　助かりましたよ！\n<br>\n「私　カメラマンのメロポネスといいます。\n　町で撮る写真に　限界を感じましてね。\n　今は　大自然を舞台に　写真を撮っていますよ。\n<br>\n「そうだ。あなたなら　もしかしたら……。\n　あの。ひとつ　お願いがあるんですが。\n<br>\n「じつは　私に呪いをかけた魔物に\n　大切な物を　盗まれてしまったんです。\n　昔の有名な魔法使いの　ステッキなんですけど。\n<br>\n「オルフェア地方西の南西　フェルアバの洞くつを\n　棲みかにしている　影のような魔物でしてね。\n　なかなか強く　私では　手に負えないんですよ。\n<br>\n「よろしければ　魔物を退治して\n　大事な　ステッキを取り返してもらえませんか？": "Oh, you! At that time I called the priest to\nlift the curse, and thanks to him I was saved!\nMy name is Meroponesse, from Turtle Raman. My\n<br>\nname is Meroponesse, and I'm a turtle Raman.\nI've reached the limit of what I can do in\ntown. Now I shoot true pictures in the great\n<br>\noutdoors. Yes, I know. Maybe you could...\nUm... I have a favor to ask. The monster who\nput a curse on me stole something very\n<br>\nimportant. It's the famous mage's stick from\nlong ago. It is a shadowy monster that lives\nin Felaba Cave, southwest of Orphea Region\n<br>\nWest. It's so strong that I can't handle it.\nIf you don't mind, could you help me get rid\nof the monster and get back my precious stick?"
+    "「おお　あなたは！　あの時は\n　神父さまを呼び　呪いを解いていただき\n　おかげさまで　助かりましたよ！\n<br>\n「私　カメラマンのメロポネスといいます。\n　町で撮る写真に　限界を感じましてね。\n　今は　大自然を舞台に　写真を撮っていますよ。\n<br>\n「そうだ。あなたなら　もしかしたら……。\n　あの。ひとつ　お願いがあるんですが。\n<br>\n「じつは　私に呪いをかけた魔物に\n　大切な物を　盗まれてしまったんです。\n　昔の有名な魔法使いの　ステッキなんですけど。\n<br>\n「オルフェア地方西の南西　フェルアバの洞くつを\n　棲みかにしている　影のような魔物でしてね。\n　なかなか強く　私では　手に負えないんですよ。\n<br>\n「よろしければ　魔物を退治して\n　大事な　ステッキを取り返してもらえませんか？": 
+    "Oh, you! At that time I called the priest to\nlift the curse, and thanks to him I was saved!\nMy name is Meroponesse, from Turtle Raman. My\n<br>\nname is Meroponesse, and I'm a turtle Raman.\nI've reached the limit of what I can do in\ntown. Now I shoot true pictures in the great\n<br>\noutdoors. Yes, I know. Maybe you could...\nUm... I have a favor to ask. The monster who\nput a curse on me stole something very\n<br>\nimportant. It's the famous mage's stick from\nlong ago. It is a shadowy monster that lives\nin Felaba Cave, southwest of Orphea Region\n<br>\nWest. It's so strong that I can't handle it.\nIf you don't mind, could you help me get rid\nof the monster and get back my precious stick?"
   },
   "40330": {
-    "<attr><feel_happy_lv2><end_attr>「おお。あなたは　本当に親切な方ですね。\n　私　感激してしまいますよ。\n<br>\n「そうそう。あの魔物を　呼びだすためには\n　私の写真機が　必要になりますので\n　準備を終えたら　私も向かいますね。": "<attr><feel_happy_lv2><end_attr>Oh. You are really kind. I'm very impressed.\nOh, yes. I'll need my photo machine to summon\nthe monster, so I'll be on my way when I'm\n<br>\ndone."
+    "<attr><feel_happy_lv2><end_attr>「おお。あなたは　本当に親切な方ですね。\n　私　感激してしまいますよ。\n<br>\n「そうそう。あの魔物を　呼びだすためには\n　私の写真機が　必要になりますので\n　準備を終えたら　私も向かいますね。": 
+    "<attr><feel_happy_lv2><end_attr>Oh. You are really kind. I'm very impressed.\nOh, yes. I'll need my photo machine to summon\nthe monster, so I'll be on my way when I'm\n<br>\ndone."
   },
   "40331": {
-    "「おお。あなたは　本当に親切な方ですね。\n　私　感激してしまいますよ。\n<br>\n「おーっと　あなたは\n　たくさんの人の頼みごとを　抱えてますね。\n　私のは急ぎでないので　後回しでいいですよ。": "Oh. You are really kind. I'm very impressed.\nYou have a lot of favors to ask of people.\nMine's not urgent, so it can wait."
+    "「おお。あなたは　本当に親切な方ですね。\n　私　感激してしまいますよ。\n<br>\n「おーっと　あなたは\n　たくさんの人の頼みごとを　抱えてますね。\n　私のは急ぎでないので　後回しでいいですよ。": 
+    "Oh. You are really kind. I'm very impressed.\nYou have a lot of favors to ask of people.\nMine's not urgent, so it can wait."
   },
   "40332": {
-    "<attr><feel_sad_lv1><end_attr>「おお　そうですか。いえいえ　いいんですよ。\n　私の　個人的な用事に\n　付き合わせては　悪いですからね。": "<attr><feel_sad_lv1><end_attr>Oh, I see. No, no, it's fine. I don't want to\nbother you with my personal business."
+    "<attr><feel_sad_lv1><end_attr>「おお　そうですか。いえいえ　いいんですよ。\n　私の　個人的な用事に\n　付き合わせては　悪いですからね。": 
+    "<attr><feel_sad_lv1><end_attr>Oh, I see. No, no, it's fine. I don't want to\nbother you with my personal business."
   },
   "40333": {
-    "「オルフェア地方西の　南西にある\n　フェルアバの洞くつを　棲みかにしている\n　影のような魔物に　ステッキを盗まれたんです。<open_irai><bw_break>": "The stick was stolen by a shadowy monster that\nlives in Felaba Cave, southwest of Orphea\nRegion West.<open_irai><bw_break>"
+    "「オルフェア地方西の　南西にある\n　フェルアバの洞くつを　棲みかにしている\n　影のような魔物に　ステッキを盗まれたんです。<open_irai><bw_break>": 
+    "The stick was stolen by a shadowy monster that\nlives in Felaba Cave, southwest of Orphea\nRegion West.<open_irai><bw_break>"
   },
   "40334": {
-    "「フェルアバの洞くつに行き　あの魔物を退治して\n　大事な　ステッキを取り返してください。<bw_break>": "Go to Felaba Cave, kill that monster and get\nback your precious stick.<bw_break>"
+    "「フェルアバの洞くつに行き　あの魔物を退治して\n　大事な　ステッキを取り返してください。<bw_break>": 
+    "Go to Felaba Cave, kill that monster and get\nback your precious stick.<bw_break>"
   },
   "40335": {
-    "<close_irai>「魔物を　呼びだすためには\n　私の写真機が　必要になりますからね。\n　準備を終えたら　私も向かいます。": "<close_irai>I will need my photo machine to summon the\nmonster. I'll be on my way when I'm done."
+    "<close_irai>「魔物を　呼びだすためには\n　私の写真機が　必要になりますからね。\n　準備を終えたら　私も向かいます。": 
+    "<close_irai>I will need my photo machine to summon the\nmonster. I'll be on my way when I'm done."
   },
   "40336": {
-    "<attr><feel_sad_lv2><end_attr>「すいません……。あまりの怖さに\n　ここまで　逃げてしまいました。\n<br>\n「場所は　覚えてますか？　オルフェア地方西の\n　南西にある　フェルアバの洞くつですよ。\n　私も　そろそろ　向かいます。<open_irai>": "<attr><feel_sad_lv2><end_attr>I'm sorry. I was so scared I ran away. Do you\nremember where it is? It's Felaba Cave,\nsouthwest of Orphea Region West. I should be\n<br>\non my way there soon.<open_irai>"
+    "<attr><feel_sad_lv2><end_attr>「すいません……。あまりの怖さに\n　ここまで　逃げてしまいました。\n<br>\n「場所は　覚えてますか？　オルフェア地方西の\n　南西にある　フェルアバの洞くつですよ。\n　私も　そろそろ　向かいます。<open_irai>": 
+    "<attr><feel_sad_lv2><end_attr>I'm sorry. I was so scared I ran away. Do you\nremember where it is? It's Felaba Cave,\nsouthwest of Orphea Region West. I should be\n<br>\non my way there soon.<open_irai>"
   },
   "40337": {
-    "<attr><feel_happy_lv2><end_attr>「あなたは　いいモデルになりそうだ。\n　魔法使いのステッキを持った\n　あなたは　さぞかし美しいでしょうね。\n<br>\n「ぜひとも　銀の丘を舞台にして\n　あなたをモデルに　写真を撮らせてください。\n　私は準備を終えたら　銀の丘に向かいますね。": "<attr><feel_happy_lv2><end_attr>You would make a good model. I bet you would\nbe beautiful with a mage stick. Please let me\ntake some photos of you at Silver Hill with\n<br>\nyou as the model. I'll be on my way to Silver\nHill when I'm done getting ready."
+    "<attr><feel_happy_lv2><end_attr>「あなたは　いいモデルになりそうだ。\n　魔法使いのステッキを持った\n　あなたは　さぞかし美しいでしょうね。\n<br>\n「ぜひとも　銀の丘を舞台にして\n　あなたをモデルに　写真を撮らせてください。\n　私は準備を終えたら　銀の丘に向かいますね。": 
+    "<attr><feel_happy_lv2><end_attr>You would make a good model. I bet you would\nbe beautiful with a mage stick. Please let me\ntake some photos of you at Silver Hill with\n<br>\nyou as the model. I'll be on my way to Silver\nHill when I'm done getting ready."
   },
   "40338": {
-    "<attr><feel_happy_lv2><end_attr>「今　思えば　私が呪いにかかってなければ\n　あなたと　出会ってなかったんですよね。\n　いやあ　不思議なことがあるものです。\n<br>\n「おかげさまで　最高の写真が撮れましたし\n　この仕事を続けてきて　よかったと\n　私は今　心の底から　そう思っていますよ。": "<attr><feel_happy_lv2><end_attr>Now that I think about it, if I hadn't been\ncursed, I wouldn't have met you. Strange\nthings do happen. Thanks to you, I was able to\n<br>\ntake the best picture of you, and I am glad\nthat I have continued this work, I think so\nfrom the bottom of my heart."
+    "<attr><feel_happy_lv2><end_attr>「今　思えば　私が呪いにかかってなければ\n　あなたと　出会ってなかったんですよね。\n　いやあ　不思議なことがあるものです。\n<br>\n「おかげさまで　最高の写真が撮れましたし\n　この仕事を続けてきて　よかったと\n　私は今　心の底から　そう思っていますよ。": 
+    "<attr><feel_happy_lv2><end_attr>Now that I think about it, if I hadn't been\ncursed, I wouldn't have met you. Strange\nthings do happen. Thanks to you, I was able to\n<br>\ntake the best picture of you, and I am glad\nthat I have continued this work, I think so\nfrom the bottom of my heart."
   },
   "46004": {
-    "「なはは。ちょっと　どこか抜けてるような子が\n　思いもよらねえ芸で　爆笑を起こしたりする。\n　愛すべきバカってのは　いいもんだなあ。\n<br>\n「なあなあ　おめえさん。オイラ　思うのよ。\n　人を　ドカーンと笑わせられるバカは\n　救うことも　できるんじゃねえかってなあ。": "Ha-ha-ha. A girl who seems to be a little out\nof her depth sometimes makes people laugh with\nher unbelievable tricks. It's nice to be a\n<br>\nlovable idiot. You know, you know, I think. I\nthink that an idiot who can make people laugh\nwith a bang can also save them."
+    "「なはは。ちょっと　どこか抜けてるような子が\n　思いもよらねえ芸で　爆笑を起こしたりする。\n　愛すべきバカってのは　いいもんだなあ。\n<br>\n「なあなあ　おめえさん。オイラ　思うのよ。\n　人を　ドカーンと笑わせられるバカは\n　救うことも　できるんじゃねえかってなあ。": 
+    "Ha-ha-ha. A girl who seems to be a little out\nof her depth sometimes makes people laugh with\nher unbelievable tricks. It's nice to be a\n<br>\nlovable idiot. You know, you know, I think. I\nthink that an idiot who can make people laugh\nwith a bang can also save them."
   },
   "36219": {
-    "「なはは。ちょっと　どこか抜けてるような子が\n　思いもよらねえ芸で　爆笑を起こしたりする。\n　愛すべきバカってのは　いいもんだなあ。\n<br>\n「なあなあ　おめえさん。オイラ　思うのよ。\n　人を　ドカーンと笑わせられるバカは\n　救うことも　できるんじゃねえかってなあ。\n<br>\n「おめえさんも　そんな旅芸人に　ならねえかい？\n　その気があんなら　レベル１０以上の\n　旅芸人になって　ここに戻ってきてくれよお。\n<br>\n「まあ　なんてったって旅芸人だからよ。\n　レベル２で覚える　ボケくらいは　最低限の\n　たしなみとして　使っといてくれよなあ。": "Ha-ha-ha. A little out of the ordinary girl\ncan make you laugh with her unbelievable\ntricks. It's nice to be a lovable idiot. You\n<br>\nknow, you know, I think. I think that an idiot\nwho can make people laugh with a bang can also\nsave them. Why don't you become such a\n<br>\nminstrel? If you are so inclined, become a\nminstrel above level 10 and come back here.\nAfter all, you are a minstrel. I hope you can\n<br>\nat least use Pratfall, which you learn at\nlevel 2, as a minimum requirement."
+    "「なはは。ちょっと　どこか抜けてるような子が\n　思いもよらねえ芸で　爆笑を起こしたりする。\n　愛すべきバカってのは　いいもんだなあ。\n<br>\n「なあなあ　おめえさん。オイラ　思うのよ。\n　人を　ドカーンと笑わせられるバカは\n　救うことも　できるんじゃねえかってなあ。\n<br>\n「おめえさんも　そんな旅芸人に　ならねえかい？\n　その気があんなら　レベル１０以上の\n　旅芸人になって　ここに戻ってきてくれよお。\n<br>\n「まあ　なんてったって旅芸人だからよ。\n　レベル２で覚える　ボケくらいは　最低限の\n　たしなみとして　使っといてくれよなあ。": 
+    "Ha-ha-ha. A little out of the ordinary girl\ncan make you laugh with her unbelievable\ntricks. It's nice to be a lovable idiot. You\n<br>\nknow, you know, I think. I think that an idiot\nwho can make people laugh with a bang can also\nsave them. Why don't you become such a\n<br>\nminstrel? If you are so inclined, become a\nminstrel above level 10 and come back here.\nAfter all, you are a minstrel. I hope you can\n<br>\nat least use Pratfall, which you learn at\nlevel 2, as a minimum requirement."
   },
   "36220": {
-    "「なはは。来ちゃった　見つけちゃったよお！\n　いよっ！　レベル１０以上の旅芸人！\n　おめえさんは　いい空気　持ってるなあ。\n<br>\n「ちょっと　どこか抜けてるような子が\n　思いもよらねえ芸で　爆笑を起こしたりする。\n　愛すべきバカってのは　いいもんだなあ。\n<br>\n「なあなあ　おめえさん。オイラ　思うのよ。\n　人を　ドカーンと笑わせられるバカは\n　救うことも　できるんじゃねえかってなあ。\n<br>\n「おめえさんも　オイラの弟子になって\n　そんな旅芸人を　目指してみねえかなあ。\n　一緒に　芸で人を救っていこうじゃねえか。\n<br>\n「その前によ　とくぎの　ボケを使った\n　かる～い試練を受けてもらうがなあ。\n　なはは。やってみるかなあ？<yesno><break>": "Ha-ha-ha. I'm here. I found it! Hey there!\nLevel 10 minstrels and above! You have a good\nvibe, don't you? A girl who seems to be a\n<br>\nlittle out of it sometimes makes people laugh\nwith her unexpected tricks. It's nice to be a\nlovable idiot. You know, you know, I think\n<br>\nthat you are an idiot who can make people\nlaugh with a bang. I think that an idiot who\ncan make people laugh with a bang can also\n<br>\nsave them. Why don't you become my disciple\nand aim to be such a minstrel? Let's save\npeople with our tricks together. But first,\n<br>\nyou'll have to go through a cold trial using\nyour skill, Pratfall. Ha-ha-ha. Will you give\nit a try?<yesno><break>"
+    "「なはは。来ちゃった　見つけちゃったよお！\n　いよっ！　レベル１０以上の旅芸人！\n　おめえさんは　いい空気　持ってるなあ。\n<br>\n「ちょっと　どこか抜けてるような子が\n　思いもよらねえ芸で　爆笑を起こしたりする。\n　愛すべきバカってのは　いいもんだなあ。\n<br>\n「なあなあ　おめえさん。オイラ　思うのよ。\n　人を　ドカーンと笑わせられるバカは\n　救うことも　できるんじゃねえかってなあ。\n<br>\n「おめえさんも　オイラの弟子になって\n　そんな旅芸人を　目指してみねえかなあ。\n　一緒に　芸で人を救っていこうじゃねえか。\n<br>\n「その前によ　とくぎの　ボケを使った\n　かる～い試練を受けてもらうがなあ。\n　なはは。やってみるかなあ？<yesno><break>": 
+    "Ha-ha-ha. I'm here. I found it! Hey there!\nLevel 10 minstrels and above! You have a good\nvibe, don't you? A girl who seems to be a\n<br>\nlittle out of it sometimes makes people laugh\nwith her unexpected tricks. It's nice to be a\nlovable idiot. You know, you know, I think\n<br>\nthat you are an idiot who can make people\nlaugh with a bang. I think that an idiot who\ncan make people laugh with a bang can also\n<br>\nsave them. Why don't you become my disciple\nand aim to be such a minstrel? Let's save\npeople with our tricks together. But first,\n<br>\nyou'll have to go through a cold trial using\nyour skill, Pratfall. Ha-ha-ha. Will you give\nit a try?<yesno><break>"
   },
   "36221": {
-    "「なはは。そうかい。いやいや　いいんよ。\n　修行に明けくれる日々は　つらいもんなあ。\n　だが　おめえさんは　いいもんを持ってる。\n<br>\n「なんのために　人を笑わすのかをよお。\n　考えて　考えて　死ぬほど考えて\n　決心ついたら　また　戻ってきてくれなあ。": "Ha-ha. I see. No, no, it's fine. It's hard to\nspend your days doing ascetic training. But\nyou have a good thing. What is the purpose of\n<br>\nmaking people laugh? Think about it, think\nabout it, think about it to the point of\ndeath, and when you make up your mind, please\n<br>\ncome back again."
+    "「なはは。そうかい。いやいや　いいんよ。\n　修行に明けくれる日々は　つらいもんなあ。\n　だが　おめえさんは　いいもんを持ってる。\n<br>\n「なんのために　人を笑わすのかをよお。\n　考えて　考えて　死ぬほど考えて\n　決心ついたら　また　戻ってきてくれなあ。": 
+    "Ha-ha. I see. No, no, it's fine. It's hard to\nspend your days doing ascetic training. But\nyou have a good thing. What is the purpose of\n<br>\nmaking people laugh? Think about it, think\nabout it, think about it to the point of\ndeath, and when you make up your mind, please\n<br>\ncome back again."
   },
   "36222": {
-    "「なはは。そうかい。オイラ　うれしいなあ。\n　おめえさんなら　ドカーンと笑わせられる\n　いい旅芸人になれると　オイラ　思うよお。\n<br>\n「オルフェアの町を東に出て　オルフェア地方東で\n　<%sEV_QUE_NAME0>を　<%nEV_QUE_T_NUM0>匹\n　ボケを成功させてから倒すってのは　いいなあ。\n<br>\n「倒した後は　戦いに勝たなきゃダメだかんね。\n　なはは。いかにも　試練っぽいよねえ。\n　これ　どうかなあ。やってみるかなあ？": "Ha-ha-ha. I'm so glad to hear that. I think\nyou can be a good minstrel who can make us\nlaugh with a bang. I like the idea of\n<br>\ndefeating <%sev_que_name0> in Orphea Region\nEast after <%nev_que_t_num0> <%nev_que_t_num0>\nPratfall succeeds in the Town of Orphea. After\n<br>\nthat, you have to win the battle, right? Ha\nha. That sounds like a trial. I don't know\nabout this. I wonder if I should try it."
+    "「なはは。そうかい。オイラ　うれしいなあ。\n　おめえさんなら　ドカーンと笑わせられる\n　いい旅芸人になれると　オイラ　思うよお。\n<br>\n「オルフェアの町を東に出て　オルフェア地方東で\n　<%sEV_QUE_NAME0>を　<%nEV_QUE_T_NUM0>匹\n　ボケを成功させてから倒すってのは　いいなあ。\n<br>\n「倒した後は　戦いに勝たなきゃダメだかんね。\n　なはは。いかにも　試練っぽいよねえ。\n　これ　どうかなあ。やってみるかなあ？": 
+    "Ha-ha-ha. I'm so glad to hear that. I think\nyou can be a good minstrel who can make us\nlaugh with a bang. I like the idea of\n<br>\ndefeating <%sev_que_name0> in Orphea Region\nEast after <%nev_que_t_num0> <%nev_que_t_num0>\nPratfall succeeds in the Town of Orphea. After\n<br>\nthat, you have to win the battle, right? Ha\nha. That sounds like a trial. I don't know\nabout this. I wonder if I should try it."
   },
   "36223": {
-    "「なはは。やっちゃう？　そうだよねえ。\n　やっぱり　ここは　やっちゃうよなあ。\n　オイラ　うれしくなっちゃうよお。\n<br>\n「そういや　名前を聞いてなかったなあ。\n　……<pc>。なはは。いい名前。\n<br>\n「この試練をこなしたら　おめえさんは\n　晴れて　オイラの弟子ってわけだなあ。\n　がんばるよねえ？　がんばってなあ。": "Nahaha. You're gonna do it? That's right.\nAfter all, I would do it here, wouldn't I? I'm\nso happy. Well, I haven't heard his name yet.\n<br>\n<pc>. Ha-ha-ha. Nice name. If you\ncomplete this trial, you'll be my disciple, I\nguess. You'll do your best, right? Good luck."
+    "「なはは。やっちゃう？　そうだよねえ。\n　やっぱり　ここは　やっちゃうよなあ。\n　オイラ　うれしくなっちゃうよお。\n<br>\n「そういや　名前を聞いてなかったなあ。\n　……<pc>。なはは。いい名前。\n<br>\n「この試練をこなしたら　おめえさんは\n　晴れて　オイラの弟子ってわけだなあ。\n　がんばるよねえ？　がんばってなあ。": 
+    "Nahaha. You're gonna do it? That's right.\nAfter all, I would do it here, wouldn't I? I'm\nso happy. Well, I haven't heard his name yet.\n<br>\n<pc>. Ha-ha-ha. Nice name. If you\ncomplete this trial, you'll be my disciple, I\nguess. You'll do your best, right? Good luck."
   },
   "36224": {
-    "「なはは。そうかい。オイラ　うれしいなあ。\n　なんつーか　気合いが　みなぎってるよなあ。\n　ビンビン　伝わってくるよお。それじゃ……\n<br>\n「って　頼みごとを　たくさん抱えすぎて\n　それどころじゃねえんだなあ　これが！\n　なはは。おめえさん　面白いなあ。": "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny."
+    "「なはは。そうかい。オイラ　うれしいなあ。\n　なんつーか　気合いが　みなぎってるよなあ。\n　ビンビン　伝わってくるよお。それじゃ……\n<br>\n「って　頼みごとを　たくさん抱えすぎて\n　それどころじゃねえんだなあ　これが！\n　なはは。おめえさん　面白いなあ。": 
+    "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny."
   },
   "36225": {
-    "「なはは。そうかい。オイラ　うれしいなあ。\n　それじゃ　ここはひとつ　はりきって……\n<br>\n「って　やめるって言っちゃったのかなあ？\n　ひょっとしたら　ひょっとしちゃったよお。\n　おめえさんは　いいもん持ってるのになあ。\n<br>\n「なんのために　人を笑わすのかをよお。\n　考えて　考えて　死ぬほど考えて\n　決心ついたら　また　戻ってきてくれなあ。": "Ha-ha-ha. I'm so happy to hear that. Then, I\nwonder if I said I'd give up on him. Maybe,\nmaybe... I got a little carried away. You have\n<br>\nsomething good, don't you? You know, for what\npurpose do you make people laugh? Think about\nit, think about it, think about it to the\n<br>\npoint of death, and when you make up your\nmind, please come back again."
+    "「なはは。そうかい。オイラ　うれしいなあ。\n　それじゃ　ここはひとつ　はりきって……\n<br>\n「って　やめるって言っちゃったのかなあ？\n　ひょっとしたら　ひょっとしちゃったよお。\n　おめえさんは　いいもん持ってるのになあ。\n<br>\n「なんのために　人を笑わすのかをよお。\n　考えて　考えて　死ぬほど考えて\n　決心ついたら　また　戻ってきてくれなあ。": 
+    "Ha-ha-ha. I'm so happy to hear that. Then, I\nwonder if I said I'd give up on him. Maybe,\nmaybe... I got a little carried away. You have\n<br>\nsomething good, don't you? You know, for what\npurpose do you make people laugh? Think about\nit, think about it, think about it to the\n<br>\npoint of death, and when you make up your\nmind, please come back again."
   },
   "36226": {
-    "「オルフェアの町を東に出て　オルフェア地方東で\n　<%sEV_QUE_NAME0>を　<%nEV_QUE_T_NUM0>匹　倒すのよお。\n　旅芸人のとくぎ　ボケを決めた後でなあ。<open_irai><bw_break>": "You have to kill <%sev_que_name0> and\n<%nev_que_t_num0> in Orphea Region East after\nleaving the Town of Orphea east. After you\n<br>\nhave decided minstrel's skill Pratfall.<open_irai><bw_break>"
+    "「オルフェアの町を東に出て　オルフェア地方東で\n　<%sEV_QUE_NAME0>を　<%nEV_QUE_T_NUM0>匹　倒すのよお。\n　旅芸人のとくぎ　ボケを決めた後でなあ。<open_irai><bw_break>": 
+    "You have to kill <%sev_que_name0> and\n<%nev_que_t_num0> in Orphea Region East after\nleaving the Town of Orphea east. After you\n<br>\nhave decided minstrel's skill Pratfall.<open_irai><bw_break>"
   },
   "36227": {
-    "<close_irai>「この試練をこなしたら　おめえさんは\n　晴れて　オイラの弟子ってわけだなあ。\n　がんばるよねえ？　がんばってなあ。": "<close_irai>If you complete this trial, you'll be my\ndisciple, won't you? You'll do your best,\nright? You'll do your best, won't you?"
+    "<close_irai>「この試練をこなしたら　おめえさんは\n　晴れて　オイラの弟子ってわけだなあ。\n　がんばるよねえ？　がんばってなあ。": 
+    "<close_irai>If you complete this trial, you'll be my\ndisciple, won't you? You'll do your best,\nright? You'll do your best, won't you?"
   },
   "36228": {
-    "「なはは。おめえさん　やっちゃったなあ。\n　ボケを成功させて　<%sEV_QUE_NAME0>を\n　<%nEV_QUE_T_NUM0>匹　倒しちまったかあ。\n<br>\n「これで　おめえさんは　晴れて\n　オイラの弟子に　なれたわけなんだなあ。\n　なはは。オイラ　うれしくなっちゃうよお。\n<br>\n「おめえさんは　でけえ旅芸人に　なるからなあ。\n　もっと強くなって　たくましくなれよお。\n　これは　かる～い　オイラの気持ち。": "Ha-ha-ha. You did it. You made Pratfall\nsucceed and defeated <%sEV_QUE_NAME0> by\n<%nev_que_t_num0>. Now you are my disciple, I\n<br>\nguess. I'm so happy. You're going to be a big\nminstrel, you know. You'd better get stronger\nand tougher. This is a simple I feeling."
+    "「なはは。おめえさん　やっちゃったなあ。\n　ボケを成功させて　<%sEV_QUE_NAME0>を\n　<%nEV_QUE_T_NUM0>匹　倒しちまったかあ。\n<br>\n「これで　おめえさんは　晴れて\n　オイラの弟子に　なれたわけなんだなあ。\n　なはは。オイラ　うれしくなっちゃうよお。\n<br>\n「おめえさんは　でけえ旅芸人に　なるからなあ。\n　もっと強くなって　たくましくなれよお。\n　これは　かる～い　オイラの気持ち。": 
+    "Ha-ha-ha. You did it. You made Pratfall\nsucceed and defeated <%sEV_QUE_NAME0> by\n<%nev_que_t_num0>. Now you are my disciple, I\n<br>\nguess. I'm so happy. You're going to be a big\nminstrel, you know. You'd better get stronger\nand tougher. This is a simple I feeling."
   },
   "36229": {
-    "「……じつは　今よお。ぶっそうでなあ。\n　旅芸人が　行方不明になってるらしいぜえ。\n<br>\n「ホントなら　オイラが　パパーッと\n　事件を　解決しちゃうんだがよお。\n　今のオイラには　ちょっとムリなんだなあ。\n<br>\n「昔　強い魔物と戦った時に　ケガしてよお。\n　それ以来　戦えねえ身体に　なっちまってなあ。\n　いやいやホント　なさけねえよなあ。\n<br>\n「おめえさんには　師匠のオイラに代わって\n　かわいい旅芸人たちを　守ってほしい。\n　なはは。これは　マジだぜえ。\n<br>\n「オイラの弟子として　もっと芸を\n　みがきたくなったら　旅芸人になって\n　また　ここに戻ってきてくれよなあ。\n<br>\n「覚えておいてくれよ　<pc>。\n　芸は　人を救えるんだぜえ。": "Actually, I am now. I'm in a hurry. I heard\nthat a minstrel is missing. If it were true, I\nwould solve the case in a snap. But I can't do\n<br>\nthat now, can I? I got injured when I fought a\nstrong monster a long time ago. Since then, I\ncan't fight anymore. No, no, really, it's a\n<br>\npity. I want you to protect those cute\nminstrels on behalf of Master I. Ha-ha-ha.\nThis is for real. If you want to learn more\n<br>\ntricks as I's disciple, become a minstrel and\ncome back here again. Remember that\n<pc>. You can save people with your\n<br>\nart."
+    "「……じつは　今よお。ぶっそうでなあ。\n　旅芸人が　行方不明になってるらしいぜえ。\n<br>\n「ホントなら　オイラが　パパーッと\n　事件を　解決しちゃうんだがよお。\n　今のオイラには　ちょっとムリなんだなあ。\n<br>\n「昔　強い魔物と戦った時に　ケガしてよお。\n　それ以来　戦えねえ身体に　なっちまってなあ。\n　いやいやホント　なさけねえよなあ。\n<br>\n「おめえさんには　師匠のオイラに代わって\n　かわいい旅芸人たちを　守ってほしい。\n　なはは。これは　マジだぜえ。\n<br>\n「オイラの弟子として　もっと芸を\n　みがきたくなったら　旅芸人になって\n　また　ここに戻ってきてくれよなあ。\n<br>\n「覚えておいてくれよ　<pc>。\n　芸は　人を救えるんだぜえ。": 
+    "Actually, I am now. I'm in a hurry. I heard\nthat a minstrel is missing. If it were true, I\nwould solve the case in a snap. But I can't do\n<br>\nthat now, can I? I got injured when I fought a\nstrong monster a long time ago. Since then, I\ncan't fight anymore. No, no, really, it's a\n<br>\npity. I want you to protect those cute\nminstrels on behalf of Master I. Ha-ha-ha.\nThis is for real. If you want to learn more\n<br>\ntricks as I's disciple, become a minstrel and\ncome back here again. Remember that\n<pc>. You can save people with your\n<br>\nart."
   },
   "46005": {
-    "「おめえさんは　でけえ旅芸人に　なるからなあ。\n　いつか　また会う日までに　レベル１５以上の\n　旅芸人になって　戻ってきてくれよなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": "You are going to be a big minstrel. I hope you\ncome back as a level 15+ minstrel by the time\nI see you again. Ha-ha-ha. Remember this. You\n<br>\ncan save people with your art."
+    "「おめえさんは　でけえ旅芸人に　なるからなあ。\n　いつか　また会う日までに　レベル１５以上の\n　旅芸人になって　戻ってきてくれよなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": 
+    "You are going to be a big minstrel. I hope you\ncome back as a level 15+ minstrel by the time\nI see you again. Ha-ha-ha. Remember this. You\n<br>\ncan save people with your art."
   },
   "36230": {
-    "「オイラの弟子として　もっと芸を\n　みがきたくなったら　レベル１５以上の\n　旅芸人になって　ここに戻ってきてくれよなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": "If you want to learn more skills as a disciple\nof I, please come back here as a minstrel of\nlevel 15 or above. Ha-ha-ha. Remember this.\n<br>\nYou can save people with your art."
+    "「オイラの弟子として　もっと芸を\n　みがきたくなったら　レベル１５以上の\n　旅芸人になって　ここに戻ってきてくれよなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": 
+    "If you want to learn more skills as a disciple\nof I, please come back here as a minstrel of\nlevel 15 or above. Ha-ha-ha. Remember this.\n<br>\nYou can save people with your art."
   },
   "36231": {
-    "「なはは。来ちゃった　見つけちゃったよお！\n　いよっ！　今いちばん　のってる旅芸人！\n　おめえさんやっぱり　いい空気　持ってるなあ。\n<br>\n「……じつは　ミュルエルの森でよお\n　旅芸人が　魔物に襲われてるみてえでなあ。\n　ったく　ぶっそうで困ったもんだぜえ。\n<br>\n「最近　道化師の魔物が　ミュルエルの森を\n　うろついているってウワサも　あるしよお……。\n　そいつが　悪さしてる気がするぜえ。\n<br>\n「なあなあ　そいつを倒してもらえねえかい？\n　きっと　おめえさんの修行にもなるぜえ。\n　どうだい？　やってみるかなあ？": "Ha-ha-ha. I'm here. I found it! Yo...minstrel,\nthe hottest minstrel of the moment! You've got\nthe best minstrels in town right now! You've\n<br>\ngot a good vibe, don't you? Actually, it looks\nlike minstrels are being attacked by monsters\nin Muruel Forest. I'm so baffled and annoyed.\n<br>\nThere are rumors that a clown monster has been\nhanging around Muruel Forest lately. I have a\nfeeling he's up to no good. Hey, hey, can you\n<br>\nhelp me defeat him? I'm sure it will be good\nfor your training. How about it? Would you\nlike to try?"
+    "「なはは。来ちゃった　見つけちゃったよお！\n　いよっ！　今いちばん　のってる旅芸人！\n　おめえさんやっぱり　いい空気　持ってるなあ。\n<br>\n「……じつは　ミュルエルの森でよお\n　旅芸人が　魔物に襲われてるみてえでなあ。\n　ったく　ぶっそうで困ったもんだぜえ。\n<br>\n「最近　道化師の魔物が　ミュルエルの森を\n　うろついているってウワサも　あるしよお……。\n　そいつが　悪さしてる気がするぜえ。\n<br>\n「なあなあ　そいつを倒してもらえねえかい？\n　きっと　おめえさんの修行にもなるぜえ。\n　どうだい？　やってみるかなあ？": 
+    "Ha-ha-ha. I'm here. I found it! Yo...minstrel,\nthe hottest minstrel of the moment! You've got\nthe best minstrels in town right now! You've\n<br>\ngot a good vibe, don't you? Actually, it looks\nlike minstrels are being attacked by monsters\nin Muruel Forest. I'm so baffled and annoyed.\n<br>\nThere are rumors that a clown monster has been\nhanging around Muruel Forest lately. I have a\nfeeling he's up to no good. Hey, hey, can you\n<br>\nhelp me defeat him? I'm sure it will be good\nfor your training. How about it? Would you\nlike to try?"
   },
   "36232": {
-    "「なはは。そうかい。オイラ　うれしいなあ。\n　オイラに代わって　旅芸人たちを\n　しっかり　守ってくれよお。よろしくなあ。": "Ha-ha-ha. I'm glad to hear that. I'm glad to\nhear that. Please protect the minstrels for\nme. I'm looking forward to working with you."
+    "「なはは。そうかい。オイラ　うれしいなあ。\n　オイラに代わって　旅芸人たちを\n　しっかり　守ってくれよお。よろしくなあ。": 
+    "Ha-ha-ha. I'm glad to hear that. I'm glad to\nhear that. Please protect the minstrels for\nme. I'm looking forward to working with you."
   },
   "36233": {
-    "「なはは。そうかい。オイラ　うれしいなあ。\n　なんつーか　気合いが　みなぎってるよなあ。\n　ビンビン　伝わってくるよお。それじゃ……\n<br>\n「って　頼みごとを　たくさん抱えすぎて\n　それどころじゃねえんだなあ　これが！\n　なはは。おめえさん　面白いなあ。": "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny."
+    "「なはは。そうかい。オイラ　うれしいなあ。\n　なんつーか　気合いが　みなぎってるよなあ。\n　ビンビン　伝わってくるよお。それじゃ……\n<br>\n「って　頼みごとを　たくさん抱えすぎて\n　それどころじゃねえんだなあ　これが！\n　なはは。おめえさん　面白いなあ。": 
+    "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny."
   },
   "36234": {
-    "「なはは。そうかい。いやいや　いいんよ。\n　そんな危ねえ魔物と　戦いたくねえよなあ。\n　それで死んだら　バカげてるしなあ。\n<br>\n「だが　世界を目指す旅芸人ならよお\n　人を安心させるのも　芸のうちだぜえ。\n　そこんとこ　よ～く覚えといてくれなあ。": "Ha-ha. I see. No, no, it's okay. I don't want\nto fight such a dangerous monster. It would be\nstupid if I died because of it. But if you're\n<br>\na minstrel aiming for the world, reassuring\npeople is part of your art. You'd do well to\nremember that."
+    "「なはは。そうかい。いやいや　いいんよ。\n　そんな危ねえ魔物と　戦いたくねえよなあ。\n　それで死んだら　バカげてるしなあ。\n<br>\n「だが　世界を目指す旅芸人ならよお\n　人を安心させるのも　芸のうちだぜえ。\n　そこんとこ　よ～く覚えといてくれなあ。": 
+    "Ha-ha. I see. No, no, it's okay. I don't want\nto fight such a dangerous monster. It would be\nstupid if I died because of it. But if you're\n<br>\na minstrel aiming for the world, reassuring\npeople is part of your art. You'd do well to\nremember that."
   },
   "36235": {
-    "「最近　道化師の魔物が　ミュルエルの森を\n　うろついているってウワサが　あるらしいよお。\n<br>\n「なはは。そいつを　倒してくれなあ。\n　きっと　おめえさんの修行にもなるぜえ。<open_irai>": "There are rumors that a clown monster has been\nhanging around Muruel Forest recently. Ha-ha-\nha. I hope you can defeat him. I'm sure it\n<br>\nwill be good for your training.<open_irai>"
+    "「最近　道化師の魔物が　ミュルエルの森を\n　うろついているってウワサが　あるらしいよお。\n<br>\n「なはは。そいつを　倒してくれなあ。\n　きっと　おめえさんの修行にもなるぜえ。<open_irai>": 
+    "There are rumors that a clown monster has been\nhanging around Muruel Forest recently. Ha-ha-\nha. I hope you can defeat him. I'm sure it\n<br>\nwill be good for your training.<open_irai>"
   },
   "36236": {
-    "「なはは。おめえさん　やっちまったなあ。\n　魔物を倒したって　風のウワサで聞いたぜえ。\n　やるもんだなあ。やるもんだねえ。\n<br>\n「これで　しばらくは　旅芸人も安心だなあ。\n　ありがとよお　<pc>。\n　これは　かる～い　オイラの気持ち。": "Ha-ha-ha. You've done it. I heard through the\nrumor mill that you beat the monster. You're\ngood, aren't you? You did it, didn't you? Now\n<br>\nminstrel will be safe for a while. Thanks\n<pc>. This is a simple I feeling."
+    "「なはは。おめえさん　やっちまったなあ。\n　魔物を倒したって　風のウワサで聞いたぜえ。\n　やるもんだなあ。やるもんだねえ。\n<br>\n「これで　しばらくは　旅芸人も安心だなあ。\n　ありがとよお　<pc>。\n　これは　かる～い　オイラの気持ち。": 
+    "Ha-ha-ha. You've done it. I heard through the\nrumor mill that you beat the monster. You're\ngood, aren't you? You did it, didn't you? Now\n<br>\nminstrel will be safe for a while. Thanks\n<pc>. This is a simple I feeling."
   },
   "36237": {
-    "「そういや　その道化師みてえな魔物は\n　いったいぜんたい　どういう奴だったのかなあ？\n<br>\n「……うん？　なになに　なんだって？\n　かつての師匠ポルファンと　言っていたのかあ？\n　ゲイザーと　呼ばれていただってえ？　ほええ。\n<br>\n「びっくりだなあ。昔　オイラには\n　ゲイザーっていう　人間の弟子がいてねえ。\n　ずいぶん前に　オイラの元から去ったがなあ。\n<br>\n「……かつて　オイラはねえ　旅をして\n　魔物から皆を守っちゃあ　芸を披露してよお。\n　当時は　けっこう有名だったんだぜえ。\n<br>\n「芸は人を救うっていう　オイラの信条に感動して\n　そのころ　弟子入りしたのが　ゲイザーでよお。\n　あいつは　かなり優秀だったぜえ。\n<br>\n「面白い芸で　病気の母を救いたいっていう\n　一途な情熱と才能に　オイラは感動してよお。\n　あいつに　いろんな芸を教えたんだなあ。\n<br>\n「へへっ　オイラとしたことが熱くなっちまった。\n　ゲイザーのことになると　クチが軽くなるぜえ。\n　今回は　このへんにしとくかねえ。\n<br>\n「おめえさんの才能は　そんなもんじゃねえよお。\n　ひょっとしたら　ゲイザーにも\n　負けずおとらず　いいセン　いくかもなあ。\n<br>\n「もっと芸を　みがきたくなったら\n　レベル２０以上の　旅芸人になって\n　また　ここに来てくれなあ。待ってるぜえ。": "Well, I wonder what that clownish monster was\nall about? What? What? What? Did you say his\nold master Polfan? He was called Gazer?\n<br>\nReally? I'm surprised. I used to have a human\ndisciple named Gazer. He left me a long time\nago. I used to travel around and protect\n<br>\npeople from monsters and perform tricks. He\nwas very famous back then. I was so impressed\nby his belief that his art could save people\n<br>\nthat I took Gazer as my apprentice. He was a\nvery talented guy. I was impressed by his\nsingle-minded passion and talent to save his\n<br>\nsick mother with his funny tricks. I taught\nhim many tricks. Hehehe, I'm getting a little\npassionate about it. My mouth gets light when\n<br>\nit comes to Gazer. I think I'll leave it at\nthat this time. Your talent is nothing like\nthat. Maybe you will be as good as Gazer. If\n<br>\nyou want to improve your skills, become a\nlevel 20+ minstrel and come back here again.\nI'll be waiting for you."
+    "「そういや　その道化師みてえな魔物は\n　いったいぜんたい　どういう奴だったのかなあ？\n<br>\n「……うん？　なになに　なんだって？\n　かつての師匠ポルファンと　言っていたのかあ？\n　ゲイザーと　呼ばれていただってえ？　ほええ。\n<br>\n「びっくりだなあ。昔　オイラには\n　ゲイザーっていう　人間の弟子がいてねえ。\n　ずいぶん前に　オイラの元から去ったがなあ。\n<br>\n「……かつて　オイラはねえ　旅をして\n　魔物から皆を守っちゃあ　芸を披露してよお。\n　当時は　けっこう有名だったんだぜえ。\n<br>\n「芸は人を救うっていう　オイラの信条に感動して\n　そのころ　弟子入りしたのが　ゲイザーでよお。\n　あいつは　かなり優秀だったぜえ。\n<br>\n「面白い芸で　病気の母を救いたいっていう\n　一途な情熱と才能に　オイラは感動してよお。\n　あいつに　いろんな芸を教えたんだなあ。\n<br>\n「へへっ　オイラとしたことが熱くなっちまった。\n　ゲイザーのことになると　クチが軽くなるぜえ。\n　今回は　このへんにしとくかねえ。\n<br>\n「おめえさんの才能は　そんなもんじゃねえよお。\n　ひょっとしたら　ゲイザーにも\n　負けずおとらず　いいセン　いくかもなあ。\n<br>\n「もっと芸を　みがきたくなったら\n　レベル２０以上の　旅芸人になって\n　また　ここに来てくれなあ。待ってるぜえ。": 
+    "Well, I wonder what that clownish monster was\nall about? What? What? What? Did you say his\nold master Polfan? He was called Gazer?\n<br>\nReally? I'm surprised. I used to have a human\ndisciple named Gazer. He left me a long time\nago. I used to travel around and protect\n<br>\npeople from monsters and perform tricks. He\nwas very famous back then. I was so impressed\nby his belief that his art could save people\n<br>\nthat I took Gazer as my apprentice. He was a\nvery talented guy. I was impressed by his\nsingle-minded passion and talent to save his\n<br>\nsick mother with his funny tricks. I taught\nhim many tricks. Hehehe, I'm getting a little\npassionate about it. My mouth gets light when\n<br>\nit comes to Gazer. I think I'll leave it at\nthat this time. Your talent is nothing like\nthat. Maybe you will be as good as Gazer. If\n<br>\nyou want to improve your skills, become a\nlevel 20+ minstrel and come back here again.\nI'll be waiting for you."
   },
   "36238": {
-    "<attr><feel_sad_lv1><end_attr>「芸は人を救うっていう　オイラの信条に感動して\n　弟子入りしたのが　ゲイザーでよお。\n　あいつは　かなり優秀だったぜえ。\n<br>\n「面白い芸で　病気の母を救いたいっていう\n　一途な情熱と才能に　オイラは感動してよお。\n　あいつに　いろんな芸を教えたんだなあ。<bw_break>": "<attr><feel_sad_lv1><end_attr>I was so moved by I's belief that art can save\npeople that I became an apprentice under\nGazer. He was quite talented. I was moved by\n<br>\nhis single-minded passion and talent to save\nmy sick mother with his funny tricks. I taught\nhim many tricks.<bw_break>"
+    "<attr><feel_sad_lv1><end_attr>「芸は人を救うっていう　オイラの信条に感動して\n　弟子入りしたのが　ゲイザーでよお。\n　あいつは　かなり優秀だったぜえ。\n<br>\n「面白い芸で　病気の母を救いたいっていう\n　一途な情熱と才能に　オイラは感動してよお。\n　あいつに　いろんな芸を教えたんだなあ。<bw_break>": 
+    "<attr><feel_sad_lv1><end_attr>I was so moved by I's belief that art can save\npeople that I became an apprentice under\nGazer. He was quite talented. I was moved by\n<br>\nhis single-minded passion and talent to save\nmy sick mother with his funny tricks. I taught\nhim many tricks.<bw_break>"
   },
   "46766": {
-    "「へへっ　オイラとしたことが熱くなっちまった。\n　レベル２０以上の　旅芸人になったら\n　また　ここに戻ってきてくれなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": "Hehehe, I'm getting a little hot. When you\nbecome a level 20+ minstrel, please come back\nhere again. Ha-ha-ha. Remember this. You can\n<br>\nsave people with your art."
+    "「へへっ　オイラとしたことが熱くなっちまった。\n　レベル２０以上の　旅芸人になったら\n　また　ここに戻ってきてくれなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": 
+    "Hehehe, I'm getting a little hot. When you\nbecome a level 20+ minstrel, please come back\nhere again. Ha-ha-ha. Remember this. You can\n<br>\nsave people with your art."
   },
   "46767": {
-    "「へへっ　オイラとしたことが熱くなっちまった。\n<br>\n「もっと芸を　みがきたくなったら\n　レベル２０以上の　旅芸人になって\n　また　ここに戻ってきてくれなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": "I'm getting a little too passionate about what\nI do. If you want to learn more tricks, become\na level 20+ minstrel and come back here again.\n<br>\nHa-ha-ha. Remember this. You can save people\nwith your art."
+    "「へへっ　オイラとしたことが熱くなっちまった。\n<br>\n「もっと芸を　みがきたくなったら\n　レベル２０以上の　旅芸人になって\n　また　ここに戻ってきてくれなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": 
+    "I'm getting a little too passionate about what\nI do. If you want to learn more tricks, become\na level 20+ minstrel and come back here again.\n<br>\nHa-ha-ha. Remember this. You can save people\nwith your art."
   },
   "36239": {
-    "「なはは。来ちゃった　見つけちゃったよお！\n　いよっ！　オーラあふれる　旅芸人！\n　なんつーか　風格が出てきたよなあ。\n<br>\n「今の　おめえさんには　資格があるぜえ。\n　芸の神髄が見える修行を　受ける資格がなあ。\n　昔のゲイザーには　耐えられなかったぜえ。\n<br>\n「なんと　びっくり！\n　オルフェア地方東にいる　<%sEV_QUE_NAME0>を \n　<%nEV_QUE_T_NUM0>匹　倒すっていう修行だなあ。\n<br>\n「どうだい？　やってみるかなあ？": "Ha-ha-ha. I'm here. I found it! Yes...minstrel\nwith aura! You've got aura of minstrel! You've\ngot some style. Now you're qualified. You are\n<br>\nqualified to undergo training to see the\nessence of your art. The old Gazer couldn't\nstand it. What a surprise! I'm going to defeat\n<br>\n<%sEV_QUE_NAME0> in Orphea Region East with\n<%nev_que_t_num0>. How about it? Would you\nlike to try?"
+    "「なはは。来ちゃった　見つけちゃったよお！\n　いよっ！　オーラあふれる　旅芸人！\n　なんつーか　風格が出てきたよなあ。\n<br>\n「今の　おめえさんには　資格があるぜえ。\n　芸の神髄が見える修行を　受ける資格がなあ。\n　昔のゲイザーには　耐えられなかったぜえ。\n<br>\n「なんと　びっくり！\n　オルフェア地方東にいる　<%sEV_QUE_NAME0>を \n　<%nEV_QUE_T_NUM0>匹　倒すっていう修行だなあ。\n<br>\n「どうだい？　やってみるかなあ？": 
+    "Ha-ha-ha. I'm here. I found it! Yes...minstrel\nwith aura! You've got aura of minstrel! You've\ngot some style. Now you're qualified. You are\n<br>\nqualified to undergo training to see the\nessence of your art. The old Gazer couldn't\nstand it. What a surprise! I'm going to defeat\n<br>\n<%sEV_QUE_NAME0> in Orphea Region East with\n<%nev_que_t_num0>. How about it? Would you\nlike to try?"
   },
   "36240": {
-    "「なはは。そうかい。オイラ　うれしいなあ。\n　きっちり　修行をこなしてくれよお。\n　そうしたら　兄弟子を超えられるぜえ。": "Ha-ha-ha. I'm glad to hear that. I'm glad to\nhear that. If you do that, you'll be able to\nsurpass your brothers."
+    "「なはは。そうかい。オイラ　うれしいなあ。\n　きっちり　修行をこなしてくれよお。\n　そうしたら　兄弟子を超えられるぜえ。": 
+    "Ha-ha-ha. I'm glad to hear that. I'm glad to\nhear that. If you do that, you'll be able to\nsurpass your brothers."
   },
   "36241": {
-    "「なはは。そうかい。オイラ　うれしいなあ。\n　なんつーか　気合いが　みなぎってるよなあ。\n　ビンビン　伝わってくるよお。それじゃ……\n<br>\n「って　頼みごとを　たくさん抱えすぎて\n　それどころじゃねえんだなあ　これが！\n　なはは。おめえさん　面白いなあ。": "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny."
+    "「なはは。そうかい。オイラ　うれしいなあ。\n　なんつーか　気合いが　みなぎってるよなあ。\n　ビンビン　伝わってくるよお。それじゃ……\n<br>\n「って　頼みごとを　たくさん抱えすぎて\n　それどころじゃねえんだなあ　これが！\n　なはは。おめえさん　面白いなあ。": 
+    "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny."
   },
   "36242": {
-    "「なはは。そうかい。いやいや　いいんよ。\n　兄弟子のゲイザーだって　ムリだったんだ。\n　尻込みするのも　当然ってもんだよなあ。\n<br>\n「だが　あらゆる修行をこなしてこそ\n　芸に重みが　でるってもんだぜえ。\n　そこを　よ～く　覚えといてくれなあ。": "Ha-ha. I see. No, no, it's okay. Even brother\nGazer couldn't do it. It's natural to shy away\nfrom it. But it's only when you go through all\n<br>\nkinds of training that you've created a weight\nin your art. Remember that."
+    "「なはは。そうかい。いやいや　いいんよ。\n　兄弟子のゲイザーだって　ムリだったんだ。\n　尻込みするのも　当然ってもんだよなあ。\n<br>\n「だが　あらゆる修行をこなしてこそ\n　芸に重みが　でるってもんだぜえ。\n　そこを　よ～く　覚えといてくれなあ。": 
+    "Ha-ha. I see. No, no, it's okay. Even brother\nGazer couldn't do it. It's natural to shy away\nfrom it. But it's only when you go through all\n<br>\nkinds of training that you've created a weight\nin your art. Remember that."
   },
   "36243": {
-    "「今　おめえさんに　やってもらいたいのは\n　オルフェア地方東にいる　<%sEV_QUE_NAME0>を \n　<%nEV_QUE_T_NUM0>匹　倒すっていう修行だよお。<open_irai><bw_break>": "What I want you to do now is to defeat\n<%sev_que_name0> in Orphea Region East by\n<%nev_que_t_num0>.<open_irai><bw_break>"
+    "「今　おめえさんに　やってもらいたいのは\n　オルフェア地方東にいる　<%sEV_QUE_NAME0>を \n　<%nEV_QUE_T_NUM0>匹　倒すっていう修行だよお。<open_irai><bw_break>": 
+    "What I want you to do now is to defeat\n<%sev_que_name0> in Orphea Region East by\n<%nev_que_t_num0>.<open_irai><bw_break>"
   },
   "36244": {
-    "「この試練をこなしたら　おめえさんは\n　兄弟子のゲイザーを　超えるってわけだなあ。\n　がんばるよねえ？　がんばってなあ。": "If you complete this trial, you will surpass\nyour brother Gazer, won't you? You'll do your\nbest, right? You'll do your best, won't you?"
+    "「この試練をこなしたら　おめえさんは\n　兄弟子のゲイザーを　超えるってわけだなあ。\n　がんばるよねえ？　がんばってなあ。": 
+    "If you complete this trial, you will surpass\nyour brother Gazer, won't you? You'll do your\nbest, right? You'll do your best, won't you?"
   },
   "36245": {
-    "「あの魔物を　<%nEV_QUE_T_NUM0>匹　倒しちゃったかあ。\n　いやいや　すごいねえ。ぶっとんでるねえ。\n　なんつーか　プロの旅芸人って感じだよなあ。\n<br>\n「これで　おめえさんは　また一歩\n　伝説に近づいたってわけなんだなあ。\n　なはは。オイラ　うれしくなっちゃうよお。\n<br>\n「おめえさんは　でけえ旅芸人に　なるからなあ。\n　もっと強くなって　たくましくなれよお。\n　これは　かる～い　オイラの気持ち。": "I can't believe I beat that monster\n<%nev_que_t_num0>. Wow, that's amazing. That's\ncrazy. You're like a professional minstrel.\n<br>\nWith this, you're one step closer to becoming\na legend. I'm so happy. You're going to be a\nbig minstrel, you know. You'd better get\n<br>\nstronger and tougher. This is a simple I\nfeeling."
+    "「あの魔物を　<%nEV_QUE_T_NUM0>匹　倒しちゃったかあ。\n　いやいや　すごいねえ。ぶっとんでるねえ。\n　なんつーか　プロの旅芸人って感じだよなあ。\n<br>\n「これで　おめえさんは　また一歩\n　伝説に近づいたってわけなんだなあ。\n　なはは。オイラ　うれしくなっちゃうよお。\n<br>\n「おめえさんは　でけえ旅芸人に　なるからなあ。\n　もっと強くなって　たくましくなれよお。\n　これは　かる～い　オイラの気持ち。": 
+    "I can't believe I beat that monster\n<%nev_que_t_num0>. Wow, that's amazing. That's\ncrazy. You're like a professional minstrel.\n<br>\nWith this, you're one step closer to becoming\na legend. I'm so happy. You're going to be a\nbig minstrel, you know. You'd better get\n<br>\nstronger and tougher. This is a simple I\nfeeling."
   },
   "36246": {
-    "「どうかなあ。修行は　きつかっただろお？\n　う～ん？　どうしたのかなあ？\n　なんか　あったようなツラしてるねえ。\n<br>\n「……うん？　ゲイザーと会ったんかあ？\n　そりゃ　おどろきだねえ。オイラのことを\n　人ひとり救えない　クズ芸人って言ったのかあ。\n<br>\n「……………。\n<br>\n「<pc>　じつはよお……。\n<br>\n「オイラ　昔　ゲイザーを連れて\n　闇芸人ルルルリーチって魔物と\n　ものすげえ戦いを　やったんだよお。\n<br>\n「どっちも　大ケガして　引き分けたがなあ。\n　オイラが戦ってる間に　ゲイザーの母親の病気は\n　ずいぶんと　重くなっちまってよお。<bw_break>": "I don't know. Wasn't the training hard? Hmmm?\nWhat's wrong? You look like you've been there\nbefore. You look like you've been there. Did\n<br>\nyou meet Gazer? I'm surprised to hear you call\nme a scum comedian who can't even save a\nsingle person. <kyodai> <pc>\n<br>\nActually, you know. I had a great fight with a\nmonster named Relulu with Gazer in the past.\nBoth of us got badly injured and we drew.\n<br>\nWhile I was fighting, Gazer's mother got very\nsick.<bw_break>"
+    "「どうかなあ。修行は　きつかっただろお？\n　う～ん？　どうしたのかなあ？\n　なんか　あったようなツラしてるねえ。\n<br>\n「……うん？　ゲイザーと会ったんかあ？\n　そりゃ　おどろきだねえ。オイラのことを\n　人ひとり救えない　クズ芸人って言ったのかあ。\n<br>\n「……………。\n<br>\n「<pc>　じつはよお……。\n<br>\n「オイラ　昔　ゲイザーを連れて\n　闇芸人ルルルリーチって魔物と\n　ものすげえ戦いを　やったんだよお。\n<br>\n「どっちも　大ケガして　引き分けたがなあ。\n　オイラが戦ってる間に　ゲイザーの母親の病気は\n　ずいぶんと　重くなっちまってよお。<bw_break>": 
+    "I don't know. Wasn't the training hard? Hmmm?\nWhat's wrong? You look like you've been there\nbefore. You look like you've been there. Did\n<br>\nyou meet Gazer? I'm surprised to hear you call\nme a scum comedian who can't even save a\nsingle person. <kyodai> <pc>\n<br>\nActually, you know. I had a great fight with a\nmonster named Relulu with Gazer in the past.\nBoth of us got badly injured and we drew.\n<br>\nWhile I was fighting, Gazer's mother got very\nsick.<bw_break>"
   },
   "36247": {
-    "「オイラは　大ケガでボロボロだったけど\n　お母さんの前で　いろんな芸をしてなあ。\n　だけど　お母さん　助からなくてよお……。\n<br>\n「母親を亡くして　ゲイザーは怒った。\n　芸は　人を救うって言ったのに……。\n　しょせん　芸なんか無力だって　言ってなあ。\n<br>\n「……それ以来　ゲイザーとは会ってねえよお。\n　オイラじゃ　あいつの心は救えなかったぜえ。\n　だがなあ　おめえさんなら……。\n<br>\n「なはは。もっと強くなれよお　<pc>。 \n　これでも　おめえさんには\n　なんだかんだ　期待してるんだぜえ。\n<br>\n「さらに芸を　みがきたくなったら\n　レベル２５以上の　旅芸人になって\n　また　ここに来てくれなあ。きっとだぜえ。": "I was badly injured and battered, but I did\nall kinds of tricks in front of your mother.\nBut she didn't make it. Gazer was angry\n<br>\nbecause he lost his mother. I told you that\ntricks can save people. He said that tricks\nare powerless. I haven't seen Gazer since\n<br>\nthen. I couldn't save his heart. But you can,\ncan't you? Ha-ha-ha. Be stronger\n<pc>.Even so, I still have high\n<br>\nexpectations for you. If you want to improve\nyour skills further, become a level 25 or\nhigher minstrel and come back here again. I'm\n<br>\nsure you will."
+    "「オイラは　大ケガでボロボロだったけど\n　お母さんの前で　いろんな芸をしてなあ。\n　だけど　お母さん　助からなくてよお……。\n<br>\n「母親を亡くして　ゲイザーは怒った。\n　芸は　人を救うって言ったのに……。\n　しょせん　芸なんか無力だって　言ってなあ。\n<br>\n「……それ以来　ゲイザーとは会ってねえよお。\n　オイラじゃ　あいつの心は救えなかったぜえ。\n　だがなあ　おめえさんなら……。\n<br>\n「なはは。もっと強くなれよお　<pc>。 \n　これでも　おめえさんには\n　なんだかんだ　期待してるんだぜえ。\n<br>\n「さらに芸を　みがきたくなったら\n　レベル２５以上の　旅芸人になって\n　また　ここに来てくれなあ。きっとだぜえ。": 
+    "I was badly injured and battered, but I did\nall kinds of tricks in front of your mother.\nBut she didn't make it. Gazer was angry\n<br>\nbecause he lost his mother. I told you that\ntricks can save people. He said that tricks\nare powerless. I haven't seen Gazer since\n<br>\nthen. I couldn't save his heart. But you can,\ncan't you? Ha-ha-ha. Be stronger\n<pc>.Even so, I still have high\n<br>\nexpectations for you. If you want to improve\nyour skills further, become a level 25 or\nhigher minstrel and come back here again. I'm\n<br>\nsure you will."
   },
   "36248": {
-    "「母親を亡くして　ゲイザーは怒った。\n　芸は　人を救うって言ったのに……。\n　しょせん　芸なんか無力だって　言ってなあ。\n<br>\n「……それ以来　ゲイザーとは会ってねえよお。\n　オイラじゃ　あいつの心は救えなかったぜえ。\n　だがなあ　おめえさんなら……。<bw_break>": "Gazer was angry when he lost his mother. I\ntold him that tricks can save people. He said\nthat tricks are powerless. I haven't seen\n<br>\nGazer since then. I couldn't save his heart.\nBut you, you can.<bw_break>"
+    "「母親を亡くして　ゲイザーは怒った。\n　芸は　人を救うって言ったのに……。\n　しょせん　芸なんか無力だって　言ってなあ。\n<br>\n「……それ以来　ゲイザーとは会ってねえよお。\n　オイラじゃ　あいつの心は救えなかったぜえ。\n　だがなあ　おめえさんなら……。<bw_break>": 
+    "Gazer was angry when he lost his mother. I\ntold him that tricks can save people. He said\nthat tricks are powerless. I haven't seen\n<br>\nGazer since then. I couldn't save his heart.\nBut you, you can.<bw_break>"
   },
   "46768": {
-    "「なはは。もっと強くなれよお　<pc>。 \n　レベル２５以上の　旅芸人になったら\n　また　ここに戻ってきてくれなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": "Nahaha. You should be stronger\n<pc>.When you become a level 25+\nminstrel, please come back here again. Ha-ha-\n<br>\nha. Remember. You can save people with your\nart."
+    "「なはは。もっと強くなれよお　<pc>。 \n　レベル２５以上の　旅芸人になったら\n　また　ここに戻ってきてくれなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": 
+    "Nahaha. You should be stronger\n<pc>.When you become a level 25+\nminstrel, please come back here again. Ha-ha-\n<br>\nha. Remember. You can save people with your\nart."
   },
   "46769": {
-    "「なはは。もっと強くなれよお　<pc>。 \n　これでも　おめえさんには\n　なんだかんだ　期待してるんだぜえ。\n<br>\n「さらに芸を　みがきたくなったら\n　レベル２５以上の　旅芸人になって\n　また　ここに来てくれなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": "Nahaha. Be stronger <pc>.Even so, I\nhave high expectations for you. If you want to\nimprove your skills even more, become a level\n<br>\n25+ minstrel and come back here again. Ha-ha-\nha. Remember this. You can save people with\nyour art."
+    "「なはは。もっと強くなれよお　<pc>。 \n　これでも　おめえさんには\n　なんだかんだ　期待してるんだぜえ。\n<br>\n「さらに芸を　みがきたくなったら\n　レベル２５以上の　旅芸人になって\n　また　ここに来てくれなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": 
+    "Nahaha. Be stronger <pc>.Even so, I\nhave high expectations for you. If you want to\nimprove your skills even more, become a level\n<br>\n25+ minstrel and come back here again. Ha-ha-\nha. Remember this. You can save people with\nyour art."
   },
   "36250": {
-    "「なはは。来ちゃった　見つけちゃったよお！ \n　いよっ！　いまや誰もが振り向く　旅芸人！\n　おめえさんの芸なら　ひびくかもしれねえなあ。\n<br>\n「オイラじゃ　ゲイザーの心を救えなかったぜえ。\n　あいつの言うとおり　オイラの芸は\n　人ひとり救えねえ　無力な芸かもしれねえよお。\n<br>\n「けど　ゲイザーが　母を救えなかった恨みを\n　旅芸人を殺すことで晴らすなんて　見逃せねえ。\n　<pc>。あいつの目を覚ましてくれなあ。\n<br>\n「今は　プーラのほら穴にいるらしいよお。\n　オルフェア地方東の　南東にあるぜえ。\n<br>\n「なはは。あいつは　芸を愛する男なんだなあ。\n　戦闘中に　旅芸人のとくぎの　ボケを決めて\n　あいつを倒し　正気に戻してくれねえかい？": "Ha-ha-ha. I'm here. I found it!Hey...now\neveryone turns to minstrel! Now everyone turns\nto you, minstrel! I couldn't save Gazer's\n<br>\nheart. He's right, my art may be a helpless\nart that can't save a single person. But I\ncan't miss the fact that Gazer's resentment at\n<br>\nnot being able to save his mother was\nvindicated by killing the minstrels.\n<pc>. I hope he wakes up. I heard\n<br>\nhe's in Pura's Cave now. Southeast of Orphea\nRegion East. Ha-ha-ha. He is a man who loves\ntricks. Can't you perform Pratfall, a\n<br>\nminstrel's skill, during the battle to defeat\nhim and bring him back to his senses?"
+    "「なはは。来ちゃった　見つけちゃったよお！ \n　いよっ！　いまや誰もが振り向く　旅芸人！\n　おめえさんの芸なら　ひびくかもしれねえなあ。\n<br>\n「オイラじゃ　ゲイザーの心を救えなかったぜえ。\n　あいつの言うとおり　オイラの芸は\n　人ひとり救えねえ　無力な芸かもしれねえよお。\n<br>\n「けど　ゲイザーが　母を救えなかった恨みを\n　旅芸人を殺すことで晴らすなんて　見逃せねえ。\n　<pc>。あいつの目を覚ましてくれなあ。\n<br>\n「今は　プーラのほら穴にいるらしいよお。\n　オルフェア地方東の　南東にあるぜえ。\n<br>\n「なはは。あいつは　芸を愛する男なんだなあ。\n　戦闘中に　旅芸人のとくぎの　ボケを決めて\n　あいつを倒し　正気に戻してくれねえかい？": 
+    "Ha-ha-ha. I'm here. I found it!Hey...now\neveryone turns to minstrel! Now everyone turns\nto you, minstrel! I couldn't save Gazer's\n<br>\nheart. He's right, my art may be a helpless\nart that can't save a single person. But I\ncan't miss the fact that Gazer's resentment at\n<br>\nnot being able to save his mother was\nvindicated by killing the minstrels.\n<pc>. I hope he wakes up. I heard\n<br>\nhe's in Pura's Cave now. Southeast of Orphea\nRegion East. Ha-ha-ha. He is a man who loves\ntricks. Can't you perform Pratfall, a\n<br>\nminstrel's skill, during the battle to defeat\nhim and bring him back to his senses?"
   },
   "36251": {
-    "「なはは。おめえさんは　優秀な弟子だなあ。\n　あいつに　旅芸人としての誇りが残ってんなら\n　弟弟子の必死なボケが　通じるはずだぜえ。": "Ha-ha-ha. You are a good pupil. If he still\nhas his pride as a minstrel, he should be able\nto understand his apprentice's desperate\n<br>\npratfalls."
+    "「なはは。おめえさんは　優秀な弟子だなあ。\n　あいつに　旅芸人としての誇りが残ってんなら\n　弟弟子の必死なボケが　通じるはずだぜえ。": 
+    "Ha-ha-ha. You are a good pupil. If he still\nhas his pride as a minstrel, he should be able\nto understand his apprentice's desperate\n<br>\npratfalls."
   },
   "36252": {
-    "「なはは。そうかい。オイラ　うれしいなあ。\n　なんつーか　気合いが　みなぎってるよなあ。\n　ビンビン　伝わってくるよお。それじゃ……\n<br>\n「って　頼みごとを　たくさん抱えすぎて\n　それどころじゃねえんだなあ　これが！\n　なはは。おめえさん　面白いなあ。": "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny."
+    "「なはは。そうかい。オイラ　うれしいなあ。\n　なんつーか　気合いが　みなぎってるよなあ。\n　ビンビン　伝わってくるよお。それじゃ……\n<br>\n「って　頼みごとを　たくさん抱えすぎて\n　それどころじゃねえんだなあ　これが！\n　なはは。おめえさん　面白いなあ。": 
+    "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny."
   },
   "36253": {
-    "「そうかあ……。オイラ　残念だなあ。\n　あいつの芸を憎む行動は　フリしてるだけよお。\n　あいつは　芸を自分から遠ざけてるぜえ。\n<br>\n「あいつの心に　ひびかせるためにはよお\n　誰かが　芸を愛する心を　思いださせるんだ。\n　その役目は　おめえさんしかいねえよお。": "I'm sorry to hear that. His hatred for the\narts is just a pretense. He is keeping it away\nfrom himself. In order to make her heart be\n<br>\ntouched, someone has to remind her of her love\nfor gei. You are the only one who can do that."
+    "「そうかあ……。オイラ　残念だなあ。\n　あいつの芸を憎む行動は　フリしてるだけよお。\n　あいつは　芸を自分から遠ざけてるぜえ。\n<br>\n「あいつの心に　ひびかせるためにはよお\n　誰かが　芸を愛する心を　思いださせるんだ。\n　その役目は　おめえさんしかいねえよお。": 
+    "I'm sorry to hear that. His hatred for the\narts is just a pretense. He is keeping it away\nfrom himself. In order to make her heart be\n<br>\ntouched, someone has to remind her of her love\nfor gei. You are the only one who can do that."
   },
   "36254": {
-    "「ゲイザーが　オイラを恨む気持ちはわかるが\n　旅芸人を殺す行為は　見逃せねえ。\n　<pc>。あいつの目を覚ましてくれなあ。\n<br>\n「今は　プーラのほら穴にいるらしいよお。\n　オルフェア地方東の　南東にあるぜえ。<open_irai><bw_break>": "I understand Gazer's resentment of I, but I\ncan't overlook the act of killing minstrels.\n<pc>. I wish he would wake up. I\n<br>\nheard he is in Pura's Cave now. Southeast of\nOrphea Region East.<open_irai><bw_break>"
+    "「ゲイザーが　オイラを恨む気持ちはわかるが\n　旅芸人を殺す行為は　見逃せねえ。\n　<pc>。あいつの目を覚ましてくれなあ。\n<br>\n「今は　プーラのほら穴にいるらしいよお。\n　オルフェア地方東の　南東にあるぜえ。<open_irai><bw_break>": 
+    "I understand Gazer's resentment of I, but I\ncan't overlook the act of killing minstrels.\n<pc>. I wish he would wake up. I\n<br>\nheard he is in Pura's Cave now. Southeast of\nOrphea Region East.<open_irai><bw_break>"
   },
   "36255": {
-    "<close_irai>「なはは。あいつは　芸を愛する男なんだなあ。\n　戦闘中に　旅芸人のとくぎの　ボケを決めて\n　あいつを倒し　正気に戻してやってくれえ。": "<close_irai>Ha-ha. He is a man who loves tricks, isn't he?\nLet's see if he can pull off a Pratfall in the\nmiddle of a battle."
+    "<close_irai>「なはは。あいつは　芸を愛する男なんだなあ。\n　戦闘中に　旅芸人のとくぎの　ボケを決めて\n　あいつを倒し　正気に戻してやってくれえ。": 
+    "<close_irai>Ha-ha. He is a man who loves tricks, isn't he?\nLet's see if he can pull off a Pratfall in the\nmiddle of a battle."
   },
   "36256": {
-    "「……ゲイザーは　どうだった？\n<br>\n「……そうか。\n　芸を愛する心を　取り戻したのだな。\n　最期に　元の旅芸人に戻って　旅立ったか……。\n<br>\n「……なはは。いけねえなあ　オイラはよお。\n　涙なんか　流しちまってよお……。\n　なはは。トシを　とっちまったなあ。<bw_break>": "How was Gazer? Oh, yeah. He got his love of\nthe craft back. He went back to his old\nminstrel ways at the end. Ha-ha-ha. I'm sorry,\n<br>\nI'm sorry. I can't believe I shed a tear or\nsomething. I've become old. I must have aged a\nlong time.<bw_break>"
+    "「……ゲイザーは　どうだった？\n<br>\n「……そうか。\n　芸を愛する心を　取り戻したのだな。\n　最期に　元の旅芸人に戻って　旅立ったか……。\n<br>\n「……なはは。いけねえなあ　オイラはよお。\n　涙なんか　流しちまってよお……。\n　なはは。トシを　とっちまったなあ。<bw_break>": 
+    "How was Gazer? Oh, yeah. He got his love of\nthe craft back. He went back to his old\nminstrel ways at the end. Ha-ha-ha. I'm sorry,\n<br>\nI'm sorry. I can't believe I shed a tear or\nsomething. I've become old. I must have aged a\nlong time.<bw_break>"
   },
   "36257": {
-    "「ありがとなあ　<pc>。\n　兄弟子を救った　おめえさんにはよお。\n　オイラの最高の秘技を　教えてやるぜえ。": "Thanks <pc>. I'm going to teach you\nthe best secret I've ever learned. I'll teach\nyou my best secret technique."
+    "「ありがとなあ　<pc>。\n　兄弟子を救った　おめえさんにはよお。\n　オイラの最高の秘技を　教えてやるぜえ。": 
+    "Thanks <pc>. I'm going to teach you\nthe best secret I've ever learned. I'll teach\nyou my best secret technique."
   },
   "36258": {
-    "「ありがとなあ　<pc>。\n　兄弟子を救った　おめえさんには\n　お礼を　しなくちゃいけねえなあ。": "Thank you <pc>. I have to thank you\nfor saving my brother's child."
+    "「ありがとなあ　<pc>。\n　兄弟子を救った　おめえさんには\n　お礼を　しなくちゃいけねえなあ。": 
+    "Thank you <pc>. I have to thank you\nfor saving my brother's child."
   },
   "36259": {
-    "「……じつはなあ　オイラも昔\n　芸で　人を幸せにしようと考えていた師匠と\n　各地をまわって　芸を披露していたのさあ。\n<br>\n「その旅にはよお　師匠の信条に共感して\n　芸を愛する魔物が　同行していたのよお。\n　オイラの兄弟子　ルルルリーチだなあ。\n<br>\n「兄弟子ルルルリーチには　天性の才能があって\n　伝説の旅芸人になるため　めっちゃ努力してた。\n　だが　ある日を境に　別人になっちまってなあ。\n<br>\n「その手で師匠を殺し　この世から\n　旅芸人を抹殺しようと考えるようになってよお。\n　各地で　旅芸人を殺しはじめたんだなあ。\n<br>\n「あいつの野望を　食いとめるためによお\n　オイラは　闇芸人ルルルリーチに戦いを挑んだが\n　倒せず　どっちも大ケガしちまったぜえ。\n<br>\n「……だが　ゲイザーに心を取り戻した\n　おめえさんなら　きっと倒せるはずだ。\n　なはは。これは　マジだぜえ。\n<br>\n「おまえさんの　心が決まって　ルルルリーチを\n　倒す気になったら　レベル３０以上の\n　旅芸人になって　ここに戻ってきてくれなあ。": "You see, I used to travel around the world\nperforming tricks with a master who thought he\ncould make people happy with his art. On that\n<br>\ntrip, there was a monster who sympathized with\nthe master's creed and loved gei. I'm Lulu\nLulu Leach, the brothers' child. Lulu Lulu\n<br>\nLeech, the brothers child, had a natural\ntalent and worked very hard to become a\nlegendary minstrel. But one day, he became\n<br>\nsomeone else. One day, he decided to kill his\nmaster with his own hands and wipe out all\nminstrels from the world. He started killing\n<br>\nminstrels in various places. In order to stop\nhis ambition, I challenged Relulu to a fight,\nbut we couldn't defeat him, and both of us got\n<br>\nseriously injured. But now that you've\nregained your heart to Gazer, I'm sure you'll\nbe able to defeat him. Ha-ha-ha. This is for\n<br>\nreal. When your mind is made up and you're\nready to defeat Lululu Leech, please come back\nhere as a level 30+ minstrel."
+    "「……じつはなあ　オイラも昔\n　芸で　人を幸せにしようと考えていた師匠と\n　各地をまわって　芸を披露していたのさあ。\n<br>\n「その旅にはよお　師匠の信条に共感して\n　芸を愛する魔物が　同行していたのよお。\n　オイラの兄弟子　ルルルリーチだなあ。\n<br>\n「兄弟子ルルルリーチには　天性の才能があって\n　伝説の旅芸人になるため　めっちゃ努力してた。\n　だが　ある日を境に　別人になっちまってなあ。\n<br>\n「その手で師匠を殺し　この世から\n　旅芸人を抹殺しようと考えるようになってよお。\n　各地で　旅芸人を殺しはじめたんだなあ。\n<br>\n「あいつの野望を　食いとめるためによお\n　オイラは　闇芸人ルルルリーチに戦いを挑んだが\n　倒せず　どっちも大ケガしちまったぜえ。\n<br>\n「……だが　ゲイザーに心を取り戻した\n　おめえさんなら　きっと倒せるはずだ。\n　なはは。これは　マジだぜえ。\n<br>\n「おまえさんの　心が決まって　ルルルリーチを\n　倒す気になったら　レベル３０以上の\n　旅芸人になって　ここに戻ってきてくれなあ。": 
+    "You see, I used to travel around the world\nperforming tricks with a master who thought he\ncould make people happy with his art. On that\n<br>\ntrip, there was a monster who sympathized with\nthe master's creed and loved gei. I'm Lulu\nLulu Leach, the brothers' child. Lulu Lulu\n<br>\nLeech, the brothers child, had a natural\ntalent and worked very hard to become a\nlegendary minstrel. But one day, he became\n<br>\nsomeone else. One day, he decided to kill his\nmaster with his own hands and wipe out all\nminstrels from the world. He started killing\n<br>\nminstrels in various places. In order to stop\nhis ambition, I challenged Relulu to a fight,\nbut we couldn't defeat him, and both of us got\n<br>\nseriously injured. But now that you've\nregained your heart to Gazer, I'm sure you'll\nbe able to defeat him. Ha-ha-ha. This is for\n<br>\nreal. When your mind is made up and you're\nready to defeat Lululu Leech, please come back\nhere as a level 30+ minstrel."
   },
   "36260": {
-    "「オイラの兄弟子　ルルルリーチは\n　ある日を境に　別人に　なっちまってなあ。\n　師匠を殺し　旅芸人を殺しはじめたんだなあ。\n<br>\n「あいつの野望を　食いとめるためによお\n　オイラは　闇芸人ルルルリーチに戦いを挑んだが\n　倒せず　どっちも大ケガしちまったぜえ。\n<br>\n「なはは。ゲイザーに　心を取り戻した\n　おめえさんなら　きっと倒せるはずだ。\n　<pc>よ。オイラは　信じてるぜえ。<bw_break>": "I's brothers child, Lulu Lelouch, one day\nbecame a different person. He killed his\nmaster and started killing minstrels. In order\n<br>\nto stop his ambition, I challenged Relulu to a\nfight, but I couldn't defeat him, and both of\nus got seriously injured. I'm sure you, who\n<br>\nhave regained your heart to Gazer, will be\nable to defeat him. I believe in you,\n<pc>.<bw_break>"
+    "「オイラの兄弟子　ルルルリーチは\n　ある日を境に　別人に　なっちまってなあ。\n　師匠を殺し　旅芸人を殺しはじめたんだなあ。\n<br>\n「あいつの野望を　食いとめるためによお\n　オイラは　闇芸人ルルルリーチに戦いを挑んだが\n　倒せず　どっちも大ケガしちまったぜえ。\n<br>\n「なはは。ゲイザーに　心を取り戻した\n　おめえさんなら　きっと倒せるはずだ。\n　<pc>よ。オイラは　信じてるぜえ。<bw_break>": 
+    "I's brothers child, Lulu Lelouch, one day\nbecame a different person. He killed his\nmaster and started killing minstrels. In order\n<br>\nto stop his ambition, I challenged Relulu to a\nfight, but I couldn't defeat him, and both of\nus got seriously injured. I'm sure you, who\n<br>\nhave regained your heart to Gazer, will be\nable to defeat him. I believe in you,\n<pc>.<bw_break>"
   },
   "46770": {
-    "「もっともっと　強くなって\n　レベル３０以上の　旅芸人になったら\n　また　ここに戻ってきてくれなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": "I hope you will come back here again when you\nget stronger and become a level 30+ minstrel.\nHa-ha. Remember this. You can save people with\n<br>\nyour art."
+    "「もっともっと　強くなって\n　レベル３０以上の　旅芸人になったら\n　また　ここに戻ってきてくれなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": 
+    "I hope you will come back here again when you\nget stronger and become a level 30+ minstrel.\nHa-ha. Remember this. You can save people with\n<br>\nyour art."
   },
   "46771": {
-    "「おまえさんの　心が決まって　ルルルリーチを\n　倒す気になったら　レベル３０以上の\n　旅芸人になって　ここに戻ってきてくれなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": "When your mind is made up and you are ready to\ntake on Lululeech, please come back here as a\nlevel 30+ minstrel. Ha-ha-ha. Remember this.\n<br>\nYou can save people with your art."
+    "「おまえさんの　心が決まって　ルルルリーチを\n　倒す気になったら　レベル３０以上の\n　旅芸人になって　ここに戻ってきてくれなあ。\n<br>\n「なはは。覚えておいてくれよ。\n　芸は　人を救えるんだぜえ。": 
+    "When your mind is made up and you are ready to\ntake on Lululeech, please come back here as a\nlevel 30+ minstrel. Ha-ha-ha. Remember this.\n<br>\nYou can save people with your art."
   },
   "36261": {
-    "「すごいねえ。立ってるだけで輝いてるねえ。 \n　もう　オイラを超えてるかもしれないなあ。\n　なんつーか　一流の芸人オーラ出してるよねえ。\n<br>\n「ところで　メギストリス領の南にある\n　メギラザの洞くつの奥に　ものすごく強い魔物が\n　現れたって話を　知ってるかなあ？\n<br>\n「この世に　生きる希望をもたらす芸など不要！\n　旅芸人を抹殺し　世界を絶望で満たそう！\n　とか　そいつは　叫んでるらしいぜえ。\n<br>\n「オイラ思うに　たぶん　ルルルリーチだなあ。\n　ゲイザーがいなくなって　出てきたと思うよお。\n　このまま　放ってはおけないよなあ。\n<br>\n「討伐に行った奴は　返り討ちにされてるし\n　闇芸人ルルルリーチを倒せるのは\n　やっぱり　<pc>しか　いないよなあ。\n<br>\n「あいつを倒して　かわいい旅芸人たちがよお\n　笑って　芸をやれる世の中に　してえなあ。\n　<pc>。もちろん　やるよなあ？": "That's amazing. You are shining just standing\nthere.I think he may have already surpassed I.\nHe has an aura of a first-class performer. He\n<br>\nhas the aura of a first-class performer,\ndoesn't he? By the way, did you know that a\nvery powerful monster has appeared deep inside\n<br>\nMegilaza Cave, south of Megistris Territory?\nThe world doesn't need any more tricks to\nbring hope for life! Let's kill the minstrels\n<br>\nand fill the world with despair! Let's kill\nthe minstrels and fill the world with despair!\nI think it's probably Lulu Leach. I think it's\n<br>\nprobably Lulu Leach. I think she came out\nafter Gazer disappeared. We can't just leave\nit like that, can we? The guy who went to take\n<br>\ndown Relulu got his ass back, and\n<pc> is the only one who can take\nRelulu down, right? I hope we can defeat him\n<br>\nand make the world a place where cute\nminstrels can laugh and do tricks.\n<pc>. Of course, you'll do it,\n<br>\nright?"
+    "「すごいねえ。立ってるだけで輝いてるねえ。 \n　もう　オイラを超えてるかもしれないなあ。\n　なんつーか　一流の芸人オーラ出してるよねえ。\n<br>\n「ところで　メギストリス領の南にある\n　メギラザの洞くつの奥に　ものすごく強い魔物が\n　現れたって話を　知ってるかなあ？\n<br>\n「この世に　生きる希望をもたらす芸など不要！\n　旅芸人を抹殺し　世界を絶望で満たそう！\n　とか　そいつは　叫んでるらしいぜえ。\n<br>\n「オイラ思うに　たぶん　ルルルリーチだなあ。\n　ゲイザーがいなくなって　出てきたと思うよお。\n　このまま　放ってはおけないよなあ。\n<br>\n「討伐に行った奴は　返り討ちにされてるし\n　闇芸人ルルルリーチを倒せるのは\n　やっぱり　<pc>しか　いないよなあ。\n<br>\n「あいつを倒して　かわいい旅芸人たちがよお\n　笑って　芸をやれる世の中に　してえなあ。\n　<pc>。もちろん　やるよなあ？": 
+    "That's amazing. You are shining just standing\nthere.I think he may have already surpassed I.\nHe has an aura of a first-class performer. He\n<br>\nhas the aura of a first-class performer,\ndoesn't he? By the way, did you know that a\nvery powerful monster has appeared deep inside\n<br>\nMegilaza Cave, south of Megistris Territory?\nThe world doesn't need any more tricks to\nbring hope for life! Let's kill the minstrels\n<br>\nand fill the world with despair! Let's kill\nthe minstrels and fill the world with despair!\nI think it's probably Lulu Leach. I think it's\n<br>\nprobably Lulu Leach. I think she came out\nafter Gazer disappeared. We can't just leave\nit like that, can we? The guy who went to take\n<br>\ndown Relulu got his ass back, and\n<pc> is the only one who can take\nRelulu down, right? I hope we can defeat him\n<br>\nand make the world a place where cute\nminstrels can laugh and do tricks.\n<pc>. Of course, you'll do it,\n<br>\nright?"
   },
   "36262": {
-    "「なはは。やっちゃう？　そうだよねえ。\n　やっぱり　ここは　やっちゃうよなあ。\n　オイラ　うれしくなっちゃうよお。\n<br>\n「闇芸人ルルルリーチは　オイラでも\n　倒せなかったけど　<pc>なら……。\n　なはは。がんばるよねえ？　がんばってなあ。": "Nahaha. You're gonna do it? That's right.\nAfter all, I would do it here, wouldn't I? I'm\nso happy. Even I couldn't beat Relulu, but\n<br>\n<pc> can. Ha-ha-ha. You'll do your\nbest, right? You'll do your best, won't you?"
+    "「なはは。やっちゃう？　そうだよねえ。\n　やっぱり　ここは　やっちゃうよなあ。\n　オイラ　うれしくなっちゃうよお。\n<br>\n「闇芸人ルルルリーチは　オイラでも\n　倒せなかったけど　<pc>なら……。\n　なはは。がんばるよねえ？　がんばってなあ。": 
+    "Nahaha. You're gonna do it? That's right.\nAfter all, I would do it here, wouldn't I? I'm\nso happy. Even I couldn't beat Relulu, but\n<br>\n<pc> can. Ha-ha-ha. You'll do your\nbest, right? You'll do your best, won't you?"
   },
   "36263": {
-    "「なはは。そうかい。オイラ　うれしいなあ。\n　なんつーか　気合いが　みなぎってるよなあ。\n　ビンビン　伝わってくるよお。それじゃ……\n<br>\n「って　頼みごとを　たくさん抱えすぎて\n　それどころじゃねえんだなあ　これが！\n　なはは。おめえさん　面白いなあ。": "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny."
+    "「なはは。そうかい。オイラ　うれしいなあ。\n　なんつーか　気合いが　みなぎってるよなあ。\n　ビンビン　伝わってくるよお。それじゃ……\n<br>\n「って　頼みごとを　たくさん抱えすぎて\n　それどころじゃねえんだなあ　これが！\n　なはは。おめえさん　面白いなあ。": 
+    "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny."
   },
   "36264": {
-    "「なはは。そうかい。オイラ　うれしいなあ。\n　それじゃ　ここはひとつ　はりきって……\n<br>\n「って　やめるって言っちゃったのかなあ？\n　ひょっとしたら　ひょっとしちゃったよお。\n　ここにきて　そういうギャグやっちゃうかなあ。\n<br>\n「おめえさんが　やらなかったら\n　旅芸人は怖くて　芸が　できなくなるぜえ。\n　決心ついたら　また戻ってきてくれなあ。": "Ha-ha-ha. I'm so happy to hear that. Then, I\nwonder if I said I'd give up on him. Maybe, ma\nybe...maybe...maybe...maybe...maybe...maybe...\n<br>\nmaybe...maybe...maybe. I wonder if I'm going\nto do that kind of gag here. If you don't do\nit, minstrels will be too scared to do tricks.\n<br>\nWhen you make up your mind, please come back\nagain."
+    "「なはは。そうかい。オイラ　うれしいなあ。\n　それじゃ　ここはひとつ　はりきって……\n<br>\n「って　やめるって言っちゃったのかなあ？\n　ひょっとしたら　ひょっとしちゃったよお。\n　ここにきて　そういうギャグやっちゃうかなあ。\n<br>\n「おめえさんが　やらなかったら\n　旅芸人は怖くて　芸が　できなくなるぜえ。\n　決心ついたら　また戻ってきてくれなあ。": 
+    "Ha-ha-ha. I'm so happy to hear that. Then, I\nwonder if I said I'd give up on him. Maybe, ma\nybe...maybe...maybe...maybe...maybe...maybe...\n<br>\nmaybe...maybe...maybe. I wonder if I'm going\nto do that kind of gag here. If you don't do\nit, minstrels will be too scared to do tricks.\n<br>\nWhen you make up your mind, please come back\nagain."
   },
   "36265": {
-    "「なはは。元気かい？　元気だよなあ。\n　メギストリス領の南　メギラザの洞くつの奥で\n　闇芸人ルルルリーチを倒すんだよお。<open_irai><bw_break>": "Nahaha. How are you? I'm fine, I hope. We are\ngoing to defeat Relulu at the end of Megilaza\nCave, south of Megistris Territory.<open_irai><bw_break>"
+    "「なはは。元気かい？　元気だよなあ。\n　メギストリス領の南　メギラザの洞くつの奥で\n　闇芸人ルルルリーチを倒すんだよお。<open_irai><bw_break>": 
+    "Nahaha. How are you? I'm fine, I hope. We are\ngoing to defeat Relulu at the end of Megilaza\nCave, south of Megistris Territory.<open_irai><bw_break>"
   },
   "36266": {
-    "<close_irai>「オイラじゃ　倒せなかったけど\n　<pc>なら　大丈夫だぜえ。\n　なはは。がんばるよねえ？　がんばってなあ。": "<close_irai>I couldn't beat it, but <pc> can. Ha\nha. You'll do your best, right? You'll do your\nbest, won't you?"
+    "<close_irai>「オイラじゃ　倒せなかったけど\n　<pc>なら　大丈夫だぜえ。\n　なはは。がんばるよねえ？　がんばってなあ。": 
+    "<close_irai>I couldn't beat it, but <pc> can. Ha\nha. You'll do your best, right? You'll do your\nbest, won't you?"
   },
   "36267": {
-    "「なはは。おめえさん　やっちゃったなあ。\n　もう　なんつーか　ものすげえよなあ。\n　闇芸人ルルルリーチを　倒しちまったかあ。\n<br>\n「おめえさんは　どこまで大きくなるのかなあ。\n　なはは。オイラ　楽しみにしてるぜえ。\n　これは　かる～い　オイラの気持ち。": "Ha-ha-ha. You've done it. You're really\namazing, aren't you? You beat Relulu, huh? I\nwonder how big you'll get. I'm looking forward\n<br>\nto it. This is a simple I feeling."
+    "「なはは。おめえさん　やっちゃったなあ。\n　もう　なんつーか　ものすげえよなあ。\n　闇芸人ルルルリーチを　倒しちまったかあ。\n<br>\n「おめえさんは　どこまで大きくなるのかなあ。\n　なはは。オイラ　楽しみにしてるぜえ。\n　これは　かる～い　オイラの気持ち。": 
+    "Ha-ha-ha. You've done it. You're really\namazing, aren't you? You beat Relulu, huh? I\nwonder how big you'll get. I'm looking forward\n<br>\nto it. This is a simple I feeling."
   },
   "36268": {
-    "「……たくさんの旅芸人がよお　笑いの極みに\n　たどりつく前に　信念を見失うんだあ。\n<br>\n「修行もキツイし　笑いをとろうとしても\n　それが　世の中に　ウケないこともあるしなあ。\n　だがよお　それくらいのハードルは　上等上等。\n<br>\n「そんなこと　ぜーんぶ　問題にもしないで\n　ひたすら　笑いに　情熱をかけられるような奴。\n　天下をとるのは　そんなバカだと思うよお。\n<br>\n「<pc>。オイラに　いつか見せてなあ。\n　笑いの極みに　たどりついたバカの芸をよお。\n　それができたら　伝説の旅芸人と呼ばれるぜえ。": "Many minstrels lose their faith before they\nreach Comedy's Height. It's hard to train, and\neven if you try to be funny, sometimes the\n<br>\nworld doesn't like it. But, you know, that's a\nhurdle. Someone who doesn't care about any of\nthat, who can put all his passion into making\n<br>\npeople laugh. I think it's idiots like that\nwho will take the world by storm. I wish I\ncould see it someday. I wish you'd show me the\n<br>\nart of the fool who made it to Comedy's\nHeight. If I can do that, I'll be called a\nlegendary minstrel."
+    "「……たくさんの旅芸人がよお　笑いの極みに\n　たどりつく前に　信念を見失うんだあ。\n<br>\n「修行もキツイし　笑いをとろうとしても\n　それが　世の中に　ウケないこともあるしなあ。\n　だがよお　それくらいのハードルは　上等上等。\n<br>\n「そんなこと　ぜーんぶ　問題にもしないで\n　ひたすら　笑いに　情熱をかけられるような奴。\n　天下をとるのは　そんなバカだと思うよお。\n<br>\n「<pc>。オイラに　いつか見せてなあ。\n　笑いの極みに　たどりついたバカの芸をよお。\n　それができたら　伝説の旅芸人と呼ばれるぜえ。": 
+    "Many minstrels lose their faith before they\nreach Comedy's Height. It's hard to train, and\neven if you try to be funny, sometimes the\n<br>\nworld doesn't like it. But, you know, that's a\nhurdle. Someone who doesn't care about any of\nthat, who can put all his passion into making\n<br>\npeople laugh. I think it's idiots like that\nwho will take the world by storm. I wish I\ncould see it someday. I wish you'd show me the\n<br>\nart of the fool who made it to Comedy's\nHeight. If I can do that, I'll be called a\nlegendary minstrel."
   },
   "36269": {
-    "「修行もキツイし　笑いをとろうとしても\n　それが　世の中に　ウケないこともあるよなあ。\n　だがよお　それくらいのハードルは　上等上等。\n<br>\n「そんなこと　ぜーんぶ　問題にもしないで\n　ひたすら　笑いに　情熱をかけられるような奴。\n　天下をとるのは　そんなバカだと思うよお。\n<br>\n「<pc>。オイラに　いつか見せてなあ。\n　笑いの極みに　たどりついたバカの芸をよお。\n　それができたら　伝説の旅芸人と呼ばれるぜえ。": "It's hard work, and even if you try to be\nfunny, sometimes it doesn't go over well with\nthe world. But, hey, that's a hurdle, and\n<br>\nthat's fine and dandy. Someone who doesn't\nhave a problem with all of that, who can put\nall of his passion into making people laugh. I\n<br>\nthink it's idiots like that who will take the\nworld by storm. I wish I could see it\nsomeday. I wish you'd show me the art of the\n<br>\nfool who made it to Comedy's Height. If I can\ndo that, I'll be called a legendary minstrel."
+    "「修行もキツイし　笑いをとろうとしても\n　それが　世の中に　ウケないこともあるよなあ。\n　だがよお　それくらいのハードルは　上等上等。\n<br>\n「そんなこと　ぜーんぶ　問題にもしないで\n　ひたすら　笑いに　情熱をかけられるような奴。\n　天下をとるのは　そんなバカだと思うよお。\n<br>\n「<pc>。オイラに　いつか見せてなあ。\n　笑いの極みに　たどりついたバカの芸をよお。\n　それができたら　伝説の旅芸人と呼ばれるぜえ。": 
+    "It's hard work, and even if you try to be\nfunny, sometimes it doesn't go over well with\nthe world. But, hey, that's a hurdle, and\n<br>\nthat's fine and dandy. Someone who doesn't\nhave a problem with all of that, who can put\nall of his passion into making people laugh. I\n<br>\nthink it's idiots like that who will take the\nworld by storm. I wish I could see it\nsomeday. I wish you'd show me the art of the\n<br>\nfool who made it to Comedy's Height. If I can\ndo that, I'll be called a legendary minstrel."
   }
 }

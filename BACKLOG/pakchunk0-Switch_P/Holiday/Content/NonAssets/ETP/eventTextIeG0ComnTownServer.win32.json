@@ -1,416 +1,554 @@
 {
   "100307": {
-    "「<pc>さま。\n　ティードさまという　お名前の方から\n　お預かりしている品物が　ございます。\n<br>\n「どうぞ　こちらを　お受け取りください！ ": "<pc>. We have an item for you from a\ngentleman by the name of Tido. Please accept\nthis item!"
+    "「<pc>さま。\n　ティードさまという　お名前の方から\n　お預かりしている品物が　ございます。\n<br>\n「どうぞ　こちらを　お受け取りください！ ": 
+    "<pc>. We have an item for you from a\ngentleman by the name of Tido. Please accept\nthis item!"
   },
   "100308": {
-    "「<pc>さま。\n　ティードさまという　お名前の方から\n　お預かりしている品物が　ございます。\n<br>\n「……ですが　今は　持ちきれないようですね。 \n　アイテムを整理して　また　お越しください。": "<pc>. We have an item in our\npossession from a person by the name of Mr.\nTido. But it seems that you can't hold it\n<br>\nnow.Please organize your items and come back\nagain."
+    "「<pc>さま。\n　ティードさまという　お名前の方から\n　お預かりしている品物が　ございます。\n<br>\n「……ですが　今は　持ちきれないようですね。 \n　アイテムを整理して　また　お越しください。": 
+    "<pc>. We have an item in our\npossession from a person by the name of Mr.\nTido. But it seems that you can't hold it\n<br>\nnow.Please organize your items and come back\nagain."
   },
   "93919": {
-    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": "<pc> received <%sev_item>!<se_nots System Item>"
+    "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>": 
+    "<pc> obtained the <%sEV_ITEM>!<se_nots System Item>"
   },
   "74737": {
-    "「ご利用　ありがとうございました。ところで……\n　レンダーシア上陸に関する　特別な依頼が\n　届いております。内容を　ご説明しましょうか？<yesno><break>": "Thank you very much for your business. By the\nway, we have received a special request\nregarding the Lendersia landing. Would you\n<br>\nlike me to explain it to you?<yesno><break>"
+    "「ご利用　ありがとうございました。ところで……\n　レンダーシア上陸に関する　特別な依頼が\n　届いております。内容を　ご説明しましょうか？<yesno><break>": 
+    "Thank you very much for your business. By the\nway, we have received a special request\nregarding the Lendersia landing. Would you\n<br>\nlike me to explain it to you?<yesno><break>"
   },
   "74738": {
-    "「……かしこまりました。それでは\n　またの機会にでも　お申し付けくださいませ。": "Thank you very much. We look forward to\nworking with you again in the future."
+    "「……かしこまりました。それでは\n　またの機会にでも　お申し付けくださいませ。": 
+    "Thank you very much. We look forward to\nworking with you again in the future."
   },
   "74739": {
-    "「先日　レンドア島と　レンダーシアをつなぐ\n　定期船　グランドタイタス号の修理が完了し\n　出港の準備が整ったという報告が　ありました。\n<br>\n「しかし　レンダーシアへ上陸するためには\n　入った者すべてを迷わせ　海に沈めるという\n　紫の霧……迷いの霧を越えなくてはなりません。\n<br>\n「その霧に対抗する手段を　探した結果\n　魔法の羅針盤という　特別な羅針盤を使えば\n　レンダーシアへ行けることが　わかりました。\n<br>\n「しかし　魔法の羅針盤を作るには　特別な材料が\n　大量に必要となるため　実力ある冒険者の方に\n　協力を依頼して　集めることになったのです。\n<br>\n「その特別な材料とは　<%sEV_QUE_NAME4>が\n　ひとつ　<%sEV_QUE_NAME5>が　５つ\n　そして　無限の磁力石という　不思議な石……。\n<br>\n「この依頼を達成していただけると\n　レンダーシアへの道が　開けることでしょう。\n　<pc>さま。受けていただけますか？": "The Grand Titus, a liner connecting Lendor\nIsland and Lendersia, was recently reported to\nbe repaired and ready to sail. However, in\n<br>\norder to land in Lendersia, one must pass\nthrough a magical mist, a purple fog that\ncauses all who enter to lose their way and\n<br>\nsink into the sea. After searching for a way\nto counteract the mist, we discovered that\nLendersia could be reached by using a special\n<br>\ncompass called the Magic Compass. However, the\nMagic Compass requires a large amount of\nspecial materials, so we asked for the help of\n<br>\na few talented adventurers to help us gather\nthese materials. The special materials are one\n<%sEV_QUE_NAME4>, five <%sEV_QUE_NAME5>, and a\n<br>\nmysterious stone called Infinite Magnetite. If\nyou complete this request, you will be on your\nway to Lendersia. <pc>. Will you\n<br>\naccept?"
+    "「先日　レンドア島と　レンダーシアをつなぐ\n　定期船　グランドタイタス号の修理が完了し\n　出港の準備が整ったという報告が　ありました。\n<br>\n「しかし　レンダーシアへ上陸するためには\n　入った者すべてを迷わせ　海に沈めるという\n　紫の霧……迷いの霧を越えなくてはなりません。\n<br>\n「その霧に対抗する手段を　探した結果\n　魔法の羅針盤という　特別な羅針盤を使えば\n　レンダーシアへ行けることが　わかりました。\n<br>\n「しかし　魔法の羅針盤を作るには　特別な材料が\n　大量に必要となるため　実力ある冒険者の方に\n　協力を依頼して　集めることになったのです。\n<br>\n「その特別な材料とは　<%sEV_QUE_NAME4>が\n　ひとつ　<%sEV_QUE_NAME5>が　５つ\n　そして　無限の磁力石という　不思議な石……。\n<br>\n「この依頼を達成していただけると\n　レンダーシアへの道が　開けることでしょう。\n　<pc>さま。受けていただけますか？": 
+    "The Grand Titus, a liner connecting Lendor\nIsland and Lendersia, was recently reported to\nbe repaired and ready to sail. However, in\n<br>\norder to land in Lendersia, one must pass\nthrough a magical mist, a purple fog that\ncauses all who enter to lose their way and\n<br>\nsink into the sea. After searching for a way\nto counteract the mist, we discovered that\nLendersia could be reached by using a special\n<br>\ncompass called the Magic Compass. However, the\nMagic Compass requires a large amount of\nspecial materials, so we asked for the help of\n<br>\na few talented adventurers to help us gather\nthese materials. The special materials are one\n<%sEV_QUE_NAME4>, five <%sEV_QUE_NAME5>, and a\n<br>\nmysterious stone called Infinite Magnetite. If\nyou complete this request, you will be on your\nway to Lendersia. <pc>. Will you\n<br>\naccept?"
   },
   "74740": {
-    "「ありがとうございます。<%sEV_QUE_NAME4>と\n　<%sEV_QUE_NAME5>は　<pc>さまの\n　お好きな方法で　入手なさってください。\n<br>\n「無限の磁力石は　<%sEV_QUE_NAME0>を倒せば\n　確実に拾え　<%sEV_QUE_NAME1>ならば\n　何匹か倒すと　拾えるそうですよ。": "Thank you. You can get <%sev_que_name4> and\n<%sev_que_name5> any way you like\n<pc>. Infinite Magnetite can be\n<br>\npicked up for sure by killing\n<%sEV_QUE_NAME0>, and <%sEV_QUE_NAME1> can be\npicked up after killing some of them."
+    "「ありがとうございます。<%sEV_QUE_NAME4>と\n　<%sEV_QUE_NAME5>は　<pc>さまの\n　お好きな方法で　入手なさってください。\n<br>\n「無限の磁力石は　<%sEV_QUE_NAME0>を倒せば\n　確実に拾え　<%sEV_QUE_NAME1>ならば\n　何匹か倒すと　拾えるそうですよ。": 
+    "Thank you. You can get <%sev_que_name4> and\n<%sev_que_name5> any way you like\n<pc>. Infinite Magnetite can be\n<br>\npicked up for sure by killing\n<%sEV_QUE_NAME0>, and <%sEV_QUE_NAME1> can be\npicked up after killing some of them."
   },
   "74741": {
-    "「材料が　すべて　そろいましたら\n　どの町の宿屋の案内係でも　かまいませんので\n　すぐに　お持ちください。\n<br>\n「<pc>さまが　無事に\n　魔法の羅針盤の材料を　手に入れられますよう\n　お祈りいたしております。": "When you have all the materials, please bring\nthem immediately to any of the innkeepers in\nany town. We wish <pc> the best of\n<br>\nluck in obtaining the materials for the Magic\nCompass."
+    "「材料が　すべて　そろいましたら\n　どの町の宿屋の案内係でも　かまいませんので\n　すぐに　お持ちください。\n<br>\n「<pc>さまが　無事に\n　魔法の羅針盤の材料を　手に入れられますよう\n　お祈りいたしております。": 
+    "When you have all the materials, please bring\nthem immediately to any of the innkeepers in\nany town. We wish <pc> the best of\n<br>\nluck in obtaining the materials for the Magic\nCompass."
   },
   "74742": {
-    "「ありがとうございます。\n　……と言いたいところですが　ずいぶん多くの\n　頼まれごとを　抱えていらっしゃるようですね。\n<br>\n「こちらも　急ぎの依頼ではありますが\n　また　次の機会に　お願いさせていただきます。": "Thank you very much. I would like to say thank\nyou very much, but it seems that you have a\nlot of requests. I would like to thank you\n<br>\nagain for your kindness, but it seems that you\nhave a lot of requests."
+    "「ありがとうございます。\n　……と言いたいところですが　ずいぶん多くの\n　頼まれごとを　抱えていらっしゃるようですね。\n<br>\n「こちらも　急ぎの依頼ではありますが\n　また　次の機会に　お願いさせていただきます。": 
+    "Thank you very much. I would like to say thank\nyou very much, but it seems that you have a\nlot of requests. I would like to thank you\n<br>\nagain for your kindness, but it seems that you\nhave a lot of requests."
   },
   "74743": {
-    "「……かしこまりました。\n　それでは　お心が　変わりましたときに\n　お申し付けくださいませ。": "I will be happy to help you. If you change\nyour mind, please let us know."
+    "「……かしこまりました。\n　それでは　お心が　変わりましたときに\n　お申し付けくださいませ。": 
+    "I will be happy to help you. If you change\nyour mind, please let us know."
   },
   "74744": {
-    "「それから　<pc>さま。\n　グランドタイタス号の　魔法の羅針盤の\n　材料集めの件　よろしくお願いいたしますね。<open_irai>": "And <pc>. I would appreciate your\nhelp in collecting materials for Grand Titus'\nMagic Compass.<open_irai>"
+    "「それから　<pc>さま。\n　グランドタイタス号の　魔法の羅針盤の\n　材料集めの件　よろしくお願いいたしますね。<open_irai>": 
+    "And <pc>. I would appreciate your\nhelp in collecting materials for Grand Titus'\nMagic Compass.<open_irai>"
   },
   "74745": {
-    "「おかえりなさいませ　<pc>さま。\n　もしや　魔法の羅針盤の材料　すべてを\n　お持ちいただけたのでは　ありませんか？": "Welcome back <pc>. I assume that you\nhave brought all the materials for the Magic\nCompass with you?"
+    "「おかえりなさいませ　<pc>さま。\n　もしや　魔法の羅針盤の材料　すべてを\n　お持ちいただけたのでは　ありませんか？": 
+    "Welcome back <pc>. I assume that you\nhave brought all the materials for the Magic\nCompass with you?"
   },
   "74746": {
-    "「これは　失礼いたしました。\n　どの町の宿屋の案内係でも　かまいませんので\n　手に入りましたら　お持ちください。": "I apologize for this. The information desk at\nthe innkeeper's office in any town will be\nhappy to help you."
+    "「これは　失礼いたしました。\n　どの町の宿屋の案内係でも　かまいませんので\n　手に入りましたら　お持ちください。": 
+    "I apologize for this. The information desk at\nthe innkeeper's office in any town will be\nhappy to help you."
   },
   "74747": {
-    "「ありがとうございます。\n　確かに　お預かりいたしました！\n　では　こちらを　お受け取りください。": "Thank you very much. We have indeed received\nyour package! Now, please accept this one."
+    "「ありがとうございます。\n　確かに　お預かりいたしました！\n　では　こちらを　お受け取りください。": 
+    "Thank you very much. We have indeed received\nyour package! Now, please accept this one."
   },
   "74748": {
-    "「その乗船パス引換券を　港町レンドア南にある\n　船舶管理局にいる　スギム局長に渡すと\n　乗船パスと　交換してくれるでしょう。\n<br>\n「乗船パスがあれば　グランドタイタス号に乗って\n　レンダーシアの大地へ　出発できます。\n　以上の流れ　ご理解いただけたでしょうか？<yesno 2><break>": "The Boarding Pass Voucher should be handed to\nDirector Sugimu at the Ship Bureau in South\nPort Lendor, and he will exchange it for a\n<br>\nboarding pass. With the boarding pass, you can\nboard the Grand Titus and depart for the land\nof Lendersia. Do you understand the above\n<br>\nprocess?<yesno 2><break>"
+    "「その乗船パス引換券を　港町レンドア南にある\n　船舶管理局にいる　スギム局長に渡すと\n　乗船パスと　交換してくれるでしょう。\n<br>\n「乗船パスがあれば　グランドタイタス号に乗って\n　レンダーシアの大地へ　出発できます。\n　以上の流れ　ご理解いただけたでしょうか？<yesno 2><break>": 
+    "The Boarding Pass Voucher should be handed to\nDirector Sugimu at the Ship Bureau in South\nPort Lendor, and he will exchange it for a\n<br>\nboarding pass. With the boarding pass, you can\nboard the Grand Titus and depart for the land\nof Lendersia. Do you understand the above\n<br>\nprocess?<yesno 2><break>"
   },
   "74749": {
-    "「ありがとうございます。\n　確かに　お預かりいたしました！\n　では　こちらを　お受け取りください。": "Thank you very much. We have indeed received\nyour package! Now, please accept this one."
+    "「ありがとうございます。\n　確かに　お預かりいたしました！\n　では　こちらを　お受け取りください。": 
+    "Thank you very much. We have indeed received\nyour package! Now, please accept this one."
   },
   "81087": {
-    "「それでは　もう一度\n　ご説明させていただきます。\n　今　お渡ししたのは　乗船パス引換券です。<bw_break>": "Let me explain again. What I just handed you\nis a Boarding Pass Voucher.<bw_break>"
+    "「それでは　もう一度\n　ご説明させていただきます。\n　今　お渡ししたのは　乗船パス引換券です。<bw_break>": 
+    "Let me explain again. What I just handed you\nis a Boarding Pass Voucher.<bw_break>"
   },
   "81088": {
-    "「いよいよ　<pc>さまの　船出の時が \n　近づいてまいりましたね。\n　それでは　よい旅を。": "The time for <pc> to set sail is\nfinally approaching. Have a good trip."
+    "「いよいよ　<pc>さまの　船出の時が \n　近づいてまいりましたね。\n　それでは　よい旅を。": 
+    "The time for <pc> to set sail is\nfinally approaching. Have a good trip."
   },
   "74750": {
-    "この案内係に　<%sEV_QUE_NAME4>を　ひとつ\n<%sEV_QUE_NAME5>を　５つと\n無限の磁力石を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like me to give this attendant one\n<%sEV_QUE_NAME4>, five <%sEV_QUE_NAME5>, and\nan Infinite Magnetite?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "この案内係に　<%sEV_QUE_NAME4>を　ひとつ\n<%sEV_QUE_NAME5>を　５つと\n無限の磁力石を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
+    "Would you like me to give this attendant one\n<%sEV_QUE_NAME4>, five <%sEV_QUE_NAME5>, and\nan Infinite Magnetite?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "74751": {
-    "<pc>は　案内係に　<%sEV_QUE_NAME4>を\nひとつ　<%sEV_QUE_NAME5>を　５つと\n無限の磁力石を　渡した！": "<pc> gave the guide one\n<%sEV_QUE_NAME4>, five <%sEV_QUE_NAME5>, and\nan Infinite Magnetite!"
+    "<pc>は　案内係に　<%sEV_QUE_NAME4>を\nひとつ　<%sEV_QUE_NAME5>を　５つと\n無限の磁力石を　渡した！": 
+    "<pc> gave the guide one\n<%sEV_QUE_NAME4>, five <%sEV_QUE_NAME5>, and\nan Infinite Magnetite!"
   },
   "43978": {
-    "「こちらは愛と信頼の　ゴールド銀行です。\n　皆さまの　大切なゴールドを\n　無料で　お預かりいたします。\n<br>\n「大きな町の　ゴールド銀行で\n　入会の　お手続きをしていただければ\n　どなたでも　ご利用になれますよ。": "This is a gold bank of love and trust. We will\nkeep your precious gold for free. Anyone can\nuse this service after completing the\n<br>\nadmission procedure at a gold bank in a large\ntown."
+    "「こちらは愛と信頼の　ゴールド銀行です。\n　皆さまの　大切なゴールドを\n　無料で　お預かりいたします。\n<br>\n「大きな町の　ゴールド銀行で\n　入会の　お手続きをしていただければ\n　どなたでも　ご利用になれますよ。": 
+    "This is a gold bank of love and trust. We will\nkeep your precious gold for free. Anyone can\nuse this service after completing the\n<br>\nadmission procedure at a gold bank in a large\ntown."
   },
   "43979": {
-    "「こちらは愛と信頼の　ゴールド銀行です。\n　皆さまの　大切なゴールドを\n　無料で　お預かりいたします。\n<br>\n「お客さまは……　はい。\n　当ゴールド銀行は　はじめてのご利用ですね。\n<br>\n「でしたら　入会の　お手続きのため\n　<%sEV_QUE_NAME0>が　落とす\n　きらめきインクという品を　お持ちください。\n<br>\n「ご入会いただいた後は\n　全国のゴールド銀行を　ご利用いただけますよ。\n　いかがでしょう。お願いできますか？": "This is a gold bank of love and trust. We will\nkeep your precious gold for free. You are a\nfirst-time customer of Gold Bank? This is your\n<br>\nfirst time to use our Gold Bank, isn't it? If\nso, please bring the Glittering Ink that\n<%sEV_QUE_NAME0> will drop off with you to\n<br>\ncomplete the enrollment process. After you\nenroll, you will be able to use all Gold Bank\nlocations nationwide. How about that? Can you\n<br>\ndo that for me?"
+    "「こちらは愛と信頼の　ゴールド銀行です。\n　皆さまの　大切なゴールドを\n　無料で　お預かりいたします。\n<br>\n「お客さまは……　はい。\n　当ゴールド銀行は　はじめてのご利用ですね。\n<br>\n「でしたら　入会の　お手続きのため\n　<%sEV_QUE_NAME0>が　落とす\n　きらめきインクという品を　お持ちください。\n<br>\n「ご入会いただいた後は\n　全国のゴールド銀行を　ご利用いただけますよ。\n　いかがでしょう。お願いできますか？": 
+    "This is a gold bank of love and trust. We will\nkeep your precious gold for free. You are a\nfirst-time customer of Gold Bank? This is your\n<br>\nfirst time to use our Gold Bank, isn't it? If\nso, please bring the Glittering Ink that\n<%sEV_QUE_NAME0> will drop off with you to\n<br>\ncomplete the enrollment process. After you\nenroll, you will be able to use all Gold Bank\nlocations nationwide. How about that? Can you\n<br>\ndo that for me?"
   },
   "43980": {
-    "「ありがとうございます。\n　お引き受けいただけると　思っておりました。\n<br>\n「お客さまの　お名前は……はい。\n　<pc>さまで　いらっしゃいますね？\n<br>\n「……はい。確かに　登録いたしました。\n　これで　手に入れた物は　どの町の\n　銀行に　お渡しいただいても大丈夫です。\n<br>\n「それでは　<pc>さま。\n　お気をつけて　いってらっしゃいませ。": "Thank you very much. I was hoping you would\naccept. Your name is yes. Is it <pc>?\nYes, it is. Yes, it is registered. Now you can\n<br>\ngive the received items to any bank in any\ntown. Well then, <pc>. Have a safe\ntrip."
+    "「ありがとうございます。\n　お引き受けいただけると　思っておりました。\n<br>\n「お客さまの　お名前は……はい。\n　<pc>さまで　いらっしゃいますね？\n<br>\n「……はい。確かに　登録いたしました。\n　これで　手に入れた物は　どの町の\n　銀行に　お渡しいただいても大丈夫です。\n<br>\n「それでは　<pc>さま。\n　お気をつけて　いってらっしゃいませ。": 
+    "Thank you very much. I was hoping you would\naccept. Your name is yes. Is it <pc>?\nYes, it is. Yes, it is registered. Now you can\n<br>\ngive the received items to any bank in any\ntown. Well then, <pc>. Have a safe\ntrip."
   },
   "43981": {
-    "「ありがとうございます。 \n　しかし　お客さまは　多くの頼まれごとを\n　抱えていらっしゃる　ご様子。\n<br>\n「とても残念です。\n　他の頼まれごとを　お済ませになってから\n　また　お越しくださいませ。": "Thank you very much.However, it seems that you\nhave a lot of requests. I am very sorry.\nPlease finish your other requests before\n<br>\ncoming back again."
+    "「ありがとうございます。 \n　しかし　お客さまは　多くの頼まれごとを\n　抱えていらっしゃる　ご様子。\n<br>\n「とても残念です。\n　他の頼まれごとを　お済ませになってから\n　また　お越しくださいませ。": 
+    "Thank you very much.However, it seems that you\nhave a lot of requests. I am very sorry.\nPlease finish your other requests before\n<br>\ncoming back again."
   },
   "43982": {
-    "「そうですか……。\n　では　愛と信頼の　ゴールド銀行の　ご利用が\n　必要になりましたら　また　お越しください。": "I see. Well then, if you ever need to use the\nGold Bank of Love and Trust, please come back\nagain."
+    "「そうですか……。\n　では　愛と信頼の　ゴールド銀行の　ご利用が\n　必要になりましたら　また　お越しください。": 
+    "I see. Well then, if you ever need to use the\nGold Bank of Love and Trust, please come back\nagain."
   },
   "43983": {
-    "「これは　これは　<pc>さま。\n　ようこそ　愛と信頼の　ゴールド銀行へ。\n　お探しの品は　見つかりましたか？\n<br>\n「きらめきインクは　<%sEV_QUE_NAME0>を\n　倒すことでしか　手に入れることができない\n　たいへんに　貴重な品です。<open_irai><bw_break>": "Well, well, well <pc>. Welcome to the\nGold Bank of Love and Trust. Did you find what\nyou were looking for? Glittering Ink is a very\n<br>\nprecious item that can only be obtained by\ndefeating <%sEV_QUE_NAME0>.<open_irai><bw_break>"
+    "「これは　これは　<pc>さま。\n　ようこそ　愛と信頼の　ゴールド銀行へ。\n　お探しの品は　見つかりましたか？\n<br>\n「きらめきインクは　<%sEV_QUE_NAME0>を\n　倒すことでしか　手に入れることができない\n　たいへんに　貴重な品です。<open_irai><bw_break>": 
+    "Well, well, well <pc>. Welcome to the\nGold Bank of Love and Trust. Did you find what\nyou were looking for? Glittering Ink is a very\n<br>\nprecious item that can only be obtained by\ndefeating <%sEV_QUE_NAME0>.<open_irai><bw_break>"
   },
   "43984": {
-    "「<%sEV_QUE_NAME0>でしたら　この辺りでは\n　グレン領東に　生息していますよ。<bw_break>": "If <%sEV_QUE_NAME0>, then it lives in Glen\nEast around here.<bw_break>"
+    "「<%sEV_QUE_NAME0>でしたら　この辺りでは\n　グレン領東に　生息していますよ。<bw_break>": 
+    "If <%sEV_QUE_NAME0>, then it lives in Glen\nEast around here.<bw_break>"
   },
   "43985": {
-    "「<%sEV_QUE_NAME0>でしたら　この辺りでは\n　アズラン地方に　生息していますよ。<bw_break>": "If it is <%sev_que_name0>, it lives in the\nAzlan Region.<bw_break>"
+    "「<%sEV_QUE_NAME0>でしたら　この辺りでは\n　アズラン地方に　生息していますよ。<bw_break>": 
+    "If it is <%sev_que_name0>, it lives in the\nAzlan Region.<bw_break>"
   },
   "43986": {
-    "「<%sEV_QUE_NAME0>でしたら　この辺りでは\n　オルフェア地方東に　生息していますよ。<bw_break>": "If it is <%sev_que_name0>, it is in Orphea\nRegion East.<bw_break>"
+    "「<%sEV_QUE_NAME0>でしたら　この辺りでは\n　オルフェア地方東に　生息していますよ。<bw_break>": 
+    "If it is <%sev_que_name0>, it is in Orphea\nRegion East.<bw_break>"
   },
   "43987": {
-    "「<%sEV_QUE_NAME0>でしたら　この辺りでは\n　レーナム緑野に　生息していますよ。<bw_break>": "If it is <%sev_que_name0>, then it lives in\nLenam Fields in this area.<bw_break>"
+    "「<%sEV_QUE_NAME0>でしたら　この辺りでは\n　レーナム緑野に　生息していますよ。<bw_break>": 
+    "If it is <%sev_que_name0>, then it lives in\nLenam Fields in this area.<bw_break>"
   },
   "43988": {
-    "「<%sEV_QUE_NAME0>でしたら　この辺りでは\n　モガリム街道に　生息していますよ。<bw_break>": "If <%sEV_QUE_NAME0>, it lives on Mogarim\nHighway in this area.<bw_break>"
+    "「<%sEV_QUE_NAME0>でしたら　この辺りでは\n　モガリム街道に　生息していますよ。<bw_break>": 
+    "If <%sEV_QUE_NAME0>, it lives on Mogarim\nHighway in this area.<bw_break>"
   },
   "43989": {
-    "「<%sEV_QUE_NAME0>でしたら　プクランド大陸の\n　オルフェア地方東や　オーグリード大陸の\n　グレン領東に　生息していますよ。<bw_break>": "If <%sev_que_name0>, you can find them in\nOrphea Region East of Pukuland Continent and\nGlen East of Ogreed Continent.<bw_break>"
+    "「<%sEV_QUE_NAME0>でしたら　プクランド大陸の\n　オルフェア地方東や　オーグリード大陸の\n　グレン領東に　生息していますよ。<bw_break>": 
+    "If <%sev_que_name0>, you can find them in\nOrphea Region East of Pukuland Continent and\nGlen East of Ogreed Continent.<bw_break>"
   },
   "43990": {
-    "「首尾よく　品物が手に入りましたら \n　お渡しいただくのは　どの町の\n　ゴールド銀行でも　大丈夫です。<close_irai><bw_break>": "Once you have successfully obtained the item,\nyou can drop it off at any gold bank in town.<close_irai><bw_break>"
+    "「首尾よく　品物が手に入りましたら \n　お渡しいただくのは　どの町の\n　ゴールド銀行でも　大丈夫です。<close_irai><bw_break>": 
+    "Once you have successfully obtained the item,\nyou can drop it off at any gold bank in town.<close_irai><bw_break>"
   },
   "43991": {
-    "「それでは　<pc>さま。\n　お気をつけて　いってらっしゃいませ。": "See you <pc>. Have a safe trip."
+    "「それでは　<pc>さま。\n　お気をつけて　いってらっしゃいませ。": 
+    "See you <pc>. Have a safe trip."
   },
   "44250": {
-    "「<%sEV_QUE_NAME0>でしたら\n　グレン領東に　生息していますよ。<bw_break>": "If <%sEV_QUE_NAME0>, it lives in Glen East.<bw_break>"
+    "「<%sEV_QUE_NAME0>でしたら\n　グレン領東に　生息していますよ。<bw_break>": 
+    "If <%sEV_QUE_NAME0>, it lives in Glen East.<bw_break>"
   },
   "43992": {
-    "「これは　これは　<pc>さま。\n　ようこそ　愛と信頼の　ゴールド銀行へ。\n　お探しの品は　見つかりましたか？": "Well, well, well <pc>. Welcome to the\nGold Bank of Love and Trust. Did you find what\nyou were looking for?"
+    "「これは　これは　<pc>さま。\n　ようこそ　愛と信頼の　ゴールド銀行へ。\n　お探しの品は　見つかりましたか？": 
+    "Well, well, well <pc>. Welcome to the\nGold Bank of Love and Trust. Did you find what\nyou were looking for?"
   },
   "43993": {
-    "「首尾よく　品物が手に入りましたら \n　お渡しいただくのは　どの町の\n　ゴールド銀行でも　大丈夫です。\n<br>\n「それでは　<pc>さま。\n　お気をつけて　いってらっしゃいませ。": "Once you have successfully obtained the item,\nyou can drop it off at any gold bank in town.\nSo <pc>. Have a safe trip."
+    "「首尾よく　品物が手に入りましたら \n　お渡しいただくのは　どの町の\n　ゴールド銀行でも　大丈夫です。\n<br>\n「それでは　<pc>さま。\n　お気をつけて　いってらっしゃいませ。": 
+    "Once you have successfully obtained the item,\nyou can drop it off at any gold bank in town.\nSo <pc>. Have a safe trip."
   },
   "43994": {
-    "「……この深く　ツヤのある黒色。\n　私どもの所望した　きらめきインクに\n　間違いございません。<bw_break>": "This deep, shiny black color. There is no\ndoubt that this is the Glittering Ink we have\nbeen looking for.<bw_break>"
+    "「……この深く　ツヤのある黒色。\n　私どもの所望した　きらめきインクに\n　間違いございません。<bw_break>": 
+    "This deep, shiny black color. There is no\ndoubt that this is the Glittering Ink we have\nbeen looking for.<bw_break>"
   },
   "43995": {
-    "「ありがとうございます！\n　確かに　サインをいただきました！\n<br>\n「この　きらめきインクで書かれたサインは\n　年月が経っても　決して　にじんだり\n　うすくなることが　ないのです。\n<br>\n「サインが消えてしまって　お客さまが\n　預けた金額が　わからなくなるなど\n　私どもには　あってはならないこと。\n<br>\n「お客さまの　大切なゴールドを \n　完璧に　お預かりさせていただくのが\n　ゴールド銀行としての　使命でございます。\n<br>\n「それでは　本日より\n　<pc>さまのゴールドも　責任を持って\n　お預かりさせていただきます。": "Thank you very much! I have indeed received\nyour signature! The signature written in\nGlittering Ink never blurs or smears over\n<br>\ntime. We do not want your signature to fade\naway and you will never know how much you have\ndeposited. It is our mission as a gold bank to\n<br>\nperfectly safeguard your precious gold. So,\nfrom today, we will take full responsibility\nfor <pc>'s gold."
+    "「ありがとうございます！\n　確かに　サインをいただきました！\n<br>\n「この　きらめきインクで書かれたサインは\n　年月が経っても　決して　にじんだり\n　うすくなることが　ないのです。\n<br>\n「サインが消えてしまって　お客さまが\n　預けた金額が　わからなくなるなど\n　私どもには　あってはならないこと。\n<br>\n「お客さまの　大切なゴールドを \n　完璧に　お預かりさせていただくのが\n　ゴールド銀行としての　使命でございます。\n<br>\n「それでは　本日より\n　<pc>さまのゴールドも　責任を持って\n　お預かりさせていただきます。": 
+    "Thank you very much! I have indeed received\nyour signature! The signature written in\nGlittering Ink never blurs or smears over\n<br>\ntime. We do not want your signature to fade\naway and you will never know how much you have\ndeposited. It is our mission as a gold bank to\n<br>\nperfectly safeguard your precious gold. So,\nfrom today, we will take full responsibility\nfor <pc>'s gold."
   },
   "43997": {
-    "「このたびは　ありがとうございました。\n　ゴールド銀行従業員一同　<pc>さまの\n　ご利用を　お待ちしております。": "Thank you very much for your interest in\n<pc>. All of us at Gold Bank look\nforward to serving you <pc>."
+    "「このたびは　ありがとうございました。\n　ゴールド銀行従業員一同　<pc>さまの\n　ご利用を　お待ちしております。": 
+    "Thank you very much for your interest in\n<pc>. All of us at Gold Bank look\nforward to serving you <pc>."
   },
   "44141": {
-    "「それでは　<pc>さま。\n　この　きらめきインクを使って\n　こちらの書類に　サインを　いただけますか？\n<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": "Now <pc>. Would you please sign this\ndocument using the Glittering Ink?\n<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>"
+    "「それでは　<pc>さま。\n　この　きらめきインクを使って\n　こちらの書類に　サインを　いただけますか？\n<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>": 
+    "Now <pc>. Would you please sign this\ndocument using the Glittering Ink?\n<yesno>\n<case 1>\n<close>\n<case 2>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "44142": {
-    "「そんなこと　おっしゃらずに！\n　書類に　サインを　いただかないと\n　入会のお手続きが　完了いたしません。<bw_break>": "Please don't say that! The membership process\nis not complete without your signature.<bw_break>"
+    "「そんなこと　おっしゃらずに！\n　書類に　サインを　いただかないと\n　入会のお手続きが　完了いたしません。<bw_break>": 
+    "Please don't say that! The membership process\nis not complete without your signature.<bw_break>"
   },
   "44001": {
-    "きらめきインクを　渡しますか？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "Would you like me to give you the Glittering\nInk?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "きらめきインクを　渡しますか？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "Would you like me to give you the Glittering\nInk?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "43998": {
-    "<pc>は\nきらめきインクを　渡した！": "<pc> gave Glittering Ink!"
+    "<pc>は\nきらめきインクを　渡した！": 
+    "<pc> gave Glittering Ink!"
   },
   "43999": {
-    "<pc>は　入会申込書にサインした。": "<pc> signed the application for\nmembership."
+    "<pc>は　入会申込書にサインした。": 
+    "<pc> signed the application for\nmembership."
   },
   "44000": {
-    "<pc>は\nゴールド銀行が　使えるようになった！": "<pc> is now available for Gold Bank!"
+    "<pc>は\nゴールド銀行が　使えるようになった！": 
+    "<pc> is now available for Gold Bank!"
   },
   "48561": {
-    "「ご利用登録でございますね。\n　旅のコンシェルジュは　冒険者の皆さまを\n　強力に　バックアップいたします。\n<br>\n「しかしながら　登録は　レベル１５以上の方に\n　限定させていただきます。レベルを１５まで\n　上げていただいてから　お申し付けください。": "I see that you have registered. Travel\nConcierge is here to support you as an\nadventurer. However, registration is limited\n<br>\nto level 15 and above. Please make sure you\nhave reached level 15 before applying."
+    "「ご利用登録でございますね。\n　旅のコンシェルジュは　冒険者の皆さまを\n　強力に　バックアップいたします。\n<br>\n「しかしながら　登録は　レベル１５以上の方に\n　限定させていただきます。レベルを１５まで\n　上げていただいてから　お申し付けください。": 
+    "I see that you have registered. Travel\nConcierge is here to support you as an\nadventurer. However, registration is limited\n<br>\nto level 15 and above. Please make sure you\nhave reached level 15 before applying."
   },
   "48562": {
-    "「ご利用登録でございますね。\n　旅のコンシェルジュは　冒険者の皆さまを\n　強力に　バックアップいたします。\n<br>\n「登録の前に　サービスの説明を\n　お聞きになりますか？<yesno><break>": "I see that you have registered. Travel\nConcierge is here to help you, the adventurer.\nWould you like to learn more about our\n<br>\nservices before registering?<yesno><break>"
+    "「ご利用登録でございますね。\n　旅のコンシェルジュは　冒険者の皆さまを\n　強力に　バックアップいたします。\n<br>\n「登録の前に　サービスの説明を\n　お聞きになりますか？<yesno><break>": 
+    "I see that you have registered. Travel\nConcierge is here to help you, the adventurer.\nWould you like to learn more about our\n<br>\nservices before registering?<yesno><break>"
   },
   "48563": {
-    "「それでは　私どもが提供している\n　サービスについて　ご紹介させていただきます。\n<br>\n「まずは　冒険者のふくびき所サービス！\n　ふくびき券をお持ちいただくと　抽選により\n　豪華賞品の当たる　福引を行えるサービスです。\n<br>\n「そして　旅のご案内サービス！\n　旅の目的地や　受けられるクエストについて\n　ご紹介する　サービスとなっています。\n<br>\n「この他にも　様々なサービスを\n　ご用意しておりますが　もちろん\n　すべて　無料で　ご利用いただけます。<bw_break>": "Let me introduce you to some of the services\nwe offer. First of all, we offer the\nAdventurer's Lottery Service! This is a\n<br>\nservice that allows you to win a lot of prizes\nby drawing lots when you bring in your Lottery\nTicket. And then there is the Travel Guide\n<br>\nService! This service provides information on\ntravel destinations and available quests. We\nalso offer a variety of other services, all of\n<br>\nwhich are free of charge.<bw_break>"
+    "「それでは　私どもが提供している\n　サービスについて　ご紹介させていただきます。\n<br>\n「まずは　冒険者のふくびき所サービス！\n　ふくびき券をお持ちいただくと　抽選により\n　豪華賞品の当たる　福引を行えるサービスです。\n<br>\n「そして　旅のご案内サービス！\n　旅の目的地や　受けられるクエストについて\n　ご紹介する　サービスとなっています。\n<br>\n「この他にも　様々なサービスを\n　ご用意しておりますが　もちろん\n　すべて　無料で　ご利用いただけます。<bw_break>": 
+    "Let me introduce you to some of the services\nwe offer. First of all, we offer the\nAdventurer's Lottery Service! This is a\n<br>\nservice that allows you to win a lot of prizes\nby drawing lots when you bring in your Lottery\nTicket. And then there is the Travel Guide\n<br>\nService! This service provides information on\ntravel destinations and available quests. We\nalso offer a variety of other services, all of\n<br>\nwhich are free of charge.<bw_break>"
   },
   "48564": {
-    "「そうですか。ならば　説明は\n　のちほどということに　いたしましょう。<bw_break>": "I see. Then I will explain later.<bw_break>"
+    "「そうですか。ならば　説明は\n　のちほどということに　いたしましょう。<bw_break>": 
+    "I see. Then I will explain later.<bw_break>"
   },
   "48565": {
-    "「それでは　さっそく　お手続きを……\n　と　言いたいところなのですが。\n<br>\n「当協会の　ジェネラルマネージャーの要請で\n　ご利用登録時に　指定の品をひとつ\n　納品していただく決まりと　なっております。\n<br>\n「<%sEV_QUE_NAME0>を倒すと　よく落としていく\n　アストルニウムという鉱石を\n　私どもの所まで　持ってきていただけますか？": "We would like to start the procedure right\naway, but.... But our general manager has\nrequested that you deliver one of the\n<br>\nspecified items to us when you register. Can\nyou please bring the Astolnium ore, which is\noften dropped when you defeat\n<br>\n<%SEV_QUE_NAME0>, to our office?"
+    "「それでは　さっそく　お手続きを……\n　と　言いたいところなのですが。\n<br>\n「当協会の　ジェネラルマネージャーの要請で\n　ご利用登録時に　指定の品をひとつ\n　納品していただく決まりと　なっております。\n<br>\n「<%sEV_QUE_NAME0>を倒すと　よく落としていく\n　アストルニウムという鉱石を\n　私どもの所まで　持ってきていただけますか？": 
+    "We would like to start the procedure right\naway, but.... But our general manager has\nrequested that you deliver one of the\n<br>\nspecified items to us when you register. Can\nyou please bring the Astolnium ore, which is\noften dropped when you defeat\n<br>\n<%SEV_QUE_NAME0>, to our office?"
   },
   "48568": {
-    "「ありがとうございます。\n　では　お客さまのお名前を　お教えください。\n<br>\n「……はい。<pc>さまですね。\n　確かに　お名前をうけたまわり\n　協会ネットワークに　記録いたしました。\n<br>\n「これで　手に入れられた　アストルニウムを\n　どこの町の案内係に　お渡しいただいても\n　その後の登録手続きが　可能です。\n<br>\n「<pc>さまが　無事に\n　アストルニウムを　手に入れられますよう\n　お祈りいたしております。": "Thank you very much. Now, would you please\ntell us the name of your customer? Yes.\n<pc>. We have indeed received your\n<br>\nname and recorded it in the association's\nnetwork. You can now give the Astolnium you\nhave obtained to the information desk in any\n<br>\ntown for subsequent registration. We hope that\n<pc> will be able to obtain the\nAstolnium safely."
+    "「ありがとうございます。\n　では　お客さまのお名前を　お教えください。\n<br>\n「……はい。<pc>さまですね。\n　確かに　お名前をうけたまわり\n　協会ネットワークに　記録いたしました。\n<br>\n「これで　手に入れられた　アストルニウムを\n　どこの町の案内係に　お渡しいただいても\n　その後の登録手続きが　可能です。\n<br>\n「<pc>さまが　無事に\n　アストルニウムを　手に入れられますよう\n　お祈りいたしております。": 
+    "Thank you very much. Now, would you please\ntell us the name of your customer? Yes.\n<pc>. We have indeed received your\n<br>\nname and recorded it in the association's\nnetwork. You can now give the Astolnium you\nhave obtained to the information desk in any\n<br>\ntown for subsequent registration. We hope that\n<pc> will be able to obtain the\nAstolnium safely."
   },
   "48569": {
-    "「ありがとうございます。\n　ですが　お客さまは　すでに頼まれごとを\n　たくさん　抱えていらっしゃるようですね。\n<br>\n「ご無理をなさっては　いけません。\n　他の頼まれごとを　済ませた後に\n　お願いいたします。<bw_break>": "Thank you very much. However, it seems that\nyou already have a lot of requests. Please\ndon't be too hard on yourself. Please do so\n<br>\nafter you have completed your other requests.<bw_break>"
+    "「ありがとうございます。\n　ですが　お客さまは　すでに頼まれごとを\n　たくさん　抱えていらっしゃるようですね。\n<br>\n「ご無理をなさっては　いけません。\n　他の頼まれごとを　済ませた後に\n　お願いいたします。<bw_break>": 
+    "Thank you very much. However, it seems that\nyou already have a lot of requests. Please\ndon't be too hard on yourself. Please do so\n<br>\nafter you have completed your other requests.<bw_break>"
   },
   "48570": {
-    "「かしこまりました。それでは　当サービスが\n　必要になりましたときに　お申し付けください。<end>": "Yes, sir. Then please let us know when you\nneed our services.<end>"
+    "「かしこまりました。それでは　当サービスが\n　必要になりましたときに　お申し付けください。<end>": 
+    "Yes, sir. Then please let us know when you\nneed our services.<end>"
   },
   "48571": {
-    "「<pc>さまには　旅のコンシェルジュの\n　サービスご利用登録のため　アストルニウムを\n　お持ちいただくことに　なっております。\n<br>\n「アストルニウムは　<%sEV_QUE_NAME0>を倒すと\n　よく落としていく鉱石なのですが……。<open_irai><bw_break>": "<pc> is required to bring Astolnium\nin order to register for Travel Concierge\nservices. Astolnium is an ore that\n<br>\n<%sev_que_name0> often drops when he is\ndefeated.<open_irai><bw_break>"
+    "「<pc>さまには　旅のコンシェルジュの\n　サービスご利用登録のため　アストルニウムを\n　お持ちいただくことに　なっております。\n<br>\n「アストルニウムは　<%sEV_QUE_NAME0>を倒すと\n　よく落としていく鉱石なのですが……。<open_irai><bw_break>": 
+    "<pc> is required to bring Astolnium\nin order to register for Travel Concierge\nservices. Astolnium is an ore that\n<br>\n<%sev_que_name0> often drops when he is\ndefeated.<open_irai><bw_break>"
   },
   "48572": {
-    "「この大陸内ですと　グレン城下町の東側から\n　グレン領東に出て　すぐの所で\n　<%sEV_QUE_NAME0>に　会えるようです。<bw_break>": "Within this continent, <%sEV_QUE_NAME0> can be\nfound just outside Glen East from the east\nside of Glen Castle Town.<bw_break>"
+    "「この大陸内ですと　グレン城下町の東側から\n　グレン領東に出て　すぐの所で\n　<%sEV_QUE_NAME0>に　会えるようです。<bw_break>": 
+    "Within this continent, <%sEV_QUE_NAME0> can be\nfound just outside Glen East from the east\nside of Glen Castle Town.<bw_break>"
   },
   "48573": {
-    "「この大陸内ですと　風の町アズランから\n　アズラン地方に出て　すぐの所で\n　<%sEV_QUE_NAME0>に　会えるようです。<bw_break>": "Within this continent, <%sev_que_name0> can be\nfound just outside of Azlan Region from Wind\nTown Azlan.<bw_break>"
+    "「この大陸内ですと　風の町アズランから\n　アズラン地方に出て　すぐの所で\n　<%sEV_QUE_NAME0>に　会えるようです。<bw_break>": 
+    "Within this continent, <%sev_que_name0> can be\nfound just outside of Azlan Region from Wind\nTown Azlan.<bw_break>"
   },
   "48574": {
-    "「この大陸内ですと　オルフェアの町の東側から\n　オルフェア地方東に出て　すぐの所で\n　<%sEV_QUE_NAME0>に　会えるようです。<bw_break>": "Within this continent, <%sev_que_name0> can be\nfound just east of the Town of Orphea in\nOrphea Region East.<bw_break>"
+    "「この大陸内ですと　オルフェアの町の東側から\n　オルフェア地方東に出て　すぐの所で\n　<%sEV_QUE_NAME0>に　会えるようです。<bw_break>": 
+    "Within this continent, <%sev_que_name0> can be\nfound just east of the Town of Orphea in\nOrphea Region East.<bw_break>"
   },
   "48575": {
-    "「この諸島内ですと　ジュレットの町の南側から\n　ミューズ海岸に出て　すぐの所で\n　<%sEV_QUE_NAME0>に　会えるようです。<bw_break>": "Within the archipelago, <%sev_que_name0> can\nbe found just south of Julet Town on the Muse\nCoast.<bw_break>"
+    "「この諸島内ですと　ジュレットの町の南側から\n　ミューズ海岸に出て　すぐの所で\n　<%sEV_QUE_NAME0>に　会えるようです。<bw_break>": 
+    "Within the archipelago, <%sev_que_name0> can\nbe found just south of Julet Town on the Muse\nCoast.<bw_break>"
   },
   "48576": {
-    "「この大陸内ですと　岳都ガタラから\n　ガタラ原野に出て　すぐの所で\n　<%sEV_QUE_NAME0>に　会えるようです。<bw_break>": "Within this continent, <%sev_que_name0> can be\nfound just after exiting Mount Gatara to\nGatara Fields.<bw_break>"
+    "「この大陸内ですと　岳都ガタラから\n　ガタラ原野に出て　すぐの所で\n　<%sEV_QUE_NAME0>に　会えるようです。<bw_break>": 
+    "Within this continent, <%sev_que_name0> can be\nfound just after exiting Mount Gatara to\nGatara Fields.<bw_break>"
   },
   "48577": {
-    "「<%sEV_QUE_NAME0>は　風の町アズラン\n　グレン城下町　オルフェアの町　ジュレットの町\n　岳都ガタラに　隣接している……\n<br>\n「アズラン地方　グレン領東　オルフェア地方東\n　ミューズ海岸　ガタラ原野の　いずれも\n　町の近くで　会えるようです。<bw_break>": "<%sev_que_name0> can be found near Wind Town\nAzlan Glen Castle Town Town of Orphea Julet\nTown Mount Gatara Azlan Region Glen East\n<br>\nOrphea Region East Muse Coast Gatara Fields,\nall of which are near the town.<bw_break>"
+    "「<%sEV_QUE_NAME0>は　風の町アズラン\n　グレン城下町　オルフェアの町　ジュレットの町\n　岳都ガタラに　隣接している……\n<br>\n「アズラン地方　グレン領東　オルフェア地方東\n　ミューズ海岸　ガタラ原野の　いずれも\n　町の近くで　会えるようです。<bw_break>": 
+    "<%sev_que_name0> can be found near Wind Town\nAzlan Glen Castle Town Town of Orphea Julet\nTown Mount Gatara Azlan Region Glen East\n<br>\nOrphea Region East Muse Coast Gatara Fields,\nall of which are near the town.<bw_break>"
   },
   "48578": {
-    "「アストルニウムが　手に入りましたら\n　どの町の宿屋の案内係でも　かまいませんので\n　すぐに　お持ちください。<close_irai><bw_break>": "When you have Astolnium, please bring it\nimmediately to any innkeeper in any town.<close_irai><bw_break>"
+    "「アストルニウムが　手に入りましたら\n　どの町の宿屋の案内係でも　かまいませんので\n　すぐに　お持ちください。<close_irai><bw_break>": 
+    "When you have Astolnium, please bring it\nimmediately to any innkeeper in any town.<close_irai><bw_break>"
   },
   "48579": {
-    "「<pc>さまが　無事に\n　アストルニウムを　手に入れられますよう\n　お祈りいたしております。<end>": "We wish <pc> a safe journey to\nAstolnium.<end>"
+    "「<pc>さまが　無事に\n　アストルニウムを　手に入れられますよう\n　お祈りいたしております。<end>": 
+    "We wish <pc> a safe journey to\nAstolnium.<end>"
   },
   "48580": {
-    "「<pc>さまには　旅のコンシェルジュの\n　サービスご利用登録のため　アストルニウムを\n　お持ちいただくことに　なっております。\n<br>\n「もしや　アストルニウムを\n　お持ちいただけたのでは　ありませんか？": "You are required to bring your Astolnium to\n<pc> in order to register for Travel\nConcierge services. If you have not brought\n<br>\nyour Astolnium with you, please do so."
+    "「<pc>さまには　旅のコンシェルジュの\n　サービスご利用登録のため　アストルニウムを\n　お持ちいただくことに　なっております。\n<br>\n「もしや　アストルニウムを\n　お持ちいただけたのでは　ありませんか？": 
+    "You are required to bring your Astolnium to\n<pc> in order to register for Travel\nConcierge services. If you have not brought\n<br>\nyour Astolnium with you, please do so."
   },
   "48581": {
-    "「これは　失礼いたしました。\n　どの町の宿屋の案内係でも　かまいませんので\n　手に入りましたら　お持ちください。\n<br>\n「<pc>さまが　無事に\n　アストルニウムを　手に入れられますよう\n　お祈りいたしております。<end>": "I apologize for this. Please take it to the\ninformation desk of any innkeeper in any town.\nI pray that <pc> will be able to\n<br>\nobtain Astolnium safely.<end>"
+    "「これは　失礼いたしました。\n　どの町の宿屋の案内係でも　かまいませんので\n　手に入りましたら　お持ちください。\n<br>\n「<pc>さまが　無事に\n　アストルニウムを　手に入れられますよう\n　お祈りいたしております。<end>": 
+    "I apologize for this. Please take it to the\ninformation desk of any innkeeper in any town.\nI pray that <pc> will be able to\n<br>\nobtain Astolnium safely.<end>"
   },
   "48582": {
-    "「ありがとうございます。\n　確かに　アストルニウムを受け取りました！<bw_break>": "Thank you very much. I did indeed receive the\nAstolnium!<bw_break>"
+    "「ありがとうございます。\n　確かに　アストルニウムを受け取りました！<bw_break>": 
+    "Thank you very much. I did indeed receive the\nAstolnium!<bw_break>"
   },
   "48583": {
-    "「では　<pc>さま。\n　まずは　当協会　ジェネラルマネージャーより\n　預かっている言葉を　お聞きください。\n<br>\n「コホン……。\n　アストルニウムを手に入れるほどの　おチカラ。\n　わたくし　深く感服いたしましたわ！\n<br>\n「ジェネラルマネージャーの名において\n　<pc>さまに　世界宿屋協会提供！\n　旅のコンシェルジュの　利用を許可いたします。\n<br>\n「ドシドシ　旅のコンシェルジュをご利用になり\n　バシバシ　冒険のお役に立ててくださいまし。\n<br>\n「それでは　今後とも　当協会を\n　お引き立てくださいますよう\n　よろしく　お願いいたしますわ！\n<br>\n「……以上です。これで登録が完了いたしました。\n　以後は　ご自由に　旅のコンシェルジュの\n　サービスを　ご利用になれます。": "Now <pc>. First of all, please listen\nto the words of our general manager.\nCough...you are powerful enough to get your\n<br>\nhands on Astolnium. I am deeply impressed! In\nthe name of the General Manager,\n<pc>, courtesy of the World\n<br>\nAssociation of Innkeepers! I am pleased to\nauthorize the use of Travel Concierge. We hope\nthat you will use Travel Concierge and make\n<br>\nuse of it for your adventures. We look forward\nto your continued patronage of our\nassociation! That's all. Your registration is\n<br>\nnow complete. From now on, you are free to use\nthe services of Travel Concierge."
+    "「では　<pc>さま。\n　まずは　当協会　ジェネラルマネージャーより\n　預かっている言葉を　お聞きください。\n<br>\n「コホン……。\n　アストルニウムを手に入れるほどの　おチカラ。\n　わたくし　深く感服いたしましたわ！\n<br>\n「ジェネラルマネージャーの名において\n　<pc>さまに　世界宿屋協会提供！\n　旅のコンシェルジュの　利用を許可いたします。\n<br>\n「ドシドシ　旅のコンシェルジュをご利用になり\n　バシバシ　冒険のお役に立ててくださいまし。\n<br>\n「それでは　今後とも　当協会を\n　お引き立てくださいますよう\n　よろしく　お願いいたしますわ！\n<br>\n「……以上です。これで登録が完了いたしました。\n　以後は　ご自由に　旅のコンシェルジュの\n　サービスを　ご利用になれます。": 
+    "Now <pc>. First of all, please listen\nto the words of our general manager.\nCough...you are powerful enough to get your\n<br>\nhands on Astolnium. I am deeply impressed! In\nthe name of the General Manager,\n<pc>, courtesy of the World\n<br>\nAssociation of Innkeepers! I am pleased to\nauthorize the use of Travel Concierge. We hope\nthat you will use Travel Concierge and make\n<br>\nuse of it for your adventures. We look forward\nto your continued patronage of our\nassociation! That's all. Your registration is\n<br>\nnow complete. From now on, you are free to use\nthe services of Travel Concierge."
   },
   "48586": {
-    "「お持ちいただいた　アストルニウムは\n　ジェネラルマネージャーの所へ\n　届けることに　なっております。\n<br>\n「この鉱石には　特に使い道もなく\n　ジェネラルマネージャーの意図は　不明ですが\n　私が　責任を持って　お送りしておきます。\n<br>\n「それでは　当コンシェルジュサービスを\n　ご利用になって　快適な冒険者ライフを\n　お楽しみください！": "The Astolnium you are bringing is to be\ndelivered to the general manager. I have no\nparticular use for this ore, and I do not know\n<br>\nwhat the General Manager's intentions are, but\nI will be responsible for sending it back to\nhim. I hope you enjoy your adventurous life\n<br>\nwith our concierge service!"
+    "「お持ちいただいた　アストルニウムは\n　ジェネラルマネージャーの所へ\n　届けることに　なっております。\n<br>\n「この鉱石には　特に使い道もなく\n　ジェネラルマネージャーの意図は　不明ですが\n　私が　責任を持って　お送りしておきます。\n<br>\n「それでは　当コンシェルジュサービスを\n　ご利用になって　快適な冒険者ライフを\n　お楽しみください！": 
+    "The Astolnium you are bringing is to be\ndelivered to the general manager. I have no\nparticular use for this ore, and I do not know\n<br>\nwhat the General Manager's intentions are, but\nI will be responsible for sending it back to\nhim. I hope you enjoy your adventurous life\n<br>\nwith our concierge service!"
   },
   "48587": {
-    "この案内係に　アストルニウムを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like to give the Astolnium to this\nusher?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "この案内係に　アストルニウムを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
+    "Would you like to give the Astolnium to this\nusher?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "48588": {
-    "<pc>は　案内係に\nアストルニウムを　渡した！": "<pc> handed Astolnium to the guide!"
+    "<pc>は　案内係に\nアストルニウムを　渡した！": 
+    "<pc> handed Astolnium to the guide!"
   },
   "61924": {
-    "<if_npc_man>「よう。冒険者の酒場では\n　討伐依頼書のクエストを　フレンドに\n　頼むことができるように　してやれるぜ。\n<br>\n「ただ　誰でもってわけには　いかないな。\n　あんたに　ひとつ　仕事を頼みたい。\n<br>\n「<%sEV_QUE_NAME4>を　ひとつ \n　持ってきてくれないか？　そしたら　あんたにも\n　酒場を使えるようにしてやるよ。\n<br>\n「じつは　うちのオーナーから　頼まれたんだが\n　オレが　酒場を空けるわけにも　いかなくてな。\n　どうだい。やってくれるか？<else>「いらっしゃい。冒険者の酒場では\n　討伐依頼書のクエストを　フレンドに\n　頼むことができるように　してあげてるの。\n<br>\n「ただ　誰でもってわけには　いかないわ。\n　あなたに　ひとつ　仕事を頼みたいのよ。\n<br>\n「<%sEV_QUE_NAME4>を　ひとつ\n　持ってきてほしいの。そうしたら　あなたにも\n　酒場を使えるようにしてあげる。\n<br>\n「じつは　うちのオーナーから　頼まれたんだけど\n　私が　酒場を空けるわけには　いかなくてね。\n　どうかしら。引き受けてくれる？<endif>": "<if_npc_man>The Adventurer's Tavern allows you to ask your\nfriends to do quests for you. In the\nAdventurer's Tavern, you can ask your friends\n<br>\nto do quests for you to take down request\nforms. But it can't be everyone. I'd like to\nask you for a job. Can you bring me one\n<br>\n<%sev_que_name4>? I'll make it possible for\nyou to use the tavern. Actually, my owner\nasked me to do it, but I can't leave the\n<br>\ntavern unoccupied. How about it? Would you do\nit?<else>Welcome. The Adventurer's Tavern allows you to\nask your friends to help you with your quests\nfor the defeat request form. But it's not for\n<br>\neveryone. I'd like to ask you for a job. I\nneed you to bring me one <%sev_que_name4>.\nThen you can use the tavern. Actually, my\n<br>\nowner asked me to do it, but I can't leave the\ntavern unoccupied. How about it? Will you take\nit?<endif>"
+    "<if_npc_man>「よう。冒険者の酒場では\n　討伐依頼書のクエストを　フレンドに\n　頼むことができるように　してやれるぜ。\n<br>\n「ただ　誰でもってわけには　いかないな。\n　あんたに　ひとつ　仕事を頼みたい。\n<br>\n「<%sEV_QUE_NAME4>を　ひとつ \n　持ってきてくれないか？　そしたら　あんたにも\n　酒場を使えるようにしてやるよ。\n<br>\n「じつは　うちのオーナーから　頼まれたんだが\n　オレが　酒場を空けるわけにも　いかなくてな。\n　どうだい。やってくれるか？<else>「いらっしゃい。冒険者の酒場では\n　討伐依頼書のクエストを　フレンドに\n　頼むことができるように　してあげてるの。\n<br>\n「ただ　誰でもってわけには　いかないわ。\n　あなたに　ひとつ　仕事を頼みたいのよ。\n<br>\n「<%sEV_QUE_NAME4>を　ひとつ\n　持ってきてほしいの。そうしたら　あなたにも\n　酒場を使えるようにしてあげる。\n<br>\n「じつは　うちのオーナーから　頼まれたんだけど\n　私が　酒場を空けるわけには　いかなくてね。\n　どうかしら。引き受けてくれる？<endif>": 
+    "<if_npc_man>The Adventurer's Tavern allows you to ask your\nfriends to do quests for you. In the\nAdventurer's Tavern, you can ask your friends\n<br>\nto do quests for you to take down request\nforms. But it can't be everyone. I'd like to\nask you for a job. Can you bring me one\n<br>\n<%sev_que_name4>? I'll make it possible for\nyou to use the tavern. Actually, my owner\nasked me to do it, but I can't leave the\n<br>\ntavern unoccupied. How about it? Would you do\nit?<else>Welcome. The Adventurer's Tavern allows you to\nask your friends to help you with your quests\nfor the defeat request form. But it's not for\n<br>\neveryone. I'd like to ask you for a job. I\nneed you to bring me one <%sev_que_name4>.\nThen you can use the tavern. Actually, my\n<br>\nowner asked me to do it, but I can't leave the\ntavern unoccupied. How about it? Will you take\nit?<endif>"
   },
   "61925": {
-    "<if_npc_man>「おっ　引き受けてくれるか！\n　そうこなくちゃな！\n<br>\n「<%sEV_QUE_NAME4>は　娯楽島ラッカランの\n　ランプ錬金ギルド内にいる\n　素材屋の　ナディが　売ってる物だ。\n<br>\n「まぁ　他でも売ってるかも　知れないがな。\n<br>\n「手に入れた　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫だ。\n　じゃあ　よろしく頼んだぞ。<else>「あら　引き受けてくれるのね！\n　そうこなくっちゃ！\n<br>\n「<%sEV_QUE_NAME4>は　娯楽島ラッカランの\n　ランプ錬金ギルド内にいる\n　素材屋の　ナディが　売ってる物よ。\n<br>\n「まぁ　他でも売ってるかも？\n<br>\n「手に入れた　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫よ。\n　それじゃ　よろしくお願いね。<endif>": "<if_npc_man>Oh, you'll take care of it! That's what I'm\ntalking about! <%sev_que_name4> is sold by\nNadie at the Material Shop in the Lamp Alchemy\n<br>\nGuild on Luckland Island. Well, maybe he sells\nit elsewhere, too. You can give received\n<%sev_que_name4> to any introducer in any\n<br>\ntown. Well then, I'll be looking forward to\nworking with you.<else>Oh, so you'll take care of it! That's what I'm\ntalking about! <%sEV_QUE_NAME4> is sold by\nNadie at the Material Shop in the Lamp Alchemy\n<br>\nGuild on Luckland Island. Well, maybe she\nsells it somewhere else? You can give received\n<%sEV_QUE_NAME4> to any introducer in any\n<br>\ntown. Thank you very much for your\ncooperation.<endif>"
+    "<if_npc_man>「おっ　引き受けてくれるか！\n　そうこなくちゃな！\n<br>\n「<%sEV_QUE_NAME4>は　娯楽島ラッカランの\n　ランプ錬金ギルド内にいる\n　素材屋の　ナディが　売ってる物だ。\n<br>\n「まぁ　他でも売ってるかも　知れないがな。\n<br>\n「手に入れた　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫だ。\n　じゃあ　よろしく頼んだぞ。<else>「あら　引き受けてくれるのね！\n　そうこなくっちゃ！\n<br>\n「<%sEV_QUE_NAME4>は　娯楽島ラッカランの\n　ランプ錬金ギルド内にいる\n　素材屋の　ナディが　売ってる物よ。\n<br>\n「まぁ　他でも売ってるかも？\n<br>\n「手に入れた　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫よ。\n　それじゃ　よろしくお願いね。<endif>": 
+    "<if_npc_man>Oh, you'll take care of it! That's what I'm\ntalking about! <%sev_que_name4> is sold by\nNadie at the Material Shop in the Lamp Alchemy\n<br>\nGuild on Luckland Island. Well, maybe he sells\nit elsewhere, too. You can give received\n<%sev_que_name4> to any introducer in any\n<br>\ntown. Well then, I'll be looking forward to\nworking with you.<else>Oh, so you'll take care of it! That's what I'm\ntalking about! <%sEV_QUE_NAME4> is sold by\nNadie at the Material Shop in the Lamp Alchemy\n<br>\nGuild on Luckland Island. Well, maybe she\nsells it somewhere else? You can give received\n<%sEV_QUE_NAME4> to any introducer in any\n<br>\ntown. Thank you very much for your\ncooperation.<endif>"
   },
   "61926": {
-    "<if_npc_man>「おっと。頼まれごとが　いっぱいじゃないか。\n　そういうことなら　他の頼まれごとを\n　片付けてから　また来てくれよ。<else>「……あら？　でも　あなた　他の人からの\n　頼まれごとで　いっぱいじゃない。\n　そういうのは　片付けてから　いらっしゃい。<endif>": "<if_npc_man>Oops. You are full of requests. If that's the\ncase, please come back after you've taken care\nof the other requests.<else>Oh? But you are full of requests from other\npeople, aren't you? You'd better put those\nthings away before you come.<endif>"
+    "<if_npc_man>「おっと。頼まれごとが　いっぱいじゃないか。\n　そういうことなら　他の頼まれごとを\n　片付けてから　また来てくれよ。<else>「……あら？　でも　あなた　他の人からの\n　頼まれごとで　いっぱいじゃない。\n　そういうのは　片付けてから　いらっしゃい。<endif>": 
+    "<if_npc_man>Oops. You are full of requests. If that's the\ncase, please come back after you've taken care\nof the other requests.<else>Oh? But you are full of requests from other\npeople, aren't you? You'd better put those\nthings away before you come.<endif>"
   },
   "61927": {
-    "<if_npc_man>「……なんだ　残念だな。\n　でも　冒険者の酒場を利用したくなったら\n　いつでも　来いよ。待ってるからな。<else>「……あら　残念ね。\n　でも　冒険者の酒場を利用したくなったら\n　いつでも　訪ねてきてね。待ってるわ。<endif>": "<if_npc_man>Well, that's too bad. But if you ever want to\nuse the Adventurer's Tavern, just come by\nanytime. I'll be waiting for you.<else>Oh, that's too bad. But if you ever want to\nuse the Adventurer's Tavern, come visit us\nanytime. I'll be waiting.<endif>"
+    "<if_npc_man>「……なんだ　残念だな。\n　でも　冒険者の酒場を利用したくなったら\n　いつでも　来いよ。待ってるからな。<else>「……あら　残念ね。\n　でも　冒険者の酒場を利用したくなったら\n　いつでも　訪ねてきてね。待ってるわ。<endif>": 
+    "<if_npc_man>Well, that's too bad. But if you ever want to\nuse the Adventurer's Tavern, just come by\nanytime. I'll be waiting for you.<else>Oh, that's too bad. But if you ever want to\nuse the Adventurer's Tavern, come visit us\nanytime. I'll be waiting.<endif>"
   },
   "49809": {
-    "<if_npc_man>「よう。冒険者の酒場では\n　討伐依頼書のクエストを　フレンドに\n　頼むことができるように　してやれるぜ。\n<br>\n「ひとつ仕事をこなしてくれたら\n　あんたも　酒場を使えるようにしてやるよ。\n<br>\n「娯楽島ラッカランの　素材屋ナディから\n　<%sEV_QUE_NAME4>を　ひとつ\n　買ってきてもらうってのが　その仕事だ。\n<br>\n「じつは　うちのオーナーから　頼まれたんだが\n　オレが　酒場を空けるわけにも　いかなくてな。\n　どうだい。やってくれるか？<else>「いらっしゃい。冒険者の酒場では\n　討伐依頼書のクエストを　フレンドに\n　頼むことができるように　してあげてるの。\n<br>\n「ひとつ仕事をこなしてくれたら\n　あなたも　酒場を使えるようにしてあげる。\n<br>\n「娯楽島ラッカランの　素材屋ナディから\n　<%sEV_QUE_NAME4>を　ひとつ\n　買ってきてほしいというのが　その仕事よ。\n<br>\n「じつは　うちのオーナーから　頼まれたんだけど\n　私が　酒場を空けるわけには　いかなくてね。\n　どうかしら。引き受けてくれる？<endif>": "<if_npc_man>The Adventurer's Tavern allows you to ask your\nfriends to do quests for you. The Adventurer's\nTavern allows you to ask your friends to do\n<br>\nquests for you to take down request forms.\nComplete one task and you'll have access to\nthe tavern. That task is to get a\n<br>\n<%sev_que_name4> from Material Shop Nadie in\nLuckland Island. Actually, my owner asked me\nto do it, but I can't leave the tavern\n<br>\nunoccupied. How about it? Will you do it?<else>Welcome. The Adventurer's Tavern allows you to\nask your friends to help you with quests in\nthe Defeat Request form. If you complete one\n<br>\nof the tasks, you will be able to use the\ntavern. The task is to buy one\n<%sev_que_name4> from Material Shop Nadie on\n<br>\nLuckland Island. Actually, my owner asked me\nto do it, but I can't leave the tavern\nunoccupied. How about it? Will you take it?<endif>"
+    "<if_npc_man>「よう。冒険者の酒場では\n　討伐依頼書のクエストを　フレンドに\n　頼むことができるように　してやれるぜ。\n<br>\n「ひとつ仕事をこなしてくれたら\n　あんたも　酒場を使えるようにしてやるよ。\n<br>\n「娯楽島ラッカランの　素材屋ナディから\n　<%sEV_QUE_NAME4>を　ひとつ\n　買ってきてもらうってのが　その仕事だ。\n<br>\n「じつは　うちのオーナーから　頼まれたんだが\n　オレが　酒場を空けるわけにも　いかなくてな。\n　どうだい。やってくれるか？<else>「いらっしゃい。冒険者の酒場では\n　討伐依頼書のクエストを　フレンドに\n　頼むことができるように　してあげてるの。\n<br>\n「ひとつ仕事をこなしてくれたら\n　あなたも　酒場を使えるようにしてあげる。\n<br>\n「娯楽島ラッカランの　素材屋ナディから\n　<%sEV_QUE_NAME4>を　ひとつ\n　買ってきてほしいというのが　その仕事よ。\n<br>\n「じつは　うちのオーナーから　頼まれたんだけど\n　私が　酒場を空けるわけには　いかなくてね。\n　どうかしら。引き受けてくれる？<endif>": 
+    "<if_npc_man>The Adventurer's Tavern allows you to ask your\nfriends to do quests for you. The Adventurer's\nTavern allows you to ask your friends to do\n<br>\nquests for you to take down request forms.\nComplete one task and you'll have access to\nthe tavern. That task is to get a\n<br>\n<%sev_que_name4> from Material Shop Nadie in\nLuckland Island. Actually, my owner asked me\nto do it, but I can't leave the tavern\n<br>\nunoccupied. How about it? Will you do it?<else>Welcome. The Adventurer's Tavern allows you to\nask your friends to help you with quests in\nthe Defeat Request form. If you complete one\n<br>\nof the tasks, you will be able to use the\ntavern. The task is to buy one\n<%sev_que_name4> from Material Shop Nadie on\n<br>\nLuckland Island. Actually, my owner asked me\nto do it, but I can't leave the tavern\nunoccupied. How about it? Will you take it?<endif>"
   },
   "49810": {
-    "<if_npc_man>「引き受けてくれるか。そうこなくちゃな。\n　素材屋ナディは　娯楽島ラッカランの\n　ランプ錬金ギルドにいるぜ。\n<br>\n「それと　買ってきた　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫だからな。\n　じゃあ　よろしく頼んだぞ。<else>「引き受けてくれるのね。よかった！\n　素材屋ナディは　娯楽島ラッカランの\n　ランプ錬金ギルドにいるわ。\n<br>\n「あと　買ってきた　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫よ。\n　それじゃ　よろしくお願いね。<endif>": "<if_npc_man>Will you take care of it? I'll take you up on\nthat. Material Shop Nadie is at the Lamp\nAlchemy Guild on Luckland Island. And you can\n<br>\ngive the <%sEV_QUE_NAME4> you bought to any\nintroducer in any town. Well then, I'll be\nlooking forward to working with you.<else>You're taking care of it. Good for you!\nMaterial Shop Nadie is at the Lamp Alchemy\nGuild on Luckland Island. Also, you can give\n<br>\nthe <%sEV_QUE_NAME4> you bought to the\nintroducer in any town. I'll be looking\nforward to working with you.<endif>"
+    "<if_npc_man>「引き受けてくれるか。そうこなくちゃな。\n　素材屋ナディは　娯楽島ラッカランの\n　ランプ錬金ギルドにいるぜ。\n<br>\n「それと　買ってきた　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫だからな。\n　じゃあ　よろしく頼んだぞ。<else>「引き受けてくれるのね。よかった！\n　素材屋ナディは　娯楽島ラッカランの\n　ランプ錬金ギルドにいるわ。\n<br>\n「あと　買ってきた　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫よ。\n　それじゃ　よろしくお願いね。<endif>": 
+    "<if_npc_man>Will you take care of it? I'll take you up on\nthat. Material Shop Nadie is at the Lamp\nAlchemy Guild on Luckland Island. And you can\n<br>\ngive the <%sEV_QUE_NAME4> you bought to any\nintroducer in any town. Well then, I'll be\nlooking forward to working with you.<else>You're taking care of it. Good for you!\nMaterial Shop Nadie is at the Lamp Alchemy\nGuild on Luckland Island. Also, you can give\n<br>\nthe <%sEV_QUE_NAME4> you bought to the\nintroducer in any town. I'll be looking\nforward to working with you.<endif>"
   },
   "49811": {
-    "<if_npc_man>「おっと。頼まれごとが　いっぱいじゃないか。\n　そういうことなら　他の頼まれごとを\n　片付けてから　また来てくれよ。<else>「……あら？　でも　あなた　他の人からの\n　頼まれごとで　いっぱいじゃない。\n　そういうのは　片付けてから　いらっしゃい。<endif>": "<if_npc_man>Oops. You are full of requests. If that's the\ncase, please come back after you've taken care\nof the other requests.<else>Oh? But you are full of requests from other\npeople, aren't you? You'd better put those\nthings away before you come.<endif>"
+    "<if_npc_man>「おっと。頼まれごとが　いっぱいじゃないか。\n　そういうことなら　他の頼まれごとを\n　片付けてから　また来てくれよ。<else>「……あら？　でも　あなた　他の人からの\n　頼まれごとで　いっぱいじゃない。\n　そういうのは　片付けてから　いらっしゃい。<endif>": 
+    "<if_npc_man>Oops. You are full of requests. If that's the\ncase, please come back after you've taken care\nof the other requests.<else>Oh? But you are full of requests from other\npeople, aren't you? You'd better put those\nthings away before you come.<endif>"
   },
   "49812": {
-    "<if_npc_man>「……なんだ　残念だな。\n　でも　冒険者の酒場を利用したくなったら\n　いつでも　来いよ。待ってるからな。<else>「……あら　残念ね。\n　でも　冒険者の酒場を利用したくなったら\n　いつでも　訪ねてきてね。待ってるわ。<endif>": "<if_npc_man>Well, that's too bad. But if you ever want to\nuse the Adventurer's Tavern, just come by\nanytime. I'll be waiting for you.<else>Oh, that's too bad. But if you ever want to\nuse the Adventurer's Tavern, come visit us\nanytime. I'll be waiting.<endif>"
+    "<if_npc_man>「……なんだ　残念だな。\n　でも　冒険者の酒場を利用したくなったら\n　いつでも　来いよ。待ってるからな。<else>「……あら　残念ね。\n　でも　冒険者の酒場を利用したくなったら\n　いつでも　訪ねてきてね。待ってるわ。<endif>": 
+    "<if_npc_man>Well, that's too bad. But if you ever want to\nuse the Adventurer's Tavern, just come by\nanytime. I'll be waiting for you.<else>Oh, that's too bad. But if you ever want to\nuse the Adventurer's Tavern, come visit us\nanytime. I'll be waiting.<endif>"
   },
   "61928": {
-    "<if_npc_man>「<%sEV_QUE_NAME4>を　ひとつ持ってきてくれ。\n　娯楽島ラッカランの　素材屋ナディから買える。\n　他でも　売ってるかもな。\n<open_irai><bw_break><else>「<%sEV_QUE_NAME4>を　ひとつ持ってきてね。\n　娯楽島ラッカランの　素材屋ナディから買えるわ。\n　他でも　売ってるかもね。\n<open_irai><bw_break><endif>": "<if_npc_man>Bring me one <%sev_que_name4>. You can buy it\nfrom Material Shop Nadie on Luckland Island.\nYou can get it from Material Shop Nadie on\n<br>\nLuckland Island.\n<open_irai><bw_break><else>Bring one <%sev_que_name4> with you. You can\nbuy it from Material Shop Nadie on Luckland\nIsland. You can get it from Material Shop\n<br>\nNadie on Luckland Island, or maybe they sell\nit somewhere else.\n<open_irai><bw_break><endif>"
+    "<if_npc_man>「<%sEV_QUE_NAME4>を　ひとつ持ってきてくれ。\n　娯楽島ラッカランの　素材屋ナディから買える。\n　他でも　売ってるかもな。\n<open_irai><bw_break><else>「<%sEV_QUE_NAME4>を　ひとつ持ってきてね。\n　娯楽島ラッカランの　素材屋ナディから買えるわ。\n　他でも　売ってるかもね。\n<open_irai><bw_break><endif>": 
+    "<if_npc_man>Bring me one <%sev_que_name4>. You can buy it\nfrom Material Shop Nadie on Luckland Island.\nYou can get it from Material Shop Nadie on\n<br>\nLuckland Island.\n<open_irai><bw_break><else>Bring one <%sev_que_name4> with you. You can\nbuy it from Material Shop Nadie on Luckland\nIsland. You can get it from Material Shop\n<br>\nNadie on Luckland Island, or maybe they sell\nit somewhere else.\n<open_irai><bw_break><endif>"
   },
   "61929": {
-    "<if_npc_man>「あと　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫だ。<bw_break><else>「あと　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫よ。<bw_break><endif>": "<if_npc_man>And <%sev_que_name4> can be given to any\nintroducer in any town.<bw_break><else>And <%sev_que_name4> can be given to any\nintroducer in any town.<bw_break><endif>"
+    "<if_npc_man>「あと　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫だ。<bw_break><else>「あと　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫よ。<bw_break><endif>": 
+    "<if_npc_man>And <%sev_que_name4> can be given to any\nintroducer in any town.<bw_break><else>And <%sev_que_name4> can be given to any\nintroducer in any town.<bw_break><endif>"
   },
   "61930": {
-    "<if_npc_man><close_irai>「この依頼を　こなしてくれれば\n　冒険者の酒場を　使えるようにするからな。\n　それじゃあ　よろしく頼んだぞ。<else><close_irai>「この依頼を　こなしてくれれば\n　冒険者の酒場を　使えるようにするから。\n　それじゃあ　よろしくお願いね。<endif>": "<if_npc_man><close_irai>If you fulfill this request, you will be able\nto use the Adventurer's Tavern. Well then, I'm\nlooking forward to working with you.<else><close_irai>If you fulfill this request, I'll give you\naccess to the Adventurer's Tavern. Then,\nplease take care of it.<endif>"
+    "<if_npc_man><close_irai>「この依頼を　こなしてくれれば\n　冒険者の酒場を　使えるようにするからな。\n　それじゃあ　よろしく頼んだぞ。<else><close_irai>「この依頼を　こなしてくれれば\n　冒険者の酒場を　使えるようにするから。\n　それじゃあ　よろしくお願いね。<endif>": 
+    "<if_npc_man><close_irai>If you fulfill this request, you will be able\nto use the Adventurer's Tavern. Well then, I'm\nlooking forward to working with you.<else><close_irai>If you fulfill this request, I'll give you\naccess to the Adventurer's Tavern. Then,\nplease take care of it.<endif>"
   },
   "61931": {
-    "<if_npc_man>「どうやら　<%sEV_QUE_NAME4>を\n　持ってきてくれたようだな。\n　それじゃ　ひとつ　オレに渡してくれるかい？<yesno><case 1><close><case 2><break><case_cancel><break><case_end><else>「どうやら　<%sEV_QUE_NAME4>を\n　持ってきてくれたようね。 \n　それじゃ　ひとつ　私に渡してくれる？<yesno><case 1><close><case 2><break><case_cancel><break><case_end><endif>": "<if_npc_man>Looks like you brought <%sev_que_name4> with\nyou. Now, can you give me one of those?<yesno><case 1><close><case 2><break><case_cancel><break><case_end><else>Looks like you brought <%sev_que_name4> with\nyou.Now can you give me one of those?<yesno><case 1><close><case 2><break><case_cancel><break><case_end><endif>"
+    "<if_npc_man>「どうやら　<%sEV_QUE_NAME4>を\n　持ってきてくれたようだな。\n　それじゃ　ひとつ　オレに渡してくれるかい？<yesno><case 1><close><case 2><break><case_cancel><break><case_end><else>「どうやら　<%sEV_QUE_NAME4>を\n　持ってきてくれたようね。 \n　それじゃ　ひとつ　私に渡してくれる？<yesno><case 1><close><case 2><break><case_cancel><break><case_end><endif>": 
+    "<if_npc_man>Looks like you brought <%sev_que_name4> with\nyou. Now, can you give me one of those?<yesno><case 1><close><case 2><break><case_cancel><break><case_end><else>Looks like you brought <%sev_que_name4> with\nyou.Now can you give me one of those?<yesno><case 1><close><case 2><break><case_cancel><break><case_end><endif>"
   },
   "61932": {
-    "<if_npc_man>「……なんだ。その　<%sEV_QUE_NAME4>は\n　自分用なのか。それなら　仕方ないが\n　オレの頼んだ分も　早く持ってきてくれよ。<else>「……あら。その　<%sEV_QUE_NAME4>は\n　自分用なのね。それなら　仕方ないけど\n　私の頼んだ分も　早く持ってきてね。<endif>": "<if_npc_man>What the heck. Is that <%sev_que_name4> for\nyourself? If so, I don't blame you, but please\nbring me my order as soon as possible.<else>Oops. That <%sev_que_name4> is for yourself,\nisn't it? If so, I don't blame you, but please\nbring me what I asked for as soon as possible.<endif>"
+    "<if_npc_man>「……なんだ。その　<%sEV_QUE_NAME4>は\n　自分用なのか。それなら　仕方ないが\n　オレの頼んだ分も　早く持ってきてくれよ。<else>「……あら。その　<%sEV_QUE_NAME4>は\n　自分用なのね。それなら　仕方ないけど\n　私の頼んだ分も　早く持ってきてね。<endif>": 
+    "<if_npc_man>What the heck. Is that <%sev_que_name4> for\nyourself? If so, I don't blame you, but please\nbring me my order as soon as possible.<else>Oops. That <%sev_que_name4> is for yourself,\nisn't it? If so, I don't blame you, but please\nbring me what I asked for as soon as possible.<endif>"
   },
   "61933": {
-    "<if_npc_man>「確かに　受け取ったぜ。\n　あんたのおかげで　本当に助かった！\n<br>\n「うちのオーナー……　じつは　すごく有名な\n　酒場の女主人でな。店で出すドリンクの\n　新メニューを考えるのが　シュミなんだよ。\n<br>\n「……で　その隠し味に　<%sEV_QUE_NAME4>を\n　加えるのが　こだわりらしくてね。\n　大量の　<%sEV_QUE_NAME4>が必要なのさ。<bw_break><else>「確かに　受け取ったわ。\n　あなたのおかげで　本当に助かっちゃった。\n<br>\n「うちのオーナーって　じつは　すごく有名な\n　酒場の女主人でね。店で出すドリンクの\n　新メニューを考えるのが　シュミなのよ。\n<br>\n「……で　その隠し味に　<%sEV_QUE_NAME4>を\n　加えるのが　こだわりらしくてね。\n　大量の　<%sEV_QUE_NAME4>が必要なの。<bw_break><endif>": "<if_npc_man>Sure, I got it. You really saved my life! My\nowner is actually the proprietress of a very\nfamous tavern. She's always trying to come up\n<br>\nwith new drinks to put on the menu. She likes\nto add <%sEV_QUE_NAME4> as a secret\ningredient. I need a lot of <%sev_que_name4>.<bw_break><else>Sure, I got it. You really saved my life. My\nowner is actually the proprietress of a very\nfamous tavern. She's always trying to come up\n<br>\nwith new drinks to put on the menu. She likes\nto add <%sev_que_name4> as a secret\ningredient. I need a lot of <%sev_que_name4>.<bw_break><endif>"
+    "<if_npc_man>「確かに　受け取ったぜ。\n　あんたのおかげで　本当に助かった！\n<br>\n「うちのオーナー……　じつは　すごく有名な\n　酒場の女主人でな。店で出すドリンクの\n　新メニューを考えるのが　シュミなんだよ。\n<br>\n「……で　その隠し味に　<%sEV_QUE_NAME4>を\n　加えるのが　こだわりらしくてね。\n　大量の　<%sEV_QUE_NAME4>が必要なのさ。<bw_break><else>「確かに　受け取ったわ。\n　あなたのおかげで　本当に助かっちゃった。\n<br>\n「うちのオーナーって　じつは　すごく有名な\n　酒場の女主人でね。店で出すドリンクの\n　新メニューを考えるのが　シュミなのよ。\n<br>\n「……で　その隠し味に　<%sEV_QUE_NAME4>を\n　加えるのが　こだわりらしくてね。\n　大量の　<%sEV_QUE_NAME4>が必要なの。<bw_break><endif>": 
+    "<if_npc_man>Sure, I got it. You really saved my life! My\nowner is actually the proprietress of a very\nfamous tavern. She's always trying to come up\n<br>\nwith new drinks to put on the menu. She likes\nto add <%sEV_QUE_NAME4> as a secret\ningredient. I need a lot of <%sev_que_name4>.<bw_break><else>Sure, I got it. You really saved my life. My\nowner is actually the proprietress of a very\nfamous tavern. She's always trying to come up\n<br>\nwith new drinks to put on the menu. She likes\nto add <%sev_que_name4> as a secret\ningredient. I need a lot of <%sev_que_name4>.<bw_break><endif>"
   },
   "61934": {
-    "<if_npc_man>「さてと　それじゃ　次は　こちらの番だ。\n　約束通り　冒険者の酒場を　使えるように\n　手続きしないとな。\n<br>\n「あんたの名前は？　……<pc>だな。\n　よっしゃ。冒険者の帳簿に　記名したぞ。\n<br>\n「さあ　冒険者の酒場へ　よく来てくれた！\n　あんたのフレンドたちに　依頼書の\n　クエストを　頼めるようにしてやるぜ。<else>「さて　それじゃ　次は　こちらの番ね。\n　約束通り　冒険者の酒場を　使えるように\n　手続きするわ。\n<br>\n「あなたの名前は？　……<pc>さんね。\n　冒険者の帳簿に　記名させてもらったわ。\n<br>\n「さあ　冒険者の酒場へ　ようこそ！\n　あなたの　フレンドたちに　依頼書の\n　クエストを　頼めるようにしてあげる。<endif>": "<if_npc_man>Well then, it's our turn. We have to go\nthrough the procedures so we can use the\nadventurer's tavern like we promised. What's\n<br>\nyour name? <pc>. Yes, sir. I've made\na notation in the adventurer's ledger. Welcome\nto the Adventurer's Tavern! I'll make sure\n<br>\nyour friends get the request form.<else>Well then, it's our turn. I'll make sure you\nget access to the adventurer's tavern, as\npromised. What's your name? <pc>.\n<br>\nI've had my name entered in the adventurer's\nledger. Welcome to the Adventurer's Tavern!\nI'll make sure that your friends can request a\n<br>\nrequest form from you.<endif>"
+    "<if_npc_man>「さてと　それじゃ　次は　こちらの番だ。\n　約束通り　冒険者の酒場を　使えるように\n　手続きしないとな。\n<br>\n「あんたの名前は？　……<pc>だな。\n　よっしゃ。冒険者の帳簿に　記名したぞ。\n<br>\n「さあ　冒険者の酒場へ　よく来てくれた！\n　あんたのフレンドたちに　依頼書の\n　クエストを　頼めるようにしてやるぜ。<else>「さて　それじゃ　次は　こちらの番ね。\n　約束通り　冒険者の酒場を　使えるように\n　手続きするわ。\n<br>\n「あなたの名前は？　……<pc>さんね。\n　冒険者の帳簿に　記名させてもらったわ。\n<br>\n「さあ　冒険者の酒場へ　ようこそ！\n　あなたの　フレンドたちに　依頼書の\n　クエストを　頼めるようにしてあげる。<endif>": 
+    "<if_npc_man>Well then, it's our turn. We have to go\nthrough the procedures so we can use the\nadventurer's tavern like we promised. What's\n<br>\nyour name? <pc>. Yes, sir. I've made\na notation in the adventurer's ledger. Welcome\nto the Adventurer's Tavern! I'll make sure\n<br>\nyour friends get the request form.<else>Well then, it's our turn. I'll make sure you\nget access to the adventurer's tavern, as\npromised. What's your name? <pc>.\n<br>\nI've had my name entered in the adventurer's\nledger. Welcome to the Adventurer's Tavern!\nI'll make sure that your friends can request a\n<br>\nrequest form from you.<endif>"
   },
   "61935": {
-    "<if_npc_man>「それじゃあ　酒場の使い方について\n　簡単に　レクチャーしておこう。\n<br>\n「まずは　『自分をとうろく』してみろ。\n　今のあんたの　だいたいの強さが記憶された\n　『フレンドのじゅもん』を　発行してやる。\n<br>\n「お次は　あんたのように　アストルティアを\n　冒険している　知り合いや　友人……\n　いわゆる　フレンドに　じゅもんを教えるんだ。\n<br>\n「別に　直接知ってるやつじゃなくても\n　いいぜ。冒険者は　みんな　フレンド！\n　って感じで　いろんなやつに教えるといい。\n<br>\n「そうして　いろんなフレンドと　じゅもんの\n　交換をするんだ。最近は　写真に撮って\n　やりとりするやつが　多いらしいな。\n<br>\n「昔は　こういった　じゅもんといえば\n　手書きだったもんだがなぁ……\n　おっと　話がそれたな。\n<br>\n「フレンドから教えてもらった　じゅもんは\n　冒険者の酒場に　登録しに来てくれ。\n　どこの　酒場でも　いいぜ。\n<br>\n「登録すると　じゅもんに記憶された\n　フレンドが　酒場に登録されるんだ。\n　それでな　ここからが重要なんだが……\n<br>\n「あんた『討伐依頼書』ってのを\n　手に入れたことはあるか？　モンスターを\n　倒した時なんかに　たまに手に入るアイテムだ。\n<br>\n「酒場に　フレンドを登録したあと\n　討伐依頼書を持って　大きめの町の\n　出入り口にいる　討伐隊員に話しかけてみろ。\n<br>\n「すると　依頼書の内容を　解決するために\n　酒場のフレンドを派遣できるんだ。フレンドが\n　依頼書クエストを　こなしてくれるってワケさ！\n<br>\n「クエストをクリアして　フレンドが帰ってきたら\n　獲得してきた報酬を　受け取ることができる！\n　めずらしいものも　あるかもな。\n<br>\n「さて　ちょっと長くなっちまったが\n　ここまでが　酒場の使い方と\n　討伐依頼書クエストの　基本的な関係だ。\n<br>\n「あとは『自分をとうろく』する時に\n　依頼書を持っていれば　いっしょに\n　登録できるとか　いろいろあるんだが……\n<br>\n「まあ　そのへんは　いろいろ試してみてくれ。\n　なんなら　フレンドのじゅもんと　いっしょに\n　ウマい使い方の情報交換も　できるといいな。<else>「それじゃあ　酒場の使い方について\n　簡単に　レクチャーするわね。\n<br>\n「まずは　『自分をとうろく』してみてね。\n　今のあなたの　だいたいの強さが記憶された\n　『フレンドのじゅもん』を　発行するわ。\n<br>\n「お次は　あなたのように　アストルティアを\n　冒険している　知り合いや　友人……\n　いわゆる　フレンドに　じゅもんを教えるの。\n<br>\n「別に　直接知ってる人じゃなくても\n　いいわよ。冒険者は　みんな　フレンド！\n　って感じで　いろんな人に教えるといいわよ。\n<br>\n「そうして　いろんなフレンドと　じゅもんの\n　交換をするの。最近は　写真に撮って\n　やりとりする人が　多いみたいね。\n<br>\n「昔は　こういった　じゅもんといえば\n　手書きだったんだけどねえ……\n　おっと　話がそれたわね。\n<br>\n「フレンドから教えてもらった　じゅもんは\n　冒険者の酒場に　登録しに来てね。\n　どこの　酒場でも　いいわよ。\n<br>\n「登録すると　じゅもんに記憶された\n　フレンドが　酒場に登録されるの。\n　それでね　ここからが重要なんだけど……\n<br>\n「あなた『討伐依頼書』っていうのを\n　手に入れたことはある？　モンスターを\n　倒した時なんかに　たまに手に入るアイテムよ。\n<br>\n「酒場に　フレンドを登録したあと\n　討伐依頼書を持って　大きめの町の\n　出入り口にいる　討伐隊員に話しかけてみて。\n<br>\n「すると　依頼書の内容を　解決するために\n　酒場のフレンドを派遣できるの。フレンドが\n　依頼書クエストを　こなしてくれるってワケ！\n<br>\n「クエストをクリアして　フレンドが帰ってきたら\n　獲得してきた報酬を　受け取ることができるわ！\n　めずらしいものも　あるかもね。\n<br>\n「さて　ちょっと長くなっちゃったけど\n　ここまでが　酒場の使い方と\n　討伐依頼書クエストの　基本的な関係よ。\n<br>\n「あとは『自分をとうろく』する時に\n　依頼書を持っていれば　いっしょに\n　登録できるとか　いろいろあるけど……\n<br>\n「まあ　そのへんは　いろいろ試してみてね。\n　なんなら　フレンドのじゅもんと　いっしょに\n　ウマい使い方の情報交換も　できるといいわね。<endif>": "<if_npc_man>So here's a quick reminder on how to use the\ntavern. First, ''Register Self''. We'll issue a\n''friend spell'' with your current approximate\n<br>\nstrength. Next, you will give the spell to\nyour friends and acquaintances who are\nadventuring in Astoltia, just like you. It\n<br>\ndoesn't have to be someone you know in person.\nAll adventurers are friends! You can tell many\ndifferent people. Then you can exchange spells\n<br>\nwith your friends. Nowadays, it seems that\nmany people exchange spells by taking pictures\nof their friends. In the old days, these\n<br>\nspells used to be handwritten. If you have a\nspell that you learned from a friend, come and\nregister it in the Adventurer's Tavern. Any\n<br>\ntavern is fine. When you register, the tavern\nregisters the spell with your friends who are\nremembered by the spell. And here's the\n<br>\nimportant part... have you ever received a\n''defeat request form''? You can sometimes get\none of these when you kill a monster. After\n<br>\nregistering your friend in the tavern, take\nthe request form and talk to the strike force\nmember at the entrance/exit of the larger\n<br>\ntown. Then you can send a friend from the\ntavern to solve the contents of the request\nform. The friend will complete the Request\n<br>\nQuest for you! When your friend returns after\ncompleting the quest, you will receive the\nreward you have earned! Some of them may be\n<br>\nunique. Well, that's a long story, but that's\nthe basic relationship between using the\nTavern and Request Quest. There are also\n<br>\nvarious ways to register together if you have\na request form when you ''Register Self,'' but\nyou'll have to experiment with that. It would\n<br>\nbe nice if you could exchange information on\nhow to use it with your friend's spells.<else>I'll give you a brief reminder on how to use\nthe tavern. First, ''Register Self''. You will\nbe issued a ''friend spell'' which will contain\n<br>\nyour current approximate strength. Next, you\nwill give the spell to a friend, or friends,\nyou know who are adventuring in Astoltia like\n<br>\nyou are. It doesn't have to be someone you\nknow in person. All adventurers are friends!\nYou can tell people like ''All adventurers are\n<br>\nfriends! Then you can exchange spells with\nyour friends. Nowadays, people tend to\nexchange spells by taking pictures. In the old\n<br>\ndays, these spells used to be handwritten. If\nyou have any spells that your friends have\ntold you about, please come and register them\n<br>\nin the Adventurer's Tavern. Any tavern is\nfine. Once you register, the tavern will\nregister your friends who are stored in the\n<br>\nspells. And here's the important part... have\nyou ever received a ''defeat request form''? You\ncan sometimes get one of these when you kill a\n<br>\nmonster. After registering your friends in the\nTavern, take the ''request form'' and talk to\nthe strike force at the entrance/exit of the\n<br>\nlarger towns. Then you can send a friend from\nthe tavern to help you with the request form.\nThe friend will complete the Request Quest for\n<br>\nyou! When your friend returns after completing\nthe quest, you will receive the reward you\nhave earned! Some of them may be very unique.\n<br>\nWell, that's the basics of how to use the\nTavern and the Request Quest. If you have a\nrequest form, you can register together with\n<br>\nthem when you ''Register Self'', and so on. It\nwould be nice if you could exchange\ninformation on how to use it with your\n<br>\nfriends' spells.<endif>"
+    "<if_npc_man>「それじゃあ　酒場の使い方について\n　簡単に　レクチャーしておこう。\n<br>\n「まずは　『自分をとうろく』してみろ。\n　今のあんたの　だいたいの強さが記憶された\n　『フレンドのじゅもん』を　発行してやる。\n<br>\n「お次は　あんたのように　アストルティアを\n　冒険している　知り合いや　友人……\n　いわゆる　フレンドに　じゅもんを教えるんだ。\n<br>\n「別に　直接知ってるやつじゃなくても\n　いいぜ。冒険者は　みんな　フレンド！\n　って感じで　いろんなやつに教えるといい。\n<br>\n「そうして　いろんなフレンドと　じゅもんの\n　交換をするんだ。最近は　写真に撮って\n　やりとりするやつが　多いらしいな。\n<br>\n「昔は　こういった　じゅもんといえば\n　手書きだったもんだがなぁ……\n　おっと　話がそれたな。\n<br>\n「フレンドから教えてもらった　じゅもんは\n　冒険者の酒場に　登録しに来てくれ。\n　どこの　酒場でも　いいぜ。\n<br>\n「登録すると　じゅもんに記憶された\n　フレンドが　酒場に登録されるんだ。\n　それでな　ここからが重要なんだが……\n<br>\n「あんた『討伐依頼書』ってのを\n　手に入れたことはあるか？　モンスターを\n　倒した時なんかに　たまに手に入るアイテムだ。\n<br>\n「酒場に　フレンドを登録したあと\n　討伐依頼書を持って　大きめの町の\n　出入り口にいる　討伐隊員に話しかけてみろ。\n<br>\n「すると　依頼書の内容を　解決するために\n　酒場のフレンドを派遣できるんだ。フレンドが\n　依頼書クエストを　こなしてくれるってワケさ！\n<br>\n「クエストをクリアして　フレンドが帰ってきたら\n　獲得してきた報酬を　受け取ることができる！\n　めずらしいものも　あるかもな。\n<br>\n「さて　ちょっと長くなっちまったが\n　ここまでが　酒場の使い方と\n　討伐依頼書クエストの　基本的な関係だ。\n<br>\n「あとは『自分をとうろく』する時に\n　依頼書を持っていれば　いっしょに\n　登録できるとか　いろいろあるんだが……\n<br>\n「まあ　そのへんは　いろいろ試してみてくれ。\n　なんなら　フレンドのじゅもんと　いっしょに\n　ウマい使い方の情報交換も　できるといいな。<else>「それじゃあ　酒場の使い方について\n　簡単に　レクチャーするわね。\n<br>\n「まずは　『自分をとうろく』してみてね。\n　今のあなたの　だいたいの強さが記憶された\n　『フレンドのじゅもん』を　発行するわ。\n<br>\n「お次は　あなたのように　アストルティアを\n　冒険している　知り合いや　友人……\n　いわゆる　フレンドに　じゅもんを教えるの。\n<br>\n「別に　直接知ってる人じゃなくても\n　いいわよ。冒険者は　みんな　フレンド！\n　って感じで　いろんな人に教えるといいわよ。\n<br>\n「そうして　いろんなフレンドと　じゅもんの\n　交換をするの。最近は　写真に撮って\n　やりとりする人が　多いみたいね。\n<br>\n「昔は　こういった　じゅもんといえば\n　手書きだったんだけどねえ……\n　おっと　話がそれたわね。\n<br>\n「フレンドから教えてもらった　じゅもんは\n　冒険者の酒場に　登録しに来てね。\n　どこの　酒場でも　いいわよ。\n<br>\n「登録すると　じゅもんに記憶された\n　フレンドが　酒場に登録されるの。\n　それでね　ここからが重要なんだけど……\n<br>\n「あなた『討伐依頼書』っていうのを\n　手に入れたことはある？　モンスターを\n　倒した時なんかに　たまに手に入るアイテムよ。\n<br>\n「酒場に　フレンドを登録したあと\n　討伐依頼書を持って　大きめの町の\n　出入り口にいる　討伐隊員に話しかけてみて。\n<br>\n「すると　依頼書の内容を　解決するために\n　酒場のフレンドを派遣できるの。フレンドが\n　依頼書クエストを　こなしてくれるってワケ！\n<br>\n「クエストをクリアして　フレンドが帰ってきたら\n　獲得してきた報酬を　受け取ることができるわ！\n　めずらしいものも　あるかもね。\n<br>\n「さて　ちょっと長くなっちゃったけど\n　ここまでが　酒場の使い方と\n　討伐依頼書クエストの　基本的な関係よ。\n<br>\n「あとは『自分をとうろく』する時に\n　依頼書を持っていれば　いっしょに\n　登録できるとか　いろいろあるけど……\n<br>\n「まあ　そのへんは　いろいろ試してみてね。\n　なんなら　フレンドのじゅもんと　いっしょに\n　ウマい使い方の情報交換も　できるといいわね。<endif>": 
+    "<if_npc_man>So here's a quick reminder on how to use the\ntavern. First, ''Register Self''. We'll issue a\n''friend spell'' with your current approximate\n<br>\nstrength. Next, you will give the spell to\nyour friends and acquaintances who are\nadventuring in Astoltia, just like you. It\n<br>\ndoesn't have to be someone you know in person.\nAll adventurers are friends! You can tell many\ndifferent people. Then you can exchange spells\n<br>\nwith your friends. Nowadays, it seems that\nmany people exchange spells by taking pictures\nof their friends. In the old days, these\n<br>\nspells used to be handwritten. If you have a\nspell that you learned from a friend, come and\nregister it in the Adventurer's Tavern. Any\n<br>\ntavern is fine. When you register, the tavern\nregisters the spell with your friends who are\nremembered by the spell. And here's the\n<br>\nimportant part... have you ever received a\n''defeat request form''? You can sometimes get\none of these when you kill a monster. After\n<br>\nregistering your friend in the tavern, take\nthe request form and talk to the strike force\nmember at the entrance/exit of the larger\n<br>\ntown. Then you can send a friend from the\ntavern to solve the contents of the request\nform. The friend will complete the Request\n<br>\nQuest for you! When your friend returns after\ncompleting the quest, you will receive the\nreward you have earned! Some of them may be\n<br>\nunique. Well, that's a long story, but that's\nthe basic relationship between using the\nTavern and Request Quest. There are also\n<br>\nvarious ways to register together if you have\na request form when you ''Register Self,'' but\nyou'll have to experiment with that. It would\n<br>\nbe nice if you could exchange information on\nhow to use it with your friend's spells.<else>I'll give you a brief reminder on how to use\nthe tavern. First, ''Register Self''. You will\nbe issued a ''friend spell'' which will contain\n<br>\nyour current approximate strength. Next, you\nwill give the spell to a friend, or friends,\nyou know who are adventuring in Astoltia like\n<br>\nyou are. It doesn't have to be someone you\nknow in person. All adventurers are friends!\nYou can tell people like ''All adventurers are\n<br>\nfriends! Then you can exchange spells with\nyour friends. Nowadays, people tend to\nexchange spells by taking pictures. In the old\n<br>\ndays, these spells used to be handwritten. If\nyou have any spells that your friends have\ntold you about, please come and register them\n<br>\nin the Adventurer's Tavern. Any tavern is\nfine. Once you register, the tavern will\nregister your friends who are stored in the\n<br>\nspells. And here's the important part... have\nyou ever received a ''defeat request form''? You\ncan sometimes get one of these when you kill a\n<br>\nmonster. After registering your friends in the\nTavern, take the ''request form'' and talk to\nthe strike force at the entrance/exit of the\n<br>\nlarger towns. Then you can send a friend from\nthe tavern to help you with the request form.\nThe friend will complete the Request Quest for\n<br>\nyou! When your friend returns after completing\nthe quest, you will receive the reward you\nhave earned! Some of them may be very unique.\n<br>\nWell, that's the basics of how to use the\nTavern and the Request Quest. If you have a\nrequest form, you can register together with\n<br>\nthem when you ''Register Self'', and so on. It\nwould be nice if you could exchange\ninformation on how to use it with your\n<br>\nfriends' spells.<endif>"
   },
   "61937": {
-    "<if_npc_man>「改めて　冒険者の酒場へ　よく来てくれた！\n　あんたのフレンドたちに　依頼書の\n　クエストを　頼めるようにしてやるぜ。<else>「改めて　冒険者の酒場へ　ようこそ！\n　あなたの　フレンドたちに　依頼書の\n　クエストを　頼めるようにしてあげる。<endif>": "<if_npc_man>Once again, welcome to the Adventurer's\nTavern! I'll make sure that your friends get\nthe request form.<else>Once again, welcome to the Adventurer's\nTavern! We'll be happy to help you with your\nrequest form quests.<endif>"
+    "<if_npc_man>「改めて　冒険者の酒場へ　よく来てくれた！\n　あんたのフレンドたちに　依頼書の\n　クエストを　頼めるようにしてやるぜ。<else>「改めて　冒険者の酒場へ　ようこそ！\n　あなたの　フレンドたちに　依頼書の\n　クエストを　頼めるようにしてあげる。<endif>": 
+    "<if_npc_man>Once again, welcome to the Adventurer's\nTavern! I'll make sure that your friends get\nthe request form.<else>Once again, welcome to the Adventurer's\nTavern! We'll be happy to help you with your\nrequest form quests.<endif>"
   },
   "61938": {
-    "<pc>は　<%sEV_SYSMSG_NPC>に\n<%sEV_QUE_NAME4>を　ひとつ　渡した！": "<pc> passed a single <%sEV_QUE_NAME4>\nto <%sEV_SYSMSG_NPC>!"
+    "<pc>は　<%sEV_SYSMSG_NPC>に\n<%sEV_QUE_NAME4>を　ひとつ　渡した！": 
+    "<pc> passed a single <%sEV_QUE_NAME4>\nto <%sEV_SYSMSG_NPC>!"
   },
   "49813": {
-    "<if_npc_man>「娯楽島ラッカランの　ランプ錬金ギルドにいる\n　素材屋ナディから　<%sEV_QUE_NAME4>を\n　ひとつ　買ってきてくれ。<open_irai><bw_break><else>「娯楽島ラッカランの　ランプ錬金ギルドにいる\n　素材屋ナディから　<%sEV_QUE_NAME4>を\n　ひとつ　買ってきてほしいの。<open_irai><bw_break><endif>": "<if_npc_man>Get one <%sev_que_name4> from Material Shop\nNadie at the Lamp Alchemy Guild on Luckland\nIsland.<open_irai><bw_break><else>I need you to get one <%sev_que_name4> from\nMaterial Shop Nadie at the Lamp Alchemy Guild\non Luckland Island.<open_irai><bw_break><endif>"
+    "<if_npc_man>「娯楽島ラッカランの　ランプ錬金ギルドにいる\n　素材屋ナディから　<%sEV_QUE_NAME4>を\n　ひとつ　買ってきてくれ。<open_irai><bw_break><else>「娯楽島ラッカランの　ランプ錬金ギルドにいる\n　素材屋ナディから　<%sEV_QUE_NAME4>を\n　ひとつ　買ってきてほしいの。<open_irai><bw_break><endif>": 
+    "<if_npc_man>Get one <%sev_que_name4> from Material Shop\nNadie at the Lamp Alchemy Guild on Luckland\nIsland.<open_irai><bw_break><else>I need you to get one <%sev_que_name4> from\nMaterial Shop Nadie at the Lamp Alchemy Guild\non Luckland Island.<open_irai><bw_break><endif>"
   },
   "49814": {
-    "<if_npc_man>「あと　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫だ。<bw_break><else>「あと　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫よ。<bw_break><endif>": "<if_npc_man>And <%sev_que_name4> can be given to any\nintroducer in any town.<bw_break><else>And <%sev_que_name4> can be given to any\nintroducer in any town.<bw_break><endif>"
+    "<if_npc_man>「あと　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫だ。<bw_break><else>「あと　<%sEV_QUE_NAME4>は\n　どの町の紹介人に渡しても　大丈夫よ。<bw_break><endif>": 
+    "<if_npc_man>And <%sev_que_name4> can be given to any\nintroducer in any town.<bw_break><else>And <%sev_que_name4> can be given to any\nintroducer in any town.<bw_break><endif>"
   },
   "49815": {
-    "<if_npc_man><close_irai>「この依頼を　こなしてくれれば\n　冒険者の酒場を　使えるようにするからな。\n　それじゃあ　よろしく頼んだぞ。<else><close_irai>「この依頼を　こなしてくれれば\n　冒険者の酒場を　使えるようにするから。\n　それじゃあ　よろしくお願いね。<endif>": "<if_npc_man><close_irai>If you fulfill this request, you will be able\nto use the Adventurer's Tavern. Well then, I'm\nlooking forward to working with you.<else><close_irai>If you fulfill this request, I'll give you\naccess to the Adventurer's Tavern. Then,\nplease take care of it.<endif>"
+    "<if_npc_man><close_irai>「この依頼を　こなしてくれれば\n　冒険者の酒場を　使えるようにするからな。\n　それじゃあ　よろしく頼んだぞ。<else><close_irai>「この依頼を　こなしてくれれば\n　冒険者の酒場を　使えるようにするから。\n　それじゃあ　よろしくお願いね。<endif>": 
+    "<if_npc_man><close_irai>If you fulfill this request, you will be able\nto use the Adventurer's Tavern. Well then, I'm\nlooking forward to working with you.<else><close_irai>If you fulfill this request, I'll give you\naccess to the Adventurer's Tavern. Then,\nplease take care of it.<endif>"
   },
   "49816": {
-    "<if_npc_man>「どうやら　娯楽島ラッカランの\n　素材屋ナディから　<%sEV_QUE_NAME4>を　\n　買ってきてくれたみたいだな。\n<br>\n「それじゃ　<%sEV_QUE_NAME4>を　ひとつ\n　オレに　渡してくれるかい？<yesno><case 1><close><case 2><break><case_cancel><break><case_end><else>「どうやら　娯楽島ラッカランの\n　素材屋ナディから　<%sEV_QUE_NAME4>を　\n　買ってきてくれたみたいね。\n<br>\n「それじゃ　<%sEV_QUE_NAME4>を　ひとつ\n　私に　渡してくれる？<yesno><case 1><close><case 2><break><case_cancel><break><case_end><endif>": "<if_npc_man>It looks like you got <%sEV_QUE_NAME4> from\nMaterial Shop Nadie on Luckland Island. So,\ncan you give me one of <%sEV_QUE_NAME4> then?<yesno><case 1><close><case 2><break><case_cancel><break><case_end><else>It looks like you got <%sEV_QUE_NAME4> from\nMaterial Shop Nadie on Luckland Island. So can\nyou give me one <%sEV_QUE_NAME4> then?<yesno><case 1><close><case 2><break><case_cancel><break><case_end><endif>"
+    "<if_npc_man>「どうやら　娯楽島ラッカランの\n　素材屋ナディから　<%sEV_QUE_NAME4>を　\n　買ってきてくれたみたいだな。\n<br>\n「それじゃ　<%sEV_QUE_NAME4>を　ひとつ\n　オレに　渡してくれるかい？<yesno><case 1><close><case 2><break><case_cancel><break><case_end><else>「どうやら　娯楽島ラッカランの\n　素材屋ナディから　<%sEV_QUE_NAME4>を　\n　買ってきてくれたみたいね。\n<br>\n「それじゃ　<%sEV_QUE_NAME4>を　ひとつ\n　私に　渡してくれる？<yesno><case 1><close><case 2><break><case_cancel><break><case_end><endif>": 
+    "<if_npc_man>It looks like you got <%sEV_QUE_NAME4> from\nMaterial Shop Nadie on Luckland Island. So,\ncan you give me one of <%sEV_QUE_NAME4> then?<yesno><case 1><close><case 2><break><case_cancel><break><case_end><else>It looks like you got <%sEV_QUE_NAME4> from\nMaterial Shop Nadie on Luckland Island. So can\nyou give me one <%sEV_QUE_NAME4> then?<yesno><case 1><close><case 2><break><case_cancel><break><case_end><endif>"
   },
   "49817": {
-    "<if_npc_man>「……なんだ。その　<%sEV_QUE_NAME4>は\n　自分用なのか。それなら　仕方ないが\n　オレの頼んだ分も　早く買ってきてくれよ。<else>「……あら。その　<%sEV_QUE_NAME4>は\n　自分用なのね。それなら　仕方ないけど\n　私の頼んだ分も　早く買ってきてね。<endif>": "<if_npc_man>What the heck. Is that <%sev_que_name4> for\nyourself? If so, I don't blame you, but please\nget me the one I asked for as soon as\n<br>\npossible.<else>Oops. That <%sev_que_name4> is for yourself,\nisn't it? If so, I don't have any choice but\nto buy the one I asked you to buy for me as\n<br>\nsoon as possible.<endif>"
+    "<if_npc_man>「……なんだ。その　<%sEV_QUE_NAME4>は\n　自分用なのか。それなら　仕方ないが\n　オレの頼んだ分も　早く買ってきてくれよ。<else>「……あら。その　<%sEV_QUE_NAME4>は\n　自分用なのね。それなら　仕方ないけど\n　私の頼んだ分も　早く買ってきてね。<endif>": 
+    "<if_npc_man>What the heck. Is that <%sev_que_name4> for\nyourself? If so, I don't blame you, but please\nget me the one I asked for as soon as\n<br>\npossible.<else>Oops. That <%sev_que_name4> is for yourself,\nisn't it? If so, I don't have any choice but\nto buy the one I asked you to buy for me as\n<br>\nsoon as possible.<endif>"
   },
   "49818": {
-    "<if_npc_man>「確かに　受け取ったぜ。\n　あんたのおかげで　本当に助かった！\n<br>\n「うちのオーナー……　じつは　すごく有名な\n　酒場の女主人でな。店で出すドリンクの\n　新メニューを考えるのが　シュミなんだよ。\n<br>\n「……で　その隠し味に　故郷の素材を加えるのが\n　こだわりらしくてね。素材屋ナディが仕入れる\n　素材は　まさにオーナーの故郷のものなんだ。<bw_break><else>「確かに　受け取ったわ。\n　あなたのおかげで　本当に助かっちゃった。\n<br>\n「うちのオーナーって　じつは　すごく有名な\n　酒場の女主人でね。店で出すドリンクの\n　新メニューを考えるのが　シュミなのよ。\n<br>\n「……で　その隠し味に　故郷の素材を加えるのが\n　こだわりらしくてね。素材屋ナディが仕入れる\n　素材は　まさにオーナーの故郷のものなの。<bw_break><endif>": "<if_npc_man>Sure, I got it. You really saved my life! My\nowner is actually the proprietress of a very\nfamous tavern. She's always trying to come up\n<br>\nwith new drinks to put on the menu. The\ningredients Material Shop Nadie buys are from\nher hometown.<bw_break><else>Sure, I got it. You really saved my life. My\nowner is actually the proprietress of a very\nfamous tavern. She's always trying to come up\n<br>\nwith new drinks to serve at the restaurant.\nThe ingredients that Material Shop Nadie buys\nare from her hometown.<bw_break><endif>"
+    "<if_npc_man>「確かに　受け取ったぜ。\n　あんたのおかげで　本当に助かった！\n<br>\n「うちのオーナー……　じつは　すごく有名な\n　酒場の女主人でな。店で出すドリンクの\n　新メニューを考えるのが　シュミなんだよ。\n<br>\n「……で　その隠し味に　故郷の素材を加えるのが\n　こだわりらしくてね。素材屋ナディが仕入れる\n　素材は　まさにオーナーの故郷のものなんだ。<bw_break><else>「確かに　受け取ったわ。\n　あなたのおかげで　本当に助かっちゃった。\n<br>\n「うちのオーナーって　じつは　すごく有名な\n　酒場の女主人でね。店で出すドリンクの\n　新メニューを考えるのが　シュミなのよ。\n<br>\n「……で　その隠し味に　故郷の素材を加えるのが\n　こだわりらしくてね。素材屋ナディが仕入れる\n　素材は　まさにオーナーの故郷のものなの。<bw_break><endif>": 
+    "<if_npc_man>Sure, I got it. You really saved my life! My\nowner is actually the proprietress of a very\nfamous tavern. She's always trying to come up\n<br>\nwith new drinks to put on the menu. The\ningredients Material Shop Nadie buys are from\nher hometown.<bw_break><else>Sure, I got it. You really saved my life. My\nowner is actually the proprietress of a very\nfamous tavern. She's always trying to come up\n<br>\nwith new drinks to serve at the restaurant.\nThe ingredients that Material Shop Nadie buys\nare from her hometown.<bw_break><endif>"
   },
   "49819": {
-    "<if_npc_man>「さてと　それじゃ　次は　こちらの番だ。\n　約束通り　冒険者の酒場を　使えるように\n　手続きしないとな。\n<br>\n「あんたの名前は？　……<pc>だな。\n　よっしゃ。冒険者の帳簿に　記名したぞ。\n<br>\n「さあ　冒険者の酒場へ　よく来てくれた！\n　あんたのフレンドたちに　依頼書の\n　クエストを　頼めるようにしてやるぜ。<else>「さて　それじゃ　次は　こちらの番ね。\n　約束通り　冒険者の酒場を　使えるように\n　手続きするわ。\n<br>\n「あなたの名前は？　……<pc>さんね。\n　冒険者の帳簿に　記名させてもらったわ。\n<br>\n「さあ　冒険者の酒場へ　ようこそ！\n　あなたの　フレンドたちに　依頼書の\n　クエストを　頼めるようにしてあげる。<endif>": "<if_npc_man>Well then, it's our turn. We have to go\nthrough the procedures so we can use the\nadventurer's tavern like we promised. What's\n<br>\nyour name? <pc>. Yes, sir. I've made\na notation in the adventurer's ledger. Welcome\nto the Adventurer's Tavern! I'll make sure\n<br>\nyour friends get the request form.<else>Well then, it's our turn. I'll make sure you\nget access to the adventurer's tavern, as\npromised. What's your name? <pc>.\n<br>\nI've had my name entered in the adventurer's\nledger. Welcome to the Adventurer's Tavern!\nI'll make sure that your friends can request a\n<br>\nrequest form from you.<endif>"
+    "<if_npc_man>「さてと　それじゃ　次は　こちらの番だ。\n　約束通り　冒険者の酒場を　使えるように\n　手続きしないとな。\n<br>\n「あんたの名前は？　……<pc>だな。\n　よっしゃ。冒険者の帳簿に　記名したぞ。\n<br>\n「さあ　冒険者の酒場へ　よく来てくれた！\n　あんたのフレンドたちに　依頼書の\n　クエストを　頼めるようにしてやるぜ。<else>「さて　それじゃ　次は　こちらの番ね。\n　約束通り　冒険者の酒場を　使えるように\n　手続きするわ。\n<br>\n「あなたの名前は？　……<pc>さんね。\n　冒険者の帳簿に　記名させてもらったわ。\n<br>\n「さあ　冒険者の酒場へ　ようこそ！\n　あなたの　フレンドたちに　依頼書の\n　クエストを　頼めるようにしてあげる。<endif>": 
+    "<if_npc_man>Well then, it's our turn. We have to go\nthrough the procedures so we can use the\nadventurer's tavern like we promised. What's\n<br>\nyour name? <pc>. Yes, sir. I've made\na notation in the adventurer's ledger. Welcome\nto the Adventurer's Tavern! I'll make sure\n<br>\nyour friends get the request form.<else>Well then, it's our turn. I'll make sure you\nget access to the adventurer's tavern, as\npromised. What's your name? <pc>.\n<br>\nI've had my name entered in the adventurer's\nledger. Welcome to the Adventurer's Tavern!\nI'll make sure that your friends can request a\n<br>\nrequest form from you.<endif>"
   },
   "49820": {
-    "<if_npc_man>「それじゃあ　酒場の使い方について\n　簡単に　レクチャーしておこう。\n<br>\n「まずは　『自分をとうろく』してみろ。\n　今のあんたの　だいたいの強さが記憶された\n　『フレンドのじゅもん』を　発行してやる。\n<br>\n「お次は　あんたのように　アストルティアを\n　冒険している　知り合いや　友人……\n　いわゆる　フレンドに　じゅもんを教えるんだ。\n<br>\n「別に　直接知ってるやつじゃなくても\n　いいぜ。冒険者は　みんな　フレンド！\n　って感じで　いろんなやつに教えるといい。\n<br>\n「そうして　いろんなフレンドと　じゅもんの\n　交換をするんだ。最近は　写真に撮って\n　やりとりするやつが　多いらしいな。\n<br>\n「昔は　こういった　じゅもんといえば\n　手書きだったもんだがなぁ……\n　おっと　話がそれたな。\n<br>\n「フレンドから教えてもらった　じゅもんは\n　冒険者の酒場に　登録しに来てくれ。\n　どこの　酒場でも　いいぜ。\n<br>\n「登録すると　じゅもんに記憶された\n　フレンドが　酒場に登録されるんだ。\n　それでな　ここからが重要なんだが……\n<br>\n「あんた『討伐依頼書』ってのを\n　手に入れたことはあるか？　モンスターを\n　倒した時なんかに　たまに手に入るアイテムだ。\n<br>\n「酒場に　フレンドを登録したあと\n　討伐依頼書を持って　大きめの町の\n　出入り口にいる　討伐隊員に話しかけてみろ。\n<br>\n「すると　依頼書の内容を　解決するために\n　酒場のフレンドを派遣できるんだ。フレンドが\n　依頼書クエストを　こなしてくれるってワケさ！\n<br>\n「クエストをクリアして　フレンドが帰ってきたら\n　獲得してきた報酬を　受け取ることができる！\n　めずらしいものも　あるかもな。\n<br>\n「さて　ちょっと長くなっちまったが\n　ここまでが　酒場の使い方と\n　討伐依頼書クエストの　基本的な関係だ。\n<br>\n「あとは『自分をとうろく』する時に\n　依頼書を持っていれば　いっしょに\n　登録できるとか　いろいろあるんだが……\n<br>\n「まあ　そのへんは　いろいろ試してみてくれ。\n　なんなら　フレンドのじゅもんと　いっしょに\n　ウマい使い方の情報交換も　できるといいな。<else>「それじゃあ　酒場の使い方について\n　簡単に　レクチャーするわね。\n<br>\n「まずは　『自分をとうろく』してみてね。\n　今のあなたの　だいたいの強さが記憶された\n　『フレンドのじゅもん』を　発行するわ。\n<br>\n「お次は　あなたのように　アストルティアを\n　冒険している　知り合いや　友人……\n　いわゆる　フレンドに　じゅもんを教えるの。\n<br>\n「別に　直接知ってる人じゃなくても\n　いいわよ。冒険者は　みんな　フレンド！\n　って感じで　いろんな人に教えるといいわよ。\n<br>\n「そうして　いろんなフレンドと　じゅもんの\n　交換をするの。最近は　写真に撮って\n　やりとりする人が　多いみたいね。\n<br>\n「昔は　こういった　じゅもんといえば\n　手書きだったんだけどねえ……\n　おっと　話がそれたわね。\n<br>\n「フレンドから教えてもらった　じゅもんは\n　冒険者の酒場に　登録しに来てね。\n　どこの　酒場でも　いいわよ。\n<br>\n「登録すると　じゅもんに記憶された\n　フレンドが　酒場に登録されるの。\n　それでね　ここからが重要なんだけど……\n<br>\n「あなた『討伐依頼書』っていうのを\n　手に入れたことはある？　モンスターを\n　倒した時なんかに　たまに手に入るアイテムよ。\n<br>\n「酒場に　フレンドを登録したあと\n　討伐依頼書を持って　大きめの町の\n　出入り口にいる　討伐隊員に話しかけてみて。\n<br>\n「すると　依頼書の内容を　解決するために\n　酒場のフレンドを派遣できるの。フレンドが\n　依頼書クエストを　こなしてくれるってワケ！\n<br>\n「クエストをクリアして　フレンドが帰ってきたら\n　獲得してきた報酬を　受け取ることができるわ！\n　めずらしいものも　あるかもね。\n<br>\n「さて　ちょっと長くなっちゃったけど\n　ここまでが　酒場の使い方と\n　討伐依頼書クエストの　基本的な関係よ。\n<br>\n「あとは『自分をとうろく』する時に\n　依頼書を持っていれば　いっしょに\n　登録できるとか　いろいろあるけど……\n<br>\n「まあ　そのへんは　いろいろ試してみてね。\n　なんなら　フレンドのじゅもんと　いっしょに\n　ウマい使い方の情報交換も　できるといいわね。<endif>": "<if_npc_man>So here's a quick reminder on how to use the\ntavern. First, ''Register Self''. We'll issue a\n''friend spell'' with your current approximate\n<br>\nstrength. Next, you will give the spell to\nyour friends and acquaintances who are\nadventuring in Astoltia, just like you. It\n<br>\ndoesn't have to be someone you know in person.\nAll adventurers are friends! You can tell many\ndifferent people. Then you can exchange spells\n<br>\nwith your friends. Nowadays, it seems that\nmany people exchange spells by taking pictures\nof their friends. In the old days, these\n<br>\nspells used to be handwritten. If you have a\nspell that you learned from a friend, come and\nregister it in the Adventurer's Tavern. Any\n<br>\ntavern is fine. When you register, the tavern\nregisters the spell with your friends who are\nremembered by the spell. And here's the\n<br>\nimportant part... have you ever received a\n''defeat request form''? You can sometimes get\none of these when you kill a monster. After\n<br>\nregistering your friend in the tavern, take\nthe request form and talk to the strike force\nmember at the entrance/exit of the larger\n<br>\ntown. Then you can send a friend from the\ntavern to solve the contents of the request\nform. The friend will complete the Request\n<br>\nQuest for you! When your friend returns after\ncompleting the quest, you will receive the\nreward you have earned! Some of them may be\n<br>\nunique. Well, that's a long story, but that's\nthe basic relationship between using the\nTavern and Request Quest. There are also\n<br>\nvarious ways to register together if you have\na request form when you ''Register Self,'' but\nyou'll have to experiment with that. It would\n<br>\nbe nice if you could exchange information on\nhow to use it with your friend's spells.<else>I'll give you a brief reminder on how to use\nthe tavern. First, ''Register Self''. You will\nbe issued a ''friend spell'' which will contain\n<br>\nyour current approximate strength. Next, you\nwill give the spell to a friend, or friends,\nyou know who are adventuring in Astoltia like\n<br>\nyou are. It doesn't have to be someone you\nknow in person. All adventurers are friends!\nYou can tell people like ''All adventurers are\n<br>\nfriends! Then you can exchange spells with\nyour friends. Nowadays, people tend to\nexchange spells by taking pictures. In the old\n<br>\ndays, these spells used to be handwritten. If\nyou have any spells that your friends have\ntold you about, please come and register them\n<br>\nin the Adventurer's Tavern. Any tavern is\nfine. Once you register, the tavern will\nregister your friends who are stored in the\n<br>\nspells. And here's the important part... have\nyou ever received a ''defeat request form''? You\ncan sometimes get one of these when you kill a\n<br>\nmonster. After registering your friends in the\nTavern, take the ''request form'' and talk to\nthe strike force at the entrance/exit of the\n<br>\nlarger towns. Then you can send a friend from\nthe tavern to help you with the request form.\nThe friend will complete the Request Quest for\n<br>\nyou! When your friend returns after completing\nthe quest, you will receive the reward you\nhave earned! Some of them may be very unique.\n<br>\nWell, that's the basics of how to use the\nTavern and the Request Quest. If you have a\nrequest form, you can register together with\n<br>\nthem when you ''Register Self'', and so on. It\nwould be nice if you could exchange\ninformation on how to use it with your\n<br>\nfriends' spells.<endif>"
+    "<if_npc_man>「それじゃあ　酒場の使い方について\n　簡単に　レクチャーしておこう。\n<br>\n「まずは　『自分をとうろく』してみろ。\n　今のあんたの　だいたいの強さが記憶された\n　『フレンドのじゅもん』を　発行してやる。\n<br>\n「お次は　あんたのように　アストルティアを\n　冒険している　知り合いや　友人……\n　いわゆる　フレンドに　じゅもんを教えるんだ。\n<br>\n「別に　直接知ってるやつじゃなくても\n　いいぜ。冒険者は　みんな　フレンド！\n　って感じで　いろんなやつに教えるといい。\n<br>\n「そうして　いろんなフレンドと　じゅもんの\n　交換をするんだ。最近は　写真に撮って\n　やりとりするやつが　多いらしいな。\n<br>\n「昔は　こういった　じゅもんといえば\n　手書きだったもんだがなぁ……\n　おっと　話がそれたな。\n<br>\n「フレンドから教えてもらった　じゅもんは\n　冒険者の酒場に　登録しに来てくれ。\n　どこの　酒場でも　いいぜ。\n<br>\n「登録すると　じゅもんに記憶された\n　フレンドが　酒場に登録されるんだ。\n　それでな　ここからが重要なんだが……\n<br>\n「あんた『討伐依頼書』ってのを\n　手に入れたことはあるか？　モンスターを\n　倒した時なんかに　たまに手に入るアイテムだ。\n<br>\n「酒場に　フレンドを登録したあと\n　討伐依頼書を持って　大きめの町の\n　出入り口にいる　討伐隊員に話しかけてみろ。\n<br>\n「すると　依頼書の内容を　解決するために\n　酒場のフレンドを派遣できるんだ。フレンドが\n　依頼書クエストを　こなしてくれるってワケさ！\n<br>\n「クエストをクリアして　フレンドが帰ってきたら\n　獲得してきた報酬を　受け取ることができる！\n　めずらしいものも　あるかもな。\n<br>\n「さて　ちょっと長くなっちまったが\n　ここまでが　酒場の使い方と\n　討伐依頼書クエストの　基本的な関係だ。\n<br>\n「あとは『自分をとうろく』する時に\n　依頼書を持っていれば　いっしょに\n　登録できるとか　いろいろあるんだが……\n<br>\n「まあ　そのへんは　いろいろ試してみてくれ。\n　なんなら　フレンドのじゅもんと　いっしょに\n　ウマい使い方の情報交換も　できるといいな。<else>「それじゃあ　酒場の使い方について\n　簡単に　レクチャーするわね。\n<br>\n「まずは　『自分をとうろく』してみてね。\n　今のあなたの　だいたいの強さが記憶された\n　『フレンドのじゅもん』を　発行するわ。\n<br>\n「お次は　あなたのように　アストルティアを\n　冒険している　知り合いや　友人……\n　いわゆる　フレンドに　じゅもんを教えるの。\n<br>\n「別に　直接知ってる人じゃなくても\n　いいわよ。冒険者は　みんな　フレンド！\n　って感じで　いろんな人に教えるといいわよ。\n<br>\n「そうして　いろんなフレンドと　じゅもんの\n　交換をするの。最近は　写真に撮って\n　やりとりする人が　多いみたいね。\n<br>\n「昔は　こういった　じゅもんといえば\n　手書きだったんだけどねえ……\n　おっと　話がそれたわね。\n<br>\n「フレンドから教えてもらった　じゅもんは\n　冒険者の酒場に　登録しに来てね。\n　どこの　酒場でも　いいわよ。\n<br>\n「登録すると　じゅもんに記憶された\n　フレンドが　酒場に登録されるの。\n　それでね　ここからが重要なんだけど……\n<br>\n「あなた『討伐依頼書』っていうのを\n　手に入れたことはある？　モンスターを\n　倒した時なんかに　たまに手に入るアイテムよ。\n<br>\n「酒場に　フレンドを登録したあと\n　討伐依頼書を持って　大きめの町の\n　出入り口にいる　討伐隊員に話しかけてみて。\n<br>\n「すると　依頼書の内容を　解決するために\n　酒場のフレンドを派遣できるの。フレンドが\n　依頼書クエストを　こなしてくれるってワケ！\n<br>\n「クエストをクリアして　フレンドが帰ってきたら\n　獲得してきた報酬を　受け取ることができるわ！\n　めずらしいものも　あるかもね。\n<br>\n「さて　ちょっと長くなっちゃったけど\n　ここまでが　酒場の使い方と\n　討伐依頼書クエストの　基本的な関係よ。\n<br>\n「あとは『自分をとうろく』する時に\n　依頼書を持っていれば　いっしょに\n　登録できるとか　いろいろあるけど……\n<br>\n「まあ　そのへんは　いろいろ試してみてね。\n　なんなら　フレンドのじゅもんと　いっしょに\n　ウマい使い方の情報交換も　できるといいわね。<endif>": 
+    "<if_npc_man>So here's a quick reminder on how to use the\ntavern. First, ''Register Self''. We'll issue a\n''friend spell'' with your current approximate\n<br>\nstrength. Next, you will give the spell to\nyour friends and acquaintances who are\nadventuring in Astoltia, just like you. It\n<br>\ndoesn't have to be someone you know in person.\nAll adventurers are friends! You can tell many\ndifferent people. Then you can exchange spells\n<br>\nwith your friends. Nowadays, it seems that\nmany people exchange spells by taking pictures\nof their friends. In the old days, these\n<br>\nspells used to be handwritten. If you have a\nspell that you learned from a friend, come and\nregister it in the Adventurer's Tavern. Any\n<br>\ntavern is fine. When you register, the tavern\nregisters the spell with your friends who are\nremembered by the spell. And here's the\n<br>\nimportant part... have you ever received a\n''defeat request form''? You can sometimes get\none of these when you kill a monster. After\n<br>\nregistering your friend in the tavern, take\nthe request form and talk to the strike force\nmember at the entrance/exit of the larger\n<br>\ntown. Then you can send a friend from the\ntavern to solve the contents of the request\nform. The friend will complete the Request\n<br>\nQuest for you! When your friend returns after\ncompleting the quest, you will receive the\nreward you have earned! Some of them may be\n<br>\nunique. Well, that's a long story, but that's\nthe basic relationship between using the\nTavern and Request Quest. There are also\n<br>\nvarious ways to register together if you have\na request form when you ''Register Self,'' but\nyou'll have to experiment with that. It would\n<br>\nbe nice if you could exchange information on\nhow to use it with your friend's spells.<else>I'll give you a brief reminder on how to use\nthe tavern. First, ''Register Self''. You will\nbe issued a ''friend spell'' which will contain\n<br>\nyour current approximate strength. Next, you\nwill give the spell to a friend, or friends,\nyou know who are adventuring in Astoltia like\n<br>\nyou are. It doesn't have to be someone you\nknow in person. All adventurers are friends!\nYou can tell people like ''All adventurers are\n<br>\nfriends! Then you can exchange spells with\nyour friends. Nowadays, people tend to\nexchange spells by taking pictures. In the old\n<br>\ndays, these spells used to be handwritten. If\nyou have any spells that your friends have\ntold you about, please come and register them\n<br>\nin the Adventurer's Tavern. Any tavern is\nfine. Once you register, the tavern will\nregister your friends who are stored in the\n<br>\nspells. And here's the important part... have\nyou ever received a ''defeat request form''? You\ncan sometimes get one of these when you kill a\n<br>\nmonster. After registering your friends in the\nTavern, take the ''request form'' and talk to\nthe strike force at the entrance/exit of the\n<br>\nlarger towns. Then you can send a friend from\nthe tavern to help you with the request form.\nThe friend will complete the Request Quest for\n<br>\nyou! When your friend returns after completing\nthe quest, you will receive the reward you\nhave earned! Some of them may be very unique.\n<br>\nWell, that's the basics of how to use the\nTavern and the Request Quest. If you have a\nrequest form, you can register together with\n<br>\nthem when you ''Register Self'', and so on. It\nwould be nice if you could exchange\ninformation on how to use it with your\n<br>\nfriends' spells.<endif>"
   },
   "49822": {
-    "<if_npc_man>「改めて　冒険者の酒場へ　よく来てくれた！\n　あんたのフレンドたちに　依頼書の\n　クエストを　頼めるようにしてやるぜ。<else>「改めて　冒険者の酒場へ　ようこそ！\n　あなたの　フレンドたちに　依頼書の\n　クエストを　頼めるようにしてあげる。<endif>": "<if_npc_man>Once again, welcome to the Adventurer's\nTavern! I'll make sure that your friends get\nthe request form.<else>Once again, welcome to the Adventurer's\nTavern! We'll be happy to help you with your\nrequest form quests.<endif>"
+    "<if_npc_man>「改めて　冒険者の酒場へ　よく来てくれた！\n　あんたのフレンドたちに　依頼書の\n　クエストを　頼めるようにしてやるぜ。<else>「改めて　冒険者の酒場へ　ようこそ！\n　あなたの　フレンドたちに　依頼書の\n　クエストを　頼めるようにしてあげる。<endif>": 
+    "<if_npc_man>Once again, welcome to the Adventurer's\nTavern! I'll make sure that your friends get\nthe request form.<else>Once again, welcome to the Adventurer's\nTavern! We'll be happy to help you with your\nrequest form quests.<endif>"
   },
   "49823": {
-    "<pc>は　<%sEV_SYSMSG_NPC>に\n<%sEV_QUE_NAME4>を　ひとつ　渡した！": "<pc> passed a single <%sEV_QUE_NAME4>\nto <%sEV_SYSMSG_NPC>!"
+    "<pc>は　<%sEV_SYSMSG_NPC>に\n<%sEV_QUE_NAME4>を　ひとつ　渡した！": 
+    "<pc> passed a single <%sEV_QUE_NAME4>\nto <%sEV_SYSMSG_NPC>!"
   },
   "52488": {
-    "「ねえ　あなた。\n　今と違う　新しい自分をイメージして\n　ワクワクドキドキすることって　あるでしょ？\n<br>\n「ハッピーな気持ちは　ラッキーを呼ぶの♪\n　あなたは　ヘアカラーって　ご存じ？\n　髪色を変えて　ステキにイメチェンできるのよ！\n<br>\n「私たち　サロン・フェリシア　グループは\n　美容院一斉オープンに向けて　準備中なんだけど\n　魔法のヘアカラーの　仕上げ素材が足りないの。\n<br>\n「よかったら　美容院オープンのために\n　<%sEV_QUE_NAME0>が　落とす\n　マジカルエッセンスを　取ってきてくれない？": "Hey, you. You know how exciting it is to\nimagine a new you that's different from the\none you're used to? Happier feelings call for\n<br>\ndrang... Do you know what hair coloring is?\nYou can change your hair color and give it a\nbeautiful makeover! We, Salon Fee Lycia Group,\n<br>\nare preparing for the simultaneous opening of\nour salons, but we are short of the finishing\nmaterials for our magic hair color. If you\n<br>\nwould like to help us, could you please get\nthe Magical Essence that <%sEV_QUE_NAME0> will\ndrop off for the opening of the salon?"
+    "「ねえ　あなた。\n　今と違う　新しい自分をイメージして\n　ワクワクドキドキすることって　あるでしょ？\n<br>\n「ハッピーな気持ちは　ラッキーを呼ぶの♪\n　あなたは　ヘアカラーって　ご存じ？\n　髪色を変えて　ステキにイメチェンできるのよ！\n<br>\n「私たち　サロン・フェリシア　グループは\n　美容院一斉オープンに向けて　準備中なんだけど\n　魔法のヘアカラーの　仕上げ素材が足りないの。\n<br>\n「よかったら　美容院オープンのために\n　<%sEV_QUE_NAME0>が　落とす\n　マジカルエッセンスを　取ってきてくれない？": 
+    "Hey, you. You know how exciting it is to\nimagine a new you that's different from the\none you're used to? Happier feelings call for\n<br>\ndrang... Do you know what hair coloring is?\nYou can change your hair color and give it a\nbeautiful makeover! We, Salon Fee Lycia Group,\n<br>\nare preparing for the simultaneous opening of\nour salons, but we are short of the finishing\nmaterials for our magic hair color. If you\n<br>\nwould like to help us, could you please get\nthe Magical Essence that <%sEV_QUE_NAME0> will\ndrop off for the opening of the salon?"
   },
   "52489": {
-    "<attr><feel_happy_lv1><end_attr>「ありがとう！\n　マジカルエッセンスがあれば　魔法のように輝く\n　つややかなヘアカラーを　実現できるの。\n<br>\n「そうそう。<%sEV_QUE_NAME0>は\n　ドワチャッカ大陸の　ゴブル砂漠東や\n　エルトナ大陸の　キリカ草原にいるわ。\n<br>\n「それと　手に入れた　マジカルエッセンスは\n　どの町の美容院に持っていっても　大丈夫よ。\n<br>\n「私たちの美容院が　オープンしたら\n　あなたの髪色も　ステキに変えてあげるわね♪": "<attr><feel_happy_lv1><end_attr>Thank you! With Magical Essence, you'll have\nmagically shining, glossy hair color. Yes,\nyes, yes. You can find <%sev_que_name0> at\n<br>\nGoble Desert East in Dwachakka Continent and\nKirika Steppe in Eltona Continent. Also, you\ncan take the received Magical Essence to any\n<br>\nSalon in any town. When our salon opens, we\nwill change your hair color to a beautiful\ncolor."
+    "<attr><feel_happy_lv1><end_attr>「ありがとう！\n　マジカルエッセンスがあれば　魔法のように輝く\n　つややかなヘアカラーを　実現できるの。\n<br>\n「そうそう。<%sEV_QUE_NAME0>は\n　ドワチャッカ大陸の　ゴブル砂漠東や\n　エルトナ大陸の　キリカ草原にいるわ。\n<br>\n「それと　手に入れた　マジカルエッセンスは\n　どの町の美容院に持っていっても　大丈夫よ。\n<br>\n「私たちの美容院が　オープンしたら\n　あなたの髪色も　ステキに変えてあげるわね♪": 
+    "<attr><feel_happy_lv1><end_attr>Thank you! With Magical Essence, you'll have\nmagically shining, glossy hair color. Yes,\nyes, yes. You can find <%sev_que_name0> at\n<br>\nGoble Desert East in Dwachakka Continent and\nKirika Steppe in Eltona Continent. Also, you\ncan take the received Magical Essence to any\n<br>\nSalon in any town. When our salon opens, we\nwill change your hair color to a beautiful\ncolor."
   },
   "52490": {
-    "<attr><feel_happy_lv1><end_attr>「ありがとう！\n　でも　あなたは今　多くの頼まれごとを\n　抱えているみたいね。\n<br>\n「それらを　すませてから\n　また　声をかけてくれると　うれしいな♪": "<attr><feel_happy_lv1><end_attr>Thank you! But you seem to have a lot of\nrequests right now. I'd be happy to hear from\nyou again when you're done with them."
+    "<attr><feel_happy_lv1><end_attr>「ありがとう！\n　でも　あなたは今　多くの頼まれごとを\n　抱えているみたいね。\n<br>\n「それらを　すませてから\n　また　声をかけてくれると　うれしいな♪": 
+    "<attr><feel_happy_lv1><end_attr>Thank you! But you seem to have a lot of\nrequests right now. I'd be happy to hear from\nyou again when you're done with them."
   },
   "52491": {
-    "「あらそう？　残念ね。\n　私たちの美容院が　オープンしたら\n　あなたの髪色も　ステキに変えてあげるのに。\n<br>\n「魔法のヘアカラーに　興味があったら\n　また　声をかけてくれると　うれしいな♪": "Oh, really? That's too bad. When we open our\nsalon, I'll change your hair color to\nsomething beautiful. If you're interested in\n<br>\nmagic hair color, I'd be happy to hear from\nyou again."
+    "「あらそう？　残念ね。\n　私たちの美容院が　オープンしたら\n　あなたの髪色も　ステキに変えてあげるのに。\n<br>\n「魔法のヘアカラーに　興味があったら\n　また　声をかけてくれると　うれしいな♪": 
+    "Oh, really? That's too bad. When we open our\nsalon, I'll change your hair color to\nsomething beautiful. If you're interested in\n<br>\nmagic hair color, I'd be happy to hear from\nyou again."
   },
   "52492": {
-    "「美容院オープンのために\n　<%sEV_QUE_NAME0>が　落とす\n　マジカルエッセンスを　取ってきてほしいの。<open_irai><bw_break>": "I need you to get the Magical Essence that\n<%sEV_QUE_NAME0> drops for the Salon Open.<open_irai><bw_break>"
+    "「美容院オープンのために\n　<%sEV_QUE_NAME0>が　落とす\n　マジカルエッセンスを　取ってきてほしいの。<open_irai><bw_break>": 
+    "I need you to get the Magical Essence that\n<%sEV_QUE_NAME0> drops for the Salon Open.<open_irai><bw_break>"
   },
   "52493": {
-    "「<%sEV_QUE_NAME0>は\n　ドワチャッカ大陸の　ゴブル砂漠東や\n　エルトナ大陸の　キリカ草原にいるわ。<bw_break>": "<%sEV_QUE_NAME0> is at Goble Desert East in\nDwachakka Continent and Kirika Steppe in\nEltona Continent.<bw_break>"
+    "「<%sEV_QUE_NAME0>は\n　ドワチャッカ大陸の　ゴブル砂漠東や\n　エルトナ大陸の　キリカ草原にいるわ。<bw_break>": 
+    "<%sEV_QUE_NAME0> is at Goble Desert East in\nDwachakka Continent and Kirika Steppe in\nEltona Continent.<bw_break>"
   },
   "52494": {
-    "<close_irai>「それと　手に入れた　マジカルエッセンスは\n　どの町の美容院に持っていっても　大丈夫よ。\n<br>\n「私たちの美容院が　オープンしたら\n　あなたの髪色も　ステキに変えてあげるわね♪": "<close_irai>And you can take the received Magical Essence\nto any salon in any town. When our salon\nopens, I'll change your hair color to a\n<br>\nbeautiful one."
+    "<close_irai>「それと　手に入れた　マジカルエッセンスは\n　どの町の美容院に持っていっても　大丈夫よ。\n<br>\n「私たちの美容院が　オープンしたら\n　あなたの髪色も　ステキに変えてあげるわね♪": 
+    "<close_irai>And you can take the received Magical Essence\nto any salon in any town. When our salon\nopens, I'll change your hair color to a\n<br>\nbeautiful one."
   },
   "52495": {
-    "「もしかして　<%sEV_QUE_NAME0>から\n　マジカルエッセンスを\n　取ってきてくれたのかしら？": "I wonder if maybe you got Magical Essence from\n<%sEV_QUE_NAME0>?"
+    "「もしかして　<%sEV_QUE_NAME0>から\n　マジカルエッセンスを\n　取ってきてくれたのかしら？": 
+    "I wonder if maybe you got Magical Essence from\n<%sEV_QUE_NAME0>?"
   },
   "52496": {
-    "「あら　ごめんなさい。\n　私ってば　早とちりしちゃったみたい。\n　でも　できるだけ早く　持ってきてね♪": "Oh, I'm sorry. I guess I jumped the gun. But\nplease bring it back as soon as possible."
+    "「あら　ごめんなさい。\n　私ってば　早とちりしちゃったみたい。\n　でも　できるだけ早く　持ってきてね♪": 
+    "Oh, I'm sorry. I guess I jumped the gun. But\nplease bring it back as soon as possible."
   },
   "52497": {
-    "<attr><feel_happy_lv2><end_attr>「ああ！　これでついに　私たちの夢……\n　美容院　サロン・フェリシアをオープンできる。\n　あなたのおかげよ。ありがとう！": "<attr><feel_happy_lv2><end_attr>Ah! Now we can finally open our dream Salon\nSalon Fe Lycia. Thanks to you. Thank you!"
+    "<attr><feel_happy_lv2><end_attr>「ああ！　これでついに　私たちの夢……\n　美容院　サロン・フェリシアをオープンできる。\n　あなたのおかげよ。ありがとう！": 
+    "<attr><feel_happy_lv2><end_attr>Ah! Now we can finally open our dream Salon\nSalon Fe Lycia. Thanks to you. Thank you!"
   },
   "52498": {
-    "<attr><feel_happy_lv1><end_attr>「ねえ　せっかくだから　私たちが開発した\n　魔法のヘアカラーを　試していかない？\n　今回に限り　無料でやってあげるわよ♪<yesno><break>": "<attr><feel_happy_lv1><end_attr>Hey, since we're here, why don't you try the\nmagic hair color we've developed? For this one\ntime only, we'll do it for free.<yesno><break>"
+    "<attr><feel_happy_lv1><end_attr>「ねえ　せっかくだから　私たちが開発した\n　魔法のヘアカラーを　試していかない？\n　今回に限り　無料でやってあげるわよ♪<yesno><break>": 
+    "<attr><feel_happy_lv1><end_attr>Hey, since we're here, why don't you try the\nmagic hair color we've developed? For this one\ntime only, we'll do it for free.<yesno><break>"
   },
   "52499": {
-    "<attr><feel_happy_lv2><end_attr>「オッケー　まかせてっ！\n　あなたの髪色を　魔法のようにキラリと変えて\n　ステキに　イメチェンしてあげる♪\n<br>\n「新しい自分を　イメージしてみて。\n　なりたいカラーを　選んでくれるかしら？": "<attr><feel_happy_lv2><end_attr>Okay, I'll leave it to you! Let Kirari\nmagically change your hair color and give you\na beautiful makeover. Will you choose the\n<br>\ncolor you want to be?"
+    "<attr><feel_happy_lv2><end_attr>「オッケー　まかせてっ！\n　あなたの髪色を　魔法のようにキラリと変えて\n　ステキに　イメチェンしてあげる♪\n<br>\n「新しい自分を　イメージしてみて。\n　なりたいカラーを　選んでくれるかしら？": 
+    "<attr><feel_happy_lv2><end_attr>Okay, I'll leave it to you! Let Kirari\nmagically change your hair color and give you\na beautiful makeover. Will you choose the\n<br>\ncolor you want to be?"
   },
   "52500": {
-    "<attr><feel_happy_lv3><end_attr>「ステキっ！　とっても似合っているわ。\n　やっぱり　マジカルエッセンスを仕上げに使うと\n　髪のつやと　輝きが違うわね。\n<br>\n「ほら　なんだか　ワクワクドキドキ\n　ハッピーな気持ちに　なってきたでしょ♪<bw_break>": "<attr><feel_happy_lv3><end_attr>It's beautiful! It looks great on you. I knew\nusing Magical Essence as a finishing touch\nwould give my hair a different shine and\n<br>\nluster. See? You're starting to feel excited\nand happy, aren't you?<bw_break>"
+    "<attr><feel_happy_lv3><end_attr>「ステキっ！　とっても似合っているわ。\n　やっぱり　マジカルエッセンスを仕上げに使うと\n　髪のつやと　輝きが違うわね。\n<br>\n「ほら　なんだか　ワクワクドキドキ\n　ハッピーな気持ちに　なってきたでしょ♪<bw_break>": 
+    "<attr><feel_happy_lv3><end_attr>It's beautiful! It looks great on you. I knew\nusing Magical Essence as a finishing touch\nwould give my hair a different shine and\n<br>\nluster. See? You're starting to feel excited\nand happy, aren't you?<bw_break>"
   },
   "52501": {
-    "「後からだと　代金をいただくことになるけど\n　それでも　本当に　今やらなくてもいいの？<yesno><break>": "I know I'll have to charge you for it later,\nbut still, do you really have to do it now?<yesno><break>"
+    "「後からだと　代金をいただくことになるけど\n　それでも　本当に　今やらなくてもいいの？<yesno><break>": 
+    "I know I'll have to charge you for it later,\nbut still, do you really have to do it now?<yesno><break>"
   },
   "52502": {
-    "「今の髪色が　気に入っているのね。\n　わかるわ。とっても似合っているもの。\n<br>\n「もし　イメチェンしたくなったら\n　次回からは　お客さまとして来てね。\n　あなたの髪色も　ステキに変えてあげるわね♪<bw_break>": "You like your hair color now. I can see why.\nIt looks great on you. If you ever want a\nmakeover, come to me as a client next time.\n<br>\nAnd I'll give you a beautiful change of color.<bw_break>"
+    "「今の髪色が　気に入っているのね。\n　わかるわ。とっても似合っているもの。\n<br>\n「もし　イメチェンしたくなったら\n　次回からは　お客さまとして来てね。\n　あなたの髪色も　ステキに変えてあげるわね♪<bw_break>": 
+    "You like your hair color now. I can see why.\nIt looks great on you. If you ever want a\nmakeover, come to me as a client next time.\n<br>\nAnd I'll give you a beautiful change of color.<bw_break>"
   },
   "52503": {
-    "「あら。やっぱり　今\n　魔法のヘアカラーを試していくのね。<bw_break>": "Oops. I knew you were going to try the magic\nhair color now.<bw_break>"
+    "「あら。やっぱり　今\n　魔法のヘアカラーを試していくのね。<bw_break>": 
+    "Oops. I knew you were going to try the magic\nhair color now.<bw_break>"
   },
   "52504": {
-    "「それでは　ここに　冒険者をハッピーにして\n　ラッキーを呼ぶ美容院　サロン・フェリシア\n　オープンさせて　いただきますっ！": "Now then, I am pleased to open Salon Fe Lycia,\na salon that makes adventurers happy and calls\nthem Drang!"
+    "「それでは　ここに　冒険者をハッピーにして\n　ラッキーを呼ぶ美容院　サロン・フェリシア\n　オープンさせて　いただきますっ！": 
+    "Now then, I am pleased to open Salon Fe Lycia,\na salon that makes adventurers happy and calls\nthem Drang!"
   },
   "52505": {
-    "<attr><feel_happy_lv2><end_attr>「ああ！　これでついに　私たちの夢……\n　美容院　サロン・フェリシアをオープンできる。\n　あなたのおかげよ。ありがとう！\n<br>\n「これを　受け取って。\n　私たちからの　ささやかなお礼よ♪": "<attr><feel_happy_lv2><end_attr>Ah! Now we can finally open our dream Salon\nSalon Fe Lycia. Thanks to you. Thank you! Take\nthis. It's our small way of saying thank you."
+    "<attr><feel_happy_lv2><end_attr>「ああ！　これでついに　私たちの夢……\n　美容院　サロン・フェリシアをオープンできる。\n　あなたのおかげよ。ありがとう！\n<br>\n「これを　受け取って。\n　私たちからの　ささやかなお礼よ♪": 
+    "<attr><feel_happy_lv2><end_attr>Ah! Now we can finally open our dream Salon\nSalon Fe Lycia. Thanks to you. Thank you! Take\nthis. It's our small way of saying thank you."
   },
   "52506": {
-    "「ヘアカラー以外にも　ヘアスタイルから\n　お顔のイメチェンまで　美容に関する\n　いろんなサービスを　用意しているわよ。\n<br>\n「カラーだって　どんどん増やしていきたいわ。\n　私たちの仲間が　各地で新色を研究してるから\n　見かけたら　声をかけてくれると　うれしいな♪\n<br>\n「じゃあ　イメチェンしたくなったら\n　いつでもサロン・フェリシアに　遊びにきてね。\n　待ってるわ♪": "Besides hair coloring, we offer a variety of\nother services related to beauty, from\nhairstyling to face makeovers. We'll be adding\n<br>\nmore and more colors to our lineup. Our\ncompanions are researching new colors at\nvarious locations, so if you see us, we'd love\n<br>\nto hear from you. We'll be waiting for you."
+    "「ヘアカラー以外にも　ヘアスタイルから\n　お顔のイメチェンまで　美容に関する\n　いろんなサービスを　用意しているわよ。\n<br>\n「カラーだって　どんどん増やしていきたいわ。\n　私たちの仲間が　各地で新色を研究してるから\n　見かけたら　声をかけてくれると　うれしいな♪\n<br>\n「じゃあ　イメチェンしたくなったら\n　いつでもサロン・フェリシアに　遊びにきてね。\n　待ってるわ♪": 
+    "Besides hair coloring, we offer a variety of\nother services related to beauty, from\nhairstyling to face makeovers. We'll be adding\n<br>\nmore and more colors to our lineup. Our\ncompanions are researching new colors at\nvarious locations, so if you see us, we'd love\n<br>\nto hear from you. We'll be waiting for you."
   },
   "52507": {
-    "マジカルエッセンスを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": "Would you like me to give you a Magical\nEssence?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "マジカルエッセンスを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
+    "Would you like me to give you a Magical\nEssence?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "52508": {
-    "<pc>は\nマジカルエッセンスを　渡した！": "<pc> gave Magical Essence!"
+    "<pc>は\nマジカルエッセンスを　渡した！": 
+    "<pc> gave Magical Essence!"
   },
   "94511": {
-    "今すぐ　試練の魔物が待つ\nリンジャの塔の中へ　行きますか？<yesno_nc><case 1><break><case 2><close><case_end>": "Would you like to go inside Rinja Tower where\ntrial monsters are waiting for you right now?<yesno_nc><case 1><break><case 2><close><case_end>"
+    "今すぐ　試練の魔物が待つ\nリンジャの塔の中へ　行きますか？<yesno_nc><case 1><break><case 2><close><case_end>": 
+    "Would you like to go inside Rinja Tower where\ntrial monsters are waiting for you right now?<yesno_nc><case 1><break><case 2><close><case_end>"
   },
   "94512": {
-    "<pc>は　リンジャの塔に向かった。<se_nots map_common map_jamp>": "<pc> headed for Rinja Tower.<se_nots map_common map_jamp>"
+    "<pc>は　リンジャの塔に向かった。<se_nots map_common map_jamp>": 
+    "<pc> headed for Rinja Tower.<se_nots map_common map_jamp>"
   },
   "86564": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まったく　輝きを放っていない。\n輝きで満たすために　レンダーシアの\n３つの村や町を　訪れてみよう。": "<pc> took a moment to ponder the\nPendulum of Fate. The pendulum is not shining\nat all. Let's visit the three villages and\n<br>\ntowns of Lendersia to fill them with\nbrilliance."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まったく　輝きを放っていない。\n輝きで満たすために　レンダーシアの\n３つの村や町を　訪れてみよう。": 
+    "<pc> took a moment to ponder the\nPendulum of Fate. The pendulum is not shining\nat all. Let's visit the three villages and\n<br>\ntowns of Lendersia to fill them with\nbrilliance."
   },
   "86565": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　かすかに　輝いている。\n振り子を　さらなる輝きで満たすために\n他の地域を　訪れてみよう。": "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is shining\nfaintly. Let's visit other areas to fill the\n<br>\npendulum with even more brilliance."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　かすかに　輝いている。\n振り子を　さらなる輝きで満たすために\n他の地域を　訪れてみよう。": 
+    "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is shining\nfaintly. Let's visit other areas to fill the\n<br>\npendulum with even more brilliance."
   },
   "87899": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　しっかり　輝いている。\nグランゼドーラ城２階の　ルシェンダの所に戻り\n一度　状況を報告したほうが　よさそうだ。": "<pc> takes a closer look at the\nPendulum of Fate. It seems that I should\nreturn to Lushenda on the second floor of Gran\n<br>\nZedora Castle and report the situation once\nagain."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　しっかり　輝いている。\nグランゼドーラ城２階の　ルシェンダの所に戻り\n一度　状況を報告したほうが　よさそうだ。": 
+    "<pc> takes a closer look at the\nPendulum of Fate. It seems that I should\nreturn to Lushenda on the second floor of Gran\n<br>\nZedora Castle and report the situation once\nagain."
   },
   "87900": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　キラキラと　輝いている。\n完全な輝きを　放つようになるには\nあと少し　チカラが必要なようだ。": "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is sparkling.\nIt seems that it needs a little more power to\n<br>\nshine in its full glory."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　キラキラと　輝いている。\n完全な輝きを　放つようになるには\nあと少し　チカラが必要なようだ。": 
+    "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is sparkling.\nIt seems that it needs a little more power to\n<br>\nshine in its full glory."
   },
   "87901": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まばゆい輝きを　放っている。\nグランゼドーラ城２階の\nルシェンダの所に戻って　報告しよう。": "<pc> takes a long look at the\nPendulum of Fate. I shall return to Lushenda\non the second floor of Gran Zedora Castle and\n<br>\nreport back."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まばゆい輝きを　放っている。\nグランゼドーラ城２階の\nルシェンダの所に戻って　報告しよう。": 
+    "<pc> takes a long look at the\nPendulum of Fate. I shall return to Lushenda\non the second floor of Gran Zedora Castle and\n<br>\nreport back."
   },
   "89605": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まったく　輝きを放っていない。": "<pc> took a moment to ponder the\nPendulum of Fate. The pendulum is not shining\nat all."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まったく　輝きを放っていない。": 
+    "<pc> took a moment to ponder the\nPendulum of Fate. The pendulum is not shining\nat all."
   },
   "98997": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まったく　輝きを放っていない。\n輝きで満たすために　レンダーシアの各地を\n訪れてみよう。": "<pc> took a moment to ponder the\nPendulum of Fate. The pendulum is not shining\nat all. Let's visit the various parts of\n<br>\nLendersia to fill it with brilliance."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まったく　輝きを放っていない。\n輝きで満たすために　レンダーシアの各地を\n訪れてみよう。": 
+    "<pc> took a moment to ponder the\nPendulum of Fate. The pendulum is not shining\nat all. Let's visit the various parts of\n<br>\nLendersia to fill it with brilliance."
   },
   "98998": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　かすかに　輝いている。\n振り子を　さらなる輝きで満たすために\nレンダーシアの各地を　訪れてみよう。": "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is shining\nfaintly. Let's visit the various places in\n<br>\nLendersia to fill the pendulum with even more\nbrilliance."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　かすかに　輝いている。\n振り子を　さらなる輝きで満たすために\nレンダーシアの各地を　訪れてみよう。": 
+    "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is shining\nfaintly. Let's visit the various places in\n<br>\nLendersia to fill the pendulum with even more\nbrilliance."
   },
   "98999": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　しっかり　輝いている。\n振り子を　さらなる輝きで満たすために\nレンダーシアの各地を　訪れてみよう。": "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is shining\nbrightly. Let's visit the various places in\n<br>\nLendersia to fill the pendulum with even more\nbrilliance."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　しっかり　輝いている。\n振り子を　さらなる輝きで満たすために\nレンダーシアの各地を　訪れてみよう。": 
+    "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is shining\nbrightly. Let's visit the various places in\n<br>\nLendersia to fill the pendulum with even more\nbrilliance."
   },
   "99000": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　キラキラと　輝いている。\n完全な輝きを　放つようになるには\nあと少し　チカラが必要なようだ。": "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is sparkling.\nIt seems that it needs a little more power to\n<br>\nshine in its full glory."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　キラキラと　輝いている。\n完全な輝きを　放つようになるには\nあと少し　チカラが必要なようだ。": 
+    "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is sparkling.\nIt seems that it needs a little more power to\n<br>\nshine in its full glory."
   },
   "99001": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まばゆい輝きを　放っている。\nグランゼドーラ城２階の\nルシェンダの所に戻って　報告しよう。": "<pc> takes a long look at the\nPendulum of Fate. I shall return to Lushenda\non the second floor of Gran Zedora Castle and\n<br>\nreport back."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まばゆい輝きを　放っている。\nグランゼドーラ城２階の\nルシェンダの所に戻って　報告しよう。": 
+    "<pc> takes a long look at the\nPendulum of Fate. I shall return to Lushenda\non the second floor of Gran Zedora Castle and\n<br>\nreport back."
   },
   "99002": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まったく　輝きを放っていない。": "<pc> took a moment to ponder the\nPendulum of Fate. The pendulum is not shining\nat all."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まったく　輝きを放っていない。": 
+    "<pc> took a moment to ponder the\nPendulum of Fate. The pendulum is not shining\nat all."
   },
   "99003": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まったく　輝きを放っていない。\n輝きで満たすために　何をすればよいのか\nルシェンダに　聞いてみよう。": "<pc> took a moment to ponder the\nPendulum of Fate. The pendulum is not shining\nat all. Let's ask Lushenda what we can do to\n<br>\nfill it with brilliance."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まったく　輝きを放っていない。\n輝きで満たすために　何をすればよいのか\nルシェンダに　聞いてみよう。": 
+    "<pc> took a moment to ponder the\nPendulum of Fate. The pendulum is not shining\nat all. Let's ask Lushenda what we can do to\n<br>\nfill it with brilliance."
   },
   "99004": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まったく　輝きを放っていない。\n輝きで満たすために　勇者姫アンルシアに\n破邪の秘技を会得させ　神の緋石を守ろう。": "<pc> took a moment to ponder the\nPendulum of Fate. The pendulum was not shining\nat all. To fill it with brilliance, he would\n<br>\nhave Hero Princess Anlucia gain the Sacred\nSkill and protect the Divine Crimsonite."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まったく　輝きを放っていない。\n輝きで満たすために　勇者姫アンルシアに\n破邪の秘技を会得させ　神の緋石を守ろう。": 
+    "<pc> took a moment to ponder the\nPendulum of Fate. The pendulum was not shining\nat all. To fill it with brilliance, he would\n<br>\nhave Hero Princess Anlucia gain the Sacred\nSkill and protect the Divine Crimsonite."
   },
   "99005": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　かすかに　輝いている。\nさらなる輝きで満たすため　勇者姫アンルシアに\n破邪の秘技を会得させ　神の緋石を守ろう。": "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is glowing\nfaintly. To fill it with even more brilliance,\n<br>\nHero Princess Anlucia is given the Sacred\nSkill to protect the Divine Crimsonite."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　かすかに　輝いている。\nさらなる輝きで満たすため　勇者姫アンルシアに\n破邪の秘技を会得させ　神の緋石を守ろう。": 
+    "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is glowing\nfaintly. To fill it with even more brilliance,\n<br>\nHero Princess Anlucia is given the Sacred\nSkill to protect the Divine Crimsonite."
   },
   "99006": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　しっかり　輝いている。\nさらなる輝きで満たすため　神の緋石を探しだし\n魔の者から　守り抜こう。": "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is shining\nbrightly. Let us find the Divine Crimsonite to\n<br>\nfill it with even more brilliance and protect\nit from the evil one."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　しっかり　輝いている。\nさらなる輝きで満たすため　神の緋石を探しだし\n魔の者から　守り抜こう。": 
+    "<pc> takes a moment to ponder the\nPendulum of Fate. The pendulum is shining\nbrightly. Let us find the Divine Crimsonite to\n<br>\nfill it with even more brilliance and protect\nit from the evil one."
   },
   "99007": {
-    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まばゆい輝きを　放っている。\nグランゼドーラ城２階の\nルシェンダの所に戻って　報告しよう。": "<pc> takes a long look at the\nPendulum of Fate. I shall return to Lushenda\non the second floor of Gran Zedora Castle and\n<br>\nreport back."
+    "<pc>は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まばゆい輝きを　放っている。\nグランゼドーラ城２階の\nルシェンダの所に戻って　報告しよう。": 
+    "<pc> takes a long look at the\nPendulum of Fate. I shall return to Lushenda\non the second floor of Gran Zedora Castle and\n<br>\nreport back."
   }
 }

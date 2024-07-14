@@ -1,101 +1,134 @@
 {
   "205322": {
-    "賢者ホーローによって　封印されている。\n今は　先へは　進めないようだ。": "It has been sealed by Sage Hollow. It seems we\ncan't go any further now."
+    "賢者ホーローによって　封印されている。\n今は　先へは　進めないようだ。": 
+    "It has been sealed by Sage Hollow. It seems we\ncan't go any further now."
   },
   "205749": {
-    "扉には　カギが　かかっているようだ。": "The door seems to be locked."
+    "扉には　カギが　かかっているようだ。": 
+    "The door seems to be locked."
   },
   "205750": {
-    "扉には　カギが　かかっている。\n持っている　パルミオのカギが　合いそうだ。\nパルミオのカギを　使いますか？<yesno><case 1><break><case 2><close><case_cancel><close>": "The door is locked. The key I have seems to\nfit.<yesno><case 1><break><case 2><close><case_cancel><close>"
+    "扉には　カギが　かかっている。\n持っている　パルミオのカギが　合いそうだ。\nパルミオのカギを　使いますか？<yesno><case 1><break><case 2><close><case_cancel><close>": 
+    "The door is locked. The key I have seems to\nfit.<yesno><case 1><break><case 2><close><case_cancel><close>"
   },
   "205751": {
-    "<pc>は　パルミオのカギを使い\n魔瘴調査区画へと　入っていった。<se_nots Joutyu_SE 57>": "<pc> used Palmio's Key to enter the\nMiasma Survey Area.<se_nots Joutyu_SE 57>"
+    "<pc>は　パルミオのカギを使い\n魔瘴調査区画へと　入っていった。<se_nots Joutyu_SE 57>": 
+    "<pc> used Palmio's Key to enter the\nMiasma Survey Area.<se_nots Joutyu_SE 57>"
   },
   "206053": {
-    "<center>！　注意　！\n<br>\nこの奥は　濃密な魔瘴が発生しているため\nたいへん　危険です。\n許可なき立ち入りは　禁止されています。\n<br>\n緊急の場合は　賢者エイドス様に　お願いし\nしぐさ『聖別の詩歌』で　魔瘴を封じてから\n調査に　向かってください。\n<br>\nしぐさ『聖別の詩歌』は　すでに　覚えている。\nさくせんコマンド　キャラ設定の\nよく使うセリフ設定から　選んで　使おう。": "Attention! Caution! This area is very\ndangerous because of the dense demon miasma.\nEntry without permission is prohibited. In\n<br>\ncase of emergency, please ask Sage Eidos to\nseal the demon miasma with the note ''Holy\nPoetry'' before proceeding to investigate. You\n<br>\nhave already memorized the note ''Holy Poetry''\nand can use it by selecting it from the Misc.\ncommand Character Settings."
+    "<center>！　注意　！\n<br>\nこの奥は　濃密な魔瘴が発生しているため\nたいへん　危険です。\n許可なき立ち入りは　禁止されています。\n<br>\n緊急の場合は　賢者エイドス様に　お願いし\nしぐさ『聖別の詩歌』で　魔瘴を封じてから\n調査に　向かってください。\n<br>\nしぐさ『聖別の詩歌』は　すでに　覚えている。\nさくせんコマンド　キャラ設定の\nよく使うセリフ設定から　選んで　使おう。": 
+    "<center>Attention! Caution! This area is very\ndangerous because of the dense demon miasma.\nEntry without permission is prohibited. In\n<br>\ncase of emergency, please ask Sage Eidos to\nseal the demon miasma with the note ''Holy\nPoetry'' before proceeding to investigate. You\n<br>\nhave already memorized the note ''Holy Poetry''\nand can use it by selecting it from the Misc.\ncommand Character Settings."
   },
   "206054": {
-    "強い　魔瘴が　たちこめている……。\n魔瘴を封じなければ　先に　進めないようだ。\nしぐさ『聖別の詩歌』を　してみよう！\n<br>\nしぐさ『聖別の詩歌』を　行うには\nさくせんコマンドの　キャラ設定で\nよく使うセリフ設定から　登録し　使ってみよう！": "We need to use the ''Holy Poetry'' command! To\nuse ''Holy Poetry'', register your favorite\nlines in the character settings of the Misc.\n<br>\ncommand and use them!"
+    "強い　魔瘴が　たちこめている……。\n魔瘴を封じなければ　先に　進めないようだ。\nしぐさ『聖別の詩歌』を　してみよう！\n<br>\nしぐさ『聖別の詩歌』を　行うには\nさくせんコマンドの　キャラ設定で\nよく使うセリフ設定から　登録し　使ってみよう！": 
+    "We need to use the ''Holy Poetry'' command! To\nuse ''Holy Poetry'', register your favorite\nlines in the character settings of the Misc.\n<br>\ncommand and use them!"
   },
   "206055": {
-    "<pc>は　『聖別の詩歌』を　歌った！": "<pc> sang ''Holy Poetry''!"
+    "<pc>は　『聖別の詩歌』を　歌った！": 
+    "<pc> sang ''Holy Poetry''!"
   },
   "206056": {
-    "地面に　不思議な装置がある……。": "There is a strange device on the ground."
+    "地面に　不思議な装置がある……。": 
+    "There is a strange device on the ground..."
   },
   "206057": {
-    "<pipipi_shigh>「現在　転送装置は　稼働中です。\n　地底への転送を　ご希望ですか？<yesno><close>": "<pipipi_shigh>The transporter is currently in operation.\nWould you like to be transported to the bottom\nof the earth?<yesno><close>"
+    "<pipipi_shigh>「現在　転送装置は　稼働中です。\n　地底への転送を　ご希望ですか？<yesno><close>": 
+    "<pipipi_shigh>The transporter is currently in operation.\nWould you like to be transported to the bottom\nof the earth?<yesno><close>"
   },
   "206058": {
-    "<pipipi_shigh>「アルウェーン　名誉市民　<pc>さんの\n　市民登録を　確認いたしました。\n　扉の　ロックを解除いたします。": "<pipipi_shigh>We have confirmed the civil registration of\nHonorary Citizen Alweyn <pc>. The\ndoor is now unlocked."
+    "<pipipi_shigh>「アルウェーン　名誉市民　<pc>さんの\n　市民登録を　確認いたしました。\n　扉の　ロックを解除いたします。": 
+    "<pipipi_shigh>We have confirmed the civil registration of\nHonorary Citizen Alweyn <pc>. The\ndoor is now unlocked."
   },
   "206059": {
-    "知理の石版を　かざしてみますか？<yesno><case 1><break><case 2><close><case_cancel><close>": "Would you like to hold up your Wisdom Tablet?<yesno><case 1><break><case 2><close><case_cancel><close>"
+    "知理の石版を　かざしてみますか？<yesno><case 1><break><case 2><close><case_cancel><close>": 
+    "Would you like to hold up your Wisdom Tablet?<yesno><case 1><break><case 2><close><case_cancel><close>"
   },
   "206060": {
-    "賢者ホーローの封印が　解けた！": "The seal of Sage Hollow was broken!"
+    "賢者ホーローの封印が　解けた！": 
+    "The seal of Sage Hollow was broken!"
   },
   "206061": {
-    "<pipipi_shigh>「魔瘴調査区画・最深部への扉の\n　セキュリティを　解除しました。": "<pipipi_shigh>The security of the door to the Miasma Survey\nArea and depths has been dismantled."
+    "<pipipi_shigh>「魔瘴調査区画・最深部への扉の\n　セキュリティを　解除しました。": 
+    "<pipipi_shigh>The security of the door to the Miasma Survey\nArea and depths has been dismantled."
   },
   "206062": {
-    "扉は　かたく閉ざされている……。<bw_break>": "The door has been stubbornly closed.<bw_break>"
+    "扉は　かたく閉ざされている……。<bw_break>": 
+    "The door is locked up tight...<bw_break>"
   },
   "206063": {
-    "なんと　知理の石版が　突然　光りだした！": "The Wisdom Tablet suddenly started glowing!"
+    "なんと　知理の石版が　突然　光りだした！": 
+    "The Wisdom Tablet suddenly started glowing!"
   },
   "206064": {
-    "<pipipi_shigh>「現在　転送装置は　停止中です。\n　稼働させるためには　管理タブレットにて\n　この端末を操作し　稼働状態にしてください。": "<pipipi_shigh>The transfer device is currently stopped. To\nactivate it, please use the Management Taburet\nto operate this terminal and put it into\n<br>\noperation."
+    "<pipipi_shigh>「現在　転送装置は　停止中です。\n　稼働させるためには　管理タブレットにて\n　この端末を操作し　稼働状態にしてください。": 
+    "<pipipi_shigh>The transfer device is currently stopped. To\nactivate it, please use the Management Taburet\nto operate this terminal and put it into\n<br>\noperation."
   },
   "206065": {
-    "<pc>は　知理の石版を　かざした！": "<pc> held up the Wisdom Tablet!"
+    "<pc>は　知理の石版を　かざした！": 
+    "<pc> held up the Wisdom Tablet!"
   },
   "206066": {
-    "<pipipi_shigh>「管理者権限での　アクセスを認識。\n　……全システム復帰。\n　……転送装置　稼働再開。": "<pipipi_shigh>Recognized access with administrative\nprivileges. All systems are restored. Transfer\nequipment resumes operation."
+    "<pipipi_shigh>「管理者権限での　アクセスを認識。\n　……全システム復帰。\n　……転送装置　稼働再開。": 
+    "<pipipi_shigh>Recognized access with administrative\nprivileges. All systems are restored. Transfer\nequipment resumes operation."
   },
   "206067": {
-    "<center>！　特別通信　！<se_nots S4_FOR8_001 2>": "Special Communication! Special Correspondence\n!<se_nots S4_FOR8_001 2>"
+    "<center>！　特別通信　！<se_nots S4_FOR8_001 2>": 
+    "<center>Special Communication! Special Correspondence\n!<se_nots S4_FOR8_001 2>"
   },
   "206069": {
-    "<center>！　特別通信　！<se_nots S4_FOR8_001 2>": "Special Communication! Special Correspondence\n!<se_nots S4_FOR8_001 2>"
+    "<center>！　特別通信　！<se_nots S4_FOR8_001 2>": 
+    "<center>Special Communication! Special Correspondence\n!<se_nots S4_FOR8_001 2>"
   },
   "206070": {
-    "地面に　不思議な装置が　ある……。": "There is a strange device on the ground."
+    "地面に　不思議な装置が　ある……。": 
+    "There is a strange device on the ground..."
   },
   "206071": {
-    "<pipipi_shigh>「現在　転送装置は　稼働中です。\n　上層への転送を　ご希望ですか？<yesno><close>": "<pipipi_shigh>The transporter is currently in operation.\nWould you like to transfer to the upper level?<yesno><close>"
+    "<pipipi_shigh>「現在　転送装置は　稼働中です。\n　上層への転送を　ご希望ですか？<yesno><close>": 
+    "<pipipi_shigh>The transporter is currently in operation.\nWould you like to transfer to the upper level?<yesno><close>"
   },
   "206073": {
-    "<pipipi_shigh>「アルウェーン　名誉市民　<pc>さんの\n　市民登録を　確認いたしました。\n　扉の　ロックを解除いたします。": "<pipipi_shigh>We have confirmed the civil registration of\nHonorary Citizen Alweyn <pc>. The\ndoor is now unlocked."
+    "<pipipi_shigh>「アルウェーン　名誉市民　<pc>さんの\n　市民登録を　確認いたしました。\n　扉の　ロックを解除いたします。": 
+    "<pipipi_shigh>We have confirmed the civil registration of\nHonorary Citizen Alweyn <pc>. The\ndoor is now unlocked."
   },
   "206115": {
-    "扉は　かたく閉ざされている。\n知理の石版にも　反応しないようだ。": "The door has been stubbornly closed and does\nnot seem to respond to the Wisdom Tablet."
+    "扉は　かたく閉ざされている。\n知理の石版にも　反応しないようだ。": 
+    "The door has been stubbornly closed and does\nnot seem to respond to the Wisdom Tablet."
   },
   "206120": {
-    "<pipipi_low>「聞こえるか　<pc>よ。\n　わしじゃ　ホーローじゃよ。\n<br>\n「今こそ　知理の石版と　ともに\n　増殖する魔獣と　戦うべき時じゃ！\n　さあ　封印を解いてやろう……。": "<pipipi_low>Do you hear me, <pc>? I am Hollow.\nNow is the time to fight the Wisdom Tablet and\nthe growing number of demonic beasts! Come,\n<br>\nlet us break the seal."
+    "<pipipi_low>「聞こえるか　<pc>よ。\n　わしじゃ　ホーローじゃよ。\n<br>\n「今こそ　知理の石版と　ともに\n　増殖する魔獣と　戦うべき時じゃ！\n　さあ　封印を解いてやろう……。": 
+    "<pipipi_low>Do you hear me, <pc>? I am Hollow.\nNow is the time to fight the Wisdom Tablet and\nthe growing number of demonic beasts! Come,\n<br>\nlet us break the seal."
   },
   "206121": {
-    "<pipipi_low>「ではな　<pc>よ。\n　のちほど　魔獣のもとで　会おう！": "<pipipi_low>See you <pc>. I'll see you later at\nthe hexenbiest's!"
+    "<pipipi_low>「ではな　<pc>よ。\n　のちほど　魔獣のもとで　会おう！": 
+    "<pipipi_low>See you <pc>. I'll see you later at\nthe hexenbiest's!"
   },
   "206124": {
-    "あたりに　満ちていた\n魔瘴の気配が　消え去っていく……！": "The presence of demon miasma that had filled\nthe area disappeared!"
+    "あたりに　満ちていた\n魔瘴の気配が　消え去っていく……！": 
+    "The presence of demon miasma that had filled\nthe area disappeared...!"
   },
   "206125": {
-    "<pc>は　魔瘴封じの儀式に　成功した！\n魔瘴調査区画の先に　進めるようになった！<me 71>": "<pc> has succeeded in the demon\nmiasma containment ritual!<me 71>"
+    "<pc>は　魔瘴封じの儀式に　成功した！\n魔瘴調査区画の先に　進めるようになった！<me 71>": 
+    "<pc> has succeeded in the demon\nmiasma containment ritual!<me 71>"
   },
   "207314": {
-    "<pipipi_mid>「ひさしぶりだね　<pc>……。\n　ボクだよ　プクラスだ。\n<br>\n「キミと　増殖獣バイロゴーグの戦いを\n　手助けできればと　思って　６０００年後のため\n　この部屋を　用意しておいたんだ。\n<br>\n「奥の扉から進めば　魔獣との戦いになる。\n　もし　戦いの準備を　ととのえたいなら\n　中央の転送装置から　入り口近くへ　戻れるよ。\n<br>\n「くれぐれも　魔獣の増殖機能を\n　その管理タブレット……知理の石版で\n　停止させてから戦うのを　忘れないようにね。\n<br>\n「……キミが　あの魔獣を倒し　アストルティアを\n　救ってくれたら　未来のアルウェーンも\n　今度こそ　救われるかもしれない。\n<br>\n「もう　二度と　会うことのできない\n　アルウェーン市民や　複製体たちのために……\n　どうか　ヤツを倒してくれ　<pc>。\n<br>\n「それじゃ　がんばって……。\n　キミの勝利を　祈っているよ……。": "<pipipi_mid>Long time no see <pc>. It's me,\nPukulas. I've prepared this room for the next\n6000 years in the hope that I can help you\n<br>\nfight the Multiplying Beast Biologog. If you\ngo through the back door, you'll be fighting a\nhexenbiest. If you want to get ready for\n<br>\nbattle, you can use the transporter in the\ncenter to go back near the entrance. Remember\nto use the Taburet Wisdom Tablet to stop the\n<br>\ngrowth of the hexenbiest before you fight it.\nIf you defeat the hexenbiest and save\nAstoltia, the future Alweyn may be saved this\n<br>\ntime. For the sake of the citizens of Alweyn\nand its duplicates, whom we will never see\nagain, please defeat him <pc>. Good\n<br>\nluck. I'm praying for your victory."
+    "<pipipi_mid>「ひさしぶりだね　<pc>……。\n　ボクだよ　プクラスだ。\n<br>\n「キミと　増殖獣バイロゴーグの戦いを\n　手助けできればと　思って　６０００年後のため\n　この部屋を　用意しておいたんだ。\n<br>\n「奥の扉から進めば　魔獣との戦いになる。\n　もし　戦いの準備を　ととのえたいなら\n　中央の転送装置から　入り口近くへ　戻れるよ。\n<br>\n「くれぐれも　魔獣の増殖機能を\n　その管理タブレット……知理の石版で\n　停止させてから戦うのを　忘れないようにね。\n<br>\n「……キミが　あの魔獣を倒し　アストルティアを\n　救ってくれたら　未来のアルウェーンも\n　今度こそ　救われるかもしれない。\n<br>\n「もう　二度と　会うことのできない\n　アルウェーン市民や　複製体たちのために……\n　どうか　ヤツを倒してくれ　<pc>。\n<br>\n「それじゃ　がんばって……。\n　キミの勝利を　祈っているよ……。": 
+    "<pipipi_mid>Long time no see <pc>. It's me,\nPukulas. I've prepared this room for the next\n6000 years in the hope that I can help you\n<br>\nfight the Multiplying Beast Biologog. If you\ngo through the back door, you'll be fighting a\nhexenbiest. If you want to get ready for\n<br>\nbattle, you can use the transporter in the\ncenter to go back near the entrance. Remember\nto use the Taburet Wisdom Tablet to stop the\n<br>\ngrowth of the hexenbiest before you fight it.\nIf you defeat the hexenbiest and save\nAstoltia, the future Alweyn may be saved this\n<br>\ntime. For the sake of the citizens of Alweyn\nand its duplicates, whom we will never see\nagain, please defeat him <pc>. Good\n<br>\nluck. I'm praying for your victory."
   },
   "207315": {
-    "<pipipi_mid>「ひさしぶりだね　<pc>……。\n　ボクだよ　プクラスだ。\n<br>\n「キミと　増殖獣バイロゴーグの戦いを\n　手助けできればと　思って　６０００年後のため\n　この部屋を　用意しておいたんだ。\n<br>\n「奥の扉から進めば　魔獣との戦いになる。\n　もし　戦いの準備を　ととのえたいなら\n　中央の転送装置から　入り口近くへ　戻れるよ。\n<br>\n「くれぐれも　魔獣の増殖機能を\n　その管理タブレット……知理の石版で\n　停止させてから戦うのを　忘れないようにね。\n<br>\n「……キミが　あの魔獣を倒し　アストルティアを\n　救ってくれたら　未来のアルウェーンも\n　今度こそ　救われるかもしれない。\n<br>\n「もう　二度と　会うことのできない\n　アルウェーン市民や　複製体たちのために……\n　どうか　ヤツを倒してくれ　<pc>。\n<br>\n「それじゃ　がんばって……。\n　キミの勝利を　祈っているよ……。": "<pipipi_mid>Long time no see <pc>. It's me,\nPukulas. I've prepared this room for the next\n6000 years in the hope that I can help you\n<br>\nfight the Multiplying Beast Biologog. If you\ngo through the back door, you'll be fighting a\nhexenbiest. If you want to get ready for\n<br>\nbattle, you can use the transporter in the\ncenter to go back near the entrance. Remember\nto use the Taburet Wisdom Tablet to stop the\n<br>\ngrowth of the hexenbiest before you fight it.\nIf you defeat the hexenbiest and save\nAstoltia, the future Alweyn may be saved this\n<br>\ntime. For the sake of the citizens of Alweyn\nand its duplicates, whom we will never see\nagain, please defeat him <pc>. Good\n<br>\nluck. I'm praying for your victory."
+    "<pipipi_mid>「ひさしぶりだね　<pc>……。\n　ボクだよ　プクラスだ。\n<br>\n「キミと　増殖獣バイロゴーグの戦いを\n　手助けできればと　思って　６０００年後のため\n　この部屋を　用意しておいたんだ。\n<br>\n「奥の扉から進めば　魔獣との戦いになる。\n　もし　戦いの準備を　ととのえたいなら\n　中央の転送装置から　入り口近くへ　戻れるよ。\n<br>\n「くれぐれも　魔獣の増殖機能を\n　その管理タブレット……知理の石版で\n　停止させてから戦うのを　忘れないようにね。\n<br>\n「……キミが　あの魔獣を倒し　アストルティアを\n　救ってくれたら　未来のアルウェーンも\n　今度こそ　救われるかもしれない。\n<br>\n「もう　二度と　会うことのできない\n　アルウェーン市民や　複製体たちのために……\n　どうか　ヤツを倒してくれ　<pc>。\n<br>\n「それじゃ　がんばって……。\n　キミの勝利を　祈っているよ……。": 
+    "<pipipi_mid>Long time no see, eh, <pc>... It's me,\nPukulas. I've prepared this room for the next\n6000 years in the hope that I can help you\n<br>\nfight the Multiplying Beast Biologog. If you\ngo through the back door, you'll be fighting a\nhexenbiest. If you want to get ready for\n<br>\nbattle, you can use the transporter in the\ncenter to go back near the entrance. Remember\nto use the Taburet Wisdom Tablet to stop the\n<br>\ngrowth of the hexenbiest before you fight it.\nIf you defeat the hexenbiest and save\nAstoltia, the future Alweyn may be saved this\n<br>\ntime. For the sake of the citizens of Alweyn\nand its duplicates, whom we will never see\nagain, please defeat him <pc>. Good\n<br>\nluck. I'm praying for your victory."
   },
   "211101": {
-    "扉には　カギが　かかっている。\nキラキラ大風車塔の　井戸の底に住む\nパルミオ博士から　カギを　借りてこよう。": "The door is locked, so I'll get the key from\nDr. Palmio, who lives at the bottom of the\nwell in Glitter Windmill Tower."
+    "扉には　カギが　かかっている。\nキラキラ大風車塔の　井戸の底に住む\nパルミオ博士から　カギを　借りてこよう。": 
+    "The door is locked, so I'll get the key from\nDr. Palmio, who lives at the bottom of the\nwell in Glitter Windmill Tower."
   },
   "237538": {
-    "<center>！　特…■○＆％　！<se_nots S4_FOR8_001 2>": "! Special  & % !<se_nots S4_FOR8_001 2>"
+    "<center>！　特…■○＆％　！<se_nots S4_FOR8_001 2>": 
+    "<center>! Special  & % !<se_nots S4_FOR8_001 2>"
   },
   "237540": {
-    "？◎……▲＃　★！＠Ｘ　○○◎■　□＆＆\nＸ％□◆】　△●・Ｘ■■Ｘ…………\n<br>\n装置には　意味不明の文字が\n表示されている。\nどうやら　この装置は　壊れているようだ。": "? # ! @X  &&X%] XX The device is displaying\nunintelligible characters. Apparently, this\ndevice is broken."
+    "？◎……▲＃　★！＠Ｘ　○○◎■　□＆＆\nＸ％□◆】　△●・Ｘ■■Ｘ…………\n<br>\n装置には　意味不明の文字が\n表示されている。\nどうやら　この装置は　壊れているようだ。": 
+    "? # ! @X  &&X%] XX The device is displaying\nunintelligible characters. Apparently, this\ndevice is broken."
   }
 }
