@@ -75,5 +75,5 @@ jobs:
     steps:
       - name: Create Release
         run: |
-          gh release delete latest --cleanup-tag --yes
+          gh release delete latest --yes
           gh release create latest ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak --generate-notes
