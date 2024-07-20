@@ -1,4 +1,5 @@
 ![pakchunk0-{PLATFORM}_English_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml/badge.svg?branch=testing)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/KodywithaK/dqx-offline-localization/total?link=https%3A%2F%2Fgithub.com%2FKodywithaK%2Fdqx-offline-localization%2Freleases%2Ftag%2Flatest)
 
 <details><summary><h1>Translate Game.locmeta/Game.locres files via LocRes-Builder</h1></summary>
 
@@ -358,16 +359,6 @@ UnrealPak.exe "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFL
         -   generates makefiles and CMakelists.txt
     7.  `make UnrealPak`
         -   makes `Unrealpak` and its dependencies in ~210s
-
-## External Links
-
-> [^1]: [GitHub Docs - Hosting your own runners](https://docs.github.com/en/actions/hosting-your-own-runners).
->
-> [^2]: This tutorial roughly follows the [Linux Native compilation guide](https://github.com/EpicGames/UnrealEngine/blob/4.27.2-release/Engine/Build/BatchFiles/Linux/README.md) from `github.com/EpicGames/UnrealEngine`.
->
-> [^3]: Correct [Commit.gitdeps.xml](https://github.com/EpicGames/UnrealEngine/releases/download/4.27.2-release/Commit.gitdeps.xml) to prevent `(403) Forbidden` errors during `updating dependencies` step.
-
-
 ---
 
 </details>
@@ -379,3 +370,11 @@ UnrealPak.exe "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFL
 - ***`global`*** file is an offline computed dependency graph for your assets.
 - ***`.pak`*** When using this setup the file will store loose files such as fonts.
 - The upside to using the io store is a noticeable improvement to loading times.
+
+### External Links
+
+> [^1]: [GitHub Docs - Hosting your own runners](https://docs.github.com/en/actions/hosting-your-own-runners).
+>
+> [^2]: This tutorial roughly follows the [Linux Native compilation guide](https://github.com/EpicGames/UnrealEngine/blob/4.27.2-release/Engine/Build/BatchFiles/Linux/README.md) from `github.com/EpicGames/UnrealEngine`.
+>
+> [^3]: Correct [Commit.gitdeps.xml](https://github.com/EpicGames/UnrealEngine/releases/download/4.27.2-release/Commit.gitdeps.xml) to prevent `(403) Forbidden` errors during `updating dependencies` step.
