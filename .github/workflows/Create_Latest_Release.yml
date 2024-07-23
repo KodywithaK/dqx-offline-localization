@@ -76,5 +76,5 @@ jobs:
     steps:
       - name: Create Release
         run: |
-          # gh release delete Latest --yes
+          gh release delete Latest --yes
           gh release create Latest ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak --notes-file ${{ github.workspace }}/dqx-offline-localization/CHANGELOG.md
