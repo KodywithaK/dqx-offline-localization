@@ -3,10 +3,23 @@
 - TBD
 
 # Alterations
-<details>
+
+
+<details><summary>2024/07/25</summary>
 
 > ---
-> ## 2024/07/23
+> - `eventTextIeO1RangTownServer.win32`, `eventTextCsAq1010[1-5]Client.win32`
+>   - (090) Village Sanctum [Champion of Rangao Village] {Sub Story}
+>   - (091) Village King's Decision [Champion of Rangao Village] {Sub Story}
+>   - (092) Battle's Curse [Champion of Rangao Village] {Sub Story}
+>   - (093) Reaper's Judgment [Champion of Rangao Village] {Sub Story}
+> ---
+
+</details>
+
+<details><summary>2024/07/23</summary>
+
+> ---
 > - `eventTextCsAq1012[1-5]Client.win32`
 >   - (106) King's Hunting [Gazbaran's Fang] {Sub Story}
 >   - (107) Move Out! Rescue Party [Gazbaran's Fang] {Sub Story}

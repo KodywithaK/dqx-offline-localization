@@ -13,11 +13,11 @@
   },
   "15678": {
     "<start_lip_sync n00121 _normal m00001>「<pc>よ！　材料となる\n　<%sEV_QUE_NAME4>と　きつけそうを\n　早急に　持ってきてもらえんか！<stop_lip_animation n00121 CLOSE_MOUTH>": 
-    "<start_lip_sync n00121 _normal m00001><pc>! Could you please bring me\n<%sEV_QUE_NAME4> and Softwort as soon as possible!?<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001><pc>! Could you please bring me a\n<%sEV_QUE_NAME4> and Softwort as soon as possible!?<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "26333": {
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": 
-    "I have been asked to do a quest. Accept this quest?\n<select>\nAccept\nDecline\n<select_end><close>"
+    "You have been asked to do a quest. Do you acceot?\n<select>\nAccept\nDecline\n<select_end><close>"
   },
   "15679": {
     "<start_lip_sync n00121 _normal m00001>「ありがたい！　どちらも　特別なことをせずとも\n　手に入るものだ！　れんきんがまを持っていたら\n　それで　作ってみるのもよいだろう。<stop_lip_animation n00121 CLOSE_MOUTH>": 
@@ -25,10 +25,11 @@
   },
   "15680": {
     "<start_lip_sync n00121 _normal m00001>「私は　村王から　目が離せん！\n　よろしく頼むぞ！！<stop_lip_animation n00121 CLOSE_MOUTH>": 
-    "<start_lip_sync n00121 _normal m00001>I can't take my eyes off the Village King!\nI'm counting on you!!<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>I can't take my eyes off the Village King! So I'm\ncounting on you!!<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "Quest '<%sEV_QUEST_NAME>'\nreceived!<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": 
+    "Quest '<%sEV_QUEST_NAME>'\nreceived!<me 74>"
   },
   "15681": {
     "<start_lip_sync n00121 _normal m00001>「やってくれるか……。\n　だが　頼まれごとで　いっぱいではないか！<stop_lip_animation n00121 CLOSE_MOUTH>": 
@@ -52,7 +53,7 @@
   },
   "15686": {
     "<start_lip_sync n00121 _normal m00001>「<pc>よ！　材料となる\n　<%sEV_QUE_NAME4>と　きつけそうを\n　早急に　持ってきてもらえんか！<stop_lip_animation n00121 CLOSE_MOUTH>": 
-    "<start_lip_sync n00121 _normal m00001><pc>! Could you please bring me\n<%sEV_QUE_NAME4> and Softwort as soon as possible!<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001><pc>! Could you please bring me a\n<%sEV_QUE_NAME4> and Softwort as soon as possible!<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15687": {
     "<start_lip_sync n00121 _normal m00001>「<pc>！　戻ったか！<stop_lip_animation n00121 CLOSE_MOUTH>": 
@@ -60,11 +61,11 @@
   },
   "15690": {
     "<start_lip_sync n00121 _normal m00001>「どうだ！\n　解熱薬の材料は　手に入ったか！<stop_lip_animation n00121 CLOSE_MOUTH>": 
-    "<start_lip_sync n00121 _normal m00001>How about it! Did you get the ingredients for\nthe antipyretic!?<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>How about it! Did you get the ingredients for the\nantipyretic!?<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15691": {
     "ギュランに　<%sEV_QUE_NAME4>と\nきつけそうを　渡しますか？<yesno><close>": 
-    "Give Gyuran the\n<%sEV_QUE_NAME4> and Softwort?<yesno><close>"
+    "Give Gyuran the <%sEV_QUE_NAME4> and Softwort?<yesno><close>"
   },
   "15688": {
     "<start_lip_sync n00121 _normal m00001>「む……。どうやら　まだ\n　<%sEV_QUE_NAME4>と　きつけそうは\n　手に入らないようだな……。<stop_lip_animation n00121 CLOSE_MOUTH>": 
@@ -88,15 +89,15 @@
   },
   "15695": {
     "<start_lip_sync n00121 _normal m00001>「よく眠っておられる……。\n　どうやら　落ち着いたようだ。<stop_lip_animation n00121 CLOSE_MOUTH>": 
-    "<start_lip_sync n00121 _normal m00001>He is sleeping well...\nHe seems to have stablized.<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>He is sleeping well... He seems to have stablized.<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15696": {
     "<start_lip_sync n00121 _normal m00001>「しばらく　ゆっくり眠れば\n　また元気な村王に　戻られるだろう。\n　ありがとう。<pc>のおかげだ。<stop_lip_animation n00121 CLOSE_MOUTH>": 
-    "<start_lip_sync n00121 _normal m00001>I'm sure after a good rest, the Village King will be\nback to his spirited self. Thank you.\nBless you, <pc>.<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>I'm sure after a good rest, the Village King will be\nback to his spirited self. Thank you. Bless you,\n<pc>.<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15697": {
     "<start_lip_sync n00121 _normal m00001>「……私は　１０年　お仕えしているが\n　村王の　お気持ちは　まだまだ\n　理解できていない部分が　多いのかもしれんな。<stop_lip_animation n00121 CLOSE_MOUTH>": 
-    "<start_lip_sync n00121 _normal m00001>...I have served him for 10 years, but perhaps I still\ndon't understand the feelings of the Village King\nin many ways.<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>...I have served him for 10 years, but perhaps I still\ndon't understand the feelings of the Village King in\nmany ways.<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15698": {
     "<start_lip_sync n00121 _normal m00001>「……だが　心から　人に優しい方であることは\n　知っている。今　多くを語られないことにも\n　相応の理由が　あってのことなのだろう……。<stop_lip_animation n00121 CLOSE_MOUTH>": 
@@ -104,7 +105,7 @@
   },
   "15699": {
     "<start_lip_sync n00126 _normal m00001>「村王！　村王ーっ！！<stop_lip_animation n00126 CLOSE_MOUTH>": 
-    "<start_lip_sync n00126 _normal m00001>Village King! Village King!!<stop_lip_animation n00126 CLOSE_MOUTH>"
+    "<start_lip_sync n00126 _normal m00001>VILLAGE KING! VILLAGE KIIING!!<stop_lip_animation n00126 CLOSE_MOUTH>"
   },
   "15700": {
     "<start_lip_sync n00121 _normal m00001>「やめんかっ！　村王は　お休み中だ！<stop_lip_animation n00121 CLOSE_MOUTH>": 
@@ -112,11 +113,11 @@
   },
   "15701": {
     "<start_lip_sync n00126 _normal m00001>「た　大変なんです！！<stop_lip_animation n00126 CLOSE_MOUTH>": 
-    "<start_lip_sync n00126 _normal m00001>It-it's serious!!<stop_lip_animation n00126 CLOSE_MOUTH>"
+    "<start_lip_sync n00126 _normal m00001>IT-IT'S SERIOUS!!<stop_lip_animation n00126 CLOSE_MOUTH>"
   },
   "15702": {
     "<start_lip_sync n00121 _normal m00001>「何事だ。\n　つまらんことだったら　承知せんぞ。<stop_lip_animation n00121 CLOSE_MOUTH>": 
-    "<start_lip_sync n00121 _normal m00001>What's this all about. If it's something trivial,\nso help me.<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>What's this all about. If it's something trivial, so help\nme.<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15703": {
     "<start_lip_sync n00126 _normal m00001>「む　村の武闘場に\n　見たことのないヤツが　入り込んできて\n　占拠してるんです！<stop_lip_animation n00126 CLOSE_MOUTH>": 
@@ -124,7 +125,7 @@
   },
   "15704": {
     "<start_lip_sync n00126 _normal m00001>「で　そいつは　自分のことを\n　死神だとか　言ってやがるんです！<stop_lip_animation n00126 CLOSE_MOUTH>": 
-    "<start_lip_sync n00126 _normal m00001>And he has the nerve to call himself the 'Reaper'\nor something!<stop_lip_animation n00126 CLOSE_MOUTH>"
+    "<start_lip_sync n00126 _normal m00001>And he has the nerve to call himself the ''Reaper'' or\nsomething!<stop_lip_animation n00126 CLOSE_MOUTH>"
   },
   "15705": {
     "<start_lip_sync n00121 _normal m00001>「なんだと……？<stop_lip_animation n00121 CLOSE_MOUTH>": 
@@ -140,7 +141,7 @@
   },
   "15708": {
     "<start_lip_sync n00126 _normal m00001>「味方が増えるのは　ありがたい！\n　一緒に　行きましょう！<stop_lip_animation n00126 CLOSE_MOUTH>": 
-    "<start_lip_sync n00126 _normal m00001>Thank goodness we have more allies!\nLet's go together!<stop_lip_animation n00126 CLOSE_MOUTH>"
+    "<start_lip_sync n00126 _normal m00001>More allies, thank goodness! Let's go together!<stop_lip_animation n00126 CLOSE_MOUTH>"
   },
   "15709": {
     "<start_lip_sync n00121 _normal m00001>「<pc>っ！\n　私は　村王のそばから　離れられん！<stop_lip_animation n00121 CLOSE_MOUTH>": 
@@ -164,7 +165,7 @@
   },
   "15714": {
     "<start_lip_sync n01442 _normal m00001>「ランガーオ村の　愚民どもに告ぐ！\n　オレは　今から　この村を　滅ぼす！！<stop_lip_animation n01442 CLOSE_MOUTH>": 
-    "<start_lip_sync n01442 _normal m00001>To the fools of Rangao Village, I say this:\nI will now destroy this village!!<stop_lip_animation n01442 CLOSE_MOUTH>"
+    "<start_lip_sync n01442 _normal m00001>To the fools of Rangao Village, I say this: I will now\ndestroy this village!!<stop_lip_animation n01442 CLOSE_MOUTH>"
   },
   "15715": {
     "<start_lip_sync n01442 _normal m00001>「不意打ちのような　ひきょうなマネはしない。\n　戦う意志のあるやつは\n　全員　相手をしてやろう！<stop_lip_animation n01442 CLOSE_MOUTH>": 
@@ -172,19 +173,19 @@
   },
   "15716": {
     "<start_lip_sync n01442 _normal m00001>「さあ　好きなタイミングで　かかってこい！\n　束になってきても　構わんぞ！！<stop_lip_animation n01442 CLOSE_MOUTH>": 
-    "<start_lip_sync n01442 _normal m00001>Come on, come at me when you want!\nIt won't matter even if you attack all at once!!<stop_lip_animation n01442 CLOSE_MOUTH>"
+    "<start_lip_sync n01442 _normal m00001>Come on, come at me if you want! It won't matter even\nif you attack all at once!!<stop_lip_animation n01442 CLOSE_MOUTH>"
   },
   "15717": {
     "<start_lip_sync n01442 _normal m00001>「やれやれ。どうやら　今\n　この村にいるのは　戦う勇気さえも失った\n　情けないオーガばかりのようだな。<stop_lip_animation n01442 CLOSE_MOUTH>": 
-    "<start_lip_sync n01442 _normal m00001>Pitiful. It seems that now this village has only\npathetic Ogres who have lost the courage to even fight.<stop_lip_animation n01442 CLOSE_MOUTH>"
+    "<start_lip_sync n01442 _normal m00001>Pitiful. It seems that now this village has only pathetic\nOgres who have lost the courage to even fight.<stop_lip_animation n01442 CLOSE_MOUTH>"
   },
   "15718": {
     "<start_lip_sync n01442 _normal m00001>「ならば　こっちも遠慮はせん。\n　端から順番に　殺していってやろう。\n　命乞いしたいやつは　せいぜい叫ぶがいい。<stop_lip_animation n01442 CLOSE_MOUTH>": 
-    "<start_lip_sync n01442 _normal m00001>If that's the case, I won't even hold back. I'll\nsingle-handedly kill every last one of you, one after another. Those who want to beg for their lives, scream as loud as you can.<stop_lip_animation n01442 CLOSE_MOUTH>"
+    "<start_lip_sync n01442 _normal m00001>If that's the case, I won't even hold back. I'll single-\nhandedly kill every last one of you, one after another.\n<br>\nThose who want to beg for their lives, scream as loud\nas you can.<stop_lip_animation n01442 CLOSE_MOUTH>"
   },
   "15719": {
     "<start_lip_sync n00123 _normal m00001>「き　き　貴様ぁ！\n　次は……　次は　オ　オレが相手だ！<stop_lip_animation n00123 CLOSE_MOUTH>": 
-    "<start_lip_sync n00123 _normal m00001>Y-y-you bastard!\nI'll... I'll be your next opponent!<stop_lip_animation n00123 CLOSE_MOUTH>"
+    "<start_lip_sync n00123 _normal m00001>Y-y-you bastard! I'll... I'll be your next opponent!<stop_lip_animation n00123 CLOSE_MOUTH>"
   },
   "15720": {
     "<start_lip_sync n01442 _normal m00001>「よし。それでこそ\n　ランガーオ村の　勇気あるオーガだ。\n　次に死ぬのは　お前にしてやる。<stop_lip_animation n01442 CLOSE_MOUTH>": 
@@ -192,7 +193,7 @@
   },
   "15721": {
     "<start_lip_sync n00091 _normal m00001>「……待てっ！<stop_lip_animation n00091 CLOSE_MOUTH>": 
-    "<start_lip_sync n00091 _normal m00001>...Wait!<stop_lip_animation n00091 CLOSE_MOUTH>"
+    "<start_lip_sync n00091 _normal m00001>...WAIT!<stop_lip_animation n00091 CLOSE_MOUTH>"
   },
   "15722": {
     "<start_lip_sync n00091 _normal m00001>「ギュランよ……。すまんな。\n　ここからは　ひとりで行く。<stop_lip_animation n00091 CLOSE_MOUTH>": 
@@ -200,11 +201,11 @@
   },
   "15723": {
     "<start_lip_sync n00121 _normal m00001>「村王…………。<stop_lip_animation n00121 CLOSE_MOUTH>": 
-    "<start_lip_sync n00121 _normal m00001>The Village King.......<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>Village King.......<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15724": {
     "<start_lip_sync n00091 _normal m00001>「……ガガイよ。\n　今　この村には　お前に勝てるような\n　強いオーガは　ひとりもいない……。<stop_lip_animation n00091 CLOSE_MOUTH>": 
-    "<start_lip_sync n00091 _normal m00001>...Gagai. There's not a single Ogre in this village\nstrong enough to beat you right now...<stop_lip_animation n00091 CLOSE_MOUTH>"
+    "<start_lip_sync n00091 _normal m00001>...Gagai. There's not a single Ogre in this village strong\nenough to beat you right now...<stop_lip_animation n00091 CLOSE_MOUTH>"
   },
   "15725": {
     "<start_lip_sync n00091 _normal m00001>「……だが　わしは　この村の王だ。\n　たとえ　どんなことをしてでも\n　村の者を　守り抜かなくてはならない。<stop_lip_animation n00091 CLOSE_MOUTH>": 
@@ -216,7 +217,7 @@
   },
   "15727": {
     "<start_lip_sync n00091 _normal m00001>「この通りだ。頼む……。\n　この村の者を　殺さないでくれ……。\n　わしの命ならば　いくらでも　くれてやる。<stop_lip_animation n00091 CLOSE_MOUTH>": 
-    "<start_lip_sync n00091 _normal m00001>You see. Please...\nPlease don't kill any of the villagers...\nI'll give you my life if that's what it takes.<stop_lip_animation n00091 CLOSE_MOUTH>"
+    "<start_lip_sync n00091 _normal m00001>You see. Please... Please don't kill any of the\nvillagers... I'll give you my life if that's what\nit takes.<stop_lip_animation n00091 CLOSE_MOUTH>"
   },
   "50293": {
     "<start_lip_sync n00099 _normal m00001>「村王さま……。<stop_lip_animation n00099 CLOSE_MOUTH>": 
@@ -256,7 +257,7 @@
   },
   "15737": {
     "<start_lip_sync n00117 _normal m00001>「この村に　お前の居場所は　なーいっ！\n　早々に　立ち去れい！<stop_lip_animation n00117 CLOSE_MOUTH>": 
-    "<start_lip_sync n00117 _normal m00001>There's no place for you in this village!\nHurry up and get out of here!<stop_lip_animation n00117 CLOSE_MOUTH>"
+    "<start_lip_sync n00117 _normal m00001>There's no place for you in this village! Hurry up and\nget out of here!<stop_lip_animation n00117 CLOSE_MOUTH>"
   },
   "15738": {
     "<start_lip_sync n01442 _normal m00001>「き…貴様ら……。<stop_lip_animation n01442 CLOSE_MOUTH>": 
@@ -264,7 +265,7 @@
   },
   "15739": {
     "<start_lip_sync n00091 _normal m00001>「……ガガイよ。今は　ちがうのだ。\n　ランガーオ村は　変わったのだ。<stop_lip_animation n00091 CLOSE_MOUTH>": 
-    "<start_lip_sync n00091 _normal m00001>...Gagai. Things are different now.\nRangao Village has changed.<stop_lip_animation n00091 CLOSE_MOUTH>"
+    "<start_lip_sync n00091 _normal m00001>...Gagai. Things are different now. Rangao Village\nhas changed.<stop_lip_animation n00091 CLOSE_MOUTH>"
   },
   "15740": {
     "<start_lip_sync n01442 _normal m00001>「だ　だまれえええっ！！！<stop_lip_animation n01442 CLOSE_MOUTH>": 
@@ -272,11 +273,11 @@
   },
   "15741": {
     "<start_lip_sync n01442 _normal m00001>「変わったなど　オレは認めんっ！！\n　貴様ら　皆殺しにしてやるっ！！<stop_lip_animation n01442 CLOSE_MOUTH>": 
-    "<start_lip_sync n01442 _normal m00001>I don't judge that you've changed!!\nI'll massacre you all!!<stop_lip_animation n01442 CLOSE_MOUTH>"
+    "<start_lip_sync n01442 _normal m00001>I DON'T JUDGE THAT YOU'VE CHANGED!!\nI'LL MASSACRE YOU ALL!!<stop_lip_animation n01442 CLOSE_MOUTH>"
   },
   "15742": {
     "<start_lip_sync n00121 _normal m00001>「<cs_pchero>っ！　村王を！\n　村王を　お守りしてくれっ！！<stop_lip_animation n00121 CLOSE_MOUTH>": 
-    "<start_lip_sync n00121 _normal m00001><cs_pchero>, the Village King!\nProtect the Village King!!<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001><cs_pchero>, the Village King! Protect the Village\nKing!!<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15743": {
     "<start_lip_sync n00121 _normal m00001>「<cs_pchero>っ！　戻ってきてくれたか！<stop_lip_animation n00121 CLOSE_MOUTH>": 
@@ -292,11 +293,11 @@
   },
   "15746": {
     "<start_lip_sync n01442 _normal m00001>「……バ　バカな。\n　このオレが……敗れた…だと……？<stop_lip_animation n01442 CLOSE_MOUTH>": 
-    "<start_lip_sync n01442 _normal m00001>...Rid-ridiculous.\nI've... been... defeated...?<stop_lip_animation n01442 CLOSE_MOUTH>"
+    "<start_lip_sync n01442 _normal m00001>...Rid-ridiculous.\nI've... Been... Defeated...?<stop_lip_animation n01442 CLOSE_MOUTH>"
   },
   "15747": {
     "<start_lip_sync n01442 _normal m00001>「……これが　神の意志だというのか。\n　親子二代に渡り　同じ場所で\n　同じ屈辱にまみれて　死ねと……。<stop_lip_animation n01442 CLOSE_MOUTH>": 
-    "<start_lip_sync n01442 _normal m00001>...Is this the Goddess's will? That a father and son\nshould die in the same place, humiliated in\nthe same way...<stop_lip_animation n01442 CLOSE_MOUTH>"
+    "<start_lip_sync n01442 _normal m00001>...Is this the Goddess's will? That a father and son\nshould die in the same place, humiliated in the same\nway...<stop_lip_animation n01442 CLOSE_MOUTH>"
   },
   "15748": {
     "<start_lip_sync n01442 _normal m00001>「オレの……負けだ！　さあ　オレを殺せ！<stop_lip_animation n01442 CLOSE_MOUTH>": 
@@ -312,7 +313,7 @@
   },
   "50296": {
     "<start_lip_sync n00122 _normal m00001>「ガガイーっ！\n　お前は　負けはしたが　すごかったぞー！<stop_lip_animation n00122 CLOSE_MOUTH>": 
-    "<start_lip_sync n00122 _normal m00001>Gagaiii! You lost, but you were amazing!<stop_lip_animation n00122 CLOSE_MOUTH>"
+    "<start_lip_sync n00122 _normal m00001>GAGAIII! You lost, but you were amazing!<stop_lip_animation n00122 CLOSE_MOUTH>"
   },
   "50297": {
     "<start_lip_sync n00112 _normal m00001>「最後まで　あきらめずに戦い続けて\n　<cs_pchero>も　ガガイも　本当に立派だよ！\n　あたし　感動で　泣けてきたよっ！！<stop_lip_animation n00112 CLOSE_MOUTH>": 
@@ -360,7 +361,7 @@
   },
   "15763": {
     "<start_lip_sync n00121 _normal m00001>「この村では　当時　敗者の墓を作ることは\n　禁じられていた。だが　村王は　オキテを破って\n　ガガベス殿の墓を作り　今も供養しているのだ。<stop_lip_animation n00121 CLOSE_MOUTH>": 
-    "<start_lip_sync n00121 _normal m00001>In this village at that time, making tombs for the\ndefeated was forbidden. However, the Village King broke\nthat rule, made a tomb for Gagabes, and-even now-upkeeps it.<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>In this village during that time, making tombs for the\ndefeated was forbidden.\n<br>\nHowever, the Village King broke that rule, made a\ntomb for Gagabes, and—even now—upkeeps it.<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15764": {
     "<start_lip_sync n00121 _normal m00001>「墓を作ったことも　新しい教えを\n　行きわたらせたことも　すべては　いつの日か\n　そなたを　この村に　迎えたいと願ったため。<stop_lip_animation n00121 CLOSE_MOUTH>": 
@@ -368,7 +369,7 @@
   },
   "15765": {
     "<start_lip_sync n00121 _normal m00001>「ガガイ殿よ……。\n　どうか　村王の気持ちを　察してくれまいか。<stop_lip_animation n00121 CLOSE_MOUTH>": 
-    "<start_lip_sync n00121 _normal m00001>Dear Gagai...\nPlease understand the Village King's feelings.<stop_lip_animation n00121 CLOSE_MOUTH>"
+    "<start_lip_sync n00121 _normal m00001>O Mister Gagai... Please understand the Village\nKing's feelings.<stop_lip_animation n00121 CLOSE_MOUTH>"
   },
   "15766": {
     "<start_lip_sync n01442 _normal m00001>「わかった……。もう充分だ。<stop_lip_animation n01442 CLOSE_MOUTH>": 
@@ -376,7 +377,7 @@
   },
   "15767": {
     "<start_lip_sync n01442 _normal m00001>「だが……オレには　オレの　けじめがある。\n　この村で　暮らすことは　できない……。<stop_lip_animation n01442 CLOSE_MOUTH>": 
-    "<start_lip_sync n01442 _normal m00001>But... I've got my own reasons.\nI can't live in the village...<stop_lip_animation n01442 CLOSE_MOUTH>"
+    "<start_lip_sync n01442 _normal m00001>But... I've got my own reasons. I can't live in the\nvillage...<stop_lip_animation n01442 CLOSE_MOUTH>"
   },
   "15768": {
     "<start_lip_sync n01442 _normal m00001>「オレは　罪を重ねすぎた……。<stop_lip_animation n01442 CLOSE_MOUTH>": 
@@ -384,10 +385,10 @@
   },
   "15769": {
     "<start_lip_sync n00091 _normal m00001>「ありがとう　<cs_pchero>よ。\n　まったく　お前には\n　最後まで　世話に　なりっぱなしだったな。<stop_lip_animation n00091 CLOSE_MOUTH>": 
-    "<start_lip_sync n00091 _normal m00001>Thank you, <cs_pchero>. I really had been nagging\nyou for help until the very end, haven't I?<stop_lip_animation n00091 CLOSE_MOUTH>"
+    "<start_lip_sync n00091 _normal m00001>Thank you, <cs_pchero>. I really have been nagging\nyou for help until the very end, haven't I?<stop_lip_animation n00091 CLOSE_MOUTH>"
   },
   "15770": {
     "<start_lip_sync n00091 _normal m00001>「せめてものことは　させてほしい。\n　後で　わしの所に　来てくれ。<stop_lip_animation n00091 CLOSE_MOUTH>": 
-    "<start_lip_sync n00091 _normal m00001>I'd like, at least, do something for you.\nPlease come by my place later.<stop_lip_animation n00091 CLOSE_MOUTH>"
+    "<start_lip_sync n00091 _normal m00001>I'd like to, at least, do something for you. Please come\nby my place later.<stop_lip_animation n00091 CLOSE_MOUTH>"
   }
 }
