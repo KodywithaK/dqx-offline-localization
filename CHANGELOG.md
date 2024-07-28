@@ -4,6 +4,15 @@
 
 # Alterations
 
+<details><summary>2024/07/27</summary>
+
+> ---
+> - `eventTextIeW1LeenTownServer.win32`, `eventTextIeW1LaidFldServer.win32`, `eventTextCsAq1004[4-5]Client.win32`
+>   - (087) The End's Voice [Girl Detective Rubecca] {Sub Story}
+>   - (088) Rubecca & Fiya [Girl Detective Rubecca] {Sub Story}
+> ---
+
+</details>
 
 <details><summary>2024/07/25</summary>
 
