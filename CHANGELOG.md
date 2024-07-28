@@ -4,6 +4,17 @@
 
 # Alterations
 
+<details><summary>2024/07/28</summary>
+
+> ---
+> - `eventTextIeP2OlfeTownServer.win32`
+>   - (013) Show Me A Nostalgic Title! {Sub Story}
+> - `eventTextIeO2GlenTownServer.win32`
+>   - (005) Herbal Warrior & Rich Soil {Sub Story}
+> ---
+
+</details>
+
 <details><summary>2024/07/27</summary>
 
 > ---
