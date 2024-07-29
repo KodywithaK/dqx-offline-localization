@@ -1,6 +1,13 @@
 # Additions
 
-- TBD
+<details><summary>2024/07/28</summary>
+
+> ---
+> - `eventTextIeR5ArahTownfServer.win32`, `eventTextIeR3MelsTownfServer.win32`, `STT_QuestListDetail`
+>   - (218) Desert People Like Meat? {Sub Story}
+> ---
+
+</details>
 
 # Alterations
 
@@ -10,7 +17,7 @@
 > - `eventTextIeP2OlfeTownServer.win32`
 >   - (013) Show Me A Nostalgic Title! {Sub Story}
 > - `eventTextIeO2GlenTownServer.win32`
->   - (005) Herbal Warrior & Rich Soil {Sub Story}
+>   - (005) Medicinal Herbs, Warriors, & Rich Soil {Sub Story}
 > ---
 
 </details>
