@@ -5,6 +5,8 @@
 > ---
 > - `eventTextIeR5ArahTownfServer.win32`, `eventTextIeR3MelsTownfServer.win32`, `STT_QuestListDetail`
 >   - (218) Desert People Like Meat? {Sub Story}
+> - `eventTextIeR5ArahTownfServer.win32`, `eventTextIeL3CasiEntrServer.win32`
+>   - (221) Fun-Famished Desert Dwellers {Sub Story}
 > ---
 
 </details>
