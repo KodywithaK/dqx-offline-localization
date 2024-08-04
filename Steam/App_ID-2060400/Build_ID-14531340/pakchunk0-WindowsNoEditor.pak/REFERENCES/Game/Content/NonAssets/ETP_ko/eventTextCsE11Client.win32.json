@@ -1,0 +1,896 @@
+{
+  "24": {
+    "<voice 00838_00000024><start_lip_sync n00211 _normal m00001>: 노마…… 조금 진정하는 게 어떻겠습니까?<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 00838_00000024><start_lip_sync n00211 _normal m00001>: 노마…… 조금 진정하는 게 어떻겠습니까?<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "25": {
+    "<voice 00966_00000025><start_lip_sync n00246 _normal m00001>: 어… 어떻게 진정하겠습니까, 히메아 님!<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 00966_00000025><start_lip_sync n00246 _normal m00001>: 어… 어떻게 진정하겠습니까, 히메아 님!<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "26": {
+    "<voice 01006_00000026><start_lip_sync n00246 _normal m00001>: 오늘은 우리 학문의 마을 투스쿠르가 자랑하는\n　젊은 천재 {pc}|hpp(이,가)……<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 01006_00000026><start_lip_sync n00246 _normal m00001>: 오늘은 우리 학문의 마을 투스쿠르가 자랑하는\n　젊은 천재 {pc}|hpp(이,가)……<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "27": {
+    "<voice 01096_00000027><start_lip_sync n00246 _normal m00001>: 오랜 세월 기다려 온 고대 주문을\n　부활시킬지도 모르는 날 아닙니까?<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 01096_00000027><start_lip_sync n00246 _normal m00001>: 오랜 세월 기다려 온 고대 주문을\n　부활시킬지도 모르는 날 아닙니까?<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "28": {
+    "<voice 01245_00000028><start_lip_sync n00246 _normal m00001>: 소실된 주문의 부활은\n　지금껏 아무도 성공하지 못한\n　몹시 어려운 일입니다.<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 01245_00000028><start_lip_sync n00246 _normal m00001>: 소실된 주문의 부활은\n　지금껏 아무도 성공하지 못한\n　몹시 어려운 일입니다.<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "29": {
+    "<voice 01335_00000029><start_lip_sync n00246 _normal m00001>: 하지만 그 아이라면…… {pc}|hpp(이라,라)면\n　해낼 수 있을 것 같은 느낌이 듭니다.<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 01335_00000029><start_lip_sync n00246 _normal m00001>: 하지만 그 아이라면…… {pc}|hpp(이라,라)면\n　해낼 수 있을 것 같은 느낌이 듭니다.<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "30": {
+    "<voice 01404_00000030><start_lip_sync n00211 _normal m00001>: ………그렇죠.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 01404_00000030><start_lip_sync n00211 _normal m00001>: ………그렇죠.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "31": {
+    "<voice 01444_00000031><start_lip_sync n00211 _normal m00001>: 그럼 바람에 살짝 물어보기로 할까요?\n　그 아이의 앞날을.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 01444_00000031><start_lip_sync n00211 _normal m00001>: 그럼 바람에 살짝 물어보기로 할까요?\n　그 아이의 앞날을.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "32": {
+    "<voice 01543_00000032><start_lip_sync n00246 _normal m00001>: 예!<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 01543_00000032><start_lip_sync n00246 _normal m00001>: 예!<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "33": {
+    "<voice 01989_00000033><start_lip_sync n00246 _normal m00001>: 이, 이건…….<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 01989_00000033><start_lip_sync n00246 _normal m00001>: 이, 이건…….<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "19000622": {
+    "<voice 02297_19000622><start_lip_sync al01 _normal m00001>: 조금만 더…….<stop_lip_animation al01 CLOSE_MOUTH>": "<voice 02297_19000622><start_lip_sync al01 _normal m00001>: 조금만 더…….<stop_lip_animation al01 CLOSE_MOUTH>"
+  },
+  "19000623": {
+    "<voice 02297_19000623><start_lip_sync al01 _normal m00001>: 조금만 더…….<stop_lip_animation al01 CLOSE_MOUTH>": "<voice 02297_19000623><start_lip_sync al01 _normal m00001>: 조금만 더…….<stop_lip_animation al01 CLOSE_MOUTH>"
+  },
+  "19000624": {
+    "<voice 02502_19000624><start_lip_sync al01 _normal m00001>: 이 고대 주문이 부활하면\n　엘토나 대지가 멸망할 걱정은 없어져…….<stop_lip_animation al01 CLOSE_MOUTH>": "<voice 02502_19000624><start_lip_sync al01 _normal m00001>: 이 고대 주문이 부활하면\n　엘토나 대지가 멸망할 걱정은 없어져…….<stop_lip_animation al01 CLOSE_MOUTH>"
+  },
+  "19000625": {
+    "<voice 02502_19000625><start_lip_sync al01 _normal m00001>: 이 고대 주문이 부활하면\n　엘토나 대지가 멸망할 걱정은 없어져…….<stop_lip_animation al01 CLOSE_MOUTH>": "<voice 02502_19000625><start_lip_sync al01 _normal m00001>: 이 고대 주문이 부활하면\n　엘토나 대지가 멸망할 걱정은 없어져…….<stop_lip_animation al01 CLOSE_MOUTH>"
+  },
+  "19000626": {
+    "<voice 02761_19000626><start_lip_sync al01 _normal m00001>: 안 돼!<stop_lip_animation al01 CLOSE_MOUTH>": "<voice 02761_19000626><start_lip_sync al01 _normal m00001>: 안 돼!<stop_lip_animation al01 CLOSE_MOUTH>"
+  },
+  "19000627": {
+    "<voice 02761_19000627><start_lip_sync al01 _normal m00001>: 이런!<stop_lip_animation al01 CLOSE_MOUTH>": "<voice 02761_19000627><start_lip_sync al01 _normal m00001>: 이런!<stop_lip_animation al01 CLOSE_MOUTH>"
+  },
+  "37": {
+    "<voice 03336_00000037><start_lip_sync n00212 _normal m00001>: <pc> 님~~!!\n　공부, 조금만 더 가르쳐 주세요~~~!!<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03336_00000037><start_lip_sync n00212 _normal m00001>: <pc> 님~~!!\n　공부, 조금만 더 가르쳐 주세요~~~!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "38": {
+    "<voice 03441_00000038><start_lip_sync n00212 _normal m00001>: <pc> 님!?<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03441_00000038><start_lip_sync n00212 _normal m00001>: <pc> 님!?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "39": {
+    "<voice 03600_00000039><start_lip_sync n00212 _normal m00001>: 이, 이럴 때는, 그러니까……<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03600_00000039><start_lip_sync n00212 _normal m00001>: 이, 이럴 때는, 그러니까……<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "40": {
+    "<voice 03669_00000040><start_lip_sync n00212 _normal m00001>: 심장이…… 멈췄어……?<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03669_00000040><start_lip_sync n00212 _normal m00001>: 심장이…… 멈췄어……?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "41": {
+    "<voice 03728_00000041><start_lip_sync n00212 _normal m00001>: 호흡도 멈췄어……??<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03728_00000041><start_lip_sync n00212 _normal m00001>: 호흡도 멈췄어……??<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "42": {
+    "<voice 03807_00000042><start_lip_sync n00212 _normal m00001>: …………………….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03807_00000042><start_lip_sync n00212 _normal m00001>: …………………….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "12210": {
+    "<voice 03880_00012210><start_lip_sync n00212 _normal m00001>: 꺄아아아악, 죽었어!!!<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 03880_00012210><start_lip_sync n00212 _normal m00001>: 꺄아아아악, 죽었어!!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "43": {
+    "<voice 04495_00000043><start_lip_sync n00212 _normal m00001>: 꺄아아아악, 살아 있어!!!<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04495_00000043><start_lip_sync n00212 _normal m00001>: 꺄아아아악, 살아 있어!!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "9191": {
+    "<voice 04572_00009191><start_lip_sync n00214 _normal m00001>: 시끄러워, 후우라.<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 04572_00009191><start_lip_sync n00214 _normal m00001>: 시끄러워, 후우라.<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "9192": {
+    "<voice 04653_00009192><start_lip_sync n00212 _normal m00001>: 아사나기!<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04653_00009192><start_lip_sync n00212 _normal m00001>: 아사나기!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "46": {
+    "<voice 04703_00000046><start_lip_sync n00212 _normal m00001>: 하지만 <pc> 님이\n　죽었다가 살아났는걸!<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04703_00000046><start_lip_sync n00212 _normal m00001>: 하지만 <pc> 님이\n　죽었다가 살아났는걸!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "9193": {
+    "<voice 04792_00009193><start_lip_sync n00214 _normal m00001>: 뭐라고?<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 04792_00009193><start_lip_sync n00214 _normal m00001>: 뭐라고?<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "9194": {
+    "<voice 04827_00009194><start_lip_sync n00212 _normal m00001>: 내 말은! <pc> 님이 죽었는데\n　되살아났다니까! 뭐랄까, 마치\n　다른 혼이 몸속으로 들어간 것처럼!!<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 04827_00009194><start_lip_sync n00212 _normal m00001>: 내 말은! <pc> 님이 죽었는데\n　되살아났다니까! 뭐랄까, 마치\n　다른 혼이 몸속으로 들어간 것처럼!!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "9195": {
+    "<voice 05038_00009195><start_lip_sync n00214 _normal m00001>: 그래그래. 알았어, 알았다고.<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 05038_00009195><start_lip_sync n00214 _normal m00001>: 그래그래. 알았어, 알았다고.<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "50": {
+    "<voice 05086_00000050><start_lip_sync n00214 _normal m00001>: 그런 것보다……<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 05086_00000050><start_lip_sync n00214 _normal m00001>: 그런 것보다……<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "51": {
+    "<voice 05136_00000051><start_lip_sync n00214 _normal m00001>: 이제 곧 새싹 시험을 시작한다더군!<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 05136_00000051><start_lip_sync n00214 _normal m00001>: 이제 곧 새싹 시험을 시작한다더군!<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "9196": {
+    "<voice 05239_00009196><start_lip_sync n00212 _normal m00001>: 뭐어어어!? 벌써 시간이 그렇게 됐어?<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 05239_00009196><start_lip_sync n00212 _normal m00001>: 뭐어어어!? 벌써 시간이 그렇게 됐어?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "53": {
+    "<voice 05301_00000053><start_lip_sync n00212 _normal m00001>: 어, 어떡하지……?\n　<pc> 님~~~<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 05301_00000053><start_lip_sync n00212 _normal m00001>: 어, 어떡하지……?\n　<pc> 님~~~<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "54": {
+    "<voice 05381_00000054><start_lip_sync n00214 _normal m00001>: 후우라!\n　툭하면 <pc>한테\n　의지하는 버릇 좀 고쳐!<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 05381_00000054><start_lip_sync n00214 _normal m00001>: 후우라!\n　툭하면 <pc>한테\n　의지하는 버릇 좀 고쳐!<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "55": {
+    "<voice 05490_00000055><start_lip_sync n00212 _normal m00001>: 흥, 아사나기는 못됐어!<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 05490_00000055><start_lip_sync n00212 _normal m00001>: 흥, 아사나기는 못됐어!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19001468": {
+    "<voice 05540_19001468><start_lip_sync n00212 _normal m00001>: <pc> 님은 다정하니까 괜찮다고!\n　그렇지? 케키<heart><stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 05540_19001468><start_lip_sync n00212 _normal m00001>: <pc> 님은 다정하니까 괜찮다고!\n　그렇지? 케키<heart><stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "19001469": {
+    "<voice 05540_19001469><start_lip_sync n00212 _normal m00001>: <pc> 님은 다정하니까 괜찮다고!\n　그렇지? 케키<heart><stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 05540_19001469><start_lip_sync n00212 _normal m00001>: <pc> 님은 다정하니까 괜찮다고!\n　그렇지? 케키<heart><stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "57": {
+    "<voice 05659_00000057><start_lip_sync n00214 _normal m00001>: 아무튼 이게 우리의 졸업 시험이다.\n　마지막 시험에서 반드시 널 이기겠어!<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 05659_00000057><start_lip_sync n00214 _normal m00001>: 아무튼 이게 우리의 졸업 시험이다.\n　마지막 시험에서 반드시 널 이기겠어!<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "58": {
+    "<voice 05878_00000058><start_lip_sync n00212 _normal m00001>: 아사나기는 새싹 시험에\n　합격할 자신이 있구나…….\n　하긴 아사나기도 머리가 좋으니까.<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 05878_00000058><start_lip_sync n00212 _normal m00001>: 아사나기는 새싹 시험에\n　합격할 자신이 있구나…….\n　하긴 아사나기도 머리가 좋으니까.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "59": {
+    "<voice 05998_00000059><start_lip_sync n00212 _normal m00001>: 하아…… 나도 열심히\n　공부했는데…….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 05998_00000059><start_lip_sync n00212 _normal m00001>: 하아…… 나도 열심히\n　공부했는데…….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "60": {
+    "<voice 06301_00000060><start_lip_sync n00212 _normal m00001>: 휴우…….\n　아카시는 좋겠다.\n　새싹 시험까지 아직 3년이나 남아서…….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 06301_00000060><start_lip_sync n00212 _normal m00001>: 휴우…….\n　아카시는 좋겠다.\n　새싹 시험까지 아직 3년이나 남아서…….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "61": {
+    "<voice 00034_00000061><start_lip_sync n00213 _normal m00001>: 아이고~ 이게 누구야!\n　모즈 씨 아니십니까!<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00034_00000061><start_lip_sync n00213 _normal m00001>: 아이고~ 이게 누구야!\n　모즈 씨 아니십니까!<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "62": {
+    "<voice 00235_00000062><start_lip_sync n00213 _normal m00001>: 그나저나 모즈 씨.\n　새싹 시험에 벌써 3번째 도전이죠?\n　이제 슬슬 합격하고 싶죠?<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00235_00000062><start_lip_sync n00213 _normal m00001>: 그나저나 모즈 씨.\n　새싹 시험에 벌써 3번째 도전이죠?\n　이제 슬슬 합격하고 싶죠?<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "63": {
+    "<voice 00275_00000063><start_lip_sync n00213 _normal m00001>: 그런 당신을 위한 든든한 아군!\n　사전을 통째로 암기할 수 있는\n　큐스케 님의 마법의 약은 어떠십니까?<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00275_00000063><start_lip_sync n00213 _normal m00001>: 그런 당신을 위한 든든한 아군!\n　사전을 통째로 암기할 수 있는\n　큐스케 님의 마법의 약은 어떠십니까?<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "64": {
+    "<voice 00310_00000064><start_lip_sync n00213 _normal m00001>: 1만 골드!를 부르고 싶지만\n　시험 직전 대서비스로 지금은\n　단돈 4000골드! 심지어!!<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00310_00000064><start_lip_sync n00213 _normal m00001>: 1만 골드!를 부르고 싶지만\n　시험 직전 대서비스로 지금은\n　단돈 4000골드! 심지어!!<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "65": {
+    "<voice 00360_00000065><start_lip_sync n00213 _normal m00001>: 지금만 특별히 덤으로 하나 더!\n　똑같은 걸 하나 더 얹어 드립니다!<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00360_00000065><start_lip_sync n00213 _normal m00001>: 지금만 특별히 덤으로 하나 더!\n　똑같은 걸 하나 더 얹어 드립니다!<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "66": {
+    "<voice 00411_00000066><start_lip_sync n00213 _normal m00001>: 살래? 사고 싶지?\n　당연히 살 거지?<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00411_00000066><start_lip_sync n00213 _normal m00001>: 살래? 사고 싶지?\n　당연히 살 거지?<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "67": {
+    "<voice 00470_00000067><start_lip_sync n00224 _normal m00001>: <pc> 씨!<stop_lip_animation n00224 CLOSE_MOUTH>": "<voice 00470_00000067><start_lip_sync n00224 _normal m00001>: <pc> 씨!<stop_lip_animation n00224 CLOSE_MOUTH>"
+  },
+  "68": {
+    "<voice 00650_00000068><start_lip_sync n00213 _normal m00001>: 아이고, 배움의 뜰 창립 이래의 대천재!\n　지성의 샘, 지식의 보고라 칭송받는\n　신동 <pc> 씨!<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00650_00000068><start_lip_sync n00213 _normal m00001>: 아이고, 배움의 뜰 창립 이래의 대천재!\n　지성의 샘, 지식의 보고라 칭송받는\n　신동 <pc> 씨!<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "69": {
+    "<voice 00680_00000069><start_lip_sync n00213 _normal m00001>: 이런 건 <pc> 씨한테는\n　하나도 필요 없는 물건입죠.\n　헤헤헤…….<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00680_00000069><start_lip_sync n00213 _normal m00001>: 이런 건 <pc> 씨한테는\n　하나도 필요 없는 물건입죠.\n　헤헤헤…….<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "72": {
+    "<voice 00710_00000072><start_lip_sync n00213 _normal m00001>: 그럼 전 급한 일이 있어서!\n　아디오스!!!<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00710_00000072><start_lip_sync n00213 _normal m00001>: 그럼 전 급한 일이 있어서!\n　아디오스!!!<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "27330": {
+    "<voice 00025_00027330><start_lip_sync n00225 _normal m00001>: 좋아, 훌륭한 대답이군. 건투를 비마!<stop_lip_animation n00225 CLOSE_MOUTH>": "<voice 00025_00027330><start_lip_sync n00225 _normal m00001>: 좋아, 훌륭한 대답이군. 건투를 비마!<stop_lip_animation n00225 CLOSE_MOUTH>"
+  },
+  "27331": {
+    "<voice 00151_00027331><start_lip_sync n00212 _normal m00001>: 앗, <pc> 님!<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00151_00027331><start_lip_sync n00212 _normal m00001>: 앗, <pc> 님!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "74": {
+    "<voice 00252_00000074><start_lip_sync n00212 _normal m00001>: 어쩌죠…….\n　그렇게 열심히 공부했는데\n　두근거려서 하나도 기억이 안 나요.<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00252_00000074><start_lip_sync n00212 _normal m00001>: 어쩌죠…….\n　그렇게 열심히 공부했는데\n　두근거려서 하나도 기억이 안 나요.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "76": {
+    "<voice 00280_00000076><start_lip_sync n00212 _normal m00001>: 동쪽 하늘에서 불화살이 떨어졌다.\n　불에 타서 부서지는 파란 지붕, 빨간 지붕……\n　이게 어디서 인용된 거였죠?<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00280_00000076><start_lip_sync n00212 _normal m00001>: 동쪽 하늘에서 불화살이 떨어졌다.\n　불에 타서 부서지는 파란 지붕, 빨간 지붕……\n　이게 어디서 인용된 거였죠?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "77": {
+    "<voice 00320_00000077><start_lip_sync n00215 _normal m00001>: <pc>!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00320_00000077><start_lip_sync n00215 _normal m00001>: <pc>!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "78": {
+    "<voice 00385_00000078><start_lip_sync n00212 _normal m00001>: 윽, 이즈야노이 선생님……!<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00385_00000078><start_lip_sync n00212 _normal m00001>: 윽, 이즈야노이 선생님……!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "80": {
+    "<voice 00490_00000080><start_lip_sync n00215 _normal m00001>: 드디어 오늘이 왔군.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00490_00000080><start_lip_sync n00215 _normal m00001>: 드디어 오늘이 왔군.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "19001427": {
+    "<voice 00510_19001427><start_lip_sync n00215 _normal m00001>: 올해 새싹 시험에는\n　천재 {pc}|hpp(과,와) \n　수재 아사나기가 도전한다.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00510_19001427><start_lip_sync n00215 _normal m00001>: 올해 새싹 시험에는\n　천재 {pc}|hpp(과,와) \n　수재 아사나기가 도전한다.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "83": {
+    "<voice 00530_00000083><start_lip_sync n00215 _normal m00001>: 이 배움의 뜰이 창설된 이래\n　처음으로 합격자가 여럿 나오는 게 아니냐고\n　다들 기대하고 있어!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00530_00000083><start_lip_sync n00215 _normal m00001>: 이 배움의 뜰이 창설된 이래\n　처음으로 합격자가 여럿 나오는 게 아니냐고\n　다들 기대하고 있어!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "84": {
+    "<voice 00620_00000084><start_lip_sync n00215 _normal m00001>: 자…… 모두 모인 모양이군.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00620_00000084><start_lip_sync n00215 _normal m00001>: 자…… 모두 모인 모양이군.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "85": {
+    "<voice 00660_00000085><start_lip_sync n00215 _normal m00001>: 좋아. 모두 집합!!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00660_00000085><start_lip_sync n00215 _normal m00001>: 좋아. 모두 집합!!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "86": {
+    "<voice 00855_00000086><start_lip_sync n00215 _normal m00001>: 우리 뜰의 학생들이여.\n　그동안 수련에 힘쓰며\n　열심히 노력했구나!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00855_00000086><start_lip_sync n00215 _normal m00001>: 우리 뜰의 학생들이여.\n　그동안 수련에 힘쓰며\n　열심히 노력했구나!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "87": {
+    "<voice 00885_00000087><start_lip_sync n00215 _normal m00001>: 이곳에 모인 너희들은\n　지금부터 새싹 시험을 치르게 될 것이다!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00885_00000087><start_lip_sync n00215 _normal m00001>: 이곳에 모인 너희들은\n　지금부터 새싹 시험을 치르게 될 것이다!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "88": {
+    "<voice 00945_00000088><start_lip_sync n00215 _normal m00001>: 새싹 시험은 예로부터\n　이 배움의 뜰에 전해 내려오는 최종 시험.\n　너희의 지식과 힘을 증명하는 시련이다.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00945_00000088><start_lip_sync n00215 _normal m00001>: 새싹 시험은 예로부터\n　이 배움의 뜰에 전해 내려오는 최종 시험.\n　너희의 지식과 힘을 증명하는 시련이다.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "89": {
+    "<voice 00975_00000089><start_lip_sync n00215 _normal m00001>: 지식을 시험하는 1차 시험과\n　힘을 시험하는 2차 시험…….<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00975_00000089><start_lip_sync n00215 _normal m00001>: 지식을 시험하는 1차 시험과\n　힘을 시험하는 2차 시험…….<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "90": {
+    "<voice 01005_00000090><start_lip_sync n00215 _normal m00001>: 이 두 시험에 합격한 학생은\n　모험가의 증표를 받고\n　배움의 뜰을 졸업하게 된다.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 01005_00000090><start_lip_sync n00215 _normal m00001>: 이 두 시험에 합격한 학생은\n　모험가의 증표를 받고\n　배움의 뜰을 졸업하게 된다.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "91": {
+    "<voice 01085_00000091><start_lip_sync n00215 _normal m00001>: 그러나 안타깝게도\n　새싹 시험에 합격하지 못한 학생은\n　1년 더 수련을 쌓아야 한다!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 01085_00000091><start_lip_sync n00215 _normal m00001>: 그러나 안타깝게도\n　새싹 시험에 합격하지 못한 학생은\n　1년 더 수련을 쌓아야 한다!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "93": {
+    "<voice 01215_00000093><start_lip_sync n00215 _normal m00001>: ……자, 설명은 이쯤 해 두고\n　지금부터 1차 시험을 시작하겠다!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 01215_00000093><start_lip_sync n00215 _normal m00001>: ……자, 설명은 이쯤 해 두고\n　지금부터 1차 시험을 시작하겠다!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "94": {
+    "<voice 01245_00000094><start_lip_sync n00215 _normal m00001>: 너희들은 이 투스쿠르 마을을 떠나\n　지혜의 사당으로 가거라.\n　그곳이 지식의 시련을 치를 장소다.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 01245_00000094><start_lip_sync n00215 _normal m00001>: 너희들은 이 투스쿠르 마을을 떠나\n　지혜의 사당으로 가거라.\n　그곳이 지식의 시련을 치를 장소다.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "9197": {
+    "<voice 01355_00009197><start_lip_sync n00215 _normal m00001>: 이 마을 서쪽의 출구를 통해 나간 후\n　길을 따라서 가면 도착할 것이다.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 01355_00009197><start_lip_sync n00215 _normal m00001>: 이 마을 서쪽의 출구를 통해 나간 후\n　길을 따라서 가면 도착할 것이다.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "95": {
+    "<voice 01385_00000095><start_lip_sync n00215 _normal m00001>: 마을 밖에는 마물이 있지.\n　지혜의 사당으로 가는 과정 또한\n　너희에게 주어진 하나의 시련인 셈이다!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 01385_00000095><start_lip_sync n00215 _normal m00001>: 마을 밖에는 마물이 있지.\n　지혜의 사당으로 가는 과정 또한\n　너희에게 주어진 하나의 시련인 셈이다!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "27338": {
+    "<voice 01465_00027338><start_lip_sync n00215 _normal m00001>: 자, 제자들이여!\n　이 뜰에서 배운 모든 것을\n　보여 봐라!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 01465_00027338><start_lip_sync n00215 _normal m00001>: 자, 제자들이여!\n　이 뜰에서 배운 모든 것을\n　보여 봐라!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "96": {
+    "<voice 01500_00000096><start_lip_sync n00215 _normal m00001>: 출발! 시험은 지금부터 시작이다!!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 01500_00000096><start_lip_sync n00215 _normal m00001>: 출발! 시험은 지금부터 시작이다!!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "97": {
+    "<voice 00190_00000097><start_lip_sync n00251 _normal m00001>: 흐음, 아주 좋아.\n　아사나기, 완벽한 대답이구나.\n　배움의 뜰에서 제대로 배워 온 모양이야.<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 00190_00000097><start_lip_sync n00251 _normal m00001>: 흐음, 아주 좋아.\n　아사나기, 완벽한 대답이구나.\n　배움의 뜰에서 제대로 배워 온 모양이야.<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "98": {
+    "<voice 00220_00000098><start_lip_sync n00251 _normal m00001>: 이로써 네 지식의 시련은 끝이다.\n　배움의 뜰로 돌아가거라.<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 00220_00000098><start_lip_sync n00251 _normal m00001>: 이로써 네 지식의 시련은 끝이다.\n　배움의 뜰로 돌아가거라.<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "99": {
+    "<voice 00296_00000099><start_lip_sync n00214 _normal m00001>: 감사합니다.<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 00296_00000099><start_lip_sync n00214 _normal m00001>: 감사합니다.<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "100": {
+    "<voice 00551_00000100><start_lip_sync n00251 _normal m00001>: 그럼 다음은…… \n　누가 지식의 시련을 받을 거지?<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 00551_00000100><start_lip_sync n00251 _normal m00001>: 그럼 다음은…… \n　누가 지식의 시련을 받을 거지?<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "101": {
+    "<voice 00701_00000101><start_lip_sync n00251 _normal m00001>: 흠…….<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 00701_00000101><start_lip_sync n00251 _normal m00001>: 흠…….<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "102": {
+    "<voice 00806_00000102><start_lip_sync n00251 _normal m00001>: 오오, <pc> 아니냐.\n　그런 데 멀뚱히 서 있지 말고\n　이리 오거라.<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 00806_00000102><start_lip_sync n00251 _normal m00001>: 오오, <pc> 아니냐.\n　그런 데 멀뚱히 서 있지 말고\n　이리 오거라.<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "103": {
+    "<voice 00931_00000103><start_lip_sync n00251 _normal m00001>: <pc>.\n　너와는 이곳에서 문답을 주고받으며\n　수없이 밤을 지새웠지.<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 00931_00000103><start_lip_sync n00251 _normal m00001>: <pc>.\n　너와는 이곳에서 문답을 주고받으며\n　수없이 밤을 지새웠지.<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "104": {
+    "<voice 00961_00000104><start_lip_sync n00251 _normal m00001>: 네 지식의 깊이는\n　지식의 시련으로 시험할 필요도\n　없다는 건 잘 안다.<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 00961_00000104><start_lip_sync n00251 _normal m00001>: 네 지식의 깊이는\n　지식의 시련으로 시험할 필요도\n　없다는 건 잘 안다.<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "105": {
+    "<voice 01021_00000105><start_lip_sync n00251 _normal m00001>: <pc>.\n　네 능력이라면 졸업은 따놓은 당상.\n　마지막 기회이니 내 질문에 대답해 보거라.<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01021_00000105><start_lip_sync n00251 _normal m00001>: <pc>.\n　네 능력이라면 졸업은 따놓은 당상.\n　마지막 기회이니 내 질문에 대답해 보거라.<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "106": {
+    "<voice 01051_00000106><start_lip_sync n00251 _normal m00001>: 그럼 시작하마…….<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01051_00000106><start_lip_sync n00251 _normal m00001>: 그럼 시작하마…….<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "107": {
+    "<voice 01151_00000107><start_lip_sync n00251 _normal m00001>: 우리 엘프는 세계수와 함께 살고\n　함께 멸망할 운명이라고들 하지.\n　이것은 참인가?<yesno><close><stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01151_00000107><start_lip_sync n00251 _normal m00001>: 우리 엘프는 세계수와 함께 살고\n　함께 멸망할 운명이라고들 하지.\n　이것은 참인가?<yesno><close><stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "108": {
+    "<voice 01201_00000108><start_lip_sync n00251 _normal m00001>: 흠흠…… 그렇단 말이지.\n　그럼 다음 질문.<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01201_00000108><start_lip_sync n00251 _normal m00001>: 흠흠…… 그렇단 말이지.\n　그럼 다음 질문.<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "109": {
+    "<voice 01231_00000109><start_lip_sync n00251 _normal m00001>: 먼 옛날…… 하늘에는\n　두 개의 태양이 있었다고 전해지지.\n　이것은 참인가?<yesno><close><stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01231_00000109><start_lip_sync n00251 _normal m00001>: 먼 옛날…… 하늘에는\n　두 개의 태양이 있었다고 전해지지.\n　이것은 참인가?<yesno><close><stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "110": {
+    "<voice 01276_00000110><start_lip_sync n00251 _normal m00001>: 흠흠…… 그렇단 말이지.\n　그럼 마지막 질문이다.<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01276_00000110><start_lip_sync n00251 _normal m00001>: 흠흠…… 그렇단 말이지.\n　그럼 마지막 질문이다.<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "111": {
+    "<voice 01306_00000111><start_lip_sync n00251 _normal m00001>: 이 지혜의 사당에서 보이는 빛의 강은\n　성스러운 것이라고도, 악한 것이라고도 하지.\n　<pc>, 너는 성스럽다고 생각하느냐?<yesno><close><stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01306_00000111><start_lip_sync n00251 _normal m00001>: 이 지혜의 사당에서 보이는 빛의 강은\n　성스러운 것이라고도, 악한 것이라고도 하지.\n　<pc>, 너는 성스럽다고 생각하느냐?<yesno><close><stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "112": {
+    "<voice 01371_00000112><start_lip_sync n00251 _normal m00001>: 그렇단 말이지…….<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01371_00000112><start_lip_sync n00251 _normal m00001>: 그렇단 말이지…….<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "113": {
+    "<voice 01441_00000113><start_lip_sync n00251 _normal m00001>: 이야, 다행이야!\n　이렇게 기쁠 데가 있나!<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01441_00000113><start_lip_sync n00251 _normal m00001>: 이야, 다행이야!\n　이렇게 기쁠 데가 있나!<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "114": {
+    "<voice 01471_00000114><start_lip_sync n00251 _normal m00001>: <pc>, 너와는 오랜 세월 줄기차게\n　논쟁을 벌였다만 끝에 와서는\n　나와 의견이 완벽하게 일치했구나!<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01471_00000114><start_lip_sync n00251 _normal m00001>: <pc>, 너와는 오랜 세월 줄기차게\n　논쟁을 벌였다만 끝에 와서는\n　나와 의견이 완벽하게 일치했구나!<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "115": {
+    "<voice 01501_00000115><start_lip_sync n00251 _normal m00001>: 이걸로 나도 마음의 짐을 덜었다!\n　<pc>, 너와 의견이 일치했으니 말이다.\n　이렇게 마음이 든든할 수가 없구나.<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01501_00000115><start_lip_sync n00251 _normal m00001>: 이걸로 나도 마음의 짐을 덜었다!\n　<pc>, 너와 의견이 일치했으니 말이다.\n　이렇게 마음이 든든할 수가 없구나.<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "116": {
+    "<voice 01531_00000116><start_lip_sync n00251 _normal m00001>: <pc>.\n　네가 어엿한 엘프가 되면\n　그때는 밤새도록 술잔을 나누자꾸나!<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01531_00000116><start_lip_sync n00251 _normal m00001>: <pc>.\n　네가 어엿한 엘프가 되면\n　그때는 밤새도록 술잔을 나누자꾸나!<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "117": {
+    "<voice 01597_00000117><start_lip_sync n00251 _normal m00001>: 어이쿠…… 지금은 아직\n　지식의 시련을 치르는 중이었지.<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01597_00000117><start_lip_sync n00251 _normal m00001>: 어이쿠…… 지금은 아직\n　지식의 시련을 치르는 중이었지.<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "118": {
+    "<voice 01656_00000118><start_lip_sync n00251 _normal m00001>: <pc>.\n　네 지식의 시련은 이걸로 끝이다.<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01656_00000118><start_lip_sync n00251 _normal m00001>: <pc>.\n　네 지식의 시련은 이걸로 끝이다.<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "119": {
+    "<voice 01686_00000119><start_lip_sync n00251 _normal m00001>: 투스쿠르 마을의 배움의 뜰로 돌아가거라.\n　그리고 지식의 시련을 마쳤다고\n　이즈야노이 선생님께 보고하거라.<stop_lip_animation n00251 CLOSE_MOUTH>": "<voice 01686_00000119><start_lip_sync n00251 _normal m00001>: 투스쿠르 마을의 배움의 뜰로 돌아가거라.\n　그리고 지식의 시련을 마쳤다고\n　이즈야노이 선생님께 보고하거라.<stop_lip_animation n00251 CLOSE_MOUTH>"
+  },
+  "120": {
+    "<voice 00040_00000120><start_lip_sync n00214 _normal m00001>: <pc>!<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 00040_00000120><start_lip_sync n00214 _normal m00001>: <pc>!<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "121": {
+    "<voice 00187_00000121><start_lip_sync n00214 _normal m00001>: 조금 전에 토요호로 선생님께 한 대답……\n　그건 대체 뭐야?<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 00187_00000121><start_lip_sync n00214 _normal m00001>: 조금 전에 토요호로 선생님께 한 대답……\n　그건 대체 뭐야?<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "122": {
+    "<voice 00217_00000122><start_lip_sync n00214 _normal m00001>: 토요호로 선생님은 기뻐하셨지만\n　……내 눈은 못 속여.\n　그건 평소의 네가 할 만한 대답이 아니야!<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 00217_00000122><start_lip_sync n00214 _normal m00001>: 토요호로 선생님은 기뻐하셨지만\n　……내 눈은 못 속여.\n　그건 평소의 네가 할 만한 대답이 아니야!<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "123": {
+    "<voice 00307_00000123><start_lip_sync n00214 _normal m00001>: 무슨 꿍꿍이인진 모르겠지만\n　힘의 시련에는 진지하게 임하도록 해.<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 00307_00000123><start_lip_sync n00214 _normal m00001>: 무슨 꿍꿍이인진 모르겠지만\n　힘의 시련에는 진지하게 임하도록 해.<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "9587": {
+    "<voice 00145_00009587><start_lip_sync n00216 _normal m00001>: 푹 쉬셨나요?\n　곧 결과가 나온다고 생각하니\n　왠지 긴장되네요.<stop_lip_animation n00216 CLOSE_MOUTH>": "<voice 00145_00009587><start_lip_sync n00216 _normal m00001>: 푹 쉬셨나요?\n　곧 결과가 나온다고 생각하니\n　왠지 긴장되네요.<stop_lip_animation n00216 CLOSE_MOUTH>"
+  },
+  "124": {
+    "<voice 00320_00000124><start_lip_sync n00212 _normal m00001>: <pc> 님…….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00320_00000124><start_lip_sync n00212 _normal m00001>: <pc> 님…….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "125": {
+    "<voice 00415_00000125><start_lip_sync n00212 _normal m00001>: 저…… 하나도 대답하지 못했어요…….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00415_00000125><start_lip_sync n00212 _normal m00001>: 저…… 하나도 대답하지 못했어요…….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "126": {
+    "<voice 00445_00000126><start_lip_sync n00212 _normal m00001>: 그렇게…… 열심히 공부했는데\n　머릿속이 새하얘져서…….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00445_00000126><start_lip_sync n00212 _normal m00001>: 그렇게…… 열심히 공부했는데\n　머릿속이 새하얘져서…….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "128": {
+    "<voice 00495_00000128><start_lip_sync n00212 _normal m00001>: 있잖아요, <pc> 님.\n　만약 제가 지식의 시련에 합격하지 못해도……<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00495_00000128><start_lip_sync n00212 _normal m00001>: 있잖아요, <pc> 님.\n　만약 제가 지식의 시련에 합격하지 못해도……<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "129": {
+    "<voice 00555_00000129><start_lip_sync n00212 _normal m00001>: 계속 친구로 지내 주실 거죠?<yesno><close><stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00555_00000129><start_lip_sync n00212 _normal m00001>: 계속 친구로 지내 주실 거죠?<yesno><close><stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "130": {
+    "<voice 00590_00000130><start_lip_sync n00212 _normal m00001>: 저…… 정말요!?<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00590_00000130><start_lip_sync n00212 _normal m00001>: 저…… 정말요!?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "131": {
+    "<voice 00618_00000131><start_lip_sync n00212 _normal m00001>: 고마워요, <pc> 님!\n　저 이제 더는 침울해하지 않을게요.\n　제게는 <pc> 님이 있으니까요.<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00618_00000131><start_lip_sync n00212 _normal m00001>: 고마워요, <pc> 님!\n　저 이제 더는 침울해하지 않을게요.\n　제게는 <pc> 님이 있으니까요.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "132": {
+    "<voice 00670_00000132><start_lip_sync n00212 _normal m00001>: 윽…….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00670_00000132><start_lip_sync n00212 _normal m00001>: 윽…….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "133": {
+    "<voice 00695_00000133><start_lip_sync n00212 _normal m00001>: ……………….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00695_00000133><start_lip_sync n00212 _normal m00001>: ……………….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "134": {
+    "<voice 00725_00000134><start_lip_sync n00212 _normal m00001>: ……………………………….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00725_00000134><start_lip_sync n00212 _normal m00001>: ……………………………….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "135": {
+    "<voice 00795_00000135><start_lip_sync n00212 _normal m00001>: 그 말은…… 이렇게 어두운 저하고는\n　친구로 지내기 싫단 뜻이죠?<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00795_00000135><start_lip_sync n00212 _normal m00001>: 그 말은…… 이렇게 어두운 저하고는\n　친구로 지내기 싫단 뜻이죠?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "136": {
+    "<voice 00825_00000136><start_lip_sync n00212 _normal m00001>: 알았어요, 기운 낼게요!\n　저 이제 더는 침울해하지 않을게요.\n　<pc> 님에게 미움받기 싫으니까요!<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00825_00000136><start_lip_sync n00212 _normal m00001>: 알았어요, 기운 낼게요!\n　저 이제 더는 침울해하지 않을게요.\n　<pc> 님에게 미움받기 싫으니까요!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "137": {
+    "<voice 00895_00000137><start_lip_sync n00214 _normal m00001>: <pc>, 여기 있었군.<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 00895_00000137><start_lip_sync n00214 _normal m00001>: <pc>, 여기 있었군.<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "138": {
+    "<voice 00925_00000138><start_lip_sync n00214 _normal m00001>: 이제부터 지식의 시련의\n　합격자를 발표한다고 해.\n　모두 광장으로 모이라는군.<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 00925_00000138><start_lip_sync n00214 _normal m00001>: 이제부터 지식의 시련의\n　합격자를 발표한다고 해.\n　모두 광장으로 모이라는군.<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "139": {
+    "<voice 01080_00000139><start_lip_sync n00214 _normal m00001>: 그건 그렇고 뭔가 이상한걸…….\n　뭐, 나와는 상관없지만.<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 01080_00000139><start_lip_sync n00214 _normal m00001>: 그건 그렇고 뭔가 이상한걸…….\n　뭐, 나와는 상관없지만.<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "140": {
+    "<voice 01205_00000140><start_lip_sync n00212 _normal m00001>: 후우…… 돌아오자마자 바로 발표라니.<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01205_00000140><start_lip_sync n00212 _normal m00001>: 후우…… 돌아오자마자 바로 발표라니.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "141": {
+    "<voice 00025_00000141><start_lip_sync n00215 _normal m00001>: <pc>, 왔군.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00025_00000141><start_lip_sync n00215 _normal m00001>: <pc>, 왔군.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "142": {
+    "<voice 00118_00000142><start_lip_sync n00215 _normal m00001>: 좋아, 모두 정렬해라!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00118_00000142><start_lip_sync n00215 _normal m00001>: 좋아, 모두 정렬해라!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "143": {
+    "<voice 00213_00000143><start_lip_sync n00215 _normal m00001>: 다들 고생이 많았다!\n　너희의 답은 잘 받았다.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00213_00000143><start_lip_sync n00215 _normal m00001>: 다들 고생이 많았다!\n　너희의 답은 잘 받았다.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "144": {
+    "<voice 00278_00000144><start_lip_sync n00215 _normal m00001>: 그럼 바로\n　1차 시험 합격자를 발표하마!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00278_00000144><start_lip_sync n00215 _normal m00001>: 그럼 바로\n　1차 시험 합격자를 발표하마!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "145": {
+    "<voice 00358_00000145><start_lip_sync n00215 _normal m00001>: <pc>!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00358_00000145><start_lip_sync n00215 _normal m00001>: <pc>!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "9586": {
+    "<voice 00397_00009586><start_lip_sync n00215 _normal m00001>: 아사나기!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00397_00009586><start_lip_sync n00215 _normal m00001>: 아사나기!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "146": {
+    "<voice 00474_00000146><start_lip_sync n00215 _normal m00001>: 그리고 큐스케!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00474_00000146><start_lip_sync n00215 _normal m00001>: 그리고 큐스케!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "147": {
+    "<voice 00630_00000147><start_lip_sync n00215 _normal m00001>: 이상이다!!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00630_00000147><start_lip_sync n00215 _normal m00001>: 이상이다!!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "148": {
+    "<voice 00794_00000148><start_lip_sync n00215 _normal m00001>: 처음으로 지식의 시련에 합격한\n　{pc}|hpp(과,와) 아사나기는 앞으로 나와라.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00794_00000148><start_lip_sync n00215 _normal m00001>: 처음으로 지식의 시련에 합격한\n　{pc}|hpp(과,와) 아사나기는 앞으로 나와라.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "149": {
+    "<voice 00943_00000149><start_lip_sync n00215 _normal m00001>: 지식의 시련에 합격한 증표로\n　두 사람에게 루라 스톤을 수여한다.\n　사용법은 기숙사 앞에 있는 지안에게 듣도록.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 00943_00000149><start_lip_sync n00215 _normal m00001>: 지식의 시련에 합격한 증표로\n　두 사람에게 루라 스톤을 수여한다.\n　사용법은 기숙사 앞에 있는 지안에게 듣도록.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "19001518": {
+    "{pc}|hpp(은,는)\n루라 스톤을 받았다!<me 61>": "{pc}|hpp(은,는)\n루라 스톤을 받았다!<me 61>"
+  },
+  "39108": {
+    "루라 스톤은 등록한 장소로\n단숨에 이동할 수 있는 마법의 돌입니다.\n여러 번 사용해도 없어지지 않습니다.": "루라 스톤은 등록한 장소로\n단숨에 이동할 수 있는 마법의 돌입니다.\n여러 번 사용해도 없어지지 않습니다."
+  },
+  "19000628": {
+    "이 루라 스톤에는\n투스쿠르 마을이 새겨져 있습니다.": "이 루라 스톤에는\n투스쿠르 마을이 새겨져 있습니다."
+  },
+  "19000629": {
+    "모험에서 방문한 장소가 새겨질 뿐 아니라\n각지에 있는 이끌림의 비석을 조사하면\n그곳을 목적지로 등록할 수 있습니다.": "모험에서 방문한 장소가 새겨질 뿐 아니라\n각지에 있는 이끌림의 비석을 조사하면\n그곳을 목적지로 등록할 수 있습니다."
+  },
+  "151": {
+    "<voice 01153_00000151><start_lip_sync n00215 _normal m00001>: 합격자 3명은 무녀의 집으로 가라.\n　그곳에서 재계를 마친 자부터\n　세계수 언덕으로 출발하도록.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 01153_00000151><start_lip_sync n00215 _normal m00001>: 합격자 3명은 무녀의 집으로 가라.\n　그곳에서 재계를 마친 자부터\n　세계수 언덕으로 출발하도록.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "152": {
+    "<voice 01237_00000152><start_lip_sync n00215 _normal m00001>: 나머지는 방으로 돌아가라.\n　앞으로 1년 더 수련을 쌓는다!\n　그럼 해산!!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 01237_00000152><start_lip_sync n00215 _normal m00001>: 나머지는 방으로 돌아가라.\n　앞으로 1년 더 수련을 쌓는다!\n　그럼 해산!!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "153": {
+    "<voice 01486_00000153><start_lip_sync n00212 _normal m00001>: 으흑…….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01486_00000153><start_lip_sync n00212 _normal m00001>: 으흑…….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "154": {
+    "<voice 01536_00000154><start_lip_sync n00212 _normal m00001>: 역시나 떨어졌어……\n　케키……….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01536_00000154><start_lip_sync n00212 _normal m00001>: 역시나 떨어졌어……\n　케키……….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "155": {
+    "<voice 01604_00000155><start_lip_sync n00212 _normal m00001>: 난…… 어떡하면 좋지……?<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01604_00000155><start_lip_sync n00212 _normal m00001>: 난…… 어떡하면 좋지……?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "156": {
+    "<voice 01659_00000156><start_lip_sync n00212 _normal m00001>: 흑, 흑…….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01659_00000156><start_lip_sync n00212 _normal m00001>: 흑, 흑…….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "157": {
+    "<voice 01779_00000157><start_lip_sync n00214 _normal m00001>: …………………….<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 01779_00000157><start_lip_sync n00214 _normal m00001>: …………………….<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "158": {
+    "<voice 01918_00000158><start_lip_sync n00215 _normal m00001>: 먼저 가는 자와 남겨지는 자.\n　시험이란 본디 그런 것이다…….\n　너희가 마음 쓸 필요는 없어.<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 01918_00000158><start_lip_sync n00215 _normal m00001>: 먼저 가는 자와 남겨지는 자.\n　시험이란 본디 그런 것이다…….\n　너희가 마음 쓸 필요는 없어.<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "159": {
+    "<voice 02042_00000159><start_lip_sync n00215 _normal m00001>: 상심에 빠져 있어서는\n　세계수 언덕에 다다를 수 없다.\n　자, 어서 가거라! 세계수의 새싹들이여!<stop_lip_animation n00215 CLOSE_MOUTH>": "<voice 02042_00000159><start_lip_sync n00215 _normal m00001>: 상심에 빠져 있어서는\n　세계수 언덕에 다다를 수 없다.\n　자, 어서 가거라! 세계수의 새싹들이여!<stop_lip_animation n00215 CLOSE_MOUTH>"
+  },
+  "160": {
+    "<voice 00030_00000160><start_lip_sync n00218 _normal m00001>: <pc> 씨!<stop_lip_animation n00218 CLOSE_MOUTH>": "<voice 00030_00000160><start_lip_sync n00218 _normal m00001>: <pc> 씨!<stop_lip_animation n00218 CLOSE_MOUTH>"
+  },
+  "161": {
+    "<voice 00077_00000161><start_lip_sync n00218 _normal m00001>: 정말 잘 왔어요.\n　후우라 씨가…….<stop_lip_animation n00218 CLOSE_MOUTH>": "<voice 00077_00000161><start_lip_sync n00218 _normal m00001>: 정말 잘 왔어요.\n　후우라 씨가…….<stop_lip_animation n00218 CLOSE_MOUTH>"
+  },
+  "162": {
+    "<voice 00225_00000162><start_lip_sync n00212 _normal m00001>: 흑, 으흑……\n　훌쩍…… 흑…….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00225_00000162><start_lip_sync n00212 _normal m00001>: 흑, 으흑……\n　훌쩍…… 흑…….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "163": {
+    "<voice 00265_00000163><start_lip_sync n00212 _normal m00001>: 역시 난 바보야…….\n　머리 나쁜 덜떨어진 애야…….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00265_00000163><start_lip_sync n00212 _normal m00001>: 역시 난 바보야…….\n　머리 나쁜 덜떨어진 애야…….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "164": {
+    "<voice 00330_00000164><start_lip_sync n00212 _normal m00001>: <pc> 님이나 아사나기,\n　큐스케와는 애초에 머리가 달라…….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00330_00000164><start_lip_sync n00212 _normal m00001>: <pc> 님이나 아사나기,\n　큐스케와는 애초에 머리가 달라…….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "165": {
+    "<voice 00500_00000165><start_lip_sync n00218 _normal m00001>: 후우라 씨, 그만 기운 내요.\n　<pc> 씨가 왔어요!<stop_lip_animation n00218 CLOSE_MOUTH>": "<voice 00500_00000165><start_lip_sync n00218 _normal m00001>: 후우라 씨, 그만 기운 내요.\n　<pc> 씨가 왔어요!<stop_lip_animation n00218 CLOSE_MOUTH>"
+  },
+  "166": {
+    "<voice 00600_00000166><start_lip_sync n00212 _normal m00001>: <pc> 님이!?<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00600_00000166><start_lip_sync n00212 _normal m00001>: <pc> 님이!?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "167": {
+    "<voice 00810_00000167><start_lip_sync n00212 _normal m00001>: <pc> 님, 대체 왜……?<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00810_00000167><start_lip_sync n00212 _normal m00001>: <pc> 님, 대체 왜……?<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "168": {
+    "<voice 00860_00000168><start_lip_sync n00212 _normal m00001>: 힘의 시련은…… 벌써 시작됐잖아요?\n　여기 올 때가 아닐 텐데.<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00860_00000168><start_lip_sync n00212 _normal m00001>: 힘의 시련은…… 벌써 시작됐잖아요?\n　여기 올 때가 아닐 텐데.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "169": {
+    "<voice 00980_00000169><start_lip_sync n00212 _normal m00001>: 절 걱정해서 와 주셨군요.\n　죄송해요…….<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 00980_00000169><start_lip_sync n00212 _normal m00001>: 절 걱정해서 와 주셨군요.\n　죄송해요…….<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "170": {
+    "<voice 01060_00000170><start_lip_sync n00212 _normal m00001>: 고마워요, <pc> 님.\n　저 이제 괜찮아요!<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01060_00000170><start_lip_sync n00212 _normal m00001>: 고마워요, <pc> 님.\n　저 이제 괜찮아요!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "171": {
+    "<voice 01154_00000171><start_lip_sync n00212 _normal m00001>: 아! 맞다.\n　이 {%sEV_ITEM}|hpp(을,를) 가져가세요.<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01154_00000171><start_lip_sync n00212 _normal m00001>: 아! 맞다.\n　이 {%sEV_ITEM}|hpp(을,를) 가져가세요.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "9716": {
+    "<voice 01230_00009716><start_lip_sync n00212 _normal m00001>: ……어? 소지품이 가득 차서\n　넣을 공간이 없나 봐요. 아버지가 보내 주신\n　{%sEV_ITEM}|hpp(을,를) 드리려고 했는데.<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01230_00009716><start_lip_sync n00212 _normal m00001>: ……어? 소지품이 가득 차서\n　넣을 공간이 없나 봐요. 아버지가 보내 주신\n　{%sEV_ITEM}|hpp(을,를) 드리려고 했는데.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "9717": {
+    "<voice 01275_00009717><start_lip_sync n00212 _normal m00001>: 아… 아하하. 하긴 그래요.\n　제가 드리는 선물 따위\n　<pc> 님께는 필요 없겠죠.<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01275_00009717><start_lip_sync n00212 _normal m00001>: 아… 아하하. 하긴 그래요.\n　제가 드리는 선물 따위\n　<pc> 님께는 필요 없겠죠.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "172": {
+    "{pc}|hpp(은,는)\n<%sEV_ITEM> 5개를 받았다!<se_nots System Item>": "{pc}|hpp(은,는)\n<%sEV_ITEM> 5개를 받았다!<se_nots System Item>"
+  },
+  "173": {
+    "<voice 01275_00000173><start_lip_sync n00212 _normal m00001>: 고향의 아버지가 보내 주셨는데\n　저는 떨어졌으니까…….\n　대신 <pc> 님이 쓰세요.<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01275_00000173><start_lip_sync n00212 _normal m00001>: 고향의 아버지가 보내 주셨는데\n　저는 떨어졌으니까…….\n　대신 <pc> 님이 쓰세요.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "174": {
+    "<voice 01360_00000174><start_lip_sync n00212 _normal m00001>: <pc> 님은 공부뿐 아니라\n　힘도 세니까 분명\n　힘의 시련에도 합격할 거예요!<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01360_00000174><start_lip_sync n00212 _normal m00001>: <pc> 님은 공부뿐 아니라\n　힘도 세니까 분명\n　힘의 시련에도 합격할 거예요!<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "175": {
+    "<voice 01520_00000175><start_lip_sync n00212 _normal m00001>: 이제 가세요, <pc> 님.\n　고마워요.\n　전 조금 더 바람을 쐬어야겠어요.<stop_lip_animation n00212 CLOSE_MOUTH>": "<voice 01520_00000175><start_lip_sync n00212 _normal m00001>: 이제 가세요, <pc> 님.\n　고마워요.\n　전 조금 더 바람을 쐬어야겠어요.<stop_lip_animation n00212 CLOSE_MOUTH>"
+  },
+  "176": {
+    "<voice 00030_00000176><start_lip_sync n00244 _normal m00001>: 어서 오세요.\n　세계수의 새싹 {pc}|hpp(이여,여).\n　제 이름은 아자유미……<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 00030_00000176><start_lip_sync n00244 _normal m00001>: 어서 오세요.\n　세계수의 새싹 {pc}|hpp(이여,여).\n　제 이름은 아자유미……<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "177": {
+    "<voice 00110_00000177><start_lip_sync n00213 _normal m00001>: 유차린! 사랑해!!<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00110_00000177><start_lip_sync n00213 _normal m00001>: 유차린! 사랑해!!<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "178": {
+    "<voice 00225_00000178><start_lip_sync n00244 _normal m00001>: 휴우……. 큐스케 씨는\n　아직 안에 계시나 보군.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 00225_00000178><start_lip_sync n00244 _normal m00001>: 휴우……. 큐스케 씨는\n　아직 안에 계시나 보군.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "179": {
+    "<voice 00434_00000179><start_lip_sync n00244 _normal m00001>: 큐스케 씨!\n　정화는 끝나셨겠죠?\n　어서 세계수 언덕으로 출발하세요!<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 00434_00000179><start_lip_sync n00244 _normal m00001>: 큐스케 씨!\n　정화는 끝나셨겠죠?\n　어서 세계수 언덕으로 출발하세요!<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "180": {
+    "<voice 00549_00000180><start_lip_sync n00213 _normal m00001>: 크윽! 난 이렇게 정화의 방에서\n　오직 유차린을 만나기 위해\n　해마다 새싹 시험에 낙제하고 있다고!<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00549_00000180><start_lip_sync n00213 _normal m00001>: 크윽! 난 이렇게 정화의 방에서\n　오직 유차린을 만나기 위해\n　해마다 새싹 시험에 낙제하고 있다고!<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "181": {
+    "<voice 00639_00000181><start_lip_sync n00213 _normal m00001>: 1년에 한 번뿐인 귀중한 시간인데\n　천천히 시간 좀 보낸다고 어디 덧나!?<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00639_00000181><start_lip_sync n00213 _normal m00001>: 1년에 한 번뿐인 귀중한 시간인데\n　천천히 시간 좀 보낸다고 어디 덧나!?<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "182": {
+    "<voice 00739_00000182><start_lip_sync n00245 _normal m00001>: 큐스케 씨……!<stop_lip_animation n00245 CLOSE_MOUTH>": "<voice 00739_00000182><start_lip_sync n00245 _normal m00001>: 큐스케 씨……!<stop_lip_animation n00245 CLOSE_MOUTH>"
+  },
+  "183": {
+    "<voice 00798_00000183><start_lip_sync n00213 _normal m00001>: 아앗, 미안해.\n　나도 모르게 큰소리를…….<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00798_00000183><start_lip_sync n00213 _normal m00001>: 아앗, 미안해.\n　나도 모르게 큰소리를…….<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "184": {
+    "<voice 00878_00000184><start_lip_sync n00213 _normal m00001>: 그래. 네 입장을 곤란하게 만들면 안 되지.\n　아쉽지만 조용히 돌아갈게…….<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00878_00000184><start_lip_sync n00213 _normal m00001>: 그래. 네 입장을 곤란하게 만들면 안 되지.\n　아쉽지만 조용히 돌아갈게…….<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "185": {
+    "<voice 00975_00000185><start_lip_sync n00213 _normal m00001>: 사랑해, 유차린.<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00975_00000185><start_lip_sync n00213 _normal m00001>: 사랑해, 유차린.<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "186": {
+    "<voice 01095_00000186><start_lip_sync n00245 _normal m00001>: 기뻐요…… 큐스케 씨.<stop_lip_animation n00245 CLOSE_MOUTH>": "<voice 01095_00000186><start_lip_sync n00245 _normal m00001>: 기뻐요…… 큐스케 씨.<stop_lip_animation n00245 CLOSE_MOUTH>"
+  },
+  "187": {
+    "<voice 01294_00000187><start_lip_sync n00213 _normal m00001>: 그럼 내년에 또 만나자!\n　아디오스!!<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 01294_00000187><start_lip_sync n00213 _normal m00001>: 그럼 내년에 또 만나자!\n　아디오스!!<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "188": {
+    "<voice 01607_00000188><start_lip_sync n00244 _normal m00001>: 나 참, 한심해서 원…….\n　저런 사람이 지식의 시련 합격자라니.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 01607_00000188><start_lip_sync n00244 _normal m00001>: 나 참, 한심해서 원…….\n　저런 사람이 지식의 시련 합격자라니.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "189": {
+    "<voice 01837_00000189><start_lip_sync n00244 _normal m00001>: 오래 기다리시게 해서 죄송합니다.\n　그럼 무녀 히메아 님의 말씀을 들으러\n　이만 가 보실까요.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 01837_00000189><start_lip_sync n00244 _normal m00001>: 오래 기다리시게 해서 죄송합니다.\n　그럼 무녀 히메아 님의 말씀을 들으러\n　이만 가 보실까요.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "190": {
+    "<voice 02081_00000190><start_lip_sync n00244 _normal m00001>: 실례합니다.\n　마지막 합격자를 데려왔습니다.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 02081_00000190><start_lip_sync n00244 _normal m00001>: 실례합니다.\n　마지막 합격자를 데려왔습니다.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "191": {
+    "<voice 02252_00000191><start_lip_sync n00246 _normal m00001>: 어머나, <pc>!<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 02252_00000191><start_lip_sync n00246 _normal m00001>: 어머나, <pc>!<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "192": {
+    "<voice 02317_00000192><start_lip_sync n00246 _normal m00001>: 다행입니다…… 히메아 님의 기도가\n　효험이 있었던 것 같군요.<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 02317_00000192><start_lip_sync n00246 _normal m00001>: 다행입니다…… 히메아 님의 기도가\n　효험이 있었던 것 같군요.<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "193": {
+    "<voice 02382_00000193><start_lip_sync n00246 _normal m00001>: 저도 히메아 님도 계속\n　당신을 걱정하고 있었어요.\n　배움의 뜰에서 늘 열심히 공부하고 있죠?<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 02382_00000193><start_lip_sync n00246 _normal m00001>: 저도 히메아 님도 계속\n　당신을 걱정하고 있었어요.\n　배움의 뜰에서 늘 열심히 공부하고 있죠?<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "194": {
+    "<voice 02467_00000194><start_lip_sync n00211 _normal m00001>: 노마…… 이만 물러나세요.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 02467_00000194><start_lip_sync n00211 _normal m00001>: 노마…… 이만 물러나세요.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "195": {
+    "<voice 02576_00000195><start_lip_sync n00246 _normal m00001>: 죄, 죄송합니다…….<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 02576_00000195><start_lip_sync n00246 _normal m00001>: 죄, 죄송합니다…….<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "196": {
+    "<voice 02732_00000196><start_lip_sync n00246 _normal m00001>: <pc>, 무사해서 정말로 다행입니다.\n　앞으로는 조심하도록 해요.<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 02732_00000196><start_lip_sync n00246 _normal m00001>: <pc>, 무사해서 정말로 다행입니다.\n　앞으로는 조심하도록 해요.<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "197": {
+    "<voice 02867_00000197><start_lip_sync n00211 _normal m00001>: ………………………….<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 02867_00000197><start_lip_sync n00211 _normal m00001>: ………………………….<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "198": {
+    "<voice 03000_00000198><start_lip_sync n00211 _normal m00001>: 그대는………<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 03000_00000198><start_lip_sync n00211 _normal m00001>: 그대는………<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "199": {
+    "<voice 03060_00000199><start_lip_sync n00211 _normal m00001>: 아뇨, 지금은 됐습니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 03060_00000199><start_lip_sync n00211 _normal m00001>: 아뇨, 지금은 됐습니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "200": {
+    "<voice 03124_00000200><start_lip_sync n00211 _normal m00001>: <pc>.\n　넘치는 지혜를 증명한 새싹이여.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 03124_00000200><start_lip_sync n00211 _normal m00001>: <pc>.\n　넘치는 지혜를 증명한 새싹이여.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "201": {
+    "<voice 03194_00000201><start_lip_sync n00211 _normal m00001>: 이 세계에서 그대의 역할이\n　무엇인지는 아직 알 수 없습니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 03194_00000201><start_lip_sync n00211 _normal m00001>: 이 세계에서 그대의 역할이\n　무엇인지는 아직 알 수 없습니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "202": {
+    "<voice 03275_00000202><start_lip_sync n00211 _normal m00001>: 하지만 다음 시련인 힘의 시련을 통과하면\n　세상을 탐험할 수단을 얻을 수 있을 겁니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 03275_00000202><start_lip_sync n00211 _normal m00001>: 하지만 다음 시련인 힘의 시련을 통과하면\n　세상을 탐험할 수단을 얻을 수 있을 겁니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "203": {
+    "<voice 03380_00000203><start_lip_sync n00211 _normal m00001>: 바깥 세상으로 가는 문을 열고 싶다면\n　마음 굳게 먹고 시련에 임하십시오.\n　<pc>에게 바람의 축복이 있기를.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 03380_00000203><start_lip_sync n00211 _normal m00001>: 바깥 세상으로 가는 문을 열고 싶다면\n　마음 굳게 먹고 시련에 임하십시오.\n　<pc>에게 바람의 축복이 있기를.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "33092": {
+    "<voice 03563_00033092><start_lip_sync n00244 _normal m00001>: 히메아 님의 말씀을\n　가슴에 잘 새겨 두세요.\n　그럼 정화의 방으로 가죠.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 03563_00033092><start_lip_sync n00244 _normal m00001>: 히메아 님의 말씀을\n　가슴에 잘 새겨 두세요.\n　그럼 정화의 방으로 가죠.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "204": {
+    "<voice 03971_00000204><start_lip_sync n00244 _normal m00001>: 이곳이 정화의 방입니다. 들어가세요.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 03971_00000204><start_lip_sync n00244 _normal m00001>: 이곳이 정화의 방입니다. 들어가세요.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "205": {
+    "<voice 04194_00000205><start_lip_sync n00244 _normal m00001>: 유차린.\n　이분의 정화를 부탁합니다.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 04194_00000205><start_lip_sync n00244 _normal m00001>: 유차린.\n　이분의 정화를 부탁합니다.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "206": {
+    "<voice 04284_00000206><start_lip_sync n00245 _normal m00001>: 네.<stop_lip_animation n00245 CLOSE_MOUTH>": "<voice 04284_00000206><start_lip_sync n00245 _normal m00001>: 네.<stop_lip_animation n00245 CLOSE_MOUTH>"
+  },
+  "207": {
+    "<voice 04394_00000207><start_lip_sync n00245 _normal m00001>: 이제부터 당신이 가는 세계수 언덕은\n　이 마을 무녀들이 오랜 세월\n　대대로 지켜 온 성지입니다.<stop_lip_animation n00245 CLOSE_MOUTH>": "<voice 04394_00000207><start_lip_sync n00245 _normal m00001>: 이제부터 당신이 가는 세계수 언덕은\n　이 마을 무녀들이 오랜 세월\n　대대로 지켜 온 성지입니다.<stop_lip_animation n00245 CLOSE_MOUTH>"
+  },
+  "208": {
+    "<voice 04519_00000208><start_lip_sync n00245 _normal m00001>: 그곳에서 힘의 시련을 치르기에 앞서\n　이 세계수의 이슬로\n　몸의 부정을 씻어드리겠습니다.<stop_lip_animation n00245 CLOSE_MOUTH>": "<voice 04519_00000208><start_lip_sync n00245 _normal m00001>: 그곳에서 힘의 시련을 치르기에 앞서\n　이 세계수의 이슬로\n　몸의 부정을 씻어드리겠습니다.<stop_lip_animation n00245 CLOSE_MOUTH>"
+  },
+  "209": {
+    "<voice 04735_00000209><start_lip_sync n00245 _normal m00001>: 세계수와 바람의 축복이\n　당신과 함께하기를…….<stop_lip_animation n00245 CLOSE_MOUTH>": "<voice 04735_00000209><start_lip_sync n00245 _normal m00001>: 세계수와 바람의 축복이\n　당신과 함께하기를…….<stop_lip_animation n00245 CLOSE_MOUTH>"
+  },
+  "33093": {
+    "<voice 04883_00033093><start_lip_sync n00244 _normal m00001>: 이걸로 그대의 몸은 정화되어\n　힘의 시련에 임할 준비가 갖춰졌습니다.\n　자, 가죠.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 04883_00033093><start_lip_sync n00244 _normal m00001>: 이걸로 그대의 몸은 정화되어\n　힘의 시련에 임할 준비가 갖춰졌습니다.\n　자, 가죠.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "26967": {
+    "<voice 05083_00026967><start_lip_sync n00244 _normal m00001>: 세계수 언덕은 이 마을 동쪽에 있는 영원의 숲\n　안쪽에 있습니다. 그곳에서 세계수의 정령이\n　당신에게 힘의 시련을 내릴 겁니다.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 05083_00026967><start_lip_sync n00244 _normal m00001>: 세계수 언덕은 이 마을 동쪽에 있는 영원의 숲\n　안쪽에 있습니다. 그곳에서 세계수의 정령이\n　당신에게 힘의 시련을 내릴 겁니다.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "210": {
+    "<voice 05133_00000210><start_lip_sync n00244 _normal m00001>: 그럼 조심해서 가세요.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 05133_00000210><start_lip_sync n00244 _normal m00001>: 그럼 조심해서 가세요.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "211": {
+    "<voice 00152_00000211><start_lip_sync n00253 _normal m00001>: 역시 네가 가장 먼저 도착했군.\n　나는 스승 코우.\n　힘의 시련의 입회인이다.<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 00152_00000211><start_lip_sync n00253 _normal m00001>: 역시 네가 가장 먼저 도착했군.\n　나는 스승 코우.\n　힘의 시련의 입회인이다.<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "212": {
+    "<voice 00270_00000212><start_lip_sync m50001 _normal m00001>: 잘 왔다, 친구여!\n　나는 새싹의 정령이다.<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 00270_00000212><start_lip_sync m50001 _normal m00001>: 잘 왔다, 친구여!\n　나는 새싹의 정령이다.<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "213": {
+    "<voice 00300_00000213><start_lip_sync m50001 _normal m00001>: 이 세계수와 함께 태어나\n　먼 옛날부터 배움의 뜰 학생들의\n　힘을 시험하고 있다.<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 00300_00000213><start_lip_sync m50001 _normal m00001>: 이 세계수와 함께 태어나\n　먼 옛날부터 배움의 뜰 학생들의\n　힘을 시험하고 있다.<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "214": {
+    "<voice 00350_00000214><start_lip_sync m50001 _normal m00001>: 자, 친구여!\n　날 이겨 힘을 증명해 봐라!<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 00350_00000214><start_lip_sync m50001 _normal m00001>: 자, 친구여!\n　날 이겨 힘을 증명해 봐라!<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "9198": {
+    "<voice 00380_00009198><start_lip_sync m50001 _normal m00001>: 그것이 바로 힘의 시련!\n　이 시련을 극복하면 넌\n　진정한 모험가로 인정받을 수 있다!<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 00380_00009198><start_lip_sync m50001 _normal m00001>: 그것이 바로 힘의 시련!\n　이 시련을 극복하면 넌\n　진정한 모험가로 인정받을 수 있다!<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "215": {
+    "<voice 00492_00000215><start_lip_sync n00253 _normal m00001>: <cs_pchero>, 준비는 됐겠지?<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 00492_00000215><start_lip_sync n00253 _normal m00001>: <cs_pchero>, 준비는 됐겠지?<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "216": {
+    "<voice 00522_00000216><start_lip_sync n00253 _normal m00001>: 지금부터 <cs_pchero>의\n　힘의 시련을 시작하겠다!!<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 00522_00000216><start_lip_sync n00253 _normal m00001>: 지금부터 <cs_pchero>의\n　힘의 시련을 시작하겠다!!<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "217": {
+    "<voice 00040_00000217><start_lip_sync n00253 _normal m00001>: 오오, <cs_pchero>. 돌아왔군.<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 00040_00000217><start_lip_sync n00253 _normal m00001>: 오오, <cs_pchero>. 돌아왔군.<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "218": {
+    "<voice 00070_00000218><start_lip_sync n00253 _normal m00001>: 그 불굴의 의지를 보아\n　재도전을 허락하겠다.<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 00070_00000218><start_lip_sync n00253 _normal m00001>: 그 불굴의 의지를 보아\n　재도전을 허락하겠다.<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "219": {
+    "<voice 00148_00000219><start_lip_sync m50001 _normal m00001>: 자 덤벼라, 친구여! \n　네가 가진 모든 힘을 보여 봐라!!<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 00148_00000219><start_lip_sync m50001 _normal m00001>: 자 덤벼라, 친구여! \n　네가 가진 모든 힘을 보여 봐라!!<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "220": {
+    "<voice 00089_00000220><start_lip_sync m50001 _normal m00001>: 내가 졌다!!<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 00089_00000220><start_lip_sync m50001 _normal m00001>: 내가 졌다!!<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "221": {
+    "<voice 00114_00000221><start_lip_sync m50001 _normal m00001>: 너, 열심히 노력했다!\n　제법 괜찮았다!<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 00114_00000221><start_lip_sync m50001 _normal m00001>: 너, 열심히 노력했다!\n　제법 괜찮았다!<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "222": {
+    "<voice 00338_00000222><start_lip_sync n00253 _normal m00001>: <cs_pchero>, 힘의 시련 합격!!<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 00338_00000222><start_lip_sync n00253 _normal m00001>: <cs_pchero>, 힘의 시련 합격!!<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "223": {
+    "<voice 00612_00000223><start_lip_sync m50001 _normal m00001>: 이 세계수는 세 번째 세계수다.\n　사악한 자들은 몇 번이고\n　지상에서 세계수를 없애려 했다.<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 00612_00000223><start_lip_sync m50001 _normal m00001>: 이 세계수는 세 번째 세계수다.\n　사악한 자들은 몇 번이고\n　지상에서 세계수를 없애려 했다.<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "224": {
+    "<voice 00666_00000224><start_lip_sync m50001 _normal m00001>: 하지만 그때마다 용감한\n　투스쿠르의 무녀가 그자들과 맞서\n　세계수가 사라지지 않도록 막았다.<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 00666_00000224><start_lip_sync m50001 _normal m00001>: 하지만 그때마다 용감한\n　투스쿠르의 무녀가 그자들과 맞서\n　세계수가 사라지지 않도록 막았다.<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "225": {
+    "<voice 00726_00000225><start_lip_sync m50001 _normal m00001>: 내게 힘을 증명한 자여.\n　너 역시 그 용기를 잊지 않는 한\n　미래로 가는 길이 끊기지 않을 것이다!<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 00726_00000225><start_lip_sync m50001 _normal m00001>: 내게 힘을 증명한 자여.\n　너 역시 그 용기를 잊지 않는 한\n　미래로 가는 길이 끊기지 않을 것이다!<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "226": {
+    "<voice 00811_00000226><start_lip_sync n00253 _normal m00001>: <cs_pchero>, 정말 잘했다!\n　이제 무녀 히메아 님께 모험가의 증표를\n　받으면 배움의 뜰은 졸업이군.<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 00811_00000226><start_lip_sync n00253 _normal m00001>: <cs_pchero>, 정말 잘했다!\n　이제 무녀 히메아 님께 모험가의 증표를\n　받으면 배움의 뜰은 졸업이군.<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "227": {
+    "<voice 00882_00000227><start_lip_sync n00253 _normal m00001>: 그럼 다음……. 큐스케와 아사나기.\n　누가 먼저 힘의 시련을 받겠나?<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 00882_00000227><start_lip_sync n00253 _normal m00001>: 그럼 다음……. 큐스케와 아사나기.\n　누가 먼저 힘의 시련을 받겠나?<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "228": {
+    "<voice 00964_00000228><start_lip_sync n00213 _normal m00001>: 아사나기 먼저 하라고 하세요!\n　전 나중에 천천히 하죠 뭐.<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 00964_00000228><start_lip_sync n00213 _normal m00001>: 아사나기 먼저 하라고 하세요!\n　전 나중에 천천히 하죠 뭐.<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "230": {
+    "<voice 01081_00000230><start_lip_sync n00253 _normal m00001>: 큐스케.\n　너도 이제 그만 진지하게\n　힘의 시련에 임해야 하지 않겠느냐?<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 01081_00000230><start_lip_sync n00253 _normal m00001>: 큐스케.\n　너도 이제 그만 진지하게\n　힘의 시련에 임해야 하지 않겠느냐?<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "231": {
+    "<voice 01147_00000231><start_lip_sync n00253 _normal m00001>: 이대로는 언제까지고 미숙한 엘프에서\n　벗어나지 못해. 지키고 싶은 여자가\n　있어도 제대로 지키지 못할 거다!<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 01147_00000231><start_lip_sync n00253 _normal m00001>: 이대로는 언제까지고 미숙한 엘프에서\n　벗어나지 못해. 지키고 싶은 여자가\n　있어도 제대로 지키지 못할 거다!<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "232": {
+    "<voice 01221_00000232><start_lip_sync n00213 _normal m00001>: 윽……………….<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 01221_00000232><start_lip_sync n00213 _normal m00001>: 윽……………….<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "233": {
+    "<voice 01351_00000233><start_lip_sync n00253 _normal m00001>: 그럼 아사나기, 너부터 시작하지.\n　준비가 되면 이쪽으로 와라.<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 01351_00000233><start_lip_sync n00253 _normal m00001>: 그럼 아사나기, 너부터 시작하지.\n　준비가 되면 이쪽으로 와라.<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "234": {
+    "<voice 01625_00000234><start_lip_sync n00214 _normal m00001>: 네 싸움은 다 봤다, <cs_pchero>.\n　뭐냐, 그 형편없는 싸움은?<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 01625_00000234><start_lip_sync n00214 _normal m00001>: 네 싸움은 다 봤다, <cs_pchero>.\n　뭐냐, 그 형편없는 싸움은?<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "235": {
+    "<voice 01656_00000235><start_lip_sync n00214 _normal m00001>: 나는 더\n　멋지게 이기고 말겠어!<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 01656_00000235><start_lip_sync n00214 _normal m00001>: 나는 더\n　멋지게 이기고 말겠어!<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "236": {
+    "<voice 01731_00000236><start_lip_sync m50001 _normal m00001>: 위험하다!!!<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 01731_00000236><start_lip_sync m50001 _normal m00001>: 위험하다!!!<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "237": {
+    "<voice 01811_00000237><start_lip_sync n00214 _normal m00001>: 윽…….<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 01811_00000237><start_lip_sync n00214 _normal m00001>: 윽…….<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "238": {
+    "<voice 01855_00000238><start_lip_sync n00253 _normal m00001>: 이, 이 성스러운 땅에 마장이라니……?<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 01855_00000238><start_lip_sync n00253 _normal m00001>: 이, 이 성스러운 땅에 마장이라니……?<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "239": {
+    "<voice 01974_00000239><start_lip_sync m50001 _normal m00001>: 도망쳐라!! 빨리!! 닿으면 죽는다!!!<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 01974_00000239><start_lip_sync m50001 _normal m00001>: 도망쳐라!! 빨리!! 닿으면 죽는다!!!<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "240": {
+    "<voice 02133_00000240><start_lip_sync n00253 _normal m00001>: 으아아아아아아아아아아아악!!!<stop_lip_animation n00253 CLOSE_MOUTH>": "<voice 02133_00000240><start_lip_sync n00253 _normal m00001>: 으아아아아아아아아아아아악!!!<stop_lip_animation n00253 CLOSE_MOUTH>"
+  },
+  "241": {
+    "<voice 02251_00000241><start_lip_sync n00214 _normal m00001>: 선생님!!<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 02251_00000241><start_lip_sync n00214 _normal m00001>: 선생님!!<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "242": {
+    "<voice 02294_00000242><start_lip_sync m50001 _normal m00001>: 빨리 도망쳐라! 어서!!<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 02294_00000242><start_lip_sync m50001 _normal m00001>: 빨리 도망쳐라! 어서!!<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "243": {
+    "<voice 02381_00000243><start_lip_sync n00214 _normal m00001>: <cs_pchero>, 이리 와!!<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 02381_00000243><start_lip_sync n00214 _normal m00001>: <cs_pchero>, 이리 와!!<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "244": {
+    "<voice 02537_00000244><start_lip_sync n00213 _normal m00001>: 틀렸어…… 이미 늦었어!<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 02537_00000244><start_lip_sync n00213 _normal m00001>: 틀렸어…… 이미 늦었어!<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "26968": {
+    "<voice 05362_00026968><start_lip_sync n00214 _normal m00001>: 마장이 사라졌어……\n　방금 그 빛은 대체…….<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 05362_00026968><start_lip_sync n00214 _normal m00001>: 마장이 사라졌어……\n　방금 그 빛은 대체…….<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "245": {
+    "<voice 05979_00000245><start_lip_sync m50001 _normal m00001>: 이럴 수가…… 세계수가………….<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 05979_00000245><start_lip_sync m50001 _normal m00001>: 이럴 수가…… 세계수가………….<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "246": {
+    "<voice 06037_00000246><start_lip_sync m50001 _normal m00001>: 살아라…… 세계수……!\n　내 힘을…… 전부 주겠다.<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 06037_00000246><start_lip_sync m50001 _normal m00001>: 살아라…… 세계수……!\n　내 힘을…… 전부 주겠다.<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "247": {
+    "<voice 06345_00000247><start_lip_sync n00214 _normal m00001>: 새싹의 정령…….<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 06345_00000247><start_lip_sync n00214 _normal m00001>: 새싹의 정령…….<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "248": {
+    "<voice 06444_00000248><start_lip_sync m50001 _normal m00001>: 걱정 마라…… 세계수가 있는 한\n　난 죽지 않는다.<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 06444_00000248><start_lip_sync m50001 _normal m00001>: 걱정 마라…… 세계수가 있는 한\n　난 죽지 않는다.<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "249": {
+    "<voice 07076_00000249><start_lip_sync n00214 _normal m00001>: 배움의 뜰로 돌아가자.\n　이곳에서 일어난 일을\n　이즈야노이 선생님께 알려야 해!!<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 07076_00000249><start_lip_sync n00214 _normal m00001>: 배움의 뜰로 돌아가자.\n　이곳에서 일어난 일을\n　이즈야노이 선생님께 알려야 해!!<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "250": {
+    "<voice 00083_00000250><start_lip_sync n00244 _normal m00001>: 기다리고 있었습니다.\n　자, 이쪽으로 오시죠.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 00083_00000250><start_lip_sync n00244 _normal m00001>: 기다리고 있었습니다.\n　자, 이쪽으로 오시죠.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "251": {
+    "<voice 00670_00000251><start_lip_sync n00244 _normal m00001>: 실례하겠습니다.\n　<pc> 씨를 데려왔습니다.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 00670_00000251><start_lip_sync n00244 _normal m00001>: 실례하겠습니다.\n　<pc> 씨를 데려왔습니다.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "252": {
+    "<voice 00990_00000252><start_lip_sync n00211 _normal m00001>: <pc>, 이리 가까이 오세요.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 00990_00000252><start_lip_sync n00211 _normal m00001>: <pc>, 이리 가까이 오세요.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "253": {
+    "<voice 01410_00000253><start_lip_sync n00211 _normal m00001>: 스승 코우와 새싹의 정령 일은 유감입니다.\n　저도 술렁이는 바람들로부터\n　이야기를 듣고 대비했습니다만…….<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 01410_00000253><start_lip_sync n00211 _normal m00001>: 스승 코우와 새싹의 정령 일은 유감입니다.\n　저도 술렁이는 바람들로부터\n　이야기를 듣고 대비했습니다만…….<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "254": {
+    "<voice 01490_00000254><start_lip_sync n00211 _normal m00001>: 마장으로부터 그대들을 지킨\n　그 위대한 빛은 세계의 중심\n　렌더시아에서 뿜어져 나온 것입니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 01490_00000254><start_lip_sync n00211 _normal m00001>: 마장으로부터 그대들을 지킨\n　그 위대한 빛은 세계의 중심\n　렌더시아에서 뿜어져 나온 것입니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "26969": {
+    "<voice 01580_00026969><start_lip_sync n00211 _normal m00001>: 그 빛은 전설의 용사가 각성했다는 증거.\n　렌더시아 땅 어딘가에\n　용사가 나타났다는 것을 뜻합니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 01580_00026969><start_lip_sync n00211 _normal m00001>: 그 빛은 전설의 용사가 각성했다는 증거.\n　렌더시아 땅 어딘가에\n　용사가 나타났다는 것을 뜻합니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "26970": {
+    "<voice 01640_00026970><start_lip_sync n00211 _normal m00001>: ……그리고 용사란 혼란한 세상에\n　나타나는 존재. 그 빛은 거대한 어둠이\n　탄생했다는 뜻이기도 합니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 01640_00026970><start_lip_sync n00211 _normal m00001>: ……그리고 용사란 혼란한 세상에\n　나타나는 존재. 그 빛은 거대한 어둠이\n　탄생했다는 뜻이기도 합니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "19001474": {
+    "<voice 01700_19001474><start_lip_sync n00211 _normal m00001>: 아사나기, 큐스케, 그리고 <pc>.\n　그대들은 그 마장 앞에서도\n　용감하게 맞섰습니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 01700_19001474><start_lip_sync n00211 _normal m00001>: 아사나기, 큐스케, 그리고 <pc>.\n　그대들은 그 마장 앞에서도\n　용감하게 맞섰습니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "256": {
+    "<voice 01790_00000256><start_lip_sync n00211 _normal m00001>: 그 무엇도 두려워하지 않는\n　그 위대한 용기가 앞으로 이 세상에\n　반드시 필요해질 겁니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 01790_00000256><start_lip_sync n00211 _normal m00001>: 그 무엇도 두려워하지 않는\n　그 위대한 용기가 앞으로 이 세상에\n　반드시 필요해질 겁니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "19001475": {
+    "<voice 01880_19001475><start_lip_sync n00211 _normal m00001>: 힘의 시련을 통과한 <pc>뿐만 아니라\n　아사나기와 큐스케도 특별히 합격시키겠습니다.\n　그대들도 배움의 뜰을 벗어나 여행을 하십시오.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 01880_19001475><start_lip_sync n00211 _normal m00001>: 힘의 시련을 통과한 <pc>뿐만 아니라\n　아사나기와 큐스케도 특별히 합격시키겠습니다.\n　그대들도 배움의 뜰을 벗어나 여행을 하십시오.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "257": {
+    "<voice 01985_00000257><start_lip_sync n00213 _normal m00001>: 네에에에에에에에!?<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 01985_00000257><start_lip_sync n00213 _normal m00001>: 네에에에에에에에!?<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "258": {
+    "<voice 02040_00000258><start_lip_sync n00211 _normal m00001>: 왜 그리 놀라는 거죠, 큐스케?<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 02040_00000258><start_lip_sync n00211 _normal m00001>: 왜 그리 놀라는 거죠, 큐스케?<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "259": {
+    "<voice 02050_00000259><start_lip_sync n00211 _normal m00001>: 그대와 아사나기에게도 그만한 힘이\n　충분히 갖춰져 있습니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 02050_00000259><start_lip_sync n00211 _normal m00001>: 그대와 아사나기에게도 그만한 힘이\n　충분히 갖춰져 있습니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "260": {
+    "<voice 02160_00000260><start_lip_sync n00211 _normal m00001>: 그리고, 큐스케.\n　그대도 스승 코우의 말을 듣고\n　결심을 굳히지 않았던가요?<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 02160_00000260><start_lip_sync n00211 _normal m00001>: 그리고, 큐스케.\n　그대도 스승 코우의 말을 듣고\n　결심을 굳히지 않았던가요?<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "261": {
+    "<voice 02440_00000261><start_lip_sync n00213 _normal m00001>: ……예!<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 02440_00000261><start_lip_sync n00213 _normal m00001>: ……예!<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "262": {
+    "<voice 02500_00000262><start_lip_sync n00214 _normal m00001>: 용사의 각성……그리고 거대한 어둠…….<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 02500_00000262><start_lip_sync n00214 _normal m00001>: 용사의 각성……그리고 거대한 어둠…….<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "263": {
+    "<voice 02544_00000263><start_lip_sync n00214 _normal m00001>: 이 세계에 무슨 일이 일어나고 있는 거야.\n　{pc}|hpp(과,와)의 승부 같은\n　사소한 일에 집착할 때가 아니겠어.<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 02544_00000263><start_lip_sync n00214 _normal m00001>: 이 세계에 무슨 일이 일어나고 있는 거야.\n　{pc}|hpp(과,와)의 승부 같은\n　사소한 일에 집착할 때가 아니겠어.<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "264": {
+    "<voice 02750_00000264><start_lip_sync n00211 _normal m00001>: 아사나기.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 02750_00000264><start_lip_sync n00211 _normal m00001>: 아사나기.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "265": {
+    "<voice 02780_00000265><start_lip_sync n00211 _normal m00001>: 그대에게는 뛰어난 지혜가 있습니다.\n　여행을 하며 그 힘을 키우세요.\n　그리고 <pc>의 유지를 잇는 겁니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 02780_00000265><start_lip_sync n00211 _normal m00001>: 그대에게는 뛰어난 지혜가 있습니다.\n　여행을 하며 그 힘을 키우세요.\n　그리고 <pc>의 유지를 잇는 겁니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "266": {
+    "<voice 02970_00000266><start_lip_sync n00214 _normal m00001>: <pc>의…… 유지?\n　그게 무슨…………<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 02970_00000266><start_lip_sync n00214 _normal m00001>: <pc>의…… 유지?\n　그게 무슨…………<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "267": {
+    "<voice 03050_00000267><start_lip_sync n00211 _normal m00001>: 그럼 졸업 의식을 시작하죠.\n　자, 모험의 서를 앞으로.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 03050_00000267><start_lip_sync n00211 _normal m00001>: 그럼 졸업 의식을 시작하죠.\n　자, 모험의 서를 앞으로.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "268": {
+    "<voice 03278_00000268><start_lip_sync n00211 _normal m00001>: 위대한 바람의 신이시여.\n　그리고 우리를 품어 주시는 세계수여.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 03278_00000268><start_lip_sync n00211 _normal m00001>: 위대한 바람의 신이시여.\n　그리고 우리를 품어 주시는 세계수여.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "269": {
+    "<voice 03308_00000269><start_lip_sync n00211 _normal m00001>: 어엿한 힘을 갖춘 이자들에게\n　그 증표를 내리소서.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 03308_00000269><start_lip_sync n00211 _normal m00001>: 어엿한 힘을 갖춘 이자들에게\n　그 증표를 내리소서.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "270": {
+    "<voice 03570_00000270><start_lip_sync n00213 _normal m00001>: 모험가의 증표야…….<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 03570_00000270><start_lip_sync n00213 _normal m00001>: 모험가의 증표야…….<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "271": {
+    "<voice 03630_00000271><start_lip_sync n00211 _normal m00001>: 그걸 지니고 있으면 이국의 왕도\n　알현할 수 있습니다. 증표에 부끄럽지 않도록\n　항상 올바른 행동을 유념하세요.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 03630_00000271><start_lip_sync n00211 _normal m00001>: 그걸 지니고 있으면 이국의 왕도\n　알현할 수 있습니다. 증표에 부끄럽지 않도록\n　항상 올바른 행동을 유념하세요.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "272": {
+    "<voice 03770_00000272><start_lip_sync n00211 _normal m00001>: 자, 가십시오.\n　학문의 마을의 자랑스러운 새싹들이여.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 03770_00000272><start_lip_sync n00211 _normal m00001>: 자, 가십시오.\n　학문의 마을의 자랑스러운 새싹들이여.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "273": {
+    "<voice 03840_00000273><start_lip_sync n00211 _normal m00001>: 그대들의 앞날에 세계수와\n　바람의 가호가 있기를!<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 03840_00000273><start_lip_sync n00211 _normal m00001>: 그대들의 앞날에 세계수와\n　바람의 가호가 있기를!<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "274": {
+    "<voice 03960_00000274><start_lip_sync n00213 _normal m00001>: 난 유차린에게\n　걸맞은 남자가 되겠어!<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 03960_00000274><start_lip_sync n00213 _normal m00001>: 난 유차린에게\n　걸맞은 남자가 되겠어!<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "275": {
+    "<voice 04020_00000275><start_lip_sync n00213 _normal m00001>: 그럼 먼저 간다!\n　아디오스!!<stop_lip_animation n00213 CLOSE_MOUTH>": "<voice 04020_00000275><start_lip_sync n00213 _normal m00001>: 그럼 먼저 간다!\n　아디오스!!<stop_lip_animation n00213 CLOSE_MOUTH>"
+  },
+  "276": {
+    "<voice 04198_00000276><start_lip_sync n00214 _normal m00001>: 나도 가겠어.\n　이 세계에서 일어나는 일을 밝혀내기 위해.<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 04198_00000276><start_lip_sync n00214 _normal m00001>: 나도 가겠어.\n　이 세계에서 일어나는 일을 밝혀내기 위해.<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "277": {
+    "<voice 04268_00000277><start_lip_sync n00214 _normal m00001>: 그리고 조금 전에 히메아 님께서 하신\n　말씀의 진의를 알아내겠어!<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 04268_00000277><start_lip_sync n00214 _normal m00001>: 그리고 조금 전에 히메아 님께서 하신\n　말씀의 진의를 알아내겠어!<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "278": {
+    "<voice 04378_00000278><start_lip_sync n00214 _normal m00001>: 너도 잘 지내라.\n　언젠가…… 어디선가 또 만나자!<stop_lip_animation n00214 CLOSE_MOUTH>": "<voice 04378_00000278><start_lip_sync n00214 _normal m00001>: 너도 잘 지내라.\n　언젠가…… 어디선가 또 만나자!<stop_lip_animation n00214 CLOSE_MOUTH>"
+  },
+  "279": {
+    "<voice 04685_00000279><start_lip_sync n00211 _normal m00001>: <pc>\n　이제야 알겠습니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 04685_00000279><start_lip_sync n00211 _normal m00001>: <pc>\n　이제야 알겠습니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "280": {
+    "<voice 04795_00000280><start_lip_sync n00211 _normal m00001>: 고대 주문의 부활에 실패해\n　죽을 운명이었던 {pc}|hpp(이,가)\n　어떻게 이렇게 살아 있는지를…….<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 04795_00000280><start_lip_sync n00211 _normal m00001>: 고대 주문의 부활에 실패해\n　죽을 운명이었던 {pc}|hpp(이,가)\n　어떻게 이렇게 살아 있는지를…….<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "281": {
+    "<voice 04945_00000281><start_lip_sync n00211 _normal m00001>: 그대의 진짜 모습은 이쪽이죠?<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 04945_00000281><start_lip_sync n00211 _normal m00001>: 그대의 진짜 모습은 이쪽이죠?<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "282": {
+    "<voice 04995_00000282><start_lip_sync n00211 _normal m00001>: 위대한 사명을 이룰 수 있도록\n　영혼을 구원받아 그 몸에 들어간 거지요?<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 04995_00000282><start_lip_sync n00211 _normal m00001>: 위대한 사명을 이룰 수 있도록\n　영혼을 구원받아 그 몸에 들어간 거지요?<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "283": {
+    "<voice 05075_00000283><start_lip_sync n00211 _normal m00001>: <pc>…….<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 05075_00000283><start_lip_sync n00211 _normal m00001>: <pc>…….<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "284": {
+    "<voice 05125_00000284><start_lip_sync n00211 _normal m00001>: 지금은 세상을 여행하며 수련을 쌓으세요.\n　그 힘을 이 세계의 사람들을 위해\n　사용하세요.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 05125_00000284><start_lip_sync n00211 _normal m00001>: 지금은 세상을 여행하며 수련을 쌓으세요.\n　그 힘을 이 세계의 사람들을 위해\n　사용하세요.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "285": {
+    "<voice 05195_00000285><start_lip_sync n00211 _normal m00001>: 그리고 각국의 영웅들에게 주어지는 훈장\n　키 엠블럼을 모으세요.\n　그러면 반드시 길이 열릴 겁니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 05195_00000285><start_lip_sync n00211 _normal m00001>: 그리고 각국의 영웅들에게 주어지는 훈장\n　키 엠블럼을 모으세요.\n　그러면 반드시 길이 열릴 겁니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "292": {
+    "<voice 05775_00000292><start_lip_sync n00211 _normal m00001>: <pc>…….<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 05775_00000292><start_lip_sync n00211 _normal m00001>: <pc>…….<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "19001429": {
+    "<voice 05776_19001429><start_lip_sync n00246 _normal m00001>: 이렇게 보면 아무리 보아도\n　{pc}|hpp(으로,로)밖에 안 보이는데\n　영혼은 다른 사람이라니…….<stop_lip_animation n00246 CLOSE_MOUTH>": "<voice 05776_19001429><start_lip_sync n00246 _normal m00001>: 이렇게 보면 아무리 보아도\n　{pc}|hpp(으로,로)밖에 안 보이는데\n　영혼은 다른 사람이라니…….<stop_lip_animation n00246 CLOSE_MOUTH>"
+  },
+  "293": {
+    "<voice 05805_00000293><start_lip_sync n00211 _normal m00001>: 그 몸의 주인은 엘프의 보물이었습니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 05805_00000293><start_lip_sync n00211 _normal m00001>: 그 몸의 주인은 엘프의 보물이었습니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "294": {
+    "<voice 05842_00000294><start_lip_sync n00211 _normal m00001>: 우리의 선두에 서서\n　우리를 이끌어 줄 존재였다는 것을\n　절대 잊지 마세요.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 05842_00000294><start_lip_sync n00211 _normal m00001>: 우리의 선두에 서서\n　우리를 이끌어 줄 존재였다는 것을\n　절대 잊지 마세요.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "295": {
+    "<voice 05995_00000295><start_lip_sync n00211 _normal m00001>: 그대가 훌륭히 사명을 다하기를\n　기도하겠습니다.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 05995_00000295><start_lip_sync n00211 _normal m00001>: 그대가 훌륭히 사명을 다하기를\n　기도하겠습니다.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "296": {
+    "<voice 06146_00000296><start_lip_sync n00244 _normal m00001>: <pc> 씨와 친구분들이 졸업 의식을\n　마친 것을 배움의 뜰 사람들에게도 전했습니다.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 06146_00000296><start_lip_sync n00244 _normal m00001>: <pc> 씨와 친구분들이 졸업 의식을\n　마친 것을 배움의 뜰 사람들에게도 전했습니다.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "19000630": {
+    "<voice 06177_19000630><start_lip_sync n00244 _normal m00001>: 자, 여행을 떠날 때입니다.\n　우선 서쪽으로 향해서\n　바람의 마을 아즐란을 찾아가세요.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 06177_19000630><start_lip_sync n00244 _normal m00001>: 자, 여행을 떠날 때입니다.\n　우선 서쪽으로 향해서\n　바람의 마을 아즐란을 찾아가세요.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "298": {
+    "<voice 06275_00000298><start_lip_sync n00244 _normal m00001>: 그럼 부디 조심하시길.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 06275_00000298><start_lip_sync n00244 _normal m00001>: 그럼 부디 조심하시길.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "299": {
+    "<voice 00045_00000299><start_lip_sync m50001 _normal m00001>: <pc>~~!!<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 00045_00000299><start_lip_sync m50001 _normal m00001>: <pc>~~!!<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "300": {
+    "<voice 00422_00000300><start_lip_sync m50001 _normal m00001>: 또 보자~~!!<stop_lip_animation m50001 CLOSE_MOUTH>": "<voice 00422_00000300><start_lip_sync m50001 _normal m00001>: 또 보자~~!!<stop_lip_animation m50001 CLOSE_MOUTH>"
+  },
+  "9200": {
+    "<voice 00083_00009200><start_lip_sync n00244 _normal m00001>: 오랜만이군요, <pc> 씨.\n　자, 이쪽으로 오세요.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 00083_00009200><start_lip_sync n00244 _normal m00001>: 오랜만이군요, <pc> 씨.\n　자, 이쪽으로 오세요.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "9201": {
+    "<voice 00491_00009201><start_lip_sync n00244 _normal m00001>: 실례하겠습니다.\n　<pc> 씨를 데려왔습니다.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 00491_00009201><start_lip_sync n00244 _normal m00001>: 실례하겠습니다.\n　<pc> 씨를 데려왔습니다.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  },
+  "9202": {
+    "<voice 00630_00009202><start_lip_sync n00211 _normal m00001>: <pc>, 이리 오세요.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 00630_00009202><start_lip_sync n00211 _normal m00001>: <pc>, 이리 오세요.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "9203": {
+    "<voice 00746_00009203><start_lip_sync n00211 _normal m00001>: 바람들에게 듣기는 했지만……\n　수많은 고난을 뛰어넘으며\n　열심히 노력했더군요.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 00746_00009203><start_lip_sync n00211 _normal m00001>: 바람들에게 듣기는 했지만……\n　수많은 고난을 뛰어넘으며\n　열심히 노력했더군요.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "9204": {
+    "<voice 00805_00009204><start_lip_sync n00211 _normal m00001>: <pc>.\n　그대에게 모험가의 증표를 건네며\n　제가 했던 말을 기억하나요?<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 00805_00009204><start_lip_sync n00211 _normal m00001>: <pc>.\n　그대에게 모험가의 증표를 건네며\n　제가 했던 말을 기억하나요?<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "9205": {
+    "<voice 00835_00009205><start_lip_sync n00211 _normal m00001>: 그 몸의 주인은 엘프의 보물이었습니다.\n　선두에 서서 우리를 이끌어 줄\n　소중한 존재였다……. 그렇게 말했죠?<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 00835_00009205><start_lip_sync n00211 _normal m00001>: 그 몸의 주인은 엘프의 보물이었습니다.\n　선두에 서서 우리를 이끌어 줄\n　소중한 존재였다……. 그렇게 말했죠?<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "9206": {
+    "<voice 00895_00009206><start_lip_sync n00211 _normal m00001>: 그대는 엘프 {pc}|hpp(을,를) 대신해서\n　주어진 사명을 훌륭하게 수행했어요.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 00895_00009206><start_lip_sync n00211 _normal m00001>: 그대는 엘프 {pc}|hpp(을,를) 대신해서\n　주어진 사명을 훌륭하게 수행했어요.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "9207": {
+    "<voice 00925_00009207><start_lip_sync n00211 _normal m00001>: 그대 덕분에 이 엘토나 대륙을 비롯한\n　5개의 대륙이 구원받았죠.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 00925_00009207><start_lip_sync n00211 _normal m00001>: 그대 덕분에 이 엘토나 대륙을 비롯한\n　5개의 대륙이 구원받았죠.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "9208": {
+    "<voice 01005_00009208><start_lip_sync n00211 _normal m00001>: <pc>.\n　견문을 넓히고 더 높은 경지에 오르세요.\n　언젠가 새로운 모험이 시작될 그날까지.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 01005_00009208><start_lip_sync n00211 _normal m00001>: <pc>.\n　견문을 넓히고 더 높은 경지에 오르세요.\n　언젠가 새로운 모험이 시작될 그날까지.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "9209": {
+    "<voice 01035_00009209><start_lip_sync n00211 _normal m00001>: 저는 계속 이곳에서\n　그대가 안전하게 여행하길 기도하겠어요.<stop_lip_animation n00211 CLOSE_MOUTH>": "<voice 01035_00009209><start_lip_sync n00211 _normal m00001>: 저는 계속 이곳에서\n　그대가 안전하게 여행하길 기도하겠어요.<stop_lip_animation n00211 CLOSE_MOUTH>"
+  },
+  "9210": {
+    "<voice 01192_00009210><start_lip_sync n00244 _normal m00001>: 그럼 조심해서 가세요.<stop_lip_animation n00244 CLOSE_MOUTH>": "<voice 01192_00009210><start_lip_sync n00244 _normal m00001>: 그럼 조심해서 가세요.<stop_lip_animation n00244 CLOSE_MOUTH>"
+  }
+}
