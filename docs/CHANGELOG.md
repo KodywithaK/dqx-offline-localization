@@ -1,5 +1,15 @@
 # Additions
 
+<details><summary>2024/08/12</summary>
+
+> ---
+> - `eventTextIeR3SuisFldrServer.win32`
+>   - (226) At Fairy-Tale Town [Tale Of A Hero & A Girl] {Main Story}
+> - `eventTextIeR3MelsMonsrServer.win32`
+> ---
+
+</details>
+
 <details><summary>2024/07/28</summary>
 
 > ---
@@ -12,6 +22,17 @@
 </details>
 
 # Alterations
+
+<details><summary>2024/08/12</summary>
+
+> ---
+> - `STT_PT_Talk`, `STT_Quest_ItemGet`, `STT_QuestListDetail`, `STT_UIDouguSys`, `eventTextIeR3MelsTownrServer.win32`, `eventTextCsMq20011Client.win32`, `eventTextCsMq2001hClient.win32`
+>   - (226) At Fairy-Tale Town [Tale Of A Hero & A Girl] {Main Story}
+> - `eventTextSysBookshelfsServer.win32`
+>   - "The Tale of Little Hero Zankrone", parts 2 & 3
+> ---
+
+</details>
 
 <details><summary>2024/07/28</summary>
 

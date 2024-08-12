@@ -32,7 +32,7 @@ jobs:
             FINAL/pakchunk0-Switch_P/Holiday/Content/Settings/Version/version_settings.json
             responsefile_Switch.txt
             responsefile_WindowsNoEditor.txt
-            CHANGELOG.md
+            docs/CHANGELOG.md
 
   JSON_to_ETP:
       needs: Checkout_Repos
@@ -76,7 +76,7 @@ jobs:
     steps:
       - name: Create Release
         run: |
-          # gh release delete Latest --yes
-          # gh release create Latest ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak --notes-file ${{ github.workspace }}/dqx-offline-localization/CHANGELOG.md
-          # gh release edit Latest --notes-file ${{ github.workspace }}/dqx-offline-localization/CHANGELOG.md
-          gh release upload Latest ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak ${{ github.workspace }}/dqx-offline-localization/CHANGELOG.md --clobber
+          gh release delete Latest --yes
+          gh release create Latest ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
+          # gh release edit Latest --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
+          # gh release upload Latest ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md --clobber
