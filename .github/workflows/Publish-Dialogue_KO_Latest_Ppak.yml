@@ -61,12 +61,6 @@ jobs:
             python ./pack-ETP_en-GitHubActions.py -a
             deactivate
             cd ~
-  UnrealPak_-Create:
-    needs: [Checkout_Repos, JSON_to_ETP]
-    runs-on: self-hosted
-    steps:
-      - name: UnrealPak -Create
-        run: |
             mkdir -p ${{ github.workspace }}/LocRes-Builder/in/
             cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/locmeta.json ${{ github.workspace }}/LocRes-Builder/in/locmeta.json
             cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/en/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/en.json
@@ -75,6 +69,13 @@ jobs:
             cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/zh-Hans/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/zh-Hans.json
             cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/zh-Hant/Game.locres.json  ${{ github.workspace }}/LocRes-Builder/in/zh-Hant.json
             python ${{ github.workspace }}/LocRes-Builder/src/main.py ${{ github.workspace }}/LocRes-Builder/in/locmeta.json -o=${{ github.workspace }}/LocRes-Builder/out -f=json
+  UnrealPak_-Create:
+    needs: [Checkout_Repos, JSON_to_ETP]
+    runs-on: self-hosted
+    steps:
+      - name: UnrealPak -Create
+        run: |
+            mkdir -p ${{ github.workspace }}/downloads
             ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-Switch_KOtoEN_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile-Switch_KOtoEN_P.txt
             ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_KOtoEN_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile-WindowsNoEditor_KOtoEN_P.txt
 
