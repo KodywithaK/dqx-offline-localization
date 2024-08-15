@@ -1,5 +1,3 @@
-name: Publish KOtoEN_Dialogue_Latest_P.pak As GitHub Actions Artifact
-
 on:
   push:
     branches: [KOtoEN]
@@ -13,8 +11,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  archive-build-artifacts:
-    # runs-on: ubuntu-latest
+  Checkout_Repos:
+    permissions: write-all
     runs-on: self-hosted # UnrealEngine-4.27 being 40GB~, it's too big for a regular GitHub Runner
     steps:
       - name: Checkout dqx_dat_dump
@@ -36,48 +34,69 @@ jobs:
             responsefile-Switch_KOtoEN_P.txt
             responsefile-WindowsNoEditor_KOtoEN_P.txt
 
-      - name: Checkout LocRes-Builder
-        uses: actions/checkout@v4
-        with:
-          path: ./LocRes-Builder
-          repository: KodywithaK/LocRes-Builder
+  JSON_to_ETP:
+      needs: Checkout_Repos
+      runs-on: self-hosted
+      steps:
+        - name: Checkout LocRes-Builder
+          uses: actions/checkout@v4
+          with:
+            path: ./LocRes-Builder
+            repository: KodywithaK/LocRes-Builder
 
-      - name: Install Python
-        uses: actions/setup-python@v4
-        with:
-          architecture: 'x64'
-          # python-version: '3.x'
-          python-version: '3.11'
-          cache: 'pip' # caching pip dependencies
-      - name: Run Python         
+        - name: Install Python
+          uses: actions/setup-python@v4
+          with:
+            architecture: "x64"
+            # python-version: '3.x'
+            python-version: "3.11"
+            cache: "pip" # caching pip dependencies
+        - name: Run Python
+          run: |
+            cd ./dqx_dat_dump/
+            python -m venv venv
+            source ./venv/bin/activate
+            pip install -r requirements.txt
+            cd ./tools/packing/
+            python ./pack-ETP_en-GitHubActions.py -a
+            deactivate
+            cd ~
+  UnrealPak_-Create:
+    needs: [Checkout_Repos, JSON_to_ETP]
+    runs-on: self-hosted
+    steps:
+      - name: UnrealPak -Create
         run: |
-          cd ./dqx_dat_dump/
-          python -m venv venv
-          source ./venv/bin/activate
-          pip install -r requirements.txt
-          cd ./tools/packing/
-          python ./pack-ETP_en-GitHubActions.py -a
-          deactivate
-          cd ~
-          mkdir -p ${{ github.workspace }}/LocRes-Builder/in/
-          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/locmeta.json ${{ github.workspace }}/LocRes-Builder/in/locmeta.json
-          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/en/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/en.json
-          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/ja/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/ja.json
-          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/en/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/ko.json
-          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/zh-Hans/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/zh-Hans.json
-          cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/zh-Hant/Game.locres.json  ${{ github.workspace }}/LocRes-Builder/in/zh-Hant.json
-          python ${{ github.workspace }}/LocRes-Builder/src/main.py ${{ github.workspace }}/LocRes-Builder/in/locmeta.json -o=${{ github.workspace }}/LocRes-Builder/out -f=json
-          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-Switch_KOtoEN_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile-Switch_KOtoEN_P.txt
-          ${{ github.workspace }}/UnrealEngine-4.27/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_KOtoEN_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile-WindowsNoEditor_KOtoEN_P.txt
+            mkdir -p ${{ github.workspace }}/LocRes-Builder/in/
+            cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/locmeta.json ${{ github.workspace }}/LocRes-Builder/in/locmeta.json
+            cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/en/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/en.json
+            cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/ja/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/ja.json
+            cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/en/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/ko.json
+            cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/zh-Hans/Game.locres.json ${{ github.workspace }}/LocRes-Builder/in/zh-Hans.json
+            cp ${{ github.workspace }}/dqx-offline-localization/Build_ID-14531340/BACKLOG/Game/Content/Localization/Game/zh-Hant/Game.locres.json  ${{ github.workspace }}/LocRes-Builder/in/zh-Hant.json
+            python ${{ github.workspace }}/LocRes-Builder/src/main.py ${{ github.workspace }}/LocRes-Builder/in/locmeta.json -o=${{ github.workspace }}/LocRes-Builder/out -f=json
+            ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-Switch_KOtoEN_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile-Switch_KOtoEN_P.txt
+            ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_KOtoEN_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile-WindowsNoEditor_KOtoEN_P.txt
 
-      - name: Get Current Time
-        run: |
-          echo "time=$(date +'%Y_%m_%d_%H%M')" >> $GITHUB_ENV
+      # - name: Get Current Time
+        # run: |
+          # echo "time=$(date +'%Y_%m_%d_%H%M')" >> $GITHUB_ENV
 
-      - name: Upload Artifact GitHub Action
-        uses: actions/upload-artifact@v4
-        with:
-          name: GitHubActions_Dialog_Latest_${{ env.time }}
-          path: |
-            downloads
+      # - name: Upload Artifact GitHub Action
+        # uses: actions/upload-artifact@v4
+        # with:
+          # name: GitHubActions_Dialog_Latest_${{ env.time }}
+          # path: |
+            # downloads
           # retention-days: 1
+
+  Create_Latest_Release:
+    needs: [Checkout_Repos, JSON_to_ETP, UnrealPak_-Create]
+    runs-on: self-hosted
+    steps:
+      - name: Create Release
+        run: |
+          # gh release delete Latest_KOtoEN --yes
+          gh release create Latest_KOtoEN ${{ github.workspace }}/downloads/pakchunk0-Switch_KOtoEN_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_KOtoEN_Dialogue_Latest_P.pak --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
+          # gh release edit Latest_KOtoEN --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
+          # gh release upload Latest_KOtoEN ${{ github.workspace }}/downloads/pakchunk0-Switch_KOtoEN_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_KOtoEN_Dialogue_Latest_P.pak ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md --clobber
