@@ -33,6 +33,7 @@ jobs:
             Build_ID-14531340/REFERENCES/Game/Content/NonAssets/
             responsefile-Switch_KOtoEN_P.txt
             responsefile-WindowsNoEditor_KOtoEN_P.txt
+            docs/CHANGELOG.md
 
   JSON_to_ETP:
       needs: Checkout_Repos
@@ -97,7 +98,7 @@ jobs:
     steps:
       - name: Create Release
         run: |
-          # gh release delete Latest_KOtoEN --yes
+          gh release delete Latest_KOtoEN --yes
           gh release create Latest_KOtoEN ${{ github.workspace }}/downloads/pakchunk0-Switch_KOtoEN_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_KOtoEN_Dialogue_Latest_P.pak --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
           # gh release edit Latest_KOtoEN --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
           # gh release upload Latest_KOtoEN ${{ github.workspace }}/downloads/pakchunk0-Switch_KOtoEN_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_KOtoEN_Dialogue_Latest_P.pak ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md --clobber
