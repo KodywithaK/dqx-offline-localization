@@ -1,7 +1,125 @@
 ![pakchunk0-{PLATFORM}_English_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml/badge.svg?branch=testing)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/KodywithaK/dqx-offline-localization/total?link=https%3A%2F%2Fgithub.com%2FKodywithaK%2Fdqx-offline-localization%2Freleases%2Ftag%2Flatest)
 
-<details><summary><h1>Translate Game.locmeta/Game.locres files via LocRes-Builder</h1></summary>
+<details><summary><h1>Translate StringTables via Unreal Editor (UE4Editor.exe)</h1></summary>
+
+## 00.Prerequisites
+> For Nintendo Switch:
+> - [Dragon Quest X Offline from the Nintendo eShop](https://store-jp.nintendo.com/list/software/70010000042357.html)<br>(Title ID `0100E2E0152E4000`)
+> - Nadrino's [SimpleModManager](https://github.com/nadrino/SimpleModManager)
+>
+> For Steam:
+> - [DRAGON QUEST X OFFLINE (or Demo) from Steam](https://store.steampowered.com/app/1358750/XOFFLINE/)
+- Unreal Editor from [Epic Games' Unreal Engine](https://www.unrealengine.com/en-US/download)<br>(UE4Editor.exe - `4.27.2` used in this tutorial)
+<!--
+  - FModel.exe from [4sval's github repo](https://github.com/4sval/FModel)
+    - DRAGON QUEST X OFFLINE (or Demo)'s AES Key
+    - DRAGON QUEST X OFFLINE (or Demo)'s [Mappings.usmap](https://github.com/OutTheShade/Unreal-Mappings-Archive/blob/main/Dragon%20Quest%20X%20Offline/Demo/Mappings.usmap)
+-->
+
+## 1.UE4Editor.exe
+
+### Create Project
+
+- Open UE4Editor.exe and create a new project.
+
+- Select Template Category `Blank Project` > Select Template `Blank` > Project Settings `Desktop/Console` & `No Starter Content`.
+
+- Select a location for your project to be stored and its name.<br>e.g., Folder `C:\Downloads\UE_4.27\Projects`<br>Name `Holiday` for Nintendo Switch, `Game` for Steam.
+
+- Once your project loads, go to the `Content Browser` on the bottom and click the `Show or hide the sources panel` button (left of the `Filters▼|Search Content`) to ensure you are working in the correct folders.
+
+> [!IMPORTANT]
+> Make sure to double-check your spelling and capitalization, to save you from having to troubleshoot later.
+
+### Create Folder Structure and StringTables
+
+01) In the `Content Browser`:
+    - Right-click on the `Content` folder, select `New Folder`, and name it `StringTables`.
+    - Right-click on the `StringTables` folder, select `New Folder`, and name it `Game`.
+    - Right-click on the `Game` folder, select `New Folder`, and name it `System_Title`.
+
+02) In the `Content > StringTables > Game > System > System_Title` folder:
+    - Right-click, `Miscellaneous > String Table` and rename the new file `STT_Title_Boukennosho`.
+
+03) Double-click the new `STT_Title_Boukennosho` file:
+    - `Import from CSV`, then select the `STT_Title_Boukennosho.uasset.csv` to autofill the `Key` & `Source String` sections.
+
+> [!NOTE]
+> You can either edit the Source Strings in that window OR edit the `.csv` and reimport.
+
+04) Repeat `steps 1-3` with other `StringTables`, as necessary.
+
+05) `Save`, then close out the window.
+
+### Create Data Asset and Packaging Rules
+
+- Click the `Content` folder to be get taken back to the top folder.
+
+- Right-click in the content browser area, select `Miscellaneous > Data Asset > PrimaryAssetLabel`, then double-click into it.
+
+- Chunk ID `30`<br>Cook Rule `Always Cook`<br>Label Assets in My Directory [x], save and exit the window.
+
+> [!NOTE]
+> `Save All` for good measure.
+
+### Package pakchunk30-WindowsNoEditor.pak
+
+01) `Edit > Project Settings > Project > Packaging > Packaging`, enter the following settings:
+    - Use Pak File [x]<br>Use Io Store [x]<br>Generate Chunks [x]
+
+<!--
+  > - Exit to `Content Browser` window, then right-click your `Content` folder, select `Show in Explorer` to open up the file explorer.
+
+  02) File explorer:
+  > - Go up 1 level to your `<PROJECT_NAME>` folder, enter `Config`, and make a new text document named `DefaultPakFileRules.ini`.
+
+  03) Inside of `DefaultPakFileRules.ini`, enter the following:
+
+	```ini
+	[bExcludeFromPaks_Engine]
+	bExcludeFromPaks=true
+	bOverrideChunkManifest=true
+	+Files=".../Engine/..."
+	+Files="...Game.uproject"
+	+Files="...Game/*"
+	+Files="...Game/Config/..."
+	+Files="...Game/Content/Shader*"
+	+Files="...Game/Platforms/..."
+	+Files=".../*.upluginmanifest"
+	```
+  > - With that, the packaged project will be slimmed down to only the imported fonts.
+-->
+
+02) `File > Package Project > Windows (64-bit)`
+> [!NOTE]
+> If you get the `Unsupported Platform` pop-up, you can ignore it. 
+
+- Click continue, and choose a folder to package your project into.<br>e.g.,
+  `"C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\pakchunk30-WindowsNoEditor_<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>_P.pak"`<br>or<br>`"C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\pakchunk30-Switch_<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>_P.(pak/ucas/utoc)"`, etc.
+  
+- Your project will begin packaging, and alert when it's finished.
+
+03) Rename the newly created `pakchunk`**30**`-WindowsNoEditor_<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>_P.(pak/ucas/utoc)` to
+> - For Nintendo Switch:<br>`pakchunk0-Switch_<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>_P.(pak/ucas/utoc)"`
+>
+> - For Steam:<br>`pakchunk0-WindowsNoEditor_<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>_P.(pak/ucas/utoc)"`
+
+### Move new pakchunk0-(Switch|WindowsNoEditor).(pak|ucas|utoc)
+
+> - For Steam:<br>`"C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\`pakchunk0-WindowsNoEditor_<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>_P.(pak|ucas|utoc)"<br>or similar, if you have a custom steam library location.
+>
+> - For Nintendo Switch:<br>`mods/Dragon Quest X Offline/<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>/contents/0100E2E0152E4000/romfs/Holiday/Content/Paks/`pakchunk0-Switch_P.(pak|ucas|utoc)
+
+## 3.Start up the game
+- All of your edited `String Tables` will now be loaded ingame.
+- Have fun!
+
+<hr>
+
+</details>
+
+<details><summary><h1>Translate Game.locmeta/Game.locres files via LocRes-Builder (Chinese/Korean versions only)</h1></summary>
 
 ## 0.Prerequisites
   - [DRAGON QUEST X OFFLINE (or Demo) from Steam](https://store.steampowered.com/app/1358750/XOFFLINE/)
