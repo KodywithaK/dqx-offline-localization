@@ -3,7 +3,7 @@
 
 <details><summary><h1>Translate StringTables via Unreal Editor (UE4Editor.exe)</h1></summary>
 
-## 00.Prerequisites
+## 0.Prerequisites
 > For Nintendo Switch:
 > - [Dragon Quest X Offline from the Nintendo eShop](https://store-jp.nintendo.com/list/software/70010000042357.html)<br>(Title ID `0100E2E0152E4000`)
 > - Nadrino's [SimpleModManager](https://github.com/nadrino/SimpleModManager)
@@ -105,7 +105,7 @@
 >
 > - For Steam:<br>`pakchunk0-WindowsNoEditor_<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>_P.(pak/ucas/utoc)"`
 
-### Move new pakchunk0-(Switch|WindowsNoEditor).(pak|ucas|utoc)
+## 2.Move new pakchunk0-(Switch|WindowsNoEditor).(pak|ucas|utoc)
 
 > - For Steam:<br>`"C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\`pakchunk0-WindowsNoEditor_<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>_P.(pak|ucas|utoc)"<br>or similar, if you have a custom steam library location.
 >
@@ -119,7 +119,7 @@
 
 </details>
 
-<details><summary><h1>Translate Game.locmeta/Game.locres files via LocRes-Builder (Chinese/Korean versions only)</h1></summary>
+<details><summary><h1>Translate Game.locmeta/Game.locres files<br>via LocRes-Builder (Chinese/Korean versions only)</h1></summary>
 
 ## 0.Prerequisites
   - [DRAGON QUEST X OFFLINE (or Demo) from Steam](https://store.steampowered.com/app/1358750/XOFFLINE/)
