@@ -473,7 +473,7 @@
   },
   "85450": {
     "「<pc>というのは　そなたのことか。\n　王……が　お待ちだぞ。": 
-    "<pc>Is that what you mean? The king is waiting for you."
+    "You're the <pc> responsible for this, eh.\nThe King... Is waiting for you."
   },
   "85455": {
     "<attr><feel_sad_lv1><end_attr>「あっ　<pc>さん。どうも……。\n　あなたのことを　王様が　お呼びだそうですよ。\n　玉座の間に　行ってみてください。\n<br>\n「どうせ　ボクは　役に立たないから\n　お呼びでないんですよ……。ハァ。": 
@@ -481,15 +481,15 @@
   },
   "85456": {
     "「カブース大臣が　<pc>という　お名前の\n　旅人を　探してらっしゃるようです。\n　なんでも　ムーニス王がお呼びだとか……。\n<br>\n「旅の方。お心当たりあるようでしたら\n　お城の玉座の間へ　向かってみてくださいまし。": 
-    "Minister Caboose<pc>I heard that you are looking for a traveler by the name of King Moonis wants to see you. Travelers. If you know of any travelers, please make your way to the throne room of the castle."
+    "Minister Caboose is looking a traveler named\n<pc>, it seems. I'm told that King Moonis\nhas summoned for them...\n<br>\nTravelers, if you happen to know of them, please try\nto get them to make their way to the castle's throne\nroom."
   },
   "85457": {
     "<attr><feel_happy_lv1><end_attr>「カブース大臣から　行方不明だったムーニス王が\n　お帰りになったという　告示がありましたわ。\n　ご無事で　何よりです！<bw_break>": 
-    "<attr><feel_happy_lv1><end_attr>Minister Caboose has informed us that the missing King Moonis has returned. I am glad to hear that he is safe!<bw_break>"
+    "<attr><feel_happy_lv1><end_attr>There's a bulletin from Minister Caboose saying that\nthe missing King Moonis has returned. And above all,\nhe's safe!<bw_break>"
   },
   "85458": {
     "「ですが　なぜ　王様ご自身は\n　人前に姿を現さないのか……\n　ちょっと　おかしいですわね……。": 
-    "But it's a little strange why the king himself doesn't appear in public."
+    "But why isn't the King himself making a public\nappearance... That's a little strange, isn't it..."
   },
   "85459": {
     "<attr><feel_happy_lv1><end_attr><turn_pc>「おお！　<pc>どの！\n　ちょうど　よいところに　来てくれた。\n　ムーニス王が　そなたを呼んでいるのだ。\n<br>\n「そなたに　特別な頼みがあるようでな……。\n　手が空いているようなら　玉座の間へ行って\n　王の頼みを　聞いてきてくださらんか。": 
@@ -497,7 +497,7 @@
   },
   "85460": {
     "「<pc>というのは　そなたのことか。\n　ムーニス王が　お呼びだ。": 
-    "<pc>I take it that this is you? King Moonis wants to see you."
+    "You're the <pc> responsible for this, eh.\nKing Moonis summoned for you."
   },
   "85461": {
     "「王様が　帰ってきたって聞いたけど\n　本当かねぇ？\n<br>\n「だって　そのわりには　王様の姿を見ないのよ。\n　もしかして　戦争で　重傷でも負ったのかしら？\n　心配だわ……。": 
@@ -1053,7 +1053,7 @@
   },
   "83957": {
     "<attr><feel_happy_lv1><end_attr>「ようこそ　旅の方！\n　こちらは　まもの使いの聖地として知られる\n　アラハギーロ王国です。\n<br>\n「かの有名な　モンスター格闘場も\n　ございますよ。\n　ある事情により　現在は　閉鎖中ですが……。\n<br>\n「それはさておき　砂漠の旅で　お疲れでしょう。\n　どうぞ　ゆっくりしてらしてくださいね。": 
-    "<attr><feel_happy_lv1><end_attr>Welcome, travelers! This is the Kingdom of Arahaghiro, known as the sacred land of the monster messengers. The famous monster fighting arena is also here. It is currently closed due to certain circumstances. But that aside, I'm sure you must be tired from your journey through the desert. Please take your time and relax."
+    "<attr><feel_happy_lv1><end_attr>Welcome, travelers! This is the Kingdom of Arahaghiro,\nknown as the sacred land of the Monster Masters.\n<br>\nThe famous monster fighting arena is also here. Due to\ncertain circumstances, however, it's now closed down...\n<br>\nThat aside, I'm sure you must be tired from your\ndesert trek. Please, take your time and relax."
   },
   "83958": {
     "「私の兄は　お城の兵士だったんだけど\n　すこし前に起きた戦争に　向かったまま\n　行方が　わからなくなってしまったの。\n<br>\n「生死が　わからない人の帰りを\n　待つっていうのは　しんどいわね。\n　なんだか　もう　疲れちゃった……。": 
@@ -1109,11 +1109,11 @@
   },
   "83971": {
     "<attr><feel_normal_one><end_attr>「娘と孫が　里帰り中で　家にいるんだ。\n　じぃじとしては　カワイイ孫の顔が見れて\n　うれしいけど……\n<br>\n「父親が　行方知れずになっちまったせいで\n　すっかり　ふさぎ込んじまってなぁ……。\n　ったく　あんにゃろ　どこ行っちまったんだ！？": 
-    "<attr><feel_normal_one><end_attr>My daughter and grandson are back home. As an\ngrandfather, I'm happy to see my grandchildren's cute\nface, but...\n<br>\nBecause their father has gone missing, I'm depressed\nas well... Jeez, where could he have gone to!?"
+    "<attr><feel_normal_one><end_attr>My daughter and grandson are back home. As a\ngrandfather, I'm happy to see my grandchildren's cute\nface, but...\n<br>\nBecause their father has gone missing, I'm depressed as\nwell... Jeez, where could he have gone to!?"
   },
   "83972": {
     "<attr><feel_sad_lv1><end_attr>「この国は　大きな戦争を経験しました。\n　以来　出征した　ムーニス王と兵士たちが\n　行方不明になってしまって……。\n<br>\n「そのせいで　国は　活気を失い\n　民は　皆　大きな不安を\n　抱え込んでしまっているのです。": 
-    "<attr><feel_sad_lv1><end_attr>The country has been through a great war. Since then,\nKing Moonis and his soldiers have gone missing...\n<br>\nThis has caused the country to lose its vitality, and\nthe people have become very anxious."
+    "<attr><feel_sad_lv1><end_attr>The country has been through a great war. Since then,\nKing Moonis and his soldiers have gone missing...\n<br>\nThis has caused the country to lose its vitality, and the\npeople have become very anxious."
   },
   "83973": {
     "<attr><feel_sad_lv1><end_attr>「仲間の兵士が　ひとりも　帰ってきてないんだ。\n　我が軍……　いや　この国は\n　あの戦争で失ったものが　多すぎる……。": 
