@@ -30,7 +30,7 @@
 
 |Date|File|Comment(s)|
 |:-:|:--|:--|
-|2024/09/25|`eventTextCsMq20033Client.win32`<br>`eventTextCsMq20034Client.win32`<br>`eventTextIeR5ArahColsrServer.win32`<br>`STT_PT_Talk`|(238) I Can't Wait To Be Human [Dawn of Arahaghiro] {Main Story}<br>(239) Missing Person: Kalevan [Dawn of Arahaghiro] {Main Story}|
+|2024/09/25|`eventTextCsMq20033Client.win32`<br>`eventTextCsMq20034Client.win32`<br>`eventTextIeR5ArahColsrServer.win32`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_PT_Talk`|(238) I Can't Wait To Be Human [Dawn of Arahaghiro] {Main Story}<br>(239) Missing Person: Kalevan [Dawn of Arahaghiro] {Main Story}|
 |2024/09/17|`eventTextCsMq20032Client.win32`<br>`eventTextIeR5ArahColsrServer.win32`<br>`STT_Quest_ItemGet`<br>`STT_UIDouguSys`<br>`STT_PT_Talk`|(237) Kelp King's Grief [Dawn of Arahaghiro] {Main Story}|
 |2024/08/12|`STT_PT_Talk`<br>`STT_Quest_ItemGet`<br>`STT_QuestListDetail`<br>`STT_UIDouguSys`<br>`eventTextIeR3MelsTownrServer.win32`<br>`eventTextCsMq20011Client.win32`<br>`eventTextCsMq2001hClient.win32`<br>`eventTextCsMq20012Client.win32`|(226) At Fairy-Tale Town [Tale Of A Hero & A Girl] {Main Story}<br>(227) Chasing Rabbits [Tale Of A Hero & A Girl] {Main Story}|
 ||`eventTextSysBookshelfsServer.win32`|"The Tale of Little Hero Zankrone", parts 2 & 3|
