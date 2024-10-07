@@ -30,6 +30,7 @@
 
 |Date|File|Comment(s)|
 |:-:|:--|:--|
+|2024/10/07|`eventTextIeR5ArahTownrServer.win32`<br>`eventTextIeP3MegiCastServer.win32`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_Quest_ItemGet`<br>`STT_QuestListDetail`|(256) A Small, Unopened Box [Keymasters' Challenges] {Super Useful}|
 |2024/10/05|`eventTextCsAq20183Client.win32`<br>`eventTextIeR5ArahTownfServer.win32`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_Quest_ItemGet`<br>`STT_QuestListDetail`|(250) The Monster's Elegy [Desert Thirst Quencher] {Sub Story}|
 |2024/10/04|`eventTextCsMq20035Client.win32`<br>`eventTextIeR5ArahTownrServer.win32`<br>`eventTextCsAq20181Client.win32`<br>`eventTextCsAq20182Client.win32`<br>`eventTextIeR5ArahTownfServer.win32`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_PT_Talk`<br>`STT_Quest_ItemGet`<br>`STT_QuestListDetail`|(240) Return To Your Family [Dawn of Arahaghiro] {Main Story}<br>(248) Frozen Folk [Desert Thirst Quencher] {Sub Story}<br>(249) The Vengeful Spirit's Identity [Desert Thirst Quencher] {Sub Story}|
 |2024/09/25|`eventTextCsMq20033Client.win32`<br>`eventTextCsMq20034Client.win32`<br>`eventTextIeR5ArahColsrServer.win32`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_PT_Talk`|(238) I Can't Wait To Be Human [Dawn of Arahaghiro] {Main Story}<br>(239) Missing Person: Kalevan [Dawn of Arahaghiro] {Main Story}|
