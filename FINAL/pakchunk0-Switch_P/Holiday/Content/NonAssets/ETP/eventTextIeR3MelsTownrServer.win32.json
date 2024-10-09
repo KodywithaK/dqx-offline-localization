@@ -397,15 +397,15 @@
   },
   "86415": {
     "「ザンクローネさんが　自分の世界に \n　帰るためには　いたずらウサギさんを\n　見つけなきゃいけないみたいなんです。\n<br>\n「あの方は　ジャムとバターを使って \n　こもれびの広場の　ラバニの穴の奥に\n　ウサギさんたちを　おびきだすつもりだとか。\n<br>\n「どうか　ジャムとバターを探して\n　ザンクローネさんの　チカラになって\n　あげてくれませんか？": 
-    "It seems that Mr. Zankrone needs to find the naughty bunnies in order to return to his world. He is planning to use jam and butter to lure the bunnies deep into Rabani's hole in\nSunbeam Square. Please help Mr. Zankrone find the jam and butter."
+    "It seems that Mr. Zankrone needs to find the naughty\nbunnies in order to return to his world.\n<br>\nHe's planning to use jam and butter to lure the\nbunnies deep into Rabani's hole in Sunbeam Square.\nPlease help Mr. Zankrone find the jam and butter."
   },
   "86416": {
     "<attr><feel_happy_one><end_attr>「ありがとうございます。\n　<pc>さんの　親切なところ\n　童話の中の旅人さんに　そっくりですね。": 
-    "<attr><feel_happy_one><end_attr>Thank you very much.<pc>\nI think you are just like the traveler\nin the fairy tale."
+    "<attr><feel_happy_one><end_attr>Thank you very much. <pc>, you're just as kind\nas the traveler from the fairy tale."
   },
   "86417": {
     "<attr><feel_happy_one><end_attr>「ジャムのことは　畑にいるハンネさんが\n　バターは　酒場のリヨンさんが　くわしいです。\n<br>\n「私が　直接　お手伝いするのは \n　むずかしいのですけれど……\n　困ったら　なんでも　お聞きください。": 
-    "<attr><feel_happy_one><end_attr>Hanne at the farm knows a lot about jam, and Lyon at the bar knows a lot about butter. It is difficult for me to help you directly, but if you have any questions, please feel free to ask me."
+    "<attr><feel_happy_one><end_attr>Hanne at the farm knows a lot about jam, and Lyon at\nthe bar knows a lot about butter.\n<br>\nIt's impossible for me to be your helper directly,\nbut... If you're stumped, please ask me anything."
   },
   "86418": {
     "<attr><feel_happy_one><end_attr>「まあ……。<pc>さん\n　お気持ちは　とってもありがたいのですが\n　どうやら　ご依頼を　受けすぎのようです。\n<br>\n「私は　お部屋におりますので \n　手が空いたら　どうか　ザンクローネさんの\n　お手伝いをしてあげてください。": 
@@ -421,7 +421,7 @@
   },
   "86421": {
     "「最近　私が　ここに　水汲みに来ると\n　テラスで　アイリちゃんが\n　ため息をついてる姿を　よく目にするの。\n<br>\n「何か　悩みごとでもあるのかしら？ \n　旅人さん　できれば　チカラになってあげて。": 
-    "Lately, when I come here to fetch\nwater, I often see Airi sighing on the\nterrace. Is something bothering her?\n<br>\nTraveler, please help her if you can."
+    "Recently, I came here to fetch water and on the\nterrace I constantly see Airi sighing. Is something\nbothering her?\n<br>\nTraveler, if you can, please help her."
   },
   "86422": {
     "<attr><feel_happy_lv1><end_attr>「朝食のパンが　なくなったって\n　お客さんから　クレームがあってぇ。\n　あたしが犯人じゃないかって　疑われたの～！\n<br>\n「超ショックだったんだけどぉ \n　おかみさんが　かばってくれてさ。\n　あたし　ちょっと　感動しちゃったカモ……。": 
@@ -429,7 +429,7 @@
   },
   "86423": {
     "<attr><feel_sad_one><end_attr>「アイリちゃんが　この前\n　倒れちゃったって　聞いてねえ。\n　じいしゃん　心配で　歯が抜けちゃうよ。": 
-    "<attr><feel_sad_one><end_attr>I heard that Airi collapsed the other day.\nThis grandpa is so worried, that my teeth\nare falling out."
+    "<attr><feel_sad_one><end_attr>I heard that Airi collapsed the other day. This grandpa\nis so worried, that my teeth are falling out."
   },
   "86424": {
     "<attr><feel_angry_lv3><end_attr>「弟が　今度は\n　ザンクローネ様を　見たなんて\n　ウソつくの！\n<br>\n「ほんっと　こりない子よね！\n　ウソつきには　ザンクローネキックを\n　おみまいしてやるわ！": 
@@ -437,7 +437,7 @@
   },
   "86425": {
     "<attr><feel_think_one><end_attr>「最近　焼きたてのパンが　よく消えちゃうだね。\n　もしかしたら　また　<%sEV_QUE_NAME0>が\n　悪さしてんのかもだね。": 
-    "<attr><feel_think_one><end_attr>Lately, freshly baked bread often disappears.\nMaybe <%sEV_QUE_NAME0>s' mischief again."
+    "<attr><feel_think_one><end_attr>Lately, freshly baked bread often disappears, y'know.\nPerhaps, it's those <%sEV_QUE_NAME0>s up to no\ngood again, right."
   },
   "86426": {
     "<attr><feel_sad_one><end_attr>「ラペットじいさんってば\n　紙芝居の続き　見せてくれないんだ。\n　ちぇっ　つまんないの。\n<br>\n「なんなら　オイラが　続きを作ろっかな。\n　英雄キオが　ザンクローネを救う！\n　って　感じでさ！": 
@@ -445,11 +445,11 @@
   },
   "86427": {
     "「ウサギさんの好物は　ジャムとバター。\n　ジャムのことは　畑にいるハンネさんが\n　バターは　酒場のリヨンさんが　くわしいです。<open_irai><bw_break>": 
-    "Rabbit's favorite foods are jam & butter.\n<br>\nHanne at the farm knows about jam, and\nLyon at the bar knows about butter.<open_irai><bw_break>"
+    "Rabbit's favorite foods are jam & butter. Hanne at\nthe farm knows about jam, and Lyon at the bar knows\nabout butter.<open_irai><bw_break>"
   },
   "86428": {
     "「その　ふたつを使えば\n　こもれびの広場の　ラバニの穴の奥に\n　ウサギさんたちを　おびきだせるようです。<bw_break>": 
-    "Using these, it seems one can lure the\nbunnies deep in Rabbani's hole to\nSunbeam Square.<bw_break>"
+    "If you use those two things, it seems you can lure\nout the bunnies deep within Sunbeam Square's Rabbani\nHole.<bw_break>"
   },
   "86625": {
     "<close_irai>「どうか　ザンクローネさんが\n　ウサギさんたちを　おびきだせるよう\n　チカラを　貸してあげてください。": 
@@ -457,23 +457,23 @@
   },
   "86429": {
     "<attr><feel_happy_one><end_attr>「私も　村長やってる　うちの夫も\n　パンパニーニさんの童話を　読んで\n　育ったのよ。\n<br>\n「パンパニーニさんと　ラペットじいさんは \n　村のみんなの　おじいちゃんみたいな人でね。\n<br>\n「だから　アイリちゃんのことは　\n　妹みたいに思えて　放っておけないんだよ。": 
-    "<attr><feel_happy_one><end_attr>My husband, who is the village chief, and\nI grew up reading Pampanini's fairy tales.\n<br>\nMr. Pampanini and Grandpa Lapett are like\ngrandfathers to everyone in the village.\n<br>\nThat's why I can't leave Airi alone\nbecause she's like a little sister to me."
+    "<attr><feel_happy_one><end_attr>The mayor—my husband—and I grew up reading\nPampanini's fairy tales.\n<br>\nPampanini and Grandpa Lapett are like everyone in\nthe village's grandfathers, you know.\n<br>\nThat's why I think of Little Airi as a little sister\nand don't want to neglect her."
   },
   "86267": {
     "<attr><feel_happy_one><end_attr>「フンフーンと♪ \n　おいしいパンの　おともには～\n　あま～いジャムは　かかせない～♪": 
-    "<attr><feel_happy_one><end_attr>Mmm-hmm\n♪ To go with the delicious bread ♪\nYou can't go wrong with sweet jam"
+    "<attr><feel_happy_one><end_attr>Fun-fuuun ♪ tasty breeead's partner iiis ♪ sweeeeet\njam, you cannot miiiss ♪"
   },
   "86431": {
     "<attr><feel_think_one><end_attr><turn_pc>「……ほほーう。アイリちゃんから\n　ジャムの調達を　頼まれたって？\n　それなら　おばちゃんに　まかせなさぁい！\n<br>\n「だけど　その前に　<%sEV_QUE_NAME4>を \n　３個　持ってきてほしいわねぇ。\n　持ってきたら　すぐ　ジャムを煮てあげるよ。": 
-    "<attr><feel_think_one><end_attr><turn_pc>Oh, it's you! I heard Little Airi asked\nyou to get jam for her? If that's the case,\nleave it to Auntie! But first...\n<br>\nI want you to bring me three <%sEV_QUE_NAME4>s.\nAs soon as you bring them, I'll boil the\nspecial jam."
+    "<attr><feel_think_one><end_attr><turn_pc>...Hohoo, Little Airi told you to ask me for jam?\nIf so, leave it to Auntie!\n<br>\nBut first, I want you to bring me 3 <%sEV_QUE_NAME4>,\nokaaay. Once you bring them, right then I'll cook up\nthe jam for you."
   },
   "86432": {
     "<attr><feel_happy_one><end_attr>「フンフーンと♪ \n　おいしいパンの　おともには～\n　あま～いジャムは　かかせない～♪<bw_break>": 
-    "<attr><feel_happy_one><end_attr>Mmm-hmm\n♪ To go with the delicious bread ♪\nYou can't go wrong with sweet jam<bw_break>"
+    "<attr><feel_happy_one><end_attr>Fun-fuuun ♪ tasty breeead's partner iiis ♪ sweeeeet\njam, you cannot miiiss ♪<bw_break>"
   },
   "86433": {
     "<attr><feel_happy_one><end_attr><turn_pc>「おや　あんたかい。 \n　<%sEV_QUE_NAME4>を　３個　持ってくれば\n　すぐに　ジャムを煮てあげるよ。": 
-    "<attr><feel_happy_one><end_attr><turn_pc>Oh, it's you! Bring me three <%sEV_QUE_NAME4>s\nand I'll boil them for you right away."
+    "<attr><feel_happy_one><end_attr><turn_pc>Oh yeah, it's you. If you bring me 3 <%sEV_QUE_NAME4>,\nright then I'll cook up the jam for you."
   },
   "86434": {
     "<attr><feel_sad_one><end_attr>「えー。それじゃあ\n　ジャムは　作れないわねぇ。": 
@@ -481,51 +481,51 @@
   },
   "86435": {
     "<attr><feel_happy_lv2><end_attr>「オーケー！　じゃあ\n　さっそく　煮てきてあげるから\n　ちょいっと　お待ちなさぁい。": 
-    "<attr><feel_happy_lv2><end_attr>Okay! Then, I'll start boiling it\nright away, so please wait a bit."
+    "<attr><feel_happy_lv2><end_attr>O-K! Then, I'll cook it up for you right away, so\nplease wait a bit."
   },
   "86436": {
     "<attr><feel_happy_one><end_attr>「はい　おまたせ！\n　おばちゃん特製　くれないジャム　完成！": 
-    "<attr><feel_happy_one><end_attr>Here we go again! Auntie's special\nDeep Red Jam is ready!"
+    "<attr><feel_happy_one><end_attr>Here you go, sorry about the wait! Auntie's Deluxe\nDeep Red Jam is finished!"
   },
   "86437": {
     "<attr><feel_happy_one><end_attr>「アイリちゃんの病気だって\n　おばちゃんのジャムを　食べたらさ\n　きっと　ふっとぶだろうよ！": 
-    "<attr><feel_happy_one><end_attr><turn_pc>I'm sure Airi's illness will disappear\nafter she eats some of Auntie's jam!"
+    "<attr><feel_happy_one><end_attr><turn_pc>One bite of Auntie's jam and I'm sure that Airi's\nillness will be gone with the wind!"
   },
   "86438": {
     "<attr><feel_happy_one><end_attr><turn_pc>「アイリちゃんの病気だって\n　おばちゃんのジャムを　食べたらさ\n　きっと　ふっとぶだろうよ！": 
-    "<attr><feel_happy_one><end_attr><turn_pc>I'm sure Airi's illness will disappear\nafter she eats some of Auntie's jam!"
+    "<attr><feel_happy_one><end_attr><turn_pc>One bite of Auntie's jam and I'm sure that Airi's\nillness will be gone with the wind!"
   },
   "86439": {
     "「あぁ　忙しい　忙しいわ～。 \n　あなたも　当店自慢の\n　バターロールの　ご注文かしら？\n<br>\n「……まぁ　アイリちゃんが\n　私の作るバターを　ほしがってるのね～。\n　それなら　どうぞ差しあげるわ～。": 
-    "Oh, I'm so busy, so busy! Are you\nordering our famous butter rolls?\nWell, I see that Airi wants my butter.\n<br>\nIn that case, I'll give it to you."
+    "Aah, I'm so busy, sooo busyyy. Are you ordering our\nfamous butter rolls too?\n<br>\n...My, Little Airi seems to want some butter I made,\ndoes sheee. In that case, please give her sooome."
   },
   "86440": {
     "<attr><feel_happy_one><end_attr>「アイリちゃんには　うちのバターを \n　よく　買ってもらってるのよね～。\n　だから　これは　サービスよ～。": 
-    "<attr><feel_happy_one><end_attr>I often have Airi buy our butter for\nme. So this is a service."
+    "<attr><feel_happy_one><end_attr>Little Airi often buys my butter, y'knooow. So this\none's on the hooouse."
   },
   "86441": {
     "<attr><feel_happy_one><end_attr>「アイリちゃんには　うちのバターを\n　よく　買ってもらってるのよね～。\n　だから　あげたバターは　サービスよ～。\n<br>\n「あぁ　話し込んでる場合じゃないわね～。\n　バターロール　いっぱい焼かなきゃ～。": 
-    "<attr><feel_happy_one><end_attr>Airi often buys our butter for me. That's why the butter I gave you is for free. Oh, I don't have time to talk about it. I have to make more butter rolls."
+    "<attr><feel_happy_one><end_attr>Little Airi often buys my butter, y'knooow. So that\none I gave you's on the hooouse.\n<br>\nAah, this isn't the time for deep conversations,\ny'knooow. I gotta bake lots of butter rooolls."
   },
   "86442": {
     "ハンネに　<%sEV_QUE_NAME4>を\n３個　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
-    "Would you like to give Hanne three\n<%sEV_QUE_NAME4>s?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "Give Hanne 3 <%sEV_QUE_NAME4>?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "86443": {
     "<pc>は　ハンネに\n<%sEV_QUE_NAME4>を　３個　渡した！": 
-    "<pc> gives three\n<%sEV_QUE_NAME4>s to Hanne!"
+    "<pc> gave Hanne 3 <%sEV_QUE_NAME4>!"
   },
   "86444": {
     "<pc>は\nくれないジャム（だいじなもの）を　受け取った！<me 60>": 
-    "<pc> received the\nDeep Red Jam (key item)!<me 60>"
+    "<pc> received the Deep Red Jam (Key Item)!<me 60>"
   },
   "86445": {
     "これで　ウサギをおびきだすための\nジャムとバターが　そろった！\n<br>\n手に入れた　ジャムとバターを\nこもれびの広場の　ラバニの穴の奥に仕掛け\nウサギたちを　おびきだそう。": 
-    "Now we have all the jam and butter we need!\n<br>\nLet's use the jam and butter we got to\nlure the rabbits out of Rabani's hole in\nSunbeam Square."
+    "With that, we have jam and butter to lure out the\nbunnies!\n<br>\nUsing the collected jam and butter, let's set a trap\ninside of Sunbeam Square's Rabbini Hole to lure out\nthe bunnies."
   },
   "86446": {
     "<pc>は\nしらゆきバター（だいじなもの）を　受け取った！<me 60>": 
-    "<pc> received the\nSnow White Butter (key item)!<me 60>"
+    "<pc> received the Snow White Butter (Key Item)!<me 60>"
   },
   "86447": {
     "これで　ウサギをおびきだすための\nジャムとバターが　そろった！\n<br>\n手に入れた　ジャムとバターを\nこもれびの広場の　ラバニの穴の奥に仕掛け\nウサギたちを　おびきだそう。": 
@@ -533,23 +533,23 @@
   },
   "86448": {
     "<attr><feel_happy_one><end_attr>「まあ！　ジャムとバターを\n　そろえてきてくださったのですね。\n　さすが　<pc>さん。\n<br>\n「作戦では　こもれびの広場の　ラバニの穴の奥に\n　その　ふたつを置いて　ウサギさんたちが\n　罠にかかるまで　身を隠せばいいようです。<open_irai><bw_break>": 
-    "<attr><feel_happy_one><end_attr>Oh, my! You've brought jam and butter.\nThat's what I'm talking about, <pc>.\n<br>\nThe plan is to place them at Rabbani's Hole\nin Sunbeam Square and hide until the\nbunnies are trapped.<open_irai><bw_break>"
+    "<attr><feel_happy_one><end_attr>Oh, my! You collected the jam and butter for me, did\nyou. That's what I'm talking about, <pc>.\n<br>\nThe plan seems to be placing those both at Sunbeam\nSquare's Rabbani Hole and hiding until the bunnies\nfall for the trap.<open_irai><bw_break>"
   },
   "86449": {
     "「どうか　ラバニの穴の奥へ　向かってください。\n　ザンクローネさんも　待っているはずです。": 
-    "Please head to the back of Rabbani's Hole.\nZankrone will be waiting for you."
+    "Please head inside of Rabbani Hole. Zankrone should\nbe waiting for you too."
   },
   "86450": {
     "<attr><feel_sad_one><end_attr>「ううん……。\n　ザンクローネ様を　見たハズなんだけど\n　夢だったような　気がしてきた……。": 
-    "<attr><feel_sad_one><end_attr>No, no. I thought I saw Zankrone, but\nI'm starting to think it was a dream."
+    "<attr><feel_sad_one><end_attr>Uuumm... I thought I saw Hero Zankrone, but I feel\nlike that was just a dream..."
   },
   "86451": {
     "<attr><feel_think_lv2><end_attr>「おかみさんってば\n　ハルフィーちゃんが　宿を手伝ってくれて\n　助かるわ　なんて言うわけ～。\n<br>\n「どうしよぉ……。\n　故郷のジュレットに　帰らなくっても\n　いいような気がしてきたカモ。": 
-    "<attr><feel_think_lv2><end_attr>How nice of the landlady to have Halfee-chan helping out at the inn.... What should I do? I'm starting to feel like I don't have to go back to my hometown."
+    "<attr><feel_think_lv2><end_attr>Speaking of the missis, she said something like,\n\"Halphy, you can save me the trouble, by helping\nclean the inn for me\".\n<br>\nWhat do I do... I'm feel like I don't have to go back\nto my hometown, Julet."
   },
   "86452": {
     "<attr><feel_happy_lv3><end_attr>「弟が　ザンクローネ様を見たなんて\n　ウソつくから　ザンクローネキックを\n　おみまいしてやったわ！": 
-    "<attr><feel_happy_lv3><end_attr>When my brother lied about seeing the\nHero Zankrone, I gave him a Zankrone kick!"
+    "<attr><feel_happy_lv3><end_attr>When my brother lied about seeing Hero Zankrone, I\ngave him a Zankrone Kick!"
   },
   "86453": {
     "<attr><feel_happy_one><end_attr>「あんた　いつも\n　アイリお嬢さまに　会いにきてくれて\n　本当に　ありがとうだね。\n<br>\n「アイリお嬢さまね……。\n　お身体の具合が　優れないみたいなんよ。\n　今は　すこし　休ませてあげてほしいだね。": 
@@ -565,11 +565,11 @@
   },
   "86197": {
     "「まあ……ゴホッ　ゴホッ。\n　<pc>さん……心配して\n　来てくださったんですか。<bw_break>": 
-    "Oh my... *cough* *cough*. <pc>... I am so glad that\nyou came to see me.<bw_break>"
+    "Oh my... *cough* *cough*. <pc>... I am so glad\nthat you came to check up on me.<bw_break>"
   },
   "86198": {
     "「魔女が現れ……村を滅ぼすと書かれた\n　おじいさまの童話の　４話……。\n　あれから　よく　読み返してみたんです。\n<br>\n「そしたら……物語の中に\n　魔女は　ニワトリさんの声に　おどろき\n　逃げていったというシーンがありました。\n<br>\n「ニワトリさん……。 \n　きっと……これが　魔女の弱点なんです。\n<br>\n「このエピソードが　最後の希望です。 \n　もし　上手くいけば\n　メルサンディ村を　救えるはず……。\n<br>\n「<pc>さん　お願いです……。\n　魔女が現れるという　こもれびの広場の井戸に\n　ニワトリさんを　連れていってください！": 
-    "The fourth part of Uncle's fairy tale,\nin which a witch appears and destroys the\nvillage. I have read it nonstop since then.\n<br>\nAnd there was a scene in the story where\nthe witch was frightened by the chicken's\nvoice and ran away.\n<br>\nA chicken must be the witch's weakness.\nThat part is our last hope. If it works,\nwe can save Melsandy Village.\n<br>\n<pc>, please! Please take a\nchicken to the well in Sunbeam Square\nwhere the witch is said to appear!"
+    "The witch's appearance... That grandfather wrote will\nbring ruin to the village in the 4th sequel... Since\nlast time, I've tried often rereading it.\n<br>\nAnd... In the story, there was a scene where the witch\nwas surprised by a chicken's voice and ran away.\nA chicken... I'm sure... That's the witch's weakness.\n<br>\nThat episode is our last hope. If it works, Melsandy\nVillage should be saved...\n<br>\n<pc>, please... Please take a chicken to the\nwell in Sunbeam Square where the witch is said to\nappear!"
   },
   "86199": {
     "<attr><feel_happy_one><end_attr>「<pc>さん　ありがとう……。\n　……ゴホッ　ゴホッ！\n<br>\n「滅びの運命を変えるため…… \n　私にも　何か　できることがある。\n　……そう　信じたいんです。\n<br>\n「私のお友達の　ラーシャさんに言えば\n　ニワトリさんを　貸してくれると思います。\n　どうか　お願いいたします……。": 
@@ -581,19 +581,19 @@
   },
   "87417": {
     "<attr><feel_sad_one><end_attr>「そうですか……残念です。\n　ゴホッ　ゴホッ。": 
-    "<attr><feel_sad_one><end_attr>I'm sorry to hear that. Gohoho, gohoho."
+    "<attr><feel_sad_one><end_attr>Is that so... How disappointing. *cough-cough*."
   },
   "86201": {
     "<attr><feel_sad_lv2><end_attr>「……さっき　井戸端会議で \n　ルーデさんから　アイリちゃんの体調が\n　あまり　よくないって聞いたの。\n<br>\n「その上　なにか思いつめてるって……。\n　誰か　悩みを聞いてあげられる人が\n　いたらいいのに……。": 
-    "<attr><feel_sad_lv2><end_attr>I heard from Miss Rudy that Airi is not\nin very good health. She also said\nthat she has something on her mind.\n<br>\nIt would be nice if there was someone\nwho could listen to her worries."
+    "<attr><feel_sad_lv2><end_attr>...A little while ago, I was chatting at the well with\nRudy and she said that with Little Airi's condition,\nshe doesn't have long.\n<br>\nOn top of that, Airi's worried about something, she\nsaid... If only there was someone who'd listen to her\ntroubles..."
   },
   "86202": {
     "<attr><feel_sad_one><end_attr>「アイリちゃんの　病気の具合が\n　かなり悪いって聞いてねえ。\n　じいしゃん　心配で　歯ぐきが痛いよ。": 
-    "<attr><feel_sad_one><end_attr>I heard that Airi is very sick.\nThis grandpa is so worried, that my\ngums hurt."
+    "<attr><feel_sad_one><end_attr>I heard that the state of Little Airi's illness is\nquite bad, y'know. This grandpa is so worried, that\nmy gums are sore."
   },
   "86203": {
     "<attr><feel_sad_lv3><end_attr>「アイリお嬢さま　食が細くなっただね。\n　大好きなパンでさえ\n　のどを　通らないって……。\n<br>\n「このままじゃ　弱っちまうだね……。\n　うっうっ……。": 
-    "<attr><feel_sad_lv3><end_attr>Miss Airi has become a bit of a picky\neater. She can't even get through her\nfavorite bread.\n<br>\nAt this rate, you'll become weak. Ugh."
+    "<attr><feel_sad_lv3><end_attr>Miss Airi has ate very little, y'know. Even her\nfavorite bread can't go down her throat, she said...\nAs it is, she'll waste away, y'know. *sob*..."
   },
   "86204": {
     "「ニワトリさん……。 \n　きっと……これが　魔女の弱点なんです。\n<br>\n「このエピソードが　最後の希望です。 \n　もし　上手くいけば\n　メルサンディ村を　救えるはず……。\n<br>\n「<pc>さん　どうか……\n　魔女が現れるという　こもれびの広場の井戸に\n　ニワトリさんを　連れていってください！<open_irai><bw_break>": 
@@ -785,11 +785,11 @@
   },
   "86266": {
     "<attr><feel_happy_one><end_attr>「村長やってる　うちの夫と相談して\n　アイリちゃんの　病気を治せる\n　お医者さまを　探すことにしたの。\n<br>\n「でも　あんまり村から出たことないから\n　ドキドキしちゃうわ。\n　なんでも　都会は　地面が石でできてるとか。": 
-    "<attr><feel_happy_one><end_attr>After talking with my husband, the village\nchief, we decided to look for a doctor who\ncan cure Airi's illness.\n<br>\nBut I'm nervous because I haven't been out\nof the village much. I heard that in the\ncity, the ground is made of stone."
+    "<attr><feel_happy_one><end_attr>The mayor—my husband—and I were discussing, we've\ndecided to look for a doctor to cure Little Airi's\nillness.\n<br>\nBut I haven't left the village very much, so my heart's\npitter-pattering. I hear that in the city, the ground\nis made of stone or something."
   },
   "86430": {
     "<attr><feel_happy_one><end_attr>「フンフーンと♪ \n　おいしいパンの　おともには～\n　あま～いジャムは　かかせない～♪": 
-    "<attr><feel_happy_one><end_attr>Mmm-hmm\n♪ To go with the delicious bread ♪\nYou can't go wrong with sweet jam"
+    "<attr><feel_happy_one><end_attr>Fun-fuuun ♪ tasty breeead's partner iiis ♪ sweeeeet\njam, you cannot miiiss ♪"
   },
   "86268": {
     "<attr><feel_sad_one><end_attr><turn_pc>「うちの夫ったら　いつまでたっても\n　腰イタイって　騒いでんのよねぇ！\n　今度　腰にジャムでも　すりこんでやろうかね。": 
@@ -921,7 +921,7 @@
   },
   "84827": {
     "<attr><feel_happy_lv2><end_attr>「この宿では　例の童話に登場する\n　ビップルームを　完全再現しているのよ。\n　じっくり　見てってねえ。さて……<bw_break>": 
-    "<attr><feel_happy_lv2><end_attr>This inn is a perfect replica of the VIP\nroom in the fairy tale. Take a good look.\nNow...<bw_break>"
+    "<attr><feel_happy_lv2><end_attr>This inn has a perfect replica of the VIP room from\nthe fairy tale. Take a close look. Now...<bw_break>"
   },
   "84828": {
     "「こんにちは　旅人さん！\n　ここは　童話の里　メルサンディ村よ。\n<br>\n「ぜひ　旅の記念に　この村の名物\n　ラペットじいさんの紙芝居を　見ていってね。": 
