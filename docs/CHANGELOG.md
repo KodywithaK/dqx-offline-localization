@@ -30,7 +30,7 @@
 
 |Date|File|Comment(s)|
 |:-:|:--|:--|
-|2024/10/09|`eventTextCsMq20014Client.win32`<br>`eventTextIeR3MelsTownrServer.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(229) Witch and Chicken [Tale Of A Hero & A Girl] {Main Story}|
+|2024/10/09|`eventTextCsMq20014Client.win32`<br>`eventTextCsMq20015Client.win32`<br>`eventTextIeR3MelsTownrServer.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(229) Witch and Chicken [Tale Of A Hero & A Girl] {Main Story}<br>(230) Little Hero Zankrone [Tale Of A Hero & A Girl] {Main Story}|
 |2024/10/08|`eventTextCsMq20013Client.win32`<br>`eventTextCsMq20014Client.win32`<br>`eventTextIeR3MelsTownrServer.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(228) Sinful Hero [Tale Of A Hero & A Girl] {Main Story}<br>(229) Witch and Chicken [Tale Of A Hero & A Girl] {Main Story}|
 |2024/10/07|`eventTextIeR5ArahTownrServer.win32`<br>`eventTextIeP3MegiCastServer.win32`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_Quest_ItemGet`<br>`STT_QuestListDetail`|(256) A Small, Unopened Box [Keymasters' Challenges] {Super Useful}|
 |2024/10/05|`eventTextCsAq20183Client.win32`<br>`eventTextIeR5ArahTownfServer.win32`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_Quest_ItemGet`<br>`STT_QuestListDetail`|(250) The Monster's Elegy [Desert Thirst Quencher] {Sub Story}|
