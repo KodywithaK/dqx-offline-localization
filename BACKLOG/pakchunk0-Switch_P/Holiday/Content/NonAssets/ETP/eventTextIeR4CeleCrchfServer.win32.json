@@ -545,7 +545,7 @@
   },
   "85802": {
     "<attr><feel_normal_lv1><end_attr>「おひさしぶりです　<pc>さん。\n　おかげさまで　大人がいなくても\n　なんとか　暮らせていますよ。\n<br>\n「……ところで　最近　リズが元気ないんです。\n　あなたが来たと知れば　きっと　よろこぶから\n　ぜひ　会っていってください。": 
-    ""
+    "<attr><feel_normal_lvl1><end_attr>Long time, no see, <pc>. Thank the Goddess, even\nwithout adults, we're somehow still alive.\n<br>\n...By the way, lately, Liz hasn't been feeling well.\nOnce she knows you came, I'm sure that she'll be\ndelighted, so please, you absolutely go see her."
   },
   "85804": {
     "<attr><feel_normal_silent><end_attr>「…………。": 
@@ -553,11 +553,11 @@
   },
   "85806": {
     "<attr><feel_normal_lv1><end_attr><turn_pc>「……あら。\n　おひさしぶりですわ　<pc>さん。\n　ちょっと今　妹のことを　考えていましたの。<bw_break>": 
-    "<attr><feel_normal_lv1><end_attr><turn_pc>...Ah, long time, no see, <pc>.\nI was just thinking about my sister.<bw_break>"
+    "<attr><feel_normal_lv1><end_attr><turn_pc>...Ah, long time, no see, <pc>. I was just\nthinking about my sister.<bw_break>"
   },
   "85808": {
     "<attr><feel_sad_one><end_attr><turn_pc>「私には　ルコリアという双子の妹がいるのですが\n　魔人の召喚に失敗して　魔力が暴走した時に\n　大人たちと一緒に　消えてしまって……。\n<br>\n「……えっ！\n　ルコリアのことを　ご存じですの？\n　あの子は　いったい　どこにいるんですか！？": 
-    "<attr><feel_sad_one><end_attr><turn_pc>I have a twin sister named Lucolia that\nmagically vanished alongside the adults\nwhen we failed to summon the genie...\n<br>\n...Huh! You know about Lucolia?\nWhere the heck is that girl!?"
+    "<attr><feel_sad_one><end_attr><turn_pc>I have a twin sister named Lucolia that magically\nvanished alongside the adults when we failed to\nsummon the genie...\n<br>\n...Ehh! You know about Lucolia? Where the heck is that\ngirl!?"
   },
   "85810": {
     "<attr><feel_angry_lv1><end_attr>「……まあ　からかったんですね。\n　失礼しちゃいますわ！": 
@@ -565,19 +565,19 @@
   },
   "85812": {
     "<attr><feel_think_one><end_attr>「もう　会えないと思ってましたのに\n　あの子から　手紙が来るなんて\n　ウソみたいですわ……。": 
-    "<attr><feel_think_one><end_attr>I thought I would never see her again,\nbut to get a letter from her, it seems\nunbelievable..."
+    "<attr><feel_think_one><end_attr>I thought I would never see her again, but to get a letter\nfrom her, it seems unbelievable..."
   },
   "85814": {
     "<attr><feel_normal_lv1><end_attr>「……天国の　姉さんへ。姉さんが亡くなって\n　どれだけの月日が　流れたでしょうか。\n　町は　今も　重苦しい空気に包まれています。\n<br>\n「私も　悲しみで　気が変になりそうだったけど\n　なんとかやってるから　心配しないで。\n　どうか　天国から見守っててください……。": 
-    "<attr><feel_normal_lv1><end_attr>''Dear sister in Heaven... How long has it\nbeen since you passed, do you think?''\n<br>\n''The town, even now, has a gloomy\natmosphere about it.''\n<br>\n''I was going crazy with grief too, but am\nmanaging somehow, so don't worry. Please\nkeep watching over me from Heaven...''"
+    "<attr><feel_normal_lv1><end_attr>\"Dear sister in Heaven... How long has it been since\nyou passed, do you think?\"\n<br>\n\"The town, even now, has a gloomy atmosphere about\nit.\"\n<br>\n\"I was going crazy with grief too, but am managing\nsomehow, so don't worry. Please keep watching over\nme from Heaven...\""
   },
   "85816": {
     "<attr><feel_think_one><end_attr>「このクセ字は　確かにルコリアの字……。\n　<pc>さん　これは　どういうことです？\n　どこで　この手紙を受け取りましたの？": 
-    "<attr><feel_think_one><end_attr>This writing is definitely Lucolia's...\n<pc>, how did you get this?\nWhere did you get this letter from?"
+    "<attr><feel_think_one><end_attr>This writing is definitely Lucolia's... <pc>, how\ndid you get this? Where did you get this letter from?"
   },
   "85818": {
     "<attr><feel_think_one><end_attr>「真の……レンダーシア……？\n　なんだか　途方もない話で\n　私には　よくわかりませんわ。\n<br>\n「この手紙によると　そちらのセレドの町では\n　私たちは　死んだことになっているようですね。\n　……まったく　失礼な話ですこと！\n<br>\n「とにかく　妹が無事のようで　安心しました。\n　今日の日記に　書くことができましたわ。\n<br>\n「……ちゃんと　日記を書いておかないと\n　大人たちが消えてから　どれだけ月日が経ったか\n　わからなくなってしまうんです。": 
-    "<attr><feel_think_one><end_attr>True... Lendersia...?\nWhat an absurd story, I don't understand.\n<br>\nAccording to this letter, we are supposed\nto be dead in that Celed.\n...What a\ndiscourteous discussion it is!\n<br>\nAt any rate, I am relieved to hear that\nmy little sister is safe. I'll write about\nit in my diary tonight.\n<br>\n...I have to start to keeping a proper diary\nor lose track of how long it has been\nsince the adults vanished."
+    "<attr><feel_think_one><end_attr>True... Lendersia...? What an absurd story, I don't\nunderstand.\n<br>\nAccording to this letter, we are supposed to be dead\nin that Celed... What a discourteous discussion it is!\n<br>\nAt any rate, I am relieved to hear that my little sister is\nsafe. I'll write about it in my diary tonight.\n<br>\n...I have to start keeping a proper diary or I lose track of\nhow long it has been since the adults vanished."
   },
   "85820": {
     "ルコリアの手紙を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
@@ -585,7 +585,7 @@
   },
   "85822": {
     "<pc>は　リゼロッタに\nルコリアの手紙を　渡した！": 
-    "<pc> gave Liselotte\nLucolia's Letter!"
+    "<pc> gave Liselotte Lucolia's Letter!"
   },
   "85824": {
     "リゼロッタは　ルコリアの手紙を読んだ。": 
@@ -593,7 +593,7 @@
   },
   "85826": {
     "<pc>は　リゼロッタに\n真のレンダーシアの　セレドの町で\nルコリアに会ったことを　説明した。": 
-    "<pc> explained how they met\nLucolia in True Lendersia's Celed."
+    "<pc> explained how they met Lucolia in True\nLendersia's Celed."
   },
   "85828": {
     "<attr><feel_think_one><end_attr>「<pc>さん　リズと会ってきたんですね。\n　最近　落ち込んでたようなんですが\n　彼女から　何か　聞いていませんか？<yesno><case 1><break><case 2><break><case_cancel><break><case_end>": 
@@ -701,7 +701,7 @@
   },
   "58644": {
     "<attr><feel_happy_one><end_attr>「こはくの宝珠は　リンジャの塔に眠る。\n　汝　神の言葉をおそれず　その門をたたけ……。\n　……ふふ　これだわ。": 
-    "<attr><feel_happy_one><end_attr>The Amber Jewel lies at Rinja Tower.\n<br>\n''Thou shalt not fear Word of the Goddess'',\n''Rather, ask to be Her spokesperson''...Haha, that's it."
+    "<attr><feel_happy_one><end_attr>The Amber Jewel lies at Rinja Tower.\n<br>\n\"Thou shalt not fear Word of the Goddess\",\n\"Rather, ask to be Her spokesperson\"...Haha, that's it."
   },
   "58645": {
     "<attr><feel_normal_one><end_attr><turn_pc>「……ノックもせず　レディの部屋に入るなんて。\n　よほど　しつけの行き届いた　ご家庭で\n　お育ちになったのね。\n<br>\n「いったい　なんの用かしら？\n　……もしかして　あなた\n　私たちの計画のことを　知りたいの？<yesno><break>": 
@@ -821,15 +821,15 @@
   },
   "58671": {
     "<attr><feel_happy_one><end_attr>「おひさしぶりです　<pc>さん。\n　おかげさまで　大人がいなくても\n　なんとか　暮らせていますよ。<bw_break>": 
-    ""
+    "<attr><feel_happy_one><end_attr>Long time, no see, <pc>. Thank the Goddess, even\nwithout adults, we're somehow still alive.<bw_break>"
   },
   "58672": {
     "<attr><feel_sad_one><end_attr>「……ところで　最近　リズが元気ないんです。\n　あなたが来たと知れば　きっと　よろこぶから\n　ぜひ　会っていってください。": 
-    ""
+    "<attr><feel_sad_one><end_attr>...By the way, lately, Liz hasn't been feeling well.\nOnce she knows you came, I'm sure that she'll be\ndelighted, so please, you absolutely go see her."
   },
   "58673": {
     "<attr><feel_sad_one><end_attr>「……ところで　最近　リズが元気ないんです。\n　彼女から　何か　聞いていませんか？<yesno><break>": 
-    ""
+    "<attr><feel_sad_one><end_attr>...By the way, lately, Liz hasn't been feeling well.\nYou haven't heard anything from her, have you?<yesno><break>"
   },
   "58674": {
     "<attr><feel_normal_one><end_attr>「え？　リズは　家族のことを……？\n　それって　もしかして　妹の……。\n<br>\n「……あっ　いえ　なんでもないんです。\n　教えてくれて　ありがとうございました。": 
@@ -869,7 +869,7 @@
   },
   "76160": {
     "<attr><feel_happy_lv2><end_attr>「フィーロ兄ちゃんって　教えるのうまくてさ。\n　オレ　勉強で　わからないところ\n　いろいろ　教えてもらってるんだ。\n<br>\n「……勉強なんて　役に立たないかもしれないけど\n　いつ　オトナが帰ってくるか　わからないしさ。\n　毎日グダグダしてるより　いいだろ？": 
-    ""
+    "<attr><feel_happy_lv2><end_attr>Big Brother Firo is great at teaching. When I'm\nstudying and don't know something, he's teaches me\nall about it.\n<br>\n...Stuff like studying may not be useful, but we don't\nknow when the adults are coming back, so. Better than\nbeing lazy every day, right?"
   },
   "76161": {
     "<attr><feel_normal_one><end_attr>「ンーッ！　ガーッ！　ガジガジ！　ガリガリ！\n　クルミの実って　かじっても　かじっても\n　なかなか　割れないもんだね！！": 
