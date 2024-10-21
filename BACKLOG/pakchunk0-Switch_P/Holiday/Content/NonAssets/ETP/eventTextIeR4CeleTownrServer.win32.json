@@ -137,7 +137,7 @@
   },
   "85798": {
     "<attr><feel_think_one><end_attr>「おお　やってくれるか。\n　……と言いたいところだが　アンタ\n　他にも　仕事を抱えているようだな。\n<br>\n「忙しいアンタに　オレの頼みごとを\n　押しつけるわけにも　いかないしな。\n　また　手が空いたときに　来てくれよ。": 
-    "<attr><feel_think_one><end_attr>Oh, you can do it. I'd like to say,\n''Yes, you can do it,'' but you seem to\nbe busy with other things. I can't\n<br>\nforce you to do what I'm asking you to\ndo. Please come again when you are\nfree."
+    "<attr><feel_think_one><end_attr>Oh, you can do it. I'd like to say,\n\"Yes, you can do it,\" but you seem to\nbe busy with other things. I can't\n<br>\nforce you to do what I'm asking you to\ndo. Please come again when you are\nfree."
   },
   "85799": {
     "<attr><feel_sad_one><end_attr>「……そうか　残念だな。\n　オレは　いつでもここにいるから\n　気が変わったら　また声をかけてくれ。": 
@@ -373,15 +373,15 @@
   },
   "85883": {
     "<attr><feel_happy_lv1><end_attr>「……あら　かなり　質のいいウールね。\n　それじゃあ　さっそく　これを使って\n　町長さんに頼まれた物を　仕立ててくるわ。": 
-    "<attr><feel_happy_lv1><end_attr>...Ah, this is pretty good quality wool. Well then,\nright away I'll use it to tailor that thing that the\nmayor had ordered."
+    "<attr><feel_happy_lv1><end_attr>...Ah, this is pretty good quality wool. Well then, right\naway I'll use it to tailor that thing that the mayor had\nordered."
   },
   "85884": {
     "<attr><feel_happy_lv1><end_attr>「……うん。なかなかの　出来映えだわ。\n　あなた　悪いけど　ついでだと思って\n　この包みを　町長さんの所に届けてちょうだい。": 
-    "<attr><feel_happy_lv1><end_attr>...Uh huh, excellent craftsmanship, I'd say. You,\nsorry, but I figured since you're going there, could\nyou please deliver this package to the mayor's house."
+    "<attr><feel_happy_lv1><end_attr>...Uh huh, excellent craftsmanship, I'd say. You, sorry,\nbut I figured since you're going there, could you please\ndeliver this package to the mayor's house."
   },
   "85886": {
     "<attr><feel_happy_lv1><end_attr>「……それにしても　あのマジメそうな町長さんが\n　こんな　カワイイものを　注文するなんて\n　意外な一面も　あるものね。": 
-    "<attr><feel_happy_lv1><end_attr>...Still, that stern looking mayor ordering such a\ncutesy thing like this; even he's got a surprising\nside, doesn't he."
+    "<attr><feel_happy_lv1><end_attr>...Still, that stern looking mayor ordering such a cutesy\nthing like this; even he's got a surprising side, doesn't\nhe."
   },
   "85891": {
     "道具屋シェラタに\n上質なウールを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
@@ -401,7 +401,7 @@
   },
   "85893": {
     "<attr><feel_sad_lv1><end_attr>「……最近　ウチの子の幽霊が\n　しょっちゅう　見えるものですから\n　さっきまで　町長さんに　相談してたんです。\n<br>\n「だけど　町長さんをお見送りした直後に\n　また　幽霊が現れて……。\n　今度は　主人もハッキリ見たって言うんです。\n<br>\n「私が　おかしいわけじゃないって\n　わかったのは　いいけれど\n　いったい　何が起きてるのかしら……。<bw_break>": 
-    "<attr><feel_sad_lv1><end_attr>...Lately, I've been seeing my son's ghost a lot, so I was\nspeaking with the mayor about it up until a while ago.\n<br>\nBut, right after I saw the mayor off, the ghost\nappeared again... This time, my husband said that he\nclearly saw it too.\n<br>\nIt's good to know that I'm not crazy, but what in the\nworld is going on...<bw_break>"
+    "<attr><feel_sad_lv1><end_attr>...Lately, I've been seeing my son's ghost a lot, so I was\nspeaking with the mayor about it up until a while ago.\n<br>\nBut, right after I saw the mayor off, the ghost appeared\nagain... This time, my husband said that he clearly saw\nit too.\n<br>\nIt's good to know that I'm not crazy, but what in the\nworld is going on...<bw_break>"
   },
   "85895": {
     "<attr><feel_think_one><end_attr>「……え　町長さん？\n　町長さんなら　他の方の相談を受けに\n　教会へ　向かわれましたわ。": 
@@ -409,11 +409,11 @@
   },
   "85897": {
     "<attr><feel_sad_lv1><end_attr>「嫁さんが　子供の幽霊が見えるなんて言うのは\n　ノイローゼだとばかり思ってたのに\n　さっき　オレも　幽霊を見ちまってな……。\n<br>\n「しばらくしたら　何も言わずに消えたけど\n　いったい　なんで　オレたちの前に\n　化けて出てくるんだよぉ……。": 
-    "<attr><feel_sad_lv1><end_attr>My wife saying stuff like seeing our dead child, I\nwas thinking it was just neurosis and yet, I'm sure I\nsaw a ghost too...\n<br>\nIt was there for a minute, then disappeared without\nsaying anything, but why in the world did that ghost\nappear in front of us like that..."
+    "<attr><feel_sad_lv1><end_attr>My wife saying stuff like seeing our dead child, I was\nthinking it was just neurosis and yet, I'm sure I saw a\nghost too...\n<br>\nIt was there for a minute, then disappeared without\nsaying anything, but why in the world did that ghost\nappear in front of us like that..."
   },
   "85899": {
     "<attr><feel_sad_lv1><end_attr>「……さっきまで　となりの部屋にいたのに\n　パパったら　またどこかに出かけたみたい。\n<br>\n「……パパが　ウチで　ゆっくりしているの\n　ゴハンの時と　寝てる時くらい。\n　きっと　家族のことなんて　どうでもいいのね。": 
-    "<attr><feel_sad_lv1><end_attr>...Up until a little while ago, Papa was in the next room,\nbut it looks like he left for somewhere again.\n<br>\n...Papa's only here when it's time to eat or sleep. I\nguess he doesn't care about us, his family, does he."
+    "<attr><feel_sad_lv1><end_attr>...Up until a little while ago, Papa was in the next room,\nbut it looks like he left for somewhere again.\n<br>\n...Papa's only here when it's time to eat or sleep. I guess\nhe doesn't care about us, his family, does he."
   },
   "85901": {
     "<attr><feel_think_one><end_attr>「……あぁ　そうそう。\n　きれいな包みを　町長さんの所に届けるの\n　忘れないように　お願いね。": 
@@ -421,15 +421,15 @@
   },
   "85903": {
     "<attr><feel_normal_lv1><end_attr>「あら　ウチの主人に　ご用かしら？\n　主人なら　ミラネさんのお宅に行くと\n　つい先ほど　出かけたところですの。\n<br>\n「ミラネさんの家は　施療院の南の\n　家の正面に　水くみ場があるお宅ですわ。\n　お急ぎでしたら　後を追ってあげてくださいな。": 
-    "<attr><feel_normal_lv1><end_attr>Ah, do you have business with my husband? If you\nare looking for him, he actually just left towards\nMilane's home.\n<br>\nMilane's home is south of the free clinic; the home\nwith the water pump in front. If you hurry, you can\ncatch him."
+    "<attr><feel_normal_lv1><end_attr>Ah, do you have business with my husband? If you are\nlooking for him, he actually just left towards Milane's\nhome.\n<br>\nMilane's home is south of the free clinic; the home with\nthe water pump in front. If you hurry, you can catch\nhim."
   },
   "85972": {
     "扉は　かたく　閉ざされている。\n<br>\nよく見ると　扉のすき間に\nメモがはさまっている。<bw_break>": 
-    "The door is locked tight. Upon a closer look, in the\ngap of the door is a memo.<bw_break>"
+    "The door is locked tight. Upon a closer look, in the gap\nof the door is a memo.<bw_break>"
   },
   "87405": {
     "<pc>さんへ\nただいま　急用で　出かけております。\n<br>\n仕事を頼んでおいて　申し訳ないのですが\n町の中で　私を見かけたら　お声かけください。\nよろしくお願いいたします。　ブラト": 
-    "Dear <pc>, I am away on urgent business.\n<br>\nAs for the task I requested, I apologize, however if\nyou see me in town, please give me a call. Thank you.\n.<right>- Burat"
+    "Dear <pc>, I am away on urgent business.\n<br>\nAs for the task I requested, I apologize, however if you\nsee me in town, please give me a call. Thank you.\n- Burat"
   },
   "85974": {
     "扉は　かたく　閉ざされている。\n<br>\n扉のすき間に　メモが　はさまっている。\nブラト町長のメモを　読みますか？<yesno><case 1><break><case 2><break><case_cancel><close><case_end>": 
@@ -441,7 +441,7 @@
   },
   "86551": {
     "<attr><feel_normal_lv1><end_attr>「アンタ　町長を　探しとるのか？\n　町長なら　ついさっき\n　教会の中に入っていきよったぞ。": 
-    "<attr><feel_normal_lv1><end_attr>Ya lookin' for the mayor, huh? If ya are, he just\nwent inside the church."
+    "<attr><feel_normal_lv1><end_attr>Ya lookin' for the mayor, huh? If ya are, he just went\ninside the church."
   },
   "85907": {
     "<attr><feel_sad_one><end_attr>「教会で聞いた　あれは……\n　確かに　リゼロッタの声…………。": 
@@ -449,7 +449,7 @@
   },
   "85909": {
     "<attr><feel_normal_lv1><end_attr><icon_exc><turn_pc>「ああ　<pc>さん。\n　先ほどは　失礼いたしました。\n<br>\n「今回は　色々と　遠回りをさせてしまったようで\n　お手数を　おかけしました。\n　さあ　これは　私からのお礼です。": 
-    "<attr><feel_normal_lv1><end_attr><icon_exc><turn_pc>Aah, <pc>. Excuse me for earlier.\n<br>\nIt seems this time I made you go along quite a few\ndetours, I apologize for the trouble. Now, this is\nthanks from me."
+    "<attr><feel_normal_lv1><end_attr><icon_exc><turn_pc>Aah, <pc>. Excuse me for earlier.\n<br>\nIt seems this time I made you go along quite a few\ndetours, I apologize for the trouble. Now, this is thanks\nfrom me."
   },
   "85913": {
     "「あの品物は　ずっと　注文しようと思っていた\n　大事な品だったのですが　最近　どうにも\n　自分の時間が　作れませんでな……。": 
@@ -457,7 +457,7 @@
   },
   "85914": {
     "<attr><feel_think_one><end_attr>「あの品物は　ずっと　注文しようと思っていた\n　大事な品だったのですが　最近　どうにも\n　自分の時間が　作れませんでな……。\n<br>\n「そうそう　あの教会の　奇妙な出来事については\n　さぞ　おどろかれたでしょうが\n　あまり　ふれ回らないよう　お願いしますぞ。\n<br>\n「今　町の皆さんの心は　弱っています。\n　あのような異変が　起こっていると知れば\n　パニックになりかねませんからな。": 
-    "<attr><feel_think_one><end_attr>That item, this whole time, I was thinking, \"I should\norder that\"—as it's an important item—however,\nlately, I never have the time to myself to do it...\n<br>\nAh yes, regarding that strange incident at the church,\nsurely, quite a surprise, don't you think—but let's\nnot spread the news, please.\n<br>\nRight now, the hearts of everyone in town are weakened.\nIf they knew of such a strange phenomenon occurring,\na panic would be unavoidable."
+    "<attr><feel_think_one><end_attr>That item, this whole time, I was thinking, \"I should\norder that\"—as it's an important item—however, lately,\nI never have the time to myself to do it...\n<br>\nAh yes, regarding that strange incident at the church,\nsurely, quite a surprise, don't you think—but let's not\nspread the news, please.\n<br>\nRight now, the hearts of everyone in town are weak.\nIf they knew of such a strange phenomenon occurring,\na panic would be unavoidable."
   },
   "85915": {
     "<attr><feel_think_one><end_attr>「教会に行ったはずの　フォルナさんが\n　おびえた様子で　帰ってきたみたいだけど\n　いったい　何があったのかしら……。": 
@@ -481,11 +481,11 @@
   },
   "85921": {
     "<attr><feel_think_lv2><end_attr>「な　なな　なんということじゃ……。\n　セレドの町の誇りである　新しい教会が\n　あっという間に　崩れて……。\n<br>\n「ふがっ！？　……も　元に戻っとる！\n　確かに　壊れるところを　見たはずなのに……。\n　わし　モーロクしたんかのう？": 
-    "<attr><feel_think_lv2><end_attr>Wh-wha-what was that about... Celed's pride, the new\nchurch, collapsing in a flash...\n<br>\nFuu!?... It-it's back to normal! I'm sure I saw it\ncollapse and yet... Have I gone senile?"
+    "<attr><feel_think_lv2><end_attr>Wh-wha-what was that about... Celed's pride, the new\nchurch, collapsing in a flash...\n<br>\nFuu!?... It-it's back to normal! I'm sure I saw it collapse\nand yet... Have I gone senile?"
   },
   "85922": {
     "<attr><feel_think_lv2><end_attr>「壊れたと思った教会が　元に戻っとる……。\n　確かに　壊れるところを　見たはずなのに……。\n　わし　モーロクしたんかのう？": 
-    "<attr><feel_think_lv2><end_attr>The church that I thought had collapsed is back to\nnormal... I'm sure I saw it collapse and yet... Have\nI gone senile?"
+    "<attr><feel_think_lv2><end_attr>The church that I thought had collapsed is back to\nnormal... I'm sure I saw it collapse and yet... Have I\ngone senile?"
   },
   "85923": {
     "<attr><feel_think_lv1><end_attr>「さっき　フォルナおばさんが\n　教会の方から　走ってくるのを　見たんですけど\n　また　事故でもあったんですか？<yesno><case 1><break><case 2><break><case_cancel><break>": 
@@ -541,11 +541,11 @@
   },
   "85941": {
     "<attr><feel_normal_lv1><end_attr>「ああ　<pc>さん。\n　じつは　あなたのウデを見込んで\n　また　頼みたいことがありましてな。\n<br>\n「幽霊が見えると言って　おびえている\n　町の皆さんの　不安をとりのぞくために\n　集会を開こうと思うのですよ。\n<br>\n「まずは　皆さんに　落ち着いてもらうため \n　人の心を　おだやかにさせるという\n　安らぎの香を　取ってきていただきたいのです。": 
-    "<attr><feel_normal_lv1><end_attr>Ah <pc>. Actually, I'd like to ask\nyou for another favor in light of your skills.\nI'd like to hold a meeting to calm the\n<br>\nanxieties of the town's residents who are\nfrightened by ghosts. First of all, I would\nlike to ask you to get Peace Incense, which\n<br>\ncalms people's minds."
+    "<attr><feel_normal_lv1><end_attr>Aah, <pc>. Actually, I had my sights set on\nyour skills for another request like to have done.\n<br>\nTo pacify the anxieties of everyone in town who is\nfrightened by this talk of seeing ghosts, I am\nconsidering holding a meeting.\n<br>\nBeginning with soothing everyone; I want you to fetch\nsomething called \"Peace Incense\", which calms the\nhearts of people."
   },
   "85942": {
     "<attr><feel_happy_lv1><end_attr>「おおっ　やっていただけますか！\n　では　くわしいことを　説明しますので\n　こちらへ　おこしください。": 
-    "<attr><feel_happy_lv1><end_attr>Oh, you can do it! Please come this way so\nthat I can explain the details."
+    "<attr><feel_happy_lv1><end_attr>Ooh, you are able to do it, are you! Then, please come\nthis way so that I can explain the details."
   },
   "85943": {
     "<attr><feel_think_one><end_attr>「おや。頼まれごとが　いっぱいのようですな。\n　私は　ここで待っておりますから\n　手が空いたら　忘れずに　また来てください。": 
@@ -553,7 +553,7 @@
   },
   "85944": {
     "<attr><feel_sad_one><end_attr>「……それは　困りましたな。\n　こんなことを頼めるのは　あなただけですから\n　どうか　考え直していただきたいものです。": 
-    "<attr><feel_sad_one><end_attr>...That is troubling. You are the only person I\ncan ask to do this, so please, I beg you to\nreconsider."
+    "<attr><feel_sad_one><end_attr>...That is troubling. Such a task is one I can only ask\nof you, so please, I want you to reconsider."
   },
   "85945": {
     "<attr><feel_normal_lv1><end_attr>「あら　こんにちは。\n　町長さんが　あなたのことを\n　ずっと　探してたわよ。\n<br>\n「また　頼みたいことがあるそうだけど……。\n　あなたって　町長さんの家とは\n　よくよく　ご縁があるみたいね。": 
@@ -577,19 +577,19 @@
   },
   "85950": {
     "<attr><feel_sad_one><end_attr>「……うちのパパ\n　仕事が忙しいって　言い訳してばかりで\n　家のことは　いつも　ほったらかしなの。\n<br>\n「……死んだ姉さんの　お墓参りにも\n　とうとう　一度も行ってないのよ。": 
-    "<attr><feel_sad_one><end_attr>...My dad always makes excuses about how busy he\nis with work, and he's always neglecting the\nhouse. I haven't even been to visit my dead\n<br>\nsister's tomb once."
+    "<attr><feel_sad_one><end_attr>...My papa's always just making excuses about how busy he\nis with work, and always neglecting us.\n<br>\n...He hasn't been to visit my dead sister's grave or\nanything even once."
   },
   "85951": {
     "<attr><feel_sad_one><end_attr>「あら　ウチの主人に　ご用かしら？\n　２階の部屋に　おりますから\n　どうぞ　会っていってください。\n<br>\n「最近　家にいるときは　なんだか\n　もの思いに　ふけってることが多くて……。\n　きっと　仕事で疲れてるのね。": 
-    "<attr><feel_sad_one><end_attr>Oh, you don't want to see our my husband, do you?\nI'm upstairs. Please, come see me. Lately,\nwhen I'm at home, I'm kind of lost in thought.\n<br>\nI'm sure he's tired from work."
+    "<attr><feel_sad_one><end_attr>Ah, do you have business with my husband? He's in our\nroom upstairs, please, meet with him.\n<br>\nLately, when he's home often a bit lost in thought...\nI'm sure that work is tiring him."
   },
   "85952": {
     "<attr><feel_normal_lv1><end_attr><open_irai>「幽霊が見えると言って　おびえている\n　町の皆さんの　不安をとりのぞくために\n　集会を開こうと思うのですが……。\n<br>\n「まずは　皆さんに　落ち着いてもらうため\n　人の心を　おだやかにさせるという\n　安らぎの香を　取ってきてくれますかな。<bw_break>": 
-    "<attr><feel_normal_lv1><end_attr><open_irai>I would like to hold a meeting to calm the\nanxieties of the town's residents who are\nfrightened by the ghosts they say they see.\n<br>\nFirst of all, I would like you to get Peace\nIncense, which is said to calm people's minds,\nto help them calm down.<bw_break>"
+    "<attr><feel_normal_lv1><end_attr><open_irai>To pacify the anxieties of everyone in town who is\nfrightened by this talk of seeing ghosts, I am\nconsidering holding a meeting, however...\n<br>\nBeginning with soothing everyone; I want you to fetch\nsomething called \"Peace Incense\", which calms the\nhearts of people.<bw_break>"
   },
   "85953": {
     "<attr><feel_normal_lv1><end_attr>「安らぎの香は　リャナ荒涼地帯にいる\n　<%sEV_QUE_NAME0>が　落とすそうです。\n　どうか　よろしくお願いします。": 
-    "<attr><feel_normal_lv1><end_attr>Peace Incense is going to be dropped by\n<%sEV_QUE_NAME0> in Lyana Desolate Area.\nPlease help us."
+    "<attr><feel_normal_lv1><end_attr>Peace Incense, is said to be dropped by <%sEV_QUE_NAME0>s\nin the Lyana Desolate Area. Please, I am counting on\nyou."
   },
   "85954": {
     "<attr><feel_happy_lv1><end_attr>「あら。町長さんから\n　また　おつかいを頼まれたですって？\n<br>\n「うふふ。町長さんは　あなたのことが\n　すっかり　気に入ったみたいね。\n　気をつけて　行ってらっしゃい。": 
@@ -601,7 +601,7 @@
   },
   "85956": {
     "<attr><feel_think_lv1><end_attr>「２階から　声が聞こえたけど\n　主人ったら　また\n　ルコリアとケンカしたのね……。\n<br>\n「だけど　ルコリアは　前より\n　自分の意見を　言うようになったわ。\n　……少し　リゼロッタに　似てきたみたい。": 
-    "<attr><feel_think_lv1><end_attr>I heard voices coming from upstairs, but when\nI looked at the my husband, I saw that he had\nanother fight with Lucolia. But Lucolia is\n<br>\nmore outspoken than before. She's starting to\nsound a little like Liselotte."
+    "<attr><feel_think_lv1><end_attr>I heard voices coming from upstairs, but as for that,\nit was my husband arguing with Lucolia again...\n<br>\nHowever, Lucolia is more outspoken than before... She has\nbecame a little like Liselotte."
   },
   "85957": {
     "<attr><feel_sad_one><end_attr>「前は　よく　町の集会があったもんだけど\n　教会の事故で　子供たちが死んでから\n　すっかり　ごぶさたになってたね。\n<br>\n「あたしの子供は　もう　大きくなって\n　よその町で　家庭を持ってるからさ。\n　なんだか　顔を出しづらいよ。": 
@@ -617,7 +617,7 @@
   },
   "85960": {
     "<attr><feel_happy_lv1><end_attr>「あれから　町長さんが　ウチに来てね。\n　きっと　あなたのためになるから\n　町の集会に来てください……って　言うんだよ。\n<br>\n「町長さんに　頭を下げさせといて\n　断るわけにもいかないからね。\n　顔だけでも　出しにいってくるよ。": 
-    "<attr><feel_happy_lv1><end_attr>After that, the mayor came to our house. He\nsaid, ''I'm sure it will be good for you, so\nplease come to the town meeting. I can't\n<br>\nrefuse him after I made him bow down to me.\nI'm going to show my face."
+    "<attr><feel_happy_lv1><end_attr>After that, the mayor came to our house. He\nsaid, \"I'm sure it will be good for you, so\nplease come to the town meeting. I can't\n<br>\nrefuse him after I made him bow down to me.\nI'm going to show my face."
   },
   "85961": {
     "<attr><feel_normal_lv1><end_attr><turn_pc>「……ン。町長さんから　集会に誘われたけど\n　まだ　時間あるわよね。\n　私　もう少し　子供たちのそばにいるわ。": 
@@ -633,7 +633,7 @@
   },
   "85964": {
     "<attr><feel_normal_lv1><end_attr>「……光の河って　キレイだよなァ。\n　こう　ホワァーっ……と　あたたかくてさ。\n　女神様に　包まれているような心地なんだ。\n<br>\n「この先の集会所で　もうすぐ\n　大事な話が　あるみたいだけど\n　オレ　もう少し　ゆっくりしてから行くよ……。": 
-    "<attr><feel_normal_lv1><end_attr>...River of Light is beautiful, isn't it? It's so\nwarm and warm. It's like I'm being wrapped by\na goddess. I have an important meeting at the\n<br>\nassembly hall, but I'll go there after I've\nhad a chance to relax a little more."
+    "<attr><feel_normal_lv1><end_attr>...That River of Light is beautiful. So hooot... And\nwarm. Feels like the Goddess' embrace.\n<br>\nAt the end in the Assembly Hall, it looks like there'll\nbe an important discussion soon, but I'll take a\nlittle more time getting there..."
   },
   "85965": {
     "<attr><feel_normal_lv1><end_attr>「皆さん　妙にそわそわしてると思ったら\n　町長さんが　集会を開くみたいですね。\n<br>\n「どんなに　つらい状況でも\n　町長さんは　自分を見失ったりしないから\n　ホント　頼りになりますわ。": 
@@ -645,7 +645,7 @@
   },
   "85967": {
     "<attr><feel_normal_lv1><end_attr>「おや　旅人さん。\n　アンタも　集会所に行くのかい？\n<br>\n「集会所だったら　このほら穴を抜けて\n　ガケ沿いを　つたっていけば　すぐだよ。": 
-    "<attr><feel_normal_lv1><end_attr>Oh, traveler. Are you going to the assembly\nhall too? If it's the assembly hall, it's just\na short walk through this cave and along the\n<br>\ngutter."
+    "<attr><feel_normal_lv1><end_attr>Oh yeah, traveler. You're going to the assembly hall\ntoo, yes?\n<br>\nIf you're looking for the assembly hall, it's just\nthrough this cave, along the cliffside."
   },
   "85968": {
     "<attr><feel_normal_lv1><end_attr>「子供の幽霊が　おそろしくて\n　フトンかぶって　ふるえてたら\n　ウチに　町長さんが　やってきてさ。\n<br>\n「悲しみや恐怖から　目を背けてても\n　なんにも　なりませんよ……って\n　さとされちまったぜ。\n<br>\n「町長さんとこも　お子さん亡くしてるのに\n　なんていうか……立派なモンだよな。\n　オレは　あんなふうに　割りきれないよ。": 
@@ -653,7 +653,7 @@
   },
   "85969": {
     "<attr><feel_angry_lv1><end_attr>「……パパなら　集会の準備に行ったわ。\n　いつも　家族をほったらかしの人が\n　人前で　何を語ろうっていうのかしら。\n<br>\n「死んだ姉さんの墓参りにも　行かないで……。\n　こんなんじゃ　姉さんが　うかばれないわ。": 
-    "<attr><feel_angry_lv1><end_attr>...Papa would have gone to prepare for the\nmeeting. What is he going to talk about in\nfront of people when he always neglects his\n<br>\nfamily? Don't go to visit your dead sister at\nthe tomb. I don't want her to be buried like\nthis."
+    "<attr><feel_angry_lv1><end_attr>...If you're looking for Papa, he went to prepare for the\nmeeting. I wonder why he's always neglecting his\nfamily, to speak with the public.\n<br>\nHe hasn't even gone to my older sister's grave... Doing\nsomething like that is why my sister can't rest in\npeace."
   },
   "85970": {
     "<attr><feel_sad_one><end_attr>「以前は　この町の人たちも　毎日　教会に通って\n　マジメに　お祈りしてたんだよ。\n<br>\n「だけど　幽霊騒ぎが続くようになってから\n　お祈りに行く人は　すっかり　減ってね。\n　みんな　もう　何も信じられないのさ……。": 
@@ -669,7 +669,7 @@
   },
   "85973": {
     "<pc>さんへ\n私は　先に　集会の準備に行っておりますので\n安らぎの香を　集会所へ届けてくれませんか？\n<br>\n場所は　水くみ場の西から　地下道を抜けて\nガケ沿いに　ずっと進んだ所です。\nお手数ですが　よろしくお願いします。　　ブラト": 
-    "<pc>, I'm going to prepare for the meeting first,\nso could you please deliver Peace Incense to\nthe assembly hall? The location is from the\n<br>\nwest of the water pumping station, past the\nunderpass and all the way along the gakke.\nThank you in advance.Burat"
+    "\"Dear <pc>, given that I am going ahead to\nprepare for the meeting, could you please deliver the\nPeace Incense to the assembly hall?\n<br>\nIt is located west of the water pump, on the other\nend of the tunnel, alongside the cliff. Sorry for the\ntrouble, but please do this for me.          -Burat\""
   },
   "87406": {
     "扉は　かたく　閉ざされている。\n<br>\n扉のすき間に　メモが　はさまっている。\nブラト町長のメモを　読みますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
@@ -957,7 +957,7 @@
   },
   "86049": {
     "<attr><feel_angry_one><end_attr>「ハァ……あんな　とんでもない魔物を\n　サダク様なんて呼んで　あがめてたなんて\n　冗談じゃないぜ……。\n<br>\n「しかし　集会で　何があったんだっけ……。\n　なんだか　アタマが　はたらかないんだけど\n　サダクの奴が使ってた　お香のせいかな……。": 
-    "<attr><feel_angry_one><end_attr>Ha... I can't believe that I was praising such an\noutrageous monster by calling him ''Sadak-\nsama''. But what happened at the meeting? My\n<br>\nbrain doesn't work, but I think it's because\nof the incense that Sadak's guy used."
+    "<attr><feel_angry_one><end_attr>Ha... I can't believe that I was praising such an\noutrageous monster by calling him \"Sadak-\nsama\". But what happened at the meeting? My\n<br>\nbrain doesn't work, but I think it's because\nof the incense that Sadak's guy used."
   },
   "86050": {
     "<attr><feel_happy_lv2><end_attr>「最近　サダクさん　いそがしそうだと思ってたら\n　子供たちの霊を　鎮めるために\n　特別な儀式の準備を　していたみたいだね。\n<br>\n「せっかくだから　あたしも　後で\n　お祈りに　参加してみるつもりさ。": 
@@ -1157,7 +1157,7 @@
   },
   "86099": {
     "「ウチの娘が　あの世の　あずかり所で\n　ひと財産作ったって　聞いた時は\n　ホント　血は争えないって思ったね……。<bw_break>": 
-    "When I heard that my daughter had made a\nfortune in the other world, I thought, ''Blood\nis no contest.<bw_break>"
+    "When I heard that my daughter had made a\nfortune in the other world, I thought, \"Blood\nis no contest.<bw_break>"
   },
   "86100": {
     "<attr><feel_happy_lv1><end_attr>「……ム。<pc>か。ブラト町長が\n　お前さんが来るのを　待ってたみたいだぞ。\n<br>\n「町長は　サダクの一件があってから\n　ちょっと　性格が丸くなってさ。\n　前より　人当たりがよくなったんだ。": 
@@ -1257,7 +1257,7 @@
   },
   "75065": {
     "<attr><feel_happy_lv1><end_attr>「……光の河って　キレイだよなァ。\n　こう　ホワァーっ……と　あたたかくてさ。\n　女神様に　包まれているような心地なんだ。\n<br>\n「オレ　ここにいれば　どんなイヤなことも\n　忘れられる気がするよ……うん。": 
-    "<attr><feel_happy_lv1><end_attr>...River of Light is beautiful, isn't it?\nIt's so warm and warm. It's like I'm\nbeing wrapped by a goddess. I feel\n<br>\nlike I can forget all the bad things\nif I stay here."
+    "<attr><feel_happy_lv1><end_attr>...That River of Light is beautiful. So hooot... And\nwarm. Feels like the Goddess' embrace.\n<br>\nWhen I'm here, no matter what it is, I feel like I\ncan forget about it... Yeah."
   },
   "75066": {
     "<attr><feel_happy_lv2><end_attr>「わしは　この施療院のウワサを聞いて\n　レンドア島から　はるばる　やってきたのさ。\n　おかげで　持病のリウマチも　よくなったんだ。<bw_break>": 
@@ -1285,7 +1285,7 @@
   },
   "75074": {
     "<attr><feel_angry_lv2><end_attr>「この間　ヘンな男が　訪ねてきてね。\n　お年寄りが入院なんて　心細いでしょう。\n　話し相手になりましょうかって　言うんだよ。\n<br>\n「こんなババアに　そういうこと言うヤツは\n　サギか　押し売りに　決まってるからね。\n　すぐに追い返してやったよ。ふん！": 
-    "<attr><feel_angry_lv2><end_attr>A strange man came to visit me the\nother day. He said, ''An elderly person\nin the hospital must be very sad''. He\n<br>\nasked if I would be his companion.\nAnyone who would say such a thing to\nan old lady like that is either a sagi\n<br>\nor a pushy salesman, that's obvious. I\nimmediately sent him away. Hmm!"
+    "<attr><feel_angry_lv2><end_attr>A strange man came to visit me the\nother day. He said, \"An elderly person\nin the hospital must be very sad\". He\n<br>\nasked if I would be his companion.\nAnyone who would say such a thing to\nan old lady like that is either a sagi\n<br>\nor a pushy salesman, that's obvious. I\nimmediately sent him away. Hmm!"
   },
   "75075": {
     "<attr><feel_normal_lv1><end_attr>「くらーい感じの女の子と\n　町の入り口で　すれちがわなかったか？\n　あの子　町長さんとこの　娘さんなんだよ。\n<br>\n「顔はカワイイのに　無愛想な子でさ。\n　家に　こもりがちみたいだから\n　普段は　あまり見かけないんだよね。": 
