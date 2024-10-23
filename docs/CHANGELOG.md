@@ -28,8 +28,11 @@
 
 # Alterations
 
+<details>
+
 |Date|File|Comment(s)|
 |:-:|:--|:--|
+|2024/10/22|`eventTextCsMq20025Client.win32`<br>`eventTextIeR4CeleTownrServer.win32`<br>`eventTextIeR4RinjDungrServer.win32`<br>`eventTextIeR4RinjBossrServer.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(234) Seeking Peace [When Life & Death Overlap] {Main Story}|
 |2024/10/20|`eventTextCsMq20024Client.win32`<br>`eventTextIeR4CeleTownrServer.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(234) Seeking Peace [When Life & Death Overlap] {Main Story}|
 |2024/10/19|`eventTextCsMq20023Client.win32`<br>`eventTextIeR4CeleTownrServer.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(233) Glimpse Of The Scenery [When Life & Death Overlap] {Main Story}|
 |2024/10/16|`eventTextCsMq20022Client.win32`<br>`eventTextIeR4CeleCrchfServer.win32`<br>`eventTextIeR4CeleTownfServer.win32`<br>`eventTextIeR4CeleTownrServer.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(232) Letter To Heaven [When Life & Death Overlap] {Main Story}|
@@ -43,6 +46,8 @@
 |2024/08/12|`STT_PT_Talk`<br>`STT_Quest_ItemGet`<br>`STT_QuestListDetail`<br>`STT_UIDouguSys`<br>`eventTextIeR3MelsTownrServer.win32`<br>`eventTextCsMq20011Client.win32`<br>`eventTextCsMq2001hClient.win32`<br>`eventTextCsMq20012Client.win32`|(226) At Fairy-Tale Town [Tale Of A Hero & A Girl] {Main Story}<br>(227) Chasing Rabbits [Tale Of A Hero & A Girl] {Main Story}|
 ||`eventTextSysBookshelfsServer.win32`|"The Tale of Little Hero Zankrone", parts 2 & 3|
 ||||
+
+</details>
 
 <details><summary>2024/08/12</summary>
 
