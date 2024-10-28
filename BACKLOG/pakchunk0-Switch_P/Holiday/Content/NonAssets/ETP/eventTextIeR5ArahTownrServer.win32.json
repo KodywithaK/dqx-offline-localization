@@ -297,11 +297,11 @@
   },
   "124502": {
     "「……世のなカニ　サーンズの実力が認められた。 \n　…………あっぱれ。": 
-    "The world's crab thorns have been recognized for their abilities. Well done."
+    "...The world's crab thorns have been recognized for their abilities... Well done."
   },
   "124503": {
     "「……今回の結果は　なかなカニ　無念であった。": 
-    "The result this time was a crab, which was a disappointment."
+    "...The result this time was a crab, which was a disappointment."
   },
   "124504": {
     "<attr><feel_happy_lv1><end_attr>「おう。お前か。\n　フェリシア杯では　お疲れ。\n　まっ　オレの優勝は　当然だったけどな。\n<br>\n「これぞ　カニスマ美容師の実力！\n　やっぱり　世界のグラハム君だな！！": 
@@ -317,55 +317,55 @@
   },
   "165807": {
     "「なんだい　<pc>じゃないか！\n　私に　何か用かい？": 
-    "difficult problem<pc>I'm not! You wanted to see me?"
+    "What the—<pc>, is that you! Got work for\nme, yeah?"
   },
   "165808": {
     "<icon_exc>「鉄の金庫のカギだって！？\n　アレは　ずいぶんと　難儀なシロモノさ。\n　並みのカギ師じゃ　歯が立たないだろうね。\n<br>\n「……フン。面白そうじゃないか！\n　アンタに頼まれたんじゃ　断れない。\n　そのカギ　私が作ってやるよ。\n<br>\n「……とは言ったものの　私も\n　こればっかりは　ある素材がないと\n　カギを作ることは　できないからね。\n<br>\n「しゃくねつのカケラという　素材を持ってきな。\n　アラハギーロ地方にいる　<%sEV_QUE_NAME0>を\n　倒すと　落とすはずだよ！": 
-    "<icon_exc>A key to an iron safe? That's a very difficult thing to do. An ordinary keymaster won't be able to do it. Hmm. Sounds interesting! I can't refuse your request. I'll make that key myself. I said that, but I can't make a key without certain materials. Bring me a piece of shard of magnetite. You can find them in the Arahaghiro region.<%sEV_QUE_NAME0>They should drop it when they defeat the"
+    "<icon_exc>An Iron Safe's key, you say!? That's a very difficult\nthing to do. Your average keymaster wouldn't make a\ndent, y'know.\n<br>\n...Hmm. Sounds interesting, don't it! If it's you asking,\nI can't refuse.\n<br>\n...That said, even I—without the materials—can't\nmake the key, y'know.\n<br>\nBring me a material called a \"Red-Hot Shard\".\n<%sEV_QUE_NAME0>s in Arahaghiro Region supposedly drop them\nupon defeat!"
   },
   "165809": {
     "<pc>は\nグラーネに　鉄の金庫のカギの話をした。": 
-    "<pc>told Grane about the key to the iron safe."
+    "<pc> told Grane about the Iron Safe's key."
   },
   "165810": {
     "「鉄の金庫のカギを　作ってほしいなら\n　しゃくねつのカケラって　素材を持ってきな。\n<br>\n「しゃくねつのカケラは　アラハギーロ地方にいる\n　<%sEV_QUE_NAME0>から　手に入るよ。\n　たしか　南のほうに　群れがいたハズさ。": 
-    "If you want me to make a key for the iron vault, bring me a piece of material called a piece of textile. You can find shards of iron iron in the Arahaghiro region.<%sEV_QUE_NAME0>I'm sure there's a herd down south. I think there is a herd of them in the south."
+    "If you want me to make a Iron Safe's key, bring me a\nmaterial called a \"Red-Hot Shard\". You can get Red-Hot\nShards from <%sEV_QUE_NAME0>s in the Arahaghiro Region. I'm\nsure there's a herd down south."
   },
   "165811": {
     "「しゃくねつのカケラを　持ってきたようだね。\n　そいつで　鉄の金庫のカギを作ってやるよ。": 
-    "I see you've brought a piece of iron shard with you. I'll use it to make the key to the iron safe."
+    "Looks like you've brought a Red-Hot Shard, haven't\nyou. With that, I can make the Iron Safe Key."
   },
   "165812": {
     "「おっと　私のカン違いかい？\n　そりゃあ　悪かったね。": 
-    "Oops. Am I wrong? Well, that's my bad."
+    "Oops, my intuition's wrong, yeah? Sorry about that,\ny'know."
   },
   "165813": {
     "「イイ質感だ。これは　作りがいがあるよ。\n　それじゃ　さっそく……": 
-    "Nice texture. This is worth making. Then, let's get started!"
+    "Nice texture. I can work with this. So then, let's\nget started..."
   },
   "165814": {
     "「ふぅ　なかなか　イイ出来だ。\n　鉄の金庫のカギ穴は　適度な熱で変形させないと\n　カギが入らない仕組みに　なってるんだよ。\n<br>\n「まあ　仕組みがわかっても　発熱するカギは\n　並のカギ師には　作れないんだけどね。\n　ほらよ！　これなら　鉄の金庫を解錠できるよ。": 
-    "Hmm, that's pretty good. The keyhole of an iron safe has a mechanism that prevents the key from being inserted unless it is deformed by the proper amount of heat. Well, even if you know how it works, an ordinary keymaster can't make a key that generates heat. See? With this, you can unlock a steel safe."
+    "Hmm, that came out pretty good.\n<br>\nThe Iron Safe's keyhole has a mechanism that prevents\na key from being inserted, unless it's deformed by\nthe proper amount of heat.\n<br>\nWell, even if you know how the mechansim works, making\na heated key is something an ordinary keymaster\ncan't do, y'know. Here! This'll unlock the Iron Safe."
   },
   "165815": {
     "グラーネに　しゃくねつのカケラを渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
-    "Would you give Grane a piece of textile breakage?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "Give Grane the Red-Hot Shard?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "165816": {
     "<pc>は　グラーネに\nしゃくねつのカケラを　渡した！": 
-    "<pc> gave Grane a piece of textile breakdown!"
+    "<pc> gave Grane the Red-Hot Shard!"
   },
   "165938": {
     "<se_nots joutyu tag_KQ_139_1_000_kagi_tsukuru>グラーネは　正確な手つきで　カケラをけずった！\nしゃくねつのカケラは　みるみるうちに\nカギのかたちに　なっていく！\n<br>\nグラーネは　鉄の金庫のカギを　作り上げた。\n　\n　<me 71>": 
-    "<se_nots joutyu tag_KQ_139_1_000_kagi_tsukuru>Grane scraped the shards with a precise hand! The shards of magnetite quickly took the shape of a key! Graneh has created the key to the iron safe.<me 71>"
+    "<se_nots joutyu tag_KQ_139_1_000_kagi_tsukuru>Grane, with a steady hand, scraped the shard! The\nRed-Hot Shard, in a blink, took the shape of a key!\nGrane created the Iron Safe Safe!<me 71>"
   },
   "165939": {
     "<pc>は　グラーネから\n鉄の金庫のカギ（だいじなもの）を　受け取った！<me 60>": 
-    "<pc> received the\nKey to the Iron Safe (Key Item) from Grane!<me 60>"
+    "<pc> received the Iron Safe Key (Key Item)\nfrom Grane!<me 60>"
   },
   "165817": {
     "「早くカギを　待ってるヤツに　届けてやんな。\n　しかし　宝箱でなく　鉄の金庫にしまうなんて\n　肌身はなさず　持っていたいお宝なんだろうね。": 
-    "I can't wait to get the key to the guy who's waiting for it. But I guess it's a treasure you want to keep close to your skin to put it in an iron safe instead of a treasure chest."
+    "Hurry up and deliver that key to guy's who's waiting\nfor it.\n<br>\nHowever, not being in a treasure chest, but put in an\nIron Safe like that; it's gotta be a treasure you'd\nwant to keep close to the chest, y'know."
   },
   "85419": {
     "「リラーったら　怪談話が好きみたいで\n　いろんな人に聞かせては　おどろかせて\n　楽しんでるみたいなんですよ。": 
@@ -381,7 +381,7 @@
   },
   "85426": {
     "<pc>は\nオアシスの水（だいじなもの）を　手に入れた！<me 60>": 
-    "<pc> received the Oasis Water (Key Item)!<me 60>"
+    "<pc> obtained the Oasis Water (Key Item)!<me 60>"
   },
   "85422": {
     "<attr><feel_happy_lv1><end_attr>「アンタも　この水の魅力　わかってくれたかい？\n　なんだか　うれしいねぇ。\n　水は貴重なもんだから　大事に使ってくれよ。": 
