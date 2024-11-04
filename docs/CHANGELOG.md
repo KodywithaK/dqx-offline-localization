@@ -32,6 +32,7 @@
 
 |Date|File|Comment(s)|
 |:-:|:--|:--|
+|2024/10/29|`eventTextCsMq20061Client.win32`<br>`eventTextIeR2GranCastrServer.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(259) Creeping Dark Footsteps {Main Story}|
 |2024/10/29|`eventTextCsMq20081Client.win32`<br>`eventTextIeR2GranCastrServer.win32`<br>`eventTextIeR2GranTownrServer.win32`<br>`eventTextIeR2GranTowrServer.win32`<br>`eventTextIeR2OukeHakarServer.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(258) Queen Julia's Wish {Main Story}|
 |2024/10/27|`eventTextCsMq20051Client.win32`<br>`eventTextCsMq200511To*Client.win32`<br>`eventTextCsMq200512To*Client.win32`<br>`eventTextIeR2GranCastrServer.win32`<br>`eventTextIeR2GranTownrServer.win32`<br>`eventTextIeR5ArahTownrServer.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(241) Lushenda's Assignment {Main Story}<br>(257) Wishing For Legendary Armor {Super Useful}|
 |2024/10/22|`eventTextCsMq20025Client.win32`<br>`eventTextIeR4CeleTownrServer.win32`<br>`eventTextIeR4RinjDungrServer.win32`<br>`eventTextIeR4RinjBossrServer.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(234) Seeking Peace [When Life & Death Overlap] {Main Story}|
