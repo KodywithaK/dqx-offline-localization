@@ -64,8 +64,20 @@ jobs:
       - name: UnrealPak -Create
         run: |
           mkdir -p .${{ github.workspace }}/downloads
-          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_Switch.txt
-          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_WindowsNoEditor.txt
+          echo -e "::group::\033[0;34mCreating pakchunk0-Switch_English_Dialogue_Latest_P.pak"
+          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+              ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak \
+              -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_Switch.txt
+          echo "Successfully created: pakchunk0-Switch_English_Dialogue_Latest_P.pak." >> $GITHUB_STEP_SUMMARY
+          echo -e "::notice::\033[0;32mSuccessfully created: \033[0;0mpakchunk0-Switch_English_Dialogue_Latest_P.pak.\n"
+          echo "::endgroup::"
+          echo -e "::group::\033[0;34mCreating pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak"
+          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+              ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak \
+              -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_WindowsNoEditor.txt
+          echo "Successfully created: pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak." >> $GITHUB_STEP_SUMMARY
+          echo -e "::notice::\033[0;32mSuccessfully created: \033[0;0mpakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak.\n"
+          echo "::endgroup::"
 
     #   - name: Get Current Time
     #     run: echo "time=$(date +'%Y_%m_%d_%H%M')" >> $GITHUB_ENV
@@ -75,8 +87,16 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Create Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release delete Latest --yes
-          gh release create Latest ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
+          # gh release delete Latest --yes
+          # gh release create Latest ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
           # gh release edit Latest --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
-          # gh release upload Latest ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md --clobber
+          gh release upload Latest \
+              ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak \
+              ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak \
+              ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md \
+              --clobber
+          echo "Successfully uploaded new file(s) to [Latest release](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Latest)." >> $GITHUB_STEP_SUMMARY
+          echo -e "::notice:: \033[0;32mSuccessfully uploaded new file(s) to Latest release.\n"
