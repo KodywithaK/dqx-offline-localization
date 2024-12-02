@@ -1,9 +1,26 @@
+# Installation
+
+>[!IMPORTANT]
+> ### Steam
+> - Copy `DRAGON QUEST X OFFLINE` folder into Steam's games folder. (e.g.):
+>   - `"<SteamDir>\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\pakchunk0-WindowsNoEditor_{ModName}_{ModVersion}_P.(pak|ucas|utoc)"`
+>
+> ### Switch
+> - SimpleModManager: 
+>   - Copy `mods` folder into the root of your Switch's SD card. (e.g.):
+>    - `sd:\mods\Dragon_Quest_X_Offline\English_Translation\contents\0100E2E0152E4000\romfs\Holiday\Content\Paks\pakchunk0-Switch_{ModName}_{ModVersion}_P.(pak|ucas|utoc)`
+>
+> ### Yuzu
+>  - Copy `English_Translation_Switch_v0.1.6` into 0100E2E0152E4000's mod data location (e.g.):
+>    - `%YUZU_DIR%\load\0100E2E0152E4000\English_Translation\romfs\Holiday\Content\Paks\pakchunk0-Switch_{ModName}_{ModVersion}_P.(pak|ucas|utoc)`
+
 # Changelog
 
 <details>
 
 |Date|File|Comment(s)|
 |:-:|:--|:--|
+|2024/12/02|`eventTextIeR3MelsTownfServer.win32`<br>`eventTextIeR3MelsTownrServer.win32`<br>`eventTextCsAq20162Client.win32`<br>`STT_QuestListDetail`<br>`STT_Quest_ItemGet`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`|(244) A Hero Saves All [Hero & Witch Finale] {Sub Story}|
 |2024/12/01|`eventTextIeR3MelsTownfServer.win32`<br>`eventTextCsAq20162Client.win32`<br>`STT_QuestListDetail`<br>`STT_Quest_ItemGet`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`|(243) The Witch Laughs Loudly [Hero & Witch Finale] {Sub Story}|
 |2024/11/13|`eventTextCsKq21101Client.win32`<br>`eventTextCsKq31102Client.win32`<br>`eventTextCsKq31103Client.win32`<br>`eventTextCsKq31105Client.win32`<br>`eventTextCsKq31105Client.win32`<br>`eventTextIeW3BonrFldServer.win32`<br>`eventTextIeP2OlfeFldeServer.win32`<br>`eventTextIeD2MogaFldServer.win32`<br>`eventTextIeD3DoruTownServer.win32`<br>`eventTextIeD3DoruIdo1Server.win32`<br>`STT_EventMonsterName_2nd`<br>`STT_EventMonsterName`<br>`STT_QuestListDetail`|(286) Like A Guiding Light [Level Cap Increase] {Super Useful}|
 |2024/11/04|`eventTextCsKq1022*Client.win32`<br>`eventTextIeE1TuskFldServer.win32`<br>`eventTextIeE3OhorFldServer.win32`<br>`eventTextIeO1LionGateServer.win32`<br>`eventTextIeO3BadoFldServer.win32`<br>`eventTextIeP2OlfeTownServer.win32`<br>`eventTextIeP3LmonIdo1Server.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(212) The Goddess' Will: Time of Liberation [Level Cap Increase] {Sub Story}|
@@ -22,12 +39,10 @@
 |2024/09/25|`eventTextCsMq20033Client.win32`<br>`eventTextCsMq20034Client.win32`<br>`eventTextIeR5ArahColsrServer.win32`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_PT_Talk`|(238) I Can't Wait To Be Human [Dawn of Arahaghiro] {Main Story}<br>(239) Missing Person: Kalevan [Dawn of Arahaghiro] {Main Story}|
 |2024/09/17|`eventTextCsMq20032Client.win32`<br>`eventTextIeR5ArahColsrServer.win32`<br>`STT_Quest_ItemGet`<br>`STT_UIDouguSys`<br>`STT_PT_Talk`|(237) Kelp King's Grief [Dawn of Arahaghiro] {Main Story}|
 |2024/08/12|`STT_PT_Talk`<br>`STT_Quest_ItemGet`<br>`STT_QuestListDetail`<br>`STT_UIDouguSys`<br>`eventTextIeR3MelsTownrServer.win32`<br>`eventTextCsMq20011Client.win32`<br>`eventTextCsMq2001hClient.win32`<br>`eventTextCsMq20012Client.win32`|(226) At Fairy-Tale Town [Tale Of A Hero & A Girl] {Main Story}<br>(227) Chasing Rabbits [Tale Of A Hero & A Girl] {Main Story}|
-||`eventTextSysBookshelfsServer.win32`|"The Tale of Little Hero Zankrone", parts 2 & 3|
 <!-- |||| -->
 
 </details>
 
-<hr>
 <!--
 # Additions
 
@@ -118,4 +133,5 @@
 > ---
 
 </details>
+
 -->
