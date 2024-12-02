@@ -4,6 +4,7 @@
 
 |Date|File|Comment(s)|
 |:-:|:--|:--|
+|2024/12/01|`eventTextIeR3MelsTownfServer.win32`<br>`eventTextCsAq20162Client.win32`<br>`STT_QuestListDetail`<br>`STT_Quest_ItemGet`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`|(243) The Witch Laughs Loudly [Hero & Witch Finale] {Sub Story}|
 |2024/11/13|`eventTextCsKq21101Client.win32`<br>`eventTextCsKq31102Client.win32`<br>`eventTextCsKq31103Client.win32`<br>`eventTextCsKq31105Client.win32`<br>`eventTextCsKq31105Client.win32`<br>`eventTextIeW3BonrFldServer.win32`<br>`eventTextIeP2OlfeFldeServer.win32`<br>`eventTextIeD2MogaFldServer.win32`<br>`eventTextIeD3DoruTownServer.win32`<br>`eventTextIeD3DoruIdo1Server.win32`<br>`STT_EventMonsterName_2nd`<br>`STT_EventMonsterName`<br>`STT_QuestListDetail`|(286) Like A Guiding Light [Level Cap Increase] {Super Useful}|
 |2024/11/04|`eventTextCsKq1022*Client.win32`<br>`eventTextIeE1TuskFldServer.win32`<br>`eventTextIeE3OhorFldServer.win32`<br>`eventTextIeO1LionGateServer.win32`<br>`eventTextIeO3BadoFldServer.win32`<br>`eventTextIeP2OlfeTownServer.win32`<br>`eventTextIeP3LmonIdo1Server.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(212) The Goddess' Will: Time of Liberation [Level Cap Increase] {Sub Story}|
 |2024/11/04|`eventTextCsMq20061Client.win32`<br>`eventTextIeR2GranCastrServer.win32`<br>`STT_PT_Talk`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`<br>`STT_QuestListDetail`|(259) Creeping Dark Footsteps {Main Story}|

@@ -90,13 +90,16 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # gh release delete Latest --yes
-          # gh release create Latest ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
-          # gh release edit Latest --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md # Not currently implemented as an available command to GitHub Actions CLI
-          gh release upload Latest \
+          gh release delete Latest --yes
+          gh release create Latest \
               ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak \
               ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak \
-              ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md \
-              --clobber
+              --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
+          # gh release edit Latest --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md # Not currently implemented as an available command to GitHub Actions CLI
+          # gh release upload Latest \
+              # ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak \
+              # ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak \
+              # ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md \
+              # --clobber
           echo "Successfully uploaded new file(s) to [Latest release](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Latest)." >> $GITHUB_STEP_SUMMARY
           echo -e "\n::notice:: \033[0;32mSuccessfully uploaded new file(s) to Latest release."
