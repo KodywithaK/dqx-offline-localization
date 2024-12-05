@@ -18,8 +18,10 @@
 
 <details>
 
+<!-- |2024/12/03|`eventTextIeR3SuisFldrServer.win32`<br>`eventTextIeR2CocoTownrServer.win32`<br>`eventTextIeR2MonsFldrServer.win32`<br>`STT_QuestListDetail`<br>`STT_PT_Talk`<br>`STT_Quest_ItemGet`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`|(261) Secret Hot Spring Flower {Main Story}| -->
 |Date|File|Comment(s)|
 |:-:|:--|:--|
+|2024/12/04|`eventTextIeR2CocoTownrServer.win32`<br>`STT_QuestListDetail`<br>`STT_PT_Talk`<br>`STT_Quest_ItemGet`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`|(262) Singing On The Waves {Main Story}|
 |2024/12/02|`eventTextIeR3MelsTownfServer.win32`<br>`eventTextIeR3MelsTownrServer.win32`<br>`eventTextIeR3SuisFldfServer.win32`<br>`eventTextCsAq20162Client.win32`<br>`STT_QuestListDetail`<br>`STT_Quest_ItemGet`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`|(244) A Hero Saves All [Hero & Witch Finale] {Sub Story}|
 |2024/12/01|`eventTextIeR3MelsTownfServer.win32`<br>`eventTextCsAq20162Client.win32`<br>`STT_QuestListDetail`<br>`STT_Quest_ItemGet`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`|(243) The Witch Laughs Loudly [Hero & Witch Finale] {Sub Story}|
 |2024/11/13|`eventTextCsKq21101Client.win32`<br>`eventTextCsKq31102Client.win32`<br>`eventTextCsKq31103Client.win32`<br>`eventTextCsKq31105Client.win32`<br>`eventTextCsKq31105Client.win32`<br>`eventTextIeW3BonrFldServer.win32`<br>`eventTextIeP2OlfeFldeServer.win32`<br>`eventTextIeD2MogaFldServer.win32`<br>`eventTextIeD3DoruTownServer.win32`<br>`eventTextIeD3DoruIdo1Server.win32`<br>`STT_EventMonsterName_2nd`<br>`STT_EventMonsterName`<br>`STT_QuestListDetail`|(286) Like A Guiding Light [Level Cap Increase] {Super Useful}|
