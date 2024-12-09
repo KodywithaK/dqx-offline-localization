@@ -25,11 +25,11 @@
   },
   "92150": {
     "「お前さん　知っておるか？\n　コニウェア平原の　南西の山奥には\n　いい温泉が　湧いておってなあ。\n<br>\n「わしも若い頃は　毎日のように　あそこで\n　セクシーギャルたちと混浴を楽しんだもんじゃ。\n　だが……　今は　腰が痛くて　とても行けん。\n<br>\n「せめて　あの温泉の　湯の花があれば\n　温泉気分が味わえて　昔　楽しかった頃の\n　思い出に　ひたれるのじゃが……。\n<br>\n「のう　お前さん？　老い先短い　わしのために\n　ひとつ　あの温泉まで行って\n　湯の花を　もらってきてくださらんかのう？": 
-    ""
+    "Do I know you? Deep in the mountains southwest of\nConiware Plain is a great hot spring.\n<br>\nIn my youth, I went there almost every day, because\nI looked forward to the mixed baths with sexy gals.\nHowever... Now, this awful back pain makes it hard to go.\n<br>\nEven if I just had a hot spring flower from there,\nit'd bring back memories of having fun there in the\ngood ol' days, but...\n<br>\nPardon me? I don't have much time left, could you\nplease go to that hot spring and bring me back a hot\nspring flower?"
   },
   "92151": {
     "<attr><feel_happy_lv2><end_attr>「おおっ！　なんと　心の優しい　お方じゃ！\n　名前は……　ほう。<pc>さんと\n　おっしゃるのか。いい名前じゃのう！\n<br>\n「では　頼みましたぞ　<pc>さん。\n　その温泉は　コニウェア平原の南西から続く\n　モンセロ温泉峡という所の　奥にあるからの。\n<br>\n「……そういえば　あそこの管理人小屋には\n　代々　温泉の管理をしているという一族が\n　住んでおるんじゃった。\n<br>\n「あの頃は　きれいな娘さんが　小屋におってな。\n　道すがら得た　白梅の枝と薄紅の宝貝を渡しては\n　湯の花と　交換してもらったもんじゃ。\n<br>\n「すまんが　お前さんも　そうしてくれるかの？\n　白梅の枝は　道中の　コニウェア平原にいる\n　<%sEV_QUE_NAME0>が　落とすでな。\n<br>\n「もうひとつの　薄紅の宝貝は\n　ココラタの浜辺で　よく拾ったものじゃ。\n<br>\n「それらを　管理人小屋におる人に渡して\n　湯の花を　もらってきておくれ。\n　くれぐれも　頼んだぞい！": 
-    ""
+    "<attr><feel_happy_lv2><end_attr>Oooh! What a kind-hearted person! Your name... Ho. <pc>, you say. Great name!\n<br>\nWell, I'm counting on you, <pc>. The hot\nspring is past the southwest of Coniware Plain, at\nthe end of a place called Monsero Hot Spring Ravine.\n<br>\n...Come to think of it, in the caretaker's hut there's\nsaid to be a family that lived at and managed the\nplace for generations.\n<br>\nBack then, I was after a beautiful girl that lived\nthere.\n<br>\nAlong the way, I picked up white-blossomed plum\nbranches and pink cowries to exchange with her for\nthe Hot Spring Flowers.\n<br>\nSorry, but could you do that like I did too? White-\nblossomed plums are along the way of Coniware Plain,\ndropped by <%sEV_QUE_NAME0>es.\n<br>\nThe other ones, the pink cowries, are often found\naround Cocolata Beach.\n<br>\nPlease bring those to the person at the caretaker's\nhut in exchange for the Hot Spring Flower.\nSincerely, I'm counting on you!"
   },
   "92152": {
     "<attr><feel_happy_lv1><end_attr>「おおっ！　なんと　心の優しい　お方じゃ！\n　……と思ったが　今の　お前さんには\n　他の頼みごとを受ける余裕が　なさそうじゃの。\n<br>\n「仕方がない……。\n　わしは　ここで　お前さんの手が空くのを\n　のんびり　待つとしようぞ。": 
@@ -37,7 +37,7 @@
   },
   "92153": {
     "<attr><feel_sad_lv2><end_attr>「な……　断るじゃと……？\n　なんとも　せちがらい世の中になったもんじゃ。\n　昔は　よかったのう……。": 
-    ""
+    "<attr><feel_sad_lv2><end_attr>Nah... Turning me down, are you...? It's became awfully\ncold, this world we live in. I'm glad for the old days..."
   },
   "92154": {
     "「コニウェア平原の南西から続く\n　モンセロ温泉峡の　管理人小屋には　代々\n　温泉の管理をしている一族が住んでおるのじゃ。\n<br>\n「あの頃は　きれいな娘さんが　小屋におってな。\n　道すがら得た　白梅の枝と薄紅の宝貝を渡しては\n　湯の花と　交換してもらったもんじゃ。<open_irai><bw_break>": 
@@ -53,15 +53,15 @@
   },
   "92157": {
     "ヤクプに\nモンセロの湯の花を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
-    ""
+    "Give Yakup the Monsero Hot Spring Flower?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "92158": {
     "<pc>は　ヤクプに\nモンセロの湯の花を　渡した！": 
-    ""
+    "<pc> gave Yakup the Monsero Hot Spring\nFlower!"
   },
   "92159": {
     "<attr><feel_happy_one><end_attr>「おおっ　<pc>さん！\n　晴れやかな　その表情……　もしや\n　湯の花を　もらってきてくださったのか？": 
-    ""
+    "<attr><feel_happy_one><end_attr>Ooh, <pc>! That sunny expression... Perhaps\nyou've gotten the Hot Spring Flower for me?"
   },
   "92160": {
     "<attr><feel_sad_one><end_attr>「そうか　まだじゃったか……。\n　早く　温泉気分を味わいながら\n　ギャルたちとの思い出に　ひたりたいのう。": 
@@ -69,19 +69,19 @@
   },
   "92161": {
     "<attr><feel_happy_lv2><end_attr>「ありがたい！　これで　温泉気分が味わえて\n　ギャルたちとの思い出に　ひたれるわい！\n　心ばかりの礼じゃが　どうか受け取ってくれい。": 
-    ""
+    "<attr><feel_happy_lv2><end_attr>I'm grateful! With this, I can soak in the memories\nof the gals enjoying the hot springs! Here's a little\nsomething from the heart, please take it."
   },
   "92162": {
     "「……すこし　年寄りの昔話を　聞いてくれんか？\n　以前　管理人小屋には　きれいな娘さんが\n　住んでおったことを　話したじゃろう。\n<br>\n「娘さんの名は　ルジナといってな……。\n　わしが　お土産を渡した時に見せてくれた\n　はにかんだ笑顔が　近頃　思いだされてならん。": 
-    ""
+    "...Got a minute to hear an old man reminisce? Earlier,\nI talked about a beautiful girl that lived in the\ncaretaker's hut, didn't I.\n<br>\nThat girl's name was Regina... I can't help remember that\nshy smile she gave when I brought her souvenirs\nnowadays."
   },
   "92163": {
     "<attr><feel_happy_lv3><end_attr><icon_exc>「な　な…なんとっ！\n　そのルジナちゃんが　今も　現役で\n　温泉の管理人をしておるじゃと！？\n<br>\n「こうしては　おれん！　湯の花で　腰を治したら\n　ルジナちゃんに会いに　温泉へ行ってみるぞ！\n　なんだか　急に　元気が出てきたわい！": 
-    ""
+    "<attr><feel_happy_lv3><end_attr><icon_exc>Wh-wha-what's that! That Regina is still actively\ntaking care of the hot springs, you say!?\n<br>\nThen it's meant to be! With this Hot Spring Flower,\nwhen my back's healed, I'll try going to see Regina\nat the hot spring!\n<br>\nFor some reason, I'm suddenly full of energy!"
   },
   "92164": {
     "<attr><feel_happy_lv3><end_attr>「ルジナちゃんが　今も　あのモンセロ温泉峡で\n　温泉の管理人をしておったとは……。\n　いやはや　おどろいたのう！\n<br>\n「こうしては　おれん！　湯の花で　腰を治したら\n　ルジナちゃんに会いに　温泉へ行ってみるぞ！\n　なんだか　急に　元気が出てきたわい！": 
-    ""
+    "<attr><feel_happy_lv3><end_attr>Regina is still at Monsero Hot Spring Ravine, taking\ncare of the hot springs... No, no, I was so surprised!\n<br>\nThen it's meant to be! With this Hot Spring Flower,\nwhen my back's healed, I'll try going to see Regina\nat the hot spring!\n<br>\nFor some reason, I'm suddenly full of energy!"
   },
   "94465": {
     "今すぐ　モンセロ温泉峡へ続く\nコニウェア平原の南西へ　行きますか？<yesno_nc><case 1><break><case 2><close><case_end>": 
@@ -89,7 +89,7 @@
   },
   "94466": {
     "<pc>は\nコニウェア平原の南西に　向かった。<se_nots map_common 2>": 
-    ""
+    "<pc> headed southwest of Coniware Plain.<se_nots map_common 2>"
   },
   "94467": {
     "今すぐ　モンセロ温泉峡へ続く\nコニウェア平原の南西へ　行きますか？<yesno_nc><case 1><break><case 2><close><case_end>": 
@@ -97,7 +97,7 @@
   },
   "94468": {
     "<pc>は\nコニウェア平原の南西に　向かった。<se_nots map_common 2>": 
-    ""
+    "<pc> headed southwest of Coniware Plain.<se_nots map_common 2>"
   },
   "92180": {
     "<attr><feel_happy_lv3><end_attr>「モンセロ温泉峡の温泉が　平和になった今\n　これまで通り　ギャルたちが押し寄せて\n　セクシーな姿を　さらしてくれるはずじゃ！\n<br>\n「うぷぷぷ<heart>　また近いうちに\n　モンセロ温泉峡の温泉へ　行くとするかの！\n　<pc>さん　本当に　ありがとうな～！": 
