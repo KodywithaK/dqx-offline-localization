@@ -1997,7 +1997,8 @@
     "真実へ至らんと　欲する者よ\n今こそ　道なき道を　臆せず進み\n汝が勇気を示せ。": "Now is the time for those who desire\nto attain the truth, to go forward\nundaunted on the road less traveled,\n<br>\nand to show your courage."
   },
   "94008": {
-    "このエレベーターで　グランゼドーラ城の１階\nまたは　グランゼドーラ港へ　行けるようだ。\nどちらへ　行きますか？\n<select>\nグランゼドーラ城・１階\nグランゼドーラ港\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "This elevator will take you to the\nfirst floor of Gran Zedora Castle or\nGran Zedora Harbor. Which way would\n<br>\nyou like to go?\n<select>\nGran Zedora Castle, 1st floor\nGran Zedora Harbor\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "このエレベーターで　グランゼドーラ城の１階\nまたは　グランゼドーラ港へ　行けるようだ。\nどちらへ　行きますか？\n<select>\nグランゼドーラ城・１階\nグランゼドーラ港\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "This elevator appears to take you to either the first\nfloor of Gran Zedora Castle or Gran Zedora Harbor.\nWhich way will you go?\n<select>\nGran Zedora Castle (1F)\nGran Zedora Harbor\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "94009": {
     "扉は　かたく　閉ざされている。<br>\n扉に　そなえつけられた瞳が\n<pc>を　見つめている。<br>\nここで　特別な踊りを踊れば\n何かが起こりそうだ。": "The door is tightly closed. If I dance\na special dance here, something will\nhappen."

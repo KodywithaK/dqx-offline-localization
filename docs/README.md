@@ -128,6 +128,43 @@
 >
 > - For Nintendo Switch:<br>`mods/Dragon Quest X Offline/<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>/contents/0100E2E0152E4000/romfs/Holiday/Content/Paks/`pakchunk0-Switch_P.(pak|ucas|utoc)
 
+<!--
+
+## 3.UEcastoc: fix file structure
+<!-- ### Autogenerate `.(pak|ucas|utoc)`
+```bash
+C:\Users\Ryzen3\Desktop\UE_4.27\Engine\Build\BatchFiles>RunUAT.bat \
+BuildCookRun \
+-project="C:\Users\Ryzen3\Desktop\UE_4.27\!projects\DRAGON QUEST X OFFLINE\20241206\Game\Game.uproject" \
+-platform=Win64 \
+-cook \
+-stage \
+-package \
+-build \
+-iostore \
+-pak
+```
+
+### UEcastoc: fix file structure
+```bash
+C:\Users\Ryzen3\Desktop\UE_5.1\Engine\Binaries\Win64>UnrealPak.exe "S:\Steam\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\pakchunk0-WindowsNoEditor_BadFileStructure_P.ucas" \
+-list
+LogPakFile: Display: Using command line for crypto configuration
+LogIoStore: Display: Mount point ../../../Game/Content/ # Will NOT load ingame
+LogIoStore: Display: "../../../StringTables/Game/System/System_Party/STT_PT_Talk.uasset" <...>
+```
+to
+```bash
+C:\Users\Ryzen3\Desktop\UE_5.1\Engine\Binaries\Win64>UnrealPak.exe "S:\Steam\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\pakchunk0-WindowsNoEditor_GoodFileStructure_P.ucas" \
+-list
+LogPakFile: Display: Using command line for crypto configuration
+LogIoStore: Display: Mount point ../../../ # Will load ingame
+LogIoStore: Display: "../../../StringTables/Game/System/System_Party/STT_PT_Talk.uasset" <...>
+```
+- UEcastoc
+
+## 4.Start up the game
+-->
 ## 3.Start up the game
 - All of your edited `String Tables` will now be loaded ingame.
 - Have fun!
@@ -505,6 +542,466 @@ UnrealPak.exe "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFL
 - ***`global`*** file is an offline computed dependency graph for your assets.
 - ***`.pak`*** When using this setup the file will store loose files such as fonts.
 - The upside to using the io store is a noticeable improvement to loading times.
+
+<details><summary>Template Literals</summary>
+
+|Template Literal|Comment(s)|
+|:-:|:-|
+|`<%03dEV_LUA_NUM_1>`||
+|`<%03dEV_LUA_NUM_2>`||
+|`<%04nEV_LUA_NUM_1>`||
+|`<%dEV_FEE_EXP>`||
+|`<%dEV_FEE_FAME>`||
+|`<%dEV_FEE_GOLD>`||
+|`<%dEV_FEE_ITEM_N>`||
+|`<%dEV_FEE_MEDAL>`||
+|`<%dEV_FEE_TATUJIN>`||
+|`<%dEV_FEE_TOKKUN>`||
+|`<%dEV_LUA_NUM_1>`||
+|`<%dEV_LUA_NUM_2>`||
+|`<%dEV_LUA_NUM_3>`||
+|`<%dEV_NUM>`||
+|`<%dEV_QUE_N_NUM0>`||
+|`<%dEV_QUE_N_NUM1>`||
+|`<%dEV_QUE_R_NUM0>`||
+|`<%dEV_QUE_R_NUM1>`||
+|`<%dEV_QUE_S_NUM0>`||
+|`<%dEV_QUE_S_NUM1>`||
+|`<%dEV_QUE_T_NUM0>`||
+|`<%dEV_QUE_T_NUM1>`||
+|`<%dEV_TB_NOW_NUM>`||
+|`<%dEV_TB_REM_NUM>`||
+|`<%dEV_TB_TGT_NUM>`||
+|`<%nEV_ANY_N_NUM0>`||
+|`<%nEV_FEE_EXP>`||
+|`<%nEV_FEE_ITEM_N>`||
+|`<%nEV_FEE_TOKKUN>`||
+|`<%nEV_LUA_NUM_1>`||
+|`<%nEV_LUA_NUM_2>`||
+|`<%nEV_LUA_NUM_3>`||
+|`<%nEV_LUA_NUM_4>`||
+|`<%nEV_QUE_LIMIT>`||
+|`<%nEV_QUE_N_NUM0>`||
+|`<%nEV_QUE_N_NUM1>`||
+|`<%nEV_QUE_N_NUM2>`||
+|`<%nEV_QUE_S_NUM0>`||
+|`<%nEV_QUE_S_NUM1>`||
+|`<%nEV_QUE_T_NUM0>`||
+|`<%nEV_QUE_T_NUM1>`||
+|`<%nEV_QUE_T_NUM2>`||
+|`<%nEV_QUE_T_NUM3>`||
+|`<%nEV_QUE_T_NUM4>`||
+|`<%nEV_QUE_T_NUM5>`||
+|`<%nEV_QUE_T_NUM6>`||
+|`<%nEV_SLOT1>`||
+|`<%nEV_SLOT2>`||
+|`<%nEV_TB_NOW_NUM>`||
+|`<%nEV_TB_TGT_NUM>`||
+|`<%nL_GOLD>`||
+|`<%nL_GOLD_A>`||
+|`<%nM_Num>`||
+|`<%nQUESP_LV>`||
+|`<%nW_AD>`||
+|`<%nW_AM>`||
+|`<%nW_BD>`||
+|`<%nW_BM>`||
+|`<%nW_HOUR>`||
+|`<%nW_MIN>`||
+|`<%nW_RANK>`||
+|`<%nW_SD>`||
+|`<%nW_SEC>`||
+|`<%nW_SM>`||
+|`<%sB_TARGET>`||
+|`<%sCAM_MYCLASS>`||
+|`<%sCAM_MYKOIBITO>`||
+|`<%sC_SENTAKU_TEXT>`||
+|`<%sEV_AREA_NAME2>`||
+|`<%sEV_AREA_NAME>`||
+|`<%sEV_CAT_CATEGORY>`||
+|`<%sEV_CAT_COLOR>`||
+|`<%sEV_CAT_NAME>`||
+|`<%sEV_CAT_SIZE>`||
+|`<%sEV_DIRECTION>`||
+|`<%sEV_FEE_ACTION>`||
+|`<%sEV_FEE_EMOTE>`||
+|`<%sEV_FEE_ITEM>`||
+|`<%sEV_FEE_ITEM_A>`||
+|`<%sEV_FEE_JOB>`||
+|`<%sEV_FEE_TATIPOZU>`||
+|`<%sEV_FLOWER_NAME>`||
+|`<%sEV_ITEM2>`||
+|`<%sEV_ITEM3>`||
+|`<%sEV_ITEM>`||
+|`<%sEV_JUMP_ROOM>`||
+|`<%sEV_KESYOU>`||
+|`<%sEV_KESYOU_CLR>`||
+|`<%sEV_LUA_STRING1>`||
+|`<%sEV_LUA_STRING2>`||
+|`<%sEV_LUA_STRING3>`||
+|`<%sEV_LUA_STRING4>`||
+|`<%sEV_LUA_STRING5>`||
+|`<%sEV_NPC>`||
+|`<%sEV_NUIGURUMI>`||
+|`<%sEV_ONSEN>`||
+|`<%sEV_PERSONALITY>`||
+|`<%sEV_QUEST_NAME>`||
+|`<%sEV_QUE_ITEM>`||
+|`<%sEV_QUE_NAME0>`||
+|`<%sEV_QUE_NAME1>`||
+|`<%sEV_QUE_NAME2>`||
+|`<%sEV_QUE_NAME3>`||
+|`<%sEV_QUE_NAME4>`||
+|`<%sEV_QUE_NAME5>`||
+|`<%sEV_QUE_NAME6>`||
+|`<%sEV_QUE_NAME7>`||
+|`<%sEV_QUE_NAME8>`||
+|`<%sEV_QUE_NAME9>`||
+|`<%sEV_RENTAL_NAME>`||
+|`<%sEV_SELECT_MSG1>`||
+|`<%sEV_SELECT_MSG2>`||
+|`<%sEV_SELECT_MSG3>`||
+|`<%sEV_SELECT_MSG4>`||
+|`<%sEV_SHUSHIN_T>`||
+|`<%sEV_SNPC>`||
+|`<%sEV_SYOK_HOSI>`||
+|`<%sEV_SYOK_ITEM>`||
+|`<%sEV_SYSMSG_NPC>`||
+|`<%sEV_TB_AREA_NM>`||
+|`<%sEV_TB_CONT_NM>`||
+|`<%sEV_TB_MON_NM>`||
+|`<%sEV_WIN_BIYOUSI>`||
+|`<%sEV_WIN_COLOR>`||
+|`<%sL_CAT_TYPE_NAME>`||
+|`<%sL_COLOR_A>`||
+|`<%sL_COLOR_B>`||
+|`<%sL_COLOR_C>`||
+|`<%sL_COLOR_D>`||
+|`<%sL_ITEM2>`||
+|`<%sL_ITEM>`||
+|`<%sL_RACE_AFTER>`||
+|`<%sL_RECIPE>`||
+|`<%sL_TIMEI>`||
+|`<%sM_Card>`||
+|`<%sM_Reward>`||
+|`<%sM_item2>`||
+|`<%sM_item>`||
+|`<%sQUESP_EQUIPSET>`||
+|`<%sQUESP_JOB>`||
+|`<%sQUESP_SHIGUSA>`||
+|`<%sQUESP_SURA>`||
+|`<%sQUESP_SYOGOC>`||
+|`<%sQUESP_SYOGOM>`||
+|`<%sQUESP_SYOGOW>`||
+|`<%sQUESP_SYOKU>`||
+|`<%sQUE_IRAISYA>`||
+|`<%sW_KOUZA>`||
+|`<%sW_MIS>`||
+|`<%sW_STAGE>`||
+|`<>`||
+|`<Center>`||
+|`<LEFT>`||
+|`<Left>`||
+|`<attr>`||
+|`<auto_br=5000>`||
+|`<auto_bw=1000>`||
+|`<auto_bw=3000>`||
+|`<auto_bw=5000>`||
+|`<autorun>`||
+|`<big_shake>`||
+|`<br>`||
+|`<br_break>`||
+|`<break>`||
+|`<bw_break>`||
+|`<bw_clear>`||
+|`<bw_hide>`||
+|`<case 1>`||
+|`<case 2>`||
+|`<case 3>`||
+|`<case 4>`||
+|`<case 5>`||
+|`<case 6>`||
+|`<case 7>`||
+|`<case 8>`||
+|`<case2>`||
+|`<case_cancel>`||
+|`<case_end>`||
+|`<center>`||
+|`<char_move_forward>`||
+|`<chara_move>`||
+|`<client_pcname>`||
+|`<close>`||
+|`<close_irai>`||
+|`<color_white>`||
+|`<color_yellow>`||
+|`<communication>`||
+|`<convenience>`||
+|`<cp_end>`||
+|`<cp_etc 7>`||
+|`<cp_etc 8>`||
+|`<cp_set 21>`||
+|`<cp_set 39>`||
+|`<cp_set 63>`||
+|`<cp_set 67>`||
+|`<cp_set 68>`||
+|`<cp_start>`||
+|`<cs_pchero>`||
+|`<cs_pchero_race>`||
+|`<e_turn_dir_s>`||
+|`<e_turn_dir_w>`||
+|`<else>`||
+|`<emoji FaceButton_Left>`||
+|`<emoji FaceButton_Right>`||
+|`<emoji Fukidashi_Icon>`||
+|`<emoji LeftStick>`||
+|`<emoji LeftTrigger>`||
+|`<emoji Question_Icon>`||
+|`<emoji RightShoulder>`||
+|`<emoji RightStick_UpDown>`||
+|`<emoji RightTrigger>`||
+|`<emoji SpecialRight>`||
+|`<end>`||
+|`<end_attr>`||
+|`<endif>`||
+|`<feel_Think_lv1>`||
+|`<feel_angry_lv1>`||
+|`<feel_angry_lv2>`||
+|`<feel_angry_lv3>`||
+|`<feel_angry_one>`||
+|`<feel_angry_silent>`||
+|`<feel_custom>`||
+|`<feel_happy_lv1>`||
+|`<feel_happy_lv2>`||
+|`<feel_happy_lv3>`||
+|`<feel_happy_one>`||
+|`<feel_no_mt_normal>`||
+|`<feel_normal_lv1>`||
+|`<feel_normal_lv2>`||
+|`<feel_normal_lv3>`||
+|`<feel_normal_one>`||
+|`<feel_normal_silent>`||
+|`<feel_sad_lv1>`||
+|`<feel_sad_lv2>`||
+|`<feel_sad_lv3>`||
+|`<feel_sad_one>`||
+|`<feel_sad_silent>`||
+|`<feel_think_lv1>`||
+|`<feel_think_lv2>`||
+|`<feel_think_lv3>`||
+|`<feel_think_lv>`||
+|`<feel_think_one>`||
+|`<feel_think_silent>`||
+|`<heart>`||
+|`<icon_exc>`||
+|`<icon_que>`||
+|`<if_hum>`||
+|`<if_kazi>`||
+|`<if_mokkou>`||
+|`<if_npc_man>`||
+|`<if_tubo>`||
+|`<if_woman>`||
+|`<kyodai>`||
+|`<kyodai_rel1>`||
+|`<kyodai_rel2>`||
+|`<kyodai_rel3>`||
+|`<left>`||
+|`<map>`||
+|`<me 116>`||
+|`<me 2401>`||
+|`<me 57>`||
+|`<me 60>`||
+|`<me 61>`||
+|`<me 64>`||
+|`<me 69>`||
+|`<me 70>`||
+|`<me 71>`||
+|`<me 72>`||
+|`<me 74>`||
+|`<me 78>`||
+|`<me_60>`||
+|`<me_71>`||
+|`<me_nots 58>`||
+|`<menu>`||
+|`<monster_nakama>`||
+|`<mount>`||
+|`<name_off>`||
+|`<open_irai>`||
+|`<pc>`||
+|`<pc_hiryu>`||
+|`<pc_race>`||
+|`<pc_rel1>`||
+|`<pc_rel2>`||
+|`<pc_syokugyo>`||
+|`<pc_syokunin>`||
+|`<pipipi_high>`||
+|`<pipipi_low>`||
+|`<pipipi_mid>`||
+|`<pipipi_off>`||
+|`<pipipi_on>`||
+|`<pipipi_shigh>`||
+|`<right>`||
+|`<se FQ_136_1 0>`||
+|`<se FQ_155_1 0>`||
+|`<se FQ_182_1 0>`||
+|`<se FQ_182_2 0>`||
+|`<se FQ_182_2 1>`||
+|`<se FQ_208_1 0>`||
+|`<se FQ_208_1 1>`||
+|`<se GS_009_1 0>`||
+|`<se Joutyu_SE 117>`||
+|`<se Joutyu_SE 137>`||
+|`<se Joutyu_SE 35>`||
+|`<se Joutyu_SE 46>`||
+|`<se Joutyu_SE 49>`||
+|`<se Joutyu_SE 58>`||
+|`<se Joutyu_SE 60>`||
+|`<se Joutyu_SE 85>`||
+|`<se MQ_013_1 0>`||
+|`<se S3_THR5_001 1>`||
+|`<se S3_THR6_001 2>`||
+|`<se S3_THR6_003 0>`||
+|`<se S4_FOR1_001 0>`||
+|`<se S4_FOR1_001 1>`||
+|`<se System 18>`||
+|`<se System 35>`||
+|`<se System 7>`||
+|`<se battle_cmn 189>`||
+|`<se battle_magic 1>`||
+|`<se joutyu Level_up>`||
+|`<se joutyu sekihi>`||
+|`<se map_common 2>`||
+|`<se map_common 40 >`||
+|`<se map_common 41 >`||
+|`<se map_common 48 >`||
+|`<se map_common 49 >`||
+|`<se map_common map_jamp>`||
+|`<se_nots  System 39>`||
+|`<se_nots FQ_105_1 0>`||
+|`<se_nots FQ_140_1 0>`||
+|`<se_nots FQ_140_1 1>`||
+|`<se_nots FQ_140_1 2>`||
+|`<se_nots Joutyu_SE 10>`||
+|`<se_nots Joutyu_SE 121>`||
+|`<se_nots Joutyu_SE 131>`||
+|`<se_nots Joutyu_SE 24>`||
+|`<se_nots Joutyu_SE 38>`||
+|`<se_nots Joutyu_SE 40>`||
+|`<se_nots Joutyu_SE 42>`||
+|`<se_nots Joutyu_SE 47>`||
+|`<se_nots Joutyu_SE 57>`||
+|`<se_nots Joutyu_SE 82>`||
+|`<se_nots Joutyu_SE 83>`||
+|`<se_nots Joutyu_SE 9>`||
+|`<se_nots KQ_111_1 0>`||
+|`<se_nots KQ_111_1 1>`||
+|`<se_nots MQ_061_1 0>`||
+|`<se_nots S3_DWF5_001 001>`||
+|`<se_nots S3_DWF5_001 002>`||
+|`<se_nots S3_THR6_001 2>`||
+|`<se_nots S4_FOR7_001 0>`||
+|`<se_nots S4_FOR8_001 2>`||
+|`<se_nots SVC_001 0>`||
+|`<se_nots System 18>`||
+|`<se_nots System 39>`||
+|`<se_nots System 7>`||
+|`<se_nots System Guest_joinSE>`||
+|`<se_nots System Item>`||
+|`<se_nots battle_cmn 7>`||
+|`<se_nots battle_magic 10>`||
+|`<se_nots ev_FQ_104_1 1>`||
+|`<se_nots joutyu SUCCESS>`||
+|`<se_nots joutyu bravestone2>`||
+|`<se_nots joutyu camera>`||
+|`<se_nots joutyu hanko>`||
+|`<se_nots joutyu kapoon>`||
+|`<se_nots joutyu kusuri>`||
+|`<se_nots joutyu map_close>`||
+|`<se_nots joutyu mizuganagareru>`||
+|`<se_nots joutyu nagarebosi>`||
+|`<se_nots joutyu tag_AQ_016_1>`||
+|`<se_nots joutyu tag_AQ_016_2>`||
+|`<se_nots joutyu tag_AQ_019_1_Special_lunch>`||
+|`<se_nots joutyu tag_Door_irS_s_cl>`||
+|`<se_nots joutyu tag_Door_wdS_s_op>`||
+|`<se_nots joutyu tag_FQ_105_11>`||
+|`<se_nots joutyu tag_KQ_139_1_000_kagi_tsukuru>`||
+|`<se_nots joutyu tag_MQ_013_10>`||
+|`<se_nots joutyu tag_SIN9_YUKYU_OIL>`||
+|`<se_nots joutyu tag_da_hit_l>`||
+|`<se_nots joutyu tag_ev_FQ_101_1_chick>`||
+|`<se_nots joutyu tag_ev_FQ_101_1_wing>`||
+|`<se_nots joutyu tag_ev_FQ_104_1_cooking>`||
+|`<se_nots joutyu tag_ev_FQ_107_1_gaya>`||
+|`<se_nots joutyu tag_ev_FQ_107_1_reiteki>`||
+|`<se_nots joutyu tag_kibako>`||
+|`<se_nots joutyu tag_map_common_kagi_akeru>`||
+|`<se_nots joutyu tag_nots_map_r2020_8>`||
+|`<se_nots joutyu tag_warp>`||
+|`<se_nots joutyu tag_warp_in>`||
+|`<se_nots joutyu tarrot_rare>`||
+|`<se_nots map_common 2>`||
+|`<se_nots map_common 50>`||
+|`<se_nots map_common 83>`||
+|`<se_nots map_common 91 >`||
+|`<se_nots map_common map_jamp>`||
+|`<se_nots map_z4700 11>`||
+|`<se_nots system Item>`||
+|`<se_nots system medalget>`||
+|`<select 1>`||
+|`<select 2>`||
+|`<select 3>`||
+|`<select 6>`||
+|`<select 7>`||
+|`<select>`||
+|`<select_end>`||
+|`<select_mem>`||
+|`<select_nc 2>`||
+|`<select_nc>`||
+|`<select_se_off>`||
+|`<shake_big>`||
+|`<shake_camera 1>`||
+|`<shake_camera 28>`||
+|`<shake_camera 29>`||
+|`<shake_camera 2>`||
+|`<shake_camera 30>`||
+|`<shake_camera 31>`||
+|`<shake_camera 32>`||
+|`<shake_camera 33>`||
+|`<shake_camera 34>`||
+|`<shake_camera 35>`||
+|`<shake_camera 37>`||
+|`<shake_camera 38>`||
+|`<shake_camera 40>`||
+|`<shake_camera 41>`||
+|`<shake_camera 42>`||
+|`<shake_camera 43>`||
+|`<shake_small>`||
+|`<sort>`||
+|`<speed=0>`||
+|`<start_lip_sync al01 _normal m00001>`||
+|`<start_lip_sync br01 _normal m00001>`||
+|`<start_lip_sync c00552 _normal m00001>`||
+|`<start_lip_sync nh0001 _normal m00001>`||
+|`<stop_lip_animation al01 CLOSE_MOUTH>`||
+|`<stop_lip_animation br01 CLOSE_MOUTH>`||
+|`<stop_lip_animation c00552 CLOSE_MOUTH>`||
+|`<stop_lip_animation nh0001 CLOSE_MOUTH>`||
+|`<turn_pc>`||
+|`<turn_rot 0.0>`||
+|`<turn_rot 2.3>`||
+|`<update_quedate>`||
+|`<voice 00000_00008130>`||
+|`<voice 9727_a>`||
+|`<voice 9727_b>`||
+|`<wait 4800>`||
+|`<wait=1000>`||
+|`<wait=3000>`||
+|`<wait=50>`||
+|`<yesno 2>`||
+|`<yesno2>`||
+|`<yesno>`||
+|`<yesno_nc>`||
+
+</details>
 
 ### External Links
 
