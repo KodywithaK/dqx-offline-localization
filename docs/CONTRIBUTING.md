@@ -1,5 +1,92 @@
 <details><summary><h1>Game/Content/NonAssets/ETP*/*.etp</h1></summary>
 
+## Useful Regex
+- Quest accept/decline
+
+  > Find
+  > ```html
+  > (?<="クエストを　依頼されました。\\nこのクエストを　受けますか？\\n<select>\\nうける\\nやめる\\n<select_end><close>": ").*?(?=")
+  > ```
+  > Replace
+  > ```html
+  > You have been asked to do a quest. Do you accept?\\n<select>\\nAccept\\nDecline\\n<select_end><close>
+  > ```
+
+- Quest received.
+
+  > Find
+  > ```html
+  > (?<="クエスト『<%sEV_QUEST_NAME>』を\\n受けました。<me 74>": ").*?(?=")
+  > ```
+  > Replace
+  > ```html
+  > <center>Quest\\n\"<%sEV_QUEST_NAME>\"\\nreceived.<me 74>
+  > ```
+
+- Quest cleared!
+
+  > Find
+  > ```html
+  > (?<="クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\\n　<update_quedate><open_irai>": ").*?(?=")
+  > ```
+  > Replace
+  > ```html
+  > <center>Quest\\n\"<%sEV_QUEST_NAME>\"\\ncleared!<update_quedate><open_irai>
+  > ```
+
+- Obtained (Key Item)!
+
+  > Find
+  > ```html
+  > (?<="<pc>は\\n(.*?)（だいじなもの）を　手に入れた！<me 60>": ").*?(?=")
+  > ```
+  > Replace
+  > ```html
+  > <pc> obtained the $1 (Key Item)!<me 60>
+  > ```
+
+- Locked door
+
+  > Find
+  > ```html
+  > (?<="扉は　かたく　閉ざされている。": ").*?(?=")
+  > ```
+  > Replace
+  > ```html
+  > The door is tightly shut.
+  > ```
+
+- Examine skeleton
+
+  > Find
+  > ```html
+  > (?<="返事がない。\\nただの　しかばねのようだ……。": ").*?(?=")
+  > ```
+  > Replace
+  > ```html
+  > No response. It's just a corpse......
+  > ```
+  > or
+  >
+  > cn: 没有反应。 看来只是一具尸体……
+  >
+  > de: Keine Reaktion. Der Körper ist leblos......
+  >
+  > es: No responde. No es más que un cadáver......
+  >
+  > fr: Pas de réponse. Ce n'est qu'un cadavre......
+  >
+  > it: Non risponde. È solo un cadavere......
+  >
+  > jp: 返事がない。 ただの　しかばねの　ようだ……。
+  >
+  > jp-hi: へんじがない。 ただの　しかばねの　ようだ……。
+  >
+  > ko: 반응이 없다. 그냥 시체인 것 같다......
+  >
+  > tw: 沒有回應， 看來只是普通的屍骸……
+
+
 ## Recommended Character Counts
   - ~~Text in a standard dialog box fits perfectly at `42vw x 13vh`, usually:~~
   - Using `Garrick Bold` font:

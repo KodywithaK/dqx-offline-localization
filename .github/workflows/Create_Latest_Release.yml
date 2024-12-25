@@ -17,14 +17,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: ./dqx_dat_dump
-          repository: mike9k1/dqx_dat_dump
+          ref: testing
+          repository: KodywithaK/dqx_dat_dump
 
       - name: Checkout dqx-offline-localization
         uses: actions/checkout@v4
         with:
           path: ./dqx-offline-localization
-          repository: KodywithaK/dqx-offline-localization
           ref: testing
+          repository: KodywithaK/dqx-offline-localization
           sparse-checkout:
             | # Checks out only the BACKLOG...ETP & FINAL dialog folders
             BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
