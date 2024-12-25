@@ -53,7 +53,9 @@ jobs:
           source ./venv/bin/activate
           pip install -r requirements.txt
           cd ./tools/packing/
+          echo -e "::group::\033[0;34mPacking ETPs\033[0;0m"
           python ./pack_etp_GitHubActions.py -a
+          echo "::endgroup::"
           deactivate
           cd ~
 
