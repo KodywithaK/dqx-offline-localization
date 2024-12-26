@@ -1,0 +1,491 @@
+{
+  "62100": {
+    "<voice 00190_00062100><start_lip_sync c00552 _normal m00001>您在找我吗，露谢妲大人。<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "62101": {
+    "<voice 00260_00062101><start_lip_sync n02085 _normal m00001>嗯，我正在等你。\n这次希望你也能参加。\n……那么，我们这就开始吧。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62102": {
+    "<voice 00480_00062102><start_lip_sync n02085 _normal m00001>执掌命运的神圣钟摆啊，\n为命运催生新的转折吧……\n为我们展示该走的道路吧……<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "81342": {
+    "<voice 00880_00081342><start_lip_sync c00552 _normal m00001>这……这个魔族是……<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "94163": {
+    "<voice 00935_00094163><start_lip_sync c00552 _normal m00001>……杀害托玛兄长大人的家伙！！<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "62104": {
+    "<voice 00985_00062104><start_lip_sync n02085 _normal m00001>地点是……索拉利亚峡谷啊。\n那个面具男好像也在……<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "80320": {
+    "<voice 01015_00080320><start_lip_sync n02085 _normal m00001>嗯……看样子是朝着\n峡谷深处的古神遗迹那边去了。\n那些家伙的目的究竟是……<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62106": {
+    "<voice 01165_00062106><start_lip_sync n02085 _normal m00001>不，更重要的是\n魔元帅杰尔德莱德开始行动了，\n这说明大魔王要正式开始进攻了……<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "80321": {
+    "<voice 01195_00080321><start_lip_sync n02085 _normal m00001>已经没时间慢慢来了，\n必须尽快想个对策才行……<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "81343": {
+    "<voice 01275_00081343><start_lip_sync c00552 _normal m00001>魔元帅杰尔德莱德……\n我绝对……我绝对不会饶了你！<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "81344": {
+    "<voice 01341_00081344><start_lip_sync c00552 _normal m00001>露谢妲大人！\n我现在就作为勇者，\n前去讨伐邪恶的魔族。<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000151": {
+    "勇者公主安露西雅\n突然脱离了队伍！": ""
+  },
+  "62110": {
+    "<voice 01465_00062110><start_lip_sync n02085 _normal m00001>等等！别冲动！安露西雅！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62111": {
+    "<voice 01600_00062111><start_lip_sync n02085 _normal m00001>真是的，怎么这么轻率……\n就算是觉醒的勇者，单枪匹马\n挑战魔元帅杰尔德莱德也太危险了。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62112": {
+    "<voice 01670_00062112><start_lip_sync n02085 _normal m00001><pc>，安露西雅现在被怒火冲昏了头脑，\n一心想着给托玛报仇。\n我实在是没料到她这么不冷静。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62113": {
+    "<voice 01710_00062113><start_lip_sync n02085 _normal m00001>她已经前往\n索拉利亚峡谷里的古神遗迹了，\n可以请你追上她保护好她吗？<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "26333": {
+    "对方委托了任务。\n要接受这个任务吗？\n<select>\n接受\n放弃\n<select_end><close>": ""
+  },
+  "62114": {
+    "<voice 01772_00062114><start_lip_sync n02085 _normal m00001>说得好。交给你的话\n我就完全安心了。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000152": {
+    "<voice 01802_29000152><start_lip_sync n02085 _normal m00001>就算翻遍整个遗迹，\n也要找到安露西雅。\n我们做好准备之后也会去追你的。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "26332": {
+    "已承接\n任务“<%sEV_QUEST_NAME>”。<me 74>": ""
+  },
+  "62116": {
+    "<voice 01867_00062116><start_lip_sync n02085 _normal m00001>对了，<pc>。\n命运钟摆还给你吧。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000853": {
+    "<pc>从贤者露谢妲手中\n收下了命运钟摆（重要物品）！<me 60>": ""
+  },
+  "81346": {
+    "<voice 01962_00081346><start_lip_sync n02085 _normal m00001>那么安露西雅的事，\n就拜托你了，<pc>。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "81347": {
+    "<voice 02032_00081347><start_lip_sync n02085 _normal m00001>说得好。交给你的话\n我就完全安心了。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "81348": {
+    "<voice 02062_00081348><start_lip_sync n02085 _normal m00001>……但是你好像已经接了很多委托。\n迅速把手里的事解决掉，\n尽快回来吧，拜托了。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "81349": {
+    "<voice 02152_00081349><start_lip_sync n02085 _normal m00001>这么十万火急的事情为什么要拒绝！\n不要让我失望啊，<pc>！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000153": {
+    "<voice 00245_29000153><start_lip_sync m50075 _normal m00001>结界的力量变弱了。\n应该差不多了吧。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "29000154": {
+    "<voice 00385_29000154><start_lip_sync n02091 _normal m00001>………………<stop_lip_animation n02091 CLOSE_MOUTH>": ""
+  },
+  "62119": {
+    "<voice 01193_00062119><start_lip_sync m50075 _normal m00001>……哎呀哎呀。有苍蝇飞进来了。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62120": {
+    "<voice 01458_00062120><start_lip_sync c00552 _normal m00001>终于找到你了，魔元帅杰尔德莱德！<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "62121": {
+    "<voice 01595_00062121><start_lip_sync m50075 _normal m00001>哈哈。真正的勇者来了。\n古兰泽朵拉城那一战之后，还是第一次见面呢。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62122": {
+    "<voice 01780_00062122><start_lip_sync c00552 _normal m00001>我已经和那时不一样了！\n现在我就要给兄长大人报仇！<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "62123": {
+    "<voice 01993_00062123><start_lip_sync m50075 _normal m00001>哈哈哈……\n原来如此。你确实和那个时候不一样了。\n觉醒之后，看来你确实变强了一点。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62124": {
+    "<voice 02217_00062124><start_lip_sync m50075 _normal m00001>……但是你这样还是赢不了我的。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62125": {
+    "<voice 02394_00062125><start_lip_sync c00552 _normal m00001>住口！<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "62126": {
+    "<voice 02781_00062126><start_lip_sync c00552 _normal m00001>唔！！<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "62127": {
+    "<voice 02871_00062127><start_lip_sync m50075 _normal m00001>哈哈哈……你这没有自知之明的家伙。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62128": {
+    "<voice 03320_00062128><start_lip_sync m50075 _normal m00001>哎呀哎呀。又有苍蝇跑出来了。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62129": {
+    "<voice 03485_00062129><start_lip_sync m50075 _normal m00001>迦尔雷，勇者就交给你解决了。\n我们继续前进。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62130": {
+    "<voice 03601_00062130><start_lip_sync m50085 _normal m00001>吼哦哦哦吼啊啊啊！\n就放心交给我吧，杰尔德莱德大人！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62131": {
+    "<voice 03770_00062131><start_lip_sync m50085 _normal m00001>吼哦哦哦吼啊啊啊！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62132": {
+    "<voice 03932_00062132><start_lip_sync n02085 _normal m00001>不……不好！安露西雅她！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000155": {
+    "<voice 03933_29000155><start_lip_sync c00552 _normal m00001>密鲁特！！<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000156": {
+    "<voice 03934_29000156><start_lip_sync n02208 _normal m00001>唔……唔啊…………\n……哈……哈哈……哈哈哈……想、想不到我\n……竟然会……保护你……唔呼！<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000157": {
+    "<voice 03935_29000157><start_lip_sync c00552 _normal m00001>密鲁特！你振作点！\n密鲁特！！<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000158": {
+    "<voice 03936_29000158><start_lip_sync n02208 _normal m00001>结果……我在……内心深处\n其实是……想相信你……\n想相信勇者的吗……？<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000159": {
+    "<voice 03937_29000159><start_lip_sync m50085 _normal m00001>咕啦——！我还以为什么东西呢，\n只是多了一只苍蝇啊。\n去死吧！！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "29000160": {
+    "<voice 04126_29000160>勇者的命运\n绝不能在这里结束。": ""
+  },
+  "29000161": {
+    "<voice 04191_29000161><cs_pchero>……\n你要保护勇者。": ""
+  },
+  "29000162": {
+    "<voice 04580_29000162><start_lip_sync n02085 _normal m00001>刚、刚才那个，该不会是……<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000163": {
+    "<voice 04776_29000163><start_lip_sync m50085 _normal m00001>你、你这家伙，究竟做了什么？！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62137": {
+    "<voice 04957_00062137><start_lip_sync m50085 _normal m00001>……原来如此，你是勇者的同伴啊。<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62138": {
+    "<voice 05068_00062138><start_lip_sync m50085 _normal m00001>我乃兽魔将迦尔雷！\n宣誓效忠大魔王马蒂桑贡拉的\n四魔将之一！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62139": {
+    "<voice 05206_00062139><start_lip_sync m50085 _normal m00001>违抗大魔王的人\n全都得死！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62140": {
+    "<voice 05371_00062140><start_lip_sync m50085 _normal m00001>吼哦哦哦吼啊啊啊！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62141": {
+    "<voice 00075_00062141><start_lip_sync m50085 _normal m00001>吼哦哦哦吼啊啊啊！\n看来你还有点本事！\n但就凭这种程度，是赢不了我的！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62142": {
+    "<voice 00227_00062142><start_lip_sync n02085 _normal m00001>嘁。看来一边保护安露西雅一边战斗，\n是无法轻易打败它的……<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62143": {
+    "<voice 00322_00062143><start_lip_sync n02085 _normal m00001><cs_pchero>！不要发呆！\n我来专心保护安露西雅！\n这家伙就交给你们了！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62144": {
+    "<voice 00432_00062144><start_lip_sync m50085 _normal m00001>吼哦哦哦吼啊啊啊！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62145": {
+    "<voice 00025_00062145><start_lip_sync m50085 _normal m00001>呜啊啊啊啊啊啊！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62146": {
+    "<voice 00310_00062146><start_lip_sync n02085 _normal m00001>果然没错……<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62147": {
+    "<voice 00470_00062147><start_lip_sync c00552 _normal m00001>没有时间在这里磨蹭了。\n要赶快去追杰尔德莱德……<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "62148": {
+    "<voice 00765_00062148><start_lip_sync n02085 _normal m00001>等等。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000165": {
+    "<voice 00865_29000165><start_lip_sync n02085 _normal m00001>爱惜一下自己吧，安露西雅。\n要是没有密鲁特和<cs_pchero>在的话，\n你或许早就没命了！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62150": {
+    "<voice 00965_00062150><start_lip_sync c00552 _normal m00001>……<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "62151": {
+    "<voice 01065_00062151><start_lip_sync n02085 _normal m00001>我有话要跟你们两个说。\n<cs_pchero>在救安露西雅时\n使用的那个招式……<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62152": {
+    "<voice 01155_00062152><start_lip_sync c00552 _normal m00001>露谢妲大人……\n现在没时间在这里说话。\n我们要尽快继续前进。<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000166": {
+    "<voice 01156_29000166><start_lip_sync c00552 _normal m00001>我可是勇者啊。<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000167": {
+    "勇者公主安露西雅\n擅自脱离了队伍！": ""
+  },
+  "62153": {
+    "<voice 01425_00062153><start_lip_sync n02085 _normal m00001>唉呀……真是一点都不接受教训……\n<cs_pchero>。刚才的事之后再说吧。\n现在先去追安露西雅。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62154": {
+    "<voice 01510_00062154><start_lip_sync n02085 _normal m00001>你要记住，<cs_pchero>。\n在今后与魔族的战斗中，\n你和安露西雅的协力是不可或缺的。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62155": {
+    "<voice 00195_00062155><start_lip_sync m50075 _normal m00001>哈哈哈……果然没错……\n在漫长的时间里，神之绯石不断消耗力量，\n现在力量已经减弱很多了。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62156": {
+    "<voice 00215_00062156><start_lip_sync m50075 _normal m00001>只要破坏了神之绯石，\n这片大地就失去了保护，\n大魔王大人创造的世界就能成功侵蚀这里。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62157": {
+    "<voice 00260_00062157><start_lip_sync n02091 _normal m00001>……<stop_lip_animation n02091 CLOSE_MOUTH>": ""
+  },
+  "62158": {
+    "<voice 00360_00062158><start_lip_sync n02076 _normal m00001>到此为止了，魔元帅杰尔德莱德！<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62159": {
+    "<voice 00540_00062159><start_lip_sync m50075 _normal m00001>哦……你把迦尔雷打败了啊。\n看来还真是有点本事的啊。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62160": {
+    "<voice 00620_00062160><start_lip_sync m50075 _normal m00001>哈哈哈……\n我想到了一个不错的余兴节目。\n你就和这位来交手试试吧。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62161": {
+    "<voice 00885_00062161><start_lip_sync n02076 _normal m00001>如果想妨碍我，就放马过来吧。<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62163": {
+    "<voice 01195_00062163><start_lip_sync n02085 _normal m00001>已经开始了吗？<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62164": {
+    "<voice 01340_00062164><start_lip_sync n02076 _normal m00001>呼呼……<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62165": {
+    "<voice 01645_00062165><start_lip_sync m50075 _normal m00001>哦……你可真是让我刮目相看。\n比我想象的还能干啊。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62166": {
+    "<voice 01776_00062166><start_lip_sync m50075 _normal m00001>你们只在一旁观战，\n不打算帮她一把吗？\n如果你们帮忙的话，勇者也许就能打赢了？<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62167": {
+    "<voice 01935_00062167><start_lip_sync n02085 _normal m00001>你还真敢说……从刚才就一直\n盯着我们有没有露出破绽……\n我还没老糊涂到会中这种招。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62168": {
+    "<voice 02095_00062168><start_lip_sync m50075 _normal m00001>……哈哈哈。原来如此。\n你很聪明啊。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62170": {
+    "<voice 02683_00062170><start_lip_sync n02076 _normal m00001>怎、怎么会……<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62171": {
+    "<voice 02883_00062171><start_lip_sync n02076 _normal m00001>兄……兄长大人？<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62172": {
+    "<voice 02933_00062172><start_lip_sync n02076 _normal m00001>托玛兄长大人……还活……<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62173": {
+    "<voice 03223_00062173><start_lip_sync n02125 _normal m00001>……我是侍奉大魔王的人。\n不是你的兄长。<stop_lip_animation n02125 CLOSE_MOUTH>": ""
+  },
+  "62174": {
+    "<voice 03567_00062174><start_lip_sync m50075 _normal m00001>这个男人是大魔王马蒂桑贡拉\n复活的暗之勇者……<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62175": {
+    "<voice 03582_00062175><start_lip_sync m50075 _normal m00001>大魔王想要得到勇者的力量，\n本打算抓住真正的勇者……\n也就是小姑娘当作傀儡。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62176": {
+    "<voice 03592_00062176><start_lip_sync m50075 _normal m00001>却发现偶然间得到的\n代替品就能够发挥足够的作用。\n所以大魔王觉得有这个男人就足够了。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62177": {
+    "<voice 04017_00062177><start_lip_sync n02076 _normal m00001>怎么会！兄长大人……<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62178": {
+    "<voice 04167_00062178><start_lip_sync m50075 _normal m00001>哈哈哈……够了，托玛。\n去完成你的使命。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62179": {
+    "<voice 04302_00062179><start_lip_sync n02125 _normal m00001>……<stop_lip_animation n02125 CLOSE_MOUTH>": ""
+  },
+  "62180": {
+    "<voice 04537_00062180><start_lip_sync m50075 _normal m00001>神之绯石已经碎了，\n侵蚀迟早都会开始……<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62181": {
+    "<voice 04677_00062181><start_lip_sync m50075 _normal m00001>在这里要办的事都已经办完了。\n走吧，托玛。<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62182": {
+    "<voice 04977_00062182><start_lip_sync n02125 _normal m00001>……<stop_lip_animation n02125 CLOSE_MOUTH>": ""
+  },
+  "62183": {
+    "<voice 05257_00062183><start_lip_sync m50075 _normal m00001>果然赏心悦目啊。\n人绝望的表情……<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62184": {
+    "<voice 05317_00062184><start_lip_sync m50075 _normal m00001>哈哈哈……<stop_lip_animation m50075 CLOSE_MOUTH>": ""
+  },
+  "62185": {
+    "<voice 05799_00062185><start_lip_sync n02076 _normal m00001>兄长大人……为什么……<stop_lip_animation n02076 CLOSE_MOUTH>": ""
+  },
+  "62186": {
+    "<shake_camera 42><voice 06027_00062186><start_lip_sync n02085 _normal m00001><pc>！不能继续留在这里了！\n我带着安露西雅他们离开！\n你们也快逃！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000168": {
+    "<shake_camera 42><voice 06028_29000168><start_lip_sync n02208 _normal m00001>托玛……\n安露西雅……<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000169": {
+    "<shake_camera 42><voice 06029_29000169><start_lip_sync n02208 _normal m00001>……安露西雅殿下，\n请站起来吧。<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "62187": {
+    "<voice 00080_00062187><start_lip_sync n02085 _normal m00001>哦。<pc>，辛苦你了。\n安露西雅好像也冷静一点了。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62188": {
+    "<voice 00150_00062188><start_lip_sync c00552 _normal m00001>……<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "62189": {
+    "<voice 00250_00062189><start_lip_sync n02085 _normal m00001>那就赶快进入正题吧。\n我接下来会说几件很重要的事。\n认真听好了。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62190": {
+    "<voice 00290_00062190><start_lip_sync n02085 _normal m00001>首先，你在和兽魔将迦尔雷交战时，\n为了保护安露西雅而发动的招式……\n那个招式叫盟友护盾。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62191": {
+    "<voice 00330_00062191><start_lip_sync c00552 _normal m00001>盟友护盾……<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "62192": {
+    "<voice 00370_00062192><start_lip_sync n02085 _normal m00001>能使用这个招式就表明你是\n协助勇者，和勇者共同战斗的人。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62193": {
+    "<voice 00410_00062193><start_lip_sync n02085 _normal m00001>……<pc>你正是勇者的盟友。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000170": {
+    "<voice 00450_29000170><start_lip_sync c00552 _normal m00001><pc>是盟友…………<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000171": {
+    "<voice 00450_29000171><start_lip_sync c00552 _normal m00001><pc>是盟友…………<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "62195": {
+    "<voice 00510_00062195><start_lip_sync n02085 _normal m00001>你和安露西雅一起出现的时候，\n我就猜会不会是这样……\n看来我猜对了。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62196": {
+    "<voice 00550_00062196><start_lip_sync n02085 _normal m00001>盟友<pc>。\n今后请你也要支持安露西雅，和她共同战斗。\n这是只有你才能完成的使命。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62197": {
+    "<voice 00590_00062197><start_lip_sync n02085 _normal m00001>明白了吧，安露西雅。\n勇者并不是独自战斗的。\n时刻不要忘记，盟友是和你在一起的。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62198": {
+    "<voice 00630_00062198><start_lip_sync c00552 _normal m00001>……是。<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "62199": {
+    "<voice 00710_00062199><start_lip_sync n02085 _normal m00001>……那我就继续说下一件事了。\n托玛破坏的那块石头\n叫神之绯石。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62200": {
+    "<voice 00750_00062200><start_lip_sync n02085 _normal m00001>如果杰尔德莱德的话可信，那看样子\n神之绯石被破坏之后，大魔王就会\n用伪冷达西亚开始侵蚀这里。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62201": {
+    "<voice 00780_00062201><start_lip_sync n02085 _normal m00001>而神之绯石到底是什么东西……\n详细的解说就让研究\n古神遗迹的专家来做吧。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62202": {
+    "<voice 00850_00062202><start_lip_sync n02085 _normal m00001>进来！<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62203": {
+    "<voice 01225_00062203><start_lip_sync n02085 _normal m00001>这位是罗萨姆博士。\n是研究那个古神遗迹的学者。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62204": {
+    "<voice 01285_00062204><start_lip_sync n02085 _normal m00001>罗萨姆博士。\n请详细解说一下神之绯石。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62205": {
+    "<voice 01335_00062205><start_lip_sync n02207 _normal m00001>神……神之绯石是人类之神古兰泽尼斯用自己的\n鲜血制造出来，是守护冷达西亚这片大地\n不受邪恶势力侵害的关键。<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62206": {
+    "<voice 01375_00062206><start_lip_sync n02207 _normal m00001>那座神殿内的绯石虽然被破坏了，\n但是神之绯石在冷达西亚大陆上\n一共有４块。<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62207": {
+    "<voice 01405_00062207><start_lip_sync n02207 _normal m00001>原本魔族应该是无法碰触绯石的。\n但是在漫长的岁月中，绯石的力量逐渐衰退，\n如今只能勉强保护着冷达西亚。<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62208": {
+    "<voice 01445_00062208><start_lip_sync n02207 _normal m00001>但是……<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62209": {
+    "<voice 01485_00062209><start_lip_sync n02207 _normal m00001>现在终于找到了能让已经衰弱的神之绯石\n恢复原本力量的方法！<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62210": {
+    "<voice 01525_00062210><start_lip_sync n02207 _normal m00001>关键在于勇者公主！\n恢复的方法就是向神之绯石内\n注入你的勇者之力！<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62211": {
+    "<voice 01565_00062211><start_lip_sync n02207 _normal m00001>如此一来绯石就能立刻被激活，\n恢复神代之力，\n再也不会被人破坏了！<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62212": {
+    "<voice 01588_00062212><start_lip_sync n02207 _normal m00001>这个方法之所以能奏效，\n是因为据传说记载，勇者之力\n也是源自古兰泽尼斯神。<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62213": {
+    "<voice 01647_00062213><start_lip_sync n02207 _normal m00001>因此我有一件事想拜托勇者公主！\n我对你的身体非常有兴趣！\n请让我研究一下你！<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62214": {
+    "<voice 01704_00062214><start_lip_sync n02085 _normal m00001>辛苦你了，罗萨姆博士。\n你可以退下了。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62215": {
+    "<voice 01766_00062215><start_lip_sync n02207 _normal m00001>对……对不起。一说到古代史的事\n我就兴奋起来了……那么，我就此告辞了。<stop_lip_animation n02207 CLOSE_MOUTH>": ""
+  },
+  "62216": {
+    "<voice 02006_00062216><start_lip_sync n02085 _normal m00001>就是你们刚才听到的那样。\n我想让你们找出剩下的三块绯石，\n并向里面注入勇者之力。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62217": {
+    "<voice 02036_00062217><start_lip_sync n02085 _normal m00001>不过你们在这次战斗中，\n也体会到自己不成熟的地方了吧。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62218": {
+    "<voice 02076_00062218><start_lip_sync n02085 _normal m00001>要对付那个杰尔德莱德，\n还要守护神之绯石，\n你们必须变得更强。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62219": {
+    "<voice 02106_00062219><start_lip_sync n02085 _normal m00001>需要的准备由我来做。\n在我准备好之前，\n你们去好好休息吧。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62220": {
+    "<voice 02186_00062220><start_lip_sync n02085 _normal m00001>辛苦你了，安露西雅。\n你可以退下了。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000172": {
+    "<voice 02226_29000172><start_lip_sync c00552 _normal m00001>露谢妲大人，这次的战斗\n真是给您添了很多麻烦。今后我会和\n<pc>一同努力的。<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000173": {
+    "<voice 02226_29000173><start_lip_sync c00552 _normal m00001>露谢妲大人，这次的战斗\n真是给您添了很多麻烦。今后我会和\n<pc>一同努力的。<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000174": {
+    "勇者公主安露西雅\n再次成为了伙伴！<se_nots System Guest_joinSE>": ""
+  },
+  "29000175": {
+    "<voice 02228_29000175><start_lip_sync c00552 _normal m00001>密鲁特，\n请看着我的决心。<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000176": {
+    "<voice 02229_29000176><start_lip_sync n02208 _normal m00001>我曾经……\n觉得自己是勇者托玛的盟友。<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000177": {
+    "<voice 02230_29000177><start_lip_sync n02208 _normal m00001>请让我相信\n你就是勇者。\n然后……请把我朋友从黑暗中拯救出来。<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "62222": {
+    "<voice 02546_00062222><start_lip_sync n02085 _normal m00001><pc>啊，\n你这次成功地完成了保护安露西雅的任务。\n这是报酬，收下吧。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "42173": {
+    "完成任务“<%sEV_QUEST_NAME>”了！": ""
+  },
+  "62223": {
+    "<voice 02646_00062223><start_lip_sync n02085 _normal m00001>对了。托玛复活的事\n不要和任何人说。\n知道的人多了会引起混乱。<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "62224": {
+    "<voice 00070_00062224><start_lip_sync m50085 _normal m00001>挺有本事的嘛！\n但是这种攻击是无法打倒我的！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62225": {
+    "兽魔将迦尔雷的伤\n居然迅速恢复了！": ""
+  },
+  "62226": {
+    "<voice 00320_00062226><start_lip_sync m50085 _normal m00001>吼哦哦哦吼啊啊啊！\n我从大魔王马蒂桑贡拉大人那里\n得到了无敌之身！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62227": {
+    "<voice 00466_00062227><start_lip_sync m50085 _normal m00001>只要有这具不会毁灭的身体，\n我就不会输给你们！<stop_lip_animation m50085 CLOSE_MOUTH>": ""
+  },
+  "62228": {
+    "<voice 00561_00062228><start_lip_sync n02085 _normal m00001>这样啊……\n看来获得了大魔王加护的魔族\n用普通攻击是无法打败的……<stop_lip_animation n02085 CLOSE_MOUTH>": ""
+  },
+  "29000178": {
+    "<voice 00662_29000178><start_lip_sync c00552 _normal m00001>怎么会这样……\n这样下去，<pc>等人和\n露谢妲大人……还有密鲁特都会……<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000179": {
+    "<voice 00662_29000178><start_lip_sync c00552 _normal m00001>怎么会这样……\n这样下去，<pc>等人和\n露谢妲大人……还有密鲁特都会……<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000180": {
+    "<voice 00663_29000180><start_lip_sync n02208 _normal m00001>安……露西雅…………安露西雅……大人。<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000181": {
+    "<voice 00664_29000181><start_lip_sync c00552 _normal m00001>密鲁特！别勉强说话……<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000182": {
+    "<voice 00665_29000182><start_lip_sync n02208 _normal m00001>请……让我相信。\n请让我……相信。<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000185": {
+    "<voice 00668_29000185><start_lip_sync n02208 _normal m00001>相信你就是勇者……\n相信托玛的死没有白费！\n相信我朋友完成了应尽的职责！<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000186": {
+    "<voice 00669_29000186><start_lip_sync c00552 _normal m00001>密鲁特……！<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000187": {
+    "<voice 00670_29000187><start_lip_sync n02208 _normal m00001>……站起来！安露西雅！\n让我看看我朋友托玛\n活过的证据！！！<stop_lip_animation n02208 CLOSE_MOUTH>": ""
+  },
+  "29000188": {
+    "<voice 00671_29000188><start_lip_sync c00552 _normal m00001>我……知道了，\n请看着吧！\n密鲁特！兄长大人！<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000189": {
+    "<voice 01131_29000189><start_lip_sync c00552 _normal m00001><cs_pchero>……\n和在虚假世界打倒魔勇者时一样，\n一起同心协力吧！<stop_lip_animation c00552 CLOSE_MOUTH>": ""
+  },
+  "29000190": {
+    "勇者公主安露西雅\n加入了战斗！<se_nots System Guest_joinSE>": ""
+  }
+}

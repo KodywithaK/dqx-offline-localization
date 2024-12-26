@@ -1,0 +1,365 @@
+{
+  "29900": {
+    "<start_lip_sync n01418 _normal m00001>「あっ！　待ってたよ！\n　ねぇねぇ　知ってる！？<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29901": {
+    "<start_lip_sync n01418 _normal m00001>「博士さんがね　魔瘴を消す方法を\n　突き止めたんだよ！<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29902": {
+    "<start_lip_sync n01418 _normal m00001>「でも　博士さんね　ずっと暗い顔してるんだ。\n　なんでかなあ？<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29903": {
+    "<start_lip_sync n01418 _normal m00001>「あっ。ご…ごめんなさい。\n　勝手に　しゃべっちゃって。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29904": {
+    "<start_lip_sync n01418 _normal m00001>「あ…あのね。ボク　ちょっと\n　出かけたいんだけど　よかったら\n　一緒に　行ってくれないかな？<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29905": {
+    "<start_lip_sync n01418 _normal m00001>「カミハルムイ領北の　イムイ地下空洞なんだけど\n　ど…どう？　お願いできる？<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "26333": {
+    "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": ""
+  },
+  "26332": {
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": ""
+  },
+  "29906": {
+    "<start_lip_sync n01418 _normal m00001>「あ…ありがと。ボク　なんだか\n　その場所から　呼ばれてる気がするんだ。\n　そ…それじゃあ……<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29914": {
+    "<start_lip_sync n01418 _normal m00001>「あ…ありがと。でも　なんか\n　他の人たちの頼まれごとで　いっぱいだね。\n　急いでないから　そっちが先で　大丈夫だよ。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29915": {
+    "<start_lip_sync n01418 _normal m00001>「そ…そうだよね。ごめんなさい。\n　変なこと　頼んだりして……。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29916": {
+    "<start_lip_sync n01418 _normal m00001>「で…でも　ボクだけじゃ不安だし\n　どうすればいいんだろ……。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29907": {
+    "<start_lip_sync n01419 _normal m00001>「ちょっと待って　ハッパ。\n　イムイ地下空洞に　行くの？<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29908": {
+    "<start_lip_sync n01418 _normal m00001>「あ……。うん。\n　すぐに　戻ってくるよ。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29909": {
+    "<start_lip_sync n01419 _normal m00001>「あたしも　行くわ。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29910": {
+    "<start_lip_sync n01419 _normal m00001>「最近　研究　研究で\n　ずっと　引きこもってたから\n　ちょっと　気晴らしにね。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29911": {
+    "<start_lip_sync n01418 _normal m00001>「わ…わかった。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29912": {
+    "<start_lip_sync n01418 _normal m00001>「それじゃあ　ボクたち　後から　ついていくね。\n　その洞くつ　ボクと博士さんが\n　はじめて会った　洞くつだよ……。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29913": {
+    "<start_lip_sync n01418 _normal m00001>「北へ行って　カミハルムイ領北に着いたら\n　さらに　北に行ったところにある\n　洞くつだからね。よ…よろしく。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18625": {
+    "<start_lip_sync n01418 _normal m00001>「なんだか　イムイ地下空洞へ\n　呼ばれている気がするの……。\n　ボクたち　後をついてくから　よろしくね。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18626": {
+    "<start_lip_sync n01418 _normal m00001>「その洞くつ　たぶん　ボクと博士さんが\n　はじめて会った　洞くつだよ……。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18627": {
+    "<start_lip_sync n01418 _normal m00001>「北へ行って　カミハルムイ領北に着いたら\n　ずっと　北に行ったところにある\n　イムイ地下空洞だと思う。よ…よろしく。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29917": {
+    "<start_lip_sync m50042 _normal m00001>「よく来た　勇気ある者。\n　ハッパと賢い者も　来たな。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "29918": {
+    "<start_lip_sync n01419 _normal m00001>「魔瘴が　外に　もれている……。\n　このままじゃ　王都は……。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29919": {
+    "<start_lip_sync m50042 _normal m00001>「エルフの城　魔瘴により滅ぶ。\n　大樹周辺　濃い魔瘴に覆われる。\n　この大陸に　ハッパの帰る場所なくなる。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "29920": {
+    "<start_lip_sync m50042 _normal m00001>「勇気ある者と　賢い者よ。\n　ハッパとともに　ほかの大陸に逃げてくれ。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "29921": {
+    "<start_lip_sync n01418 _normal m00001>「だ…大丈夫だよ　パパ。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29922": {
+    "<start_lip_sync n01418 _normal m00001>「博士さんが　魔瘴を消す方法を\n　突き止めてくれたんだ。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29923": {
+    "<start_lip_sync n01418 _normal m00001>「暗黒大樹の芯を覆う　魔瘴を消せば\n　魔瘴を取り込むチカラが　回復するでしょ？<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29924": {
+    "<start_lip_sync n01418 _normal m00001>「そうなれば　暗黒大樹が\n　魔瘴を浄化してくれるから\n　エルトナ大陸を　守れるよ。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29925": {
+    "<start_lip_sync n01419 _normal m00001>「……ムリよ。魔瘴を消す方法は\n　わかったけど　それは　実現不可能なの。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29926": {
+    "<start_lip_sync n01418 _normal m00001>「えっ……？<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29927": {
+    "<start_lip_sync n01419 _normal m00001>「捨てられた城の裏手にある　王家の庭の泉が\n　聖地につながっていて　そこに魔瘴と対をなす\n　聖なるチカラが　眠っているの。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29928": {
+    "<start_lip_sync n01419 _normal m00001>「そのチカラを　体内に宿し\n　魔力とともに放てば　魔瘴を\n　消滅させることができるはずだけど……。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29929": {
+    "<start_lip_sync n01419 _normal m00001>「そのためには　魔瘴に入る必要がある。\n　エルフでは　魔瘴に耐えられないわ。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29930": {
+    "<start_lip_sync m50042 _normal m00001>「われらなら　魔瘴に耐えられるが\n　聖なるチカラには　耐えられない。\n　われらでも　ムリだ。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "29931": {
+    "<start_lip_sync n01419 _normal m00001>「つまり……魔瘴の消滅は　誰にもできないのよ。\n　期待させちゃって　ごめんね。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29932": {
+    "<start_lip_sync n01418 _normal m00001>「ボ…ボクなら　できるよ。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29933": {
+    "<start_lip_sync n01419 _normal m00001>「ハッパ……？<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29934": {
+    "<start_lip_sync n01419 _normal m00001>「ちょっと　なにやってんのよ！？<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29935": {
+    "<start_lip_sync n01418 _normal m00001>「……み　みんな　知ってるでしょ？\n　ボク　ずっと暗黒大樹で育ったから\n　魔瘴に　耐えられるんだ。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29936": {
+    "<start_lip_sync n01418 _normal m00001>「ちょ…ちょっと　気持ちわるくなるけどね。\n　えへへ……。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29937": {
+    "<start_lip_sync n01419 _normal m00001>「……ハッパ　ダメよ。\n　今まで　だまってたけど\n　それって　生命力が失われている証なの。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29938": {
+    "<start_lip_sync n01419 _normal m00001>「続ければ　死期を近づけるわ。\n　しかも　暗黒大樹の芯を覆っているのは\n　とても濃い魔瘴。あんたじゃ　耐えられない。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29939": {
+    "<start_lip_sync n01418 _normal m00001>「でも　このままじゃ　エルトナ大陸の全部が\n　魔瘴だらけになっちゃう！\n　みんなの帰る家が　なくなるなんてイヤだ！<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29940": {
+    "<start_lip_sync n01418 _normal m00001>「ボク　やっとわかったんだ。\n　なんのために　生まれてきたのか。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29941": {
+    "<start_lip_sync n01418 _normal m00001>「エルフなのに　魔瘴に耐えられる　この身体。\n　イヤだったけど　今は　誇りに思える。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29942": {
+    "<start_lip_sync n01418 _normal m00001>「これは　ボクにしかできないんだ。\n　ボクが魔瘴を消して　みんなを守るよ。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29943": {
+    "<start_lip_sync m50042 _normal m00001>「自然の意志に　逆らうか……。\n　ハッパの意志　とても強い。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "29944": {
+    "<start_lip_sync n01419 _normal m00001>「やれやれ。言うようになったじゃない。\n　どうやら　止めても　ムダみたいね……。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29945": {
+    "<start_lip_sync n01419 _normal m00001>「仕方ない。ひとつだけ　アドバイスしとくわ。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29946": {
+    "<start_lip_sync n01419 _normal m00001>「……おのれの生命力を削り　魔瘴に対する耐性を\n　限界まで引き上げれば　ほんの少しの間なら\n　濃度の濃い魔瘴にも　耐えられるかもしれない。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29947": {
+    "<start_lip_sync n01419 _normal m00001>「でも　これは賭けだわ……。\n　耐えられなかったら　確実に…死ぬわよ。\n　ハッパ。それでも　構わないのね？<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29948": {
+    "<start_lip_sync n01418 _normal m00001>「うん。ボク　やるよ！<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29949": {
+    "<start_lip_sync n01419 _normal m00001>「……そう。わかったわ。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29950": {
+    "<start_lip_sync n01419 _normal m00001>「そこまで　命をかけてんなら\n　あたしも　最後まで見届けるわ！<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29951": {
+    "<start_lip_sync n01419 _normal m00001>「ハッパ！　行くわよ！\n　まずは　聖地！\n　聖なるチカラを　宿しにいくわ！<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29952": {
+    "<start_lip_sync n01418 _normal m00001>「う…うん！　博士さん！<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29953": {
+    "<start_lip_sync n01419 _normal m00001>「<pc>！　あなたも　協力して！\n　聖地までの護衛を　お願い！\n　あたしたちは　後から　ついてくわ！<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29954": {
+    "<start_lip_sync n01419 _normal m00001>「ここから東　夢幻の森に着いたら\n　ずっと東に進めば　捨てられた城があるわ！\n　そこの裏手の庭の泉が　聖地につながってるの！<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29955": {
+    "<start_lip_sync m50042 _normal m00001>「お前たちの意志　強い。\n　われらも　お前たちを信じる。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "29956": {
+    "<start_lip_sync m50042 _normal m00001>「われらは　先に　暗黒大樹に戻っている。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "29957": {
+    "<start_lip_sync n01419 _normal m00001>「<pc>！　あなたも　協力して！\n　聖地までの護衛を　お願い！\n　あたしたちは　後から　ついてくわ！<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18646": {
+    "<start_lip_sync n01419 _normal m00001>「ここから東　夢幻の森に着いたら\n　ずっと東に進めば　捨てられた城があるわ！\n　そこの裏手の庭の泉が　聖地につながってるの！<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18647": {
+    "<start_lip_sync m50042 _normal m00001>「お前たちの意志　強い。\n　われらも　お前たちを信じる。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "18648": {
+    "<start_lip_sync m50042 _normal m00001>「われらは　先に　暗黒大樹に戻っている。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "18685": {
+    "<start_lip_sync n01419 _normal m00001>「ありがとね　<pc>。\n　あなたのおかげで　ここまで来れたわ。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18686": {
+    "<start_lip_sync n01419 _normal m00001>「感じるわ。聖地のチカラを……。\n　このチカラを　体内に宿せば……。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29958": {
+    "<start_lip_sync n01419 _normal m00001>「ハッパ？　準備はいい？\n　目をつぶって　精神を集中させるのよ。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29959": {
+    "<start_lip_sync n01418 _normal m00001>「精神を集中……。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29960": {
+    "<start_lip_sync n01419 _normal m00001>「どう？　なにか感じる？<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29961": {
+    "<start_lip_sync n01418 _normal m00001>「うん……。感じる。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29962": {
+    "<start_lip_sync n01418 _normal m00001>「身体が　あったかい。\n　身体の中に　小さな光が入ったみたい。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29963": {
+    "<start_lip_sync n01419 _normal m00001>「上出来よ。その光を　魔力で放てば\n　魔瘴を　消滅させることができるはずだわ。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29964": {
+    "<start_lip_sync n01419 _normal m00001>「あとは　実践あるのみね。\n　暗黒大樹に　向かいましょう。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29965": {
+    "<start_lip_sync n01418 _normal m00001>「うん！<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29966": {
+    "<start_lip_sync n01419 _normal m00001>「もし　前みたいに　魔瘴から魔物が現れたら\n　あたしたちじゃ　太刀打ちできないわ。\n　<pc>。あなたも　暗黒大樹に来てね。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18689": {
+    "<start_lip_sync n01419 _normal m00001>「お待たせ　<cs_pchero>。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18690": {
+    "<start_lip_sync n01419 _normal m00001>「聖地のチカラを宿した　今のハッパなら\n　魔瘴を　消滅させることができるはずよ。\n　暗黒大樹の芯を覆う　魔瘴もね。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18691": {
+    "<start_lip_sync n01419 _normal m00001>「あとは　ハッパが\n　濃い魔瘴に　耐えられるかどうか……。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29967": {
+    "<start_lip_sync m50042 _normal m00001>「われら　ハッパのチカラを信じる。\n　お前の意志　見せてみろ。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "29968": {
+    "<start_lip_sync n01418 _normal m00001>「パパ……。うん　わかった。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "29969": {
+    "<start_lip_sync n01419 _normal m00001>「地面から　震動……！？<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29970": {
+    "<start_lip_sync n01419 _normal m00001>「<cs_pchero>！　魔物が出るわよ！\n　あなたに　まかせるわ！<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29971": {
+    "<start_lip_sync m09003 _normal m00001>「グオオオオオオオオォォォーーーーーッ！！<stop_lip_animation m09003 CLOSE_MOUTH>": ""
+  },
+  "18700": {
+    "<start_lip_sync n01419 _normal m00001>「<cs_pchero>！　あいつを倒さないと\n　芯に　近づくことができないわ！<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18701": {
+    "<start_lip_sync n01419 _normal m00001>「魔物の討伐！　あなたに　まかせるわ！<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "29972": {
+    "<start_lip_sync m09003 _normal m00001>「グオオオオオオオオォォォーーーーーッ！！<stop_lip_animation m09003 CLOSE_MOUTH>": ""
+  },
+  "18708": {
+    "<start_lip_sync n01419 _normal m00001>「ナイス　<cs_pchero>！\n　やっぱり　あなたは頼りになるね！<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18709": {
+    "<start_lip_sync n01419 _normal m00001>「さてと……<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18710": {
+    "<start_lip_sync n01419 _normal m00001>「次は　ハッパの番だね。\n　準備はいい？<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18711": {
+    "<start_lip_sync n01418 _normal m00001>「ハ…ハネ……ハネ……<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18712": {
+    "<start_lip_sync n01418 _normal m00001>「ハネツキお姉ちゃん……。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18713": {
+    "<start_lip_sync n01419 _normal m00001>「えへへ。ちゃんと　呼べたじゃん。\n　どしたの？<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18714": {
+    "<start_lip_sync n01418 _normal m00001>「ハネツキお姉ちゃん……。\n　もしも　戻れなかったら　ごめんね。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18715": {
+    "<start_lip_sync n01418 _normal m00001>「今まで　ありがと……。\n　ボク　いってくるね。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18716": {
+    "<start_lip_sync n01419 _normal m00001>「うん。ここで　待ってるから。\n　いってらっしゃい。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18717": {
+    "<start_lip_sync n01418 _normal m00001>「よ…よし　行くぞ。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18718": {
+    "<start_lip_sync n01418 _normal m00001>「ううううううううう……………。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18719": {
+    "<start_lip_sync n01418 _normal m00001>「ううううう……。く…苦しい……。\n　た…耐えなきゃ　耐えるんだ……。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18720": {
+    "<start_lip_sync n01418 _normal m00001>「ハァハァ……。つ…着いた。\n　ここが　大樹の芯……。\n　せ…聖地のチカラを　使わなきゃ……。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18721": {
+    "<start_lip_sync n01418 _normal m00001>「ううう……。ダ…ダメだ。\n　もう　か…身体が　もた…な…い……。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18722": {
+    "<start_lip_sync m50042 _normal m00001>「ハッパ……。これも運命か……。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "18723": {
+    "<start_lip_sync n01419 _normal m00001>「ハッパ……。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18724": {
+    "<start_lip_sync n01418 _normal m00001>「あ…あれ？\n　身体が　なんともない。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18725": {
+    "<start_lip_sync n01418 _normal m00001>「全然　苦しくないぞ……。\n　よ…よーし！<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18726": {
+    "<start_lip_sync m50042 _normal m00001>「奇跡……。奇跡　起きた……。\n　ハッパ　エルフなのに\n　魔瘴の耐性に　目覚めた……。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "18727": {
+    "<start_lip_sync n01418 _normal m00001>「ハ…ハネツキお姉ちゃん。\n　ボク　やったよ……。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18728": {
+    "<start_lip_sync n01419 _normal m00001>「へへっ　やるじゃん。\n　最高に　かっこよかったよ。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18729": {
+    "<start_lip_sync n01418 _normal m00001>「え…えへへ。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18730": {
+    "<start_lip_sync n01418 _normal m00001>「<cs_pchero>さんと　一緒に\n　いろんな経験が　できたから\n　ボク…強くなれたんだと思う。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18731": {
+    "<start_lip_sync n01418 _normal m00001>「今まで　ありがとね……。\n　こ…これ　受け取って。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "42173": {
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": ""
+  },
+  "28425": {
+    "<cs_pchero>は　クエストをクリアした！": ""
+  },
+  "18732": {
+    "<start_lip_sync m50042 _normal m00001>「世界樹に　危機　訪れし時\n　世界樹を救うため　世に現れる存在……。\n　ハッパ　もしかしたら……。<stop_lip_animation m50042 CLOSE_MOUTH>": ""
+  },
+  "18733": {
+    "<start_lip_sync n01418 _normal m00001>「ハネツキお姉ちゃん。\n　ボク　決めたよ。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18734": {
+    "<start_lip_sync n01419 _normal m00001>「なにを？<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18735": {
+    "<start_lip_sync n01418 _normal m00001>「ボク　ここで生きていく。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18736": {
+    "<start_lip_sync n01418 _normal m00001>「それで　聖地と暗黒大樹を往復して\n　これからも　大樹に現れた魔瘴を消していく。\n　ボクが　大樹を守っていくよ。<stop_lip_animation n01418 CLOSE_MOUTH>": ""
+  },
+  "18737": {
+    "<start_lip_sync n01419 _normal m00001>「えへへ　かっこいいじゃん。\n　なんか　あれだね。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  },
+  "18738": {
+    "<start_lip_sync n01419 _normal m00001>「暗黒大樹の守り人って　感じだね。<stop_lip_animation n01419 CLOSE_MOUTH>": ""
+  }
+}

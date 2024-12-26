@@ -1,0 +1,167 @@
+{
+  "102417": {
+    "<attr><feel_happy_one><end_attr>: 어머……. 왜 그래, <pc>?\n　혹시 저기 있는 조각배가 궁금해?<yesno_nc><break>": ""
+  },
+  "102418": {
+    "<attr><feel_happy_lv3><end_attr>: ……그럼 됐어.\n　너와 우리만 있으면\n　다른 건 필요 없으니까…….\n<br>\n: 있잖아, <pc>.\n　나를…… 놓으면 안 돼.\n　불안할 때는 이름을 불러 줘…….\n<select>\n안루시아\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "102419": {
+    "<attr><feel_think_one><end_attr>: 저 조각배를 타면 이 섬 밖으로\n　나갈 수 있지만…….\n　우리를 두고 나가지 않을 거지?<yesno_nc><break>": ""
+  },
+  "102420": {
+    "<attr><feel_happy_lv3><end_attr>: 우훗, 그래.\n　이대로 계속 우리와 함께\n　여기서 살자…….\n<br>\n: 있잖아, <pc>.\n　나를…… 놓으면 안 돼.\n　불안할 때는 이름을 불러 줘…….\n<select>\n안루시아\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "102421": {
+    "<attr><feel_sad_one><end_attr>: 세상에, 너무해…….<bw_break>": ""
+  },
+  "102422": {
+    "<attr><feel_happy_one><end_attr>: 다시 생각해 보지 않을래?\n　다른 일은 다 잊고 계속\n　우리와 함께 여기서 살자, 응?<yesno_nc><break>": ""
+  },
+  "102423": {
+    "<attr><feel_happy_lv3><end_attr>: 넌 그렇게 말해 줄 거라 믿었어.\n　그래……. 넌 계속\n　여기서 우리랑 같이 살면 돼…….\n<br>\n: 있잖아, <pc>.\n　나를…… 놓으면 안 돼.\n　불안할 때는 이름을 불러 줘…….\n<select>\n안루시아\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "102424": {
+    "<attr><feel_sad_one><end_attr>: 그래……. 이렇게까지 말해도\n　네 마음은 바뀌지 않는구나.\n<br>\n: ……여기까지 올 수 있었던 너인걸.\n　그 어떤 유혹에도 지지 않고 앞만 보고\n　나아갈 거라 생각했어.<bw_break>": ""
+  },
+  "103265": {
+    "<attr><feel_happy_lv3><end_attr>: 왜 그래, <pc>?\n　난 계속 여기 있어.\n<br>\n: 너도 계속 여기 있어 줘.\n　그래……. 아무 생각 말고…….\n　영원히………….": ""
+  },
+  "113231": {
+    "<attr><feel_happy_one><end_attr>: ……우리는 그저 널\n　붙잡아 두기 위해 만들어진 환영.\n<br>\n: 하지만 모두 너와 인연이 있는……\n　혹은 앞으로 인연을 맺을 사람들이야.\n　너라는 운명에 이끌려 여기에 나타났지.\n<br>\n: ……자. 가도록 해, <pc>.\n　네게는 많은 사람들의 미래가\n　달려 있다는 것을 잊지 마…….": ""
+  },
+  "102425": {
+    "<attr><feel_normal_lv3><end_attr>: 오, <pc>.\n　기다리고 있었어.\n　앞으로는 계속 여기 있을 거지?\n<br>\n: 에이, 쓸데없는 걱정은 안 해도 돼.\n　자잘한 건 따지지 말고\n　우리 옆에서 그냥 웃고만 있으면 돼!\n<br>\n: 응? 뭐야, 설마\n　내 이름을 까먹은 거야?\n　디로 시작해서 고로 끝나는 이름이잖아.\n<select>\n디에고\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "103266": {
+    "<attr><feel_normal_lv3><end_attr>: 하핫, 정답이야!\n　뭐, 이름 같은 거 안 불러 줘도\n　난 당신 곁을 떠나지 않을 거야.\n<br>\n: 당신이 날 떠나는 것도 안 돼.\n　계속 여기 있을 거지?": ""
+  },
+  "102426": {
+    "<attr><feel_happy_lv3><end_attr>: <pc> 님, 정말\n　우리랑 같이 지내주시는 거죠?\n<br>\n: 저 진짜 힘낼게요.\n　<pc> 님을 위해서\n　뭐든지 할 거예요!\n<br>\n: 있잖아요, <pc> 님.\n　혹시 제 이름을……\n　아니에요, 정말 아무것도 아니에요!\n<select>\n후우라\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "103267": {
+    "<attr><feel_happy_lv3><end_attr>: 네~ <pc> 님.\n　절 부르셨죠?\n<br>\n: 딱히 볼일이 없어도\n　언제든지 이름을 불러 주셔도 돼요.\n　불러 주시면 기쁘니까요!": ""
+  },
+  "102427": {
+    "<attr><feel_happy_lv3><end_attr>: 오, <pc>.\n　난 남들이랑 어울리는 건 딱 질색이지만\n　너랑은 여기서 지낼 수 있겠어.\n<br>\n: 그리고 먹을 건 내가 만들어 줄게.\n　이래 봬도 요리는 제법 자신 있거든.\n　먹는 건 항상 혼자였지만…….\n<br>\n: ……너랑 여행을 하게 되고서 가끔\n　생각하게 됐어. 누군가랑 같이\n　밥을 먹으면 참 좋구나…… 하고.\n<br>\n: 먹으면서 서로 이름을 부르기도 하고…….\n　헷, 나답지 않게 뭐라는 거냐.\n　잊어 줘. 그럼 어디 요리나 해 볼까!\n<select>\n휴자\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "103268": {
+    "<attr><feel_happy_lv3><end_attr>: 으앗, <pc>!\n　갑자기 이름을 부르면 어떡해.\n　식칼로 손을 벨 뻔했잖아.\n<br>\n: 너 때문에 다치는 건\n　딱히 상관은 없지만.": ""
+  },
+  "102428": {
+    "<attr><feel_happy_lv3><end_attr>: 앗……. <pc> 씨…….\n　저기… 그러니까…….\n　아이참, 왜 이렇게 부끄러운 거람.\n<br>\n: 으음. 그러니까… 그게…….\n　좀 더 가까이 와 주지 않을래요?\n　아직 모자란 저지만 잘 부탁해요.\n<br>\n: 그리고 그…….\n　제 이름을 불러 주면\n　참 기쁠 것…… 같은데…….\n<select>\n마이유\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "103269": {
+    "<attr><feel_happy_lv3><end_attr>: 역시 <pc> 씨가\n　이름을 불러 주면 가슴이 떨려요.\n<br>\n: 하지만……. 무척 기뻐요.\n　앞으로도 계속 여기 있으면서\n　제 이름을 불러 주면 좋겠어요…….": ""
+  },
+  "102429": {
+    "<pipipi_high>: ……<pc> 씨.\n　저기, <pc> 씨. 일어나…….": ""
+  },
+  "102430": {
+    "<attr><feel_happy_lv3><end_attr>: <pc> 씨랑 계속\n　함께 지낼 수 있다니 꿈만 같아!\n<br>\n: 나한테 동생이 아니라 오빠가 있다면\n　당신 같은 사람이 좋겠다고\n　쭉 생각했거든!\n<br>\n: 나를 부를 때도 동생이라 생각하고\n　리즈라고 불러도 돼.\n　있잖아, 한번 불러 볼래?\n<select>\n리즈\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "103270": {
+    "<attr><feel_happy_lv3><end_attr>: 응, 오빠!\n<br>\n: ……앗, 미안해! <pc> 씨.\n　나도 모르게 오빠라고 불러 버렸네.\n　진짜 가족이 되면 좋겠다고 생각해서 그만.": ""
+  },
+  "102431": {
+    "<attr><feel_happy_lv3><end_attr>: 어머, <pc>.\n　앞으로는 내가 널 위해\n　매일 맛있는 요리를 해 줄게.\n<br>\n: 뭐? 요리를 할 줄이나 아냐고……?\n　밥투정하면 곰팡이 찹쌀떡이나 먹일 줄 알아!\n<br>\n: 너 때문에 털복숭이 조리 장인 밑에서\n　제대로 수련하고 왔으니까\n　걱정할 필요 없어!!\n<br>\n: 알겠어? 넌 거기서\n　내 요리를 잠자코 기다리기만 하면 돼.\n　절대 재촉하지 마, 알았지?\n<select>\n루나나\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "103271": {
+    "<attr><feel_happy_lv3><end_attr>: 뭐야, <pc>?\n　아직 요리하는 중이니까\n　얌전히 기다리고 있어.\n<br>\n: 아니면 더는 못 기다리겠어?\n　후후……. 엉큼하다니까.\n　좋아. 빨리 만들어 줄게.": ""
+  },
+  "102432": {
+    "<attr><feel_happy_lv3><end_attr>: ……<pc>.\n　나는 더 이상 그대를 이끄는 현자가 아니다.\n　앞으로는 그대가 나를 이끌어 다오.\n<br>\n: 그대는 나를 어떻게 바꿔 주려나?\n　기대되는구나. 후훗…….\n<select>\n루셴다 님……\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "103272": {
+    "<attr><feel_happy_lv3><end_attr>: 나를 불렀나, <pc>?\n　훗, 그래. 내 피부가 다치지 않도록\n　오일을 발라 주겠다고?<yesno><break>": ""
+  },
+  "103273": {
+    "<attr><feel_happy_lv3><end_attr>: 좋다. 그럼 구석구석 발라 다오.": ""
+  },
+  "103274": {
+    "<attr><feel_happy_lv3><end_attr>: ……고맙다, <pc>.\n　그대를 위해서라면 나는\n　영원히 이 아름다움을 유지하마…….": ""
+  },
+  "103275": {
+    "<attr><feel_sad_lv3><end_attr>: ……그래. 아쉽군.": ""
+  },
+  "102433": {
+    "<attr><feel_normal_lv3><end_attr>: 전 인간이 정말 싫습니다…….\n　하지만 <pc> 씨……\n　당신만은 다른 사람들과 달라요.\n<br>\n: 당신과 함께라면 저는 변할 수 있습니다.\n　그러니까 계속 곁에 있어 주시겠어요?\n　그리고 제 이름을 불러 주셨으면 좋겠어요…….\n<select>\n사리아스\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "103276": {
+    "<attr><feel_normal_lv3><end_attr>: 아아……. 당신이 이름을 불러 주시니\n　마음이 무척 안정되는 느낌이에요.\n<br>\n: 당신과 함께라면 저는 변할 수 있습니다.\n　그러니 아무 데도 가시면 안 돼요.": ""
+  },
+  "102434": {
+    "<attr><feel_happy_lv3><end_attr>: 앗, <pc> 씨!\n　난 당신 옆에 있고 싶어.\n　당신을 따스하게 치유해 주고 싶어.\n<br>\n: 그러니까 계속 나랑 같이 여기서 살자.\n　응? 알았지?\n　알았으면 내 이름을 불러 줘!\n<br>\n<select>\n세라피\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "103277": {
+    "<attr><feel_happy_lv3><end_attr>: ……에헤헤.\n　<pc> 씨가 이름을 불러 주니까\n　무척 행복한 기분이 들어.\n<br>\n: 그러니까 앞으로도 계속\n　내 이름을 불러 주면 좋겠어!": ""
+  },
+  "102435": {
+    "<attr><feel_normal_lv3><end_attr>: 오래도록 스킬 마스터라 불려 온 저이지만\n　이 이름도 조금 질리는군요.\n<br>\n: 그래요, 앞으로는…….\n　<pc> 마스터라 불리는 것도\n　나쁘지 않겠어요. 후훗…….\n<br>\n: 한번 그렇게 불러 보시겠습니까?\n　저를 <pc> 마스터라고요.\n<select>\n<pc> 마스터\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "103278": {
+    "<attr><feel_normal_lv3><end_attr>: 후후……. 당신이 이름을 불러 주시니\n　역시 기분이 좋군요.\n<br>\n: 그나저나 혹시 일광욕을 하실 거면\n　제가 오일을 발라 드릴까요?<yesno><break>": ""
+  },
+  "103279": {
+    "<attr><feel_normal_lv3><end_attr>: 알겠습니다.\n　그럼 저쪽으로 누워 보시죠.\n　긴장을 풀고 제게 몸을 맡기세요…….": ""
+  },
+  "103280": {
+    "<attr><feel_normal_lv3><end_attr>: ……끝났습니다.\n　햇빛에 그을린 당신도 매력적이겠지만\n　그건 나중의 즐거움으로 미뤄 두죠.": ""
+  },
+  "103281": {
+    "<attr><feel_normal_lv3><end_attr>: ……그러십니까. 아쉽군요.": ""
+  },
+  "102436": {
+    "어느 틈엔가 깊은 잠에 빠졌던 모양이다.\n{pc}|hpp(은,는) 눈을 떴다.": ""
+  },
+  "103282": {
+    "{pc}|hpp(은,는) 루셴다의 몸에\n오일을 발라 줬다!": ""
+  },
+  "103283": {
+    "{pc}|hpp(은,는) 스킬 마스터에게\n오일을 발라 달라고 부탁했다!": ""
+  },
+  "103790": {
+    "신비한 기운이 느껴지는 램프가 놓여 있다.\n이 램프는 밝기를 조절할 수 있는 것 같다.\n밝기를 바꿔 보겠습니까?<yesno><close>": ""
+  },
+  "103791": {
+    "{pc}|hpp(은,는) 램프를 밝게 조절해 봤다.\n램프에서 빛이 넘치면서\n태양이 가장 높은 곳으로 올라갔다.": ""
+  },
+  "103792": {
+    "{pc}|hpp(은,는) 램프를 어둡게 조절해 봤다.\n램프는 어두운 안개를 내뿜었고\n주변은 어둠으로 물들어 갔다.": ""
+  },
+  "103794": {
+    "신비한 기운이 느껴지는 거울이 있다.<bw_break>": ""
+  },
+  "103795": {
+    "거울 너머에서 아름다운 여성들이\n손짓하며 부르는 것이 보인다.\n거울을 만져 보겠습니까?<yesno><close>": ""
+  },
+  "103796": {
+    "{pc}|hpp(은,는) 거울을 살짝 만져 봤다.\n<br>\n<pc>의 몸이 천천히\n거울 속으로 빨려 들어간다…….<se_nots joutyu tag_warp_in>": ""
+  },
+  "103797": {
+    "거울 너머에서 멋진 남성들이\n손짓하며 부르는 것이 보인다.\n거울을 만져 보겠습니까?<yesno><close>": ""
+  },
+  "103798": {
+    "{pc}|hpp(은,는) 거울을 살짝 만져 봤다.\n<br>\n<pc>의 몸이 천천히\n거울 속으로 빨려 들어간다…….<se_nots joutyu tag_warp_in>": ""
+  },
+  "103905": {
+    "{pc}|hpp(은,는) 램프를 어둡게 조절해 봤다.\n램프는 어두운 안개를 내뿜었고\n주변은 칠흑처럼 어두워지기 시작했다.": ""
+  },
+  "103906": {
+    "{pc}|hpp(은,는) 램프를 밝게 조절해 봤다.\n램프에서 빛이 넘치면서\n아침 해가 주변을 비추기 시작했다.": ""
+  },
+  "102437": {
+    "<pipipi_mid>: ……<pc> 씨!\n　일어나세요, <pc> 씨!!": ""
+  },
+  "102438": {
+    "<attr><feel_happy_lv3><end_attr>: <pc> 씨! <pc> 씨!\n　왜일까요? 당신을 보고 있으면\n　따스하고 편안한 마음이 듭니다.\n<br>\n: 앞으로는 계속 함께…… 계실 거죠?\n　당신을 위해 이 한 몸 바칠 테니\n　저를 두고 어디 가 버리시면 안 돼요.\n<br>\n: 무슨 일 있으시면 저를 꼭 불러 주세요.\n　제 이름을 그냥 막 불러 주셔도 돼요.\n　지금 한번 불러 보실래요?\n<select>\n탓치\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "103284": {
+    "<attr><feel_happy_lv3><end_attr>: 네, <pc> 씨!!\n　저는 여기 있어요!\n<br>\n: 언제든지 불러 주세요.\n　<pc> 씨를 위해서라면 뭐든지 할게요!": ""
+  },
+  "102439": {
+    "<attr><feel_happy_lv3><end_attr>: 오오, <pc>. 어서 와.\n　난 너만의 영웅이 되기로 했어.\n　앞으로는 계속 함께 있자.\n<br>\n: 무슨 일이 있어도 내가 널 지켜 줄게.\n　그러니까 마음 놓고 있어.\n　도움이 필요하면 내 이름을 불러!\n<select>\n장크로네!\n그만둔다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": ""
+  },
+  "103285": {
+    "<attr><feel_happy_lv3><end_attr>: 응? 뭐야? <pc>.\n　무슨 일 있었어?\n<br>\n: ……뭐라고? 그냥 불러 봤다고?\n　헤헷, 왠지 쑥스럽군.\n　뭐, 조금씩 익숙해지겠지.\n<br>\n: 혹시 도움이 필요하면\n　언제든지 내 이름을 부르도록 해.\n　무조건 달려갈 테니까!": ""
+  }
+}
