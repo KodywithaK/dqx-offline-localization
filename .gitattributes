@@ -1,0 +1,17 @@
+* text=auto
+
+# (.locres > .json)
+**/BACKLOG/pakchunk0-*/*/Content/Localization/**/Game.locres.json linguist-language=JSON
+**/BACKLOG/pakchunk0-*/*/Content/Localization/**/Game.locres.json linguist-detectable=true
+**/FINAL/pakchunk0-*/*/Content/Localization/**/Game.locres.json linguist-language=JSON
+**/FINAL/pakchunk0-*/*/Content/Localization/**/Game.locres.json linguist-detectable=true
+**/REFERENCES/pakchunk0-*/*/Content/Localization/**/Game.locres.json linguist-language=JSON
+**/REFERENCES/pakchunk0-*/*/Content/Localization/**/Game.locres.json linguist-detectable=true
+
+# (.etp > .json)
+**/BACKLOG/pakchunk0-*/*/Content/NonAssets/ETP/*.win32.json linguist-language=JSON
+**/BACKLOG/pakchunk0-*/*/Content/NonAssets/ETP/*.win32.json linguist-detectable=true
+**/FINAL/pakchunk0-*/*/Content/NonAssets/ETP/*.win32.json linguist-language=JSON
+**/FINAL/pakchunk0-*/*/Content/NonAssets/ETP/*.win32.json linguist-detectable=true
+**/REFERENCES/pakchunk0-*/*/Content/NonAssets/ETP/*.win32.json linguist-language=JSON
+**/REFERENCES/pakchunk0-*/*/Content/NonAssets/ETP/*.win32.json linguist-detectable=true
