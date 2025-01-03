@@ -1,0 +1,13 @@
+{
+  "100338": {
+    "de": "",
+    "en": "",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "この山頂から　ふもとにある\n竜守りの小屋まで　戻ることもできるようだ。\nどこに　戻りますか？\n<select_nc>\nドラクロン山地\n竜守りの小屋の前\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close><br>",
+    "ko": "이 정상에서 기슭에 있는 용지키미의\n오두막까지 돌아갈 수도 있는 듯하다.\n어디로 돌아가겠습니까?\n<select_nc>\n드래클론 산지\n용지키미의 오두막 앞\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close><br>",
+    "zh-hans": "从山顶也能够返回山脚\n守龙人的小屋。\n要返回哪里？\n<select_nc>\n龙翔山地\n守龙人的小屋前\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close><br>",
+    "zh-hant": "似乎也能從這座山頂回到\n山腳的守龍人小屋。\n要返回哪一個地方呢？\n<select_nc>\n龍翔山地\n守龍人小屋前\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close><br>"
+  }
+}

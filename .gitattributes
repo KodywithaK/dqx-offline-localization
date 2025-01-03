@@ -1,9 +1,9 @@
 * text=auto
 
 # (.etp > .json)
-# Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json linguist-detectable=true
-# Steam/**/DONE/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json linguist-detectable=true
-Steam/**/REFERENCES/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json linguist-detectable=true
+Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json linguist-detectable=true
+Steam/**/DONE/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json linguist-detectable=true
+# Steam/**/REFERENCES/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json linguist-detectable=true
 
 # (.locres & .locmeta > .json)
 Steam/**/REFERENCES/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/**/*.json linguist-detectable=true
