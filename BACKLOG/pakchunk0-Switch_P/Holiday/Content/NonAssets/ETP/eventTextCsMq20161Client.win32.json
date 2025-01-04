@@ -33,7 +33,7 @@
   },
   "26333": {
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>": 
-    "You have been asked to do a quest.\nDo you accept?\n<select>\nAccept\nStop\n<select_end><close>"
+    "You have been asked to do a quest. Do you accept?\n<select>\nAccept\nStop\n<select_end><close>"
   },
   "56787": {
     "<voice 00557_00056787><start_lip_sync n02229 _normal m00001>「おおっ！　なんという　心強い返事じゃ！\n　温泉を愛する　セクシーギャルたちのために\n　はりきって　魔物を倒してきてくだされよ！！<stop_lip_animation n02229 CLOSE_MOUTH>": 
@@ -41,7 +41,7 @@
   },
   "26332": {
     "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": 
-    "I received the quest\n''<%sev_quest_name>''.<me 74>"
+    "Quest \"<%sEV_QUEST_NAME>\" received.<me 74>"
   },
   "56788": {
     "<voice 00642_00056788><start_lip_sync n02229 _normal m00001>「わかっておると思うが　モンセロ温泉峡は\n　コニウェア平原の　南西にあるからの！\n　気をつけて　行ってきてくだされよ～！<stop_lip_animation n02229 CLOSE_MOUTH>": 
@@ -85,7 +85,7 @@
   },
   "56799": {
     "<voice 00190_00056799><start_lip_sync n02230 _normal m00001>「本当にねえ……。あそこに　魔物が来るなんて\n　これまで　なかったことですから……。\n　きっと知らずに来る　娘さんも　いると思うわ。<stop_lip_animation n02230 CLOSE_MOUTH>": 
-    "<voice 00190_00056799><start_lip_sync n02230 _normal m00001>It really is. We've never had a\nmonster come there before. I'm sure\nsome of the daughters will come\n<br>\nwithout knowing.<stop_lip_animation n02230 CLOSE_MOUTH>"
+    "<voice 00190_00056799><start_lip_sync n02230 _normal m00001>It really is... We've never had a\nmonster come there before. I'm sure\nsome of the daughters will come\n<br>\nwithout knowing.<stop_lip_animation n02230 CLOSE_MOUTH>"
   },
   "56800": {
     "<voice 00235_00056800><start_lip_sync n02229 _normal m00001>「<pc>さん！　どうか　頼む！\n　モンセロ温泉峡の温泉に行って　魔物を倒し\n　ギャルと　平和な温泉を　守ってくれい！！<stop_lip_animation n02229 CLOSE_MOUTH>": 
@@ -301,7 +301,7 @@
   },
   "42173": {
     "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": 
-    "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
+    "The quest ''<%sEV_QUEST_NAME>'' has been\ncompleted!<update_quedate><open_irai>"
   },
   "56853": {
     "<voice 00925_00056853><start_lip_sync n02230 _normal m00001>「<pc>さん。ヤクプさん。\n　本当に　ありがとうございました。\n　また　温泉の方にも　遊びにきてくださいね。<stop_lip_animation n02230 CLOSE_MOUTH>": 

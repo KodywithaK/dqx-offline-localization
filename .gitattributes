@@ -1,17 +1,15 @@
 * text=auto
 
 # (.locres > .json)
-**/BACKLOG/pakchunk0-*/*/Content/Localization/**/Game.locres.json linguist-language=JSON
-**/BACKLOG/pakchunk0-*/*/Content/Localization/**/Game.locres.json linguist-detectable=true
-**/FINAL/pakchunk0-*/*/Content/Localization/**/Game.locres.json linguist-language=JSON
-**/FINAL/pakchunk0-*/*/Content/Localization/**/Game.locres.json linguist-detectable=true
-**/REFERENCES/pakchunk0-*/*/Content/Localization/**/Game.locres.json linguist-language=JSON
-**/REFERENCES/pakchunk0-*/*/Content/Localization/**/Game.locres.json linguist-detectable=true
+**/BACKLOG/**/Content/Localization/**/Game.locres.json linguist-detectable=true
+**/FINAL/**/Content/Localization/**/Game.locres.json linguist-detectable=true
 
 # (.etp > .json)
-**/BACKLOG/pakchunk0-*/*/Content/NonAssets/ETP/*.win32.json linguist-language=JSON
-**/BACKLOG/pakchunk0-*/*/Content/NonAssets/ETP/*.win32.json linguist-detectable=true
-**/FINAL/pakchunk0-*/*/Content/NonAssets/ETP/*.win32.json linguist-language=JSON
-**/FINAL/pakchunk0-*/*/Content/NonAssets/ETP/*.win32.json linguist-detectable=true
-**/REFERENCES/pakchunk0-*/*/Content/NonAssets/ETP/*.win32.json linguist-language=JSON
-**/REFERENCES/pakchunk0-*/*/Content/NonAssets/ETP/*.win32.json linguist-detectable=true
+**/BACKLOG/**/Content/NonAssets/ETP/*.json linguist-detectable=true
+**/FINAL/**/Content/NonAssets/ETP/*.json linguist-detectable=true
+
+BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/**/*.json linguist-detectable=true
+FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/**/*.json linguist-detectable=true
+
+Steam/**/REFERENCES/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP*/*.json linguist-detectable=true
+Steam/**/REFERENCES/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/**/*.json linguist-detectable=true

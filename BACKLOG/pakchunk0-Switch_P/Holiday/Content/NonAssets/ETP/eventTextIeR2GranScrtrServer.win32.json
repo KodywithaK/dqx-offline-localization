@@ -29,7 +29,7 @@
   },
   "92198": {
     "<attr><feel_happy_lv3><end_attr>「ふふん。どうじゃ？\n　ワシの作った　立体魔光映像会話装置は？\n　すばらしかったじゃろう！\n<br>\n「あれが　できる前まで　賢者さまたちは\n　事あるごとに　わざわざ　この城まで\n　足を運んでおったらしくてのう。\n<br>\n「あの方々は　世界各地を巡ることが多いんで\n　集まるにも時間がかかって　効率が悪い……と\n　そこで　ワシに　白羽の矢が立ったわけじゃ。\n<br>\n「……さて。ワシは　しばらく　ここにおるよ。\n　デリケートな装置なんで　修理直後は\n　ちょこちょこ　調整をしなきゃならんのでな。": 
-    "<attr><feel_happy_lv3><end_attr>Hahah. What's that? Ya talkin' about the 3D magic\nlight projector I made? Splendid, isn't it!\n<br>\nBefore they had that, the sages used ta haveta go\noutta their way ta the castle for every thing.\n<br>\nThose gents are often travelin' all over the world,\nso takin' time ta assemble's inefficient... And so, I\nwas selected.\n<br>\n...Well. I'll be here for a while. Delicate devices like\nthese—following repairs—they occassionally need a\nlittle tinkerin' with."
+    "<attr><feel_happy_lv3><end_attr>Hahah. What's that? Ya talkin' about the 3D magic\nlight projector I made? Splendid, isn't it!\n<br>\nBefore they had that, the sages used ta haveta go\noutta their way ta the castle for every thing.\n<br>\nThose gents are often travelin' all over the world, so\ntakin' time ta assemble's inefficient... And so, I was\nselected.\n<br>\n...Well. I'll be here for a while. Delicate devices like\nthese—following repairs—they occassionally need a\nlittle tinkerin' with."
   },
   "78904": {
     "この席は　賢者ブロッゲンの席のようだ。\n賢者ブロッゲンを　呼びだしますか？<yesno><break>": 
@@ -85,7 +85,7 @@
   },
   "92206": {
     "この席は　賢者エイドスの席のようだ。\n賢者エイドスから受ける　破邪の秘技の試練は\nもう　果たしている。": 
-    "This chair appears to be Sage Eidos' seat. Sage\nEidos' Secret Crushing Evil Technique trial is now\ncompleted."
+    "This chair appears to be Sage Eidos' seat. Sage Eidos'\nSecret Crushing Evil Technique trial is now completed."
   },
   "78912": {
     "この席は　賢者ホーローの席のようだ。\n賢者ホーローを　呼びだしますか？<yesno><break>": 
@@ -125,7 +125,7 @@
   },
   "92218": {
     "<attr><feel_normal_one><end_attr>「<pc>さん　ご苦労さまです。\n　ホーローさまの安否は　確かめられましたか？<yesno><break>": 
-    ""
+    "<attr><feel_normal_one><end_attr><pc>, thank you for your hard work. Did you\nconfirm Master Hollow's well-being?<yesno><break>"
   },
   "92219": {
     "<attr><feel_normal_one><end_attr>「そうですか。ホーローさまは\n　駅弁の争奪戦に　参加されていたと……。\n　ふふっ。いかにも　あのお方らしい。\n<br>\n「では　ホーローさまの安否は\n　確認できたということで　<pc>さまは\n　破邪の秘技の会得を　目指してください。<open_irai><bw_break>": 
@@ -165,19 +165,19 @@
   },
   "78898": {
     "<attr><feel_normal_one><end_attr>「……ルシェンダさまの　お言いつけを守り\n　私が　<pc>さまの\n　お手伝いを　させていただきます。\n<br>\n「勇者姫アンルシアさまは　叡智の冠の\n　賢者さまたちから　試練を受け\n　３つの破邪の秘技を　会得せねばなりません。\n<br>\n「勇者の盟友である　<pc>さまは\n　その手助けを　なさるのです。\n　そう……。それが　あなたの運命……。\n<br>\n「この会議室にある椅子を調べれば\n　賢者さまを　呼びだすことができます。\n<br>\n「……緑の席は　ブロッゲンさま。\n　青の席は　エイドスさま。\n　黄色の席は　ホーローさまのお席。\n<br>\n「ただし　賢者の方々は　多忙につき\n　呼びだしに　応じられないことがあります。\n<br>\n「また　ひとりの賢者さまから\n　試練を受けている間は　他の賢者さまとは\n　連絡は取れない決まり……。\n<br>\n「……さあ　<pc>さま。\n　賢者の方々に連絡を取り　アンルシアさまに\n　破邪の秘技を　会得させるのです。": 
-    "<attr><feel_normal_one><end_attr>......Lady Lushenda tells me that I have the privilege\nof being your assistant, <pc>.\n<br>\nHero Princess Anlucia is to receive the Crown of\nWisdom's Sages' 3 trials, which should allow her to\nmaster the Secret Crushing Evil Technique.\n<br>\nAs the Hero's Guiding Ally, <pc>, you are to\nassist. It appears... That is your fate...\n<br>\nIf you examine the chairs within here, you shall be\nable to call a sage.\n<br>\nIn the green chair, Master Broggen. The blue chair is\nMaster Eidos. The yellow chair is Master Hollow's seat.\n<br>\nHowever, being that the sages are busy, they may not\nbe able to answer when you call.\n<br>\nAlso, while you are undergoing one of the sage's trials,\nit has been decided that you cannot contact another\nsage...\n<br>\n...Now then, <pc>, contact the sages to have\nLady Anlucia master the Secret Crushing Evil\nTechnique."
+    "<attr><feel_normal_one><end_attr>......Lady Lushenda tells me that I have the privilege\nof being your assistant, <pc>.\n<br>\nHero Princess Anlucia is to receive the Crown of\nWisdom's Sages' 3 trials, which should allow her to\nmaster the Secret Crushing Evil Technique.\n<br>\nAs the Hero's Guiding Ally, <pc>, you are to\nassist. It appears... That is your fate...\n<br>\nIf you examine the chairs within here, you shall be able\nto call a sage.\n<br>\nIn the green chair, Master Broggen. The blue chair is\nMaster Eidos. The yellow chair is Master Hollow's seat.\n<br>\nHowever, being that the sages are busy, they may not\nbe able to answer when you call.\n<br>\nAlso, while you are undergoing one of the sage's trials,\nit has been decided that you cannot contact another\nsage...\n<br>\n...Now then, <pc>, contact the sages to have\nLady Anlucia master the Secret Crushing Evil\nTechnique."
   },
   "78899": {
     "<attr><feel_normal_one><end_attr>「この会議室にある椅子を調べれば\n　賢者さまを　呼びだすことができます。\n<br>\n「……緑の席は　ブロッゲンさま。\n　青の席は　エイドスさま。\n　黄色の席は　ホーローさまのお席。\n<br>\n「ただし　賢者の方々は　多忙につき\n　呼びだしに　応じられないことがあります。\n<br>\n「また　ひとりの賢者さまから\n　試練を受けている間は　他の賢者さまとは\n　連絡は取れない決まりになっております。\n<br>\n「さあ　<pc>さま……。\n　賢者の方々に連絡を取り　アンルシアさまに\n　破邪の秘技を　会得させるのです。": 
-    "<attr><feel_normal_one><end_attr>If you examine the chairs within here, you shall be\nable to call a sage.\n<br>\nIn the green chair, Master Broggen. The blue chair is\nMaster Eidos. The yellow chair is Master Hollow's seat.\n<br>\nHowever, being that the sages are busy, they may not\nbe able to answer when you call.\n<br>\nAlso, while you are undergoing one of the sage's trials,\nit has been decided that you cannot contact another\nsage...\n<br>\n...Now then, <pc>, contact the sages to have\nLady Anlucia master the Secret Crushing Evil\nTechnique."
+    "<attr><feel_normal_one><end_attr>If you examine the chairs within here, you shall be able\nto call a sage.\n<br>\nIn the green chair, Master Broggen. The blue chair is\nMaster Eidos. The yellow chair is Master Hollow's seat.\n<br>\nHowever, being that the sages are busy, they may not\nbe able to answer when you call.\n<br>\nAlso, while you are undergoing one of the sage's trials,\nit has been decided that you cannot contact another\nsage...\n<br>\n...Now then, <pc>, contact the sages to have\nLady Anlucia master the Secret Crushing Evil\nTechnique."
   },
   "78900": {
     "<attr><feel_normal_one><end_attr>「どうやら　<pc>さまは\n　賢者さまの試練を　受けられたご様子。\n<br>\n「それでこそ　勇者の盟友……。\n　さあ　勇者姫アンルシアさまとともに\n　試練を果たすのです。": 
-    ""
+    "<attr><feel_normal_one><end_attr>Could it be, <pc>, that you received the\nSage's trial. As expected of the Hero's Guiding Ally...\n<br>\nNow then, alongside Hero Princess Anlucia, accomplish\nthe trial."
   },
   "78901": {
     "<attr><feel_normal_one><end_attr>「ご苦労さまでした　<pc>さま。\n　他の賢者の方からの　破邪の秘技の試練も\n　この調子で　果たしてきてください。": 
-    ""
+    "<attr><feel_normal_one><end_attr>Thank you for your hard work, <pc>. Please\naccomplish the other Sages' trials, as expected."
   },
   "78902": {
     "<attr><feel_normal_one><end_attr>「アンルシアさまが　すべての破邪の秘技を\n　会得なされたのですね。\n<br>\n「勇者の盟友としての　<pc>さまの\n　ご活躍が　あったればこそ……。　どうか\n　今後も　アンルシアさまを　お助けください。": 

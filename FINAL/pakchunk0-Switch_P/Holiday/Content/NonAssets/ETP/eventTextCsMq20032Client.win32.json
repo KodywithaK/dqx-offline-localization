@@ -37,7 +37,7 @@
   },
   "26333": {
     "クエストを　依頼されました。\nこのクエストを　受けますか？\n<select>\nうける\nやめる\n<select_end><close>":
-    "You have been asked to do a quest.\nDo you accept?\n<select>\nAccept\nDecline\n<select_end><close>"
+    "You have been asked to do a quest. Do you accept?\n<select>\nAccept\nDecline\n<select_end><close>"
   },
   "64283": {
     "<voice 00685_00064283><start_lip_sync m14603 _normal m00001>「おおっ。ありがたや！\n　さすがは　ワシの命の恩人じゃ。\n　では　よろしく頼んだぞよ。<stop_lip_animation m14603 CLOSE_MOUTH>":
@@ -49,7 +49,7 @@
   },
   "26332": {
     "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>":
-    "Quest ''<%sEV_QUEST_NAME>'' accepted.<me 74>"
+    "Quest \"<%sEV_QUEST_NAME>\" accepted.<me 74>"
   },
   "64285": {
     "<voice 00910_00064285><start_lip_sync m14603 _normal m00001>「おお。ありがたや……と　言いたいところじゃが\n　おぬし　他の者からの頼まれごとで\n　手が　いっぱいのようじゃな。<stop_lip_animation m14603 CLOSE_MOUTH>":

@@ -2,8 +2,8 @@
 
 >[!IMPORTANT]
 > ### Steam
-> - Copy `DRAGON QUEST X OFFLINE` folder into Steam's games folder. (e.g.):
->   - `"<SteamDir>\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\pakchunk0-WindowsNoEditor_{ModName}_{ModVersion}_P.(pak|ucas|utoc)"`
+> - Copy `pakchunk0-WindowsNoEditor_{ModName}_{ModVersion}_P.(pak|ucas|utoc)` into Steam's games folder. (e.g.):
+>   - `"C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE< Demo>\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_{ModName}_{ModVersion}_P.(pak|ucas|utoc)"`
 >
 > ### Switch
 > - SimpleModManager: 
