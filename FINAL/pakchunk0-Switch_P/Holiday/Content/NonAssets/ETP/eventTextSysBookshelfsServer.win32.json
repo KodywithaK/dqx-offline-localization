@@ -1945,26 +1945,28 @@
     "なんと　目の前の扉が開いた！<se_nots map_common 50>": "My God, the door opened right in front\nof me!<se_nots map_common 50>"
   },
   "92249": {
-    "扉は　かたく　閉ざされている。<br>\n扉の上にある瞳が\n<pc>を　見つめている。<br>\nここで　特別な踊りを踊れば\n何かが起こりそうだ。": "The door is tightly closed. The eyes\nabove the door are staring\n<pc>. If I dance a special\n<br>\ndance here, something is going to\nhappen."
+    "扉は　かたく　閉ざされている。\n<br>\n扉の上にある瞳が\n<pc>を　見つめている。\n<br>\nここで　特別な踊りを踊れば\n何かが起こりそうだ。": 
+    "The door is tightly shut. Above the door is an eye\nthat is fixed upon <pc>. If you perform a\nspecial dance here, something should happen."
   },
   "92250": {
     "扉は　かたく　閉ざされている。": 
-    "The door is locked up tight."
+    "The door is tightly shut."
   },
   "92251": {
-    "<pc>は　石碑に刻まれた文字を読んだ。<br>\n<center>審判の瞳　そなえたる扉に\n<center>供物たる舞踏を捧げよ。\n<center>さすれば　真実への道　開かれん。": "<pc> read the inscription on\nthe stone monument. The eyes of\njudgment. Offer the dance as an\n<br>\noffering to the door that you have\nprepared. If you do so, the path to\nthe true fruit will be opened."
+    "<pc>は　石碑に刻まれた文字を読んだ。\n<br>\n<center>審判の瞳　そなえたる扉に\n<center>供物たる舞踏を捧げよ。\n<center>さすれば　真実への道　開かれん。": "<pc> read the inscription on\nthe stone monument. The eyes of\njudgment. Offer the dance as an\n<br>\noffering to the door that you have\nprepared. If you do so, the path to\nthe true fruit will be opened."
   },
   "92252": {
-    "<pc>は　石碑に刻まれた文字を読んだ。<br>\n<center>太陽の石室を目指す者よ\n<center>勇気をもちて　宙空へと踏み出せ。\n<center>さすれば　道は開かれん。": "<pc> read the words engraved\non the stone monument. Those who aim\nfor the Sun Chamber, take courage and\n<br>\nstep out into the air. Then the way\nwill be opened for you."
+    "<pc>は　石碑に刻まれた文字を読んだ。\n<br>\n<center>太陽の石室を目指す者よ\n<center>勇気をもちて　宙空へと踏み出せ。\n<center>さすれば　道は開かれん。": "<pc> read the words engraved\non the stone monument. Those who aim\nfor the Sun Chamber, take courage and\n<br>\nstep out into the air. Then the way\nwill be opened for you."
   },
   "92253": {
-    "<pc>は　石碑に刻まれた文字を読んだ。<br>\n<center>太陽の石室を目指す者よ\n<center>供物たる舞踏を　審判の瞳に捧げよ。\n<center>帰らんと欲するなら　宙空へと踏み出せ。": "<pc> read the inscription on\nthe stone monument. Those who aim at\nthe Sun Chamber, offer your dance\n<br>\nofferings to the eyes of judgment. If\nyou desire to return, step out into\nthe air."
+    "<pc>は　石碑に刻まれた文字を読んだ。\n<br>\n<center>太陽の石室を目指す者よ\n<center>供物たる舞踏を　審判の瞳に捧げよ。\n<center>帰らんと欲するなら　宙空へと踏み出せ。": "<pc> read the inscription on\nthe stone monument. Those who aim at\nthe Sun Chamber, offer your dance\n<br>\nofferings to the eyes of judgment. If\nyou desire to return, step out into\nthe air."
   },
   "92254": {
-    "<pc>は　石碑に刻まれた文字を読んだ。<br>\n<center>ここより　踏み出す者\n<center>やがて　太陽の石室へと至らん。": "<pc> read the inscription on\nthe stone monument. Those who step out\nfrom here will soon reach the Sun\n<br>\nChamber."
+    "<pc>は　石碑に刻まれた文字を読んだ。\n<br>\n<center>ここより　踏み出す者\n<center>やがて　太陽の石室へと至らん。": "<pc> read the inscription on\nthe stone monument. Those who step out\nfrom here will soon reach the Sun\n<br>\nChamber."
   },
   "92255": {
-    "<pc>は　石碑に刻まれた文字を読んだ。<br>\n<center>夜明けの間\n<center>日いずる方角の棺に\n<center>石室の封印を打ち破るチカラは眠らん": "<pc> read the inscription on\nthe stone monument. Dawn RoomThe power\nto break the seal of the stone room\n<br>\nsleeps in the coffin in the direction\nof the rising sun."
+    "<pc>は　石碑に刻まれた文字を読んだ。\n<br>\n<center>夜明けの間\n<center>日いずる方角の棺に\n<center>石室の封印を打ち破るチカラは眠らん": 
+    "<pc> read the inscription on the obelisk.\n<br>\n<center>Within the sarcophagus in the Dawn Room lies\nthe power to break the seal upon this chamber."
   },
   "92319": {
     "フタの開いた　棺がある……。\nどうやら　中に　スイッチがあるようだ。\nスイッチを　押してみますか？<yesno><close>": "There is a coffin with an open lid. It\nlooks like there is a switch inside.<yesno><close>"
@@ -1979,7 +1981,8 @@
     "扉の上にある瞳が　<pc>を\n穴の開きそうなほど　見つめている。": "The eyes above the door are staring\n<pc> like they're about to\nburn a hole through it."
   },
   "93036": {
-    "扉の上にある瞳が　<pc>を\n厳しい目で　見つめている。": "The eyes above the door stare at\n<pc> sternly."
+    "扉の上にある瞳が　<pc>を\n厳しい目で　見つめている。": 
+    "The eye above the door stares intensely upon\n<pc>."
   },
   "93037": {
     "扉の上にある瞳が　閉じている。\nどうやら　この扉は開かないようだ。": "The eyes above the door are closed.\nApparently, this door will not open."
@@ -2001,7 +2004,7 @@
     "This elevator appears to take you to either the first\nfloor of Gran Zedora Castle or Gran Zedora Harbor.\nWhich way will you go?\n<select>\nGran Zedora Castle (1F)\nGran Zedora Harbor\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "94009": {
-    "扉は　かたく　閉ざされている。<br>\n扉に　そなえつけられた瞳が\n<pc>を　見つめている。<br>\nここで　特別な踊りを踊れば\n何かが起こりそうだ。": "The door is tightly closed. If I dance\na special dance here, something will\nhappen."
+    "扉は　かたく　閉ざされている。\n<br>\n扉に　そなえつけられた瞳が\n<pc>を　見つめている。\n<br>\nここで　特別な踊りを踊れば\n何かが起こりそうだ。": "The door is tightly closed. If I dance\na special dance here, something will\nhappen."
   },
   "94010": {
     "扉に　そなえつけられた瞳が　<pc>を\n品定めするような目で　見つめている。": "The eyes that are set on the door are\nstaring at <pc> as if they\nare judging him."
@@ -2028,13 +2031,14 @@
     "古い石碑のようなものがある。": "There is an old stone monument."
   },
   "94230": {
-    "扉に　そなえつけられた瞳が\n<pc>を　見つめている。<br>\nここで　特別なしぐさをすれば\n何かが起こりそうだ。": "Eyes fixed on the door are staring at\n<pc>. If I make a special\nnote here, something will happen."
+    "扉に　そなえつけられた瞳が\n<pc>を　見つめている。\n<br>\nここで　特別なしぐさをすれば\n何かが起こりそうだ。": "Eyes fixed on the door are staring at\n<pc>. If I make a special\nnote here, something will happen."
   },
   "94231": {
     "瞳のようなものが\n<pc>を　見つめている。": "Something like an eye is staring at\n<pc>."
   },
   "94232": {
-    "なんと　目の前の扉が開いた！": "My God, the door opened right in front\nof me!"
+    "なんと　目の前の扉が開いた！": 
+    "What's this, before your eyes, the door opened!"
   },
   "94233": {
     "扉に　そなえつけられた瞳が　<pc>を\n冷ややかな目で　見つめている。": "The eyes that are set in the doorway\nare staring at <pc> with cold\neyes."
@@ -2046,10 +2050,10 @@
     "どうやら　石碑には\n瞳のついた　特殊な扉を開く動作について\n書かれているようだ。": "Apparently the stone monument\ndescribes the operation of opening a\nspecial door with pupils."
   },
   "94236": {
-    "<pc>は　石碑を読んでみた。<br>\nどうやら　石碑には　\n瞳のついた　特殊な扉を開く動作について\n書かれているようだ。<br>\nしぐさ『解放の祈り』を　覚えた！<me_71>": "<pc> read the stone monument.\nApparently, stone monument describes\nthe action of opening a special door\n<br>\nwith a pupil. I memorized the quote\n''Prayer of liberation''!<me_71>"
+    "<pc>は　石碑を読んでみた。\n<br>\nどうやら　石碑には　\n瞳のついた　特殊な扉を開く動作について\n書かれているようだ。\n<br>\nしぐさ『解放の祈り』を　覚えた！<me_71>": "<pc> read the stone monument.\nApparently, stone monument describes\nthe action of opening a special door\n<br>\nwith a pupil. I memorized the quote\n''Prayer of liberation''!<me_71>"
   },
   "94237": {
-    "我ら　この地の扉に　封印をほどこしたり。\n封印を解きたくば　審判の瞳の前にて\nカギとなる所作を行いたまえ。<br>\nカギとなる所作は　隠されし石碑に記す。\n汝　この場に至った勇気を　忘るることなかれ。": "We have placed a seal on the door of\nthis land. If you wish to open the\nseal, perform the act of the key in\n<br>\nfront of the eyes of judgement. The\nkey is written in the hidden stone\nmonument. Do not forget the courage\n<br>\nthat brought you to this place."
+    "我ら　この地の扉に　封印をほどこしたり。\n封印を解きたくば　審判の瞳の前にて\nカギとなる所作を行いたまえ。\n<br>\nカギとなる所作は　隠されし石碑に記す。\n汝　この場に至った勇気を　忘るることなかれ。": "We have placed a seal on the door of\nthis land. If you wish to open the\nseal, perform the act of the key in\n<br>\nfront of the eyes of judgement. The\nkey is written in the hidden stone\nmonument. Do not forget the courage\n<br>\nthat brought you to this place."
   },
   "96634": {
     "我は　この地の門に　魔鳥の封印を施したり。\n飢えたる魔鳥の番人が　闇の魂で満たされし時\n転移の門は　道を開かん。": "I have sealed the gates of this land\nwith the seal of the demon bird. When\nthe hungry guardians of the demon\n<br>\nbirds are filled with dark souls, the\ngates of transmigration will open."
@@ -2166,7 +2170,7 @@
     "茨に囲まれた妖精たちが　おびえているようだ。": "The fairies surrounded by thorns look\nfrightened."
   },
   "99062": {
-    "雷雲に覆われた空の下　鳥カゴに囚われた女神が\n茨に囲まれ　苦悶の表情を浮かべている。<br>\n絵からは　得体の知れない\nまがまがしさが　ただよっている……。<br>\n絵の中に　飛び込みますか？<yesno><close>": "Under a sky covered with\nthunderclouds, a goddess trapped in a\nbirdcage, surrounded by thorns, looks\n<br>\nin anguish. The picture is filled with\nan unexplainable haunting feeling.\nWould you like to dive into the\n<br>\npicture?<yesno><close>"
+    "雷雲に覆われた空の下　鳥カゴに囚われた女神が\n茨に囲まれ　苦悶の表情を浮かべている。\n<br>\n絵からは　得体の知れない\nまがまがしさが　ただよっている……。\n<br>\n絵の中に　飛び込みますか？<yesno><close>": "Under a sky covered with\nthunderclouds, a goddess trapped in a\nbirdcage, surrounded by thorns, looks\n<br>\nin anguish. The picture is filled with\nan unexplainable haunting feeling.\nWould you like to dive into the\n<br>\npicture?<yesno><close>"
   },
   "99063": {
     "光に包まれた　清らかな女神が　ほほえんでいる。": "The goddess of purity, wrapped in\nlight, is smiling."
@@ -2178,25 +2182,25 @@
     "雷雲が覆う花畑で　漆黒の蝶が舞っている。": "Jet-black butterflies are dancing in a\nflower field covered with\nthunderclouds."
   },
   "99066": {
-    "窓辺から飛び立つ　鳥が描かれている。<br>\n絵の中に　飛び込みますか？<yesno><close>": "It depicts a bird flying away from a\nwindow. Would you like to fly into the\npainting?<yesno><close>"
+    "窓辺から飛び立つ　鳥が描かれている。\n<br>\n絵の中に　飛び込みますか？<yesno><close>": "It depicts a bird flying away from a\nwindow. Would you like to fly into the\npainting?<yesno><close>"
   },
   "99067": {
-    "カゴの中に囚われた　鳥が描かれている。<br>\n絵からは　得体の知れないチカラが\nあふれている……。<br>\n絵の中に　飛び込みますか？<yesno><close>": "A bird trapped in a cage is depicted.\nThe picture is overflowing with an\nunexplainable power. Would you like to\n<br>\ndive into the picture?<yesno><close>"
+    "カゴの中に囚われた　鳥が描かれている。\n<br>\n絵からは　得体の知れないチカラが\nあふれている……。\n<br>\n絵の中に　飛び込みますか？<yesno><close>": "A bird trapped in a cage is depicted.\nThe picture is overflowing with an\nunexplainable power. Would you like to\n<br>\ndive into the picture?<yesno><close>"
   },
   "99068": {
-    "妖精たちが　楽しそうに飛び回っている。<br>\n絵の中に　飛び込みますか？<yesno><close>": "The fairies are happily flying around.\nWould you like to jump into the\npainting?<yesno><close>"
+    "妖精たちが　楽しそうに飛び回っている。\n<br>\n絵の中に　飛び込みますか？<yesno><close>": "The fairies are happily flying around.\nWould you like to jump into the\npainting?<yesno><close>"
   },
   "99069": {
-    "茨に囲まれた妖精たちが　おびえているようだ。<br>\n絵からは　得体の知れないチカラが\nあふれている……。<br>\n絵の中に　飛び込みますか？<yesno><close>": "The fairies surrounded by thorns look\nfrightened. The picture is overflowing\nwith an unexplainable power. Would you\n<br>\nlike to dive into the picture?<yesno><close>"
+    "茨に囲まれた妖精たちが　おびえているようだ。\n<br>\n絵からは　得体の知れないチカラが\nあふれている……。\n<br>\n絵の中に　飛び込みますか？<yesno><close>": "The fairies surrounded by thorns look\nfrightened. The picture is overflowing\nwith an unexplainable power. Would you\n<br>\nlike to dive into the picture?<yesno><close>"
   },
   "99070": {
-    "穏やかな花畑で　青い蝶が舞っている。<br>\n絵の中に　飛び込みますか？<yesno><close>": "A blue butterfly is dancing in a calm\nflower field. Would you like to dive\ninto the painting?<yesno><close>"
+    "穏やかな花畑で　青い蝶が舞っている。\n<br>\n絵の中に　飛び込みますか？<yesno><close>": "A blue butterfly is dancing in a calm\nflower field. Would you like to dive\ninto the painting?<yesno><close>"
   },
   "99071": {
-    "雷雲が覆う花畑で　漆黒の蝶が舞っている。<br>\n絵からは　得体の知れないチカラが\nあふれている……。<br>\n絵の中に　飛び込みますか？<yesno><close>": "A jet-black butterfly is dancing in a\nflower field covered with\nthunderclouds. The picture is\n<br>\noverflowing with an unexplainable\npower. Would you like to dive into the\npicture?<yesno><close>"
+    "雷雲が覆う花畑で　漆黒の蝶が舞っている。\n<br>\n絵からは　得体の知れないチカラが\nあふれている……。\n<br>\n絵の中に　飛び込みますか？<yesno><close>": "A jet-black butterfly is dancing in a\nflower field covered with\nthunderclouds. The picture is\n<br>\noverflowing with an unexplainable\npower. Would you like to dive into the\npicture?<yesno><close>"
   },
   "99072": {
-    "光に包まれた　清らかな女神が　ほほえんでいる。\nどこからともなく　声が聞こえてくる……。<br>\n扉の先に向かい　展示されたる絵の中から\n真実の欠片を　拾いあつめよ。<br>\n扉に施された封印が　解かれたようだ！<se_nots map_common 83>": "A goddess of purity, wrapped in light,\nis smiling. A voice is heard from\nnowhere. Go to the door and pick up\n<br>\nthe pieces of true fruit from the\npaintings on display. It seems that\nthe seal on the door has been broken!<se_nots map_common 83>"
+    "光に包まれた　清らかな女神が　ほほえんでいる。\nどこからともなく　声が聞こえてくる……。\n<br>\n扉の先に向かい　展示されたる絵の中から\n真実の欠片を　拾いあつめよ。\n<br>\n扉に施された封印が　解かれたようだ！<se_nots map_common 83>": "A goddess of purity, wrapped in light,\nis smiling. A voice is heard from\nnowhere. Go to the door and pick up\n<br>\nthe pieces of true fruit from the\npaintings on display. It seems that\nthe seal on the door has been broken!<se_nots map_common 83>"
   },
   "99076": {
     "額縁の向こうに　ぼんやりと　\n最初の広間が　見える。\n絵の中に　飛び込みますか？<yesno><close>": "Beyond the frame, I can vaguely see\nthe first hall. Would you like to dive\ninto the picture?<yesno><close>"
