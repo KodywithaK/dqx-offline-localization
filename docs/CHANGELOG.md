@@ -18,7 +18,9 @@
 
 <details>
 
-<!-- |2024/12/03|`eventTextIeR3SuisFldrServer.win32`<br>`eventTextIeR2CocoTownrServer.win32`<br>`eventTextIeR2MonsFldrServer.win32`<br>`STT_QuestListDetail`<br>`STT_PT_Talk`<br>`STT_Quest_ItemGet`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`|(261) Secret Hot Spring Flower {Main Story}| -->
+<!--
+|2024/12/03|`eventTextIeR3SuisFldrServer.win32`<br>`eventTextIeR2CocoTownrServer.win32`<br>`eventTextIeR2MonsFldrServer.win32`<br>`STT_QuestListDetail`<br>`STT_PT_Talk`<br>`STT_Quest_ItemGet`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`|(261) Secret Hot Spring Flower {Main Story}|
+-->
 |Date|File|Comment(s)|
 |:-:|:--|:--|
 |2024/12/23|`eventTextCsMq20191Client.win32`<br>`eventTextIeR2GranCastrServer.win32`<br>`eventTextIeR2GranScrtrServer.win32`<br>`eventTextIeG1RackTownServer.win32`<br>`eventTextIeW2JureTownServer.win32`<br>`STT_QuestListDetail`<br>`STT_PT_Talk`<br>`STT_Quest_ItemGet`<br>`STT_DaijinamonoItem`<br>`STT_UIDouguSys`|(272) Gathering! The Crown of Wisdom {Main Story}|

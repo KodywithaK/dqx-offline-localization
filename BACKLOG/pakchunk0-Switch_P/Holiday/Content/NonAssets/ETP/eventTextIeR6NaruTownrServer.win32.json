@@ -21,43 +21,43 @@
   },
   "96245": {
     "「これを　あたしに　くれるのかい？\n　……そういえば　前のが壊れてから\n　使ってなかったねえ。ちょっと　失礼するよ。": 
-    "Can you give this to me? I haven't\nused it since the last one broke. If\nyou'll excuse me for a moment."
+    "YOU'RE GIVING THIS TO ME, YEAH?...\n<br>\nCOME TO THINK OF IT I HAVEN'T USED ONE\nSINCE THE LAST ONE BROKE, HAVE I.\nJUST A MOMENT, PLEASE EXCUSE ME."
   },
   "96246": {
     "<attr><feel_happy_lv1><end_attr>「……はあ～　スッキリした！　耳かきは\n　<%sEV_QUE_NAME4>でやるのが　いちばんだね！\n　おや……？　まわりの音が　よく聞こえる……？\n<br>\n「イヤだよ！　あたしったら！\n　今まで　聞こえにくかったのは　ずっと\n　耳かきしてなかったからだわ！\n<br>\n「で……　あんたは？　へえ……。\n　リリオルさんと　<kyodai>さんの話を\n　聞きたいのかい。なつかしい名前を言うねえ。\n<br>\n「あの人たちが　グランゼドーラに来たのは\n　あたしが　５才の時だったよ。メラゾ熱が\n　町中に　まん延して　大変だった時さ。\n<br>\n「状況を見た　あのふたりは　見事な連携で\n　材料を集めてね。メラゾ熱のクスリを錬金して\n　苦しんでいた　あたしたちを救ってくれたんだ。\n<br>\n「父は　リリオルさんのことを知っていたからね。\n　うちに住んでもらって　<kyodai>さんの\n　植物の研究を　手伝ってあげたりしたんだよ。\n<br>\n「だけど　あやしい　サングラスの男が現れて……\n　リリオルさんたちは　出ていってしまったんだ。\n　今は　どこにいるかなんて　わからないよ。\n<br>\n「ずいぶん前に　一度だけ　近況を知らせる手紙が\n　送られてきたけど……　どこにやったかねえ？\n　ダンナにでも　聞いてみてくれないかね？": 
-    "<attr><feel_happy_lv1><end_attr>...Ah~ I feel so much better now! I guess\nit's best to use <%sEV_QUE_NAME4> for\near-picking! Hmm? Can you hear the sounds around you? I don't like it!\nOh, my God! I've been having trouble\nhearing because I haven't been cleaning my ears all this time! And\nyou? Heh. You want to hear about\nLyriol and <kyodai>? That's a familiar name. They came to Gran\nZedora when I was 5 years old, when\nthe Kafrizz Fever was sweeping through town. Seeing the situation, those two\nworked brilliantly together to gather\nall the ingredients, and saved us from suffering by refining the Kafrizz\nFever Medicine. My father knew Lyriol.\nHe invited her to live with us and helped her with her research on\n<kyodai> plants. But then the\nsuspicious Men's Sunglasses showed up and Lyriol and the others left. I\ndon't know where they are now. They\nsent me a letter once a long time ago to let me know what happened to them,\nbut I don't know where they went.\nMaybe you can ask your husband about it?"
+    "<attr><feel_happy_lv1><end_attr>...Haaa, refreshing! <%sEV_QUE_NAME4>es are the best\nearpicks! Oh yeah...? The nearby sounds, I can properly\nhear them...?\n<br>\nI don't like it! It's annoying, I tell you! Until\nnow, I've been having trouble hearing, because I\nhaven't had an earpick all this time!\n<br>\nAnd... You are? Huh... You want to hear about Lyriol\nand <kyodai>, yeah? There's some familiar\nnames, aren't they.\n<br>\nThey came to Gran Zedora when I was 5 years old.\nKafrizz Fever was sweeping through town, it was a\nterrible time.\n<br>\nSeeing the situation, those two's cooperation was a\nsight to see: gathering ingredients, you know.\n<br>\nThey alchemized the Kafrizz Fever cure, and saved\nall of us suffering from it.\n<br>\nMy father knew Lyriol, you know. He invited them to\nlive with us, and helped <kyodai> with their\nplant research.\n<br>\nHowever, some suspicious Sunglass-wearing guys showed\nup... Then Lyriol and them left. Now, I don't know\nwhere they are.\n<br>\nA super long time ago, they sent just one letter,\ntelling about how they were, but... I don't know what\nhappened to it.\n<br>\nMy husband though—try asking him, okay?"
   },
   "96247": {
     "ダイラに　<%sEV_QUE_NAME4>を　渡しますか？<yesno>\n<case 1><break>\n<case 2><close>\n<case_cancel><close>": 
-    "Do you want to give <%sEV_QUE_NAME4>\nto Daira?<yesno>\n<case 1><break>\n<case 2><close>\n<case_cancel><close>"
+    "Give Daira the <%sEV_QUE_NAME4>?<yesno>\n<case 1><break>\n<case 2><close>\n<case_cancel><close>"
   },
   "96248": {
     "<pc>は　ダイラに\n<%sEV_QUE_NAME4>を　渡した！": 
-    "<pc> gave Daira\n<%sev_que_name4>!"
+    "<pc> gave Daira the <%sEV_QUE_NAME4>!"
   },
   "98497": {
     "なんと　ダイラは\n<%sEV_QUE_NAME4>を　耳かきとして　使った！": 
-    "To my surprise, Daira used\n<%sEV_QUE_NAME4> as an ear bud!"
+    "What the—Daira used the <%sEV_QUE_NAME4> as an earpick!"
   },
   "96249": {
     "<attr><feel_think_one><end_attr>「妻のダイラに　聞きたいことがあるのですか？\n　しかし　今のダイラは　少々困った状態で……。\n　<%sEV_QUE_NAME4>があると　いいのですが。\n<br>\n「もし　よかったら　<%sEV_QUE_NAME4>を\n　お持ちいただけませんか？\n　そうしたら　きっと　妻から話が聞けますよ。": 
-    "<attr><feel_think_one><end_attr>Do you have a question for my wife,\nDaira? But now Daira is in a bit of a\nbind. I hope you have <%sEV_QUE_NAME4>.\n<br>\nIf you don't mind,\ncould you please bring\n<%sEV_QUE_NAME4> with you? I'm sure my wife would be happy to talk to you."
+    "<attr><feel_think_one><end_attr>You want to ask my wife, Daira, something? But, Daira\nis in a bit of a pickle right now... I hope you have\na <%sEV_QUE_NAME4>.\n<br>\nIf it's okay with you, could you please bring a\n<%sEV_QUE_NAME4> with you? Do that, and I'm sure my wife\nwill listen to you."
   },
   "96250": {
     "「妻のダイラに　聞きたい話があるのですか？\n　しかし　今のダイラは　少々困った状態で……。\n　<%sEV_QUE_NAME4>があると　いいのですが。\n<br>\n「おお！　<%sEV_QUE_NAME4>を\n　お持ちじゃないですか！　……では\n　それを　ダイラに　渡してやってください。": 
-    "You want to ask my wife, Daira,\nsomething? But Daira is in a bit of a\npickle right now. I hope you have <%sEV_QUE_NAME4>.\n<br>\nOh! You have <%sEV_QUE_NAME4>? Then please give it\nto Daira."
+    "You want to ask my wife, Daira, something? But, Daira\nis in a bit of a pickle right now... I hope you have\na <%sEV_QUE_NAME4>.\n<br>\nOoh! You have a <%sEV_QUE_NAME4>, don't you!... Then,\nplease give it to Daira."
   },
   "96251": {
     "「グランゼドーラに　メラゾ熱が　まん延した時\n　<kyodai>さんと　リリオルさんが協力して\n　クスリを錬金して　みんなを救ってくれたんだ。\n<br>\n「父は　リリオルさんのことを知っていたからね。\n　うちに住んでもらって　<kyodai>さんの\n　植物の研究を　手伝ってあげたりしたんだよ。\n<br>\n「だけど　あやしい　サングラスの男が現れて……\n　リリオルさんたちは　出ていってしまったんだ。\n　今は　どこにいるかなんて　わからないよ。\n<br>\n「ずいぶん前に　一度だけ　近況を知らせる手紙が\n　送られてきたけど……　どこにやったかねえ？\n　ダンナにでも　聞いてみておくれ。": 
-    "When Kafrizz Fever was spreading in\nGran Zedora, <kyodai> and Lyriol\nworked together to save everyone by refining drugs. My father knew Lyriol.\nHe invited her to live with us and\nhelped <kyodai> with his botanical research. But then the\nsuspicious Men's Sunglasses showed up\nand Lyriol and her friends left. I don't know where they are now. They\nsent me a letter once a long time ago\nto let me know what happened to them,\n<br>\nbut I don't know where they went. Ask\nyour husband."
+    "When Kafrizz Fever was sweeping through Gran Zedora,\nthose two's cooperation was a sight to see: gathering\ningredients, you know.\n<br>\nThey alchemized the Kafrizz Fever cure, and saved\nall of us suffering from it.\n<br>\nMy father knew Lyriol, you know. He invited them to\nlive with us, and helped <kyodai> with their\nplant research.\n<br>\nHowever, some suspicious Sunglass-wearing guys showed\nup... Then Lyriol and them left. Now, I don't know\nwhere they are.\n<br>\nA super long time ago, they sent just one letter,\ntelling about how they were, but... I don't know what\nhappened to it.\n<br>\nMy husband though—try asking him, okay?"
   },
   "96252": {
     "<pipipi_off>どこかの修道院が写った\n美しい島の写真が　飾られている。\n<br>\nレンダーシアのどこかに\n写真の風景と同じ場所がないか　探してみよう！": 
-    "<pipipi_off>There is a beautiful island photo of a\nmonastery somewhere in Lendersia.\nLet's try to find a place in Lendersia that is the same as the one in the\nphoto!"
+    "<pipipi_off>It's a pretty photograph, taken of a monastery\nsomewhere.\n<br>\nWe know that the photo is some place in Lendersia,\nso let's try looking around!"
   },
   "96254": {
     "「<kyodai>さんと　リリオルさんのことを\n　探していらっしゃるんですね。\n　私も　妻から　すこし聞いています。\n<br>\n「ひたいにイレズミを入れた　サングラスの男は\n　<kyodai>さんの研究のジャマをし\n　命まで　奪おうとしていたとか……。\n<br>\n「でも　その件は　落ち着いたようでね。\n　だいぶ前に　リリオルさんがくれた手紙には\n　そう書いてありましたよ。\n<br>\n「きれいな写真が　何枚か入っていたので \n　気に入った１枚を　今でも飾っているんですが\n　どこの風景かは　わからないんです。\n<br>\n「たしか　レンダーシアのどこかにある島だと\n　手紙には　書いてあった気がするのですが\n　地名は　思いだせませんね……。すみません。\n<br>\n「よければ　写真だけでも見ていってください。 \n　ベッドの横にある　棚の上に飾ってありますよ。": 
-    "I understand you are looking for\n<kyodai> and Lyriol. My wife has\ntold me a little about you. Men's Sunglasses, with its irezumi in its\nforehead, interfered with\n<kyodai>'s research and even tried to take his life. But the matter\nseems to have been settled. I read\nthat in a letter Lyriol gave me a long time ago. There were some beautiful\nphotographs in the box, and I still\nhave the one I liked, but I don't know where it was taken. I think the letter\nsaid it was an island somewhere in\nLendersia, but I can't recall the name of the place. I'm sorry. If you don't\nmind, I'd like you to take a look at a\ncopy of the letter.It's on the shelf next to my bed."
+    "You're searching for <kyodai> and Lyriol,\nare you. My wife told me a little about it too.\n<br>\nA man with a forehead tattoo and sunglasses was\ngetting in the way of <kyodai>'s research, and\nthreatening their lives or something...\n<br>\nBut, the matter seemed to have been settled, wasn't\nit. Quite some time back, Lyriol wrote us a letter,\nsaying that is was.\n<br>\nThere were who knows how many pretty photos in the\nbox, and we still display my favorite one, but where\nthe photograph was taken, I don't know.\n<br>\nI'm feel like the letter wrote that it was some\nisland in Lendersia somewhere, but the name of the\nplace, I can't recall, you know... Sorry.\n<br>\nIf you're okay with it, you can take a look the photo.\nIt's between the beds, on the shelf."
   },
   "97301": {
     "<pipipi_off>美しいマデ島の写真が　飾られている。\n写真には　マザー・リオーネと名を変えた\nリリオルに会った　修道院も写っている。": 
@@ -77,7 +77,7 @@
   },
   "96244": {
     "<attr><feel_angry_lv3><end_attr>「あ？　なんだって！？\n　なに言ってるか　全然聞こえないよ！\n　どいつも　こいつも　声が小さすぎだね！！": 
-    "<attr><feel_angry_lv3><end_attr>Huh? What did you say? I can't hear\nwhat you're saying at all! You're all\nspeaking too quietly!"
+    "<attr><feel_angry_lv3><end_attr>AH? WHAT DID YOU SAY!? I CAN'T HEAR\nWHATEVER YOU'RE SAYING AT ALL! YOU'RE\nALL SPEAKING TOO QUIETLY!!"
   },
   "78182": {
     "「昔　この町には　有名な錬金術師が\n　住んでいたらしくてさ。その錬金術師のことを\n　いまだに　聞きにくるヤツがいたりするんだ。\n<br>\n「でも　そいつが住んでいた家が　売られた時\n　焦げアトやらキズやら　ひどかったらしくてね。\n　……本当に　すごい錬金術師だったのかなあ？": 
@@ -93,11 +93,11 @@
   },
   "78185": {
     "<attr><feel_happy_lv1><end_attr>「ナルビアの町へ　ようこそ！\n　レンダーシア内海の　真ん中にある町だけど\n　普段は　あまり注目されない所なのよね。\n<br>\n「しばらくの間　誰も来なかったから\n　心配してたんだけど　また　島外から\n　人が来てくれるようになって　うれしいわ。\n<br>\n「町の砂浜を抜けた先にある\n　スレア海岸なんて　とても　景色がいい\n　おすすめの　観光スポットなのよ。": 
-    "<attr><feel_happy_lv1><end_attr>Welcome to Nalbia Town! Nalbia Town is\nlocated in the middle of the Lendersia\nInland Sea, but it doesn't usually get much attention. We were worried for a\nwhile that no one would come to\nNalbia, but we are happy to see that people from outside of the island are\ncoming to Nalbia again. The Surea\nCoast, just past the town's sandy beach, is a great place to visit and\nis very scenic."
+    "<attr><feel_happy_lv1><end_attr>Welcome to Nalbia! Nalbia is\nlocated in the middle of the Lendersia\nInland Sea, but it doesn't usually get much attention. We were worried for a\nwhile that no one would come to\nNalbia, but we are happy to see that people from outside of the island are\ncoming to Nalbia again. The Surea\nCoast, just past the town's sandy beach, is a great place to visit and\nis very scenic."
   },
   "98503": {
     "<attr><feel_happy_lv1><end_attr>「ナルビアの町へ　ようこそ！\n　レンダーシア内海の　真ん中にある町だけど\n　普段は　あまり注目されない所なのよね。\n<br>\n「しばらくの間　誰も来なかったから\n　心配してたんだけど　また　島外から\n　人が来てくれるようになって　うれしいわ。\n<br>\n「町の砂浜を抜けた先にある\n　スレア海岸なんて　とても　景色がいい\n　おすすめの　観光スポットなのよ。\n<br>\n「……ただし　そこに建ってる小屋には\n　近づかないほうが　いいかもね。\n　たいてい　怒鳴られるみたいだから。": 
-    "<attr><feel_happy_lv1><end_attr>Welcome to Nalbia Town! Nalbia Town is\nlocated in the middle of the Lendersia\nInland Sea, but it doesn't usually get much attention. We were worried for a\nwhile that no one would come to\nNalbia, but we are happy to see that people from outside of the island are\ncoming again. Surea Coast, just past\nthe town's sandy beach, is a great tourist spot with a beautiful view.\nHowever, you might want to stay away\nfrom the cabins that are built there.\n<br>\nThey usually yell at you."
+    "<attr><feel_happy_lv1><end_attr>Welcome to Nalbia! Nalbia is\nlocated in the middle of the Lendersia\nInland Sea, but it doesn't usually get much attention. We were worried for a\nwhile that no one would come to\nNalbia, but we are happy to see that people from outside of the island are\ncoming again. Surea Coast, just past\nthe town's sandy beach, is a great tourist spot with a beautiful view.\nHowever, you might want to stay away\nfrom the cabins that are built there.\n<br>\nThey usually yell at you."
   },
   "78186": {
     "「わしは　昔　かなりウデの立つ僧侶でのう。\n　天才錬金術師の　<kyodai>さんに見込まれ\n　一緒に　冒険したこともあるんじゃぞい！\n<br>\n「つねに　戦いの一歩先を読み　回復魔法で\n　<kyodai>さんのピンチを救う！\n　……あの頃の　わしは　輝いておったんじゃ！": 
@@ -157,11 +157,11 @@
   },
   "149752": {
     "『さまよえる錬金術師　１巻』という\n分厚い本が　置いてある……。\n<br>\nこの本は　読むのに\nかなりの時間が　かかりそうだが\n今　読んでみますか？<yesno><case 1><close><case 2><break><case_cancel><break>": 
-    "There is a bulky book titled, \"The Wandering\nAlchemist, Vol. 1\" on the shelf...\n<br>\nThis book is going to take quite a while to read,\nbut would you like to read it now?<yesno><case 1><close><case 2><break><case_cancel><break>"
+    "There is a bulky book titled, \"The Wandering Alchemist,\nVol. 1\" on the shelf...\n<br>\nThis book is going to take quite a while to read, but\nwould you like to read it now?<yesno><case 1><close><case 2><break><case_cancel><break>"
   },
   "149753": {
     "<pc>は\n『さまよえる錬金術師　１巻』を\n本棚に　戻した。": 
-    "<pc> put \"The Wandering Alchemist,\nVol. 1\" back on the bookshelf."
+    "<pc> put \"The Wandering Alchemist, Vol. 1\"\nback on the bookshelf."
   },
   "149754": {
     "<pc>は\n『さまよえる錬金術師　１巻』を\n読み始めた……。<se_nots joutyu map_close>\n<br>\nあれは　ひどい　雨の日のことだった……。\nいまだ　年若き修道士だった私は\n巡礼のため　世界中を　旅していた。\n<br>\n突然の雨から　逃れるため　大きな樹の根元へ\n駆け込んだ私は　先客に気づいた。\nそれが　謎めいた人物との　出会いだった。\n<br>\nさすらいの錬金術師　<kyodai>と名乗る\nその人物は　雨があがるまでの間　退屈しのぎにと\nその奇妙な生涯の　ほんの一部を聞かせてくれた。\n<br>\nこれから書く物語は　すべて\n<kyodai>から　聞いたものである。\nその長い旅は　サザミレ草原から　始まった……": 
@@ -169,7 +169,7 @@
   },
   "149755": {
     "このとき……<kyodai>は　自分の身に\n何が起きているのか　わからなかった。\n<br>\n故郷　エテーネの村が　魔物におそわれ\n自らも　あわや　生命を落とさんという瞬間\n……気がつけば　サザミレ草原にいたという。\n<br>\n生まれ故郷の　エテーネの村へ　帰りたい。\nその願いだけを抱き　<kyodai>は\n近くにある町……ナルビアの町を目指した。": 
-    "At that time... <kyodai> had no\nidea what was happening to him. At the\nmoment when his hometown, Ethene Village, was threatened by a monster\nand he himself was about to lose his\nlife, he found himself in Sazamire Prairie. I want to go back to my\nbirthplace, Ethene Village. With only\nthis wish in mind, <kyodai> set out for the nearby town of Nalbia\nTown."
+    "At that time... <kyodai> had no\nidea what was happening to him. At the\nmoment when his hometown, Ethene Village, was threatened by a monster\nand he himself was about to lose his\nlife, he found himself in Sazamire Prairie. I want to go back to my\nbirthplace, Ethene Village. With only\nthis wish in mind, <kyodai> set out for the nearby town of Nalbia."
   },
   "149756": {
     "イッショウという　この男と　出会わなければ\n自分の人生は　まるで違ったものになっただろうと\n<kyodai>は　語った。\n<br>\nイッショウの娘　リリオルのため　<kyodai>は\nメラゾ熱のクスリの　錬金を試みる……。": 
@@ -181,7 +181,7 @@
   },
   "149758": {
     "<center>『さまよえる錬金術師　２巻』へ　つづく": 
-    "Continue to \"The Wandering Alchemist,\nVol. 2"
+    "<center>To be continued in \"The Wandering Alchemist, Vol. 2\""
   },
   "96242": {
     "<attr><feel_think_lv1><end_attr>「うーん。困ったな……。\n　アレが　壊れてしまったから\n　近いうちに　なんとかしないと……。": 
