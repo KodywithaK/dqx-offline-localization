@@ -1,167 +1,222 @@
 {
   "102417": {
-    "<attr><feel_happy_one><end_attr>「あら……。どうしたの　<pc>？\n　もしかして　あそこにある小舟が　気になる？<yesno_nc><break>": "<attr><feel_happy_one><end_attr>「あら……。どうしたの　<pc>？\n　もしかして　あそこにある小舟が　気になる？<yesno_nc><break>"
+    "<attr><feel_happy_one><end_attr>「あら……。どうしたの　<pc>？\n　もしかして　あそこにある小舟が　気になる？<yesno_nc><break>": 
+    "<attr><feel_happy_one><end_attr>Ah... What is it, <pc>? Maybe you're thinking\nabout that canoe?<yesno_nc><break>"
   },
   "102418": {
-    "<attr><feel_happy_lv3><end_attr>「……なら　いいの。\n　あなたと　私たちさえ　いれば\n　他に　何も　いらないわよね……。\n<br>\n「ねえ　<pc>。\n　私のこと……見失わないでね。\n　不安なときは　名前を呼んでね……。\n<select>\nアンルシア\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>「……なら　いいの。\n　あなたと　私たちさえ　いれば\n　他に　何も　いらないわよね……。\n<br>\n「ねえ　<pc>。\n　私のこと……見失わないでね。\n　不安なときは　名前を呼んでね……。\n<select>\nアンルシア\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_happy_lv3><end_attr>「……なら　いいの。\n　あなたと　私たちさえ　いれば\n　他に　何も　いらないわよね……。\n<br>\n「ねえ　<pc>。\n　私のこと……見失わないでね。\n　不安なときは　名前を呼んでね……。\n<select>\nアンルシア\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_happy_lv3><end_attr>「……なら　いいの。\n　あなたと　私たちさえ　いれば\n　他に　何も　いらないわよね……。\n<br>\n「ねえ　<pc>。\n　私のこと……見失わないでね。\n　不安なときは　名前を呼んでね……。\n<select>\nアンルシア\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "102419": {
-    "<attr><feel_think_one><end_attr>「あの小舟に乗れば　この島から\n　出ることが　できるけど……。\n　私たちを置いて　出ていったりしないわよね？<yesno_nc><break>": "<attr><feel_think_one><end_attr>「あの小舟に乗れば　この島から\n　出ることが　できるけど……。\n　私たちを置いて　出ていったりしないわよね？<yesno_nc><break>"
+    "<attr><feel_think_one><end_attr>「あの小舟に乗れば　この島から\n　出ることが　できるけど……。\n　私たちを置いて　出ていったりしないわよね？<yesno_nc><break>": 
+    "<attr><feel_think_one><end_attr>You could use that canoe to leave this isle, but...\nYou don't want to leave us behind, do you?<yesno_nc><break>"
   },
   "102420": {
-    "<attr><feel_happy_lv3><end_attr>「うふっ　そうよね。\n　このまま　ずっと　私たちと\n　ここで　暮らしましょう……。\n<br>\n「ねえ　<pc>。\n　私のこと……見失わないでね。\n　不安なときは　名前を呼んでね……。\n<select>\nアンルシア\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>「うふっ　そうよね。\n　このまま　ずっと　私たちと\n　ここで　暮らしましょう……。\n<br>\n「ねえ　<pc>。\n　私のこと……見失わないでね。\n　不安なときは　名前を呼んでね……。\n<select>\nアンルシア\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_happy_lv3><end_attr>「うふっ　そうよね。\n　このまま　ずっと　私たちと\n　ここで　暮らしましょう……。\n<br>\n「ねえ　<pc>。\n　私のこと……見失わないでね。\n　不安なときは　名前を呼んでね……。\n<select>\nアンルシア\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_happy_lv3><end_attr>「うふっ　そうよね。\n　このまま　ずっと　私たちと\n　ここで　暮らしましょう……。\n<br>\n「ねえ　<pc>。\n　私のこと……見失わないでね。\n　不安なときは　名前を呼んでね……。\n<select>\nアンルシア\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "102421": {
-    "<attr><feel_sad_one><end_attr>「そんな　ひどい……。<bw_break>": "<attr><feel_sad_one><end_attr>「そんな　ひどい……。<bw_break>"
+    "<attr><feel_sad_one><end_attr>「そんな　ひどい……。<bw_break>": 
+    "<attr><feel_sad_one><end_attr>How cruel...<bw_break>"
   },
   "102422": {
-    "<attr><feel_happy_one><end_attr>「ねえ　考え直さない？\n　他のことなんか　忘れて　ずっと\n　私たちと　ここで　暮らしていきましょう？<yesno_nc><break>": "<attr><feel_happy_one><end_attr>「ねえ　考え直さない？\n　他のことなんか　忘れて　ずっと\n　私たちと　ここで　暮らしていきましょう？<yesno_nc><break>"
+    "<attr><feel_happy_one><end_attr>「ねえ　考え直さない？\n　他のことなんか　忘れて　ずっと\n　私たちと　ここで　暮らしていきましょう？<yesno_nc><break>": 
+    "<attr><feel_happy_one><end_attr>Hey, won't you reconsider? Forget about the other\nplaces, how about we all live here together forever?<yesno_nc><break>"
   },
   "102423": {
-    "<attr><feel_happy_lv3><end_attr>「あなたは　そう言ってくれると　信じていたわ。\n　そう……。あなたは　ずっと\n　ここで　私たちと　暮らしていればいいの……。\n<br>\n「ねえ　<pc>。\n　私のこと……見失わないでね。\n　不安なときは　名前を呼んでね……。\n<select>\nアンルシア\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>「あなたは　そう言ってくれると　信じていたわ。\n　そう……。あなたは　ずっと\n　ここで　私たちと　暮らしていればいいの……。\n<br>\n「ねえ　<pc>。\n　私のこと……見失わないでね。\n　不安なときは　名前を呼んでね……。\n<select>\nアンルシア\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_happy_lv3><end_attr>「あなたは　そう言ってくれると　信じていたわ。\n　そう……。あなたは　ずっと\n　ここで　私たちと　暮らしていればいいの……。\n<br>\n「ねえ　<pc>。\n　私のこと……見失わないでね。\n　不安なときは　名前を呼んでね……。\n<select>\nアンルシア\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_happy_lv3><end_attr>I knew you'd say that. So... あなたは　ずっと\n　ここで　私たちと　暮らしていればいいの……。\n<br>\nHey, <pc>, you won't... Miss me, will you.\nWhen I'm worried, I can call on you, can't I...\n<select>\nAnlucia\nDecline\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "102424": {
-    "<attr><feel_sad_one><end_attr>「そう……。これだけ言っても\n　あなたの心は　変わらないのね。\n<br>\n「……ここまで来れた　あなただもの。\n　どんな誘惑にも負けず　先を目指すのだろうと\n　思っていたわ。<bw_break>": "<attr><feel_sad_one><end_attr>「そう……。これだけ言っても\n　あなたの心は　変わらないのね。\n<br>\n「……ここまで来れた　あなただもの。\n　どんな誘惑にも負けず　先を目指すのだろうと\n　思っていたわ。<bw_break>"
+    "<attr><feel_sad_one><end_attr>「そう……。これだけ言っても\n　あなたの心は　変わらないのね。\n<br>\n「……ここまで来れた　あなただもの。\n　どんな誘惑にも負けず　先を目指すのだろうと\n　思っていたわ。<bw_break>": 
+    "<attr><feel_sad_one><end_attr>「そう……。これだけ言っても\n　あなたの心は　変わらないのね。\n<br>\n「……ここまで来れた　あなただもの。\n　どんな誘惑にも負けず　先を目指すのだろうと\n　思っていたわ。<bw_break>"
   },
   "103265": {
-    "<attr><feel_happy_lv3><end_attr>「なにかしら　<pc>？\n　私なら　ずっと　ここにいるわよ。\n<br>\n「あなたも　ずっと　ここにいてね。\n　そう……。何も考えることなく……。\n　永遠に…………。": "<attr><feel_happy_lv3><end_attr>「なにかしら　<pc>？\n　私なら　ずっと　ここにいるわよ。\n<br>\n「あなたも　ずっと　ここにいてね。\n　そう……。何も考えることなく……。\n　永遠に…………。"
+    "<attr><feel_happy_lv3><end_attr>「なにかしら　<pc>？\n　私なら　ずっと　ここにいるわよ。\n<br>\n「あなたも　ずっと　ここにいてね。\n　そう……。何も考えることなく……。\n　永遠に…………。": 
+    "<attr><feel_happy_lv3><end_attr>I wonder why, <pc>? If it was for me, you'd\nstay forever.\n<br>\nAnd you'll be here forever, won't you. So...\nWithout thinking about anything else... For eternity......"
   },
   "113231": {
-    "<attr><feel_happy_one><end_attr>「……私たちは　あなたを\n　引き止めるために作られた　ただのまぼろし。\n<br>\n「でも　皆　あなたと　縁のある……\n　或いは　これから　縁を結ぶ人たちよ。\n　あなたという運命に導かれて　ここに現れたの。\n<br>\n「……さあ　行きなさい　<pc>。\n　あなたには　多くの人の未来が\n　託されていることを　忘れてはなりません……。": "<attr><feel_happy_one><end_attr>「……私たちは　あなたを\n　引き止めるために作られた　ただのまぼろし。\n<br>\n「でも　皆　あなたと　縁のある……\n　或いは　これから　縁を結ぶ人たちよ。\n　あなたという運命に導かれて　ここに現れたの。\n<br>\n「……さあ　行きなさい　<pc>。\n　あなたには　多くの人の未来が\n　託されていることを　忘れてはなりません……。"
+    "<attr><feel_happy_one><end_attr>「……私たちは　あなたを\n　引き止めるために作られた　ただのまぼろし。\n<br>\n「でも　皆　あなたと　縁のある……\n　或いは　これから　縁を結ぶ人たちよ。\n　あなたという運命に導かれて　ここに現れたの。\n<br>\n「……さあ　行きなさい　<pc>。\n　あなたには　多くの人の未来が\n　託されていることを　忘れてはなりません……。": 
+    "<attr><feel_happy_one><end_attr>「……私たちは　あなたを\n　引き止めるために作られた　ただのまぼろし。\n<br>\nBut, everyone, your relationship with them... 或いは　これから　縁を結ぶ人たちよ。\n　あなたという運命に導かれて　ここに現れたの。\n<br>\n...Come on, don't go, <pc>. You have many\npeople's futures relying on you, don't forget that..."
   },
   "102425": {
-    "<attr><feel_normal_lv3><end_attr>「よっ　<pc>。\n　アンタのこと　待ってたんだ。\n　これからは　ずっと　ここに　いられるんだろ？\n<br>\n「なーに。余計な心配は　いらねえぜ。\n　アンタは　細けぇことは　考えずに\n　俺たちの隣で　ただ笑っとけば　いいんだよ！\n<br>\n「ん？　おいおい　もしかして\n　俺の名前　忘れちまったか？\n　１文字目は　デ。最後は　ゴ　だぜ？\n<select>\nディエゴ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_normal_lv3><end_attr>「よっ　<pc>。\n　アンタのこと　待ってたんだ。\n　これからは　ずっと　ここに　いられるんだろ？\n<br>\n「なーに。余計な心配は　いらねえぜ。\n　アンタは　細けぇことは　考えずに\n　俺たちの隣で　ただ笑っとけば　いいんだよ！\n<br>\n「ん？　おいおい　もしかして\n　俺の名前　忘れちまったか？\n　１文字目は　デ。最後は　ゴ　だぜ？\n<select>\nディエゴ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_normal_lv3><end_attr>「よっ　<pc>。\n　アンタのこと　待ってたんだ。\n　これからは　ずっと　ここに　いられるんだろ？\n<br>\n「なーに。余計な心配は　いらねえぜ。\n　アンタは　細けぇことは　考えずに\n　俺たちの隣で　ただ笑っとけば　いいんだよ！\n<br>\n「ん？　おいおい　もしかして\n　俺の名前　忘れちまったか？\n　１文字目は　デ。最後は　ゴ　だぜ？\n<select>\nディエゴ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_normal_lv3><end_attr>「よっ　<pc>。\n　アンタのこと　待ってたんだ。\n　これからは　ずっと　ここに　いられるんだろ？\n<br>\n「なーに。余計な心配は　いらねえぜ。\n　アンタは　細けぇことは　考えずに\n　俺たちの隣で　ただ笑っとけば　いいんだよ！\n<br>\n「ん？　おいおい　もしかして\n　俺の名前　忘れちまったか？\n　１文字目は　デ。最後は　ゴ　だぜ？\n<select>\nディエゴ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "103266": {
-    "<attr><feel_normal_lv3><end_attr>「ハハッ　正解だ！\n　ま　名前なんか　呼ばなくても\n　俺は　アンタから　離れたりしねえよ。\n<br>\n「アンタが　俺から　離れるのもダメだ。\n　ずっと　ここに　いるんだぜ？": "<attr><feel_normal_lv3><end_attr>「ハハッ　正解だ！\n　ま　名前なんか　呼ばなくても\n　俺は　アンタから　離れたりしねえよ。\n<br>\n「アンタが　俺から　離れるのもダメだ。\n　ずっと　ここに　いるんだぜ？"
+    "<attr><feel_normal_lv3><end_attr>「ハハッ　正解だ！\n　ま　名前なんか　呼ばなくても\n　俺は　アンタから　離れたりしねえよ。\n<br>\n「アンタが　俺から　離れるのもダメだ。\n　ずっと　ここに　いるんだぜ？": 
+    "<attr><feel_normal_lv3><end_attr>Hahah, right answer! ま　名前なんか　呼ばなくても\n　俺は　アンタから　離れたりしねえよ。\n<br>\n「アンタが　俺から　離れるのもダメだ。\n　ずっと　ここに　いるんだぜ？"
   },
   "102426": {
-    "<attr><feel_happy_lv3><end_attr>「<pc>さま　本当に\n　私たちと　一緒に暮らしてくれるんだよね。\n<br>\n「私　いっぱい　がんばるよ。\n　<pc>さまのために\n　なんだって　しちゃうんだから！\n<br>\n「ねえ　<pc>さま。\n　よかったら　私の名前……\n　ううん　やっぱり　なんでもない！\n<select>\nフウラ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>「<pc>さま　本当に\n　私たちと　一緒に暮らしてくれるんだよね。\n<br>\n「私　いっぱい　がんばるよ。\n　<pc>さまのために\n　なんだって　しちゃうんだから！\n<br>\n「ねえ　<pc>さま。\n　よかったら　私の名前……\n　ううん　やっぱり　なんでもない！\n<select>\nフウラ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_happy_lv3><end_attr>「<pc>さま　本当に\n　私たちと　一緒に暮らしてくれるんだよね。\n<br>\n「私　いっぱい　がんばるよ。\n　<pc>さまのために\n　なんだって　しちゃうんだから！\n<br>\n「ねえ　<pc>さま。\n　よかったら　私の名前……\n　ううん　やっぱり　なんでもない！\n<select>\nフウラ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_happy_lv3><end_attr>「<pc>さま　本当に\n　私たちと　一緒に暮らしてくれるんだよね。\n<br>\n「私　いっぱい　がんばるよ。\n　<pc>さまのために\n　なんだって　しちゃうんだから！\n<br>\n「ねえ　<pc>さま。\n　よかったら　私の名前……\n　ううん　やっぱり　なんでもない！\n<select>\nフウラ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "103267": {
-    "<attr><feel_happy_lv3><end_attr>「は～い　<pc>さま。\n　私を呼んだよね？\n<br>\n「別に　用事なんかなくたって\n　いつでも　私の名前を呼んでくれていいよ。\n　だって　うれしいもん！": "<attr><feel_happy_lv3><end_attr>「は～い　<pc>さま。\n　私を呼んだよね？\n<br>\n「別に　用事なんかなくたって\n　いつでも　私の名前を呼んでくれていいよ。\n　だって　うれしいもん！"
+    "<attr><feel_happy_lv3><end_attr>「は～い　<pc>さま。\n　私を呼んだよね？\n<br>\n「別に　用事なんかなくたって\n　いつでも　私の名前を呼んでくれていいよ。\n　だって　うれしいもん！": 
+    "<attr><feel_happy_lv3><end_attr>「は～い　<pc>さま。\n　私を呼んだよね？\n<br>\n「別に　用事なんかなくたって\n　いつでも　私の名前を呼んでくれていいよ。\n　だって　うれしいもん！"
   },
   "102427": {
-    "<attr><feel_happy_lv3><end_attr>「よう　<pc>。\n　オレは　群れるのは嫌いだが\n　お前となら　ここで暮らしてもいいぜ。\n<br>\n「ついでに　食うものは　オレが作ってやるよ。\n　こう見えて　料理は得意なんだぜ。\n　食うのは　いつも自分ひとりだったけどな……。\n<br>\n「……お前と　旅するようになってさ　たまに\n　考えるんだ。誰かと　メシ食うのって\n　けっこう　いいな……ってよ。\n<br>\n「それでさ　名前　呼び合ったりしてよ……。\n　へっ　ガラにもねえこと　言っちまった。\n　忘れてくれ。さあ　料理料理っと！\n<select>\nヒューザ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>「よう　<pc>。\n　オレは　群れるのは嫌いだが\n　お前となら　ここで暮らしてもいいぜ。\n<br>\n「ついでに　食うものは　オレが作ってやるよ。\n　こう見えて　料理は得意なんだぜ。\n　食うのは　いつも自分ひとりだったけどな……。\n<br>\n「……お前と　旅するようになってさ　たまに\n　考えるんだ。誰かと　メシ食うのって\n　けっこう　いいな……ってよ。\n<br>\n「それでさ　名前　呼び合ったりしてよ……。\n　へっ　ガラにもねえこと　言っちまった。\n　忘れてくれ。さあ　料理料理っと！\n<select>\nヒューザ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_happy_lv3><end_attr>「よう　<pc>。\n　オレは　群れるのは嫌いだが\n　お前となら　ここで暮らしてもいいぜ。\n<br>\n「ついでに　食うものは　オレが作ってやるよ。\n　こう見えて　料理は得意なんだぜ。\n　食うのは　いつも自分ひとりだったけどな……。\n<br>\n「……お前と　旅するようになってさ　たまに\n　考えるんだ。誰かと　メシ食うのって\n　けっこう　いいな……ってよ。\n<br>\n「それでさ　名前　呼び合ったりしてよ……。\n　へっ　ガラにもねえこと　言っちまった。\n　忘れてくれ。さあ　料理料理っと！\n<select>\nヒューザ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_happy_lv3><end_attr>Yo, <pc>. I hate crowds, but with you here,\nI can get along.\n<br>\nBy the way, try eating something I made. Check it out,\ncooking's my specialty, got it. I used to always eat\nby myself, but...\n<br>\n...After traveling with you, occasionally, I think about\nit. Eating meals with somebody is cool... They say.\n<br>\nSo, if you call my name... Heh, it's not like me to\ntalk like this. Forget it. Come on, let's cook!\n<select>\nHyuza\nDecline\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "103268": {
-    "<attr><feel_happy_lv3><end_attr>「うおっと　<pc>！\n　急に　名前を呼ぶなよ。\n　包丁が　モロに入っちまうところだったぜ。\n<br>\n「お前のせいで　ケガしたって\n　別に　かまいやしねえけどな。": "<attr><feel_happy_lv3><end_attr>「うおっと　<pc>！\n　急に　名前を呼ぶなよ。\n　包丁が　モロに入っちまうところだったぜ。\n<br>\n「お前のせいで　ケガしたって\n　別に　かまいやしねえけどな。"
+    "<attr><feel_happy_lv3><end_attr>「うおっと　<pc>！\n　急に　名前を呼ぶなよ。\n　包丁が　モロに入っちまうところだったぜ。\n<br>\n「お前のせいで　ケガしたって\n　別に　かまいやしねえけどな。": 
+    "<attr><feel_happy_lv3><end_attr>「うおっと　<pc>！\n　急に　名前を呼ぶなよ。\n　包丁が　モロに入っちまうところだったぜ。\n<br>\n「お前のせいで　ケガしたって\n　別に　かまいやしねえけどな。"
   },
   "102428": {
-    "<attr><feel_happy_lv3><end_attr>「あっ……。<pc>さん……。\n　あの…えっと……。\n　やだ。恥ずかしくなってきちゃった。\n<br>\n「ええっと。あの…その……。\n　よかったら　もっと近くに　来てください。\n　ふつつかものですが　よろしくお願いしますっ。\n<br>\n「それで　その……。\n　私の名前を　呼んでくれたりすると\n　うれしいな……なんて……。\n<select>\nマイユ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>「あっ……。<pc>さん……。\n　あの…えっと……。\n　やだ。恥ずかしくなってきちゃった。\n<br>\n「ええっと。あの…その……。\n　よかったら　もっと近くに　来てください。\n　ふつつかものですが　よろしくお願いしますっ。\n<br>\n「それで　その……。\n　私の名前を　呼んでくれたりすると\n　うれしいな……なんて……。\n<select>\nマイユ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_happy_lv3><end_attr>「あっ……。<pc>さん……。\n　あの…えっと……。\n　やだ。恥ずかしくなってきちゃった。\n<br>\n「ええっと。あの…その……。\n　よかったら　もっと近くに　来てください。\n　ふつつかものですが　よろしくお願いしますっ。\n<br>\n「それで　その……。\n　私の名前を　呼んでくれたりすると\n　うれしいな……なんて……。\n<select>\nマイユ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_happy_lv3><end_attr>「あっ……。<pc>さん……。\n　あの…えっと……。\n　やだ。恥ずかしくなってきちゃった。\n<br>\n「ええっと。あの…その……。\n　よかったら　もっと近くに　来てください。\n　ふつつかものですが　よろしくお願いしますっ。\n<br>\n「それで　その……。\n　私の名前を　呼んでくれたりすると\n　うれしいな……なんて……。\n<select>\nマイユ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "103269": {
-    "<attr><feel_happy_lv3><end_attr>「やっぱり　<pc>さんに\n　名前を呼ばれると　まだ　ドキドキしちゃうわ。\n<br>\n「でも……。とても　うれしい。\n　これからも　ずっと　ここにいて\n　私の名前を　呼び続けてほしいな……。": "<attr><feel_happy_lv3><end_attr>「やっぱり　<pc>さんに\n　名前を呼ばれると　まだ　ドキドキしちゃうわ。\n<br>\n「でも……。とても　うれしい。\n　これからも　ずっと　ここにいて\n　私の名前を　呼び続けてほしいな……。"
+    "<attr><feel_happy_lv3><end_attr>「やっぱり　<pc>さんに\n　名前を呼ばれると　まだ　ドキドキしちゃうわ。\n<br>\n「でも……。とても　うれしい。\n　これからも　ずっと　ここにいて\n　私の名前を　呼び続けてほしいな……。": 
+    "<attr><feel_happy_lv3><end_attr>「やっぱり　<pc>さんに\n　名前を呼ばれると　まだ　ドキドキしちゃうわ。\n<br>\n「でも……。とても　うれしい。\n　これからも　ずっと　ここにいて\n　私の名前を　呼び続けてほしいな……。"
   },
   "102429": {
-    "<pipipi_high>「……<pc>さん。\n　ねえ　<pc>さん　起きて……。": "<pipipi_high>「……<pc>さん。\n　ねえ　<pc>さん　起きて……。"
+    "<pipipi_high>「……<pc>さん。\n　ねえ　<pc>さん　起きて……。": 
+    "<pipipi_high>...<pc>. Hey, <pc>, wake up..."
   },
   "102430": {
-    "<attr><feel_happy_lv3><end_attr>「<pc>さんと　ずっと\n　一緒に暮らせるなんて　夢みたい！\n<br>\n「私に妹じゃなくて　お兄ちゃんがいたら\n　あなたみたいな人が　いいなあって\n　ずっと　思ってたの！\n<br>\n「私のことも　妹を呼ぶみたいに\n　リズって　呼んでくれていいわよ。\n　ねえ。ちょっと　呼んでみてくれないかしら？\n<select>\nリズ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>「<pc>さんと　ずっと\n　一緒に暮らせるなんて　夢みたい！\n<br>\n「私に妹じゃなくて　お兄ちゃんがいたら\n　あなたみたいな人が　いいなあって\n　ずっと　思ってたの！\n<br>\n「私のことも　妹を呼ぶみたいに\n　リズって　呼んでくれていいわよ。\n　ねえ。ちょっと　呼んでみてくれないかしら？\n<select>\nリズ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_happy_lv3><end_attr>「<pc>さんと　ずっと\n　一緒に暮らせるなんて　夢みたい！\n<br>\n「私に妹じゃなくて　お兄ちゃんがいたら\n　あなたみたいな人が　いいなあって\n　ずっと　思ってたの！\n<br>\n「私のことも　妹を呼ぶみたいに\n　リズって　呼んでくれていいわよ。\n　ねえ。ちょっと　呼んでみてくれないかしら？\n<select>\nリズ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_happy_lv3><end_attr>「<pc>さんと　ずっと\n　一緒に暮らせるなんて　夢みたい！\n<br>\n「私に妹じゃなくて　お兄ちゃんがいたら\n　あなたみたいな人が　いいなあって\n　ずっと　思ってたの！\n<br>\n「私のことも　妹を呼ぶみたいに\n　リズって　呼んでくれていいわよ。\n　ねえ。ちょっと　呼んでみてくれないかしら？\n<select>\nリズ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "103270": {
-    "<attr><feel_happy_lv3><end_attr>「はい　お兄ちゃん！\n<br>\n「……あっ　ごめんなさい　<pc>さん。\n　つい　お兄ちゃんって　言っちゃった。\n　ほんとの家族になれたらって　思ってたから。": "<attr><feel_happy_lv3><end_attr>「はい　お兄ちゃん！\n<br>\n「……あっ　ごめんなさい　<pc>さん。\n　つい　お兄ちゃんって　言っちゃった。\n　ほんとの家族になれたらって　思ってたから。"
+    "<attr><feel_happy_lv3><end_attr>「はい　お兄ちゃん！\n<br>\n「……あっ　ごめんなさい　<pc>さん。\n　つい　お兄ちゃんって　言っちゃった。\n　ほんとの家族になれたらって　思ってたから。": 
+    "<attr><feel_happy_lv3><end_attr>「はい　お兄ちゃん！\n<br>\n「……あっ　ごめんなさい　<pc>さん。\n　つい　お兄ちゃんって　言っちゃった。\n　ほんとの家族になれたらって　思ってたから。"
   },
   "102431": {
-    "<attr><feel_happy_lv3><end_attr>「あら　<pc>。\n　これからは　あたしが　あんたのために\n　毎日　おいしい料理を作ってあげるわ。\n<br>\n「は？　料理なんか　できるのか……ですって？\n　文句言うと　カビだんごを食わすわよ！\n<br>\n「あんたのために　毛玉の調理職人のとこで\n　ちゃんと　修行してきたんだから\n　心配する必要なんて　ないの！！\n<br>\n「いいこと？　あんたは　そこで\n　私の料理を　じっと待ってればいいの。\n　絶対　呼びかけるんじゃないわよ？\n<select>\nルナナ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>「あら　<pc>。\n　これからは　あたしが　あんたのために\n　毎日　おいしい料理を作ってあげるわ。\n<br>\n「は？　料理なんか　できるのか……ですって？\n　文句言うと　カビだんごを食わすわよ！\n<br>\n「あんたのために　毛玉の調理職人のとこで\n　ちゃんと　修行してきたんだから\n　心配する必要なんて　ないの！！\n<br>\n「いいこと？　あんたは　そこで\n　私の料理を　じっと待ってればいいの。\n　絶対　呼びかけるんじゃないわよ？\n<select>\nルナナ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_happy_lv3><end_attr>「あら　<pc>。\n　これからは　あたしが　あんたのために\n　毎日　おいしい料理を作ってあげるわ。\n<br>\n「は？　料理なんか　できるのか……ですって？\n　文句言うと　カビだんごを食わすわよ！\n<br>\n「あんたのために　毛玉の調理職人のとこで\n　ちゃんと　修行してきたんだから\n　心配する必要なんて　ないの！！\n<br>\n「いいこと？　あんたは　そこで\n　私の料理を　じっと待ってればいいの。\n　絶対　呼びかけるんじゃないわよ？\n<select>\nルナナ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_happy_lv3><end_attr>「あら　<pc>。\n　これからは　あたしが　あんたのために\n　毎日　おいしい料理を作ってあげるわ。\n<br>\n「は？　料理なんか　できるのか……ですって？\n　文句言うと　カビだんごを食わすわよ！\n<br>\n「あんたのために　毛玉の調理職人のとこで\n　ちゃんと　修行してきたんだから\n　心配する必要なんて　ないの！！\n<br>\n「いいこと？　あんたは　そこで\n　私の料理を　じっと待ってればいいの。\n　絶対　呼びかけるんじゃないわよ？\n<select>\nルナナ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "103271": {
-    "<attr><feel_happy_lv3><end_attr>「なによ　<pc>？\n　まだ料理の途中なんだから　おとなしく\n　待ってなさい。\n<br>\n「それとも　もう　待てないの？\n　ふふ……。まったく　いやしいのね。\n　いいわ。急いであげるわよ。": "<attr><feel_happy_lv3><end_attr>「なによ　<pc>？\n　まだ料理の途中なんだから　おとなしく\n　待ってなさい。\n<br>\n「それとも　もう　待てないの？\n　ふふ……。まったく　いやしいのね。\n　いいわ。急いであげるわよ。"
+    "<attr><feel_happy_lv3><end_attr>「なによ　<pc>？\n　まだ料理の途中なんだから　おとなしく\n　待ってなさい。\n<br>\n「それとも　もう　待てないの？\n　ふふ……。まったく　いやしいのね。\n　いいわ。急いであげるわよ。": 
+    "<attr><feel_happy_lv3><end_attr>「なによ　<pc>？\n　まだ料理の途中なんだから　おとなしく\n　待ってなさい。\n<br>\n「それとも　もう　待てないの？\n　ふふ……。まったく　いやしいのね。\n　いいわ。急いであげるわよ。"
   },
   "102432": {
-    "<attr><feel_happy_lv3><end_attr>「……<pc>よ。\n　私はもう　そなたを導く　賢者ではない。\n　これからは　そなたが　私を導いてくれ。\n<br>\n「そなたは　私を　どう変えてくれるのかな？\n　楽しみだよ。ふふっ……。\n<select>\nルシェンダさま……\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>「……<pc>よ。\n　私はもう　そなたを導く　賢者ではない。\n　これからは　そなたが　私を導いてくれ。\n<br>\n「そなたは　私を　どう変えてくれるのかな？\n　楽しみだよ。ふふっ……。\n<select>\nルシェンダさま……\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_happy_lv3><end_attr>「……<pc>よ。\n　私はもう　そなたを導く　賢者ではない。\n　これからは　そなたが　私を導いてくれ。\n<br>\n「そなたは　私を　どう変えてくれるのかな？\n　楽しみだよ。ふふっ……。\n<select>\nルシェンダさま……\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_happy_lv3><end_attr>「……<pc>よ。\n　私はもう　そなたを導く　賢者ではない。\n　これからは　そなたが　私を導いてくれ。\n<br>\n「そなたは　私を　どう変えてくれるのかな？\n　楽しみだよ。ふふっ……。\n<select>\nルシェンダさま……\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "103272": {
-    "<attr><feel_happy_lv3><end_attr>「私を呼んだか　<pc>？\n　ふっ　なるほど。私の肌が傷まぬよう\n　オイルをぬってくれると　いうのだな？<yesno><break>": "<attr><feel_happy_lv3><end_attr>「私を呼んだか　<pc>？\n　ふっ　なるほど。私の肌が傷まぬよう\n　オイルをぬってくれると　いうのだな？<yesno><break>"
+    "<attr><feel_happy_lv3><end_attr>「私を呼んだか　<pc>？\n　ふっ　なるほど。私の肌が傷まぬよう\n　オイルをぬってくれると　いうのだな？<yesno><break>": 
+    "<attr><feel_happy_lv3><end_attr>「私を呼んだか　<pc>？\n　ふっ　なるほど。私の肌が傷まぬよう\n　オイルをぬってくれると　いうのだな？<yesno><break>"
   },
   "103273": {
-    "<attr><feel_happy_lv3><end_attr>「よし。ならば　スミズミまで頼むぞ。": "<attr><feel_happy_lv3><end_attr>「よし。ならば　スミズミまで頼むぞ。"
+    "<attr><feel_happy_lv3><end_attr>「よし。ならば　スミズミまで頼むぞ。": 
+    "<attr><feel_happy_lv3><end_attr>「よし。ならば　スミズミまで頼むぞ。"
   },
   "103274": {
-    "<attr><feel_happy_lv3><end_attr>「……礼を言うぞ　<pc>。\n　そなたのためならば　私は\n　永遠に　この美しさを保ってみせよう……。": "<attr><feel_happy_lv3><end_attr>「……礼を言うぞ　<pc>。\n　そなたのためならば　私は\n　永遠に　この美しさを保ってみせよう……。"
+    "<attr><feel_happy_lv3><end_attr>「……礼を言うぞ　<pc>。\n　そなたのためならば　私は\n　永遠に　この美しさを保ってみせよう……。": 
+    "<attr><feel_happy_lv3><end_attr>「……礼を言うぞ　<pc>。\n　そなたのためならば　私は\n　永遠に　この美しさを保ってみせよう……。"
   },
   "103275": {
-    "<attr><feel_sad_lv3><end_attr>「……そうか。それは　残念だ。": "<attr><feel_sad_lv3><end_attr>「……そうか。それは　残念だ。"
+    "<attr><feel_sad_lv3><end_attr>「……そうか。それは　残念だ。": 
+    "<attr><feel_sad_lv3><end_attr>「……そうか。それは　残念だ。"
   },
   "102433": {
-    "<attr><feel_normal_lv3><end_attr>「人間は　嫌いです……。\n　それでも　<pc>さん……\n　あなただけは　他の人々とは違う。\n<br>\n「あなたと　一緒なら　私は変わることができる。\n　だから　ずっと隣に　いていただけませんか？\n　そして　私の名前を呼んでほしいのです……。\n<select>\nサリアス\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_normal_lv3><end_attr>「人間は　嫌いです……。\n　それでも　<pc>さん……\n　あなただけは　他の人々とは違う。\n<br>\n「あなたと　一緒なら　私は変わることができる。\n　だから　ずっと隣に　いていただけませんか？\n　そして　私の名前を呼んでほしいのです……。\n<select>\nサリアス\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_normal_lv3><end_attr>「人間は　嫌いです……。\n　それでも　<pc>さん……\n　あなただけは　他の人々とは違う。\n<br>\n「あなたと　一緒なら　私は変わることができる。\n　だから　ずっと隣に　いていただけませんか？\n　そして　私の名前を呼んでほしいのです……。\n<select>\nサリアス\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_normal_lv3><end_attr>「人間は　嫌いです……。\n　それでも　<pc>さん……\n　あなただけは　他の人々とは違う。\n<br>\n「あなたと　一緒なら　私は変わることができる。\n　だから　ずっと隣に　いていただけませんか？\n　そして　私の名前を呼んでほしいのです……。\n<select>\nサリアス\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "103276": {
-    "<attr><feel_normal_lv3><end_attr>「ああ……。あなたに　名前を呼ばれると\n　とても　落ち着いた気分になります。\n<br>\n「あなたと　一緒なら　私は変わることができる。\n　だから　どこへも行かないでくださいね。": "<attr><feel_normal_lv3><end_attr>「ああ……。あなたに　名前を呼ばれると\n　とても　落ち着いた気分になります。\n<br>\n「あなたと　一緒なら　私は変わることができる。\n　だから　どこへも行かないでくださいね。"
+    "<attr><feel_normal_lv3><end_attr>「ああ……。あなたに　名前を呼ばれると\n　とても　落ち着いた気分になります。\n<br>\n「あなたと　一緒なら　私は変わることができる。\n　だから　どこへも行かないでくださいね。": 
+    "<attr><feel_normal_lv3><end_attr>「ああ……。あなたに　名前を呼ばれると\n　とても　落ち着いた気分になります。\n<br>\n「あなたと　一緒なら　私は変わることができる。\n　だから　どこへも行かないでくださいね。"
   },
   "102434": {
-    "<attr><feel_happy_lv3><end_attr>「あっ　<pc>さん！\n　私　あなたのそばに　いたいな。\n　あなたを　優しく　いやしてあげたい。\n<br>\n「だから　ずっと　私と　ここで暮らして？\n　ねっ　いいでしょう？\n　いいなら　私の名前　呼んでほしいな！\n<br>\n<select>\nセラフィ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>「あっ　<pc>さん！\n　私　あなたのそばに　いたいな。\n　あなたを　優しく　いやしてあげたい。\n<br>\n「だから　ずっと　私と　ここで暮らして？\n　ねっ　いいでしょう？\n　いいなら　私の名前　呼んでほしいな！\n<br>\n<select>\nセラフィ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_happy_lv3><end_attr>「あっ　<pc>さん！\n　私　あなたのそばに　いたいな。\n　あなたを　優しく　いやしてあげたい。\n<br>\n「だから　ずっと　私と　ここで暮らして？\n　ねっ　いいでしょう？\n　いいなら　私の名前　呼んでほしいな！\n<br>\n<select>\nセラフィ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_happy_lv3><end_attr>「あっ　<pc>さん！\n　私　あなたのそばに　いたいな。\n　あなたを　優しく　いやしてあげたい。\n<br>\n「だから　ずっと　私と　ここで暮らして？\n　ねっ　いいでしょう？\n　いいなら　私の名前　呼んでほしいな！\n<br>\n<select>\nセラフィ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "103277": {
-    "<attr><feel_happy_lv3><end_attr>「……えへへ。\n　<pc>さんに　名前を呼ばれると\n　とっても　幸せな気分になるんだ。\n<br>\n「だから　これからも　ずっと\n　私の名前を呼んでくれたら　うれしいな！": "<attr><feel_happy_lv3><end_attr>「……えへへ。\n　<pc>さんに　名前を呼ばれると\n　とっても　幸せな気分になるんだ。\n<br>\n「だから　これからも　ずっと\n　私の名前を呼んでくれたら　うれしいな！"
+    "<attr><feel_happy_lv3><end_attr>「……えへへ。\n　<pc>さんに　名前を呼ばれると\n　とっても　幸せな気分になるんだ。\n<br>\n「だから　これからも　ずっと\n　私の名前を呼んでくれたら　うれしいな！": 
+    "<attr><feel_happy_lv3><end_attr>「……えへへ。\n　<pc>さんに　名前を呼ばれると\n　とっても　幸せな気分になるんだ。\n<br>\n「だから　これからも　ずっと\n　私の名前を呼んでくれたら　うれしいな！"
   },
   "102435": {
-    "<attr><feel_normal_lv3><end_attr>「スキルマスターと呼ばれて　久しい私ですが\n　この名にも　少々　飽きていましてね。\n<br>\n「これからは　そう……。\n　<pc>マスターと　呼ばれるのも\n　悪くありませんね。フフッ……。\n<br>\n「よろしければ　呼んでみていただけますか？\n　私のことを　<pc>マスターと。\n<select>\n<pc>マスター\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_normal_lv3><end_attr>「スキルマスターと呼ばれて　久しい私ですが\n　この名にも　少々　飽きていましてね。\n<br>\n「これからは　そう……。\n　<pc>マスターと　呼ばれるのも\n　悪くありませんね。フフッ……。\n<br>\n「よろしければ　呼んでみていただけますか？\n　私のことを　<pc>マスターと。\n<select>\n<pc>マスター\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_normal_lv3><end_attr>「スキルマスターと呼ばれて　久しい私ですが\n　この名にも　少々　飽きていましてね。\n<br>\n「これからは　そう……。\n　<pc>マスターと　呼ばれるのも\n　悪くありませんね。フフッ……。\n<br>\n「よろしければ　呼んでみていただけますか？\n　私のことを　<pc>マスターと。\n<select>\n<pc>マスター\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_normal_lv3><end_attr>「スキルマスターと呼ばれて　久しい私ですが\n　この名にも　少々　飽きていましてね。\n<br>\n「これからは　そう……。\n　<pc>マスターと　呼ばれるのも\n　悪くありませんね。フフッ……。\n<br>\n「よろしければ　呼んでみていただけますか？\n　私のことを　<pc>マスターと。\n<select>\n<pc>マスター\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "103278": {
-    "<attr><feel_normal_lv3><end_attr>「フフ……。あなたに　名を呼ばれるのは\n　やはり　心地よいですね。\n<br>\n「ところで　もし　日光浴をされるなら\n　私が　オイルなど　ぬってさしあげましょうか？<yesno><break>": "<attr><feel_normal_lv3><end_attr>「フフ……。あなたに　名を呼ばれるのは\n　やはり　心地よいですね。\n<br>\n「ところで　もし　日光浴をされるなら\n　私が　オイルなど　ぬってさしあげましょうか？<yesno><break>"
+    "<attr><feel_normal_lv3><end_attr>「フフ……。あなたに　名を呼ばれるのは\n　やはり　心地よいですね。\n<br>\n「ところで　もし　日光浴をされるなら\n　私が　オイルなど　ぬってさしあげましょうか？<yesno><break>": 
+    "<attr><feel_normal_lv3><end_attr>「フフ……。あなたに　名を呼ばれるのは\n　やはり　心地よいですね。\n<br>\n「ところで　もし　日光浴をされるなら\n　私が　オイルなど　ぬってさしあげましょうか？<yesno><break>"
   },
   "103279": {
-    "<attr><feel_normal_lv3><end_attr>「かしこまりました。\n　では　そこに寝てください。\n　リラックスして　私に身体をゆだねて……。": "<attr><feel_normal_lv3><end_attr>「かしこまりました。\n　では　そこに寝てください。\n　リラックスして　私に身体をゆだねて……。"
+    "<attr><feel_normal_lv3><end_attr>「かしこまりました。\n　では　そこに寝てください。\n　リラックスして　私に身体をゆだねて……。": 
+    "<attr><feel_normal_lv3><end_attr>「かしこまりました。\n　では　そこに寝てください。\n　リラックスして　私に身体をゆだねて……。"
   },
   "103280": {
-    "<attr><feel_normal_lv3><end_attr>「……終わりましたよ。\n　日焼けした　あなたも　魅力的でしょうけど\n　それは　後の楽しみに　とっておきます。": "<attr><feel_normal_lv3><end_attr>「……終わりましたよ。\n　日焼けした　あなたも　魅力的でしょうけど\n　それは　後の楽しみに　とっておきます。"
+    "<attr><feel_normal_lv3><end_attr>「……終わりましたよ。\n　日焼けした　あなたも　魅力的でしょうけど\n　それは　後の楽しみに　とっておきます。": 
+    "<attr><feel_normal_lv3><end_attr>「……終わりましたよ。\n　日焼けした　あなたも　魅力的でしょうけど\n　それは　後の楽しみに　とっておきます。"
   },
   "103281": {
-    "<attr><feel_normal_lv3><end_attr>「……そうですか。残念ですね。": "<attr><feel_normal_lv3><end_attr>「……そうですか。残念ですね。"
+    "<attr><feel_normal_lv3><end_attr>「……そうですか。残念ですね。": 
+    "<attr><feel_normal_lv3><end_attr>...Is that so. That's unfortunate, isn't it."
   },
   "102436": {
-    "いつの間にか　深い眠りに落ちていたようだ。\n<pc>は　目を覚ました。": "いつの間にか　深い眠りに落ちていたようだ。\n<pc>は　目を覚ました。"
+    "いつの間にか　深い眠りに落ちていたようだ。\n<pc>は　目を覚ました。": 
+    "Before you know it, you seem to have fallen fast\nasleep. <pc> woke up."
   },
   "103282": {
-    "<pc>は　ルシェンダの身体に\nオイルを　ぬってあげた！": "<pc>は　ルシェンダの身体に\nオイルを　ぬってあげた！"
+    "<pc>は　ルシェンダの身体に\nオイルを　ぬってあげた！": 
+    "<pc> put oil on Lushenda's back!"
   },
   "103283": {
-    "<pc>は　スキルマスターに\nオイルを　ぬってもらった！": "<pc>は　スキルマスターに\nオイルを　ぬってもらった！"
+    "<pc>は　スキルマスターに\nオイルを　ぬってもらった！": 
+    "<pc> put oil on Skill Master's back!"
   },
   "103790": {
-    "不思議な気配を感じる　ランプが置かれている。\nこのランプは　明るさを調節できるようだ。\n明るさを変えてみますか？<yesno><close>": "不思議な気配を感じる　ランプが置かれている。\nこのランプは　明るさを調節できるようだ。\n明るさを変えてみますか？<yesno><close>"
+    "不思議な気配を感じる　ランプが置かれている。\nこのランプは　明るさを調節できるようだ。\n明るさを変えてみますか？<yesno><close>": 
+    "不思議な気配を感じる　ランプが置かれている。\nこのランプは　明るさを調節できるようだ。\n明るさを変えてみますか？<yesno><close>"
   },
   "103791": {
-    "<pc>は　ランプを明るくしてみた。\nランプから　光があふれ\n太陽が　真上へと　昇っていった。": "<pc>は　ランプを明るくしてみた。\nランプから　光があふれ\n太陽が　真上へと　昇っていった。"
+    "<pc>は　ランプを明るくしてみた。\nランプから　光があふれ\n太陽が　真上へと　昇っていった。": 
+    "<pc>は　ランプを明るくしてみた。\nランプから　光があふれ\n太陽が　真上へと　昇っていった。"
   },
   "103792": {
-    "<pc>は　ランプを暗くしてみた。\nランプから　黒い霧が吹きだし\n辺りは　夕闇に　染まっていった。": "<pc>は　ランプを暗くしてみた。\nランプから　黒い霧が吹きだし\n辺りは　夕闇に　染まっていった。"
+    "<pc>は　ランプを暗くしてみた。\nランプから　黒い霧が吹きだし\n辺りは　夕闇に　染まっていった。": 
+    "<pc>は　ランプを暗くしてみた。\nランプから　黒い霧が吹きだし\n辺りは　夕闇に　染まっていった。"
   },
   "103794": {
-    "不思議な気配を感じる　鏡がある。<bw_break>": "不思議な気配を感じる　鏡がある。<bw_break>"
+    "不思議な気配を感じる　鏡がある。<bw_break>": 
+    "不思議な気配を感じる　鏡がある。<bw_break>"
   },
   "103795": {
-    "鏡の向こうで　美しい女性たちが\n手招きしているのが　見える。\n鏡に　触れてみますか？<yesno><close>": "鏡の向こうで　美しい女性たちが\n手招きしているのが　見える。\n鏡に　触れてみますか？<yesno><close>"
+    "鏡の向こうで　美しい女性たちが\n手招きしているのが　見える。\n鏡に　触れてみますか？<yesno><close>": 
+    "鏡の向こうで　美しい女性たちが\n手招きしているのが　見える。\n鏡に　触れてみますか？<yesno><close>"
   },
   "103796": {
-    "<pc>は　鏡に　そっと触れた。\n<br>\n<pc>の身体が　ゆっくりと\n鏡の中に　引き込まれていく……。<se_nots joutyu tag_warp_in>": "<pc>は　鏡に　そっと触れた。\n<br>\n<pc>の身体が　ゆっくりと\n鏡の中に　引き込まれていく……。<se_nots joutyu tag_warp_in>"
+    "<pc>は　鏡に　そっと触れた。\n<br>\n<pc>の身体が　ゆっくりと\n鏡の中に　引き込まれていく……。<se_nots joutyu tag_warp_in>": 
+    "<pc>は　鏡に　そっと触れた。\n<br>\n<pc>の身体が　ゆっくりと\n鏡の中に　引き込まれていく……。<se_nots joutyu tag_warp_in>"
   },
   "103797": {
-    "鏡の向こうで　素敵な男性たちが\n手招きしているのが　見える。\n鏡に　触れてみますか？<yesno><close>": "鏡の向こうで　素敵な男性たちが\n手招きしているのが　見える。\n鏡に　触れてみますか？<yesno><close>"
+    "鏡の向こうで　素敵な男性たちが\n手招きしているのが　見える。\n鏡に　触れてみますか？<yesno><close>": 
+    "鏡の向こうで　素敵な男性たちが\n手招きしているのが　見える。\n鏡に　触れてみますか？<yesno><close>"
   },
   "103798": {
-    "<pc>は　鏡に　そっと触れた。\n<br>\n<pc>の身体が　ゆっくりと\n鏡の中に　引き込まれていく……。<se_nots joutyu tag_warp_in>": "<pc>は　鏡に　そっと触れた。\n<br>\n<pc>の身体が　ゆっくりと\n鏡の中に　引き込まれていく……。<se_nots joutyu tag_warp_in>"
+    "<pc>は　鏡に　そっと触れた。\n<br>\n<pc>の身体が　ゆっくりと\n鏡の中に　引き込まれていく……。<se_nots joutyu tag_warp_in>": 
+    "<pc>は　鏡に　そっと触れた。\n<br>\n<pc>の身体が　ゆっくりと\n鏡の中に　引き込まれていく……。<se_nots joutyu tag_warp_in>"
   },
   "103905": {
-    "<pc>は　ランプを暗くしてみた。\nランプから　黒い霧が吹きだし\n辺りに　夜のとばりが　降りてきた。": "<pc>は　ランプを暗くしてみた。\nランプから　黒い霧が吹きだし\n辺りに　夜のとばりが　降りてきた。"
+    "<pc>は　ランプを暗くしてみた。\nランプから　黒い霧が吹きだし\n辺りに　夜のとばりが　降りてきた。": 
+    "<pc>は　ランプを暗くしてみた。\nランプから　黒い霧が吹きだし\n辺りに　夜のとばりが　降りてきた。"
   },
   "103906": {
-    "<pc>は　ランプを明るくしてみた。\nランプから　光があふれ\n朝日が　辺りを　照らしはじめた。": "<pc>は　ランプを明るくしてみた。\nランプから　光があふれ\n朝日が　辺りを　照らしはじめた。"
+    "<pc>は　ランプを明るくしてみた。\nランプから　光があふれ\n朝日が　辺りを　照らしはじめた。": 
+    "<pc>は　ランプを明るくしてみた。\nランプから　光があふれ\n朝日が　辺りを　照らしはじめた。"
   },
   "102437": {
-    "<pipipi_mid>「……<pc>さん！\n　起きてください　<pc>さん！！": "<pipipi_mid>「……<pc>さん！\n　起きてください　<pc>さん！！"
+    "<pipipi_mid>「……<pc>さん！\n　起きてください　<pc>さん！！": 
+    "<pipipi_mid>「……<pc>さん！\n　起きてください　<pc>さん！！"
   },
   "102438": {
-    "<attr><feel_happy_lv3><end_attr>「<pc>さん　<pc>さん！\n　なぜでしょう？　あなたを見ていると\n　あたたかで　安らかな気持ちに　なれるんです。\n<br>\n「これからは　ずっと一緒……ですよね？\n　あなたのために　一生懸命　がんばりますから\n　僕を置いて　どこかに行っちゃダメですよ。\n<br>\n「何かあったら　タッツィと　呼び捨てで\n　かまいませんから　僕を呼んでください。\n　ためしに今　呼んでみてもらえますか？\n<select>\nタッツィ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>「<pc>さん　<pc>さん！\n　なぜでしょう？　あなたを見ていると\n　あたたかで　安らかな気持ちに　なれるんです。\n<br>\n「これからは　ずっと一緒……ですよね？\n　あなたのために　一生懸命　がんばりますから\n　僕を置いて　どこかに行っちゃダメですよ。\n<br>\n「何かあったら　タッツィと　呼び捨てで\n　かまいませんから　僕を呼んでください。\n　ためしに今　呼んでみてもらえますか？\n<select>\nタッツィ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_happy_lv3><end_attr>「<pc>さん　<pc>さん！\n　なぜでしょう？　あなたを見ていると\n　あたたかで　安らかな気持ちに　なれるんです。\n<br>\n「これからは　ずっと一緒……ですよね？\n　あなたのために　一生懸命　がんばりますから\n　僕を置いて　どこかに行っちゃダメですよ。\n<br>\n「何かあったら　タッツィと　呼び捨てで\n　かまいませんから　僕を呼んでください。\n　ためしに今　呼んでみてもらえますか？\n<select>\nタッツィ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_happy_lv3><end_attr>「<pc>さん　<pc>さん！\n　なぜでしょう？　あなたを見ていると\n　あたたかで　安らかな気持ちに　なれるんです。\n<br>\n「これからは　ずっと一緒……ですよね？\n　あなたのために　一生懸命　がんばりますから\n　僕を置いて　どこかに行っちゃダメですよ。\n<br>\n「何かあったら　タッツィと　呼び捨てで\n　かまいませんから　僕を呼んでください。\n　ためしに今　呼んでみてもらえますか？\n<select>\nタッツィ\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "103284": {
-    "<attr><feel_happy_lv3><end_attr>「はいっ　<pc>さん！！\n　僕は　ちゃんと　ここにいますよ！\n<br>\n「いつでも　呼んでください。\n　<pc>さんのためなら　なんでもします！": "<attr><feel_happy_lv3><end_attr>「はいっ　<pc>さん！！\n　僕は　ちゃんと　ここにいますよ！\n<br>\n「いつでも　呼んでください。\n　<pc>さんのためなら　なんでもします！"
+    "<attr><feel_happy_lv3><end_attr>「はいっ　<pc>さん！！\n　僕は　ちゃんと　ここにいますよ！\n<br>\n「いつでも　呼んでください。\n　<pc>さんのためなら　なんでもします！": 
+    "<attr><feel_happy_lv3><end_attr>「はいっ　<pc>さん！！\n　僕は　ちゃんと　ここにいますよ！\n<br>\n「いつでも　呼んでください。\n　<pc>さんのためなら　なんでもします！"
   },
   "102439": {
-    "<attr><feel_happy_lv3><end_attr>「おっ　<pc>　よく来たな。\n　俺は　お前だけの英雄になることに決めた。\n　これからは　ずっと　一緒だぜ。\n<br>\n「何があっても　俺が　お前を守ってやる。\n　だから　大船に乗った気でいてくれ。\n　困った時は　オレの名を　呼ぶんだ！\n<select>\nザンクローネ！\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": "<attr><feel_happy_lv3><end_attr>「おっ　<pc>　よく来たな。\n　俺は　お前だけの英雄になることに決めた。\n　これからは　ずっと　一緒だぜ。\n<br>\n「何があっても　俺が　お前を守ってやる。\n　だから　大船に乗った気でいてくれ。\n　困った時は　オレの名を　呼ぶんだ！\n<select>\nザンクローネ！\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    "<attr><feel_happy_lv3><end_attr>「おっ　<pc>　よく来たな。\n　俺は　お前だけの英雄になることに決めた。\n　これからは　ずっと　一緒だぜ。\n<br>\n「何があっても　俺が　お前を守ってやる。\n　だから　大船に乗った気でいてくれ。\n　困った時は　オレの名を　呼ぶんだ！\n<select>\nザンクローネ！\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>": 
+    "<attr><feel_happy_lv3><end_attr>「おっ　<pc>　よく来たな。\n　俺は　お前だけの英雄になることに決めた。\n　これからは　ずっと　一緒だぜ。\n<br>\n「何があっても　俺が　お前を守ってやる。\n　だから　大船に乗った気でいてくれ。\n　困った時は　オレの名を　呼ぶんだ！\n<select>\nザンクローネ！\nやめておく\n<select_end>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "103285": {
-    "<attr><feel_happy_lv3><end_attr>「ん？　なんだよ　<pc>。\n　なんか　あったのか？\n<br>\n「……え？　呼んでみただけ？\n　へへっ　なんだか　こそばゆいな。\n　まあ　ちょっとずつ　慣れていけばいいか。\n<br>\n「もし　困ってることがあるなら\n　いつでも　俺の名を呼べばいい。\n　俺は　必ず駆けつけるからな！": "<attr><feel_happy_lv3><end_attr>「ん？　なんだよ　<pc>。\n　なんか　あったのか？\n<br>\n「……え？　呼んでみただけ？\n　へへっ　なんだか　こそばゆいな。\n　まあ　ちょっとずつ　慣れていけばいいか。\n<br>\n「もし　困ってることがあるなら\n　いつでも　俺の名を呼べばいい。\n　俺は　必ず駆けつけるからな！"
+    "<attr><feel_happy_lv3><end_attr>「ん？　なんだよ　<pc>。\n　なんか　あったのか？\n<br>\n「……え？　呼んでみただけ？\n　へへっ　なんだか　こそばゆいな。\n　まあ　ちょっとずつ　慣れていけばいいか。\n<br>\n「もし　困ってることがあるなら\n　いつでも　俺の名を呼べばいい。\n　俺は　必ず駆けつけるからな！": 
+    "<attr><feel_happy_lv3><end_attr>「ん？　なんだよ　<pc>。\n　なんか　あったのか？\n<br>\n「……え？　呼んでみただけ？\n　へへっ　なんだか　こそばゆいな。\n　まあ　ちょっとずつ　慣れていけばいいか。\n<br>\n「もし　困ってることがあるなら\n　いつでも　俺の名を呼べばいい。\n　俺は　必ず駆けつけるからな！"
   }
 }
