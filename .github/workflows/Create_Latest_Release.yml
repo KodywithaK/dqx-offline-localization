@@ -27,14 +27,46 @@ jobs:
           ref: main
           repository: KodywithaK/dqx-offline-localization
           # sparse-checkout:
-          #   | # Checks out only the BACKLOG...ETP & FINAL dialog folders
-          #   BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
-          #   FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
-          #   FINAL/pakchunk0-Switch_P/Holiday/Content/Settings/Version/version_settings.json
-          #   responsefile_Switch.txt
-          #   responsefile_WindowsNoEditor.txt
-          #   docs/CHANGELOG.md
+            #   | # Checks out only the BACKLOG...ETP & FINAL dialog folders
+            #   BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
+            #   FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
+            #   FINAL/pakchunk0-Switch_P/Holiday/Content/Settings/Version/version_settings.json
+            #   responsefile_Switch.txt
+            #   responsefile_WindowsNoEditor.txt
+            #   docs/CHANGELOG.md
 
+      - name: Checkout LocRes-Builder
+        uses: actions/checkout@v4
+        with:
+          path: ./test/LocRes-Builder
+          ref: main
+          repository: KodywithaK/LocRes-Builder
+
+  LocRes-Builder:
+    needs: [Checkout_Repos]
+    runs-on: self-hosted
+    steps:
+      - name: LocRes-Builder Inputs
+        run: |
+          # echo -e "::group::\033[0;34mBuilding LocRes-Builder's Inputs\033[0;0m"
+          mkdir -p ${{ github.workspace }}/test/LocRes-Builder/INPUT
+          cp "${{ github.workspace }}/test/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locmeta.json" "${{ github.workspace }}/test/LocRes-Builder/INPUT/locmeta.json"
+          for lang in de en es fr it ja ko zh-Hans zh-Hant; do jq --arg LANGUAGE $lang \
+            "to_entries| map(reduce . as \$obj ({};{\"key\": \$obj[\"key\"],\"value\": (\$obj[\"value\"]| to_entries| map({\"key\": .key,\"value\": [(if (.value[\"${lang}\"] != \"\")then (.value = .value[\"${lang}\"])else (.value = .value.ja)end)]| from_entries[]})| from_entries)}))| from_entries" \
+            "${{ github.workspace }}/test/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json" \
+            > "${{ github.workspace }}/test/LocRes-Builder/INPUT/${lang}.json"
+          done
+          # echo "::endgroup::"
+
+      - name: LocRes-Builder Outputs
+        run: |
+          echo -e "::group::\033[0;34mBuilding LocRes-Builder's Outputs\033[0;0m"
+            mkdir -p ${{ github.workspace }}/test/LocRes-Builder/OUTPUT
+            python3 "${{ github.workspace }}/test/LocRes-Builder/src/main.py" \
+            "${{ github.workspace }}/test/LocRes-Builder/INPUT/locmeta.json" \
+            -o="${{ github.workspace }}/test/LocRes-Builder/OUTPUT" -f=json
+          echo "::endgroup::"
+#
 #  JSON_to_ETP:
 #    needs: Checkout_Repos
 #    runs-on: self-hosted
@@ -106,13 +138,14 @@ jobs:
 #          deactivate
 #          cd ~
 #
+#
 #  UnrealPak_-Create:
-#    needs: [Checkout_Repos, JSON_to_ETP]
+#    needs: [Checkout_Repos, JSON_to_ETP, LocRes_Builder]
 #    runs-on: self-hosted
 #    steps:
 #      - name: UnrealPak -Create
 #        run: |
-#          mkdir -p .${{ github.workspace }}/downloads
+#          mkdir -p ${{ github.workspace }}/downloads
 #          echo -e "::group::Creating \033[0;34mpakchunk0-Switch_English_Dialogue_Latest_P.pak"
 #          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
 #              ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak \

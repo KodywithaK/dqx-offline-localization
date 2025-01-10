@@ -245,7 +245,8 @@ def build_etp_0_2(json_list: list, src_etp: str):
 
     etp_file = os.path.basename(src_etp)
     # with open(f"new_etp/{etp_file}", "w+b") as etp_f:
-    with open(f"new_etp/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
+    # with open(f"new_etp/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
+    with open(f"../../../staging/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
         etp_f.write(orig_etp_data)
         etp_f.write(orig_indx_table)
         write_foot(file_obj=etp_f)
@@ -281,7 +282,8 @@ def build_etp_1(json_list: list, src_etp: str):
 
     etp_file = os.path.basename(src_etp)
     # with open(f"new_etp/{etp_file}", "w+b") as etp_f:
-    with open(f"new_etp/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
+    # with open(f"new_etp/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
+    with open(f"../../../staging/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
         # write beginning of file
         etp_f.write(orig_etp_data)
         etp_f.write(orig_indx_table[:20])
@@ -479,7 +481,8 @@ def build_etp_4(json_list: list, src_etp: str):
 
     etp_file = os.path.basename(src_etp)
     # with open(f"new_etp/{etp_file}", "w+b") as etp_f:
-    with open(f"new_etp/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
+    # with open(f"new_etp/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
+    with open(f"../../../staging/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
         # write beginning of file
         etp_f.write(orig_etp_data)
 
@@ -582,14 +585,51 @@ def build_etp(json_file: list, src_etp: str):
         print(f"ETP version \"{file_version}\" is not currently supported.")
 
 def build_all():
+########################################################################################################################################################################################################
+#    # json_files = glob.glob("new_json/en/*.json")
+#    json_files = glob.glob("../dump_etps/AppID_1358750/BuildID_14529657/BACKLOG/pakchunk0-{PLATFORM}.pak/Game/Content/NonAssets/ETP/*.json") #KwK
+#    for json_file in json_files:
+#        etp = os.path.basename(json_file).replace(".json", ".etp")
+#        print(f"Packing {etp}.")
+#        # etp_file = f"../dump_etps/etps/{etp}"
+#        etp_file = f"../dump_etps/AppID_1358750/BuildID_14529657/REFERENCES/pakchunk0-{{PLATFORM}}.pak/Game/Content/NonAssets/ETP/{etp}" #KwK, double curly-braces to escape it
+#        build_etp(json_file=json_file, src_etp=etp_file)
+########################################################################################################################################################################################################
     # json_files = glob.glob("new_json/en/*.json")
-    json_files = glob.glob("../dump_etps/AppID_1358750/BuildID_14529657/BACKLOG/pakchunk0-{PLATFORM}.pak/Game/Content/NonAssets/ETP/*.json") #KwK
+    # json_files = glob.glob("../../../dqx-offline-localization/BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/*.json") #KwK, old format
+    json_files = glob.glob("../../../dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json") #KwK, new format
     for json_file in json_files:
-        etp = os.path.basename(json_file).replace(".json", ".etp")
-        print(f"Packing {etp}.")
-        # etp_file = f"../dump_etps/etps/{etp}"
-        etp_file = f"../dump_etps/AppID_1358750/BuildID_14529657/REFERENCES/pakchunk0-{{PLATFORM}}.pak/Game/Content/NonAssets/ETP/{etp}" #KwK, double curly-braces to escape it
-        build_etp(json_file=json_file, src_etp=etp_file)
+        try:
+            etp = os.path.basename(json_file).replace(".json", ".etp")
+            # etp_file = f"../dump_etps/etps/{etp}"
+            etp_file = f"../dump_etps/AppID_1358750/BuildID_14529657/REFERENCES/pakchunk0-{{PLATFORM}}.pak/Game/Content/NonAssets/ETP/{etp}" #KwK, double curly-braces to escape it
+            build_etp(json_file=json_file, src_etp=etp_file)
+            print(f"\033[32m Packed (ETP_{args.pack_all_language}) {etp}.\033[0m") #KwK
+        except Exception as e:
+            print(f"\033[31m{json_file}\nError At:{e}\033[0m") #KwK
+
+    # json_files = glob.glob("../../../dqx-offline-localization/BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/*.json") #KwK, old format
+    json_files = glob.glob("../../../dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/DONE/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json") #KwK, new format
+    for json_file in json_files:
+        try:
+            etp = os.path.basename(json_file).replace(".json", ".etp")
+            # etp_file = f"../dump_etps/etps/{etp}"
+            etp_file = f"../dump_etps/AppID_1358750/BuildID_14529657/REFERENCES/pakchunk0-{{PLATFORM}}.pak/Game/Content/NonAssets/ETP/{etp}" #KwK, double curly-braces to escape it
+            build_etp(json_file=json_file, src_etp=etp_file)
+            print(f"\033[32m Packed (ETP_{args.pack_all_language}) {etp}.\033[0m") #KwK
+        except Exception as e:
+            print(f"\033[31m{json_file}\nError At:{e}\033[0m") #KwK
+########################################################################################################################################################################################################
+#    json_files = glob.glob("../../../dqx-offline-localization/FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/*.json") #KwK
+#    for json_file in json_files:
+#        try: #KwK
+#            etp = os.path.basename(json_file).replace(".json", ".etp")
+#            etp_file = f"../dump_etps/etps/{etp}"
+#            build_etp(json_file=json_file, src_etp=etp_file)
+#            print(f"\033[32m Packed {etp}.\033[0m") #KwK
+#        except Exception as e: #KwK
+#            print(f"\033[31m{json_file}\nError At:{e}\033[0m") #KwK
+########################################################################################################################################################################################################
 
 def recrypt_file(file: str):
     db_path = "../import_sql/dat_db.db"
@@ -600,12 +640,15 @@ def recrypt_file(file: str):
     result = encrypted_file.fetchone()
     if result:
         # if os.path.exists(f"new_etp/{file}"):
-        if os.path.exists(f"new_etp/ETP_{args.pack_all_language}/{file}"): #KwK
+        # if os.path.exists(f"new_etp/ETP_{args.pack_all_language}/{file}"): #KwK
+        if os.path.exists(f"../../../staging/ETP_{args.pack_all_language}/{file}"): #KwK
             agent = attach_client()
             # encrypt(agent=agent, filepath=f"new_etp/{file}", encryption_key=result[1])
-            encrypt(agent=agent, filepath=f"new_etp/ETP_{args.pack_all_language}/{file}", encryption_key=result[1]) #KwK
+            # encrypt(agent=agent, filepath=f"new_etp/ETP_{args.pack_all_language}/{file}", encryption_key=result[1]) #KwK
+            encrypt(agent=agent, filepath=f"../../../staging/ETP_{args.pack_all_language}/{file}", encryption_key=result[1]) #KwK
             # os.replace(src=f"new_etp/{file}.enc", dst=f"new_etp/{file}")
-            os.replace(src=f"new_etp/ETP_{args.pack_all_language}/{file}.enc", dst=f"new_etp/ETP_{args.pack_all_language}/{file}") #KwK
+            # os.replace(src=f"new_etp/ETP_{args.pack_all_language}/{file}.enc", dst=f"new_etp/ETP_{args.pack_all_language}/{file}") #KwK
+            os.replace(src=f"../../../staging/ETP_{args.pack_all_language}/{file}.enc", dst=f"../../../staging/ETP_{args.pack_all_language}/{file}") #KwK
             agent.detach_game()
     else:
         print(f"{file} was either not originally encrypted or there isn't a stored blowfish key for it in the database.")
@@ -631,7 +674,8 @@ if __name__ == "__main__":
     args = parser.parse_args(args=None if sys.argv[1:] else ["--help"])
 
     # os.makedirs("new_etp", exist_ok=True)
-    os.makedirs(f"new_etp/ETP_{args.pack_all_language}", exist_ok=True) #KwK
+    # os.makedirs(f"new_etp/ETP_{args.pack_all_language}", exist_ok=True) #KwK
+    os.makedirs(f"../../../staging/ETP_{args.pack_all_language}", exist_ok=True) #KwK
 
     if args.pack_all:
         build_all()
@@ -650,4 +694,5 @@ if __name__ == "__main__":
         if args.recrypt:
             file = os.path.basename(args.etp_file)
             # recrypt_file(file=f"new_etp/{file}")
-            recrypt_file(file=f"new_etp/ETP_{args.pack_all_language}/{file}") #KwK
+            # recrypt_file(file=f"new_etp/ETP_{args.pack_all_language}/{file}") #KwK
+            recrypt_file(file=f"../../../staging/ETP_{args.pack_all_language}/{file}") #KwK
