@@ -1,4 +1,4 @@
-![GitHub Actions Workflows (Create_Latest_Release.yml status)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml/badge.svg?branch=testing)
+![GitHub Actions Workflows (Create_Latest_Release_All.yml status)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release_All.yml/badge.svg?branch=main)
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/KodywithaK/dqx-offline-localization/total?logo=github&label=Downloads)
 
 <!-- 

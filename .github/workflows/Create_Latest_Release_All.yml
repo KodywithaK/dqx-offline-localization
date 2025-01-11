@@ -1,0 +1,200 @@
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/*.yml"
+      - "Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json"
+      - "Steam/**/DONE/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json"
+  workflow_dispatch:
+
+jobs:
+
+  Checkout_Repos:
+    permissions: write-all
+    runs-on: self-hosted
+    steps:
+      - name: Checkout dqx_dat_dump
+        uses: actions/checkout@v4
+        with:
+          path: ./test/dqx_dat_dump
+          ref: testing
+          repository: KodywithaK/dqx_dat_dump
+
+      - name: Checkout dqx-offline-localization
+        uses: actions/checkout@v4
+        with:
+          path: ./test/dqx-offline-localization
+          ref: main
+          repository: KodywithaK/dqx-offline-localization
+          # sparse-checkout:
+            #   | # Checks out only the BACKLOG...ETP & FINAL dialog folders
+            #   BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
+            #   FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
+            #   FINAL/pakchunk0-Switch_P/Holiday/Content/Settings/Version/version_settings.json
+            #   responsefile_Switch.txt
+            #   responsefile_WindowsNoEditor.txt
+            #   docs/CHANGELOG.md
+
+      - name: Checkout LocRes-Builder
+        uses: actions/checkout@v4
+        with:
+          path: ./test/LocRes-Builder
+          ref: main
+          repository: KodywithaK/LocRes-Builder
+
+  LocRes-Builder:
+    needs: [Checkout_Repos]
+    runs-on: self-hosted
+    steps:
+      - name: LocRes-Builder Inputs
+        run: |
+          # echo -e "::group::\033[0;34m Building LocRes-Builder's Inputs \033[0m"
+          mkdir -p ${{ github.workspace }}/test/LocRes-Builder/INPUT
+
+          cp "${{ github.workspace }}/test/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locmeta.json" \
+          "${{ github.workspace }}/test/LocRes-Builder/INPUT/locmeta.json"
+
+          for lang in de en es fr it ja ko zh-Hans zh-Hant; do jq \
+            "to_entries| map(reduce . as \$obj ({};{\"key\": \$obj[\"key\"],\"value\": (\$obj[\"value\"]| to_entries| map({\"key\": .key,\"value\": [(if (.value[\"${lang}\"] != \"\")then (.value = .value[\"${lang}\"])else (.value = .value.ja)end)]| from_entries[]})| from_entries)}))| from_entries" \
+            "${{ github.workspace }}/test/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json" \
+            > "${{ github.workspace }}/test/LocRes-Builder/INPUT/${lang}.json"
+          done
+          # echo "::endgroup::"
+
+      - name: LocRes-Builder Outputs
+        run: |
+          echo -e "::group::\033[0;34m Building LocRes-Builder's Outputs \033[0m"
+            mkdir -p ${{ github.workspace }}/test/LocRes-Builder/OUTPUT
+
+            python3 "${{ github.workspace }}/test/LocRes-Builder/src/main.py" \
+            "${{ github.workspace }}/test/LocRes-Builder/INPUT/locmeta.json" \
+            -o="${{ github.workspace }}/test/LocRes-Builder/OUTPUT" -f=json
+
+            for lang in de en es fr it ja ko zh-Hans zh-Hant; do \
+              mkdir -p "${{ github.workspace }}/test/staging/${lang}/Game/Content/Localization/Game/${lang}"
+              
+              cp "${{ github.workspace }}/test/LocRes-Builder/OUTPUT/Game/${lang}/Game.locres" \
+              "${{ github.workspace }}/test/staging/${lang}/Game/Content/Localization/Game/${lang}/Game.locres"
+              
+              mkdir -p "${{ github.workspace }}/test/staging/${lang}/Game/Content/Settings/Version"
+
+              jq -n "{\"AppVersionString\": \"2.0.0\n$(echo -e ${lang}_v$(date -u +%F ))\"}" \
+              > "${{ github.workspace }}/test/staging/${lang}/Game/Content/Settings/Version/version_settings.json"
+            done
+          echo "::endgroup::"
+
+  JSON_to_ETP:
+    needs: [Checkout_Repos, LocRes-Builder]
+    runs-on: self-hosted
+    steps:
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          architecture: "x64"
+          # python-version: '3.x'
+          python-version: "3.11"
+          cache: "pip" # caching pip dependencies
+  
+      - name: Run Python
+        run: |
+          cd ./test/dqx_dat_dump/
+          python -m venv venv
+          source ./venv/bin/activate
+          pip install -r requirements.txt
+          cd ./tools/packing/
+
+          for lang in de en es fr it ja ko zh-Hans zh-Hant; do
+            echo -e "::group::Packing \033[0;32m ETP_${lang}\033[0m"
+              python pack_etp--KwK.py -L ${lang}
+            echo "::endgroup::"
+          done
+
+          deactivate
+          cd ~
+
+  UnrealPak_-Create:
+    needs: [Checkout_Repos, LocRes-Builder, JSON_to_ETP]
+    runs-on: self-hosted
+    steps:
+      - name: UnrealPak -Create
+        run: |
+          for lang in de en es fr it ja ko zh-Hans zh-Hant; do \
+            echo -e "::group::Creating \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m"
+              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak" \
+              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-WindowsNoEditor_${lang}_Latest.pak.txt"
+            echo "::endgroup::"
+
+            echo -e "::group::Listing \033[0;32m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m"
+              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak" \
+              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-WindowsNoEditor_${lang}_Latest.pak.txt" \
+              -List
+            echo "::endgroup::"
+
+            echo -e "::group::Creating \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak" \
+              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-WindowsNoEditor_${lang}_Latest.pak.txt"
+            echo "::endgroup::"
+
+            echo -e "::group::Listing \033[0;32m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak" \
+              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-WindowsNoEditor_${lang}_Latest.pak.txt" \
+              -List
+            echo "::endgroup::"
+
+            ## echo "Successfully created: [pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
+            echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m\n\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+            ## echo "Successfully created: [pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
+            #echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+          done
+#
+#
+#
+#          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+#          "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/en/pakchunk0-WindowsNoEditor_en_Dialogue_Latest_P.pak" \
+#          -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-WindowsNoEditor_TEST_Latest.pak.txt"
+#
+#
+#
+#          mkdir -p ${{ github.workspace }}/downloads
+#          echo -e "::group::Creating \033[0;34mpakchunk0-Switch_English_Dialogue_Latest_P.pak"
+#          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+#              ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak \
+#              -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_Switch.txt
+#          echo "Successfully created: [pakchunk0-Switch_English_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-Switch_English_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
+#          echo -e "\n::notice::\033[0;32mSuccessfully created: \033[0;34mpakchunk0-Switch_English_Dialogue_Latest_P.pak"
+#          echo "::endgroup::"
+#          echo -e "::group::Creating \033[0;34mpakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak"
+#          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+#              ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak \
+#              -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_WindowsNoEditor.txt
+#          echo "Successfully created: [pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
+#          echo -e "\n::notice::\033[0;32mSuccessfully created: \033[0;34mpakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak"
+#          echo "::endgroup::"
+#
+#
+#
+#  Create_Latest_Release:
+#    needs: [Checkout_Repos, LocRes-Builder, JSON_to_ETP, UnrealPak_-Create]
+#    runs-on: self-hosted
+#    steps:
+#      - name: Create Release
+#        env:
+#          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        run: |
+#          gh release delete Latest --yes
+#          gh release create Latest \
+#              ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak \
+#              ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak \
+#              --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
+#          # gh release edit Latest --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md # Not currently implemented as an available command to GitHub Actions CLI
+#          # gh release upload Latest \
+#              # ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak \
+#              # ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak \
+#              # ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md \
+#              # --clobber
+#          echo "Successfully uploaded new file(s) to [Latest release](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Latest)." >> $GITHUB_STEP_SUMMARY
+#          echo -e "\n::notice:: \033[0;32mSuccessfully uploaded new file(s) to Latest release."
