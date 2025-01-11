@@ -27,8 +27,8 @@ to_entries
         "it": "",
         "ja": (.value | values | to_entries[].key),
         "ko": "",
-        "zh-hans": "",
-        "zh-hant": ""
+        "zh-Hans": "",
+        "zh-Hant": ""
     })
 )
 | from_entries
@@ -45,8 +45,8 @@ to_entries
     "it": "",
     "ja": "返事がない。\nただの　しかばねのようだ……。",
     "ko": "",
-    "zh-hans": "",
-    "zh-hant": ""
+    "zh-Hans": "",
+    "zh-Hant": ""
   },
   "88166": {
     "comments": "",
@@ -57,8 +57,8 @@ to_entries
     "it": "",
     "ja": "遺跡の回廊が　くずれている。\nここから　先へは進めないようだ。",
     "ko": "",
-    "zh-hans": "",
-    "zh-hant": ""
+    "zh-Hans": "",
+    "zh-Hant": ""
   }
 }
 ```
@@ -85,8 +85,8 @@ to_entries
         "it": "",
         "ja": (.value | values | to_entries[].key),
         "ko": "",
-        "zh-hans": "",
-        "zh-hant": ""
+        "zh-Hans": "",
+        "zh-Hant": ""
     })
 )
 | from_entries
@@ -94,7 +94,7 @@ to_entries
 
 # CMD FOR /F Loop > JQ Query
 ```bat
-FOR /F %A IN ('dir /b') DO jq "to_entries| map(.value = ({\"de\": \"\",\"en\": (.value | values | to_entries[].value),\"es\": \"\",\"fr\": \"\",\"it\": \"\",\"ja\": (.value | values | to_entries[].key),\"ko\": \"\",\"zh-hans\": \"\",\"zh-hant\": \"\"}))| from_entries" "%A" ^[> "./test/%A"
+FOR /F %A IN ('dir /b') DO jq "to_entries| map(.value = ({\"de\": \"\",\"en\": (.value | values | to_entries[].value),\"es\": \"\",\"fr\": \"\",\"it\": \"\",\"ja\": (.value | values | to_entries[].key),\"ko\": \"\",\"zh-Hans\": \"\",\"zh-Hant\": \"\"}))| from_entries" "%A" ^[> "./test/%A"
 ```
 - rename newly created `test` folder to `ETP`
 # Output
@@ -120,11 +120,11 @@ FOR /F %A IN ('dir /b') DO jq "to_entries| map(.value = ({\"de\": \"\",\"en\": (
     # (.[1] | to_entries | map(.value = ({"ko": (.value | values | to_entries[].key)}))| from_entries) as $ko
     # | .[0], $ko
     # OR
-    # (.[1] | to_entries | map(.value = ({"zh-hans": (.value | values | to_entries[].key)}))| from_entries) as $ko
-    # | .[0], $zh-hans
+    # (.[1] | to_entries | map(.value = ({"zh-Hans": (.value | values | to_entries[].key)}))| from_entries) as $ko
+    # | .[0], $zh-Hans
     # OR
-    # (.[1] | to_entries | map(.value = ({"zh-hant": (.value | values | to_entries[].key)}))| from_entries) as $ko
-    # | .[0], $zh-hant
+    # (.[1] | to_entries | map(.value = ({"zh-Hant": (.value | values | to_entries[].key)}))| from_entries) as $ko
+    # | .[0], $zh-Hant
 ]
 | group_by(.key)
 | map(
@@ -158,8 +158,8 @@ FOR /F %A IN ('dir ETP /b') DO jq -s "[(.[1] | to_entries | map(.value = ({\"ko\
     "it": "Non risponde. È solo un cadavere......",
     "ja": "返事がない。\nただの　しかばねのようだ……。",
     "ko": "返事がない。\nただの　しかばねのようだ……。",
-    "zh-hans": "返事がない。\nただの　しかばねのようだ……。",
-    "zh-hant": "返事がない。\nただの　しかばねのようだ……。"
+    "zh-Hans": "返事がない。\nただの　しかばねのようだ……。",
+    "zh-Hant": "返事がない。\nただの　しかばねのようだ……。"
   }
 }
 ```
@@ -174,12 +174,12 @@ FOR /F %A IN ('dir ETP /b') DO jq -s "[(.[1] | to_entries | map(.value = ({\"ko\
   then (.value."ko" = "")
   else .
   end
-  |if (.value.ja == .value."zh-hans")
-  then (.value."zh-hans" = "")
+  |if (.value.ja == .value."zh-Hans")
+  then (.value."zh-Hans" = "")
   else .
   end
-  |if (.value.ja == .value."zh-hant")
-  then (.value."zh-hant" = "")
+  |if (.value.ja == .value."zh-Hant")
+  then (.value."zh-Hant" = "")
   else .
   end
 )
@@ -198,8 +198,8 @@ FOR /F %A IN ('dir ETP /b') DO jq -s "[(.[1] | to_entries | map(.value = ({\"ko\
     "it": "Non risponde. È solo un cadavere......",
     "ja": "返事がない。\nただの　しかばねのようだ……。",
     "ko": "",
-    "zh-hans": "",
-    "zh-hant": ""
+    "zh-Hans": "",
+    "zh-Hant": ""
   }
 }
 ```

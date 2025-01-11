@@ -1,4 +1,4 @@
-@REM jq --arg LANGUAGE "(de|en|es|fr|it|ja|ko|zh-hans|zh-hant)" 
+@REM jq --arg LANGUAGE "(de|en|es|fr|it|ja|ko|zh-Hans|zh-Hant)" 
 @REM "
 @REM to_entries
 @REM | map(

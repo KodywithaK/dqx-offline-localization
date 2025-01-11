@@ -246,7 +246,7 @@ def build_etp_0_2(json_list: list, src_etp: str):
     etp_file = os.path.basename(src_etp)
     # with open(f"new_etp/{etp_file}", "w+b") as etp_f:
     # with open(f"new_etp/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
-    with open(f"../../../staging/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
+    with open(f"../../../staging/{args.pack_all_language}/Game/Content/NonAssets/ETP/{etp_file}", "w+b") as etp_f: #KwK
         etp_f.write(orig_etp_data)
         etp_f.write(orig_indx_table)
         write_foot(file_obj=etp_f)
@@ -283,7 +283,7 @@ def build_etp_1(json_list: list, src_etp: str):
     etp_file = os.path.basename(src_etp)
     # with open(f"new_etp/{etp_file}", "w+b") as etp_f:
     # with open(f"new_etp/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
-    with open(f"../../../staging/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
+    with open(f"../../../staging/{args.pack_all_language}/Game/Content/NonAssets/ETP/{etp_file}", "w+b") as etp_f: #KwK
         # write beginning of file
         etp_f.write(orig_etp_data)
         etp_f.write(orig_indx_table[:20])
@@ -482,7 +482,7 @@ def build_etp_4(json_list: list, src_etp: str):
     etp_file = os.path.basename(src_etp)
     # with open(f"new_etp/{etp_file}", "w+b") as etp_f:
     # with open(f"new_etp/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
-    with open(f"../../../staging/ETP_{args.pack_all_language}/{etp_file}", "w+b") as etp_f: #KwK
+    with open(f"../../../staging/{args.pack_all_language}/Game/Content/NonAssets/ETP/{etp_file}", "w+b") as etp_f: #KwK
         # write beginning of file
         etp_f.write(orig_etp_data)
 
@@ -641,14 +641,14 @@ def recrypt_file(file: str):
     if result:
         # if os.path.exists(f"new_etp/{file}"):
         # if os.path.exists(f"new_etp/ETP_{args.pack_all_language}/{file}"): #KwK
-        if os.path.exists(f"../../../staging/ETP_{args.pack_all_language}/{file}"): #KwK
+        if os.path.exists(f"../../../staging/{args.pack_all_language}/Game/Content/NonAssets/ETP/{file}"): #KwK
             agent = attach_client()
             # encrypt(agent=agent, filepath=f"new_etp/{file}", encryption_key=result[1])
             # encrypt(agent=agent, filepath=f"new_etp/ETP_{args.pack_all_language}/{file}", encryption_key=result[1]) #KwK
-            encrypt(agent=agent, filepath=f"../../../staging/ETP_{args.pack_all_language}/{file}", encryption_key=result[1]) #KwK
+            encrypt(agent=agent, filepath=f"../../../staging/{args.pack_all_language}/Game/Content/NonAssets/ETP/{file}", encryption_key=result[1]) #KwK
             # os.replace(src=f"new_etp/{file}.enc", dst=f"new_etp/{file}")
             # os.replace(src=f"new_etp/ETP_{args.pack_all_language}/{file}.enc", dst=f"new_etp/ETP_{args.pack_all_language}/{file}") #KwK
-            os.replace(src=f"../../../staging/ETP_{args.pack_all_language}/{file}.enc", dst=f"../../../staging/ETP_{args.pack_all_language}/{file}") #KwK
+            os.replace(src=f"../../../staging/{args.pack_all_language}/Game/Content/NonAssets/ETP/{file}.enc", dst=f"../../../staging/{args.pack_all_language}/Game/Content/NonAssets/ETP/{file}") #KwK
             agent.detach_game()
     else:
         print(f"{file} was either not originally encrypted or there isn't a stored blowfish key for it in the database.")
@@ -675,7 +675,7 @@ if __name__ == "__main__":
 
     # os.makedirs("new_etp", exist_ok=True)
     # os.makedirs(f"new_etp/ETP_{args.pack_all_language}", exist_ok=True) #KwK
-    os.makedirs(f"../../../staging/ETP_{args.pack_all_language}", exist_ok=True) #KwK
+    os.makedirs(f"../../../staging/{args.pack_all_language}/Game/Content/NonAssets/ETP", exist_ok=True) #KwK
 
     if args.pack_all:
         build_all()
@@ -695,4 +695,4 @@ if __name__ == "__main__":
             file = os.path.basename(args.etp_file)
             # recrypt_file(file=f"new_etp/{file}")
             # recrypt_file(file=f"new_etp/ETP_{args.pack_all_language}/{file}") #KwK
-            recrypt_file(file=f"../../../staging/ETP_{args.pack_all_language}/{file}") #KwK
+            recrypt_file(file=f"../../../staging/{args.pack_all_language}/Game/Content/NonAssets/ETP/{file}") #KwK

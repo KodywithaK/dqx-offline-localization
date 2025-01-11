@@ -50,8 +50,11 @@ jobs:
         run: |
           # echo -e "::group::\033[0;34mBuilding LocRes-Builder's Inputs\033[0;0m"
           mkdir -p ${{ github.workspace }}/test/LocRes-Builder/INPUT
-          cp "${{ github.workspace }}/test/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locmeta.json" "${{ github.workspace }}/test/LocRes-Builder/INPUT/locmeta.json"
-          for lang in de en es fr it ja ko zh-Hans zh-Hant; do jq --arg LANGUAGE $lang \
+
+          cp "${{ github.workspace }}/test/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locmeta.json" \
+          "${{ github.workspace }}/test/LocRes-Builder/INPUT/locmeta.json"
+
+          for lang in de en es fr it ja ko zh-Hans zh-Hant; do jq \
             "to_entries| map(reduce . as \$obj ({};{\"key\": \$obj[\"key\"],\"value\": (\$obj[\"value\"]| to_entries| map({\"key\": .key,\"value\": [(if (.value[\"${lang}\"] != \"\")then (.value = .value[\"${lang}\"])else (.value = .value.ja)end)]| from_entries[]})| from_entries)}))| from_entries" \
             "${{ github.workspace }}/test/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json" \
             > "${{ github.workspace }}/test/LocRes-Builder/INPUT/${lang}.json"
@@ -62,40 +65,53 @@ jobs:
         run: |
           echo -e "::group::\033[0;34mBuilding LocRes-Builder's Outputs\033[0;0m"
             mkdir -p ${{ github.workspace }}/test/LocRes-Builder/OUTPUT
+
             python3 "${{ github.workspace }}/test/LocRes-Builder/src/main.py" \
             "${{ github.workspace }}/test/LocRes-Builder/INPUT/locmeta.json" \
             -o="${{ github.workspace }}/test/LocRes-Builder/OUTPUT" -f=json
+
+            for lang in de en es fr it ja ko zh-Hans zh-Hant; do \
+              mkdir -p "${{ github.workspace }}/test/staging/${lang}/Game/Content/Localization/Game/${lang}"
+              
+              cp "${{ github.workspace }}/test/LocRes-Builder/OUTPUT/Game/${lang}/Game.locres" \
+              "${{ github.workspace }}/test/staging/${lang}/Game/Content/Localization/Game/${lang}/Game.locres"
+              
+              mkdir -p "${{ github.workspace }}/test/staging/${lang}/Game/Content/Setting/Version"
+
+              jq -n "{\"AppVersionString\": \"2.0.0\n$(echo -e ${lang}_v$(date -u +%F ))\"}" \
+              > "${{ github.workspace }}/test/staging/${lang}/Game/Content/Setting/Version/version_settings.json"
+            done
           echo "::endgroup::"
-#
-#  JSON_to_ETP:
-#    needs: Checkout_Repos
-#    runs-on: self-hosted
-#    steps:
-#      - name: Install Python
-#        uses: actions/setup-python@v4
-#        with:
-#          architecture: "x64"
-#          # python-version: '3.x'
-#          python-version: "3.11"
-#          cache: "pip" # caching pip dependencies
-#  
-#      - name: Run Python
-#        run: |
-#          cd ./dqx_dat_dump/
-#          python -m venv venv
-#          source ./venv/bin/activate
-#          pip install -r requirements.txt
-#          cd ./tools/packing/
-#
-#
-#
-#          # Trying loop first, if doesn't work correctly, then will try indiviually
-#          for i in de en es fr it ja ko zh-hans zh-hant
-#              do
-#                  echo -e "::group::\033[0;34mPacking ETP_$i\033[0;0m"
-#                  echo "python ./pack_etp--KwK.py -L $i"
-#                  echo "::endgroup::"
-#          done
+
+  JSON_to_ETP:
+    needs: [Checkout_Repos, LocRes-Builder]
+    runs-on: self-hosted
+    steps:
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          architecture: "x64"
+          # python-version: '3.x'
+          python-version: "3.11"
+          cache: "pip" # caching pip dependencies
+  
+      - name: Run Python
+        run: |
+          cd ./test/dqx_dat_dump/
+          python -m venv venv
+          source ./venv/bin/activate
+          pip install -r requirements.txt
+          cd ./tools/packing/
+
+          # Trying loop first, if doesn't work correctly, then will try indiviually
+          for lang in de en es fr it ja ko zh-Hans zh-Hant; do
+            echo -e "::group::Packing \033[0;32mETP_${lang}\033[0m"
+              python pack_etp--KwK.py -L ${lang}
+            echo "::endgroup::"
+          done
+
+          deactivate
+          cd ~
 #
 #
 #
@@ -140,7 +156,7 @@ jobs:
 #
 #
 #  UnrealPak_-Create:
-#    needs: [Checkout_Repos, JSON_to_ETP, LocRes_Builder]
+#    needs: [Checkout_Repos, LocRes-Builder, JSON_to_ETP]
 #    runs-on: self-hosted
 #    steps:
 #      - name: UnrealPak -Create
@@ -162,7 +178,7 @@ jobs:
 #          echo "::endgroup::"
 #
 #  Create_Latest_Release:
-#    needs: [Checkout_Repos, JSON_to_ETP, UnrealPak_-Create]
+#    needs: [Checkout_Repos, LocRes-Builder, JSON_to_ETP, UnrealPak_-Create]
 #    runs-on: self-hosted
 #    steps:
 #      - name: Create Release
