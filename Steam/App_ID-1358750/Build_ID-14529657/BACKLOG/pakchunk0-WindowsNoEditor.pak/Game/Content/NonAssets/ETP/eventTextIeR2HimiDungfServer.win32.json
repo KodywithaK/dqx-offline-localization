@@ -1,35 +1,38 @@
 {
-  "71208": {
-    "de": "",
-    "en": "",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "扉には　カギが　かけられている。",
-    "ko": "문은 잠겨 있다.",
-    "zh-Hans": "门上着锁。",
-    "zh-Hant": "門上鎖了。"
-  },
-  "71209": {
-    "de": "",
-    "en": "",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "扉には　カギが　かけられている。<bw_break>",
-    "ko": "문은 잠겨 있다.<bw_break>",
-    "zh-Hans": "门上着锁。<bw_break>",
-    "zh-Hant": "門上鎖了。<bw_break>"
-  },
-  "71210": {
-    "de": "",
-    "en": "",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　ダイム老から　託された\n古びた銀のカギを使って　扉を開けた！<se_nots joutyu tag_map_common_kagi_akeru>",
-    "ko": "{pc}|hpp(은,는) 다임 공에게서 받은\n오래된 은 열쇠를 사용해서 문을 열었다!<se_nots joutyu tag_map_common_kagi_akeru>",
-    "zh-Hans": "<pc>使用了从戴姆爷爷那里拿到的\n陈旧的银钥匙，门打开了！<se_nots joutyu tag_map_common_kagi_akeru>",
-    "zh-Hant": "<pc>使用戴姆爺爺交付的\n陳舊的銀鑰匙將門扉打開了！<se_nots joutyu tag_map_common_kagi_akeru>"
-  }
+    "71208": {
+        "comments": "",
+        "de": "Die Tür ist verschlossen mit Schüssel.",
+        "en": "The door is locked.",
+        "es": "La puerta está cerrada con llave.",
+        "fr": "La porte est fermée à clé.",
+        "it": "La porta è chiusa a chiave.",
+        "ja": "扉には　カギが　かけられている。",
+        "ko": "문은 잠겨 있다.",
+        "zh-Hans": "门上着锁。",
+        "zh-Hant": "門上鎖了。"
+    },
+    "71209": {
+        "comments": "",
+        "de": "Die Tür ist verschlossen mit Schüssel.<bw_break>",
+        "en": "The door is locked.<bw_break>",
+        "es": "La puerta está cerrada con llave.<bw_break>",
+        "fr": "La porte est fermée à clé.<bw_break>",
+        "it": "La porta è chiusa a chiave.<bw_break>",
+        "ja": "扉には　カギが　かけられている。<bw_break>",
+        "ko": "문은 잠겨 있다.<bw_break>",
+        "zh-Hans": "门上着锁。<bw_break>",
+        "zh-Hant": "門上鎖了。<bw_break>"
+    },
+    "71210": {
+        "comments": "",
+        "de": "",
+        "en": "",
+        "es": "",
+        "fr": "",
+        "it": "",
+        "ja": "<pc>は　ダイム老から　託された\n古びた銀のカギを使って　扉を開けた！<se_nots joutyu tag_map_common_kagi_akeru>",
+        "ko": "{pc}|hpp(은,는) 다임 공에게서 받은\n오래된 은 열쇠를 사용해서 문을 열었다!<se_nots joutyu tag_map_common_kagi_akeru>",
+        "zh-Hans": "<pc>使用了从戴姆爷爷那里拿到的\n陈旧的银钥匙，门打开了！<se_nots joutyu tag_map_common_kagi_akeru>",
+        "zh-Hant": "<pc>使用戴姆爺爺交付的\n陳舊的銀鑰匙將門扉打開了！<se_nots joutyu tag_map_common_kagi_akeru>"
+    }
 }

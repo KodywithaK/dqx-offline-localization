@@ -1081,6 +1081,43 @@
   >
   > `tw`: 沒有回應， 看來只是普通的屍骸……
 
+- Mysterious voice speaks to you
+
+  > Find
+  > ```html
+  > <center>{HERO}　聞こえますか？
+  > ```
+  > Replace
+  > ```html
+  > <center>{HERO}, can you hear me?
+  > ```
+  > or
+  >
+  > `de`: <center>{HERO}, hören Sie mich?
+  >
+  > `es`: <center>{HERO}, ¿puedes oírme?
+  >
+  > `fr`: <center>{HERO}, est-ce que vous m'entendez?
+  >
+  > `it`: <center>{HERO}, mi senti?
+  >
+  > `ko`: <center>더스턴, 들립니까?
+  >
+  > `tw`: <center>达斯顿，能听见吗？
+  >
+  > `cn`: <center>達斯頓，聽得到嗎
+
+- Add comments section
+
+  > Find
+  > ```html
+  > (?<!"comments": ".*?",)(?="de")
+  > ```
+  > Replace
+  > ```html
+  > "comments": "",\n        
+  > ```
+
 
 ## Recommended Character Counts
   - ~~Text in a standard dialog box fits perfectly at `42vw x 13vh`, usually:~~

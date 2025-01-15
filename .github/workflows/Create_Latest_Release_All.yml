@@ -8,7 +8,6 @@ on:
   workflow_dispatch:
 
 jobs:
-
   Checkout_Repos:
     permissions: write-all
     runs-on: self-hosted
@@ -27,13 +26,13 @@ jobs:
           ref: main
           repository: KodywithaK/dqx-offline-localization
           # sparse-checkout:
-            #   | # Checks out only the BACKLOG...ETP & FINAL dialog folders
-            #   BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
-            #   FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
-            #   FINAL/pakchunk0-Switch_P/Holiday/Content/Settings/Version/version_settings.json
-            #   responsefile_Switch.txt
-            #   responsefile_WindowsNoEditor.txt
-            #   docs/CHANGELOG.md
+          #   | # Checks out only the BACKLOG...ETP & FINAL dialog folders
+          #   BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
+          #   FINAL/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/
+          #   FINAL/pakchunk0-Switch_P/Holiday/Content/Settings/Version/version_settings.json
+          #   responsefile_Switch.txt
+          #   responsefile_WindowsNoEditor.txt
+          #   docs/CHANGELOG.md
 
       - name: Checkout LocRes-Builder
         uses: actions/checkout@v4
@@ -94,7 +93,7 @@ jobs:
           # python-version: '3.x'
           python-version: "3.11"
           cache: "pip" # caching pip dependencies
-  
+
       - name: Run Python
         run: |
           cd ./test/dqx_dat_dump/
@@ -119,6 +118,19 @@ jobs:
       - name: UnrealPak -Create
         run: |
           for lang in de en es fr it ja ko zh-Hans zh-Hant; do \
+            echo -e "::group::Creating \033[0;34m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m"
+              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak" \
+              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/Holiday/response_file--pakchunk0-ios_${lang}_Latest.pak.txt"
+            echo "::endgroup::"
+
+            echo -e "::group::Listing \033[0;32m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m"
+              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak" \
+              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/Holiday/response_file--pakchunk0-ios_${lang}_Latest.pak.txt" \
+              -List
+            echo "::endgroup::"
+
             echo -e "::group::Creating \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m"
               ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
               "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak" \
@@ -145,11 +157,16 @@ jobs:
               -List
             echo "::endgroup::"
 
+            ## echo "Successfully created: [pakchunk0-ios_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
+            echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m\n\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+
             ## echo "Successfully created: [pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
             echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m\n\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+
             ## echo "Successfully created: [pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
             #echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
           done
+
 #
 #
 #
