@@ -167,32 +167,52 @@ jobs:
             #echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
           done
 
-#
-#
-#
-#          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-#          "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/en/pakchunk0-WindowsNoEditor_en_Dialogue_Latest_P.pak" \
-#          -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-WindowsNoEditor_TEST_Latest.pak.txt"
-#
-#
-#
-#          mkdir -p ${{ github.workspace }}/downloads
-#          echo -e "::group::Creating \033[0;34mpakchunk0-Switch_English_Dialogue_Latest_P.pak"
-#          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-#              ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak \
-#              -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_Switch.txt
-#          echo "Successfully created: [pakchunk0-Switch_English_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-Switch_English_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
-#          echo -e "\n::notice::\033[0;32mSuccessfully created: \033[0;34mpakchunk0-Switch_English_Dialogue_Latest_P.pak"
-#          echo "::endgroup::"
-#          echo -e "::group::Creating \033[0;34mpakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak"
-#          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-#              ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak \
-#              -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_WindowsNoEditor.txt
-#          echo "Successfully created: [pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
-#          echo -e "\n::notice::\033[0;32mSuccessfully created: \033[0;34mpakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak"
-#          echo "::endgroup::"
-#
-#
+  #
+  #
+  #
+  #          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+  #          "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/en/pakchunk0-WindowsNoEditor_en_Dialogue_Latest_P.pak" \
+  #          -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-WindowsNoEditor_TEST_Latest.pak.txt"
+  #
+  #
+  #
+  #          mkdir -p ${{ github.workspace }}/downloads
+  #          echo -e "::group::Creating \033[0;34mpakchunk0-Switch_English_Dialogue_Latest_P.pak"
+  #          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+  #              ${{ github.workspace }}/downloads/pakchunk0-Switch_English_Dialogue_Latest_P.pak \
+  #              -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_Switch.txt
+  #          echo "Successfully created: [pakchunk0-Switch_English_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-Switch_English_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
+  #          echo -e "\n::notice::\033[0;32mSuccessfully created: \033[0;34mpakchunk0-Switch_English_Dialogue_Latest_P.pak"
+  #          echo "::endgroup::"
+  #          echo -e "::group::Creating \033[0;34mpakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak"
+  #          ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+  #              ${{ github.workspace }}/downloads/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak \
+  #              -Create=${{ github.workspace }}/dqx-offline-localization/responsefile_WindowsNoEditor.txt
+  #          echo "Successfully created: [pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
+  #          echo -e "\n::notice::\033[0;32mSuccessfully created: \033[0;34mpakchunk0-WindowsNoEditor_English_Dialogue_Latest_P.pak"
+  #          echo "::endgroup::"
+  #
+  #
+  #
+  Create_Latest_Release:
+    needs: [Checkout_Repos, LocRes-Builder, JSON_to_ETP, UnrealPak_-Create]
+    runs-on: self-hosted
+    steps:
+      - name: Create Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # gh release delete Latest --yes
+          gh release create Multi-Language-Test \
+              #${{ github.workspace }}/test/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \
+              #${{ github.workspace }}/test/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \
+              ${{ github.workspace }}/test/staging/*/pakchunk0-Switch_*_Dialogue_Latest_P.pak \
+              ${{ github.workspace }}/test/staging/*/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak \
+              --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md \
+              --prerelease
+          echo "Successfully uploaded new file(s) to [Latest release](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Latest)." >> $GITHUB_STEP_SUMMARY
+          echo -e "\n::notice:: \033[0;32mSuccessfully uploaded new file(s) to Latest release."
+
 #
 #  Create_Latest_Release:
 #    needs: [Checkout_Repos, LocRes-Builder, JSON_to_ETP, UnrealPak_-Create]
