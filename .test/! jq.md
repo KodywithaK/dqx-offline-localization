@@ -398,6 +398,79 @@
 >
 > </details>
 
+<details><summary><h1>Merge DQ3make DataTables & Game.locres.json by keys</h1></summary>
+
+> ####################################################################################################
+>
+> # Input
+>
+> - {`DQ3make`: {`TEXT_NOUN_<ALL LANGUAGES>:TEXT_NOUN_Monster_Name_*`}}
+> - `Game.locres.json`: `STT_BattleMonsterName`
+>   ####################################################################################################
+>
+> # JQ Query
+>
+> ```js
+> # jq -n -S
+> [
+>     inputs[]
+>     | to_entries
+>     | map(
+>         .key as $k
+>         | .value = (
+>             .value
+>             | .key = $k
+>         )
+>     )[]
+> ]
+> | group_by(
+>     .value.en
+> )
+> | map(
+> 	.[0].key = .[1].key
+>     | .[0]
+>     | select(.key != null)
+>     | select(.value | has("de"))
+>     | del(.value.["key","RubyText","Text"])
+> )
+> | from_entries
+> | {STT_BattleMonsterName: .}
+> ```
+>
+> ####################################################################################################
+>
+> # Output
+>
+> ```json
+> {
+>   "STT_BattleMonsterName": {
+>     "ID_MONSTER_NAME_00100": {
+>       "SelfId": "TEXT_NOUN_Monster_Name_Slime",
+>       "de": "Schleim",
+>       "en": "Slime",
+>       "es": "Limo",
+>       "fr": "Gluant",
+>       "it": "Slime"
+>     },
+>     "ID_MONSTER_NAME_00101": {
+>       "SelfId": "TEXT_NOUN_Monster_Name_Sheslime",
+>       "de": "Schleimette",
+>       "en": "She-Slime",
+>       "es": "Lima",
+>       "fr": "Gluante",
+>       "it": "Slime arancione"
+>     }
+>     // ...
+>   }
+> }
+> ```
+>
+> ####################################################################################################
+>
+> ---
+>
+> </details>
+
 <details><summary><h1>TBD</h1></summary>
 
 <!--

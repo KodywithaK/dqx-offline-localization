@@ -202,14 +202,14 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # gh release delete Latest --yes
           gh release delete Multi-Language-Test --yes
           gh release create Multi-Language-Test \
               ${{ github.workspace }}/test/staging/*/pakchunk0-Switch_*_Dialogue_Latest_P.pak \
               ${{ github.workspace }}/test/staging/*/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak \
-              --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
-              echo "Successfully uploaded new file(s) to [Latest release](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Latest)." >> $GITHUB_STEP_SUMMARY
-              echo -e "\n::notice:: \033[0;32mSuccessfully uploaded new file(s) to Latest release."
+              --prerelease --notes-file ${{ github.workspace }}/dqx-offline-localization/docs/CHANGELOG.md
+
+              echo "Successfully uploaded new file(s) to [Releases/Multi-Language-Test](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Multi-Language-Test)." >> $GITHUB_STEP_SUMMARY
+              echo -e "\n::notice:: \033[0;32m Successfully uploaded new file(s) to Latest release. \033[0m"
 
 #              gh release create Multi-Language-Test \
 #                  # ${{ github.workspace }}/test/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \
