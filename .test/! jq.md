@@ -1,3 +1,273 @@
+<details><summary><h1>`.etp` - Old to New Format</h1></summary>
+
+> # JQ Query
+>
+> ````js
+> ####################################################################################################
+> # Expected Input:
+> # - <ETP_NAME>.etp.json (old format)
+> # // ```json
+> # // {
+> # //   "key_01": {
+> # //     "<value_ja_01>": "<value_en_01>"
+> # //   },
+> # //   "key_0": {
+> # //     "<value_ja_02>": "<value_en_02>"
+> # //   },
+> # //   "key_0": {
+> # //     "<value_ja_03>": "<value_en_03>"
+> # //   }
+> # // }
+> # // ```
+> # // For Example:
+> # // ```json
+> # // {
+> # //   "19000000": {
+> # //     "<voice 00480_19000000><start_lip_sync br01 _normal m00001>「姉ちゃーん！<stop_lip_animation br01 CLOSE_MOUTH>": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>Hey, sis!<stop_lip_animation br01 CLOSE_MOUTH>"
+> # //   },
+> # //   "19000002": {
+> # //     "<voice 00480_19000002><start_lip_sync br01 _normal m00001>「兄ちゃーん！<stop_lip_animation br01 CLOSE_MOUTH>": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>Hey, bro!<stop_lip_animation br01 CLOSE_MOUTH>"
+> # //   },
+> # //   "19000005": {
+> # //     "<voice 00480_19000005><start_lip_sync br01 _normal m00001>「<pc>ー！<stop_lip_animation br01 CLOSE_MOUTH>": "<voice 00480_19000005><start_lip_sync br01 _normal m00001><pc>!<stop_lip_animation br01 CLOSE_MOUTH>"
+> # //   }
+> # // }
+> # // ```
+> ####################################################################################################
+> # jq
+> to_entries
+> | map(
+>     reduce . as $obj ({}; {
+>         "key": $obj.["key"],
+>         "value": {"en": $obj.["value"][]}
+>     })
+> )
+> | from_entries
+> ####################################################################################################
+> # Expected Output:
+> # // ```json
+> # // {
+> # //   "key_01": {
+> # //     "en": "value_01"
+> # //   },
+> # //   "key_02": {
+> # //     "en": "value_02"
+> # //   },
+> # //   "key_03": {
+> # //     "en": "value_03"
+> # //   }
+> # // }
+> # // ...
+> # // ```
+> # For Example:
+> # // ```json
+> # // {
+> # //   "19000000": {
+> # //     "en": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>Hey, sis!<stop_lip_animation br01 CLOSE_MOUTH>"
+> # //   },
+> # //   "19000002": {
+> # //     "en": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>Hey, bro!<stop_lip_animation br01 CLOSE_MOUTH>"
+> # //   },
+> # //   "19000005": {
+> # //     "en": "<voice 00480_19000005><start_lip_sync br01 _normal m00001><pc>!<stop_lip_animation br01 CLOSE_MOUTH>"
+> # //   }
+> # // }
+> # // ...
+> # // ```
+> ####################################################################################################
+> # Next Step:
+> # Merge new `ETP_NAME.etp.json` into Main
+> ####################################################################################################
+> ````
+>
+> </details>
+>
+> > <details><summary><h2>Merge new `ETP_NAME.etp.json` into Main</h2></summary>
+> >
+> > ## JQ Query
+> >
+> > ```js
+> > ####################################################################################################
+> > # Expected Input:
+> > # - <ETP_NAME>.etp.json (new formats)
+> > # // {
+> > # //   "key_01": {
+> > # //     "de": "",
+> > # //     "en": "",
+> > # //     "es": "",
+> > # //     "fr": "",
+> > # //     "it": "",
+> > # //     "ja": "<value_ja_01>",
+> > # //     "ko": "<value_ko_01>",
+> > # //     "zh-Hans": "<value_zh-Hans_01>",
+> > # //     "zh-Hant": "<value_zh-Hant_01>",
+> > # //   },
+> > # //   "key_02": {
+> > # //     "de": "",
+> > # //     "en": "",
+> > # //     "es": "",
+> > # //     "fr": "",
+> > # //     "it": "",
+> > # //     "ja": "<value_ja_02>",
+> > # //     "ko": "<value_ko_02>",
+> > # //     "zh-Hans": "<value_zh-Hans_02>",
+> > # //     "zh-Hant": "<value_zh-Hant_02>",
+> > # //   },
+> > # //   "key_03": {
+> > # //     "de": "",
+> > # //     "en": "",
+> > # //     "es": "",
+> > # //     "fr": "",
+> > # //     "it": "",
+> > # //     "ja": "<value_ja_03>",
+> > # //     "ko": "<value_ko_03>",
+> > # //     "zh-Hans": "<value_zh-Hans_03>",
+> > # //     "zh-Hant": "<value_zh-Hant_03>",
+> > # //   }
+> > # // }
+> > # // {
+> > # //   "key_01": {
+> > # //     "en": "<value_en_01>"
+> > # //   },
+> > # //   "key_02": {
+> > # //     "en": "<value_en_03>"
+> > # //   },
+> > # //   "key_03": {
+> > # //     "ja": "<value_en_02>"
+> > # //   }
+> > # // }
+> > # For Example:
+> > # // {
+> > # //   "19000000": {
+> > # //     "de": "",
+> > # //     "en": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>Hey, sis!<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "es": "",
+> > # //     "fr": "",
+> > # //     "it": "",
+> > # //     "ja": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>「姉ちゃーん！<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "ko": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>: 누나~!<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "zh-Hans": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>姐姐！<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "zh-Hant": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>姊姊──！<stop_lip_animation br01 CLOSE_MOUTH>"
+> > # //   },
+> > # //   "19000002": {
+> > # //     "de": "",
+> > # //     "en": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>Hey, bro!<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "es": "",
+> > # //     "fr": "",
+> > # //     "it": "",
+> > # //     "ja": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>「兄ちゃーん！<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "ko": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>: 형~!<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "zh-Hans": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>哥哥！<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "zh-Hant": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>哥哥──！<stop_lip_animation br01 CLOSE_MOUTH>"
+> > # //   },
+> > # //   "19000005": {
+> > # //     "de": "",
+> > # //     "en": "<voice 00480_19000005><start_lip_sync br01 _normal m00001><pc>!<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "es": "",
+> > # //     "fr": "",
+> > # //     "it": "",
+> > # //     "ja": "<voice 00480_19000005><start_lip_sync br01 _normal m00001>「<pc>ー！<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "ko": "<voice 00480_19000005><start_lip_sync br01 _normal m00001>: <pc>~!<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "zh-Hans": "<voice 00480_19000005><start_lip_sync br01 _normal m00001><pc>！<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "zh-Hant": "<voice 00480_19000005><start_lip_sync br01 _normal m00001><pc>──！<stop_lip_animation br01 CLOSE_MOUTH>"
+> > # //   }
+> > # // }
+> > # //
+> > # // {
+> > # //   "19000000": {
+> > # //     "en": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>Hey, sis!<stop_lip_animation br01 CLOSE_MOUTH>"
+> > # //   },
+> > # //   "19000002": {
+> > # //     "en": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>Hey, bro!<stop_lip_animation br01 CLOSE_MOUTH>"
+> > # //   },
+> > # //   "19000005": {
+> > # //     "en": "<voice 00480_19000005><start_lip_sync br01 _normal m00001><pc>!<stop_lip_animation br01 CLOSE_MOUTH>"
+> > # //   }
+> > # // }
+> > # // ...
+> > ####################################################################################################
+> > # jq -s
+> > reduce .[] as $obj ({}; . * $obj)
+> > ####################################################################################################
+> > # Expected Output:
+> > # // {
+> > # //   "key_01": {
+> > # //     "de": "",
+> > # //     "en": "<value_en_01>",
+> > # //     "es": "",
+> > # //     "fr": "",
+> > # //     "it": "",
+> > # //     "ja": "<value_ja_01>",
+> > # //     "ko": "<value_ko_01>",
+> > # //     "zh-Hans": "<value_zh-Hans_01>",
+> > # //     "zh-Hant": "<value_zh-Hant_01>",
+> > # //   },
+> > # //   "key_02": {
+> > # //     "de": "",
+> > # //     "en": "<value_en_02>",
+> > # //     "es": "",
+> > # //     "fr": "",
+> > # //     "it": "",
+> > # //     "ja": "<value_ja_02>",
+> > # //     "ko": "<value_ko_02>",
+> > # //     "zh-Hans": "<value_zh-Hans_02>",
+> > # //     "zh-Hant": "<value_zh-Hant_02>",
+> > # //   },
+> > # //   "key_03": {
+> > # //     "de": "",
+> > # //     "en": "<value_en_03>",
+> > # //     "es": "",
+> > # //     "fr": "",
+> > # //     "it": "",
+> > # //     "ja": "<value_ja_03>",
+> > # //     "ko": "<value_ko_03>",
+> > # //     "zh-Hans": "<value_zh-Hans_03>",
+> > # //     "zh-Hant": "<value_zh-Hant_03>",
+> > # //   }
+> > # // }
+> > # For Example:
+> > # // {
+> > # //   "19000000": {
+> > # //     "de": "",
+> > # //     "en": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>Hey, sis!<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "es": "",
+> > # //     "fr": "",
+> > # //     "it": "",
+> > # //     "ja": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>「姉ちゃーん！<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "ko": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>: 누나~!<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "zh-Hans": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>姐姐！<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "zh-Hant": "<voice 00480_19000000><start_lip_sync br01 _normal m00001>姊姊──！<stop_lip_animation br01 CLOSE_MOUTH>"
+> > # //   },
+> > # //   "19000002": {
+> > # //     "de": "",
+> > # //     "en": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>Hey, bro!<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "es": "",
+> > # //     "fr": "",
+> > # //     "it": "",
+> > # //     "ja": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>「兄ちゃーん！<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "ko": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>: 형~!<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "zh-Hans": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>哥哥！<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "zh-Hant": "<voice 00480_19000002><start_lip_sync br01 _normal m00001>哥哥──！<stop_lip_animation br01 CLOSE_MOUTH>"
+> > # //   },
+> > # //   "19000005": {
+> > # //     "de": "",
+> > # //     "en": "<voice 00480_19000005><start_lip_sync br01 _normal m00001><pc>!<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "es": "",
+> > # //     "fr": "",
+> > # //     "it": "",
+> > # //     "ja": "<voice 00480_19000005><start_lip_sync br01 _normal m00001>「<pc>ー！<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "ko": "<voice 00480_19000005><start_lip_sync br01 _normal m00001>: <pc>~!<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "zh-Hans": "<voice 00480_19000005><start_lip_sync br01 _normal m00001><pc>！<stop_lip_animation br01 CLOSE_MOUTH>",
+> > # //     "zh-Hant": "<voice 00480_19000005><start_lip_sync br01 _normal m00001><pc>──！<stop_lip_animation br01 CLOSE_MOUTH>"
+> > # //   }
+> > # // }
+> > ####################################################################################################
+> > ```
+
+---
+
+</details>
+
 <details><summary><h1>`StringTable.csv` to `StringTable.json`</h1></summary>
 
 > # JQ Query
@@ -295,7 +565,6 @@
 > # //     }
 > # //   }
 > # // }
-> # // ```
 > ####################################################################################################
 > # jq
 > . as {$STT_CareerStoryVer1: {$key: $values}}
@@ -328,13 +597,13 @@
 > # //   }
 > # // }
 > ####################################################################################################
-> ````
+> ```
 >
 > ---
 >
 > ## JQ Query
 >
-> ````js
+> ```js
 > ####################################################################################################
 > # Expected Input:
 > # - `Game.locres.json`
