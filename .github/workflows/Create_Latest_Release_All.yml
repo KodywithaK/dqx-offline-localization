@@ -3,6 +3,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/*.yml"
+      - "Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json"
       - "Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json"
       - "Steam/**/DONE/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json"
   workflow_dispatch:

@@ -1027,3 +1027,13 @@ UnrealPak.exe "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFL
 > [^1]: [GitHub Docs - Hosting your own runners](https://docs.github.com/en/actions/hosting-your-own-runners).
 > [^2]: This tutorial roughly follows the [Linux Native compilation guide](https://github.com/EpicGames/UnrealEngine/blob/4.27.2-release/Engine/Build/BatchFiles/Linux/README.md) from `github.com/EpicGames/UnrealEngine`.
 > [^3]: Correct [Commit.gitdeps.xml](https://github.com/EpicGames/UnrealEngine/releases/download/4.27.2-release/Commit.gitdeps.xml) to prevent `(403) Forbidden` errors during `updating dependencies` step.
+>
+> [ドラゴンクエストX　目覚めし五つの種族　オフライン - Purchase on Android](https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.dq10offline)
+>
+> [ドラゴンクエストX　目覚めし五つの種族　オフライン - Purchase on iOS](https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88x-%E7%9B%AE%E8%A6%9A%E3%82%81%E3%81%97%E4%BA%94%E3%81%A4%E3%81%AE%E7%A8%AE%E6%97%8F-%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3/id6504323939)
+>
+> [ドラゴンクエストX　目覚めし五つの種族　オフライン - Purchase on PlayStation](https://store.playstation.com/ja-jp/product/JP0082-PPSA04410_00-DEMO000000000000)
+>
+> [ドラゴンクエストX　目覚めし五つの種族　オフライン - Purchase on Steam](https://store.steampowered.com/app/1358750/X__OFFLINE/)
+>
+> [ドラゴンクエストX　目覚めし五つの種族　オフライン - Purchase on Switch](https://store-jp.nintendo.com/item/software/D70010000042357)
