@@ -2,7 +2,7 @@
   "141911": {
     "comments": "STT_NpcInfo.NAME_NPC_01598",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Hello, <pc>. If you're looking for Lady Abba,\nshe's currently resting in her room so you won't be\nable to see her.\n<br>\nIf you have business with her, I belive her grandson,\nShini—in the next room—would be happy to help.\nNow then...<bw_break>",
+    "en": "<attr><feel_happy_one><end_attr>Hello, <pc>. If you're looking for Lady Abba,\nshe's currently resting in her room, so you won't be\nable to see her.\n<br>\nIf you have business with her, I belive her grandson,\nShini—in the next room—would be happy to help.\nNow then...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -50,7 +50,7 @@
   "141915": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>What? You're going to Abba's to apologize for\n<kyodai>'s mistake? I'll pray for <kyodai>'s safety.\nHer grandson, Shini, is a lovely boy but Abba\n<br>\nherself is just plain scary when she gets mad!",
+    "en": "<attr><feel_happy_lv3><end_attr>What? You're going to Abba's to apologize for\n<kyodai>'s mistake!? When Lady Abba's\nangry, she's super scary.\n<br>\n<pc>, I'll pray that she doesn't scold you\ntoo harshly!\n<br>\nTo find Lady Abba's place, you can open your map with\n<emoji FaceButton_Left>, and look for the shining ring. Then, try pressing <emoji FaceButton_Right>.\n<br>\nFrom there, if you choose \"Character List\", you'll see\nwho's where. It has other useful functions too, so give\nthem a try.\n<br>\nHer grandson, Shini, is a really kind, lovely person,\nwhereas—Lady Abba is really scary. ",
     "es": "",
     "fr": "",
     "it": "",
@@ -134,7 +134,7 @@
   "141922": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_think_one><end_attr>Already, more than 10 years ago, was it. Since you\ntwo's parents' passing...\n<br>\nSince then, you've always taken care of\n<kyodai>... That's truly commendable!",
+    "en": "<attr><feel_think_one><end_attr>Already, more than 10 years ago, was it. Since you\ntwo's parents' passing...\n<br>\nSince then, you've always taken care of <kyodai>...\nThat's truly commendable!",
     "es": "",
     "fr": "",
     "it": "",
@@ -218,7 +218,7 @@
   "141929": {
     "comments": "STT_NpcInfo.NAME_NPC_00665",
     "de": "",
-    "en": "If so, okay, but... I don't have any special powers\nlike Grandmother, but I can be a good listener. How can\nI help?",
+    "en": "If so, okay, but... I don't have any special powers like\nGrandmother, but I can be a good listener. How can I\nhelp?",
     "es": "",
     "fr": "",
     "it": "",
@@ -230,7 +230,7 @@
   "141930": {
     "comments": "STT_NpcInfo.NAME_NPC_00665",
     "de": "",
-    "en": "<attr><feel_think_lv3><end_attr>Ehh......? You're here to apologize to grandmother?\n<br>\nI see... <kyodai> made an alchemical mistake\nand ruined all of the Pep Beans, did they.\n<br>\nI understand the situation. It's okay. They didn't do\nit on purpose, so I'm sure Grandmother will forgive\nthem.\n<br>\nIt's just, lately, Grandmother has been completely\ndepressed, and shut her self away in her room.\n<br>\nRight, I hate to ask, since you came all the way\nhere to apologize, but, <pc>, can you help me.\n<br>\nWould you please go around the village and gather\nsome Dried Antidotal Herbs and Fluffy Rice Husks for\nGrandmother?<yesno><break>",
+    "en": "<attr><feel_think_lv3><end_attr>Ehh......? You're here to apologize to grandmother?\n<br>\nI see... <kyodai> made an alchemical mistake and\nruined all of the Pep Beans, did they.\n<br>\nI understand the situation. It's okay. They didn't do\nit on purpose, so I'm sure Grandmother will forgive\nthem.\n<br>\nIt's just, lately, Grandmother has been completely\ndepressed, and shut her self away in her room.\n<br>\nRight, I hate to ask, since you came all the way here to\napologize, but, <pc>, can you help me.\n<br>\nWould you please go around the village and gather\nsome Dried Antidotal Herbs and Fluffy Rice Husks for\nGrandmother?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -242,7 +242,7 @@
   "141931": {
     "comments": "STT_NpcInfo.NAME_NPC_00665",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Thank you! I believe that if you listen to the\nvillagers, you'll have both right away. Please take\nof it, okay, <pc>.",
+    "en": "<attr><feel_happy_lv3><end_attr>Thank you! I believe that if you listen to the villagers,\nyou will have both right away. Please take of it,\nokay, <pc>.",
     "es": "",
     "fr": "",
     "it": "",
@@ -315,7 +315,7 @@
     "comments": "",
     "de": "Keine Reaktion... Es scheint, dass es nur eine\nVogelscheuche ist.",
     "en": "No response... It seems that it is just a scarecrow.",
-    "es": "No responde... Parece que no es más que un espantapájaros.",
+    "es": "No responde... Parece que no es más que un\nespantapájaros.",
     "fr": "Pas de réponse... Ce n'est qu'un épouvantail.",
     "it": "Non risponde... È solo un spaventapasseri.",
     "ja": "返事がない……。\nただの　カカシのようだ。",
@@ -326,7 +326,7 @@
   "194059": {
     "comments": "STT_NpcInfo.NAME_NPC_00663",
     "de": "",
-    "en": "<shake_big><pipipi_low>GRR, DON'T DISTURB MY REST! IF YOU NEED\nSOMETHING TELL IT TO SHINI IN THE BACK!",
+    "en": "<shake_big><pipipi_low>GRR, DON'T DISTURB MY REST! IF YOU NEED\nSOMETHING, TELL IT TO SHINI IN THE BACK!",
     "es": "",
     "fr": "",
     "it": "",
@@ -374,7 +374,7 @@
   "141941": {
     "comments": "",
     "de": "",
-    "en": "Well okay then. If you get lost, ask anyone\nwith a <emoji Fukidashi_Icon> above their head, okay?\n ...Darn that <kyodai> and their alchemy!",
+    "en": "Well okay then. If you get lost, ask anyone with a <emoji Fukidashi_Icon>\nabove their head, okay?... Darn that <kyodai>\nand their alchemy!",
     "es": "",
     "fr": "",
     "it": "",
@@ -434,7 +434,7 @@
   "141946": {
     "comments": "STT_NpcInfo.NAME_NPC_01591",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Did you get in trouble with Lady Abba? Well, with\nShini's help, you'll be able to sort it out.\n<br>\nFluffy Rice Husks are in the Watermill.\nAs for the Dried Antidote Herbs, Grandpa Kudai uses\nthem to make his favorite tea.\n<br>\nIf you get lost, you can open your map with <emoji FaceButton_Left>, and look\nfor the shining ring. Then, try pressing <emoji FaceButton_Right>.\n<br>\nFrom there, if you choose \"Character List\", you'll\nwho's where. It has other useful functions too, so\ngive them a try.",
+    "en": "<attr><feel_happy_lv3><end_attr>Did you get in trouble with Lady Abba? Well, with\nShini's help, you'll be able to sort it out.\n<br>\nFluffy Rice Husks are in the Watermill. As for the\nDried Antidote Herbs, Grandpa Kudai uses them to\nmake his favorite tea.\n<br>\nIf you get lost, you can open your map with <emoji FaceButton_Left>, and look\nfor the shining ring. Then, try pressing <emoji FaceButton_Right>.\n<br>\nFrom there, if you choose \"Character List\", you'll see\nwho's where. It has other useful functions too, so give\nthem a try.",
     "es": "",
     "fr": "",
     "it": "",
@@ -446,7 +446,7 @@
   "141947": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Ack! The taste is divine!\nOh no, my tongue is numb!",
+    "en": "<attr><feel_happy_lv1><end_attr>Yuuck! Terrible! Bitter! My tongue's gone numb!",
     "es": "",
     "fr": "",
     "it": "",
@@ -458,7 +458,7 @@
   "141948": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr><turn_pc>Hmm? I'm just enjoying my usual tea. Do you need some\nDried Antidote Herb? Ask Norah in the next room,\nshe makes all of my tea for me.",
+    "en": "<attr><feel_happy_lv1><end_attr><turn_pc>Huh? <pc>, oh. I was just drinking my usual\nan'tea'dote... What's that? You want some Dried\nAntidote Herbs?\n<br>\nIn that case, if you talk to Nora in the other room,\nshe'll take some out for you. Nora makes my an'tea'dote\nwith them.",
     "es": "",
     "fr": "",
     "it": "",
@@ -470,7 +470,7 @@
   "141949": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr><turn_pc>If you want Dried Antidotal Herb, just asl\nNorah in the next room. She makes a\ngreat tea with it.",
+    "en": "<attr><feel_happy_lv1><end_attr><turn_pc>If you want Dried Antidote Herbs, you should talk to\nNora in the other room, and she'll take some out for\nyou. Nora makes my an'tea'dote with them.",
     "es": "",
     "fr": "",
     "it": "",
@@ -482,7 +482,7 @@
   "141950": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr><turn_pc>Antidotal tea is the source of my youth!\nI will drink it and live to be 100 years old!",
+    "en": "<attr><feel_happy_lv1><end_attr><turn_pc>An'tea'dote is the source of my youth! I'll drink it\nand live to be 100 years old!",
     "es": "",
     "fr": "",
     "it": "",
@@ -506,7 +506,7 @@
   "141952": {
     "comments": "",
     "de": "",
-    "en": "What? No.",
+    "en": "No, I was mistaken......",
     "es": "",
     "fr": "",
     "it": "",
@@ -518,7 +518,7 @@
   "141953": {
     "comments": "",
     "de": "",
-    "en": "Oh Shini asked you to get some? In that\ncase, here you go. I'll put it in your Key Items\nbag. Tell Shini I said hello!",
+    "en": "Oh Shini asked you to get some? In that case, here you\ngo. I'll put it in your \"Key Items\" bag, okay. Tell\nShini I said hello!",
     "es": "",
     "fr": "",
     "it": "",
@@ -542,7 +542,7 @@
   "141955": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_think_lv3><end_attr><turn_pc>My grandpa drinks a lot of Antidotal tea these\ndays. It has a soft, sweet aroma. What's that?\nShini needs some Dried Antidotal Herb?<yesno><break>",
+    "en": "<attr><feel_think_lv3><end_attr><turn_pc>My grandpa, y'know, recently he's gotten into the\nan'tea'dote.\n<br>\nIt's a tea made from dried Antidotal Herbs, but it\nhas a nice, sweet aroma, y'know.\n<br>\nEh, what's that? Shini wants some Dried Antidotal\nHerb?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -554,7 +554,7 @@
   "141956": {
     "comments": "",
     "de": "",
-    "en": "Yeah well, neither Shini nor Abba like the\ntaste of Antidotal tea...",
+    "en": "Well, yeah, okay. The an'tea'dote isn't Shini's nor\nLady Abba's cup of tea—so to speak—is it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -566,7 +566,7 @@
   "141957": {
     "comments": "",
     "de": "",
-    "en": "I see. Then, take some with you.I'll put it in your\nKey Items bag.",
+    "en": "Right, yeah. Then, take some with you. I'll put it\nin your \"Key Items\" bag, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -578,7 +578,7 @@
   "141958": {
     "comments": "",
     "de": "",
-    "en": "I wonder why Shini asked for that. Last time\nI made tea for he and Abba they made\nthe funniest face when they tasted it.",
+    "en": "My an'tea'dote... Has Shini taking a liking to it,\nI wonder.\n<br>\nThe last time I treated him to some an'tea'dote,\nShini had this frozen-looking smile the entire time,\ny'know.",
     "es": "",
     "fr": "",
     "it": "",
@@ -602,7 +602,7 @@
   "141960": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>You brought the Fluffy Rice Husks\nand Dried Antidotal Herb!\nThen please give them to me.",
+    "en": "<attr><feel_happy_lv3><end_attr>You brought the Fluffy Rice Husks and Dried Antidotal\nHerb, have you! Then, please give them to me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -614,7 +614,7 @@
   "141961": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_think_lv3><end_attr>Hmmm. You're just teasing me aren't\nyou, <pc>?",
+    "en": "<attr><feel_think_lv3><end_attr>Hahah. <pc>, you are teasing me, aren't you?",
     "es": "",
     "fr": "",
     "it": "",
@@ -626,7 +626,7 @@
   "141962": {
     "comments": "",
     "de": "",
-    "en": "<pc>\nreceived Dried Antidotal Herb (Key Item)!<me 60>",
+    "en": "<pc> received the Dried Antidotal Herb (Key Item)!<me 60>",
     "es": "",
     "fr": "",
     "it": "",
@@ -638,7 +638,7 @@
   "141963": {
     "comments": "",
     "de": "",
-    "en": "<pc>\nreceived Fluffy Rice Husks (Key Item)!<me 60>",
+    "en": "<pc> received the Fluffy Rice Husks (Key Item)!<me 60>",
     "es": "",
     "fr": "",
     "it": "",
@@ -648,9 +648,9 @@
     "zh-Hant": "<pc>獲得了\n鬆軟穀殼（重要物品）！<me 60>"
   },
   "141964": {
-    "comments": "",
+    "comments": "Yes, eventTextCsA11Client.win32:14764",
     "de": "",
-    "en": "Would you like to give Shini the Fluffy Rice\nHusks and Dried Antidotal Herb?<yesno><close>",
+    "en": "Give Shini the Fluffy Rice Husks and Dried Antidotal\nHerb?<yesno><close>",
     "es": "",
     "fr": "",
     "it": "",
@@ -770,7 +770,7 @@
   "141974": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Grandmother was angry but I think the pillow worked.\nShe seemed to fall asleep instantly. She has\nbeen troubled lately and hasn't been sleeping well\n<br>\nbut she seems fine now.\n<pc> please go and find <kyodai>.\nI know that <kyodai> often goes to\n<br>\nCornerstone Forest outside the village.\nI think thats where you should look.",
+    "en": "<attr><feel_happy_lv1><end_attr>Grandmother was angry, but she seems to have liked\nthe pillow, didn't she. She fell asleep so fast...\n<br>\nHere, recently, Grandmother is worried for some reason...\nAnd hasn't been sleeping well. But now she's fine.\n<pc>, please go get <kyodai>.\n<br>\n<kyodai> seems to often go northeast of the\nvillage, to Cornerstone Forest, and are still there\nnow, aren't they?",
     "es": "",
     "fr": "",
     "it": "",
@@ -782,7 +782,7 @@
   "141975": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_think_lv3><end_attr>How did it go when you met with Abba?\nWas she angry about the Pep Beans? Oh, she wasn't?\nThat's unusual. Last year even Shini\n<br>\ncouldn't quell her rage.",
+    "en": "<attr><feel_think_lv3><end_attr>How did it go when you met with Abba?\nWas she angry about the Pep Beans? Oh, she wasn't?\nThat's unusual.\n<br>\nLast year even Shini couldn't quell her rage.",
     "es": "",
     "fr": "",
     "it": "",
@@ -794,7 +794,7 @@
   "141976": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Long ago there lived a legendary alchemist\nwho made wonderful things with their talents.\nIt would be great if <kyodai>'s\n<br>\nalchemy were that good...",
+    "en": "<attr><feel_happy_lv1><end_attr>Long ago there lived a legendary alchemist\nwho made wonderful things with their talents.\n<br>\nIt would be great if <kyodai>'s alchemy were\nthat good...",
     "es": "",
     "fr": "",
     "it": "",
@@ -806,7 +806,7 @@
   "141978": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Wow, is that a new hat?\nI love the unique color scheme...",
+    "en": "<attr><feel_happy_lv3><end_attr>Wooow! That's the new hat <kyodai> made!\nIt's unusual use of color is the best!",
     "es": "",
     "fr": "",
     "it": "",
@@ -818,7 +818,7 @@
   "141979": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>I don't dislike <kyodai>. I admire\ntheir persistence, especially after so many failures...",
+    "en": "<attr><feel_happy_lv3><end_attr>I don't dislike <kyodai>. I admire\ntheir persistence, especially after so many failures.",
     "es": "",
     "fr": "",
     "it": "",
@@ -866,7 +866,7 @@
   "141987": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>It was around 8 years ago that <kyodai>\nbegan learning alchemy. Everyone thought it\nmarked the return of the legendary alchemidt\n<br>\nbut it hasn't really come to fruition.\nInstead it actually causes a lot of messes.",
+    "en": "<attr><feel_happy_lv3><end_attr>It was around 8 years ago that <kyodai>\nbegan learning alchemy. Everyone thought it\nmarked the return of the Legendary Alchemist.\n<br>\nBut <kyodai>, you really haven't come to fruition.\nInstead it actually causes a lot of messes.",
     "es": "",
     "fr": "",
     "it": "",
@@ -914,7 +914,7 @@
   "141993": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_think_lv3><end_attr>That hat, <pc>...\nIs that <kyodai>'s work?<yesno><break>",
+    "en": "<attr><feel_think_lv3><end_attr>Mmm... <pc>. That very distinctive hat you're\nwearing, is that <kyodai>'s work?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -926,7 +926,7 @@
   "141994": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Uh huh. You're a good person for wearing\na thing like that around town.",
+    "en": "<attr><feel_happy_lv3><end_attr>O-okay... <pc>, you're a kind person.\nUnironically wearing a thing like that.",
     "es": "",
     "fr": "",
     "it": "",
@@ -938,7 +938,7 @@
   "141995": {
     "comments": "",
     "de": "",
-    "en": "Then you should get rid of that thing, it's\na real travesty to look at.",
+    "en": "If so, you'd better take it off asap. It's quite\nembarrassing, that hat...",
     "es": "",
     "fr": "",
     "it": "",
@@ -950,7 +950,7 @@
   "141996": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>This is Ethene village, guarded by the great Galapag-\nAaaah... <kyodai> is back already? Please take\nit easy on the alchemy for awhile, would you?",
+    "en": "<attr><feel_angry_lv1><end_attr>This is Ethene village, guarded by the great Galapagod.\n<br>\n<kyodai>'s back too, are you? Please don't\nmake any more of a ruckus today!",
     "es": "",
     "fr": "",
     "it": "",
@@ -962,7 +962,7 @@
   "141997": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_angry_lv3><end_attr><kyodai> if I catch you trying to use\nthe Galapagods claws or shell for alchemy\nagain I'll report you to Abba!",
+    "en": "<attr><feel_angry_lv3><end_attr>Aaaah... <kyodai>. You're not using the\nGalapagod's claws, pieces of its shell, or anything\nfor alchemy again!?\n<br>\nIf you are, I'll tell on you to Abba for punishment,\ngot it!",
     "es": "",
     "fr": "",
     "it": "",
@@ -986,7 +986,7 @@
   "141999": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Welcome back, <pc> and <kyodai>.\nShall we go to your grandmother's room?\nIt's across the hall.",
+    "en": "<attr><feel_happy_lv1><end_attr>Welcome back, <pc> and <kyodai>.\nShall we go Grandmother's room? It's across the hall.",
     "es": "",
     "fr": "",
     "it": "",
@@ -998,7 +998,7 @@
   "142000": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Shini must have done something really special\nfor Abba to not be furious about the Pep Bean\nharvest. Last year when <kyodai>\n<br>\nburned the harvest Abba smashed a big pot!",
+    "en": "<attr><feel_happy_lv3><end_attr>Shini must have done something really special\nfor Abba to not be furious about the Pep Bean\nharvest.\n<br>\nLast year, when <kyodai> did the same thing,\nAbba chased them out of the village, and threw a\ngigantic pot at them, y'know.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1010,7 +1010,7 @@
   "142001": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Shini is a really remarkable boy. Although he has\nno special powers, he studies hard to support\nAbba in her duties. If <kyodai> would\n<br>\nstudy half as hard before alchemizing things\nthey would have a lot more success.",
+    "en": "<attr><feel_happy_lv3><end_attr>Shini is a really remarkable boy. Although he has\nno special powers, he studies hard to support\nAbba in her duties.\n<br>\nIf <kyodai> would study half as hard before\nalchemizing things they would have a lot more success.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1022,7 +1022,7 @@
   "142002": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Peaceful days like this remind me of the day\nyou were born. That day the Galapagod, who\nis usually still and quiet, stood up and released\n<br>\na deafening cry. Everyone was frightened\nuntil Abba explained that the Galapagod\nwas blessing you as his child.\n<br>\nThat night the whole town celebrated.",
+    "en": "<attr><feel_happy_lv3><end_attr>Peaceful days like this remind me of the day that\n<kyodai> was born.\n<br>\nJust as everyone was going to sleep, they were born\nand let out this big cry that seemed to echo through-\nout the island, y'know.\n<br>\nHey, it's said that they are supposed to become an\nimportant person, but they only cause trouble, so\nthat makes everyone laugh.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1034,7 +1034,7 @@
   "142003": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_angry_lv3><end_attr>Okay <pc>!\nKeep a good eye out so <kyodai>\ndoesn't blow something up again!",
+    "en": "<attr><feel_angry_lv3><end_attr>Uuuhhh..., <kyodai>... <pc>, keep\nan eye out so that <kyodai> doesn't blow\nsomething up with alchemy again, okay!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1046,7 +1046,7 @@
   "142004": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_angry_lv3><end_attr>Money is useless if we all perish, but as a\nmerchant I just can't bring myself to give\naway goods for free. It's bad business!<bw_break>",
+    "en": "<attr><feel_angry_lv3><end_attr>Money is useless if we all perish... But as a merchant,\nI can't just give away goods for free! I won't do it!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1070,7 +1070,7 @@
   "142006": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_sad_lv3><end_attr>A monster entered the village. I had no idea\nthat my abilities had weakened to the point\nthat a monster like that could cross my wards!",
+    "en": "<attr><feel_sad_lv3><end_attr>A monster... Entered the village......\nI never expected my abilities to weaken so much, so\nas to let a monster like that through the barrier...!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1082,7 +1082,7 @@
   "142007": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_sad_lv3><end_attr><turn_pc>Don't worry about me, <pc>.\nI've grown old, that's all. <pc>, <kyodai> and Shini,\nI entrust the future of this village to you young\n<br>\nones! Retrieve the Tens Flower that blooms\nin the Clear Water Cave to the north, and\nsave the people of Ethene from certain doom!",
+    "en": "<attr><feel_sad_lv3><end_attr><turn_pc>Relax... Don't worry about me. The years have caught\nup to me... That's all it is.\n<br>\n<pc>, <kyodai>, Shini: to you\nyoung'uns, I entrust the village's future!\n<br>\nTo save the people of Ethene from ruin, bring me a\nTens Flower that blooms in Clear Water Cave to the\nnorth.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1094,7 +1094,7 @@
   "142008": {
     "comments": "",
     "de": "",
-    "en": "<turn_pc><pc>, <kyodai> and Shini,\nI entrust the future of this village to you young\nones! Retrieve the Tens Flower that blooms\n<br>\nin the Clear Water Cave to the north, and\nsave the people of Ethene from certain doom!",
+    "en": "<turn_pc><pc>, <kyodai>, Shini: to you\nyoung'uns, I entrust the village's future!\n<br>\nTo save the people of Ethene from ruin, bring me a\nTens Flower that blooms in Clear Water Cave to the\nnorth.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1118,7 +1118,7 @@
   "142010": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I'll do my best to save up again.\nYou go ahead and spend that money!",
+    "en": "<attr><feel_happy_lv1><end_attr>I'll do my best to save up again. <pc>, you\ngo ahead and use that money!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1130,7 +1130,7 @@
   "142011": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>I feel bad for Abba. It must have been a\ntremendous shock to see that monster inside\nthe village.",
+    "en": "<attr><feel_angry_lv1><end_attr>I feel bad for Lady Abba... Seeing that monster enter\nthe village, must've been a tremendous shock, no\nmistakin' that.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1142,7 +1142,7 @@
   "142012": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_angry_lv3><end_attr>What if the village is destroyed? I haven't\neven confessed my love to Naji yet. I can't\ndie like this! You must bring back the Tens Flower!",
+    "en": "<attr><feel_angry_lv3><end_attr>What if the village is destroyed... I... haven't even\nconfessed my love to Naji yet.\n<br>\nWe can't just die like this! You absolutely must\nbring back the Tens Flower!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1154,7 +1154,7 @@
   "142013": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>For now, let's have some antidotal tea. As long as\nI drink it, I'll be fine.",
+    "en": "<attr><feel_sad_lv1><end_attr>For now, let's have some antidotal tea. As long as\nI drink it, I'll be fine...",
     "es": "",
     "fr": "",
     "it": "",
@@ -1166,7 +1166,7 @@
   "142014": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_sad_lv3><end_attr>I'm glad it was a weak monster that came in.\nI shudder to think if it had been a more\nfearsome monster. Aaah! My legs are shaking!",
+    "en": "<attr><feel_sad_lv3><end_attr>I'm glad that it was a weak monster that came in.\nI shudder to think if it had been a more fearsome\none... Uhhh... My legs won't stop shaking!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1190,7 +1190,7 @@
   "142016": {
     "comments": "",
     "de": "",
-    "en": "<pc> Take this! Make sure you come\nback safe and sound.",
+    "en": "<pc>, take this! Make sure you come back\nsafely, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1214,7 +1214,7 @@
   "142019": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_think_lv3><end_attr>I can't believe the Galapagod, who watches\nover us, would let such a terrible omen come\ntrue... At any rate, be sure to pray at the\n<br>\nchurch before you go and come back safely.",
+    "en": "<attr><feel_think_lv3><end_attr>I can't believe the Galapagod, who watches over us,\nwould let such a terrible foretelling come true...\n<br>\nAt any rate, be sure to pray at the church before\nyou go, and come back safely.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1250,7 +1250,7 @@
   "142021": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_angry_lv3><end_attr>If monsters can enter the village now maybe\nthey are all going berserk outside. I will guard\nthis village with my meager life!\n<br>\nNow, go and retrieve the Tens Flower from\nClear Water Cave!",
+    "en": "<attr><feel_angry_lv3><end_attr>It looks like monsters can enter the village. If that's\nthe case, the monsters outside the village may be\nrampaging.\n<br>\nI will defend this village with all my power! You all\ngo to Clearwater Cave far to the north, and retrieve\nthe Tens Flower!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1262,7 +1262,7 @@
   "142022": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>The Galapagod seems different than usual.\nHow should I put it? It's as if he's holding\nback his energy.",
+    "en": "<attr><feel_think_lv1><end_attr>The Galapagod seems different than usual. How do I\nput it... It's as if he's holding back his energy.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1274,7 +1274,7 @@
   "142023": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_sad_lv3><end_attr>Oh, great Galapagod! Protect us.",
+    "en": "<attr><feel_sad_lv3><end_attr>Oh, great Galapagod...! Please grant Lady Abba power.\nPlease protect us all.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1286,8 +1286,8 @@
   "142024": {
     "comments": "",
     "de": "",
-    "en": "<pc> received <%sEV_ITEM>!<se_nots System 7>",
-    "es": "",
+    "en": "<pc> received the <%sEV_ITEM>!<se_nots System 7>",
+    "es": "<pc> recibido la <%sEV_ITEM>!<se_nots System 7>",
     "fr": "",
     "it": "",
     "ja": "<pc>は\n<%sEV_ITEM>を　受け取った！<se_nots System Item>",
@@ -1298,8 +1298,8 @@
   "142025": {
     "comments": "",
     "de": "",
-    "en": "<pc> received <%sEV_ITEM>!<se_nots System 7>",
-    "es": "",
+    "en": "<pc> received the <%sEV_ITEM>!<se_nots System 7>",
+    "es": "<pc> recibido la <%sEV_ITEM>!<se_nots System 7>",
     "fr": "",
     "it": "",
     "ja": "<pc>は\n<%sEV_ITEM>を　受け取った！<se_nots System Item>",
@@ -1322,8 +1322,8 @@
   "142027": {
     "comments": "",
     "de": "",
-    "en": "<pc> received <%sEV_ITEM>!<se_nots System 7>",
-    "es": "",
+    "en": "<pc> received the <%sEV_ITEM>!<se_nots System 7>",
+    "es": "<pc> recibido la <%sEV_ITEM>!<se_nots System 7>",
     "fr": "",
     "it": "",
     "ja": "<pc>は\n<%sEV_ITEM>を　受け取った！<se_nots System Item>",
@@ -1334,7 +1334,7 @@
   "142028": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_angry_lv3><end_attr>Oh! I've been waiting for you guys!\nThe future of the village is at stake.\nI'm going to give it my best!",
+    "en": "<attr><feel_angry_lv3><end_attr>Oh! I've been waiting for you to come! The village's\nfuture rests on you all; what an unthinkable situation.\nI'm giving you my treasure!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1346,7 +1346,7 @@
   "142029": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_angry_lv3><end_attr>Go on! Hurry and retrieve the Tens Flower\nand deliver it to Abba!",
+    "en": "<attr><feel_angry_lv3><end_attr>Go on! Hurry, retrieve the Tens Flower and deliver it\nto Lady Abba without fail!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1382,7 +1382,7 @@
   "142032": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_sad_lv3><end_attr>I had a feeling something like this might\nhappen one day... Abba is getting too old\nfor this sort of thing.",
+    "en": "<attr><feel_sad_lv3><end_attr>I had a feeling something like this might happen one\nday... Lady Abba gotten too old for this sort of thing,\nhasn't she.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1430,7 +1430,7 @@
   "142036": {
     "comments": "",
     "de": "",
-    "en": "Hmmm... you can't seem to hold any more items.\nCome again when you have sorted\nout your belongings.",
+    "en": "Hmmm... You can't seem to hold any more items.\nCome again when you have sorted\nout your belongings.",
     "es": "",
     "fr": "",
     "it": "",
