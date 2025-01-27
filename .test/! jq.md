@@ -2,7 +2,7 @@
 
 > # JQ Query
 >
-> ````js
+> ```js
 > ####################################################################################################
 > # Expected Input:
 > # - <ETP_NAME>.etp.json (old format)
@@ -34,6 +34,7 @@
 > # // }
 > # // ```
 > ####################################################################################################
+> # old format .etp to new english only format
 > # jq
 > to_entries
 > | map(
@@ -43,6 +44,28 @@
 >     })
 > )
 > | from_entries
+> ####################################################################################################
+> # old format .etp to new multilingual format
+> # // # jq
+> # // to_entries
+> # // | map(
+> # //     reduce . as $obj ({}; {
+> # //         "key": $obj.["key"],
+> # //         "value": {
+> # //             "comments": "",
+> # //             "de": "",
+> # //             "en": $obj.["value"][],
+> # //             "es": "",
+> # //             "fr": "",
+> # //             "it": "",
+> # //             "ja": ($obj.["value"] | keys[]),
+> # //             "ko": "",
+> # //             "zh-Hans": "",
+> # //             "zh-Hant": ""
+> # //         }
+> # //     })
+> # // )
+> # // | from_entries
 > ####################################################################################################
 > # Expected Output:
 > # // ```json
@@ -78,7 +101,11 @@
 > # Next Step:
 > # Merge new `ETP_NAME.etp.json` into Main
 > ####################################################################################################
-> ````
+> ```
+> - Powershell
+> ```ps
+> jq "to_entries| map(reduce . as `$obj ({}; {`"key`": `$obj.[`"key`"],`"value`": {`"en`": `$obj.[`"value`"][]}}))| from_entries" "OLD.json" > "OUTPUT.json"
+> ```
 >
 > </details>
 >
@@ -263,16 +290,21 @@
 > > # // }
 > > ####################################################################################################
 > > ```
+> > - Powershell
+> > ```ps
+> > jq -s "reduce .[] as `$obj ({}; . * `$obj)" "NEW.json" "OUTPUT.json" > "MAIN.json"
+> > ```
+> > </details>
+
+
 
 ---
-
-</details>
 
 <details><summary><h1>`StringTable.csv` to `StringTable.json`</h1></summary>
 
 > # JQ Query
 >
-> ````js
+> ```js
 > ####################################################################################################
 > # Expected Input:
 > # // ```csv
@@ -341,11 +373,6 @@
 > # Next Step:
 > # Fix `StringTable.json`
 > ####################################################################################################
-> ````
->
-> - CMD
-> ```bat
-> FOR /F "usebackq tokens=*" %A IN (`echo STT_AccessoryItem.csv`) DO jq -R " split(\",(?=(SourceString^|\\\".*))\"; null)^| .[] = { \"key\": .[0],\"value\": ({ \"en\": .[1] ^| sub( \"(^\\\"^|\\\"$)\";\"\";\"g\" ) ^| sub( \"\\\\n\";\"\n\";\"g\" ) ^| sub(\"(\\\"(?^<b^>\\\"))\";\"\(.b)\";\"g\") }) } ^| from_entries" "%A"
 > ```
 >
 > ---
@@ -358,7 +385,7 @@
 > >
 > > - `jq` does not have a convenient way of combining/"slurping" the output from the previous step (yet?), so a second command is needed.
 > >
-> > ````js
+> > ```js
 > > ####################################################################################################
 > > # Expected Input:
 > > # // ```json
@@ -437,7 +464,7 @@
 > > # Next Step:
 > > # Combine with `Game.locres.json`
 > > ####################################################################################################
-> > ````
+> > ```
 >
 > ---
 >
@@ -449,7 +476,7 @@
 >
 > # JQ Query
 >
-> ````js
+> ```js
 > ####################################################################################################
 > # Expected Input:
 > # // ```json
@@ -514,7 +541,7 @@
 > # Next Step:
 > # - `import csv` into Unreal Engine project's StringTables
 > ####################################################################################################
-> ````
+> ```
 >
 > ---
 >
@@ -526,7 +553,7 @@
 >
 > ## JQ Query
 >
-> ````js
+> ```js
 > ####################################################################################################
 > # Expected Input:
 > # // ```json
@@ -666,7 +693,7 @@
 > # //   }
 > # // }
 > ####################################################################################################
-> ````
+> ```
 >
 > ---
 >
@@ -740,6 +767,191 @@
 > ```
 >
 > ####################################################################################################
+>
+> ---
+>
+> </details>
+
+<details><summary><h1>Import Names from DQXIS to `Game.locres.json`</h1></summary>
+
+> ## JQ Query
+>
+> ```js
+> ####################################################################################################
+> # Expected Input:
+> # - `Game.locres.json:<Namespace>`
+> # - `DQXIS_Localize.db_ListNoun.json`
+> # // ```json
+> # // {
+> # //     "key_01": {
+> # //       "comments": "",
+> # //       "de": "",
+> # //       "en": "<en>",
+> # //       "es": "",
+> # //       "fr": "",
+> # //       "it": "",
+> # //       "ja": "<ja>",
+> # //       "ko": "<ko>",
+> # //       "zh-Hans": "<zh-Hans>",
+> # //       "zh-Hant": "<zh-Hant>"
+> # //     },
+> # //     "key_02": {
+> # //       "comments": "",
+> # //       "de": "",
+> # //       "en": "<en>",
+> # //       "es": "",
+> # //       "fr": "",
+> # //       "it": "",
+> # //       "ja": "<ja>",
+> # //       "ko": "<ko>",
+> # //       "zh-Hans": "<zh-Hans>",
+> # //       "zh-Hant": "<zh-Hant>"
+> # //     }
+> # //     ...
+> # //   }
+> # For Example:
+> # // {
+> # //     "NAME_ID_ITEM_EQUIP_ONEHANDEDSWORD_DOUNOTSURUGI": {
+> # //       "comments": "",
+> # //       "de": "",
+> # //       "en": "Copper Sword",
+> # //       "es": "",
+> # //       "fr": "",
+> # //       "it": "",
+> # //       "ja": "どうのつるぎ",
+> # //       "ko": "구리 검",
+> # //       "zh-Hans": "铜剑",
+> # //       "zh-Hant": "銅劍"
+> # //     },
+> # //     "NAME_ID_ITEM_EQUIP_ONEHANDEDSWORD_ETENENOKEN": {
+> # //       "comments": "",
+> # //       "de": "Etheneschwert",
+> # //       "en": "Ethene Sword",
+> # //       "es": "Espada de Ethene",
+> # //       "fr": "Épée de Ethene",
+> # //       "it": "Spada di Ethene",
+> # //       "ja": "エテーネの剣",
+> # //       "ko": "에테네의 검",
+> # //       "zh-Hans": "伊甸之剑",
+> # //       "zh-Hant": "伊甸之劍"
+> # //     }
+> # //     ...
+> # // }
+> # // {
+> # //   "TXT_ITEM_NAME_W_SWD_0002": {
+> # //     "de": "Kupferschwert",
+> # //     "en": "Copper Sword",
+> # //     "es": "Espada de cobre",
+> # //     "fr": "Épée de cuivre",
+> # //     "it": "Spada di rame"
+> # //   },
+> # //   "TXT_ITEM_NAME_W_SWD_0003": {
+> # //     "de": "Soldatenschwert",
+> # //     "en": "Soldier's Sword",
+> # //     "es": "Espada de soldado",
+> # //     "fr": "Épée de soldat",
+> # //     "it": "Spada del soldato"
+> # //   },
+> # //   "TXT_ITEM_NAME_W_SWD_0004": {
+> # //     "de": "Bronzeschwert",
+> # //     "en": "Bronze Sword",
+> # //     "es": "Espada de bronce",
+> # //     "fr": "Épée de bronze",
+> # //     "it": "Spada di bronzo"
+> # //   }
+> # //   ...
+> # // }
+> # // ```
+> ####################################################################################################
+> # js -s
+> [
+>     [
+>         .[]
+>         | to_entries[]
+>     ]
+>     | group_by(.value.en)[]
+>     | if (.[1] != null)
+>       then
+>         (
+>             .[0].value.de = .[1].value.de
+>             | .[0].value.es = .[1].value.es
+>             | .[0].value.fr = .[1].value.fr
+>             | .[0].value.it = .[1].value.it
+>             | del(.[1])
+>         )
+>       else (.)
+>       end
+>     | select(.[].key | match("NAME_ID_.*"))
+>     | from_entries
+> ]
+> ####################################################################################################
+> # Expected Output:
+> # // [
+> # //   {
+> # //     "key_01": {
+> # //       "comments": "",
+> # //       "de": "<de>",
+> # //       "en": "<en>",
+> # //       "es": "<es>",
+> # //       "fr": "<fr>",
+> # //       "it": "<it>",
+> # //       "ja": "<ja>",
+> # //       "ko": "<ko>",
+> # //       "zh-Hans": "<zh-Hans>",
+> # //       "zh-Hant": "<zh-Hant>"
+> # //     },
+> # //     "key_02": {
+> # //       "comments": "",
+> # //       "de": "<de>",
+> # //       "en": "<en>",
+> # //       "es": "<es>",
+> # //       "fr": "<fr>",
+> # //       "it": "<it>",
+> # //       "ja": "<ja>",
+> # //       "ko": "<ko>",
+> # //       "zh-Hans": "<zh-Hans>",
+> # //       "zh-Hant": "<zh-Hant>"
+> # //     }
+> # //     ...
+> # //   }
+> # // ]
+> # For Example:
+> # // [
+> # //   {
+> # //     "NAME_ID_ITEM_EQUIP_ONEHANDEDSWORD_DOUNOTSURUGI": {
+> # //       "comments": "",
+> # //       "de": "Kupferschwert",
+> # //       "en": "Copper Sword",
+> # //       "es": "Espada de cobre",
+> # //       "fr": "Épée de cuivre",
+> # //       "it": "Spada di rame",
+> # //       "ja": "どうのつるぎ",
+> # //       "ko": "구리 검",
+> # //       "zh-Hans": "铜剑",
+> # //       "zh-Hant": "銅劍"
+> # //     }
+> # //   },
+> # //   {
+> # //     "NAME_ID_ITEM_EQUIP_ONEHANDEDSWORD_ETENENOKEN": {
+> # //       "comments": "",
+> # //       "de": "Etheneschwert",
+> # //       "en": "Ethene Sword",
+> # //       "es": "Espada de Ethene",
+> # //       "fr": "Épée de Ethene",
+> # //       "it": "Spada di Ethene",
+> # //       "ja": "エテーネの剣",
+> # //       "ko": "에테네의 검",
+> # //       "zh-Hans": "伊甸之剑",
+> # //       "zh-Hant": "伊甸之劍"
+> # //     }
+> # //   }
+> # // ]
+> ####################################################################################################
+> # Next Steps:
+> # - Copy everything in the array to the appropriate `Game.locres.json` namespace
+> # - Merge new `Game.locres.json` into Main
+> ####################################################################################################
+> ```
 >
 > ---
 >
