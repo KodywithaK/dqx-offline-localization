@@ -24,9 +24,9 @@
     "zh-Hant": "有前往阿古拉尼上方市鎮的神之機關。\n要按下開關移動嗎？<yesno><close>"
   },
   "10267000": {
-    "comments": "",
+    "comments": "Following last line from `eventTextCsD11Client.win32`",
     "de": "",
-    "en": "Oops, that's right!I'll give this one\nto the recently received Senji!<bw_break>",
+    "en": "Oops, that's right! I'll give this thing that I got\nrecently as a farewell gift!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -50,7 +50,7 @@
   "10267002": {
     "comments": "",
     "de": "",
-    "en": "Seems kind of convenient, doesn't it?\nI'm sure it will come in handy for\nyour future travels! Well then, good luck!",
+    "en": "Seems kind of convenient, doesn't it? I'm sure it'll\ncome in handy for your future travels! So then, hang\ntight!",
     "es": "",
     "fr": "",
     "it": "",
@@ -158,7 +158,7 @@
   "37339": {
     "comments": "",
     "de": "",
-    "en": "<if_woman><attr><feel_angry_lv1><end_attr>What~... Didn't you get a Zoomstone\nfrom Broggen-sama? Don't forget about\nthe people who helped you! Sage Broggen-sama is the great sage with a\nlong beard who lived in this Town of\nAgrani until a while ago. I heard that Sage Broggen was there when you solved\nthe Acronia Mine case caused by\nLunana. That's why! She always carried around her trademark talking cane,\nright? You always carried around your\ntrademark talking cane! That talking cane!<bw_break><else><attr><feel_angry_lv1><end_attr>Eh~... Didn't Broggen give you\nZoomstone? Don't forget about the\npeople who helped you! Sage Broggen is the great sage with a long beard who\nused to live in this Town of Agrani\nuntil a while ago. I heard that Sage Broggen was there when my brother\nsolved the Acronia Mine case caused by\nLunana. That's why! He was always carrying around his trademark talking\ncane, right? You always carried that\ntrademark talking cane with you! That talking cane!<bw_break><endif>",
+    "en": "<if_woman><attr><feel_angry_lv1><end_attr>What~... Didn't you get a Zoomstone\nfrom Master Broggen? Don't forget about\nthe people who helped you! Sage Master Broggen is the great sage with a\nlong beard who lived in this Town of\nAgrani until a while ago. I heard that Sage Broggen was there when you solved\nthe Acronia Mine case caused by\nLunana. That's why! She always carried around her trademark talking cane,\nright? You always carried around your\ntrademark talking cane! That talking cane!<bw_break><else><attr><feel_angry_lv1><end_attr>Eh~... Didn't Broggen give you\nZoomstone? Don't forget about the\npeople who helped you! Sage Broggen is the great sage with a long beard who\nused to live in this Town of Agrani\nuntil a while ago. I heard that Sage Broggen was there when my brother\nsolved the Acronia Mine case caused by\nLunana. That's why! He was always carrying around his trademark talking\ncane, right? You always carried that\ntrademark talking cane with you! That talking cane!<bw_break><endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -230,7 +230,7 @@
   "37342": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr><turn_pc>Yay, yay! I can talk with my brother!\nHehehe, Kokon gave me the information\nthat Broggen-sama is at Mogare Camp.",
+    "en": "<attr><feel_happy_lv3><end_attr><turn_pc>Yay, yay! I can talk with my brother!\nHehehe, Kokon gave me the information\nthat Master Broggen is at Mogare Camp.",
     "es": "",
     "fr": "",
     "it": "",
@@ -542,7 +542,7 @@
   "37368": {
     "comments": "",
     "de": "",
-    "en": "I see. The monster that attacked my\nmaster was a soul-sucking monster. I'm\nsurprised Boss Hottsi survived.\n<br>\nAlthough Broggen-sama will take care\nof it, I think it's best to keep quiet\nabout this so that the townspeople won't get upset.",
+    "en": "I see. The monster that attacked my\nmaster was a soul-sucking monster. I'm\nsurprised Boss Hottsi survived.\n<br>\nAlthough Master Broggen will take care\nof it, I think it's best to keep quiet\nabout this so that the townspeople won't get upset.",
     "es": "",
     "fr": "",
     "it": "",
@@ -914,7 +914,7 @@
   "33238": {
     "comments": "",
     "de": "",
-    "en": "Since the ore has become scarce, the\nnumber of people who have been\nsnapping away at this mine has decreased by a lot. Some of them, like\nMutch and Butch, left the mine in\ndiscontent, while others disappeared before we knew it. I don't think it's\ntoo early to give up on them. As long\nas we keep our commandments, Acronia Mine should be fine.",
+    "en": "Since the ore has become scarce, the number of people\nwho have been snapping away at this mine has decreased\nby a lot.\n<br>\nSome of them, like Mutch and Butch, left the mine\nin discontent, while others disappeared before we\nknew it.\n<br>\nI don't think it's too early to give up on them.\nAs long as we keep our commandments, Acronia Mine\nshould be fine.",
     "es": "",
     "fr": "",
     "it": "",
@@ -986,7 +986,7 @@
   "5177": {
     "comments": "",
     "de": "",
-    "en": "This world is inhabited by Dwarves, Ogres,\nWeddies, Pukulipos, Elves, Humans and various\nraces. We Dwarfs had the power to build the most advanced civilization\namong them. Yes, we did. But now, we\nhave lost that advanced technology.",
+    "en": "In this world live various races: Dwarves, Ogres,\nWeddies, Pukulipos, Elves, and Humans.\n<br>\nWe Dwarves had the power to build the most advanced\ncivilizations among them... Yes, had. Now, that advanced\ntechnology has been completely lost, you know.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1142,7 +1142,7 @@
   "5131": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_sad_lv2><end_attr>Hey <pc>. I've been wondering\nabout that purple fog that caused the\ncollapse. I'm afraid that our Acronia Mine might be in trouble. I can't stop\nworrying about it.",
+    "en": "<attr><feel_sad_lv2><end_attr>Hey, <pc>. I've been wondering about that\npurple fog that caused the collapse.\n<br>\nI'm afraid that our Acronia Mine might be in trouble...\nI can't stop worrying about it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1154,7 +1154,7 @@
   "33259": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_normal_one><end_attr>I hear you <pc>. You are\ngoing to Acronia Mine to meet Sage\nBroggen. There is a monster in Acronia Mine. Before you go in, please\nremember to equip yourself with the\nweapons and armor you have. There is no Armor Shop in the lower town, so if\nyou need armor, you can buy it in the\nupper town. When you are ready, go down to the lower town and ask Ninchai\nnear the entrance of the mine for more\ninformation. Now, let's see...<bw_break>",
+    "en": "<attr><feel_normal_one><end_attr>I heard, <pc>. To meet with Sage Broggen,\nyou are going to Acronia Mine, are you.\n<br>\nThere are monsters in Acronia Mine. Before you enter,\nplease, you must not forget to equip yourself with\nthe weapons and armor that you possess.\n<br>\nThere are no Armor Shops downtown, so if you need\narmor, you can buy it uptown.\n<br>\nWhen you are ready, go downtown, and please ask Mr.\nNinchai near the entrance of the mine for more\ninformation, won't you. Now then...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1166,7 +1166,7 @@
   "5132": {
     "comments": "",
     "de": "",
-    "en": "What? You want to meet Sage Broggen?\nHmmm. Broggen is a very busy man. I\ndon't know where he is. Well, there is a guardian's room in the middle of\nAcronia Mine that Broggen often stops\nby. Chalko, the guardian who brought you here, is there, so you might want\nto talk to him. If you follow the\nbonfire, you can get to the guardian's room, but be sure to equip yourself\nwith a weapon before you enter the\nmine! You should have a beginner's weapon.",
+    "en": "...What? You say you want to meet Sage Broggen? Ummm.\nMaster Broggen is a very busy man. I don't know where\nhe is.\n<br>\n...That's right. In the middle of Acronia Mine is the\nso-called \"Guardian's Room\" that Broggen often\nstops by.\n<br>\nThere, the one who carried you—Guardian Chalko—is,\nso you should listen to him.\n<br>\nIf you follow the bonfires, you can get to the\nguardian's room, but before you go in the mine, be\nsure to equip yourself with weapons and equipment!\n<br>\nYou should have a beginner's weapon.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1262,7 +1262,7 @@
   "5142": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_normal_one><end_attr>Broggen said he would stop by Boss\nHottsi's house before heading to the\nCave of Counsel. Boss Hottsi's house is a very large house down town. If\nyou look around the plaza, you will\nrecognize it.<bw_break>",
+    "en": "<attr><feel_normal_one><end_attr>Master Broggen said that before heading for the\nCaution Land, he would stop by Boss Hottsi's house.\n<br>\nBoss Hottsi's house is a very large house downtown.\nIf you look around the square, I am sure that you\nshall recognize it.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1322,7 +1322,7 @@
   "5145": {
     "comments": "",
     "de": "",
-    "en": "Oh, <pc>. Sage Broggen is\nwaiting for you. Quickly, go to your\nmaster's room.",
+    "en": "Ooh, <pc>. Sage Broggen is waiting for you.\nC'mon, hurry into the Boss' room.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1345,11 +1345,11 @@
   },
   "33262": {
     "comments": "",
-    "de": "",
-    "en": "The door is locked up tight",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "de": "Die Tür ist fest verriegelt.",
+    "en": "The door is tightly shut.",
+    "es": "La puerta está bien cerrada.",
+    "fr": "La porte est bien fermée.",
+    "it": "La porta è ben chiusa.",
     "ja": "扉は　かたく　閉ざされている。",
     "ko": "문은 굳게 닫혀 있다.",
     "zh-Hans": "门紧闭着。",
@@ -1358,7 +1358,7 @@
   "5147": {
     "comments": "",
     "de": "",
-    "en": "Boss Hottsi and Sage Broggen went\ninside. They were going to the Cave of\nCounsel. If you want to follow them to the Cave of Counsel, go to the\nguardian's room by the bonfire. Cave\nof Counsel is only accessible from there. But it's not safe to go beyond\nthe guardian's room. You should go to\nthe upper town to prepare yourself with armor and other supplies before\nyou enter the mine.",
+    "en": "Boss Hottsi and Sage Broggen went inside a while ago.\nI heard they're going to the Caution Land or something...\n<br>\nIf you're headed after those two to the Caution Land,\nfollow the bonfires to the Guardian's Room. The\nCaution Land is only accessible from there.\n<br>\nOnly, beyond the Guardian's Room is dangerous. You\nshould go uptown for armor to properly prepare\nyourself, before you enter the mine.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1382,7 +1382,7 @@
   "5149": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I heard <pc>. Broggen has\nasked you to accompany him on a survey\nof the Acronia Mine. That's quite an honor. Good luck with that!",
+    "en": "<attr><feel_happy_lv1><end_attr>I heard, <pc>. Master Broggen asked you to\naccompany him on a survey of the Acronia Mine? That's\nquite an honor. Do your very best!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1430,7 +1430,7 @@
   "5154": {
     "comments": "",
     "de": "",
-    "en": "<pc> Did you see that! The\nsky lit up with a true white light and\nbecame as bright as the city above! It was the kind of light that makes you\nfeel warm inside.",
+    "en": "<pc>, you saw that, yeah!? The sky burst\nwith bright, white light, and became as bright as the\ncity above! It was heart-warming... That light.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1440,9 +1440,9 @@
     "zh-Hant": "<pc>，你看到了嗎！？\n天空突然出現白色的光芒，\n讓這裡變得像上方市鎮一樣明亮呢！\n<br>\n那道光芒有種溫暖的感覺，\n好像連我的內心都變得溫暖了……"
   },
   "153957": {
-    "comments": "",
+    "comments": "Unused?",
     "de": "",
-    "en": "support companion has been added.\n\"support companion\" was added to the\n\"Misc.\" command.",
+    "en": "Support companion has been added.\n\"support companion\" was added to the\n\"Misc.\" command.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1454,7 +1454,7 @@
   "5156": {
     "comments": "",
     "de": "",
-    "en": "Oh <pc> welcome back!\nBroggen-sama and the master are\nwaiting for you. Come on, quickly,\n<br>\ninto the room.",
+    "en": "Ooh, <pc>, welcome back! Master Broggen and\nthe Boss are waiting for you. C'mon, hurry into the\nBoss' room.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1598,7 +1598,7 @@
   "5169": {
     "comments": "",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>Lunana left. She said she would never\ncome back.<bw_break>",
+    "en": "<attr><feel_sad_one><end_attr>Miss Lunana has left. She said that she would never\nreturn...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1670,7 +1670,7 @@
   "33246": {
     "comments": "",
     "de": "",
-    "en": "This world is inhabited by Dwarf Ogre\nWeddie Pukulipo Elf human and various\nraces. We Dwarfs had the power to build the most advanced civilization\namong them. Yes, we did. But now, we\nhave lost that advanced technology.",
+    "en": "In this world live various races: Dwarves, Ogres,\nWeddies, Pukulipos, Elves, and Humans.\n<br>\nWe Dwarves had the power to build the most advanced\ncivilizations among them... Yes, had. Now, that advanced\ntechnology has been completely lost, you know.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1682,7 +1682,7 @@
   "5178": {
     "comments": "",
     "de": "",
-    "en": "Let me give you some advice on your\ndeparture. Listen up. Be careful with\nthat Lunana chick! That's the advice of an uncle who's been hurt many times\nby women in his life. Keep it close to\nyour heart.",
+    "en": "Lemme give you some advice on your trip. Listen up,\nbe careful around that Lunana chick!\n<br>\nThat's the advice of an old guy who's been hurt many\ntimes by women up to now. Keep that close to your\nheart.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1706,7 +1706,7 @@
   "5180": {
     "comments": "",
     "de": "",
-    "en": "I heard from Sage Broggen. Acronia\nMine is safe now. Thanks to\n<pc>. Thank you so much.",
+    "en": "I heard from Sage Broggen. \"Acronia Mine is safe now\",\nhe said—because of you, <pc>... Really,\nthank you.",
     "es": "",
     "fr": "",
     "it": "",

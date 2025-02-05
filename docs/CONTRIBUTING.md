@@ -111,7 +111,7 @@
 |STT_MagicName|TBD||
 |STT_Main_UI|TBD||
 |STT_MasteryItems|TBD||
-|STT_Monster_Tips*_ver*|TBD||
+|STT\_Monster\_Tips\*\_ver\*|≤35 characters, 3 lines tall (2 `\n`), see STT\_BattleMonsterName.ID\_MONSTER\_NAME\_\*||
 |STT_Monster_Type|TBD||
 |STT_MonsterColor|TBD||
 |STT_MonsterMercenary|TBD||
