@@ -144,7 +144,7 @@
 |STT_SpecialExplanation|TBD||
 |STT_SpecialName|TBD||
 |STT_Support_BrowseSys|TBD||
-|STT_Syougou|TBD||
+|STT_Syougou|~50 characters long, 3 newlines tall (2 `\n`)|Titles|
 |STT_System_Book_Monster|TBD||
 |STT_System_Casino|TBD||
 |STT_System_Charamake|TBD||
