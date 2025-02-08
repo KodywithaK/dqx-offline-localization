@@ -684,7 +684,7 @@ UnrealPak.exe "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFL
 |                  `<%sEV_SNPC>`                   |            |
 |                `<%sEV_SYOK_HOSI>`                |            |
 |                `<%sEV_SYOK_ITEM>`                |            |
-|               `<%sEV_SYSMSG_NPC>`                |            |
+|               `<%sEV_SYSMSG_NPC>`                | Name of the NPC that you are currently speaking with |
 |               `<%sEV_TB_AREA_NM>`                |            |
 |               `<%sEV_TB_CONT_NM>`                |            |
 |                `<%sEV_TB_MON_NM>`                |            |
