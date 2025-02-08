@@ -1006,6 +1006,14 @@
   > ```html
   > You have been asked to do a quest. Do you accept?\\n<select>\\nAccept\\nDecline\\n<select_end><close>
   > ```
+  > or
+  > ```html
+  > "de DQXIS": "Dir wurde soeben eine Quest angetragen. Willst du Ja zu diesem Auftrag sagen?\\n<select>\\nJa\\nNein\\n<select_end><close>"
+  > "de": "Dir wurde eine Quest angefragt. Akzeptierst du?\\n<select>\\nJa\\nNein\\n<select_end><close>"
+  > "es": "",
+  > "fr": "",
+  > "it": "",
+  > ```
 
 - Quest received.
 
@@ -1092,7 +1100,7 @@
   > <center>{HERO}, can you hear me?
   > ```
   > or
-  >
+  > ```html
   > `de`: <center>{HERO}, hören Sie mich?
   >
   > `es`: <center>{HERO}, ¿puedes oírme?
@@ -1106,6 +1114,7 @@
   > `tw`: <center>达斯顿，能听见吗？
   >
   > `cn`: <center>達斯頓，聽得到嗎
+  > ```
 
 - Add comments section
 
