@@ -1,3 +1,35 @@
+# Parts of Speech
+
+# Determiner
+
+<!-- <details> -->
+
+| Language |  Determiner   |           Word            |  Gender   |  Meaning   |                                                  Comment(s)                                                   |
+| :------: | :-----------: | :-----------------------: | :-------: | :--------: | :-----------------------------------------------------------------------------------------------------------: |
+|    de    |               |                           |           |            |                                                                                                               |
+|    en    |               |                           |           |            |                                                                                                               |
+|          |   Definite    |            the            |     n     |            |                                                                                                               |
+|          | Demonstrative |           that            |     n     |            |                                                                                                               |
+|          | Demonstrative |           these           |     n     |            |                                                                                                               |
+|          | Demonstrative |           this            |     n     |            |                                                                                                               |
+|          | Demonstrative |           those           |     n     |            |                                                                                                               |
+|          |  Indefinite   |             a             |     n     |            |                                                                                                               |
+|          |  Indefinite   |            an             |     n     |            |                                      Before words starting with a vowel                                       |
+|    es    |               |                           |           |            |                                                                                                               |
+|    fr    |               |                           |           |            |                                                                                                               |
+|          |   Definite    |           `la`            |     f     |    the     |                                                                                                               |
+|          |   Definite    |  `le`<br>`au`¹<br>`du`²   |     m     |    the     |                 1. ^ Transformed by preposition: `à`<br>2. ^ Transformed by preposition: `de`                 |
+|          |   Definite    |           `l'`            |     n     |    the     | Before words starting with a vowel, see [Elision\_(French)](<https://en.wikipedia.org/wiki/Elision_(French)>) |
+|          |   Definite    |           `lea`           |     n     |    the     |                                                   neologism                                                   |
+|          |   Definite    | `les`<br>`aux`¹<br>`des`² | n, plural |    the     |                 1. ^ Transformed by preposition: `à`<br>2. ^ Transformed by preposition: `de`                 |
+|          |  Indefinite   |           `une`           |     f     | a, an, one |                                                                                                               |
+|          |  Indefinite   |           `un`            |     m     | a, an, one |                                                                                                               |
+|          |  Indefinite   |          `eune`           |     n     | a, an, one |                                                   neologism                                                   |
+|          |  Indefinite   |           `des`           | n, plural |    some    |                                                                                                               |
+|    it    |               |                           |           |            |                                                                                                               |
+
+<!-- </details> -->
+
 # Game.locres.json
 
 > > ## STT_EventMonsterName_2nd
