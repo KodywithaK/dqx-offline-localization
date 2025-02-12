@@ -72,7 +72,7 @@
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「ありがたミャー。<pc>さまは\n　猫島へ　向かってほしいでヤンス。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Thank you, Meow. I hope <pc>\nheads to Cat Island.<stop_lip_animation m00501 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n''<%sev_quest_name>''.<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nReceived!<me 74>"
   },
   "27637": {
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「もちろん　アッシも行くでヤンスよ！\n　リベリオの旦那　待ってておくれでヤンス～。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>Of course I'll be there! Rebelio\nmaster, please wait for me!<stop_lip_animation m00501 CLOSE_MOUTH>"
@@ -216,7 +216,7 @@
     "<start_lip_sync m50016 _normal m00001>「コイツは　オレのとっておきなのニャ。\n　受け取ってほしいのニャ。<stop_lip_animation m50016 CLOSE_MOUTH>": "<start_lip_sync m50016 _normal m00001>This is my special one. I want you to\ntake it.<stop_lip_animation m50016 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nCleared!<update_quedate><open_irai>"
   },
   "27684": {
     "<start_lip_sync m00501 _normal m00001><pipipi_shigh>「アッシからも　礼を言うでヤンス。\n　リベリオの旦那のために　いろいろと\n　ありがとうでヤンした　<cs_pchero>さま。<stop_lip_animation m00501 CLOSE_MOUTH>": "<start_lip_sync m00501 _normal m00001><pipipi_shigh>I would like to thank you as well.\nThank you for everything you did for\nthe Rebelio master.<cs_pchero>...<stop_lip_animation m00501 CLOSE_MOUTH>"

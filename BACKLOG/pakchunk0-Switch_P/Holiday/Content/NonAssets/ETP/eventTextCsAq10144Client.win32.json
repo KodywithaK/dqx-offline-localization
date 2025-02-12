@@ -42,7 +42,7 @@
     "<start_lip_sync n01463 _normal m00001>「それでは　<pc>。\n　我らも　出立するとしようぞ。\n　余は　そちの後を　ついていくでな。<stop_lip_animation n01463 CLOSE_MOUTH>": "<start_lip_sync n01463 _normal m00001>Well then <pc>. We shall\nleave now. I will follow you.<stop_lip_animation n01463 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n''<%sev_quest_name>''.<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nReceived!<me 74>"
   },
   "21647": {
     "<start_lip_sync n01463 _normal m00001>「……ムムッ！\n　そちは　下々の者の依頼を　たくさん抱えており\n　余の頼みは　受けられぬようじゃな。<stop_lip_animation n01463 CLOSE_MOUTH>": "<start_lip_sync n01463 _normal m00001>Mhm! It seems that you have so many\nrequests from the lower ranks that you\ncannot accept my request.<stop_lip_animation n01463 CLOSE_MOUTH>"
@@ -264,7 +264,7 @@
     "<start_lip_sync n01463 _normal m00001>「そのわびといっては　なんじゃが\n　この　三闘士のオノを受け取ってたもれ。\n　必要なときに　使うとよいじゃろう。<stop_lip_animation n01463 CLOSE_MOUTH>": "<start_lip_sync n01463 _normal m00001>As a token of my appreciation, please\naccept this Triad Axe. Use it whenever\nyou need it.<stop_lip_animation n01463 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nCleared!<update_quedate><open_irai>"
   },
   "21722": {
     "<start_lip_sync n01463 _normal m00001>「これは　そのわびを兼ねた　礼じゃ。\n　受け取ってたもれ。<stop_lip_animation n01463 CLOSE_MOUTH>": "<start_lip_sync n01463 _normal m00001>This is a courtesy gift to express my\ngratitude. Please accept it.<stop_lip_animation n01463 CLOSE_MOUTH>"

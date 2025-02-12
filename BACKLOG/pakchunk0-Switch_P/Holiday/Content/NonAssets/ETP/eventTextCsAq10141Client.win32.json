@@ -117,7 +117,7 @@
     "<start_lip_sync n01463 _normal m00001>「ウルベアに着いたら　地下を目指すのじゃ。\n　地下３階辺りにある　奥まった部屋に\n　リウ老師は　囚われているはずじゃ。<stop_lip_animation n01463 CLOSE_MOUTH>": "<start_lip_sync n01463 _normal m00001>When you reach Urbea, go to the\nbasement. Master Liu should be trapped\nin a room in the basement, somewhere\n<br>\naround the third floor.<stop_lip_animation n01463 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n''<%sev_quest_name>''.<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nReceived!<me 74>"
   },
   "21415": {
     "<start_lip_sync n01463 _normal m00001>「おお　待っておったぞ！\n　ここにいる者に　まともに話せる者はおらぬ。\n　頼みのつなは　そちだけじゃ。<stop_lip_animation n01463 CLOSE_MOUTH>": "<start_lip_sync n01463 _normal m00001>Oh, I've been waiting for you! No one\nhere can speak properly. You're the\nonly one I can count on.<stop_lip_animation n01463 CLOSE_MOUTH>"
@@ -243,7 +243,7 @@
     "<start_lip_sync n01463 _normal m00001>「<pc>よ　これは　ほうびじゃ。\n　この時代に価値があるかは　わからぬが\n　ありがたく　受け取るがよい。<stop_lip_animation n01463 CLOSE_MOUTH>": "<start_lip_sync n01463 _normal m00001>This is a reward for you,\n<pc>. I don't know if it's\nworth it in this day and age, but\n<br>\nthank you for it.<stop_lip_animation n01463 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nCleared!<update_quedate><open_irai>"
   },
   "21456": {
     "<start_lip_sync n01463 _normal m00001>「<pc>……。\n　そちは　信頼に値する者だと　わかった。\n　余が　困ったときは　また手を貸してたもれ。<stop_lip_animation n01463 CLOSE_MOUTH>": "<start_lip_sync n01463 _normal m00001><pc>. I have found you worthy\nof my trust. When I am in trouble,\nplease lend me a hand again.<stop_lip_animation n01463 CLOSE_MOUTH>"

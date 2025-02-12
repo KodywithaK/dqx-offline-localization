@@ -45,7 +45,7 @@
     "<start_lip_sync n01514 _normal m00001>「うむ！　では　後のことは　まかせたぞ。\n　精霊樹との戦いでは　妖精たちのポルカを\n　使うことを　忘れんようにな。<stop_lip_animation n01514 CLOSE_MOUTH>": "<start_lip_sync n01514 _normal m00001>Mm-hmm! I'll leave the rest to you.\nDon't forget to use Brownie Boost when\nyou fight against the spirit tree.<stop_lip_animation n01514 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n''<%sev_quest_name>''.<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nReceived!<me 74>"
   },
   "19381": {
     "<start_lip_sync n01514 _normal m00001>「では　頼んだぞ……と思ったら\n　なんじゃ　その　頼まれごとの数は！？<stop_lip_animation n01514 CLOSE_MOUTH>": "<start_lip_sync n01514 _normal m00001>Then I thought, ''I've asked you for a\nfavor,'' but what's with all the favors\nyou're getting?<stop_lip_animation n01514 CLOSE_MOUTH>"
@@ -147,7 +147,7 @@
     "<start_lip_sync n01514 _normal m00001>「お前さんこそ　レンジャーの中のレンジャー。\n　その栄誉に　見合うものではないが\n　どうか　これを　贈らせてくれ。<stop_lip_animation n01514 CLOSE_MOUTH>": "<start_lip_sync n01514 _normal m00001>You are the ranger among rangers, and\nI know I don't deserve this honor, but\nplease, let me present this to you.<stop_lip_animation n01514 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nCleared!<update_quedate><open_irai>"
   },
   "19416": {
     "<start_lip_sync n01515 _normal m00001>「ただいま　戻りましたーっ！<stop_lip_animation n01515 CLOSE_MOUTH>": "<start_lip_sync n01515 _normal m00001>I'm back!<stop_lip_animation n01515 CLOSE_MOUTH>"

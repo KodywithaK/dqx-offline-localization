@@ -36,7 +36,7 @@
     "<start_lip_sync n01462 _normal m00001>「アーニアと　シェリル……。\n　ふたりの　最後の戦いだ……！\n　頼むぞ　<pc>！<stop_lip_animation n01462 CLOSE_MOUTH>": "<start_lip_sync n01462 _normal m00001>Anya and Cheryl, it's their last\nfight! Please <pc>!<stop_lip_animation n01462 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n''<%sev_quest_name>''.<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nReceived!<me 74>"
   },
   "22280": {
     "<start_lip_sync n01462 _normal m00001>「来たか。<cs_pchero>。\n　あれを　見てくれ……。<stop_lip_animation n01462 CLOSE_MOUTH>": "<start_lip_sync n01462 _normal m00001>You're here.<cs_pchero>Look at that. Look at that.<stop_lip_animation n01462 CLOSE_MOUTH>"
@@ -243,7 +243,7 @@
     "<start_lip_sync n01462 _normal m00001>「本来なら　国を挙げ　式典を開くところだが\n　忙しいキミの身を案じ　私が授与を命じられた。\n　さあ　受け取るがよい！<stop_lip_animation n01462 CLOSE_MOUTH>": "<start_lip_sync n01462 _normal m00001>Normally, I would have held a state\nceremony, but I was ordered to give it\nto you for your busy schedule. Now,\n<br>\naccept it!<stop_lip_animation n01462 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nCleared!<update_quedate><open_irai>"
   },
   "22346": {
     "<start_lip_sync n01462 _normal m00001>「<pc>よ。キミの活躍には\n　本当に　目を　見張るものがあった。<stop_lip_animation n01462 CLOSE_MOUTH>": "<start_lip_sync n01462 _normal m00001><pc>, you've been really\nspectacular.<stop_lip_animation n01462 CLOSE_MOUTH>"

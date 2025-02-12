@@ -25,7 +25,7 @@
   },
   "201249": {
     "<attr><feel_sad_lv1><end_attr>「ルッチーは　私たちの知らぬうちに\n　立派に　成長していたのですね……。\n<br>\n「あの子ならば……\n　私たちが　ついに　見つけることができなかった\n　遊び人の極致に　たどり着けるかもしれません。": 
-    "<attr><feel_sad_lv1><end_attr>Lucchie has grown up to be a great girl\nwithout our knowledge. She may be the one to\nfinally reach the gadabout that we could not\n<br>\nfind."
+    "<attr><feel_sad_lv1><end_attr>Lucchie has grown up to be a great girl\nwithout our knowledge...\n<br>\nShe may be the one to\nfinally reach the gadabout that we could not find."
   },
   "201250": {
     "<attr><feel_sad_one><end_attr>「現役時代　やみくもに遊んでいた頃……\n　私は　捨てられた城の　バナナの皮で転び\n　アタマを打って　ついに　賢者の道を悟った。\n<br>\n「捨てられた城で　死んだという遊び人とは\n　じつを言えば　私のことだったのだ。\n　ずいぶん　昔の話になるがな……。": 
@@ -113,11 +113,11 @@
   },
   "60435": {
     "<attr><feel_happy_lv2><end_attr>「ああっ　美しいバラね！　なんて　罪深い……。\n　あたいもそうだから　よくわかるわ……って\n　つい　ひたっちゃったわね。色を　作らなきゃ！": 
-    "<attr><feel_happy_lv2><end_attr>Ah, a beautiful rose! How sinful. I know\nbecause I'm like that too. I was just a little\nbit determined. I have to make colors!"
+    "<attr><feel_happy_lv2><end_attr>Aaw, beautiful rose, isn't it! How sinful... I know\nbecause I'm like that too. I was just a little\nbit determined. I have to make colors!"
   },
   "60436": {
     "<se_nots joutyu SUCCESS>「まずは……　花びらを　１枚ずつ\n　ていねいにバラして……。\n　あとは　とっておきの魔法で　仕上げるわよゥ！<bw_break>": 
-    "<se_nots joutyu SUCCESS>First, carefully break up the petals one by\none. Then we'll finish it off with our special\nmagic!<bw_break>"
+    "<se_nots joutyu SUCCESS>First... Carefully break up the petals one by\none... Then we'll finish it off with our special\nmagic!<bw_break>"
   },
   "60437": {
     "「マジカル　マジカル<heart>\n　バラ　バラ　バーバラ　バララッパ！！": 
@@ -145,11 +145,11 @@
   },
   "60443": {
     "ローゼリナに\n罪深きバラを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>": 
-    "Would you like to give Roselina the Sinful\nRose?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+    "Give Roselina the Sinful Rose?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "60444": {
     "<pc>は　ローゼリナに\n罪深きバラを　渡した！": 
-    "<pc> gave Roselina a Sinful Rose!"
+    "<pc> gave Roselina the Sinful Rose!"
   },
   "60445": {
     "ローゼリナは　ねっとりとした手つきで\nバラの花びらに　魔法をかけた！<me 69>": 
@@ -157,11 +157,11 @@
   },
   "60446": {
     "美容院で　新しい色\n『ローズ』が　使えるようになった！<me 71>": 
-    "A new color, \"rose,\" is now available at\nSalon!<me 71>"
+    "A new color, \"rose\", is now available at\nSalon!<me 71>"
   },
   "60447": {
     "<attr><feel_sad_one><end_attr>「美しさは　罪……。\n　美しいバラに　トゲがあるように\n　あたいも　人を傷つけながら　生きてきたわ。<bw_break>": 
-    "<attr><feel_sad_one><end_attr>Beauty is a sin. Just like a beautiful rose\nhas thorns, I too have lived my life while\nhurting others.<bw_break>"
+    "<attr><feel_sad_one><end_attr>Beauty is sin... Just like a beautiful rose\nhas thorns, I too have lived my life while\nhurting others.<bw_break>"
   },
   "60448": {
     "「でも　闇があるから　光が際立つように\n　罪深さが　美しさを際立たせてくれるのよゥ！\n　そんな美こそを　あたいは知らしめたいのよゥ！": 
@@ -249,7 +249,7 @@
   },
   "35251": {
     "「そうかい……。でも　あれは\n　とても　気味が悪い風だったよ。": 
-    "Oh, yeah. But it was a very unpleasant wind."
+    "Oh, yeah... But it was a very unpleasant wind."
   },
   "35252": {
     "<attr><feel_angry_lv2><end_attr>「花嫁をさらうなんて\n　とんでもない魔物も　いたもんだよ！\n<br>\n「あんた　シェルナーなんだろう？\n　早く花嫁を　助けにお行き！": 
@@ -281,7 +281,7 @@
   },
   "35259": {
     "<attr><feel_sad_one><end_attr>「なんと……。花嫁は　まだ魔物に\n　囚われの身ということなのですか。\n<br>\n「ああ　花嫁の無事を祈るしかできない\n　わが身が　うらめしい……。": 
-    "<attr><feel_sad_one><end_attr>Oh, my. Does this mean that the bride is still\na prisoner of the monster? Ah, I'm envious\nthat I can do nothing but pray for the bride's\n<br>\nsafety."
+    "<attr><feel_sad_one><end_attr>What the... Does this mean that the bride is still\na prisoner of the monster? Ah, I'm envious\nthat I can do nothing but pray for the bride's\n<br>\nsafety."
   },
   "35260": {
     "<attr><feel_sad_one><end_attr>「私が思ったとおり　あの黒い魔物の正体は\n　失った花嫁を探す　花婿の霊だったのですね。\n　なんと　悲しいことでしょう……。\n<br>\n「後ほど　私も　慰霊の浜に向かい\n　彼のために　祈りを捧げようと思います。": 

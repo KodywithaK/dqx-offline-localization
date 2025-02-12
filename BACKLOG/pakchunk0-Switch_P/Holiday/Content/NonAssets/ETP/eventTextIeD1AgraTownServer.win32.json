@@ -1,11 +1,11 @@
 {
   "43578": {
     "アグラニの下の町に行く　神カラクリがある。\nスイッチを押して　移動しますか？<yesno><close>": 
-    "Going to the town below Agrani there\nis a Divine Machine, do you want to\npress switch and move?<yesno><close>"
+    "There is a divine machine that goes to lower Agrani.\nPress the switch to transfer?<yesno><close>"
   },
   "43579": {
     "アグラニの上の町に行く　神カラクリがある。\nスイッチを押して　移動しますか？<yesno><close>": 
-    "Go to the town above Agrani there is a\nDivine Machine, press switch to move?<yesno><close>"
+    "There is a divine machine that goes to upper Agrani.\nPress the switch to transfer?<yesno><close>"
   },
   "10267000": {
     "「おっと　そうだ！　\n　最近　手に入れた　こいつを\n　せんべつに　くれてやる！<bw_break>": 
@@ -13,7 +13,7 @@
   },
   "10267001": {
     "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": 
-    "<pc> received a brick kiln\n(Key Item)!<me 60> In addition, he received a recipe\nbook, ''Hajimeyo Alchemy!<se_nots System Item> <pc> has read ''Let's Get\nStarted: Alchemy''! <pc>\nlearned the recipe for Hajimeteyo\n<br>\nAlchemy!<se_nots System Item> The Renkin pot is a special tool that\ncan be used to smelt another item by\ninserting the item as a material. You\n<br>\ncan smelt an item by selecting ''Renkin\nGama'' from the ''item'' command. To\nsmelt an item, you will need the\n<br>\nrecipe of the item you want to smelt.\nRecipes can be obtained from the\nRecipe Shop or bookshelf."
+    "<pc> received the Alchemy Pot (Key Item)!<me 60>\n<br>\nThey also received a recipe book,\"Beginner's Alchemy\"!<se_nots System Item>\n<br>\n<pc> read \"Beginner's Alchemy\"! <pc>\nlearned the recipes in \"Beginner's Alchemy\"!<se_nots System Item>\n<br>\nThe Alchemy Pot is a special tool used to alchemize\nanother item by inserting items as materials.\n<br>\nYou can alchemize items by selecting \"Alchemy Pot\"\nfrom the \"Items\" menu. To alchemize an item, you will\nneed the recipe of said item.\n<br>\nRecipes can be obtained from the Recipe Shop or\nbookshelves."
   },
   "10267002": {
     "「なんだか　便利そうだろ？\n　きっと　これからの旅の　役に立つと思うぜ！\n　それじゃ　しっかりな！": 
@@ -309,7 +309,7 @@
   },
   "33239": {
     "<attr><feel_happy_one><end_attr>「<pc>さん　よく来てくださいました！\n　教会の入り口から見て　左にある　お部屋で\n　ルナナさんが　お待ちですわよ。さて……。<bw_break>": 
-    "<attr><feel_happy_one><end_attr><pc> Thank you for coming!\nLunana is waiting for you in the room\nto the left of the Church entrance.\n<br>\nWell...<bw_break>"
+    "<attr><feel_happy_one><end_attr><pc>, thank you very much for coming! Ms.\nLunana is waiting for you in the room to the left of\nthe Church entrance. Now then...<bw_break>"
   },
   "33240": {
     "<attr><feel_happy_lv1><end_attr><start_lip_sync n00510 _normal m00001><start_lip_sync n00511 _normal m00001><stop_lip_animation n00511 CLOSE_MOUTH>「なあ　ココン。お前　いっつも\n　母ちゃんの分まで　ご飯食べてるだろ。\n<br>\n「よくばって　人の分まで食ってると\n　強欲オバケに　なっちゃうんだぞ！": 
@@ -329,7 +329,7 @@
   },
   "5177": {
     "「この世界には　ドワーフ　オーガ\n　ウェディ　プクリポ　エルフ　人間と\n　さまざまな種族が　住んでいます。\n<br>\n「私たちドワーフは　その中で\n　いちばん　高度な文明を築くチカラを\n　持っていたのですよ。\n<br>\n「……ええ　持っていたのです。\n　今となっては　その高度な技術力も\n　失われてしまったのですがね。": 
-    "This world is inhabited by Dwarf Ogre\nWeddie Pukulipo Elf human and various\nraces. We Dwarfs had the power to\n<br>\nbuild the most advanced civilization\namong them. Yes, we did. But now, we\nhave lost that advanced technology."
+    "This world is inhabited by Dwarves, Ogres,\nWeddies, Pukulipos, Elves, Humans and various\nraces. We Dwarfs had the power to\n<br>\nbuild the most advanced civilization\namong them. Yes, we did. But now, we\nhave lost that advanced technology."
   },
   "33247": {
     "「お前さん　上の町に行くのかね？\n　……だとしたら　こいつの出番だな。": 

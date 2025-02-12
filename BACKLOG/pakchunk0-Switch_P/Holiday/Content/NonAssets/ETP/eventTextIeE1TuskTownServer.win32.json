@@ -5,7 +5,7 @@
   },
   "10093001": {
     "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。": 
-    "<pc> received a brick kiln\n(Key Item)!<me 60> In addition, he received a recipe\nbook, ''Hajimeyo Alchemy!<se_nots System Item> <pc> has read ''Let's Get\nStarted: Alchemy''! <pc>\nlearned the recipe for Hajimeteyo\n<br>\nAlchemy!<se_nots System Item> The Renkin pot is a special tool that\ncan be used to smelt another item by\ninserting the item as a material. You\n<br>\ncan smelt an item by selecting ''Renkin\nGama'' from the ''item'' command. To\nsmelt an item, you will need the\n<br>\nrecipe of the item you want to smelt.\nRecipes can be obtained from the\nRecipe Shop or bookshelf."
+    "<pc> received the Alchemy Pot (Key Item)!<me 60>\n<br>\nThey also received a recipe book,\"Beginner's Alchemy\"!<se_nots System Item>\n<br>\n<pc> read \"Beginner's Alchemy\"! <pc>\nlearned the recipes in \"Beginner's Alchemy\"!<se_nots System Item>\n<br>\nThe Alchemy Pot is a special tool used to alchemize\nanother item by inserting items as materials.\n<br>\nYou can alchemize items by selecting \"Alchemy Pot\"\nfrom the \"Items\" menu. To alchemize an item, you will\nneed the recipe of said item.\n<br>\nRecipes can be obtained from the Recipe Shop or\nbookshelves."
   },
   "10093002": {
     "「ふむ……　なかなか便利そうなものだな。\n　きっと　旅の役に立ってくれるだろう。\n　それでは　しっかりやるんだぞ！": 
@@ -389,11 +389,11 @@
   },
   "33767": {
     "<attr><feel_happy_lv1><end_attr>「フウラさんの声が　外まで聞こえてきたから\n　びっくりしちゃいました。何事もなくて\n　よかったですね　<pc>さん。\n<br>\n「えっ？　エテ…ネの村？　ネルゲル？\n　それって　研究の話ですか？\n　この村の名前なら　ツスクルの村ですけど……。\n<br>\n「それより　外の広場に　急いでください！\n　ついに　若葉の試みが　始まりますよ。\n<br>\n「若葉の試みは　この学びの庭で\n　年に一度　行われる\n　巣立ちのための　最終試験。\n<br>\n「この試験の結果で　最上級生の皆さんの\n　運命が　決まるんですね……。\n　なんだか　あたしまでキンチョーしちゃいます。": 
-    "<attr><feel_happy_lv1><end_attr>When I heard Fuura's voice from outside, I was so\nscared. I'm glad that nothing happened to you,\n<pc>.\n<br>\nEh? Eth... Ene Village? Nergel? Are you talking about\nyour research? If you mean here, this is Tsusukul\nVillage, but...\n<br>\nMore importantly, please hurry to the plaza outside!\nAfter all, the Trial of the Young Leaves is about to\nbegin.\n<br>\nThe Trial of the Young Leaves is the Garden of\nLearning's annual final exam before graduation.\n<br>\nThe results of which determines the fates of all the\nsenior students, you know... For some reason, I'm\ntotally nervous."
+    "<attr><feel_happy_lv1><end_attr>When I heard Fuura's voice from outside, I was so\nscared. I'm glad that nothing happened to you,\n<pc>.\n<br>\nEh? Eth... Ene Village? Nergel? Are you talking about\nyour research? If you mean here, this is Tsusukul\nVillage, but...\n<br>\nMore importantly, please hurry to the plaza outside!\nAfter all, the Trial of the Young Leaves is about to\nbegin.\n<br>\nThe Trial of the Young Leaves is the Garden of\nLearning's annual final exam before graduation.\n<br>\nThe results of which determines the fate of all the\nsenior students, you know... For some reason, I'm\ntotally nervous."
   },
   "33768": {
     "<attr><feel_happy_lv1><end_attr>「さあ　外の広場に　急いでください！\n　ついに　若葉の試みが　始まりますよ。\n<br>\n「若葉の試みは　この学びの庭で\n　年に一度　行われる\n　巣立ちのための　最終試験。\n<br>\n「この試験の結果で　最上級生の皆さんの\n　運命が　決まるんですね……。\n　なんだか　あたしまでキンチョーしちゃいます。": 
-    "<attr><feel_happy_lv1><end_attr>Now, please hurry to the plaza outside! After all, the\nTrial of the Young Leaves is about to begin.\n<br>\nThe Trial of the Young Leaves is the Garden of\nLearning's annual final exam before graduation.\n<br>\nThe results of which determines the fates of all the\nsenior students, you know... For some reason, I'm\ntotally nervous."
+    "<attr><feel_happy_lv1><end_attr>Now, please hurry to the plaza outside! After all, the\nTrial of the Young Leaves is about to begin.\n<br>\nThe Trial of the Young Leaves is the Garden of\nLearning's annual final exam before graduation.\n<br>\nThe results of which determines the fate of all the\nsenior students, you know... For some reason, I'm\ntotally nervous."
   },
   "33769": {
     "<attr><feel_happy_one><end_attr>「ガツガツ　ガツガツ　ガツガツ　ガツガツ\n　ガツガツ　ガツガツ　ガツガツ……。\n<br>\n「ゲフーッ！<bw_break>": 
@@ -425,7 +425,7 @@
   },
   "33776": {
     "<attr><feel_angry_lv1><end_attr>「ゴホンッ！ \n　ここでは　学びの庭の　伝統ある卒業試験\n　若葉の試みへの　参加を受け付けている。\n<br>\n「そなたは　最上級生の　<pc>だな。\n　若葉の試みを受ける　準備はいいな？<yesno><case 1><close><case 2><break><case_cancel><break><case_end>": 
-    "<attr><feel_angry_lv1><end_attr>Gohonk!Here at the Garden of Learning,\nwe are accepting applications for the\ntraditional graduation exam, the Young\n<br>\nLeaves Attempt. You are <pc>,\nthe most senior student. Are you ready\nto take the Trial of the Young Leaves?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>"
+    "<attr><feel_angry_lv1><end_attr>*Ahem*! Here at the Garden of Learning,\nwe are accepting applications for the\ntraditional graduation exam, the Young Leaves Attempt.\n<br>\nYou are a senior, <pc>, no. Are you ready to\ntake the Trial of the Young Leaves?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>"
   },
   "33777": {
     "<attr><feel_angry_lv1><end_attr>「そうか。まだ　開始まで　時間がある。\n　急ぎ　準備を済ませてくるといい。": 

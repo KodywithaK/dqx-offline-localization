@@ -36,7 +36,7 @@
     "<start_lip_sync m16205 _normal m00001>「必殺技を習得するには　この特訓が\n　どうしても　必要になるでンス。\n　それでは　よろしくでンスよ。<stop_lip_animation m16205 CLOSE_MOUTH>": "<start_lip_sync m16205 _normal m00001>This training is necessary to master\nthe special moves. Then, I look\nforward to working with you.<stop_lip_animation m16205 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n''<%sev_quest_name>''.<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nReceived!<me 74>"
   },
   "62235": {
     "<start_lip_sync m16205 _normal m00001>「おお！　ありがたいでンス！\n　ありがたいでンスが…………<stop_lip_animation m16205 CLOSE_MOUTH>": "<start_lip_sync m16205 _normal m00001>Oh, thank you! Thank you very much!\nThank you very much.<stop_lip_animation m16205 CLOSE_MOUTH>"
@@ -90,7 +90,7 @@
     "<pc>は\n『どうぐ使い必殺技マニュアル』と\n書かれた本を　読んだ。": "<pc> read a book called ''item\nmaster's manual of special\ntechniques''."
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nCleared!<update_quedate><open_irai>"
   },
   "62033": {
     "<start_lip_sync m16205 _normal m00001>「……と言いたいところでンスが\n　すでに　必殺技を習得してるようでンスね。\n　では　代わりに　これをどうぞでンス。<stop_lip_animation m16205 CLOSE_MOUTH>": "<start_lip_sync m16205 _normal m00001>I'd like to say, ''I've already\nmastered a special move,'' but it seems\nyou've already mastered a special\n<br>\nmove. So, please try this instead.<stop_lip_animation m16205 CLOSE_MOUTH>"

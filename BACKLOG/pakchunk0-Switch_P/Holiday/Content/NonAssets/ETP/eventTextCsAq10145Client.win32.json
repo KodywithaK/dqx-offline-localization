@@ -69,7 +69,7 @@
     "<start_lip_sync n01463 _normal m00001>「<pc>よ。それでは　参ろうか。\n　目指すは　ボロヌス溶岩流の東に眠る\n　ガテリア皇国の遺跡ぞよ。<stop_lip_animation n01463 CLOSE_MOUTH>": "<start_lip_sync n01463 _normal m00001><pc>. Shall we go then? Our\ngoal is the ruins of the Imperial\nKingdom of Gateria, which lies to the\n<br>\neast of the Boronus Lava Flow.<stop_lip_animation n01463 CLOSE_MOUTH>"
   },
   "26332": {
-    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "I received the quest\n''<%sev_quest_name>''.<me 74>"
+    "クエスト『<%sEV_QUEST_NAME>』を\n受けました。<me 74>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nReceived!<me 74>"
   },
   "21756": {
     "<start_lip_sync n01463 _normal m00001>「おお　<pc>。\n　余の祖国　ガテリア皇国の遺跡を探す\n　手伝いをしてくれる気になったのかえ？<stop_lip_animation n01463 CLOSE_MOUTH>": "<start_lip_sync n01463 _normal m00001>Oh <pc>. You're willing to\nhelp me find the ruins of my homeland,\nthe Gateria Empire?<stop_lip_animation n01463 CLOSE_MOUTH>"
@@ -273,7 +273,7 @@
     "<start_lip_sync n01463 _normal m00001>「<cs_pchero>。そちには　本当に世話になった。\n　感謝しても　しきれぬが\n　これは　せめてもの礼じゃ。受け取ってたもれ。<stop_lip_animation n01463 CLOSE_MOUTH>": "<start_lip_sync n01463 _normal m00001><cs_pchero>Thank you very much. I am truly\nindebted to you. I can't thank you\nenough, but this is the least I can\n<br>\ndo. Please accept it.<stop_lip_animation n01463 CLOSE_MOUTH>"
   },
   "42173": {
-    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "The quest ''<%sev_quest_name>'' has been\ncompleted!<update_quedate><open_irai>"
+    "クエスト『<%sEV_QUEST_NAME>』を\nクリアしました！\n　<update_quedate><open_irai>": "<center>Quest\n\"<%sEV_QUEST_NAME>\"\nCleared!<update_quedate><open_irai>"
   },
   "28425": {
     "<cs_pchero>は　クエストをクリアした！": "<cs_pchero>completed the quest!"
