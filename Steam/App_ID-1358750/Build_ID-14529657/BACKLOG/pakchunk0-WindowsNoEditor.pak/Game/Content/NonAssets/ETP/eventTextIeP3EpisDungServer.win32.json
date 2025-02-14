@@ -1,5 +1,6 @@
 {
   "205322": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -7,10 +8,12 @@
     "it": "",
     "ja": "賢者ホーローによって　封印されている。\n今は　先へは　進めないようだ。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "205749": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -18,21 +21,25 @@
     "it": "",
     "ja": "扉には　カギが　かかっているようだ。",
     "ko": "문은 잠겨 있는 것 같다.",
+    "pt-BR": "",
     "zh-Hans": "门似乎上着锁。",
     "zh-Hant": "門似乎上鎖了。"
   },
   "205750": {
-    "de": "",
-    "en": "",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "comments": "See `DQ3make-Data_DataTable_Text.json:GOP_Text_NPC_Talk_Common.Txt_Talk_Common_LockedDoor_1`",
+    "de": "Die Tür ist verschlossen mit Schüssel.\n持っている　パルミオのカギが　合いそうだ。\nパルミオのカギを　使いますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "en": "The door is locked.\n持っている　パルミオのカギが　合いそうだ。\nパルミオのカギを　使いますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "es": "La puerta está cerrada con llave.\n持っている　パルミオのカギが　合いそうだ。\nパルミオのカギを　使いますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "fr": "La porte est fermée à clé.\n持っている　パルミオのカギが　合いそうだ。\nパルミオのカギを　使いますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "it": "La porta è chiusa a chiave.\n持っている　パルミオのカギが　合いそうだ。\nパルミオのカギを　使いますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
     "ja": "扉には　カギが　かかっている。\n持っている　パルミオのカギが　合いそうだ。\nパルミオのカギを　使いますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
     "ko": "",
+    "pt-BR": "A porta está trancada com chave.\n持っている　パルミオのカギが　合いそうだ。\nパルミオのカギを　使いますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "205751": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -40,10 +47,12 @@
     "it": "",
     "ja": "<pc>は　パルミオのカギを使い\n魔瘴調査区画へと　入っていった。<se_nots Joutyu_SE 57>",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206053": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -51,10 +60,12 @@
     "it": "",
     "ja": "<center>！　注意　！\n<br>\nこの奥は　濃密な魔瘴が発生しているため\nたいへん　危険です。\n許可なき立ち入りは　禁止されています。\n<br>\n緊急の場合は　賢者エイドス様に　お願いし\nしぐさ『聖別の詩歌』で　魔瘴を封じてから\n調査に　向かってください。\n<br>\nしぐさ『聖別の詩歌』は　すでに　覚えている。\nさくせんコマンド　キャラ設定の\nよく使うセリフ設定から　選んで　使おう。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206054": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -62,10 +73,12 @@
     "it": "",
     "ja": "強い　魔瘴が　たちこめている……。\n魔瘴を封じなければ　先に　進めないようだ。\nしぐさ『聖別の詩歌』を　してみよう！\n<br>\nしぐさ『聖別の詩歌』を　行うには\nさくせんコマンドの　キャラ設定で\nよく使うセリフ設定から　登録し　使ってみよう！",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206055": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -73,10 +86,12 @@
     "it": "",
     "ja": "<pc>は　『聖別の詩歌』を　歌った！",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206056": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -84,10 +99,12 @@
     "it": "",
     "ja": "地面に　不思議な装置がある……。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206057": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -95,10 +112,12 @@
     "it": "",
     "ja": "<pipipi_shigh>「現在　転送装置は　稼働中です。\n　地底への転送を　ご希望ですか？<yesno><close>",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206058": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -106,10 +125,12 @@
     "it": "",
     "ja": "<pipipi_shigh>「アルウェーン　名誉市民　<pc>さんの\n　市民登録を　確認いたしました。\n　扉の　ロックを解除いたします。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206059": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -117,10 +138,12 @@
     "it": "",
     "ja": "知理の石版を　かざしてみますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206060": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -128,10 +151,12 @@
     "it": "",
     "ja": "賢者ホーローの封印が　解けた！",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206061": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -139,21 +164,25 @@
     "it": "",
     "ja": "<pipipi_shigh>「魔瘴調査区画・最深部への扉の\n　セキュリティを　解除しました。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206062": {
-    "de": "",
-    "en": "",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
+    "de": "Die Tür ist fest verriegelt......<bw_break>",
+    "en": "The door is tightly shut......<bw_break>",
+    "es": "La puerta está bien cerrada......<bw_break>",
+    "fr": "La porte est bien fermée......<bw_break>",
+    "it": "La porta è ben chiusa......<bw_break>",
     "ja": "扉は　かたく閉ざされている……。<bw_break>",
     "ko": "",
+    "pt-BR": "A porta está bem fechada......<bw_break>",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206063": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -161,10 +190,12 @@
     "it": "",
     "ja": "なんと　知理の石版が　突然　光りだした！",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206064": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -172,10 +203,12 @@
     "it": "",
     "ja": "<pipipi_shigh>「現在　転送装置は　停止中です。\n　稼働させるためには　管理タブレットにて\n　この端末を操作し　稼働状態にしてください。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206065": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -183,10 +216,12 @@
     "it": "",
     "ja": "<pc>は　知理の石版を　かざした！",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206066": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -194,10 +229,12 @@
     "it": "",
     "ja": "<pipipi_shigh>「管理者権限での　アクセスを認識。\n　……全システム復帰。\n　……転送装置　稼働再開。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206067": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -205,10 +242,12 @@
     "it": "",
     "ja": "<center>！　特別通信　！<se_nots S4_FOR8_001 2>",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206069": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -216,10 +255,12 @@
     "it": "",
     "ja": "<center>！　特別通信　！<se_nots S4_FOR8_001 2>",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206070": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -227,10 +268,12 @@
     "it": "",
     "ja": "地面に　不思議な装置が　ある……。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206071": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -238,10 +281,12 @@
     "it": "",
     "ja": "<pipipi_shigh>「現在　転送装置は　稼働中です。\n　上層への転送を　ご希望ですか？<yesno><close>",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206073": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -249,21 +294,25 @@
     "it": "",
     "ja": "<pipipi_shigh>「アルウェーン　名誉市民　<pc>さんの\n　市民登録を　確認いたしました。\n　扉の　ロックを解除いたします。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206115": {
-    "de": "",
-    "en": "",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
+    "de": "Die Tür ist fest verriegelt.\n知理の石版にも　反応しないようだ。",
+    "en": "The door is tightly shut.\n知理の石版にも　反応しないようだ。",
+    "es": "La puerta está bien cerrada.\n知理の石版にも　反応しないようだ。",
+    "fr": "La porte est bien fermée.\n知理の石版にも　反応しないようだ。",
+    "it": "La porta è ben chiusa.\n知理の石版にも　反応しないようだ。",
     "ja": "扉は　かたく閉ざされている。\n知理の石版にも　反応しないようだ。",
     "ko": "",
+    "pt-BR": "A porta está bem fechada.\n知理の石版にも　反応しないようだ。",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206120": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -271,10 +320,12 @@
     "it": "",
     "ja": "<pipipi_low>「聞こえるか　<pc>よ。\n　わしじゃ　ホーローじゃよ。\n<br>\n「今こそ　知理の石版と　ともに\n　増殖する魔獣と　戦うべき時じゃ！\n　さあ　封印を解いてやろう……。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206121": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -282,10 +333,12 @@
     "it": "",
     "ja": "<pipipi_low>「ではな　<pc>よ。\n　のちほど　魔獣のもとで　会おう！",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206124": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -293,10 +346,12 @@
     "it": "",
     "ja": "あたりに　満ちていた\n魔瘴の気配が　消え去っていく……！",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "206125": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -304,10 +359,12 @@
     "it": "",
     "ja": "<pc>は　魔瘴封じの儀式に　成功した！\n魔瘴調査区画の先に　進めるようになった！<me 71>",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "207314": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -315,10 +372,12 @@
     "it": "",
     "ja": "<pipipi_mid>「ひさしぶりだね　<pc>……。\n　ボクだよ　プクラスだ。\n<br>\n「キミと　増殖獣バイロゴーグの戦いを\n　手助けできればと　思って　６０００年後のため\n　この部屋を　用意しておいたんだ。\n<br>\n「奥の扉から進めば　魔獣との戦いになる。\n　もし　戦いの準備を　ととのえたいなら\n　中央の転送装置から　入り口近くへ　戻れるよ。\n<br>\n「くれぐれも　魔獣の増殖機能を\n　その管理タブレット……知理の石版で\n　停止させてから戦うのを　忘れないようにね。\n<br>\n「……キミが　あの魔獣を倒し　アストルティアを\n　救ってくれたら　未来のアルウェーンも\n　今度こそ　救われるかもしれない。\n<br>\n「もう　二度と　会うことのできない\n　アルウェーン市民や　複製体たちのために……\n　どうか　ヤツを倒してくれ　<pc>。\n<br>\n「それじゃ　がんばって……。\n　キミの勝利を　祈っているよ……。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "207315": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -326,21 +385,25 @@
     "it": "",
     "ja": "<pipipi_mid>「ひさしぶりだね　<pc>……。\n　ボクだよ　プクラスだ。\n<br>\n「キミと　増殖獣バイロゴーグの戦いを\n　手助けできればと　思って　６０００年後のため\n　この部屋を　用意しておいたんだ。\n<br>\n「奥の扉から進めば　魔獣との戦いになる。\n　もし　戦いの準備を　ととのえたいなら\n　中央の転送装置から　入り口近くへ　戻れるよ。\n<br>\n「くれぐれも　魔獣の増殖機能を\n　その管理タブレット……知理の石版で\n　停止させてから戦うのを　忘れないようにね。\n<br>\n「……キミが　あの魔獣を倒し　アストルティアを\n　救ってくれたら　未来のアルウェーンも\n　今度こそ　救われるかもしれない。\n<br>\n「もう　二度と　会うことのできない\n　アルウェーン市民や　複製体たちのために……\n　どうか　ヤツを倒してくれ　<pc>。\n<br>\n「それじゃ　がんばって……。\n　キミの勝利を　祈っているよ……。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "211101": {
-    "de": "",
-    "en": "",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "comments": "See `DQ3make-Data_DataTable_Text.json:GOP_Text_NPC_Talk_Common.Txt_Talk_Common_LockedDoor_1`",
+    "de": "Die Tür ist verschlossen mit Schüssel.\nキラキラ大風車塔の　井戸の底に住む\nパルミオ博士から　カギを　借りてこよう。",
+    "en": "The door is locked.\nキラキラ大風車塔の　井戸の底に住む\nパルミオ博士から　カギを　借りてこよう。",
+    "es": "La puerta está cerrada con llave.\nキラキラ大風車塔の　井戸の底に住む\nパルミオ博士から　カギを　借りてこよう。",
+    "fr": "La porte est fermée à clé.\nキラキラ大風車塔の　井戸の底に住む\nパルミオ博士から　カギを　借りてこよう。",
+    "it": "La porta è chiusa a chiave.\nキラキラ大風車塔の　井戸の底に住む\nパルミオ博士から　カギを　借りてこよう。",
     "ja": "扉には　カギが　かかっている。\nキラキラ大風車塔の　井戸の底に住む\nパルミオ博士から　カギを　借りてこよう。",
     "ko": "",
+    "pt-BR": "A porta está trancada com chave.\nキラキラ大風車塔の　井戸の底に住む\nパルミオ博士から　カギを　借りてこよう。",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "237538": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -348,10 +411,12 @@
     "it": "",
     "ja": "<center>！　特…■○＆％　！<se_nots S4_FOR8_001 2>",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   },
   "237540": {
+    "comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -359,6 +424,7 @@
     "it": "",
     "ja": "？◎……▲＃　★！＠Ｘ　○○◎■　□＆＆\nＸ％□◆】　△●・Ｘ■■Ｘ…………\n<br>\n装置には　意味不明の文字が\n表示されている。\nどうやら　この装置は　壊れているようだ。",
     "ko": "",
+    "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
   }

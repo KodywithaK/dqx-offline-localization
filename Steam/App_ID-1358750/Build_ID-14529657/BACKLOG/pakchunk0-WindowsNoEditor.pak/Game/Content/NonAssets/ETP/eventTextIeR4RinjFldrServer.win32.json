@@ -1,62 +1,67 @@
 {
-    "101730": {
-        "comments": "",
-        "de": "",
-        "en": "",
-        "es": "",
-        "fr": "",
-        "it": "",
-        "ja": "この扉には　カギが　かけられている。\n<br>\n今は　この扉のカギを持っていないため\n開けることが　できない！",
-        "ko": "문은 잠겨 있다.\n<br>\n지금은 이 문의 열쇠를 가지고 있지 않아\n문을 열 수 없다!",
-        "zh-Hans": "这扇门上着锁。\n<br>\n由于现在没有这扇门的钥匙，\n所以无法打开！",
-        "zh-Hant": "這扇門上鎖了。\n<br>\n目前身上沒有這扇門的鑰匙，\n所以無法打開！"
-    },
-    "101731": {
-        "comments": "",
-        "de": "Die Tür ist verschlossen mit Schüssel.",
-        "en": "The door is locked.",
-        "es": "La puerta está cerrada con llave.",
-        "fr": "La porte est fermée à clé.",
-        "it": "La porta è chiusa a chiave.",
-        "ja": "この扉には　カギが　かけられている。\nしかも　カギ穴が　壊れており\nどうやっても　開けることは　できないようだ。",
-        "ko": "문은 잠겨 있다.\n게다가 열쇠 구멍이 망가져 있어\n어떤 방법으로도 열 수 없을 것 같다.",
-        "zh-Hans": "这扇门上着锁。\n并且钥匙孔已经坏了，\n似乎无论用什么办法都打不开。",
-        "zh-Hant": "這扇門上鎖了。\n而且鑰匙孔壞掉了，\n看來沒有辦法可以打開這扇門。"
-    },
-    "101732": {
-        "comments": "",
-        "de": "Die Tür ist fest verriegelt.",
-        "en": "The door is tightly shut.",
-        "es": "La puerta está bien cerrada.",
-        "fr": "La porte est bien fermée.",
-        "it": "La porta è ben chiusa.",
-        "ja": "扉は　かたく　閉ざされている。",
-        "ko": "문은 굳게 닫혀 있다.",
-        "zh-Hans": "门紧闭着。",
-        "zh-Hant": "門扉緊閉著。"
-    },
-    "101733": {
-        "comments": "",
-        "de": "",
-        "en": "",
-        "es": "",
-        "fr": "",
-        "it": "",
-        "ja": "この扉には　カギが　かけられている。",
-        "ko": "",
-        "zh-Hans": "",
-        "zh-Hant": ""
-    },
-    "101734": {
-        "comments": "",
-        "de": "",
-        "en": "",
-        "es": "",
-        "fr": "",
-        "it": "",
-        "ja": "どうやら　今　役に立ちそうなものは\n入っていないようだ。",
-        "ko": "",
-        "zh-Hans": "",
-        "zh-Hant": ""
-    }
+  "101730": {
+    "comments": "",
+    "de": "",
+    "en": "",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "この扉には　カギが　かけられている。\n<br>\n今は　この扉のカギを持っていないため\n開けることが　できない！",
+    "ko": "문은 잠겨 있다.\n<br>\n지금은 이 문의 열쇠를 가지고 있지 않아\n문을 열 수 없다!",
+    "pt-BR": "",
+    "zh-Hans": "这扇门上着锁。\n<br>\n由于现在没有这扇门的钥匙，\n所以无法打开！",
+    "zh-Hant": "這扇門上鎖了。\n<br>\n目前身上沒有這扇門的鑰匙，\n所以無法打開！"
+  },
+  "101731": {
+    "comments": "",
+    "de": "Die Tür ist verschlossen mit Schüssel.",
+    "en": "The door is locked.",
+    "es": "La puerta está cerrada con llave.",
+    "fr": "La porte est fermée à clé.",
+    "it": "La porta è chiusa a chiave.",
+    "ja": "この扉には　カギが　かけられている。\nしかも　カギ穴が　壊れており\nどうやっても　開けることは　できないようだ。",
+    "ko": "문은 잠겨 있다.\n게다가 열쇠 구멍이 망가져 있어\n어떤 방법으로도 열 수 없을 것 같다.",
+    "pt-BR": "",
+    "zh-Hans": "这扇门上着锁。\n并且钥匙孔已经坏了，\n似乎无论用什么办法都打不开。",
+    "zh-Hant": "這扇門上鎖了。\n而且鑰匙孔壞掉了，\n看來沒有辦法可以打開這扇門。"
+  },
+  "101732": {
+    "comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
+    "de": "Die Tür ist fest verriegelt.",
+    "en": "The door is tightly shut.",
+    "es": "La puerta está bien cerrada.",
+    "fr": "La porte est bien fermée.",
+    "it": "La porta è ben chiusa.",
+    "ja": "扉は　かたく　閉ざされている。",
+    "ko": "문은 굳게 닫혀 있다.",
+    "pt-BR": "A porta está bem fechada.",
+    "zh-Hans": "门紧闭着。",
+    "zh-Hant": "門扉緊閉著。"
+  },
+  "101733": {
+    "comments": "",
+    "de": "",
+    "en": "",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "この扉には　カギが　かけられている。",
+    "ko": "",
+    "pt-BR": "",
+    "zh-Hans": "",
+    "zh-Hant": ""
+  },
+  "101734": {
+    "comments": "",
+    "de": "",
+    "en": "",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "どうやら　今　役に立ちそうなものは\n入っていないようだ。",
+    "ko": "",
+    "pt-BR": "",
+    "zh-Hans": "",
+    "zh-Hant": ""
+  }
 }

@@ -608,6 +608,17 @@ def build_all():
         except Exception as e:
             print(f"\033[31m{json_file}\nError At:{e}\033[0m") #KwK
 
+    json_files = glob.glob("../../../dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/IN_PROGRESS/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json") #KwK, new format
+    for json_file in json_files:
+        try:
+            etp = os.path.basename(json_file).replace(".json", ".etp")
+            # etp_file = f"../dump_etps/etps/{etp}"
+            etp_file = f"../dump_etps/AppID_1358750/BuildID_14529657/REFERENCES/pakchunk0-{{PLATFORM}}.pak/Game/Content/NonAssets/ETP/{etp}" #KwK, double curly-braces to escape it
+            build_etp(json_file=json_file, src_etp=etp_file)
+            print(f"\033[32m Packed (ETP_{args.pack_all_language}) {etp}.\033[0m") #KwK
+        except Exception as e:
+            print(f"\033[31m{json_file}\nError At:{e}\033[0m") #KwK
+
     # json_files = glob.glob("../../../dqx-offline-localization/BACKLOG/pakchunk0-Switch_P/Holiday/Content/NonAssets/ETP/*.json") #KwK, old format
     json_files = glob.glob("../../../dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/DONE/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json") #KwK, new format
     for json_file in json_files:
@@ -669,7 +680,7 @@ if __name__ == "__main__":
     parser.add_argument("-e", "--etp-file", type=str, help="Path to ETP file.")
     parser.add_argument("-j", "--json-file", type=str, help="Path to translated JSON file.")
     parser.add_argument("-a", "--pack-all", default=False, action="store_true", help="Pack all JSON files dumped by this program into ETP. Before using this flag, ensure you haven't changed any names.")
-    parser.add_argument("-L", "--pack-all-language", type=str, help="Language to translate [de,en,es,fr,it,ja,ko,zh-hans,zh-hant].") #KwK
+    parser.add_argument("-L", "--pack-all-language", type=str, help="Language to translate [br-pt,de,en,es,fr,it,ja,ko,zh-hans,zh-hant].") #KwK
     parser.add_argument("-r", "--recrypt", default=False, action="store_true", help="Recrypt files. DQX must be open. This only works when used with (-e and -j) or (-a).")
     args = parser.parse_args(args=None if sys.argv[1:] else ["--help"])
 

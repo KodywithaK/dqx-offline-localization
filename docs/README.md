@@ -1,7 +1,3 @@
-![GitHub Actions Workflows (Create_Latest_Release_All.yml status)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release_All.yml/badge.svg?branch=main)
-![GitHub Actions Workflows (Create_Latest_Release.yml status)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml/badge.svg?branch=testing)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/KodywithaK/dqx-offline-localization/total?logo=github&label=Downloads)
-
 <!--
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
@@ -18,6 +14,12 @@
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 -->
+![GitHub Actions Workflows (Create_Latest_Release_All.yml status)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release_All.yml/badge.svg?branch=main)
+
+![GitHub Actions Workflows (Create_Latest_Release.yml status)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml/badge.svg?branch=testing)
+
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/KodywithaK/dqx-offline-localization/total?logo=github&label=Downloads)
+
 
 <details><summary><h1>Translate StringTables via Unreal Editor (UE4Editor.exe)</h1></summary>
 
@@ -555,12 +557,24 @@ UnrealPak.exe "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFL
 
 # Glossary
 
--   **_`.ucas`_** is a Content Addressable Store, used by [Zen Loader](https://docs.unrealengine.com/5.2/en-US/zen-loader-in-unreal-engine/) to contain all the assets.
--   **_`.utoc`_** is a Table Of Contents, used by [Zen Loader](https://docs.unrealengine.com/5.2/en-US/zen-loader-in-unreal-engine/) to describe the **_.ucas_** file, including chunk size and offset, compression format, and whether the chunks are encrypted.
--   **_`.ufont`_** is a **_.ttf_** font file
--   **_`global`_** file is an offline computed dependency graph for your assets.
--   **_`.pak`_** When using this setup the file will store loose files such as fonts.
+- **_`global`_** file is an offline computed dependency graph for your assets.
+- `{TargetName}.locmeta`[^4][^5]
+  - LocMeta are custom binary files that store the compiled target meta-data (currently only the native culture for the target) for use at runtime.
+  - LocMeta files are regenerated each time the localization data is compiled, and is staged into a packaged build.
+- `{TargetName}.locres`[^4]
+  - LocRes are custom binary files that store the compiled per-culture translations for use at runtime.
+  - LocRes files are re-generated each time the localization compile step is run, and get staged into a packaged build.
+  - LocRes are the only files that your project will load localization data from at runtime (including in the editor), so any edits or changes to your source data (such as from importing a PO file) must be compiled before they take effect.
+- `.pak`
+  - When using this setup the file will store loose files such as fonts.
+- `.ucas`
+  - is a Content Addressable Store, used by [Zen Loader](https://docs.unrealengine.com/5.2/en-US/zen-loader-in-unreal-engine/) to contain all the assets.
+- `.ufont`
+  - is a **_.ttf_** font file
+- `.utoc`
+  - is a Table Of Contents, used by [Zen Loader](https://docs.unrealengine.com/5.2/en-US/zen-loader-in-unreal-engine/) to describe the **_.ucas_** file, including chunk size and offset, compression format, and whether the chunks are encrypted.
 -   The upside to using the io store is a noticeable improvement to loading times.
+<!--
 
 <details><summary>Template Literals</summary>
 
@@ -1022,12 +1036,10 @@ UnrealPak.exe "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFL
 
 </details>
 
+-->
+
 ### External Links
 
-> [^1]: [GitHub Docs - Hosting your own runners](https://docs.github.com/en/actions/hosting-your-own-runners).
-> [^2]: This tutorial roughly follows the [Linux Native compilation guide](https://github.com/EpicGames/UnrealEngine/blob/4.27.2-release/Engine/Build/BatchFiles/Linux/README.md) from `github.com/EpicGames/UnrealEngine`.
-> [^3]: Correct [Commit.gitdeps.xml](https://github.com/EpicGames/UnrealEngine/releases/download/4.27.2-release/Commit.gitdeps.xml) to prevent `(403) Forbidden` errors during `updating dependencies` step.
->
 > [ドラゴンクエストX　目覚めし五つの種族　オフライン - Purchase on Android](https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.dq10offline)
 >
 > [ドラゴンクエストX　目覚めし五つの種族　オフライン - Purchase on iOS](https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88x-%E7%9B%AE%E8%A6%9A%E3%82%81%E3%81%97%E4%BA%94%E3%81%A4%E3%81%AE%E7%A8%AE%E6%97%8F-%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3/id6504323939)
@@ -1037,3 +1049,9 @@ UnrealPak.exe "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFL
 > [ドラゴンクエストX　目覚めし五つの種族　オフライン - Purchase on Steam](https://store.steampowered.com/app/1358750/X__OFFLINE/)
 >
 > [ドラゴンクエストX　目覚めし五つの種族　オフライン - Purchase on Switch](https://store-jp.nintendo.com/item/software/D70010000042357)
+
+> [^1]: [GitHub Docs - Hosting your own runners](https://docs.github.com/en/actions/hosting-your-own-runners)
+> [^2]: This tutorial roughly follows the [Linux Native compilation guide](https://github.com/EpicGames/UnrealEngine/blob/4.27.2-release/Engine/Build/BatchFiles/Linux/README.md) from `github.com/EpicGames/UnrealEngine`
+> [^3]: Correct [Commit.gitdeps.xml](https://github.com/EpicGames/UnrealEngine/releases/download/4.27.2-release/Commit.gitdeps.xml) to prevent `(403) Forbidden` errors during `updating dependencies` step
+> [^4]: [Unreal Engine - Documentation - Localization Overview](https://dev.epicgames.com/documentation/en-us/unreal-engine/localization-overview-for-unreal-engine#raw-code-1)
+> [^5]: [Unreal Engine - Documentation - Localization Overview](https://github.com/EpicGames/UnrealEngine/blob/release/Engine/Source/Runtime/Core/Public/Internationalization/InternationalizationMetadata.h)

@@ -1,50 +1,54 @@
 {
-    "122128": {
-        "comments": "",
-        "de": "Die Tür ist fest verriegelt.",
-        "en": "The door is tightly shut.",
-        "es": "La puerta está bien cerrada.",
-        "fr": "La porte est bien fermée.",
-        "it": "La porta è ben chiusa.",
-        "ja": "扉は　かたく　閉ざされている。",
-        "ko": "문은 굳게 닫혀 있다.",
-        "zh-Hans": "门紧闭着。",
-        "zh-Hant": "門扉緊閉著。"
-    },
-    "83000": {
-        "comments": "",
-        "de": "",
-        "en": "",
-        "es": "",
-        "fr": "",
-        "it": "",
-        "ja": "<pc>は\nデフェル荒野の石（だいじなもの）を\n手に入れた！<me 60>",
-        "ko": "{pc}|hpp(은,는)\n데펠 황야의 돌(중요한 물건)을\n손에 넣었다!<me 60>",
-        "zh-Hans": "<pc>获得了\n德菲尔荒野的石头（重要物品）！<me 60>",
-        "zh-Hant": "<pc>獲得了\n德菲爾荒野的石頭（重要物品）！<me 60>"
-    },
-    "87410": {
-        "comments": "",
-        "de": "",
-        "en": "",
-        "es": "",
-        "fr": "",
-        "it": "",
-        "ja": "<pc>は\nデフェル荒野の石（だいじなもの）を\n手に入れた！<me 60><bw_break>",
-        "ko": "{pc}|hpp(은,는)\n데펠 황야의 돌(중요한 물건)을\n손에 넣었다!<me 60><bw_break>",
-        "zh-Hans": "<pc>获得了\n德菲尔荒野的石头（重要物品）！<me 60><bw_break>",
-        "zh-Hant": "<pc>獲得了\n德菲爾荒野的石頭（重要物品）！<me 60><bw_break>"
-    },
-    "87411": {
-        "comments": "",
-        "de": "",
-        "en": "",
-        "es": "",
-        "fr": "",
-        "it": "",
-        "ja": "これで　３つの材料が集まった。\nルシェンダのもとへ　戻ろう。",
-        "ko": "3가지의 재료를 모두 모았다.\n루셴다에게 돌아가자.",
-        "zh-Hans": "这样一来３种材料就集齐了。\n回到露谢妲那里吧。",
-        "zh-Hant": "這樣就收集完３種材料了。\n回到露仙妲那裡吧。"
-    }
+  "122128": {
+    "comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
+    "de": "Die Tür ist fest verriegelt.",
+    "en": "The door is tightly shut.",
+    "es": "La puerta está bien cerrada.",
+    "fr": "La porte est bien fermée.",
+    "it": "La porta è ben chiusa.",
+    "ja": "扉は　かたく　閉ざされている。",
+    "ko": "문은 굳게 닫혀 있다.",
+    "pt-BR": "A porta está bem fechada.",
+    "zh-Hans": "门紧闭着。",
+    "zh-Hant": "門扉緊閉著。"
+  },
+  "83000": {
+    "comments": "",
+    "de": "",
+    "en": "",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<pc>は\nデフェル荒野の石（だいじなもの）を\n手に入れた！<me 60>",
+    "ko": "{pc}|hpp(은,는)\n데펠 황야의 돌(중요한 물건)을\n손에 넣었다!<me 60>",
+    "pt-BR": "",
+    "zh-Hans": "<pc>获得了\n德菲尔荒野的石头（重要物品）！<me 60>",
+    "zh-Hant": "<pc>獲得了\n德菲爾荒野的石頭（重要物品）！<me 60>"
+  },
+  "87410": {
+    "comments": "",
+    "de": "",
+    "en": "",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<pc>は\nデフェル荒野の石（だいじなもの）を\n手に入れた！<me 60><bw_break>",
+    "ko": "{pc}|hpp(은,는)\n데펠 황야의 돌(중요한 물건)을\n손에 넣었다!<me 60><bw_break>",
+    "pt-BR": "",
+    "zh-Hans": "<pc>获得了\n德菲尔荒野的石头（重要物品）！<me 60><bw_break>",
+    "zh-Hant": "<pc>獲得了\n德菲爾荒野的石頭（重要物品）！<me 60><bw_break>"
+  },
+  "87411": {
+    "comments": "",
+    "de": "",
+    "en": "",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "これで　３つの材料が集まった。\nルシェンダのもとへ　戻ろう。",
+    "ko": "3가지의 재료를 모두 모았다.\n루셴다에게 돌아가자.",
+    "pt-BR": "",
+    "zh-Hans": "这样一来３种材料就集齐了。\n回到露谢妲那里吧。",
+    "zh-Hant": "這樣就收集完３種材料了。\n回到露仙妲那裡吧。"
+  }
 }
