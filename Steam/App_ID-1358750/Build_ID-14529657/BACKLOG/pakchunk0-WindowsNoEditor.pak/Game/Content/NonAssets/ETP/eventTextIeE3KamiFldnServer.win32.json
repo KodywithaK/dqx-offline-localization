@@ -1,7 +1,8 @@
 {
   "99896": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I am going to Mountain Pass on Inamino\nHighway and Ruined Village in Sunset\nMeadow, that I know of.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -11,8 +12,9 @@
     "zh-Hant": "在下正要前往稻見野幹道的山間的關卡，\n以及落日草原的崖畔村，\n不嫌棄的話，在下可以載你一程。<bw_break>"
   },
   "99897": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Hello there, fellow traveler. My name\nis Tolgi. I am a wagon peddler, that I\nam. My job is to transport goods from\n<br>\nKamiharmui to various places with this\nwagon, that I do. I am going to\nMountain Pass on the Inamino Highway,\n<br>\nthat I will go to, if you would like\nto take me there.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -22,8 +24,9 @@
     "zh-Hant": ""
   },
   "99898": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "We are going to Mountain Pass on the\nInamino Highway, that we can ride to\nthere, if you don't mind.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -33,8 +36,9 @@
     "zh-Hant": ""
   },
   "99899": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Mm-hmm? Menbo Kunai, it seems a little\ninconvenient for you to go there now,\nthat it does. I will refund your fare,\n<br>\nthat I hope you will come back again\nafter some time.",
     "es": "",
     "fr": "",
     "it": "",
@@ -44,8 +48,9 @@
     "zh-Hant": ""
   },
   "99900": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "However, I can only drop you off and\nnot pick you up, that I cannot. If you\nstill wish, where would you like to\n<br>\ngo, that you would?\n<name_off><select>\nMountain Pass (Inamino Highway)\nRuined Village (Sunset Meadow)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -55,8 +60,9 @@
     "zh-Hant": "不過在下只能送你過去，無法接你回來。\n如果這樣也沒關係的話，\n你想搭到何處呢？\n<name_off><select>\n山間的關卡（稻見野幹道）\n崖畔村（落日草原）\n不搭乘\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "99901": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>There is a ''mairi''! That I am, that I\nam. Then, I will go immediately, that\nI will.",
     "es": "",
     "fr": "",
     "it": "",
@@ -66,8 +72,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>感謝搭乘！\n那麼馬上就要出發囉。"
   },
   "99902": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oh. You don't ride, do you? Then, if\nyou feel like riding, that you should\ncome again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -77,8 +84,9 @@
     "zh-Hant": "喔，你沒有要搭嗎？\n那等你想搭的時候再來吧。"
   },
   "99903": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Thank you for your patience! We have\narrived at Mountain Pass, that we\nhave. We have arrived at Mountain\n<br>\nPass, that we have.",
     "es": "",
     "fr": "",
     "it": "",
@@ -88,8 +96,9 @@
     "zh-Hant": "<pipipi_low>讓你久等了！\n已經到達山間的關卡了。"
   },
   "99904": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Thank you for your patience! We have\narrived at the Ruined Village, that we\nhave. We have arrived at the Ruined\n<br>\nVillage, that we have.",
     "es": "",
     "fr": "",
     "it": "",
@@ -99,8 +108,9 @@
     "zh-Hant": "<pipipi_low>讓你久等了！\n已經到達崖畔村了。"
   },
   "99905": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Hmmm. It seems that you are short of\nmoney. I hope you will come back again\nwith more money, that I hope.",
     "es": "",
     "fr": "",
     "it": "",
@@ -110,8 +120,9 @@
     "zh-Hant": "唔，看來你的錢不夠呢。\n等你準備好錢再過來吧。"
   },
   "99906": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "You are going to <%sL_TIMEI>. I'll\ncharge you 25 gold for the ride, if\nyou don't mind.<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -121,8 +132,9 @@
     "zh-Hant": "你要去<%sL_TIMEI>對吧。\n那麼要跟你收２５Ｇ的費用，可以嗎？<yesno><break>"
   },
   "99907": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oh. That is unfortunate. I hope you\nwill come again if you have a chance,\nthat I do.",
     "es": "",
     "fr": "",
     "it": "",
@@ -132,8 +144,9 @@
     "zh-Hant": "喔，真是遺憾。\n有機會的話歡迎再來。"
   },
   "124151": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Hello there, fellow traveler. My name\nis Nargi. I am a wagon peddler, that I\nam. My job is to transport goods from\n<br>\nKamiharmui to various places with this\nwagon, that I do. I am going to\nMountain Pass on Inamino Highway and\n<br>\nRuined Village in Sunset Meadow, that\nI know.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -143,8 +156,9 @@
     "zh-Hant": "你好，旅人。\n在下名為奈爾基，\n是個駕著馬車進行貿易的商人。\n<br>\n在下的工作就是開著這輛馬車\n將卡密哈爾姆的商品\n送往各個地區。\n<br>\n在下正要前往稻見野幹道的山間的關卡\n以及落日草原的崖畔村，\n若你不嫌棄，在下可以載你一程。<bw_break>"
   },
   "125636": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Go east from Kamiharmui South to the\nsouth of here, that there is a\nsettlement called Mountain Pass. If\n<br>\nyou go northwest from here to Sunset\nMeadow and then west, there is a\nvillage called Ruined Village, that\n<br>\nthere is. If you have never been\nthere, it would be good to go there\nonce, that it would be.",
     "es": "",
     "fr": "",
     "it": "",
@@ -154,8 +168,9 @@
     "zh-Hant": "從這裡往南走，\n穿過卡密哈爾姆領土南部後再往東走，\n有個叫做山間的關卡的村落。\n<br>\n從這裡朝著西北方前進，\n到達落日草原，接著往西走，\n有個叫做崖畔村的村莊。\n<br>\n如果你還沒去過那裡，\n建議你一定要造訪一次。"
   },
   "76474": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "It seems that one cannot go any\nfurther than this point without having\nmonster in tow.",
     "es": "",
     "fr": "",
     "it": "",
@@ -165,8 +180,9 @@
     "zh-Hant": "沒有帶著怪物的話，\n似乎無法再繼續前進。"
   },
   "76475": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "It seems that we cannot proceed any\nfurther without a monster. The\ncompanion monster is dead, so let's\n<br>\nbring it back to life and come back\nagain.",
     "es": "",
     "fr": "",
     "it": "",
@@ -176,8 +192,9 @@
     "zh-Hant": "沒有帶著怪物的話，\n似乎無法再繼續前進。\n<br>\n夥伴怪物已經死亡了，\n讓怪物復活後再來這裡吧。"
   },
   "76476": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "It seems that we cannot proceed any\nfurther unless we have a ''monster''\nwith us. Since the companion's monster\n<br>\nis in a standby state, let's make it\njoin and come back again.",
     "es": "",
     "fr": "",
     "it": "",

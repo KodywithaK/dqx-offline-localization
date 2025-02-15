@@ -1,7 +1,8 @@
 {
   "143917": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>From here we can take the ferry to a\ncouple of places. Where are you going\nto take the boat?\n<select>\nSouth wharf\nSouth entrance/exit\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -11,8 +12,9 @@
     "zh-Hant": "<attr><feel_normal_one><end_attr>從這裡可以搭擺渡船\n前往其他地區。\n你想要搭到哪裡呢？\n<select>\n南方碼頭\n南方大門\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "144325": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>From here we can take the ferry to a\ncouple of places. Where are you going\nto take the boat?\n<select>\nSouth wharf\nSouth entrance/exit\nIn front of west castle gate\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -22,8 +24,9 @@
     "zh-Hant": "<attr><feel_normal_one><end_attr>從這裡可以搭擺渡船\n前往其他地區。\n你想要搭到哪裡呢？\n<select>\n南方碼頭\n南方大門\n西城門前\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "189498": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr><pipipi_mid>All right! Let's go then. Watch your\nstep.",
     "es": "",
     "fr": "",
     "it": "",
@@ -33,8 +36,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr><pipipi_mid>好咧！那就準備出發啦。\n下船的時候要注意腳邊喔。"
   },
   "62318": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_mid>Well, we're at our destination. Well\nthen, I'll leave you to it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -44,8 +48,9 @@
     "zh-Hant": "<pipipi_mid>已經到達目的地了，\n那我就先告辭了。"
   },
   "34201": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>My wife seems to like this city. So I\nbought a house right away! Ha-ha-ha! I\nhave plenty of money! I'll buy\n<br>\nwhatever my wife wants!",
     "es": "",
     "fr": "",
     "it": "",
@@ -55,8 +60,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>我的妻子似乎很喜歡這座城市，\n所以我馬上就買了房子！\n<br>\n哇哈哈哈！要多少錢我都有！\n只要是妻子想要的東西，\n我全部都買下來！"
   },
   "34202": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>I wanted to enjoy the slow life I\nlonged for in the country of Elf, but\nthe rent in this city is very\n<br>\nexpensive. That's why we ended up with\na very cramped room. But it's so much\neasier to live here without having to\n<br>\nmove.",
     "es": "",
     "fr": "",
     "it": "",
@@ -66,8 +72,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>本來想在充滿風情的艾爾芙之國，\n享受憧憬的慢活人生，\n結果這個城市的房租實在太貴了。\n<br>\n最後只能租到一間狹小的房間，\n不過這樣不太需要走動，也挺輕鬆的。"
   },
   "34203": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>I've been a slut for 20 years. I've\nbeen trolling tombs and whatnot for 20\nyears, so let me tell you from my\n<br>\nexperience as a Beteran. Abandoned\nCastle is really scary. There's\nsomething in that area that we can't\n<br>\neven imagine. I'm afraid of King\nNikoroi, going there alone.",
     "es": "",
     "fr": "",
     "it": "",
@@ -77,8 +84,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>我已經當了２０年的賊，\n不管是盜墓還是其他什麼都偷過，\n我身為老手告誡你一件事吧。\n<br>\n遺棄之城真的很可怕，\n那邊有著我們無法想像的某種可怕東西……\n<br>\n我很佩服尼克羅伊王敢獨自前往那種地方。"
   },
   "34204": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>Hey, hey, hey, kid! You're not going\nbeyond the north gate, are you?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -88,8 +96,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>等一下！\n你打算要從北門出去嗎？<yesno><break>"
   },
   "34205": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>No, no, no. Think again. North of the\ncity, there is only an Abandoned\nCastle and a Cursed Land filled with\n<br>\ndemon miasma. No matter how good I am\nat this, I can't help but feel a chill\ndown my spine just thinking about the\n<br>\nghosts in that forest. Just thinking\nabout it sends chills down my spine.\nAnyway, no matter what kind of\n<br>\nbusiness you have, it's not a place\nyou should venture into. Understood?",
     "es": "",
     "fr": "",
     "it": "",
@@ -99,8 +108,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>不行，你再考慮一下。\n在王都北方只有恐怖的遺棄之城，\n還有充滿魔瘴的被詛咒的大地。\n<br>\n不管你再怎麼厲害，\n只要面對那片森林的亡靈……嗚嗚……\n光是想想就讓人脊背發涼。\n<br>\n……總之，不管你有什麼事，\n那裡都不是能隨便進入的地方。\n知道了嗎？"
   },
   "34206": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>That's all right. Lately there are a\nlot of travelers who go up north\nbecause they want to see something\n<br>\nscary.",
     "es": "",
     "fr": "",
     "it": "",
@@ -110,8 +120,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>那就好。\n最近有很多旅行者前往北方，\n只因為他們想看看可怕的東西。"
   },
   "34207": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>My parents were studying the Cursed\nLand, a demon miasma-infested land in\nthe northwest. It was their dream to\n<br>\ncleanse the land. They went to Cursed\nLand with everything ready, but it was\nattacked by more demon miasma than\n<br>\nthey could ever have imagined, and\nthey lost their lives. Even now, that\nplace must be constantly enveloped in\n<br>\ndemon miasma. If you value your life,\nstay away from the Cursed Land.",
     "es": "",
     "fr": "",
     "it": "",
@@ -121,8 +132,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>我的雙親曾經研究過被魔瘴侵蝕的土地，\n也就是位於西北方的被詛咒的大地，\n他們的夢想是淨化那片大地。\n<br>\n他們做好了萬全準備後才前往被詛咒的大地，\n但仍然低估了魔瘴，\n我的雙親也因此受到襲擊而喪命。\n<br>\n現在那片土地依然被大量魔瘴包圍著。\n如果珍惜生命的話，\n就不要靠近被詛咒的大地。"
   },
   "34208": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv2><end_attr>I've been selling paintings all my\nlife, and I've never seen anything as\nbeautiful as the portrait in Nikoroi's\n<br>\ncastle. I have never seen a more\nbeautiful portrait than the one in\nNikoroi's castle, but one thing I\n<br>\ncannot help wondering about is the\nappearance of Nikoroi's sister in that\npainting. Her hair and skin are as\n<br>\nwhite as snow. I heard that in ancient\ntimes, such children were called\n''white ones'' and were treated as\n<br>\nmessengers of the gods.",
     "es": "",
     "fr": "",
     "it": "",
@@ -132,8 +144,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>我靠賣畫為生，活到了這把年紀，\n沒見過比尼克羅伊陛下城裡\n那幅肖像畫還美的畫。\n<br>\n不過，有一點讓我很在意，那就是\n尼克羅伊陛下的姊姊在那幅畫中的樣貌。\n<br>\n她的頭髮和肌膚都如同雪一般潔白……\n這樣的孩子在很久以前似乎被視為神之使者，\n有白色使者之稱。"
   },
   "34209": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Royal City Kamiharmui was relocated to\nthis place about 50 years ago. And\nyet, the Abandoned Castle looks as if\n<br>\nit has been rotting away for a\nthousand years. Something evil must be\nliving in that castle. You must never\n<br>\nenter it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -143,8 +156,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>距今大約５０年前，\n王都卡密哈爾姆遷都到這片土地。\n<br>\n然而遺棄之城卻彷彿經歷了千年的時光，\n已經腐朽不堪。\n<br>\n那座城裡一定有什麼不好的東西，\n你千萬不要進去。"
   },
   "62320": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Why don't you get in? If you want to\nride, come back again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -154,8 +168,9 @@
     "zh-Hant": "<attr><feel_normal_one><end_attr>怎麼了，你沒有要搭啊？\n等你想搭的時候再來吧。"
   },
   "62322": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_mid>Well, we're at our destination. Well\nthen, I'll leave you to it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -165,8 +180,9 @@
     "zh-Hant": "<pipipi_mid>已經到達目的地了，\n那我就先告辭了。"
   },
   "34210": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv2><end_attr>Beyond this bridge is Kamiharmui\nCastle, the pride of Elf! We cannot\nallow a traveler like you to pass now.\n<br>\nNow, leave!",
     "es": "",
     "fr": "",
     "it": "",
@@ -176,8 +192,9 @@
     "zh-Hant": "<attr><feel_angry_lv2><end_attr>這座橋的前方，\n是我們艾爾芙引以為傲的卡密哈爾姆城！\n<br>\n但現在不能讓像你這樣的旅行者通過，\n請你離開這裡！"
   },
   "34211": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>Until recently, travelers like you\nwere not allowed to enter the castle.\nThere was a bit of trouble in the\n<br>\ncastle. But things are under control\nnow, to a point. You seem to have the\nProof of Adulthood. I will allow you\n<br>\nto enter Kamiharmui Castle!",
     "es": "",
     "fr": "",
     "it": "",
@@ -187,8 +204,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>直到不久前，\n像你這樣的旅行者是被禁止進入城內的。\n……因為城裡發生了一點問題。\n<br>\n不過現在情況已經有所好轉。\n你似乎有合格者之證呢……\n那就允許你進入卡密哈爾姆城吧！"
   },
   "34212": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>Stop right there! Across this bridge\nis the sacred Kamiharmui Castle. Now,\nwe cannot allow a traveler like you to\n<br>\npass. Even if you have Proof of\nAdulthood. Now, go away! If you must\nenter, wait a little longer and visit\n<br>\nagain.",
     "es": "",
     "fr": "",
     "it": "",
@@ -198,8 +216,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>\n那邊的人請止步！\n這座橋的前方是神聖的卡密哈爾姆城！\n<br>\n但現在不能讓像你這樣的旅行者通過，\n就算你有合格者之證也一樣。\n<br>\n請你離開這裡！\n如果你無論如何都想入城的話，\n請過一段時間後再來訪。"
   },
   "34213": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>A beautiful garden in an exotic villa!\nI'm the kind of person everyone\nenvies.",
     "es": "",
     "fr": "",
     "it": "",
@@ -209,8 +228,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>在異國的別墅裡，有美麗的庭園！\n嗯～我就是人人稱羨的名‧流‧階‧級<heart>"
   },
   "54659": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Oh, hello, there's a customer! I can't\nbelieve you came all this way. Are you\nhere to help me with the store?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -220,8 +240,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>哎呀！這位客人！\n你跑進來這裡，\n難道是想幫忙顧店嗎？<yesno><break>"
   },
   "54664": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Just kidding. Customers are so kind,\naren't they?",
     "es": "",
     "fr": "",
     "it": "",
@@ -231,8 +252,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>呵呵，開玩笑的啦。\n客人你真是溫柔呢。"
   },
   "54665": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv2><end_attr>I was just kidding, but you don't have\nto deny it so hard. I'm a little hurt.\nKusun.",
     "es": "",
     "fr": "",
     "it": "",
@@ -242,8 +264,9 @@
     "zh-Hant": "<attr><feel_sad_lv2><end_attr>哇，我只是開個玩笑而已，\n你也不需要這麼拼命地否認吧……\n我有點傷心呢，嗚嗚。"
   },
   "34214": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>Hey, you know what? This river is\nconnected to Wind Town Azlan, which is\nfar away. They use the river to\n<br>\ntransport lumber. Elf is so cool.",
     "es": "",
     "fr": "",
     "it": "",
@@ -253,8 +276,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>喂，你知道嗎？\n這條河好像和遠處的風城安須嵐相連喔。\n<br>\n聽說他們會利用河流來搬運木材。\n艾爾芙真是聰明呢。"
   },
   "34215": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>You know what? Mom and Dad both said\nthat we must never go outside that\nnorth gate. I'm following their advice\n<br>\nto the letter. But you know what? I\nsaw King Nikoroi sneaking out of that\ngate. King Nikoroi must have his own\n<br>\nprivate playground beyond that gate!",
     "es": "",
     "fr": "",
     "it": "",
@@ -264,8 +288,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>聽我說，媽媽跟爸爸都跟我說絕對不能去北門外面。\n我都有乖乖聽話喔。\n<br>\n可是啊，我看到尼克羅伊王偷偷從那道門出去了。\n<br>\n尼克羅伊王一定是在那道門外，\n打造屬於自己的遊樂場！"
   },
   "34216": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>What do peasants want with the sacred\nKamiharmui Castle? What do peasants\nwant in sacred Kamiharmui Castle? He's\n<br>\ngone. He's gone!",
     "es": "",
     "fr": "",
     "it": "",
@@ -275,8 +300,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>鄉下人到神聖的卡密哈爾姆城有什麼事？\n別妨礙通行，快走開！"
   },
   "34217": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv1><end_attr>Travelers. There is a bit of a problem\nin the Royal City right now. The\nMinister Cottle is in need of\n<br>\nmanpower. I see that you are quite\nskillful. I hope you will meet with\nMinister Cottle.",
     "es": "",
     "fr": "",
     "it": "",
@@ -286,8 +312,9 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>是旅行者嗎。\n目前王都裡發生了一些麻煩事……\n科托爾大臣正在召集人手幫忙。\n<br>\n你看起來實力不錯，\n請務必去見科托爾大臣一面。"
   },
   "34218": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv2><end_attr>Oh, my God! You want to go to\nAbandoned Castle? That castle is\nforbidden in the capital. If you want\n<br>\nto see something scary, don't do it!\nBesides, to get to Abandoned Castle,\nyou have to go deep into the Dream\n<br>\nForest, just past the north gate. The\nDream Forest is said to have a deep\nfog that deceives travelers. This\n<br>\nmeans that even reaching the castle\nwill be difficult.",
     "es": "",
     "fr": "",
     "it": "",
@@ -297,8 +324,9 @@
     "zh-Hant": "<attr><feel_sad_lv2><end_attr>什麼！你想去遺棄之城？\n在王都，那座城可是被視為禁忌之地。\n如果你只是好奇想看恐怖的東西，就別去了！\n<br>\n而且要去遺棄之城的話，\n就必須穿過北門前往夢幻森林的深處。\n<br>\n據說夢幻森林會用濃霧迷惑旅行者，\n也就是說，想要到達那城堡十分困難。"
   },
   "34219": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "In his younger days, Nikoroi-sama was\nso strong that he could bring any\nwarrior to his knees when he drew his\n<br>\nsword. But nowadays, perhaps because\nof his advanced age, we rarely see him\nin action.",
     "es": "",
     "fr": "",
     "it": "",
@@ -308,8 +336,9 @@
     "zh-Hant": "年輕時的尼克羅伊陛下是個強者，\n只要拔刀就能讓所有戰士屈服。\n<br>\n但最近或許是因為年紀大了，\n很少有機會能見識到他的身手。"
   },
   "34220": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Hmmm...I see, you have been asked by\nMister Cottle to go to Abandoned\nCastle in pursuit of King Nikoroi.\n<br>\nDon't talk about it too much. A king\ngoing in and out of Abandoned Castle\nis something that should not be\n<br>\nallowed.",
     "es": "",
     "fr": "",
     "it": "",
@@ -319,8 +348,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>嗯，原來如此。\n科托爾大臣拜託你前往遺棄之城，\n去追尼克羅伊王嗎……\n<br>\n這些話請不要跟別人說，\n本來王是不應該進出遺棄之城的……"
   },
   "34221": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv1><end_attr>Oh, no! It seems that the rumors about\nthe king's access to the Abandoned\nCastle were true! I can't believe that\n<br>\nthe mild-mannered King Nikoroi would\nrisk going to that forbidden place.\nWhat on earth could he have to do with\n<br>\nit?",
     "es": "",
     "fr": "",
     "it": "",
@@ -330,8 +360,9 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>哎呀～真困擾啊。\n王進出遺棄之城的那傳言……\n看來是真的呢！\n<br>\n那個溫和的尼克羅伊王，\n竟然不惜冒險進入禁忌之地。\n到底是想做什麼呢？"
   },
   "34222": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv2><end_attr>Aah, it's terrible... It appears that Master Nikoroi\ncollapsed at the Abandoned Castle. He was just\ncarried to the castle.\n<br>\nIf Master Kyusuke had not been there, what would have\nhappened to Master Nikoroi... If you are worried\nabout Master Nikoroi too, please go to the castle!",
     "es": "",
     "fr": "",
     "it": "",
@@ -341,8 +372,9 @@
     "zh-Hant": "<attr><feel_sad_lv2><end_attr>啊，真糟糕……\n尼克羅伊陛下好像在遺棄之城倒下了。\n剛剛被送回了城裡。\n<br>\n要不是剛好久助大人就在附近，\n真不知道尼克羅伊陛下\n會發生什麼事……\n<br>\n如果你也擔心尼克羅伊陛下，\n就快點到城裡去吧！"
   },
   "34223": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>You are <pc>. You and Kyusuke\ndid well to save King Nikoroi. Now\nenter the castle. King Nikoroi is\n<br>\nwaiting for you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -352,8 +384,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>你就是<pc>吧？\n你和久助一起拯救尼克羅伊王，\n立下了大功。\n<br>\n快點進城吧，\n尼克羅伊王正在等著你。"
   },
   "34224": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv2><end_attr>Hey, you went over the north gate,\ndidn't you?I love it! I know. I know\nthere are lots of cherry blossoms\n<br>\nbeyond this gate. I want to play\nthere. Why can't I go beyond the north\ngate?",
     "es": "",
     "fr": "",
     "it": "",
@@ -363,8 +396,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>我問你，你去了北門的另一邊對不對？\n真好啊～我都知道喔，\n這道門的對面有很多櫻花盛開。\n<br>\n我也好想出去玩啊，\n為什麼不能去北門的另一邊呢……？"
   },
   "34225": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv2><end_attr>I heard a story. I heard that King\nNikoroi fell ill at Abandoned Castle.\nThis is why I told you not to go to\n<br>\nAbandoned Castle. Why won't you listen\nto me?",
     "es": "",
     "fr": "",
     "it": "",
@@ -374,8 +408,9 @@
     "zh-Hant": "<attr><feel_sad_lv2><end_attr>我都聽說了，\n尼克羅伊王好像在遺棄之城倒下了……\n<br>\n我就說了不要去遺棄之城，\n為什麼王不聽我的勸告呢……"
   },
   "34226": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv2><end_attr>My grandma, who worked as a lady's\nmaid at the castle when she was young,\ntold me that King Nikoroi's sister had\n<br>\na mysterious power. She was also\nafraid of her because she didn't know\nwhat she was thinking.",
     "es": "",
     "fr": "",
     "it": "",
@@ -385,8 +420,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>年輕時在城裡當過女官的奶奶跟我說，\n尼克羅伊王的姊姊擁有神祕的力量。\n<br>\n再加上不知道她都在想什麼……\n所以奶奶當時很害怕那孩子。"
   },
   "34227": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>You're so beautiful, Kyusuke-sama.\nThat sultry pupil. The fearless and\nbrave heart. The roundness and the\n<br>\nclothes are irresistibly cute.",
     "es": "",
     "fr": "",
     "it": "",
@@ -396,8 +432,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>久助大人太棒了……\n<br>\n他有著清澈明亮的雙眼，\n毫無畏懼的勇敢之心，\n還有那圓潤的身形，可愛到讓人受不了啊。"
   },
   "34228": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv2><end_attr>What a surprise... King Nikoroi has\nordered us to go to the Cursed Land!\nAnd to obtain the Dark Tree Leaf, too!\n<br>\nWhat in the world was the king\nthinking, giving such a terrible order\nto a traveler?",
     "es": "",
     "fr": "",
     "it": "",
@@ -407,8 +444,9 @@
     "zh-Hant": "<attr><feel_angry_lv2><end_attr>什麼……\n尼克羅伊王命令你去被詛咒的大地嗎！\n<br>\n而且還是要你去拿黑暗大樹之葉回來，\n居然對旅行者下達如此恐怖的命令，\n王到底在想什麼……"
   },
   "34229": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>The lovely Master Kyusuke wanted me to tell a traveler\nnamed <pc> to come to the castle,\nif I met them!\n<br>\nBut I wouldn't know which one was <pc>,\nwould I. I bet he just wanted an excuse to talk to\nme, didn't he!",
     "es": "",
     "fr": "",
     "it": "",
@@ -418,8 +456,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>那位迷人的久助大人拜託我，\n如果遇到名為<pc>的旅行者，\n就告訴他到城裡去！\n<br>\n可是……我怎麼會知道誰是<pc>呢，\n這一定是為了跟我說話的藉口吧！"
   },
   "34230": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>What a surprise to bring back the Dark\nTree Leaf. Both Kyusuke and\n<pc> have extraordinary skill\n<br>\nand nerve.",
     "es": "",
     "fr": "",
     "it": "",
@@ -429,8 +468,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>居然真的把黑暗大樹之葉拿回來了，\n久助跟<pc>都有著非凡的實力和勇氣啊。"
   },
   "34231": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Oh, wow! You made it back from the\nCursed Land in one piece! Now hurry to\nthe throne room. King Nikoroi awaits\n<br>\nyou.",
     "es": "",
     "fr": "",
     "it": "",
@@ -440,8 +480,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>喔！你平安無事地從那片被詛咒的大地回來了啊！\n<br>\n快點去王座之間吧，\n尼克羅伊王正在等你呢。"
   },
   "34232": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Hey, hey, you are! Kya~ Uruwashi no\nKyusuke-sama! I didn't know we were\ntogether! How hard-boiled you are in\n<br>\nreal life too! Aaah! I want to be\nsucked into this tinny pupil.",
     "es": "",
     "fr": "",
     "it": "",
@@ -451,8 +492,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>喂喂，你……咦！！\n呀～迷人的久助大人！！\n居然和你在一起！！\n<br>\n本人也太酷了吧！\n啊啊！！真想沉浸在那清澈明亮的雙眼裡面……"
   },
   "34233": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv2><end_attr>King Nikoroi passed through here and\nwent back to Abandoned Castle. I tried\nto stop him, but he would not listen\n<br>\nto me. I don't know what his business\nis, but his stubbornness must have\ndeep reasons. I have decided to trust\n<br>\nKing Nikoroi.",
     "es": "",
     "fr": "",
     "it": "",
@@ -462,8 +504,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>尼克羅伊王剛經過這裡，\n又前往遺棄之城了。\n我試著阻止過他，但他就是不聽。\n<br>\n雖然不知道到底是什麼事，\n但態度如此強硬，一定有很重要的事情吧。\n我決定相信尼克羅伊王。"
   },
   "34234": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv2><end_attr>What! Queen Agushuna is alive in\nAbandoned Castle? What a surprise. You\nmust have seen the ghost of Abandoned\n<br>\nCastle. You know what I mean. You\nknow, the dead do hang around there.",
     "es": "",
     "fr": "",
     "it": "",
@@ -473,8 +516,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>什麼！！你說安格秀娜王妃還活著，\n就住在遺棄之城裡？\n<br>\n……不可能。\n你是看到遺棄之城裡的亡靈了吧。\n你也知道吧？一直有死者在那附近徘迴。"
   },
   "34235": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Hey, you know what? I heard that the\nsacred site of Abandoned Castle has\nregained its power for the first time\n<br>\nin 50 years! When I heard that King\nNikoroi was in and out of Abandoned\nCastle, I freaked out thinking what's\n<br>\ngoing on, but I'm sure that King\nNikoroi himself was there to restore\nthe sacred site.",
     "es": "",
     "fr": "",
     "it": "",
@@ -484,8 +528,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>喂，你知道嗎？\n時隔５０年，遺棄之城的聖地似乎恢復了力量喔！\n<br>\n聽到尼克羅伊王進出遺棄之城的時候，\n我還很害怕地想說發生了什麼事……\n<br>\n尼克羅伊王一定是為了讓聖地復活，\n才會親自到那裡去。"
   },
   "34236": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv3><end_attr>Umm... By any chance, are you <pc>?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -495,8 +540,9 @@
     "zh-Hant": "<attr><feel_think_lv3><end_attr>那個……難道你就是<pc>嗎？<yesno><break>"
   },
   "34237": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>I just knew it!! You're just the one I imagined!\n<br>\nI heard Master Nikoroi is giving you and Kyusuke a\nhero's reward or something! Already, the whole city\nis in an uproar!",
     "es": "",
     "fr": "",
     "it": "",
@@ -506,8 +552,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>哇，果然！！\n我就覺得是這樣！\n<br>\n尼克羅伊陛下稱讚你和久助大人是英雄，\n要給予獎賞！\n整個王都裡都在談論這件事喔！"
   },
   "34238": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Whaaat! I knew it, you know. Because you're a\ndifferent person than I imagined.",
     "es": "",
     "fr": "",
     "it": "",
@@ -517,8 +564,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>什麼嘛！不過我也不意外。\n畢竟跟我想像的完全不一樣。"
   },
   "34239": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Well, well, well <pc>! King\nNikoroi is waiting for you. Please\nhurry up and go to the throne room.",
     "es": "",
     "fr": "",
     "it": "",
@@ -528,8 +576,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>這不是<pc>大人嗎！\n尼克羅伊王正在等著你呢，\n趕快前往王座之間吧。"
   },
   "34240": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv2><end_attr>The Holy Land? A lot of the castle\nscholars are heading up north. That's\nso unfair, man. I told my kids never\n<br>\nto go beyond the north gate!",
     "es": "",
     "fr": "",
     "it": "",
@@ -539,8 +588,9 @@
     "zh-Hant": "<attr><feel_angry_lv2><end_attr>說是要做什麼「聖地掉茶」？\n然後城裡的學者們就一起去了北方。\n<br>\n大人們好狡猾啊～\n明明一直跟小朋友說不可以去北門外面！"
   },
   "34241": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Welcome back! King Nikoroi awaits you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -550,8 +600,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>你終於回來了！\n尼克羅伊王正在等著你。"
   },
   "34242": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>My grandma, who worked at the castle,\nsaid that King Nikoroi's sister was so\nbeautiful that she was kind of scared\n<br>\nat first. But as she watched her, she\nrealized that she was a kind, family-\noriented, ordinary kid, and she fell\n<br>\nin love with her.",
     "es": "",
     "fr": "",
     "it": "",
@@ -561,8 +612,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>年輕時在城裡當過女官的奶奶跟我說，\n由於尼克羅伊王的姊姊過於美麗，\n所以她一開始很害怕公主。\n<br>\n不過後來和公主相處久了就知道，\n她是個溫柔又為家人著想的普通小孩，\n久而久之就喜歡上公主了。"
   },
   "34243": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "My parents were researchers.They\ntraveled to the Cursed Land for\nresearch and were attacked and killed\n<br>\nby demon miasma. My parents' dream was\nto purify the Cursed Land. If the\npower of the revived sanctuary spreads\n<br>\nthroughout the continent, their dream\nwill be fulfilled.",
     "es": "",
     "fr": "",
     "it": "",
@@ -572,8 +624,9 @@
     "zh-Hant": "我的雙親是研究者。\n他們為了研究前往了被詛咒的大地，\n被魔瘴襲擊而喪命。\n<br>\n雙親的夢想就是淨化那片被詛咒的大地，\n如果聖地恢復的力量能遍布整座大陸，\n或許就能夠實現那個夢想呢。"
   },
   "34244": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>I can't believe Kyusuke-sama had a\nwoman in mind. I've lost my heart. But\nthat's okay. I'm not that boring.",
     "es": "",
     "fr": "",
     "it": "",
@@ -583,8 +636,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>啊啊……\n久助大人居然已經有喜歡的對象……\n我失戀了。\n<br>\n不過這樣也好，\n那種冷漠的態度也帥‧透‧了<heart>"
   },
   "34245": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Oh! This is <pc>. Please,\ncome through.",
     "es": "",
     "fr": "",
     "it": "",
@@ -594,8 +648,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>喔！是<pc>大人。\n請進。"
   },
   "34246": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Well done for coming, hero of\nKamiharmui <pc>!",
     "es": "",
     "fr": "",
     "it": "",
@@ -605,8 +660,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>歡迎您大駕光臨，\n卡密哈爾姆的英雄，<pc>大人！"
   },
   "79544": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Oh, an observer. Do you like my woodworking? Although\nits charm may be lost on those who don't routinely\nuse staves, rods, and other such wooden weapons.",
     "es": "",
     "fr": "",
     "it": "",
@@ -616,8 +672,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>嗨，你是來參觀的人嗎？\n你對木工有興趣嗎？\n<br>\n如果你平常沒在使用法杖\n或棍棒等木製武器的話，\n可能無法完全理解它們的魅力。"
   },
   "79545": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv1><end_attr>Yeah... What is it? Is there something on my face?",
     "es": "",
     "fr": "",
     "it": "",
@@ -627,8 +684,9 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>嗯……怎麼了？我的臉上有什麼東西嗎？"
   },
   "79546": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>I see, looks like it was just my imagination, eh.\nIf you have any problems, you can always come to me\nfor advice.",
     "es": "",
     "fr": "",
     "it": "",
@@ -638,8 +696,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>是嗎？看來是我的錯覺。\n如果你有什麼困擾的話，\n隨時可以找我商量。"
   },
   "79547": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Hmm. You want to know the way of woodworking, eh.\nHowever, even I suddenly told you, it's not something\nyou could be taught just like that.\n<br>\n...Eh? A Lendersian kid heard about my reputation\nand wants to learn woodworking from me?\n<br>\n...Hmmm. If that's what this is about, it's no skin\noff my back, is it. Give this book to that kid for me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -649,8 +708,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>嗯，你想知道木工的做法嗎？\n但是你突然這麼說，\n這也不是一下子就能學會的啊。\n<br>\n……什麼？\n你說有個冷達西亞的孩子\n聽到我的名聲後，想要學習木工嗎？\n<br>\n……嗯，既然這樣，\n我必須要助他一臂之力才行，\n請把這本書交給那個孩子吧。"
   },
   "79548": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>That's a manual I've used since I was a kid. Since I\ndon't need to read it anymore, you can give to that\nkid as a present from me.\n<br>\n...However, to think: if my name crossed the ocean\nto another continent, then my reputation hasn't been\nabandoned, has it. Hahah.",
     "es": "",
     "fr": "",
     "it": "",
@@ -660,8 +720,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>那是我小時候用過的教材，\n我現在已經不需要了，\n就送給那孩子當禮物吧。\n<br>\n……不過我的名字居然\n傳到了大海另一端的大陸，\n看來我的評價也並非一無是處呢，呵呵。"
   },
   "79549": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Looks like this is the skilled craftsman, Hayato, that\nFecto mentioned. Ask Hayato about learning the ways\nof woodworking?<yesno><case 1><break><case 2><close><case_cancel><close>",
     "es": "",
     "fr": "",
     "it": "",
@@ -671,8 +732,9 @@
     "zh-Hant": "他似乎就是費科特提到的\n實力高超的工匠隼人。\n要向隼人請教木工的做法嗎？<yesno><case 1><break><case 2><close><case_cancel><close>"
   },
   "79550": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> tried asking Hayato about learning the\nway of woodworking.",
     "es": "",
     "fr": "",
     "it": "",
@@ -682,8 +744,9 @@
     "zh-Hant": "<pc>向隼人請教了木工的做法。"
   },
   "79551": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received the\nChildren's Woodworking Manual (Key Item)!<me 60>",
     "es": "",
     "fr": "",
     "it": "",
@@ -693,8 +756,9 @@
     "zh-Hant": "<pc>收下了\n兒童木工課本（重要物品）！<me 60>"
   },
   "79552": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>That manual I gave you is one I've used since I was\na kid. Since I don't need to read it anymore, you\ncan give to that kid as a present from me.\n<br>\n...However, to think: if my name crossed the ocean\nto another continent, then I've become famous,\nhaven't I. Hahah.",
     "es": "",
     "fr": "",
     "it": "",
@@ -704,8 +768,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>剛剛交給你的是我以前用過的教材，\n我現在已經不需要了，\n就送給那孩子當禮物吧。\n<br>\n……不過我的名聲居然\n傳到了大海另一端的大陸，\n我也變得有名了呢，呵呵。"
   },
   "48115": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>This is the headquarters of the\nWoodworking Guild. This is the\nheadquarters of the Woodworking Guild,\n<br>\nwhere woodworkers from all over the\nworld gather.",
     "es": "",
     "fr": "",
     "it": "",
@@ -715,8 +780,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>唷，這裡是木工公會的總部。\n聚集了來自世界各地，\n實力堅強的木工工匠的大本營。"
   },
   "48116": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Wood is alive. It breathes! That was\nthe motto of the previous guild\nmaster. I became a woodworker because\n<br>\nI admired him. But he is no longer\nwith us.",
     "es": "",
     "fr": "",
     "it": "",
@@ -726,8 +792,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>木材是活著的，他們會呼吸！\n這是前任公會會長的口頭禪喔。\n<br>\n我因為憧憬前任會長而成為了木工工匠……\n但前任會長已經不在了。"
   },
   "69565": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Welcome to the Woodworking Guild, the\npride of Royal City Kamiharmui! My\nname is Kanna, the Guild Master. Your\n<br>\nname is <pc>. Are you\ninterested in woodworking? Woodworking\nis a fascinating craft that can be\n<br>\nused to make wooden weapons such as\nwand staffs, rod fans, and more. It is\na fun and skillful process to find the\n<br>\ngrain of the wood and to cut it so\nthat it fits perfectly in the user's\nhand. It is our mission at the\n<br>\nWoodworking Guild to deliver these\ncarefully crafted wooden products to\ncustomers all over the world! But now,\n<br>\nwe have to hire new craftsmen and stop\ndoing business with private customers.\nThe monsters have become even more\n<br>\nferocious than before, perhaps due to\ndemon miasma, and the demand for\nweapons has risen, so the guild as a\n<br>\nwhole is overwhelmed with orders from\nmany different countries. I'm sorry\nyou had to come all this way. Oh, by\n<br>\nthe way, I have something good to tell\nyou. Does <pc> have a\nmysterious blacksmithing stand? The\n<br>\nDream Forest and Cursed Land north of\nKamiharmui are, as the name suggests,\ndangerous places. However, I heard\n<br>\nthat you can get valuable materials\nthere. If you can make equipment by\nyourself, it is a good place to\n<br>\ncollect materials. But please don't\noverdo it!",
     "es": "",
     "fr": "",
     "it": "",
@@ -737,8 +804,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>歡迎光臨。\n這裡是王都卡密哈爾姆引以為傲的木工公會！\n我是公會會長神奈。\n<br>\n請問你的名字是……\n是<pc>吧。\n難不成你對木工感興趣嗎！？\n<br>\n木工是個非常有魅力的技術，\n可以製作出短杖、雙手杖、棍棒、扇子等\n木製武器。\n<br>\n要讓木頭完美貼合使用者的手，\n必須看清木紋並仔細切割，\n雖然很需要技術，但非常地有趣喔。\n<br>\n我們木工公會的使命就是像這樣，\n把一個個精心雕琢而成的木工製品，\n送到世界各地的顧客手中！\n<br>\n啊，不過……\n目前處於暫停雇用新的工匠，\n也暫停與個人客戶進行交易的狀態。\n<br>\n最近或許受到魔瘴的影響，\n怪物們變得更加凶暴，\n武器的需求量也隨之增加……\n<br>\n為了因應來自各國的訂單，\n整個公會都快忙不過來了……\n你都特地過來了，真是抱歉。\n<br>\n啊，對了，正好告訴你一件好事。\n<pc>身上有神奇鍛造台嗎？\n<br>\n位於卡密哈爾姆北方的夢幻森林跟被詛咒的大地\n如同其名是很危險的地方。\n但也因此可以取得相當珍貴的材料。\n<br>\n如果你自己能夠製作裝備品，\n那裡應該很適合收集材料。\n但千萬別太過勉強自己喔！"
   },
   "53287": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Ahhh... I wonder if there are any good\npaying jobs that suit me, where I can\nmake money while having fun.",
     "es": "",
     "fr": "",
     "it": "",
@@ -748,8 +816,9 @@
     "zh-Hant": "啊～有沒有能輕輕鬆鬆賺大錢，\n非常適合我的好工作啊～"
   },
   "49285": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "There's a great house two doors down\nfrom ours. It had been vacant for a\nwhile, but recently Mr. and Mrs. Dwarf\n<br>\nmoved in. I thought it was a waste of\na very nice house, so I'm glad they\nmoved in.",
     "es": "",
     "fr": "",
     "it": "",
@@ -759,8 +828,9 @@
     "zh-Hant": "我家隔壁的隔壁有棟豪宅，\n之前有一段時間都空著沒人住。\n不過最近搬來了一對多瓦夫的夫妻。\n<br>\n我一直覺得這麼好的房子空著很可惜，\n現在有人住進去真是太好了。"
   },
   "49286": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>My wife seems to like this city. He\nbought the house immediately! It used\nto be occupied by a wealthy merchant\n<br>\nfrom Pukulipo. It's well taken care\nof, it's wonderful! Ha-ha-ha-ha!",
     "es": "",
     "fr": "",
     "it": "",
@@ -770,8 +840,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>我老婆好像很喜歡這座城市，\n所以我立刻買下了這棟房子！\n<br>\n之前好像是普庫里坡的富商住在這裡，\n房子維護得很好，真是太棒了！\n哇哈哈哈！"
   },
   "49287": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "What's that? I'm the Matoi that used to care for\nSasalana, but I...\n<br>\nEh? You came at Sasalana's request to hear about\nher mother!? Mmm... It's been a little while, but\nis that okay?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -781,8 +852,9 @@
     "zh-Hant": "怎麼了？\n曾經照顧紗紗良奈的纏依\n就是我沒錯……\n<br>\n什麼？紗紗良奈拜託你來問我關於她母親的事嗎！？\n嗯……這事說來話長，你要聽嗎？<yesno><break>"
   },
   "49288": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Oh yeah, really? Well, that's alright then. It's\nnot a story I want to tell you too much about either,\nyou see.",
     "es": "",
     "fr": "",
     "it": "",
@@ -792,8 +864,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>哎呀，是嗎？\n那也沒關係，\n反正也不是想讓別人知道的事情。"
   },
   "49289": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Well then, it's as good an opportunity to tell as\nany, isn't it.\n<br>\nThe girl's mother... Ms. Enju, came to the city with\nher young daughter and was making a living with her\nsorting techniques.\n<br>\nTwo houses down from hers lived a wealthy Pukulipo\nmerchant who liked her sorting technique, so Ms.\nEnju was working for him.\n<br>\nWhile she was working, I often took care of Sasalana,\nbut you see...\n<br>\nOne late night, I heard a knock at my door. When I\nopened the door, I found Ms. Enju standing there\nwith this unusually grim look upon her face.\n<br>\n'I can't stay in Kamiharmui anymore. I can't take\nher with me, so please take care of my daughter',\nshe said...\n<br>\nThat was the last time I saw the girl's mother.\n<br>\nThe next day, I heard that thieves been at the house.\nRumors started that Ms. Enju was the culprit, but no\none knew for sure-even now-it's unsolved, you see.\n<br>\nSome time after the commotion, the wealthy merchant\nPukulipo sold his house and returned to his hometown,\nMegistris City, with his son, Pappol.\n<br>\nI think they still live in the northwest Megistris\nCity, so if you want to hear more, why don't you\nvisit him?",
     "es": "",
     "fr": "",
     "it": "",
@@ -803,8 +876,9 @@
     "zh-Hant": "就趁著這個機會告訴你吧。\n那孩子的母親……延珠帶著年幼的女兒，\n來到這個城市靠著整理術謀生。\n<br>\n我家隔壁的隔壁住著普庫里坡富商，\n他看中了延珠的整理術，\n於是延珠就在那裡工作。\n<br>\n她在豪宅工作的時候，\n就經常把紗紗良奈寄放在我們家……\n<br>\n……某一天深夜，我聽見有人在敲我家的門。\n打開門看到延珠站在門口，\n她表情異常嚴肅地跟我說\n<br>\n她已經沒辦法待在卡密哈爾姆了，\n由於無法帶女兒一起走，想拜託我照顧女兒……\n那是我最後一次見到那孩子的母親。\n<br>\n隔天就聽說豪宅遭小偷了。\n雖然有傳言說延珠就是犯人，\n但因為沒有證據，這件事也就這樣不了了之。\n<br>\n騷動過後一段時間，\n普庫里坡的富商就把豪宅賣掉，\n帶著兒子帕坡爾回到故鄉花都麥奇斯翠絲了。\n<br>\n他們現在應該還住在花都麥奇斯翠絲的西北方，\n如果你想打聽這件事，\n何不直接去拜訪他們？"
   },
   "49290": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Ms. Erju left her daughter with me and disappeared\nthe night before the commotion over the wealthy\nmerchant Pukulipo's home had been burglarized.\n<br>\nRumors started that Ms. Enju was the culprit, but no\none knew for sure-even now-it's unsolved, you see.\n<br>\nSome time after the commotion, the wealthy merchant\nPukulipo sold his house and returned to his hometown,\nMegistris City, with his son, Pappol.\n<br>\nI think they still live in the northwest Megistris\nCity, so if you want to hear more, why don't you\nvisit him?",
     "es": "",
     "fr": "",
     "it": "",
@@ -814,8 +888,9 @@
     "zh-Hant": "在普庫里坡富商的豪宅遭小偷的前一天晚上，\n延珠把那孩子寄放在我家後失去了蹤影。\n<br>\n雖然有傳言說她就是犯人，\n但因為沒有證據，這件事也就這樣不了了之。\n<br>\n騷動過後一段時間，\n普庫里坡的富商就把豪宅賣掉，\n帶著兒子帕坡爾回到故鄉花都麥奇斯翠絲了。\n<br>\n他們現在應該還住在花都麥奇斯翠絲的西北方，\n如果你想打聽這件事，\n何不直接去拜訪他們？"
   },
   "49291": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Ms. Erju left her daughter with me and disappeared\nthe night before the commotion over the wealthy\nmerchant Pukulipo's home had been burglarized.\n<br>\nRumors started that Ms. Enju was the culprit, but no\none knew for sure-even now-it's unsolved, you see.\nThat's as much as I can tell you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -825,8 +900,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>在普庫里坡富商的豪宅遭小偷的前一天晚上，\n延珠把那孩子寄放在我家後失去了蹤影。\n<br>\n雖然有傳言說她就是犯人，\n但因為沒有證據，這件事也就這樣不了了之。\n我能說的只有這些。"
   },
   "49292": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Sasalana seems to be doing well.\nThanks to you. I should tell you\nsomething. I got a letter from Mr.\n<br>\nEnge. She wrote that since she no\nlonger has to hide herself, she would\nlike to see her daughter someday.\n<br>\nSasalana will be happy to know that\nher mother is alive. I don't want to\ntell anyone about this because I want\n<br>\nto surprise her.",
     "es": "",
     "fr": "",
     "it": "",
@@ -836,8 +912,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>紗紗良奈似乎過得很好呢，\n多虧有你，謝謝。\n<br>\n……有件事應該要告訴你，\n其實我收到了延珠的信。\n<br>\n信裡頭說，她好像已經不需要再東躲西藏了，\n希望有一天可以見到自己的女兒。\n<br>\n紗紗良奈如果知道母親還活著的話，\n一定會很開心吧。\n我想給那孩子一個驚喜，你要保密喔。"
   },
   "49293": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>I got a letter from Enju-san. She\nwrote that she would like to see her\ndaughter someday, since it seems she\n<br>\nno longer has to hide herself.\nSasalana will be happy to know that\nher mother is alive. I don't want to\n<br>\ntell anyone about this because I want\nto surprise her.",
     "es": "",
     "fr": "",
     "it": "",
@@ -847,8 +924,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>我收到了延珠的信。\n信裡頭說，她好像已經不需要再東躲西藏了，\n希望有一天可以見到自己的女兒。\n<br>\n紗紗良奈如果知道母親還活著的話，\n一定會很開心吧。\n我想給那孩子一個驚喜，你要保密喔。"
   },
   "108502": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>I started this place when Royal City\nKamiharmui was built. That was about\n50 years ago. Now I leave the store to\n<br>\nmy daughter, Muko, and am enjoying a\ncomfortable retirement. Hohoho.",
     "es": "",
     "fr": "",
     "it": "",
@@ -858,8 +936,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>在王都卡密哈爾姆剛建城時，\n我就在這裡開了這間店，\n大約是距今５０年前的事了。\n<br>\n現在我把店交給女婿打理，\n過著無憂無慮的退休生活了，呵呵。"
   },
   "108503": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oh? <pc>. How is Sasalana\ndoing? What? Sasalana asked you to\ncome and see me? What's going on?",
     "es": "",
     "fr": "",
     "it": "",
@@ -869,8 +948,9 @@
     "zh-Hant": "咦？是<pc>啊。\n紗紗良奈最近過得好嗎？\n<br>\n什麼？你是受紗紗良奈所託，\n特地來找我的嗎！？\n究竟發生什麼事了？"
   },
   "108504": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Hmmm. I don't know about providence,\nbut Mr. Enge surely had a purpose for\nliving in Kamiharmui. It seems that he\n<br>\noften left Sasalana at our house and\nwent to used bookshop for research in\nbetween his work. He was an\n<br>\nenthusiastic researcher, wasn't he?\nThat used bookshop is still open. It's\non the east side of Royal City\n<br>\nKamiharmui, across the castle, on the\nother side of our house.",
     "es": "",
     "fr": "",
     "it": "",
@@ -880,8 +960,9 @@
     "zh-Hant": "嗯～我不太懂那個攝理是什麼東西，\n不過延珠的確提過她是出於某個目的，\n才會住在卡密哈爾姆。\n<br>\n她經常在工作空檔把紗紗良奈託在我家，\n自己則去舊書店調查資料。\n是一位熱衷研究的人呢。\n<br>\n那間舊書店現在還有在營業唷。\n就在我家的反方向，中間隔著整座城，\n位於王都卡密哈爾姆東邊。"
   },
   "108505": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> asked Sasalana's mother\nEnge if she was looking for something\ncalled the providence of the stars and\n<br>\ndragons!",
     "es": "",
     "fr": "",
     "it": "",
@@ -891,8 +972,9 @@
     "zh-Hant": "<pc>詢問紗紗良奈的母親延珠，\n是否正在尋找名為星辰攝理的東西！"
   },
   "108506": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I don't know what providence you were\ntalking about, but Mr. Enju lived in\nKamiharmui for a purpose. He used to\n<br>\nleave Sasalana at our house and go to\nused bookshop to research in between\nwork. He was an enthusiastic\n<br>\nresearcher, wasn't he? That used\nbookshop is still open. It's on the\neast side of Royal City Kamiharmui,\n<br>\nacross the castle, on the other side\nof our house.",
     "es": "",
     "fr": "",
     "it": "",
@@ -902,8 +984,9 @@
     "zh-Hant": "我不太懂你說的那個攝理是什麼東西，\n不過延珠的確提過她是出於某個目的，\n才會住在卡密哈爾姆。\n<br>\n她經常在工作空檔把紗紗良奈託在我家，\n自己則去舊書店調查資料。\n是一位熱衷研究的人呢。\n<br>\n那間舊書店現在還有在營業唷。\n就在我家的反方向，中間隔著整座城，\n位於王都卡密哈爾姆東邊。"
   },
   "108507": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Are you looking into the past? If so,\nI think it would be a good idea to ask\none of my retirees there. Well...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -913,8 +996,9 @@
     "zh-Hant": "你在調查以前的事嗎？\n我家那位已退休的老先生就在那邊，\n你可以去問問他消息。那麼……<bw_break>"
   },
   "108508": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_one><end_attr>I heard that Enge-san was looking into\nhermit with the mysterious ''pot''? I'm\nstuck on the ''pot''.",
     "es": "",
     "fr": "",
     "it": "",
@@ -924,8 +1008,9 @@
     "zh-Hant": "<attr><feel_think_one><end_attr>你說延珠調查過擁有神祕罐子的隱者嗎？\n罐子……………………總覺得有點印象。"
   },
   "108509": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>Oh yes, I remember now! A long time\nago, I saw Mr. Enju carrying a very\nold looking pot. It was hard to talk\n<br>\nto him because he looked so serious.\nBut, that might have been the\nmysterious pot that HERMIT had.",
     "es": "",
     "fr": "",
     "it": "",
@@ -935,8 +1020,9 @@
     "zh-Hant": "<icon_exc>對了，我想起來啦！\n以前我見過延珠拿著一個\n看起來很古老的罐子。\n<br>\n當時她的表情相當凝重，我也不敢上前搭話。\n那或許就是傳聞中隱者所擁有的神祕罐子。"
   },
   "108510": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "A long time ago, I saw Mr. Enju\ncarrying a very old looking pot. It\nwas hard to talk to him because he\n<br>\nlooked so serious. But maybe that was\nthe mysterious pot that hermit was\ncarrying.",
     "es": "",
     "fr": "",
     "it": "",
@@ -946,8 +1032,9 @@
     "zh-Hant": "以前我見過延珠拿著一個\n看起來很古老的罐子。\n<br>\n當時她的表情相當凝重，我也不敢上前搭話。\n那或許就是傳聞中隱者所擁有的神祕罐子。"
   },
   "108511": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>Hohoho. What's the matter, young man?\nAre you going to listen to an old\nman's tales of the past?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -957,8 +1044,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>呵呵。年輕人，怎麼了？\n你想聽我這老頭子講以前的故事嗎？<yesno><break>"
   },
   "108512": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>I am so happy. I started this\nrestaurant about 50 years ago when\nRoyal City Kamiharmui was built.\n<br>\nSo.... When I rebuilt the store, I\nfound an old pot in the ground. The\npot was displayed in the store, but\n<br>\nabout 10 years ago, an Elf woman came\nby the store and asked me to give it\nto her, so I gave it to her. On the\n<br>\nday I picked up the pot, the Elf woman\nwas accompanied by a Pukulipo man who\nlooked like a ranger. When I told her\n<br>\nthat I didn't want to pay for the pot\nbecause I had received it for free\nanyway, the Pukulipo said, ''I'm sorry,\n<br>\nbut I can't believe you gave me the\npot for free. I still remember that\nPukulipo made a cold pun like ''I'm so\n<br>\nhappy that you gave me a pot for free.\nI think he called himself a member of\nthe Ranger Association.",
     "es": "",
     "fr": "",
     "it": "",
@@ -968,8 +1056,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>呵呵，真令人開心啊。\n大約在５０年前，王都卡密哈爾姆剛建城時，\n我就決定在這裡開店。\n<br>\n當店面進行大規模改建時，\n居然在地底下發現了古老的罐子。\n於是我把那個罐子擺設在店裡……\n<br>\n大約１０年前，有位來到店裡的艾爾芙女性\n希望我讓出那個罐子，\n於是我就交給她了。\n<br>\n在約好拿罐子的那天，\n那名艾爾芙女性和遊俠打扮的\n普庫里坡男性來到了店裡。\n<br>\n我想反正這是撿來的東西，就不收錢了。\n那位普庫里坡男性聞言卻說，\n這真是史無錢例。\n<br>\n……這個笑話實在太冷了，\n讓我到現在仍難以忘懷。\n我記得他說自己是遊俠協會的人。"
   },
   "108513": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>As I get older, I tend to want to talk\ntoo long. When you have time, take me\nup on it again. Hohoho.",
     "es": "",
     "fr": "",
     "it": "",
@@ -979,8 +1068,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>人一旦上了年紀，總是會特別多話。\n有空的話再來陪我聊天吧。\n呵呵。"
   },
   "108514": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_one><end_attr>I heard that Enge-san was looking into\nhermit with the mysterious ''pot''? I'm\nstuck on the ''pot''.",
     "es": "",
     "fr": "",
     "it": "",
@@ -990,8 +1080,9 @@
     "zh-Hant": "<attr><feel_think_one><end_attr>你說延珠調查過擁有神祕罐子的隱者嗎？\n罐子……………………總覺得有點印象。"
   },
   "108515": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>Oh yes, I remember now! I once saw Mr.\nEnju carrying a very old looking pot.\nIt was hard to talk to him because he\n<br>\nlooked so serious. But, that may have\nbeen the mysterious pot that hermit\nwas carrying. If we follow the\n<br>\nwhereabouts of the pot, we may be able\nto find the providence that you and\nSasalana are looking for. I'll be\n<br>\nrooting for you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1001,8 +1092,9 @@
     "zh-Hant": "<icon_exc>對了，我想起來啦！\n以前我見過延珠拿著一個\n看起來很古老的罐子。\n<br>\n當時她的表情相當凝重，我也不敢上前搭話。\n那或許就是傳聞中隱者所擁有的神祕罐子。\n<br>\n只要知道罐子的去向，\n或許就能找到你和紗紗良奈在尋找的\n那什麼攝理，我會為你們加油的。"
   },
   "108516": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "A long time ago, I saw Mr. Enju\ncarrying a very old looking pot. It\nwas hard to talk to him because he\n<br>\nlooked so serious. But, that might\nhave been the mysterious pot that\nhermit was carrying. If we follow the\n<br>\nwhereabouts of the pot, we may be able\nto find the providence that you and\nSasalana are looking for. I'll be\n<br>\nrooting for you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1012,8 +1104,9 @@
     "zh-Hant": "以前我見過延珠拿著一個\n看起來很古老的罐子。\n<br>\n當時她的表情相當凝重，我也不敢上前搭話。\n那或許就是傳聞中隱者所擁有的神祕罐子。\n<br>\n只要知道罐子的去向，\n或許就能找到你和紗紗良奈在尋找的\n那什麼攝理，我會為你們加油的。"
   },
   "108517": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "The pot that I found when I was\nrebuilding my store was given away to\na woman in Elf and a couple of rangers\n<br>\nin Pukulipo about 10 years ago. When I\ntold them that I didn't want to pay\nfor it because I had received it for\n<br>\nfree anyway, the ranger said, ''I'm\nsorry, I didn't mean to give you the\npot for free! I still remember the\n<br>\nranger making a cold pun like ''I'm so\nproud of you for giving me a free pot!\nI think he called himself a member of\n<br>\nthe ranger association.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1023,8 +1116,9 @@
     "zh-Hant": "大約在１０年前，\n艾爾芙女性和普庫里坡遊俠的雙人組\n希望我可以讓出改建店面時發現的罐子。\n<br>\n我想反正這是撿來的東西，就不收錢了。\n那位普庫里坡男性聞言卻說，\n這真是史無錢例！\n<br>\n……這個笑話實在太冷了，\n讓我到現在仍難以忘懷。\n我記得他說自己是遊俠協會的人。"
   },
   "108518": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_one><end_attr>I heard that Enge-san was looking into\nhermit with the mysterious ''pot''? I'm\nstuck on the ''pot''.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1034,8 +1128,9 @@
     "zh-Hant": "<attr><feel_think_one><end_attr>你說延珠調查過擁有神祕罐子的隱者嗎？\n罐子……………………總覺得有點印象。"
   },
   "108519": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>Oh yes, I remember now! A long time\nago, I saw Mr. Enju carrying a very\nold looking pot. It was hard to talk\n<br>\nto him because he looked so serious.\nBut, that may have been the mysterious\npot that HERMIT was carrying. What?\n<br>\nYou said you received the pot? If so,\nI'll take it to Sasalana for you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1045,8 +1140,9 @@
     "zh-Hant": "<icon_exc>對了，我想起來啦！\n以前我見過延珠拿著一個\n看起來很古老的罐子。\n<br>\n當時她的表情相當凝重，我也不敢上前搭話。\n那或許就是傳聞中隱者所擁有的神祕罐子。\n<br>\n……你說什麼？\n你已經找到那個罐子了！？\n那就快點拿給紗紗良奈吧。"
   },
   "108520": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "A long time ago, I saw Mr. Enju\ncarrying a very old looking pot. It\nwas hard to talk to him because he\n<br>\nlooked so serious. But maybe that was\nthe mysterious pot that HERMIT was\ncarrying. What? You said you received\n<br>\nthe pot? If so, I'll take it to\nSasalana for you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1056,8 +1152,9 @@
     "zh-Hant": "以前我見過延珠拿著一個\n看起來很古老的罐子。\n<br>\n當時她的表情相當凝重，我也不敢上前搭話。\n那或許就是傳聞中隱者所擁有的神祕罐子。\n<br>\n……你說什麼？\n你已經找到那個罐子了！？\n那就快點拿給紗紗良奈吧。"
   },
   "108521": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_one><end_attr>I heard that Enge-san was looking into\nhermit with the mysterious ''pot''? I'm\nstuck on the ''pot''.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1067,8 +1164,9 @@
     "zh-Hant": "<attr><feel_think_one><end_attr>你說延珠調查過擁有神祕罐子的隱者嗎？\n罐子……………………總覺得有點印象。"
   },
   "108522": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>Oh yes, I remember now! A long time\nago, I saw Mr. Enju carrying a very\nold looking pot. It was hard to talk\n<br>\nto him because he looked so serious.\nBut I guess that was the mysterious\npot that HERMIT was carrying. The pot\n<br>\nthat Enge-san was looking for is now\nin Sasalana's possession. I am deeply\nmoved.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1078,8 +1176,9 @@
     "zh-Hant": "<icon_exc>對了，我想起來啦！\n以前我見過延珠拿著一個\n看起來很古老的罐子。\n<br>\n當時她的表情相當凝重，我也不敢上前搭話。\n那或許就是傳聞中隱者所擁有的神祕罐子。\n<br>\n延珠尋覓已久的罐子，\n如今卻在紗紗良奈的手裡。\n……真是令人感慨萬千啊。"
   },
   "108523": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "A long time ago, I saw Mr. Enju\ncarrying a very old looking pot. He\nlooked so serious that it was hard to\n<br>\nspeak to him. But I guess that was the\nmysterious pot that hermit was\ncarrying. The pot that Enge-san was\n<br>\nlooking for is now in Sasalana's\npossession. I am deeply moved.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1089,8 +1188,9 @@
     "zh-Hant": "以前我見過延珠拿著一個\n看起來很古老的罐子。\n<br>\n當時她的表情相當凝重，我也不敢上前搭話。\n那或許就是傳聞中隱者所擁有的神祕罐子。\n<br>\n延珠尋覓已久的罐子，\n如今卻在紗紗良奈的手裡。\n……真是令人感慨萬千啊。"
   },
   "108524": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Oh, it's you. I received a thank-you\nletter from Sasalana after that. She\nwent to a lot of trouble to be so\n<br>\npolite. She's a good girl. However,\nthe pot that Mr. Enge was looking for\nis now in Sasalana's possession. I was\n<br>\ndeeply moved. She has been chasing\nafter her mother for a long time,\nhasn't she? I hope we can meet again\n<br>\nsomeday.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1100,8 +1200,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>喔，是你啊。\n在那之後紗紗良奈特地寫信來道謝了。\n她真是個有禮貌的好孩子。\n<br>\n不過沒想到延珠尋覓已久的罐子\n如今卻在紗紗良奈的手裡。\n……真是令人感慨萬千啊。\n<br>\n那個孩子一直在追尋著母親，\n希望她們有一天能夠再次相聚。"
   },
   "188412": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oh? <pc>. How is Sasalana\ndoing? What? Sasalana asked you to\ncome and see me? What's going on?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1111,8 +1212,9 @@
     "zh-Hant": "咦？是<pc>啊。\n紗紗良奈最近過得好嗎？\n<br>\n什麼？你是受紗紗良奈所託，\n特地來找我的嗎！？\n究竟發生什麼事了？"
   },
   "188413": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oh My! Sasalana is playing Cherry Wood\nCrate, isn't she? Yes, yes, I've put\nit away properly. I'll go get it, just\n<br>\nwait a bit.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1122,8 +1224,9 @@
     "zh-Hant": "哎呀，紗紗良奈想要櫻花紋木箱啊。\n沒問題，我有好好保管喔。\n稍等一下，我這就去拿。"
   },
   "188414": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>This is it. It brings back memories.\nSasalana may look like that, but when\nshe was little, she was a messy child.\n<br>\nThis box is a toy box that her mother\nEnju, a master organizer, made for\nher. I remember Sasalana telling me\n<br>\nhow happy she was that this box was\nmagical and that she could put away\nall the toys in it. I guess that's how\n<br>\nshe got interested in organization.\nShe learned from her mother and tried\nto be like her. Thanks to that, she\n<br>\nbecame very good at organizing things.\nIt really brings back memories. Oops,\nthat was a long story. Now, take this\n<br>\nto Sasalana and give it to her.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1133,8 +1236,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>就是這個，真令人懷念啊。\n別看紗紗良奈現在這樣，\n她小時候常把東西丟得亂七八糟呢。\n<br>\n這個箱子是她那位擅長整理術的母親延珠\n專為她製作的玩具箱呢。\n<br>\n記得當時紗紗良奈開心地說，\n這個箱子上頭施有魔法，\n可以放很多玩具進去。\n<br>\n從那之後，那孩子就對整理術產生了興趣，\n有時候跟著母親學習，\n有時候會自己試著模仿……\n<br>\n也因為這樣，她越來越擅長整理收納，\n真令人懷念啊。\n<br>\n……糟糕，一不小心就講太多話了。\n好了，快把這個拿去給紗紗良奈吧。"
   },
   "188415": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Cherry Wood Crate is a toy box made\nfor Sasalana by her mother Enju, a\nmaster organizer. I remember how\n<br>\nSasalana was so happy that this box\nwas magical and full of toys that she\ncould put away. I guess that's how she\n<br>\ngot interested in organization. She\nlearned from her mother and tried to\nbe like her. Thanks to that, she\n<br>\nbecame very good at organizing things.\nIt really brings back memories.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1144,8 +1248,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>這個櫻花紋木箱\n是紗紗良奈那位擅長整理術的母親延珠\n專為她製作的玩具箱呢。\n<br>\n記得當時紗紗良奈開心地說，\n這個箱子上頭施有魔法，\n可以放很多玩具進去。\n<br>\n從那之後，那孩子就對整理術產生了興趣，\n有時候跟著母親學習，\n有時候會自己試著模仿……\n<br>\n也因為這樣，她越來越擅長整理收納，\n真令人懷念啊。"
   },
   "188416": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> informed that he had\ncome for Cherry Wood Crate as\nrequested by Sasalana!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1155,8 +1260,9 @@
     "zh-Hant": "<pc>告知受紗紗良奈所託\n過來拿櫻花紋木箱的事！"
   },
   "188417": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Matoi gets up, heads to the back of\nthe room, and returns with an old\ncrate!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1166,8 +1272,9 @@
     "zh-Hant": "纏依起身走向房間深處，\n拿著一個老舊的木箱回來了！"
   },
   "188418": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received Cherry Wood\nCrate (Key Item)!<me 60>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1177,8 +1284,9 @@
     "zh-Hant": "<pc>獲得了\n櫻花紋木箱（重要物品）！<me 60>"
   },
   "188419": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received Cherry Wood\nCrate (Key Item)!<me 60><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1188,8 +1296,9 @@
     "zh-Hant": "<pc>獲得了\n櫻花紋木箱（重要物品）！<me 60><bw_break>"
   },
   "188420": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Now that we have everything Sasalana\nasked for, we head to the Grand Titus\nwarehouse in Port Town Lendor!",
     "es": "",
     "fr": "",
     "it": "",

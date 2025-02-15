@@ -1,7 +1,8 @@
 {
   "198928": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman>Hey, hey! You're an adventurer, right? Do you\nknow Inspector Pakul, Pukulipo's uncle?<yesno><break><else>Hey, hey! You're an adventurer, right? Do you\nknow Inspector Pakul, Pukulipo's uncle?<yesno><break><endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -11,8 +12,9 @@
     "zh-Hant": ""
   },
   "198929": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I see. You don't know, do you... Well, then, I\ndon't think I can ask you to do me a favor.",
     "es": "",
     "fr": "",
     "it": "",
@@ -22,8 +24,9 @@
     "zh-Hant": ""
   },
   "198930": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Amazing. You know them, don't you? Maybe\nyou've even met him?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -33,8 +36,9 @@
     "zh-Hant": ""
   },
   "198931": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I guess we have never met... Then, I wonder if\nyou would be willing to do me a favor.",
     "es": "",
     "fr": "",
     "it": "",
@@ -44,8 +48,9 @@
     "zh-Hant": ""
   },
   "198932": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>I did it! I finally found the Inspector Pakul\nI've been longing to meet!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -55,8 +60,9 @@
     "zh-Hant": ""
   },
   "198933": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman><attr><feel_happy_lv2><end_attr>Inspector Pakul is amazing! He's rumored to be\nsolving tough cases and catching bad criminals\nin various towns! I came here to become his\n<br>\napprentice, but I can't find him no matter how\nlong I wait. Maybe he's somewhere else. So, I\nhave a favor to ask you. I want you to give\n<br>\nInspector Pakul the letter I wrote, asking for\nan apprenticeship!<else><attr><feel_happy_lv2><end_attr>Inspector Pakul is amazing! He's rumored to be\nsolving tough cases and catching bad criminals\nin various towns! I came here to become his\n<br>\napprentice, but I can't find him no matter how\nlong I wait. Maybe he's somewhere else. So, I\nhave a favor to ask my brother. I want you to\n<br>\ngive Inspector Pakul the letter I wrote to\nyou, asking for an apprenticeship!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -66,8 +72,9 @@
     "zh-Hant": ""
   },
   "198934": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman><attr><feel_happy_lv3><end_attr>Wow! You're doing it. Thank you, sis! I've\nbeen collecting rumors about Inspector Pakul,\nand I'll tell you the latest. He's into drinks\n<br>\nmade with Coconuts. So, why don't you find a\ntown nearby where you can get Coconuts that\nare good enough to be a specialty sold at\n<br>\ntrain stations, and visit a tavern there? I'd\nlike to go with you, but my dad would get mad\nat me. Please take this letter to the Captain!<else><attr><feel_happy_lv3><end_attr>Wow! You're doing it. Thank you, big brother!\nI've been collecting rumors about Inspector\nPakul, and I'll tell you the latest. He's into\n<br>\nCoconut-based beverages right now. So, why\ndon't you find a town nearby where you can get\nCoconuts that are good enough to be a\n<br>\nspecialty sold at train stations, and visit a\ntavern there? I'd like to go with you, but my\ndad would get mad at me. Please take this\n<br>\nletter to the Captain!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -77,8 +84,9 @@
     "zh-Hant": ""
   },
   "198935": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman><attr><feel_happy_lv3><end_attr>Well then, I'm counting on you, sis!<else><attr><feel_happy_lv3><end_attr>Well then, I'm counting on you, big brother!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -88,8 +96,9 @@
     "zh-Hant": ""
   },
   "198936": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman><attr><feel_happy_lv1><end_attr>Wow! You're doing it. Thank you, sis! Huh? But\nit looks like you're full of other requests.\nThat makes it hard for me to ask you. Will you\n<br>\ncome again when you're free? I'll be waiting\nfor you!<else><attr><feel_happy_lv1><end_attr>Wow! You're doing it. Thank you, big brother!\nWhat is it? But you seem to be full of other\nrequests. That makes it hard for me to ask\n<br>\nyou. Will you come again when you're free?\nI'll be waiting for you!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -99,8 +108,9 @@
     "zh-Hant": ""
   },
   "198937": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman><attr><feel_sad_lv1><end_attr>Oh, no? The only person I can ask is my\nsister. If you change your mind, will you come\nagain? I'll be waiting for you!<else><attr><feel_sad_lv1><end_attr>Oh, no? The only person I can ask is my\nbrother. If you change your mind, will you\ncome again? I'll be waiting for you!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -110,8 +120,9 @@
     "zh-Hant": ""
   },
   "198938": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr><turn_pc>Hey, Pakul. I heard rumors that he's been\npopping up here and there a little bit lately.\nBut he never comes back to this house. When am\n<br>\nI going to be able to go back home to collect\nhis debt?",
     "es": "",
     "fr": "",
     "it": "",
@@ -121,8 +132,9 @@
     "zh-Hant": ""
   },
   "198939": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received Bondor's Letter (Key\nItem)!<me 60>",
     "es": "",
     "fr": "",
     "it": "",
@@ -132,8 +144,9 @@
     "zh-Hant": ""
   },
   "198940": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "There are rumors that the Captain is now\naddicted to drinks made with Cocona nut.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -143,8 +156,9 @@
     "zh-Hant": ""
   },
   "198941": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "So, why don't you find a town nearby where you\ncan pick coconuts that are good enough to be\nsold at a train station and visit a tavern\n<br>\nthere? I'd like to go with you, but my dad\nwould get mad at me. Please send a letter to\nthe Captain, asking to become his apprentice!",
     "es": "",
     "fr": "",
     "it": "",
@@ -154,8 +168,9 @@
     "zh-Hant": ""
   },
   "198942": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman>Oh, sis. Did you find Inspector Pakul?<open_irai><bw_break><else>Oh, big brother. Did you find Inspector Pakul?<open_irai><bw_break><endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -165,8 +180,9 @@
     "zh-Hant": ""
   },
   "198943": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "What, he broke some ornaments in a tavern in\nJulet Town and ran away? I wonder why he did\nthat. But if I get the materials for the\n<br>\nornaments, you can tell me where the Captain\nis, right? I'm sorry, but can you do that for\nme?",
     "es": "",
     "fr": "",
     "it": "",
@@ -176,8 +192,9 @@
     "zh-Hant": ""
   },
   "198944": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman>Hey, sis. Did you find out where Inspector\nPakul is?<open_irai><bw_break><else>Hey, big brother. Did you find out where\nInspector Pakul is?<open_irai><bw_break><endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -187,8 +204,9 @@
     "zh-Hant": ""
   },
   "198945": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "What, they were headed to Royal City\nKamiharmui South for questioning? I wonder. I\nwonder if there's some kind of incident.\n<br>\nAnyway, you should go to Royal City Kamiharmui\nSouth and look for the newcomer. Inspector\nPakul might be there!",
     "es": "",
     "fr": "",
     "it": "",
@@ -198,8 +216,9 @@
     "zh-Hant": ""
   },
   "198946": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman>Now that I know more about Inspector Pakul\nthanks to you, I'm going to try to follow him\ntoo. I'm definitely going to become his\n<br>\napprentice! That's why I came here!<else>Now that I know more about Inspector Pakul\nthanks to you, I'm going to try to follow him\ntoo. I'm definitely going to become his\n<br>\napprentice! That's why I came here!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -209,8 +228,9 @@
     "zh-Hant": ""
   },
   "198947": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr><turn_pc>But, Pakul's a bastard. I can't believe he's\nplaying with Julet and Kamiharmui. He's got a\ngood mind, doesn't he? I've been staking out\n<br>\nthe place all day.",
     "es": "",
     "fr": "",
     "it": "",
@@ -220,8 +240,9 @@
     "zh-Hant": ""
   },
   "199017": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Inspector Pakul is disguised as a priest and\nworking on some case, right? I wanted to tell\nyou about my apprenticeship, but I'm not going\n<br>\nto this time. I don't want to get in your way!",
     "es": "",
     "fr": "",
     "it": "",
@@ -231,8 +252,9 @@
     "zh-Hant": ""
   },
   "199018": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman>Oh, sis. How did you help Inspector Pakul? Did\nyou solve the case?<yesno><break><else>Hey, big brother. How did you help Inspector\nPakul? Did you solve the case?<yesno><break><endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -242,8 +264,9 @@
     "zh-Hant": ""
   },
   "199019": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I see, you haven't started yet. This one seems\nto be quite a difficult case.",
     "es": "",
     "fr": "",
     "it": "",
@@ -253,8 +276,9 @@
     "zh-Hant": ""
   },
   "199020": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman><attr><feel_happy_lv1><end_attr>I see. That's Inspector Pakul and his sister!\nHey. Tell me what happened!<else><attr><feel_happy_lv1><end_attr>I see. That's Inspector Pakul and your\nbrother! Hey. Tell me what happened!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -264,8 +288,9 @@
     "zh-Hant": ""
   },
   "199021": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv1><end_attr>Hmmm...so you were looking for the reason why\nthe Dwarf guy went crazy, and it might have\nbeen because he was cheating on his wife, but\n<br>\nit turns out that he wasn't cheating on her,\nhe was helping the poor monster out, right? It\ndoesn't seem like a big case, but Inspector\n<br>\nPakul must have had something behind it! I\nknew it! He's a great inspector. I think it's\ntime for me to get serious and go after him.",
     "es": "",
     "fr": "",
     "it": "",
@@ -275,8 +300,9 @@
     "zh-Hant": ""
   },
   "199022": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "This incident may not sound like much to the\ncasual observer, but there must have been\nsomething going on behind the scenes!\n<br>\nInspector Pakul is amazing after all. I think\nit's time for me to get serious and go after\nhim.",
     "es": "",
     "fr": "",
     "it": "",
@@ -286,8 +312,9 @@
     "zh-Hant": ""
   },
   "199023": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<turn_pc>I went to Kamiharmui, but I couldn't find\nPakul's family anywhere. I was worried that I\nmight run into the Tsubakuro family, who are\n<br>\nin the same business, but I didn't see them\neither.",
     "es": "",
     "fr": "",
     "it": "",
@@ -297,8 +324,9 @@
     "zh-Hant": ""
   },
   "199024": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> gave Bondor a rundown of the\ncase.",
     "es": "",
     "fr": "",
     "it": "",
@@ -308,8 +336,9 @@
     "zh-Hant": ""
   },
   "199112": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman>What is it? Are you trying to do something\nInspector Pakul asked you to do again, sis?<bw_break><else>What is it? Are you trying to do something\nInspector Pakul asked you to do again, big\nbrother?<bw_break><endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -319,8 +348,9 @@
     "zh-Hant": ""
   },
   "199113": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I can understand it somehow. I like it. I wish\nI could get a favor from Inspector Pakul, too!",
     "es": "",
     "fr": "",
     "it": "",

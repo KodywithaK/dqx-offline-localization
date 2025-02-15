@@ -1,7 +1,8 @@
 {
   "94136": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "From here, go southeast to Lower Jule Island,\ntake a canoe at the east end and cross over to\nLenam Fields, where you will find a building\n<br>\ncalled Prayer Inn. If you continue southeast\nalong the road, you will reach Lane Village,\nwhere Weddie and his family live. If you have\n<br>\nnever been there, you should go there.",
     "es": "",
     "fr": "",
     "it": "",
@@ -11,8 +12,9 @@
     "zh-Hant": "從這裡往東南方的玖萊島下層，\n乘坐東邊的獨木舟前往雷納姆綠野，\n就會抵達名叫祈願旅店的建築物。\n<br>\n再從那裡繼續順著東南方的幹道走，\n就會抵達雷恩村，\n那是維迪族生活的村莊。\n<br>\n如果你還沒去過的話，\n建議去看看喔。"
   },
   "94137": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Hello there, traveler. I'm Eban, a penny-pinching\npeddler. Pleased to make your acquaintance.\n<br>\nMy job is to carry goods from Julet to various places\nwith this wagon. I'm going by Leen Village to the\nBeach Trading Post.\n<br>\nYou have any business in those areas? If you do, I can\ngive you a ride there.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -22,8 +24,9 @@
     "zh-Hant": "你好啊，旅行者。\n我是艾邦，是個普通的旅行商人，\n今後還請多多關照。\n<br>\n我的工作是駕著這輛馬車\n將玖萊特鎮的商品運送到各地。\n<br>\n接下來我會路過雷恩村，\n前往海邊交易所。\n<br>\n你有事要去那邊嗎？\n有需要的話我可以載你一程。<bw_break>"
   },
   "94138": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I'm on my way to the Beach Trading Post via\nthe Prayer Inn. If you want, I can give you a\nride.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -33,8 +36,9 @@
     "zh-Hant": "我等一下會路過祈願旅店，\n前往海邊交易所。\n<br>\n你有事要去那邊嗎？\n有需要的話我可以載你一程。<bw_break>"
   },
   "94142": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "But I can only drop you off, not pick you up.\nIf you don't mind, where would you like to go?\n<name_off><select>\nLane Village\nPrayer Inn (Lenam Fields)\nBeach Hut (King Ladis Island)\nBeach Trading Post (Verinard South)\nNo rides\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -44,8 +48,9 @@
     "zh-Hant": "不過我只能送你過去，沒辦法接你回來。\n如果能接受的話，你要去哪裡呢？\n<name_off><select>\n雷恩村\n祈願旅店（雷納姆綠野）\n海邊小屋（拉迪斯王島）\n海邊交易所（威里納德領土南部）\n不搭乘\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "94143": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Thank you very much. Well then, let's get\ngoing!",
     "es": "",
     "fr": "",
     "it": "",
@@ -55,8 +60,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>感謝惠顧，\n那我們就出發吧！"
   },
   "94144": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oh, well. You don't want to ride? Well, if you\nwant to ride, come back again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -66,8 +72,9 @@
     "zh-Hant": "哎呀，你不搭嗎？\n那麼，等你改變心意時再來吧。"
   },
   "94145": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Hey, guys! We've arrived at the Prayer Inn.\nNow, if you'll excuse me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -77,8 +84,9 @@
     "zh-Hant": "<pipipi_low>久等啦！\n已經抵達祈願旅店了。\n那我先告辭了。"
   },
   "94146": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Hey, guys! We have arrived at Lane Village.\nNow, if you'll excuse me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -88,8 +96,9 @@
     "zh-Hant": "<pipipi_low>久等啦！\n已經抵達雷恩村了。\n那我先告辭了。"
   },
   "94147": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oops, too bad. It seems we are short of money.\nCome back when you have more money.",
     "es": "",
     "fr": "",
     "it": "",
@@ -99,8 +108,9 @@
     "zh-Hant": "哎呀，真可惜，你的錢好像不夠喔。\n等你有錢時再來找我吧。"
   },
   "94148": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "You're going to <%sL_TIMEI>. 25 gold. Is that\nall right with you?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -110,8 +120,9 @@
     "zh-Hant": "你要去<%sL_TIMEI>對吧。\n費用是２５Ｇ，可以嗎？<yesno><break>"
   },
   "94149": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I see. Well, if you ever want to ride again,\ncome back and see me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -121,8 +132,9 @@
     "zh-Hant": "這樣啊。\n那麼，等你改變心意時再來吧。"
   },
   "116573": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Hey, Mr. Omatto! We've arrived at the beach\nhut. Now, if you'll excuse me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -132,8 +144,9 @@
     "zh-Hant": "<pipipi_low>久等啦！\n已經抵達海邊小屋了。\n那我先告辭了。"
   },
   "127401": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Hey there, guys! I've arrived at the Beach\nTrading Post. Now, if you'll excuse me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -143,8 +156,9 @@
     "zh-Hant": "<pipipi_low>久等啦！\n已經抵達海邊交易所了。\n那我先告辭了。"
   },
   "201111": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee! I heard that you guys have joined a play\nclub! I heard you joined a play club! So we're\ngadabout the same as me~! So, why don't you\n<br>\nget on my boat and take a ride to Gadabode?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -154,8 +168,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！兄弟我聽說了唷！\n你加入了玩樂俱樂部對吧～！\n那你就跟我一樣都是玩樂者了呢～！\n<br>\n那麼～要搭我的船，\n去遊樂屋玩嗎？<yesno><break>"
   },
   "201057": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well~ Sometimes you're in that kind\nof mood, right? Come again when the vibes get\naggravated!",
     "es": "",
     "fr": "",
     "it": "",
@@ -165,8 +180,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊哈哈～\n畢竟總是會有這種心情的時候啊！\n等你情緒高漲的時候再來喔！"
   },
   "201058": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!",
     "es": "",
     "fr": "",
     "it": "",
@@ -176,8 +192,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！回答得不錯！\n那我們就乘風破浪去吧！"
   },
   "201114": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee~! Where are your siblings? I thought you\nwent to the beach. Well, you want to take my\nboat to Gadabode?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -187,8 +204,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！兄弟怎麼啦？\n你不是去玩了嗎？\n……算了～要搭我的船到遊樂屋嗎？<yesno><break>"
   },
   "201115": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Ahahaha~. That's right, fun is more important!\nCome again if you want to take my boat!",
     "es": "",
     "fr": "",
     "it": "",
@@ -198,8 +216,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊哈哈～\n玩樂果然才是最重要的事情呢！\n如果想搭我的船，隨時都可以來唷！"
   },
   "201061": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!",
     "es": "",
     "fr": "",
     "it": "",
@@ -209,8 +228,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！回答得不錯！\n那我們就乘風破浪去吧！"
   },
   "201117": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee~! Siblings! You got a great view! You\nwant to get on my boat and go back to\nGadabode?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -220,8 +240,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！兄弟！\n獲得吸睛絕景了呢～！\n要搭我的船到遊樂屋嗎？<yesno><break>"
   },
   "201060": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well~ Sometimes you're in that kind\nof mood, right? Come again when the vibes get\naggravated!",
     "es": "",
     "fr": "",
     "it": "",
@@ -231,8 +252,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊哈哈～\n畢竟總是會有這種心情的時候啊！\n等你情緒高漲的時候再來喔！"
   },
   "201065": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!",
     "es": "",
     "fr": "",
     "it": "",
@@ -242,8 +264,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！回答得不錯！\n那我們就乘風破浪去吧！"
   },
   "201210": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee~! Siblings! I heard that you met Miyabi,\nthe queen of the bad pictures! So, you wanna\nget on my boat and go back to Gadabode?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -253,8 +276,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！兄弟！\n見到吸睛女王美雅了呢～！\n那麼，要搭我的船到遊樂屋嗎？<yesno><break>"
   },
   "201112": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well~ Sometimes you're in that kind\nof mood, right? Come again when the vibes get\naggravated!",
     "es": "",
     "fr": "",
     "it": "",
@@ -264,8 +288,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊哈哈～\n畢竟總是會有這種心情的時候啊！\n等你情緒高漲的時候再來喔！"
   },
   "201068": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!",
     "es": "",
     "fr": "",
     "it": "",
@@ -275,8 +300,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！回答得不錯！\n那我們就乘風破浪去吧！"
   },
   "201244": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee~! Siblings! What's that sweet smell? You\nwant to get on my boat and go back to\nGadabode?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -286,8 +312,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！兄弟！\n好像有什麼好甜～的香味啊～？\n要搭我的船回遊樂屋嗎？<yesno><break>"
   },
   "201118": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well~ Sometimes you're in that kind\nof mood, right? Come again when the vibes get\naggravated!",
     "es": "",
     "fr": "",
     "it": "",
@@ -297,8 +324,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊哈哈～\n畢竟總是會有這種心情的時候啊！\n等你情緒高漲的時候再來喔！"
   },
   "201113": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!",
     "es": "",
     "fr": "",
     "it": "",
@@ -308,8 +336,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！回答得不錯！\n那我們就乘風破浪去吧！"
   },
   "201273": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Hey, what's up? What's the matter? You don't\nlook so good, with your sissy face? Let's just\ngo to Gadabode, shall we?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -319,8 +348,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>耶～怎麼了？\n一臉無精打采的樣子，\n要去一趟遊樂屋嗎～？<yesno><break>"
   },
   "201274": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Ahahaha~! Well, I don't know what's going on,\nbut cheer up! Vibes, when you get aggravated,\ncome back again!",
     "es": "",
     "fr": "",
     "it": "",
@@ -330,8 +360,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>啊哈哈～\n畢竟總是會有這種心情的時候啊！\n等你情緒高漲的時候再來喔！"
   },
   "201116": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!",
     "es": "",
     "fr": "",
     "it": "",
@@ -341,8 +372,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！回答得不錯！\n那我們就乘風破浪去吧！"
   },
   "201338": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee~! Hero of gadabout! Today's waves are\ngreat too! Wanna get on my boat and go to\nGadabode?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -352,8 +384,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！玩樂者的英雄！\n今天的海浪感覺也很讚啊！\n要搭我的船到遊樂屋嗎？<yesno><break>"
   },
   "201339": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well, there are days when I'm in\nthat kind of mood! Come again when the vibes\nget aggravated!",
     "es": "",
     "fr": "",
     "it": "",
@@ -363,8 +396,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊哈哈～\n畢竟總是會有這種心情的時候啊！\n等你情緒高漲的時候再來喔！"
   },
   "201119": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!",
     "es": "",
     "fr": "",
     "it": "",
@@ -374,8 +408,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！回答得不錯！\n那我們就乘風破浪去吧！"
   },
   "201054": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I'm a free gadabout sailor who loves the waves\naround here! I'm friends with the head of the\nplay club! You know who that is? Play club!\n<br>\nIt's a cool club where gadabouts get together\nand have all kinds of fun! And they asked me\nto bring anyone who might want to join the\n<br>\nplay club... but I don't think I can bring you\nyet. I don't know... fun is kind of expensive,\nyou know? I know you don't seem to have a lot\n<br>\nof money, so I only invite people who seem to\nhave a certain amount of money to live on.\nYou're saying I shouldn't judge people by\n<br>\ntheir looks? No, no, looks are important in\ngadabout! That's our policy! Whee~! Well~ But\nyou're right~. If you reach level 50 in any of\n<br>\nthe other locations, you'll be able to live a\nmore comfortable life! So, in that case, I'll\nbe looking forward to seeing you again! Whee~!",
     "es": "",
     "fr": "",
     "it": "",
@@ -385,8 +420,9 @@
     "zh-Hant": "我是～在這附近～深愛著海浪～\n自由的～玩樂者船員船夫～！\n跟玩樂俱樂部的代表可是好兄弟呢～！\n<br>\n你知道嗎～？玩樂俱樂部！\n那邊聚集著玩樂者～一起開心地遊玩～\n總之是個超棒的俱樂部！\n<br>\n然後～我被拜託說～要是有看起來～\n想加入玩樂俱樂部的人～\n就要帶他進來～\n<br>\n……嗯～兄弟，看起來我現在\n還不能帶你加入的感覺呢～\n畢竟是玩樂呀～總是挺花錢的對吧？\n<br>\n不好意思啦，你看起來沒什麼錢～\n我只會邀請看起來生活充裕的人呢～\n<br>\n你說叫我不要用外表來判斷～？不是啦～\n玩樂者的外貌可是很重要的對吧！\n我可是有原則的人～！耶～！\n<br>\n不過呢～嗯～要是你有任一個職業～\n達到等級５０的話，\n一定生活充裕對吧！\n<br>\n到時候再來找我吧！耶～！"
   },
   "201055": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee~! Hey, guys! Today's wave is also nice!",
     "es": "",
     "fr": "",
     "it": "",
@@ -396,8 +432,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！兄弟！\n今天的海浪感覺也很讚啊！"
   },
   "201056": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr><icon_exc>Ah~! Could it be? Are you the kind of guy who\nwants to join a fun club? I'm a free gadabout\nsailor who loves the waves around here! I'm\n<br>\nfriends with the head of the fun club! And he\nasked me to bring anyone who might be\ninterested in joining the club to Gadabode on\n<br>\nmy boat.<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -407,8 +444,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr><icon_exc>耶～！莫非你是～！\n想加入玩樂俱樂部的人？\n<br>\n我啊～是在這附近～深愛著海浪～\n自由的～玩樂者船夫～！\n跟玩樂俱樂部的代表可是好兄弟呢～！\n<br>\n然後～我被拜託說～要是有看起來～\n想加入玩樂俱樂部的人～就要帶他進來～\n要搭我的船到遊樂屋嗎？<yesno><break>"
   },
   "201211": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well~ Sometimes you're in that kind\nof mood, right? Come again when the vibes get\naggravated!",
     "es": "",
     "fr": "",
     "it": "",
@@ -418,8 +456,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊哈哈～\n畢竟總是會有這種心情的時候啊！\n等你情緒高漲的時候再來喔！"
   },
   "201212": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!",
     "es": "",
     "fr": "",
     "it": "",
@@ -429,8 +468,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！回答得不錯！\n那我們就乘風破浪去吧！"
   },
   "201059": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee~! Hey, guys! Today's surf is great too!\nHow about we get on my boat and go to\nGadabode?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -440,8 +480,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！兄弟！\n今天的海浪感覺也很讚啊！\n要搭我的船到遊樂屋嗎？<yesno><break>"
   },
   "201245": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well~ Sometimes you're in that kind\nof mood, right? Come again when the vibes get\naggravated!",
     "es": "",
     "fr": "",
     "it": "",
@@ -451,8 +492,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊哈哈～\n畢竟總是會有這種心情的時候啊！\n等你情緒高漲的時候再來喔！"
   },
   "201246": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!",
     "es": "",
     "fr": "",
     "it": "",
@@ -462,8 +504,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！回答得不錯！\n那我們就乘風破浪去吧！"
   },
   "201062": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<%sEV_QUE_NAME0> dropped off a Cat Coconut! I\nhave collected <%nEV_QUE_T_NUM0> Cat Coconut!\n<pc> received Cat Coconut (Key Item)!",
     "es": "",
     "fr": "",
     "it": "",
@@ -473,8 +516,9 @@
     "zh-Hant": "<%sEV_QUE_NAME0>掉了貓椰子下來了！\n貓椰子收集完<%nEV_QUE_T_NUM0>個了！\n<br>\n<pc>獲得了貓椰子（重要物品）！\n交給遊樂屋的路奇吧。"
   },
   "201063": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee~! Siblings! What's that look on your face\nwhen you're done collecting? You wanna get on\nmy boat and go to Gadabode?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -484,8 +528,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！兄弟！\n看你的表情，你已經收集完了對吧～？\n要搭我的船到遊樂屋嗎？<yesno><break>"
   },
   "201064": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well, there are times when I'm in\nthat kind of mood! Come again when the vibes\nget aggravated!",
     "es": "",
     "fr": "",
     "it": "",
@@ -495,8 +540,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊哈哈～\n畢竟總是會有這種心情的時候啊！\n等你情緒高漲的時候再來喔！"
   },
   "201275": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!",
     "es": "",
     "fr": "",
     "it": "",
@@ -506,8 +552,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！回答得不錯！\n那我們就乘風破浪去吧！"
   },
   "201066": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee~! Siblings! Looks like Lucchie's been\nlooking for you! How about we get on my boat\nand go to Gadabode?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -517,8 +564,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！兄弟！\n路奇他正在找你的樣子！\n要搭我的船到遊樂屋嗎？<yesno><break>"
   },
   "201067": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Ahahaha~. Well, there are times when I'm in\nthat kind of mood! Come again when the vibes\nget aggravated!",
     "es": "",
     "fr": "",
     "it": "",
@@ -528,8 +576,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊哈哈～\n畢竟總是會有這種心情的時候啊！\n等你情緒高漲的時候再來喔！"
   },
   "201340": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whee! That's a good answer! Let's go for a\nride!",
     "es": "",
     "fr": "",
     "it": "",
@@ -539,8 +588,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>耶～！回答得不錯！\n那我們就乘風破浪去吧！"
   },
   "10228000": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "This is the ferry pier to King Ladis Island.\nThanks to the Queen's rule, it's free of\ncharge, but I'm sorry to say that it's closed\n<br>\nfor a bit now. Well, the Oar for rowing the\nferry has gone somewhere. We are waiting for a\nreplacement to arrive. I think it will take\n<br>\nsome time, so please come back later. Oh,\nthat's right. Have you been to Julet Town\nnorth of here yet? It's a good place to kill\n<br>\nsome time.",
     "es": "",
     "fr": "",
     "it": "",
@@ -550,8 +600,9 @@
     "zh-Hant": "這裡是前往拉迪斯王島的渡船碼頭，\n在女王陛下的統治之下，\n雖然可以免費搭船……\n<br>\n不過相當抱歉，目前暫時停業中，\n划船用的船槳搞丟了。\n<br>\n現在正在等替代的船槳送過來，\n可能會需要一點時間，\n麻煩你之後再來了。\n<br>\n喔喔，對了。北邊的玖萊特鎮\n你已經去過了嗎？\n那邊是個相當適合打發時間的地方喔。"
   },
   "35535": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I'm fixing Broken Oar's stuff. In the\nmeantime, would you go check on that little\ngirl, please, sir.",
     "es": "",
     "fr": "",
     "it": "",
@@ -561,8 +612,9 @@
     "zh-Hant": "我在修理折斷的船槳。\n<br>\n在這段期間，這位客人可以\n幫我去看看那個女孩的情況嗎？"
   },
   "35536": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Hey there. I just got Oar fixed. How was the\nlittle girl? Did she say she was going back to\ntown?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -572,8 +624,9 @@
     "zh-Hant": "嗨，客人。\n船槳終於修好了。\n<br>\n那女孩子情況如何啊？\n有沒有說過她想回鎮上？<yesno><break>"
   },
   "35537": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I see. If that's the case, it's all right.\nWell, thank you for your time. Let's go to\nKing Ladis Island this time.",
     "es": "",
     "fr": "",
     "it": "",
@@ -583,8 +636,9 @@
     "zh-Hant": "是這樣嗎？那就好。\n<br>\n哎呀，費了不少功夫。\n現在就出發去拉迪斯王島吧。"
   },
   "35538": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I see. Well, then, that's all right. After a\nwhile, they will go home on their own. Well,\nthank you for your time. Let's go to King\n<br>\nLadis Island this time.",
     "es": "",
     "fr": "",
     "it": "",

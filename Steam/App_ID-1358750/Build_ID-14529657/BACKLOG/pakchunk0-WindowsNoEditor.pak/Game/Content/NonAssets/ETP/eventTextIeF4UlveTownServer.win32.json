@@ -1,7 +1,8 @@
 {
   "200234": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oh, no, oh, no, oh, no. You need an\nEntry Permit to enter Urbea Empire\nCastle!",
     "es": "",
     "fr": "",
     "it": "",
@@ -11,8 +12,9 @@
     "zh-Hant": ""
   },
   "200236": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "This is a place of Divine Care Prayer.\nPlease be quiet.",
     "es": "",
     "fr": "",
     "it": "",
@@ -22,8 +24,9 @@
     "zh-Hant": ""
   },
   "200237": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I assume you are here to play\npogbattle with Father Uzza. I have an\ninteresting piece of information.\n<br>\nWhenever Father Uzza plays against a\nbeginner in a pogbattle, he always\nplays pogs in the same order. The\n<br>\nfirst pog he gives out is a copper\npog, I think.",
     "es": "",
     "fr": "",
     "it": "",
@@ -33,8 +36,9 @@
     "zh-Hant": ""
   },
   "200238": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "In Urbea Underground City, the Church\nis also a government office that\nhandles administrative matters. The\n<br>\npriest is like the mayor of the town.",
     "es": "",
     "fr": "",
     "it": "",
@@ -44,8 +48,9 @@
     "zh-Hant": ""
   },
   "200239": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Welcome, my fellow traveler. What can\nI do for you?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -55,8 +60,9 @@
     "zh-Hant": ""
   },
   "200240": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "If you have any trouble, come visit me\nanytime. Well then...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -66,8 +72,9 @@
     "zh-Hant": ""
   },
   "200241": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_one><end_attr><icon_exc>I see. So you were looking for someone\nwith knowledge of the affairs of this\ncountry and you found me. I am Father\n<br>\nUzza, but I am not a priest of the\nChurch. In reality, I am a passionate\npog butler! If you want to know more\n<br>\nabout the Urbea Underground City, you\nwill win me in the Urbeapogbattle!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -77,8 +84,9 @@
     "zh-Hant": ""
   },
   "200242": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_one><end_attr>I am a passionate pogbutler! If you\nwant to know more about the Urbea\nUnderground City, you can win me in\n<br>\nthe Urbeapogbattle!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -88,8 +96,9 @@
     "zh-Hant": ""
   },
   "200243": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Hmm? You are short of Urbeapog. Put\none each of gold, silver and bronze in\nyour item bag and call out to me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -99,8 +108,9 @@
     "zh-Hant": ""
   },
   "200244": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_one><end_attr>The rules of Urbeapogbattle are\nsimple.Players play one pog at a time\nagainst each other. A gold pog is\n<br>\nstronger than a silver pog. The silver\npog is strong against the copper pog.\nAnd the copper pog is strong against\n<br>\nthe gold pog! In this way, the winner\nis decided by the three pogs. From now\non, you must win all three of your\n<br>\ngames against me. A draw is not a\nvictory.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -110,8 +120,9 @@
     "zh-Hant": ""
   },
   "200245": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_one><end_attr>Now, Urbeapog 1st round go! Fyah!\n<select_nc>\nput out a gold pog\nProduce a silver pog\nProduce a bronze pog\nRules Explanation\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -121,8 +132,9 @@
     "zh-Hant": ""
   },
   "200246": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>Too bad. You lost when you played the\ngold pog against the copper pog I\nplayed.<se Joutyu_SE 35><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -132,8 +144,9 @@
     "zh-Hant": ""
   },
   "200247": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr><icon_exc>Brilliant. You won by hitting a silver\npog to my copper pog.<se System 7><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -143,8 +156,9 @@
     "zh-Hant": ""
   },
   "200248": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>Both sides produce a copper pog and\nit's a tie. A tie is not a victory.\nToo bad!<se Joutyu_SE 35><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -154,8 +168,9 @@
     "zh-Hant": ""
   },
   "200249": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "You're going to go over the rules one\nmore time, aren't you? That's a good\nattitude! The rules are what true\n<br>\nswordfighting is all about. The rules\nof pogbattle are simple.You play one\npog at a time and hit each other. The\n<br>\ngold pog is stronger than the silver\npog. The silver pog is strong against\nthe copper pog. And the copper pog is\n<br>\nstrong against the gold pog! In this\nway, the winner is decided by the\nthree pogs. From now on, you must win\n<br>\nall three of your games against me. A\ndraw is not a victory.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -165,8 +180,9 @@
     "zh-Hant": ""
   },
   "200250": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_one><end_attr>Now, Urbeapog 2nd round go! Fyah!\n<select_nc>\nput out a gold pog\nProduce a silver pog\nProduce a bronze pog\nRules Explanation\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -176,8 +192,9 @@
     "zh-Hant": ""
   },
   "200251": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>Both sides put out a golden pog, and\nit's a tie. A tie is not a victory.\nToo bad!<se Joutyu_SE 35><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -187,8 +204,9 @@
     "zh-Hant": ""
   },
   "200252": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>What a pity. You lost.<se Joutyu_SE 35><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -198,8 +216,9 @@
     "zh-Hant": ""
   },
   "200253": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr><icon_exc>Brilliant. You won by hitting a copper\npog to the gold pog that I had thrown\nout.<se System 7><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -209,8 +228,9 @@
     "zh-Hant": ""
   },
   "200254": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_one><end_attr>Whether you cry or laugh, the next one\nwill be your last. Last battle! Go!\nFight!\n<select_nc>\nput out a gold pog\nProduce a silver pog\nProduce a bronze pog\nRules Explanation\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -220,8 +240,9 @@
     "zh-Hant": ""
   },
   "200255": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr><icon_exc>Brilliant. You won by hitting a gold\npog to my silver pog.<me 71><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -231,8 +252,9 @@
     "zh-Hant": ""
   },
   "200256": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>Both sides roll out the silver pog,\nand it's a tie. A tie is not a\nvictory. Too bad!<se Joutyu_SE 35><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -242,8 +264,9 @@
     "zh-Hant": ""
   },
   "200257": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>Too bad. You lost. I made a silver\npog, and you made a bronze pog.<se Joutyu_SE 35><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -253,8 +276,9 @@
     "zh-Hant": ""
   },
   "200258": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Well done on winning three in a row!\nYou're pretty good, you know that?\nYou're like the Ja Kuba of old! Cough,\n<br>\ncough, forget I said that. Now, what\ndo you want to ask me?",
     "es": "",
     "fr": "",
     "it": "",
@@ -264,8 +288,9 @@
     "zh-Hant": ""
   },
   "200259": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>Want to tell me about Urbea\nUnderground City? Oh no! I'm not\ninterested in that! I can't find the\n<br>\nsilver Urbeapog! I'm sure it's\nsomewhere in this house.Or I'm sure\nthere's a silver Urbeapog somewhere in\n<br>\nthe house! Then we'll talk about it!",
     "es": "",
     "fr": "",
     "it": "",
@@ -275,8 +300,9 @@
     "zh-Hant": ""
   },
   "200260": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Hohoho! Well done, my friend!It seems\nthat you have been completely swept up\nin the atmosphere of the Imperial\n<br>\nCity, haven't you? Well, that's\nunderstandable. The universal floating\nchairs that come and go, the highways,\n<br>\nthe comfortable air-conditioning, the\nclean water supply. Especially since\nPrime Minister Guryan Rush started\n<br>\nutilizing geo-energy, life has become\nmore convenient and comfortable. I'm\ngoing to take a sightseeing flight in\n<br>\na large anti-gravity flying machine,\nand I'm going to do Oar with a pog.\nIt's a luxury reserved for the upper\n<br>\nclass. If Father Uzza hears about my\nall-night pog, he will give me a long\nlecture, and it will be troublesome.\n<br>\nI'll keep this between you and me!",
     "es": "",
     "fr": "",
     "it": "",
@@ -286,8 +312,9 @@
     "zh-Hant": ""
   },
   "200261": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "The universal floating chairs that\ncome and go, the highways, the\ncomfortable air conditioning, the\n<br>\nclean water supply. Especially since\nPrime Minister Guryan Rush started to\nutilize geo-energy, every aspect of\n<br>\nlife has become convenient and\ncomfortable. I'm going to take a\nsightseeing flight in a large anti-\n<br>\ngravity flying machine, and I'm going\nto do Oar with a pog. It's a luxury\nreserved for the upper class. If\n<br>\nFather Uzza hears about my all-night\npog, he will give me a long lecture,\nand it will be troublesome. I'll keep\n<br>\nthis between you and me!",
     "es": "",
     "fr": "",
     "it": "",
@@ -297,8 +324,9 @@
     "zh-Hant": ""
   },
   "200262": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Oh my! Oh my goodness! Take me on a\ntrip with you <heart>",
     "es": "",
     "fr": "",
     "it": "",
@@ -308,8 +336,9 @@
     "zh-Hant": ""
   },
   "200263": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_one><end_attr>This is Luxury Jewelry Shop. Rare ores\nfrom selected mines are processed one\nby one by Juei Laer's hand. Our\n<br>\nproducts are sold only to the wealthy\npeople of Urbea, so we are sorry, but\nwe ask our customers to leave as soon\n<br>\nas possible.",
     "es": "",
     "fr": "",
     "it": "",
@@ -319,8 +348,9 @@
     "zh-Hant": ""
   },
   "200264": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Hey, hey, hey. Is that junk coming\nsoon?",
     "es": "",
     "fr": "",
     "it": "",
@@ -330,8 +360,9 @@
     "zh-Hant": ""
   },
   "200265": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>To support my wife and six children, I\nwork from morning to night in an oil\nrefinery, and the only thing I enjoy\n<br>\nin life is Urbeapog.",
     "es": "",
     "fr": "",
     "it": "",
@@ -341,8 +372,9 @@
     "zh-Hant": ""
   },
   "200266": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Mwah. What about you? You want to tell\nme about Urbea Underground City? Yes,\nthat's not the point! To support my\n<br>\nwife and 6 children, I work from\nmorning till night in a refinery, and\nthe only thing I enjoy in life is\n<br>\nUrbeapog! But when I buy a rare pog at\na high price, what do I get? But when\nI bought a rare pog at a high price,\n<br>\nit was stolen by Guaardvark! I'm so\ndisappointed! I hope someone can\ndefeat him in Gatara Mountain Forest\n<br>\nand bring back the pog.",
     "es": "",
     "fr": "",
     "it": "",
@@ -352,8 +384,9 @@
     "zh-Hant": ""
   },
   "200267": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I bought a rare pog for a great price,\nand lo and behold, it was stolen by\nGuaardvark! Guaardvark stole it from\n<br>\nme! I'm so disappointed! I wonder if\nsomeone can defeat him in Gatara\nMountain Forest and get the pog back.",
     "es": "",
     "fr": "",
     "it": "",
@@ -363,8 +396,9 @@
     "zh-Hant": ""
   },
   "200268": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>What's this? The Convex Urbea Pog that\nhe stole! You got it back? Thank you!\nThe gizzard-rimmed pog was issued for\n<br>\none year only, and is a very rare\ncollector's item. There are often\ncounterfeit ones out there. Father\n<br>\nUzza catches anyone who makes a false\npog and lectures them, but I wish\nthere would be a more proper law. I'm\n<br>\nsure Guryan Rush will do it, right?\nHe's Princess Ulta's guardian, but\nhe's the one who really controls the\n<br>\nempire. We can't expect anything from\na recluse like the princess. It's our\nGuryan Rush!",
     "es": "",
     "fr": "",
     "it": "",
@@ -374,8 +408,9 @@
     "zh-Hant": ""
   },
   "200269": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Father Uzza catches anyone who makes a\nfalse pog and lectures them, but I\nwish he would make a better law.\n<br>\nGuryan Rush would do it, wouldn't he?\nHe's Princess Ulta's guardian, but\nhe's the one who really controls the\n<br>\nempire. We can't expect anything from\na recluse like the princess. It's our\nGuryan Rush!",
     "es": "",
     "fr": "",
     "it": "",
@@ -385,8 +420,9 @@
     "zh-Hant": ""
   },
   "200270": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed. Hmmm...\nHmmm... NARUHODO. There is a\npossibility that additional\n<br>\ninformation may be obtained from pog\nlovers who exist on a different level.\nLet's try to find more pog lovers!",
     "es": "",
     "fr": "",
     "it": "",
@@ -396,8 +432,9 @@
     "zh-Hant": ""
   },
   "200271": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed. Hm-hm-hm,\nI see. 3 pog lovers' information is\nintegrated. Analyzing. Please wait.\n<br>\nThe person that the three of you have\ntalked about in common.I've determined\nthat the most influential person with\n<br>\nextensive connections and access to\ninformation is Father Uzza. Let's go\nto the Church in the middle of the\n<br>\ncapital!",
     "es": "",
     "fr": "",
     "it": "",
@@ -407,8 +444,9 @@
     "zh-Hant": ""
   },
   "200272": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<se_nots S4_FOR7_001 0><pipipi_mid>If you fail to pass, you will be\nreported to the police. In order to\ngain an audience with Princess Ulta,\n<br>\nit is imperative that we obtain an\nEntry Permit. In order to obtain an\nEntry Permit, it is necessary to find\n<br>\na powerful person with a wide network\nof contacts and access to information.\nUrbeapog is very popular in the\n<br>\ncapital.The most important people who\nare well-connected and well-informed\nare likely to be pog lovers. Urbeapog\n<br>\nis a disk-shaped piece of metal made\nof gold, silver, and copper, different\nfrom ordinary paper pog. It is very\n<br>\npopular among pog lovers in the\nImperial City. Let's look for pog\nlovers in the Imperial Capital!",
     "es": "",
     "fr": "",
     "it": "",
@@ -418,8 +456,9 @@
     "zh-Hant": ""
   },
   "200274": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><se_nots S4_FOR7_001 0><pipipi_mid><end_attr>Information gathering in the Imperial\nCapital is complete. I have obtained\nmany results. Thank you very much.\n<br>\nPrincess Ulta hates people. It's going\nto take a lot of effort to gain her\ntrust. The source of information for\n<br>\nthe Entry Permit is Princess Ulta's\ndemon machine. I'll search around the\nplaza!",
     "es": "",
     "fr": "",
     "it": "",
@@ -429,8 +468,9 @@
     "zh-Hant": ""
   },
   "200275": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed. Hmmm...\nHmmm... NARUHODO. There is a\npossibility that additional\n<br>\ninformation may be obtained from pog\nlovers who exist on a different level.\nLet's try to find more pog lovers!",
     "es": "",
     "fr": "",
     "it": "",
@@ -440,8 +480,9 @@
     "zh-Hant": ""
   },
   "200276": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed. Hm-hm-hm,\nI see. The information of the three\npeople who obtained it in exchange for\n<br>\npog has been integrated. Please wait\nwhile we analyze. The person that the\nthree of them talked about in\n<br>\ncommon.The one who is well-connected\nand well-informed is identified as\nFather Uzza. Let's go to the Church in\n<br>\nthe middle of the capital!",
     "es": "",
     "fr": "",
     "it": "",
@@ -451,8 +492,9 @@
     "zh-Hant": ""
   },
   "200277": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed. Hmmm...\nHmmm... NARUHODO. There is a\npossibility that additional\n<br>\ninformation may be obtained from pog\nlovers who exist on a different level.\nLet's try to find more pog lovers!",
     "es": "",
     "fr": "",
     "it": "",
@@ -462,8 +504,9 @@
     "zh-Hant": ""
   },
   "200278": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<se_nots S4_FOR7_001 0><pipipi_mid>Information input completed. Hm-hm-hm,\nI see. The information of the three\npeople who obtained it in exchange for\n<br>\npog has been integrated. Please wait\nwhile we analyze. The person that the\nthree of them talked about in\n<br>\ncommon.The one who is well-connected\nand well-informed is identified as\nFather Uzza. Let's go to the Church in\n<br>\nthe middle of the capital!",
     "es": "",
     "fr": "",
     "it": "",
@@ -473,8 +516,9 @@
     "zh-Hant": ""
   },
   "200279": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>In Urbea, as an adult you can get a\nlicense for the universal levitation\nchair. The underground empire is so\n<br>\nbig, but since access to anti-gravity\nequipment is restricted, I can't even\ngo shopping without one.",
     "es": "",
     "fr": "",
     "it": "",
@@ -484,8 +528,9 @@
     "zh-Hant": ""
   },
   "200280": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Hehe pog pog. A little work and you\ncan sell them for a lot. Stupid\nUrbeans, it's a small business!",
     "es": "",
     "fr": "",
     "it": "",
@@ -495,8 +540,9 @@
     "zh-Hant": ""
   },
   "200281": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I own several houses on the lower\nlevel, and this is one of the houses I\nrent out. I have to stock up for my\n<br>\nold age.",
     "es": "",
     "fr": "",
     "it": "",
@@ -506,8 +552,9 @@
     "zh-Hant": ""
   },
   "200282": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>I finally got my license after the 5th\nretest! I am now a member of the adult\ncompanion. I used to be a bit of a\n<br>\nrascal. It was my sweet summer when I\nbought a universal floating chair and\ndrove off without a license.",
     "es": "",
     "fr": "",
     "it": "",
@@ -517,8 +564,9 @@
     "zh-Hant": ""
   },
   "200283": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Here, here, here. The lower you go in\nUrbea Underground City, the more dirty\nair tends to accumulate. It used to be\n<br>\nworse, but His Majesty Ja Kuba and\nGuryan Rush took measures and it's\nmuch better now.",
     "es": "",
     "fr": "",
     "it": "",
@@ -528,8 +576,9 @@
     "zh-Hant": ""
   },
   "200284": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Most of the people hanging around the\nback alley are Gateria refugees who\nfled their hometowns or the\n<br>\nbattlefields. Well, I'm one of them.\nI'm just scraping by, fixing up junk\nthat the Urbeans throw away. I'm\n<br>\nmiserable, but I'll do anything to\nsurvive.",
     "es": "",
     "fr": "",
     "it": "",
@@ -539,8 +588,9 @@
     "zh-Hant": ""
   },
   "200285": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>I can't wait to see how the junk's\nmaze beam makes me feel!",
     "es": "",
     "fr": "",
     "it": "",
@@ -550,8 +600,9 @@
     "zh-Hant": ""
   },
   "200286": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>There is a vast city spreading\nendlessly beneath the Gatara Mountain\nForest! Recently, a large housing area\n<br>\nhas been built at the base of the\nvolcano. How does it feel to sleep\nnext to Magma Blast?",
     "es": "",
     "fr": "",
     "it": "",
@@ -561,8 +612,9 @@
     "zh-Hant": ""
   },
   "200287": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "This machine is Aztech Support Mech\nNo. 022. The administrator of this\nmachine is waiting for the purchase of\n<br>\ngood quality mud and plans to return\nto the Aristocratic District. The\nreason why the administrator of this\n<br>\nmachine purchased mud is that covering\nthe whole body with mud will increase\nthe beauty moisturizing effect and\n<br>\nimprove the level of self-\nsatisfaction.",
     "es": "",
     "fr": "",
     "it": "",
@@ -572,8 +624,9 @@
     "zh-Hant": ""
   },
   "200288": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Welcome to Urbea Underground City. We\nwelcome you, travelers. This is the\nimperial capital of the vast\n<br>\nunderground empire.It is divided into\nthree levels: the lower level, the\nmiddle level and the upper level.",
     "es": "",
     "fr": "",
     "it": "",
@@ -583,8 +636,9 @@
     "zh-Hant": ""
   },
   "200289": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "There is no abnormality in the middle\nlevel! Urbea's castle gate exists here\nin the capital. Security has been\n<br>\nstrengthened in other areas.",
     "es": "",
     "fr": "",
     "it": "",
@@ -594,8 +648,9 @@
     "zh-Hant": ""
   },
   "200290": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Lower level patrol is on alert. We\nhave confirmed an influx of refugees\nin this level. Please do not approach\n<br>\nthe back alley.",
     "es": "",
     "fr": "",
     "it": "",
@@ -605,8 +660,9 @@
     "zh-Hant": ""
   },
   "200291": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "There is nothing wrong with the upper\nlevel. There are many wealthy people\nliving in this level. We have a\n<br>\nrequest to patrol carefully.",
     "es": "",
     "fr": "",
     "it": "",
@@ -616,8 +672,9 @@
     "zh-Hant": ""
   },
   "200292": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>We are a royal tailor.I have orders\ndirectly from Guryan Rush! The\ncharismatic man of the empire is a\n<br>\nwalking advertisement tower, so we've\nbeen inundated with orders and we're\nswamped. I'm sorry for the general\n<br>\npublic.",
     "es": "",
     "fr": "",
     "it": "",
@@ -627,8 +684,9 @@
     "zh-Hant": ""
   },
   "200294": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> gave Tsutebaku one Urbea\nCopper Coin!",
     "es": "",
     "fr": "",
     "it": "",
@@ -638,8 +696,9 @@
     "zh-Hant": ""
   },
   "200296": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received a copper\nUrbeapog!<se_nots System 7>",
     "es": "",
     "fr": "",
     "it": "",
@@ -649,8 +708,9 @@
     "zh-Hant": ""
   },
   "200297": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received a silver\nUrbeapog!<se_nots System 7>",
     "es": "",
     "fr": "",
     "it": "",
@@ -660,8 +720,9 @@
     "zh-Hant": ""
   },
   "200298": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received a gold\nUrbeapog!<se_nots System 7>",
     "es": "",
     "fr": "",
     "it": "",
@@ -671,8 +732,9 @@
     "zh-Hant": ""
   },
   "200299": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received a set of pogues\ntarta!<se_nots System 7>",
     "es": "",
     "fr": "",
     "it": "",
@@ -682,8 +744,9 @@
     "zh-Hant": ""
   },
   "200301": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> gave Fufumama one Urbea\nSilver Coin!",
     "es": "",
     "fr": "",
     "it": "",
@@ -693,8 +756,9 @@
     "zh-Hant": ""
   },
   "200303": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you give Convex Urbea Pog to\nQuack?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -704,8 +768,9 @@
     "zh-Hant": ""
   },
   "200304": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> gave Quack a Convex\nUrbea Pog!",
     "es": "",
     "fr": "",
     "it": "",
@@ -715,8 +780,9 @@
     "zh-Hant": ""
   },
   "200305": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Terrible giants appeared and burned\nGateria. Even those who survived were\nhunted down by the demon soldiers and\n<br>\ndied jumping into the sea and lava. I\nescaped from Gateria with my sister\nand found myself here. I don't want to\n<br>\ngo through that again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -726,8 +792,9 @@
     "zh-Hant": ""
   },
   "200306": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I came to the Imperial City for the\nfirst time because Anchan got a wife\nfrom the city, but I got dizzy in the\n<br>\nmiddle of nowhere! I can't keep up\nwith Peid in the city. I'd be better\noff living in Ezesol making salt.",
     "es": "",
     "fr": "",
     "it": "",
@@ -737,8 +804,9 @@
     "zh-Hant": ""
   },
   "200307": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Don't beat yourself. I didn't do\nanything wrong.",
     "es": "",
     "fr": "",
     "it": "",
@@ -748,8 +816,9 @@
     "zh-Hant": ""
   },
   "200308": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Having destroyed Gateria, the Urbea\nUnderground City has finally gained\ncontrol of almost all of the Dwachakka\n<br>\nContinent. The small nation of Dolworm\nremains in the Goble Desert, but it\nbelongs to neither Gateria nor Urbea,\n<br>\nand it lives in hiding, its entire\ncastle buried in the sand. It's only a\nmatter of time before Urbea unifies\n<br>\nthe world. Ha-ha-ha.",
     "es": "",
     "fr": "",
     "it": "",
@@ -759,8 +828,9 @@
     "zh-Hant": ""
   },
   "200309": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Have you heard of Urbeapog?It's all\nthe rage here in the capital.",
     "es": "",
     "fr": "",
     "it": "",
@@ -770,8 +840,9 @@
     "zh-Hant": ""
   },
   "200310": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Ah. You're an aboriginal, aren't you?\nShall I kindly tell you a little bit\nabout Urbea? But..! No free stuff!\n<br>\nI'll teach you if you give me one\ncopper Urbeapog.",
     "es": "",
     "fr": "",
     "it": "",
@@ -781,8 +852,9 @@
     "zh-Hant": ""
   },
   "200311": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Woohoo! Thanks a lot! I've been really\ninto Urbeapog lately, but my allowance\nis really tight. Heh heh heh. I'll\n<br>\ntell you about Urbea as promised! The\none thing that can't be said enough\nabout this country is its former\n<br>\nemperor, His Majesty Ja Kuba! You can\nsee the beautiful streets of Urbea,\nwhich were built by his majesty. He\n<br>\nthought of us all and wanted us to\nlive in prosperity and peace! We all\nloved him so much. But because of\n<br>\nGateria... I can't forgive them!\nGuryan Rush destroyed Gateria and took\nHis Majesty's place. I guess justice\n<br>\nwill prevail in the end! That's all\nfor the aborigines! Okay, now that we\nhave Urbeapog, let's challenge Father\n<br>\nUzza to a game of pog!",
     "es": "",
     "fr": "",
     "it": "",
@@ -792,8 +864,9 @@
     "zh-Hant": ""
   },
   "200312": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "This town was built by His Majesty Ja\nKuba, the former emperor, for everyone\nto live in prosperity and peace\n<br>\nforever! We all loved His Majesty. But\nbecause of Gateria, His Majesty... I\ncan't forgive them! Guryan Rush\n<br>\ndestroyed Gateria and took His\nMajesty's place. I guess justice will\nprevail in the end! That's all for\n<br>\nnow! Now that we have Urbeapog, let's\nchallenge Father Uzza to a game of\npog!",
     "es": "",
     "fr": "",
     "it": "",
@@ -803,8 +876,9 @@
     "zh-Hant": ""
   },
   "200313": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Hmmm.I doubt if there is any other\ncountry in the world as prosperous as\nUrbea Underground City!",
     "es": "",
     "fr": "",
     "it": "",
@@ -814,8 +888,9 @@
     "zh-Hant": ""
   },
   "200314": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Heh, you came well. I'll sell you what\nyou want.\n<select>\nCopper Urbeapog\nSilver Urbeapog\nGold Urbeapog\npogstarta set\nQuit\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -825,8 +900,9 @@
     "zh-Hant": ""
   },
   "200315": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Is there anything else you want?\n<select>\nCopper Urbeapog\nSilver Urbeapog\nGold Urbeapog\npogstarta set\nQuit\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -836,8 +912,9 @@
     "zh-Hant": ""
   },
   "200316": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>One copper Urbeapog costs 120 gold.\nWould you like to buy one?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -847,8 +924,9 @@
     "zh-Hant": ""
   },
   "200317": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Heh heh. Here you go.",
     "es": "",
     "fr": "",
     "it": "",
@@ -858,8 +936,9 @@
     "zh-Hant": ""
   },
   "200318": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>One silver Urbeapog costs 600 gold.\nWould you like to buy one?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -869,8 +948,9 @@
     "zh-Hant": ""
   },
   "200319": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Heh heh. Here you go.",
     "es": "",
     "fr": "",
     "it": "",
@@ -880,8 +960,9 @@
     "zh-Hant": ""
   },
   "200320": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>One gold Urbeapog costs 2400 gold.\nWould you like to buy one?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -891,8 +972,9 @@
     "zh-Hant": ""
   },
   "200321": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Heh heh. Here you go.",
     "es": "",
     "fr": "",
     "it": "",
@@ -902,8 +984,9 @@
     "zh-Hant": ""
   },
   "200322": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>The pogstarta set contains one gold,\none silver, and one bronze for 3,000\ngold. That's a bargain. Want to buy\n<br>\none?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -913,8 +996,9 @@
     "zh-Hant": ""
   },
   "200323": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Heh heh. Here you go.",
     "es": "",
     "fr": "",
     "it": "",
@@ -924,8 +1008,9 @@
     "zh-Hant": ""
   },
   "200324": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Oops, not enough money to buy that\none.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -935,8 +1020,9 @@
     "zh-Hant": ""
   },
   "200325": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Oops, looks like I can't hold it any\nlonger. Come back and buy some more\nafter you've sorted it out.",
     "es": "",
     "fr": "",
     "it": "",
@@ -946,8 +1032,9 @@
     "zh-Hant": ""
   },
   "200326": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>It is a pog lover's custom to have a\ncopy of each type of pog, just in case\nsomething happens. Please come again\n<br>\nanytime.",
     "es": "",
     "fr": "",
     "it": "",
@@ -957,8 +1044,9 @@
     "zh-Hant": ""
   },
   "200327": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>I went on a trip around the five\ncontinents the other day, and I have\nto say, I found the Ogreed Continent\n<br>\nto be a very barbaric place! The\nfashion is wild and full of animal\nskins, without a shred of ingenuity!\n<br>\nIs it a shame to live in Kunai? How\nbeautiful and refined our Urbea\ncivilization is! Dwarfs have won\n<br>\nagain.",
     "es": "",
     "fr": "",
     "it": "",
@@ -968,8 +1056,9 @@
     "zh-Hant": ""
   },
   "200328": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Look at the breathtaking scenery\nspread out below you! Even if\nthousands of years pass, this splendor\n<br>\nwill be remembered forever.",
     "es": "",
     "fr": "",
     "it": "",
@@ -979,8 +1068,9 @@
     "zh-Hant": ""
   },
   "200329": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>This area is a residential area, and\nat certain times of the day, the main\nstreet is crowded with commuters in\n<br>\ntheir all-purpose floating chairs. I\nhate living in the city. But I want to\nbuy a high-rise house for my frail\n<br>\nwife, so I'll do my best.",
     "es": "",
     "fr": "",
     "it": "",
@@ -990,8 +1080,9 @@
     "zh-Hant": ""
   },
   "200330": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Oh, please don't talk to me. I'm your\nwife's caretaker. I'm just a stone's\nthrow away.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1001,8 +1092,9 @@
     "zh-Hant": ""
   },
   "200331": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Woohoo! Oh, my dear Chaicha! You look\nbeautiful today <heart>!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1012,8 +1104,9 @@
     "zh-Hant": ""
   },
   "200332": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Because the upper and middle class\npeople litter the alleyway with their\nunwanted stuff, Gateria refugees have\n<br>\ntaken up residence there. I feel bad\nevery time I pass by them.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1023,8 +1116,9 @@
     "zh-Hant": ""
   },
   "200333": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oh, no, oh, no, oh, no. You need an\nEntry Permit to enter Urbea Empire\nCastle!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1034,8 +1128,9 @@
     "zh-Hant": ""
   },
   "200334": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Deha dori tte yoshi!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1045,8 +1140,9 @@
     "zh-Hant": ""
   },
   "200335": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Permission granted. Coming through!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1056,8 +1152,9 @@
     "zh-Hant": ""
   },
   "200336": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>You know, my dad says that because the\nprincess is a junk, Marich is a junk\ntoo!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1067,8 +1164,9 @@
     "zh-Hant": ""
   },
   "200337": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>The beam was fun! I want to play with\nMarich again!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1078,8 +1176,9 @@
     "zh-Hant": ""
   },
   "200338": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Entry Permit was recovered for\n<pc> by Aztech Guard No. 054!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1089,8 +1188,9 @@
     "zh-Hant": ""
   },
   "200339": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_one><end_attr>I can still see it flickering in front\nof my eyes. I'm going to file a\ncomplaint with the castle the next\n<br>\ntime that demonic machine comes!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1100,8 +1200,9 @@
     "zh-Hant": ""
   },
   "200340": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I don't know why, but it seems that\nthe Princess's Demon Goddess machine\nis not equipped with a language\n<br>\nfunction. Even security guards can\nspeak nowadays.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1111,8 +1212,9 @@
     "zh-Hant": ""
   },
   "200341": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I wonder if the Princess is still\nlooking for someone. Why don't you\nhelp busy Guryan Rush-sama instead of\n<br>\nplaying with your magical machine\nforever?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1122,8 +1224,9 @@
     "zh-Hant": ""
   },
   "200342": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "We are a royal tailor. I get orders\ndirectly from that Guryan Rush! Guryan\nRush is a human. The tailor in Urbea\n<br>\ncould only make clothes for Dwarfs, so\nhe was in a lot of trouble. That's why\nhe asked me, a returnee from\n<br>\nLendersia, to help him out. I remember\nin my sweet summer days how many times\nI had to re-tailor the clothes for the\n<br>\nfashionable Guryan Rush. Even now, I\ndeliver one dress every month!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1133,8 +1236,9 @@
     "zh-Hant": ""
   },
   "200343": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>The other day, I went on a trip around\nthe five continents, and I felt that\nthe Wena Islands are a very tactless\n<br>\nplace! Well, not so much the land, but\nmostly the sea! The women grilling\nfish on the beach are disgusting, and\n<br>\nthe men wandering around naked is\ndisgusting. I am disgusted by the\nbeauty and sophistication of our Urbea\n<br>\ncivilization. Dwarfs have won again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1144,8 +1248,9 @@
     "zh-Hant": ""
   },
   "200344": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Princess Ulta has asked for your help\nin helping the Gateria refugees. As\nthe Church, we cannot overlook the\n<br>\nharsh conditions they are facing in\nthe lower back alley. Of course, we\nwould like to help.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1155,8 +1260,9 @@
     "zh-Hant": ""
   },
   "200345": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "It is my duty to save the lost and\nspread the Urbeapog, no matter who\ngoverns the empire. Now...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1166,8 +1272,9 @@
     "zh-Hant": ""
   },
   "200346": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>I heard that after the death of Guryan\nRush, there is a move to regulate geo-\nenergy. It's a terrible thing! I just\n<br>\nhate to think of living without the\nuniversal floating chair and air\nconditioning. I am against the\n<br>\nregulation!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1177,8 +1284,9 @@
     "zh-Hant": ""
   },
   "200347": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>My dad said that Princess Ulta is\nworking hard behind the scenes, so\nMarich is busy behind the scenes too!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1188,8 +1296,9 @@
     "zh-Hant": ""
   },
   "200348": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Because of Guryan Rush, Urbea has\ndestroyed innocent Gateria. The people\nof Urbea are all pacifists. Princess\n<br>\nUlta is doing her best to save the\npoor Gateria refugees and prisoners.\nShe is our Princess Ulta after all!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1199,8 +1308,9 @@
     "zh-Hant": ""
   },
   "200349": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>The Princess has sent word to the\npeople and told them the truth about\nthe emperor's assassination. Guryan\n<br>\nRush is such a horrible man! He\nassassinated His Majesty Ja Kuba,\nblamed the Prince of Gateria, took\n<br>\nover the empire, and did such a\nterrible thing. He's a monster! I\ncan't think of anything else.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1210,8 +1320,9 @@
     "zh-Hant": ""
   },
   "200350": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Guryan Rush, you son of a bitch! My\ndaughter was burned by Urbea Colossus.\nEven after he's dead, I'm still pissed\n<br>\noff. I'm going to work on my hehepog\nand take it out of the stupid Urbea\npeople's pockets!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1221,8 +1332,9 @@
     "zh-Hant": ""
   },
   "200351": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Guryan Rush has got us all fooled. We\nwho respected him look like fools,\ndon't we? I heard that the princess\n<br>\ntook him down. He's not much older\nthan me. I'm starting to like you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1232,8 +1344,9 @@
     "zh-Hant": ""
   },
   "200352": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Here, here, here. The lower you go in\nUrbea Underground City, the more dirty\nair tends to accumulate. It used to be\n<br>\nworse, but His Majesty Ja Kuba and\nGuryan Rush took countermeasures and\nit's much better now. So, even though\n<br>\nI know the truth, I don't think Guryan\nRush is a very bad person.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1243,8 +1356,9 @@
     "zh-Hant": ""
   },
   "200353": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Guryan Rush's death won't change\nanything. We'll still be snobs, and\nwe'll still have to pick up trash to\n<br>\nsurvive. My brother wrote me a letter\nsaying he was going to be a soldier\nagainst Urbea, and that was it. I'm\n<br>\nsure he's already in the other world.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1254,8 +1368,9 @@
     "zh-Hant": ""
   },
   "200354": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Do you want to play behind me? Then\nyou might meet Marich!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1265,8 +1380,9 @@
     "zh-Hant": ""
   },
   "200355": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>Guryan Rush was a monster! I see. They\ncan do such diabolical things without\na care in the world, can't they? We\n<br>\nwere all deceived by the monster,\nweren't we? I was against the war with\nGateria from the very beginning.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1276,8 +1392,9 @@
     "zh-Hant": ""
   },
   "200356": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "This machine is Aztech Support Mech\nNo. 022. The administrator of this\nmachine is waiting for the purchase of\n<br>\na good quality Druserin and plans to\nreturn to the Aristocratic District.\nThe reason why the administrator of\n<br>\nthis machine purchases Dorcerin is\nthat there is a trend toward the\nregulation of geo-politics. In\n<br>\nanticipation of high demand for\nDorserin, they purchased this machine.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1287,8 +1404,9 @@
     "zh-Hant": ""
   },
   "200358": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Terrible giants appeared and burned\nGateria. Even those who survived were\nhunted down by demon soldiers and died\n<br>\njumping into the sea or lava. I've\nfled Gateria with my sister, but I\ncan't stand such a city full of false\n<br>\ngood guys. I'm going to leave for\nsomewhere far away.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1298,8 +1416,9 @@
     "zh-Hant": ""
   },
   "200359": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I came to the Imperial City for the\nfirst time to get a wife from the\ncity, but I got dizzy in the middle of\n<br>\nnowhere! And what's more, a very\nimportant person defeated a very\nimportant person? Wow, this is a very\n<br>\ndangerous world. I can't keep up with\nthe city peids. Living in Ezesol\nmaking salt would be better suited for\n<br>\nme.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1309,8 +1428,9 @@
     "zh-Hant": ""
   },
   "200360": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>People in town have been a little\nnicer to me lately. Did something good\nhappen?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1320,8 +1440,9 @@
     "zh-Hant": ""
   },
   "200361": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Having destroyed Gateria, the Urbea\nUnderground City has finally gained\ncontrol of almost all of the Dwachakka\n<br>\nContinent. The small nation of Dolworm\nremains in the Goble Desert, but it\nbelongs to neither Gateria nor Urbea,\n<br>\nand it lives in hiding, its entire\ncastle buried in the sand. It was only\na matter of time before Urbea would\n<br>\nhave united the country, but now that\nGuryan Rush is gone, it's only a\nmatter of time.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1331,8 +1452,9 @@
     "zh-Hant": ""
   },
   "200362": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "The person who assassinated His\nMajesty Ja Kuba was Guryan Rush! I\nheard he was a bad monster! Prince\n<br>\nByan wasn't so bad! It's a good thing\nthat Gateria didn't perish too! Damn\nmonsters! Fight in the pogbattle!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1342,8 +1464,9 @@
     "zh-Hant": ""
   },
   "200363": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Princess Ulta is really talented,\nisn't she? She was the first to\nrealize Guryan Rush's true nature and\n<br>\ncondemned him with her own hands,\nwasn't she? Her acting a little\nstrange, like hiding out and looking\n<br>\nfor someone, was all an act. In fact,\nit seems he was looking for an\nopportunity to strike back!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1353,8 +1476,9 @@
     "zh-Hant": ""
   },
   "200364": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>The other day I went on a trip around\nthe five continents, and I found\nEltona Continent to be a very insular\n<br>\nplace! When you go into a room, you're\ntold to take off your shoes, and when\nyou go into the woods, you're told to\n<br>\nwash and cleanse yourself, as if Dwarf\nwere a mud sling! How beautiful and\nrefined we Urbea civilization are!\n<br>\nDwarf has won again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1364,8 +1488,9 @@
     "zh-Hant": ""
   },
   "200365": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Look at the breathtaking scenery\nspread out below you! Thousands of\nyears may pass, but the glory of this\n<br>\nplace will be remembered forever. Yes,\nwith the name of His Majesty the\npeace-loving Ja Kuba and his beloved\n<br>\ndaughter Princess Ulta! I don't know\nanything about Guru.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1375,8 +1500,9 @@
     "zh-Hant": ""
   },
   "200366": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>I don't know anything difficult.\nHowever, I am troubled that your\nwife's cheery is not good.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1386,8 +1512,9 @@
     "zh-Hant": ""
   },
   "200367": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>We, the general public, are not to\nblame! It's all the fault of the\nPrincess and Guryan Rush who seduced\n<br>\nus. Right? I can't even walk down the\nback alley without feeling like the\nGateria refugees are going to get\n<br>\nrevenge on me after they find out the\ntruth.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1397,8 +1524,9 @@
     "zh-Hant": ""
   },
   "200368": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>I went on a trip around the five\ncontinents the other day, and if you\nwant to ask me what it was like on\n<br>\neach continent, I'm a rich man and I\ncan tell you! Which continent do you\nwant to hear about?\n<select_mem>\nOgreed Continent\nWena Islands\nEltona Continent\nPukuland Continent\nNever heard of\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<close>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1408,8 +1536,9 @@
     "zh-Hant": ""
   },
   "200369": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>What other continents do you want to\nhear about?\n<select_mem>\nOgreed Continent\nWena Islands\nEltona Continent\nPukuland Continent\nNever heard of\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<close>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1419,8 +1548,9 @@
     "zh-Hant": ""
   },
   "200370": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>I'm getting the feeling that Ogreed\nContinent is a very barbaric place! A\nwild, beast-skinned, fashionable place\n<br>\nwithout a shred of ingenuity! Is it a\nshame to live in Kunai? How beautiful\nand refined our Urbea civilization is!\n<br>\nDwarfs have won again.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1430,8 +1560,9 @@
     "zh-Hant": ""
   },
   "200371": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>I have a feeling that the Wena Islands\nis a very tactless place! It's not\nreally a land, it's more like an\n<br>\nocean!The women grilling fish on the\nbeach is repulsive, and the men\nwandering around naked is disgusting.\n<br>\nI am disgusted by the beauty and\nsophistication of our Urbea\ncivilization. Dwarfs have won again.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1441,8 +1572,9 @@
     "zh-Hant": ""
   },
   "200372": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>I'm finding Eltona Continent to be a\nvery insular place! When you go into a\nroom, you're told to take off your\n<br>\nshoes, and when you go into the woods,\nyou're told to wash and cleanse\nyourself, as if Dwarf were a mud\n<br>\nsling! How beautiful and refined we\nUrbea civilization are! Dwarf has won\nagain.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1452,8 +1584,9 @@
     "zh-Hant": ""
   },
   "200373": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>I have found Pukuland Continent to be\na very annoying place! When I walk\naround town, Pukulipo gather around\n<br>\nand try to make me laugh with their\ncrude one-liners! Stop it! I'll never\nmake it to the Sobering Slap in time!\n<br>\nHow beautiful and sophisticated we\nUrbea civilization are! Dwarf has won\nagain.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1463,8 +1596,9 @@
     "zh-Hant": ""
   },
   "200581": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1474,8 +1608,9 @@
     "zh-Hant": ""
   },
   "200582": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "But the game has just begun. This is\njust the beginning!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1485,8 +1620,9 @@
     "zh-Hant": ""
   },
   "200583": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1496,8 +1632,9 @@
     "zh-Hant": ""
   },
   "200584": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1507,8 +1644,9 @@
     "zh-Hant": ""
   },
   "200585": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1518,8 +1656,9 @@
     "zh-Hant": ""
   },
   "200586": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1529,8 +1668,9 @@
     "zh-Hant": ""
   },
   "200587": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1540,8 +1680,9 @@
     "zh-Hant": ""
   },
   "200623": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>Oh, no! Who are you? I'm looking for\nsomething! I don't have time for you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1551,8 +1692,9 @@
     "zh-Hant": ""
   },
   "200799": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Bleep! Entry Permit Unconfirmed Please\ncome here and complete the\nauthorization!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1562,8 +1704,9 @@
     "zh-Hant": ""
   },
   "200801": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>Oh, no, oh, no, oh, no. You need an\nEntry Permit to enter Urbea Empire\nCastle!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1573,8 +1716,9 @@
     "zh-Hant": ""
   },
   "200866": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "We are a royal tailor. I had received\nan order directly from that Guryan\nRush. And yet, I never thought that\n<br>\nMr. Guryan Rush would turn out like\nthat. And on top of that, Mr. Pen head\nresearcher is missing too! It's a\n<br>\nshame~, because the dress I made for\nMr. Penhead was a design of my heart,\nwith a vivid red and green color\n<br>\nscheme. Would you please find a\nsuitable replacement for Master\nPenhead? I feel sorry for the outfit\n<br>\nas it is!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1584,8 +1728,9 @@
     "zh-Hant": ""
   },
   "200867": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "That's the way it should be! We\nalready have a good idea of what we're\nlooking for! Mr. Chukaka, Mr. Pacal,\n<br>\nand Mr. Tsondem, these three\nresearchers at the Empire Tech\nAgency's first office are the ones I\n<br>\nwant you to look into. All of them are\nworking as chiefs of the magical\nmachine development department, so I\n<br>\nthink they would be great candidates\nto be the next head of the Pen. I want\neach of the three to wear the Top\n<br>\nResearcher Suit and capture their\nappearance on film. Thank you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1595,8 +1740,9 @@
     "zh-Hant": ""
   },
   "200868": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "That's the way it should be! I have a\nlot of favors to do for you. I\nappreciate your concern, but I'd like\n<br>\nyou to sort things out before you come\nback again!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1606,8 +1752,9 @@
     "zh-Hant": ""
   },
   "200869": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv2><end_attr>That's right. This is not for the\ngeneral public. It's a pity.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1617,8 +1764,9 @@
     "zh-Hant": ""
   },
   "200870": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received Top Researcher\nSuit (Key Item)!<me 60>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1628,8 +1776,9 @@
     "zh-Hant": ""
   },
   "200871": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I want you to find a suitable\nreplacement for Mr. Penhead! I don't\nwant to see those clothes go to waste!<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1639,8 +1788,9 @@
     "zh-Hant": ""
   },
   "200872": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "We have three PI's at the Empire Tech\nAgency, Mr. Chukaka, Mr. Pacal, and\nMr. Tsondem, who are in the first\n<br>\nbuilding of the Empire Tech Agency. I\nwould like each of them to wear the\nTop Researcher Suit and have them\n<br>\nphotographed. Thank you very much!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1650,8 +1800,9 @@
     "zh-Hant": ""
   },
   "200873": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "We've been waiting for you! Did you\nget the three PI's on tape?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1661,8 +1812,9 @@
     "zh-Hant": ""
   },
   "200874": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oh, no, not yet? I hope you can find\nsomeone who fits that dress.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1672,8 +1824,9 @@
     "zh-Hant": ""
   },
   "200875": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv2><end_attr>Oh, you only have one? I beg your\npardon? The other two turned you down?\nOh, dear! How rude of them! They have\n<br>\nno idea what an honor it is to be\nallowed to wear this dress! We don't\nwant such rudeness! I'm sure that the\n<br>\nperson in this photo-true is qualified\nfor the Top Researcher Suit. I'll have\na look at it right away.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1683,8 +1836,9 @@
     "zh-Hant": ""
   },
   "200876": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv2><end_attr><icon_exc>Well! What is it? This picture true!\nIt bears no resemblance to the pen-\nheaded researcher! My clothes would\n<br>\ncry if they were worn by such a\nperson! After all, it's not so easy to\nfind someone who can replace Mr.\n<br>\nPenhead. At the very least, it would\nbe nice if there was someone somewhere\nwho has the same races as you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1694,8 +1848,9 @@
     "zh-Hant": ""
   },
   "200877": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>If you take a closer look, you'll see\nthat it's not human! I'd like you to\ntry on this dress!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1705,8 +1860,9 @@
     "zh-Hant": ""
   },
   "200878": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oh My! It suits you very well! The\nface looks somewhat like Mr.\nPenhead's, and from a distance you\n<br>\ncould easily mistake him for someone\nelse! I'm so pleased to see you\nwearing it so splendidly and so\n<br>\nchicly! It's the best thing for a\ntailor!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1716,8 +1872,9 @@
     "zh-Hant": ""
   },
   "200879": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "You'll never find anyone who looks\nbetter in this dress than you do. I\nhave made my decision! From now on, no\n<br>\nmatter who becomes the head pen\nresearcher, I will not have you wear\nthis dress. Thank you for your help. I\n<br>\nwould like you to accept this in\nreturn!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1727,8 +1884,9 @@
     "zh-Hant": ""
   },
   "200880": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I'm satisfied. I'll sell these clothes\nto you for as much as you want. I'd\nlike you to come!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1738,8 +1896,9 @@
     "zh-Hant": ""
   },
   "200881": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "After all, it's not so easy to find\nsomeone to replace Mr. Penhead.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1749,8 +1908,9 @@
     "zh-Hant": ""
   },
   "200882": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "It would be nice if there was at least\none researcher somewhere who shares\nthe same races as Mr. Penhead.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1760,8 +1920,9 @@
     "zh-Hant": ""
   },
   "200883": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you give Chief Tsondem Photo to\nSatete?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1771,8 +1932,9 @@
     "zh-Hant": ""
   },
   "200884": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> gave Satete the Chief\nTsondem Photo!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1782,8 +1944,9 @@
     "zh-Hant": ""
   },
   "200885": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Satete gazed intently at Chief Tsondem\nPhoto.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1793,8 +1956,9 @@
     "zh-Hant": ""
   },
   "200886": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> was given the Top\nResearcher Suit by Satete!<se GS_009_1 0>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1804,8 +1968,9 @@
     "zh-Hant": ""
   },
   "200887": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I promised to sell you the Top\nResearcher Suit! I'm glad you found\nsomeone suitable! Good bye.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1815,8 +1980,9 @@
     "zh-Hant": ""
   },
   "200952": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I am deeply moved! The vending machine\nthat I spent my personal fortune to\ndevelop has finally been completed.\n<br>\nProbably the first of its kind in the\nworld! Gahaha!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1826,8 +1992,9 @@
     "zh-Hant": ""
   },
   "200953": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "It appears to be a machine that sells\nbooks. But apparently you can't buy\nthem with gold.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1837,8 +2004,9 @@
     "zh-Hant": ""
   },
   "200954": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "The lack of exercise has become a\nsocial problem recently because of the\nuniversal floating chairs. That's why\n<br>\nwe developed a vending machine that\nsells books. I developed this vending\nmachine with my own money and made a\n<br>\nlot of money! At the same time, it\nsolves a social problem! Would you\nlike to hear how it works?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1848,8 +2016,9 @@
     "zh-Hant": ""
   },
   "200955": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Is that right? I'm itching to talk to\nsomeone, but I'm not a fool enough to\ntalk to someone who isn't interested.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1859,8 +2028,9 @@
     "zh-Hant": ""
   },
   "200956": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Let me explain. The books sold at the\nvending machines all have a story that\nmakes me want to read the rest of the\n<br>\nbook. But if you want to read the\nrest, you have to go to the vending\nmachines outside the capital to buy\n<br>\nthem. The places where the vending\nmachines are located are not well-\ndeveloped places that can be accessed\n<br>\nwith a universal floating chair, but\nare all uncharted areas where you have\nno choice but to use nature and your\n<br>\nfeet! The desire to read more puts\npeople in a situation where they have\nno choice but to exercise. And the\n<br>\nproduct sells. Gahaha!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1870,8 +2040,9 @@
     "zh-Hant": ""
   },
   "200957": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "It is a vending machine selling books.\nAmong the books for sale is Weekly\nUrbea Aztech Vol. 1. Would you like to\n<br>\npurchase Weekly Urbea Aztech Vol. 1\nusing the Magnet Book Purchase Tag?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1881,8 +2052,9 @@
     "zh-Hant": ""
   },
   "200958": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received Weekly Urbea\nAztech Vol. 1 (Key Item).<me 60> Urbea Aztech Weekly has 6 volumes.\nLet's look for the missing volume!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1892,8 +2064,9 @@
     "zh-Hant": ""
   },
   "200959": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received Weekly Urbea\nAztech Vol. 1 (Key Item).<me 60> Now that all the Urbea Aztech Weekly\nhave been received, let's go to\nPhilosolos at the Gran Zedora Castle\n<br>\nand give them to him!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1903,8 +2076,9 @@
     "zh-Hant": ""
   },
   "200960": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Selling books I already bought Weekly\nUrbea Aztech Vol. 1.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1914,8 +2088,9 @@
     "zh-Hant": ""
   },
   "201033": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "It is not so easy to find a\nreplacement for Mr. Penhead. At the\nvery least, it would be nice if there\n<br>\nwas someone somewhere with the same\nraces as Mr. Penhead.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1925,8 +2100,9 @@
     "zh-Hant": ""
   },
   "201346": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Yokoso Urbea Underground City -\nTravelers' Register You are the\n1082315th traveler in Urbea\n<br>\nUnderground City. You are the\n1082315th traveler. You are permitted\nto stay in the capital. However,\n<br>\ntravelers without an Entry Permit will\nnot be allowed to visit the Urbea\nEmpire Castle or have an audience with\n<br>\nPrincess Ulta. Furthermore, the\nissuance of Entry Permit is currently\nnot permitted.Please acknowledge this.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1936,8 +2112,9 @@
     "zh-Hant": ""
   },
   "201350": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Travelers without an Entry Permit will\nnot be allowed to visit the Urbea\nEmpire Castle. Furthermore, no permit\n<br>\nwill be issued.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1947,8 +2124,9 @@
     "zh-Hant": ""
   },
   "201351": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "This is the imperial capital of Urbea\nUnderground City. Please register as a\ntraveler here and obtain permission to\n<br>\nstay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1958,8 +2136,9 @@
     "zh-Hant": ""
   },
   "201352": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>Oh, my God, you guys! I don't have a\nsingle tool!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1969,8 +2148,9 @@
     "zh-Hant": ""
   },
   "201353": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>Aata! Not at all! What I'm looking for\nis a silver Urbeapog!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1980,8 +2160,9 @@
     "zh-Hant": ""
   },
   "201354": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>Keek! I'm not going to teach you\nanything you don't know!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1991,8 +2172,9 @@
     "zh-Hant": ""
   },
   "201355": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<se_nots S4_FOR7_001 0><pipipi_mid><pc>Sama, are you listening?\nI need an Entry Permit to gain an\naudience with Princess Ulta. In order\n<br>\nto obtain an Entry Permit, we need to\nfind a powerful person who is well-\nconnected and well-informed. Searching\n<br>\nfor the best solution to find a well-\nconnected and well-informed person\nSearching for the best solution Search\n<br>\nresults Urbea style pog. It is\ncurrently very popular in the capital.\nUrbea pog is currently very popular in\n<br>\nthe capital. Urbeapog is a disc-shaped\npiece of metal made of gold, silver,\nand copper, different from ordinary\n<br>\npaper pog. It uses a unique ro-ro-ru-\nru method of play, and is very popular\namongst pog lovers in the Imperial\n<br>\nCity. Let's look for pog lovers in the\nImperial Capital!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2002,8 +2184,9 @@
     "zh-Hant": ""
   },
   "201356": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<se_nots S4_FOR7_001 0><pipipi_mid>To obtain an Entry Permit, it is\nnecessary to search for a person who\nis well connected and well informed.\n<br>\nThe search result is Urbeapog. It is\ncurrently very popular in the capital.\nUrbeapog lovers are likely to be well-\n<br>\nconnected. Urbeapog is a disk-shaped\npiece of metal made of gold, silver,\nand copper, different from ordinary\n<br>\npaper pog. It uses a unique ro-ro-ru-\nru method of play, and is very popular\namongst pog lovers in the Imperial\n<br>\nCity. Let's look for pog lovers in the\nImperial Capital!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2013,8 +2196,9 @@
     "zh-Hant": ""
   },
   "201357": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<se_nots S4_FOR7_001 0><pipipi_mid>Mission understood. If you retrieve\nthe special pog of the person in\nquestion, you may be able to obtain\n<br>\ninformation. Guaardvark is to be\ncollapsed!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2024,8 +2208,9 @@
     "zh-Hant": ""
   },
   "201358": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> delivered\n<%sev_lua_strings1>! Father Uzza\ndelivered a copper pog!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2035,8 +2220,9 @@
     "zh-Hant": ""
   },
   "201359": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> delivered a\n<%sev_lua_strings1>! Father Uzza\ndelivered a golden pog!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2046,8 +2232,9 @@
     "zh-Hant": ""
   },
   "201360": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> delivered a\n<%sev_lua_strings1>! Father Uzza\ndelivered a silver pog!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2057,8 +2244,9 @@
     "zh-Hant": ""
   },
   "201361": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "You don't have a single tool, do you?",
     "es": "",
     "fr": "",
     "it": "",
@@ -2068,8 +2256,9 @@
     "zh-Hant": ""
   },
   "201362": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oh, no, that's not what I want. I want\na copper Urbeapog that looks like a\ncoin!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2079,8 +2268,9 @@
     "zh-Hant": ""
   },
   "201363": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Damn. I had high hopes for this.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2090,8 +2280,9 @@
     "zh-Hant": ""
   },
   "201389": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "You are now in Urbea Underground City.\nYou are allowed to stay in the\nImperial City.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2101,8 +2292,9 @@
     "zh-Hant": ""
   },
   "202225": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>That's too bad.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2112,8 +2304,9 @@
     "zh-Hant": ""
   },
   "202437": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>Entry Permit confirmed and registered!\nEntry into the Urbea Empire Castle is\ngranted. No further permits are\n<br>\nrequired. This machine will be\nretrieved.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2123,8 +2316,9 @@
     "zh-Hant": ""
   },
   "202438": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> gave Entry Permit to\nAztech Guard No. 054.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2134,8 +2328,9 @@
     "zh-Hant": ""
   },
   "202836": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you give Compact Gear to Paper\nShop Tsukushi?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2145,8 +2340,9 @@
     "zh-Hant": ""
   },
   "202837": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> gave Compact Gear to\nPaper Shop Tsukushi!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2156,8 +2352,9 @@
     "zh-Hant": ""
   },
   "202874": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Young people these days are so boring.\nI wish I could help those who have\nspirit like those kids I rented out my\n<br>\nhouse to in the past.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2167,8 +2364,9 @@
     "zh-Hant": ""
   },
   "202875": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>Whoa! All right. I'll tell you what!\nYou know, I was just saying the\nLassiter's Lassiter's Lassiter's\n<br>\nLassiter's Lassiter's Lassiter's\nLassiter's Lassiter's Lassiter!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2178,8 +2376,9 @@
     "zh-Hant": ""
   },
   "202876": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>It was about 10 years ago. Suddenly,\ntwo broke people came to the capital.\nI lent them my empty house as a favor.\n<br>\nOne was a young Guryan Rush, and the\nother was a boy by the name of\n<kyodai> who could do some kind\n<br>\nof mysterious trick. So when they said\nthey were out of work, I introduced\nthem to the chores at Church. Father\n<br>\nentrusted them with various things,\nand they turned out to be very useful.\nTheir work became well known\n<br>\nthroughout the capital, and they ended\nup working at the castle. They moved\nout of my rental house.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2189,8 +2388,9 @@
     "zh-Hant": ""
   },
   "202877": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>When we left, he generously left us a\nhuge sum of money as a thank-you for\nrenting the house to us, who knew\n<br>\nnothing about us. I know people say a\nlot of things about young people\nnowadays, but it feels good to see a\n<br>\nyoung person with a dream. I was happy\nto be able to help them! Father Uzza\nat Church knows a lot more about those\n<br>\nkids back then, so if you're\ninterested, you can ask him.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2200,8 +2400,9 @@
     "zh-Hant": ""
   },
   "202878": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you like to interview Oyaya\nabout Guryan Rush?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2211,8 +2412,9 @@
     "zh-Hant": ""
   },
   "202879": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> asked Oyaya about the\nold Guryan Rush!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2222,8 +2424,9 @@
     "zh-Hant": ""
   },
   "202880": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Oyaya's story seems to have been\nperfectly recorded on the Sound\nRecorder! Let's go talk to Father Uzza\n<br>\nnext!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2233,8 +2436,9 @@
     "zh-Hant": ""
   },
   "202881": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>The last pog match was a lot of fun.\nI'm looking forward to another match.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2244,8 +2448,9 @@
     "zh-Hant": ""
   },
   "202882": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Oops, I got a little chatty. Well\nthen.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2255,8 +2460,9 @@
     "zh-Hant": ""
   },
   "202883": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Hmm, you want me to tell you about the\nold Guryan Rush? Very well! If you\nwant to know, I'll give it my all and\n<br>\nwin again in the Urbeapogbattle!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2266,8 +2472,9 @@
     "zh-Hant": ""
   },
   "202884": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Hmm? You are short of Urbeapog. Put\none each of gold, silver and bronze in\nyour item bag and call out to me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2277,8 +2484,9 @@
     "zh-Hant": ""
   },
   "202885": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>The rules of pogbattle are simple.\nEach player competes by placing one\npog at a time. A gold pog is stronger\n<br>\nthan a silver pog. The silver pog is\nstronger than the copper pog. And the\ncopper pog is strong against the gold\n<br>\npog! In this way, the winner is\ndecided by the three pogs. This time,\nlet's make it a one-time true sword\n<br>\nfight! Can you beat the real me? Let's\ngo!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2288,8 +2496,9 @@
     "zh-Hant": ""
   },
   "202886": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>If you want to know about the old\nGuryan Rush, let me win again in the\nUrbeapogbattle with all my might! You\n<br>\nwant to play?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2299,8 +2508,9 @@
     "zh-Hant": ""
   },
   "202887": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>I see. You don't want to compete.\nThat's also fine. All right, then.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2310,8 +2520,9 @@
     "zh-Hant": ""
   },
   "202888": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_one><end_attr>Urbeapog One-Shot Match Go! Fight!\n<select_nc>\nput out a gold pog\nProduce a silver pog\nProduce a bronze pog\nRules Explanation\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case 3>\n<close>\n<case 4>\n<break>\n<case_cancel>\n<close>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2321,8 +2532,9 @@
     "zh-Hant": ""
   },
   "202889": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>The rules of pogbattle are simple.\nEach player competes by placing one\npog at a time. A gold pog is stronger\n<br>\nthan a silver pog. The silver pog is\nstronger than the copper pog. And the\ncopper pog is strong against the gold\n<br>\npog! In this way, the winner is\ndecided by the three pogs. This time,\nit will be a one-time true sword\n<br>\nfight! Are you ready?<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2332,8 +2544,9 @@
     "zh-Hant": ""
   },
   "202890": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr><icon_exc>Brilliant. I made <%sEV_LUA_STRING1>\nand you made <%sEV_LUA_STRING2>, you\nwin.<me 71><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2343,8 +2556,9 @@
     "zh-Hant": ""
   },
   "202891": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr><icon_exc>Both sides roll <%sev_lua_string1> and\nit's a tie. A tie is not a victory.\nToo bad!<se Joutyu_SE 35><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2354,8 +2568,9 @@
     "zh-Hant": ""
   },
   "202892": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr><icon_exc>Too bad. You lost by\n<%sEV_LUA_STRING2> on my\n<%sEV_LUA_STRING1>.<se Joutyu_SE 35><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2365,8 +2580,9 @@
     "zh-Hant": ""
   },
   "202894": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Oh, I'm serious. I can't believe you\nbeat me! I haven't seen such a hot\ncompetition in a long time. Your\n<br>\nstrength is truly amazing! All right!\nNow let me tell you everything I know\nabout the old Guryan Rush. Guryan Rush\n<br>\nand his partner <kyodai>, who\nwas penniless at the time, started\nhelping me to pay the rent on Oyaya's\n<br>\nhouse. So I gave them the job of\nsolving the problems of people who\ncame to Church for help, and they\n<br>\nsolved more and more difficult\nproblems and became well known all\nover the city. The combination of\n<br>\nGuryan Rush, who came up with\nsolutions on the spot, and\n<kyodai>, who did it with\n<br>\nuncanny skill, was quite brilliant. I\nthought it would be a shame to let\nthem end up as servants, so I\n<br>\nintroduced them to His Majesty Ja\nKuba, who had come secretly to play\npog. His Majesty, seeing their talent,\n<br>\ntook them up to the castle, and from\nthat moment on they became apprentices\nto the priests of the castle.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2376,8 +2592,9 @@
     "zh-Hant": ""
   },
   "202895": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Their remarkable rise to prominence\nwas no surprise. But sometimes power\nblinds us. I pray they don't go down\n<br>\nthe wrong path.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2387,8 +2604,9 @@
     "zh-Hant": ""
   },
   "202896": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>They were good young men with good\nintentions, but where did they go\nwrong? I can only pray for Guryan\n<br>\nRush's soul now.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2398,8 +2616,9 @@
     "zh-Hant": ""
   },
   "202897": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>This is all I know about the old\nGuryan Rush. I hope I've been helpful.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2409,8 +2628,9 @@
     "zh-Hant": ""
   },
   "202898": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Oops. That looks like a Sound\nRecorder. I know a guy who is good at\nfixing things like that. There's a guy\n<br>\nnamed Pocomam in the lower levels of\nthis town. If you bring it to him, I'm\nsure he can fix it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2420,8 +2640,9 @@
     "zh-Hant": ""
   },
   "202899": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>I know there are a lot of things being\nsaid nowadays, but it's nice to see\nyoung people with dreams. I was happy\n<br>\nto be able to contribute to that!\nFather Uzza at Church knows more about\nGuryan Rush back then, so if you are\n<br>\ninterested, you can ask him.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2431,8 +2652,9 @@
     "zh-Hant": ""
   },
   "202900": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you like to interview Father\nUzza about Guryan Rush?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2442,8 +2664,9 @@
     "zh-Hant": ""
   },
   "202901": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> asked Father Uzza about\nthe old Guryan Rush!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2453,8 +2676,9 @@
     "zh-Hant": ""
   },
   "202902": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "The experience I had gained from my\nprevious matches with Father Uzza was\nbuilding up in <pc>, and\n<br>\nsuddenly I felt as if I could read the\ncolor of the next pog that Father Uzza\nwas going to release! Would you like\n<br>\nto continue to focus your attention?<yesno 2><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2464,8 +2688,9 @@
     "zh-Hant": ""
   },
   "202905": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> has an inspiration! Next\nthing Father Uzza will produce is\n<%sev_lua_string1>!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2475,8 +2700,9 @@
     "zh-Hant": ""
   },
   "202906": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I had a feeling that this was the\ncase, but I must have been imagining\nthings.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2486,8 +2712,9 @@
     "zh-Hant": ""
   },
   "202907": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Suddenly, <pc>'s Sound\nRecorder stopped making strange\nnoises!<se FQ_182_2 0><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2497,8 +2724,9 @@
     "zh-Hant": ""
   },
   "202908": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "No matter how hard I press the switch,\nit does not respond.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2508,8 +2736,9 @@
     "zh-Hant": ""
   },
   "202909": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Your Sound Recorder seems to be\nbroken, but I know a guy who is just\nas good at fixing things like that.\n<br>\nThere's a guy named Pocomam in the\nlower levels of this town. If you\nbring it to him, I'm sure he'll fix\n<br>\nit. Well...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2519,8 +2748,9 @@
     "zh-Hant": ""
   },
   "202910": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>What is it? What do you want from me?\nYou're welcome to bring in any rare\njunk you like.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2530,8 +2760,9 @@
     "zh-Hant": ""
   },
   "202911": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>What, you don't have anything to do?\nIf you have a broken machine, bring it\nto me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2541,8 +2772,9 @@
     "zh-Hant": ""
   },
   "202912": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>You have a Sound Recorder. It's a very\nold model, and it's broken. Even if I\nfix it, it's not for sale. But if you\n<br>\nbring me the necessary materials, I\ncan fix it for you in between jobs. I\njust needed a change of pace. Hmm, I\n<br>\nsee. The cause of the malfunction is\nthat the inner gear is worn out and no\nlonger meshes. You can get this Heat-\n<br>\nProof Gear by defeating\n<%sev_que_name0> in Burning Lava Cave\nin Chaldea Lava Belt.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2552,8 +2784,9 @@
     "zh-Hant": ""
   },
   "202913": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you like to show Pocomam your\nbroken Sound Recorder?<yesno><close>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2563,8 +2796,9 @@
     "zh-Hant": ""
   },
   "202914": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "The malfunction of your Sound Recorder\nwas caused by the gear inside the\nmachine wearing down and becoming\n<br>\nmisaligned. You can get this Heat-\nProof Gear by defeating\n<%sev_que_name0> in Burning Lava Cave,\n<br>\nso please go and get a new one.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2574,8 +2808,9 @@
     "zh-Hant": ""
   },
   "202915": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Hey, did you get the Heat-Proof Gear?\nI've been doing a lot of tedious\njanitorial work over here. I'll fix it\n<br>\nfor free for a change.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2585,8 +2820,9 @@
     "zh-Hant": ""
   },
   "202916": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>What, you haven't done it yet? Your\nSound Recorder can be fixed as soon as\nyou have the Heat-Proof Gear, so get\n<br>\nit here as soon as possible.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2596,8 +2832,9 @@
     "zh-Hant": ""
   },
   "202917": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>Whoa...you received Heat-Proof Gear!\nYou received Heat-Proof Gear? Well\nthen, I'll start repairing your\n<br>\nrecorder as soon as I can, to take the\nedge off!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2607,8 +2844,9 @@
     "zh-Hant": ""
   },
   "202918": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv2><end_attr><icon_exc>Ahhhh! Guryan Rush? You're checking up\non that son of a bitch? I've got\nsomething to say! I'm sure you'll find\n<br>\nmy opinion valuable! Let me talk to\nhim about Guryan Rush! Come on, man.<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2618,8 +2856,9 @@
     "zh-Hant": ""
   },
   "202919": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv3><end_attr>I have a lot of beef with Guryan Rush!\nIt's not fair to give him all the good\nstories. Hey, listen!<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2629,8 +2868,9 @@
     "zh-Hant": ""
   },
   "202920": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Okay, then, let me tell you my story.\nI am from Gateria and came to this\ncountry as a young man to learn the\n<br>\nart of Urbea. During my training here,\nthe war broke out and I have seen what\nGuryan Rush is capable of, he is the\n<br>\nworst son of a bitch! He attacked my\nhome, the beautiful Gateria, with the\nUrbea Colossus and destroyed it in the\n<br>\nblink of an eye! I still have no\ncontact with my brother who remained\nin the country. I guess he's not alive\n<br>\nanymore. Damn! What did Gateria do? If\nI could, I would take Guryan Rush with\nmy own hands.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2640,8 +2880,9 @@
     "zh-Hant": ""
   },
   "202921": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you give Pocomam the Heat-Proof\nGear?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2651,8 +2892,9 @@
     "zh-Hant": ""
   },
   "202922": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> gave Pocomam the Heat-\nProof Gear!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2662,8 +2904,9 @@
     "zh-Hant": ""
   },
   "202923": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "When I switched on the Sound Recorder\nand played back the audio, Father\nUzza's recorded voice began to play!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2673,8 +2916,9 @@
     "zh-Hant": ""
   },
   "202924": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>All right! Then I will tell you\neverything I know about the old Guryan\nRush.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2684,8 +2928,9 @@
     "zh-Hant": ""
   },
   "202925": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Pocomam's story seems to have been\nrecorded perfectly on the Sound\nRecorder! I'd better get back to\n<br>\nKikimimi!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2695,8 +2940,9 @@
     "zh-Hant": ""
   },
   "202926": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv3><end_attr>Guryan Rush has waged war on my home\nkingdom of Gateria, attacking and\nannihilating it in the process! He is\n<br>\na demon in human form. I hope you will\nrecord the fact that all the people of\nGateria hate him.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2706,8 +2952,9 @@
     "zh-Hant": ""
   },
   "202976": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>I'm sorry, but I'm working on some\ntroublesome repairs right now. If you\nwant to talk, we can talk later.\n<br>\nThat's strange. Why isn't it working?",
     "es": "",
     "fr": "",
     "it": "",
@@ -2717,8 +2964,9 @@
     "zh-Hant": ""
   },
   "202977": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Hey, it's you again. I've been very\nbusy lately, but I finally found some\nfree time. So, what do you want from\n<br>\nme?",
     "es": "",
     "fr": "",
     "it": "",
@@ -2728,8 +2976,9 @@
     "zh-Hant": ""
   },
   "202978": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>What, you don't have anything to do?If\nyou have a broken machine, bring it to\nme.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2739,8 +2988,9 @@
     "zh-Hant": "<attr><feel_normal_one><end_attr>「……なんだ　用はないのか。 \n　壊れた機械があったら　持ってきてくれよな。"
   },
   "202979": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>This is another broken Sound\nRecorder.And it's a very old model.\nIt's so old, it'll take more work than\n<br>\nlast time to fix it. But I'll fix it\nafter listening to you complain about\nGuryan Rush. I feel much better now\n<br>\nthat I have that thing. From the looks\nof it, this malfunction is caused by\nold, worn-out wiring inside and a\n<br>\nbroken magnetic tape. First, get me\nsome Strong Mustache from Gatara\nMountain Forest <%sEV_QUE_NAME0> to\n<br>\nuse as wiring, and some Magma Solution\nfrom Chaldea Lava Belt\n<%sEV_QUE_NAME1>. Chaldea Lava Belt or\n<br>\nsomething. That should fix it! Oops! I\nshould warn you that <%sEV_QUE_NAME1>\nis usually hiding in the ground and is\n<br>\nnever seen, so be careful when looking\nfor him. So please be careful!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2750,8 +3000,9 @@
     "zh-Hant": ""
   },
   "202980": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Shall I show Pocomam the Sound\nRecorder I picked up at Guryan Rush's\nold haunt?<yesno><close>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2761,8 +3012,9 @@
     "zh-Hant": ""
   },
   "202981": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>From the looks of it, the problem with\nthe Sound Recorder is that the wiring\ninside it is old and worn out, and the\n<br>\nmagnetic tape is broken. First, get me\na Strong Mustache from Gatara Mountain\nForest <%sEV_QUE_NAME0> to use as\n<br>\nwiring, and a Magma Solution from\nChaldea Lava Belt <%sEV_QUE_NAME1>.\nChaldea Lava Belt or something. That\n<br>\nshould fix it! Oops! I should warn you\nthat <%sEV_QUE_NAME1> is usually\nhiding in the ground and is never\n<br>\nseen, so be careful when looking for\nhim. So please be careful!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2772,8 +3024,9 @@
     "zh-Hant": ""
   },
   "202982": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Hey, did you get Strong Mustache and\nMagma Solution? With that, I think I\ncan fix that Sound Recorder.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2783,8 +3036,9 @@
     "zh-Hant": ""
   },
   "202983": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>What the heck. You haven't done it\nyet? I'm the only one who can fix a\nbreakdown that bad. Bring me the tools\n<br>\nwhile I'm still free.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2794,8 +3048,9 @@
     "zh-Hant": ""
   },
   "202984": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Oh, I see you got it all! Now it's\ntime to show off my skills. I'll show\nyou that there is no machine that I\n<br>\ncan't fix!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2805,8 +3060,9 @@
     "zh-Hant": ""
   },
   "202985": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "We just need to oil the whiskers,\nreplace the dented wires, and then\ndissolve the broken tape ends with\n<br>\nMagma Solution and stick them back\ntogether.<se FQ_182_2 1>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2816,8 +3072,9 @@
     "zh-Hant": ""
   },
   "202986": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>All right! It's fixed! From the looks\nof it, the magnetic tape inside is\nintact. Let's see if it works or not.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2827,8 +3084,9 @@
     "zh-Hant": ""
   },
   "202987": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr><icon_exc>I've heard that voice before!Could it\nbe Guryan Rush's voice? Is this a\nrecord of Guryan Rush before he came\n<br>\nto the capital? He was separated from\nhis family and struggling desperately\njust to see them again? That's what\n<br>\ncaused that war. I would do anything\nif I could see my only brother\nPokomuchi again. Yes, as long as he's\n<br>\nalive.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2838,8 +3096,9 @@
     "zh-Hant": ""
   },
   "202988": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr><icon_exc>What's that? Pokomuchi!That's\ndefinitely him! That's my brother!\nHe's alive in Daraz Large Vein?<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2849,8 +3108,9 @@
     "zh-Hant": ""
   },
   "202989": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you give Pocomam Strong Mustache\nand Magma Solution?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2860,8 +3120,9 @@
     "zh-Hant": ""
   },
   "202990": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> gave Pocomam Strong\nMustache and Magma Solution!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2871,8 +3132,9 @@
     "zh-Hant": "<pc>は　ポコマムに\nじょうぶなヒゲと　高熱マグマ液を　渡した！"
   },
   "202991": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Pocomam switched on the Sound Recorder\nand played back the audio! Then a\nfamiliar male voice started playing\n<br>\nfrom the Sound Recorder.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2882,8 +3144,9 @@
     "zh-Hant": ""
   },
   "202992": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>I drifted through time and found\nmyself in this hole in the ground. Not\nknowing where I was, I wandered around\n<br>\nto find a watering hole to survive,\nand picked berries to stave off my\nhunger. I wandered around, but time\n<br>\njust kept passing, and when I couldn't\nbear the solitude any longer, I found\n<kyodai> lying outside the hole\n<br>\nin the cave. I took care of\n<kyodai>, and after talking to\nhim, I found out that he was a time\n<br>\ncastaway just like me. The\ncompanionship I gained in my solitude\nwas very reassuring. I told\n<br>\n<kyodai> about my situation, and\n<kyodai> agreed to help me\nreunite with <pc_rel2> in order to\n<br>\nreunite me with my sister. We leave\nthe cave and set off for some town to\nfulfill our great ambition. The\n<br>\nchallenges ahead will be\nextraordinary. But I, Quard and\n<kyodai>, will make it through.\n<br>\nI leave my resolution here so that I\nwill not forget my original intention.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2893,8 +3156,9 @@
     "zh-Hant": ""
   },
   "202993": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> told Pocomam that it was\na former POW named Pokomuchi who told\nhim the location of this Old Sound\n<br>\nRecorder!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2904,8 +3168,9 @@
     "zh-Hant": ""
   },
   "202994": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Thanks for letting me know! Now I have\nto go see Pokomuchi and let him know\nI'm alive too! I owe it all to you for\n<br>\nyour coverage! You should also thank\nthe guy who wrote the article about\nGuryan Rush!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2915,8 +3180,9 @@
     "zh-Hant": ""
   },
   "202995": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>Thanks to you, I have reunited with my\nbrother Pokomuchi in Daraz Large Vein!\nThanks for the tip! I still hate\n<br>\nGuryan Rush, but now that I know he\nmisses his family, I don't hate him as\nmuch as I used to.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2926,8 +3192,9 @@
     "zh-Hant": ""
   },
   "203064": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Thank you very much! By the way, you\nhave a visitor. I know this is sudden,\nbut could you do me a favor?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2937,8 +3204,9 @@
     "zh-Hant": ""
   },
   "203065": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Too bad. We look forward to seeing you\nagain!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2948,8 +3216,9 @@
     "zh-Hant": ""
   },
   "203066": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Wow, I'm so happy! I'm asking for a\nfavor regarding the new letter paper\nthat I'm going to start selling here\n<br>\nat Post Office. As a matter of fact,\nthe letter paper is not selling at\nall, and if this situation continues,\n<br>\nPost Office is in danger of closing\ndown. So I thought about why they are\nnot selling well. Probably because of\n<br>\nthe technology of this country. It is\nfaster and more convenient than\nrecording your voice in a machine, or\n<br>\nasking a magical machine to send a\nmessage, or writing a letter, right? I\ncan't talk about how nice it is to\n<br>\nwrite letters. First of all, we need\nto get people to buy letter paper!\nThat's why we decided to make the\n<br>\ndesign of the letter paper to suit\nyour taste. Gear Paper! I heard that\nyou can get a paper-thin gear called\n<br>\nCompact Gear by defeating the\n<%sev_que_name0> monster in Gatara\nMountain Forest and so on. We put the\n<br>\ngear on the letter paper and grab the\nhearts of Dwarfs who love mechas! I am\nsure it will sell like hotcakes. So,\n<br>\nplease, could you go and get Compact\nGear? Of course, we'll give you a\nchance to give away the finished\n<br>\nletterhead!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2959,8 +3228,9 @@
     "zh-Hant": ""
   },
   "203067": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Really? I'm so happy! I'm so happy!\nThen, I'll be waiting for it with\npleasure!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2970,8 +3240,9 @@
     "zh-Hant": ""
   },
   "203068": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Really? I did it! What is it? Are you\nsure you're not taking on too many\njobs? That's no good! You're too busy.\n<br>\nI'll be waiting for you, so don't\nworry! Please come back when you are\nfree!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2981,8 +3252,9 @@
     "zh-Hant": ""
   },
   "203069": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Hmmm, too bad. Please come back if you\nchange your mind!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2992,8 +3264,9 @@
     "zh-Hant": ""
   },
   "203070": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<shake_big>Yup! Hey there, to the Post Office!\nHow may I help you today? I'm sorry.\nIt's been a while since I've had a\n<br>\nvisitor, so I was a bit in a rush.\nI'll see you later.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3003,8 +3276,9 @@
     "zh-Hant": ""
   },
   "203071": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Thank you very much! And, Sir, don't\nforget your promise to get the Compact\nGear.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3014,8 +3288,9 @@
     "zh-Hant": ""
   },
   "203072": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Compact Gear can be obtained by\ndefeating <%sev_que_name0> monster in\nGatara Mountain Forest!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3025,8 +3300,9 @@
     "zh-Hant": ""
   },
   "203073": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Ah, you have a visitor! Did you bring\nwhat I asked for by any chance?",
     "es": "",
     "fr": "",
     "it": "",
@@ -3036,8 +3312,9 @@
     "zh-Hant": ""
   },
   "203074": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Well then, I guess I'll have to buy\nsome letter paper. Let's see...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3047,8 +3324,9 @@
     "zh-Hant": ""
   },
   "203075": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Wow, thank you very much! I'm going to\nbuild Compact Gear and make Gear Paper\nright away!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3058,8 +3336,9 @@
     "zh-Hant": ""
   },
   "203076": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Phew! It's amazing! It's a\nmasterpiece! Here you go, Urbea\nUnderground City's limited edition\n<br>\nlocal stationery!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3069,8 +3348,9 @@
     "zh-Hant": ""
   },
   "203077": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>The rotating gears that can be\nglimpsed from the top of the model\nwill grab the heart of Dwarfs who love\n<br>\nmechanical devices! We are sure it\nwill sell like hotcakes. The spinning\near has no function, but the first\n<br>\nstep is to get people interested in\nit. That is the first step in our\nsales strategy! We were also\n<br>\nparticular about the design of the\nletter paper. I used Princess Ulta as\nthe motif to represent Dwarf's love of\n<br>\nmecha. Gear Paper will be available\nexclusively at the Post Office as soon\nas possible! We look forward to seeing\n<br>\nyou again soon.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3080,8 +3360,9 @@
     "zh-Hant": ""
   },
   "203078": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Listen up, customers! Gear Paper was\nsold immediately! Dwarf, who bought\nthe letter paper, was very impressed\n<br>\nwith the thinness of the gear when he\ntook it apart on the spot. He wanted\nto show it to his friends! He sent a\n<br>\nletter from the Post Office with a\nmessage on the Gear Paper. The first\nstep of our sales strategy is\n<br>\nperfection! I will do my best to make\nthem more interested in our products.\nI will try my best to get more people\n<br>\ninterested in our products.<feel_happy_lv1><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3091,8 +3372,9 @@
     "zh-Hant": ""
   },
   "203201": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> can now buy Top\nResearcher Suit!<me 71>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3102,8 +3384,9 @@
     "zh-Hant": ""
   },
   "203560": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> reeled off\n<%sEV_LUA_STRING2>! Father Uzza reeled\noff <%sEV_LUA_STRING1>!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3113,8 +3396,9 @@
     "zh-Hant": ""
   },
   "203561": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> reeled off\n<%sEV_LUA_STRING2>! Father Uzza reeled\noff <%sEV_LUA_STRING1>!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3124,8 +3408,9 @@
     "zh-Hant": ""
   },
   "203562": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> reeled off\n<%sEV_LUA_STRING2>! Father Uzza reeled\noff <%sEV_LUA_STRING1>!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3135,8 +3420,9 @@
     "zh-Hant": ""
   },
   "203569": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Just open the back, replace it with\nthis brand new Heat-Proof Gear, close\nthe lid, and you're good to go!<se FQ_182_2 1>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3146,8 +3432,9 @@
     "zh-Hant": ""
   },
   "203570": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>All right! It's fixed! Press the\nbutton and make sure it works. I don't\nwant any complaints later that it\n<br>\nwasn't fixed.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3157,8 +3444,9 @@
     "zh-Hant": ""
   },
   "203748": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Hey there. This is junk storage. Worn-\nout gears, filleted shafts. A\ngraveyard of useless, broken parts.\n<br>\nBut you know what, these junks are\nhard workers who have done their best\nfor the Imperial City. They can still\n<br>\nwork! I think they are saying that. I\ndon't think they can carry people like\nelevator or fight like the demon\n<br>\nsoldiers anymore. But there's\nsomething I want to make with the\njunks that were thrown away here. So,\n<br>\nI was wondering if I could ask you to\nhelp me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3168,8 +3456,9 @@
     "zh-Hant": ""
   },
   "203749": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Will you help me? Thanks~! There was\none part that I couldn't get at junk\nstorage, and I was having a hard time\n<br>\nfinding it~.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3179,8 +3468,9 @@
     "zh-Hant": ""
   },
   "203750": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>I want a shiny lens. Lenses are so\nvaluable that no one throws them away\nand no parts store sells them. Many\n<br>\nlens makers have been drafted into the\nEmpire Tech Agency because of the war\nwith Gateria, so there is no one who\n<br>\ncan make lenses. That's why I want you\nto get the lenses. I'll be waiting for\nyou with the junks.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3190,8 +3480,9 @@
     "zh-Hant": ""
   },
   "203751": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>I'm trying to get a lens. The pog shop\nin the middle of the capital seems to\nhave access to a variety of goods.\n<br>\nThere are rumors that he is a botta-\ncop, but you should talk to him to see\nif you can get a hold of him. I think\n<br>\nhis name is Chagan.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3201,8 +3492,9 @@
     "zh-Hant": ""
   },
   "203752": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Yay! You seem to be very busy, don't\nyou? Aren't you busy with other things\nyou've been asked to do? You can help\n<br>\nout when you can. I'll be waiting for\nyou and the juncks, so please come\nback after you finish your chores.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3212,8 +3504,9 @@
     "zh-Hant": ""
   },
   "203753": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>I see. Hmm, too bad. If you ever feel\nlike helping out, please give me a\ncall anytime.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3223,8 +3516,9 @@
     "zh-Hant": ""
   },
   "203754": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>I'd like to make something out of the\njunks that were thrown away here, but\nI need a shiny lens.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3234,8 +3528,9 @@
     "zh-Hant": ""
   },
   "203755": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Chagan, the pog shop owner in the\nmiddle of the Imperial City, might\nknow how to get it. Ask him for a try.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3245,8 +3540,9 @@
     "zh-Hant": ""
   },
   "203756": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> paid Pogs Shop Chagan\n3000 gold.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3256,8 +3552,9 @@
     "zh-Hant": ""
   },
   "203757": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> paid Pogs Shop Chagan\n2000 gold.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3267,8 +3564,9 @@
     "zh-Hant": ""
   },
   "203758": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> paid Pogs Shop Chagan\n1500 gold.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3278,8 +3576,9 @@
     "zh-Hant": ""
   },
   "203759": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Heh, heh. What can I do for you? I'll\nsell you anything you want as long as\nyou pay me.\n<select>\nI want a lens\nI want a POG\nstop\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<close>\n<case_cancel>\n<close>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3289,8 +3588,9 @@
     "zh-Hant": ""
   },
   "203760": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Which one do you want?\n<select>\nCopper Urbeapog\nSilver Urbeapog\nGold Urbeapog\npogstarta set\nQuit\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3300,8 +3600,9 @@
     "zh-Hant": ""
   },
   "203761": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv3><end_attr>You want a lens? Don't be ridiculous.\nEmpire Tech Agency has a monopoly on\nthem because they are indispensable\n<br>\nfor the eyes of the Demon God Soldier.\nIt's a white thing that poor people\nand refugees like us can't afford.\n<br>\nGive up.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3311,8 +3612,9 @@
     "zh-Hant": ""
   },
   "203762": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>That's just third-rate merchant talk.\nI've got some great information for\nyou. For 3,000 gold, you want to buy\n<br>\nit?<yesno 2><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3322,8 +3624,9 @@
     "zh-Hant": ""
   },
   "203763": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>That's a good buy. There's always a\ngood buy!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3333,8 +3636,9 @@
     "zh-Hant": ""
   },
   "203764": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Heh, well, I can't help it. I'll sell\nit to you for 2000 gold. That's good,\nright?<yesno 2><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3344,8 +3648,9 @@
     "zh-Hant": ""
   },
   "203765": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>Good buy. Thank you very much.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3355,8 +3660,9 @@
     "zh-Hant": ""
   },
   "203766": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Heh, heh, heh. How about 1,500 gold? I\ncan't do better than that.<yesno 2><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3366,8 +3672,9 @@
     "zh-Hant": ""
   },
   "203767": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Oh, man. This is good for business.\nThank you very much.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3377,8 +3684,9 @@
     "zh-Hant": ""
   },
   "203768": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv3><end_attr>Hmmm...okay. That's too bad. I'm going\nto lose a lot of money. Come back\nagain. Bye.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3388,8 +3696,9 @@
     "zh-Hant": ""
   },
   "203769": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Then I'll give you the best news of\nall. I told you that the lenses that\nEmpire Tech Agency has a monopoly on\n<br>\nare used for the eyes of the Demon\nSoldiers, didn't I? Then we should\njust take it away from the Demon\n<br>\nSoldier. We'd get caught in a\nheartbeat if we did. Go to the Forced\nLabor Camp in Daraz Large Vein. You\n<br>\nwon't get caught there. I can't tell\nyou why here.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3399,8 +3708,9 @@
     "zh-Hant": ""
   },
   "203770": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>That's all the information I have for\nyou. Try to find a broken Demon\nSoldier. The rest is up to your luck.\n<br>\nOh yeah. If you want some pog, come\nback again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3410,8 +3720,9 @@
     "zh-Hant": ""
   },
   "203771": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_one><end_attr>You want a lens? Information doesn't\ncome for free. First, you need to get\nthe money. Bye-bye.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3421,8 +3732,9 @@
     "zh-Hant": ""
   },
   "203772": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>You want a shiny lens? I've got some\ngreat information for you. You want to\nbuy it for 3,000 gold?<yesno 2><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3432,8 +3744,9 @@
     "zh-Hant": ""
   },
   "203773": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>I'd like to make something out of the\njunks that were thrown away here, but\nI need a shiny lens.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3443,8 +3756,9 @@
     "zh-Hant": ""
   },
   "203774": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>You want me to go to Forced Labor Camp\nat Daraz Large Vein? If Mr. Chagan\nsays so, I guess I can count on him.\n<br>\nI'd like you to go there just for the\nsake of it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3454,8 +3768,9 @@
     "zh-Hant": ""
   },
   "203775": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_lv1><end_attr>If you want a lens, take it off the\ndemon soldiers. Go to the Forced Labor\nCamp in Daraz Large Vein. You won't\n<br>\nget caught there, hehe. That's all the\ninformation I have. Try to find a\nbroken Demon Soldier. The rest depends\n<br>\non your luck.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3465,8 +3780,9 @@
     "zh-Hant": ""
   },
   "203776": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>I'd like to make something out of the\njunks that were thrown away here, but\nI need a shiny lens.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3476,8 +3792,9 @@
     "zh-Hant": ""
   },
   "203777": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv3><end_attr><icon_exc>Hmmm. It's true that this is a lens,\nbut it's so scratched up that I don't\nthink I can use it.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3487,8 +3804,9 @@
     "zh-Hant": ""
   },
   "203778": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv3><end_attr>If only there had been a lens\ncraftsman as skilled as Bafcho at a\ntime like this, he would have polished\n<br>\nthe lenses to a shine.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3498,8 +3816,9 @@
     "zh-Hant": ""
   },
   "203779": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> showed Riripea the\nScratched Lens.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3509,8 +3828,9 @@
     "zh-Hant": ""
   },
   "203780": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>I'd like to make something out of the\njunks that were thrown away here, but\nI need a shiny lens.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3520,8 +3840,9 @@
     "zh-Hant": ""
   },
   "203781": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr><icon_exc>Wow. Shining lenses! Did a skilled\nlens craftsman polish them? I'll get\nright to work, so please wait for me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3531,8 +3852,9 @@
     "zh-Hant": ""
   },
   "203782": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "It's done! Junk Projector is complete!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3542,8 +3864,9 @@
     "zh-Hant": ""
   },
   "203783": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>Even tired junks can keep turning the\nlight film. That's what I thought and\nmade this film. The images engraved on\n<br>\nthe film are magnified and projected\nby the shiny lens you received.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3553,8 +3876,9 @@
     "zh-Hant": ""
   },
   "203784": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>I'm very happy to answer the call for\nmore work from the junks who were\ndumped here. I couldn't have made it\n<br>\nwithout the lenses. I hope this Junk\nProjector will be given to the lens\nreceived by you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3564,8 +3888,9 @@
     "zh-Hant": ""
   },
   "203785": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>Do you know how to use the Junk\nProjector? If you place it in your\nhouse, it will be able to project your\n<br>\nmemories. I'm sure the kids will be\nhappy to see it. I hope you will show\nthem many wonderful memories of you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3575,8 +3900,9 @@
     "zh-Hant": ""
   },
   "203786": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you give Riripea a shiny lens?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3586,8 +3912,9 @@
     "zh-Hant": ""
   },
   "203787": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> handed Riripea a shiny\nlens.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3597,8 +3924,9 @@
     "zh-Hant": ""
   },
   "203788": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Riripea assembled the discarded junks\nwith a practiced hand and inserted the\nlens at the end!<se FQ_182_1 0>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3608,8 +3936,9 @@
     "zh-Hant": ""
   },
   "203789": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Riripea handed Junk Projector to\n<pc>.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3619,8 +3948,9 @@
     "zh-Hant": ""
   },
   "203790": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "How's the Junk Projector coming along?\nI'm sure it's going to be a great way\nto capture all the memories of you\n<br>\nwhen it's placed in your home. I'm\nsure the junks will be happy to see\nit. I hope you show them lots of great\n<br>\nmemories of you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3630,8 +3960,9 @@
     "zh-Hant": ""
   },
   "203860": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>He's got a curious look on his face.\nThat's definitely Urbeapog. I don't\nsell fake ones.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3641,8 +3972,9 @@
     "zh-Hant": ""
   },
   "203876": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3652,8 +3984,9 @@
     "zh-Hant": ""
   },
   "203877": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>But I am a pog butler of passion. I\nwill always accept your challenge here\nin Church.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3663,8 +3996,9 @@
     "zh-Hant": ""
   },
   "203895": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Do you want to give Entry Permit to\nAztech Guard No. 054?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3674,8 +4008,9 @@
     "zh-Hant": ""
   },
   "203896": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_one><end_attr>I'm sure she'll be fine since she's\nwith me, but I'm still worried.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3685,8 +4020,9 @@
     "zh-Hant": ""
   },
   "203897": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc><turn_pc>Oh? I know what you mean. You're a\nvery skilled adventurer, aren't you?\nWill you do me a favor? Actually, my\n<br>\nmaster is an adventurer too, and since\nhe was young, he's been going on\nadventures under the name ''Jade\n<br>\nWings'', but he's always reckless. This\ntime, he and his partner went off to\nthe Burning Lava Cave in the Chaldea\n<br>\nLava Belt, saying there was something\nvery romantic about it. Please! Can\nyou go to Burning Lava Cave and help\n<br>\nme with the master? I have a bad\nfeeling about this one.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3696,8 +4032,9 @@
     "zh-Hant": ""
   },
   "203898": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Thank you! My master is called\nKibache. Burning Lava Cave is in\nChaldea Lava Belt. Thank you very\n<br>\nmuch.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3707,8 +4044,9 @@
     "zh-Hant": ""
   },
   "203899": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Thank you!But you seem to be getting\nrequests from a lot of people. Please\nsolve those first, and then come back\n<br>\nagain.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3718,8 +4056,9 @@
     "zh-Hant": ""
   },
   "203900": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_one><end_attr>Yes, I'm sorry to hear that. If you\nchange your mind, come back.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3729,8 +4068,9 @@
     "zh-Hant": ""
   },
   "203901": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you help my master Kibache on\nhis adventure to the Burning Lava Cave\nin the Chaldea Lava Belt?<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3740,8 +4080,9 @@
     "zh-Hant": ""
   },
   "203902": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_one><end_attr>Thinking about it, something seems\nstrange this time. God, please protect\nmaster and Ryuta.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3751,8 +4092,9 @@
     "zh-Hant": ""
   },
   "203903": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr><icon_exc><turn_pc>Thank God master and Ryuta are safe. I\nhad a bad feeling this time. This is\nfor you. Please accept it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3762,8 +4104,9 @@
     "zh-Hant": ""
   },
   "203904": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>But still... Deirdre. I never dreamed\nthat the day would come when I would\nactually bring them to you. Long\n<br>\nbefore we got married, I once told\nKibache that I would go on a date with\nher if she brought me a set of Dia\n<br>\nDiamonds. To be honest, it was just an\nexcuse to turn down his persistent\nadvances, but he took it to heart and\n<br>\nset off on a journey to find the\ndiamonds.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3773,8 +4116,9 @@
     "zh-Hant": ""
   },
   "203905": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>When Kibache returned from his trip,\nhe said, ''I didn't find the gem, but\ninstead I found a phantom beast. He\n<br>\ncouldn't find the gemstone, but he\nfound a rare animal instead. And the\none who took me to see him was his\n<br>\npartner, Ryuta, the red dragon. He\nsaid, ''I'll give it to you as a\npresent! Ryuuta got angry and said,\n<br>\n''Don't treat it like an object! Ryuuta\ngot angry and they had a big fight.\nRyuuta was so relieved to see him like\n<br>\nthat. After that, the three of us\nstarted playing together, and before I\nknew it, we were married. If she\n<br>\nwanted to fulfill the Promise of the\nDay, she should have brought it\nherself.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3784,8 +4128,9 @@
     "zh-Hant": ""
   },
   "203907": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you give Laraconea the Deadia\nShard?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3795,8 +4140,9 @@
     "zh-Hant": ""
   },
   "203908": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> gave Laraconea the\nDeadia Shard and passed on a message\nfrom Kibache.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3806,8 +4152,9 @@
     "zh-Hant": ""
   },
   "203909": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Whenever I come home after an\nadventure, he always tells me about\nhis adventures. This time it's about\n<br>\nme and his promised jewel, the\nDaredire. I'm excited to see what kind\nof adventure we had.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3817,8 +4164,9 @@
     "zh-Hant": ""
   },
   "203910": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>I can't wait for Kibache and Ryuta to\ncome back.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3828,8 +4176,9 @@
     "zh-Hant": ""
   },
   "203911": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_one><end_attr>My master has gone on another\nadventure. I'm sure she'll be fine\nsince she's with me, but I'm worried.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3839,8 +4188,9 @@
     "zh-Hant": "<attr><feel_sad_one><end_attr>「あたしの旦那　また　冒険に出ちゃった……。\n　あの子が　ついてるんだから\n　大丈夫だとは　思うんだけど……心配だわ。"
   },
   "204071": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>You're a good shopper, aren't you? I'm\ngoing to end up making the merchant\ncry.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3850,8 +4200,9 @@
     "zh-Hant": ""
   },
   "204072": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Oh, come on. Don't be stingy. But I\nlike you. I'll sell it to you at a\nfriend's price.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3861,8 +4212,9 @@
     "zh-Hant": ""
   },
   "204093": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Thanks for the tip, man!I can't let\nthis happen! I gotta go see him right\nnow and let him know I'm alive too!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3872,8 +4224,9 @@
     "zh-Hant": ""
   },
   "204272": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I always do reckless things, but this\ntime I have a bad feeling about it.\nPlease, I'm counting on you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3883,8 +4236,9 @@
     "zh-Hant": ""
   },
   "204273": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I see...Princess Ulta, I see. As you\nmay already know, since the death of\nHer Majesty, the Prime Minister,\n<br>\nGuryan Rush, has been in charge of the\nEmpire. I can't say it out loud, but\nPrincess Ulta, the orphaned daughter\n<br>\nof former Emperor Ja Kuba, is not\nwell-liked by the people. The\neccentric princess is a misanthrope.\n<br>\nWith the exception of Lord Guryan\nRush, she refuses to associate with\nanyone. She's holed up in the throne\n<br>\nroom, and when she needs to go\noutside, she sends her caretaker, the\nDemon Goddess Machine, out on errands.\n<br>\nYes, that's right. Princess Ulta's\ndemonic machine might be authorized to\nissue Entry Permits. You can sometimes\n<br>\nfind them in the Imperial City, so you\nshould look around the plaza. That's\nabout all I can tell you. It was a\n<br>\ngood pogbattle. I look forward to our\nrematch!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3894,8 +4248,9 @@
     "zh-Hant": ""
   },
   "204274": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> explained that he wanted\nan Entry Permit to have an audience\nwith Princess Ulta.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3905,8 +4260,9 @@
     "zh-Hant": ""
   },
   "204281": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "We are a royal tailor. I had received\nan order directly from Guryan Rush. I\nwas surprised to find that even the\n<br>\nhead pen researcher is missing! It's a\npity, because it was a design of my\nheart, with its vivid red and green\n<br>\ncolors. We have no choice but to make\nup for this disappointment with\nPrincess Ulta's coronation gown. We'll\n<br>\nmake her the most gorgeous and\nspectacular one!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3916,8 +4272,9 @@
     "zh-Hant": ""
   },
   "204287": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Perhaps it's because the passages\nright there are convenient to go to\nand from the lower levels, but\n<br>\nsometimes people like you walk through\nthem. However, you can rest assured\nthat the Depository's security is top\n<br>\nnotch. If you need anything, please\ncome to the front of the counter.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3927,8 +4284,9 @@
     "zh-Hant": ""
   },
   "204399": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_one><end_attr>I'm sorry for being so upset. But so\nare all the people of Gateria. He's a\ndemon in human form. How's it coming?\n<br>\nDid you get it on tape? Make sure to\nrecord the fact that there are a lot\nof people who hate him.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3938,8 +4296,9 @@
     "zh-Hant": ""
   },
   "204826": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_one><end_attr>If I can't get the lenses, I may have\nto give up what I want to make with\njunk. Sigh.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3949,8 +4308,9 @@
     "zh-Hant": ""
   },
   "234580": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_one><end_attr>I never thought Ryuuta would grow so\nbig. As expected, we'll have to move.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3960,8 +4320,9 @@
     "zh-Hant": ""
   },
   "234582": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc><turn_pc>Oh, it's been a while. My master went\non an adventure right after he came\nback. He doesn't even know what people\n<br>\nare up to.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3971,8 +4332,9 @@
     "zh-Hant": ""
   },
   "234584": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_normal_one><end_attr>Well, I don't know what you're talking\nabout, but I'm asking you to give up\nDeirdre. Is that what you're saying?<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3982,8 +4344,9 @@
     "zh-Hant": ""
   },
   "234586": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>You once believed my hunch and went to\nBurning Lava Cave to help Kibache and\nthe others. If you say that you need\n<br>\nthe Dare Diamond, then I think it must\nbe really important. I hope you will\ntake good care of this special gem\n<br>\nthat connects me with my master\nKibache and my best friend Ryuta.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3993,8 +4356,9 @@
     "zh-Hant": ""
   },
   "234588": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr><turn_pc>The Dare Diamond is a special jewel\nthat connects me, my master Kibache,\nand my best friend Ryuta, and I hope\n<br>\nyou will take good care of it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -4004,8 +4368,9 @@
     "zh-Hant": ""
   },
   "234590": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you tell Laraconea about De\nAdaia?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -4015,8 +4380,9 @@
     "zh-Hant": ""
   },
   "234592": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> told Laraconea that he\nwould need the Deedia to cleanse the\nmonster after 3000 years.",
     "es": "",
     "fr": "",
     "it": "",
@@ -4026,8 +4392,9 @@
     "zh-Hant": ""
   },
   "234594": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received Deadia Shard\n(Key Item).<me 60>",
     "es": "",
     "fr": "",
     "it": "",
@@ -4037,8 +4404,9 @@
     "zh-Hant": ""
   },
   "234596": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Now that we have the Deadia Shard and\nthe Black Curse vase, let's get back\nto Sage Celedine.",
     "es": "",
     "fr": "",
     "it": "",
@@ -4048,8 +4416,9 @@
     "zh-Hant": ""
   },
   "234598": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Next, let's look for the Black Curse\nvase needed to purify Shadow of Zedra.",
     "es": "",
     "fr": "",
     "it": "",
@@ -4059,8 +4428,9 @@
     "zh-Hant": ""
   },
   "244252": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_one><end_attr>Okay. Take this with you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -4070,8 +4440,9 @@
     "zh-Hant": ""
   },
   "244257": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "We had to move because my master\npartner couldn't get into the capital\nanymore. I think the new location is\n<br>\nin the eastern part of the capital. I\nthink I'll go check it out next time.",
     "es": "",
     "fr": "",
     "it": "",

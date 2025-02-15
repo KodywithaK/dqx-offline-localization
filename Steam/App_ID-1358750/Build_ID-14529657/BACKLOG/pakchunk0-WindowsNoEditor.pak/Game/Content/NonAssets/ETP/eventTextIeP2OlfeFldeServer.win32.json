@@ -1,7 +1,8 @@
 {
   "94122": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Eh.... If you go east along the road from\nhere, you will come to a village called Pipi's\nInn. Furthermore... If you continue along the\n<br>\nroad from there, you will reach a village\ncalled Pukulet Village where Pukulipo live. If\nyou have not been there yet, it would be good\n<br>\nto go there once.",
     "es": "",
     "fr": "",
     "it": "",
@@ -11,8 +12,9 @@
     "zh-Hant": "呃～從這裡沿路往東走，\n會到一個叫皮皮旅店的村落～\n<br>\n然後～從那裡沿著幹道前進，\n會到一個普庫里坡族居住的村莊，\n名叫普庫萊特村～\n<br>\n如果你還沒去過的話，\n建議去看看喔～"
   },
   "94123": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Cheery hello, travelers. My name is Kuban, a\npeddler. I hope to make your acquaintance from\nnow on. My job is to carry goods from the Town\n<br>\nof Orphea to various places on this wagon. I'm\nheading to Glitter Windmill Tower via Pukulet\nVillage and Orpha Hill. If you want, I will\n<br>\ngive you a ride.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -22,8 +24,9 @@
     "zh-Hant": "旅人～你好啊。\n我叫庫邦，是名旅行商人～\n以後請多多指教～\n<br>\n我的工作就是用這輛馬車～\n把來自歐菲亞鎮的商品\n運到各地去～\n<br>\n接下來我會經過\n普庫萊特村和歐魯法山丘，\n前往光耀大風車塔～\n<br>\n你有事要去那附近嗎～？\n不嫌棄的話，我可以載你一程喔～<bw_break>"
   },
   "10168001": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Cheery hello, travelers. My name is Kuban, a\npeddler. I hope to make your acquaintance from\nnow on. My job is to carry the goods from Town\n<br>\nof Orphea to various places by this wagon. I'm\nheading to Glitter Windmill Tower via Pipi's\nInn and Pukulet Village. If you want, I can\n<br>\ngive you a ride.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -33,8 +36,9 @@
     "zh-Hant": "你好啊，旅行者。\n我是旅行商人庫邦，\n今後還請多多關照～\n<br>\n我的工作是用這輛馬車\n將歐菲亞鎮的商品運送到各地～\n<br>\n我接下來會經過\n皮皮旅店和普庫萊特村，\n前往光耀大風車塔～\n<br>\n你有事要去那附近嗎～？\n不嫌棄的話，我可以載你一程喔～<bw_break>"
   },
   "94124": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I'm heading to Glitter Windmill Tower via\nPukulet Village and Orpha Hill. If you want, I\ncan give you a ride.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -44,8 +48,9 @@
     "zh-Hant": "接下來我會經過\n普庫萊特村和歐魯法山丘，\n前往光耀大風車塔～\n<br>\n你有事要去那附近嗎～？\n不嫌棄的話，我可以載你一程喔～<bw_break>"
   },
   "10168002": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I'm heading to Glitter Windmill Tower via\nPipi's Inn and Pukulet Village. If you want, I\ncan give you a ride.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -55,8 +60,9 @@
     "zh-Hant": "我接下來會經過\n皮皮旅店和普庫萊特村，\n前往光耀大風車塔～\n<br>\n你有事要去那附近嗎～？\n不嫌棄的話，我可以載你一程喔～<bw_break>"
   },
   "94128": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "However, I can only drop you off, not pick you\nup. If you don't mind, where would you like to\ngo?\n<name_off><select>\nPukulet Village\nPipi's Inn (Orphea Region East)\nOrpha Hill (Monster Master House)\nGlitter Windmill Tower\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -66,8 +72,9 @@
     "zh-Hant": "不過我只會送你過去，不能去接你～\n如果你能接受的話，要去哪裡呢～？\n<name_off><select>\n普庫萊特村\n皮皮旅店（歐菲亞地方東部）\n歐魯法山丘（馴魔師之家）\n光耀大風車塔\n不搭乘\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "10168000": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "However, I can only drop you off, not pick you\nup. If you don't mind, where would you like to\ngo?\n<name_off><select>\nPukulet Village\nPipi's Inn (Orphea Region East)\nGlitter Windmill Tower\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -77,8 +84,9 @@
     "zh-Hant": "不過我只能送你過去，無法去接你回來～\n如果能接受的話，你要去哪裡呢～？\n<name_off><select>\n普庫萊特村\n皮皮旅店（歐菲亞地方東部）\n光耀大風車塔\n不搭乘\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "94129": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Thank you very much. I'll be leaving soon.",
     "es": "",
     "fr": "",
     "it": "",
@@ -88,8 +96,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>感謝乘坐～\n那麼我們現在就要出發囉～"
   },
   "94130": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Ah. You don't ride, do you? If you have a\nchance, please use us again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -99,8 +108,9 @@
     "zh-Hant": "啊～你不搭啊～\n有機會再來搭吧～"
   },
   "94131": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Hello, ladies and gentlemen. I've arrived at\nPipi's Inn. Well then, good bye.",
     "es": "",
     "fr": "",
     "it": "",
@@ -110,8 +120,9 @@
     "zh-Hant": "<pipipi_low>久等了～\n到皮皮旅店了～\n那麼，再會了～"
   },
   "94132": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Hello, ladies and gentlemen. I have arrived at\nPukulet Village. Then, good bye.",
     "es": "",
     "fr": "",
     "it": "",
@@ -121,8 +132,9 @@
     "zh-Hant": "<pipipi_low>久等了～\n到普庫萊特村了～\n那麼，再會了～"
   },
   "94133": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Ahh. It looks like you don't have enough\nmoney! Please come back again with money.",
     "es": "",
     "fr": "",
     "it": "",
@@ -132,8 +144,9 @@
     "zh-Hant": "啊～看來你的錢不夠呢～\n等你準備好錢再過來吧～"
   },
   "94134": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "You are going to <%sL_TIMEI>. I'm going to 25\ngold, is that ok?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -143,8 +156,9 @@
     "zh-Hant": "你要去<%sL_TIMEI>啊～\n這樣要２５Ｇ～可以嗎～？<yesno><break>"
   },
   "94135": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I see. I'm sorry to hear that. If you have a\nchance, please use us again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -154,8 +168,9 @@
     "zh-Hant": "這樣啊～真是可惜～\n有機會再來搭吧～"
   },
   "127394": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Hello, ladies and gentlemen. I have arrived at\nOrpha Hill. Well then, good bye.",
     "es": "",
     "fr": "",
     "it": "",
@@ -165,8 +180,9 @@
     "zh-Hant": "<pipipi_low>久等了～\n到歐魯法山丘了～\n那麼，再會了～"
   },
   "132711": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Hello, ladies and gentlemen. I've arrived at\nGlitter Windmill Tower. Well then, good bye.",
     "es": "",
     "fr": "",
     "it": "",
@@ -176,8 +192,9 @@
     "zh-Hant": "<pipipi_low>久等了～\n到光耀大風車塔了～\n那麼，再會了～"
   },
   "40242": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv2><end_attr>I love comedy. The chief of Pukulet Village\ntold me to check here to see if there are any\nfunny people. But I can't find any. There are\n<br>\nnot many people who are as passionate about\nlaughter as the residents of Pukulet Village.",
     "es": "",
     "fr": "",
     "it": "",
@@ -187,8 +204,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>我很喜歡搞笑。\n在普庫萊特村的村長的建議下，\n我在這裡觀察有什麼有趣的人。\n<br>\n但是我找不到。\n像普庫萊特村居民那樣\n投注熱情在搞笑上的人實在很少。"
   },
   "41347": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Pfft! Ha-ha-ha! It's been a while since I've\nwitnessed a gag that involved my body and\nsoul! Ha-ha-ha! You've got great taste in\n<br>\nhats. Well, but I can feel your passion for\nlaughter.",
     "es": "",
     "fr": "",
     "it": "",
@@ -198,8 +216,9 @@
     "zh-Hant": "……噗！哈哈哈！\n好久沒看到這種犧牲形象的搞笑了！\n哈哈！\n<br>\n這頂帽子的品味還真驚人啊……\n不過我能感受到\n你對搞笑的熱情喔。"
   },
   "40243": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Pfft! Ha-ha-ha! It's been a while since I've\nwitnessed a gag that involved my body and\nsoul! Ha-ha-ha! You have great taste in hats.\n<br>\nWell, but I can feel your passion for\nlaughter.",
     "es": "",
     "fr": "",
     "it": "",
@@ -209,8 +228,9 @@
     "zh-Hant": "……噗！哈哈哈！\n好久沒看到這種自嘲的搞笑了！\n哈哈！\n<br>\n這頂帽子的品味真驚人啊……\n不過我能感受到\n你對搞笑的熱情喔。"
   },
   "40244": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "You have such passion that you are willing to\ndress up in any embarrassing way for a laugh.\nI admire you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -220,8 +240,9 @@
     "zh-Hant": "只要是為了搞笑，\n你無論多丟人的裝扮都願意穿，\n這股熱情真令人佩服啊。"
   },
   "47958": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> spoke to Papaluppa while wearing\na hatching cap.",
     "es": "",
     "fr": "",
     "it": "",
@@ -231,8 +252,9 @@
     "zh-Hant": "<pc>戴著孵蛋帽\n跟帕帕魯帕搭話了。"
   },
   "47959": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> spoke to all those asked to do\nso with hatching caps on, report to Chief\nPukklei.",
     "es": "",
     "fr": "",
     "it": "",
@@ -242,8 +264,9 @@
     "zh-Hant": "<pc>戴著孵蛋帽\n跟委託中的所有人對話過了。\n去向普克雷村長報告吧。"
   },
   "39327": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv1><end_attr>That said, orders from Gartlant for Choco-God Plushies, have completely stopped.\n<br>\nIs the boom already over? Was my dream of\nrevolutionizing the character business an impossible\none...",
     "es": "",
     "fr": "",
     "it": "",
@@ -253,8 +276,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>從加特蘭德來的巧克力神布偶\n訂單之前那麼多，\n最近卻完全沒消息了。\n<br>\n是風潮已經結束了嗎？\n結果我想在角色品牌業界\n掀起革命的野心只是一場夢啊……"
   },
   "39375": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>You know the giant doll enshrined in Orphea Town's\ncircus tent? It's called the Cake God; a beloved\nstatue.\n<br>\nI took a cue from the Cake God and created a brand\nnew cute and catchy character, the Choco-God.\n<br>\nAs the name suggests, he's the chocolate-cake god!\nEventually, I'll use him to revolutionize the\ncharacter business!",
     "es": "",
     "fr": "",
     "it": "",
@@ -264,8 +288,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>你知道坐鎮在歐菲亞鎮的\n馬戲團帳篷裡的巨大人偶嗎？\n那叫做蛋糕神，非常靈驗喔。\n<br>\n我參考那尊蛋糕神，\n創造出了一個全新的角色，\n既可愛又讓人印象深刻喔。\n<br>\n我命名為巧克力神！\n正如其名，就是巧克力顏色的蛋糕神！\n<br>\n總有一天，\n我要用這個角色在角色品牌業界\n掀起一場革命！"
   },
   "39376": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>You know the giant doll enshrined in Orphea Town's\ncircus tent? It's called the Cake God; a beloved\nstatue.\n<br>\nI took a cue from the Cake God and created a brand\nnew cute and catchy character, the Choco-God.\n<br>\nFor now, I've only just started selling the\nChoco-God Plushies that I make, but they're very\nprofitable... Especially in the Gartland Castle area.\n<br>\nThanks to retailer's support, I feel that a boom\nis coming.",
     "es": "",
     "fr": "",
     "it": "",
@@ -275,8 +300,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>你知道坐鎮在歐菲亞鎮的\n馬戲團帳篷裡的巨大人偶嗎？\n那叫做蛋糕神，非常靈驗喔。\n<br>\n我參考那尊蛋糕神，\n創造出了一個全新的角色巧克力神，\n既可愛又讓人印象深刻喔。\n<br>\n我目前先做了\n巧克力神布偶拿來賣，\n銷量還相當不錯喔……\n<br>\n特別是加特蘭德城附近，\n因為零售端幫我用力推銷，\n感覺會掀起一股風潮喔。"
   },
   "39377": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>You know the giant doll enshrined in Orphea Town's\ncircus tent? It's called the Cake God; a beloved\nstatue.\n<br>\nI took a cue from the Cake God and created a brand\nnew cute and catchy character, the Choco-God.\n<br>\n...Hmm? In Gartlant Castletown, the store selling the\nChoco-God Plushies-Mr. Zackes' shop-has been shut\ndown...?",
     "es": "",
     "fr": "",
     "it": "",
@@ -286,8 +312,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>你知道坐鎮在歐菲亞鎮的\n馬戲團帳篷裡的巨大人偶嗎？\n那叫做蛋糕神，非常靈驗喔。\n<br>\n我參考那尊蛋糕神，\n創造出了一個全新的角色巧克力神，\n既可愛又讓人印象深刻喔。\n<br>\n……嗯？在加特蘭德城鎮\n賣巧克力神布偶的\n札科斯的店停業了……？"
   },
   "39378": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<icon_exc>W-what are we going to do!! For the time being,\nthe Choco-God Plushie is only selling at Gartlant\nCastletown.\n<br>\nIf the boom ends there, my dream of revolutionizing\nthe character business will be lost...\n<br>\nAs if I'd allow that to happen! How can we save\nMr. Zackes? You came here to help, didn't you?\n<br>\n...I see, I see. If we prove that anybody can obtain\nthe Choco-God Plushie would do it. If that's the\ncase, it's settled!\n<br>\nCurrently, all I have is this unfinished one, but\nthat should be enough. Here, take it!",
     "es": "",
     "fr": "",
     "it": "",
@@ -297,8 +324,9 @@
     "zh-Hant": "<icon_exc>糟……糟糕啦～！！\n<br>\n目前巧克力神布偶\n只在加特蘭德城鎮銷售。\n<br>\n要是風潮這時候就結束，\n我想在角色品牌業界掀起革命的野心\n就會破滅了……\n<br>\n我豈能讓那種事情發生！\n要怎麼樣才能拯救札科斯？\n你是來幫我的吧？\n<br>\n……喔？只要能證明任何人\n都能得到巧克力神布偶就好了啊？\n那還不簡單！\n<br>\n雖然我現在只有半成品，\n但是要拿去當證據已經很夠了。\n來，這東西你拿去吧！"
   },
   "39380": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "If there was something to prove that I make the\nChoco-God Plushies, that'd be it, I'd say.",
     "es": "",
     "fr": "",
     "it": "",
@@ -308,8 +336,9 @@
     "zh-Hant": "有那東西的話，\n應該就能證明巧克力神布偶\n是我做的了吧。"
   },
   "41302": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> received the\nUnfinished Plushie (Key Item)!<me_60>",
     "es": "",
     "fr": "",
     "it": "",
@@ -319,8 +348,9 @@
     "zh-Hant": "<pc>收下了\n半成品的布偶（重要物品）！<me_60>"
   },
   "40516": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "To save Mr. Zackes... And by extension, protect my\ndream, hold on tight to this plushie and deliver\nit for me!",
     "es": "",
     "fr": "",
     "it": "",
@@ -330,8 +360,9 @@
     "zh-Hant": "為了拯救札科斯……\n更為了保住我的野心，\n你一定要把那個布偶送過去！"
   },
   "39381": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>I've received more orders from Mr. Zackes' plushie\nshop! It seems he's successfully reopened for\nbusiness.\n<br>\nFor a while there, I wondered, but... My dream still\nhas a long way to go. It'll be a revolution!!",
     "es": "",
     "fr": "",
     "it": "",
@@ -341,8 +372,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>札科斯的布偶店\n發追加訂單來了！\n看來他順利重新開張了。\n<br>\n我本來還很擔心……\n不過我的野心才剛開始。\n我要掀起革命～！！"
   },
   "46350": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I killed <%sEV_QUE_NAME0> and\n<%nEV_QUE_S_NUM0>! We have killed\n<%nEV_QUE_T_NUM0>!",
     "es": "",
     "fr": "",
     "it": "",
@@ -352,8 +384,9 @@
     "zh-Hant": "打倒了<%nEV_QUE_S_NUM0>隻<%sEV_QUE_NAME0>！\n這樣子就打完<%nEV_QUE_T_NUM0>隻了！"
   },
   "59248": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Ah~n. I'm a sexy sister. I love all things\nelegant. I'm going to become an apprentice\nhairdresser. There's a store called Salon in\n<br>\nthe City of Megistris, way to the west, and\nit's about to open, so please come visit.",
     "es": "",
     "fr": "",
     "it": "",
@@ -363,8 +396,9 @@
     "zh-Hant": "嗯哼～我是性感大姊姊～\n最、最、最喜歡優雅的東西了～\n接下來我要去當個實習美容師了～\n<br>\n位於遙遠西方的花都麥奇斯翠絲\n有間店叫做美容院，\n之後就要開幕了，記得來光顧喔～"
   },
   "59249": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I am an apprentice hairdresser at Salon Fee\nLycia. I'm going to create a new color for the\nsalon. I want to make a sexier and more\n<br>\nelegant color, but I need a gemstone called\nNight Whisper that <%sEV_QUE_NAME0> has. I\nheard that the monster in Sage's Lair in\n<br>\nPopola Region drops Night Whisper, but it's\nvery strong, so it's impossible for me to get\nit.",
     "es": "",
     "fr": "",
     "it": "",
@@ -374,8 +408,9 @@
     "zh-Hant": "我是菲麗西亞沙龍的實習美容師～\n這次的工作是要製作\n美容院要用的新顏色～\n<br>\n我想做出更性感、更優雅的顏色，\n但是需要<%sEV_QUE_NAME0>身上的一種寶石，\n叫做夜之細語～\n<br>\n那種會掉落夜之細語的怪物\n就在波波拉地方的賢者隱居處，\n可是牠們很強，我完全打不過～"
   },
   "59250": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Ah~n. It's so wonderful that you listen to my\nrequest with such a sexy voice. I was so\nexcited to hear her voice that I fainted~. If\n<br>\nI kill a few <%sEV_QUE_NAME0>, they should\ndrop the Night Whisper sooner or later~. Hang\nin there, hang in there, hang in there. Hang\n<br>\nin there, hang in there, hang in there.",
     "es": "",
     "fr": "",
     "it": "",
@@ -385,8 +420,9 @@
     "zh-Hant": "啊啊～用那種性感嗓音答應我的請求，\n真讓我感激不盡～\n聽得我都快昏倒了～\n<br>\n只要多打倒幾隻<%sEV_QUE_NAME0>，\n牠們遲早會掉落夜之細語的～\n加油，加油，加加油～"
   },
   "59251": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Ah~n. It's so wonderful that you listen to my\nrequest with such a sexy voice. I\nunintentionally fainted at the sound of her\n<br>\nvoice. Oh no~. But it seems you are full of\nother people's requests~. Come again when\nyou're free~.",
     "es": "",
     "fr": "",
     "it": "",
@@ -396,8 +432,9 @@
     "zh-Hant": "啊啊～用那種性感嗓音答應我的請求，\n真讓我感激不盡～\n聽得我都快昏倒了～\n<br>\n啊啊～討厭啦～\n但是你好像接滿了其他人的委託～\n等你有空再來吧～"
   },
   "59252": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv2><end_attr>Ah~n. To refuse my request with such a sexy\nvoice... Sauzetsu and Monsetsu~... I fainted\nunintentionally at the sound of her voice. The\n<br>\nmore sexy and elegant sister color that comes\nfrom Night Whisper. It's too bad~.",
     "es": "",
     "fr": "",
     "it": "",
@@ -407,8 +444,9 @@
     "zh-Hant": "<attr><feel_sad_lv2><end_attr>啊啊～用那種性感嗓音拒絕我的請求，\n真讓我求生不能，求死不得～\n聽得我都快昏倒了～\n<br>\n以夜之細語催生出來的\n更加性感、更加優雅的成熟大姊姊系顏色……\n明明很適合你的，真是太遺憾了～"
   },
   "61581": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>No. You are such a Strongholdgirl~. Ah~n. Go\nget me that Night Whisper I've been begging\nfor~~.<else><attr><feel_happy_lv2><end_attr><icon_exc>No. You are such a Stronghboy~. Ah~n. Go get\nme that Night Whisper I've been begging for~.<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -418,8 +456,9 @@
     "zh-Hant": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>唷～你真是個厲害的女孩啊～\n嗯哼～我有事情想拜、託、你<heart>\n請你幫我去拿夜之細語嘛～<else><attr><feel_happy_lv2><end_attr><icon_exc>唷～你真是個厲害的男孩啊～\n嗯哼～我有事情想拜、託、你<heart>\n請你幫我去拿夜之細語嘛～<endif>"
   },
   "59253": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Ahhhh, I need to defeat <%sEV_QUE_NAME0> in\nSage's Lair in Popola Region to get a gem\ncalled Night Whisper.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -429,8 +468,9 @@
     "zh-Hant": "啊啊～去幫我打倒位於波波拉地方\n賢者隱居處的<%sEV_QUE_NAME0>，\n獲得一種叫夜之細語的寶石喔～<open_irai><bw_break>"
   },
   "63703": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "I really need those gems to make the color\nmore sexy and elegant~. Hang in there, hang in\nthere, hang in there. Hang in there, hang in\n<br>\nthere, hang in there.",
     "es": "",
     "fr": "",
     "it": "",
@@ -440,8 +480,9 @@
     "zh-Hant": "如果要做出更性感、更優美的顏色，\n那無論如何都需要那種寶石呢～\n加油、加油、加加油～"
   },
   "59254": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Ah~n. I can't stand it~. I really need to hear\nthat, no matter how much I want to. Night\nWhisper calling me to Sosetsu. I can't hold\n<br>\nback any longer. Give me Night Whisper.",
     "es": "",
     "fr": "",
     "it": "",
@@ -451,8 +492,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>啊啊～我說你啊，真討厭耶～\n就算不想知道我也聽到了～\n夜之細語在強烈呼喚我喔～\n<br>\n不……不行，我忍不住了～\n快把夜之細語～交給我～"
   },
   "59255": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv2><end_attr>Ahh~n. I don't want to do that. I'm whispering\nright in front of you and you're teasing me...\nI just fainted and I'm so nervous.",
     "es": "",
     "fr": "",
     "it": "",
@@ -462,8 +504,9 @@
     "zh-Hant": "<attr><feel_sad_lv2><end_attr>啊啊～不要這樣嘛～\n它明明在我眼前細語，你卻吊我胃口，\n讓我都快昏倒了～"
   },
   "59256": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>I'm too happy. I'm too happy! With this, I can\nmake the long-awaited, sexier, more elegant\nsister color~. Then, I'll be making new colors\n<br>\nat a blinding speed. Good luck. I'll do my\nbest.",
     "es": "",
     "fr": "",
     "it": "",
@@ -473,8 +516,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>討厭啦，我現在高興到要死掉了～\n這樣一來我就能做出眾所期盼的\n更性感、更優雅的成熟大姊姊系顏色了～\n<br>\n那我就來用迅雷不急掩耳的極限速度，\n做出新的顏色吧～\n我要加油～我要加加油～"
   },
   "59257": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<heart> Don't whisper so much. I'm waiting for\nyou, Night Whisper. I'll extract the colors\nsoon.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -484,8 +528,9 @@
     "zh-Hant": "嗯～<heart>不能對我細語啦～\n要等等喔～夜之細語寶貝。\n我馬上就抽取顏色，要等等喔～<bw_break>"
   },
   "59258": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Ah~n. It's too good~. This completes Salon's\nnew color~. I call it midnight color~.",
     "es": "",
     "fr": "",
     "it": "",
@@ -495,8 +540,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>啊啊～好厲害喔～成品太完美了～\n這樣美容院的新顏色就完成了～\n把它命名為午夜色吧～"
   },
   "59259": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Ah~n. You're doing too good a job~. This is a\ngift from me to you~. Feel free to accept it~.",
     "es": "",
     "fr": "",
     "it": "",
@@ -506,8 +552,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>啊啊～你辦得太棒了～\n這是我的謝禮喔～\n別客氣，收下吧～"
   },
   "59260": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "This sexy midnight color is available at all\nSalon locations. It's too good for you, so\ngive it a try~. In order to become a sexier,\n<br>\nmore elegant, and more beautiful lady, I've\nbeen studying the magic of beauty without\nsleep~. Like Madame Felicia, you too should be\n<br>\nconscious of being seen by others, and try to\nlook good while you're bending down~. It's so\nwonderful to see someone who is so dazzling~.",
     "es": "",
     "fr": "",
     "it": "",
@@ -517,8 +564,9 @@
     "zh-Hant": "我會確保在每一間店美容院\n都可以使用這性感的午夜色喔～\n這個超級適合你的，要去試試喔～\n<br>\n為了成為更性感、更優雅的成熟女性，\n我不惜犧牲睡眠，\n也在研究美的魔法喔～\n<br>\n你也要像菲麗西亞夫人那樣，\n把自己招引目光的事放在心上，發光發熱喔～\n發光發熱的人最美麗了～"
   },
   "59306": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Magical Sexy  Magical Sexy  Magical Sexy\nSeriously, I can't wait to see you!  Sexy\ndynamite full throttle  Sexy Dynamite Full\n<br>\nThrottle!",
     "es": "",
     "fr": "",
     "it": "",
@@ -528,8 +576,9 @@
     "zh-Hant": "魔力繽紛又性感♪魔力閃耀還是性感♪\n認真心動！隨意展翅！\n性感炸彈油門全開！"
   },
   "59261": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Would you like to give Night Whisper to\nMamapona?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -539,8 +588,9 @@
     "zh-Hant": "是否要將夜之細語\n交給瑪瑪珀娜？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "59262": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> gave Mamapona the Night Whisper!",
     "es": "",
     "fr": "",
     "it": "",
@@ -550,8 +600,9 @@
     "zh-Hant": "<pc>把夜之細語\n交給了瑪瑪珀娜！"
   },
   "59263": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Mamapona cast a spell on Night Whisper with\nher sexy hands!<me 69>",
     "es": "",
     "fr": "",
     "it": "",
@@ -561,8 +612,9 @@
     "zh-Hant": "瑪瑪珀娜用性感的手勢\n對夜之細語施加了魔法！<me 69>"
   },
   "59264": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "A new color, ''midnight,'' is now available in\nSalon!<me 71>",
     "es": "",
     "fr": "",
     "it": "",
@@ -572,8 +624,9 @@
     "zh-Hant": "可以在美容院使用新顏色\n「午夜色」了！<me 71>"
   },
   "59265": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "In order to become a sexier, more elegant, and\nmore beautiful sister, I've been studying the\nmagic of beauty even while I sleep~. Like\n<br>\nMadame Felicia, you too should be conscious of\nbeing seen by others and bend down~. It's so\nwonderful to see someone who is so dazzling~.",
     "es": "",
     "fr": "",
     "it": "",
@@ -583,8 +636,9 @@
     "zh-Hant": "為了成為更性感、更優雅的成熟女性，\n我不惜犧牲睡眠，\n也在研究美的魔法喔～\n<br>\n你也要像菲麗西亞夫人那樣，\n把自己招引目光的事放在心上，發光發熱喔～\n發光發熱的人最美麗了～"
   },
   "126163": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Hi, I'm looking for an adventurer with the\nblessing of the War Mother! I'm looking for an\nadventurer with the blessing of the War\n<br>\nMother. Well, I guess you're different. If you\nhave received the War Mother's blessing and\nwish to release your next level of power, then\n<br>\nwe can talk again!",
     "es": "",
     "fr": "",
     "it": "",
@@ -594,8 +648,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>你們好啊！我正在尋找\n受到鬥戰聖母大人保佑\n且等級較高的厲害冒險者。\n<br>\n嗯……看來不是你們幾個呢。\n等你們當中有人等級超過６５級……\n<br>\n到時若是想要解放下一階段的力量，\n就去接受鬥戰聖母大人的保佑看看吧。\n到時候我們再來談！"
   },
   "126164": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Hello, I'm Nazuna, a light guide! I'm Nazuna,\na light guide, and I'm looking for adventurers\nwho have received the blessings of the War\n<br>\nMother. Huh? But you seem to be a little too\nyoung to be guided by me, so come back when\nyou've finished guiding Light Guide Meemi!",
     "es": "",
     "fr": "",
     "it": "",
@@ -605,8 +660,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>你好啊！我是光導使奈津那。\n我正在尋找受到\n鬥戰聖母大人保佑的冒險者喔。\n<br>\n咦？不過你想接受我的引導好像還太早了。\n等你完成光導使米米的引導後\n再來找我吧！"
   },
   "126170": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>As a light guide, I not only serve the Sacred Light Lord,\none of the Six Saints, but I also embody the spirit\nof the Lord.\n<br>\nI am in charge of the Sacred Light Lord's compassion.\nIf you happen to want to liberate more power, I wish\nfor you to show your love too.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -616,8 +672,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>我是光導使奈津那。\n你是受到鬥戰聖母大人保佑的鬥戰士，\n<pc>對吧？我聽米米說過了喔！\n<br>\n光導使是體現了六聖陣之一\n聖光教主大人的精神，\n這點你還記得嗎？\n<br>\n我所掌管的是聖光教主大人的慈愛。\n如果你想解放更強大的力量，\n請你展現出慈愛。\n<br>\n我會像光芒一樣引導你，\n帶領你解放下一階段的力量！"
   },
   "126172": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>...Alrighty. Then, let the liberation begiiin!\n<br>\nI'll give you this! When I give the signal, hold it\nup high, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -627,8 +684,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>……好了，那我們開始進行解放儀式吧～！\n<br>\n這個先給你！等我一打暗號，\n你就把它高高舉起來吧。"
   },
   "20168000": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<pc> was given a Kindness Crest!",
     "es": "",
     "fr": "",
     "it": "",
@@ -638,8 +696,9 @@
     "zh-Hant": "<pc>收到了\n慈愛紋章！"
   },
   "126174": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Now the liberation of power is over, y'know! Mm-hmm,\nyou look good full of new power!\n<br>\nIf you receive guidance from all 3 of us Light Guides,\nthat power, I'm certain, you shall get ahold of!!",
     "es": "",
     "fr": "",
     "it": "",
@@ -649,8 +708,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>剛才那樣子就解放完力量了！\n嗯，你充滿了新的力量，\n表情很不錯嘛！\n<br>\n只要接受我們三名光導使的引導，\n你肯定更能掌握那股力量喔！"
   },
   "126175": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv1><end_attr>And then! I'll tell you why the Sacred Light Lord we\nLight Guides serve conceals themself, okay.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -660,8 +720,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>還有！關於我們光導使侍奉的聖光教主\n為何要隱匿行蹤，\n我就把原因告訴你吧。<bw_break>"
   },
   "126176": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "We serve the Sacred Light Lord, and as one of the Six\nSaints, they are blessed with a specific mission from\nthe Goddess Lutiana.\n<br>\n...That mission is to accumulate the mighty power of\nthe Sacred Light within themself.\n<br>\nThat power, during the decisive battle against the\nsource of Great Darkness, will be divided upon the\nwarriors, giving them resiliency against Demon Miasma.\n<br>\nIn order to contain this mighty power within themself\nand carry out their mission, the Sacred Light Lord is\nconcealing themself to rest deeply.\n<br>\nBut now that the times call for the strong, if you\nseek more power, sooner or later, the Sacred Light\nLord will reveal themself!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -671,8 +732,9 @@
     "zh-Hant": "我們侍奉的聖光教主大人是六聖陣之一，\n他接受了女神露琪亞娜大人\n授予的某項使命。\n<br>\n……那就是用教主大人自己的身體\n來儲存強大的聖光之力。\n<br>\n傳說在與龐大黑暗根源的決戰中，\n那股力量將會被分給鬥戰士，\n賜予他們能夠承受一切魔瘴的強韌肉體。\n<br>\n聖光教主大人為了完成使命，\n在體內累積更強大的力量，\n所以才會隱匿起來，陷入沉眠。\n<br>\n但如今時代渴望著強者，\n只要你繼續累積實力，\n總有一天，教主大人應該也會現身的！<bw_break>"
   },
   "126178": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "If you visit the final Light Guide, you'll see for\nyourself what you need to do.\n<br>\nThe 3rd Light Guide's name is Menna. Currently, she\nshould be at Mogare Camp on the Mogarim Highway.\n<br>\nAnd please—even for a minute's good, so—I hope\nyou wake the Sacred Light Lord from their slumber!\n<br>\nAfter all, if the chosen warriors don't show up, even\nus Light Guides won't be able to meet the Sacred\nLight Lord! Harsh, don't you think!?\n<br>\nAaah..! No matter the age, love is a painful thing...",
     "es": "",
     "fr": "",
     "it": "",
@@ -682,8 +744,9 @@
     "zh-Hant": "只要去見完最後一名光導使，\n你就會明白自己的使命了。\n<br>\n第三名光導使名為玫娜，\n現在人應該在摩加利姆幹道的\n摩加雷營地。\n<br>\n然後請你務必將聖光教主大人從沉眠中喚醒，\n就算只是暫時的也好！\n<br>\n因為如果被選上的鬥戰士不出現，\n我們光導使就見不到聖光教主大人了！\n你不覺得這樣很過分嗎！？\n<br>\n啊……！\n無論什麼時代，戀愛總是讓人苦悶……"
   },
   "126184": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "In order to meet the Sacred Light Lord who is\nconcealing themself, there are a few steps required.\nNext & last, try visiting the final Light Guide, okay.\n<br>\nThe 3rd Light Guide's name is Menna. Currently, she\nshould be at Mogare Camp on the Mogarim Highway.\n<br>\nAnd please—even for a minute's good, so—I hope\nyou wake the Sacred Light Lord from their slumber!\n<br>\nAfter all, if the chosen warriors don't show up, even\nus Light Guides won't be able to meet the Sacred\nLight Lord! Harsh, don't you think!?\n<br>\nAaah..! No matter the age, love is a painful thing...",
     "es": "",
     "fr": "",
     "it": "",
@@ -693,8 +756,9 @@
     "zh-Hant": "要見到隱匿起來的聖光教主大人，\n必須經過幾個階段。\n接下來你終於要去見最後的光導使了。\n<br>\n第三名光導使名為玫娜，\n現在人應該在摩加利姆幹道的\n摩加雷營地。<open_irai>\n<br>\n然後請你務必將聖光教主大人從沉眠中喚醒，\n就算只是暫時的也好！<br>\n<close_irai>因為如果被選上的鬥戰士不出現，\n我們光導使就見不到聖光教主大人了！\n你不覺得這樣很過分嗎！？\n<br>\n啊……！\n無論什麼時代，戀愛總是讓人苦悶……"
   },
   "126185": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv1><end_attr>There are several steps required to meet the\nhidden Light Lord, but it seems that Menna has\nalready met him. So it looks like the Light\n<br>\nLord is finally here!What should we do? I\ncan't stay like this!",
     "es": "",
     "fr": "",
     "it": "",
@@ -704,8 +768,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>要見到隱匿起來的聖光教主大人，\n必須經過幾個階段……\n不過看來你已經見過玫娜了。\n<br>\n這就表示聖光教主大人終於要……！？\n怎……怎麼辦？\n我不能再這樣無所事事了！"
   },
   "143537": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_angry_lv2><end_attr>What? You already tried to meet the Light\nLord? I promised the Light Lord that the three\nof us would meet him together, but Menna is\n<br>\njust awful!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -715,8 +780,9 @@
     "zh-Hant": "<attr><feel_angry_lv2><end_attr>咦～！？你們已經試過\n去見聖光教主大人了嗎！？\n<br>\n我們明明約好三個人\n一起去見聖光教主大人的，\n玫娜真是的，好過分～！<bw_break>"
   },
   "143538": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_think_lv2><end_attr>But why didn't the Lord hear my voice?",
     "es": "",
     "fr": "",
     "it": "",
@@ -726,8 +792,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>不過為什麼聲音沒能\n傳達給教主大人呢～？"
   },
   "153106": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Minana! Our companion, I can't wait to meet\nyou! You must come too, <pc>! I\npromise!",
     "es": "",
     "fr": "",
     "it": "",
@@ -737,8 +804,9 @@
     "zh-Hant": "美奈娜……！\n我們的夥伴……\n我得快去找她！\n<br>\n<pc>也一定要來喔！\n就這麼說定了！"
   },
   "144093": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Thanks to <pc>, I am glad to see\nMinana again! Now you get to meet the Light\nLord. Ahhh..! But I'm so nervous!",
     "es": "",
     "fr": "",
     "it": "",
@@ -748,8 +816,9 @@
     "zh-Hant": "多虧<pc>，我才又見到了美奈娜，\n真是太好了！\n<br>\n下次就能見到聖光教主大人了呢。\n啊～！可是我會緊張～！"
   },
   "145023": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>The Light Lord's awakening time is near! I\ncan't tell you how long I've been waiting for\nthis day. I'm looking forward to seeing you\n<br>\nget the Justice Crest safely! May the\nblessings of the Light be with you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -759,8 +828,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>聖光教主大人就快要甦醒了呢！\n我不知道有多期盼這一天……\n<br>\n我由衷期待你能\n順利打倒考驗猛獸喔！\n願聖光保佑你。"
   },
   "145024": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv3><end_attr>I wish I could have fluffed Light Lord more.\nFluffy is the word. It's the feeling of being\nsoft and fluffy! It's very comfortable!\n<br>\n<pc> did your best, so next time you\nsee the Light Lord, you should let him fluff\nyou up!",
     "es": "",
     "fr": "",
     "it": "",
@@ -770,8 +840,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>我好想多摸摸聖光教主啊～\n<br>\n說到摸起來的感覺啊，\n要形容就是毛茸茸、\n鬆軟軟的！非常舒服喔！\n<br>\n<pc>也很努力，\n所以下次見到聖光教主大人的時候，\n可以請他讓你摸摸喔！"
   },
   "34966": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "If I wasn't at work, I would be going to see\nthe Great Nabunabu Circus at the Town of\nOrphea. What a pity.",
     "es": "",
     "fr": "",
     "it": "",
@@ -781,8 +852,9 @@
     "zh-Hant": "要不是正在工作，\n我就去歐菲亞鎮的納布納布大馬戲團看表演了。\n真是的……好可惜啊。"
   },
   "44836": {
+    "$comments": null,
     "de": "",
-    "en": "",
+    "en": "Pipi's Inn, a lovely and fun place to stay, is\nlocated here. Well...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
