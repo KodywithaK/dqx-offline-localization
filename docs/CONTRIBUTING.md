@@ -21,6 +21,8 @@
 
 ## Add sections
 
+<details>
+
 ### `comments` section
 
 - Find:
@@ -29,7 +31,14 @@
 
 - Replace:
 
-  - `"comments": "",\n    `
+  - `"$comments": "",\n    `
+
+<!-- 
+#### Command Prompt
+- `"comments"` > `"$comments"` + sort languages
+```cmd
+FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq "to_entries | map(.value = (.value | .[\"$comments\"] = .comments | del(.comments) | to_entries | sort | from_entries )) | from_entries" ".\BACKLOG\%A" > ".\IN_PROGRESS\%A"
+``` -->
 
 ### `{LANGUAGE}` section
 
@@ -39,7 +48,6 @@
 
 - Replace:
 
-  - `"{LANGUAGE}": "",\n    `
   - `"{LANGUAGE}": "",\n    `
 
 - E.g.:
@@ -51,7 +59,11 @@
   - Replace:
     - `"pt-BR": "",\n    `
 
+</details>
+
 ## Edit sections
+
+<details>
 
 ### `Character Profile:`
 
@@ -60,7 +72,7 @@
 ```json
 {
   "SYSTXT_TIPS_TITLE_MURAOUKURIHUGEEN": {
-    "comments": "",
+    "$comments": "",
     "de": "",
     "en": "",
     "es": "",
@@ -100,7 +112,7 @@
 ```json
 {
   "SYSTXT_TIPS_TITLE_MURAOUKURIHUGEEN": {
-    "comments": "",
+    "$comments": "",
     "de": "Profil: 村王クリフゲーン",
     "en": "Profile: 村王クリフゲーン",
     "es": "Perfil: 村王クリフゲーン",
@@ -108,7 +120,7 @@
     "it": "Profilo: 村王クリフゲーン",
     "ja": "人物紹介：村王クリフゲーン",
     "ko": "인물 소개: 촌왕 클리프겐",
-    // "pt-BR": "TBD: 村王クリフゲーン",
+    "pt-BR": "TBD: 村王クリフゲーン",
     "zh-Hans": "人物介绍：村王克里夫肯",
     "zh-Hant": "人物介紹：村王克里夫耿"
   }
@@ -117,24 +129,634 @@
 
 </details>
 
+## Merge sections
+
+<details>
+
+- Add new value(s), if they don't already exist using `jq`
+
+### Input
+
+- `$old`
+  - original version `Steam\**\BACKLOG\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+
+- `$new`
+  - edited version `Steam\**\IN_PROGRESS\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+
+```json
+// $old
+{
+  "255892": {
+    "$comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
+    "de": "Die Tür ist fest verriegelt.",
+    "en": "", // value does NOT exist, so it WILL be affected in `Steam\**\DONE\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+    "es": "La puerta está bien cerrada.",
+    "fr": "La porte est bien fermée.",
+    "it": "La porta è ben chiusa.",
+    "ja": "扉は　かたく　閉ざされている。",
+    "ko": "문은 굳게 닫혀 있다.",
+    "pt-BR": "A porta está bem fechada.",
+    "zh-Hans": "门紧闭着。",
+    "zh-Hant": "門扉緊閉著。"
+  },
+  "255893": {
+    "$comments": "",
+    "de": "Da liegt etwas in der Truhe.",
+    "en": "___EXISTING_VALUE___", // value DOES exist, so it will NOT be affected in `Steam\**\DONE\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+    "es": "Hay algo en el cofre.",
+    "fr": "Il y a quelque chose dans le coffre.",
+    "it": "C'è qualcosa nel forziere.",
+    "ja": "宝箱がある。",
+    "ko": "보물 상자가 있다.",
+    "pt-BR": "",
+    "zh-Hans": "有一个宝箱。",
+    "zh-Hant": "有一個寶箱。"
+  }
+}
+// $new
+{
+  "255892": {
+    "en": "___NEW_VALUE_1___"
+  },
+  "255893": {
+    "en": "___NEW_VALUE_2___"
+  }
+}
+```
+
+### JQ Query
+```js
+# jq -s
+reduce (.) as [$old,$new] (
+    {};
+    reduce ($old | keys_unsorted)[] as $namespace (
+        .;
+        .[$namespace] += (
+            $old[$namespace]
+            | if (.en == "") # IF: $old[$namespace].{LANGUAGE} has no existing value,
+             then (.en = $new[$namespace].en) # THEN: $old[$namespace].{LANGUAGE} = $new[$namespace].{LANGUAGE},
+             else ( . ) # ELSE: $old[$namespace] remains the same,
+             end
+             | (to_entries | sort | from_entries) # SORT: $old[$namespace]'s keys (.{LANGUAGE})
+        )
+    )
+)
+```
+
+### OUTPUT
+```json
+{
+  "255892": {
+    "$comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
+    "de": "Die Tür ist fest verriegelt.",
+    "en": "___NEW_VALUE_1___", // <- missing value is updated
+    "es": "La puerta está bien cerrada.",
+    "fr": "La porte est bien fermée.",
+    "it": "La porta è ben chiusa.",
+    "ja": "扉は　かたく　閉ざされている。",
+    "ko": "문은 굳게 닫혀 있다.",
+    "pt-BR": "A porta está bem fechada.",
+    "zh-Hans": "门紧闭着。",
+    "zh-Hant": "門扉緊閉著。"
+  },
+  "255893": {
+    "$comments": "",
+    "de": "Da liegt etwas in der Truhe.",
+    "en": "___EXISTING_VALUE___", // <- existing value is unchanged
+    "es": "Hay algo en el cofre.",
+    "fr": "Il y a quelque chose dans le coffre.",
+    "it": "C'è qualcosa nel forziere.",
+    "ja": "宝箱がある。",
+    "ko": "보물 상자가 있다.",
+    "pt-BR": "",
+    "zh-Hans": "有一个宝箱。",
+    "zh-Hant": "有一個寶箱。"
+  }
+}
+```
+
+### Powershell
+
+- Escape (`) the following characters:
+
+  - `$`, `"`
+
+- Single-line version
+
+```powershell
+jq -s "reduce (.) as [`$old,`$new] ({};reduce (`$old | keys_unsorted)[] as `$namespace (.;.[`$namespace] += (`$old[`$namespace]| if (.en == `"`")then (.en = `$new[`$namespace].en)else ( . )end)))" "Steam\**\BACKLOG\**\ETP\$old.json" "Steam\**\IN_PROGRESS\**\ETP\$new.json" > "Steam\**\DONE\**\ETP\$OUTPUT.json"
+```
+
+- Multi-line version
+
+```powershell
+`
+jq -s `
+"reduce (.) as [`$old,`$new] ({};reduce (`$old | keys_unsorted)[] as `$namespace (.;.[`$namespace] += (`$old[`$namespace]| if (.en == `"`")then (.en = `$new[`$namespace].en)else ( . )end)))" `
+"Steam\**\BACKLOG\**\ETP\$old.json" `
+"Steam\**\IN_PROGRESS\**\ETP\$new.json" `
+> "Steam\**\DONE\**\ETP\$OUTPUT.json"
+```
+
+### Command Prompt
+
+<details>
+
+#### 01. old_format > new
+
+- Where:
+
+  - old_format =
+    - ([`testing` branch's](https://github.com/KodywithaK/dqx-offline-localization/tree/testing)) old `.etp` format
+    - With your translation additions/edits, e.g.:
+      ```json
+      {
+        "{namespace}": {
+          "{japanese}": "{english}"
+        }
+      }
+      ```
+  - new =
+    - ([`main` branch's](https://github.com/KodywithaK/dqx-offline-localization)) new `.etp` format
+    - With your translation additions/edits, e.g.:
+      ```json
+      {
+        "{namespace}": {
+          // "de": "",
+          "en": "{english}"
+          // "es": "",
+          // "fr": "",
+          // "it": "",
+          // "ja": "",
+          // "ko": "",
+          // "pt-BR": "",
+          // "zh-Hans": "",
+          // "zh-Hant": ""
+          // or "{your_language}": "{your_translations}", etc.
+        }
+      }
+      ```
+
+- Command
+
+```cmd
+FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq "to_entries | map(.value = {en: .value[]}) | from_entries" ".\old_format\%A" > ".\new\%A"
+```
+
+---
+
+#### 02. old + new > output
+
+- Where:
+
+  - `$old` =
+
+    - original version, e.g.:
+      - `Steam\**\BACKLOG\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+
+  - `$new` =
+    - edited version, e.g.:
+      - `Steam\**\IN_PROGRESS\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+
+```json
+// INPUT
+{
+  "255892": {
+    "$comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
+    "de": "Die Tür ist fest verriegelt.",
+    "en": "", // value does NOT exist, so it WILL be affected in `Steam\**\DONE\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+    "es": "La puerta está bien cerrada.",
+    "fr": "La porte est bien fermée.",
+    "it": "La porta è ben chiusa.",
+    "ja": "扉は　かたく　閉ざされている。",
+    "ko": "문은 굳게 닫혀 있다.",
+    "pt-BR": "A porta está bem fechada.",
+    "zh-Hans": "门紧闭着。",
+    "zh-Hant": "門扉緊閉著。"
+  },
+  "255893": {
+    "$comments": "",
+    "de": "Da liegt etwas in der Truhe.",
+    "en": "___EXISTING_VALUE___", // value DOES exist, so it will NOT be affected in `Steam\**\DONE\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+    "es": "Hay algo en el cofre.",
+    "fr": "Il y a quelque chose dans le coffre.",
+    "it": "C'è qualcosa nel forziere.",
+    "ja": "宝箱がある。",
+    "ko": "보물 상자가 있다.",
+    "pt-BR": "",
+    "zh-Hans": "有一个宝箱。",
+    "zh-Hant": "有一個寶箱。"
+  }
+}
+{
+  "255892": {
+    "en": "___NEW_VALUE_1___"
+  },
+  "255893": {
+    "en": "___NEW_VALUE_2___"
+  }
+}
+// OUTPUT
+// {
+//   "255892": {
+//     "$comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
+//     "de": "Die Tür ist fest verriegelt.",
+//  -> "en": "___NEW_VALUE_1___",
+//     "es": "La puerta está bien cerrada.",
+//     "fr": "La porte est bien fermée.",
+//     "it": "La porta è ben chiusa.",
+//     "ja": "扉は　かたく　閉ざされている。",
+//     "ko": "문은 굳게 닫혀 있다.",
+//     "pt-BR": "A porta está bem fechada.",
+//     "zh-Hans": "门紧闭着。",
+//     "zh-Hant": "門扉緊閉著。"
+//   },
+//   "255893": {
+//     "$comments": "",
+//     "de": "Da liegt etwas in der Truhe.",
+//  -> "en": "___EXISTING_VALUE___",
+//     "es": "Hay algo en el cofre.",
+//     "fr": "Il y a quelque chose dans le coffre.",
+//     "it": "C'è qualcosa nel forziere.",
+//     "ja": "宝箱がある。",
+//     "ko": "보물 상자가 있다.",
+//     "pt-BR": "",
+//     "zh-Hans": "有一个宝箱。",
+//     "zh-Hant": "有一個寶箱。"
+//   }
+// }
+```
+
+- Command
+
+```cmd
+FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new] ({}; reduce ($old | keys_unsorted)[] as $namespace (.;.[$namespace] += ($old[$namespace]| if (.en == \"\")then (.en = $new[$namespace].en)else (.) end | (to_entries | sort | from_entries) ) ) )" ".\old\%A" ".\new\%A" > ".\output\%A"
+```
+
+</details>
+
+</details>
+
+</details>
+
+---
+
 # \*\*/Game/Content/Localization/\*\*/Game.locres
 
 > [!TIP]
 > Check `comments` sections in `Steam\**\BACKLOG\pakchunk0-WindowsNoEditor.pak\Game\Content\Localization\Game\Game.locres.json` for more details.
 
-<!--
-<details>
-
 ## Index
 
   <details>
 
-- test
+|               Namespace               | Key | Recommendation(s) | Comment(s)                             |
+| :-----------------------------------: | :-: | :---------------- | :------------------------------------- |
+|              `ASIA_DLC`               |     |                   |                                        |
+|            `Event_Common`             |     |                   |                                        |
+|            `lpWindowName`             |     |                   |                                        |
+|               `Sample`                |     |                   |                                        |
+|          `STT_AccessoryItem`          |     |                   |                                        |
+|      `STT_ActionAvgMsg_Simple1`       |     |                   |                                        |
+|      `STT_ActionAvgMsg_Simple15`      |     |                   |                                        |
+|      `STT_ActionAvgMsg_Simple2`       |     |                   |                                        |
+|      `STT_ActionAvgMsg_Simple3`       |     |                   |                                        |
+|      `STT_ActionAvgMsg_Simple4`       |     |                   |                                        |
+|      `STT_ActionAvgMsg_Simple5`       |     |                   |                                        |
+|       `STT_ActionMsg_Balloon1`        |     |                   |                                        |
+|       `STT_ActionMsg_Balloon2`        |     |                   |                                        |
+|         `STT_ActionMsg_Log1`          |     |                   |                                        |
+|         `STT_ActionMsg_Log10`         |     |                   |                                        |
+|         `STT_ActionMsg_Log11`         |     |                   |                                        |
+|         `STT_ActionMsg_Log12`         |     |                   |                                        |
+|         `STT_ActionMsg_Log13`         |     |                   |                                        |
+|         `STT_ActionMsg_Log14`         |     |                   |                                        |
+|         `STT_ActionMsg_Log15`         |     |                   |                                        |
+|         `STT_ActionMsg_Log2`          |     |                   |                                        |
+|         `STT_ActionMsg_Log3`          |     |                   |                                        |
+|         `STT_ActionMsg_Log4`          |     |                   |                                        |
+|         `STT_ActionMsg_Log5`          |     |                   |                                        |
+|         `STT_ActionMsg_Log6`          |     |                   |                                        |
+|         `STT_ActionMsg_Log7`          |     |                   |                                        |
+|         `STT_ActionMsg_Log8`          |     |                   |                                        |
+|         `STT_ActionMsg_Log9`          |     |                   |                                        |
+|        `STT_ActionMsg_Simple1`        |     |                   |                                        |
+|       `STT_ActionMsg_Simple10`        |     |                   |                                        |
+|       `STT_ActionMsg_Simple11`        |     |                   |                                        |
+|       `STT_ActionMsg_Simple12`        |     |                   |                                        |
+|       `STT_ActionMsg_Simple13`        |     |                   |                                        |
+|       `STT_ActionMsg_Simple14`        |     |                   |                                        |
+|       `STT_ActionMsg_Simple15`        |     |                   |                                        |
+|        `STT_ActionMsg_Simple2`        |     |                   |                                        |
+|        `STT_ActionMsg_Simple3`        |     |                   |                                        |
+|        `STT_ActionMsg_Simple4`        |     |                   |                                        |
+|        `STT_ActionMsg_Simple5`        |     |                   |                                        |
+|        `STT_ActionMsg_Simple6`        |     |                   |                                        |
+|        `STT_ActionMsg_Simple7`        |     |                   |                                        |
+|        `STT_ActionMsg_Simple8`        |     |                   |                                        |
+|        `STT_ActionMsg_Simple9`        |     |                   |                                        |
+|      `STT_ActionSumMsg_Simple1`       |     |                   |                                        |
+|      `STT_ActionSumMsg_Simple15`      |     |                   |                                        |
+|      `STT_ActionSumMsg_Simple2`       |     |                   |                                        |
+|      `STT_ActionSumMsg_Simple3`       |     |                   |                                        |
+|      `STT_ActionSumMsg_Simple4`       |     |                   |                                        |
+|      `STT_ActionSumMsg_Simple5`       |     |                   |                                        |
+|         `STT_BRReceptionNpc`          |     |                   |                                        |
+|          `STT_BarMonsterNpc`          |     |                   |                                        |
+|          `STT_BarMonsterSys`          |     |                   |                                        |
+|          `STT_BattleAbiMsg`           |     |                   |                                        |
+|        `STT_BattleActionItem`         |     |                   |                                        |
+|         `STT_BattleEquipItem`         |     |                   |                                        |
+|         `STT_BattleGuestName`         |     |                   |                                        |
+|         `STT_BattleMagicItem`         |     |                   |                                        |
+|        `STT_BattleMonsterName`        |     |                   |                                        |
+|     `STT_BattleOddAvgMsg_AEE_SYS`     |     |                   |                                        |
+|     `STT_BattleOddAvgMsg_AEP_SYS`     |     |                   |                                        |
+|     `STT_BattleOddAvgMsg_AE_SYS`      |     |                   |                                        |
+|     `STT_BattleOddAvgMsg_AP_SYS`      |     |                   |                                        |
+|     `STT_BattleOddAvgMsg_AXE_SYS`     |     |                   |                                        |
+|     `STT_BattleOddAvgMsg_AXP_SYS`     |     |                   |                                        |
+|     `STT_BattleOddAvgMsg_DAE_SYS`     |     |                   |                                        |
+|     `STT_BattleOddAvgMsg_DAP_SYS`     |     |                   |                                        |
+|     `STT_BattleOddAvgMsg_DOE_SYS`     |     |                   |                                        |
+|     `STT_BattleOddAvgMsg_DOP_SYS`     |     |                   |                                        |
+|     `STT_BattleOddAvgMsg_RSE_SYS`     |     |                   |                                        |
+|     `STT_BattleOddAvgMsg_RSP_SYS`     |     |                   |                                        |
+|      `STT_BattleOddMsg_AEE_LOG`       |     |                   |                                        |
+|      `STT_BattleOddMsg_AEE_SYS`       |     |                   |                                        |
+|      `STT_BattleOddMsg_AEP_LOG`       |     |                   |                                        |
+|      `STT_BattleOddMsg_AEP_SYS`       |     |                   |                                        |
+|       `STT_BattleOddMsg_AE_LOG`       |     |                   |                                        |
+|       `STT_BattleOddMsg_AE_SYS`       |     |                   |                                        |
+|     `STT_BattleOddMsg_AFP_BALOON`     |     |                   |                                        |
+|      `STT_BattleOddMsg_AFP_SYS`       |     |                   |                                        |
+|       `STT_BattleOddMsg_AP_LOG`       |     |                   |                                        |
+|       `STT_BattleOddMsg_AP_SYS`       |     |                   |                                        |
+|      `STT_BattleOddMsg_AXE_LOG`       |     |                   |                                        |
+|      `STT_BattleOddMsg_AXE_SYS`       |     |                   |                                        |
+|      `STT_BattleOddMsg_AXP_LOG`       |     |                   |                                        |
+|      `STT_BattleOddMsg_AXP_SYS`       |     |                   |                                        |
+|      `STT_BattleOddMsg_DAE_LOG`       |     |                   |                                        |
+|      `STT_BattleOddMsg_DAE_SYS`       |     |                   |                                        |
+|      `STT_BattleOddMsg_DAP_LOG`       |     |                   |                                        |
+|      `STT_BattleOddMsg_DAP_SYS`       |     |                   |                                        |
+|      `STT_BattleOddMsg_DOE_LOG`       |     |                   |                                        |
+|      `STT_BattleOddMsg_DOE_SYS`       |     |                   |                                        |
+|      `STT_BattleOddMsg_DOP_LOG`       |     |                   |                                        |
+|      `STT_BattleOddMsg_DOP_SYS`       |     |                   |                                        |
+|      `STT_BattleOddMsg_MCEE_LOG`      |     |                   |                                        |
+|      `STT_BattleOddMsg_MCEE_SYS`      |     |                   |                                        |
+|      `STT_BattleOddMsg_MCEP_LOG`      |     |                   |                                        |
+|      `STT_BattleOddMsg_MCEP_SYS`      |     |                   |                                        |
+|     `STT_BattleOddMsg_MCE_BALOON`     |     |                   |                                        |
+|      `STT_BattleOddMsg_MCE_SYS`       |     |                   |                                        |
+|     `STT_BattleOddMsg_RSE_BALOON`     |     |                   |                                        |
+|      `STT_BattleOddMsg_RSE_LOG`       |     |                   |                                        |
+|      `STT_BattleOddMsg_RSE_SYS`       |     |                   |                                        |
+|      `STT_BattleOddMsg_RSP_LOG`       |     |                   |                                        |
+|      `STT_BattleOddMsg_RSP_SYS`       |     |                   |                                        |
+|     `STT_BattleOddMsg_RS_BALOON`      |     |                   |                                        |
+|       `STT_BattleOddMsg_RS_SYS`       |     |                   |                                        |
+|         `STT_BattleSkillItem`         |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_D1E_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_D1P_SYS`    |     |                   |                                        |
+|   `STT_BattleSlideAvgMsg_D2EEX_SYS`   |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_D2E_SYS`    |     |                   |                                        |
+|   `STT_BattleSlideAvgMsg_D2PEX_SYS`   |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_D2P_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_FE_SYS`     |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_FP_SYS`     |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_I1E_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_I1P_SYS`    |     |                   |                                        |
+|   `STT_BattleSlideAvgMsg_I2EEX_SYS`   |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_I2E_SYS`    |     |                   |                                        |
+|   `STT_BattleSlideAvgMsg_I2PEX_SYS`   |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_I2P_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_NEE_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_NEP_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_RSE_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideAvgMsg_RSP_SYS`    |     |                   |                                        |
+|     `STT_BattleSlideMsg_D1E_LOG`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_D1E_SYS`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_D1P_LOG`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_D1P_SYS`      |     |                   |                                        |
+|    `STT_BattleSlideMsg_D2EEX_LOG`     |     |                   |                                        |
+|    `STT_BattleSlideMsg_D2EEX_SYS`     |     |                   |                                        |
+|     `STT_BattleSlideMsg_D2E_LOG`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_D2E_SYS`      |     |                   |                                        |
+|    `STT_BattleSlideMsg_D2PEX_LOG`     |     |                   |                                        |
+|    `STT_BattleSlideMsg_D2PEX_SYS`     |     |                   |                                        |
+|     `STT_BattleSlideMsg_D2P_LOG`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_D2P_SYS`      |     |                   |                                        |
+|      `STT_BattleSlideMsg_FE_LOG`      |     |                   |                                        |
+|      `STT_BattleSlideMsg_FE_SYS`      |     |                   |                                        |
+|      `STT_BattleSlideMsg_FP_LOG`      |     |                   |                                        |
+|      `STT_BattleSlideMsg_FP_SYS`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_I1E_LOG`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_I1E_SYS`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_I1P_LOG`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_I1P_SYS`      |     |                   |                                        |
+|    `STT_BattleSlideMsg_I2EEX_LOG`     |     |                   |                                        |
+|    `STT_BattleSlideMsg_I2EEX_SYS`     |     |                   |                                        |
+|     `STT_BattleSlideMsg_I2E_LOG`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_I2E_SYS`      |     |                   |                                        |
+|    `STT_BattleSlideMsg_I2PEX_LOG`     |     |                   |                                        |
+|    `STT_BattleSlideMsg_I2PEX_SYS`     |     |                   |                                        |
+|     `STT_BattleSlideMsg_I2P_LOG`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_I2P_SYS`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_NEE_LOG`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_NEE_SYS`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_NEP_LOG`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_NEP_SYS`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_RSE_LOG`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_RSE_SYS`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_RSP_LOG`      |     |                   |                                        |
+|     `STT_BattleSlideMsg_RSP_SYS`      |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_D1E_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_D1P_SYS`    |     |                   |                                        |
+|   `STT_BattleSlideSumMsg_D2EEX_SYS`   |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_D2E_SYS`    |     |                   |                                        |
+|   `STT_BattleSlideSumMsg_D2PEX_SYS`   |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_D2P_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_FE_SYS`     |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_FP_SYS`     |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_I1E_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_I1P_SYS`    |     |                   |                                        |
+|   `STT_BattleSlideSumMsg_I2EEX_SYS`   |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_I2E_SYS`    |     |                   |                                        |
+|   `STT_BattleSlideSumMsg_I2PEX_SYS`   |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_I2P_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_NEE_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_NEP_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_RSE_SYS`    |     |                   |                                        |
+|    `STT_BattleSlideSumMsg_RSP_SYS`    |     |                   |                                        |
+|     `STT_BattleSpecialSkillItem`      |     |                   |                                        |
+|          `STT_BattleSysMsg`           |     |                   |                                        |
+|        `STT_BattleSysMsg_LOG`         |     |                   |                                        |
+|         `STT_Battle_Levelup`          |     |                   |                                        |
+|          `STT_Battle_Option`          |     |                   |                                        |
+|            `STT_Battle_UI`            |     |                   |                                        |
+|          `STT_BattleroadSys`          |     |                   |                                        |
+|      `STT_Boukennosho_DLC_Text`       |     |                   |                                        |
+|         `STT_CareerStoryVer1`         |     |                   |                                        |
+|         `STT_CareerStoryVer2`         |     |                   |                                        |
+|        `STT_Career_StoryUISys`        |     |                   |                                        |
+|           `STT_CasinoCoin`            |     |                   |                                        |
+|         `STT_CharamakeColors`         |     |                   |                                        |
+|        `STT_Charamake_Female`         |     |                   |                                        |
+| `STT_Charamake_Female_NoLocalization` |     |                   |                                        |
+|         `STT_Charamake_Male`          |     |                   |                                        |
+|  `STT_Charamake_Male_NoLocalization`  |     |                   |                                        |
+|          `STT_Colosseum_NPC`          |     |                   |                                        |
+|          `STT_Colosseum_SYS`          |     |                   |                                        |
+|           `STT_CommonItem`            |     |                   |                                        |
+|         `STT_ConditionViewer`         |     |                   |                                        |
+|        `STT_ConvinientMainSys`        |     |                   |                                        |
+|         `STT_DaijinamonoItem`         |     |                   |                                        |
+|            `STT_Dorubaord`            |     |                   |                                        |
+|        `STT_DungeonKingdomSys`        |     |                   |                                        |
+|         `STT_DungeonMagicNPC`         |     |                   |                                        |
+|              `STT_Emote`              |     |                   |                                        |
+|        `STT_Equip_Coordinate`         |     |                   |                                        |
+|      `STT_Equip_OddStatus_Name`       |     |                   |                                        |
+|        `STT_EventMonsterName`         |     |                   |                                        |
+|         `STT_EventPalceName`          |     |                   |                                        |
+|      `STT_FaciliityDolboardSys`       |     |                   |                                        |
+|         `STT_FacilityBankNpc`         |     |                   |                                        |
+|         `STT_FacilityBankSys`         |     |                   |                                        |
+|         `STT_FacilityBarNpc`          |     |                   |                                        |
+|         `STT_FacilityBarSys`          |     |                   |                                        |
+|       `STT_FacilityColoringNpc`       |     |                   |                                        |
+|       `STT_FacilityColoringSys`       |     |                   |                                        |
+|      `STT_FacilityConciergeNpc`       |     |                   |                                        |
+|      `STT_FacilityConciergeSys`       |     |                   |                                        |
+|       `STT_FacilityDolboardNpc`       |     |                   |                                        |
+|        `STT_FacilitySalonNpc`         |     |                   |                                        |
+|     `STT_FacilitySubjugationNpc`      |     |                   |                                        |
+|     `STT_FacilitySubjugationSys`      |     |                   |                                        |
+|      `STT_FacilitySynthesisNpc`       |     |                   |                                        |
+|      `STT_FacilitySynthesisSys`       |     |                   |                                        |
+|           `STT_FieldDoraky`           |     |                   |                                        |
+|            `STT_FieldLog`             |     |                   |                                        |
+|           `STT_FieldMapSys`           |     |                   |                                        |
+|         `STT_FieldMoveDragon`         |     |                   |                                        |
+|          `STT_FieldProcess`           |     |                   |                                        |
+|             `STT_Fishing`             |     |                   |                                        |
+|          `STT_FishingAction`          |     |                   |                                        |
+|       `STT_FishingExchangeNPC`        |     |                   |                                        |
+|        `STT_FishingMasterNPC`         |     |                   |                                        |
+|           `STT_FishingSys`            |     |                   |                                        |
+|           `STT_FullCureSys`           |     |                   |                                        |
+|           `STT_GameOption`            |     |                   |                                        |
+|     `STT_GameOption_Explanation`      |     |                   |                                        |
+|             `STT_Gesture`             |     |                   |                                        |
+|         `STT_IraisyoArasuji`          |     |                   |                                        |
+|       `STT_IraisyoMonsterType`        |     |                   |                                        |
+|       `STT_IraisyoNPCNameBase`        |     |                   |                                        |
+|       `STT_IraisyoNPCNameRuby`        |     |                   |                                        |
+|         `STT_ItemExplanation`         |     |                   |                                        |
+|            `STT_ItemList`             |     |                   |                                        |
+|            `STT_ItemName`             |     |                   |                                        |
+|          `STT_JobChangeNpc`           |     |                   |                                        |
+|          `STT_JobChangeSys`           |     |                   |                                        |
+|         `STT_KeyboardSetting`         |     |                   |                                        |
+|    `STT_KeyboardSettingKeyString`     |     |                   |                                        |
+|       `STT_LD_SerchFieldObject`       |     |                   |                                        |
+|       `STT_LoadingArasujiVer1`        |     |                   |                                        |
+|       `STT_LoadingArasujiVer2`        |     |                   |                                        |
+|           `STT_LoadingTips`           |     |                   |                                        |
+|        `STT_MagicExplanation`         |     |                   |                                        |
+|            `STT_MagicName`            |     |                   |                                        |
+|             `STT_Main_UI`             |     |                   |                                        |
+|          `STT_MasteryItems`           |     |                   |                                        |
+|          `STT_MonsterColor`           |     |                   |                                        |
+|        `STT_MonsterMercenary`         |     |                   |                                        |
+|       `STT_MonsterTarotArcana`        |     |                   |                                        |
+|        `STT_MonsterTarotDeck`         |     |                   |                                        |
+|       `STT_MonsterTarotMonster`       |     |                   |                                        |
+|       `STT_Monster_Tips1_ver1`        |     |                   |                                        |
+|       `STT_Monster_Tips1_ver2`        |     |                   |                                        |
+|       `STT_Monster_Tips2_Ver2`        |     |                   |                                        |
+|       `STT_Monster_Tips2_ver1`        |     |                   |                                        |
+|          `STT_Monster_Type`           |     |                   |                                        |
+|             `STT_NpcInfo`             |     |                   |                                        |
+|      `STT_OddStatusExplanation`       |     |                   |                                        |
+|          `STT_OddStatusName`          |     |                   |                                        |
+|            `STT_PT_InOut`             |     |                   |                                        |
+|             `STT_PT_Talk`             |     |                   |                                        |
+|          `STT_PartyMainSys`           |     |                   |                                        |
+|          `STT_Profile_Word`           |     |                   |                                        |
+|            `STT_QuestList`            |     |                   |                                        |
+|        `STT_QuestListCategory`        |     |                   |                                        |
+|         `STT_QuestListDetail`         |     |                   |                                        |
+|          `STT_QuestListName`          |     |                   |                                        |
+|         `STT_QuestListSeries`         |     |                   |                                        |
+|        `STT_Quest_AfterBattle`        |     |                   |                                        |
+|          `STT_Quest_ItemGet`          |     |                   |                                        |
+|     `STT_Quest_PerticularReward`      |     |                   |                                        |
+|       `STT_Restricted_GamePlay`       |     |                   |                                        |
+|      `STT_ResurrectionTextList`       |     |                   |                                        |
+|          `STT_SenrekUIiSys`           |     |                   |                                        |
+|          `STT_ShopDouguNpc`           |     |                   |                                        |
+|        `STT_SkillExplanation`         |     |                   |                                        |
+|            `STT_SkillName`            |     |                   |                                        |
+|       `STT_SkillupExplanation`        |     |                   |                                        |
+|           `STT_SkillupName`           |     |                   |                                        |
+|       `STT_SpecialExplanation`        |     |                   |                                        |
+|           `STT_SpecialName`           |     |                   |                                        |
+|        `STT_Support_BrowseSys`        |     |   ~50 characters  | See `STT_Main_UI.SYSTXT_Main_UI_60080` |
+|             `STT_Syougou`             |     |                   |                                        |
+|         `STT_SystemDouguNpc`          |     |                   |                                        |
+|         `STT_SystemDragonNpc`         |     |                   |                                        |
+|         `STT_SystemDragonSys`         |     |                   |                                        |
+|        `STT_SystemFishingBook`        |     |                   |                                        |
+|        `STT_SystemFishingFish`        |     |                   |                                        |
+|          `STT_SystemMoveNpc`          |     |                   |                                        |
+|           `STT_SystemQuest`           |     |                   |                                        |
+|          `STT_SystemShipNpc`          |     |                   |                                        |
+|          `STT_SystemShipSys`          |     |                   |                                        |
+|          `STT_SystemShopInn`          |     |                   |                                        |
+|         `STT_SystemTrainNpc`          |     |                   |                                        |
+|         `STT_SystemTrainSys`          |     |                   |                                        |
+|       `STT_System_Book_Monster`       |     |                   |                                        |
+|          `STT_System_Casino`          |     |                   |                                        |
+|        `STT_System_Charamake`         |     |                   |                                        |
+|       `STT_System_CharamakeSys`       |     |                   |                                        |
+|          `STT_System_Common`          |     |                   |                                        |
+|        `STT_System_Craftsman`         |     |                   |                                        |
+|          `STT_System_Equip`           |     |                   |                                        |
+|    `STT_System_Facility_ChurchNpc`    |     |                   |                                        |
+|    `STT_System_Facility_ChurchSys`    |     |                   |                                        |
+|       `STT_System_ItabaeAlbum`        |     |                   |                                        |
+|         `STT_System_Location`         |     |                   |                                        |
+|       `STT_System_ProfileWord`        |     |                   |                                        |
+|        `STT_System_Shop_Dougu`        |     |                   |                                        |
+|      `STT_System_Shop_Dougu_Sys`      |     |                   |                                        |
+|        `STT_System_Shop_Other`        |     |                   |                                        |
+|          `STT_System_Skill`           |     |   ~50 characters  |                                        |
+|          `STT_System_Title`           |     |                   |                                        |
+|            `STT_System_UI`            |     |                   |                                        |
+|       `STT_System_WeaponTypes`        |     |                   |                                        |
+|         `STT_Sytem_UI_Status`         |     |                   |                                        |
+|            `STT_TestText`             |     |                   |                                        |
+|           `STT_TinyMedals`            |     |                   |                                        |
+|        `STT_TinyMedalsWindow`         |     |                   |                                        |
+|          `STT_Tips_Category`          |     |                   |                                        |
+|          `STT_Tips_Content`           |     |                   |                                        |
+|         `STT_ToolActionItem`          |     |                   |                                        |
+|           `STT_UIDouguSys`            |     |                   |                                        |
+|           `STT_UIJumonSys`            |     |                   |                                        |
+|        `STT_WarpBraveStoneSys`        |     |                   |                                        |
+|         `STT_WarpRiremitoSys`         |     |                   |                                        |
+|            `STT_WarpRura`             |     |                   |                                        |
+|           `STT_WeaponItem`            |     |                   |                                        |
+|        `SYSTEM_LOACALIZATION`         |     |                   |                                        |
+|         `WeaponTypeForBugFix`         |     |                   |                                        |
+
 
   </details>
 
-</details>
--->
+---
 
 # \*\*/Game/Content/NonAssets/ETP\*/\*.etp
 
@@ -630,7 +1252,7 @@
 ```json
 {
   ["10267001", "10093001", "10002001", "10150001", "10212001"]: {
-    "comments": "1. ^ third-person « singular « ([auxiliary](present « indicative) + [lexical](past « participle)), 2. ^ third-person « singular « indicative « preterite, 3. ^ definite article (n, neologism)",
+    "$comments": "1. ^ third-person « singular « ([auxiliary](present « indicative) + [lexical](past « participle)), 2. ^ third-person « singular « indicative « preterite, 3. ^ definite article (n, neologism)",
     "de": "<pc> hat das Alchemie-Topf (Wichtig) erhalten¹!<me 60>\n<br>\nAußerdem hat <pc> das Rezeptbuch, \"Alchemie für Anfänger\" erhalten¹!<se_nots System Item>\n<br>\n<pc> hat \"Alchemie für Anfänger\" gelesen!\n<br>\n<pc> hat die Rezepte aus \"Alchemie für Anfänger\" gelernt!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
     "en": "<pc> received² the Alchemy Pot (Key Item)!<me 60>\n<br>\nThey also received a recipe book,\"Beginner's Alchemy\"!<se_nots System Item>\n<br>\n<pc> read² \"Beginner's Alchemy\"! <pc>\nlearned the recipes in \"Beginner's Alchemy\"!<se_nots System Item>¹\n<br>\n					The Alchemy Pot is a special tool used to alchemize\nanother item by inserting items as materials.\n<br>\nYou can alchemize items by selecting \"Alchemy Pot\"\nfrom the \"Items\" menu. To alchemize an item, you will\nneed the recipe of said item.\n<br>\nRecipes can be obtained from the Recipe Shop or\nbookshelves.",
     "es": "<pc> ha recibido¹ le³ Pote de Alquimia!<me 60>\n<br>\nTambién ha recibido¹ el libro de recetas, \"Alquimia para Principiante\"!<se_nots System Item>\n<br>\n<pc> ha leído \"Alquimia para Principiante\"!\n<br>\n<pc> ha aprendido las recetas de \"Alquimia para Principiante\"!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
@@ -655,7 +1277,7 @@
 {
   "eventTextSysQuestsServer.win32.json": {
     "44001": {
-      "comments": "Quest (001) {Super Useful}, `?`",
+      "$comments": "Quest (001) {Super Useful}, `?`",
       "de": "Gibst du <%sEV_SYSMSG_NPC> die <color_yellow>Glitzernde Tinte<color_white>?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
       "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Glittering Ink<color_white>?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
       "es": "¿Darles <%sEV_SYSMSG_NPC> la <color_yellow>Tinta Centelleante<color_white>?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
@@ -668,7 +1290,7 @@
       "zh-Hant": "是否要交出閃閃墨水？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
     },
     "43998": {
-      "comments": "Quest (001) {Super Useful}, `!`",
+      "$comments": "Quest (001) {Super Useful}, `!`",
       "de": "<pc> gab der <%sEV_SYSMSG_NPC> die\n<color_yellow>Glitzernde Tinte<color_white>!",
       "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Glittering Ink<color_white>!",
       "es": "¡<pc> le dio a la <%sEV_SYSMSG_NPC> la\n<color_yellow>Tinta Centelleante<color_white>!",
@@ -696,13 +1318,13 @@
   > Find
   >
   > ```
-  > (?<!"comments": ".*?",)(?="de")
+  > (?<!"$comments": ".*?",)(?="de")
   > ```
   >
   > Replace
   >
   > ```
-  > "comments": "",\n
+  > "$comments": "",\n
   > ```
 
 - Quest accept/decline
@@ -836,7 +1458,7 @@
   >
   > ```json
   > {
-  > "comments": "",
+  > "$comments": "",
   > "pt-BR": "",
   > "de": "<center>{HERO}, hören Sie mich?",
   > "es": "<center>{HERO}, ¿puedes oírme?",
@@ -946,7 +1568,7 @@
   | `eventTextCsC11Client.win32.etp`                       |                                                                                                     |                                                     |
   | `eventTextCsC22Client.win32.etp`                       |                                                                                                     |                                                     |
   | `eventTextCsD11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00014`                |                  Prologue - Dwarf                   |
-  | `eventTextCsD21Client.win32.etp`                       | Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00014` [Key Emblem - Yellow - Dwarf] |                                                     |
+  | `eventTextCsD21Client.win32.etp`                       | Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00014`                               |           [Key Emblem - Yellow - Dwarf]             |
   | `eventTextCsD31Client.win32.etp`                       |                                          Story of Dolworm                                           |                                                     |
   | `eventTextCsE11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00002`                |                   Prologue - Elf                    |
   | `eventTextCsE21Client.win32.etp`                       |                                                                                                     |                                                     |
@@ -1552,6 +2174,8 @@
   </details>
 
 </details>
+
+---
 
 # Multilanguage Glossary
 
