@@ -1,6 +1,6 @@
 {
   "94059": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "Hello, traveler. I'm Gary, the peddler. Nice\nwagon, huh? It's my pride and joy. It's my job\nto carry goods from Gran Zedora to other\n<br>\ncountries and towns. Three Way Gate is now a\nface pass. I'm going around Lendersia now. Do\nyou have somewhere else you want to go? If so,\n<br>\nI'll give you a ride in my wagon.<bw_break>",
     "es": "",
@@ -8,11 +8,12 @@
     "it": "",
     "ja": "「よう　旅の人。\n　オレは　行商人のギャリーってんだ。\n　いい馬車だろう？　オレの自慢なんだ。\n<br>\n「こいつで　グランゼドーラから　他の国や町へ\n　商品を運ぶのが　オレの仕事ってわけさ。\n　三門の関所も　今じゃ　顔パスでオーケーよ。\n<br>\n「これから　レンダーシア内を回るんだが \n　あんた　他の場所へ　行く用事はないか？\n　あるんなら　馬車に乗せてってやるよ。<bw_break>",
     "ko": ": 안녕, 여행자님.\n　난 행상인 개리라고 해.\n　내 마차 좋지? 내 자랑거리야.\n<br>\n: 이걸로 그랑제도라에서 다른 나라나\n　마을로 상품을 옮기는 게 내 일이지.\n　세 갈래 관문도 내 얼굴만 보면 통과시켜 줘.\n<br>\n: 지금부터 렌더시아를 돌아다닐 건데\n　다른 곳에 갈 일은 없어?\n　있으면 마차에 태워 줄게.<bw_break>",
+    "pt-BR": "",
     "zh-Hans": "你好啊，旅行者。\n我是流动商人嘉利。\n看我这马车不错吧？这可是我的骄傲。\n<br>\n我的工作就是驾驶着马车，\n将商品从古兰泽朵拉运到其他国家或城镇。\n三门关卡那边的守卫也都认识我。\n<br>\n接下来我要去冷达西亚各处转一圈，\n你要去其他地方办事吗？\n那样的话可以乘坐我的马车哦。<bw_break>",
     "zh-Hant": "你好，旅行者。我是旅行商人蓋瑞。\n這輛馬車很不錯吧？\n它可是我最自豪的吃飯工具喔。\n<br>\n我的工作就是駕駛它\n把商品從古蘭澤朵拉送到其他國家或市鎮。\n現在我跟三門關卡的守衛都熟到不用看證件了。\n<br>\n接下來我要去冷達西亞各地繞一圈，\n你有事要去其他地方嗎？\n如果有的話，可以讓你搭我的馬車喔。<bw_break>"
   },
   "94060": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "Hey there. We're going to go around Lendersia\nnow. If so, I'll give you a ride in my wagon.<bw_break>",
     "es": "",
@@ -20,11 +21,12 @@
     "it": "",
     "ja": "「よう。これから　レンダーシア内を回るんだが\n　あんた　他の場所へ　行く用事はないか？\n　あるんなら　馬車に乗せてってやるよ。<bw_break>",
     "ko": ": 지금부터 렌더시아를 돌아다닐 건데\n　다른 곳에 갈 일은 없어?\n　있으면 마차에 태워 줄게.<bw_break>",
+    "pt-BR": "",
     "zh-Hans": "你好啊，接下来我要去冷达西亚各处转一圈，\n你要去其他地方办事吗？\n那样的话可以乘坐我的马车哦。<bw_break>",
     "zh-Hant": "你好，接下來我要去冷達西亞各地繞一圈，\n你有事要去其他地方嗎？\n如果有的話，可以讓你搭我的馬車喔。<bw_break>"
   },
   "94061": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<pipipi_low>Hmm? I'm sorry, but it's a little inconvenient\nfor you to go there now. I'll give you your\nmoney back, so give me some time and use it\n<br>\nagain.",
     "es": "",
@@ -32,11 +34,12 @@
     "it": "",
     "ja": "<pipipi_low>「……むむ！？\n　すまねえが　今そこへ向かうのは\n　ちょいと　都合が悪いようだぜ。\n<br>\n「金は返すから　時間をおいて\n　また利用してくれ。",
     "ko": "<pipipi_low>: ……아앗!?\n　미안하지만 지금 거기로 가는 건\n　좀 어려울 것 같아.\n<br>\n: 돈은 돌려줄 테니까 시간이 지난 뒤에\n　다시 이용해 줘.",
+    "pt-BR": "",
     "zh-Hans": "<pipipi_low>……嗯？！\n不好意思，\n现在似乎不太方便去那里。\n<br>\n钱还给你，\n请稍后再来乘坐。",
     "zh-Hant": "<pipipi_low>……唔唔！？\n不好意思，\n但是現在實在不太方便去那邊。\n<br>\n錢我還給你，\n等過段時間後再來搭吧。"
   },
   "94062": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "But I'll only drop you off, not pick you up.\nIf that's all right with you, where do you\nwant to go?\n<name_off><select>\nMelsandy Village\nTown of Celed\nKingdom of Al-Ahagiro\nThree Way Gate\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
@@ -44,11 +47,12 @@
     "it": "",
     "ja": "「ただし　送るだけで　迎えはしないからな。\n　もし　それでも　いいなら\n　あんたは　どこへ　行きたいんだ？\n<name_off><select>\nメルサンディ村\nセレドの町\nアラハギーロ王国\n三門の関所\n乗らない\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "ko": ": 다만 보내 줄 수는 있어도 데리러 가진 않아.\n　그래도 괜찮으면\n　당신은 어디로 가고 싶어?\n<name_off><select>\n메르상디 마을\n셀레도 마을\n아라하길로 왕국\n세 갈래 관문\n타지 않는다\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>",
+    "pt-BR": "",
     "zh-Hans": "但是，我只管送你过去，不负责接你回来。\n如果没有问题的话，\n请问你要去哪里？\n<name_off><select>\n梅尔桑蒂村\n塞莱德镇\n艾拉哈奇罗王国\n三门关卡\n不乘坐\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "zh-Hant": "不過，我只能送你過去，沒辦法接你回來喔。\n如果不在意的話，\n請問你要去哪裡呢？\n<name_off><select>\n梅爾桑蒂村\n塞萊德鎮\n艾拉哈奇羅王國\n三門關卡\n不搭乘\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "94067": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "Oops. You're not getting in? That's too bad.\nCome back if you want to go somewhere.",
     "es": "",
@@ -56,11 +60,12 @@
     "it": "",
     "ja": "「おっと。乗らないのか。そいつは残念だ。\n　どこかに行きたくなったら　また来いよ。",
     "ko": ": 앗, 안 탄다고? 아쉽군.\n　가고 싶은 곳이 생기면 다시 찾아 줘.",
+    "pt-BR": "",
     "zh-Hans": "哎呀，不乘坐吗？真可惜啊。\n想去哪里的话，再来找我哦。",
     "zh-Hant": "哎呀，你不搭乘嗎？真可惜。\n如果有想要去哪裡的話，再來找我吧。"
   },
   "94068": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<pipipi_low>Hey, guys. We're at Melsandy Village. Well, I\nhope you'll come back and visit us again!",
     "es": "",
@@ -68,11 +73,12 @@
     "it": "",
     "ja": "<pipipi_low>「おまっとさん。\n　メルサンディ村に　着いたぜ。\n　それじゃ　また利用してくれよな！",
     "ko": "<pipipi_low>: 오래 기다렸지?\n　메르상디 마을에 도착했다.\n　그럼 또 이용해 줘!",
+    "pt-BR": "",
     "zh-Hans": "<pipipi_low>久等了。\n已经到梅尔桑蒂村了哦。\n欢迎下次再来搭乘！",
     "zh-Hant": "<pipipi_low>久等啦。\n我們抵達梅爾桑蒂村了。\n歡迎下次再來搭喔！"
   },
   "94069": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<pipipi_low>Hey, guys. We're at the Town of Celed. Well, I\nhope you'll use me again!",
     "es": "",
@@ -80,11 +86,12 @@
     "it": "",
     "ja": "<pipipi_low>「おまっとさん。\n　セレドの町に　着いたぜ。\n　それじゃ　また利用してくれよな！",
     "ko": "<pipipi_low>: 오래 기다렸지?\n　셀레도 마을에 도착했다.\n　그럼 또 이용해 줘!",
+    "pt-BR": "",
     "zh-Hans": "<pipipi_low>久等了。\n已经到塞莱德镇了哦。\n欢迎下次再来搭乘！",
     "zh-Hant": "<pipipi_low>久等啦。\n我們抵達塞萊德鎮了。\n歡迎下次再來搭喔！"
   },
   "94070": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<pipipi_low>Hey there, omatosan. We've arrived at the\nKingdom of Al-Ahagiro. Well then, I hope\nyou'll use me again!",
     "es": "",
@@ -92,11 +99,12 @@
     "it": "",
     "ja": "<pipipi_low>「おまっとさん。\n　アラハギーロ王国に　着いたぜ。\n　それじゃ　また利用してくれよな！",
     "ko": "<pipipi_low>: 오래 기다렸지?\n　아라하길로 왕국에 도착했다.\n　그럼 또 이용해 줘!",
+    "pt-BR": "",
     "zh-Hans": "<pipipi_low>久等了。\n已经到艾拉哈奇罗王国了哦。\n欢迎下次再来搭乘！",
     "zh-Hant": "<pipipi_low>久等啦。\n我們抵達艾拉哈奇羅王國了。\n歡迎下次再來搭喔！"
   },
   "94071": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<pipipi_low>Hey, Mr. Omatto. We're at the Three Way Gate.\nWell then, I hope you'll use it again!",
     "es": "",
@@ -104,11 +112,12 @@
     "it": "",
     "ja": "<pipipi_low>「おまっとさん。\n　三門の関所に　着いたぜ。\n　それじゃ　また利用してくれよな！",
     "ko": "<pipipi_low>: 오래 기다렸지?\n　세 갈래 관문에 도착했다.\n　그럼 또 이용해 줘!",
+    "pt-BR": "",
     "zh-Hans": "<pipipi_low>久等了。\n已经到三门关卡了哦。\n欢迎下次再来搭乘！",
     "zh-Hant": "<pipipi_low>久等啦。\n我們抵達三門關卡了。\n歡迎下次再來搭喔！"
   },
   "94072": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "Oops. I'm sorry, but we're short on money.\nThen I can't give you a ride. Please come back\nwith the money.",
     "es": "",
@@ -116,11 +125,12 @@
     "it": "",
     "ja": "「おっと。残念だが　お金が足りないな。\n　それじゃ　乗せてやることはできん。\n　お金を持って　また来てくれよ。",
     "ko": ": 이런, 아쉽게도 돈이 부족한 것 같군.\n　그러면 태워 줄 수 없어.\n　돈을 가지고 다시 와 줘.",
+    "pt-BR": "",
     "zh-Hans": "哎呀，你的钱不够啊。\n这样我就不能让你坐了。\n把钱带够再来吧。",
     "zh-Hant": "哎呀，很可惜，你的錢不夠。\n這樣沒辦法讓你搭乘。\n等你準備好錢再過來吧。"
   },
   "94073": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "You're going to <%sL_TIMEI>. I'll take 25 gold\nfor you, okay?<yesno><break>",
     "es": "",
@@ -128,11 +138,12 @@
     "it": "",
     "ja": "「<%sL_TIMEI>まで\n　行くんだな。\n　お代として　２５ゴールドもらうが　いいかい？<yesno><break>",
     "ko": ": <%sL_TIMEI>까지\n　간다고?\n　운임으로 25골드를 받는데 탈래?<yesno><break>",
+    "pt-BR": "",
     "zh-Hans": "要去<%sL_TIMEI>啊。\n需要收取２５Ｇ的费用，\n可以吗？<yesno><break>",
     "zh-Hant": "要去<%sL_TIMEI>啊。\n要跟你收取２５Ｇ的車費，可以嗎？\n<yesno><break>"
   },
   "94074": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "Oops. Well, that's rude. Come again if you\nwant to go somewhere.",
     "es": "",
@@ -140,11 +151,12 @@
     "it": "",
     "ja": "「おっと。そりゃ　失礼したな。\n　どこかに行きたくなったら　また来いよ。",
     "ko": ": 앗. 실례했네.\n　가고 싶은 곳이 생기면 다시 찾아 줘.",
+    "pt-BR": "",
     "zh-Hans": "哎呀，是我失礼了。\n如果有想去的地方再来找我吧。",
     "zh-Hant": "哎呀，真是失禮了。\n如果有想去的地方的話，再來找我吧。"
   },
   "94107": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Thank you very much! Well then, we'll be off\nto <%sL_TIMEI> in no time. Come on, we're in,\nwe're in!",
     "es": "",
@@ -152,11 +164,12 @@
     "it": "",
     "ja": "<attr><feel_happy_lv2><end_attr>「まいどあり！　それじゃ　すぐに\n　<%sL_TIMEI>へ　出発するぜ。\n　さあ　乗った　乗った！",
     "ko": "<attr><feel_happy_lv2><end_attr>: 고마워! 그럼 바로\n　{%sL_TIMEI}|hpp(으로,로) 출발하지.\n　자, 어서 타!",
+    "pt-BR": "",
     "zh-Hans": "<attr><feel_happy_lv2><end_attr>多谢惠顾！那么我们马上向\n<%sL_TIMEI>出发吧！\n快坐好，快坐好！",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>感謝搭乘！那麼我們現在就要\n出發前往<%sL_TIMEI>囉。\n好啦，快坐好、快坐好！"
   },
   "20388000": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "You're going to Melsandy Village. I'll take 25\ngold for you, okay?<yesno><break>",
     "es": "",
@@ -164,11 +177,12 @@
     "it": "",
     "ja": "「メルサンディ村まで　行くんだな。\n　お代として　２５ゴールドもらうが　いいかい？<yesno><break>",
     "ko": ": 메르상디 마을까지 간다고?\n　운임으로 25골드를 받는데 탈래?<yesno><break>",
+    "pt-BR": "",
     "zh-Hans": "要去梅尔桑蒂村啊。\n需要收取２５Ｇ的费用，可以吗？<yesno><break>",
     "zh-Hant": "要去梅爾桑蒂村啊。\n要跟你收取２５Ｇ的車費，可以嗎？<yesno><break>"
   },
   "20388001": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "You're going to the Town of Celed. I'll take\n25 gold to pay for it, okay?<yesno><break>",
     "es": "",
@@ -176,11 +190,12 @@
     "it": "",
     "ja": "「セレドの町まで　行くんだな。\n　お代として　２５ゴールドもらうが　いいかい？<yesno><break>",
     "ko": ": 셀레도 마을까지 간다고?\n　운임으로 25골드를 받는데 탈래?<yesno><break>",
+    "pt-BR": "",
     "zh-Hans": "要去塞莱德镇啊。\n需要收取２５Ｇ的费用，可以吗？<yesno><break>",
     "zh-Hant": "要去塞萊德鎮啊。\n要跟你收取２５Ｇ的車費，可以嗎？<yesno><break>"
   },
   "20388002": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "You're going to the Kingdom of Al-Ahagiro.\nI'll take 25 gold to pay for it, okay?<yesno><break>",
     "es": "",
@@ -188,11 +203,12 @@
     "it": "",
     "ja": "「アラハギーロ王国まで　行くんだな。\n　お代として　２５ゴールドもらうが　いいかい？<yesno><break>",
     "ko": ": 아라하길로 왕국까지 간다고?\n　운임으로 25골드를 받는데 탈래?<yesno><break>",
+    "pt-BR": "",
     "zh-Hans": "要去艾拉哈奇罗王国啊。\n需要收取２５Ｇ的费用，可以吗？<yesno><break>",
     "zh-Hant": "要去艾拉哈奇羅王國啊。\n要跟你收取２５Ｇ的車費，可以嗎？<yesno><break>"
   },
   "20388003": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "You're going to the Three Way Gate. I'll take\n25 gold to pay for it, okay?<yesno><break>",
     "es": "",
@@ -200,11 +216,12 @@
     "it": "",
     "ja": "「三門の関所まで　行くんだな。\n　お代として　２５ゴールドもらうが　いいかい？<yesno><break>",
     "ko": ": 세 갈래 관문까지 간다고?\n　운임으로 25골드를 받는데 탈래?<yesno><break>",
+    "pt-BR": "",
     "zh-Hans": "要去三门关卡啊。\n需要收取２５Ｇ的费用，可以吗？<yesno><break>",
     "zh-Hant": "要去三門關卡啊。\n要跟你收取２５Ｇ的車費，可以嗎？<yesno><break>"
   },
   "20388004": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Thank you very much! Well then, we'll be\nleaving for Melsandy Village soon. Come on,\nlet's go, let's go!",
     "es": "",
@@ -212,11 +229,12 @@
     "it": "",
     "ja": "<attr><feel_happy_lv2><end_attr>「まいどあり！　それじゃ　すぐに\n　メルサンディ村へ　出発するぜ。\n　さあ　乗った　乗った！",
     "ko": "<attr><feel_happy_lv2><end_attr>: 고마워! 그럼 바로\n　메르상디 마을로 출발하지.\n　자, 어서 타!",
+    "pt-BR": "",
     "zh-Hans": "<attr><feel_happy_lv2><end_attr>多谢惠顾！那么，\n我们马上出发前往梅尔桑蒂村。\n快坐好，快坐好！",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>感謝搭乘！那麼我們現在就要\n出發前往梅爾桑蒂村囉。\n好啦，快坐好、快坐好！"
   },
   "20388005": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Thank you very much! Well then, we'll be\nleaving for the Town of Celed soon. Come on,\nlet's go, let's go, let's go!",
     "es": "",
@@ -224,11 +242,12 @@
     "it": "",
     "ja": "<attr><feel_happy_lv2><end_attr>「まいどあり！　それじゃ　すぐに\n　セレドの町へ　出発するぜ。\n　さあ　乗った　乗った！",
     "ko": "<attr><feel_happy_lv2><end_attr>: 고마워! 그럼 바로\n　셀레도 마을로 출발하지.\n　자, 어서 타!",
+    "pt-BR": "",
     "zh-Hans": "<attr><feel_happy_lv2><end_attr>多谢惠顾！那么，\n我们马上出发前往塞莱德镇。\n快坐好，快坐好！",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>感謝搭乘！那麼我們現在就要\n出發前往塞萊德鎮囉。\n好啦，快坐好、快坐好！"
   },
   "20388006": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Thank you very much! Well then, we'll be off\nto the Kingdom of Al-Ahagiro in no time. Come\non, get in, get in!",
     "es": "",
@@ -236,11 +255,12 @@
     "it": "",
     "ja": "<attr><feel_happy_lv2><end_attr>「まいどあり！　それじゃ　すぐに\n　アラハギーロ王国へ　出発するぜ。\n　さあ　乗った　乗った！",
     "ko": "<attr><feel_happy_lv2><end_attr>: 고마워! 그럼 바로\n　아라하길로 왕국으로 출발하지.\n　자, 어서 타!",
+    "pt-BR": "",
     "zh-Hans": "<attr><feel_happy_lv2><end_attr>多谢惠顾！那么，\n我们马上出发前往艾拉哈奇罗王国。\n快坐好，快坐好！",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>感謝搭乘！那麼我們現在就要\n出發前往艾拉哈奇羅王國囉。\n好啦，快坐好、快坐好！"
   },
   "20388007": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Thank you very much! Well then, we'll be\nleaving for the Three Way Gate in no time.\nWe're on it, we're on it, we're on it!",
     "es": "",
@@ -248,6 +268,7 @@
     "it": "",
     "ja": "<attr><feel_happy_lv2><end_attr>「まいどあり！　それじゃ　すぐに\n　三門の関所へ　出発するぜ。\n　さあ　乗った　乗った！",
     "ko": "<attr><feel_happy_lv2><end_attr>: 고마워! 그럼 바로\n　세 갈래 관문으로 출발하지.\n　자, 어서 타!",
+    "pt-BR": "",
     "zh-Hans": "<attr><feel_happy_lv2><end_attr>多谢惠顾！那么，\n我们马上出发前往三门关卡。\n快坐好，快坐好！",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>感謝搭乘！那麼我們現在就要\n出發前往三門關卡囉。\n好啦，快坐好、快坐好！"
   }

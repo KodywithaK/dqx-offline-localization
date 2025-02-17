@@ -1,8 +1,8 @@
 {
   "94079": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "From here, you will reach Mogarim\nHighway, which is a road that goes\nsoutheast. If you continue along the\n<br>\nroad, you will eventually reach the\nTown of Agrani, where Dwarfs live. If\nyou have never been there, I recommend\n<br>\nyou to go there at least once. It's\nquite an interesting place.",
     "es": "",
     "fr": "",
     "it": "",
@@ -13,9 +13,9 @@
     "zh-Hant": "從這裡沿著幹道往東南方前進，\n就會抵達摩加利姆幹道。\n<br>\n接著再繼續沿著幹道走，\n就會抵達一處叫阿古拉尼鎮的地方。\n那裡是多瓦夫們居住的市鎮。\n<br>\n要是你還沒去過的話，\n建議你可以去一趟看看。\n那裡是個相當有趣的地方喔。"
   },
   "94080": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "Cheery, I'm Waban, a peddler. My name\nis Waban, a peddler. I am Waban, a\npeddler. My job is to carry goods from\n<br>\nMount Gatara in this wagon. I am going\nto the Town of Agrani now. If you\nlike, I can give you a ride there.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -26,9 +26,9 @@
     "zh-Hant": "你好啊，旅行者。\n我是旅行商人瓦邦。\n請多指教喔。\n<br>\n我的工作就是靠著這輛馬車，\n將商品從山城加塔拉當中運出來。\n<br>\n我接下來要去阿古拉尼鎮，\n你有沒有打算去那邊呢？\n如果你也要去的話，我可以載你一程。<bw_break>"
   },
   "94081": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "I'm on my way to the Town of Agrani.\nIf you want, I can give you a ride\nthere.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -39,9 +39,9 @@
     "zh-Hant": "我接下來要去阿古拉尼鎮，\n你有沒有打算去那邊呢？\n如果你也要去的話，我可以載你一程。<bw_break>"
   },
   "94082": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "Cheery, I'm Waban, a peddler. My name\nis Waban, a peddler. I am Waban, a\npeddler. My job is to carry goods from\n<br>\nMount Gatara in this wagon. I am going\nto Mogare Camp now. Do you have any\nbusiness in that area? If you want, I\n<br>\ncan give you a ride there.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -52,9 +52,9 @@
     "zh-Hant": ""
   },
   "94083": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "I'm on my way to Mogare Camp. Do you\nhave any business in that area? If you\nwant, I can give you a ride there.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -65,9 +65,9 @@
     "zh-Hant": ""
   },
   "94084": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Oh, no!I'm very sorry, but it's not a\ngood time to go there. I'll pay you\nback. Please give me some time before\n<br>\nyou come back.",
     "es": "",
     "fr": "",
     "it": "",
@@ -78,9 +78,9 @@
     "zh-Hant": ""
   },
   "94085": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "But I can only drop you off, not pick\nyou up. If that's all right, where\nwould you like to go?\n<name_off><select>\nTown of Agrani\nMogare Camp (Mogarim Highway)\nOasis Caravan (Goble Desert East)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -91,9 +91,9 @@
     "zh-Hant": "但我只能送你過去，沒辦法載你回來喔。\n若是你能接受的話，想去哪裡呢？\n<name_off><select>\n阿古拉尼鎮\n摩加雷營地（摩加利姆幹道）\n綠洲的商隊驛站（哥布爾沙漠東邊）\n不搭乘\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "94086": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Thank you very much! Well, we'll be\nleaving soon.",
     "es": "",
     "fr": "",
     "it": "",
@@ -104,9 +104,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>多謝關照！\n那就立刻出發囉。"
   },
   "94087": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "Oops. I guess I'll stop now. Well,\nI'll be glad to see you again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -117,9 +117,9 @@
     "zh-Hant": "哎呀呀，不需要嗎？\n那好吧，下次再見。"
   },
   "94088": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Hello, Mr. Omatto. We've arrived at\nMogare Camp. I look forward to seeing\nyou again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -130,9 +130,9 @@
     "zh-Hant": "<pipipi_low>久等了。\n摩加雷營地到囉。\n那麼，下次再見。"
   },
   "94089": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Hello, Mr. Omatto. We have arrived at\nTown of Agrani. I hope to see you\nagain.",
     "es": "",
     "fr": "",
     "it": "",
@@ -143,9 +143,9 @@
     "zh-Hant": "<pipipi_low>久等了。\n阿古拉尼鎮到囉。\n那麼，下次再見。"
   },
   "94090": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "Oops. I'm sorry, but we don't have\nenough money. I'm sorry, but we're in\nthe business too. Please come again\n<br>\nwhen you have more money.",
     "es": "",
     "fr": "",
     "it": "",
@@ -156,9 +156,9 @@
     "zh-Hant": "哎呀，可惜你的錢不夠。\n不好意思，我這是需要收錢的。\n等到你有錢的時候再來光顧吧。"
   },
   "94091": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "I see you are going to <%sL_TIMEI>.\nI'll take 25 gold. Is that okay?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -169,9 +169,9 @@
     "zh-Hant": "你要去<%sL_TIMEI>啊。\n那需要收２５Ｇ，\n可以嗎？<yesno><break>"
   },
   "94092": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "Is that right? I look forward to\nseeing you again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -182,9 +182,9 @@
     "zh-Hant": "這樣啊。\n那麼，下次再見。"
   },
   "127384": {
-    "comments": "",
+    "$comments": "🔴",
     "de": "",
-    "en": "",
+    "en": "<pipipi_low>Hi, Mr. Omatto. I've arrived at Oasis\nCaravan. I hope to see you again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -195,9 +195,9 @@
     "zh-Hant": "<pipipi_low>久等了。\n綠洲的商隊驛站到囉。\n那麼，下次再見。"
   },
   "47262": {
-    "comments": "",
+    "$comments": "🟡",
     "de": "",
-    "en": "",
+    "en": "There is an altar of decaying ruins.",
     "es": "",
     "fr": "",
     "it": "",
@@ -208,9 +208,9 @@
     "zh-Hant": "這裡有座十分破舊的祭壇。"
   },
   "47289": {
-    "comments": "",
+    "$comments": "🟡",
     "de": "",
-    "en": "",
+    "en": "There are crumbled ruins of an altar. <pc>\nfound a switch in between the holes! Try pressing the\nswitch?<yesno><close>",
     "es": "",
     "fr": "",
     "it": "",
@@ -221,9 +221,9 @@
     "zh-Hant": "這裡有座十分破舊的祭壇遺跡。\n<br>\n<pc>在凹陷處\n發現了一個開關！\n要按下開關嗎？<yesno><close>"
   },
   "47290": {
-    "comments": "",
+    "$comments": "🟡",
     "de": "",
-    "en": "",
+    "en": "What's this, from the ruined pillar's machine arose\nrain clouds and it began to rain heavily in the area!",
     "es": "",
     "fr": "",
     "it": "",
@@ -234,9 +234,9 @@
     "zh-Hant": "從柱形遺跡的機械中居然出現一片雨雲，\n讓四周下起了大雨！"
   },
   "144981": {
-    "comments": "",
+    "$comments": "🟡",
     "de": "",
-    "en": "",
+    "en": "It looks like part of an old building. The wall has\ncollapsed and the floor stones are piled haphazardly\nall around.",
     "es": "",
     "fr": "",
     "it": "",
@@ -247,9 +247,9 @@
     "zh-Hant": "看來像是古老建築的一部分。\n牆壁坍塌，\n地磚被隨意堆放在周遭。"
   },
   "144982": {
-    "comments": "",
+    "$comments": "🟡",
     "de": "",
-    "en": "",
+    "en": "The wall had collapsed and floor stones were piled haphazardly around the area. But nothing in particular was found.",
     "es": "",
     "fr": "",
     "it": "",
@@ -260,9 +260,9 @@
     "zh-Hant": "牆壁坍塌，\n地磚被隨意堆放在周遭。\n但是並沒有發現什麼東西。"
   },
   "144983": {
-    "comments": "",
+    "$comments": "🟡",
     "de": "",
-    "en": "",
+    "en": "<pc> tried to leave the place.",
     "es": "",
     "fr": "",
     "it": "",
@@ -273,9 +273,9 @@
     "zh-Hant": "<pc>\n打算離開這裡。"
   },
   "144984": {
-    "comments": "",
+    "$comments": "🟡",
     "de": "",
-    "en": "",
+    "en": "<center>Wait... I'm here.",
     "es": "",
     "fr": "",
     "it": "",
@@ -286,9 +286,9 @@
     "zh-Hant": "<center>等等……\n<br>\n我在這裡……"
   },
   "144985": {
-    "comments": "",
+    "$comments": "🟡",
     "de": "",
-    "en": "",
+    "en": "<pc> noticed under the pile of floor stones\nthe remains of a divine machine.\n<br>\n<pc> obtained the\nDolboard Remains (Key Item)!<me 60>",
     "es": "",
     "fr": "",
     "it": "",
@@ -299,9 +299,9 @@
     "zh-Hant": "<pc>發現在堆放的地磚下\n有神之機關的殘骸。\n<br>\n<pc>獲得了\n德爾浮板殘骸（重要物品）！<me 60>"
   },
   "144986": {
-    "comments": "",
+    "$comments": "🟡",
     "de": "",
-    "en": "",
+    "en": "It looks like part of an old building. The wall has\ncollapsed and the floor stones are piled haphazardly\nall around.",
     "es": "",
     "fr": "",
     "it": "",

@@ -1,6 +1,6 @@
 {
   "93370": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "This elevator will take you to the first floor\nof Gran Zedora Castle or to the secret meeting\nroom. Which way do you want to go?\n<select>\nGran Zedora Castle, 1st floor\nsecret meeting room\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
     "es": "",
@@ -8,11 +8,12 @@
     "it": "",
     "ja": "このエレベーターで　グランゼドーラ城の１階\nまたは　秘密会議室へ　行けるようだ。\nどちらへ　行きますか？\n<select>\nグランゼドーラ城・１階\n秘密会議室\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
     "ko": "이 엘리베이터로 그랑제도라성의 1층\n또는 비밀 회의실로 갈 수 있는 듯하다.\n어디로 가겠습니까?\n<select>\n그랑제도라성 1층\n비밀 회의실\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
+    "pt-BR": "",
     "zh-Hans": "这部升降机前往古兰泽朵拉城１楼\n或是秘密会议室。\n要去哪里？\n<select>\n古兰泽朵拉城·１楼\n秘密会议室\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
     "zh-Hant": "可以搭乘這台升降機去古蘭澤朵拉城１樓\n或祕密會議室。\n請問要去哪裡？\n<select>\n古蘭澤朵拉城‧１樓\n祕密會議室\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "74085": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "I'd like to take another look at your\nbrother's room before I go out.",
     "es": "",
@@ -20,11 +21,12 @@
     "it": "",
     "ja": "「外へ出る前に　お兄さまの部屋を\n　もう一度　見ておきたいの。",
     "ko": ": 밖에 나가기 전에 오라버니의 방을\n　다시 한번 봐 두고 싶어.",
+    "pt-BR": "",
     "zh-Hans": "离开这里之前，\n我想再看一眼兄长大人的房间。",
     "zh-Hant": "在離開這裡之前，\n我想再看一眼兄長的房間。"
   },
   "88104": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "Gran Zedora Castle There is an\nelevator that goes to the first floor.<yesno><close>",
     "es": "",
@@ -32,11 +34,12 @@
     "it": "",
     "ja": "グランゼドーラ城　１階へ行く\nエレベーターがある。\nエレベーターに乗って　移動しますか？<yesno><close>",
     "ko": "그랑제도라성 1층으로 가는\n엘리베이터가 있다.\n엘리베이터를 타고 이동하겠습니까?<yesno><close>",
+    "pt-BR": "",
     "zh-Hans": "这部升降机前往\n古兰泽朵拉城１楼。\n要乘上升降机进行移动吗？<yesno><close>",
     "zh-Hant": "有前往古蘭澤朵拉城１樓的升降機。\n是否要搭乘升降機移動？<yesno><close>"
   },
   "74086": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "I must tell you that the Grand Titus\ncould not get here because of the seal\nthat surrounds Lendersia. But the\n<br>\nother day, that ship suddenly entered\nthe harbor. We were all so happy to\nsee her, and a few days later Princess\n<br>\nAnlucia returned as well.",
     "es": "",
@@ -44,11 +47,12 @@
     "it": "",
     "ja": "「あなたがたには　お話しするが\n　グランドタイタス号が　ここに着けなかったのは\n　レンダーシアを包む　封印のせいらしい。\n<br>\n「だが先日　突然　その船が港に入ってきてな。\n　皆で　よろこんでいたら　その数日後\n　アンルシア姫も　戻ってきたというわけなんだ。",
     "ko": ": 당신들한테만 얘기하는 건데\n　그랜드 타이터스호가 여기로 올 수 없었던 건\n　렌더시아를 둘러싼 봉인 때문이라더군.\n<br>\n: 그런데 얼마 전에 갑자기 그 배가 항구에\n　들어와서 다들 기뻐했는데 며칠 뒤엔\n　안루시아 공주님까지 돌아오셨더라고.",
+    "pt-BR": "",
     "zh-Hans": "我信任你们才会说这些，\n其实大巨人号没法到这里来\n是包围着冷达西亚的封印导致的。\n<br>\n所以前几天那艘船突然入港的时候\n大伙非常高兴，那之后没几天\n安露西雅公主也回来了。",
     "zh-Hant": "這件事情我只跟你們說喔。\n大巨人號之所以無法靠岸，\n似乎是由於壟罩著冷達西亞的封印所導致。\n<br>\n但就在前幾天那艘船突然入港，\n讓大家都非常高興。\n幾天後安露西亞公主也跟著回來了。"
   },
   "74087": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>The Grand Titus has been away for a\nwhile because her boat broke down and\nshe was being repaired on Lendor\n<br>\nIsland. That's good. We will miss the\nGrand Titus so much when it doesn't\ncome to this port. I'm glad that we\n<br>\ncan always go to the five continents\nside of the world.",
     "es": "",
@@ -56,11 +60,12 @@
     "it": "",
     "ja": "<attr><feel_happy_lv1><end_attr>「グランドタイタス号が　ずっと来なかったのは\n　船が壊れて　レンドア島で\n　修理を受けていたためだそうよ。\n<br>\n「よかったわ。この港に　グランドタイタス号が\n　来ないのは　さみしすぎるもの。\n　いつでも　五大陸側へ行けるのも　うれしいわ。",
     "ko": "<attr><feel_happy_lv1><end_attr>: 그랜드 타이터스호가 계속 오지 않았던 건\n　배가 고장 나는 바람에 렌도어섬에서\n　수리를 받았기 때문이래.\n<br>\n: 다행이야. 이 항구에 그랜드 타이터스호가\n　오지 않으면 너무 쓸쓸한걸. 언제든지\n　다섯 대륙으로 갈 수 있는 것도 기뻐.",
+    "pt-BR": "",
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>据说大巨人号一直都不过来，\n是因为船体损坏，\n一直在莲铎阿岛修理。\n<br>\n太好了。如果大巨人号不到这个\n港口来就太寂寞了。\n能随时前往五大陆让我非常高兴呢。",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>大巨人號之所以一直都沒來，\n聽說是因為船體損壞，\n所以暫時在蓮鐸亞島接受修理喔。\n<br>\n真是太好了。因為大巨人號一直沒有\n來到這座港口，讓這裡變得冷清過頭了。\n又能隨時前往五大陸，讓我非常開心呢。"
   },
   "74088": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "This is the entrance to Gran Zedora\nCastle. You can enter from here and\nuse the elevator inside to get out to\n<br>\nthe first floor of Gran Zedora Castle.",
     "es": "",
@@ -68,11 +73,12 @@
     "it": "",
     "ja": "「こちらは　グランゼドーラ城への入り口です。\n　ここから入って　中のエレベーターを使えば\n　グランゼドーラ城の　１階に出られますよ。",
     "ko": ": 이곳은 그랑제도라성 입구입니다.\n　들어가서 안에 있는 엘리베이터를 타시면\n　그랑제도라성 1층으로 나갈 수 있습니다.",
+    "pt-BR": "",
     "zh-Hans": "这边是通往古兰泽朵拉城内的入口。\n从这里进入后使用里面的升降机\n就可以到达古兰泽朵拉城的１楼了。",
     "zh-Hant": "這是通往古蘭澤朵拉城的入口。\n通過這裡並搭乘裡面的升降機，\n就能前往古蘭澤朵拉城的１樓喔。"
   },
   "74089": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<attr><feel_happy_lv3><end_attr>I jumped on a boat bound for Gran\nZedora from Lendor Island! One of\nLendersia's specialties is Melsandy\n<br>\nVillage's bread! I'm definitely going\nto eat there!",
     "es": "",
@@ -80,11 +86,12 @@
     "it": "",
     "ja": "<attr><feel_happy_lv3><end_attr>「レンドア島から　グランゼドーラ行きの\n　定期船が出てたから　思わず飛び乗っちゃった！\n<br>\n「レンダーシアの名物と言えば\n　メルサンディ村の　パンよねっ！\n　ここに来たからには　絶対食べにいくわ～！",
     "ko": "<attr><feel_happy_lv3><end_attr>: 렌도어섬에서 그랑제도라로 가는\n　정기선이 왔길래 나도 모르게 올라타 버렸어!\n<br>\n: 렌더시아의 명물 하면 역시\n　메르상디 마을의 빵이지!\n　여기에 온 이상 꼭 먹으러 갈 거야~!",
+    "pt-BR": "",
     "zh-Hans": "<attr><feel_happy_lv3><end_attr>听说有从莲铎阿岛去往古兰泽朵拉的渡船，\n我立刻就跑来搭了！\n<br>\n说到冷达西亚的特产，\n首先就是梅尔桑蒂村的面包了吧！\n等我到了那里一定要去尝尝～",
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>我聽說有從蓮鐸亞島航向古蘭澤朵拉的定期船，\n就不假思索地跑來搭了！\n<br>\n說到冷達西亞的名產，\n就不能不提梅爾桑蒂村的麵包！\n等我到了那裡絕對要去吃吃看～！"
   },
   "74090": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "This is the entrance to Castle Town.\nThe elevator inside will take you to\nthe Castle Town of Gran Zedora.",
     "es": "",
@@ -92,11 +99,12 @@
     "it": "",
     "ja": "「こっちは　城下町への入り口だ。\n　中のエレベーターを使えば　グランゼドーラの\n　城下町の方へ　出られるぞ。",
     "ko": ": 이곳은 시가지로 가는 입구다.\n　안에 있는 엘리베이터를 타면\n　그랑제도라의 시가지로 나갈 수 있지.",
+    "pt-BR": "",
     "zh-Hans": "这边是通往城区的入口。\n使用里面的升降机\n就可以到达古兰泽朵拉城区了。",
     "zh-Hant": "這是通往城鎮的入口。\n只要搭乘裡面的升降機，\n就能前往古蘭澤朵拉的城鎮了。"
   },
   "74091": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "Are you surprised to see the Grand\nTitus? The passage between Lendor\nIsland and the Gran Zedora Kingdom is\n<br>\nfinally open! This is thanks to the\nnew Magic Compass created by Sage\nHollow. You can hear more about it on\n<br>\nboard. Now, let's see...<bw_break>",
     "es": "",
@@ -104,11 +112,12 @@
     "it": "",
     "ja": "「グランドタイタス号があって　おどろきました？\n　レンドア島と　グランゼドーラ王国を結ぶ航路が\n　ついに　開かれたのです！\n<br>\n「これもひとえに　賢者ホーローさまが作った\n　新しい魔法の羅針盤のおかげ。\n　くわしい話は　船内で聞けますよ。さて……<bw_break>",
     "ko": ": 그랜드 타이터스호가 있어서 놀라셨나요?\n　렌도어섬과 그랑제도라 왕국을 잇는\n　항로가 드디어 열렸습니다!\n<br>\n: 이게 다 현자 호로 님이 만드신 새로운\n　마법의 나침반 덕이죠. 자세한 이야기는\n　배 안에서 들을 수 있습니다. 그럼……<bw_break>",
+    "pt-BR": "",
     "zh-Hans": "你看到大巨人号是不是吓了一跳？\n连结莲铎阿岛与古兰泽朵拉王国的\n海路终于通航了！\n<br>\n这都是多亏了贤者霍洛大人\n制作的新的魔法罗盘。\n船内可以打听到具体消息哦。那么……<bw_break>",
     "zh-Hant": "大巨人號停在港口是不是讓你嚇了一跳？\n連結蓮鐸亞島與古蘭澤朵拉王國之間的航路\n終於開通了！\n<br>\n這都多虧了賢者霍洛大人製作的\n全新魔法羅盤。\n在船內可以獲得更深入的資訊喔，那麼……<bw_break>"
   },
   "74092": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "The Grand Titus will sail to Lendor\nIsland. Titus Boarding Pass holders\ncan board the ship for 200 gold. Would\n<br>\nyou like to board the Grand Titus?<yesno><break>",
     "es": "",
@@ -116,11 +125,12 @@
     "it": "",
     "ja": "「本船　グランドタイタス号は\n　レンドア島を目指して　出港いたします。\n<br>\n「タイタス号乗船パスを　お持ちの　お客さまは\n　２００ゴールドで　ご乗船になれます。\n　グランドタイタス号に　ご乗船なさいますか？<yesno><break>",
     "ko": ": 저희 그랜드 타이터스호는\n　렌도어섬을 향해 출항합니다.\n<br>\n: 타이터스호 승선 패스를 소지하신 고객님은\n　200골드에 승선하실 수 있습니다.\n　그랜드 타이터스호에 타시겠습니까?<yesno><break>",
+    "pt-BR": "",
     "zh-Hans": "本渡轮为大巨人号，\n目的地是莲铎阿岛。\n<br>\n持有大巨人号乘船证的旅客，\n支付２００Ｇ即可搭乘。\n您要搭乘大巨人号吗？<yesno><break>",
     "zh-Hant": "本船大巨人號馬上就要\n出發前往蓮鐸亞島了。\n<br>\n擁有大巨人號乘船證的乘客，\n只要支付２００Ｇ即可乘船。\n請問要乘坐大巨人號嗎？<yesno><break>"
   },
   "74093": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "Well then, please come again.",
     "es": "",
@@ -128,11 +138,12 @@
     "it": "",
     "ja": "「では　また　お越しください。",
     "ko": ": 그럼 또 찾아 주세요.",
+    "pt-BR": "",
     "zh-Hans": "期待您能再次光临。",
     "zh-Hant": "好的，歡迎您日後再次光臨。"
   },
   "74094": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "I am sorry, but we seem to be short of\nmoney. We look forward to seeing you\non board again.",
     "es": "",
@@ -140,11 +151,12 @@
     "it": "",
     "ja": "「申し訳ありませんが　お金が足りないようです。\n　またの　ご乗船を　お待ちしております。",
     "ko": ": 죄송하지만 돈이 부족하신 것 같습니다.\n　다음에 승선해 주세요.",
+    "pt-BR": "",
     "zh-Hans": "非常抱歉，您的金币似乎不够。\n期待您下次搭乘。",
     "zh-Hant": "非常抱歉，您的金幣似乎不夠。\n期待您下次蒞臨搭乘。"
   },
   "74095": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "I will now charge you 200 gold for\nboarding. Please come on board the\nGrand Titus.",
     "es": "",
@@ -152,11 +164,12 @@
     "it": "",
     "ja": "「それでは　乗船料の\n　２００ゴールドを　いただきます。\n　さあ　グランドタイタス号へ　どうぞ。",
     "ko": ": 그럼 승선료\n　200골드를 받겠습니다.\n　자, 그랜드 타이터스호에 올라타세요.",
+    "pt-BR": "",
     "zh-Hans": "好的，那么就收下\n您的２００Ｇ乘船费。\n来，请登上大巨人号吧。",
     "zh-Hant": "好的，\n那麼就收下您的乘船費２００Ｇ。\n來，請登上大巨人號吧。"
   },
   "78957": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "Hey, you know what? Before the Grand\nTitus started its operation, non-human\nraces were banned from landing here in\n<br>\nLendersia. I don't know why they did\nthat.",
     "es": "",
@@ -164,11 +177,12 @@
     "it": "",
     "ja": "「ねえ　知ってる？　グランドタイタス号が\n　運行を始める前　このレンダーシアは\n　人間じゃない種族の上陸が　禁止されてたのよ。\n<br>\n「なんで　そんなことになってたか\n　私は　知らないけどね。",
     "ko": ": 있지, 그거 알아? 그랜드 타이터스호가\n　운행을 시작하기 전에 이 렌더시아는\n　인간이 아닌 종족의 상륙을 금지했었대.\n<br>\n: 왜 그런 규칙이 있었는지\n　나는 잘 모르겠지만 말이야.",
+    "pt-BR": "",
     "zh-Hans": "呐，你知道吗？大巨人号运营之前，\n冷达西亚大陆是\n不允许人类以外的种族登陆的。\n<br>\n我也不知道\n为什么会那样。",
     "zh-Hant": "你知道嗎？在大巨人號開始航行以前，\n冷達西亞是禁止人類以外的種族登陸的喔。\n<br>\n雖然我也不知道為什麼要禁止就是了。"
   },
   "78958": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<attr><feel_happy_lv3><end_attr>I went to Melsandy Village and ate a\nlot of their famous bread. Where\nshould we go next? I'm also interested\n<br>\nin the Arena in the Kingdom of Al-\nAhagiro.",
     "es": "",
@@ -176,11 +190,12 @@
     "it": "",
     "ja": "<attr><feel_happy_lv3><end_attr>「メルサンディ村に行って　名物のパンを\n　たらふく　食べてきちゃった。\n<br>\n「次は　どこへ行こうかな？\n　アラハギーロ王国にあるっていう　格闘場にも\n　ちょっと　興味があるのよね～。",
     "ko": "<attr><feel_happy_lv3><end_attr>: 메르상디 마을에 가서 그곳의 명물인\n　빵을 배가 터지게 먹고 왔어.\n<br>\n: 다음엔 어디로 가 볼까?\n　아라하길로 왕국에 있다는 격투장도\n　좀 재밌을 것 같더라고~",
+    "pt-BR": "",
     "zh-Hans": "<attr><feel_happy_lv3><end_attr>我去了梅尔桑蒂村，\n吃了好多那里的特产面包。\n<br>\n接下来要去哪呢？\n听说艾拉哈奇罗王国有个格斗场，\n那个我也有点感兴趣呢～",
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>我去了梅爾桑蒂村，\n還吃了很多那裡特產的麵包喔。\n<br>\n接下來要去哪裡呢？\n聽說艾拉哈奇羅王國有個格鬥場，\n讓我也有點感興趣呢～"
   },
   "78959": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<attr><feel_think_lv3><end_attr>It seems that the seal that surrounds\nLendersia has not yet been broken. The\nGrand Titus seems to be navigating\n<br>\nwithout any problems, but is it really\nsafe as it is?",
     "es": "",
@@ -188,11 +203,12 @@
     "it": "",
     "ja": "<attr><feel_think_lv3><end_attr>「レンダーシアを包む封印は\n　いまだに　解けてはいないらしい。\n<br>\n「グランドタイタス号は　問題なく\n　航行できているようなのだが\n　本当に　このままで　大丈夫だろうか……。",
     "ko": "<attr><feel_think_lv3><end_attr>: 렌더시아를 둘러싼 봉인은\n　아직 풀리지 않았다는군.\n<br>\n: 그랜드 타이터스호는 문제없이\n　운행하고 있는 것 같던데\n　정말 이대로 괜찮은 걸까…….",
+    "pt-BR": "",
     "zh-Hans": "<attr><feel_think_lv3><end_attr>包围着冷达西亚的封印\n至今还没有解开。\n<br>\n虽然大巨人号已经可以\n正常航行，\n但是这样真的没问题了么……",
     "zh-Hant": "<attr><feel_think_lv3><end_attr>壟罩著冷達西亞的封印，\n到了現在好像都還沒有解開。\n<br>\n雖然大巨人號已經可以正常航行了，\n但這樣真的沒問題嗎……"
   },
   "102440": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>Hey, did you hear? The hero princess\nof the castle defeated the Great Demon\nKing! The hero princess is always\n<br>\naccompanied by a person named Ally,\nand I heard that this person is\nextremely strong.",
     "es": "",
@@ -200,11 +216,12 @@
     "it": "",
     "ja": "<attr><feel_happy_lv1><end_attr>「ねえ　あなたは　聞いた？\n　なんと　お城の勇者姫さまが\n　大魔王を　やっつけたんですって！\n<br>\n「勇者姫さまの戦いには　つねに\n　盟友という方が　一緒にいて\n　この人が　ものすごく　強いらしいのよ～。",
     "ko": "<attr><feel_happy_lv1><end_attr>: 있지, 당신도 들었어?\n　성에 계신 용사 공주님이\n　대마왕을 물리쳤다는 소식!\n<br>\n: 용사 공주님의 싸움에는 언제나\n　맹우라는 분이 함께했는데\n　이 사람이 엄청나게 강하다고 하더라고~",
+    "pt-BR": "",
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>喂，你听说了吗？\n城堡的勇者公主殿下\n居然打倒了大魔王！\n<br>\n总有一位被叫作盟友的人与\n勇者公主殿下并肩作战，\n这个人似乎超厉害呢～",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>欸，你聽說了嗎？\n城裡的勇者公主\n竟然打倒大魔王了！\n<br>\n勇者公主在戰鬥的時候，\n都會有個盟友跟她並肩作戰，\n那個人好像很強喔～"
   },
   "102441": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "<attr><feel_happy_lv3><end_attr>I went to the Kingdom of Al-Ahagiro\nthe other day. I went to see the\nMonster Arena! I would like to visit\n<br>\nPyramid next time.",
     "es": "",
@@ -212,11 +229,12 @@
     "it": "",
     "ja": "<attr><feel_happy_lv3><end_attr>「こないだ　アラハギーロ王国に行ってきたの。\n　モンスター格闘場を　見学してきちゃった！\n　今度は　ピラミッドにも　行ってみたいな。",
     "ko": "<attr><feel_happy_lv3><end_attr>: 얼마 전에 아라하길로 왕국에 다녀왔어.\n　몬스터 격투장을 견학했지!\n　다음번엔 피라미드에도 가 보고 싶어.",
+    "pt-BR": "",
     "zh-Hans": "<attr><feel_happy_lv3><end_attr>最近，我去了一趟艾拉哈奇罗王国，\n参观了怪物格斗场！\n下次还想去金字塔呢。",
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>前陣子我去艾拉哈奇羅王國\n參觀了怪物格鬥場！\n下次我想去金字塔看看。"
   },
   "102442": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "Even though the Great Demon King has\nbeen defeated, the seal that surrounds\nLendersia shows no sign of being\n<br>\nbroken. However, this has become a\nregular scene. Well, one can get used\nto anything.",
     "es": "",
@@ -224,11 +242,12 @@
     "it": "",
     "ja": "「大魔王が　倒されたというのに\n　レンダーシアを包む封印は\n　いまだ　解ける気配は　ないようだ。\n<br>\n「とはいえ　もはや　これが\n　いつもの風景に　なってしまったからな。\n　いやはや　どんなことにも慣れるものだよ。",
     "ko": ": 대마왕이 쓰러졌는데도\n　렌더시아를 둘러싼 봉인은\n　아직 풀릴 기미가 보이지 않는다더군.\n<br>\n: 뭐, 이젠 이게\n　일상적인 풍경이 돼 버렸지만.\n　아아, 뭐든지 적응하고 살게 되는구나.",
+    "pt-BR": "",
     "zh-Hans": "大魔王明明已经打倒了，\n可包围着冷达西亚的封印\n似乎还没有解开的迹象。\n<br>\n不过，这已经成为\n一道习以为常的风景了。\n哎呀，习惯真是件可怕的事情呢。",
     "zh-Hant": "明明大魔王被打倒了，\n圍繞著冷達西亞的封印\n卻沒有解除的跡象。\n<br>\n不過這其實已經變成\n日常風景的一部分了。\n唉，凡事都會習慣成自然呢。"
   },
   "88126": {
-    "$comments": null,
+    "$comments": "",
     "de": "",
     "en": "It seems we have arrived at the Gran\nZedora Kingdom (the world of the\ntrue).",
     "es": "",
@@ -236,6 +255,7 @@
     "it": "",
     "ja": "グランゼドーラ王国（真の世界）に\n到着したようだ。",
     "ko": "그랑제도라 왕국(진짜 세계)에\n도착한 듯하다.",
+    "pt-BR": "",
     "zh-Hans": "到达了\n古兰泽朵拉王国（真实世界）。",
     "zh-Hant": "似乎抵達\n古蘭澤朵拉王國（真實世界）了。"
   }
