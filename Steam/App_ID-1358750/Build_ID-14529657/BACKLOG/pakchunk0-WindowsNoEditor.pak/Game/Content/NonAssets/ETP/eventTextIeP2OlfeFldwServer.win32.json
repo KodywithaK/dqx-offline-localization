@@ -1,6 +1,6 @@
 {
   "94127": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>...Huh? I'm sorry, but it's not convenient for us\nto go there right now. We will refund your\nmoney, so please come back again after some\n<br>\ntime.",
     "es": "",
@@ -13,7 +13,7 @@
     "zh-Hant": ""
   },
   "10170002": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Eh. If you go southwest along the road from\nhere, you will find a tower called Glitter\nWindmill Tower. Also, on the other side of\n<br>\nTown of Orphea, from Orphea Region East, go\neast to the settlement called Pipi's Inn.\nFurthermore... If you continue along the road\n<br>\nfrom there, you will come to Pukulet Village,\nwhere Pukulipo live. If you have not been\nthere yet, it would be good to go there once.",
     "es": "",
@@ -26,7 +26,7 @@
     "zh-Hant": "呃～從這裡沿路往西南方走，\n有座叫做光耀大風車塔的塔～\n<br>\n另外～從歐菲亞鎮的另一邊，\n歐菲亞地方東部往東邊走～\n會抵達一個叫皮皮旅店的村落～\n<br>\n然後～從那裡沿著幹道前進，\n會到一個普庫里坡族居住的村莊，\n名叫普庫萊特村～\n<br>\n如果你還沒去過的話，\n建議去看看喔～"
   },
   "94128": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "However, I can only drop you off, not pick you\nup. If you don't mind, where would you like to\ngo?\n<name_off><select>\nPukulet Village\nPipi's Inn (Orphea Region East)\nOrpha Hill (Monster Master House)\nGlitter Windmill Tower\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
@@ -39,7 +39,7 @@
     "zh-Hant": "不過我只會送你過去，不能去接你～\n如果你能接受的話，要去哪裡呢～？\n<name_off><select>\n普庫萊特村\n皮皮旅店（歐菲亞地方東部）\n歐魯法山丘（馴魔師之家）\n光耀大風車塔\n不搭乘\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "10170001": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "However, I can only drop you off, not pick you\nup. If you don't mind, where would you like to\ngo?\n<name_off><select>\nPukulet Village\nPipi's Inn (Orphea Region East)\nGlitter Windmill Tower\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
@@ -52,7 +52,7 @@
     "zh-Hant": "不過我只能送你過去，無法去接你回來～\n如果能接受的話，你要去哪裡呢～？\n<name_off><select>\n普庫萊特村\n皮皮旅店（歐菲亞地方東部）\n光耀大風車塔\n不搭乘\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "94129": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Thank you very much. I'll be leaving soon.",
     "es": "",
@@ -65,7 +65,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>感謝乘坐～\n那麼我們現在就要出發囉～"
   },
   "94130": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ah. You don't ride, do you? If you have a\nchance, please use us again.",
     "es": "",
@@ -78,7 +78,7 @@
     "zh-Hant": "啊～你不搭啊～\n有機會再來搭吧～"
   },
   "94131": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Hello, ladies and gentlemen. I've arrived at\nPipi's Inn. Well then, good bye.",
     "es": "",
@@ -91,7 +91,7 @@
     "zh-Hant": "<pipipi_low>久等了～\n到皮皮旅店了～\n那麼，再會了～"
   },
   "94132": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Hello, ladies and gentlemen. I have arrived at\nPukulet Village. Then, good bye.",
     "es": "",
@@ -104,7 +104,7 @@
     "zh-Hant": "<pipipi_low>久等了～\n到普庫萊特村了～\n那麼，再會了～"
   },
   "94133": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ahh. It looks like you don't have enough\nmoney! Please come back again with money.",
     "es": "",
@@ -117,7 +117,7 @@
     "zh-Hant": "啊～看來你的錢不夠呢～\n等你準備好錢再過來吧～"
   },
   "94134": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "You are going to <%sL_TIMEI>. I'm going to 25\ngold, is that ok?<yesno><break>",
     "es": "",
@@ -130,7 +130,7 @@
     "zh-Hant": "你要去<%sL_TIMEI>啊～\n這樣要２５Ｇ～可以嗎～？<yesno><break>"
   },
   "94135": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I see. I'm sorry to hear that. If you have a\nchance, please use us again.",
     "es": "",
@@ -143,7 +143,7 @@
     "zh-Hant": "這樣啊～真是可惜～\n有機會再來搭吧～"
   },
   "127394": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Hello, ladies and gentlemen. I have arrived at\nOrpha Hill. Well then, good bye.",
     "es": "",
@@ -156,7 +156,7 @@
     "zh-Hant": "<pipipi_low>久等了～\n到歐魯法山丘了～\n那麼，再會了～"
   },
   "132711": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Hello, ladies and gentlemen. I've arrived at\nGlitter Windmill Tower. Well then, good bye.",
     "es": "",
@@ -169,7 +169,7 @@
     "zh-Hant": "<pipipi_low>久等了～\n到光耀大風車塔了～\n那麼，再會了～"
   },
   "132722": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Cheery Yo. Hello, traveler. My name is Kraban,\na peddler. I hope to make your acquaintance.\nMy job is to carry goods from Town of Orphea\n<br>\nto various places by this wagon. I'm heading\nto Glitter Windmill Tower via Pukulet Village.\nIf you want, I will give you a ride.<bw_break>",
     "es": "",
@@ -182,7 +182,7 @@
     "zh-Hant": "你好啊，旅行者。\n我是旅行商人克拉邦，\n今後還請多多關照～\n<br>\n我的工作是用這輛馬車\n將歐菲亞鎮的商品運送到各地～\n<br>\n我接下來會經過普庫萊特村，\n前往光耀大風車塔～\n<br>\n你有事要去那附近嗎～？\n不嫌棄的話，我可以載你一程喔～<bw_break>"
   },
   "132723": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I'm heading to Glitter Windmill Tower via\nPukulet Village, and I was wondering if there\nis anything you need me to do around there. If\n<br>\nyou want, I can give you a ride.<bw_break>",
     "es": "",
@@ -195,7 +195,7 @@
     "zh-Hant": "我接下來會經過普庫萊特村，\n前往光耀大風車塔～\n<br>\n你有事要去那附近嗎～？\n不嫌棄的話，我可以載你一程喔～<bw_break>"
   },
   "132725": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Cheery hello, traveler. My name is Kraban, a\npeddler. I hope to make your acquaintance. My\njob is to carry goods from the Town of Orphea\n<br>\nto various places on this wagon. I'm heading\nto Glitter Windmill Tower via Pipi's Inn and\nOrpha Hill. I can give you a ride if you like.<bw_break>",
     "es": "",
@@ -208,7 +208,7 @@
     "zh-Hant": "你好啊，旅行者。\n我是旅行商人克拉邦，\n今後還請多多關照～\n<br>\n我的工作是用這輛馬車\n將歐菲亞鎮的商品運送到各地～\n<br>\n我接下來會經過\n皮皮旅店和歐魯法山丘，\n前往光耀大風車塔～\n<br>\n你有事要去那附近嗎～？\n不嫌棄的話，我可以載你一程喔～<bw_break>"
   },
   "132726": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I'm heading to Glitter Windmill Tower via\nPipi's Inn and Orpha Hill. I'll give you a\nride if you like.<bw_break>",
     "es": "",
@@ -221,7 +221,7 @@
     "zh-Hant": "我接下來會經過\n皮皮旅店和歐魯法山丘，\n前往光耀大風車塔～\n<br>\n你有事要去那附近嗎～？\n不嫌棄的話，我可以載你一程喔～<bw_break>"
   },
   "40323": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I am a Turtle Raman. I felt the limit of\ntaking Shaketrue pictures in the city. Now I\nshoot true pictures in the great outdoors.",
     "es": "",
@@ -234,7 +234,7 @@
     "zh-Hant": "我是一名攝影師。\n我覺得在市鎮拍的照片已經陷入瓶頸，\n所以現在以大自然為舞台拍照。"
   },
   "40324": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_sad_lv3><end_attr>I can no longer get up from my chair because\nof the curse of the Monster. Please help me.\nPlease help me.",
     "es": "",
@@ -247,7 +247,7 @@
     "zh-Hant": "<attr><feel_sad_lv3><end_attr>我被怪物詛咒，\n變得沒辦法從椅子上站起來了……\n拜託你……救救我……"
   },
   "45078": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pc> rang Anywhere Cracker!",
     "es": "",
@@ -260,7 +260,7 @@
     "zh-Hant": "<pc>拉響了便利拉炮！"
   },
   "45079": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "The sound of ku rakka echoed far into the\ndistance!",
     "es": "",
@@ -273,7 +273,7 @@
     "zh-Hant": "拉炮的聲響\n傳到了遠方去！"
   },
   "40328": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Thank you very much. Thanks to you, I can move\nnow. Now I can do my job. I am a turtle Raman.\nI felt I had reached the limit of what I could\n<br>\ndo in town. Now I shoot true pictures in the\ngreat outdoors.",
     "es": "",
@@ -286,7 +286,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>謝謝你。\n多虧有你幫忙，我才又能動了。\n這樣我就能去工作了。\n<br>\n我的職業是攝影師。\n因為覺得在市鎮拍的照片已經陷入瓶頸，\n所以現在以大自然為舞台拍照。"
   },
   "40329": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Oh, you! At that time I called the priest to\nlift the curse, and thanks to him I was saved!\nMy name is Meroponesse, from Turtle Raman. My\n<br>\nname is Meroponesse, and I'm a turtle Raman.\nI've reached the limit of what I can do in\ntown. Now I shoot true pictures in the great\n<br>\noutdoors. Yes, I know. Maybe you could...\nUm... I have a favor to ask. The monster who\nput a curse on me stole something very\n<br>\nimportant. It's the famous mage's stick from\nlong ago. It is a shadowy monster that lives\nin Felaba Cave, southwest of Orphea Region\n<br>\nWest. It's so strong that I can't handle it.\nIf you don't mind, could you help me get rid\nof the monster and get back my precious stick?",
     "es": "",
@@ -299,7 +299,7 @@
     "zh-Hant": "喔，是你啊！那時候多虧你幫我去\n叫神父來解除我的詛咒，\n我才能得救啊！\n<br>\n我叫梅洛波涅斯，是一名攝影師。\n我覺得在市鎮拍的照片已經陷入瓶頸，\n所以現在以大自然為舞台拍照。\n<br>\n對了，如果是你，說不定……\n那個，我有一個請求……\n<br>\n其實對我施加詛咒的怪物\n偷走了我的重要物品。\n那是一根以前有名的魔法師用過的短杖。\n<br>\n偷走它的是一種像是影子的怪物\n住在歐菲亞地方西部西南方的菲爾伯洞窟。\n對方滿強的，我實在打不贏。\n<br>\n方便的話，可以請你擊退怪物，\n取回我那根重要的短杖嗎？"
   },
   "40330": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Oh. You are really kind. I'm very impressed.\nOh, yes. I'll need my photo machine to summon\nthe monster, so I'll be on my way when I'm\n<br>\ndone.",
     "es": "",
@@ -312,7 +312,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>喔喔，你真是親切。\n非常感激你。\n<br>\n對了，要引誘那隻怪物，\n會需要我的照相機，\n所以等你準備完成後，我也會過去。"
   },
   "40331": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Oh. You are really kind. I'm very impressed.\nYou have a lot of favors to ask of people.\nMine's not urgent, so it can wait.",
     "es": "",
@@ -325,7 +325,7 @@
     "zh-Hant": "喔喔，你真是親切。\n非常感激你。\n<br>\n哎呀，你目前接了很多人的委託呢。\n我的事情不急，\n可以暫緩一下沒關係。"
   },
   "40332": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_sad_lv1><end_attr>Oh, I see. No, no, it's fine. I don't want to\nbother you with my personal business.",
     "es": "",
@@ -338,7 +338,7 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>喔，這樣啊。沒事沒事，沒關係的。\n不好意思，\n要你陪我解決私事。"
   },
   "40333": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "The stick was stolen by a shadowy monster that\nlives in Felaba Cave, southwest of Orphea\nRegion West.<open_irai><bw_break>",
     "es": "",
@@ -351,7 +351,7 @@
     "zh-Hant": "有個像是影子的怪物偷走了我的短杖，\n他棲息在歐菲亞地方西部\n西南方的菲爾伯洞窟。<open_irai><bw_break>"
   },
   "40334": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Go to Felaba Cave, kill that monster and get\nback your precious stick.<bw_break>",
     "es": "",
@@ -364,7 +364,7 @@
     "zh-Hant": "請你去菲爾伯洞窟打倒那個怪物，\n幫我拿回那根重要的短杖。<bw_break>"
   },
   "40335": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<close_irai>I will need my photo machine to summon the\nmonster. I'll be on my way when I'm done.",
     "es": "",
@@ -377,7 +377,7 @@
     "zh-Hant": "<close_irai>要引誘出那隻怪物，\n會需要我的照相機，\n所以等你準備完成後，我也會過去。"
   },
   "40336": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_sad_lv2><end_attr>I'm sorry. I was so scared I ran away. Do you\nremember where it is? It's Felaba Cave,\nsouthwest of Orphea Region West. I should be\n<br>\non my way there soon.<open_irai>",
     "es": "",
@@ -390,7 +390,7 @@
     "zh-Hant": "<attr><feel_sad_lv2><end_attr>對不起……因為實在太可怕，\n所以我就逃到這裡來了。\n<br>\n你還記得地方嗎？是在歐菲亞地方西部\n西南方的菲爾伯洞窟喔。\n我也差不多要過去了。<open_irai>"
   },
   "40337": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>You would make a good model. I bet you would\nbe beautiful with a mage stick. Please let me\ntake some photos of you at Silver Hill with\n<br>\nyou as the model. I'll be on my way to Silver\nHill when I'm done getting ready.",
     "es": "",
@@ -403,7 +403,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>你應該會是個不錯的模特兒。\n拿著魔法師的短杖的你\n肯定會很上相。\n<br>\n請你務必讓我以銀色丘陵為舞台，\n並以你為模特兒來拍照片。\n等我準備好，就會前往銀色丘陵。"
   },
   "40338": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Now that I think about it, if I hadn't been\ncursed, I wouldn't have met you. Strange\nthings do happen. Thanks to you, I was able to\n<br>\ntake the best picture of you, and I am glad\nthat I have continued this work, I think so\nfrom the bottom of my heart.",
     "es": "",
@@ -416,7 +416,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>現在回想起來，如果我沒有中詛咒，\n就不會遇到你了。\n哎呀，人生真是奇妙啊。\n<br>\n多虧如此，我才能拍出最棒的照片。\n我現在由衷地覺得\n堅持做這份工作真是太好了。"
   },
   "46004": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. A girl who seems to be a little out\nof her depth sometimes makes people laugh with\nher unbelievable tricks. It's nice to be a\n<br>\nlovable idiot. You know, you know, I think. I\nthink that an idiot who can make people laugh\nwith a bang can also save them.",
     "es": "",
@@ -429,7 +429,7 @@
     "zh-Hant": "哈哈，有時候，少根筋的人\n會做出意想不到的事來讓人爆笑。\n傻到可愛的人就是討人喜愛啊。\n<br>\n喂，我說你啊。我是這樣想的。\n能讓人爆笑出來的笨蛋，\n應該也能拯救他人吧。"
   },
   "36219": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. A little out of the ordinary girl\ncan make you laugh with her unbelievable\ntricks. It's nice to be a lovable idiot. You\n<br>\nknow, you know, I think. I think that an idiot\nwho can make people laugh with a bang can also\nsave them. Why don't you become such a\n<br>\nminstrel? If you are so inclined, become a\nminstrel above level 10 and come back here.\nAfter all, you are a minstrel. I hope you can\n<br>\nat least use Pratfall, which you learn at\nlevel 2, as a minimum requirement.",
     "es": "",
@@ -442,7 +442,7 @@
     "zh-Hant": "哈哈，有時候少根筋的人\n會做出意想不到的事來讓人爆笑。\n傻到可愛的人就是討人喜愛啊。\n<br>\n喂，我說你啊。我是這樣想的。\n能讓人爆笑出來的笨蛋，\n應該也能拯救他人吧。\n<br>\n你要不要也成為那樣的旅行藝人？\n如果你有那個意思，\n就成為等級１０以上的旅行藝人，再回到這裡來。\n<br>\n不過再怎麼說，我們畢竟是旅行藝人，\n你起碼要能使用等級２能學到的裝傻，\n當作是最基本的修養吧。"
   },
   "36220": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm here. I found it! Hey there!\nLevel 10 minstrels and above! You have a good\nvibe, don't you? A girl who seems to be a\n<br>\nlittle out of it sometimes makes people laugh\nwith her unexpected tricks. It's nice to be a\nlovable idiot. You know, you know, I think\n<br>\nthat you are an idiot who can make people\nlaugh with a bang. I think that an idiot who\ncan make people laugh with a bang can also\n<br>\nsave them. Why don't you become my disciple\nand aim to be such a minstrel? Let's save\npeople with our tricks together. But first,\n<br>\nyou'll have to go through a cold trial using\nyour skill, Pratfall. Ha-ha-ha. Will you give\nit a try?<yesno><break>",
     "es": "",
@@ -455,7 +455,7 @@
     "zh-Hant": "哈哈，來了喔，終於讓我找到了！\n嗨！等級１０以上的旅行藝人！\n你給人感覺不錯喔。\n<br>\n有時候，少根筋的人\n會做出意想不到的事來讓人爆笑。\n傻到可愛的人就是討人喜愛啊。\n<br>\n喂，我說你啊。我是這樣想的。\n能讓人爆笑出來的笨蛋，\n應該也能拯救他人吧。\n<br>\n你要不要當我的徒弟，\n成為那樣的旅行藝人啊？\n讓我們一起用表演拯救他人吧。\n<br>\n不過在那之前，我會要求你通過一個\n需要用到裝傻這個特技的簡～單考驗。\n哈哈，你要試試嗎？<yesno><break>"
   },
   "36221": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha. I see. No, no, it's fine. It's hard to\nspend your days doing ascetic training. But\nyou have a good thing. What is the purpose of\n<br>\nmaking people laugh? Think about it, think\nabout it, think about it to the point of\ndeath, and when you make up your mind, please\n<br>\ncome back again.",
     "es": "",
@@ -468,7 +468,7 @@
     "zh-Hant": "哈哈，這樣啊。沒事沒事，沒關係的。\n畢竟每天一直修行也很累的。\n但是你的資質不錯。\n<br>\n你可以好好想想自己是為了什麼\n而去逗人笑，想到破頭，\n然後下定決心以後，再來找我吧。"
   },
   "36222": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm so glad to hear that. I think\nyou can be a good minstrel who can make us\nlaugh with a bang. I like the idea of\n<br>\ndefeating <%sev_que_name0> in Orphea Region\nEast after <%nev_que_t_num0> <%nev_que_t_num0>\nPratfall succeeds in the Town of Orphea. After\n<br>\nthat, you have to win the battle, right? Ha\nha. That sounds like a trial. I don't know\nabout this. I wonder if I should try it.",
     "es": "",
@@ -481,7 +481,7 @@
     "zh-Hant": "哈哈，這樣啊。我很高興喔。\n我認為你一定可以成為一個\n讓人爆笑出來的優秀旅行藝人。\n<br>\n你走出歐菲亞鎮往東走，在歐菲亞地方東部\n對<%nEV_QUE_T_NUM0>隻<%sEV_QUE_NAME0>成功使用裝傻後，\n再打倒對方好了。\n<br>\n打倒怪物之後也要贏下剩下的戰鬥才行喔。\n哈哈，這樣很有考驗的感覺吧？\n這樣如何啊，你願意試試嗎？"
   },
   "36223": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Nahaha. You're gonna do it? That's right.\nAfter all, I would do it here, wouldn't I? I'm\nso happy. Well, I haven't heard his name yet.\n<br>\n<pc>. Ha-ha-ha. Nice name. If you\ncomplete this trial, you'll be my disciple, I\nguess. You'll do your best, right? Good luck.",
     "es": "",
@@ -494,7 +494,7 @@
     "zh-Hant": "哈哈，你願意啊？也是呢。\n這種時候當然要接受了。\n我很高興喔。\n<br>\n這麼說來，我還沒有問你的名字呢。\n……<pc>啊。哈哈，好名字。\n<br>\n等到完成這道考驗，\n你就正式成為我的徒弟了。\n你會加油吧？要加油喔。"
   },
   "36224": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny.",
     "es": "",
@@ -507,7 +507,7 @@
     "zh-Hant": "哈哈，這樣啊。我很高興喔。\n我能清楚感覺到\n你整個幹勁都湧上來了喔。那麼……\n<br>\n不對吧，你接了太多委託，\n根本沒那個閒工夫啊！\n哈哈，你還真好笑啊。"
   },
   "36225": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm so happy to hear that. Then, I\nwonder if I said I'd give up on him. Maybe,\nmaybe... I got a little carried away. You have\n<br>\nsomething good, don't you? You know, for what\npurpose do you make people laugh? Think about\nit, think about it, think about it to the\n<br>\npoint of death, and when you make up your\nmind, please come back again.",
     "es": "",
@@ -520,7 +520,7 @@
     "zh-Hant": "哈哈，這樣啊，我很高興喔。\n那麼我們就鼓起幹勁……\n<br>\n呃，你說你不要？\n不會吧，不是這樣的吧。\n你的資質明明那麼好。\n<br>\n你可以好好想想自己是為了什麼\n而去逗人笑，想到破頭，\n然後下定決心以後，再來找我吧。"
   },
   "36226": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "You have to kill <%sev_que_name0> and\n<%nev_que_t_num0> in Orphea Region East after\nleaving the Town of Orphea east. After you\n<br>\nhave decided minstrel's skill Pratfall.<open_irai><bw_break>",
     "es": "",
@@ -533,7 +533,7 @@
     "zh-Hant": "你走出歐菲亞鎮往東走，在歐菲亞地方東部\n打倒<%nEV_QUE_T_NUM0>隻<%sEV_QUE_NAME0>吧。\n記得打倒之前要先用旅行藝人的裝傻特技喔。<open_irai><bw_break>"
   },
   "36227": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<close_irai>If you complete this trial, you'll be my\ndisciple, won't you? You'll do your best,\nright? You'll do your best, won't you?",
     "es": "",
@@ -546,7 +546,7 @@
     "zh-Hant": "<close_irai>如果完成這道考驗，\n你就正式成為我的徒弟了。\n你會加油吧？要加油喔。"
   },
   "36228": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. You did it. You made Pratfall\nsucceed and defeated <%sEV_QUE_NAME0> by\n<%nev_que_t_num0>. Now you are my disciple, I\n<br>\nguess. I'm so happy. You're going to be a big\nminstrel, you know. You'd better get stronger\nand tougher. This is a simple I feeling.",
     "es": "",
@@ -559,7 +559,7 @@
     "zh-Hant": "哈哈，你辦到了啊。\n你成功對<%nEV_QUE_T_NUM0>隻<%sEV_QUE_NAME0>裝傻，\n並打倒了他們啊。\n<br>\n這樣一來，\n你就正式成為我的徒弟了。\n哈哈，我很高興喔。\n<br>\n因為你將來會是個了不起的旅行藝人啊。\n你要成長茁壯，變得更強喔。\n這是我的一～點點心意。"
   },
   "36229": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Actually, I am now. I'm in a hurry. I heard\nthat a minstrel is missing. If it were true, I\nwould solve the case in a snap. But I can't do\n<br>\nthat now, can I? I got injured when I fought a\nstrong monster a long time ago. Since then, I\ncan't fight anymore. No, no, really, it's a\n<br>\npity. I want you to protect those cute\nminstrels on behalf of Master I. Ha-ha-ha.\nThis is for real. If you want to learn more\n<br>\ntricks as I's disciple, become a minstrel and\ncome back here again. Remember that\n<pc>. You can save people with your\n<br>\nart.",
     "es": "",
@@ -572,7 +572,7 @@
     "zh-Hant": "……其實現在局勢很亂，\n聽說有旅行藝人失蹤了喔。\n<br>\n本來應該由我出馬，\n三兩下就解決掉事件的，\n但是現在的我有點沒辦法。\n<br>\n以前我跟強大的怪物戰鬥的時候受了傷，\n後來就再也無法戰鬥了。\n哎呀呀，真是丟臉啊。\n<br>\n請你代替我這個師父\n去保護可愛的旅行藝人們吧。\n哈哈，這是說真的喔。\n<br>\n等你想找我這個師父磨練技藝時，\n就成為旅行藝人後，\n再回來這裡吧。\n<br>\n要記住喔，<pc>，\n技藝可以拯救他人。"
   },
   "46005": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "You are going to be a big minstrel. I hope you\ncome back as a level 15+ minstrel by the time\nI see you again. Ha-ha-ha. Remember this. You\n<br>\ncan save people with your art.",
     "es": "",
@@ -585,7 +585,7 @@
     "zh-Hant": "你將來會是個了不起的旅行藝人啊。\n下次見面之前，你要成為等級１５以上的\n旅行藝人再回來喔。\n<br>\n哈哈，要記住喔，\n技藝可以拯救他人。"
   },
   "36230": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "If you want to learn more skills as a disciple\nof I, please come back here as a minstrel of\nlevel 15 or above. Ha-ha-ha. Remember this.\n<br>\nYou can save people with your art.",
     "es": "",
@@ -598,7 +598,7 @@
     "zh-Hant": "等你想找我這個師父磨練技藝時，\n就成為等級１５以上的旅行藝人，\n再回來這裡吧。\n<br>\n哈哈，要記住喔，\n技藝可以拯救他人。"
   },
   "36231": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm here. I found it! Yo...minstrel,\nthe hottest minstrel of the moment! You've got\nthe best minstrels in town right now! You've\n<br>\ngot a good vibe, don't you? Actually, it looks\nlike minstrels are being attacked by monsters\nin Muruel Forest. I'm so baffled and annoyed.\n<br>\nThere are rumors that a clown monster has been\nhanging around Muruel Forest lately. I have a\nfeeling he's up to no good. Hey, hey, can you\n<br>\nhelp me defeat him? I'm sure it will be good\nfor your training. How about it? Would you\nlike to try?",
     "es": "",
@@ -611,7 +611,7 @@
     "zh-Hant": "哈哈，來了喔，終於讓我找到了！\n嗨！現在最來勁的旅行藝人！\n你果然有股討人喜歡的氣氛呢。\n<br>\n……其實似乎有旅行藝人\n在穆里爾森林遭到怪物攻擊。\n這麼危險，真讓人傷腦筋啊。\n<br>\n而且聽說最近有種小丑怪物\n在穆里爾森林到處徘徊……\n我覺得是那傢伙在為非作歹。\n<br>\n喂，可以請你打倒那傢伙嗎？\n這對你肯定也是很好的修行。\n怎麼樣？要不要試試看？"
   },
   "36232": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm glad to hear that. I'm glad to\nhear that. Please protect the minstrels for\nme. I'm looking forward to working with you.",
     "es": "",
@@ -624,7 +624,7 @@
     "zh-Hant": "哈哈，這樣啊。我很高興喔。\n代替我去好好保護那些旅行藝人吧。\n拜託你了。"
   },
   "36233": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny.",
     "es": "",
@@ -637,7 +637,7 @@
     "zh-Hant": "哈哈，這樣啊。我很高興喔。\n我能清楚感覺到\n你整個幹勁都湧上來了喔。那麼……\n<br>\n不對吧，你接了太多委託，\n根本沒那個閒工夫啊！\n哈哈，你還真好笑啊。"
   },
   "36234": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha. I see. No, no, it's okay. I don't want\nto fight such a dangerous monster. It would be\nstupid if I died because of it. But if you're\n<br>\na minstrel aiming for the world, reassuring\npeople is part of your art. You'd do well to\nremember that.",
     "es": "",
@@ -650,7 +650,7 @@
     "zh-Hant": "哈哈，這樣啊。沒事沒事，沒關係的。\n誰都不想跟那種危險的怪物打啊。\n而且要是因此而死，那也太蠢了。\n<br>\n但是如果是放眼世界的旅行藝人，\n讓人安心也是一種技藝喔，\n這一點你要牢～牢記住。"
   },
   "36235": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "There are rumors that a clown monster has been\nhanging around Muruel Forest recently. Ha-ha-\nha. I hope you can defeat him. I'm sure it\n<br>\nwill be good for your training.<open_irai>",
     "es": "",
@@ -663,7 +663,7 @@
     "zh-Hant": "聽說最近有種小丑怪物\n在穆里爾森林到處徘徊喔。\n<br>\n哈哈，你來幫忙打倒那傢伙吧。\n這對你肯定也是很好的修行喔。<open_irai>"
   },
   "36236": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. You've done it. I heard through the\nrumor mill that you beat the monster. You're\ngood, aren't you? You did it, didn't you? Now\n<br>\nminstrel will be safe for a while. Thanks\n<pc>. This is a simple I feeling.",
     "es": "",
@@ -676,7 +676,7 @@
     "zh-Hant": "哈哈，你辦到了啊。\n我聽說你打倒怪物了喔。\n厲害，真厲害啊。\n<br>\n這樣旅行藝人就可以暫時放心了。\n謝謝你啊，<pc>。\n這是我的一～點點心意。"
   },
   "36237": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Well, I wonder what that clownish monster was\nall about? What? What? What? Did you say his\nold master Polfan? He was called Gazer?\n<br>\nReally? I'm surprised. I used to have a human\ndisciple named Gazer. He left me a long time\nago. I used to travel around and protect\n<br>\npeople from monsters and perform tricks. He\nwas very famous back then. I was so impressed\nby his belief that his art could save people\n<br>\nthat I took Gazer as my apprentice. He was a\nvery talented guy. I was impressed by his\nsingle-minded passion and talent to save his\n<br>\nsick mother with his funny tricks. I taught\nhim many tricks. Hehehe, I'm getting a little\npassionate about it. My mouth gets light when\n<br>\nit comes to Gazer. I think I'll leave it at\nthat this time. Your talent is nothing like\nthat. Maybe you will be as good as Gazer. If\n<br>\nyou want to improve your skills, become a\nlevel 20+ minstrel and come back here again.\nI'll be waiting for you.",
     "es": "",
@@ -689,7 +689,7 @@
     "zh-Hant": "這麼說來，那個像小丑的怪物\n到底是什麼樣的傢伙啊？\n<br>\n……嗯？怎麼，你說什麼？\n他說他以前的師父叫珀爾凡？\n而且自己以前叫做蓋札？是喔～\n<br>\n真令人吃驚啊。\n我以前也有叫做蓋札的人類徒弟。\n不過他很久以前就離開了。\n<br>\n……我以前啊，可是會去雲遊四海，\n保護眾人免於怪物的魔掌，還會表演才藝。\n當時我還滿有名的。\n<br>\n那時候，被我那「技藝可以拯救他人」的信念打動，\n而拜我為師的人就是蓋札。\n他還滿優秀的喔。\n<br>\n他想用有趣的技藝來拯救生病的母親，\n又有一心一意的熱情和才能，\n這讓我很感動，就教了他各種技藝。\n<br>\n嘿嘿，我竟然這麼激動。\n說到蓋札的事情我就會講個不停。\n這次就先說到這裡吧。\n<br>\n你的才能還不只如此而已。\n說不定不輸給蓋札，\n能表現得更好。\n<br>\n等你想磨練技藝的時候，\n就成為等級２０以上的旅行藝人，\n再來這裡吧。我等你喔。"
   },
   "36238": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_sad_lv1><end_attr>I was so moved by I's belief that art can save\npeople that I became an apprentice under\nGazer. He was quite talented. I was moved by\n<br>\nhis single-minded passion and talent to save\nmy sick mother with his funny tricks. I taught\nhim many tricks.<bw_break>",
     "es": "",
@@ -702,7 +702,7 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>被我那「技藝可以拯救他人」的信念打動，\n而拜我為師的人就是蓋札。\n他還滿優秀的喔。\n<br>\n他想用有趣的技藝來拯救生病的母親，\n又有一心一意的熱情和才能，\n這讓我很感動，就教了他各種技藝。<bw_break>"
   },
   "46766": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Hehehe, I'm getting a little hot. When you\nbecome a level 20+ minstrel, please come back\nhere again. Ha-ha-ha. Remember this. You can\n<br>\nsave people with your art.",
     "es": "",
@@ -715,7 +715,7 @@
     "zh-Hant": "嘿嘿，我竟然這麼激動。\n等你成為等級２０以上的旅行藝人以後，\n再回到這裡來吧。\n<br>\n哈哈，要記住喔，\n技藝可以拯救他人。"
   },
   "46767": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I'm getting a little too passionate about what\nI do. If you want to learn more tricks, become\na level 20+ minstrel and come back here again.\n<br>\nHa-ha-ha. Remember this. You can save people\nwith your art.",
     "es": "",
@@ -728,7 +728,7 @@
     "zh-Hant": "嘿嘿，我竟然這麼激動。\n<br>\n等你想繼續磨練技藝，\n就成為等級２０以上的旅行藝人，\n再回到這裡來吧。\n<br>\n哈哈，要記住喔，\n技藝可以拯救他人。"
   },
   "36239": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm here. I found it! Yes...minstrel\nwith aura! You've got aura of minstrel! You've\ngot some style. Now you're qualified. You are\n<br>\nqualified to undergo training to see the\nessence of your art. The old Gazer couldn't\nstand it. What a surprise! I'm going to defeat\n<br>\n<%sEV_QUE_NAME0> in Orphea Region East with\n<%nev_que_t_num0>. How about it? Would you\nlike to try?",
     "es": "",
@@ -741,7 +741,7 @@
     "zh-Hant": "哈哈，來了喔，終於讓我找到了！\n嗨！散發霸氣的旅行藝人！\n感覺你開始有氣勢了喔。\n<br>\n現在的你已經有資格\n接下能一瞥技藝精髓的修行了。\n過去的蓋札就沒能通過。\n<br>\n聽了你可別嚇一跳！\n這修行是要去歐菲亞地方東部\n打倒<%nEV_QUE_T_NUM0>隻<%sEV_QUE_NAME0>。\n<br>\n怎麼樣？要不要試試看？"
   },
   "36240": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm glad to hear that. I'm glad to\nhear that. If you do that, you'll be able to\nsurpass your brothers.",
     "es": "",
@@ -754,7 +754,7 @@
     "zh-Hant": "哈哈，這樣啊，我很高興喔。\n你要認真完成修行，\n然後就能超越你師兄了。"
   },
   "36241": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny.",
     "es": "",
@@ -767,7 +767,7 @@
     "zh-Hant": "哈哈，這樣啊。我很高興喔。\n我能清楚感覺到\n你整個幹勁都湧上來了喔。那麼……\n<br>\n不對吧，你接了太多委託，\n根本沒那個閒工夫啊！\n哈哈，你還真好笑啊。"
   },
   "36242": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha. I see. No, no, it's okay. Even brother\nGazer couldn't do it. It's natural to shy away\nfrom it. But it's only when you go through all\n<br>\nkinds of training that you've created a weight\nin your art. Remember that.",
     "es": "",
@@ -780,7 +780,7 @@
     "zh-Hant": "哈哈，這樣啊。沒事沒事，沒關係的。\n就連你師兄蓋札都沒轍了。\n你會退縮也是當然的。\n<br>\n但是只有完成各種修行以後，\n才能讓技藝爐火純青喔。\n這一點你要牢～牢記住。"
   },
   "36243": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "What I want you to do now is to defeat\n<%sev_que_name0> in Orphea Region East by\n<%nev_que_t_num0>.<open_irai><bw_break>",
     "es": "",
@@ -793,7 +793,7 @@
     "zh-Hant": "現在我想請你去做的修行，\n是打倒位於歐菲亞地方東部的\n<%nEV_QUE_T_NUM0>隻<%sEV_QUE_NAME0>喔。<open_irai><bw_break>"
   },
   "36244": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "If you complete this trial, you will surpass\nyour brother Gazer, won't you? You'll do your\nbest, right? You'll do your best, won't you?",
     "es": "",
@@ -806,7 +806,7 @@
     "zh-Hant": "如果你完成這道考驗，\n就超越師兄蓋札了。\n你會加油吧？要加油喔。"
   },
   "36245": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I can't believe I beat that monster\n<%nev_que_t_num0>. Wow, that's amazing. That's\ncrazy. You're like a professional minstrel.\n<br>\nWith this, you're one step closer to becoming\na legend. I'm so happy. You're going to be a\nbig minstrel, you know. You'd better get\n<br>\nstronger and tougher. This is a simple I\nfeeling.",
     "es": "",
@@ -819,7 +819,7 @@
     "zh-Hant": "你打倒<%nEV_QUE_T_NUM0>隻那個怪物了啊。\n哎呀呀，真厲害，很有一套嘛。\n該怎麼說，很有專業旅行藝人的感覺喔。\n<br>\n這樣子，你就離傳說\n又更進一步了。\n哈哈，我很高興喔。\n<br>\n因為你將來會是個了不起的旅行藝人啊。\n你要成長茁壯，變得更強喔。\n這是我的一～點點心意。"
   },
   "36246": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I don't know. Wasn't the training hard? Hmmm?\nWhat's wrong? You look like you've been there\nbefore. You look like you've been there. Did\n<br>\nyou meet Gazer? I'm surprised to hear you call\nme a scum comedian who can't even save a\nsingle person. <kyodai> <pc>\n<br>\nActually, you know. I had a great fight with a\nmonster named Relulu with Gazer in the past.\nBoth of us got badly injured and we drew.\n<br>\nWhile I was fighting, Gazer's mother got very\nsick.<bw_break>",
     "es": "",
@@ -832,7 +832,7 @@
     "zh-Hant": "怎麼樣？修行很艱難吧？\n嗯～？你怎麼了啊？\n感覺一臉發生過什麼事的樣子呢。\n<br>\n……嗯？你遇到蓋札了？\n那還真是驚人啊。他說我是\n救不了半個人的垃圾藝人啊。\n<br>\n…………\n<br>\n<pc>，其實……\n<br>\n我以前帶著蓋札，\n跟一個叫做黑暗藝人魯路爾理奇的怪物\n展開了一場大戰。\n<br>\n不過最後雙方身負重傷，以平手收場。\n結果在我們戰鬥的時候，\n蓋札母親的病惡化很多。<bw_break>"
   },
   "36247": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I was badly injured and battered, but I did\nall kinds of tricks in front of your mother.\nBut she didn't make it. Gazer was angry\n<br>\nbecause he lost his mother. I told you that\ntricks can save people. He said that tricks\nare powerless. I haven't seen Gazer since\n<br>\nthen. I couldn't save his heart. But you can,\ncan't you? Ha-ha-ha. Be stronger\n<pc>.Even so, I still have high\n<br>\nexpectations for you. If you want to improve\nyour skills further, become a level 25 or\nhigher minstrel and come back here again. I'm\n<br>\nsure you will.",
     "es": "",
@@ -845,7 +845,7 @@
     "zh-Hant": "雖然我遍體麟傷，\n但還是去他母親面前表演了各種技藝。\n不過最後他母親還是回天乏術……\n<br>\n母親過世之後，蓋札勃然大怒。\n他指責我，說我主張技藝可以拯救他人……\n但是技藝終究還是無能為力。\n<br>\n……後來我就再也沒跟蓋札見過面了。\n憑我是拯救不了他的心。\n但是如果換成是你……\n<br>\n哈哈，<pc>，你要變得更強喔。\n再怎麼說，\n我都對你有很高的期望。\n<br>\n如果你想更進一步磨練技藝，\n就成為等級２５以上的旅行藝人，\n再回來這裡吧。說好了喔。"
   },
   "36248": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Gazer was angry when he lost his mother. I\ntold him that tricks can save people. He said\nthat tricks are powerless. I haven't seen\n<br>\nGazer since then. I couldn't save his heart.\nBut you, you can.<bw_break>",
     "es": "",
@@ -858,7 +858,7 @@
     "zh-Hant": "母親過世之後，蓋札勃然大怒。\n他指責我，說我主張技藝可以拯救他人……\n但是技藝終究還是無能為力。\n<br>\n……後來我就再也沒跟蓋札見過面了。\n憑我是拯救不了他的心。\n但是如果換成是你……<bw_break>"
   },
   "46768": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Nahaha. You should be stronger\n<pc>.When you become a level 25+\nminstrel, please come back here again. Ha-ha-\n<br>\nha. Remember. You can save people with your\nart.",
     "es": "",
@@ -871,7 +871,7 @@
     "zh-Hant": "哈哈，變得更強吧，<pc>。\n等你成為等級２５以上的旅行藝人，\n再回到這裡來吧。\n<br>\n哈哈，要記住喔，\n技藝可以拯救他人。"
   },
   "46769": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Nahaha. Be stronger <pc>.Even so, I\nhave high expectations for you. If you want to\nimprove your skills even more, become a level\n<br>\n25+ minstrel and come back here again. Ha-ha-\nha. Remember this. You can save people with\nyour art.",
     "es": "",
@@ -884,7 +884,7 @@
     "zh-Hant": "哈哈，變得更強吧，<pc>。\n別看我這樣，再怎麼說，\n我也很期待你的表現。\n<br>\n等你想進一步磨練技藝，\n就成為等級２５以上的旅行藝人，\n再回到這裡來吧。\n<br>\n哈哈，要記住喔，\n技藝可以拯救他人。"
   },
   "36250": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm here. I found it!Hey...now\neveryone turns to minstrel! Now everyone turns\nto you, minstrel! I couldn't save Gazer's\n<br>\nheart. He's right, my art may be a helpless\nart that can't save a single person. But I\ncan't miss the fact that Gazer's resentment at\n<br>\nnot being able to save his mother was\nvindicated by killing the minstrels.\n<pc>. I hope he wakes up. I heard\n<br>\nhe's in Pura's Cave now. Southeast of Orphea\nRegion East. Ha-ha-ha. He is a man who loves\ntricks. Can't you perform Pratfall, a\n<br>\nminstrel's skill, during the battle to defeat\nhim and bring him back to his senses?",
     "es": "",
@@ -897,7 +897,7 @@
     "zh-Hant": "哈哈，來了喔，終於讓我找到了！\n嗨！當下正紅的旅行藝人！\n你的技藝說不定能撼動他的心喔。\n<br>\n我救不了蓋札的心。\n他說的沒錯，說不定我的技藝\n是連一個人都拯救不了的無力技藝。\n<br>\n但是我們不能放任蓋札用殺害旅行藝人\n來發洩沒能救到母親的悔恨。\n<pc>，去讓他清醒過來吧。\n<br>\n他現在似乎在普拉洞穴。\n那就在歐菲亞地方東部的東南方。\n<br>\n哈哈，他是個熱愛技藝的人。你能不能\n在戰鬥中對他成功使用旅行藝人的裝傻特技，\n然後打倒他，讓他清醒過來？"
   },
   "36251": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. You are a good pupil. If he still\nhas his pride as a minstrel, he should be able\nto understand his apprentice's desperate\n<br>\npratfalls.",
     "es": "",
@@ -910,7 +910,7 @@
     "zh-Hant": "哈哈，你是一名優秀的徒弟。\n如果他還有旅行藝人的尊嚴，\n那你這個師弟的裝傻肯定會起作用的。"
   },
   "36252": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny.",
     "es": "",
@@ -923,7 +923,7 @@
     "zh-Hant": "哈哈，這樣啊。我很高興喔。\n我能清楚感覺到\n你整個幹勁都湧上來了喔。那麼……\n<br>\n不對吧，你接了太多委託，\n根本沒那個閒工夫啊！\n哈哈，你還真好笑啊。"
   },
   "36253": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I'm sorry to hear that. His hatred for the\narts is just a pretense. He is keeping it away\nfrom himself. In order to make her heart be\n<br>\ntouched, someone has to remind her of her love\nfor gei. You are the only one who can do that.",
     "es": "",
@@ -936,7 +936,7 @@
     "zh-Hant": "這樣啊……我感到很遺憾。\n他憎恨技藝的舉止只是表面工夫而已。\n他在擺脫技藝對自己的影響。\n<br>\n要撼動他的心，\n就需要有人讓他想起喜愛技藝的心。\n而這任務非你莫屬。"
   },
   "36254": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I understand Gazer's resentment of I, but I\ncan't overlook the act of killing minstrels.\n<pc>. I wish he would wake up. I\n<br>\nheard he is in Pura's Cave now. Southeast of\nOrphea Region East.<open_irai><bw_break>",
     "es": "",
@@ -949,7 +949,7 @@
     "zh-Hant": "雖然我能理解蓋札為什麼會恨我，\n但是我們不能放任他殺害旅行藝人的行為。\n<pc>，讓他清醒過來吧。\n<br>\n他現在好像在普拉洞穴裡。\n那就在歐菲亞地方東部的東南方。<open_irai><bw_break>"
   },
   "36255": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<close_irai>Ha-ha. He is a man who loves tricks, isn't he?\nLet's see if he can pull off a Pratfall in the\nmiddle of a battle.",
     "es": "",
@@ -962,7 +962,7 @@
     "zh-Hant": "<close_irai>哈哈，他是個熱愛技藝的人。\n你要在戰鬥中對他成功使用旅行藝人的裝傻特技，\n然後打倒他，讓他恢復正常吧。"
   },
   "36256": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "How was Gazer? Oh, yeah. He got his love of\nthe craft back. He went back to his old\nminstrel ways at the end. Ha-ha-ha. I'm sorry,\n<br>\nI'm sorry. I can't believe I shed a tear or\nsomething. I've become old. I must have aged a\nlong time.<bw_break>",
     "es": "",
@@ -975,7 +975,7 @@
     "zh-Hant": "……蓋札怎麼了？\n<br>\n……這樣啊。\n他找回熱愛技藝的心了啊。\n他在最後恢復成原本的旅行藝人，然後上路了啊……\n<br>\n……哈哈，我真沒用，\n還流下眼淚來……\n哈哈，真是上了年紀了。<bw_break>"
   },
   "36257": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Thanks <pc>. I'm going to teach you\nthe best secret I've ever learned. I'll teach\nyou my best secret technique.",
     "es": "",
@@ -988,7 +988,7 @@
     "zh-Hant": "謝謝你啊，<pc>。\n你拯救了師兄，\n我要傳授我的最強絕招給你。"
   },
   "36258": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Thank you <pc>. I have to thank you\nfor saving my brother's child.",
     "es": "",
@@ -1001,7 +1001,7 @@
     "zh-Hant": "謝謝你啊，<pc>。\n你拯救了師兄，\n我得好好答謝你。"
   },
   "36259": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "You see, I used to travel around the world\nperforming tricks with a master who thought he\ncould make people happy with his art. On that\n<br>\ntrip, there was a monster who sympathized with\nthe master's creed and loved gei. I'm Lulu\nLulu Leach, the brothers' child. Lulu Lulu\n<br>\nLeech, the brothers child, had a natural\ntalent and worked very hard to become a\nlegendary minstrel. But one day, he became\n<br>\nsomeone else. One day, he decided to kill his\nmaster with his own hands and wipe out all\nminstrels from the world. He started killing\n<br>\nminstrels in various places. In order to stop\nhis ambition, I challenged Relulu to a fight,\nbut we couldn't defeat him, and both of us got\n<br>\nseriously injured. But now that you've\nregained your heart to Gazer, I'm sure you'll\nbe able to defeat him. Ha-ha-ha. This is for\n<br>\nreal. When your mind is made up and you're\nready to defeat Lululu Leech, please come back\nhere as a level 30+ minstrel.",
     "es": "",
@@ -1014,7 +1014,7 @@
     "zh-Hant": "……其實啊，我以前也曾和\n想用技藝來造福人們的師父\n一起浪跡天涯，表演技藝。\n<br>\n在那趟旅程之中，有個熱愛技藝的怪物\n認同了我師父的信念，跟我們同行。\n那就是我的師兄，魯路爾理奇。\n<br>\n我師兄魯路爾理奇具有天生的才能，\n為了成為傳說的旅行藝人，付出很多努力。\n但在某一天之後，他突然變了個人。\n<br>\n他親手殺了師父，\n還想抹殺這世上所有的旅行藝人。\n他開始在各地殺害旅行藝人。\n<br>\n為了阻止他的野心，\n我挑戰黑暗藝人魯路爾理奇，\n但是沒能打倒他，弄得兩敗俱傷。\n<br>\n……但換成是讓蓋札恢復人心的你，\n一定可以打倒他。\n哈哈，我是說真的喔。\n<br>\n等你下定決心要打倒魯路爾理奇，\n就成為等級３０以上的旅行藝人，\n再回來這裡來吧。"
   },
   "36260": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I's brothers child, Lulu Lelouch, one day\nbecame a different person. He killed his\nmaster and started killing minstrels. In order\n<br>\nto stop his ambition, I challenged Relulu to a\nfight, but I couldn't defeat him, and both of\nus got seriously injured. I'm sure you, who\n<br>\nhave regained your heart to Gazer, will be\nable to defeat him. I believe in you,\n<pc>.<bw_break>",
     "es": "",
@@ -1027,7 +1027,7 @@
     "zh-Hant": "我的師兄魯路爾理奇在某一天之後，\n突然變了個人。他親手殺了師父，\n開始屠殺旅行藝人。\n<br>\n為了阻止他的野心，\n我挑戰黑暗藝人魯路爾理奇，\n但是沒能打倒他，弄得兩敗俱傷。\n<br>\n哈哈，換成是讓蓋札恢復人心的你，\n一定可以打倒他。\n<pc>啊，我相信你。<bw_break>"
   },
   "46770": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I hope you will come back here again when you\nget stronger and become a level 30+ minstrel.\nHa-ha. Remember this. You can save people with\n<br>\nyour art.",
     "es": "",
@@ -1040,7 +1040,7 @@
     "zh-Hant": "等你變得更強，\n成為等級３０以上的旅行藝人以後，\n再回到這裡來吧。\n<br>\n哈哈，要記住喔，\n技藝可以拯救他人。"
   },
   "46771": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "When your mind is made up and you are ready to\ntake on Lululeech, please come back here as a\nlevel 30+ minstrel. Ha-ha-ha. Remember this.\n<br>\nYou can save people with your art.",
     "es": "",
@@ -1053,7 +1053,7 @@
     "zh-Hant": "如果你下定決心要打倒魯路爾理奇，\n就成為等級３０以上的旅行藝人，\n再回到這裡來吧。\n<br>\n哈哈，要記住喔，\n技藝可以拯救他人。"
   },
   "36261": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "That's amazing. You are shining just standing\nthere.I think he may have already surpassed I.\nHe has an aura of a first-class performer. He\n<br>\nhas the aura of a first-class performer,\ndoesn't he? By the way, did you know that a\nvery powerful monster has appeared deep inside\n<br>\nMegilaza Cave, south of Megistris Territory?\nThe world doesn't need any more tricks to\nbring hope for life! Let's kill the minstrels\n<br>\nand fill the world with despair! Let's kill\nthe minstrels and fill the world with despair!\nI think it's probably Lulu Leach. I think it's\n<br>\nprobably Lulu Leach. I think she came out\nafter Gazer disappeared. We can't just leave\nit like that, can we? The guy who went to take\n<br>\ndown Relulu got his ass back, and\n<pc> is the only one who can take\nRelulu down, right? I hope we can defeat him\n<br>\nand make the world a place where cute\nminstrels can laugh and do tricks.\n<pc>. Of course, you'll do it,\n<br>\nright?",
     "es": "",
@@ -1066,7 +1066,7 @@
     "zh-Hant": "真厲害，你光是站著就在發光發熱了。\n說不定你已經超越我了。\n該怎麼說呢，你散發出一種一流藝人的氣場呢。\n<br>\n話說回來，你知道麥奇斯翠絲領土南方的\n麥奇拉札洞窟深處，\n出現了非常強大的怪物嗎？\n<br>\n據說那怪物一直喊著\n「這世界不需要帶來生存希望的技藝！\n我要抹殺旅行藝人，讓世界充滿絕望！」\n<br>\n我在想，他應該是魯路爾理奇才對。\n因為蓋札不在了，他就出來了。\n我們不能放任他不管。\n<br>\n去討伐他的人都反被打倒了，\n而且能夠打倒黑暗藝人魯路爾理奇的人，\n恐怕只剩<pc>了吧。\n<br>\n真想打倒那傢伙，打造一個能讓\n那些可愛的旅行藝人掛著笑容表演技藝的世界。\n<pc>，你當然願意接下吧？"
   },
   "36262": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Nahaha. You're gonna do it? That's right.\nAfter all, I would do it here, wouldn't I? I'm\nso happy. Even I couldn't beat Relulu, but\n<br>\n<pc> can. Ha-ha-ha. You'll do your\nbest, right? You'll do your best, won't you?",
     "es": "",
@@ -1079,7 +1079,7 @@
     "zh-Hant": "哈哈，你願意啊？也是呢。\n這種時候當然要接受了。\n我很高興喔。\n<br>\n雖然就連我也打不倒黑暗藝人魯路爾理奇，\n但如果是<pc>……\n哈哈，你會加油吧？要加油喔。"
   },
   "36263": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm glad to hear that. You're really\nfired up, aren't you? I can feel it. I've got\ntoo many favors to ask of you, you know! This\n<br>\nis... You're funny.",
     "es": "",
@@ -1092,7 +1092,7 @@
     "zh-Hant": "哈哈，這樣啊。我很高興喔。\n我能清楚感覺到\n你整個幹勁都湧上來了喔。那麼……\n<br>\n不對吧，你接了太多委託，\n根本沒那個閒工夫啊！\n哈哈，你還真好笑啊。"
   },
   "36264": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. I'm so happy to hear that. Then, I\nwonder if I said I'd give up on him. Maybe, ma\nybe...maybe...maybe...maybe...maybe...maybe...\n<br>\nmaybe...maybe...maybe. I wonder if I'm going\nto do that kind of gag here. If you don't do\nit, minstrels will be too scared to do tricks.\n<br>\nWhen you make up your mind, please come back\nagain.",
     "es": "",
@@ -1105,7 +1105,7 @@
     "zh-Hant": "哈哈，這樣啊，我很高興喔。\n那麼我們就鼓起幹勁……\n<br>\n呃，你說你不要？\n不會吧，不是這樣的吧。\n都到這一步了，還開這種玩笑啊？\n<br>\n要是你不接受的話，\n旅行藝人會怕到無法表演技藝的。\n下定決心以後，再來找我吧。"
   },
   "36265": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Nahaha. How are you? I'm fine, I hope. We are\ngoing to defeat Relulu at the end of Megilaza\nCave, south of Megistris Territory.<open_irai><bw_break>",
     "es": "",
@@ -1118,7 +1118,7 @@
     "zh-Hant": "哈哈，你好嗎？應該很好吧。\n去打倒位於麥奇斯翠絲領土南方，\n麥奇拉札洞窟裡的黑暗藝人魯路爾理奇吧。<open_irai><bw_break>"
   },
   "36266": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<close_irai>I couldn't beat it, but <pc> can. Ha\nha. You'll do your best, right? You'll do your\nbest, won't you?",
     "es": "",
@@ -1131,7 +1131,7 @@
     "zh-Hant": "<close_irai>雖然我打不倒，\n但是<pc>應該沒問題的。\n哈哈，你會加油吧？要加油喔。"
   },
   "36267": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Ha-ha-ha. You've done it. You're really\namazing, aren't you? You beat Relulu, huh? I\nwonder how big you'll get. I'm looking forward\n<br>\nto it. This is a simple I feeling.",
     "es": "",
@@ -1144,7 +1144,7 @@
     "zh-Hant": "哈哈，你辦到了啊。\n該怎麼說呢，你還真厲害啊。\n竟然打倒了黑暗藝人魯路爾理奇。\n<br>\n你究竟能成長到多厲害呢？\n哈哈，我很期待喔。\n這是我的一～點點心意。"
   },
   "36268": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Many minstrels lose their faith before they\nreach Comedy's Height. It's hard to train, and\neven if you try to be funny, sometimes the\n<br>\nworld doesn't like it. But, you know, that's a\nhurdle. Someone who doesn't care about any of\nthat, who can put all his passion into making\n<br>\npeople laugh. I think it's idiots like that\nwho will take the world by storm. I wish I\ncould see it someday. I wish you'd show me the\n<br>\nart of the fool who made it to Comedy's\nHeight. If I can do that, I'll be called a\nlegendary minstrel.",
     "es": "",
@@ -1157,7 +1157,7 @@
     "zh-Hant": "……有很多旅行藝人在抵達\n搞笑的極致之前，就失去了信念。\n<br>\n修行很辛苦，而且就算想搞笑，\n也有可能無法取悅大眾。\n但是這樣的門檻正好。\n<br>\n完全不把那些問題當一回事，\n一股腦地灌注熱情在搞笑上──\n我認為只有這樣的傻瓜才能稱霸天下。\n<br>\n<pc>，有一天你要把\n到達搞笑極致的技藝表演給我看。\n要是你能辦到，你就會被稱為傳說中的旅行藝人。"
   },
   "36269": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "It's hard work, and even if you try to be\nfunny, sometimes it doesn't go over well with\nthe world. But, hey, that's a hurdle, and\n<br>\nthat's fine and dandy. Someone who doesn't\nhave a problem with all of that, who can put\nall of his passion into making people laugh. I\n<br>\nthink it's idiots like that who will take the\nworld by storm. I wish I could see it\nsomeday. I wish you'd show me the art of the\n<br>\nfool who made it to Comedy's Height. If I can\ndo that, I'll be called a legendary minstrel.",
     "es": "",

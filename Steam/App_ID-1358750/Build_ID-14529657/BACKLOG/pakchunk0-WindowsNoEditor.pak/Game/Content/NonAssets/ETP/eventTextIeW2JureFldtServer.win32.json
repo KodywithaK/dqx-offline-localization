@@ -1,6 +1,6 @@
 {
   "94141": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Oops? Sorry about that. It's not a good time\nto go there. I'll pay you back. Come back\nafter a while!",
     "es": "",
@@ -13,7 +13,7 @@
     "zh-Hant": ""
   },
   "94142": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "But I can only drop you off, not pick you up.\nIf you don't mind, where would you like to go?\n<name_off><select>\nLeen Village\nPrayer Inn (Lenam Fields)\nBeach Hut (King Ladis Island)\nBeach Trading Post (Verinard South)\nNo rides\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
@@ -26,7 +26,7 @@
     "zh-Hant": "不過我只能送你過去，沒辦法接你回來。\n如果能接受的話，你要去哪裡呢？\n<name_off><select>\n雷恩村\n祈願旅店（雷納姆綠野）\n海邊小屋（拉迪斯王島）\n海邊交易所（威里納德領土南部）\n不搭乘\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "94143": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Thank you very much. Well then, let's get\ngoing!",
     "es": "",
@@ -39,7 +39,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>感謝惠顧，\n那我們就出發吧！"
   },
   "94144": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Oh, well. You don't want to ride? Well, if you\nwant to ride, come back again.",
     "es": "",
@@ -52,7 +52,7 @@
     "zh-Hant": "哎呀，你不搭嗎？\n那麼，等你改變心意時再來吧。"
   },
   "94145": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Hey, guys! We've arrived at the Prayer Inn.\nNow, if you'll excuse me.",
     "es": "",
@@ -65,7 +65,7 @@
     "zh-Hant": "<pipipi_low>久等啦！\n已經抵達祈願旅店了。\n那我先告辭了。"
   },
   "94146": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Hey, guys! We have arrived at Leen Village.\nNow, if you'll excuse me.",
     "es": "",
@@ -78,7 +78,7 @@
     "zh-Hant": "<pipipi_low>久等啦！\n已經抵達雷恩村了。\n那我先告辭了。"
   },
   "94147": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Oops, too bad. It seems we are short of money.\nCome back when you have more money.",
     "es": "",
@@ -91,7 +91,7 @@
     "zh-Hant": "哎呀，真可惜，你的錢好像不夠喔。\n等你有錢時再來找我吧。"
   },
   "94148": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "You're going to <%sL_TIMEI>. 25 gold. Is that\nall right with you?<yesno><break>",
     "es": "",
@@ -104,7 +104,7 @@
     "zh-Hant": "你要去<%sL_TIMEI>對吧。\n費用是２５Ｇ，可以嗎？<yesno><break>"
   },
   "94149": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I see. Well, if you ever want to ride again,\ncome back and see me.",
     "es": "",
@@ -117,7 +117,7 @@
     "zh-Hant": "這樣啊。\n那麼，等你改變心意時再來吧。"
   },
   "116573": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Hey, Mr. Omatto! We've arrived at the beach\nhut. Now, if you'll excuse me.",
     "es": "",
@@ -130,7 +130,7 @@
     "zh-Hant": "<pipipi_low>久等啦！\n已經抵達海邊小屋了。\n那我先告辭了。"
   },
   "127401": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Hey there, guys! I've arrived at the Beach\nTrading Post. Now, if you'll excuse me.",
     "es": "",
@@ -143,7 +143,7 @@
     "zh-Hant": "<pipipi_low>久等啦！\n已經抵達海邊交易所了。\n那我先告辭了。"
   },
   "128318": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "From Muse Coast, go southeast to Lower Jule\nIsland, take a canoe at the east end and cross\nover to Lenam Fields to reach a building\n<br>\ncalled the Prayer Inn. If you continue along\nthe road southeast from there, you will reach\nLeen Village, where Weddie and his family\n<br>\nlive. If you have never been there, you should\ngo there.",
     "es": "",
@@ -156,7 +156,7 @@
     "zh-Hant": "從繆茲海岸往東南方的玖萊島下層，\n乘坐東邊的獨木舟前往雷納姆綠野，\n就會抵達叫做祈願旅店的建築物。\n<br>\n從那裡繼續順著東南方的幹道走，\n就會抵達雷恩村，\n那是維迪族生活的村莊。\n<br>\n如果你還沒去過的話，\n建議去看看喔。"
   },
   "129231": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Hello there, traveler. I'm Ueban, a cheap\npeddler. I'm Ueban, a cheap peddler. My job is\nto carry goods from Julet Town to other places\n<br>\nby this wagon. I'm going to Beach Trading Post\nvia beach hut. If you want, I can give you a\nride.<bw_break>",
     "es": "",
@@ -169,7 +169,7 @@
     "zh-Hant": "旅行者你好啊。\n我是旅行商人維邦，\n今後還請多多關照\n<br>\n我的工作是駕著這輛馬車，\n將玖萊特鎮的商品運送到各地。\n<br>\n接下來會路過海邊小屋，\n前往海邊交易所。\n<br>\n你有事要去那邊嗎？\n你想要的話我可以載你一程。<bw_break>"
   },
   "129233": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I'm on my way to Beach Trading Post via beach\nhut, can I help you in that area? If you want,\nI can give you a ride.<bw_break>",
     "es": "",

@@ -1,6 +1,6 @@
 {
   "93370": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "This elevator will take you to the first floor\nof Gran Zedora Castle or to the secret meeting\nroom. Which way do you want to go?\n<select>\nGran Zedora Castle, 1st floor\nsecret meeting room\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
     "es": "",
@@ -13,7 +13,7 @@
     "zh-Hant": "可以搭乘這台升降機去古蘭澤朵拉城１樓\n或祕密會議室。\n請問要去哪裡？\n<select>\n古蘭澤朵拉城‧１樓\n祕密會議室\n<select_end>\n<case 1>\n<close>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
   },
   "74085": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "I'd like to take another look at your\nbrother's room before I go out.",
     "es": "",
@@ -26,7 +26,7 @@
     "zh-Hant": "在離開這裡之前，\n我想再看一眼兄長的房間。"
   },
   "88104": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "Gran Zedora Castle There is an\nelevator that goes to the first floor.<yesno><close>",
     "es": "",
@@ -39,7 +39,7 @@
     "zh-Hant": "有前往古蘭澤朵拉城１樓的升降機。\n是否要搭乘升降機移動？<yesno><close>"
   },
   "74086": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "I must tell you that the Grand Titus\ncould not get here because of the seal\nthat surrounds Lendersia. But the\n<br>\nother day, that ship suddenly entered\nthe harbor. We were all so happy to\nsee her, and a few days later Princess\n<br>\nAnlucia returned as well.",
     "es": "",
@@ -52,7 +52,7 @@
     "zh-Hant": "這件事情我只跟你們說喔。\n大巨人號之所以無法靠岸，\n似乎是由於壟罩著冷達西亞的封印所導致。\n<br>\n但就在前幾天那艘船突然入港，\n讓大家都非常高興。\n幾天後安露西亞公主也跟著回來了。"
   },
   "74087": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>The Grand Titus has been away for a\nwhile because her boat broke down and\nshe was being repaired on Lendor\n<br>\nIsland. That's good. We will miss the\nGrand Titus so much when it doesn't\ncome to this port. I'm glad that we\n<br>\ncan always go to the five continents\nside of the world.",
     "es": "",
@@ -65,7 +65,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>大巨人號之所以一直都沒來，\n聽說是因為船體損壞，\n所以暫時在蓮鐸亞島接受修理喔。\n<br>\n真是太好了。因為大巨人號一直沒有\n來到這座港口，讓這裡變得冷清過頭了。\n又能隨時前往五大陸，讓我非常開心呢。"
   },
   "74088": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "This is the entrance to Gran Zedora\nCastle. You can enter from here and\nuse the elevator inside to get out to\n<br>\nthe first floor of Gran Zedora Castle.",
     "es": "",
@@ -78,7 +78,7 @@
     "zh-Hant": "這是通往古蘭澤朵拉城的入口。\n通過這裡並搭乘裡面的升降機，\n就能前往古蘭澤朵拉城的１樓喔。"
   },
   "74089": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "<attr><feel_happy_lv3><end_attr>I jumped on a boat bound for Gran\nZedora from Lendor Island! One of\nLendersia's specialties is Melsandy\n<br>\nVillage's bread! I'm definitely going\nto eat there!",
     "es": "",
@@ -91,7 +91,7 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>我聽說有從蓮鐸亞島航向古蘭澤朵拉的定期船，\n就不假思索地跑來搭了！\n<br>\n說到冷達西亞的名產，\n就不能不提梅爾桑蒂村的麵包！\n等我到了那裡絕對要去吃吃看～！"
   },
   "74090": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "This is the entrance to Castle Town.\nThe elevator inside will take you to\nthe Castle Town of Gran Zedora.",
     "es": "",
@@ -104,7 +104,7 @@
     "zh-Hant": "這是通往城鎮的入口。\n只要搭乘裡面的升降機，\n就能前往古蘭澤朵拉的城鎮了。"
   },
   "74091": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "Are you surprised to see the Grand\nTitus? The passage between Lendor\nIsland and the Gran Zedora Kingdom is\n<br>\nfinally open! This is thanks to the\nnew Magic Compass created by Sage\nHollow. You can hear more about it on\n<br>\nboard. Now, let's see...<bw_break>",
     "es": "",
@@ -117,7 +117,7 @@
     "zh-Hant": "大巨人號停在港口是不是讓你嚇了一跳？\n連結蓮鐸亞島與古蘭澤朵拉王國之間的航路\n終於開通了！\n<br>\n這都多虧了賢者霍洛大人製作的\n全新魔法羅盤。\n在船內可以獲得更深入的資訊喔，那麼……<bw_break>"
   },
   "74092": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "The Grand Titus will sail to Lendor\nIsland. Titus Boarding Pass holders\ncan board the ship for 200 gold. Would\n<br>\nyou like to board the Grand Titus?<yesno><break>",
     "es": "",
@@ -130,7 +130,7 @@
     "zh-Hant": "本船大巨人號馬上就要\n出發前往蓮鐸亞島了。\n<br>\n擁有大巨人號乘船證的乘客，\n只要支付２００Ｇ即可乘船。\n請問要乘坐大巨人號嗎？<yesno><break>"
   },
   "74093": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "Well then, please come again.",
     "es": "",
@@ -143,7 +143,7 @@
     "zh-Hant": "好的，歡迎您日後再次光臨。"
   },
   "74094": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "I am sorry, but we seem to be short of\nmoney. We look forward to seeing you\non board again.",
     "es": "",
@@ -156,7 +156,7 @@
     "zh-Hant": "非常抱歉，您的金幣似乎不夠。\n期待您下次蒞臨搭乘。"
   },
   "74095": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "I will now charge you 200 gold for\nboarding. Please come on board the\nGrand Titus.",
     "es": "",
@@ -169,7 +169,7 @@
     "zh-Hant": "好的，\n那麼就收下您的乘船費２００Ｇ。\n來，請登上大巨人號吧。"
   },
   "78957": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "Hey, you know what? Before the Grand\nTitus started its operation, non-human\nraces were banned from landing here in\n<br>\nLendersia. I don't know why they did\nthat.",
     "es": "",
@@ -182,7 +182,7 @@
     "zh-Hant": "你知道嗎？在大巨人號開始航行以前，\n冷達西亞是禁止人類以外的種族登陸的喔。\n<br>\n雖然我也不知道為什麼要禁止就是了。"
   },
   "78958": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "<attr><feel_happy_lv3><end_attr>I went to Melsandy Village and ate a\nlot of their famous bread. Where\nshould we go next? I'm also interested\n<br>\nin the Arena in the Kingdom of Al-\nAhagiro.",
     "es": "",
@@ -195,7 +195,7 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>我去了梅爾桑蒂村，\n還吃了很多那裡特產的麵包喔。\n<br>\n接下來要去哪裡呢？\n聽說艾拉哈奇羅王國有個格鬥場，\n讓我也有點感興趣呢～"
   },
   "78959": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "<attr><feel_think_lv3><end_attr>It seems that the seal that surrounds\nLendersia has not yet been broken. The\nGrand Titus seems to be navigating\n<br>\nwithout any problems, but is it really\nsafe as it is?",
     "es": "",
@@ -208,7 +208,7 @@
     "zh-Hant": "<attr><feel_think_lv3><end_attr>壟罩著冷達西亞的封印，\n到了現在好像都還沒有解開。\n<br>\n雖然大巨人號已經可以正常航行了，\n但這樣真的沒問題嗎……"
   },
   "102440": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>Hey, did you hear? The hero princess\nof the castle defeated the Great Demon\nKing! The hero princess is always\n<br>\naccompanied by a person named Ally,\nand I heard that this person is\nextremely strong.",
     "es": "",
@@ -221,7 +221,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>欸，你聽說了嗎？\n城裡的勇者公主\n竟然打倒大魔王了！\n<br>\n勇者公主在戰鬥的時候，\n都會有個盟友跟她並肩作戰，\n那個人好像很強喔～"
   },
   "102441": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "<attr><feel_happy_lv3><end_attr>I went to the Kingdom of Al-Ahagiro\nthe other day. I went to see the\nMonster Arena! I would like to visit\n<br>\nPyramid next time.",
     "es": "",
@@ -234,7 +234,7 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>前陣子我去艾拉哈奇羅王國\n參觀了怪物格鬥場！\n下次我想去金字塔看看。"
   },
   "102442": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "Even though the Great Demon King has\nbeen defeated, the seal that surrounds\nLendersia shows no sign of being\n<br>\nbroken. However, this has become a\nregular scene. Well, one can get used\nto anything.",
     "es": "",
@@ -247,7 +247,7 @@
     "zh-Hant": "明明大魔王被打倒了，\n圍繞著冷達西亞的封印\n卻沒有解除的跡象。\n<br>\n不過這其實已經變成\n日常風景的一部分了。\n唉，凡事都會習慣成自然呢。"
   },
   "88126": {
-    "$comments": "",
+    "$comments": "🟡, ",
     "de": "",
     "en": "It seems we have arrived at the Gran\nZedora Kingdom (the world of the\ntrue).",
     "es": "",

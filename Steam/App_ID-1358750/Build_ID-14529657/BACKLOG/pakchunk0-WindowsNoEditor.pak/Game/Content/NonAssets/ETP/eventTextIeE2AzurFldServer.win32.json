@@ -1,6 +1,6 @@
 {
   "94093": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "From here, you will reach the village\nof Treeshade Village by following the\nroad to the northeast. If you continue\n<br>\nalong the road from there, you will\nreach Tsusukul Village, where Elf\nlive. If you have never been to\n<br>\nTsusukul Village, I recommend you to\ngo there.",
     "es": "",
@@ -13,7 +13,7 @@
     "zh-Hant": "從這裡沿著幹道往東北方前進，\n就會抵達樹蔭村落。\n<br>\n接著再繼續沿著幹道走，\n就會抵達艾爾芙們居住的地方，\n叫津洲久留村。\n<br>\n如果你還沒去過的話，\n我建議你可以去一趟。"
   },
   "94094": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Cheery. Hello, traveler. My name is\nRuban, a peddler. I hope to make your\nacquaintance. My job is to transport\n<br>\ngoods from Wind Town Azlan to various\nplaces in this wagon. We are going to\nMountain Pass via Tsusukul Village. If\n<br>\nyou wish, I can give you a ride.<bw_break>",
     "es": "",
@@ -26,7 +26,7 @@
     "zh-Hant": "你好啊，旅行者。\n我是旅行商人魯邦，\n今後請多指教。\n<br>\n我的工作就是駕著這輛馬車，\n將風城安須嵐的商品\n運送到各個地方。\n<br>\n接下來我會經過津洲久留村，\n前往山間的關卡。\n<br>\n你有事要去那附近嗎？\n不嫌棄的話，我可以載你一程。<bw_break>"
   },
   "94095": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "We are going to Mountain Pass via\nTsusukul Village. If you like, I can\ngive you a ride.<bw_break>",
     "es": "",
@@ -39,7 +39,7 @@
     "zh-Hant": "接下來我會經過津洲久留村，\n前往山間的關卡。\n<br>\n你有事要去那附近嗎？\n不嫌棄的話，我可以載你一程。<bw_break>"
   },
   "94099": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "However, I can only drop you off, not\npick you up. If that is still the\ncase, where would you like to ride to?\n<name_off><select>\nTsusukul Village\nTreeshade Village (Azlan Region)\nRanger Association Branch (Molinara Forest)\nMountain Pass (Inamino Highway)\nNo ride\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>",
     "es": "",
@@ -52,7 +52,7 @@
     "zh-Hant": "不過我只能送你過去，沒辦法接你回來。\n如果這樣也沒關係的話，\n你想搭到哪裡呢？\n<name_off><select>\n津洲久留村\n樹蔭村落（安須嵐地方）\n遊俠協會分部（莫利納拉大森林）\n山間的關卡（稻見野幹道）\n不搭乘\n<select_end>\n<case 1>\n<break>\n<case 2>\n<break>\n<case 3>\n<break>\n<case 4>\n<break>\n<case 5>\n<break>\n<case_cancel>\n<break>\n<case_end>"
   },
   "94100": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Thank you very much. Then I will leave\nimmediately.",
     "es": "",
@@ -65,7 +65,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>感謝你的搭乘。\n那麼我們現在就要出發囉。"
   },
   "94101": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Would you like to join us for a ride?\nWe look forward to seeing you again at\nanother time.",
     "es": "",
@@ -78,7 +78,7 @@
     "zh-Hant": "你不搭乘嗎？\n下次有機會的話歡迎利用。"
   },
   "94102": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Thank you for your patience. You have\narrived at Treeshade Village. Good\nday, Cheery.",
     "es": "",
@@ -91,7 +91,7 @@
     "zh-Hant": "<pipipi_low>讓你久等了，\n已抵達樹蔭村落。\n祝你有美好的一天。"
   },
   "94103": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Thank you for your patience. We have\narrived at Tsusukul Village. Good day,\nCheery.",
     "es": "",
@@ -104,7 +104,7 @@
     "zh-Hant": "<pipipi_low>讓你久等了，\n已抵達津洲久留村。\n祝你有美好的一天。"
   },
   "94104": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I am sorry, but we seem to be short of\nmoney. If you could come back again\nwith the money.",
     "es": "",
@@ -117,7 +117,7 @@
     "zh-Hant": "很可惜，看來你的錢不夠。\n等你準備好錢再過來吧……"
   },
   "94105": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "You are going to <%sL_TIMEI>. That\nwould be 25 gold, if I may?<yesno><break>",
     "es": "",
@@ -130,7 +130,7 @@
     "zh-Hant": "你要去<%sL_TIMEI>對吧。\n費用是２５Ｇ，可以嗎？<yesno><break>"
   },
   "124149": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Thank you for your patience. You have\narrived at the Ranger Association\nBranch. Good day, Cheery.",
     "es": "",
@@ -143,7 +143,7 @@
     "zh-Hant": "<pipipi_low>讓您久等了，\n已抵達遊俠協會分部。\n祝您有美好的一天。"
   },
   "127385": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pipipi_low>Thank you for your patience. We have\narrived at Mountain Pass. Good day,\nCheery.",
     "es": "",
@@ -156,7 +156,7 @@
     "zh-Hant": "<pipipi_low>讓您久等了，\n已抵達山間的關卡。\n祝您有美好的一天。"
   },
   "39137": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Have you been to the Molinara Forest\nin the north? It is a very beautiful\nand rich forest.",
     "es": "",
@@ -169,7 +169,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>你去過北方的莫利納拉大森林嗎？\n那是一片非常美麗又豐饒的森林。"
   },
   "42261": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Look who it is, <pc>. What a\ncoincidence to meet you here. Oh, you\ndon't remember me?Ha-ha-ha! You are\n<br>\nvery good at jokes, aren't you? I am\nZahokku, whom you met at Mirror\nFountain.",
     "es": "",
@@ -182,7 +182,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>我還想說是誰呢，原來是<pc>啊。\n在這種地方遇見你真是太巧了。\n<br>\n什麼？你不記得我了嗎？\n哈哈哈！你真愛開玩笑。\n是在水鏡之泉跟你見過面的札霍克啊。"
   },
   "39138": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Look who it is, <pc>. What a\ncoincidence to meet you here. Oh, you\ndon't remember me? Ha-ha-ha! You are\n<br>\nvery good at jokes, aren't you? I am\nZahokku, whom you met at Mirror\nFountain. Priest Helga wanted to do\n<br>\nsome research. I'm here as a\ncompanion.",
     "es": "",
@@ -195,7 +195,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>我還想說是誰呢，原來是<pc>啊。\n真巧，在這種地方遇見你。\n<br>\n什麼？你不記得我了嗎？\n哈哈哈！你真愛開玩笑。\n是在水鏡之泉跟你見過面的札霍克啊。\n<br>\n赫爾嘉僧正說她想調查一些東西，\n我就跟她一起來了。"
   },
   "39139": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_think_lv1><end_attr>Oh <pc>? Priest Helga has\nreturned to the Kirika Shrine in Azlan\nfor you. You must go to Kirika Shrine\n<br>\nimmediately. Priest Helga is a busy\nperson. Do not keep him waiting too\nlong.",
     "es": "",
@@ -208,7 +208,7 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>咦？<pc>？\n赫爾嘉僧正已經為了你返回安須嵐的霧迦聖堂了。\n<br>\n快點前往霧迦聖堂吧。\n赫爾嘉僧正是個大忙人，\n你別讓她等太久。"
   },
   "39140": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>Oh <pc>. It seems that you\nare getting ready for the baptismal\nrite. If you successfully complete the\n<br>\nbaptismal rite, you and I will be true\nbrothers!",
     "es": "",
@@ -221,7 +221,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>喔，<pc>。\n看來你已經開始準備參加洗禮儀式了。\n<br>\n如果順利完成洗禮儀式的話，\n你跟我就是真正的兄弟了！"
   },
   "39142": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Oh <pc>. Priest Helga has\ngone to Kirika Maternity with High\nPriest Iyori and others. Now you, too,\n<br>\nmust hurry. If you head east, you will\nsoon reach the maternity house at\nKirika Islet.",
     "es": "",
@@ -234,7 +234,7 @@
     "zh-Hant": "喔，<pc>。\n赫爾嘉僧正和伊寄大僧正一起前往霧迦產屋了。\n<br>\n你也快點過去吧。\n向東走，馬上就能到達霧迦小島上的產房。"
   },
   "39141": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<if_woman><attr><feel_happy_lv2><end_attr>Oh my sister <pc>. After the\nsuccessful completion of the baptismal\nrite, you and I have become true\n<br>\nbrothers. From now on, I must also\ndevote myself to follow your example.<else><attr><feel_happy_lv2><end_attr>Oh my brother <pc>. After the\nsuccessful completion of the baptismal\nrite, you and I have become true\n<br>\nbrothers. From now on, I must also\ndevote myself to follow your example.<endif>",
     "es": "",
@@ -247,7 +247,7 @@
     "zh-Hant": "<if_woman><attr><feel_happy_lv2><end_attr>喔，我的妹妹<pc>啊。\n洗禮儀式順利完成了，\n你我已經是真正的兄妹了。\n<br>\n今後為了成為妳的榜樣，\n我也必須要更加努力了。<else><attr><feel_happy_lv2><end_attr>喔，我的弟弟<pc>啊。\n洗禮儀式順利完成了，\n你我已經是真正的兄弟了。\n<br>\n今後為了成為你的榜樣，\n我也必須要更加努力了。<endif>"
   },
   "36190": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Mmmm, mmmm, mmmm, mmmm, mmmm, let me\nsleep.",
     "es": "",
@@ -260,7 +260,7 @@
     "zh-Hant": "嗯～唉唷……\n讓我再睡一下。"
   },
   "48834": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I feel someone is sleeping in the\ntent. I think it's best not to go in\nthere now.",
     "es": "",
@@ -273,7 +273,7 @@
     "zh-Hant": "感覺有人正在帳篷裡睡覺，\n現在還是不要進去比較好。"
   },
   "36193": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_sad_one><end_attr>It hurts. It hurts. My back hurts so\nmuch, but I can't move my udder to rub\nit. Come on, rub me, priest. My\n<br>\nhusband left me because he didn't want\nme to catch the disease.",
     "es": "",
@@ -286,7 +286,7 @@
     "zh-Hant": "<attr><feel_sad_one><end_attr>好痛……真的好痛。\n背上痛得要死，想稍微揉一揉，\n可是手臂卻動不了。\n<br>\n喂……可以幫我揉一揉嗎？僧侶大人。\n丈夫說不想被傳染得病，\n就把我一個人丟在這裡……"
   },
   "36194": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_think_lv3><end_attr>Oh <pc>. I recall that this\nwas your first assignment here. But I\ndon't need your help. I, Zahokku, will\n<br>\ntake care of everything.",
     "es": "",
@@ -299,7 +299,7 @@
     "zh-Hant": "<attr><feel_think_lv3><end_attr>喔，是<pc>。\n說起來這裡的任務，\n是你的首次任務吧。\n<br>\n不過我不需要你協助，\n本札霍克自己一個人就能全部解決。"
   },
   "36195": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_think_lv1><end_attr>Oh, my God! You mean to tell me that\nan aromatic tree called the Sparkling\nTree is effective against the deadly\n<br>\nSpelly Breath? Hm, then, if we go to\nthe Morinara branch of the Ranger\nAssociation in the northwest forest,\n<br>\nwe may be able to ask them about the\nfragrant tree.",
     "es": "",
@@ -312,7 +312,7 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>什麼！名為閃香樹的香木可以治療死神吐息嗎？\n<br>\n嗯……\n那就前往西北方森林裡的遊俠協會莫利納拉分部，\n詢問關於閃香樹的事情吧……（小聲嘟噥）。"
   },
   "36196": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_think_lv1><end_attr>Now you go back to your training. I,\nZahokku, will find the fragrant tree\nand show it to you.",
     "es": "",
@@ -325,7 +325,7 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>好了，你回去修練吧。\n我札霍克會把閃香樹找出來。"
   },
   "36197": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_sad_one><end_attr>I can't see anything. I can't see\nanything. I wonder if I'm going to die\nlike this.",
     "es": "",
@@ -338,7 +338,7 @@
     "zh-Hant": "<attr><feel_sad_one><end_attr>呼……什麼都看不見啊。\n我的眼睛看不見東西了。\n<br>\n我……就要死了嗎……"
   },
   "36198": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<if_woman><attr><feel_sad_lv3><end_attr>Uggghhh, my sister, laugh at me, your\nbrother who can do nothing. I've tried\neverything, spells, medicines, new\n<br>\ncures, but the sick are only getting\nweaker. If only I could get my hands\non some sparkling wood.<else><attr><feel_sad_lv3><end_attr>Uggghhh, my brother, laugh at me, your\nbrother who can do nothing. I've tried\neverything, spells, medicines, new\n<br>\ncures, but the sick are only getting\nweaker. If only I could get my hands\non some sparkling wood.<endif>",
     "es": "",
@@ -351,7 +351,7 @@
     "zh-Hant": "<if_woman><attr><feel_sad_lv3><end_attr>嗚嗚，我的妹妹啊……\n你就儘管嘲笑我這個無力的師兄吧。\n<br>\n咒文、藥物、新的治療法……\n各種方式我都試過了，\n但病人們還是越來越衰弱。\n<br>\n如果能得到閃香樹的話……。<else><attr><feel_sad_lv3><end_attr>嗚嗚，我的弟弟啊……\n你就儘管嘲笑我這個無力的師兄吧。\n<br>\n咒文、藥物、新的治療法……\n各種方式我都試過了，\n但病人們還是越來越衰弱。\n<br>\n如果能得到閃香樹的話……<endif>"
   },
   "48835": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "I can hear Arnoud sleeping in the\ntent. I think it's better not to go in\nthere now.",
     "es": "",
@@ -364,7 +364,7 @@
     "zh-Hant": "從帳篷裡傳來了阿爾諾的打呼聲，\n現在還是不要進去比較好。"
   },
   "36200": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_one><end_attr>Thank you priest. If it wasn't for\nyou, I'd be wasted for sure. You saved\nmy life. I'll do my best to survive. I\n<br>\nfeel like I can do anything now.",
     "es": "",
@@ -377,7 +377,7 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>謝謝您，僧侶大人。\n要是沒有您，\n我現在肯定已經死了。\n<br>\n這條命是被您拯救的，\n我會盡全力地活下去。\n我覺得我現在什麼都做得到。"
   },
   "36201": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<if_woman><attr><feel_happy_lv1><end_attr>Oh, my sister! I have never been so\nproud of you as a Brother's child. I\ncan see now why Eldona needed you at\n<br>\nher baptism.<else><attr><feel_happy_lv1><end_attr>Oh, my brother! I have never been so\nproud of you as a Brother's child. I\ncan see now why Eldona needed you at\n<br>\nher baptism.<endif>",
     "es": "",
@@ -390,7 +390,7 @@
     "zh-Hant": "<if_woman><attr><feel_happy_lv1><end_attr>喔，我的妹妹啊！\n作為你的師兄，\n我真為你感到驕傲。\n<br>\n我現在終於明白在洗禮儀式時，\n艾爾多娜神說需要你的理由了。<else><attr><feel_happy_lv1><end_attr>喔，我的弟弟啊！\n作為你的師兄，\n我真為你感到驕傲。\n<br>\n我現在終於明白在洗禮儀式時，\n艾爾多娜神說需要你的理由了。<endif>"
   },
   "60374": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>Travelers, do you know about this?\nThere is a salon in Royal City\nKamiharmui, far to the west. I've been\n<br>\nasked to work there as an apprentice\nhairdresser. I'm on my way to Royal\nCity now.",
     "es": "",
@@ -403,7 +403,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>旅行者，你知道嗎？\n在遙遠西方的王都卡密哈爾姆，\n有一間店叫做美容院。\n<br>\n我即將作為實習美容師\n在那邊工作，\n正準備要前往王都呢。"
   },
   "60375": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>I am an apprentice hairdresser at\nSalon Fee Lycia. I've decided to\ncreate a new color for the salon.\n<br>\nSince I've gone to all this trouble, I\nthought I'd make a color that would\nplease my customers, a color that\n<br>\nwould bring them a sense of dusty\nhospitality, so I came here to pick\nsomething called Tea Plant Leaves.<bw_break>",
     "es": "",
@@ -416,7 +416,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>我是菲麗西亞沙龍的實習美容師，\n這次要製作在美容院使用的新顏色。\n<br>\n因為機會難得，\n我想製作溫暖的待客之色讓客人感到開心。\n所以就來採集一種叫做茶樹之葉的東西。<bw_break>"
   },
   "60376": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_sad_lv1><end_attr>But it must have been a disaster that\nit was the best time to pick them,\nbecause <%sEV_QUE_NAME0>, who lives\n<br>\nalong the river in the southeast, took\naway my Tea Plant Leaves. I'm sorry,\ntraveler. <%sEV_QUE_NAME0> is a very\n<br>\nstrong monster around here, could you\nplease go and get the Tea Plant Leaves\nback?",
     "es": "",
@@ -429,7 +429,7 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>但很不巧現在正逢採收季節，\n導致茶樹之葉\n被東南河岸的<%sEV_QUE_NAME0>搶走了……\n<br>\n旅行者，請你好心幫幫忙，\n<%sEV_QUE_NAME0>在這附近是相當強大的怪物，\n你可以幫我把茶樹之葉拿回來嗎？"
   },
   "60377": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Oh, well! Are you sure?I was so\nrelieved I had a bit of a bittersweet\ntear. Thank you, traveler. I'm\n<br>\ncounting on you.",
     "es": "",
@@ -442,7 +442,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哇……！真的可以嗎？\n不知道為什麼一放下心，眼淚就不受控制……\n謝謝你，旅行者，那就拜託你了。"
   },
   "60378": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_think_lv1><end_attr>Oh, well! Are you sure? But, traveler.\nDon't you have many other requests? I\ncan't ask such a favor from you.\n<br>\nPlease call on me again when you are\nfree.",
     "es": "",
@@ -455,7 +455,7 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>哇……！真的可以嗎？\n不過旅行者，\n你手頭上好像還有很多委託呢……？\n<br>\n我可不能勞煩如此忙碌的人啊。\n等你忙完了，再來找我吧。"
   },
   "60379": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_sad_lv1><end_attr>Is that so? If that's so, I can't help\nit. I left my hometown to study the\nspirit of hospitality, and chose to\n<br>\nbecome a hair stylist. Dealing with\nmonsters is just too, too much for me.\nAh, what should I do?",
     "es": "",
@@ -468,7 +468,7 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>這樣啊，那就沒辦法了呢。\n……我本來是為了學習待客之心，\n才離開故鄉選擇走上美容師的道路。\n<br>\n要我去對付怪物實在是……\n啊啊……該怎麼辦才好呢？"
   },
   "60380": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>I wanted to create a dusty, welcoming\ncolor scheme that would please the\nguests who come to the salon.<open_irai><bw_break>",
     "es": "",
@@ -481,7 +481,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>我想製作溫暖的待客之色，\n讓來到我們美容院的客人都能感到開心。<open_irai><bw_break>"
   },
   "60381": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>But the Tea Plant Leaves we need were\ntaken away by <%sEV_QUE_NAME0> on the\nriver southeast of Azlan Region. He is\n<br>\na very strong monster around here. For\nyour sake, traveler. Please defeat him\nand bring back the Tea Plant Leaves.<close_irai>",
     "es": "",
@@ -494,7 +494,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>但是製作時需要用到的茶樹之葉，\n被安須嵐地方東南河岸的<%sEV_QUE_NAME0>搶走了。\n<br>\n牠在這附近是相當強大的怪物。\n旅行者，請你好心幫幫忙，\n幫我打倒牠，把茶樹之葉拿回來。<close_irai>"
   },
   "60382": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Would you give Tea Plant Leaves to\nYatsuha?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
@@ -507,7 +507,7 @@
     "zh-Hant": "是否要將茶樹之葉\n交給八羽？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
   "60383": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pc> gave Tea Plant Leaves to\nYatsuha!",
     "es": "",
@@ -520,7 +520,7 @@
     "zh-Hant": "<pc>把茶樹之葉\n交給了八羽！"
   },
   "60384": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Yatsuha worked her magic on the Tea\nPlant Leaves with a deft hand!<me 69>",
     "es": "",
@@ -533,7 +533,7 @@
     "zh-Hant": "八羽用恭敬的手勢\n對茶樹之葉施加了魔法！<me 69>"
   },
   "60385": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "A new color ''matcha'' is now available\nin Salon!<me 71>",
     "es": "",
@@ -546,7 +546,7 @@
     "zh-Hant": "可以在美容院使用新顏色\n「抹茶色」了！<me 71>"
   },
   "60386": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>Welcome back, traveler. Did you get\nthe Tea Plant Leaves by any chance?",
     "es": "",
@@ -559,7 +559,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>哇，歡迎回來，旅行者。\n難道你已經拿到茶樹之葉了嗎？"
   },
   "60387": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_sad_lv1><end_attr>Oh, my God. Am I barking up the wrong\ntree? I don't like it. You're just\ncareless. I don't like it. I'm just\n<br>\ntrying to look nice.",
     "es": "",
@@ -572,7 +572,7 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>喔……我誤會了嗎？\n看來是我太心急了，\n請原諒我吧。"
   },
   "60388": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Oh, thank you! I can't believe you\nbrought me such soft and beautiful\nsprouts. I'm so happy. I'm sure you'll\n<br>\nget great colors.<bw_break>",
     "es": "",
@@ -585,7 +585,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哇，謝謝你！\n幫我拿來了如此柔嫩又漂亮的新芽。\n我好開心啊，這一定能做出好看的顏色。<bw_break>"
   },
   "60389": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_one><end_attr>I'll try it right away. If you like,\nyou can have a look at it, too.",
     "es": "",
@@ -598,7 +598,7 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>那就馬上做看看吧。\n方便的話，旅行者也可以來看一下。"
   },
   "60390": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<se_nots joutyu SUCCESS>First, the Tea Plant Leaves are heated\nwell and allowed to dry slowly. Then I\nbreak them into small pieces. Hmmm...\n<br>\nA nice, soft aroma. It reminds me of\nmy mother who lives far away from me.\nThen, add hot water a little at a time\n<br>\nand mix carefully with all your heart.\nFinish with a touch of magic and it's\nready to serve.<bw_break>",
     "es": "",
@@ -611,7 +611,7 @@
     "zh-Hant": "<se_nots joutyu SUCCESS>先將茶樹之葉稍微加熱一下，\n然後仔細地弄乾它。\n之後在搗碎成細緻的粉末。\n<br>\n呵呵，這高雅的香味真是令人懷念……\n讓我想起了住在遠方的母親。\n<br>\n接著一點一點地加入熱水，\n仔細用心地攪拌……\n最後再施加魔法就完成了。<bw_break>"
   },
   "60391": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "Hona magical, magical  Wabino sabino!\nChano yuno cocorro! Dosue.",
     "es": "",
@@ -624,7 +624,7 @@
     "zh-Hant": "上吧，魔力繽紛、魔力閃耀♪\n侘寂之美！茶道之心！\n……完畢。"
   },
   "60392": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv3><end_attr>Well, take a look! Thanks to you, I\nwas able to create a very soft color.\nThis is the matcha color of\n<br>\nhospitality.",
     "es": "",
@@ -637,7 +637,7 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>哇，你快看呀！\n多虧了你，真的完成了高雅的顏色。\n這就是待客的抹茶色。"
   },
   "60393": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_one><end_attr>This is for the traveler. It's not\nmuch, but please accept it.",
     "es": "",
@@ -650,7 +650,7 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>這是給旅行者的謝禮。\n雖然不是什麼貴重物品，\n但希望你能夠收下。"
   },
   "60394": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_one><end_attr>This matcha color can be used anywhere\nin Salon. Please try it out.<bw_break>",
     "es": "",
@@ -663,7 +663,7 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>我會確保無論是哪裡的美容院\n都能夠使用抹茶色，\n旅行者也一定要使用看看。<bw_break>"
   },
   "60395": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>My mother, who has been in the\ncustomer business all her life, taught\nme the spirit of hospitality. I will\n<br>\ntreasure that lesson for the rest of\nmy life. She runs a hot fountain inn\nin Wind Town Azlan. It is my dream to\n<br>\nbecome a full-fledged hairdresser and\nwork with her someday.",
     "es": "",
@@ -676,7 +676,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>我的母親從事待客行業，\n她教會了我什麼是待客之心。\n那份教誨對我而言是一輩子的寶物。\n<br>\n母親就在風城安須嵐的溫泉旅館工作，\n我的夢想是成為一名像樣的美容師，\n然後將來和母親一起工作。"
   },
   "60396": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>My mother, who has been in the\ncustomer business all her life, taught\nme the spirit of hospitality. I will\n<br>\ntreasure that lesson for the rest of\nmy life. She runs a hot fountain inn\nin Wind Town Azlan. It is my dream to\n<br>\nbecome a full-fledged hairdresser and\nwork with her someday.",
     "es": "",
@@ -689,7 +689,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>我的母親從事服務業，\n她教會了我什麼是待客之心。\n那份教誨對我而言是一輩子的寶物。\n<br>\n母親就在風城安須嵐的溫泉旅館工作，\n我的夢想是成為一名像樣的美容師，\n然後將來和母親一起工作。"
   },
   "76534": {
-    "$comments": "",
+    "$comments": "🔴, ",
     "de": "",
     "en": "<pc> received Mystery Lively\nDoll Photo (Key Item)! <pc>\nreceived Mystery Lively Doll Photo\n<br>\n(Key Item)!<me 60>",
     "es": "",
