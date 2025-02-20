@@ -140,6 +140,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq "to_entries | map(.value = (.
 ### Input
 
 - `$old`
+
   - original version `Steam\**\BACKLOG\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
 
 - `$new`
@@ -289,8 +290,10 @@ jq -s `
 - Where:
 
   - old_format =
+
     - ([`testing` branch's](https://github.com/KodywithaK/dqx-offline-localization/tree/testing)) old `.etp` format
     - With your translation additions/edits, e.g.:
+
       ```json
       {
         "{namespace}": {
@@ -298,9 +301,12 @@ jq -s `
         }
       }
       ```
+
   - new =
+
     - ([`main` branch's](https://github.com/KodywithaK/dqx-offline-localization)) new `.etp` format
     - With your translation additions/edits, e.g.:
+
       ```json
       {
         "{namespace}": {
@@ -413,6 +419,84 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq "to_entries | map(.value = {e
 
 ```cmd
 FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new] ({}; reduce ($old | keys_unsorted)[] as $namespace (.;.[$namespace] += ($old[$namespace]| if (.en == \"\")then (.en = $new[$namespace].en)else (.) end | (to_entries | sort | from_entries) ) ) )" ".\old\%A" ".\new\%A" > ".\output\%A"
+```
+
+</details>
+
+</details>
+
+</details>
+
+---
+
+# \*\*/Game/Content/Datatables
+
+<details>
+
+## System
+
+<details>
+
+### System_Party
+
+#### DT_PT_Talk.json
+
+<details>
+
+##### JQ
+
+- sort quests
+
+```js
+#jq
+.[].Rows = (
+    .[].Rows
+    | to_entries
+    | sort_by(
+        .value.ScenarioNo_Start,
+        .value.ScenarioCounter_Start,
+        .value.QuestNo,
+        .value.QuestCounter_Start,
+        .value.SortNum,
+        .value.TalkNum
+    )
+    | map(
+        .value = (
+            .value
+            | to_entries
+            | sort
+            | from_entries
+        )
+    )
+    | from_entries
+)
+```
+
+</details>
+
+### System_QuestList
+
+#### DT_QuestList.json
+
+<details>
+
+##### JQ
+- sort quests numerically
+```js
+.[].Rows = (
+    .[].Rows
+    | to_entries
+    | sort_by(.value.DispNo)
+    | map(
+        .value = (
+            .value
+            | to_entries
+            | sort
+            | from_entries
+        )
+    )
+    | from_entries
+)
 ```
 
 </details>
@@ -634,7 +718,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |           `STT_CommonItem`            |     |                                             |                                        |
 |         `STT_ConditionViewer`         |     |                                             |                                        |
 |        `STT_ConvinientMainSys`        |     |                                             |                                        |
-|         `STT_DaijinamonoItem`         |     |                                             |                                        |
+|         `STT_DaijinamonoItem`         |     | ~30 characters long                         |             Key Items                  |
 |            `STT_Dorubaord`            |     |                                             |                                        |
 |        `STT_DungeonKingdomSys`        |     |                                             |                                        |
 |         `STT_DungeonMagicNPC`         |     |                                             |                                        |
@@ -781,9 +865,710 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 
 # \*\*/Game/Content/NonAssets/ETP\*/\*.etp
 
-<details>
+## Index
+
+  <details>
+  
+  | File                                                   |                                               Context                                               |                     Comment(s)                      |
+  | :----------------------------------------------------- | :-------------------------------------------------------------------------------------------------: | :-------------------------------------------------: |
+  | `eventTextCsA11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00001`                |                  Prologue - Human                   |
+  | `eventTextCsA21Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsAq10011Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10012Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10013Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10014Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10015Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10021Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10022Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10023Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10024Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10025Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10031Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10032Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10033Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10034Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10035Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10041Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10042Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10043Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10044Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10045Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10051Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10052Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10053Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10054Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10055Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10061Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10062Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10063Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10064Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10065Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10072Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10073Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10074Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10075Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10081Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10084Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10085Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10091Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10092Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10094Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10095Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq1009hClient.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10101Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10102Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10103Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10104Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10105Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10111Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10112Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10113Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10114Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10115Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10121Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10122Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10123Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10124Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10125Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10131Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10132Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10133Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10134Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10135Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10141Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10142Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10143Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10144Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10145Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10151Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10152Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10153Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10154Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq10155Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq20161Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq20162Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq20163Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq20171Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq20172Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq20173Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq20181Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq20182Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq20183Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq20191Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq20192Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsAq20193Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsC11Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsC22Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsD11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00014`                |                  Prologue - Dwarf                   |
+  | `eventTextCsD21Client.win32.etp`                       | Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00014`                               |           [Key Emblem - Yellow - Dwarf]             |
+  | `eventTextCsD31Client.win32.etp`                       |                                          Story of Dolworm                                           |                                                     |
+  | `eventTextCsE11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00002`                |                   Prologue - Elf                    |
+  | `eventTextCsE21Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsE31Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsFq10011Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10011Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10012Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10013Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10014Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10015Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10021Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10022Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10023Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10024Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10025Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10031Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10032Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10033Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10034Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10035Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10042Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10043Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10044Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10045Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10051Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10053Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10054Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10055Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10061Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10062Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10063Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10064Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10065Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10071Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10072Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10073Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10074Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10075Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10081Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10082Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10083Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10084Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10085Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10091Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10092Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10093Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10094Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10095Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10101Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10102Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10103Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10104Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10105Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10111Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10112Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10113Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10114Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10115Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10121Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10122Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10123Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10124Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq10125Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq20131Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq20132Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq20133Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq20134Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq20135Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq20142Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq20143Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq20144Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq20145Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq30151Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq30152Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq30153Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq30154Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq30155Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq30161Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq30162Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq30163Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq30164Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq30165Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq40171Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq40172Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq40173Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq40174Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq40175Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq40181Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq40182Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq40183Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq40184Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsJq40185Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq10211Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq10221Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq10222Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq10223Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq10224Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq10225Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq10251Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq21091Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq21101Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq21111Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq21112Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq21113Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq21114Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq30284Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq31102Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq31103Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq31104Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq31105Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq31311Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20011Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20012Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20013Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20014Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20015Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq2001hClient.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20021Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20022Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20023Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20024Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20025Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq2002hClient.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20031Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20032Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20033Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20034Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20035Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq200511ToAzurClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200511ToDoruClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200511ToGartClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200511ToGataClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200511ToGlenClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200511ToJureClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200511ToKamiClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200511ToMegiClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200511ToOlfeClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200511ToRackClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200511ToRendClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200511ToVeriClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200512ToAzurClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200512ToDoruClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200512ToGartClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200512ToGataClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200512ToGlenClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200512ToJureClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200512ToKamiClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200512ToMegiClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200512ToOlfeClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200512ToRackClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200512ToRendClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq200512ToVeriClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq20051Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq2005hClient.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20061Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20081Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20091Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20101Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20121Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20122Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20123Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20141Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20151Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20161Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20171Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20191Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20192Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20201Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20211Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq202213ToAzurClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq202213ToDoruClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq202213ToGartClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq202213ToGataClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq202213ToGlenClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq202213ToJureClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq202213ToKamiClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq202213ToMegiClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq202213ToOlfeClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq202213ToRackClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq202213ToRendClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq202213ToVeriClient.win32.etp`            |                                                                                                     |                                                     |
+  | `eventTextCsMq20221Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq2022hClient.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20241Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20251Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20252Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsMq20253Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsN12Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsN22Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsN32Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsN42Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsN52Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsN62Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsN72Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsO11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00008`                |                   Prologue - Ogre                   |
+  | `eventTextCsO21Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsO31Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsP11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00011`                |                 Prologue - Pukulipo                 |
+  | `eventTextCsP21Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsP31Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsS12Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsS32Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsS82Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsS92Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsTq10021Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsTq10031Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsTq10051Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsTq20071Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsTq20081Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsTq30091Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsTq40111Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsTq40121Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsW11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00005`                |                  Prologue - Weddie                  |
+  | `eventTextCsW21Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsW31Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsY11Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsY21Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsY22Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsY32Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsZ11s01x0To___Client.win32.etp`             |            Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 1             |     Destination<br>Changes station/bento dialog     |
+  | `eventTextCsZ11s02x0To___Client.win32.etp`             |            Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 2             |     Destination<br>Changes station/bento dialog     |
+  | `eventTextCsZ11s03x0___KeyEmblemTo___Client.win32.etp` |            Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 3             | Source, Destination<br>Changes station/bento dialog |
+  | `eventTextCsZ11s04x0To___Client.win32.etp`             |            Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 4             |     Destination<br>Changes station/bento dialog     |
+  | `eventTextCsZ21Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsZ31Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextCsZ41Client.win32.etp`                       |                                                                                                     |                                                     |
+  | `eventTextIeD1AgraTownServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Dwf_d1000`                |                                                     |
+  | `eventTextIeD1AkroDelcServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD1AkroDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD1RaniFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeD1ZagbFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeD2AkkiBossServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD2BoutOusiServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD2DamuBos2Server.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD2DaraDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD2DaraFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeD2EzslFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeD2GataFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeD2GataMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeD2GataStatServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD2GataTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD2KalsFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeD2MogaChrcServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD2MogaFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeD2PoikDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD2UlveDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD3BoroDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD3BoroFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeD3DemaFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeD3DoruCastServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD3DoruFldwServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD3DoruIdo1Server.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                 Bottom of the Well                  |
+  | `eventTextIeD3DoruKingServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD3DoruMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeD3DoruStatServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD3DoruTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD3GobuFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeD3KalsBos3Server.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD3KalsBos5Server.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD3KalsDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeD3RyusBossServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE1KuonDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE1TuskFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeE1TuskTownServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Gen_g4910`                |                                                     |
+  | `eventTextIeE2AzurFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeE2AzurMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeE2AzurStatServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE2AzurTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE2HazuBossServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE2InamFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeE2KazeFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeE2KiriFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeE2MoriFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeE2SuitDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE2SuizFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeE2TikaDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE3ImuiBossServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE3KamiCastServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE3KamiFldnServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE3KamiFldsServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE3KamiKitaServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE3KamiMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeE3KamiTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE3OhorFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeE3SuteDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeF1JiyuTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeF1KeenTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeF2GranTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeF2JutnTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeF4UlveTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeF5AruwTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeF6KeenTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeF7JiyuTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeF7KeenTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG0ComnTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG1MeioDng2Server.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG1MeioDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG1RackColoServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG1RackMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeG1RackStatServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG1RackTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG1RendCigaServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG1RendPortServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG1RendStatServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG1RendTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG2GrndShipServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG2SobiTuboServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG9KiseVal3Server.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeG9MoonTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeL3CasiEntrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO1DazuBossServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO1LionGateServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Gen_g4900`                |                                                     |
+  | `eventTextIeO1LondDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO1NagaDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO1RangFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeO1RangTownServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Ogr_01000`                |                                                     |
+  | `eventTextIeO2BecoDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO2GlenCastServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO2GlenFldeServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO2GlenFldwServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO2GlenMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeO2GlenStatServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO2GlenTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO2OlseFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeO2RandBossServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO2RandInteServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO2ViorGateServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO2ZamaFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeO3BadoFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeO3GartCastServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO3GartFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeO3GartIdo1Server.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                 Bottom of the Well                  |
+  | `eventTextIeO3GartMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeO3GartStatServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO3GartTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO3KigaFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeO3OlseDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO4FootFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeO4GlenCastServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO4GlenFldeServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO4GlenStatServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO4GlenTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO4LadmDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO4RandInteServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeO4ViorGateServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP1EidsDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP1PeshDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP1PukuTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP1PushFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeP2AmanFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeP2DandDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2FeruBossServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2MyulBossServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2MyulDongServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2MyulDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2MyulOpenServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2OlfaHillServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2OlfaIdoServer.win32.etp`                 |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                 Bottom of the Well                  |
+  | `eventTextIeP2OlfeCakeServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2OlfeFldeServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2OlfeFldwServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2OlfeMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeP2OlfeStatServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2OlfeTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2OlfeTwn2Server.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2PakuGaraServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2PakuOffcServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP2RinkFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeP2SilvHillServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP3ChopFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeP3EpisBos2Server.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP3EpisBossServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP3EpisDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP3EpisFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeP3EpisMeruServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP3KiraBossServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP3KiraCampServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP3KiraDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP3KiraParuServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP3LmonFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeP3LmonIdo1Server.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                 Bottom of the Well                  |
+  | `eventTextIeP3MegiCastServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP3MegiFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeP3MegiMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeP3MegiTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeP3RazaDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR1EtenTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR1KiyoDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR1NaruTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2CocoTownfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2CocoTownrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2ConiFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2DracBossrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2DracFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2GakuDormServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2GakuGardServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2GakuGrndServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2GakuOldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeR2GakuSchlServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2GakuScl2Server.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2GramBrgr1Server.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GramBrgr3Server.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GramCstr1Server.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GramCstr2Server.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GramCstr3Server.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GramTowr1Server.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GramTowr2Server.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GramTowr3Server.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranBrigfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranBrigrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranCastfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranCastrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranCstr2Server.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranCstr3Server.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2GranFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2GranMonsfServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR2GranMonsrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR2GranPortfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranPortrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranScrtrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranTowfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2GranTowlfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranTowlrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranTownfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranTownrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2GranTowrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2HimiBossfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2HimiDungfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2MonsBossrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR2MonsFldrServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR2OukeHakarServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2RevlFldnrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2RnksJim2rServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2RnksJimurServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2RovsFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2RovsFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR2RyuzEsterServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2RyuzTownrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2RyuzTwn2rServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2SanmGatefServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2SanmGaterServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2ZedrBos3rServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2ZedrBossrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2ZedrDungfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR2ZedrDungrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR3GuruFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR3GuruFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR3MelsFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR3MelsFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR3MelsMonsfServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR3MelsMonsrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR3MelsTownfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR3MelsTownrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR3RonuFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR3RonuFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR3SuisFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR3SuisFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR3SyuzFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR3SyuzFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR3TikaDungfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR3WaldFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR3WaldFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR4CeleCrchfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4CeleFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR4CeleFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR4CeleMonsfServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR4CeleMonsrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR4CeleSiryfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4CeleSiryrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4CeleTownfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4CeleTownrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4DarmBossrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4DarmTmplfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4DarmTmplrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4IgyoFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR4IsekBossfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4IsekBossrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4IsekDungfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4IsekDungrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4MagnDungrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4RinjBossfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4RinjBossrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4RinjDungfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4RinjDungrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR4RinjFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR4RinjFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR4RyanFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR4RyanFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR5ArahColsfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR5ArahColsrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR5ArahFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR5ArahFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR5ArahMonsfServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR5ArahMonsrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR5ArahSkilrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR5ArahTownfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR5ArahTownrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR5DefeFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR5DefeFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR5JayrDungfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR5JayrDungrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR5JayrKdusrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR5MuruFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR5MuruFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR5NasmDungfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR5NasmDungrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR5NasmEvtrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR5PyraBos2rServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR5PyraDungfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR5PyraDungrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6EtenFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR6EtenMer2Server.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR6EtenMereServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR6EtenTownfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6EtenTownrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6EtenTwn2rServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6EtenTwn3rServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6HaguFldfServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR6HaguFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR6HikaTmplrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6JadoBossfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6JadoDungfServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6KiyoDungrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6NaruIdo1rServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                 Bottom of the Well                  |
+  | `eventTextIeR6NaruTownrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6SureFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR6YukyCasirServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6YukyDng2rServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6YukyDungrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6YukyEtenrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR6YukyHarlrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR7HikoSkyrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeR7MadeTownrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR7MadeTwn2rServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR7RazeBossrServer.win32.etp`               |                                                                                                     |                                                     |
+  | `eventTextIeR7RazeFldrServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeRpEtenTownServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Ren_r1000`                |                  Prologue - Humans                  |
+  | `eventTextIeRpHaguFldServer.win32.etp`                 |                                           Nameless Plains                                           |                  Prologue - Humans                  |
+  | `eventTextIeRpHikaRaceServer.win32.etp`                |                                          Realm of the Gods                                          |                  Prologue - Humans                  |
+  | `eventTextIeRpKiyoDungServer.win32.etp`                |                                           Clearwater Cave                                           |                  Prologue - Humans                  |
+  | `eventTextIeT1ApekTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeT1EjarTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeT2EasaTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeT3KarlTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeT4RushTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeT5MustTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeV1DaisTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeV2ZekuTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeV3BaruTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeV4FaraTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeV5JadiTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeV6GoraTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW1IreiFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeW1KoltFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeW1LaidFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeW1LeenTownServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Wed_w1000`                |                  Prologue - Weddie                  |
+  | `eventTextIeW1ShelFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeW1TiteDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW2AsobHousServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW2JureFldtServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW2JureIdo1Server.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                 Bottom of the Well                  |
+  | `eventTextIeW2JureLowsServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW2JureMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeW2JureStatServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW2JureTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW2LardFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeW2MuzeFldnServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW2MuzeFldsServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW2NekoBossServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW2NekoDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW2TienDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW3BonrFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeW3EienDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW3SiikBossServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW3SiikDungServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW3VarsFldServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextIeW3VeriCastServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW3VeriFldeServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW3VeriFldnServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW3VeriFldwServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeW3VeriMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeW3VeriTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextLiveBasyaServer.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextMainMessageServer.win32.etp`                 |                                                                                                     |                                                     |
+  | `eventTextSysBookshelfsServer.win32.etp`               |                                                                                                     |            Interactable objects in world            |
+  | `eventTextSysQuestsServer.win32.etp`                   |                                                                                                     |            Interactable objects in world            |
+  | `eventTextSysWldcServer.win32.etp`                     |                                                                                                     |            Interactable objects in world            |
+  | `eventTextSysWlddwfcServer.win32.etp`                  |   `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_DOWAHU`    |          Interactable objects in Dwachakka          |
+  | `eventTextSysWldelfcServer.win32.etp`                  |    `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_ERUHU`    |           Interactable objects in Eltona            |
+  | `eventTextSysWldforcServer.win32.etp`                  |                                                                                                     |            Interactable objects in world            |
+  | `eventTextSysWldgencServer.win32.etp`                  |                                                                                                     |            Interactable objects in world            |
+  | `eventTextSysWldhsgcServer.win32.etp`                  |                                                                                                     |            Interactable objects in world            |
+  | `eventTextSysWldogrcServer.win32.etp`                  |     `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_OGA`     |           Interactable objects in Ogreed            |
+  | `eventTextSysWldpukcServer.win32.etp`                  |  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_PUKURIPO`   |          Interactable objects in Pukuland           |
+  | `eventTextSysWldrencServer.win32.etp`                  |     `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_REN`     |          Interactable objects in Lendersia          |
+  | `eventTextSysWldthrcServer.win32.etp`                  |                                                                                                     |            Interactable objects in world            |
+  | `eventTextSysWldvthcServer.win32.etp`                  |                                                                                                     |            Interactable objects in world            |
+  | `eventTextSysWldwedcServer.win32.etp`                  |    `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_WEDEY`    |            Interactable objects in Wena             |
+  | `eventTextSysWldzdncServer.win32.etp`                  |                                                                                                     |            Interactable objects in world            |
+  | `smldt_msg_pkg_NPC_DB.win32.etp`                       |                                   `Game.locres.json:STT_NpcInfo`                                    |                      NPC Names                      |
+  
+  </details>
 
 ## Best Practices
+
+<details>
+
 
 ### Recommended Character Counts
 
@@ -1428,7 +2213,6 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   > The door is tightly shut.
   > ```
 
-
 - Examine skeleton
 
   > Find
@@ -1493,706 +2277,6 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 
   </details>
 -->
-
-## File Index
-
-  <details>
-  
-  | File                                                   |                                               Context                                               |                     Comment(s)                      |
-  | :----------------------------------------------------- | :-------------------------------------------------------------------------------------------------: | :-------------------------------------------------: |
-  | `eventTextCsA11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00001`                |                  Prologue - Human                   |
-  | `eventTextCsA21Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsAq10011Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10012Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10013Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10014Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10015Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10021Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10022Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10023Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10024Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10025Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10031Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10032Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10033Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10034Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10035Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10041Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10042Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10043Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10044Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10045Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10051Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10052Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10053Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10054Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10055Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10061Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10062Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10063Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10064Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10065Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10072Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10073Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10074Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10075Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10081Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10084Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10085Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10091Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10092Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10094Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10095Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq1009hClient.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10101Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10102Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10103Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10104Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10105Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10111Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10112Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10113Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10114Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10115Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10121Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10122Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10123Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10124Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10125Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10131Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10132Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10133Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10134Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10135Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10141Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10142Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10143Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10144Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10145Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10151Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10152Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10153Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10154Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq10155Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq20161Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq20162Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq20163Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq20171Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq20172Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq20173Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq20181Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq20182Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq20183Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq20191Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq20192Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsAq20193Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsC11Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsC22Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsD11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00014`                |                  Prologue - Dwarf                   |
-  | `eventTextCsD21Client.win32.etp`                       | Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00014`                               |           [Key Emblem - Yellow - Dwarf]             |
-  | `eventTextCsD31Client.win32.etp`                       |                                          Story of Dolworm                                           |                                                     |
-  | `eventTextCsE11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00002`                |                   Prologue - Elf                    |
-  | `eventTextCsE21Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsE31Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsFq10011Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10011Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10012Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10013Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10014Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10015Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10021Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10022Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10023Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10024Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10025Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10031Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10032Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10033Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10034Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10035Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10042Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10043Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10044Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10045Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10051Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10053Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10054Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10055Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10061Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10062Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10063Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10064Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10065Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10071Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10072Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10073Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10074Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10075Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10081Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10082Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10083Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10084Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10085Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10091Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10092Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10093Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10094Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10095Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10101Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10102Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10103Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10104Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10105Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10111Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10112Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10113Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10114Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10115Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10121Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10122Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10123Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10124Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq10125Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq20131Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq20132Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq20133Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq20134Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq20135Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq20142Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq20143Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq20144Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq20145Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq30151Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq30152Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq30153Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq30154Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq30155Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq30161Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq30162Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq30163Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq30164Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq30165Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq40171Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq40172Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq40173Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq40174Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq40175Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq40181Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq40182Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq40183Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq40184Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsJq40185Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq10211Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq10221Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq10222Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq10223Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq10224Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq10225Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq10251Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq21091Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq21101Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq21111Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq21112Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq21113Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq21114Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq30284Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq31102Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq31103Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq31104Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq31105Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq31311Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20011Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20012Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20013Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20014Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20015Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq2001hClient.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20021Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20022Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20023Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20024Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20025Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq2002hClient.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20031Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20032Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20033Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20034Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20035Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq200511ToAzurClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200511ToDoruClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200511ToGartClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200511ToGataClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200511ToGlenClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200511ToJureClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200511ToKamiClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200511ToMegiClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200511ToOlfeClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200511ToRackClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200511ToRendClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200511ToVeriClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200512ToAzurClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200512ToDoruClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200512ToGartClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200512ToGataClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200512ToGlenClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200512ToJureClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200512ToKamiClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200512ToMegiClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200512ToOlfeClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200512ToRackClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200512ToRendClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq200512ToVeriClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq20051Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq2005hClient.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20061Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20081Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20091Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20101Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20121Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20122Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20123Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20141Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20151Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20161Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20171Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20191Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20192Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20201Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20211Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq202213ToAzurClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq202213ToDoruClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq202213ToGartClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq202213ToGataClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq202213ToGlenClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq202213ToJureClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq202213ToKamiClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq202213ToMegiClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq202213ToOlfeClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq202213ToRackClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq202213ToRendClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq202213ToVeriClient.win32.etp`            |                                                                                                     |                                                     |
-  | `eventTextCsMq20221Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq2022hClient.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20241Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20251Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20252Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsMq20253Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsN12Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsN22Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsN32Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsN42Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsN52Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsN62Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsN72Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsO11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00008`                |                   Prologue - Ogre                   |
-  | `eventTextCsO21Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsO31Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsP11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00011`                |                 Prologue - Pukulipo                 |
-  | `eventTextCsP21Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsP31Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsS12Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsS32Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsS82Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsS92Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsTq10021Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsTq10031Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsTq10051Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsTq20071Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsTq20081Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsTq30091Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsTq40111Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsTq40121Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsW11Client.win32.etp`                       |                Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00005`                |                  Prologue - Weddie                  |
-  | `eventTextCsW21Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsW31Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsY11Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsY21Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsY22Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsY32Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsZ11s01x0To___Client.win32.etp`             |            Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 1             |     Destination<br>Changes station/bento dialog     |
-  | `eventTextCsZ11s02x0To___Client.win32.etp`             |            Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 2             |     Destination<br>Changes station/bento dialog     |
-  | `eventTextCsZ11s03x0___KeyEmblemTo___Client.win32.etp` |            Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 3             | Source, Destination<br>Changes station/bento dialog |
-  | `eventTextCsZ11s04x0To___Client.win32.etp`             |            Story of `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 4             |     Destination<br>Changes station/bento dialog     |
-  | `eventTextCsZ21Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsZ31Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextCsZ41Client.win32.etp`                       |                                                                                                     |                                                     |
-  | `eventTextIeD1AgraTownServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Dwf_d1000`                |                                                     |
-  | `eventTextIeD1AkroDelcServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD1AkroDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD1RaniFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeD1ZagbFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeD2AkkiBossServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD2BoutOusiServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD2DamuBos2Server.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD2DaraDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD2DaraFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeD2EzslFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeD2GataFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeD2GataMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeD2GataStatServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD2GataTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD2KalsFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeD2MogaChrcServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD2MogaFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeD2PoikDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD2UlveDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD3BoroDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD3BoroFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeD3DemaFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeD3DoruCastServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD3DoruFldwServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD3DoruIdo1Server.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                 Bottom of the Well                  |
-  | `eventTextIeD3DoruKingServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD3DoruMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeD3DoruStatServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD3DoruTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD3GobuFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeD3KalsBos3Server.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD3KalsBos5Server.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD3KalsDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD3RyusBossServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE1KuonDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE1TuskFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeE1TuskTownServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Gen_g4910`                |                                                     |
-  | `eventTextIeE2AzurFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeE2AzurMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeE2AzurStatServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE2AzurTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE2HazuBossServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE2InamFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeE2KazeFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeE2KiriFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeE2MoriFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeE2SuitDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE2SuizFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeE2TikaDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE3ImuiBossServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE3KamiCastServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE3KamiFldnServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE3KamiFldsServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE3KamiKitaServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE3KamiMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeE3KamiTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE3OhorFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeE3SuteDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeF1JiyuTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeF1KeenTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeF2GranTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeF2JutnTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeF4UlveTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeF5AruwTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeF6KeenTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeF7JiyuTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeF7KeenTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG0ComnTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG1MeioDng2Server.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG1MeioDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG1RackColoServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG1RackMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeG1RackStatServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG1RackTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG1RendCigaServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG1RendPortServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG1RendStatServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG1RendTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG2GrndShipServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG2SobiTuboServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG9KiseVal3Server.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG9MoonTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeL3CasiEntrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO1DazuBossServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO1LionGateServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Gen_g4900`                |                                                     |
-  | `eventTextIeO1LondDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO1NagaDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO1RangFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeO1RangTownServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Ogr_01000`                |                                                     |
-  | `eventTextIeO2BecoDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO2GlenCastServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO2GlenFldeServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO2GlenFldwServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO2GlenMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeO2GlenStatServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO2GlenTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO2OlseFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeO2RandBossServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO2RandInteServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO2ViorGateServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO2ZamaFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeO3BadoFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeO3GartCastServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO3GartFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeO3GartIdo1Server.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                 Bottom of the Well                  |
-  | `eventTextIeO3GartMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeO3GartStatServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO3GartTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO3KigaFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeO3OlseDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO4FootFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeO4GlenCastServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO4GlenFldeServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO4GlenStatServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO4GlenTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO4LadmDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO4RandInteServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO4ViorGateServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP1EidsDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP1PeshDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP1PukuTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP1PushFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeP2AmanFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeP2DandDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2FeruBossServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2MyulBossServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2MyulDongServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2MyulDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2MyulOpenServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2OlfaHillServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2OlfaIdoServer.win32.etp`                 |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                 Bottom of the Well                  |
-  | `eventTextIeP2OlfeCakeServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2OlfeFldeServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2OlfeFldwServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2OlfeMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeP2OlfeStatServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2OlfeTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2OlfeTwn2Server.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2PakuGaraServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2PakuOffcServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2RinkFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeP2SilvHillServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP3ChopFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeP3EpisBos2Server.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP3EpisBossServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP3EpisDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP3EpisFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeP3EpisMeruServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP3KiraBossServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP3KiraCampServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP3KiraDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP3KiraParuServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP3LmonFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeP3LmonIdo1Server.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                 Bottom of the Well                  |
-  | `eventTextIeP3MegiCastServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP3MegiFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeP3MegiMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeP3MegiTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP3RazaDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR1EtenTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR1KiyoDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR1NaruTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2CocoTownfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2CocoTownrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2ConiFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2DracBossrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2DracFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2GakuDormServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2GakuGardServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2GakuGrndServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2GakuOldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeR2GakuSchlServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2GakuScl2Server.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2GramBrgr1Server.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GramBrgr3Server.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GramCstr1Server.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GramCstr2Server.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GramCstr3Server.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GramTowr1Server.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GramTowr2Server.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GramTowr3Server.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranBrigfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranBrigrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranCastfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranCastrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranCstr2Server.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranCstr3Server.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2GranFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2GranMonsfServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeR2GranMonsrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeR2GranPortfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranPortrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranScrtrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranTowfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2GranTowlfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranTowlrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranTownfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranTownrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2GranTowrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2HimiBossfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2HimiDungfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2MonsBossrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeR2MonsFldrServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeR2OukeHakarServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2RevlFldnrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2RnksJim2rServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2RnksJimurServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2RovsFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2RovsFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2RyuzEsterServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2RyuzTownrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2RyuzTwn2rServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2SanmGatefServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2SanmGaterServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2ZedrBos3rServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2ZedrBossrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2ZedrDungfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2ZedrDungrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR3GuruFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR3GuruFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR3MelsFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR3MelsFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR3MelsMonsfServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeR3MelsMonsrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeR3MelsTownfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR3MelsTownrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR3RonuFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR3RonuFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR3SuisFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR3SuisFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR3SyuzFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR3SyuzFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR3TikaDungfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR3WaldFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR3WaldFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR4CeleCrchfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4CeleFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR4CeleFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR4CeleMonsfServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeR4CeleMonsrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeR4CeleSiryfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4CeleSiryrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4CeleTownfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4CeleTownrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4DarmBossrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4DarmTmplfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4DarmTmplrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4IgyoFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR4IsekBossfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4IsekBossrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4IsekDungfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4IsekDungrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4MagnDungrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4RinjBossfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4RinjBossrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4RinjDungfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4RinjDungrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR4RinjFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR4RinjFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR4RyanFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR4RyanFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR5ArahColsfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR5ArahColsrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR5ArahFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR5ArahFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR5ArahMonsfServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeR5ArahMonsrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeR5ArahSkilrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR5ArahTownfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR5ArahTownrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR5DefeFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR5DefeFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR5JayrDungfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR5JayrDungrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR5JayrKdusrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR5MuruFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR5MuruFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR5NasmDungfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR5NasmDungrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR5NasmEvtrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR5PyraBos2rServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR5PyraDungfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR5PyraDungrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6EtenFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR6EtenMer2Server.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR6EtenMereServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR6EtenTownfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6EtenTownrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6EtenTwn2rServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6EtenTwn3rServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6HaguFldfServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR6HaguFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR6HikaTmplrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6JadoBossfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6JadoDungfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6KiyoDungrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6NaruIdo1rServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                 Bottom of the Well                  |
-  | `eventTextIeR6NaruTownrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6SureFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR6YukyCasirServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6YukyDng2rServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6YukyDungrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6YukyEtenrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6YukyHarlrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR7HikoSkyrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR7MadeTownrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR7MadeTwn2rServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR7RazeBossrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR7RazeFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeRpEtenTownServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Ren_r1000`                |                  Prologue - Humans                  |
-  | `eventTextIeRpHaguFldServer.win32.etp`                 |                                           Nameless Plains                                           |                  Prologue - Humans                  |
-  | `eventTextIeRpHikaRaceServer.win32.etp`                |                                          Realm of the Gods                                          |                  Prologue - Humans                  |
-  | `eventTextIeRpKiyoDungServer.win32.etp`                |                                           Clearwater Cave                                           |                  Prologue - Humans                  |
-  | `eventTextIeT1ApekTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeT1EjarTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeT2EasaTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeT3KarlTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeT4RushTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeT5MustTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeV1DaisTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeV2ZekuTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeV3BaruTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeV4FaraTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeV5JadiTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeV6GoraTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW1IreiFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeW1KoltFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeW1LaidFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeW1LeenTownServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Wed_w1000`                |                  Prologue - Weddie                  |
-  | `eventTextIeW1ShelFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeW1TiteDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW2AsobHousServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW2JureFldtServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW2JureIdo1Server.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                 Bottom of the Well                  |
-  | `eventTextIeW2JureLowsServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW2JureMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeW2JureStatServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW2JureTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW2LardFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeW2MuzeFldnServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW2MuzeFldsServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW2NekoBossServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW2NekoDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW2TienDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW3BonrFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeW3EienDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW3SiikBossServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW3SiikDungServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW3VarsFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeW3VeriCastServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW3VeriFldeServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW3VeriFldnServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW3VeriFldwServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW3VeriMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD     `              |                   Monster Tavern                    |
-  | `eventTextIeW3VeriTownServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextLiveBasyaServer.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextMainMessageServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextSysBookshelfsServer.win32.etp`               |                                                                                                     |            Interactable objects in world            |
-  | `eventTextSysQuestsServer.win32.etp`                   |                                                                                                     |            Interactable objects in world            |
-  | `eventTextSysWldcServer.win32.etp`                     |                                                                                                     |            Interactable objects in world            |
-  | `eventTextSysWlddwfcServer.win32.etp`                  |   `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_DOWAHU`    |          Interactable objects in Dwachakka          |
-  | `eventTextSysWldelfcServer.win32.etp`                  |    `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_ERUHU`    |           Interactable objects in Eltona            |
-  | `eventTextSysWldforcServer.win32.etp`                  |                                                                                                     |            Interactable objects in world            |
-  | `eventTextSysWldgencServer.win32.etp`                  |                                                                                                     |            Interactable objects in world            |
-  | `eventTextSysWldhsgcServer.win32.etp`                  |                                                                                                     |            Interactable objects in world            |
-  | `eventTextSysWldogrcServer.win32.etp`                  |     `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_OGA`     |           Interactable objects in Ogreed            |
-  | `eventTextSysWldpukcServer.win32.etp`                  |  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_PUKURIPO`   |          Interactable objects in Pukuland           |
-  | `eventTextSysWldrencServer.win32.etp`                  |     `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_REN`     |          Interactable objects in Lendersia          |
-  | `eventTextSysWldthrcServer.win32.etp`                  |                                                                                                     |            Interactable objects in world            |
-  | `eventTextSysWldvthcServer.win32.etp`                  |                                                                                                     |            Interactable objects in world            |
-  | `eventTextSysWldwedcServer.win32.etp`                  |    `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_WEDEY`    |            Interactable objects in Wena             |
-  | `eventTextSysWldzdncServer.win32.etp`                  |                                                                                                     |            Interactable objects in world            |
-  | `smldt_msg_pkg_NPC_DB.win32.etp`                       |                                   `Game.locres.json:STT_NpcInfo`                                    |                      NPC Names                      |
-  
-  </details>
 
 </details>
 

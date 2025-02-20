@@ -15,11 +15,9 @@
 > Negative potential consequences of an action.
 -->
 
-<!--
 > [!CAUTION]
 >
 > This is a work-in-progress build, so most things will be untranslated.
- -->
 
 # Installation
 
