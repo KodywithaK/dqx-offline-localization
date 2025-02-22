@@ -120,6 +120,9 @@ jobs:
       - name: UnrealPak -Create
         run: |
           for lang in de en es fr it ja ko zh-Hans zh-Hant; do \
+            cp -r ${{ github.workspace }}/test/staging/${lang}/Game/Content/NonAssets/ETP \
+            ${{ github.workspace }}/test/staging/${lang}/Game/Content/NonAssets/ETP_ko
+
             echo -e "::group::Creating \033[0;34m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m"
               ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
               "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak" \
@@ -136,13 +139,13 @@ jobs:
             echo -e "::group::Creating \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m"
               ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
               "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak" \
-              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-WindowsNoEditor_${lang}_Latest.pak.txt"
+              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-Switch_${lang}_Latest.pak.txt"
             echo "::endgroup::"
 
             echo -e "::group::Listing \033[0;32m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m"
               ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
               "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak" \
-              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-WindowsNoEditor_${lang}_Latest.pak.txt" \
+              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-Switch_${lang}_Latest.pak.txt" \
               -List
             echo "::endgroup::"
 
@@ -221,7 +224,8 @@ jobs:
           gh release create Multi-Languages \
           ${{ github.workspace }}/test/staging/releases/pakchunk0-Switch_*_Dialogue_Latest_P.pak.zip \
           ${{ github.workspace }}/test/staging/releases/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak.zip \
-          --notes-file ${{ github.workspace }}/test/dqx-offline-localization/docs/CHANGELOG.md
+          --notes-file ${{ github.workspace }}/test/dqx-offline-localization/docs/CHANGELOG.md \
+          --title "$(echo -e v$(date -u +%F ))"
 
           echo "Successfully uploaded new files to [Releases/Multi-Languages](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Multi-Languages)." >> $GITHUB_STEP_SUMMARY
           echo -e "\n::notice:: \033[0;32m Successfully uploaded new files to Latest release. \033[0m"
