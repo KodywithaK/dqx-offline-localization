@@ -1,8 +1,8 @@
 {
   "10002000": {
-    "$comments": "🟡",
+    "$comments": "🟡, following `eventTextCsO11Client.win32.json:50756`",
     "de": "",
-    "en": "Oops, that's right! Recently, I got this as a farewell\ngift, take it!<bw_break>",
+    "en": "Oops, that's right! Recently, I got this as a farewell gift,\ntake it!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -262,7 +262,7 @@
   "37063": {
     "$comments": "🟡",
     "de": "",
-    "en": "Beyond this point is the battlefield. This is\nthe sacred battlefield where the annual\nmartial arts tournament is held. The King of the Village is inside.",
+    "en": "Beyond this point is the battlefield. This is\nthe sacred battlefield where the annual\nmartial arts tournament is held. The Village King is inside.",
     "es": "",
     "fr": "",
     "it": "",
@@ -912,7 +912,7 @@
   "34331": {
     "$comments": "🟡",
     "de": "",
-    "en": "Not at all! My grandfather is always talking\nabout yakitori from morning till night. It's\nreally a problem.",
+    "en": "Jeez! That old man—from dawn to dusk—Yakitori's\nall he goes on about... Really, it's gotten to be a\nproblem.",
     "es": "",
     "fr": "",
     "it": "",
@@ -925,7 +925,7 @@
   "36292": {
     "$comments": "🟡",
     "de": "",
-    "en": "I've been researching the legendary monsters\nthat are sealed up all over the world. Now\nthat we have photo machines, it's easier to keep track of them.",
+    "en": "I have been researching legendary monsters that are\nsealed up all over the world. Now that we have cameras,\nit's easier to document them.",
     "es": "",
     "fr": "",
     "it": "",
@@ -951,7 +951,7 @@
   "85357": {
     "$comments": "🟡",
     "de": "",
-    "en": "I used to dabble in Pot Alchemy for a little\nwhile. The guildmaster was a strict man.",
+    "en": "In the old days, I used to dabble a bit with Pot\nAlchemy, y'know. The guildmaster was a strict man.",
     "es": "",
     "fr": "",
     "it": "",
@@ -975,9 +975,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>你真厲害耶！\n還以為你死了，沒想到又復活了！\n<br>\n不過，這樣你也見識到隆達冰穴有多可怕了吧。\n能在那種地方修行的，\n大概就只有武鬥大會冠軍的濟甘夫而已！"
   },
   "34311": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_002`",
     "de": "",
-    "en": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament. The\nVillage King is concerned about the safety of the village. If you <pc> notice\nanything, be sure to report it to the Village\nKing.",
+    "en": "This is the honorary champ of the Village Tournament,\nVillage King Cliffgain's, home.\n<br>\nThe Village King's concerned about the village's\nsafety. <pc>, if you happen to notice anything\ntoo, be sure to report it to him, got it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -988,9 +988,9 @@
     "zh-Hant": "這裡是武鬥大會的名譽冠軍──\n村王克里夫耿大人的住處。\n<br>\n村王大人一直留意著村子的安全。\n如果<pc>也發現到什麼不對勁，\n一定要向村王大人回報喔！"
   },
   "34313": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_002`",
     "de": "",
-    "en": "This is Maiyu's room. I heard you almost\ndied, but you look fine <pc>.",
+    "en": "This is Lady Maiyu's room. I heard that you almost\ndied, but you look healthy to me, <pc>.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1001,9 +1001,9 @@
     "zh-Hant": "這裡是梅優大人的房間。\n聽說你差點死了，\n但現在看起來很有精神嘛，<pc>。"
   },
   "34314": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_003`",
     "de": "",
-    "en": "This is Maiyu's room. Maiyu has an\nappointment. Don't stay too long.",
+    "en": "This is Lady Maiyu's room. She has an appointment, so\nbe sure not to stay too long.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1016,7 +1016,7 @@
   "34315": {
     "$comments": "🟡",
     "de": "",
-    "en": "<pc> doesn't know this, though. There\nwas a kind-hearted young man named Arold in\nthis village. This slope reminds me of him.\n<br>\nArold, Jiganf and Maiyu used to race each\nother to the top when we were kids. Arold\ncouldn't win no matter what he did, but Jiganf took care of him like a big brother. We were\nlike real brothers.",
+    "en": "<pc> doesn't know this, though. There\nwas a kind-hearted young man named Arold in\nthis village. This slope reminds me of him.\n<br>\nArold, Jiganf and Maiyu used to race each\nother to the top when we were kids.\n<br>\nArold couldn't win no matter what he did, but Jiganf\ntook care of him like a big brother. They were more\nlike actual siblings, than friends.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1027,9 +1027,9 @@
     "zh-Hant": "<pc>大概不知道吧。\n這個村子曾經有一個名叫\n阿洛德的溫和年輕人。\n<br>\n只要來到這個坡道就會讓我想起他。\n阿洛德和濟甘夫以及梅優小姐小時候\n經常比賽看誰最先跑上去呢。\n<br>\n阿洛德不管比什麼都贏不了，\n濟甘夫就像哥哥一樣照顧他。\n他們就像親兄弟一樣，感情非常好。"
   },
   "34316": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>Ogre's power is strong. That is why we must\nnot allow ourselves to be drowned by our\npower! We must not only strengthen our skills and our bodies, but also our minds! That is\nthe Ogre way of life and our pride! Be\ndiligent, <pc>.",
+    "en": "<attr><feel_angry_lv1><end_attr>An Ogre's power is strong. It's for that reason why\nwe must not allow ourselves to be drowned in that\npower!\n<br>\nWe must not only strengthen our skills, and bodies,\nbut also our minds! That is the Ogre way of life, and\nour pride! <pc>, be diligent.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1040,9 +1040,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>奧伽族的力量很強大。\n正因為如此，\n我們不能沉醉於自己的力量！\n<br>\n不單是技巧和體魄，還要磨練意志！\n這才是奧伽族應有的生存方式，才是我們的驕傲！\n<pc>也要精進自己喔。"
   },
   "34317": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_002`",
     "de": "",
-    "en": "This is Rangao Village, a village of ogres who\nput themselves in extremely cold conditions\nand strenuously strengthen themselves. Oh,\n<br>\nwow! <pc> You're safe! I was\nsurprised when Maiyu carried you in his\nlimp arms! Beyond the bridge to the west is the Rhonda Ice Cave, where there are some\nstrong monsters. You should have a beginner's\nweapon. Don't forget to equip yourself with them before you go out. If you're low level,\ntrain near the village!",
+    "en": "This is Rangao Village, a village where Ogres put them-\nselves through extremely cold conditions, to rigidly\ntemper themselves.\n<br>\nOoh, <pc>, you're safe! You were completely limp,\nwhen Maiyu carried you back; I was surpised!\n<br>\nOutside of here are the Rangao Mountains. Beyond the\nwestern bridge is Rhonda Ice Cave, where there are\nstrong monsters.\n<br>\nYou should have a beginner's weapon. Before you go\noutside, don't forget to go get some equipment, got\nit? While you're low level, train near the village!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1055,7 +1055,7 @@
   "34318": {
     "$comments": "🟡",
     "de": "",
-    "en": "This is Rangao Village, a village of ogres who\nlive in the extreme cold and strengthen\nthemselves severely. Beyond the bridge to the west is the Rhonda Ice Cave, where there are\nstrong monsters. You should have a beginner's\nweapon. Don't forget to equip them before you go out. If you're low level, train near the\nvillage!",
+    "en": "This is Rangao Village, a village where Ogres put them-\nselves through extremely cold conditions, to rigidly\ntemper themselves.\n<br>\nBeyond the bridge to the west is the Rhonda Ice Cave, where there are\nstrong monsters. You should have a beginner's\nweapon. Don't forget to equip them before you go out. If you're low level, train near the\nvillage!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1081,7 +1081,7 @@
   "34322": {
     "$comments": "🟡",
     "de": "",
-    "en": "Jiganf is a manly man and a fine man who is\nloved by everyone in the village. I don't\nthink it's just Jiganf, but Maiyu is also worried about Jiganf's change.",
+    "en": "Jiganf is a fine man, who is idolized by everyone in\nthe village. As such, when it comes to him... I believe\nLady Maiyu, too, is concerned about Jiganf's change.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1107,7 +1107,7 @@
   "34324": {
     "$comments": "🟡",
     "de": "",
-    "en": "Jiganf is my son. He's stubborn, competitive,\nand stubborn, but he's the most honest and\nkindest boy I know. Even now that people say that Jiganf will be the next King of the\nVillage, he's been training from morning till\nnight. But since about two years ago. She sometimes makes a scary face. That's Worrying.",
+    "en": "Jiganf is my son. He's stubborn, hates to lose, and\nis prideful, but he's the most sincere, kindest kid\nof anyone.\n<br>\nEven now that Jiganf is said to be the next Village\nKing, from morning to night, he does nothing but\ntrain.\n<br>\nBut, for about the past 2 years or so, y'know...\nHe sometimes makes a scary face, y'know. It worries\nme.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1118,9 +1118,9 @@
     "zh-Hant": "濟甘夫是我的兒子。\n雖然他既固執又不服輸，還很倔強，\n但是個比任何人都認真的溫柔孩子。\n<br>\n雖然現在大家都說\n下任村王非濟甘夫莫屬，\n但他還是從早到晚都在修行。\n<br>\n不過，大約從２年前開始……\n那孩子有時會露出可怕的表情。\n這讓我有一點擔心。"
   },
   "34325": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_002`",
     "de": "",
-    "en": "I'm busy, busy, busy. We're going to have a\nguest soon. Maiyu is going to marry the most\npowerful man in the village as the daughter of the Village King, just like her father wanted.\nIf she's invited her childhood friend, Jiganf,\nto the house, maybe she'll tell him about her marriage to the champion of the tournament,\nJiganf.",
+    "en": "Haa, busy, busy. Soon, a guest is coming.\n<br>\nLady Maiyu is—as her father wishes—going to marry\nthe strongest man in the village, as is expected of\nthe Village King's daughter.\n<br>\nIf she's invited her childhood friend and reigning\nchampion of the martial arts tournament, Jiganf, to\nthe house, it may be to tell him about their marriage.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1131,9 +1131,9 @@
     "zh-Hant": "哎呀，好忙好忙。\n客人馬上就要來了喔。\n<br>\n梅優大人成全了父親的願望，\n似乎打算以村王女兒的身分，\n和村裡最強的男人結婚。\n<br>\n她把兒時玩伴的那個人叫到家裡，\n或許就是要告訴對方自己要和\n武鬥大會的冠軍濟甘夫先生結婚。"
   },
   "34326": {
-    "$comments": "🟡",
+    "$comments": "🟡, ",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>What is it? This is my private room. No one\nbut me is allowed in here. I can't relax when\nyou're here. I'll give you this, so get out of here as soon as possible.",
+    "en": "<attr><feel_angry_lv1><end_attr>Wh-what is it? This is my private room. No one but\nme's allowed in. With you here, I can't relax. I'll\ngive you this so you'll hurry up and leave.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1146,7 +1146,7 @@
   "34327": {
     "$comments": "🟡",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>Mm-hmm. You're still here. Perhaps you still\nwant something?<yesno><break>",
+    "en": "<attr><feel_angry_lv1><end_attr>Mmm. Still here, huh. Maybe you still want something,\nyeah?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1159,7 +1159,7 @@
   "34328": {
     "$comments": "🟡",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>I can't help it. I'm a man, too. A man has to\nbe generous. I'll give you this too, so get\nthe hell out of here.",
+    "en": "<attr><feel_angry_lv1><end_attr>Can't be helped, huh; I'm a man after all. A man has\nto be generous, don't he. I'll give you this so\nyou'll hurry up and leave.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1211,7 +1211,7 @@
   "34332": {
     "$comments": "🟡",
     "de": "",
-    "en": "The Village King had always said that if he\nwanted to marry off his daughter, Maiyu, to\nthe most powerful man in the village. The man to whom Maiyu will marry must be Jiganf, who\nhas been the reigning champion of the village\nmartial arts tournament for five years.",
+    "en": "Since long ago, the Village King has said that he'd\nmarry off his daughter, Maiyu, to the strongest man\nin the village.\n<br>\nMaiyu's husband-to-be has been decided to be the\nreigning champion of the village's martial arts\ntournament 5 years over, Jiganf.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1224,7 +1224,7 @@
   "34333": {
     "$comments": "🟡",
     "de": "",
-    "en": "Gahaha! <pc> I heard! I heard that\nyou came back from the dead! Even the Maiyu\nguy was surprised. By the way,\n<br>\n<pc>. I just had a question I\nwanted to ask you. What do you think of\nJiganf, who showed overwhelming strength in the recent martial arts tournament and became\nthe champion for the fifth year in a row? Do\nyou think he's been acting strange lately?<yesno><break>",
+    "en": "GAHAHA! <pc>, I heard! Seems that you came back\nfrom the dead! Even Maiyu was surprised.\n<br>\n...By the way, <pc>, I just so happen to want\nto hear from you about something.\n<br>\nThe one who displayed overwhelming strength at the\nmartial arts tournament the other day, the reigning\nchamp of the past 5 years, Jiganf.\n<br>\nWhat do you think of him? Lately, don't you think\nhe's been acting odd or something?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1235,9 +1235,9 @@
     "zh-Hant": "哇哈哈！<pc>，我聽說了喔！\n聽說你明明死了，卻又復活了啊！\n梅優也嚇了一大跳呢。\n<br>\n……話說回來，<pc>。\n我剛好有事情想問你。\n<br>\n關於前些日子在武鬥大會上技壓群雄，\n蟬聯５年冠軍的濟甘夫，\n你覺得他怎麼樣？不覺得他最近有點怪嗎？<yesno><break>"
   },
   "34334": {
-    "$comments": "🟡",
+    "$comments": "🟡, `34333`:YES",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>I see. After all, you think so too.<bw_break>",
+    "en": "<attr><feel_think_lv1><end_attr>I see.... I knew it, you think so too, huh.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1248,9 +1248,9 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>這樣啊……\n果然你也這麼認為嗎。<bw_break>"
   },
   "34335": {
-    "$comments": "🟡",
+    "$comments": "🟡, `34333`:NO",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>Hmm, I see. I hope I'm just imagining things,\nbut it's been bothering me.<bw_break>",
+    "en": "<attr><feel_think_lv1><end_attr>Hmm, I see... If I'm overthinking that's fine, but for\nsome reason, I'm worried.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1263,7 +1263,7 @@
   "34336": {
     "$comments": "🟡",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Jiganf is stronger and more popular than\nanyone in the village. I had planned to\nappoint him as the next king of the village and put him in charge of Maiyu. But something\nis not right with Jiganf these days. I can't\nexplain it well, but I feel a sense of disquiet that I didn't feel in Jiganf before.\n<pc>, if you notice anything about Jiganf, please\nlet me know. I'm counting on you!",
+    "en": "<attr><feel_normal_lv1><end_attr>Jiganf is stronger, and more popular than anyone in\nthe village. I had planned to appoint him as the next\nVillage King, and entrust Maiyu to him.\n<br>\nBut there's something off about the Jiganf of late.\nI can't quite explain it, but he has a threatening\naura that I never felt from him before.\n<br>\n<pc>, if you notice anything about Jiganf,\nplease let me know. I'm counting on you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1276,7 +1276,7 @@
   "34337": {
     "$comments": "🟡",
     "de": "",
-    "en": "There is something wrong with Jiganf these\ndays. I can't describe it, but I'm sensing\nsomething disturbing that I haven't seen in Jiganf before. I've called in some help just\nin case, but if <pc> notices anything\nabout Jiganf, please let me know. Thanks!",
+    "en": "For some reason, something's off about the Jiganf of\nlate. I can't quite explain it, but he has a threaten-\ning aura that I never felt from him before.\n<br>\nIn the 1,000,000:1 chance something is, I called for\nbackup, but, <pc>, if you notice anything\nabout Jiganf, please let me know. I'm counting on you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1365,9 +1365,9 @@
     "zh-Hant": "前方是村子的武鬥場。\n是每年舉辦武鬥大會的神聖地點。\n也是村裡的孩子們開始修行的地方。\n<br>\n然後，差不多能參加實戰的人，\n要去和村外的怪物戰鬥，\n以此提升自己的等級。\n<br>\n要先能輕易戰勝這附近的敵人之後，\n才能去隆達冰穴一試身手。\n……對<pc>來說似乎還言之過早。"
   },
   "34343": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_002`",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>Yeah? Did you say Ethene Village? I've never\nheard of it. You must have had a funny dream\nwhen you almost died. Excuse me? You don't know yourself well? Well, for now, just relax\nand talk to the villagers. You'll remember who\nyou are in time. You'll remember who you are in time. Just go thank Maiyu later, okay? She\nmust have gone through a lot of trouble to\nbring it here. As you know, Maiyu is the daughter of the Village King. Her house is\nacross the bridge next to the Armor Shop,\nwhich has a sign of a yoroi (armor). Say hello to the Village King.",
+    "en": "<attr><feel_think_lv1><end_attr>Umm? You said Ethene Village, yeah? Never heard of it.\nYou must have had a funny dream when you were dying.\n<br>\n...What'd you say? You don't know much about yourself?\nWell, for today, just relax and talk to the villagers.\nBefore long, you'll remember who you are.\n<br>\nOh yeah... You can do that later, how about you go say\nthanks to Maiyu? She must've been so worried carrying\nyou back here, you know.\n<br>\nAs we know, Maiyu is the Village King's daughter.\nTheir home is across the bridge, next to the Armor\nShop.\n<br>\nSay hello to the Village King too, while you're there.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1391,28 +1391,28 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>聽說你弄丟魯拉石了？\n那可是很難取得的貴重物品啊。\n<br>\n使用它就能瞬間傳送到記錄過的地點，\n是很厲害的石頭。對<pc>這樣的\n修行者來說是不可或缺的。\n<br>\n勸你在被別人撿走前，\n趕快找到它吧。也要仔～細找找\n西邊的隆達冰穴裡面喔！"
   },
   "34345": {
-    "$comments": "🟡",
-    "de": "",
-    "en": "<pc> received <%sEV_ITEM>!<se_nots System Item>",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "$comments": "🟢, see `34326`, `Game.locres.json:STT_CommonItem.NAME_ID_ITEM_USED_YAKUSOU`",
+    "de": "<pc> hat das <%sEV_ITEM> erhalten!<se_nots System Item>",
+    "en": "<pc> obtained the <%sEV_ITEM>!<se_nots System Item>",
+    "es": "<pc> ha obtenido la <%sEV_ITEM>!<se_nots System Item>",
+    "fr": "<pc> a obtenu la <%sEV_ITEM>!<se_nots System Item>",
+    "it": "<pc> ha ottenuto la <%sEV_ITEM>!<se_nots System Item>",
     "ja": "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>",
     "ko": "{pc}|hpp(은,는)\n{%sEV_ITEM}|hpp(을,를) 손에 넣었다!<se_nots System Item>",
-    "pt-BR": "",
+    "pt-BR": "<pc> tem obtido a <%sEV_ITEM>!<se_nots System Item>",
     "zh-Hans": "<pc>获得了\n<%sEV_ITEM>！<se_nots System Item>",
     "zh-Hant": "<pc>獲得了\n<%sEV_ITEM>！<se_nots System Item>"
   },
   "34346": {
-    "$comments": "🟡",
-    "de": "",
-    "en": "<pc> received <%sEV_ITEM2>!<se_nots System Item>",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "$comments": "🟢, see `34328`, `Game.locres.json:STT_CommonItem.NAME_ID_ITEM_USED_DOKUKESISOU`",
+    "de": "<pc> hat das <%sEV_ITEM2> erhalten!<se_nots System Item>",
+    "en": "<pc> obtained the <%sEV_ITEM2>!<se_nots System Item>",
+    "es": "<pc> ha obtenido la <%sEV_ITEM2>!<se_nots System Item>",
+    "fr": "<pc> a obtenu la <%sEV_ITEM2>!<se_nots System Item>",
+    "it": "<pc> ha ottenuto la <%sEV_ITEM2>!<se_nots System Item>",
     "ja": "<pc>は\n<%sEV_ITEM2>を　手に入れた！<se_nots System Item>",
     "ko": "{pc}|hpp(은,는)\n{%sEV_ITEM2}|hpp(을,를) 손에 넣었다!<se_nots System Item>",
-    "pt-BR": "",
+    "pt-BR": "<pc> tem obtido a <%sEV_ITEM2>!<se_nots System Item>",
     "zh-Hans": "<pc>获得了\n<%sEV_ITEM2>！<se_nots System Item>",
     "zh-Hant": "<pc>獲得了\n<%sEV_ITEM2>！<se_nots System Item>"
   },
@@ -1445,7 +1445,7 @@
   "34425": {
     "$comments": "🟡",
     "de": "",
-    "en": "This is the Village King's room. The\nVillage King is a man who has won many\nchampions in past martial arts tournaments.",
+    "en": "This is the Village King's room. The Village King is\na man who was champion in many of the past martial\narts tournaments.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1471,7 +1471,7 @@
   "34352": {
     "$comments": "🟡",
     "de": "",
-    "en": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament.",
+    "en": "This is the honorary champ of the Village Tournament,\nVillage King Cliffgain's, home.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1482,9 +1482,9 @@
     "zh-Hant": "這裡是武鬥大會的名譽冠軍，\n村王克里夫耿大人的住處。"
   },
   "34353": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_006`",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>It seems it was the Village King who called\nArold back to the village. I wonder why he\ncalled Arold back?",
+    "en": "<attr><feel_think_lv1><end_attr>It seems the Village King has called Arold back to\nthe village. I wonder why he did that?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1495,9 +1495,9 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>似乎是村王把阿洛德叫回村子的。\n他為什麼要把阿洛德叫回來呢？"
   },
   "34354": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_006`",
     "de": "",
-    "en": "This is Rangao Village, a village of ogres who\nput themselves in the extreme cold and\nstrenuously strengthen themselves. Arold is back. Come to think of it, you don't know\nanything about him, do you? He was a childhood\nfriend of Maiyu and Jiganf. He went on a training trip two years ago, but the village\nking called him to come back.",
+    "en": "This is Rangao Village, a village where Ogres put them-\nselves through extremely cold conditions, to rigidly\ntemper themselves.\n<br>\n...Speaking of, come to think of it, you don't know\nanything about him, do you. He's a childhood friend\nof Maiyu and Jiganf.\n<br>\n2 years ago, he went on a training trip, but it looks\nlike the Village King wanted him to come back.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1521,9 +1521,9 @@
     "zh-Hant": "梅優大人成全了父親的願望，\n似乎打算以村王女兒的身分，\n和村裡最強的男人結婚。\n<br>\n她把兒時玩伴的那個人叫到家裡，\n或許就是要告訴對方自己要和\n武鬥大會的冠軍濟甘夫先生結婚。"
   },
   "34356": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_006`",
     "de": "",
-    "en": "Arold has always been a bit timid or gentle as\na child, but he never did anything about it,\neven when people made fun of him. Maiyu used to save him from the bad kids. \"Don't bully\nArold,\" she would say! She used to say.",
+    "en": "Since Arold was a kid, he's always been timid, or\nshould I say gentle—anyways, even when he was\nteased, he wouldn't do anything about it, y'know.\n<br>\nLady Maiyu always had to save him from those brats.\n\"Don't bully Arold!\", she'd say!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1534,9 +1534,9 @@
     "zh-Hant": "阿洛德自幼就不知道\n該說是懦弱還是溫柔，\n總之他被戲弄也不會反抗。\n<br>\n以前梅優大人經常從一群\n壞孩子手中解救阿洛德。\n她總是說「不要欺負阿洛德！」。"
   },
   "47567": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_006`",
     "de": "",
-    "en": "Hello. I see that you have Zoomstone. Let me\nexplain how to use it. The Zoomstone is a\nstone with a very wonderful magic power that allows you to fly to the place you memorized\nin no time at all. Once you visit a town,\nvillage, or church, it will automatically be memorized, and Rangao Village should already\nbe there. You can memorize as many places as\nyou want, so the more you memorize, the more places you can fly to. You can also use\nZoomstone to memorize the mysterious stone\nmonuments in the field or at the entrance of Dan Jon. You can use the Zoomstone from the\n\"item\" menu. Frequently visited places are<emoji SpecialRight>You can also register it in your favorites at",
+    "en": "Hello. You have a Zoomstone, don't you. Then allow me\nto explain how to use it.\n<br>\nZoomstones are able to instantly fly one to a memorized\nlocation; they're stones with a very wonderful magic\npower contained within them.\n<br>\nOnce you have visit a town, village, et cetera's\nchurch, it will automatically be memorized. Rangao\nVillage should already be too.\n<br>\nYou can memorize as many places as you want, so the\nmore you memorize, the more places you can instantly\nfly to.\n<br>\nAlso, at some fields and dungeon entrances are the\nmysterious \"Zoomethysts\" that can be memorized.\n<br>\nYou can use the Zoomstone from the \"Items\" menu.\nYou can save places you often visit with <emoji SpecialRight> to your\nfavorites too; please try it out, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1549,7 +1549,7 @@
   "47568": {
     "$comments": "🟡",
     "de": "",
-    "en": "The Zoomstone is a stone with a wonderful\nmagic power that allows you to fly to the\nplace you memorized in no time at all. Once you visit a town or village with a church, it\nwill be automatically memorized, so Rangao\nVillage should already be there. You can memorize as many places as you want, so the\nmore you memorize, the more places you can fly\nto. You can also use Zoomstone to memorize the mysterious stone monuments in the field or at\nthe entrance of Dan Jon. You can use the\nZoomstone from the \"item\" menu. Frequently visited places are<emoji SpecialRight>You can also register it in your favorites at",
+    "en": "Zoomstones are able to instantly fly one to a memorized\nlocation; they're stones with a very wonderful magic\npower contained within them.\n<br>\nOnce you have visit a town, village, et cetera's\nchurch, it will automatically be memorized. Rangao\nVillage should already be too.\n<br>\nYou can memorize as many places as you want, so the\nmore you memorize, the more places you can instantly\nfly to.\n<br>\nAlso, at some fields and dungeon entrances are the\nmysterious \"Zoomethysts\" that can be memorized.\n<br>\nYou can use the Zoomstone from the \"Items\" menu.\nYou can save places you often visit with <emoji SpecialRight> to your\nfavorites too; please try it out, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1560,9 +1560,9 @@
     "zh-Hant": "魯拉石是一種蘊含強大魔力的石頭，\n使用它就可以瞬間傳送到\n已經記錄過的地點。\n<br>\n市鎮與村莊等有教會的地方，\n只要去過一次就會自動被記錄下來。\n蘭加奧村應該也已經被記錄在其中了。\n<br>\n由於能記錄的數量沒有上限，\n讓魯拉石記錄越多地點，\n能夠傳送的地點就會越多。\n<br>\n另外，還可以讓魯拉石\n記錄在原野上與迷宮入口處的\n神奇石碑喔。\n<br>\n你可以從「道具」選項中使用魯拉石。\n常去的地點還可以用<emoji SpecialRight>\n設定為我的最愛，請務必試試看。"
   },
   "34357": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_006`",
     "de": "",
-    "en": "Did you find Zoomstone? Good for you! Try it\nout on the \"items\" page! It should remember\nthis village. If you don't understand, ask Piriri at the church. She knows a lot about\nZoomstone! What? Have you seen a strange\nJiganf at Rhonda Cape? You'd better hurry up and report anything important like that to the\nVillage King!",
+    "en": "Did you find your Zoomstone? I'm glad, y'know! Try it\nout by using it from the \"items\" menu! It should have\nthis village saved in it.\n<br>\nIf you don't understand, listen to Piriri in the\nchurch. She knows a lot about Zoomstones, y'konw!\n<br>\n......Eh? At Rhonda Cape you saw Jiganf in a strange\nsituation? A story like that's important, hurry up\nand report it to the Village King!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1573,9 +1573,9 @@
     "zh-Hant": "你找到魯拉石了？太好了呢！\n你試著在「道具」中使用看看吧！\n這個村子應該已經被記錄下來了才對。\n<br>\n如果不太清楚怎麼用，\n就去問問教會的碧莉莉吧。\n她很了解魯拉石！\n<br>\n……咦？\n你在隆達海角看到了形跡可疑的濟甘夫？\n這麼重要的事情要趕緊向村王回報啊！"
   },
   "34358": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_006`",
     "de": "",
-    "en": "Oh, <pc>. You have urgent business\nwith the Village King? Then go into your room.",
+    "en": "Ooh, <pc>. You have urgent business with the\nVillage King? Then go right in.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1586,9 +1586,9 @@
     "zh-Hant": "喔喔，<pc>。\n你有急事要找村王大人嗎？\n那就趕快進屋吧。"
   },
   "34359": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_007`",
     "de": "",
-    "en": "Thinking back, Arold started his training\nright after he lost to Jiganf in a martial\narts tournament two years ago. I don't know what kind of training Arold has been doing,\nbut I don't think he can match Jiganf yet.",
+    "en": "Thinking back, Arold started his training trip right\nafter he lost to Jiganf in the martial arts tournament\n2 years ago.\n<br>\nI don't know what kind of training Arold's been doing\nup to now, but he's probably still no match for Jiganf.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1601,7 +1601,7 @@
   "34360": {
     "$comments": "🟡",
     "de": "",
-    "en": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament.",
+    "en": "This is the honorary champ of the Village Tournament,\nVillage King Cliffgain's, home.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1612,9 +1612,9 @@
     "zh-Hant": "這裡是武鬥大會的名譽冠軍，\n村王克里夫耿大人的住處。"
   },
   "34361": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_007`",
     "de": "",
-    "en": "I thought it was unusual for Maiyu to go to\nthe battlefield, but I guess he was meeting up\nwith Arold. Now all we need is for Jiganf to arrive and we'll have the three best friends\nfrom childhood!",
+    "en": "I thought it was unusual for Maiyu to go to the\nmartial arts arena, but I guess she's meeting up with\nArold.\n<br>\nNow all that left is for Jiganf to arrive, then all\n3 childhood best friends will here!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1625,9 +1625,9 @@
     "zh-Hant": "我還想說梅優小姐居然會去武鬥場，\n怎麼這麼稀奇，\n結果是去和阿洛德碰面啊。\n<br>\n只要等濟甘夫一來，\n兒時玩伴的好友三人組就齊聚一堂了呢！"
   },
   "34362": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_007`",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>I saw Maiyu a while ago, but she seemed to be\nin low spirits. Is she worried about\nsomething?",
+    "en": "<attr><feel_think_lv2><end_attr>A while ago, I saw Little Maiyu, but she seemed to be\nin low spirits, no. Is she worried about something?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1638,9 +1638,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>我剛才看到了梅優，\n但她看起來沒什麼精神呢。\n是不是有什麼心事？"
   },
   "34363": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_007`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Arold's coming back, it looks like Maiyu and\nJiganf's wedding might be finally coming soon.\nI'm sure Maiyu is anxious about her upcoming wedding, but I'm sure she will be relieved to\nsee her childhood friend Arold's face.",
+    "en": "<attr><feel_happy_lv1><end_attr>What's with Arold coming back—finally, Little\nMaiyu and Jiganf's wedding must be soon, ain't it.\n<br>\nEven Lil Maiyu's gotta be anxious about her upcoming\nwedding, but when she see her childhood friend,\nArold's, face, I'm sure she'll be relieved, y'know.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1664,9 +1664,9 @@
     "zh-Hant": "門扉緊閉著。"
   },
   "34365": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_007`",
     "de": "",
-    "en": "Beyond this point is the battlefield. It is a\nsacred battlefield where martial arts\ntournaments are held every year. Maiyu and Arold are inside.",
+    "en": "Beyond this point is the amrtial arts arena. Every\nyear, the martial arts tournament is held in this\nsacred battlefield.\n<br>\nIf you're after Maiyu and Arold, they're inside.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1677,9 +1677,9 @@
     "zh-Hant": "前方是武鬥場。\n這裡每年都會舉辦武鬥大會，是神聖的戰場。\n梅優和阿洛德就在裡面喔。"
   },
   "34366": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_007`",
     "de": "",
-    "en": "Hmmm. It seems that the wimpy Arold has gotten\na little better on his training trip. But\ncompared to Jiganf, he still has a long way to go.",
+    "en": "Hmmm. Looks like even wimpy Arold has gotten a little\nbetter on his training trip, y'know. But compared to\nJiganf, he still got a long way to go.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1690,9 +1690,9 @@
     "zh-Hant": "喔～看來膽小鬼阿洛德\n經過修行之旅後，變得稍微厲害一點了。\n但跟濟甘夫先生相比還差得遠呢。"
   },
   "34367": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_007`",
     "de": "",
-    "en": "<pc>. Looks like Jenya kicked you to\nthe curb. She's not as tough as she seems. I\nheard that Arold in the Village Arena told you to say hello to him. Maybe the Village King is\nmore interested in you than I thought. The\nbattlefield is in this village. If you go up the hill to the north from the plaza, you will\nreach the sacred battlefield.",
+    "en": "<pc>. Looks like Jenya kicked you out. That\ngirl's attitude doesn't match her.\n<br>\n...Oh, did he tell you to go pay Arold a visit in the\nvillage arena? That's unexpected, maybe the Village\nKing sees something in you.\n<br>\nThe arena's in the village. From the square, if you\ngo north up the hill, you'll reach the sacred battle\nfield... The martial arts arena.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1703,9 +1703,9 @@
     "zh-Hant": "<pc>。\n看樣子你被潔妮亞趕出來了啊。\n那孩子的脾氣可不好惹。\n<br>\n……喔？村王要你去村子裡的\n武鬥場跟阿洛德打招呼？\n沒想到你意外地深得村王的賞識呢。\n<br>\n武鬥場就在這個村子裡。\n從廣場往北邊的坡道走上去，\n就能抵達神聖的戰場……武鬥場了。"
   },
   "34368": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_008`",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>Hmmm. The Maiyu-sama has not returned. I\nwonder if there is some kind of incident.",
+    "en": "<attr><feel_think_lv2><end_attr>Hmm... Lady Maiyu has not returned. The Village King,\ntoo, has yet to return, so I hope nothing unexpected\nincident occurred.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1716,9 +1716,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>嗯……\n梅優大人還沒有回來。\n<br>\n村王大人也還沒回來，\n難不成是發生了什麼事件？"
   },
   "34369": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_008`",
     "de": "",
-    "en": "<attr><feel_angry_lv2><end_attr>Surprise, surprise, surprise! A black guy\njumped over the mountain carrying Maiyu!",
+    "en": "<attr><feel_angry_lv2><end_attr>WH-WH-WH-WHOA! Some dark thing\ncarrying Maiyu jumped over the mountains!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1729,9 +1729,9 @@
     "zh-Hant": "<attr><feel_angry_lv2><end_attr>嚇、嚇、嚇、嚇死我了！\n有個黑漆漆的東西抱著梅優小姐，\n越過那座山跑走了！"
   },
   "34370": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_007`",
     "de": "",
-    "en": "<attr><feel_angry_lv2><end_attr>The noble champion Jiganf has signed a\ncontract with Demon Zongalon? He's a legendary\nmonster that was sealed away by a thousand Ogres working together long ago.\n<pc>! Get to Rhonda Cape where Jiganf\nis headed before it's too late! And don't forget to be prepared!",
+    "en": "<attr><feel_angry_lv2><end_attr>Th-the noble champion Jiganf signed a contract with\nthe Demon Zongalon!?\n<br>\nThat thing's a legendary monster who, in the distant\npast, took the collective power of 1000 Ogres to seal\naway.\n<br>\n<pc>! Before it's too late, get to Rhonda Cape\nwhere Jiganf is headed! And don't forget to be\nproperly prepared!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1742,9 +1742,9 @@
     "zh-Hant": "<attr><feel_angry_lv2><end_attr>那……那位高尚的冠軍濟甘夫，\n居然和惡鬼宗伽隆締結了契約！？\n<br>\n那傢伙可是在很久以前，\n由１０００名奧伽合力封印的傳說中的怪物。\n<br>\n<pc>！在事情變得無法挽回之前，\n你快去濟甘夫前往的隆達海角！\n切記要做好萬全的準備再去！"
   },
   "34371": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_008`",
     "de": "",
-    "en": "This is Rangao Village. It is a village of\nOgres who have to strenuously strengthen\nthemselves in the extreme cold. It seems that the Village King and Arold are running west\ntoward the Rhonda Ice Cave. The Village King\nis always young, no matter how old he is!",
+    "en": "This is Rangao Village, a village where Ogres put them-\nselves through extremely cold conditions, to rigidly\ntemper themselves.\n<br>\nThe Village King and Arold ran west towards Rhonda\nIce Cave, it seems. The Village King—no matter\nhow old he gets—is always youthful!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1755,9 +1755,9 @@
     "zh-Hant": "這裡是蘭加奧村。\n是奧伽們為了在嚴寒之地\n進行艱苦的修行所建造的村子。\n<br>\n村王和阿洛德似乎朝著\n西邊的隆達冰穴跑去了。\n村王無論幾歲都跟年輕人一樣呢！"
   },
   "34372": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_007`",
     "de": "",
-    "en": "I Jiganf, I know how you feel. When fighting,\nit's polite to give each other your all. It is\na terrible humiliation to be left out.",
+    "en": "I see where Jiganf's coming from. During battle, it's\npolite to give each other your all. Going easy on\nsomeone is heartless humiliation.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1768,9 +1768,9 @@
     "zh-Hant": "我可以理解濟甘夫先生的心情。\n戰鬥時彼此都全力以赴才是禮儀。\n被對方放水的話，是一種極大的侮辱。"
   },
   "34373": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_008`",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>I saw Jiganf and told him that Arold had\nreturned. Jiganf looked really scared and ran\nto the fighting arena.",
+    "en": "<attr><feel_think_lv2><end_attr>I saw Jiganf, so I brought up that Arold had returned.\nThen Jiganf, with a frighteningly scary face, ran off\nto the arena.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1781,9 +1781,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>因為我剛才看到了濟甘夫，\n就告訴他阿洛德已經回來了。\n<br>\n結果濟甘夫一臉凶惡地\n朝著武鬥場跑過去了。"
   },
   "34374": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_008`",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>There was a lot of noise around the\nbattlefield. Most likely some kind of monster\ncame out. It happens from time to time.",
+    "en": "<attr><feel_think_lv1><end_attr>There was a lot of noise around the arena, no.\nProbably just a monster that showed up. Well, from\ntime to time, it happens.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1794,9 +1794,9 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>武鬥場那邊吵吵鬧鬧的。\n大概是怪物出現了吧。\n不過，這也不是什麼罕見的事。"
   },
   "34375": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_008`",
     "de": "",
-    "en": "<attr><feel_angry_lv2><end_attr>What the hell is going on? Jiganf came back\nand the three childhood friends were just\nabout to be together at last. There are screams coming from the battlefield, and the\nVillage King and Arold are running away from\nthe village!",
+    "en": "<attr><feel_angry_lv2><end_attr>What in the world is going on? Just when Jiganf came\nback, and—finally—the 3 childhood friends were\nabout to be together.\n<br>\nThere were screams coming from the arena, then the\nVillage King and Arold flew outta the village—\nnot all the mood for reuniting with childhood friends!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1807,9 +1807,9 @@
     "zh-Hant": "<attr><feel_angry_lv2><end_attr>到底發生了什麼事？\n好不容易濟甘夫也回來，\n三個兒時玩伴終於湊到一起。\n<br>\n但武鬥場那邊傳來慘叫聲，\n村王和阿洛德也奔出了村子，\n根本不是兒時玩伴重逢的氣氛啊！"
   },
   "34376": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_008`",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>There was a commotion in the arena. Are you\nall right? The Village King and Arold are\nrunning out of here looking for trouble.",
+    "en": "<attr><feel_angry_lv1><end_attr>Sounded like there was a commotion in the arena, is\neverything alright? The Village King and Arold flew\nout of there looking unusually serious.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1820,9 +1820,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>武鬥場那邊似乎發生了騷動，沒事吧？\n村王和阿洛德神情非比尋常地跑出了村子。"
   },
   "34377": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_008`",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>Hey, isn't there a bad vibe here? I could hear\nMaiyu's screams and Jiganf's yells. No way! A\nlove triangle! Jiganf and Arold are rivals?\n<br>\nOh,my gosh, what's going to happen~<heart>",
+    "en": "<attr><feel_think_lv1><end_attr>Hey, there's kind of a bad vibe, isn't there? I heard\nMaiyu scream and Jiganf yelling.\n<br>\nNo... No way, a love triangle!? Jiganf and Arold are\nrival lovers? Kyaaah, I wonder what's going to\nhappeeen <heart>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1833,9 +1833,9 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>我說，氣氛是不是有點不妙？\n我聽到了梅優小姐的慘叫聲\n還有濟甘夫先生的怒吼聲耶。\n<br>\n該……該不會是三角戀！？\n濟甘夫先生和阿洛德是情敵？\n哇～這下該如何是好～<heart>"
   },
   "34378": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_008`",
     "de": "",
-    "en": "Jenya left with a relieved look on her face.\nThe Village King must have given her a\ngenerous allowance. She's a good girl!",
+    "en": "If you're after Jenya, she looked pretty happy with\nherself and left. The Village King probably gave her\na generous allowance. Good for them!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1846,9 +1846,9 @@
     "zh-Hant": "潔妮亞剛才一臉開心地出去了。\n應該是村王大人給了她很多零用錢吧。\n她真是機伶呢！"
   },
   "34379": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_010`",
     "de": "",
-    "en": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament.\n<pc>. The King of the Village is waiting for you.",
+    "en": "This is the honorary champ of the Village Tournament,\nVillage King Cliffgain's, home. <pc>, the\nVillage King is waiting for you, got it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1859,9 +1859,9 @@
     "zh-Hant": "這裡是武鬥大會的名譽冠軍，\n村王克里夫耿大人的住處。\n<pc>。村王大人等你很久了喔。"
   },
   "34380": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_010`",
     "de": "",
-    "en": "The Maiyu has returned safely! Well done,\n<pc>! Now, go to the King of the\nVillage's room!",
+    "en": "Lady Maiyu has safely returned! That's quite the feat,\neh, <pc>! Now, it's best you go to the\nVillage King's room!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1872,9 +1872,9 @@
     "zh-Hant": "梅優大人平安無事地回來了！\n你立下大功了呢，<pc>！\n來，快去村王大人的房間吧！"
   },
   "34381": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_010`",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>I heard Maiyu came back safe and sound.\nI'm glad to hear that!",
+    "en": "<attr><feel_happy_lv2><end_attr>Maiyu came back safely, it seems, huh. Well, I'm glad\nto hear that, y'know!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1885,9 +1885,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>梅優小姐似乎平安歸來了。\n哎呀，真是太好了！"
   },
   "34382": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_010`",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>What? That white light brought Jiganf back to\nhis senses and sealed Demon Zongalon once\nagain? What a miracle! I guess the gods of war saw Jiganf's loyalty and saved him!",
+    "en": "<attr><feel_angry_lv1><end_attr>...What? That white light brought Jiganf back to his\nsenses, and sealed Demon Zongalon once again?\n<br>\nWhat a miracle...! I'm sure the God of War saw Jiganf's\nloyalty, and saved him, huh!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1898,9 +1898,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>……什麼？\n那道白光讓濟甘夫恢復了理智，\n並且將惡鬼宗伽隆再次封印了？\n<br>\n這是何等的奇蹟……！\n一定是戰神看在濟甘夫忠誠的份上，\n拯救了他！"
   },
   "34383": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_010`",
     "de": "",
-    "en": "This is Rangao Village. It is the village of\nthe Ogres, who live in the extreme cold and\nstrengthen themselves severely. The village kings have all returned. Jiganf looked very\ntired.",
+    "en": "This is Rangao Village, a village where Ogres put them-\nselves through extremely cold conditions, to rigidly\ntemper themselves.\n<br>\nThe Village King and everyone have all returned.\nJiganf was pretty worn-out, huh.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1911,9 +1911,9 @@
     "zh-Hant": "這裡是蘭加奧村。\n是奧伽們為了在嚴寒之地進行\n艱苦的修行所建造的村子。\n<br>\n村王他們一起回來了。\n濟甘夫看起來非常疲憊。"
   },
   "34384": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_010`",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>A true white light fell from the sky and we\nall found ourselves in the light. It was a\nwarm light. There was a bit of a commotion,\n<br>\nwondering what it was all about.",
+    "en": "<attr><feel_think_lv1><end_attr>A bright white light shined down from the sky, and\nwe all noticed it.\n<br>\nIt was a warm light... It caused a bit of a ruckus, with\neveryone talking about what happened.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1937,9 +1937,9 @@
     "zh-Hant": "前方是村子的武鬥場喔。\n只要是蘭加奧村出生的人，\n都有對武鬥場的回憶。"
   },
   "34386": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_010`",
     "de": "",
-    "en": "Jiganf's face was calm as if possessed. I\nhaven't seen that kind of expression on his\nface in a long time. By the way, the village king asked me to tell <pc> to come to\nhis house if he sees him. He said he wanted to\nthank you.",
+    "en": "Jiganf's face dropped that scary look he had, it was\nlike he was at peace, y'know. I haven't seen that kind\nof expression on the boy's face in a long time.\n<br>\nWhich reminds me, the Village King asked that if I\nsaw you, <pc>, to be sure to tell you to come\nby his house. He said he wanted to thank you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1950,9 +1950,9 @@
     "zh-Hant": "濟甘夫的表情彷彿是附身解除似的，\n看起來很平靜呢。\n我已經很久沒看到他那樣的表情了。\n<br>\n話說回來，村王說如果看到<pc>，\n就叫你去他家裡一趟。\n說是想向你道謝。"
   },
   "34387": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_010`",
     "de": "",
-    "en": "What in the world was that light that filled\nthe sky? I've never seen such a divine sight\nbefore.",
+    "en": "That light that filled up the sky, what in the world\ndo you think that was? That kinda divine light show's\nthe first I've ever seen.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1963,9 +1963,9 @@
     "zh-Hant": "剛才照亮天空的那片光芒\n到底是怎麼回事？\n我是第一次見到那種神聖的光景。"
   },
   "34388": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_010`",
     "de": "",
-    "en": "Oh, <pc>! The King of the Village is\nwaiting for you to pay his respects. Come,\ncome inside.",
+    "en": "Ooh, <pc>! The Village King is waiting to\nthank you. Now, go inside.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1976,9 +1976,9 @@
     "zh-Hant": "喔喔，<pc>！\n村王大人說要對你表示謝意，正在等你呢。\n來，快進去吧。"
   },
   "34389": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "I guess the reason the Village King brought\nArold back was to have them fight and decide\nwho Maiyu would marry! But I didn't know that Jiganf lost. I wish I could have seen that\nduel. I wish I could have seen the duel. I'm\nsure it would have been a match that will go down in history!",
+    "en": "The Village King called Arold back to have those two\nfight, to decide who would end up as Maiyu's husband-\nto-be, huh!\n<br>\nHowever, to think that Jiganf lost... Wish I could've\nseen that duel. I'm sure that match was one for the\nhistory books!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2002,9 +2002,9 @@
     "zh-Hant": "這個村子每年都會召開武鬥大會，\n有個男人名叫濟甘夫，他的強大無人能敵，\n一直穩坐冠軍的寶座。\n<br>\n每個人都認為村王的女兒梅優大人\n會和濟甘夫結婚，但一名叫做阿洛德的年輕人\n被村王叫回村子，並打倒了濟甘夫……\n<br>\n梅優大人成為了阿洛德的新娘，\n兩人一起踏上了旅程。\n哎呀，好懷念啊……"
   },
   "34391": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament. Arold,\nMaiyu and even Jiganf have left the village. But they all looked good.",
+    "en": "This is the honorary champ of the Village Tournament,\nVillage King Cliffgain's, home.\n<br>\nArold, Maiyu, and even Jiganf have left the village.\nBut, everyone had a happy face.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2017,7 +2017,7 @@
   "34392": {
     "$comments": "🟡",
     "de": "",
-    "en": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament.",
+    "en": "This is the honorary champ of the Village Tournament,\nVillage King Cliffgain's, home.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2028,9 +2028,9 @@
     "zh-Hant": "這裡是武鬥大會的名譽冠軍，\n村王克里夫耿大人的住處。"
   },
   "34393": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Nice work <pc>! I was happy to see\nyour happy smile too.",
+    "en": "<attr><feel_happy_lv1><end_attr>That was quite the feat, eh, <pc>! Seeing Lady\nMaiyu's happy, smiling face made me happy as well.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2054,9 +2054,9 @@
     "zh-Hant": "這裡是村王的女兒，梅優大人的房間。\n但自從梅優大人外出旅行後，\n這裡一直是空的。\n<br>\n在梅優大人完成旅行的目的，\n並回到這裡的那一天為止……\n守護這個房間就是我的使命！"
   },
   "34395": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Ossssss! <pc>! Enjoy your adventures,\nbut get some training in!",
+    "en": "<attr><feel_happy_lv1><end_attr>Heeey! <pc>! It's good that you're enjoying\nyour adventure, but get some training in!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2082,7 +2082,7 @@
   "36276": {
     "$comments": "🟡",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>Ogre's power is strong. That is why we must\nnot allow ourselves to be drowned by our\npower! We must not only strengthen our skills and our bodies, but also our minds! That is\nthe Ogre way of life, and that is our pride!",
+    "en": "<attr><feel_angry_lv1><end_attr>An Ogre's power is strong. It's for that reason why\nwe must not allow ourselves to be drowned in that\npower!\n<br>\nWe must not only strengthen our skills, and bodies,\nbut also our minds! That is the Ogre way of life, and\nour pride!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2093,9 +2093,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>奧伽族的力量很強大。\n正因為如此，\n我們不能沉醉於自己的力量！\n<br>\n不單是技巧和體魄，還要磨練意志！\n這才是奧伽族應有的生存方式，\n才是我們的榮耀！"
   },
   "34398": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "This is Rangao Village. It is a village of\nOgres who put themselves in the extreme cold\nand strenuously strengthen themselves. If you leave here and follow the road south, you will\nreach Lionsgate. There is a train station at\nGlen Castle. You should go there.",
+    "en": "This is Rangao Village, a village where Ogres put them-\nselves through extremely cold conditions, to rigidly\ntemper themselves.\n<br>\nIf you leave here and follow the road south, you'll\nreach Lionsgate. Beyond that point, is Glen Castle,\nwhere there's a train station.\n<br>\nYou should try going there.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2108,7 +2108,7 @@
   "34399": {
     "$comments": "🟡",
     "de": "",
-    "en": "This is Rangao Village, a village of ogres who\nput themselves in extremely cold conditions\nand strenuously strenuous themselves.",
+    "en": "This is Rangao Village, a village where Ogres put them-\nselves through extremely cold conditions, to rigidly\ntemper themselves.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2119,9 +2119,9 @@
     "zh-Hant": "這裡是蘭加奧村。\n是奧伽們為了在嚴寒之地進行\n艱苦的修行所建造的村子。"
   },
   "34400": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "Watch it! I'm going to train and one day I'm\ngoing to be a champion! I'll train hard and\none day I'll be a champion!",
+    "en": "Just you wait and see, Mama! I'm gonna train, and\nsomeday I'll show you the champion I become, see!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2132,9 +2132,9 @@
     "zh-Hant": "妳看著吧！媽媽！\n我會努力修行，\n總有一天絕對會成為冠軍！"
   },
   "34401": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "We at Ogre put our whole heart and soul into\nour games. It is only polite to respond to the\nbest with the best, and there is no such thing as cutting corners. But Arold is Jiganf's\nyounger brother. He knew that Jiganf loved\nMaiyu, so he couldn't fight.",
+    "en": "We Ogres put in our whole bodies and souls when facing\none another in contests.\n<br>\nIt is only polite to respond to one's best with our\nbest; holding back like that is unthinkable.\n<br>\nBut, Arold is Jiganf's brother. He knew that Jiganf\nwas in love with Maiyu, so Arold would not fight him,\nit appears.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2145,9 +2145,9 @@
     "zh-Hant": "我們奧伽會使出全力來對待決鬥。\n用最厲害的招式來回應最厲害的招式是戰鬥的禮儀，\n絕對不可能放水。\n<br>\n但阿洛德是濟甘夫的小弟。\n他知道濟甘夫愛著梅優大人，\n所以才沒辦法全力與他戰鬥吧。"
   },
   "34402": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "<attr><feel_sad_lv2><end_attr>Maiyu girl, right? She looked so happy.",
+    "en": "<attr><feel_sad_lv2><end_attr>Big Sis Maiyu, y'know. She looked sooo happy.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2158,9 +2158,9 @@
     "zh-Hant": "<attr><feel_sad_lv2><end_attr>梅優姊姊啊。\n她看起來超級高興呢。"
   },
   "34403": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "Jiganf is gone. But it's been a while since\nI've seen her face so radiant. Someday, she'll\nclean up her own mess. She said she's going to defeat Demon Zongalon.",
+    "en": "Jiganf's gone. Although, I feel like it's been a\nwhile since I've seen that boy's face so radiant,\ny'know.\n<br>\nSomeday, he'll clear himself of his failure. He said\nthat he's going to defeat Demon Zongalon.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2184,9 +2184,9 @@
     "zh-Hant": "我的兒子叫做濟甘夫。\n他從小就既固執又不服輸，\n還很倔強。\n<br>\n但他是我自豪的獨生子。\n現在他為了打倒惡鬼宗伽隆，\n踏上了修行之旅。"
   },
   "34405": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "I knew it. Since she was a child, Lady Maiyu\nhad always been fond of the gentle Arold. But\nshe couldn't tell anyone her true feelings because she thought that marrying a champion\nwould be the best way to show her filial\npiety. I'm glad that Maiyu and Arold are now together! Now I can aim at Mr. Jiganf with\npride. Psst<heart>",
+    "en": "I had known it, of course. Lady Maiyu—since she\nwas a child—was always in love with gentle Arold.\n<br>\nBut, marrying the champion was the best way to care\nfor her father, so she couldn't tell anyone her true\nfeelings.\n<br>\nI'm glad that Lady Maiyu and Arold are together! With\nthat, I can make that hunk, Jiganf, mine. Ahh... <heart>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2223,9 +2223,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>我要在我的私人空間裡\n緩解平時累積的疲勞。\n沒什麼事的話，就請快點離開吧。"
   },
   "34408": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "I heard that Jiganf left too. I don't know\nwhat happened to him, but traveling makes you\ngrow up a lot. I'm sure Jiganf and Arold will grow stronger and stronger.",
+    "en": "Even Jiganf left on a journey, eh. What happened I\ndon't know, but traveling makes you grow a lot as a\nperson.\n<br>\nBoth Jiganf and Arold will grow more and more powerful,\ndon't you think.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2249,9 +2249,9 @@
     "zh-Hant": "雖然這是前陣子的事了，\n有一個來這個村子修行的年輕人，\n不知不覺間就不見了。\n<br>\n看著你，不知為何就讓我\n想起那個年輕人。\n不知道他現在過得如何。"
   },
   "34410": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "The Key Emblem, a sign of heroism, is a medal\ngiven to those who have distinguished\nthemselves in a town or castle, and as the name suggests, it is said to be in the shape\nof a key. There is a Black Key Emblem in Glen\nCastle in the southwest and a Red Key Emblem in Gartland Castle in the far south. If you\ncollect the key emblems, you will meet someone\nwho knows the real you. Spread your wings to the world <pc>! Gahahahaha!",
+    "en": "Key Emblems are proof of a hero; they are medals given\nto those who have distinguished themselves in towns\nand castles.\n<br>\nAs the name implies, it's in the shape of a key, I've\nheard.\n<br>\nGlen Castle to the southwest has the <color_yellow>Black Key Emblem<color_white>,\nand far, far to the south: Gartlant Castle seems to\nhave the <color_yellow>Red Key Emblem<color_white>.\n<br>\nIf you go collect those <color_yellow>Key Emblems<color_white>, you'll be able\nto meet those who know the true you.\n<br>\nSpread your wings, and go out into the world,\n<pc>! GAHAHAHA!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2301,9 +2301,9 @@
     "zh-Hant": "這樣啊……\n雖然這裡是個小村子，但你好好地休息吧。"
   },
   "34414": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>I heard that Maiyu-sama has miraculously tied\nthe knot with Arold, whom she had been\nsecretly attracted to. How romantic! Even so,\n<br>\nJiganf is wonderful, isn't he? To think of\nyour beloved Maiyu's happiness first and\nforemost, that's just as I expected!",
+    "en": "<attr><feel_happy_lv2><end_attr>Lady Maiyu secret was in love with Arold, and,\nmiraculously, they tied the knot. How romantic!\n<br>\nEven so, that Jiganf's super, y'knooow. To put his\nbeloved Lady Maiyu's happiness first like that; just\nwhat one'd expect of him!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2353,9 +2353,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>你走了我會寂寞的。\n但隨時歡迎你再來住宿喔，<pc>。<bw_break>"
   },
   "34417": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Just beyond is the Village Arena. It is a\nsacred place where martial arts tournaments\nare held every year and where the children of the village begin their training. The arena\nholds many memories for the people of this\nvillage.",
+    "en": "<attr><feel_happy_lv1><end_attr>Beyond this point is the battlefield.\n<br>\nEvery year, the martial arts tournament is held in\nthis sacred battlefield, and it's the place where\nthe village's children begin their training.\n<br>\nThe arena holds a lot of memories for those of this\nvillage.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2366,9 +2366,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>前方是村子的武鬥場。\n是每年舉辦武鬥大會的神聖地點。\n也是村裡的孩子們開始修行的地方。\n<br>\n武鬥場充滿了村民們的\n許多回憶喔。"
   },
   "34418": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Everything seems to have settled into its\nnatural form. Thanks to <pc>, right?\nI can tell by the Proof of Adulthood. That's what you came to this village to train for.\nYou finally got the credit! Congratulations!\nEven if you leave Rangao Village, please come back and visit us once in a while!",
+    "en": "<attr><feel_happy_lv1><end_attr>Everything seems to have settled down naturally,\nhasn't it. <pc>, it's thanks to you, right?\nWhen I saw that Proof of Adulthood, I knew.\n<br>\nThat's what you came to this village to train for,\nisn't it. Finally, you distinguished yourself, y'know!\nCongratulations!\n<br>\nAnd while you're away from Rangao Village, every now\nand then think about us, then give a visit!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2392,9 +2392,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>真虧你們來到這麼偏僻的村子。\n請你一定要去見見村王克里夫耿。\n防具店旁邊的橋過去後就是村王的家了。"
   },
   "34420": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "If only <pc> had been born in this\nvillage, he could have participated in the\nmartial arts tournament. I wish I could have seen you fight.",
+    "en": "<pc>, if only you had been born in this\nvillage, you could've taken part in the martial arts\ntournaments... I wish I couldve seen you battle style.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2405,9 +2405,9 @@
     "zh-Hant": "可惜<pc>不是這個村子出生的，\n不然就能參加武鬥大會了……\n真想看看你戰鬥的英姿。"
   },
   "34422": {
-    "$comments": "🟡",
+    "$comments": "🟡, see `Game.locres.json:STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR1_011`",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>I hope Mr. Jiganf is okay. He was very\nprotective of Ms. Maiyu. I can see that from\nthe outside. I wish I could soothe Mr.\n<br>\nJiganf's heart.",
+    "en": "<attr><feel_sad_lv1><end_attr>I hope Jiganf's okay... He's always cherished Maiyu\na lot. Even looking from the outside in, I knew that\nmuch, y'know.\n<br>\nAhhh, I wanna heal Jiganf's heart <heart>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2433,7 +2433,7 @@
   "34424": {
     "$comments": "🟡",
     "de": "",
-    "en": "This is the Village King's room. If it's you,\n<pc>, the Village King is sure to always meet\nwith you whenever.",
+    "en": "This is the Village King's room. If it's you, <pc>,\nthe Village King is sure to always meet with you\nwhenever.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2472,7 +2472,7 @@
   "34427": {
     "$comments": "🟡",
     "de": "",
-    "en": "This is the home of Chief Cliffgain, the\nhonorary champion of the tournament. Hey\n<pc>! How are you doing?",
+    "en": "This is the honorary champ of the Village Tournament,\nVillage King Cliffgain's, home. Yo, <pc>!\nHow you doing?",
     "es": "",
     "fr": "",
     "it": "",
@@ -2537,7 +2537,7 @@
   "34433": {
     "$comments": "🟡",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Even if you kill monsters as hard as you can,\nit's not enough to save money, right? The\ntrick to earning money is not to keep things you don't need right now, but to sell them to\nthe stores and make money! That's what my\nfather said!",
+    "en": "<attr><feel_happy_lv1><end_attr>Even if you do the best you can killing monsters,\nit's not enough to save money, right?\n<br>\nThe trick to making money isn't keeping things you\ndon't need right now, but to sell them to stores for\nmoney!... That's what my dad was saying!",
     "es": "",
     "fr": "",
     "it": "",
