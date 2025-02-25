@@ -120,7 +120,7 @@ jobs:
       - name: UnrealPak -Create
         run: |
           for lang in de en es fr it ja ko zh-Hans zh-Hant; do \
-            cp -r ${{ github.workspace }}/test/staging/${lang}/Game/Content/NonAssets/ETP \
+            cp ${{ github.workspace }}/test/staging/${lang}/Game/Content/NonAssets/ETP/* \
             ${{ github.workspace }}/test/staging/${lang}/Game/Content/NonAssets/ETP_ko
 
             echo -e "::group::Creating \033[0;34m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m"
