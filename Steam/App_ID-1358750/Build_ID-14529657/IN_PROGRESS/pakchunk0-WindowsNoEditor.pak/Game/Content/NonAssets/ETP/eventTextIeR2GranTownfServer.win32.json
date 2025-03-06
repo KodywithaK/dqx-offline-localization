@@ -39,9 +39,9 @@
     "zh-Hant": "剛才前往城堡的那位劍士\n好像叫做提古拉姆。\n<br>\n……不過這也不重要了。\n不管來的是什麼人，\n都已經跟我沒關係了……"
   },
   "100833": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_000`",
     "de": "",
-    "en": "",
+    "en": "Ooh, you're travelers, are you. Can you hear out a\nlittle request of mine?\n<br>\nRecently, the missing man named Tegram has returned.\nHe is the castle's chief attendant's grandson, but...\n<br>\nThat man worked hard killing monsters in service of\nthe kingdom, settling disputes, and gained a reputation\nin town.\n<br>\nAfter the Hero Princess' death, I felt uneasy taking\non the role as the kingdom's leader. Therefore, I\nwant to ask for your cooperation.\n<br>\nI don't know much of his reputation, so I'd like you\nto ask around 3 people living in the nearby houses\nabout Tegram!",
     "es": "",
     "fr": "",
     "it": "",
@@ -52,9 +52,9 @@
     "zh-Hant": "喔喔，你是旅行者啊。\n你可以答應我一個請求嗎？\n<br>\n之前有個叫做提古拉姆的男人失蹤，\n最近回來了。\n他好像是城裡的侍從長的孫子……\n<br>\n那個男人努力擊退怪物、解決紛爭。\n他說這麼做都是為了王國。\n城鎮居民對他的評價也越來越好。\n<br>\n勇者公主過世後，\n我立志成為王國的領導者，\n所以對這件事有些不安，想請你幫忙。\n<br>\n我必須知道大家對他的評價細節，\n希望你能去問問住在附近民宅的居民，\n大概３個人就可以了！"
   },
   "100834": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_000`, YES",
     "de": "",
-    "en": "",
+    "en": "Alright, you'll take on my request! If we are to\nunderstand his reputation, there's a way of doing it.\n<br>\nOnce you have heard about Tegram from around 3 people\nliving in the nearby houses, please report back to me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -65,7 +65,7 @@
     "zh-Hant": "好，你願意幫忙對吧！\n要是能知道評價的詳細內容，\n或許我就能想到對策。\n<br>\n拜託你去找住在附近民宅的居民，\n問他們有關提古拉姆的事情，\n再回來這裡告訴我，大概３個人就可以了。"
   },
   "100835": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_000`, QUESTS FULL",
     "de": "",
     "en": "",
     "es": "",
@@ -78,9 +78,9 @@
     "zh-Hant": "好，你願意幫忙對吧！\n唔，不過你是不是已經\n接下很多委託了啊？\n<br>\n那你先去處理那些委託吧。\n這件事可以等你處理完再說，\n你有空再來找我吧。"
   },
   "100836": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_000`, NO",
     "de": "",
-    "en": "",
+    "en": "<attr><feel_sad_lv2><end_attr>...Mmm. Won't take on the request, eh. If so, once\nyou are interested, please come to me again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -156,9 +156,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>雖然我也不是很清楚詳情，\n不過聽說有個叫提古拉姆的人原本失蹤了，\n後來在海風洞窟被發現。\n<br>\n如果他也是被製造出來的，\n說不定就這樣被人遺忘，\n永遠找不到還比較好呢……"
   },
   "100842": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_000`",
     "de": "",
-    "en": "",
+    "en": "The swordsman, Tegram, went missing, but it looks\nlike he's returned, hasn't he.\n<br>\nIn town, there's been lots of rumors amongst our people,\nbecause it seems like they're worrying about him.\nEveryday, we're nervous.",
     "es": "",
     "fr": "",
     "it": "",
@@ -247,9 +247,9 @@
     "zh-Hant": "最近我每天都會看到\n提古拉姆提著劍出去。\n<br>\n他似乎是聽說有怪物會在附近作亂，\n所以去擊退那些怪物。\n真是瘋子……"
   },
   "100849": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_010`",
     "de": "",
-    "en": "",
+    "en": "Tegram has gained a reputation in town. After the Hero Princess' death, I felt uneasy taking\non the role as the kingdom's leader.\n<br>\nFirst, I must know in detail his reputation. Therefore,\nI want you to ask the people of the kingdom about\nTegram.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -260,9 +260,9 @@
     "zh-Hant": "城鎮居民對提古拉姆的評價越來越好了。\n勇者公主過世後，我立志成為王國的領導者，\n所以對這件事有些不安。\n<br>\n首先我得了解評價的細節，\n因此想請你去問王國居民\n關於提古拉姆的事情。<open_irai><bw_break>"
   },
   "100850": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_010`",
     "de": "",
-    "en": "",
+    "en": "Once you have heard about Tegram from around 3 people\nliving in the nearby houses, please report back to me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -286,9 +286,9 @@
     "zh-Hant": "我聽說提古拉姆先生為這個王國盡心盡力……\n<br>\n好像也有人說他就像是勇者公主的翻版。\n他會是引導我們這些假貨的領導者嗎……？"
   },
   "108129": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_010`, Simone",
     "de": "",
-    "en": "",
+    "en": "What do you... Eh? You want to ask me about Tegram?\n<br>\n...So, you know. Like Tegram, my little brother went\nmissing, and still has yet to return...\n<br>\nBut, Tegram returned. I'm sure he has something to do...\nProbably to lead the kingdom... Isn't it, you know.",
     "es": "",
     "fr": "",
     "it": "",
@@ -299,9 +299,9 @@
     "zh-Hant": "你有什麼事嗎……？\n咦？你想問提古拉姆先生的事情？\n<br>\n……這個嘛，我有個弟弟，\n他跟提古拉姆先生一樣失蹤了，\n只是到現在都還沒有回來……\n<br>\n但是提古拉姆先生回來了。\n我想這一定是因為他有事情要處理……\n<br>\n我猜或許是……\n領導這個王國吧。"
   },
   "108131": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_015`, Simone",
     "de": "",
-    "en": "",
+    "en": "Like Tegram, my little brother went missing, and\nstill has yet to return...\n<br>\nBut, Tegram returned. I'm sure he has something to do...\nProbably to lead the kingdom... Isn't it, you know.",
     "es": "",
     "fr": "",
     "it": "",
@@ -312,9 +312,9 @@
     "zh-Hant": "我有個弟弟，\n他跟提古拉姆先生一樣失蹤了，\n只是到現在都還沒有回來……\n<br>\n但是提古拉姆先生回來了。\n我想這一定是因為他有事情要處理……\n<br>\n我猜或許是……\n領導這個王國吧。"
   },
   "107879": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_015`",
     "de": "",
-    "en": "",
+    "en": "We finished asking the 3 people living nearby about\nTegram. Lets' report back to Mayor Baffle.",
     "es": "",
     "fr": "",
     "it": "",
@@ -325,9 +325,9 @@
     "zh-Hant": "向３位民宅裡的居民\n問過提古拉姆的事情了。\n回去報告巴福爾鎮長吧。"
   },
   "107880": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_015`",
     "de": "",
-    "en": "",
+    "en": "We finished asking the 3 people living nearby about\nTegram. Lets' report back to Mayor Baffle.",
     "es": "",
     "fr": "",
     "it": "",
@@ -338,9 +338,9 @@
     "zh-Hant": "向３位民宅裡的居民\n問過提古拉姆的事情了。\n回去報告巴福爾鎮長吧。"
   },
   "107881": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_015`",
     "de": "",
-    "en": "",
+    "en": "We finished asking the 3 people living nearby about\nTegram. Lets' report back to Mayor Baffle.",
     "es": "",
     "fr": "",
     "it": "",
@@ -351,9 +351,9 @@
     "zh-Hant": "向３位民宅裡的居民\n問過提古拉姆的事情了。\n回去報告巴福爾鎮長吧。"
   },
   "107891": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_010`, Tize",
     "de": "",
-    "en": "",
+    "en": "......What the–travelers? You want to hear a story\nabout Tegram, yeah? If so, I got just the thing.\n<br>\nThe other day, when I was walking on main street, I\ntripped over myself and fell. Maaan, I couldn't get\nup, I tell you.\n<br>\nNo one even noticed that I was in trouble; when\nTegram happened to pass by, he picked me up and\ncarried me all the way here.\n<br>\nYeaaah. It was very moving, y'know. There's still\nsomeone who'd hold their out their hand for a made-up\nbeing like me... Y'know.",
     "es": "",
     "fr": "",
     "it": "",
@@ -364,9 +364,9 @@
     "zh-Hant": "……旅行者，怎麼了？\n你想打聽提古拉姆先生的事情嗎？\n之前發生過一件事呢。\n<br>\n前陣子我走在大路上不小心摔倒、扭傷腳，\n當時我連動都動不了。\n<br>\n而且其他人連看都不看我一眼，\n就在我傷腦筋時，路過的提古拉姆先生揹起我，\n把我送到這裡。\n<br>\n哎呀，我真的很感動呢。\n沒想到還有人願意\n對我這種假貨伸出援手……"
   },
   "100872": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_015`, Tize",
     "de": "",
-    "en": "",
+    "en": "The other day, when I was walking on main street, I\ntripped over myself and fell. Maaan, I couldn't get\nup, I tell you.\n<br>\nNo one even noticed that I was in trouble; when\nTegram happened to pass by, he picked me up and\ncarried me all the way here.\n<br>\nYeaaah. It was very moving, y'know. There's still\nsomeone who'd hold their out their hand for a made-up\nbeing like me... Y'know.",
     "es": "",
     "fr": "",
     "it": "",
@@ -377,9 +377,9 @@
     "zh-Hant": "前陣子我走在大路上不小心摔倒、扭傷腳，\n當時我連動都動不了。\n<br>\n而且其他人連看都不看我一眼。\n就在我傷腦筋時，路過的提古拉姆先生揹起我，\n把我送到這裡。\n<br>\n哎呀，我真的很感動呢。\n沒想到還有人願意\n對我這種假貨伸出援手……"
   },
   "107884": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_010`, Tomac",
     "de": "",
-    "en": "",
+    "en": "......What the–travelers? Huh? You want to hear about\nTegram? Is that right...\n<br>\nNow that you say it, when Tegram returned, he came\nto see everybody in town, and cheered them up.\n<br>\nOf course, we came here too. \"Whenever you're troubled,\nyou can always call on me\", he said.",
     "es": "",
     "fr": "",
     "it": "",
@@ -390,9 +390,9 @@
     "zh-Hant": "…………怎麼了，你是旅行者？\n嗯？你想問提古拉姆的事？\n我想想……\n<br>\n這麼說來，提古拉姆回來以後，\n我看見他為了幫鎮上的人打氣，\n到處跟人聊天呢。\n<br>\n當然，他也來過我家。\n他說如果有什麼麻煩，\n隨時可以叫他來幫忙。"
   },
   "107885": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_015`, Tomac",
     "de": "",
-    "en": "",
+    "en": "When Tegram returned, he came to see everybody in\ntown, and cheered them up.\n<br>\nOf course, we came here too. \"Whenever you're troubled,\nyou can always call on me\", he said.",
     "es": "",
     "fr": "",
     "it": "",
@@ -403,9 +403,9 @@
     "zh-Hant": "我看到提古拉姆回來以後，\n為了幫鎮上的人打氣，\n到處去找人攀談喔。\n<br>\n當然，他也來了我家。\n他說如果有什麼麻煩，\n隨時可以叫他來幫忙。"
   },
   "100853": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_015`",
     "de": "",
-    "en": "",
+    "en": "Ooh, you're back, eh! So, what was the feeling you\ngot about Tegram's reputation?",
     "es": "",
     "fr": "",
     "it": "",
@@ -416,9 +416,9 @@
     "zh-Hant": "喔喔，你回來了啊！\n居民們對提古拉姆的評價怎麼樣？"
   },
   "100854": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_015`, `100856`:NO",
     "de": "",
-    "en": "",
+    "en": "......Mmm. Not yet, eh. I don't mean to rush you, but\ndon't forget about my request, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -429,9 +429,9 @@
     "zh-Hant": "……唔，你還沒去問啊？\n雖然我沒有很急，\n但是你要記得去問喔。"
   },
   "100855": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_015`, `100856`:YES",
     "de": "",
-    "en": "",
+    "en": "......Hmm. Everyone thinks quite highly of Tegram,\nit seems...\n<br>\nMmmmmm... That damned Tegram. He's gained so much popularity.\n<br>\nAlthough, he has some ulterior motive, there's no\nmistaking it. Otherwise, why would he kill dangerous\nmonsters and what not... I'll need to ask around.\n<br>\nSuch being the case, I have another request: the\nperson in question, Tegram–I want you to go hear\nwhat he thinks of helping people and what not!\n<br>\nI don't know Tegram's whereabouts, but I have to find\nout more details.\n<br>\nHe often meets with Minister Riges, so if you go to\nthe throne room, there's a chance you'll encounter\nhim there. Now then, do as I've asked, travelers!",
     "es": "",
     "fr": "",
     "it": "",
@@ -442,9 +442,9 @@
     "zh-Hant": "……嗯，看來大家都相當喜歡提古拉姆……\n<br>\n唔唔唔唔唔……可惡的提古拉姆！\n沒想到他會這麼受歡迎。\n<br>\n但是他肯定有什麼陰謀，\n要不然才不會冒險去打倒危險的怪物……\n看來我得好好追查到底。\n<br>\n所以我想再拜託你一件事，\n希望你去問提古拉姆本人，\n他為什麼要幫助大家！\n<br>\n不過我也不知道\n提古拉姆會在哪裡。\n<br>\n他似乎經常跟里格斯大臣見面，\n去王座之間應該會有機會遇到他。\n旅行者，這件事就拜託你了！"
   },
   "100856": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_015`",
     "de": "",
-    "en": "",
+    "en": "Report what you heard from the townspeople to <%sEV_SYSMSG_NPC>?<yesno><close>",
     "es": "",
     "fr": "",
     "it": "",
@@ -455,9 +455,9 @@
     "zh-Hant": "要向巴福爾鎮長報告\n從鎮上居民那裡打聽到的情報嗎？<yesno><close>"
   },
   "100857": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_016`",
     "de": "",
-    "en": "",
+    "en": "Working hard killing monsters and settling disputes,\nday by day, Tegram's reputation has increased, I\nunderstand.\n<br>\nAlthough, he has some ulterior motive, there's no\nmistaking it. After the Hero Princess' death, I felt\nuneasy taking on the role as the kingdom's leader.\n<br>\nSuch being the case, I have another request: the\nperson in question, Tegram–I want you to go hear\nwhat he thinks of helping people and what not!<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -468,9 +468,9 @@
     "zh-Hant": "我已經知道提古拉姆致力於\n消滅怪物、解決紛爭，\n他的名聲也因此日漸水漲船高。\n<br>\n但是他肯定有什麼陰謀。\n勇者公主過世後，我立志成為王國的領導者，\n所以對這件事有些不安。\n<br>\n我想拜託你去問問提古拉姆本人，\n他是懷著什麼想法，\n做這些事幫助大家！<open_irai><bw_break>"
   },
   "100858": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_016`",
     "de": "",
-    "en": "",
+    "en": "He often meets with Minister Riges, so if you go to\nthe throne room, there's a chance you'll encounter\nhim there. Now then, do as I've asked, travelers!",
     "es": "",
     "fr": "",
     "it": "",
@@ -481,9 +481,9 @@
     "zh-Hant": "他似乎經常跟里格斯大臣見面，\n去王座之間應該會有機會遇到他。\n旅行者，這件事就拜託你了！"
   },
   "107861": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_020`",
     "de": "",
-    "en": "",
+    "en": "Ooh, you've returned, travelers. You heard Tegram's\nstory, eh. If so, report to me as requested.",
     "es": "",
     "fr": "",
     "it": "",
@@ -494,9 +494,9 @@
     "zh-Hant": "喔喔，旅行者，你回來了啊。\n你去問過提古拉姆了吧？\n那麼請告訴我吧。"
   },
   "107862": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_020`",
     "de": "",
-    "en": "",
+    "en": "Hmm... For the sake of the kingdom, he's doing only\nwhat he can... He claims. That's a cool thing to say.\n<br>\nNevertheless, Minister Riges and the attendants have\ngiven Tegram their approval, have they. Mmm. That's\nproblematic...",
     "es": "",
     "fr": "",
     "it": "",
@@ -507,9 +507,9 @@
     "zh-Hant": "<attr><feel_think_lv3><end_attr>唔……他說他只是\n為王國盡了一份力而已啊……\n聽起來真帥。\n<br>\n而且里格斯大臣和侍從們\n也開始把提古拉姆當作領導者了。\n唔……這下糟糕了……"
   },
   "107863": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_020`",
     "de": "",
-    "en": "",
+    "en": "<icon_exc>Ooh, that's it! Garial Cave–an atrocious monster\nreportedly appeared there, didn't they?\n<br>\nMr. Tegram appears to be preoccupied. If so, instead\nof him, if you were to get rid of that monster for\nme, it should be good!\n<br>\nFor that reason, I would like to ask you to kill the\nmonster. I'd like you to kill the marvelous monster\nthat has appeared in Gran Zedora Cape's Garial Cave!",
     "es": "",
     "fr": "",
     "it": "",
@@ -520,9 +520,9 @@
     "zh-Hant": "<icon_exc>喔喔，對了！\n不是有人說那個叫加利亞爾洞的地方\n出現了凶惡的怪物嗎？\n<br>\n提古拉姆閣下似乎很忙，\n那我們幫他打倒那頭怪物比較好吧？\n<br>\n所以我想把擊退怪物的任務交給你。\n希望你能前往古蘭澤朵拉領土的加利亞爾洞，\n把怪物打得落花流水！"
   },
   "100859": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_020`, following `107861`",
     "de": "",
-    "en": "",
+    "en": "<pc> reported everything about the exchange in\nthe throne room to Mayor Baffle!",
     "es": "",
     "fr": "",
     "it": "",
@@ -533,9 +533,9 @@
     "zh-Hant": "<pc>把王座之間的對話\n一五一十地報告給巴福爾鎮長！"
   },
   "100860": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_030`",
     "de": "",
-    "en": "",
+    "en": "Mr. Tegram appears to be preoccupied. If so, instead\nof him, if you were to get rid of that monster for\nme, it should be good!<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -546,9 +546,9 @@
     "zh-Hant": "由我們替忙碌的提古拉姆閣下擊退怪物，\n不是更好嗎？<open_irai><bw_break>"
   },
   "100861": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_030`",
     "de": "",
-    "en": "",
+    "en": "For that reason, I would like to ask you to kill the\nmonster. I'd like you to kill the marvelous monster\nthat has appeared in Gran Zedora Cape's Garial Cave!",
     "es": "",
     "fr": "",
     "it": "",
@@ -572,9 +572,9 @@
     "zh-Hant": "門上鎖了。"
   },
   "107865": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_050`",
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Ooh, travelers. I have decided to no longer aim at\nbeing this kingdom's leader. The true, fitting leader\nis Master Tegram, I've realized!\n<br>\nNevertheless, I must reward you for all the various\nthings you have done for me. Please accept this.",
     "es": "",
     "fr": "",
     "it": "",
@@ -585,9 +585,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>喔喔，是旅行者啊。\n我已經放棄成為\n這個王國的領導者了。\n<br>\n因為我發現真正適合當領導者的人是\n提古拉姆大人！\n<br>\n不過我請你幫這麼多忙，\n還是得給你謝禮才行。\n請你收下這個吧。"
   },
   "107866": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_050`",
     "de": "",
-    "en": "",
+    "en": "I, from now on, intend to do everything in my power\nto boost Master Tegram as leader!",
     "es": "",
     "fr": "",
     "it": "",
@@ -624,9 +624,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>提古拉姆閣下剛才也拿著劍，\n出發去擊退怪物了。\n<br>\n以前我也會像這樣，\n每天目送勇者公主外出。\n真令人懷念啊……"
   },
   "100864": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_019_2_200`",
     "de": "",
-    "en": "",
+    "en": "<attr><feel_happy_lv2><end_attr>I, from now on, intend to do everything in my power\nto boost Master Tegram as leader!\n<br>\nOoh, that's right. I must tell those of this town\nabout Master Tegram's feats. From now on, I'm going\nto be busy!",
     "es": "",
     "fr": "",
     "it": "",
