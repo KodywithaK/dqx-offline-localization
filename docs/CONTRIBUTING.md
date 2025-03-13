@@ -522,7 +522,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 | :-----------------------------------: | :-: | :------------------------------------------ | :------------------------------------- |
 |              `ASIA_DLC`               |     |                                             |                                        |
 |            `Event_Common`             |     |                                             |                                        |
-|            `lpWindowName`             |     |                                             |                                        |
+|            `lpWindowName`             |     |                                             | The game's window name                 |
 |               `Sample`                |     |                                             |                                        |
 |          `STT_AccessoryItem`          |     |                                             |                                        |
 |      `STT_ActionAvgMsg_Simple1`       |     |                                             |                                        |
@@ -782,10 +782,10 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |       `STT_MonsterTarotArcana`        |     |                                             |                                        |
 |        `STT_MonsterTarotDeck`         |     |                                             |                                        |
 |       `STT_MonsterTarotMonster`       |     |                                             |                                        |
-|       `STT_Monster_Tips1_ver1`        |     |                                             |                                        |
-|       `STT_Monster_Tips1_ver2`        |     |                                             |                                        |
-|       `STT_Monster_Tips2_Ver2`        |     |                                             |                                        |
-|       `STT_Monster_Tips2_ver1`        |     |                                             |                                        |
+|       `STT_Monster_Tips1_ver1`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                         |
+|       `STT_Monster_Tips1_ver2`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                         |
+|       `STT_Monster_Tips2_Ver2`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                         |
+|       `STT_Monster_Tips2_ver1`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                         |
 |          `STT_Monster_Type`           |     |                                             |                                        |
 |             `STT_NpcInfo`             |     |                                             |                                        |
 |      `STT_OddStatusExplanation`       |     |                                             |                                        |
@@ -1201,7 +1201,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeD2DaraFldServer.win32.etp`                 |                                                                                                     |                                                     |
   | `eventTextIeD2EzslFldServer.win32.etp`                 |                                                                                                     |                                                     |
   | `eventTextIeD2GataFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeD2GataMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeD2GataMonsServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeD2GataStatServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeD2GataTownServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeD2KalsFldServer.win32.etp`                 |                                                                                                     |                                                     |
@@ -1214,9 +1214,9 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeD3DemaFldServer.win32.etp`                 |                                                                                                     |                                                     |
   | `eventTextIeD3DoruCastServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeD3DoruFldwServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD3DoruIdo1Server.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                 Bottom of the Well                  |
+  | `eventTextIeD3DoruIdo1Server.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                 Bottom of the Well                  |
   | `eventTextIeD3DoruKingServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeD3DoruMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeD3DoruMonsServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeD3DoruStatServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeD3DoruTownServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeD3GobuFldServer.win32.etp`                 |                                                                                                     |                                                     |
@@ -1228,7 +1228,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeE1TuskFldServer.win32.etp`                 |                                                                                                     |                                                     |
   | `eventTextIeE1TuskTownServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Gen_g4910`                |                                                     |
   | `eventTextIeE2AzurFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeE2AzurMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeE2AzurMonsServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeE2AzurStatServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeE2AzurTownServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeE2HazuBossServer.win32.etp`                |                                                                                                     |                                                     |
@@ -1244,7 +1244,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeE3KamiFldnServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeE3KamiFldsServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeE3KamiKitaServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE3KamiMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeE3KamiMonsServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeE3KamiTownServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeE3OhorFldServer.win32.etp`                 |                                                                                                     |                                                     |
   | `eventTextIeE3SuteDungServer.win32.etp`                |                                                                                                     |                                                     |
@@ -1261,7 +1261,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeG1MeioDng2Server.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeG1MeioDungServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeG1RackColoServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeG1RackMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeG1RackMonsServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeG1RackStatServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeG1RackTownServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeG1RendCigaServer.win32.etp`                |                                                                                                     |                                                     |
@@ -1283,7 +1283,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeO2GlenCastServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeO2GlenFldeServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeO2GlenFldwServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeO2GlenMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeO2GlenMonsServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeO2GlenStatServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeO2GlenTownServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeO2OlseFldServer.win32.etp`                 |                                                                                                     |                                                     |
@@ -1294,8 +1294,8 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeO3BadoFldServer.win32.etp`                 |                                                                                                     |                                                     |
   | `eventTextIeO3GartCastServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeO3GartFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeO3GartIdo1Server.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                 Bottom of the Well                  |
-  | `eventTextIeO3GartMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeO3GartIdo1Server.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                 Bottom of the Well                  |
+  | `eventTextIeO3GartMonsServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeO3GartStatServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeO3GartTownServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeO3KigaFldServer.win32.etp`                 |                                                                                                     |                                                     |
@@ -1320,11 +1320,11 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeP2MyulDungServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeP2MyulOpenServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeP2OlfaHillServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2OlfaIdoServer.win32.etp`                 |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                 Bottom of the Well                  |
+  | `eventTextIeP2OlfaIdoServer.win32.etp`                 |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                 Bottom of the Well                  |
   | `eventTextIeP2OlfeCakeServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeP2OlfeFldeServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeP2OlfeFldwServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeP2OlfeMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeP2OlfeMonsServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeP2OlfeStatServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeP2OlfeTownServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeP2OlfeTwn2Server.win32.etp`                |                                                                                                     |                                                     |
@@ -1343,10 +1343,10 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeP3KiraDungServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeP3KiraParuServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeP3LmonFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeP3LmonIdo1Server.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                 Bottom of the Well                  |
+  | `eventTextIeP3LmonIdo1Server.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                 Bottom of the Well                  |
   | `eventTextIeP3MegiCastServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeP3MegiFldServer.win32.etp`                 |                                                                                                     |                                                     |
-  | `eventTextIeP3MegiMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeP3MegiMonsServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeP3MegiTownServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeP3RazaDungServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeR1EtenTownServer.win32.etp`                |                                                                                                     |                                                     |
@@ -1379,8 +1379,8 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeR2GranCstr3Server.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR2GranFldfServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeR2GranFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR2GranMonsfServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
-  | `eventTextIeR2GranMonsrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR2GranMonsfServer.win32.etp`               |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
+  | `eventTextIeR2GranMonsrServer.win32.etp`               |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeR2GranPortfServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR2GranPortrServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR2GranScrtrServer.win32.etp`               |                                                                                                     |                                                     |
@@ -1392,8 +1392,8 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeR2GranTowrServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeR2HimiBossfServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR2HimiDungfServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR2MonsBossrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
-  | `eventTextIeR2MonsFldrServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR2MonsBossrServer.win32.etp`               |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
+  | `eventTextIeR2MonsFldrServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeR2OukeHakarServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR2RevlFldnrServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR2RnksJim2rServer.win32.etp`               |                                                                                                     |                                                     |
@@ -1413,8 +1413,8 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeR3GuruFldrServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeR3MelsFldfServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeR3MelsFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR3MelsMonsfServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
-  | `eventTextIeR3MelsMonsrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR3MelsMonsfServer.win32.etp`               |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
+  | `eventTextIeR3MelsMonsrServer.win32.etp`               |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeR3MelsTownfServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR3MelsTownrServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR3RonuFldfServer.win32.etp`                |                                                                                                     |                                                     |
@@ -1429,8 +1429,8 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeR4CeleCrchfServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR4CeleFldfServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeR4CeleFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR4CeleMonsfServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
-  | `eventTextIeR4CeleMonsrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR4CeleMonsfServer.win32.etp`               |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
+  | `eventTextIeR4CeleMonsrServer.win32.etp`               |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeR4CeleSiryfServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR4CeleSiryrServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR4CeleTownfServer.win32.etp`               |                                                                                                     |                                                     |
@@ -1456,8 +1456,8 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeR5ArahColsrServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR5ArahFldfServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeR5ArahFldrServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeR5ArahMonsfServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
-  | `eventTextIeR5ArahMonsrServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeR5ArahMonsfServer.win32.etp`               |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
+  | `eventTextIeR5ArahMonsrServer.win32.etp`               |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeR5ArahSkilrServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR5ArahTownfServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR5ArahTownrServer.win32.etp`               |                                                                                                     |                                                     |
@@ -1487,7 +1487,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeR6JadoBossfServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR6JadoDungfServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR6KiyoDungrServer.win32.etp`               |                                                                                                     |                                                     |
-  | `eventTextIeR6NaruIdo1rServer.win32.etp`               |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                 Bottom of the Well                  |
+  | `eventTextIeR6NaruIdo1rServer.win32.etp`               |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                 Bottom of the Well                  |
   | `eventTextIeR6NaruTownrServer.win32.etp`               |                                                                                                     |                                                     |
   | `eventTextIeR6SureFldrServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeR6YukyCasirServer.win32.etp`               |                                                                                                     |                                                     |
@@ -1524,9 +1524,9 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeW1TiteDungServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeW2AsobHousServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeW2JureFldtServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW2JureIdo1Server.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                 Bottom of the Well                  |
+  | `eventTextIeW2JureIdo1Server.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                 Bottom of the Well                  |
   | `eventTextIeW2JureLowsServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW2JureMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeW2JureMonsServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeW2JureStatServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeW2JureTownServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeW2LardFldServer.win32.etp`                 |                                                                                                     |                                                     |
@@ -1544,7 +1544,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeW3VeriFldeServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeW3VeriFldnServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeW3VeriFldwServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeW3VeriMonsServer.win32.etp`                |             `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_     TBD`              |                   Monster Tavern                    |
+  | `eventTextIeW3VeriMonsServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
   | `eventTextIeW3VeriTownServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextLiveBasyaServer.win32.etp`                   |                                                                                                     |                                                     |
   | `eventTextMainMessageServer.win32.etp`                 |                                                                                                     |                                                     |
@@ -2092,7 +2092,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "it": "Dare <%sEV_SYSMSG_NPC> l'<color_yellow>Inchiostro Scintillante<color_white>?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
       "ja": "きらめきインクを　渡しますか？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
       "ko": "반짝반짝 잉크를 건네겠습니까?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
-      "pt-BR": "",
+      "pt-BR": "Dê a <%sEV_SYSMSG_NPC> a <color_yellow>Tinta Reluzente<color_white>?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
       "zh-Hans": "要交出闪闪墨水吗？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
       "zh-Hant": "是否要交出閃閃墨水？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
     },
@@ -2105,7 +2105,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "it": "<pc> ha dato alla <%sEV_SYSMSG_NPC>\nl'<color_yellow>Inchiostro Scintillante<color_white>!",
       "ja": "<pc>は\nきらめきインクを　渡した！",
       "ko": "{pc}|hpp(은,는)\n반짝반짝 잉크를 건넸다!",
-      "pt-BR": "",
+      "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> a <color_yellow>Tinta Reluzente<color_white>!",
       "zh-Hans": "<pc>交出了\n闪闪墨水！",
       "zh-Hant": "<pc>交出了\n閃閃墨水！"
     }

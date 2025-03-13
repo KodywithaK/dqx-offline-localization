@@ -46,12 +46,12 @@
 >
 > - SimpleModManager:
 >   - Copy `mods` folder into the root of your Switch's SD card. (e.g.):
->   - `sd:\mods\Dragon_Quest_X_Offline\English_Translation\contents\0100E2E0152E4000\romfs\Holiday\Content\Paks\pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak`
+>   - `sd:\mods\Dragon_Quest_X_Offline\{Language}\contents\0100E2E0152E4000\romfs\Holiday\Content\Paks\pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak`
 >
 > ### Yuzu
 >
-> - Copy `English_Translation_Switch_v0.1.6` into 0100E2E0152E4000's mod data location (e.g.):
->   - `%YUZU_DIR%\load\0100E2E0152E4000\English_Translation\romfs\Holiday\Content\Paks\pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak`
+> - Copy `pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak` into `0100E2E0152E4000`'s mod data location (e.g.):
+>   - `%YUZU_DIR%\load\0100E2E0152E4000\{Language}\romfs\Holiday\Content\Paks\pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak`
 
 # Changelog
 
@@ -67,16 +67,16 @@
 
 <details><summary>Main Story</summary>
 
-|   Type   |                         Story Of \_                         |                                                                    Progress | Comment(s) |
-| :------: | :---------------------------------------------------------: | --------------------------------------------------------------------------: | :--------: |
-| Prologue |                                                             |                                                                             |            |
+|   Type   |                         Story Of \_                         |                                                                       Progress | Comment(s) |
+| :------: | :---------------------------------------------------------: | -----------------------------------------------------------------------------: | :--------: |
+| Prologue |                                                             |                                                                                |            |
 |          |                    Ethene<br><br>{Human}                    | `de` 🔴 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |          |                    Agrani<br><br>{Dwarf}                    | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |          |                Tsuskul Village<br><br>{Elf}                 | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |          |                Rangao Village<br><br>{Ogre}                 | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |          |              Pukulet Village<br><br>{Pukulipo}              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |          |                Leen Village<br><br>{Weddie}                 | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
-|  Vers 1  |                                                             |                                                                             |            |
+|  Vers 1  |                                                             |                                                                                |            |
 |          |             Gatara<br><br>{Key Emblem - Yellow}             | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |          |              Azlan<br><br>{Key Emblem - Green}              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |          |              Glen<br><br>{Key Emblem - Black}               | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
@@ -88,7 +88,7 @@
 |          |             Gartlant<br><br>{Key Emblem - Red}              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |          |           Megistris<br><br>{Key Emblem - Purple}            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |          |            Verinard<br><br>{Key Emblem - Silver}            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
-|  Vers 2  |                                                             |                                                                             |            |
+|  Vers 2  |                                                             |                                                                                |            |
 |          |             Lendersia<br><br>{The Grand Titus}              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |          |            Lendersia<br><br>{The 3 Butterflies}             | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |          |    Melsandy Village<br><br>{The 3 Butterflies - Silver}     | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
@@ -108,10 +108,10 @@
 
 <details><summary>Quests</summary>
 
-|     Type     | Quest |                                                                    Progress | Comment(s) |
-| :----------: | :---: | --------------------------------------------------------------------------: | :--------: |
+|     Type     | Quest |                                                                       Progress | Comment(s) |
+| :----------: | :---: | -----------------------------------------------------------------------------: | :--------: |
 | Super Useful |  001  | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🔴 |            |
-| Super Useful |  002  | `de` 🟡 <br> `en` 🟡 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🔴 |            |
+| Super Useful |  002  | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🔴 |            |
 | Super Useful |  003  | `de` 🟡 <br> `en` 🟡 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🔴 |            |
 |  Sub Story   |  004  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |              |  005  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
