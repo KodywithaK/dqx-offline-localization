@@ -112,7 +112,8 @@ jobs:
       - name: UnrealPak -Create
         run: |
           for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
-            mkdir -p ${{ github.workspace }}/test/staging/${lang}/Game/Content/NonAssets/ETP_ko \
+            mkdir -p ${{ github.workspace }}/test/staging/${lang}/Game/Content/NonAssets/ETP_ko
+            
             cp ${{ github.workspace }}/test/staging/${lang}/Game/Content/NonAssets/ETP/* \
             ${{ github.workspace }}/test/staging/${lang}/Game/Content/NonAssets/ETP_ko
 
