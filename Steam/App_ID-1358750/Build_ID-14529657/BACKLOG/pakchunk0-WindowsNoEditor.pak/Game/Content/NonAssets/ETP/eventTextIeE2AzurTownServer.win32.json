@@ -1456,9 +1456,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>年老的神鹿會離開群體，\n牠們喜歡在乘風使生活過的土地上度過餘生。\n<br>\n我一直在這裡照顧那些神鹿，\n這是一份非常重要的工作。"
   },
   "48231": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_05000`, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_000`, YESNO",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>Haa... At the lord's mansion, the Azlantelopes'\ncaretaker, Fushiko, makes my heart go pitter-patter.\n<br>\nI heard a rumor that Fushiko wants a flower called\nthe 'Windwhistle Lily', so I thought I'd give it to\nher as a present.\n<br>\nIt seems that <%sEV_QUE_NAME0>s in Azlan Region drop it, but...\nIt's just... Traveler, you're strong, aren't you?\n<br>\nPlease do me a favor! Will you defeat the <%sEV_QUE_NAME0>s\nin my place and get a Windwhistle Lily for me?",
+    "en": "<attr><feel_sad_one><end_attr>Haa... At the lord's mansion, the Azlantelopes' caretaker,\nFushiko, makes my heart go pitter-patter.\n<br>\nI heard a rumor that Fushiko wants a flower called\nthe \"<color_yellow>Windwhistle Lily<color_white>\", so I thought I'd give it to her as a\npresent.\n<br>\nIt seems that <color_red><%sEV_QUE_NAME0>s<color_white> in Azlan Region drop it, but...\nIt's just... Traveler, you're strong, aren't you?\n<br>\nPlease do me a favor! Will you defeat the <color_red><%sEV_QUE_NAME0>s<color_white>\nin my place and get a <color_yellow>Windwhistle Lily<color_white> for me?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1469,9 +1469,9 @@
     "zh-Hant": "<attr><feel_sad_one><end_attr>唉……我對在領主大人宅邸裡，\n負責照顧神鹿的節子小姐一見鍾情。\n<br>\n聽說節子小姐想要一種叫做風音百合的花，\n我想找來當作禮物送給她。\n<br>\n聽說這種花，\n可以從安須嵐地方的<%sEV_QUE_NAME0>身上取得……\n那個……旅行者你很強對吧？\n<br>\n拜託你了！\n可以代替我打敗<%sEV_QUE_NAME0>，\n取得風音百合嗎？"
   },
   "48232": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_05000`, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_000`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Aah, thank you so much! For hearing me out a favor\nlike this for me... You really are a nice person,\ny'know!\n<br>\nWell then, please be careful on your way, okay. I'll\nbe waiting for you here!",
+    "en": "<attr><feel_happy_lv1><end_attr>Aah, thank you so much! For hearing me out on a favor\nlike this for me... You really are a nice person, y'know!\n<br>\nWell then, please be careful on your way, okay. I'll be\nwaiting for you here!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1482,7 +1482,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊，謝謝你！\n居然願意接受這種請求……\n你真的是個大好人啊！\n<br>\n那請你路上注意安全。\n我會在這裡等你的！"
   },
   "48233": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, `<%sEV_QUE_NAME0>` =  `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_05000`, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_000`, QUESTS FULL",
     "de": "",
     "en": "Aah, thank you so much! But by any chance, don't you\nhave a lot of other favors to take care of?\n<br>\nSince I'm not in such a hurry, first please prioritize\nyour other request. And once you're free, please call\non me again, okay.",
     "es": "",
@@ -1495,9 +1495,9 @@
     "zh-Hant": "啊，太好了！\n可是你是不是有很多的事情要處理啊？\n<br>\n我沒有那麼著急，\n所以請你先處理其他事情吧。\n如果你之後有空的話，再來找我吧。"
   },
   "48234": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_05000`, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_000`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv3><end_attr>Ugh...! O-okay... But my strength can't compete with\na <%sEV_QUE_NAME0>'s. Haa... What should I do...",
+    "en": "<attr><feel_sad_lv3><end_attr>Ugh...! O-okay... But my strength can't compete with\na <color_red><%sEV_QUE_NAME0><color_white>'s. Haa... What should I do...",
     "es": "",
     "fr": "",
     "it": "",
@@ -1508,9 +1508,9 @@
     "zh-Hant": "<attr><feel_sad_lv3><end_attr>唔……！好、好吧……\n<br>\n但以我的力量無法打敗<%sEV_QUE_NAME0>。\n唉……該怎麼辦才好呢……"
   },
   "48235": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_05000`, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_010`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I... Fushiko wants a flower called the 'Windwhistle\nLily', so I thought I'd give it to her as a present.<open_irai><bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr>I... Fushiko wants a flower called the \"<color_yellow>Windwhistle Lily<color_white>\",\nso I thought I'd give it to her as a present.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1521,9 +1521,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>我……想把節子小姐想要的風音百合找來，\n然後當作禮物送給她。<open_irai><bw_break>"
   },
   "48236": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_05000`, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_010",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>It seems that <%sEV_QUE_NAME0>s in Azlan Region drop it, so\nplease take care of it for me, okay.",
+    "en": "<attr><feel_happy_lv1><end_attr>It seems that <color_red><%sEV_QUE_NAME0>s<color_white> in Azlan Region drop it, so\nplease take care of it for me, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1534,9 +1534,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>據說安須嵐地方的<%sEV_QUE_NAME0>會掉落這種花，\n拜託你了。"
   },
   "48237": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_020`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Aah, that face...! I get it! It appears that you got\nme the Windwhistle Lily, right.",
+    "en": "<attr><feel_happy_lv1><end_attr>Aah, that face...! I get it! It appears that you got\nme the <color_yellow>Windwhistle Lily<color_white>, right.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1546,8 +1546,21 @@
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>啊啊，看您的样子……\n我知道了！\n看来您已经得到风音百合了吧。",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊，看你的表情……！我知道了！\n看來你已經得到風音百合了呢。"
   },
+  "48240": {
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_020",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> die <color_yellow>Lilie vom Klang des Windes<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Windwhistle Lily<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> el <color_yellow>Lirio del Sonido del Viento<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> lev<color_yellow>Lys du Son du Vent<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "it": "Dare <%sEV_SYSMSG_NPC> il <color_yellow>Giglio del Suono del Vento<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ja": "マエタケに　風音のユリを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ko": "마에타케에게 바람 소리 백합을 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> o <color_yellow>Lírio do Som do Vento<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hans": "要把风音百合交给前武吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hant": "是否要將風音百合交給前武？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
   "48238": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_020`, NO",
     "de": "",
     "en": "<attr><feel_sad_lv2><end_attr>Oh... Is that so. Sorry for jumping to the wrong\nconclusion. I'll be waiting for you, so please take\ncare of it for me, okay.",
     "es": "",
@@ -1559,8 +1572,21 @@
     "zh-Hans": "<attr><feel_sad_lv2><end_attr>啊……是这样么。\n对不起，我有点太心急了。\n我会等着您的，拜托了。",
     "zh-Hant": "<attr><feel_sad_lv2><end_attr>啊……是這樣嗎。\n抱歉，我有點過於心急了，\n我會在這裡等著，拜託你了。"
   },
+  "48241": {
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_020",
+    "de": "<pc> gab der <%sEV_SYSMSG_NPC> die\n<color_yellow>Lilie vom Klang des Windes<color_white>!",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Windwhistle Lily<color_white>!",
+    "es": "¡<pc> le dio a la <%sEV_SYSMSG_NPC> el\n<color_yellow>Lirio del Sonido del Viento<color_white>!",
+    "fr": "<pc> a donné au <%sEV_SYSMSG_NPC>\nlev<color_yellow>Lys du Son du Vent<color_white>!",
+    "it": "<pc> ha dato alla <%sEV_SYSMSG_NPC>\nil <color_yellow>Giglio del Suono del Vento<color_white>!",
+    "ja": "<pc>は　マエタケに\n風音のユリを　渡した！",
+    "ko": "{pc}|hpp(은,는) 마에타케에게\n바람 소리 백합을 건넸다!",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> o <color_yellow>Lírio do Som do Vento<color_white>!",
+    "zh-Hans": "<pc>把风音百合\n交给了前武！",
+    "zh-Hant": "<pc>把風音百合\n交給了前武！"
+  },
   "48239": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_020`, YES",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Wow! A sweet and beautiful flower like this suits\nFushiko... With this, she'll definitely be delighted,\nno mistaking it!<bw_break>",
     "es": "",
@@ -1573,9 +1599,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哇！如此可愛又美麗的花……\n多麼適合節子小姐啊。\n這一定會讓她很開心的！<bw_break>"
   },
   "48531": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>But... I-I can't do it. When I stand in front of\nFushiko already, I get so nervous that I can't do\nanything...\n<br>\nThat's it! I'll attach a message card to the flower!\nLet's see... ''Always thinking of you -Maetake''...\nThat's good!<bw_break>",
+    "en": "<attr><feel_sad_one><end_attr>But... I-I can't do it. When I stand in front of Fushiko\nalready, I get so nervous that I can't do anything...\n<br>\nThat's it! I'll attach a message card to the flower!\nLet's see... \"Always thinking of you     -Maetake\"...\nThat's good!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1586,9 +1612,9 @@
     "zh-Hant": "<attr><feel_sad_one><end_attr>可是……我、我沒辦法。\n只要站在節子小姐面前，\n我就緊張到什麼都做不了……\n<br>\n對了！我可以隨花附上一張留言卡片！\n我想想……「我隨時隨地都想著妳」……\n前武敬上……這樣就沒問題了！<bw_break>"
   },
   "48785": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Umm... Would you give this to Fushiko for me? Fushiko\nis in Azlantelope pen at the lord's mansion!",
+    "en": "<attr><feel_sad_lv1><end_attr>Umm... Would you give this to Fushiko for me? Fushiko\nis in the Azlantelope pen at the lord's mansion!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1598,34 +1624,8 @@
     "zh-Hans": "<attr><feel_sad_lv1><end_attr>那个……您能不能替我把它交给节子小姐？\n节子小姐就在领主大人宅邸里的\n神鹿小屋里！",
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>那個……你可以幫我把這個送給節子小姐嗎？\n節子小姐就在領主大人宅邸裡的神鹿小屋。"
   },
-  "48240": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "Give Maetake the Windwhistle Lily?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "マエタケに　風音のユリを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "ko": "마에타케에게 바람 소리 백합을 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "pt-BR": "",
-    "zh-Hans": "要把风音百合交给前武吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "zh-Hant": "是否要將風音百合交給前武？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
-  },
-  "48241": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> gave Maetake the Windwhistle Lily!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　マエタケに\n風音のユリを　渡した！",
-    "ko": "{pc}|hpp(은,는) 마에타케에게\n바람 소리 백합을 건넸다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把风音百合\n交给了前武！",
-    "zh-Hant": "<pc>把風音百合\n交給了前武！"
-  },
   "48786": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
     "de": "",
     "en": "<pc> was entrusted with the Windwhistle Lily\nby Maetake!<me 60>",
     "es": "",
@@ -1637,8 +1637,21 @@
     "zh-Hans": "前武将风音百合\n托付给了<pc>！<me 60>",
     "zh-Hant": "前武把風音百合\n託付給<pc>了！<me 60>"
   },
+  "48250": {
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
+    "de": "",
+    "en": "<attr><feel_sad_lv3><end_attr>I-I can't do it. When I stand in front of Fushiko already,\nI get so nervous that I can't do anything...\n<br>\nPlease, would you give this to Fushiko for me? Fushiko\nis in the Azlantelope pen at the lord's mansion!<open_irai>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_sad_lv3><end_attr>「ボ　ボク　ダメなんです。\n　いざ　フシコさんの前に立つと\n　キンチョーで　もう　何もできなくて……。\n<br>\n「どうか　代わりにフシコさんに　風音のユリを\n　渡してもらえませんか？　フシコさんなら\n　領主様のお屋敷の　カムシカ小屋にいますから。<open_irai>",
+    "ko": "<attr><feel_sad_lv3><end_attr>: 저, 저는 못 해요.\n　막상 후시코 씨 앞에 서면\n　긴장해서 아무것도 못 하거든요…….\n<br>\n: 저 대신 후시코 씨에게 바람 소리 백합을\n　전달해 주실 수 있을까요? 후시코 씨는\n　영주님 저택의 카무시카 우리에 있을 거예요.<open_irai>",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_sad_lv3><end_attr>我……我不行。\n我一站在节子小姐面前，\n就紧张得什么都说不出……\n<br>\n您能不能替我把风音百合交给节子小姐？\n节子小姐就在领主大人宅邸里的\n神鹿小屋里。<open_irai>",
+    "zh-Hant": "<attr><feel_sad_lv3><end_attr>我、我沒辦法。\n只要站在節子小姐面前，\n我就緊張到什麼都做不了……\n<br>\n可以請你代替我將風音百合送給節子小姐嗎？\n節子小姐就在領主大人宅邸裡的神鹿小屋。<open_irai>"
+  },
   "48243": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`, YESNO",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>My, hello. You smell nice; do you happen to have\nflowers?",
     "es": "",
@@ -1650,8 +1663,21 @@
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>您好。\n好香啊，您是不是带着花呀？",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊，你好。\n總覺得有股很香的味道，\n難道你身上帶著花嗎？"
   },
+  "48247": {
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> die <color_yellow>Lilie vom Klang des Windes<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Windwhistle Lily<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> el <color_yellow>Lirio del Sonido del Viento<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> lev<color_yellow>Lys du Son du Vent<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "it": "Dare <%sEV_SYSMSG_NPC> il <color_yellow>Giglio del Suono del Vento<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ja": "フシコに　風音のユリを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ko": "후시코에게 바람 소리 백합을 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> o <color_yellow>Lírio do Som do Vento<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hans": "要把风音百合交给节子吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hant": "是否要將風音百合交給節子？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
   "48244": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`, NO",
     "de": "",
     "en": "<attr><feel_sad_lv1><end_attr>Just my imagination? Oh no, I'm... So embarrassed.",
     "es": "",
@@ -1663,8 +1689,21 @@
     "zh-Hans": "<attr><feel_sad_lv1><end_attr>咦，是我搞错了么？\n我真是的……真丢人啊。",
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>哎呀，是我的錯覺嗎？\n討厭，我真是的……好丟臉啊。"
   },
+  "48248": {
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
+    "de": "<pc> gab der <%sEV_SYSMSG_NPC> die\n<color_yellow>Lilie vom Klang des Windes<color_white>!",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Windwhistle Lily<color_white>!",
+    "es": "¡<pc> le dio a la <%sEV_SYSMSG_NPC> el\n<color_yellow>Lirio del Sonido del Viento<color_white>!",
+    "fr": "<pc> a donné au <%sEV_SYSMSG_NPC>\nle <color_yellow>Lys du Son du Vent<color_white>!",
+    "it": "<pc> ha dato alla <%sEV_SYSMSG_NPC>\nil <color_yellow>Giglio del Suono del Vento<color_white>!",
+    "ja": "<pc>は　フシコに\n風音のユリを　渡した！",
+    "ko": "{pc}|hpp(은,는) 후시코에게\n바람 소리 백합을 건넸다!",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> o <color_yellow>Lírio do Som do Vento<color_white>!",
+    "zh-Hans": "<pc>把风音百合\n交给了节子！",
+    "zh-Hant": "<pc>把風音百合\n交給了節子！"
+  },
   "48245": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`, YES",
     "de": "",
     "en": "<attr><feel_happy_lv3><end_attr>My, Maetake gave me this flower? I'm so happy!\nWindwhistle Lilies are my favorite.",
     "es": "",
@@ -1677,7 +1716,7 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>哇，這花是前武送我的嗎？\n我好開心！\n我最喜歡風音百合了。"
   },
   "48246": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Windwhistle Lilies are very rare flowers that bloom\non super windy hills and are said to hold the power\nof the wind.\n<br>\nIt's said that Azlantelopes eating Windwhistle Lilies\nis what makes them run like the wind and jump so high.",
     "es": "",
@@ -1689,36 +1728,10 @@
     "zh-Hans": "<attr><feel_happy_lv2><end_attr>风音百合盛开在风力强劲的山丘上，\n蕴藏着风之力量，\n是一种很稀有的花。\n<br>\n听说神鹿只要吃了风音百合，\n就会如风一般健步如飞。",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>風音百合只會開在風勢強勁的山丘上，\n據說它會儲存風的力量，\n是非常稀有的花喔。\n<br>\n聽說神鹿只要吃了風音百合，\n就能跑得像風一樣快，跳躍得更高。"
   },
-  "48247": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "Give Fushiko the Windwhistle Lily?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "フシコに　風音のユリを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "ko": "후시코에게 바람 소리 백합을 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "pt-BR": "",
-    "zh-Hans": "要把风音百合交给节子吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "zh-Hant": "是否要將風音百合交給節子？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
-  },
-  "48248": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> gave Fushiko the Windwhistle Lily!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　フシコに\n風音のユリを　渡した！",
-    "ko": "{pc}|hpp(은,는) 후시코에게\n바람 소리 백합을 건넸다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把风音百合\n交给了节子！",
-    "zh-Hant": "<pc>把風音百合\n交給了節子！"
-  },
   "48249": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
     "de": "",
-    "en": "Fushiko fed the Windwhistle Lily to the Azlantelope.\nHowever, Fushiko didn't notice the message card and\nthe Azlantelope ate them both!",
+    "en": "Fushiko fed the Windwhistle Lily to the Azlantelope.\nHowever, Fushiko didn't notice the message card, so\nthe Azlantelope ate them both!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1728,21 +1741,8 @@
     "zh-Hans": "节子把风音百合喂给了神鹿。\n<br>\n但是节子没有注意到心意卡，\n一起喂给神鹿吃了！",
     "zh-Hant": "節子把風音百合餵給神鹿吃。\n<br>\n而且節子沒有注意到留言卡片，\n一起餵給神鹿吃掉了！"
   },
-  "48250": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<attr><feel_sad_lv3><end_attr>I-I can't do it. When I stand in front of Fushiko\nalready, I get so nervous that I can't do anything...\n<br>\nPlease, would you give this to Fushiko for me?\nFushiko is in Azlantelope pen at the lord's mansion!<open_irai>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_sad_lv3><end_attr>「ボ　ボク　ダメなんです。\n　いざ　フシコさんの前に立つと\n　キンチョーで　もう　何もできなくて……。\n<br>\n「どうか　代わりにフシコさんに　風音のユリを\n　渡してもらえませんか？　フシコさんなら\n　領主様のお屋敷の　カムシカ小屋にいますから。<open_irai>",
-    "ko": "<attr><feel_sad_lv3><end_attr>: 저, 저는 못 해요.\n　막상 후시코 씨 앞에 서면\n　긴장해서 아무것도 못 하거든요…….\n<br>\n: 저 대신 후시코 씨에게 바람 소리 백합을\n　전달해 주실 수 있을까요? 후시코 씨는\n　영주님 저택의 카무시카 우리에 있을 거예요.<open_irai>",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_sad_lv3><end_attr>我……我不行。\n我一站在节子小姐面前，\n就紧张得什么都说不出……\n<br>\n您能不能替我把风音百合交给节子小姐？\n节子小姐就在领主大人宅邸里的\n神鹿小屋里。<open_irai>",
-    "zh-Hant": "<attr><feel_sad_lv3><end_attr>我、我沒辦法。\n只要站在節子小姐面前，\n我就緊張到什麼都做不了……\n<br>\n可以請你代替我將風音百合送給節子小姐嗎？\n節子小姐就在領主大人宅邸裡的神鹿小屋。<open_irai>"
-  },
   "48251": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>Windwhistle Lilies are very rare flowers that bloom\non super windy hills and are said to hold the power\nof the wind.\n<br>\nIt's said that Azlantelopes eating Windwhistle Lilies\nis what makes them run like the wind and jump so high.",
     "es": "",
@@ -1755,7 +1755,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>風音百合只會開在風勢強勁的山丘上，\n據說它會儲存風的力量，\n是非常稀有的花喔。\n<br>\n聽說神鹿只要吃了風音百合，\n就能跑得像風一樣快，跳躍得更高。"
   },
   "48252": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_040`",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Ah, traveler! That face seems to say you delivered\nFushiko the lily from me! Truly, thank you so much.\n<br>\nI wonder if Fushiko has noticed the message card by\nnow...? Aah! My heart's already pitter-pattering like\ncrazy!\n<br>\nThis is my way of saying thanks! Don't be modest,\nplease accept it, okay.",
     "es": "",
@@ -1768,7 +1768,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>啊，旅行者！\n看你的表情，應該已經把百合送給節子小姐了吧！\n真的非常感謝你。\n<br>\n現在節子小姐應該已經看到我的留言卡片了吧……？\n啊啊！我的心跳加速，感覺快瘋了！\n<br>\n這是我要給你的謝禮！\n請別客氣，收下吧。"
   },
   "48253": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_200`",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>Azlantelopes are considered the incarnations of wind,\nto ride one is a very, very difficult task indeed.\n<br>\nStill, I long to do it... I wonder what kind of views\nI can see from the top of a high-flying Azlantelope's\nback?",
     "es": "",
@@ -1781,7 +1781,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>想駕馭被稱為風之化身的神鹿，\n是非常困難的一件事。\n<br>\n但我真的很嚮往呢……\n在高高躍起的神鹿背上，\n會看見什麼樣的景色呢？"
   },
   "48254": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_200`",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>I wonder if Fushiko has noticed the message card by\nnow...? Aah! My heart's already pitter-pattering like\ncrazy!",
     "es": "",
