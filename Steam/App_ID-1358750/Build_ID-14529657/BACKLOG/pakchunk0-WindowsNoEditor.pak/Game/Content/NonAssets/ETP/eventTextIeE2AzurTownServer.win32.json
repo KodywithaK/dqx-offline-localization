@@ -1458,7 +1458,7 @@
   "48231": {
     "$comments": "🟡, Quest (004) {Sub Story}, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_05000`, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_000`, YESNO",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>Haa... At the lord's mansion, the Azlantelopes' caretaker,\nFushiko, makes my heart go pitter-patter.\n<br>\nI heard a rumor that Fushiko wants a flower called\nthe \"<color_yellow>Windwhistle Lily<color_white>\", so I thought I'd give it to her as a\npresent.\n<br>\nIt seems that <color_red><%sEV_QUE_NAME0>s<color_white> in Azlan Region drop it, but...\nIt's just... Traveler, you're strong, aren't you?\n<br>\nPlease do me a favor! Will you defeat the <color_red><%sEV_QUE_NAME0>s<color_white>\nin my place and get a <color_yellow>Windwhistle Lily<color_white> for me?",
+    "en": "<attr><feel_sad_one><end_attr>Haa... At the lord's mansion, the Azlantelopes' caretaker,\nFushiko, makes my heart go pitter-patter.\n<br>\nI heard a rumor that Fushiko wants a flower called the\n\"<color_yellow>Windwhistle Lily<color_white>\", so I thought I'd give it to her as a\npresent.\n<br>\nIt seems that <color_red><%sEV_QUE_NAME0>s<color_white> in Azlan Region drop it, but...\nIt's just... Traveler, you're strong, aren't you?\n<br>\nPlease do me a favor! Will you defeat the <color_red><%sEV_QUE_NAME0>s<color_white>\nin my place and get a <color_yellow>Windwhistle Lily<color_white> for me?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1536,7 +1536,7 @@
   "48237": {
     "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_020`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Aah, that face...! I get it! It appears that you got\nme the <color_yellow>Windwhistle Lily<color_white>, right.",
+    "en": "<attr><feel_happy_lv1><end_attr>Aah, that face...! I get it! It appears that you got me the\n<color_yellow>Windwhistle Lily<color_white>, right.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1627,7 +1627,7 @@
   "48786": {
     "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
     "de": "",
-    "en": "<pc> was entrusted with the Windwhistle Lily\nby Maetake!<me 60>",
+    "en": "<pc> was entrusted with the <color_yellow>Windwhistle Lily<color_white>\nby Maetake!<me 60>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1715,19 +1715,6 @@
     "zh-Hans": "<attr><feel_happy_lv3><end_attr>哎呀，前武送这花给我？\n我很开心哦！\n我最喜欢风音百合了。",
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>哇，這花是前武送我的嗎？\n我好開心！\n我最喜歡風音百合了。"
   },
-  "48246": {
-    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
-    "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Windwhistle Lilies are very rare flowers that bloom\non super windy hills and are said to hold the power\nof the wind.\n<br>\nIt's said that Azlantelopes eating Windwhistle Lilies\nis what makes them run like the wind and jump so high.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv2><end_attr>「風音のユリは　強い風の吹く丘に咲き\n　風のチカラをたくわえるという\n　たいへん　めずらしい　お花なのです。\n<br>\n「カムシカは　風音のユリを食べることで\n　風のように速く走り　高く跳ぶことができると\n　言われているんですよ。",
-    "ko": "<attr><feel_happy_lv2><end_attr>: 바람 소리 백합은 바람이 강한 언덕에 펴서\n　바람의 힘을 흡수한다는\n　아주 희귀한 꽃이에요.\n<br>\n: 카무시카는 바람 소리 백합을 먹고서\n　바람처럼 빠르게 달리거나\n　높이 뛸 수 있다고 해요.",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv2><end_attr>风音百合盛开在风力强劲的山丘上，\n蕴藏着风之力量，\n是一种很稀有的花。\n<br>\n听说神鹿只要吃了风音百合，\n就会如风一般健步如飞。",
-    "zh-Hant": "<attr><feel_happy_lv2><end_attr>風音百合只會開在風勢強勁的山丘上，\n據說它會儲存風的力量，\n是非常稀有的花喔。\n<br>\n聽說神鹿只要吃了風音百合，\n就能跑得像風一樣快，跳躍得更高。"
-  },
   "48249": {
     "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
     "de": "",
@@ -1740,6 +1727,19 @@
     "pt-BR": "",
     "zh-Hans": "节子把风音百合喂给了神鹿。\n<br>\n但是节子没有注意到心意卡，\n一起喂给神鹿吃了！",
     "zh-Hant": "節子把風音百合餵給神鹿吃。\n<br>\n而且節子沒有注意到留言卡片，\n一起餵給神鹿吃掉了！"
+  },
+  "48246": {
+    "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",
+    "de": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Windwhistle Lilies are very rare flowers that bloom\non super windy hills and are said to hold the power\nof the wind.\n<br>\nIt's said that Azlantelopes eating Windwhistle Lilies is\nwhat makes them run like the wind and jump so high.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv2><end_attr>「風音のユリは　強い風の吹く丘に咲き\n　風のチカラをたくわえるという\n　たいへん　めずらしい　お花なのです。\n<br>\n「カムシカは　風音のユリを食べることで\n　風のように速く走り　高く跳ぶことができると\n　言われているんですよ。",
+    "ko": "<attr><feel_happy_lv2><end_attr>: 바람 소리 백합은 바람이 강한 언덕에 펴서\n　바람의 힘을 흡수한다는\n　아주 희귀한 꽃이에요.\n<br>\n: 카무시카는 바람 소리 백합을 먹고서\n　바람처럼 빠르게 달리거나\n　높이 뛸 수 있다고 해요.",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv2><end_attr>风音百合盛开在风力强劲的山丘上，\n蕴藏着风之力量，\n是一种很稀有的花。\n<br>\n听说神鹿只要吃了风音百合，\n就会如风一般健步如飞。",
+    "zh-Hant": "<attr><feel_happy_lv2><end_attr>風音百合只會開在風勢強勁的山丘上，\n據說它會儲存風的力量，\n是非常稀有的花喔。\n<br>\n聽說神鹿只要吃了風音百合，\n就能跑得像風一樣快，跳躍得更高。"
   },
   "48251": {
     "$comments": "🟡, Quest (004) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_008_1_030`",

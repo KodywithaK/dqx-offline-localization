@@ -787,7 +787,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |       `STT_Monster_Tips2_Ver2`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                         |
 |       `STT_Monster_Tips2_ver1`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                         |
 |          `STT_Monster_Type`           |     |                                             |                                        |
-|             `STT_NpcInfo`             |     |                                             |                                        |
+|             `STT_NpcInfo`             |     |                                             | NPC Info, see "pakchunk0-{PLATFORM}.utoc\Game\Content\Datatables\Characters\NpcInfo.uasset" |
 |      `STT_OddStatusExplanation`       |     |                                             |                                        |
 |          `STT_OddStatusName`          |     |                                             |                                        |
 |            `STT_PT_InOut`             |     |                                             |                                        |
@@ -2076,13 +2076,39 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 
 </details>
 
-### Example - Give? Gave!
+### Example - Give? Gave! Got!
 
 <details>
 
 ```json
 {
   "eventTextSysQuestsServer.win32.json": {
+    "Sample_GIVE": {
+      "$comments": "Quest (001) {Super Useful}, `?`",
+      "de": "Gibst du <%sEV_SYSMSG_NPC> (den, die, das) <color_yellow>ITEM<color_white>?\n",
+      "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>ITEM<color_white>?\n",
+      "es": "¿Darles <%sEV_SYSMSG_NPC> (la, el, le) <color_yellow>ITEM<color_white>?\n",
+      "fr": "Donnes <%sEV_SYSMSG_NPC> (la, le, lea/l') <color_yellow>ITEM<color_white>?\n",
+      "it": "Dare <%sEV_SYSMSG_NPC> (la/l', il/l'/lo, TBD) <color_yellow>ITEM<color_white>?\n",
+      "ja": "きらめきインクを　渡しますか？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
+      "ko": "반짝반짝 잉크를 건네겠습니까?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
+      "pt-BR": "Dê a <%sEV_SYSMSG_NPC> (a, o, ê) <color_yellow>ITEM<color_white>?\n",
+      "zh-Hans": "要交出闪闪墨水吗？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
+      "zh-Hant": "是否要交出閃閃墨水？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>"
+    },
+    "Sample_GAVE": {
+      "$comments": "Quest (001) {Super Useful}, `!`",
+      "de": "<pc> gab <%sEV_SYSMSG_NPC> (den, die, das) <color_yellow>ITEM<color_white>!",
+      "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>ITEM<color_white>!",
+      "es": "¡<pc> le dio a <%sEV_SYSMSG_NPC> (la, el, le) <color_yellow>ITEM<color_white>!",
+      "fr": "<pc> a donné a <%sEV_SYSMSG_NPC> (la, le, lea/l') <color_yellow>ITEM<color_white>!",
+      "it": "<pc> ha dato a <%sEV_SYSMSG_NPC> (la/l', il/l'/lo, TBD) <color_yellow>ITEM<color_white>!",
+      "ja": "<pc>は\nきらめきインクを　渡した！",
+      "ko": "{pc}|hpp(은,는)\n반짝반짝 잉크를 건넸다!",
+      "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> (a, o, ê) <color_yellow>ITEM<color_white>!",
+      "zh-Hans": "<pc>交出了\n闪闪墨水！",
+      "zh-Hant": "<pc>交出了\n閃閃墨水！"
+    },
     "44001": {
       "$comments": "Quest (001) {Super Useful}, `?`",
       "de": "Gibst du <%sEV_SYSMSG_NPC> die <color_yellow>Glitzernde Tinte<color_white>?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
@@ -2108,6 +2134,35 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> a <color_yellow>Tinta Reluzente<color_white>!",
       "zh-Hans": "<pc>交出了\n闪闪墨水！",
       "zh-Hant": "<pc>交出了\n閃閃墨水！"
+    }
+  },
+  // ...
+  "STT_Quest_ItemGet": {
+    "SYSTEXT_GetItemText_Comp_*Q_###_#_##_#": {
+      "$comments": "Sample, GOT, `<%sEV_QUE_NAME0>` = Monster Name",
+      "de": "(Die, Der, Das) <%sEV_QUE_NAME0> hat (den, die, das) ITEM fallen lassen.\n<br>\n{pc} hat (den, die, das) <color_yellow>ITEM<color_white> (Wichtig) bekommen!<se_nots System Item>\n<auto_bw=5000><close>",
+      "en": "The <%sEV_QUE_NAME0> dropped the ITEM.\n<br>\n{pc} obtained the <color_yellow>ITEM<color_white> (Key Item)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "es": "(La, El, Le) <%sEV_QUE_NAME0> se le cayó (la, el, le) ITEM.\n<br>\n¡{pc} ha recibido (la, el, le) <color_yellow>ITEM<color_white> (Objetos Importantes)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "fr": "(La, Le, Lea/L') <%sEV_QUE_NAME0> a fait tomber (la, le, lea/l')ITEM.\n<br>\n{pc} a reçu (la, le, lea/l')<color_yellow>ITEM<color_white> (Objets Importants)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "it": "(La/L', Il/L'/Lo, TBD) <%sEV_QUE_NAME0> ha lasciato cadere (la/l', il/l'/lo, TBD)ITEM.\n<br>\n{pc} ha ricevuto (la/l', il/l'/lo, TBD)<color_yellow>ITEM<color_white> (Oggetti Importanti)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "ja": "<%sEV_QUE_NAME0>は\nきらめきインクを　落としていった。\n<auto_br=5000>\n{pc}は\nきらめきインク（だいじなもの）を\n手に入れた！<se_nots System Item>\n<auto_bw=5000><close>",
+      "ko": "{%sEV_QUE_NAME0}|hpp(은,는)\n반짝반짝 잉크를 떨어뜨리고 갔다.\n<auto_br=5000>\n{pc}|hpp(은,는)\n반짝반짝 잉크(중요한 물건)를\n손에 넣었다!<se_nots System Item>\n<auto_bw=5000><close>",
+      "pt-BR": "(A, O, Ê) <%sEV_QUE_NAME0> deixou (a, o, ê) ITEM!\n<br>\n{pc} obteve (a, o, ê) <color_yellow>ITEM<color_white> (Iten Importante)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "zh-Hans": "<%sEV_QUE_NAME0>掉落了\n闪闪墨水。\n<auto_br=5000>\n{pc}获得了\n闪闪墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>",
+      "zh-Hant": "<%sEV_QUE_NAME0>\n掉落了閃閃墨水。\n<auto_br=5000>\n{pc}\n獲得了\n閃閃墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>"
+    },
+    "SYSTEXT_GetItemText_Comp_KQ_001_1_10_2": {
+      "$comments": "🟢, Quest (001) {Super Useful}, <%sEV_QUE_NAME0> = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_00400`",
+      "de": "Der <%sEV_QUE_NAME0> hat die Glitzernde Tinte fallen\nlassen.\n<br>\n{pc} hat die <color_yellow>Glitzernde Tinte<color_white> (Wichtig)\nbekommen!<se_nots System Item>\n<auto_bw=5000><close>",
+      "en": "The <%sEV_QUE_NAME0> dropped the Glittering Ink.\n<br>\n{pc} obtained the <color_yellow>Glittering Ink<color_white> (Key Item)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "es": "El <%sEV_QUE_NAME0> se le cayó la Tinta Centelleante.\n<br>\n¡{pc} ha recibido la <color_yellow>Tinta Centelleante<color_white>\n(Objetos Importantes)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "fr": "Le <%sEV_QUE_NAME0> a fait tomber l'Encre Scintillante.\n<br>\n{pc} a reçu l'<color_yellow>Encre Scintillante<color_white>\n(Objets Importants)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "it": "Il <%sEV_QUE_NAME0> ha lasciato cadere l'Inchiostro Scintillante.\n<br>\n{pc} ha ricevuto l'<color_yellow>Inchiostro Scintillante<color_white>\n(Oggetti Importanti)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "ja": "<%sEV_QUE_NAME0>は\nきらめきインクを　落としていった。\n<auto_br=5000>\n{pc}は\nきらめきインク（だいじなもの）を\n手に入れた！<se_nots System Item>\n<auto_bw=5000><close>",
+      "ko": "{%sEV_QUE_NAME0}|hpp(은,는)\n반짝반짝 잉크를 떨어뜨리고 갔다.\n<auto_br=5000>\n{pc}|hpp(은,는)\n반짝반짝 잉크(중요한 물건)를\n손에 넣었다!<se_nots System Item>\n<auto_bw=5000><close>",
+      "pt-BR": "O <%sEV_QUE_NAME0> deixou a Tinta Reluzente!\n<br>\n{pc} obteve a <color_yellow>Tinta Reluzente<color_white> (Iten Importante)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "zh-Hans": "<%sEV_QUE_NAME0>掉落了\n闪闪墨水。\n<auto_br=5000>\n{pc}获得了\n闪闪墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>",
+      "zh-Hant": "<%sEV_QUE_NAME0>\n掉落了閃閃墨水。\n<auto_br=5000>\n{pc}\n獲得了\n閃閃墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>"
     }
   }
 }
