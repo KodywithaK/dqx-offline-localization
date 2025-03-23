@@ -1,8 +1,8 @@
 {
   "49051": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_000]` YESNO_1",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Oh, hello! Are you a traveler? This is\nBolter's Bag Workshop, my father's workshop.\nThe large item bags he makes can hold up to\n<br>\n100 different items, so they're very popular\nwith travelers. But my dream is to travel\naround the world like a traveler rather than a\n<br>\ncraftsman! My father says that's what I want\nto do. I'd like to hear about your travels, if\nyou don't mind.<yesno><break>",
+    "en": "<attr><feel_happy_lv1><end_attr>Ah, hello! Are you a traveler? This is Bolter's Bag\nWorkshop; my father's workshop.\n<br>\nThe large item bags that my father makes can hold up\nto 100 different types of items, so they're super\npopular with travelers.\n<br>\nBut my dream is to be more than a craftsman, like\nyou, adventurer, touring around the wide world!\nMy father even said \"okay\", although...\n<br>\nIf it's fine by you, I'd like to hear about your\ntravels though... Maybe, adventurer, did you come because\nyou wanted one of the large item bags that he makes?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -13,9 +13,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊，你好！你是旅行者嗎？\n這裡是博爾塔製包工房，\n我父親工作的地方。\n<br>\n父親做的大道具包可以放進１００種消耗品，\n在旅行者之間非常受歡迎喔。\n<br>\n不過比起工匠，我更想要像旅行者你一樣，\n走遍寬廣的世界，這是我的夢想！\n而且父親也說這個想法不錯……<br>\n如果不介意的話，\n我是很希望你能和我聊聊旅途中遇到的事啦……\n你該不會也是為了\n父親做的大道具包來的吧？<yesno><break>"
   },
   "49052": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_000]`, NO_1",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Good! Then I'm sure we'll have lots to talk\nabout. I know it's a small workshop, but\nplease take your time.",
+    "en": "<attr><feel_happy_lv2><end_attr>Good! If that's the case, I'm sure we'll have lots to\ntalk about, won't we. I know it's a small workshop,\nbut certainly, please take your time.",
     "es": "",
     "fr": "",
     "it": "",
@@ -26,9 +26,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>太好了！\n這樣我就能聽很多故事了！\n我們工房雖然不大，但還是希望你能多坐一下。"
   },
   "49053": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_000]`, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_07800`, `<%sEV_QUE_NAME1>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_02201`, YESNO_2",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Hmmm. I knew it. I understand. I'll ask my\nfather when he comes back. But it's my\nfather's rule that when he makes a bag for a\n<br>\ntraveler, he asks the traveler to gather the\nmaterials himself. Well, there are two\nmaterials needed. First, Giant Lizard Skin\n<br>\nwhich is often dropped by <%sEV_QUE_NAME0> in\nUpper Jule Island, and Tanning Extract which\nis dropped by <%sEV_QUE_NAME1> in Muse Coast.\n<br>\nWith these two items, you can make a big item\nbag that can hold 100 different items.",
+    "en": "<attr><feel_normal_lv1><end_attr>...Hmm. I knew it; Is that so. Understood. When my\nfather returns, I'll ask him, okay.\n<br>\nBut, when it's time to make a traveler's bag, they\nhave to go get the materials themselves; it's my\nfather's rules.\n<br>\nUmm... There are 2 materials needed. First, <color_yellow>Giant Lizard\nSkin<color_white> that <color_red><%sEV_QUE_NAME0>s<color_white> on Upper Jule Island often\ndrop.\n<br>\nAnd then, <color_yellow>Tanning Extract<color_white> that <color_red><%sEV_QUE_NAME1>s<color_white> in\nMuse Coast drop.\n<br>\nWith those 2 items, a large item bag that holds 100\ntypes of items can be made, but, will you try doing it?",
     "es": "",
     "fr": "",
     "it": "",
@@ -38,10 +38,23 @@
     "zh-Hans": "<attr><feel_normal_lv1><end_attr>嗯……果然是这样啊。\n好吧，等父亲回来后，\n我去拜托他。\n<br>\n不过，\n父亲给旅行者制作背包时，\n从来都是让旅行者自己收集材料。\n<br>\n嗯……必要的材料有两个。\n一个是玖莱岛上层的<%sEV_QUE_NAME0>\n经常掉落的大蜥蜴的皮。\n<br>\n另一个是鞣革精华液，\n缪兹海岸的\n<%sEV_QUE_NAME1>会掉落。\n<br>\n只要有这两样东西，\n就可以制作能放１００种用品的大道具包，\n要试试看吗？",
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>嗯……果然是這樣嗎？\n我知道了，父親回來以後我會拜託他。\n<br>\n但是在幫旅行者做背包的時候，\n材料要旅行者自己收集，\n是父親一貫的規矩。\n<br>\n我看看……需要的材料有兩種。\n首先是大蜥蜴皮，\n在玖萊島上層的<%sEV_QUE_NAME0>經常掉落。\n<br>\n另一個是鞣革精華。\n在繆茲海岸的<%sEV_QUE_NAME1>會掉落。\n<br>\n只要有這兩種材料，\n就能製作可放入１００種消耗品的大道具包，\n你要試試嗎？"
   },
-  "49054": {
-    "$comments": "🟡, ",
+  "49057": {
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_000]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>You are going to bring it to me, right? I\nunderstand. Well, your traveler's name is\n<pc>, right? Well then,\n<br>\n<pc>. Please be careful.",
+    "en": "<attr><feel_happy_lv1><end_attr>I've never been outside of Julet. But even my father\nsuggested it, so someday I'd like to leave Julet, and\ntry traveling around the world.\n<br>\nSo, I'd like to hear about your travels, although...\nMaybe, adventurer, did you come because you wanted\none of the large item bags that he makes?<yesno><break>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv1><end_attr>「ボク　このジュレットの町の外には\n　あまり　出たことがなくって。\n<br>\n「でも　父さんにも　すすめられたし\n　いずれは　ジュレットの町を出て\n　世界中を　旅してみたいんです。\n<br>\n「だから　ぜひ　旅の話を聞きたいんですけど……\n　もしかして　旅人さんも　父さんの作る\n　大きなどうぐかばんが　ほしくて来たんですか？<yesno><break>",
+    "ko": "<attr><feel_happy_lv1><end_attr>: 전 이 주레트 마을 밖으로는\n　별로 나가 본 적이 없어요.\n<br>\n: 하지만 아버지도 나가보라 하시고\n　언젠가는 주레트 마을을 나가서\n　온 세계를 여행해 보고 싶어요.\n<br>\n: 그래서 여행 이야기를 꼭 듣고 싶은데……\n　혹시 여행자님도 아버지가 만드시는\n　커다란 도구 가방이 필요해서 오셨나요?<yesno><break>",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv1><end_attr>我几乎没怎么出过\n这个玖莱特镇。\n<br>\n但是父亲也劝过我，\n所以将来我想走出镇子，\n去更广阔的世界旅行。\n<br>\n所以我很想听听你的旅行故事……\n莫非旅行者你也是\n为了得到父亲制作的大道具包而来的？<yesno><break>",
+    "zh-Hant": "<attr><feel_happy_lv1><end_attr>我幾乎不太會離開玖萊特鎮去其他地方。\n<br>\n不過父親也曾建議我去旅行，\n所以總有一天我想離開玖萊特鎮，\n遊覽世界各地。\n<br>\n所以請務必跟我聊聊旅途中遇到的事……\n對了，難道你也是為了\n父親做的大道具包才來的嗎？<yesno><break>"
+  },
+  "49054": {
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, SYSTEXT_QUESTLIST_NAME_KQ_002_1_000]`, YES",
+    "de": "",
+    "en": "<attr><feel_happy_lv1><end_attr>You'll go bring me those, will you. Understood. Umm,\ntraveler, your name... Got it, <pc>, is it.\nWell then, <pc>, please be careful, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -52,9 +65,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>你願意收集材料過來嗎？\n我知道了，呃……旅行者你的名字叫……\n好的，是叫<pc>對吧。\n<br>\n那麼<pc>，\n路上小心。"
   },
   "49055": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, SYSTEXT_QUESTLIST_NAME_KQ_002_1_000]`, QUESTS FULL",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>You bring it to me. What's that? But, don't\ntravelers have a lot of favors to ask for?\nThat's no good. It takes a lot of work to\n<br>\ngather materials. I'll ask you to do it when\nyou're free.",
+    "en": "<attr><feel_sad_lv1><end_attr>You'll go bring me those, will you. Ah? But, traveler,\nmaybe you've got enough requests?\n<br>\nThat's no good. Even gathering materials is quite\nhard. When your hands are free, I'll ask you, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -65,9 +78,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>你願意收集材料過來嗎？\n咦？但旅行者你是不是已經\n接很多委託了啊？\n<br>\n這樣不行喔，\n收集材料也是相當辛苦的工作。\n等你有空時我再拜託你吧。"
   },
   "49056": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_000]` NO_2",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>You are going to stop, aren't you? I\nunderstand. It's hard to gather materials,\nisn't it?",
+    "en": "<attr><feel_sad_lv1><end_attr>Giving up, are you. Understood. Gathering materials\nlike those is hard, isn't it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -77,23 +90,10 @@
     "zh-Hans": "<attr><feel_sad_lv1><end_attr>你要放弃吗？好吧。\n毕竟收集材料确实很辛苦。",
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>你要打消念頭是嗎？我知道了。\n畢竟收集材料很辛苦嘛。"
   },
-  "49057": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I've never been outside of Julet Town. But my\nfather has suggested it, and I would like to\nleave Julet Town and travel around the world\n<br>\nsomeday. So I'd love to hear about your\ntravels, but perhaps you came here because you\nwanted to buy one of my father's big item\n<br>\nbags?<yesno><break>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv1><end_attr>「ボク　このジュレットの町の外には\n　あまり　出たことがなくって。\n<br>\n「でも　父さんにも　すすめられたし\n　いずれは　ジュレットの町を出て\n　世界中を　旅してみたいんです。\n<br>\n「だから　ぜひ　旅の話を聞きたいんですけど……\n　もしかして　旅人さんも　父さんの作る\n　大きなどうぐかばんが　ほしくて来たんですか？<yesno><break>",
-    "ko": "<attr><feel_happy_lv1><end_attr>: 전 이 주레트 마을 밖으로는\n　별로 나가 본 적이 없어요.\n<br>\n: 하지만 아버지도 나가보라 하시고\n　언젠가는 주레트 마을을 나가서\n　온 세계를 여행해 보고 싶어요.\n<br>\n: 그래서 여행 이야기를 꼭 듣고 싶은데……\n　혹시 여행자님도 아버지가 만드시는\n　커다란 도구 가방이 필요해서 오셨나요?<yesno><break>",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv1><end_attr>我几乎没怎么出过\n这个玖莱特镇。\n<br>\n但是父亲也劝过我，\n所以将来我想走出镇子，\n去更广阔的世界旅行。\n<br>\n所以我很想听听你的旅行故事……\n莫非旅行者你也是\n为了得到父亲制作的大道具包而来的？<yesno><break>",
-    "zh-Hant": "<attr><feel_happy_lv1><end_attr>我幾乎不太會離開玖萊特鎮去其他地方。\n<br>\n不過父親也曾建議我去旅行，\n所以總有一天我想離開玖萊特鎮，\n遊覽世界各地。\n<br>\n所以請務必跟我聊聊旅途中遇到的事……\n對了，難道你也是為了\n父親做的大道具包才來的嗎？<yesno><break>"
-  },
   "49058": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_000]`, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_07800`, `<%sEV_QUE_NAME1>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_02201`, YESNO_3",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>If you want a big item bag, I'll ask my father\nfor one when he comes back later. But it is my\nfather's rule that when he makes a bag for a\n<br>\ntraveler, he asks the traveler to gather the\nmaterials by himself. Well, there are two\nmaterials needed. First, Giant Lizard Skin\n<br>\nwhich is often dropped by <%sEV_QUE_NAME0> in\nUpper Jule Island, and Tanning Extract which\nis dropped by <%sEV_QUE_NAME1> in Muse Coast.\n<br>\nWith these two items, you can make a big item\nbag that can hold 100 different items.",
+    "en": "<attr><feel_normal_lv1><end_attr>If you want a large item bag, then later on when my\nfather returns, I'll ask him, okay.\n<br>\nBut, when it's time to make a traveler's bag, they\nhave to go get the materials themselves; it's my\nfather's rules.\n<br>\nUmm... There are 2 materials needed. First, <color_yellow>Giant Lizard\nSkin<color_white> that <color_red><%sEV_QUE_NAME0>s<color_white> on Upper Jule Island often\ndrop.\n<br>\nAnd then, <color_yellow>Tanning Extract<color_white> that <color_red><%sEV_QUE_NAME1>s<color_white> in\nMuse Coast drop.\n<br>\nWith those 2 items, a large item bag that holds 100\ntypes of items can be made, but, will you try doing it?",
     "es": "",
     "fr": "",
     "it": "",
@@ -104,9 +104,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>你想要大道具包的話，\n晚點父親回來後我會拜託他。\n<br>\n但是在幫旅行者做背包的時候，\n材料要旅行者自己收集，\n是父親一貫的規矩。\n<br>\n我看看……需要的材料有兩種。\n首先是大蜥蜴皮，\n在玖萊島上層的<%sEV_QUE_NAME0>經常掉落。\n<br>\n另一個是鞣革精華。\n在繆茲海岸的<%sEV_QUE_NAME1>會掉落。\n<br>\n只要有這兩種材料，\n就能製作可放入１００種消耗品的大背包，\n你要試試嗎？"
   },
   "49059": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, SYSTEXT_QUESTLIST_NAME_KQ_002_1_010]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Then, please gather the two materials my\nfather will need to make a large item bag.<open_irai><bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr>Right, please gather the 2 materials my father will\nneed to make the large item bag.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -117,9 +117,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>那麼就麻煩你去收集\n父親製作大道具包所需要的\n兩樣材料吧。<open_irai><bw_break>"
   },
   "49060": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_010]`, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_07800`, `<%sEV_QUE_NAME1>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_02201`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>One is Giant Lizard Skin which is often\ndropped by <%sEV_QUE_NAME0> in Upper Jule\nIsland. The other is Tanning Extract which is\n<br>\ndropped by <%sEV_QUE_NAME1> in Muse Coast.\nGood luck!",
+    "en": "<attr><feel_happy_lv1><end_attr>First, <color_yellow>Giant Lizard Skin<color_white> that <color_red><%sEV_QUE_NAME0>s<color_white> on\nUpper Jule Island often drop. And then, <color_yellow>Tanning\nExtract<color_white> that <color_red><%sEV_QUE_NAME1>s<color_white> on Muse Coast drop.\n<br>\nPlease do your best, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -129,47 +129,8 @@
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>一个是玖莱岛上层的\n<%sEV_QUE_NAME0>\n经常掉落的大蜥蜴的皮。\n<br>\n另一个是鞣革精华液，\n缪兹海岸的<%sEV_QUE_NAME1>会掉落。\n加油吧。",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>一個是大蜥蜴皮，\n在玖萊島上層的<%sEV_QUE_NAME0>經常掉落。\n<br>\n另一個則是鞣革精華，\n在繆茲海岸的<%sEV_QUE_NAME1>會掉落。\n請努力收集吧。"
   },
-  "49061": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "Would you give Tote the Giant Lizard Skin and\nTanning Extract?<yesno><case 1><break><case 2><close><case_cancel><close>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "トートに　大トカゲの皮と\nなめしエキスを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
-    "ko": "토트에게 거대 도마뱀 가죽과\n무두질 진액을 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close>",
-    "pt-BR": "",
-    "zh-Hans": "要把大蜥蜴的皮和鞣革精华液\n交给托托吗？<yesno><case 1><break><case 2><close><case_cancel><close>",
-    "zh-Hant": "是否要將大蜥蜴皮和鞣革精華\n交給托托？<yesno><case 1><break><case 2><close><case_cancel><close>"
-  },
-  "49062": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<pc> gave Tote the Giant Lizard Skin\nand Tanning Extract!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　トートに\n大トカゲの皮と　なめしエキスを　渡した！",
-    "ko": "{pc}|hpp(은,는) 토트에게\n거대 도마뱀 가죽과 무두질 진액을 건넸다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把大蜥蜴的皮和鞣革精华液\n交给了托托！",
-    "zh-Hant": "<pc>把大蜥蜴皮跟鞣革精華\n交給了托托！"
-  },
-  "49063": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<pc> went out and strolled around the\ntown for a while. The fresh sea breeze was\nnice and refreshing. It was time to go back to\n<br>\nTote's place.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　外に出て\nしばらく町を　あてどなく散歩した。\n<br>\nさわやかな潮風が　ここちよい……\nそんなことを考えながら　時間をつぶした。\nそろそろ　トートのところへ戻ってみよう。",
-    "ko": "{pc}|hpp(은,는) 밖으로 나가서\n얼마 동안 정처 없이 산책을 했다.\n<br>\n시원한 바닷바람을 맞으니 기분이 좋다……\n그런 생각을 하며 시간을 때웠다.\n이제 슬슬 토트에게 돌아가 보자.",
-    "pt-BR": "",
-    "zh-Hans": "<pc>走到外面，\n在镇内漫无目的地散了一会步。\n<br>\n清爽的海风相当舒服……\n他一边想着这些，一边打发时间。\n差不多该回托托那里了。",
-    "zh-Hant": "<pc>走到外面，\n在鎮內漫無目的地散步了一會。\n<br>\n清爽的海風感覺相當舒服……\n他一邊想著這些事情，一邊打發時間。\n差不多該回托托那裡了。"
-  },
   "49064": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_020]`, YESNO",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>Ah, welcome back, <pc>. Did you gather\nthe materials for the big item bag by any\nchance?",
     "es": "",
@@ -181,10 +142,36 @@
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>啊，欢迎回来，<pc>。\n难道你已经把制作大道具包的材料\n收集齐了？",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊，<pc>，歡迎回來。\n難道你已經收集到\n製作大道具包的材料了？"
   },
+  "49061": {
+    "$comments": "🟢, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_020]`, GIVE?",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> das <color_yellow>Riesenechsenhaut<color_white> & <color_yellow>Gerbextrakt<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Giant Lizard Skin<color_white> & <color_yellow>Tanning extract<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> le <color_yellow>Piel de Lagarto Gigante<color_white> & <color_yellow>Extracto\nde Curtido<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> lea <color_yellow>Peau de Lézard Géant<color_white> & <color_yellow>Extrait de\nTannage<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "it": "Dare <%sEV_SYSMSG_NPC> il <color_yellow>Pelle di Lucertola Gigante<color_white> & <color_yellow>Estratto di\nConcia<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "ja": "トートに　大トカゲの皮と\nなめしエキスを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "ko": "토트에게 거대 도마뱀 가죽과\n무두질 진액을 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> ê <color_yellow>Pele de Lagarto Gigante<color_white> & <color_yellow>Extrato de\nCurtimento<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "zh-Hans": "要把大蜥蜴的皮和鞣革精华液\n交给托托吗？<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "zh-Hant": "是否要將大蜥蜴皮和鞣革精華\n交給托托？<yesno><case 1><break><case 2><close><case_cancel><close>"
+  },
+  "49062": {
+    "$comments": "🟢, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_020]`, GAVE!",
+    "de": "<pc> gab <%sEV_SYSMSG_NPC> das <color_yellow>Riesenechsenhaut<color_white> &\n<color_yellow>Gerbextrakt<color_white>!",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the the <color_yellow>Giant Lizard Skin<color_white> &\n<color_yellow>Tanning extract<color_white>!",
+    "es": "¡<pc> le dio a <%sEV_SYSMSG_NPC> le <color_yellow>Piel de Lagarto\nGigante<color_white> & <color_yellow>Extracto de Curtido<color_white>!",
+    "fr": "<pc> a donné a <%sEV_SYSMSG_NPC> lea <color_yellow>Peau de Lézard Géant<color_white>\n& <color_yellow>Extrait de Tannage<color_white>!",
+    "it": "<pc> ha dato a <%sEV_SYSMSG_NPC> il <color_yellow>Pelle di Lucertola\nGigante<color_white> & <color_yellow>Estratto di Concia<color_white>!",
+    "ja": "<pc>は　トートに\n大トカゲの皮と　なめしエキスを　渡した！",
+    "ko": "{pc}|hpp(은,는) 토트에게\n거대 도마뱀 가죽과 무두질 진액을 건넸다!",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> ê <color_yellow>Pele de Lagarto Gigante<color_white> &\n<color_yellow>Extrato de Curtimento<color_white>!",
+    "zh-Hans": "<pc>把大蜥蜴的皮和鞣革精华液\n交给了托托！",
+    "zh-Hant": "<pc>把大蜥蜴皮跟鞣革精華\n交給了托托！"
+  },
   "49065": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_020]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Huh? Was I wrong? I'm sorry for my quick\nChiri.",
+    "en": "<attr><feel_sad_lv1><end_attr>Ahh? I was wrong, huh. I jumped to the wrong\nconclusion, sorry.",
     "es": "",
     "fr": "",
     "it": "",
@@ -195,9 +182,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>咦？是我誤會了嗎？\n抱歉，是我太心急了。"
   },
   "49066": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_020]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Wow! This is a quality Giant Lizard Skin. The\nTanning Extract is perfect too. I'm sure this\nwill make a great bag. Well... Then, as soon\n<br>\nas Dad comes home, I'll have him make a big\nitem bag. As expected, it will take a little\ntime, so please come back in a while!",
+    "en": "<attr><feel_happy_lv2><end_attr>Wow! That's high-quality Giant Lizard Skin, isn't it.\nThe Tanning Extract is perfect too. With these, I'm\nsure this will make a great bag.\n<br>\nEehhh... So then, as soon as Dad returns, I'll have him\nmake the large item bag. Still, it'll take a little\ntime, so please come back in a while!",
     "es": "",
     "fr": "",
     "it": "",
@@ -207,8 +194,21 @@
     "zh-Hans": "<attr><feel_happy_lv2><end_attr>哇！这大蜥蜴的皮质地真好。\n鞣革精华液也非常不错。\n用它们一定能做出很完美的背包。\n<br>\n嗯……\n那等父亲回来了，\n我就让他制作大道具包。\n<br>\n这还是需要一点时间的，\n所以请你过一会儿再来吧！",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哇！這大蜥蜴皮品質真不錯，\n鞣革精華也相當棒。\n這樣一定能做出好背包。\n<br>\n呃……\n那等父親回來後，\n我會馬上請他製作大道具包。\n<br>\n不過這難免需要一點時間，\n所以請你過一陣子後再來吧！"
   },
+  "49063": {
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_020]`",
+    "de": "",
+    "en": "<pc> went outside and strolled around town\nfor a while. The fresh sea breeze was pleasant...\n<br>\nThat should've killed enough time. Let's try going\nback to Tote's place.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<pc>は　外に出て\nしばらく町を　あてどなく散歩した。\n<br>\nさわやかな潮風が　ここちよい……\nそんなことを考えながら　時間をつぶした。\nそろそろ　トートのところへ戻ってみよう。",
+    "ko": "{pc}|hpp(은,는) 밖으로 나가서\n얼마 동안 정처 없이 산책을 했다.\n<br>\n시원한 바닷바람을 맞으니 기분이 좋다……\n그런 생각을 하며 시간을 때웠다.\n이제 슬슬 토트에게 돌아가 보자.",
+    "pt-BR": "",
+    "zh-Hans": "<pc>走到外面，\n在镇内漫无目的地散了一会步。\n<br>\n清爽的海风相当舒服……\n他一边想着这些，一边打发时间。\n差不多该回托托那里了。",
+    "zh-Hant": "<pc>走到外面，\n在鎮內漫無目的地散步了一會。\n<br>\n清爽的海風感覺相當舒服……\n他一邊想著這些事情，一邊打發時間。\n差不多該回托托那裡了。"
+  },
   "49067": {
-    "$comments": "🟡, ",
+    "$comments": "🟢, unused",
     "de": "",
     "en": "We need 3 minutes of real time to complete the\nbig item bag, let's come back in 3 minutes.<open_irai>",
     "es": "",
@@ -220,23 +220,10 @@
     "zh-Hans": "",
     "zh-Hant": ""
   },
-  "49068": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<pc> received a big item bag!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は\n大きなどうぐかばんを　受け取った！",
-    "ko": "{pc}|hpp(은,는)\n커다란 도구 가방을 받았다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>收下了\n大道具包！",
-    "zh-Hant": "<pc>收下了\n大道具包！"
-  },
   "49070": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_030]`",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Ah <pc> Welcome back! My dad made a\nbig item bag for me!",
+    "en": "<attr><feel_happy_lv3><end_attr>Ah, <pc>, welcome back! My dad made the\nlarge item bag for you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -246,10 +233,23 @@
     "zh-Hans": "<attr><feel_happy_lv3><end_attr>啊，<pc>，欢迎回来！\n父亲已经把大道具包\n做好了！",
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>啊，<pc>，歡迎回來！\n父親已經做好大道具包了！"
   },
-  "49072": {
-    "$comments": "🟡, ",
+  "49068": {
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_030]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Oh, that's right. Dad went out as soon as he\nfinished <pc> his big item bag. He\nalways does this. ''I'm going to make the\n<br>\nultimate item bag! and then he always goes out\nto gather materials. But I'm also rooting for\nmy dad to make the ultimate item bag. He also\n<br>\nsaid that I can go on a trip once I've\ncompleted it. So until then, I'm going to try\nmy best to help him with his workshop!",
+    "en": "<pc> received the large item bag!",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<pc>は\n大きなどうぐかばんを　受け取った！",
+    "ko": "{pc}|hpp(은,는)\n커다란 도구 가방을 받았다!",
+    "pt-BR": "",
+    "zh-Hans": "<pc>收下了\n大道具包！",
+    "zh-Hant": "<pc>收下了\n大道具包！"
+  },
+  "49072": {
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_030]`, preceded by `Game.locres.json:STT_SystemQuest.SYSTXT_QUEST_06011`",
+    "de": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Ah, that's right. When Dad finished your large item\nbag, <pc>, he left right away.\n<br>\nIt's like he always does: \"I'm going to make the\nultimate item bag!\", he says, and then he goes out\nto gather materials...\n<br>\nStill, I'm rooting for my dad to make the ultimate\nitem bag. My dad also said that once he's done it,\nI can go on a journey, y'know.\n<br>\nSo, until then, I plan on putting my whole life into\nhelping him with his workshop!",
     "es": "",
     "fr": "",
     "it": "",
@@ -259,23 +259,10 @@
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>啊，对了，\n父亲做完<pc>的大道具包后\n就马上出门了。\n<br>\n他总是这样，\n总是喊着要做出终极道具包什么的\n出去收集材料……\n<br>\n不过我也支持父亲制作终极道具包。\n因为父亲说，如果能做出那样的背包\n我就可以出去旅行。\n<br>\n所以在那之前，\n我会努力在工房里帮忙的！",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊，對了，\n父親把<pc>的大道具包做好以後，\n就馬上又出門了。\n<br>\n他一直都是這樣，\n說要做出終極道具包，\n就整天出門收集材料……\n<br>\n不過我也贊成父親製作終極道具包。\n畢竟父親說要是他成功做出來的話，\n我就能出去旅行。\n<br>\n所以在那之前，\n我也會竭盡全力在工房裡幫忙的！"
   },
-  "49073": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Ah <pc>. How do you like the big item\nbag? I would be happy if you like it. I'm sure\none day I'll be able to make even bigger bags,\n<br>\nso please come back again someday.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv1><end_attr>「あっ　<pc>さん。\n　大きなどうぐかばんの使い心地は　どうですか？\n　気に入ってもらえたら　うれしいな。\n<br>\n「そのうち　もっと大きい　かばんが\n　作れるようになる日が来ると思うので\n　いつか　また来てくださいね。",
-    "ko": "",
-    "pt-BR": "",
-    "zh-Hans": "",
-    "zh-Hant": ""
-  },
   "49074": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Ah <pc>. How do you like the big item\nbag? I would be happy if you like it.\nActually, there's something I'd like to\n<br>\ndiscuss with you, so when you've traveled a\nbit more, will you come back and see me again?\nYes, I would like to consult with you after I\n<br>\nget a couple of key emblems!",
+    "en": "<attr><feel_happy_lv1><end_attr>Ah <pc>. How's the large item bag working\nfor you? If you said you liked it, I'd be glad.\n<br>\nActually, there's something I'd like to discuss with\nyou, so once you've gained some more experience on\nyour journey, please come again, okay?\n<br>\nSo, y'know... Once you've obtained 2 Key Emblems, I'd like\nto discuss it with you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -284,6 +271,19 @@
     "pt-BR": "",
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>啊，<pc>。\n大道具包使用起来怎么样？\n希望你能喜欢。\n<br>\n其实我有点事想找你商量，\n等你的旅行经验丰富起来以后，\n可以再来找我吗？\n<br>\n这个嘛……\n等你拿到２个键徽之后，\n我想跟你商量一些事情！",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊，<pc>。\n大道具包用起來感覺如何呢？\n要是你很喜歡就好了。\n<br>\n其實我有點事想找你商量，\n等你的旅行經驗更豐富以後，\n可以再來找我嗎？\n<br>\n這個嘛……\n等你拿到２個鑰徽之後，\n我想跟你商量一些事情！"
+  },
+  "49073": {
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_200]`",
+    "de": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Ah, <pc>. How's the large item bag working\nfor you? If you said you liked it, I'd be glad.\n<br>\nEventually the day will come when you can have an even\nbigger item bag made, so please come again sometime,\nokay.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv1><end_attr>「あっ　<pc>さん。\n　大きなどうぐかばんの使い心地は　どうですか？\n　気に入ってもらえたら　うれしいな。\n<br>\n「そのうち　もっと大きい　かばんが\n　作れるようになる日が来ると思うので\n　いつか　また来てくださいね。",
+    "ko": "",
+    "pt-BR": "",
+    "zh-Hans": "",
+    "zh-Hant": ""
   },
   "58928": {
     "$comments": "🟡, ",
@@ -327,7 +327,7 @@
   "58931": {
     "$comments": "🟡, ",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>I see. I'm sorry for being unreasonable. I\ndon't know what to do.",
+    "en": "<attr><feel_sad_one><end_attr>...I see. I'm sorry for being unreasonable. I\ndon't know what to do.",
     "es": "",
     "fr": "",
     "it": "",

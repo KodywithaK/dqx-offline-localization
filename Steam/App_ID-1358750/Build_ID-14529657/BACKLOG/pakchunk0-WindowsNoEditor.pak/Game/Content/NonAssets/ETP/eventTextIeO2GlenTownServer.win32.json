@@ -28,7 +28,7 @@
   "48546": {
     "$comments": "🟡, Quest (005) {Sub Story}, see `Game.locres.json:[STT_CareerStoryVer1.SYSTXT_CAREER_STORY_OGR2_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_009_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_02400]`, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_02400`, YESNO",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>King Bagudo, who was bedridden due to a serious\nillness, was saved by Sage Malynn's healing technique,\nit seems. Wow, sage techniques are amazing things.\n<br>\nBut if you're lookin' for healing powers, the herbs\nI grow are nothing to scoff at. After all, they can\nbe used on anyone.\n<br>\n...By the way, from the looks of you, you seem to be\nquite skilled. How about it, can you take on a job for me?\n<br>\nTo be honest, I'm short on the <color_yellow>Muddy Hand Mud<color_white> that I\nuse as potting soil for the medicinal herbs, and I'm in a\nbind.\n<br>\n<color_yellow>Muddy Hand Mud<color_white> is dropped by <color_red><%sEV_QUE_NAME0>s<color_white> on the\nsouth side of Glen Territory East; think you can get me\nsome?",
+    "en": "<attr><feel_think_lv2><end_attr>King Bagudo, who was bedridden due to a serious\nillness, was saved by Sage Malynn's healing technique,\nit seems. Wow, sage techniques are amazing things.\n<br>\nBut if you're lookin' for healing powers, the herbs\nI grow are nothing to scoff at. After all, they can be used\non anyone.\n<br>\n...By the way, from the looks of you, you seem to be\nquite skilled. How about it, can you take on a job for\nme?\n<br>\nTo be honest, I'm short on the <color_yellow>Muddy Hand Mud<color_white> that I\nuse as potting soil for the medicinal herbs, and I'm in a\nbind.\n<br>\n<color_yellow>Muddy Hand Mud<color_white> is dropped by <color_red><%sEV_QUE_NAME0>s<color_white> on the\nsouth side of Glen Territory East; think you can get me\nsome?",
     "es": "",
     "fr": "",
     "it": "",
@@ -41,7 +41,7 @@
   "48547": {
     "$comments": "🟡, Quest (005) {Sub Story}, see `Game.locres.json:[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_009_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_02400]`, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_02400`, YES",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Oh, you'll take care of it for me! I owe you one!\nI'm sure I've got something to repay you with.\n<br>\nAlso, they tend to blend in with the landscape of Glen\nTerritory East. But if you look carefully, you'll find 'em.\nGood luck!",
+    "en": "<attr><feel_happy_one><end_attr>Oh, you'll take care of it for me! I owe you one! I'm sure\nI've got something to repay you with.\n<br>\nAlso, they tend to blend in with the landscape of Glen\nTerritory East. But if you look carefully, you'll find 'em.\nGood luck!",
     "es": "",
     "fr": "",
     "it": "",
@@ -67,7 +67,7 @@
   "48549": {
     "$comments": "🟡, Quest (005) {Sub Story}, see `Game.locres.json:[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_009_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_02400]`, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_02400`, NO",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>Is that right... Guess I'll have to go myself after\nall, huh.\n<br>\nBut if I leave these potted plants now, who knows what\nwill happen to the medicinal herbs I took the trouble\nof growing...?",
+    "en": "<attr><feel_sad_one><end_attr>Is that right... Guess I'll have to go myself after all, huh.\n<br>\nBut if I leave these potted plants now, who knows what\nwill happen to the medicinal herbs I took the trouble\nof growing...?",
     "es": "",
     "fr": "",
     "it": "",
@@ -184,7 +184,7 @@
   "48960": {
     "$comments": "🟡, Quest (005) {Sub Story}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_009_1_020",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>...Huh, got something you want to say? Aah, you must\nthink it's weird for a rugged warrior like me to be so\nworked up over medicinal herbs, don't you.\n<br>\nAs a matter of fact, I was once told something by King\nBagudo: \"Warriors, look after and grow these medicinal\nherbs like they were your friends\".\n<br>\n\"Hearts that think of their friends will grow and\nbecome hearts of those who think of the nation, and\nthose hearts will make the nation strong\"... He said.\n<br>\nBecause of the King's words, in Glen, growing these\nmedicinal herbs is part of a warrior's etiquette, and those\nwho grow the best herbs are highly respected.",
+    "en": "<attr><feel_think_lv2><end_attr>...Huh, got something you want to say? Aah, you must\nthink it's weird for a rugged warrior like me to be so\nworked up over medicinal herbs, don't you.\n<br>\nAs a matter of fact, I was once told something by King\nBagudo: \"Warriors, look after and grow these medicinal\nherbs like they were your friends\".\n<br>\n\"Hearts that think of their friends will grow and become\nhearts of those who think of the nation, and those\nhearts will make the nation strong\"... He said.\n<br>\nBecause of the King's words, in Glen, growing these\nmedicinal herbs is part of a warrior's etiquette, and those\nwho grow the best herbs are highly respected.",
     "es": "",
     "fr": "",
     "it": "",
@@ -416,9 +416,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>旁邊的房子裡住著一個叫阿迦佩的老人，\n聽說他正在召集想成為強大戰士的人，\n並對他們進行指導。\n<br>\n雖說這個人怎麼看都很可疑，\n但有許多戰士都會上門拜訪他。"
   },
   "34489": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (134) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01481, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_JQ_001_1_000]`",
     "de": "",
-    "en": "Heheheh... Welcome, please come in,\nlvl10+ warrior.\n<br>\nBattling all day, every day... It's a youthful\nfeeling when you are beginning to develop your\nstrength as a warrior, isn't it.<bw_break>",
+    "en": "Heheheh... Welcome, please come in, lvl10+ warrior.\n<br>\nBattling all day, every day... It's a youthful feeling when\nyou are beginning to develop your strength as a warrior,\nisn't it.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -429,9 +429,9 @@
     "zh-Hant": "嘿嘿嘿……\n歡迎歡迎，\n等級１０以上的戰士。\n<br>\n您夜以繼日地戰鬥……\n現在正處於一名戰士剛開始\n獲得力量的萌芽階段呢。<bw_break>"
   },
   "34490": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (134) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01481, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_JQ_001_1_000]`, YESNO",
     "de": "",
-    "en": "I can see it with my own eyes.\nThat shining physique... You have the\nmakings of wonderful warrior.\n<br>\nPlease allow me to guide you.<yesno><break>",
+    "en": "I can see it with my own eyes. That shining physique...\nYou have the makings of wonderful warrior. Please,\nallow me to guide you.<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -442,9 +442,9 @@
     "zh-Hant": "我能看出來，\n您的肉體散發著光芒……\n您有成為出色戰士的資質。\n<br>\n請讓我幫忙引導您吧。<yesno><break>"
   },
   "34491": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (134) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01481, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_JQ_001_1_000]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>We are truly sorry for your loss. If you\nchange your mind, please come visit us\nanytime.",
+    "en": "<attr><feel_sad_lv1><end_attr>Absolutely disappointing... If you have a change of heart,\nplease come visit me anytime.",
     "es": "",
     "fr": "",
     "it": "",
@@ -455,9 +455,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>真遺憾……\n如果您改變了主意，\n歡迎隨時來找我。"
   },
   "34492": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (134) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01481, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_JQ_001_1_000]`, YES",
     "de": "",
-    "en": "Heheheh... Thank you, I will surely guide\nyou towards being a true warrior.\n<br>\nA true warrior is one who possesses a righteous\nheart. Only those who overcome my trials and obtain\nthe important items will be able to attain it.\n<br>\nThen, for the first trial, I would like\nyou to go south of Glen Territory East\nto Gert Strait as a warrior.",
+    "en": "Heheheh... Thank you, Ol' Agapei will surely guide you on\nthe ways of the true warrior.\n<br>\nA true warrior is one who possesses a righteous heart.\nOnly those who overcome my trials and obtain the\nimportant items will be able to attain it.\n<br>\nThen, for the first trial, go south of Glen Territory\nEast to Gert Strait as a warrior, for me, 'kay.",
     "es": "",
     "fr": "",
     "it": "",
