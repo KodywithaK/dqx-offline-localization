@@ -522,7 +522,7 @@
   "48483": {
     "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_02700]`, YESNO",
     "de": "",
-    "en": "On the beach the other day, I found a message in a\nbottle that had washed up.\n<br>\nOn the bottlecap, \"beautiful girl, read this <heart>\", was written\nand I accidentally opened it while looking at it...\n<br>\nTo my surprise, I found the photo of a handsome man\nwith a long, silver, ponytail and a wonderful, heart-\nwarming love poem inside.\n<br>\nSince then, I haven't been able to stop thinking about\nthat man... Aah. I want to express my love to the man\nfrom the small bottle!\n<br>\nI asked someone for advice and they said heard a rumor:\nif one writes a letter penned with a rare item called the\n<color_yellow>Happiness Plume<color_white>, their love will come true.\n<br>\n<color_red><%sEV_QUE_NAME0>s<color_white> on King Ladis Island appear to drop\nthe <color_yellow>Happiness Plume<color_white>, but, please, you think you could\nbring it to me?",
+    "en": "On the beach the other day, I found a message in a\nbottle that had washed up.\n<br>\nOn the bottlecap, \"Beautiful girl, read this <heart>\", was\nwritten and I accidentally opened it while looking at it...\n<br>\nTo my surprise, I found the photo of a handsome man\nwith a long, silver, ponytail and a wonderful, heart-\nwarming love poem inside.\n<br>\nSince then, I haven't been able to stop thinking about\nthat man... Aah. I want to express my love to the man\nfrom the small bottle!\n<br>\nI asked someone for advice and they said heard a rumor:\nif one writes a letter penned with a rare item called the\n<color_yellow>Happiness Plume<color_white>, their love will come true.\n<br>\n<color_red><%sEV_QUE_NAME0>s<color_white> on King Ladis Island appear to drop\nthe <color_yellow>Happiness Plume<color_white>, but, please, you think you could\nbring it to me?",
     "es": "",
     "fr": "",
     "it": "",
@@ -574,7 +574,7 @@
   "48487": {
     "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_02700]`",
     "de": "",
-    "en": "On King Ladis Island, <color_red><%sEV_QUE_NAME0>s<color_white> appear to drop\nthe <color_yellow>Happiness Plume<color_white> that if one writes a letter with,\ntheir love will come true, it's said.<open_irai><bw_break>",
+    "en": "On King Ladis Island, <color_red><%sEV_QUE_NAME0>s<color_white> appear to drop\nthe <color_yellow>Happiness Plume<color_white>, that if one writes a letter with,\ntheir love is said to come true.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -639,7 +639,7 @@
   "48738": {
     "$comments": "🟢, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`, GAVE!",
     "de": "<pc> gab die <%sEV_SYSMSG_NPC> die\n<color_yellow>Feder des Glücks<color_white>!",
-    "en": "<pc> gave Marieve the <color_yellow>Happiness Plume!<color_white>",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Happiness Plume<color_white>!",
     "es": "¡<pc> le dio a la <%sEV_SYSMSG_NPC> la\n<color_yellow>Pluma de Felicidad<color_white>!",
     "fr": "<pc> a donné a la <%sEV_SYSMSG_NPC>\nla <color_yellow>Plume de Bonheur<color_white>!",
     "it": "<pc> ha dato alla <%sEV_SYSMSG_NPC>\nla <color_yellow>Piuma di Felicità<color_white>!",
@@ -678,7 +678,7 @@
   "48492": {
     "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>OK, I did it! Please deliver this letter to the\ngentleman from the small bottle right away.",
+    "en": "<attr><feel_happy_lv2><end_attr>OK, I did it! Please deliver this letter to the gentleman\nfrom the small bottle right away.",
     "es": "",
     "fr": "",
     "it": "",
@@ -690,21 +690,21 @@
   },
   "48740": {
     "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`",
-    "de": "",
-    "en": "<pc> obtained Marieve's Letter (Key Item)!<me 60>",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "de": "{pc} hat die <color_yellow>Marieves Brief<color_white> (Wichtig)\nbekommen!<me 60>",
+    "en": "<pc> obtained <color_yellow>Marieve's Letter<color_white> (Key Item)!<me 60>",
+    "es": "¡{pc} ha recibido la <color_yellow>Carta de Marieve<color_white>\n(Objetos Importantes)!<me 60>",
+    "fr": "{pc} a reçu la <color_yellow>Lettre de Marieve<color_white>\n(Objets Importants)!<me 60>",
+    "it": "{pc} ha ricevuto la <color_yellow>Lettera di Marieve<color_white>\n(Oggetti Importanti)!<me 60>",
     "ja": "<pc>は\nマリーブの手紙（だいじなもの）を　預かった！<me 60>",
     "ko": "{pc}|hpp(은,는)\n말리브의 편지(중요한 물건)을 받았다!<me 60>",
-    "pt-BR": "",
+    "pt-BR": "{pc} obteve a <color_yellow>Carta de Marieve<color_white>\n(Iten Importante)!<me 60>",
     "zh-Hans": "<pc>接过了\n玛丽卜的信（重要物品）！<me 60>",
     "zh-Hant": "<pc>收下了瑪麗芙的信（重要物品）！<me 60>"
   },
   "48493": {
     "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>Eh? You don't know where to deliver it? Now that you\nmention it, I don't know either. It doesn't look like that\nman lives in town.\n<br>\nAh......? If you look carefully, the poem ends with\n\"From Mouron\", doesn't it. But that's just a name...\n<br>\nLooking at the photo, it seems to be a beach with\nparasols. Probably at a beach somewhere along Jule\nIsland's coast, I think, so please try to find it.\n<br>\nYou can check the locations of people by opening the\nmap, and checking \"Character List\".\n<br>\nSo when you're at a likely place, please open the\nmap, and look for \"Mouron\", okay.",
+    "en": "<attr><feel_think_lv2><end_attr>Eh? You don't know where to deliver it? Now that you\nmention it, I don't know either. It doesn't look like that\nman lives in town.\n<br>\nAh......? If you look carefully, the poem ends with\n\"From Mouron\", doesn't it. But that's just a name...\n<br>\nLooking at the photo, it seems to be a beach with\nparasols. Probably at a beach somewhere along Jule\nIsland's coast, I think, so please try to find it.\n<br>\nYou can check the locations of people by opening the\nmap, and checking \"Character List\".\n<br>\nSo when you're at a likely place, please open the map,\nand look for \"Mouron\", okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -730,7 +730,7 @@
   "48499": {
     "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_030]`",
     "de": "",
-    "en": "Looking at the photo, it seems to be a beach with\nparasols. Probably at a beach somewhere along Jule\nIsland's coast!\n<br>\nYou can check the locations of people by opening the\nmap, and checking \"Character List\".\n<br>\nSo when you're at a likely place, please open the\nmap, and look for \"Mouron\", okay.",
+    "en": "Looking at the photo, it seems to be a beach with\nparasols. Probably at a beach somewhere along Jule\nIsland's coast!\n<br>\nYou can check the locations of people by opening the\nmap, and checking \"Character List\".\n<br>\nSo when you're at a likely place, please open the map,\nand look for \"Mouron\", okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2888,7 +2888,7 @@
   "35571": {
     "$comments": "🟡, (00/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00520]`",
     "de": "",
-    "en": "This area is called the Wena Islands. A group of\nislands that put together make up the continent.\n<br>\nOn each island lives many of us Weddies. So, to get\nfrom island to island, we use canoes.\n<br>\nOh, yeah. You'll come across people with <emoji Fukidashi_Icon> and <emoji Question_Icon>\nspeech bubbles, who'll have something to tell you.\nIf you see them, you should definitely speak to them.",
+    "en": "This area is called the Wena Islands. A group of islands\nthat put together make up the continent.\n<br>\nOn each island lives many of us Weddies. So, to get\nfrom island to island, we use canoes.\n<br>\nOh, yeah. You'll come across people with <emoji Fukidashi_Icon> and <emoji Question_Icon>\nspeech bubbles, who'll have something to tell you.\nIf you see them, you should definitely speak to them.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2914,7 +2914,7 @@
   "130916": {
     "$comments": "🟡, (00/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00520]`",
     "de": "",
-    "en": "This area is called the Wena Islands. A group of\nislands that put together make up the continent.\n<br>\nOn each island lives many of us Weddies. So, to get\nfrom island to island, we use canoes.\n<br>\nOh, yeah. You'll come across people with <emoji Fukidashi_Icon> and <emoji Question_Icon>\nspeech bubbles, who'll have something to tell you.\nLike Ms. Ranshii over there.\n<br>\nAt any rate, I recommend that you speak with Ms.\nRanshii. How about you try going right away?",
+    "en": "This area is called the Wena Islands. A group of islands\nthat put together make up the continent.\n<br>\nOn each island lives many of us Weddies. So, to get\nfrom island to island, we use canoes.\n<br>\nOh, yeah. You'll come across people with <emoji Fukidashi_Icon> and <emoji Question_Icon>\nspeech bubbles, who'll have something to tell you.\nLike Ms. Ranshii over there.\n<br>\nAt any rate, I recommend that you speak with Ms.\nRanshii. How about you try going right away?",
     "es": "",
     "fr": "",
     "it": "",
