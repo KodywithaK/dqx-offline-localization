@@ -93,7 +93,7 @@
   "49058": {
     "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_000]`, `<%sEV_QUE_NAME0>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_07800`, `<%sEV_QUE_NAME1>` = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_02201`, YESNO_3",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>If you want a large item bag, then later on when my\nfather returns, I'll ask him, okay.\n<br>\nBut, when it's time to make a traveler's bag, they\nhave to go get the materials themselves; it's my\nfather's rules.\n<br>\nUmm... There are 2 materials needed. First, <color_yellow>Giant Lizard\nSkin<color_white> that <color_red><%sEV_QUE_NAME0>s<color_white> on Upper Jule Island often\ndrop.\n<br>\nAnd then, <color_yellow>Tanning Extract<color_white> that <color_red><%sEV_QUE_NAME1>s<color_white> in\nMuse Coast drop.\n<br>\nWith those 2 items, a large item bag that holds 100\ntypes of items can be made, but, will you try doing it?",
+    "en": "<attr><feel_normal_lv1><end_attr>If you want a large item bag, then later on when my\nfather returns, I'll ask him, okay.\n<br>\nBut, when it's time to make a traveler's bag, they have to\ngo get the materials themselves; it's my father's rules.\n<br>\nUmm... There are 2 materials needed. First, <color_yellow>Giant Lizard\nSkin<color_white> that <color_red><%sEV_QUE_NAME0>s<color_white> on Upper Jule Island often\ndrop.\n<br>\nAnd then, <color_yellow>Tanning Extract<color_white> that <color_red><%sEV_QUE_NAME1>s<color_white> on Muse\nCoast drop.\n<br>\nWith those 2 items, a large item bag that holds 100\ntypes of items can be made, but, will you try doing it?",
     "es": "",
     "fr": "",
     "it": "",
@@ -106,7 +106,7 @@
   "49059": {
     "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, SYSTEXT_QUESTLIST_NAME_KQ_002_1_010]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Right, please gather the 2 materials my father will\nneed to make the large item bag.<open_irai><bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr>Right, please gather the 2 materials my father will need\nto make the large item bag.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -132,7 +132,7 @@
   "49064": {
     "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_020]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Ah, welcome back, <pc>. Did you gather\nthe materials for the big item bag by any\nchance?",
+    "en": "<attr><feel_happy_lv1><end_attr>Ah, welcome back, <pc>. By chance, have you\ngathered the materials for the large item bag?",
     "es": "",
     "fr": "",
     "it": "",
@@ -184,7 +184,7 @@
   "49066": {
     "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_020]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Wow! That's high-quality Giant Lizard Skin, isn't it.\nThe Tanning Extract is perfect too. With these, I'm\nsure this will make a great bag.\n<br>\nEehhh... So then, as soon as Dad returns, I'll have him\nmake the large item bag. Still, it'll take a little\ntime, so please come back in a while!",
+    "en": "<attr><feel_happy_lv2><end_attr>Wow! That's high-quality Giant Lizard Skin, isn't it.\nThe Tanning Extract is perfect too. With these, I'm sure\nthis will make a great bag.\n<br>\nEehhh... So then, as soon as Dad returns, I'll have him\nmake the large item bag. Still, it'll take a little time, so\nplease come back in a while!",
     "es": "",
     "fr": "",
     "it": "",
@@ -193,19 +193,6 @@
     "pt-BR": "",
     "zh-Hans": "<attr><feel_happy_lv2><end_attr>哇！这大蜥蜴的皮质地真好。\n鞣革精华液也非常不错。\n用它们一定能做出很完美的背包。\n<br>\n嗯……\n那等父亲回来了，\n我就让他制作大道具包。\n<br>\n这还是需要一点时间的，\n所以请你过一会儿再来吧！",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哇！這大蜥蜴皮品質真不錯，\n鞣革精華也相當棒。\n這樣一定能做出好背包。\n<br>\n呃……\n那等父親回來後，\n我會馬上請他製作大道具包。\n<br>\n不過這難免需要一點時間，\n所以請你過一陣子後再來吧！"
-  },
-  "49063": {
-    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_020]`",
-    "de": "",
-    "en": "<pc> went outside and strolled around town\nfor a while. The fresh sea breeze was pleasant...\n<br>\nThat should've killed enough time. Let's try going\nback to Tote's place.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　外に出て\nしばらく町を　あてどなく散歩した。\n<br>\nさわやかな潮風が　ここちよい……\nそんなことを考えながら　時間をつぶした。\nそろそろ　トートのところへ戻ってみよう。",
-    "ko": "{pc}|hpp(은,는) 밖으로 나가서\n얼마 동안 정처 없이 산책을 했다.\n<br>\n시원한 바닷바람을 맞으니 기분이 좋다……\n그런 생각을 하며 시간을 때웠다.\n이제 슬슬 토트에게 돌아가 보자.",
-    "pt-BR": "",
-    "zh-Hans": "<pc>走到外面，\n在镇内漫无目的地散了一会步。\n<br>\n清爽的海风相当舒服……\n他一边想着这些，一边打发时间。\n差不多该回托托那里了。",
-    "zh-Hant": "<pc>走到外面，\n在鎮內漫無目的地散步了一會。\n<br>\n清爽的海風感覺相當舒服……\n他一邊想著這些事情，一邊打發時間。\n差不多該回托托那裡了。"
   },
   "49067": {
     "$comments": "🟢, unused",
@@ -219,6 +206,19 @@
     "pt-BR": "",
     "zh-Hans": "",
     "zh-Hant": ""
+  },
+  "49063": {
+    "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_020]`",
+    "de": "",
+    "en": "<pc> went outside and strolled around town\nfor a while. The fresh sea breeze was pleasant...\n<br>\nThat should've killed enough time. Let's try going back\nto Tote's place.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<pc>は　外に出て\nしばらく町を　あてどなく散歩した。\n<br>\nさわやかな潮風が　ここちよい……\nそんなことを考えながら　時間をつぶした。\nそろそろ　トートのところへ戻ってみよう。",
+    "ko": "{pc}|hpp(은,는) 밖으로 나가서\n얼마 동안 정처 없이 산책을 했다.\n<br>\n시원한 바닷바람을 맞으니 기분이 좋다……\n그런 생각을 하며 시간을 때웠다.\n이제 슬슬 토트에게 돌아가 보자.",
+    "pt-BR": "",
+    "zh-Hans": "<pc>走到外面，\n在镇内漫无目的地散了一会步。\n<br>\n清爽的海风相当舒服……\n他一边想着这些，一边打发时间。\n差不多该回托托那里了。",
+    "zh-Hant": "<pc>走到外面，\n在鎮內漫無目的地散步了一會。\n<br>\n清爽的海風感覺相當舒服……\n他一邊想著這些事情，一邊打發時間。\n差不多該回托托那裡了。"
   },
   "49070": {
     "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_030]`",
@@ -249,7 +249,7 @@
   "49072": {
     "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_030]`, preceded by `Game.locres.json:STT_SystemQuest.SYSTXT_QUEST_06011`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Ah, that's right. When Dad finished your large item\nbag, <pc>, he left right away.\n<br>\nIt's like he always does: \"I'm going to make the\nultimate item bag!\", he says, and then he goes out\nto gather materials...\n<br>\nStill, I'm rooting for my dad to make the ultimate\nitem bag. My dad also said that once he's done it,\nI can go on a journey, y'know.\n<br>\nSo, until then, I plan on putting my whole life into\nhelping him with his workshop!",
+    "en": "<attr><feel_happy_lv1><end_attr>Ah, that's right. When Dad finished your large item bag,\n<pc>, he left right away.\n<br>\nIt's like he always does: \"I'm going to make the ultimate\nitem bag!\", he says, and then he goes out to gather\nmaterials...\n<br>\nStill, I'm rooting for my dad to make the ultimate item\nbag. My dad also said that once he's done it, I can go on\na journey, y'know.\n<br>\nSo, until then, I plan on putting my whole life into\nhelping him with his workshop!",
     "es": "",
     "fr": "",
     "it": "",
@@ -262,7 +262,7 @@
   "49074": {
     "$comments": "🟡, Quest (014) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Ah <pc>. How's the large item bag working\nfor you? If you said you liked it, I'd be glad.\n<br>\nActually, there's something I'd like to discuss with\nyou, so once you've gained some more experience on\nyour journey, please come again, okay?\n<br>\nSo, y'know... Once you've obtained 2 Key Emblems, I'd like\nto discuss it with you!",
+    "en": "<attr><feel_happy_lv1><end_attr>Ah <pc>. How's the large item bag working\nfor you? If you said you liked it, I'd be glad.\n<br>\nActually, there's something I'd like to discuss with you,\nso once you've gained some more experience on your\njourney, please come again, okay?\n<br>\nSo, y'know... Once you've obtained 2 Key Emblems, I'd\nlike to discuss it with you!",
     "es": "",
     "fr": "",
     "it": "",

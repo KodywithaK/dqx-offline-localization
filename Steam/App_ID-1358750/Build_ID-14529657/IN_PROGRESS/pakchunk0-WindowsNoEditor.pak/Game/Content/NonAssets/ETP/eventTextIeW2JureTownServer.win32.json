@@ -585,7 +585,7 @@
     "zh-Hant": "據說使用拉迪斯王島的<%sEV_QUE_NAME0>\n掉落的幸福羽毛做成的筆寫信，\n就能實現戀情。<open_irai><bw_break>"
   },
   "48488": {
-    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_02700]`",
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_010]`",
     "de": "",
     "en": "So that I can express my love to the man from the small\nbottle, please bring me the <color_yellow>Happiness Plume<color_white>. I'll be\nwaiting for you here, so please take of it.",
     "es": "",
@@ -598,9 +598,9 @@
     "zh-Hant": "為了把我的心意傳達給小瓶主人，\n請你帶回幸福羽毛。\n<br>\n我會在這裡等你，\n這件事就拜託你了。"
   },
   "48489": {
-    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_02700]`",
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`",
     "de": "",
-    "en": "Ah, welcome back. Have you found the Happiness Plume,\nby chance?",
+    "en": "Ah, welcome back. Any chance you found the <color_yellow>Happiness\nPlume<color_white>?",
     "es": "",
     "fr": "",
     "it": "",
@@ -611,9 +611,9 @@
     "zh-Hant": "哎呀，你回來了。\n你有找到幸福羽毛嗎？"
   },
   "48490": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`, NO",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>Then I'll wait here a little longer. Aah...! I can't\nwait to tell the man from the small bottle how I feel!",
+    "en": "<attr><feel_think_lv2><end_attr>Then I'll wait here a little longer. Aah...! I can't wait to\ntell the gentleman from the small bottle how I feel!",
     "es": "",
     "fr": "",
     "it": "",
@@ -623,10 +623,36 @@
     "zh-Hans": "<attr><feel_think_lv2><end_attr>那我会再等一等的。\n啊啊……好想早点将我的心情\n传达给这个小瓶的主人！",
     "zh-Hant": "<attr><feel_think_lv2><end_attr>那麼我會繼續在這裡等你。\n啊啊……！\n好想趕快將這份心意傳達給小瓶主人！"
   },
+  "48737": {
+    "$comments": "🟢, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`, GIVE?",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> die <color_yellow>Feder des Glücks<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "Give Marieve the <color_yellow>Happiness Plume<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> la <color_yellow>Pluma de Felicidad<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> la <color_yellow>Plume de Bonheur<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "it": "Dare <%sEV_SYSMSG_NPC> la <color_yellow>Piuma di Felicità<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ja": "マリーブに　幸せのはねを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ko": "말리브에게 행복의 깃털을 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> a <color_yellow>Pena de Felicidade<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hans": "要把幸福羽毛交给玛丽卜吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hant": "是否要將幸福羽毛交給瑪麗芙？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "48738": {
+    "$comments": "🟢, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`, GAVE!",
+    "de": "<pc> gab die <%sEV_SYSMSG_NPC> die\n<color_yellow>Feder des Glücks<color_white>!",
+    "en": "<pc> gave Marieve the <color_yellow>Happiness Plume!<color_white>",
+    "es": "¡<pc> le dio a la <%sEV_SYSMSG_NPC> la\n<color_yellow>Pluma de Felicidad<color_white>!",
+    "fr": "<pc> a donné a la <%sEV_SYSMSG_NPC>\nla <color_yellow>Plume de Bonheur<color_white>!",
+    "it": "<pc> ha dato alla <%sEV_SYSMSG_NPC>\nla <color_yellow>Piuma di Felicità<color_white>!",
+    "ja": "<pc>は　マリーブに\n幸せのはねを　渡した！",
+    "ko": "{pc}|hpp(은,는) 말리브에게\n행복의 깃털을 건넸다!",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> a <color_yellow>Pena de Felicidade<color_white>!",
+    "zh-Hans": "<pc>把幸福羽毛\n交给了玛丽卜！",
+    "zh-Hant": "<pc>把幸福羽毛\n交給了瑪麗芙！"
+  },
   "48491": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr><feel_happy_lv2>Thank you so much, Traveler. I'll use this feather as\na pen and write the letter right away.",
+    "en": "<attr><feel_happy_lv2><end_attr><feel_happy_lv2>Thank you so much, Traveler. I'll use this feather as a\npen, and write the letter right away.",
     "es": "",
     "fr": "",
     "it": "",
@@ -636,62 +662,10 @@
     "zh-Hans": "<attr><feel_happy_lv2><end_attr><feel_happy_lv2>谢谢你，旅行者。\n我这就把这根羽毛做成笔写信。",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr><feel_happy_lv2>謝謝你，旅行者。\n我立刻把這根羽毛做成筆寫信。"
   },
-  "48492": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Well, here it is! Please deliver this letter to the\nman from the small bottle right away, please.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv2><end_attr>「さぁ　できましたわ！　さっそく　この手紙を\n　小ビンのお方に　届けてくださいませ。",
-    "ko": "<attr><feel_happy_lv2><end_attr>: 자, 다 썼어요! 어서 이 편지를\n　유리병 주인께 가져다주세요.",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv2><end_attr>我写好了！\n请尽快把这封信交给小瓶的主人。",
-    "zh-Hant": "<attr><feel_happy_lv2><end_attr>來，我寫好了！\n麻煩你把這封信送去給小瓶主人。"
-  },
-  "48493": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>Eh? You don't know where to deliver it? Now that you\nmention it, I don't know either. It doesn't look like\nthat man lives in town.\n<br>\nAh...? If you look carefully, the poem ends with\n'From Mouron', doesn't it. But that's just a name...\n<br>\nLooking at the photo, it has umbrellas on a beach.\nProbably at a beach somewhere on Jule Island, so\nplease try to find it.\n<br>\nYou can check the locations of people by opening the\nmap, so please open the map, check 'Character List',\nand look for 'Mouron' in a place with a beach.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_think_lv2><end_attr>「え？　どこに届ければいいか　わからない？ \n　そういえば　私にも　わからないですわ。\n　この町に住んでいる方では　ないようですし。\n<br>\n「あら……？　よく見たら　詩の最後に \n　『ムーロンより』と書いてありますわね。\n　でも　お名前だけでは……。\n<br>\n「お写真を見ると　パラソルのあるビーチのよう。\n　おそらく　このジュレー島の海岸の\n　どこかだと思うので　探してみてください。\n<br>\n「地図を開くと　人の居場所を確認できるので\n　海岸がありそうな所で　地図を開いて\n　『キャラの場所』から　探してくださいね。",
-    "ko": "<attr><feel_think_lv2><end_attr>: 네? 어디로 가져다줘야 할지 모르신다고요?\n　그러고 보니 저도 모르겠네요.\n　이 마을에 사는 분은 아닌 것 같은데.\n<br>\n: 어라……? 잘 보니 시의 마지막에\n　『무론 씀』이라는 글귀가 있어요.\n　하지만 이름만 가지고는…….\n<br>\n: 사진을 보니까 파라솔이 있는\n　해변가인 것 같네요. 아마 주레섬 해안\n　어딘가일 테니까 그쪽을 찾아봐 주세요.\n<br>\n: 지도를 열면 사람들이 어디 있는지\n　알 수 있으니까, 해안이 있을 법한 곳에서\n　지도를 열어 『캐릭터 위치』로 찾아보세요.",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_think_lv2><end_attr>诶？不知道该送到哪里去？\n这么说起来我也不清楚啊。\n似乎不是这个镇子上的人。\n<br>\n咦？仔细看一看，\n诗的最后署名“木隆敬上”。\n不过只知道名字实在是……\n<br>\n从照片看来好像是撑着阳伞的海岸。\n大概是这座玖莱岛的什么地方的海岸，\n请你找找看。\n<br>\n打开地图就可以寻找人物的位置，\n所以请在有海岸的地方打开地图，\n通过“角色位置”找找看。",
-    "zh-Hant": "<attr><feel_think_lv2><end_attr>咦？你不知道該送去哪裡？\n這麼說起來，我也不知道呢。\n我想他應該不是這座市鎮的居民。\n<br>\n咦……？\n仔細一看，詩的最後寫著，「木隆敬上」。\n但是只靠名字……\n<br>\n照片看起來像是有遮陽傘的海灘。\n我想應該是在玖萊島海岸的某處，\n請你去找看看吧。\n<br>\n打開地圖可以確認人物的所在位置。\n請在有海岸的地方打開地圖，\n透過「角色位置」來尋找吧。"
-  },
-  "48737": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "Give Marieve the Happiness Plume?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "マリーブに　幸せのはねを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "ko": "말리브에게 행복의 깃털을 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "pt-BR": "",
-    "zh-Hans": "要把幸福羽毛交给玛丽卜吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "zh-Hant": "是否要將幸福羽毛交給瑪麗芙？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
-  },
-  "48738": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<pc> gave Marieve the Happiness Plume!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　マリーブに\n幸せのはねを　渡した！",
-    "ko": "{pc}|hpp(은,는) 말리브에게\n행복의 깃털을 건넸다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把幸福羽毛\n交给了玛丽卜！",
-    "zh-Hant": "<pc>把幸福羽毛\n交給了瑪麗芙！"
-  },
   "48739": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`",
     "de": "",
-    "en": "Marieve dipped the Happiness Plume in ink and began to\nwrite a letter!",
+    "en": "Marieve dipped the Happiness Plume in ink and began\nwriting a letter!",
     "es": "",
     "fr": "",
     "it": "",
@@ -701,10 +675,23 @@
     "zh-Hans": "玛丽卜用幸福羽毛蘸上墨水\n开始流畅地写信！",
     "zh-Hant": "瑪麗芙用幸福羽毛沾上墨水，\n開始振筆疾書！"
   },
-  "48740": {
-    "$comments": "🟡, ",
+  "48492": {
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`",
     "de": "",
-    "en": "<pc> obtained\nMarieve's Letter (Key Item)!<me 60>",
+    "en": "<attr><feel_happy_lv2><end_attr>OK, I did it! Please deliver this letter to the\ngentleman from the small bottle right away.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv2><end_attr>「さぁ　できましたわ！　さっそく　この手紙を\n　小ビンのお方に　届けてくださいませ。",
+    "ko": "<attr><feel_happy_lv2><end_attr>: 자, 다 썼어요! 어서 이 편지를\n　유리병 주인께 가져다주세요.",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv2><end_attr>我写好了！\n请尽快把这封信交给小瓶的主人。",
+    "zh-Hant": "<attr><feel_happy_lv2><end_attr>來，我寫好了！\n麻煩你把這封信送去給小瓶主人。"
+  },
+  "48740": {
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`",
+    "de": "",
+    "en": "<pc> obtained Marieve's Letter (Key Item)!<me 60>",
     "es": "",
     "fr": "",
     "it": "",
@@ -714,10 +701,23 @@
     "zh-Hans": "<pc>接过了\n玛丽卜的信（重要物品）！<me 60>",
     "zh-Hant": "<pc>收下了瑪麗芙的信（重要物品）！<me 60>"
   },
-  "48498": {
-    "$comments": "🟡, ",
+  "48493": {
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_020]`",
     "de": "",
-    "en": "The poem ends with 'From Mouron'. Please find and\ndeliver this letter to that man, please.<open_irai><bw_break>",
+    "en": "<attr><feel_think_lv2><end_attr>Eh? You don't know where to deliver it? Now that you\nmention it, I don't know either. It doesn't look like that\nman lives in town.\n<br>\nAh......? If you look carefully, the poem ends with\n\"From Mouron\", doesn't it. But that's just a name...\n<br>\nLooking at the photo, it seems to be a beach with\nparasols. Probably at a beach somewhere along Jule\nIsland's coast, I think, so please try to find it.\n<br>\nYou can check the locations of people by opening the\nmap, and checking \"Character List\".\n<br>\nSo when you're at a likely place, please open the\nmap, and look for \"Mouron\", okay.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_think_lv2><end_attr>「え？　どこに届ければいいか　わからない？ \n　そういえば　私にも　わからないですわ。\n　この町に住んでいる方では　ないようですし。\n<br>\n「あら……？　よく見たら　詩の最後に \n　『ムーロンより』と書いてありますわね。\n　でも　お名前だけでは……。\n<br>\n「お写真を見ると　パラソルのあるビーチのよう。\n　おそらく　このジュレー島の海岸の\n　どこかだと思うので　探してみてください。\n<br>\n「地図を開くと　人の居場所を確認できるので\n　海岸がありそうな所で　地図を開いて\n　『キャラの場所』から　探してくださいね。",
+    "ko": "<attr><feel_think_lv2><end_attr>: 네? 어디로 가져다줘야 할지 모르신다고요?\n　그러고 보니 저도 모르겠네요.\n　이 마을에 사는 분은 아닌 것 같은데.\n<br>\n: 어라……? 잘 보니 시의 마지막에\n　『무론 씀』이라는 글귀가 있어요.\n　하지만 이름만 가지고는…….\n<br>\n: 사진을 보니까 파라솔이 있는\n　해변가인 것 같네요. 아마 주레섬 해안\n　어딘가일 테니까 그쪽을 찾아봐 주세요.\n<br>\n: 지도를 열면 사람들이 어디 있는지\n　알 수 있으니까, 해안이 있을 법한 곳에서\n　지도를 열어 『캐릭터 위치』로 찾아보세요.",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_think_lv2><end_attr>诶？不知道该送到哪里去？\n这么说起来我也不清楚啊。\n似乎不是这个镇子上的人。\n<br>\n咦？仔细看一看，\n诗的最后署名“木隆敬上”。\n不过只知道名字实在是……\n<br>\n从照片看来好像是撑着阳伞的海岸。\n大概是这座玖莱岛的什么地方的海岸，\n请你找找看。\n<br>\n打开地图就可以寻找人物的位置，\n所以请在有海岸的地方打开地图，\n通过“角色位置”找找看。",
+    "zh-Hant": "<attr><feel_think_lv2><end_attr>咦？你不知道該送去哪裡？\n這麼說起來，我也不知道呢。\n我想他應該不是這座市鎮的居民。\n<br>\n咦……？\n仔細一看，詩的最後寫著，「木隆敬上」。\n但是只靠名字……\n<br>\n照片看起來像是有遮陽傘的海灘。\n我想應該是在玖萊島海岸的某處，\n請你去找看看吧。\n<br>\n打開地圖可以確認人物的所在位置。\n請在有海岸的地方打開地圖，\n透過「角色位置」來尋找吧。"
+  },
+  "48498": {
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_030]`",
+    "de": "",
+    "en": "The poem ends with \"From Mouron\". Please find and\ndeliver this letter to that gentleman, okay.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -728,9 +728,9 @@
     "zh-Hant": "詩的最後寫著，「木隆敬上」。\n請你找到這個人，將我的信交給他。<open_irai><bw_break>"
   },
   "48499": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_030]`",
     "de": "",
-    "en": "Looking at the photo, it has umbrellas on a beach.\nProbably at a beach somewhere on Jule Island, so\nplease try to find it.\n<br>\nYou can check the locations of people by opening the\nmap, so please open the map, check 'Character List',\nand look for 'Mouron' in a place with a beach.",
+    "en": "Looking at the photo, it seems to be a beach with\nparasols. Probably at a beach somewhere along Jule\nIsland's coast!\n<br>\nYou can check the locations of people by opening the\nmap, and checking \"Character List\".\n<br>\nSo when you're at a likely place, please open the\nmap, and look for \"Mouron\", okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -741,9 +741,9 @@
     "zh-Hant": "照片看起來像是有遮陽傘的海灘。\n他一定是在玖萊島海岸的某處！\n<br>\n打開地圖可以確認人物的所在位置。\n請在有海岸的地方打開地圖，\n透過「角色位置」來尋找吧。"
   },
   "48500": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_040]`",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Thank you so much, Traveler! You gave him my letter,\ndidn't you. I could see it on your face.\n<br>\nIn the letter I wrote, 'you should come and see me in\nJulet<heart>'. I can't wait to meet him!\n<br>\n...Huh! my bad, my bad. This is just a small token of my\nappreciation. Please accept it.",
+    "en": "<attr><feel_happy_lv2><end_attr>Thank you so much, Traveler! You gave him my letter,\ndidn't you. I could see it on your face.\n<br>\nIn the letter I wrote, \"You should come and see me in\nJulet <heart>\". I can't wait to meet himmm!\n<br>\n...Huh! My bad, my bad. This is just a small token of my\nappreciation. Please accept it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -754,7 +754,7 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>旅行者，謝謝你！\n你幫我把信送到他手上了吧？\n看你的表情，我就知道了。\n<br>\n我在那封信裡寫說，\n「我在玖萊特鎮，快來找我吧<heart>」。\n我好想快點見到他～\n<br>\n……啊！不對不對。\n這是我的小心意，\n請你收下吧。"
   },
   "48501": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_040]`",
     "de": "",
     "en": "<attr><feel_happy_lv2><end_attr>Aah! I can't wait for the day when Mouron comes to\nsee me!",
     "es": "",
@@ -767,9 +767,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>啊啊！\n木隆大人什麼時候會來見我呢？\n我已經等不及了！"
   },
   "48502": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (006) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00526, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_010_1_200]`",
     "de": "",
-    "en": "Mouron<heart>, you're still out there somewhere with your\nsauve, silver hair, aren't you. Aah, I can't wait to\nmeet you...",
+    "en": "Mouron <heart>, you're still out there somewhere with your\nsauve, silver hair, aren't you. Aah, I can't wait to meet\nyou...",
     "es": "",
     "fr": "",
     "it": "",
@@ -2561,9 +2561,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>嗯？以前沒見過你啊，\n是旅行者嗎？\n<br>\n我叫柏蓮，是玖萊特鎮的鎮長。\n目前因為市鎮周圍有貓妖在徘徊，\n搞得大家人心惶惶的。\n<br>\n我必須要想想辦法。\n如果你有事的話，先去鎮上晃晃，\n晚點再來找我吧。"
   },
   "35548": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (03/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00366]`, NO PoA",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>Hmm. You must be a traveler. I am Vollen, the\nmayor of Julet Town. Right now, this town is\non edge because of all the cat monsters\n<br>\nroaming around. I'm busy trying to figure out\nwhat to do about it. Oh, Somya told you I was\nlooking for someone. I'm sure I have a favor\n<br>\nto ask you. But I can't ask someone who\ndoesn't have Proof of Adulthood. I want to\nleave this matter in the hands of someone I\n<br>\ncan trust. Will you come back when you are\ngood enough to get Proof of Adulthood?",
+    "en": "<attr><feel_think_lv1><end_attr>Hmm... You are a traveler, aren't you. I am Vollen, the\nmayor of Julet. Right now, the town is on edge because\nof all the cat monsters roaming about.\n<br>\nI'm busy thinking of a countermeasure, still is there\nsomething I can help you with?\n<br>\n...Ohhh, Somya told you I was looking for someone.\n<br>\nThere certainly is something help with. But, it's not\nsomething I can request of one without a Proof of\nAdulthood.\n<br>\nThis matter is one which I wish to leave with someone\nwhom I can rely upon.\n<br>\nIf you become one who has obtained their Proof of\nAdulthood, please come again, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2574,9 +2574,9 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>嗯……你是旅行者嗎？\n<br>\n我是柏蓮，是玖萊特鎮的鎮長。\n目前因為市鎮周圍有貓妖在徘徊，\n搞得大家人心惶惶的。\n<br>\n我正在忙著思考對策，\n你有什麼事嗎？\n<br>\n……喔喔，你聽莎米亞說\n我正在找人嗎。\n<br>\n的確我有事想請人處理。\n但是我可不能讓\n沒有合格者之證的人處理啊。\n<br>\n這件事我想請能夠信賴的人來處理。\n如果你是能拿到合格者之證的人，\n就請你之後再來找我吧。"
   },
   "35549": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (03/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00366]`",
     "de": "",
-    "en": "Hmm. You must be a traveler. I am Vollen, the\nmayor of Julet Town. Right now, this town is\non edge because of all the cat monsters\n<br>\nroaming around. I'm busy trying to figure out\nwhat to do about it. Somya told you that I'm\nlooking for someone, didn't he? I see. You\n<br>\nseem like a strong man. And if you have Proof\nof Adulthood, I'm sure I can trust you.\nActually, I need you to do something for\n<br>\nme.I'm in no condition to ask the townspeople\nfor help, so I'm in a bit of a bind. Let's\nstart with your name. Hmmm. Your name is\n<br>\n<pc>.<bw_break>",
+    "en": "Hmm... You are a traveler, aren't you. I am Vollen, the\nmayor of Julet. Right now, the town is on edge because\nof all the cat monsters roaming about.\n<br>\nI'm busy thinking of a countermeasure, still is there\nsomething I can help you with?\n<br>\n...Ohhh, Somya told you I was looking for someone.\n<br>\nI see. You seem somewhat strong. And if you have a\nProof of Adulthood, you should be trustworthy.\n<br>\nActually, there is something I would like you to do\nfor me. The townspeople are in no condition to be\nrequested of, so I'm in a bit of a bind.\n<br>\nFirst, allow me to hear your name.\n...Hmmm. <pc>, you say.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2587,7 +2587,7 @@
     "zh-Hant": "嗯……你是旅行者嗎？\n<br>\n我是柏蓮，是玖萊特鎮的鎮長。\n目前因為市鎮周圍有貓妖在徘徊，\n搞得大家人心惶惶的。\n<br>\n我正在忙著思考對策，\n你有什麼事嗎？\n<br>\n……喔喔，你聽莎米亞說\n我正在找人嗎。\n<br>\n原來如此，你的確看起來挺強的。\n而且你也有合格者之證，\n應該是可以信賴的人吧。\n<br>\n其實我有事情想讓你幫忙。\n最近這種情況下，\n實在是不好拜託鎮內的人處理。\n<br>\n先告訴我你的名字吧。\n嗯……是叫<pc>啊。<bw_break>"
   },
   "35550": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (03/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00366]`, WEDDIE",
     "de": "",
     "en": "Mmm <pc>? So you were the Shellner\nat my daughter's wedding <pc>! Keel\ntold me the story. Keel told me that you\n<br>\nrisked your life to save Keel from being\nkidnapped by a monster. As a father, I thank\nyou. Thank you <pc>. I know I'm\n<br>\ngoing to be in your debt again, but please,\nwill you do me a favor? I need you to get\nsomeone to the Sleeping Wisdom Ruins on the\n<br>\nnext island over, so that I can get there\nsafely. Will you do it?<yesno><break>",
     "es": "",
@@ -2600,9 +2600,9 @@
     "zh-Hant": "嗯……<pc>？\n<br>\n這麼說來，你就是在我女兒結婚典禮\n擔任傳貝護者的<pc>嗎！\n<br>\n我聽琪兒說過了，\n你可是拼上性命，\n拯救被怪物抓走的琪兒啊……\n<br>\n作為父親，必須跟你道謝才行。\n非常感謝你，<pc>。\n<br>\n雖然又要請你幫忙了，\n可以聽聽我的請求嗎？\n<br>\n希望你幫我護送一個人\n到隔壁島上沉睡著智慧的遺跡，\n你願意幫忙嗎？<yesno><break>"
   },
   "35551": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (03/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00366]`, YESNO",
     "de": "",
-    "en": "Well then <pc>. Will you do me a\nfavor? I need you to make sure a certain\nsomeone gets to the Sleeping Wisdom Ruins on\n<br>\nthe next island over safely. Will you do it?<yesno><break>",
+    "en": "Then, <pc>, will you please hear my request.\n<br>\nI want you to ensure a certain someone safely reaches\nthe Sleeping Wisdom Ruins on the next island. Are you\nable to do that?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2613,9 +2613,9 @@
     "zh-Hant": "那麼<pc>。\n可以聽聽我的請求嗎？\n<br>\n希望你幫我護送一個人，\n安全抵達隔壁島上，沉睡著智慧的遺跡。\n你願意幫忙嗎？<yesno><break>"
   },
   "35552": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (03/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00366]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>I see. Then I have no choice. I'll look for\nsomeone else.",
+    "en": "<attr><feel_sad_lv1><end_attr>Is that so... If that's the case, then I have no choice.\nI'll look for someone else.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2626,9 +2626,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>是嗎……那也沒辦法了。\n我去找別人幫忙吧。"
   },
   "35553": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (03/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00366]`, YESNO",
     "de": "",
-    "en": "<pc>. Will you do me a favor? I need\nyou to make sure a certain someone gets to\nSleeping Wisdom Ruins on the next island over\n<br>\nsafely. Will you do it?<yesno><break>",
+    "en": "Then, <pc>, will you please hear my request.\n<br>\nI want you to ensure a certain someone safely reaches\nthe Sleeping Wisdom Ruins on the next island. Are you\nable to do that?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -2639,9 +2639,9 @@
     "zh-Hant": "<pc>。\n可以聽聽我的請求嗎？\n<br>\n希望你幫我護送一個人\n安全抵達隔壁島上，沉睡著智慧的遺跡。\n你願意幫忙嗎？<yesno><break>"
   },
   "35554": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (03/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00366]`, YES",
     "de": "",
-    "en": "Oh, you can do it.",
+    "en": "Ooh, you'll do it, eh.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2756,9 +2756,9 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>家庭主婦看起來很輕鬆對吧。\n但是每天要想料理的菜色，\n也是相當辛苦的喔。\n<br>\n所以要好好善用像這樣的商店才行，\n不然日子可難過了。"
   },
   "35563": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (03/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00471]`",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>We had a daughter named Keel, but she has gone\noff to get married. I guess she misses me. My\nfamily is very protective of Somya, who has no\n<br>\nrelatives.",
+    "en": "<attr><feel_sad_lv1><end_attr>We had a daughter named Keel, but she went off to get\nmarried. It's seems lonely, you know. We cherish\nSomya, who has no relatives of her own.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2782,9 +2782,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>最近腰痛得很嚴重啊。\n<br>\n我懷疑這是貓妖的詛咒啊……"
   },
   "35565": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (02/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00521]`",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Oh, you're a traveler, aren't you? You are a\ntraveler, aren't you? Can you do me a favor?\nThe north side of this town is a residential\n<br>\narea. There is a girl named Somya living alone\nin a house at the end of the street. She was\nabandoned by her parents. She doesn't have any\n<br>\nfriends, and she's always lonely. If you would\nlike, you could visit her house and tell Somya\nabout your travels. I'm sure it would bring\n<br>\nher joy.",
+    "en": "<attr><feel_sad_lv1><end_attr>Oh, you're a traveler, ain'tcha. Can you do me a favor?\n<br>\nOn the north side of town is a neighborhood. In the\nhouse at the end, is a girl named Somya living there\nalone.\n<br>\nIt seems that she was abandoned by her parents. She\ndoesn't have any friends, so she's always lonely;\nit's painful to see...\n<br>\nIf it's good by you, could you possibly visit her\nhouse, and tell Somya about your travels. I'm sure\nshe'd be delighted.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2795,9 +2795,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>喔，你是旅行者吧？\n可以請你幫我個忙嗎？\n<br>\n在這個鎮的北側有個居住區。\n有個叫做莎米亞的女孩子，\n一個人住在角落邊。\n<br>\n因為被雙親拋棄，然後也沒有朋友。\n看起來一直都很寂寞的樣子，\n讓人看著就覺得心酸啊……\n<br>\n如果可以的話。\n請你去拜訪她，跟莎米亞說旅行的故事好嗎？\n她一定會很開心的。"
   },
   "38837": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (03/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00521]`",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>Oh? Looks like you went to Somya's. Hmm? Somya\nkicked you out? She would never do such a\nthing. Hmmm...she told you to go to mayor's\n<br>\nhouse. If you have Proof of Adulthood, you\nmight want to try it.",
+    "en": "<attr><feel_think_lv2><end_attr>Oh? Looks like you went to Somya's. Mmm? Somya\nkicked you out? She would never do such a thing...\n<br>\nHmm. She told you to go to mayor's house. If you have\na Proof of Adulthood, it'd be a good idea trying to\ngo there.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2821,9 +2821,9 @@
     "zh-Hant": "我是來拿個叫做鑰徽的東西，\n但是不知道該怎麼做！\n<br>\n總之先去這個鎮上。\n找看起來最了不起的人，\n就可以了吧……\n<br>\n這麼說來，好像聽說鎮長的家就在\n東北邊的教會左邊！"
   },
   "35567": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (02/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00527]`",
     "de": "",
-    "en": "You are a traveler. Will you do me a favor?\nThere's a girl named Somya who lives alone in\nthe north part of town, but lately she's been\n<br>\nacting strange. If I go there, I'll get on her\nnerves, so I need you to go over to her house\nand check on her. If there's nothing wrong,\n<br>\nthat's fine.",
+    "en": "You're a traveler, aren't you. You'll hear my request,\nyeah?\n<br>\nIn the northern part of town, there's a girl named\nSomya who lives alone, although lately she's been\nacting strange, y'know.\n<br>\nIf I go, it'll get on her nerves, so I want you to go\nto her house and check on her. If nothing's wrong,\nthat'll be fine.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2834,9 +2834,9 @@
     "zh-Hant": "你是旅行者對吧？\n可以聽聽我的請求嗎？\n<br>\n有個叫做莎米亞的女孩子，\n她一個人住在市鎮北邊。\n她最近看起來有點怪。\n<br>\n不過要是我去的話不太好，\n所以希望你能幫忙去她家裡看看，\n如果沒什麼事的話那當然最好。"
   },
   "130914": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (03/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00527]`",
     "de": "",
-    "en": "Oh, traveler. It seems you did what I asked\nand went to check on Somya. Hmmm...you feel\nthat Somya has been treated nicely? That's\n<br>\nkind of suspicious. If Somya is right and you\nhave Proof of Adulthood, you should probably\ngo see the mayor.",
+    "en": "Oh, traveler. It seems you did what I asked and went\nto check on Somya, didn't you.\n<br>\nHuuuh... You got the feeling that Somya was hiding\nsomething, yeah. That's a little suspicious, isn't it.\n<br>\n...My, okay. As Somya said, if you have a Proof of\nAdulthood, you should probably go see the mayor, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2860,9 +2860,9 @@
     "zh-Hant": "這個市鎮的每個地方都能看到海，\n讓人感到相當平靜唷。\n<br>\n也許是因為我們維迪族人民的祖先，\n以前曾在海裡\n與魚兒們一起生活的關係吧。"
   },
   "35569": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (03/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00364]`",
     "de": "",
-    "en": "<attr><feel_angry_lv2><end_attr>I have to go out now. So get out. If you're\nsolid enough to have Proof of Adulthood, you\nshould go see the mayor. I think I'm looking\n<br>\nfor someone strong. The mayor's house is on\nthe northeast side of town, to the left of the\nchurch.",
+    "en": "<attr><feel_angry_lv2><end_attr>I'll be heading out shortly. So you'll have to leave.\n<br>\nIf you're strong enough to have a Proof of Adulthood,\nyou should go see the mayor.\n<br>\nIt seems like he was looking for someone strong. The\nmayor's house is in the northeast part of town, to the\nleft of the church.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2873,9 +2873,9 @@
     "zh-Hant": "<attr><feel_angry_lv2><end_attr>我馬上要出門了，\n請你離開我家。\n<br>\n如果你擁有合格者之證，\n是個讓人覺得可靠的人，\n就去鎮長家找他吧。\n<br>\n鎮長好像在找很有實力的人，\n鎮長的家在市鎮的東北邊，\n面對教會左側的房子。"
   },
   "35570": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (00/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00520]`",
     "de": "",
-    "en": "I'm glad you came. This is Julet Town. It's a\nvery nice place near the sea. Take your time\nto look around the town. You can register as a\n<br>\nfriend at the tavern. There is also a Vocation\nPriest. There is a Travel Concierge at the inn\nwho offers a variety of services. You can\n<br>\nregister by talking to the information desk.\nOnce you've had a chance to look around the\ntown, you'll need to solve the town's\n<br>\nproblems. If the enemies are strong, you might\nwant to level up, change jobs, or try another\nlocation. If you have a Rail Pass, you can\n<br>\ntake the train to another continent. I heard\nit's not easy to get a pass though. Oh, and\none more thing. If you have something to tell\n<br>\nme, please wipe your lips with pink.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>I'm sure you will be able to find a place to\ntalk to them. If you see them, you should talk\nto them.",
+    "en": "Welcome. This is the town of Julet, a very nice place\nnear the sea. You can take your time touring the town.\n<br>\nYou can register as a friend at the tavern. There is also a Job-Changing\nPriest.\n<br>\nThere is a Travel Concierge at the inn\nwho offers a variety of services.\n<br>\nYou can register by talking to the information desk.\nOnce you've had a chance to look around the\ntown, you'll need to solve the town's problems.\n<br>\nIf the enemies are strong, you might\nwant to level up, change jobs, or try another\nlocation.\n<br>\nIf you have a Rail Pass, you can take the train to another continent. I heard\nit's not easy to get a pass though.\n<br>\nOh, yeah. You'll come across people with <emoji Fukidashi_Icon> and <emoji Question_Icon>\nspeech bubbles, who'll have something to tell you.\nIf you see them, you should definitely speak to them.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2886,9 +2886,9 @@
     "zh-Hant": "歡迎你，這裡是玖萊特鎮。\n是個靠海的好地方唷。\n先在市鎮裡隨意逛逛吧。\n<br>\n酒館是能夠登錄好友的地方。\n只要接受了介紹人的委託，\n就能夠使用酒館。這裡也有轉職神官喔。\n<br>\n旅店中還有提供各式各樣\n服務的旅行服務中心。\n和導覽窗口交談就可以登錄使用了喔。\n<br>\n你可以四處逛逛，順便解決這個市鎮的問題。\n如果敵人太強，可以試試提升等級，\n或是轉職成其他職業。\n<br>\n如果持有洲際鐵路通票，\n就可以乘坐列車去其他大陸。\n不過通票很難取得就是了。\n<br>\n另外，有話想對你說的人，\n他們的對話氣泡會呈現粉紅色<emoji Fukidashi_Icon>或是紫色<emoji Question_Icon>。\n如果看到了，就主動和他們交談吧。"
   },
   "35571": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (00/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00520]`",
     "de": "",
-    "en": "This area is called Wena Islands. They are a\ngroup of islands that make up a continent.\nMany Weddies live on each island. We use\n<br>\ncanoes to get from one island to another. Oh,\nyeah. If you have something to tell me, wipe\nyour lips with pink.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>I'm sure you will be able to find a place to\ntalk to them. If you see them, you should talk\nto them.",
+    "en": "This area is called the Wena Islands. A group of\nislands that put together make up the continent.\n<br>\nOn each island lives many of us Weddies. So, to get\nfrom island to island, we use canoes.\n<br>\nOh, yeah. You'll come across people with <emoji Fukidashi_Icon> and <emoji Question_Icon>\nspeech bubbles, who'll have something to tell you.\nIf you see them, you should definitely speak to them.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2899,9 +2899,9 @@
     "zh-Hant": "這一帶被稱為維納群島。\n是由數個小島聚集在一起，\n形成如同一座大陸般的地帶。\n<br>\n我們維迪族就居住在各個島上，\n島嶼之間的交通則是靠著獨木舟移動。\n<br>\n對了。有話想對你說的人，\n他們的對話氣泡會呈現粉紅色<emoji Fukidashi_Icon>或是紫色<emoji Question_Icon>。\n如果看到了，就主動和他們說話吧。"
   },
   "130915": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (00/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00520]`",
     "de": "",
-    "en": "I'm glad you came. This is Julet Town, a very\nnice place near the sea. I'll tell you one\nthing to commemorate our meeting. If you have\n<br>\nsomething to tell me, I'll wipe it off with\nthe color pink.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>I've been working on it for a while now. Like\nMr. Ranshii over there. At any rate, I\nrecommend that you talk to Mr. Ranshii. How\n<br>\nabout you go there right away?",
+    "en": "Welcome. This is the town of Julet, a very nice place\nnear the sea. In honor of our meeting, I'll tell you\nsomething.\n<br>\nYou'll come across people with <emoji Fukidashi_Icon> and <emoji Question_Icon> speech\nbubbles, who'll have something to tell you. Like Ms.\nRanshii over there.\n<br>\nAt any rate, I recommend that you speak with Ms.\nRanshii. How about you try going right away?",
     "es": "",
     "fr": "",
     "it": "",
@@ -2912,9 +2912,9 @@
     "zh-Hant": "歡迎你，這裡是玖萊特鎮。\n是個靠海的好地方唷。\n相逢即是有緣，告訴你一個小知識。\n<br>\n有話想對你說的人，\n他們的對話氣泡會呈現粉紅色<emoji Fukidashi_Icon>或是紫色<emoji Question_Icon>。\n比如說在那邊的蘭希。\n<br>\n總之你不妨先去找蘭希，\n聽聽她有什麼話要說如何呢？"
   },
   "130916": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (00/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00520]`",
     "de": "",
-    "en": "This area is called Wena Islands. They are a\ngroup of islands that make up a continent.\nMany Weddies live on each island. We use\n<br>\ncanoes to get from one island to another. Oh,\nyeah. If you have something to tell me, wipe\nyour lips with pink.<emoji Fukidashi_Icon>dark reddish purple<emoji Question_Icon>I've been working on it for a while now. Like\nMr. Ranshii over there. At any rate, I\nrecommend that you talk to Mr. Ranshii. How\n<br>\nabout you go there right away?",
+    "en": "This area is called the Wena Islands. A group of\nislands that put together make up the continent.\n<br>\nOn each island lives many of us Weddies. So, to get\nfrom island to island, we use canoes.\n<br>\nOh, yeah. You'll come across people with <emoji Fukidashi_Icon> and <emoji Question_Icon>\nspeech bubbles, who'll have something to tell you.\nLike Ms. Ranshii over there.\n<br>\nAt any rate, I recommend that you speak with Ms.\nRanshii. How about you try going right away?",
     "es": "",
     "fr": "",
     "it": "",
@@ -3081,9 +3081,9 @@
     "zh-Hant": "鎮裡的人們看起來有夠緊張的，\n真讓人不爽啊。\n<br>\n看起來就像是在怕什麼東西似的，\n我還真不知道，\n有什麼東西能讓他們怕成這樣。"
   },
   "35579": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (05/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00366]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Thank you for doing what I asked. Your job is\nto act as a bodyguard to get rid of the\nmonster so that Lord Kinner can get to the\n<br>\nSleeping Wisdom Ruins safely. To get to King\nLadis Island, where the ruins are located,\nleave south of town, go to Muse Coast, and\n<br>\ntake a canoe from the canoe dock there. I'm\ncounting on you!",
+    "en": "<attr><feel_happy_lv1><end_attr>Thank you for hearing my request.\n<br>\nYour task is to act as a bodyguard and do away with\nmonsters, to ensure that Mr. Kinner safely reaches\nthe Sleeping Wisdom Ruins.\n<br>\nTo get to King Ladis Island where the ruins are, leave\nfrom the south side of town to Muse Coast, and take a\ncanoe from the landing. I'm counting on you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3094,9 +3094,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>謝謝你接受我的請求。\n<br>\n你的工作是護衛金那大人，\n擊敗路上的怪物，\n讓他能夠安全抵達智慧沉睡之遺跡。\n<br>\n遺跡位置在拉迪斯王島上，從小鎮南邊出去，\n前往繆茲海岸的獨木舟碼頭，\n搭乘獨木舟過去就可以了，拜託你了！"
   },
   "35580": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (05/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00471]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Thank you for listening to our request,\ntraveler. Nowadays, there are few people who\nare willing to work for others.",
+    "en": "<attr><feel_happy_lv1><end_attr>Thank you for hearing our request, traveler. Nowadays,\nthere are fewer people willing to work for others, no...",
     "es": "",
     "fr": "",
     "it": "",
@@ -3107,9 +3107,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>謝謝你願意幫助我丈夫，旅行者。\n<br>\n最近願意助人為樂的人，\n也越來越少了……"
   },
   "35581": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, (05/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:[STT_EventPalceName.SYSTXT_PLACENAME_00006, STT_NpcInfo.NAME_NPC_00521]`",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>I see you went to the mayor's house as well.\nWhat did the mayor ask you to do? The mayor\nmust be very busy to ask a traveler for a\n<br>\nfavor.",
+    "en": "<attr><feel_think_lv1><end_attr>Looks like you went to the mayor's house too,\nain'tcha. What'd the mayor ask you for? To ask of a\ntraveler, the mayor must be quite busy too, ain't he.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3146,7 +3146,7 @@
     "zh-Hant": "你從那個出口就能離開繆茲海岸。\n從東面可以進入玖萊島的下層大空洞，\n想要去雷恩村的話，就從那邊過去吧。\n<br>\n繆茲海岸的南方有兩個獨木舟碼頭，\n對自己的技術沒自信的話，\n還是不要冒險乘坐比較好喔。"
   },
   "35583": {
-    "$comments": "🔴, ",
+    "$comments": "🟢, (05/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00006`",
     "de": "Die Tür ist verschlossen mit Schüssel.",
     "en": "The door is locked.",
     "es": "La puerta está cerrada con llave.",
@@ -3276,7 +3276,7 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>你是在幫鎮長忙的冒險者嗎？\n<br>\n如果是的話，我有話要轉達給你。\n鎮長他想要聽調查的結果。\n<br>\n鎮長家在東北方教會左邊的房子唷。"
   },
   "35593": {
-    "$comments": "🔴, ",
+    "$comments": "🟢, (05/??) Story of Julet [Key Emblem - Blue], see `Game.locres.json:STT_EventPalceName.SYSTXT_PLACENAME_00006`",
     "de": "Die Tür ist verschlossen mit Schüssel.",
     "en": "The door is locked.",
     "es": "La puerta está cerrada con llave.",

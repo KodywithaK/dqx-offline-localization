@@ -518,348 +518,348 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 
   <details>
 
-|               Namespace               | Key | Recommendation(s)                           | Comment(s)                             |
-| :-----------------------------------: | :-: | :------------------------------------------ | :------------------------------------- |
-|              `ASIA_DLC`               |     |                                             |                                        |
-|            `Event_Common`             |     |                                             |                                        |
-|            `lpWindowName`             |     |                                             | The game's window name                 |
-|               `Sample`                |     |                                             |                                        |
-|          `STT_AccessoryItem`          |     |                                             |                                        |
-|      `STT_ActionAvgMsg_Simple1`       |     |                                             |                                        |
-|      `STT_ActionAvgMsg_Simple15`      |     |                                             |                                        |
-|      `STT_ActionAvgMsg_Simple2`       |     |                                             |                                        |
-|      `STT_ActionAvgMsg_Simple3`       |     |                                             |                                        |
-|      `STT_ActionAvgMsg_Simple4`       |     |                                             |                                        |
-|      `STT_ActionAvgMsg_Simple5`       |     |                                             |                                        |
-|       `STT_ActionMsg_Balloon1`        |     |                                             |                                        |
-|       `STT_ActionMsg_Balloon2`        |     |                                             |                                        |
-|         `STT_ActionMsg_Log1`          |     |                                             |                                        |
-|         `STT_ActionMsg_Log10`         |     |                                             |                                        |
-|         `STT_ActionMsg_Log11`         |     |                                             |                                        |
-|         `STT_ActionMsg_Log12`         |     |                                             |                                        |
-|         `STT_ActionMsg_Log13`         |     |                                             |                                        |
-|         `STT_ActionMsg_Log14`         |     |                                             |                                        |
-|         `STT_ActionMsg_Log15`         |     |                                             |                                        |
-|         `STT_ActionMsg_Log2`          |     |                                             |                                        |
-|         `STT_ActionMsg_Log3`          |     |                                             |                                        |
-|         `STT_ActionMsg_Log4`          |     |                                             |                                        |
-|         `STT_ActionMsg_Log5`          |     |                                             |                                        |
-|         `STT_ActionMsg_Log6`          |     |                                             |                                        |
-|         `STT_ActionMsg_Log7`          |     |                                             |                                        |
-|         `STT_ActionMsg_Log8`          |     |                                             |                                        |
-|         `STT_ActionMsg_Log9`          |     |                                             |                                        |
-|        `STT_ActionMsg_Simple1`        |     |                                             |                                        |
-|       `STT_ActionMsg_Simple10`        |     |                                             |                                        |
-|       `STT_ActionMsg_Simple11`        |     |                                             |                                        |
-|       `STT_ActionMsg_Simple12`        |     |                                             |                                        |
-|       `STT_ActionMsg_Simple13`        |     |                                             |                                        |
-|       `STT_ActionMsg_Simple14`        |     |                                             |                                        |
-|       `STT_ActionMsg_Simple15`        |     |                                             |                                        |
-|        `STT_ActionMsg_Simple2`        |     |                                             |                                        |
-|        `STT_ActionMsg_Simple3`        |     |                                             |                                        |
-|        `STT_ActionMsg_Simple4`        |     |                                             |                                        |
-|        `STT_ActionMsg_Simple5`        |     |                                             |                                        |
-|        `STT_ActionMsg_Simple6`        |     |                                             |                                        |
-|        `STT_ActionMsg_Simple7`        |     |                                             |                                        |
-|        `STT_ActionMsg_Simple8`        |     |                                             |                                        |
-|        `STT_ActionMsg_Simple9`        |     |                                             |                                        |
-|      `STT_ActionSumMsg_Simple1`       |     |                                             |                                        |
-|      `STT_ActionSumMsg_Simple15`      |     |                                             |                                        |
-|      `STT_ActionSumMsg_Simple2`       |     |                                             |                                        |
-|      `STT_ActionSumMsg_Simple3`       |     |                                             |                                        |
-|      `STT_ActionSumMsg_Simple4`       |     |                                             |                                        |
-|      `STT_ActionSumMsg_Simple5`       |     |                                             |                                        |
-|         `STT_BRReceptionNpc`          |     |                                             |                                        |
-|          `STT_BarMonsterNpc`          |     |                                             |                                        |
-|          `STT_BarMonsterSys`          |     |                                             |                                        |
-|          `STT_BattleAbiMsg`           |     |                                             |                                        |
-|        `STT_BattleActionItem`         |     |                                             |                                        |
-|         `STT_BattleEquipItem`         |     |                                             |                                        |
-|         `STT_BattleGuestName`         |     |                                             |                                        |
-|         `STT_BattleMagicItem`         |     |                                             |                                        |
-|        `STT_BattleMonsterName`        |     |                                             |                                        |
-|     `STT_BattleOddAvgMsg_AEE_SYS`     |     |                                             |                                        |
-|     `STT_BattleOddAvgMsg_AEP_SYS`     |     |                                             |                                        |
-|     `STT_BattleOddAvgMsg_AE_SYS`      |     |                                             |                                        |
-|     `STT_BattleOddAvgMsg_AP_SYS`      |     |                                             |                                        |
-|     `STT_BattleOddAvgMsg_AXE_SYS`     |     |                                             |                                        |
-|     `STT_BattleOddAvgMsg_AXP_SYS`     |     |                                             |                                        |
-|     `STT_BattleOddAvgMsg_DAE_SYS`     |     |                                             |                                        |
-|     `STT_BattleOddAvgMsg_DAP_SYS`     |     |                                             |                                        |
-|     `STT_BattleOddAvgMsg_DOE_SYS`     |     |                                             |                                        |
-|     `STT_BattleOddAvgMsg_DOP_SYS`     |     |                                             |                                        |
-|     `STT_BattleOddAvgMsg_RSE_SYS`     |     |                                             |                                        |
-|     `STT_BattleOddAvgMsg_RSP_SYS`     |     |                                             |                                        |
-|      `STT_BattleOddMsg_AEE_LOG`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_AEE_SYS`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_AEP_LOG`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_AEP_SYS`       |     |                                             |                                        |
-|       `STT_BattleOddMsg_AE_LOG`       |     |                                             |                                        |
-|       `STT_BattleOddMsg_AE_SYS`       |     |                                             |                                        |
-|     `STT_BattleOddMsg_AFP_BALOON`     |     |                                             |                                        |
-|      `STT_BattleOddMsg_AFP_SYS`       |     |                                             |                                        |
-|       `STT_BattleOddMsg_AP_LOG`       |     |                                             |                                        |
-|       `STT_BattleOddMsg_AP_SYS`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_AXE_LOG`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_AXE_SYS`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_AXP_LOG`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_AXP_SYS`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_DAE_LOG`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_DAE_SYS`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_DAP_LOG`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_DAP_SYS`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_DOE_LOG`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_DOE_SYS`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_DOP_LOG`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_DOP_SYS`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_MCEE_LOG`      |     |                                             |                                        |
-|      `STT_BattleOddMsg_MCEE_SYS`      |     |                                             |                                        |
-|      `STT_BattleOddMsg_MCEP_LOG`      |     |                                             |                                        |
-|      `STT_BattleOddMsg_MCEP_SYS`      |     |                                             |                                        |
-|     `STT_BattleOddMsg_MCE_BALOON`     |     |                                             |                                        |
-|      `STT_BattleOddMsg_MCE_SYS`       |     |                                             |                                        |
-|     `STT_BattleOddMsg_RSE_BALOON`     |     |                                             |                                        |
-|      `STT_BattleOddMsg_RSE_LOG`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_RSE_SYS`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_RSP_LOG`       |     |                                             |                                        |
-|      `STT_BattleOddMsg_RSP_SYS`       |     |                                             |                                        |
-|     `STT_BattleOddMsg_RS_BALOON`      |     |                                             |                                        |
-|       `STT_BattleOddMsg_RS_SYS`       |     |                                             |                                        |
-|         `STT_BattleSkillItem`         |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_D1E_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_D1P_SYS`    |     |                                             |                                        |
-|   `STT_BattleSlideAvgMsg_D2EEX_SYS`   |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_D2E_SYS`    |     |                                             |                                        |
-|   `STT_BattleSlideAvgMsg_D2PEX_SYS`   |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_D2P_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_FE_SYS`     |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_FP_SYS`     |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_I1E_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_I1P_SYS`    |     |                                             |                                        |
-|   `STT_BattleSlideAvgMsg_I2EEX_SYS`   |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_I2E_SYS`    |     |                                             |                                        |
-|   `STT_BattleSlideAvgMsg_I2PEX_SYS`   |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_I2P_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_NEE_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_NEP_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_RSE_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideAvgMsg_RSP_SYS`    |     |                                             |                                        |
-|     `STT_BattleSlideMsg_D1E_LOG`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_D1E_SYS`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_D1P_LOG`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_D1P_SYS`      |     |                                             |                                        |
-|    `STT_BattleSlideMsg_D2EEX_LOG`     |     |                                             |                                        |
-|    `STT_BattleSlideMsg_D2EEX_SYS`     |     |                                             |                                        |
-|     `STT_BattleSlideMsg_D2E_LOG`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_D2E_SYS`      |     |                                             |                                        |
-|    `STT_BattleSlideMsg_D2PEX_LOG`     |     |                                             |                                        |
-|    `STT_BattleSlideMsg_D2PEX_SYS`     |     |                                             |                                        |
-|     `STT_BattleSlideMsg_D2P_LOG`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_D2P_SYS`      |     |                                             |                                        |
-|      `STT_BattleSlideMsg_FE_LOG`      |     |                                             |                                        |
-|      `STT_BattleSlideMsg_FE_SYS`      |     |                                             |                                        |
-|      `STT_BattleSlideMsg_FP_LOG`      |     |                                             |                                        |
-|      `STT_BattleSlideMsg_FP_SYS`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_I1E_LOG`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_I1E_SYS`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_I1P_LOG`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_I1P_SYS`      |     |                                             |                                        |
-|    `STT_BattleSlideMsg_I2EEX_LOG`     |     |                                             |                                        |
-|    `STT_BattleSlideMsg_I2EEX_SYS`     |     |                                             |                                        |
-|     `STT_BattleSlideMsg_I2E_LOG`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_I2E_SYS`      |     |                                             |                                        |
-|    `STT_BattleSlideMsg_I2PEX_LOG`     |     |                                             |                                        |
-|    `STT_BattleSlideMsg_I2PEX_SYS`     |     |                                             |                                        |
-|     `STT_BattleSlideMsg_I2P_LOG`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_I2P_SYS`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_NEE_LOG`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_NEE_SYS`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_NEP_LOG`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_NEP_SYS`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_RSE_LOG`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_RSE_SYS`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_RSP_LOG`      |     |                                             |                                        |
-|     `STT_BattleSlideMsg_RSP_SYS`      |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_D1E_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_D1P_SYS`    |     |                                             |                                        |
-|   `STT_BattleSlideSumMsg_D2EEX_SYS`   |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_D2E_SYS`    |     |                                             |                                        |
-|   `STT_BattleSlideSumMsg_D2PEX_SYS`   |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_D2P_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_FE_SYS`     |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_FP_SYS`     |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_I1E_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_I1P_SYS`    |     |                                             |                                        |
-|   `STT_BattleSlideSumMsg_I2EEX_SYS`   |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_I2E_SYS`    |     |                                             |                                        |
-|   `STT_BattleSlideSumMsg_I2PEX_SYS`   |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_I2P_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_NEE_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_NEP_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_RSE_SYS`    |     |                                             |                                        |
-|    `STT_BattleSlideSumMsg_RSP_SYS`    |     |                                             |                                        |
-|     `STT_BattleSpecialSkillItem`      |     |                                             |                                        |
-|          `STT_BattleSysMsg`           |     |                                             |                                        |
-|        `STT_BattleSysMsg_LOG`         |     |                                             |                                        |
-|         `STT_Battle_Levelup`          |     |                                             |                                        |
-|          `STT_Battle_Option`          |     |                                             |                                        |
-|            `STT_Battle_UI`            |     |                                             |                                        |
-|          `STT_BattleroadSys`          |     |                                             |                                        |
-|      `STT_Boukennosho_DLC_Text`       |     |                                             |                                        |
-|         `STT_CareerStoryVer1`         |     |                                             |                                        |
-|         `STT_CareerStoryVer2`         |     |                                             |                                        |
-|        `STT_Career_StoryUISys`        |     |                                             |                                        |
-|           `STT_CasinoCoin`            |     |                                             |                                        |
-|         `STT_CharamakeColors`         |     |                                             |                                        |
-|        `STT_Charamake_Female`         |     |                                             |                                        |
-| `STT_Charamake_Female_NoLocalization` |     |                                             |                                        |
-|         `STT_Charamake_Male`          |     |                                             |                                        |
-|  `STT_Charamake_Male_NoLocalization`  |     |                                             |                                        |
-|          `STT_Colosseum_NPC`          |     |                                             |                                        |
-|          `STT_Colosseum_SYS`          |     |                                             |                                        |
-|           `STT_CommonItem`            |     |                                             |                                        |
-|         `STT_ConditionViewer`         |     |                                             |                                        |
-|        `STT_ConvinientMainSys`        |     |                                             |                                        |
-|         `STT_DaijinamonoItem`         |     | ~30 characters long                         | Key Items                              |
-|            `STT_Dorubaord`            |     |                                             |                                        |
-|        `STT_DungeonKingdomSys`        |     |                                             |                                        |
-|         `STT_DungeonMagicNPC`         |     |                                             |                                        |
-|              `STT_Emote`              |     |                                             |                                        |
-|        `STT_Equip_Coordinate`         |     |                                             |                                        |
-|      `STT_Equip_OddStatus_Name`       |     |                                             |                                        |
-|        `STT_EventMonsterName`         |     |                                             |                                        |
-|         `STT_EventPalceName`          |     |                                             |                                        |
-|      `STT_FaciliityDolboardSys`       |     |                                             |                                        |
-|         `STT_FacilityBankNpc`         |     |                                             |                                        |
-|         `STT_FacilityBankSys`         |     |                                             |                                        |
-|         `STT_FacilityBarNpc`          |     |                                             |                                        |
-|         `STT_FacilityBarSys`          |     |                                             |                                        |
-|       `STT_FacilityColoringNpc`       |     |                                             |                                        |
-|       `STT_FacilityColoringSys`       |     |                                             |                                        |
-|      `STT_FacilityConciergeNpc`       |     |                                             |                                        |
-|      `STT_FacilityConciergeSys`       |     |                                             |                                        |
-|       `STT_FacilityDolboardNpc`       |     |                                             |                                        |
-|        `STT_FacilitySalonNpc`         |     |                                             |                                        |
-|     `STT_FacilitySubjugationNpc`      |     |                                             |                                        |
-|     `STT_FacilitySubjugationSys`      |     |                                             |                                        |
-|      `STT_FacilitySynthesisNpc`       |     |                                             |                                        |
-|      `STT_FacilitySynthesisSys`       |     |                                             |                                        |
-|           `STT_FieldDoraky`           |     |                                             |                                        |
-|            `STT_FieldLog`             |     |                                             |                                        |
-|           `STT_FieldMapSys`           |     |                                             |                                        |
-|         `STT_FieldMoveDragon`         |     |                                             |                                        |
-|          `STT_FieldProcess`           |     |                                             |                                        |
-|             `STT_Fishing`             |     |                                             |                                        |
-|          `STT_FishingAction`          |     |                                             |                                        |
-|       `STT_FishingExchangeNPC`        |     |                                             |                                        |
-|        `STT_FishingMasterNPC`         |     |                                             |                                        |
-|           `STT_FishingSys`            |     |                                             |                                        |
-|           `STT_FullCureSys`           |     |                                             |                                        |
-|           `STT_GameOption`            |     |                                             |                                        |
-|     `STT_GameOption_Explanation`      |     |                                             |                                        |
-|             `STT_Gesture`             |     |                                             |                                        |
-|         `STT_IraisyoArasuji`          |     | ~100 characters long, 8 lines high (7 `\n`) | Strike Request Forms' flavor text      |
-|       `STT_IraisyoMonsterType`        |     |                                             | Strike Request Forms' Target Monster   |
-|       `STT_IraisyoNPCNameBase`        |     |                                             | Strike Request Forms' Client Name      |
-|       `STT_IraisyoNPCNameRuby`        |     |                                             |                                        |
-|         `STT_ItemExplanation`         |     |                                             |                                        |
-|            `STT_ItemList`             |     |                                             |                                        |
-|            `STT_ItemName`             |     |                                             |                                        |
-|          `STT_JobChangeNpc`           |     |                                             |                                        |
-|          `STT_JobChangeSys`           |     |                                             |                                        |
-|         `STT_KeyboardSetting`         |     |                                             |                                        |
-|    `STT_KeyboardSettingKeyString`     |     |                                             |                                        |
-|       `STT_LD_SerchFieldObject`       |     |                                             |                                        |
-|       `STT_LoadingArasujiVer1`        |     |                                             |                                        |
-|       `STT_LoadingArasujiVer2`        |     |                                             |                                        |
-|           `STT_LoadingTips`           |     |                                             |                                        |
-|        `STT_MagicExplanation`         |     |                                             |                                        |
-|            `STT_MagicName`            |     |                                             |                                        |
-|             `STT_Main_UI`             |     |                                             |                                        |
-|          `STT_MasteryItems`           |     |                                             |                                        |
-|          `STT_MonsterColor`           |     |                                             |                                        |
-|        `STT_MonsterMercenary`         |     |                                             |                                        |
-|       `STT_MonsterTarotArcana`        |     |                                             |                                        |
-|        `STT_MonsterTarotDeck`         |     |                                             |                                        |
-|       `STT_MonsterTarotMonster`       |     |                                             |                                        |
-|       `STT_Monster_Tips1_ver1`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                         |
-|       `STT_Monster_Tips1_ver2`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                         |
-|       `STT_Monster_Tips2_Ver2`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                         |
-|       `STT_Monster_Tips2_ver1`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                         |
-|          `STT_Monster_Type`           |     |                                             |                                        |
+|               Namespace               | Key | Recommendation(s)                           | Comment(s)                                                                                  |
+| :-----------------------------------: | :-: | :------------------------------------------ | :------------------------------------------------------------------------------------------ |
+|              `ASIA_DLC`               |     |                                             |                                                                                             |
+|            `Event_Common`             |     |                                             |                                                                                             |
+|            `lpWindowName`             |     |                                             | The game's window name                                                                      |
+|               `Sample`                |     |                                             |                                                                                             |
+|          `STT_AccessoryItem`          |     |                                             |                                                                                             |
+|      `STT_ActionAvgMsg_Simple1`       |     |                                             |                                                                                             |
+|      `STT_ActionAvgMsg_Simple15`      |     |                                             |                                                                                             |
+|      `STT_ActionAvgMsg_Simple2`       |     |                                             |                                                                                             |
+|      `STT_ActionAvgMsg_Simple3`       |     |                                             |                                                                                             |
+|      `STT_ActionAvgMsg_Simple4`       |     |                                             |                                                                                             |
+|      `STT_ActionAvgMsg_Simple5`       |     |                                             |                                                                                             |
+|       `STT_ActionMsg_Balloon1`        |     |                                             |                                                                                             |
+|       `STT_ActionMsg_Balloon2`        |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log1`          |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log10`         |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log11`         |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log12`         |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log13`         |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log14`         |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log15`         |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log2`          |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log3`          |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log4`          |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log5`          |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log6`          |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log7`          |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log8`          |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log9`          |     |                                             |                                                                                             |
+|        `STT_ActionMsg_Simple1`        |     |                                             |                                                                                             |
+|       `STT_ActionMsg_Simple10`        |     |                                             |                                                                                             |
+|       `STT_ActionMsg_Simple11`        |     |                                             |                                                                                             |
+|       `STT_ActionMsg_Simple12`        |     |                                             |                                                                                             |
+|       `STT_ActionMsg_Simple13`        |     |                                             |                                                                                             |
+|       `STT_ActionMsg_Simple14`        |     |                                             |                                                                                             |
+|       `STT_ActionMsg_Simple15`        |     |                                             |                                                                                             |
+|        `STT_ActionMsg_Simple2`        |     |                                             |                                                                                             |
+|        `STT_ActionMsg_Simple3`        |     |                                             |                                                                                             |
+|        `STT_ActionMsg_Simple4`        |     |                                             |                                                                                             |
+|        `STT_ActionMsg_Simple5`        |     |                                             |                                                                                             |
+|        `STT_ActionMsg_Simple6`        |     |                                             |                                                                                             |
+|        `STT_ActionMsg_Simple7`        |     |                                             |                                                                                             |
+|        `STT_ActionMsg_Simple8`        |     |                                             |                                                                                             |
+|        `STT_ActionMsg_Simple9`        |     |                                             |                                                                                             |
+|      `STT_ActionSumMsg_Simple1`       |     |                                             |                                                                                             |
+|      `STT_ActionSumMsg_Simple15`      |     |                                             |                                                                                             |
+|      `STT_ActionSumMsg_Simple2`       |     |                                             |                                                                                             |
+|      `STT_ActionSumMsg_Simple3`       |     |                                             |                                                                                             |
+|      `STT_ActionSumMsg_Simple4`       |     |                                             |                                                                                             |
+|      `STT_ActionSumMsg_Simple5`       |     |                                             |                                                                                             |
+|         `STT_BRReceptionNpc`          |     |                                             |                                                                                             |
+|          `STT_BarMonsterNpc`          |     |                                             |                                                                                             |
+|          `STT_BarMonsterSys`          |     |                                             |                                                                                             |
+|          `STT_BattleAbiMsg`           |     |                                             |                                                                                             |
+|        `STT_BattleActionItem`         |     |                                             |                                                                                             |
+|         `STT_BattleEquipItem`         |     |                                             |                                                                                             |
+|         `STT_BattleGuestName`         |     |                                             |                                                                                             |
+|         `STT_BattleMagicItem`         |     |                                             |                                                                                             |
+|        `STT_BattleMonsterName`        |     |                                             |                                                                                             |
+|     `STT_BattleOddAvgMsg_AEE_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleOddAvgMsg_AEP_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleOddAvgMsg_AE_SYS`      |     |                                             |                                                                                             |
+|     `STT_BattleOddAvgMsg_AP_SYS`      |     |                                             |                                                                                             |
+|     `STT_BattleOddAvgMsg_AXE_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleOddAvgMsg_AXP_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleOddAvgMsg_DAE_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleOddAvgMsg_DAP_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleOddAvgMsg_DOE_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleOddAvgMsg_DOP_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleOddAvgMsg_RSE_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleOddAvgMsg_RSP_SYS`     |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_AEE_LOG`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_AEE_SYS`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_AEP_LOG`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_AEP_SYS`       |     |                                             |                                                                                             |
+|       `STT_BattleOddMsg_AE_LOG`       |     |                                             |                                                                                             |
+|       `STT_BattleOddMsg_AE_SYS`       |     |                                             |                                                                                             |
+|     `STT_BattleOddMsg_AFP_BALOON`     |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_AFP_SYS`       |     |                                             |                                                                                             |
+|       `STT_BattleOddMsg_AP_LOG`       |     |                                             |                                                                                             |
+|       `STT_BattleOddMsg_AP_SYS`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_AXE_LOG`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_AXE_SYS`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_AXP_LOG`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_AXP_SYS`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_DAE_LOG`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_DAE_SYS`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_DAP_LOG`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_DAP_SYS`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_DOE_LOG`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_DOE_SYS`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_DOP_LOG`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_DOP_SYS`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_MCEE_LOG`      |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_MCEE_SYS`      |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_MCEP_LOG`      |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_MCEP_SYS`      |     |                                             |                                                                                             |
+|     `STT_BattleOddMsg_MCE_BALOON`     |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_MCE_SYS`       |     |                                             |                                                                                             |
+|     `STT_BattleOddMsg_RSE_BALOON`     |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_RSE_LOG`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_RSE_SYS`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_RSP_LOG`       |     |                                             |                                                                                             |
+|      `STT_BattleOddMsg_RSP_SYS`       |     |                                             |                                                                                             |
+|     `STT_BattleOddMsg_RS_BALOON`      |     |                                             |                                                                                             |
+|       `STT_BattleOddMsg_RS_SYS`       |     |                                             |                                                                                             |
+|         `STT_BattleSkillItem`         |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_D1E_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_D1P_SYS`    |     |                                             |                                                                                             |
+|   `STT_BattleSlideAvgMsg_D2EEX_SYS`   |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_D2E_SYS`    |     |                                             |                                                                                             |
+|   `STT_BattleSlideAvgMsg_D2PEX_SYS`   |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_D2P_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_FE_SYS`     |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_FP_SYS`     |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_I1E_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_I1P_SYS`    |     |                                             |                                                                                             |
+|   `STT_BattleSlideAvgMsg_I2EEX_SYS`   |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_I2E_SYS`    |     |                                             |                                                                                             |
+|   `STT_BattleSlideAvgMsg_I2PEX_SYS`   |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_I2P_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_NEE_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_NEP_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_RSE_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideAvgMsg_RSP_SYS`    |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_D1E_LOG`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_D1E_SYS`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_D1P_LOG`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_D1P_SYS`      |     |                                             |                                                                                             |
+|    `STT_BattleSlideMsg_D2EEX_LOG`     |     |                                             |                                                                                             |
+|    `STT_BattleSlideMsg_D2EEX_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_D2E_LOG`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_D2E_SYS`      |     |                                             |                                                                                             |
+|    `STT_BattleSlideMsg_D2PEX_LOG`     |     |                                             |                                                                                             |
+|    `STT_BattleSlideMsg_D2PEX_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_D2P_LOG`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_D2P_SYS`      |     |                                             |                                                                                             |
+|      `STT_BattleSlideMsg_FE_LOG`      |     |                                             |                                                                                             |
+|      `STT_BattleSlideMsg_FE_SYS`      |     |                                             |                                                                                             |
+|      `STT_BattleSlideMsg_FP_LOG`      |     |                                             |                                                                                             |
+|      `STT_BattleSlideMsg_FP_SYS`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_I1E_LOG`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_I1E_SYS`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_I1P_LOG`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_I1P_SYS`      |     |                                             |                                                                                             |
+|    `STT_BattleSlideMsg_I2EEX_LOG`     |     |                                             |                                                                                             |
+|    `STT_BattleSlideMsg_I2EEX_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_I2E_LOG`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_I2E_SYS`      |     |                                             |                                                                                             |
+|    `STT_BattleSlideMsg_I2PEX_LOG`     |     |                                             |                                                                                             |
+|    `STT_BattleSlideMsg_I2PEX_SYS`     |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_I2P_LOG`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_I2P_SYS`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_NEE_LOG`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_NEE_SYS`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_NEP_LOG`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_NEP_SYS`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_RSE_LOG`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_RSE_SYS`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_RSP_LOG`      |     |                                             |                                                                                             |
+|     `STT_BattleSlideMsg_RSP_SYS`      |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_D1E_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_D1P_SYS`    |     |                                             |                                                                                             |
+|   `STT_BattleSlideSumMsg_D2EEX_SYS`   |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_D2E_SYS`    |     |                                             |                                                                                             |
+|   `STT_BattleSlideSumMsg_D2PEX_SYS`   |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_D2P_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_FE_SYS`     |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_FP_SYS`     |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_I1E_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_I1P_SYS`    |     |                                             |                                                                                             |
+|   `STT_BattleSlideSumMsg_I2EEX_SYS`   |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_I2E_SYS`    |     |                                             |                                                                                             |
+|   `STT_BattleSlideSumMsg_I2PEX_SYS`   |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_I2P_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_NEE_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_NEP_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_RSE_SYS`    |     |                                             |                                                                                             |
+|    `STT_BattleSlideSumMsg_RSP_SYS`    |     |                                             |                                                                                             |
+|     `STT_BattleSpecialSkillItem`      |     |                                             |                                                                                             |
+|          `STT_BattleSysMsg`           |     |                                             |                                                                                             |
+|        `STT_BattleSysMsg_LOG`         |     |                                             |                                                                                             |
+|         `STT_Battle_Levelup`          |     |                                             |                                                                                             |
+|          `STT_Battle_Option`          |     |                                             |                                                                                             |
+|            `STT_Battle_UI`            |     |                                             |                                                                                             |
+|          `STT_BattleroadSys`          |     |                                             |                                                                                             |
+|      `STT_Boukennosho_DLC_Text`       |     |                                             |                                                                                             |
+|         `STT_CareerStoryVer1`         |     |                                             |                                                                                             |
+|         `STT_CareerStoryVer2`         |     |                                             |                                                                                             |
+|        `STT_Career_StoryUISys`        |     |                                             |                                                                                             |
+|           `STT_CasinoCoin`            |     |                                             |                                                                                             |
+|         `STT_CharamakeColors`         |     |                                             |                                                                                             |
+|        `STT_Charamake_Female`         |     |                                             |                                                                                             |
+| `STT_Charamake_Female_NoLocalization` |     |                                             |                                                                                             |
+|         `STT_Charamake_Male`          |     |                                             |                                                                                             |
+|  `STT_Charamake_Male_NoLocalization`  |     |                                             |                                                                                             |
+|          `STT_Colosseum_NPC`          |     |                                             |                                                                                             |
+|          `STT_Colosseum_SYS`          |     |                                             |                                                                                             |
+|           `STT_CommonItem`            |     |                                             |                                                                                             |
+|         `STT_ConditionViewer`         |     |                                             |                                                                                             |
+|        `STT_ConvinientMainSys`        |     |                                             |                                                                                             |
+|         `STT_DaijinamonoItem`         |     | ~30 characters long                         | Key Items                                                                                   |
+|            `STT_Dorubaord`            |     |                                             |                                                                                             |
+|        `STT_DungeonKingdomSys`        |     |                                             |                                                                                             |
+|         `STT_DungeonMagicNPC`         |     |                                             |                                                                                             |
+|              `STT_Emote`              |     |                                             |                                                                                             |
+|        `STT_Equip_Coordinate`         |     |                                             |                                                                                             |
+|      `STT_Equip_OddStatus_Name`       |     |                                             |                                                                                             |
+|        `STT_EventMonsterName`         |     |                                             |                                                                                             |
+|         `STT_EventPalceName`          |     |                                             |                                                                                             |
+|      `STT_FaciliityDolboardSys`       |     |                                             |                                                                                             |
+|         `STT_FacilityBankNpc`         |     |                                             |                                                                                             |
+|         `STT_FacilityBankSys`         |     |                                             |                                                                                             |
+|         `STT_FacilityBarNpc`          |     |                                             |                                                                                             |
+|         `STT_FacilityBarSys`          |     |                                             |                                                                                             |
+|       `STT_FacilityColoringNpc`       |     |                                             |                                                                                             |
+|       `STT_FacilityColoringSys`       |     |                                             |                                                                                             |
+|      `STT_FacilityConciergeNpc`       |     |                                             |                                                                                             |
+|      `STT_FacilityConciergeSys`       |     |                                             |                                                                                             |
+|       `STT_FacilityDolboardNpc`       |     |                                             |                                                                                             |
+|        `STT_FacilitySalonNpc`         |     |                                             |                                                                                             |
+|     `STT_FacilitySubjugationNpc`      |     |                                             |                                                                                             |
+|     `STT_FacilitySubjugationSys`      |     |                                             |                                                                                             |
+|      `STT_FacilitySynthesisNpc`       |     |                                             |                                                                                             |
+|      `STT_FacilitySynthesisSys`       |     |                                             |                                                                                             |
+|           `STT_FieldDoraky`           |     |                                             |                                                                                             |
+|            `STT_FieldLog`             |     |                                             |                                                                                             |
+|           `STT_FieldMapSys`           |     |                                             |                                                                                             |
+|         `STT_FieldMoveDragon`         |     |                                             |                                                                                             |
+|          `STT_FieldProcess`           |     |                                             |                                                                                             |
+|             `STT_Fishing`             |     |                                             |                                                                                             |
+|          `STT_FishingAction`          |     |                                             |                                                                                             |
+|       `STT_FishingExchangeNPC`        |     |                                             |                                                                                             |
+|        `STT_FishingMasterNPC`         |     |                                             |                                                                                             |
+|           `STT_FishingSys`            |     |                                             |                                                                                             |
+|           `STT_FullCureSys`           |     |                                             |                                                                                             |
+|           `STT_GameOption`            |     |                                             |                                                                                             |
+|     `STT_GameOption_Explanation`      |     |                                             |                                                                                             |
+|             `STT_Gesture`             |     |                                             |                                                                                             |
+|         `STT_IraisyoArasuji`          |     | ~100 characters long, 8 lines high (7 `\n`) | Strike Request Forms' flavor text                                                           |
+|       `STT_IraisyoMonsterType`        |     |                                             | Strike Request Forms' Target Monster                                                        |
+|       `STT_IraisyoNPCNameBase`        |     |                                             | Strike Request Forms' Client Name                                                           |
+|       `STT_IraisyoNPCNameRuby`        |     |                                             |                                                                                             |
+|         `STT_ItemExplanation`         |     |                                             |                                                                                             |
+|            `STT_ItemList`             |     |                                             |                                                                                             |
+|            `STT_ItemName`             |     |                                             |                                                                                             |
+|          `STT_JobChangeNpc`           |     |                                             |                                                                                             |
+|          `STT_JobChangeSys`           |     |                                             |                                                                                             |
+|         `STT_KeyboardSetting`         |     |                                             |                                                                                             |
+|    `STT_KeyboardSettingKeyString`     |     |                                             |                                                                                             |
+|       `STT_LD_SerchFieldObject`       |     |                                             |                                                                                             |
+|       `STT_LoadingArasujiVer1`        |     |                                             |                                                                                             |
+|       `STT_LoadingArasujiVer2`        |     |                                             |                                                                                             |
+|           `STT_LoadingTips`           |     |                                             |                                                                                             |
+|        `STT_MagicExplanation`         |     |                                             |                                                                                             |
+|            `STT_MagicName`            |     |                                             |                                                                                             |
+|             `STT_Main_UI`             |     |                                             |                                                                                             |
+|          `STT_MasteryItems`           |     |                                             |                                                                                             |
+|          `STT_MonsterColor`           |     |                                             |                                                                                             |
+|        `STT_MonsterMercenary`         |     |                                             |                                                                                             |
+|       `STT_MonsterTarotArcana`        |     |                                             |                                                                                             |
+|        `STT_MonsterTarotDeck`         |     |                                             |                                                                                             |
+|       `STT_MonsterTarotMonster`       |     |                                             |                                                                                             |
+|       `STT_Monster_Tips1_ver1`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
+|       `STT_Monster_Tips1_ver2`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
+|       `STT_Monster_Tips2_Ver2`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
+|       `STT_Monster_Tips2_ver1`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
+|          `STT_Monster_Type`           |     |                                             |                                                                                             |
 |             `STT_NpcInfo`             |     |                                             | NPC Info, see "pakchunk0-{PLATFORM}.utoc\Game\Content\Datatables\Characters\NpcInfo.uasset" |
-|      `STT_OddStatusExplanation`       |     |                                             |                                        |
-|          `STT_OddStatusName`          |     |                                             |                                        |
-|            `STT_PT_InOut`             |     |                                             |                                        |
-|             `STT_PT_Talk`             |     |                                             |                                        |
-|          `STT_PartyMainSys`           |     |                                             |                                        |
-|          `STT_Profile_Word`           |     |                                             |                                        |
-|            `STT_QuestList`            |     |                                             |                                        |
-|        `STT_QuestListCategory`        |     |                                             |                                        |
-|         `STT_QuestListDetail`         |     |                                             |                                        |
-|          `STT_QuestListName`          |     |                                             |                                        |
-|         `STT_QuestListSeries`         |     |                                             |                                        |
-|        `STT_Quest_AfterBattle`        |     |                                             |                                        |
-|          `STT_Quest_ItemGet`          |     |                                             |                                        |
-|     `STT_Quest_PerticularReward`      |     |                                             |                                        |
-|       `STT_Restricted_GamePlay`       |     |                                             |                                        |
-|      `STT_ResurrectionTextList`       |     |                                             |                                        |
-|          `STT_SenrekUIiSys`           |     |                                             |                                        |
-|          `STT_ShopDouguNpc`           |     |                                             |                                        |
-|        `STT_SkillExplanation`         |     |                                             |                                        |
-|            `STT_SkillName`            |     |                                             |                                        |
-|       `STT_SkillupExplanation`        |     |                                             |                                        |
-|           `STT_SkillupName`           |     |                                             |                                        |
-|       `STT_SpecialExplanation`        |     |                                             |                                        |
-|           `STT_SpecialName`           |     |                                             |                                        |
-|        `STT_Support_BrowseSys`        |     | ~50 characters                              | See `STT_Main_UI.SYSTXT_Main_UI_60080` |
-|             `STT_Syougou`             |     |                                             |                                        |
-|         `STT_SystemDouguNpc`          |     |                                             |                                        |
-|         `STT_SystemDragonNpc`         |     |                                             |                                        |
-|         `STT_SystemDragonSys`         |     |                                             |                                        |
-|        `STT_SystemFishingBook`        |     |                                             |                                        |
-|        `STT_SystemFishingFish`        |     |                                             |                                        |
-|          `STT_SystemMoveNpc`          |     |                                             |                                        |
-|           `STT_SystemQuest`           |     |                                             |                                        |
-|          `STT_SystemShipNpc`          |     |                                             |                                        |
-|          `STT_SystemShipSys`          |     |                                             |                                        |
-|          `STT_SystemShopInn`          |     |                                             |                                        |
-|         `STT_SystemTrainNpc`          |     |                                             |                                        |
-|         `STT_SystemTrainSys`          |     |                                             |                                        |
-|       `STT_System_Book_Monster`       |     |                                             |                                        |
-|          `STT_System_Casino`          |     |                                             |                                        |
-|        `STT_System_Charamake`         |     |                                             |                                        |
-|       `STT_System_CharamakeSys`       |     |                                             |                                        |
-|          `STT_System_Common`          |     |                                             |                                        |
-|        `STT_System_Craftsman`         |     |                                             |                                        |
-|          `STT_System_Equip`           |     |                                             |                                        |
-|    `STT_System_Facility_ChurchNpc`    |     |                                             |                                        |
-|    `STT_System_Facility_ChurchSys`    |     |                                             |                                        |
-|       `STT_System_ItabaeAlbum`        |     |                                             |                                        |
-|         `STT_System_Location`         |     |                                             |                                        |
-|       `STT_System_ProfileWord`        |     |                                             |                                        |
-|        `STT_System_Shop_Dougu`        |     |                                             |                                        |
-|      `STT_System_Shop_Dougu_Sys`      |     |                                             |                                        |
-|        `STT_System_Shop_Other`        |     |                                             |                                        |
-|          `STT_System_Skill`           |     | ~50 characters                              |                                        |
-|          `STT_System_Title`           |     |                                             |                                        |
-|            `STT_System_UI`            |     |                                             |                                        |
-|       `STT_System_WeaponTypes`        |     |                                             |                                        |
-|         `STT_Sytem_UI_Status`         |     |                                             |                                        |
-|            `STT_TestText`             |     |                                             |                                        |
-|           `STT_TinyMedals`            |     |                                             |                                        |
-|        `STT_TinyMedalsWindow`         |     |                                             |                                        |
-|          `STT_Tips_Category`          |     |                                             |                                        |
-|          `STT_Tips_Content`           |     |                                             |                                        |
-|         `STT_ToolActionItem`          |     |                                             |                                        |
-|           `STT_UIDouguSys`            |     |                                             |                                        |
-|           `STT_UIJumonSys`            |     |                                             |                                        |
-|        `STT_WarpBraveStoneSys`        |     |                                             |                                        |
-|         `STT_WarpRiremitoSys`         |     |                                             |                                        |
-|            `STT_WarpRura`             |     |                                             |                                        |
-|           `STT_WeaponItem`            |     |                                             |                                        |
-|        `SYSTEM_LOACALIZATION`         |     |                                             |                                        |
-|         `WeaponTypeForBugFix`         |     |                                             |                                        |
+|      `STT_OddStatusExplanation`       |     |                                             |                                                                                             |
+|          `STT_OddStatusName`          |     |                                             |                                                                                             |
+|            `STT_PT_InOut`             |     |                                             |                                                                                             |
+|             `STT_PT_Talk`             |     |                                             |                                                                                             |
+|          `STT_PartyMainSys`           |     |                                             |                                                                                             |
+|          `STT_Profile_Word`           |     |                                             |                                                                                             |
+|            `STT_QuestList`            |     |                                             |                                                                                             |
+|        `STT_QuestListCategory`        |     |                                             |                                                                                             |
+|         `STT_QuestListDetail`         |     |                                             |                                                                                             |
+|          `STT_QuestListName`          |     |                                             |                                                                                             |
+|         `STT_QuestListSeries`         |     |                                             |                                                                                             |
+|        `STT_Quest_AfterBattle`        |     |                                             |                                                                                             |
+|          `STT_Quest_ItemGet`          |     |                                             |                                                                                             |
+|     `STT_Quest_PerticularReward`      |     |                                             |                                                                                             |
+|       `STT_Restricted_GamePlay`       |     |                                             |                                                                                             |
+|      `STT_ResurrectionTextList`       |     |                                             |                                                                                             |
+|          `STT_SenrekUIiSys`           |     |                                             |                                                                                             |
+|          `STT_ShopDouguNpc`           |     |                                             |                                                                                             |
+|        `STT_SkillExplanation`         |     |                                             |                                                                                             |
+|            `STT_SkillName`            |     |                                             |                                                                                             |
+|       `STT_SkillupExplanation`        |     |                                             |                                                                                             |
+|           `STT_SkillupName`           |     |                                             |                                                                                             |
+|       `STT_SpecialExplanation`        |     |                                             |                                                                                             |
+|           `STT_SpecialName`           |     |                                             |                                                                                             |
+|        `STT_Support_BrowseSys`        |     | ~50 characters                              | See `STT_Main_UI.SYSTXT_Main_UI_60080`                                                      |
+|             `STT_Syougou`             |     |                                             |                                                                                             |
+|         `STT_SystemDouguNpc`          |     |                                             |                                                                                             |
+|         `STT_SystemDragonNpc`         |     |                                             |                                                                                             |
+|         `STT_SystemDragonSys`         |     |                                             |                                                                                             |
+|        `STT_SystemFishingBook`        |     |                                             |                                                                                             |
+|        `STT_SystemFishingFish`        |     |                                             |                                                                                             |
+|          `STT_SystemMoveNpc`          |     |                                             |                                                                                             |
+|           `STT_SystemQuest`           |     |                                             |                                                                                             |
+|          `STT_SystemShipNpc`          |     |                                             |                                                                                             |
+|          `STT_SystemShipSys`          |     |                                             |                                                                                             |
+|          `STT_SystemShopInn`          |     |                                             |                                                                                             |
+|         `STT_SystemTrainNpc`          |     |                                             |                                                                                             |
+|         `STT_SystemTrainSys`          |     |                                             |                                                                                             |
+|       `STT_System_Book_Monster`       |     |                                             |                                                                                             |
+|          `STT_System_Casino`          |     |                                             |                                                                                             |
+|        `STT_System_Charamake`         |     |                                             |                                                                                             |
+|       `STT_System_CharamakeSys`       |     |                                             |                                                                                             |
+|          `STT_System_Common`          |     |                                             |                                                                                             |
+|        `STT_System_Craftsman`         |     |                                             |                                                                                             |
+|          `STT_System_Equip`           |     |                                             |                                                                                             |
+|    `STT_System_Facility_ChurchNpc`    |     |                                             |                                                                                             |
+|    `STT_System_Facility_ChurchSys`    |     |                                             |                                                                                             |
+|       `STT_System_ItabaeAlbum`        |     |                                             |                                                                                             |
+|         `STT_System_Location`         |     |                                             |                                                                                             |
+|       `STT_System_ProfileWord`        |     |                                             |                                                                                             |
+|        `STT_System_Shop_Dougu`        |     |                                             |                                                                                             |
+|      `STT_System_Shop_Dougu_Sys`      |     |                                             |                                                                                             |
+|        `STT_System_Shop_Other`        |     |                                             |                                                                                             |
+|          `STT_System_Skill`           |     | ~50 characters                              |                                                                                             |
+|          `STT_System_Title`           |     |                                             |                                                                                             |
+|            `STT_System_UI`            |     |                                             |                                                                                             |
+|       `STT_System_WeaponTypes`        |     |                                             |                                                                                             |
+|         `STT_Sytem_UI_Status`         |     |                                             |                                                                                             |
+|            `STT_TestText`             |     |                                             |                                                                                             |
+|           `STT_TinyMedals`            |     |                                             |                                                                                             |
+|        `STT_TinyMedalsWindow`         |     |                                             |                                                                                             |
+|          `STT_Tips_Category`          |     |                                             |                                                                                             |
+|          `STT_Tips_Content`           |     |                                             |                                                                                             |
+|         `STT_ToolActionItem`          |     |                                             |                                                                                             |
+|           `STT_UIDouguSys`            |     |                                             |                                                                                             |
+|           `STT_UIJumonSys`            |     |                                             |                                                                                             |
+|        `STT_WarpBraveStoneSys`        |     |                                             |                                                                                             |
+|         `STT_WarpRiremitoSys`         |     |                                             |                                                                                             |
+|            `STT_WarpRura`             |     |                                             |                                                                                             |
+|           `STT_WeaponItem`            |     |                                             |                                                                                             |
+|        `SYSTEM_LOACALIZATION`         |     |                                             |                                                                                             |
+|         `WeaponTypeForBugFix`         |     |                                             |                                                                                             |
 
   </details>
 
@@ -2170,6 +2170,43 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 
 </details>
 
+### Example - `ID_NAME_GUEST_*` joined the party!
+
+<details>
+
+```json
+"SAMPLE": {
+    "$comments": "🟢, see `Game.locres.json:STT_BattleGuestName.ID_NAME_GUEST_*`",
+    "de": "ID_NAME_GUEST_* tritt der Gruppe bei!<se_nots System Guest_joinSE>",
+    "en": "ID_NAME_GUEST_* joined the party!<se_nots System Guest_joinSE>",
+    "es": "¡ID_NAME_GUEST_* se une al grupo!<se_nots System Guest_joinSE>",
+    "fr": "ID_NAME_GUEST_* se joint à l'équipe!<se_nots System Guest_joinSE>",
+    "it": "ID_NAME_GUEST_* si unisce al gruppo!<se_nots System Guest_joinSE>",
+    "ja": "キンナーが\nパーティに　加わった。<se_nots System Guest_joinSE>",
+    "ko": "킨나가\n파티에 합류했다.<se_nots System Guest_joinSE>",
+    "pt-BR": "ID_NAME_GUEST_* se juntou ao grupo!<se_nots System Guest_joinSE>",
+    "zh-Hans": "金那\n加入了队伍。<se_nots System Guest_joinSE>",
+    "zh-Hant": "金那\n加入了隊伍。<se_nots System Guest_joinSE>"
+  },
+  "eventTextCsW21Client.win32.json": {
+    "19000942": {
+      "$comments": "🟢, see `Game.locres.json:STT_BattleGuestName.ID_NAME_GUEST_KINNER`",
+      "de": "Kinner tritt der Gruppe bei!<se_nots System Guest_joinSE>",
+      "en": "Kinner joined the party!<se_nots System Guest_joinSE>",
+      "es": "¡Kinner se une al grupo!<se_nots System Guest_joinSE>",
+      "fr": "Kinner se joint à l'équipe!<se_nots System Guest_joinSE>",
+      "it": "Kinner si unisce al gruppo!<se_nots System Guest_joinSE>",
+      "ja": "キンナーが\nパーティに　加わった。<se_nots System Guest_joinSE>",
+      "ko": "킨나가\n파티에 합류했다.<se_nots System Guest_joinSE>",
+      "pt-BR": "Kinner se juntou ao grupo!<se_nots System Guest_joinSE>",
+      "zh-Hans": "金那\n加入了队伍。<se_nots System Guest_joinSE>",
+      "zh-Hant": "金那\n加入了隊伍。<se_nots System Guest_joinSE>"
+    }
+  }
+```
+
+</details>
+
 <!--
 ### Useful Regex
 
@@ -2344,49 +2381,101 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 
 <details>
 
-|             comment(s)              |               de               |               en                |              es               |             fr              |             it             |        ja        |         ko         |      br-pt      |           zh-Hans            |     zh-Hant      |
-| :---------------------------------: | :----------------------------: | :-----------------------------: | :---------------------------: | :-------------------------: | :------------------------: | :--------------: | :----------------: | :-------------: | :--------------------------: | :--------------: | --- |
-|         question - Who(m)?          |                                |             Who(m)?             |                               |                             |                            |                  |                    |                 |                              |                  |
-|          question - What?           |                                |              What?              |                               |                             |                            |                  |                    |                 |                              |                  |
-|          question - When?           |                                |              When?              |                               |            quand            |                            |                  |                    |                 |                              |                  |
-|          question - Where?          |                                |             Where?              |                               |                             |                            |                  |                    | Cadê( a/o ...?) |                              |                  |
-|           question - Why?           |                                |              Why?               |                               |                             |                            |                  |                    |                 |                              |                  |
-|           question - How?           |                                |              How?               |                               |                             |                            |                  |                    |                 |                              |                  |
-|          question - Which?          |                                |             Which?              |                               |                             |                            |                  |                    |                 |                              |                  |
-|          question - Whose?          |                                |             Whose?              |                               |                             |                            |                  |                    |                 |                              |                  |
-|            tag question             |                                |           (, )right?            |          (, )verdad?          |          (, )bon?           |           Vero?            |                  |                    |                 |                              |                  |
-|            tag question             |                                |          (, )correct?           |          (, )cierto?          |                             |          Giusto?           |                  |                    |                 |                              |                  |
-|     tag question - affirmative      |           (, )nein?            |             (, )no?             |            (, )no?            |          (, )non?           |          (, )No?           |                  |                    |    (, )não?     |                              |                  |
-|       tag question - negative       |                                |     (, )yes?<br>(, )is it?      |                               |           (, )si?           |                            |                  |                    |     (, )é?      |                              |                  |
-|        tag question - truth         |        (, )nicht wahr?         |      (, )isn't it( true)?       |          (, )verdad?          |      (, )n'est-ce pas?      |        Non è vero?         |                  |                    |   (, )não é?    |                              |                  |
-|     tag question - haven't you?     |             (, )?              |        (, )haven't you?         |                               |                             |                            |                  |                    | (, )não ésteve? |                              |                  |
-|            tag question             |                                |         (, )am I wrong?         |                               |                             |       (Mi )Sbaglio?        |                  |                    |                 |                              |                  |
-|            tag question             |                                |      (, )don't you think?       |                               |                             |         Non pensi?         |                  |                    |                 |                              |                  |
-|            tag question             |                                |     (, )don't you believe?      |                               |                             |         Non credi?         |                  |                    |                 |                              |                  |
-|       tag question - informal       |                                |            (, )huh?             |                               |          (, )hein?          |                            |                  |                    |                 |                              |                  |
-| tag question - informal, imperative |                                |            or what!?            |                               |          ou quoi!?          |                            |                  |                    |                 |                              |                  |
-| tag question - informal, colloquial |                                |            (, )duh!?            |                               |                             |                            |                  |                    |    (, )né!?     |                              |                  |
-|       tag question - really?        |                                |         (, )is that so?         |                               |           Ah bon?           |                            |                  |                    |                 |                              |                  |
-|       tag question - I forgot       |                                | (What was..., again? )I forget  |                               |            déjà?            |                            |                  |                    |                 |                              |                  |
-|                                     |             Profil             |             Profile             |            Perfil             |           Profil            |          Profilo           |     人物紹介     |     인물 소개      |                 |           人物介绍           |     人物介紹     |
-|                                     |            Glossar             |            Glossary             |           Glosario            |          Glossaire          |         Glossario          |     用語解説     |     용어 해설      |                 |           词语解释           |     用語解說     |
-|                                     |        Fluss des Lichts        |         River of Light          |          Río de Luz           |     Rivière de Lumière      |       Fiume di Luce        |      光の河      |      빛의 강       |                 |            光之河            |       光河       |
-|                                     |     Phantomdiebin Poiclin      |      Phantom Thief Poiclin      |   Ladrona Fantasma Poiclin    |   Voleuse Fantôme Poiclin   |   Ladra Fantasma Poiclin   | 怪盗ポイックリン |    괴도 져클린     |                 |         怪盗珀伊库琳         |   怪盜珀伊庫琳   |
-|                                     |        Priesterin Himea        |         Priestess Himea         |       Sacerdotisa Himea       |       Prêtresse Himea       |     Sacerdotessa Himea     |    巫女ヒメア    |    무녀 히메아     |                 |          巫女卑弥亚          |    巫女卑彌亞    |
-|                                     |            Königin             |              Queen              |             Reina             |            Reine            |           Regina           |       女王       |        여왕        |                 |             女王             |       女王       |
-|                                     |     Leute der Erde, Dwarf      |   People of the Earth, Dwarf    |   Gente de la Tierra, Dwarf   |  Peuple de la Terre, Dwarf  | Popolo della Terra, Dwarf  | 地の民　ドワーフ |  땅의 민족 드워프  |                 |        地之民　多瓦夫        |  地之民　多瓦夫  |
-|                                     |      Leute des Wind, Elf       |     People of the Wind, Elf     |     Gente del Viento, Elf     |     Peuple du Vent, Elf     |   Popolo del Vento, Elf    |  風の民 エルフ   |  바람의 민족 엘프  |                 | 风之民　埃尔夫風之民　艾爾芙 |                  |
-|                                     | Leute der Tapferkeit, Menschen |    People of Valour, Humans     |   Gente del Valor, Hombres    | Peuple de la Valeur, Hommes |  Popolo di Valore, Umanos  |   勇の民　人間   |  용맹의 민족 인간  |                 |         勇之民　人类         |   勇之民　人類   |
-|                                     |     Leute des Feuer, Ogre      |    People of the Fire, Ogre     |     Gente del Fuego, Ogre     |     Peuple du Feu, Ogre     |   Popolo del Fuoco, Ogre   |  炎の民　オーガ  |  불꽃의 민족 오거  |                 |   炎之民　奥伽炎之民　奧伽   |                  |
-|                                     |   Leute der Blumen, Pukulipo   | People of the Flowers, Pukulipo | Gente de las Flores, Pukulipo | Peuple des Fleurs, Pukulipo | Popolo del Fiore, Pukulipo | 花の民　プクリポ | 꽃의 민족 푸크리포 |                 |       花之民　普库里坡       | 花之民　普庫里坡 |
-|                                     |    Leute des Wasser, Weddie    |   People of the Water, Weddie   |    Gente del Agua, Weddie     |   Peuple de l'Eau, Weddie   | Popolo dell'Acqua, Weddie  | 水の民　ウェディ |   물의 민족 웨디   |                 |         水之民　维迪         |   水之民　維迪   |
-|          verb<br>to obtain          |            erhalten            |             obtain              |            obtener            |           obtenir           |          ottenere          |    手に入れる    |                    |      obter      |                              |                  |
-|         verb<br>to receive          |            erhalten            |             receive             |            recibir            |          recevoir           |          ricevere          |                  |                    |     receber     |                              |                  |
-|         interjection<br>But         |              Aber              |               But               |             Pero              |            Mais             |             Ma             |       でも       |       하지만       |       Mas       |             不过             |       不過       |
-|          adverb<>after all          |                                |            after all            |                               |                             |                            |                  |                    |     afinal      |                              |                  |     |
+|             comment(s)              |               de               |               en                |              es               |             fr              |             it             |        ja        |         ko         |       pt-BR       |           zh-Hans            |     zh-Hant      |
+| :---------------------------------: | :----------------------------: | :-----------------------------: | :---------------------------: | :-------------------------: | :------------------------: | :--------------: | :----------------: | :---------------: | :--------------------------: | :--------------: |
+|         question - Who(m)?          |                                |             Who(m)?             |                               |                             |                            |                  |                    |                   |                              |                  |
+|          question - What?           |                                |              What?              |                               |                             |                            |                  |                    |                   |                              |                  |
+|          question - When?           |                                |              When?              |                               |            quand            |                            |                  |                    |                   |                              |                  |
+|          question - Where?          |                                |             Where?              |                               |                             |                            |                  |                    |  Cadê( a/o ...?)  |                              |                  |
+|           question - Why?           |                                |              Why?               |                               |                             |                            |                  |                    |                   |                              |                  |
+|           question - How?           |                                |              How?               |                               |                             |                            |                  |                    |                   |                              |                  |
+|          question - Which?          |                                |             Which?              |                               |                             |                            |                  |                    |                   |                              |                  |
+|          question - Whose?          |                                |             Whose?              |                               |                             |                            |                  |                    |                   |                              |                  |
+|            tag question             |                                |           (, )right?            |          (, )verdad?          |          (, )bon?           |           Vero?            |                  |                    |                   |                              |                  |
+|            tag question             |                                |          (, )correct?           |          (, )cierto?          |                             |          Giusto?           |                  |                    |                   |                              |                  |
+|     tag question - affirmative      |           (, )nein?            |             (, )no?             |            (, )no?            |          (, )non?           |          (, )No?           |                  |                    |     (, )não?      |                              |                  |
+|       tag question - negative       |                                |     (, )yes?<br>(, )is it?      |                               |           (, )si?           |                            |                  |                    |      (, )é?       |                              |                  |
+|        tag question - truth         |        (, )nicht wahr?         |      (, )isn't it( true)?       |          (, )verdad?          |      (, )n'est-ce pas?      |        Non è vero?         |                  |                    |    (, )não é?     |                              |                  |
+|     tag question - haven't you?     |             (, )?              |        (, )haven't you?         |                               |                             |                            |                  |                    |  (, )não ésteve?  |                              |                  |
+|            tag question             |                                |         (, )am I wrong?         |                               |                             |       (Mi )Sbaglio?        |                  |                    |                   |                              |                  |
+|            tag question             |                                |      (, )don't you think?       |                               |                             |         Non pensi?         |                  |                    |                   |                              |                  |
+|            tag question             |                                |     (, )don't you believe?      |                               |                             |         Non credi?         |                  |                    |                   |                              |                  |
+|       tag question - informal       |                                |            (, )huh?             |                               |          (, )hein?          |                            |                  |                    |                   |                              |                  |
+| tag question - informal, imperative |                                |            or what!?            |                               |          ou quoi!?          |                            |                  |                    |                   |                              |                  |
+| tag question - informal, colloquial |                                |            (, )duh!?            |                               |                             |                            |                  |                    |     (, )né!?      |                              |                  |
+|       tag question - really?        |                                |         (, )is that so?         |                               |           Ah bon?           |                            |                  |                    |                   |                              |                  |
+|       tag question - I forgot       |                                | (What was..., again? )I forget  |                               |            déjà?            |                            |                  |                    |                   |                              |                  |
+|                                     |             Profil             |             Profile             |            Perfil             |           Profil            |          Profilo           |     人物紹介     |     인물 소개      |                   |           人物介绍           |     人物介紹     |
+|                                     |            Glossar             |            Glossary             |           Glosario            |          Glossaire          |         Glossario          |     用語解説     |     용어 해설      |                   |           词语解释           |     用語解說     |
+|                                     |        Fluss des Lichts        |         River of Light          |          Río de Luz           |     Rivière de Lumière      |       Fiume di Luce        |      光の河      |      빛의 강       |    Rio de Luz     |            光之河            |       光河       |
+|                                     |     Phantomdiebin Poiclin      |      Phantom Thief Poiclin      |   Ladrona Fantasma Poiclin    |   Voleuse Fantôme Poiclin   |   Ladra Fantasma Poiclin   | 怪盗ポイックリン |    괴도 져클린     |                   |         怪盗珀伊库琳         |   怪盜珀伊庫琳   |
+|                                     |        Priesterin Himea        |         Priestess Himea         |       Sacerdotisa Himea       |       Prêtresse Himea       |     Sacerdotessa Himea     |    巫女ヒメア    |    무녀 히메아     | Sacerdotisa Himea |          巫女卑弥亚          |    巫女卑彌亞    |
+|                                     |            Königin             |              Queen              |             Reina             |            Reine            |           Regina           |       女王       |        여왕        |                   |             女王             |       女王       |
+|                                     |     Leute der Erde, Dwarf      |   People of the Earth, Dwarf    |   Gente de la Tierra, Dwarf   |  Peuple de la Terre, Dwarf  | Popolo della Terra, Dwarf  | 地の民　ドワーフ |  땅의 민족 드워프  |                   |        地之民　多瓦夫        |  地之民　多瓦夫  |
+|                                     |      Leute des Wind, Elf       |     People of the Wind, Elf     |     Gente del Viento, Elf     |     Peuple du Vent, Elf     |   Popolo del Vento, Elf    |  風の民 エルフ   |  바람의 민족 엘프  |                   | 风之民　埃尔夫風之民　艾爾芙 |                  |
+|                                     | Leute der Tapferkeit, Menschen |    People of Valour, Humans     |   Gente del Valor, Hombres    | Peuple de la Valeur, Hommes |  Popolo di Valore, Umanos  |   勇の民　人間   |  용맹의 민족 인간  |                   |         勇之民　人类         |   勇之民　人類   |
+|                                     |     Leute des Feuer, Ogre      |    People of the Fire, Ogre     |     Gente del Fuego, Ogre     |     Peuple du Feu, Ogre     |   Popolo del Fuoco, Ogre   |  炎の民　オーガ  |  불꽃의 민족 오거  |                   |   炎之民　奥伽炎之民　奧伽   |                  |
+|                                     |   Leute der Blumen, Pukulipo   | People of the Flowers, Pukulipo | Gente de las Flores, Pukulipo | Peuple des Fleurs, Pukulipo | Popolo del Fiore, Pukulipo | 花の民　プクリポ | 꽃의 민족 푸크리포 |                   |       花之民　普库里坡       | 花之民　普庫里坡 |
+|                                     |    Leute des Wasser, Weddie    |   People of the Water, Weddie   |    Gente del Agua, Weddie     |   Peuple de l'Eau, Weddie   | Popolo dell'Acqua, Weddie  | 水の民　ウェディ |   물의 민족 웨디   |                   |         水之民　维迪         |   水之民　維迪   |
+|          verb<br>to obtain          |            erhalten            |             obtain              |            obtener            |           obtenir           |          ottenere          |    手に入れる    |                    |       obter       |                              |                  |
+|         verb<br>to receive          |            erhalten            |             receive             |            recibir            |          recevoir           |          ricevere          |                  |                    |      receber      |                              |                  |
+|         interjection<br>But         |              Aber              |               But               |             Pero              |            Mais             |             Ma             |       でも       |       하지만       |        Mas        |             不过             |       不過       |
+|         adverb<br>after all         |                                |            after all            |                               |                             |                            |                  |                    |      afinal       |                              |                  |     |
 
 <!--
 |                                     |               de               |               en                |              es               |             fr              |             it             |        ja        |         ko         |      br-pt      |           zh-Hans            |     zh-Hant      |
  -->
 
 </details>
+
+<!--
+
+## Testing
+
+### Example - `Game.locres.json:STT_BattleMonsterName` + DQM3 Monster List
+
+<details>
+
+```PS
+jq -s "
+  map(
+   .STT_BattleMonsterName | to_entries[]
+  )
+  | group_by(.value.ja)
+  | map(
+      if
+      (
+        (
+          .[1].value.fr != null
+        )
+        and .[0].value.fr == `"`"
+      )
+      then
+      (
+        .[0].value.fr = .[1].value.fr
+        | .[0].value.[`"`$comments`"] = (
+            .[0].value.[`"`$comments`"]
+            | sub(`"🔴`"; `"🟡`")
+        )
+        | del(.[1])
+      )
+      else
+      (
+        .
+      )
+      end
+      |
+      from_entries
+  )
+  | sort[]
+  | to_entries[]
+  | del(select(.key | test(`"NAME`") | not) )
+"
+"OLD.json"
+"NEW.json"
+> "OUTPUT.json"
+```
+
+</details>
+
+ -->

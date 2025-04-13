@@ -115,7 +115,7 @@
 | Super Useful |  003  | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🔴 |            |
 |  Sub Story   |  004  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |  Sub Story   |  005  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
-|              |  006  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
+|  Sub Story   |  006  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |              |  007  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |              |  008  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |              |  009  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
