@@ -1748,12 +1748,9 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |                  `<%sW_KOUZA>`                   |                                                                                                                                                                              |                                          |
 |                   `<%sW_MIS>`                    |                                                                                                                                                                              |                                          |
 |                  `<%sW_STAGE>`                   |                                                                                                                                                                              |                                          |
-|                       `<>`                       |                                                                                                                                                                              |                                          |
 |                     `<attr>`                     |                                                                                                                                                                              |                                          |
 |                 `<auto_br=5000>`                 |                                                                                                                                                                              |                                          |
-|                 `<auto_bw=1000>`                 |                                                                                                                                                                              |                                          |
-|                 `<auto_bw=3000>`                 |                                                                                                                                                                              |                                          |
-|                 `<auto_bw=5000>`                 |                                                                                                                                                                              |                                          |
+|                 `<auto_bw=????>`                 |                                                                                                                                                                              |                                          |
 |                   `<autorun>`                    |                                                                                                                                                                              |                                          |
 |                  `<big_shake>`                   |                                                                                                                                                                              |                                          |
 |                   `<br_break>`                   |                                                                                                                                                                              |                                          |
@@ -2140,27 +2137,27 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   "STT_Quest_ItemGet": {
     "SYSTEXT_GetItemText_Comp_*Q_###_#_##_#": {
       "$comments": "Sample, GOT, `<%sEV_QUE_NAME0>` = Monster Name",
-      "de": "(Die, Der, Das) <%sEV_QUE_NAME0> hat (den, die, das) ITEM fallen lassen.\n<br>\n{pc} hat (den, die, das) <color_yellow>ITEM<color_white> (Wichtig) bekommen!<se_nots System Item>\n<auto_bw=5000><close>",
-      "en": "The <%sEV_QUE_NAME0> dropped the ITEM.\n<br>\n{pc} obtained the <color_yellow>ITEM<color_white> (Key Item)!<se_nots System Item>\n<auto_bw=5000><close>",
-      "es": "(La, El, Le) <%sEV_QUE_NAME0> se le cayó (la, el, le) ITEM.\n<br>\n¡{pc} ha recibido (la, el, le) <color_yellow>ITEM<color_white> (Objetos Importantes)!<se_nots System Item>\n<auto_bw=5000><close>",
-      "fr": "(La, Le, Lea/L') <%sEV_QUE_NAME0> a fait tomber (la, le, lea/l')ITEM.\n<br>\n{pc} a reçu (la, le, lea/l')<color_yellow>ITEM<color_white> (Objets Importants)!<se_nots System Item>\n<auto_bw=5000><close>",
-      "it": "(La/L', Il/L'/Lo, TBD) <%sEV_QUE_NAME0> ha lasciato cadere (la/l', il/l'/lo, TBD)ITEM.\n<br>\n{pc} ha ricevuto (la/l', il/l'/lo, TBD)<color_yellow>ITEM<color_white> (Oggetti Importanti)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "de": "(Die, Der, Das) <%sEV_QUE_NAME0> hat (den, die, das) ITEM fallen lassen.\n<br>\n{pc} hat (den, die, das) <color_yellow>ITEM<color_white> (Wichtig) bekommen!<se_nots System Item>\n<bw><close>",
+      "en": "The <%sEV_QUE_NAME0> dropped the ITEM.\n<br>\n{pc} obtained the <color_yellow>ITEM<color_white> (Key Item)!<se_nots System Item>\n<bw><close>",
+      "es": "(La, El, Le) <%sEV_QUE_NAME0> se le cayó (la, el, le) ITEM.\n<br>\n¡{pc} ha recibido (la, el, le) <color_yellow>ITEM<color_white> (Objeto Importante)!<se_nots System Item>\n<bw><close>",
+      "fr": "(La, Le, Lea/L') <%sEV_QUE_NAME0> a fait tomber (la, le, lea/l')ITEM.\n<br>\n{pc} a reçu (la, le, lea/l')<color_yellow>ITEM<color_white> (Objet Important)!<se_nots System Item>\n<bw><close>",
+      "it": "(La/L', Il/L'/Lo, TBD) <%sEV_QUE_NAME0> ha lasciato cadere (la/l', il/l'/lo, TBD)ITEM.\n<br>\n{pc} ha ricevuto (la/l', il/l'/lo, TBD)<color_yellow>ITEM<color_white> (Oggetto Importante)!<se_nots System Item>\n<bw><close>",
       "ja": "<%sEV_QUE_NAME0>は\nきらめきインクを　落としていった。\n<auto_br=5000>\n{pc}は\nきらめきインク（だいじなもの）を\n手に入れた！<se_nots System Item>\n<auto_bw=5000><close>",
       "ko": "{%sEV_QUE_NAME0}|hpp(은,는)\n반짝반짝 잉크를 떨어뜨리고 갔다.\n<auto_br=5000>\n{pc}|hpp(은,는)\n반짝반짝 잉크(중요한 물건)를\n손에 넣었다!<se_nots System Item>\n<auto_bw=5000><close>",
-      "pt-BR": "(A, O, Ê) <%sEV_QUE_NAME0> deixou (a, o, ê) ITEM!\n<br>\n{pc} obteve (a, o, ê) <color_yellow>ITEM<color_white> (Iten Importante)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "pt-BR": "(A, O, Ê) <%sEV_QUE_NAME0> deixou (a, o, ê) ITEM!\n<br>\n{pc} obteve (a, o, ê) <color_yellow>ITEM<color_white> (Iten Importante)!<se_nots System Item>\n<bw><close>",
       "zh-Hans": "<%sEV_QUE_NAME0>掉落了\n闪闪墨水。\n<auto_br=5000>\n{pc}获得了\n闪闪墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>",
       "zh-Hant": "<%sEV_QUE_NAME0>\n掉落了閃閃墨水。\n<auto_br=5000>\n{pc}\n獲得了\n閃閃墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>"
     },
     "SYSTEXT_GetItemText_Comp_KQ_001_1_10_2": {
       "$comments": "🟢, Quest (001) {Super Useful}, <%sEV_QUE_NAME0> = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_00400`",
-      "de": "Der <%sEV_QUE_NAME0> hat die Glitzernde Tinte fallen\nlassen.\n<br>\n{pc} hat die <color_yellow>Glitzernde Tinte<color_white> (Wichtig)\nbekommen!<se_nots System Item>\n<auto_bw=5000><close>",
-      "en": "The <%sEV_QUE_NAME0> dropped the Glittering Ink.\n<br>\n{pc} obtained the <color_yellow>Glittering Ink<color_white> (Key Item)!<se_nots System Item>\n<auto_bw=5000><close>",
-      "es": "El <%sEV_QUE_NAME0> se le cayó la Tinta Centelleante.\n<br>\n¡{pc} ha recibido la <color_yellow>Tinta Centelleante<color_white>\n(Objetos Importantes)!<se_nots System Item>\n<auto_bw=5000><close>",
-      "fr": "Le <%sEV_QUE_NAME0> a fait tomber l'Encre Scintillante.\n<br>\n{pc} a reçu l'<color_yellow>Encre Scintillante<color_white>\n(Objets Importants)!<se_nots System Item>\n<auto_bw=5000><close>",
-      "it": "Il <%sEV_QUE_NAME0> ha lasciato cadere l'Inchiostro Scintillante.\n<br>\n{pc} ha ricevuto l'<color_yellow>Inchiostro Scintillante<color_white>\n(Oggetti Importanti)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "de": "Der <%sEV_QUE_NAME0> hat die Glitzernde Tinte fallen\nlassen.\n<br>\n{pc} hat die <color_yellow>Glitzernde Tinte<color_white> (Wichtig)\nbekommen!<se_nots System Item>\n<bw><close>",
+      "en": "The <%sEV_QUE_NAME0> dropped the Glittering Ink.\n<br>\n{pc} obtained the <color_yellow>Glittering Ink<color_white> (Key Item)!<se_nots System Item>\n<bw><close>",
+      "es": "El <%sEV_QUE_NAME0> se le cayó la Tinta Centelleante.\n<br>\n¡{pc} ha recibido la <color_yellow>Tinta Centelleante<color_white>\n(Objeto Importante)!<se_nots System Item>\n<bw><close>",
+      "fr": "Le <%sEV_QUE_NAME0> a fait tomber l'Encre Scintillante.\n<br>\n{pc} a reçu l'<color_yellow>Encre Scintillante<color_white>\n(Objet Important)!<se_nots System Item>\n<bw><close>",
+      "it": "Il <%sEV_QUE_NAME0> ha lasciato cadere l'Inchiostro Scintillante.\n<br>\n{pc} ha ricevuto l'<color_yellow>Inchiostro Scintillante<color_white>\n(Oggetto Importante)!<se_nots System Item>\n<bw><close>",
       "ja": "<%sEV_QUE_NAME0>は\nきらめきインクを　落としていった。\n<auto_br=5000>\n{pc}は\nきらめきインク（だいじなもの）を\n手に入れた！<se_nots System Item>\n<auto_bw=5000><close>",
       "ko": "{%sEV_QUE_NAME0}|hpp(은,는)\n반짝반짝 잉크를 떨어뜨리고 갔다.\n<auto_br=5000>\n{pc}|hpp(은,는)\n반짝반짝 잉크(중요한 물건)를\n손에 넣었다!<se_nots System Item>\n<auto_bw=5000><close>",
-      "pt-BR": "O <%sEV_QUE_NAME0> deixou a Tinta Reluzente!\n<br>\n{pc} obteve a <color_yellow>Tinta Reluzente<color_white> (Iten Importante)!<se_nots System Item>\n<auto_bw=5000><close>",
+      "pt-BR": "O <%sEV_QUE_NAME0> deixou a Tinta Reluzente!\n<br>\n{pc} obteve a <color_yellow>Tinta Reluzente<color_white> (Iten Importante)!<se_nots System Item>\n<bw><close>",
       "zh-Hans": "<%sEV_QUE_NAME0>掉落了\n闪闪墨水。\n<auto_br=5000>\n{pc}获得了\n闪闪墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>",
       "zh-Hant": "<%sEV_QUE_NAME0>\n掉落了閃閃墨水。\n<auto_br=5000>\n{pc}\n獲得了\n閃閃墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>"
     }
@@ -2420,10 +2417,12 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |          verb<br>to obtain          |            erhalten            |             obtain              |            obtener            |           obtenir           |          ottenere          |    手に入れる    |                    |       obter       |                              |                  |
 |         verb<br>to receive          |            erhalten            |             receive             |            recibir            |          recevoir           |          ricevere          |                  |                    |      receber      |                              |                  |
 |         interjection<br>But         |              Aber              |               But               |             Pero              |            Mais             |             Ma             |       でも       |       하지만       |        Mas        |             不过             |       不過       |
+|    interjection<br>What a relief!   |                                |                                 |                               |                             |                            |                  |                    |    Que alívio     |                              |                  |
 |         adverb<br>after all         |                                |            after all            |                               |                             |                            |                  |                    |      afinal       |                              |                  |     |
 
 <!--
-|                                     |               de               |               en                |              es               |             fr              |             it             |        ja        |         ko         |      br-pt      |           zh-Hans            |     zh-Hant      |
+|                                     |                                |                                 |                               |                             |                            |                  |                    |                   |                              |                  |
+|                                     |               de               |               en                |              es               |             fr              |             it             |        ja        |         ko         |      pt-BR      |           zh-Hans            |     zh-Hant      |
  -->
 
 </details>
