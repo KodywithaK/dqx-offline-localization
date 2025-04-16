@@ -1367,7 +1367,7 @@
   "39244": {
     "$comments": "🟡, see `Game.locres.json:STT_NpcInfo.NAME_NPC_01648",
     "de": "",
-    "en": "The Eltona Ranger Association's mission is to protect\nnature throughout the continent.\n<br>\nTherefore, any entity that devastates the forest, be\nit a monster or human, is our enemy.\n<br>\nSometimes, one will be forced to make a hard choice.\nI only hope that I am prepared for that.",
+    "en": "The Eltona Ranger Association's mission is to protect\nnature throughout the continent.\n<br>\nTherefore, any entity that devastates the forest, be it a\nmonster or human, is our enemy.\n<br>\nSometimes, one will be forced to make a hard choice.\nI only hope that I am prepared for that.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1380,7 +1380,7 @@
   "39245": {
     "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_000]`",
     "de": "",
-    "en": "This is the headquarters of Eltona's defenders of\nnature, the Eltona Ranger Association Royal City\nKamiharmui branch.\n<br>\nRangers are warriors who protect nature. Bows,\nboomerangs, and axes are our weapons of war, and we\nborrow the power of nature to learn special skills.\n<br>\n...Well, are you are now, this topic is not relevant.\nHowever, if you eventually wish to become a Ranger,\nyou should train as a Martial Artist and a Thief.",
+    "en": "This is the headquarters of Eltona's defenders of nature,\nthe Eltona Ranger Association Royal City Kamiharmui\nbranch.\n<br>\nRangers are warriors who protect nature. Bows,\nboomerangs, and axes are our weapons of war, and we\nborrow the power of nature to learn special skills.\n<br>\n...Well, are you are now, this topic is not relevant.\nHowever, if you eventually wish to become a Ranger,\nyou should train as a Martial Artist and a Thief.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1406,7 +1406,7 @@
   "39247": {
     "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_000]`, YESNO_1",
     "de": "",
-    "en": "This is the headquarters of Eltona's defenders of\nnature, the Eltona Ranger Association Royal City\nKamiharmui branch.\n<br>\nRangers are warriors who protect nature. Bows,\nboomerangs, and axes are our weapons of war, and we\nborrow the power of nature to learn special skills.\n<br>\n...You seem to have enough experience as a martial artist\nand a thief, don't you. How about it. You have your\neyes set on becoming a Ranger, to defend nature too?<yesno><break>",
+    "en": "This is the headquarters of Eltona's defenders of nature,\nthe Eltona Ranger Association Royal City Kamiharmui\nbranch.\n<br>\nRangers are warriors who protect nature. Bows,\nboomerangs, and axes are our weapons of war, and we\nborrow the power of nature to learn special skills.\n<br>\n...You seem to have enough experience as a martial artist\nand a thief, don't you. How about it. You have your\neyes set on becoming a Ranger, to defend nature too?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1432,7 +1432,7 @@
   "39249": {
     "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_000]`, YESNO_2",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Ooh, a comrade! You say that you will join our fight\nto protect nature, do you!\n<br>\nHowever, the ranger job is one for only a select few.\nIn order to change jobs, you must undergo a trial.\n<br>\nThe trial in order to change to the ranger job is to\nobtain the <color_yellow>Spirit Fruit<color_white> from a <color_red><%sEV_QUE_NAME0><color_white> that appear\nin Kamiharmui North.\n<br>\nHowever, Spirit Fruit cannot be obtained, unless you\nsuccessfully use the skill \"Half-Inch\", and win the\nbattle; so, it's not so easy.\n<br>\nNow, one who aspires to become a new ranger. Do you\nintend to take on this trial?",
+    "en": "<attr><feel_happy_lv1><end_attr>Ooh, a comrade! You say that you will join our fight\nto protect nature, do you!\n<br>\nHowever, the ranger job is one for only a select few.\nIn order to change jobs, you must undergo a trial.\n<br>\nThe trial in order to change to the ranger job is to\nobtain the <color_yellow>Spirit Fruit<color_white> from a <color_red><%sEV_QUE_NAME0><color_white> that appear\nin Kamiharmui North.\n<br>\nHowever, <color_yellow>Spirit Fruit<color_white> cannot be obtained, unless you\nsuccessfully use the skill \"Half-Inch\", and win the battle;\nso, it's not so easy.\n<br>\nNow, one who aspires to become a new ranger. Do you\nintend to take on this trial?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1445,7 +1445,7 @@
   "39250": {
     "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_000]`, YES",
     "de": "",
-    "en": "...Alright. May the spirits of the forest bless you.",
+    "en": "...Alright. May the forest spirits bless you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1471,7 +1471,7 @@
   "39253": {
     "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_000]`, YESNO_3",
     "de": "",
-    "en": "Aah, <pc>. Perhaps you've made up your mind\nto become a ranger in order to protect nature?\n<br>\nBut in order to do so, you must obtain the <color_yellow>Spirit\nFruit<color_white> from a <color_red><%sEV_QUE_NAME0><color_white> that appear in Kamiharmui\nNorth.\n<br>\nMoreover, Spirit Fruit cannot be obtained, unless you\nsuccessfully use the skill \"Half-Inch\", and win the\nbattle; so, it's not so easy.\n<br>\nNow, one who aspires to become a new ranger. Do you\nintend to take on this trial?",
+    "en": "Aah, <pc>. Perhaps you've made up your mind\nto become a ranger in order to protect nature?\n<br>\nBut in order to do so, you must obtain the <color_yellow>Spirit Fruit<color_white>\nfrom a <color_red><%sEV_QUE_NAME0><color_white> that appear in Kamiharmui North.\n<br>\nMoreover, <color_yellow>Spirit Fruit<color_white> cannot be obtained, unless you\nsuccessfully use the skill \"Half-Inch\", and win the battle;\nso, it's not so easy.\n<br>\nNow, one who aspires to become a new ranger. Do you\nintend to take on this trial?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1494,6 +1494,19 @@
     "zh-Hans": "<attr><feel_think_lv2><end_attr>……唔，真遗憾。\n但是不完成这个试炼，\n就不能成为游侠。\n<br>\n保护这片大陆……不，\n保护整个世界自然环境的\n游侠实在是太少了。\n<br>\n要是你热爱大自然，\n就立志成为游侠吧。",
     "zh-Hant": "<attr><feel_think_lv2><end_attr>……唔，真是遺憾。\n但是不克服這個考驗的話，\n是沒辦法成為遊俠的。\n<br>\n為了守護這座大陸……不對，\n為了守護這個世界的自然，\n我們需要更多的遊俠。\n<br>\n如果你有一顆關愛自然的心，\n請務必成為一名遊俠。"
   },
+  "39254": {
+    "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01648, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_010, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_SEIREINOMI]`",
+    "de": "",
+    "en": "In order to change to the ranger job, it's said that the\npower of the forest spirits residing within the <color_yellow>Spirit\nFruit<color_white> is required.\n<br>\nIn antiquity, rangers tried to take in the spirits' power by,\nin fact, eating it. That is the origin of the job changing\ntrial.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "「レンジャーに転職するために\n　必要となる　精霊の実には\n　森の精霊のチカラが　宿っているというな。\n<br>\n「古来　レンジャーは　その実を食すことで\n　精霊のチカラを　取り込もうとしたのだ。\n　それが　転職の試練の由来というわけさ。",
+    "ko": ": 레인저로 전직하기 위해\n　필요한 정령의 열매에는\n　숲의 정령의 힘이 깃들어 있다고 해.\n<br>\n: 예부터 레인저는 그 열매를 먹음으로써\n　정령의 힘을 받아들이려 했지.\n　그게 전직의 시련의 유래다.",
+    "pt-BR": "",
+    "zh-Hans": "据说，转职为游侠所需的\n精灵果实蕴含着\n森林精灵的力量。\n<br>\n自古以来，游侠就是靠\n食用那种果实来获得精灵的力量。\n这就是转职试炼的由来。",
+    "zh-Hant": "據說轉職成遊俠所需的精靈果實中，\n寄宿著森林精靈的力量。\n<br>\n自古以來的遊俠都是透過食用這種果實，\n來吸收精靈的力量。\n這就是轉職考驗的由來。"
+  },
   "39255": {
     "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_010]`",
     "de": "",
@@ -1510,7 +1523,7 @@
   "44255": {
     "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_010]`",
     "de": "",
-    "en": "<close_irai>However, Spirit Fruit cannot be obtained, unless you\nsuccessfully use the skill \"Half-Inch\", and win the\nbattle; so, it's not so easy.",
+    "en": "<close_irai>However, <color_yellow>Spirit Fruit<color_white> cannot be obtained, unless you\nsuccessfully use the skill \"Half-Inch\", and win the battle;\nso, it's not so easy.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1523,7 +1536,7 @@
   "39256": {
     "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_SEIREINOMI]`",
     "de": "",
-    "en": "It seems that you have successfully obtained the\nSpirit Fruit, haven't you. However, this is not the\nend of the job change trial.\n<br>\nEating the Spirit Fruit to take in the power of the\nforest spirits that resides within it is the true\npurpose of the trial.\n<br>\nOnly after you carry the spirits' power in your body,\nis it possible to change to the ranger job.",
+    "en": "It seems that you have successfully obtained the <color_yellow>Spirit\nFruit<color_white>, haven't you. However, this is not the end of the\njob change trial.\n<br>\nEating the <color_yellow>Spirit Fruit<color_white> to take in the power of the forest\nspirits that resides within it is the true purpose of the\ntrial.\n<br>\nOnly after you carry the spirits' power in your body,\nis it possible to change to the ranger job.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1536,7 +1549,7 @@
   "39257": {
     "$comments": "🟢, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_SEIREINOMI]`, YESNO",
     "de": "Wirst du die <color_yellow>Geisterfrucht<color_white> essen?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "en": "Eat the Spirit Fruit?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "Eat the <color_yellow>Spirit Fruit<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "¿Te comerás el <color_yellow>Fruto Espiritual<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "fr": "Mangeras-tu le <color_yellow>Fruit Spirituel<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "it": "Mangerai il <color_yellow>Frutto Spiritico<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
@@ -1549,7 +1562,7 @@
   "39258": {
     "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_SEIREINOMI]`, NO",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>You don't have to be so cautious; give in, it's okay\nto eat, and... Spirit Fruit is quite delicious.",
+    "en": "<attr><feel_think_lv1><end_attr>You don't have to be so cautious; give in, it's okay to eat,\nand... <color_yellow>Spirit Fruit<color_white> is quite delicious.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1561,14 +1574,14 @@
   },
   "39259": {
     "$comments": "🟢, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_SEIREINOMI]`, YES",
-    "de": "<pc> biss in die Geisterfrucht und schluckte\nsie.",
-    "en": "<pc> bit into a Spirit Fruit and swallowed it.",
-    "es": "<pc> mordió el Fruto Espiritual y tragar.",
-    "fr": "<pc> mordit dans le Fruit Spirituel et\navaler.",
-    "it": "<pc> addentò il Frutto Spiritico e\ninghiottìre.",
+    "de": "<pc> biss in die <color_yellow>Geisterfrucht<color_white> und schluckte\nsie.",
+    "en": "<pc> bit into the <color_yellow>Spirit Fruit<color_white> and swallowed it.",
+    "es": "<pc> mordió el <color_yellow>Fruto Espiritual<color_white> y tragar.",
+    "fr": "<pc> mordit dans le <color_yellow>Fruit Spirituel<color_white> et\navaler.",
+    "it": "<pc> addentò il <color_yellow>Frutto Spiritico<color_white> e\ninghiottìre.",
     "ja": "<pc>は　精霊の実をかじり\n飲み込んだ。",
     "ko": "{pc}|hpp(은,는) 정령의 열매를\n베어 물어 꿀꺽 삼켰다.",
-    "pt-BR": "<pc> mordeu o Fruto Espiritual e engolir.",
+    "pt-BR": "<pc> mordeu o <color_yellow>Fruto Espiritual<color_white> e engolir.",
     "zh-Hans": "<pc>咬着精灵果实\n整个吃了下去。",
     "zh-Hant": "<pc>咬了一口精靈果實，\n吞了下去。"
   },
@@ -1601,7 +1614,7 @@
   "39262": {
     "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_020, STT_SkillName.PA_ACTION_NO_MINOGASU]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>And so, welcome to the Eltona Ranger Association.\nAllow me to show you to our association.\n<br>\nRight away, you shall be a member of the association...\nIs what I would like to say, but you are not yet full\nof the spirits' power.\n<br>\nSo it is... With time, when your ranger level reaches 10+,\nyou should have enough of the spirits' power.\n<br>\nAnd once you learn the skill \"Mercy\", please\nfamiliarize yourself with it. You will need it for\nyour mission in protecting nature.",
+    "en": "<attr><feel_happy_lv1><end_attr>And so, welcome to the Eltona Ranger Association.\nAllow me to show you to our association.\n<br>\nRight away, you shall be a member of the association...\nIs what I would like to say, but you are not yet full of\nthe spirits' power.\n<br>\nSo it is... With time, when your ranger level reaches\n10+, you should have enough of the spirits' power.\n<br>\nAnd once you learn the skill \"Mercy\", please familiarize\nyourself with it. You will need it for your mission in\nprotecting nature.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1627,7 +1640,7 @@
   "39264": {
     "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_200, STT_SkillName.PA_ACTION_NO_MINOGASU]`",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>So it is... With time, when your ranger level reaches 10+,\nyou should have enough of the spirits' power.\n<br>\nAnd once you learn the skill \"Mercy\", please\nfamiliarize yourself with it. You will need it for\nyour mission in protecting nature.\n<br>\n...Perhaps then you will be assigned to a mission a bit\nfurther from the headquarters.",
+    "en": "<attr><feel_think_lv1><end_attr>So it is... With time, when your ranger level reaches\n10+, you should have enough of the spirits' power.\n<br>\nAnd once you learn the skill \"Mercy\", please familiarize\nyourself with it. You will need it for your mission in\nprotecting nature.\n<br>\n...Perhaps then you will be assigned to a mission a bit\nfurther from the headquarters.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1640,7 +1653,7 @@
   "39265": {
     "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01646, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_200, STT_SkillName.PA_ACTION_NO_MINOGASU]`",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>So it is... With time, when your ranger level reaches 10+,\nyou should have enough of the spirits' power.\n<br>\nAnd once you learn the skill \"Mercy\", please\nfamiliarize yourself with it. You will need it for\nyour mission in protecting nature.\n<br>\n...Perhaps then you will be assigned to a mission a bit\nfurther from the headquarters.",
+    "en": "<attr><feel_think_lv1><end_attr>So it is... With time, when your ranger level reaches\n10+, you should have enough of the spirits' power.\n<br>\nAnd once you learn the skill \"Mercy\", please familiarize\nyourself with it. You will need it for your mission in\nprotecting nature.\n<br>\n...Perhaps then you will be assigned to a mission a bit\nfurther from the headquarters.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1649,18 +1662,5 @@
     "pt-BR": "",
     "zh-Hans": "<attr><feel_think_lv1><end_attr>这样吧……等你成长起来，\n游侠等级达到１０以上后，\n精灵的力量应该也就足够了。\n<br>\n等你学会了特技中的放生，\n请好好修炼并掌握如何运用，\n执行守护大自然的任务时会用到。\n<br>\n……大概会让你去稍微远离总部的地方\n执行任务吧。",
     "zh-Hant": "<attr><feel_think_lv1><end_attr>讓我想想……等你充分成長，\n遊俠等級達到１０以上後，\n應該就會完全充滿精靈的力量吧。\n<br>\n之後等你學會了特技的放生後，\n請熟悉並掌握如何運用。\n進行守護大自然的任務時會用到。\n<br>\n……你應該會被派到\n離總部較遠的地方執行任務。"
-  },
-  "39254": {
-    "$comments": "🟡, Quest (182) {Job Quest}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01648, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_TQ_004_1_200, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_SEIREINOMI]`",
-    "de": "",
-    "en": "In order to change to the ranger job, it's said that\nthe power of the forest spirits residing within the\nSpirit Fruit is required.\n<br>\nIn antiquity, rangers tried to take in the spirits'\npower by in fact eating it. That is the origin of the\njob changing trial.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "「レンジャーに転職するために\n　必要となる　精霊の実には\n　森の精霊のチカラが　宿っているというな。\n<br>\n「古来　レンジャーは　その実を食すことで\n　精霊のチカラを　取り込もうとしたのだ。\n　それが　転職の試練の由来というわけさ。",
-    "ko": ": 레인저로 전직하기 위해\n　필요한 정령의 열매에는\n　숲의 정령의 힘이 깃들어 있다고 해.\n<br>\n: 예부터 레인저는 그 열매를 먹음으로써\n　정령의 힘을 받아들이려 했지.\n　그게 전직의 시련의 유래다.",
-    "pt-BR": "",
-    "zh-Hans": "据说，转职为游侠所需的\n精灵果实蕴含着\n森林精灵的力量。\n<br>\n自古以来，游侠就是靠\n食用那种果实来获得精灵的力量。\n这就是转职试炼的由来。",
-    "zh-Hant": "據說轉職成遊俠所需的精靈果實中，\n寄宿著森林精靈的力量。\n<br>\n自古以來的遊俠都是透過食用這種果實，\n來吸收精靈的力量。\n這就是轉職考驗的由來。"
   }
 }
