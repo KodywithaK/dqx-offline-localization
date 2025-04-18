@@ -520,8 +520,8 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 
 |               Namespace               | Key | Recommendation(s)                           | Comment(s)                                                                                  |
 | :-----------------------------------: | :-: | :------------------------------------------ | :------------------------------------------------------------------------------------------ |
-|              `ASIA_DLC`               |     |                                             |                                                                                             |
-|            `Event_Common`             |     |                                             |                                                                                             |
+|              `ASIA_DLC`               |     |                                             | DLC name, info, and items received                                                          |
+|            `Event_Common`             |     |                                             | Common string variables                                                                     |
 |            `lpWindowName`             |     |                                             | The game's window name                                                                      |
 |               `Sample`                |     |                                             |                                                                                             |
 |          `STT_AccessoryItem`          |     |                                             |                                                                                             |
@@ -706,9 +706,9 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |            `STT_Battle_UI`            |     |                                             |                                                                                             |
 |          `STT_BattleroadSys`          |     |                                             |                                                                                             |
 |      `STT_Boukennosho_DLC_Text`       |     |                                             |                                                                                             |
-|         `STT_CareerStoryVer1`         |     |                                             |                                                                                             |
-|         `STT_CareerStoryVer2`         |     |                                             |                                                                                             |
-|        `STT_Career_StoryUISys`        |     |                                             |                                                                                             |
+|         `STT_CareerStoryVer1`         |     |                                             | The Story So Far, Main Story details in records, version 1                                  |
+|         `STT_CareerStoryVer2`         |     |                                             | The Story So Far, Main Story details in records, version 2                                  |
+|        `STT_Career_StoryUISys`        |     |                                             | The Story So Far, Main Story menus in records                                               |
 |           `STT_CasinoCoin`            |     |                                             |                                                                                             |
 |         `STT_CharamakeColors`         |     |                                             |                                                                                             |
 |        `STT_Charamake_Female`         |     |                                             |                                                                                             |
@@ -770,8 +770,8 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |         `STT_KeyboardSetting`         |     |                                             |                                                                                             |
 |    `STT_KeyboardSettingKeyString`     |     |                                             |                                                                                             |
 |       `STT_LD_SerchFieldObject`       |     |                                             |                                                                                             |
-|       `STT_LoadingArasujiVer1`        |     |                                             |                                                                                             |
-|       `STT_LoadingArasujiVer2`        |     |                                             |                                                                                             |
+|       `STT_LoadingArasujiVer1`        |     |                                             | Same as `STT_CareerStoryVer1`, but for initial loading screen                               |
+|       `STT_LoadingArasujiVer2`        |     |                                             | Same as `STT_CareerStoryVer2`, but for initial loading screen                               |
 |           `STT_LoadingTips`           |     |                                             |                                                                                             |
 |        `STT_MagicExplanation`         |     |                                             |                                                                                             |
 |            `STT_MagicName`            |     |                                             |                                                                                             |
@@ -787,21 +787,21 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |       `STT_Monster_Tips2_Ver2`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
 |       `STT_Monster_Tips2_ver1`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
 |          `STT_Monster_Type`           |     |                                             |                                                                                             |
-|             `STT_NpcInfo`             |     |                                             | NPC Info, see "pakchunk0-{PLATFORM}.utoc\Game\Content\Datatables\Characters\NpcInfo.uasset" |
+|             `STT_NpcInfo`             |     |                                             | NPC names, see "pakchunk0-{PLATFORM}.utoc\Game\Content\Datatables\Characters\NpcInfo.uasset" |
 |      `STT_OddStatusExplanation`       |     |                                             |                                                                                             |
 |          `STT_OddStatusName`          |     |                                             |                                                                                             |
-|            `STT_PT_InOut`             |     |                                             |                                                                                             |
-|             `STT_PT_Talk`             |     |                                             |                                                                                             |
-|          `STT_PartyMainSys`           |     |                                             |                                                                                             |
+|            `STT_PT_InOut`             |     |                                             | Guest party members dialog when leaving their mission area                                  |
+|             `STT_PT_Talk`             |     |                                             | Party Chat                                                                                  |
+|          `STT_PartyMainSys`           |     |                                             | Party formation menus and dialog                                                            |
 |          `STT_Profile_Word`           |     |                                             |                                                                                             |
-|            `STT_QuestList`            |     |                                             |                                                                                             |
-|        `STT_QuestListCategory`        |     |                                             |                                                                                             |
-|         `STT_QuestListDetail`         |     |                                             |                                                                                             |
-|          `STT_QuestListName`          |     |                                             |                                                                                             |
-|         `STT_QuestListSeries`         |     |                                             |                                                                                             |
+|            `STT_QuestList`            |     |                                             | Quest list menus                                                                            |
+|        `STT_QuestListCategory`        |     |                                             | Quest categories (Main/Sub Story, Job Quest, etc.)                                          |
+|         `STT_QuestListDetail`         |     |                                             | Quest details                                                                               |
+|          `STT_QuestListName`          |     |                                             | Quest names                                                                                 |
+|         `STT_QuestListSeries`         |     |                                             | Quest series names                                                                          |
 |        `STT_Quest_AfterBattle`        |     |                                             |                                                                                             |
-|          `STT_Quest_ItemGet`          |     |                                             |                                                                                             |
-|     `STT_Quest_PerticularReward`      |     |                                             |                                                                                             |
+|          `STT_Quest_ItemGet`          |     |                                             | Quest required items dialog                                                                 |
+|     `STT_Quest_PerticularReward`      |     |                                             | Quest completion rewards                                                                    |
 |       `STT_Restricted_GamePlay`       |     |                                             |                                                                                             |
 |      `STT_ResurrectionTextList`       |     |                                             |                                                                                             |
 |          `STT_SenrekUIiSys`           |     |                                             |                                                                                             |
@@ -820,7 +820,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |        `STT_SystemFishingBook`        |     |                                             |                                                                                             |
 |        `STT_SystemFishingFish`        |     |                                             |                                                                                             |
 |          `STT_SystemMoveNpc`          |     |                                             |                                                                                             |
-|           `STT_SystemQuest`           |     |                                             |                                                                                             |
+|           `STT_SystemQuest`           |     |                                             | Quest menus and dialog                                                                      |
 |          `STT_SystemShipNpc`          |     |                                             |                                                                                             |
 |          `STT_SystemShipSys`          |     |                                             |                                                                                             |
 |          `STT_SystemShopInn`          |     |                                             |                                                                                             |
@@ -836,14 +836,14 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |    `STT_System_Facility_ChurchNpc`    |     |                                             |                                                                                             |
 |    `STT_System_Facility_ChurchSys`    |     |                                             |                                                                                             |
 |       `STT_System_ItabaeAlbum`        |     |                                             |                                                                                             |
-|         `STT_System_Location`         |     |                                             |                                                                                             |
+|         `STT_System_Location`         |     |                                             | Map names                                                                                   |
 |       `STT_System_ProfileWord`        |     |                                             |                                                                                             |
 |        `STT_System_Shop_Dougu`        |     |                                             |                                                                                             |
 |      `STT_System_Shop_Dougu_Sys`      |     |                                             |                                                                                             |
 |        `STT_System_Shop_Other`        |     |                                             |                                                                                             |
 |          `STT_System_Skill`           |     | ~50 characters                              |                                                                                             |
-|          `STT_System_Title`           |     |                                             |                                                                                             |
-|            `STT_System_UI`            |     |                                             |                                                                                             |
+|          `STT_System_Title`           |     |                                             | Title screen / Main Menu                                                                    |
+|            `STT_System_UI`            |     |                                             | Main ingame menu                                                                            |
 |       `STT_System_WeaponTypes`        |     |                                             |                                                                                             |
 |         `STT_Sytem_UI_Status`         |     |                                             |                                                                                             |
 |            `STT_TestText`             |     |                                             |                                                                                             |
@@ -1567,7 +1567,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   
   </details>
 
-## Best Practices
+## `Best Practices`
 
 <details>
 
@@ -1692,7 +1692,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |               `<%sEV_LUA_STRING4>`               |                                                                                                                                                                              |                                          |
 |               `<%sEV_LUA_STRING5>`               |                                                                                                                                                                              |                                          |
 |                   `<%sEV_NPC>`                   |                                                                                                                                                                              |                                          |
-|                `<%sEV_NUIGURUMI>`                |                                                                                                                                                                              |                                          |
+|                `<%sEV_NUIGURUMI>`                |                                                                     Quest (222) {Sub Story}, doll's name                                                                     |                                          |
 |                  `<%sEV_ONSEN>`                  |                                                                                                                                                                              |                                          |
 |               `<%sEV_PERSONALITY>`               |                                                                                                                                                                              |                                          |
 |                `<%sEV_QUE_ITEM>`                 |                                                                                                                                                                              |                                          |
@@ -1739,7 +1739,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |                `<%sQUE_IRAISYA>`                 |                                                                                                                                                                              |                                          |
 |               `<%sQUESP_EQUIPSET>`               |                                                                                                                                                                              |                                          |
 |                 `<%sQUESP_JOB>`                  |                                                                                                                                                                              |                                          |
-|               `<%sQUESP_SHIGUSA>`                |                                                                                                                                                                              |                                          |
+|               `<%sQUESP_SHIGUSA>`                |                                                                                    emote                                                                                     |                                          |
 |                 `<%sQUESP_SURA>`                 |                                                                                                                                                                              |                                          |
 |                `<%sQUESP_SYOGOC>`                |                                                                                                                                                                              |                                          |
 |                `<%sQUESP_SYOGOM>`                |                                                                                                                                                                              |                                          |
@@ -1749,8 +1749,8 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |                   `<%sW_MIS>`                    |                                                                                                                                                                              |                                          |
 |                  `<%sW_STAGE>`                   |                                                                                                                                                                              |                                          |
 |                     `<attr>`                     |                                                                                                                                                                              |                                          |
-|                 `<auto_br=5000>`                 |                                                                                                                                                                              |                                          |
-|                 `<auto_bw=????>`                 |                                                                                                                                                                              |                                          |
+|                 `<auto_br=????>`                 |                                                     automatically advances dialog after specified amount of milliseconds                                                     |                                          |
+|                 `<auto_bw=????>`                 |                                                     automatically advances dialog after specified amount of milliseconds                                                     |                                          |
 |                   `<autorun>`                    |                                                                                                                                                                              |                                          |
 |                  `<big_shake>`                   |                                                                                                                                                                              |                                          |
 |                   `<br_break>`                   |                                                                                                                                                                              |                                          |
@@ -1875,7 +1875,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |                   `<pc_race>`                    |                                                                                player's race                                                                                 |                                          |
 |                   `<pc_rel1>`                    |                                                                    player's sibling name/relationship TBD                                                                    |                                          |
 |                   `<pc_rel2>`                    |                                                                    player's sibling name/relationship TBD                                                                    |                                          |
-|                 `<pc_syokugyo>`                  |                                                                                                                                                                              |                                          |
+|                 `<pc_syokugyo>`                  |                                                                                 player's job                                                                                 |                                          |
 |                 `<pc_syokunin>`                  |                                                                                                                                                                              |                                          |
 |                      `<pc>`                      |                                                                                player's name                                                                                 |                                          |
 |                 `<pipipi_high>`                  |                                                                         adjust dialog "typing" sound                                                                         |                                          |
@@ -2059,12 +2059,12 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
     "$comments": "1. ^ third-person « singular « ([auxiliary](present « indicative) + [lexical](past « participle)), 2. ^ third-person « singular « indicative « preterite, 3. ^ definite article (n, neologism)",
     "de": "<pc> hat das Alchemie-Topf (Wichtig) erhalten¹!<me 60>\n<br>\nAußerdem hat <pc> das Rezeptbuch, \"Alchemie für Anfänger\" erhalten¹!<se_nots System Item>\n<br>\n<pc> hat \"Alchemie für Anfänger\" gelesen!\n<br>\n<pc> hat die Rezepte aus \"Alchemie für Anfänger\" gelernt!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
     "en": "<pc> received² the Alchemy Pot (Key Item)!<me 60>\n<br>\nThey also received a recipe book,\"Beginner's Alchemy\"!<se_nots System Item>\n<br>\n<pc> read² \"Beginner's Alchemy\"! <pc>\nlearned the recipes in \"Beginner's Alchemy\"!<se_nots System Item>¹\n<br>\n					The Alchemy Pot is a special tool used to alchemize\nanother item by inserting items as materials.\n<br>\nYou can alchemize items by selecting \"Alchemy Pot\"\nfrom the \"Items\" menu. To alchemize an item, you will\nneed the recipe of said item.\n<br>\nRecipes can be obtained from the Recipe Shop or\nbookshelves.",
-    "es": "<pc> ha recibido¹ le³ Pote de Alquimia!<me 60>\n<br>\nTambién ha recibido¹ el libro de recetas, \"Alquimia para Principiante\"!<se_nots System Item>\n<br>\n<pc> ha leído \"Alquimia para Principiante\"!\n<br>\n<pc> ha aprendido las recetas de \"Alquimia para Principiante\"!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
-    "fr": "<pc> a reçu lea³ Pot d'Alchimie (Objet Important)!<me 60>\n<br>\nEn outre, iel a reçu le livre de recettes, \"L'Alchimie du Débutant\"!<se_nots System Item>\n<br>\n<pc> a lu \"L'Alchimie du Débutant\"!\n<br>\n<pc> a appris les recettes de \"L'Alchimie du Débutant\"!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
-    "it": "<pc> ha ricevuto¹ ???³ Vaso dell'Alchimia (Oggetto Importante)!<me 60>\n<br>\nInoltre, ha ricevuto¹ il libro di ricette, \"Alchimia per Principiante\"!<se_nots System Item>\n<br>\n<pc> ha letto¹ \"Alchimia per Principiante\"!\n<br>\n<pc> ha imparato¹ le ricette di \"Alchimia per Principiante\"!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
+    "es": "<pc> recibió¹ le³ Pote de Alquimia!<me 60>\n<br>\nTambién recibió¹ el libro de recetas, \"Alquimia para Principiante\"!<se_nots System Item>\n<br>\n<pc> ha leído \"Alquimia para Principiante\"!\n<br>\n<pc> ha aprendido las recetas de \"Alquimia para Principiante\"!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
+    "fr": "<pc> reçut lea³ Pot d'Alchimie (Objet Important)!<me 60>\n<br>\nEn outre, iel reçut le livre de recettes, \"L'Alchimie du Débutant\"!<se_nots System Item>\n<br>\n<pc> a lu \"L'Alchimie du Débutant\"!\n<br>\n<pc> a appris les recettes de \"L'Alchimie du Débutant\"!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
+    "it": "<pc> ricevette¹ ???³ Vaso dell'Alchimia (Oggetto Importante)!<me 60>\n<br>\nInoltre, ricevette¹ il libro di ricette, \"Alchimia per Principiante\"!<se_nots System Item>\n<br>\n<pc> ha letto¹ \"Alchimia per Principiante\"!\n<br>\n<pc> ha imparato¹ le ricette di \"Alchimia per Principiante\"!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
     "ja": "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
     "ko": "{pc}|hpp(은,는)\n연금 가마솥(중요한 물건)을\n받았다!<me 60>\n<br>\n추가로 레시피 북\n『시작해 보자 연금술』을\n받았다!<se_nots System Item>\n<br>\n{pc}|hpp(은,는)\n『시작해 보자 연금술』을\n읽었다!\n<br>\n{pc}|hpp(은,는)\n시작해 보자 연금술의\n레시피를 익혔다!<se_nots System Item>\n<br>\n연금 가마솥은 재료가 되는 아이템을\n투입해 다른 아이템을\n만들 수 있는 특별한 도구입니다.\n<br>\n『도구』 커맨드에서\n『연금 가마솥』을 선택하면\n만들 수 있습니다.\n<br>\n만들기 위해서는 해당하는 아이템의 「레시피」가\n필요합니다. 레시피는 레시피 상점이나\n책장 등에서 얻을 수 있습니다.",
-    "pt-BR": "<pc> tem recebido¹ Pote para Alquimia (Objeto Importante)!<me 60>\n<br>\nAlém disso, elu livro de receitas, \"Alquimia para Iniciante\"!<se_nots System Item>\n<br>\n<pc> tem lido¹ ê \"Alquimia para Iniciante\"!\n<br>\n<pc> aprendeu² as receitas da \"Alquimia para Iniciante\"!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
+    "pt-BR": "<pc> recebeu¹ Pote para Alquimia (Objeto Importante)!<me 60>\n<br>\nAlém disso, elu livro de receitas, \"Alquimia para Iniciante\"!<se_nots System Item>\n<br>\n<pc> tem lido¹ ê \"Alquimia para Iniciante\"!\n<br>\n<pc> aprendeu² as receitas da \"Alquimia para Iniciante\"!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
     "zh-Hans": "<pc>收下了\n炼金釜（重要物品）！<me 60>\n<br>\n并且获得了\n配方书《炼金术入门》！<se_nots System Item>\n<br>\n<pc>阅读了\n《炼金术入门》！\n<br>\n<pc>学会了\n炼金术入门的配方！<se_nots System Item>\n<br>\n炼金釜是一种特殊道具，\n将物品丢进去当材料，\n就能炼制出其他物品。\n<br>\n从“道具”指令\n选择“炼金釜”，\n就能开始炼金。\n<br>\n在开始炼金之前，\n必须拥有想制作物品的“配方”。\n配方可以从配方店或书架获得。",
     "zh-Hant": "<pc>收下了\n鍊金鍋（重要物品）！<me 60>\n<br>\n並且獲得了\n配方書《鍊金術入門》！<se_nots System Item>\n<br>\n<pc>閱讀了\n《鍊金術入門》！\n<br>\n<pc>學會了\n鍊金術入門的配方！<se_nots System Item>\n<br>\n鍊金鍋是一種特殊道具，\n將物品丟進去當材料，\n就能鍊製出其他物品。\n<br>\n從「道具」指令\n選擇「鍊金鍋」，\n就能開始鍊金。\n<br>\n在開始鍊金之前，\n必須擁有想製作物品的「配方」。\n配方可以從配方店或書架獲得。"
   }
@@ -2073,7 +2073,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 
 </details>
 
-### Example - Give? Gave! Got!
+### Example - `Give? Gave! Got!`
 
 <details>
 
@@ -2133,15 +2133,46 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "zh-Hant": "<pc>交出了\n閃閃墨水！"
     }
   },
-  // ...
+  // GOT!
+  "eventTextSysBookshelfsServer.win32.json" : {
+    "137127": {
+      "$comments": "🟢; f, m, n (singular/plural). begins with: 1. consonant, 2. vowel, 3. `S` + consonant / `gn, pn, ps, x, y, z`",
+      "de": "<pc> erhielt (die/die, den/die, das/die) <%sEV_ITEM>! <se_nots System Item>",
+      "en": "<pc> obtained the <%sEV_ITEM>! <se_nots System Item>",
+      "es": "<pc> obtuvo (la/las, el/los, le/les) <%sEV_ITEM>! <se_nots System Item>",
+      "fr": "<pc> obtint (la/les, le/les, lea/leas) <%sEV_ITEM>! <se_nots System Item>",
+      "it": "<pc> ottenne ( (la/le, il/i, ???)¹, (l'/le, l'/gli, l'/???)², (la/le, lo/gli, ???)³) <%sEV_ITEM>! <se_nots System Item>",
+   // "ja": "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>",
+      "ko": "{pc}|hpp(은,는)\n{%sEV_ITEM}|hpp(을,를) 손에 넣었다!<se_nots System Item>",
+      "pt-BR": "<pc> obteve (a/as, o/os, e/es) <%sEV_ITEM>! <se_nots System Item>",
+      "zh-Hans": "<pc>获得了\n<%sEV_ITEM>！<se_nots System Item>",
+      "zh-Hant": "<pc>獲得了\n<%sEV_ITEM>！<se_nots System Item>"
+    }
+  },
+  "eventTextIeE2AzurTownServer.win32.json" : {
+    "37197": {
+      "$comments": "🟢; f, m, n (singular/plural). begins with: 1. consonant, 2. vowel, 3. `S` + consonant / `gn, pn, ps, x, y, z`",
+      "de": "<pc> erhielt (die/die, den/die, das/die) <%sEV_ITEM>! <se_nots System Item>",
+      "en": "<pc> received the <%sEV_ITEM>! <se_nots System Item>",
+      "es": "<pc> recibió (la/las, el/los, le/les) <%sEV_ITEM>! <se_nots System Item>",
+      "fr": "<pc> reçut (la/les, le/les, lea/leas) <%sEV_ITEM>! <se_nots System Item>",
+      "it": "<pc> ricevé ( (la/le, il/i, ???)¹, (l'/le, l'/gli, l'/???)², (la/le, lo/gli, ???)³) <%sEV_ITEM>! <se_nots System Item>",
+   // "ja": "<pc>は\n<%sEV_ITEM>を　受け取った！<se_nots System Item>",
+      "ko": "{pc}|hpp(은,는)\n{%sEV_ITEM}|hpp(을,를) 받았다!<se_nots System Item>",
+      "pt-BR": "<pc> recebeu (a/as, o/os, e/es) <%sEV_ITEM>! <se_nots System Item>",
+      "zh-Hans": "<pc>\n收下了<%sEV_ITEM>！<se_nots System Item>",
+      "zh-Hant": "<pc>收下了\n<%sEV_ITEM>！<se_nots System Item>"
+    }
+  },
+  // Monster/<%sEV_QUE_NAME0> dropped the ITEM. GOT!
   "STT_Quest_ItemGet": {
     "SYSTEXT_GetItemText_Comp_*Q_###_#_##_#": {
       "$comments": "Sample, GOT, `<%sEV_QUE_NAME0>` = Monster Name",
       "de": "(Die, Der, Das) <%sEV_QUE_NAME0> hat (den, die, das) ITEM fallen lassen.\n<br>\n{pc} hat (den, die, das) <color_yellow>ITEM<color_white> (Wichtig) bekommen!<se_nots System Item>\n<bw><close>",
       "en": "The <%sEV_QUE_NAME0> dropped the ITEM.\n<br>\n{pc} obtained the <color_yellow>ITEM<color_white> (Key Item)!<se_nots System Item>\n<bw><close>",
-      "es": "(La, El, Le) <%sEV_QUE_NAME0> se le cayó (la, el, le) ITEM.\n<br>\n¡{pc} ha recibido (la, el, le) <color_yellow>ITEM<color_white> (Objeto Importante)!<se_nots System Item>\n<bw><close>",
-      "fr": "(La, Le, Lea/L') <%sEV_QUE_NAME0> a fait tomber (la, le, lea/l')ITEM.\n<br>\n{pc} a reçu (la, le, lea/l')<color_yellow>ITEM<color_white> (Objet Important)!<se_nots System Item>\n<bw><close>",
-      "it": "(La/L', Il/L'/Lo, TBD) <%sEV_QUE_NAME0> ha lasciato cadere (la/l', il/l'/lo, TBD)ITEM.\n<br>\n{pc} ha ricevuto (la/l', il/l'/lo, TBD)<color_yellow>ITEM<color_white> (Oggetto Importante)!<se_nots System Item>\n<bw><close>",
+      "es": "(La, El, Le) <%sEV_QUE_NAME0> se le cayó (la, el, le) ITEM.\n<br>\n¡{pc} obtuvo (la, el, le) <color_yellow>ITEM<color_white> (Objeto Importante)!<se_nots System Item>\n<bw><close>",
+      "fr": "(La, Le, Lea/L') <%sEV_QUE_NAME0> a fait tomber (la, le, lea/l')ITEM.\n<br>\n{pc} obtint (la, le, lea/l')<color_yellow>ITEM<color_white> (Objet Important)!<se_nots System Item>\n<bw><close>",
+      "it": "(La/L', Il/L'/Lo, TBD) <%sEV_QUE_NAME0> ha lasciato cadere (la/l', il/l'/lo, TBD)ITEM.\n<br>\n{pc} ottenne (la/l', il/l'/lo, TBD)<color_yellow>ITEM<color_white> (Oggetto Importante)!<se_nots System Item>\n<bw><close>",
       "ja": "<%sEV_QUE_NAME0>は\nきらめきインクを　落としていった。\n<auto_br=5000>\n{pc}は\nきらめきインク（だいじなもの）を\n手に入れた！<se_nots System Item>\n<auto_bw=5000><close>",
       "ko": "{%sEV_QUE_NAME0}|hpp(은,는)\n반짝반짝 잉크를 떨어뜨리고 갔다.\n<auto_br=5000>\n{pc}|hpp(은,는)\n반짝반짝 잉크(중요한 물건)를\n손에 넣었다!<se_nots System Item>\n<auto_bw=5000><close>",
       "pt-BR": "(A, O, Ê) <%sEV_QUE_NAME0> deixou (a, o, ê) ITEM!\n<br>\n{pc} obteve (a, o, ê) <color_yellow>ITEM<color_white> (Iten Importante)!<se_nots System Item>\n<bw><close>",
@@ -2152,16 +2183,16 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "$comments": "🟢, Quest (001) {Super Useful}, <%sEV_QUE_NAME0> = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_00400`",
       "de": "Der <%sEV_QUE_NAME0> hat die Glitzernde Tinte fallen\nlassen.\n<br>\n{pc} hat die <color_yellow>Glitzernde Tinte<color_white> (Wichtig)\nbekommen!<se_nots System Item>\n<bw><close>",
       "en": "The <%sEV_QUE_NAME0> dropped the Glittering Ink.\n<br>\n{pc} obtained the <color_yellow>Glittering Ink<color_white> (Key Item)!<se_nots System Item>\n<bw><close>",
-      "es": "El <%sEV_QUE_NAME0> se le cayó la Tinta Centelleante.\n<br>\n¡{pc} ha recibido la <color_yellow>Tinta Centelleante<color_white>\n(Objeto Importante)!<se_nots System Item>\n<bw><close>",
-      "fr": "Le <%sEV_QUE_NAME0> a fait tomber l'Encre Scintillante.\n<br>\n{pc} a reçu l'<color_yellow>Encre Scintillante<color_white>\n(Objet Important)!<se_nots System Item>\n<bw><close>",
-      "it": "Il <%sEV_QUE_NAME0> ha lasciato cadere l'Inchiostro Scintillante.\n<br>\n{pc} ha ricevuto l'<color_yellow>Inchiostro Scintillante<color_white>\n(Oggetto Importante)!<se_nots System Item>\n<bw><close>",
+      "es": "El <%sEV_QUE_NAME0> se le cayó la Tinta Centelleante.\n<br>\n¡{pc} obtuvo la <color_yellow>Tinta Centelleante<color_white>\n(Objeto Importante)!<se_nots System Item>\n<bw><close>",
+      "fr": "Le <%sEV_QUE_NAME0> a fait tomber l'Encre Scintillante.\n<br>\n{pc} obtint l'<color_yellow>Encre Scintillante<color_white>\n(Objet Important)!<se_nots System Item>\n<bw><close>",
+      "it": "Il <%sEV_QUE_NAME0> ha lasciato cadere l'Inchiostro Scintillante.\n<br>\n{pc} ottenne l'<color_yellow>Inchiostro Scintillante<color_white>\n(Oggetto Importante)!<se_nots System Item>\n<bw><close>",
       "ja": "<%sEV_QUE_NAME0>は\nきらめきインクを　落としていった。\n<auto_br=5000>\n{pc}は\nきらめきインク（だいじなもの）を\n手に入れた！<se_nots System Item>\n<auto_bw=5000><close>",
       "ko": "{%sEV_QUE_NAME0}|hpp(은,는)\n반짝반짝 잉크를 떨어뜨리고 갔다.\n<auto_br=5000>\n{pc}|hpp(은,는)\n반짝반짝 잉크(중요한 물건)를\n손에 넣었다!<se_nots System Item>\n<auto_bw=5000><close>",
       "pt-BR": "O <%sEV_QUE_NAME0> deixou a Tinta Reluzente!\n<br>\n{pc} obteve a <color_yellow>Tinta Reluzente<color_white> (Iten Importante)!<se_nots System Item>\n<bw><close>",
       "zh-Hans": "<%sEV_QUE_NAME0>掉落了\n闪闪墨水。\n<auto_br=5000>\n{pc}获得了\n闪闪墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>",
       "zh-Hant": "<%sEV_QUE_NAME0>\n掉落了閃閃墨水。\n<auto_br=5000>\n{pc}\n獲得了\n閃閃墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>"
     }
-  }
+  } 
 }
 ```
 

@@ -221,9 +221,9 @@
     "zh-Hant": "<pc>收下了\n<%sEV_ITEM>！<se_nots System Item>"
   },
   "37198": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (065) {Sub Story}",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>I... So that I'll never, ever lose this ring again, I'll take\ncare of it. Thanks, traveler.",
+    "en": "<attr><feel_happy_lv2><end_attr>I... I'll take care that I never, ever lose this ring\nagain. Thanks, traveler.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1809,7 +1809,7 @@
   "60449": {
     "$comments": "🟡, Quest (009) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00369, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_032_1_000]`, YESNO",
     "de": "",
-    "en": "I'm different from my dumb guy older brother, Maetake;\nI'm a cool man who decides on everything with a single\nbash.\n<br>\nI'm about to be 10 years old, and soon I'll decide on\na path for my future as a full-fledged man.\n<br>\nSo, I'd like to meet someone with the most interesting\njob to me, a Ranger.\n<br>\nSay, you're an adventurer, right? Would you change to\nthe Ranger job, and come see me, please? Please grant\nmy wish!",
+    "en": "I'm different from my dumb guy older brother, Maetake;\nI'm a cool man who decides on everything with a single\nbash.\n<br>\nI'm about to be 10 years old, and soon I'll decide on a\npath for my future as a full-fledged man.\n<br>\nSo, I'd like to meet someone with the most interesting\njob to me, a Ranger.\n<br>\nSay, you're an adventurer, right? Would you change to\nthe Ranger job, and come see me, please? Please grant\nmy wish!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1822,7 +1822,7 @@
   "60454": {
     "$comments": "🟡, Quest (009) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00369, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_032_1_000]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Thank yooou! You're a good guy! So then, I'll tell\nyou how to become a ranger.\n<br>\nTo become a ranger, go to the Ranger Association HQ\nin Royal City Kamiharmui, got it.\n<br>\nAnd then, if you pass the ranger exam there, you'll\nofficially be able change to the Ranger job; so\nthere's the plan!\n<br>\nKamiharmui is a bit far, but for an adventurer like\nyou, I'm sure you can make it! I guarantee it!\n<br>\nAlso, in order to take the Ranger exam, you'll need\nto raise the levels of 2 of your other jobs. If I\nremember right, it was Thief and... What was it?\n<br>\n...Well, I'm sure if you go to the Ranger Association HQ,\nyou'll manage it! So then, I'll be waiting for you!",
+    "en": "<attr><feel_happy_lv2><end_attr>Thank yooou! You're a good guy! So then, I'll tell you\nhow to become a Ranger.\n<br>\nTo become a Ranger, go to the Ranger Association HQ\nin Royal City Kamiharmui, got it.\n<br>\nAnd then, if you pass the Ranger exam there, you'll\nofficially be able change to the Ranger job; so there's the\nplan!\n<br>\nKamiharmui is a bit far, but for an adventurer like you,\nI'm sure you can make it! I guarantee it!\n<br>\nAlso, in order to take the Ranger exam, you'll need to\nraise the levels of 2 of your other jobs. If I remember\nright, it was Thief and... What was it?\n<br>\n...Well, I'm sure if you go to the Ranger Association HQ,\nyou'll manage it! So then, I'll be waiting for you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1874,7 +1874,7 @@
   "60461": {
     "$comments": "🟡, Quest (009) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00369, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_032_1_010]`",
     "de": "",
-    "en": "If you become a Ranger and meet with me, it'd be fast,\nright. So then, I'll tell you how to become a ranger.<bw_break>",
+    "en": "If you become a Ranger and meet with me, it'd be fast,\nright. So then, I'll tell you how to become a Ranger.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1887,7 +1887,7 @@
   "60462": {
     "$comments": "🟡, Quest (009) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00369, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_032_1_010]`",
     "de": "",
-    "en": "<close_irai>To become a ranger, go to the Ranger Association HQ\nin Royal City Kamiharmui, got it.\n<br>\nAnd then, if you pass the ranger exam there, you'll\nofficially be able change to the Ranger job; so\nthere's the plan!\n<br>\nKamiharmui is a bit far, but for an adventurer like\nyou, I'm sure you can make it! I guarantee it!\n<br>\nAlso, in order to take the Ranger exam, you'll need\nto raise the levels of 2 of your other jobs. If I\nremember right, it was Thief and... What was it?\n<br>\n...Well, I'm sure if you go to the Ranger Association HQ,\nyou'll manage it! So then, I'll be waiting for you!",
+    "en": "<close_irai>To become a Ranger, go to the Ranger Association HQ\nin Royal City Kamiharmui, got it.\n<br>\nAnd then, if you pass the Ranger exam there, you'll\nofficially be able change to the Ranger job; so there's the\nplan!\n<br>\nKamiharmui is a bit far, but for an adventurer like you,\nI'm sure you can make it! I guarantee it!\n<br>\nAlso, in order to take the Ranger exam, you'll need to\nraise the levels of 2 of your other jobs. If I remember\nright, it was Thief and... What was it?\n<br>\n...Well, I'm sure if you go to the Ranger Association HQ,\nyou'll manage it! So then, I'll be waiting for you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1913,7 +1913,7 @@
   "60474": {
     "$comments": "🟡, Quest (009) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00369, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_032_1_010]`, as Ranger",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>A specalist living amongst nature like that, man,\nthat's cooooool! To think I met a Ranger, I'm so\nthrilled...<bw_break>",
+    "en": "<attr><feel_happy_lv3><end_attr>A specalist living amongst nature like that, man, that's\ncooooool! To think I met a Ranger, I'm so thrilled...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1939,7 +1939,7 @@
   "60478": {
     "$comments": "🟡, Quest (009) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00369, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_032_1_010]`, as Ranger",
     "de": "",
-    "en": "<attr><feel_angry_lv3><end_attr>I'm gonna be a ranger! I felt like it wouldn't be\nfor me, so I was totally nervous!\n<br>\nI definitely got it! I was born to be a Ranger!\nThanks. Because of you, I've made up my mind.\n<br>\nThis is to thank you. It's the best I can do, so\nplease accept it!",
+    "en": "<attr><feel_angry_lv3><end_attr>I'm gonna be a Ranger! I felt like it wouldn't be for me, so\nI was totally nervous!\n<br>\nI definitely got it! I was born to be a Ranger! Thanks.\nBecause of you, I've made up my mind.\n<br>\nThis is to thank you. It's the best I could do, so please\naccept it!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1965,7 +1965,7 @@
   "60480": {
     "$comments": "🟡, Quest (009) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00369, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_032_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I'm gonna be a ranger! I felt like it wouldn't be\nfor me, so I was totally nervous! I definitely got it!\nI was born to be a Ranger!\n<br>\nI owe you for showing me the way. I can't thank you\nenough. Really, thank you!",
+    "en": "<attr><feel_happy_lv1><end_attr>I'm gonna be a Ranger! I felt like it wouldn't be for me, so\nI was totally nervous! I definitely got it! I was born\nto be a Ranger!\n<br>\nI owe you for showing me the way. I can't thank you\nenough. Really, thank you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1978,7 +1978,7 @@
   "113548": {
     "$comments": "🔴, ",
     "de": "",
-    "en": "An? What is it, you? Don't stare at\nme.",
+    "en": "Ah? What is it, you? Don't stare at\nme.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2589,7 +2589,7 @@
   "34116": {
     "$comments": "🔴, ",
     "de": "",
-    "en": "There is a Molinara branch of the\nranger association in the Molinara\nForest northwest of Treeshade Village.\n<br>\nIf you go there, you may be able to\nfind out something about a sparkling\ntree that is said to cure deadly\n<br>\nSpelly Breath.",
+    "en": "There is a Molinara branch of the\nRanger association in the Molinara\nForest northwest of Treeshade Village.\n<br>\nIf you go there, you may be able to\nfind out something about a sparkling\ntree that is said to cure deadly\n<br>\nSpelly Breath.",
     "es": "",
     "fr": "",
     "it": "",

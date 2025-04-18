@@ -1417,9 +1417,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr><icon_exc><turn_pc>怎麼，是你啊……\n<br>\n如果告訴她那機關是我做的，\n她一定會很驚訝。\n哎呀～真想看看她的反應啊。\n<br>\n呵呵呵呵。下次就來跟她聊聊那機關的話題，\n再順水推舟邀她去約會好了。"
   },
   "59210": {
-    "$comments": "🔴",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_000]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Traveler. You know that in this world,\nthere are craftsmen who can make\nweapons and armor with their own hands\n<br>\nand enhance them, don't you? I'm doing\nresearch for a book on artisans, and I\ncame across a wondrous blacksmithing\n<br>\nset. The Wonderful Blacksmithing Set\nis an item that allows anyone to do\nblacksmithing anywhere, something that\n<br>\nmakes craftsmen cry! I sometimes see\ntravelers like you with the Mysterious\nBlacksmithing Set, but it seems that\n<br>\ntheir skill level is too low and they\ndon't seem to be able to use it very\nwell. Is it still not as good as a\n<br>\nprofessional craftsman? No, I mean, do\nyou have the potential to be as good\nas a craftsman? I would like to know\n<br>\nmore about the mysterious\nblacksmithing set! So, I would like to\nask you, if you have the Wonderful\n<br>\nBlacksmithing Set and your\nblacksmithing level is over 30, I\nwould like to interview you!",
+    "en": "<attr><feel_happy_lv1><end_attr>Traveler, in this world are craftsmen who are able to\nmake and reinforce weapons and armor with their own\nhands, you know some, don't you!?\n<br>\nTo tell the truth, I'm gathering material to publish\na book on craftsmen, and... That's how I stumbled upon\nthe existence of the \"Fun-Sized Forge\" set.\n<br>\nThe Fun-Sized Forge set allows anyone, anywhere, to\nset up a forge and get to smithing; it's an item that\ncraftsmen clamour for!\n<br>\nOccasionally, I'll see a traveler like yourself with\na Fun-Sized Forge set, but—how do I put it, uh...\n<br>\nI feel like everyone of them are too low-leveled, and\nthey don't have the skills to use it, y'know.\n<br>\nThere has to be a specialist, doesn't there? I mean\nthere has to be a craftsman who hasn't given up on\nit, right?\n<br>\nSo, I'm asking: if you know anyone off the top with a\nFun-Sized Forge set and a 30+ blacksmithing level, I\nwanna interview them!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1430,9 +1430,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>旅行者，你應該知道這世上\n有著許多能親自製作武器、防具，\n並為其進行強化的工匠吧！\n<br>\n其實，我為了要出版工匠相關的書籍，\n正在收集題材……就在此時，\n我發現了名為神奇鍛造套組的物品。\n<br>\n有了神奇鍛造套組，無論是誰在任何地方\n都能進行鍛造，讓工匠淚流滿面！\n畢竟有了它，工匠就不會有工作上門了。\n<br>\n我偶爾會看到像你一樣\n帶著神奇鍛造套組的旅行者，\n但是該怎麼說……\n<br>\n感覺大家的水準似乎都不夠高，\n用起來不怎麼得心應手。\n<br>\n這樣果然比不過專業工匠嗎？\n不不不，或許還是有贏過工匠的可能性？\n我想要更加深入瞭解神奇鍛造套組！\n<br>\n所以我有個請求，當你有神奇鍛造套組，\n且鍛造等級達到３０以上時，\n請務必讓我採訪你！"
   },
   "59212": {
-    "$comments": "🔴",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_000]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Thank you very much!The existence of\nthe mysterious blacksmithing set\nitself is rare, so there is no one who\n<br>\nwill ask true sword to do it for them.\n<bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr>Thank you very much! Since the existence of the Fun-\nSized Forge set itself is rare, there has to be some-\none who's serious about swords that I can ask, y'know.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1443,9 +1443,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>感激不盡！\n因為神奇鍛造套組本身就是很稀有的物品，\n實在沒幾個人能接受我的委託呢。\n<bw_break>"
   },
   "59213": {
-    "$comments": "🔴",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_000]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Well then, please come back when you\nhave the Wonderful Blacksmithing Set\nand your blacksmithing level is over\n<br>\n30<heart>.",
+    "en": "<attr><feel_happy_one><end_attr>So then, when you obtain the Fun-Sized Forge set and\nhave a level 30+ Blacksmithing level, please come\nback again, okay <heart>.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1456,9 +1456,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>那麼等到你拿到神奇鍛造套組，\n且鍛造等級達到３０以上後，\n請再過來一趟喔<heart>"
   },
   "59216": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_000]`, QUESTS FULL",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Thank you very much! What's that? It\nseems that you have your hands full\nwith other requests, Mr. Traveler.\n<br>\nI'll be waiting here, so please\ncooperate with me again after you\nfinish your other requests.",
+    "en": "<attr><feel_happy_one><end_attr>Thank you very much!... Ah? Traveler, it seems like you\nhave your hands full with other requests, don't you.\n<br>\nI'll be waiting here, so once you've settled your\nother requests, please cooperate with me again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1469,9 +1469,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>感激不盡！\n……咦？不過旅行者你身上好像\n還有很多沒做完的工作呢。\n<br>\n我會在這裡等你的，\n等到你做完手邊的工作後，\n再麻煩你來幫忙吧。"
   },
   "60484": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_000]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>I see. I guess it can't be helped. If\nyou change your mind, please give me a\ncall again.",
+    "en": "<attr><feel_sad_one><end_attr>Is that so... There's no way, is there. If you change your\nmind, please give me a call again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1482,9 +1482,9 @@
     "zh-Hant": "<attr><feel_sad_one><end_attr>這樣啊……那就沒辦法了。\n若是你改變心意，就請再和我說一聲吧。"
   },
   "59217": {
-    "$comments": "🔴",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_005]`",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>To get the research needed to publish\nthe artisan's book, please come with\nyour Wonderful Blacksmithing Set and\n<br>\nbe at blacksmithing level 30 or above.<open_irai><bw_break>",
+    "en": "<attr><feel_happy_one><end_attr>To gather the necessary material to publish my book on\ncraftsmen, please go get anyone you know off the top\nwith a Fun-Sized Forge set and 30+ blacksmithing level.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1495,9 +1495,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>為了出版關於工匠的書籍，我希望能\n向你取材。請你先獲得神奇鍛造套組，\n並讓鍛造等級達到３０以上吧。<open_irai><bw_break>"
   },
   "59218": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_005]`",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>I'm sure you can find a mysterious\nblacksmithing set somewhere on your\ntravels!\n<bw_break>",
+    "en": "<attr><feel_happy_one><end_attr>I'm sure you should get your hands on a Fun-Sized\nForge set somewhere, if you travel...!\n<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1508,9 +1508,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>只要你繼續旅行，我相信就會在\n因緣際會下拿到神奇鍛造套組的……！\n<bw_break>"
   },
   "59219": {
-    "$comments": "🔴",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_005]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr><close_irai>The highest vocation level that a\nplayer can change jobs at will be his\nor her blacksmithing level. So for\n<br>\nnow, if you raise one vocation to\nlevel 30, your blacksmithing level\nwill be 30 as well!<bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr><close_irai>Also, blacksmithing levels are linked to a person's\nhighest job level.\n<br>\nSo, anyways, if someone raises any one of their jobs\nto level 30, their blacksmithing level will be 30 as\nwell!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1521,9 +1521,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr><close_irai>另外，一個人能夠轉職的\n職業當中最高的職業等級，\n就等同於他的鍛造等級喔。\n<br>\n也就是說，\n只要將某個職業的等級提升到３０，\n鍛造等級也會隨之提升到３０喔！<bw_break>"
   },
   "59220": {
-    "$comments": "🔴",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_005]`",
     "de": "",
-    "en": "<attr><feel_normal_one><end_attr>Well then, please come back when you\nhave the Wonderful Blacksmithing Set\nand your blacksmithing level is over\n<br>\n30<heart>.",
+    "en": "<attr><feel_normal_one><end_attr>So then, when you obtain the Fun-Sized Forge set and\nhave a level 30+ Blacksmithing level, please come\nback again, okay <heart>.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1534,9 +1534,9 @@
     "zh-Hant": "<attr><feel_normal_one><end_attr>那麼等到你拿到神奇鍛造套組，\n且鍛造等級達到３０以上後，\n請再過來一趟喔<heart>"
   },
   "59221": {
-    "$comments": "🔴",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_010]`",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>What? You've reached a blacksmithing\nlevel of over 30? I can't believe\nthere really is such a person! Is\n<br>\nthere really any difference between\nyou and ordinary craftsmen? Are there\nany difficulties unique to the\n<br>\nmysterious blacksmithing set? I'll\nbegin my coverage right away!",
+    "en": "<attr><feel_happy_lv2><end_attr>Eh!? You've got a blacksmithing level of over 30!?\n<br>\nNo way, to think there really is such a person...\nI'm impressed!\n<br>\nActually, is there any difference between you and\nordinary craftsmen? Are there any difficulties unique\nto the Fun-Sized Forge set?\n<br>\nI'll take the privilege of gathering material right\naway, okay!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1547,9 +1547,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>咦！？你的鍛造等級\n已經達到３０以上了嗎！？\n<br>\n居然真的有這樣的人存在……\n我真是太感動了！\n<br>\n究竟打造出來的東西跟普通的工匠有什麼差異呢？\n神奇鍛造套組使用起來會什麼特有的難處嗎？\n那就立刻讓我開始採訪吧！"
   },
   "59223": {
-    "$comments": "🔴",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_010]`",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>I heard that the mysterious blacksmith\ncan make not only metal weapons such\nas swords and spears, but also various\n<br>\nkinds of armor and woodwork, which is\nvery convenient, isn't it? The\ncraftsmen in town can only make a\n<br>\nlimited number of items, but to be\nhonest, do you feel a sense of\nsuperiority? Oh, no, no, I know you\n<br>\ndon't feel that way! But you know, you\ncan make anything, right? Well, then,\nmy next question is, I heard that the\n<br>\nquality of items made by Wonder Forge\nvaries depending on the skill level,\netc., but if you not only use them\n<br>\nyourself, but also sell them at a\nstore, they can be sold for a very\nhigh price, right? How much money can\n<br>\nyou make?<bw_break>",
+    "en": "<attr><feel_normal_lv1><end_attr>I hear that the Fun-Sized Forge can not only make\nmetal weapons, like swords, spears, and stuff, but\nalso various kinds of armor and woodwork goods...\n<br>\nThat's super useful, isn't it!\n<br>\nThe craftsmen in town can only make a relatively\nlimited number of items, but, to put it bluntly... Does\nthat give you a sense of superiority or something?\n<br>\nAah, no, no, if you don't wanna respond to that, I get! But, look, you can make anything... Can't you?\n<br>\nEhh, so then, my next question is: it seems like the\nFun-Sized Forge can make things better than they were\nbefore, and yet...\n<br>\nNot only can you use them yourself, but if you sold\nthem to a shop, you could make some beaucoup bucks,\ncouldn't you... Rude to ask, but how much can you profit?<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1560,9 +1560,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>若是透過神奇鍛造，\n不僅是劍或長槍等金屬製的武器，\n還能製作各式各樣的防具與木工製品……\n<br>\n那豈不是超方便的嗎！而且市鎮裡的工匠們，\n能製作的物品種類其實有限。老實說，\n你會不會有種……優越感之類的呢？\n<br>\n啊，不是啦，\n我知道你不是這麼想的！\n但能做出任何東西……不是非常厲害嗎？\n<br>\n呃──下一個問題，\n透過神奇鍛造製造出的物品，它們的品質\n似乎會受到技術之類的因素而變化……\n<br>\n不只能拿來自用，\n拿去賣給店家也能賣到很不錯的價錢呢……\n我就直接問了，到底能賺多少呢？<bw_break>"
   },
   "59232": {
-    "$comments": "🔴",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_010]`",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Ah! I guess this is a little difficult\nquestion to answer! Well, most\ntravelers make these for their own\n<br>\nuse, don't they?",
+    "en": "<attr><feel_normal_lv1><end_attr>...Aah! That question's probably a bit hard to answer,\nisn't it! Well, most travelers use it to make stuff\nfor themselves, don't they!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1572,10 +1572,23 @@
     "zh-Hans": "<attr><feel_normal_lv1><end_attr>……啊啊！这个问题好像不太容易回答呢！\n毕竟大多旅行者都是\n为了自用嘛！",
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>……啊啊！這一題好像不太容易回答呢！\n畢竟大多旅行者都是\n為了自用嘛！"
   },
-  "59234": {
-    "$comments": "🟡, ",
+  "59236": {
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_010]`",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Wow. I was able to hear many valuable\nstories! It was very helpful. This is\nmy thanks for this time.",
+    "en": "The interview with Rerena continued even longer...",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "その後も　レレナのインタビューは続いた……。",
+    "ko": "그 후에도 레레나의 인터뷰는 계속되었다…….",
+    "pt-BR": "",
+    "zh-Hans": "接下来蕾蕾娜的采访还在继续……",
+    "zh-Hant": "之後蕾蕾娜仍持續採訪著……"
+  },
+  "59234": {
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_010]`",
+    "de": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Haa! I was able to hear lots of valuable topics! It\nwas totally informative. This is my thanks for your\ntime.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1586,9 +1599,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哎呀～問到了不少寶貴的資訊呢！\n真的非常有參考價值。\n這是這次的謝禮。"
   },
   "59235": {
-    "$comments": "🔴",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_010]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>At this rate, I think I can write a\nbook that will sell perfectly for\neveryone's enjoyment. Muhu<heart> Thank\n<br>\nyou very much for your support!",
+    "en": "<attr><feel_happy_lv1><end_attr>At this rate, it looks like I'll write the perfectly\npopular book, that everyone will be happy with.\nMwuhaha <heart> Thank you very much for your cooperation!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1598,23 +1611,10 @@
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>只要这样继续下去，就可以写出\n大家喜欢的畅销书了。\n呵呵<heart>谢谢你的帮忙！",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>只要這樣繼續下去，\n應該就能寫出能讓大家都開心的暢銷書了。\n呵呵呵<heart>謝謝你的幫忙！"
   },
-  "59236": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "The interview with Lerena continued.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "その後も　レレナのインタビューは続いた……。",
-    "ko": "그 후에도 레레나의 인터뷰는 계속되었다…….",
-    "pt-BR": "",
-    "zh-Hans": "接下来蕾蕾娜的采访还在继续……",
-    "zh-Hant": "之後蕾蕾娜仍持續採訪著……"
-  },
   "59237": {
-    "$comments": "🔴",
+    "$comments": "🟡, Quest (012) {Sub Story}, see `STT_QuestListDetail.[STT_NpcInfo.NAME_NPC_00374, SYSTEXT_QUESTLIST_NAME_FQ_035_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>In fact, I'm planning to win a fortune\nby writing a winning manual for\ncraftsmen to accept money! I'm also\n<br>\nthinking of including the efficient\nuse of the mysterious blacksmithing\nset in the book based on your\n<br>\ninterviews. I need to interview more\ncraftsmen and travelers for that.\nWell, I'll do my best!",
+    "en": "<attr><feel_happy_one><end_attr>To tell the truth, I'm planning on hitting the lottery\nand making a mountain of money, with this \"Certain\nSuccess for Craftsmen\" book that I'm writing!\n<br>\nShould I include efficient uses for the Fun-Sized\nForge that I got from your interview as a folded\ninsert... I'm thinking so.\n<br>\nTeehee, for that, I'm sure I'll have to interview\nlots of craftsmen and travelers. Well, I'll hang in\nthere <heart>",
     "es": "",
     "fr": "",
     "it": "",
