@@ -1302,7 +1302,7 @@
   "34058": {
     "$comments": "🔴, ",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>I was so surprised! When Fuura-san\ncame riding back on Azlantelope so\nquickly..! We're going to start the\n<br>\nWind Sending Ceremony now! As soon as\nshe said, ''We're going to start the\nWind Sending Ceremony now,'' the\n<br>\npreparations began, and the ceremony\nstarted in a flash! I've never seen\nsuch a rushed wind-sending ceremony in\n<br>\nmy life!",
+    "en": "<attr><feel_happy_lv3><end_attr>I was so surprised! When Fuura-san\ncame riding back on Azlantelope so\nquickly..! We're going to start the\n<br>\nWind Sending Ceremony now! As soon as\nshe said, \"We're going to start the\nWind Sending Ceremony now\", the\n<br>\npreparations began, and the ceremony\nstarted in a flash! I've never seen\nsuch a rushed wind-sending ceremony in\n<br>\nmy life!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3029,9 +3029,9 @@
     "zh-Hant": ""
   },
   "48791": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_000]`",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Oh, no... you've got a visitor!This\nhot fountain is now preparing to open.\nPlease come in when we open!",
+    "en": "<attr><feel_sad_lv1><end_attr>Oh myyy, customer! These hot springs are not yet open\nfor business. When we are, please come in, okay!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3042,9 +3042,9 @@
     "zh-Hant": ""
   },
   "48792": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_000]`",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Oh, no! You have a visitor! There's a\nbig incident at the hot fountain right\nnow, and I can't get in. Sorry.",
+    "en": "<attr><feel_sad_lv1><end_attr>Oh myyy, customer! Right now, there's a serious\nscandal occurring inside the hot springs, so you\ncannot enter. My apologies.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3055,9 +3055,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>哎呀～客人啊！\n現在溫泉裡發生了很嚴重的事件，\n所以沒辦法進去呢，抱歉了。"
   },
   "48793": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_000]`",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>This is the town's new famous attraction,\nthe Azlan Hot Springs!\n<br>\nAlthough we're still in the process of opening,\nthe reservation list for special guests is\nalready packed.<bw_break>",
+    "en": "<attr><feel_happy_one><end_attr>This is the town's new famous attraction, the Azlan Hot\nSprings!\n<br>\nRight now, although we're still in the process of\nopening, the reservation list for special guests is already\npacked.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3068,9 +3068,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>這裡是這座市鎮的新特色景點──安須嵐溫泉喔！\n雖然現在還在開業的準備階段，\n但已經有許多特邀嘉賓了。<bw_break>"
   },
   "48794": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_000]`",
     "de": "",
-    "en": "<if_woman><attr><feel_sad_lv1><end_attr>But, you see... There's been a terrible incident.\nOpening up for business is simply out of the\nquestion!\n<br>\nWell, to tell you the truth, the hot water outlet\nin the men's bath is too clogged to let out any\nhot water.\n<br>\nCustomers will undoubtedly catch a cold.<else><attr><feel_sad_lv1><end_attr>But, you see... There's been a terrible incident.\nOpening up for business is simply out of the\nquestion!\n<br>\nWell, to tell you the truth, the hot water outlet\nin the women's bath is too clogged to let out any\nhot water.\n<br>\nCustomers will undoubtedly catch a cold.<endif>",
+    "en": "<if_woman><attr><feel_sad_lv1><end_attr>But, you see... There's been a terrible incident.\nOpening up for business is simply out of the question!\n<br>\nWell, to tell you the truth, the hot water outlet in the\nmen's bath is too clogged to let out any hot water.\n<br>\nCustomers will undoubtedly catch a cold.<else><attr><feel_sad_lv1><end_attr>But, you see... There's been a terrible incident.\nOpening up for business is simply out of the question!\n<br>\nWell, to tell you the truth, the hot water outlet in the\nwomen's bath is too clogged to let out any hot water.\n<br>\nCustomers will undoubtedly catch a cold.<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3081,9 +3081,9 @@
     "zh-Hant": "<if_woman><attr><feel_sad_lv1><end_attr>然而……發生了一起嚴重的事件。\n根本顧不上開店了！\n<br>\n其實男性浴池的熱水出口堵塞了，\n熱水根本就流不出來，\n害得裡面的客人都快感冒了呢。<else><attr><feel_sad_lv1><end_attr>然而……發生了一起嚴重的事件。\n根本顧不上開店了！\n<br>\n其實女性浴池的熱水出口堵塞了，\n熱水根本就流不出來，\n害得裡面的客人都快感冒了呢。<endif>"
   },
   "48795": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_000]`, YESNO",
     "de": "",
-    "en": "<if_woman><attr><icon_exc><feel_happy_lv3><end_attr>Oh my! You... You're not just an person, are you?\nDespite being a skilled traveler, I feel you have\nthe look of a cleaning master!\n<br>\nI hate to ask a young girl like yourself, but I\ncan't bring myself to do it...\n<br>\nWould you mind going into the men's bath and\ncleaning the clog in the hot water outlet?<else><attr><icon_exc><feel_happy_lv3><end_attr>Oh my! You... You're not just an person, are you?\nDespite being a skilled traveler, I feel you have\nthe look of a cleaning master!\n<br>\nI hate to ask a young man like yourself, but I\ncan't bring myself to do it...\n<br>\nWould you mind going into the women's bath and\ncleaning the clog in the hot water outlet?<endif>",
+    "en": "<if_woman><attr><icon_exc><feel_happy_lv3><end_attr>Oh myyy! You... You're not just an person, are you?\nDespite being a skilled traveler, I feel you have the look\nof a cleaning master!\n<br>\nI hate to ask a young girl like yourself, but I can't bring\nmyself to do it...\n<br>\nWould you mind going into the men's bath and cleaning\nthe clog in the hot water outlet?<else><attr><icon_exc><feel_happy_lv3><end_attr>Oh myyy! You... You're not just an person, are you?\nDespite being a skilled traveler, I feel you have the look\nof a cleaning master!\n<br>\nI hate to ask a young man like yourself, but I can't bring\nmyself to do it...\n<br>\nWould you mind going into the women's bath and\ncleaning the clog in the hot water outlet?<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3094,9 +3094,9 @@
     "zh-Hant": "<if_woman><attr><icon_exc><feel_happy_lv3><end_attr>哎呀～！看來……你不是個簡單人物呢。\n應該是個實力堅強的旅行者，\n但同時也有著清潔專家的的風範！\n<br>\n雖然要拜託你這樣的年輕女孩有點過意不去，\n但你能不能進去男性浴池，\n幫我清理一下堵塞的熱水出口呢？<else><attr><icon_exc><feel_happy_lv3><end_attr>哎呀～！看來……你不是個簡單人物呢。\n應該是個實力堅強的旅行者，\n但同時也有著清潔專家的的風範！\n<br>\n雖然要拜託你這樣的年輕男孩有點過意不去，\n但你能不能進去女性浴池，\n幫我清理一下堵塞的熱水出口呢？<endif>"
   },
   "48796": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_06500, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]`, YES",
     "de": "",
-    "en": "<if_woman><attr><feel_happy_lv3><end_attr>Really!? I'm saved, you know.\nWell, let's get going quick and get some\ncleaning supplies.\n<br>\nEast of Kamiharumui Territory South,\n<%sEV_QUE_NAME0>, which only appear during the night,\ndrop something called a ''Cleaning Rod''.\n<br>\nIf you have that, it should completely clean out\nthe clogged hot water outlet in the men's bath!\nI'm counting on you, Cleaning Master!<else><attr><feel_happy_lv3><end_attr>Really!? I'm saved, you know.\nWell, let's get going quick and get some\ncleaning supplies.\n<br>\nEast of Kamiharumui Territory South,\n<%sEV_QUE_NAME0>, which only appear during the night,\ndrop something called a ''Cleaning Rod''.\n<br>\nIf you have that, it should completely clean out\nthe clogged hot water outlet in the women's bath!\nI'm counting on you, Cleaning Master!<endif>",
+    "en": "<if_woman><attr><feel_happy_lv3><end_attr>Really!? I'm saved, aren't I. Well, let's get going\nquick and get some cleaning supplies.\n<br>\nEast of Kamiharumui Territory South, <color_red><%sEV_QUE_NAME0>s<color_white>,\nwhich only appear during the night, drop something\ncalled a \"<color_yellow>Cleaning Rod<color_white>\".\n<br>\nIf you have that, it should completely clean out the\nclogged hot water outlet in the men's bath!\nI'm counting on you, Cleaning Master!<else><attr><feel_happy_lv3><end_attr>Really!? I'm saved, aren't I. Well, let's get going\nquick and get some cleaning supplies.\n<br>\nEast of Kamiharumui Territory South, <color_red><%sEV_QUE_NAME0>s<color_white>,\nwhich only appear during the night, drop something\ncalled a \"<color_yellow>Cleaning Rod<color_white>\".\n<br>\nIf you have that, it should completely clean out the\nclogged hot water outlet in the women's bath!\nI'm counting on you, Cleaning Master!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3107,9 +3107,9 @@
     "zh-Hant": "<if_woman><attr><feel_happy_lv3><end_attr>真的嗎！？真是幫大忙了。\n那就趕緊去準備清掃工具吧。\n<br>\n在卡密哈爾姆領土南部東側，\n有個只會在晚上出現的怪物<%sEV_QUE_NAME0>，\n牠會掉落叫做掃除棒的東西。\n<br>\n如果有那個的話，\n就能輕鬆地清理乾淨男性浴池堵塞的熱水出口！\n拜託你囉，清潔專家～！<else><attr><feel_happy_lv3><end_attr>真的嗎！？真是幫大忙了。\n那就趕緊去準備清掃工具吧。\n<br>\n在卡密哈爾姆領土南部東側，\n有個只會在晚上出現的怪物<%sEV_QUE_NAME0>，\n牠會掉落叫做掃除棒的東西。\n<br>\n如果有那個的話，\n就能輕鬆地清理乾淨女性浴池堵塞的熱水出口！\n拜託你囉，清潔專家～！<endif>"
   },
   "48797": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_000]`, QUESTS FULL",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>Oh my! You... You seem to be taking on too\nmany requests, don't you think?\n<br>\nI'll ask you to take care of those requests\nbefore this one.",
+    "en": "<attr><feel_think_lv2><end_attr>Oh myyy! You... You seem to be taking on too\nmany requests, don't you think?\n<br>\nI'll ask you to take care of those requests\nbefore this one.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3120,9 +3120,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>哎呀～看來……\n你接受太多的委託了，對吧？\n等那些委託處理完後，這裡也要請你幫忙。"
   },
   "49789": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_000]`, NO",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>...You won't do it? I don't think there is another\ncleaning master like you, so that's\ndisappointing, you know.",
+    "en": "<attr><feel_think_lv2><end_attr>...You won't do it? I don't think there is another cleaning\nmaster like you, so that's disappointing, y'know.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3133,9 +3133,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>……你不願意幫忙嗎？\n像你這樣的清潔專家，\n應該找不到第二個了，真是遺憾。"
   },
   "48798": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_06500, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Oh my, Cleaning Master!\nHave you prepared your cleaning supplies?\n<br>\nEast of Kamiharumui Territory South,\n<%sEV_QUE_NAME0>, which only appear during the night,\ndrop something called a ''Cleaning Rod''.<open_irai><bw_break>",
+    "en": "<attr><feel_happy_lv2><end_attr>Oh myyy, Cleaning Master! Have you prepared your\ncleaning supplies?\n<br>\nEast of Kamiharumui Territory South, <color_red><%sEV_QUE_NAME0>s<color_white>,\nwhich only appear during the night, drop something\ncalled a \"<color_yellow>Cleaning Rod<color_white>\".<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3146,9 +3146,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哎呀～是清潔專家啊！\n清掃工具已經準備好了嗎？\n<br>\n在卡密哈爾姆領土南部東側，\n有個只會在晚上出現的怪物<%sEV_QUE_NAME0>，\n牠會掉落叫做掃除棒的東西喔。<open_irai><bw_break>"
   },
   "48799": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_010]",
     "de": "",
-    "en": "<if_woman><attr><feel_happy_lv2><end_attr>If you have that, it should completely clean out\nthe clogged hot water outlet in the women's bath!<close_irai><else><attr><feel_happy_lv2><end_attr>If you have that, it should completely clean out\nthe clogged hot water outlet in the women's bath!<close_irai><endif>",
+    "en": "<if_woman><attr><feel_happy_lv2><end_attr>If you have that, it should completely clean out the\nclogged hot water outlet in the men's bath!<close_irai><else><attr><feel_happy_lv2><end_attr>If you have that, it should completely clean out the\nclogged hot water outlet in the women's bath!<close_irai><endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3159,9 +3159,9 @@
     "zh-Hant": "<if_woman><attr><feel_happy_lv2><end_attr>如果有那個的話，\n就能輕鬆地清理乾淨男性浴池堵塞的熱水出口！<close_irai><else><attr><feel_happy_lv2><end_attr>如果有那個的話，\n就能輕鬆地清理乾淨女性浴池堵塞的熱水出口！<close_irai><endif>"
   },
   "48800": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_010, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>Anreama~ Soji-no-master-san!If you\ndon't have a Cleaning Rod, you can't\nput it in the hot fountain.",
+    "en": "<attr><feel_think_lv2><end_attr>Oh myyy, Cleaning Master! Without the Cleaning Rod,\nI cannot allow you into the hot springs.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3171,49 +3171,10 @@
     "zh-Hans": "<attr><feel_think_lv2><end_attr>哎呀呀～是扫除行家啊！\n如果你没带扫除棒来的话\n可不能让你进温泉里哦。",
     "zh-Hant": "<attr><feel_think_lv2><end_attr>哎呀～是清潔專家啊！\n如果你沒有掃除棒的話，\n沒辦法讓你進溫泉呢。"
   },
-  "49790": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<attr><pipipi_low><end_attr>H-hey. Isn't that a girl?",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><pipipi_low><end_attr>「な…なあ。あれ　女の子だろ？",
-    "ko": "<attr><pipipi_low><end_attr>: 저…저기 좀 봐. 저거 여자 아냐?",
-    "pt-BR": "",
-    "zh-Hans": "<attr><pipipi_low><end_attr>呐……那是女孩子吧？",
-    "zh-Hant": "<attr><pipipi_low><end_attr>喂……那是女孩子吧？"
-  },
-  "49791": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<attr><pipipi_low><end_attr>B-bufough! Maybe she...\nWants to go into the men's bath with us?",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><pipipi_low><end_attr>「ブ…ブフォウッ！\n　もしかして　あのコ……　オレらと一緒に\n　この男湯に　入りたいとでもいうのかあ？",
-    "ko": "<attr><pipipi_low><end_attr>: 커…커허헉!\n　혹시 저 애…… 우리랑 같이\n　남탕에서 목욕을 하겠단 거야?",
-    "pt-BR": "",
-    "zh-Hans": "<attr><pipipi_low><end_attr>呜……呜哇！\n莫非那个女孩……\n要跟我们一起进男浴池？",
-    "zh-Hant": "<attr><pipipi_low><end_attr>嗚……嗚哇！\n難不成那女孩……\n要和我們一起進男性浴池嗎？"
-  },
-  "49792": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<attr><pipipi_low><end_attr>No, no, wait, wait. Maybe they're...\nThe cleaning person, don't you think?",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><pipipi_low><end_attr>「いやいや　待て待て。\n　あれは　もしかすると……\n　そうじの人では　ないだろうか？",
-    "ko": "<attr><pipipi_low><end_attr>: 아니, 잠깐.\n　저 사람은 혹시……\n　청소하러 온 사람 아냐?",
-    "pt-BR": "",
-    "zh-Hans": "<attr><pipipi_low><end_attr>啊等一下，\n她说不定是……\n扫除的人？",
-    "zh-Hant": "<attr><pipipi_low><end_attr>不，等一下。\n那位說不定是……\n清潔人員？"
-  },
   "48801": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], YESNO",
     "de": "",
-    "en": "<if_woman> <attr><feel_happy_lv2><end_attr>Oh my! You already obtained the Cleaning Rod.\nJust as I'd expect of the Cleaning Master, you know!\n<br>\nNow then, will you hurry and clean the men's bath?<yesno><break><else><attr><feel_happy_lv2><end_attr>Oh my! You already obtained the Cleaning Rod.\nJust as I'd expect of the Cleaning Master, you know!\n<br>\nNow then, will you hurry and clean the women's bath?<yesno><break><endif>",
+    "en": "<if_woman><attr><feel_happy_lv2><end_attr>Oh myyy! You already obtained the Cleaning Rod.\nJust as I'd expect of the Cleaning Master, you know!\n<br>\nNow then, will you hurry and clean the men's bath?<yesno><break><else><attr><feel_happy_lv2><end_attr>Oh myyy! You already obtained the Cleaning Rod.\nJust as I'd expect of the Cleaning Master, you know!\n<br>\nNow then, will you hurry and clean the women's bath?<yesno><break><endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3224,7 +3185,7 @@
     "zh-Hant": "<if_woman><attr><feel_happy_lv2><end_attr>哎呀～！\n你已經獲得掃除棒了啊，\n真不愧是清潔專家呢！\n<br>\n那能請你趕緊幫我打掃男性浴池嗎？<yesno><break><else><attr><feel_happy_lv2><end_attr>哎呀～！\n你已經獲得掃除棒了啊，\n真不愧是清潔專家呢！\n<br>\n那能請你趕緊幫我打掃女性浴池嗎？<yesno><break><endif>"
   },
   "48802": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], NO",
     "de": "",
     "en": "<attr><feel_think_one><end_attr>Whaaaat... It's hopeless, isn't it;\nCustomers will undoubtedly catch a cold.",
     "es": "",
@@ -3237,9 +3198,9 @@
     "zh-Hant": "<attr><feel_think_one><end_attr>哎呀呀呀……\n真是困擾呢，客人們會感冒的。"
   },
   "48803": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], YES",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Thanks, you know! Use the Cleaning Rod to\nclean out the clog in the hot water outlet!\n<br>\nAh, that's right. It would be a disaster if\nhot water gets into your eyes. Put on\nthese cleaning glasses.<bw_break>",
+    "en": "<attr><feel_happy_lv3><end_attr>Thanks, you know! Use the Cleaning Rod to clean out\nthe clog in the hot water outlet!\n<br>\nAh, that's right. It would be a disaster if hot water gets\ninto your eyes. Put on these cleaning glasses.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3250,9 +3211,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>謝謝你！\n請用掃除棒將熱水出口的堵塞物清理乾淨吧！\n<br>\n啊，對了，要是熱水噴到眼睛的話就糟糕了，\n戴上這副掃除眼鏡再去吧。<bw_break>"
   },
   "48804": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], YES cont'd",
     "de": "",
-    "en": "<if_woman> <attr><feel_happy_lv2><end_attr>Well then, good luck with that.\nIt's a men's bath, so don't stare too much\nat the customers!<else><attr><feel_happy_lv2><end_attr>Well then, good luck with that.\nIt's a women's bath, so don't stare too much\nat the customers!<endif>",
+    "en": "<if_woman><attr><feel_happy_lv2><end_attr>So then, good luck with that. It's a men's bath, so\ndon't stare too much at the customers!<else><attr><feel_happy_lv2><end_attr>So then, good luck with that. It's a women's bath, so\ndon't stare too much at the customers!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3262,49 +3223,10 @@
     "zh-Hans": "<if_woman><attr><feel_happy_lv2><end_attr>那就拜托你了哦。\n毕竟是男浴池，\n所以不要盯着客人看哦！<else><attr><feel_happy_lv2><end_attr>那就拜托你了哦。\n毕竟是女浴池，\n所以不要盯着客人看哦！<endif>",
     "zh-Hant": "<if_woman><attr><feel_happy_lv2><end_attr>那就拜託你了，\n畢竟那裡是男性浴池，\n所以不要一直盯著客人看喔！<else><attr><feel_happy_lv2><end_attr>那就拜託你了，\n畢竟那裡是女性浴池，\n所以不要一直盯著客人看喔！<endif>"
   },
-  "48805": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Oh my! Just as I expected, you know.\nThe hot water came out perfectly.\n<br>\nWith that, the Hot Springs are officially opening!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv3><end_attr>「あんれま～！　さすがねぇ。\n　お湯が　バッチリ出るようになったわぁ。\n　それじゃ　温泉を　正式に開店するよぉ！",
-    "ko": "<attr><feel_happy_lv3><end_attr>: 아앗~! 믿고 맡기길 잘했어.\n　온천수가 콸콸 나오는구만.\n　그럼 온천을 정식으로 오픈해야겠네!",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv3><end_attr>哎呀呀～真厉害啊。\n现在热水能顺畅地流出来了。\n这样温泉就可以正式开业了！",
-    "zh-Hant": "<attr><feel_happy_lv3><end_attr>哎呀～！太厲害了。\n熱水順利地流出來了呢，\n這樣溫泉就可以正式開業了！"
-  },
-  "48806": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Oh my! Just as I expected, you know.\nThe hot water came out perfectly.\n<br>\nIt's not much, but please take it as thanks.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv3><end_attr>「あんれま～！　さすがねぇ。\n　お湯が　バッチリ出るようになったわぁ。\n　ささやかだけど　お礼に　受け取っておくれよ。",
-    "ko": "",
-    "pt-BR": "",
-    "zh-Hans": "",
-    "zh-Hant": ""
-  },
-  "48807": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Thanks to you, the Azlan Hot Springs will be\nsuccessful. I'll take that Cleaning Rod and\nuse it for cleaning too.\n<br>\nCleaning Master... I mean, <pc>.\nYou wouldn't mind warming up too, would you?\n<br>\nThe fee is 50G per bath, and when you soak\nin the hot water, your HP will keep\nrecovering for a certain period of time!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv2><end_attr>「あんたのおかげで　アズラン温泉は\n　無事に　営業していけそうだよぉ。\n　おそうじぼうも　そうじに使わせてもらうね。\n<br>\n「そうじの達人……<pc>っていうの。\n　あんたも　あったまっていかないかい？\n<br>\n「入湯料は　１回　５０ゴールドで\n　お湯につかると　一定時間\n　ＨＰが回復しつづける　効能があるよぉ！",
-    "ko": "<attr><feel_happy_lv2><end_attr>: 당신 덕에 아즐란 온천은\n　무사히 영업할 수 있게 됐어.\n　청소봉도 앞으로 청소에 사용할게.\n<br>\n: 청소의 달인…… {pc}|hpp(이라,라) 했지?\n　당신도 온천에 들어갔다 오지 않을래?\n<br>\n: 입장료는 1회에 50골드고\n　온천수에 몸을 담그면 일정 시간 동안\n　HP가 지속적으로 회복되는 효과가 있어!",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv2><end_attr>多亏了你，安须岚温泉\n可以顺利开业了。\n扫除棒我也留着用来打扫了。\n<br>\n扫除行家……叫<pc>是吧。\n你要不要也泡一泡温泉？\n<br>\n入浴费一次是５０Ｇ，\n泡在温泉水里的话，\n一定时间内ＨＰ就会持续恢复哦！",
-    "zh-Hant": "<attr><feel_happy_lv2><end_attr>多虧有你幫忙，\n安須嵐溫泉可以順利營業了。\n掃除棒也留著用來打掃了。\n<br>\n清潔專家……也就是<pc>，\n你要不要也泡個溫泉呢？\n<br>\n入浴費一次是５０Ｇ，\n泡了溫泉後，會獲得在一段時間內\n持續恢復ＨＰ的功效喔！"
-  },
   "48808": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Oh, my~ cleaning master! If you got\nthe Cleaning Rod, show it to Auntie!",
+    "en": "<attr><feel_happy_lv2><end_attr>Oh, myyy, Cleaning Master! If you've obtained the\nCleaning Rod, please show it to Auntie!",
     "es": "",
     "fr": "",
     "it": "",
@@ -3315,9 +3237,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哎呀～是清潔專家啊！\n如果找到掃除棒的話，\n要拿給阿姨看看喔！"
   },
   "48816": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]",
     "de": "",
-    "en": "<if_woman><pc> put on their cleaning glasses and,\nwith Cleaning Rod in hand, opened the door\nto the men's bath!<se_nots map_common Door_wdS_s_op><else><pc> put on their cleaning glasses and,\nwith Cleaning Rod in hand, opened the door\nto the women's bath!<se_nots map_common Door_wdS_s_op><endif>",
+    "en": "<if_woman><pc> put on their cleaning glasses and, with the\nCleaning Rod in hand, opened the door to the men's\nbath!<se_nots map_common Door_wdS_s_op><else><pc> put on their cleaning glasses and, with the\nCleaning Rod in hand, opened the door to the women's\nbath!<se_nots map_common Door_wdS_s_op><endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3328,9 +3250,9 @@
     "zh-Hant": "<if_woman><pc>戴上了掃除眼鏡，\n拿著掃除棒打開了男性浴池的門！<se_nots joutyu tag_Door_wdS_s_op><else><pc>戴上了掃除眼鏡，\n拿著掃除棒打開了女性浴池的門！<se_nots joutyu tag_Door_wdS_s_op><endif>"
   },
   "48817": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]",
     "de": "",
-    "en": "The steam fogged my glasses up!<se_nots joutyu kapoon>",
+    "en": "What the—the steam fogged up their glasses!<se_nots joutyu kapoon>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3340,34 +3262,47 @@
     "zh-Hans": "热气覆在护镜上，\n镜片被雾气染成了一片白色！<se_nots joutyu kapoon>",
     "zh-Hant": "沒想到蒸氣使得眼鏡起霧了，\n眼前一片模糊！<se_nots joutyu kapoon>"
   },
-  "48818": {
-    "$comments": "🔴, ",
+  "49790": {
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], mens' hot springs",
     "de": "",
-    "en": "<if_woman><pc> fumbled their way through\nthe men's baths.<else><pc> fumbled their way through\nthe women's bath.<endif>",
+    "en": "<attr><pipipi_low><end_attr>H-hey. Isn't that a girl?",
     "es": "",
     "fr": "",
     "it": "",
-    "ja": "<if_woman><pc>は　手探りで\n男湯の中を　歩いていった。<else><pc>は　手探りで\n女湯の中を　歩いていった。<endif>",
-    "ko": "<if_woman>{pc}|hpp(은,는) 대충 감으로\n남탕 안을 걸어갔다.<else>{pc}|hpp(은,는) 대충 감으로\n여탕 안을 걸어갔다.<endif>",
+    "ja": "<attr><pipipi_low><end_attr>「な…なあ。あれ　女の子だろ？",
+    "ko": "<attr><pipipi_low><end_attr>: 저…저기 좀 봐. 저거 여자 아냐?",
     "pt-BR": "",
-    "zh-Hans": "<if_woman><pc>摸索着\n在男浴池前进。<else><pc>摸索着\n在女浴池前进。<endif>",
-    "zh-Hant": "<if_woman><pc>在男性浴池中摸索前進。<else><pc>在女性浴池中摸索前進。<endif>"
+    "zh-Hans": "<attr><pipipi_low><end_attr>呐……那是女孩子吧？",
+    "zh-Hant": "<attr><pipipi_low><end_attr>喂……那是女孩子吧？"
   },
-  "48819": {
-    "$comments": "🔴, ",
+  "49791": {
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], mens' hot springs",
     "de": "",
-    "en": "<pc> used the Cleaning Rod to\nunclog the hot water outlet!<se_nots joutyu mizuganagareru>",
+    "en": "<attr><pipipi_low><end_attr>B-bufough! Maybe she... Wants to go into the men's bath\nwith us?",
     "es": "",
     "fr": "",
     "it": "",
-    "ja": "<pc>は　おそうじぼうで\nお湯の出口の詰まりを　直した！<se_nots joutyu mizuganagareru>",
-    "ko": "{pc}|hpp(은,는) 청소봉으로\n막힌 온천수 출구를 뚫었다!<se_nots joutyu mizuganagareru>",
+    "ja": "<attr><pipipi_low><end_attr>「ブ…ブフォウッ！\n　もしかして　あのコ……　オレらと一緒に\n　この男湯に　入りたいとでもいうのかあ？",
+    "ko": "<attr><pipipi_low><end_attr>: 커…커허헉!\n　혹시 저 애…… 우리랑 같이\n　남탕에서 목욕을 하겠단 거야?",
     "pt-BR": "",
-    "zh-Hans": "<pc>使用扫除棒\n将堵塞的出水口清理好了！<se_nots joutyu mizuganagareru>",
-    "zh-Hant": "<pc>用掃除棒將堵塞的熱水口清理乾淨了！<se_nots joutyu mizuganagareru>"
+    "zh-Hans": "<attr><pipipi_low><end_attr>呜……呜哇！\n莫非那个女孩……\n要跟我们一起进男浴池？",
+    "zh-Hant": "<attr><pipipi_low><end_attr>嗚……嗚哇！\n難不成那女孩……\n要和我們一起進男性浴池嗎？"
+  },
+  "49792": {
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], mens' hot springs",
+    "de": "",
+    "en": "<attr><pipipi_low><end_attr>No, no, wait, wait. Maybe they're... The cleaning\nperson, don't you think?",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><pipipi_low><end_attr>「いやいや　待て待て。\n　あれは　もしかすると……\n　そうじの人では　ないだろうか？",
+    "ko": "<attr><pipipi_low><end_attr>: 아니, 잠깐.\n　저 사람은 혹시……\n　청소하러 온 사람 아냐?",
+    "pt-BR": "",
+    "zh-Hans": "<attr><pipipi_low><end_attr>啊等一下，\n她说不定是……\n扫除的人？",
+    "zh-Hant": "<attr><pipipi_low><end_attr>不，等一下。\n那位說不定是……\n清潔人員？"
   },
   "49793": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], womens' hot springs",
     "de": "",
     "en": "<attr><pipipi_high><end_attr>H-hey. Isn't that a guy?",
     "es": "",
@@ -3380,7 +3315,7 @@
     "zh-Hant": "<attr><pipipi_high><end_attr>喂……那是男人吧？"
   },
   "49794": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], womens' hot springs",
     "de": "",
     "en": "<attr><pipipi_high><end_attr>...He's holding some kind of spiky stick.\nEh? Are you the cleaning person...?",
     "es": "",
@@ -3393,7 +3328,7 @@
     "zh-Hant": "<attr><pipipi_high><end_attr>……好像拿著一根帶刺的棒子。\n咦？是清潔人員嗎……？"
   },
   "49795": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], womens' hot springs",
     "de": "",
     "en": "<attr><pipipi_high><end_attr>If so, surely you shouldn't have any creepy ideas.\n...Right? Probably...",
     "es": "",
@@ -3404,6 +3339,71 @@
     "pt-BR": "",
     "zh-Hans": "<attr><pipipi_high><end_attr>那肯定没有什么\n邪念……吧？大概……",
     "zh-Hant": "<attr><pipipi_high><end_attr>那應該不會有什麼下流的想法吧……\n應該不會吧……？"
+  },
+  "48818": {
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]",
+    "de": "",
+    "en": "<if_woman><pc> fumbled their way through the men's\nhot springs.<else><pc> fumbled their way through the women's\nhot springs.<endif>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<if_woman><pc>は　手探りで\n男湯の中を　歩いていった。<else><pc>は　手探りで\n女湯の中を　歩いていった。<endif>",
+    "ko": "<if_woman>{pc}|hpp(은,는) 대충 감으로\n남탕 안을 걸어갔다.<else>{pc}|hpp(은,는) 대충 감으로\n여탕 안을 걸어갔다.<endif>",
+    "pt-BR": "",
+    "zh-Hans": "<if_woman><pc>摸索着\n在男浴池前进。<else><pc>摸索着\n在女浴池前进。<endif>",
+    "zh-Hant": "<if_woman><pc>在男性浴池中摸索前進。<else><pc>在女性浴池中摸索前進。<endif>"
+  },
+  "48819": {
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]",
+    "de": "",
+    "en": "<pc> used the Cleaning Rod to unclog the hot\nwater outlet!<se_nots joutyu mizuganagareru>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<pc>は　おそうじぼうで\nお湯の出口の詰まりを　直した！<se_nots joutyu mizuganagareru>",
+    "ko": "{pc}|hpp(은,는) 청소봉으로\n막힌 온천수 출구를 뚫었다!<se_nots joutyu mizuganagareru>",
+    "pt-BR": "",
+    "zh-Hans": "<pc>使用扫除棒\n将堵塞的出水口清理好了！<se_nots joutyu mizuganagareru>",
+    "zh-Hant": "<pc>用掃除棒將堵塞的熱水口清理乾淨了！<se_nots joutyu mizuganagareru>"
+  },
+  "48805": {
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020]",
+    "de": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Oh myyy! Just as I expected, you know. The hot water\ncame out perfectly.\n<br>\nWith that, the Hot Springs are officially opening!",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv3><end_attr>「あんれま～！　さすがねぇ。\n　お湯が　バッチリ出るようになったわぁ。\n　それじゃ　温泉を　正式に開店するよぉ！",
+    "ko": "<attr><feel_happy_lv3><end_attr>: 아앗~! 믿고 맡기길 잘했어.\n　온천수가 콸콸 나오는구만.\n　그럼 온천을 정식으로 오픈해야겠네!",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv3><end_attr>哎呀呀～真厉害啊。\n现在热水能顺畅地流出来了。\n这样温泉就可以正式开业了！",
+    "zh-Hant": "<attr><feel_happy_lv3><end_attr>哎呀～！太厲害了。\n熱水順利地流出來了呢，\n這樣溫泉就可以正式開業了！"
+  },
+  "48806": {
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020]",
+    "de": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Oh myyy! Just as I expected, you know.\nThe hot water came out perfectly.\n<br>\nIt's not much, but please take it as thanks.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv3><end_attr>「あんれま～！　さすがねぇ。\n　お湯が　バッチリ出るようになったわぁ。\n　ささやかだけど　お礼に　受け取っておくれよ。",
+    "ko": "",
+    "pt-BR": "",
+    "zh-Hans": "",
+    "zh-Hant": ""
+  },
+  "48807": {
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_200]",
+    "de": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Thanks to you, the Azlan Hot Springs will be successful.\nI'll take that Cleaning Rod and use it for cleaning too.\n<br>\nCleaning Master... I mean, <pc>. You wouldn't\nmind warming up too, would you?\n<br>\nThe fee is 50G per bath, and when you soak in the hot\nwater, your HP will keep recovering for a certain period\nof time!",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv2><end_attr>「あんたのおかげで　アズラン温泉は\n　無事に　営業していけそうだよぉ。\n　おそうじぼうも　そうじに使わせてもらうね。\n<br>\n「そうじの達人……<pc>っていうの。\n　あんたも　あったまっていかないかい？\n<br>\n「入湯料は　１回　５０ゴールドで\n　お湯につかると　一定時間\n　ＨＰが回復しつづける　効能があるよぉ！",
+    "ko": "<attr><feel_happy_lv2><end_attr>: 당신 덕에 아즐란 온천은\n　무사히 영업할 수 있게 됐어.\n　청소봉도 앞으로 청소에 사용할게.\n<br>\n: 청소의 달인…… {pc}|hpp(이라,라) 했지?\n　당신도 온천에 들어갔다 오지 않을래?\n<br>\n: 입장료는 1회에 50골드고\n　온천수에 몸을 담그면 일정 시간 동안\n　HP가 지속적으로 회복되는 효과가 있어!",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv2><end_attr>多亏了你，安须岚温泉\n可以顺利开业了。\n扫除棒我也留着用来打扫了。\n<br>\n扫除行家……叫<pc>是吧。\n你要不要也泡一泡温泉？\n<br>\n入浴费一次是５０Ｇ，\n泡在温泉水里的话，\n一定时间内ＨＰ就会持续恢复哦！",
+    "zh-Hant": "<attr><feel_happy_lv2><end_attr>多虧有你幫忙，\n安須嵐溫泉可以順利營業了。\n掃除棒也留著用來打掃了。\n<br>\n清潔專家……也就是<pc>，\n你要不要也泡個溫泉呢？\n<br>\n入浴費一次是５０Ｇ，\n泡了溫泉後，會獲得在一段時間內\n持續恢復ＨＰ的功效喔！"
   },
   "52747": {
     "$comments": "🔴, ",
@@ -3419,9 +3419,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>如果想要擁有像我這樣健康的身體，\n每天都必須來泡溫泉！\n<br>\n這裡的溫泉水含有叫做\n里霍伊米元素的神奇成分，\n這就是我保持健康身體的祕訣！"
   },
   "48820": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_200], YESNO",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Oh my, <pc>!\nDid you come to get in the Hot Springs today?\n<br>\nThanks to your cleaning, the Azlan Hot Springs\nis successful. The bathing fee is a bargain\nat 50 gold. So, come on, warm yourself up!<yesno><break>",
+    "en": "<attr><feel_happy_lv2><end_attr>Oh myyy, <pc>! Did you come to get in the\nHot Springs today?\n<br>\nThanks to your cleaning, the Azlan Hot Springs is\nsuccessful. The bathing fee is a bargain at 50 gold. So,\ncome on, warm yourself up!<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3432,9 +3432,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哎呀～<pc>！\n今天是來泡溫泉的嗎？\n<br>\n多虧你幫忙打掃，我們現在生意興隆啊。\n入浴費就幫你打折算５０Ｇ就好，\n快點去泡個溫泉吧！<yesno><break>"
   },
   "48821": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_200], NO",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Really? Come again.",
+    "en": "<attr><feel_happy_lv1><end_attr>Is that so? Come again, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3445,7 +3445,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>是嗎？那下次再來啊。"
   },
   "48822": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_200], insufficient gold",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>Oh, dear, you are short of money,\naren't you? Come back with 50 gold.",
     "es": "",
@@ -3458,7 +3458,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>哎呀……\n看來你的錢不夠呢。\n等有５０Ｇ的時候再來吧。"
   },
   "48823": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_200], YES",
     "de": "",
     "en": "<attr><feel_happy_lv3><end_attr>Okey-dokey, 50G thank you very much!\nPlease, enjoy your warming up.",
     "es": "",
@@ -3471,9 +3471,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>好的～收你５０Ｇ，多謝惠顧～！\n請慢慢享受。"
   },
   "48824": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_200]",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Oh my! <pc>! If you want to\nenter the hot fountain, you have to\npay the entrance fee to the lady.",
+    "en": "<attr><feel_happy_lv2><end_attr>Oh myyy, <pc>! If you want to enter the hot\nfountain, you have to pay auntie the entrance fee,\nokay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3484,9 +3484,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哎呀～<pc>！\n想泡溫泉的話，\n要先交入浴費給阿姨才行喔。"
   },
   "48825": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_200], entering the opposite sex's hot springs",
     "de": "",
-    "en": "<if_woman><attr><feel_happy_lv2><end_attr>Oh my! <pc>! You can't go in\nthere because it's a men's bath.\nZanmen Zanmen.<else><attr><feel_happy_lv2><end_attr>Oh my! <pc>! You can't go in\nthere because it's a women's bath.\nZanmen Zanmen.<endif>",
+    "en": "<if_woman><attr><feel_happy_lv2><end_attr>Oh myyy, <pc>! You can't go in there because\nit's the men's bath. Tsk, tsk.<else><attr><feel_happy_lv2><end_attr>Oh myyy, <pc>! You can't go in there because\nit's the women's bath. Tsk, tsk.<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3497,9 +3497,9 @@
     "zh-Hant": "<if_woman><attr><feel_happy_lv2><end_attr>哎呀～<pc>！\n那裡是男性浴池你不能進去喔，\n可惜，真可惜啊。<else><attr><feel_happy_lv2><end_attr>哎呀～<pc>！\n那裡是女性浴池你不能進去喔，\n可惜，真可惜啊。<endif>"
   },
   "48826": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_200]",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Hello, there! Are you warm? Come back\nagain.",
+    "en": "<attr><feel_happy_lv2><end_attr>Thank you for your patronaaage! You warmed up, yeah?\nCome back again, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3510,9 +3510,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>多謝惠顧～！泡得舒服嗎？\n歡迎下次再來。"
   },
   "52748": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, ",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>warm fountain warm~ warm~ <heart> body\nwarm~ warm~ warm~ warm~ warm~ warm~\nwarm~ warm~ warm~ warm",
+    "en": "<attr><feel_happy_lv3><end_attr>The hot springs are so waaarm <heart> My whole body feels\nnice and warm, niiice and waaarm ♪",
     "es": "",
     "fr": "",
     "it": "",
@@ -3536,9 +3536,9 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>糟糕，好燙啊。\n要被煮熟啦。"
   },
   "48831": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_200",
     "de": "",
-    "en": "Will it come from a warm fountain?<yesno><close>",
+    "en": "Exit the hot springs?<yesno><close>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3549,9 +3549,9 @@
     "zh-Hant": "要離開溫泉嗎？<yesno><close>"
   },
   "52750": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, ",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Oh, my stiff shoulders have loosened\nup. Your skin is smooth and silky!\nThere is a mysterious ingredient\n<br>\ncalled ''Rehealum'' dissolved in the hot\nwater of this hot fountain.",
+    "en": "<attr><feel_happy_lv2><end_attr>Oh... My stiff shoulders loosened up. Your skin, look how\nsmooth it is!\n<br>\nIn the hot springs' water is a mysterious ingredient\ncalled \"Rehealium\" blended into it.",
     "es": "",
     "fr": "",
     "it": "",
