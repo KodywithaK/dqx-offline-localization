@@ -1378,9 +1378,9 @@
     "zh-Hant": "名為《睿智之冠》的書。\n<br>\n他們是何時、在何地組成，\n成員究竟有哪些人，\n沒有人知道，也無人述說。\n<br>\n但在這個雅斯特露琪亞歷史的背後，\n他們不為人知地推動著歷史。\n<br>\n其名為睿智之冠。\n那是集結了非凡的賢人們，\n充滿謎團的祕密組織。"
   },
   "31669": {
-    "$comments": "🔴",
+    "$comments": "🟡, recipe book - recipe discovered",
     "de": "",
-    "en": "It's a recipe book called <%sL_ITEM>.",
+    "en": "There is a recipe book titled, \"<color_yellow><%sL_ITEM><color_white>\".",
     "es": "",
     "fr": "",
     "it": "",
@@ -1391,9 +1391,9 @@
     "zh-Hant": "名為《<%sL_ITEM>》的配方書。"
   },
   "31670": {
-    "$comments": "🔴",
+    "$comments": "🟡, recipe book - recipe discovered",
     "de": "",
-    "en": "I learned the recipe for <%sL_RECIPE>!<se_nots system Item>",
+    "en": "<pc> learned the \"<color_yellow><%sL_RECIPE><color_white>\" recipe! <se_nots system Item>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1404,9 +1404,9 @@
     "zh-Hant": "習得了<%sL_RECIPE>的配方！<se_nots system Item>"
   },
   "31671": {
-    "$comments": "🔴",
+    "$comments": "🟡, recipe book - recipe discovered previously",
     "de": "",
-    "en": "It was a recipe book called\n<%sL_ITEM>. But <pc> had\nalready memorized the recipes in this\n<br>\nbook.",
+    "en": "There is a recipe book titled, \"<color_yellow><%sL_ITEM><color_white>\".\n<br>\nHowever, <pc> had already memorized the\nrecipes within.",
     "es": "",
     "fr": "",
     "it": "",

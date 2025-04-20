@@ -787,8 +787,8 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |       `STT_Monster_Tips2_Ver2`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
 |       `STT_Monster_Tips2_ver1`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
 |          `STT_Monster_Type`           |     |                                             |                                                                                             |
-|             `STT_NpcInfo`             |     |                                             | NPC names, see "pakchunk0-{PLATFORM}.utoc\Game\Content\Datatables\Characters\NpcInfo.uasset" |
-|      `STT_OddStatusExplanation`       |     |                                             |                                                                                             |
+|             `STT_NpcInfo`             |     |                                             | NPC name, see "pakchunk0-{PLATFORM}.utoc\Game\Content\Datatables\Characters\NpcInfo.uasset" |
+|      `STT_OddStatusExplanation`       |     | ~15ch long, 3 lines high (2 `\n`)           | Skill (Panel) explanations                                                                  |
 |          `STT_OddStatusName`          |     |                                             |                                                                                             |
 |            `STT_PT_InOut`             |     |                                             | Guest party members dialog when leaving their mission area                                  |
 |             `STT_PT_Talk`             |     |                                             | Party Chat                                                                                  |
@@ -2175,7 +2175,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "it": "(La/L', Il/L'/Lo, TBD) <%sEV_QUE_NAME0> ha lasciato cadere (la/l', il/l'/lo, TBD)ITEM.\n<br>\n{pc} ottenne (la/l', il/l'/lo, TBD)<color_yellow>ITEM<color_white> (Oggetto Importante)!<se_nots System Item>\n<bw><close>",
       "ja": "<%sEV_QUE_NAME0>は\nきらめきインクを　落としていった。\n<auto_br=5000>\n{pc}は\nきらめきインク（だいじなもの）を\n手に入れた！<se_nots System Item>\n<auto_bw=5000><close>",
       "ko": "{%sEV_QUE_NAME0}|hpp(은,는)\n반짝반짝 잉크를 떨어뜨리고 갔다.\n<auto_br=5000>\n{pc}|hpp(은,는)\n반짝반짝 잉크(중요한 물건)를\n손에 넣었다!<se_nots System Item>\n<auto_bw=5000><close>",
-      "pt-BR": "(A, O, Ê) <%sEV_QUE_NAME0> deixou (a, o, ê) ITEM!\n<br>\n{pc} obteve (a, o, ê) <color_yellow>ITEM<color_white> (Iten Importante)!<se_nots System Item>\n<bw><close>",
+      "pt-BR": "(A, O, Ê) <%sEV_QUE_NAME0> deixou (a, o, ê) ITEM.\n<br>\n{pc} obteve (a, o, ê) <color_yellow>ITEM<color_white> (Iten Importante)!<se_nots System Item>\n<bw><close>",
       "zh-Hans": "<%sEV_QUE_NAME0>掉落了\n闪闪墨水。\n<auto_br=5000>\n{pc}获得了\n闪闪墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>",
       "zh-Hant": "<%sEV_QUE_NAME0>\n掉落了閃閃墨水。\n<auto_br=5000>\n{pc}\n獲得了\n閃閃墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>"
     },

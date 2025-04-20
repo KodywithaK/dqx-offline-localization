@@ -80,7 +80,7 @@
   "40271": {
     "$comments": "🔴, ",
     "de": "",
-    "en": "<turn_pc>I'm back! You came back! You're finally ready\nto do it! Poor Mr. Baro. He's got a bad back!\nI'm going to cook him a big batch of his\n<br>\nfavorite dishes and take care of him! Can you\nplease go to Orphea Region East and collect\n<%nev_que_t_num0> Pukupuku Peach, which is\n<br>\nsometimes dropped when you kill the\n<%sev_que_name0> monster?",
+    "en": "<turn_pc>I'm back! You came back! You're finally ready\nto do it! Poor Mr. Baro. He's got a bad back!\nI'm going to cook him a big batch of his\n<br>\nfavorite dishes and take care of him! Can you\nplease go to Orphea Region East and collect\n<%nev_que_t_num0> Pukupuku Peach, which is\n<br>\nsometimes dropped when you kill the\n<%sEV_QUE_NAME0> monster?",
     "es": "",
     "fr": "",
     "it": "",
@@ -197,7 +197,7 @@
   "40280": {
     "$comments": "🔴, ",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr><icon_exc>Alright! I can't let this happen! Hurry up and\ndo the right thing! Hurry up and do it right!\nI'm going to make a lot of special dishes for\n<br>\nthe visit to the hospital and give Baro-sama a\nlot of care! I'm going to go for it! I'm going\nstraight for it! That's right. I'd like to ask\n<br>\nyou to do something for me, since the amount\nof food I have isn't enough. Can you please\nget me <%nev_que_t_num0> of the Pukupuku\n<br>\nPeaches that are sometimes dropped when you\ndefeat the <%sev_que_name0> monster in Orphea\nRegion East?",
+    "en": "<attr><feel_happy_lv3><end_attr><icon_exc>Alright! I can't let this happen! Hurry up and\ndo the right thing! Hurry up and do it right!\nI'm going to make a lot of special dishes for\n<br>\nthe visit to the hospital and give Baro-sama a\nlot of care! I'm going to go for it! I'm going\nstraight for it! That's right. I'd like to ask\n<br>\nyou to do something for me, since the amount\nof food I have isn't enough. Can you please\nget me <%nev_que_t_num0> of the Pukupuku\n<br>\nPeaches that are sometimes dropped when you\ndefeat the <%sEV_QUE_NAME0> monster in Orphea\nRegion East?",
     "es": "",
     "fr": "",
     "it": "",
@@ -379,7 +379,7 @@
   "40294": {
     "$comments": "🔴, ",
     "de": "",
-    "en": "<icon_exc>I see! Haha! Why didn't I notice that? I'm\ngoing to be a priest! I heard God's voice\ntelling me it was time to fulfill my childhood\n<br>\ndream of becoming a priest! All right. I'll\nbaptize him right away. Excuse me, can you\nbring the Sacred Water for the baptism? Sacred\n<br>\nWater can be obtained by defeating\n<%sev_que_name0> in Muruel Forest. Can you do\nthat for me?",
+    "en": "<icon_exc>I see! Haha! Why didn't I notice that? I'm\ngoing to be a priest! I heard God's voice\ntelling me it was time to fulfill my childhood\n<br>\ndream of becoming a priest! All right. I'll\nbaptize him right away. Excuse me, can you\nbring the Sacred Water for the baptism? Sacred\n<br>\nWater can be obtained by defeating\n<%sEV_QUE_NAME0> in Muruel Forest. Can you do\nthat for me?",
     "es": "",
     "fr": "",
     "it": "",
@@ -431,7 +431,7 @@
   "40298": {
     "$comments": "🔴, ",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Oh! You've come back! Apparently, I wasn't\nabandoned! All right. Let's do the baptism\nright away. Excuse me, can you bring me the\n<br>\nSacred Water I need for the baptism? Sacred\nWater can be obtained by defeating\n<%sev_que_name0> in Muruel Forest. Can you do\n<br>\nthat for me?",
+    "en": "<attr><feel_happy_lv2><end_attr>Oh! You've come back! Apparently, I wasn't\nabandoned! All right. Let's do the baptism\nright away. Excuse me, can you bring me the\n<br>\nSacred Water I need for the baptism? Sacred\nWater can be obtained by defeating\n<%sEV_QUE_NAME0> in Muruel Forest. Can you do\n<br>\nthat for me?",
     "es": "",
     "fr": "",
     "it": "",
@@ -470,7 +470,7 @@
   "40301": {
     "$comments": "🔴, ",
     "de": "",
-    "en": "Sacred Water can be obtained by defeating\n<%sev_que_name0> in Muruel Forest.<open_irai><bw_break>",
+    "en": "Sacred Water can be obtained by defeating\n<%sEV_QUE_NAME0> in Muruel Forest.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -975,9 +975,9 @@
     "zh-Hant": "納布雷德先生之所以能成功，\n靠的不是魔法烤爐，\n而是他自己努力的成果啊。\n<br>\n但我卻對於納布雷德先生\n為了掩飾害羞而編出來的魔法烤爐故事\n深信不疑……真是丟臉。\n<br>\n總有一天，我也要成為一個會被人\n誤以為使用了魔法道具的厲害工匠。\n振興老爸傳給我的鍛造行！"
   },
   "48385": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_000`",
     "de": "",
-    "en": "A huge horn stands tall.",
+    "en": "A huge horn towers over.",
     "es": "",
     "fr": "",
     "it": "",
@@ -988,9 +988,9 @@
     "zh-Hant": "巨大的圓號聳立於此地。"
   },
   "48386": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_000]`",
     "de": "",
-    "en": "Orphea's famous Big Horn in the plaza is now\njust a big figurine, but it used to be very\npopular among children.",
+    "en": "Orphea's famous Big Horn in the square is now just a\nbig decoration, but it used to be very popular amongst\nthe children...",
     "es": "",
     "fr": "",
     "it": "",
@@ -1000,10 +1000,23 @@
     "zh-Hans": "广场上的大圆号，\n别看它现在只是个大摆设，\n其实以前是很受孩子们欢迎的……",
     "zh-Hant": "雖然在廣場上的歐菲亞名勝大圓號\n現在只是個巨大的擺設，\n但之前是很受小孩子歡迎的……"
   },
-  "48387": {
-    "$comments": "🔴, ",
+  "50457": {
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_01902, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_POMUPOMUOIRU]`, YESNO",
     "de": "",
-    "en": "Oh, yeah. Will you accept? If you come, I'll\ndo something nice for you.<bw_break>",
+    "en": "<icon_exc>Hmm! Here's just the right person for the job... You got a\nminute to hear a pitiful old man's request?\n<br>\nFirst, I want you to get Pompom Oil, which is rarely\nobtained after defeatin' <%sEV_QUE_NAME0>s in Wena\nIslands' Underground Lake Cave.\n<br>\nPompom Oil knocks out any rust stain in a single blow!\n...It's an all-purpose oil. Please use it to go clean the\nBig Horn.\n<br>\nAnd when you're done cleanin', please check whether\nor not the Big Horn's revived. It's ol' Fuffupu's\nlifelong wish <heart> Please <heart>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<icon_exc>「ふぬっ！　ここに　うってつけの人物が……。\n　ちょいと　お前さん\n　哀れな老人の願い　聞いてもらえんかのう？\n<br>\n「まず　ウェナ諸島の　地底湖の洞くつにいる\n　<%sEV_QUE_NAME0>を倒すと　まれに手に入る\n　ポムポムオイルを　ゲットしてほしいんじゃ。\n<br>\n「ポムポムオイルは　どんなサビ汚れも一撃！\n　……の万能オイルでな。それを使って\n　ビッグホルンの　掃除をしてきてくれんかの。\n<br>\n「そして　掃除が終わったら　ビッグホルンが\n　息を吹き返したかどうか　しらべておくれ。\n　フッフプ　一生のお願い<heart>　お願い<heart>",
+    "ko": "<icon_exc>: 흐억! 여기에 딱 맞는 인물이…….\n　자네, 이 불쌍한 노인의 부탁을\n　들어줄 수 있겠나?\n<br>\n: 우선 웨나 제도의 지저 호수 동굴에 있는\n　{%sEV_QUE_NAME0}|hpp(을,를) 쓰러뜨리면 가끔 얻을 수 있는\n　폼폼 오일을 구해 왔으면 하네.\n<br>\n: 폼폼 오일은 그 어떤 녹슨 물건도\n　말끔하게 만들어 주는 만능 오일일세.\n　그걸로 빅 호른을 청소해 주게.\n<br>\n: 그리고 청소가 끝나거든 빅 호른이\n　되살아났는지 살펴봐 주게.\n　이 후프프, 필생의 숙원이라네<heart> 부탁해용<heart>",
+    "pt-BR": "",
+    "zh-Hans": "<icon_exc>唔！正好出现了理想人选……\n喂，你能听听\n我这可怜老人的倾诉么？\n<br>\n首先，维纳群岛的地下湖洞窟里有种叫\n<%sEV_QUE_NAME0>的怪物，打倒它后\n有时能得到泡泡油，我希望你能得到这油。\n<br>\n泡泡油可以洗净任何污垢！\n你能不能用这个万能油\n帮我擦擦大圆号啊。\n<br>\n擦完了之后，\n帮我看看大圆号有没有起死回生。\n这是弗弗普一生的心愿<heart>求你了<heart>",
+    "zh-Hant": "<icon_exc>唔！正好出現了理想人選……\n我說你啊，\n可以聽聽一名可憐老人的請求嗎？\n<br>\n首先我希望你能去維納群島的地底湖洞窟，\n打倒<%sEV_QUE_NAME0>並取得\n偶爾會掉落的爆爆油。\n<br>\n爆爆油是一種萬能油……\n無論任何鏽蝕，都能一舉清除！\n你能用那個油來幫忙清理大圓號嗎？\n<br>\n然後等你打掃完成，\n再確認看看大圓號是否起死回生了。\n這是我夫弗普這輩子的唯一請求<heart>拜託了<heart>"
+  },
+  "48387": {
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_000]`, YES",
+    "de": "",
+    "en": "Ooh, is that so. You'll take it on for me, eh! When\nyou're done doin' that for me, I'll have a nice thing\nfor you.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1014,9 +1027,9 @@
     "zh-Hant": "喔喔，這樣啊，你願意接下啊！\n那等你辦完以後，\n我再給你一個好處。<bw_break>"
   },
   "48388": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_000]`, YES cont'd",
     "de": "",
-    "en": "Well, I, the janitor, have been unable to\nclean the horn because of my bad knee, and the\ninside of the pipe has become rusty. I was in\n<br>\ntrouble, and you came to me. What a Drang boy\nI am! Well then, I'm glad to meet you! Capi...",
+    "en": "Oh yeah, I, its caretaker, have been unable to clean\nthe horn because of my bad knees, so the inside of the\npipe has rusted shut.\n<br>\nI was in trouble, and then you came along... I tell you\nwhat, I'm a lucky boy! Well, take care of it, capeesh ♪",
     "es": "",
     "fr": "",
     "it": "",
@@ -1027,7 +1040,7 @@
     "zh-Hant": "唉，因為我這個負責管理的人膝蓋不好，\n沒辦法去清理圓號，\n結果管子裡面都生鏽了。\n<br>\n在我傷透腦筋時，你出現了……\n我真是走運啊！\n那就拜託你啦！呀嗶♪"
   },
   "48390": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_000]`, QUESTS FULL",
     "de": "",
     "en": "I see. I see! I'm glad you feel that way, but\nyou must have your hands full with other\npeople's requests, don't you? I'm sure you\n<br>\nhave your hands full with other people's\nrequests right now, don't you?",
     "es": "",
@@ -1040,9 +1053,9 @@
     "zh-Hant": "這樣啊，這樣啊！雖然我很感謝你有這份心意，\n但是你現在手頭上\n不是接滿了別人的委託嗎？\n<br>\n我的事情可以之後再說，\n你先解決其他人的委託，\n再來找我吧。"
   },
   "48391": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_000]`, NO",
     "de": "",
-    "en": "Oh, I see. That's too bad. I thought you would\nbe the one. It's a shame, really.",
+    "en": "Is-Is that so. That's disappointin'. As for you...\nI thought you were the one. Truly disappointin'.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1052,23 +1065,10 @@
     "zh-Hans": "是、是么。真遗憾啊。\n我还觉得要是你的话……\n真的好遗憾啊。",
     "zh-Hant": "這、這樣啊。真是遺憾。\n我還以為……你願意接下來呢。\n真是遺憾啊。"
   },
-  "50457": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<icon_exc>Hmm! Here's just the man for the job. Hey, can\nyou do the poor old man a favor? First of all,\nI want you to get Pom Pom Oil, which is rarely\n<br>\nfound after defeating <%sev_que_name0> in\nUnderground Lake Cave, Wena Islands. Pom Pom\nOil is an all-purpose oil that can kill any\n<br>\nrust stain! It's an all-purpose oil. Go use it\nto clean the bighorns. And when you're done,\nplease tell me if Big Horn has come back to\n<br>\nlife. Fuffupu, a lifetime wish<heart>\nplease<heart>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<icon_exc>「ふぬっ！　ここに　うってつけの人物が……。\n　ちょいと　お前さん\n　哀れな老人の願い　聞いてもらえんかのう？\n<br>\n「まず　ウェナ諸島の　地底湖の洞くつにいる\n　<%sEV_QUE_NAME0>を倒すと　まれに手に入る\n　ポムポムオイルを　ゲットしてほしいんじゃ。\n<br>\n「ポムポムオイルは　どんなサビ汚れも一撃！\n　……の万能オイルでな。それを使って\n　ビッグホルンの　掃除をしてきてくれんかの。\n<br>\n「そして　掃除が終わったら　ビッグホルンが\n　息を吹き返したかどうか　しらべておくれ。\n　フッフプ　一生のお願い<heart>　お願い<heart>",
-    "ko": "<icon_exc>: 흐억! 여기에 딱 맞는 인물이…….\n　자네, 이 불쌍한 노인의 부탁을\n　들어줄 수 있겠나?\n<br>\n: 우선 웨나 제도의 지저 호수 동굴에 있는\n　{%sEV_QUE_NAME0}|hpp(을,를) 쓰러뜨리면 가끔 얻을 수 있는\n　폼폼 오일을 구해 왔으면 하네.\n<br>\n: 폼폼 오일은 그 어떤 녹슨 물건도\n　말끔하게 만들어 주는 만능 오일일세.\n　그걸로 빅 호른을 청소해 주게.\n<br>\n: 그리고 청소가 끝나거든 빅 호른이\n　되살아났는지 살펴봐 주게.\n　이 후프프, 필생의 숙원이라네<heart> 부탁해용<heart>",
-    "pt-BR": "",
-    "zh-Hans": "<icon_exc>唔！正好出现了理想人选……\n喂，你能听听\n我这可怜老人的倾诉么？\n<br>\n首先，维纳群岛的地下湖洞窟里有种叫\n<%sEV_QUE_NAME0>的怪物，打倒它后\n有时能得到泡泡油，我希望你能得到这油。\n<br>\n泡泡油可以洗净任何污垢！\n你能不能用这个万能油\n帮我擦擦大圆号啊。\n<br>\n擦完了之后，\n帮我看看大圆号有没有起死回生。\n这是弗弗普一生的心愿<heart>求你了<heart>",
-    "zh-Hant": "<icon_exc>唔！正好出現了理想人選……\n我說你啊，\n可以聽聽一名可憐老人的請求嗎？\n<br>\n首先我希望你能去維納群島的地底湖洞窟，\n打倒<%sEV_QUE_NAME0>並取得\n偶爾會掉落的爆爆油。\n<br>\n爆爆油是一種萬能油……\n無論任何鏽蝕，都能一舉清除！\n你能用那個油來幫忙清理大圓號嗎？\n<br>\n然後等你打掃完成，\n再確認看看大圓號是否起死回生了。\n這是我夫弗普這輩子的唯一請求<heart>拜託了<heart>"
-  },
   "48392": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_01902, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_POMUPOMUOIRU]`",
     "de": "",
-    "en": "Pom Pom Oil is a rust remover rarely obtained\nby killing <%sev_que_name0> at Underground\nLake Cave in the Wena Islands.<open_irai><bw_break>",
+    "en": "Pompom Oil is a rust removin' oil, which is rarely\nobtained after defeatin' <%sEV_QUE_NAME0>s in Wena\nIslands' Underground Lake Cave.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1079,9 +1079,9 @@
     "zh-Hant": "爆爆油是種除鏽用的油，\n打倒位於維納群島的地底湖洞窟的\n<%sEV_QUE_NAME0>時，偶爾會能拿到這種油。<open_irai><bw_break>"
   },
   "48393": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_010]`",
     "de": "",
-    "en": "I want you to go use that oil to clean the big\nhorn. Fuffupu will cry if you don't!<bw_break>",
+    "en": "I want you to go use that oil to clean the Big Horn.\nIf you don't do it, ol' Fuffupu will cry!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1092,9 +1092,9 @@
     "zh-Hant": "希望你能用那種油\n去清理大圓號。\n你不幫忙的話，我夫弗普會哭喔！<bw_break>"
   },
   "48394": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_010]`",
     "de": "",
-    "en": "If you could get back to me when you're done\ncleaning up and see if Big Horn has come back\nto life, I'll do you a favor.",
+    "en": "And when you're done cleanin', please check whether\nor not the Big Horn's revived for me. I'll have a nice\nthing for you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1105,9 +1105,9 @@
     "zh-Hant": "等你清理完大圓號，\n確認過它是否起死回生以後，\n我再給你一個好處。"
   },
   "48396": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_POMUPOMUOIRU]`",
     "de": "",
-    "en": "Gosh! That's Pom Pom Oil you're holding!<open_irai><bw_break>",
+    "en": "Gosh! That's Pompom Oil you're holdin', ain't it!<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1118,9 +1118,9 @@
     "zh-Hant": "唔喔！你手上拿的\n就是爆爆油吧！<open_irai><bw_break>"
   },
   "48397": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_020]`",
     "de": "",
-    "en": "If it's received, I'd like you to use the oil\nto clean the big horn and see if the horn came\nback to life!<bw_break>",
+    "en": "And now that you got it, I want you to go use that oil\nto clean the Big Horn and check whether or not it's\nrevived for me.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1131,9 +1131,9 @@
     "zh-Hant": "既然你拿到了，\n就拜託你用那種油去清理大圓號，\n並且確認圓號是否起死回生了！<bw_break>"
   },
   "48398": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_020]`",
     "de": "",
-    "en": "I'll do something good for you if you come\nthrough to the end! I'll do something nice for\nyou if you do it right to the end!",
+    "en": "And when you're all done, I'll have a nice thing for\nyou, capeesh! Pleeease <heart>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1144,9 +1144,9 @@
     "zh-Hant": "如果你有把委託全部辦完，\n我就給你一個好處！\n拜託啦～<heart>呀嗶！"
   },
   "48400": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_POMUPOMUOIRU]`, YESNO",
     "de": "",
-    "en": "A huge horn stands tall. Would you like to\nclean the big horn with Pom Pom Oil?<yesno><close>",
+    "en": "A huge horn towers over. Use the Pompom Oil to clean\nthe Big Horn?<yesno><close>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1157,9 +1157,9 @@
     "zh-Hant": "巨大的圓號聳立於此地。\n<br>\n要用爆爆油來\n清理大圓號嗎？<yesno><close>"
   },
   "48401": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_POMUPOMUOIRU]`, YES",
     "de": "",
-    "en": "<pc> used Pom Pom Oil to remove rust\nstains from the big horn. Now the big horn is\nclean and ready to use!",
+    "en": "<pc> used the Pompom Oil to remove the rust\nstains from the Big Horn. Having cleaned it, the Big\nHorn is now ready to use!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1170,9 +1170,9 @@
     "zh-Hant": "<pc>用爆爆油\n清掉了大圓號的鏽蝕汙垢。\n<br>\n大圓號變得乾乾淨淨，\n可以使用了！"
   },
   "48402": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_030]`",
     "de": "",
-    "en": "Hmm? You, you're looking refreshed. You've\ncleaned Big Horn, haven't you? But, but..! I\nguess you haven't checked to see if Big Horn\n<br>\nhas come up for air yet.<open_irai><bw_break>",
+    "en": "Huh? You're looking refreshed... You cleaned the Big Horn\nfor me, didja? But, buuut! It seems you still haven't\nchecked whether or not it's revived.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1183,9 +1183,9 @@
     "zh-Hant": "嗯？看你一臉神清氣爽的表情……\n應該是清潔過大圓號了吧？\n<br>\n但是～！\n看來你還沒有確認過\n大圓號是否起死回生了呢。<open_irai><bw_break>"
   },
   "48403": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_030]`",
     "de": "",
-    "en": "I want you to do your research before you\ncome. If you don't finish, I can't do anything\ngood for you. So I beg you.",
+    "en": "I want you to go check if it's workin' properly. If\nyou don't do it, I can't give you a nice thing. So\nPl・ea・se <heart>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1196,22 +1196,22 @@
     "zh-Hant": "等你好好調查過再來吧。\n如果你沒把委託全部辦完，我就不給你好處喔。\n所以，拜、託、你、了<heart>"
   },
   "48405": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "Would you like to use the Big Horn?<yesno><close>",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "$comments": "🟢, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_030]`, YESNO",
+    "de": "Das Großen Horn benutzen? <yesno><close>",
+    "en": "Use the Big Horn? <yesno><close>",
+    "es": "¿Usar el Gran Corno? <yesno><close>",
+    "fr": "Utiliser le Grand Cor? <yesno><close>",
+    "it": "Usare il Grande Corno? <yesno><close>",
     "ja": "ビッグホルンを　使いますか？<yesno><close>",
     "ko": "빅 호른을 사용하겠습니까?<yesno><close>",
-    "pt-BR": "",
+    "pt-BR": "Usar o Grande Corno? <yesno><close>",
     "zh-Hans": "要使用大圆号吗？<yesno><close>",
     "zh-Hant": "要使用大圓號嗎？<yesno><close>"
   },
   "48406": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_040]`",
     "de": "",
-    "en": "Oh, wow! You've done a fine job of flying.\nI've been watching you from here! Thank you.\nThanks for your hard work. What? I thought you\n<br>\nsaid it was an instrument? The Big Horn is a\nmarks action that makes people who enter it\nfly far away from it. If word gets out that\n<br>\nOrphea's specialty has been fixed, it will be\na lively spot where people gather to play with\nthe big horn again.<bw_break>",
+    "en": "Ooh! You've got magnificient flyin' form. I was\nwatching you from here! Thanks. Thanks for your hard\nwork, that is.\n<br>\n...What? Isn't that a musical instrument, you say? Those\nwho enter the Big Horn get launched far away; it's a\nrespectable attraction.\n<br>\nOnce word spread's that Orphea's famous Big Horn's\nbeen repaired, fun-seekers will gather, and it'll be a\nbustlin' spot again.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1222,9 +1222,9 @@
     "zh-Hant": "喔喔！你飛得很遠呢，\n我從這裡看得一清二楚喔！\n謝謝，真是辛苦你了。\n<br>\n……嗯？你跟我說那不是樂器？\n大圓號是個正統的遊樂設施，\n可以讓進去裡面的人飛到遠方喔。\n<br>\n只要把歐菲亞名勝修好了的傳聞傳出去，\n應該會吸引很多人過來玩大圓號，\n這裡又會變成熱鬧的觀光景點吧。\n<bw_break>"
   },
   "48407": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_040]`",
     "de": "",
-    "en": "I'm going to have to start spreading rumors of\nBighorn's return right away. We're going to be\nvery busy! What? What good thing did you\n<br>\npromise me? What is the good thing you\npromised? You're quite the goofball, aren't\nyou? I've fixed your bighorn so you can have a\n<br>\nblast. That's the best thing you could have\ndone.",
+    "en": "C'mon, we gotta start spreadin' rumors of the Big\nHorn's Revival right away. Looks like we're gonna be\nbusy!\n<br>\n...What? What's the nice thing I promised you? Hohoho.\nYou're one who likes to play dumb, aren't you?\n<br>\nYou got to experience fixing and blasting off in the\nBig Horn, didn'tcha. That's the nicest thing there is <heart>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1235,9 +1235,9 @@
     "zh-Hant": "哎呀，我得立刻做些虛實交錯的宣傳，\n讓大圓號復活的消息傳出去。\n這下子可要忙起來了！\n<br>\n……嗯？\n你問我說好的好處是什麼？\n呵呵呵，你還真會裝傻呢。\n<br>\n修好大圓號以後，\n我不是讓你體驗到飛高高的感覺了嗎？\n那就是最棒的好處了<heart>"
   },
   "48408": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_040, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_POMUPOMUOIRU]`",
     "de": "",
-    "en": "What? You think the bighorn was fixed because\nyou got some Pom Pom Oil and cleaned it up?\nWell, it's not impossible to say that, but\n<br>\ndon't worry about the little things. Have a\nheart as big as a bighorn! Big horns are\nalways available. Whenever you want to fly\n<br>\nfrom the east side of town to the west side of\ntown, or when you just want to blow your mind!\nBy all means, use it with gusto.",
+    "en": "Whuzzat? The Big Horn was fixed because you got the\nPompom Oil and cleaned it up yourself?\n<br>\n...Well, you're not exactly wrong in sayin' that, but\ndon't worry about the little things. You've got a big\nheart—as big as the Big Horn!\n<br>\nThe Big Horn will always be available from now on.\nWhenever you wanna fly from the east side of town to\nthe western exit...\n<br>\nThat, and when you wanna blast your worries away! By\nall means, please use it unabashedly ♪",
     "es": "",
     "fr": "",
     "it": "",
@@ -1248,9 +1248,9 @@
     "zh-Hant": "什麼？你說大圓號\n之所以能修好，都是因為自己\n拿到爆爆油後再去清潔的關係？\n<br>\n……這個嘛，的確也是能這麼說啦，\n但是你別把這種小事掛在心上。\n要跟大圓號一樣，擁有一顆寬廣的心！\n<br>\n大圓號隨時都可以使用。\n想從市鎮東邊飛到\n西邊出入口前時……\n<br>\n或是想讓煩惱一掃而空的時候！\n請務必盡情使用喔♪"
   },
   "48411": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (015) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00741, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_019_1_200]`",
     "de": "",
-    "en": "I want to start flying with the Big Horn as\nsoon as possible, but first, I need to fix my\nknee. I tried to make a big landing on the\n<br>\nbighorn before, but I failed and fell down,\nhurting my knee. My brother, who is the chief\nof Pukulet Village, would laugh at me for\n<br>\nbeing so pathetic. He is dancing all over the\nplace. When you use the Big Horn, don't get\ncarried away and do a triple-turn while\n<br>\nlanding on the ground! Aita-ta-ta-ta.",
+    "en": "I wanna fly nonstop with the Big Horn right away, like\nin the old days, but first, I gotta fix my knees.\n<br>\nTo tell the truth, when I used the Big Horn before, I\ndecided to try out a showy landing, although I screwed\nup, fell, and hurt my knees.\n<br>\nMy older brother, the chief of Pukulett Village,\ncouldn't stop laughin' at me for being so pathetic.\nAnd yet, that guy's always dancing...\n<br>\nWhen you use the Big Horn, don't get carried away,\nand do a triple-flip while landing, got it! Ow-ow-ouch...",
     "es": "",
     "fr": "",
     "it": "",
