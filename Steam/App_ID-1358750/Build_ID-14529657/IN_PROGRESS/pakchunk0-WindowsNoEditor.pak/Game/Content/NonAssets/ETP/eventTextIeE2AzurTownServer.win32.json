@@ -3044,7 +3044,7 @@
   "48792": {
     "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_000]`",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Oh myyy, customer! Right now, there's a serious\nscandal occurring inside the hot springs, so you\ncannot enter. My apologies.",
+    "en": "<attr><feel_sad_lv1><end_attr>Oh myyy, customer! Right now, there's a serious scandal\noccurring inside the hot springs, so you cannot enter.\nMy apologies.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3096,7 +3096,7 @@
   "48796": {
     "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_06500, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]`, YES",
     "de": "",
-    "en": "<if_woman><attr><feel_happy_lv3><end_attr>Really!? I'm saved, aren't I. Well, let's get going\nquick and get some cleaning supplies.\n<br>\nEast of Kamiharumui Territory South, <color_red><%sEV_QUE_NAME0>s<color_white>,\nwhich only appear during the night, drop something\ncalled a \"<color_yellow>Cleaning Rod<color_white>\".\n<br>\nIf you have that, it should completely clean out the\nclogged hot water outlet in the men's bath!\nI'm counting on you, Cleaning Master!<else><attr><feel_happy_lv3><end_attr>Really!? I'm saved, aren't I. Well, let's get going\nquick and get some cleaning supplies.\n<br>\nEast of Kamiharumui Territory South, <color_red><%sEV_QUE_NAME0>s<color_white>,\nwhich only appear during the night, drop something\ncalled a \"<color_yellow>Cleaning Rod<color_white>\".\n<br>\nIf you have that, it should completely clean out the\nclogged hot water outlet in the women's bath!\nI'm counting on you, Cleaning Master!<endif>",
+    "en": "<if_woman><attr><feel_happy_lv3><end_attr>Really!? I'm saved, aren't I. Well, let's get going quick\nand get some cleaning supplies.\n<br>\nEast of Kamiharmui Territory South, <color_red><%sEV_QUE_NAME0>s<color_white>,\nwhich only appear during the night, drop something\ncalled a \"<color_yellow>Cleaning Rod<color_white>\".\n<br>\nIf you have that, it should completely clean out the\nclogged hot water outlet in the men's bath! I'm counting\non you, Cleaning Master!<else><attr><feel_happy_lv3><end_attr>Really!? I'm saved, aren't I. Well, let's get going quick\nand get some cleaning supplies.\n<br>\nEast of Kamiharmui Territory South, <color_red><%sEV_QUE_NAME0>s<color_white>,\nwhich only appear during the night, drop something\ncalled a \"<color_yellow>Cleaning Rod<color_white>\".\n<br>\nIf you have that, it should completely clean out the\nclogged hot water outlet in the women's bath! I'm counting\non you, Cleaning Master!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3135,7 +3135,7 @@
   "48798": {
     "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_06500, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Oh myyy, Cleaning Master! Have you prepared your\ncleaning supplies?\n<br>\nEast of Kamiharumui Territory South, <color_red><%sEV_QUE_NAME0>s<color_white>,\nwhich only appear during the night, drop something\ncalled a \"<color_yellow>Cleaning Rod<color_white>\".<open_irai><bw_break>",
+    "en": "<attr><feel_happy_lv2><end_attr>Oh myyy, Cleaning Master! Have you prepared your\ncleaning supplies?\n<br>\nEast of Kamiharmui Territory South, <color_red><%sEV_QUE_NAME0>s<color_white>,\nwhich only appear during the night, drop something\ncalled a \"<color_yellow>Cleaning Rod<color_white>\".<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3161,7 +3161,7 @@
   "48800": {
     "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_010, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>Oh myyy, Cleaning Master! Without the Cleaning Rod,\nI cannot allow you into the hot springs.",
+    "en": "<attr><feel_think_lv2><end_attr>Oh myyy, Cleaning Master! Without the <color_yellow>Cleaning Rod<color_white>,\nI cannot allow you into the hot springs.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3171,10 +3171,23 @@
     "zh-Hans": "<attr><feel_think_lv2><end_attr>哎呀呀～是扫除行家啊！\n如果你没带扫除棒来的话\n可不能让你进温泉里哦。",
     "zh-Hant": "<attr><feel_think_lv2><end_attr>哎呀～是清潔專家啊！\n如果你沒有掃除棒的話，\n沒辦法讓你進溫泉呢。"
   },
+  "48808": {
+    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]",
+    "de": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Oh, myyy, Cleaning Master! If you've obtained the\n<color_yellow>Cleaning Rod<color_white>, please show it to Auntie!",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv2><end_attr>「あんれま～　そうじの達人さん！\n　おそうじぼうが　手に入ったんなら\n　おばちゃんに　見せてごらんよぉ！",
+    "ko": "<attr><feel_happy_lv2><end_attr>: 아앗~ 청소의 달인!\n　청소봉을 구해 왔으면\n　아줌마한테 보여 줘!",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv2><end_attr>哎呀呀～是扫除行家啊！\n你拿到扫除棒的话要给我看看哦！",
+    "zh-Hant": "<attr><feel_happy_lv2><end_attr>哎呀～是清潔專家啊！\n如果找到掃除棒的話，\n要拿給阿姨看看喔！"
+  },
   "48801": {
     "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], YESNO",
     "de": "",
-    "en": "<if_woman><attr><feel_happy_lv2><end_attr>Oh myyy! You already obtained the Cleaning Rod.\nJust as I'd expect of the Cleaning Master, you know!\n<br>\nNow then, will you hurry and clean the men's bath?<yesno><break><else><attr><feel_happy_lv2><end_attr>Oh myyy! You already obtained the Cleaning Rod.\nJust as I'd expect of the Cleaning Master, you know!\n<br>\nNow then, will you hurry and clean the women's bath?<yesno><break><endif>",
+    "en": "<if_woman><attr><feel_happy_lv2><end_attr>Oh myyy! You already obtained the <color_yellow>Cleaning Rod<color_white>.\nJust as I'd expect of the Cleaning Master, you know!\n<br>\nNow then, will you hurry and clean the men's bath?<yesno><break><else><attr><feel_happy_lv2><end_attr>Oh myyy! You already obtained the Cleaning Rod.\nJust as I'd expect of the Cleaning Master, you know!\n<br>\nNow then, will you hurry and clean the women's bath?<yesno><break><endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3187,7 +3200,7 @@
   "48802": {
     "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], NO",
     "de": "",
-    "en": "<attr><feel_think_one><end_attr>Whaaaat... It's hopeless, isn't it;\nCustomers will undoubtedly catch a cold.",
+    "en": "<attr><feel_think_one><end_attr>Whaaaat... It's hopeless, isn't it; Customers will\nundoubtedly catch a cold.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3200,7 +3213,7 @@
   "48803": {
     "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], YES",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Thanks, you know! Use the Cleaning Rod to clean out\nthe clog in the hot water outlet!\n<br>\nAh, that's right. It would be a disaster if hot water gets\ninto your eyes. Put on these cleaning glasses.<bw_break>",
+    "en": "<attr><feel_happy_lv3><end_attr>Thanks, you know! Use the <color_yellow>Cleaning Rod<color_white> to clean out\nthe clog in the hot water outlet!\n<br>\nAh, that's right. It would be a disaster if hot water gets\ninto your eyes. Put on these cleaning glasses.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3213,7 +3226,7 @@
   "48804": {
     "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU], YES cont'd",
     "de": "",
-    "en": "<if_woman><attr><feel_happy_lv2><end_attr>So then, good luck with that. It's a men's bath, so\ndon't stare too much at the customers!<else><attr><feel_happy_lv2><end_attr>So then, good luck with that. It's a women's bath, so\ndon't stare too much at the customers!<endif>",
+    "en": "<if_woman><attr><feel_happy_lv2><end_attr>So then, good luck with that. It's a men's bath, so don't\nstare too much at the customers!<else><attr><feel_happy_lv2><end_attr>So then, good luck with that. It's a women's bath, so don't\nstare too much at the customers!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3222,19 +3235,6 @@
     "pt-BR": "",
     "zh-Hans": "<if_woman><attr><feel_happy_lv2><end_attr>那就拜托你了哦。\n毕竟是男浴池，\n所以不要盯着客人看哦！<else><attr><feel_happy_lv2><end_attr>那就拜托你了哦。\n毕竟是女浴池，\n所以不要盯着客人看哦！<endif>",
     "zh-Hant": "<if_woman><attr><feel_happy_lv2><end_attr>那就拜託你了，\n畢竟那裡是男性浴池，\n所以不要一直盯著客人看喔！<else><attr><feel_happy_lv2><end_attr>那就拜託你了，\n畢竟那裡是女性浴池，\n所以不要一直盯著客人看喔！<endif>"
-  },
-  "48808": {
-    "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]",
-    "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Oh, myyy, Cleaning Master! If you've obtained the\nCleaning Rod, please show it to Auntie!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv2><end_attr>「あんれま～　そうじの達人さん！\n　おそうじぼうが　手に入ったんなら\n　おばちゃんに　見せてごらんよぉ！",
-    "ko": "<attr><feel_happy_lv2><end_attr>: 아앗~ 청소의 달인!\n　청소봉을 구해 왔으면\n　아줌마한테 보여 줘!",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv2><end_attr>哎呀呀～是扫除行家啊！\n你拿到扫除棒的话要给我看看哦！",
-    "zh-Hant": "<attr><feel_happy_lv2><end_attr>哎呀～是清潔專家啊！\n如果找到掃除棒的話，\n要拿給阿姨看看喔！"
   },
   "48816": {
     "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OSOUJIBOU]",
@@ -3473,7 +3473,7 @@
   "48824": {
     "$comments": "🟡, Quest (016) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01844, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_024_1_200]",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Oh myyy, <pc>! If you want to enter the hot\nfountain, you have to pay auntie the entrance fee,\nokay.",
+    "en": "<attr><feel_happy_lv2><end_attr>Oh myyy, <pc>! If you want to enter the hot\nfountain, you have to pay Auntie the entrance fee, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3551,7 +3551,7 @@
   "52750": {
     "$comments": "🟡, ",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Oh... My stiff shoulders loosened up. Your skin, look how\nsmooth it is!\n<br>\nIn the hot springs' water is a mysterious ingredient\ncalled \"Rehealium\" blended into it.",
+    "en": "<attr><feel_happy_lv2><end_attr>Oh... My stiff shoulders loosened up. Your skin, look\nhow smooth it is!\n<br>\nIn the hot springs' water is a mysterious ingredient\ncalled \"Rehealium\" blended into it.",
     "es": "",
     "fr": "",
     "it": "",

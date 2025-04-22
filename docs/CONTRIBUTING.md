@@ -1061,7 +1061,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextCsKq10223Client.win32.etp`                   |                                                                                                     |                                                     |
   | `eventTextCsKq10224Client.win32.etp`                   |                                                                                                     |                                                     |
   | `eventTextCsKq10225Client.win32.etp`                   |                                                                                                     |                                                     |
-  | `eventTextCsKq10251Client.win32.etp`                   |                                                                                                     |                                                     |
+  | `eventTextCsKq10251Client.win32.etp`                   |                                     Quest (017) {Super Useful}                                      |                   cutscene dialog                   |
   | `eventTextCsKq21091Client.win32.etp`                   |                                                                                                     |                                                     |
   | `eventTextCsKq21101Client.win32.etp`                   |                                                                                                     |                                                     |
   | `eventTextCsKq21111Client.win32.etp`                   |                                                                                                     |                                                     |
@@ -2144,7 +2144,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "it": "<pc> ottenne ( (la/le, il/i, ???)¹, (l'/le, l'/gli, l'/???)², (la/le, lo/gli, ???)³) <%sEV_ITEM>! <se_nots System Item>",
    // "ja": "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>",
       "ko": "{pc}|hpp(은,는)\n{%sEV_ITEM}|hpp(을,를) 손에 넣었다!<se_nots System Item>",
-      "pt-BR": "<pc> obteve (a/as, o/os, e/es) <%sEV_ITEM>! <se_nots System Item>",
+      "pt-BR": "<pc> obteve (a/as, o/os, ê/ês) <%sEV_ITEM>! <se_nots System Item>",
       "zh-Hans": "<pc>获得了\n<%sEV_ITEM>！<se_nots System Item>",
       "zh-Hant": "<pc>獲得了\n<%sEV_ITEM>！<se_nots System Item>"
     }
@@ -2159,7 +2159,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "it": "<pc> ricevé ( (la/le, il/i, ???)¹, (l'/le, l'/gli, l'/???)², (la/le, lo/gli, ???)³) <%sEV_ITEM>! <se_nots System Item>",
    // "ja": "<pc>は\n<%sEV_ITEM>を　受け取った！<se_nots System Item>",
       "ko": "{pc}|hpp(은,는)\n{%sEV_ITEM}|hpp(을,를) 받았다!<se_nots System Item>",
-      "pt-BR": "<pc> recebeu (a/as, o/os, e/es) <%sEV_ITEM>! <se_nots System Item>",
+      "pt-BR": "<pc> recebeu (a/as, o/os, ê/ês) <%sEV_ITEM>! <se_nots System Item>",
       "zh-Hans": "<pc>\n收下了<%sEV_ITEM>！<se_nots System Item>",
       "zh-Hant": "<pc>收下了\n<%sEV_ITEM>！<se_nots System Item>"
     }
