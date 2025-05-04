@@ -260,22 +260,22 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>這不是<pc>嗎？\n你決定要和楊\n一決勝負了嗎？\n<br>\n你會在楊快等不及要睡著前\n和他分出高下吧？<yesno><break>"
   },
   "48151": {
-    "$comments": "🔴, ",
-    "de": "",
+    "$comments": "🟢, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00877, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_000]`, YESNO",
+    "de": "<attr><feel_sad_lv1><end_attr>Kann ich Euch irgendwie behilflich sein?<yesno><break>",
     "en": "<attr><feel_sad_lv1><end_attr>Can I help you?<yesno><break>",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "es": "<attr><feel_sad_lv1><end_attr>¿Puedo ayudarle en algo?<yesno><break>",
+    "fr": "<attr><feel_sad_lv1><end_attr>En quoi puis-je vous tre utile?<yesno><break>",
+    "it": "<attr><feel_sad_lv1><end_attr>Come posso aiutarla?<yesno><break>",
     "ja": "<attr><feel_sad_lv1><end_attr>「何か　用でありますか？<yesno><break>",
     "ko": "<attr><feel_sad_lv1><end_attr>: 무슨 용건이 있으십니까?<yesno><break>",
-    "pt-BR": "",
+    "pt-BR": "<attr><feel_sad_lv1><end_attr>Como posso ajudar?<yesno><break>",
     "zh-Hans": "<attr><feel_sad_lv1><end_attr>有什么事吗？<yesno><break>",
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>有什麼事嗎？<yesno><break>"
   },
   "48152": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00877, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_000]`, NO",
     "de": "",
-    "en": "If that's the case, I would like you to leave\nme alone.",
+    "en": "If that's the case, I would like you to leave me be.",
     "es": "",
     "fr": "",
     "it": "",
@@ -286,9 +286,9 @@
     "zh-Hant": "那麼請讓我一個人靜一靜。"
   },
   "48153": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00877, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_000]`, YES",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>I am sorry, but I don't have time to listen to\nanyone right now. Ugh, what should I do? Oh,\nRenohho.",
+    "en": "<attr><feel_sad_lv1><end_attr>I am sorry, but for now I have not the time to listen\nto anyone's conversations. Ugh, what should I do?\nAah... Renohho...",
     "es": "",
     "fr": "",
     "it": "",
@@ -299,9 +299,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>不好意思，\n我現在沒空聽別人說話。\n<br>\n唔唔，該怎麼辦才好……\n啊啊……萊諾霍……"
   },
   "48155": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_000]`, YESNO",
     "de": "",
-    "en": "I am Mr. Golek's first butler. I have been\nserving him ever since he became the owner of\nthis island. Although the master and I are\n<br>\nfrom different races, we have shared many\nhardships for the development of Luckland and\nwe are like comrades. I am so sorry to hear\n<br>\nthat the master, who is bound by such a strong\nbond with you, is so distressed that he cannot\neven exchange his favorite medals with you.\n<br>\nYou seem to be a well-traveled adventurer. I\nwould like to ask you for a favor in\nrecognition of your strength. Please find our\n<br>\nsecond steward, Renohho! He went to a certain\ncontinent in search of a Mini Medal, but he\ngot carried away and was found with the house\n<br>\nwardrobe, and was imprisoned. After that,\nmaster went to the authorities and Renohho was\nreleased, but he has been missing ever since.\n<br>\nThe master is very worried that he has damaged\nRenohho's life because of the mission he\nordered. Can you please find Renohho? If we can\n<br>\nconfirm that he is safe and sound, master will\nregain his strength and we will be able to\nexchange medals.",
+    "en": "I am Mr. Golek's #1 butler. Ever since he became the\nowner of this island, I have had the privilege of\nserving him.\n<br>\nAlthough the master and I are from different races,\nwe have shared many joys and sorrows, so to speak, for\nthe development of Luckland, and we are like comrades.\n<br>\nBecause of that strong bond I have with the master, it\ntroubles me that he is unable to exchange his beloved\nmedals...\n<br>\nYou appear to be a well-traveled adventurer, are you\nnot. In recognition of your strength, I wish to request\nof you. Please locate the #2 butler, Renohho!\n<br>\nHe goes to the continents in search of Mini Medals,\nbut gave into temptation, found with his hands in a\nhome's dresser, and was imprisoned.\n<br>\nAfterwards, the master negotiated with the authorities\nfor Renohho's release, however his current whereabouts\nare unknown...\n<br>\nDue to him acting on the master's orders, the master is\nvery worried that he has damaged Renohho's life, and\nis quite distressed.\n<br>\nPlease, can you find Renohho for us? Once we confirm\nhis well-being, the master should regain his spirit\nand be able to exchange medals.",
     "es": "",
     "fr": "",
     "it": "",
@@ -312,9 +312,9 @@
     "zh-Hant": "我是格雷克大人的第１管家。\n自從主人成為這座島的島主後，\n我便一直在旁服侍。\n<br>\n儘管主人與我種族不同，\n但我們為了拉卡蘭的發展同甘共苦，\n也就是志同道合的關係。\n<br>\n與我有著極深情誼的主人，\n傷心得連他最喜愛的小徽章兌換\n也顧不得了……\n<br>\n您看起來是位熟悉旅行的冒險者。\n我看中了您的能力，想拜託您。\n請您去尋找第２管家萊諾霍吧！\n<br>\n他前往某大陸尋找小徽章，\n一時鬼迷心竅對民宅的櫃子出手，\n被人發現後就關到牢裡了。\n<br>\n之後主人去向當局周旋，\n萊諾霍雖被釋放了，卻失去行蹤……\n<br>\n主人非常煩惱，\n覺得是自己指派的任務\n讓萊諾霍的人生染上汙點。\n<br>\n您可以為我們找到萊諾霍嗎？\n只要確認他平安，主人應該也會\n恢復往常，進行小徽章兌換吧。"
   },
   "48156": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_000]`, YES",
     "de": "",
-    "en": "Oh, you are willing to take on this project!\nThank you very much.",
+    "en": "Ooh, you will take it on for us, will you! You have\nmy gratitude.",
     "es": "",
     "fr": "",
     "it": "",
@@ -325,9 +325,9 @@
     "zh-Hant": "喔喔！您願意接受啊！\n感謝您。"
   },
   "48157": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_000]`, YES cont'd",
     "de": "",
-    "en": "Renohho has a Rail Pass. He got off at the Town\nof Orphea in Pukuland Continent, but his\nwhereabouts are unknown. But he hasn't been to\n<br>\nany other continent. If you search not only in\ntowns, but also in places where people live,\nyou will find him someday.",
+    "en": "Renohho possesses an Intercontinental Rail Pass. He\nappears to have disembarked in Pukuland's Orphea, but\nhis trail thereafter is uncertain.\n<br>\nHowever, he has not gone to another continent. If you\nsearch not only towns, but in places where people live,\neventually you will surely discover him.",
     "es": "",
     "fr": "",
     "it": "",
@@ -338,9 +338,9 @@
     "zh-Hant": "萊諾霍持有洲際鐵路通票。\n他似乎是在普庫蘭德大陸的\n歐菲亞鎮下車，之後就下落不明了。\n<br>\n但他並沒有前往其他大陸。\n包含市鎮在內，只要找找有人居住的地方，\n總有一天應該能找到吧。"
   },
   "48158": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_000]`, QUESTS FULL",
     "de": "",
-    "en": "Oh, so you are accepting! However, it seems\nthat you have a lot of favors to do. I can't\nask you to put off other people's requests\n<br>\nuntil another time. I will ask you another\ntime.",
+    "en": "Ooh, you will take it on for us, will you!\n...Nevertheless, you appear to be preoccupied with many\nrequests.\n<br>\nI must not ask you to postpone others' requests. I\nshall ask you again at another time.",
     "es": "",
     "fr": "",
     "it": "",
@@ -351,9 +351,9 @@
     "zh-Hant": "喔喔！您願意接受啊！\n……但是您好像\n接受了許多委託。\n<br>\n我可不能插隊\n來拜託您。\n還是下次再來拜託您吧。"
   },
   "48159": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_000]`, NO",
     "de": "",
-    "en": "I see. I understand that you have your own\nreasons, so I can't force you to do anything.",
+    "en": "Is that so... You, too, must have your reasons, so it is\nnot unreasonable to decline, is it...",
     "es": "",
     "fr": "",
     "it": "",
@@ -364,9 +364,9 @@
     "zh-Hant": "好吧……您也有\n您的事要處理，\n我也不能勉強……"
   },
   "48160": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_010]`",
     "de": "",
-    "en": "Master Golek is very distressed about the\ndamage he has done to Renohho's life with the\nmission he has ordered. Please find the\n<br>\nmissing second butler Renohho to restore the\nmaster's spirits.<open_irai><bw_break>",
+    "en": "Due to him acting on the master's orders, Master Golek\nis very worried that he has damaged Renohho's life,\nand is quite distressed.\n<br>\nPlease, to restore the master's spirit, the missing\n#2 butler... Find Renohho for us.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -377,9 +377,9 @@
     "zh-Hant": "格雷克大人非常煩惱，\n覺得是自己指派的任務\n讓萊諾霍的人生染上汙點。\n<br>\n為了讓主人打起精神，\n請您去尋找下落不明的第２管家\n萊諾霍吧。<open_irai><bw_break>"
   },
   "48161": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_010]`",
     "de": "",
-    "en": "<close_irai>He must be somewhere in Pukuland Continent. If\nyou search not only in towns, but also in\nplaces where people live, one day you will\n<br>\nfind him.",
+    "en": "<close_irai>He is expected to be in Pukuland. If you search not\nonly towns, but in places where people live, eventually\nyou will surely discover him.",
     "es": "",
     "fr": "",
     "it": "",
@@ -390,9 +390,9 @@
     "zh-Hant": "<close_irai>他應該在普庫蘭德大陸的某處。\n不只是市鎮，去找找那些有人住的地方，\n總有一天能找到吧。"
   },
   "48162": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00877, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_020]`",
     "de": "",
-    "en": "Renohho came to see us! What happiness! I'm\njust now being moved by it! I've been\nwondering about the whereabouts of the Mini\n<br>\nMedal that he collected in prison, and now\nit's finally mine! Now I don't have to worry\nanymore! I can sleep peacefully from tonight!",
+    "en": "Renohho came to see us! What a blessing! I, even now,\nam intensely moved by it!\n<br>\nDuring his time in prison, he amassed a multitude of\nMini Medals!\n<br>\nThe whole time I thought I had been troubled over his\nwhereabouts, but, well, in the end it was about my\nmedals!\n<br>\nSo then, I have no more worries! Tonight, I can sleep\npeacefully!",
     "es": "",
     "fr": "",
     "it": "",
@@ -403,9 +403,9 @@
     "zh-Hant": "萊諾霍來了！\n我太幸福了！現在這個當下，\n我真的是非常感動啊！\n<br>\n他在獄中收集大量的小徽章！\n我一直很在意它們的去向，\n現在這些小徽章終於都屬於我了！\n<br>\n這下再也沒什麼好擔心的！\n今晚開始就能睡個好覺了！"
   },
   "48163": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_020]`",
     "de": "",
-    "en": "Thank you very much. Renohho told me that he\nreturned to this castle He returned to the\ncastle at your call. Master Golek has regained\n<br>\nhis strength after meeting with Renohho.<bw_break>",
+    "en": "Thank you very much. Renohho has told me that he\nreturned to the castle at your invitation.\n<br>\nHaving seen Renohho in person, Master Golek has\nregained his spirit.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -416,9 +416,9 @@
     "zh-Hant": "非常感謝您。\n萊諾霍說您去找過他，\n於是便返回這座城來。\n<br>\n格雷克大人在見到萊諾霍後\n就像那樣，也恢復精神了。<bw_break>"
   },
   "48164": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_020]`",
     "de": "",
-    "en": "Thanks to you, master will be able to start\nthe medal exchange again. In return, please\naccept this gift.",
+    "en": "Thanks to you, the master shall again be able to\ncommence the medal exchange. Please accept this item\nas reward.",
     "es": "",
     "fr": "",
     "it": "",
@@ -429,7 +429,7 @@
     "zh-Hant": "多虧您，主人重啟了\n小徽章的交換。\n作為謝禮，請收下這個。"
   },
   "48165": {
-    "$comments": "🔴, ",
+    "$comments": "🟢, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_020]`, unused?",
     "de": "",
     "en": "Then please accept this gift in return for\nfinding Renohho.",
     "es": "",
@@ -442,9 +442,9 @@
     "zh-Hant": "為了答謝您找到萊諾霍，\n請收下這份謝禮。"
   },
   "48166": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_200]`",
     "de": "",
-    "en": "I never realized that the reason why Mr.\nGolek's heart was so troubled was that he had\nnot been able to recover the Mini Medal. I\n<br>\nthought it was out of concern for Renohho's\nsafety, and to be honest, I am shocked, but\nthis time I learned even more about the depth\n<br>\nof Master's love for Mini Medal. If you happen\nto acquire a Mini Medal during your travels,\nplease bring it to the master.",
+    "en": "Nevertheless... To think that the source of Master Golek's\nheart being so troubled was that he had not been able\nto recover the Mini Medals...\n<br>\nHe was not concerned with Renohho's well-being, as I\nhad been thinking, and—honestly—it shocks me, but...\n<br>\nThis time I have learned even more about the depth of\nthe master's love for Mini Medals.\n<br>\nAnd from now on upon your journey, whenever you obtain\na Mini Medal, certainly, please bring it to the\nmaster.",
     "es": "",
     "fr": "",
     "it": "",
@@ -455,9 +455,9 @@
     "zh-Hant": "話說回來……沒想到格雷克大人\n之所以會那樣意志消沉，\n居然是因為沒能回收那些小徽章……\n<br>\n還以為他是因為\n過度擔心萊諾霍的安危才這樣，\n讓我有點受到打擊呢……\n<br>\n不過，經過這次的事，\n我更清楚地知道了主人\n對於小徽章的熱愛之深。\n<br>\n您今後若是在旅途中取得小徽章，\n請務必帶來主人這裡吧。"
   },
   "48168": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00877, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_200]`",
     "de": "",
-    "en": "Renohho came to see us! What happiness! I'm\njust now being moved by it! I've been\nwondering about the whereabouts of the Mini\n<br>\nMedal that he collected in prison, and now\nit's finally mine! Now I don't have to worry\nanymore! We'll start exchanging medals as\n<br>\nusual!",
+    "en": "Renohho came to see us! What a blessing! I, even now,\nam intensely moved by it!\n<br>\nDuring his time in prison, he amassed a multitude of\nMini Medals!\n<br>\nThe whole time I thought I had been troubled over his\nwhereabouts, but, well, in the end it was about my\nmedals!\n<br>\nSo then, I have no more worries! As usual, I can\ncommence the Mini Medal Exchange!",
     "es": "",
     "fr": "",
     "it": "",
@@ -468,9 +468,9 @@
     "zh-Hant": "萊諾霍來了！\n我太幸福了！現在這個當下，\n我真的是非常感動啊！\n<br>\n他在獄中收集大量的小徽章！\n我一直很在意它們的去向，\n現在這些小徽章終於都屬於我了！\n<br>\n這下再也沒什麼好擔心的！\n能像平常那樣，進行小徽章兌換囉！"
   },
   "48169": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_200]`",
     "de": "",
-    "en": "To be honest, I am shocked that the source of\nMr. Golek's concern was not Renohho but Mini\nMedal, but I guess that is also typical of the\n<br>\nmaster. This time, I was able to learn more\nabout the depth of the master's love for the\nMini Medal. I cannot thank you enough. I'd\n<br>\nlike to give you a special offer, so please\nfeel free to use it in addition to the items\nyou wish to exchange.",
+    "en": "The source of Master Golek's worry not being Renohho,\nbut the Mini Medals—honestly—it shocks me, however\nthe master appears to have said so himself.\n<br>\nThis time I have learned even more about the depth of\nthe master's love for Mini Medals.\n<br>\nI cannot thank you enough. In particular, I offer you\nthis in addition, so that you may exchange it for the\nitems you wish.",
     "es": "",
     "fr": "",
     "it": "",
@@ -481,9 +481,9 @@
     "zh-Hant": "格雷克大人擔心的不是萊諾霍\n而是小徽章，讓我頗受打擊，\n但那也可以說是貫徹了主人的風格吧。\n<br>\n經過這次的事，\n我更清楚地知道了主人\n對於小徽章的熱愛之深。\n<br>\n對您實在是感激不盡。\n我再特別送上這個，\n希望能彌補您想兌換的東西。"
   },
   "50808": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_200]`",
     "de": "",
-    "en": "If you happen to acquire a Mini Medal during\nyour travels in the future, please bring it to\nthe master.",
+    "en": "And from now on upon your journey, whenever you obtain\na Mini Medal, certainly, please bring it to the\nmaster.",
     "es": "",
     "fr": "",
     "it": "",
@@ -494,9 +494,9 @@
     "zh-Hant": "今後你若在旅途中\n拿到小徽章，\n請一定要來與主人交換。"
   },
   "50809": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_200]`",
     "de": "",
-    "en": "To be honest, I am shocked that the source of\nMr. Golek's concern was not Renohho but Mini\nMedal, but I guess that is also typical of the\n<br>\nmaster. This time, I was able to learn more\nabout the depth of the master's love for the\nMini Medal. If you happen to come across a\n<br>\nMini Medal during your travels, please do not\nhesitate to bring it to the master.",
+    "en": "The source of Master Golek's worry not being Renohho,\nbut the Mini Medals—honestly—it shocks me, however\nthe master appears to have said so himself.\n<br>\nThis time I have learned even more about the depth of\nthe master's love for Mini Medals.\n<br>\nAnd from now on upon your journey, whenever you obtain\na Mini Medal, certainly, please bring it to the\nmaster.",
     "es": "",
     "fr": "",
     "it": "",
@@ -507,15 +507,15 @@
     "zh-Hant": "格雷克大人擔心的不是萊諾霍\n而是小徽章，讓我頗受打擊，\n但那也可以說是貫徹了主人的風格吧。\n<br>\n經過這次的事，\n我更清楚地知道了主人\n對於小徽章的熱愛之深。\n<br>\n您今後若是在旅途中取得小徽章，\n請務必帶來主人這裡吧。"
   },
   "50810": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> received a Mini Medal!<se_nots System Item>",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "$comments": "🟢, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00878, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_200]`",
+    "de": "<pc> erhielt eine Minimedaille! <se_nots System Item>",
+    "en": "<pc> received a Mini Medal! <se_nots System Item>",
+    "es": "<pc> recibió una Minimedalla! <se_nots System Item>",
+    "fr": "<pc> reçut une Minimédaille! <se_nots System Item>",
+    "it": "<pc> ricevé una Minimedaglie! <se_nots System Item>",
     "ja": "<pc>は\nちいさなメダルを　受け取った！<se_nots System Item>",
     "ko": "{pc}|hpp(은,는)\n작은 메달을 받았다!<se_nots System Item>",
-    "pt-BR": "",
+    "pt-BR": "<pc> recebeu uma Minimedalha! <se_nots System Item>",
     "zh-Hans": "<pc>\n收下了小徽章！<se_nots System Item>",
     "zh-Hant": "<pc>\n收下了小徽章！<se_nots System Item>"
   },
@@ -2899,9 +2899,9 @@
     "zh-Hant": "……真傷腦筋，我妻子趁我不注意，\n把手裡的錢全換成賭場硬幣了，\n不時時盯著她不行耶。\n<br>\n不過話說回來，娛樂島拉卡蘭\n這個被譽為招牌中的招牌的賭場……\n感覺到底如何呢？真讓人期待不已。"
   },
   "35878": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (019) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00879, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_006_1_000]`",
     "de": "",
-    "en": "The owner of Luckland Island, Mr. Golek, is\nover there. He is also called the \"Medal\nOwner\" because he exchanges Mini Medals for\n<br>\nvaluable treasures. If you have a Mini Medal,\nyou can have it exchanged.",
+    "en": "That one there is Luckland Island's owner, Mr. Golek.\nBecause Mr. Golek exchanges Mini Medals for valuable\ntreasures, he is also called the \"Medal Owner\".\n<br>\nIf you have any Mini Medals as well, you may be able to\nexchange them.",
     "es": "",
     "fr": "",
     "it": "",

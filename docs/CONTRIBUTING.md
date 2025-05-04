@@ -849,8 +849,8 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |            `STT_TestText`             |     |                                             |                                                                                             |
 |           `STT_TinyMedals`            |     |                                             |                                                                                             |
 |        `STT_TinyMedalsWindow`         |     |                                             |                                                                                             |
-|          `STT_Tips_Category`          |     |                                             |                                                                                             |
-|          `STT_Tips_Content`           |     |                                             |                                                                                             |
+|          `STT_Tips_Category`          |     |                                             | Tips titles                                                                                 |
+|          `STT_Tips_Content`           |     | ~60ch                                       | Tips content                                                                                |
 |         `STT_ToolActionItem`          |     |                                             |                                                                                             |
 |           `STT_UIDouguSys`            |     |                                             |                                                                                             |
 |           `STT_UIJumonSys`            |     |                                             |                                                                                             |

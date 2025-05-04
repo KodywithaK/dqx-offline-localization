@@ -2,7 +2,7 @@
   "48186": {
     "$comments": "🟡, Quest (018) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01012, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_013_1_000, STT_CommonItem.[*_ID_ITEM_MATERIAL_SAEZURINOMITU, *_ID_ITEM_TANE_UTSUKUSHISOU, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YUWAKUEKISU, STT_BattleMonsterName.ID_MONSTER_NAME_12101]]`, YESNO",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>I long for Director Sugim. I never miss a day striving\nto become a lovely person like the Director.\n<br>\nBut, even if with a pretty voice from Birdsong Nectar,\nor smooth skin from a pack of Pretty Bettsies, I'm\nstill far from Director Sugim's charm.\n<br>\nY'know, I heard a rumor that if one uses <color_yellow>Alluring\nExtract<color_white>, which is dropped by <color_red><%sEV_QUE_NAME0>s<color_white> in Becon\nValley, that they will become super sexy.\n<br>\nIf I only had that, surely I could become a sweet\nsister too... Aah, I want it, I waaant it!",
+    "en": "<attr><feel_think_lv1><end_attr>I long for Director Sugim. I never miss a day striving\nto become a lovely person like the Director.\n<br>\nBut, even if with a pretty voice from Birdsong Nectar,\nor smooth skin from a pack of Pretty Bettsies, I'm still\nfar from Director Sugim's charm.\n<br>\nY'know, I heard a rumor that if one uses <color_yellow>Alluring\nExtract<color_white>, which is dropped by <color_red><%sEV_QUE_NAME0>s<color_white> in Becon\nValley, that they will become super sexy.\n<br>\nIf I only had that, surely I could become a sweet sister\ntoo... Aah, I want it, I waaant it!",
     "es": "",
     "fr": "",
     "it": "",
@@ -80,7 +80,7 @@
   "48192": {
     "$comments": "🟡, Quest (018) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01012, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_013_1_020]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>That pink liquid in your hand. Could it be the\n<color_yellow>Alluring Extract<color_white>? Aah, gimme, gimmeee!",
+    "en": "<attr><feel_happy_lv1><end_attr>That pink liquid in your hand. Could it be the <color_yellow>Alluring\nExtract<color_white>? Aah, gimme, gimmeee!",
     "es": "",
     "fr": "",
     "it": "",
@@ -119,7 +119,7 @@
   "48193": {
     "$comments": "🟡, Quest (018) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01012, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_013_1_020]`, NO",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>Aah. It wasn't Alluring Extract? Looks like this\ngirl's hunch was off. Don't tease me・too・much <heart>",
+    "en": "<attr><feel_think_lv1><end_attr>Aah. It wasn't <color_yellow>Alluring Extract<color_white>? Looks like this girl's\nhunch was off. Don't tease me・too・much <heart>",
     "es": "",
     "fr": "",
     "it": "",
@@ -184,7 +184,7 @@
   "48196": {
     "$comments": "🟡, Quest (018) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01012, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_013_1_020]`",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>Nooo! What's with this extract? Doggies surrounded me\nand were woofing up a racket like you wouldn't belive!\n<br>\nNo... No way, are you telling me that this extract doesn't\nwork on anything by doggies!? It can't make people\nsuper sexyyy!?\n<br>\n...So. That's so, isn't it. I realized. I knew it was no\ngood relying on it! I have to have a lovely heart of\nmy own!\n<br>\nI feel like this mistake brought me a tiny bit closer\nto becoming a sweet sister. This is a reward for\nmaking me realize something important <heart>",
+    "en": "<attr><feel_angry_lv1><end_attr>Nooo! What's with this extract? Doggies surrounded me\nand were woofing up a racket like you wouldn't belive!\n<br>\nNo... No way, are you telling me that this extract doesn't\nwork on anything by doggies!? It can't make people\nsuper sexyyy!?\n<br>\n...So. That's so, isn't it. I realized. I knew it was no good\nrelying on it! I have to have a lovely heart of my own!\n<br>\nI feel like this mistake brought me a tiny bit closer to\nbecoming a sweet sister. This is a reward for making me\nrealize something important <heart>",
     "es": "",
     "fr": "",
     "it": "",
@@ -3408,7 +3408,7 @@
   "35922": {
     "$comments": "🟡, see `STT_NpcInfo.NAME_NPC_00989`",
     "de": "",
-    "en": "<if_woman><attr><feel_happy_lv1><end_attr>Ahh, you are a very pretty girl, aren't you. I could\njust eat you up; meeting a pretty girl like you is a\nblessing.\n<br>\nIf it were for your sake, I'd be happy to send out a\nship, but—aah—for the time being, no ships can\nleave.\n<br>\nThe waters around Lendersia are so stormy, that even\nGrand Titus is broken, you know. So now, my hands are\ntied.\n<br>\nIf you want the truth, it's like my heart burst\nbecause I was looking forward to a passionate night\ncruise with you, but alas. My apologies, okayyy.<else><attr><feel_happy_lv1><end_attr>Ahh, you are a very pretty boy, aren't you. I could\njust eat you up; meeting a pretty boy like you is a\nblessing.\n<br>\nIf it were for your sake, I'd be happy to send out a\nship, but—aah—for the time being, no ships can\nleave.\n<br>\nThe waters around Lendersia are so stormy, that even\nGrand Titus is broken, you know. So now, my hands are\ntied.\n<br>\nIf you want the truth, it's like my heart burst\nbecause I was looking forward to a passionate night\ncruise with you, but alas. My apologies, okayyy.<endif>",
+    "en": "<if_woman><attr><feel_happy_lv1><end_attr>Ahh, you are a very pretty girl, aren't you. I could just\neat you up; meeting a pretty girl like you is a blessing.\n<br>\nIf it were for your sake, I'd be happy to send out a ship,\nbut—aah—for the time being, no ships can leave.\n<br>\nThe waters around Lendersia are so stormy, that even\nthe Grand Titus is broken, you know. So now, my hands\nare tied.\n<br>\nIf you want the truth, it's like my heart burst because I\nwas looking forward to a passionate night cruise with\nyou, but alas. My apologies, okayyy.<else><attr><feel_happy_lv1><end_attr>Ahh, you are a very pretty boy, aren't you. I could just\neat you up; meeting a pretty boy like you is a blessing.\n<br>\nIf it were for your sake, I'd be happy to send out a ship,\nbut—aah—for the time being, no ships can leave.\n<br>\nThe waters around Lendersia are so stormy, that even\nthe Grand Titus is broken, you know. So now, my hands\nare tied.\n<br>\nIf you want the truth, it's like my heart burst because I\nwas looking forward to a passionate night cruise with\nyou, but alas. My apologies, okayyy.<endif>",
     "es": "",
     "fr": "",
     "it": "",
