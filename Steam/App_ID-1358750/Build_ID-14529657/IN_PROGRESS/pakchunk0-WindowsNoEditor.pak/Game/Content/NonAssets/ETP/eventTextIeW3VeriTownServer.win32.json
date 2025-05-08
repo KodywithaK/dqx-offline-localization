@@ -403,7 +403,7 @@
     "zh-Hant": "歡迎來到威里納德教會。\n每天都會有各式各樣的人\n來這個教會拜訪喔。\n<br>\n光是聽那些人敘述他們的經歷，\n我就會覺得自己像在世界各地旅行一樣。"
   },
   "49322": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00819, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_060]`",
     "de": "",
     "en": "Welcome to Verinard Church. Traveler, you seem to be\nin a bit of a hurry, has something happened?",
     "es": "",
@@ -415,23 +415,10 @@
     "zh-Hans": "欢迎来到威里纳德教会。\n旅行者，你好像很匆忙啊，\n发生了什么事情吗？",
     "zh-Hant": "歡迎來到威里納德教會，\n你看起來有點慌亂呢，旅行者，\n發生了什麼事嗎？"
   },
-  "49323": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "Oh my Goddess, it's such a big deal, but... I got it.\nIf you're suffering from Kafrizz Fever, there is\nsomething I can tell you.\n<br>\n...A story from a long time ago. An Elf woman entered\nthe church, collapsed, and when I noticed, I rushed\nover to her.\n<br>\nI think she was attacked by monsters. She was so\nterribly wounded... The woman moved her mouth to say\nsomething, and I put my ear to her mouth to listen.\n<br>\nThe woman said in a hushed voice, 'Someday, if a\nKafrizz Fever outbreak spreads, I want you to\nremember my words.'\n<br>\n'East of Booner Rainforest, under a small stone\nmonument, I hid something. I'm sure it will come in\nhandy, so I want you to look for it'.\n<br>\n...She entrusted me with those words. Booner\nRainforest is a long ways away. Please be well\nprepared before you leave.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "「まあ　そんな大変なことが……。\n　わかりました。メラゾ熱で　お困りなら\n　お話しできることが　あります。\n<br>\n「……ずいぶんと以前の話になります。\n　エルフの女性が　この教会に入るや倒れ込み\n　気づいた私は　急いで駆け寄りました。\n<br>\n「魔物に襲われたのでしょうか。ひどいキズで……\n　何か言おうと　女性が　クチを動かしたので\n　私は　彼女の口元に　耳をよせました。\n<br>\n「その女性は　かすれる声で言いました。\n　いつか　メラゾ熱が　はやることがあったら\n　自分の言葉を　思いだしてほしいと。\n<br>\n「ブーナー熱帯雨林の東　小さな石碑の下に\n　あるものを隠した。\n　きっと　助けになるはずだから　調べてほしい。\n<br>\n「……私に　そう言葉を託されたのです。\n　ブーナー熱帯雨林までは　かなりの距離。\n　しっかりと準備をしてから　出発されますよう。",
-    "ko": ": 세상에, 그런 큰일이…….\n　그래요, 메라조열 때문에 고생 중이시라면\n　제가 말씀드릴 수 있는 게 있습니다.\n<br>\n: ……아주 옛날에 있었던 일입니다.\n　엘프 여성 한 분이 이 교회로 들어오자마자\n　쓰러졌어요. 그걸 본 저는 부리나케 달려갔죠.\n<br>\n: 마물에게 공격을 받았는지 심각한 상처가……\n　뭔가를 말하려고 입을 움직이시길래\n　저는 그분의 입가에 귀를 갖다댔어요.\n<br>\n: 그 여성은 쉰 목소리로 말씀하셨어요.\n　언젠가 메라조열이 유행하게 되면\n　자기가 한 말을 떠올려 달라고 했죠.\n<br>\n: 부나 열대 우림 동쪽의 작은 비석 아래에\n　어떤 물건을 숨겼는데\n　틀림없이 도움이 될 테니 살펴보라고.\n<br>\n: ……제게 그런 말씀을 남기셨습니다.\n　부나 열대 우림까지는 제법 머니까\n　꼼꼼하게 준비한 후에 출발하세요.",
-    "pt-BR": "",
-    "zh-Hans": "发生了那样的事情啊……\n我明白了，既然你正为美拉佐热而烦恼，\n那么我有一件事可以告诉你。\n<br>\n已经是很久以前的事了……\n一位埃尔夫女性刚进这座教会就倒下了，\n我发现之后，急忙跑过去看她。\n<br>\n她也许是受到了怪物的攻击，\n伤得非常重……我看她好像有什么话想说，\n于是就把耳朵凑到她嘴边。\n<br>\n那位女性用沙哑的声音告诉我，\n如果有一天美拉佐热四处蔓延，\n请一定要想起她说的话。\n<br>\n她说她在布纳热带雨林东面的小石碑下\n藏了什么东西。\n去找出来的话，一定会派得上用场。\n<br>\n这就是她留给我的话。\n布纳热带雨林路途遥远，\n如果要前往，请一定先做好准备。",
-    "zh-Hant": "哎呀……竟然發生這麼嚴重的事。\n我明白了，既然你正在為美拉佐熱煩惱的話，\n我這裡有件事可以跟你說。\n<br>\n……那是很久以前的事情了，\n有一位艾爾芙女性一走進這教會就突然倒下，\n我發現以後馬上趕過去查看。\n<br>\n她應該是被怪物襲擊了，傷得很重……\n我看她好像有什麼話想說，\n就把耳朵湊到他嘴邊。\n<br>\n那位女性用沙啞的聲音對我說，\n如果有一天美拉佐熱四處蔓延，\n請想起她說的話。\n<br>\n她藏了一些東西在布納熱帶雨林東邊的\n一個小小的石碑下，\n那東西一定能夠派上用場，希望有人可以找出來。\n<br>\n……這就是她留給我的話。\n這裡距離布納熱帶雨林很遠，\n請做好準備後再出發。"
-  },
   "49324": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00819, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_060]`",
     "de": "",
-    "en": "<pc> told Kyasso what had happened\nso far.",
+    "en": "<pc> told <%sEV_SYSMSG_NPC> what had happened so far.",
     "es": "",
     "fr": "",
     "it": "",
@@ -441,10 +428,23 @@
     "zh-Hans": "<pc>向嘉索\n讲述了事情的经过。",
     "zh-Hant": "<pc>告訴嘉索\n至今為止發生的事。"
   },
-  "49325": {
-    "$comments": "🔴, ",
+  "49323": {
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00819, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_060]`",
     "de": "",
-    "en": "Welcome to Verinard Church. Travelers, allow me to\nonce again share with you the words that the Elf\nwoman entrusted to me.\n<br>\n'East of Booner Rainforest, under a small stone\nmonument, I hid something. I'm sure it will come in\nhandy, so I want you to look for it'.\n<br>\n...Booner Rainforest is a long ways away. Please be\nwell prepared before you leave. I shall pray for\nyour safe journey.",
+    "en": "Oh my Goddess, it's such a big deal, but... I got it.\nIf you're suffering from Kafrizz Fever, there is something\nI can tell you.\n<br>\n...A story from a long time ago. An Elf woman entered\nthe church and collapsed; when I noticed, I rushed\nover to her.\n<br>\nI think she was attacked by monsters. She was so\nterribly wounded... The woman moved her mouth to say\nsomething, and I put my ear to her mouth to listen.\n<br>\nThe woman in a hushed voice said, \"Someday, if a\nKafrizz Fever outbreak spreads, I want you to remember\nmy words.\"\n<br>\n\"East of Booner Rainforest, under a small stone\nmonument, I hid something. I'm sure it will come in\nhandy, so I want you to look for it.\"\n<br>\n...She entrusted me with those words. Booner Rainforest\nis a long ways away. Please be well prepared before\nyou leave.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "「まあ　そんな大変なことが……。\n　わかりました。メラゾ熱で　お困りなら\n　お話しできることが　あります。\n<br>\n「……ずいぶんと以前の話になります。\n　エルフの女性が　この教会に入るや倒れ込み\n　気づいた私は　急いで駆け寄りました。\n<br>\n「魔物に襲われたのでしょうか。ひどいキズで……\n　何か言おうと　女性が　クチを動かしたので\n　私は　彼女の口元に　耳をよせました。\n<br>\n「その女性は　かすれる声で言いました。\n　いつか　メラゾ熱が　はやることがあったら\n　自分の言葉を　思いだしてほしいと。\n<br>\n「ブーナー熱帯雨林の東　小さな石碑の下に\n　あるものを隠した。\n　きっと　助けになるはずだから　調べてほしい。\n<br>\n「……私に　そう言葉を託されたのです。\n　ブーナー熱帯雨林までは　かなりの距離。\n　しっかりと準備をしてから　出発されますよう。",
+    "ko": ": 세상에, 그런 큰일이…….\n　그래요, 메라조열 때문에 고생 중이시라면\n　제가 말씀드릴 수 있는 게 있습니다.\n<br>\n: ……아주 옛날에 있었던 일입니다.\n　엘프 여성 한 분이 이 교회로 들어오자마자\n　쓰러졌어요. 그걸 본 저는 부리나케 달려갔죠.\n<br>\n: 마물에게 공격을 받았는지 심각한 상처가……\n　뭔가를 말하려고 입을 움직이시길래\n　저는 그분의 입가에 귀를 갖다댔어요.\n<br>\n: 그 여성은 쉰 목소리로 말씀하셨어요.\n　언젠가 메라조열이 유행하게 되면\n　자기가 한 말을 떠올려 달라고 했죠.\n<br>\n: 부나 열대 우림 동쪽의 작은 비석 아래에\n　어떤 물건을 숨겼는데\n　틀림없이 도움이 될 테니 살펴보라고.\n<br>\n: ……제게 그런 말씀을 남기셨습니다.\n　부나 열대 우림까지는 제법 머니까\n　꼼꼼하게 준비한 후에 출발하세요.",
+    "pt-BR": "",
+    "zh-Hans": "发生了那样的事情啊……\n我明白了，既然你正为美拉佐热而烦恼，\n那么我有一件事可以告诉你。\n<br>\n已经是很久以前的事了……\n一位埃尔夫女性刚进这座教会就倒下了，\n我发现之后，急忙跑过去看她。\n<br>\n她也许是受到了怪物的攻击，\n伤得非常重……我看她好像有什么话想说，\n于是就把耳朵凑到她嘴边。\n<br>\n那位女性用沙哑的声音告诉我，\n如果有一天美拉佐热四处蔓延，\n请一定要想起她说的话。\n<br>\n她说她在布纳热带雨林东面的小石碑下\n藏了什么东西。\n去找出来的话，一定会派得上用场。\n<br>\n这就是她留给我的话。\n布纳热带雨林路途遥远，\n如果要前往，请一定先做好准备。",
+    "zh-Hant": "哎呀……竟然發生這麼嚴重的事。\n我明白了，既然你正在為美拉佐熱煩惱的話，\n我這裡有件事可以跟你說。\n<br>\n……那是很久以前的事情了，\n有一位艾爾芙女性一走進這教會就突然倒下，\n我發現以後馬上趕過去查看。\n<br>\n她應該是被怪物襲擊了，傷得很重……\n我看她好像有什麼話想說，\n就把耳朵湊到他嘴邊。\n<br>\n那位女性用沙啞的聲音對我說，\n如果有一天美拉佐熱四處蔓延，\n請想起她說的話。\n<br>\n她藏了一些東西在布納熱帶雨林東邊的\n一個小小的石碑下，\n那東西一定能夠派上用場，希望有人可以找出來。\n<br>\n……這就是她留給我的話。\n這裡距離布納熱帶雨林很遠，\n請做好準備後再出發。"
+  },
+  "49325": {
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00819, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_070]`",
+    "de": "",
+    "en": "Welcome to Verinard Church. Travelers, allow me to\nonce again share with you the words that the Elf woman entrusted to me.\n<br>\n\"East of Booner Rainforest, under a small stone\nmonument, I hid something. I'm sure it will come in\nhandy, so I want you to look for it.\"\n<br>\n...Booner Rainforest is a long ways away. Please be well\nprepared before you leave. I shall pray for your safe\njourney.",
     "es": "",
     "fr": "",
     "it": "",
@@ -455,9 +455,9 @@
     "zh-Hant": "歡迎來到威里納德教會。\n旅行者，我再跟你說一次\n艾爾芙女性留給我的話。\n<br>\n她藏了一些東西在布納熱帶雨林東邊的\n一個小小的石碑下，\n那東西一定能夠派上用場，希望有人可以找出來。\n<br>\n……這裡距離布納熱帶雨林很遠，\n請做好準備後再出發。\n我會為你祈禱一路平安的。"
   },
   "49326": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00819, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_080]`",
     "de": "",
-    "en": "Welcome to Verinard Church. Traveler, you went to\ncheck the stone monument at Booner Rainforest,\nhaven't you.\n<br>\nPlease take what you obtained with you. It is your\nbest chance at preventing the Kafrizz Fever outbreak.",
+    "en": "Welcome to Verinard Church. Traveler, you went to\ncheck the stone monument at Booner Rainforest,\nhaven't you.\n<br>\nPlease take what you obtained with you. It is your best\nchance at preventing the Kafrizz Fever outbreak.",
     "es": "",
     "fr": "",
     "it": "",
@@ -468,9 +468,9 @@
     "zh-Hant": "歡迎來到威里納德教會。\n旅行者，你已經到布納熱帶雨林\n調查那塊石碑了吧。\n<br>\n請好好保管你找到的東西，\n要是它能夠阻止美拉佐熱蔓延就好了。"
   },
   "49327": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00819, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_200]`",
     "de": "",
-    "en": "Welcome to Verinard Church. Kafrizz\nFever didn't turn out to be serious,\ndid it? Thank God. I forgot to mention\n<br>\nthat the Elf woman who appeared at the\nchurch in the past managed to survive.\nHowever, if her daughter in Royal City\n<br>\nKamiharmui knew she was alive, she\nwould be in danger. So, I want you to\npretend that she is dead. With these\n<br>\nwords, she disappeared from\nVerinard Church.",
+    "en": "Welcome to Verinard Church. Kafrizz Fever didn't turn\nout to be serious, did it... Thank the Gods.\n<br>\nI forgot to mention it, but to tell the truth, the Elf\nwoman who appeared at the church in the past somehow\nmanaged to survive.\nHowever, if her daughter in Royal City Kamiharmui knew\nthat she was alive, it would endanger her.\n<br>\nSo, I want you to omit that, and say that she vanished\nfrom Verinard's church.",
     "es": "",
     "fr": "",
     "it": "",

@@ -1243,9 +1243,9 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
   | `eventTextIeE3KamiCastServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeE3KamiFldnServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeE3KamiFldsServer.win32.etp`                |                                                                                                     |                                                     |
-  | `eventTextIeE3KamiKitaServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE3KamiKitaServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Elf_e3006`                |             (N) Royal Capital Kamiharmui            |
   | `eventTextIeE3KamiMonsServer.win32.etp`                |                  `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`                   |                   Monster Tavern                    |
-  | `eventTextIeE3KamiTownServer.win32.etp`                |                                                                                                     |                                                     |
+  | `eventTextIeE3KamiTownServer.win32.etp`                |               `Game.locres.json:STT_System_Location.SYSTXT_LOCATION_STAGE_Elf_e3000`                |             (S) Royal Capital Kamiharmui            |
   | `eventTextIeE3OhorFldServer.win32.etp`                 |                                                                                                     |                                                     |
   | `eventTextIeE3SuteDungServer.win32.etp`                |                                                                                                     |                                                     |
   | `eventTextIeF1JiyuTownServer.win32.etp`                |                                                                                                     |                                                     |
@@ -2060,7 +2060,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
     "de": "<pc> hat das Alchemie-Topf (Wichtig) erhalten¹!<me 60>\n<br>\nAußerdem hat <pc> das Rezeptbuch, \"Alchemie für Anfänger\" erhalten¹!<se_nots System Item>\n<br>\n<pc> hat \"Alchemie für Anfänger\" gelesen!\n<br>\n<pc> hat die Rezepte aus \"Alchemie für Anfänger\" gelernt!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
     "en": "<pc> received² the Alchemy Pot (Key Item)!<me 60>\n<br>\nThey also received a recipe book,\"Beginner's Alchemy\"!<se_nots System Item>\n<br>\n<pc> read² \"Beginner's Alchemy\"! <pc>\nlearned the recipes in \"Beginner's Alchemy\"!<se_nots System Item>¹\n<br>\n					The Alchemy Pot is a special tool used to alchemize\nanother item by inserting items as materials.\n<br>\nYou can alchemize items by selecting \"Alchemy Pot\"\nfrom the \"Items\" menu. To alchemize an item, you will\nneed the recipe of said item.\n<br>\nRecipes can be obtained from the Recipe Shop or\nbookshelves.",
     "es": "<pc> recibió¹ le³ Pote de Alquimia!<me 60>\n<br>\nTambién recibió¹ el libro de recetas, \"Alquimia para Principiante\"!<se_nots System Item>\n<br>\n<pc> ha leído \"Alquimia para Principiante\"!\n<br>\n<pc> ha aprendido las recetas de \"Alquimia para Principiante\"!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
-    "fr": "<pc> reçut lea³ Pot d'Alchimie (Objet Important)!<me 60>\n<br>\nEn outre, iel reçut le livre de recettes, \"L'Alchimie du Débutant\"!<se_nots System Item>\n<br>\n<pc> a lu \"L'Alchimie du Débutant\"!\n<br>\n<pc> a appris les recettes de \"L'Alchimie du Débutant\"!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
+    "fr": "<pc> reçut lea³ Pot d'Alchimie (Objet Important) !<me 60>\n<br>\nEn outre, iel reçut le livre de recettes, \"L'Alchimie du Débutant\" !<se_nots System Item>\n<br>\n<pc> a lu \"L'Alchimie du Débutant\" !\n<br>\n<pc> a appris les recettes de \"L'Alchimie du Débutant\" !<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
     "it": "<pc> ricevette¹ ???³ Vaso dell'Alchimia (Oggetto Importante)!<me 60>\n<br>\nInoltre, ricevette¹ il libro di ricette, \"Alchimia per Principiante\"!<se_nots System Item>\n<br>\n<pc> ha letto¹ \"Alchimia per Principiante\"!\n<br>\n<pc> ha imparato¹ le ricette di \"Alchimia per Principiante\"!<se_nots System Item>\n<br>\n					れんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
     "ja": "<pc>は\nれんきんがま（だいじなもの）を\n受け取った！<me 60>\n<br>\nさらに　レシピ帳\n『はじめよう錬金術』を\n受け取った！<se_nots System Item>\n<br>\n<pc>は\n『はじめよう錬金術』を\n読んだ！\n<br>\n<pc>は\nはじめよう錬金術の\nレシピを覚えた！<se_nots System Item>\n<br>\nれんきんがまは　素材となるアイテムを\n投入することで　別のアイテムを\n錬金することができる　特別な道具です。\n<br>\n『どうぐ』コマンドから\n『れんきんがま』を　選ぶと\n錬金することが　できます。\n<br>\n錬金するためには　作りたいアイテムの\n「レシピ」が必要となります。レシピは\nレシピ屋や　本棚などから　入手できます。",
     "ko": "{pc}|hpp(은,는)\n연금 가마솥(중요한 물건)을\n받았다!<me 60>\n<br>\n추가로 레시피 북\n『시작해 보자 연금술』을\n받았다!<se_nots System Item>\n<br>\n{pc}|hpp(은,는)\n『시작해 보자 연금술』을\n읽었다!\n<br>\n{pc}|hpp(은,는)\n시작해 보자 연금술의\n레시피를 익혔다!<se_nots System Item>\n<br>\n연금 가마솥은 재료가 되는 아이템을\n투입해 다른 아이템을\n만들 수 있는 특별한 도구입니다.\n<br>\n『도구』 커맨드에서\n『연금 가마솥』을 선택하면\n만들 수 있습니다.\n<br>\n만들기 위해서는 해당하는 아이템의 「레시피」가\n필요합니다. 레시피는 레시피 상점이나\n책장 등에서 얻을 수 있습니다.",
@@ -2098,7 +2098,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "de": "<pc> gab <%sEV_SYSMSG_NPC> (den, die, das) <color_yellow>ITEM<color_white>!",
       "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>ITEM<color_white>!",
       "es": "¡<pc> le dio a <%sEV_SYSMSG_NPC> (la, el, le) <color_yellow>ITEM<color_white>!",
-      "fr": "<pc> a donné a <%sEV_SYSMSG_NPC> (la, le, lea/l') <color_yellow>ITEM<color_white>!",
+      "fr": "<pc> a donné a <%sEV_SYSMSG_NPC> (la, le, lea/l') <color_yellow>ITEM<color_white> !",
       "it": "<pc> ha dato a <%sEV_SYSMSG_NPC> (la/l', il/l'/lo, TBD) <color_yellow>ITEM<color_white>!",
       "ja": "<pc>は\nきらめきインクを　渡した！",
       "ko": "{pc}|hpp(은,는)\n반짝반짝 잉크를 건넸다!",
@@ -2124,7 +2124,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "de": "<pc> gab der <%sEV_SYSMSG_NPC> die\n<color_yellow>Glitzernde Tinte<color_white>!",
       "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Glittering Ink<color_white>!",
       "es": "¡<pc> le dio a la <%sEV_SYSMSG_NPC> la\n<color_yellow>Tinta Centelleante<color_white>!",
-      "fr": "<pc> a donné au <%sEV_SYSMSG_NPC>\nl'<color_yellow>Encre Scintillante<color_white>!",
+      "fr": "<pc> a donné au <%sEV_SYSMSG_NPC>\nl'<color_yellow>Encre Scintillante<color_white> !",
       "it": "<pc> ha dato alla <%sEV_SYSMSG_NPC>\nl'<color_yellow>Inchiostro Scintillante<color_white>!",
       "ja": "<pc>は\nきらめきインクを　渡した！",
       "ko": "{pc}|hpp(은,는)\n반짝반짝 잉크를 건넸다!",
@@ -2140,7 +2140,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "de": "<pc> erhielt (die/die, den/die, das/die) <%sEV_ITEM>! <se_nots System Item>",
       "en": "<pc> obtained the <%sEV_ITEM>! <se_nots System Item>",
       "es": "<pc> obtuvo (la/las, el/los, le/les) <%sEV_ITEM>! <se_nots System Item>",
-      "fr": "<pc> obtint (la/les, le/les, lea/leas) <%sEV_ITEM>! <se_nots System Item>",
+      "fr": "<pc> obtint (la/les, le/les, lea/leas) <%sEV_ITEM> ! <se_nots System Item>",
       "it": "<pc> ottenne ( (la/le, il/i, ???)¹, (l'/le, l'/gli, l'/???)², (la/le, lo/gli, ???)³) <%sEV_ITEM>! <se_nots System Item>",
    // "ja": "<pc>は\n<%sEV_ITEM>を　手に入れた！<se_nots System Item>",
       "ko": "{pc}|hpp(은,는)\n{%sEV_ITEM}|hpp(을,를) 손에 넣었다!<se_nots System Item>",
@@ -2155,7 +2155,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "de": "<pc> erhielt (die/die, den/die, das/die) <%sEV_ITEM>! <se_nots System Item>",
       "en": "<pc> received the <%sEV_ITEM>! <se_nots System Item>",
       "es": "<pc> recibió (la/las, el/los, le/les) <%sEV_ITEM>! <se_nots System Item>",
-      "fr": "<pc> reçut (la/les, le/les, lea/leas) <%sEV_ITEM>! <se_nots System Item>",
+      "fr": "<pc> reçut (la/les, le/les, lea/leas) <%sEV_ITEM> ! <se_nots System Item>",
       "it": "<pc> ricevé ( (la/le, il/i, ???)¹, (l'/le, l'/gli, l'/???)², (la/le, lo/gli, ???)³) <%sEV_ITEM>! <se_nots System Item>",
    // "ja": "<pc>は\n<%sEV_ITEM>を　受け取った！<se_nots System Item>",
       "ko": "{pc}|hpp(은,는)\n{%sEV_ITEM}|hpp(을,를) 받았다!<se_nots System Item>",
@@ -2171,7 +2171,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "de": "(Die, Der, Das) <%sEV_QUE_NAME0> hat (den, die, das) ITEM fallen lassen.\n<br>\n{pc} hat (den, die, das) <color_yellow>ITEM<color_white> (Wichtig) bekommen!<se_nots System Item>\n<bw><close>",
       "en": "The <%sEV_QUE_NAME0> dropped the ITEM.\n<br>\n{pc} obtained the <color_yellow>ITEM<color_white> (Key Item)!<se_nots System Item>\n<bw><close>",
       "es": "(La, El, Le) <%sEV_QUE_NAME0> se le cayó (la, el, le) ITEM.\n<br>\n¡{pc} obtuvo (la, el, le) <color_yellow>ITEM<color_white> (Objeto Importante)!<se_nots System Item>\n<bw><close>",
-      "fr": "(La, Le, Lea/L') <%sEV_QUE_NAME0> a fait tomber (la, le, lea/l')ITEM.\n<br>\n{pc} obtint (la, le, lea/l')<color_yellow>ITEM<color_white> (Objet Important)!<se_nots System Item>\n<bw><close>",
+      "fr": "(La, Le, Lea/L') <%sEV_QUE_NAME0> a fait tomber (la, le, lea/l')ITEM.\n<br>\n{pc} obtint (la, le, lea/l')<color_yellow>ITEM<color_white> (Objet Important) !<se_nots System Item>\n<bw><close>",
       "it": "(La/L', Il/L'/Lo, TBD) <%sEV_QUE_NAME0> ha lasciato cadere (la/l', il/l'/lo, TBD)ITEM.\n<br>\n{pc} ottenne (la/l', il/l'/lo, TBD)<color_yellow>ITEM<color_white> (Oggetto Importante)!<se_nots System Item>\n<bw><close>",
       "ja": "<%sEV_QUE_NAME0>は\nきらめきインクを　落としていった。\n<auto_br=5000>\n{pc}は\nきらめきインク（だいじなもの）を\n手に入れた！<se_nots System Item>\n<auto_bw=5000><close>",
       "ko": "{%sEV_QUE_NAME0}|hpp(은,는)\n반짝반짝 잉크를 떨어뜨리고 갔다.\n<auto_br=5000>\n{pc}|hpp(은,는)\n반짝반짝 잉크(중요한 물건)를\n손에 넣었다!<se_nots System Item>\n<auto_bw=5000><close>",
@@ -2184,7 +2184,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "de": "Der <%sEV_QUE_NAME0> hat die Glitzernde Tinte fallen\nlassen.\n<br>\n{pc} hat die <color_yellow>Glitzernde Tinte<color_white> (Wichtig)\nbekommen!<se_nots System Item>\n<bw><close>",
       "en": "The <%sEV_QUE_NAME0> dropped the Glittering Ink.\n<br>\n{pc} obtained the <color_yellow>Glittering Ink<color_white> (Key Item)!<se_nots System Item>\n<bw><close>",
       "es": "El <%sEV_QUE_NAME0> se le cayó la Tinta Centelleante.\n<br>\n¡{pc} obtuvo la <color_yellow>Tinta Centelleante<color_white>\n(Objeto Importante)!<se_nots System Item>\n<bw><close>",
-      "fr": "Le <%sEV_QUE_NAME0> a fait tomber l'Encre Scintillante.\n<br>\n{pc} obtint l'<color_yellow>Encre Scintillante<color_white>\n(Objet Important)!<se_nots System Item>\n<bw><close>",
+      "fr": "Le <%sEV_QUE_NAME0> a fait tomber l'Encre Scintillante.\n<br>\n{pc} obtint l'<color_yellow>Encre Scintillante<color_white>\n(Objet Important) !<se_nots System Item>\n<bw><close>",
       "it": "Il <%sEV_QUE_NAME0> ha lasciato cadere l'Inchiostro Scintillante.\n<br>\n{pc} ottenne l'<color_yellow>Inchiostro Scintillante<color_white>\n(Oggetto Importante)!<se_nots System Item>\n<bw><close>",
       "ja": "<%sEV_QUE_NAME0>は\nきらめきインクを　落としていった。\n<auto_br=5000>\n{pc}は\nきらめきインク（だいじなもの）を\n手に入れた！<se_nots System Item>\n<auto_bw=5000><close>",
       "ko": "{%sEV_QUE_NAME0}|hpp(은,는)\n반짝반짝 잉크를 떨어뜨리고 갔다.\n<auto_br=5000>\n{pc}|hpp(은,는)\n반짝반짝 잉크(중요한 물건)를\n손에 넣었다!<se_nots System Item>\n<auto_bw=5000><close>",
@@ -2208,7 +2208,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
     "de": "ID_NAME_GUEST_* tritt der Gruppe bei!<se_nots System Guest_joinSE>",
     "en": "ID_NAME_GUEST_* joined the party!<se_nots System Guest_joinSE>",
     "es": "¡ID_NAME_GUEST_* se une al grupo!<se_nots System Guest_joinSE>",
-    "fr": "ID_NAME_GUEST_* se joint à l'équipe!<se_nots System Guest_joinSE>",
+    "fr": "ID_NAME_GUEST_* se joint à l'équipe !<se_nots System Guest_joinSE>",
     "it": "ID_NAME_GUEST_* si unisce al gruppo!<se_nots System Guest_joinSE>",
     "ja": "キンナーが\nパーティに　加わった。<se_nots System Guest_joinSE>",
     "ko": "킨나가\n파티에 합류했다.<se_nots System Guest_joinSE>",
@@ -2222,7 +2222,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "de": "Kinner tritt der Gruppe bei!<se_nots System Guest_joinSE>",
       "en": "Kinner joined the party!<se_nots System Guest_joinSE>",
       "es": "¡Kinner se une al grupo!<se_nots System Guest_joinSE>",
-      "fr": "Kinner se joint à l'équipe!<se_nots System Guest_joinSE>",
+      "fr": "Kinner se joint à l'équipe !<se_nots System Guest_joinSE>",
       "it": "Kinner si unisce al gruppo!<se_nots System Guest_joinSE>",
       "ja": "キンナーが\nパーティに　加わった。<se_nots System Guest_joinSE>",
       "ko": "킨나가\n파티에 합류했다.<se_nots System Guest_joinSE>",

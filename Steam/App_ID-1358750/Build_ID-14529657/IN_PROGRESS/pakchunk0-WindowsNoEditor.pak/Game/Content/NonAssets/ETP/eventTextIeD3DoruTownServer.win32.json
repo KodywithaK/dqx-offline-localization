@@ -1468,23 +1468,10 @@
     "zh-Hans": "我们的公会会长啊，\n虽然总是说些奇怪的话，\n不过人家是天才，你就别见怪了。",
     "zh-Hant": "我們公會的會長啊。\n雖然經常講些奇怪的話，\n但他可是個天才，會有點怪也是沒辦法的。"
   },
-  "49272": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "This is the counter of the Love and Trust Gold Bank's\nSpecial Storage.\n<br>\nThis counter differs from the usual Gold Bank service\nand its services are only available to special\ncustomers.\n<br>\nYou wouldn't happen to have a Special Storage Key,\ndo you? No? Then please use the regular counter.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "「こちらは　愛と信頼のゴールド銀行\n　特別金庫の　カウンターでございます。\n<br>\n「当窓口は　通常のゴールド銀行サービスと異なり\n　特別な　お客さまのみに　ご利用いただける\n　サービスとなっております。\n<br>\n「お客さまは　特別金庫のカギを\n　お持ちではありませんね？　でしたら\n　通常窓口の方を　ご利用くださいませ。",
-    "ko": ": 이곳은 사랑과 신용의 골드 은행\n　특별 금고 카운터입니다.\n<br>\n: 저희 창구는 일반적인 골드 은행\n　서비스와는 달리 특별한 고객님만\n　이용하실 수 있는 서비스입니다.\n<br>\n: 고객님은 특별 금고의 열쇠를\n　보유하지 않으셨죠? 그럼\n　일반 창구를 이용해 주세요.",
-    "pt-BR": "",
-    "zh-Hans": "这里是爱与信任的金币银行，\n特殊金库的柜台。\n<br>\n本窗口与一般的\n金币银行服务不同，\n只接待部分特殊客人。\n<br>\n客人您没有\n特殊金库的钥匙吧？\n那么请在普通窗口接受服务。",
-    "zh-Hant": "這裡是愛與信賴的金幣銀行，\n特別金庫的櫃台。\n<br>\n本窗口與一般的金幣銀行不同，\n只有特別的客人\n才能使用這裡的服務。\n<br>\n客人您沒有特殊金庫的\n鑰匙對吧？\n那麼還請您洽詢一般窗口的服務。"
-  },
   "49273": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00651, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_040]`",
     "de": "",
-    "en": "This is the counter of the Love and Trust Gold Bank's\nSpecial Storage.\n<br>\nThis counter differs from the usual Gold Bank service\nand its services are only available to special\ncustomers.",
+    "en": "This is the Love & Trust Gold Bank's Special Storage\ncounter.\n<br>\nThis counter differs from the usual Gold Bank services,\nin that it is only available to special customers.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1494,10 +1481,36 @@
     "zh-Hans": "这里是爱与信任的金币银行，\n特殊金库的柜台。\n<br>\n本窗口与一般的\n金币银行服务不同，\n只接待部分特殊客人。",
     "zh-Hant": "這裡是愛與信賴的金幣銀行，\n特別金庫的櫃台。\n<br>\n本窗口與一般的金幣銀行不同，\n只有特別的客人\n才能使用這裡的服務。"
   },
+  "49277": {
+    "$comments": "🟢, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00651, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_040]`, GIVE?",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> den\n<color_yellow>Tresorraumschlüssel<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Special Storage Key<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> la Llave de la\n<color_yellow>Cámara Acorazada Especial<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> la Clé de la\n<color_yellow>Chambre Forte Spécial<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "it": "Dare <%sEV_SYSMSG_NPC> la Chiave della <color_yellow>Camera\nBlindata Speciale<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ja": "メメリに　特別金庫のカギを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ko": "메메리에게 특별 금고의 열쇠를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> a Chave da <color_yellow>Câmara\nBlindada Especial<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hans": "要把特殊金库的钥匙交给梅梅里吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hant": "是否要將特殊金庫的鑰匙交給梅梅里？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "49278": {
+    "$comments": "🟢, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00651, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_040]`, GAVE!",
+    "de": "<pc> gab <%sEV_SYSMSG_NPC> den\n<color_yellow>Tresorraumschlüssel<color_white>!",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Special\nStorage Key<color_white>!",
+    "es": "¡<pc> le dio a <%sEV_SYSMSG_NPC> la\n<color_yellow>Llave de la Cámara Acorazada Especial<color_white>!",
+    "fr": "<pc> a donné a <%sEV_SYSMSG_NPC> la\n<color_yellow>Clé de la Chambre Forte Spécial<color_white>!",
+    "it": "<pc> ha dato a <%sEV_SYSMSG_NPC> la\n<color_yellow>Chiave della Camera Blindata Speciale<color_white>!",
+    "ja": "<pc>は　メメリに\n特別金庫のカギを　渡した！",
+    "ko": "{pc}|hpp(은,는) 메메리에게\n특별 금고의 열쇠를 건넸다!",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> a\n<color_yellow>Chave da Câmara Blindada Especial<color_white>!",
+    "zh-Hans": "<pc>把特殊金库的钥匙\n交给了梅梅里！",
+    "zh-Hant": "<pc>將特殊金庫的鑰匙\n交給了梅梅里！"
+  },
   "49274": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00651, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_040, STT_DaijinomonoItem.*_ID_ITEM_DAIJINAMONO_TOKUBETUKINKONOKAGI]`, YES",
     "de": "",
-    "en": "Indeed, this is our establishment's Special Storage\nKey. Please wait a moment.",
+    "en": "Indeed, this is our establishment's <color_yellow>Special Storage Key<color_white>.\nPlease wait a moment.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1507,10 +1520,23 @@
     "zh-Hans": "这确实是本店的\n特殊金库的钥匙。\n请稍等片刻。",
     "zh-Hant": "這確實是本店的\n特殊金庫的鑰匙。\n請稍候片刻。"
   },
-  "49275": {
-    "$comments": "🔴, ",
+  "49279": {
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00651, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_040]`",
     "de": "",
-    "en": "...Thank you for your patience. Here is the item\nthat we have been keeping. It is fragile, so please\nbe careful with it.",
+    "en": "Memeri went behind the counter and brought something\nvery important looking.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "メメリは　カウンターの裏へいき\n大切そうに　何かを持ってきた。",
+    "ko": "메메리는 카운터 안쪽으로 가서\n중요해 보이는 물건을 가지고 왔다.",
+    "pt-BR": "",
+    "zh-Hans": "梅梅里走到柜台后面，\n小心翼翼地取来了什么东西。",
+    "zh-Hant": "梅梅里走到櫃台後方，\n小心翼翼地拿來了某樣物品。"
+  },
+  "49275": {
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00651, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_040, STT_DaijinomonoItem.*_ID_ITEM_DAIJINAMONO_TOKUBETUKINKONOKAGI]`, YES cont'd",
+    "de": "",
+    "en": "...Thank you for your patience. Here is the item that we\nhave been keeping. It is a fragile item, so please\ntake care while holding it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1520,8 +1546,21 @@
     "zh-Hans": "……让您久等了。\n这是我们保管的物品。\n因为是易碎品，所以请您轻拿轻放。",
     "zh-Hant": "……讓您久等了。\n這是由我們代為保管的品項。\n由於是易碎物品，還請您小心。"
   },
+  "49280": {
+    "$comments": "🟢, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00651, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_040, STT_DaijinomonoItem.*_ID_ITEM_DAIJINAMONO_AKAIKOBIN]`, GOT!",
+    "de": "<pc> erhielt die <color_yellow>Rotes Phiole<color_white>\n(Wichtig)! <me 60>",
+    "en": "<pc> obtained the <color_yellow>Red Phial<color_white> (Key Item)! <me 60>",
+    "es": "¡<pc> obtuvo la <color_yellow>Ampolla Roja<color_white>\n(Objeto Importante)! <me 60>",
+    "fr": "<pc> obtint la <color_yellow>Fiole Rouge<color_white>\n(Objet Important) ! <me 60>",
+    "it": "<pc> ottenne la <color_yellow>Fiala Rossa<color_white>\n(Oggetto Importante)! <me 60>",
+    "ja": "<pc>は\n赤い小ビン（だいじなもの）を　手に入れた！<me 60>",
+    "ko": "{pc}|hpp(은,는)\n빨간 작은 병(중요한 물건)을 손에 넣었다!<me 60>",
+    "pt-BR": "<pc> obteve a <color_yellow>Ampola Vermelha<color_white>\n(Iten Importante)! <me 60>",
+    "zh-Hans": "<pc>获得了\n红色小瓶（重要物品）！<me 60>",
+    "zh-Hant": "<pc>獲得了\n紅色小瓶（重要物品）！<me 60>"
+  },
   "49276": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00651, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_040]",
     "de": "",
     "en": "Thank you very much. We look forward to serving\nyou again.",
     "es": "",
@@ -1533,57 +1572,18 @@
     "zh-Hans": "多谢惠顾。\n欢迎再次光临。",
     "zh-Hant": "感謝您。\n期待您再次光臨。"
   },
-  "49277": {
-    "$comments": "🔴, ",
+  "49272": {
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00651, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_050, STT_DaijinomonoItem.*_ID_ITEM_DAIJINAMONO_TOKUBETUKINKONOKAGI]`",
     "de": "",
-    "en": "Give Memeri the Special Storage Key?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "This is the Love & Trust Gold Bank's Special Storage\ncounter.\n<br>\nThis counter differs from the usual Gold Bank services,\nin that it is only available to special customers.\n<br>\nYou wouldn't happen to have a <color_yellow>Special Storage Key<color_white>,\ndo you? No? Then please use the regular counter.",
     "es": "",
     "fr": "",
     "it": "",
-    "ja": "メメリに　特別金庫のカギを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "ko": "메메리에게 특별 금고의 열쇠를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ja": "「こちらは　愛と信頼のゴールド銀行\n　特別金庫の　カウンターでございます。\n<br>\n「当窓口は　通常のゴールド銀行サービスと異なり\n　特別な　お客さまのみに　ご利用いただける\n　サービスとなっております。\n<br>\n「お客さまは　特別金庫のカギを\n　お持ちではありませんね？　でしたら\n　通常窓口の方を　ご利用くださいませ。",
+    "ko": ": 이곳은 사랑과 신용의 골드 은행\n　특별 금고 카운터입니다.\n<br>\n: 저희 창구는 일반적인 골드 은행\n　서비스와는 달리 특별한 고객님만\n　이용하실 수 있는 서비스입니다.\n<br>\n: 고객님은 특별 금고의 열쇠를\n　보유하지 않으셨죠? 그럼\n　일반 창구를 이용해 주세요.",
     "pt-BR": "",
-    "zh-Hans": "要把特殊金库的钥匙交给梅梅里吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "zh-Hant": "是否要將特殊金庫的鑰匙交給梅梅里？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
-  },
-  "49278": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> gave Memeri the Special Storage Key!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　メメリに\n特別金庫のカギを　渡した！",
-    "ko": "{pc}|hpp(은,는) 메메리에게\n특별 금고의 열쇠를 건넸다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把特殊金库的钥匙\n交给了梅梅里！",
-    "zh-Hant": "<pc>將特殊金庫的鑰匙\n交給了梅梅里！"
-  },
-  "49279": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "Memeri went behind the counter and brought something\nvery important.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "メメリは　カウンターの裏へいき\n大切そうに　何かを持ってきた。",
-    "ko": "메메리는 카운터 안쪽으로 가서\n중요해 보이는 물건을 가지고 왔다.",
-    "pt-BR": "",
-    "zh-Hans": "梅梅里走到柜台后面，\n小心翼翼地取来了什么东西。",
-    "zh-Hant": "梅梅里走到櫃台後方，\n小心翼翼地拿來了某樣物品。"
-  },
-  "49280": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> obtained the Red Phial (Key Item)!<me 60>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は\n赤い小ビン（だいじなもの）を　手に入れた！<me 60>",
-    "ko": "{pc}|hpp(은,는)\n빨간 작은 병(중요한 물건)을 손에 넣었다!<me 60>",
-    "pt-BR": "",
-    "zh-Hans": "<pc>获得了\n红色小瓶（重要物品）！<me 60>",
-    "zh-Hant": "<pc>獲得了\n紅色小瓶（重要物品）！<me 60>"
+    "zh-Hans": "这里是爱与信任的金币银行，\n特殊金库的柜台。\n<br>\n本窗口与一般的\n金币银行服务不同，\n只接待部分特殊客人。\n<br>\n客人您没有\n特殊金库的钥匙吧？\n那么请在普通窗口接受服务。",
+    "zh-Hant": "這裡是愛與信賴的金幣銀行，\n特別金庫的櫃台。\n<br>\n本窗口與一般的金幣銀行不同，\n只有特別的客人\n才能使用這裡的服務。\n<br>\n客人您沒有特殊金庫的\n鑰匙對吧？\n那麼還請您洽詢一般窗口的服務。"
   },
   "144001": {
     "$comments": "🔴, ",

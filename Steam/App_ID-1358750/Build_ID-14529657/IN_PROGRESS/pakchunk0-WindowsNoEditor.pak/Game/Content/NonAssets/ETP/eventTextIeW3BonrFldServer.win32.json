@@ -13,7 +13,7 @@
     "zh-Hant": "這似乎是個古老的石碑。\n上面的字已經模糊，無法閱讀……"
   },
   "49282": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_070`",
     "de": "",
     "en": "It looks like an old stone monument. Examine it?<yesno><close>",
     "es": "",
@@ -26,9 +26,9 @@
     "zh-Hant": "這似乎是個文字已經模糊的古老石碑。\n要調查石碑嗎？<yesno><close>"
   },
   "49283": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_070`",
     "de": "",
-    "en": "<pc> started to examine the stone\nmonument. With a push, the stone started to move.<se joutyu sekihi><bw_break>",
+    "en": "<pc> started to examine the stone monument.\nWhat the—With a push, the stone started to move...<se joutyu sekihi><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -39,9 +39,9 @@
     "zh-Hant": "<pc>開始調查石碑。\n他試著推推看後，石碑竟然動起來了……<se joutyu sekihi><bw_break>"
   },
   "49284": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_070`",
     "de": "",
-    "en": "Beneath the stone monument, an old hemp bag was\nhidden! Inside, small bottles labeled 'Kafrizz\nFever vaccine' are packed tightly.",
+    "en": "Beneath the stone monument, an old hemp bag was\nhidden! Inside, small bottles labeled \"Kafrizz Fever\nvaccines\" are tightly packed.",
     "es": "",
     "fr": "",
     "it": "",
@@ -52,15 +52,15 @@
     "zh-Hant": "石碑下面藏著古老的麻袋！\n裡面塞滿了小瓶子，\n上面貼著美拉佐熱疫苗的標籤。"
   },
   "49972": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<pc> obtained the\nVaccine Bag (Key Item)!<me 60>",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "$comments": "🟢, Quest (020) {Super Useful}, see `Game.locres.json:[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_070, STT_DaijinomonoItem.*_ID_ITEM_DAIJINAMONO_WAKUTINNOHUKURO]`, GOT!",
+    "de": "<pc> erhielt den <color_yellow>Vakzin-Beutel<color_white> (Wichtig)! <me 60>",
+    "en": "<pc> obtained the <color_yellow>Vaccine Bag<color_white> (Key Item)! <me 60>",
+    "es": "<pc> obtuvo el <color_yellow>Saco de Vacuna<color_white>\n(Objeto Importante)! <me 60>",
+    "fr": "<pc> obtint le <color_yellow>Sac de Vaccin<color_white>\n(Objet Important) ! <me 60>",
+    "it": "<pc> ottenne la <color_yellow>Sacca del Vaccino<color_white>\n(Oggetto Importante)! <me 60>",
     "ja": "<pc>は\nワクチンのふくろ（だいじなもの）を\n手に入れた！<me 60>",
     "ko": "{pc}|hpp(은,는)\n백신 주머니(중요한 물건)를\n손에 넣었다!<me 60>",
-    "pt-BR": "",
+    "pt-BR": "<pc> obteve o <color_yellow>Saco de Vacina<color_white>\n(Iten Importante)! <me 60>",
     "zh-Hans": "<pc>获得了\n装有疫苗的袋子（重要物品）！<me 60>",
     "zh-Hant": "<pc>獲得了\n裝有疫苗的袋子（重要物品）！<me 60>"
   },
