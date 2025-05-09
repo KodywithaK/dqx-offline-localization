@@ -1507,23 +1507,10 @@
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>大巨人号的货物整理工作就交给我吧。\n我三两下就能把货物堆放起来～～\n……感觉就像魔法！",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>大巨人號的貨物整理就交給我吧。\n我三兩下就能將貨物堆起來～\n……感覺就像魔法一樣！"
   },
-  "85880": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> received the <%sEV_QUE_NAME5>\nand <%sEV_QUE_NAME4>!<se_nots System Item>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は\n<%sEV_QUE_NAME5>と　<%sEV_QUE_NAME4>を\n受け取った！<se_nots System Item>",
-    "ko": "{pc}|hpp(은,는)\n{%sEV_QUE_NAME5}|hpp(과,와)\n{%sEV_QUE_NAME4}|hpp(을,를) 받았다!<se_nots System Item>",
-    "pt-BR": "",
-    "zh-Hans": "<pc>\n收下了\n<%sEV_QUE_NAME5>和<%sEV_QUE_NAME4>！<se_nots System Item>",
-    "zh-Hant": "<pc>\n收下了\n<%sEV_QUE_NAME5>和<%sEV_QUE_NAME4>！<se_nots System Item>"
-  },
   "85882": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_000]`, YESNO",
     "de": "",
-    "en": "I am Old Master Fisher Harmos. From coming into this\nworld and up until my many years, I have fished\ncountless waters.\n<br>\nBy the way, young'un, you don't look like a fisher,\nbut... You've got good eyes; reminds me of the serene\nsurface of water.\n<br>\nYour name... Hmm. <pc>, ya say.\nI've been waitin' for someone like you. A capable one,\nworthy of carrying on the way of the fisher, ya see.\n<br>\nI just so happen to have a beginner's tackle on hand.\nIf ya become my apprentice, I give it to ya, so that\nya can start fishing right away.\n<br>\nSo, <pc>, are ya ready to walk on\nthat long, rugged way of the fisher?",
+    "en": "I am Old Master Fisher Harmos. In my many years since\nbeing born upon into this world, I have fished\ncountless waters.\n<br>\nBy the way, young'un, you don't look like a fisher, but...\nYou've got good eyes; they remind me of the serene\nsurface of water.\n<br>\nYer name... Hmm. <pc>, ya say. I've been\nwaitin' for someone like you. A capable one, worthy\nof carryin' on the way of the fisher, ya see.\n<br>\nI just so happen to have a beginner's tackle on hand.\nIf ya become my apprentice, I give it to ya, so that ya\ncan start fishin' right away.\n<br>\nSo, <pc>, are ya ready to walk that long,\nrugged way of the fisher?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1534,9 +1521,9 @@
     "zh-Hant": "我是釣魚老師哈爾莫斯。\n這輩子行走過無數江流湖畔，\n釣魚從未間斷。\n<br>\n年輕人啊，我看你不像是個釣手……\n卻有著一雙如同清澈水面般的眼睛。\n你的名字是……嗯，是<pc>啊。\n<br>\n我一直在等待像你這樣\n器量足以窮究垂釣之路的人出現。\n<br>\n我這邊正好有給新手用的垂釣道具。\n你要是成為我的弟子，這道具就給你，\n讓你立刻就能開始垂釣。\n<br>\n<pc>啊，你有心想成為我的弟子，\n踏上漫長艱險的垂釣之路嗎？"
   },
   "85885": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_000]`, NO",
     "de": "",
-    "en": "Is that so. Then, it can't be helped. But if ya\ndecide that ya're ready to take the way of the\nfisher, ya can visit me here. I'll be waitin'.",
+    "en": "Is that so. Then, it can't be helped. But if ya decide that\nya're ready to take the way of the fisher, ya can\nvisit me here. I'll be waitin'.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1547,9 +1534,9 @@
     "zh-Hant": "這樣啊，那就沒辦法了。\n不過，如果你下定決心要走上垂釣之路，\n就來這裡找我吧。我會等著你的。"
   },
   "85888": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_000]`, QUESTS FULL",
     "de": "",
-    "en": "Good reply. But, <pc>. You seem to be\ntaking on a lot of other requests. The road to\nfishing is not so loose that you can walk it\n<br>\non the side of something. You should come back\nhere again after you finish your other\nrequests.",
+    "en": "Good reply. However, <pc>, ya seem to be\ntakin' on enough other requests as it is.\n<br>\nThe road of fishin' ain't something ya can leisurely\nwalk on. After ya finish yer other requests, ya should\ncome here again.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1560,7 +1547,7 @@
     "zh-Hant": "很好。不過<pc>啊。\n你似乎還承接了許多\n其他人的委託。\n<br>\n垂釣之路可沒有輕鬆到能一心多用，\n等你解決完其他委託\n再來這裡找我吧。"
   },
   "85890": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_000]`, YES",
     "de": "",
     "en": "<attr><feel_happy_one><end_attr>Then take this.",
     "es": "",
@@ -1572,10 +1559,23 @@
     "zh-Hans": "<attr><feel_happy_one><end_attr>那么，收下这些吧。",
     "zh-Hant": "<attr><feel_happy_one><end_attr>那麼，收下這些吧。"
   },
+  "85880": {
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_000, STT_WeaponItem.*_ID_ITEM_EQUIP_[LURE_GINNORUA, FISHROD_JYOUBUNATSURIZAO]]`, YES cont'd",
+    "de": "<pc> erhielt die <color_yellow><%sEV_QUE_NAME4><color_white> und\n<color_yellow><%sEV_QUE_NAME5><color_white>! <se_nots System Item>",
+    "en": "<pc> received the <color_yellow><%sEV_QUE_NAME4><color_white> and\n<color_yellow><%sEV_QUE_NAME5><color_white>! <se_nots System Item>",
+    "es": "<pc> recibió la <color_yellow><%sEV_QUE_NAME4><color_white> y\n<color_yellow><%sEV_QUE_NAME5><color_white>! <se_nots System Item>",
+    "fr": "<pc> reçut la <color_yellow><%sEV_QUE_NAME4><color_white> et\n<color_yellow><%sEV_QUE_NAME5><color_white> ! <se_nots System Item>",
+    "it": "<pc> ricevé la <color_yellow><%sEV_QUE_NAME4><color_white> ed\n<color_yellow><%sEV_QUE_NAME5><color_white>! <se_nots System Item>",
+    "ja": "<pc>は\n<%sEV_QUE_NAME5>と　<%sEV_QUE_NAME4>を\n受け取った！<se_nots System Item>",
+    "ko": "{pc}|hpp(은,는)\n{%sEV_QUE_NAME5}|hpp(과,와)\n{%sEV_QUE_NAME4}|hpp(을,를) 받았다!<se_nots System Item>",
+    "pt-BR": "<pc> recebeu a <color_yellow><%sEV_QUE_NAME4><color_white> e\n<color_yellow><%sEV_QUE_NAME5><color_white>! <se_nots System Item>",
+    "zh-Hans": "<pc>\n收下了\n<%sEV_QUE_NAME5>和<%sEV_QUE_NAME4>！<se_nots System Item>",
+    "zh-Hant": "<pc>\n收下了\n<%sEV_QUE_NAME5>和<%sEV_QUE_NAME4>！<se_nots System Item>"
+  },
   "85892": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_000]`, unused?",
     "de": "",
-    "en": "But then I remembered that I had given\n<pc> a fishing gadfly and a lure\nbefore.<bw_break>",
+    "en": "...I thought that–come to think of it, <pc>,\nI already gave ya a fishin' rod and lure, didn't I.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1586,9 +1586,9 @@
     "zh-Hant": "……本來是這麼想的，但我突然想到，\n我以前就給過<pc>你釣竿和擬餌吧。<bw_break>"
   },
   "85894": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_000]` YES cont'd",
     "de": "",
-    "en": "Ya can't fish without a fishin' rod and lure.<bw_break>",
+    "en": "If ya don't got a fishin' rod and lure, ya can't fish.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1599,9 +1599,9 @@
     "zh-Hant": "若要釣魚，\n釣竿和擬餌可是缺一不可啊。<bw_break>"
   },
   "85896": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_000]` YES cont'd",
     "de": "",
-    "en": "That fishin' rod and lure should now be in that\n'Currency Bag' of yers. Have a look, it's okay.\nOnce ya've checked it, talk to me.",
+    "en": "That fishin' rod and lure should now be in that\n\"<color_yellow>Currency Bag<color_white>\" of yers. Have a look, it's okay.\nOnce ya've checked it, talk to me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1612,9 +1612,9 @@
     "zh-Hant": "收納袋裡面\n應該已經裝著釣竿和擬餌了才對。你可以再看一下，\n確認過之後再跟我說。"
   },
   "85898": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_010]`",
     "de": "",
-    "en": "Ya can't fish without a fishin' rod and lure.<open_irai><bw_break>",
+    "en": "If ya don't got a fishin' rod and lure, ya can't fish.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1625,9 +1625,9 @@
     "zh-Hant": "若要釣魚，\n釣竿和擬餌可是缺一不可啊。<open_irai><bw_break>"
   },
   "85900": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_010]`",
     "de": "",
-    "en": "That fishin' rod and lure should now be in that\n'Currency Bag' of yers. Have a look, it's okay.\nOnce ya've checked it, talk to me.",
+    "en": "That fishin' rod and lure should now be in that\n\"<color_yellow>Currency Bag<color_white>\" of yers. Have a look, it's okay.\nOnce ya've checked it, talk to me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1638,9 +1638,9 @@
     "zh-Hant": "收納袋裡面\n應該已經裝著釣竿和擬餌了才對。你可以再看一下，\n確認過之後再跟我說。"
   },
   "85902": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_020]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Did you confirm you have the fishin' rod and lure.\nAlright. Then go to the water's edge.\n<br>\nIf ya have a fishin' rod and a lure, ya should be\nable go to the water's edge and press <emoji FaceButton_Right> to go fish.\n<br>\nSeas, rivers, lakes... Astoltia's full of fittin'\nfishin' spots. Even nearby, ya can fish from the\nharbor's pier.\n<br>\nAnywhere's fine to try fishin' for the first time.\nEven if ya don't actually catch anything, it doesn't\nmatter.",
+    "en": "<attr><feel_happy_lv1><end_attr>Did ya confirm ya have the fishin' rod and lure.\nAlright, then go to the water's edge.\n<br>\nIf ya got a fishin' rod and a lure, ya should be able to\ngo to the water's edge and press <emoji FaceButton_Right> to go fish.\n<br>\nSeas, rivers, lakes... Astoltia's full of fittin' fishin'\nspots. Even nearby, ya can fish from the harbor's\npier.\n<br>\nAnywhere's fine to try fishin' for the first time. Even if\nya don't actually catch anything, it doesn't matter.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1651,9 +1651,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>確定有釣竿和擬餌嗎？\n很好，那就前往水邊吧。\n按下<emoji FaceButton_Right>，應該就能垂釣了。\n<br>\n大海、江河、湖泊……\n雅斯特露琪亞有許多適合垂釣的地方。\n附近的話，那邊港口的碼頭也能垂釣。\n<br>\n在哪裡都行，你先試著垂釣看看吧。\n就算實際上釣不到魚也無所謂。\n先有個經驗比較重要。"
   },
   "85904": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_020]`",
     "de": "",
-    "en": "If ya have a fishin' rod and a lure, ya should be\nable go to the water's edge and press <emoji FaceButton_Right> to go fish.<open_irai><bw_break>",
+    "en": "If ya got a fishin' rod and a lure, ya should be able to\ngo to the water's edge and press <emoji FaceButton_Right> to go fish.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1664,9 +1664,9 @@
     "zh-Hant": "有釣竿和擬餌的話就去水邊，\n按下<emoji FaceButton_Right>應該就可以釣魚了。<open_irai><bw_break>"
   },
   "85906": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_020]`",
     "de": "",
-    "en": "Seas, rivers, lakes... Astoltia's full of fittin'\nfishin' spots. Even nearby, ya can fish from the\nharbor's pier.<bw_break>",
+    "en": "Seas, rivers, lakes... Astoltia's full of fittin' fishin'\nspots. Even nearby, ya can fish from the harbor's\npier.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1677,9 +1677,9 @@
     "zh-Hant": "大海、江河、湖泊……\n雅斯特露琪亞有許多適合垂釣的地方。\n附近的話，那邊港口的碼頭也能垂釣。<bw_break>"
   },
   "85908": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_020]`",
     "de": "",
-    "en": "Anywhere's fine to try fishin' for the first time.\nEven if ya don't actually catch anything, it doesn't\nmatter.",
+    "en": "Anywhere's fine to try fishin' for the first time. Even if\nya don't actually catch anythin', it doesn't matter.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1690,9 +1690,9 @@
     "zh-Hant": "在哪裡都行，你先試著垂釣看看吧。\n就算實際上釣不到魚也無所謂。\n先有個經驗比較重要。"
   },
   "85910": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_025]`",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>It seems ya've been fishing properly. With that,\nya've learned the basics of fishing. That means ya\nare now a fisher, <pc>.\n<br>\nFrom now on, when ya visit me, I'll refer ya some\nfishin' jobs. Also, I'll talk to Fish Exchange\nMember, Picho, over there.\n<br>\nIf you give Picho a fish, he'll give ya a fittin'\nnumber of fish coins. Once ya've enough coins, ya\ncan exchange them for special prizes.",
+    "en": "<attr><feel_happy_one><end_attr>It seems ya've been fishin' properly. With that, ya've\nlearned the basics of fishin'. That means ya're a\nfisher, <pc>.\n<br>\nFrom now on, when ya visit me, I'll refer ya some\nfishin' jobs. Also, I'll talk to the Fish Exchanger,\nPitcho, over there.\n<br>\nIf ya give Pitcho a fish, she'll give ya a fittin' number\nof fish coins. Once ya've enough coins, ya can exchange\nthem for special prizes.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1703,9 +1703,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>看來你已經實際釣過魚了。 \n這樣一來，你應該學會釣魚的基礎了吧。\n也就是說，釣手<pc>誕生了。\n<br>\n以後你每次來找我的時候，\n我都會給你介紹一些釣魚的工作。還有，我會事先\n跟那邊的魚兌換員皮喬打聲招呼。\n<br>\n你只要把魚交給皮喬的話，\n就能獲得相應數量的魚幣。\n魚幣累積到一定數量就能兌換專用獎品了。"
   },
   "85912": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_025]`",
     "de": "",
-    "en": "The Way of Fishin' isn't finished in a day. But a\nfish a day is okay. Keep on fishin' and it'll be yer\nfood.\n<br>\nDo that and yer true ability as a fisher...\nIn other words, yer fishin' level will increase, and\nya'll be even better at handlin' yer fishin' tackle.\n<br>\nHowever, as it is, ya should reach your limit as a\nfisher as fishin' level 20.\n<br>\nFirst, ya should aim for Fishin' Level 18, then\nbigger and stronger fish will turn up one after\nanother to let ya improve yer skills! My apprentice!",
+    "en": "The Way of Fishin' isn't finished in a day. But a fish\na day is okay. Keep on fishin' and it'll be yer food.\n<br>\nDo that and yer true ability as a fisher... In other\nwords, yer <color_yellow>fishin' level<color_white> will increase, and ya'll be\neven better at handlin' yer fishin' tackle.\n<br>\nHowever, as it is, ya should reach your limit as a\nfisher at fishin' level 20.\n<br>\nFirst, ya should aim for <color_yellow>Fishin' Level 18<color_white>, then bigger\nand stronger fish will turn up one after another to\nlet ya improve yer skills, my apprentice!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1716,9 +1716,9 @@
     "zh-Hant": "釣魚之路並非１日可成。\n每天只釣１條魚也沒關係，\n只要持續釣，就能成為你成長的養分。\n<br>\n這樣做的話，你作為釣手的實力……\n換句話說，也就是釣魚等級就能提升，\n對於釣魚道具的使用技巧也會越來越純熟。\n<br>\n只不過照你現在的情況，當釣魚等級到２０級時，\n想必就會迎來身為釣手的成長極限。\n<br>\n首先以釣魚等級１８級為目標，\n盡量去釣更大、更難對付的魚，\n好好磨練自己的技術吧！我的弟子啊！"
   },
   "89094": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (021) {Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_02572, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_112_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>It seems you have been fishing properly.Now\nyou have learned the basics of fishing. There\nis a saying, \"Never forget your first love\".\n<br>\nGoing back to the basics is also a learning\nexperience. You have grown up one more time,\n<pc>.",
+    "en": "<attr><feel_happy_one><end_attr>It seems ya've been fishin' properly. With that, ya've\nlearned the basics of fishin'. There's a saying:\n\"ya never forget yer first\".\n<br>\nGoin' back to the basics is a learning experience.\nLike ya've grown up again, eh, <pc>.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1729,7 +1729,7 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>看來你已經實際釣過魚了。 \n這樣一來，你應該學會釣魚的基礎了吧。\n<br>\n人們常說勿忘初衷，\n有時候回顧基礎也是一種學習。\n<pc>啊，看來你又成長了一些。"
   },
   "99301": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (022) {Useful}",
     "de": "",
     "en": "Welcome, my apprentice. It seems you've been\ntraining diligently and have raised your\nfishing level to over 18. It is time for you\n<br>\nto reach the limit of your growth. Are you\nready to challenge the trial I have prepared\nfor you to become a level 21 angler or above?",
     "es": "",

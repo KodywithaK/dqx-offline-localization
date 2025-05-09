@@ -1692,7 +1692,7 @@
   "49329": {
     "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_020, STT_DaijinomonoItem.*_ID_ITEM_DAIJINAMONO_TOKUBETUKINKONOKAGI, STT_BattleMonsterName.ID_MONSTER_NAME_12001]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Oh yeah, you are?... I see. You came to see my dad to\nhear about the robbery in Royal City Kamiharmui,\nright?\n<br>\nYeah, my dad was a wealthy merchant Pukulipo. But,\nhe passed away last year, you know. However, I recall\nit well toooooo.\n<br>\nBack then, I heard that he had big deals, but when he\nasked Ms. Enju to sort the warehouse, all the goods\ndisappeared.\n<br>\nDad was so shocked that he got sick, and my family\nmoved from the estate to Megistris City... To this\nhouse.\n<br>\nBefore he passed, Dad made a deathbed-confession\nabout a key that was stolen by <color_red><%sEV_QUE_NAME0>s<color_white> in\nthe Gilzad Region.\n<br>\nDad always held that key close to his chest; it was a\n<color_yellow>Special Storage Key<color_white> to the bank in Dolworm Kingdom.\nI've a feeling that there's something with that key.<bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr>Oh yeah, you are?... I see. You came to see my dad to\nhear about the robbery in Royal City Kamiharmui,\nright?\n<br>\nYeah, my dad was a wealthy merchant Pukulipo. But,\nhe passed away last year, you know. However, I recall\nit well toooooo.\n<br>\nBack then, I heard that he had big deals, but when he\nasked Ms. Enju to sort the warehouse, all the goods\ndisappeared.\n<br>\nDad was so shocked that he got sick, and my family\nmoved from the estate to Megistris City... To this\nhouse.\n<br>\nBefore he passed, Dad made a deathbed-confession\nabout a key that was stolen by <color_red><%sEV_QUE_NAME0>s<color_white> in the\nGilzad Region.\n<br>\nDad always held that key close to his chest; it was a\n<color_yellow>Special Storage Key<color_white> to the bank in Dolworm Kingdom.\nI've a feeling that there's something with that key.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1718,7 +1718,7 @@
   "49330": {
     "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_12001]`",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>You can get the key back from <color_red><%sEV_QUE_NAME0>s<color_white> in\nthe Gilzad Region, and go to Dolworm Kingdom's Bank!\n<br>\nI'm very curious about what's in it too, you know.\nIf you could get the stuff inside and show it to meee.",
+    "en": "<attr><feel_happy_lv2><end_attr>You can get the key back from <color_red><%sEV_QUE_NAME0>s<color_white> in the\nGilzad Region, and go to Dolworm Kingdom's Bank!\n<br>\nI'm very curious about what's in it too, you know.\nIf you could get the stuff inside and show it to meee.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1731,7 +1731,7 @@
   "49331": {
     "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_040, STT_DaijinomonoItem.*_ID_ITEM_DAIJINAMONO_TOKUBETUKINKONOKAGI, STT_BattleMonsterName.ID_MONSTER_NAME_12001]`",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Ohhh. So that key you have is the <color_yellow>Special Storage Key<color_white>\nthat the <color_red><%sEV_QUE_NAME0><color_white> stole from Dad, is it! With\nthat, you can go to Dolworm Kingdom's Bank!\n<br>\nI'm very curious about what's in it too, you know.\nIf you could get the stuff inside and show it to meee.",
+    "en": "<attr><feel_happy_lv2><end_attr>Ohhh. So that key you have is the <color_yellow>Special Storage Key<color_white>\nthat the <color_red><%sEV_QUE_NAME0><color_white> stole from Dad, is it! With that,\nyou can go to Dolworm Kingdom's Bank!\n<br>\nI'm very curious about what's in it too, you know.\nIf you could get the stuff inside and show it to meee.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1757,7 +1757,7 @@
   "49333": {
     "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_050]`, NO",
     "de": "",
-    "en": "<attr><feel_normal_one><end_attr>Is that sooo; not yet, huh. Once you get the stuff\ninside it, show it to meee.",
+    "en": "<attr><feel_normal_one><end_attr>Is that sooo; not yet, huh. Once you get the stuff inside\nit, show it to meee.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1770,7 +1770,7 @@
   "49334": {
     "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_050]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>I knew it, <pc>! Before, I didn't even have\na clue about the burglary, but I searched the house\nagaaain.\n<br>\nAnd then I found my dad's diary from that time... Buuut,\nthis thing I just had you go get, <pc>, only\nconfirms it.",
+    "en": "<attr><feel_happy_lv2><end_attr>I knew it, <pc>! Before, I didn't even have a clue\nabout the burglary, but I searched the house agaaain.\n<br>\nAnd then I found my dad's diary from that time... Buuut,\nthis thing I just had you go get, <pc>, only\nconfirms it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1796,7 +1796,7 @@
   "49335": {
     "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_050]`",
     "de": "",
-    "en": "Hmmm, what's with the bottle, I wonder? It's filled with\nsome kind of liquid, isn't it... The lid looks like it's not\ntoo hard to open, doesn't it.\n<br>\n...Oops, AWWWWW!\n<se_nots joutyu glass_parin>",
+    "en": "Hmmm, what's with the bottle, I wonder? It's filled with\nsome kind of liquid, isn't it... The lid looks like it's not\ntoo hard to open, doesn't it.\n<br>\n...Oops, AWWWWW!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1822,7 +1822,7 @@
   "49336": {
     "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_050]`",
     "de": "",
-    "en": "Aww... Sorry! The clue you took the trouble of getting, I\nwas careless... I-instead I'll read you Papa's diary!",
+    "en": "Aww... Sorry! The clue you took the trouble of getting;\nI was careless... I-instead I'll read you Papa's diary!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1848,7 +1848,7 @@
   "49345": {
     "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_050]`",
     "de": "",
-    "en": "A black marketeer offered me a proposal. A scheme to\nspread the Kafrizz Fever virus, and sell the vaccine\nthat would cure it at a high price.\n<br>\nI sank most of my life-savings into buying the virus and\na large amount of vaccines! If the plan worked, it would\nhave generated enormous profits.\n<br>\nThe amount of vaccines I purchased was so large that I\nhired an Elf woman—whose forte was sorting—to\norganize it all in the warehouse.\n<br>\nHowever, Elf's woman must have realized my plan,\nbecause the next morning she took all the vaccines\nfrom the warehouse with her!\n<br>\nI stored the phial with the virus in Dolworm Kingdom\nBank's special storage for safekeeping, but... Without the\nvaccine, I couldn't carry out my plan.\n<br>\nAs for the whereabouts of the woman who stole the\nvaccines, according to our informant, she went to the\nchurch in Verinard Castle Town.\n<br>\nI've sent my men to track her down. As it is, my finances\nare in jeopardy. If I can't somehow recover the vaccines\nfrom her, I'm doomed...!",
+    "en": "\"A black marketeer offered me a proposal. A scheme to\nspread the Kafrizz Fever virus, and sell the vaccine that\nwould cure it at a high price.\"\n<br>\n\"I sank most of my life-savings into buying the virus and\na large amount of vaccines! If the plan worked, it would\nhave generated enormous profits.\"\n<br>\n\"The amount of vaccines I purchased was so large that I\nhired an Elf woman—whose forte was sorting—to\norganize it all in the warehouse.\"\n<br>\n\"However, the Elf woman must have realized my plan,\nbecause the next morning she took all the vaccines\nfrom the warehouse with her!\"\n<br>\n\"I stored the phial with the virus in Dolworm Kingdom\nBank's special storage for safekeeping, but... Without the\nvaccine, I couldn't carry out my plan.\"\n<br>\n\"As for the whereabouts of the woman who stole the\nvaccines, according to our informant, she went to the\nchurch in Verinard Castle Town.\"\n<br>\n\"I've sent my men to track her down. As it is, my finances\nare in jeopardy. If I can't somehow recover the vaccines\nfrom her, I'm doomed...!\"",
     "es": "",
     "fr": "",
     "it": "",
@@ -1978,7 +1978,7 @@
   "49349": {
     "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_080]`, YES",
     "de": "",
-    "en": "HWWAH! How did you fit so many jars in a hemp bag\nlike that!? I-I see... This is the super sorting skill,\nisn't it!",
+    "en": "HWWAH! How did you fit so many jars in a hemp bag\nlike that!? I-I see... This is the super sorting skill, isn't it!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2004,7 +2004,7 @@
   "49350": {
     "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_080]`",
     "de": "",
-    "en": "<attr><feel_angry_lv2><end_attr>......Phew. With that, we don't have to worry about\nKafrizz Fever anymore. But still, what the hell was Dad\ndoing!\n<br>\nUsing the virus to spread Kafrizz Fever and making\nmoney off selling the vacciiines! Ms. Enju tried to stop\nhis plan...\n<br>\n<pc>, you came here at Ms. Enju's daughter,\nSasalana's, request, didn't you. Alright, leave the\nrest to me!\n<br>\nI'll prove her mother's innocence! <pc>, please\ngo back to Sasalana's place.",
+    "en": "<attr><feel_angry_lv2><end_attr>......Phew. With that, we don't have to worry about\nKafrizz Fever anymore. But still, what the hell was Dad\ndoing!\n<br>\nUsing the virus to spread Kafrizz Fever and making\nmoney off selling the vacciiines! Ms. Enju tried to stop\nhis plan...\n<br>\n<pc>, you came here at Ms. Enju's daughter,\nSasalana's, request, didn't you. Alright, leave the rest to\nme!\n<br>\nI'll prove her mother's innocence! <pc>, please\ngo back to Sasalana's place.",
     "es": "",
     "fr": "",
     "it": "",
@@ -2028,9 +2028,9 @@
     "zh-Hant": "<attr><feel_angry_lv2><end_attr>多虧有<pc>幫忙，\n不用再擔心美拉佐熱了。\n話說回來，我爸爸竟然會做出這種事！\n<br>\n他竟然打算用病毒來讓美拉佐熱爆發，\n藉由賣疫苗來賺錢～！\n而延珠是為了阻止這個計劃而……\n<br>\n我去證明她母親的清白！\n也請<pc>回去\n找紗紗良奈吧。"
   },
   "49355": {
-    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_200]`",
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_200]`, one time",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Ahh, <pc>! How is Sasalana? I was too\nscared to tell you at the time, but I couldn't\nbelieve that the kind Ms. Enju was such a bad guy.\n<br>\nI was so happy to hear that he saved me\nfrom Kafrizz Fever. For giving me a chance to\napologize to Sasalana for revealing the truth about my dad's evilness and thievery.\n<br>\n<pc>, I can't thank you enough! Thank yooou!",
+    "en": "<attr><feel_happy_lv3><end_attr>Ahh, <pc>! How is Sasalana?\n<br>\nAt the time I was too scared of Dad to have said it,\nbut I couldn't possibly believe that kind Ms. Enju\nwas a evil person like that.\n<br>\nAbout that rescuing me from Kafrizz Fever thing. Dad's\ncrimes... And the truth of the burglary coming to light,\nyou gave me a chance to apologize to Sasalana for it.\n<br>\n<pc>, I can't thank you enough! Thank yooou!",
     "es": "",
     "fr": "",
     "it": "",
@@ -2041,9 +2041,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>啊！<pc>，\n紗紗良奈過得還好嗎？\n<br>\n我那時候因為害怕爸爸，所以沒能說出口，\n但是我實在不覺得延珠那麼溫柔的人\n會是一個壞蛋。\n<br>\n你救了染上美拉佐熱的我，\n解開了我爸爸幹的壞事……也就是失竊事件的真相，\n還讓我有機會對紗紗良奈道歉。\n<br>\n我對<pc>真是感激不盡！\n謝謝你～"
   },
   "49356": {
-    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_200]`, cont'd",
+    "$comments": "🟡, Quest (020) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00650, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_008_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>When I saw Sasalana at Medal Owner's Mansion,\nI immediately recognized her as Ms. Enju's\ndaughter. When I lived in Royal City Kamiharmui, Ms. Enju played with me several\ntimes.",
+    "en": "<attr><feel_happy_lv3><end_attr>I knew as soon as I saw Sasalana at Medal Owner's\nMansion that she was Ms. Enju's daughter.\n<br>\nWhen I was living in Royal City Kamiharmui, Ms. Enju\nbrought her over to play with me several times.",
     "es": "",
     "fr": "",
     "it": "",
