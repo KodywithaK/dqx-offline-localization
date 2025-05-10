@@ -1222,9 +1222,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>巧克力神布偶的可愛程度\n是其他布偶遠遠比不上的呢。\n<br>\n要是被城裡的人看到，他們又會很多意見，\n所以我平常會將布偶藏在櫃子裡，\n偷偷地把玩它喔<heart>"
   },
   "47541": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_01202, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, YESNO",
     "de": "",
-    "en": "<if_woman><attr><feel_happy_lv1><end_attr>Since my children work hard and eat a lot, the amount\nof meals I have to make every day is staggering, you\nsee. I don't even have time to stretch out my back.\n<br>\nOnce breakfast is made, it's already lunch. Just when\nI think lunch is over, it's already dinner. Aah, I'm\nso busy! So busy!\n<br>\nBut, you see, everyone at the castle eating every\nlast bite of my cooking because they say it's delicious,\nthat's my greatest joy.\n<br>\nThat's why I give it my all and come up with a new\nmenu item that will bring out their power.\n<br>\n......For that reason, Ms. Adventurer, I think that\nyou could help me out a little.\n<br>\nWould you mind going to Gilza Cove in Gilzad Region\nand picking up some Octopus Shells for me?<else><attr><feel_happy_lv1><end_attr>Since my children work hard and eat a lot, the amount\nof meals I have to make every day is staggering, you\nsee. I don't even have time to stretch out my back.\n<br>\nOnce breakfast is made, it's already lunch. Just when\nI think lunch is over, it's already dinner. Aah, I'm\nso busy! So busy!\n<br>\nBut, you see, everyone at the castle eating every\nlast bite of my cooking because they say it's delicious,\nthat's my greatest joy.\n<br>\nThat's why I give it my all and come up with a new\nmenu item that will bring out their power.\n<br>\n......For that reason, Mr. Adventurer, I think that\nyou could help me out a little.\n<br>\nWould you mind going to Gilza Cove in Gilzad Region\nand picking up some Octopus Shells for me?<endif>",
+    "en": "<if_woman><attr><feel_happy_lv1><end_attr>Since my children work hard and eat a lot, the amount\nof meals I have to make every day is staggering, you\nsee. I don't even have time to stretch out my back.\n<br>\nOnce breakfast is made, it's already lunch. Just when\nI think lunch is over, it's already dinner. Aah, I'm so\nbusy! So busy!\n<br>\nBut, you see, everyone at the castle eating every last bite\nof my cooking because they say it's delicious, that's my\ngreatest joy.\n<br>\nThat's why I give it my all and come up with a new\nmenu item that will bring out their power.\n<br>\n......For that reason, Ms. Adventurer, I think that you\ncould help me out a little.\n<br>\nWould you mind going to Gilza Cove in Gilzad Region\nand picking up an <color_yellow>Octopot Shell<color_white> for me?<else><attr><feel_happy_lv1><end_attr>Since my children work hard and eat a lot, the amount\nof meals I have to make every day is staggering, you\nsee. I don't even have time to stretch out my back.\n<br>\nOnce breakfast is made, it's already lunch. Just when\nI think lunch is over, it's already dinner. Aah, I'm so\nbusy! So busy!\n<br>\nBut, you see, everyone at the castle eating every last bite\nof my cooking because they say it's delicious, that's my\ngreatest joy.\n<br>\nThat's why I give it my all and come up with a new\nmenu item that will bring out their power.\n<br>\n......For that reason, Mr. Adventurer, I think that you\ncould help me out a little.\n<br>\nWould you mind going to Gilza Cove in Gilzad Region\nand picking up an <color_yellow>Octopot Shell<color_white> for me?<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1235,9 +1235,9 @@
     "zh-Hant": "<if_woman><attr><feel_happy_lv1><end_attr>我的孩子工作很賣力又很會吃，\n所以我每天都要做很多飯，\n都沒時間伸伸懶腰了。\n<br>\n做完早飯就該做午飯了，\n等到以為做完午飯，就發現又該做晚飯了。\n哎呀，好忙！好忙！\n<br>\n但是呢，城裡的大家都誇我的料理很好吃，\n把我做的料理吃得一乾二淨，\n這是最讓我期待的事。\n<br>\n因此我也必須努力想出\n能讓人湧現力量的菜單才行。\n所以呢，冒險者小姐……\n<br>\n你能不能幫我個小忙呢？\n你能去基爾札德地方的基爾札海灣，\n替我採集章魚扇貝嗎？<else><attr><feel_happy_lv1><end_attr>我的孩子工作很賣力又很會吃，\n所以我每天都要做很多飯。\n都沒時間伸伸懶腰了。\n<br>\n做完早飯就該做午飯了，\n等到以為做完午飯，就發現又該做晚飯了。\n哎呀，好忙！好忙！\n<br>\n但是呢，城裡的大家都誇我的料理很好吃，\n把我做的料理吃得一乾二淨，\n這是最讓我期待的事。\n<br>\n所以我也必須要努力想出\n能讓人湧現力量的菜單才行。\n所以呢，冒險者小哥……\n<br>\n你能不能幫我個小忙啊，\n你能去基爾札德地方的基爾札海灣，\n替我採集章魚扇貝嗎？<endif>"
   },
   "47542": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_01202, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I'm happy that you'll take it on for me, y'know.\nGilza Cove is Ogreed's foremost treasure trove of\nseafood.\n<br>\nYou can get Octopus Shells by defeating <%sEV_QUE_NAME0>s there.\nThere's a nearby settlement, if you need a rest.\n<br>\nEven I occasionally vacation there and stretch my\nback on the beach. Ahaha.",
+    "en": "<attr><feel_happy_lv1><end_attr>I'm happy that you'll take it on for me, y'know. Gilza\nCove is Ogreed's foremost treasure trove of seafood.\n<br>\nYou can get <color_yellow>Octopus Shells<color_white> by defeating <color_red><%sEV_QUE_NAME0>s<color_white> there.\nThere's a nearby settlement, if you need a rest.\n<br>\nEven I occasionally vacation there and stretch my back\non the beach. Ahaha.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1248,7 +1248,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>我很高興你願意幫這個忙。\n基爾札海灣是奧古利德大陸\n屈指可數的水產寶庫呢。\n<br>\n打倒那裡的<%sEV_QUE_NAME0>，\n就會得到章魚扇貝。\n要是累了，那裡還有村落可以稍作歇息。\n<br>\n我也想偶爾放個假，\n去海邊悠閒地伸懶腰休息啊。\n哈哈哈。"
   },
   "47543": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_000]`, QUESTS FULL",
     "de": "",
     "en": "<if_woman><attr><feel_happy_lv1><end_attr>It makes me happy to hear that you're willing\nto do it. But you seem to have your hands full\nwith other requests. You can ask me anytime\n<br>\nyou want. Ha-ha-ha.<else><attr><feel_happy_lv1><end_attr>It makes me happy to hear that you are willing\nto do it. But your brother seems to have his\nhands full with other requests. You can ask me\n<br>\nanytime you want. Ha-ha-ha.<endif>",
     "es": "",
@@ -1261,9 +1261,9 @@
     "zh-Hant": "<if_woman><attr><feel_happy_lv1><end_attr>我很高興你願意幫這個忙。\n但小姐你好像接太多別的委託了。\n<br>\n我的事什麼時候處理都行。\n哈哈哈。<else><attr><feel_happy_lv1><end_attr>我很高興你願意幫這個忙。\n但小哥你好像接太多別的委託了。\n<br>\n我的事什麼時候處理都行。\n哈哈哈。<endif>"
   },
   "47544": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_000]`, NO",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Is that so, that's too bad, y'know. Come again when\nyou feel like it. Ahaha.",
+    "en": "<attr><feel_happy_lv1><end_attr>That so, yeah, too bad, y'know. Come again when you\nfeel like it. Ahaha.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1274,7 +1274,7 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>這樣啊，真是可惜。\n那等你改變主意再來吧。\n哈哈哈。"
   },
   "47545": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_01202, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>Gilza Cove is Ogreed's foremost treasure trove of\nseafood.<open_irai><bw_break>",
     "es": "",
@@ -1287,9 +1287,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>基爾札德地方的基爾札海灣是\n奧古利德大陸屈指可數的水產寶庫呢。<open_irai><bw_break>"
   },
   "47546": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_01202, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>You can get Octopus Shells by defeating <%sEV_QUE_NAME0>s there.\nThere's a nearby settlement, if you need a rest.<bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr>You can get <color_yellow>Octopus Shells<color_white> by defeating <color_red><%sEV_QUE_NAME0>s<color_white> there.\nThere's a nearby settlement, if you need a rest.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1300,9 +1300,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>打倒那裡的<%sEV_QUE_NAME0>，\n就會得到章魚扇貝。\n要是累了，那裡還有村落可以稍作歇息。<bw_break>"
   },
   "47547": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_01202, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr><close_irai>Even I occasionally vacation there and stretch my\nback on the beach. Ahaha.",
+    "en": "<attr><feel_happy_lv1><end_attr><close_irai>Even I occasionally vacation there and stretch my back\non the beach. Ahaha.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1313,9 +1313,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr><close_irai>我也想偶爾放個假，\n去海邊悠閒地伸懶腰休息啊。\n哈哈哈。"
   },
   "47548": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_01202, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, YESNO",
     "de": "",
-    "en": "<if_woman><attr><feel_think_lv1><end_attr>Oh, Ms. Adventurer. Did you get me the Octopus Shell?<else><attr><feel_think_lv1><end_attr>Oh, Mr. Adventurer. Did you get me the Octopus Shell?<endif>",
+    "en": "<if_woman><attr><feel_think_lv1><end_attr>Oh yeah, Ms. Adventurer. Did you get me the <color_yellow>Octopot\nShell<color_white>?<else><attr><feel_think_lv1><end_attr>Oh yeah, Mr. Adventurer. Did you get me the <color_yellow>Octopot\nShell<color_white>?<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1326,7 +1326,7 @@
     "zh-Hant": "<if_woman><attr><feel_think_lv1><end_attr>哎呀，冒險者小姐，\n你得到章魚扇貝了嗎？<else><attr><feel_think_lv1><end_attr>哎呀，冒險者小哥，\n你得到章魚扇貝了嗎？<endif>"
   },
   "47549": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_020]`, NO",
     "de": "",
     "en": "<attr><feel_happy_lv1><end_attr>I thought I smelled the sea on you, but I guess I was\nwrong, wasn't I. Ahaha.",
     "es": "",
@@ -1338,10 +1338,36 @@
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>我闻到海水的味道了，\n还以为你得到章鱼扇贝了呢，\n看来是我搞错了，啊哈哈。",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>我有聞到海水的味道，\n還以為你得到章魚扇貝了呢。\n看來是我搞錯了，哈哈哈。"
   },
+  "47776": {
+    "$comments": "🟢, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, GIVE?",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> die <color_yellow>Piekpolypschale<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Octopot Shell<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> el <color_yellow>Concha del Chopito<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> la <color_yellow>Coquille du Poulpe<color_white> ?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "it": "Dare <%sEV_SYSMSG_NPC> la <color_yellow>Conchiglia dell'Octopolp<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ja": "デヤーサに　タコツキ貝を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ko": "데야사에게 문어 조개를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> a <color_yellow>Concha do Capolvocete<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hans": "要把章鱼扇贝交给迪亚萨吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hant": "是否要將章魚扇貝交給德雅莎？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "47777": {
+    "$comments": "🟢, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, GAVE!",
+    "de": "<pc> gab der <%sEV_SYSMSG_NPC> die <color_yellow>Piekpolypschale<color_white>!",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Octopot Shell<color_white>!",
+    "es": "¡<pc> le dio a la <%sEV_SYSMSG_NPC> el <color_yellow>Concha del\nChopito<color_white>!",
+    "fr": "<pc> a donné a la <%sEV_SYSMSG_NPC> la <color_yellow>Coquille\ndu Poulpe<color_white> !",
+    "it": "<pc> ha dato alla <%sEV_SYSMSG_NPC> la <color_yellow>Conchiglia\ndell'Octopolp<color_white>!",
+    "ja": "<pc>は　デヤーサに\nタコツキ貝を　渡した！",
+    "ko": "{pc}|hpp(은,는) 데야사에게\n문어 조개를 건넸다!",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> a <color_yellow>Concha do Capolvocete<color_white>!",
+    "zh-Hans": "<pc>把章鱼扇贝\n交给了迪亚萨！",
+    "zh-Hant": "<pc>把章魚扇貝\n交給了德雅莎！"
+  },
   "47550": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>This is it! This is the Octopus Shell! Thank you,\ny'know. This is my way of saying thanks.",
+    "en": "<attr><feel_happy_lv3><end_attr>This is it! This is the <color_yellow>Octopot Shell<color_white>! Thanks, y'know. This\nis a reward from me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1352,9 +1378,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>就是這個！這個就是章魚扇貝啊！\n謝謝。這是我給你的謝禮。"
   },
   "47551": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Haa~. If you sleep with the rough side of the shell\non your lower back, it helps with muscle stiffness.\nThen by morning, you'll feel pleasantly refreshed...\n<br>\n...Huh, eh? You thought that the Octopus Shell was an\ningredient for the new menu item?<bw_break>",
+    "en": "<attr><feel_sad_lv1><end_attr>Haaaaaa. If you sleep with the rough side of the shell\non your lower back, it helps with muscle stiffness.\nThen by morning, you'll feel pleasantly refreshed...\n<br>\n...Huh, eh? You thought that the Octopot Shell was an\ningredient for the new menu item?<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1365,9 +1391,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>啊～把這貝殼凹凸不平的一面\n墊在腰上睡覺可以治腰痠，\n隔天起來整個人神清氣爽……\n<br>\n……咦？你說章魚扇貝\n難道不是新菜單的食材嗎？<bw_break>"
   },
   "47552": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Ahaha. It's not like we don't eat fish and shellfish, but\nour kids love meat, so, y'know.\n<br>\nWell, now that I don't have to worry about my back\nanymore, I'll try making a lot of new menu items\nusing delicious salt'n'peppered meats!",
+    "en": "<attr><feel_happy_lv2><end_attr>Ahaha. It's not like we don't eat fish and shellfish, but\nour kids love meat, so, y'know.\n<br>\nWell, now that I don't have to worry about my back\nanymore, I'll try making a lot of new menu items using\ndelicious salt 'n' peppered meats!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1377,36 +1403,10 @@
     "zh-Hans": "<attr><feel_happy_lv2><end_attr>啊哈哈，\n虽然不是不吃鱼类贝类，\n但我的孩子最喜欢吃肉了。\n<br>\n好了，已经不用担心腰的问题了，\n那就好好研究使用霜降肉的新菜单吧！",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哈哈哈，\n雖然不是不吃魚類貝類，\n但我的孩子最喜歡吃肉了。\n<br>\n好，已經不用擔心腰的問題了，\n來做個使用大量美味霜降肉的新菜單吧！"
   },
-  "47776": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "Give Deyasa the Octopus Shell?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "デヤーサに　タコツキ貝を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "ko": "데야사에게 문어 조개를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "pt-BR": "",
-    "zh-Hans": "要把章鱼扇贝交给迪亚萨吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "zh-Hant": "是否要將章魚扇貝交給德雅莎？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
-  },
-  "47777": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> gave Deyasa the Octopus Shell!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　デヤーサに\nタコツキ貝を　渡した！",
-    "ko": "{pc}|hpp(은,는) 데야사에게\n문어 조개를 건넸다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把章鱼扇贝\n交给了迪亚萨！",
-    "zh-Hant": "<pc>把章魚扇貝\n交給了德雅莎！"
-  },
   "47555": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_200]`",
     "de": "",
-    "en": "<if_woman><attr><feel_happy_lv2><end_attr>Aah, I'm so busy! So busy! Since my children work\nhard and eat a lot, the amount of meals I have to make\nevery day is staggering, y'know.\n<br>\nI have to make sure to cook plenty of delicious meats\nso they can eat and bring out their power, y'know.\nBut still, it smells good! Ahaha.\n<br>\nBy the way, Miss, the Octopus Shell gave me is really\ngood stuff. If you're up for it, I'd like you to go\nget me some more, y'know.<else><attr><feel_happy_lv2><end_attr>Aah, I'm so busy! So busy! Since my children work\nhard and eat a lot, the amount of meals I have to make\nevery day is staggering, y'know.\n<br>\nI have to make sure to cook plenty of delicious meats\nso they can eat and bring out their power, y'know.\nBut still, it smells good! Ahaha.\n<br>\nBy the way, Mister, the Octopus Shell gave me is really\ngood stuff. If you're up for it, I'd like you to go\nget me some more, y'know.<endif>",
+    "en": "<if_woman><attr><feel_happy_lv2><end_attr>Aah, I'm so busy! So busy! Since my children work\nhard and eat a lot, the amount of meals I have to make\nevery day is staggering, y'know.\n<br>\nI have to make sure to cook plenty of delicious meats\nso they can eat and bring out their power, y'know.\nBut still, it smells good! Ahaha.\n<br>\nBy the way, Miss, the Octopot Shell gave me is really\ngood stuff. If you're up for it, I'd like you to go get me\nsome more, y'know.<else><attr><feel_happy_lv2><end_attr>Aah, I'm so busy! So busy! Since my children work\nhard and eat a lot, the amount of meals I have to make\nevery day is staggering, y'know.\n<br>\nI have to make sure to cook plenty of delicious meats\nso they can eat and bring out their power, y'know.\nBut still, it smells good! Ahaha.\n<br>\nBy the way, Mister, the Octopot Shell gave me is really\ngood stuff. If you're up for it, I'd like you to go get me\nsome more, y'know.<endif>",
     "es": "",
     "fr": "",
     "it": "",

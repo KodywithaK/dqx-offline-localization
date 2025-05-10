@@ -782,10 +782,10 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |       `STT_MonsterTarotArcana`        |     |                                             |                                                                                             |
 |        `STT_MonsterTarotDeck`         |     |                                             |                                                                                             |
 |       `STT_MonsterTarotMonster`       |     |                                             |                                                                                             |
-|       `STT_Monster_Tips1_ver1`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
-|       `STT_Monster_Tips1_ver2`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
-|       `STT_Monster_Tips2_Ver2`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
-|       `STT_Monster_Tips2_ver1`        |     | ~40ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
+|       `STT_Monster_Tips1_ver1`        |     | ~35ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
+|       `STT_Monster_Tips1_ver2`        |     | ~35ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
+|       `STT_Monster_Tips2_Ver2`        |     | ~35ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
+|       `STT_Monster_Tips2_ver1`        |     | ~35ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
 |          `STT_Monster_Type`           |     |                                             |                                                                                             |
 |             `STT_NpcInfo`             |     |                                             | NPC name, see "pakchunk0-{PLATFORM}.utoc\Game\Content\Datatables\Characters\NpcInfo.uasset" |
 |      `STT_OddStatusExplanation`       |     | ~15ch long, 3 lines high (2 `\n`)           | Skill (Panel) explanations                                                                  |
@@ -797,11 +797,11 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |            `STT_QuestList`            |     |                                             | Quest list menus                                                                            |
 |        `STT_QuestListCategory`        |     |                                             | Quest categories (Main/Sub Story, Job Quest, etc.)                                          |
 |         `STT_QuestListDetail`         |     |                                             | Quest details                                                                               |
-|          `STT_QuestListName`          |     |                                             | Quest names                                                                                 |
+|          `STT_QuestListName`          |     | ~35ch long                                  | Quest names                                                                                 |
 |         `STT_QuestListSeries`         |     |                                             | Quest series names                                                                          |
 |        `STT_Quest_AfterBattle`        |     |                                             |                                                                                             |
 |          `STT_Quest_ItemGet`          |     |                                             | Quest required items dialog                                                                 |
-|     `STT_Quest_PerticularReward`      |     |                                             | Quest completion rewards                                                                    |
+|     `STT_Quest_PerticularReward`      |     | ~50ch long                                  | Quest completion rewards                                                                    |
 |       `STT_Restricted_GamePlay`       |     |                                             |                                                                                             |
 |      `STT_ResurrectionTextList`       |     |                                             |                                                                                             |
 |          `STT_SenrekUIiSys`           |     |                                             |                                                                                             |
