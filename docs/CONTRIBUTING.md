@@ -836,7 +836,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |    `STT_System_Facility_ChurchNpc`    |     |                                             |                                                                                             |
 |    `STT_System_Facility_ChurchSys`    |     |                                             |                                                                                             |
 |       `STT_System_ItabaeAlbum`        |     |                                             |                                                                                             |
-|         `STT_System_Location`         |     |                                             | Map names                                                                                   |
+|         `STT_System_Location`         |     | ~35ch                                       | Map names                                                                                   |
 |       `STT_System_ProfileWord`        |     |                                             |                                                                                             |
 |        `STT_System_Shop_Dougu`        |     |                                             |                                                                                             |
 |      `STT_System_Shop_Dougu_Sys`      |     |                                             |                                                                                             |

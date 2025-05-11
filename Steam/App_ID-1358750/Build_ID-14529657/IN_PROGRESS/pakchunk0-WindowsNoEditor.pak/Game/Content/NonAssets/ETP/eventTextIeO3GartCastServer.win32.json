@@ -1224,7 +1224,7 @@
   "47541": {
     "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_01202, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, YESNO",
     "de": "",
-    "en": "<if_woman><attr><feel_happy_lv1><end_attr>Since my children work hard and eat a lot, the amount\nof meals I have to make every day is staggering, you\nsee. I don't even have time to stretch out my back.\n<br>\nOnce breakfast is made, it's already lunch. Just when\nI think lunch is over, it's already dinner. Aah, I'm so\nbusy! So busy!\n<br>\nBut, you see, everyone at the castle eating every last bite\nof my cooking because they say it's delicious, that's my\ngreatest joy.\n<br>\nThat's why I give it my all and come up with a new\nmenu item that will bring out their power.\n<br>\n......For that reason, Ms. Adventurer, I think that you\ncould help me out a little.\n<br>\nWould you mind going to Gilza Cove in Gilzad Region\nand picking up an <color_yellow>Octopot Shell<color_white> for me?<else><attr><feel_happy_lv1><end_attr>Since my children work hard and eat a lot, the amount\nof meals I have to make every day is staggering, you\nsee. I don't even have time to stretch out my back.\n<br>\nOnce breakfast is made, it's already lunch. Just when\nI think lunch is over, it's already dinner. Aah, I'm so\nbusy! So busy!\n<br>\nBut, you see, everyone at the castle eating every last bite\nof my cooking because they say it's delicious, that's my\ngreatest joy.\n<br>\nThat's why I give it my all and come up with a new\nmenu item that will bring out their power.\n<br>\n......For that reason, Mr. Adventurer, I think that you\ncould help me out a little.\n<br>\nWould you mind going to Gilza Cove in Gilzad Region\nand picking up an <color_yellow>Octopot Shell<color_white> for me?<endif>",
+    "en": "<if_woman><attr><feel_happy_lv1><end_attr>Since my children work hard and eat a lot, the amount\nof meals I have to make every day is staggering, y'see.\nI don't even have time to stretch out my back.\n<br>\nOnce breakfast is made, it's already lunch. Just when\nI think lunch is over, it's already dinner. Aah, I'm so\nbusy! So busy!\n<br>\nBut, y'see, everyone at the castle eating every last bite\nof my cooking because they say it's delicious, that's my\ngreatest joy.\n<br>\nThat's why I'll give it my all and come up with a new\nmenu item that'll bring out their power.\n<br>\n......For that reason, Ms. Adventurer, I think that you\ncould help me out a little.\n<br>\nYou mind going to Gilza Cove in Gilzadd Region and\npicking up an <color_yellow>Octopot Shell<color_white> for me?<else><attr><feel_happy_lv1><end_attr>Since my children work hard and eat a lot, the amount\nof meals I have to make every day is staggering, y'see.\nI don't even have time to stretch out my back.\n<br>\nOnce breakfast is made, it's already lunch. Just when\nI think lunch is over, it's already dinner. Aah, I'm so\nbusy! So busy!\n<br>\nBut, y'see, everyone at the castle eating every last bite\nof my cooking because they say it's delicious, that's my\ngreatest joy.\n<br>\nThat's why I'll give it my all and come up with a new\nmenu item that'll bring out their power.\n<br>\n......For that reason, Mr. Adventurer, I think that you\ncould help me out a little.\n<br>\nYou mind going to Gilza Cove in Gilzadd Region and\npicking up an <color_yellow>Octopot Shell<color_white> for me?<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1237,7 +1237,7 @@
   "47542": {
     "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_01202, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I'm happy that you'll take it on for me, y'know. Gilza\nCove is Ogreed's foremost treasure trove of seafood.\n<br>\nYou can get <color_yellow>Octopus Shells<color_white> by defeating <color_red><%sEV_QUE_NAME0>s<color_white> there.\nThere's a nearby settlement, if you need a rest.\n<br>\nEven I occasionally vacation there and stretch my back\non the beach. Ahaha.",
+    "en": "<attr><feel_happy_lv1><end_attr>I'm happy that you'll take it on for me, y'know. Gilza\nCove is Ogreed's foremost treasure trove of seafood.\n<br>\nYou can get <color_yellow>Octopus Shells<color_white> by defeating <color_red><%sEV_QUE_NAME0>s<color_white> there.\nThere's a nearby settlement, if you need a rest.\n<br>\nEven I occasionally vacation there to stretch my back\non the beach. Ahaha.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1302,7 +1302,7 @@
   "47547": {
     "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_01202, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr><close_irai>Even I occasionally vacation there and stretch my back\non the beach. Ahaha.",
+    "en": "<attr><feel_happy_lv1><end_attr><close_irai>Even I occasionally vacation there to stretch my back\non the beach. Ahaha.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1367,7 +1367,7 @@
   "47550": {
     "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>This is it! This is the <color_yellow>Octopot Shell<color_white>! Thanks, y'know. This\nis a reward from me.",
+    "en": "<attr><feel_happy_lv3><end_attr>This is it! This is the <color_yellow>Octopot Shell<color_white>! Thanks, y'know.\nThis is a reward from me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1380,7 +1380,7 @@
   "47551": {
     "$comments": "🟡, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00208, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_014_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TAKOTUKIGAI]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Haaaaaa. If you sleep with the rough side of the shell\non your lower back, it helps with muscle stiffness.\nThen by morning, you'll feel pleasantly refreshed...\n<br>\n...Huh, eh? You thought that the Octopot Shell was an\ningredient for the new menu item?<bw_break>",
+    "en": "<attr><feel_sad_lv1><end_attr>Haaaaaa. If you sleep with the rough side of the shell\non your lower back, it helps with muscle stiffness.\nThen by morning, you'll feel pleasantly refreshed...\n<br>\n...Huh, eh!? You thought that the Octopot Shell was\nan ingredient for the new menu item?<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
