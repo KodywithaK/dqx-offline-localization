@@ -197,7 +197,7 @@
   "48323": {
     "$comments": "🟡, Quest (027) {Sub Story}, see `[STT_Npc.Info.NAME_NPC_00786, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_016_1_000]`",
     "de": "",
-    "en": "<attr><feel_angry_one><end_attr>Grr... My detestable daughter-in-law. Really, she's\ndetestable, I tell you. I can't take it anymore, my\npatience is at its limit...\n<br>\nIf only I were able to get it; I could make the\nforbidden medicine that'd quiet down that deafening\ndaughter-in-law...",
+    "en": "<attr><feel_angry_one><end_attr>Grrrrr... My detestable daughter-in-law. Really, she's\ndetestable, I tell you. I can't take it anymore, my patience\nis at its limit...\n<br>\nIf only I were able to get it; I could make the forbidden\nmedicine that'd quiet down that deafening daughter-in-\nlaw...",
     "es": "",
     "fr": "",
     "it": "",
@@ -210,7 +210,7 @@
   "48324": {
     "$comments": "🟡, Quest (027) {Sub Story}, see `[STT_Npc.Info.NAME_NPC_00786, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_016_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_00602, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_JIGOKUNONEGIBOZU]`, YESNO",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr><icon_exc><turn_pc>Oh yeah. You're a naughty person, ain'tcha. Eaves-\ndropping on my secret monologues like that.\n<br>\nYeah, that's right. I can't stand it anymore. That\ndaughter-in-law, doing just as she pleases; I haven't\nmuch life left, and I ain't putting up with it.\n<br>\nSay, you... You heard my monologue, so could you possibly\nfetch ingredients of the forbidden medicine for me?\n<br>\nThe medicine ingredient is dropped by those\n\"<color_red><%SEV_QUE_NAME0><color_white>\" monsters that appear in Verse\nMountain Forest, a <color_yellow>Hellscallion<color_white>.\n<br>\nGo fetch that ingredient for me. It's the wish of a\nsenior who doesn't have long to live. Please!",
+    "en": "<attr><feel_normal_lv1><end_attr><icon_exc><turn_pc>Oh yeah. You're a naughty person, ain'tcha. Eavesdrop-\nping on my secret monologues like that.\n<br>\nYeah, that's right. I can't stand it anymore. That daughter-\nin-law, doing just as she pleases; I haven't much life left,\nand I ain't putting up with it for nothing.\n<br>\nSay, you... You heard my monologue, so could you\npossibly fetch ingredients of the forbidden medicine\nfor me?\n<br>\nThe medicine ingredient's a <color_yellow>Hellscallion<color_white>, dropped by\nthose \"<color_red><%SEV_QUE_NAME0><color_white>\" monsters that appear in Verse\nMountain Forest.\n<br>\nGo fetch that ingredient for me. It's the wish of a senior\nwho doesn't have long to live. Please!",
     "es": "",
     "fr": "",
     "it": "",
@@ -223,7 +223,7 @@
   "48325": {
     "$comments": "🟡, Quest (027) {Sub Story}, see `[STT_Npc.Info.NAME_NPC_00786, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_016_1_000]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>I'm grateful! You'll take it on, eh! Then, sincerely,\nkeep it a secret from my daughter-in-law... Hehhehhe.",
+    "en": "<attr><feel_happy_lv2><end_attr>I'm grateful! You'll take it on, eh! Then, sincerely, keep\nit a secret from my daughter-in-law... Hehhehhe.",
     "es": "",
     "fr": "",
     "it": "",
@@ -262,7 +262,7 @@
   "48362": {
     "$comments": "🟡, Quest (027) {Sub Story}, see `[STT_Npc.Info.NAME_NPC_00786, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_016_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_00602, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_JIGOKUNONEGIBOZU]`",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>If only I were able to get it; I could make the\nforbidden medicine that'd quiet down that deafening\ndaughter-in-law\n<br>\nThe medicine ingredient is dropped by those\n\"<color_red><%SEV_QUE_NAME0><color_white>\" monsters that appear in Verse\nMountain Forest, a <color_yellow>Hellscallion<color_white>.<open_irai><bw_break>",
+    "en": "<attr><feel_normal_lv1><end_attr>If only I were able to get it; I could make the forbidden\nmedicine that'd quiet down that deafening daughter-in-\nlaw...\n<br>\nThe medicine ingredient's a <color_yellow>Hellscallion<color_white>, dropped by\nthose \"<color_red><%SEV_QUE_NAME0><color_white>\" monsters that appear in Verse\nMountain Forest.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -275,7 +275,7 @@
   "48363": {
     "$comments": "🟡, Quest (027) {Sub Story}, see `[STT_Npc.Info.NAME_NPC_00786, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_016_1_010]`",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr><close_irai>It's the wish of a senior who doesn't have long to\nlive. Please, take care of it for me!",
+    "en": "<attr><feel_normal_lv1><end_attr><close_irai>It's the wish of a senior who doesn't have long to live.\nPlease, take care of it for me!",
     "es": "",
     "fr": "",
     "it": "",
@@ -311,6 +311,19 @@
     "zh-Hans": "要把地狱葱花\n交给薇玛吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "zh-Hant": "是否要將地獄蔥花\n交給薇瑪？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
+  "48330": {
+    "$comments": "🟡, Quest (027) {Sub Story}, see `[STT_Npc.Info.NAME_NPC_00786, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_016_1_020]`, NO",
+    "de": "",
+    "en": "<attr><feel_sad_lv1><end_attr>Hyo... Still haven't gotten it, eh. Sorry. I was in a bit of\na hurry.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_sad_lv1><end_attr>「ヒョ……。 \n　まだ　手に入れておらんかったか。\n　すまんのう。どうにも　気が急いてしもうてな。",
+    "ko": "<attr><feel_sad_lv1><end_attr>: 에구머니나…….\n　아직인가 보구먼.\n　미안하네. 마음이 급해서 그만.",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_sad_lv1><end_attr>哎呦……\n你还没拿到啊。\n不好意思啊，看来是我太着急了。",
+    "zh-Hant": "<attr><feel_sad_lv1><end_attr>喔……\n你還沒拿到啊？\n抱歉，看來是我太著急了。"
+  },
   "48331": {
     "$comments": "🟢, Quest (027) {Sub Story}, see `[STT_Npc.Info.NAME_NPC_00786, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_016_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_JIGOKUNONEGIBOZU]`, GAVE!",
     "de": "<pc> gab der <%sEV_SYSMSG_NPC> die <color_yellow>Höllezwiebel<color_white>!",
@@ -323,19 +336,6 @@
     "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> a Flor do <color_yellow>Cebolinferno<color_white>!",
     "zh-Hans": "<pc>把地狱葱花\n交给了薇玛！",
     "zh-Hant": "<pc>把地獄蔥花\n交給了薇瑪！"
-  },
-  "48330": {
-    "$comments": "🟡, Quest (027) {Sub Story}, see `[STT_Npc.Info.NAME_NPC_00786, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_016_1_020]`, NO",
-    "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Hyo... Still haven't gotten it, eh. Sorry. I was in a bit\nof a hurry.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_sad_lv1><end_attr>「ヒョ……。 \n　まだ　手に入れておらんかったか。\n　すまんのう。どうにも　気が急いてしもうてな。",
-    "ko": "<attr><feel_sad_lv1><end_attr>: 에구머니나…….\n　아직인가 보구먼.\n　미안하네. 마음이 급해서 그만.",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_sad_lv1><end_attr>哎呦……\n你还没拿到啊。\n不好意思啊，看来是我太着急了。",
-    "zh-Hant": "<attr><feel_sad_lv1><end_attr>喔……\n你還沒拿到啊？\n抱歉，看來是我太著急了。"
   },
   "48332": {
     "$comments": "🟡, Quest (027) {Sub Story}, see `[STT_Npc.Info.NAME_NPC_00786, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_016_1_020]`, YES",
@@ -353,7 +353,7 @@
   "48333": {
     "$comments": "🟡, Quest (027) {Sub Story}, see `[STT_Npc.Info.NAME_NPC_00786, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_016_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Here... With this, I can finally make Leen Village's\nsecret wonder drug... Snorestopper!\n<br>\nMy daughter-in-law, when she gets to snoring, it's\nreally loud, see. For a long time, I couldn't even\nsleep well.\n<br>\nBut, as long as I have the wonder drug, snorestopper,\nmy daughter-in-law and I will sleep peacefully, and\nmy sleep-life will be safe and sound!",
+    "en": "<attr><feel_happy_lv3><end_attr>Here... With this, I can finally make Leen Village's secret\nwonder drug... Snorestopper!\n<br>\nMy daughter-in-law, when she gets to snoring, it's really\nloud, see. For a long time, I couldn't even sleep well.\n<br>\nBut, as long as I have the wonder drug, snorestopper,\nmy daughter-in-law and I will sleep peacefully, and my\nsleep-life will be safe and sound!",
     "es": "",
     "fr": "",
     "it": "",
@@ -366,7 +366,7 @@
   "48334": {
     "$comments": "🟡, Quest (027) {Sub Story}, see `[STT_Npc.Info.NAME_NPC_00786, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_016_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Why is the snore-stopping wonder drug, snorestopper,\ncalled a \"forbidden medicine\", you say...\n<br>\nIn exchange, one's dorsal fin gets all itchy—it's\na terrible side-effect!\n<br>\n...Well, my daughter-in-law's thick, so it probably won't\nbe an issue, right. Hehhehhe.",
+    "en": "<attr><feel_happy_lv1><end_attr>Why is the snore-stopping wonder drug, snorestopper,\ncalled a \"forbidden medicine\", you say...\n<br>\nIn exchange, one's dorsal fin gets all itchy—it's a terrible\nside-effect!\n<br>\n...Well, my daughter-in-law's thick, so it probably won't\nbe an issue, right. Hehhehhe.",
     "es": "",
     "fr": "",
     "it": "",

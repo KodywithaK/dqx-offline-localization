@@ -520,9 +520,9 @@
     "zh-Hant": "<attr><feel_angry_lv3><end_attr>哎呀，我還以為是誰，這不是<pc>嗎？\n你聽我說一下。\n就是關於我請你去找的那個零件。\n<br>\n我立刻就用普庫衝刺去看了。\n我左看右看，都覺得好完美！！\n就在我這麼想的時候……\n<br>\n我突然覺得不太對勁，把那個零件拆下來。\n然後翻過來看，\n上面用很醜的字寫著「我家」！\n<br>\n難以置信！錯錯錯，難以置信！\n到底是誰幹了這種事！？\n要是讓我找到犯人，絕對饒不了他！"
   },
   "48645": {
-    "$comments": "🔴, Quest (031) {Sub Story}",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_000]`, YESNO",
     "de": "",
-    "en": "<if_woman><attr><feel_happy_lv2><end_attr>Oh, girl! You look like a strong traveling\nmaster! I think I can ask her for a favor! You\nknow what? I love the always smiling Glitter\n<br>\nWindmill Tower, and I want to know more and\nmore about them! Hey, please! Ask someone who\nknows about Glitter Windmill Tower!<else><attr><feel_happy_lv2><end_attr>Ah, onii-chan! You seem like a nice, strong\ntraveling master! I think I can ask Onii-chan\nfor a favor! You know what? I love the always\n<br>\nsmiling Glitter Windmill Tower, and I want to\nknow more and more about them! Hey, please!\nAsk someone who knows a lot about Glitter\n<br>\nWindmill Tower!<endif>",
+    "en": "<if_woman><attr><feel_happy_lv2><end_attr>Ah, Miss! You look like a nice, strong travel master,\ny'know! You look like I could ask you a favor!\n<br>\nUmm. I love that the Glittering Windmill Tower is\nalways smiling, and I wanna know lots more about it!\n<br>\nSo, please! Anything'd be good, so go ask someone who\nknows a lot about Glittering Windmill Tower!<else><attr><feel_happy_lv2><end_attr>Ah, Mister! You look like a nice, strong travel master,\ny'know! You look like I could ask you a favor!\n<br>\nUmm. I love that the Glittering Windmill Tower is\nalways smiling, and I wanna know lots more about it!\n<br>\nSo, please! Anything'd be good, so go ask someone who\nknows a lot about Glittering Windmill Tower!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -533,9 +533,9 @@
     "zh-Hant": "<if_woman><attr><feel_happy_lv2><end_attr>啊，大姊姊！\n你看起來很像是擅長旅行的強者呢！\n那應該可以拜託大姊姊吧！\n<br>\n那個啊，我很喜歡\n總是笑咪咪的光耀大風車塔，\n所以想要更了解大風車塔！\n<br>\n拜託了！無論什麼消息都可以，\n幫我去問問很熟悉\n光耀大風車塔的人吧～！<else><attr><feel_happy_lv2><end_attr>啊，大哥哥！\n你看起來很像是擅長旅行的強者呢！\n那應該可以拜託大哥哥吧！\n<br>\n那個啊，我很喜歡\n總是笑咪咪的光耀大風車塔，\n所以想要更了解大風車塔！\n<br>\n拜託了！無論什麼消息都可以，\n幫我去問問很熟悉\n光耀大風車塔的人吧～！<endif>"
   },
   "48646": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_000]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Wow - you're taking care of it! Thank you!",
+    "en": "<attr><feel_happy_lv3><end_attr>Wowee, you're taking care of it for me! Thank you!",
     "es": "",
     "fr": "",
     "it": "",
@@ -546,9 +546,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>耶～！你願意接下來啊！\n謝謝你！"
   },
   "48647": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_000]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>I think there are people at Glitter Windmill\nTower who are familiar with Glitter Windmill\nTower! Please give my best regards!",
+    "en": "<attr><feel_happy_lv2><end_attr>I think someone who knows a lot about Glittering\nWindmill Tower will definitely be there! Please, take\ncare of it, okay!",
     "es": "",
     "fr": "",
     "it": "",
@@ -559,9 +559,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>我覺得很了解光耀大風車塔的人\n應該會在光耀大風車塔那裡！\n那就拜託你了！"
   },
   "48648": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_000]`, QUESTS FULL",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Wow, you're taking me on! But I think I'm busy\nwith other requests. I'd like to ask you to do\nit when you're free, so please go take care of\n<br>\nthe other things I've asked you to do!",
+    "en": "<attr><feel_happy_lv2><end_attr>Wowee, you're taking care of it for me! Thank you!...\nBut it looks like you're busy with other requests.\n<br>\nWhen you freed up your hands a bit, I'd like to ask\nyou, so go finish up those other requests quickly,\nokay!",
     "es": "",
     "fr": "",
     "it": "",
@@ -572,9 +572,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>耶～！你願意接下來啊！\n……但是你好像正在忙其他的委託。\n<br>\n我想等你閒一點的時候\n再拜託你，所以請你先去\n解決其他委託吧！"
   },
   "48649": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_000]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Oh, no! Oh, no~. Mmm~. Well then, please come\nagain when you feel like it!",
+    "en": "<attr><feel_sad_lv1><end_attr>Eeh! Oh, no wayyy. Mmm. Alright then, when you feel\nlike it, come back again, okay!",
     "es": "",
     "fr": "",
     "it": "",
@@ -585,9 +585,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>咦～！怎麼這樣～\n唔～那就等你改變主意再來喔！"
   },
   "48650": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_010]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Please ask someone in the know about Glitter\nWindmill Tower!<open_irai><bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr>Go ask someone who knows a lot about Glittering\nWindmill Tower, okay!<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -598,9 +598,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>去問問有沒有人\n很了解光耀大風車塔吧！<open_irai><bw_break>"
   },
   "48651": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_010]`, cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I think there are people at Glitter Windmill\nTower who are familiar with Glitter Windmill\nTower! Please give my best regards!",
+    "en": "<attr><feel_happy_lv1><end_attr>I think someone who knows a lot about Glittering\nWindmill Tower will definitely be there! Please, take\ncare of it, okay!",
     "es": "",
     "fr": "",
     "it": "",
@@ -611,9 +611,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>我覺得很了解光耀大風車塔的人\n應該會在光耀大風車塔那裡！\n那就拜託你了！"
   },
   "48652": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_020]`, YESNO",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Oh, welcome back! Did you hear from anyone\nfamiliar with Glitter Windmill Tower?<yesno><case 1><close><case 2><break><case_cancel><break><case_end>",
+    "en": "<attr><feel_normal_lv1><end_attr>Ah, welcome back! Did you hear from anyone familiar\nwith Glittering Windmill Tower?\n<yesno><case 1><close><case 2><break><case_cancel><break><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -624,9 +624,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>啊，歡迎回來！\n你有從很了解光耀大風車塔的人口中\n問到任何消息嗎？<yesno><case 1><close><case 2><break><case_cancel><break><case_end>"
   },
   "48653": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_020]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>Eh? You say there was no one like that! That's\nnot true! I'm sure there must be someone who\nknows more about it, so please look for them\n<br>\nwith a more true sword!",
+    "en": "<attr><feel_sad_one><end_attr>Eeh! There wasn't anybody like that, you say!? Such a\nthing can't be!\n<br>\nI'm sure there's should be someone who knows a lot\nabout about it, so search for them more seriously!",
     "es": "",
     "fr": "",
     "it": "",
@@ -636,10 +636,23 @@
     "zh-Hans": "<attr><feel_sad_one><end_attr>咦咦！没有人熟悉大风车塔？！\n不可能呀！一定有那样的人，\n你再仔细找找！",
     "zh-Hant": "<attr><feel_sad_one><end_attr>咦～！你說沒有那種人！？\n不可能的吧！一定有很熟的人！\n你要更認真找啦！"
   },
-  "48654": {
-    "$comments": "🔴, ",
+  "48656": {
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_020]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Heh! Wow, that's amazing! I didn't know there\nwas such a trick on the top floor of Glitter\nWindmill Tower!<open_irai><bw_break>",
+    "en": "<pc> told Popoupe about Hirupii's story.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<pc>は　ヒルピーの話を\nポポーペに伝えた。",
+    "ko": "{pc}|hpp(은,는) 히루피의 이야기를\n포포페에게 전했다.",
+    "pt-BR": "",
+    "zh-Hans": "<pc>把希尔皮的话\n传达给了波波裴。",
+    "zh-Hant": "<pc>把希兒比的話\n轉述給波波蓓了。"
+  },
+  "48654": {
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_020]`, YES cont'd",
+    "de": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Hey! So cool, that's amazing! I didn't know there was\nsuch a robot at the top of Glittering Windmill Tower,\ny'know!<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -650,9 +663,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>是喔！好厲害，好厲害！\n原來光耀大風車塔的頂層\n還有那種機關啊！<open_irai><bw_break>"
   },
   "48655": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Hey, hey! I want to know what you say you can\ntell me about that trick! So please go listen\nto it properly~!",
+    "en": "<attr><feel_happy_lv1><end_attr>Hey, hey! I wanna know what the robot has to say! So\ngo listen closely to ittt!",
     "es": "",
     "fr": "",
     "it": "",
@@ -662,23 +675,10 @@
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>我想知道\n那个机关会说什么！\n所以你再去仔细听听嘛！",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>我跟你說！我想知道\n那個機關會說什麼話！\n所以你去聽清楚吧～！"
   },
-  "48656": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> told Popoupe about Hirupii's\nstory.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　ヒルピーの話を\nポポーペに伝えた。",
-    "ko": "{pc}|hpp(은,는) 히루피의 이야기를\n포포페에게 전했다.",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把希尔皮的话\n传达给了波波裴。",
-    "zh-Hant": "<pc>把希兒比的話\n轉述給波波蓓了。"
-  },
   "48657": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_030]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Oh, welcome back! Did you hear from anyone\nfamiliar with Glitter Windmill Tower?<yesno><break>",
+    "en": "<attr><feel_happy_one><end_attr>Ah, welcome back! Did you hear from anyone familiar\nwith Glittering Windmill Tower?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -688,23 +688,10 @@
     "zh-Hans": "<attr><feel_happy_one><end_attr>啊，欢迎回来！\n向熟悉光耀大风车塔的人\n打听到关于它的消息了吗？<yesno><break>",
     "zh-Hant": "<attr><feel_happy_one><end_attr>啊，歡迎回來！\n你有從很了解光耀大風車塔的人口中\n問到任何消息嗎？<yesno><break>"
   },
-  "48659": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Alright! Keep this up and I'll be like Glitter\nWindmill Tower, spreading smiles to everyone\nin the world!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv2><end_attr>「よ～し！　この調子で\n　キラキラ大風車塔みたいに\n　世界中のみんなに　笑顔をふりまいてくぞ～！",
-    "ko": "<attr><feel_happy_lv2><end_attr>: 좋았어~! 이렇게\n　반짝반짝 대풍차탑처럼\n　전 세계의 사람들에게 웃음을 퍼뜨릴 거야~!",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv2><end_attr>好～！我要照这个气势，\n像光耀大风车塔一样，\n给全世界的朋友们带去欢笑！",
-    "zh-Hant": "<attr><feel_happy_lv2><end_attr>好～！我要照這個氣勢，\n像光耀大風車塔一樣，\n散播笑容給全世界的人～！"
-  },
   "48660": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_030]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Mmm~. That's a face that knows something!\nPlease, tell me, tell me!",
+    "en": "<attr><feel_sad_lv1><end_attr>Mmmmmm. That face says that you know something! I'm\nbegging you, tell me, tell me!",
     "es": "",
     "fr": "",
     "it": "",
@@ -715,9 +702,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>唔～看你的表情，你應該知道吧！\n拜託啦，告訴我，告訴我嘛！"
   },
   "48661": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_030]`",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Wow! I'm so glad you asked! Thank you! What\nwas your story? Let me hear it. Let me hear\nit!",
+    "en": "<attr><feel_happy_lv2><end_attr>Wow! You went and heard it for me, didn't you! Thanks!\nWhat was the story? Lemme hear it, lemme hear it!",
     "es": "",
     "fr": "",
     "it": "",
@@ -727,23 +714,36 @@
     "zh-Hans": "<attr><feel_happy_lv2><end_attr>啊！你帮我听了呀！\n谢谢！听到了什么？\n跟我说说跟我说说！",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哇！你去幫我聽了啊！\n謝謝！結果它說了什麼話？\n說給我聽，說給我聽！"
   },
-  "48662": {
-    "$comments": "🔴, ",
+  "48668": {
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_040]`, YES",
     "de": "",
-    "en": "<attr><feel_normal_silent><end_attr>...<bw_break>",
+    "en": "<pc> told Popoupe about Proppe's message that\nthey heard at Glittering Windmill Tower.",
     "es": "",
     "fr": "",
     "it": "",
+    "ja": "<pc>は　キラキラ大風車塔で聞いた\nプロッペの言葉を　ポポーペに伝えた。",
+    "ko": "{pc}|hpp(은,는) 반짝반짝 대풍차탑에서 들은\n프롭페의 말을 포포페에게 전했다.",
+    "pt-BR": "",
+    "zh-Hans": "<pc>把在光耀大风车塔里听到的\n普罗裴的话传达给了波波裴。",
+    "zh-Hant": "<pc>把在光耀大風車塔裡聽到的\n普羅裴的留言轉述給波波蓓聽。"
+  },
+  "48662": {
+    "$comments": "🟢, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_040]`, YES cont'd",
+    "de": "<attr><feel_normal_silent><end_attr>..................<bw_break>",
+    "en": "<attr><feel_normal_silent><end_attr>..................<bw_break>",
+    "es": "<attr><feel_normal_silent><end_attr>..................<bw_break>",
+    "fr": "<attr><feel_normal_silent><end_attr>..................<bw_break>",
+    "it": "<attr><feel_normal_silent><end_attr>..................<bw_break>",
     "ja": "<attr><feel_normal_silent><end_attr>「……………………………………。<bw_break>",
     "ko": "<attr><feel_normal_silent><end_attr>: …………………………………….<bw_break>",
-    "pt-BR": "",
+    "pt-BR": "<attr><feel_normal_silent><end_attr>..................<bw_break>",
     "zh-Hans": "<attr><feel_normal_silent><end_attr>……………………<bw_break>",
     "zh-Hant": "<attr><feel_normal_silent><end_attr>……………………………………<bw_break>"
   },
   "48663": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_040]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_normal_one><end_attr>Amazing.<bw_break>",
+    "en": "<attr><feel_normal_one><end_attr>.........Amazing.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -754,9 +754,9 @@
     "zh-Hant": "<attr><feel_normal_one><end_attr>……………………好棒。<bw_break>"
   },
   "48664": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_040]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Amazing! That's great! That's great! That's\namazing! Glitter Windmill Tower! I love it\nmore and more! That glittering smile on the\n<br>\ntower is a wish for everyone to keep smiling\nforever, isn't it? I also want to make\neveryone smile just like the big sparkling\n<br>\nwindmill! So we all just spun around with a\nsmile just like Glitter Windmill Tower!",
+    "en": "<attr><feel_happy_lv3><end_attr>So cool! That's great! Terrific! Amazing! Glittering\nWindmill Tower's amazing!! I love it more now!\n<br>\nThat glittering smile drawn on the tower was in hope\nthat it'd always smile at everyone forever!\n<br>\nJust like the Great Glittering Windmill, I feel like\nI also wanna make everyone smile!\n<br>\nSo try spinning around with a smile just like the\nGlittering Windmill Tower, okay!",
     "es": "",
     "fr": "",
     "it": "",
@@ -766,60 +766,8 @@
     "zh-Hans": "<attr><feel_happy_lv3><end_attr>厉害！厉害！厉害！厉害！\n光耀大风车塔太厉害了！！\n哎呀，我更喜欢它了！\n<br>\n那耀眼的笑容之所以被画在塔上，\n原来是包含了希望大家\n也能够笑容满面的愿望啊！\n<br>\n我也希望大家\n可以像光耀大风车塔一样笑口常开！\n<br>\n所以我也要跟光耀大风车塔一样，\n带着笑容转着圈，\n让大家露出微笑！",
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>好棒！好棒！好棒！好棒！\n太棒了，光耀大風車塔！！\n我越來越喜歡它了！\n<br>\n原來塔上會畫上那個\n耀眼的笑容，是因為希望\n大家能常保笑容啊！\n<br>\n我也想跟光耀大風車一樣，\n讓大家露出笑容！\n<br>\n所以我也要跟光耀大風車塔一樣，\n帶著笑容轉圈圈，\n散播耀眼的笑容！"
   },
-  "48665": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Urya~! Not enough~! I have to turn more and\nmore vigorously! I can't do it with a\nsparkling smile on my face! Toriya~!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv3><end_attr>「うりゃ～！\n<br>\n「まだまだ～～！！\n　もっともっと　はげしく回らないと！\n　キラキラ笑顔をふりまくなんて　できないんだ！\n<br>\n「とりゃ～～！！",
-    "ko": "<attr><feel_happy_lv3><end_attr>: 으랏차~!\n<br>\n: 아직이야~!!\n　더 강렬하게 돌아야 해!\n　안 그러면 반짝반짝 웃음을 퍼뜨릴 수 없어!\n<br>\n: 이야압~~!!",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv3><end_attr>喝呀！\n<br>\n还没完！！\n还得再加把劲转圈才行！\n不然就不能播撒笑容了！\n<br>\n嘿呀！！",
-    "zh-Hant": "<attr><feel_happy_lv3><end_attr>喝啊～！\n<br>\n還沒完呢～～！！\n不轉得更快、更猛！\n就不能散播耀眼的笑容了！\n<br>\n喝啊～～！！"
-  },
-  "48666": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<if_woman><attr><feel_happy_lv1><end_attr>Hahahahahaha. I felt like I was one step\ncloser to Glitter Windmill Tower! That's\nright! I want you to smile too, so I'll give\n<br>\nyou this!<bw_break><else><attr><feel_happy_lv1><end_attr>Hahahahahaha. I felt like I was one step\ncloser to Glitter Windmill Tower! That's\nright! I want you to smile too, so I'll give\n<br>\nyou this!<bw_break><endif>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<if_woman><attr><feel_happy_lv1><end_attr>「ハァハァハァハァ……。\n　なんだか　キラキラ大風車塔に\n　一歩近づけた　気がしたよ！\n<br>\n「そうだっ！　おねえちゃんにも\n　笑顔に　なってほしいから\n　これ　あげるね！<bw_break><else><attr><feel_happy_lv1><end_attr>「ハァハァハァハァ……。\n　なんだか　キラキラ大風車塔に\n　一歩近づけた　気がしたよ！\n<br>\n「そうだっ！　おにいちゃんにも\n　笑顔に　なってほしいから\n　これ　あげるね！<bw_break><endif>",
-    "ko": "<if_woman><attr><feel_happy_lv1><end_attr>: 헉헉헉헉…….\n　왠지 반짝반짝 대풍차탑에\n　한 걸음 다가선 느낌이 들어!\n<br>\n: 참! 언니가 웃는 모습도\n　보고 싶으니까\n　이걸 줄게!<bw_break><else><attr><feel_happy_lv1><end_attr>: 헉헉헉헉…….\n　왠지 반짝반짝 대풍차탑에\n　한 걸음 다가선 느낌이 들어!\n<br>\n: 참! 오빠가 웃는 모습도\n　보고 싶으니까\n　이걸 줄게!<bw_break><endif>",
-    "pt-BR": "",
-    "zh-Hans": "<if_woman><attr><feel_happy_lv1><end_attr>哈哈哈哈……\n感觉我又更加接近\n光耀大风车塔了！\n<br>\n对了！希望大姐姐\n也能露出笑容，\n所以这个给你！<bw_break><else><attr><feel_happy_lv1><end_attr>哈哈哈哈……\n感觉我又更加接近\n光耀大风车塔了！\n<br>\n对了！希望大哥哥\n也能露出笑容，\n所以这个给你！<bw_break><endif>",
-    "zh-Hant": "<if_woman><attr><feel_happy_lv1><end_attr>呼、呼、呼、呼……\n感覺我又離光耀大風車塔\n更近一步了！\n<br>\n對了！我希望大姊姊\n也能露出笑容，\n所以這個給你！<bw_break><else><attr><feel_happy_lv1><end_attr>呼、呼、呼、呼……\n感覺我又離光耀大風車塔\n更近一步了！\n<br>\n對了！我希望大哥哥\n也能露出笑容，\n所以這個給你！<bw_break><endif>"
-  },
-  "48667": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<attr><feel_happy_one><end_attr>My treasure! It's so sparkly, you can't help\nbut smile, can you?",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_one><end_attr>「わたしの　宝物！\n　キラキラしてて　思わず\n　にっこり　しちゃうでしょ？",
-    "ko": "<attr><feel_happy_one><end_attr>: 내 보물이야!\n　반짝반짝해서 무심코\n　빙그레 웃음이 지어지지?",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_one><end_attr>这是我的宝物！\n闪亮亮的，\n让人看了就忍不住想笑吧？",
-    "zh-Hant": "<attr><feel_happy_one><end_attr>這是我的寶物！\n閃亮亮的，\n讓人看了就忍不住想笑吧？"
-  },
-  "48668": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> told Popoupe what Proppe heard\nat Glitter Windmill Tower.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　キラキラ大風車塔で聞いた\nプロッペの言葉を　ポポーペに伝えた。",
-    "ko": "{pc}|hpp(은,는) 반짝반짝 대풍차탑에서 들은\n프롭페의 말을 포포페에게 전했다.",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把在光耀大风车塔里听到的\n普罗裴的话传达给了波波裴。",
-    "zh-Hant": "<pc>把在光耀大風車塔裡聽到的\n普羅裴的留言轉述給波波蓓聽。"
-  },
   "48669": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_040]`, YES cont'd",
     "de": "",
     "en": "Popoupe began to spin around, smiling.",
     "es": "",
@@ -831,10 +779,23 @@
     "zh-Hans": "波波裴带着笑容转了起来。",
     "zh-Hant": "波波蓓開始帶著笑容轉起圈來。"
   },
-  "48670": {
-    "$comments": "🔴, ",
+  "48665": {
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_040]`, YES cont'd",
     "de": "",
-    "en": "Popoupe turned like a storm with a smile on\nhis face!",
+    "en": "<attr><feel_happy_lv3><end_attr>Uryaaa! Keep gooooooing!! Spin harder and hard! I have\nto smile like the Glittering Windmill Tower does!\nToriyaaaaaa!!",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv3><end_attr>「うりゃ～！\n<br>\n「まだまだ～～！！\n　もっともっと　はげしく回らないと！\n　キラキラ笑顔をふりまくなんて　できないんだ！\n<br>\n「とりゃ～～！！",
+    "ko": "<attr><feel_happy_lv3><end_attr>: 으랏차~!\n<br>\n: 아직이야~!!\n　더 강렬하게 돌아야 해!\n　안 그러면 반짝반짝 웃음을 퍼뜨릴 수 없어!\n<br>\n: 이야압~~!!",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv3><end_attr>喝呀！\n<br>\n还没完！！\n还得再加把劲转圈才行！\n不然就不能播撒笑容了！\n<br>\n嘿呀！！",
+    "zh-Hant": "<attr><feel_happy_lv3><end_attr>喝啊～！\n<br>\n還沒完呢～～！！\n不轉得更快、更猛！\n就不能散播耀眼的笑容了！\n<br>\n喝啊～～！！"
+  },
+  "48670": {
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_040]`, YES cont'd",
+    "de": "",
+    "en": "Popoupe turned like a violent storm with a smile on her\nface!",
     "es": "",
     "fr": "",
     "it": "",
@@ -844,10 +805,49 @@
     "zh-Hans": "波波裴带着笑容\n转得像龙卷风一样！",
     "zh-Hant": "波波蓓帶著笑容，\n像龍捲風一樣激烈旋轉！"
   },
-  "48671": {
-    "$comments": "🔴, ",
+  "48666": {
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_040]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Like Glitter Windmill Tower, I'm going to\nspread smiles to everyone in the world! I'll\ndo my best!",
+    "en": "<if_woman><attr><feel_happy_lv1><end_attr>HAAHAAHAAHAA... I felt like I was a step\ncloser to Glittering Windmill Tower!\n<br>\nThat's right! Miss, I want you to smile too, so I'll\ngive you this, okay!<bw_break><else><attr><feel_happy_lv1><end_attr>HAAHAAHAAHAA... I felt like I was a step\ncloser to Glittering Windmill Tower!\n<br>\nThat's right! Mister, I want you to smile too, so I'll\ngive you this, okay!<bw_break><endif>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<if_woman><attr><feel_happy_lv1><end_attr>「ハァハァハァハァ……。\n　なんだか　キラキラ大風車塔に\n　一歩近づけた　気がしたよ！\n<br>\n「そうだっ！　おねえちゃんにも\n　笑顔に　なってほしいから\n　これ　あげるね！<bw_break><else><attr><feel_happy_lv1><end_attr>「ハァハァハァハァ……。\n　なんだか　キラキラ大風車塔に\n　一歩近づけた　気がしたよ！\n<br>\n「そうだっ！　おにいちゃんにも\n　笑顔に　なってほしいから\n　これ　あげるね！<bw_break><endif>",
+    "ko": "<if_woman><attr><feel_happy_lv1><end_attr>: 헉헉헉헉…….\n　왠지 반짝반짝 대풍차탑에\n　한 걸음 다가선 느낌이 들어!\n<br>\n: 참! 언니가 웃는 모습도\n　보고 싶으니까\n　이걸 줄게!<bw_break><else><attr><feel_happy_lv1><end_attr>: 헉헉헉헉…….\n　왠지 반짝반짝 대풍차탑에\n　한 걸음 다가선 느낌이 들어!\n<br>\n: 참! 오빠가 웃는 모습도\n　보고 싶으니까\n　이걸 줄게!<bw_break><endif>",
+    "pt-BR": "",
+    "zh-Hans": "<if_woman><attr><feel_happy_lv1><end_attr>哈哈哈哈……\n感觉我又更加接近\n光耀大风车塔了！\n<br>\n对了！希望大姐姐\n也能露出笑容，\n所以这个给你！<bw_break><else><attr><feel_happy_lv1><end_attr>哈哈哈哈……\n感觉我又更加接近\n光耀大风车塔了！\n<br>\n对了！希望大哥哥\n也能露出笑容，\n所以这个给你！<bw_break><endif>",
+    "zh-Hant": "<if_woman><attr><feel_happy_lv1><end_attr>呼、呼、呼、呼……\n感覺我又離光耀大風車塔\n更近一步了！\n<br>\n對了！我希望大姊姊\n也能露出笑容，\n所以這個給你！<bw_break><else><attr><feel_happy_lv1><end_attr>呼、呼、呼、呼……\n感覺我又離光耀大風車塔\n更近一步了！\n<br>\n對了！我希望大哥哥\n也能露出笑容，\n所以這個給你！<bw_break><endif>"
+  },
+  "48667": {
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_040]`, YES cont'd",
+    "de": "",
+    "en": "<attr><feel_happy_one><end_attr>My treasure! It's so sparkley, that you can't help but\nsmile, can you?",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_one><end_attr>「わたしの　宝物！\n　キラキラしてて　思わず\n　にっこり　しちゃうでしょ？",
+    "ko": "<attr><feel_happy_one><end_attr>: 내 보물이야!\n　반짝반짝해서 무심코\n　빙그레 웃음이 지어지지?",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_one><end_attr>这是我的宝物！\n闪亮亮的，\n让人看了就忍不住想笑吧？",
+    "zh-Hant": "<attr><feel_happy_one><end_attr>這是我的寶物！\n閃亮亮的，\n讓人看了就忍不住想笑吧？"
+  },
+  "48659": {
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_040]`, YES cont'd",
+    "de": "",
+    "en": "<attr><feel_happy_lv2><end_attr>Alriiight! At this rate, I'll be Glittering Windmill\nTower, spreading smiles to everyone in the world!",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv2><end_attr>「よ～し！　この調子で\n　キラキラ大風車塔みたいに\n　世界中のみんなに　笑顔をふりまいてくぞ～！",
+    "ko": "<attr><feel_happy_lv2><end_attr>: 좋았어~! 이렇게\n　반짝반짝 대풍차탑처럼\n　전 세계의 사람들에게 웃음을 퍼뜨릴 거야~!",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv2><end_attr>好～！我要照这个气势，\n像光耀大风车塔一样，\n给全世界的朋友们带去欢笑！",
+    "zh-Hant": "<attr><feel_happy_lv2><end_attr>好～！我要照這個氣勢，\n像光耀大風車塔一樣，\n散播笑容給全世界的人～！"
+  },
+  "48671": {
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01065, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_200]`",
+    "de": "",
+    "en": "<attr><feel_happy_lv2><end_attr>I'll be Glittering Windmill Tower, spreading smiles\nto everyone in the world! I'll do my best",
     "es": "",
     "fr": "",
     "it": "",

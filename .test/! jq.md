@@ -1523,3 +1523,86 @@ end
 ---
 
 </details>
+
+<!--
+----------------------------------------------------------------------------------------------------
+- 20250513_00225 | PowerShell 7.5.1
+----------------------------------------------------------------------------------------------------
+```PS
+`
+jq -s "`
+{STT_BattleMonsterName: . `
+    | map( .STT_BattleMonsterName | to_entries[] )`
+    | group_by(.value.ja)`
+    | map( from_entries )`
+    | map (`
+        if ( length == 1 )`
+        then`
+        (`
+            to_entries`
+            | select ( map( .value != has(`"etc`") ) )`
+            | from_entries`
+#           | if ( map( .value | has( `"etc`" ) ) )`
+#           then`
+#           (`
+#               del(.)
+#           )`
+#           else (from_entries)`
+#           end`
+        )`
+        elif ( length == 2 )`
+        then`
+        (`
+            to_entries`
+            | if`
+            (`
+                (.[0].value.fr == """") and `
+                (.[1].value.fr != null)`
+            )`
+            then`
+            (`
+                ( .[0].value.fr = .[1].value.fr )`
+                | .[0].value.[""`$comments""] =`
+                (`
+                    .[0].value.[""`$comments""]`
+                    | sub(""🔴""; ""🟠"")`
+                )`
+            )`
+            else (.)`
+            end`
+            | del(.[1])`
+            | from_entries`
+        )`
+        elif (length == 3)`
+        then`
+        (`
+            to_entries`
+            | ( .[1].value.fr = .[2].value.fr | .[0].value.fr = .[1].value.fr )`
+            | (`
+                .[0].value.[""`$comments""] = `
+                (`
+                    .[0].value.[""`$comments""]`
+                    | sub(""🔴""; ""🔵"")`
+                )`
+                | .[1].value.[""`$comments""] = `
+                (`
+                    .[1].value.[""`$comments""]`
+                    | sub(""🔴""; ""🔵"")`
+                )`
+            )`
+            | del(.[2])`
+            | from_entries`
+        )`
+        else (.)`
+        end`
+    )`
+    #| select( . != null )`
+    #| {STT_BattleMonsterName: .}`
+}`
+"`
+".\OLD.json"`
+".\NEW.json"`
+> ".\OUTPUT.json"
+```
+----------------------------------------------------------------------------------------------------
+-->

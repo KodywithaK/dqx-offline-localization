@@ -13,9 +13,9 @@
     "zh-Hant": "聽說這座塔幾百年前就有了，\n我爺爺是這麼說的。"
   },
   "48629": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01094, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_010]`",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>You want to know about Glitter Windmill Tower?\nWell, my grandpa told me about it. This great\nwindmill tower was built hundreds of years ago\n<br>\nby a royal architect named Proppe, who was\ngood at magic tricks. And among the potted\nplants called ''propeller plants'' on the top\n<br>\nfloor of the tower, there's only one that was\nbuilt by Mr. Proppe.<bw_break>",
+    "en": "<attr><feel_normal_lv1><end_attr>...You wanna know about Glittering Windmill Tower? Now\nthat you mention it, my grandpa told me about it.\n<br>\nThe Great Windmill Tower was built hundreds of years\nago, and was the pride of the royal architect—a man\nnamed Proppe—who built it.\n<br>\nAnd, y'know, at the top of the tower are potted plants\ncalled, \"propeller plants\", and inside of one is a\nrobot that Proppe built based on himself.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -26,9 +26,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>……你想了解光耀大風車塔的相關知識嗎？\n這麼說來，我爺爺曾經這麼說過喔。\n<br>\n這座大風車塔是幾百年前，\n由一名擅長製作機關，\n名叫普羅裴的王宮建築家打造的。\n<br>\n然後啊，塔的頂樓有種盆栽叫做螺旋槳草，\n其中有一個是普羅裴\n做出來的人造機關。<bw_break>"
   },
   "48630": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01094, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_03802, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SAWAYAKASODA]`, cont'd, `カラクリ`:`絡繰り人形`",
     "de": "",
-    "en": "<attr><feel_normal_lv3><end_attr>What's more, if you give them a special water\ncalled Refreshing Soda, they can listen to the\nwords that Mr. Proppe has memorized in his\n<br>\nkarakuri! You can get Refreshing Soda from\n<%sev_que_name0> around the soda fountain in\nWrinkle Region. It is said to be a very strong\n<br>\nmonster, so be careful if you go to get it.",
+    "en": "<attr><feel_normal_lv3><end_attr>And get this, if you give it a special liquid called\n\"Refreshing Soda\", it seems like the robot will tell\nyou a message that Proppe recorded!\n<br>\nYou can get a <color_yellow>Refreshing Soda<color_white> from <color_red><%sEV_QUE_NAME0>s<color_white> around\nthe Wrinkle Region's soda fountain.\n<br>\nIt seems like they're super strong monsters, so if\nyou're going to get one, be careful, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -39,9 +39,9 @@
     "zh-Hant": "<attr><feel_normal_lv3><end_attr>神奇的是，只要對那個機關\n澆一種叫清爽蘇打的特殊水，\n好像就能聽到普羅裴讓機關記住的話！\n<br>\n清爽蘇打可以從\n林庫爾地方的蘇打泉\n附近的<%sEV_QUE_NAME0>身上拿到。\n<br>\n那種怪物好像很強，\n所以如果你想去拿的話，要多小心喔。"
   },
   "48631": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01094, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_03802, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SAWAYAKASODA]`, cont'd, `カラクリ`:`絡繰り人形`",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>The tower was built hundreds of years ago by a\nroyal architect named Proppe. On the top floor\nof the tower, there is a pot plant called\n<br>\n''propeller plant,'' and one of the plants has\nbeen built with a magic mechanism. If you give\nhim the Refreshing Soda that <%SEV_QUE_NAME0>\n<br>\ndrops around the soda fountain, he will speak\nto you. Be careful, <%sev_que_name0> is a very\nstrong monster.",
+    "en": "<attr><feel_normal_lv1><end_attr>The tower was built hundreds of years ago, by a royal\narchitect, a man named Proppe.\n<br>\nAnd, y'know, at the top of the tower are potted plants\ncalled, \"propeller plants\", and inside of one is a\nrobot that Proppe built based on himself.\n<br>\nAnd if you give the robot a <color_yellow>Refreshing Soda<color_white> that\n<color_red><%sEV_QUE_NAME0>s<color_white> around the Wrinkle Region's soda fountain\ndrop, it'll tell you a message or something.\n<br>\nIt seems like they're super strong monsters, so be\ncareful, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -52,9 +52,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>打造這座塔的，\n是幾百年前的一位\n名叫普羅裴的王宮建築家。\n<br>\n塔的頂樓有種盆栽叫做螺旋槳草，\n其中有一個是普羅裴\n做出來的人造機關。\n<br>\n據說把蘇打泉附近的<%sEV_QUE_NAME0>\n掉落的清爽蘇打拿去澆那個機關，\n就能聽到某種話。\n<br>\n因為<%sEV_QUE_NAME0>是很強的怪物，\n所以你要小心喔。"
   },
   "48632": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01094, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SAWAYAKASODA]`",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Oh, you received Refreshing Soda! If you feed\nit to the magic propeller weed on the top\nfloor of this tower, you'll hear what Mr.\n<br>\nProppe has to say. The magic propeller weed is\nvery different from the other propeller weeds,\nso if you look carefully, you will be able to\n<br>\nrecognize it.",
+    "en": "<attr><feel_normal_lv1><end_attr>Ah, you got the Refreshing Soda, didn't you!\n<br>\nIf you give it to the robot in the propeller grass on\nthe top floor of the tower, you'll definitely hear Mr.\nProppe's message.\n<br>\nThe robotic propeller grass moves way different from\nthe other propeller grass, so if you look carefully,\nI think you'll figure it out.",
     "es": "",
     "fr": "",
     "it": "",
@@ -65,9 +65,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>啊，你拿到清爽蘇打了啊！\n<br>\n去這座塔的頂樓，\n把這種水澆到機關製的螺旋槳草上，\n一定就能聽到普羅裴說的話了。\n<br>\n因為機關製的螺旋槳草\n跟其他螺旋槳草的動作明顯不一樣，\n所以仔細看應該就看出來了。"
   },
   "48633": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01094, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_030]`",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>It sounds like you got a word in from Mr.\nProppe. What were they?<bw_break>",
+    "en": "<attr><feel_think_lv1><end_attr>Looks like you heard Mr. Proppe's message, didn't you.\nWhat did he say?<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -78,9 +78,9 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>真想聽聽普羅裴說的話呢。\n他說了些什麼？<bw_break>"
   },
   "48634": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_01094, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_030]`, cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Wow, I didn't know the smiling face on the\nGlitter Windmill Tower had such a meaning.\nMaybe I'll take a closer look next time.",
+    "en": "<attr><feel_happy_one><end_attr>...Hey, I didn't know the smiling face on Glittering\nWindmill Tower had such a meaning. Next time, I might\ntake a closer look.",
     "es": "",
     "fr": "",
     "it": "",

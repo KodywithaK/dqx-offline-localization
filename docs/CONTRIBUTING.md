@@ -541,7 +541,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |         `STT_ActionMsg_Log14`         |     |                                             |                                                                                             |
 |         `STT_ActionMsg_Log15`         |     |                                             |                                                                                             |
 |         `STT_ActionMsg_Log2`          |     |                                             |                                                                                             |
-|         `STT_ActionMsg_Log3`          |     |                                             |                                                                                             |
+|         `STT_ActionMsg_Log3`          |     |                                             | Battle messages (Log - `Battle` Tab), see `STT_ActionMsg_Simple3`                           |
 |         `STT_ActionMsg_Log4`          |     |                                             |                                                                                             |
 |         `STT_ActionMsg_Log5`          |     |                                             |                                                                                             |
 |         `STT_ActionMsg_Log6`          |     |                                             |                                                                                             |
@@ -556,7 +556,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |       `STT_ActionMsg_Simple14`        |     |                                             |                                                                                             |
 |       `STT_ActionMsg_Simple15`        |     |                                             |                                                                                             |
 |        `STT_ActionMsg_Simple2`        |     |                                             |                                                                                             |
-|        `STT_ActionMsg_Simple3`        |     |                                             |                                                                                             |
+|        `STT_ActionMsg_Simple3`        |     |                                             | Battle messages, see `STT_ActionMsg_Log3`                                                   |
 |        `STT_ActionMsg_Simple4`        |     |                                             |                                                                                             |
 |        `STT_ActionMsg_Simple5`        |     |                                             |                                                                                             |
 |        `STT_ActionMsg_Simple6`        |     |                                             |                                                                                             |
@@ -758,8 +758,8 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |           `STT_GameOption`            |     |                                             |                                                                                             |
 |     `STT_GameOption_Explanation`      |     |                                             |                                                                                             |
 |             `STT_Gesture`             |     |                                             |                                                                                             |
-|         `STT_IraisyoArasuji`          |     | ~100 characters long, 8 lines high (7 `\n`) | Strike Request Forms' flavor text                                                           |
-|       `STT_IraisyoMonsterType`        |     |                                             | Strike Request Forms' Target Monster                                                        |
+|         `STT_IraisyoArasuji`          |     | ~100ch¹ long, 8 lines high (7 `\n`)         | Strike Request Forms' details, [1] accounting for `{MonsterName} / STT_IraisyoMonsterType` length |
+|       `STT_IraisyoMonsterType`        |     |                                             | Strike Request Forms' Target Monster, `{MonsterName}`                                       |
 |       `STT_IraisyoNPCNameBase`        |     |                                             | Strike Request Forms' Client Name                                                           |
 |       `STT_IraisyoNPCNameRuby`        |     |                                             |                                                                                             |
 |         `STT_ItemExplanation`         |     |                                             |                                                                                             |
@@ -2073,6 +2073,102 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 
 </details>
 
+### Example - Quest Descriptions
+
+<details>
+
+| LANGUAGE | article | at/to | from/of | by/in/on | by/for | on    | with   |
+| :------: | :-----: | :---- | :------ | :------- | :----- | :---- | :----- |
+|    DE    |         | an    |         | bei/in   |        | auf   |        |
+|          |   die   |       |         |          |        |       |        |
+|          | der/dem | am    |         | beim/im  |        |       |        |
+|          |   das   | ans   |         | ins      |        | aufs  |        |
+|          |         |       |         |          |        |       |        |
+|    ES    |         | a     | de      | en       |        | sur   | con    |
+|          |  la[s]  |       |         |          |        |       |        |
+|          | el/los  | al    | del     |          |        |       |        |
+|          |  le[s]  |       |         |          |        |       |        |
+|          |         |       |         |          |        |       |        |
+|    FR    |         | à     | de      | in       | da     | su    | con    |
+|          |   la    |       |         |          |        |       |        |
+|          |   le    |       |         |          |        |       |        |
+|          | lea/l'  |       |         |          |        |       |        |
+|          |         |       |         |          |        |       |        |
+|    IT    |         | a     | de      | in       | da     | su    | con    |
+|          |   Il    | Al    | Del     | Nel      | Dal    | Sul   | Col    |
+|          |   Lo    | Allo  | Dello   | Nello    | Dallo  | Sullo | Con lo |
+|          |   La    | Alla  | Della   | Nella    | Dalla  | Sulla | Conlla |
+|          |   L'    | All'  | Dell'   | Nell'    | Dall'  | Sull' | Con l' |
+|          |    I    | Ai    | Dei     | Nei      | Dai    | Sui   | Coi    |
+|          |   Gli   | Agli  | Degli   | Negli    | Dagli  | Sugli | Cogli  |
+|          |   Le    | Alle  | Delle   | Nelle    | Dalle  | Sulle | Colle  |
+|          |         |       |         |          |        |       |        |
+|    PT    |         | a     | de      | em       |        |       | com    |
+|          |    a    | à[s]  |         | na[s]    |        |       |        |
+|          |    o    | ao[s] |         | no[s]    |        |       |        |
+|          |    ê    | aê[s] |         | nê[s]    |        |       |        |
+
+```json
+{
+  "STT_QuestListDetail": {
+    "SYSTEXT_QUESTLIST_NAME_FQ_009_1_000": {
+      "$comments": "🟢, Quest (005) {Sub Story}",
+      "de": "In der Burgstadt Glen, ein Ogre Krieger, Ban, scheint einen Problem zu\nhaben.",
+      "en": "In Glen Castle Town, an Ogre warrior, Ban, seems to be somewhat troubled.",
+      "es": "En la Ciudadela de Glen, parece que un Ogre Guerrero, Ban, está en algún\napuro.",
+      "fr": "Dans la Citadelle de Glen, un Ogre Guerrier, Ban, semble avoir un problème.",
+      "it": "Nella Cittadella di Glen, un Ogre Guerriero, Ban, sembra in qualche\ndifficoltà.",
+   // "ja": "グレン城下町にいる　オーガの男性　戦士バンが\nなにか　困っているようだ。",
+      "ko": "그렌 시가지에 있는 오거 남성 전사 반에게\n난처한 일이 생긴 듯하다.",
+      "pt-BR": "Na Cidadela de Glen, parece que um Ogre Guerreiro, Ban, está com algum\nproblema.",
+      "zh-Hans": "古莲城区的一位叫班的男性奥伽战士\n似乎遇到了麻烦。",
+      "zh-Hant": "古蓮城鎮的奧伽男性戰士邦恩\n似乎遇到什麼困擾。"
+    },
+    "SYSTEXT_QUESTLIST_NAME_FQ_009_1_000": {
+      "$comments": "🟢, Quest (005) {Sub Story}",
+      "de": "In der Burgstadt Glen, ein Ogre Krieger, Ban, scheint einen Problem zu\nhaben.",
+      "en": "In Glen Castle Town, an Ogre warrior, Ban, seems to be somewhat troubled.",
+      "es": "En la Ciudadela de Glen, parece que un Ogre Guerrero, Ban, está en algún\napuro.",
+      "fr": "Dans la Citadelle de Glen, un Ogre Guerrier, Ban, semble avoir un problème.",
+      "it": "Nella Cittadella di Glen, un Ogre Guerriero, Ban, sembra in qualche\ndifficoltà.",
+      "ja": "グレン城下町にいる　オーガの男性　戦士バンが\nなにか　困っているようだ。",
+      "ko": "그렌 시가지에 있는 오거 남성 전사 반에게\n난처한 일이 생긴 듯하다.",
+      "pt-BR": "Na Cidadela de Glen, parece que um Ogre Guerreiro, Ban, está com algum\nproblema.",
+      "zh-Hans": "古莲城区的一位叫班的男性奥伽战士\n似乎遇到了麻烦。",
+      "zh-Hant": "古蓮城鎮的奧伽男性戰士邦恩\n似乎遇到什麼困擾。"
+    },
+    "SAMPLE - having trouble": {
+      "$comments": "When expressing a doubt/possibility, follow with subjunctive [0] see `Quest Descriptions table` [1] vowel [2] sg: s/z + consonant [3] plural [4] pl: s/z + consonant, gn/pn/ps/sc/x/y/z, or vowel",
+      "de": "(An|In)⁰   (die|der|das) {STT_System_Location} scheint es, dass  (eine/die|ein/der|ein/das/die³)               {helper noun} namens  {STT_NpcInfo}  einege Problems hat.",
+      "en": "(At|In)                  {STT_System_Location}, it seems that    (an?/the)                                     {helper noun}         {STT_NpcInfo}, is having problems.",
+      "es": "(En)       (la|el|le)    {STT_System_Location}, parece que       (una/ella|un/el|une/le)s³                     {helper noun}         {STT_NpcInfo}, está teniendo algunos problemas.",
+      "fr": "(Sur|En)   (le|la|l')    {STT_System_Location}, semble qu('une/'elle|'un/'il|e/e des³)                         {helper noun}         {STT_NpcInfo}, est ayant quelques problèmes.",
+      "it": "(A|In)⁰    (la|il/lo|l') {STT_System_Location}, sembra che       (una/la/le³|un/uno²/il/lo²/i³/gli⁴|un'¹/l'¹)  {helper noun}         {STT_NpcInfo}, sta avendo qualche problema.",
+   // "ja": "{STT_System_Location}で　{determiner}　{STT_NpcInfo}が\nなにか　困っているようだ。",
+      "ko": "산악 도시 가타라의 전망대에 있는\n드워프 노인 츠고가 도움이 필요한 듯하다.",
+      "pt-BR": "(Em)⁰   (a|o|ê)       {STT_System_Location}, parece que       (uma/ela|um/ele|unê/ellê)s³                   {helper noun}         {STT_NpcInfo}, está tendo alguns problemas.",
+      "zh-Hans": "山城加塔拉展望台的\n多瓦夫老人茨科似乎在寻求帮助。",
+      "zh-Hant": "多瓦夫老人茲葛\n似乎在山城加塔拉的展望台尋求協助。"
+    },
+    "SAMPLE - seeking assistance": {
+      "$comments": "When expressing a doubt/possibility, follow with subjunctive [0] see `Quest Descriptions table` [1] vowel [2] sg: s/z + consonant [3] plural [4] pl: s/z + consonant, gn/pn/ps/sc/x/y/z, or vowel",
+      "de": "(An|In)⁰   (die|der|das) {STT_System_Location} scheint es, dass  (eine/die|ein/der|ein/das/die³)               {helper noun} namens  {STT_NpcInfo}  Hilfe sucht.",
+      "en": "(At|In)                  {STT_System_Location}, it seems that    (an?/the)                                     {helper noun}         {STT_NpcInfo}, is seeking assistance.",
+      "es": "(En)       (la|el|le)    {STT_System_Location}, parece que       (una/ella|un/el|une/le)s³                     {helper noun}         {STT_NpcInfo}, está buscando ayuda.",
+      "fr": "(Sur|En)   (le|la|l')    {STT_System_Location}, semble qu('une/'elle|'un/'il|e/e des³)                         {helper noun}         {STT_NpcInfo}, est cherchant de l'aide.",
+      "it": "(A|In)⁰    (la|il/lo|l') {STT_System_Location}, sembra che       (una/la/le³|un/uno²/il/lo²/i³/gli⁴|un'¹/l'¹)  {helper noun}         {STT_NpcInfo}, sta cercando aiuto.",
+   // "ja": "{STT_System_Location}で　{determiner}　{STT_NpcInfo}が　手助けを.求めているようだ。",
+      "ko": "산악 도시 가타라의 전망대에 있는\n드워프 노인 츠고가 도움이 필요한 듯하다.",
+      "pt-BR": "(Em)⁰   (a|o|ê)       {STT_System_Location}, parece que       (uma/ela|um/ele|unê/ellê)s³                   {helper noun}         {STT_NpcInfo}, está buscando ajuda.",
+      "zh-Hans": "山城加塔拉展望台的\n多瓦夫老人茨科似乎在寻求帮助。",
+      "zh-Hant": "多瓦夫老人茲葛\n似乎在山城加塔拉的展望台尋求協助。"
+    }
+  }
+}
+```
+
+</details>
+
 ### Example - `Give? Gave! Got!`
 
 <details>
@@ -2087,7 +2183,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "es": "¿Darles <%sEV_SYSMSG_NPC> (la, el, le) <color_yellow>ITEM<color_white>?\n",
       "fr": "Donnes <%sEV_SYSMSG_NPC> (la, le, lea/l') <color_yellow>ITEM<color_white>?\n",
       "it": "Dare <%sEV_SYSMSG_NPC> (la/l', il/l'/lo, TBD) <color_yellow>ITEM<color_white>?\n",
-      "ja": "きらめきインクを　渡しますか？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
+   // "ja": "きらめきインクを　渡しますか？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
       "ko": "반짝반짝 잉크를 건네겠습니까?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
       "pt-BR": "Dê a <%sEV_SYSMSG_NPC> (a, o, ê) <color_yellow>ITEM<color_white>?\n",
       "zh-Hans": "要交出闪闪墨水吗？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
@@ -2100,7 +2196,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "es": "¡<pc> le dio a <%sEV_SYSMSG_NPC> (la, el, le) <color_yellow>ITEM<color_white>!",
       "fr": "<pc> a donné a <%sEV_SYSMSG_NPC> (la, le, lea/l') <color_yellow>ITEM<color_white> !",
       "it": "<pc> ha dato a <%sEV_SYSMSG_NPC> (la/l', il/l'/lo, TBD) <color_yellow>ITEM<color_white>!",
-      "ja": "<pc>は\nきらめきインクを　渡した！",
+   // "ja": "<pc>は\nきらめきインクを　渡した！",
       "ko": "{pc}|hpp(은,는)\n반짝반짝 잉크를 건넸다!",
       "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> (a, o, ê) <color_yellow>ITEM<color_white>!",
       "zh-Hans": "<pc>交出了\n闪闪墨水！",
@@ -2189,6 +2285,20 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "ja": "<%sEV_QUE_NAME0>は\nきらめきインクを　落としていった。\n<auto_br=5000>\n{pc}は\nきらめきインク（だいじなもの）を\n手に入れた！<se_nots System Item>\n<auto_bw=5000><close>",
       "ko": "{%sEV_QUE_NAME0}|hpp(은,는)\n반짝반짝 잉크를 떨어뜨리고 갔다.\n<auto_br=5000>\n{pc}|hpp(은,는)\n반짝반짝 잉크(중요한 물건)를\n손에 넣었다!<se_nots System Item>\n<auto_bw=5000><close>",
       "pt-BR": "O <%sEV_QUE_NAME0> deixou a Tinta Reluzente!\n<br>\n{pc} obteve a <color_yellow>Tinta Reluzente<color_white> (Iten Importante)!<se_nots System Item>\n<bw><close>",
+      "zh-Hans": "<%sEV_QUE_NAME0>掉落了\n闪闪墨水。\n<auto_br=5000>\n{pc}获得了\n闪闪墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>",
+      "zh-Hant": "<%sEV_QUE_NAME0>\n掉落了閃閃墨水。\n<auto_br=5000>\n{pc}\n獲得了\n閃閃墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>"
+    }
+    },
+    "Sample - monster dropped. {pc} obtained!": {
+      "$comments": "🟢, Quest (001) {Super Useful}, <%sEV_QUE_NAME0> = `Game.locres.json:STT_BattleMonsterName.ID_MONSTER_NAME_00400`",
+      "de": "{Gender}|Monster() 		<%sEV_QUE_NAME0> hat 				        {Gender}|ITEM() {ITEM} fallen lassen. 	\n<br>\n{pc} hat 	 		    {Gender}|ITEM() <color_yellow>{ITEM}<color_white>\n(Wichtig) bekommen!<se_nots System Item>\n<bw><close>",
+      "en": "The                 		<%sEV_QUE_NAME0> dropped the 		    {Gender}|ITEM() {ITEM}.					        \n<br>\n{pc} obtained     the             <color_yellow>{ITEM}<color_white>\n(Key Item)!<se_nots System Item>\n<bw><close>",
+      "es": "{Gender}|Monster() 		<%sEV_QUE_NAME0> se le cayó 		    {Gender}|ITEM() {ITEM}.					        \n<br>\n¡{pc} obtuvo 	 	  {Gender}|ITEM() <color_yellow>{ITEM}<color_white>\n(Objeto Importante)!<se_nots System Item>\n<bw><close>",
+      "fr": "{Gender}|Monster() 		<%sEV_QUE_NAME0> a fait tomber 		  {Gender}|ITEM() {ITEM}.					        \n<br>\n{pc} obtint 		  {Gender}|ITEM() <color_yellow>{ITEM}<color_white>\n(Objet Important) !<se_nots System Item>\n<bw><close>",
+      "it": "{Gender}|Monster() 		<%sEV_QUE_NAME0> ha lasciato cadere {Gender}|ITEM() {ITEM}.					        \n<br>\n{pc} ottenne 		  {Gender}|ITEM() <color_yellow>{ITEM}<color_white>\n(Oggetto Importante)!<se_nots System Item>\n<bw><close>",
+   // "ja": "<%sEV_QUE_NAME0>は\n{ITEM}を　落としていった。\n<auto_br=5000>\n{pc}は\n{ITEM}（だいじなもの）を\n手に入れた！<se_nots System Item>\n<auto_bw=5000><close>",
+      "ko": "{%sEV_QUE_NAME0}|hpp(은,는)\n반짝반짝 잉크를 떨어뜨리고 갔다.\n<auto_br=5000>\n{pc}|hpp(은,는)\n반짝반짝 잉크(중요한 물건)를\n손에 넣었다!<se_nots System Item>\n<auto_bw=5000><close>",
+      "pt-BR": "{Gender}|Monster() 		<%sEV_QUE_NAME0> deixou 			    {Gender}|ITEM() {ITEM}.					        \n<br>\n{pc} obteve 		  {Gender}|ITEM() <color_yellow>{ITEM}<color_white>\n(Iten Importante)!<se_nots System Item>\n<bw><close>",
       "zh-Hans": "<%sEV_QUE_NAME0>掉落了\n闪闪墨水。\n<auto_br=5000>\n{pc}获得了\n闪闪墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>",
       "zh-Hant": "<%sEV_QUE_NAME0>\n掉落了閃閃墨水。\n<auto_br=5000>\n{pc}\n獲得了\n閃閃墨水（重要物品）！<se_nots System Item>\n<auto_bw=5000><close>"
     }
