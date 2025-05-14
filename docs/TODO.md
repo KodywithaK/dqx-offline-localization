@@ -1,0 +1,2 @@
+- 20250513_1640: `Game.locres.json:STT_IraisyoArasuji.EVTXT_SYS_QUESTA_IRAISYO_ARASUJI_11_BASE`
+  - test {NumCats}|plural(one=cat,other=cats) / `{MonsterNum}|plural(one={MonsterName},other={MonsterName}s)` usability

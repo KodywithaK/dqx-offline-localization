@@ -2,7 +2,7 @@
   "80315": {
     "$comments": "🟡, ",
     "de": "",
-    "en": "There's an elevator that goes to Glittering Windmill\nTower's lower level. Press the switch to change\nlevels?<yesno><close>",
+    "en": "There's an elevator that goes to Glittering Windmill\nTower's lower level. Press the switch to change levels?<yesno><close>",
     "es": "",
     "fr": "",
     "it": "",
@@ -15,7 +15,7 @@
   "48636": {
     "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_000, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SAWAYAKASODA]`, YESNO",
     "de": "",
-    "en": "<pc> read the little label stuck to the\npotted plant.\n<br>\nScientific name: Passiminere, family: Molendinumo-\ngramen, genus: Propellere, common name: propeller\ngrass.",
+    "en": "<pc> read the little label stuck to the potted plant.\n<br>\nScientific name: Passiminere, family: Molendinumo-\ngramen, genus: Propellere, common name: propeller\ngrass.",
     "es": "",
     "fr": "",
     "it": "",
@@ -28,7 +28,7 @@
   "48637": {
     "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SAWAYAKASODA]`",
     "de": "",
-    "en": "<pc> read the little label stuck to the\npotted plant.\n<br>\nScientific name: Passiminere, family: Molendinumo-\ngramen, genus: Propellere, common name: propeller\ngrass.\n<br>\nUpon a closer look, it seems to be man-made.",
+    "en": "<pc> read the little label stuck to the potted plant.\n<br>\nScientific name: Passiminere, family: Molendinumo-\ngramen, genus: Propellere, common name: propeller\ngrass.\n<br>\nUpon a closer look, it seems to be man-made.",
     "es": "",
     "fr": "",
     "it": "",
@@ -41,7 +41,7 @@
   "48639": {
     "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SAWAYAKASODA]`, YESNO",
     "de": "",
-    "en": "<pc> read the little label stuck to the\npotted plant.\n<br>\nScientific name: Passiminere, family: Molendinumo-\ngramen, genus: Propellere, common name: propeller\ngrass.\n<br>\nUpon a closer look, it seems to be man-made. Give it\nthe Refreshing Soda?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "<pc> read the little label stuck to the potted plant.\n<br>\nScientific name: Passiminere, family: Molendinumo-\ngramen, genus: Propellere, common name: propeller\ngrass.\n<br>\nUpon a closer look, it seems to be man-made. Give it\nthe <color_yellow>Refreshing Soda<color_white>?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "es": "",
     "fr": "",
     "it": "",
@@ -54,7 +54,7 @@
   "48640": {
     "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SAWAYAKASODA]`, YES",
     "de": "",
-    "en": "<pc> poured the Refreshing Soda on the man-\nmade propeller grass! From it, a crackling voice can\nbe heard...",
+    "en": "<pc> poured the Refreshing Soda on the man-\nmade propeller grass! From it, a crackling voice can be\nheard...",
     "es": "",
     "fr": "",
     "it": "",
@@ -65,9 +65,9 @@
     "zh-Hant": "<pc>把清爽蘇打\n澆到了人造螺旋槳草上！\n螺旋槳草發出斷斷續續的聲音……"
   },
   "48638": {
-    "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_030]`, YES cont'd, `My name is Royal Palace Architect, Proppe... I have left this recording to inform future generations of the truth behind the ceremonial tower's construction... I was ordered by the King to build this abhorrent ceremonial tower, but when I think of this tower's role, I cannot proceed with my duties... My thoughts have become crowded with the desire, that at least those who look upon the tower's forever smiling face, shall do so without despair... I depicted my beloved daughter's smile, in the hope that its smile shall eternally shine upon the kingdom's subjects...`",
+    "$comments": "Find message-safe letter replacements, for easier reading. 🔴, Quest (031) {Sub Story}, see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_030]`, YES cont'd, `My name is Royal Palace Architect, Proppe... I have left this recording to inform future generations of the truth behind the ceremonial tower's construction... I was ordered by the King to build this abhorrent ceremonial tower, but when I think of this tower's role, I cannot proceed with my duties... My thoughts have become crowded with the desire, that at least those who look upon the tower's forever smiling face, shall do so without despair... I depicted my beloved daughter's smile, in the hope that its smile shall eternally shine upon the kingdom's subjects...`",
     "de": "",
-    "en": "<pipipi_mid>My na.e is .oya. Pal.ce Arc.it.c., Pro.pe... I h.ae\nl.ft thi. rec..di.g to info.m f.ut.re gen.rat..ns. o.\nt.e tru.h behi.d the cermo..al tow.r's c.nst.uctin...\n<br>\n. was ord.re. by t.e King to buil. th.s abho.re.t\nc.remoni.l t.we.r, but whe. I think .f t.is towe.'s\nrole, I annot pr.c.e.d wi.h my dut.es...\n<br>\nMy thou.t. h.ve become c.ow.e.d wi.h the desire, t.at\nat lea.t thos. wh. look .pon ..e t..er's forve.r\nsm.li.. fac., shall d. so wi.ho.t despai...\n<br>\nI dep.cted my belov.d d.ught.r's s.ile, in the h.pe\nt.at its smil. sha.l ete.nal.y shin. .pon .he king..m's\nsubje.ts...",
+    "en": "<pipipi_mid>My na.e is .oya. Pal.ce Arc.it.c., Pro.pe... I h.ae l.ft thi.\nrec..di.g to info.m f.ut.re gen.rat..ns. o. t.e tru.h behi.d the\ncermo..al tow.r's c.nst.uctin...\n<br>\n. was ord.re. by t.e King to buil. th.s abho.re.t c.remoni.l\nt.we.r, but whe. I think .f t.is towe.'s role, I annot pr.c.e.d\nwi.h my dut.es...\n<br>\nMy thou.t. h.ve become c.ow.e.d wi.h the desire, t.at\nat lea.t thos. wh. look .pon ..e t..er's forve.r sm.li.. fac.,\nshall d. so wi.ho.t despai...\n<br>\nI dep.cted my belov.d d.ught.r's s.ile, in the h.pe t.at its\nsmil. sha.l ete.nal.y shin. .pon .he king..m's subje.ts...",
     "es": "",
     "fr": "",
     "it": "",
@@ -93,7 +93,7 @@
   "48642": {
     "$comments": "🟡, Quest (031) {Sub Story}, see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_020_1_040]`",
     "de": "",
-    "en": "<pc> read the little label stuck to the\npotted plant.\n<br>\nScientific name: Passiminere, family: Molendinumo-\ngramen, genus: Propellere, common name: propeller\ngrass.\n<br>\nUpon a closer look, it seems to be man-made. The voice\ncannot be heard anymore.",
+    "en": "<pc> read the little label stuck to the potted plant.\n<br>\nScientific name: Passiminere, family: Molendinumo-\ngramen, genus: Propellere, common name: propeller\ngrass.\n<br>\nUpon a closer look, it seems to be man-made. The voice\ncannot be heard anymore.",
     "es": "",
     "fr": "",
     "it": "",
