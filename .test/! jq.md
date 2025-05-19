@@ -1526,7 +1526,7 @@ end
 
 <!--
 ----------------------------------------------------------------------------------------------------
-- 20250513_00225 | PowerShell 7.5.1
+- 20250513_0225 | PowerShell 7.5.1
 ----------------------------------------------------------------------------------------------------
 ```PS
 `
@@ -1603,6 +1603,934 @@ jq -s "`
 ".\OLD.json"`
 ".\NEW.json"`
 > ".\OUTPUT.json"
+```
+----------------------------------------------------------------------------------------------------
+-->
+
+<!-- 
+----------------------------------------------------------------------------------------------------
+- 20250516_0003 | PowerShell 7.5.1 - Game.locres.json:STT_MagicName & Dragon Quest V .\data\MENUSLIST\{LANGUAGE}\b1003000.mpt
+----------------------------------------------------------------------------------------------------
+`
+jq -n `
+"`
+[`
+    inputs[]`
+    | to_entries[]`
+    #| to_entries` # add .key for debugging
+    #| map(`
+    #    .key as `$k
+    #    | .value = (`
+    #        .value | .key = `$k
+    #    )`
+    #)[]`
+]`
+| group_by( .value.ja )`
+| map( from_entries )`
+| map (`
+    if ( length == 1 )` # No match found
+    then`
+    (`
+        to_entries`
+        ## | map( .test = ( .value | has(`"ko`") ) )`
+        | map( select( .value | has(`"ko`") ) )` # invalid objects become empty
+        | from_entries
+    )`
+    elif ( length == 2 )` # Potential match found
+    then`
+    (`
+        to_entries`
+        | ( sort | reverse )`
+        | if`
+        (`
+            (.[0].value.de == """") and (.[1].value.de != null)`
+        )`
+        then`
+        (`
+            ( .[0].value.de = .[1].value.de )`
+            | .[0].value.[""`$comments""] =`
+            (`
+                .[0].value.[""`$comments""]`
+                | sub(""🔴""; ""🟠"")`
+            )`
+        )`
+        else (.)`
+        end`
+        | if`
+        (`
+            (.[0].value.en == """") and (.[1].value.en != null)`
+        )`
+        then`
+        (`
+            ( .[0].value.en = .[1].value.en )`
+            | .[0].value.[""`$comments""] =`
+            (`
+                .[0].value.[""`$comments""]`
+                | sub(""🔴""; ""🟠"")`
+            )`
+        )`
+        else (.)`
+        end`
+        | if`
+        (`
+            (.[0].value.es == """") and (.[1].value.es != null)`
+        )`
+        then`
+        (`
+            ( .[0].value.es = .[1].value.es )`
+            | .[0].value.[""`$comments""] =`
+            (`
+                .[0].value.[""`$comments""]`
+                | sub(""🔴""; ""🟠"")`
+            )`
+        )`
+        else (.)`
+        end`
+        | if`
+        (`
+            (.[0].value.fr == """") and (.[1].value.fr != null)`
+        )`
+        then`
+        (`
+            ( .[0].value.fr = .[1].value.fr )`
+            | .[0].value.[""`$comments""] =`
+            (`
+                .[0].value.[""`$comments""]`
+                | sub(""🔴""; ""🟠"")`
+            )`
+        )`
+        else (.)`
+        end`
+        | if`
+        (`
+            (.[0].value.it == """") and (.[1].value.it != null)`
+        )`
+        then`
+        (`
+            ( .[0].value.it = .[1].value.it )`
+            | .[0].value.[""`$comments""] =`
+            (`
+                .[0].value.[""`$comments""]`
+                | sub(""🔴""; ""🟠"")`
+            )`
+        )`
+        else (.)`
+        end`
+        ##### | if`
+        ##### (`
+        #####     (.[0].value.[`"pt-BR`"] == """") and (.[1].value.[`"pt-BR`"] != null)`
+        ##### )`
+        ##### then`
+        ##### (`
+        #####     ( .[0].value.[`"pt-BR`"] = .[1].value.[`"pt-BR`"] )`
+        #####     | .[0].value.[""`$comments""] =`
+        #####     (`
+        #####         .[0].value.[""`$comments""]`
+        #####         | sub(""🔴""; ""🟠"")`
+        #####     )`
+        ##### )`
+        ##### else (.)`
+        ##### end`
+        # | del(.[1])`
+        | map( select( .value | has(`"ko`") ) )` # invalid objects become empty
+        | from_entries`
+    )`
+    elif ( length == 3 )` # Potential match found
+    then`
+    (`
+        to_entries`
+        | if`
+        (`
+            (.[0].value.de == """") and (.[1].value.de != null)`
+            or (.[1].value.de == """") and (.[2].value.de != null)`
+        )`
+        then`
+        (`
+            ( .[1].value.de = .[2].value.de )`
+            | ( .[0].value.de = .[1].value.de )`
+            | .[0].value.[""`$comments""] =`
+            (`
+                .[0].value.[""`$comments""]`
+                | sub(""🔴""; ""🟠"")`
+            )`
+        )`
+        else (.)`
+        end`
+        | if`
+        (`
+            (.[0].value.en == """") and (.[1].value.en != null)`
+            or (.[1].value.en == """") and (.[2].value.en != null)`
+        )`
+        then`
+        (`
+            ( .[1].value.en = .[2].value.en )`
+            | ( .[0].value.en = .[1].value.en )`
+            | .[0].value.[""`$comments""] =`
+            (`
+                .[0].value.[""`$comments""]`
+                | sub(""🔴""; ""🟠"")`
+            )`
+        )`
+        else (.)`
+        end`
+        | if`
+        (`
+            (.[0].value.es == """") and (.[1].value.es != null)`
+            or (.[1].value.es == """") and (.[2].value.es != null)`
+        )`
+        then`
+        (`
+            ( .[1].value.es = .[2].value.es )`
+            | ( .[0].value.es = .[1].value.es )`
+            | .[0].value.[""`$comments""] =`
+            (`
+                .[0].value.[""`$comments""]`
+                | sub(""🔴""; ""🟠"")`
+            )`
+        )`
+        else (.)`
+        end`
+        | if`
+        (`
+            (.[0].value.fr == """") and (.[1].value.fr != null)`
+            or (.[1].value.fr == """") and (.[2].value.fr != null)`
+        )`
+        then`
+        (`
+            ( .[1].value.fr = .[2].value.fr )`
+            | ( .[0].value.fr = .[1].value.fr )`
+            | .[0].value.[""`$comments""] =`
+            (`
+                .[0].value.[""`$comments""]`
+                | sub(""🔴""; ""🟠"")`
+            )`
+        )`
+        else (.)`
+        end`
+        | if`
+        (`
+            (.[0].value.it == """") and (.[1].value.it != null)`
+            or (.[1].value.it == """") and (.[2].value.it != null)`
+        )`
+        then`
+        (`
+            ( .[1].value.it = .[2].value.it )`
+            | ( .[0].value.it = .[1].value.it )`
+            | .[0].value.[""`$comments""] =`
+            (`
+                .[0].value.[""`$comments""]`
+                | sub(""🔴""; ""🟠"")`
+            )`
+        )`
+        else (.)`
+        end`
+        ##### | if`
+        ##### (`
+        #####     (.[0].value.[`"pt-BR`"] == """") and (.[1].value.[`"pt-BR`"] != null)`
+        #####     or (.[1].value.[`"pt-BR`"] == """") and (.[2].value.[`"pt-BR`"] != null)`
+        ##### )`
+        ##### then`
+        ##### (`
+        #####     ( .[1].value.[`"pt-BR`"] = .[2].value.[`"pt-BR`"] )`
+        #####     | ( .[0].value.[`"pt-BR`"] = .[1].value.[`"pt-BR`"] )`
+        #####     | .[0].value.[""`$comments""] =`
+        #####     (`
+        #####         .[0].value.[""`$comments""]`
+        #####         | sub(""🔴""; ""🟠"")`
+        #####     )`
+        ##### )`
+        ##### else (.)`
+        ##### end`
+        # | del(.[2])`
+        | map( select( .value | has(`"ko`") ) )` # invalid objects become empty
+        | from_entries`
+    )`
+    elif ( length == 4 )` # Potential match found
+    then`
+    (`
+        to_entries`
+        | map( select( .value | has(`"ko`") ) )` # invalid objects become empty
+        | from_entries`
+    )`
+    elif ( length == 5 )` # Potential match found
+    then`
+    (`
+        to_entries`
+        | map( select( .value | has(`"ko`") ) )` # invalid objects become empty
+        | from_entries`
+    )`
+    elif ( length == 6 )` # Potential match found
+    then`
+    (`
+        to_entries`
+        | map( select( .value | has(`"ko`") ) )` # invalid objects become empty
+        | from_entries`
+    )`
+    else ( . )`
+    end`
+)`
+| map(`
+    select( . != {} )` # remove empty objects
+)`
+| sort
+"`
+"D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\.test\ignore\OLD.json"`
+"D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\.test\ignore\NEW.json"`
+> "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\.test\ignore\OUTPUT.json"
+----------------------------------------------------------------------------------------------------
+-->
+
+<!--
+----------------------------------------------------------------------------------------------------
+- 20250516_1440 | PowerShell 7.5.1 - Game.locres.json:STT_WeaponItem & Dragon Quest V .\data\MENUSLIST\{LANGUAGE}\b1000000.mpt
+----------------------------------------------------------------------------------------------------
+`
+jq -n`
+"`
+  [
+      inputs
+      | to_entries[]
+  ]
+  | group_by(
+      if
+          (
+              ( .key | test("NAME_ID_") )
+              and
+              ( .value | has("ko") )
+          )
+      then
+          ( .value.ja )
+      else
+          ( .value.ja.["@1"] )
+      end
+  )
+  | map(
+    if ( length == 1 ) # No match found
+      then
+      (
+          to_entries
+          ## | map( .test = ( .value | has("ko") ) )
+          | map( select( .value | has("ko") ) ) # invalid objects become empty
+          | from_entries
+      )
+    elif
+        ( length == 2)
+        then
+            #( .[0].value.ja = .[1].value.ja.["@1"])
+            if
+                (.[0].value.de == "") and (.[1].value.de != null)
+                then
+                    (
+                        .[0].value.de = .[1].value.de.["@4"]
+                        | .[0].value.["$comments"] =
+                        (
+                            .[0].value.["$comments"]
+                            | sub("🔴"; "🟠")
+                        )
+                    )
+                else ( . )
+            end
+            | if
+                (.[0].value.en == "") and (.[1].value.en != null)
+                then
+                    (
+                        .[0].value.en = .[1].value.en.["@4"]
+                        | .[0].value.["$comments"] =
+                        (
+                            .[0].value.["$comments"]
+                            | sub("🔴"; "🟠")
+                        )
+                    )
+                else ( . )
+            end
+            | if
+                (.[0].value.es == "") and (.[1].value.es != null)
+                then
+                    (
+                        .[0].value.es = .[1].value.es.["@4"]
+                        | .[0].value.["$comments"] =
+                        (
+                            .[0].value.["$comments"]
+                            | sub("🔴"; "🟠")
+                        )
+                    )
+                else ( . )
+            end
+            | if
+                (.[0].value.fr == "") and (.[1].value.fr != null)
+                then
+                    (
+                        .[0].value.fr = .[1].value.fr.["@4"]
+                        | .[0].value.["$comments"] =
+                        (
+                            .[0].value.["$comments"]
+                            | sub("🔴"; "🟠")
+                        )
+                    )
+                else ( . )
+            end
+            | if
+                (.[0].value.it == "") and (.[1].value.it != null)
+                then
+                    (
+                        .[0].value.it = .[1].value.it.["@4"]
+                        | .[0].value.["$comments"] =
+                        (
+                            .[0].value.["$comments"]
+                            | sub("🔴"; "🟠")
+                        )
+                    )
+                else ( . )
+            end
+            #| if
+            #    (.[0].value.["pt-BR"] == "") and (.[1].value.["pt-BR"] != null)
+            #    then
+            #        (
+            #            .[0].value.["pt-BR"] = .[1].value.["pt-BR"].["@4"]
+            #            | .[0].value.["$comments"] =
+            #            (
+            #                .[0].value.["$comments"]
+            #                | sub("🔴"; "🟠")
+            #            )
+            #        )
+            #   else ( . )
+            #end
+
+            | map( select( .value | has("ko") ) ) # invalid objects become empty
+        else ( . )
+    end
+
+    | select( . != {} ) # remove empty objects
+    | sort
+    | from_entries
+  )
+  | { "STT_WeaponItem": .[] }
+"`
+----------------------------------------------------------------------------------------------------
+-->
+
+<!--
+----------------------------------------------------------------------------------------------------
+- 20250516_1840 | PowerShell 7.5.1 - Game.locres.json:STT_WeaponItem & Dragon Quest V .\data\MENUSLIST\{LANGUAGE}\b1000000.mpt
+----------------------------------------------------------------------------------------------------
+`
+jq -n`
+"`
+[
+    inputs[]
+    | to_entries[]
+]                                                       # Put { Game.locres.json:STT_WeaponItem } & b1000000.mpt.json into same array for grouping
+
+| group_by(
+    ##################################################  # group DQ10's NAME ( sometimes RUBY )'s .ja and DQ05's .ja.@1
+        .value.ja
+        | walk(
+            if ( type == "string" )
+                then
+                (
+                    .
+                )
+                else
+                (
+                    .["@1"]
+                )
+            end
+        )
+    ##################################################
+    //
+    ##################################################  # group DQ10's EXPLANATION, NAME, and RUBY only (yet?)
+    (
+        if
+        ( .key | test("_ID_ITEM_EQUIP_") )
+            then
+            (
+                .key = (
+                    .key
+                    | sub(
+                        "(EXPLANATION|NAME|RUBY)_ID_ITEM_EQUIP_(?<a>.*)";
+                        "\(.a)"
+                    )
+                )
+            )
+            else ( . )
+        end
+        | .key
+    )
+    ##################################################
+)[]
+"`
+----------------------------------------------------------------------------------------------------
+-->
+<!--
+----------------------------------------------------------------------------------------------------
+- 20250516_2200 | PowerShell 7.5.1 - Game.locres.json:STT_WeaponItem (NAME_ID_EQUIP) & Dragon Quest V .\data\MENUSLIST\{LANGUAGE}\b1000000.mpt
+----------------------------------------------------------------------------------------------------
+`
+jq -n`
+"`
+[
+    inputs[]
+    | to_entries[]
+]
+####################################################################################################
+#| map
+| group_by
+(
+    
+    .value.ja
+    | walk(
+        if ( type == "string" )
+            then
+            (
+                .
+            )
+            else
+            (
+                .["@1"]
+            )
+        end
+    )
+    
+)[]
+####################################################################################################
+| (sort | reverse)
+####################################################################################################
+| if ( length == 1 and map(has("ja") | not) )
+    then
+    (
+        null
+    )
+elif ( length == 2 and (.[1].value.ja | type != "object") )
+    then
+    (
+        null
+    )
+elif ( length == 3 and (.[1].value.ja | type != "object") )
+    then
+    (
+        null
+    )
+elif ( length == 4 and (.[1].value.ja | type != "object") )
+    then
+    (
+        null
+    )
+elif ( length == 5 and (.[1].value.ja | type != "object") )
+    then
+    (
+        null
+    )
+else (
+      ( if ( .[0].value.de ==  "" ) then ( .[0].value.de = .[1].value.de.["@4"] ) else ( . ) end | if (.[0].value.["$comments"] != null ) then ( .[0].value.["$comments"] = ( .[0].value.["$comments"] | sub("🔴"; "🟠") ) ) else ( . ) end )
+    | ( if ( .[0].value.en ==  "" ) then ( .[0].value.en = .[1].value.en.["@4"] ) else ( . ) end | if (.[0].value.["$comments"] != null ) then ( .[0].value.["$comments"] = ( .[0].value.["$comments"] | sub("🔴"; "🟠") ) ) else ( . ) end )
+    | ( if ( .[0].value.es ==  "" ) then ( .[0].value.es = .[1].value.es.["@4"] ) else ( . ) end | if (.[0].value.["$comments"] != null ) then ( .[0].value.["$comments"] = ( .[0].value.["$comments"] | sub("🔴"; "🟠") ) ) else ( . ) end )
+    | ( if ( .[0].value.fr ==  "" ) then ( .[0].value.fr = .[1].value.fr.["@4"] ) else ( . ) end | if (.[0].value.["$comments"] != null ) then ( .[0].value.["$comments"] = ( .[0].value.["$comments"] | sub("🔴"; "🟠") ) ) else ( . ) end )
+    | ( if ( .[0].value.it ==  "" ) then ( .[0].value.it = .[1].value.it.["@4"] ) else ( . ) end | if (.[0].value.["$comments"] != null ) then ( .[0].value.["$comments"] = ( .[0].value.["$comments"] | sub("🔴"; "🟠") ) ) else ( . ) end )
+    
+)
+end
+| del( .[1] )
+####################################################################################################
+| select( . != null)
+| from_entries
+"`
+----------------------------------------------------------------------------------------------------
+-->
+<!--
+----------------------------------------------------------------------------------------------------
+- 20250516_2200 | PowerShell 7.5.1 -  Dragon Quest V .\data\MESS5\{LANGUAGE}\b0801000.mpt ( battle dialog )
+####################################################################################################
+# Input
+####################################################################################################
+
+```json
+{
+  "00001": {
+    "key": " ",
+    "value": "%a000130が　あらわれた！<pipipi_off>"
+  },
+  "00002": {
+    "key": " ",
+    "value": "%a000130が　あらわれた！<pipipi_off>"
+  },
+  "00003": {
+    "key": " ",
+    "value": "%a000130たちが　あらわれた！<pipipi_off>"
+  },
+  // ...
+  "00421": {
+    "key": " ",
+    "value": "%a000180は　ふたたび\nめが　くらんだ！<pipipi_off>"
+  }
+}
+
+```
+####################################################################################################
+# JQ
+####################################################################################################
+
+jq -s
+```js
+[ "de", "en", "es", "fr", "it", "ja" ] as $LANGUAGE
+| reduce . as $obj
+(
+    .;
+    reduce ($obj[] | keys)[] as $k
+    (
+        {};
+        . += {
+            $k: (
+                [$obj[].[$k]]
+                | map(.key = $LANGUAGE[5])
+                | from_entries
+            )
+        }
+    )
+)
+```
+
+####################################################################################################
+# Output
+####################################################################################################
+```json
+{
+  "00001": {
+    "ja": "%a000130が　あらわれた！<pipipi_off>"
+  },
+  "00002": {
+    "ja": "%a000130が　あらわれた！<pipipi_off>"
+  },
+  "00003": {
+    "ja": "%a000130たちが　あらわれた！<pipipi_off>"
+  },
+  // ...
+  "00421": {
+    "ja": "%a000180は　ふたたび\nめが　くらんだ！<pipipi_off>"
+  }
+}
+```
+----------------------------------------------------------------------------------------------------
+-->
+<!--
+----------------------------------------------------------------------------------------------------
+- 20250518_1800 | PowerShell 7.5.1 -  Dragon Quest V .\data\MESS5\{LANGUAGE}\b0801000.mpt ( battle dialog )
+####################################################################################################
+# Input
+####################################################################################################
+
+```json
+{
+  "00001": {
+    "key": " ",
+    "value": "%a000130が　あらわれた！<pipipi_off>"
+  },
+  "00002": {
+    "key": " ",
+    "value": "%a000130が　あらわれた！<pipipi_off>"
+  },
+  "00003": {
+    "key": " ",
+    "value": "%a000130たちが　あらわれた！<pipipi_off>"
+  },
+  // ...
+  "00421": {
+    "key": " ",
+    "value": "%a000180は　ふたたび\nめが　くらんだ！<pipipi_off>"
+  }
+}
+
+```
+####################################################################################################
+# JQ
+####################################################################################################
+ 
+ jq -n 
+```js
+[
+    inputs[]
+    | to_entries[]
+]
+| group_by( .. | .ja? )
+| map(
+    # length
+    ##################################################
+    sort
+    | if ( length == 1 )
+        then
+        (
+            #########################
+            # DEBUG
+            #map(.key)[] as $k
+            #| {$k: length}
+            #########################
+            select (map( .value | has("ko") ) )[]
+        )
+    elif ( length == 2 )
+        then
+        (
+            #########################
+            # DEBUG
+            # { "2": length }
+            # map( .key )
+            #########################
+            if (
+                    .[0].value.en != null
+                    #and .[1].value.en == ""
+                    and (.[1].key | test("(NAME_)") )
+                )
+                    then
+                    (
+                        ##########################################################################################################################################################################################################################################################
+                         if( .[0].value.de        != null and .[1].value.de        ==  "" )then(     .[1].value.de        = .[0].value.de        |.[1].value.["$comments"] = ( .[1].value.["$comments"] | sub("🔴"; "🟠")     ) )else(.)end 
+                        |if( .[0].value.en        != null and .[1].value.en        ==  "" )then(     .[1].value.en        = .[0].value.en        |.[1].value.["$comments"] = ( .[1].value.["$comments"] | sub("🔴"; "🟠")     ) )else(.)end 
+                        |if( .[0].value.es        != null and .[1].value.es        ==  "" )then(     .[1].value.es        = .[0].value.es        |.[1].value.["$comments"] = ( .[1].value.["$comments"] | sub("🔴"; "🟠")     ) )else(.)end 
+                        |if( .[0].value.fr        != null and .[1].value.fr        ==  "" )then(     .[1].value.fr        = .[0].value.fr        |.[1].value.["$comments"] = ( .[1].value.["$comments"] | sub("🔴"; "🟠")     ) )else(.)end 
+                        |if( .[0].value.it        != null and .[1].value.it        ==  "" )then(     .[1].value.it        = .[0].value.it        |.[1].value.["$comments"] = ( .[1].value.["$comments"] | sub("🔴"; "🟠")     ) )else(.)end 
+                        |if( .[0].value.["pt-BR"] != null and .[1].value.["pt-BR"] ==  "" )then(     .[1].value.["pt-BR"] = .[0].value.["pt-BR"] |.[1].value.["$comments"] = ( .[1].value.["$comments"] | sub("🔴"; "🟠")     ) )else(.)end 
+                        ##########################################################################################################################################################################################################################################################
+                        # remove invalid objects
+                        ##################################################
+                        | map( select( .value | ( has("ko") ) ) )[]
+                    )
+                else
+                (
+                    .
+                )
+                end
+        )
+    elif ( length == 3 )
+        then
+        (
+            #########################
+            # DEBUG
+            # { "3": length }
+            # map( .key )
+            #########################
+            if (
+                    .[0].value.en != null
+                    #and .[1].value.en == ""
+                    and (.[1].key | test("(NAME_)") )
+                )
+                    then
+                    (
+                        ##########################################################################################################################################################################################################################################################
+                         if( .[0].value.de        != null and .[1].value.de        ==  "" )then(     .[1].value.de        = .[0].value.de        |.[1].value.["$comments"] = ( .[1].value.["$comments"] | sub("🔴"; "🟠")     ) )else(.)end 
+                        |if( .[0].value.en        != null and .[1].value.en        ==  "" )then(     .[1].value.en        = .[0].value.en        |.[1].value.["$comments"] = ( .[1].value.["$comments"] | sub("🔴"; "🟠")     ) )else(.)end 
+                        |if( .[0].value.es        != null and .[1].value.es        ==  "" )then(     .[1].value.es        = .[0].value.es        |.[1].value.["$comments"] = ( .[1].value.["$comments"] | sub("🔴"; "🟠")     ) )else(.)end 
+                        |if( .[0].value.fr        != null and .[1].value.fr        ==  "" )then(     .[1].value.fr        = .[0].value.fr        |.[1].value.["$comments"] = ( .[1].value.["$comments"] | sub("🔴"; "🟠")     ) )else(.)end 
+                        |if( .[0].value.it        != null and .[1].value.it        ==  "" )then(     .[1].value.it        = .[0].value.it        |.[1].value.["$comments"] = ( .[1].value.["$comments"] | sub("🔴"; "🟠")     ) )else(.)end 
+                        |if( .[0].value.["pt-BR"] != null and .[1].value.["pt-BR"] ==  "" )then(     .[1].value.["pt-BR"] = .[0].value.["pt-BR"] |.[1].value.["$comments"] = ( .[1].value.["$comments"] | sub("🔴"; "🟠")     ) )else(.)end 
+                        ##########################################################################################################################################################################################################################################################
+                        # remove invalid objects
+                        ##################################################
+                        | map( select( .value | ( has("ko") ) ) )[]
+                    )
+                else
+                (
+                    .
+                )
+                end
+        )
+    else ( . )
+    end
+)
+| sort
+| from_entries
+| {"STT_": .}
+```
+
+####################################################################################################
+# Output
+####################################################################################################
+```json
+{
+    "STT_": {
+        {},
+        {},
+        {},
+        // ...
+        {}
+    }
+}
+```
+----------------------------------------------------------------------------------------------------
+-->
+<!--
+----------------------------------------------------------------------------------------------------
+- 20250518_1800 | PowerShell 7.5.1 -  Dragon Quest V .\data\MESS5\{LANGUAGE}\b0801000.mpt ( battle dialog )
+####################################################################################################
+# Input
+####################################################################################################
+
+```json
+{
+    "STT_BattleMonsterName": {
+        "ID_MONSTER_NAME_00100": {
+            "$comments": "🔴, DQ3make.GOP_TEXT_Noun_AllLanguages:TEXT_NOUN_Monster_Name_Slime",
+            "de": "",
+            "en": "",
+            "es": "",
+            "fr": "",
+            "it": "",
+            "ja": "スライム",
+            "ko": "슬라임",
+            "pt-BR": "",
+            "zh-Hans": "史莱姆",
+            "zh-Hant": "史萊姆"
+        },
+        // ...
+    }
+}
+{
+    "DQ05_b1002000.mpt": {
+        // ...
+        "00106": {
+            "de": "Schleim",
+            "en": "Slime",
+            "es": "Limo",
+            "fr": "Gluant",
+            "it": "Slime",
+            "ja": "スライム"
+        },
+        // ...
+    }
+}
+
+```
+####################################################################################################
+# JQ
+####################################################################################################
+ `
+  jq -n `
+ "`
+ [`
+     inputs[]`
+     | to_entries[]`
+ ]`
+ | group_by( .value.ja )`
+ | map(`
+ #    # length`
+ #    ##################################################`
+     sort`
+     | if ( length == 1 )`
+         then`
+         (`
+             #########################`
+             # DEBUG`
+             #map(.key)[] as `$k`
+             #| {`$k: length}`
+             #########################`
+             map( select( .value | has(`"ko`") ) )` # invalid objects become empty
+         )`
+     elif ( length == 2 )`
+         then`
+         (`
+             #########################`
+             # DEBUG`
+             # { `"2`": length }`
+             # map( .key )`
+             #########################`
+             if (`
+                     .[0].value.en != null`
+                     #and .[1].value.en == `"`"`
+                     and (.[1].key | test(`"(NAME_)`") )`
+                 )`
+                     then`
+                     (`
+                         ##########################################################################################################################################################################################################################################################`
+                          if( .[0].value.de        != null and .[1].value.de        ==  `"`" )then(     .[1].value.de        = .[0].value.de |.[1].value.[`"`$comments`"]        = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
+                         |if( .[0].value.en        != null and .[1].value.en        ==  `"`" )then(     .[1].value.en        = .[0].value.en |.[1].value.[`"`$comments`"]        = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
+                         |if( .[0].value.es        != null and .[1].value.es        ==  `"`" )then(     .[1].value.es        = .[0].value.es |.[1].value.[`"`$comments`"]        = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
+                         |if( .[0].value.fr        != null and .[1].value.fr        ==  `"`" )then(     .[1].value.fr        = .[0].value.fr |.[1].value.[`"`$comments`"]        = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
+                         |if( .[0].value.it        != null and .[1].value.it        ==  `"`" )then(     .[1].value.it        = .[0].value.it |.[1].value.[`"`$comments`"]        = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
+                         |if( .[0].value.[`"pt-BR`"] != null and .[1].value.[`"pt-BR`"] ==  `"`" )then(     .[1].value.[`"pt-BR`"] = .[0].value.[`"pt-BR`"] |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
+                         ##########################################################################################################################################################################################################################################################`
+                         # remove invalid objects`
+                         ##################################################`
+                         | map( select( .value | has(`"ko`") ) )` # invalid objects become empty
+                     )`
+                 else`
+                 (`
+                     #.`
+                     map( select( has(`"ko`") ) )` # invalid objects become empty
+                 )`
+                 end`
+         )`
+     elif ( length == 3 )`
+         then`
+         (`
+             #########################`
+             # DEBUG`
+             # { `"3`": length }`
+             # map( .key )`
+             #########################`
+             if (`
+                     .[0].value.en != null`
+                     #and .[1].value.en == `"`"`
+                     and (.[1].key | test(`"(NAME_)`") )`
+                 )`
+                     then`
+                     (`
+                         ##########################################################################################################################################################################################################################################################`
+                          if( .[0].value.de        != null and .[1].value.de        ==  `"`" )then(     .[1].value.de        = .[0].value.de        |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
+                         |if( .[0].value.en        != null and .[1].value.en        ==  `"`" )then(     .[1].value.en        = .[0].value.en        |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
+                         |if( .[0].value.es        != null and .[1].value.es        ==  `"`" )then(     .[1].value.es        = .[0].value.es        |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
+                         |if( .[0].value.fr        != null and .[1].value.fr        ==  `"`" )then(     .[1].value.fr        = .[0].value.fr        |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
+                         |if( .[0].value.it        != null and .[1].value.it        ==  `"`" )then(     .[1].value.it        = .[0].value.it        |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
+                         |if( .[0].value.[`"pt-BR`"] != null and .[1].value.[`"pt-BR`"] ==  `"`" )then(     .[1].value.[`"pt-BR`"] = .[0].value.[`"pt-BR`"] |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
+                         ##########################################################################################################################################################################################################################################################`
+                         # remove invalid objects`
+                         ##################################################`
+                         | map( select( .value | has(`"ko`") ) )` # invalid objects become empty
+                     )`
+                 else`
+                 (`
+                     #.`
+                     map( select( has(`"ko`") ) )` # invalid objects become empty
+                 )`
+                 end`
+         )`
+     #else ( . )`
+     else (`
+         map( select( has(`"ko`") ) )` # invalid objects become empty
+         )`
+     end`
+     | from_entries`
+ )`
+ | map(`
+     select( . != {} )` # remove empty objects
+ )`
+ | sort`
+ #| from_entries`
+ | {`"STT_BattleMonsterName`": .}`
+ "`
+ "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\.test\ignore\OLD.json"`
+ "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\.test\ignore\NEW.json"`
+ > "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\.test\ignore\OUTPUTereeee.json"
+```
+
+####################################################################################################
+# Output
+####################################################################################################
+```json
+{
+    "STT_BattleMonsterName": {
+        "ID_MONSTER_NAME_00100": {
+            "$comments": "🟠, DQ3make.GOP_TEXT_Noun_AllLanguages:TEXT_NOUN_Monster_Name_Slime",
+            "de": "Schleim",
+            "en": "Slime",
+            "es": "Limo",
+            "fr": "Gluant",
+            "it": "Slime",
+            "ja": "スライム",
+            "ko": "슬라임",
+            "pt-BR": "",
+            "zh-Hans": "史莱姆",
+            "zh-Hant": "史萊姆"
+        },
+        // ...
+    }
+}
 ```
 ----------------------------------------------------------------------------------------------------
 -->

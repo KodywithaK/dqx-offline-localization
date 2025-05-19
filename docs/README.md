@@ -549,12 +549,44 @@ UnrealPak.exe "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFL
 
       - fixes `/bin/bash: xdg-mime: No such file or directory` error.
 
-   4. `./setup.sh -exclude=Android -exclude=Dingo -exclude=Documentation -exclude=HTML5 -exclude=IOS -exclude=Mac -exclude=MacOS -exclude=MacOSX -exclude=osx -exclude=osx32 -exclude=osx64 -exclude=PS4 -exclude=Samples -exclude=Switch -exclude=Templates -exclude=TVOS -exclude=Win32 -exclude=Win64 -exclude=Windows -exclude=WinRT -exclude=XboxOne` > [!IMPORTANT] `DotNET` is required for `./GenerateProjectFiles.sh` step, **DO NOT ADD** `-exclude=DotNET` - excludes unnecessary builds aka less space taken up. - After successful run, `./Binaries/Linux/*` will be created
+   4. `./setup.sh -exclude=Android -exclude=Dingo -exclude=Documentation -exclude=HTML5 -exclude=IOS -exclude=Mac -exclude=MacOS -exclude=MacOSX -exclude=osx -exclude=osx32 -exclude=osx64 -exclude=PS4 -exclude=Samples -exclude=Switch -exclude=Templates -exclude=TVOS -exclude=Win32 -exclude=Win64 -exclude=Windows -exclude=WinRT -exclude=XboxOne`
+      - > [!IMPORTANT]
+        > 
+        > `DotNET` is required for `./GenerateProjectFiles.sh` step, **DO NOT ADD** `-exclude=DotNET`
+
+      - > [!TIP]
+        > 
+        > Excludes unnecessary builds aka less space taken up.
+        > - 4.26.1-release directory size
+        >   - Before `.setup.sh -exclude=...`
+        >     - ~1.78 GB
+        >   - After,
+        >     - ~19.8 GB
+      - After successful run, `./Engine/Binaries/Linux/*` will be created
    <!-- 5.  ???`./setup.sh -exclude=Android -exclude=Dingo -exclude=Documentation -exclude=HTML5 -exclude=IOS -exclude=Mac -exclude=MacOS -exclude=MacOSX -exclude=osx -exclude=osx32 -exclude=osx64 -exclude=PS4 -exclude=Samples -exclude=Switch -exclude=Templates -exclude=ThirdParty -exclude=TVOS -exclude=Win32 -exclude=Win64 -exclude=Windows -exclude=WinRT -exclude=XboxOne` -->
    5. `./GenerateProjectFiles.sh`
       - generates makefiles and CMakelists.txt
    6. `make UnrealPak`
-      - makes `Unrealpak` and its dependencies in ~210s
+      - makes `Unrealpak` and its dependencies in ~80-210s
+      - > [!TIP]
+        > 
+        > - 4.26.1-release directory size
+        >   - After, ~19.9 GB
+<!--
+   7. `make UE4Editor`
+      - makes `UE4Editor` and its dependencies in ~80-210s
+      - > [!IMPORTANT]
+        > 
+        > - ERROR: `Couldn't launch ./UnrealEngine-4.26.1-release/Engine/Binaries/Linux/ShaderCompileWorker! Make sure you build ShaderCompileWorker.`
+        >   - run `./Engine/Build/BatchFiles/Linux/Build.sh ShaderCompileWorker Linux Development`
+      - run `./Engine/Binaries/Linux/UE4Editor`, and wait for shaders to compile
+
+## 03. Unreal Engine 4 Editor (UE4Editor)
+0. 
+  - https://dev.epicgames.com/community/learning/tutorials/qz93/unreal-engine-building-plugins
+1. 
+2. 
+-->
 
 ---
 

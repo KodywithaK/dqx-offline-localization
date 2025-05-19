@@ -1416,6 +1416,19 @@
     "zh-Hans": "<if_woman><attr><feel_happy_lv2><end_attr>啊啊，好忙啊！好忙啊！\n我的孩子都属于干得多吃得香的类型，\n所以我每天都要做相当多的饭。\n<br>\n必须要给他们吃好吃的肉，\n这样他们才能有力气。\n不过这味道可真香啊！啊哈哈。\n<br>\n话说从小姐那儿得到的章鱼扇贝\n可真是个好东西啊。如果可以的话，\n还希望你能再去采集些来。<else><attr><feel_happy_lv2><end_attr>啊啊，好忙啊！好忙啊！\n我的孩子都属于干得多吃得香的类型，\n所以我每天都要做相当多的饭。\n<br>\n必须要给他们吃好吃的肉，\n这样他们才能有力气。\n不过这味道可真香啊！啊哈哈。\n<br>\n话说从小哥那儿得到的章鱼扇贝\n可真是个好东西啊。如果可以的话，\n还希望你能再去采集些来。<endif>",
     "zh-Hant": "<if_woman><attr><feel_happy_lv2><end_attr>哎呀，好忙！好忙！\n我的孩子工作很賣力又很會吃，\n所以我每天都要做很多飯。\n<br>\n必須給他們吃使用大量美味肉類的料理，\n這樣他們才會有力氣。\n話說回來，這味道好香啊！哈哈哈。\n<br>\n對了，小姐給我的章魚扇貝\n真是個好東西啊。如果可以的話，\n還希望你能多採集一些。<else><attr><feel_happy_lv2><end_attr>哎呀，好忙！好忙！\n我的孩子工作很賣力又很會吃，\n所以我每天都要做很多飯。\n<br>\n必須給他們吃使用大量美味肉類的料理，\n這樣他們才會有力氣。\n話說回來，這味道好香啊！哈哈哈。\n<br>\n對了，小哥給我的章魚扇貝\n真是個好東西啊。如果可以的話，\n還希望你能多採集一些。<endif>"
   },
+  "61797": {
+    "$comments": "🟡, see `Game.locres.json:STT_NpcInfo.NAME_NPC_00204`",
+    "de": "",
+    "en": "Beyond this point is the resting place for our grand\nancestors. Only those who have received King Grossner's\npermission may enter.<bw_break>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "「この先は　偉大なる先人たちが　眠る場所。\n　グロスナー王の許可を受けた者しか\n　入ることはできぬ。<bw_break>",
+    "ko": ": 이 앞은 위대한 선인들이 잠드신 곳.\n　그로스너 전하의 허가를 받은 자만이\n　들어갈 수 있다.<bw_break>",
+    "pt-BR": "",
+    "zh-Hans": "前方是伟大的先人们长眠的场所。\n只有得到古罗斯纳王许可的人\n才可以进去。<bw_break>",
+    "zh-Hant": "前方是偉大先人們沉睡的場所。\n只有得到古羅斯納王許可的人士，\n才能進去。<bw_break>"
+  },
   "61766": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_000]`, UNDER LEVEL 36+",
     "de": "",
@@ -1432,7 +1445,7 @@
   "61767": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_000]`, YESNO",
     "de": "",
-    "en": "Beyond this point is the resting place for our grand\nancestors. Only those who have received King Grossner's\npermission may enter.\n<br>\nBy the way, you seem to be a somewhat skilled\nadventurer, right. There's something I definitely want\nto ask you about.\n<br>\nRecently, there seems to be a weird rumor spreading\namongst Gartlant Castle's soldiers... Would you be willing\nto investigate the rumor?",
+    "en": "Beyond this point is the resting place for our grand\nancestors. Only those who have received King Grossner's\npermission may enter.\n<br>\nBy the way, you seem to be a somewhat skilled\nadventurer, right. There's something I definitely want\nto ask you about.\n<br>\nRecently, there seems to be a weird rumor spreading\namongst Gartlant Castle's soldiers... Are you be willing\nto investigate the rumor?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1445,7 +1458,7 @@
   "61768": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_000]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Ooh, you'll take it on, huh. I appreciate it. As for\nthe rumor, it's nothing more than this: Some nonsense\nabout there being a talking statue in the castle.\n<br>\nSo far, it hasn't cause a great commotion, but we can't\nhave our soldiers getting duped and believing in some\ngossip; it's a shameful thing.\n<br>\nThat's why I want you to talk to the castle's soldiers,\nand get to the truth of the investigation for me.\n<br>\nThey won't talk about it with an old timer like me,\nbut if it's an adventure like you, they might. If you\nlearn anything, please report back to me.",
+    "en": "<attr><feel_happy_lv1><end_attr>Ooh, you'll take it on, huh. I appreciate it. As for the\nrumor, it's nothing more than some nonsense about\nthere being a talking statue in the castle.\n<br>\nSo far, it hasn't cause a great commotion, but we can't\nhave our soldiers getting duped and believing in some\ngossip; it's a shameful thing.\n<br>\nThat's why I want you to talk to the castle's soldiers,\nand get to the truth of the investigation for me.\n<br>\nThey won't talk about it with an old timer like me, but\nif it's an adventure like you, they might. If you learn\nanything, please report back to me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1497,7 +1510,7 @@
   "61773": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_010]`, cont'd",
     "de": "",
-    "en": "So far, it hasn't cause a great commotion, but we can't\nhave our soldiers getting duped and believing in some\ngossip; it's a shameful thing.\n<br>\nThat's why I want you to talk to the castle's soldiers,\nand get to the truth of the investigation for me. If\nyou learn anything, please report back to me.",
+    "en": "So far, it hasn't cause a great commotion, but we can't\nhave our soldiers getting duped and believing in some\ngossip; it's a shameful thing.\n<br>\nThat's why I want you to talk to the castle's soldiers,\nand get to the truth of the investigation for me. If you\nlearn anything, please report back to me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1510,7 +1523,7 @@
   "61771": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00205, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_010]`",
     "de": "",
-    "en": "Inside is the great hall called the \"Hall of Flame\".\nIf you follow the red carpet at your feet, it'll lead\nyou to the throne room.\n<br>\n...Huh? You wanna know about the talking statue? Aah, by\nall means, please listen! I definitely heard the\nstatue's voice!!\n<br>\nAt the end of my training, as part of etiquette,\nI bowed deeply to the sword-wielding statue—that's\nwhen, suddenly, a low voice echoed in my mind...\n<br>\nWithout thinking, I turned to look to try and see who\nit was, but nobody was there. It was so creepy, I couldn't\nstand it.",
+    "en": "Inside is the great hall called the \"Hall of Flame\". If you\nfollow the red carpet at your feet, it'll lead you to the\nthrone room.\n<br>\n...Huh? You wanna know about the talking statue?\nAah, by all means, please listen! I definitely heard the\nstatue's voice!!\n<br>\nAt the end of my training, as part of etiquette, I bowed\ndeeply to the sword-wielding statue—that's when,\nsuddenly, a low voice echoed in my mind...\n<br>\nWithout thinking, I turned to look to try and see who\nit was, but nobody was there. It was so creepy, I couldn't\nstand it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1536,7 +1549,7 @@
   "61783": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00201, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_010]`",
     "de": "",
-    "en": "<if_woman>This is the 2nd floor terrace. The west corridor leads\nto the soldiers' break room and kitchen, and to the\neast is Captain Spindle's room.\n<br>\nIf you wanna go to the throne room, take the southern\nstairwell up to the 3rd floor.\n<br>\nBy the way, miss, would you believe me if I told\nyou that the statues in the castle talk to you?\n<br>\nZegas, in the guardroom, was just talking about\nsomething like that, but... Oops. That's not something\nI should be telling a traveler about, is it.<else>This is the 2nd floor terrace. The west corridor leads\nto the soldiers' break room and kitchen, and to the\neast is Captain Spindle's room.\n<br>\nIf you wanna go to the throne room, take the southern\nstairwell up to the 3rd floor.\n<br>\nBy the way, mister, would you believe me if I told\nyou that the statues in the castle talk to you?\n<br>\nZegas, in the guardroom, was just talking about\nsomething like that, but... Oops. That's not something\nI should be telling a traveler about, is it.<endif>",
+    "en": "<if_woman>This is the 2nd floor terrace. The west corridor leads\nto the soldiers' break room and kitchen, and to the\neast is Captain Spindle's room.\n<br>\nIf you wanna go to the throne room, take the southern\nstairwell up to the 3rd floor.\n<br>\nBy the way, miss, would you believe me if I told you that\nthe statues in the castle talk to you?\n<br>\nZegas, in the guardroom, was just talking about\nsomething like that, but... Oops. That's not something\nI should be telling a traveler about, is it.<else>This is the 2nd floor terrace. The west corridor leads\nto the soldiers' break room and kitchen, and to the\neast is Captain Spindle's room.\n<br>\nIf you wanna go to the throne room, take the southern\nstairwell up to the 3rd floor.\n<br>\nBy the way, mister, would you believe me if I told you\nthat the statues in the castle talk to you?\n<br>\nZegas, in the guardroom, was just talking about\nsomething like that, but... Oops. That's not something\nI should be telling a traveler about, is it.<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1549,7 +1562,7 @@
   "61774": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_030]`",
     "de": "",
-    "en": "Ooh! Looks like you were about to get something out of\nthe castle's soldiers about the talking statue, eh.\nPlease report it to ol' Gizman.<open_irai><bw_break>",
+    "en": "Ooh! Looks like you were about to get something out of\nthe castle's soldiers about the talking statue, eh. Please\nreport it to ol' Gizman.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1562,7 +1575,7 @@
   "61775": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_030]`, cont'd",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>...Hmm. So, to summarize your story, if one bows to one\nof the sword-wielding statues on the castle's second\nfloor, they'll hear a voice, huh.\n<br>\nMaaan, that story doesn't make any sense to me, but to\ntest it out, can you tru <color_yellow>bowing to the statues<color_white> for me?<bw_break>",
+    "en": "<attr><feel_think_lv2><end_attr>...Hmm. So, to summarize your story, if one bows to the\nsword-wielding statues on the castle's second floor, they\nwill hear a voice, huh.\n<br>\nMaaan, that story doesn't make any sense to me, but to\ntest it out, can you try <color_yellow>bowing to the statues<color_white> for me?<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1575,7 +1588,7 @@
   "61776": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_030]`, cont'd",
     "de": "",
-    "en": "<close_irai>To bow, you can press <emoji RightTrigger>, and select \"<color_yellow>Bow<color_white>\" from\nthe quick commands emote list.",
+    "en": "<close_irai>To bow, you can press <emoji RightTrigger>, and select \"<color_yellow>Bow<color_white>\" from the\nquick commands emote list.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1599,9 +1612,9 @@
     "zh-Hant": "<pc>向舉著劍的雕像\n鞠躬了。"
   },
   "61778": {
-    "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.___, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_030]`",
+    "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_030]`",
     "de": "",
-    "en": "<pipipi_low>O ye... Who have bowed before me... My voice... Can you\nhear it...?<yesno><close>",
+    "en": "<pipipi_low>O ye... Who have bowed before me... My voice...\nCan you hear it...?<yesno><close>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1612,9 +1625,9 @@
     "zh-Hant": "<pipipi_low>在我面前……低下頭的人啊……\n能聽見……我的聲音嗎……？<yesno><close>"
   },
   "61779": {
-    "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.___, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_030]`",
+    "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_030]`, YESNO",
     "de": "",
-    "en": "<pipipi_mid>Aah...! At last, have I gotten an answer!? I-I'm so happy...!\n<br>\nHah! Sorry! I'm a soldier here... I've tried countless\ntimes to call out to those who bowed, however no one\nanswered me!\n<br>\n...Eeh? There's a rumor amongst the soldiers that a ghost\nappears here...? Aww. No way... S-sorry!\n<br>\nIt's so! It pains me, so please listen to me! There\nwas a place I wanted to go, but for some reason I seem\nto have forgotten everything...\n<br>\nAll I remember is green grass covering the vast\nland... A quiet place where rocky cliffs soar, and the\nsounds of a waterfall can be heard... That's about it.\n<br>\nIt's a vague memory, so I apologize... But for those in\nthe castle, it might ring a bell; so will you bring me\nalong to investigate the location?<yesno><break>",
+    "en": "<pipipi_mid>Aah...! At last, have I got an answer!? I-I'm so happy...!\n<br>\nHah! Sorry! I'm a soldier here... I've tried countless\ntimes to call out to those who bowed, however no one\nanswered me!\n<br>\n...Eeh? There's a rumor amongst the soldiers that a ghost\nappears here...? Aww. No way... S-sorry!\n<br>\nIt's so! It pains me, so please listen to me! There was a\nplace that I wanted to go, but for some reason I seem\nto have forgotten everything...\n<br>\nAll I remember is green grass covering the vast land...\nA quiet place where rocky cliffs soar, and the sounds\nof a waterfall can be heard... That's about it.\n<br>\nIt's a vague memory, so I apologize... But for those in\nthe castle, it might ring a bell; so will you bring me\nalong to investigate the location?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1625,7 +1638,7 @@
     "zh-Hant": "<pipipi_mid>啊啊……！\n終於有人回我話了！？\n好、好開心喔……！\n<br>\n啊！對不起！我是這裡的士兵。\n……我有跟鞠躬的人說過好幾次話，\n但沒有任何人回應我！\n<br>\n……咦咦？士兵之間\n流傳著這裡有鬼的傳聞……？\n唔哇。怎麼會……對、對不起！\n<br>\n對了！機會難得，請聽我說吧！\n我一直想去一個地方，\n但不知為何忘掉了不少細節……\n<br>\n我只記得是在青草色大地的前方……\n那個地方岩壁高聳，\n只能聽到瀑布之類的聲音，非常安靜……\n<br>\n抱歉我的記憶相當模糊……\n不過這個城堡的人或許可以想到什麼，\n你能查到那個地方再帶我過去嗎？<yesno><break>"
   },
   "61780": {
-    "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.___, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_030]`, YES",
+    "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_030]`, YES",
     "de": "",
     "en": "<pipipi_mid>Really? Thank you very much! Your name... I see!\n<pc>, you say.\n<br>\nTh-Then... <pc>, I shall follow behind you\nin secret to accompany you in gathering information;\nI look forward to it!",
     "es": "",
@@ -1638,9 +1651,9 @@
     "zh-Hant": "<pipipi_mid>真的嗎？太感謝你了！\n你的名字是……原來如此！\n是叫<pc>對吧。\n<br>\n那、那麼……我會偷偷地跟在\n<pc>的後頭，\n打聽的事就拜託你了！"
   },
   "61781": {
-    "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.___, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_030]`, NO",
+    "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_030]`, NO",
     "de": "",
-    "en": "<pipipi_mid>Eh, no way...! You're the only one who has responded to my\nvoice. Somehow, can't you bring me along?\n<yesno><break>",
+    "en": "<pipipi_mid>Eh, no way...! You're the only one who has responded\nto my voice. Somehow, can't you bring me along?\n<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1653,7 +1666,7 @@
   "62376": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00201, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_020]`",
     "de": "",
-    "en": "<if_woman>This is the 2nd floor terrace. The west corridor leads\nto the soldiers' break room and kitchen, and to the\neast is Captain Spindle's room.\n<br>\nIf you wanna go to the throne room, take the southern\nstairwell up to the 3rd floor.\n<br>\nBy the way, miss, would you believe me if I told\nyou that the statues in the castle talk to you?\nIt's a weird rumour the young guys are spreading.\n<br>\nOops. That's not something I should be telling a\ntraveler about, is it. Pretend you didn't hear me\nsaying anything about it just now.<else>This is the 2nd floor terrace. The west corridor leads\nto the soldiers' break room and kitchen, and to the\neast is Captain Spindle's room.\n<br>\nIf you wanna go to the throne room, take the southern\nstairwell up to the 3rd floor.\n<br>\nBy the way, mister, would you believe me if I told\nyou that the statues in the castle talk to you?\nIt's a weird rumour the young guys are spreading.\n<br>\nOops. That's not something I should be telling a\ntraveler about, is it. Pretend you didn't hear me\nsaying anything about it just now.",
+    "en": "<if_woman>This is the 2nd floor terrace. The west corridor leads\nto the soldiers' break room and kitchen, and to the\neast is Captain Spindle's room.\n<br>\nIf you wanna go to the throne room, take the southern\nstairwell up to the 3rd floor.\n<br>\nBy the way, miss, would you believe me if I told you\nthat the statues in the castle talk to you? It's a weird\nrumour that the young guys are spreading.\n<br>\nOops. That's not something I should be telling a traveler\nabout, is it. Pretend you didn't hear me say anything\nabout it just now.<else>This is the 2nd floor terrace. The west corridor leads\nto the soldiers' break room and kitchen, and to the\neast is Captain Spindle's room.\n<br>\nIf you wanna go to the throne room, take the southern\nstairwell up to the 3rd floor.\n<br>\nBy the way, mister, would you believe me if I told you\nthat the statues in the castle talk to you? It's a weird\nrumour that the young guys are spreading.\n<br>\nOops. That's not something I should be telling a traveler\nabout, is it. Pretend you didn't hear me say anything\nabout it just now.<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1666,7 +1679,7 @@
   "61784": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00205, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_XX0]`",
     "de": "",
-    "en": "Inside is the great hall called the \"Hall of Flame\".\nIf you follow the red carpet at your feet, it'll lead\nyou to the throne room.\n<br>\nWhich reminds me, I figured why not try hearing the\nvoice again, so I tried bowing in front of the statue.\nBut I didn't hear anything.\n<br>\nWhen I think about it, there's no such things as talking\nstatues, y'know. I must've been worn out from training.",
+    "en": "Inside is the great hall called the \"Hall of Flame\". If you\nfollow the red carpet at your feet, it'll lead you to the\nthrone room.\n<br>\nWhich reminds me, I figured why not try hearing the\nvoice again, so I tried bowing in front of the statue. But\nI didn't hear anything.\n<br>\nWhen I think about it, there's no such things as talking\nstatues, y'know. I must've been worn out from training.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1679,7 +1692,7 @@
   "61788": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00198, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_020]`",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>Let's see, \"green grass covering the vast land. Where\nrocky cliffs soar, and the sounds of a waterfall can\nbe heard\", don't I know a place like that?\n<br>\nMy bad. I'm on assignment here, so I don't know much\nfar outside of here. For an old-timer like Gizman, it\nmight ring a bell though.",
+    "en": "<attr><feel_think_lv2><end_attr>Let's see, \"green grass covering the vast land. Where\nrocky cliffs soar, and the sounds of a waterfall can be\nheard\", don't I know a place like that?\n<br>\nMy bad. I'm on assignment here, so I don't know much\nfar outside of here. For an old-timer like Gizman, it\nmight ring a bell though.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1692,7 +1705,7 @@
   "61785": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_020]`",
     "de": "",
-    "en": "Ooh! How's your investigation on the rumors going? If\nyou learn anything, please report it to ol' Gizman.\n<br>\n...What's that? You want to go where \"green grass covers\nthe vast land, rocky cliffs soar, and the sounds of a\nwaterfall can be heard\", you say?\n<br>\nThat's related to the current investigation, isn't it?\n<br>\nSpeaking of waterfalls... Hmm. South of Gartlant Territory,\nthe Gilzadd Region. There, at the eastern tip is a\nwaterfall called, \"Oath Waterfall\", but...",
+    "en": "Ooh! How's your investigation on the rumors going? If\nyou learn anything, please report it to ol' Gizman.\n<br>\n...What's that? You wanna go where \"green grass covers\nthe vast land, rocky cliffs soar, and the sounds of a\nwaterfall can be heard\", you say?\n<br>\nThat's related to the current investigation, isn't it?\n<br>\nSpeaking of waterfalls... Hmm. South of Gartlant Cape,\nin the Gilzadd Region. There, at the eastern tip is a\nwaterfall called, \"Oath Waterfall\", but...",
     "es": "",
     "fr": "",
     "it": "",
@@ -1718,7 +1731,7 @@
   "61786": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_020]`",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>...Hmm? You dozing off, what's the matter? Don't ask why,\nbut the area near Oath Waterfall has strong monsters;\nit's a dangerous place. If you go, be careful, got it.",
+    "en": "<attr><feel_think_lv2><end_attr>...Hmm? You dozing off, what's wrong?\n<br>\nI won't ask why, but the area near Oath Waterfall has\nstrong monsters; it's a dangerous place. If you go, be\ncareful, got it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1731,7 +1744,7 @@
   "61789": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_030]`",
     "de": "",
-    "en": "To investigate the rumour, you're going to the Gilzadd\nRegion's eastern tip, to Oath Waterfall, was it.\n<br>\nDon't ask why,\nbut the area near Oath Waterfall has strong monsters;\nit's a dangerous place. If you go, be careful, got it.<open_irai>",
+    "en": "To investigate the rumour, you're going to the Gilzadd\nRegion's eastern tip, to Oath Waterfall, was it.\n<br>\nI won't ask why, but the area near Oath Waterfall has\nstrong monsters; it's a dangerous place. If you go, be\ncareful, got it.<open_irai>",
     "es": "",
     "fr": "",
     "it": "",
@@ -1783,7 +1796,7 @@
   "61793": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_070]`",
     "de": "",
-    "en": "Hmm. That expression, could it be that you've done\nsomething. What in the world happened at Oath\nWaterfall... Please tell the details.",
+    "en": "Hmm. That expression, could it be that you've done\nsomething. What in the world happened at Oath\nWaterfall... Please tell me the details.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1809,7 +1822,7 @@
   "61794": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_070]`, cont'd",
     "de": "",
-    "en": "What the!? That ghost's voice called me his best\nfriend, you said!? I see... So that's what this was about,\neh.\n<br>\nHearing that story, I finally understood... It's a bit\nlong, but I want to tell you a story from my youth.\n<br>\nOnce, here amongst Gartlant's soldiers, was a group\ncomprised of those who excelled in valor, and devoted\nthemselves to training, to reach higher levels.\n<br>\nMy friend was one of them. They gathered at Oath\nWaterfall, presented arms, and swore an oath to become\nstronger through rigorous training.\n<br>\nBut he was so pure in his quest to become strong, and\nthat pureness is what caused the training accident\nwhich took his life...\n<br>\nYou went to Oath Waterfall with my late friend, to\nfulfill his wish, didn't you. This is my way of saying\nthanks. Please accept it.",
+    "en": "What the!? That ghost voice called me his best friend,\nyou said!? I see... So that's what this was about, eh.\n<br>\nHearing that story, I finally understood... It's a bit long,\nbut I want to tell you a story from my youth.\n<br>\nOnce, here amongst Gartlant's soldiers, was a group\ncomprised of those who excelled in valor, and devoted\nthemselves to training, in order to reach higher levels.\n<br>\nMy friend was one of them. They gathered at Oath\nWaterfall, presented arms, and swore an oath to become\nstronger through rigorous training.\n<br>\nBut he was so pure in his quest to become strong, and\nthat pureness is what caused the training acciden which\ntook his life...\n<br>\nYou went to Oath Waterfall with my late friend, to\nfulfill his wish, didn't you. This is my way of saying\nthanks. Please accept it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1831,19 +1844,6 @@
     "pt-BR": "",
     "zh-Hans": "<attr><feel_sad_lv2><end_attr>我和那家伙在成为士兵之前，\n从小就已经是朋友了。\n过去他可是个乐天派的粗心鬼。\n<br>\n都没发现自己已经死了，\n还附在城堡里的雕像上吓唬士兵们，\n嗯……这简直太符合那家伙的风格了。",
     "zh-Hant": "<attr><feel_sad_lv2><end_attr>成為這裡的士兵之前，\n我們從小時候開始就是朋友了。\n他從以前就個性輕率神經又大條。\n<br>\n都沒發現自己已經過世了，\n還附身在城內雕像上嚇唬士兵們，\n呵……真的很像他會做的事。"
-  },
-  "61797": {
-    "$comments": "🟡, see `Game.locres.json:STT_NpcInfo.NAME_NPC_00204`",
-    "de": "",
-    "en": "Beyond this point is the resting place for our grand\nancestors. Only those who have received King Grossner's\npermission may enter.<bw_break>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "「この先は　偉大なる先人たちが　眠る場所。\n　グロスナー王の許可を受けた者しか\n　入ることはできぬ。<bw_break>",
-    "ko": ": 이 앞은 위대한 선인들이 잠드신 곳.\n　그로스너 전하의 허가를 받은 자만이\n　들어갈 수 있다.<bw_break>",
-    "pt-BR": "",
-    "zh-Hans": "前方是伟大的先人们长眠的场所。\n只有得到古罗斯纳王许可的人\n才可以进去。<bw_break>",
-    "zh-Hant": "前方是偉大先人們沉睡的場所。\n只有得到古羅斯納王許可的人士，\n才能進去。<bw_break>"
   },
   "61979": {
     "$comments": "🟡, Quest (032) {Sub Story}, see `[STT_NpcInfo.NAME_NPC_00204, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_037_1_200]`",
@@ -1885,15 +1885,15 @@
     "zh-Hant": "嗯，回答得不錯！\n那可是馬格納斯大人的愛犬。\n你可千萬要將牠視為淑女小心對待啊！"
   },
   "40548": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<attr><feel_think_one><end_attr>Hm?",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "$comments": "🟢, ",
+    "de": "<attr><feel_think_one><end_attr>Äh...?",
+    "en": "<attr><feel_think_one><end_attr>Uhh...?",
+    "es": "<attr><feel_think_one><end_attr>¿Eh...?",
+    "fr": "<attr><feel_think_one><end_attr>Euh...?",
+    "it": "<attr><feel_think_one><end_attr>Uh...?",
     "ja": "<attr><feel_think_one><end_attr>「うん……？",
     "ko": "<attr><feel_think_one><end_attr>: 음……?",
-    "pt-BR": "",
+    "pt-BR": "<attr><feel_think_one><end_attr>Hã...?",
     "zh-Hans": "<attr><feel_think_one><end_attr>嗯？",
     "zh-Hant": "<attr><feel_think_one><end_attr>嗯……？"
   },
@@ -3107,9 +3107,9 @@
     "zh-Hant": "這裡是加特蘭德城。\n古羅斯納王所在的王座之間在３樓。\n<br>\n這個城堡的樓梯很多，構造很複雜，\n所以請小心不要迷路喔。"
   },
   "34662": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, see `Game.locres.json:STT_NpcInfo.NAME_NPC_00200`",
     "de": "",
-    "en": "This is the soldiers' break room. Currently, due to high\nalert, unauthorized personnel are forbidden from entering.",
+    "en": "This is the soldiers' break room. Currently, due to high\nalert, unauthorized personnel are forbidden from entry.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3523,9 +3523,9 @@
     "zh-Hant": "這裡是加特蘭德城。\n古羅斯納王所在的王座之間在３樓。\n<br>\n聽說士兵長打倒了失蹤事件的犯人，\n也就是那個蒙著白面紗的女子！\n不愧是斯賓德士兵長，做事乾淨俐落！"
   },
   "34695": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, see `Game.locres.json:STT_NpcInfo.NAME_NPC_00200`",
     "de": "",
-    "en": "This is the soldiers' break room. Currently, while\nthe convoy team is away, unauthorized personnel are\nforbidden from entering.",
+    "en": "This is the soldiers' break room. Currently, while\nthe convoy team is away, unauthorized personnel are\nforbidden from entry.",
     "es": "",
     "fr": "",
     "it": "",
@@ -3564,7 +3564,7 @@
   "34698": {
     "$comments": "🟡, see `Game.locres.json:STT_NpcInfo.NAME_NPC_00200`",
     "de": "",
-    "en": "This is the soldiers' break room. Currently, while\nthe convoy team is recovering, unauthorized personnel\nare forbidden from entering.",
+    "en": "This is the soldiers' break room. Currently, while\nthe convoy team is recovering, unauthorized personnel\nare forbidden from entr.",
     "es": "",
     "fr": "",
     "it": "",
