@@ -2619,3 +2619,20 @@ jq -s "
 </details>
 
  -->
+
+---
+
+### External Links
+
+> [Spells etymology | storyinvention.com/dq-jumon-name](https://storyinvention.com/dq-jumon-name/)
+>
+> [Spells etymology | blog.livedoor.jp/doghand/archives/13429637](http://blog.livedoor.jp/doghand/archives/13429637.html)
+>
+> [Spells list | dragon-quest.org/wiki/Spell_List](https://dragon-quest.org/wiki/Spell_List)
+<!--
+> [^1]: [GitHub Docs - Hosting your own runners](https://docs.github.com/en/actions/hosting-your-own-runners)
+> [^2]: This tutorial roughly follows the [Linux Native compilation guide](https://github.com/EpicGames/UnrealEngine/blob/4.27.2-release/Engine/Build/BatchFiles/Linux/README.md) from `github.com/EpicGames/UnrealEngine`
+> [^3]: Correct [Commit.gitdeps.xml](https://github.com/EpicGames/UnrealEngine/releases/download/4.27.2-release/Commit.gitdeps.xml) to prevent `(403) Forbidden` errors during `updating dependencies` step
+> [^4]: [Unreal Engine - Documentation - Localization Overview](https://dev.epicgames.com/documentation/en-us/unreal-engine/localization-overview-for-unreal-engine#raw-code-1)
+> [^5]: [Unreal Engine - Documentation - Localization Overview](https://github.com/EpicGames/UnrealEngine/blob/release/Engine/Source/Runtime/Core/Public/Internationalization/InternationalizationMetadata.h)
+-->

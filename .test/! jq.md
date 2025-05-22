@@ -1874,15 +1874,15 @@ jq -n `
 )`
 | sort
 "`
-"D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\.test\ignore\OLD.json"`
-"D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\.test\ignore\NEW.json"`
-> "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\.test\ignore\OUTPUT.json"
+".\OLD.json"`
+".\NEW.json"`
+> ".\OUTPUT.json"
 ----------------------------------------------------------------------------------------------------
 -->
 
 <!--
 ----------------------------------------------------------------------------------------------------
-- 20250516_1440 | PowerShell 7.5.1 - Game.locres.json:STT_WeaponItem & Dragon Quest V .\data\MENUSLIST\{LANGUAGE}\b1000000.mpt
+- 20250516_1440 | PowerShell 7.5.1 - https://play.jqlang.org/s/c8l3GYKMPMQDhdl - Game.locres.json:STT_WeaponItem & Dragon Quest V .\data\MENUSLIST\{LANGUAGE}\b1000000.mpt
 ----------------------------------------------------------------------------------------------------
 `
 jq -n`
@@ -2166,7 +2166,7 @@ end
 
 ```
 ####################################################################################################
-# JQ
+# JQ - https://play.jqlang.org/s/PgyFwMoJnawnHo6
 ####################################################################################################
 
 jq -s
@@ -2471,17 +2471,17 @@ jq -s
                  )`
                      then`
                      (`
-                         ##########################################################################################################################################################################################################################################################`
-                          if( .[0].value.de        != null and .[1].value.de        ==  `"`" )then(     .[1].value.de        = .[0].value.de        |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
-                         |if( .[0].value.en        != null and .[1].value.en        ==  `"`" )then(     .[1].value.en        = .[0].value.en        |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
-                         |if( .[0].value.es        != null and .[1].value.es        ==  `"`" )then(     .[1].value.es        = .[0].value.es        |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
-                         |if( .[0].value.fr        != null and .[1].value.fr        ==  `"`" )then(     .[1].value.fr        = .[0].value.fr        |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
-                         |if( .[0].value.it        != null and .[1].value.it        ==  `"`" )then(     .[1].value.it        = .[0].value.it        |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
-                         |if( .[0].value.[`"pt-BR`"] != null and .[1].value.[`"pt-BR`"] ==  `"`" )then(     .[1].value.[`"pt-BR`"] = .[0].value.[`"pt-BR`"] |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end `
-                         ##########################################################################################################################################################################################################################################################`
-                         # remove invalid objects`
-                         ##################################################`
-                         | map( select( .value | has(`"ko`") ) )` # invalid objects become empty
+                        ##########################################################################################################################################################################################################################################################`
+                         if( .[0].value.de          != null and .[1].value.de          ==  `"`" )then(     .[1].value.de          = .[0].value.de          |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end`
+                        |if( .[0].value.en          != null and .[1].value.en          ==  `"`" )then(     .[1].value.en          = .[0].value.en          |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end`
+                        |if( .[0].value.es          != null and .[1].value.es          ==  `"`" )then(     .[1].value.es          = .[0].value.es          |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end`
+                        |if( .[0].value.fr          != null and .[1].value.fr          ==  `"`" )then(     .[1].value.fr          = .[0].value.fr          |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end`
+                        |if( .[0].value.it          != null and .[1].value.it          ==  `"`" )then(     .[1].value.it          = .[0].value.it          |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end`
+                        |if( .[0].value.[`"pt-BR`"] != null and .[1].value.[`"pt-BR`"] ==  `"`" )then(     .[1].value.[`"pt-BR`"] = .[0].value.[`"pt-BR`"] |.[1].value.[`"`$comments`"] = ( .[1].value.[`"`$comments`"] | sub(`"[🔴🟡]`"; `"🟠`")     ) )else(.)end`
+                        ##########################################################################################################################################################################################################################################################`
+                        # remove invalid objects`
+                        ##################################################`
+                        | map( select( .value | has(`"ko`") ) )` # invalid objects become empty
                      )`
                  else`
                  (`
@@ -2504,9 +2504,9 @@ jq -s
  #| from_entries`
  | {`"STT_BattleMonsterName`": .}`
  "`
- "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\.test\ignore\OLD.json"`
- "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\.test\ignore\NEW.json"`
- > "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\.test\ignore\OUTPUTereeee.json"
+ ".\OLD.json"`
+ ".\NEW.json"`
+ > ".\OUTPUTereeee.json"
 ```
 
 ####################################################################################################
@@ -2530,6 +2530,119 @@ jq -s
         },
         // ...
     }
+}
+```
+----------------------------------------------------------------------------------------------------
+-->
+<!--
+----------------------------------------------------------------------------------------------------
+- 20250520_0330 | PowerShell 7.5.1 -  Dragon Quest V .\data\MESS5\{LANGUAGE}\b0835000.mpt ( item descriptions ) https://play.jqlang.org/s/Ay64Ula-khfTc_R
+####################################################################################################
+# Input
+####################################################################################################
+
+```json
+{
+"00001": {
+	"key": " ",
+	"value": "なかまひとりの　ＨＰを３０～かいふく<pipipi_off>"
+},
+"00002": {
+	"key": " ",
+	"value": "なかまひとりの　ＨＰを７５～かいふく<pipipi_off>"
+},
+"00003": {
+	"key": " ",
+	"value": "なかまひとりの　ＨＰをすべてかいふく<pipipi_off>"
+},
+// ...
+}
+```
+####################################################################################################
+# JQ
+####################################################################################################
+ ["de", "en", "es", "fr", "it", "ja", "ko", "zh-Hans", "zh-Hant"][5] as $LANGUAGE
+| . as $obj
+| reduce ($obj|keys[]) as $k
+(
+    {};
+    ####################################################################################################
+    # .[$k] += {"ja": ($obj[$k].value)}
+
+    # .[$k] += {"ja": {"@1": ($obj[$k].value)}}
+    ####################################################################################################
+    # 03. K:V > $LANGUAGE
+    .[$k] += {$LANGUAGE: ($obj[$k].value)}
+    ####################################################################################################
+    ## 04. $LANGUAGE: {K:V}
+    #if
+    #    ( $obj[$k].key == " " )
+    #    then
+    #        ( .[$k] += {$LANGUAGE: {"key": "","value": $obj[$k].value}} )
+    #elif
+    #    ( $obj[$k].key == "@aName@b" )
+    #    then
+    #        ( .[$k] += {$LANGUAGE: {"key": $obj[$k].value, "value": $obj[$k].value}} )
+    #else
+    #    ( .[$k] += {$LANGUAGE: {"key": $obj[$k].key, "value": $obj[$k].value}} )
+    #end
+    ####################################################################################################
+    #.[$k] += {
+    #    $LANGUAGE: {
+    #        "key": $obj[$k].value,
+    #        "value": $obj[$k].value
+    #    }
+    #}
+    # .[$k] += {$LANGUAGE: [{"key":$LANGUAGE,"value": ($obj[$k].value)}] | from_entries}
+    ####################################################################################################
+    # .[$k] += {"ja": {"key": ($obj[$k].value),"value": ($obj[$k].value)}}
+    ####################################################################################################
+)
+####################################################################################################
+# 03. K:V > $LANGUAGE
+| to_entries
+| map(
+    .value.[$LANGUAGE] = (
+        .value.[$LANGUAGE]
+        | gsub("@1?";"")
+    )
+)
+| from_entries
+####################################################################################################
+## 04. $LANGUAGE: {K:V}
+#| to_entries
+#| map(
+#    .value.[$LANGUAGE].key = (                   # .value from .key
+#        .value.[$LANGUAGE].key
+#        | gsub("@a(?<a>.*?)@b.*";"\(.a)")
+#    )
+#    | .value.[$LANGUAGE].value = (               # remove .key from .value
+#        .value.[$LANGUAGE].value
+#        | gsub("@a.*?@b(?<a>.*)";"\(.a)")
+#    )
+#    | .value.[$LANGUAGE] = (                     # simplify output
+#        [.value.[$LANGUAGE] ]
+#        | from_entries
+#    )
+#)
+#| from_entries
+```
+
+####################################################################################################
+# Output
+####################################################################################################
+```json
+{
+  "00001": {
+    "ja": "なかまひとりの　ＨＰを３０～かいふく<pipipi_off>"
+  },
+  "00002": {
+    "ja": "なかまひとりの　ＨＰを７５～かいふく<pipipi_off>"
+  },
+  "00003": {
+    "ja": "なかまひとりの　ＨＰをすべてかいふく<pipipi_off>"
+  },
+  // ...
 }
 ```
 ----------------------------------------------------------------------------------------------------

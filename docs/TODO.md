@@ -5,7 +5,7 @@
   - https://unreal-garden.com/tutorials/localization-advanced-plurals/
   - https://cldr.unicode.org/index/cldr-spec/plural-rules
     - https://www.unicode.org/cldr/charts/47/supplemental/language_plural_rules.html
-  - [ ] test {NumCats}|plural(one=cat,other=cats) / `{MonsterNum}|{MonsterNum}(one={MonsterName},other={MonsterName}s)` usability
+  - [x] test {NumCats}|plural(one=cat,other=cats) / `{MonsterNum}|{MonsterNum}(one={MonsterName},other={MonsterName}s)` usability
 - 20250515_0015:
   - REGEX
     - CLDR plurals (Dragon Quest 5 `.\data\MENULIST\b1000000.mpt`)
@@ -15,6 +15,3 @@
       - find `(?<="value": ")([A-Œ])([A-Œ]+)(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?`
         - `œ` breaks the regex?
       - replace `\U$1\L$2$4\U$6\L$7$9\U$11\L$12$14\U$16\L$17$19\U$21\L$22`
-- 20250516_1200:
-  - STT_Battle_UI.BattleUI_SpecialSkill
-    - <right>UI test
