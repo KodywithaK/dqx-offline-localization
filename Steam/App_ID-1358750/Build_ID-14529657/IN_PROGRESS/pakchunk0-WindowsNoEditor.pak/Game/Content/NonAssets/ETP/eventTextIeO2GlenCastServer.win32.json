@@ -2,7 +2,7 @@
   "38911": {
     "$comments": "🟡, Quest (050) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00003, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_011_1_000]`, YESNO",
     "de": "",
-    "en": "Ooh, hello there, <pc>! I'm pleased that you\nhave returned here. In fact, there is something I would\nlike to discuss with you.\n<br>\nRecently, in a settlement on the outskirts of Glen, there\nhave been rumors of a never-before-seen terrifying\nmonster, appearing at night.\n<br>\nAlthough we would like to find out the truth, our\nkingdom has a labor shortage. I was thinking of hiring\nsomeone for the requested investigation.\n<br>\nThe monster is said to have appeared in Lionsgate\nSettlement. I wish for you to go there and listen to\nthe eye-witness accounts regarding the monster.\n<br>\nOf course, you will be rewarded. Please, you will\noblige me, won't you?",
+    "en": "Ooh, hello there, <pc>! I'm pleased that you\nhave returned here. In fact, there is something I would\nlike to discuss with you.\n<br>\nRecently, in a settlement on the outskirts of Glen, there\nhave been rumors of a never-before-seen terrifying\nmonster appearing at night.\n<br>\nAlthough we would like to find out the truth, our\nkingdom has a labor shortage. I was thinking of hiring\nsomeone for the requested investigation.\n<br>\nThe monster is said to have appeared in Lionsgate\nSettlement. I wish for you to go there and listen to the\neyewitness accounts regarding the monster.\n<br>\nOf course, you will be rewarded. Please, you will oblige\nme, won't you?",
     "es": "",
     "fr": "",
     "it": "",
@@ -15,7 +15,7 @@
   "38912": {
     "$comments": "🟡, Quest (050) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00003, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_011_1_000]`, YES",
     "de": "",
-    "en": "<if_woman><attr><feel_happy_lv1><end_attr>Ooh, you'll take care of it for me! Just as expected\nof you, <pc>. When the times comes, one can\nrely o na nice gal!<else><attr><feel_happy_lv1><end_attr>Ooh, you'll take care of it for me! Just as expected\nof you, <pc>. When the times comes, one can\nrely o na nice guy!<endif>",
+    "en": "<if_woman><attr><feel_happy_lv1><end_attr>Ooh, you'll take care of it for me! Just as expected of\nyou, <pc>. When the times comes, one can rely\non a nice gal!<else><attr><feel_happy_lv1><end_attr>Ooh, you'll take care of it for me! Just as expected of\nyou, <pc>. When the times comes, one can rely\non a nice guy!<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -41,7 +41,7 @@
   "38914": {
     "$comments": "🟡, Quest (050) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00003, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_011_1_000]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>...Mmmm, a pity. If were you, <pc>, I could rest\nassured in entrusting you with this task, and yet...\n<br>\nAgain, if you change your mind at anytime, please\nspeak with me.",
+    "en": "<attr><feel_sad_lv1><end_attr>...Mmmm, a pity. If it were you, <pc>, I could\nrest assured in entrusting you with this task, and yet...\n<br>\nAgain, if you change your mind at anytime, please\nspeak with me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -54,7 +54,7 @@
   "38915": {
     "$comments": "🟡, Quest (050) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00003, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_011_1_005]`",
     "de": "",
-    "en": "Ooh, <pc>! Are you sure you're ready to accept my request? I'd like you to go to Lionsgate Settlement and ask about a sighting of a monster that's been spotted there.",
+    "en": "Ooh, <pc>! Perhaps you intend to take on my\nrequest?\n<br>\nI wish for you to go to Lionsgate Settlement, and listen\nto the eyewitness accounts at the scene where the\nmysterious monster is said to have appeared.\n<br>\nPlease, will you take on my request?.",
     "es": "",
     "fr": "",
     "it": "",
@@ -67,7 +67,7 @@
   "38916": {
     "$comments": "🟡, Quest (050) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00003, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_011_1_010]`",
     "de": "",
-    "en": "I wish for you to go to Lionsgate Settlement, and\nlisten to the eye-witness accounts at the scene where\nthe mysterious monster is said to have appeared.<open_irai><bw_break>",
+    "en": "I wish for you to go to Lionsgate Settlement, and listen\nto the eyewitness accounts at the scene where the\nmysterious monster is said to have appeared.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -80,7 +80,7 @@
   "38917": {
     "$comments": "🟡, Quest (050) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00003, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_011_1_010]`, cont'd",
     "de": "",
-    "en": "<close_irai><pc>, it may be so simple a task that it be\nunsatisfying for you, but, sincerely, I am relying\nupon you!",
+    "en": "<close_irai><pc>, it may be so simple a task that it be\nunsatisfying for you, but, sincerely, I am relying upon\nyou!",
     "es": "",
     "fr": "",
     "it": "",
@@ -93,7 +93,7 @@
   "38918": {
     "$comments": "🟡, Quest (050) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00003, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_011_1_020]`",
     "de": "",
-    "en": "Ooh, <pc>! It appears the investigation has\nconcluded. Then let's hear the report.\n<br>\n...What, Realm's Chalice!? Moreover, the monster is\nheaded towards the castle... What in the world is going\non, do you wonder...?\n<br>\nAs a matter of fact, Realm's Chalice, since the incident,\nhas been in entrusted to the castle's treasury.\n<br>\nJudging from its appearance, up until a few decades\nago, it belonged to a wealthy merchant who lived in\nthe neighboring country of Gartlant.\n<br>\nThe merchant's bloodline has now ceased to be, but\nhow could such a treasure have ended up in the\npossession of a Becon Valley monster...?\n<br>\nRegardless, in the interest our friendship with Gartlant,\nsoon the chalice is to be a gift for the Gartlant royal\nfamily... It was decided.\n<br>\nWe don't know who this monster is, but now that we\nknow what it is after, let's keep a strict, vigilant watch\non the treasury!\n<br>\nWow, great work investigating! As promised, I have\nthe privilege of rewarding you. Now, please accept these!",
+    "en": "Ooh, <pc>! It appears the investigation has\nconcluded. Then let's hear the report.\n<br>\n...What, Realm's Chalice!? Moreover, the monster is\nheaded towards the castle... What in the world is going\non, do you wonder...?\n<br>\nAs a matter of fact, Realm's Chalice—since the incident—\nhas been in entrusted to the castle's treasury.\n<br>\nJudging from its appearance, up until a few decades\nago, it belonged to a wealthy merchant who lived in\nthe neighboring country of Gartlant.\n<br>\nThe merchant's bloodline has now ceased to be, but\nhow could such a treasured item have ended up in the\npossession of a Becon Valley monster...?\n<br>\nRegardless, in the interest our friendship with Gartlant,\nsoon the chalice is to be a gift for the Gartlant royal\nfamily... It was decided.\n<br>\nWe don't know who this monster is, but now that we\nknow what it is after, let's keep a strict, vigilant watch\non the treasury!\n<br>\nYay, great job investigating! As promised, I have the\nprivilege of rewarding you. Now, please accept these!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1250,7 +1250,7 @@
   "34475": {
     "$comments": "🟡, see `STT_NpcInfo.NAME_NPC_00051`",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>News of the decree of the war with Gartlant's cancel-\nlation seems to have spread faster than you can say\n\"ah\".\n<br>\nAnd the townspeople, surely, have been hoping for it to.",
+    "en": "<attr><feel_think_lv1><end_attr>News of the decree of the war with Gartlant's cancel-\nlation seems to have spread faster than you can say \"ah\".\nAnd the townspeople, surely, have been hoping for it to.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1300,9 +1300,9 @@
     "zh-Hant": "這樣啊。\n果然巴古德王那傢伙不太對勁呢。\n<br>\n連完全沒有惡意的好人都關進大牢……\n怎麼想都覺得反常！"
   },
   "34479": {
-    "$comments": "🔴, see `STT_NpcInfo.`",
+    "$comments": "🟡, see `STT_NpcInfo.NAME_NPC_00006`",
     "de": "",
-    "en": "The king has been restored to health. Thanks\nto you and Eidos. Thanks to you and Eidos. But\nlet's not forget to thank Sage Malynn for\n<br>\ngetting rid of the necklace. Thanks to all of\nyou, this country is saved.",
+    "en": "The King has been restored to health. Thanks to you\nand Master Eidos.\n<br>\nAlthough, we can't forget to thank Sage Malynn too,\nfor getting rid of the necklace, can we. Because of\nyou all, this country was saved.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1380,7 +1380,7 @@
   "34485": {
     "$comments": "🟡, see `STT_NpcInfo.NAME_NPC_00005`",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>It's all thanks to you, that the crisis of war was\naverted! A splendid feat for us all! I'm so glad to\nhave met you! I knew it as soon as I did!",
+    "en": "<attr><feel_happy_lv2><end_attr>It's all thanks to you, that the crisis of war was averted!\nA splendid feat for us all! I'm so glad to have met you!\nI knew it as soon as I did!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1393,7 +1393,7 @@
   "34486": {
     "$comments": "🟡, see `STT_NpcInfo.NAME_NPC_00004`",
     "de": "",
-    "en": "Even after the necklace was removed, the demon miasma\nstill afflicted the King like that... Sage Malynn didn't\nexpect it either, did she.\n<br>\nI'm glad that Eidos and you, <pc>, came to\nthe country for us. Truly, thank you so much!",
+    "en": "Even after the necklace was removed, demon miasma\nstill afflicted the King like that... Sage Malynn didn't\nexpect it either, did she.\n<br>\nI'm glad that Eidos and you, <pc>, came to the\ncountry for us. Truly, thank you so much!",
     "es": "",
     "fr": "",
     "it": "",

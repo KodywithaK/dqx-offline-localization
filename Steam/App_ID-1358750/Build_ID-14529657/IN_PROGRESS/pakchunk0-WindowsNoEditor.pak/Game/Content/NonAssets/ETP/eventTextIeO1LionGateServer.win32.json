@@ -15,7 +15,7 @@
   "38898": {
     "$comments": "🟡, Quest (050) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01563, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_011_1_010]`",
     "de": "",
-    "en": "You lookin' for eyewitness accounts of the mystery\nmonster? You're in just the place. The one who saw the\nrumored monster is none other than yours truly.\n<br>\n...I'll never forget it. It was a moonless, true dark\nnight. My dog was barking a lot, so I went outside the\ntent to check things out, and that's when I saw it...\n<br>\nOutside the settlement, that thing was there.\n<br>\nIt was dark, so I couldn't see clearly, but even in\nthe darkness—those flamin' red eyes, once ya seen\n'em, you'll never forget them.\n<br>\nAnd then the thing—in a voice that seemed to echo\nfrom the depths of the planet itself—said this:\n\"Realm's Chalice, wheeeerrrreeee iiiissss iiiitttt?\"\n<br>\n...Just like that, y'know. I was scared outta my mind.\nThen, once I came to, that thing had disappeared.\n<br>\nI thought it was a dream, but the next mornin' when I\ntried lookin', its huge footprints were still there.\n<br>\nBy now, they'd be gone, but the footprints seemed to\nbe headin' towards Glen Castle...",
+    "en": "You lookin' for eyewitness accounts of the mysterious\nmonster? You're in just the place. The one who saw the\nrumored monster is none other than yours truly.\n<br>\n...I'll never forget it. It was a moonless, true dark night.\nMy dog was barking a lot, so I went outside the tent to\ncheck things out, and that's when I saw it...\n<br>\nOutside the settlement, that thing was there.\n<br>\nIt was dark, so I couldn't see clearly, but even in the\ndarkness—those flamin' red eyes, once ya seen 'em, ya\nnever forget them.\n<br>\nAnd then the thing—in a voice that seemed to echo\nfrom the depths of the planet itself—said this:\n\"Realm's Chalice, wheeeerrrreeee iiiissss iiiitttt?\"\n<br>\n...Just like that, y'know. I was scared outta my mind.\nThen, once I came to, that thing had disappeared.\n<br>\nI thought it was a dream, but the next mornin' when I\ntried lookin', its huge footprints were still there.\n<br>\nBy now, they'd be gone, but the footprints seemed to\nbe headin' towards Glen Castle...",
     "es": "",
     "fr": "",
     "it": "",
@@ -28,7 +28,7 @@
   "38899": {
     "$comments": "🟡, Quest (050) {Sub Story}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_01563, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_011_1_020]`",
     "de": "",
-    "en": "I dunno who the monster is, but apparently it was\nwantin' to look for somethin' called \"Realm's Chalice\".\n<br>\nThe footprints seemed to be headin' towards Glen\nCastle, so maybe he was goin' towards the castle when\nyou were comin' out of it?",
+    "en": "I dunno who the monster is, but apparently it was\nwantin' to look for somethin' called \"Realm's Chalice\".\n<br>\nThe footprints seemed to be headin' towards Glen\nCastle, so maybe he was goin' towards the castle when\nyou were comin' outta it?",
     "es": "",
     "fr": "",
     "it": "",
@@ -54,7 +54,7 @@
   "42081": {
     "$comments": "🟢, see `STT_NpcInfo.NAME_NPC_01759`, YESNO",
     "de": "<if_woman><attr><feel_normal_lv1><end_attr>Reisende, kennen Sie den Fluss des Lichts?<yesno><break><else><attr><feel_normal_lv1><end_attr>Reisender, kennen Sie den Fluss des Lichts?<yesno><break><endif>",
-    "en": "<attr><feel_normal_lv1><end_attr>Traveler, have you heard of River of Light?<yesno><break>",
+    "en": "<attr><feel_normal_lv1><end_attr>Traveler, do you know of the River of Light?<yesno><break>",
     "es": "<if_woman><attr><feel_normal_lv1><end_attr>Viajera, ¿conoce el Río de la Luz?<yesno><break><else><attr><feel_normal_lv1><end_attr>Viajero, ¿conoce el Río de la Luz?<yesno><break><endif>",
     "fr": "<if_woman><attr><feel_normal_lv1><end_attr>Voyageuse, connaissez-vous la Rivière de Lumière ?<yesno><break><else><attr><feel_normal_lv1><end_attr>Voyageur, connaissez-vous la Rivière de Lumière ?<yesno><break><endif>",
     "it": "<if_woman><attr><feel_normal_lv1><end_attr>Viaggiatrice, conosci il Fiume di Luce?<yesno><break><else><attr><feel_normal_lv1><end_attr>Viaggiatore, conosci il Fiume di Luce?<yesno><break><endif>",
@@ -93,7 +93,7 @@
   "53153": {
     "$comments": "🟢, see `STT_NpcInfo.NAME_NPC_01759`, YESNO",
     "de": "<if_woman><attr><feel_normal_lv1><end_attr>Reisende, kennen Sie den Fluss des Lichts?<yesno><break><else><attr><feel_normal_lv1><end_attr>Reisender, kennen Sie den Fluss des Lichts?<yesno><break><endif>",
-    "en": "<attr><feel_normal_lv1><end_attr>Traveler, have you heard of River of Light?<yesno><break>",
+    "en": "<attr><feel_normal_lv1><end_attr>Traveler, do you know of the River of Light?<yesno><break>",
     "es": "<if_woman><attr><feel_normal_lv1><end_attr>Viajera, ¿conoce el Río de la Luz?<yesno><break><else><attr><feel_normal_lv1><end_attr>Viajero, ¿conoce el Río de la Luz?<yesno><break><endif>",
     "fr": "<if_woman><attr><feel_normal_lv1><end_attr>Voyageuse, connaissez-vous la Rivière de Lumière ?<yesno><break><else><attr><feel_normal_lv1><end_attr>Voyageur, connaissez-vous la Rivière de Lumière ?<yesno><break><endif>",
     "it": "<if_woman><attr><feel_normal_lv1><end_attr>Viaggiatrice, conosci il Fiume di Luce?<yesno><break><else><attr><feel_normal_lv1><end_attr>Viaggiatore, conosci il Fiume di Luce?<yesno><break><endif>",
