@@ -286,9 +286,9 @@
     "zh-Hant": ""
   },
   "58928": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_000]`, YESNO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Oh <pc>! What should I do? I'm in\ntrouble. I got an order for a huge item bag,\nspecially made by my dad, but I can't get Mad\n<br>\nLeather for it. I can ask <pc> who\nhas at least 2 key emblems. Can you help me\nget Mad Leather? You can get it by defeating\n<br>\n<%sEV_QUE_NAME0> on King Ladis Island! Since\nyou're here, please bring me two of them. I'll\nask my dad to make one for <pc> as\n<br>\nwell! The huge item bag can hold 150 different\nitems, which is very reassuring for travelers!",
+    "en": "<attr><feel_sad_lv1><end_attr>Aah, <pc>! What should I do... I got into\ntrouble.\n<br>\nIt's my dad's specialty, the huge item bag; I got an\norder to be fulfilled as soon as possible, but I don't\nhave the materials, <color_yellow>Mud Leather<color_white>.\n<br>\nIf you have 2 Key Emblems, <pc>, I'll ask\nyou. Can you help me get <color_yellow>Mud Leather<color_white>?\n<br>\nIf you defeat <color_red><%sEV_QUE_NAME0>s<color_white> on King Ladis Island, you can\nget some, but... That's right! Since you're going\nthrough the trouble, could you bring me 2, please.\n<br>\nIf you do, <pc>, I'll ask my dad to make one\nfor you too! The huge item bag can hold <color_yellow>150 different\nitems<color_white>; it's a very reassuring bag for travelers!",
     "es": "",
     "fr": "",
     "it": "",
@@ -299,9 +299,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>哎呀，<pc>！\n怎麼辦……我好煩惱啊。\n<br>\n我突然收到了一份訂單，\n說現在急需父親特製的巨型道具包，\n但是卻沒有泥沙皮革這項材料。\n<br>\n如果是擁有２個鑰徽的<pc>，\n一定能幫忙我的。\n可以請你幫我去找泥沙皮革嗎？\n<br>\n只要打倒拉迪斯王島的<%sEV_QUE_NAME0>，\n就可以獲得了……對了！\n機會難得，請你拿兩張泥沙皮革來吧。\n<br>\n這樣我就會拜託父親，\n也幫<pc>製作一個巨型道具包！\n<br>\n巨型道具包可以放進１５０種消耗品，\n對旅行者來說是非常有用的背包喔！"
   },
   "58929": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_000]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Thank you very much!It was an important order\nfrom a familiar customer, so it's very\nhelpful. Dad said <%sEV_QUE_NAME0> is a tough\n<br>\nmonster, so please have a safe trip.",
+    "en": "<attr><feel_happy_lv1><end_attr>Aah, thank you so much! It was a regular customer's\nimportant order, so you really saved me.\n<br>\n\"<color_red><%sEV_QUE_NAME0>s<color_white> are tough monsters\", my dad said, so please\nbe careful, when you go get them, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -312,9 +312,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>哎呀，真是謝謝你！\n因為這次是老顧客的重要訂單，\n你真的是幫了大忙。\n<br>\n父親曾說過，\n<%sEV_QUE_NAME0>是很難對付的怪物，\n所以路上一定要小心喔。"
   },
   "58930": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_000]`, QUESTS FULL",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>Thank you very much! But it seems\n<pc> is taking on a lot of favors. I\ncan't help <pc> with that. Oh, what\n<br>\nshould I do?",
+    "en": "<attr><feel_sad_one><end_attr>Thank you so much! But it seems\n<pc> is taking on a lot of favors. I\ncan't help <pc> with that. Oh, what\n<br>\nshould I do?",
     "es": "",
     "fr": "",
     "it": "",
@@ -325,9 +325,9 @@
     "zh-Hant": "<attr><feel_sad_one><end_attr>謝謝你！可是……<pc>你現在好像已經接下\n好多件別人拜託的事了。\n<br>\n這樣我可不能勞煩<pc>幫忙啊。\n唉，該怎麼辦才好呢……"
   },
   "58931": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_000]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>...I see. I'm sorry for being unreasonable. I\ndon't know what to do.",
+    "en": "<attr><feel_sad_one><end_attr>...Is that so. It's unreasonable to ask, sorry. Aah, what\nI should do...",
     "es": "",
     "fr": "",
     "it": "",
@@ -338,9 +338,9 @@
     "zh-Hant": "<attr><feel_sad_one><end_attr>這樣啊……\n真抱歉，提出了這麼強人所難的要求。\n唉，該怎麼辦才好呢……"
   },
   "58932": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_010]`",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>To make a huge item bag, you must defeat\n<%sEV_QUE_NAME0> on King Ladis Island and get\ntwo pieces of Mad Leather.<open_irai><bw_break>",
+    "en": "<attr><feel_normal_lv1><end_attr>To make the huge item bags, defeat <color_red><%sEV_QUE_NAME0>s<color_white> on King\nLadis Island and get me <color_yellow>2 Mud Leathers<color_white>, please.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -351,9 +351,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>為了製作巨型道具包，\n請到拉迪斯王島打倒<%sEV_QUE_NAME0>，\n獲得兩張泥沙皮革。<open_irai><bw_break>"
   },
   "58933": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_010]`, cont'd",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Dad says <%sEV_QUE_NAME0> is a tough monster,\nso please be careful out there.",
+    "en": "<attr><feel_normal_lv1><end_attr>\"<color_red><%sEV_QUE_NAME0>s<color_white> are tough monsters\", my dad said, so please\nbe careful, when you go get them, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -363,34 +363,73 @@
     "zh-Hans": "<attr><feel_normal_lv1><end_attr>父亲说过，\n<%sEV_QUE_NAME0>是很难对付的怪物，\n所以一定要小心哦！",
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>父親曾說過，\n<%sEV_QUE_NAME0>是很難對付的怪物，\n所以你路上一定要小心喔。"
   },
-  "58934": {
-    "$comments": "🟡, ",
+  "58937": {
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_020]`, YESNO",
     "de": "",
-    "en": "Would you like to give Tote two Mad Leathers?<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "en": "<attr><feel_happy_lv1><end_attr>Ah, <pc>, welcome back! By any chance, did you\nget the two <color_yellow>Mud Leathers<color_white>?",
     "es": "",
     "fr": "",
     "it": "",
+    "ja": "<attr><feel_happy_lv1><end_attr>「あっ　<pc>さん　おかえりなさい！\n　ひょっとして　マッドレザーが\n　ふたつ　手に入ったんですか？",
+    "ko": "<attr><feel_happy_lv1><end_attr>: 앗, <pc>씨 어서 오세요!\n　혹시 머드 레더 2개를\n　구해 오셨나요?",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv1><end_attr>啊，<pc>你回来啦！\n莫非你已经收集到\n两份泥沙皮革了？",
+    "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊！<pc>，歡迎回來！\n難道你已經收集到\n兩張泥沙皮革了？"
+  },
+  "58934": {
+    "$comments": "🟢, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_MADDOREZA_2]`, GIVE?",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> die <color_yellow>Schlammleder<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Mud Leathers<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> los <color_yellow>Cueros de Lodo<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> les <color_yellow>Cuirs de Boue<color_white> ?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "it": "Dare <%sEV_SYSMSG_NPC> i <color_yellow>Cuoi di Fango<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
     "ja": "トートに　マッドレザーを\nふたつ　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
     "ko": "토트에게 머드 레더 2개를\n건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close>",
-    "pt-BR": "",
+    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> os <color_yellow>Couros de Lama<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
     "zh-Hans": "要把两份泥沙皮革\n交给托托吗？<yesno><case 1><break><case 2><close><case_cancel><close>",
     "zh-Hant": "是否要將兩張泥沙皮革\n交給托托？<yesno><case 1><break><case 2><close><case_cancel><close>"
   },
   "58935": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<pc> gave Tote two Mad Leathers!",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "$comments": "🟢, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_MADDOREZA_2]`, GAVE!",
+    "de": "<pc> gab <%sEV_SYSMSG_NPC> die <color_yellow>Schlammleder<color_white>!",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Mud Leathers<color_white>!",
+    "es": "¡<pc> le dio a <%sEV_SYSMSG_NPC> los <color_yellow>Cueros de Lodo<color_white>!",
+    "fr": "<pc> a donné a <%sEV_SYSMSG_NPC> les <color_yellow>Cuirs de Boue<color_white> !",
+    "it": "<pc> ha dato a <%sEV_SYSMSG_NPC> i <color_yellow>Cuoi di Fango<color_white>!",
     "ja": "<pc>は　トートに\nマッドレザーを　ふたつ　渡した！",
     "ko": "{pc}|hpp(은,는) 토트에게\n머드 레더를 건넸다!",
-    "pt-BR": "",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> os <color_yellow>Couros de Lama<color_white>!",
     "zh-Hans": "<pc>把两份泥沙皮革\n交给了托托！",
     "zh-Hant": "<pc>把兩張泥沙皮革\n交給了托托！"
   },
+  "58938": {
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_020]`, NO",
+    "de": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Huh? I guessed wrong, eh. Sorry for jumping to the\nwrong conclusion.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_normal_lv1><end_attr>「あれっ？　ボクのカンちがいでしたか。\n　早トチリしちゃって　ごめんなさい。",
+    "ko": "<attr><feel_normal_lv1><end_attr>: 어라? 제가 착각했나 봐요.\n　넘겨짚어서 죄송해요.",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_normal_lv1><end_attr>咦？我误会了吗？\n对不起，是我太心急了。",
+    "zh-Hant": "<attr><feel_normal_lv1><end_attr>咦？是我誤會了嗎？\n抱歉，是我太心急了。"
+  },
+  "58939": {
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_020]`, YES",
+    "de": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Aah, thank you so much! When my dad gets back, I'll\nhave him make the huge item bags out of these right\naway.\n<br>\n<pc>, I'll ask him to make you the perfect\none too, okay? It'll take a while, so please again!",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv3><end_attr>「ああっ　ありがとうございます！\n　父さんが帰ってきたら　さっそく　これで\n　巨大などうぐかばんを　作ってもらいます。\n<br>\n「<pc>さんの分も\n　バッチリ　頼んでおきますからね？\n　しばらくしたら　来てください！",
+    "ko": "<attr><feel_happy_lv3><end_attr>: 아앗, 감사합니다!\n　아버지가 돌아오시면 이걸로\n　거대한 도구 가방을 만들어 달라고 할게요.\n<br>\n: <pc> 씨 것도\n　멋지게 완성될 거예요.\n　나중에 다시 와 주세요!",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv3><end_attr>啊，真是多谢了！\n等父亲回来以后我就让他\n着手制作巨型道具包！\n<br>\n我不会忘记拜托父亲\n为<pc>也制作一个。\n过一会儿请再来一趟这里哦！",
+    "zh-Hant": "<attr><feel_happy_lv3><end_attr>哎呀，謝謝你！\n等父親回來後，\n我會馬上請他用這個製作巨型道具包。\n<br>\n我也會記得請他做一份<pc>的喔。\n請你晚點再過來吧！"
+  },
   "58936": {
-    "$comments": "🟡, ",
+    "$comments": "🟢, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_020]`, unused?",
     "de": "",
     "en": "We need 3 minutes of real time to complete the\ngiant item bag, so let's come back in 3\nminutes.",
     "es": "",
@@ -402,49 +441,10 @@
     "zh-Hans": "",
     "zh-Hant": ""
   },
-  "58937": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Ah <pc> Welcome back! Did you get two\nMad Leathers by any chance?",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv1><end_attr>「あっ　<pc>さん　おかえりなさい！\n　ひょっとして　マッドレザーが\n　ふたつ　手に入ったんですか？",
-    "ko": "<attr><feel_happy_lv1><end_attr>: 앗, <pc>씨 어서 오세요!\n　혹시 머드 레더 2개를\n　구해 오셨나요?",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv1><end_attr>啊，<pc>你回来啦！\n莫非你已经收集到\n两份泥沙皮革了？",
-    "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊！<pc>，歡迎回來！\n難道你已經收集到\n兩張泥沙皮革了？"
-  },
-  "58938": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Huh? Was I wrong? I'm sorry for my quick\nChiri.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_normal_lv1><end_attr>「あれっ？　ボクのカンちがいでしたか。\n　早トチリしちゃって　ごめんなさい。",
-    "ko": "<attr><feel_normal_lv1><end_attr>: 어라? 제가 착각했나 봐요.\n　넘겨짚어서 죄송해요.",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_normal_lv1><end_attr>咦？我误会了吗？\n对不起，是我太心急了。",
-    "zh-Hant": "<attr><feel_normal_lv1><end_attr>咦？是我誤會了嗎？\n抱歉，是我太心急了。"
-  },
-  "58939": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Oh, thank you very much! When daddy comes\nhome, I'll have him make a huge item bag out\nof this. I'll ask him to make one perfectly\n<br>\nfor <pc> too, okay? Please come over\nin a while!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv3><end_attr>「ああっ　ありがとうございます！\n　父さんが帰ってきたら　さっそく　これで\n　巨大などうぐかばんを　作ってもらいます。\n<br>\n「<pc>さんの分も\n　バッチリ　頼んでおきますからね？\n　しばらくしたら　来てください！",
-    "ko": "<attr><feel_happy_lv3><end_attr>: 아앗, 감사합니다!\n　아버지가 돌아오시면 이걸로\n　거대한 도구 가방을 만들어 달라고 할게요.\n<br>\n: <pc> 씨 것도\n　멋지게 완성될 거예요.\n　나중에 다시 와 주세요!",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv3><end_attr>啊，真是多谢了！\n等父亲回来以后我就让他\n着手制作巨型道具包！\n<br>\n我不会忘记拜托父亲\n为<pc>也制作一个。\n过一会儿请再来一趟这里哦！",
-    "zh-Hant": "<attr><feel_happy_lv3><end_attr>哎呀，謝謝你！\n等父親回來後，\n我會馬上請他用這個製作巨型道具包。\n<br>\n我也會記得請他做一份<pc>的喔。\n請你晚點再過來吧！"
-  },
   "58940": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_020]`, YES cont'd",
     "de": "",
-    "en": "<pc> went out and strolled around the\ntown for a while. The sea breeze smelled a\nlittle fishy today, he thought as he passed\n<br>\nthe time. It's time to go back to Tote's\nplace.",
+    "en": "<pc> went outside and strolled around town\nfor a while.\n<br>\n\"Today, the sea breeze smells a little fishy...\" They\nthought as they killed some time. It's about time now,\nlet's try returning to Tote's place.",
     "es": "",
     "fr": "",
     "it": "",
@@ -454,10 +454,62 @@
     "zh-Hans": "<pc>走到外面，\n在镇内漫无目的地散了一会步。\n<br>\n今天的海风有点腥臭啊……\n一边想着这些，一边打发时间。\n差不多该回托托那里了。",
     "zh-Hant": "<pc>走到外面，\n在鎮內漫無目的地散步了一會。\n<br>\n今天的海風有點腥臭味啊……\n一邊想著這些事情，一邊打發時間。\n差不多該回托托那裡了。"
   },
-  "58941": {
-    "$comments": "🟡, ",
+  "58943": {
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_030]`",
     "de": "",
-    "en": "<pc> received Baggage to Charon (Key\nItem) from Tote!<me 60>",
+    "en": "<attr><feel_happy_lv1><end_attr>Ah, <pc>, welcome back! My dad made the huge\nitem bag to be delivered to the regular customer!\n<br>\nBut, <pc>, yours looks like it'll take a\nlittle more time.<bw_break>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv1><end_attr>「あっ　<pc>さん　おかえりなさい！\n　父さんが　なじみのお客さんにお渡しする\n　大きなどうぐかばんを　作ってくれました！\n<br>\n「でも　<pc>さんの分は\n　もうすこし　時間が　かかるみたいです。<bw_break>",
+    "ko": "<attr><feel_happy_lv1><end_attr>: 앗, <pc>씨 어서 오세요!\n　아버지가 단골손님한테 드릴\n　거대한 도구 가방을 만들어 주셨어요!\n<br>\n: 하지만 <pc> 씨 가방은\n　조금 더 시간이 걸릴 거래요.<bw_break>",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv1><end_attr>啊，<pc>，欢迎回来！\n父亲已经把要交给\n那位老顾客的大道具包做好了！\n<br>\n但是<pc>的道具包暂时还没完成，\n还需要一些时间。<bw_break>",
+    "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊，<pc>，歡迎回來！\n父親已經做好要給老客戶的大道具包！\n<br>\n不過，<pc>的份\n好像還要一點時間才會做好。<bw_break>"
+  },
+  "58944": {
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_030]`, YESNO",
+    "de": "",
+    "en": "<attr><feel_normal_lv1><end_attr>Sorry but, <pc>, while you're waiting for\nyour bag to be finished, could you deliver the ordered\nbag to the customer for me?<yesno><case 1><break><case 2><break><case_cancel><break>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_normal_lv1><end_attr>「すいませんが　<pc>さんのかばんが\n　できあがるまで　注文のかばんを\n　お客さんの所へ　届けてもらえませんか？<yesno><case 1><break><case 2><break><case_cancel><break>",
+    "ko": "<attr><feel_normal_lv1><end_attr>: 죄송하지만 <pc> 씨의 가방이\n　완성될 때까지 주문받은 가방을\n　손님한테 전해주고 오실 수 있을까요?<yesno><case 1><break><case 2><break><case_cancel><break>",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_normal_lv1><end_attr>不好意思，\n在<pc>的道具包制作完成之前，\n能帮我给那位老顾客送一趟货吗？<yesno><case 1><break><case 2><break><case_cancel><break>",
+    "zh-Hant": "<attr><feel_normal_lv1><end_attr>不好意思，在<pc>的背包做好前，\n可以請你幫我把老客戶的背包\n送過去給他嗎？<yesno><case 1><break><case 2><break><case_cancel><break>"
+  },
+  "58945": {
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_030]`, NO",
+    "de": "",
+    "en": "<attr><feel_sad_lv2><end_attr>Uhh. Could you do something about that, please! I've\nbeen asked to deliver it ASAP, so—no matter what—\nit has to be handled...<bw_break>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_sad_lv2><end_attr>「ううっ。そこをなんとか　お願いします！\n　大至急　届けてほしいと言われているのに\n　どうしても　手が回らなくて……。<bw_break>",
+    "ko": "<attr><feel_sad_lv2><end_attr>: 아앗, 이렇게 부탁드릴게요!\n　최대한 빨리 갖다 달라고 하셨는데\n　지금은 도저히 여길 비울 수가 없어서…….<bw_break>",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_sad_lv2><end_attr>唔……请你帮帮忙吧！\n那位老顾客希望我们能马上送过去，\n而不巧我们这边又忙得不可开交……<bw_break>",
+    "zh-Hant": "<attr><feel_sad_lv2><end_attr>嗚嗚，請務必幫我這個忙！\n那位老客戶希望我們馬上送過去，\n但我們現在實在抽不出空來……<bw_break>"
+  },
+  "58946": {
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_030]`, YES",
+    "de": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Thank you so much! I'll get it ready right\naway, okay. Aaand with that, it's... done.\n<br>\nNow then, please deliver this package to Mr. Charon\nat the Item Shop in Verinard South's Beach Trading\nPost. Please take care of it!",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv1><end_attr>「ありがとうございます！　すぐに準備しますね。\n　ええと　これでよし……と。\n<br>\n「それじゃ　この荷物を　ヴェリナード領南の\n　海辺の交易所にいる　道具屋のチャーロンさんに\n　届けてください。よろしく　お願いします！",
+    "ko": "<attr><feel_happy_lv1><end_attr>: 감사합니다! 금방 준비할게요.\n　어디 보자, 여기 있다…….\n<br>\n: 그럼 이 가방을 베리나드령 남부의\n　바닷가 교역소에 있는 도구 상인 차론 씨에게\n　전해 주세요. 잘 부탁드릴게요!",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv1><end_attr>非常感谢！我这就赶紧准备好。\n嗯……这样就好了。\n<br>\n那么，就麻烦你去\n威里纳德南部领土的海边交易所，\n把这个包裹交给道具商茶隆吧。拜托了！",
+    "zh-Hant": "<attr><feel_happy_lv1><end_attr>謝謝你！那我馬上就去準備。\n嗯……這樣就沒問題了。\n<br>\n那就麻煩你去威里納德領土南部的海邊交易所，\n把包裹交給道具店的恰隆先生。\n拜託你了！"
+  },
+  "58941": {
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_030]`, YES cont'd",
+    "de": "",
+    "en": "<pc> received the <color_yellow>Package for Charon<color_white>\n(Key Item) from Tote!<me 60>",
     "es": "",
     "fr": "",
     "it": "",
@@ -468,7 +520,7 @@
     "zh-Hant": "<pc>從托托手中\n收下了給恰隆的包裹（重要物品）！<me 60>"
   },
   "58942": {
-    "$comments": "🟡, ",
+    "$comments": "🟢, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_040]`, unused?",
     "de": "",
     "en": "<attr><feel_normal_lv1><end_attr>Oh <pc>. If you are looking for a\nhuge item bag, it's not ready yet. I've asked\nmy father to make it for me, so please come\n<br>\nback to my workshop later.",
     "es": "",
@@ -480,62 +532,10 @@
     "zh-Hans": "",
     "zh-Hant": ""
   },
-  "58943": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Ah <pc> Welcome back! My dad made a\nbig item bag for me to give to a familiar\ncustomer! But it seems <pc>'s will\n<br>\ntake a little more time.<bw_break>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv1><end_attr>「あっ　<pc>さん　おかえりなさい！\n　父さんが　なじみのお客さんにお渡しする\n　大きなどうぐかばんを　作ってくれました！\n<br>\n「でも　<pc>さんの分は\n　もうすこし　時間が　かかるみたいです。<bw_break>",
-    "ko": "<attr><feel_happy_lv1><end_attr>: 앗, <pc>씨 어서 오세요!\n　아버지가 단골손님한테 드릴\n　거대한 도구 가방을 만들어 주셨어요!\n<br>\n: 하지만 <pc> 씨 가방은\n　조금 더 시간이 걸릴 거래요.<bw_break>",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv1><end_attr>啊，<pc>，欢迎回来！\n父亲已经把要交给\n那位老顾客的大道具包做好了！\n<br>\n但是<pc>的道具包暂时还没完成，\n还需要一些时间。<bw_break>",
-    "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊，<pc>，歡迎回來！\n父親已經做好要給老客戶的大道具包！\n<br>\n不過，<pc>的份\n好像還要一點時間才會做好。<bw_break>"
-  },
-  "58944": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Excuse me, but could you please deliver the\nbag I ordered to a customer until\n<pc>'s bag is ready?<yesno><case 1><break><case 2><break><case_cancel><break>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_normal_lv1><end_attr>「すいませんが　<pc>さんのかばんが\n　できあがるまで　注文のかばんを\n　お客さんの所へ　届けてもらえませんか？<yesno><case 1><break><case 2><break><case_cancel><break>",
-    "ko": "<attr><feel_normal_lv1><end_attr>: 죄송하지만 <pc> 씨의 가방이\n　완성될 때까지 주문받은 가방을\n　손님한테 전해주고 오실 수 있을까요?<yesno><case 1><break><case 2><break><case_cancel><break>",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_normal_lv1><end_attr>不好意思，\n在<pc>的道具包制作完成之前，\n能帮我给那位老顾客送一趟货吗？<yesno><case 1><break><case 2><break><case_cancel><break>",
-    "zh-Hant": "<attr><feel_normal_lv1><end_attr>不好意思，在<pc>的背包做好前，\n可以請你幫我把老客戶的背包\n送過去給他嗎？<yesno><case 1><break><case 2><break><case_cancel><break>"
-  },
-  "58945": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<attr><feel_sad_lv2><end_attr>Ugh. Please do something about that! I've been\nasked to deliver it ASAP, but I just haven't\ngotten around to it.<bw_break>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_sad_lv2><end_attr>「ううっ。そこをなんとか　お願いします！\n　大至急　届けてほしいと言われているのに\n　どうしても　手が回らなくて……。<bw_break>",
-    "ko": "<attr><feel_sad_lv2><end_attr>: 아앗, 이렇게 부탁드릴게요!\n　최대한 빨리 갖다 달라고 하셨는데\n　지금은 도저히 여길 비울 수가 없어서…….<bw_break>",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_sad_lv2><end_attr>唔……请你帮帮忙吧！\n那位老顾客希望我们能马上送过去，\n而不巧我们这边又忙得不可开交……<bw_break>",
-    "zh-Hant": "<attr><feel_sad_lv2><end_attr>嗚嗚，請務必幫我這個忙！\n那位老客戶希望我們馬上送過去，\n但我們現在實在抽不出空來……<bw_break>"
-  },
-  "58946": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Thank you very much! I'll get it ready right\naway. Well, that's it. Then please deliver\nthis package to Mr. Charon at the Item Shop at\n<br>\nthe Beach Trading Post on Verinard South.\nThank you!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv1><end_attr>「ありがとうございます！　すぐに準備しますね。\n　ええと　これでよし……と。\n<br>\n「それじゃ　この荷物を　ヴェリナード領南の\n　海辺の交易所にいる　道具屋のチャーロンさんに\n　届けてください。よろしく　お願いします！",
-    "ko": "<attr><feel_happy_lv1><end_attr>: 감사합니다! 금방 준비할게요.\n　어디 보자, 여기 있다…….\n<br>\n: 그럼 이 가방을 베리나드령 남부의\n　바닷가 교역소에 있는 도구 상인 차론 씨에게\n　전해 주세요. 잘 부탁드릴게요!",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv1><end_attr>非常感谢！我这就赶紧准备好。\n嗯……这样就好了。\n<br>\n那么，就麻烦你去\n威里纳德南部领土的海边交易所，\n把这个包裹交给道具商茶隆吧。拜托了！",
-    "zh-Hant": "<attr><feel_happy_lv1><end_attr>謝謝你！那我馬上就去準備。\n嗯……這樣就沒問題了。\n<br>\n那就麻煩你去威里納德領土南部的海邊交易所，\n把包裹交給道具店的恰隆先生。\n拜託你了！"
-  },
   "58947": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_040]`",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>I need you to deliver the package to Charon at\nthe Item Shop at the Beach Trading Post in\nVerinard South.<open_irai><bw_break>",
+    "en": "<attr><feel_normal_lv1><end_attr>I want you to deliver that package to Mr. Charon at\nthe Item Shop in Verinard South's Beach Trading Post.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -546,9 +546,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>我希望你可以去威里納德領土南部的海邊交易所，\n把包裹交給道具店的恰隆先生。<open_irai><bw_break>"
   },
   "58948": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_040]`, cont'd",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>I will have <pc>'s huge item bag\ncompleted by the time I get back from the\nBeach Trading Post, so please do me a favor.",
+    "en": "<attr><feel_normal_lv1><end_attr>By the time you get back from the Beach Trading Post,\n<pc>, your bag should be finished too, so\nplease take care of it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -558,10 +558,23 @@
     "zh-Hans": "<attr><feel_normal_lv1><end_attr>等<pc>从海边交易所回来，\n巨型道具包也就做好了。\n所以就拜托你先跑一趟了。",
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>等到<pc>從海邊交易所回來，\n巨型道具包就會做好了，\n所以就拜託你先跑一趟了。"
   },
-  "58949": {
-    "$comments": "🟡, ",
+  "58951": {
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_050]`",
     "de": "",
-    "en": "<pc> received a huge item bag!",
+    "en": "<attr><feel_happy_lv1><end_attr>Welcome back, <pc>! Sorry for asking you to\ndo so much. You really saved me! <pc>, your\nhuge item bag is finally finished!",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv1><end_attr>「おかえりなさい　<pc>さん！\n　いろいろと頼ってしまって　すみません。\n　本当に　助かりました！\n<br>\n「<pc>さんの分の　巨大などうぐかばんも\n　ようやく　できあがりましたよ！",
+    "ko": "<attr><feel_happy_lv1><end_attr>: 어서 오세요, <pc> 씨!\n　이것저것 부탁드려서 죄송했어요.\n　도와주셔서 감사합니다!\n<br>\n: <pc> 씨의 거대한 도구 가방도\n　막 완성된 참이에요!",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv1><end_attr>欢迎回来，<pc>！\n拜托你办了这么多事真是不好意思呀。\n你真是帮了我们大忙！\n<br>\n<pc>的巨型道具包\n终于也做好了！",
+    "zh-Hant": "<attr><feel_happy_lv1><end_attr>歡迎回來，<pc>！\n拜託你幫了這麼多事情，真是不好意思。\n你真是幫了我們大忙！\n<br>\n<pc>的巨型道具包也終於做好了喔！"
+  },
+  "58949": {
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_050]`, cont'd",
+    "de": "",
+    "en": "<pc> received the <color_yellow>Huge Item Bag<color_white>!",
     "es": "",
     "fr": "",
     "it": "",
@@ -572,7 +585,7 @@
     "zh-Hant": "<pc>收下了\n巨型道具包！"
   },
   "58950": {
-    "$comments": "🟡, ",
+    "$comments": "🟢, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_050]`, cont'd, unused?",
     "de": "",
     "en": "You can now have 150 items! If you have 101 or\nmore items, page 11 will appear in ''items''!<me 71>",
     "es": "",
@@ -584,23 +597,10 @@
     "zh-Hans": "",
     "zh-Hant": ""
   },
-  "58951": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Welcome back <pc>! Sorry for relying\non you for so many things. I really appreciate\nyour help! <pc>'s huge item bag is\n<br>\nfinally ready!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv1><end_attr>「おかえりなさい　<pc>さん！\n　いろいろと頼ってしまって　すみません。\n　本当に　助かりました！\n<br>\n「<pc>さんの分の　巨大などうぐかばんも\n　ようやく　できあがりましたよ！",
-    "ko": "<attr><feel_happy_lv1><end_attr>: 어서 오세요, <pc> 씨!\n　이것저것 부탁드려서 죄송했어요.\n　도와주셔서 감사합니다!\n<br>\n: <pc> 씨의 거대한 도구 가방도\n　막 완성된 참이에요!",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv1><end_attr>欢迎回来，<pc>！\n拜托你办了这么多事真是不好意思呀。\n你真是帮了我们大忙！\n<br>\n<pc>的巨型道具包\n终于也做好了！",
-    "zh-Hant": "<attr><feel_happy_lv1><end_attr>歡迎回來，<pc>！\n拜託你幫了這麼多事情，真是不好意思。\n你真是幫了我們大忙！\n<br>\n<pc>的巨型道具包也終於做好了喔！"
-  },
   "58953": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_050]`, cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Thanks to you, it was very helpful! I hope\nItem Shop Charon was pleased with your work.",
+    "en": "<attr><feel_happy_lv1><end_attr>Thanks to you, I was totally saved! Was Item Shop\nCharon pleased with what he got?",
     "es": "",
     "fr": "",
     "it": "",
@@ -611,9 +611,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>你真是幫了我們一個大忙！\n道具店的恰隆先生拿到道具包後，\n有很開心嗎？"
   },
   "58954": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_050]`, cont'd",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr><icon_exc>What? Did he ask you if this bag was really\nmade by my father? Was that so? Let's see.\n<pc>. I will tell you the truth. The\n<br>\nbag I gave to Charon was not made by my\nfather, nor was the bag I gave to\n<pc>. I'm sorry. I made them for my\n<br>\nfather. I told you before that my father is\nalways away from his workshop looking for\nmaterials for the ultimate item bag. Actually,\n<br>\nthat was a lie. The truth is, my dad went out\nlooking for materials, and one day, he didn't\ncome back. To keep his reputation intact, I\n<br>\nstarted making the bags instead. He taught me\nhow to make them. But just like my father\nsaid, I didn't have the talent to be a bag-\n<br>\nmaker.",
+    "en": "<attr><feel_sad_lv1><end_attr><icon_exc>Eh...!? He asked you if that bag was *really* one made\nby my father? Is-is that so...\n<br>\n...Umm, <pc>... I'll tell you the truth about it.\n<br>\nTo be honest, the bags you gave to Charon and I gave\nto you weren't made by my father. Sorry. I... made them\nin my father's place.\n<br>\nMy father just left the workshop to search for the\nmaterials for an ultimate item bag, so what I told you\nbefore, y'know. To be honest... That was a lie.\n<br>\nTruthfully, ever since my dad went out to search for\nmaterials, he never came back.\n<br>\nSo that my father wouldn't lose his reputation, I\nstarted making the bags instead. My father taught me\nlots of ways to make them...\n<br>\nBut, it's like my father says: I don't have the talent\nto be a bag craftsman, y'know...",
     "es": "",
     "fr": "",
     "it": "",
@@ -624,9 +624,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr><icon_exc>咦……！？\n他問你這個背包真的是我父親做的？\n這、這樣啊……\n<br>\n呃……\n<pc>……\n<br>\n……我就跟你說實話吧。\n<br>\n其實我給恰隆先生的背包，\n還有給<pc>你的背包，\n都不是我父親做的。\n<br>\n對不起，\n是我……代替父親做的。\n<br>\n之前我也有跟你說過，\n父親為了尋找終極道具包的材料，\n老是放著工房跑出去。\n<br>\n其實……那是騙人的，\n父親有一次出門尋找材料後，\n就再也沒有回來了。\n<br>\n為了不讓父親的名譽受損，\n我就開始替父親製作背包了。\n因為父親以前教了我很多製作的訣竅……\n<br>\n不過，正如父親所說的，\n我果然沒有當製包工匠的才能……"
   },
   "58955": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_200]`, ONE TIME ONLY",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>I can't afford to ruin my father's reputation\nany further, so I'm going to take a break from\nthe workshop for a while. But he will\n<br>\ndefinitely come back someday.So when he does,\nplease come back to make bags again. I'll be\nwaiting for you.",
+    "en": "<attr><feel_sad_lv1><end_attr>I can't afford to ruin my father's reputation any\nmore, so I think I'll take a break from the workshop\nfor a while.\n<br>\nBut, my father will definitely come back someday. So,\nwhen that time comes, please come and have a bag made,\nokay. I'm looking forward to it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -637,9 +637,9 @@
     "zh-Hant": ""
   },
   "58956": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00924, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_200]`",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>I can't risk further damaging my dad's\nreputation, and I think I'm going to take a\nbreak from this workshop for a while.\n<br>\n<pc>. I need to discuss something\nwith you, so please come back again when you\nreceive the four key emblems.",
+    "en": "<attr><feel_sad_lv1><end_attr>I can't afford to ruin my father's reputation any\nmore, so I think I'll take a break from the workshop\nfor a while.\n<br>\n<pc>, there's something I want to discuss\nwith you, so once you've obtained <color_yellow>4 Key Emblems<color_white>, can\nyou come back again?",
     "es": "",
     "fr": "",
     "it": "",

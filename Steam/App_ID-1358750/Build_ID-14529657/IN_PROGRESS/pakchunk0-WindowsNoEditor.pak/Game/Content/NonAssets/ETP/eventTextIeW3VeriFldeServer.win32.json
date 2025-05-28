@@ -285,36 +285,10 @@
     "zh-Hans": "<pc>把紫菀花\n投入了大海……\n<br>\n紫菀花在海浪之间荡漾着，\n消失在大海的尽头。",
     "zh-Hant": "<pc>將紫菀花投進大海了……\n<br>\n紫菀花搖蕩在波浪間，\n最後消失在大海的另一端。"
   },
-  "58957": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "Do you want to give the Baggage to\nCharon to Item Shop Charon?<yesno><case 1><break><case 2><close><case_cancel><close>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "道具屋チャーロンに\nチャーロンへの荷物を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
-    "ko": "도구 상인 차론에게\n차론에게 보내는 짐을 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close>",
-    "pt-BR": "",
-    "zh-Hans": "要把给茶隆的包裹\n交给道具商茶隆吗？<yesno><case 1><break><case 2><close><case_cancel><close>",
-    "zh-Hant": "是否要將給恰隆的包裹\n交給道具店的恰隆？<yesno><case 1><break><case 2><close><case_cancel><close>"
-  },
-  "58958": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> gave Baggage to Charon\nto Item Shop Charon!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　道具屋チャーロンに\nチャーロンへの荷物を　渡した！",
-    "ko": "{pc}|hpp(은,는) 도구 상인 차론에게\n차론에게 보내는 짐을 건넸다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把给茶隆的包裹\n交给了道具商茶隆！",
-    "zh-Hant": "<pc>把給恰隆的包裹\n交給了道具店的恰隆！"
-  },
   "58959": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `[STT_NpcInfo.NAME_NPC_01388, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_040, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TYARONHENONIMOTU]`, YESNO",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Oh, hey, if you're Charon from the\nItem Shop, that would be me.",
+    "en": "<attr><feel_normal_lv1><end_attr>Yayeah, if you're after Item Shop Charon, that\ncertainly would be me, but what business do you have\nwith me?",
     "es": "",
     "fr": "",
     "it": "",
@@ -324,10 +298,36 @@
     "zh-Hans": "<attr><feel_normal_lv1><end_attr>您好，\n我就是道具商茶隆，\n您有什么事情吗？",
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>嗨，我就是道具店的恰隆，\n你找我有什麼事嗎？"
   },
+  "58957": {
+    "$comments": "🟢, Quest (075) {Super Useful}, see `[STT_NpcInfo.NAME_NPC_01388, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_040, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TYARONHENONIMOTU]`, GIVE?",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> das <color_yellow>Paket für Charon<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Package for Charon<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> el <color_yellow>Paquete\npara Charon<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> le <color_yellow>Paquet pour\nCharon<color_white> ?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "it": "Dare <%sEV_SYSMSG_NPC> il <color_yellow>Pacco per Charon<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "ja": "道具屋チャーロンに\nチャーロンへの荷物を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "ko": "도구 상인 차론에게\n차론에게 보내는 짐을 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> o <color_yellow>Pacote para Charon<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "zh-Hans": "要把给茶隆的包裹\n交给道具商茶隆吗？<yesno><case 1><break><case 2><close><case_cancel><close>",
+    "zh-Hant": "是否要將給恰隆的包裹\n交給道具店的恰隆？<yesno><case 1><break><case 2><close><case_cancel><close>"
+  },
+  "58958": {
+    "$comments": "🟢, Quest (075) {Super Useful}, see `[STT_NpcInfo.NAME_NPC_01388, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_040, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TYARONHENONIMOTU]`, GAVE!",
+    "de": "<pc> gab <%sEV_SYSMSG_NPC> das <color_yellow>Paket für\nCharon<color_white>!",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Package for\nCharon<color_white>!",
+    "es": "¡<pc> le dio a <%sEV_SYSMSG_NPC>\nel <color_yellow>Paquete para Charon<color_white>!",
+    "fr": "<pc> a donné a <%sEV_SYSMSG_NPC>\nle <color_yellow>Paquet pour Charon<color_white> !",
+    "it": "<pc> ha dato a <%sEV_SYSMSG_NPC>\nil <color_yellow>Pacco per Charon<color_white>!",
+    "ja": "<pc>は　道具屋チャーロンに\nチャーロンへの荷物を　渡した！",
+    "ko": "{pc}|hpp(은,는) 도구 상인 차론에게\n차론에게 보내는 짐을 건넸다!",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> o <color_yellow>Pacote\npara Charon<color_white>!",
+    "zh-Hans": "<pc>把给茶隆的包裹\n交给了道具商茶隆！",
+    "zh-Hant": "<pc>把給恰隆的包裹\n交給了道具店的恰隆！"
+  },
   "58960": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `[STT_NpcInfo.NAME_NPC_01388, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_040]`, NO",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>What is it? Are you just cold-cocking\nus? Don't say that. Please take a look\nat the items. Well...<bw_break>",
+    "en": "<attr><feel_normal_lv1><end_attr>What the—window shopping, eh? It goes without\nsaying, but, please have a look at my wares for a\nlittle while. Now then...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -338,9 +338,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>什麼？沒有要買東西嗎？\n別這樣啦，稍微看看我們家的商品啊……<bw_break>"
   },
   "58961": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `[STT_NpcInfo.NAME_NPC_01388, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_040]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Oh, wow! You brought the huge item bag\nthat you ordered from Bolter! I've\nbeen looking forward to it so much\n<br>\nthat my mune is bursting with\nexcitement. Well, let's check it out\nright away, shall we? Well, let's see.<bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr>Oooh! You brought the huge item bag I ordered from\nBolter for me!\n<br>\nI've been looking forward to it so much that it's like\nmy chest was bursting. Then, right away, let's check\nit out, shall we? Now then...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -351,22 +351,22 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>喔喔喔！\n你把我跟博爾塔訂的巨型道具包送來了啊！\n<br>\n我一直興奮不已地\n期待著完成的那一天呢。\n那就快讓我檢查一下吧，我看看……<bw_break>"
   },
   "58962": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<attr><feel_normal_silent><end_attr>...<bw_break>",
-    "es": "",
-    "fr": "",
-    "it": "",
+    "$comments": "🟢, Quest (075) {Super Useful}, see `[STT_NpcInfo.NAME_NPC_01388, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_040]`, YES cont'd",
+    "de": "<attr><feel_normal_silent><end_attr>.........<bw_break>",
+    "en": "<attr><feel_normal_silent><end_attr>.........<bw_break>",
+    "es": "<attr><feel_normal_silent><end_attr>.........<bw_break>",
+    "fr": "<attr><feel_normal_silent><end_attr>.........<bw_break>",
+    "it": "<attr><feel_normal_silent><end_attr>.........<bw_break>",
     "ja": "<attr><feel_normal_silent><end_attr>「………………。<bw_break>",
     "ko": "<attr><feel_normal_silent><end_attr>: ……………….<bw_break>",
-    "pt-BR": "",
+    "pt-BR": "<attr><feel_normal_silent><end_attr>.........<bw_break>",
     "zh-Hans": "<attr><feel_normal_silent><end_attr>………………<bw_break>",
     "zh-Hant": "<attr><feel_normal_silent><end_attr>………………<bw_break>"
   },
   "58963": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `[STT_NpcInfo.NAME_NPC_01388, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_040]`, YESNO",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>Mm-hmm? May I ask you, was this huge\nitem bag really made by Bolter?<yesno><break>",
+    "en": "<attr><feel_angry_lv1><end_attr>...Mmm? Hear me out a bit, this huge item bag, was it\n*really* one made by Bolter?<yesno><break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -377,9 +377,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>……嗯嗯嗯？\n<br>\n抱歉，我想請問一下，\n這個巨型道具包\n真的是博爾塔做的嗎？<yesno><break>"
   },
   "58964": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `[STT_NpcInfo.NAME_NPC_01388, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_040]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Hahaha! Just kidding. However, this\nbag seems to be badly waxed and\ndistorted in shape. To give us such a\n<br>\nlousy item bag, Bolter must have lost\nhis prestige as a legendary bag-maker!\nOh, excuse me. You are not to blame\n<br>\nfor bringing this to us. Thank you\nvery much for coming all the way here.",
+    "en": "<attr><feel_happy_lv1><end_attr>Hahaha! You're joking. However, this bag seems to be\npoorly waxed and distorted in shape.\n<br>\nSending such a lousy item bag like that, even Bolter\nseems to have let the \"Legendary Bag Craftsman\"\nstuff go to his head, and lost his skills!\n<br>\nOops, excuse me. You just brought it to me, you're not\nto blame. Thank you very much for coming all the way\nhere.",
     "es": "",
     "fr": "",
     "it": "",
@@ -390,9 +390,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>哈哈哈！我是開玩笑的啦。\n但這個背包上蠟的地方不太均勻，\n形狀也有點歪啊。\n<br>\n竟然把這種粗劣的道具包交給客人，\n博爾塔被稱為傳說的製包工匠，\n結果手藝卻大不如前了啊！\n<br>\n哎呀，抱歉，你只是送貨過來的，\n我不該對你說這些才是。\n真的很謝謝你大老遠幫我送過來。"
   },
   "58965": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `[STT_NpcInfo.NAME_NPC_01388, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_050]`",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>It seems that Bolter has lost his\nprestige as a legendary bag-maker by\ngiving us such a lousy item bag! Well,\n<br>\nthat's all right. Since you're here,\nwhy don't you buy something?<bw_break>",
+    "en": "<attr><feel_sad_lv1><end_attr>Sending such a lousy item bag like that, even Bolter\nseems to have let the \"Legendary Bag Craftsman\"\nstuff go to his head, and lost his skills!\n<br>\nWell, that's alright. Other than that, since you took\nthe trouble of coming here, would you like to buy\nanything?<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -403,9 +403,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>竟然把這種粗劣的道具包交給客人，\n博爾塔被稱為傳說的製包工匠。\n結果手藝卻大不如前了啊！\n<br>\n算了，就這樣吧。\n不過你都難得過來了，\n不買些東西嗎？<bw_break>"
   },
   "71867": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (075) {Super Useful}, see `[STT_NpcInfo.NAME_NPC_01388, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_002_2_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Oh, no! You are the one who delivered\nthe bag to us, aren't you? Thank you\nfor the other day. No, I didn't. At\n<br>\nthe time, I was bad-mouthing the bag I\nreceived, but as I was using it, I\nbecame strangely attached to it. Hmmm.\n<br>\nAs expected of the legendary bag\ncraftsman Bolter. As usual, he does a\ngood job. Now, now...",
+    "en": "<attr><feel_happy_lv1><end_attr>Yayeah! You're the one who delivered Bolter's bag to\nme, aren't you. Thank you for the other day.\n<br>\nOh, y'know. At the time, I bad-mouthed the bag that I\nreceived, but as I was using it—oddly enough—I\ngrew more and more fond of it, you see.\n<br>\nMm-hmm. As expected of the Legendary Bag Craftsman\nBolter. As usual, he does a good job. Now then...",
     "es": "",
     "fr": "",
     "it": "",
