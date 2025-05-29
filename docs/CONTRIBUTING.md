@@ -782,10 +782,10 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |       `STT_MonsterTarotArcana`        |     |                                             |                                                                                             |
 |        `STT_MonsterTarotDeck`         |     |                                             |                                                                                             |
 |       `STT_MonsterTarotMonster`       |     |                                             |                                                                                             |
-|       `STT_Monster_Tips1_ver1`        |     | ~35ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
-|       `STT_Monster_Tips1_ver2`        |     | ~35ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
-|       `STT_Monster_Tips2_Ver2`        |     | ~35ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
-|       `STT_Monster_Tips2_ver1`        |     | ~35ch long, 4 lines high (3 `\n`)           | Monster trivia                                                                              |
+|       `STT_Monster_Tips1_ver1`        |     | ~35ch long, 4 lines high (3 `\n`)¹          | Monster trivia, [1] Any texts longer than 4 lines is invisible to players                   |
+|       `STT_Monster_Tips1_ver2`        |     | ~35ch long, 4 lines high (3 `\n`)¹          | Monster trivia, [1] Any texts longer than 4 lines is invisible to players                   |
+|       `STT_Monster_Tips2_Ver2`        |     | ~35ch long, 4 lines high (3 `\n`)¹          | Monster trivia, [1] Any texts longer than 4 lines is invisible to players                   |
+|       `STT_Monster_Tips2_ver1`        |     | ~35ch long, 4 lines high (3 `\n`)¹          | Monster trivia, [1] Any texts longer than 4 lines is invisible to players                   |
 |          `STT_Monster_Type`           |     |                                             |                                                                                             |
 |             `STT_NpcInfo`             |     |                                             | NPC name, see "pakchunk0-{PLATFORM}.utoc\Game\Content\Datatables\Characters\NpcInfo.uasset" |
 |      `STT_OddStatusExplanation`       |     | ~15ch long, 3 lines high (2 `\n`)           | Skill (Panel) explanations                                                                  |
