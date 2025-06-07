@@ -10,7 +10,7 @@
   - REGEX
     - CLDR plurals (Dragon Quest 5 `.\data\MENULIST\b1000000.mpt`)
       - find `"?(@[0-9])(.*?)(?=@)|@"`
-      - replace `\n\t\t\t\t"$2": "$3",`
+      - replace `\n\t\t\t\t"$1": "$2",`
     - Latin extended
       - find `(?<="value": ")([A-Œ])([A-Œ]+)(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?`
         - `œ` breaks the regex?

@@ -65,7 +65,7 @@
 - 🟡 = In progress
 - 🟢 = Done
 
-<details><summary>Main Story</summary>
+<details><summary><h2>Main Story</h2></summary>
 
 |   Type   |                         Story Of \_                         |                                                                       Progress | Comment(s) |
 | :------: | :---------------------------------------------------------: | -----------------------------------------------------------------------------: | :--------: |
@@ -106,7 +106,7 @@
 
 </details>
 
-<details><summary>Quests</summary>
+<details><summary><h2>Quests</h2></summary>
 
 |     Type     | Quest |                                                                       Progress | Comment(s) |
 | :----------: | :---: | -----------------------------------------------------------------------------: | :--------: |
@@ -144,7 +144,7 @@
 |  Sub Story   |  032  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |  Sub Story   |  033  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |    Useful    |  034  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
-|    Useful    |  035  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
+|    Useful    |  035  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |    Useful    |  036  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |    Useful    |  037  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |    Useful    |  038  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |

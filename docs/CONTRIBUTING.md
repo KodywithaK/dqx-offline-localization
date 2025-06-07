@@ -2624,6 +2624,8 @@ jq -s "
 
 ### External Links
 
+> [@Keraloon's fr translation spreadsheet](https://docs.google.com/spreadsheets/d/18tu-NqD5KI0jJu-YT-31EITN1g67V1SND-ZGSqkGMpM)
+>
 > [Spells etymology | storyinvention.com/dq-jumon-name](https://storyinvention.com/dq-jumon-name/)
 >
 > [Spells etymology | blog.livedoor.jp/doghand/archives/13429637](http://blog.livedoor.jp/doghand/archives/13429637.html)
