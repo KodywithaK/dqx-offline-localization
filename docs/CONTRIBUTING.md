@@ -2181,7 +2181,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
       "de": "Gibst du <%sEV_SYSMSG_NPC> (den, die, das) <color_yellow>ITEM<color_white>?\n",
       "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>ITEM<color_white>?\n",
       "es": "¿Darles <%sEV_SYSMSG_NPC> (la, el, le) <color_yellow>ITEM<color_white>?\n",
-      "fr": "Donnes <%sEV_SYSMSG_NPC> (la, le, lea/l') <color_yellow>ITEM<color_white>?\n",
+      "fr": "Donnes <%sEV_SYSMSG_NPC> (la, le, lea/l') <color_yellow>ITEM<color_white> ?\n",
       "it": "Dare <%sEV_SYSMSG_NPC> (la/l', il/l'/lo, TBD) <color_yellow>ITEM<color_white>?\n",
    // "ja": "きらめきインクを　渡しますか？\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",
       "ko": "반짝반짝 잉크를 건네겠습니까?\n<yesno>\n<case 1>\n<break>\n<case 2>\n<close>\n<case_cancel>\n<close>\n<case_end>",

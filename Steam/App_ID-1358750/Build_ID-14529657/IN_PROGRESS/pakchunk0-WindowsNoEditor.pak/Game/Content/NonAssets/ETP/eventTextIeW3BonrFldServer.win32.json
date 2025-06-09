@@ -65,9 +65,9 @@
     "zh-Hant": "<pc>獲得了\n裝有疫苗的袋子（重要物品）！<me 60>"
   },
   "54415": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_000]`, before clearing Quest (034)",
     "de": "",
-    "en": "<attr><feel_think_one><end_attr>Ugh, my clothes are so soggy. Why do I\nhave to come to this place? I really\nneed to finish my work as soon as\n<br>\npossible.<bw_break>",
+    "en": "<attr><feel_think_one><end_attr>Uugh... Alreadyyy, my clothes are muddy. Why did I have\nto come to a place like this? Seriously, if I don't\nhurry up and finish my job...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -78,9 +78,9 @@
     "zh-Hant": "<attr><feel_think_one><end_attr>嗚嗚……真是的～衣服上都是泥巴。\n為什麼非得來這裡不可？\n真的要快點把工作做完才行……<bw_break>"
   },
   "54416": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_000]`, before clearing Quest (034) cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr><turn_pc>Oh, a traveler? Let me tell you a good\nnews. Salon Fee Lycia is finally\nopening all over again! Actually, I am\n<br>\nan apprentice hairdresser who dreams\nof becoming a charismatic beautician\nat Salon Fee Lycia. Please come visit\n<br>\nme at my store in a big town.",
+    "en": "<attr><feel_happy_lv1><end_attr><turn_pc>Ah, a traveler? I oughta tell you something nice, huh.\nSalon Felisha is finally gonna open simultaneously!\n<br>\nActually, I'm one of Salon Felisha's charismatic\nbeauticians... That's my dream, anyways; I'm just an\napprentice beautician.\n<br>\nDefinitely come to a salon in any major town, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -91,9 +91,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr><turn_pc>啊，你是旅行者？告訴你一項好消息吧。\n美容院菲麗西亞沙龍\n終於即將在各地同時開幕營業了～\n<br>\n我是菲麗西亞沙龍的頂尖美容師……\n其實是見習美容師，那是我的夢想啦。\n我們在各大市鎮都設有店舖，請務必光臨。"
   },
   "54417": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_000]`",
     "de": "",
-    "en": "<attr><feel_think_lv2><end_attr>Awe... Awe... Awe... I'm an apprentice\nhairdresser who dreams of becoming a\ncharismatic beautician at Salon Fee\n<br>\nLycia. I'm an apprentice beautician\nwho dreams of becoming a charismatic\nbeautician at Salon fee Lycia! My\n<br>\nsenior whipped me into making a new\ncolor with a touch of nature for the\nsalon, and I ended up going to the\n<br>\njungle.<bw_break>",
+    "en": "<attr><feel_think_lv2><end_attr>Zzz... Zzz... I-I'm one of Salon Felisha's charismatic\nbeauticians... That's my dream, anyways; I'm just an\napprentice beautician.\n<br>\nI'm making a new nature-inspired color for the salon\nto work wiiith!\n<br>\n...To think my boss stuck with such an unreasonable\nrequest; I can't believe that I ended up coming to\nthe jungle.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -104,9 +104,9 @@
     "zh-Hant": "<attr><feel_think_lv2><end_attr>呼……呼……\n我……我是以菲麗西亞沙龍的頂尖美容師……\n為目標的見習美容師。\n<br>\n作個能感覺到大自然的新色，讓我在美容院使用！\n……前輩竟然提出這項不講理的要求，\n硬是把我派到了叢林來。<bw_break>"
   },
   "54418": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_12500, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>I was dying to get here, but\n<%sEV_QUE_NAME0> took away the\nmaterial I was looking for! Please!\n<br>\nCan you defeat <%sEV_QUE_NAME0> and\nget me the material I'm looking for,\nShocking Leaf?",
+    "en": "<attr><feel_happy_lv2><end_attr>And, when I finally harvested the ingredient that I\nthought I was going to die all the way out here for,\nthe <color_red><%sEV_QUE_NAME0><color_white>... Ahaha, they seriously took it!\n<br>\nPlease! You can defeat the <color_red><%sEV_QUE_NAME0><color_white>, and get me\nthe ingredient that I'm looking for—the <color_yellow>Shredded\nLeaf<color_white>—can't you?",
     "es": "",
     "fr": "",
     "it": "",
@@ -117,9 +117,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>所以我抱著必死的決心抵達了這裡，\n結果沒想到我要的材料，\n卻被<%sEV_QUE_NAME0>給割走了……哈哈，真是有夠可笑！\n<br>\n求求你！可以幫我打倒<%sEV_QUE_NAME0>，\n把我需要的材料\n電光葉拿回來嗎？"
   },
   "54419": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_12500, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Uso! Are you really going to do it for\nme? You're a super nice guy. Oh, man,\nI'm crying. I'm really crying. I think\n<br>\nif I kill a few <%sEV_QUE_NAME0>, I'll\ndrop Shocking Leaf sooner or later.\nHahaha, I'll be counting on you~.",
+    "en": "<attr><feel_happy_lv3><end_attr>No lie! Really, you'll get the <color_yellow>Shredded Leaf<color_white> for me?\nYou're such a nice guy... Crap, I'm crying. I'm seriously\ncrying.\n<br>\nIf you defeat a few <color_red><%sEV_QUE_NAME0>s<color_white>, before long\nthey'll drop a <color_yellow>Shredded Leaf<color_white>, I think. Ahaha, I'm\ntotally counting on you, okayyy.",
     "es": "",
     "fr": "",
     "it": "",
@@ -130,9 +130,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>不會吧！你真的願意幫我嗎？\n你真是個超級大好人……\n糟糕，眼淚流出來了，真的是感動落淚耶。\n<br>\n只要打倒幾隻<%sEV_QUE_NAME0>，\n應該就會掉落電光葉了。\n啊哈哈，那就拜託你囉～"
   },
   "54420": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_12500, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, QUESTS FULL",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Uso! Are you really going to do it for\nme? But you've taken on so many other\nrequests, haven't you? Then, you don't\n<br>\nhave to do anything too hard, okay?\nI'd be happy to hear from you again\nwhen you're free.",
+    "en": "<attr><feel_happy_lv1><end_attr>No lie! Are you really going to do it for\nme? But you've taken on so many other\nrequests, haven't you? Then, you don't\n<br>\nhave to do anything too hard, okay?\nI'd be happy to hear from you again\nwhen you're free.",
     "es": "",
     "fr": "",
     "it": "",
@@ -143,9 +143,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>不會吧！你真的願意幫我嗎？\n但是你……\n不是已經接了一堆委託嗎？\n<br>\n既然這樣就不要勉強自己喔？\n等你有空的時候\n再來找我吧。"
   },
   "54421": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_12500, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, NO",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Uso! Did I get rejected? Hahaha. Well,\nI guess it can't be helped. It's my\njob. Ah! But if you change your mind,\n<br>\nit would be great if you could call me\nagain.",
+    "en": "<attr><feel_happy_lv1><end_attr>No lie! Did I get totally rejected? Ahahah. Well,\ncan't be helped, y'know. After all, it is *my* job.\n<br>\nAh! But, if you change your mind, give me another\nshout; I'd be overjoyed.",
     "es": "",
     "fr": "",
     "it": "",
@@ -156,9 +156,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>不會吧！被拒絕了？\n啊哈哈，嗯～沒辦法啊，\n畢竟這是我的工作嘛。\n<br>\n啊！不過，要是你改變心意了，\n就再來跟我說一聲吧～"
   },
   "54422": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_12500, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Are you really going to get Shocking\nLeaf? You are such a nice guy. Oh,\nman, I'm crying. I'm really crying. I\n<br>\nthink if I kill a few\n<%sEV_QUE_NAME0>, they will drop\nShocking Leaf. Hahaha, I'll be\n<br>\ncounting on you~.<open_irai>",
+    "en": "<attr><feel_happy_lv3><end_attr>Really, you'll get the <color_yellow>Shredded Leaf<color_white> for me? You're\nsuch a nice guy... Crap, I'm crying. I'm seriously crying.\n<br>\nIf you defeat a few <color_red><%sEV_QUE_NAME0>s<color_white>, before long\nthey'll drop a <color_yellow>Shredded Leaf<color_white>, I think. Ahaha, I'm\ntotally counting on you, okayyy.<open_irai>",
     "es": "",
     "fr": "",
     "it": "",
@@ -169,9 +169,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>你真的要去幫我找電光葉嗎？\n你真是個超級大好人……\n糟糕，眼淚流出來了，真的是感動落淚耶。\n<br>\n只要打倒幾隻<%sEV_QUE_NAME0>，\n應該就會掉落電光葉了。\n啊哈哈，那就拜託你囉～<open_irai>"
   },
   "54424": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Ahahaha, welcome back!That FACE looks\nlike you got Shocking Leaf by any\nchance?",
+    "en": "<attr><feel_happy_lv3><end_attr>Ahaha, welcome back! That expression, could it be...\nI get the feeling that you got the <color_yellow>Shredded Leaf<color_white>?",
     "es": "",
     "fr": "",
     "it": "",
@@ -181,10 +181,36 @@
     "zh-Hans": "<attr><feel_happy_lv3><end_attr>啊哈哈，你回来啦！\n看你的样子……\n莫非已经得到电光香草了？",
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>啊哈哈，歡迎回來！\n看你的表情，莫非……\n你已經拿到電光葉了？"
   },
+  "54432": {
+    "$comments": "🟢, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, GIVE?",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> das <color_yellow>Hackblatt<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Shredded Leaf<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> la <color_yellow>Hoja Deshebrada<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> la <color_yellow>Tailladé de Feuille<color_white> ?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "it": "Dare <%sEV_SYSMSG_NPC> la <color_yellow>Tagliata di Foglia<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ja": "ジェーンに\nビリビリリーフを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ko": "젠에게\n북북 리프를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> a <color_yellow>Folha Desfiada<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hans": "要把电光香草\n交给洁恩吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hant": "是否要將電光葉\n交給潔恩？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "54433": {
+    "$comments": "🟢, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, GAVE!",
+    "de": "<pc> gab <%sEV_SYSMSG_NPC> das <color_yellow>Hackblatt<color_white>!",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Shredded Leaf<color_white>!",
+    "es": "¡<pc> le dio a <%sEV_SYSMSG_NPC> la <color_yellow>Hoja Deshebrada<color_white>!",
+    "fr": "<pc> a donné a <%sEV_SYSMSG_NPC> la <color_yellow>Tailladé de Feuille<color_white> !",
+    "it": "<pc> ha dato a <%sEV_SYSMSG_NPC> la <color_yellow>Tagliata di Foglia<color_white>!",
+    "ja": "<pc>は　ジェーンに\nビリビリリーフを　渡した！",
+    "ko": "{pc}|hpp(은,는) 젠에게\n북북 리프를 건넸다!",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> a <color_yellow>Folha Desfiada<color_white>!",
+    "zh-Hans": "<pc>把电光香草\n交给了洁恩！",
+    "zh-Hant": "<pc>把電光葉\n交給了潔恩！"
+  },
   "54425": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, NO",
     "de": "",
-    "en": "<attr><feel_think_lv3><end_attr>Oh, really? Don't be mean to me. I'm\nalready exhausted. I'm at my limit.\nThere are bugs and dirt and I can't\n<br>\nrest at all.",
+    "en": "<attr><feel_think_lv3><end_attr>Ehhh, really? Don't be mean to me. I'm already totally\nspent and at my limit. Between the bugs and being\ndirty, I can't rest at all.",
     "es": "",
     "fr": "",
     "it": "",
@@ -195,9 +221,9 @@
     "zh-Hant": "<attr><feel_think_lv3><end_attr>咦～真的嗎？不要調皮啦，\n我已經筋疲力盡，快不行了，\n這裡蟲子又多，還很髒，根本沒辦法休息啊。"
   },
   "54426": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Yay! Now I can say bye bye to my life\nin the jungle! I can't wait to go home\nand take a hot bath! I'm really\n<br>\nimpressed. Thank you for saving my\nlife! I really don't want to live in a\nplace like this anymore, but I'm going\n<br>\nto use the Shocking Leaf to create\nsome colors that remind me of Mother\nNature.",
+    "en": "<attr><feel_happy_lv3><end_attr>Yaaay! Now I can say bye-bye to the jungle life,\ny'know! I have to hurry back home, and take a hot\nbath! I'm seriously stoked; thank you, lifesaver!\n<br>\nAlthough I don't want to be in such a really simple\nplace like this anymore... As soon as I can, I'll use this\nShredded Leaf to make a nature-inspired color, okay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -208,9 +234,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>太好啦～！這樣就可以跟叢林生活說再見了！\n我要快點回去泡個舒舒服服的熱水澡！\n真的超感動，謝謝你！我的救命恩人！\n<br>\n我真的已經受夠這個地方了……\n不過最後還得用這個電光葉\n製作可以感受到大自然的顏色才行呢。"
   },
   "54427": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, YES cont'd",
     "de": "",
-    "en": "<se_nots joutyu SUCCESS>First, tear Shocking Leaf into small\npieces. Like this, it's like this...!\nHey, what's this? It smells super\n<br>\nblue! Oh no! Hang in there, I will!\nOkay, that's about right. I'll just\nhave to finish it off with magic,\n<br>\nright?<bw_break>",
+    "en": "<se_nots joutyu SUCCESS>First, I'll finely tear the Shredded Leaf. I feel\nlike, if I tear it like this... Uhh!! Wait, what the! It's\nsuper mowed-grass smelling!!\n<br>\nCrap! Hang in there, me! O-oookay, that's about right.\nUmm, after that, I just have to finish it with magic,\ndon't I!?<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -221,9 +247,9 @@
     "zh-Hant": "<se_nots joutyu SUCCESS>首先是把電光葉仔細地弄碎。\n像這種感覺，把它撕得碎碎的……唔！！\n等等，這是什麼！好刺鼻的腥味！！\n<br>\n嗚哇！加油啊我！\n好……好～這樣就差不多了吧。\n嗯……接下來好像要用魔法完成它！？<bw_break>"
   },
   "54428": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, YES cont'd",
     "de": "",
-    "en": "Magical Magical* Amazonir Amazonesa!",
+    "en": "Magical-Magical ☆ Amazonial-Amazonesa!",
     "es": "",
     "fr": "",
     "it": "",
@@ -233,10 +259,23 @@
     "zh-Hans": "魔力无穷～魔力无边☆\n郁郁葱葱大森林！",
     "zh-Hant": "魔力繽紛、魔力閃耀☆\n繽紛雨林、繽紛自然！"
   },
-  "54429": {
-    "$comments": "🟡, ",
+  "54434": {
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Oh no, what should I do? I'm really\ngoing to cry! It's done! I made this\njungle color, like a jungle, the color\n<br>\nof nature!",
+    "en": "Jane, with frantic hands, tore apart and cast a spell\non the Shredded Leaf! <me 69>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "ジェーンは　必死な手つきで\nちぎった　ビリビリリーフに　魔法をかけた！<me 69>",
+    "ko": "젠은 필사적인 손놀림으로\n찢은 북북 리프에 마법을 걸었다!<me 69>",
+    "pt-BR": "",
+    "zh-Hans": "洁恩竭尽全力地对撕碎了的\n电光香草施加了魔法！<me 69>",
+    "zh-Hant": "潔恩以看起來十分拼命的動作，\n對被撕碎的電光葉施展了魔法！<me 69>"
+  },
+  "54429": {
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, YES cont'd",
+    "de": "",
+    "en": "<attr><feel_happy_lv3><end_attr>No wayyy, what am I gonna do, I'm seriously crying!\nIt's done! I was able to make this jungley, natural\ncolor, \"jungle\"!",
     "es": "",
     "fr": "",
     "it": "",
@@ -246,10 +285,23 @@
     "zh-Hans": "<attr><feel_happy_lv3><end_attr>太好了，怎么办？真的感动得要哭了！\n做好了！这密林似的大自然的颜色，\n丛林色做好了！",
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>討厭啦～怎麼辦，真的是感動落淚耶！\n做好了喔！叢林色！\n就像是這個跟叢林一樣的大自然顏色！"
   },
+  "54435": {
+    "$comments": "🟢, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, YES cont'd",
+    "de": "Eine neue Farbe, „Dschungel“, ist jetzt im Schön-\nheitssalon verfügbar! <me 71>",
+    "en": "A new color, \"Jungle\", is now available at the\nBeauty Salon! <me 71>",
+    "es": "¡Un nuevo color, \"Jungla\", está ya disponible en\nel Salón de Belleza! <me 71>",
+    "fr": "Une nouvelle couleur, « Jungle », est maintenant\ndisponible au Salon de Beauté ! <me 71>",
+    "it": "Un nuovo colore, «Giungla», è ora disponibile\npresso il Salone di Bellezza! <me 71>",
+    "ja": "美容院で　新しい色\n『ジャングル』が　使えるようになった！<me 71>",
+    "ko": "미용실에서 새로운 색상\n『정글』을 사용할 수 있게 되었다!<me 71>",
+    "pt-BR": "Uma nova cor, “Jângal”, está já disponível no\nSalão de Beleza! <me 71>",
+    "zh-Hans": "可以在美容院使用新颜色\n“丛林色”了！<me 71>",
+    "zh-Hant": "可以在美容院使用新顏色\n「叢林色」了！<me 71>"
+  },
   "54430": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>And as a thank you for all your help.\nHi! Can you take this?",
+    "en": "<attr><feel_happy_lv3><end_attr>And now, a reward for having helped me out... Here! Will\nyou accept this?",
     "es": "",
     "fr": "",
     "it": "",
@@ -260,9 +312,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>那麼，為了感謝你幫我……\n給你！你願意收下我的謝禮嗎？"
   },
   "54431": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_BIRIBIRIRIIHU]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Creating new colors is the first big\njob for an apprentice hairdresser.\nThat's why I practiced so much. I'll\n<br>\nmake this jungle color available\nanywhere in the salon, so check back\nlater. I'll make this jungle color\n<br>\navailable anywhere in the salon!",
+    "en": "<attr><feel_happy_lv3><end_attr>Creating a new color is the first big job for an\napprentice hairdresser, y'know. That's why I'd been\npracticing that magic from earlier so much.\n<br>\nI'll make sure that if you go to a salon anywhere,\nthat this jungle color will be available, so try\nchecking back later, okay. I look forward to ittt!",
     "es": "",
     "fr": "",
     "it": "",
@@ -272,62 +324,10 @@
     "zh-Hans": "<attr><feel_happy_lv3><end_attr>制作新的颜色是见习美容师\n一开始最重要的工作。\n刚才的魔法，我也练习了好久呢。\n<br>\n我会在所有美容院\n都推出丛林色的，\n你到时候可以去看看。拜托啦～",
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>製作新的顏色是成為見習美容師的人\n首先會遇到的最重要工作～\n剛剛的魔法我也練習了好久。\n<br>\n現在已經可以在所有的美容院\n使用這個叢林色了，\n你之後再去看看吧，請多關照～！"
   },
-  "54432": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "Would you like to give Shocking Leaf\nto Jane?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "ジェーンに\nビリビリリーフを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "ko": "젠에게\n북북 리프를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "pt-BR": "",
-    "zh-Hans": "要把电光香草\n交给洁恩吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "zh-Hant": "是否要將電光葉\n交給潔恩？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
-  },
-  "54433": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<pc> gave Jane the Shocking\nLeaf!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　ジェーンに\nビリビリリーフを　渡した！",
-    "ko": "{pc}|hpp(은,는) 젠에게\n북북 리프를 건넸다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把电光香草\n交给了洁恩！",
-    "zh-Hant": "<pc>把電光葉\n交給了潔恩！"
-  },
-  "54434": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "Jane cast a spell on Shocking Leaf,\nwhich she tore off with a desperate\nhand!<me 69>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "ジェーンは　必死な手つきで\nちぎった　ビリビリリーフに　魔法をかけた！<me 69>",
-    "ko": "젠은 필사적인 손놀림으로\n찢은 북북 리프에 마법을 걸었다!<me 69>",
-    "pt-BR": "",
-    "zh-Hans": "洁恩竭尽全力地对撕碎了的\n电光香草施加了魔法！<me 69>",
-    "zh-Hant": "潔恩以看起來十分拼命的動作，\n對被撕碎的電光葉施展了魔法！<me 69>"
-  },
-  "54435": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "A new color, ''jungle,'' is now\navailable in Salon!<me 71>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "美容院で　新しい色\n『ジャングル』が　使えるようになった！<me 71>",
-    "ko": "미용실에서 새로운 색상\n『정글』을 사용할 수 있게 되었다!<me 71>",
-    "pt-BR": "",
-    "zh-Hans": "可以在美容院使用新颜色\n“丛林色”了！<me 71>",
-    "zh-Hant": "可以在美容院使用新顏色\n「叢林色」了！<me 71>"
-  },
   "54436": {
-    "$comments": "🟡, ",
+    "$comments": "🟡, Quest (036) {Useful}, see `[STT_NpcInfo.NAME_NPC_01873, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_031_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Creating new colors is the first big\njob for an apprentice hairdresser.\nThat's why I practiced so much. Now I\n<br>\nhave to go home and take a hot\nbath!After all, it's my job to make\npeople beautiful, so I have to make\n<br>\nmyself beautiful first, don't I?",
+    "en": "<attr><feel_happy_lv1><end_attr>Creating a new color is the first big job for an\napprentice hairdresser, y'know. That's why I'd been\npracticing that magic from earlier so much.\n<br>\nNow, I have to hurry back home, and take a hot bath!\nAfter all, it's kinda my job to make people pretty,\nso first I gotta make myself pretty, don't I?",
     "es": "",
     "fr": "",
     "it": "",
