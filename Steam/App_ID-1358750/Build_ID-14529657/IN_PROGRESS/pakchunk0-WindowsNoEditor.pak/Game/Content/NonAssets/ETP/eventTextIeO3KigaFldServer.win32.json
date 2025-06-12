@@ -247,9 +247,9 @@
     "zh-Hant": "<pc>的腦海中傳來的聲音\n朝著天空遠去，最後再也聽不到了。\n一片寂靜之中，只留下瀑布的聲音。"
   },
   "54465": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_000]`, before clearing Quest (034)",
     "de": "",
-    "en": "<if_woman><attr><feel_normal_lv1><end_attr>Mmm... How do you do, mademoiselle. Did you know\nthat the Salon Fee Lycia will be opening all over\nagain soon?\n<br>\nI am, in fact, the honorary advisor of Salon Fee\nLycia. Please come and visit us at our Salon in\nthe big city.<else><attr><feel_normal_lv1><end_attr>Mmm... How do you do, monsieur. Did you know that\nthe Salon Fee Lycia will be opening all over again\nsoon?\n<br>\nI am, in fact, the honorary advisor of Salon Fee\nLycia. Please come and visit us at our Salon in\nthe big city.<endif>",
+    "en": "<if_woman><attr><feel_normal_lv1><end_attr>Mmm... How do you do, mademoiselle. Are you aware that\nthe beauty salon, Salon Felisha, will soon be simult-\naneously opening?\n<br>\nIn fact, I am Salon Felisha's honorary advisor, you\nsee. Certainly come visit us at a salon in any major\ntown.<else><attr><feel_normal_lv1><end_attr>Mmm... How do you do, monsieur. Are you aware that the\nbeauty salon, Salon Felisha, will soon be simult-\naneously opening?\n<br>\nIn fact, I am Salon Felisha's honorary advisor, you\nsee. Certainly come visit us at a salon in any major\ntown.<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -260,9 +260,9 @@
     "zh-Hant": "<if_woman><attr><feel_normal_lv1><end_attr>嗯嗯……您好，小姐。\n您知道各地的菲麗西亞沙龍\n即將要同時開業了嗎？\n<br>\n其實我是菲麗西亞沙龍的名譽顧問。\n還希望您務必光顧\n我們位於各大市鎮的美容院。<else><attr><feel_normal_lv1><end_attr>嗯嗯……您好，先生。\n您知道各地的菲麗西亞沙龍\n即將要同時開業了嗎？\n<br>\n其實我是菲麗西亞沙龍的名譽顧問。\n還希望您務必光顧\n我們位於各大市鎮的美容院。<endif>"
   },
   "54466": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_000]`",
     "de": "",
-    "en": "<if_woman><attr><feel_normal_lv1><end_attr>Mmm... How do you do, mademoiselle. My name is Baron,\nHonorary Advisor of Salon Fee Lycia. Lately,\nthe apprentice hairdressers at our salon have\n<br>\nbeen working feverishly on their training to\ncreate new colors. I am very pleased to hear\nthat. I would like to try my hand at creating\n<br>\na new color that is as dandy and gentlemanly\nas the youngsters. Would you be so kind as to\njoin forces with <%sEV_QUE_NAME0> of Togas\n<br>\nRock Road and procure for us something worthy\nof being called Gentleman's Taste?<else><attr><feel_normal_lv1><end_attr>Mmm... How do you do, monsieur. My name is Baron,\nhonorary advisor of Salon Fee Lycia. Lately,\nthe apprentice hairdressers at our salon have\n<br>\nbeen working feverishly on their training to\ncreate new colors. I am very pleased to hear\nthat. I would like to try my hand at creating\n<br>\na new color that is as dandy and gentlemanly\nas the youngsters. Would you be so kind as to\njoin forces with <%sEV_QUE_NAME0> of Togas\n<br>\nRock Road and procure for us something worthy\nof being called Gentleman's Taste?<endif>",
+    "en": "<if_woman><attr><feel_normal_lv1><end_attr>Mmm... How do you do, mademoiselle. My name is Baron,\nan honorary advisor of Salon Felisha.\n<br>\nLately, our salon's apprentice beauticians have been\ntraining feverishly to create new colors. Mmm... It's\nquite splendid.\n<br>\nAnd I for one—like the youngsters—intend to try\ncreating a dandy, gentlemanly, new color as well.\n<br>\nWould you be so kind as to go have a bout with the\n<color_red><%sEV_QUE_NAME0>s<color_white> of Togas Rocky Road, and procure\nsomething befitting of being called a Gentleman's Taste?<else><attr><feel_normal_lv1><end_attr>Mmm... How do you do, monsieur. My name is Baron,\nan honorary advisor of Salon Felisha.\n<br>\nLately, our salon's apprentice beauticians have been\ntraining feverishly to create new colors. Mmm... It's\nquite splendid.\n<br>\nAnd I for one—like the youngsters—intend to try\ncreating a dandy, gentlemanly, new color as well.\n<br>\nWould you be so kind as to go have a bout with the\n<color_red><%sEV_QUE_NAME0>s<color_white> of Togas Rocky Road, and procure\nsomething befitting of being called a Gentleman's Taste?<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -273,9 +273,9 @@
     "zh-Hant": "<if_woman><attr><feel_normal_lv1><end_attr>嗯嗯……您好，小姐。\n我是菲麗西亞沙龍的名譽顧問，\n名叫巴隆。\n<br>\n最近我們沙龍的見習美容師們\n正在進行調製新顏色的修行。\n嗯嗯……好極了。\n<br>\n我也想跟年輕人一樣\n調製一款既時髦又紳士的新顏色。\n<br>\n您願意去多加斯岩道跟<%sEV_QUE_NAME0>交手，\n替我取得與紳士品味相符的物品嗎？<else><attr><feel_normal_lv1><end_attr>嗯嗯……您好，先生。\n我是菲麗西亞沙龍的名譽顧問，\n名叫巴隆。\n<br>\n最近我們沙龍的見習美容師們\n正在進行調製新顏色的修行。\n嗯嗯……好極了。\n<br>\n我也想跟年輕人一樣\n調製一款既時髦又紳士的新顏色。\n<br>\n您願意去多加斯岩道跟<%sEV_QUE_NAME0>交手，\n替我取得與紳士品味相符的物品嗎？<endif>"
   },
   "54467": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_000]`, YES",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Oh, you'll take care of it?You'll know what\nyou're bringing when you get it. Togas Rock\nRoad is just west of here. Thank you for your\n<br>\nhelp.",
+    "en": "<attr><feel_normal_lv1><end_attr>Ooh, you shall take care of it for me, will you! You\nwill know what to bring when you've obtained it.\n<br>\nTogas Rocky Road is located west of here. Please take\ncare of it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -286,7 +286,7 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>喔喔，您願意答應我的要求嗎！\n至於要去拿什麼物品，\n等您得到時自然就會明白了。\n<br>\n從這裡往西走就能抵達多加斯岩道。\n那就萬事拜託您了。"
   },
   "54468": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_000]`, QUESTS FULL",
     "de": "",
     "en": "<if_woman><attr><feel_think_lv3><end_attr>Oh, will you accept? But, mademoiselle. You\nseem to be taking on a bit too many requests.\nI cannot force you to do so...\n<br>\nWhenever you have time, please contact me again.<else><attr><feel_think_lv3><end_attr>Oh, you will take care of it? But, monsieur.\nYou seem to be taking on a little too much. I\ncannot force you to do so...\n<br>\nWhenever you have time, please contact me again.<endif>",
     "es": "",
@@ -299,9 +299,9 @@
     "zh-Hant": "<if_woman><attr><feel_think_lv3><end_attr>喔喔，您願意答應我的要求嗎！\n不過啊，小姐。您手上還沒處理的委託\n好像有點太多了……\n<br>\n我不會勉強您的。\n等到您有空的時候，\n請再知會我一聲。<else><attr><feel_think_lv3><end_attr>喔喔，您願意答應我的要求嗎！\n不過啊，先生。您手上還沒處理的委託\n好像有點太多了……\n<br>\n我不會勉強您的。\n等到您有空的時候，\n請再知會我一聲。<endif>"
   },
   "54469": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_000]`, NO",
     "de": "",
-    "en": "<attr><feel_think_lv3><end_attr>Mmm... I'm sorry to hear that. I am truly sorry, but\nit cannot be helped.",
+    "en": "<attr><feel_think_lv3><end_attr>Mmm... So that's how it is, is it. Truly disappointing,\nhowever there is no other recourse, is there.",
     "es": "",
     "fr": "",
     "it": "",
@@ -312,9 +312,9 @@
     "zh-Hant": "<attr><feel_think_lv3><end_attr>嗯嗯……原來是這樣啊。\n實在非常遺憾，不過這也是沒辦法的事。"
   },
   "54470": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_010]`, cont'd",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>A shining cove. The lush greenery.With that as\na backdrop, I am sipping tea. Mmm... Dandy indeed.<bw_break>",
+    "en": "<attr><feel_normal_lv1><end_attr>The shining cove. The lush greenery. With that as a\nbackdrop, I am sipping tea. Mmm... Dandy indeed.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -325,9 +325,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>閃耀的海灣。茂密的綠林。\n在這景色當中品茶的我。\n嗯嗯……真是時髦。<bw_break>"
   },
   "54471": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_010]`, cont'd",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr><turn_pc>Oh, excuse me. Would you be so kind as to go\nand meet up with <%sEV_QUE_NAME0> and get us\nwhat we would call a Gentleman's Taste?<open_irai><bw_break>",
+    "en": "<attr><feel_normal_lv1><end_attr><turn_pc>Ooh, excuse me. Would you be so kind as to go have a\nbout with the <color_red><%sEV_QUE_NAME0>s<color_white>, and procure something\nbefitting of being called a Gentleman's Taste?<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -338,9 +338,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr><turn_pc>喔喔，失禮了。您能跟<%sEV_QUE_NAME0>交手，\n替我取得與紳士品味相符的物品嗎？<open_irai><bw_break>"
   },
   "54472": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_010]`, cont'd",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>You will know what to bring when you get it.\nPlease take care of it.",
+    "en": "<attr><feel_normal_lv1><end_attr>You will know what to bring when you've obtained it.\nPlease take care of it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -351,9 +351,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>至於要去拿什麼物品，\n等您得到時自然就會明白了。\n那就萬事拜託您了。"
   },
   "54473": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`, YESNO",
     "de": "",
-    "en": "<if_woman><attr><feel_normal_lv1><end_attr>Mmm... How do you like it, mademoiselle? Have I\nbrought you what I would call a Gentleman's\nTaste?<else><attr><feel_normal_lv1><end_attr>Mmm... How do you do, monsieur? Have I\nbrought you what I would call a Gentleman's\nTaste?<endif>",
+    "en": "<if_woman><attr><feel_normal_lv1><end_attr>Mmm... How do you do, mademoiselle. Were you able to\nprocure something befitting of being called a\nGentleman's Taste?<else><attr><feel_normal_lv1><end_attr>Mmm... How do you do, monsieur. Were you able to procure\nsomething befitting of being called a Gentleman's\nTaste?<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -363,10 +363,36 @@
     "zh-Hans": "<if_woman><attr><feel_normal_lv1><end_attr>嗯……怎么样，小姐。\n您帮我拿来符合绅士品位的东西了吗？<else><attr><feel_normal_lv1><end_attr>嗯……怎么样，先生。\n您帮我拿来符合绅士品位的东西了吗？<endif>",
     "zh-Hant": "<if_woman><attr><feel_normal_lv1><end_attr>嗯嗯……小姐，事情辦得如何？\n您幫我拿到與紳士品味\n相符的物品了嗎？<else><attr><feel_normal_lv1><end_attr>嗯嗯……先生，事情辦得如何？\n您幫我拿到與紳士品味\n相符的物品了嗎？<endif>"
   },
+  "54483": {
+    "$comments": "🟢, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OTOKONOKORON]`, GIVE?",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> das <color_yellow>Herrenparfum<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Men's Cologne<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> el <color_yellow>Perfume del Hombre<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> le <color_yellow>Parfum de l'Homme<color_white> ?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "it": "Dare <%sEV_SYSMSG_NPC> il <color_yellow>Profumo dell'Uomo<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ja": "バロンに\n男のコロンを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ko": "바론에게\n남자의 콜로뉴를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> o <color_yellow>Perfume do Homem<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hans": "要把男人的古龙水\n交给巴隆吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hant": "是否要將男子漢古龍水\n交給巴隆？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "54484": {
+    "$comments": "🟢, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_OTOKONOKORON]`, GAVE!",
+    "de": "<pc> gab <%sEV_SYSMSG_NPC> das <color_yellow>Herrenparfum<color_white>!",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Men's Cologne<color_white>!",
+    "es": "¡<pc> le dio a <%sEV_SYSMSG_NPC> el <color_yellow>Perfume del Hombre<color_white>!",
+    "fr": "<pc> a donné a <%sEV_SYSMSG_NPC> le <color_yellow>Parfum de l'Homme<color_white> !",
+    "it": "<pc> ha dato a <%sEV_SYSMSG_NPC> il <color_yellow>Profumo dell'Uomo<color_white>!",
+    "ja": "<pc>は　バロンに\n男のコロンを　渡した！",
+    "ko": "{pc}|hpp(은,는) 바론에게\n남자의 콜로뉴를 건넸다!",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> o <color_yellow>Perfume do Homem<color_white>!",
+    "zh-Hans": "<pc>把男人的古龙水\n交给了巴隆！",
+    "zh-Hant": "<pc>把男子漢古龍水\n交給了巴隆！"
+  },
   "54474": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`, NO",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Mmm... I will be waiting for you at ease. I will be\nwaiting for you at ease. There is no need to\nbe in a hurry.",
+    "en": "<attr><feel_normal_lv1><end_attr>Mmm... So that's how it is, is it. I shall leisurely await\nyou. There is no need to rush.",
     "es": "",
     "fr": "",
     "it": "",
@@ -377,9 +403,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>嗯嗯……原來是這樣。\n我會在這裡悠閒等待的。\n您不需要著急喔。"
   },
   "54475": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`, YES",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Mmm... A deep, bitter aroma with a hint of sweetness.\nThe contrast of strength and gentleness with a\nhint of sweetness. This is Gentleman's Taste.\n<br>\nLet's get started right away and create a new\ncolor using this Men's Cologne. Mmm... Ahem!<bw_break>",
+    "en": "<attr><feel_normal_lv1><end_attr>Mmm... An utmost bitter aroma. Interwoven with the\nfaintest sweetness; strength of simple contrast. This\nis a Gentleman's Taste.\n<br>\nRight away, I shall use this Men's Cologne to create\na new color. Mmm... Ahem!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -390,9 +416,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>嗯嗯……多麼深沉的苦澀香氣，\n淡淡的香甜編織出剛強與溫柔的對比。\n這正是紳士的品味沒錯。\n<br>\n我就馬上使用這瓶男子漢古龍水，\n調製出新顏色吧。\n嗯嗯……咳咳！<bw_break>"
   },
   "54476": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`, cont'd",
     "de": "",
-    "en": "<attr><feel_angry_lv3><end_attr>Ah, That! Magical, Magical ☆ Gent・Gentle・Gentler♪\n.......<bw_break>",
+    "en": "<attr><feel_angry_lv3><end_attr>Ah, here we go!\nMagical-Magical ☆ Gent・Gentle・Gentlaaay ♪\n<br>\n.........<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -403,9 +429,9 @@
     "zh-Hant": "<attr><feel_angry_lv3><end_attr>啊，嘿～！魔力繽紛、魔力閃耀☆\n先生‧紳士‧貴族♪\n<br>\n…………………………<bw_break>"
   },
   "54478": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`, cont'd",
     "de": "",
-    "en": "<attr><feel_think_lv3><end_attr>...Hmmm. Nothing is happening.<bw_break>",
+    "en": "<attr><feel_think_lv3><end_attr>...Hmm. Nothing is occurring, is it.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -416,9 +442,9 @@
     "zh-Hant": "<attr><feel_think_lv3><end_attr>……嗯。什麼事也沒有發生啊。<bw_break>"
   },
   "54479": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`, cont'd",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Oh, that was just now, wasn't it? I was just\nmimicking the way the hair stylists are always\ncreating new colors, and I screamed, too. I\n<br>\nhad no choice. I'll take this Men's Cologne to\nthe salon in town and have the hair stylist\nthere make the color.<bw_break>",
+    "en": "<attr><feel_normal_lv1><end_attr>Aah, that was it just now, wasn't it? I was mimicking\nthe way beauticians always create new colors; I even\ntried exclaiming it, too.\n<br>\nThere's no other recourse. I'll have to take this\nMen's Cologne to a town's beauty salon, and have the\nbeautician there make the color for me.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -429,9 +455,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>喔，剛才啊，我是在模仿平常美容師們\n調製新顏色的樣子，\n我也試著喊了咒語。\n<br>\n沒辦法了，只好把這瓶男子漢古龍水\n拿到鎮上的美容院，\n請那裡的美容師調製好了。<bw_break>"
   },
   "54480": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`, cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>We are sure that we can create a beautiful\ncolor that suits a real gentleman. Please try\nit at the Salon.",
+    "en": "<attr><feel_happy_lv3><end_attr>Surely they be able to make lovely color, suitable\nfor a genuine gentleman. Certainly, when you are at\na beauty salon, try it out for me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -441,10 +467,23 @@
     "zh-Hans": "<attr><feel_happy_lv3><end_attr>用它一定能调制出\n符合真正绅士的美丽颜色。\n请您一定在美容院试一试。",
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>用它一定能夠調製出\n與真正紳士相符的美麗顏色。\n請您務必光臨美容院試試看。"
   },
+  "54485": {
+    "$comments": "🟢, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`",
+    "de": "Eine neue Farbe, „<color_yellow>Dunkelgrau<color_white>“, ist jetzt im Schön-\nheitssalon verfügbar! <me 71>",
+    "en": "A new color, \"<color_yellow>Dark Gray<color_white>\", is now available at the\nBeauty Salon! <me 71>",
+    "es": "¡Un nuevo color, \"<color_yellow>Gris Oscuro<color_white>\", está ya disponible\nen el Salón de Belleza! <me 71>",
+    "fr": "Une nouvelle couleur, « <color_yellow>Gris Foncé<color_white> », est maintenant\ndisponible au Salon de Beauté ! <me 71>",
+    "it": "Un nuovo colore, «<color_yellow>Grigio Scuro<color_white>», è ora disponibile\npresso il Salone di Bellezza! <me 71>",
+    "ja": "美容院で　新しい色\n『ダークグレー』が　使えるようになった！<me 71>",
+    "ko": "미용실에서 새로운 색상\n『다크그레이』를 사용할 수 있게 되었다!<me 71>",
+    "pt-BR": "Uma nova cor, “<color_yellow>Gris-Escuro<color_white>”, está já disponível\nno Salão de Beleza! <me 71>",
+    "zh-Hans": "可以在美容院使用新颜色\n“深灰色”了！<me 71>",
+    "zh-Hant": "可以在美容院使用新顏色\n「深灰」了！<me 71>"
+  },
   "54481": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`, cont'd",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>And this is just a small token of my feelings.\nPlease give it to me.",
+    "en": "<attr><feel_normal_lv1><end_attr>And so, this is a mere token of my feelings. Please,\naccept it for me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -455,9 +494,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>然後，這是我的一點心意。\n請您收下。"
   },
   "54482": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`, cont'd",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>I am an old friend of Madame Felicia, the\nfounder of Salon Fe Lycia. Yes. Madame is a\nvery beautiful woman. But Madame's true beauty\n<br>\ndoes not lie in her appearance. What I\nconsider to be true beauty resides in the\nheart of the person. If you want to be a\n<br>\ngentleman, you should emit charm from the\ninside.",
+    "en": "<attr><feel_normal_lv1><end_attr>I am an old friend of Salon Felisha's founder, Madame\nFelicia.\n<br>\nYes, the madame is an immensely beautiful person.\nHowever, the Madame's true beauty does not lie in her\nappearance.\n<br>\nWhat I consider to be true beauty resides in the heart\nof the person. If one endeavors to be a gentleperson,\none should bring forth that charm from inside.",
     "es": "",
     "fr": "",
     "it": "",
@@ -467,49 +506,10 @@
     "zh-Hans": "<attr><feel_normal_lv1><end_attr>我和菲丽西娅沙龙的创始人\n菲丽西娅夫人是老相识了。\n嗯，夫人是一位非常美丽的女士。\n<br>\n菲丽西娅夫人真正的美丽之处\n不在于她的外表。\n我认为她真正的美丽在于内心。\n<br>\n您要想成为绅士的话，\n也应该从内在散发出您的魅力呀。",
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>我跟菲麗西亞沙龍的創始人\n菲麗西亞夫人是老朋友了。\n嗯，夫人是一位美麗動人的女士。\n<br>\n不過，夫人真正的美麗之處\n並不在於她的外表。\n我認為真正美麗的是她的內心。\n<br>\n如果您想成為紳士，\n希望您能從內在散發出自己的魅力。"
   },
-  "54483": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "Would you give Men's Cologne to Baron?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "バロンに\n男のコロンを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "ko": "바론에게\n남자의 콜로뉴를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "pt-BR": "",
-    "zh-Hans": "要把男人的古龙水\n交给巴隆吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "zh-Hant": "是否要將男子漢古龍水\n交給巴隆？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
-  },
-  "54484": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> gave Men's Cologne to Baron!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　バロンに\n男のコロンを　渡した！",
-    "ko": "{pc}|hpp(은,는) 바론에게\n남자의 콜로뉴를 건넸다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把男人的古龙水\n交给了巴隆！",
-    "zh-Hant": "<pc>把男子漢古龍水\n交給了巴隆！"
-  },
-  "54485": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "A new color \"dark gray\" is now available in\nSalon!<me 71>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "美容院で　新しい色\n『ダークグレー』が　使えるようになった！<me 71>",
-    "ko": "미용실에서 새로운 색상\n『다크그레이』를 사용할 수 있게 되었다!<me 71>",
-    "pt-BR": "",
-    "zh-Hans": "可以在美容院使用新颜色\n“深灰色”了！<me 71>",
-    "zh-Hant": "可以在美容院使用新顏色\n「深灰」了！<me 71>"
-  },
   "54486": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Madame Felicia's true beauty is not in her\nappearance. What I consider to be true beauty\nis something that resides in the heart of the\n<br>\nperson. If you want to be a gentleman, you\nshould emit charm from the inside.",
+    "en": "<attr><feel_happy_lv1><end_attr>Yes, the madame is an immensely beautiful person.\nHowever, the Madame's true beauty does not lie in her\nappearance.\n<br>\nWhat I consider to be true beauty resides in the heart\nof the person. If one endeavors to be a gentleperson,\none should bring forth that charm from inside.",
     "es": "",
     "fr": "",
     "it": "",

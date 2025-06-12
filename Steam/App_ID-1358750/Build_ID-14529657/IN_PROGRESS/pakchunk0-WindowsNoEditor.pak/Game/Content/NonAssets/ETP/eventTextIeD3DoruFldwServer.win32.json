@@ -158,7 +158,7 @@
   "54383": {
     "$comments": "🟡, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_000]`",
     "de": "",
-    "en": "<attr><feel_normal_one><end_attr>I was an apprentice beautician of Salon Felisha. I did\nnothing but train everyday, until I got fed up and\nran away.<bw_break>",
+    "en": "<attr><feel_normal_one><end_attr>I was an apprentice beautician of Salon Felisha. I did\nnothing but train everyday, until I got fed up and ran\naway.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -171,7 +171,7 @@
   "54384": {
     "$comments": "🟡, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_01502, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOUGANITIGO]`, cont'd",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>But, in the end, I left randomly... *cough* As proof of\nmy regret, I thought of returning with a fresh, new\ncolor for the beauty salon to use.\n<br>\nFor that reason, I require a <color_yellow>Volcanic Strawberry<color_white> that\n<color_red><%sEV_QUE_NAME0>s<color_white> in Boronus Lava Flow sometimes drop,\nhowever...",
+    "en": "<attr><feel_sad_one><end_attr>But, in the end, I left randomly... *cough* So, as proof\nof my regret, I thought of returning with a fresh, new\ncolor for the beauty salon to use.\n<br>\nFor that reason, I require a <color_yellow>Volcanic Strawberry<color_white> that\n<color_red><%sEV_QUE_NAME0>s<color_white> in Boronus Lava Flow sometimes drop,\nhowever...",
     "es": "",
     "fr": "",
     "it": "",
@@ -236,7 +236,7 @@
   "54389": {
     "$comments": "🟡, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_010]`",
     "de": "",
-    "en": "<attr><feel_normal_one><end_attr>I was training to make a fresh, new color for the\nbeauty salon to use, until I ran away—if I get it\nto my boss, I think they'll forgive me.<bw_break>",
+    "en": "<attr><feel_normal_one><end_attr>I was training to make a fresh, new color for the beauty\nsalon to use, until I ran away—if I get it to my boss, I\nthink they'll forgive me.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -275,7 +275,7 @@
   "54392": {
     "$comments": "🟡, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOUGANITIGO]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Myyy, traveler! By chance, were you able to obtain\nthe <color_yellow>Volcanic Strawberry<color_white>?",
+    "en": "<attr><feel_happy_one><end_attr>Myyy, traveler! By chance, were you able to obtain the\n<color_yellow>Volcanic Strawberry<color_white>?",
     "es": "",
     "fr": "",
     "it": "",
@@ -287,14 +287,14 @@
   },
   "54402": {
     "$comments": "🟢, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOUGANITIGO]`, GIVE?",
-    "de": "Gibst du <%sEV_SYSMSG_NPC> die <color_yellow>Vulkanische Erdbeere<color_white>?\n",
-    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Volcanic Strawberry<color_white>?\n",
-    "es": "¿Darles <%sEV_SYSMSG_NPC> la <color_yellow>Fresa Volcánica<color_white>?\n",
-    "fr": "Donnes <%sEV_SYSMSG_NPC> la <color_yellow>Fraise Volcanique<color_white> ?\n",
-    "it": "Dare <%sEV_SYSMSG_NPC> la <color_yellow>Fragola Vulcanic<color_white>?\n",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> die <color_yellow>Vulkanische Erdbeere<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Volcanic Strawberry<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> la <color_yellow>Fresa Volcánica<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> la <color_yellow>Fraise Volcanique<color_white> ?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "it": "Dare <%sEV_SYSMSG_NPC> la <color_yellow>Fragola Vulcanic<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "ja": "ミミルナに\nようがんイチゴを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "ko": "미미루나에게\n용암 딸기를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> O <color_yellow>Morango Vulcânico<color_white>?\n",
+    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> O <color_yellow>Morango Vulcânico<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "zh-Hans": "要把熔岩草莓\n交给米米露娜吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
     "zh-Hant": "是否要將熔岩草莓\n交給米米露娜？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
   },
@@ -340,7 +340,7 @@
   "54395": {
     "$comments": "🟡, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOUGANITIGO]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>Phew... Phew... To think Volcanic Strawberries are that\nhot—I had no idea. I'll pull myself together right\naway, and make the new color.",
+    "en": "<attr><feel_sad_one><end_attr>Phew... Phew... To think Volcanic Strawberries are that\nhot—I had no idea. I'll pull myself together right away,\nand make the new color.",
     "es": "",
     "fr": "",
     "it": "",
@@ -353,7 +353,7 @@
   "54396": {
     "$comments": "🟡, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOUGANITIGO]`, YES cont'd",
     "de": "",
-    "en": "<se_nots joutyu SUCCESS>First, I'll put the Volcanic Strawberry in a pot...\nThere. Now, while I mash it, I'll slowly mix it into\na syrup.\n<br>\n...Phew. By now, it should be good, don't you think. So\nthen, from here I'll finish it off with magic.<bw_break>",
+    "en": "<se_nots joutyu SUCCESS>First, I'll put the Volcanic Strawberry in a pot... There.\nNow, while I mash it, I'll slowly mix it into a syrup.\n<br>\n...Phew. By now, it should be good, don't you think. So\nthen, from here I'll finish it off with magic.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -392,7 +392,7 @@
   "54398": {
     "$comments": "🟡, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>I... I... I was able to do it!! Finally, a fresh, fruity,\nnew color! The <color_yellow>Strawberry<color_white> color is completeee!",
+    "en": "<attr><feel_happy_lv3><end_attr>I... I... I was able to do it!! Finally, a fresh, fruity, new\ncolor! The <color_yellow>Strawberry<color_white> color is completeee!",
     "es": "",
     "fr": "",
     "it": "",
@@ -404,21 +404,21 @@
   },
   "54405": {
     "$comments": "🟢, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_020]`, YES cont'd",
-    "de": "Eine neue Farbe, „<color_yellow>Erdbeere<color_white>“, ist jetzt im Schönheitssalon verfügbar! <me 71>",
-    "en": "A new color, \"<color_yellow>Strawberry<color_white>\", is now available at the Beauty Salon! <me 71>",
-    "es": "¡Un nuevo color, \"<color_yellow>Fresa<color_white>\", está ya disponible en el Salón de Belleza! <me 71>",
-    "fr": "Une nouvelle couleur, « <color_yellow>Fraise<color_white> », est maintenant disponible au Salon de Beauté ! <me 71>",
-    "it": "Un nuovo colore, «<color_yellow>Fragola<color_white>», è ora disponibile presso il Salone di Bellezza! <me 71>",
+    "de": "Eine neue Farbe, „<color_yellow>Erdbeere<color_white>“, ist jetzt im Schönheitssalon\nverfügbar! <me 71>",
+    "en": "A new color, \"<color_yellow>Strawberry<color_white>\", is now available at the Beauty\nSalon! <me 71>",
+    "es": "¡Un nuevo color, \"<color_yellow>Fresa<color_white>\", está ya disponible en\nel Salón de Belleza! <me 71>",
+    "fr": "Une nouvelle couleur, « <color_yellow>Fraise<color_white> », est maintenant\ndisponible au Salon de Beauté ! <me 71>",
+    "it": "Un nuovo colore, «<color_yellow>Fragola<color_white>», è ora disponibile presso\nil Salone di Bellezza! <me 71>",
     "ja": "美容院用の　新しい色\n『ストロベリー』が　完成した！<me 71>",
     "ko": "미용실의 새로운 색상\n『스트로베리』가 완성되었다!<me 71>",
-    "pt-BR": "Uma nova cor, “<color_yellow>Morango<color_white>”, está já disponível no Salão de Beleza! <me 71>",
+    "pt-BR": "Uma nova cor, “<color_yellow>Morango<color_white>”, está já disponível no Salão\nde Beleza! <me 71>",
     "zh-Hans": "美容院所使用的新颜色\n“草莓色”完成了！<me 71>",
     "zh-Hant": "美容院用的新顏色\n「草莓色」完成了！<me 71>"
   },
   "54399": {
     "$comments": "🟡, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Waaah, I'm super happy! Truly, thank you so much. This\nreward's for you.",
+    "en": "<attr><feel_happy_lv2><end_attr>Waaah, I'm super happy! Truly, thank you so much.\nThis reward's for you.",
     "es": "",
     "fr": "",
     "it": "",
@@ -431,7 +431,7 @@
   "54400": {
     "$comments": "🟡, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>If I bring a lovely, new color like this, I'm sure my\nboss would forgive me! I'm going to build up the\ncourage to go.\n<br>\nIf they do forgive me, then the next time you go to a\nbeauty salon, this <color_yellow>Strawberry<color_white> color should be there.<bw_break>",
+    "en": "<attr><feel_happy_one><end_attr>If I bring a lovely, new color like this, I'm sure my boss\nwill forgive me! I'm gonna build up the courage to go.\n<br>\nIf they do forgive me, then the next time you go to a\nbeauty salon, this <color_yellow>Strawberry<color_white> color should be there.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -457,7 +457,7 @@
   "54406": {
     "$comments": "🟡, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>If I bring a lovely, new color like this, I'm sure my\nboss would forgive me! I'm going to build up the\ncourage to go.\n<br>\nIf they do forgive me, then the next time you go to a\nbeauty salon, this <color_yellow>Strawberry<color_white> color should be there.<bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr>If I bring a lovely, new color like this, I'm sure my boss\nwill forgive me! I'm gonna build up the courage to go.\n<br>\nIf they do forgive me, then the next time you go to a\nbeauty salon, this <color_yellow>Strawberry<color_white> color should be there.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -481,9 +481,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>如果一切順利的話……\n還請你也務必試試看新顏色喔。\n我覺得一定會很適合你的。"
   },
   "54408": {
-    "$comments": "🟡, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_200]`",
+    "$comments": "🟡, Quest (038) {Useful}, see `[STT_NpcInfo.NAME_NPC_01875, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_033_1_200]`, after leaving area and returning",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>My, traveler! I was forgiven, and the Strawberry color\nwas added to the beauty salon's line-up too.\n<br>\n...However, they were so happy it, that after I was\nordered to come up with another new color—in the\nend, it was arranged for me to leave the beauty salon.<bw_break>",
+    "en": "<attr><feel_sad_lv1><end_attr>My, traveler! I was forgiven, and the <color_yellow>Strawberry<color_white> color\nwas added to the beauty salon's line-up too.\n<br>\n...However, they were so happy it, that after I was\nordered to come up with another new color—in the\nend, it was arranged for me to leave the beauty salon.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
