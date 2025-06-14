@@ -262,7 +262,7 @@
   "54466": {
     "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_000]`",
     "de": "",
-    "en": "<if_woman><attr><feel_normal_lv1><end_attr>Mmm... How do you do, mademoiselle. My name is Baron,\nan honorary advisor of Salon Felisha.\n<br>\nLately, our salon's apprentice beauticians have been\ntraining feverishly to create new colors. Mmm... It's\nquite splendid.\n<br>\nAnd I for one—like the youngsters—intend to try\ncreating a dandy, gentlemanly, new color as well.\n<br>\nWould you be so kind as to go have a bout with the\n<color_red><%sEV_QUE_NAME0>s<color_white> of Togas Rocky Road, and procure\nsomething befitting of being called a Gentleman's Taste?<else><attr><feel_normal_lv1><end_attr>Mmm... How do you do, monsieur. My name is Baron,\nan honorary advisor of Salon Felisha.\n<br>\nLately, our salon's apprentice beauticians have been\ntraining feverishly to create new colors. Mmm... It's\nquite splendid.\n<br>\nAnd I for one—like the youngsters—intend to try\ncreating a dandy, gentlemanly, new color as well.\n<br>\nWould you be so kind as to go have a bout with the\n<color_red><%sEV_QUE_NAME0>s<color_white> of Togas Rocky Road, and procure\nsomething befitting of being called a Gentleman's Taste?<endif>",
+    "en": "<if_woman><attr><feel_normal_lv1><end_attr>Mmm... How do you do, mademoiselle. My name is\nBaron, an honorary advisor of Salon Felisha.\n<br>\nLately, our salon's apprentice beauticians have been\ntraining feverishly to create new colors. Mmm... It's\nquite splendid.\n<br>\nAnd I for one—like the youngsters—intend to try\ncreating a dandy, gentlemanly, new color as well.\n<br>\nWould you be so kind as to go have a bout with the\n<color_red><%sEV_QUE_NAME0>s<color_white> of Togas Rocky Road, and procure\nsomething befitting of being called a Gentleman's Taste?<else><attr><feel_normal_lv1><end_attr>Mmm... How do you do, monsieur. My name is Baron,\nan honorary advisor of Salon Felisha.\n<br>\nLately, our salon's apprentice beauticians have been\ntraining feverishly to create new colors. Mmm... It's\nquite splendid.\n<br>\nAnd I for one—like the youngsters—intend to try\ncreating a dandy, gentlemanly, new color as well.\n<br>\nWould you be so kind as to go have a bout with the\n<color_red><%sEV_QUE_NAME0>s<color_white> of Togas Rocky Road, and procure\nsomething befitting of being called a Gentleman's Taste?<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -353,7 +353,7 @@
   "54473": {
     "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`, YESNO",
     "de": "",
-    "en": "<if_woman><attr><feel_normal_lv1><end_attr>Mmm... How do you do, mademoiselle. Were you able to\nprocure something befitting of being called a\nGentleman's Taste?<else><attr><feel_normal_lv1><end_attr>Mmm... How do you do, monsieur. Were you able to procure\nsomething befitting of being called a Gentleman's\nTaste?<endif>",
+    "en": "<if_woman><attr><feel_normal_lv1><end_attr>Mmm... How do you do, mademoiselle. Were you able\nto procure something befitting of being called a\nGentleman's Taste?<else><attr><feel_normal_lv1><end_attr>Mmm... How do you do, monsieur. Were you able to\nprocure something befitting of being called a\nGentleman's Taste?<endif>",
     "es": "",
     "fr": "",
     "it": "",
@@ -405,7 +405,7 @@
   "54475": {
     "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`, YES",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>Mmm... An utmost bitter aroma. Interwoven with the\nfaintest sweetness; strength of simple contrast. This\nis a Gentleman's Taste.\n<br>\nRight away, I shall use this Men's Cologne to create\na new color. Mmm... Ahem!<bw_break>",
+    "en": "<attr><feel_normal_lv1><end_attr>Mmm... An utmost bitter aroma. Interwoven with the\nfaintest sweetness; strength of simple contrast. This is\na Gentleman's Taste.\n<br>\nRight away, I shall use this Men's Cologne to create\na new color. Mmm... Ahem!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -496,7 +496,7 @@
   "54482": {
     "$comments": "🟡, Quest (039) {Useful}, see `[STT_NpcInfo.NAME_NPC_01871, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_029_1_020]`, cont'd",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>I am an old friend of Salon Felisha's founder, Madame\nFelicia.\n<br>\nYes, the madame is an immensely beautiful person.\nHowever, the Madame's true beauty does not lie in her\nappearance.\n<br>\nWhat I consider to be true beauty resides in the heart\nof the person. If one endeavors to be a gentleperson,\none should bring forth that charm from inside.",
+    "en": "<attr><feel_normal_lv1><end_attr>I am an old friend of Salon Felisha's founder, Madame\nFelisha.\n<br>\nYes, the madame is an immensely beautiful person.\nHowever, the Madame's true beauty does not lie in her\nappearance.\n<br>\nWhat I consider to be true beauty resides in the heart\nof the person. If one endeavors to be a gentleperson,\none should bring forth that charm from inside.",
     "es": "",
     "fr": "",
     "it": "",
