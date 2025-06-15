@@ -301,7 +301,7 @@
   "39375": {
     "$comments": "🔴, ",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>You know the giant doll enshrined in Orphea Town's\ncircus tent? It's called the Cake God; a beloved\nstatue.\n<br>\nI took a cue from the Cake God and created a brand\nnew cute and catchy character, the Choco-God.\n<br>\nAs the name suggests, he's the chocolate-cake god!\nEventually, I'll use him to revolutionize the\ncharacter business!",
+    "en": "<attr><feel_happy_lv2><end_attr>You know the giant doll enshrined in Orphea Town's\ncircus tent? It's a beloved statue called the \"Cake God\".\n<br>\nI took a cue from the Cake God and created a brand\nnew cute and catchy character, the Choco-God.\n<br>\nAs the name suggests, he's the chocolate-cake god!\nEventually, I'll use him to revolutionize the character\nbusiness!",
     "es": "",
     "fr": "",
     "it": "",
@@ -314,7 +314,7 @@
   "39376": {
     "$comments": "🔴, ",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>You know the giant doll enshrined in Orphea Town's\ncircus tent? It's called the Cake God; a beloved\nstatue.\n<br>\nI took a cue from the Cake God and created a brand\nnew cute and catchy character, the Choco-God.\n<br>\nFor now, I've only just started selling the\nChoco-God Plushies that I make, but they're very\nprofitable... Especially in the Gartland Castle area.\n<br>\nThanks to retailer's support, I feel that a boom\nis coming.",
+    "en": "<attr><feel_happy_lv2><end_attr>You know the giant doll enshrined in Orphea Town's\ncircus tent? It's a beloved statue called the \"Cake God\".\n<br>\nI took a cue from the Cake God and created a brand\nnew cute and catchy character, the Choco-God.\n<br>\nFor now, I've only just started selling the\nChoco-God Plushies that I make, but they're very\nprofitable... Especially in the Gartland Castle area.\n<br>\nThanks to retailer's support, I feel that a boom\nis coming.",
     "es": "",
     "fr": "",
     "it": "",
@@ -327,7 +327,7 @@
   "39377": {
     "$comments": "🔴, ",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>You know the giant doll enshrined in Orphea Town's\ncircus tent? It's called the Cake God; a beloved\nstatue.\n<br>\nI took a cue from the Cake God and created a brand\nnew cute and catchy character, the Choco-God.\n<br>\n...Hmm? In Gartlant Castletown, the store selling the\nChoco-God Plushies-Mr. Zackes' shop-has been shut\ndown...?",
+    "en": "<attr><feel_happy_lv2><end_attr>You know the giant doll enshrined in Orphea Town's\ncircus tent? It's a beloved statue called the \"Cake God\".\n<br>\nI took a cue from the Cake God and created a brand\nnew cute and catchy character, the Choco-God.\n<br>\n...Hmm? In Gartlant Castletown, the store selling the\nChoco-God Plushies-Mr. Zackes' shop-has been shut\ndown...?",
     "es": "",
     "fr": "",
     "it": "",
@@ -429,9 +429,9 @@
     "zh-Hant": "嗯哼～我是性感大姊姊～\n最、最、最喜歡優雅的東西了～\n接下來我要去當個實習美容師了～\n<br>\n位於遙遠西方的花都麥奇斯翠絲\n有間店叫做美容院，\n之後就要開幕了，記得來光顧喔～"
   },
   "59249": {
-    "$comments": "🟡, Quest (040) {Useful}, see `[STT_NpcInfo.NAME_NPC_00376, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_037_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_07602, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YORUNOSASAYAKI]`, YESNO",
+    "$comments": "🟡, Quest (040) {Useful}, see `[STT_NpcInfo.NAME_NPC_00376, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_037_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_07602, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YORUNOSASAYAKI]`",
     "de": "",
-    "en": "I'm Salon Felisha's apprentice beauticiaaan. Soon,\nI'll make a new color for the beauty salon to useee.\n<br>\nI intend to make an even sexier, more elegant color,\nit's juuust: I need a jewel called \"<color_yellow>Nightwhisper<color_white>\"\nthat <color_red><%sEV_QUE_NAME0>s<color_white> haveee.\n<br>\nIt seems like the monsters in the Sage's Retreat of\nthe Popola Region sometimes drop <color_yellow>Nightwhisper<color_white>, it's\njuuust: they're super strong, so no way I can get it.",
+    "en": "I'm Salon Felisha's apprentice beauticiaaan. Soon, I'll\nmake a new color for the beauty salon to useee.\n<br>\nI intend to make an even sexier, more elegant color,\nit's juuust: I need a jewel called \"<color_yellow>Nightwhisper<color_white>\" that\n<color_red><%sEV_QUE_NAME0>s<color_white> haveee.\n<br>\nIt seems like the monsters in the Sage's Retreat of\nthe Popola Region sometimes drop <color_yellow>Nightwhisper<color_white>, it's\njuuust: they're super strong, so no way I can get it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -440,6 +440,19 @@
     "pt-BR": "",
     "zh-Hans": "我是菲丽西娅沙龙的见习美容师。\n我接下来的工作是\n调制在美容院使用的新颜色～\n<br>\n我想做出一种性感又雅致的颜色，\n可是手头缺少一种叫夜之细语的宝石。\n这种宝石一般可以从<%sEV_QUE_NAME0>身上取得。\n<br>\n栖息在波波拉地区\n贤者隐居之处的那种怪物会掉落夜之细语，\n但它们很强，我搞不定啊～",
     "zh-Hant": "我是菲麗西亞沙龍的實習美容師～\n這次的工作是要製作\n美容院要用的新顏色～\n<br>\n我想做出更性感、更優雅的顏色，\n但是需要<%sEV_QUE_NAME0>身上的一種寶石，\n叫做夜之細語～\n<br>\n那種會掉落夜之細語的怪物\n就在波波拉地方的賢者隱居處，\n可是牠們很強，我完全打不過～"
+  },
+  "61581": {
+    "$comments": "🟡, Quest (040) {Useful}, see `[STT_NpcInfo.NAME_NPC_00376, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_037_1_000, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YORUNOSASAYAKI]`, YESNO",
+    "de": "",
+    "en": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>Oh yeah. Speaking of, you're a strong giiirl. Aaaah.\nDo it for me, pl・ea・se <heart> Go get that <color_yellow>Nightwhisperrr<color_white>.<else><attr><feel_happy_lv2><end_attr><icon_exc>Oh yeah. Speaking of, you're a strong booooy. Aaaah.\nDo it for me, pl・ea・se <heart> Go get that <color_yellow>Nightwhisperrr<color_white>.<endif>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>「いやん。あなたってば　ストロングガール～。\n　ああ～ん。あたしからの　お・ね・が・い<heart>\n　夜のささやきを　手に入れてきて～ん。<else><attr><feel_happy_lv2><end_attr><icon_exc>「いやん。あなたってば　ストロングボーイ～。\n　ああ～ん。あたしからの　お・ね・が・い<heart>\n　夜のささやきを　手に入れてきて～ん。<endif>",
+    "ko": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>: 어머낭. 당신은 스트롱 걸~\n　아앙~ 내가 이렇게 부・탁・할・게<heart>\n　밤의 속삭임을 구해 와 줘엉~<else><attr><feel_happy_lv2><end_attr><icon_exc>: 어머낭. 당신은 스트롱 보이~\n　아앙~ 내가 이렇게 부・탁・할・게<heart>\n　밤의 속삭임을 구해 와 줘엉~<endif>",
+    "pt-BR": "",
+    "zh-Hans": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>哎呀～你这女孩看起来实力不凡呢。\n嗯哼～我有个小·小·的·请·求<heart>\n能不能帮忙为我拿到夜之细语呢？<else><attr><feel_happy_lv2><end_attr><icon_exc>哎呀～你这男孩看起来实力不凡呢。\n嗯哼～我有个小·小·的·请·求<heart>\n能不能帮忙为我拿到夜之细语呢？<endif>",
+    "zh-Hant": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>唷～你真是個厲害的女孩啊～\n嗯哼～我有事情想拜、託、你<heart>\n請你幫我去拿夜之細語嘛～<else><attr><feel_happy_lv2><end_attr><icon_exc>唷～你真是個厲害的男孩啊～\n嗯哼～我有事情想拜、託、你<heart>\n請你幫我去拿夜之細語嘛～<endif>"
   },
   "59250": {
     "$comments": "🟡, Quest (040) {Useful}, see `[STT_NpcInfo.NAME_NPC_00376, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_037_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_07602, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YORUNOSASAYAKI]`, YES",
@@ -480,23 +493,10 @@
     "zh-Hans": "<attr><feel_sad_lv2><end_attr>啊啊～以这样性感的声音来拒绝我的诉求，\n真是决绝至极，令人肝肠寸断～\n这声音，我禁不住要迷失在其中了～\n<br>\n从夜之细语中提取的\n性感又雅致的御姐颜色……\n本应非常适合你的，太遗憾了～",
     "zh-Hant": "<attr><feel_sad_lv2><end_attr>啊啊～用那種性感嗓音拒絕我的請求，\n真讓我求生不能，求死不得～\n聽得我都快昏倒了～\n<br>\n以夜之細語催生出來的\n更加性感、更加優雅的成熟大姊姊系顏色……\n明明很適合你的，真是太遺憾了～"
   },
-  "61581": {
-    "$comments": "🟡, Quest (040) {Useful}, see `[STT_NpcInfo.NAME_NPC_00376, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_037_1_010, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YORUNOSASAYAKI]`",
-    "de": "",
-    "en": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>Oh yeah. Speaking of, you're a strong giiirl. Aaaah.\nDo it for me, pl・ea・se <heart> Go get that <color_yellow>Nightwhisperrr<color_white>.<else><attr><feel_happy_lv2><end_attr><icon_exc>Oh yeah. Speaking of, you're a strong booooy. Aaaah.\nDo it for me, pl・ea・se <heart> Go get that <color_yellow>Nightwhisperrr<color_white>.<endif>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>「いやん。あなたってば　ストロングガール～。\n　ああ～ん。あたしからの　お・ね・が・い<heart>\n　夜のささやきを　手に入れてきて～ん。<else><attr><feel_happy_lv2><end_attr><icon_exc>「いやん。あなたってば　ストロングボーイ～。\n　ああ～ん。あたしからの　お・ね・が・い<heart>\n　夜のささやきを　手に入れてきて～ん。<endif>",
-    "ko": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>: 어머낭. 당신은 스트롱 걸~\n　아앙~ 내가 이렇게 부・탁・할・게<heart>\n　밤의 속삭임을 구해 와 줘엉~<else><attr><feel_happy_lv2><end_attr><icon_exc>: 어머낭. 당신은 스트롱 보이~\n　아앙~ 내가 이렇게 부・탁・할・게<heart>\n　밤의 속삭임을 구해 와 줘엉~<endif>",
-    "pt-BR": "",
-    "zh-Hans": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>哎呀～你这女孩看起来实力不凡呢。\n嗯哼～我有个小·小·的·请·求<heart>\n能不能帮忙为我拿到夜之细语呢？<else><attr><feel_happy_lv2><end_attr><icon_exc>哎呀～你这男孩看起来实力不凡呢。\n嗯哼～我有个小·小·的·请·求<heart>\n能不能帮忙为我拿到夜之细语呢？<endif>",
-    "zh-Hant": "<if_woman><attr><feel_happy_lv2><end_attr><icon_exc>唷～你真是個厲害的女孩啊～\n嗯哼～我有事情想拜、託、你<heart>\n請你幫我去拿夜之細語嘛～<else><attr><feel_happy_lv2><end_attr><icon_exc>唷～你真是個厲害的男孩啊～\n嗯哼～我有事情想拜、託、你<heart>\n請你幫我去拿夜之細語嘛～<endif>"
-  },
   "59253": {
     "$comments": "🟡, Quest (040) {Useful}, see `[STT_NpcInfo.NAME_NPC_00376, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_037_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_07602, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YORUNOSASAYAKI]`, cont'd",
     "de": "",
-    "en": "Ahhhh. Get me the jewel called, \"<color_yellow>Nightwhisper<color_white>\", by\ndefeating <color_red><%sEV_QUE_NAME0>s<color_white> in Sage's Lair of the\nPopola Regiooon.<open_irai><bw_break>",
+    "en": "Ahhhh. Get me the jewel called, \"<color_yellow>Nightwhisper<color_white>\", by\ndefeating <color_red><%sEV_QUE_NAME0>s<color_white> in Sage's Retreat of the\nPopola Regiooon.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -509,7 +509,7 @@
   "63703": {
     "$comments": "🟡, Quest (040) {Useful}, see `[STT_NpcInfo.NAME_NPC_00376, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_037_1_010]`, cont'd",
     "de": "",
-    "en": "To make the even sexier, more elegant color—no\nmatter what—I need that jeweeel. Hang in there,\nhang in theeere. Hang in there, hang in theeere.",
+    "en": "To make an even sexier, more elegant color—no matter\nwhat—I need that jeweeel. Hang in there, hang in\ntheeere. Hang in there, hang in theeere.",
     "es": "",
     "fr": "",
     "it": "",
@@ -522,7 +522,7 @@
   "59254": {
     "$comments": "🟡, Quest (040) {Useful}, see `[STT_NpcInfo.NAME_NPC_00376, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_037_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YORUNOSASAYAKI]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Aaaah. Come on, don't do thaaat. Whether you want me\nto or not, I totally heard thaaat. The <color_yellow>Nightwhisper<color_white>'s\ncalling out for me fiercelyyy.\n<br>\nI... I can't take it anymooore. Give it to meee. The\n<color_yellow>Nightwhisperrr<color_white>.",
+    "en": "<attr><feel_happy_lv3><end_attr>Aaaah. Come on, no waaay. Whether you want me to or\nnot, I totally heard thaaat. The <color_yellow>Nightwhisper<color_white>'s calling\nout for me fiercelyyy.\n<br>\nI... I can't take it anymooore. Give it to meee. The\n<color_yellow>Nightwhisperrr<color_white>.",
     "es": "",
     "fr": "",
     "it": "",
@@ -535,7 +535,7 @@
   "59255": {
     "$comments": "🟡, Quest (040) {Useful}, see `[STT_NpcInfo.NAME_NPC_00376, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_037_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YORUNOSASAYAKI]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv2><end_attr>Aaaah. Don't do stuff like thaaat. Teasing me by\nwhispering in front of me like that; I'll get dizzy\nand faaaint.",
+    "en": "<attr><feel_sad_lv2><end_attr>Aaaah. Don't do stuff like thaaat. Teasing me by\nwhispering in front of me like that; I'll get dizzy and\nfaaaint.",
     "es": "",
     "fr": "",
     "it": "",
@@ -587,7 +587,7 @@
   "59257": {
     "$comments": "🟡, Quest (040) {Useful}, see `[STT_NpcInfo.NAME_NPC_00376, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_037_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YORUNOSASAYAKI]`, YES cont'd",
     "de": "",
-    "en": "Ooooh <heart> There's no point in whispering like thaaat.\nI've been waiting for youuu, lil Nightwhisper. I'll\nextract the color right away, so hold ooon.<bw_break>",
+    "en": "Ooooh <heart> There's no point in whispering like thaaat.\nI've been waiting for youuu, lil Nightwhisper. I'll extract\nthe color right away, so hold ooon.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -665,7 +665,7 @@
   "59260": {
     "$comments": "🟡, Quest (040) {Useful}, see `[STT_NpcInfo.NAME_NPC_00376, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_037_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YORUNOSASAYAKI]`, cont'd",
     "de": "",
-    "en": "I'll make sure that if you go to a salon anywhere,\nthat this sexy Midnight color will be availableee.\nIt'd be perfect on you, so give it a tryyy.\n<br>\nTo become an even sexier, more elegant, lovely lady,\nthere's no time for sleeping; this beauty witch has\nto studyyy.\n<br>\nLike Madame Felisha, you've got to be conscious of\nhow you shine to others toooooo. Shining people are\nsuper lovelyyy.",
+    "en": "I'll make sure that if you go to a salon anywhere, that\nthis sexy <color_yellow>Midnight<color_white> color will be availableee. It'd be\nperfect on you, so give it a tryyy.\n<br>\nTo become an even sexier, more elegant, lovely lady,\nthere's no time for sleeping; this beauty witch has to\nstudyyy.\n<br>\nLike Madame Felisha, you've got to be conscious of\nhow you shine to others toooooo. Shining people are\nsuper lovelyyy.",
     "es": "",
     "fr": "",
     "it": "",
@@ -678,7 +678,7 @@
   "59265": {
     "$comments": "🟡, Quest (040) {Useful}, see `[STT_NpcInfo.NAME_NPC_00376, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_037_1_200]`",
     "de": "",
-    "en": "To become an even sexier, more elegant, lovely lady,\nthere's no time for sleeping; this beauty witch has\nto studyyy.\n<br>\nLike Madame Felisha, you've got to be conscious of\nhow you shine to others toooooo. Shining people are\nsuper lovelyyy.",
+    "en": "To become an even sexier, more elegant, lovely lady,\nthere's no time for sleeping; this beauty witch has to\nstudyyy.\n<br>\nLike Madame Felisha, you've got to be conscious of\nhow you shine to others toooooo. Shining people are\nsuper lovelyyy.",
     "es": "",
     "fr": "",
     "it": "",

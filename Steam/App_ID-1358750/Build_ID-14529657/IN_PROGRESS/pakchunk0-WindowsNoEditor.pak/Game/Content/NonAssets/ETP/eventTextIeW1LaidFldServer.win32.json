@@ -221,9 +221,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>在我還是玩樂者的時候，修理過一個倒在路邊的，\n古代機械，那就是輩前，\n令人吃驚的是，它現在還在當玩樂者呢。\n<br>\n而且它的古代心理諮詢機能還是有效，\n沒想到因此超越時空襲擊了玩樂者……\n世間萬物的因果還真是難以預料呢。\n<br>\n不過，這次真是受你關照了，\n今後也要多跟路奇他們一起玩，\n那傢伙一定會很高興的。"
   },
   "60424": {
-    "$comments": "🟡, see `Game.locres.json:STT_NpcInfo.NAME_NPC_00375`",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_000]`, before clearing Quest (034)",
     "de": "",
-    "en": "<attr><feel_angry_lv3><end_attr>What'reya lookin' at? Are noble, beautiful looks like\nmine that rare!?<br_break>",
+    "en": "<attr><feel_angry_lv3><end_attr>What'reya lookin' at? Are noble, pretty looks like\nmine that rare!?<br_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -234,9 +234,9 @@
     "zh-Hant": "<attr><feel_angry_lv3><end_attr>你在看什麼啊～！\n像我這樣高貴又美麗的臉龐，\n對你來說很稀奇嗎！？<br_break>"
   },
   "60425": {
-    "$comments": "🟡, see `Game.locres.json:STT_NpcInfo.NAME_NPC_00375`",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_000]`, before clearing Quest (034)",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Hahahah. Fine. For you, I'll tell. Soon, a beauty\nparlor called \"Salon Felicia\" is about to open all\nover!\n<br>\nIf you want to be as beautiful as me, you should try\nvisiting Verinard Castle's beauty parlor, which is\nwaaay to the northwest, okayyy!",
+    "en": "<attr><feel_happy_one><end_attr>Hahahah. Fine. For ya, I'll tell. Soon, a beauty\nsalon called \"Salon Felisha\" is abouta open all\nover!\n<br>\nIf ya wanna be as beautiful as me, ya should try\nvisiting Verinard Castle's beauty salon, which is\nwaaay ta the northwest, 'kayyy!",
     "es": "",
     "fr": "",
     "it": "",
@@ -247,9 +247,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>呵呵，好啊，我可以告訴你。\n再過不久，一間叫菲麗西亞沙龍的美容院，\n就要在各地同時開幕營業啦！\n<br>\n要是你想變得像我一樣美麗，\n可以去拜訪一下\n位於遙遠西北邊的威里納德城的美容院喔！"
   },
   "60426": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_13401, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TUMIBUKAKIBARA]`",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>I am an apprentice hairdresser at Salon Fe\nLycia! I've come all the way here to create\nnew colors for the salon! I have a noble and\n<br>\nbeautiful face, so I thought a beautiful color\nwould be good for me, right? I thought the\ncolor of roses would be perfect! So, I found\n<br>\nout that there is a <%sEV_QUE_NAME0> called\nSinful Rose in the southwest of Lenam Fields!<br_break>",
+    "en": "<attr><feel_angry_lv1><end_attr>I'm Salon Felisha's apprentice beautician! I came all\nthe way out here ta make a new color for the beauty\nsalon!\n<br>\nI got noble, pretty looks, so I should make a pretty\ncolor, shooouldn't I? I thought a rose color or\nsomethin'd be juuust perfect!\n<br>\nSo, I checked out a place in southwest Leenam Fields,\nwhere <color_red><%sEV_QUE_NAME0>s<color_white> seem ta got a rose called a\n\"<color_yellow>Sinful Rose<color_white>\"!<br_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -260,9 +260,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>我是菲麗西亞沙龍美容院的見習美容師！\n是為了做出美容院要用的新顏色才來這裡的！\n<br>\n既然是長得高貴又美麗的本小姐要製作的新顏色，\n那一定要很美麗才行吧？\n像玫瑰色就很適合我呢！\n<br>\n所以我先做過功課了，\n在雷納姆綠野西南邊出沒的<%sEV_QUE_NAME0>，\n好像身上就帶著一種叫深罪玫瑰的玫瑰花喔！<br_break>"
   },
   "60427": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_13401, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TUMIBUKAKIBARA]`, YESNO",
     "de": "",
-    "en": "<attr><feel_think_one><end_attr>But they are very strong. I felt I had reached\nmy limit in defeating them all by myself. So,\nI was wondering if you could help me.",
+    "en": "<attr><feel_think_one><end_attr>But they're super strong, I hear... And I feel like I've\nreached my limit ta be defeatin' them all by myself,\n'kayy...\n<br>\nSo, that said, do ya think ya could lend me a hand?",
     "es": "",
     "fr": "",
     "it": "",
@@ -273,9 +273,9 @@
     "zh-Hant": "<attr><feel_think_one><end_attr>但是牠真的是太強大了……\n憑我一個人要打倒牠感覺頗為吃力。\n……所以啦，你能夠幫幫我嗎？"
   },
   "60428": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_13401, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TUMIBUKAKIBARA]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Crikey! Thanks! I'll do my best! But if you\nget the Sinful Rose first, please deliver it\nhere!",
+    "en": "<attr><feel_happy_lv3><end_attr>Kyaaah! Thanks! I'll do my best too! Still... If ya get\nthe <color_yellow>Sinful Rose<color_white> soon, deliver it here, 'kayyy!",
     "es": "",
     "fr": "",
     "it": "",
@@ -286,9 +286,9 @@
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>呀～！謝謝你！我也會加油的！\n不過……要是你比我先獲得深罪玫瑰的話，\n記得帶來這裡交給我喔！"
   },
   "60429": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_13401, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TUMIBUKAKIBARA]`, QUESTS FULL",
     "de": "",
-    "en": "<attr><feel_think_lv3><end_attr>Crikey! Thanks! What? You're full of other\nrequests! Oh, God! You'd better free your\nhands and come back!",
+    "en": "<attr><feel_think_lv3><end_attr>Kyaaah! Thanks!... EHH!? You're fulla other requests,\nain'tcha! Maaan! When yer hand're free, come visit\nme again, 'kayyy!",
     "es": "",
     "fr": "",
     "it": "",
@@ -299,9 +299,9 @@
     "zh-Hant": "<attr><feel_think_lv3><end_attr>呀～！謝謝你！……咦！？\n你不是已經接了一堆委託了嗎！？\n真是的！等你有空再來找我吧！"
   },
   "60430": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_13401, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TUMIBUKAKIBARA]`, NO",
     "de": "",
-    "en": "<attr><feel_think_lv3><end_attr>What? You won't do it? It breaks my heart to\ndefeat so many of those <%sEV_QUE_NAME0> by\nmyself. Please..! Please help me with my work\n<br>\nsomeday when you feel like it!",
+    "en": "<attr><feel_think_lv3><end_attr>EHH!? Ya won't do it for meee? Thinkin' 'bout how\nmany o' those <color_red><%sEV_QUE_NAME0>s<color_white> I'll have ta take\ndown by myself breaks my heart.\n<br>\nI'm beggin'! Whenever ya change yer mind, help me\nwit' my job, pleeeze!",
     "es": "",
     "fr": "",
     "it": "",
@@ -312,9 +312,9 @@
     "zh-Hant": "<attr><feel_think_lv3><end_attr>咦～！？你不願意幫我嗎？\n要我一個人打倒那麼多隻<%sEV_QUE_NAME0>，\n也太令人崩潰了吧。\n<br>\n拜託了！如果你哪天改變了心意，\n一定要來幫我喔！"
   },
   "60431": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_13401, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TUMIBUKAKIBARA]`",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr>Please help me get the Sinful Rose flower that\n<%sEV_QUE_NAME0> has here in Lenam Fields!<open_irai><bw_break>",
+    "en": "<attr><feel_angry_lv1><end_attr>Lend me a hand gettin' the <color_yellow>Sinful Rose<color_white> that the\n<color_red><%sEV_QUE_NAME0>s<color_white> in Leenam Fields got, pleeeze!<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -325,9 +325,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr>我需要在雷納姆綠野出沒的\n<%sEV_QUE_NAME0>身上的深罪玫瑰，\n幫幫我嘛！<open_irai><bw_break>"
   },
   "60432": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_010]`, cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>I want to use these flowers to create a new\ncolor that will suit my noble and beautiful\nface! I'll do my best, too!<close_irai>",
+    "en": "<attr><feel_happy_one><end_attr>I wanna use that flower ta make a new color that\nperfectly suits my noble, pretty looks! I'll do my\nbest too, so take care o' it, 'kayyy!<close_irai>",
     "es": "",
     "fr": "",
     "it": "",
@@ -338,9 +338,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>我想用那種花做出適合本小姐，\n高貴又美麗的新顏色！\n我也會加油的，所以拜託你了喔！<close_irai>"
   },
   "60433": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TUMIBUKAKIBARA]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Oh? This scent. Did you happen to get your\nhands on a bottle of Sinful Rose, did you?",
+    "en": "<attr><feel_happy_one><end_attr>Ahh...? That smell... Ya, by chance, ya happened ta get\nyer hands on the <color_yellow>Sinful Rose<color_white> for me, ain't ya?",
     "es": "",
     "fr": "",
     "it": "",
@@ -350,10 +350,36 @@
     "zh-Hans": "<attr><feel_happy_one><end_attr>哎呀……这迷人的香气……\n莫非你已经\n拿到深罪玫瑰了？",
     "zh-Hant": "<attr><feel_happy_one><end_attr>哎呀……？這個香味是……\n難道你已經拿到深罪玫瑰了嗎？"
   },
+  "60443": {
+    "$comments": "🟢, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TUMIBUKAKIBARA]`, GIVE?",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> die <color_yellow>Sündige Rose<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Sinful Rose<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> la <color_yellow>Rosa Pecaminosa<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> la <color_yellow>Rose Pécheresse<color_white> ?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "it": "Dare <%sEV_SYSMSG_NPC> la <color_yellow>Rosa Peccaminosa<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ja": "ローゼリナに\n罪深きバラを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ko": "로젤리나에게\n죄 많은 장미를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "pt-BR": "Dê a <%sEV_SYSMSG_NPC> a <color_yellow>Rosa Pecaminosa<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hans": "要把深罪玫瑰\n交给罗塞丽娜吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hant": "是否要將深罪玫瑰\n交給羅澤莉娜？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "60444": {
+    "$comments": "🟢, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TUMIBUKAKIBARA]`, GAVE!",
+    "de": "<pc> gab <%sEV_SYSMSG_NPC> die <color_yellow>Sündige Rose<color_white>!",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Sinful Rose<color_white>!",
+    "es": "¡<pc> le dio a <%sEV_SYSMSG_NPC> la <color_yellow>Rosa Pecaminosa<color_white>!",
+    "fr": "<pc> a donné a <%sEV_SYSMSG_NPC> la <color_yellow>Rose Pécheresse<color_white> !",
+    "it": "<pc> ha dato a <%sEV_SYSMSG_NPC> la <color_yellow>Rosa Peccaminosa<color_white>!",
+    "ja": "<pc>は　ローゼリナに\n罪深きバラを　渡した！",
+    "ko": "{pc}|hpp(은,는) 로젤리나에게\n죄 많은 장미를 건넸다!",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> a <color_yellow>Rosa Pecaminosa<color_white>!",
+    "zh-Hans": "<pc>把深罪玫瑰\n交给了罗塞丽娜。",
+    "zh-Hant": "<pc>把深罪玫瑰\n交給了羅澤莉娜！"
+  },
   "60434": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TUMIBUKAKIBARA]`, NO",
     "de": "",
-    "en": "<attr><feel_angry_lv2><end_attr>I know you have it! Please give it to me as\nsoon as possible!",
+    "en": "<attr><feel_angry_lv2><end_attr>Ya got it, I know it! Hurry up 'n' give it ta me, pleeeze!",
     "es": "",
     "fr": "",
     "it": "",
@@ -364,9 +390,9 @@
     "zh-Hant": "<attr><feel_angry_lv2><end_attr>我知道你已經拿到了！\n快點把它交給我吧！"
   },
   "60435": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TUMIBUKAKIBARA]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Aaw, beautiful rose, isn't it! How sinful... I know\nbecause I'm like that too. I was just a little\nbit determined. I have to make colors!",
+    "en": "<attr><feel_happy_lv2><end_attr>Aah, pretty rose, ain't it! How sinful... I am too, so\nI know well... Just now, I was soaking it in, wasn't I.\nI gotta make the color!",
     "es": "",
     "fr": "",
     "it": "",
@@ -377,9 +403,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>哎呀，這玫瑰真是美麗！美麗得像是一種罪過……\n就跟本小姐一樣呢，我很懂……\n哎呀，不小心陶醉過頭了。要趕快製作新顏色才行！"
   },
   "60436": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020]`, YES cont'd",
     "de": "",
-    "en": "<se_nots joutyu SUCCESS>First... Carefully break up the petals one by\none... Then we'll finish it off with our special\nmagic!<bw_break>",
+    "en": "<se_nots joutyu SUCCESS>First... I'll carefully pull off the petals one by one...\nNext, I'll finish it off wit' some magic that I've\ngot tucked up my sleeve!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -390,9 +416,9 @@
     "zh-Hant": "<se_nots joutyu SUCCESS>首先……要將花瓣一枚一枚\n小心地摘下來……\n然後再施展特別魔法，這樣就完成了！<bw_break>"
   },
   "60437": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020]`, YES cont'd",
     "de": "",
-    "en": "Magical Magical <heart> rose, rose, bara, bara,\nbara, bara trumpet!",
+    "en": "Magical-Magical <heart> Rose-Rose-Rorose-Rosesepp!!",
     "es": "",
     "fr": "",
     "it": "",
@@ -402,10 +428,23 @@
     "zh-Hans": "魔力无穷～魔力无边<heart>\n玫瑰·玫瑰·美丽的罪过！！",
     "zh-Hant": "魔力繽紛、魔力閃耀<heart>\n玫瑰、玫瑰，美麗的罪過！！"
   },
-  "60438": {
-    "$comments": "🔴, ",
+  "60445": {
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>Crikey! It's done! The most precious and\nbeautiful new color is ready! The name is just\nlike it sounds, rose-colored!",
+    "en": "Roselina, with precise hands, cast a spell on the\nrose petals!<me 69>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "ローゼリナは　ねっとりとした手つきで\nバラの花びらに　魔法をかけた！<me 69>",
+    "ko": "로젤리나는 끈적한 손놀림으로\n장미 꽃잎에 마법을 걸었다!<me 69>",
+    "pt-BR": "",
+    "zh-Hans": "罗塞丽娜以撩人的手势\n向玫瑰花瓣施展了魔法。<me 69>",
+    "zh-Hant": "羅澤莉娜以撩人的手勢\n對玫瑰的花瓣施展了魔法！<me 69>"
+  },
+  "60438": {
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020]`, YES cont'd",
+    "de": "",
+    "en": "<attr><feel_happy_lv3><end_attr>Kyaaah! I done it! The finest, noblest, prettiest,\nnew color is done! I'll name it, just what it is:\n\"<color_yellow>Rose<color_white>\", 'kayyy!",
     "es": "",
     "fr": "",
     "it": "",
@@ -415,10 +454,23 @@
     "zh-Hans": "<attr><feel_happy_lv3><end_attr>呀！成功了呢！\n最美丽最高贵的新颜色终于制成了呢！\n名字呢～就叫玫瑰色好了！",
     "zh-Hant": "<attr><feel_happy_lv3><end_attr>呀～！成功了！\n最高貴最美麗的新顏色完成了！\n名稱就直接叫玫瑰色吧！"
   },
+  "60446": {
+    "$comments": "🟢, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TUMIBUKAKIBARA]`, YES cont'd",
+    "de": "Eine neue Farbe, „<color_yellow>Rose<color_white>“, ist jetzt im Schönheits-\nsalon verfügbar! <me 71>",
+    "en": "A new color, \"<color_yellow>Rose<color_white>\", is now available at the Beauty\nSalon! <me 71>",
+    "es": "¡Un nuevo color, \"<color_yellow>Rosa<color_white>\", está ya disponible en el\nSalón de Belleza! <me 71>",
+    "fr": "Une nouvelle couleur, « <color_yellow>Rose<color_white> », est maintenant\ndisponible au Salon de Beauté ! <me 71>",
+    "it": "Un nuovo colore, «<color_yellow>Rosa<color_white>», è ora disponibile presso\nil Salone di Bellezza! <me 71>",
+    "ja": "美容院で　新しい色\n『ローズ』が　使えるようになった！<me 71>",
+    "ko": "미용실에서 새로운 색상\n『로즈』를 사용할 수 있게 되었다!<me 71>",
+    "pt-BR": "Uma nova cor, “<color_yellow>Rosa<color_white>”, está já disponível no Salão\nde Beleza! <me 71>",
+    "zh-Hans": "可以在美容院使用新颜色\n“玫瑰色”了！<me 71>",
+    "zh-Hant": "可以在美容院使用新顏色\n「玫瑰色」了！<me 71>"
+  },
   "60439": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Yes! This is a thank you from me! I couldn't\nhave made this color without your help. I\nreally appreciate it!",
+    "en": "<attr><feel_happy_lv2><end_attr>Yes! Here's a reward from me! Wit'out yer help, I\ncouldn't've made this color. Really, I appreciate\niiit!",
     "es": "",
     "fr": "",
     "it": "",
@@ -429,9 +481,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>給你！這是我送你的謝禮！\n要是沒有你幫忙，就做不出這個顏色了。\n真的很感謝你喔～！"
   },
   "60440": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>I'll make this rose color available anywhere\nin Salon, so by all means, you should give it\na try too!<bw_break>",
+    "en": "<attr><feel_happy_one><end_attr>I'll make sure that if ya go ta a salon anywhere, that\nthis <color_yellow>Rose<color_white> color'll be available, so definitely give it a\ntry too, 'kayyy!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -442,9 +494,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>我會讓所有美容院\n都能夠使用這個玫瑰色的，\n你一定要試試看喔！<bw_break>"
   },
   "60441": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020]`, cont'd",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>Beauty is a sin. Just like a beautiful rose\nhas thorns, I too have lived my life while\nhurting others.<bw_break>",
+    "en": "<attr><feel_sad_one><end_attr>Beauty is sin... Just as a beautiful rose has thorns,\nI, too, have come ta live wit' having ta hurt others.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -455,9 +507,9 @@
     "zh-Hant": "<attr><feel_sad_one><end_attr>美麗是一種罪過……\n美麗的玫瑰總是帶著尖刺，\n本小姐的美麗也是一直傷害周圍的人呢。<bw_break>"
   },
   "60442": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_020]`, cont'd",
     "de": "",
-    "en": "But just as the light stands out because of\nthe darkness, the sinfulness makes the beauty\nstand out! That's the kind of beauty I want to\n<br>\nmake known!",
+    "en": "Still, just as darkness makes light stand out,\nsinfulness makes beauty stand out! That's the kinda\nbeauty I wanna make known!",
     "es": "",
     "fr": "",
     "it": "",
@@ -467,62 +519,10 @@
     "zh-Hans": "但是，正如唯有黑暗才能衬托光明，\n这样深重的罪过才能凸显出极致的美丽！\n我也想让世人知道我这美丽的一面呢！",
     "zh-Hant": "但是，正因為有黑暗，光明才會更加醒目，\n深重的罪過也才能讓我的美麗更加醒目！\n我也想讓世人知道我這美麗的一面！"
   },
-  "60443": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "Give Roselina the Sinful Rose?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "ローゼリナに\n罪深きバラを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "ko": "로젤리나에게\n죄 많은 장미를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "pt-BR": "",
-    "zh-Hans": "要把深罪玫瑰\n交给罗塞丽娜吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "zh-Hant": "是否要將深罪玫瑰\n交給羅澤莉娜？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
-  },
-  "60444": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> gave Roselina the Sinful Rose!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　ローゼリナに\n罪深きバラを　渡した！",
-    "ko": "{pc}|hpp(은,는) 로젤리나에게\n죄 많은 장미를 건넸다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把深罪玫瑰\n交给了罗塞丽娜。",
-    "zh-Hant": "<pc>把深罪玫瑰\n交給了羅澤莉娜！"
-  },
-  "60445": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "Roselina cast a spell over the rose petals\nwith her languid hands!<me 69>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "ローゼリナは　ねっとりとした手つきで\nバラの花びらに　魔法をかけた！<me 69>",
-    "ko": "로젤리나는 끈적한 손놀림으로\n장미 꽃잎에 마법을 걸었다!<me 69>",
-    "pt-BR": "",
-    "zh-Hans": "罗塞丽娜以撩人的手势\n向玫瑰花瓣施展了魔法。<me 69>",
-    "zh-Hant": "羅澤莉娜以撩人的手勢\n對玫瑰的花瓣施展了魔法！<me 69>"
-  },
-  "60446": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "A new color, \"rose\", is now available at\nSalon!<me 71>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "美容院で　新しい色\n『ローズ』が　使えるようになった！<me 71>",
-    "ko": "미용실에서 새로운 색상\n『로즈』를 사용할 수 있게 되었다!<me 71>",
-    "pt-BR": "",
-    "zh-Hans": "可以在美容院使用新颜色\n“玫瑰色”了！<me 71>",
-    "zh-Hant": "可以在美容院使用新顏色\n「玫瑰色」了！<me 71>"
-  },
   "60447": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_200]`",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>Beauty is sin... Just like a beautiful rose\nhas thorns, I too have lived my life while\nhurting others.<bw_break>",
+    "en": "<attr><feel_sad_one><end_attr>Beauty is sin... Just as a beautiful rose has thorns,\nI, too, have come ta live wit' having ta hurt others.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -533,9 +533,9 @@
     "zh-Hant": "<attr><feel_sad_one><end_attr>美麗是一種罪過……\n美麗的玫瑰總是帶著尖刺，\n本小姐的美麗也是一直傷害周圍的人呢。<bw_break>"
   },
   "60448": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (041) {Useful}, see `[STT_NpcInfo.NAME_NPC_00375, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_038_1_200]`, cont'd",
     "de": "",
-    "en": "But just as the light stands out because of\nthe darkness, the sinfulness makes the beauty\nstand out! That's the kind of beauty I want to\n<br>\nmake known!",
+    "en": "Still, just as darkness makes light stand out,\nsinfulness makes beauty stand out! That's the kinda\nbeauty I wanna make known!",
     "es": "",
     "fr": "",
     "it": "",
