@@ -405,7 +405,7 @@
   "60375": {
     "$comments": "🟡, Quest (042) {Useful}, see `[STT_NpcInfo.NAME_NPC_00370, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_039_1_000, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TYANOKINOHA]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I am Salon Felisha's apprentice beautician. Recently,\nI decided to create a new color for the salon.\n<br>\nI intended to create a relieving, hospitable color\nthat would delight the guests who took the trouble\nto come to the salon, by harvesting <color_yellow>Tea Leaves<color_white>.<bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr>I am Salon Felisha's apprentice beautician. Recently,\nI decided to create a new color for the salon.\n<br>\nI intended to create a relieving, hospitable color that\nwould delight the guests who took the trouble to come\nto the salon, by harvesting <color_yellow>Tea Leaves<color_white>.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -418,7 +418,7 @@
   "60376": {
     "$comments": "🟡, Quest (042) {Useful}, see `[STT_NpcInfo.NAME_NPC_00370, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_039_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_12703, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TYANOKINOHA]`, YESNO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>And still do, however:\n<br>\nAfter picking the <color_yellow>Tea Leaves<color_white>, disaster struck, and\nthey were taken away by <color_red><%sEV_QUE_NAME0>s<color_white> along the river-\nbank in the southeast of the Azlan Region...\n<br>\nIn this area, the monsters are extremely strong,\nhowever, could you go recover the <color_yellow>Tea Leaves<color_white> for me?",
+    "en": "<attr><feel_sad_lv1><end_attr>And I still do, however:\n<br>\nAfter picking the <color_yellow>Tea Leaves<color_white>, disaster struck, and they\nwere taken away by <color_red><%sEV_QUE_NAME0>s<color_white> along the riverbank\nin the southeast of the Azlan Region...\n<br>\nIn this area, the monsters are extremely strong,\nhowever, could you go recover the <color_yellow>Tea Leaves<color_white> for me?",
     "es": "",
     "fr": "",
     "it": "",
@@ -457,7 +457,7 @@
   "60379": {
     "$comments": "🟡, Quest (042) {Useful}, see `[STT_NpcInfo.NAME_NPC_00370, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_039_1_000]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Is that so. Then, there is no other way, is there...\nI left my hometown to study the heart of hospitality,\nand chose the way of the beauitician.\n<br>\nDealing with monsters as such, is simply not for me...\nAah... What should I do.",
+    "en": "<attr><feel_sad_lv1><end_attr>Is that so. Then, there is no other way, is there... I left\nmy hometown to study the heart of hospitality, and\nchose the way of the beauitician.\n<br>\nDealing with monsters as such, is simply not for me...\nAah... What should I do.",
     "es": "",
     "fr": "",
     "it": "",
@@ -470,7 +470,7 @@
   "60380": {
     "$comments": "🟡, Quest (042) {Useful}, see `[STT_NpcInfo.NAME_NPC_00370, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_039_1_010]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I intended to create a relieving, hospitable color\nthat would delight the guests who come to the salon.<open_irai><bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr>I intended to create a relieving, hospitable color that\nwould delight the guests who come to the salon.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -483,7 +483,7 @@
   "60381": {
     "$comments": "🟡, Quest (042) {Useful}, see `[STT_NpcInfo.NAME_NPC_00370, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_039_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_12703, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TYANOKINOHA]`, cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>And still do, however the <color_yellow>Tea Leaves<color_white> I require were\ntaken away by <color_red><%sEV_QUE_NAME0>s<color_white> along the riverbank in\nthe southeast of the Azlan Region.\n<br>\nIn this area, the monsters are extremely strong. I\nimplore you, traveler. Please, go defeat them, and\nrecover the <color_yellow>Tea Leaves<color_white>.<close_irai>",
+    "en": "<attr><feel_happy_lv1><end_attr>And I still do, however the <color_yellow>Tea Leaves<color_white> I require were\ntaken away by <color_red><%sEV_QUE_NAME0>s<color_white> along the riverbank in\nthe southeast of the Azlan Region.\n<br>\nIn this area, the monsters are extremely strong. I\nimplore you, traveler. Please, go defeat them, and\nrecover the <color_yellow>Tea Leaves<color_white>.<close_irai>",
     "es": "",
     "fr": "",
     "it": "",
@@ -548,7 +548,7 @@
   "60388": {
     "$comments": "🟡, Quest (042) {Useful}, see `[STT_NpcInfo.NAME_NPC_00370, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_039_1_020]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>My, thanks a lot! To think you've brought me such\nbeautiful buds. I'm so happy. Surely, these shall\nyield a nice color.<bw_break>",
+    "en": "<attr><feel_happy_lv2><end_attr>My, thanks a lot! To think you've brought me such\nbeautiful buds. I'm so happy. Surely, these shall yield a\nnice color.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -561,7 +561,7 @@
   "60389": {
     "$comments": "🟡, Quest (042) {Useful}, see `[STT_NpcInfo.NAME_NPC_00370, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_039_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Right away, I'll try making it, okay. If you would\nlike, traveler, you too may watch.",
+    "en": "<attr><feel_happy_one><end_attr>Right away, I'll try making it, okay. If you would like,\ntraveler, you too may watch.",
     "es": "",
     "fr": "",
     "it": "",
@@ -574,7 +574,7 @@
   "60390": {
     "$comments": "🟡, Quest (042) {Useful}, see `[STT_NpcInfo.NAME_NPC_00370, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_039_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_TYANOKINOHA]`, YES cont'd",
     "de": "",
-    "en": "<se_nots joutyu SUCCESS>First, I shall heat the Tea Leaves well, and carefully\ndry them. Then, I'm going to finely grind them.\n<br>\nTeeheehee. A nice, nuanced aroma. It's somewhat\nnostalgic... Somehow reminds me of my mother who lives\nfar away.\n<br>\nAnd now, little by little, I'll add hot water and\nlove, then politely mix it... There. Finally, I shall\nfinish it off by casting magic.<bw_break>",
+    "en": "<se_nots joutyu SUCCESS>First, I shall heat the Tea Leaves well, and carefully\ndry them. Then, I'm going to finely grind them.\n<br>\nTeeheehee. A nice, nuanced aroma. It's somewhat\nnostalgic... Somehow reminds me of my mother who\nlives far away.\n<br>\nAnd now, little by little, I'll add hot water and love,\nthen politely mix it... There. Finally, I shall finish it\noff by casting magic.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -626,7 +626,7 @@
   "60385": {
     "$comments": "🟢, Quest (042) {Useful}, see `[STT_NpcInfo.NAME_NPC_00370, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_039_1_020]`, YES cont'd",
     "de": "Eine neue Farbe, „<color_yellow>Matcha<color_white>“, ist jetzt im Schönheits-\nsalon verfügbar! <me 71>",
-    "en": "A new color, \"<color_yellow>Matcha<color_white>\", is now available at the\nBeauty Salon! <me 71>",
+    "en": "A new color, \"<color_yellow>Matcha<color_white>\", is now available at the Beauty\nSalon! <me 71>",
     "es": "¡Un nuevo color, \"<color_yellow>Matcha<color_white>\", está ya disponible en\nel Salón de Belleza! <me 71>",
     "fr": "Une nouvelle couleur, « <color_yellow>Matcha<color_white> », est maintenant\ndisponible au Salon de Beauté ! <me 71>",
     "it": "Un nuovo colore, «<color_yellow>Matcha<color_white>», è ora disponibile presso\nil Salone di Bellezza! <me 71>",
@@ -652,7 +652,7 @@
   "60394": {
     "$comments": "🟡, Quest (042) {Useful}, see `[STT_NpcInfo.NAME_NPC_00370, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_039_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>I shall make sure that if you go to a salon anywhere,\nthat this <color_yellow>Matcha<color_white> color will be available.\nCertainly, traveler, please try it on for me too.<bw_break>",
+    "en": "<attr><feel_happy_one><end_attr>I shall make sure that if you go to a salon anywhere,\nthat this <color_yellow>Matcha<color_white> color will be available. Certainly,\ntraveler, please try it on for me as well.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -665,7 +665,7 @@
   "60395": {
     "$comments": "🟡, Quest (042) {Useful}, see `[STT_NpcInfo.NAME_NPC_00370, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_039_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>My mother has been in the service industry all her\nlife, so the heart of hospitality has been driven\ninto me.\n<br>\nHer teaching are ones I shall treasure my whole life.\nSpeaking of, my mother runs the hot springs in Windy\nCity Azlan.\n<br>\nBecoming a full-fledged beautician, and someday\nworking alongside her is my dream.",
+    "en": "<attr><feel_happy_lv2><end_attr>My mother has been in the service industry all her life,\nso the heart of hospitality has been driven into me.\n<br>\nHer teachings are ones I shall treasure my whole life.\nSpeaking of, my mother runs the hot springs in Windy\nCity Azlan.\n<br>\nBecoming a full-fledged beautician, and someday\nworking alongside her is my dream.",
     "es": "",
     "fr": "",
     "it": "",
@@ -678,7 +678,7 @@
   "60396": {
     "$comments": "🟡, Quest (042) {Useful}, see `[STT_NpcInfo.NAME_NPC_00370, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_039_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>My mother has been in the service industry all her\nlife, so the heart of hospitality has been driven\ninto me.\n<br>\nHer teaching are ones I shall treasure my whole life.\nSpeaking of, my mother runs the hot springs in Windy\nCity Azlan.\n<br>\nBecoming a full-fledged beautician, and someday\nworking alongside her is my dream.",
+    "en": "<attr><feel_happy_lv2><end_attr>My mother has been in the service industry all her life,\nso the heart of hospitality has been driven into me.\n<br>\nHer teachings are ones I shall treasure my whole life.\nSpeaking of, my mother runs the hot springs in Windy\nCity Azlan.\n<br>\nBecoming a full-fledged beautician, and someday\nworking alongside her is my dream.",
     "es": "",
     "fr": "",
     "it": "",

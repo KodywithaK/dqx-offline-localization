@@ -2637,4 +2637,38 @@ jq -s "
 > [^3]: Correct [Commit.gitdeps.xml](https://github.com/EpicGames/UnrealEngine/releases/download/4.27.2-release/Commit.gitdeps.xml) to prevent `(403) Forbidden` errors during `updating dependencies` step
 > [^4]: [Unreal Engine - Documentation - Localization Overview](https://dev.epicgames.com/documentation/en-us/unreal-engine/localization-overview-for-unreal-engine#raw-code-1)
 > [^5]: [Unreal Engine - Documentation - Localization Overview](https://github.com/EpicGames/UnrealEngine/blob/release/Engine/Source/Runtime/Core/Public/Internationalization/InternationalizationMetadata.h)
+
+---
+
+| Language | major        | minor                   | rule(s)                  | example                |
+| :------- | :----------- | :---------------------- | :----------------------- | :--------------------- |
+| pt-BR    |              |                         |                          |                        |
+|          | augmentative |                         |                          |                        |
+|          |              | f, absolute superlative | (- final vowel)? +íssima | a linda/lindíssima     |
+|          |              | f, consonant            | +zona                    | A flor/florzona        |
+|          |              | f, dipthong             | +zona                    | A mãe/mãezona          |
+|          |              | f, -ca                  | -ca +quona               | A vaca/vaquona         |
+|          |              | f, -ga                  | -ga +guona               | A manga/manguona       |
+|          |              | f, vowel                | - final vowel +ona       | A garota/garotona      |
+|          |              | f, vowel, stressed      | - final accent +zona     | A avó/avozona          |
+|          |              | m, absolute superlative | (- final vowel)? +íssimo | o lindo/lindíssimo     |
+|          |              | m, consonant            | +zão                     | O papel/papelzão       |
+|          |              | m, dipthong             | +zão                     | O coração/coraçãozão   |
+|          |              | m, -co                  | -co +quão                | O macaco/macaquão      |
+|          |              | m, -go                  | -go +guão                | O lago/laguão          |
+|          |              | m, vowel                | - final vowel +ão        | O gato/gatão           |
+|          |              | m, vowel, stressed      | - final accent +zão      | O café/cafezão         |
+|          | diminutive   |                         |                          |                        |
+|          |              | f, consonant            | +zinha                   | A flor/florzinha       |
+|          |              | f, dipthong             | +zinha                   | A mãe/mãezinha         |
+|          |              | f, -ca                  | -ca +quinha              | A vaca/vaquinha        |
+|          |              | f, -ga                  | -ga +guinha              | A manga/manguinha      |
+|          |              | f, vowel                | - final vowel +inha      | A garota/garotinha     |
+|          |              | f, vowel, stressed      | - final accent +zinha    | A avó/avozinha         |
+|          |              | m, consonant            | +zinho                   | O papel/papelzinho     |
+|          |              | m, dipthong             | +zinho                   | O coração/coraçãozinho |
+|          |              | m, -co                  | -co +quinho              | O macaco/macaquinho    |
+|          |              | m, -go                  | -go +guinho              | O lago/laguinho        |
+|          |              | m, vowel                | - final vowel +inho      | O gato/gatoinho        |
+|          |              | m, vowel, stressed      | - final accent +zinho    | O café/cafezinho       |
 -->

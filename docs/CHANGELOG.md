@@ -14,56 +14,17 @@
 > [!CAUTION]
 > Negative potential consequences of an action.
 -->
+# Roadmap
 
 > [!CAUTION]
 >
 > This is a work-in-progress build, so most things will be untranslated.
-
-# Installation
-
-> [!IMPORTANT]
->
-> ### Steam
->
-> - Set the game's language to Korean, to ensure the mod loads properly.
->
->   - Right click `勇者鬥惡龍X　覺醒的五種族　OFFLINE` (or `勇者鬥惡龍X　覺醒的五種族　OFFLINE　體驗版`)
->     - `Properties... > General > Language > (한국어) Korean`
->     - Wait for downloads to finish.
->
-> - Copy `pakchunk0-WindowsNoEditor_{Language}_Dialogue_Latest_P.pak` into Steam's games folder. (e.g.):
->
->   - `"C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_{Language}_Dialogue_Latest_P.pak"`
->   - `"C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_{Language}_Dialogue_Latest_P.pak"`
->
-> - Start `勇者鬥惡龍X　覺醒的五種族　OFFLINE` (or `勇者鬥惡龍X　覺醒的五種族　OFFLINE　體驗版`)
->   - `Main Menu > 語言設定 > 韓文 > 決定`
->     - The game will reboot into the `(한국어) Korean` language, but load the mod for your installed language.
->     - The mod version and build date will be displayed on the title screen as well, under the game's version.
->     - For example, `{LANGUAGE}_v{YYYY}-{MM}-{DD}`
->
-> ### Switch
->
-> - SimpleModManager:
->   - Copy `mods` folder into the root of your Switch's SD card. (e.g.):
->   - `sd:\mods\Dragon_Quest_X_Offline\{Language}\contents\0100E2E0152E4000\romfs\Holiday\Content\Paks\pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak`
->
-> ### Yuzu
->
-> - Copy `pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak` into `0100E2E0152E4000`'s mod data location (e.g.):
->   - `%YUZU_DIR%\load\0100E2E0152E4000\{Language}\romfs\Holiday\Content\Paks\pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak`
-
-# Changelog
-
-> [!NOTE]
->
-> [Since 2025-01-01](https://github.com/KodywithaK/dqx-offline-localization/commits/main/?since=2025-01-01)
-
-# Roadmap
-
-- 🔴 = Backlog
-- 🟡 = In progress
-- 🟢 = Done
+> 
+> 🔴 = Backlog
+> 
+> 🟡 = In progress
+> 
+> 🟢 = Done
 
 <details><summary><h2>Main Story</h2></summary>
 
@@ -152,7 +113,7 @@
 |    Useful    |  040  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |    Useful    |  041  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |    Useful    |  042  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
-|    Useful    |  043  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
+|    Useful    |  043  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |    Useful    |  044  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |    Useful    |  045  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 |    Useful    |  046  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
@@ -399,3 +360,43 @@
 |    Useful    |  287  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 
 </details>
+
+# Installation
+
+> [!IMPORTANT]
+>
+> ### Steam
+>
+> - Set the game's language to Korean, to ensure the mod loads properly.
+>
+>   - Right click `勇者鬥惡龍X　覺醒的五種族　OFFLINE` (or `勇者鬥惡龍X　覺醒的五種族　OFFLINE　體驗版`)
+>     - `Properties... > General > Language > (한국어) Korean`
+>     - Wait for downloads to finish.
+>
+> - Copy `pakchunk0-WindowsNoEditor_{Language}_Dialogue_Latest_P.pak` into Steam's games folder. (e.g.):
+>
+>   - `"C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_{Language}_Dialogue_Latest_P.pak"`
+>   - `"C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_{Language}_Dialogue_Latest_P.pak"`
+>
+> - Start `勇者鬥惡龍X　覺醒的五種族　OFFLINE` (or `勇者鬥惡龍X　覺醒的五種族　OFFLINE　體驗版`)
+>   - `Main Menu > 語言設定 > 韓文 > 決定`
+>     - The game will reboot into the `(한국어) Korean` language, but load the mod for your installed language.
+>     - The mod version and build date will be displayed on the title screen as well, under the game's version.
+>     - For example, `{LANGUAGE}_v{YYYY}-{MM}-{DD}`
+>
+> ### Switch
+>
+> - SimpleModManager:
+>   - Copy `mods` folder into the root of your Switch's SD card. (e.g.):
+>   - `sd:\mods\Dragon_Quest_X_Offline\{Language}\contents\0100E2E0152E4000\romfs\Holiday\Content\Paks\pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak`
+>
+> ### Yuzu
+>
+> - Copy `pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak` into `0100E2E0152E4000`'s mod data location (e.g.):
+>   - `%YUZU_DIR%\load\0100E2E0152E4000\{Language}\romfs\Holiday\Content\Paks\pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak`
+
+# Changelog
+
+> [!NOTE]
+>
+> [Since 2025-01-01](https://github.com/KodywithaK/dqx-offline-localization/commits/main/?since=2025-01-01)
