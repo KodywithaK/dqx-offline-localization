@@ -4784,15 +4784,15 @@
     "zh-Hant": "<voice 00730_00029475><center>來，拿著這本新的冒險之書。"
   },
   "19001495": {
-    "$comments": "🟡, ",
-    "de": "",
-    "en": "<pc> received the Adventure Log (Key Item)!<me 60>",
-    "es": "<pc> recibido el Registro de Aventuras\n(Objeto Importante)!<me 60>",
-    "fr": "",
-    "it": "",
+    "$comments": "🟢, SPACING TEST",
+    "de": "{pc} erhielt den <color_yellow>Eintrag<color_white> (Wichtig)!<me 60>",
+    "en": "{pc} received the <color_yellow>Adventure Log<color_white> (Key Item)!<me 60>",
+    "es": "¡{pc} recibióel <color_yellow>Registro de Aventuras<color_white>\n(Objeto Importante)!<me 60>",
+    "fr": "{pc} reçut le <color_yellow>Journal<color_white> (Objet Important) !<me 60>",
+    "it": "{pc} ricevéil <color_yellow>Diario dell'Avventura<color_white>\n(Oggetto Importante)!<me 60>",
     "ja": "<pc>は\n冒険の書（だいじなもの）を　受け取った！<me 60>",
     "ko": "{pc}|hpp(은,는)\n모험의 서(중요한 물건)를 받았다!<me 60>",
-    "pt-BR": "",
+    "pt-BR": "{pc} recebeu o <color_yellow>Registro de Aventuras<color_white>\n(Iten Importante)!<me 60>",
     "zh-Hans": "<pc>收下了\n冒险之书（重要物品）！<me 60>",
     "zh-Hant": "<pc>收下了\n冒險之書（重要物品）！<me 60>"
   },

@@ -1380,7 +1380,7 @@
   "59267": {
     "$comments": "🟡, Quest (043) {Useful}, see `[STT_NpcInfo.NAME_NPC_00377, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_040_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_07401, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_JYUNPAKUNOSEPPEN]`, YESNO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>My daughter's workin' hard at Gartlant Castle's\nbeauty salon, but it seems so busy that she says she\ndoesn't have time ta come back ta her hometown.\n<br>\nI wanna make somethin' for my hard-workin' daughter,\nso if ya'll hear me out, I'd like ta make a new color\nfor the shop ta use, y'know.\n<br>\nSo, I thought if I could make a color like the snow\no' her hometown, Rangao Village, but... I  can't do it\nwit'out the ingredients for the color.\n<br>\nThe ingredients for the color are in Rangao Mountains,\nbut pretty strong <color_red><%sEV_QUE_NAME0>s<color_white> got it, y'know. Sorry,\nbut can I ask ya ta get it for me, yeah?",
+    "en": "<attr><feel_sad_lv1><end_attr>My daughter's workin' hard at Gartlant Castle's\nbeauty salon, but it seems so busy that she says she\ndoesn't have time ta come back ta her hometown.\n<br>\nI wanna make somethin' for my hard-workin' daughter,\nso if ya'll hear me out, I'd like ta make a new color for\nthe shop ta use, y'know.\n<br>\nSo, I thought if I could make a color like the snow o'\nher hometown, Rangao Village, but... I  can't do it\nwit'out the ingredients for the color.\n<br>\nThe ingredients for the color are in Rangao Mountains,\nbut pretty strong <color_red><%sEV_QUE_NAME0>s<color_white> got it, y'know. Sorry, but\ncan I ask ya ta get it for me, yeah?",
     "es": "",
     "fr": "",
     "it": "",
@@ -1393,7 +1393,7 @@
   "59268": {
     "$comments": "🟡, Quest (043) {Useful}, see `[STT_NpcInfo.NAME_NPC_00377, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_040_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_07401, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_JYUNPAKUNOSEPPEN]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I owe ya. Thanks, y'know! If ya defeat a few\n<color_red><%sEV_QUE_NAME0>s<color_white>, before long I think they'll drop the\n<color_yellow>Snow-White Snowflake<color_white>.\n<br>\n<color_red><%sEV_QUE_NAME0>s<color_white> seems ta be in the south 'n' eastern parts\no' the Rangao Mountains, y'know. Be careful 'n' get\ngoin'!",
+    "en": "<attr><feel_happy_lv1><end_attr>I owe ya. Thanks, y'know! If ya defeat a few\n<color_red><%sEV_QUE_NAME0>s<color_white>, before long I think they'll drop the\n<color_yellow>Snow-White Snowflake<color_white>.\n<br>\n<color_red><%sEV_QUE_NAME0>s<color_white> seems ta be in the south 'n' eastern parts o'\nthe Rangao Mountains, y'know. Be careful 'n' get goin'!",
     "es": "",
     "fr": "",
     "it": "",
@@ -1445,7 +1445,7 @@
   "63704": {
     "$comments": "🟡, Quest (043) {Useful}, see `[STT_NpcInfo.NAME_NPC_00377, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_040_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_07401, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_JYUNPAKUNOSEPPEN]`, cont'd",
     "de": "",
-    "en": "The <color_yellow>Snow-White Snowflake<color_white> is dropped by <color_red><%sEV_QUE_NAME0>s<color_white> in\nthe south 'n' eastern parts o' the Rangao Mountains.\nIt's pretty strong, so be careful when ya go.",
+    "en": "The <color_yellow>Snow-White Snowflake<color_white> is dropped by <color_red><%sEV_QUE_NAME0>s<color_white>\nin the south 'n' eastern parts o' the Rangao Mountains.\nThey're pretty strong, so be careful when ya go.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1497,7 +1497,7 @@
   "59273": {
     "$comments": "🟡, Quest (043) {Useful}, see `[STT_NpcInfo.NAME_NPC_00377, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_040_1_020]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>Oops... Looks like ya still haven't done it yet, have ya.\nSorry for tryin' ta rush ya. Whenever's convenient\nfor ya's good, so I'll leave it ta ya.",
+    "en": "<attr><feel_sad_lv1><end_attr>Oops... Looks like ya still haven't done it yet, have ya.\nSorry for tryin' ta rush ya. Whenever's convenient for\nya's good, so I'll leave it ta ya.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1510,7 +1510,7 @@
   "59274": {
     "$comments": "🟡, Quest (043) {Useful}, see `[STT_NpcInfo.NAME_NPC_00377, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_040_1_020]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Ooh, thanks! Actually, I... Happened ta've seen my\ndaughter making colors. Hang on, I'll try copyin'\nher, 'kay.",
+    "en": "<attr><feel_happy_lv1><end_attr>Ooh, thanks! Actually, I... Happened ta've seen my\ndaughter making colors. Hang on, I'll try copyin' her,\n'kay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1523,7 +1523,7 @@
   "59275": {
     "$comments": "🟡, Quest (043) {Useful}, see `[STT_NpcInfo.NAME_NPC_00377, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_040_1_020]`, YES cont'd",
     "de": "",
-    "en": "Umm... I'm certain she kneaded the materials like this ta\nbe used, didn't she. And then, she cast a special\nspell, was it.\n<br>\nA Sooo-Ray ♪ Seriou-Search ♪ Seriou-Search\n☆\nRan-Ran-Rangao ♪ Snow-Snooow ♪",
+    "en": "Umm... I'm certain she kneaded the materials like this ta\nbe used, didn't she. And then, she cast a special spell,\nwas it.\n<br>\n<center>A Sooo-Ray ♪ Seriou-Search ♪ Seriou-Search\n☆\nRan-Ran-Rangao ♪ Snow-Snooow ♪",
     "es": "",
     "fr": "",
     "it": "",
@@ -1546,36 +1546,10 @@
     "zh-Hans": "<attr><feel_angry_silent><end_attr>…………………………<bw_break>",
     "zh-Hant": "<attr><feel_angry_silent><end_attr>…………………………<bw_break>"
   },
-  "59277": {
-    "$comments": "🟡, Quest (043) {Useful}, see `[STT_NpcInfo.NAME_NPC_00377, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_040_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_JYUNPAKUNOSEPPEN]`, YES cont'd",
-    "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Gettin' this Snow-White Snow must've been hard.\nReally, thanks, y'know. It's a small reward, but\nplease accept it.",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv1><end_attr>「純白の雪片を　手に入れるのは\n　大変だっただろう。本当に　ありがとうね。\n　心ばかりの礼だけど　受け取っておくれ。",
-    "ko": "<attr><feel_happy_lv1><end_attr>: 순백의 눈 파편을 구하느라\n　힘들었지? 정말 고마워.\n　이건 내 마음이야. 받으렴.",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv1><end_attr>得到纯白的雪片很不容易吧。\n真的太谢谢了。\n这是我衷心的谢意，一定要收下啊。",
-    "zh-Hant": "<attr><feel_happy_lv1><end_attr>你應該是費了千辛萬苦才取得純白雪花的吧。\n真的很謝謝你幫忙。\n這謝禮是我的一點心意，你就收下吧。"
-  },
-  "59278": {
-    "$comments": "🟡, Quest (043) {Useful}, see `[STT_NpcInfo.NAME_NPC_00377, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_040_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_JYUNPAKUNOSEPPEN]`, YES cont'd",
-    "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Thanks ta ya, I can bring Rangao Village's scenery\nta my daughter who's workin' hard at Gartlant\nCastle's beauty salon.\n<br>\nWhenever that girl sees the <color_yellow>Snow-White<color_white> color at the\nshop, it'll remind her o' her hometown 'n' family,\nand make her happy, y'know...",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv1><end_attr>「あんたのおかげで　ガートラント城の\n　美容院で　がんばっている　あたしの娘に\n　ランガーオ村の景色を　届けてやれるよ。\n<br>\n「あの子が　お店で　ピュアスノー色を見るたびに\n　故郷を感じ　家族のことを思いだしてくれると\n　うれしいねえ……。",
-    "ko": "<attr><feel_happy_lv1><end_attr>: 네 덕분에 가트란트성의\n　미용실에서 열심히 일하는 내 딸에게\n　랑가오 마을의 풍경을 전할 수 있게 됐어.\n<br>\n: 그 아이가 가게에서 퓨어스노색을 볼 때마다\n　고향을 느끼고 가족을 떠올려 준다면\n　무척 기쁠 것 같구나…….",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv1><end_attr>托你的福，我可以把兰加奥村的景色\n送给在加特兰德城美容院\n努力奋斗的女儿了。\n<br>\n每当那孩子在店里看到纯雪色，\n要是能想起故乡的家人，\n我就太高兴了……",
-    "zh-Hant": "<attr><feel_happy_lv1><end_attr>託你的福，我可以將蘭加奧村的景色\n送給在加特蘭德城美容院\n努力工作的女兒了。\n<br>\n如果她在店內看到純淨雪色時\n會想起故鄉的家人，那就太讓人高興了……"
-  },
   "61369": {
     "$comments": "🟡, Quest (043) {Useful}, see `[STT_NpcInfo.NAME_NPC_00377, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_040_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_JYUNPAKUNOSEPPEN]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Ahahah! Still, I was no good, huh. I'll send the\nSnow-White Snowflake ta Gartlant Castle's salon, 'n'\nask my daughter 'bout makin' the color for me.\n<br>\nI'm sure she'd be able ta make a pretty white color\nlike Rangao's snow... Once ya've gone ta the salon,\ndefinitely give it a try for me.",
+    "en": "<attr><feel_happy_lv2><end_attr>Ahahah! Still, I was no good, huh. I'll send the Snow-\nWhite Snowflake ta Gartlant Castle's salon, 'n' ask my\ndaughter 'bout makin' the color for me.\n<br>\nI'm sure she'd be able ta make a pretty white color\nlike Rangao's snow... Once ya've gone ta the salon,\ndefinitely give it a try for me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -1598,10 +1572,36 @@
     "zh-Hans": "可以在美容院使用新颜色\n“纯雪色”了！<me 71>",
     "zh-Hant": "可以在美容院使用新顏色\n「純淨雪」了！<me 71>"
   },
+  "59277": {
+    "$comments": "🟡, Quest (043) {Useful}, see `[STT_NpcInfo.NAME_NPC_00377, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_040_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_JYUNPAKUNOSEPPEN]`, YES cont'd",
+    "de": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Gettin' this Snow-White Snow must've been hard.\nReally, thanks, y'know. It's a small reward, but please\naccept it.",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv1><end_attr>「純白の雪片を　手に入れるのは\n　大変だっただろう。本当に　ありがとうね。\n　心ばかりの礼だけど　受け取っておくれ。",
+    "ko": "<attr><feel_happy_lv1><end_attr>: 순백의 눈 파편을 구하느라\n　힘들었지? 정말 고마워.\n　이건 내 마음이야. 받으렴.",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv1><end_attr>得到纯白的雪片很不容易吧。\n真的太谢谢了。\n这是我衷心的谢意，一定要收下啊。",
+    "zh-Hant": "<attr><feel_happy_lv1><end_attr>你應該是費了千辛萬苦才取得純白雪花的吧。\n真的很謝謝你幫忙。\n這謝禮是我的一點心意，你就收下吧。"
+  },
+  "59278": {
+    "$comments": "🟡, Quest (043) {Useful}, see `[STT_NpcInfo.NAME_NPC_00377, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_040_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_JYUNPAKUNOSEPPEN]`, YES cont'd",
+    "de": "",
+    "en": "<attr><feel_happy_lv1><end_attr>Thanks ta ya, I can bring Rangao Village's scenery ta\nmy daughter who's workin' hard at Gartlant Castle's\nbeauty salon.\n<br>\nWhenever that girl sees the <color_yellow>Snow-White<color_white> color at the\nshop, it'll remind her o' her hometown 'n' family, and\nmake her happy, y'know...",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv1><end_attr>「あんたのおかげで　ガートラント城の\n　美容院で　がんばっている　あたしの娘に\n　ランガーオ村の景色を　届けてやれるよ。\n<br>\n「あの子が　お店で　ピュアスノー色を見るたびに\n　故郷を感じ　家族のことを思いだしてくれると\n　うれしいねえ……。",
+    "ko": "<attr><feel_happy_lv1><end_attr>: 네 덕분에 가트란트성의\n　미용실에서 열심히 일하는 내 딸에게\n　랑가오 마을의 풍경을 전할 수 있게 됐어.\n<br>\n: 그 아이가 가게에서 퓨어스노색을 볼 때마다\n　고향을 느끼고 가족을 떠올려 준다면\n　무척 기쁠 것 같구나…….",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv1><end_attr>托你的福，我可以把兰加奥村的景色\n送给在加特兰德城美容院\n努力奋斗的女儿了。\n<br>\n每当那孩子在店里看到纯雪色，\n要是能想起故乡的家人，\n我就太高兴了……",
+    "zh-Hant": "<attr><feel_happy_lv1><end_attr>託你的福，我可以將蘭加奧村的景色\n送給在加特蘭德城美容院\n努力工作的女兒了。\n<br>\n如果她在店內看到純淨雪色時\n會想起故鄉的家人，那就太讓人高興了……"
+  },
   "59282": {
     "$comments": "🟡, Quest (043) {Useful}, see `[STT_NpcInfo.NAME_NPC_00377, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_040_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Thanks ta ya, I can bring Rangao Village's scenery\nta my daughter who's workin' hard at Gartlant\nCastle's beauty salon.\n<br>\nWhenever that girl sees the Snow-White color at the\nshop, it'll remind her o' her hometown 'n' family,\nand make her happy, y'know...",
+    "en": "<attr><feel_happy_lv1><end_attr>Thanks ta ya, I can bring Rangao Village's scenery ta\nmy daughter who's workin' hard at Gartlant Castle's\nbeauty salon.\n<br>\nWhenever that girl sees the <color_yellow>Snow-White<color_white> color at the\nshop, it'll remind her o' her hometown 'n' family, and\nmake her happy, y'know...",
     "es": "",
     "fr": "",
     "it": "",

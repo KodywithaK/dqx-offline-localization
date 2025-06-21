@@ -15,3 +15,15 @@
       - find `(?<="value": ")([A-Œ])([A-Œ]+)(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?`
         - `œ` breaks the regex?
       - replace `\U$1\L$2$4\U$6\L$7$9\U$11\L$12$14\U$16\L$17$19\U$21\L$22`
+<!--
+- 20250620: new font 
+  - fontworks' 筑紫明朝 TsukuMin
+    - https://lets.fontworks.co.jp/fonts/13
+      - FTT-筑紫明朝 H
+        - horizontal scale: 90%
+    - https://lets.fontworks.co.jp/services/apps-games
+      - フォントワークス LETS license 
+        - ¥49,500／1ライセンス／年
+      - アプリ・ゲーム組込
+        - ¥11,000／1ライセンス
+-->
