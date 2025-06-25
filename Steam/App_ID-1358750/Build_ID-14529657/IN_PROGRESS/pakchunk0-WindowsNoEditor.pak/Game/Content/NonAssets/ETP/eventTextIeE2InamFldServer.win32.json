@@ -169,9 +169,9 @@
     "zh-Hant": "你說木工公會的年輕女會長\n把眾人聞風喪膽的危險討債人\n輕而易舉地趕走了？\n<br>\n我聽說她是個文靜的小姑娘，\n真是人不可貌相啊。\n如果有機會，真想見她一面。"
   },
   "71646": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_000]`, before clearing Quest (034)",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>...Salon Felisha will be opening all\nover the city soon. There will also be\none in Royal City Kamiharmui down the\n<br>\nroad. You'll only be alive long enough\nto try out different hairstyles. My\nadvice, remember that. Hehe...",
+    "en": "<attr><feel_happy_lv1><end_attr>...The beauty salon, Salon Felisha, will soon be opening\nall over. Beyond this point is Royal City Kamiharmui;\nif you're able to make it...\n<br>\nYou... Should try out the various hairstyles, and just\nlive a little. My advice, remember it. Hehe...",
     "es": "",
     "fr": "",
     "it": "",
@@ -182,9 +182,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>……美容院菲麗西亞沙龍即將同步開幕囉。\n在前方的王都卡密哈爾姆也有分店……\n<br>\n你知道嗎……只有在活著的時候，\n才能嘗試各式各樣的髮型喔。\n請記住我的忠告，呵呵……"
   },
   "71647": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`, YESNO",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_12403, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YESNO",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>... Grumblegrumble... I... Used to be a hairdresser at Salon Felisha...\n<br>\nI came to this land to\ncreate a beautiful new color with a\n<br>\nhint of darkness. I was attacked by\n<%sEV_QUE_NAME0> in Suizen Marsh and I\nran out of energy. Please, please,\n<br>\nplease defeat the Kataki. Take back my\nNight Fog Ring from the beast!",
+    "en": "<attr><feel_sad_one><end_attr>...*Grumble-grumble*... I... Used to be a hairdresser\nat Salon Felisha...\n<br>\nTo make a gloomy, beautiful, new color, to this land\nI came... In Suizen Marsh, I was attacked by\n<color_red><%sEV_QUE_NAME0>s<color_white>, who exhausted my power.\n<br>\nI beg you... Please, defeat the foes... And recover my\n<color_yellow>Night Fog Ring<color_white> from the accursed <color_red><%sEV_QUE_NAME0>s<color_white>...!",
     "es": "",
     "fr": "",
     "it": "",
@@ -195,9 +195,9 @@
     "zh-Hant": "<attr><feel_sad_one><end_attr>……唉……我……\n我曾是菲麗西亞沙龍的美容師……\n<br>\n為了製作幽暗又美麗的新顏色，\n而來到這片土地……不過卻在在水禪濕原\n受到<%sEV_QUE_NAME0>襲擊而倒下。\n<br>\n拜託你……請幫我報仇……\n從可恨的<%sEV_QUE_NAME0>手中，\n奪回我的夜霧指環……！"
   },
   "71648": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`, YES",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_12403]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I would have cursed you if you hadn't\ntaken me on. Just kidding, thanks. The\nbig bastard <%sEV_QUE_NAME0> should be\n<br>\nin the far east corner of Suizen\nMarsh. I'll wait here. I'll be waiting\nfor you.",
+    "en": "<attr><feel_happy_lv1><end_attr>If you hadn't taken it on for me, I would've cursed\nyou... Hehe... Just kidding, thanks.\n<br>\nThe accursed <color_red><%sEV_QUE_NAME0>s<color_white> should be in the far east of\nSuizen Marsh... I... Will wait here. I'll be waiting\nfor ever...",
     "es": "",
     "fr": "",
     "it": "",
@@ -208,9 +208,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>要是你不接受，\n差一點我就要詛咒你了……\n呵呵……開玩笑的，謝謝你。\n<br>\n可恨的<%sEV_QUE_NAME0>應該就在\n水禪濕原的東邊深處……\n……我會在這裡等你，一直等著你喔……"
   },
   "71649": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`, QUESTS FULL",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_000]`, QUESTS FULL",
     "de": "",
-    "en": "<attr><feel_think_lv1><end_attr>You're going to avenge Kataki? But you\nhave other people to take care of\nright now. Fine, I'll wait for you.\n<br>\nI'll wait for you forever and ever,\nand when you're free, come back and\nsee me, please.",
+    "en": "<attr><feel_think_lv1><end_attr>...You'll defeat the foes for me? But... You're currently\noverburdened with others' requests, aren't you...\n<br>\nFine... I'll wait for you. I'll wait for you for ever\nand ever, so when you're free, come again... Please...",
     "es": "",
     "fr": "",
     "it": "",
@@ -221,9 +221,9 @@
     "zh-Hant": "<attr><feel_think_lv1><end_attr>……你願意幫我報仇嗎？\n不過……你現在手頭上還有\n不少其他人的委託呢……\n<br>\n沒關係……我會等你。\n我會一直一直在這裡等你，\n等你有空時再來找我……拜託了……"
   },
   "71650": {
-    "$comments": "🟡, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`, NO",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_000]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>I WON'T FORGIVE YOU...!\n<br>\n...Hehe, just kidding. I wouldn't do something like\ncursing you. You... Sometime, you definitely gotta\ngrant my request, so—eeh, you gotta...",
+    "en": "<attr><feel_sad_lv1><end_attr>I  W O N ' T  F O R G I V E  Y O U...!\n<br>\n...Hehe, just kidding. I wouldn't do something like\ncursing you. You... Sometime, you definitely must\ngrant my request. Yes, you must...",
     "es": "",
     "fr": "",
     "it": "",
@@ -234,9 +234,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>我、不、會、原、諒、你、的……！\n<br>\n……呵呵，開玩笑的，我才不會詛咒你呢。\n因為你……總有一天絕對會實現我的願望，\n沒錯，總有一天……"
   },
   "71651": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_12403, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>I wanted to make a new color for\nSalon. But <%sEV_QUE_NAME0> attacked\nme and I ran out of energy.<open_irai><bw_break>",
+    "en": "<attr><feel_sad_one><end_attr>I wanted to make a new color for the beauty salon to\nuse... And yet... I was attacked by <color_red><%sEV_QUE_NAME0>s<color_white>...\nWho exhausted my power...<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -247,9 +247,9 @@
     "zh-Hant": "<attr><feel_sad_one><end_attr>我想製作在美容院使用的新顏色……\n可是……卻被<%sEV_QUE_NAME0>襲擊……\n我已經不行了……<open_irai><bw_break>"
   },
   "71652": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_12403]`, cont'd",
     "de": "",
-    "en": "<attr><feel_angry_lv1><end_attr><close_irai>Please, please, please defeat Kataki.\nPlease take back my Night Fog Ring\nfrom the evil <%sEV_QUE_NAME0>!",
+    "en": "<attr><feel_angry_lv1><end_attr><close_irai>I beg you... Please, defeat the foes... And recover my\n<color_yellow>Night Fog Ring<color_white> from the accursed <color_red><%sEV_QUE_NAME0>s<color_white>...!",
     "es": "",
     "fr": "",
     "it": "",
@@ -260,9 +260,9 @@
     "zh-Hant": "<attr><feel_angry_lv1><end_attr><close_irai>拜託你……請幫我報仇……\n從可恨的<%sEV_QUE_NAME0>手中，\n奪回我的夜霧指環……！"
   },
   "71653": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_12403, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>...Hehe. I saw it. I saw you defeat the\nevil <%sEV_QUE_NAME0> and take back my\nNight Fog Ring...",
+    "en": "<attr><feel_happy_lv1><end_attr>...Hehe. I was watching... You defeated the accursed\n<color_red><%sEV_QUE_NAME0>s<color_white>, and recovered my <color_yellow>Night Fog Ring<color_white>...",
     "es": "",
     "fr": "",
     "it": "",
@@ -272,10 +272,36 @@
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>……嘿嘿，我看到了……\n你打倒了该死的<%sEV_QUE_NAME0>，\n拿回了我的夜雾戒指……",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>……呵呵，我都看到了……\n你打倒可恨的<%sEV_QUE_NAME0>，\n替我奪回夜霧指環的瞬間……"
   },
+  "71663": {
+    "$comments": "🟢🟠, SPACING TEST, , Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, GIVE?",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> den <color_yellow>Nachtnebelring<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Night Fog Ring<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> el <color_yellow>Anillo de Niebla Nocturna<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> l'<color_yellow>Anneau de Brume Nocturne<color_white> ?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "it": "Dare <%sEV_SYSMSG_NPC> l'<color_yellow>Anello della Nebbia Notturna<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ja": "ヒガンに\n夜霧の指輪を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ko": "히간에게\n밤안개의 반지를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "pt-BR": "Dêa <%sEV_SYSMSG_NPC> o <color_yellow>Anel da Névoa Noturna<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hans": "要把夜雾戒指\n交给彼岸吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hant": "是否要將夜霧指環\n交給彼岸？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "71664": {
+    "$comments": "🟢🟠, SPACING TEST, , Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, GAVE!",
+    "de": "<pc> gab <%sEV_SYSMSG_NPC> den <color_yellow>Nachtnebelring<color_white>!",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Night Fog Ring<color_white>!",
+    "es": "¡<pc> le dio a <%sEV_SYSMSG_NPC> el <color_yellow>Anillo de Niebla\nNocturna<color_white>!",
+    "fr": "<pc> a donnéa <%sEV_SYSMSG_NPC> l'<color_yellow>Anneau de Brume\nNocturne<color_white> !",
+    "it": "<pc> ha dato a <%sEV_SYSMSG_NPC> l'<color_yellow>Anello della Nebbia\nNotturna<color_white>!",
+    "ja": "<pc>は　ヒガンに\n夜霧の指輪を　渡した！",
+    "ko": "{pc}|hpp(은,는) 히간에게\n밤안개의 반지를 건넸다!",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> o <color_yellow>Anel da Névoa Noturna<color_white>!",
+    "zh-Hans": "<pc>把夜雾戒指\n交给了彼岸！",
+    "zh-Hant": "<pc>把夜霧指環\n交給了彼岸！"
+  },
   "71654": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv1><end_attr>...Don't lie. You have it, don't you?\nI've been waiting for you to give me\nthe Night Fog Ring. I've been waiting\n<br>\nfor you to give me the Night Fog Ring.\nAlways, always, always, always,\nalways...",
+    "en": "<attr><feel_sad_lv1><end_attr>...Don't lie. You have it, don't you? My <color_yellow>Night Fog Ring<color_white>...\n<br>\nWell, fine... I'll keep waiting for you to give me the\n<color_yellow>Night Fog Ring<color_white>. For ever, and ever, and ever, and ever,\nand ever...",
     "es": "",
     "fr": "",
     "it": "",
@@ -286,9 +312,9 @@
     "zh-Hant": "<attr><feel_sad_lv1><end_attr>……不要說謊了。\n你拿著我的夜霧指環吧……？\n<br>\n好吧，沒關係……我會一直等著，\n等到你把夜霧指環交給我，\n我會一直一直一直一直等著……"
   },
   "71655": {
-    "$comments": "🟡, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>...Aah, that's... My precious ring. With it, I can go back\nto Salon Felisha...<bw_break>",
+    "en": "<attr><feel_happy_lv1><end_attr>...Aah, that's... My precious ring. With it, I can return\nto Salon Felisha...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -299,9 +325,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>啊啊……就是這個……我重要的指環。\n這樣我就可以回到菲麗西亞沙龍了……<bw_break>"
   },
   "71656": {
-    "$comments": "🟡, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr><se_nots joutyu SUCCESS>First, I take out the Night Fog Ring's stone... And\nbreak it into tiny pieces... Hehe... As expected, the\ncolor's nice, isn't it... Now, just a bit of magic...<bw_break>",
+    "en": "<attr><feel_happy_one><end_attr><se_nots joutyu SUCCESS>First, I'll remove the Night Fog Ring's gem... And\nbreak it into tiny pieces... Hehe... As expected, the\ncolor's nice, isn't it... Now, just a bit of magic...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -312,9 +338,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr><se_nots joutyu SUCCESS>首先把夜霧指環的寶石拿下來……\n然後搗成粉末……呵呵……真好看的顏色，\n跟我預想的一樣……接著只要施展魔法……<bw_break>"
   },
   "71657": {
-    "$comments": "🟡, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YES cont'd",
     "de": "",
-    "en": "Magical... Magical... Urse, urse... C U R S E E E!",
+    "en": "<center>Magical... Magical...\nUrse-Urse...\n...C U R S E E E !",
     "es": "",
     "fr": "",
     "it": "",
@@ -324,10 +350,23 @@
     "zh-Hans": "魔力无穷……魔力无边……\n我恨……我恨……\n……我、恨、恨、恨！",
     "zh-Hant": "魔力繽紛……魔力閃耀……\n憎恨……憎恨……\n……我、好、恨、啊～！"
   },
-  "71658": {
-    "$comments": "🟡, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+  "71665": {
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>...Aah, it's done... The bestest, gloomiest, prettiest,\nnew salon hair color... Let's call it \"Mist Gray\"...",
+    "en": "Higan, with bloodshot eyes, casually cast a spell on\nthe Night Fog Ring!<me 69>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "ヒガンは　目を血走らせて\nくだけた　夜霧の指輪に　魔法をかけた！<me 69>",
+    "ko": "히간은 눈에 핏발을 세우고\n가루가 된 밤안개의 반지에 마법을 걸었다!<me 69>",
+    "pt-BR": "",
+    "zh-Hans": "彼岸眼神凶狠地\n向捣碎的夜雾戒指施加了魔法！<me 69>",
+    "zh-Hant": "彼岸眼神凶狠地\n對碎裂的夜霧指環施加了魔法！<me 69>"
+  },
+  "71658": {
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YES cont'd",
+    "de": "",
+    "en": "<attr><feel_happy_lv2><end_attr>...Aah, it's done... The bestest, gloomiest, prettiest,\nnew salon color... Let's call it, \"<color_yellow>Mist Gray<color_white>\"...",
     "es": "",
     "fr": "",
     "it": "",
@@ -337,8 +376,21 @@
     "zh-Hans": "<attr><feel_happy_lv2><end_attr>……啊，完成啦……\n昏暗美丽的美容院新颜色，实在太美了……\n就叫它雾灰色吧……",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>……好，完成了……\n幽暗又美麗的美容院新顏色，太完美了……\n就叫它霧灰色吧……"
   },
+  "71666": {
+    "$comments": "🟢🟠, SPACING TEST, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020]`, YES cont'd",
+    "de": "Eine neue Farbe, „Nebelgrau“, ist jetzt im Schön-\nheitssalon verfügbar! <me 71>",
+    "en": "A new color, \"Mist Gray\", is now available at the\nBeauty Salon! <me 71>",
+    "es": "¡Un nuevo color, \"Gris Neblina\", estáya disponible\nen el Salón de Belleza! <me 71>",
+    "fr": "Une nouvelle couleur, «Gris Brume », est maintenant\ndisponible au Salon de Beauté ! <me 71>",
+    "it": "Un nuovo colore, «Grigio Nebbia», èora disponibile\npresso il Salone di Bellezza! <me 71>",
+    "ja": "美容院で　新しい色\n『ミストグレー』が　使えるようになった！<me 71>",
+    "ko": "미용실에서 새로운 색상\n『미스트그레이』를 사용할 수 있게 되었다!<me 71>",
+    "pt-BR": "Uma nova cor, “Cinza Névoa”, estájádisponível no\nSalão de Beleza! <me 71>",
+    "zh-Hans": "可以在美容院使用新颜色\n“雾灰色”了！<me 71>",
+    "zh-Hant": "可以在美容院使用新顏色\n「霧灰色」了！<me 71>"
+  },
   "71659": {
-    "$comments": "🟡, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YES cont'd",
     "de": "",
     "en": "<attr><feel_happy_one><end_attr>With that, I have no more regrets... I can stick out my\nchest, and go back to Salon Felicia.\nT H A N K  Y O U...",
     "es": "",
@@ -351,9 +403,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>這樣我就沒有任何遺憾了……\n我可以抬頭挺胸地回到菲麗西亞沙龍了，\n謝謝你……"
   },
   "71660": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>This mist gray color can be used\nanywhere in Salon. Try it while\nremembering me.<bw_break>",
+    "en": "<attr><feel_happy_one><end_attr>This <color_yellow>Mist Gray<color_white> color... If you go to a salon anywhere,\nit will be available... Think of me, when you try it\non, okay.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -364,7 +416,7 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>這個霧灰色……\n無論是哪裡的美容院都能使用……\n……你想起我時可以用用看。<bw_break>"
   },
   "71661": {
-    "$comments": "🟡, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_12403, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YES cont'd",
     "de": "",
     "en": "<attr><feel_think_one><end_attr>...Eh? Why didn't I disappear after my wish was fulfilled,\nyou ask...? Oh no, I'm not dead or anything...\n<br>\nA while back... I was fired from Salon Felicia... I thought\nif I made a new color, I might be able to go back to\nthe salon...\n<br>\nBut on my way back to the salon after getting the new\nhair color ingredient—the Night Fog Ring—<%sEV_QUE_NAME0>s\nattacked me and I fainted...<bw_break>",
     "es": "",
@@ -377,9 +429,9 @@
     "zh-Hant": "<attr><feel_think_one><end_attr>……咦？你問我都實現願望了，\n為什麼還沒有消失嗎？\n真討厭啊，我還沒死呢……\n<br>\n不久之前我被菲麗西亞沙龍解僱了……\n我想說只要作出新的顏色，\n搞不好就能回去沙龍……\n<br>\n好不容易找到新顏色的材料夜霧指環後，\n結果卻在回到沙龍的途中被<%sEV_QUE_NAME0>襲擊，\n然後我就這樣暈倒了……<bw_break>"
   },
   "71662": {
-    "$comments": "🟡, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>...Hehe. I'm so grateful for you. I won't forget it for\nthe rest of my life...\n<br>\nI'll be grateful for you for ever, and ever, and ever,\nand ever, and ever, and ever, and ever...",
+    "en": "<attr><feel_happy_lv1><end_attr>...Hehe. I'm so grateful for you. I won't forget it for\nthe rest of my life...\n<br>\nI'll be grateful for you for ever, and ever, and ever,\nand ever, and ever...",
     "es": "",
     "fr": "",
     "it": "",
@@ -389,62 +441,10 @@
     "zh-Hans": "<attr><feel_happy_lv1><end_attr>嘿嘿……我要感谢你呀。\n这辈子都不会忘记你……\n会永远永远永远永远感谢你的……",
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>……呵呵，我很感謝你喔。\n一輩子都不會忘記你的……\n我會永遠永遠永遠感謝著你……"
   },
-  "71663": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`, GIVE?",
-    "de": "",
-    "en": "Would you like to give Higan the Night\nFog Ring?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "ヒガンに\n夜霧の指輪を　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "ko": "히간에게\n밤안개의 반지를 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "pt-BR": "",
-    "zh-Hans": "要把夜雾戒指\n交给彼岸吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "zh-Hant": "是否要將夜霧指環\n交給彼岸？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
-  },
-  "71664": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`, GAVE!",
-    "de": "",
-    "en": "<pc> gave Higan the Night Fog\nRing!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　ヒガンに\n夜霧の指輪を　渡した！",
-    "ko": "{pc}|hpp(은,는) 히간에게\n밤안개의 반지를 건넸다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把夜雾戒指\n交给了彼岸！",
-    "zh-Hant": "<pc>把夜霧指環\n交給了彼岸！"
-  },
-  "71665": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
-    "de": "",
-    "en": "Higan cast a spell on the bleary-eyed\nNight Fog Ring!<me 69>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "ヒガンは　目を血走らせて\nくだけた　夜霧の指輪に　魔法をかけた！<me 69>",
-    "ko": "히간은 눈에 핏발을 세우고\n가루가 된 밤안개의 반지에 마법을 걸었다!<me 69>",
-    "pt-BR": "",
-    "zh-Hans": "彼岸眼神凶狠地\n向捣碎的夜雾戒指施加了魔法！<me 69>",
-    "zh-Hant": "彼岸眼神凶狠地\n對碎裂的夜霧指環施加了魔法！<me 69>"
-  },
-  "71666": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
-    "de": "",
-    "en": "A new color ''mist gray'' is now\navailable at Salon!<me 71>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "美容院で　新しい色\n『ミストグレー』が　使えるようになった！<me 71>",
-    "ko": "미용실에서 새로운 색상\n『미스트그레이』를 사용할 수 있게 되었다!<me 71>",
-    "pt-BR": "",
-    "zh-Hans": "可以在美容院使用新颜色\n“雾灰色”了！<me 71>",
-    "zh-Hant": "可以在美容院使用新顏色\n「霧灰色」了！<me 71>"
-  },
   "71667": {
-    "$comments": "🔴, Quest (045) {Useful}, see `Game.locres.json:STT_NpcInfo.___`",
+    "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I was always too gloomy. I wanted to\nchange that, so I became a hair\nstylist. But I got complaints from\n<br>\ncustomers and was fired. But thanks to\nyou, I can go back to Salon Felisha.\nI can work as a hair stylist again.\n<br>\nThank you. We'll always be friends.\nAlways, always, always, always, don't\never let me down. Hmm.",
+    "en": "<attr><feel_happy_lv1><end_attr>I... Since the past have been such a gloomy person...\n<br>\nI wanted to change that about myself, so I became a\nbeautician. But... I got complaints from customers\nand was fired...\n<br>\n...Hehe... But, thanks to you, I can return to Salon\nFelisha... Once again, I'll be able to work as a\nbeautician.\n<br>\nThank you. We'll be friends for ever. And ever, and\never, and ever, and ever, and ever.\nD O  N O T  F O R G E T, okay... Hehe...",
     "es": "",
     "fr": "",
     "it": "",
