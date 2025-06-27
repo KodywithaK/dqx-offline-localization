@@ -160,10 +160,13 @@ jobs:
             ## echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m\n\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
 
             ## echo "Successfully created: [pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
-            echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m\n\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+            #echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m\n\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
 
             ## echo "Successfully created: [pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
             #echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+
+            ## echo "Successfully created: [pakchunk0-{PLATFORM}_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Multi-Languages)" >> $GITHUB_STEP_SUMMARY
+            echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-{PLATFORM}_${lang}_Dialogue_Latest_P.pak \033[0m"
           done
 
   Create_Latest_Release:

@@ -184,7 +184,7 @@
   "71647": {
     "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_12403, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YESNO",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>...*Grumble-grumble*... I... Used to be a hairdresser\nat Salon Felisha...\n<br>\nTo make a gloomy, beautiful, new color, to this land\nI came... In Suizen Marsh, I was attacked by\n<color_red><%sEV_QUE_NAME0>s<color_white>, who exhausted my power.\n<br>\nI beg you... Please, defeat the foes... And recover my\n<color_yellow>Night Fog Ring<color_white> from the accursed <color_red><%sEV_QUE_NAME0>s<color_white>...!",
+    "en": "<attr><feel_sad_one><end_attr>...*Grumble-grumble*... I... Used to be a beautician\nat Salon Felisha...\n<br>\nTo make a gloomy, beautiful, new color, to this land I\ncame... In Suizen Marsh, I was attacked by <color_red><%sEV_QUE_NAME0>s<color_white>,\nwho exhausted my power.\n<br>\nI beg you... Please, defeat the foes... And recover my\n<color_yellow>Night Fog Ring<color_white> from the accursed <color_red><%sEV_QUE_NAME0>s<color_white>...!",
     "es": "",
     "fr": "",
     "it": "",
@@ -197,7 +197,7 @@
   "71648": {
     "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_12403]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>If you hadn't taken it on for me, I would've cursed\nyou... Hehe... Just kidding, thanks.\n<br>\nThe accursed <color_red><%sEV_QUE_NAME0>s<color_white> should be in the far east of\nSuizen Marsh... I... Will wait here. I'll be waiting\nfor ever...",
+    "en": "<attr><feel_happy_lv1><end_attr>If you hadn't taken it on for me, I would've cursed you...\nHehe... Just kidding, thanks.\n<br>\nThe accursed <color_red><%sEV_QUE_NAME0>s<color_white> should be in the far east of\nSuizen Marsh... I... Will wait here. I'll be waiting for\never...",
     "es": "",
     "fr": "",
     "it": "",
@@ -378,14 +378,14 @@
   },
   "71666": {
     "$comments": "🟢🟠, SPACING TEST, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020]`, YES cont'd",
-    "de": "Eine neue Farbe, „Nebelgrau“, ist jetzt im Schön-\nheitssalon verfügbar! <me 71>",
-    "en": "A new color, \"Mist Gray\", is now available at the\nBeauty Salon! <me 71>",
-    "es": "¡Un nuevo color, \"Gris Neblina\", estáya disponible\nen el Salón de Belleza! <me 71>",
-    "fr": "Une nouvelle couleur, «Gris Brume », est maintenant\ndisponible au Salon de Beauté ! <me 71>",
-    "it": "Un nuovo colore, «Grigio Nebbia», èora disponibile\npresso il Salone di Bellezza! <me 71>",
+    "de": "Eine neue Farbe, „<color_yellow>Nebelgrau<color_white>“, ist jetzt im Schön-\nheitssalon verfügbar! <me 71>",
+    "en": "A new color, \"<color_yellow>Mist Gray<color_white>\", is now available at the\nBeauty Salon! <me 71>",
+    "es": "¡Un nuevo color, \"<color_yellow>Gris Neblina<color_white>\", estáya disponible\nen el Salón de Belleza! <me 71>",
+    "fr": "Une nouvelle couleur, «<color_yellow>Gris Brume<color_white> », est maintenant\ndisponible au Salon de Beauté ! <me 71>",
+    "it": "Un nuovo colore, «<color_yellow>Grigio Nebbia<color_white>», èora disponibile\npresso il Salone di Bellezza! <me 71>",
     "ja": "美容院で　新しい色\n『ミストグレー』が　使えるようになった！<me 71>",
     "ko": "미용실에서 새로운 색상\n『미스트그레이』를 사용할 수 있게 되었다!<me 71>",
-    "pt-BR": "Uma nova cor, “Cinza Névoa”, estájádisponível no\nSalão de Beleza! <me 71>",
+    "pt-BR": "Uma nova cor, “<color_yellow>Cinza Névoa<color_white>”, estájádisponível no\nSalão de Beleza! <me 71>",
     "zh-Hans": "可以在美容院使用新颜色\n“雾灰色”了！<me 71>",
     "zh-Hant": "可以在美容院使用新顏色\n「霧灰色」了！<me 71>"
   },
@@ -405,7 +405,7 @@
   "71660": {
     "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>This <color_yellow>Mist Gray<color_white> color... If you go to a salon anywhere,\nit will be available... Think of me, when you try it\non, okay.<bw_break>",
+    "en": "<attr><feel_happy_one><end_attr>This <color_yellow>Mist Gray<color_white> color... If you go to a salon anywhere,\nit will be available... Think of me, when you try it on,\nokay.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -418,7 +418,7 @@
   "71661": {
     "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_12403, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_YOGIRINOYUBIWA]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_think_one><end_attr>...Eh? Why didn't I disappear after my wish was fulfilled,\nyou ask...? Oh no, I'm not dead or anything...\n<br>\nA while back... I was fired from Salon Felicia... I thought\nif I made a new color, I might be able to go back to\nthe salon...\n<br>\nBut on my way back to the salon after getting the new\nhair color ingredient—the Night Fog Ring—<%sEV_QUE_NAME0>s\nattacked me and I fainted...<bw_break>",
+    "en": "<attr><feel_think_one><end_attr>...Eh? Why didn't I disappear after my wish was fulfilled,\nyou ask...? Oh no, I'm not dead or anything...\n<br>\nA while back... I was fired from Salon Felicia... I thought\nif I made a new color, I might be able to go back to the\nsalon...\n<br>\nBut on my way back to the salon after getting the new\nhair color ingredient—the Night Fog Ring—<%sEV_QUE_NAME0>s\nattacked me and I fainted...<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -431,7 +431,7 @@
   "71662": {
     "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>...Hehe. I'm so grateful for you. I won't forget it for\nthe rest of my life...\n<br>\nI'll be grateful for you for ever, and ever, and ever,\nand ever, and ever...",
+    "en": "<attr><feel_happy_lv1><end_attr>...Hehe. I'm so grateful for you. I won't forget it for the\nrest of my life...\n<br>\nI'll be grateful for you for ever, and ever, and ever,\nand ever, and ever...",
     "es": "",
     "fr": "",
     "it": "",
@@ -444,7 +444,7 @@
   "71667": {
     "$comments": "🟡, Quest (045) {Useful}, see `[STT_NpcInfo.NAME_NPC_01912, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_042_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>I... Since the past have been such a gloomy person...\n<br>\nI wanted to change that about myself, so I became a\nbeautician. But... I got complaints from customers\nand was fired...\n<br>\n...Hehe... But, thanks to you, I can return to Salon\nFelisha... Once again, I'll be able to work as a\nbeautician.\n<br>\nThank you. We'll be friends for ever. And ever, and\never, and ever, and ever, and ever.\nD O  N O T  F O R G E T, okay... Hehe...",
+    "en": "<attr><feel_happy_lv1><end_attr>I... Since the past have been such a gloomy person...\n<br>\nI wanted to change that about myself, so I became a\nbeautician. But... I got complaints from customers and\nwas fired...\n<br>\n...Hehe... But, thanks to you, I can return to Salon\nFelisha... Once again, I'll be able to work as a beautician.\n<br>\nThank you. We'll be friends for ever. And ever, and\never, and ever, and ever, and ever.\nD O  N O T  F O R G E T, okay... Hehe...",
     "es": "",
     "fr": "",
     "it": "",
