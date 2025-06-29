@@ -54,7 +54,7 @@
   "71675": {
     "$comments": "🟡, Quest (046) {Useful}, see `[STT_NpcInfo.NAME_NPC_01913, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_043_1_000]`",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>...I inherited your dream. I'll definitely make the\ncoolest new color. So, rest in peace for me...",
+    "en": "<attr><feel_sad_one><end_attr>...I inherited your dream. I'll definitely make the coolest\nnew color. So, rest in peace for me...",
     "es": "",
     "fr": "",
     "it": "",
@@ -67,7 +67,7 @@
   "71676": {
     "$comments": "🟡, Quest (046) {Useful}, see `[STT_NpcInfo.NAME_NPC_01913, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_043_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_09702, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_RAKUZITUNOHURAGGU]`, YESNO",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr><turn_pc>Eavesdropping, huh, that's in bad taste, y'know. I'm\nan apprentice beautician, Red Barb. I came here to\nmeet my late friend.\n<br>\n<color_red><%sEV_QUE_NAME0>s<color_white> took their life... I want revenge, but\nI made an oath to Madam Felisha that'd I never swing\na fist again.\n<br>\n...You have good eyes, huh. Say, you couldn't defeat the\n<color_red><%sEV_QUE_NAME0>s<color_white> and recover my friend's memento, the\n<color_yellow>Sunset Flag<color_white>, for me, yeah?",
+    "en": "<attr><feel_sad_one><end_attr><turn_pc>Eavesdropping, huh, that's in bad taste, y'know. I'm an\napprentice beautician, Red Barb. I came here to meet\nmy late friend.\n<br>\n<color_red><%sEV_QUE_NAME0>s<color_white> took their life... I want revenge, but\nI made an oath to Madam Felisha that'd I never swing\na fist again.\n<br>\n...You have good eyes, huh. Say, you couldn't defeat the\n<color_red><%sEV_QUE_NAME0>s<color_white> and recover my friend's memento, the\n<color_yellow>Sunset Flag<color_white>, for me, yeah?",
     "es": "",
     "fr": "",
     "it": "",
@@ -80,7 +80,7 @@
   "71677": {
     "$comments": "🟡, Quest (046) {Useful}, see `[STT_NpcInfo.NAME_NPC_01913, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_043_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_09702]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>Heheh... When I looked into your eyes, I knew that you'd\nsay that. Alright, I'll leave this raid to you.\n<br>\nThose Shield Spirits are near here in the Gert Strait\narea... I'm counting on you, got it.",
+    "en": "<attr><feel_happy_lv2><end_attr>Heheh... When I looked into your eyes, I knew that\nyou'd say that. Alright, I'll leave this raid to you.\n<br>\nThose <color_red><%sEV_QUE_NAME0>s<color_white> are near here in the Gert Strait\narea... I'm counting on you, got it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -119,7 +119,7 @@
   "71680": {
     "$comments": "🟡, Quest (046) {Useful}, see `[STT_NpcInfo.NAME_NPC_01913, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_043_1_010]`",
     "de": "",
-    "en": "<attr><feel_angry_one><end_attr>I want to create a new color for the beauty salons to\nuse... That was my dead friend's dream. I inherited\nthat dream, and became a beautician.<open_irai><bw_break>",
+    "en": "<attr><feel_angry_one><end_attr>I want to create a new color for the beauty salons to\nuse... That was my dead friend's dream. I inherited that\ndream, and became a beautician.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -132,7 +132,7 @@
   "71681": {
     "$comments": "🟡, Quest (046) {Useful}, see `[STT_NpcInfo.NAME_NPC_01913, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_043_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_09702, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_RAKUZITUNOHURAGGU]`, cont'd",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>Please. Get back the <color_yellow>Sunset Flag<color_white> back from the\n<color_red><%sEV_QUE_NAME0>s<color_white> that took their life. I want to\ndestroy those fiends!<bw_break>",
+    "en": "<attr><feel_sad_one><end_attr>Please. Get back the <color_yellow>Sunset Flag<color_white> back from the\n<color_red><%sEV_QUE_NAME0>s<color_white> that took their life. I want to destroy those\nfiends!<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -145,7 +145,7 @@
   "71682": {
     "$comments": "🟡, Quest (046) {Useful}, see `[STT_NpcInfo.NAME_NPC_01913, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_043_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_09702]`, cont'd",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr><close_irai>The <color_red><%sEV_QUE_NAME0>s<color_white> are near this part of Gert Strait;\nit's their turf, see... Hey, don't get yourself hurt\neither.",
+    "en": "<attr><feel_normal_lv1><end_attr><close_irai>The <color_red><%sEV_QUE_NAME0>s<color_white> are near this part of Gert Strait; it's\ntheir turf, see... Hey, don't get yourself hurt either.",
     "es": "",
     "fr": "",
     "it": "",
@@ -197,7 +197,7 @@
   "71684": {
     "$comments": "🟡, Quest (046) {Useful}, see `[STT_NpcInfo.NAME_NPC_01913, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_043_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_RAKUZITUNOHURAGGU]`, NO",
     "de": "",
-    "en": "<attr><feel_sad_lv2><end_attr>That so, yeah. Totally, <color_red><%sEV_QUE_NAME0>s<color_white> aren't so easy\nan enemy to take down, are they. That's why they\nalso... Tsk.",
+    "en": "<attr><feel_sad_lv2><end_attr>That so, yeah. Totally, <color_red><%sEV_QUE_NAME0>s<color_white> aren't so easy an\nenemy to take down, are they. That's why they also...\nTsk.",
     "es": "",
     "fr": "",
     "it": "",
@@ -210,7 +210,7 @@
   "71685": {
     "$comments": "🟡, Quest (046) {Useful}, see `[STT_NpcInfo.NAME_NPC_01913, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_043_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_RAKUZITUNOHURAGGU]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>...That's it! That's totally it!! That's what they put\non top of their dolboard, when they were attacked on\nthe mountain pass—the Sunset Flag!\n<br>\nSorry to rush you to bring it to me, but, truthfully,\nto make the new color I have to burn this flag.\n<br>\nLosing my friend's memento will be lonely for me too,\nbut... It's what they wanted, so, y'know.",
+    "en": "<attr><feel_happy_lv1><end_attr>...That's it! That's totally it!! That's what they put on\ntop of their dolboard, when they were attacked on\nthe mountain pass—the Sunset Flag!\n<br>\nSorry for rushing you to bring it to me, but, truthfully,\nto make the new color I'll have to burn this flag.\n<br>\nLosing my friend's memento will be lonely for me too,\nbut... It's what they wanted, so, y'know.",
     "es": "",
     "fr": "",
     "it": "",
@@ -249,7 +249,7 @@
   "71694": {
     "$comments": "🟡, Quest (046) {Useful}, see `[STT_NpcInfo.NAME_NPC_01913, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_043_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_RAKUZITUNOHURAGGU]`, YES cont'd",
     "de": "",
-    "en": "Barb, with a menacing glare, cast a spell on the\nSunset Flag!<me 69>",
+    "en": "Barb, with a menacing glare, cast a spell on the Sunset\nFlag!<me 69>",
     "es": "",
     "fr": "",
     "it": "",
@@ -274,14 +274,14 @@
   },
   "71695": {
     "$comments": "🟢🟠, SPACING TEST, Quest (046) {Useful}, see `[STT_NpcInfo.NAME_NPC_01913, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_043_1_020]`, YES cont'd",
-    "de": "Eine neue Farbe, „<color_yellow>Sonnenuntergang<color_white>“, ist jetzt im\nSchönheitssalon verfügbar! <me 71>",
-    "en": "A new color, \"<color_yellow>Sunset<color_white>\", is now available at the\nBeauty Salon! <me 71>",
-    "es": "¡Un nuevo color, \"<color_yellow>Ocaso<color_white>\", estáya disponible en\nel Salón de Belleza! <me 71>",
-    "fr": "Une nouvelle couleur, «<color_yellow>Couchant<color_white> », est maintenant\ndisponible au Salon de Beauté ! <me 71>",
-    "it": "Un nuovo colore, «<color_yellow>Tramonto<color_white>», èora disponibile\npresso il Salone di Bellezza! <me 71>",
+    "de": "Eine neue Farbe, „<color_red>Sonnenuntergang<color_white>“, ist jetzt im\nSchönheitssalon verfügbar! <me 71>",
+    "en": "A new color, \"<color_red>Sunset<color_white>\", is now available at the Beauty\nSalon! <me 71>",
+    "es": "¡Un nuevo color, \"<color_red>Ocaso<color_white>\", estáya disponible en\nel Salón de Belleza! <me 71>",
+    "fr": "Une nouvelle couleur, «<color_red>Couchant<color_white> », est maintenant\ndisponible au Salon de Beauté ! <me 71>",
+    "it": "Un nuovo colore, «<color_red>Tramonto<color_white>», èora disponibile\npresso il Salone di Bellezza! <me 71>",
     "ja": "美容院で　新しい色\n『サンセット』が　使えるようになった！<me 71>",
     "ko": "미용실에서 새로운 색상\n『선셋』을 사용할 수 있게 되었다!<me 71>",
-    "pt-BR": "Uma nova cor, “<color_yellow>Pôr do Sol<color_white>”, estájádisponível no\nSalão de Beleza! <me 71>",
+    "pt-BR": "Uma nova cor, “<color_red>Pôr do Sol<color_white>”, estájádisponível no\nSalão de Beleza! <me 71>",
     "zh-Hans": "可以在美容院使用新颜色\n“晚霞色”了！<me 71>",
     "zh-Hant": "可以在美容院使用新顏色\n「晚霞色」了！<me 71>"
   },
@@ -314,7 +314,7 @@
   "71691": {
     "$comments": "🟡, Quest (046) {Useful}, see `[STT_NpcInfo.NAME_NPC_01913, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_043_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_09702]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>That day... To celebrate their dream come true of getting\na job at the beauty salon, we all went rolling on our\nDolboards.\n<br>\nBut, right as we hit the curve, those <%sEV_QUE_NAME0>s\nwandered up, and were unavoidable—they went head\nfirst down the cliff...\n<br>\n...Since then, I washed my hands of the street-racing\nbiz, inheriting their dream, and became a beautician...\n<br>\n...Heh. I shouldn't get all gloomy like that. Thanks\nfor hearing out an old story of mine. See ya.",
+    "en": "<attr><feel_sad_one><end_attr>That day... To celebrate their dream come true of getting\na job at the beauty salon, we all went rolling on our\nDolboards.\n<br>\nBut, right as we hit the curve, those <%sEV_QUE_NAME0>s\nwandered up, and were unavoidable—they went head\nfirst down the cliff...\n<br>\n...Since then, I washed my hands of the street-racing\nbiz, inheriting their dream, and became a beautician...\n<br>\n...Heh. I shouldn't get all gloomy like that. Thanks for\nhearing out an old story of mine. See ya.",
     "es": "",
     "fr": "",
     "it": "",
@@ -327,7 +327,7 @@
   "71696": {
     "$comments": "🟡, Quest (046) {Useful}, see `[STT_NpcInfo.NAME_NPC_01913, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_043_1_200, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_RAKUZITUNOHURAGGU]`",
     "de": "",
-    "en": "<attr><feel_sad_one><end_attr>That Sunset Flag is something that's been passed down\nin our team—the Sunset Arrows—for generations,\nsince the founding leader.\n<br>\nAt the time, I was the leader and my late friend the\nflag-bearer; but when they died the long-established\nSunset Arrows dissolved...\n<br>\nThe flag was totally burned up, but the souls of my\nlate friend and generations of members live on in my\nheart. Forever...",
+    "en": "<attr><feel_sad_one><end_attr>That Sunset Flag is something that's been passed down\nin our team—the Sunset Arrows—for generations,\nsince the founding leader.\n<br>\nAt the time, I was the leader and my late friend the\nflag-bearer; but when they died the long-established\nSunset Arrows dissolved...\n<br>\nThe flag was totally burnt up, but the souls of my\nlate friend and generations of members live on in my\nheart. Forever...",
     "es": "",
     "fr": "",
     "it": "",

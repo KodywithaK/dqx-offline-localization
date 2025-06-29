@@ -98,7 +98,7 @@ jobs:
             rm "${file}"
           done
 
-      - name: Run Python
+      - name: dqx_dat_dump
         run: |
           cd "${{ github.workspace }}/20250626/dqx_dat_dump"
           python -m venv venv
@@ -121,80 +121,131 @@ jobs:
     steps:
       - name: UnrealPak -Create
         run: |
-          for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
-            mkdir -p ${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP_ko
-            
-            cp ${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP/* \
-            ${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP_ko
-            ########################################################################################################################################################################################################
-            # echo -e "::group::Creating \033[0;34m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m"
-            # ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-            # "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak" \
-            # -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/Holiday/response_file--pakchunk0-ios_${lang}_Latest.pak.txt"
-            # echo "::endgroup::"
-            
-            # echo -e "::group::Listing \033[0;32m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m"
-            # ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-            # "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak" \
-            # -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/Holiday/response_file--pakchunk0-ios_${lang}_Latest.pak.txt" \
-            # -List
-            # echo "::endgroup::"
-            ########################################################################################################################################################################################################
-            echo -e "::group::Creating \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m"
-              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak" \
-              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/response_file--pakchunk0-Switch_${lang}_Latest.pak.txt"
-            echo "::endgroup::"
+          mkdir -p \
+          "${{ github.workspace }}/20250626/staging" \
+          "${{ github.workspace }}/20250626/staging/releases"
 
-            echo -e "::group::Listing \033[0;32m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m"
-              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak" \
-              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/response_file--pakchunk0-Switch_${lang}_Latest.pak.txt" \
-              -List
-            echo "::endgroup::"
+          for PLATFORM in Switch WindowsNoEditor; do\
+            for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do\
+              mkdir -p \
+              "${{ github.workspace }}/20250626/staging/${lang}" \
+              "${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP_ko"
 
-            echo -e "::group::Creating \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
-              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak" \
-              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/response_file--pakchunk0-WindowsNoEditor_${lang}_Latest.pak.txt"
-            echo "::endgroup::"
+              cp \
+              "${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP/*" \
+              "${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP_ko"
 
-            echo -e "::group::Listing \033[0;32m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
-              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak" \
-              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/response_file--pakchunk0-WindowsNoEditor_${lang}_Latest.pak.txt" \
-              -List
-            echo "::endgroup::"
+              if [[ ${PLATFORM} == "ios" || ${PLATFORM} == "Switch" ]]; then
+                DESTINATION="Holiday";
+              else
+                DESTINATION="Game";
+              fi
+                echo -e "::group::Creating \033[0;34m responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt \033[0m"
+                  echo -e \
+                  "\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\20250626\\staging\\\\${lang}\\Game\\Content\\NonAssets\\\ETP\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\20250626\\staging\\\\${lang}\\Game\\Content\\NonAssets\\\ETP_ko\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_ko/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\20250626\\staging\\\\${lang}\\Game\\Content\\Localization\\Game\\\\${lang}\\Game.locres\" \"../../../${DESTINATION}/Content/Localization/Game/ko/Game.locres\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\20250626\\staging\\\\${lang}\\Game\\Content\\Settings\\Version\\\version_settings.json\" \"../../../${DESTINATION}/Content/Settings/Version/version_settings.json\"\
+                  " | sed -e 's/                  /\n/g ; s/^[[:space:]]*//g ; s/[[:space:]]*$//g' > ${{ github.workspace }}/20250626/staging/responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt
+                echo "::endgroup::"
 
-            ## echo "Successfully created: [pakchunk0-ios_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
-            ## echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m\n\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+                echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak \033[0m"
+                  ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+                  "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak" \
+                  -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt"
+                echo "::endgroup::"
 
-            ## echo "Successfully created: [pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
-            #echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m\n\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
-
-            ## echo "Successfully created: [pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
-            #echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
-
-            ## echo "Successfully created: [pakchunk0-{PLATFORM}_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Multi-Languages)" >> $GITHUB_STEP_SUMMARY
-            echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-{PLATFORM}_${lang}_Dialogue_Latest_P.pak \033[0m"
-          done
-
-  Create_Latest_Release:
-    needs: [Checkout_Repos, LocRes-Builder, YAML_to_ETP, UnrealPak_-Create]
-    runs-on: self-hosted
-    steps:
-      - name: Zip Files
-        run: |
-          mkdir -p "${{ github.workspace }}/20250626/staging/releases"
-          for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
-            zip -uj \
-            ${{ github.workspace }}/20250626/staging/releases/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak.zip \
-            ${{ github.workspace }}/20250626/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak
-            
-            zip -uj \
-            ${{ github.workspace }}/20250626/staging/releases/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak.zip \
-            ${{ github.workspace }}/20250626/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak
-          done
+                echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak.zip \033[0m"
+                  zip -uj \
+                  ${{ github.workspace }}/20250626/staging/releases/pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak.zip \
+                  ${{ github.workspace }}/20250626/staging/${lang}/pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak
+                echo "::endgroup::"
+            done;
+            echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak \033[0m"
+          done;
+########################################################################################################################################################################################################
+# 2025-06-26
+#  UnrealPak_-Create:
+#    needs: [Checkout_Repos, LocRes-Builder, YAML_to_ETP]
+#    runs-on: self-hosted
+#    steps:
+#      - name: UnrealPak -Create
+#        run: |
+#          for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
+#            mkdir -p ${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP_ko
+#            
+#            cp ${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP/* \
+#            ${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP_ko
+#            ########################################################################################################################################################################################################
+#            # echo -e "::group::Creating \033[0;34m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m"
+#            # ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+#            # "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak" \
+#            # -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/Holiday/response_file--pakchunk0-ios_${lang}_Latest.pak.txt"
+#            # echo "::endgroup::"
+#            
+#            # echo -e "::group::Listing \033[0;32m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m"
+#            # ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+#            # "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak" \
+#            # -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/Holiday/response_file--pakchunk0-ios_${lang}_Latest.pak.txt" \
+#            # -List
+#            # echo "::endgroup::"
+#            ########################################################################################################################################################################################################
+#            echo -e "::group::Creating \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m"
+#              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+#              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak" \
+#              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/response_file--pakchunk0-Switch_${lang}_Latest.pak.txt"
+#            echo "::endgroup::"
+#
+#            echo -e "::group::Listing \033[0;32m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m"
+#              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+#              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak" \
+#              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/response_file--pakchunk0-Switch_${lang}_Latest.pak.txt" \
+#              -List
+#            echo "::endgroup::"
+#
+#            echo -e "::group::Creating \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+#              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+#              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak" \
+#              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/response_file--pakchunk0-WindowsNoEditor_${lang}_Latest.pak.txt"
+#            echo "::endgroup::"
+#
+#            echo -e "::group::Listing \033[0;32m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+#              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+#              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak" \
+#              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/20250626/staging/response_file--pakchunk0-WindowsNoEditor_${lang}_Latest.pak.txt" \
+#              -List
+#            echo "::endgroup::"
+#
+#            ## echo "Successfully created: [pakchunk0-ios_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
+#            ## echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m\n\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+#
+#            ## echo "Successfully created: [pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
+#            #echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m\n\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+#
+#            ## echo "Successfully created: [pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
+#            #echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+#
+#            ## echo "Successfully created: [pakchunk0-{PLATFORM}_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Multi-Languages)" >> $GITHUB_STEP_SUMMARY
+#            echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-{PLATFORM}_${lang}_Dialogue_Latest_P.pak \033[0m"
+#          done
+#
+#  Create_Latest_Release:
+#    needs: [Checkout_Repos, LocRes-Builder, YAML_to_ETP, UnrealPak_-Create]
+#    runs-on: self-hosted
+#    steps:
+#      - name: Zip Files
+#        run: |
+#          mkdir -p "${{ github.workspace }}/20250626/staging/releases"
+#          for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
+#            zip -uj \
+#            ${{ github.workspace }}/20250626/staging/releases/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak.zip \
+#            ${{ github.workspace }}/20250626/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak
+#            
+#            zip -uj \
+#            ${{ github.workspace }}/20250626/staging/releases/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak.zip \
+#            ${{ github.workspace }}/20250626/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak
+#          done
 ####################################################################################################
 #      - name: Create Release
 #        env:
