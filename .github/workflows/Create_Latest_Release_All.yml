@@ -184,6 +184,7 @@ jobs:
             ${{ github.workspace }}/test/staging/releases/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak.zip \
             ${{ github.workspace }}/test/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak
           done
+          
       - name: Create Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

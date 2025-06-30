@@ -85,18 +85,9 @@ jobs:
           mkdir -p "${{ github.workspace }}/20250626/dqx-offline-localization/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP"
           cd "${{ github.workspace }}/20250626/dqx-offline-localization/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP"
           echo -e "Splitting ETP.yaml"
-          yq -s ".filename + \".deleteme\"" --no-doc \
+          yq -s ".filename, del(.filename)" \
           "../ETP.yaml" \
           -o json -I2
-          echo -e "Deleting .filename from *.deleteme"
-          for file in ./*.deleteme; do \
-            yq "del(.filename)" \
-            "${file}" \
-            > "${file%.*}" \
-            -o json -I2
-            
-            rm "${file}"
-          done
 
       - name: dqx_dat_dump
         run: |
@@ -132,8 +123,8 @@ jobs:
               "${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP_ko"
 
               cp \
-              "${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP/*" \
-              "${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP_ko"
+              ${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP/* \
+              ${{ github.workspace }}/20250626/staging/${lang}/Game/Content/NonAssets/ETP_ko
 
               if [[ ${PLATFORM} == "ios" || ${PLATFORM} == "Switch" ]]; then
                 DESTINATION="Holiday";

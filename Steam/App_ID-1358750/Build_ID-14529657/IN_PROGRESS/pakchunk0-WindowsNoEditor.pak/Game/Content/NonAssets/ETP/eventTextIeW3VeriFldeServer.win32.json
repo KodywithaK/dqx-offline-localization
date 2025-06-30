@@ -429,9 +429,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>旅行者，你好。\n現在美容院菲麗西亞沙龍\n正準備在各地同時開幕營業。\n<br>\n如果你有興趣的話，\n請到威里納德城鎮的美容院看看。\n我們會恭候你的光臨。"
   },
   "71698": {
-    "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_03702, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_HAKUGINHOTATE]`",
+    "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_03702, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_HAKUGINHOTATE]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Nice to see you, traveler. I'm an apprentice beauti-\ncian at Salon Felisha named Soune. Pleased to make\nyour acquaintance.\n<br>\nTo develop a new color for the salon to use, I'm\nsearching for <color_yellow>Silver Scallops<color_white> that <color_red><%sEV_QUE_NAME0>s<color_white>\nin this area sometimes drop.\n<br>\nHowever, beauticians are unfit for fighting monsters...\nSo please, go defeat <color_red><%sEV_QUE_NAME0>s<color_white>s in this area\nand obtain the <color_yellow>Silver Scallop<color_white> for me!",
+    "en": "<attr><feel_happy_lv1><end_attr>Nice to see you, traveler. I'm an apprentice beautician\nat Salon Felisha named Soune. Pleased to make your\nacquaintance.\n<br>\nTo develop a new color for the salon to use, I'm\nsearching for <color_yellow>Silver Scallops<color_white> that <color_red><%sEV_QUE_NAME0>s<color_white> in this area\nsometimes drop.\n<br>\nHowever, beauticians are unfit for fighting monsters...\nSo please, go defeat <color_red><%sEV_QUE_NAME0>s<color_white> in this area and obtain\nthe <color_yellow>Silver Scallop<color_white> for me!",
     "es": "",
     "fr": "",
     "it": "",
@@ -444,7 +444,7 @@
   "71699": {
     "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_03702]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>How kind... Thank you very much. <color_red><%sEV_QUE_NAME0>s<color_white>\nlive in this area, so please be careful.",
+    "en": "<attr><feel_happy_lv2><end_attr>How kind... Thank you very much. <color_red><%sEV_QUE_NAME0>s<color_white> live in this\narea, so please be careful.",
     "es": "",
     "fr": "",
     "it": "",
@@ -483,7 +483,7 @@
   "71702": {
     "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_03702, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_HAKUGINHOTATE]`",
     "de": "",
-    "en": "<attr><feel_normal_lv1><end_attr>To develop a new color for the salon to use, I'm\nsearching for <color_yellow>Silver Scallops<color_white> that <color_red><%sEV_QUE_NAME0>s<color_white>\nin this area sometimes drop.<open_irai><bw_break>",
+    "en": "<attr><feel_normal_lv1><end_attr>To develop a new color for the salon to use, I'm\nsearching for <color_yellow>Silver Scallops<color_white> that <color_red><%sEV_QUE_NAME0>s<color_white> in this area\nsometimes drop.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -509,7 +509,7 @@
   "71704": {
     "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_HAKUGINHOTATE]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>*sniff-sniff*, that scent... Traveler, it couldn't be\nthat you've obtained the <color_yellow>Silver Scallop<color_white> for me!?",
+    "en": "<attr><feel_happy_lv1><end_attr>*sniff-sniff*, that scent... Traveler, it couldn't be that\nyou've obtained the <color_yellow>Silver Scallop<color_white> for me!?",
     "es": "",
     "fr": "",
     "it": "",
@@ -561,7 +561,7 @@
   "71706": {
     "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_020]`, YES",
     "de": "",
-    "en": "Aah... This is the Silver Scallop! *gulp* Then,\nwithout delay...",
+    "en": "Aah... This is the Silver Scallop! *gulp* Then, without\ndelay...",
     "es": "",
     "fr": "",
     "it": "",
@@ -570,45 +570,6 @@
     "pt-BR": "",
     "zh-Hans": "啊……这正是白银扇贝！\n看上去真美味。那我就不客气了……",
     "zh-Hant": "啊……這正是白銀扇貝！\n看上去真美味，那麼我就馬上……"
-  },
-  "71707": {
-    "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_020]`, YES cont'd",
-    "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>...Phew. As expected, the freshly harvested <color_yellow>Silver\nScallop<color_white>'s taste is exceptional, no. Aah... My tongue,\nit's as though it were melting...\n<br>\nHuh!? Ho-how impolite of me! Scallops are... My favorite. Aah, truly, that was a delicacy...\n<br>\nAh! That's right! Inside the scallop was a petite\npearl. I was thinking of making the new color with\nits radiance!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<attr><feel_happy_lv2><end_attr>「……ふぅっ。やはり　とれたての\n　白銀ホタテの味は　格別ですね。\n　ああ……舌が　とろけそう……。\n<br>\n「はっ！？　し　失礼いたしましたっ！\n　わたくし　その……ホタテが　大好物で。\n　ああ　本当に　美味でございました……。\n<br>\n「あ！　そうそう！　このホタテの中に\n　入っていた　ちっちゃな真珠。この輝きで\n　新色を作ろうと　思っていたのです！",
-    "ko": "<attr><feel_happy_lv2><end_attr>: ……후우. 역시 갓 잡은\n　백은 가리비의 맛은 각별하네요.\n　아아…… 혀가 녹을 것 같아요…….\n<br>\n: 앗!? 시, 실례했습니다!\n　제가…… 가리비를 너무 좋아해서 그만.\n　아아, 정말 맛있었어요…….\n<br>\n: 아! 참! 이 가리비 안에\n　들어 있었던 작은 진주. 이 빛으로\n　새로운 색을 만들려고 했어요!",
-    "pt-BR": "",
-    "zh-Hans": "<attr><feel_happy_lv2><end_attr>嗯……果然新鲜的白银扇贝\n味道就是不一样啊。\n啊……我的舌头都要溶化了……\n<br>\n啊？！不、不好意思！\n我啊……特别喜欢扇贝。\n啊啊，真的非常美味……\n<br>\n啊！对啦！\n这个扇贝里有颗小小的珍珠。\n我就是要用它的光辉制作新的颜色！",
-    "zh-Hant": "<attr><feel_happy_lv2><end_attr>……呼，新鮮的白銀扇貝\n味道果然就是不一樣呢。\n啊……我的舌頭都要融化了……\n<br>\n啊！？不、不好意思！\n那個……其實我非常喜歡吃扇貝。\n哎呀，真的是相當美味呢……\n<br>\n啊！對了！\n這個扇貝裡面有顆小小的珍珠，\n我想要用這個光澤來製作新的顏色！"
-  },
-  "71708": {
-    "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_020]`, YES cont'd",
-    "de": "",
-    "en": "Then, the scrumptious Silver Scallop's pearl I shall\npowderize... After that, merely cast a spell upon it, no.<bw_break>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "「では　おいしい白銀ホタテの\n　真珠をくだいて　粉にして……\n　あとは　魔法をかけるだけですね。<bw_break>",
-    "ko": ": 그럼 맛있는 백은 가리비의\n　진주를 부숴서 가루로 만든 다음……\n　이제 마법을 걸기만 하면 돼요.<bw_break>",
-    "pt-BR": "",
-    "zh-Hans": "那我就把美味的白银扇贝里的\n珍珠捣成粉末……\n之后只要施加魔法就行了。<bw_break>",
-    "zh-Hant": "那我就將美味的白銀扇貝裡的珍珠\n搗成粉末……\n再來只要對它施展魔法就行了。<bw_break>"
-  },
-  "71709": {
-    "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_020]`, YES cont'd",
-    "de": "",
-    "en": "Then... Let's proceed.\n<center>Magical-Magical Scavenged Scallop Treat\nGive Me Something Fresh To Eaaat!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "「では……参ります。\n　マジカル　マジカル　トレタテ　ホタテー\n　アゲタテ　ヤキタテ　タベサセテー！",
-    "ko": ": 그럼…… 시작할게요.\n　매지컬 매지컬 가리비 먹으러 가리~\n　구우리 삶으리 가리지 않고 먹으리~!",
-    "pt-BR": "",
-    "zh-Hans": "那……我就施加魔法啦。\n魔力无穷～魔力无边～刚获得的～美味扇贝。\n刚刚炸的～刚刚烤的～快快品尝吧！",
-    "zh-Hant": "那麼……我要開始了。\n魔力繽紛、魔力閃耀、新鮮現採、美味扇貝！\n剛剛炸的、剛剛烤的、快讓我吃吧！"
   },
   "71716": {
     "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_020]`, YES cont'd",
@@ -622,6 +583,45 @@
     "pt-BR": "",
     "zh-Hans": "索奈打开白银扇贝的壳，\n将里面的贝肉一口吞下！",
     "zh-Hant": "索奈打開白銀扇貝的殼，\n一口吞下裡面的扇貝肉！"
+  },
+  "71707": {
+    "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_020]`, YES cont'd",
+    "de": "",
+    "en": "<attr><feel_happy_lv2><end_attr>...Phew. As expected, the freshly harvested Silver\nScallop's taste is exceptional, no. Aah... My tongue, it's\nas though it were melting...\n<br>\nHuh!? Ho-how impolite of me! Scallops are... My\nfavorite. Aah, truly, that was a delicacy...\n<br>\nAh! That's right! Inside the scallop was a petite pearl. I\nwas thinking of making a new color with its radiance!",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<attr><feel_happy_lv2><end_attr>「……ふぅっ。やはり　とれたての\n　白銀ホタテの味は　格別ですね。\n　ああ……舌が　とろけそう……。\n<br>\n「はっ！？　し　失礼いたしましたっ！\n　わたくし　その……ホタテが　大好物で。\n　ああ　本当に　美味でございました……。\n<br>\n「あ！　そうそう！　このホタテの中に\n　入っていた　ちっちゃな真珠。この輝きで\n　新色を作ろうと　思っていたのです！",
+    "ko": "<attr><feel_happy_lv2><end_attr>: ……후우. 역시 갓 잡은\n　백은 가리비의 맛은 각별하네요.\n　아아…… 혀가 녹을 것 같아요…….\n<br>\n: 앗!? 시, 실례했습니다!\n　제가…… 가리비를 너무 좋아해서 그만.\n　아아, 정말 맛있었어요…….\n<br>\n: 아! 참! 이 가리비 안에\n　들어 있었던 작은 진주. 이 빛으로\n　새로운 색을 만들려고 했어요!",
+    "pt-BR": "",
+    "zh-Hans": "<attr><feel_happy_lv2><end_attr>嗯……果然新鲜的白银扇贝\n味道就是不一样啊。\n啊……我的舌头都要溶化了……\n<br>\n啊？！不、不好意思！\n我啊……特别喜欢扇贝。\n啊啊，真的非常美味……\n<br>\n啊！对啦！\n这个扇贝里有颗小小的珍珠。\n我就是要用它的光辉制作新的颜色！",
+    "zh-Hant": "<attr><feel_happy_lv2><end_attr>……呼，新鮮的白銀扇貝\n味道果然就是不一樣呢。\n啊……我的舌頭都要融化了……\n<br>\n啊！？不、不好意思！\n那個……其實我非常喜歡吃扇貝。\n哎呀，真的是相當美味呢……\n<br>\n啊！對了！\n這個扇貝裡面有顆小小的珍珠，\n我想要用這個光澤來製作新的顏色！"
+  },
+  "71708": {
+    "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_020]`, YES cont'd",
+    "de": "",
+    "en": "Then, I shall powderize the scrumptious Silver\nScallop's pearl... After that, I merely cast a spell\nupon it, no.<bw_break>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "「では　おいしい白銀ホタテの\n　真珠をくだいて　粉にして……\n　あとは　魔法をかけるだけですね。<bw_break>",
+    "ko": ": 그럼 맛있는 백은 가리비의\n　진주를 부숴서 가루로 만든 다음……\n　이제 마법을 걸기만 하면 돼요.<bw_break>",
+    "pt-BR": "",
+    "zh-Hans": "那我就把美味的白银扇贝里的\n珍珠捣成粉末……\n之后只要施加魔法就行了。<bw_break>",
+    "zh-Hant": "那我就將美味的白銀扇貝裡的珍珠\n搗成粉末……\n再來只要對它施展魔法就行了。<bw_break>"
+  },
+  "71709": {
+    "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_020]`, YES cont'd",
+    "de": "",
+    "en": "Then... Let's proceed.\n<center>Magical-Magical, Scavenged Scallop Treat\nGive Me Something Fresh To Eaaat!",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "「では……参ります。\n　マジカル　マジカル　トレタテ　ホタテー\n　アゲタテ　ヤキタテ　タベサセテー！",
+    "ko": ": 그럼…… 시작할게요.\n　매지컬 매지컬 가리비 먹으러 가리~\n　구우리 삶으리 가리지 않고 먹으리~!",
+    "pt-BR": "",
+    "zh-Hans": "那……我就施加魔法啦。\n魔力无穷～魔力无边～刚获得的～美味扇贝。\n刚刚炸的～刚刚烤的～快快品尝吧！",
+    "zh-Hant": "那麼……我要開始了。\n魔力繽紛、魔力閃耀、新鮮現採、美味扇貝！\n剛剛炸的、剛剛烤的、快讓我吃吧！"
   },
   "71717": {
     "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_020]`, YES cont'd",
@@ -639,7 +639,7 @@
   "71710": {
     "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv3><end_attr>I've done it! The beauty salon's luxurious, shining,\nnew color... I name it Scallo... No, \"<color_yellow>Pearl<color_white>\"!",
+    "en": "<attr><feel_happy_lv3><end_attr>I've done it! The beauty salon's luxurious, shining, new\ncolor... I name it Scallo... No, \"<color_yellow>Pearl<color_white>\"!",
     "es": "",
     "fr": "",
     "it": "",
@@ -678,7 +678,7 @@
   "71712": {
     "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_020]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>This Scallo... <color_yellow>Pearl<color_white> color should be available in any beauty salon. Certainly, you must trial it for me.\n<br>\nScallop, starting as a scrumptious meal, refine one's\ninner beauty. When you'd like to refine your outer\nbeauty, please entrust it to us beauticians.",
+    "en": "<attr><feel_happy_lv2><end_attr>This Scallo... <color_yellow>Pearl<color_white> color should be available in any\nbeauty salon. Certainly, you must trial it for me.\n<br>\nScallops, starting as a scrumptious meal, refine one's\ninner beauty. When you'd like to refine your outer\nbeauty, please entrust it to us beauticians.",
     "es": "",
     "fr": "",
     "it": "",
@@ -691,7 +691,7 @@
   "71719": {
     "$comments": "🟡, Quest (047) {Useful}, see `[STT_NpcInfo.NAME_NPC_01914, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_044_1_200]`",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>...Just now, out of habit, I ate the scallop as is;\nalthough would it have been better marinaded, I\nwonder.\n<br>\nOr, occasionally grilled? I'll have to see about\ntaste-testing them... Huh! Ho-how impolite of meee!!",
+    "en": "<attr><feel_happy_lv2><end_attr>...Just now, out of habit, I ate the scallop as is; although,\nwould it have been better marinated, I wonder.\n<br>\nOr, occasionally grilled? I'll have to see about taste-\ntesting them... Huh! Ho-how impolite of meee!!",
     "es": "",
     "fr": "",
     "it": "",

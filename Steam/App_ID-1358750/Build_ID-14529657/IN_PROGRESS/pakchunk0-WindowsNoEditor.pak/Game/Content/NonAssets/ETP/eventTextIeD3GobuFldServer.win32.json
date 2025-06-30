@@ -260,9 +260,9 @@
     "zh-Hant": "<attr><feel_normal_lv1><end_attr>位於此處以西的多爾瓦姆王國裡，\n似乎有著防具鍛造公會。\n<br>\n真想過去看看\n那到底是什麼樣的地方。\n但我實在提不起勇氣……"
   },
   "71720": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_000]`, before clearing Quest (034)",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Oh, you. Hmm. You're still a gem in\nthe rough right now, but if you work\non your sense of style, you'll shine\n<br>\nbeautifully, won't you? Oh, that's\nright, Salon Salon Fe Lycia is getting\nready to open all over the place, and\n<br>\nI, the charismatic hair stylist, got\nan offer. If you want to be as\nbeautiful as me, why don't you go\n<br>\nthere? The salon is just down the road\nin Dolworm Kingdom.",
+    "en": "<attr><feel_happy_lv1><end_attr>Ah... You... Teehee. Right now, you're still a gem in\nthe rough, but if you polished your sense of style,\nyou'd shine beautifully, wouldn't you?\n<br>\nAh... Right. The beauty salon, Salon Felisha, is now\ngetting ready to open all over... Speaking of, a\ncharismatic beautician—yours truly—got a job offer.\n<br>\nIf you want to be as beautiful as me, why don't you\ntry going there? The beauty salon's past here in\nDolworm Kingdom.",
     "es": "",
     "fr": "",
     "it": "",
@@ -273,9 +273,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>哎呀……你……\n嗯，雖然現在還看不出來，但只要好好琢磨\n應該能綻放出相當美麗的光芒喔。\n<br>\n啊……對了。美容院菲麗西亞沙龍\n目前正準備在各地同時開幕……\n也邀請了我這個頂尖美容師加入。\n<br>\n如果你也想變得像我一樣美麗，\n要不要也去看看呢？\n美容院就在前面的多爾瓦姆王國喔。"
   },
   "71721": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_12200]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Sorry, but I'm off today. Now I'm not\nwith a charismatic hairdresser and her\nclients, but a beautiful celebrity and\n<br>\na wayward traveler. Well, you seem to\nbe pretty good at it. I just wanted to\ntry out an idea I had on vacation. I\n<br>\nneed you to run an errand for me.\nBring me some of that Golden Oil that\n<%sEV_QUE_NAME0> monster sometimes\n<br>\ndrops to make a new celebrity color\nfor the salon.",
+    "en": "<attr><feel_happy_one><end_attr>Sorry, but today's my day off. Right now, I'm not a\ncharismatic beautician dealing with clients, but a\nbeautiful celeb, passing traveler...\n<br>\nAh, you... Seem like you're sorta skilled, y'know.\nRight in the middle of vacationing, an idea popped\ninto my head that I'd like to try.\n<br>\nAnd I'd like to ask something from a go-getter.\n<br>\nI could make the best, new celeb color for the beauty\nsalon to use, if I had the <color_yellow>Golden Oil<color_white> that those\n<color_red><%sEV_QUE_NAME0><color_white> monsters sometimes drop.\n<br>\nI'd like you to go get me it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -286,9 +286,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>不好意思，我今天休息。\n現在的我們不是頂尖美容師與顧客，\n而是一位美麗的名流與路過的旅行者……\n<br>\n哎呀……你的實力似乎還算不錯。\n我正好想試試在休假當中想到的點子，\n希望你能替我跑個腿。\n<br>\n為了製作充滿高級感的美容院新顏色，\n希望你幫我帶回<%sEV_QUE_NAME0>\n這種怪物偶爾會掉落的金黃助曬油。"
   },
   "71722": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_12200]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Well, it's an obvious choice.\n<%sEV_QUE_NAME0> is running in the\ndesert around here. Nice to meet you.",
+    "en": "<attr><feel_happy_lv1><end_attr>Well, it's the totally right choice, y'know.\n<br>\n<color_red><%sEV_QUE_NAME0>s<color_white> run right around this area of the\neast of Goble Desert. So then, I'll leave it to you,\nokay.",
     "es": "",
     "fr": "",
     "it": "",
@@ -299,9 +299,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>理所當然的選擇呢。\n<%sEV_QUE_NAME0>就在這附近的沙漠奔跑。\n那就拜託你囉。"
   },
   "71723": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_000]`, QUESTS FULL",
     "de": "",
-    "en": "<attr><feel_normal_one><end_attr>I'd say that's a wise choice, but you\nhave your hands full with other things\nyou need to do. Why don't you finish\n<br>\nthat and come back later?",
+    "en": "<attr><feel_normal_one><end_attr>Wise decision, y'know... Is what I'd like to say, but\nyou've got your hands full with other requests. Once\nyou've got those settled, we'll start from scratch.",
     "es": "",
     "fr": "",
     "it": "",
@@ -312,9 +312,9 @@
     "zh-Hant": "<attr><feel_normal_one><end_attr>明智的選擇……雖然我很想這麼說，\n但你身上似乎還有很多未完成的工作。\n等你將那些瑣事都處理完之後再來吧。"
   },
   "71724": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_000]`, NO",
     "de": "",
-    "en": "<attr><feel_angry_one><end_attr>Oh, you're not satisfied? Oh, yeah.\nI'm tired of working on my day off,\nand in a way, I appreciate you.",
+    "en": "<attr><feel_angry_one><end_attr>...Ah, unsatisfied? Ah, so. Well... I'm tired of working\non my day off anyway, so—in a way—I'm thankful for\nyou.",
     "es": "",
     "fr": "",
     "it": "",
@@ -325,9 +325,9 @@
     "zh-Hant": "<attr><feel_angry_one><end_attr>……哎呀，你不願意嗎？好吧。\n不過……在休假時還要工作確實很累人。\n就某種角度上來說，我得感謝你呢。"
   },
   "71725": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_12200, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>I can make the most celebrity new\ncolor <%sev_que_name0> for Salon with\nGolden Oil that monster sometimes\n<br>\ndrops.<open_irai><bw_break>",
+    "en": "<attr><feel_happy_one><end_attr>I could make the best, new celeb color for the beauty\nsalon to use... If I had the <color_yellow>Golden Oil<color_white> that those\n<color_red><%sEV_QUE_NAME0><color_white> monsters sometimes drop.<open_irai><bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -338,9 +338,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>充滿高級感的美容院新顏色……\n只要有<%sEV_QUE_NAME0>這種怪物\n偶爾會掉落的金黃助曬油就能製作了。<open_irai><bw_break>"
   },
   "71726": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_12200, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr><%sEV_QUE_NAME0> is just running\naround here in Goble Desert East. So\nit's nice to meet you. Hmmm.",
+    "en": "<attr><feel_happy_one><end_attr><color_red><%sEV_QUE_NAME0>s<color_white> run right around this area of the\neast of Goble Desert. So then, I'll leave it to you,\nokay. Teehee.",
     "es": "",
     "fr": "",
     "it": "",
@@ -351,9 +351,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr><%sEV_QUE_NAME0>正好就在這附近的\n哥布爾沙漠東邊奔跑。\n那就拜託你囉。嗯哼～"
   },
   "71727": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, YESNO",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Well, you're early. You got Golden\nOil. Can I see it?",
+    "en": "<attr><feel_happy_one><end_attr>Ah... You're fast, aren't you. You got the <color_yellow>Golden Oil<color_white>,\ndidn't you. Can you show it to me for a bit?",
     "es": "",
     "fr": "",
     "it": "",
@@ -363,10 +363,36 @@
     "zh-Hans": "<attr><feel_happy_one><end_attr>哎呀……你真快呀。\n得到黄金油了吧。\n能让我看看吗？",
     "zh-Hant": "<attr><feel_happy_one><end_attr>哎呀……你回來得真快。\n是拿到金黃助曬油了吧？\n能讓我看看嗎？"
   },
+  "71737": {
+    "$comments": "🟢🟠, SPACING TEST, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, GIVE?",
+    "de": "Gibst du <%sEV_SYSMSG_NPC> das <color_yellow>Goldene Öl<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "en": "Give <%sEV_SYSMSG_NPC> the <color_yellow>Golden Oil<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "es": "¿Darles <%sEV_SYSMSG_NPC> el <color_yellow>Óleo Dorado<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "fr": "Donnes <%sEV_SYSMSG_NPC> l'<color_yellow>Huile d'Or<color_white> ?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "it": "Dare <%sEV_SYSMSG_NPC> l'<color_yellow>Olio d'Oro<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ja": "ビビデに\nこんじきオイルを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "ko": "비비데에게\n황금빛 오일을 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "pt-BR": "Dêa <%sEV_SYSMSG_NPC> o <color_yellow>Óleo Dourado<color_white>?\n<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hans": "要把黄金油交给\n比比迪吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
+    "zh-Hant": "是否要將金黃助曬油\n交給比比蒂？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
+  },
+  "71738": {
+    "$comments": "🟢🟠, SPACING TEST, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, GAVE!",
+    "de": "<pc> gab <%sEV_SYSMSG_NPC> das <color_yellow>Goldene Öl<color_white>!",
+    "en": "<pc> gave <%sEV_SYSMSG_NPC> the <color_yellow>Golden Oil<color_white>!",
+    "es": "¡<pc> le dio a <%sEV_SYSMSG_NPC> el <color_yellow>Óleo Dorado<color_white>!",
+    "fr": "<pc> a donnéa <%sEV_SYSMSG_NPC> l'<color_yellow>Huile d'Or<color_white> !",
+    "it": "<pc> ha dato a <%sEV_SYSMSG_NPC> l'<color_yellow>Olio d'Oro<color_white>!",
+    "ja": "<pc>は　ビビデに\nこんじきオイルを　渡した！",
+    "ko": "{pc}|hpp(은,는) 비비데에게\n황금빛 오일을 건넸다!",
+    "pt-BR": "<pc> deu a <%sEV_SYSMSG_NPC> o <color_yellow>Óleo Dourado<color_white>!",
+    "zh-Hans": "<pc>把黄金油\n交给了比比迪！",
+    "zh-Hant": "<pc>將金黃助曬油\n交給比比蒂了！"
+  },
   "71728": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, NO",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>What is it? You haven't found it yet?\nYou're such a good kitty, aren't you?\nNormally, I'd say ''Meh. But since I'm\n<br>\noff duty today, I'll let you off the\nhook. Just take it easy and do your\nbest.",
+    "en": "<attr><feel_happy_lv1><end_attr>What? Still haven't found it? Heheh... You're not a\n\"kitty\", are you.\nNormally, I'd say \"meh!\", but since I'm having such\na nice day off, I'll let you off the hook.\n<br>\nJust take it easy and do your best for me.",
     "es": "",
     "fr": "",
     "it": "",
@@ -377,9 +403,9 @@
     "zh-Hant": "<attr><feel_happy_lv1><end_attr>什麼？你還沒找到嗎？\n呵呵……真是隻讓人頭痛的小貓呢。\n<br>\n若是平時，我就會稍微責備你一下了。\n但今天我休息，就原諒你吧。\n你就悠哉地加油吧。"
   },
   "71729": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, YES",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>What a nice aroma. Then, give me your\nhand. Here. Wet it on my back.",
+    "en": "<attr><feel_happy_lv2><end_attr>Mmm, smells nice. So then... Here, gimme your hand.\nThere. I'd like you to spread that on my back.",
     "es": "",
     "fr": "",
     "it": "",
@@ -389,10 +415,23 @@
     "zh-Hans": "<attr><feel_happy_lv2><end_attr>嗯，好香。\n那么……来，把手伸出来。\n好，涂在我的后背上。",
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>嗯～這味道真香。\n那麼……把手伸出來吧。\n來，把油塗在我的背上。"
   },
-  "71730": {
-    "$comments": "🔴, ",
+  "71739": {
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_lv2><end_attr>You have good hands. You're very\ntalented. Oh, that feels good.",
+    "en": "<pc> spread the Golden Oil on Bibide's back!",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "<pc>は　ビビデの背中に\nこんじきオイルを　塗りたくった！",
+    "ko": "{pc}|hpp(은,는) 비비데의 등에\n황금빛 오일을 잔뜩 발랐다!",
+    "pt-BR": "",
+    "zh-Hans": "<pc>把黄金油涂到了\n比比迪的背上！",
+    "zh-Hant": "<pc>在比比蒂的背上\n塗滿了金黃助曬油！"
+  },
+  "71730": {
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, YES cont'd",
+    "de": "",
+    "en": "<attr><feel_happy_lv2><end_attr>You have nice hands, y'know. You're very talented.\nHah... That feels good...",
     "es": "",
     "fr": "",
     "it": "",
@@ -403,9 +442,9 @@
     "zh-Hant": "<attr><feel_happy_lv2><end_attr>手法不錯喔，看來你有這方面的才能呢。\n哎呀……好舒服……"
   },
   "71731": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, YES cont'd",
     "de": "",
-    "en": "Good night. I really needed this\nGolden Oil. Tanning is a must on\nvacation. Then, as promised, I'll use\n<br>\nthe rest of the Golden Oil to make a\nnew color.",
+    "en": "Thank for your hard work. I definitely needed this\nGolden Oil. Sun-tanning is a must on vacation.\n<br>\n...So, as promised, should I use the rest of the Golden\nOil to make a new color?",
     "es": "",
     "fr": "",
     "it": "",
@@ -416,9 +455,9 @@
     "zh-Hant": "辛苦你了。\n我無論如何都需要用到這個金黃助曬油。\n因為度假時，日光浴是不可或缺的活動嘛。\n<br>\n……那麼就按照約定，\n用剩餘的金黃助曬油\n順便來做個新顏色吧。"
   },
   "71732": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, YES cont'd",
     "de": "",
-    "en": "First, warm up the Golden Oil, it's a\nbeautiful golden color like the sun.\nThen I'll let my magic do the rest.<bw_break>",
+    "en": "First, I'll warm up the Golden Oil... Hehe, it's like\nthe Sun with that pretty, golden color, isn't it.\nAfterwards, I'll cast my spell on it.<bw_break>",
     "es": "",
     "fr": "",
     "it": "",
@@ -429,9 +468,9 @@
     "zh-Hant": "首先是將金黃助曬油加熱……\n呵呵，這美麗的金色就像太陽一樣呢。\n之後只要再加上我的魔法就行了。<bw_break>"
   },
   "71733": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, YES cont'd",
     "de": "",
-    "en": "Magical Magical Abra Katabra Bibide,\nBijode, and Sho!",
+    "en": "<center>Magical-Magical...\nAbra-Kadabra\nBibide・Beauty・Shooow!",
     "es": "",
     "fr": "",
     "it": "",
@@ -441,10 +480,23 @@
     "zh-Hans": "魔力无穷～魔力无边……天灵灵，地灵灵。\n比比迪，大美女，变！",
     "zh-Hant": "魔力繽紛、魔力閃耀……阿布拉卡達布拉，\n比比蒂，美女變身～！"
   },
-  "71734": {
-    "$comments": "🔴, ",
+  "71740": {
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, YES cont'd",
     "de": "",
-    "en": "Well, they've come up with a nice\ncolor. I think I'll name this new\ncolor ''sungold'', suitable for\n<br>\ncelebrity holidays.",
+    "en": "Bibide, with apathetic hands, warmed up and cast a\nspell on the Golden Oil!<me 69>",
+    "es": "",
+    "fr": "",
+    "it": "",
+    "ja": "ビビデは　けだるい手つきで\n温めた　こんじきオイルに　魔法をかけた！<me 69>",
+    "ko": "비비데는 나른한 손놀림으로\n따뜻한 황금빛 오일에 마법을 걸었다!<me 69>",
+    "pt-BR": "",
+    "zh-Hans": "比比迪用慵懒的手势\n向被温热了的黄金油施加了魔法！<me 69>",
+    "zh-Hant": "比比蒂用慵懶的手勢，\n對溫熱的金黃助曬油施加了魔法！<me 69>"
+  },
+  "71734": {
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, YES cont'd",
+    "de": "",
+    "en": "Hmm... Nice color I made, isn't it. Fitting for a\nceleb's holiday, this color... I'll name it \"Golden Sun\",\nhow about that.",
     "es": "",
     "fr": "",
     "it": "",
@@ -454,10 +506,23 @@
     "zh-Hans": "嗯……颜色好美啊。\n这个新颜色很适合名流的假日呢……\n就把它命名为太阳金色吧。",
     "zh-Hant": "嗯……做出相當美麗的顏色了呢。\n與名流的假日十分相襯的新顏色……\n就命名為太陽金色吧。"
   },
+  "71741": {
+    "$comments": "🟢🟠, SPACING TEST, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, YES cont'd",
+    "de": "Eine neue Farbe, „Goldene Sonne“, ist jetzt im\nSchönheitssalon verfügbar! <me 71>",
+    "en": "A new color, \"Golden Sun\", is now available at the\nBeauty Salon! <me 71>",
+    "es": "¡Un nuevo color, \"Sol Dorado\", estáya disponible\nen el Salón de Belleza! <me 71>",
+    "fr": "Une nouvelle couleur, «Soleil d'Or », est maintenant\ndisponible au Salon de Beauté ! <me 71>",
+    "it": "Un nuovo colore, «Sole d'Oro », èora disponibile\npresso il Salone di Bellezza! <me 71>",
+    "ja": "美容院で　新しい色\n『サンゴールド』が　使えるようになった！<me 71>",
+    "ko": "미용실에서 새로운 색상\n『선골드』를 사용할 수 있게 되었다!<me 71>",
+    "pt-BR": "Uma nova cor, “Sol Dourado”, estájádisponível no\nSalão de Beleza! <me 71>",
+    "zh-Hans": "可以在美容院使用新颜色\n“太阳金色”了！<me 71>",
+    "zh-Hant": "可以在美容院使用新顏色\n「太陽金色」了！<me 71>"
+  },
   "71735": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>Oh, that's right. I want to thank you\nfor this. Well, it's my feeling. Keep\nit.",
+    "en": "<attr><feel_happy_one><end_attr>...Ah, that's right. Here's your reward. Well, it's what\nI had ready, so, take it.",
     "es": "",
     "fr": "",
     "it": "",
@@ -468,9 +533,9 @@
     "zh-Hant": "<attr><feel_happy_one><end_attr>……啊，對了對了。\n這是這次的謝禮。\n總之是我的一點心意，你就收下吧。"
   },
   "71736": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`, YES cont'd",
     "de": "",
-    "en": "<attr><feel_happy_one><end_attr>This sungold color should work\nanywhere in Salon. You can try it out\nright away. I think that charismatic\n<br>\nhairdresser Bibide from Salon Fe Lycia\nmight respect me? I worked even though\nit was my day off. I guess I'm a born\n<br>\nbeauty seeker after all. Hmmm.",
+    "en": "<attr><feel_happy_one><end_attr>This <color_yellow>Golden Sun<color_white> color should be available at any\nbeauty salon. I'd like you to try it out for me too\nasap.\n<br>\nAs expected of Salon Felisha's charismatic beautician,\nBibide... By the way, that was totally respectable of\nme, don't you think?\n<br>\nHeh... It was my day off, and yet I worked. After all,\nI'm naturally a beauty seeker, y'know. Teehee.",
     "es": "",
     "fr": "",
     "it": "",
@@ -480,75 +545,10 @@
     "zh-Hans": "<attr><feel_happy_one><end_attr>这种太阳金色\n可在任何一家美容院使用。\n你也快去试试吧。\n<br>\n你说不愧是美容院菲丽西娅沙龙的\n顶尖美容师比比迪……\n难道你开始尊敬我了？\n<br>\n嗯……休息还在工作。\n看来我果然是天生追求美丽的人啊，\n嘿嘿。",
     "zh-Hant": "<attr><feel_happy_one><end_attr>只要是在美容院，\n應該都能夠使用這太陽金色。\n你也快點去試試看吧。\n<br>\n真不愧是美容院菲麗西亞沙龍的\n頂尖美容師比比蒂……難道說，\n你已經忍不住開始佩服我了嗎？\n<br>\n唉……明明在休假，\n卻還是不小心工作了。\n我果然是天生的美之追求者呀，呵呵。"
   },
-  "71737": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "Would you give Bibide the Golden Oil?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "ビビデに\nこんじきオイルを　渡しますか？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "ko": "비비데에게\n황금빛 오일을 건네겠습니까?<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "pt-BR": "",
-    "zh-Hans": "要把黄金油交给\n比比迪吗？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>",
-    "zh-Hant": "是否要將金黃助曬油\n交給比比蒂？<yesno><case 1><break><case 2><close><case_cancel><close><case_end>"
-  },
-  "71738": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> gave Bibide the Golden\nOil!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　ビビデに\nこんじきオイルを　渡した！",
-    "ko": "{pc}|hpp(은,는) 비비데에게\n황금빛 오일을 건넸다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把黄金油\n交给了比比迪！",
-    "zh-Hant": "<pc>將金黃助曬油\n交給比比蒂了！"
-  },
-  "71739": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "<pc> smeared Golden Oil on\nBibide's back!",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "<pc>は　ビビデの背中に\nこんじきオイルを　塗りたくった！",
-    "ko": "{pc}|hpp(은,는) 비비데의 등에\n황금빛 오일을 잔뜩 발랐다!",
-    "pt-BR": "",
-    "zh-Hans": "<pc>把黄金油涂到了\n比比迪的背上！",
-    "zh-Hant": "<pc>在比比蒂的背上\n塗滿了金黃助曬油！"
-  },
-  "71740": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "Bibide worked his magic on the Golden\nOil, which he warmed up with a lazy\nhand!<me 69>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "ビビデは　けだるい手つきで\n温めた　こんじきオイルに　魔法をかけた！<me 69>",
-    "ko": "비비데는 나른한 손놀림으로\n따뜻한 황금빛 오일에 마법을 걸었다!<me 69>",
-    "pt-BR": "",
-    "zh-Hans": "比比迪用慵懒的手势\n向被温热了的黄金油施加了魔法！<me 69>",
-    "zh-Hant": "比比蒂用慵懶的手勢，\n對溫熱的金黃助曬油施加了魔法！<me 69>"
-  },
-  "71741": {
-    "$comments": "🔴, ",
-    "de": "",
-    "en": "A new color, ''sungold,'' is now\navailable at Salon!<me 71>",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "美容院で　新しい色\n『サンゴールド』が　使えるようになった！<me 71>",
-    "ko": "미용실에서 새로운 색상\n『선골드』를 사용할 수 있게 되었다!<me 71>",
-    "pt-BR": "",
-    "zh-Hans": "可以在美容院使用新颜色\n“太阳金色”了！<me 71>",
-    "zh-Hant": "可以在美容院使用新顏色\n「太陽金色」了！<me 71>"
-  },
   "71742": {
-    "$comments": "🔴, ",
+    "$comments": "🟡, Quest (048) {Useful}, see `[STT_NpcInfo.NAME_NPC_01915, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_045_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_12200, STT_DajinamonoItem.*_ID_ITEM_DAIJINAMONO_KONZIKIOIRU]`",
     "de": "",
-    "en": "<attr><feel_happy_lv1><end_attr>Did you know? <%SEV_QUE_NAME0>'s fur\nis actually pure white. It's baked in\nGolden Oil to that color. I admire\n<br>\nyour attitude, Monster, for not taking\nthe time to care for your fur. As a\nfellow beauty seeker, I respect you.",
+    "en": "<attr><feel_happy_lv1><end_attr>Did you know? <%sEV_QUE_NAME0>s' fur is actually pure\nwhite. It tans itself with the Golden Oil.\n<br>\nIts attitude of not neglecting its fur care... For a\nmonster, that's admirable, y'know. As a fellow beauty\nseeker, I respect that.",
     "es": "",
     "fr": "",
     "it": "",
