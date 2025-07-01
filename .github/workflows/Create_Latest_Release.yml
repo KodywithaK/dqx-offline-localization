@@ -1,0 +1,178 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  Checkout_Repos:
+    permissions: write-all
+    runs-on: self-hosted
+    steps:
+      - name: Checkout dqx_dat_dump
+        uses: actions/checkout@v4
+        with:
+          path: ./BUILD/dqx_dat_dump
+          ref: testing
+          repository: KodywithaK/dqx_dat_dump
+
+      - name: Checkout dqx-offline-localization
+        uses: actions/checkout@v4
+        with:
+          path: ./BUILD/dqx-offline-localization
+          ref: main
+          repository: KodywithaK/dqx-offline-localization
+
+      - name: Checkout LocRes-Builder
+        uses: actions/checkout@v4
+        with:
+          path: ./BUILD/LocRes-Builder
+          ref: main
+          repository: KodywithaK/LocRes-Builder
+
+  LocRes-Builder:
+    needs: [Checkout_Repos]
+    runs-on: self-hosted
+    steps:
+      - name: LocRes-Builder Inputs
+        run: |
+          # echo -e "::group::\033[0;34m Building LocRes-Builder's Inputs \033[0m"
+          mkdir -p ${{ github.workspace }}/BUILD/LocRes-Builder/INPUT
+
+          cp "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locmeta.json" \
+          "${{ github.workspace }}/BUILD/LocRes-Builder/INPUT/locmeta.json"
+
+          for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do jq \
+            "to_entries| map(reduce . as \$obj ({};{\"key\": \$obj[\"key\"],\"value\": (\$obj[\"value\"]| to_entries| map({\"key\": .key,\"value\": [(if (.value[\"${lang}\"] != \"\")then (.value = .value[\"${lang}\"])else (.value = .value.ja)end)]| from_entries[]})| from_entries)}))| from_entries" \
+            "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json" \
+            > "${{ github.workspace }}/BUILD/LocRes-Builder/INPUT/${lang}.json"
+          done
+          # echo "::endgroup::"
+
+      - name: LocRes-Builder Outputs
+        run: |
+          echo -e "::group::\033[0;34m Building LocRes-Builder's Outputs \033[0m"
+            mkdir -p ${{ github.workspace }}/BUILD/LocRes-Builder/OUTPUT
+
+            python3 "${{ github.workspace }}/BUILD/LocRes-Builder/src/main.py" \
+            "${{ github.workspace }}/BUILD/LocRes-Builder/INPUT/locmeta.json" \
+            -o="${{ github.workspace }}/BUILD/LocRes-Builder/OUTPUT" -f=json
+
+            for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
+              mkdir -p "${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/Localization/Game/${lang}"
+
+              cp \
+              "${{ github.workspace }}/BUILD/LocRes-Builder/OUTPUT/Game/${lang}/Game.locres" \
+              "${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/Localization/Game/${lang}/Game.locres"
+
+              mkdir -p "${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/Settings/Version"
+
+              jq -n "{\"AppVersionString\": \"2.0.0\n$(echo -e ${lang}_v$(date -u +%F ))\"}" \
+              > "${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/Settings/Version/version_settings.json"
+            done
+          echo "::endgroup::"
+
+  YAML_to_ETP:
+    needs: [Checkout_Repos, LocRes-Builder]
+    runs-on: self-hosted
+    steps:
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          architecture: "x64"
+          # python-version: '3.x'
+          python-version: "3.11"
+          cache: "pip" # caching pip dependencies
+
+      - name: Split ETP.yaml
+        run: |
+          mkdir -p "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP"
+          cd "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP"
+          echo -e "Splitting ETP.yaml"
+          yq -s ".filename, del(.filename)" \
+          "./ETP.yaml" \
+          -o json -I2
+
+      - name: dqx_dat_dump
+        run: |
+          cd "${{ github.workspace }}/BUILD/dqx_dat_dump"
+          python -m venv venv
+          source ./venv/bin/activate
+          pip install -r requirements.txt
+          cd ./tools/packing/
+
+          for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
+            echo -e "::group::Packing \033[0;32m ETP_${lang}\033[0m"
+              python pack_etp--KwK_20250626.py -L ${lang}
+            echo "::endgroup::"
+          done
+
+          deactivate
+          cd ~
+
+  UnrealPak_-Create:
+    needs: [Checkout_Repos, LocRes-Builder, YAML_to_ETP]
+    runs-on: self-hosted
+    steps:
+      - name: UnrealPak -Create
+        run: |
+          mkdir -p \
+          "${{ github.workspace }}/BUILD/staging" \
+          "${{ github.workspace }}/BUILD/staging/releases"
+
+          for PLATFORM in Switch WindowsNoEditor; do\
+            for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do\
+              mkdir -p \
+              "${{ github.workspace }}/BUILD/staging/${lang}" \
+              "${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/NonAssets/ETP_ko"
+
+              cp \
+              ${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/NonAssets/ETP/* \
+              ${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/NonAssets/ETP_ko
+
+              if [[ ${PLATFORM} == "ios" || ${PLATFORM} == "Switch" ]]; then
+                DESTINATION="Holiday";
+              else
+                DESTINATION="Game";
+              fi
+                echo -e "::group::Creating \033[0;34m responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt \033[0m"
+                  echo -e \
+                  "\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${lang}\\Game\\Content\\NonAssets\\\ETP\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${lang}\\Game\\Content\\NonAssets\\\ETP_ko\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_ko/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${lang}\\Game\\Content\\Localization\\Game\\\\${lang}\\Game.locres\" \"../../../${DESTINATION}/Content/Localization/Game/ko/Game.locres\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${lang}\\Game\\Content\\Settings\\Version\\\version_settings.json\" \"../../../${DESTINATION}/Content/Settings/Version/version_settings.json\"\
+                  " | sed -e 's/        /\n/g ; s/^[[:space:]]*//g ; s/[[:space:]]*$//g' > ${{ github.workspace }}/BUILD/staging/responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt
+                echo "::endgroup::"
+
+                echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak \033[0m"
+                  ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+                  "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/BUILD/staging/${lang}/pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak" \
+                  -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/BUILD/staging/responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt"
+                echo "::endgroup::"
+
+                echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak.zip \033[0m"
+                  zip -uj \
+                  ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak.zip \
+                  ${{ github.workspace }}/BUILD/staging/${lang}/pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak
+                echo "::endgroup::"
+
+                echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak \033[0m"
+            done;
+          done;
+########################################################################################################################################################################################################
+#  Create_Latest_Release:
+#    needs: [Checkout_Repos, LocRes-Builder, YAML_to_ETP, UnrealPak_-Create]
+#    runs-on: self-hosted
+#    steps:
+#      - name: Create Release
+#        env:
+#          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        run: |
+#          gh release delete Multi-Languages --yes
+#
+#          gh release create Multi-Languages \
+#          ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-Switch_*_Dialogue_Latest_P.pak.zip \
+#          ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak.zip \
+#          --notes-file ${{ github.workspace }}/BUILD/dqx-offline-localization/docs/CHANGELOG.md \
+#          --title "$(echo -e v$(date -u +%F ))"
+#
+#          echo "Successfully uploaded new files to [Releases/Multi-Languages](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Multi-Languages)." >> $GITHUB_STEP_SUMMARY
+#          echo -e "\n::notice:: \033[0;32m Successfully uploaded new files to Latest release. \033[0m"
