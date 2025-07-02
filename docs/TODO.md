@@ -31,4 +31,11 @@
   - ETP.yaml
     - find `  ja: \|-\n    (<center>)?『風の民　エルフ』\n    \1?自然を愛し　森と共に生きる\n    \1?背に小さな羽を持った　かれんな姿の者たち。\n    \1?<br>\n    \1?伝統と格式を重んじる彼らは\n    \1?世界の理を　深く学び\n    \1?多くの優れた呪文の使い手を　世に送りだした。\n`
       - (08/12) has all languages
-    - anchor `&Common_5Tribes` and alias `*Common_5Tribes`
+      - anchor `&Common_5Tribes_{RACE}` and alias `*Common_5Tribes_{RACE}`
+        - `<center>"People of {THING}, {RACE}"`
+    - find `[\w\d\s,']{60,}(?!\\n(<br>\\n)?)`
+      - newline & `<br>` anything that is too long
+    - find `  ja: |-\n    <pc>は\n    岩に　刻まれている文字を　読んだ。`
+      - anchor `&Common_examine_engraving` and alias `*Common_examine_engraving`
+    - find `この世界で　平和に　暮らしていた`
+      - anchor `&Common_examine_engraving_Reidametes` and alias `*Common_examine_engraving_Reidametes`

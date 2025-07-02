@@ -1,12 +1,14 @@
 on:
-  push:
-    branches: [main]
-    paths:
-      - "Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json"
-      - "Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json"
-      - "Steam/**/IN_PROGRESS/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json"
-      - "Steam/**/DONE/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json"
   workflow_dispatch:
+####################################################################################################
+## 2025_07_02
+#  push:
+#    branches: [main]
+#    paths:
+#      - "Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json"
+#      - "Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json"
+#      - "Steam/**/IN_PROGRESS/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json"
+#      - "Steam/**/DONE/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json"
 
 jobs:
   Checkout_Repos:

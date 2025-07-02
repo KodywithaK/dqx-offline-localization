@@ -1,4 +1,9 @@
 on:
+  push:
+    branches: [main]
+    paths:
+      - "Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json"
+      - "Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/ETP.yaml"
   workflow_dispatch:
 
 jobs:
@@ -36,13 +41,14 @@ jobs:
           # echo -e "::group::\033[0;34m Building LocRes-Builder's Inputs \033[0m"
           mkdir -p ${{ github.workspace }}/BUILD/LocRes-Builder/INPUT
 
-          cp "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locmeta.json" \
+          cp \
+          "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locmeta.json" \
           "${{ github.workspace }}/BUILD/LocRes-Builder/INPUT/locmeta.json"
 
-          for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do jq \
-            "to_entries| map(reduce . as \$obj ({};{\"key\": \$obj[\"key\"],\"value\": (\$obj[\"value\"]| to_entries| map({\"key\": .key,\"value\": [(if (.value[\"${lang}\"] != \"\")then (.value = .value[\"${lang}\"])else (.value = .value.ja)end)]| from_entries[]})| from_entries)}))| from_entries" \
+          for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do jq \
+            "to_entries| map(reduce . as \$obj ({};{\"key\": \$obj[\"key\"],\"value\": (\$obj[\"value\"]| to_entries| map({\"key\": .key,\"value\": [(if (.value[\"${LANGUAGE}\"] != \"\")then (.value = .value[\"${LANGUAGE}\"])else (.value = .value.ja)end)]| from_entries[]})| from_entries)}))| from_entries" \
             "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json" \
-            > "${{ github.workspace }}/BUILD/LocRes-Builder/INPUT/${lang}.json"
+            > "${{ github.workspace }}/BUILD/LocRes-Builder/INPUT/${LANGUAGE}.json"
           done
           # echo "::endgroup::"
 
@@ -55,17 +61,17 @@ jobs:
             "${{ github.workspace }}/BUILD/LocRes-Builder/INPUT/locmeta.json" \
             -o="${{ github.workspace }}/BUILD/LocRes-Builder/OUTPUT" -f=json
 
-            for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
-              mkdir -p "${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/Localization/Game/${lang}"
+            for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
+              mkdir -p "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Localization/Game/${LANGUAGE}"
 
               cp \
-              "${{ github.workspace }}/BUILD/LocRes-Builder/OUTPUT/Game/${lang}/Game.locres" \
-              "${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/Localization/Game/${lang}/Game.locres"
+              "${{ github.workspace }}/BUILD/LocRes-Builder/OUTPUT/Game/${LANGUAGE}/Game.locres" \
+              "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Localization/Game/${LANGUAGE}/Game.locres"
 
-              mkdir -p "${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/Settings/Version"
+              mkdir -p "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Settings/Version"
 
-              jq -n "{\"AppVersionString\": \"2.0.0\n$(echo -e ${lang}_v$(date -u +%F ))\"}" \
-              > "${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/Settings/Version/version_settings.json"
+              jq -n "{\"AppVersionString\": \"2.0.0\n$(echo -e ${LANGUAGE}_v$(date -u +%F ))\"}" \
+              > "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Settings/Version/version_settings.json"
             done
           echo "::endgroup::"
 
@@ -98,9 +104,9 @@ jobs:
           pip install -r requirements.txt
           cd ./tools/packing/
 
-          for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
-            echo -e "::group::Packing \033[0;32m ETP_${lang}\033[0m"
-              python pack_etp--KwK_20250626.py -L ${lang}
+          for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
+            echo -e "::group::Packing \033[0;32m ETP_${LANGUAGE}\033[0m"
+              python pack_etp--KwK_20250626.py -L ${LANGUAGE}
             echo "::endgroup::"
           done
 
@@ -118,14 +124,14 @@ jobs:
           "${{ github.workspace }}/BUILD/staging/releases"
 
           for PLATFORM in Switch WindowsNoEditor; do\
-            for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do\
+            for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do\
               mkdir -p \
-              "${{ github.workspace }}/BUILD/staging/${lang}" \
-              "${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/NonAssets/ETP_ko"
+              "${{ github.workspace }}/BUILD/staging/${LANGUAGE}" \
+              "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_ko"
 
               cp \
-              ${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/NonAssets/ETP/* \
-              ${{ github.workspace }}/BUILD/staging/${lang}/Game/Content/NonAssets/ETP_ko
+              ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP/* \
+              ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_ko
 
               if [[ ${PLATFORM} == "ios" || ${PLATFORM} == "Switch" ]]; then
                 DESTINATION="Holiday";
@@ -135,26 +141,26 @@ jobs:
                 echo -e "::group::Creating \033[0;34m responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt \033[0m"
                   echo -e \
                   "\
-                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${lang}\\Game\\Content\\NonAssets\\\ETP\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP/\"\
-                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${lang}\\Game\\Content\\NonAssets\\\ETP_ko\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_ko/\"\
-                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${lang}\\Game\\Content\\Localization\\Game\\\\${lang}\\Game.locres\" \"../../../${DESTINATION}/Content/Localization/Game/ko/Game.locres\"\
-                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${lang}\\Game\\Content\\Settings\\Version\\\version_settings.json\" \"../../../${DESTINATION}/Content/Settings/Version/version_settings.json\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_ko\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_ko/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Localization\\Game\\\\${LANGUAGE}\\Game.locres\" \"../../../${DESTINATION}/Content/Localization/Game/ko/Game.locres\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Settings\\Version\\\version_settings.json\" \"../../../${DESTINATION}/Content/Settings/Version/version_settings.json\"\
                   " | sed -e 's/        /\n/g ; s/^[[:space:]]*//g ; s/[[:space:]]*$//g' > ${{ github.workspace }}/BUILD/staging/responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt
                 echo "::endgroup::"
 
-                echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak \033[0m"
+                echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak \033[0m"
                   ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-                  "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/BUILD/staging/${lang}/pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak" \
+                  "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/BUILD/staging/${LANGUAGE}/pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak" \
                   -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/BUILD/staging/responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt"
                 echo "::endgroup::"
 
-                echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak.zip \033[0m"
+                echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak.zip \033[0m"
                   zip -uj \
-                  ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak.zip \
-                  ${{ github.workspace }}/BUILD/staging/${lang}/pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak
+                  ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak.zip \
+                  ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak
                 echo "::endgroup::"
 
-                echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-${PLATFORM}_${lang}_Dialogue_Latest_P.pak \033[0m"
+                echo -e "::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak \033[0m\n"
             done;
           done;
 ########################################################################################################################################################################################################
