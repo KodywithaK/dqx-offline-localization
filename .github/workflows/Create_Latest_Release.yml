@@ -181,10 +181,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          #gh release delete Multi-Languages --yes
-          gh release edit Multi-Languages \
-          --title "(echo -e $(gh release list --json name -q ".[1].name"))" \
-          --tag "previous"
+          gh release delete Multi-Languages --yes
 
           gh release create Latest \
           ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-Switch_*_Dialogue_Latest_P.pak.zip \
@@ -194,3 +191,10 @@ jobs:
 
           echo "Successfully uploaded new files to [Releases/Latest](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Latest)." >> $GITHUB_STEP_SUMMARY
           echo -e "\n::notice:: \033[0;32m Successfully uploaded new files to Latest release. \033[0m"
+
+########################################################################################################################################################################################################
+# 20250713_2100: `gh release edit` still not supported by github actions
+#          gh release edit Multi-Languages \
+#          --title "(echo -e $(gh release list --json name -q ".[1].name"))" \
+#          --tag "previous"
+#
