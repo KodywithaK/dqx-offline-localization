@@ -95,6 +95,7 @@ jobs:
           yq -s ".filename, del(.filename)" \
           "./ETP.yaml" \
           -o json -I2
+          rm "./null.json"
 
       - name: dqx_dat_dump
         run: |
@@ -133,7 +134,7 @@ jobs:
               ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP/* \
               ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_ko
 
-              if [[ ${PLATFORM} == "ios" || ${PLATFORM} == "Switch" ]]; then
+              if [[ ${PLATFORM} == @(Android_ETC2|ios|ps4|Switch) ]]; then
                 DESTINATION="Holiday";
               else
                 DESTINATION="Game";
@@ -146,6 +147,14 @@ jobs:
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Localization\\Game\\\\${LANGUAGE}\\Game.locres\" \"../../../${DESTINATION}/Content/Localization/Game/ko/Game.locres\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Settings\\Version\\\version_settings.json\" \"../../../${DESTINATION}/Content/Settings/Version/version_settings.json\"\
                   " | sed -e 's/        /\n/g ; s/^[[:space:]]*//g ; s/[[:space:]]*$//g' > ${{ github.workspace }}/BUILD/staging/responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt
+
+                  echo -e \
+                  "\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_ko\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_ko/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Localization\\Game\\\\${LANGUAGE}\\Game.locres\" \"../../../${DESTINATION}/Content/Localization/Game/ko/Game.locres\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Settings\\Version\\\version_settings.json\" \"../../../${DESTINATION}/Content/Settings/Version/version_settings.json\"\
+                  " | sed -e 's/        /\n/g ; s/^[[:space:]]*//g ; s/[[:space:]]*$//g'
                 echo "::endgroup::"
 
                 echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak \033[0m"
@@ -163,22 +172,25 @@ jobs:
                 echo -e "::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak \033[0m\n"
             done;
           done;
-########################################################################################################################################################################################################
-#  Create_Latest_Release:
-#    needs: [Checkout_Repos, LocRes-Builder, YAML_to_ETP, UnrealPak_-Create]
-#    runs-on: self-hosted
-#    steps:
-#      - name: Create Release
-#        env:
-#          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#        run: |
-#          gh release delete Multi-Languages --yes
-#
-#          gh release create Multi-Languages \
-#          ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-Switch_*_Dialogue_Latest_P.pak.zip \
-#          ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak.zip \
-#          --notes-file ${{ github.workspace }}/BUILD/dqx-offline-localization/docs/CHANGELOG.md \
-#          --title "$(echo -e v$(date -u +%F ))"
-#
-#          echo "Successfully uploaded new files to [Releases/Multi-Languages](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Multi-Languages)." >> $GITHUB_STEP_SUMMARY
-#          echo -e "\n::notice:: \033[0;32m Successfully uploaded new files to Latest release. \033[0m"
+
+  Create_Latest_Release:
+    needs: [Checkout_Repos, LocRes-Builder, YAML_to_ETP, UnrealPak_-Create]
+    runs-on: self-hosted
+    steps:
+      - name: Create Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          #gh release delete Multi-Languages --yes
+          gh release edit Multi-Languages \
+          --title "(echo -e $(gh release list --json name -q ".[1].name"))" \
+          --tag "previous"
+
+          gh release create Latest \
+          ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-Switch_*_Dialogue_Latest_P.pak.zip \
+          ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak.zip \
+          --notes-file ${{ github.workspace }}/BUILD/dqx-offline-localization/docs/CHANGELOG.md \
+          --title "$(echo -e v$(date -u +%F ))"
+
+          echo "Successfully uploaded new files to [Releases/Latest](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Latest)." >> $GITHUB_STEP_SUMMARY
+          echo -e "\n::notice:: \033[0;32m Successfully uploaded new files to Latest release. \033[0m"
