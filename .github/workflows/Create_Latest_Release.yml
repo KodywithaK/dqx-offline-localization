@@ -68,10 +68,6 @@ jobs:
               "${{ github.workspace }}/BUILD/LocRes-Builder/OUTPUT/Game/${LANGUAGE}/Game.locres" \
               "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Localization/Game/${LANGUAGE}/Game.locres"
 
-              mkdir -p "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Settings/Version"
-
-              jq -n "{\"AppVersionString\": \"2.0.0\n$(echo -e ${LANGUAGE}_v$(date -u +%F ))\"}" \
-              > "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Settings/Version/version_settings.json"
             done
           echo "::endgroup::"
 
@@ -124,7 +120,7 @@ jobs:
           "${{ github.workspace }}/BUILD/staging" \
           "${{ github.workspace }}/BUILD/staging/releases"
 
-          for PLATFORM in Switch WindowsNoEditor; do\
+          for PLATFORM in ps4 Switch WindowsNoEditor; do\
             for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do\
               mkdir -p \
               "${{ github.workspace }}/BUILD/staging/${LANGUAGE}" \
@@ -139,6 +135,13 @@ jobs:
               else
                 DESTINATION="Game";
               fi
+                echo -e "::group::Creating \033[0;34m Titlescreen Version Info \033[0m"
+                  mkdir -p "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Settings/Version"
+
+                  jq -n "{\"AppVersionString\": \"2.0.1\n${PLATFORM}\n$(echo -e ${LANGUAGE}_v$(date -u +%F ))\"}" \
+                  > "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Settings/Version/version_settings.json"
+                echo "::endgroup::"
+
                 echo -e "::group::Creating \033[0;34m responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt \033[0m"
                   echo -e \
                   "\
@@ -181,8 +184,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release delete Multi-Languages --yes
-
           gh release create Latest \
           ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-Switch_*_Dialogue_Latest_P.pak.zip \
           ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak.zip \
@@ -194,7 +195,15 @@ jobs:
 
 ########################################################################################################################################################################################################
 # 20250713_2100: `gh release edit` still not supported by github actions
+#          gh release delete Latest --yes
+#
 #          gh release edit Multi-Languages \
 #          --title "(echo -e $(gh release list --json name -q ".[1].name"))" \
 #          --tag "previous"
+#
+########################################################################################################################################################################################################
+# 20250728_1600: gh release edit Latest
+# ```cmd
+# FOR /F "usebackq" %A IN (`gh release list --json name -q ".[0].name"`) DO gh release edit Latest --title "%A" --tag "%A"
+# ```
 #

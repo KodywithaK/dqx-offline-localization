@@ -25,23 +25,41 @@
 
 > [!NOTE]
 > ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/KodywithaK/dqx-offline-localization/total?logo=github&label=Downloads) ![GitHub Actions Workflows (Create_Latest_Release.yml status)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml/badge.svg?branch=main)
-> | Language |                                                                                                                                                                                                 Milestone Progress |
-> | :------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-> | de       | ![GitHub milestone details](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/2?link=https%3A%2F%2Fgithub.com%2FKodywithaK%2Fdqx-offline-localization%2Fmilestone%2F2) |
-> | en       | ![GitHub milestone details](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/1?link=https%3A%2F%2Fgithub.com%2FKodywithaK%2Fdqx-offline-localization%2Fmilestone%2F1) |
-> | es       | ![GitHub milestone details](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/3?link=https%3A%2F%2Fgithub.com%2FKodywithaK%2Fdqx-offline-localization%2Fmilestone%2F3) |
-> | fr       | ![GitHub milestone details](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/4?link=https%3A%2F%2Fgithub.com%2FKodywithaK%2Fdqx-offline-localization%2Fmilestone%2F4) |
-> | it       | ![GitHub milestone details](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/5?link=https%3A%2F%2Fgithub.com%2FKodywithaK%2Fdqx-offline-localization%2Fmilestone%2F5) |
-> | pt-BR    | ![GitHub milestone details](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/6?link=https%3A%2F%2Fgithub.com%2FKodywithaK%2Fdqx-offline-localization%2Fmilestone%2F6) |
+> | Language |                                                                                                                                                                                Milestone Progress |
+> | :------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+> | de       |  [![Deutsche Lokalisierung](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/2)](https://github.com/KodywithaK/dqx-offline-localization/milestone/2) |
+> | en       |    [![English Localization](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/1)](https://github.com/KodywithaK/dqx-offline-localization/milestone/1) |
+> | es       | [![Localización de Español](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/3)](https://github.com/KodywithaK/dqx-offline-localization/milestone/3) |
+> | fr       |  [![Localisation Française](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/4)](https://github.com/KodywithaK/dqx-offline-localization/milestone/4) |
+> | it       | [![Localizzazione Italiana](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/5)](https://github.com/KodywithaK/dqx-offline-localization/milestone/5) |
+> | pt-BR    |  [![Localização Brasileira](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/6)](https://github.com/KodywithaK/dqx-offline-localization/milestone/6) |
 
 > [!IMPORTANT]
 > # External Links
-> ### ドラゴンクエスト X 　目覚めし五つの種族　オフライン
+> ### Game
 > - [Purchase on Android](https://play.google.com/store/apps/details?id=com.square_enix.android_googleplay.dq10offline)
-> - [Purchase on iOS](https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88x-%E7%9B%AE%E8%A6%9A%E3%82%81%E3%81%97%E4%BA%94%E3%81%A4%E3%81%AE%E7%A8%AE%E6%97%8F-%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3/id6504323939)
-> - [Purchase on PlayStation](https://store.playstation.com/ja-jp/product/JP0082-PPSA04410_00-DEMO000000000000)
+> - [Purchase on iOS](https://apps.apple.com/jp/app/ドラゴンクエストx-目覚めし五つの種族-オフライン/id6504323939)
+> - Purchase on PlayStation
+>   - [Japanese Version](https://store.playstation.com/ja-jp/product/JP0082-PPSA04409_00-0000000000000000) ( ドラゴンクエストＸ　目覚めし五つの種族　オフライン )
+>   - [SE Asia Version (Multi-Language) - Korean](https://store.playstation.com/ko-kr/concept/10003094) ( 드래곤 퀘스트 X 다섯 종족의 각성 오프라인 )
+>     - \*i-PIN required\*
+>   - [SE Asia Version (Multi-Language) - Chinese](https://store.playstation.com/zh-hans-hk/product/HP0082-PPSA17350_00-ASIA000000000000) ( 勇者斗恶龙X　觉醒的五种族　OFFLINE )
 > - [Purchase on Steam](https://store.steampowered.com/app/1358750/X__OFFLINE/)
 > - [Purchase on Switch](https://store-jp.nintendo.com/item/software/D70010000042357)
+>
+> ### Books
+> - [Square-Enix | Official Guidebook, Ver. 1](https://magazine.jp.square-enix.com/gamebooks/books/10430) (ISBN 9784757581739)
+> - [Square-Enix | Official Guidebook, Ver. 2](https://magazine.jp.square-enix.com/gamebooks/books/10449) (ISBN 9784757586383)
+> - V Jump | Astoltia Navigator, Ver. 1
+>   - [Purchase on S-Manga](https://www.s-manga.net/items/contents.html?isbn=978-4-08-779801-2) (ISBN 9784087798012)
+> - [V Jump | Astoltia Navigator, Ver. 2](https://vjump.shueisha.co.jp/vjbooks/ドラゴンクエストx-眠れる勇者と導きの盟友-オフ/)
+>   - [Purchase on S-Manga](https://www.s-manga.net/items/contents.html?isbn=978-4-08-779809-8) (ISBN 9784087798098)
+>
+> ### Videos
+> - Playthroughs
+>   - [@Santi2277's full playthrough with commentary in spanish](https://www.youtube.com/playlist?list=PLEQLCZp7Wmiij2XH7be5IQI-1IpJUqMQh)
+>     - Dragon Quest X Offline: El Despertar de las 5 Razas
+>
 
 > [!TIP]
 > <details><summary><h1>Glossary</h1></summary>

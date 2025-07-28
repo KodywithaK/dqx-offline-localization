@@ -31,7 +31,7 @@
 > |   Type   |                         Story Of \_                         |                                                                       Progress | Comment(s) |
 > | :------: | :---------------------------------------------------------: | -----------------------------------------------------------------------------: | :--------: |
 > | Prologue |                                                             |                                                                                |            |
-> |          |                    Ethene<br><br>{Human}                    | `de` 🔴 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
+> |          |                 Ethene/Etern<br><br>{Human}                 | `de` 🔴 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |                    Agrani<br><br>{Dwarf}                    | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |                Tsuskul Village<br><br>{Elf}                 | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |                Rangao Village<br><br>{Ogre}                 | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
@@ -54,12 +54,12 @@
 > |          |            Lendersia<br><br>{The 3 Butterflies}             | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |    Melsandy Village<br><br>{The 3 Butterflies - Silver}     | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |          Seredo<br><br>{The 3 Butterflies - Amber}          | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
-> |          |    Arahaghiro Kingdom<br><br>{The 3 Butterflies - Green}    | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
+> |          |    Al-Ahagiro Kingdom<br><br>{The 3 Butterflies - Green}    | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          | Gran Zedora<br><br>{The 3 Butterflies - Anlucia's Memories} | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |   The Land of Overlapping Fates<br><br>{Pendulum of Fate}   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |         Melsandy Village<br><br>{Pendulum of Fate}          | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |          Seredo<br><br>{When Life & Death Overlap}          | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
-> |          |       Arahaghiro Kingdom<br><br>{Dawn of Arahaghiro}        | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
+> |          |       Al-Ahagiro Kingdom<br><br>{Dawn of Al-Ahagiro}        | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |     Assignment From Lushenda<br><br>{Pendulum of Fate}      | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |  The Spinning Bonds of Courage<br><br>{Divine Crimsonite}   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |          The Wings of Soaring Hope<br><br>{Dragon}          | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
@@ -122,7 +122,7 @@
 > |    Useful    |  049  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | Beauty Salon |
 > |  Sub Story   |  050  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  Sub Story   |  051  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
-> |  Sub Story   |  052  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
+> |  Sub Story   |  052  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  Sub Story   |  053  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  Sub Story   |  054  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  Sub Story   |  055  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |

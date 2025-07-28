@@ -57,9 +57,17 @@
   - modify `(localmanifest|cachedbuildmanifest).txt` to load patch?
 
   ## pakchunk0-ps4.(pak|ucas|utoc)
-  - create workflow for auto creating patch: `pakchunk0-ps4_{LANGUAGE}_Dialogue_Latest_P.pkg`
+  - Jailbreak
+    - [@ MODDED WARFARE | PS4 Jailbreak Advice for firmware up to 12.50](https://www.youtube.com/watch?v=vxhXmPcFJ-4&ab_channel=MODDEDWARFARE)
+    - [@ MODDED WARFARE | Run your PS4 disc games without the disc on 12.02 or lower](https://www.youtube.com/watch?v=uVJnamKxGsA&ab_channel=MODDEDWARFARE)
+    - [@ MODDED WARFARE | PS4 Patch Builder Release/Tutorial](https://www.youtube.com/watch?v=C1EmHMgSfdM&ab_channel=MODDEDWARFARE)
+  - Create workflow for auto creating patch: `pakchunk0-ps4_{LANGUAGE}_Dialogue_Latest_P.pkg`
     - @ pearlxcore/PS4-PKG-Tool?
     - @ hippie68/ps4-pkg-manager?
+    - @ OpenOrbis/LibOrbisPkg
+      - [OpenOrbis PS4 Toolchain Part 1 - Overview + Installation](https://youtu.be/pqzsva6OjuE?feature=shared&t=885)
+      - [OpenOrbis PS4 Toolchain Part 2 - Creating a Project + Project Structure Overview](https://youtu.be/zboWUuL-IbE?feature=shared&t=395)
+      - [OpenOrbis PS4 Toolchain Part 5 - Building and Testing on the PS4](https://www.youtube.com/watch?v=SEfkgUQrzLo&ab_channel=SpecterDev)
   <!--
   ## ps5?
   - tbd
