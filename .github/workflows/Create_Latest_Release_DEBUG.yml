@@ -9,21 +9,21 @@ jobs:
       - name: Checkout dqx_dat_dump
         uses: actions/checkout@v4
         with:
-          path: ./test/dqx_dat_dump
+          path: ./DEBUG/dqx_dat_dump
           ref: testing
           repository: KodywithaK/dqx_dat_dump
 
       - name: Checkout dqx-offline-localization
         uses: actions/checkout@v4
         with:
-          path: ./test/dqx-offline-localization
+          path: ./DEBUG/dqx-offline-localization
           ref: main
           repository: KodywithaK/dqx-offline-localization
 
       - name: Checkout LocRes-Builder
         uses: actions/checkout@v4
         with:
-          path: ./test/LocRes-Builder
+          path: ./DEBUG/LocRes-Builder
           ref: main
           repository: KodywithaK/LocRes-Builder
 
@@ -34,41 +34,39 @@ jobs:
       - name: LocRes-Builder Inputs
         run: |
           # echo -e "::group::\033[0;34m Building LocRes-Builder's Inputs \033[0m"
-          mkdir -p ${{ github.workspace }}/test/LocRes-Builder/INPUT
+          mkdir -p ${{ github.workspace }}/DEBUG/LocRes-Builder/INPUT
 
-          cp "${{ github.workspace }}/test/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locmeta.json" \
-          "${{ github.workspace }}/test/LocRes-Builder/INPUT/locmeta.json"
+          cp \
+          "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locmeta.json" \
+          "${{ github.workspace }}/DEBUG/LocRes-Builder/INPUT/locmeta.json"
 
-          for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do jq \
-            "to_entries| map(reduce . as \$obj ({};{\"key\": \$obj[\"key\"],\"value\": (\$obj[\"value\"]| to_entries| map({\"key\": .key,\"value\": [(if (.value[\"${lang}\"] != \"\")then (.value = .value[\"${lang}\"])else (.value = .value.ja)end)]| from_entries[]})| from_entries)}))| from_entries" \
-            "${{ github.workspace }}/test/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json" \
-            > "${{ github.workspace }}/test/LocRes-Builder/INPUT/${lang}.json"
+          for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do jq \
+            "to_entries| map(reduce . as \$obj ({};{\"key\": \$obj[\"key\"],\"value\": (\$obj[\"value\"]| to_entries| map({\"key\": .key,\"value\": [(if (.value[\"${LANGUAGE}\"] != \"\")then (.value = .value[\"${LANGUAGE}\"])else (.value = .value.ja)end)]| from_entries[]})| from_entries)}))| from_entries" \
+            "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json" \
+            > "${{ github.workspace }}/DEBUG/LocRes-Builder/INPUT/${LANGUAGE}.json"
           done
           # echo "::endgroup::"
 
       - name: LocRes-Builder Outputs
         run: |
           echo -e "::group::\033[0;34m Building LocRes-Builder's Outputs \033[0m"
-            mkdir -p ${{ github.workspace }}/test/LocRes-Builder/OUTPUT
+            mkdir -p ${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT
 
-            python3 "${{ github.workspace }}/test/LocRes-Builder/src/main.py" \
-            "${{ github.workspace }}/test/LocRes-Builder/INPUT/locmeta.json" \
-            -o="${{ github.workspace }}/test/LocRes-Builder/OUTPUT" -f=json
+            python3 "${{ github.workspace }}/DEBUG/LocRes-Builder/src/main.py" \
+            "${{ github.workspace }}/DEBUG/LocRes-Builder/INPUT/locmeta.json" \
+            -o="${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT" -f=json
 
-            for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
-              mkdir -p "${{ github.workspace }}/test/staging/${lang}/Game/Content/Localization/Game/${lang}"
+            for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
+              mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/Localization/Game/${LANGUAGE}"
 
-              cp "${{ github.workspace }}/test/LocRes-Builder/OUTPUT/Game/${lang}/Game.locres" \
-              "${{ github.workspace }}/test/staging/${lang}/Game/Content/Localization/Game/${lang}/Game.locres"
+              cp \
+              "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Game/${LANGUAGE}/Game.locres" \
+              "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/Localization/Game/${LANGUAGE}/Game.locres"
 
-              mkdir -p "${{ github.workspace }}/test/staging/${lang}/Game/Content/Settings/Version"
-
-              jq -n "{\"AppVersionString\": \"2.0.0\n$(echo -e ${lang}_v$(date -u +%F ))\"}" \
-              > "${{ github.workspace }}/test/staging/${lang}/Game/Content/Settings/Version/version_settings.json"
             done
           echo "::endgroup::"
 
-  JSON_to_ETP:
+  YAML_to_ETP:
     needs: [Checkout_Repos, LocRes-Builder]
     runs-on: self-hosted
     steps:
@@ -80,17 +78,27 @@ jobs:
           python-version: "3.11"
           cache: "pip" # caching pip dependencies
 
-      - name: Run Python
+      - name: Split ETP.yaml
         run: |
-          cd ./test/dqx_dat_dump/
+          mkdir -p "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP"
+          cd "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP"
+          echo -e "Splitting ETP.yaml"
+          yq -s ".filename, del(.filename)" \
+          "./ETP.yaml" \
+          -o json -I2
+          rm "./null.json"
+
+      - name: dqx_dat_dump
+        run: |
+          cd "${{ github.workspace }}/DEBUG/dqx_dat_dump"
           python -m venv venv
           source ./venv/bin/activate
           pip install -r requirements.txt
           cd ./tools/packing/
 
-          for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
-            echo -e "::group::Packing \033[0;32m ETP_${lang}\033[0m"
-              python pack_etp--KwK.py -L ${lang}
+          for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
+            echo -e "::group::Packing \033[0;32m ETP_${LANGUAGE}\033[0m"
+              python pack_etp--KwK_20250626.py -L ${LANGUAGE}
             echo "::endgroup::"
           done
 
@@ -98,105 +106,380 @@ jobs:
           cd ~
 
   UnrealPak_-Create:
-    needs: [Checkout_Repos, LocRes-Builder, JSON_to_ETP]
+    needs: [Checkout_Repos, LocRes-Builder, YAML_to_ETP]
     runs-on: self-hosted
     steps:
       - name: UnrealPak -Create
         run: |
-          for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
-            mkdir -p ${{ github.workspace }}/test/staging/${lang}/Game/Content/NonAssets/ETP_ko
-            
-            cp ${{ github.workspace }}/test/staging/${lang}/Game/Content/NonAssets/ETP/* \
-            ${{ github.workspace }}/test/staging/${lang}/Game/Content/NonAssets/ETP_ko
+          mkdir -p \
+          "${{ github.workspace }}/DEBUG/staging" \
+          "${{ github.workspace }}/DEBUG/releases"
 
-            echo -e "::group::Creating \033[0;34m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m"
-              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak" \
-              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/Holiday/response_file--pakchunk0-ios_${lang}_Latest.pak.txt"
-            echo "::endgroup::"
+          for PLATFORM in ps4 Switch WindowsNoEditor; do\
+            for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do\
+              mkdir -p \
+              "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}" \
+              "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_ko" \
+              "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hans"
 
-            echo -e "::group::Listing \033[0;32m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m"
-              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak" \
-              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/Holiday/response_file--pakchunk0-ios_${lang}_Latest.pak.txt" \
-              -List
-            echo "::endgroup::"
+              cp \
+              ${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/NonAssets/ETP/* \
+              ${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_ko
 
-            echo -e "::group::Creating \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m"
-              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak" \
-              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-Switch_${lang}_Latest.pak.txt"
-            echo "::endgroup::"
+              cp \
+              ${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/NonAssets/ETP/* \
+              ${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hans
 
-            echo -e "::group::Listing \033[0;32m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m"
-              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak" \
-              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-Switch_${lang}_Latest.pak.txt" \
-              -List
-            echo "::endgroup::"
+              if [[ ${PLATFORM} == @(Android_ETC2|ios|ps4|Switch) ]]; then
+                DESTINATION="Holiday";
+              else
+                DESTINATION="Game";
+              fi
+                echo -e "::group::Creating \033[0;34m Titlescreen Version Info \033[0m"
+                  mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/Settings/Version"
 
-            echo -e "::group::Creating \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
-              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak" \
-              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-WindowsNoEditor_${lang}_Latest.pak.txt"
-            echo "::endgroup::"
+                  jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%F )\n${PLATFORM})\"}" \
+                  > "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/Settings/Version/version_settings.json"
 
-            echo -e "::group::Listing \033[0;32m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
-              ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-              "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak" \
-              -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/test/staging/response_file--pakchunk0-WindowsNoEditor_${lang}_Latest.pak.txt" \
-              -List
-            echo "::endgroup::"
+                  echo -e "$(jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%F )\n${PLATFORM})\"}")"
+                echo "::endgroup::"
 
-            ## echo "Successfully created: [pakchunk0-ios_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-ios_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
-            ## echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-ios_${lang}_Dialogue_Latest_P.pak \033[0m\n\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+                if [[ ${PLATFORM} == @(ps4|ps4_ZZZ) ]]; then
+                  # filename priority fix
+                  PLATFORM="ps4_ZZZ"
+                else
+                  PLATFORM="${PLATFORM}"
+                fi
 
-            ## echo "Successfully created: [pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
-            echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak \033[0m\n\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
+                echo -e "::group::Creating \033[0;34m responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt \033[0m"
+                  echo -e \
+                  "\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\DEBUG\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\DEBUG\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_ko\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_ko/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\DEBUG\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_zh_hans\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_zh_hans/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\DEBUG\\staging\\\\${LANGUAGE}\\Game\\Content\\Localization\\Game\\\\${LANGUAGE}\\Game.locres\" \"../../../${DESTINATION}/Content/Localization/Game/ko/Game.locres\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\DEBUG\\staging\\\\${LANGUAGE}\\Game\\Content\\Settings\\Version\\\version_settings.json\" \"../../../${DESTINATION}/Content/Settings/Version/version_settings.json\"\
+                  " | sed -e 's/        /\n/g ; s/^[[:space:]]*//g ; s/[[:space:]]*$//g' > ${{ github.workspace }}/DEBUG/staging/responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt
 
-            ## echo "Successfully created: [pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak](https://github.com/KodywithaK/dqx-offline-localization/releases/download/Latest/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak)" >> $GITHUB_STEP_SUMMARY
-            #echo -e "\n::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak \033[0m"
-          done
+                  echo -e \
+                  "\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\DEBUG\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\DEBUG\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_ko\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_ko/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\DEBUG\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_zh_hans\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_zh_hans/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\DEBUG\\staging\\\\${LANGUAGE}\\Game\\Content\\Localization\\Game\\\\${LANGUAGE}\\Game.locres\" \"../../../${DESTINATION}/Content/Localization/Game/ko/Game.locres\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\DEBUG\\staging\\\\${LANGUAGE}\\Game\\Content\\Settings\\Version\\\version_settings.json\" \"../../../${DESTINATION}/Content/Settings/Version/version_settings.json\"\
+                  " | sed -e 's/        /\n/g ; s/^[[:space:]]*//g ; s/[[:space:]]*$//g'
+                echo "::endgroup::"
 
-  Create_Latest_Release:
-    needs: [Checkout_Repos, LocRes-Builder, JSON_to_ETP, UnrealPak_-Create]
+                echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak \033[0m"
+                  ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
+                  "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/DEBUG/staging/${LANGUAGE}/pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak" \
+                  -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/DEBUG/staging/responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt"
+                echo "::endgroup::"
+
+                echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak.zip \033[0m"
+                  zip -uj \
+                  ${{ github.workspace }}/DEBUG/releases/pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak.zip \
+                  ${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak
+                echo "::endgroup::"
+
+                echo -e "::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak \033[0m\n"
+            done;
+          done;
+
+  GameLocresJson_to_CSV:
+    needs: [Checkout_Repos, LocRes-Builder, YAML_to_ETP, UnrealPak_-Create]
     runs-on: self-hosted
     steps:
-      - name: Zip Files
+      - name: GameLocresJson_to_CSV
         run: |
-          mkdir -p "${{ github.workspace }}/test/staging/releases"
-          for lang in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
-            zip -uj \
-            ${{ github.workspace }}/test/staging/releases/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak.zip \
-            ${{ github.workspace }}/test/staging/${lang}/pakchunk0-Switch_${lang}_Dialogue_Latest_P.pak
-            
-            zip -uj \
-            ${{ github.workspace }}/test/staging/releases/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak.zip \
-            ${{ github.workspace }}/test/staging/${lang}/pakchunk0-WindowsNoEditor_${lang}_Dialogue_Latest_P.pak
-          done
+          for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
+          	export LANGUAGE=${LANGUAGE} && \
+          	echo -e "::group::Creating \033[0;34m ${LANGUAGE}/**/*.json \033[0m"
+          	  mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_json" && \
+          	  cd "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_json" && \
+          	  jq --arg LANGUAGE ${LANGUAGE} \
+          	  -r \
+          	  --from-file "${github_workspace}/DEBUG/yq_filter.txt" \
+          	  "${github_workspace}/Game.locres.json" \
+          	  | yq -r '.[]' \
+          	  -s '.Filename, del(.Filename)' -o=json -I2
+          	  cd "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game"
+          	echo "::endgroup::"
+            echo -e "::group::Creating \033[0;34m ${LANGUAGE}/**/*.csv \033[0m"
+          	  for FILE in $(ls "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_json/"); do \
+          	  	#echo -e "$FILE"
+          	  	jq -r '(. | keys_unsorted)[] as $k | [$k,(.[$k] | gsub("(\r)?\n";"\\n") )] | @csv' \
+          	  	"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_json/${FILE}" \
+          	  	> "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv"
+          	  	if [[ ${FILE%.*} == @(Test_NameSpace) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/test_folder_001" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/test_folder_001/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Battle_UI|STT_System_Location|STT_System_Title|STT_System_UI|STT_System_WeaponTypes|STT_Sytem_UI_Status) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(___) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/___" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/___/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(PAL_BattleMessage|STT_AccessoryItem|STT_BattleAbiMsg|STT_BattleActionItem|STT_BattleGuestName|STT_BattleMagicItem|STT_BattleMonsterName|STT_BattleOddMsg_MCE_BALOON|STT_BattleSkillItem|STT_BattleSpecialSkillItem|STT_BattleSysMsg|STT_BattleSysMsg_LOG|STT_CommonItem|STT_ConditionViewer|STT_DaijinamonoItem|STT_Equip_OddStatus_Name|STT_EquipItem|STT_EventMonsterName|STT_MonsterMercenary|STT_MonsterTarotArcana|STT_MonsterTarotDeck|STT_MonsterTarotMonster|STT_ToolActionItem|STT_WeaponItem) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Battle" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Battle/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_ActionMsg_Balloon1|STT_ActionMsg_Balloon2|STT_ActionMsg_Balloon3|STT_ActionMsg_Balloon4|STT_ActionMsg_Balloon5|STT_ActionMsg_Balloon6|STT_ActionMsg_Balloon7|STT_ActionMsg_Balloon8|STT_ActionMsg_Balloon9|STT_ActionMsg_Balloon10|STT_ActionMsg_Balloon11|STT_ActionMsg_Balloon12|STT_ActionMsg_Balloon13|STT_ActionMsg_Balloon14|STT_ActionMsg_Balloon15) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Battle/ActionMsg/Balloon" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Battle/ActionMsg/Balloon/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_ActionMsg_Log1|STT_ActionMsg_Log10|STT_ActionMsg_Log11|STT_ActionMsg_Log12|STT_ActionMsg_Log13|STT_ActionMsg_Log14|STT_ActionMsg_Log15|STT_ActionMsg_Log2|STT_ActionMsg_Log3|STT_ActionMsg_Log4|STT_ActionMsg_Log5|STT_ActionMsg_Log6|STT_ActionMsg_Log7|STT_ActionMsg_Log8|STT_ActionMsg_Log9) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Battle/ActionMsg/log" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Battle/ActionMsg/log/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_ActionAvgMsg_Simple1|STT_ActionAvgMsg_Simple10|STT_ActionAvgMsg_Simple11|STT_ActionAvgMsg_Simple12|STT_ActionAvgMsg_Simple13|STT_ActionAvgMsg_Simple14|STT_ActionAvgMsg_Simple15|STT_ActionAvgMsg_Simple2|STT_ActionAvgMsg_Simple3|STT_ActionAvgMsg_Simple4|STT_ActionAvgMsg_Simple5|STT_ActionAvgMsg_Simple6|STT_ActionAvgMsg_Simple7|STT_ActionAvgMsg_Simple8|STT_ActionAvgMsg_Simple9|STT_ActionMsg_Simple1|STT_ActionMsg_Simple10|STT_ActionMsg_Simple11|STT_ActionMsg_Simple12|STT_ActionMsg_Simple13|STT_ActionMsg_Simple14|STT_ActionMsg_Simple15|STT_ActionMsg_Simple2|STT_ActionMsg_Simple3|STT_ActionMsg_Simple4|STT_ActionMsg_Simple5|STT_ActionMsg_Simple6|STT_ActionMsg_Simple7|STT_ActionMsg_Simple8|STT_ActionMsg_Simple9|STT_ActionSumMsg_Simple1|STT_ActionSumMsg_Simple10|STT_ActionSumMsg_Simple11|STT_ActionSumMsg_Simple12|STT_ActionSumMsg_Simple13|STT_ActionSumMsg_Simple14|STT_ActionSumMsg_Simple15|STT_ActionSumMsg_Simple2|STT_ActionSumMsg_Simple3|STT_ActionSumMsg_Simple4|STT_ActionSumMsg_Simple5|STT_ActionSumMsg_Simple6|STT_ActionSumMsg_Simple7|STT_ActionSumMsg_Simple8|STT_ActionSumMsg_Simple9) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Battle/ActionMsg/Simple" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Battle/ActionMsg/Simple/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_BattleOddAvgMsg_AE_SYS|STT_BattleOddAvgMsg_AEE_SYS|STT_BattleOddAvgMsg_AEP_SYS|STT_BattleOddAvgMsg_AP_SYS|STT_BattleOddAvgMsg_AXE_SYS|STT_BattleOddAvgMsg_AXP_SYS|STT_BattleOddAvgMsg_DAE_SYS|STT_BattleOddAvgMsg_DAP_SYS|STT_BattleOddAvgMsg_DOE_SYS|STT_BattleOddAvgMsg_DOP_SYS|STT_BattleOddAvgMsg_MCEE_SYS|STT_BattleOddAvgMsg_MCEP_SYS|STT_BattleOddAvgMsg_RSE_SYS|STT_BattleOddAvgMsg_RSP_SYS|STT_BattleOddMsg_AE_BALOON|STT_BattleOddMsg_AE_LOG|STT_BattleOddMsg_AE_SYS|STT_BattleOddMsg_AEE_BALOON|STT_BattleOddMsg_AEE_LOG|STT_BattleOddMsg_AEE_SYS|STT_BattleOddMsg_AEP_BALOON|STT_BattleOddMsg_AEP_LOG|STT_BattleOddMsg_AEP_SYS|STT_BattleOddMsg_AFP_BALOON|STT_BattleOddMsg_AFP_SYS|STT_BattleOddMsg_AP_BALOON|STT_BattleOddMsg_AP_LOG|STT_BattleOddMsg_AP_Sys|STT_BattleOddMsg_AXE_BALOON|STT_BattleOddMsg_AXE_LOG|STT_BattleOddMsg_AXE_SYS|STT_BattleOddMsg_AXP_BALOON|STT_BattleOddMsg_AXP_LOG|STT_BattleOddMsg_AXP_SYS|STT_BattleOddMsg_DAE_BALOON|STT_BattleOddMsg_DAE_LOG|STT_BattleOddMsg_DAE_SYS|STT_BattleOddMsg_DAP_BALOON|STT_BattleOddMsg_DAP_LOG|STT_BattleOddMsg_DAP_SYS|STT_BattleOddMsg_DOE_BALOON|STT_BattleOddMsg_DOE_LOG|STT_BattleOddMsg_DOE_SYS|STT_BattleOddMsg_DOP_BALOON|STT_BattleOddMsg_DOP_LOG|STT_BattleOddMsg_DOP_SYS|STT_BattleOddMsg_MCE_SYS|STT_BattleOddMsg_MCEE_BALOON|STT_BattleOddMsg_MCEE_LOG|STT_BattleOddMsg_MCEE_SYS|STT_BattleOddMsg_MCEP_BALOON|STT_BattleOddMsg_MCEP_LOG|STT_BattleOddMsg_MCEP_SYS|STT_BattleOddMsg_RS_BALOON|STT_BattleOddMsg_RS_SYS|STT_BattleOddMsg_RSE_BALOON|STT_BattleOddMsg_RSE_LOG|STT_BattleOddMsg_RSE_SYS|STT_BattleOddMsg_RSP_BALOON|STT_BattleOddMsg_RSP_LOG|STT_BattleOddMsg_RSP_SYS|STT_BattleOddSumMsg_AE_SYS|STT_BattleOddSumMsg_AEE_SYS|STT_BattleOddSumMsg_AEP_SYS|STT_BattleOddSumMsg_AP_SYS|STT_BattleOddSumMsg_AXE_SYS|STT_BattleOddSumMsg_AXP_SYS|STT_BattleOddSumMsg_DAE_SYS|STT_BattleOddSumMsg_DAP_SYS|STT_BattleOddSumMsg_DOE_SYS|STT_BattleOddSumMsg_DOP_SYS|STT_BattleOddSumMsg_MCEE_SYS|STT_BattleOddSumMsg_MCEP_SYS|STT_BattleOddSumMsg_RSE_SYS|STT_BattleOddSumMsg_RSP_SYS|STT_OddFunc_PC_Simple|STT_OddStatus_NoAction_Simple|STT_OddStatus_PC_Cancel_Simple|STT_OddStatus_PC_Deactive_Simple|STT_OddStatus_PC_Error_Simple|STT_OddStatus_PC_Grant_Simple) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Battle/OddStatusNormal" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Battle/OddStatusNormal/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_BattleSlideAvgMsg_D1E_SYS|STT_BattleSlideAvgMsg_D1P_SYS|STT_BattleSlideAvgMsg_D2E_SYS|STT_BattleSlideAvgMsg_D2EEX_SYS|STT_BattleSlideAvgMsg_D2P_SYS|STT_BattleSlideAvgMsg_D2PEX_SYS|STT_BattleSlideAvgMsg_FE_SYS|STT_BattleSlideAvgMsg_FP_SYS|STT_BattleSlideAvgMsg_I1E_SYS|STT_BattleSlideAvgMsg_I1P_SYS|STT_BattleSlideAvgMsg_I2E_SYS|STT_BattleSlideAvgMsg_I2EEX_SYS|STT_BattleSlideAvgMsg_I2P_SYS|STT_BattleSlideAvgMsg_I2PEX_SYS|STT_BattleSlideAvgMsg_NEE_SYS|STT_BattleSlideAvgMsg_NEP_SYS|STT_BattleSlideAvgMsg_RSE_SYS|STT_BattleSlideAvgMsg_RSP_SYS|STT_BattleSlideMsg_D1E_BALOON|STT_BattleSlideMsg_D1E_LOG|STT_BattleSlideMsg_D1E_SYS|STT_BattleSlideMsg_D1P_BALOON|STT_BattleSlideMsg_D1P_LOG|STT_BattleSlideMsg_D1P_SYS|STT_BattleSlideMsg_D2E_BALOON|STT_BattleSlideMsg_D2E_LOG|STT_BattleSlideMsg_D2E_SYS|STT_BattleSlideMsg_D2EEX_BALOON|STT_BattleSlideMsg_D2EEX_LOG|STT_BattleSlideMsg_D2EEX_SYS|STT_BattleSlideMsg_D2P_BALOON|STT_BattleSlideMsg_D2P_LOG|STT_BattleSlideMsg_D2P_SYS|STT_BattleSlideMsg_D2PEX_BALOON|STT_BattleSlideMsg_D2PEX_LOG|STT_BattleSlideMsg_D2PEX_SYS|STT_BattleSlideMsg_FE_BALOON|STT_BattleSlideMsg_FE_LOG|STT_BattleSlideMsg_FE_SYS|STT_BattleSlideMsg_FP_BALOON|STT_BattleSlideMsg_FP_LOG|STT_BattleSlideMsg_FP_SYS|STT_BattleSlideMsg_I1E_BALOON|STT_BattleSlideMsg_I1E_LOG|STT_BattleSlideMsg_I1E_SYS|STT_BattleSlideMsg_I1P_BALOON|STT_BattleSlideMsg_I1P_LOG|STT_BattleSlideMsg_I1P_SYS|STT_BattleSlideMsg_I2E_BALOON|STT_BattleSlideMsg_I2E_LOG|STT_BattleSlideMsg_I2E_SYS|STT_BattleSlideMsg_I2EEX_BALOON|STT_BattleSlideMsg_I2EEX_LOG|STT_BattleSlideMsg_I2EEX_SYS|STT_BattleSlideMsg_I2P_BALOON|STT_BattleSlideMsg_I2P_LOG|STT_BattleSlideMsg_I2P_SYS|STT_BattleSlideMsg_I2PEX_BALOON|STT_BattleSlideMsg_I2PEX_LOG|STT_BattleSlideMsg_I2PEX_SYS|STT_BattleSlideMsg_NEE_BALOON|STT_BattleSlideMsg_NEE_LOG|STT_BattleSlideMsg_NEE_SYS|STT_BattleSlideMsg_NEP_BALOON|STT_BattleSlideMsg_NEP_LOG|STT_BattleSlideMsg_NEP_SYS|STT_BattleSlideMsg_RSE_BALOON|STT_BattleSlideMsg_RSE_LOG|STT_BattleSlideMsg_RSE_SYS|STT_BattleSlideMsg_RSP_BALOON|STT_BattleSlideMsg_RSP_LOG|STT_BattleSlideMsg_RSP_SYS|STT_BattleSlideSumMsg_D1E_SYS|STT_BattleSlideSumMsg_D1P_SYS|STT_BattleSlideSumMsg_D2E_SYS|STT_BattleSlideSumMsg_D2EEX_SYS|STT_BattleSlideSumMsg_D2P_SYS|STT_BattleSlideSumMsg_D2PEX_SYS|STT_BattleSlideSumMsg_FE_SYS|STT_BattleSlideSumMsg_FP_SYS|STT_BattleSlideSumMsg_I1E_SYS|STT_BattleSlideSumMsg_I1P_SYS|STT_BattleSlideSumMsg_I2E_SYS|STT_BattleSlideSumMsg_I2EEX_SYS|STT_BattleSlideSumMsg_I2P_SYS|STT_BattleSlideSumMsg_I2PEX_SYS|STT_BattleSlideSumMsg_NEE_SYS|STT_BattleSlideSumMsg_NEP_SYS|STT_BattleSlideSumMsg_RSE_SYS|STT_BattleSlideSumMsg_RSP_SYS|STT_DeactiveMsg_MON_Simple|STT_DeactiveMsg_PC_Simple|STT_GrantFailMsg_MON_Simple|STT_GrantFailMsg_PC_Simple|STT_SlideMsg_MON_Simple_Stage0|STT_SlideMsg_PC_Simple_Stage0|STT_SlideMsg_PC_TimeEx_Minus_Simple|STT_SlideMsg_PC_TimeEx_PLUS_Simple) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Battle/SlideMsg" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Battle/SlideMsg/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(Event_Common) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Event/Event_Common" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Event/Event_Common/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(ASIA_DLC|lpWindowName|SYSTEM_LOACALIZATION|WeaponTypeForBugFix) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Localization" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Localization/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Charamake_Female_NoLocalization|STT_Charamake_Male_NoLocalization) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Localization/NoTranslation" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/Localization/NoTranslation/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Profile_Word|STT_Syougou) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Achievement" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Achievement/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Battle_Levelup) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Battle" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Battle/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_CareerStoryVer1|STT_CareerStoryVer2|STT_EventPalceName|STT_LoadingArasujiVer1|STT_LoadingArasujiVer2) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_CareerStory" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_CareerStory/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_System_Casino) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Casino" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Casino/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Charamake_Female|STT_Charamake_Male|STT_CharamakeColors|STT_System_Charamake|STT_System_CharamakeSys) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Charamake" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Charamake/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_System_Common) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Common" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Common/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Support_BrowseSys|STT_Tips_Category|STT_Tips_Content) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Content" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Content/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_System_Craftsman) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Craftsman" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Craftsman/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_DungeonMagicNPC) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Dungeon" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Dungeon/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Equip_Coordinate|STT_System_Equip) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Equip" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Equip/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_FacilityBankNpc|STT_FacilityBankSys) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Bank" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Bank/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_FacilityBarNpc|STT_FacilityBarSys|STT_IraisyoArasuji|STT_IraisyoMonsterType|STT_IraisyoNPCNameBase|STT_IraisyoNPCNameRuby|STT_ResurrectionTextList) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Bar" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Bar/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_BarMonsterSys) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_BarMonster" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_BarMonster/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_CasinoCoin) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_CasinoCoin" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_CasinoCoin/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_System_Facility_ChurchNpc|STT_System_Facility_ChurchSys) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Church" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Church/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_FacilityColoringNpc|STT_FacilityColoringSys) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Coloring" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Coloring/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Colosseum_NPC|STT_Colosseum_SYS) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Colosseum" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Colosseum/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_FacilityConciergeNpc|STT_FacilityConciergeSys) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Concierge" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Concierge/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_FaciliityDolboardSys|STT_FacilityDolboardNpc) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Dolboard" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Dolboard/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_JobChangeNpc|STT_JobChangeSys) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_JobChange" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_JobChange/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_FacilitySalonNpc) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Salon" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Salon/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_FacilitySubjugationNpc|STT_FacilitySubjugationSys) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Subjugation" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Subjugation/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_FacilitySynthesisNpc|STT_FacilitySynthesisSys) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Synthesis" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Facility/Facility_Synthesis/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_FieldDoraky|STT_FieldLog|STT_FieldMapSys|STT_FieldProcess) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Field" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Field/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Fishing|STT_FishingAction|STT_FishingExchangeNPC|STT_FishingMasterNPC|STT_FishingSys|STT_SystemFishingBook|STT_SystemFishingFish) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Fishing" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Fishing/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_GameOption|STT_KeyboardSetting|STT_KeyboardSettingKeyString) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_GameOption" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_GameOption/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Emote) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Gesture" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Gesture/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_System_ItabaeAlbum) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_ItabaeAlbum" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_ItabaeAlbum/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_LoadingTips) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Loading" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Loading/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_SystemDragonNpc|STT_SystemDragonSys|STT_SystemTrainNpc|STT_SystemTrainSys) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Move" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Move/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_NpcInfo|STT_PartyMainSys|STT_PT_InOut|STT_PT_Talk) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Party" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Party/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Quest_ItemGet|STT_Quest_PerticularReward|STT_QuestList|STT_QuestListDetail|STT_QuestListName|STT_QuestListSeries|STT_SystemQuest) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_QuestList" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_QuestList/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_System_Shop_Dougu_Sys|STT_System_Shop_DouguNpc|STT_System_Shop_InnNpc|STT_System_Shop_Other) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Shop" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Shop/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_ItemExplanation|STT_ItemName|STT_MagicExplanation|STT_MagicName|STT_MasteryItems|STT_OddStatusExplanation|STT_OddStatusName|STT_SkillExplanation|STT_SkillName|STT_SkillupExplanation|STT_SkillupName|STT_SpecialExplanation|STT_SpecialName|STT_System_Skill) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Skill" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Skill/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_TinyMedals|STT_TinyMedalsWindow) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_TinyMedals" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_TinyMedals/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Boukennosho_DLC_Text|STT_Restricted_GamePlay|STT_Title_Boukennosho) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Title" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Title/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Battle_Option|STT_Career_StoryUISys|STT_ConvinientMainSys|STT_FullCureSys|STT_ItemListSys|STT_MainUISys|STT_SenrekUIiSys|STT_System_ProfileWord|STT_UIDouguSys|STT_UIJumonSys|STT_UIShiraberuSys) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_UI" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_UI/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_Monster_Tips1_ver1|STT_Monster_Tips1_ver2|STT_Monster_Tips2_ver1|STT_Monster_Tips2_Ver2) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_UI/MonsterTips" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_UI/MonsterTips/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_WarpBraveStoneSys|STT_WarpRiremitoSys|STT_WarpRuraSys) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Warp" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System/System_Warp/${FILE%.*}.csv";
+          	  	elif [[ ${FILE%.*} == @(STT_System_Shop_Dougu) ]]; then
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System_Shop" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/System_Shop/${FILE%.*}.csv";
+          	  	else
+          	  		mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_TBD_" && \
+          	  		mv "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv" \
+          	  		"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_TBD_/${FILE%.*}.csv";
+          	  	fi
+          	  done;
+            echo "::endgroup::"
+            echo -e "Removing _json/*.json"
+          	rm -r "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_json/"
+          done;
 
-####################################################################################################
-# 2025-06-11
+########################################################################################################################################################################################################
+#  Create_Latest_Release:
+#    needs: [Checkout_Repos, LocRes-Builder, YAML_to_ETP, UnrealPak_-Create, GameLocresJson_to_CSV]
+#    runs-on: self-hosted
+#    steps:
 #      - name: Create Release
 #        env:
 #          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #        run: |
-#          gh release delete Multi-Languages --yes
-#
-#          gh release create Multi-Languages \
-#          ${{ github.workspace }}/test/staging/releases/pakchunk0-Switch_*_Dialogue_Latest_P.pak.zip \
-#          ${{ github.workspace }}/test/staging/releases/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak.zip \
-#          --notes-file ${{ github.workspace }}/test/dqx-offline-localization/docs/CHANGELOG.md \
+#          gh release create Latest \
+#          ${{ github.workspace }}/DEBUG/releases/pakchunk0-ps4_*_Dialogue_Latest_P.pak.zip \
+#          ${{ github.workspace }}/DEBUG/releases/pakchunk0-Switch_*_Dialogue_Latest_P.pak.zip \
+#          ${{ github.workspace }}/DEBUG/releases/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak.zip \
+#          --notes-file ${{ github.workspace }}/DEBUG/dqx-offline-localization/docs/CHANGELOG.md \
 #          --title "$(echo -e v$(date -u +%F ))"
 #
-#          echo "Successfully uploaded new files to [Releases/Multi-Languages](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Multi-Languages)." >> $GITHUB_STEP_SUMMARY
+#          echo "Successfully uploaded new files to [Releases/Latest](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Latest)." >> $GITHUB_STEP_SUMMARY
 #          echo -e "\n::notice:: \033[0;32m Successfully uploaded new files to Latest release. \033[0m"
+#
+########################################################################################################################################################################################################
+# 20250713_2100: `gh release edit` still not supported by github actions
+#          gh release delete Latest --yes
+#
+#          gh release edit Multi-Languages \
+#          --title "(echo -e $(gh release list --json name -q ".[1].name"))" \
+#          --tag "previous"
+#
+########################################################################################################################################################################################################
+# 20250728_1600: gh release edit Latest
+# ```cmd
+# FOR /F "usebackq" %A IN (`gh release list --json name -q ".[0].name"`) DO gh release edit Latest --title "%A" --tag "%A"
+# ```
+#
+######################################################################################################################################################
+# 20250807_0000: Release PS4 `.pkg`
+# - see TODO.md
+#   - .github/workflows/Create_Latest_Release.yml
+#     - PS4 `.pkg`
+#
 ####################################################################################################
-# 2025-02-20
-# - `HTTP 422: Validation Failed`
-#   - ja/Game.locres causing *.pak to go over file size upload limit or existing Draft Release bug?
-# gh release delete Multi-Language --yes
-# gh release create Multi-Language \
-# ${{ github.workspace }}/test/staging/*/pakchunk0-Switch_*_Dialogue_Latest_P.pak \
-# ${{ github.workspace }}/test/staging/*/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak \
+# 20250808_0100: `Game.locres.json` > `OUTPUT/StringTables/${LANGUAGE}/**/*.csv`
+# - see TODO.md
+#   - .github/workflows/Create_Latest_Release.yml
+#     - `Game.locres.json` > `OUTPUT/StringTables/${LANGUAGE}/**/*.csv`
+#
+# ```yaml
+# gh release create Latest \
+# ...
+# ${{ github.workspace }}/DEBUG/releases/StringTables.zip \
+# ...
+# ```
 ####################################################################################################

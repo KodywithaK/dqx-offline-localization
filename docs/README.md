@@ -24,7 +24,7 @@
 -->
 
 > [!NOTE]
-> ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/KodywithaK/dqx-offline-localization/total?logo=github&label=Downloads) ![GitHub Actions Workflows (Create_Latest_Release.yml status)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml/badge.svg?branch=main)
+> [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/KodywithaK/dqx-offline-localization/total?logo=github&label=Downloads)](https://github.com/KodywithaK/dqx-offline-localization/releases) [![GitHub Actions Workflows (Create_Latest_Release.yml status)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml/badge.svg?branch=main)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml)
 > | Language |                                                                                                                                                                                Milestone Progress |
 > | :------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 > | de       |  [![Deutsche Lokalisierung](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/2)](https://github.com/KodywithaK/dqx-offline-localization/milestone/2) |
@@ -47,18 +47,63 @@
 > - [Purchase on Steam](https://store.steampowered.com/app/1358750/X__OFFLINE/)
 > - [Purchase on Switch](https://store-jp.nintendo.com/item/software/D70010000042357)
 >
+> ### DLC
+> <details>
+> 
+> | Filename (pak/ucas/utoc)   | DLC Name                                                                                     | Comment(s)                                                |
+> | :------------------------- | :------------------------------------------------------------------------------------------- | :-------------------------------------------------------- |
+> | pakchunk0-{PLATFORM}       | [ドラゴンクエストX　目覚めし五つの種族　オフライン](https://steamdb.info/depot/1358753/)         | Base game / Version 1                                     |
+> | pakchunk1-{PLATFORM}       | [ドラゴンクエストX　目覚めし五つの種族　オフライン](https://steamdb.info/depot/1358753/)         | Base game / Version 1                                     |
+> | pakchunk2-{PLATFORM}       | [ドラゴンクエストX　眠れる勇者と導きの盟友　オフライン](https://steamdb.info/depot/1748922/)     | Version 2                                                 |
+> | pakchunk3-WindowsNoEditor  |                                                                                              |                                                           |
+> | pakchunk4-WindowsNoEditor  | [早期購入特典](https://steamdb.info/depot/1838360/)                                           | Pre-Order Bonus                                           |
+> | pakchunk5-WindowsNoEditor  | [デラックス版特典](https://steamdb.info/depot/1838361/)                                       | Deluxe Edition Bonus                                      |
+> | pakchunk6-WindowsNoEditor  |                                                                                              |                                                           |
+> | pakchunk7-WindowsNoEditor  |                                                                                              |                                                           |
+> | pakchunk8-WindowsNoEditor  | [ダウンロード特典](https://steamdb.info/depot/1838362/)                                       | Digital Download Edition Bonus                            |
+> | pakchunk9-WindowsNoEditor  |                                                                                              |                                                           |
+> | pakchunk10-WindowsNoEditor | [Steam®購入特典](https://steamdb.info/depot/1838363/)                                         | Steam Edition Bonus                                       |
+> | pakchunk11-WindowsNoEditor |                                                                                              |                                                           |
+> | pakchunk12-WindowsNoEditor |                                                                                              |                                                           |
+> | pakchunk13-WindowsNoEditor |                                                                                              |                                                           |
+> | pakchunk14-WindowsNoEditor | [冒険ステップアップセット](https://steamdb.info/depot/1838365/)                                | V Jump - Astoltia Navigator, Ver. 1<br>Download Code      |
+> | pakchunk15-WindowsNoEditor | [バッチリ冒険セット](https://steamdb.info/depot/1838366/)                                     | Square-Enix - Official Guidebook, Ver. 1<br>Download Code |
+> | pakchunk16-WindowsNoEditor | [冒険チャレンジセット](https://steamdb.info/depot/1838367/)                                    | V Jump - Astoltia Navigator, Ver. 2<br>Download Code      |
+> | pakchunk17-WindowsNoEditor | [ガンガン冒険セット①](https://steamdb.info/depot/1838368/)                                    | Square-Enix - Official Guidebook, Ver. 2<br>Download Code |
+> | pakchunk18-WindowsNoEditor |                                                                                              |                                                           |
+> | pakchunk19-WindowsNoEditor | [ⅤジャンプＤＱＸオフライン特典１](https://steamdb.info/depot/1838370/)                         | V Jump - 07/2023<br>Download Code                          |
+> | pakchunk20-WindowsNoEditor | [ⅤジャンプＤＱＸオフライン特典２](https://steamdb.info/depot/1838371/)                         | V Jump - 08/2023<br>Download Code                          |
+> | pakchunk21-WindowsNoEditor |                                                                                              |                                                           |
+> | TBD                        | [スクウェア・エニックス e-STORE購入特典](https://steamdb.info/depot/1838364/)                   | Square-Enix e-STORE Purchase Bonus                        |
+> | TBD                        | [超みちくさ冒険ガイド購入特典](https://steamdb.info/depot/1838369/)                             | Super Loiterer Adventure Guide Purchase Bonus             |
+> |                            |                                                                                              |                                                           |
+> 
+> </details>
+>
 > ### Books
 > - [Square-Enix | Official Guidebook, Ver. 1](https://magazine.jp.square-enix.com/gamebooks/books/10430) (ISBN 9784757581739)
+>   - Enclosed Download Code for `バッチリ冒険セット`
 > - [Square-Enix | Official Guidebook, Ver. 2](https://magazine.jp.square-enix.com/gamebooks/books/10449) (ISBN 9784757586383)
-> - V Jump | Astoltia Navigator, Ver. 1
->   - [Purchase on S-Manga](https://www.s-manga.net/items/contents.html?isbn=978-4-08-779801-2) (ISBN 9784087798012)
-> - [V Jump | Astoltia Navigator, Ver. 2](https://vjump.shueisha.co.jp/vjbooks/ドラゴンクエストx-眠れる勇者と導きの盟友-オフ/)
->   - [Purchase on S-Manga](https://www.s-manga.net/items/contents.html?isbn=978-4-08-779809-8) (ISBN 9784087798098)
+>   - Enclosed Download Code for `ガンガン冒険セット①`
+> - [V Jump | Astoltia Navigator, Ver. 1](https://www.dragonquest.jp/news/detail/3705/) (ISBN 9784087798012)
+>   - Enclosed Download Code for `冒険ステップアップセット`
+>   - [Purchase on S-Manga](https://www.s-manga.net/items/contents.html?isbn=978-4-08-779801-2)
+> - [V Jump | Astoltia Navigator, Ver. 2](https://www.dragonquest.jp/news/detail/3815/) (ISBN 9784087798098)
+>   - Enclosed Download Code for `冒険チャレンジセット`
+>   - [V Jump Web](https://vjump.shueisha.co.jp/vjbooks/ドラゴンクエストx-眠れる勇者と導きの盟友-オフ/)
+>   - [Purchase on S-Manga](https://www.s-manga.net/items/contents.html?isbn=978-4-08-779809-8)
+> - [V Jump | 07/2023](https://www.dragonquest.jp/news/detail/3813/)
+>   - Enclosed Download Code for `ⅤジャンプＤＱＸオフライン特典１`
+> - [V Jump | 08/2023](https://www.dragonquest.jp/news/detail/3833/)
+>   - Enclosed Download Code for `ⅤジャンプＤＱＸオフライン特典２`
 >
 > ### Videos
 > - Playthroughs
->   - [@Santi2277's full playthrough with commentary in spanish](https://www.youtube.com/playlist?list=PLEQLCZp7Wmiij2XH7be5IQI-1IpJUqMQh)
+>   - [@Santi2277's full playthrough with commentary in Spanish](https://www.youtube.com/playlist?list=PLEQLCZp7Wmiij2XH7be5IQI-1IpJUqMQh)
 >     - Dragon Quest X Offline: El Despertar de las 5 Razas
+>
+> ### Misc.
+> - [Square-Enix | Square - Restoration Spell Details](https://hiroba.dqx.jp/sc/public/playguide/guide_2_11)
 >
 
 > [!TIP]
@@ -96,7 +141,6 @@
 > - [Python 3.11](https://www.python.org/downloads/release/python-3110/)
 > - [dqx-translation-project/dqx_dat_dump](https://github.com/dqx-translation-project/dqx_dat_dump)
 > - FModel.exe from [4sval's github repo](https://github.com/4sval/FModel)
-> 
 >   - DRAGON QUEST X OFFLINE (or Demo)'s AES Key
 >   - DRAGON QUEST X OFFLINE (or Demo)'s [Mappings.usmap](https://github.com/OutTheShade/Unreal-Mappings-Archive/blob/main/Dragon%20Quest%20X%20Offline/Demo/Mappings.usmap)
 >
@@ -399,8 +443,9 @@
 > ## 0.Prerequisites
 > 
 > - [DRAGON QUEST X OFFLINE (or Demo) from Steam](https://store.steampowered.com/app/1358750/XOFFLINE/)
-> - FModel.exe from [4sval's github repo](https://github.com/4sval/FModel) - DRAGON QUEST X OFFLINE (or Demo)'s AES Key
-> - DRAGON QUEST X OFFLINE (or Demo)'s [Mappings.usmap](https://github.com/OutTheShade/Unreal-Mappings-Archive/blob/main/Dragon%20Quest%20X%20Offline/Demo/Mappings.usmap)
+> - FModel.exe from [4sval's github repo](https://github.com/4sval/FModel)
+>   - DRAGON QUEST X OFFLINE (or Demo)'s AES Key
+>   - DRAGON QUEST X OFFLINE (or Demo)'s [Mappings.usmap](https://github.com/OutTheShade/Unreal-Mappings-Archive/blob/main/Dragon%20Quest%20X%20Offline/Demo/Mappings.usmap)
 >     ```diff
 >     ! Check the commit history if it is missing
 >     ```
@@ -415,12 +460,12 @@
 >   - select `ADD UNDETECTED GAME`
 >   - Name it anything, e.g. DRAGON QUEST X OFFLINE
 >   - Choose where the game's paks are installed, e.g.:
->     - `C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks`
+>     - `C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFLINE( Demo)\Game\Content\Paks`
 >   - Click the Add Game `+` button, then OK
 > - Inside the main window:
 >   - `Settings` > `General` > `ADVANCED`
 >     - `Local Mapping File` [x] Enabled
->     - `Mapping File Path` Choose where the DRAGON QUEST X OFFLINE Demo `Mappings.usmap` is installed.
+>     - `Mapping File Path` Choose where the DRAGON QUEST X OFFLINE( Demo) `Mappings.usmap` is installed.
 >   - `Directory` > `AES` > Input the game's `Main Static Key` (AES Key), and click OK
 >
 >     ```diff
@@ -428,7 +473,8 @@
 >     ```
 > 
 > - Double-click `pakchunk0-WindowsNoEditor.pak` to open archive, from there:
->   - Right-click `Game/Content/Localization/Game` and select `Export Folder's Packages Raw Data (.uasset)`
+>   - Right-click `Game/Content/Localization/Game` and 
+>     - select `Export Folder's Packages Raw Data (.uasset)`
 > 
 >     ```diff
 >     + Console will log: Successfully exported `Game/Content/Localization/Game`
@@ -486,7 +532,8 @@
 > 
 > - Open another command prompt, change to UnrealPak's directory, and input:
 >   `UnrealPak <PakFilename> -Create=<ResponseFile>`
->   For example,
+>
+> - For example,
 >   `UnrealPak "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks\pakchunk0-WindowsNoEditor_<YOUR_MOD_NAME>_<YOUR_MOD_VERSION>_P.pak" -Create="C:\Downloads\responsefile.txt"`
 >
 >     ```diff
@@ -657,7 +704,31 @@
 > 
 >       - fixes `/bin/bash: xdg-mime: No such file or directory` error.
 > 
->    4. `./setup.sh -exclude=Android -exclude=Dingo -exclude=Documentation -exclude=HTML5 -exclude=IOS -exclude=Mac -exclude=MacOS -exclude=MacOSX -exclude=osx -exclude=osx32 -exclude=osx64 -exclude=PS4 -exclude=Samples -exclude=Switch -exclude=Templates -exclude=TVOS -exclude=Win32 -exclude=Win64 -exclude=Windows -exclude=WinRT -exclude=XboxOne`
+>    4. Exclude settings to save space
+>       ```bash
+>       ./setup.sh \
+>       -exclude=Android \
+>       -exclude=Dingo \
+>       -exclude=Documentation \
+>       -exclude=HTML5 \
+>       -exclude=IOS \
+>       -exclude=Mac \
+>       -exclude=MacOS \
+>       -exclude=MacOSX \
+>       -exclude=osx \
+>       -exclude=osx32 \
+>       -exclude=osx64 \
+>       -exclude=PS4 \
+>       -exclude=Samples \
+>       -exclude=Switch \
+>       -exclude=Templates \
+>       -exclude=TVOS \
+>       -exclude=Win32 \
+>       -exclude=Win64 \
+>       -exclude=Windows \
+>       -exclude=WinRT \
+>       -exclude=XboxOne
+>       ```
 >
 >         ```diff
 >         - `DotNET` is required for `./GenerateProjectFiles.sh` step, **DO NOT ADD** `-exclude=DotNET`

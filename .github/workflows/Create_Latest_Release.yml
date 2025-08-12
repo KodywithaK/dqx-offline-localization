@@ -118,17 +118,22 @@ jobs:
         run: |
           mkdir -p \
           "${{ github.workspace }}/BUILD/staging" \
-          "${{ github.workspace }}/BUILD/staging/releases"
+          "${{ github.workspace }}/BUILD/releases"
 
           for PLATFORM in ps4 Switch WindowsNoEditor; do\
             for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do\
               mkdir -p \
               "${{ github.workspace }}/BUILD/staging/${LANGUAGE}" \
-              "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_ko"
+              "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_ko" \
+              "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hans"
 
               cp \
               ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP/* \
               ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_ko
+
+              cp \
+              ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP/* \
+              ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh-hans
 
               if [[ ${PLATFORM} == @(Android_ETC2|ios|ps4|Switch) ]]; then
                 DESTINATION="Holiday";
@@ -138,15 +143,25 @@ jobs:
                 echo -e "::group::Creating \033[0;34m Titlescreen Version Info \033[0m"
                   mkdir -p "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Settings/Version"
 
-                  jq -n "{\"AppVersionString\": \"2.0.1\n${PLATFORM}\n$(echo -e ${LANGUAGE}_v$(date -u +%F ))\"}" \
+                  jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%F )\n${PLATFORM})\"}" \
                   > "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Settings/Version/version_settings.json"
+
+                  echo -e "$(jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%F )\n${PLATFORM})\"}")"
                 echo "::endgroup::"
+
+                if [[ ${PLATFORM} == @(ps4|ps4_ZZZ) ]]; then
+                  # filename priority fix
+                  PLATFORM="ps4_ZZZ"
+                else
+                  PLATFORM="${PLATFORM}"
+                fi
 
                 echo -e "::group::Creating \033[0;34m responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt \033[0m"
                   echo -e \
                   "\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP/\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_ko\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_ko/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_zh_hans\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_zh_hans/\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Localization\\Game\\\\${LANGUAGE}\\Game.locres\" \"../../../${DESTINATION}/Content/Localization/Game/ko/Game.locres\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Settings\\Version\\\version_settings.json\" \"../../../${DESTINATION}/Content/Settings/Version/version_settings.json\"\
                   " | sed -e 's/        /\n/g ; s/^[[:space:]]*//g ; s/[[:space:]]*$//g' > ${{ github.workspace }}/BUILD/staging/responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt
@@ -155,6 +170,7 @@ jobs:
                   "\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP/\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_ko\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_ko/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_zh_hans\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_zh_hans/\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Localization\\Game\\\\${LANGUAGE}\\Game.locres\" \"../../../${DESTINATION}/Content/Localization/Game/ko/Game.locres\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Settings\\Version\\\version_settings.json\" \"../../../${DESTINATION}/Content/Settings/Version/version_settings.json\"\
                   " | sed -e 's/        /\n/g ; s/^[[:space:]]*//g ; s/[[:space:]]*$//g'
@@ -168,7 +184,7 @@ jobs:
 
                 echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak.zip \033[0m"
                   zip -uj \
-                  ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak.zip \
+                  ${{ github.workspace }}/BUILD/releases/pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak.zip \
                   ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak
                 echo "::endgroup::"
 
@@ -185,8 +201,9 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release create Latest \
-          ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-Switch_*_Dialogue_Latest_P.pak.zip \
-          ${{ github.workspace }}/BUILD/staging/releases/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak.zip \
+          ${{ github.workspace }}/BUILD/releases/pakchunk0-ps4_*_Dialogue_Latest_P.pak.zip \
+          ${{ github.workspace }}/BUILD/releases/pakchunk0-Switch_*_Dialogue_Latest_P.pak.zip \
+          ${{ github.workspace }}/BUILD/releases/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak.zip \
           --notes-file ${{ github.workspace }}/BUILD/dqx-offline-localization/docs/CHANGELOG.md \
           --title "$(echo -e v$(date -u +%F ))"
 
@@ -207,3 +224,22 @@ jobs:
 # FOR /F "usebackq" %A IN (`gh release list --json name -q ".[0].name"`) DO gh release edit Latest --title "%A" --tag "%A"
 # ```
 #
+######################################################################################################################################################
+# 20250807_0000: Release PS4 `.pkg`
+# - see TODO.md
+#   - .github/workflows/Create_Latest_Release.yml
+#     - PS4 `.pkg`
+#
+####################################################################################################
+# 20250808_0100: `Game.locres.json` > `OUTPUT/StringTables/${LANGUAGE}/**/*.csv`
+# - see TODO.md
+#   - .github/workflows/Create_Latest_Release.yml
+#     - `Game.locres.json` > `OUTPUT/StringTables/${LANGUAGE}/**/*.csv`
+#
+# ```yaml
+# gh release create Latest \
+# ...
+# ${{ github.workspace }}/BUILD/releases/StringTables.zip \
+# ...
+# ```
+####################################################################################################
