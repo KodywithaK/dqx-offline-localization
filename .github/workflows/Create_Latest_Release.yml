@@ -133,7 +133,7 @@ jobs:
 
               cp \
               ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP/* \
-              ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh-hans
+              ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hans
 
               if [[ ${PLATFORM} == @(Android_ETC2|ios|ps4|Switch) ]]; then
                 DESTINATION="Holiday";
