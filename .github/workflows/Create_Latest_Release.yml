@@ -143,10 +143,10 @@ jobs:
                 echo -e "::group::Creating \033[0;34m Titlescreen Version Info \033[0m"
                   mkdir -p "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Settings/Version"
 
-                  jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%F )\n${PLATFORM})\"}" \
+                  jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%F ))\n${PLATFORM}\"}" \
                   > "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Settings/Version/version_settings.json"
 
-                  echo -e "$(jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%F )\n${PLATFORM})\"}")"
+                  echo -e "$(jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%F ))\n${PLATFORM}\"}")"
                 echo "::endgroup::"
 
                 if [[ ${PLATFORM} == @(ps4|ps4_ZZZ) ]]; then
