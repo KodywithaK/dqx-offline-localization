@@ -44,7 +44,7 @@
 > |          |                Leen Village<br><br>{Weddie}                 | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |  Vers 1  |                                                             |                                                                                |            |
 > |          |             Gatara<br><br>{Key Emblem - Yellow}             | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
-> |          |              Azlan<br><br>{Key Emblem - Green}              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
+> |          |              Azlan<br><br>{Key Emblem - Green}              | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |            |
 > |          |              Glen<br><br>{Key Emblem - Black}               | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |             Orphea<br><br>{Key Emblem - White}              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |
 > |          |              Julet<br><br>{Key Emblem - Blue}               | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |            |

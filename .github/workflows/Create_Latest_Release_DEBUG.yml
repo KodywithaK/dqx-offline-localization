@@ -200,8 +200,8 @@ jobs:
           	  cd "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_json" && \
           	  jq --arg LANGUAGE ${LANGUAGE} \
           	  -r \
-          	  --from-file "${github_workspace}/DEBUG/yq_filter.txt" \
-          	  "${github_workspace}/Game.locres.json" \
+          	  --from-file "${{ github.workspace }}/DEBUG/yq_filter.txt" \
+          	  "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json" \
           	  | yq -r '.[]' \
           	  -s '.Filename, del(.Filename)' -o=json -I2
           	  cd "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game"
@@ -218,7 +218,7 @@ jobs:
           	rm -r "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_json/"
             echo -e "::group::Creating \033[0;34m ${LANGUAGE}/StringTables.zip \033[0m"
               zip -uj \
-              ${{ github.workspace }}/DEBUG/releases/${LANGUAGE}_StringTables.zip \
+              ${{ github.workspace }}/DEBUG/releases/StringTables_${LANGUAGE}.zip \
               ${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/*.csv
             echo "::endgroup::"
           done;
