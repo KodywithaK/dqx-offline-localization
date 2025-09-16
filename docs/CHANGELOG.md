@@ -130,7 +130,7 @@
 > |  052<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |              |
 > |  053<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |              |
 > |  054<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |              |
-> |  055<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
+> |  055<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |              |
 > |  056<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  057<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  058<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |

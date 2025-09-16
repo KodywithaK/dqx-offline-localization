@@ -143,10 +143,10 @@ jobs:
                 echo -e "::group::Creating \033[0;34m Titlescreen Version Info \033[0m"
                   mkdir -p "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Settings/Version"
 
-                  jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%F ))\n${PLATFORM}\"}" \
+                  jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%Y.%m.%d ))\n${PLATFORM}\"}" \
                   > "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Settings/Version/version_settings.json"
 
-                  echo -e "$(jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%F ))\n${PLATFORM}\"}")"
+                  echo -e "$(jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%Y.%m.%d ))\n${PLATFORM}\"}")"
                 echo "::endgroup::"
 
                 if [[ ${PLATFORM} == @(ps4|ps4_ZZZ) ]]; then
@@ -205,7 +205,7 @@ jobs:
           ${{ github.workspace }}/BUILD/releases/pakchunk0-Switch_*_Dialogue_Latest_P.pak.zip \
           ${{ github.workspace }}/BUILD/releases/pakchunk0-WindowsNoEditor_*_Dialogue_Latest_P.pak.zip \
           --notes-file ${{ github.workspace }}/BUILD/dqx-offline-localization/docs/CHANGELOG.md \
-          --title "$(echo -e v$(date -u +%F ))"
+          --title "$(echo -e v$(date -u +%Y.%m.%d ))"
 
           echo "Successfully uploaded new files to [Releases/Latest](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Latest)." >> $GITHUB_STEP_SUMMARY
           echo -e "\n::notice:: \033[0;32m Successfully uploaded new files to Latest release. \033[0m"

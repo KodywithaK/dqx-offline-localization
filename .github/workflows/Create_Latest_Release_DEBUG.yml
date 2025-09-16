@@ -138,10 +138,10 @@ jobs:
                 echo -e "::group::Creating \033[0;34m Titlescreen Version Info \033[0m"
                   mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/Settings/Version"
 
-                  jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%F ))\n${PLATFORM}\"}" \
+                  jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%Y.%m.%d ))\n${PLATFORM}\"}" \
                   > "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/Settings/Version/version_settings.json"
 
-                  echo -e "$(jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%F ))\n${PLATFORM}\"}")"
+                  echo -e "$(jq -n "{\"AppVersionString\": \"2.0.1\n$(echo -e ${LANGUAGE}_v$(date -u +%Y.%m.%d ))\n${PLATFORM}\"}")"
                 echo "::endgroup::"
 
                 if [[ ${PLATFORM} == @(ps4|ps4_ZZZ) ]]; then
@@ -195,7 +195,7 @@ jobs:
         run: |
           for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
           	export LANGUAGE=${LANGUAGE} && \
-          	echo -e "::group::Creating \033[0;34m ${LANGUAGE}/**/*.json \033[0m"
+          	echo -e "::group::Creating \033[0;34m ${LANGUAGE}/**/_json/*.json \033[0m"
           	  mkdir -p "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_json" && \
           	  cd "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_json" && \
           	  jq --arg LANGUAGE ${LANGUAGE} \
@@ -213,14 +213,15 @@ jobs:
           	  	"${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_json/${FILE}" \
           	  	> "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/${FILE%.*}.csv"
           	  done;
+              echo -e "Removing ${LANGUAGE}/**/_json/*.json"
+              rm -r "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_json/"
             echo "::endgroup::"
-            echo -e "Removing _json/*.json"
-          	rm -r "${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/_json/"
             echo -e "::group::Creating \033[0;34m ${LANGUAGE}/StringTables.zip \033[0m"
               zip -uj \
               ${{ github.workspace }}/DEBUG/releases/StringTables_${LANGUAGE}.zip \
               ${{ github.workspace }}/DEBUG/staging/${LANGUAGE}/Game/Content/StringTables/Game/*.csv
             echo "::endgroup::"
+            echo -e "\n"
           done;
 
 ########################################################################################################################################################################################################
