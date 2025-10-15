@@ -129,7 +129,7 @@ jobs:
               mkdir -p \
               "${{ github.workspace }}/BUILD/staging/${LANGUAGE}" \
               "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_ko" \
-              "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hans"
+              "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hans" \
               "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hant"
 
               cp \
