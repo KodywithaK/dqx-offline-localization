@@ -190,7 +190,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq "to_entries | map(.value = (.
 ### JQ Query
 
 ```js
-# jq -s
+# jq -s --from-file
 reduce (.) as [$old,$new] (
     {};
     reduce ($old | keys_unsorted)[] as $namespace (
@@ -223,6 +223,7 @@ reduce (.) as [$old,$new] (
         )
     )
 )
+# "old.json" "new.json" > "newer.json"
 ```
 
 ### OUTPUT
@@ -2619,6 +2620,191 @@ jq -s "
 </details>
 
  -->
+
+---
+
+# pakchunk0-{PLATFORM}.pak
+
+<!-- <details> -->
+
+> - Mount point `../../../(Game/Holiday)/Content/`
+
+<!-- </details> -->
+
+# pakchunk0-{PLATFORM}.utoc
+
+<details>
+
+> - Mount point `../../../(Game/Holiday)/Content/`
+>
+> ## 2dmap
+> 
+> - TBD
+> 
+> ## Assets
+> 
+> - TBD
+> 
+> ## Blueprints
+> 
+> - TBD
+> 
+> ## Datatables
+>
+>> <details>
+>>
+>> ### Battle
+>>
+>> - TBD
+>>
+>> ### Characters
+>>
+>> - TBD
+>>
+>> ### CutScene
+>>
+>> - All about cutscenes
+>>
+>> ### Event
+>>
+>> - TBD
+>>
+>> ### FieldItem
+>>
+>> - Contents and locations of examinable items
+>>
+>> ### FieldRecipe
+>>
+>> - Contents and locations of examinable recipe books
+>>
+>> ### Kirakira
+>>
+>> - Item IDs of examinable glittering spots
+>>
+>> ### LD_MapData
+>>
+>> - Level data of maps
+>>   - See [FieldItem](#FieldItem), [FieldRecipe](#FieldRecipe), [Kirakira](#Kirakira), [MonsterSymbol](#MonsterSymbol), [TextObject](#TextObject), [Treasure](#Treasure)
+>>
+>> ### LevelStream
+>>
+>> - ETP, lua, and music files of maps
+>>
+>> ### Lua
+>>
+>> - TBD
+>>
+>> ### MapJump
+>>
+>> - loading zones of maps
+>>
+>> ### Maps
+>>
+>> - TBD
+>>
+>> ### Minimap
+>>
+>> - All about the minimap
+>>
+>> ### MonsterSymbol
+>>
+>> - Parameters for monster encounters
+>>
+>> ### Quest
+>>
+>> - All about quests
+>>
+>> ### Sound
+>>
+>> - Comments, codenames, and filenames of music / sound effects
+>>
+>> ### System
+>>
+>> - TBD
+>>
+>> ### System_Shop
+>>
+>> - Shop owner's names and items sold
+>>
+>> ### Text
+>>
+>> - Ruby text
+>>
+>> ### TextObject
+>>
+>> - ETP IDs and locations of readable objects (i.e.: books, signs, etc.)
+>>
+>> ### Treasure
+>>
+>> - Color, contents, and location of treasure chests
+>>
+>> </details>
+> 
+> ## DLC
+> 
+> - TBD
+> 
+> ## EditorScripting
+> 
+> - TBD
+> 
+> ## Items
+> 
+> - TBD
+> 
+> ## L10N
+> 
+> - TBD
+> 
+> ## Maps
+> 
+> - TBD
+> 
+> ## Materials
+> 
+> - TBD
+> 
+> ## Movies
+> 
+> - TBD
+> 
+> ## NonAssets
+> 
+> - TBD
+> 
+> ## PostProcess
+> 
+> - TBD
+> 
+> ## Sandbox
+> 
+> - TBD
+> 
+> ## Sequences
+> 
+> - TBD
+> 
+> ## Sounds
+> 
+> - TBD
+> 
+> ## StringTables
+> 
+> - TBD
+> 
+> ## Tools
+> 
+> - TBD
+> 
+> ## UI
+> 
+> - TBD
+> 
+> ## Viewer
+> 
+> - TBD
+
+</details>
 
 ---
 

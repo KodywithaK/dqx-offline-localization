@@ -2,7 +2,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json"
+      - "Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml"
       - "Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/ETP.yaml"
   workflow_dispatch:
 
@@ -40,6 +40,10 @@ jobs:
         run: |
           # echo -e "::group::\033[0;34m Building LocRes-Builder's Inputs \033[0m"
           mkdir -p ${{ github.workspace }}/BUILD/LocRes-Builder/INPUT
+
+          yq "." -o=json \
+          "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml" \
+          > "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json"
 
           cp \
           "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locmeta.json" \
@@ -88,10 +92,10 @@ jobs:
           mkdir -p "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP"
           cd "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP"
           echo -e "Splitting ETP.yaml"
-          yq -s ".filename, del(.filename)" \
+          yq -s "keys[], . = .[]" \
           "./ETP.yaml" \
           -o json -I2
-          rm "./null.json"
+          rm "./anchors.json"
 
       - name: dqx_dat_dump
         run: |
@@ -120,12 +124,13 @@ jobs:
           "${{ github.workspace }}/BUILD/staging" \
           "${{ github.workspace }}/BUILD/releases"
 
-          for PLATFORM in ps4 Switch WindowsNoEditor; do\
+          for PLATFORM in Android_ETC2 ios ps4 Switch WindowsNoEditor; do\
             for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do\
               mkdir -p \
               "${{ github.workspace }}/BUILD/staging/${LANGUAGE}" \
               "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_ko" \
               "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hans"
+              "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hant"
 
               cp \
               ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP/* \
@@ -134,6 +139,10 @@ jobs:
               cp \
               ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP/* \
               ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hans
+
+              cp \
+              ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP/* \
+              ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hant
 
               if [[ ${PLATFORM} == @(Android_ETC2|ios|ps4|Switch) ]]; then
                 DESTINATION="Holiday";
@@ -162,6 +171,7 @@ jobs:
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP/\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_ko\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_ko/\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_zh_hans\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_zh_hans/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_zh_hant\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_zh_hant/\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Localization\\Game\\\\${LANGUAGE}\\Game.locres\" \"../../../${DESTINATION}/Content/Localization/Game/ko/Game.locres\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Settings\\Version\\\version_settings.json\" \"../../../${DESTINATION}/Content/Settings/Version/version_settings.json\"\
                   " | sed -e 's/        /\n/g ; s/^[[:space:]]*//g ; s/[[:space:]]*$//g' > ${{ github.workspace }}/BUILD/staging/responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt
@@ -171,6 +181,7 @@ jobs:
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP/\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_ko\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_ko/\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_zh_hans\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_zh_hans/\"\
+                  \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\NonAssets\\\ETP_zh_hant\*\" \"../../../${DESTINATION}/Content/NonAssets/ETP_zh_hant/\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Localization\\Game\\\\${LANGUAGE}\\Game.locres\" \"../../../${DESTINATION}/Content/Localization/Game/ko/Game.locres\"\
                   \"..\\..\\..\\..\\\actions-runner\\_work\\dqx-offline-localization\\dqx-offline-localization\\BUILD\\staging\\\\${LANGUAGE}\\Game\\Content\\Settings\\Version\\\version_settings.json\" \"../../../${DESTINATION}/Content/Settings/Version/version_settings.json\"\
                   " | sed -e 's/        /\n/g ; s/^[[:space:]]*//g ; s/[[:space:]]*$//g'
@@ -211,30 +222,45 @@ jobs:
           echo -e "\n::notice:: \033[0;32m Successfully uploaded new files to Latest release. \033[0m"
 
 ########################################################################################################################################################################################################
+# 202500921_2100: `Game.locres.yaml` > `Game.locres.json`
+# - To make use of anchors (&anchor) and aliases (*anchor), readability, & smaller file size
+#          ```bash
+#          clear && \
+#          yq "." -o=json \
+#          "/mnt/r/\${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml" \
+#          > "/mnt/r/\${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json"
+#          ```
+#
+########################################################################################################################################################################################################
 # 20250713_2100: `gh release edit` still not supported by github actions
+#          ```bash
 #          gh release delete Latest --yes
 #
 #          gh release edit Multi-Languages \
 #          --title "(echo -e $(gh release list --json name -q ".[1].name"))" \
 #          --tag "previous"
+#          ```
 #
 ########################################################################################################################################################################################################
 # 20250728_1600: gh release edit Latest
 # ```cmd
-# FOR /F "usebackq" %A IN (`gh release list --json name -q ".[0].name"`) DO gh release edit Latest --title "%A" --tag "%A"
+# FOR /F "usebackq" %A IN (`gh release list --json name -q "sort | reverse | .[0].name"`) DO @ECHO gh release edit Latest --title "%A" --tag "%A"
 # ```
 #
-######################################################################################################################################################
+########################################################################################################################################################################################################
 # 20250807_0000: Release PS4 `.pkg`
 # - see TODO.md
 #   - .github/workflows/Create_Latest_Release.yml
 #     - PS4 `.pkg`
 #
-####################################################################################################
+########################################################################################################################################################################################################
 # 20250808_0100: `Game.locres.json` > `OUTPUT/StringTables/${LANGUAGE}/**/*.csv`
 # - see TODO.md
 #   - .github/workflows/Create_Latest_Release.yml
 #     - `Game.locres.json` > `OUTPUT/StringTables/${LANGUAGE}/**/*.csv`
+#     - Invalid workflow file: .github/workflows/Create_Latest_Release_DEBUG.yml#L1
+#       (Line: 195, Col: 14): Exceeded max expression length 21000
+#       - Optimize/add `run` step(s)?
 #
 # ```yaml
 # gh release create Latest \
@@ -242,4 +268,4 @@ jobs:
 # ${{ github.workspace }}/BUILD/releases/StringTables.zip \
 # ...
 # ```
-####################################################################################################
+########################################################################################################################################################################################################

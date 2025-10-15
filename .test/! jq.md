@@ -699,8 +699,87 @@
 >
 > </details>
 
-<details><summary><h1>Merge DQ3make DataTables & Game.locres.json by keys</h1></summary>
+> [!TIP]
+>
+> <details><summary><h1>`DRAGON QUEST III HD-2D Remake\**\Game-WindowsNoEditor.pak\**\DataTable\Text\**\*`</h1></summary>
+>
+> ## JQ
+>
+> - Get `.Text` of all files and languages
+> ```cmd
+> R:\Exports\Game\Content\Nicola\Data\DataTable\Text>FOR /F "usebackq delims=" %E IN (`dir /b .\en\`) DO mkdir "R:\Temp\%~nE\" && FOR %F IN (cn de en es es-419 fr it jp jp-hi ko tw) DO jq "{\"%~nE\": ( .[].Rows as $obj | reduce ($obj | keys_unsorted)[] as $k ( {}; .[$k] += { \"%F\": $obj[$k].Text} ) )}" "R:\Exports\Game\Content\Nicola\Data\DataTable\Text\%F\%~nE.json" > R:\Temp\%~nE\%~nE.json.%F
+> ```
+> 
+> - Merge all files and languages
+> ```cmd
+> R:\Temp>FOR /F "usebackq delims=" %E IN (`dir /b`) DO FOR /F "usebackq tokens=1,2,3,4,5,6,7,8,9,10,11,12 delims= " %F IN (`@ECHO %E\%E.json cn de en es es-419 fr it jp jp-hi ko tw`) DO jq -s "reduce .[] as $item ({}; . * $item)" %F.%G %F.%H %F.%I %F.%J %F.%K %F.%L %F.%M %F.%N %F.%O %F.%P %F.%Q > "%E\! %E.json"
+> ```
+> 
+> - Get `.Text` of all languages
+> ```cmd
+> FOR %F IN (cn de en es es-419 fr it jp jp-hi ko tw) DO jq "{\"GOP_Text_FieldMenu\": ( .[].Rows as $obj | reduce ($obj | keys_unsorted)[] as $k ( {}; .[$k] += { \"%F\": $obj[$k].Text} ) )}" GOP_Text_FieldMenu.json.%F > "JQ\GOP_Text_FieldMenu.json.%F"
+> ```
+> 
+> - Merge all languages
+> ```cmd
+> FOR /F "usebackq tokens=1,2,3,4,5,6,7,8,9,10,11,12 delims= " %F IN (`@ECHO GOP_Text_FieldMenu.json cn de en es es-419 fr it jp jp-hi ko tw`) DO jq -s "reduce .[] as $item ({}; . * $item)" %F.%G %F.%H %F.%I %F.%J %F.%K %F.%L %F.%M %F.%N %F.%O %F.%P %F.%Q > "! %F"
+> ```
+> 
+> ## Output
+> 
+> ```json
+> {
+>   "GOP_Text_FieldMenu": {
+>     "Txt_FieldMenu_Common_YES": {
+>       "cn": "是",
+>       "de": "Ja",
+>       "en": "Yes",
+>       "es": "Sí",
+>       "es-419": "Sí",
+>       "fr": "Oui",
+>       "it": "Sì",
+>       "jp": "はい",
+>       "jp-hi": "はい",
+>       "ko": "예",
+>       "tw": "是"
+>     },
+>     "Txt_FieldMenu_Common_NO": {
+>       "cn": "否",
+>       "de": "Nein",
+>       "en": "No",
+>       "es": "No",
+>       "es-419": "No",
+>       "fr": "Non",
+>       "it": "No",
+>       "jp": "いいえ",
+>       "jp-hi": "いいえ",
+>       "ko": "아니요",
+>       "tw": "否"
+>     },
+>     // ...
+>     "Txt_FieldMenu_Queen_Message_WARP": {
+>       "cn": "女王陛下没有离开罗马利亚的需要。",
+>       "de": "Für die Königin gibt es keinen Anlass, Romaria zu verlassen. Irgendwer muss schließlich den Thron warmhalten<nbsp>...",
+>       "en": "There's no need for Her Majesty to leave Romaria. Who would be queen in her stead?",
+>       "es": "Su majestad no tiene por qué marcharse de Romaria. ¿Quién ocuparía su cargo?",
+>       "es-419": "No hay necesidad de que Su Majestad abandone Romaria. ¿Quién sería reina en su lugar?",
+>       "fr": "Il n'est nul besoin que Sa Majesté quitte Romalie. Qui régnerait à sa place?",
+>       "it": "Non occorre che Sua Maestà lasci Romaria. Chi regnerebbe al suo posto?",
+>       "jp": "<RUBY>女王[じょおう]さまは　ロマリアから<RUBY>出[で]る<RUBY>必要[ひつよう]がない。",
+>       "jp-hi": "じょおうさまは　ロマリアからでるひつようがない。",
+>       "ko": "여왕은 로마리아에서 나갈 필요가 없다.",
+>       "tw": "女王不必離開羅馬利亞。"
+>     }
+>   }
+> }
+> ```
+> 
+> </details>
 
+> [!TIP]
+>
+> <details><summary><h1>Merge DQ3make DataTables & Game.locres.json by keys</h1></summary>
+>
 > ####################################################################################################
 >
 > # Input
@@ -772,8 +851,10 @@
 >
 > </details>
 
-<details><summary><h1>Import Names from DQXIS to `Game.locres.json`</h1></summary>
-
+> [!TIP]
+>
+> <details><summary><h1>Import Names from DQXIS to `Game.locres.json`</h1></summary>
+>
 > ## JQ Query
 >
 > ```js

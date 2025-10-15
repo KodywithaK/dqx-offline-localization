@@ -1,14 +1,24 @@
+# https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml
+# https://github.com/github-linguist/linguist/blob/main/docs/overrides.md
+
 * text=auto
 
+*.md	linguist-language=Markdown
+*.md	linguist-detectable=true
+
+*.yml	linguist-language=YAML
+*.yaml	linguist-language=YAML
+*.yaml	linguist-detectable=true
+
 # (.etp > .yaml)
-Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.yaml linguist-detectable=true
+Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.yaml	linguist-detectable=true
 
 # (.etp > .json)
-Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json linguist-detectable=true
-Steam/**/IN_PROGRESS/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json linguist-detectable=true
-Steam/**/DONE/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json linguist-detectable=true
+Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json		linguist-detectable=true
+Steam/**/IN_PROGRESS/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json	linguist-detectable=true
+Steam/**/DONE/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json			linguist-detectable=true
 # Steam/**/REFERENCES/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json linguist-detectable=true
 
 # (.locres & .locmeta > .json)
-Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/*.json linguist-detectable=true
+Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/*.json	linguist-detectable=true
 # Steam/**/REFERENCES/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/**/*.json linguist-detectable=true

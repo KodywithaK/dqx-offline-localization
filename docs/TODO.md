@@ -19,7 +19,7 @@
 >   #			####################################################################################################
 >   #			##### If-Then-Else-End not implemented in YQ yet
 >   #			##### see https://github.com/mikefarah/yq/issues/2381#issuecomment-2965101058
->   #			#.[$k] = (
+>   #			#.[$k] += (
 >   #			#
 >   #			#	if $obj.value[$k][$LANGUAGE] != ""
 >   #			#	then $obj.value[$k][$LANGUAGE]
@@ -41,7 +41,7 @@
 >   		{};
 >   		reduce ($obj.value | keys_unsorted)[] as $k (
 >   			{"Filename": $ns, "Key": "SourceString"};
->   			.[$k] = (
+>   			.[$k] += (
 >   				if ($obj.value[$k][$LANGUAGE] != "")
 >   				then ($obj.value[$k][$LANGUAGE])
 >   				else ($obj.value[$k]["ja"])
@@ -687,3 +687,474 @@
      - pt-EU, spoken/written for everything
        - e.g., "I `(will/am going to)` give you"
          - "Eu vou te dar" > "Vou dar-te"
+
+---
+
+# Language Selection Menu
+
+<details>
+
+> ## Game/Content/Localization/Game/Game.locres.yaml
+> 
+> - Add `.SYSTEM_LOACALIZATION.SYSTEM_LOCALIZATION_{LANGUAGE}`
+> ```diff
+>   SYSTEM_LOACALIZATION_004:
+>     $comments: "🟢, ko"
+>     de: 한국어
+>     en: 한국어
+>     es: 한국어
+>     fr: 한국어
+>     it: 한국어
+>     ja: 韓国語
+>     ko: 한국어
+>     pt-BR: 한국어
+>     zh-Hans: 韩文
+>     zh-Hant: 韓文
+> +  KWK_SYSTEM_LOCALIZATION_de:
+> +    $comments: "🟡, "
+> +    de: ""
+> +    en: ""
+> +    es: ""
+> +    fr: ""
+> +    it: ""
+> +    ja: ドイツ語
+> +    ko: ""
+> +    pt-BR: ""
+> +    zh-Hans: ""
+> +    zh-Hant: ""
+> +  KWK_SYSTEM_LOCALIZATION_en:
+> +    $comments: "🟡, "
+> +    de: ""
+> +    en: ""
+> +    es: ""
+> +    fr: ""
+> +    it: ""
+> +    ja: 英語
+> +    ko: ""
+> +    pt-BR: ""
+> +    zh-Hans: ""
+> +    zh-Hant: ""
+> +  KWK_SYSTEM_LOCALIZATION_es:
+> +    $comments: "🟡, "
+> +    de: ""
+> +    en: ""
+> +    es: ""
+> +    fr: ""
+> +    it: ""
+> +    ja: スペイン語
+> +    ko: ""
+> +    pt-BR: ""
+> +    zh-Hans: ""
+> +    zh-Hant: ""
+> +  KWK_SYSTEM_LOCALIZATION_fr:
+> +    $comments: "🟡, "
+> +    de: ""
+> +    en: ""
+> +    es: ""
+> +    fr: ""
+> +    it: ""
+> +    ja: フランス語
+> +    ko: ""
+> +    pt-BR: ""
+> +    zh-Hans: ""
+> +    zh-Hant: ""
+> +  KWK_SYSTEM_LOCALIZATION_it:
+> +    $comments: "🟡, "
+> +    de: ""
+> +    en: ""
+> +    es: ""
+> +    fr: ""
+> +    it: ""
+> +    ja: イタリア語
+> +    ko: ""
+> +    pt-BR: ""
+> +    zh-Hans: ""
+> +    zh-Hant: ""
+> +  KWK_SYSTEM_LOCALIZATION_pt-BR:
+> +    $comments: "🟡, "
+> +    de: ""
+> +    en: ""
+> +    es: ""
+> +    fr: ""
+> +    it: ""
+> +    ja: ブラジルポルトガル語
+> +    ko: ""
+> +    pt-BR: ""
+> +    zh-Hans: ""
+> +    zh-Hant: ""
+>   SYSTEM_LOACALIZATION_005:
+>     $comments: "🟢, "
+>     de: Sprache Ändern
+>     en: Change Language
+>     es: Cambiar Idioma
+>     fr: Changer Langue
+>     it: Cambia Lingua
+>     ja: 言語の切替を行います
+>     ko: 언어 설정을 바꿉니다
+>     pt-BR: Mudar Idioma
+>     zh-Hans: 切换语言
+>     zh-Hant: 切換語言
+> ```
+> 
+> ## Game/Content/StringTables/Game/Localization/SYSTEM_LOACALIZATION.uasset
+> 
+> - Add new language strings
+> ```diff
+>   "SYSTEM_LOACALIZATION_004": "韓国語",
+> + "KWK_SYSTEM_LOCALIZATION_de","ドイツ語",
+> + "KWK_SYSTEM_LOCALIZATION_en","英語",
+> + "KWK_SYSTEM_LOCALIZATION_es","スペイン語",
+> + "KWK_SYSTEM_LOCALIZATION_fr","フランス語",
+> + "KWK_SYSTEM_LOCALIZATION_it","イタリア語",
+> + "KWK_SYSTEM_LOCALIZATION_pt-BR","ブラジルポルトガル語",
+>   "SYSTEM_LOACALIZATION_005": "言語の切替を行います",
+> ```
+> 
+> ## Game/Content/Blueprints/WidgetBP/SystemTitle/Boukennosho/WB_SelectLanguage.uasset
+> 
+> - `MainMenuText`, Line 16641
+>   - Add new language objects
+>   ```diff
+>   "MainMenuText": [
+>       {
+>         "TableId": "/Game/StringTables/Game/Localization/SYSTEM_LOACALIZATION.SYSTEM_LOACALIZATION",
+>         "Key": "SYSTEM_LOACALIZATION_002",
+>         "SourceString": "繁体字",
+>         "LocalizedString": "繁体字"
+>       },
+>       {
+>         "TableId": "/Game/StringTables/Game/Localization/SYSTEM_LOACALIZATION.SYSTEM_LOACALIZATION",
+>         "Key": "SYSTEM_LOACALIZATION_003",
+>         "SourceString": "簡体字",
+>         "LocalizedString": "簡体字"
+>       },
+>       {
+>         "TableId": "/Game/StringTables/Game/Localization/SYSTEM_LOACALIZATION.SYSTEM_LOACALIZATION",
+>         "Key": "SYSTEM_LOACALIZATION_004",
+>         "SourceString": "韓国語",
+>         "LocalizedString": "韓国語"
+>       }
+>   +   ,
+>   +   {
+>   +     "TableId": "/Game/StringTables/Game/Localization/SYSTEM_LOACALIZATION.SYSTEM_LOACALIZATION",
+>   +     "Key": "KWK_SYSTEM_LOCALIZATION_de",
+>   +     "SourceString": "ドイツ語",
+>   +     "LocalizedString": "ドイツ語"
+>   +   },
+>   +   {
+>   +     "TableId": "/Game/StringTables/Game/Localization/SYSTEM_LOACALIZATION.SYSTEM_LOACALIZATION",
+>   +     "Key": "KWK_SYSTEM_LOCALIZATION_en",
+>   +     "SourceString": "英語",
+>   +     "LocalizedString": "英語"
+>   +   },
+>   +   {
+>   +     "TableId": "/Game/StringTables/Game/Localization/SYSTEM_LOACALIZATION.SYSTEM_LOACALIZATION",
+>   +     "Key": "KWK_SYSTEM_LOCALIZATION_es",
+>   +     "SourceString": "スペイン語",
+>   +     "LocalizedString": "スペイン語"
+>   +   },
+>   +   {
+>   +     "TableId": "/Game/StringTables/Game/Localization/SYSTEM_LOACALIZATION.SYSTEM_LOACALIZATION",
+>   +     "Key": "KWK_SYSTEM_LOCALIZATION_fr",
+>   +     "SourceString": "フランス語",
+>   +     "LocalizedString": "フランス語"
+>   +   },
+>   +   {
+>   +     "TableId": "/Game/StringTables/Game/Localization/SYSTEM_LOACALIZATION.SYSTEM_LOACALIZATION",
+>   +     "Key": "KWK_SYSTEM_LOCALIZATION_it",
+>   +     "SourceString": "イタリア語",
+>   +     "LocalizedString": "イタリア語"
+>   +   },
+>   +   {
+>   +     "TableId": "/Game/StringTables/Game/Localization/SYSTEM_LOACALIZATION.SYSTEM_LOACALIZATION",
+>   +     "Key": "KWK_SYSTEM_LOCALIZATION_pt-BR",
+>   +     "SourceString": "ブラジルポルトガル語",
+>   +     "LocalizedString": "ブラジルポルトガル語"
+>   +   }
+>   ],
+>   "SlotName": "system_save2.sav",
+>   "ExplanatrionArray": [
+>     {
+>       "Namespace": "",
+>       "Key": "D25896164EE48D15342E4AADA8B3CA4F",
+>       "SourceString": "ゲーム中の言語を中国語（繁体字）に切り替えます。",
+>       "LocalizedString": "ゲーム中の言語を中国語（繁体字）に切り替えます。"
+>     },
+>     {
+>       "Namespace": "",
+>       "Key": "126EFAE043A5BCFA8F3D429276730245",
+>       "SourceString": "ゲーム中の言語を中国語（簡体字）に切り替えます。",
+>       "LocalizedString": "ゲーム中の言語を中国語（簡体字）に切り替えます。"
+>     },
+>     {
+>       "Namespace": "",
+>       "Key": "3E64C11E4C892B9DFEF273AC9590E2A8",
+>       "SourceString": "ゲーム中の言語を韓国語に切り替えます。",
+>       "LocalizedString": "ゲーム中の言語を韓国語に切り替えます。"
+>     }
+>   + "Switch the ingame language to {LANGUAGE}"
+>   ],
+>   "AskMessageText": [
+>     {
+>       "TableId": "/Game/StringTables/Game/Localization/SYSTEM_LOACALIZATION.SYSTEM_LOACALIZATION",
+>       "Key": "SYSTEM_LOACALIZATION_007",
+>       "SourceString": "言語設定を繁体字にしますか？",
+>       "LocalizedString": "言語設定を繁体字にしますか？"
+>     },
+>     {
+>       "TableId": "/Game/StringTables/Game/Localization/SYSTEM_LOACALIZATION.SYSTEM_LOACALIZATION",
+>       "Key": "SYSTEM_LOACALIZATION_008",
+>       "SourceString": "言語設定を簡体字にしますか？",
+>       "LocalizedString": "言語設定を簡体字にしますか？"
+>     },
+>     {
+>       "TableId": "/Game/StringTables/Game/Localization/SYSTEM_LOACALIZATION.SYSTEM_LOACALIZATION",
+>       "Key": "SYSTEM_LOACALIZATION_009",
+>       "SourceString": "言語設定を韓国語にしますか？",
+>       "LocalizedString": "言語設定を韓国語にしますか？"
+>     }
+>   + "Are you sure you want to switch the ingame language to {LANGUAGE}?"
+>   ],
+>   ```
+
+</details>
+
+- https://docs.ue4ss.com/dev/feature-overview/dumpers.html#usmap-dumper
+
+# "/**/DRAGON QUEST X OFFLINE/Game/Binaries/Win64/UHTHeaderDump/Holiday/
+
+## Public/
+
+### HOLIStringLibrary.(cpp|h)"
+
+- Disable `ConvertHalfToFullWidth`
+  - `class HOLIDAY_API UHOLIStringLibrary : public UBlueprintFunctionLibrary`
+    - See `CoreMinimal.h` > `BlueprintFunctionLibrary`
+  - Maybe even cheating with `ConvertFullToHalfWidth`
+  ```diff
+   UFUNCTION(BlueprintCallable, BlueprintPure)
+  -static FString ConvertHalfToFullWidth(const FString& inString);
+  +// static FString ConvertHalfToFullWidth(const FString& inString);
+  !or
+  +static FString ConvertFullToHalfWidth(const FString& ConvertHalfToFullWidth(const FString& inString));
+  ``` 
+
+## Content/Blueprints/WidgetBP/MessageWindow/WB_LineMessage
+
+- https://modding.wiki/en/hogwartslegacy/developers/hlblueprint102
+
+
+
+## Content/Blueprints/WidgetBP/MessageWindow/WB_MessageWindow
+
+- Has some relation to `DT_RubyText` ?
+- https://www.compart.com/en/unicode/category/Lm
+
+## Content/Datatables/Text/DT_TextRuby.json
+
+- https://www.compart.com/en/unicode/category/Lm
+- https://www.compart.com/en/unicode/category/Sk
+- `Garrick-Bold_RUBYx2.otf`
+  - [x] U+00A8 `¨` = `K｛o：¨｝nigin` or `K｛o：\n¨｝nigin`
+  - [x] U+00B8 `¸` = `Fran｛c：¸｝ais` or `Fran｛c：\n¸｝ais`
+  - [x] U+02C6 `ˆ` = `S｛i：ˆ｝`
+  - [ ] U+02CE `ˎ` = `S｛i：ˎ｝`
+  - [ ] U+02CF `ˏ` = `S｛i：ˏ｝`
+  - [x] U+02F7 `˷` = `Se｛ñ：˷｝ora`
+  - [x] U+A788 `ꞈ` = `Portugu｛e：ꞈ｝s `
+
+### Disable `ConvertHalfToFullWidth*` / `IsStringASCII` to fix non ascii, halfwidth characters
+
+- https://www.nexusmods.com/stellarblade/articles/22
+
+# UHTHeaderDump\Holiday\
+- Contains source C++ Classes for JsonAsAsset imports
+- DOES `#include { DQX dependency }` = `{ DQX Project }\Source\Holiday\`
+- DOES NOT `#include { UE4 dependency }` = `{ UE_4.27 Directory }\Engine\Source\Runtime\`
+  - Note: `-ModuleName` & `-ObjectName` / `-FallbackName` match UE_4.27's `{ UE4Editor Directory }\Engine\Source\Runtime\**\Engine\**\{ DataTable.h }:FTableRowBase`
+  - So searching `{ UE_4.27 Directory }\Engine\Source\` ( or [Unreal Engine's Docs](https://dev.epicgames.com/community/search?query=FTableRowBase) ) for the missing dependencies (  `FTableRowBase` ) will show results for likely files
+  ```diff
+  #pragma once
+  #include "CoreMinimal.h"
+  -//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=TableRowBase -FallbackName=TableRowBase
+  !---> TableRowBase is a ( F )unction, so search for FTableRowBase
+  !---> Other objects would be like ( C )lass, ( E )numerator, etc.
+  +#include "Engine/DataTable.h"
+  #include "HOLITextRubyData_TableRow.generated.h"
+
+  USTRUCT(BlueprintType)
+  struct FHOLITextRubyData_TableRow : public FTableRowBase {
+      GENERATED_BODY()
+  public:
+      UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+      FString Word;
+      
+      UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+      FString Ruby;
+      
+      UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+      int32 WordLength;
+      
+      UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+      int32 RubyLength;
+      
+      UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+      bool IsRubyTag;
+      
+      HOLIDAY_API FHOLITextRubyData_TableRow();
+  };
+  ```
+
+- Holiday.hpp
+
+- HOLIMessageText.(cpp|h)
+  ```diff
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+  FString ParseText;
+  ...
+  UFUNCTION(BlueprintCallable)
+  FString ParseChar(bool& bRet);
+  ```
+- WB_BoukennoshoSlot.hpp
+  ```diff
+  -void ConvertHalfToFullText(FText InText, FText& OutText);
+  +// void ConvertHalfToFullText(FText InText, FText& OutText);
+  !or
+  +void ConvertHalfToFullText(FText InText, FText& InText);
+  ```
+- WB_TrialBoukennoshoSlot.hpp
+  ```diff
+  -void ConvertHalfToFullText(FText InText, FText& OutText);
+  +// void ConvertHalfToFullText(FText InText, FText& OutText);
+  !or
+  +void ConvertHalfToFullText(FText InText, FText& InText);
+  ```
+
+# ./.github/workflows/Create_Latest_Release_DEBUG.yml
+
+<details>
+
+> - Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/StringTables/destinations.txt
+>
+> ## Move completed `.csv` to their respective folders
+> 
+> - ***\*Note the trailing newline\****
+> 
+> - `destinations.txt`
+> 
+>   ```sh
+>   ./STT_Title_Boukennosho.csv    ./Holiday/Content/StringTables/Game/System/System_Title/
+>   ./{ SOURCE }.csv    ./Holiday/Content/StringTables/Game/{ DESTINATION }/
+>   
+>   ```
+> 
+> - `organize.sh`
+> 
+>   ```sh
+>   #!/bin/bash
+>   
+>   # Set IFS to define delimiters
+>   IFS='    '
+>   
+>   # read each line of destinations.txt
+>   while read -r source destination; do
+>       mkdir -p $destination
+>       # echo "$source $destination"
+>       mv $source $destination
+>   done < "destinations.txt"
+>   
+>   ```
+
+</details>
+
+# UE4Editor
+
+> [!TIP]
+> 
+> Game.locres.yaml > {NAMESPACE}.csv > StringTable ( import from CSV )
+> 
+> <details>
+> 
+> ```cmd
+> cls && FOR /F "usebackq tokens=1,2,3delims= " %E IN (`echo {NAMESPACE aka %E} {LANGUAGE aka %F} {FALLBACK_LANGUAGE aka %G}`) DO yq ".%E" Game.locres.yaml -o=json | jq -r ". as $obj | reduce ($obj | keys_unsorted)[] as $k ( {\"Key\":\"SourceString\"}; .[$k] += if($obj[$k].%F != \"\") then($obj[$k].%F) else($obj[$k].%G) end      ) | ((. | keys_unsorted)[] as $k | [$k,(.[$k] | gsub(\"(\r)?\n\";\"\\n\"))]) | @csv" > "C:\Path\To\%E.csv"
+> cls && FOR /F "usebackq tokens=1,2,3delims= " %E IN (`echo STT_System_Title es ja`) DO yq ".%E" Game.locres.yaml -o=json | jq -r ". as $obj | reduce ($obj | keys_unsorted)[] as $k ( {\"Key\":\"SourceString\"}; .[$k] += if($obj[$k].%F != \"\") then($obj[$k].%F) else($obj[$k].%G) end      ) | ((. | keys_unsorted)[] as $k | [$k,(.[$k] | gsub(\"(\r)?\n\";\"\\n\"))]) | @csv" > "C:\Path\To\%E.csv"
+> ```
+> 
+> </details>
+
+> [!TIP]
+> Game.locres.yaml > {NAMESPACE}.json > StringTable ( JsonAsAsset )
+> 
+> <details><summary>Version 1</summary>
+> 
+> ```cmd
+> cls && FOR /F "usebackq tokens=1,2,3delims= " %E IN (`echo {NAMESPACE aka %E} {LANGUAGE aka %F} {FALLBACK_LANGUAGE aka %G}`) DO yq ".%E" Game.locres.yaml -o=json | jq -r ". as $obj | reduce ($obj | keys_unsorted)[] as $k ( [{}]; .[].StringTable.KeysToEntries.[$k] += if($obj[$k].%F != \"\") then($obj[$k].%F) else($obj[$k].%G) end      )" > "R:\Exports\Game\Content\StringTables\Game\%E.json.new"
+> cls && FOR /F "usebackq tokens=1,2,3delims= " %E IN (`echo STT_System_Title es ja`) DO yq ".%E" Game.locres.yaml -o=json | jq -r ". as $obj | reduce ($obj | keys_unsorted)[] as $k ( [{}]; .[].StringTable.KeysToEntries.[$k] += if($obj[$k].%F != \"\") then($obj[$k].%F) else($obj[$k].%G) end      )" > "R:\Exports\Game\Content\StringTables\Game\%E.json.new"
+> ```
+> 
+> - Overwrite {NAMESPACE}.old with {NAMESPACE}.new > {NAMESPACE}.json
+> ```cmd
+> cls && FOR %F IN ({NAMESPACE aka %F}) DO jq -s ".[0][].StringTable.KeysToEntries = .[1][].StringTable.KeysToEntries | .[0]" "%F.json.old" "%F.json.new" > "%F.json"
+> cls && FOR %F IN (STT_Career_StoryUISys) DO jq -s ".[0][].StringTable.KeysToEntries = .[1][].StringTable.KeysToEntries | .[0]" "%F.json.old" "%F.json.new" > "%F.json"
+> ```
+> 
+> </details>
+> 
+> <details><summary>Version 2</summary>
+> 
+> ```cmd
+> cls && FOR /F "usebackq tokens=1,2,3delims= " %E IN (`echo STT_System_Title es ja`) DO yq ".%E" ..\Game.locres.yaml -o=json | jq -r ". as $obj | reduce ($obj | keys_unsorted)[] as $k ( [{\"Type\": \"StringTable\", \"Name\": \"%E\", \"Class\": \"UScriptClass^'StringTable^'\", \"Flags\": \"RF_Public ^| RF_Standalone ^| RF_Transactional ^| RF_WasLoaded ^| RF_LoadCompleted\", \"StringTable\":{\"TableNamespace\":\"%E\",\"KeysToMetaData\": {}}}]; .[].StringTable.KeysToEntries.[$k] += if($obj[$k].%F != \"\") then($obj[$k].%F) else($obj[$k].%G) end      )" > "R:\FModel\Exports\Game\Content\StringTables\Game\%E.json"
+> ```
+> 
+> - [ ] JQ `--from-file`, unescape & conditionals for StringTables with different namespace than its filename
+>   - `if ( --arg == "STT_Title_Boukennosho", etc. ) then ( "TableNamespace": "STT_System_Title", etc. ) else ( . ) end`
+> 
+> </details>
+
+> [!TIP]
+> 
+> ## .locres
+> 
+> ### Optimized_CRC32
+> 
+> - https://github.com/SwimmingTiger/UnrealLocres/blob/master/LocresLib/Crc.cs
+> - https://github.com/EpicGames/UnrealEngine/blob/6978b63c8951e57d97048d8424a0bebd637dde1d/Engine/Source/Runtime/Core/Private/Misc/Crc.cpp#L208
+> - https://web.mit.edu/freebsd/head/sys/libkern/crc32.c
+> 
+> #### KodywithaK\LocResBuilder v0.1.3
+> 
+> - [x] Optimized_CRC32 compatibility
+> - [ ] `--output_verion` argument for `LocResVersion` ( aka 2: `Optimized_CRC32` or 3: `Optimized_CityHash64_UTF16` )
+>   - `locmeta.json ( Optimized_CRC32 )` > `../../../Game/Content/Localization/Game/*`
+>   
+>     ```cmd
+>     main.py "R:\Temp\INPUT\Optimized_CRC32\locmeta.json" --format json --out_dir "R:\Temp\OUTPUT\Optimized_CRC32"
+>     ```
+>   
+>   - `locmeta.json ( Optimized_CityHash64_UTF16 )` > `../../../Game/Content/Localization/Game/*`
+>   
+>     ```cmd
+>     main.py "R:\Temp\INPUT\Optimized_CityHash64_UTF16\locmeta.json" --format json --out_dir "R:\Temp\OUTPUT\Optimized_CityHash64_UTF16"
+>     ```
+> 
+> #### UnrealPak
+> 
+> - `responseFile.txt`
+> 
+>   ```txt
+>   "R:\Temp\OUTPUT\Optimized_CRC32\Game\Game.locmeta" "../../../Game/Content/Localization/Game/Game.locmeta"
+>   "R:\Temp\OUTPUT\Optimized_CRC32\Game\en\Game.locres" "../../../Game/Content/Localization/Game/ja/Game.locres"
+>   ```
+> 
+> - `UnrealPak`
+> 
+>   ```txt
+>   "Desktop\UE_4.27\Engine\Binaries\Win64\UnrealPak.exe" "R:\Temp\OUTPUT\Optimized_CRC32\pakchunk0-WindowsNoEditor_en_Optimized_CRC32_P.pak" -Create="R:\Temp\OUTPUT\Optimized_CRC32\responseFile.txt"
+>   ```
+>
+> #### `"../../../Holiday/Content/Localization/Game/Game.locmeta"`
+> - `"bIsUGC": false`
+>   - https://www.unrealengine.com/en-US/blog/new-example-project-and-plugin-for-mod-support-released
+>   - https://docs.mod.io/unreal/component-ui/enable-disable
+>     - Disables UI mods? So switch to `true`
+> 
