@@ -1,14 +1,14 @@
 # https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml
 # https://github.com/github-linguist/linguist/blob/main/docs/overrides.md
 
-* text=auto
+* text=auto eol=lf
 
-*.md	linguist-language=Markdown
-*.md	linguist-detectable=true
+**/*.md		linguist-language=Markdown
+**/*.md		linguist-detectable=true
 
-*.yml	linguist-language=YAML
-*.yaml	linguist-language=YAML
-*.yaml	linguist-detectable=true
+**/*.yml	linguist-language=YAML
+**/*.yaml	linguist-language=YAML
+**/*.yaml	linguist-detectable=true
 
 # (.etp > .yaml)
 Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.yaml	linguist-detectable=true

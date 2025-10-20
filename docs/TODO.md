@@ -1111,7 +1111,7 @@
 > 
 > </details>
 
-> [!TIP]
+> [!IMPORTANT]
 > 
 > ## .locres
 > 
@@ -1157,4 +1157,129 @@
 >   - https://www.unrealengine.com/en-US/blog/new-example-project-and-plugin-for-mod-support-released
 >   - https://docs.mod.io/unreal/component-ui/enable-disable
 >     - Disables UI mods? So switch to `true`
+>
+
+> [!TIP]
 > 
+> ## UE4SS
+> 
+> <details>
+> 
+> ### Prerequisites
+> 
+> - pakchunk0-WindowsNoEditor_LocResBuilder_v2_P.pak
+> - [UE4SS - Download](https://github.com/UE4SS-RE/RE-UE4SS/releases/tag/experimental-latest)
+> - [UE4SS - Docs](https://docs.ue4ss.com/dev/installation-guide.html)
+> 
+> ### Installation
+> 
+> - Copy the contents of `zDEV-UE4SS_v*.zip` to:
+>   - `PathTo\Steam\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Binaries\Win64\ue4ss\`
+>   - `PathTo\Steam\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Binaries\Win64\dwmapi.dll`
+>     - or
+>   - `PathTo\SteamLibrary\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Binaries\Win64\ue4ss\`
+>   - `PathTo\SteamLibrary\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Binaries\Win64\dwmapi.dll`
+> 
+> ### Usage
+> 
+> - Start the game, and `ue4ss` will automatically boot up
+> 
+> #### UE4SS Debugging Tools (OpenGL 3) - ExternalThread
+> 
+> - `~` enables console commands to be input, such as: 
+>   - `culture={LANGUAGE}`:
+>     - English `culture=en`
+>     - Japanese `culture=ja`
+>     - Portuguese (Brazil) `culture=pt-BR`
+>     - Chinese (Simplified) `culture=zh-Hans`
+>     - etc.
+>   - Afterwards, all UI will instantly change to the language that you input ( loaded from `{LANGUAGE}\Game.locres` )
+>     - Some dialogue & cutscene graphics will remain the same as originally launched language
+>       - Game launched in `Korean`, `~` > `culture=ja`
+>         - Title screen still shows korean logo, but all other fonts / text are japanese
+> - ***PERSISTS EVEN AFTER REMOVING `ue4ss\` & `dwmapi.dll`***
+>   - [ ] Compare save files for changed cultures
+>   - [ ] `../../../Game/Config/DefaultGame.ini:InternationalizationPreset=EFIGSCJK` to `All`, ( `pt-BR` doesn't load currently with `EFIGSCJK` )
+> 
+> <details><summary>Optimized_CRC32 TESTING</summary>
+> 
+> - responseFile.txt
+>   - `la` is used for debugging ( shows names of keys )
+>   ```txt
+>   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/Game.locmeta" "../../../Game/Content/Localization/Game/Game.locmeta"
+>   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/de/Game.locres" "../../../Game/Content/Localization/Game/de/Game.locres"
+>   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/en/Game.locres" "../../../Game/Content/Localization/Game/en/Game.locres"
+>   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/es/Game.locres" "../../../Game/Content/Localization/Game/es/Game.locres"
+>   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/fr/Game.locres" "../../../Game/Content/Localization/Game/fr/Game.locres"
+>   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/it/Game.locres" "../../../Game/Content/Localization/Game/it/Game.locres"
+>   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/ja/Game.locres" "../../../Game/Content/Localization/Game/ja/Game.locres"
+>   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/ko/Game.locres" "../../../Game/Content/Localization/Game/ko/Game.locres"
+>   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/la/Game.locres" "../../../Game/Content/Localization/Game/la/Game.locres"
+>   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/pt-BR/Game.locres" "../../../Game/Content/Localization/Game/pt-BR/Game.locres"
+>   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/zh-Hans/Game.locres" "../../../Game/Content/Localization/Game/zh-Hans/Game.locres"
+>   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/zh-Hant/Game.locres" "../../../Game/Content/Localization/Game/zh-Hant/Game.locres"
+>   ```
+> 
+> - `Game/Content/L10N/${LANGUAGE}/NonAssets/ETP`
+>   - `"Path\To\ETP\*" "../../../Game/Content/L10N/en/NonAssets/ETP_en/"`
+>   - No affect, just loaded from `ETP`, as per usual
+> 
+> - `BP_GameOption_C /Engine/Transient.GameEngine_2147482612:BP_HOLIGameInstance_C_2147482605.BP_GameOption_C_2147482513`
+>   - `/Script/Holiday.HOLIGameOptionData:IsUseRuby`
+>     - Modify function to always return `true` for non-ascii letter spacing fix
+> - `Function /Game/Blueprints/System/GameOption/BP_GameOption.BP_GameOption_C:SetRubyMode`
+> 
+> </details>
+> 
+> </details>
+
+> [!IMPORTANT]
+> 
+> ## jq --arg LANGUAGE ${LANGUAGE} --from-file "Game.locres.json_--from-file.txt"
+> 
+> <details>
+> 
+> - Easier than current `LocRes-Builder Inputs` step
+> 
+> - `Game.locres.json_--from-file.txt`
+>   ```js
+>   . as $obj
+>   | reduce ( $obj | keys_unsorted )[] as $ns (
+>       {};
+>       .[$ns] += (
+>           reduce ( $obj[$ns] | keys_unsorted )[] as $k (
+>               {};
+>               .[$k] += (
+>                   if ( $LANGUAGE != "la" ) # la ( latin ) will be used for debugging locres keys
+>                   then (
+>                       if ( $obj[$ns][$k][$LANGUAGE] != "" )
+>                       then ( $obj[$ns][$k][$LANGUAGE] )
+>                       else ( $obj[$ns][$k]["ja"] )
+>                       end
+>                   )
+>                   else ( $k )
+>                   end
+>               )
+>           )
+>       )
+>   )
+>   
+>   ```
+> 
+>   ```cmd
+>   FOR %L IN (de en es fr it ja ko la pt-BR zh-Hans zh-Hant) DO ( yq "." "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml" -o json -I2 | jq --arg LANGUAGE %L --from-file "Game.locres.json_--from-file.txt" > R:\LocRes-Builder\INPUT\%L.json )
+>   ```
+> 
+>   ```bash
+>   for LANGUAGE in de en es fr it ja ko la pt-BR zh-Hans zh-Hant; do \
+>     yq "." \
+>     "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml" \
+>     -o json -I2 \
+>     | jq --arg LANGUAGE $LANGUAGE \
+>     --from-file "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json_--from-file.txt" \
+>     > "${{ github.workspace }}/BUILD/LocRes-Builder/INPUT/${LANGUAGE}.json"
+>   done
+>   ```
+> 
+> 
+> </details>

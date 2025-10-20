@@ -36,17 +36,18 @@ jobs:
           # echo -e "::group::\033[0;34m Building LocRes-Builder's Inputs \033[0m"
           mkdir -p ${{ github.workspace }}/DEBUG/LocRes-Builder/INPUT
 
-          yq "." -o=json \
-          "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml" \
-          > "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json"
-
           cp \
           "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locmeta.json" \
           "${{ github.workspace }}/DEBUG/LocRes-Builder/INPUT/locmeta.json"
 
-          for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do jq \
-            "to_entries| map(reduce . as \$obj ({};{\"key\": \$obj[\"key\"],\"value\": (\$obj[\"value\"]| to_entries| map({\"key\": .key,\"value\": [(if (.value[\"${LANGUAGE}\"] != \"\")then (.value = .value[\"${LANGUAGE}\"])else (.value = .value.ja)end)]| from_entries[]})| from_entries)}))| from_entries" \
-            "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json" \
+          echo -e "Splitting Game.locres.yaml"
+          for LANGUAGE in de en es fr it ja ko la pt-BR zh-Hans zh-Hant; do \
+            echo -e "Splitting \033[0;32m$LANGUAGE\033[0m"
+            yq "." --yaml-fix-merge-anchor-to-spec \
+            "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml" \
+            -o=json \
+            | jq --arg LANGUAGE $LANGUAGE \
+            --from-file "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json_--from-file.txt" \
             > "${{ github.workspace }}/DEBUG/LocRes-Builder/INPUT/${LANGUAGE}.json"
           done
           # echo "::endgroup::"
