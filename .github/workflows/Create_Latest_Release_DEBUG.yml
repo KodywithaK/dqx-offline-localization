@@ -43,9 +43,9 @@ jobs:
           echo -e "Splitting Game.locres.yaml"
           for LANGUAGE in de en es fr it ja ko la pt-BR zh-Hans zh-Hant; do \
             echo -e "Splitting \033[0;32m$LANGUAGE\033[0m"
-            yq "." --yaml-fix-merge-anchor-to-spec \
+            yq "." \
             "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml" \
-            -o=json \
+            --yaml-fix-merge-anchor-to-spec -o json \
             | jq --arg LANGUAGE $LANGUAGE \
             --from-file "${{ github.workspace }}/DEBUG/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json_--from-file.txt" \
             > "${{ github.workspace }}/DEBUG/LocRes-Builder/INPUT/${LANGUAGE}.json"
@@ -90,7 +90,7 @@ jobs:
           echo -e "Splitting ETP.yaml"
           yq -s "keys[], . = .[]" \
           "./ETP.yaml" \
-          -o json -I2
+          --yaml-fix-merge-anchor-to-spec -o json
           rm "./anchors.json"
 
       - name: dqx_dat_dump

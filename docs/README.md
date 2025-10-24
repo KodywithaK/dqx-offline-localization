@@ -101,7 +101,7 @@
 > - Playthroughs
 >   - [@/Santi2277's playthrough with commentary in Spanish](https://www.youtube.com/playlist?list=PLEQLCZp7Wmiij2XH7be5IQI-1IpJUqMQh)
 >     - Dragon Quest X Offline: El Despertar de las 5 Razas
->   - [@/@deltrasu's playthrough with commentary in French](https://youtube.com/playlist?list=PLyHRHQXvPw2pRadcCkoTVIDu1bALnUxDw&si=RyjbEFcynK0xBKTN)
+>   - [@/deltrasu's playthrough with commentary in French](https://youtube.com/playlist?list=PLyHRHQXvPw2pRadcCkoTVIDu1bALnUxDw&si=RyjbEFcynK0xBKTN)
 >     - Dragon Quest X : Le Réveil des 5 Races Offline
 >
 > ### Misc.

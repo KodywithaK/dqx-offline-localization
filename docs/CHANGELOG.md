@@ -103,7 +103,7 @@
 > |  025<br><br>Sub Story   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  026<br><br>Sub Story   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  027<br><br>Sub Story   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
-> |  028<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
+> |  028<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |              |
 > |  029<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > | 030<br><br>Super Useful | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  031<br><br>Sub Story   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
