@@ -104,7 +104,7 @@
 > |  026<br><br>Sub Story   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  027<br><br>Sub Story   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  028<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |              |
-> |  029<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
+> |  029<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |              |
 > | 030<br><br>Super Useful | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  031<br><br>Sub Story   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  032<br><br>Sub Story   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
@@ -405,7 +405,7 @@
 >   - Copy `mods` folder into the root of your Switch's SD card. (e.g.):
 >   - `sd:\mods\Dragon_Quest_X_Offline\{Language}\contents\0100E2E0152E4000\romfs\Holiday\Content\Paks\pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak`
 >
-> ### Yuzu
+> ### Yuzu, Citron, etc.
 >
 > - Copy `pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak` into `0100E2E0152E4000`'s mod data location (e.g.):
->   - `%YUZU_DIR%\load\0100E2E0152E4000\{Language}\romfs\Holiday\Content\Paks\pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak`
+>   - `<Yuzu Directory>\load\0100E2E0152E4000\{Language}\romfs\Holiday\Content\Paks\pakchunk0-Switch_{Language}_Dialogue_Latest_P.pak`

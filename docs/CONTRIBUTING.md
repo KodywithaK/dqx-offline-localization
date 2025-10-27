@@ -15,6 +15,374 @@
 > Negative potential consequences of an action.
 -->
 
+# Game.locres.yaml
+
+<details>
+
+> [!NOTE]
+>
+> |	Namespace							|	de	|	en	|	es	|	fr	|	it	|	ja	|	ko	|	pt-BR	|	zh-Hans	|	zh-Hant	|	$comments	|
+> |	:----------------------------------	|	:--	|	:--	|	:--	|	:--	|	:--	|	:--	|	:--	|	:----	|	:------	|	:------	|	:--------	|
+> |	ASIA_DLC							|	🔴	|	🟡	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	South East Asian version's DLC names and descriptions	|
+> |	Event_Common						|	🟡	|	🟡	|	🟡	|	🟡	|	🟡	|	🟢	|	🟢	|	🟡	|	🟢		|	🟢		|	hair color, races, misc. character names	|
+> |	Sample								|	🟢	|	🟢	|	🟢	|	🟢	|	🟢	|	🟢	|	🟢	|	🟢	|	🟢		|	🟢		|	debug	|
+> |	lpWindowName						|	🟢	|	🟢	|	🟢	|	🟢	|	🟢	|	🟢	|	🟢	|	🟢	|	🟢		|	🟢		|	names of game window	|
+> |	STT_AccessoryItem					|	🔴	|	🟡	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	names + descriptions of accessory items	|
+> |	STT_ActionAvgMsg_Simple1			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionAvgMsg_Simple2			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionAvgMsg_Simple3			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionAvgMsg_Simple4			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionAvgMsg_Simple5			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionAvgMsg_Simple15			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Balloon1				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Balloon2				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log1					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log2					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log3					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log4					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log5					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log6					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log7					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log8					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log9					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log10					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log11					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log12					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log13					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log14					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Log15					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple1				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple2				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple3				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple4				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple5				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple6				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple7				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple8				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple9				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple10				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple11				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple12				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple13				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple14				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionMsg_Simple15				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionSumMsg_Simple1			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionSumMsg_Simple2			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionSumMsg_Simple3			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionSumMsg_Simple4			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionSumMsg_Simple5			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ActionSumMsg_Simple15			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BRReceptionNpc					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BarMonsterNpc					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BarMonsterSys					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleAbiMsg					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleActionItem				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleEquipItem					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleGuestName					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleMagicItem					|	🟡	|	🟡	|	🟡	|	🟡	|	🟡	|	🟢	|	🟢	|	🟡	|	🟢		|	🟢		|	spell names, see `STT_MagicName`	|
+> |	STT_BattleMonsterName				|	🟡	|	🟡	|	🟡	|	🟡	|	🟡	|	🟢	|	🟢	|	🟡	|	🟢		|	🟢		|	monster names	|
+> |	STT_BattleOddAvgMsg_AEE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddAvgMsg_AEP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddAvgMsg_AE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddAvgMsg_AP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddAvgMsg_AXE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddAvgMsg_AXP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddAvgMsg_DAE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddAvgMsg_DAP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddAvgMsg_DOE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddAvgMsg_DOP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddAvgMsg_RSE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddAvgMsg_RSP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AEE_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AEE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AEP_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AEP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AE_LOG				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AE_SYS				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AFP_BALOON			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AFP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AP_LOG				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AP_SYS				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AXE_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AXE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AXP_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_AXP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_DAE_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_DAE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_DAP_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_DAP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_DOE_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_DOE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_DOP_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_DOP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_MCEE_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_MCEE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_MCEP_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_MCEP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_MCE_BALOON			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_MCE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_RSE_BALOON			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_RSE_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_RSE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_RSP_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_RSP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_RS_BALOON			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleOddMsg_RS_SYS				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSkillItem					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_D1E_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_D1P_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_D2EEX_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_D2E_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_D2PEX_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_D2P_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_FE_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_FP_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_I1E_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_I1P_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_I2EEX_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_I2E_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_I2PEX_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_I2P_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_NEE_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_NEP_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_RSE_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideAvgMsg_RSP_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_D1E_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_D1E_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_D1P_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_D1P_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_D2EEX_LOG		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_D2EEX_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_D2E_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_D2E_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_D2PEX_LOG		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_D2PEX_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_D2P_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_D2P_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_FE_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_FE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_FP_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_FP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_I1E_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_I1E_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_I1P_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_I1P_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_I2EEX_LOG		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_I2EEX_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_I2E_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_I2E_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_I2PEX_LOG		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_I2PEX_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_I2P_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_I2P_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_NEE_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_NEE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_NEP_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_NEP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_RSE_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_RSE_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_RSP_LOG			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideMsg_RSP_SYS			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_D1E_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_D1P_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_D2EEX_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_D2E_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_D2PEX_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_D2P_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_FE_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_FP_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_I1E_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_I1P_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_I2EEX_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_I2E_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_I2PEX_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_I2P_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_NEE_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_NEP_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_RSE_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSlideSumMsg_RSP_SYS		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSpecialSkillItem			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSysMsg					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleSysMsg_LOG				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Battle_Levelup					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Battle_Option					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Battle_UI						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_BattleroadSys					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Boukennosho_DLC_Text			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_CareerStoryVer1					|	🔴	|	🟡	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	The Story So Far content, see `STT_LoadingArasujiVer1`	|
+> |	STT_CareerStoryVer2					|	🔴	|	🟡	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	The Story So Far content, see `STT_LoadingArasujiVer2`	|
+> |	STT_Career_StoryUISys				|	🟡	|	🟡	|	🟡	|	🟡	|	🟡	|	🟢	|	🟢	|	🟡	|	🟢		|	🟢		|	The Story So Far titles	|
+> |	STT_CasinoCoin						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_CharamakeColors					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	Character creation dialog + UI	|
+> |	STT_Charamake_Female				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	Character creation dialog + UI	|
+> |	STT_Charamake_Female_NoLocalization	|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	Character creation dialog + UI	|
+> |	STT_Charamake_Male					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	Character creation dialog + UI	|
+> |	STT_Charamake_Male_NoLocalization	|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	Character creation dialog + UI	|
+> |	STT_Colosseum_NPC					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Colosseum_SYS					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_CommonItem						|	🟡	|	🟡	|	🟡	|	🟡	|	🟡	|	🟢	|	🟢	|	🟡	|	🟢		|	🟢		|	names + descriptions of common items	|
+> |	STT_ConditionViewer					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ConvinientMainSys				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_DaijinamonoItem					|	🟡	|	🟡	|	🟡	|	🟡	|	🟡	|	🟢	|	🟢	|	🟡	|	🟢		|	🟢		|	names + descriptions of key items	|
+> |	STT_Dorubaord						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_DungeonKingdomSys				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_DungeonMagicNPC					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Emote							|	🔴	|	🟡	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	Performable emotes, see `STT_Gesture`	|
+> |	STT_Equip_Coordinate				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Equip_OddStatus_Name			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_EventMonsterName				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_EventPalceName					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FaciliityDolboardSys			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilityBankNpc					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilityBankSys					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilityBarNpc					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilityBarSys					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilityColoringNpc				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilityColoringSys				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilityConciergeNpc			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilityConciergeSys			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilityDolboardNpc				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilitySalonNpc				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilitySubjugationNpc			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilitySubjugationSys			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilitySynthesisNpc			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FacilitySynthesisSys			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FieldDoraky						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FieldLog						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FieldMapSys						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FieldMoveDragon					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FieldProcess					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Fishing							|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FishingAction					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FishingExchangeNPC				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FishingMasterNPC				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FishingSys						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_FullCureSys						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_GameOption						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_GameOption_Explanation			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Gesture							|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	Same as `STT_Emote`	|
+> |	STT_IraisyoArasuji					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_IraisyoMonsterType				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_IraisyoNPCNameBase				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_IraisyoNPCNameRuby				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ItemExplanation					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ItemList						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ItemName						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_JobChangeNpc					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_JobChangeSys					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_KeyboardSetting					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_KeyboardSettingKeyString		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_LD_SerchFieldObject				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_LoadingArasujiVer1				|	🔴	|	🟡	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	Same as `STT_CareerStoryVer1`, used for initial The Story So Far screen upon loading save	|
+> |	STT_LoadingArasujiVer2				|	🔴	|	🟡	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	Same as `STT_CareerStoryVer2`, used for initial The Story So Far screen upon loading save	|
+> |	STT_LoadingTips						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_MagicExplanation				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	spell descriptions	|
+> |	STT_MagicName						|	🟡	|	🟡	|	🟡	|	🟡	|	🟡	|	🟢	|	🟢	|	🟡	|	🟢		|	🟢		|	spell names, see `STT_BattleMagicItem`	|
+> |	STT_Main_UI							|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_MasteryItems					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_MonsterColor					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_MonsterMercenary				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_MonsterTarotArcana				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_MonsterTarotDeck				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_MonsterTarotMonster				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Monster_Tips1_ver1				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Monster_Tips1_ver2				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Monster_Tips2_Ver2				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Monster_Tips2_ver1				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Monster_Type					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_NpcInfo							|	🟡	|	🟡	|	🟡	|	🟡	|	🟡	|	🟢	|	🟢	|	🟡	|	🟢		|	🟢		|	NPC names	|
+> |	STT_OddStatusExplanation			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_OddStatusName					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_PT_InOut						|	🔴	|	🟡	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	Party Chat - Leaving guest's mission area	|
+> |	STT_PT_Talk							|	🔴	|	🟡	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	Party Chat	|
+> |	STT_PartyMainSys					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Profile_Word					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_QuestList						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_QuestListCategory				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_QuestListDetail					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_QuestListName					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_QuestListSeries					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Quest_AfterBattle				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Quest_ItemGet					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Quest_PerticularReward			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Restricted_GamePlay				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ResurrectionTextList			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SenrekUIiSys					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ShopDouguNpc					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SkillExplanation				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SkillName						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SkillupExplanation				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SkillupName						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SpecialExplanation				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SpecialName						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Support_BrowseSys				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Syougou							|	🔴	|	🟡	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|	Titles earned	|
+> |	STT_SystemDouguNpc					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SystemDragonNpc					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SystemDragonSys					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SystemFishingBook				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SystemFishingFish				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SystemMoveNpc					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SystemQuest						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SystemShipNpc					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SystemShipSys					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SystemShopInn					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SystemTrainNpc					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_SystemTrainSys					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Book_Monster				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Casino					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Charamake				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_CharamakeSys				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Common					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Craftsman				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Equip					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Facility_ChurchNpc		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Facility_ChurchSys		|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_ItabaeAlbum				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Location					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_ProfileWord				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Shop_Dougu				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Shop_Dougu_Sys			|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Shop_Other				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Skill					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_Title					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_UI						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_System_WeaponTypes				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Sytem_UI_Status					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_TestText						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_TinyMedals						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_TinyMedalsWindow				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Tips_Category					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_Tips_Content					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_ToolActionItem					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_UIDouguSys						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_UIJumonSys						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_WarpBraveStoneSys				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_WarpRiremitoSys					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_WarpRura						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	STT_WeaponItem						|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	SYSTEM_LOACALIZATION				|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+> |	WeaponTypeForBugFix					|	🔴	|	🔴	|	🔴	|	🔴	|	🔴	|	🟢	|	🟢	|	🔴	|	🟢		|	🟢		|			|
+
+<!--
+
+---
+- Sort by ( NAME, EXPLANATION, RUBY )
+```cmd
+FOR %F IN (STT_AccessoryItem STT_BattleEquipItem STT_Syougou STT_WeaponItem) DO yq ".%F" "Game.locres.yaml" --yaml-fix-merge-anchor-to-spec -o json > %F___OLD.json && jq "to_entries | sort_by( .key | sub(\"^NAME_(^?^<a^>.*)\"; \"\(.a)__1\") | sub(\"^EXPLANATION_(^?^<a^>.*)\"; \"\(.a)__2\") | sub(\"RUBY_(^?^<a^>.*)\"; \"\(.a)__3\") ) | from_entries" %F___OLD.json > %F__NEW.json && wsl.exe echo -e "$( cat %F__NEW.json | ./yq_linux_amd64 "{.%F: .}" --yaml-fix-merge-anchor-to-spec --prettyPrint -o yaml )" > %F_FINAL.yaml
+```
+- Sort by ( NAME, EXPLANATION )
+```cmd
+FOR %F IN (STT_MonsterColor) DO yq ".%F" "Game.locres.yaml" --yaml-fix-merge-anchor-to-spec -o json > %F___OLD.json && jq "to_entries | sort_by( .key | sub(\"^NAME_(^?^<a^>.*)\"; \"\(.a)__1\") | sub(\"^EXPLANATION_(^?^<a^>.*)\"; \"\(.a)__2\") ) | from_entries" %F___OLD.json > %F__NEW.json && wsl.exe echo -e "$( cat %F__NEW.json | ./yq_linux_amd64 "{.%F: .}" --yaml-fix-merge-anchor-to-spec --prettyPrint -o yaml )" > %F_FINAL.yaml
+```
+---
+
+-->
+
+</details>
+
+<hr>
+
 # `*.json`
 
 <details>
