@@ -62,16 +62,16 @@ jobs:
     runs-on: self-hosted
     strategy:
       matrix:
-        LocResVersion: [2, 3]
+        LocResVersion: [Optimized_CRC32, Optimized_CityHash64_UTF16]
     steps:
       - name: LocRes-Builder Outputs
         run: |
-          echo -e "${{ matrix.LocResVersion }}"
-
-          if [[ ${{ matrix.LocResVersion }} == 2 ]]; then
+          if [[ ${{ matrix.LocResVersion }} == @(Optimized_CRC32) ]]; then
             DESTINATION="Optimized_CRC32";
+            VERSION=2
           else
             DESTINATION="Optimized_CityHash64_UTF16";
+            VERSION=3
           fi
 
           echo -e "::group::\033[0;34m Building LocRes-Builder's Outputs \033[0m"
@@ -79,7 +79,7 @@ jobs:
 
             python3 "${{ github.workspace }}/MATRIX/LocRes-Builder/src/main.py" \
             -i "${{ github.workspace }}/MATRIX/LocRes-Builder/INPUT/locmeta.json" \
-            -v ${{ matrix.LocResVersion }} \
+            -v ${VERSION} \
             -o "${{ github.workspace }}/MATRIX/LocRes-Builder/OUTPUT/${DESTINATION}" -f=json
 
             for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
@@ -87,27 +87,56 @@ jobs:
 
               cp \
               "${{ github.workspace }}/MATRIX/LocRes-Builder/OUTPUT/${DESTINATION}/Game/${LANGUAGE}/Game.locres" \
-              "${{ github.workspace }}/MATRIX/staging/${LANGUAGE}/Game/Content/Localization/Game/${LANGUAGE}/Game.locres"
+              "${{ github.workspace }}/MATRIX/staging/${LANGUAGE}/Game/Content/Localization/Game/${LANGUAGE}/Game.locres.${DESTINATION}"
 
             done
           echo "::endgroup::"
 
+  YAML_to_ETP:
+    needs: [Checkout_Repos, LocRes-Builder-Input, LocRes-Builder-Output]
+    runs-on: self-hosted
+    steps:
+      - name: Split ETP.yaml
+        run: |
+          cd "${{ github.workspace }}/MATRIX/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP"
+          echo -e "Splitting ETP.yaml"
+          yq -s "keys[], . = .[]" \
+          "./ETP.yaml" \
+          --yaml-fix-merge-anchor-to-spec -o json
+          rm "./anchors.json"
+
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          architecture: "x64"
+          # python-version: '3.x'
+          python-version: "3.11"
+          cache: "pip" # caching pip dependencies
+
+      - name: dqx_dat_dump
+        run: |
+          cd "${{ github.workspace }}/MATRIX/dqx_dat_dump"
+          python -m venv venv
+          source ./venv/bin/activate
+          pip install -r requirements.txt
+          cd ./tools/packing/
+
+          for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
+            echo -e "::group::Packing \033[0;32m ETP_${LANGUAGE}\033[0m"
+              python pack_etp--KwK_20250626.py -L ${LANGUAGE}
+            echo "::endgroup::"
+          done
+
+          deactivate
+          cd ~
+
 ########################################################################################################################################################################################################
 #  YAML_to_ETP:
-#    needs: [Checkout_Repos, LocRes-Builder]
+#    needs: [Checkout_Repos, LocRes-Builder-Input, LocRes-Builder-Output]
 #    runs-on: self-hosted
 #    steps:
-#      - name: Install Python
-#        uses: actions/setup-python@v4
-#        with:
-#          architecture: "x64"
-#          # python-version: '3.x'
-#          python-version: "3.11"
-#          cache: "pip" # caching pip dependencies
-#
 #      - name: Split ETP.yaml
 #        run: |
-#          mkdir -p "${{ github.workspace }}/MATRIX/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP"
 #          cd "${{ github.workspace }}/MATRIX/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP"
 #          echo -e "Splitting ETP.yaml"
 #          yq -s "keys[], . = .[]" \
@@ -115,12 +144,46 @@ jobs:
 #          --yaml-fix-merge-anchor-to-spec -o json
 #          rm "./anchors.json"
 #
-#      - name: dqx_dat_dump
+#      - name: Install Python
+#        uses: actions/setup-python@v4
+#        with:
+#          architecture: "x64"
+#          # python-version: '3.x'
+#          python-version: "3.11"
+#
+#      - name: cache virtualenv
+#        uses: actions/cache@v3
+#        id: cache-venv
+#        with:
+#          path: ./.venv/
+#          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
+#          restore-keys: |
+#            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-
+#
+#      - name: dqx_dat_dump ( no cache )
 #        run: |
 #          cd "${{ github.workspace }}/MATRIX/dqx_dat_dump"
 #          python -m venv venv
 #          source ./venv/bin/activate
 #          pip install -r requirements.txt
+#          cd ./tools/packing/
+#
+#          for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
+#            echo -e "::group::Packing \033[0;32m ETP_${LANGUAGE}\033[0m"
+#              python pack_etp--KwK_20250626.py -L ${LANGUAGE}
+#            echo "::endgroup::"
+#          done
+#
+#          deactivate
+#          cd ~
+####################################################################################################
+#        if: steps.cache-venv.outputs.cache-hit != 'true'
+#      - name: dqx_dat_dump ( cache )
+#        run: |
+#          cd "${{ github.workspace }}/MATRIX/dqx_dat_dump"
+#          python -m venv venv
+#          source ./venv/bin/activate
+#          python -m pip install -U -e ./python
 #          cd ./tools/packing/
 #
 #          for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
