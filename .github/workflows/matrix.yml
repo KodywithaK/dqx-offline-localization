@@ -106,14 +106,23 @@ jobs:
           rm "./anchors.json"
 
       - name: Install Python
+        id: setup_python
         uses: actions/setup-python@v4
         with:
           architecture: "x64"
           # python-version: '3.x'
           python-version: "3.11"
-          cache: "pip" # caching pip dependencies
 
-      - name: dqx_dat_dump
+      - name: cache virtualenv
+        uses: actions/cache@v3
+        id: cache-venv
+        with:
+          path: ${{ github.workspace }}/MATRIX/dqx_dat_dump/venv/
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-
+
+      - name: dqx_dat_dump ( no cache )
         run: |
           cd "${{ github.workspace }}/MATRIX/dqx_dat_dump"
           python -m venv venv
@@ -129,6 +138,26 @@ jobs:
 
           deactivate
           cd ~
+          echo test 1
+
+        if: steps.cache-venv.outputs.cache-hit != 'true'
+      - name: dqx_dat_dump ( cache )
+        run: |
+          cd "${{ github.workspace }}/MATRIX/dqx_dat_dump"
+          python -m venv venv
+          source ./venv/bin/activate
+          python -m pip install -U -e ./python
+          cd ./tools/packing/
+
+          for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
+            echo -e "::group::Packing \033[0;32m ETP_${LANGUAGE}\033[0m"
+              python pack_etp--KwK_20250626.py -L ${LANGUAGE}
+            echo "::endgroup::"
+          done
+
+          deactivate
+          cd ~
+          echo test 1
 
 ########################################################################################################################################################################################################
 #  YAML_to_ETP:
@@ -150,40 +179,14 @@ jobs:
 #          architecture: "x64"
 #          # python-version: '3.x'
 #          python-version: "3.11"
+#          cache: "pip" # caching pip dependencies
 #
-#      - name: cache virtualenv
-#        uses: actions/cache@v3
-#        id: cache-venv
-#        with:
-#          path: ./.venv/
-#          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
-#          restore-keys: |
-#            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-
-#
-#      - name: dqx_dat_dump ( no cache )
+#      - name: dqx_dat_dump
 #        run: |
 #          cd "${{ github.workspace }}/MATRIX/dqx_dat_dump"
 #          python -m venv venv
 #          source ./venv/bin/activate
 #          pip install -r requirements.txt
-#          cd ./tools/packing/
-#
-#          for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
-#            echo -e "::group::Packing \033[0;32m ETP_${LANGUAGE}\033[0m"
-#              python pack_etp--KwK_20250626.py -L ${LANGUAGE}
-#            echo "::endgroup::"
-#          done
-#
-#          deactivate
-#          cd ~
-####################################################################################################
-#        if: steps.cache-venv.outputs.cache-hit != 'true'
-#      - name: dqx_dat_dump ( cache )
-#        run: |
-#          cd "${{ github.workspace }}/MATRIX/dqx_dat_dump"
-#          python -m venv venv
-#          source ./venv/bin/activate
-#          python -m pip install -U -e ./python
 #          cd ./tools/packing/
 #
 #          for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
