@@ -192,12 +192,14 @@ jobs:
 
                   echo -e "::group::Creating \033[0;34m ja to ko + zh-Hans + zh-Hant fail-safes \033[0m"
                     mkdir -p \
-                    ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Localization/Game/ja
+                    "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Localization/Game/ja"
 
                     cp \
                     ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Localization/Game/Game.locres.${VERSION} \
                     ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Localization/Game/ja/Game.locres
 
+                    echo -e \
+                    "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Localization/Game/ja"
                   echo "::endgroup::"
 
                   echo -e "::group::Creating \033[0;34m responseFile--pakchunk0-${PLATFORM}_${LOCRES_VERSION_ID}_Dialogue_Latest.pak.txt \033[0m"
@@ -260,6 +262,14 @@ jobs:
                     cp \
                     ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP/* \
                     ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hant
+
+                    echo -e \
+                    "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Localization/Game/ko" \
+                    "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Localization/Game/zh-Hans" \
+                    "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/Localization/Game/zh-Hant" \
+                    "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_ko" \
+                    "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hans" \
+                    "${{ github.workspace }}/BUILD/staging/${LANGUAGE}/Game/Content/NonAssets/ETP_zh_hant"
                   echo "::endgroup::"
 
                   echo -e "::group::Creating \033[0;34m responseFile--pakchunk0-${PLATFORM}_${LOCRES_VERSION_ID}_Dialogue_Latest.pak.txt \033[0m"
@@ -306,13 +316,6 @@ jobs:
             done;
           done;
 
-########################################################################################################################################################################################################
-#                  if [[ ${PLATFORM} == @(ps4|ps4_ZZZ) ]]; then
-#                    # filename priority fix
-#                    PLATFORM="ps4_ZZZ"
-#                  else
-#                    PLATFORM="${PLATFORM}"
-#                  fi
 ########################################################################################################################################################################################################
 #  Create_Latest_Release:
 #    needs: [Checkout_Repos, LocRes-Builder, YAML_to_ETP, UnrealPak_-Create]
