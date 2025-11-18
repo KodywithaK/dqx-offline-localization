@@ -187,7 +187,7 @@ jobs:
                   fi
 
                   LOCRES_VERSION="Optimized_CRC32";
-                  LOCRES_VERSION_ID=2;
+                  LOCRES_VERSION_ID=JAPAN;
 
                   echo -e "::group::Creating \033[0;34m ja to ko + zh-Hans + zh-Hant fail-safes \033[0m"
                     mkdir -p \
@@ -225,7 +225,7 @@ jobs:
                   fi
 
                   LOCRES_VERSION="Optimized_CityHash64_UTF16";
-                  LOCRES_VERSION_ID=3;
+                  LOCRES_VERSION_ID=ASIA;
 
                   echo -e "::group::Creating \033[0;34m ja to ko + zh-Hans + zh-Hant fail-safes \033[0m"
                     mkdir -p \
@@ -287,19 +287,19 @@ jobs:
 
                 fi
 
-                  echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_v${LOCRES_VERSION_ID}_Dialogue_Latest_P.pak \033[0m"
+                  echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_${LOCRES_VERSION_ID}_Dialogue_Latest_P.pak \033[0m"
                     ~/UnrealEngine-4.27.2-release/Engine/Binaries/Linux/UnrealPak \
-                    "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/MATRIX/staging/${LANGUAGE}/pakchunk0-${PLATFORM}_${LANGUAGE}_v${LOCRES_VERSION_ID}_Dialogue_Latest_P.pak" \
+                    "../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/MATRIX/staging/${LANGUAGE}/pakchunk0-${PLATFORM}_${LANGUAGE}_${LOCRES_VERSION_ID}_Dialogue_Latest_P.pak" \
                     -Create="../../../../actions-runner/_work/dqx-offline-localization/dqx-offline-localization/MATRIX/staging/responseFile--pakchunk0-${PLATFORM}_${LOCRES_VERSION_ID}_Dialogue_Latest.pak.txt"
                   echo "::endgroup::"
 
-                  echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_v${LOCRES_VERSION_ID}_Dialogue_Latest_P.pak.zip \033[0m"
+                  echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_${LOCRES_VERSION_ID}_Dialogue_Latest_P.pak.zip \033[0m"
                     zip -uj \
-                    ${{ github.workspace }}/MATRIX/releases/pakchunk0-${PLATFORM}_${LANGUAGE}_v${LOCRES_VERSION_ID}_Dialogue_Latest_P.pak.zip \
-                    ${{ github.workspace }}/MATRIX/staging/${LANGUAGE}/pakchunk0-${PLATFORM}_${LANGUAGE}_v${LOCRES_VERSION_ID}_Dialogue_Latest_P.pak
+                    ${{ github.workspace }}/MATRIX/releases/pakchunk0-${PLATFORM}_${LANGUAGE}_${LOCRES_VERSION_ID}_Dialogue_Latest_P.pak.zip \
+                    ${{ github.workspace }}/MATRIX/staging/${LANGUAGE}/pakchunk0-${PLATFORM}_${LANGUAGE}_${LOCRES_VERSION_ID}_Dialogue_Latest_P.pak
                   echo "::endgroup::"
 
-                  echo -e "::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_v${LOCRES_VERSION_ID}_Dialogue_Latest_P.pak \033[0m\n"
+                  echo -e "::notice::\033[0;32m Successfully created: \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_${LOCRES_VERSION_ID}_Dialogue_Latest_P.pak \033[0m\n"
 
               done;
             done;
