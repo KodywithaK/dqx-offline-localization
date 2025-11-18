@@ -42,7 +42,7 @@ jobs:
           mkdir -p ${{ github.workspace }}/MATRIX/LocRes-Builder/INPUT
 
           cp \
-          "${{ github.workspace }}/MATRIX/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/locmetav2.json" \
+          "${{ github.workspace }}/MATRIX/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/locmetav2.json" \
           "${{ github.workspace }}/MATRIX/LocRes-Builder/INPUT/locmeta.json"
 
           echo -e "Splitting Game.locres.yaml"
