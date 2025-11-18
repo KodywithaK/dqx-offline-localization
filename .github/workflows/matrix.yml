@@ -31,69 +31,71 @@ jobs:
           path: ./MATRIX/LocRes-Builder
           ref: testing
           repository: KodywithaK/LocRes-Builder
-
-  LocRes-Builder-Input:
-    needs: [Checkout_Repos]
-    runs-on: self-hosted
-    steps:
-      - name: LocRes-Builder Inputs
-        run: |
-          # echo -e "::group::\033[0;34m Building LocRes-Builder's Inputs \033[0m"
-          mkdir -p ${{ github.workspace }}/MATRIX/LocRes-Builder/INPUT
-
-          cp \
-          "${{ github.workspace }}/MATRIX/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/locmetav2.json" \
-          "${{ github.workspace }}/MATRIX/LocRes-Builder/INPUT/locmeta.json"
-
-          echo -e "Splitting Game.locres.yaml"
-          for LANGUAGE in de en es fr it ja ko la pt-BR zh-Hans zh-Hant; do \
-            echo -e "Splitting \033[0;32m$LANGUAGE\033[0m"
-            yq "." \
-            "${{ github.workspace }}/MATRIX/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml" \
-            --yaml-fix-merge-anchor-to-spec -o json \
-            | jq --arg LANGUAGE $LANGUAGE \
-            --from-file "${{ github.workspace }}/MATRIX/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json_--from-file.txt" \
-            > "${{ github.workspace }}/MATRIX/LocRes-Builder/INPUT/${LANGUAGE}.json"
-          done
-          # echo "::endgroup::"
-
-  LocRes-Builder-Output:
-    needs: [Checkout_Repos, LocRes-Builder-Input]
-    runs-on: self-hosted
-    strategy:
-      matrix:
-        LocResVersion: [Optimized_CRC32, Optimized_CityHash64_UTF16]
-    steps:
-      - name: LocRes-Builder Outputs
-        run: |
-          if [[ ${{ matrix.LocResVersion }} == @(Optimized_CRC32) ]]; then
-            DESTINATION="Optimized_CRC32";
-            VERSION=2
-          else
-            DESTINATION="Optimized_CityHash64_UTF16";
-            VERSION=3
-          fi
-
-          echo -e "::group::\033[0;34m Building LocRes-Builder's Outputs \033[0m"
-            mkdir -p ${{ github.workspace }}/MATRIX/LocRes-Builder/OUTPUT/${DESTINATION}
-
-            python3 "${{ github.workspace }}/MATRIX/LocRes-Builder/src/main.py" \
-            -i "${{ github.workspace }}/MATRIX/LocRes-Builder/INPUT/locmeta.json" \
-            -v ${VERSION} \
-            -o "${{ github.workspace }}/MATRIX/LocRes-Builder/OUTPUT/${DESTINATION}" -f=json
-
-            for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
-              mkdir -p "${{ github.workspace }}/MATRIX/staging/${LANGUAGE}/Game/Content/Localization/Game/${LANGUAGE}"
-
-              cp \
-              "${{ github.workspace }}/MATRIX/LocRes-Builder/OUTPUT/${DESTINATION}/Game/${LANGUAGE}/Game.locres" \
-              "${{ github.workspace }}/MATRIX/staging/${LANGUAGE}/Game/Content/Localization/Game/${LANGUAGE}/Game.locres.${DESTINATION}"
-
-            done
-          echo "::endgroup::"
-
+########################################################################################################################################################################################################
+#  LocRes-Builder-Input:
+#    needs: [Checkout_Repos]
+#    runs-on: self-hosted
+#    steps:
+#      - name: LocRes-Builder Inputs
+#        run: |
+#          # echo -e "::group::\033[0;34m Building LocRes-Builder's Inputs \033[0m"
+#          mkdir -p ${{ github.workspace }}/MATRIX/LocRes-Builder/INPUT
+#
+#          cp \
+#          "${{ github.workspace }}/MATRIX/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/locmetav2.json" \
+#          "${{ github.workspace }}/MATRIX/LocRes-Builder/INPUT/locmeta.json"
+#
+#          echo -e "Splitting Game.locres.yaml"
+#          for LANGUAGE in de en es fr it ja ko la pt-BR zh-Hans zh-Hant; do \
+#            echo -e "Splitting \033[0;32m$LANGUAGE\033[0m"
+#            yq "." \
+#            "${{ github.workspace }}/MATRIX/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml" \
+#            --yaml-fix-merge-anchor-to-spec -o json \
+#            | jq --arg LANGUAGE $LANGUAGE \
+#            --from-file "${{ github.workspace }}/MATRIX/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json_--from-file.txt" \
+#            > "${{ github.workspace }}/MATRIX/LocRes-Builder/INPUT/${LANGUAGE}.json"
+#          done
+#          # echo "::endgroup::"
+########################################################################################################################################################################################################
+#  LocRes-Builder-Output:
+#    needs: [Checkout_Repos, LocRes-Builder-Input]
+#    runs-on: self-hosted
+#    strategy:
+#      matrix:
+#        LocResVersion: [Optimized_CRC32, Optimized_CityHash64_UTF16]
+#    steps:
+#      - name: LocRes-Builder Outputs
+#        run: |
+#          if [[ ${{ matrix.LocResVersion }} == @(Optimized_CRC32) ]]; then
+#            DESTINATION="Optimized_CRC32";
+#            VERSION=2
+#          else
+#            DESTINATION="Optimized_CityHash64_UTF16";
+#            VERSION=3
+#          fi
+#
+#          echo -e "::group::\033[0;34m Building LocRes-Builder's Outputs \033[0m"
+#            mkdir -p ${{ github.workspace }}/MATRIX/LocRes-Builder/OUTPUT/${DESTINATION}
+#
+#            python3 "${{ github.workspace }}/MATRIX/LocRes-Builder/src/main.py" \
+#            -i "${{ github.workspace }}/MATRIX/LocRes-Builder/INPUT/locmeta.json" \
+#            -v ${VERSION} \
+#            -o "${{ github.workspace }}/MATRIX/LocRes-Builder/OUTPUT/${DESTINATION}" -f=json
+#
+#            for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
+#              mkdir -p "${{ github.workspace }}/MATRIX/staging/${LANGUAGE}/Game/Content/Localization/Game/${LANGUAGE}"
+#
+#              cp \
+#              "${{ github.workspace }}/MATRIX/LocRes-Builder/OUTPUT/${DESTINATION}/Game/${LANGUAGE}/Game.locres" \
+#              "${{ github.workspace }}/MATRIX/staging/${LANGUAGE}/Game/Content/Localization/Game/${LANGUAGE}/Game.locres.${DESTINATION}"
+#
+#            done
+#          echo "::endgroup::"
+#  YAML_to_ETP:
+#    needs: [Checkout_Repos, LocRes-Builder-Input, LocRes-Builder-Output]
+########################################################################################################################################################################################################
   YAML_to_ETP:
-    needs: [Checkout_Repos, LocRes-Builder-Input, LocRes-Builder-Output]
+    needs: [Checkout_Repos]
     runs-on: self-hosted
     steps:
       - name: Setup Python
@@ -108,7 +110,7 @@ jobs:
         uses: actions/cache@v3
         id: setup_cache
         with:
-          path: ./.venv/
+          path: ./MATRIX/dqx_dat_dump/venv/
           key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-
@@ -139,15 +141,13 @@ jobs:
 
           deactivate
           cd ~
-          echo test 2
+          echo test 3
 
       - name: dqx_dat_dump ( cache )
         if: steps.setup_cache.outputs.cache-hit == 'true'
         run: |
           cd "${{ github.workspace }}/MATRIX/dqx_dat_dump"
-          python -m venv venv
           source ./venv/bin/activate
-          python -m pip install -U -e ./python
           cd ./tools/packing/
 
           for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
@@ -158,7 +158,7 @@ jobs:
 
           deactivate
           cd ~
-          echo test 2
+          echo test 3
 
 ########################################################################################################################################################################################################
 #  YAML_to_ETP:
