@@ -2728,3 +2728,72 @@ jq -s
 ```
 ----------------------------------------------------------------------------------------------------
 -->
+
+<details><summary><h1>DRAGON QUEST I & II HD-2D Remake</h1></summary>
+
+> [!TIP]
+> 
+> # `../../../Game/Content/Santiago/Data/DataTable/Text/en/GOP_Text_*.uasset`
+> 
+> - Replace `<ERROR!>` or `<!GOP_Text_Noun!>`
+>   - **When possible**
+>   - `<!GOP_Text_Noun!>`
+>     - GOP_Text_Monster_Name.uasset
+>     - GOP_Text_NPC_Name.uasset
+> 
+> ## `../../../Game/Content/Santiago/Data/DataTable/GOP_Text_Noun_{LANGUAGE}.uasset`
+> 
+> - Reduce to `ListNoun` or `Text`
+> 
+> ### JQ
+> ```cmd
+> cls && FOR %L IN (cn de en es es-419 fr it ko jp jp-hi tw) DO (
+>       IF %L == cn     ( SET LANGUAGE=CHINESE&&ECHO        !LANGUAGE! && jq ".[].Rows as $obj | reduce ( $obj | keys )[] as $k ( {}; .[ $k | sub( \"TEXT_NOUN_!LANGUAGE!\"; \"Txt\" ) ] += { \"%L\": $obj[$k].Text }       )" "GOP_Text_Noun_!LANGUAGE!.json" > "!\GOP_Text_Noun_%L.json" )^
+>  ELSE IF %L == de     ( SET LANGUAGE=GERMAN&&ECHO         !LANGUAGE! && jq ".[].Rows as $obj | reduce ( $obj | keys )[] as $k ( {}; .[ $k | sub( \"TEXT_NOUN_!LANGUAGE!\"; \"Txt\" ) ] += { \"%L\": $obj[$k].ListNoun_N } )" "GOP_Text_Noun_!LANGUAGE!.json" > "!\GOP_Text_Noun_%L.json" )^
+>  ELSE IF %L == en     ( SET LANGUAGE=ENGLISH&&ECHO        !LANGUAGE! && jq ".[].Rows as $obj | reduce ( $obj | keys )[] as $k ( {}; .[ $k | sub( \"TEXT_NOUN_!LANGUAGE!\"; \"Txt\" ) ] += { \"%L\": $obj[$k].ListNoun }   )" "GOP_Text_Noun_!LANGUAGE!.json" > "!\GOP_Text_Noun_%L.json" )^
+>  ELSE IF %L == es     ( SET LANGUAGE=SPANISH&&ECHO        !LANGUAGE! && jq ".[].Rows as $obj | reduce ( $obj | keys )[] as $k ( {}; .[ $k | sub( \"TEXT_NOUN_!LANGUAGE!\"; \"Txt\" ) ] += { \"%L\": $obj[$k].ListNoun_N } )" "GOP_Text_Noun_!LANGUAGE!.json" > "!\GOP_Text_Noun_%L.json" )^
+>  ELSE IF %L == es-419 ( SET LANGUAGE=NEUTRALSPANISH&&ECHO !LANGUAGE! && jq ".[].Rows as $obj | reduce ( $obj | keys )[] as $k ( {}; .[ $k | sub( \"TEXT_NOUN_!LANGUAGE!\"; \"Txt\" ) ] += { \"%L\": $obj[$k].ListNoun_N } )" "GOP_Text_Noun_!LANGUAGE!.json" > "!\GOP_Text_Noun_%L.json" )^
+>  ELSE IF %L == fr     ( SET LANGUAGE=FRENCH&&ECHO         !LANGUAGE! && jq ".[].Rows as $obj | reduce ( $obj | keys )[] as $k ( {}; .[ $k | sub( \"TEXT_NOUN_!LANGUAGE!\"; \"Txt\" ) ] += { \"%L\": $obj[$k].ListNoun_N } )" "GOP_Text_Noun_!LANGUAGE!.json" > "!\GOP_Text_Noun_%L.json" )^
+>  ELSE IF %L == it     ( SET LANGUAGE=ITALIAN&&ECHO        !LANGUAGE! && jq ".[].Rows as $obj | reduce ( $obj | keys )[] as $k ( {}; .[ $k | sub( \"TEXT_NOUN_!LANGUAGE!\"; \"Txt\" ) ] += { \"%L\": $obj[$k].ListNoun_N } )" "GOP_Text_Noun_!LANGUAGE!.json" > "!\GOP_Text_Noun_%L.json" )^
+>  ELSE IF %L == ko     ( SET LANGUAGE=KOREAN&&ECHO         !LANGUAGE! && jq ".[].Rows as $obj | reduce ( $obj | keys )[] as $k ( {}; .[ $k | sub( \"TEXT_NOUN_!LANGUAGE!\"; \"Txt\" ) ] += { \"%L\": $obj[$k].Text }       )" "GOP_Text_Noun_!LANGUAGE!.json" > "!\GOP_Text_Noun_%L.json" )^
+>  ELSE IF %L == jp     ( SET LANGUAGE=JAPANESE&&ECHO       !LANGUAGE! && jq ".[].Rows as $obj | reduce ( $obj | keys )[] as $k ( {}; .[ $k | sub( \"TEXT_NOUN_!LANGUAGE!\"; \"Txt\" ) ] += { \"%L\": $obj[$k].Text }       )" "GOP_Text_Noun_!LANGUAGE!.json" > "!\GOP_Text_Noun_%L.json" )^
+>  ELSE IF %L == jp-hi  ( SET LANGUAGE=JAPANESE_HI&&ECHO    !LANGUAGE! && jq ".[].Rows as $obj | reduce ( $obj | keys )[] as $k ( {}; .[ $k | sub( \"TEXT_NOUN_!LANGUAGE!\"; \"Txt\" ) ] += { \"%L\": $obj[$k].Text }       )" "GOP_Text_Noun_!LANGUAGE!.json" > "!\GOP_Text_Noun_%L.json" )^
+>  ELSE IF %L == tw     ( SET LANGUAGE=TAIWAN&&ECHO         !LANGUAGE! && jq ".[].Rows as $obj | reduce ( $obj | keys )[] as $k ( {}; .[ $k | sub( \"TEXT_NOUN_!LANGUAGE!\"; \"Txt\" ) ] += { \"%L\": $obj[$k].Text }       )" "GOP_Text_Noun_!LANGUAGE!.json" > "!\GOP_Text_Noun_%L.json" )^
+>  ELSE ( ECHO try again )
+> )
+> 
+> ```
+>
+> - Combine all languages
+> 
+> ```cmd
+> (
+>     cls && jq -s "reduce .[] as $obj ( {}; . * $obj )" ^
+>     "GOP_Text_Noun_cn.json" "GOP_Text_Noun_de.json" ^
+>     "GOP_Text_Noun_en.json" ^
+>     "GOP_Text_Noun_es.json" ^
+>     "GOP_Text_Noun_es-419.json" ^
+>     "GOP_Text_Noun_fr.json" ^
+>     "GOP_Text_Noun_it.json" ^
+>     "GOP_Text_Noun_jp.json" ^
+>     "GOP_Text_Noun_jp-hi.json" ^
+>     "GOP_Text_Noun_ko.json" ^
+>     "GOP_Text_Noun_tw.json" ^
+>     > "GOP_Text_Noun_{ALL}.json"
+> )
+> 
+> ```
+>
+> - Overwrite `<ERROR!>`
+> 
+> ```cmd
+> (
+>     cls && FOR %F IN (GOP_Text_Item_Name GOP_Text_Magic_Name) DO jq -s ".[0] = ( .[0][].Rows | to_entries | sort_by(.key) | from_entries ) | .[0] as $obj1 | .[1] as $obj2 | reduce ( $obj1 | keys )[] as $k ( {};     .[$k] += (         if ($obj1[$k].Text == \"^<ERROR!^>\" or \"^<!GOP_Text_Noun!^>\" )         then ( if $obj2[$k] != null then $obj2[$k] else $obj1[$k].Text end )         else .         end     ) ) | { \"%F\": . }" ^
+>     "R:\Temp\Exports\Game\Content\Santiago\Data\DataTable\Text\en\%F.json" ^
+>     "GOP_Text_Noun_{ALL}.json" ^
+>     > "!\%F_{ALL}.json"
+> )
+> 
+> ```
+
+</details>
