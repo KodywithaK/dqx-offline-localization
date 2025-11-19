@@ -317,7 +317,7 @@ jobs:
           done;
 
   Create_Latest_Release:
-    needs: [Checkout_Repos, LocRes-Builder, YAML_to_ETP, UnrealPak_-Create]
+    needs: [Checkout_Repos, LocRes-Builder-Input, LocRes-Builder-Output, YAML_to_ETP, UnrealPak_-Create]
     runs-on: self-hosted
     steps:
       - name: Create Release
