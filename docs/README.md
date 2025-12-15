@@ -24,7 +24,7 @@
 -->
 
 > [!NOTE]
-> [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/KodywithaK/dqx-offline-localization/total?logo=github&label=Downloads)](https://github.com/KodywithaK/dqx-offline-localization/releases) [![GitHub Actions Workflows (Create_Latest_Release.yml status)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml/badge.svg?branch=main)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml)
+> [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/KodywithaK/dqx-offline-localization/total?logo=github&label=Downloads)](https://github.com/KodywithaK/dqx-offline-localization/releases/tag/Latest) [![GitHub Actions Workflows (Create_Latest_Release.yml status)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml/badge.svg?branch=main)](https://github.com/KodywithaK/dqx-offline-localization/actions/workflows/Create_Latest_Release.yml)
 > | Language |                                                                                                                                                                                Milestone Progress |
 > | :------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 > | de       |  [![Deutsche Lokalisierung](https://img.shields.io/github/milestones/progress-percent/KodywithaK/dqx-offline-localization/2)](https://github.com/KodywithaK/dqx-offline-localization/milestone/2) |

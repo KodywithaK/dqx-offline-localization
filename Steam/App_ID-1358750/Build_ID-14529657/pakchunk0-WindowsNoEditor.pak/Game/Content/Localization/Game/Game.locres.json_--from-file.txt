@@ -12,7 +12,7 @@
                     else ( $obj[$ns][$k]["ja"] )
                     end
                 )
-                else ( $k )
+                else ( $k | ascii_downcase )
                 end
             )
         )

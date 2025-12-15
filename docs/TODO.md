@@ -1,94 +1,116 @@
+> [!NOTE]
+>
+> <details><summary><h1>JAPAN - include StringTables</h1></summary>
+>
+> | Namespace                  | comments                                           |
+> | :------------------------- | :------------------------------------------------- |
+> | STT_Boukennosho_DLC_Text   | DLC                                                |
+> | STT_Career_StoryUISys      | The Story So Far, Main Story menus in records      |
+> | STT_CommonItem             | Items, materials, etc.                             |
+> | STT_QuestList              | Quest list menus                                   |
+> | STT_QuestListCategory      | Quest categories (Main/Sub Story, Job Quest, etc.) |
+> | STT_QuestListDetail        | Quest details                                      |
+> | STT_QuestListName          | Quest names                                        |
+> | STT_QuestListSeries        | Quest series names                                 |
+> | STT_Quest_ItemGet          | Quest required items dialog                        |
+> | STT_Quest_PerticularReward | Quest completion rewards                           |
+>
+> </details>
+
 > [!WARNING]
+>
 > <details><summary><h1>.github/workflows/Create_Latest_Release.yml</h1></summary>
 >
 >   <details><summary><h3>`Game.locres.json` > `OUTPUT/StringTables/${LANGUAGE}/**/*.csv`</h3></summary>
 >
->   - JQ/YQ Filter Command aka `yq_filter-2.txt`
->   ```js
->   ####################################################################################################
->   ##### YQ
->   ####################################################################################################
->   #strenv(LANGUAGE) as $LANGUAGE
->   #| [
->   #	to_entries
->   #	| .[] as $obj
->   #	| map($obj.key)[] as $ns ireduce (
->   #		{};
->   #		($obj.value | keys)[] as $k ireduce (
->   #			{"Filename": $ns, "Key": "SourceString"};
->   #			####################################################################################################
->   #			##### If-Then-Else-End not implemented in YQ yet
->   #			##### see https://github.com/mikefarah/yq/issues/2381#issuecomment-2965101058
->   #			#.[$k] += (
->   #			#
->   #			#	if $obj.value[$k][$LANGUAGE] != ""
->   #			#	then $obj.value[$k][$LANGUAGE]
->   #			#	else $obj.value[$k]["ja"]
->   #			#	end	
->   #			#)
->   #			####################################################################################################
->   #		)
->   #	)
->   #	| .
->   #]
->   ####################################################################################################
->   ##### JQ
->   ####################################################################################################
->   [
->   	to_entries
->   	| .[] as $obj
->   	| reduce ( map($obj.key) )[] as $ns (
->   		{};
->   		reduce ($obj.value | keys_unsorted)[] as $k (
->   			{"Filename": $ns, "Key": "SourceString"};
->   			.[$k] += (
->   				if ($obj.value[$k][$LANGUAGE] != "")
->   				then ($obj.value[$k][$LANGUAGE])
->   				else ($obj.value[$k]["ja"])
->   				end
->   			)
->   		)
->   	)
->   	| .
->   ]
->   ####################################################################################################
->   ```
->   - Job `Create StringTable/**/*.csv`
->   <details><summary><h4>Less Sort</h4></summary>
->   
->   ```bash
->   clear && \
->   cd ${github_workspace___TBD} && \
->   for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
->   	export LANGUAGE=${LANGUAGE} && \
->   	mkdir -p "${github_workspace___TBD}/StringTables/${LANGUAGE}/json" && \
->   	cd "${github_workspace___TBD}/StringTables/${LANGUAGE}/json" && \
->   	jq --arg LANGUAGE ${LANGUAGE} \
->   	-r \
->   	--from-file "${github_workspace___TBD}/yq_filter-2.txt" \
->   	"${github_workspace___TBD}/Game.locres.json" \
->   	| yq -r '.[]' \
->   	-s '.Filename, del(.Filename)' -o=json -I2
->   	cd "${github_workspace___TBD}/StringTables/" && \
->   	for FILE in $(ls "${github_workspace___TBD}/StringTables/${LANGUAGE}/json/"); do \
->   		#echo -e "$FILE"
->   		jq -r '(. | keys_unsorted)[] as $k | [$k,(.[$k] | gsub("(\r)?\n";"\\n") )] | @csv' \
->   		"${github_workspace___TBD}/StringTables/${LANGUAGE}/json/${FILE}" \
->   		> "${github_workspace___TBD}/StringTables/${LANGUAGE}/${FILE%.*}.csv"
->   		if [[ ${FILE%.*} == @(lpWindowName) ]]; then
->   			mkdir -p "${github_workspace___TBD}/StringTables/${LANGUAGE}/test_folder_001" && \
->   			mv "${github_workspace___TBD}/StringTables/${LANGUAGE}/${FILE%.*}.csv" \
->   			"${github_workspace___TBD}/StringTables/${LANGUAGE}/test_folder_001/${FILE%.*}.csv";
->   		elif [[ ${FILE%.*} == @(Test_NameSpace) ]]; then
->   			mkdir -p "${github_workspace___TBD}/StringTables/${LANGUAGE}/test_folder_002" && \
->   			mv "${github_workspace___TBD}/StringTables/${LANGUAGE}/${FILE%.*}.csv" \
->   			"${github_workspace___TBD}/StringTables/${LANGUAGE}/test_folder_002/${FILE%.*}.csv";
->   		fi
->   	done;
->   	rm -r "${github_workspace___TBD}/StringTables/${LANGUAGE}/json/"
->   done;
->   ```
->   
+> - JQ/YQ Filter Command aka `yq_filter-2.txt`
+>
+> ```js
+> ####################################################################################################
+> ##### YQ
+> ####################################################################################################
+> #strenv(LANGUAGE) as $LANGUAGE
+> #| [
+> #	to_entries
+> #	| .[] as $obj
+> #	| map($obj.key)[] as $ns ireduce (
+> #		{};
+> #		($obj.value | keys)[] as $k ireduce (
+> #			{"Filename": $ns, "Key": "SourceString"};
+> #			####################################################################################################
+> #			##### If-Then-Else-End not implemented in YQ yet
+> #			##### see https://github.com/mikefarah/yq/issues/2381#issuecomment-2965101058
+> #			#.[$k] += (
+> #			#
+> #			#	if $obj.value[$k][$LANGUAGE] != ""
+> #			#	then $obj.value[$k][$LANGUAGE]
+> #			#	else $obj.value[$k]["ja"]
+> #			#	end
+> #			#)
+> #			####################################################################################################
+> #		)
+> #	)
+> #	| .
+> #]
+> ####################################################################################################
+> ##### JQ
+> ####################################################################################################
+> [
+> 	to_entries
+> 	| .[] as $obj
+> 	| reduce ( map($obj.key) )[] as $ns (
+> 		{};
+> 		reduce ($obj.value | keys_unsorted)[] as $k (
+> 			{"Filename": $ns, "Key": "SourceString"};
+> 			.[$k] += (
+> 				if ($obj.value[$k][$LANGUAGE] != "")
+> 				then ($obj.value[$k][$LANGUAGE])
+> 				else ($obj.value[$k]["ja"])
+> 				end
+> 			)
+> 		)
+> 	)
+> 	| .
+> ]
+> ####################################################################################################
+> ```
+>
+> - Job `Create StringTable/**/*.csv`
+> <details><summary><h4>Less Sort</h4></summary>
+>
+> ```bash
+> clear && \
+> cd ${github_workspace___TBD} && \
+> for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do \
+> 	export LANGUAGE=${LANGUAGE} && \
+> 	mkdir -p "${github_workspace___TBD}/StringTables/${LANGUAGE}/json" && \
+> 	cd "${github_workspace___TBD}/StringTables/${LANGUAGE}/json" && \
+> 	jq --arg LANGUAGE ${LANGUAGE} \
+> 	-r \
+> 	--from-file "${github_workspace___TBD}/yq_filter-2.txt" \
+> 	"${github_workspace___TBD}/Game.locres.json" \
+> 	| yq -r '.[]' \
+> 	-s '.Filename, del(.Filename)' -o=json -I2
+> 	cd "${github_workspace___TBD}/StringTables/" && \
+> 	for FILE in $(ls "${github_workspace___TBD}/StringTables/${LANGUAGE}/json/"); do \
+> 		#echo -e "$FILE"
+> 		jq -r '(. | keys_unsorted)[] as $k | [$k,(.[$k] | gsub("(\r)?\n";"\\n") )] | @csv' \
+> 		"${github_workspace___TBD}/StringTables/${LANGUAGE}/json/${FILE}" \
+> 		> "${github_workspace___TBD}/StringTables/${LANGUAGE}/${FILE%.*}.csv"
+> 		if [[ ${FILE%.*} == @(lpWindowName) ]]; then
+> 			mkdir -p "${github_workspace___TBD}/StringTables/${LANGUAGE}/test_folder_001" && \
+> 			mv "${github_workspace___TBD}/StringTables/${LANGUAGE}/${FILE%.*}.csv" \
+> 			"${github_workspace___TBD}/StringTables/${LANGUAGE}/test_folder_001/${FILE%.*}.csv";
+> 		elif [[ ${FILE%.*} == @(Test_NameSpace) ]]; then
+> 			mkdir -p "${github_workspace___TBD}/StringTables/${LANGUAGE}/test_folder_002" && \
+> 			mv "${github_workspace___TBD}/StringTables/${LANGUAGE}/${FILE%.*}.csv" \
+> 			"${github_workspace___TBD}/StringTables/${LANGUAGE}/test_folder_002/${FILE%.*}.csv";
+> 		fi
+> 	done;
+> 	rm -r "${github_workspace___TBD}/StringTables/${LANGUAGE}/json/"
+> done;
+> ```
+>
 >   </details>
 >   
 >   <details><summary><h4>More Sort</h4></summary>
@@ -342,112 +364,112 @@
 >
 >   <details><summary><h3>PS4 `.pkg`</h3></summary>
 >
->   - Before `Creating responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt`
->   ```bash
->   if [[ ${PLATFORM} == @(ps4|ps4_ZZZ) ]]; then
->     # filename patch priority fix
->     # Without renaming, your `ETP*/*.etp` will \*NOT\* show up in game with the current nexusmod's ps4 patch
->     PLATFORM="ps4_ZZZ"
->   else
->     PLATFORM="${PLATFORM}"
->   fi
->   ```
+> - Before `Creating responseFile--pakchunk0-${PLATFORM}_Latest.pak.txt`
 >
->   - Job `Build PS4.pkg`, output to `releases` directory with everything else being uploaded
->   ```bash
->   if [[ ${PLATFORM} == @(ps4|ps4_ZZZ) ]]; then
->     echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak.pkg \033[0m"
->       echo -e \
->       "\
->       pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak \
->       >>> ___TBD___ PS4 Patch Builder v1.3.3 \
->       "
->       echo -e \
->       "\
->       pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak \
->       >>> ___TBD___ OpenOrbis/PS4-Toolchain/.../pkgTool.Core \
->       pkg_build \
->       INPUT/Project_${LANGUAGE}.gp4 \
->       OUTPUT/${LANGUAGE}/ \
->       "
->     echo "::endgroup::"
->   fi
->   ```
+> ```bash
+> if [[ ${PLATFORM} == @(ps4|ps4_ZZZ) ]]; then
+>   # filename patch priority fix
+>   # Without renaming, your `ETP*/*.etp` will \*NOT\* show up in game with the current nexusmod's ps4 patch
+>   PLATFORM="ps4_ZZZ"
+> else
+>   PLATFORM="${PLATFORM}"
+> fi
+> ```
+>
+> - Job `Build PS4.pkg`, output to `releases` directory with everything else being uploaded
+>
+> ```bash
+> if [[ ${PLATFORM} == @(ps4|ps4_ZZZ) ]]; then
+>   echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak.pkg \033[0m"
+>     echo -e \
+>     "\
+>     pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak \
+>     >>> ___TBD___ PS4 Patch Builder v1.3.3 \
+>     "
+>     echo -e \
+>     "\
+>     pakchunk0-${PLATFORM}_${LANGUAGE}_Dialogue_Latest_P.pak \
+>     >>> ___TBD___ OpenOrbis/PS4-Toolchain/.../pkgTool.Core \
+>     pkg_build \
+>     INPUT/Project_${LANGUAGE}.gp4 \
+>     OUTPUT/${LANGUAGE}/ \
+>     "
+>   echo "::endgroup::"
+> fi
+> ```
 >
 >   </details>
-> 
+>
 > </details>
 
 # 20250513_1640:
-  ## `Game.locres.json:STT_IraisyoArasuji.EVTXT_SYS_QUESTA_IRAISYO_ARASUJI_11_BASE`
-  - [x] test {NumCats}|plural(one=cat,other=cats) / `{MonsterNum}|plural(one={MonsterName},other={MonsterName}s)` usability
-    - No intended text replacement occurred.
+
+## `Game.locres.json:STT_IraisyoArasuji.EVTXT_SYS_QUESTA_IRAISYO_ARASUJI_11_BASE`
+
+- [x] test {NumCats}|plural(one=cat,other=cats) / `{MonsterNum}|plural(one={MonsterName},other={MonsterName}s)` usability
+  - No intended text replacement occurred.
+
 # 20250514_1540:
-  ## `Game.locres.json:STT_IraisyoArasuji.EVTXT_SYS_QUESTA_IRAISYO_ARASUJI_11_BASE`
-  - https://unreal-garden.com/tutorials/localization-advanced-plurals/
-  - https://cldr.unicode.org/index/cldr-spec/plural-rules
-    - https://www.unicode.org/cldr/charts/47/supplemental/language_plural_rules.html
-  - [x] test {NumCats}|plural(one=cat,other=cats) / `{MonsterNum}|{MonsterNum}(one={MonsterName},other={MonsterName}s)` usability
+
+## `Game.locres.json:STT_IraisyoArasuji.EVTXT_SYS_QUESTA_IRAISYO_ARASUJI_11_BASE`
+
+- https://unreal-garden.com/tutorials/localization-advanced-plurals/
+- https://cldr.unicode.org/index/cldr-spec/plural-rules
+  - https://www.unicode.org/cldr/charts/47/supplemental/language_plural_rules.html
+- [x] test {NumCats}|plural(one=cat,other=cats) / `{MonsterNum}|{MonsterNum}(one={MonsterName},other={MonsterName}s)` usability
+
 # 20250515_0015:
-  - REGEX
-    - CLDR plurals (Dragon Quest 5 `.\data\MENULIST\b1000000.mpt`)
-      - find `"?(@[0-9])(.*?)(?=@)|@"`
-      - replace `\n\t\t\t\t"$1": "$2",`
-    - Latin extended
-      - find `(?<="value": ")([A-Œ])([A-Œ]+)(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?`
-        - `œ` breaks the regex?
-      - replace `\U$1\L$2$4\U$6\L$7$9\U$11\L$12$14\U$16\L$17$19\U$21\L$22`
+
+- REGEX - CLDR plurals (Dragon Quest 5 `.\data\MENULIST\b1000000.mpt`) - find `"?(@[0-9])(.*?)(?=@)|@"` - replace `\n\t\t\t\t"$1": "$2",` - Latin extended - find `(?<="value": ")([A-Œ])([A-Œ]+)(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?` - `œ` breaks the regex? - replace `\U$1\L$2$4\U$6\L$7$9\U$11\L$12$14\U$16\L$17$19\U$21\L$22`
 <!--
-- 20250620: new font 
-  - fontworks' 筑紫明朝 TsukuMin
-    - https://lets.fontworks.co.jp/fonts/13
-      - FTT-筑紫明朝 H
-        - horizontal scale: 90%
-    - https://lets.fontworks.co.jp/services/apps-games
-      - フォントワークス LETS license 
-        - ¥49,500／1ライセンス／年
-      - アプリ・ゲーム組込
-        - ¥11,000／1ライセンス
--->
+- 20250620: new font
+  - fontworks' 筑紫明朝 TsukuMin - https://lets.fontworks.co.jp/fonts/13 - FTT-筑紫明朝 H - horizontal scale: 90% - https://lets.fontworks.co.jp/services/apps-games - フォントワークス LETS license - ¥49,500／1 ライセンス／年 - アプリ・ゲーム組込 - ¥11,000／1 ライセンス
+    -->
+
 # 20250630_1800:
-  - ETP.yaml
-    - find `  ja: \|-\n    (<center>)?『風の民　エルフ』\n    \1?自然を愛し　森と共に生きる\n    \1?背に小さな羽を持った　かれんな姿の者たち。\n    \1?<br>\n    \1?伝統と格式を重んじる彼らは\n    \1?世界の理を　深く学び\n    \1?多くの優れた呪文の使い手を　世に送りだした。\n`
-      - (08/12) has all languages
-      - anchor `&Common_5Tribes_{RACE}` and alias `*Common_5Tribes_{RACE}`
-        - `<center>"People of {THING}, {RACE}"`
-    - find `[\w\d\s,']{60,}(?!\\n(<br>\\n)?)`
-      - newline & `<br>` anything that is too long
-    - find `  ja: |-\n    <pc>は\n    岩に　刻まれている文字を　読んだ。`
-      - anchor `&Common_examine_engraving` and alias `*Common_examine_engraving`
-    - find `この世界で　平和に　暮らしていた`
-      - anchor `&Common_examine_engraving_Reidametes` and alias `*Common_examine_engraving_Reidametes`
+
+- ETP.yaml
+  - find `  ja: \|-\n    (<center>)?『風の民　エルフ』\n    \1?自然を愛し　森と共に生きる\n    \1?背に小さな羽を持った　かれんな姿の者たち。\n    \1?<br>\n    \1?伝統と格式を重んじる彼らは\n    \1?世界の理を　深く学び\n    \1?多くの優れた呪文の使い手を　世に送りだした。\n`
+    - (08/12) has all languages
+    - anchor `&Common_5Tribes_{RACE}` and alias `*Common_5Tribes_{RACE}`
+      - `<center>"People of {THING}, {RACE}"`
+  - find `[\w\d\s,']{60,}(?!\\n(<br>\\n)?)`
+    - newline & `<br>` anything that is too long
+  - find `  ja: |-\n    <pc>は\n    岩に　刻まれている文字を　読んだ。`
+    - anchor `&Common_examine_engraving` and alias `*Common_examine_engraving`
+  - find `この世界で　平和に　暮らしていた`
+    - anchor `&Common_examine_engraving_Reidametes` and alias `*Common_examine_engraving_Reidametes`
 
 ---
 
-# pakchunk0-{PLATFORM}_{LANGUAGE}_Dialogue_Latest_P
+# pakchunk0-{PLATFORM}\_{LANGUAGE}\_Dialogue_Latest_P
 
-  ## pakchunk0-{PLATFORM}.(pak|ucas|utoc)
-  - `{PLATFORM}/**/L10N` (Localization)
-    - UI graphics for blacksmithing, casino, fishing, lottery, etc.
+## pakchunk0-{PLATFORM}.(pak|ucas|utoc)
 
-  ## pakchunk0-Android_ETC2.(pak|ucas|utoc)
-  - modify `(localmanifest|cachedbuildmanifest).txt` to load patch?
+- `{PLATFORM}/**/L10N` (Localization)
+  - UI graphics for blacksmithing, casino, fishing, lottery, etc.
 
-  ## pakchunk0-ios.(pak|ucas|utoc)
-  - modify `(localmanifest|cachedbuildmanifest).txt` to load patch?
+## pakchunk0-Android_ETC2.(pak|ucas|utoc)
 
-  ## pakchunk0-ps4.(pak|ucas|utoc)
-  - Jailbreak
-    - [@ MODDED WARFARE | PS4 Jailbreak Advice for firmware up to 12.50](https://www.youtube.com/watch?v=vxhXmPcFJ-4&ab_channel=MODDEDWARFARE)
-    - [@ MODDED WARFARE | Run your PS4 disc games without the disc on 12.02 or lower](https://www.youtube.com/watch?v=uVJnamKxGsA&ab_channel=MODDEDWARFARE)
-    - [@ MODDED WARFARE | PS4 Patch Builder Release/Tutorial](https://www.youtube.com/watch?v=C1EmHMgSfdM&ab_channel=MODDEDWARFARE)
-  - Create workflow for auto creating patch: `pakchunk0-ps4_{LANGUAGE}_Dialogue_Latest_P.pkg`
-    - @ pearlxcore/PS4-PKG-Tool?
-    - @ hippie68/ps4-pkg-manager?
-    - @ OpenOrbis/LibOrbisPkg
-      - [OpenOrbis PS4 Toolchain Part 1 - Overview + Installation](https://youtu.be/pqzsva6OjuE?feature=shared&t=885)
-      - [OpenOrbis PS4 Toolchain Part 2 - Creating a Project + Project Structure Overview](https://youtu.be/zboWUuL-IbE?feature=shared&t=395)
-      - [OpenOrbis PS4 Toolchain Part 5 - Building and Testing on the PS4](https://www.youtube.com/watch?v=SEfkgUQrzLo&ab_channel=SpecterDev)
+- modify `(localmanifest|cachedbuildmanifest).txt` to load patch?
+
+## pakchunk0-ios.(pak|ucas|utoc)
+
+- modify `(localmanifest|cachedbuildmanifest).txt` to load patch?
+
+## pakchunk0-ps4.(pak|ucas|utoc)
+
+- Jailbreak
+  - [@ MODDED WARFARE | PS4 Jailbreak Advice for firmware up to 12.50](https://www.youtube.com/watch?v=vxhXmPcFJ-4&ab_channel=MODDEDWARFARE)
+  - [@ MODDED WARFARE | Run your PS4 disc games without the disc on 12.02 or lower](https://www.youtube.com/watch?v=uVJnamKxGsA&ab_channel=MODDEDWARFARE)
+  - [@ MODDED WARFARE | PS4 Patch Builder Release/Tutorial](https://www.youtube.com/watch?v=C1EmHMgSfdM&ab_channel=MODDEDWARFARE)
+- Create workflow for auto creating patch: `pakchunk0-ps4_{LANGUAGE}_Dialogue_Latest_P.pkg`
+  - @ pearlxcore/PS4-PKG-Tool?
+  - @ hippie68/ps4-pkg-manager?
+  - @ OpenOrbis/LibOrbisPkg
+    - [OpenOrbis PS4 Toolchain Part 1 - Overview + Installation](https://youtu.be/pqzsva6OjuE?feature=shared&t=885)
+    - [OpenOrbis PS4 Toolchain Part 2 - Creating a Project + Project Structure Overview](https://youtu.be/zboWUuL-IbE?feature=shared&t=395)
+    - [OpenOrbis PS4 Toolchain Part 5 - Building and Testing on the PS4](https://www.youtube.com/watch?v=SEfkgUQrzLo&ab_channel=SpecterDev)
 
 <!--
 # Dump Games
@@ -500,8 +522,8 @@
 >  00. Download from Homebrew Store
 >  01. Go to game > `Dump All`
 >      - Game will run, then dump base app, DLC(s), and update(s)
-> 
-> 
+>
+>
 > </details>
 
 # Build Patches
@@ -620,73 +642,90 @@
   ## ps5?
   - tbd
   -->
-  ## pakchunk0-Switch.(pak|ucas|utoc)
-  - `Game.locmeta` main language: dummy?
-    - Changes priority level so that `{LANGUAGE}/Game.locres` is prefered over `StringTables`
-      - Will make packaging & deploying for og version WAY easier
-  - `Game.locres` v2 packager
 
-  ## pakchunk0-WindowsNoEditor.(pak|ucas|utoc)
-  - TBD
+## pakchunk0-Switch.(pak|ucas|utoc)
+
+- `Game.locmeta` main language: dummy?
+  - Changes priority level so that `{LANGUAGE}/Game.locres` is prefered over `StringTables`
+    - Will make packaging & deploying for og version WAY easier
+- `Game.locres` v2 packager
+
+## pakchunk0-WindowsNoEditor.(pak|ucas|utoc)
+
+- TBD
 
 ---
 
 # LANGUAGE
- ## de
-   #### Modal particles
-   - e.g., "Listen`—this time—`to me", "Listen to me `this time`!"
-     - "Hör `mal` zu!"
- ## es
-   #### Double object pronouns
-   - me, te, (la/lo/le|se), nos, vos, (las/los/les|se)
-   - Only after infinitive/gerund verb forms
-   - Double object pronouns always get diacritics on the first inflected vowel, whereas with singles it depends on the word
-     - e.g, "Juan is going to buy a ring for her" > "Juan is going to buy her a ring" > "Juan is going to buy her it"
-       - "Juan va a comprar un anillo a ella" > "Juan va a comprarla un anillo" > "Juan va a compr`á`rselo"
-     - e.g., "They are explaining the rules to you" > "They are explaining you the rules" > "They are explaining you them"
-       -  "Ellos están explicando las reglas a ti" > "Ellos están explic`á`ndote las reglas" > "Ellos están explic`á`ndotelas"
-     - "You can't `Le` `lo`" aka Le la/lo/las/los > `Se` la/lo/las/los
-       - e.g., "Antonio loaned his phone to him/her/you (formal)" > "(Antonio )loaned him/her/you (formal) his phone" > "(Antonio )loaned him/her/you (formal) it"
-         - "Antonio prestó su teléfono a ello/ella/usted" > "`Le` prestó su teléfono" > "`Se` `lo` prestó"
- ## it
-   #### Double / contracted pronouns
-   - Stressed (Tonic) Pronouns
-     - me, te, lui/lei, noi, voi, loro
-   - Unstressed (Atonic) Pronouns
-     | LANGUAGE |1st, singular|2nd, singular|3rd, singular|1st, plural|2nd, plural|3rd, plural|
-     | :-- |:--|:--|:--|:--|:--|:--|
-     | en |1st, singular|2nd, singular|3rd, singular|1st, plural|2nd, plural|3rd, plural|
-     | it |1st, singular|2nd, singular|3rd, singular|1st, plural|2nd, plural|3rd, plural|
-     - mi, ti, lo/la, ci, vi, li/le
-   #### Clitic Pronouns
-   - Proclitic
-     - Negative + Stressed (Tonic) Pronouns (indirect object) + Unstressed (Atonic) Pronouns (direct object) + full verb
-       - `Non te la prendere`
-   - Enclitic
-     - Negative + verb (apocopic) + Stressed (Tonic) Pronouns (indirect object) + Unstressed (Atonic) Pronouns (direct object)
-       - "Don't (you) take offense (with him)"
-       - Non prender~~e~~ + te + la (offesa) (con lui).
-       - `Non prendersela`
- ## pt-BR
-   #### Clitic Pronouns
-   - Proclitic
-     - pt-BR, spoken/written for everything
-       - e.g., "I `(will/am going to)` give you"
-         - "Eu vou te dar." > "Vou te dar."
-   - Mesoclitic
-     - pt-EU, \*rare\* formal, written for simple future indicative or conditional statements
-       - e.g., "I `am going to give` you (this)" / `If I give` you (this)"
-         - "Eu te darei."		> "Te`¹` darei."	> "Dar`-te-`ei."
-           - `¹` Grammar conflict
-       - for \*noble\* characters: Raguas, Gartlant paladins, etc.
-     - [yomitan | Improve word lookup](https://github.com/yomidevs/yomitan/pull/2066/files)
-     - [yomitan/**/ext/data/recommended-settings.json](https://github.com/thrzl/yomitan/blob/0a85785984baa1528eda52308f1f1d4c295dc384/ext/data/recommended-settings.json)
-       - find: `(-?(([mst][aeo])|(lh?[aeo]s?)|([nv]os?))-){1,2}`
-         - see [Priberam Dictionario](https://dicionario.priberam.org/dar-no-lo-ia)
-   - Enclitic
-     - pt-EU, spoken/written for everything
-       - e.g., "I `(will/am going to)` give you"
-         - "Eu vou te dar" > "Vou dar-te"
+
+## de
+
+#### Modal particles
+
+- e.g., "Listen`—this time—`to me", "Listen to me `this time`!"
+  - "Hör `mal` zu!"
+
+## es
+
+#### Double object pronouns
+
+- me, te, (la/lo/le|se), nos, vos, (las/los/les|se)
+- Only after infinitive/gerund verb forms
+- Double object pronouns always get diacritics on the first inflected vowel, whereas with singles it depends on the word
+  - e.g, "Juan is going to buy a ring for her" > "Juan is going to buy her a ring" > "Juan is going to buy her it"
+    - "Juan va a comprar un anillo a ella" > "Juan va a comprarla un anillo" > "Juan va a compr`á`rselo"
+  - e.g., "They are explaining the rules to you" > "They are explaining you the rules" > "They are explaining you them"
+    - "Ellos están explicando las reglas a ti" > "Ellos están explic`á`ndote las reglas" > "Ellos están explic`á`ndotelas"
+  - "You can't `Le` `lo`" aka Le la/lo/las/los > `Se` la/lo/las/los
+    - e.g., "Antonio loaned his phone to him/her/you (formal)" > "(Antonio )loaned him/her/you (formal) his phone" > "(Antonio )loaned him/her/you (formal) it"
+      - "Antonio prestó su teléfono a ello/ella/usted" > "`Le` prestó su teléfono" > "`Se` `lo` prestó"
+
+## it
+
+#### Double / contracted pronouns
+
+- Stressed (Tonic) Pronouns
+  - me, te, lui/lei, noi, voi, loro
+- Unstressed (Atonic) Pronouns
+  | LANGUAGE | 1st, singular | 2nd, singular | 3rd, singular | 1st, plural | 2nd, plural | 3rd, plural |
+  | :------- | :------------ | :------------ | :------------ | :---------- | :---------- | :---------- |
+  | en | 1st, singular | 2nd, singular | 3rd, singular | 1st, plural | 2nd, plural | 3rd, plural |
+  | it | 1st, singular | 2nd, singular | 3rd, singular | 1st, plural | 2nd, plural | 3rd, plural |
+  - mi, ti, lo/la, ci, vi, li/le
+
+#### Clitic Pronouns
+
+- Proclitic
+  - Negative + Stressed (Tonic) Pronouns (indirect object) + Unstressed (Atonic) Pronouns (direct object) + full verb
+    - `Non te la prendere`
+- Enclitic
+  - Negative + verb (apocopic) + Stressed (Tonic) Pronouns (indirect object) + Unstressed (Atonic) Pronouns (direct object)
+    - "Don't (you) take offense (with him)"
+    - Non prender~~e~~ + te + la (offesa) (con lui).
+    - `Non prendersela`
+
+## pt-BR
+
+#### Clitic Pronouns
+
+- Proclitic
+  - pt-BR, spoken/written for everything
+    - e.g., "I `(will/am going to)` give you"
+      - "Eu vou te dar." > "Vou te dar."
+- Mesoclitic
+  - pt-EU, \*rare\* formal, written for simple future indicative or conditional statements
+    - e.g., "I `am going to give` you (this)" / `If I give` you (this)"
+      - "Eu te darei." > "Te`¹` darei." > "Dar`-te-`ei."
+        - `¹` Grammar conflict
+    - for \*noble\* characters: Raguas, Gartlant paladins, etc.
+  - [yomitan | Improve word lookup](https://github.com/yomidevs/yomitan/pull/2066/files)
+  - [yomitan/\*\*/ext/data/recommended-settings.json](https://github.com/thrzl/yomitan/blob/0a85785984baa1528eda52308f1f1d4c295dc384/ext/data/recommended-settings.json)
+    - find: `(-?(([mst][aeo])|(lh?[aeo]s?)|([nv]os?))-){1,2}`
+      - see [Priberam Dictionario](https://dicionario.priberam.org/dar-no-lo-ia)
+- Enclitic
+  - pt-EU, spoken/written for everything
+    - e.g., "I `(will/am going to)` give you"
+      - "Eu vou te dar" > "Vou dar-te"
 
 ---
 
@@ -695,8 +734,9 @@
 <details>
 
 > ## Game/Content/Localization/Game/Game.locres.yaml
-> 
+>
 > - Add `.SYSTEM_LOACALIZATION.SYSTEM_LOCALIZATION_{LANGUAGE}`
+>
 > ```diff
 >   SYSTEM_LOACALIZATION_004:
 >     $comments: "🟢, ko"
@@ -795,10 +835,11 @@
 >     zh-Hans: 切换语言
 >     zh-Hant: 切換語言
 > ```
-> 
+>
 > ## Game/Content/StringTables/Game/Localization/SYSTEM_LOACALIZATION.uasset
-> 
+>
 > - Add new language strings
+>
 > ```diff
 >   "SYSTEM_LOACALIZATION_004": "韓国語",
 > + "KWK_SYSTEM_LOCALIZATION_de","ドイツ語",
@@ -809,9 +850,9 @@
 > + "KWK_SYSTEM_LOCALIZATION_pt-BR","ブラジルポルトガル語",
 >   "SYSTEM_LOACALIZATION_005": "言語の切替を行います",
 > ```
-> 
+>
 > ## Game/Content/Blueprints/WidgetBP/SystemTitle/Boukennosho/WB_SelectLanguage.uasset
-> 
+>
 > - `MainMenuText`, Line 16641
 >   - Add new language objects
 >   ```diff
@@ -921,7 +962,7 @@
 
 - https://docs.ue4ss.com/dev/feature-overview/dumpers.html#usmap-dumper
 
-# "/**/DRAGON QUEST X OFFLINE/Game/Binaries/Win64/UHTHeaderDump/Holiday/
+# "/\*\*/DRAGON QUEST X OFFLINE/Game/Binaries/Win64/UHTHeaderDump/Holiday/
 
 ## Public/
 
@@ -937,13 +978,11 @@
   +// static FString ConvertHalfToFullWidth(const FString& inString);
   !or
   +static FString ConvertFullToHalfWidth(const FString& ConvertHalfToFullWidth(const FString& inString));
-  ``` 
+  ```
 
 ## Content/Blueprints/WidgetBP/MessageWindow/WB_LineMessage
 
 - https://modding.wiki/en/hogwartslegacy/developers/hlblueprint102
-
-
 
 ## Content/Blueprints/WidgetBP/MessageWindow/WB_MessageWindow
 
@@ -968,11 +1007,14 @@
 - https://www.nexusmods.com/stellarblade/articles/22
 
 # UHTHeaderDump\Holiday\
+
 - Contains source C++ Classes for JsonAsAsset imports
 - DOES `#include { DQX dependency }` = `{ DQX Project }\Source\Holiday\`
 - DOES NOT `#include { UE4 dependency }` = `{ UE_4.27 Directory }\Engine\Source\Runtime\`
+
   - Note: `-ModuleName` & `-ObjectName` / `-FallbackName` match UE_4.27's `{ UE4Editor Directory }\Engine\Source\Runtime\**\Engine\**\{ DataTable.h }:FTableRowBase`
-  - So searching `{ UE_4.27 Directory }\Engine\Source\` ( or [Unreal Engine's Docs](https://dev.epicgames.com/community/search?query=FTableRowBase) ) for the missing dependencies (  `FTableRowBase` ) will show results for likely files
+  - So searching `{ UE_4.27 Directory }\Engine\Source\` ( or [Unreal Engine's Docs](https://dev.epicgames.com/community/search?query=FTableRowBase) ) for the missing dependencies ( `FTableRowBase` ) will show results for likely files
+
   ```diff
   #pragma once
   #include "CoreMinimal.h"
@@ -988,19 +1030,19 @@
   public:
       UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
       FString Word;
-      
+
       UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
       FString Ruby;
-      
+
       UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
       int32 WordLength;
-      
+
       UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
       int32 RubyLength;
-      
+
       UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
       bool IsRubyTag;
-      
+
       HOLIDAY_API FHOLITextRubyData_TableRow();
   };
   ```
@@ -1034,35 +1076,35 @@
 
 <details>
 
-> - Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/StringTables/destinations.txt
+> - Steam/\*\*/pakchunk0-WindowsNoEditor.pak/Game/Content/StringTables/destinations.txt
 >
 > ## Move completed `.csv` to their respective folders
-> 
-> - ***\*Note the trailing newline\****
-> 
+>
+> - **\*\*Note the trailing newline\*\***
+>
 > - `destinations.txt`
-> 
+>
 >   ```sh
 >   ./STT_Title_Boukennosho.csv    ./Holiday/Content/StringTables/Game/System/System_Title/
 >   ./{ SOURCE }.csv    ./Holiday/Content/StringTables/Game/{ DESTINATION }/
->   
+>
 >   ```
-> 
+>
 > - `organize.sh`
-> 
+>
 >   ```sh
 >   #!/bin/bash
->   
+>
 >   # Set IFS to define delimiters
 >   IFS='    '
->   
+>
 >   # read each line of destinations.txt
 >   while read -r source destination; do
 >       mkdir -p $destination
 >       # echo "$source $destination"
 >       mv $source $destination
 >   done < "destinations.txt"
->   
+>
 >   ```
 
 </details>
@@ -1070,123 +1112,125 @@
 # UE4Editor
 
 > [!TIP]
-> 
+>
 > Game.locres.yaml > {NAMESPACE}.csv > StringTable ( import from CSV )
-> 
+>
 > <details>
-> 
+>
 > ```cmd
 > cls && FOR /F "usebackq tokens=1,2,3delims= " %E IN (`echo {NAMESPACE aka %E} {LANGUAGE aka %F} {FALLBACK_LANGUAGE aka %G}`) DO yq ".%E" Game.locres.yaml -o=json | jq -r ". as $obj | reduce ($obj | keys_unsorted)[] as $k ( {\"Key\":\"SourceString\"}; .[$k] += if($obj[$k].%F != \"\") then($obj[$k].%F) else($obj[$k].%G) end      ) | ((. | keys_unsorted)[] as $k | [$k,(.[$k] | gsub(\"(\r)?\n\";\"\\n\"))]) | @csv" > "C:\Path\To\%E.csv"
 > cls && FOR /F "usebackq tokens=1,2,3delims= " %E IN (`echo STT_System_Title es ja`) DO yq ".%E" Game.locres.yaml -o=json | jq -r ". as $obj | reduce ($obj | keys_unsorted)[] as $k ( {\"Key\":\"SourceString\"}; .[$k] += if($obj[$k].%F != \"\") then($obj[$k].%F) else($obj[$k].%G) end      ) | ((. | keys_unsorted)[] as $k | [$k,(.[$k] | gsub(\"(\r)?\n\";\"\\n\"))]) | @csv" > "C:\Path\To\%E.csv"
 > ```
-> 
+>
 > </details>
 
 > [!TIP]
 > Game.locres.yaml > {NAMESPACE}.json > StringTable ( JsonAsAsset )
-> 
+>
 > <details><summary>Version 1</summary>
-> 
+>
 > ```cmd
 > cls && FOR /F "usebackq tokens=1,2,3delims= " %E IN (`echo {NAMESPACE aka %E} {LANGUAGE aka %F} {FALLBACK_LANGUAGE aka %G}`) DO yq ".%E" Game.locres.yaml -o=json | jq -r ". as $obj | reduce ($obj | keys_unsorted)[] as $k ( [{}]; .[].StringTable.KeysToEntries.[$k] += if($obj[$k].%F != \"\") then($obj[$k].%F) else($obj[$k].%G) end      )" > "R:\Exports\Game\Content\StringTables\Game\%E.json.new"
 > cls && FOR /F "usebackq tokens=1,2,3delims= " %E IN (`echo STT_System_Title es ja`) DO yq ".%E" Game.locres.yaml -o=json | jq -r ". as $obj | reduce ($obj | keys_unsorted)[] as $k ( [{}]; .[].StringTable.KeysToEntries.[$k] += if($obj[$k].%F != \"\") then($obj[$k].%F) else($obj[$k].%G) end      )" > "R:\Exports\Game\Content\StringTables\Game\%E.json.new"
 > ```
-> 
+>
 > - Overwrite {NAMESPACE}.old with {NAMESPACE}.new > {NAMESPACE}.json
+>
 > ```cmd
 > cls && FOR %F IN ({NAMESPACE aka %F}) DO jq -s ".[0][].StringTable.KeysToEntries = .[1][].StringTable.KeysToEntries | .[0]" "%F.json.old" "%F.json.new" > "%F.json"
 > cls && FOR %F IN (STT_Career_StoryUISys) DO jq -s ".[0][].StringTable.KeysToEntries = .[1][].StringTable.KeysToEntries | .[0]" "%F.json.old" "%F.json.new" > "%F.json"
 > ```
-> 
+>
 > </details>
-> 
+>
 > <details><summary>Version 2</summary>
-> 
+>
 > ```cmd
 > cls && FOR /F "usebackq tokens=1,2,3delims= " %E IN (`echo STT_System_Title es ja`) DO yq ".%E" ..\Game.locres.yaml -o=json | jq -r ". as $obj | reduce ($obj | keys_unsorted)[] as $k ( [{\"Type\": \"StringTable\", \"Name\": \"%E\", \"Class\": \"UScriptClass^'StringTable^'\", \"Flags\": \"RF_Public ^| RF_Standalone ^| RF_Transactional ^| RF_WasLoaded ^| RF_LoadCompleted\", \"StringTable\":{\"TableNamespace\":\"%E\",\"KeysToMetaData\": {}}}]; .[].StringTable.KeysToEntries.[$k] += if($obj[$k].%F != \"\") then($obj[$k].%F) else($obj[$k].%G) end      )" > "R:\FModel\Exports\Game\Content\StringTables\Game\%E.json"
 > ```
-> 
+>
 > - [ ] JQ `--from-file`, unescape & conditionals for StringTables with different namespace than its filename
 >   - `if ( --arg == "STT_Title_Boukennosho", etc. ) then ( "TableNamespace": "STT_System_Title", etc. ) else ( . ) end`
-> 
+>
 > </details>
 
 > [!IMPORTANT]
-> 
+>
 > ## .locres
-> 
+>
 > ### Optimized_CRC32
-> 
+>
 > - https://github.com/SwimmingTiger/UnrealLocres/blob/master/LocresLib/Crc.cs
 > - https://github.com/EpicGames/UnrealEngine/blob/6978b63c8951e57d97048d8424a0bebd637dde1d/Engine/Source/Runtime/Core/Private/Misc/Crc.cpp#L208
 > - https://web.mit.edu/freebsd/head/sys/libkern/crc32.c
-> 
+>
 > #### KodywithaK\LocResBuilder v0.1.3
-> 
+>
 > - [x] Optimized_CRC32 compatibility
 > - [ ] `--output_verion` argument for `LocResVersion` ( aka 2: `Optimized_CRC32` or 3: `Optimized_CityHash64_UTF16` )
+>
 >   - `locmeta.json ( Optimized_CRC32 )` > `../../../Game/Content/Localization/Game/*`
->   
+>
 >     ```cmd
 >     main.py "R:\Temp\INPUT\Optimized_CRC32\locmeta.json" --format json --out_dir "R:\Temp\OUTPUT\Optimized_CRC32"
 >     ```
->   
+>
 >   - `locmeta.json ( Optimized_CityHash64_UTF16 )` > `../../../Game/Content/Localization/Game/*`
->   
+>
 >     ```cmd
 >     main.py "R:\Temp\INPUT\Optimized_CityHash64_UTF16\locmeta.json" --format json --out_dir "R:\Temp\OUTPUT\Optimized_CityHash64_UTF16"
 >     ```
-> 
+>
 > #### UnrealPak
-> 
+>
 > - `responseFile.txt`
-> 
+>
 >   ```txt
 >   "R:\Temp\OUTPUT\Optimized_CRC32\Game\Game.locmeta" "../../../Game/Content/Localization/Game/Game.locmeta"
 >   "R:\Temp\OUTPUT\Optimized_CRC32\Game\en\Game.locres" "../../../Game/Content/Localization/Game/ja/Game.locres"
 >   ```
-> 
+>
 > - `UnrealPak`
-> 
+>
 >   ```txt
 >   "Desktop\UE_4.27\Engine\Binaries\Win64\UnrealPak.exe" "R:\Temp\OUTPUT\Optimized_CRC32\pakchunk0-WindowsNoEditor_en_Optimized_CRC32_P.pak" -Create="R:\Temp\OUTPUT\Optimized_CRC32\responseFile.txt"
 >   ```
 >
 > #### `"../../../Holiday/Content/Localization/Game/Game.locmeta"`
+>
 > - `"bIsUGC": false`
 >   - https://www.unrealengine.com/en-US/blog/new-example-project-and-plugin-for-mod-support-released
 >   - https://docs.mod.io/unreal/component-ui/enable-disable
 >     - Disables UI mods? So switch to `true`
->
 
 > [!TIP]
-> 
+>
 > ## UE4SS
-> 
+>
 > <details>
-> 
+>
 > ### Prerequisites
-> 
+>
 > - pakchunk0-WindowsNoEditor_LocResBuilder_v2_P.pak
 > - [UE4SS - Download](https://github.com/UE4SS-RE/RE-UE4SS/releases/tag/experimental-latest)
 > - [UE4SS - Docs](https://docs.ue4ss.com/dev/installation-guide.html)
-> 
+>
 > ### Installation
-> 
+>
 > - Copy the contents of `zDEV-UE4SS_v*.zip` to:
 >   - `PathTo\Steam\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Binaries\Win64\ue4ss\`
 >   - `PathTo\Steam\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Binaries\Win64\dwmapi.dll`
 >     - or
 >   - `PathTo\SteamLibrary\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Binaries\Win64\ue4ss\`
 >   - `PathTo\SteamLibrary\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Binaries\Win64\dwmapi.dll`
-> 
+>
 > ### Usage
-> 
+>
 > - Start the game, and `ue4ss` will automatically boot up
-> 
+>
 > #### UE4SS Debugging Tools (OpenGL 3) - ExternalThread
-> 
-> - `~` enables console commands to be input, such as: 
+>
+> - `~` enables console commands to be input, such as:
 >   - `culture={LANGUAGE}`:
 >     - English `culture=en`
 >     - Japanese `culture=ja`
@@ -1197,14 +1241,16 @@
 >     - Some dialogue & cutscene graphics will remain the same as originally launched language
 >       - Game launched in `Korean`, `~` > `culture=ja`
 >         - Title screen still shows korean logo, but all other fonts / text are japanese
-> - ***PERSISTS EVEN AFTER REMOVING `ue4ss\` & `dwmapi.dll`***
+> - **_PERSISTS EVEN AFTER REMOVING `ue4ss\` & `dwmapi.dll`_**
 >   - [ ] Compare save files for changed cultures
 >   - [ ] `../../../Game/Config/DefaultGame.ini:InternationalizationPreset=EFIGSCJK` to `All`, ( `pt-BR` doesn't load currently with `EFIGSCJK` )
-> 
+>
 > <details><summary>Optimized_CRC32 TESTING</summary>
-> 
+>
 > - responseFile.txt
+>
 >   - `la` is used for debugging ( shows names of keys )
+>
 >   ```txt
 >   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/Game.locmeta" "../../../Game/Content/Localization/Game/Game.locmeta"
 >   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/de/Game.locres" "../../../Game/Content/Localization/Game/de/Game.locres"
@@ -1219,29 +1265,31 @@
 >   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/zh-Hans/Game.locres" "../../../Game/Content/Localization/Game/zh-Hans/Game.locres"
 >   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/zh-Hant/Game.locres" "../../../Game/Content/Localization/Game/zh-Hant/Game.locres"
 >   ```
-> 
+>
 > - `Game/Content/L10N/${LANGUAGE}/NonAssets/ETP`
+>
 >   - `"Path\To\ETP\*" "../../../Game/Content/L10N/en/NonAssets/ETP_en/"`
 >   - No affect, just loaded from `ETP`, as per usual
-> 
+>
 > - `BP_GameOption_C /Engine/Transient.GameEngine_2147482612:BP_HOLIGameInstance_C_2147482605.BP_GameOption_C_2147482513`
 >   - `/Script/Holiday.HOLIGameOptionData:IsUseRuby`
 >     - Modify function to always return `true` for non-ascii letter spacing fix
 > - `Function /Game/Blueprints/System/GameOption/BP_GameOption.BP_GameOption_C:SetRubyMode`
-> 
+>
 > </details>
-> 
+>
 > </details>
 
 > [!IMPORTANT]
-> 
-> ## jq --arg LANGUAGE ${LANGUAGE} --from-file "Game.locres.json_--from-file.txt"
-> 
+>
+> ## jq --arg LANGUAGE ${LANGUAGE} --from-file "Game.locres.json\_--from-file.txt"
+>
 > <details>
-> 
+>
 > - Easier than current `LocRes-Builder Inputs` step
-> 
+>
 > - `Game.locres.json_--from-file.txt`
+>
 >   ```js
 >   . as $obj
 >   | reduce ( $obj | keys_unsorted )[] as $ns (
@@ -1263,13 +1311,13 @@
 >           )
 >       )
 >   )
->   
+>
 >   ```
-> 
+>
 >   ```cmd
 >   FOR %L IN (de en es fr it ja ko la pt-BR zh-Hans zh-Hant) DO ( yq "." "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml" -o json -I2 | jq --arg LANGUAGE %L --from-file "Game.locres.json_--from-file.txt" > R:\LocRes-Builder\INPUT\%L.json )
 >   ```
-> 
+>
 >   ```bash
 >   for LANGUAGE in de en es fr it ja ko la pt-BR zh-Hans zh-Hant; do \
 >     yq "." \
@@ -1280,6 +1328,5 @@
 >     > "${{ github.workspace }}/BUILD/LocRes-Builder/INPUT/${LANGUAGE}.json"
 >   done
 >   ```
-> 
-> 
+>
 > </details>
