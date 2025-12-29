@@ -1,20 +1,178 @@
 > [!NOTE]
 >
+> # 2025.12.20
+> 
+> <details><summary><h1>`--prettyPrint`</h1></summary>
+> 
+> - `--prettyPrint` , temp fix for emojis breaking yq's output file
+> 
+> ```cmd
+> cls && yq "(.. | select(tag == \"!!str\")) |= ( sub(\"🔴\", \"__RED__\") | sub(\"🟡\", \"__YELLOW__\") | sub(\"🟢\", \"__GREEN__\") )" "Game.locres.yaml" -o json --prettyPrint --yaml-fix-merge-anchor-to-spec > "R:\Game.locres.prettyPrint.yaml"
+> cls && yq "(.. | select(tag == \"!!str\")) |= ( sub(\"🔴\", \"__RED__\") | sub(\"🟡\", \"__YELLOW__\") | sub(\"🟢\", \"__GREEN__\") )" "ETP.yaml" -o json --prettyPrint --yaml-fix-merge-anchor-to-spec > "R:\ETP.prettyPrint.yaml"
+> ```
+> 
+> ```regex
+> :: FIND
+> __RED__
+> :: REPLACE
+> 🔴
+> ```
+> 
+> ```regex
+> :: FIND
+> __YELLOW__
+> :: REPLACE
+> 🟡
+> ```
+> 
+> ```regex
+> :: FIND
+> __GREEN__
+> :: REPLACE
+> 🟢
+> ```
+> 
+> ```regex
+> :: FIND
+> (?<=\$comments: )'(.*)'$
+> :: REPLACE
+> "$1"
+> ```
+> 
+> </details>
+
+> [!NOTE]
+>
+> # 2025.12.16
+> 
+> eventTextCsZ11s02:
+> - re-add ko zh-Han
+
+> [!NOTE]
+>
+> # 2025.12.15
+>
+> - `Switch`
+>   - `FontFace'/Game/UI/Font/Garrick-Bold_RUBYx2.Garrick-Bold_RUBYx2'`
+>   - `Loading Policy` = `Lazy Load`
+>     - Font is saved to `pakchunk0-Switch__UE4Editor_P.pak`, for preservation purposes
+>
+> - `WindowsNoEditor`
+>   - `FontFace'/Game/UI/Font/Garrick-Bold_RUBYx2.Garrick-Bold_RUBYx2'`
+>   - `Loading Policy` = `Inline`
+>     - OR ELSE FONTS ARE NOT LOADED IN-GAME
+>
 > <details><summary><h1>JAPAN - include StringTables</h1></summary>
 >
-> | Namespace                  | comments                                           |
-> | :------------------------- | :------------------------------------------------- |
-> | STT_Boukennosho_DLC_Text   | DLC                                                |
-> | STT_Career_StoryUISys      | The Story So Far, Main Story menus in records      |
-> | STT_CommonItem             | Items, materials, etc.                             |
-> | STT_QuestList              | Quest list menus                                   |
-> | STT_QuestListCategory      | Quest categories (Main/Sub Story, Job Quest, etc.) |
-> | STT_QuestListDetail        | Quest details                                      |
-> | STT_QuestListName          | Quest names                                        |
-> | STT_QuestListSeries        | Quest series names                                 |
-> | STT_Quest_ItemGet          | Quest required items dialog                        |
-> | STT_Quest_PerticularReward | Quest completion rewards                           |
+> | Namespace                  | Reference Path                                                                                                       | comments                                                 |
+> | :------------------------- | :------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------- |
+> | STT_ActionMsg_Log1         | StringTable'/Game/StringTables/Game/Battle/ActionMsg/log/STT_ActionMsg_Log1.STT_ActionMsg_Log1'                      | - [x] Battle - {*ActionMsg.Simple.Used}! - ACTIVE        |
+> | STT_ActionMsg_Log3         | StringTable'/Game/StringTables/Game/Battle/ActionMsg/log/STT_ActionMsg_Log3.STT_ActionMsg_Log3'                      | - [x] Battle - ACTIVE                                    |
+> | STT_ActionMsg_Simple1      | StringTable'/Game/StringTables/Game/Battle/ActionMsg/Simple/STT_ActionMsg_Simple1.STT_ActionMsg_Simple1'             | - [x] Battle - {*ActionMsg.Simple.Used}! - LOG           |
+> | STT_ActionMsg_Simple3      | StringTable'/Game/StringTables/Game/Battle/ActionMsg/Simple/STT_ActionMsg_Simple3.STT_ActionMsg_Simple3'             | - [x] Battle - LOG                                       |
+> | STT_BattleSysMsg           | StringTable'/Game/StringTables/Game/Battle/STT_BattleSysMsg.STT_BattleSysMsg'                                        | - [x] Battle - Monster(s) {ACTION}! - ACTIVE             |
+> | STT_BattleSysMsg_LOG       | StringTable'/Game/StringTables/Game/Battle/STT_BattleSysMsg_LOG.STT_BattleSysMsg_LOG'                                | - [x] Battle - Monster(s) {ACTION}! - LOG                |
+> | STT_Boukennosho_DLC_Text   | StringTable'/Game/StringTables/Game/System/System_Title/STT_Boukennosho_DLC_Text.STT_Boukennosho_DLC_Text'           | - [x] DLC                                                |
+> | STT_Career_StoryUISys      | StringTable'/Game/StringTables/Game/System/System_UI/STT_Career_StoryUISys.STT_Career_StoryUISys'                    | - [x] The Story So Far's Main Story menus in records     |
+> | STT_CareerStoryVer1        | StringTable'/Game/StringTables/Game/System/System_CareerStory/STT_CareerStoryVer1.STT_CareerStoryVer1'               | - [x] The Story So Far's contents, Ver. 1                |
+> | STT_CareerStoryVer2        | StringTable'/Game/StringTables/Game/System/System_CareerStory/STT_CareerStoryVer2.STT_CareerStoryVer2'               | - [x] The Story So Far's contents, Ver. 2                |
+> | STT_CommonItem             | StringTable'/Game/StringTables/Game/Battle/STT_CommonItem.STT_CommonItem'                                            | - [x] Items, materials, etc.                             |
+> | STT_EventPalceName         | StringTable'/Game/StringTables/Game/System/System_CareerStory/STT_EventPalceName.STT_EventPalceName'                 | - [x] The Story So Far's titles                          |
+> | STT_Monster_Tips1_ver1     | StringTable'/Game/StringTables/Game/System/System_UI/MonsterTips/STT_Monster_Tips1_ver1.STT_Monster_Tips1_ver1'      | - [x] Monster trivia (1/2), Ver. 1                       |
+> | STT_Monster_Tips1_ver2     | StringTable'/Game/StringTables/Game/System/System_UI/MonsterTips/STT_Monster_Tips1_ver2.STT_Monster_Tips1_ver2'      | - [x] Monster trivia (1/2), Ver. 2                       |
+> | STT_Monster_Tips2_ver1     | StringTable'/Game/StringTables/Game/System/System_UI/MonsterTips/STT_Monster_Tips2_ver1.STT_Monster_Tips2_ver1'      | - [x] Monster trivia (2/2), Ver. 1                       |
+> | STT_Monster_Tips2_Ver2     | StringTable'/Game/StringTables/Game/System/System_UI/MonsterTips/STT_Monster_Tips2_Ver2.STT_Monster_Tips2_Ver2'      | - [x] Monster trivia (2/2), Ver. 2                       |
+> | STT_Quest_ItemGet          | StringTable'/Game/StringTables/Game/System/System_QuestList/STT_Quest_ItemGet.STT_Quest_ItemGet'                     | - [x] Quest-related items dialog                         |
+> | STT_QuestListDetail        | StringTable'/Game/StringTables/Game/System/System_QuestList/STT_QuestListDetail.STT_QuestListDetail                  | - [x] Quest details                                      |
+> | STT_QuestListName          | StringTable'/Game/StringTables/Game/System/System_QuestList/STT_QuestListName.STT_QuestListName                      | - [x] Quest names                                        |
+> | STT_QuestListSeries        | StringTable'/Game/StringTables/Game/System/System_QuestList/STT_QuestListSeries.STT_QuestListSeries                  | - [x] Quest series names                                 |
+> | STT_SkillName              | StringTable'/Game/StringTables/Game/System_Skill/STT_SkillName.STT_SkillName'                                        | - [x] Battle - {SPELL} - ACTIVE                          |
+> | STT_System_Charamake       | StringTable'/Game/StringTables/Game/System/System_Charamake/STT_System_Charamake.STT_System_Charamake'               | - [x] Character Customization, rebirth job descriptions  |
+> | STT_System_Common          | StringTable'/Game/StringTables/Game/System/System_Common/STT_System_Common.STT_System_Common'                        | - [x] In-game menu UI                                    |
+> |                            |                                                                                                                      |                                                          |
+> | STT_Battle_Levelup         | StringTable'/Game/StringTables/Game/System/System_Battle/STT_Battle_Levelup.STT_Battle_Levelup'                      | - [ ] Battle - Leveled Up!                               |
+> | STT_BattleSkillItem        | StringTable'/Game/StringTables/Game/Battle/STT_BattleSkillItem.STT_BattleSkillItem'                                  | - [ ] Battle - {SPELL} - ACTIVE                          |
+> | STT_Quest_PerticularReward |                                                                                                                      | - [ ] Quest completion rewards                           |
+> | STT_QuestListCategory      |                                                                                                                      | - [ ] Quest categories (Main/Sub Story, Job Quest, etc.) |
+> | STT_System_CharamakeSys    | StringTable'/Game/StringTables/Game/System/System_Charamake/STT_System_CharamakeSys.STT_System_CharamakeSys'         | - [ ] Character Customization, rebirth job descriptions? |
+> |                            |                                                                                                                      | - [ ]                                                    |
 >
+> ## Game.locres.yaml > StringTables.csv ( JAPAN, UI not fixed by `Game.locres` )
+>
+> ### `StringTables_csv.jq`
+>
+> ```js
+> .[$FILENAME] as $obj
+> | reduce ( $obj | keys_unsorted )[] as $k (
+>     { "Key":"SourceString" };
+>     .[$k] += (
+>         if ( $obj[$k].[$LANGUAGE] != "" )
+>         then ( $obj[$k].[$LANGUAGE] )
+>         else ( $obj[$k].["ja"] )
+>         end
+>     )
+> )
+> | to_entries[] | [.key, .value]
+> | @csv
+> ```
+>
+> ### `Game.locres.yaml_to_StringTables.csv.bat`
+>
+> ```bat
+> @ECHO OFF
+> 
+> FOR %%L IN (de es en fr it pt-BR) DO (
+> 	IF NOT EXIST "%~dp0jq\%%L\" (
+> 		mkdir "%~dp0jq\%%L\"
+> 	)
+> 	FOR %%F IN (STT_Boukennosho_DLC_Text STT_Career_StoryUISys STT_CareerStoryVer1 STT_CareerStoryVer2 STT_CommonItem STT_EventPalceName STT_Monster_Tips1_ver1 STT_Monster_Tips2_ver1 STT_Monster_Tips1_ver2 STT_Monster_Tips2_Ver2 STT_Quest_ItemGet STT_QuestListDetail STT_QuestListName STT_QuestListSeries STT_System_Charamake STT_System_Common) DO (
+> 		ECHO:
+> 		ECHO creating " %~dp0jq\%%L\%%F.csv "
+> 		ECHO:
+> 		yq eval ^
+> 		"D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\Steam\App_ID-1358750\Build_ID-14529657\pakchunk0-WindowsNoEditor.pak\Game\Content\Localization\Game\Game.locres.yaml" ^
+> 		-o json ^
+> 		--yaml-fix-merge-anchor-to-spec ^
+> 		| jq ^
+> 		--arg FILENAME "%%F" ^
+> 		--arg LANGUAGE "%%L" ^
+> 		--from-file StringTables_csv.jq ^
+> 		--raw-output ^
+> 		> "%~dp0jq\%%L\%%F.csv"
+> 		type "%~dp0jq\%%L\%%F.csv"
+> 		ECHO:
+> 		ECHO ----------------------------------------------------------------------------------------------------
+> 		ECHO:
+> 	)
+> )
+> 
+> PAUSE
+> ```
+> 
+> ### ( MAYBE ) !ETP! > !newETP!, but for `/i18n/{LANGUAGE}/StringTables/` > `responseFile.txt`
+> 
+> - StringTables are not supported by `L10N`, but are by `i18n`
+> 
+> - `../../../{DESTINATION}/Content/i18n/{LANGUAGE}/StringTables/Game/**/{StringTable}.uasset`
+> - `../../../{DESTINATION}/Content/StringTables/Game/**/{StringTable}.uasset`
+> ```bat
+> SETLOCAL EnableDelayedExpansion
+> 
+> FOR /F "usebackq delims=" %%A IN (`dir "{PROJECT_DIR}\Holiday\Content\StringTables\Game\" /a-d /b /o:n /s`) DO (
+>   SET StringTable=%%A
+>   SET newStringTable=!StringTable:i18n\%%L\=!
+>   SET newerStringTable=!newStringTable:\=/!
+> )
+> 
+> ENDLOCAL
+> 
+> PAUSE
+> ```
+> 
+```cmd
+ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.uasset" "../../../{DESTINATION}/Content/StringTables/Game/**/{StringTable}.uasset" > responseFile.txt
+```
+> 
 > </details>
 
 > [!WARNING]
@@ -446,7 +604,7 @@
 
 ## pakchunk0-{PLATFORM}.(pak|ucas|utoc)
 
-- `{PLATFORM}/**/L10N` (Localization)
+- `{PLATFORM}/**/i18n` (Localization)
   - UI graphics for blacksmithing, casino, fishing, lottery, etc.
 
 ## pakchunk0-Android_ETC2.(pak|ucas|utoc)
@@ -1266,9 +1424,9 @@
 >   "${{ github.workspace }}/DEBUG/LocRes-Builder/OUTPUT/Optimized_CRC32/Game/zh-Hant/Game.locres" "../../../Game/Content/Localization/Game/zh-Hant/Game.locres"
 >   ```
 >
-> - `Game/Content/L10N/${LANGUAGE}/NonAssets/ETP`
+> - `Game/Content/i18n/${LANGUAGE}/NonAssets/ETP`
 >
->   - `"Path\To\ETP\*" "../../../Game/Content/L10N/en/NonAssets/ETP_en/"`
+>   - `"Path\To\ETP\*" "../../../Game/Content/i18n/en/NonAssets/ETP_en/"`
 >   - No affect, just loaded from `ETP`, as per usual
 >
 > - `BP_GameOption_C /Engine/Transient.GameEngine_2147482612:BP_HOLIGameInstance_C_2147482605.BP_GameOption_C_2147482513`

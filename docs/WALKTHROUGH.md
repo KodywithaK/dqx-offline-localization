@@ -14,9 +14,7 @@
 > 
 > - TBD
 > 
-> ### Tsuskul<br>{ Elf }
-> 
-> <details>
+> <details><summary><h3>Tsuskul { Elf }</h3></summary>
 > 
 > - #### 01
 > 
@@ -24,7 +22,7 @@
 > 
 > - #### 02
 > 
->   - In Tsuskul Field's Shrine of Wisdom, speak with Master Toyohoro to begin the Trial of Wisdom
+>   - In Tsuskul Plains' Shrine of Wisdom (2F), speak with Master Toyohoro to begin the Trial of Wisdom
 > 
 > - #### 03
 > 
@@ -54,15 +52,55 @@
 > 
 >   - In Tsuskul Village's Priestess Palace, report back to Priestess Himea
 > 
+> ---
+> 
 > </details>
 > 
 > ### Rangao<br>{ Ogre }
 > 
 > - TBD
 > 
-> ### Pukulet<br>{ Pukulipo }
+> <details><summary><h3>Pukulett { Pukulipo }</h3></summary>
 > 
-> - TBD
+> - #### 01
+>
+>   - In Pukulett Village, go to Pirippo's house.
+>
+> - #### 02
+>
+>   - In Pukulett Village, go to the Village Chief's house.
+>
+> - #### 03
+>
+>   - In the Popola Region, go to the Sage's Retreat.
+>
+> - #### 04
+>
+>   - In Pukulett Village, return to Pirippo's house.
+>
+> - #### 05
+>
+>   - In the Defiled Valley, go to the Giant Snake's Nest.
+>
+> - #### 06
+>
+>   - In Pukulett Village, return to Pirippo's house.
+>
+> - #### 07
+>
+>   - In the Popola Region, return to the Sage's Retreat.
+>
+> - #### 08
+>
+>   - In Pukulett Village, return to Pirippo's house, then the Chief's.
+>
+> - #### 09
+>
+>   - Exit Pukulett Village.
+>
+> ---
+> 
+> </details>
 > 
 > ### Leen<br>{ Weddie }
 > 

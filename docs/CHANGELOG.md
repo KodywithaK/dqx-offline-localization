@@ -40,7 +40,7 @@
 > |          |                    Agrani<br><br>{Dwarf}                    | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00014 |
 > |          |                    Tsuskul<br><br>{Elf}                     | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00002 |
 > |          |                    Rangao<br><br>{Ogre}                     | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00008 |
-> |          |                  Pukulet<br><br>{Pukulipo}                  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00011 |
+> |          |                 Pukulett<br><br>{Pukulipo}                  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00011 |
 > |          |                    Leen<br><br>{Weddie}                     | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00005 |
 > |  Vers 1  |                                                             |                                                                                |                        |
 > |          |             Gatara<br><br>{Key Emblem - Yellow}             | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00015 |
@@ -76,7 +76,7 @@
 > 
 > |        Quest            |                                                                    Progression |  Comment(s)  |
 > | :---------------------: | -----------------------------------------------------------------------------: | :----------: |
-> | 001<br><br>Super Useful | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🔴 |              |
+> | 001<br><br>Super Useful | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🔴 |   KQ_001_1   |
 > | 002<br><br>Super Useful | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🔴 |              |
 > | 003<br><br>Super Useful | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🔴 |              |
 > |  004<br><br>Sub Story   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
@@ -375,7 +375,7 @@
 >   ```
 >   - A dump of your game in `.pkg` format
 >   - mike9k1's latest PS4 build on [nexusmods](https://www.nexusmods.com/dragonquestxoffline/mods/2?tab=files)
->   - `pakchunk0-WindowsNoEditor_{LANGUAGE}_{ASIA|JAPAN}_Dialogue_Latest_P.pak`
+>   - `pakchunk0-WindowsNoEditor_{ASIA|JAPAN}_{LANGUAGE}_Dialogue_Latest_P.pak`
 >   - And either:
 >     - OpenOrbis-PS4-Toolchain's [toolchain-llvm-18.2.zip](https://github.com/OpenOrbis/OpenOrbis-PS4-Toolchain/releases)
 >       - commandline
@@ -384,27 +384,29 @@
 >
 > ### Steam
 >
-> - Copy `pakchunk0-WindowsNoEditor_{LANGUAGE}_{ASIA|JAPAN}_Dialogue_Latest_P.pak` into Steam's `\steamapps\common\` folder. (e.g.):
+> - Copy `pakchunk0-WindowsNoEditor_{ASIA|JAPAN}_{LANGUAGE}_Dialogue_Latest_P.pak` into Steam's `\steamapps\common\` folder. (e.g.):
 > 
 >   - Free Demo
 > 
 >     - ```cmd
->       "C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_{LANGUAGE}_{ASIA|JAPAN}_Dialogue_Latest_P.pak"
+>       "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_{ASIA|JAPAN}_{LANGUAGE}_Dialogue_Latest_P.pak"
+>       "C:\Program Files (x86)\SteamLibrary\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_{ASIA|JAPAN}_{LANGUAGE}_Dialogue_Latest_P.pak"
 >       ```
 >   - Paid Game
 > 
 >     - ```cmd
->       "C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_{LANGUAGE}_{ASIA|JAPAN}_Dialogue_Latest_P.pak"
+>       "C:\Program Files (x86)\Steam\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_{ASIA|JAPAN}_{LANGUAGE}_Dialogue_Latest_P.pak"
+>       "C:\Program Files (x86)\SteamLibrary\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_{ASIA|JAPAN}_{LANGUAGE}_Dialogue_Latest_P.pak"
 >       ```
 >   - The mod version and build date ( `{LANGUAGE}_v{YYYY}-{MM}-{DD}\nWindowsNoEditor` ) will be displayed on the title screen as well, under the game's version.
 >
-> ### Switch
+> ### Nintendo Switch
 >
 > - SimpleModManager:
 >   - Copy `mods` folder into the root of your Switch's SD card. (e.g.):
 > 
 >   - ```cmd
->     sd:\mods\Dragon_Quest_X_Offline\{Language}\contents\0100E2E0152E4000\romfs\Holiday\Content\Paks\pakchunk0-Switch_{LANGUAGE}_JAPAN_Dialogue_Latest_P.pak
+>     sd:\mods\Dragon_Quest_X_Offline\{LANGUAGE}\contents\0100E2E0152E4000\romfs\Holiday\Content\Paks\pakchunk0-Switch_{LANGUAGE}_JAPAN_Dialogue_Latest_P.pak
 >     ```
 >     - The mod version and build date ( `{LANGUAGE}_v{YYYY}-{MM}-{DD}\nSwitch` ) will be displayed on the title screen as well, under the game's version.
 >
