@@ -1,8 +1,212 @@
+> [!TIP]
+> 
+> # 2026.01.03
+> 
+> <details><summary><h2>Game.locres.yaml > UE4Editor - JsonAsAsset > StringTables</h2></summary>
+> 
+> - Crashing JsonAsAsset
+>   - `STT_BattleOddMsg_DAP_SYS.json`
+>     - `\n        "": "",`
+> 
+> ### `UE4Editor/Holiday/KwK/StringTables_JsonAsAsset_20260102.bat`
+> 
+> - Fix `Game.locres.yaml` filepath
+> - Add `CALL :RunUAT`
+> 
+> # 2026.01.02
+> 
+> ## 01
+> 
+> - Fmodel
+>   - Export `StringTables` as json
+>   - Delete `PAL_*.json`
+>   - `FOR %L IN (de en es fr it pt-BR) DO xcopy /f /j /s /v /y /z "R:\Temp\Exports\Holiday\Content\StringTables\*" "R:\Temp\Exports\Holiday\Content\i18n\%L\StringTables\"`
+>   - `FOR %L IN (de en es fr it pt-BR) DO xcopy /f /j /s /v /y /z "R:\Temp\Exports\Game\Content\StringTables\*" "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\"`
+> 
+> ## 02
+> 
+> - StringTables_02.jq
+> ```js
+> # FOR %L IN (de en es fr it pt-BR) DO FOR /F "usebackq delims= " %F IN (`yq "keys[]" "...\Game.locres.yaml" -o json --yaml-fix-merge-anchor-to-spec`) DO
+> # yq ".%~F" "...\Game.locres.yaml" -o json --yaml-fix-merge-anchor-to-spec |
+> # jq --arg LANGUAGE "%L" 
+> . as $obj
+> | reduce ( $obj | keys_unsorted )[] as $k (
+> 	{};
+> 	.StringTable.KeysToEntries.[$k] += (
+> 		if ( $LANGUAGE != "la" )
+> 		then (
+> 			if   ( $obj[$k].[$LANGUAGE] != "" )
+> 			then ( $obj[$k].[$LANGUAGE] )
+> 			else ( $obj[$k].["ja"] )
+> 			end
+> 		)
+> 		else ( $k | ascii_downcase )
+> 		# else ( [ ( $k | ascii_downcase ), $obj[$k].["ja"] ] | join("\\n<br>\\n") )
+> 		end
+> 	)
+> )
+> | [.]
+> # > "%~F.%L.json"
+> ```
+> 
+> ```cmd
+> :: regular json file
+> cls && FOR %L IN (es) DO FOR /F "usebackq delims= " %F IN (`yq "keys[]" "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\Steam\App_ID-1358750\Build_ID-14529657\pakchunk0-WindowsNoEditor.pak\Game\Content\Localization\Game\Game.locres.yaml" -o json --yaml-fix-merge-anchor-to-spec`) DO yq ".%~F" "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\Steam\App_ID-1358750\Build_ID-14529657\pakchunk0-WindowsNoEditor.pak\Game\Content\Localization\Game\Game.locres.yaml" -o json --yaml-fix-merge-anchor-to-spec | jq --arg LANGUAGE "%L" ". as $obj | reduce ( $obj | keys_unsorted )[] as $k ( {}; .StringTable.KeysToEntries.[$k] += ( if   ( $obj[$k].[$LANGUAGE] != \"\" ) then ( $obj[$k].[$LANGUAGE] ) else ( $obj[$k].[\"ja\"] ) end ) )" > "%~F.%L.json"
+> :: Match FModel's StringTable format
+> cls && FOR %L IN (en) DO FOR /F "usebackq delims= " %F IN (`yq "keys[]" "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\Steam\App_ID-1358750\Build_ID-14529657\pakchunk0-WindowsNoEditor.pak\Game\Content\Localization\Game\Game.locres.yaml" -o json --yaml-fix-merge-anchor-to-spec`) DO yq ".%~F" "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\Steam\App_ID-1358750\Build_ID-14529657\pakchunk0-WindowsNoEditor.pak\Game\Content\Localization\Game\Game.locres.yaml" -o json --yaml-fix-merge-anchor-to-spec | jq --arg LANGUAGE "%L" ". as $obj | reduce ( $obj | keys_unsorted )[] as $k ( {}; .StringTable.KeysToEntries.[$k] += ( if ( $LANGUAGE != \"la\" ) then ( if   ( $obj[$k].[$LANGUAGE"] != \"\" ) then ( $obj[$k].[$LANGUAGE"] ) else ( $obj[$k].[\"ja\"] ) end ) else ( $k | ascii_downcase ) end ) ) | [.]" > "%~F.%L.json"
+> ```
+> 
+> ## 03
+> 
+> ### {StringTables}.json : $obj.StringTable.KeysToEntries.[$k] = Game.locres.yaml : $obj[$ns][$k][$LANGUAGE]
+> 
+> ```js
+> FOR %L IN (de en es fr it pt-BR) DO (
+> 	FOR /F "usebackq delims=" %F IN (`dir "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game\" /s /b /a-d /o:n`) DO (
+> 		jq -n
+> 		input[] as $old | input[] as $new | reduce ( $old.StringTable.KeysToEntries | keys_unsorted )[] as $k ( $old; .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k] ) | [.]
+> 		"%F" "R:\Temp\Exports\Game\Content\i18n\StringTables.%L.json" > "%F.temp" && move /Y "%F.temp" "%F"
+> 	)
+> )
+> ```
+>   - ```cmd
+>     FOR %L IN (de en es fr it pt-BR) DO (jq -n "input[] as $old | input[] as $new | reduce ( $old.StringTable.KeysToEntries | keys_unsorted )[] as $k ( $old; .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k] )" "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game\System\System_CareerStory\STT_EventPalceName.json" "R:\Temp\Exports\Game\Content\i18n\StringTables.%L.json")
+>     FOR /F "usebackq delims=" %F IN (`dir "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game" /s /b /a-d /o:n`) DO (
+>       jq -n "input[] as $old | input[] as $new | reduce ( $old.StringTable.KeysToEntries | keys_unsorted )[] as $k ( $old; if ( .StringTable.KeysToEntries.[$k] != "" ) then ( .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k] ) else ( del( .StringTable.KeysToEntries.[$k] ) ) end )" "%F" "R:\Temp\Exports\Game\Content\i18n\StringTables.json" > "%F.temp"
+>     )
+>     ```
+> .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k]
+>    - FOR %L IN (de en es fr it pt-BR) DO ( FOR /F "usebackq delims=" %F IN (`dir "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game\" /s /b /a-d /o:n`) DO (jq -n "input[] as $old | input[] as $new | reduce ( $old.StringTable.KeysToEntries | keys_unsorted )[] as $k ( $old; .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k] ) | [.]" "%F" "R:\Temp\Exports\Game\Content\i18n\StringTables.%L.json" > "%F.temp" && move /Y "%F.temp" "%F" ) )
+> 
+>    - FOR %L IN (de en es fr it pt-BR) DO ( FOR /F "usebackq delims=" %F IN (`dir "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game\" /s /b /a-d /o:n`) DO (jq -n "input[] as $old | input[] as $new | reduce ( $old.StringTable.KeysToEntries | keys_unsorted )[] as $k ( $old; if ( .StringTable.KeysToEntries.[$k] != \"\" ) then ( .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k] ) else ( del( .StringTable.KeysToEntries.[$k] ) ) end ) | [.]" "%F" "R:\Temp\Exports\Game\Content\i18n\StringTables.%L.json" > "%F.temp" && move /Y "%F.temp" "%F" ) )
+>      - FOR %L IN (de en es fr it pt-BR) DO ( FOR /F "usebackq delims=" %F IN (`dir "R:\Temp\Exports\Game\Content\StringTables\Game\Battle\STT_BattleSysMsg_LOG.json" /s /b /a-d /o:n`) DO (jq -n "input[] as $old | input[] as $new | reduce ( $old.StringTable.KeysToEntries | keys_unsorted )[] as $k ( $old; if ( .StringTable.KeysToEntries.[$k] != "" ) then ( .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k] ) else ( del( .StringTable.KeysToEntries.[$k] ) ) end ) | [.]" "%F" "R:\Temp\Exports\Game\Content\i18n\StringTables.%L.json" > "%F.temp" && move /Y "%F.temp" "%F" ) )
+> 
+>    - FOR %L IN (de en es fr it pt-BR) DO ( FOR /F "usebackq delims=" %F IN (`dir "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game\" /s /b /a-d /o:n`) DO (jq -n --from-file "StringTables_JsonAsAsset_03.jq" "%F" "R:\Temp\Exports\Game\Content\i18n\StringTables.%L.json" > "%F.temp" && move /Y "%F.temp" "%F" ) )
+> 
+> ## 04
+> 
+> - UE4Editor > JsonAsAsset > StringTables
+>   - `Execute JsonAsAsset` 
+>     - Inside `R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game\`, search for `.json`
+>     - Select all, open, then wait for everything to be created / updated 
+> 
+> ## 05
+> 
+> - `"C:\Users\Ryzen3\Desktop\pakchunk0-{PLATFORM}_LocResBuilder_P.pak\!   pakchunk0-WindowsNoEditor_LocResBuilder_P.pak.20251221.bat"`
+>   - `CALL :RunUAT ja`
+> 
+> ## NOTES
+> 
+> </details>
+
+> [!NOTE]
+> 
+> <details><summary><h2>2026.01.01 - Game.locres.yaml > UE4Editor - JsonAsAsset > StringTables</h2></summary>
+> 
+> # 2026.01.01
+> 
+> ## 01
+> 
+> - Fmodel
+>   - Export `StringTables` as json
+>   - Delete `PAL_*.json`
+>   - `FOR %L IN (de en es fr it pt-BR) DO xcopy /f /j /s /v /y /z "R:\Temp\Exports\Game\Content\StringTables\*" "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\"`
+> 
+> ## 02
+> 
+> - `StringTables_JsonAsAsset_02.jq`
+>   ```js
+>   [
+>   . as $obj
+>   | reduce ( $obj | keys_unsorted )[] as $ns (
+>       {};
+>       . += (
+>           reduce ( $obj[$ns] | keys_unsorted )[] as $k (
+>               {};
+>               .[$k] += (
+>                   if ( $LANGUAGE != "la" )
+>                   then (
+>                       if ( $obj[$ns][$k][$LANGUAGE] != "" )
+>                       then ( $obj[$ns][$k][$LANGUAGE] )
+>                       else ( $obj[$ns][$k]["ja"] )
+>                       end
+>                   )
+>                   else ( $k | ascii_downcase )
+>                   end
+>               )
+>           )
+>       )
+>   )
+>   | { StringTable: { KeysToEntries: . } }
+>   ]
+>   ```
+> 
+>  ## 2.5 ( TODO ) Try splitting Game.locres.yaml by keys to prevent unwanted overwrites
+> 
+>  - TBD
+>    - ( e.g., `{} takes {} damage!` being overwritten as `{} takes no damage!` )
+> 
+> `FOR %L IN (de en es fr it pt-BR) DO yq eval "D:\Coding\github.com\repo\KodywithaK\dqx-offline-localization\tree\main\Steam\App_ID-1358750\Build_ID-14529657\pakchunk0-WindowsNoEditor.pak\Game\Content\Localization\Game\Game.locres.yaml" -o json --yaml-fix-merge-anchor-to-spec | jq --arg LANGUAGE "%L" --from-file "StringTables_JsonAsAsset_02.jq" > StringTables.%L.json`
+> 
+> ## 03
+> 
+> - {StringTables}.json : $obj.StringTable.KeysToEntries.[$k] = Game.locres.yaml : $obj[$ns][$k][$LANGUAGE]
+>   - ```cmd
+>     FOR %L IN (de en es fr it pt-BR) DO (jq -n "input[] as $old | input[] as $new | reduce ( $old.StringTable.KeysToEntries | keys_unsorted )[] as $k ( $old; .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k] )" "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game\System\System_CareerStory\STT_EventPalceName.json" "R:\Temp\Exports\Game\Content\i18n\StringTables.%L.json")
+>     FOR /F "usebackq delims=" %F IN (`dir "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game" /s /b /a-d /o:n`) DO (
+>       jq -n "input[] as $old | input[] as $new | reduce ( $old.StringTable.KeysToEntries | keys_unsorted )[] as $k ( $old; if ( .StringTable.KeysToEntries.[$k] != "" ) then ( .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k] ) else ( del( .StringTable.KeysToEntries.[$k] ) ) end )" "%F" "R:\Temp\Exports\Game\Content\i18n\StringTables.json" > "%F.temp"
+>     )
+>     ```
+> .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k]
+>    - FOR %L IN (de en es fr it pt-BR) DO ( FOR /F "usebackq delims=" %F IN (`dir "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game\" /s /b /a-d /o:n`) DO (jq -n "input[] as $old | input[] as $new | reduce ( $old.StringTable.KeysToEntries | keys_unsorted )[] as $k ( $old; .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k] ) | [.]" "%F" "R:\Temp\Exports\Game\Content\i18n\StringTables.%L.json" > "%F.temp" && move /Y "%F.temp" "%F" ) )
+> 
+>    - FOR %L IN (de en es fr it pt-BR) DO ( FOR /F "usebackq delims=" %F IN (`dir "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game\" /s /b /a-d /o:n`) DO (jq -n "input[] as $old | input[] as $new | reduce ( $old.StringTable.KeysToEntries | keys_unsorted )[] as $k ( $old; if ( .StringTable.KeysToEntries.[$k] != \"\" ) then ( .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k] ) else ( del( .StringTable.KeysToEntries.[$k] ) ) end ) | [.]" "%F" "R:\Temp\Exports\Game\Content\i18n\StringTables.%L.json" > "%F.temp" && move /Y "%F.temp" "%F" ) )
+>      - FOR %L IN (de en es fr it pt-BR) DO ( FOR /F "usebackq delims=" %F IN (`dir "R:\Temp\Exports\Game\Content\StringTables\Game\Battle\STT_BattleSysMsg_LOG.json" /s /b /a-d /o:n`) DO (jq -n "input[] as $old | input[] as $new | reduce ( $old.StringTable.KeysToEntries | keys_unsorted )[] as $k ( $old; if ( .StringTable.KeysToEntries.[$k] != "" ) then ( .StringTable.KeysToEntries.[$k] |= $new.StringTable.KeysToEntries[$k] ) else ( del( .StringTable.KeysToEntries.[$k] ) ) end ) | [.]" "%F" "R:\Temp\Exports\Game\Content\i18n\StringTables.%L.json" > "%F.temp" && move /Y "%F.temp" "%F" ) )
+> 
+>    - FOR %L IN (de en es fr it pt-BR) DO ( FOR /F "usebackq delims=" %F IN (`dir "R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game\" /s /b /a-d /o:n`) DO (jq -n --from-file "StringTables_JsonAsAsset_03.jq" "%F" "R:\Temp\Exports\Game\Content\i18n\StringTables.%L.json" > "%F.temp" && move /Y "%F.temp" "%F" ) )
+> 
+> ## 04
+> 
+> - UE4Editor > JsonAsAsset > StringTables
+>   - `Execute JsonAsAsset` 
+>     - Inside `R:\Temp\Exports\Game\Content\i18n\%L\StringTables\Game\`, search for `.json`
+>     - Select all, open, then wait for everything to be created / updated 
+> 
+> ## 05
+> 
+> - `"C:\Users\Ryzen3\Desktop\pakchunk0-{PLATFORM}_LocResBuilder_P.pak\!   pakchunk0-WindowsNoEditor_LocResBuilder_P.pak.20251221.bat"`
+>   - `CALL :RunUAT ja`
+> 
+> ## NOTES
+> 
+> - `STT_BattleAbiMsg`
+>   - {0} / {1} are rendered literally
+> 
+> </details>
+
+> [!NOTE]
+>
+> # 2025.12.29
+> 
+> <details><summary><h2>`/Game/i18n/{LANGUAGE}/StringTables/*` to `/Game/StringTables/*`</h2></summary>
+> 
+> - Automate: 
+>   - importing output of `Game.locres.yaml_to_StringTables.csv.bat` to `UE4Editor/Holiday/Content/Game/i18n/{LANGUAGE}/StringTables/*`
+>   - copying / drag'n'dropping files from `UE4Editor/Holiday/Content/Game/i18n/{LANGUAGE}/StringTables/*` to `UE4Editor/Holiday/Content/Game/StringTables/*`
+>   - `UE4Editor/Holiday/Content/Game/StringTables/*` > responseFile.txt
+> 
+> - Copy new `NonAssets` to `UE4Editor\Content\NonAssets`
+>   - a
+>   - `cls && "%UE_4.27%\..\..\..\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun -archive -archivedirectory="R:/DEBUG/releases/UE4Editor" -clean -clientconfig=Shipping -compressed -cook -ddc=InstalledDerivedDataBackendGraph -installed -iostore -manifests -nocompile -nocompileeditor -nodebuginfo -nop4 -package -pak -prereqs -project=F:/Test/Holiday/Holiday.uproject -skipbuildeditor -SkipCookingEditorContent -skipstage -target=Holiday -targetplatform=Win64 -ue4exe="%UE_4.27%\..\..\..\Engine\Binaries\Win64\UE4Editor.exe" -Cmd.exe -utf8output`
+> 
+> </details>
+
 > [!NOTE]
 >
 > # 2025.12.20
 > 
-> <details><summary><h1>`--prettyPrint`</h1></summary>
+> <details><summary><h2>`--prettyPrint`</h2></summary>
 > 
 > - `--prettyPrint` , temp fix for emojis breaking yq's output file
 > 
@@ -62,7 +266,7 @@
 >   - `Loading Policy` = `Inline`
 >     - OR ELSE FONTS ARE NOT LOADED IN-GAME
 >
-> <details><summary><h1>JAPAN - include StringTables</h1></summary>
+> <details><summary><h2>JAPAN - include StringTables</h2></summary>
 >
 > | Namespace                  | Reference Path                                                                                                       | comments                                                 |
 > | :------------------------- | :------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------- |
@@ -169,9 +373,9 @@
 > PAUSE
 > ```
 > 
-```cmd
-ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.uasset" "../../../{DESTINATION}/Content/StringTables/Game/**/{StringTable}.uasset" > responseFile.txt
-```
+> ```cmd
+> ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.uasset" "../../../{DESTINATION}/Content/StringTables/Game/**/{StringTable}.uasset" > responseFile.txt
+> ```
 > 
 > </details>
 
@@ -565,7 +769,7 @@ ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.
 ## `Game.locres.json:STT_IraisyoArasuji.EVTXT_SYS_QUESTA_IRAISYO_ARASUJI_11_BASE`
 
 - [x] test {NumCats}|plural(one=cat,other=cats) / `{MonsterNum}|plural(one={MonsterName},other={MonsterName}s)` usability
-  - No intended text replacement occurred.
+	- No intended text replacement occurred.
 
 # 20250514_1540:
 
@@ -573,7 +777,7 @@ ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.
 
 - https://unreal-garden.com/tutorials/localization-advanced-plurals/
 - https://cldr.unicode.org/index/cldr-spec/plural-rules
-  - https://www.unicode.org/cldr/charts/47/supplemental/language_plural_rules.html
+	- https://www.unicode.org/cldr/charts/47/supplemental/language_plural_rules.html
 - [x] test {NumCats}|plural(one=cat,other=cats) / `{MonsterNum}|{MonsterNum}(one={MonsterName},other={MonsterName}s)` usability
 
 # 20250515_0015:
@@ -581,22 +785,22 @@ ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.
 - REGEX - CLDR plurals (Dragon Quest 5 `.\data\MENULIST\b1000000.mpt`) - find `"?(@[0-9])(.*?)(?=@)|@"` - replace `\n\t\t\t\t"$1": "$2",` - Latin extended - find `(?<="value": ")([A-Œ])([A-Œ]+)(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?(([ -]([cdlCDL]'|[adl][eilu]{1,}[sx]? |[àacdinps][ aegilonru]{0,}[ ']){0,})?)?([A-Œ])?([A-Œ]+)?` - `œ` breaks the regex? - replace `\U$1\L$2$4\U$6\L$7$9\U$11\L$12$14\U$16\L$17$19\U$21\L$22`
 <!--
 - 20250620: new font
-  - fontworks' 筑紫明朝 TsukuMin - https://lets.fontworks.co.jp/fonts/13 - FTT-筑紫明朝 H - horizontal scale: 90% - https://lets.fontworks.co.jp/services/apps-games - フォントワークス LETS license - ¥49,500／1 ライセンス／年 - アプリ・ゲーム組込 - ¥11,000／1 ライセンス
-    -->
+	- fontworks' 筑紫明朝 TsukuMin - https://lets.fontworks.co.jp/fonts/13 - FTT-筑紫明朝 H - horizontal scale: 90% - https://lets.fontworks.co.jp/services/apps-games - フォントワークス LETS license - ¥49,500／1 ライセンス／年 - アプリ・ゲーム組込 - ¥11,000／1 ライセンス
+		-->
 
 # 20250630_1800:
 
 - ETP.yaml
-  - find `  ja: \|-\n    (<center>)?『風の民　エルフ』\n    \1?自然を愛し　森と共に生きる\n    \1?背に小さな羽を持った　かれんな姿の者たち。\n    \1?<br>\n    \1?伝統と格式を重んじる彼らは\n    \1?世界の理を　深く学び\n    \1?多くの優れた呪文の使い手を　世に送りだした。\n`
-    - (08/12) has all languages
-    - anchor `&Common_5Tribes_{RACE}` and alias `*Common_5Tribes_{RACE}`
-      - `<center>"People of {THING}, {RACE}"`
-  - find `[\w\d\s,']{60,}(?!\\n(<br>\\n)?)`
-    - newline & `<br>` anything that is too long
-  - find `  ja: |-\n    <pc>は\n    岩に　刻まれている文字を　読んだ。`
-    - anchor `&Common_examine_engraving` and alias `*Common_examine_engraving`
-  - find `この世界で　平和に　暮らしていた`
-    - anchor `&Common_examine_engraving_Reidametes` and alias `*Common_examine_engraving_Reidametes`
+	- find `  ja: \|-\n    (<center>)?『風の民　エルフ』\n    \1?自然を愛し　森と共に生きる\n    \1?背に小さな羽を持った　かれんな姿の者たち。\n    \1?<br>\n    \1?伝統と格式を重んじる彼らは\n    \1?世界の理を　深く学び\n    \1?多くの優れた呪文の使い手を　世に送りだした。\n`
+		- (08/12) has all languages
+		- anchor `&Common_5Tribes_{RACE}` and alias `*Common_5Tribes_{RACE}`
+			- `<center>"People of {THING}, {RACE}"`
+	- find `[\w\d\s,']{60,}(?!\\n(<br>\\n)?)`
+		- newline & `<br>` anything that is too long
+	- find `  ja: |-\n    <pc>は\n    岩に　刻まれている文字を　読んだ。`
+		- anchor `&Common_examine_engraving` and alias `*Common_examine_engraving`
+	- find `この世界で　平和に　暮らしていた`
+		- anchor `&Common_examine_engraving_Reidametes` and alias `*Common_examine_engraving_Reidametes`
 
 ---
 
@@ -605,7 +809,7 @@ ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.
 ## pakchunk0-{PLATFORM}.(pak|ucas|utoc)
 
 - `{PLATFORM}/**/i18n` (Localization)
-  - UI graphics for blacksmithing, casino, fishing, lottery, etc.
+	- UI graphics for blacksmithing, casino, fishing, lottery, etc.
 
 ## pakchunk0-Android_ETC2.(pak|ucas|utoc)
 
@@ -618,16 +822,16 @@ ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.
 ## pakchunk0-ps4.(pak|ucas|utoc)
 
 - Jailbreak
-  - [@ MODDED WARFARE | PS4 Jailbreak Advice for firmware up to 12.50](https://www.youtube.com/watch?v=vxhXmPcFJ-4&ab_channel=MODDEDWARFARE)
-  - [@ MODDED WARFARE | Run your PS4 disc games without the disc on 12.02 or lower](https://www.youtube.com/watch?v=uVJnamKxGsA&ab_channel=MODDEDWARFARE)
-  - [@ MODDED WARFARE | PS4 Patch Builder Release/Tutorial](https://www.youtube.com/watch?v=C1EmHMgSfdM&ab_channel=MODDEDWARFARE)
+	- [@ MODDED WARFARE | PS4 Jailbreak Advice for firmware up to 12.50](https://www.youtube.com/watch?v=vxhXmPcFJ-4&ab_channel=MODDEDWARFARE)
+	- [@ MODDED WARFARE | Run your PS4 disc games without the disc on 12.02 or lower](https://www.youtube.com/watch?v=uVJnamKxGsA&ab_channel=MODDEDWARFARE)
+	- [@ MODDED WARFARE | PS4 Patch Builder Release/Tutorial](https://www.youtube.com/watch?v=C1EmHMgSfdM&ab_channel=MODDEDWARFARE)
 - Create workflow for auto creating patch: `pakchunk0-ps4_{LANGUAGE}_Dialogue_Latest_P.pkg`
-  - @ pearlxcore/PS4-PKG-Tool?
-  - @ hippie68/ps4-pkg-manager?
-  - @ OpenOrbis/LibOrbisPkg
-    - [OpenOrbis PS4 Toolchain Part 1 - Overview + Installation](https://youtu.be/pqzsva6OjuE?feature=shared&t=885)
-    - [OpenOrbis PS4 Toolchain Part 2 - Creating a Project + Project Structure Overview](https://youtu.be/zboWUuL-IbE?feature=shared&t=395)
-    - [OpenOrbis PS4 Toolchain Part 5 - Building and Testing on the PS4](https://www.youtube.com/watch?v=SEfkgUQrzLo&ab_channel=SpecterDev)
+	- @ pearlxcore/PS4-PKG-Tool?
+	- @ hippie68/ps4-pkg-manager?
+	- @ OpenOrbis/LibOrbisPkg
+		- [OpenOrbis PS4 Toolchain Part 1 - Overview + Installation](https://youtu.be/pqzsva6OjuE?feature=shared&t=885)
+		- [OpenOrbis PS4 Toolchain Part 2 - Creating a Project + Project Structure Overview](https://youtu.be/zboWUuL-IbE?feature=shared&t=395)
+		- [OpenOrbis PS4 Toolchain Part 5 - Building and Testing on the PS4](https://www.youtube.com/watch?v=SEfkgUQrzLo&ab_channel=SpecterDev)
 
 <!--
 # Dump Games
@@ -796,16 +1000,16 @@ ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.
 [^1]: `.gp4` = `G`ame `P`roject File - PlayStation `4`, custom `.XML` filetype
 -->
 
-  <!--
-  ## ps5?
-  - tbd
-  -->
+	<!--
+	## ps5?
+	- tbd
+	-->
 
 ## pakchunk0-Switch.(pak|ucas|utoc)
 
 - `Game.locmeta` main language: dummy?
-  - Changes priority level so that `{LANGUAGE}/Game.locres` is prefered over `StringTables`
-    - Will make packaging & deploying for og version WAY easier
+	- Changes priority level so that `{LANGUAGE}/Game.locres` is prefered over `StringTables`
+		- Will make packaging & deploying for og version WAY easier
 - `Game.locres` v2 packager
 
 ## pakchunk0-WindowsNoEditor.(pak|ucas|utoc)
@@ -821,7 +1025,7 @@ ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.
 #### Modal particles
 
 - e.g., "Listen`—this time—`to me", "Listen to me `this time`!"
-  - "Hör `mal` zu!"
+	- "Hör `mal` zu!"
 
 ## es
 
@@ -830,60 +1034,60 @@ ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.
 - me, te, (la/lo/le|se), nos, vos, (las/los/les|se)
 - Only after infinitive/gerund verb forms
 - Double object pronouns always get diacritics on the first inflected vowel, whereas with singles it depends on the word
-  - e.g, "Juan is going to buy a ring for her" > "Juan is going to buy her a ring" > "Juan is going to buy her it"
-    - "Juan va a comprar un anillo a ella" > "Juan va a comprarla un anillo" > "Juan va a compr`á`rselo"
-  - e.g., "They are explaining the rules to you" > "They are explaining you the rules" > "They are explaining you them"
-    - "Ellos están explicando las reglas a ti" > "Ellos están explic`á`ndote las reglas" > "Ellos están explic`á`ndotelas"
-  - "You can't `Le` `lo`" aka Le la/lo/las/los > `Se` la/lo/las/los
-    - e.g., "Antonio loaned his phone to him/her/you (formal)" > "(Antonio )loaned him/her/you (formal) his phone" > "(Antonio )loaned him/her/you (formal) it"
-      - "Antonio prestó su teléfono a ello/ella/usted" > "`Le` prestó su teléfono" > "`Se` `lo` prestó"
+	- e.g, "Juan is going to buy a ring for her" > "Juan is going to buy her a ring" > "Juan is going to buy her it"
+		- "Juan va a comprar un anillo a ella" > "Juan va a comprarla un anillo" > "Juan va a compr`á`rselo"
+	- e.g., "They are explaining the rules to you" > "They are explaining you the rules" > "They are explaining you them"
+		- "Ellos están explicando las reglas a ti" > "Ellos están explic`á`ndote las reglas" > "Ellos están explic`á`ndotelas"
+	- "You can't `Le` `lo`" aka Le la/lo/las/los > `Se` la/lo/las/los
+		- e.g., "Antonio loaned his phone to him/her/you (formal)" > "(Antonio )loaned him/her/you (formal) his phone" > "(Antonio )loaned him/her/you (formal) it"
+			- "Antonio prestó su teléfono a ello/ella/usted" > "`Le` prestó su teléfono" > "`Se` `lo` prestó"
 
 ## it
 
 #### Double / contracted pronouns
 
 - Stressed (Tonic) Pronouns
-  - me, te, lui/lei, noi, voi, loro
+	- me, te, lui/lei, noi, voi, loro
 - Unstressed (Atonic) Pronouns
-  | LANGUAGE | 1st, singular | 2nd, singular | 3rd, singular | 1st, plural | 2nd, plural | 3rd, plural |
-  | :------- | :------------ | :------------ | :------------ | :---------- | :---------- | :---------- |
-  | en | 1st, singular | 2nd, singular | 3rd, singular | 1st, plural | 2nd, plural | 3rd, plural |
-  | it | 1st, singular | 2nd, singular | 3rd, singular | 1st, plural | 2nd, plural | 3rd, plural |
-  - mi, ti, lo/la, ci, vi, li/le
+	| LANGUAGE | 1st, singular | 2nd, singular | 3rd, singular | 1st, plural | 2nd, plural | 3rd, plural |
+	| :------- | :------------ | :------------ | :------------ | :---------- | :---------- | :---------- |
+	| en | 1st, singular | 2nd, singular | 3rd, singular | 1st, plural | 2nd, plural | 3rd, plural |
+	| it | 1st, singular | 2nd, singular | 3rd, singular | 1st, plural | 2nd, plural | 3rd, plural |
+	- mi, ti, lo/la, ci, vi, li/le
 
 #### Clitic Pronouns
 
 - Proclitic
-  - Negative + Stressed (Tonic) Pronouns (indirect object) + Unstressed (Atonic) Pronouns (direct object) + full verb
-    - `Non te la prendere`
+	- Negative + Stressed (Tonic) Pronouns (indirect object) + Unstressed (Atonic) Pronouns (direct object) + full verb
+		- `Non te la prendere`
 - Enclitic
-  - Negative + verb (apocopic) + Stressed (Tonic) Pronouns (indirect object) + Unstressed (Atonic) Pronouns (direct object)
-    - "Don't (you) take offense (with him)"
-    - Non prender~~e~~ + te + la (offesa) (con lui).
-    - `Non prendersela`
+	- Negative + verb (apocopic) + Stressed (Tonic) Pronouns (indirect object) + Unstressed (Atonic) Pronouns (direct object)
+		- "Don't (you) take offense (with him)"
+		- Non prender~~e~~ + te + la (offesa) (con lui).
+		- `Non prendersela`
 
 ## pt-BR
 
 #### Clitic Pronouns
 
 - Proclitic
-  - pt-BR, spoken/written for everything
-    - e.g., "I `(will/am going to)` give you"
-      - "Eu vou te dar." > "Vou te dar."
+	- pt-BR, spoken/written for everything
+		- e.g., "I `(will/am going to)` give you"
+			- "Eu vou te dar." > "Vou te dar."
 - Mesoclitic
-  - pt-EU, \*rare\* formal, written for simple future indicative or conditional statements
-    - e.g., "I `am going to give` you (this)" / `If I give` you (this)"
-      - "Eu te darei." > "Te`¹` darei." > "Dar`-te-`ei."
-        - `¹` Grammar conflict
-    - for \*noble\* characters: Raguas, Gartlant paladins, etc.
-  - [yomitan | Improve word lookup](https://github.com/yomidevs/yomitan/pull/2066/files)
-  - [yomitan/\*\*/ext/data/recommended-settings.json](https://github.com/thrzl/yomitan/blob/0a85785984baa1528eda52308f1f1d4c295dc384/ext/data/recommended-settings.json)
-    - find: `(-?(([mst][aeo])|(lh?[aeo]s?)|([nv]os?))-){1,2}`
-      - see [Priberam Dictionario](https://dicionario.priberam.org/dar-no-lo-ia)
+	- pt-EU, \*rare\* formal, written for simple future indicative or conditional statements
+		- e.g., "I `am going to give` you (this)" / `If I give` you (this)"
+			- "Eu te darei." > "Te`¹` darei." > "Dar`-te-`ei."
+				- `¹` Grammar conflict
+		- for \*noble\* characters: Raguas, Gartlant paladins, etc.
+	- [yomitan | Improve word lookup](https://github.com/yomidevs/yomitan/pull/2066/files)
+	- [yomitan/\*\*/ext/data/recommended-settings.json](https://github.com/thrzl/yomitan/blob/0a85785984baa1528eda52308f1f1d4c295dc384/ext/data/recommended-settings.json)
+		- find: `(-?(([mst][aeo])|(lh?[aeo]s?)|([nv]os?))-){1,2}`
+			- see [Priberam Dictionario](https://dicionario.priberam.org/dar-no-lo-ia)
 - Enclitic
-  - pt-EU, spoken/written for everything
-    - e.g., "I `(will/am going to)` give you"
-      - "Eu vou te dar" > "Vou dar-te"
+	- pt-EU, spoken/written for everything
+		- e.g., "I `(will/am going to)` give you"
+			- "Eu vou te dar" > "Vou dar-te"
 
 ---
 
@@ -1127,16 +1331,16 @@ ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.
 ### HOLIStringLibrary.(cpp|h)"
 
 - Disable `ConvertHalfToFullWidth`
-  - `class HOLIDAY_API UHOLIStringLibrary : public UBlueprintFunctionLibrary`
-    - See `CoreMinimal.h` > `BlueprintFunctionLibrary`
-  - Maybe even cheating with `ConvertFullToHalfWidth`
-  ```diff
-   UFUNCTION(BlueprintCallable, BlueprintPure)
-  -static FString ConvertHalfToFullWidth(const FString& inString);
-  +// static FString ConvertHalfToFullWidth(const FString& inString);
-  !or
-  +static FString ConvertFullToHalfWidth(const FString& ConvertHalfToFullWidth(const FString& inString));
-  ```
+	- `class HOLIDAY_API UHOLIStringLibrary : public UBlueprintFunctionLibrary`
+		- See `CoreMinimal.h` > `BlueprintFunctionLibrary`
+	- Maybe even cheating with `ConvertFullToHalfWidth`
+	```diff
+	 UFUNCTION(BlueprintCallable, BlueprintPure)
+	-static FString ConvertHalfToFullWidth(const FString& inString);
+	+// static FString ConvertHalfToFullWidth(const FString& inString);
+	!or
+	+static FString ConvertFullToHalfWidth(const FString& ConvertHalfToFullWidth(const FString& inString));
+	```
 
 ## Content/Blueprints/WidgetBP/MessageWindow/WB_LineMessage
 
@@ -1152,13 +1356,13 @@ ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.
 - https://www.compart.com/en/unicode/category/Lm
 - https://www.compart.com/en/unicode/category/Sk
 - `Garrick-Bold_RUBYx2.otf`
-  - [x] U+00A8 `¨` = `K｛o：¨｝nigin` or `K｛o：\n¨｝nigin`
-  - [x] U+00B8 `¸` = `Fran｛c：¸｝ais` or `Fran｛c：\n¸｝ais`
-  - [x] U+02C6 `ˆ` = `S｛i：ˆ｝`
-  - [ ] U+02CE `ˎ` = `S｛i：ˎ｝`
-  - [ ] U+02CF `ˏ` = `S｛i：ˏ｝`
-  - [x] U+02F7 `˷` = `Se｛ñ：˷｝ora`
-  - [x] U+A788 `ꞈ` = `Portugu｛e：ꞈ｝s `
+	- [x] U+00A8 `¨` = `K｛o：¨｝nigin` or `K｛o：\n¨｝nigin`
+	- [x] U+00B8 `¸` = `Fran｛c：¸｝ais` or `Fran｛c：\n¸｝ais`
+	- [x] U+02C6 `ˆ` = `S｛i：ˆ｝`
+	- [ ] U+02CE `ˎ` = `S｛i：ˎ｝`
+	- [ ] U+02CF `ˏ` = `S｛i：ˏ｝`
+	- [x] U+02F7 `˷` = `Se｛ñ：˷｝ora`
+	- [x] U+A788 `ꞈ` = `Portugu｛e：ꞈ｝s `
 
 ### Disable `ConvertHalfToFullWidth*` / `IsStringASCII` to fix non ascii, halfwidth characters
 
@@ -1170,65 +1374,65 @@ ECHO "{PROJECT_DIR}\Holiday\Content\i18n\%%L\StringTables\Game\**\{StringTable}.
 - DOES `#include { DQX dependency }` = `{ DQX Project }\Source\Holiday\`
 - DOES NOT `#include { UE4 dependency }` = `{ UE_4.27 Directory }\Engine\Source\Runtime\`
 
-  - Note: `-ModuleName` & `-ObjectName` / `-FallbackName` match UE_4.27's `{ UE4Editor Directory }\Engine\Source\Runtime\**\Engine\**\{ DataTable.h }:FTableRowBase`
-  - So searching `{ UE_4.27 Directory }\Engine\Source\` ( or [Unreal Engine's Docs](https://dev.epicgames.com/community/search?query=FTableRowBase) ) for the missing dependencies ( `FTableRowBase` ) will show results for likely files
+	- Note: `-ModuleName` & `-ObjectName` / `-FallbackName` match UE_4.27's `{ UE4Editor Directory }\Engine\Source\Runtime\**\Engine\**\{ DataTable.h }:FTableRowBase`
+	- So searching `{ UE_4.27 Directory }\Engine\Source\` ( or [Unreal Engine's Docs](https://dev.epicgames.com/community/search?query=FTableRowBase) ) for the missing dependencies ( `FTableRowBase` ) will show results for likely files
 
-  ```diff
-  #pragma once
-  #include "CoreMinimal.h"
-  -//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=TableRowBase -FallbackName=TableRowBase
-  !---> TableRowBase is a ( F )unction, so search for FTableRowBase
-  !---> Other objects would be like ( C )lass, ( E )numerator, etc.
-  +#include "Engine/DataTable.h"
-  #include "HOLITextRubyData_TableRow.generated.h"
+	```diff
+	#pragma once
+	#include "CoreMinimal.h"
+	-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=TableRowBase -FallbackName=TableRowBase
+	!---> TableRowBase is a ( F )unction, so search for FTableRowBase
+	!---> Other objects would be like ( C )lass, ( E )numerator, etc.
+	+#include "Engine/DataTable.h"
+	#include "HOLITextRubyData_TableRow.generated.h"
 
-  USTRUCT(BlueprintType)
-  struct FHOLITextRubyData_TableRow : public FTableRowBase {
-      GENERATED_BODY()
-  public:
-      UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-      FString Word;
+	USTRUCT(BlueprintType)
+	struct FHOLITextRubyData_TableRow : public FTableRowBase {
+			GENERATED_BODY()
+	public:
+			UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+			FString Word;
 
-      UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-      FString Ruby;
+			UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+			FString Ruby;
 
-      UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-      int32 WordLength;
+			UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+			int32 WordLength;
 
-      UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-      int32 RubyLength;
+			UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+			int32 RubyLength;
 
-      UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-      bool IsRubyTag;
+			UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+			bool IsRubyTag;
 
-      HOLIDAY_API FHOLITextRubyData_TableRow();
-  };
-  ```
+			HOLIDAY_API FHOLITextRubyData_TableRow();
+	};
+	```
 
 - Holiday.hpp
 
 - HOLIMessageText.(cpp|h)
-  ```diff
-  UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-  FString ParseText;
-  ...
-  UFUNCTION(BlueprintCallable)
-  FString ParseChar(bool& bRet);
-  ```
+	```diff
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+	FString ParseText;
+	...
+	UFUNCTION(BlueprintCallable)
+	FString ParseChar(bool& bRet);
+	```
 - WB_BoukennoshoSlot.hpp
-  ```diff
-  -void ConvertHalfToFullText(FText InText, FText& OutText);
-  +// void ConvertHalfToFullText(FText InText, FText& OutText);
-  !or
-  +void ConvertHalfToFullText(FText InText, FText& InText);
-  ```
+	```diff
+	-void ConvertHalfToFullText(FText InText, FText& OutText);
+	+// void ConvertHalfToFullText(FText InText, FText& OutText);
+	!or
+	+void ConvertHalfToFullText(FText InText, FText& InText);
+	```
 - WB_TrialBoukennoshoSlot.hpp
-  ```diff
-  -void ConvertHalfToFullText(FText InText, FText& OutText);
-  +// void ConvertHalfToFullText(FText InText, FText& OutText);
-  !or
-  +void ConvertHalfToFullText(FText InText, FText& InText);
-  ```
+	```diff
+	-void ConvertHalfToFullText(FText InText, FText& OutText);
+	+// void ConvertHalfToFullText(FText InText, FText& OutText);
+	!or
+	+void ConvertHalfToFullText(FText InText, FText& InText);
+	```
 
 # ./.github/workflows/Create_Latest_Release_DEBUG.yml
 

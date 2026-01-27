@@ -1591,7 +1591,22 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 >   ```
 >
 > - Some exceptions apply, just note any "off" looking gaps/run off in dialog box, while proofreading ingame.
->
+> 
+> ### Notes
+> 
+> - Conditionals
+>   - **WILL NOT** process properly if in the same block
+>     - e.g., `Big <if_woman>Sis<else>Bro<endif>! Look at all this text!`
+>       - Breaks Ends up as `Big SisBig SisBro` in-game
+>       - So affected sets of text will look like this in order to work properly:
+>         ```yaml
+>         <if_woman>
+>         Big Sis! Look at all this text!
+>         <else>
+>         Big Bro! Look at all this text!
+>         <endif>
+>         ```
+> 
 > ### Glossary
 >
 > <details>

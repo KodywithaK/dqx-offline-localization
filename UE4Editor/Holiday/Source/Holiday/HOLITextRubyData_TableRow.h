@@ -5,7 +5,7 @@
 
 USTRUCT(BlueprintType)
 struct FHOLITextRubyData_TableRow : public FTableRowBase {
-    
+
     GENERATED_BODY()
 
 public:

@@ -18,7 +18,7 @@
 > [!NOTE]
 > # Changelog
 > 
-> [Since 2025-01-01](https://github.com/KodywithaK/dqx-offline-localization/commits/main/?since=2025-01-01)
+> [Since 2026-01-01](https://github.com/KodywithaK/dqx-offline-localization/commits/main/?since=2026-01-01)
 
 > [!CAUTION]
 > # Roadmap
@@ -33,42 +33,42 @@
 > 
 > <details><summary><h2>Main Story</h2></summary>
 > 
-> |   Type   |                         Story Of \_                         |                                                                    Progression |       Comment(s)       |
-> | :------: | :---------------------------------------------------------: | -----------------------------------------------------------------------------: | :--------------------: |
-> | Prologue |                                                             |                                                                                |                        |
-> |          |                 Ethene/Etern<br><br>{Human}                 | `de` 🔴 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00001 |
-> |          |                    Agrani<br><br>{Dwarf}                    | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00014 |
-> |          |                    Tsuskul<br><br>{Elf}                     | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00002 |
-> |          |                    Rangao<br><br>{Ogre}                     | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00008 |
-> |          |                 Pukulett<br><br>{Pukulipo}                  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00011 |
-> |          |                    Leen<br><br>{Weddie}                     | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00005 |
-> |  Vers 1  |                                                             |                                                                                |                        |
-> |          |             Gatara<br><br>{Key Emblem - Yellow}             | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00015 |
-> |          |              Azlan<br><br>{Key Emblem - Green}              | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 | SYSTXT_PLACENAME_00003 |
-> |          |              Glen<br><br>{Key Emblem - Black}               | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00009 |
-> |          |             Orphea<br><br>{Key Emblem - White}              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00012 |
-> |          |              Julet<br><br>{Key Emblem - Blue}               | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00006 |
-> |          |             ???<br><br>{Encounter With Hollow}              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00017 |
-> |          |             Dolworm<br><br>{Key Emblem - Gold}              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00016 |
-> |          |            Kamiharmui<br><br>{Key Emblem - Pink}            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00004 |
-> |          |             Gartlant<br><br>{Key Emblem - Red}              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00010 |
-> |          |           Megistris<br><br>{Key Emblem - Purple}            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00013 |
-> |          |            Verinard<br><br>{Key Emblem - Silver}            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00007 |
-> |  Vers 2  |                                                             |                                                                                |                        |
-> |          |             Lendersia<br><br>{The Grand Titus}              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00019 |
-> |          |            Lendersia<br><br>{The 3 Butterflies}             | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |        Melsandy<br><br>{The 3 Butterflies - Silver}         | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00022 |
-> |          |       Celed/Seredo<br><br>{The 3 Butterflies - Amber}       | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00023 |
-> |          |        Al-Ahagiro<br><br>{The 3 Butterflies - Green}        | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00024 |
-> |          | Gran Zedora<br><br>{The 3 Butterflies - Anlucia's Memories} | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00025 |
-> |          |   The Land of Overlapping Fates<br><br>{Pendulum of Fate}   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00027 |
-> |          |             Melsandy<br><br>{Pendulum of Fate}              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |       Celed/Seredo<br><br>{When Life & Death Overlap}       | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |           Al-Ahagiro<br><br>{Dawn of Al-Ahagiro}            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |     Assignment From Lushenda<br><br>{Pendulum of Fate}      | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |  The Spinning Bonds of Courage<br><br>{Divine Crimsonite}   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00028 |
-> |          |          The Wings of Soaring Hope<br><br>{Dragon}          | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00029 |
-> |          |            The Endgame of Eternity<br>{Endgame}             | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00030 |
+> |   Type   |                          Story Of \_                          |                                                                    Progression |       Comment(s)       |
+> | :------: | :-----------------------------------------------------------: | -----------------------------------------------------------------------------: | :--------------------: |
+> | Prologue |                                                               |                                                                                |                        |
+> |          |                 Ethene/Etern<br><br>{ Human }                 | `de` 🔴 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00001 |
+> |          |                    Agrani<br><br>{ Dwarf }                    | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00014 |
+> |          |                    Tsuskul<br><br>{ Elf }                     | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00002 |
+> |          |                    Rangao<br><br>{ Ogre }                     | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00008 |
+> |          |                 Pukulett<br><br>{ Pukulipo }                  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00011 |
+> |          |                    Leen<br><br>{ Weddie }                     | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00005 |
+> |  Vers 1  |                                                               |                                                                                |                        |
+> |          |             Gatara<br><br>{ Key Emblem - Yellow }             | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00015 |
+> |          |              Azlan<br><br>{ Key Emblem - Green }              | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 | SYSTXT_PLACENAME_00003 |
+> |          |              Glen<br><br>{ Key Emblem - Black }               | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00009 |
+> |          |             Orphea<br><br>{ Key Emblem - White }              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00012 |
+> |          |              Julet<br><br>{ Key Emblem - Blue }               | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00006 |
+> |          |             ???<br><br>{ Encounter With Hollow }              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00017 |
+> |          |             Dolworm<br><br>{ Key Emblem - Gold }              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00016 |
+> |          |            Kamiharmui<br><br>{ Key Emblem - Pink }            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00004 |
+> |          |             Gartlant<br><br>{ Key Emblem - Red }              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00010 |
+> |          |           Megistris<br><br>{ Key Emblem - Purple }            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00013 |
+> |          |            Verinard<br><br>{ Key Emblem - Silver }            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00007 |
+> |  Vers 2  |                                                               |                                                                                |                        |
+> |          |             Lendersia<br><br>{ The Grand Titus }              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00019 |
+> |          |            Lendersia<br><br>{ The 3 Butterflies }             | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |        Melsandy<br><br>{ The 3 Butterflies - Silver }         | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00022 |
+> |          |       Celed/Seredo<br><br>{ The 3 Butterflies - Amber }       | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00023 |
+> |          |        Al-Ahagiro<br><br>{ The 3 Butterflies - Green }        | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00024 |
+> |          | Gran Zedora<br><br>{ The 3 Butterflies - Anlucia's Memories } | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00025 |
+> |          |   The Land of Overlapping Fates<br><br>{ Pendulum of Fate }   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00027 |
+> |          |             Melsandy<br><br>{ Pendulum of Fate }              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |       Celed/Seredo<br><br>{ When Life & Death Overlap }       | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |           Al-Ahagiro<br><br>{ Dawn of Al-Ahagiro }            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |     Assignment From Lushenda<br><br>{ Pendulum of Fate }      | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |  The Spinning Bonds of Courage<br><br>{ Divine Crimsonite }   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00028 |
+> |          |          The Wings of Soaring Hope<br><br>{ Dragon }          | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00029 |
+> |          |            The Endgame of Eternity<br>{ Endgame }             | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00030 |
 > 
 > </details>
 > 
@@ -403,18 +403,27 @@
 > ### Nintendo Switch
 >
 > - SimpleModManager:
+> 
 >   - Copy `mods` folder into the root of your Switch's SD card. (e.g.):
 > 
->   - ```cmd
->     sd:\mods\Dragon_Quest_X_Offline\{LANGUAGE}\contents\0100E2E0152E4000\romfs\Holiday\Content\Paks\pakchunk0-Switch_{LANGUAGE}_JAPAN_Dialogue_Latest_P.pak
->     ```
+>     - Free Demo [01006AA015502000][v0]
+>   
+>       - ```cmd
+>         "/sdmc:/mods/DRAGON QUEST X OFFLINE Demo/{LANGUAGE}/contents/01006AA015502000/romfs/Holiday/Content/Paks/pakchunk0-Switch_JAPAN_{LANGUAGE}_Dialogue_Latest_P.pak"
+>         ```
+>   
+>     - Paid Game [0100E2E0152E4000]
+>   
+>       - ```cmd
+>         "/sdmc:/mods/DRAGON QUEST X OFFLINE/{LANGUAGE}/contents/0100E2E0152E4000/romfs/Holiday/Content/Paks/pakchunk0-Switch_JAPAN_{LANGUAGE}_Dialogue_Latest_P.pak"
+>         ```
 >     - The mod version and build date ( `{LANGUAGE}_v{YYYY}-{MM}-{DD}\nSwitch` ) will be displayed on the title screen as well, under the game's version.
 >
 > ### Yuzu, Citron, etc.
 >
-> - Copy `pakchunk0-Switch_{LANGUAGE}_JAPAN_Dialogue_Latest_P.pak` into `0100E2E0152E4000`'s mod data location (e.g.):
+> - Copy `pakchunk0-Switch_JAPAN_{LANGUAGE}_Dialogue_Latest_P.pak` into `0100E2E0152E4000`'s mod data location (e.g.):
 > 
 >   - ```cmd
->     <Yuzu Directory>\load\0100E2E0152E4000\{Language}\romfs\Holiday\Content\Paks\pakchunk0-Switch_{LANGUAGE}_JAPAN_Dialogue_Latest_P.pak
+>     <Yuzu Directory>\load\0100E2E0152E4000\{Language}\romfs\Holiday\Content\Paks\pakchunk0-Switch_JAPAN_{LANGUAGE}_Dialogue_Latest_P.pak
 >     ```
 >     - The mod version and build date ( `{LANGUAGE}_v{YYYY}-{MM}-{DD}\nSwitch` ) will be displayed on the title screen as well, under the game's version.

@@ -3,22 +3,21 @@
 
 * text=auto eol=lf
 
-**/*.md		linguist-language=Markdown
-**/*.md		linguist-detectable=true
+*.md	linguist-detectable=true
+*.md	linguist-language=Markdown
 
-**/*.yml	linguist-language=YAML
-**/*.yaml	linguist-language=YAML
-**/*.yaml	linguist-detectable=true
+# primary files
+src/pakchunk0-PLATFORM.pak/Holiday/Content/Localization/Game/*.yaml	linguist-detectable=true
+src/pakchunk0-PLATFORM.pak/Holiday/Content/Localization/Game/*.yaml	linguist-language=YAML
 
-# (.etp > .yaml)
-Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.yaml	linguist-detectable=true
+src/pakchunk0-PLATFORM.pak/Holiday/Content/NonAssets/ETP/*.yaml		linguist-detectable=true
+src/pakchunk0-PLATFORM.pak/Holiday/Content/NonAssets/ETP/*.yaml		linguist-language=YAML
 
-# (.etp > .json)
-Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json		linguist-detectable=true
-Steam/**/IN_PROGRESS/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json	linguist-detectable=true
-Steam/**/DONE/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json			linguist-detectable=true
-# Steam/**/REFERENCES/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.json linguist-detectable=true
+Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/*.yaml	linguist-detectable=true
+Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/*.yaml	linguist-language=YAML
 
-# (.locres & .locmeta > .json)
-Steam/**/BACKLOG/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/*.json	linguist-detectable=true
-# Steam/**/REFERENCES/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/**/*.json linguist-detectable=true
+Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.yaml		linguist-detectable=true
+Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.yaml		linguist-language=YAML
+
+tools/cryptokeys.json	linguist-detectable=true
+tools/pack_etp--KwK.py	linguist-detectable=true
