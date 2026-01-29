@@ -3,21 +3,22 @@
 
 * text=auto eol=lf
 
-*.md	linguist-detectable=true
-*.md	linguist-language=Markdown
+*.md linguist-detectable linguist-language=Markdown
+*.yaml linguist-detectable linguist-language=YAML
+*.yml linguist-detectable linguist-language=YAML
 
 # primary files
-src/pakchunk0-PLATFORM.pak/Holiday/Content/Localization/Game/*.yaml	linguist-detectable=true
-src/pakchunk0-PLATFORM.pak/Holiday/Content/Localization/Game/*.yaml	linguist-language=YAML
+src/**/*.yaml linguist-detectable linguist-language=YAML
+src/pakchunk0-PLATFORM.pak/Holiday/Content/Localization/Game/Game.locres.yaml linguist-detectable linguist-language=YAML
+src/pakchunk0-PLATFORM.pak/Holiday/Content/NonAssets/ETP/ETP.yaml linguist-detectable linguist-language=YAML
 
-src/pakchunk0-PLATFORM.pak/Holiday/Content/NonAssets/ETP/*.yaml		linguist-detectable=true
-src/pakchunk0-PLATFORM.pak/Holiday/Content/NonAssets/ETP/*.yaml		linguist-language=YAML
+Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml linguist-detectable linguist-language=YAML
+Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/ETP.yaml linguist-detectable linguist-language=YAML
 
-Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/*.yaml	linguist-detectable=true
-Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/*.yaml	linguist-language=YAML
+tools/cryptokeys.json linguist-detectable linguist-language=JSON
+tools/pack_etp--KwK.py linguist-detectable linguist-language=Python
+tools/Platforms/** -linguist-detectable
 
-Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.yaml		linguist-detectable=true
-Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/*.yaml		linguist-language=YAML
-
-tools/cryptokeys.json	linguist-detectable=true
-tools/pack_etp--KwK.py	linguist-detectable=true
+UE4Editor/Holiday/Source/Holiday.Target.cs -linguist-detectable
+UE4Editor/Holiday/Source/Holiday/Holiday.Build.cs -linguist-detectable
+UE4Editor/Holiday/Source/HolidayEditor.Target.cs -linguist-detectable
