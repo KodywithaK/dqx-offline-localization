@@ -209,16 +209,16 @@
 > | 131<br><br>Super Useful | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > | 132<br><br>Super Useful | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > | 133<br><br>Super Useful | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
-> |   134<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
-> |   135<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
-> |   136<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
-> |   137<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
-> |   138<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
-> |   139<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
-> |   140<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
-> |   141<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
-> |   142<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
-> |   143<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
+> |   134<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   JQ_001_1   |
+> |   135<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   JQ_001_2   |
+> |   136<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   JQ_001_3   |
+> |   137<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   JQ_001_4   |
+> |   138<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   JQ_001_5   |
+> |   139<br><br>Vocation   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |   JQ_002_1   |
+> |   140<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   JQ_002_2   |
+> |   141<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   JQ_002_3   |
+> |   142<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   JQ_002_4   |
+> |   143<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   JQ_002_5   |
 > |   144<br><br>Vocation   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |   JQ_003_1   |
 > |   145<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   JQ_003_2   |
 > |   146<br><br>Vocation   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   JQ_003_3   |
@@ -419,11 +419,58 @@
 >         ```
 >     - The mod version and build date ( `{LANGUAGE}_v{YYYY}-{MM}-{DD}\nSwitch` ) will be displayed on the title screen as well, under the game's version.
 >
-> ### Yuzu, Citron, etc.
+> ### Citron, Eden, Yuzu, etc.
 >
-> - Copy `pakchunk0-Switch_JAPAN_{LANGUAGE}_Dialogue_Latest_P.pak` into `0100E2E0152E4000`'s mod data location (e.g.):
+> - Copy `pakchunk0-Switch_JAPAN_{LANGUAGE}_Dialogue_Latest_P.pak` into `01006AA015502000`'s or `0100E2E0152E4000`'s mod data location (e.g.):
 > 
->   - ```cmd
->     <Yuzu Directory>\load\0100E2E0152E4000\{Language}\romfs\Holiday\Content\Paks\pakchunk0-Switch_JAPAN_{LANGUAGE}_Dialogue_Latest_P.pak
->     ```
+>     - Free Demo [01006AA015502000][v0]
+>   
+>       - ```cmd
+>         "<Emulator Directory>\load\01006AA015502000\{Language}\romfs\Holiday\Content\Paks\pakchunk0-Switch_JAPAN_{LANGUAGE}_Dialogue_Latest_P.pak"
+>         ```
+>   
+>     - Paid Game [0100E2E0152E4000]
+>   
+>       - ```cmd
+>         "<Emulator Directory>\load\0100E2E0152E4000\{Language}\romfs\Holiday\Content\Paks\pakchunk0-Switch_JAPAN_{LANGUAGE}_Dialogue_Latest_P.pak"
+>         ```
 >     - The mod version and build date ( `{LANGUAGE}_v{YYYY}-{MM}-{DD}\nSwitch` ) will be displayed on the title screen as well, under the game's version.
+
+<!--
+
+# Progress
+
+## `ETP.yaml`
+
+## `Game.locres.yaml`
+
+### Split
+
+```cmd
+cls && FOR %L IN (de en es fr it pt-BR) DO yq "." -o json --yaml-fix-merge-anchor-to-spec "Game.locres.yaml" | jq ". as $obj | reduce ($obj | keys_unsorted)[] as $ns ( {}; .[$ns] += reduce ($obj[$ns] | keys_unsorted)[] as $k ( {}; .[$k] += $obj[$ns][$k][\"%L\"] ) )" > Game.locres.%L.json
+```
+
+### Percentages
+
+```cmd
+: Total # of keys
+jq "map(length) | add" Game.locres.de.json
+69718
+
+: Total # of keys completed
+jq "map( with_entries(select(.value != \"\") ) | length ) | add" Game.locres.de.json
+8578
+
+: Percentage completed
+FOR %L IN (de en es fr it pt-BR) DO jq "(map( with_entries(select(.value != \"\") ) | length ) | add) / (map(length) | add) * 100 | \"Game.locres.%L.json: \" + tostring + \" %\" " Game.locres.%L.json
+"Game.locres.de.json: 12.303852663587596 %"
+"Game.locres.en.json: 81.9357985025388 %"
+"Game.locres.es.json: 12.546257781347714 %"
+"Game.locres.fr.json: 12.655268366849306 %"
+"Game.locres.it.json: 12.260822169310652 %"
+"Game.locres.pt-BR.json: 10.994291287759259 %"
+```
+
+---
+
+-->

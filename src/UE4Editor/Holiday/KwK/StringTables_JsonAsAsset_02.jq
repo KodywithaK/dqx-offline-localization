@@ -1,0 +1,25 @@
+[
+. as $obj
+| reduce ( $obj | keys_unsorted )[] as $ns (
+	{};
+	. += (
+		reduce ( $obj[$ns] | keys_unsorted )[] as $k (
+			{};
+			.[$k] += (
+				if ( $LANGUAGE != "la" )
+				then (
+					if ( $obj[$ns][$k][$LANGUAGE] != "" )
+					then ( $obj[$ns][$k][$LANGUAGE] )
+					else (
+						$obj[$ns][$k]["ja"]
+					)
+					end
+				)
+				else ( $k | ascii_downcase )
+				end
+			)
+		)
+	)
+)
+| { StringTable: { KeysToEntries: . } }
+]

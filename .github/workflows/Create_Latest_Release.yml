@@ -43,7 +43,7 @@ jobs:
           mkdir -p ${{ github.workspace }}/BUILD/LocRes-Builder/INPUT
 
           cp \
-          "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/locmetav2.json" \
+          "${{ github.workspace }}/BUILD/dqx-offline-localization/src/pakchunk0-PLATFORM.pak/Holiday/Content/Localization/Game/locmeta.json" \
           "${{ github.workspace }}/BUILD/LocRes-Builder/INPUT/locmeta.json"
 
           echo -e "Splitting Game.locres.yaml"
