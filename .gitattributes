@@ -8,20 +8,19 @@
 *.yml linguist-detectable=true linguist-language=YAML
 
 # primary files
-src/**/*.yaml linguist-detectable=true linguist-language=YAML
+src/pakchunk0-PLATFORM.pak/Holiday/Content/Localization/Game/Game.locres.jq linguist-detectable=true linguist-language=jq
 src/pakchunk0-PLATFORM.pak/Holiday/Content/Localization/Game/Game.locres.yaml linguist-detectable=true linguist-language=YAML
+src/pakchunk0-PLATFORM.pak/Holiday/Content/Localization/Game/locmeta.json linguist-detectable=true linguist-language=JSON
+src/pakchunk0-PLATFORM.pak/Holiday/Content/NonAssets/ETP/ETP.jq linguist-detectable=true linguist-language=jq
 src/pakchunk0-PLATFORM.pak/Holiday/Content/NonAssets/ETP/ETP.yaml linguist-detectable=true linguist-language=YAML
-
-Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml linguist-detectable=true linguist-language=YAML
-Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/ETP.yaml linguist-detectable=true linguist-language=YAML
-
-tools/cryptokeys.json linguist-detectable=true linguist-language=JSON
-tools/pack_etp--KwK.py linguist-detectable=true linguist-language=Python
-tools/Platforms/** linguist-detectable=false
 
 src/UE4Editor/Holiday/Source/Holiday.Target.cs linguist-detectable=false
 src/UE4Editor/Holiday/Source/Holiday/Holiday.Build.cs linguist-detectable=false
 src/UE4Editor/Holiday/Source/HolidayEditor.Target.cs linguist-detectable=false
+
+tools/cryptokeys.json linguist-detectable=true linguist-language=JSON
+tools/pack_etp--KwK.py linguist-detectable=true linguist-language=Python
+tools/Platforms/** linguist-detectable=false
 
 # Notes
 # 1MB filesize limit https://github.com/github-linguist/linguist/blob/c1c34e5260797b4d598f5ec76f19723bfc5a1894/lib/linguist/blob_helper.rb#L191-L193

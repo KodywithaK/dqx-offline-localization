@@ -3,8 +3,9 @@ on:
   push:
     branches: [main]
     paths:
-      - "Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml"
-      - "Steam/**/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP/ETP.yaml"
+      - ".github/workflows/Create_Latest_Release.yml"
+      - "src/pakchunk0-PLATFORM.pak/Holiday/Content/Localization/Game/Game.locres.yaml"
+      - "src/pakchunk0-PLATFORM.pak/Holiday/Content/NonAssets/ETP/ETP.yaml"
   workflow_dispatch:
 
 jobs:
@@ -50,10 +51,10 @@ jobs:
           for LANGUAGE in de en es fr it ja ko la pt-BR zh-Hans zh-Hant; do \
             echo -e "Splitting \033[0;32m$LANGUAGE\033[0m"
             yq "." \
-            "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.yaml" \
-            --yaml-fix-merge-anchor-to-spec -o json \
+            "${{ github.workspace }}/BUILD/dqx-offline-localization/src/pakchunk0-PLATFORM.pak/Holiday/Content/Localization/Game/Game.locres.yaml" \
+            -o json --yaml-fix-merge-anchor-to-spec \
             | jq --arg LANGUAGE $LANGUAGE \
-            --from-file "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/Localization/Game/Game.locres.json_--from-file.txt" \
+            --from-file "${{ github.workspace }}/BUILD/dqx-offline-localization/src/pakchunk0-PLATFORM.pak/Holiday/Content/Localization/Game/Game.locres.jq" \
             > "${{ github.workspace }}/BUILD/LocRes-Builder/INPUT/${LANGUAGE}.json"
           done
           # echo "::endgroup::"
@@ -116,11 +117,12 @@ jobs:
 
       - name: Split ETP.yaml
         run: |
-          cd "${{ github.workspace }}/BUILD/dqx-offline-localization/Steam/App_ID-1358750/Build_ID-14529657/pakchunk0-WindowsNoEditor.pak/Game/Content/NonAssets/ETP"
+          cd "${{ github.workspace }}/BUILD/dqx-offline-localization/src/pakchunk0-PLATFORM.pak/Holiday/Content/NonAssets/ETP"
           echo -e "Splitting ETP.yaml"
-          yq -s "keys[], . = .[]" \
+          yq --split-exp-file \
+          "./ETP.jq" \
           "./ETP.yaml" \
-          --yaml-fix-merge-anchor-to-spec -o json
+          -o json --yaml-fix-merge-anchor-to-spec
           rm "./anchors.json"
 
       - name: dqx_dat_dump ( no cache )
@@ -134,7 +136,7 @@ jobs:
 
           for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
             echo -e "::group::Packing \033[0;32m ETP_${LANGUAGE}\033[0m"
-              python pack_etp--KwK_20250626.py -L ${LANGUAGE}
+              python pack_etp--KwK_20260306.py -L ${LANGUAGE}
             echo "::endgroup::"
           done
 
@@ -150,7 +152,7 @@ jobs:
 
           for LANGUAGE in de en es fr it ja ko pt-BR zh-Hans zh-Hant; do
             echo -e "::group::Packing \033[0;32m ETP_${LANGUAGE}\033[0m"
-              python pack_etp--KwK_20250626.py -L ${LANGUAGE}
+              python pack_etp--KwK_20260306.py -L ${LANGUAGE}
             echo "::endgroup::"
           done
 
@@ -305,7 +307,7 @@ jobs:
                   echo "::endgroup::"
 
                   echo -e "::group::Creating \033[0;34m pakchunk0-${PLATFORM}_${LOCRES_VERSION_ID}_${LANGUAGE}_Dialogue_Latest_P.pak.zip \033[0m"
-                    zip -uj \
+                    zip -ujv \
                     ${{ github.workspace }}/BUILD/releases/pakchunk0-${PLATFORM}_${LOCRES_VERSION_ID}_${LANGUAGE}_Dialogue_Latest_P.pak.zip \
                     ${{ github.workspace }}/BUILD/staging/${LANGUAGE}/pakchunk0-${PLATFORM}_${LOCRES_VERSION_ID}_${LANGUAGE}_Dialogue_Latest_P.pak
                   echo "::endgroup::"
@@ -335,6 +337,12 @@ jobs:
           echo -e "\n::notice:: \033[0;32m Successfully uploaded new files to Latest release. \033[0m"
 
 ########################################################################################################################################################################################################
+# gh release edit Latest --title
+# ```cmd
+# FOR /F "usebackq" %A IN (`gh release list --json name -q "sort | reverse | .[0].name"`) DO @ECHO gh release edit Latest --title "%A" --tag "%A"
+# ```
+#
+########################################################################################################################################################################################################
 # 202500921_2100: `Game.locres.yaml` > `Game.locres.json`
 # - To make use of anchors (&anchor) and aliases (*anchor), readability, & smaller file size
 #          ```bash
@@ -353,12 +361,6 @@ jobs:
 #          --title "(echo -e $(gh release list --json name -q ".[1].name"))" \
 #          --tag "previous"
 #          ```
-#
-########################################################################################################################################################################################################
-# 20250728_1600: gh release edit Latest
-# ```cmd
-# FOR /F "usebackq" %A IN (`gh release list --json name -q "sort | reverse | .[0].name"`) DO @ECHO gh release edit Latest --title "%A" --tag "%A"
-# ```
 #
 ########################################################################################################################################################################################################
 # 20250807_0000: Release PS4 `.pkg`
