@@ -1,3 +1,5 @@
+#!/usr/bin/env jq -f
+
 . as $obj
 | reduce ( $obj | keys_unsorted )[] as $ns (
     {};

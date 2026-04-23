@@ -14,21 +14,21 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Checkout dqx_dat_dump
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: ./BUILD/dqx_dat_dump
           ref: testing
           repository: KodywithaK/dqx_dat_dump
 
       - name: Checkout dqx-offline-localization
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: ./BUILD/dqx-offline-localization
           ref: main
           repository: KodywithaK/dqx-offline-localization
 
       - name: Checkout LocRes-Builder
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: ./BUILD/LocRes-Builder
           ref: testing
