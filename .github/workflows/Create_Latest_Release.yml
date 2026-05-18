@@ -100,14 +100,14 @@ jobs:
     steps:
       - name: Setup Python
         id: setup_python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           architecture: "x64"
           # python-version: '3.x'
           python-version: "3.11"
 
       - name: cache virtualenv
-        uses: actions/cache@v3
+        uses: actions/cache@v5
         id: setup_cache
         with:
           path: ./BUILD/dqx_dat_dump/venv/
@@ -119,10 +119,14 @@ jobs:
         run: |
           cd "${{ github.workspace }}/BUILD/dqx-offline-localization/src/pakchunk0-PLATFORM.pak/Holiday/Content/NonAssets/ETP"
           echo -e "Splitting ETP.yaml"
-          yq --split-exp-file \
-          "./ETP.jq" \
+          yq eval \
           "./ETP.yaml" \
-          -o json --yaml-fix-merge-anchor-to-spec
+          -o json --yaml-fix-merge-anchor-to-spec \
+          | jq --from-file \
+          "./ETP.jq" \
+          | yq ".[]" --split-exp-file \
+          "./ETP.yq" \
+          -o json
           rm "./anchors.json"
 
       - name: dqx_dat_dump ( no cache )

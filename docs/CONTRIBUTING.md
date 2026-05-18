@@ -25,8 +25,8 @@
 >
 > <details>
 >
-> | Namespace                           | de  | en   | es  | fr   | it  | pt-BR  | Comment(s) & Context                                                                                                                                                                                                                                                                                |
-> | :---------------------------------- | :-- | :--- | :-- | :--- | :-- | :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | Namespace                           | de  | en  | es  | fr  | it  | pt-BR | Comment(s) & Context                                                                                                                                                                                                                                                                                |
+> | :---------------------------------- | :-- | :-- | :-- | :-- | :-- | :---- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 > | ASIA_DLC                            | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | South East Asian version's DLC names and descriptions, see `STT_Boukennosho_DLC_Text`                                                                                                                                                                                                               |
 > | Event_Common                        | 🟡  | 🟡  | 🟡  | 🟡  | 🟡  | 🟡    | hair color, races, misc. character names                                                                                                                                                                                                                                                            |
 > | Sample                              | 🟢  | 🟢  | 🟢  | 🟢  | 🟢  | 🟢    | debug                                                                                                                                                                                                                                                                                               |
@@ -400,11 +400,11 @@ FOR %F IN (STT_MonsterColor) DO yq ".%F" "Game.locres.yaml" --yaml-fix-merge-anc
 
 - Find:
 
-  - `(?<!,\n\s+?)(?="de")`
+	- `(?<!,\n\s+?)(?="de")`
 
 - Replace:
 
-  - `"$comments": "",\n    `
+	- `"$comments": "",\n    `
 
 </!--
 #### Command Prompt
@@ -417,20 +417,20 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq "to_entries | map(.value = (.
 
 - Find:
 
-  - `(?<!"{LANGUAGE}": ".*",\n\s+)(?="de": ")`
+	- `(?<!"{LANGUAGE}": ".*",\n\s+)(?="de": ")`
 
 - Replace:
 
-  - `"{LANGUAGE}": "",\n    `
+	- `"{LANGUAGE}": "",\n    `
 
 - E.g.:
 
-  - Find:
+	- Find:
 
-    - `(?<!"pt-BR": ".*",\n\s+)(?="zh-Hans": ")`
+		- `(?<!"pt-BR": ".*",\n\s+)(?="zh-Hans": ")`
 
-  - Replace:
-    - `"pt-BR": "",\n    `
+	- Replace:
+		- `"pt-BR": "",\n    `
 
 </details>
 
@@ -444,61 +444,61 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq "to_entries | map(.value = (.
 
 ```json
 {
-  "SYSTXT_TIPS_TITLE_MURAOUKURIHUGEEN": {
-    "$comments": "",
-    "de": "",
-    "en": "",
-    "es": "",
-    "fr": "",
-    "it": "",
-    "ja": "人物紹介：村王クリフゲーン",
-    "ko": "인물 소개: 촌왕 클리프겐",
-    "pt-BR": "",
-    "zh-Hans": "人物介绍：村王克里夫肯",
-    "zh-Hant": "人物介紹：村王克里夫耿"
-  }
+	"SYSTXT_TIPS_TITLE_MURAOUKURIHUGEEN": {
+		"$comments": "",
+		"de": "",
+		"en": "",
+		"es": "",
+		"fr": "",
+		"it": "",
+		"ja": "人物紹介：村王クリフゲーン",
+		"ko": "인물 소개: 촌왕 클리프겐",
+		"pt-BR": "",
+		"zh-Hans": "人物介绍：村王克里夫肯",
+		"zh-Hant": "人物介紹：村王克里夫耿"
+	}
 }
 ```
 
 - Find:
 
-  </!-- - For "pt-BR" > `(?=(",\n.*?){6}"ja": "人物紹介：(.*)(?=",))` --/>
+	</!-- - For "pt-BR" > `(?=(",\n.*?){6}"ja": "人物紹介：(.*)(?=",))` --/>
 
-  - For "de" > `(?=(",\n.*?){5}"ja": "人物紹介：(.*)(?=",))`
-  - For "en" > `(?=(",\n.*?){4}"ja": "人物紹介：(.*)(?=",))`
-  - For "es" > `(?=(",\n.*?){3}"ja": "人物紹介：(.*)(?=",))`
-  - For "fr" > `(?=(",\n.*?){2}"ja": "人物紹介：(.*)(?=",))`
-  - For "it" > `(?=(",\n.*?){1}"ja": "人物紹介：(.*)(?=",))`
-  - For all the above > `(?=(",\n.*?){1,5}\s+"ja": "人物紹介：(.*)(?=",))`
+	- For "de" > `(?=(",\n.*?){5}"ja": "人物紹介：(.*)(?=",))`
+	- For "en" > `(?=(",\n.*?){4}"ja": "人物紹介：(.*)(?=",))`
+	- For "es" > `(?=(",\n.*?){3}"ja": "人物紹介：(.*)(?=",))`
+	- For "fr" > `(?=(",\n.*?){2}"ja": "人物紹介：(.*)(?=",))`
+	- For "it" > `(?=(",\n.*?){1}"ja": "人物紹介：(.*)(?=",))`
+	- For all the above > `(?=(",\n.*?){1,5}\s+"ja": "人物紹介：(.*)(?=",))`
 
 - Replace:
 
-  </!-- - For "pt-BR" > TBD `___: $2` --/>
+	</!-- - For "pt-BR" > TBD `___: $2` --/>
 
-  - For "de" > `Profil: $2`
-  - For "en" > `Profile: $2`
-  - For "es" > `Perfil: $2`
-  - For "fr" > `Profil: $2`
-  - For "it" > `Profilo: $2`
-  - For all the above > `: $2`
+	- For "de" > `Profil: $2`
+	- For "en" > `Profile: $2`
+	- For "es" > `Perfil: $2`
+	- For "fr" > `Profil: $2`
+	- For "it" > `Profilo: $2`
+	- For all the above > `: $2`
 
 - Output:
 
 ```json
 {
-  "SYSTXT_TIPS_TITLE_MURAOUKURIHUGEEN": {
-    "$comments": "",
-    "de": "Profil: 村王クリフゲーン",
-    "en": "Profile: 村王クリフゲーン",
-    "es": "Perfil: 村王クリフゲーン",
-    "fr": "Profil: 村王クリフゲーン",
-    "it": "Profilo: 村王クリフゲーン",
-    "ja": "人物紹介：村王クリフゲーン",
-    "ko": "인물 소개: 촌왕 클리프겐",
-    "pt-BR": "TBD: 村王クリフゲーン",
-    "zh-Hans": "人物介绍：村王克里夫肯",
-    "zh-Hant": "人物介紹：村王克里夫耿"
-  }
+	"SYSTXT_TIPS_TITLE_MURAOUKURIHUGEEN": {
+		"$comments": "",
+		"de": "Profil: 村王クリフゲーン",
+		"en": "Profile: 村王クリフゲーン",
+		"es": "Perfil: 村王クリフゲーン",
+		"fr": "Profil: 村王クリフゲーン",
+		"it": "Profilo: 村王クリフゲーン",
+		"ja": "人物紹介：村王クリフゲーン",
+		"ko": "인물 소개: 촌왕 클리프겐",
+		"pt-BR": "TBD: 村王クリフゲーン",
+		"zh-Hans": "人物介绍：村王克里夫肯",
+		"zh-Hant": "人物介紹：村王克里夫耿"
+	}
 }
 ```
 
@@ -514,49 +514,49 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq "to_entries | map(.value = (.
 
 - `$old`
 
-  - original version `Steam\**\BACKLOG\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+	- original version `Steam\**\BACKLOG\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
 
 - `$new`
-  - edited version `Steam\**\IN_PROGRESS\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+	- edited version `Steam\**\IN_PROGRESS\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
 
 ```json
 // $old
 {
-  "255892": {
-    "$comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
-    "de": "Die Tür ist fest verriegelt.",
-    "en": "", // value does NOT exist, so it WILL be affected in `Steam\**\DONE\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
-    "es": "La puerta está bien cerrada.",
-    "fr": "La porte est bien fermée.",
-    "it": "La porta è ben chiusa.",
-    "ja": "扉は　かたく　閉ざされている。",
-    "ko": "문은 굳게 닫혀 있다.",
-    "pt-BR": "A porta está bem fechada.",
-    "zh-Hans": "门紧闭着。",
-    "zh-Hant": "門扉緊閉著。"
-  },
-  "255893": {
-    "$comments": "",
-    "de": "Da liegt etwas in der Truhe.",
-    "en": "___EXISTING_VALUE___", // value DOES exist, so it will NOT be affected in `Steam\**\DONE\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
-    "es": "Hay algo en el cofre.",
-    "fr": "Il y a quelque chose dans le coffre.",
-    "it": "C'è qualcosa nel forziere.",
-    "ja": "宝箱がある。",
-    "ko": "보물 상자가 있다.",
-    "pt-BR": "",
-    "zh-Hans": "有一个宝箱。",
-    "zh-Hant": "有一個寶箱。"
-  }
+	"255892": {
+		"$comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
+		"de": "Die Tür ist fest verriegelt.",
+		"en": "", // value does NOT exist, so it WILL be affected in `Steam\**\DONE\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+		"es": "La puerta está bien cerrada.",
+		"fr": "La porte est bien fermée.",
+		"it": "La porta è ben chiusa.",
+		"ja": "扉は　かたく　閉ざされている。",
+		"ko": "문은 굳게 닫혀 있다.",
+		"pt-BR": "A porta está bem fechada.",
+		"zh-Hans": "门紧闭着。",
+		"zh-Hant": "門扉緊閉著。"
+	},
+	"255893": {
+		"$comments": "",
+		"de": "Da liegt etwas in der Truhe.",
+		"en": "___EXISTING_VALUE___", // value DOES exist, so it will NOT be affected in `Steam\**\DONE\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+		"es": "Hay algo en el cofre.",
+		"fr": "Il y a quelque chose dans le coffre.",
+		"it": "C'è qualcosa nel forziere.",
+		"ja": "宝箱がある。",
+		"ko": "보물 상자가 있다.",
+		"pt-BR": "",
+		"zh-Hans": "有一个宝箱。",
+		"zh-Hant": "有一個寶箱。"
+	}
 }
 // $new
 {
-  "255892": {
-    "en": "___NEW_VALUE_1___"
-  },
-  "255893": {
-    "en": "___NEW_VALUE_2___"
-  }
+	"255892": {
+		"en": "___NEW_VALUE_1___"
+	},
+	"255893": {
+		"en": "___NEW_VALUE_2___"
+	}
 }
 ```
 
@@ -565,36 +565,36 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq "to_entries | map(.value = (.
 ```js
 # jq -s --from-file
 reduce (.) as [$old,$new] (
-    {};
-    reduce ($old | keys_unsorted)[] as $namespace (
-        .;
-        .[$namespace] += (
-            $old[$namespace]
-            | if (.en == "") # IF: $old[$namespace].{LANGUAGE} has no existing value,
-             then
-             (
-                if ($new[$namespace].en != null) # THEN, IF: $new[$namespace].{LANGUAGE} exists,
-                then # $old[$namespace].{LANGUAGE} = $new[$namespace].{LANGUAGE},
-                (
-                    #.en = "THEN > THEN"
-                    .en = $new[$namespace].en
-                )
-                else # ELSE: $old[$namespace] remains the same (""),
-                (
-                    #.en = "THEN > ELSE"
-                    .en = $old[$namespace].en
-                )
-                end
-             )
-             else # ELSE: $old[$namespace] remains the same (existing value),
-             (
-                #.en = "ELSE"
-                .
-             )
-             end
-             | (to_entries | sort | from_entries) # SORT: $old[$namespace]'s keys (.{LANGUAGE})
-        )
-    )
+	{};
+	reduce ($old | keys_unsorted)[] as $namespace (
+			.;
+			.[$namespace] += (
+					$old[$namespace]
+					| if (.en == "") # IF: $old[$namespace].{LANGUAGE} has no existing value,
+					 then
+					 (
+							if ($new[$namespace].en != null) # THEN, IF: $new[$namespace].{LANGUAGE} exists,
+							then # $old[$namespace].{LANGUAGE} = $new[$namespace].{LANGUAGE},
+							(
+									#.en = "THEN > THEN"
+									.en = $new[$namespace].en
+							)
+							else # ELSE: $old[$namespace] remains the same (""),
+							(
+									#.en = "THEN > ELSE"
+									.en = $old[$namespace].en
+							)
+							end
+					 )
+					 else # ELSE: $old[$namespace] remains the same (existing value),
+					 (
+							#.en = "ELSE"
+							.
+					 )
+					 end
+					 | (to_entries | sort | from_entries) # SORT: $old[$namespace]'s keys (.{LANGUAGE})
+			)
+	)
 )
 # "old.json" "new.json" > "newer.json"
 ```
@@ -603,32 +603,32 @@ reduce (.) as [$old,$new] (
 
 ```json
 {
-  "255892": {
-    "$comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
-    "de": "Die Tür ist fest verriegelt.",
-    "en": "___NEW_VALUE_1___", // <- missing value is updated
-    "es": "La puerta está bien cerrada.",
-    "fr": "La porte est bien fermée.",
-    "it": "La porta è ben chiusa.",
-    "ja": "扉は　かたく　閉ざされている。",
-    "ko": "문은 굳게 닫혀 있다.",
-    "pt-BR": "A porta está bem fechada.",
-    "zh-Hans": "门紧闭着。",
-    "zh-Hant": "門扉緊閉著。"
-  },
-  "255893": {
-    "$comments": "",
-    "de": "Da liegt etwas in der Truhe.",
-    "en": "___EXISTING_VALUE___", // <- existing value is unchanged
-    "es": "Hay algo en el cofre.",
-    "fr": "Il y a quelque chose dans le coffre.",
-    "it": "C'è qualcosa nel forziere.",
-    "ja": "宝箱がある。",
-    "ko": "보물 상자가 있다.",
-    "pt-BR": "",
-    "zh-Hans": "有一个宝箱。",
-    "zh-Hant": "有一個寶箱。"
-  }
+	"255892": {
+		"$comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
+		"de": "Die Tür ist fest verriegelt.",
+		"en": "___NEW_VALUE_1___", // <- missing value is updated
+		"es": "La puerta está bien cerrada.",
+		"fr": "La porte est bien fermée.",
+		"it": "La porta è ben chiusa.",
+		"ja": "扉は　かたく　閉ざされている。",
+		"ko": "문은 굳게 닫혀 있다.",
+		"pt-BR": "A porta está bem fechada.",
+		"zh-Hans": "门紧闭着。",
+		"zh-Hant": "門扉緊閉著。"
+	},
+	"255893": {
+		"$comments": "",
+		"de": "Da liegt etwas in der Truhe.",
+		"en": "___EXISTING_VALUE___", // <- existing value is unchanged
+		"es": "Hay algo en el cofre.",
+		"fr": "Il y a quelque chose dans le coffre.",
+		"it": "C'è qualcosa nel forziere.",
+		"ja": "宝箱がある。",
+		"ko": "보물 상자가 있다.",
+		"pt-BR": "",
+		"zh-Hans": "有一个宝箱。",
+		"zh-Hant": "有一個寶箱。"
+	}
 }
 ```
 
@@ -636,7 +636,7 @@ reduce (.) as [$old,$new] (
 
 - Escape (`) the following characters:
 
-  - `$`, `"`
+	- `$`, `"`
 
 - Single-line version
 
@@ -663,41 +663,41 @@ jq -s `
 
 - Where:
 
-  - old_format =
+	- old_format =
 
-    - ([`testing` branch's](https://github.com/KodywithaK/dqx-offline-localization/tree/testing)) old `.etp` format
-    - With your translation additions/edits, e.g.:
+		- ([`testing` branch's](https://github.com/KodywithaK/dqx-offline-localization/tree/testing)) old `.etp` format
+		- With your translation additions/edits, e.g.:
 
-      ```json
-      {
-        "{namespace}": {
-          "{japanese}": "{english}"
-        }
-      }
-      ```
+			```json
+			{
+				"{namespace}": {
+					"{japanese}": "{english}"
+				}
+			}
+			```
 
-  - new =
+	- new =
 
-    - ([`main` branch's](https://github.com/KodywithaK/dqx-offline-localization)) new `.etp` format
-    - With your translation additions/edits, e.g.:
+		- ([`main` branch's](https://github.com/KodywithaK/dqx-offline-localization)) new `.etp` format
+		- With your translation additions/edits, e.g.:
 
-      ```json
-      {
-        "{namespace}": {
-          // "de": "",
-          "en": "{english}"
-          // "es": "",
-          // "fr": "",
-          // "it": "",
-          // "ja": "",
-          // "ko": "",
-          // "pt-BR": "",
-          // "zh-Hans": "",
-          // "zh-Hant": ""
-          // or "{your_language}": "{your_translations}", etc.
-        }
-      }
-      ```
+			```json
+			{
+				"{namespace}": {
+					// "de": "",
+					"en": "{english}"
+					// "es": "",
+					// "fr": "",
+					// "it": "",
+					// "ja": "",
+					// "ko": "",
+					// "pt-BR": "",
+					// "zh-Hans": "",
+					// "zh-Hant": ""
+					// or "{your_language}": "{your_translations}", etc.
+				}
+			}
+			```
 
 - Command
 
@@ -711,52 +711,52 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq "to_entries | map(.value = {e
 
 - Where:
 
-  - `$old` =
+	- `$old` =
 
-    - original version, e.g.:
-      - `Steam\**\BACKLOG\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+		- original version, e.g.:
+			- `Steam\**\BACKLOG\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
 
-  - `$new` =
-    - edited version, e.g.:
-      - `Steam\**\IN_PROGRESS\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+	- `$new` =
+		- edited version, e.g.:
+			- `Steam\**\IN_PROGRESS\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
 
 ```json
 // INPUT
 {
-  "255892": {
-    "$comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
-    "de": "Die Tür ist fest verriegelt.",
-    "en": "", // value does NOT exist, so it WILL be affected in `Steam\**\DONE\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
-    "es": "La puerta está bien cerrada.",
-    "fr": "La porte est bien fermée.",
-    "it": "La porta è ben chiusa.",
-    "ja": "扉は　かたく　閉ざされている。",
-    "ko": "문은 굳게 닫혀 있다.",
-    "pt-BR": "A porta está bem fechada.",
-    "zh-Hans": "门紧闭着。",
-    "zh-Hant": "門扉緊閉著。"
-  },
-  "255893": {
-    "$comments": "",
-    "de": "Da liegt etwas in der Truhe.",
-    "en": "___EXISTING_VALUE___", // value DOES exist, so it will NOT be affected in `Steam\**\DONE\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
-    "es": "Hay algo en el cofre.",
-    "fr": "Il y a quelque chose dans le coffre.",
-    "it": "C'è qualcosa nel forziere.",
-    "ja": "宝箱がある。",
-    "ko": "보물 상자가 있다.",
-    "pt-BR": "",
-    "zh-Hans": "有一个宝箱。",
-    "zh-Hant": "有一個寶箱。"
-  }
+	"255892": {
+		"$comments": "See `Game.locres.json:STT_LD_SerchFieldObject.SYSTXT_SHIRABERU_03010`",
+		"de": "Die Tür ist fest verriegelt.",
+		"en": "", // value does NOT exist, so it WILL be affected in `Steam\**\DONE\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+		"es": "La puerta está bien cerrada.",
+		"fr": "La porte est bien fermée.",
+		"it": "La porta è ben chiusa.",
+		"ja": "扉は　かたく　閉ざされている。",
+		"ko": "문은 굳게 닫혀 있다.",
+		"pt-BR": "A porta está bem fechada.",
+		"zh-Hans": "门紧闭着。",
+		"zh-Hant": "門扉緊閉著。"
+	},
+	"255893": {
+		"$comments": "",
+		"de": "Da liegt etwas in der Truhe.",
+		"en": "___EXISTING_VALUE___", // value DOES exist, so it will NOT be affected in `Steam\**\DONE\**\ETP\eventTextIeR3TikaDungfServer.win32.json`
+		"es": "Hay algo en el cofre.",
+		"fr": "Il y a quelque chose dans le coffre.",
+		"it": "C'è qualcosa nel forziere.",
+		"ja": "宝箱がある。",
+		"ko": "보물 상자가 있다.",
+		"pt-BR": "",
+		"zh-Hans": "有一个宝箱。",
+		"zh-Hant": "有一個寶箱。"
+	}
 }
 {
-  "255892": {
-    "en": "___NEW_VALUE_1___"
-  },
-  "255893": {
-    "en": "___NEW_VALUE_2___"
-  }
+	"255892": {
+		"en": "___NEW_VALUE_1___"
+	},
+	"255893": {
+		"en": "___NEW_VALUE_2___"
+	}
 }
 // OUTPUT
 // {
@@ -824,25 +824,25 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 ```js
 #jq
 .[].Rows = (
-    .[].Rows
-    | to_entries
-    | sort_by(
-        .value.ScenarioNo_Start,
-        .value.ScenarioCounter_Start,
-        .value.QuestNo,
-        .value.QuestCounter_Start,
-        .value.SortNum,
-        .value.TalkNum
-    )
-    | map(
-        .value = (
-            .value
-            | to_entries
-            | sort
-            | from_entries
-        )
-    )
-    | from_entries
+	.[].Rows
+	| to_entries
+	| sort_by(
+			.value.ScenarioNo_Start,
+			.value.ScenarioCounter_Start,
+			.value.QuestNo,
+			.value.QuestCounter_Start,
+			.value.SortNum,
+			.value.TalkNum
+	)
+	| map(
+			.value = (
+					.value
+					| to_entries
+					| sort
+					| from_entries
+			)
+	)
+	| from_entries
 )
 ```
 
@@ -860,18 +860,18 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 
 ```js
 .[].Rows = (
-    .[].Rows
-    | to_entries
-    | sort_by(.value.DispNo)
-    | map(
-        .value = (
-            .value
-            | to_entries
-            | sort
-            | from_entries
-        )
-    )
-    | from_entries
+	.[].Rows
+	| to_entries
+	| sort_by(.value.DispNo)
+	| map(
+			.value = (
+					.value
+					| to_entries
+					| sort
+					| from_entries
+			)
+	)
+	| from_entries
 )
 ```
 
@@ -996,16 +996,16 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 > | eventTextCsJq10013Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsJq10014Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsJq10015Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsJq10021Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Quest (139) SYSTEXT_QUESTLIST_NAME_JQ_002_1 [ SYSTEXT_QUESTLIST_SERIES_JQ_002 ] { Job Quest }                                        |
-> | eventTextCsJq10022Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Quest (140) SYSTEXT_QUESTLIST_NAME_JQ_002_2 [ SYSTEXT_QUESTLIST_SERIES_JQ_002 ] { Job Quest }                                        |
-> | eventTextCsJq10023Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Quest (141) SYSTEXT_QUESTLIST_NAME_JQ_002_3 [ SYSTEXT_QUESTLIST_SERIES_JQ_002 ] { Job Quest }                                        |
-> | eventTextCsJq10024Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Quest (142) SYSTEXT_QUESTLIST_NAME_JQ_002_4 [ SYSTEXT_QUESTLIST_SERIES_JQ_002 ] { Job Quest }                                        |
-> | eventTextCsJq10025Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Quest (143) SYSTEXT_QUESTLIST_NAME_JQ_002_5 [ SYSTEXT_QUESTLIST_SERIES_JQ_002 ] { Job Quest }                                        |
-> | eventTextCsJq10031Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Quest (144) SYSTEXT_QUESTLIST_NAME_JQ_003_1 [ SYSTEXT_QUESTLIST_SERIES_JQ_003 ] { Job Quest }                                        |
-> | eventTextCsJq10032Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Quest (145) SYSTEXT_QUESTLIST_NAME_JQ_003_2 [ SYSTEXT_QUESTLIST_SERIES_JQ_003 ] { Job Quest }                                        |
-> | eventTextCsJq10033Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Quest (146) SYSTEXT_QUESTLIST_NAME_JQ_003_3 [ SYSTEXT_QUESTLIST_SERIES_JQ_003 ] { Job Quest }                                        |
-> | eventTextCsJq10034Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Quest (147) SYSTEXT_QUESTLIST_NAME_JQ_003_4 [ SYSTEXT_QUESTLIST_SERIES_JQ_003 ] { Job Quest }                                        |
-> | eventTextCsJq10035Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Quest (148) SYSTEXT_QUESTLIST_NAME_JQ_003_5 [ SYSTEXT_QUESTLIST_SERIES_JQ_003 ] { Job Quest }                                        |
+> | eventTextCsJq10021Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (139) SYSTEXT_QUESTLIST_NAME_JQ_002_1 [ SYSTEXT_QUESTLIST_SERIES_JQ_002 ] { Job Quest }                                              |
+> | eventTextCsJq10022Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (140) SYSTEXT_QUESTLIST_NAME_JQ_002_2 [ SYSTEXT_QUESTLIST_SERIES_JQ_002 ] { Job Quest }                                              |
+> | eventTextCsJq10023Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (141) SYSTEXT_QUESTLIST_NAME_JQ_002_3 [ SYSTEXT_QUESTLIST_SERIES_JQ_002 ] { Job Quest }                                              |
+> | eventTextCsJq10024Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (142) SYSTEXT_QUESTLIST_NAME_JQ_002_4 [ SYSTEXT_QUESTLIST_SERIES_JQ_002 ] { Job Quest }                                              |
+> | eventTextCsJq10025Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (143) SYSTEXT_QUESTLIST_NAME_JQ_002_5 [ SYSTEXT_QUESTLIST_SERIES_JQ_002 ] { Job Quest }                                              |
+> | eventTextCsJq10031Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (144) SYSTEXT_QUESTLIST_NAME_JQ_003_1 [ SYSTEXT_QUESTLIST_SERIES_JQ_003 ] { Job Quest }                                              |
+> | eventTextCsJq10032Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (145) SYSTEXT_QUESTLIST_NAME_JQ_003_2 [ SYSTEXT_QUESTLIST_SERIES_JQ_003 ] { Job Quest }                                              |
+> | eventTextCsJq10033Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (146) SYSTEXT_QUESTLIST_NAME_JQ_003_3 [ SYSTEXT_QUESTLIST_SERIES_JQ_003 ] { Job Quest }                                              |
+> | eventTextCsJq10034Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (147) SYSTEXT_QUESTLIST_NAME_JQ_003_4 [ SYSTEXT_QUESTLIST_SERIES_JQ_003 ] { Job Quest }                                              |
+> | eventTextCsJq10035Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (148) SYSTEXT_QUESTLIST_NAME_JQ_003_5 [ SYSTEXT_QUESTLIST_SERIES_JQ_003 ] { Job Quest }                                              |
 > | eventTextCsJq10042Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsJq10043Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsJq10044Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
@@ -1172,10 +1172,10 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 > | eventTextCsY21Client.win32.json                       | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsY22Client.win32.json                       | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsY32Client.win32.json                       | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsZ11s01x0To\*Client.win32.json              | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Story of `Game.locres.yaml:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 1<br>Destination<br>Changes station/bento dialog          |
-> | eventTextCsZ11s02x0To\*Client.win32.json              | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Story of `Game.locres.yaml:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 2<br>Destination<br>Changes station/bento dialog          |
-> | eventTextCsZ11s03x0\*KeyEmblemTo\*Client.win32.json   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Story of `Game.locres.yaml:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 3<br>Source,Destination<br>Changes station/bento dialog   |
-> | eventTextCsZ11s04x0To\*Client.win32.json              | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Story of `Game.locres.yaml:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 4<br>Destination<br>Changes station/bento dialog          |
+> | eventTextCsZ11s01x0To\*Client.win32.json              | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (01/??) `Game.locres.yaml:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 1<br>Destination<br>Changes station/bento dialog           |
+> | eventTextCsZ11s02x0To\*Client.win32.json              | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (02/??) `Game.locres.yaml:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 2<br>Destination<br>Changes station/bento dialog           |
+> | eventTextCsZ11s03x0\*KeyEmblemTo\*Client.win32.json   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (03/??) `Game.locres.yaml:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 3<br>Source,Destination<br>Changes station/bento dialog    |
+> | eventTextCsZ11s04x0To\*Client.win32.json              | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (04/??) `Game.locres.yaml:STT_EventPalceName.SYSTXT_PLACENAME_00017`, pt. 4<br>Destination<br>Changes station/bento dialog           |
 > | eventTextCsZ21Client.win32.json                       | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsZ31Client.win32.json                       | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsZ41Client.win32.json                       | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
@@ -1305,7 +1305,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 > | eventTextIeP2AmanFldServer.win32.json                 | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeP2DandDungServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeP2FeruBossServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextIeP2MyulBossServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
+> | eventTextIeP2MyulBossServer.win32.json                | 🟢  | 🟢  | 🟢  | 🟢  | 🟢  | 🟢    | `Game.locres.yaml:STT_System_Location.SYSTXT_LOCATION_STAGE_Puk_p2601`<br>Fostail Square                                             |
 > | eventTextIeP2MyulDongServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeP2MyulDungServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeP2MyulOpenServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
@@ -1554,7 +1554,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 > | eventTextSysWldwedcServer.win32.json                  | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | `Game.locres.yaml:STT_System_Location.SYSTXT_LOCATION_STAGE_SYSTXT_LOCATION_COUNTINENT_WEDEY`<br>Interactable objects in Wena        |
 > | eventTextSysWldzdncServer.win32.json                  | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Interactable objects in world                                                                                                        |
 > | smldt_msg_pkg_NPC_DB.win32.json                       | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | NPC Names<br>`Game.locres.yaml:STT_NpcInfo`                                                                                          |
-> 
+>
 > </details>
 >
 > ## Best Practices
@@ -1565,35 +1565,34 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 >
 > - ~~Text in a standard dialog box fits perfectly at `80vw x 33vh`, usually:~~
 > - Using `Garrick Bold` font:
->
 >   - standard block: ~50-55 characters long before `\n`, 3 lines high before punctuations, then `\n<br>\n`. E.g.:
 >
 >   ```yaml
->     en: |-
->       Lorem ipsum dolor sit amet, consectetur adipiscing
->       elit. Donec quis condimentum dolor, a volutpat lectus.
->       Suspendisse sed maximus nibh, vel volutpat dolor.
->       <br>
->       In lobortis, sapien nec ultrices tincidunt, dui lectus
->       fermentum dolor, et porta libero justo eget orci.
->       Nulla vel euismod arcu.
+>   en: |-
+>     Lorem ipsum dolor sit amet, consectetur adipiscing
+>     elit. Donec quis condimentum dolor, a volutpat lectus.
+>     Suspendisse sed maximus nibh, vel volutpat dolor.
+>     <br>
+>     In lobortis, sapien nec ultrices tincidunt, dui lectus
+>     fermentum dolor, et porta libero justo eget orci.
+>     Nulla vel euismod arcu.
 >   ```
 >
 >   - line contains `<pc>`: ~40-45 characters long before `\n`, 3 lines high before punctuations, then `\n<br>\n`. E.g.:
 >
 >   ```yaml
->     en: |-
->       Lorem ipsum dolor <pc> sit amet, consectetur
->       adipiscing elit. Donec quis condimentum dolor,
->       <pc>, a volutpat lectus.
->       <br>
->       ...
+>   en: |-
+>     Lorem ipsum dolor <pc> sit amet, consectetur
+>     adipiscing elit. Donec quis condimentum dolor,
+>     <pc>, a volutpat lectus.
+>     <br>
+>     ...
 >   ```
 >
 > - Some exceptions apply, just note any "off" looking gaps/run off in dialog box, while proofreading ingame.
-> 
+>
 > ### Notes
-> 
+>
 > - Conditionals
 >   - **WILL NOT** process properly if in the same block
 >     - e.g., `Big <if_woman>Sis<else>Bro<endif>! Look at all this text!`
@@ -1606,7 +1605,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 >         Big Bro! Look at all this text!
 >         <endif>
 >         ```
-> 
+>
 > ### Glossary
 >
 > <details>
@@ -2052,7 +2051,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 > |                 `<turn_rot 0.0>`                 |                                                                                                                                                                              |                                          |
 > |                 `<turn_rot 2.3>`                 |                                                                                                                                                                              |                                          |
 > |                `<update_quedate>`                |                                                                                                                                                                              |                                          |
-> |             `<voice 00000_00008130>`             |                                                                                                                                                                              |                                          |
+> |             `<voice #####_########>`             |                                                            tag for voice acting during messages<br>?????_etpID###                                                            |                                          |
 > |                 `<voice 9727_a>`                 |                                                                                                                                                                              |                                          |
 > |                 `<voice 9727_b>`                 |                                                                                                                                                                              |                                          |
 > |                  `<wait 4800>`                   |                                                                                                                                                                              |                                          |
@@ -2865,6 +2864,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 >  -->
 >
 > </details>
+
 <!--
 >
 > <!--

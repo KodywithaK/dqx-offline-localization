@@ -6,15 +6,15 @@
 >
 > - TBD
 >
-> ### Ethene/Etern<br>{ Human }
+> ### Ethene/Etern<br>[ Human ]
 >
 > - TBD
 >
-> ### Agrani<br>{ Dwarf }
+> ### Agrani<br>[ Dwarf ]
 >
 > - TBD
 >
-> <details><summary><h3>Tsuskul { Elf }</h3></summary>
+> <details><summary><h3>Tsuskul<br>[ Elf ]</h3></summary>
 >
 > - #### 01
 >   - Speak with Rokushou to begin the Trial of the Young Leaves
@@ -39,11 +39,11 @@
 >
 > </details>
 >
-> ### Rangao<br>{ Ogre }
+> ### Rangao<br>[ Ogre ]
 >
 > - TBD
 >
-> <details><summary><h3>Pukulett { Pukulipo }</h3></summary>
+> <details><summary><h3>Pukulett<br>[ Pukulipo ]</h3></summary>
 >
 > - #### 01
 >   - In Pukulett Village, Pukuland, go to Pirippo's house.
@@ -68,7 +68,7 @@
 >
 > </details>
 >
-> <details><summary><h3>Leen { Weddie }</h3></summary>
+> <details><summary><h3>Leen<br>[ Weddie ]</h3></summary>
 >
 > - #### 01
 >   - In the Colt Region, Wena Islands, go to Solace Beach and examine the monument.
@@ -95,103 +95,245 @@
 >
 > - TBD
 >
-> ### Gatara<br>{ Key Emblem - Yellow }
+> ### Gatara<br>[ Key Emblem - Yellow ]
 >
 > - TBD
 >
-> ### Azlan<br>{ Key Emblem - Green }
+> ### Azlan<br>[ Key Emblem - Green ]
 >
 > - TBD
 >
-> ### Glen<br>{ Key Emblem - Black }
+> <details><summary><h3>Glen<br>[ Key Emblem - Black ]</h3></summary>
+>
+> - #### 01
+>   - In Glen Castle Town, Ogreed, go to Glen Castle's throne room
+> - #### 02
+>   - Go to Glen Castle Town's Inn
+> - #### 03
+>   - In Becon Valley, Ogreed, go to the Spirit Swordsman's Catacomb
+> - #### 04
+>   - In the Spirit Swordsman's Catacomb, defeat Spirit Swordsman Ouren
+> - #### 05
+>   - In the Landon Mountains, Ogreed, go to Cloudtop Lake
+> - #### 06
+>   - Return to Glen Castle's throne room
+>
+> </details>
+>
+> <details><summary><h3>Orphea<br>[ Key Emblem - White ]</h3></summary>
+>
+> - #### 01
+>   - Enter Orphea, Pukuland
+> - #### 02
+>   - In Orphea, enter the Circus Tent ( Front Entrance )
+> - #### 03
+>   - In Orphea, enter the Circus Tent ( Backstage )
+> - #### 04
+>   - In the Circus Tent ( Backstage ), speak with Hakal
+> - #### 05
+>   - Go to Silver Hill, Wrinkle Region, Pukuland
+> - #### 06
+>   - Return to Orphea's Circus Tent ( Backstage )
+> - #### 07
+>   - Go to Fostail Square, Muruel Forest, Pukuland
+> - #### 08
+>   - Go to Silver Hill
+> - #### 09
+>   - Return to Orphea's Circus Tent ( Front Entrance )
+>
+> </details>
+>
+> ### Julet<br>[ Key Emblem - Blue ]
 >
 > - TBD
 >
-> ### Orphea<br>{ Key Emblem - White }
+> <details><summary><h3>The Ship Shapers<br>[ Encounter With Hollow ]</h3></summary>
+>
+> - #### 00
+>   - Obtain 1 Key Emblem
+> - #### 01
+>   - Obtain 2 Key Emblems
+> - #### 02
+>   - Obtain 4 Key Emblems
+> - #### 03
+>   - Obtain 5 Key Emblems
+> - #### 04
+>   - In the Landon Mountain's Summit, go to the Summit
+> - #### 05
+>   - In Glen Castle Town, go to the house west of Glen Castle's entry
+> - #### 06
+>   - In Glen Castle Town, return to Fluka's house
+> - #### 07
+>   - At any train station, chose the destination "**???**"
+> - #### 08
+>   - Exit the train station
+> - #### 09
+>   - Go to Glen Castle's throne room
+> - #### 10
+>   - Go to Erju's room
+> - #### 11
+>   - In the Eastern Desert, go to the Elven Settlement
+> - #### 12
+>   - In Glen Castle's Well Room (1F), obtain the Water-Filled Pot
+> - #### 13
+>   - In the Eastern Desert, return to the Elven Settlement
+> - #### 14
+>   - In Gert Strait, go to the Grotto Strait
+> - #### 15
+>   - In Landonfoot, approach an Apeckalypse
+> - #### 16
+>   - In Landonfoot, obtain the Icebird Feather by defeating Apeckalypses
+> - #### 17
+>   - In Gert Strait, return to the Grotto Strait
+> - #### 18
+>   - In Landonfoot, go to the Wild Settlement
+> - #### 19
+>   - In Glen Castle, go to the throne room
+> - #### 20
+>   - Exit Glen Castle Town
+> - #### 21
+>   - In the Landon Mountain's Summit, go to the Summit
+> - #### 22
+>   - In Reidametes Temple, extinguish the Fires of Despair, Hatred, and Resentment, then defeat Reidamete's Guardian
+> - #### 23
+>   - In Glen Castle, go to Erju's Room
+> - #### 24
+>   - In Glen Castle Town Station, speak with Zebes
+> - #### 25
+>   -
+> - #### 26
+>   -
+> - #### 27
+>   -
+> - #### 28
+>   -
+> - #### 29
+>   -
+> - #### 3
+>
+> </details>
+>
+> ### Dolworm<br>[ Key Emblem - Gold ]
+>
+> - #### 01
+>   - TBD
+> - #### 02
+>   - TBD
+> - #### 03
+>   - TBD
+> - #### 04
+>   - TBD
+> - #### 05
+>   - TBD
+> - #### 06
+>   - TBD
+> - #### 07
+>   - TBD
+> - #### 08
+>   - TBD
+> - #### 09
+>   - TBD
+> - #### 10
+>   - TBD
+> - #### 11
+>   - TBD
+>
+> ### Kamiharmui<br>[ Key Emblem - Pink ]
 >
 > - TBD
 >
-> ### Julet<br>{ Key Emblem - Blue }
+> <details><summary><h3>Gartlant<br>[ Key Emblem - Red ]</h3></summary>
+>
+> - #### 01
+>   - tbd
+> - #### 02
+>   - tbd
+> - #### 03
+>   - tbd
+> - #### 04
+>   - tbd
+> - #### 05
+>   - tbd
+> - #### 06
+>   - tbd
+> - #### 07
+>   - tbd
+> - #### 08
+>   - tbd
+> - #### 09
+>   - tbd
+> - #### 10
+>   - tbd
+> - #### 11
+>   - tbd
+> - #### 12
+>   - Return to Gartlant Castle's throne room
+>
+> </details>
+>
+> ### Megistris<br>[ Key Emblem - Purple ]
 >
 > - TBD
 >
-> ### ???<br>{ Encounter With Hollow }
+> ### Verinard<br>[ Key Emblem - Silver ]
 >
 > - TBD
->
-> ### Dolworm<br>{ Key Emblem - Gold }
->
-> - TBD
->
-> ### Kamiharmui<br>{ Key Emblem - Pink }
->
-> - TBD
->
-> ### Gartlant<br>{ Key Emblem - Red }
->
-> - TBD
->
-> ### Megistris<br>{ Key Emblem - Purple }
->
-> - TBD
->
-> ### Verinard<br>{ Key Emblem - Silver }
 >
 > ## Vers. 2
 >
-> ### Lendersia<br>{ The Grand Titus }
+> ### Lendersia<br>[ The Grand Titus ]
 >
 > - TBD
 >
-> ### Lendersia<br>{ The 3 Butterflies }
+> ### Lendersia<br>[ The 3 Butterflies ]
 >
 > - TBD
 >
-> ### Melsandy<br>{ The 3 Butterflies - Silver }
+> ### Melsandy<br>[ The 3 Butterflies - Silver ]
 >
 > - TBD
 >
-> ### Celed/Seredo<br>{ The 3 Butterflies - Amber }
+> ### Celed/Seredo<br>[ The 3 Butterflies - Amber ]
 >
 > - TBD
 >
-> ### Al-Ahagiro<br>{ The 3 Butterflies - Green }
+> ### Al-Ahagiro<br>[ The 3 Butterflies - Green ]
 >
 > - TBD
 >
-> ### Gran Zedora<br>{ The 3 Butterflies - Anlucia's Memories }
+> ### Gran Zedora<br>[ The 3 Butterflies - Anlucia's Memories ]
 >
 > - TBD
 >
-> ### The Land of Overlapping Fates<br>{ Pendulum of Fate }
+> ### The Land of Overlapping Fates<br>[ Pendulum of Fate ]
 >
 > - TBD
 >
-> ### Melsandy<br>{ Pendulum of Fate }
+> ### Melsandy<br>[ Pendulum of Fate ]
 >
 > - TBD
 >
-> ### Celed/Seredo<br>{ When Life & Death Overlap }
+> ### Celed/Seredo<br>[ When Life & Death Overlap ]
 >
 > - TBD
 >
-> ### Al-Ahagiro<br>{ Dawn of Al-Ahagiro }
+> ### Al-Ahagiro<br>[ Dawn of Al-Ahagiro ]
 >
 > - TBD
 >
-> ### Assignment From Lushenda<br>{ Pendulum of Fate }
+> ### Assignment From Lushenda<br>[ Pendulum of Fate ]
 >
 > - TBD
 >
-> ### The Spinning Bonds of Courage<br>{ Divine Crimsonite }
+> ### The Spinning Bonds of Courage<br>[ Divine Crimsonite ]
 >
 > - TBD
 >
-> ### The Wings of Soaring Hope<br>{ Dragon }
+> ### The Wings of Soaring Hope<br>[ Dragon ]
 >
 > - TBD
 >
-> ### The Endgame of Eternity<br>{ Endgame }
+> ### The Endgame of Eternity<br>[ Endgame ]
 >
 > - TBD
 >
@@ -214,7 +356,7 @@
 > | 007 |                                                          <sub>枯れないジジイの大仕掛け<br><br>An Immature Old Man's Grand Plan</sub>                                                          |                <sub>Tsuugo</sub>                 |                   <sub>Mount Gatara<br>Dwachakka</sub>                    |                                                               <sub>N/A</sub>                                                                |                                                                                <sub>(4) Technicolor Dreamcloth</sub>                                                                                | <details><sub>① At Gatara Fields Forest Ruins, press the switch on the crumbled pillar.<br>② Report to Tsuugo.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 > | 008 |                                                                       <sub>魔法のオーブン<br><br>The Magical Oven</sub>                                                                       |               <sub>Repotchi</sub>                |                 <sub>Alleyway<br>Orphea<br>Pukuland</sub>                 |                                                               <sub>N/A</sub>                                                                |                                                                                     <sub>(4) Magic Water</sub>                                                                                      | <details><sub>① In Muruel Forest, Pukuland, receive the Old Oven Photograph from Pipzeel.<br>② Give Repotchi the Old Oven Photograph.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 > | 009 |                                                          <sub>マイタケ　男の進路相談<br><br>Maitake: Men's Career Consultation</sub>                                                          |                <sub>Maitake</sub>                |                   <sub>Windy City Azlan<br>Eltona</sub>                   |                                                           <sub>Cleared 182</sub>                                                            |                                                                                    <sub>(1) Double Bubble</sub>                                                                                     | <details><sub>① As a Ranger, speak with Maitake.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-> | 010 |                                                                <sub>無骨な町のアクトレス<br><br>Actress In A Rugged Town</sub>                                                                |                <sub>Shurina</sub>                |                   <sub>Glen Castletown<br>Ogreed</sub>                    |                                           <sub>Complete the Story of<br>Hollow's Encounter</sub>                                            |                                                                                    <sub>(1) Double Bubble</sub>                                                                                     | <details><sub>① Perform the emote 'Ethene's Greeting' in front of Shurina.<br>**(Learned through story progression)**</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+> | 010 |                                                                <sub>無骨な町のアクトレス<br><br>Actress In A Rugged Town</sub>                                                                |                <sub>Shurina</sub>                |                   <sub>Glen Castletown<br>Ogreed</sub>                    |                                        <sub>Complete the Story of<br>the Encounter with Hollow</sub>                                        |                                                                                    <sub>(1) Double Bubble</sub>                                                                                     | <details><sub>① Perform the emote 'Ethene's Greeting' in front of Shurina.<br>**(Learned through story progression)**</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 > | 011 |                                                             <sub>セット装備に酔いしれろ<br><br>Spellbound By Equipment Sets</sub>                                                             |                <sub>Reterio</sub>                |                     <sub>Julet<br>Wena Islands</sub>                      |                          <sub>Complete the Story of<br>Hollow's Encounter<br>Reached lvl.42+ as a Blacksmith</sub>                          |                                                                                    <sub>(1) Double Bubble</sub>                                                                                     | <details><sub>① Speak with Reterio while wearing the Fencing Hat, Fencing Cloak, and Fencing Boots<br><br>**Fencer's Mantle recipe book available at the following recipe shops:<br>Dolworm Kingdom<br>(N) Imperial City Kamiharmui<br>Megistris City**</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 > | 012 |                                                               <sub>職人さんに会いたい！<br><br>I Wanna Meet A Craftsman!</sub>                                                                |                <sub>Rerena</sub>                 |                   <sub>Mount Gatara<br>Dwachakka</sub>                    |                                                 <sub>Reached lvl.30+ as a Blacksmith</sub>                                                  |                                                                                    <sub>(1) Double Bubble</sub>                                                                                     | <sub>① Speak with Rerena.</sub>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 > | 013 |                                                             <sub>あこがれの称号さ見てえ！<br><br>Show Me A Nostalgic Title!</sub>                                                             |                 <sub>Pulup</sub>                 |                       <sub>Orphea<br>Pukuland</sub>                       |                                                           <sub>Cleared 132</sub>                                                            |                                                                                    <sub>(1) Double Bubble</sub>                                                                                     | <details><sub>① Equip the "First-Class Collector" title (Awarded upon filling your Item Bag with 300 different items).<br>② Speak with Pulup.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -266,7 +408,7 @@
 > | 059 |                                              <sub><ruby>託<rt>たく</rt></ruby>された<ruby>希望<rt>きぼう</rt></ruby><br><br>Entrusted Hope</sub>                                              |               <sub>Biàn Dào</sub>                |            <sub>Junk Castle<br>Mount Gatara<br>Dwachakka</sub>            |                                                            <sub>Cleared 58</sub>                                                            |                                                              <sub>(1) Yellow Orb<br>Mechanic's Outfit<br>**{ Duston's Outfit }**</sub>                                                              | <details><sub>① In the Deep Underground Ruins' Forgotten King's Hall, Dwachakka, defeat the Scaravader.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 > | 060 |                                                              <sub>ネコババはダメなのニャ<br><br>Cat 'Purr'glary Is No Good</sub>                                                              |                <sub>Schale</sub>                 |                     <sub>Julet<br>Wena Islands</sub>                      |                                                   <sub>Obtained the Blue Key Emblem</sub>                                                   |                                                                                      <sub>(4) Blue Eyes</sub>                                                                                       | <details><sub>① Speak with Schale.<br>② In King Ladis Island's Beach Hut, speak with Myarji.<br>③ Report back to Schale.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 > | 061 |                                                                   <sub>ネコにゴハンなのニャ<br><br>Food 'Fur' the Cat</sub>                                                                   |              <sub>Cat Rebelio</sub>              |         <sub>Beach Hut<br>King Ladis Island<br>Wena Islands</sub>         |                                                            <sub>Cleared 60</sub>                                                            |                                                                         <sub>(5) Wenal Shells<br>(4) Savvy Sapphires</sub>                                                                          | <details><sub>① At Upper Jule Island's Kyurarana Coast, Wena Islands, obtain the Fruit of the Sea by defeating Octopots.<br>② At Big Cat's Nest, Cat Island, Wena Islands, give Cat Rebelio the Fruit of the Sea.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-> | 062 |                                                               <sub>ネコかぶりでＧＯなのニャ<br><br>Cat Crown Is A GO Meow</sub>                                                               |              <sub>Cat Rebelio</sub>              |         <sub>Beach Hut<br>King Ladis Island<br>Wena Islands</sub>         |                                                            <sub>Cleared 61</sub>                                                            |                                                                                  <sub>(3) Urbea Silver Coins</sub>                                                                                  | <details><sub>① At Somya's House in Julet, Wena Islands, speak with Somya.<br>② On King Ladis Island, Wena Islands, visit the Beach Hut.<br>③ In Verinard Castletown, receive the Letter to Somya from Soneeze.<br>④ On King Ladis Island, Wena Islands, return to the Beach Hut.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+> | 062 |                                                                 <sub>ネコかぶりでＧＯなのニャ<br><br>Cat's in the Cradle</sub>                                                                |              <sub>Cat Rebelio</sub>              |         <sub>Beach Hut<br>King Ladis Island<br>Wena Islands</sub>         |                                                            <sub>Cleared 61</sub>                                                            |                                                                                  <sub>(3) Urbea Silver Coins</sub>                                                                                  | <details><sub>① At Somya's House in Julet, Wena Islands, speak with Somya.<br>② On King Ladis Island, Wena Islands, visit the Beach Hut.<br>③ In Verinard Castletown, receive the Letter for Somya from Soneeze.<br>④ On King Ladis Island, Wena Islands, return to the Beach Hut.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 > | 063 |                                                                  <sub>借りてきたネコなのニャ<br><br>Cat Borrowed Meow</sub>                                                                   |              <sub>Cat Rebelio</sub>              |         <sub>Beach Hut<br>King Ladis Island<br>Wena Islands</sub>         |                                                            <sub>Cleared 62</sub>                                                            |                                                                                      <sub>(1) Gold Ingot</sub>                                                                                      | <details><sub>① At Big Cat's Nest, Cat Island, Wena Islands, speak with Cat Mamma.<br>② In Sea Melting Cave's Marine Mammals' Nest, Wena Islands, defeat Sardon's Minions.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 > | 064 |                                                                <sub>ネコの手も借りるのニャ<br><br>Cat Lending A Paw Meow</sub>                                                                |                <sub>Myargi</sub>                 |         <sub>Beach Hut<br>King Ladis Island<br>Wena Islands</sub>         |                                                            <sub>Cleared 63</sub>                                                            |                                                                  <sub>(1) Blue Orb<br>Formal Attire<br>**{ Hyuza's Outfit}**</sub>                                                                  | <details><sub>① At Big Cat's Nest, Cat Island, Wena Islands, defeat Hippo Sardon.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 > | 065 |                                                                  <sub>ニーベルの指輪を探せ！<br><br>Find Nibel's Ring!</sub>                                                                  |                 <sub>Nibel</sub>                 |                   <sub>Windy City Azlan<br>Eltona</sub>                   |                                                  <sub>Obtained the Green Key Emblem</sub>                                                   |                                                                           <sub>(1) Butterfly Wing<br>(4) Green Eyes</sub>                                                                           | <details><sub>① At the Bird Monster Nest in Kirika Steppe, defeat Bird Monster Kuwatto, to obtain Nibel's Ring and Warrior Sigurd.<br>② Give Nibel her ring.<br>③ Visit Fuura's room in the Lord's Mansion.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -330,7 +472,7 @@
 > | 123 |                                                                         <sub>第四の詩歌<br><br>The Fourth Poem</sub>                                                                          |             <sub>Prince Ordis</sub>              |     <sub>Prince's Room<br>Verinard Castle (2F)<br>Wena Islands</sub>      |                                                           <sub>Cleared 122</sub>                                                            |                                                                                      <sub>(10) Blue Eyes</sub>                                                                                      | <details><sub>① In Leen Village, speak with Sarny.<br>② At the Sierra Pilgrimage Site, speak with Nafuna.<br>③ At the Sierra Pilgrimage Site's Fountain of Singing, speak with Sonuugu.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 > | 124 |                                                                     <sub>瀑布の女王<br><br>The Queen of Waterfalls</sub>                                                                      |          <sub>Investigator Eriego</sub>          |  <sub>Royal Survey Office<br>Verinard Castle (2F)<br>Wena Islands</sub>   |                                                           <sub>Cleared 123</sub>                                                            |                                                                                  <sub>(3) Urubea Gold Coins</sub>                                                                                   | <details><sub>① In Verinard Castle, visit the Prince's Room, then accept Investigator Eriego's request.<br>② In Verinard South's Beach Trading Post, speak with Kalam.<br>③ In Verinard Castle, report back to Investigator Eriego.<br>④ In Verse Mountain Forest's eastern end, examine the waterfall.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 > | 125 |                                                                     <sub>そのために生きた<br><br>Reason for Living</sub>                                                                      |             <sub>Prince Ordis</sub>              |      <sub>Throne Room<br>Verinard Castle (3F)<br>Wena Islands</sub>       |                                                           <sub>Cleared 124</sub>                                                            |                                                                             <sub>(1) Blue Orb<br>(1) Seed of Life</sub>                                                                             | <details><sub>① On King Ladis Island, visit the Sleeping Wisdom Ruins' Tuning Forks.<br>② Enter the teleportal to defeat Ladis' Witness.<br>③ In Verinard Castle, return to the throne room.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-> | 126 |                                                                  <sub>若き院長の悩み<br><br>Young Director's Distress</sub>                                                                   |             <sub>Director Dura</sub>             |                <sub>Crystal Palace (3F)<br>Dwachakka</sub>                |                                                  <sub>Obtained the Golden Key Emblem</sub>                                                  |                                                                                   <sub>(1) Urubea Gold Coin</sub>                                                                                   | <details><sub>① In Crystal Palace's Knight Captain Room, Dolworm Kingdom, speak with Prince Ramiza, then accept Director Dura's request.<br>② In Boronus Lava Flow, Dwachakka, obtain the Eraser Grass by defeating Tree Sages.<br>③ In Crystal Palace, give Director Dura the Magic Water & Eraser Grass.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+> | 126 |                                                                  <sub>若き院長の悩み<br><br>Young Director's Distress</sub>                                                                   |             <sub>Director Dura</sub>             |                <sub>Crystal Palace (3F)<br>Dwachakka</sub>                |                                                   <sub>Obtained the Gold Key Emblem</sub>                                                   |                                                                                   <sub>(1) Urubea Gold Coin</sub>                                                                                   | <details><sub>① In Crystal Palace's Knight Captain Room, Dolworm Kingdom, speak with Prince Ramiza, then accept Director Dura's request.<br>② In Boronus Lava Flow, Dwachakka, obtain the Eraser Grass by defeating Tree Sages.<br>③ In Crystal Palace, give Director Dura Magic Water & Eraser Grass.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 > | 127 |                                                                      <sub>伝説の聖具<br><br>Legendary Sacred Tool</sub>                                                                       |             <sub>Director Dura</sub>             |                <sub>Crystal Palace (3F)<br>Dwachakka</sub>                |                                                           <sub>Cleared 126</sub>                                                            |                                                                        <sub>(2) Dwachakka Oil<br>(1) Urubea Gold Coin</sub>                                                                         | <sub>① .<br>② .<br>③ .</sub>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 > | 128 |                                                                          <sub>聖女の祈り<br><br>Saint's Prayer</sub>                                                                          |             <sub>Director Dura</sub>             |                <sub>Crystal Palace (3F)<br>Dwachakka</sub>                |                                                           <sub>Cleared 127</sub>                                                            |                                                                                     <sub>(10) Yellow Eyes</sub>                                                                                     | <sub>① .<br>② .<br>③ In Crystal Palace, Dwachakka, report back to Director Dura.</sub>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 > | 129 |                                                                           <sub>天魔復活<br><br>Demon Revival</sub>                                                                            |             <sub>Director Dura</sub>             |                <sub>Crystal Palace (3F)<br>Dwachakka</sub>                |                                                           <sub>Cleared 128</sub>                                                            |                                                                                  <sub>(3) Urubea Gold Coins</sub>                                                                                   | <sub>① .<br>② .<br>③ .<br>④ In Crystal Palace, report back to Director Dura.</sub>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -504,6 +646,73 @@
 > ### Metal Healie
 >
 > - Leenam Fields ( D7, rainy ), Wena Islands
+>
+> ---
+>
+> ## Skill-Up Panels
+>
+> <details>
+>
+> | Tier | Location                                             | Note(s)                                 |
+> | :--- | :--------------------------------------------------- | :-------------------------------------- |
+> | 🥉   |                                                      | Clear 164                               |
+> | 🥉   |                                                      | Clear 170                               |
+> | 🥉   |                                                      | Clear 176                               |
+> | 🥉   |                                                      | Clear 182                               |
+> | 🥉   |                                                      | Clear 188                               |
+> | 🥉   |                                                      | Clear 194                               |
+> | 🥉   |                                                      | Clear 200                               |
+> | 🥉   |                                                      | Clear 206                               |
+> | 🥉   | Gartlant (W)<br>Ogreed                               | Red treasure chest                      |
+> | 🥉   | Pirate Hideout (Underground - F1)<br>Ogreed          | Red treasure chest                      |
+> | 🥉   | Top Floor<br>Glittering Windmill Tower<br>Pukuland   | Red treasure chest                      |
+> | 🥉   | Megistris Castle (1F)<br>Pukuland                    | Red treasure chest                      |
+> | 🥉   | Episteesa Hills (D4)<br>Pukuland                     | Red treasure chest                      |
+> | 🥉   | Chaldea Mountain Pass (E3)<br>Dwachakka              | Red treasure chest                      |
+> | 🥉   | Glen Castle (SPOILER - Armory)<br>Ogreed             | Red treasure chest                      |
+> | 🥉   | Temple of Reidamedes (Lower - C8)                    | Red treasure chest                      |
+> | 🥉   | Gartlant Territory (S)<br>Ogreed                     | Clear 030<br>Black treasure chest       |
+> | 🥉   | Orseco Highlands (center)<br>Ogreed                  | Clear 030<br>Black treasure chest       |
+> | 🥉   | Megiraza Cave<br>Pukuland                            | Clear 030<br>Black treasure chest       |
+> | 🥉   | Molinara Forest (E)<br>Eltona                        | Clear 030<br>Black treasure chest       |
+> | 🥉   | Royal City Kamiharumui (Samurai Residence)<br>Eltona | Clear 030<br>Black treasure chest       |
+> | 🥉   | Forest of Illusions (W)<br>Eltona                    | Clear 030<br>Black treasure chest       |
+> | 🥉   | Abandoned Castle (Gate)<br>Eltona                    | Clear 030<br>Black treasure chest       |
+> | 🥉   | Verinard South (NE)<br>Wena Islands                  | Clear 030<br>Black treasure chest       |
+> | 🥉   | Verinard West (N)<br>Wena Islands                    | Clear 030<br>Black treasure chest       |
+> | 🥉   | Verse Mountain Forest (W)<br>Wena Islands            | Clear 030<br>Black treasure chest       |
+> | 🥉   | Booner Rainforest (N)<br>Wena Islands                | Clear 030<br>Black treasure chest       |
+> | 🥉   | Zagban Hills (SW)<br>Dwachakka                       | Clear 030<br>Black treasure chest       |
+> | 🥉   | Dolworm Crystal Palace (2F)<br>Dwachakka             | Clear 030<br>Black treasure chest       |
+> | 🥉   | Calsadora Volcano<br>Dwachakka                       | Clear 030,058<br>Black treasure chest   |
+> | 🥈   |                                                      | Clear 138                               |
+> | 🥈   |                                                      | Clear 143                               |
+> | 🥈   |                                                      | Clear 148                               |
+> | 🥈   |                                                      | Clear 153                               |
+> | 🥈   |                                                      | Clear 158                               |
+> | 🥈   |                                                      | Clear 163                               |
+> | 🥈   |                                                      | Clear 169                               |
+> | 🥈   |                                                      | Clear 175                               |
+> | 🥈   |                                                      | Clear 181                               |
+> | 🥈   |                                                      | Clear 187                               |
+> | 🥈   |                                                      | Clear 193                               |
+> | 🥈   |                                                      | Clear 199                               |
+> | 🥈   |                                                      | Clear 205                               |
+> | 🥈   |                                                      | Clear 211                               |
+> | 🥈   | Hunter's Den (C7)<br>Ogreed                          | Clear 030<br>Black treasure chest       |
+> | 🥈   | Budley Rock Zone (B8)<br>Ogreed                      | Clear 030<br>Black treasure chest       |
+> | 🥈   | Choppi Wilderness (F8)<br>Pukuland                   | Clear 030<br>Black treasure chest       |
+> | 🥈   | Cursed Land (E4)<br>Eltona                           | Clear 030<br>Black treasure chest       |
+> | 🥇   | Fish Exchange<br>Port Lendor                         | Exchange for 50,000 fish coins          |
+> | 🥇   | Casino<br>Luckland                                   | Exchange for 500,000 casino tokens      |
+> | 🥇   | Medal Exchange<br>Luckland                           | Exchange for 20 Mini Medals             |
+> | 🥇   | Eternal Maze (C6)<br>Wena Islands                    | Clear 030<br>Black treasure chest       |
+> | 🥇   | Deep Underground Ruins (C4)<br>Dwachakka             | Clear 030<br>Black treasure chest       |
+> | 🥇   | Hades' Heart<br>3rd Isle Upper (D2)                  | Clear 030<br>Black treasure chest       |
+> | 🥇   | Hades' Heart<br>3rd Isle Middle (E7)                 | Clear 030<br>Black treasure chest       |
+> | 🌈   | Landon Mountains Summit<br>Ogreed                    | After clearing Ver. 1, speak with Fluka |
+>
+> </details>
 
 ---
 
