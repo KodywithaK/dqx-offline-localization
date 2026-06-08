@@ -35,47 +35,49 @@
 >
 > <details><summary><h2>Main Story</h2></summary>
 >
-> |   Type   |                          Story Of \_                          |                                                                    Progression |       Comment(s)       |
-> | :------: | :-----------------------------------------------------------: | -----------------------------------------------------------------------------: | :--------------------: |
-> | Prologue |                                                               |                                                                                |                        |
-> |          |                 Ethene/Etern<br><br>[ Human ]                 | `de` 🔴 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00001 |
-> |          |                    Agrani<br><br>[ Dwarf ]                    | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00014 |
-> |          |                    Tsuskul<br><br>[ Elf ]                     | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00002 |
-> |          |                    Rangao<br><br>[ Ogre ]                     | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00008 |
-> |          |                 Pukulett<br><br>[ Pukulipo ]                  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00011 |
-> |          |                    Leen<br><br>[ Weddie ]                     | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00005 |
-> |  Vers 1  |                                                               |                                                                                |                        |
-> |          |             Gatara<br><br>[ Key Emblem - Yellow ]             | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00015 |
-> |          |              Azlan<br><br>[ Key Emblem - Green ]              | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 | SYSTXT_PLACENAME_00003 |
-> |          |              Glen<br><br>[ Key Emblem - Black ]               | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00009 |
-> |          |             Orphea<br><br>[ Key Emblem - White ]              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00012 |
-> |          |              Julet<br><br>[ Key Emblem - Blue ]               | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00006 |
-> |          |       Ship Shapers<br><br>[ the Encounter with Hollow ]       | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00017 |
-> |          |             Dolworm<br><br>[ Key Emblem - Gold ]              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00016 |
-> |          |            Kamiharmui<br><br>[ Key Emblem - Pink ]            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00004 |
-> |          |             Gartlant<br><br>[ Key Emblem - Red ]              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00010 |
-> |          |           Megistris<br><br>[ Key Emblem - Purple ]            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00013 |
-> |          |            Verinard<br><br>[ Key Emblem - Silver ]            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00007 |
-> |  Vers 2  |                                                               |                                                                                |                        |
-> |          |             Lendersia<br><br>[ The Grand Titus ]              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00019 |
-> |          |            Lendersia<br><br>[ The 3 Butterflies ]             | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |        Melsandy<br><br>[ The 3 Butterflies - Silver ]         | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00022 |
-> |          |       Celed/Seredo<br><br>[ The 3 Butterflies - Amber ]       | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00023 |
-> |          |        Al-Ahagiro<br><br>[ The 3 Butterflies - Green ]        | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00024 |
-> |          | Gran Zedora<br><br>[ The 3 Butterflies - Anlucia's Memories ] | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00025 |
-> |          |   The Land of Overlapping Fates<br><br>[ Pendulum of Fate ]   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00027 |
-> |          |             Melsandy<br><br>[ Pendulum of Fate ]              | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |       Celed/Seredo<br><br>[ When Life & Death Overlap ]       | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |           Al-Ahagiro<br><br>[ Dawn of Al-Ahagiro ]            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |     Assignment From Lushenda<br><br>[ Pendulum of Fate ]      | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |  The Spinning Bonds of Courage<br><br>[ Divine Crimsonite ]   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00028 |
-> |          |          The Wings of Soaring Hope<br><br>[ Dragon ]          | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00029 |
-> |          |            The Endgame of Eternity<br>[ Endgame ]             | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00030 |
+> |   Type   |                        Story Of \_                         |                                                                 Progression |       Comment(s)       |
+> | :------: | :--------------------------------------------------------: | --------------------------------------------------------------------------: | :--------------------: |
+> | Prologue |                                                            |                                                                             |                        |
+> |          |               Ethene/Etern<br><br>[ Human ]                | `de` 🔴 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00001 |
+> |          |                  Agrani<br><br>[ Dwarf ]                   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00014 |
+> |          |                   Tsuskul<br><br>[ Elf ]                   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00002 |
+> |          |                   Rangao<br><br>[ Ogre ]                   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00008 |
+> |          |                Pukulett<br><br>[ Pukulipo ]                | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00011 |
+> |          |                   Leen<br><br>[ Weddie ]                   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00005 |
+> |  Vers 1  |                                                            |                                                                             |                        |
+> |          |           Gatara<br><br>[ Key Emblem - Yellow ]            | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00015 |
+> |          |            Azlan<br><br>[ Key Emblem - Green ]             | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 | SYSTXT_PLACENAME_00003 |
+> |          |             Glen<br><br>[ Key Emblem - Black ]             | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00009 |
+> |          |            Orphea<br><br>[ Key Emblem - White ]            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00012 |
+> |          |             Julet<br><br>[ Key Emblem - Blue ]             | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00006 |
+> |          |     Ship Shapers<br><br>[ the Encounter with Hollow ]      | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00017 |
+> |          |            Dolworm<br><br>[ Key Emblem - Gold ]            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00016 |
+> |          |          Kamiharmui<br><br>[ Key Emblem - Pink ]           | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00004 |
+> |          |            Gartlant<br><br>[ Key Emblem - Red ]            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00010 |
+> |          |          Megistris<br><br>[ Key Emblem - Purple ]          | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00013 |
+> |          |          Verinard<br><br>[ Key Emblem - Silver ]           | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00007 |
+> | Vers 2.0 |                                                            |                                                                             |                        |
+> |          |            Lendersia<br><br>[ The Grand Titus ]            | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00019 |
+> |          |    Lendersia<br><br>[ 3 Butterflies - Three Way Gate ]     | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |         Melsandy<br><br>[ 3 Butterflies - Silver ]         | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00022 |
+> |          |       Celed/Seredo<br><br>[ 3 Butterflies - Amber ]        | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00023 |
+> |          |        Al-Ahagiro<br><br>[ 3 Butterflies - Green ]         | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00024 |
+> |          | Gran Zedora<br><br>[ 3 Butterflies - Anlucia's Memories ]  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00025 |
+> | Vers 2.1 | The Land of Overlapping Fates<br><br>[ Pendulum of Fate ]  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00027 |
+> |          |        Melsandy<br><br>[ The Hero & Witch Finale ]         | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |     Celed/Seredo<br><br>[ When Life & Death Overlap ]      | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |          Al-Ahagiro<br><br>[ Dawn of Al-Ahagiro ]          | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> | Vers 2.2 |    Assignment From Lushenda<br><br>[ Pendulum of Fate ]    | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          | The Spinning Bonds of Courage<br><br>[ Divine Crimsonite ] | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00028 |
+> | Vers 2.3 |        The Wings of Soaring Hope<br><br>[ Dragon ]         | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00029 |
+> | Vers 2.4 |           The Endgame of Eternity<br>[ Endgame ]           | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00030 |
+>
+> </details>
 >
 > <details><summary><h2>Quests</h2></summary>
 >
-> |          Quest          |                                                                    Progression |  Comment(s)  |
-> | :---------------------: | -----------------------------------------------------------------------------: | :----------: |
+> |          Quest          |                                                                 Progression |  Comment(s)  |
+> | :---------------------: | --------------------------------------------------------------------------: | :----------: |
 > | 001<br><br>Super Useful | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🔴 |   KQ_001_1   |
 > | 002<br><br>Super Useful | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🔴 |   KQ_007_1   |
 > | 003<br><br>Super Useful | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🔴 |   KQ_005_1   |

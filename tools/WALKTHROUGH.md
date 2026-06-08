@@ -281,35 +281,194 @@
 >
 > ## Vers. 2
 >
-> ### Lendersia<br>[ The Grand Titus ]
+> <details><summary><h3>Lendersia<br>[ Grand Titus / 3 Butterflies ]</h3></summary>
 >
-> - TBD
+> - #### 01
+>   - In Port Lendor, speak with the Travel Concierge
+> - #### 02
+>   - In Port Lendor, speak with Director Sugimu at the Ship Bureau
+> - #### 03
+>   - In Port Lendor, board the Grand Titus
+> - #### 04
+>   - Onboard the Grand Titus, go to the bridge
+> - #### 05
+>   - Onboard the Grand Titus, go to the rear deck
+> - #### 06
+>   - Onboard the Grand Titus, speak with the inn staff
+> - #### 07
+>   - In Coniware Plain, enter Three Way Gate
+> - #### 08
+>   - Complete the quest for Melsandy Village
+>   - Complete the quest for the town of Celed
+>   - Complete the quest for Al-Ahaghiro Kingdom
+> - #### 09
+>   - In Three Way Gate, enter Reviewle Highway (S)
+> - #### 10
+>   - Enter Gran Zedora Kingdom
 >
-> ### Lendersia<br>[ The 3 Butterflies ]
+> </details>
 >
-> - TBD
+> ### Melsandy<br>[ 3 Butterflies - Silver ]
 >
-> ### Melsandy<br>[ The 3 Butterflies - Silver ]
+> - #### 01
+>   - Enter Melsandy Village
+> - #### 02
+>   - In Melsandy Village, enter the Chief's House
+> - #### 03
+>   - At Melan Waterwheel, enter the house
+> - #### 04
+>   - At Melan Waterwheel, enter the watermill
+> - #### 05
+>   - TBD
+> - #### 06
+>   - Return to Melsandy Village
+> - #### 07
+>   - In Melsandy Village, spend the night at the inn
+> - #### 08
+>   - Enter Sunbeam Square
+> - #### 09
+>   - In the Mysterious Underground Waterway, enter the reservoir
+> - #### 10
+>   - Return to the Chief's House in Melsandy Village
 >
-> - TBD
+> ###
 >
-> ### Celed/Seredo<br>[ The 3 Butterflies - Amber ]
+> <details><summary><h3>Celed/Seredo<br>[ 3 Butterflies - Amber ]</h3></summary>
 >
-> - TBD
+> - #### 01
+>   - Enter the town of Celed
+> - #### 02
+>   - In front of the church, speak with Bosch
+> - #### 03
+>   - In Celedot Mountain Pass, obtain the Dragon Tail by defeating Hackasauruses
+> - #### 04
+>   - In front of the church, give Bosch the Dragon Tail
+> - #### 05
+>   - Enter the church
+> - #### 06
+>   - Visit the church's 2nd floor
+> - #### 07
+>   - On the church's 2nd floor, enter Liselotte's room
+> - #### 08
+>   - Exit the church
+> - #### 09
+>   - At Rinjahar Coastal Ruins, enter Rinja Tower
+> - #### 10
+>   - In Rinja Tower, enter the Altar of Forbidden Magic
+> - #### 11
+>   - In High Church, defeat the Genie Enraja
+> - #### 12
+>   - In High Church, defeat the Genie Enraja ( BATTLE_RETRY )
+> - #### 13
+>   - Enter Alltrades Abbey's Chapel
 >
-> ### Al-Ahagiro<br>[ The 3 Butterflies - Green ]
+> </details>
 >
-> - TBD
+> ###
 >
-> ### Gran Zedora<br>[ The 3 Butterflies - Anlucia's Memories ]
+> <details><summary><h3>Al-Ahagiro<br>[ 3 Butterflies - Green ]</h3></summary>
 >
-> - TBD
+> - #### 01
+>   - Go to the throne room
+> - #### 02
+>   - Go to the Monster Arena Stands
+> - #### 03
+>   - Visit Murudo Mountain
+> - #### 04
+>   - Visit Murudo Mountain's Mural
+> - #### 05
+>   - In Jyra Jungle, visit the Big Tree Root
+> - #### 06
+>   - Return to Al-Ahaghiro
+> - #### 07
+>   - East of Al-Ahaghiro, enter the monsters' service entrance
+> - #### 08
+>   - Proceed further in the monsters' service entrance
+> - #### 09
+>   - Defeat the boss
+> - #### 10
+>   - Return to Murudo Mountain's Mural
 >
-> ### The Land of Overlapping Fates<br>[ Pendulum of Fate ]
+> </details>
 >
-> - TBD
+> ###
 >
-> ### Melsandy<br>[ Pendulum of Fate ]
+> <details><summary><h3>Gran Zedora<br>[ 3 Butterflies - Anlucia's Memories ]</h3></summary>
+>
+> - ##### 01
+>   - Enter Gran Zedora Kingdom
+> - ##### 02
+>   - Enter Gran Zedora Castle, and approach the Hero's Altar
+> - ##### 03
+>   - On Gran Zedora Castle's 2nd floor, enter the throne room
+> - ##### 04
+>   - In Gran Zedora Castle, head for the eastern tower's bedroom
+> - ##### 05
+>   - In Gran Zedora Castle, sleep in the eastern tower's bedroom
+> - ##### 06
+>   - In Gran Zedora Castle, go to the throne room
+> - ##### 07
+>   - Meet Mishua at Gran Zedora Kingdom's entrance
+>   - In Rovos Highlands, enter Zedra Cave
+>   - In Zedra Cave, enter the Dragon Nest
+> - ##### 08
+>   - In Gran Zedora Castle, head for the western tower's bedroom
+> - ##### 09
+>   - In Rovos Highlands, enter Seabreeze Cave
+>   - In Seabreeze Cave, enter the Secret Underground Passage
+>   - In the Secret Underground Passage, enter the Laboratory, then keep ascending
+> - ##### 10
+>   - In Gran Zedora Castle, enter the western tower's bedroom
+> - ##### 11
+>   - In the western tower's bedroom, enter the World of Memories
+> - ##### 12
+>   - In the World of Memories, find and examine the Green Butterfly
+> - ##### 13
+>   - In the World of Memories, find and examine the Green Butterfly
+> - ##### 14
+>   - In the World of Memories, find and examine the Green Butterfly
+> - ##### 15
+>   - Return the Hero Picture Book to the sleeping girl
+> - ##### 16
+>   - In the World of Memories, find and examine the Blue Butterfly
+> - ##### 17
+>   - In the World of Memories, find and examine the Blue Butterfly
+> - ##### 18
+>   - In the World of Memories, find and examine the Blue Butterfly
+> - ##### 19
+>   - Return the Wish Flower to the sleeping girl
+> - ##### 20
+>   - In the World of Memories, find and examine the Red Butterfly
+>   - Defeat the boss
+> - ##### 21
+>   - Return to the sleeping girl
+> - ##### 22
+>   - In the Secret Underground Passage, enter the Laboratory
+> - ##### 23
+>   - In Celed's Alltrades Abbey, enter the teleportal
+> - ##### 24
+>   - In the Cave of Creation's Demonic Cliff, enter the Chamber of White
+> - ##### 25
+>   - In the Cave of Creation's Demonic Cliff, enter the Chamber of Ash
+> - ##### 26
+>   - In the Cave of Creation's Demonic Cliff, enter the Chamber of Black
+> - ##### 27
+>   - In the Cave of Creation's Demonic Cliff, enter the Creation Vortex
+> - ##### 28
+>   - In Gran Zedora Castle, enter the western tower's bedroom
+>
+> </details>
+>
+> ### the Land of Overlapping Fates<br>[ Pendulum of Fate ]
+>
+> - #### 01
+>   - TBD
+> - #### 02
+>   - TBD
+> - #### 03
+>   - TBD
+>
+> ### Melsandy<br>[ The Hero & Witch Finale ]
 >
 > - TBD
 >
@@ -327,15 +486,50 @@
 >
 > ### The Spinning Bonds of Courage<br>[ Divine Crimsonite ]
 >
-> - TBD
+> - #### 01
+>   - TBD
+> - #### 02
+>   - TBD
+> - #### 03
+>   - TBD
+> - #### 04
+>   - TBD
+> - #### 05
+>   - TBD
+> - #### 06
+>   - TBD
 >
 > ### The Wings of Soaring Hope<br>[ Dragon ]
 >
-> - TBD
+> - #### 01
+>   - TBD
+> - #### 02
+>   - TBD
+> - #### 03
+>   - TBD
+> - #### 04
+>   - TBD
+> - #### 05
+>   - TBD
+> - #### 06
+>   - TBD
+> - #### 07
+>   - TBD
+> - #### 08
+>   - TBD
 >
 > ### The Endgame of Eternity<br>[ Endgame ]
 >
-> - TBD
+> - #### 01
+>   - TBD
+> - #### 02
+>   - TBD
+> - #### 03
+>   - TBD
+> - #### 04
+>   - TBD
+> - #### 05
+>   - TBD
 >
 > </details>
 
@@ -408,9 +602,9 @@
 > | 059 |                                              <sub><ruby>託<rt>たく</rt></ruby>された<ruby>希望<rt>きぼう</rt></ruby><br><br>Entrusted Hope</sub>                                              |               <sub>Biàn Dào</sub>                |            <sub>Junk Castle<br>Mount Gatara<br>Dwachakka</sub>            |                                                            <sub>Cleared 58</sub>                                                            |                                                              <sub>(1) Yellow Orb<br>Mechanic's Outfit<br>**{ Duston's Outfit }**</sub>                                                              | <details><sub>① In the Deep Underground Ruins' Forgotten King's Hall, Dwachakka, defeat the Scaravader.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 > | 060 |                                                              <sub>ネコババはダメなのニャ<br><br>Cat 'Purr'glary Is No Good</sub>                                                              |                <sub>Schale</sub>                 |                     <sub>Julet<br>Wena Islands</sub>                      |                                                   <sub>Obtained the Blue Key Emblem</sub>                                                   |                                                                                      <sub>(4) Blue Eyes</sub>                                                                                       | <details><sub>① Speak with Schale.<br>② In King Ladis Island's Beach Hut, speak with Myarji.<br>③ Report back to Schale.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 > | 061 |                                                                   <sub>ネコにゴハンなのニャ<br><br>Food 'Fur' the Cat</sub>                                                                   |              <sub>Cat Rebelio</sub>              |         <sub>Beach Hut<br>King Ladis Island<br>Wena Islands</sub>         |                                                            <sub>Cleared 60</sub>                                                            |                                                                         <sub>(5) Wenal Shells<br>(4) Savvy Sapphires</sub>                                                                          | <details><sub>① At Upper Jule Island's Kyurarana Coast, Wena Islands, obtain the Fruit of the Sea by defeating Octopots.<br>② At Big Cat's Nest, Cat Island, Wena Islands, give Cat Rebelio the Fruit of the Sea.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-> | 062 |                                                                 <sub>ネコかぶりでＧＯなのニャ<br><br>Cat's in the Cradle</sub>                                                                |              <sub>Cat Rebelio</sub>              |         <sub>Beach Hut<br>King Ladis Island<br>Wena Islands</sub>         |                                                            <sub>Cleared 61</sub>                                                            |                                                                                  <sub>(3) Urbea Silver Coins</sub>                                                                                  | <details><sub>① At Somya's House in Julet, Wena Islands, speak with Somya.<br>② On King Ladis Island, Wena Islands, visit the Beach Hut.<br>③ In Verinard Castletown, receive the Letter for Somya from Soneeze.<br>④ On King Ladis Island, Wena Islands, return to the Beach Hut.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-> | 063 |                                                                  <sub>借りてきたネコなのニャ<br><br>Cat Borrowed Meow</sub>                                                                   |              <sub>Cat Rebelio</sub>              |         <sub>Beach Hut<br>King Ladis Island<br>Wena Islands</sub>         |                                                            <sub>Cleared 62</sub>                                                            |                                                                                      <sub>(1) Gold Ingot</sub>                                                                                      | <details><sub>① At Big Cat's Nest, Cat Island, Wena Islands, speak with Cat Mamma.<br>② In Sea Melting Cave's Marine Mammals' Nest, Wena Islands, defeat Sardon's Minions.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-> | 064 |                                                                <sub>ネコの手も借りるのニャ<br><br>Cat Lending A Paw Meow</sub>                                                                |                <sub>Myargi</sub>                 |         <sub>Beach Hut<br>King Ladis Island<br>Wena Islands</sub>         |                                                            <sub>Cleared 63</sub>                                                            |                                                                  <sub>(1) Blue Orb<br>Formal Attire<br>**{ Hyuza's Outfit}**</sub>                                                                  | <details><sub>① At Big Cat's Nest, Cat Island, Wena Islands, defeat Hippo Sardon.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+> | 062 |                                                                <sub>ネコかぶりでＧＯなのニャ<br><br>Cat's in the Cradle</sub>                                                                 |              <sub>Cat Rebelio</sub>              |         <sub>Beach Hut<br>King Ladis Island<br>Wena Islands</sub>         |                                                            <sub>Cleared 61</sub>                                                            |                                                                                  <sub>(3) Urbea Silver Coins</sub>                                                                                  | <details><sub>① At Somya's House in Julet, Wena Islands, speak with Somya.<br>② On King Ladis Island, Wena Islands, visit the Beach Hut.<br>③ In Verinard Castletown, receive the Letter for Somya from Soneeze.<br>④ On King Ladis Island, Wena Islands, return to the Beach Hut.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+> | 063 |                                                                  <sub>借りてきたネコなのニャ<br><br>Cat Borrowed Meow</sub>                                                                   |              <sub>Cat Rebelio</sub>              |         <sub>Beach Hut<br>King Ladis Island<br>Wena Islands</sub>         |                                                            <sub>Cleared 62</sub>                                                            |                                                                                      <sub>(1) Gold Ingot</sub>                                                                                      | <details><sub>① At Big Cat's Nest, Cat Island, Wena Islands, speak with Cat Momma.<br>② In Sea Melting Cave's Marine Mammals' Nest, Wena Islands, defeat Sardon's Minion.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+> | 064 |                                                                <sub>ネコの手も借りるのニャ<br><br>Cat Lending A Paw Meow</sub>                                                                |                <sub>Myarji</sub>                 |         <sub>Beach Hut<br>King Ladis Island<br>Wena Islands</sub>         |                                                            <sub>Cleared 63</sub>                                                            |                                                                  <sub>(1) Blue Orb<br>Formal Attire<br>**{ Hyuza's Outfit}**</sub>                                                                  | <details><sub>① At Big Cat's Nest, Cat Island, Wena Islands, defeat Hippo Sardon.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 > | 065 |                                                                  <sub>ニーベルの指輪を探せ！<br><br>Find Nibel's Ring!</sub>                                                                  |                 <sub>Nibel</sub>                 |                   <sub>Windy City Azlan<br>Eltona</sub>                   |                                                  <sub>Obtained the Green Key Emblem</sub>                                                   |                                                                           <sub>(1) Butterfly Wing<br>(4) Green Eyes</sub>                                                                           | <details><sub>① At the Bird Monster Nest in Kirika Steppe, defeat Bird Monster Kuwatto, to obtain Nibel's Ring and Warrior Sigurd.<br>② Give Nibel her ring.<br>③ Visit Fuura's room in the Lord's Mansion.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 > | 066 |                                                                  <sub>ヴァルハラの戦士たち<br><br>Warriors Of Valhalla</sub>                                                                  |            <sub>Warrior Sigurd</sub>             |  <sub>Lord's Mansion - Fuura's room<br>Windy City Azlan<br>Eltona</sub>   |                                                           <sub>Cleared 065</sub>                                                            |                                                                       <sub>(5) Eltona Daffodils<br>(4) Equable Emeralds</sub>                                                                       | <details><sub>① On Luckland Island, speak with Ada.<br>② Give Ada a steel sword, to obtain Sage Thor.<br>③ Return to Fuura's room in the Lord's Mansion.</sub></details>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 > | 067 |                                                                      <sub>復活の三賢人<br><br>3 Wise Men's Revival</sub>                                                                      |            <sub>Warrior Sigurd</sub>             |  <sub>Lord's Mansion - Fuura's room<br>Windy City Azlan<br>Eltona</sub>   |                                                           <sub>Cleared 066</sub>                                                            |                                                                                             <sub></sub>                                                                                             | <sub>① .<br>② .<br>③ .<br>④ .</sub>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -703,6 +897,7 @@
 > | 🥈   | Budley Rock Zone (B8)<br>Ogreed                      | Clear 030<br>Black treasure chest       |
 > | 🥈   | Choppi Wilderness (F8)<br>Pukuland                   | Clear 030<br>Black treasure chest       |
 > | 🥈   | Cursed Land (E4)<br>Eltona                           | Clear 030<br>Black treasure chest       |
+> | 🥈   | Wald Headwaters (G5)<br>F. Lendersia                 | Red treasure chest                      |
 > | 🥇   | Fish Exchange<br>Port Lendor                         | Exchange for 50,000 fish coins          |
 > | 🥇   | Casino<br>Luckland                                   | Exchange for 500,000 casino tokens      |
 > | 🥇   | Medal Exchange<br>Luckland                           | Exchange for 20 Mini Medals             |
