@@ -1097,18 +1097,18 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 > | eventTextCsKq31104Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsKq31105Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsKq31311Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsMq20011Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsMq20012Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsMq20013Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsMq20014Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsMq20015Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsMq2001hClient.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
+> | eventTextCsMq2001hClient.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (226) SYSTEXT_QUESTLIST_NAME_MQ_001_1 [ SYSTEXT_QUESTLIST_SERIES_MQ_001 ] { Main Story } - Intro                                     |
+> | eventTextCsMq20011Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (226) SYSTEXT_QUESTLIST_NAME_MQ_001_1 [ SYSTEXT_QUESTLIST_SERIES_MQ_001 ] { Main Story }                                             |
+> | eventTextCsMq20012Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (227) SYSTEXT_QUESTLIST_NAME_MQ_001_2 [ SYSTEXT_QUESTLIST_SERIES_MQ_001 ] { Main Story }                                             |
+> | eventTextCsMq20013Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (228) SYSTEXT_QUESTLIST_NAME_MQ_001_3 [ SYSTEXT_QUESTLIST_SERIES_MQ_001 ] { Main Story }                                             |
+> | eventTextCsMq20014Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (229) SYSTEXT_QUESTLIST_NAME_MQ_001_4 [ SYSTEXT_QUESTLIST_SERIES_MQ_001 ] { Main Story }                                             |
+> | eventTextCsMq20015Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (230) SYSTEXT_QUESTLIST_NAME_MQ_001_5 [ SYSTEXT_QUESTLIST_SERIES_MQ_001 ] { Main Story }                                             |
+> | eventTextCsMq2002hClient.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsMq20021Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsMq20022Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsMq20023Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsMq20024Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsMq20025Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsMq2002hClient.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsMq20031Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsMq20032Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsMq20033Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
@@ -1406,9 +1406,9 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 > | eventTextIeR3MelsMonsfServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | `Game.locres.yaml:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`<br>Monster Tavern                                                   |
 > | eventTextIeR3MelsMonsrServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | `Game.locres.yaml:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`<br>Monster Tavern                                                   |
 > | eventTextIeR3MelsTownfServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextIeR3MelsTownrServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
+> | eventTextIeR3MelsTownrServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (226) SYSTEXT_QUESTLIST_NAME_MQ_001_1 [ SYSTEXT_QUESTLIST_SERIES_MQ_001 ] { Main Story }                                             |
 > | eventTextIeR3RonuFldfServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextIeR3RonuFldrServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
+> | eventTextIeR3RonuFldrServer.win32.json                | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (229) SYSTEXT_QUESTLIST_NAME_MQ_001_4 [ SYSTEXT_QUESTLIST_SERIES_MQ_001 ] { Main Story }<br>Autumn Leaf Shop                         |
 > | eventTextIeR3SuisFldfServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeR3SuisFldrServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeR3SyuzFldfServer.win32.json                | 🟢  | 🟢  | 🟢  | 🟢  | 🟢  | 🟢    |                                                                                                                                      |
@@ -3158,6 +3158,6 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 |          |              | m, dipthong             | +zinho                   | O coração/coraçãozinho |
 |          |              | m, -co                  | -co +quinho              | O macaco/macaquinho    |
 |          |              | m, -go                  | -go +guinho              | O lago/laguinho        |
-|          |              | m, vowel                | - final vowel +inho      | O gato/gatoinho        |
+|          |              | m, vowel                | - final vowel +inho      | O gato/gatinho         |
 |          |              | m, vowel, stressed      | - final accent +zinho    | O café/cafezinho       |
 -->

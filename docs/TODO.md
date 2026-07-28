@@ -23,6 +23,28 @@
 
 > [!TIP]
 >
+> # 2026.07.23
+>
+> <details><summary><h2>Build `*_P.pak` locally with https://github.com/nektos/act</h2></summary>
+> 
+> ```cmd
+> REM ------------------------------- Prerequisite -------------------------------
+> REM - Install https://www.docker.com/products/docker-desktop/ and https://github.com/nektos/act
+> REM START "Prerequisite" cmd.exe /k FOR %A IN ("Docker.DockerDesktop" "nektos.act") DO winget install --id %~A
+> REM act
+> REM - Download act's "medium" runner docker image
+> REM - Install Unreal Engine 4.27.2
+> REM ----------------------------------------------------------------------------
+> git clone https://github.com/KodywithaK/dqx-offline-localization.git
+> cd dqx-offline-localization
+> act --bind --workflows .github/workflows/nektos_act.yaml workflow_dispatch
+> REM - After successful run, completed files will output to "dqx-offline-localization\nektos_act\releases"
+> ```
+> 
+> </details>
+
+> [!TIP]
+>
 > # 2026.05.08
 >
 > <details><summary><h2>\$voice_I + \$obj[\$namespace][\$key] + \$voice_O</h2></summary>
