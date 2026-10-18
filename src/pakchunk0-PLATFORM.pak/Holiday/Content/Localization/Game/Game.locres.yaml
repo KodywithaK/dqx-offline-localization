@@ -9875,10 +9875,12 @@ STT_ActionAvgMsg_Simple5:
     pt-BR: ""
     zh-Hans: 对<%sB_TARGET>一行没有起效！
     zh-Hant: 並未對<%sB_TARGET>一行生效！
-  MESSAGE_NO_SKILL_BREATH_MISS:
-    $comments: 🔴
+  MESSAGE_NO_SKILL_BREATH_MISS: &STT_ActionAvgMsg_Simple5.MESSAGE_NO_SKILL_BREATH_MISS
+    $comments: |-
+      🟡
+      *STT_ActionAvgMsg_Simple5.MESSAGE_NO_SKILL_BREATH_MISS
     de: ""
-    en: ""
+    en: <%sB_ACTOR> could not properly breathe fire!
     es: ""
     fr: ""
     it: ""
@@ -18902,10 +18904,12 @@ STT_ActionMsg_Log3:
     pt-BR: ""
     zh-Hans: <%sB_LOG_DAMAGE>对<%sB_TARGET>造成<%dB_VALUE>点伤害！
     zh-Hant: <%sB_LOG_DAMAGE>對<%sB_TARGET>造成了<%dB_VALUE>點傷害！
-  MESSAGE_NO_SKILL_BREATH_MISS:
-    $comments: 🔴
+  MESSAGE_NO_SKILL_BREATH_MISS: &STT_ActionMsg_Log3.MESSAGE_NO_SKILL_BREATH_MISS
+    $comments: |-
+      🟡
+      *STT_ActionMsg_Log3.MESSAGE_NO_SKILL_BREATH_MISS
     de: ""
-    en: ""
+    en: <%sB_LOG_REACTION><%sB_ACTOR> could not properly breathe fire!
     es: ""
     fr: ""
     it: ""
@@ -31865,18 +31869,7 @@ STT_ActionMsg_Simple3:
   MESSAGE_NO_SKILL_BEATWHIP_160: *Txt_BattleMenu_Message_DamageSingle
   MESSAGE_NO_SKILL_BOMB_DAMAGE: *Txt_BattleMenu_Message_DamageSingle
   MESSAGE_NO_SKILL_BREATH_DAMAGE: *Txt_BattleMenu_Message_DamageSingle
-  MESSAGE_NO_SKILL_BREATH_MISS:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_ACTOR>は うまく 炎を はけなかった！
-    ko: '{%sB_ACTOR}|hpp(은,는) 불을 뿜는 데 실패했다!'
-    pt-BR: ""
-    zh-Hans: <%sB_ACTOR>没能成功喷出火焰！
-    zh-Hant: <%sB_ACTOR>沒能成功噴出火焰！
+  MESSAGE_NO_SKILL_BREATH_MISS: *STT_ActionAvgMsg_Simple5.MESSAGE_NO_SKILL_BREATH_MISS
   MESSAGE_NO_SKILL_BUFF_GENMAKAIHOU:
     $comments: 🔴
     de: ""
@@ -33611,18 +33604,7 @@ STT_ActionMsg_Simple5:
   MESSAGE_NO_SKILL_BOMB_DAMAGE: *Txt_BattleMenu_Message_NOEFFECTED_1
   MESSAGE_NO_SKILL_BREATH_DAMAGE: *Txt_BattleMenu_Message_NOEFFECTED_1
   MESSAGE_NO_SKILL_BREATH_DEBUFF: *Txt_BattleMenu_Message_NOEFFECTED_1
-  MESSAGE_NO_SKILL_BREATH_MISS:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_ACTOR>は うまく 炎を はけなかった！
-    ko: '{%sB_ACTOR}|hpp(은,는) 불을 뿜는 데 실패했다!'
-    pt-BR: ""
-    zh-Hans: <%sB_ACTOR>没能成功喷出火焰！
-    zh-Hant: <%sB_ACTOR>沒能成功噴出火焰！
+  MESSAGE_NO_SKILL_BREATH_MISS: *STT_ActionAvgMsg_Simple5.MESSAGE_NO_SKILL_BREATH_MISS
   MESSAGE_NO_SKILL_BUFF:
     $comments: 🟡, Battle - gauge full
     de: ""
@@ -39337,18 +39319,7 @@ STT_ActionSumMsg_Simple5:
   MESSAGE_NO_SKILL_BOMB_DAMAGE: *Txt_BattleMenu_Message_NOEFFECTED_1
   MESSAGE_NO_SKILL_BREATH_DAMAGE: *Txt_BattleMenu_Message_NOEFFECTED_1
   MESSAGE_NO_SKILL_BREATH_DEBUFF: *Txt_BattleMenu_Message_NOEFFECTED_1
-  MESSAGE_NO_SKILL_BREATH_MISS:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_ACTOR>は うまく 炎を はけなかった！
-    ko: '{%sB_ACTOR}|hpp(은,는) 불을 뿜는 데 실패했다!'
-    pt-BR: ""
-    zh-Hans: <%sB_ACTOR>没能成功喷出火焰！
-    zh-Hant: <%sB_ACTOR>沒能成功噴出火焰！
+  MESSAGE_NO_SKILL_BREATH_MISS: *STT_ActionAvgMsg_Simple5.MESSAGE_NO_SKILL_BREATH_MISS
   MESSAGE_NO_SKILL_BUFF:
     $comments: 🟡, Battle - gauge full
     de: ""
@@ -58950,8 +58921,12 @@ STT_BattleMonsterName:
     pt-BR: Cebolinferno
     zh-Hans: 地狱洋葱
     zh-Hant: 地獄洋蔥
-  ID_MONSTER_NAME_00603:
-    $comments: 🟡, see `STT_BattleMonsterName.NAME_NPC_02331`
+  ID_MONSTER_NAME_00603: &STT_BattleMonsterName.ID_MONSTER_NAME_00603
+    $comments: |-
+      🟡
+      (242) SYSTEXT_QUESTLIST_NAME_AQ_016_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_00603]`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_00603
     de: ""
     en: Haunted Tomato
     es: ""
@@ -60831,7 +60806,10 @@ STT_BattleMonsterName:
     zh-Hans: 幼崽龙
     zh-Hant: 幼崽龍
   ID_MONSTER_NAME_04502:
-    $comments: 🟡
+    $comments: |-
+      🟢
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_BattleMonsterName.ID_MONSTER_NAME_04502]`
     de: Frittierer
     en: Small Fry
     es: Pequegarto Ardiente
@@ -60839,7 +60817,7 @@ STT_BattleMonsterName:
     it: Lacertoflamma
     ja: ドラゴンキッズ
     ko: 드래곤 키즈
-    pt-BR: ""
+    pt-BR: Dragãozinho
     zh-Hans: 迷你龙
     zh-Hant: 迷你龍
   ID_MONSTER_NAME_04503:
@@ -61689,7 +61667,11 @@ STT_BattleMonsterName:
     zh-Hans: 半兽人大王
     zh-Hant: 半獸人大王
   ID_MONSTER_NAME_06202:
-    $comments: 🟢, see `DQ11S-Game-Content-TripleData_Multi-language-{LANGUAGE}-db-Localize.db:TXT_ENEMY_NAME_036`
+    $comments: |-
+      🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_06202]`
+      see `DQ11S-Game-Content-TripleData_Multi-language-{LANGUAGE}-db-Localize.db:TXT_ENEMY_NAME_036`
     de: Goldener Ork
     en: Golden Orc
     es: Orco Dorado
@@ -72228,7 +72210,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_06202:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_06202]`
     de: ""
     en: ""
     es: ""
@@ -230508,8 +230493,11 @@ STT_CommonItem:
     pt-BR: ""
     zh-Hans: DUMMY
     zh-Hant: DUMMY
-  NAME_ID_ITEM_SHOKUJI_AKUROBATCAKE: &NAME_ID_ITEM_SHOKUJI_AKUROBATCAKE
-    $comments: 🟡
+  NAME_ID_ITEM_SHOKUJI_AKUROBATCAKE: &STT_CommonItem.NAME_ID_ITEM_SHOKUJI_AKUROBATCAKE
+    $comments: |-
+      🟡
+      see `[STT_CommonItem.*_ID_ITEM_SHOKUJI_AKUROBATCAKE, STT_ToolActionItem.PA_ACTION_NO_I_TOKUSAN6]`
+      *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_AKUROBATCAKE
     de: ""
     en: Acrobati-Cake
     es: ""
@@ -230757,8 +230745,11 @@ STT_CommonItem:
     pt-BR: ""
     zh-Hans: DUMMY
     zh-Hant: DUMMY
-  NAME_ID_ITEM_SHOKUJI_BURGER:
-    $comments: 🟡
+  NAME_ID_ITEM_SHOKUJI_BURGER: &STT_CommonItem.NAME_ID_ITEM_SHOKUJI_BURGER
+    $comments: |-
+      🟡
+      see `[STT_CommonItem.*_ID_ITEM_SHOKUJI_BURGER, STT_ToolActionItem.PA_ACTION_NO_I_TOKUSAN10]`
+      *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_BURGER
     de: ""
     en: Grand Titus Bowl
     es: ""
@@ -230808,8 +230799,11 @@ STT_CommonItem:
     pt-BR: ""
     zh-Hans: DUMMY
     zh-Hant: DUMMY
-  NAME_ID_ITEM_SHOKUJI_BUTAMAN:
-    $comments: 🟡
+  NAME_ID_ITEM_SHOKUJI_BUTAMAN: &STT_CommonItem.NAME_ID_ITEM_SHOKUJI_BUTAMAN
+    $comments: |-
+      🟡
+      see `[STT_CommonItem.*_ID_ITEM_SHOKUJI_BUTAMAN, STT_ToolActionItem.PA_ACTION_NO_I_TOKUSAN5]`
+      *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_BUTAMAN
     de: ""
     en: Gatara Pork Buns
     es: ""
@@ -230859,8 +230853,11 @@ STT_CommonItem:
     pt-BR: ""
     zh-Hans: DUMMY
     zh-Hant: DUMMY
-  NAME_ID_ITEM_SHOKUJI_COLOSSEO:
-    $comments: 🟡
+  NAME_ID_ITEM_SHOKUJI_COLOSSEO: &STT_CommonItem.NAME_ID_ITEM_SHOKUJI_COLOSSEO
+    $comments: |-
+      🟡
+      see `[STT_CommonItem.*_ID_ITEM_SHOKUJI_COLOSSEO, STT_ToolActionItem.PA_ACTION_NO_I_TOKUSAN11]`
+      *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_COLOSSEO
     de: ""
     en: Colosseum Burger
     es: ""
@@ -231057,8 +231054,11 @@ STT_CommonItem:
     pt-BR: ""
     zh-Hans: DUMMY
     zh-Hant: DUMMY
-  NAME_ID_ITEM_SHOKUJI_GENKOTSUAME:
-    $comments: 🟡
+  NAME_ID_ITEM_SHOKUJI_GENKOTSUAME: &STT_CommonItem.NAME_ID_ITEM_SHOKUJI_GENKOTSUAME
+    $comments: |-
+      🟡
+      see `[STT_CommonItem.*_ID_ITEM_SHOKUJI_GENKOTSUAME, STT_ToolActionItem.PA_ACTION_NO_I_TOKUSAN3]`
+      *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_GENKOTSUAME
     de: ""
     en: Fisticandy
     es: ""
@@ -231408,8 +231408,11 @@ STT_CommonItem:
     pt-BR: ""
     zh-Hans: DUMMY
     zh-Hant: DUMMY
-  NAME_ID_ITEM_SHOKUJI_KAMUSHIKA: &NAME_ID_ITEM_SHOKUJI_KAMUSHIKA
-    $comments: 🟢
+  NAME_ID_ITEM_SHOKUJI_KAMUSHIKA: &STT_CommonItem.NAME_ID_ITEM_SHOKUJI_KAMUSHIKA
+    $comments: |-
+      🟢
+      see `[STT_CommonItem.*_ID_ITEM_SHOKUJI_KAMUSHIKA, STT_ToolActionItem.PA_ACTION_NO_I_TOKUSAN2]`
+      *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_KAMUSHIKA
     de: Waffel des Azlantilope
     en: Azlantelope Wafer
     es: Galleta de la Azlantílope
@@ -231459,8 +231462,11 @@ STT_CommonItem:
     pt-BR: ""
     zh-Hans: DUMMY
     zh-Hant: DUMMY
-  NAME_ID_ITEM_SHOKUJI_KARAAGE:
-    $comments: 🟡
+  NAME_ID_ITEM_SHOKUJI_KARAAGE: &STT_CommonItem.NAME_ID_ITEM_SHOKUJI_KARAAGE
+    $comments: |-
+      🟡
+      see `[STT_CommonItem.*_ID_ITEM_SHOKUJI_KARAAGE, STT_ToolActionItem.PA_ACTION_NO_I_TOKUSAN8]`
+      *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_KARAAGE
     de: ""
     en: Megis Fried Chicken
     es: ""
@@ -231608,8 +231614,11 @@ STT_CommonItem:
     pt-BR: ""
     zh-Hans: DUMMY
     zh-Hant: DUMMY
-  NAME_ID_ITEM_SHOKUJI_KOKONATS:
-    $comments: 🟡
+  NAME_ID_ITEM_SHOKUJI_KOKONATS: &STT_CommonItem.NAME_ID_ITEM_SHOKUJI_KOKONATS
+    $comments: |-
+      🟡
+      see `[STT_CommonItem.*_ID_ITEM_SHOKUJI_KOKONATS, STT_ToolActionItem.PA_ACTION_NO_I_TOKUSAN12]`
+      *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_KOKONATS
     de: ""
     en: Ceaseless Summer Coconut
     es: ""
@@ -231961,8 +231970,11 @@ STT_CommonItem:
     pt-BR: ""
     zh-Hans: DUMMY
     zh-Hant: DUMMY
-  NAME_ID_ITEM_SHOKUJI_ORGANICSARADA:
-    $comments: 🟡
+  NAME_ID_ITEM_SHOKUJI_ORGANICSARADA: &STT_CommonItem.NAME_ID_ITEM_SHOKUJI_ORGANICSARADA
+    $comments: |-
+      🟡
+      see `[STT_CommonItem.*_ID_ITEM_SHOKUJI_ORGANICSARADA, STT_ToolActionItem.PA_ACTION_NO_I_TOKUSAN4]`
+      *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_ORGANICSARADA
     de: ""
     en: Ogre-nic Salad
     es: ""
@@ -232159,8 +232171,11 @@ STT_CommonItem:
     pt-BR: ""
     zh-Hans: DUMMY
     zh-Hant: DUMMY
-  NAME_ID_ITEM_SHOKUJI_SABAKUNOTSUKI:
-    $comments: 🟡
+  NAME_ID_ITEM_SHOKUJI_SABAKUNOTSUKI: &STT_CommonItem.NAME_ID_ITEM_SHOKUJI_SABAKUNOTSUKI
+    $comments: |-
+      🟡
+      see `[STT_CommonItem.*_ID_ITEM_SHOKUJI_SABAKUNOTSUKI, STT_ToolActionItem.PA_ACTION_NO_I_TOKUSAN1]`
+      *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_SABAKUNOTSUKI
     de: ""
     en: Desert-Moon Dessert
     es: ""
@@ -232210,8 +232225,11 @@ STT_CommonItem:
     pt-BR: ""
     zh-Hans: DUMMY
     zh-Hant: DUMMY
-  NAME_ID_ITEM_SHOKUJI_SABURE: &NAME_ID_ITEM_SHOKUJI_SABURE
-    $comments: 🟢, see `STT_CommonItem.NAME_ID_ITEM_SHOKUJI_SABURE`
+  NAME_ID_ITEM_SHOKUJI_SABURE: &STT_CommonItem.NAME_ID_ITEM_SHOKUJI_SABURE
+    $comments: |-
+      🟢
+      see `[STT_CommonItem.*_ID_ITEM_SHOKUJI_SABURE, STT_ToolActionItem.PA_ACTION_NO_I_TOKUSAN7]`
+      *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_SABURE
     de: Königin Sablé
     en: Queen Sablé
     es: Reina Sablé
@@ -232261,9 +232279,11 @@ STT_CommonItem:
     pt-BR: ""
     zh-Hans: DUMMY
     zh-Hant: DUMMY
-  NAME_ID_ITEM_SHOKUJI_SAKURAMOCHI:
+  NAME_ID_ITEM_SHOKUJI_SAKURAMOCHI: &STT_CommonItem.NAME_ID_ITEM_SHOKUJI_SAKURAMOCHI
     $comments: |-
       🟢
+      see `[STT_CommonItem.*_ID_ITEM_SHOKUJI_SAKURAMOCHI, STT_ToolActionItem.PA_ACTION_NO_I_TOKUSAN9]`
+      *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_SAKURAMOCHI
       Der, El, Le, Il, O
     de: Kaiser-Reiskuchen
     en: Imperial Cherry Mochi
@@ -247644,7 +247664,10 @@ STT_DaijinamonoItem:
     zh-Hans: shenshengchangxue
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_HORONOKENKYUUSEIKA:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HORONOKENKYUUSEIKA]`
     de: ""
     en: Hollow's Research Results
     es: ""
@@ -247656,12 +247679,15 @@ STT_DaijinamonoItem:
     zh-Hans: 霍洛的研究成果
     zh-Hant: 霍洛的研究成果
   EXPLANATION_ID_ITEM_DAIJINAMONO_HORONOKENKYUUSEIKA:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HORONOKENKYUUSEIKA]`
     de: ""
     en: |-
-      Secret research
-      results given
-      by Sage Hollow.
+      Secret research results
+      entrusted to us by
+      Sage Hollow
     es: ""
     fr: ""
     it: ""
@@ -247683,7 +247709,10 @@ STT_DaijinamonoItem:
       得到的
       祕密研究成果
   RUBY_ID_ITEM_DAIJINAMONO_HORONOKENKYUUSEIKA:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HORONOKENKYUUSEIKA]`
     de: ""
     en: ""
     es: ""
@@ -248714,24 +248743,31 @@ STT_DaijinamonoItem:
     zh-Hans: xieguizhijiao
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_JYOUKANOHABU:
-    $comments: 🔴
-    de: ""
-    en: Purifying Herbs
-    es: ""
-    fr: ""
-    it: ""
+    $comments: |-
+      🟢
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_JYOUKANOHABU]`
+      Die,Las,Les,Le,As
+    de: Reinigungskräuter
+    en: Purification Herbs
+    es: Hierbas Purificadoras
+    fr: Herbes Purificatrices
+    it: Erbe Purificatrici
     ja: 浄化のハーブ
     ko: 정화의 허브
-    pt-BR: ""
+    pt-BR: Ervas Purificadoras
     zh-Hans: 净化香草
     zh-Hant: 淨化香草
   EXPLANATION_ID_ITEM_DAIJINAMONO_JYOUKANOHABU:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_JYOUKANOHABU]`
     de: ""
     en: |-
-      Special medicinal
-      herbs needed for the
-      sages' research.
+      Special medicinal herbs
+      needed for the Sages'
+      research.
     es: ""
     fr: ""
     it: ""
@@ -248753,7 +248789,10 @@ STT_DaijinamonoItem:
       研究時所需的
       特殊藥草
   RUBY_ID_ITEM_DAIJINAMONO_JYOUKANOHABU:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_JYOUKANOHABU]`
     de: ""
     en: ""
     es: ""
@@ -248881,24 +248920,31 @@ STT_DaijinamonoItem:
     zh-Hans: chunbaidexuepian
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_KAENHABANERO:
-    $comments: 🟡
-    de: ""
+    $comments: |-
+      🟢
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KAENHABANERO]`
+      Der,El,Le,L',O
+    de: Flammende Habanero
     en: Flaming Habanero
-    es: ""
-    fr: ""
-    it: ""
+    es: Habanero Flameante
+    fr: Habanero Flamboyant
+    it: Habanero Fiammeggiante
     ja: 火炎ハバネロ
     ko: 화염 하바네로
-    pt-BR: ""
+    pt-BR: Habanero Flamejante
     zh-Hans: 火焰灯笼椒
     zh-Hant: 火焰燈籠椒
   EXPLANATION_ID_ITEM_DAIJINAMONO_KAENHABANERO:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KAENHABANERO]`
     de: ""
     en: |-
       A fierce habanero;
       its super spice will
-      make you spit fire.
+      make you spit fire
     es: ""
     fr: ""
     it: ""
@@ -248920,7 +248966,10 @@ STT_DaijinamonoItem:
       令人嘴裡冒火
       兇惡的燈籠椒
   RUBY_ID_ITEM_DAIJINAMONO_KAENHABANERO:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KAENHABANERO]`
     de: ""
     en: ""
     es: ""
@@ -250066,24 +250115,32 @@ STT_DaijinamonoItem:
     zh-Hans: jinzhijianhui
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_KINNOTAMAGO:
-    $comments: 🟡
-    de: ""
+    $comments: |-
+      🟢
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KINNOTAMAGO]`
+      The Goose That Laid The Golden Eggs
+      Das,El,L',L',O
+    de: Goldene Ei
     en: Golden Egg
-    es: ""
-    fr: ""
-    it: ""
+    es: Huevo de Oro
+    fr: Œuf d'Or
+    it: Uovo d'Oro
     ja: 金のたまご
     ko: 금 달걀
-    pt-BR: ""
+    pt-BR: Ovo de Ouro
     zh-Hans: 金蛋
     zh-Hant: 金蛋
   EXPLANATION_ID_ITEM_DAIJINAMONO_KINNOTAMAGO:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KINNOTAMAGO]`
     de: ""
     en: |-
       A golden egg rarely
       laid by special
-      chickens.
+      chicken
     es: ""
     fr: ""
     it: ""
@@ -250105,7 +250162,10 @@ STT_DaijinamonoItem:
       偶爾會生下的
       金黃色雞蛋
   RUBY_ID_ITEM_DAIJINAMONO_KINNOTAMAGO:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KINNOTAMAGO]`
     de: ""
     en: ""
     es: ""
@@ -255890,24 +255950,31 @@ STT_DaijinamonoItem:
     zh-Hans: zhuangzhemianbaodelanzi
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_PANPANININOTO:
-    $comments: 🟡
-    de: ""
-    en: Panpanini's Notebook
-    es: ""
-    fr: ""
-    it: ""
+    $comments: |-
+      🟢
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_PANPANININOTO]`
+      Das,El,Le,Il,O
+    de: Notizbuch des Pampaninis
+    en: Pampanini's Notebook
+    es: Cuaderno del Pampanini
+    fr: Cahier du Pampanini
+    it: Quaderno del Pampanini
     ja: パンパニーニノート
     ko: 팡파니니 노트
-    pt-BR: ""
+    pt-BR: Caderno do Pampanini
     zh-Hans: 庞帕尼涅的笔记本
     zh-Hant: 龐帕尼涅筆記本
   EXPLANATION_ID_ITEM_DAIJINAMONO_PANPANININOTO:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_PANPANININOTO]`
     de: ""
     en: |-
       A notebook filled
       with Pampanini's
-      favorite scenes.
+      favorite settings
     es: ""
     fr: ""
     it: ""
@@ -255929,7 +255996,10 @@ STT_DaijinamonoItem:
       祕藏設定的
       筆記本
   RUBY_ID_ITEM_DAIJINAMONO_PANPANININOTO:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_PANPANININOTO]`
     de: ""
     en: ""
     es: ""
@@ -257455,7 +257525,11 @@ STT_DaijinamonoItem:
     zh-Hans: lulazhishi
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_RUSYENDANOTEGAMI:
-    $comments: 🟢
+    $comments: |-
+      🟢
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_RUSYENDANOTEGAMI]`
+      Der,La,La,La,A
     de: Lushendas Brief
     en: Lushenda's Letter
     es: Carta de Lushenda
@@ -257467,12 +257541,15 @@ STT_DaijinamonoItem:
     zh-Hans: 露谢妲的信
     zh-Hant: 露仙妲的信
   EXPLANATION_ID_ITEM_DAIJINAMONO_RUSYENDANOTEGAMI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_RUSYENDANOTEGAMI]`
     de: ""
     en: |-
-      Letter to Sage
-      Hollow from
-      Sage Lushenda.
+      A letter from
+      Sage Lushenda
+      to Sage Hollow
     es: ""
     fr: ""
     it: ""
@@ -257492,7 +257569,10 @@ STT_DaijinamonoItem:
       賢者露仙妲寫給
       賢者霍洛的信件
   RUBY_ID_ITEM_DAIJINAMONO_RUSYENDANOTEGAMI:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_RUSYENDANOTEGAMI]`
     de: ""
     en: ""
     es: ""
@@ -263381,6 +263461,8 @@ STT_DaijinamonoItem:
   NAME_ID_ITEM_DAIJINAMONO_ZANKURONEPAN: &NAME_ID_ITEM_DAIJINAMONO_ZANKURONEPAN
     $comments: |-
       🟢
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZANKURONEPAN]`
       Das, El, Le, Il, O
     de: Zankrone-Brot
     en: Zankrone Bread
@@ -263393,7 +263475,10 @@ STT_DaijinamonoItem:
     zh-Hans: 赞库罗尼面包
     zh-Hant: 桑克朗麵包
   EXPLANATION_ID_ITEM_DAIJINAMONO_ZANKURONEPAN:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZANKURONEPAN]`
     de: ""
     en: |-
       Super spicy bread
@@ -263420,7 +263505,10 @@ STT_DaijinamonoItem:
       非常喜歡吃的
       超辣麵包
   RUBY_ID_ITEM_DAIJINAMONO_ZANKURONEPAN:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZANKURONEPAN]`
     de: ""
     en: ""
     es: ""
@@ -271498,7 +271586,10 @@ STT_EventMonsterName:
     zh-Hant: 暴君巴薩古蘭德
 STT_EventMonsterName_2nd: #pakchunk2-{PLATFORM}.utoc/Game/Content/DLC/Ver2/StringTables/Game/Battle/STT_EventMonsterName_2nd.uasset
   AQ_016_1:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (242) SYSTEXT_QUESTLIST_NAME_AQ_016_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_00603]`
     de: ""
     en: Haunted Tomato Army
     es: ""
@@ -280099,7 +280190,7 @@ STT_FacilityConciergeNpc:
       Recommended travel destinations are...
       Each region of the true Lendersia continent.
       <br>
-      Sage Lucienda of Castle Gran Zedora.
+      Sage Lushenda of Castle Gran Zedora.
       I believe you have been instructed to
       travel around the continent of Lendersia.
       Eventually, the path ahead will become clear.
@@ -280176,7 +280267,7 @@ STT_FacilityConciergeNpc:
       There are currently no travel destinations that we can
       recommend to you, {pc}.
       <br>
-      From Lucienda, the wise man of Gran Zedora Castle.
+      From Sage Lushenda of Gran Zedora Castle:
       Something...
       I believe you have been given instructions to investigate a serious incident.
       <br>
@@ -280243,7 +280334,7 @@ STT_FacilityConciergeNpc:
       Recommended travel destinations are...
       Each region of the true Lendersia continent.
       <br>
-      Sage Lucienda of Castle Gran Zedora.
+      Sage Lushenda of Castle Gran Zedora.
       I believe you have been instructed to
       travel around the continent of Lendersia.
       Eventually, the path ahead will become clear.
@@ -327168,12 +327259,15 @@ STT_LoadingTips:
       然而由於希歐多爾不准人類以外的種族入城，
       一行人只能滯留在海峽的岩屋。
   SYSTXT_TIPS_MESSAGE_ZINBUTSUSYOKAI_00680:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
     en: |-
-      Daughter of Gamilgo, one of the Four Sorcerers of the past. She is hot-headed
-      and spoiled but learned to appreciate
-      others when she met Erju and Himea.
+      The daughter of Gamilgo, one of the Four Sorcerers from 500
+      years ago. Perhaps it is because she was raised only around
+      adults that she acts like a spoiled child, is immature for
+      her age, and shy around strangers. Since being around Erju
+      and Himea though, she seems to have grown up, and thinks
+      about her part in the "World" and the future.
     es: ""
     fr: ""
     it: ""
@@ -355511,13 +355605,16 @@ STT_Monster_Tips1_ver1:
       會順從自己的本能
       吐出各種各樣的氣息。
   SYSTXT_MONSTER_TIPS1_MONSTER_NO_04502:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_BattleMonsterName.ID_MONSTER_NAME_04502]`
     de: ""
     en: |-
-      Naughty baby dragon.
-      Is she old enough to want to stretch her back?
-      She is so excited that she
-      tries to shoot a fierce fire...?
+      A naughty baby dragon. Is she old
+      enough to want to stretch her back?
+      She is so excited that she tries to
+      shoot a fierce fire...?
     es: ""
     fr: ""
     it: ""
@@ -357354,12 +357451,16 @@ STT_Monster_Tips1_ver1:
       恢復咒文。
       不愧是半獸人界的王者。
   SYSTXT_MONSTER_TIPS1_MONSTER_NO_06202:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_06202]`
     de: ""
     en: |-
-      A boar monster wrapped in magnificent golden fur.
-      Samidaru Tsuki He is Behomara and
-      She is active in both offense and defense.
+      A wild boar monster wrapped in
+      magnificent, golden fur. With
+      Multithrust & Multiheal, it excels
+      in both offense & defense.
     es: ""
     fr: ""
     it: ""
@@ -372018,12 +372119,15 @@ STT_Monster_Tips2_ver1:
       或許是在想念遠方的母親吧。
       孤獨才能促使成長。
   SYSTXT_MONSTER_TIPS2_MONSTER_NO_04502:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_BattleMonsterName.ID_MONSTER_NAME_04502]`
     de: ""
     en: |-
-      Actually, it is not known which dragon's child.
-      Maybe this figure is an adult and is actually a
-      dragon adult?
+      Actually, it's not clear which dragon
+      it's the child of. Maybe it's fully
+      formed, and truly an adult dragon?
     es: ""
     fr: ""
     it: ""
@@ -373864,13 +373968,16 @@ STT_Monster_Tips2_ver1:
       然後詠唱貝霍伊米治療。
       有著不坦率的個性。
   SYSTXT_MONSTER_TIPS2_MONSTER_NO_06202:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_06202]`
     de: ""
     en: |-
-      As orcs grow older,
-      grows golden fur.
-      When she turns all gold, she is given a
-      purple dress as a gift.
+      As orcs age, their fur is replaced
+      with golden fur. Once its whole body
+      turns gold, it's given purple clothes
+      as a gift.
     es: ""
     fr: ""
     it: ""
@@ -396622,18 +396729,7 @@ STT_Monster_Type:
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  EVTXT_SYS_QUESTA_IRAISYO_MONSTER_NAME_03110:
-    $comments: 🟡, see `STT_BattleMonsterName.NAME_NPC_02331`
-    de: ""
-    en: Haunted Tomato
-    es: ""
-    fr: Poirotomaté
-    it: ""
-    ja: おばけトマト
-    ko: 유령 토마토
-    pt-BR: ""
-    zh-Hans: 妖怪番茄
-    zh-Hant: 妖怪番茄
+  EVTXT_SYS_QUESTA_IRAISYO_MONSTER_NAME_03110: *STT_BattleMonsterName.ID_MONSTER_NAME_00603
   EVTXT_SYS_QUESTA_IRAISYO_MONSTER_NAME_03120:
     $comments: 🔴
     de: ""
@@ -405083,7 +405179,10 @@ STT_NpcInfo:
     zh-Hans: 弥弥塔
     zh-Hant: 彌彌塔
   NAME_NPC_00661:
-    $comments: 🟢, M
+    $comments: |-
+      🟢, M
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_NpcInfo.NAME_NPC_00661]`
     de: Weiser Hollow
     en: Sage Hollow
     es: Sabio Hollow
@@ -420591,7 +420690,9 @@ STT_NpcInfo:
     $comments: |-
       🟢, M
       (02/11) Story of Melsandy [ 3 Butterflies - Silver ] { Main Story }
-      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS1_003, STT_NpcInfo.NAME_NPC_01967]`
+      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS1_003]`
+      (242) SYSTEXT_QUESTLIST_NAME_AQ_016_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_1_000, STT_NpcInfo.NAME_NPC_01967]`
     de: Panino
     en: Panino
     es: Panino
@@ -425233,18 +425334,7 @@ STT_NpcInfo:
     pt-BR: ""
     zh-Hans: 噩梦的左手
     zh-Hant: 惡夢的左手
-  NAME_NPC_02331:
-    $comments: 🟡, N
-    de: ""
-    en: Haunted Tomato
-    es: ""
-    fr: Poirotomaté
-    it: ""
-    ja: おばけトマト
-    ko: 유령 토마토
-    pt-BR: ""
-    zh-Hans: 妖怪番茄
-    zh-Hant: 妖怪番茄
+  NAME_NPC_02331: *STT_BattleMonsterName.ID_MONSTER_NAME_00603
   NAME_NPC_02332: *STT_NpcInfo.NAME_NPC_02332
   NAME_NPC_02333: *NAME_NPC_02333
   NAME_NPC_02334: *NAME_NPC_02334
@@ -431174,17 +431264,17 @@ STT_NpcInfo:
     zh-Hant: 魯道夫
   NAME_NPC_02816:
     $comments: |-
-      🟡, M
+      🟢, M
       (01/??) Story of the Land of Overlapping Fates [ Pendulum of Fate ] { Main Story }
       see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_SIN1_001, STT_NpcInfo.NAME_NPC_02816]`
-    de: ""
+    de: Dalgov
     en: Dalgov
-    es: ""
-    fr: ""
-    it: ""
+    es: Dalgov
+    fr: Dalgov
+    it: Dalgov
     ja: ダルゴ
     ko: 다르고
-    pt-BR: ""
+    pt-BR: Dalgov
     zh-Hans: 达鲁格
     zh-Hant: 達爾格
   NAME_NPC_02817:
@@ -474348,7 +474438,7 @@ STT_NpcInfo:
     pt-BR: ""
     zh-Hans: 我的棺材
     zh-Hant: 我的棺材
-  NAME_NPC_06422: *NAME_ID_ITEM_SHOKUJI_AKUROBATCAKE
+  NAME_NPC_06422: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_AKUROBATCAKE
   NAME_NPC_06423:
     $comments: 🔴, N
     de: ""
@@ -635033,11 +635123,13 @@ STT_PT_Talk:
   PT_TALK_TXT_27_23_1_1:
     $comments: |-
       🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_000, STT_NpcInfo.NAME_NPC_00091]`
       {"Speaker":"COMPANION_MAIYU"}
     de: ""
     en: |-
-      Melsandy Village, Celed, and Al-Ahaghiro Kingdom. The
-      investigation of the 3 regions is over, isn't it.
+      Melsandy Village, Celed, and Al-Ahaghiro Kingdom.
+      The investigation of the 3 regions is over, isn't it.
     es: ""
     fr: ""
     it: ""
@@ -635061,10 +635153,12 @@ STT_PT_Talk:
   PT_TALK_TXT_27_23_1_2:
     $comments: |-
       🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_000, STT_NpcInfo.NAME_NPC_00091]`
       {"Speaker":"COMPANION_MAIYU"}
     de: ""
     en: |-
-      When I think back on the True World and False World...
+      When I think about the True World and False Worlds...
       I feel like they were very intricately connected.
     es: ""
     fr: ""
@@ -635085,6 +635179,8 @@ STT_PT_Talk:
   PT_TALK_TXT_27_23_1_3:
     $comments: |-
       🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_000, STT_NpcInfo.NAME_NPC_00091]`
       {"Speaker":"COMPANION_MAIYU"}
     de: ""
     en: In any case, let's report our investigation to Lushenda.
@@ -635167,9 +635263,9 @@ STT_PT_Talk:
       {"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      What the—that Pendulum o' Fate thing is? A rock wit'
-      the power to help people like that, please don't
-      bring it near me!
+      What the—that Pendulum o' Fate thing is! a rock wit'
+      the power ta help people like that, please don't bring
+      it near me!
     es: ""
     fr: ""
     it: ""
@@ -635416,10 +635512,12 @@ STT_PT_Talk:
   PT_TALK_TXT_27_23_408_10_4_1:
     $comments: |-
       🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_010, STT_NpcInfo.NAME_NPC_00404]`
       {"QuestNo":408,"QuestCounter_Start":10,"QuestCounter_End":19,"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      Sage Hollow...? AAH! That guy that talks 'bout that
+      Sage Hollow...? AAH! That guy who talks 'bout that
       "tracks o' destiny" gobbledygook...
     es: ""
     fr: ""
@@ -635444,12 +635542,13 @@ STT_PT_Talk:
   PT_TALK_TXT_27_23_408_10_4_2:
     $comments: |-
       🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_010, STT_NpcInfo.NAME_NPC_00404]`
       {"QuestNo":408,"QuestCounter_Start":10,"QuestCounter_End":19,"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
       I love weirdos like that, but ta think he was some
-      brilliant guy that's helpful ta society; I misjudged
-      him!
+      brilliant guy that's helpful ta society; I misjudged him!
     es: ""
     fr: ""
     it: ""
@@ -635580,6 +635679,8 @@ STT_PT_Talk:
   PT_TALK_TXT_27_23_408_20_1_1:
     $comments: |-
       🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_NpcInfo.NAME_NPC_00091]`
       {"QuestNo":408,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_MAIYU"}
     de: ""
     en: |-
@@ -635604,11 +635705,13 @@ STT_PT_Talk:
   PT_TALK_TXT_27_23_408_20_1_2:
     $comments: |-
       🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_NpcInfo.NAME_NPC_00091, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_JYOUKANOHABU]`
       {"QuestNo":408,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_MAIYU"}
     de: ""
     en: |-
-      {pc}, let's gather the Purifying Herbs and
-      give them to Hollow.
+      {pc}, let's gather the Purification Herbs
+      to give to Sage Hollow.
     es: ""
     fr: ""
     it: ""
@@ -635660,7 +635763,7 @@ STT_PT_Talk:
     de: ""
     en: |-
       Hollow's busy with a lot of work too. Let's collect
-      the Purifying Herbs.
+      the Purification Herbs.
     es: ""
     fr: ""
     it: ""
@@ -635923,7 +636026,7 @@ STT_PT_Talk:
     de: ""
     en: |-
       Since Hollow seemed to be unusually troubled, let's
-      hurry up and go give him the Purifying Herbs.
+      hurry up and go give him the Purification Herbs.
     es: ""
     fr: ""
     it: ""
@@ -635950,7 +636053,7 @@ STT_PT_Talk:
       {"QuestNo":408,"QuestCounter_Start":30,"QuestCounter_End":39,"Speaker":"COMPANION_HYUZA"}
     de: ""
     en: |-
-      Right away, let's hand over these Purifying Herbs to
+      Right away, let's hand over these Purification Herbs to
       that geezer Hollow.
     es: ""
     fr: ""
@@ -635974,7 +636077,7 @@ STT_PT_Talk:
       {"QuestNo":408,"QuestCounter_Start":30,"QuestCounter_End":39,"Speaker":"COMPANION_FUURA"}
     de: ""
     en: |-
-      I wonder what kind of research the Purifying Herbs
+      I wonder what kind of research the Purification Herbs
       we collected will be useful for...?
     es: ""
     fr: ""
@@ -635998,7 +636101,7 @@ STT_PT_Talk:
       {"QuestNo":408,"QuestCounter_Start":30,"QuestCounter_End":39,"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      Purifying herbs, eh. If it were me, insteada somethin'
+      Purification Herbs, eh. If it were me, insteada somethin'
       like that, I'd...
     es: ""
     fr: ""
@@ -636088,7 +636191,7 @@ STT_PT_Talk:
       {"QuestNo":408,"QuestCounter_Start":30,"QuestCounter_End":39,"Speaker":"COMPANION_RAGUASU"}
     de: ""
     en: |-
-      Research involving Purifying Herbs... Considering the
+      Research involving Purification Herbs... Considering the
       name of the material, do you believe it is a medicine
       for the ridding of curses?
     es: ""
@@ -636145,7 +636248,7 @@ STT_PT_Talk:
       🟡
       {"QuestNo":408,"QuestCounter_Start":30,"QuestCounter_End":39,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
-    en: With that, we can deliver the Purifying Herbs to Hollow.
+    en: With that, we can deliver the Purification Herbs to Hollow.
     es: ""
     fr: ""
     it: ""
@@ -636623,8 +636726,8 @@ STT_PT_Talk:
       {"QuestNo":408,"QuestCounter_Start":200,"QuestCounter_End":200,"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      That Milt guy, I ain't likin' how he's complainin'
-      about the Hero!
+      That Milt guy, I ain't likin' how he's complainin' 'bout
+      the Hero!
     es: ""
     fr: ""
     it: ""
@@ -636651,8 +636754,8 @@ STT_PT_Talk:
       {"QuestNo":408,"QuestCounter_Start":200,"QuestCounter_End":200,"Listener":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      Even the old man says some sensible things sometimes,
-      huh. I don't like his attitude either.
+      Old man, even you say sensible things sometimes, huh.
+      I don't like his attitude either.
     es: ""
     fr: ""
     it: ""
@@ -636679,8 +636782,8 @@ STT_PT_Talk:
       {"QuestNo":408,"QuestCounter_Start":200,"QuestCounter_End":200,"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      My ways are useless and yet, why don'tcha complain
-      about me!
+      My ways are useless 'n' yet, why don'tcha complain
+      'bout me!
     es: ""
     fr: ""
     it: ""
@@ -636702,7 +636805,7 @@ STT_PT_Talk:
       🟡
       {"QuestNo":408,"QuestCounter_Start":200,"QuestCounter_End":200,"Listener":"COMPANION_DASUTON"}
     de: ""
-    en: '...We always have, y''know.'
+    en: "...We always have, y'know."
     es: ""
     fr: ""
     it: ""
@@ -636746,7 +636849,7 @@ STT_PT_Talk:
     de: ""
     en: |-
       ...Incidentally, Milt's attitude. Even if he has
-      considerable expectations for Princess Anlucia, he's
+      considerable expectations for Princess Anlucia, he is
       a tad harsh, is he not.
     es: ""
     fr: ""
@@ -700180,9 +700283,13 @@ STT_QuestListDetail:
       杜拉院長雖打算自行了斷性命，
       但在看了修道院院長海倫娜的信後，重新燃起了活下去的決心。
   SYSTEXT_QUESTLIST_NAME_AQ_016_1_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (242) SYSTEXT_QUESTLIST_NAME_AQ_016_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_1_000, STT_NpcInfo.NAME_NPC_01967]`
     de: ""
-    en: In False Melsandy Village, Bard Panino seems to be troubled.
+    en: |-
+      In False Melsandy Village, the Minstrel, Panino, seems to be troubled.
     es: ""
     fr: ""
     it: ""
@@ -700199,13 +700306,17 @@ STT_QuestListDetail:
     zh-Hant: |-
       偽梅爾桑蒂村的吟游詩人
       帕尼諾似乎遇到困擾。
-  SYSTEXT_QUESTLIST_NAME_AQ_016_1_005:
-    $comments: 🔴
+  SYSTEXT_QUESTLIST_NAME_AQ_016_1_005: &STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_1_005
+    $comments: |-
+      🟡
+      (242) SYSTEXT_QUESTLIST_NAME_AQ_016_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_1_005, STT_NpcInfo.NAME_NPC_01967]`
+      *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_1_005
     de: ""
     en: |-
-      In False Melsandy Village, Bard Panino asked us to save Hero Zankrone
-      from an approaching crisis! It seems that Zankrone chased the Witch
-      from Sunbeam Square to the Underground Reservoir.
+      In False Melsandy Village, the Minstrel, Panino, asked us to save Hero
+      Zankrone from an approaching crisis! It seems that Zankrone chased the
+      Witch from Sunbeam Square to the Underground Reservoir.
     es: ""
     fr: ""
     it: ""
@@ -700229,44 +700340,18 @@ STT_QuestListDetail:
       希望能拯救面臨危機的英雄桑克朗。
       桑克朗似乎追著魔女從灑滿林隙日光的廣場
       衝進了深沉水底。
-  SYSTEXT_QUESTLIST_NAME_AQ_016_1_010:
-    $comments: 🔴
-    de: ""
-    en: |-
-      In False Melsandy Village, Bard Panino asked us to save Hero Zankrone
-      from an approaching crisis! It seems that Zankrone chased the Witch
-      from Sunbeam Square to the Underground Reservoir.
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      偽りのメルサンディ村の　吟遊詩人パニーノから　危機の迫っている　
-      英雄ザンクローネを　救ってくれないか！　と頼まれた。
-      ザンクローネは魔女を追って　こもれびの広場から　
-      深い水底に進み　さらに奥深くへ　向かっていったらしい。
-    ko: |-
-      가짜 메르상디 마을의 음유시인 파니노에게 위기에 처한
-      영웅 장크로네를 구해 달라고 부탁받았다.
-      장크로네는 마녀를 뒤쫓아 햇살 광장에서
-      깊은 물속으로 들어가 더 아래로 향했다고 한다.
-    pt-BR: ""
-    zh-Hans: |-
-      受伪梅尔桑蒂村的吟游诗人帕尼诺委托，
-      拯救面临危机的英雄赞库罗尼。赞库罗尼似乎追着魔女，
-      从林荫广场冲进了很深的水底，然后向着更深处去了。
-    zh-Hant: |-
-      偽梅爾桑蒂村的吟游詩人帕尼諾委託，
-      希望能拯救面臨危機的英雄桑克朗。
-      桑克朗似乎追著魔女從灑滿林隙日光的廣場進入深沉水底，
-      然後朝著更深處前進了。
+  SYSTEXT_QUESTLIST_NAME_AQ_016_1_010: *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_1_005
   SYSTEXT_QUESTLIST_NAME_AQ_016_1_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (242) SYSTEXT_QUESTLIST_NAME_AQ_016_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_1_020, STT_NpcInfo.NAME_NPC_01967]`
     de: ""
     en: |-
-      In False Melsandy Village, Bard Panino asked go check on Zankrone!
-      At his request, we saved Zankrone from being surrounded by the Witch's
-      minions. It seems Zankrone is worried about his body having no heart.
-      Let's report back to Panino.
+      In False Melsandy Village, the Minstrel, Panino, asked us to go check
+      on Zankrone! At the former's request, we saved Zankrone from being
+      surrounded by the Witch's minions. It seems Zankrone is worried about
+      his body having no heart. Let's report back to Panino.
     es: ""
     fr: ""
     it: ""
@@ -700292,13 +700377,16 @@ STT_QuestListDetail:
       救出了被魔女手下包圍的桑克朗。
       桑克朗似乎正為了體內沒有心臟所苦。去向帕尼諾報告吧。
   SYSTEXT_QUESTLIST_NAME_AQ_016_1_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (242) SYSTEXT_QUESTLIST_NAME_AQ_016_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_1_200, STT_NpcInfo.NAME_NPC_01967]`
     de: ""
     en: |-
-      In False Melsandy Village, Bard Panino asked us to save Hero Zankrone
-      from an approaching crisis! Zankrone was worried about his body having
-      no heart. Upon receiving the report, Panino revealed that he was
-      himself the fairy tale writer, Pampanini.
+      In False Melsandy Village, the Minstrel, Panino, asked us to save
+      Hero Zankrone from an approaching crisis! Zankrone was worried about
+      his body having no heart. Upon receiving the report, Panino revealed
+      that he was himself the fairy tale writer, Pampanini.
     es: ""
     fr: ""
     it: ""
@@ -700324,11 +700412,14 @@ STT_QuestListDetail:
       桑克朗正為了體內沒有心臟所苦。聽取報告後，
       帕尼諾表明身分，他其實是童話作家龐帕尼涅。
   SYSTEXT_QUESTLIST_NAME_AQ_016_2_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_000, STT_NpcInfo.NAME_NPC_01967]`
     de: ""
     en: |-
-      In False Melsandy Village, it seems that Bard Panino has some urgent
-      business.
+      In False Melsandy Village, it seems that the Minstrel, Panino, has
+      some urgent business.
     es: ""
     fr: ""
     it: ""
@@ -700346,11 +700437,14 @@ STT_QuestListDetail:
       偽梅爾桑蒂村的
       吟游詩人帕尼諾似乎有事委託。
   SYSTEXT_QUESTLIST_NAME_AQ_016_2_005:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_005, STT_NpcInfo.NAME_NPC_01967]`
     de: ""
     en: |-
-      In False Melsandy Village, Bard Panino asked for our help in making
-      something to save Zankrone!
+      In False Melsandy Village, the Minstrel, Panino, asked for our help
+      making something to save Zankrone!
     es: ""
     fr: ""
     it: ""
@@ -700372,13 +700466,16 @@ STT_QuestListDetail:
       希望能協助他製作一件東西
       以幫助桑克朗。
   SYSTEXT_QUESTLIST_NAME_AQ_016_2_010:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_NpcInfo.NAME_NPC_01967, STT_BattleMonsterName.ID_MONSTER_NAME_04502, STT_DaijinamonoItem.[*_ID_ITEM_DAIJINAMONO_KAENHABANERO, *_ID_ITEM_DAIJINAMONO_KINNOTAMAGO]]`
     de: ""
     en: |-
-      In False Melsandy Village, Bard Panino asked for our help in making
-      something to save Zankrone! To make it, a Flaming Habanero dropped by
-      <%sEV_QUE_NAME0>s in False Melsandy Granary Belt, and a Golden Egg laid by
-      a chicken with a golden will are required, he said.
+      In False Melsandy Village, the Minstrel, Panino, asked for our help
+      making something to save Zankrone! To make it, a Flaming Habanero
+      dropped by <%sEV_QUE_NAME0>s in False Melsandy Granary Belt, and a Golden Egg
+      laid by a chicken with a golden will are required, he said.
     es: ""
     fr: ""
     it: ""
@@ -700404,12 +700501,15 @@ STT_QuestListDetail:
       在偽梅爾桑蒂穀倉地帶的<%sEV_QUE_NAME0>會掉落，
       金蛋則是會由擁有黃金意志的雞產下。
   SYSTEXT_QUESTLIST_NAME_AQ_016_2_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_020, STT_NpcInfo.NAME_NPC_01967, STT_DaijinamonoItem.[*_ID_ITEM_DAIJINAMONO_KAENHABANERO, *_ID_ITEM_DAIJINAMONO_KINNOTAMAGO]]`
     de: ""
     en: |-
-      In False Melsandy Village, Bard Panino asked for our help in making
-      something to save Zankrone! Having obtained the necessary Flaming
-      Habanero and Golden Egg, let's deliver them to Panino.
+      In False Melsandy Village, the Minstrel, Panino, asked for our help
+      making something to save Zankrone! Having obtained the necessary
+      Flaming Habanero and Golden Egg, let's deliver them to Panino.
     es: ""
     fr: ""
     it: ""
@@ -700435,7 +700535,10 @@ STT_QuestListDetail:
       由於已取得了製作所需的火焰燈籠椒與金蛋，
       拿去給帕尼諾吧。
   SYSTEXT_QUESTLIST_NAME_AQ_016_2_030:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_030, STT_NpcInfo.NAME_NPC_01967, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZANKURONEPAN]`
     de: ""
     en: |-
       At the request of Panino in False Melsandy Village, in order to save
@@ -700467,7 +700570,10 @@ STT_QuestListDetail:
       似乎只要將烤好的桑克朗麵包帶到偽梅爾桑蒂穀倉地帶的
       荒蕪的祠堂，供奉給聖物即可。
   SYSTEXT_QUESTLIST_NAME_AQ_016_2_040:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_040, STT_NpcInfo.NAME_NPC_01967, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZANKURONEPAN]`
     de: ""
     en: |-
       At the request of Panino in False Melsandy Village, in order to save
@@ -700499,7 +700605,10 @@ STT_QuestListDetail:
       將烤好的桑克朗麵包送去給桑克朗，
       稍微瞭解了他的過去。去向帕尼諾報告吧！
   SYSTEXT_QUESTLIST_NAME_AQ_016_2_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_200, STT_NpcInfo.NAME_NPC_01967, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZANKURONEPAN]`
     de: ""
     en: |-
       At the request of Panino in False Melsandy Village, in order to save
@@ -700531,9 +700640,13 @@ STT_QuestListDetail:
       將烤好的桑克朗麵包送去給桑克朗，
       稍微瞭解了他的過去。
   SYSTEXT_QUESTLIST_NAME_AQ_016_3_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_000, STT_NpcInfo.NAME_NPC_01967]`
     de: ""
-    en: In False Melsandy Village, Bard Panino seems to be troubled.
+    en: |-
+      In False Melsandy Village, the Minstrel, Panino, seems to be troubled.
     es: ""
     fr: ""
     it: ""
@@ -700550,68 +700663,49 @@ STT_QuestListDetail:
     zh-Hant: |-
       偽梅爾桑蒂村的吟游詩人
       帕尼諾似乎遇到困擾。
-  SYSTEXT_QUESTLIST_NAME_AQ_016_3_005:
-    $comments: 🔴
+  SYSTEXT_QUESTLIST_NAME_AQ_016_3_005: &STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_005
+    $comments: |-
+      🟡
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_005, STT_NpcInfo.NAME_NPC_01967, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_PANPANININOTO]`
+      *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_005
     de: ""
     en: |-
-      In False Melsandy Village, Bard Panino asked us to deliver Pampanini's
-      Notebook to Airi in True Melsandy Village so that she could write the
-      sequel to the story!
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      偽りのメルサンディ村の　吟遊詩人パニーノから
-      物語の続きを描いてもらうため　真のメルサンディ村にいる　アイリに
-      パンパニーニノートを　届けてくれないか！　と頼まれた。
-    ko: |-
-      가짜 메르상디 마을의 음유시인 파니노에게
-      다음 이야기를 그릴 수 있도록 진짜 메르상디 마을에 있는 애일리에게
-      팡파니니 노트를 전해 달라는 부탁을 받았다.
-    pt-BR: ""
-    zh-Hans: |-
-      受伪梅尔桑蒂村的吟游诗人帕尼诺委托，
-      把庞帕尼涅的笔记本带给真梅尔桑蒂村的爱丽，
-      好让她续写童话故事。
-    zh-Hant: |-
-      偽梅爾桑蒂村的吟游詩人帕尼諾委託，
-      希望能將龐帕尼涅筆記本送去給真梅爾桑蒂村的愛麗，
-      好讓她續寫童話故事。
-  SYSTEXT_QUESTLIST_NAME_AQ_016_3_010:
-    $comments: 🔴
-    de: ""
-    en: |-
-      In False Melsandy Village, Bard Panino asked us to deliver Pampanini's
-      Notebook to Airi in True Melsandy Village so that she could write the
-      sequel to the story!
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      偽りのメルサンディ村の　吟遊詩人パニーノから
-      物語の続きを描いてもらうため　真のメルサンディ村にいる　アイリに
-      パンパニーニノートを　届けてくれないか！　と頼まれた。
-    ko: |-
-      가짜 메르상디 마을의 음유시인 파니노에게
-      다음 이야기를 그릴 수 있도록 진짜 메르상디 마을에 있는 애일리에게
-      팡파니니 노트를 전해 달라는 부탁을 받았다.
-    pt-BR: ""
-    zh-Hans: |-
-      受伪梅尔桑蒂村的吟游诗人帕尼诺委托，
-      把庞帕尼涅的笔记本带给真梅尔桑蒂村的爱丽，
-      好让她续写童话故事。
-    zh-Hant: |-
-      偽梅爾桑蒂村的吟游詩人帕尼諾委託，
-      希望能將龐帕尼涅筆記本送去給真梅爾桑蒂村的愛麗，
-      好讓她續寫童話故事。
-  SYSTEXT_QUESTLIST_NAME_AQ_016_3_020:
-    $comments: 🔴
-    de: ""
-    en: |-
-      At the request of Bard Panino in False Melsandy Village, we delivered
+      In False Melsandy Village, the Minstrel, Panino, asked us to deliver
       Pampanini's Notebook to Airi in True Melsandy Village so that she could
-      write the sequel to the story. Airi—after checking the notebook—
-      seems to have decided on the Tale of the Tiny Hero's ending.
+      write the sequel to the story!
+    es: ""
+    fr: ""
+    it: ""
+    ja: |-
+      偽りのメルサンディ村の　吟遊詩人パニーノから
+      物語の続きを描いてもらうため　真のメルサンディ村にいる　アイリに
+      パンパニーニノートを　届けてくれないか！　と頼まれた。
+    ko: |-
+      가짜 메르상디 마을의 음유시인 파니노에게
+      다음 이야기를 그릴 수 있도록 진짜 메르상디 마을에 있는 애일리에게
+      팡파니니 노트를 전해 달라는 부탁을 받았다.
+    pt-BR: ""
+    zh-Hans: |-
+      受伪梅尔桑蒂村的吟游诗人帕尼诺委托，
+      把庞帕尼涅的笔记本带给真梅尔桑蒂村的爱丽，
+      好让她续写童话故事。
+    zh-Hant: |-
+      偽梅爾桑蒂村的吟游詩人帕尼諾委託，
+      希望能將龐帕尼涅筆記本送去給真梅爾桑蒂村的愛麗，
+      好讓她續寫童話故事。
+  SYSTEXT_QUESTLIST_NAME_AQ_016_3_010: *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_005
+  SYSTEXT_QUESTLIST_NAME_AQ_016_3_020:
+    $comments: |-
+      🟡
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_020, STT_NpcInfo.NAME_NPC_01967, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_PANPANININOTO]`
+    de: ""
+    en: |-
+      In False Melsandy Village, the Minstrel, Panino, asked us to deliver
+      Pampanini's Notebook to Airi in True Melsandy Village so that she could
+      write the sequel to the story! Airi—after checking the notebook—seems
+      to have decided on the Tale of the Tiny Hero's ending.
       Let's report back to Panino.
     es: ""
     fr: ""
@@ -700638,12 +700732,15 @@ STT_QuestListDetail:
       愛麗看了筆記本，似乎決定了小英雄的故事結局。
       去向帕尼諾報告吧。
   SYSTEXT_QUESTLIST_NAME_AQ_016_3_030:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_030, STT_NpcInfo.NAME_NPC_01967, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_PANPANININOTO]`
     de: ""
     en: |-
-      At the request of Bard Panino in False Melsandy Village, we delivered
+      In False Melsandy Village, the Minstrel, Panino, asked us to deliver
       Pampanini's Notebook to Airi in True Melsandy Village so that she could
-      write the sequel to the story. As the story began, Zankrone seems to
+      write the sequel to the story! As the story began, Zankrone seems to
       have headed to the Banquet Hall in False Witch's Woods. Let's hurry
       after him.
     es: ""
@@ -700671,13 +700768,16 @@ STT_QuestListDetail:
       故事有了新的發展，桑克朗似乎前往了
       偽魔女之森的夜宴館。快追上去吧。
   SYSTEXT_QUESTLIST_NAME_AQ_016_3_040:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_040, STT_NpcInfo.NAME_NPC_01967, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_PANPANININOTO]`
     de: ""
     en: |-
-      At the request of Bard Panino in False Melsandy Village, we delivered
+      In False Melsandy Village, the Minstrel, Panino, asked us to deliver
       Pampanini's Notebook to Airi in True Melsandy Village so that she could
-      write the sequel to the story. As the story began, Zankrone took on
-      the Witch's grudge and disappeared. Let's report to Panino.
+      write the sequel to the story! As the story began, Zankrone took on the
+      Witch's grudge and disappeared. Let's report to Panino.
     es: ""
     fr: ""
     it: ""
@@ -700703,13 +700803,16 @@ STT_QuestListDetail:
       故事有了新的發展，桑克朗親身接下了
       魔女的怨恨後消失了。去向帕尼諾報告吧。
   SYSTEXT_QUESTLIST_NAME_AQ_016_3_050:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_050, STT_NpcInfo.NAME_NPC_01967, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_PANPANININOTO]`
     de: ""
     en: |-
-      At the request of Bard Panino in False Melsandy Village, we delivered
+      In False Melsandy Village, the Minstrel, Panino, asked us to deliver
       Pampanini's Notebook to Airi in True Melsandy Village so that she could
-      write the sequel to the story. As the story began, Zankrone took on
-      the Witch's grudge and disappeared. Let's go tell Airi in True Melsandy
+      write the sequel to the story! As the story began, Zankrone took on the
+      Witch's grudge and disappeared. Let's go tell Airi in True Melsandy
       Village about Panino thanking her for completing the story.
     es: ""
     fr: ""
@@ -700736,14 +700839,17 @@ STT_QuestListDetail:
       桑克朗親身接下了魔女的怨恨後消失了。前往真梅爾桑蒂村
       向愛麗轉達帕尼諾對她寫完故事的感謝吧。
   SYSTEXT_QUESTLIST_NAME_AQ_016_3_060:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_060, STT_NpcInfo.NAME_NPC_01967, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_PANPANININOTO]`
     de: ""
     en: |-
-      At the request of Bard Panino in False Melsandy Village, we delivered
+      In False Melsandy Village, the Minstrel, Panino, asked us to deliver
       Pampanini's Notebook to Airi in True Melsandy Village so that she could
-      write the sequel to the story. As the story began, Zankrone took on
-      the Witch's grudge and disappeared. Having told Airi about Panino
-      thanking her for completing the story, let's report back to Panino.
+      write the sequel to the story! As the story began, Zankrone took on the
+      Witch's grudge and disappeared. Having told Airi about Panino thanking
+      her for completing the story, let's report back to Panino.
     es: ""
     fr: ""
     it: ""
@@ -700769,14 +700875,17 @@ STT_QuestListDetail:
       桑克朗親身接下了魔女的怨恨後消失了。向愛麗轉達了帕尼諾
       對她寫完故事的感謝。去向帕尼諾報告吧。
   SYSTEXT_QUESTLIST_NAME_AQ_016_3_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_200, STT_NpcInfo.NAME_NPC_01967, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_PANPANININOTO]`
     de: ""
     en: |-
-      At the request of Bard Panino in False Melsandy Village, we delivered
+      In False Melsandy Village, the Minstrel, Panino, asked us to deliver
       Pampanini's Notebook to Airi in True Melsandy Village so that she could
-      write the sequel to the story. As the story began, Zankrone took on
-      the Witch's grudge and disappeared. The Tale of the Tiny Hero has
-      come to an end.
+      write the sequel to the story! As the story began, Zankrone took on the
+      Witch's grudge and disappeared. The Tale of the Tiny Hero has come to
+      an end.
     es: ""
     fr: ""
     it: ""
@@ -704891,12 +705000,12 @@ STT_QuestListDetail:
       費科特似乎在尋求幫助。
   SYSTEXT_QUESTLIST_NAME_FQ_106_1_005:
     $comments: |-
-      🔴
+      🟡
       (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_005, STT_NpcInfo.NAME_NPC_02011]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked me to help prepare
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare
       materials to make presents for everyone in town!
     es: ""
     fr: ""
@@ -704921,10 +705030,10 @@ STT_QuestListDetail:
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_NpcInfo.NAME_NPC_02011]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked me to help prepare
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare
       materials to make presents for everyone in town! North of town, in
       Rinjahar Coast, Friend Seedlings are often dropped by defeated
-      <%sEV_QUE_NAME0>es. It seems he wants me to bring that and 1 pile of
+      <%sEV_QUE_NAME0>es. It seems he wants us to bring that and 1 pile of
       Horse Manure.
     es: ""
     fr: ""
@@ -704957,7 +705066,7 @@ STT_QuestListDetail:
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_020, STT_NpcInfo.NAME_NPC_02011]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked me to help prepare
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare
       materials to make presents for everyone in town! Having obtained the
       Friend Seedling and 1 pile of Horse Manure, let's deliver them both
       to Fecto.
@@ -704992,9 +705101,9 @@ STT_QuestListDetail:
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_030, STT_NpcInfo.NAME_NPC_02011]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked me to help prepare
-      materials to make presents for everyone in town! I delivered the
-      Friend Seedling to Fecto; it seems he wants to ask me about something
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare
+      materials to make presents for everyone in town! We delivered the
+      Friend Seedling to Fecto; it seems he wants to ask us about something
       once it grows into a tree.
     es: ""
     fr: ""
@@ -705027,9 +705136,9 @@ STT_QuestListDetail:
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_040, STT_NpcInfo.NAME_NPC_02011]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked me to help prepare
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare
       materials to make presents for everyone in town! To make Wood Carved
-      Rosaries out of the Friend Fern that he grew, I should learn about the
+      Rosaries out of the Friend Fern that he grew, we should learn about the
       ways of woodworking from Craftsman Hayato in Royal City Kamiharmui
       North's woodworking guild.
     es: ""
@@ -705063,8 +705172,8 @@ STT_QuestListDetail:
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_050, STT_NpcInfo.NAME_NPC_02011]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked me to help prepare
-      materials to make presents for everyone in town! I received a
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare
+      materials to make presents for everyone in town! We received a
       Children's Woodworking Manual from Craftsman Hayato. Let's deliver it
       to Fecto.
     es: ""
@@ -705098,7 +705207,7 @@ STT_QuestListDetail:
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_200, STT_NpcInfo.NAME_NPC_02011]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked me to help prepare
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare
       materials to make presents for everyone in town! It's said that those
       who possess rosaries made from the same tree will stay friends
       forever; it seems that Fecto was able to do just that.
@@ -727715,7 +727824,7 @@ STT_QuestListDetail:
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_000, STT_NpcInfo.NAME_NPC_02045]`
     de: ""
     en: |-
-      In Gran Zedora Castle's Sage's Office (2F) Sage Lushenda seems to be
+      In Gran Zedora Castle's Sage's Office (2F), Sage Lushenda seems to be
       seeking assistance.
     es: ""
     fr: ""
@@ -727735,7 +727844,7 @@ STT_QuestListDetail:
       賢者露仙妲似乎在尋求協助。
   SYSTEXT_QUESTLIST_NAME_MQ_005_1_005:
     $comments: |-
-      🔴
+      🟡
       (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_005, STT_NpcInfo.NAME_NPC_02045]`
     de: ""
@@ -727765,15 +727874,15 @@ STT_QuestListDetail:
       與虛偽世界相關情報的信送去給賢者霍洛。
   SYSTEXT_QUESTLIST_NAME_MQ_005_1_010:
     $comments: |-
-      🔴
+      🟡
       (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_010, STT_NpcInfo.NAME_NPC_02045]`
     de: ""
     en: |-
       In Gran Zedora Castle, Sage Lushenda asked that we deliver Sage Hollow
       a letter summarizing Hero Princess Anlucia's Awakening and the
-      False World, in exchange for his research results! We may meet
-      Sage Hollow, if we go to a place where we've often met him prior.
+      False World, in exchange for his research results! We may meet with
+      Sage Hollow if we go to a place where we have often met him prior.
     es: ""
     fr: ""
     it: ""
@@ -727800,16 +727909,15 @@ STT_QuestListDetail:
       只要去以前常遇到霍洛的地方，或許就能見到他。
   SYSTEXT_QUESTLIST_NAME_MQ_005_1_020:
     $comments: |-
-      🔴
+      🟡
       (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_NpcInfo.NAME_NPC_02045]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_NpcInfo.NAME_NPC_02045, STT_BattleMonsterName.ID_MONSTER_NAME_06202, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_JYOUKANOHABU]`
     de: ""
     en: |-
-      At the request of Sage Lushenda in Gran Zedora Castle, we delivered
-      the letter to Sage Hollow. Sage Hollow asked that we obtain
-      <%nEV_QUE_T_NUM0> Purifying Herbs that are dropped by <%sEV_QUE_NAME0>s in Ogreed's
-      Orseco Highlands!
-      <%nEV_QUE_N_NUM0> Purifying Herbs collected so far.
+      At the request of Sage Lushenda in Gran Zedora Castle, we delivered her
+      letter to Sage Hollow. Sage Hollow asked that we obtain <%nEV_QUE_T_NUM0> Purification Herbs,
+      which are dropped by <%sEV_QUE_NAME0>s in Ogreed's Orseco Highlands!
+      <%nEV_QUE_N_NUM0> Purification Herbs collected so far.
     es: ""
     fr: ""
     it: ""
@@ -727836,15 +727944,15 @@ STT_QuestListDetail:
       會掉落的淨化香草。目前已收集了<%nEV_QUE_N_NUM0>個淨化香草。
   SYSTEXT_QUESTLIST_NAME_MQ_005_1_030:
     $comments: |-
-      🔴
+      🟡
       (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_030, STT_NpcInfo.NAME_NPC_02045]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_030, STT_NpcInfo.NAME_NPC_02045, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_JYOUKANOHABU]`
     de: ""
     en: |-
-      At the request of Sage Lushenda in Gran Zedora Castle, we delivered
-      the letter to Sage Hollow. In order to complete the research results
-      for Sage Lushenda, we obtained the <%nEV_QUE_T_NUM0> Purifying Herbs that Hollow
-      requested. To deliver them to Hollow, let's board the Ark of the Earth.
+      At the request of Sage Lushenda in Gran Zedora Castle, we delivered her
+      letter to Sage Hollow. In order to complete the research results for
+      Sage Lushenda, we obtained the Purification Herbs that Hollow requested.
+      To deliver them to Hollow, let's board the Ark of the Earth.
     es: ""
     fr: ""
     it: ""
@@ -727871,14 +727979,14 @@ STT_QuestListDetail:
       搭乘大地方舟送去給霍洛吧。
   SYSTEXT_QUESTLIST_NAME_MQ_005_1_040:
     $comments: |-
-      🔴
+      🟡
       (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_040, STT_NpcInfo.NAME_NPC_02045]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_040, STT_NpcInfo.NAME_NPC_02045, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HORONOKENKYUUSEIKA]`
     de: ""
     en: |-
-      Having delivered the letter entrusted to us by Sage Lushenda in Gran
-      Zedora Castle, we received the research results from Sage Hollow.
-      Let's bring Hollow's research results to Sage Lushenda.
+      At the request of Sage Lushenda in Gran Zedora Castle, we delivered her
+      letter to Sage Hollow, and we received the research results from
+      Sage Hollow. Let's bring Hollow's research results to Sage Lushenda.
     es: ""
     fr: ""
     it: ""
@@ -727901,16 +728009,16 @@ STT_QuestListDetail:
       將霍洛的研究成果帶回去給露仙妲吧。
   SYSTEXT_QUESTLIST_NAME_MQ_005_1_200:
     $comments: |-
-      🔴
+      🟡
       (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_200, STT_NpcInfo.NAME_NPC_02045]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_200, STT_NpcInfo.NAME_NPC_02045, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HORONOKENKYUUSEIKA]`
     de: ""
     en: |-
-      At the request of Sage Lushenda in Gran Zedora Castle, we delivered
-      the letter to Sage Hollow, and delivered Hollow's research results to
+      At the request of Sage Lushenda in Gran Zedora Castle, we delivered her
+      letter to Sage Hollow, and delivered Hollow's research results to
       Sage Lushenda. It seems the research results were for the long-term
       preservation of delicious dishes. Lushenda commended our work on
-      delivering the letter and rewarded us.
+      delivering the letter, and rewarded us.
     es: ""
     fr: ""
     it: ""
@@ -728308,7 +728416,10 @@ STT_QuestListDetail:
       得知神殿遺跡祭祀的是人類之神古蘭捷尼斯，
       但是其傳承似乎還存在著不少謎團。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_000, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
       On the 3rd floor of Gran Zedora Castle, Queen Julia seems to be
@@ -728330,7 +728441,10 @@ STT_QuestListDetail:
       古蘭澤朵拉城３樓的尤莉婭王妃
       似乎遇到什麼困擾。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_005:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_005, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
       On the 3rd floor of Gran Zedora Castle, Queen Julia asked for our help
@@ -728357,7 +728471,10 @@ STT_QuestListDetail:
       希望能協助市鎮防具店盡早完成
       訂製的披風。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_010:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_010, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
       On the 3rd floor of Gran Zedora Castle, Queen Julia asked for our help
@@ -728388,7 +728505,10 @@ STT_QuestListDetail:
       訂製的披風。想請你拜訪城鎮防具店的
       連肯，聽聽他怎麼說。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_020:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_020, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
       At the request of Queen Julia on the 3rd floor of Gran Zedora Castle,
@@ -728422,7 +728542,10 @@ STT_QuestListDetail:
       南部瞭望塔的<%sEV_QUE_NAME0>會掉落的月光金線<%nEV_QUE_T_NUM0>條分。
       目前已收集了<%nEV_QUE_N_NUM0>條月光金線。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_030:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_030, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
       At the request of Queen Julia on the 3rd floor of Gran Zedora Castle,
@@ -728454,7 +728577,10 @@ STT_QuestListDetail:
       由於已取得完成王妃訂製披風所需的
       月光金線，送去給連肯吧。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_040:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_040, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
       At the request of Queen Julia on the 3rd floor of Gran Zedora Castle,
@@ -728486,7 +728612,10 @@ STT_QuestListDetail:
       並交給連肯，連肯又開始繼續製作王家披風了。
       去向尤莉婭王妃報告吧。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_050:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_050, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
       At the request of Queen Julia on the 3rd floor of Gran Zedora Castle,
@@ -728519,7 +728648,10 @@ STT_QuestListDetail:
       希望能前往安放托瑪棺木的王家之墓一趟。
       王家之墓似乎就在瑞比爾幹道北部的海邊。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_060:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_060, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
       Together with Queen Julia of Gran Zedora Castle, we entered the Royal
@@ -728551,7 +728683,10 @@ STT_QuestListDetail:
       看到王子的遺體不翼而飛，驚慌失措，
       在諾加特士兵長的攙扶下返回了城中。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_200:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_200, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
       Together with Queen Julia of Gran Zedora Castle, we entered the Royal
@@ -735895,7 +736030,7 @@ STT_QuestListName:
       🟡
       (106) SYSTEXT_QUESTLIST_NAME_AQ_012_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_012 ] { Sub Story }
     de: ""
-    en: King's Hunting
+    en: Hunting For The King
     es: ""
     fr: ""
     it: ""
@@ -738056,17 +738191,16 @@ STT_QuestListName:
     zh-Hant: 前往家人身邊
   SYSTEXT_QUESTLIST_NAME_MQ_005_1:
     $comments: |-
-      🟡
+      🟢
       (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1]`
-    de: ""
+    de: Lushendas Auftrag
     en: Lushenda's Assignment
-    es: ""
-    fr: ""
-    it: ""
+    es: El Encargo de la Lushenda
+    fr: La Mission de la Lushenda
+    it: L'Incarico dalla Lushenda
     ja: ルシェンダからの課題
     ko: 루셴다에게 받은 과제
-    pt-BR: ""
+    pt-BR: A Tarefa da Lushenda
     zh-Hans: 露谢妲的课题
     zh-Hant: 來自露仙妲的課題
   SYSTEXT_QUESTLIST_NAME_AQ_016_1:
@@ -738088,7 +738222,7 @@ STT_QuestListName:
       🟡
       (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
     de: ""
-    en: The Witch Laughs Loudly
+    en: The Witch Loudly Laughs
     es: ""
     fr: ""
     it: ""
@@ -738116,7 +738250,7 @@ STT_QuestListName:
       🟡
       (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_NAME_AQ_017_1 ] { Sub Story }
     de: ""
-    en: Shipwrecked Soul's Sound
+    en: A Shipwrecked Soul's Song
     es: ""
     fr: ""
     it: ""
@@ -738930,7 +739064,7 @@ STT_QuestListSeries:
       (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
       (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
     de: ""
-    en: The Hero & the Witch's Finale
+    en: The Hero & Witch's Finale
     es: ""
     fr: ""
     it: ""
@@ -746449,7 +746583,10 @@ STT_Quest_AfterBattle:
     zh-Hans: ""
     zh-Hant: ""
   AFTER_BATTLE_MQ_008_1_A1:
-    $comments: 🔴
+    $comments: |-
+      🟢, unused?
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_???]`
     de: ""
     en: ""
     es: ""
@@ -746461,7 +746598,10 @@ STT_Quest_AfterBattle:
     zh-Hans: ""
     zh-Hant: ""
   AFTER_BATTLE_MQ_008_1_B1:
-    $comments: 🔴
+    $comments: |-
+      🟢, unused?
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_???]`
     de: ""
     en: ""
     es: ""
@@ -750402,11 +750542,14 @@ STT_Quest_ItemGet:
       獲得了貓食果（重要物品）！<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_BattleFin_AQ_016_2_10:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_NpcInfo.NAME_NPC_01967, STT_DaijinamonoItem.[*_ID_ITEM_DAIJINAMONO_KAENHABANERO, *_ID_ITEM_DAIJINAMONO_KINNOTAMAGO]]`
     de: ""
     en: |-
-      Now we have all the items Panino asked for! <se_nots System Item>
-      <auto_bw=5000><close>
+      Now we have all the items Panino asked for!<se_nots System Item>
+      <bw><close>
     es: ""
     fr: ""
     it: ""
@@ -751372,13 +751515,16 @@ STT_Quest_ItemGet:
       獲得了聖樹的樹枝（重要物品）！<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_AQ_016_2_10:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_BattleMonsterName.ID_MONSTER_NAME_04502, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KAENHABANERO]`
     de: ""
     en: |-
       The <%sEV_QUE_NAME0> dropped the Flaming Habanero
       <br>
       {pc} obtained the Flaming Habanero (Key Item)!<se_nots System Item>
-      <auto_bw=5000><close>
+      <bw><close>
     es: ""
     fr: ""
     it: ""
@@ -754559,13 +754705,13 @@ STT_Quest_ItemGet:
     $comments: |-
       🟡
       (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_06202, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_JYOUKANOHABU]`
     de: ""
     en: |-
-      The <%sEV_QUE_NAME0> dropped a Purifying Herb! Finished
-      collecting all <%nEV_QUE_T_NUM0> Purifying Herbs!
+      The <%sEV_QUE_NAME0> dropped a Purification Herb!
+      Finished collecting all <%nEV_QUE_T_NUM0> Purification Herbs!
       <br>
-      {pc} obtained the Purifying Herbs (Key Item)!<se_nots System Item>
+      {pc} obtained the Purification Herbs (Key Item)!<se_nots System Item>
       <bw><close>
     es: ""
     fr: ""
@@ -754649,7 +754795,10 @@ STT_Quest_ItemGet:
       獲得了遠古石板（重要物品）！<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_MQ_008_1_20:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_???]`
     de: ""
     en: |-
       The <%sEV_QUE_NAME0> dropped Golden Moonlight
@@ -754657,7 +754806,7 @@ STT_Quest_ItemGet:
       <br>
       {pc} obtained the Golden Moonlight Thread
       (Key Item)! <se_nots System Item>
-      <auto_bw=5000><close>
+      <bw><close>
     es: ""
     fr: ""
     it: ""
@@ -756219,10 +756368,10 @@ STT_Quest_ItemGet:
     $comments: |-
       🟡
       (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_JYOUKANOHABU]`
     de: ""
     en: |-
-      {SucceedNum_Now} Purifying Herb(s) obtained!
+      {SucceedNum_Now} Purification Herb(s) obtained!
       {SucceedNum_remain} remaining.
       <bw><close>
     es: ""
@@ -756246,11 +756395,15 @@ STT_Quest_ItemGet:
       還差{SucceedNum_remain}個
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Mid_MQ_008_1_20:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_???]`
     de: ""
     en: |-
-      Obtained {SucceedNum_Now} Moonlight Gold Threads! {SucceedNum_remain} remain.
-      <auto_bw=5000><close>
+      Obtained {SucceedNum_Now} Moonlight Gold Threads!
+      {SucceedNum_remain} remain.
+      <bw><close>
     es: ""
     fr: ""
     it: ""
@@ -806517,9 +806670,12 @@ STT_Syougou:
     zh-Hans: dummy
     zh-Hant: dummy
   NAME_SYOUGOU_QUEST_STORY_16:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_200, STT_Syougou.*_SYOUGOU_QUEST_STORY_16]`
     de: ""
-    en: Little hero's sidekick
+    en: The Tiny Hero's Partner
     es: ""
     fr: ""
     it: ""
@@ -806529,11 +806685,14 @@ STT_Syougou:
     zh-Hans: 小英雄的搭档
     zh-Hant: 小英雄的搭檔
   EXPLANATION_SYOUGOU_QUEST_STORY_16:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_200, STT_Syougou.*_SYOUGOU_QUEST_STORY_16]`
     de: ""
     en: |-
-      Title given to those who have solved an incident
-      that occurred in False Mersandy Village.
+      Title bestowed upon those who solved the incident
+      that occurred in False Melsandy Village
     es: ""
     fr: ""
     it: ""
@@ -806555,7 +806714,10 @@ STT_Syougou:
       解決某起事件之人
       所得稱號
   RUBY_SYOUGOU_QUEST_STORY_16:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_200, STT_Syougou.*_SYOUGOU_QUEST_STORY_16]`
     de: ""
     en: ""
     es: ""
@@ -806567,9 +806729,12 @@ STT_Syougou:
     zh-Hans: dummy
     zh-Hant: dummy
   NAME_SYOUGOU_QUEST_STORY_17:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_200, STT_Syougou.*_SYOUGOU_QUEST_STORY_17]`
     de: ""
-    en: The one who connects life and death
+    en: Those Linked by Life and Death
     es: ""
     fr: ""
     it: ""
@@ -806579,11 +806744,14 @@ STT_Syougou:
     zh-Hans: 联系生与死之人
     zh-Hant: 聯繫生與死之人
   EXPLANATION_SYOUGOU_QUEST_STORY_17:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_200, STT_Syougou.*_SYOUGOU_QUEST_STORY_17]`
     de: ""
     en: |-
-      Title given to those who have solved an incident
-      that occurred in False Celed.
+      Title bestowed upon those who solved the incident
+      that occurred in False Celed
     es: ""
     fr: ""
     it: ""
@@ -806605,7 +806773,10 @@ STT_Syougou:
       解決某起事件之人
       所得稱號
   RUBY_SYOUGOU_QUEST_STORY_17:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_200, STT_Syougou.*_SYOUGOU_QUEST_STORY_17]`
     de: ""
     en: ""
     es: ""
@@ -806617,7 +806788,10 @@ STT_Syougou:
     zh-Hans: dummy
     zh-Hant: dummy
   NAME_SYOUGOU_QUEST_STORY_18:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_200, STT_Syougou.*_SYOUGOU_QUEST_STORY_18]`
     de: ""
     en: Desert Monster Counsel Member
     es: ""
@@ -806629,11 +806803,14 @@ STT_Syougou:
     zh-Hans: 沙漠的怪物咨询师
     zh-Hant: 沙漠的怪物諮商師
   EXPLANATION_SYOUGOU_QUEST_STORY_18:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_200, STT_Syougou.*_SYOUGOU_QUEST_STORY_18]`
     de: ""
     en: |-
-      Title given to those who have solved an incident
-      that occurred in False Al-Ahaghiro Kingdom.
+      Title bestowed upon those who solved the incident
+      that occurred in False Al-Ahaghiro Kingdom
     es: ""
     fr: ""
     it: ""
@@ -806655,7 +806832,10 @@ STT_Syougou:
       解決某起事件之人
       所得稱號
   RUBY_SYOUGOU_QUEST_STORY_18:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_200, STT_Syougou.*_SYOUGOU_QUEST_STORY_18]`
     de: ""
     en: ""
     es: ""
@@ -935844,7 +936024,9 @@ STT_System_Location:
     $comments: |-
       🟡
       (09/11) Story of Melsandy [ 3 Butterflies - Silver ] { Main Story }
-      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS2_011]`
+      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS2_011]`|-
+      (242) SYSTEXT_QUESTLIST_NAME_AQ_016_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_1_010, STT_System_Location.SYSTXT_LOCATION_STAGE_Ren_r3600]`
     de: ""
     en: Mysterious Underground Waterway
     es: ""
@@ -959581,117 +959763,18 @@ STT_ToolActionItem:
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  PA_ACTION_NO_I_TOKUSAN1:
-    $comments: 🟡
-    de: ""
-    en: Desert-Moon Dessert
-    es: ""
-    fr: ""
-    it: ""
-    ja: 銘菓　砂漠の月
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  PA_ACTION_NO_I_TOKUSAN2: *NAME_ID_ITEM_SHOKUJI_KAMUSHIKA
-  PA_ACTION_NO_I_TOKUSAN3:
-    $comments: 🟡
-    de: ""
-    en: Fisticandy
-    es: ""
-    fr: ""
-    it: ""
-    ja: げんこつアメ
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  PA_ACTION_NO_I_TOKUSAN4:
-    $comments: 🟡
-    de: ""
-    en: Ogre-nic Salad
-    es: ""
-    fr: ""
-    it: ""
-    ja: オーガニックサラダ
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  PA_ACTION_NO_I_TOKUSAN5:
-    $comments: 🟡
-    de: ""
-    en: Gatara Pork Buns
-    es: ""
-    fr: ""
-    it: ""
-    ja: ガタラのブタまん
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  PA_ACTION_NO_I_TOKUSAN6: *NAME_ID_ITEM_SHOKUJI_AKUROBATCAKE
-  PA_ACTION_NO_I_TOKUSAN7: *NAME_ID_ITEM_SHOKUJI_SABURE
-  PA_ACTION_NO_I_TOKUSAN8:
-    $comments: 🟡
-    de: ""
-    en: Megis Fried Chicken
-    es: ""
-    fr: ""
-    it: ""
-    ja: メギス鶏のからあげ
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  PA_ACTION_NO_I_TOKUSAN9:
-    $comments: 🟡
-    de: ""
-    en: Royal Cherry Mochi
-    es: ""
-    fr: ""
-    it: ""
-    ja: 王都の桜もち
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  PA_ACTION_NO_I_TOKUSAN10:
-    $comments: 🟡
-    de: ""
-    en: Grand Titus Bowl
-    es: ""
-    fr: ""
-    it: ""
-    ja: グランドタイタス丼
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  PA_ACTION_NO_I_TOKUSAN11:
-    $comments: 🟡
-    de: ""
-    en: Coliseum Burger
-    es: ""
-    fr: ""
-    it: ""
-    ja: コロシアムバーガー
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  PA_ACTION_NO_I_TOKUSAN12:
-    $comments: 🟡
-    de: ""
-    en: Summer Coconut
-    es: ""
-    fr: ""
-    it: ""
-    ja: とこなつココナッツ
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  PA_ACTION_NO_I_TOKUSAN1: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_SABAKUNOTSUKI
+  PA_ACTION_NO_I_TOKUSAN2: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_KAMUSHIKA
+  PA_ACTION_NO_I_TOKUSAN3: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_GENKOTSUAME
+  PA_ACTION_NO_I_TOKUSAN4: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_ORGANICSARADA
+  PA_ACTION_NO_I_TOKUSAN5: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_BUTAMAN
+  PA_ACTION_NO_I_TOKUSAN6: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_AKUROBATCAKE
+  PA_ACTION_NO_I_TOKUSAN7: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_SABURE
+  PA_ACTION_NO_I_TOKUSAN8: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_KARAAGE
+  PA_ACTION_NO_I_TOKUSAN9: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_SAKURAMOCHI
+  PA_ACTION_NO_I_TOKUSAN10: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_BURGER
+  PA_ACTION_NO_I_TOKUSAN11: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_COLOSSEO
+  PA_ACTION_NO_I_TOKUSAN12: *STT_CommonItem.NAME_ID_ITEM_SHOKUJI_KOKONATS
   PA_ACTION_NO_I_TOKUYAKUSOU:
     $comments: 🔴
     de: ""
@@ -963220,18 +963303,25 @@ STT_UIDouguSys:
       <br>
       連自己都覺得很滿意！
   ID_TEXT_DAIJINAMONO_HORONOKENKYUUSEIKA:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HORONOKENKYUUSEIKA]`
     de: ""
     en: |-
-      {Character_Head} has opened
-      just a little bit of research results.
+      {Character_Head} tried opening the bag of research
+      results just a bit.
       <br>
-      Somehow, she smelled like it was delicious.
-      She was drifting around...
+      For some reason, a delicious smell wafted in the air...
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　研究成果のふくろを\nちょっとだけ　開いてみた。\n<br>\nなんだか　おいしそうな香りが\n辺りに　ただよった……。"
+    ja: |-
+      {Character_Head}は　研究成果のふくろを
+      ちょっとだけ　開いてみた。
+      <br>
+      なんだか　おいしそうな香りが
+      辺りに　ただよった……。
     ko: |-
       {Character_Head}|hpp(은,는) 연구 성과 봉투를
       살짝 열어 보았다.
@@ -964163,17 +964253,25 @@ STT_UIDouguSys:
       <br>
       邪鬼之角發出不祥的光芒。
   ID_TEXT_DAIJINAMONO_JYOUKANOHABU:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_JYOUKANOHABU]`
     de: ""
     en: |-
-      {Character_Head} tried smelling the Purifying Herbs.
+      {Character_Head} tried smelling the Purification Herbs.
       <br>
-      It had a refreshing scent that felt as if it were
+      They had a refreshing scent that felt as if it were
       purifying one's heart!
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　浄化のハーブの\nにおいを　かいでみた。\n<br>\n心が　洗われるかのような\nすがすがしい香りがした！"
+    ja: |-
+      {Character_Head}は　浄化のハーブの
+      においを　かいでみた。
+      <br>
+      心が　洗われるかのような
+      すがすがしい香りがした！
     ko: |-
       {Character_Head}|hpp(은,는) 정화의 허브의
       냄새를 맡아 보았다.
@@ -964252,17 +964350,26 @@ STT_UIDouguSys:
       純白雪花凍得很硬，
       看來一時還融化不了。
   ID_TEXT_DAIJINAMONO_KAENHABANERO:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KAENHABANERO]`
     de: ""
     en: |-
-      {Character_Head} tried a bite of the Flaming Habanero.
+      {Character_Head} tried tasting a bit of the
+      Flaming Habanero.
       <br>
-      It's fiery spice burnt {Character_Head}'s tongue
+      It's fiery spice burnt {Character_Head}'s tongue,
       and made them spit fire!
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　火炎ハバネロを\n少しだけ　なめてみた。\n<br>\n燃えるようなカラさが　舌を焼き\n{Character_Head}は　クチから火を吹いた！"
+    ja: |-
+      {Character_Head}は　火炎ハバネロを
+      少しだけ　なめてみた。
+      <br>
+      燃えるようなカラさが　舌を焼き
+      {Character_Head}は　クチから火を吹いた！
     ko: |-
       {Character_Head}|hpp(은,는) 화염 하바네로를
       살짝 핥아 보았다.
@@ -965361,7 +965468,10 @@ STT_UIDouguSys:
       在多爾瓦姆王國冒險的回憶
       鮮明地浮現在腦海中。
   ID_TEXT_DAIJINAMONO_KINNOTAMAGO:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KINNOTAMAGO]`
     de: ""
     en: |-
       {Character_Head} tried rolling the golden egg in
@@ -965372,7 +965482,13 @@ STT_UIDouguSys:
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　金のたまごを\n手のひらで　転がしてみた。\n<br>\nおおっと　あぶない！\n<br>\n思わず　落として割るところだった……。"
+    ja: |-
+      {Character_Head}は　金のたまごを
+      手のひらで　転がしてみた。
+      <br>
+      おおっと　あぶない！
+      <br>
+      思わず　落として割るところだった……。
     ko: |-
       {Character_Head}|hpp(은,는) 금 달걀을
       손바닥 위에서 굴려 보았다.
@@ -969336,21 +969452,33 @@ STT_UIDouguSys:
       可是想起了和愛麗的約定，
       只好把麵包放回了籃子裡。
   ID_TEXT_DAIJINAMONO_PANPANININOTO:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_3_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_PANPANININOTO]`
     de: ""
     en: |-
       {Character_Head} tried flipping through Pampanini's
       Notebook.
       <br>
       "Earlier, when I was eating sugar cookies for my
-      3 o'clock snack, I got the idea! I'll name Zankrone's
+      3 o'clock snack, I got AN idea! I'll name Zankrone's
       sword the 'Blazing Blade'!"
       <br>
       ...It's filled with other such silly ideas.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　パンパニーニノートを\nパラパラと　めくってみた。\n<br>\nさっき　３時のおやつに\nかりんとうを食べていたら　思いついたのじゃ！\nザンクローネの剣の名は　火燐刀にしよう！\n<br>\n……などと　たわいもないアイデアが\nびっしり記されている。"
+    ja: |-
+      {Character_Head}は　パンパニーニノートを
+      パラパラと　めくってみた。
+      <br>
+      さっき　３時のおやつに
+      かりんとうを食べていたら　思いついたのじゃ！
+      ザンクローネの剣の名は　火燐刀にしよう！
+      <br>
+      ……などと　たわいもないアイデアが
+      びっしり記されている。
     ko: |-
       {Character_Head}|hpp(은,는) 팡파니니 노트를
       펄럭펄럭 넘겨 보았다.
@@ -970162,16 +970290,23 @@ STT_UIDouguSys:
       聞到了一股
       透心涼的清爽香氣！
   ID_TEXT_DAIJINAMONO_RUSYENDANOTEGAMI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_RUSYENDANOTEGAMI]`
     de: ""
     en: |-
-      {Character_Head} picked up Lucienda's letter.
+      {Character_Head} picked up Lushenda's letter.
       <br>
-      'Important!' is written in large red.
+      "Important!" in large, red letters is written.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　ルシェンダの手紙を\n手に取った。\n<br>\n「重要！」と　大きく赤字で書いてある。"
+    ja: |-
+      {Character_Head}は　ルシェンダの手紙を
+      手に取った。
+      <br>
+      「重要！」と　大きく赤字で書いてある。
     ko: |-
       {Character_Head}|hpp(은,는) 루셴다의 편지를
       손에 들었다.
@@ -974056,7 +974191,7 @@ STT_UIDouguSys:
       look at the pendulum of fate.
       <br>
       The pendulum is shining brightly on her.
-      Return to your girlfriend Lucienda on the second floor of Gran Zedora Castle.
+      Return to your girlfriend Lushenda on the second floor of Gran Zedora Castle.
       She seems better if you report the situation once.
     es: ""
     fr: ""
@@ -974120,19 +974255,27 @@ STT_UIDouguSys:
       看來還需要一點力量
       才能讓它散發出完整的光輝。
   ID_TEXT_DAIJINAMONO_UNMEINOHURIKO_05:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (241) SYSTEXT_QUESTLIST_NAME_MQ_005_1 { Main Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_MQ_005_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_005_1_010, STT_NpcInfo.NAME_NPC_02045, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_UNMEINOHURIKO]`
     de: ""
     en: |-
-      {Character_Head} took a
-      look at the pendulum of fate.
+      {Character_Head} tried gazing closely at the
+      Pendulum of Fate.
       <br>
-      The pendulum shines in her dazzling light.
-      Return to
-      Lucienda on the second floor of Gran Zedora Castle and report.
+      The pendulum is dazzling brilliantly. Let's report
+      back to Lushenda in Gran Zedora Castle (2F).
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　運命の振り子を\nじっくり　ながめてみた。\n<br>\n振り子は　まばゆい輝きを　放っている。\nグランゼドーラ城２階の\nルシェンダの所に戻って　報告しよう。"
+    ja: |-
+      {Character_Head}は　運命の振り子を
+      じっくり　ながめてみた。
+      <br>
+      振り子は　まばゆい輝きを　放っている。
+      グランゼドーラ城２階の
+      ルシェンダの所に戻って　報告しよう。
     ko: |-
       {Character_Head}|hpp(은,는) 운명의 진자를
       가만히 바라보았다.
@@ -974331,7 +974474,7 @@ STT_UIDouguSys:
       <br>
       The pendulum shines in her dazzling light.
       Return to
-      Lucienda on the second floor of Gran Zedora Castle and report.
+      Lushenda on the second floor of Gran Zedora Castle and report.
     es: ""
     fr: ""
     it: ""
@@ -974394,7 +974537,7 @@ STT_UIDouguSys:
       look at the pendulum of fate.
       <br>
       The pendulum doesn't shine on her at all.
-      Let's ask Lucienda what we should do to fill it with radiance.
+      Let's ask Lushenda what we should do to fill it with radiance.
     es: ""
     fr: ""
     it: ""
@@ -974537,7 +974680,7 @@ STT_UIDouguSys:
       <br>
       The pendulum shines in her dazzling light.
       Return to
-      Lucienda on the second floor of Gran Zedora Castle and report.
+      Lushenda on the second floor of Gran Zedora Castle and report.
     es: ""
     fr: ""
     it: ""
@@ -975191,18 +975334,26 @@ STT_UIDouguSys:
       誘惑精華有一股
       無法形容的神祕香氣。
   ID_TEXT_DAIJINAMONO_ZANKURONEPAN:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_016, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_016_2_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZANKURONEPAN]`
     de: ""
     en: |-
-      {Character_Head} tried closely examining Zankrone
-      Bread.
+      {Character_Head} tried closely examining the
+      Zankrone Bread.
       <br>
-      If ate, it looks like it could be life-threatening
+      If ate, it looks like it could be life-threatening,
       and it is extremely colorful...
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　ザンクローネパンを\nじっくり　ながめてみた。\n<br>\n食べたら　命に関わりそうな\nカゲキな色をしている……。"
+    ja: |-
+      {Character_Head}は　ザンクローネパンを
+      じっくり　ながめてみた。
+      <br>
+      食べたら　命に関わりそうな
+      カゲキな色をしている……。
     ko: |-
       {Character_Head}|hpp(은,는) 장크로네 빵을
       가만히 바라보았다.
