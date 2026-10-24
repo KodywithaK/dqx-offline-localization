@@ -60598,8 +60598,13 @@ STT_BattleMonsterName:
     pt-BR: ""
     zh-Hans: 奇基
     zh-Hant: 奇基
-  ID_MONSTER_NAME_03900:
-    $comments: 🟡, see `DQ06_data_MENULIST6_{LANGUAGE}_b1002000.mpt:00010`
+  ID_MONSTER_NAME_03900: &STT_BattleMonsterName.ID_MONSTER_NAME_03900
+    $comments: |-
+      🟡
+      (217) SYSTEXT_QUESTLIST_NAME_FQ_102_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_102_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_000, STT_BattleMonsterName.ID_MONSTER_NAME_03900]`
+      see `DQ06_data_MENULIST6_{LANGUAGE}_b1002000.mpt:00010`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_03900
     de: Listige Lümmel
     en: Leery Lout
     es: Sonrisillas Receloso
@@ -63392,7 +63397,10 @@ STT_BattleMonsterName:
     zh-Hans: 慈爱猛兽
     zh-Hant: 慈愛猛獸
   ID_MONSTER_NAME_09400:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_09400]`
     de: ""
     en: Missing Lynx
     es: ""
@@ -64956,16 +64964,21 @@ STT_BattleMonsterName:
     pt-BR: Coelinquente
     zh-Hans: 凶暴兔
     zh-Hant: 兇暴兔
-  ID_MONSTER_NAME_12002:
-    $comments: 🟡
-    de: ""
+  ID_MONSTER_NAME_12002: &STT_BattleMonsterName.ID_MONSTER_NAME_12002
+    $comments: |-
+      🟢
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_010, STT_BattleMonsterName.ID_MONSTER_NAME_12002]`
+      see [DQXIS_Localize.db.json:TXT_ENEMY_NAME_054]
+      *STT_BattleMonsterName.ID_MONSTER_NAME_12002
+    de: Verstümmelmann
     en: Bad Hare
-    es: ""
+    es: Conegro
     fr: Pikanaille
-    it: ""
+    it: Leproscuro
     ja: ダーティラビッツ
     ko: 더티 래빗츠
-    pt-BR: ""
+    pt-BR: Coelho Sujo
     zh-Hans: 暗黑兔
     zh-Hant: 暗黑兔
   ID_MONSTER_NAME_12002_PY:
@@ -66379,8 +66392,13 @@ STT_BattleMonsterName:
     pt-BR: Lagorto
     zh-Hans: 肥蜥蜴
     zh-Hant: 肥蜥蜴
-  ID_MONSTER_NAME_14304:
-    $comments: 🟢, see `DQ08-romfs-data-Message-{LANGUAGE}-msg_monster.bin*:00272`
+  ID_MONSTER_NAME_14304: &STT_BattleMonsterName.ID_MONSTER_NAME_14304
+    $comments: |-
+      🟢
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_020, STT_BattleMonsterName.ID_MONSTER_NAME_14304]`
+      see `DQ08-romfs-data-Message-{LANGUAGE}-msg_monster.bin*:00272`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_14304
     de: Große Argonechse
     en: Great Argon Lizard
     es: Lagarto Argón Gigante
@@ -66388,7 +66406,7 @@ STT_BattleMonsterName:
     it: Gran Dragocertola
     ja: アルゴングレート
     ko: 아르곤 그레이트
-    pt-BR: Argôniótimo
+    pt-BR: Lagartão Argônio
     zh-Hans: 大阿尔贡
     zh-Hant: 大阿爾貢
   ID_MONSTER_NAME_14305:
@@ -73887,7 +73905,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_09400:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_09400]`
     de: ""
     en: ""
     es: ""
@@ -75375,7 +75396,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_12002:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_010, STT_BattleMonsterName.ID_MONSTER_NAME_12002]`
     de: ""
     en: ""
     es: ""
@@ -76637,7 +76661,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_14304:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_020, STT_BattleMonsterName.ID_MONSTER_NAME_14304]`
     de: ""
     en: ""
     es: ""
@@ -161918,7 +161945,9 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 榴彈爆炸
   PA_ACTION_NO_M_JIBAKU_DANCE_M02500: *PA_ACTION_NO_JIBAKU_DANCE
   PA_ACTION_NO_M_JIBAKU_M01000: &PA_ACTION_NO_JIBAKU
-    $comments: 🟡
+    $comments: |-
+      🟡
+      see [STT_BattleSkillItem.PA_ACTION_NO_M_JIBAKU_M01000]
     de: ""
     en: Self-Destruct
     es: ""
@@ -171109,10 +171138,12 @@ STT_BattleSlideMsg_D1E_LOG:
     pt-BR: ""
     zh-Hans: 小幅降低了<%sB_LOG_ABILITY_DOWN><%sB_TARGET>的防御力！
     zh-Hant: <%sB_LOG_ABILITY_DOWN>小幅降低<%sB_TARGET>的守備力了！
-  ODDMESSAGE_NO_SLIDE_SYUBI2:
-    $comments: 🔴
+  ODDMESSAGE_NO_SLIDE_SYUBI2: &STT_BattleSlideMsg_D1E_LOG.ODDMESSAGE_NO_SLIDE_SYUBI2
+    $comments: |-
+      🟡
+      *STT_BattleSlideMsg_D1E_LOG.ODDMESSAGE_NO_SLIDE_SYUBI2
     de: ""
-    en: ""
+    en: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>'s defense decreased by a bit!
     es: ""
     fr: ""
     it: ""
@@ -171242,10 +171273,12 @@ STT_BattleSlideMsg_D1E_SYS:
     pt-BR: ""
     zh-Hans: 小幅降低了<%sB_TARGET>的防御力！
     zh-Hant: 小幅降低<%sB_TARGET>的守備力了！
-  ODDMESSAGE_NO_SLIDE_SYUBI2:
-    $comments: 🔴
+  ODDMESSAGE_NO_SLIDE_SYUBI2: &STT_BattleSlideMsg_D1E_SYS.ODDMESSAGE_NO_SLIDE_SYUBI2
+    $comments: |-
+      🟡
+      *STT_BattleSlideMsg_D1E_SYS.ODDMESSAGE_NO_SLIDE_SYUBI2
     de: ""
-    en: The defense of <%sB_TARGET> has decreased a little!
+    en: <%sB_TARGET>'s defense decreased by a bit!
     es: ""
     fr: ""
     it: ""
@@ -171363,30 +171396,8 @@ STT_BattleSlideMsg_D1P_LOG:
     pt-BR: ""
     zh-Hans: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>的魅力小幅下降了！
     zh-Hant: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>的魅力小幅下降了！
-  ODDMESSAGE_NO_SLIDE_SYUBI:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>の しゅび力が 少し さがった！
-    ko: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>의 수비력이 조금 떨어졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>的防御力小幅下降了！
-    zh-Hant: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>的守備力小幅下降了！
-  ODDMESSAGE_NO_SLIDE_SYUBI2:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>の しゅび力が 少し さがった！
-    ko: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>의 수비력이 조금 떨어졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>的防御力小幅下降了！
-    zh-Hant: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>的守備力小幅下降了！
+  ODDMESSAGE_NO_SLIDE_SYUBI: *STT_BattleSlideMsg_D1E_LOG.ODDMESSAGE_NO_SLIDE_SYUBI2
+  ODDMESSAGE_NO_SLIDE_SYUBI2: *STT_BattleSlideMsg_D1E_LOG.ODDMESSAGE_NO_SLIDE_SYUBI2
 STT_BattleSlideMsg_D1P_SYS:
   ODDMESSAGE_NO_SLIDE_BREATH:
     $comments: 🔴
@@ -171496,30 +171507,8 @@ STT_BattleSlideMsg_D1P_SYS:
     pt-BR: ""
     zh-Hans: <%sB_TARGET>的魅力小幅下降了！
     zh-Hant: <%sB_TARGET>的魅力小幅下降了！
-  ODDMESSAGE_NO_SLIDE_SYUBI:
-    $comments: 🔴
-    de: ""
-    en: The defense of <%sB_TARGET> has decreased a little!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>の しゅび力が 少し さがった！
-    ko: <%sB_TARGET>의 수비력이 조금 떨어졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>的防御力小幅下降了！
-    zh-Hant: <%sB_TARGET>的守備力小幅下降了！
-  ODDMESSAGE_NO_SLIDE_SYUBI2:
-    $comments: 🔴
-    de: ""
-    en: The defense of <%sB_TARGET> has decreased a little!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>の しゅび力が 少し さがった！
-    ko: <%sB_TARGET>의 수비력이 조금 떨어졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>的防御力小幅下降了！
-    zh-Hant: <%sB_TARGET>的守備力小幅下降了！
+  ODDMESSAGE_NO_SLIDE_SYUBI: *STT_BattleSlideMsg_D1E_SYS.ODDMESSAGE_NO_SLIDE_SYUBI2
+  ODDMESSAGE_NO_SLIDE_SYUBI2: *STT_BattleSlideMsg_D1E_SYS.ODDMESSAGE_NO_SLIDE_SYUBI2
 STT_BattleSlideMsg_D2EEX_LOG:
   ODDMESSAGE_NO_SLIDE_BREATH:
     $comments: 🔴
@@ -173425,10 +173414,12 @@ STT_BattleSlideMsg_I2E_LOG:
     pt-BR: ""
     zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>的速度大幅提升了！
     zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>的速度大幅上升了！
-  ODDMESSAGE_NO_SLIDE_KOUGEKI:
-    $comments: 🔴
+  ODDMESSAGE_NO_SLIDE_KOUGEKI: &STT_BattleSlideMsg_I2E_LOG.ODDMESSAGE_NO_SLIDE_KOUGEKI
+    $comments: |-
+      🟡
+      *STT_BattleSlideMsg_I2E_LOG.ODDMESSAGE_NO_SLIDE_KOUGEKI
     de: ""
-    en: ""
+    en: <%sB_LOG_ABILITY_UP><%sB_TARGET>'s defense increased by a lot!
     es: ""
     fr: ""
     it: ""
@@ -173437,18 +173428,7 @@ STT_BattleSlideMsg_I2E_LOG:
     pt-BR: ""
     zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>的攻击力大幅提升了！
     zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>的攻擊力大幅上升了！
-  ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_LOG_ABILITY_UP><%sB_TARGET>の こうげき力が かなり あがった！
-    ko: <%sB_LOG_ABILITY_UP><%sB_TARGET>의 공격력이 많이 올랐다!
-    pt-BR: ""
-    zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>的攻击力大幅提升了！
-    zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>的攻擊力大幅上升了！
+  ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR: *STT_BattleSlideMsg_I2E_LOG.ODDMESSAGE_NO_SLIDE_KOUGEKI
   ODDMESSAGE_NO_SLIDE_KOUGEKI_PIORA:
     $comments: 🔴
     de: ""
@@ -173570,10 +173550,12 @@ STT_BattleSlideMsg_I2E_SYS:
     pt-BR: ""
     zh-Hans: <%sB_TARGET>的速度大幅提升了！
     zh-Hant: <%sB_TARGET>的速度大幅上升了！
-  ODDMESSAGE_NO_SLIDE_KOUGEKI:
-    $comments: 🔴
+  ODDMESSAGE_NO_SLIDE_KOUGEKI: &STT_BattleSlideMsg_I2E_SYS.ODDMESSAGE_NO_SLIDE_KOUGEKI
+    $comments: |-
+      🟡
+      *STT_BattleSlideMsg_I2E_SYS.ODDMESSAGE_NO_SLIDE_KOUGEKI
     de: ""
-    en: The attack power of <%sB_TARGET> has increased significantly!
+    en: <%sB_TARGET>'s defense increased by a lot!
     es: ""
     fr: ""
     it: ""
@@ -173582,18 +173564,7 @@ STT_BattleSlideMsg_I2E_SYS:
     pt-BR: ""
     zh-Hans: <%sB_TARGET>的攻击力大幅提升了！
     zh-Hant: <%sB_TARGET>的攻擊力大幅上升了！
-  ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR:
-    $comments: 🔴
-    de: ""
-    en: <%sB_TARGET>'s attack power has increased significantly!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>の こうげき力が かなり あがった！
-    ko: <%sB_TARGET>의 공격력이 많이 올랐다!
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>的攻击力大幅提升了！
-    zh-Hant: <%sB_TARGET>的攻擊力大幅上升了！
+  ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR: *STT_BattleSlideMsg_I2E_SYS.ODDMESSAGE_NO_SLIDE_KOUGEKI
   ODDMESSAGE_NO_SLIDE_KOUGEKI_PIORA:
     $comments: 🔴
     de: ""
@@ -173996,30 +173967,8 @@ STT_BattleSlideMsg_I2P_LOG:
     zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>的咒文恢复力大幅提升了！
     zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>的咒文恢復力大幅上升了！
   ODDMESSAGE_NO_SLIDE_KOUDOUJIKAN: *LOG__ODDMESSAGE_NO_SLIDE_KOUDOUJIKAN
-  ODDMESSAGE_NO_SLIDE_KOUGEKI:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_LOG_ABILITY_UP><%sB_TARGET>の こうげき力が かなり あがった！
-    ko: <%sB_LOG_ABILITY_UP><%sB_TARGET>의 공격력이 많이 올랐다!
-    pt-BR: ""
-    zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>的攻击力大幅提升了！
-    zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>的攻擊力大幅上升了！
-  ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_LOG_ABILITY_UP><%sB_TARGET>の こうげき力が かなり あがった！
-    ko: <%sB_LOG_ABILITY_UP><%sB_TARGET>의 공격력이 많이 올랐다!
-    pt-BR: ""
-    zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>的攻击力大幅提升了！
-    zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>的攻擊力大幅上升了！
+  ODDMESSAGE_NO_SLIDE_KOUGEKI: *STT_BattleSlideMsg_I2E_LOG.ODDMESSAGE_NO_SLIDE_KOUGEKI
+  ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR: *STT_BattleSlideMsg_I2E_LOG.ODDMESSAGE_NO_SLIDE_KOUGEKI
   ODDMESSAGE_NO_SLIDE_KOUGEKI_PIORA:
     $comments: 🔴
     de: ""
@@ -174130,30 +174079,8 @@ STT_BattleSlideMsg_I2P_SYS:
     zh-Hans: <%sB_TARGET>的咒文恢复力大幅提升了！
     zh-Hant: <%sB_TARGET>的咒文恢復力大幅上升了！
   ODDMESSAGE_NO_SLIDE_KOUDOUJIKAN: *ODDMESSAGE_NO_SLIDE_KOUDOUJIKAN
-  ODDMESSAGE_NO_SLIDE_KOUGEKI:
-    $comments: 🔴
-    de: ""
-    en: The attack power of <%sB_TARGET> has increased significantly!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>の こうげき力が かなり あがった！
-    ko: <%sB_TARGET>의 공격력이 많이 올랐다!
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>的攻击力大幅提升了！
-    zh-Hant: <%sB_TARGET>的攻擊力大幅上升了！
-  ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR:
-    $comments: 🔴
-    de: ""
-    en: <%sB_TARGET>'s attack power has increased significantly!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>の こうげき力が かなり あがった！
-    ko: <%sB_TARGET>의 공격력이 많이 올랐다!
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>的攻击力大幅提升了！
-    zh-Hant: <%sB_TARGET>的攻擊力大幅上升了！
+  ODDMESSAGE_NO_SLIDE_KOUGEKI: *STT_BattleSlideMsg_I2E_SYS.ODDMESSAGE_NO_SLIDE_KOUGEKI
+  ODDMESSAGE_NO_SLIDE_KOUGEKI_BTR: *STT_BattleSlideMsg_I2E_SYS.ODDMESSAGE_NO_SLIDE_KOUGEKI
   ODDMESSAGE_NO_SLIDE_KOUGEKI_PIORA:
     $comments: 🔴
     de: ""
@@ -200187,7 +200114,7 @@ STT_CareerStoryVer2:
     en: |-
       During Princess Anlucia's audience with Mishua and us, she explained
       that it might have a good effect on returning Mishua's memory if Mishua
-      accompanied her to defeat the giant Red Dragon, and asked us to be
+      accompanied her to defeat the Red Giant Dragon, and asked us to be
       Mishua's bodyguards. The dragon appeared in the south of Gran Zedora
       Territory, Rovos Highlands, deep inside the place called Zedra Cave.
     es: ""
@@ -200239,7 +200166,7 @@ STT_CareerStoryVer2:
       see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS5_011]`
     de: ""
     en: |-
-      Inside Zedra Cave, the giant Red Dragon appeared and attacked Mishua,
+      Inside Zedra Cave, the Red Giant Dragon appeared and attacked Mishua,
       but an incredible light protected her and made the monster flee.
       Princess Anlucia's demeanor changed quickly, as she claimed the light
       was of the Hero's Awakening, and that Mishua was her "missing half",
@@ -218427,7 +218354,10 @@ STT_CommonItem:
     zh-Hans: DUMMY
     zh-Hant: DUMMY
   NAME_ID_ITEM_MATERIAL_UMANOFUN:
-    $comments: 🟡
+    $comments: |-
+      🟢
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_CommonItem.*_ID_ITEM_MATERIAL_UMANOFUN]`
     de: Pferdemist
     en: Horse Manure
     es: Boñiga de Caballo
@@ -218435,16 +218365,17 @@ STT_CommonItem:
     it: Sterco di Cavallo
     ja: うまのふん
     ko: 말똥
-    pt-BR: ""
+    pt-BR: Estrume de Cavalo
     zh-Hans: 马粪
     zh-Hant: 馬糞
   EXPLANATION_ID_ITEM_MATERIAL_UMANOFUN:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_CommonItem.*_ID_ITEM_MATERIAL_UMANOFUN]`
     de: ""
     en: |-
-      Equine extra
-      exudes a
-      pungent perfume.
+      A stinky horse dropping
     es: ""
     fr: ""
     it: ""
@@ -218462,7 +218393,10 @@ STT_CommonItem:
       從馬身上掉出的
       氣味濃郁的物品
   RUBY_ID_ITEM_MATERIAL_UMANOFUN:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_CommonItem.*_ID_ITEM_MATERIAL_UMANOFUN]`
     de: ""
     en: ""
     es: ""
@@ -243966,25 +243900,33 @@ STT_DaijinamonoItem:
     pt-BR: ""
     zh-Hans: huangshenhufu
     zh-Hant: DUMMY
-  NAME_ID_ITEM_DAIJINAMONO_ARUGONHATO:
-    $comments: 🔴
-    de: ""
+  NAME_ID_ITEM_DAIJINAMONO_ARUGONHATO: &STT_DaijinamonoItem.NAME_ID_ITEM_DAIJINAMONO_ARUGONHATO
+    $comments: |-
+      🟢
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ARUGONHATO]`
+      *STT_DaijinamonoItem.NAME_ID_ITEM_DAIJINAMONO_ARUGONHATO
+      Das,El,Le,Il,O
+    de: Argon-Herz
     en: Argon Heart
-    es: ""
-    fr: ""
-    it: ""
+    es: Corazón de Argón
+    fr: Cœur de Argon
+    it: Cuore di Argon
     ja: アルゴンハート
     ko: 아르곤 하트
-    pt-BR: ""
+    pt-BR: Coração de Argôn
     zh-Hans: 蜥蜴之心
     zh-Hant: 蜥蜴之心
   EXPLANATION_ID_ITEM_DAIJINAMONO_ARUGONHATO:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ARUGONHATO]`
     de: ""
     en: |-
-      Jewelry from a
-      huge red dragon
-      long dead.
+      A gemstone extracted
+      from a long extinct
+      Red Giant Dragon
     es: ""
     fr: ""
     it: ""
@@ -244006,7 +243948,10 @@ STT_DaijinamonoItem:
       已滅絕的紅色巨龍
       身上採到的寶石
   RUBY_ID_ITEM_DAIJINAMONO_ARUGONHATO:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ARUGONHATO]`
     de: ""
     en: ""
     es: ""
@@ -249133,7 +249078,7 @@ STT_DaijinamonoItem:
   NAME_ID_ITEM_DAIJINAMONO_KAIGANISEKINOKAGI:
     $comments: 🔴
     de: ""
-    en: Coast Ruins Key
+    en: Coastal Ruins Key
     es: ""
     fr: ""
     it: ""
@@ -249147,7 +249092,7 @@ STT_DaijinamonoItem:
     de: ""
     en: |-
       Old key that
-      opens the Coast
+      opens the Coastal
       Ruins door.
     es: ""
     fr: ""
@@ -250851,7 +250796,10 @@ STT_DaijinamonoItem:
     zh-Hans: gudaizhanren
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_KODOMOMUKENOMOKKOKYOHON:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_050, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KODOMOMUKENOMOKKOKYOHON]`
     de: ""
     en: Children's Woodworking Manual
     es: ""
@@ -250863,12 +250811,15 @@ STT_DaijinamonoItem:
     zh-Hans: 儿童木工课本
     zh-Hant: 兒童木工課本
   EXPLANATION_ID_ITEM_DAIJINAMONO_KODOMOMUKENOMOKKOKYOHON:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_050, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KODOMOMUKENOMOKKOKYOHON]`
     de: ""
     en: |-
-      Book written for
+      A book written for
       kids about the ways
-      of woodworking.
+      of woodworking
     es: ""
     fr: ""
     it: ""
@@ -250888,7 +250839,10 @@ STT_DaijinamonoItem:
       教小朋友怎麼做
       木工的課本
   RUBY_ID_ITEM_DAIJINAMONO_KODOMOMUKENOMOKKOKYOHON:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_050, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KODOMOMUKENOMOKKOKYOHON]`
     de: ""
     en: ""
     es: ""
@@ -256854,7 +256808,11 @@ STT_DaijinamonoItem:
     zh-Hans: caihongye
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_REMURUGAI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_REMURUGAI]`
+      see [DQ3make-Data_DataTable_Text.json:GOP_Text_Magic.Txt_Magic_Name_Remuoru]
     de: ""
     en: Fade Shell
     es: ""
@@ -256866,12 +256824,15 @@ STT_DaijinamonoItem:
     zh-Hans: 莱姆尔贝壳
     zh-Hant: 萊姆爾貝殼
   EXPLANATION_ID_ITEM_DAIJINAMONO_REMURUGAI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_REMURUGAI]`
     de: ""
     en: |-
-      Clear shell
-      only available
-      during low tide.
+      A clear shell said to
+      only be obtainable
+      during low tide
     es: ""
     fr: ""
     it: ""
@@ -256893,7 +256854,10 @@ STT_DaijinamonoItem:
       才能找到的
       透明貝殼
   RUBY_ID_ITEM_DAIJINAMONO_REMURUGAI:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_REMURUGAI]`
     de: ""
     en: ""
     es: ""
@@ -258814,24 +258778,30 @@ STT_DaijinamonoItem:
     zh-Hans: sailafeidexin
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_SERIKUNOKABAN:
-    $comments: 🔴
-    de: ""
-    en: Selik's Bag
-    es: ""
-    fr: ""
-    it: ""
+    $comments: |-
+      🟢
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SERIKUNOKABAN]`
+      Der,La,Le,Il,A
+    de: Seriks Sack
+    en: Serik's Bag
+    es: Bolsa de Serik
+    fr: Sac de Serik
+    it: Sacco di Serik
     ja: セリクのかばん
     ko: 셀리크의 가방
-    pt-BR: ""
+    pt-BR: Bolsa de Serik
     zh-Hans: 塞利克的包
     zh-Hant: 塞利克的背包
   EXPLANATION_ID_ITEM_DAIJINAMONO_SERIKUNOKABAN:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SERIKUNOKABAN]`
     de: ""
     en: |-
-      Bag with tools
-      needed to fix
-      the Torban.
+      A bag with tools inside
+      needed to fix the torban
     es: ""
     fr: ""
     it: ""
@@ -258851,7 +258821,10 @@ STT_DaijinamonoItem:
       裝有修理圖拉琴
       所需工具的背包
   RUBY_ID_ITEM_DAIJINAMONO_SERIKUNOKABAN:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SERIKUNOKABAN]`
     de: ""
     en: ""
     es: ""
@@ -261185,9 +261158,12 @@ STT_DaijinamonoItem:
     zh-Hans: tezhizhentou29hao
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_TOMOGARANONAE:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TOMOGARANONAE]`
     de: ""
-    en: Friend Seedling
+    en: Friendship Sapling
     es: ""
     fr: ""
     it: ""
@@ -261197,11 +261173,15 @@ STT_DaijinamonoItem:
     zh-Hans: 伙伴之苗
     zh-Hant: 夥伴之苗
   EXPLANATION_ID_ITEM_DAIJINAMONO_TOMOGARANONAE:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TOMOGARANONAE]`
     de: ""
     en: |-
-      Special seedling to
-      make a present.
+      A special sapling
+      needed to make a
+      present
     es: ""
     fr: ""
     it: ""
@@ -261222,7 +261202,10 @@ STT_DaijinamonoItem:
       製作禮物所需的
       特殊樹苗
   RUBY_ID_ITEM_DAIJINAMONO_TOMOGARANONAE:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TOMOGARANONAE]`
     de: ""
     en: ""
     es: ""
@@ -262468,7 +262451,10 @@ STT_DaijinamonoItem:
     zh-Hans: qianhongsebaoluo
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_UWASANOMAMONONOSYASIN:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (217) SYSTEXT_QUESTLIST_NAME_FQ_102_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_102_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_UWASANOMAMONONOSYASIN]`
     de: ""
     en: Rumored Monster Photo
     es: ""
@@ -262480,12 +262466,15 @@ STT_DaijinamonoItem:
     zh-Hans: 传闻中的怪物照片
     zh-Hant: 傳聞中的怪物照片
   EXPLANATION_ID_ITEM_DAIJINAMONO_UWASANOMAMONONOSYASIN:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (217) SYSTEXT_QUESTLIST_NAME_FQ_102_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_102_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_UWASANOMAMONONOSYASIN]`
     de: ""
     en: |-
-      Photo of the rumored
-      monster in the field
-      of flowers
+      A photo of the rumored
+      monster in the flower
+      field
     es: ""
     fr: ""
     it: ""
@@ -262505,7 +262494,10 @@ STT_DaijinamonoItem:
       傳聞在花田中
       出現的怪物照片
   RUBY_ID_ITEM_DAIJINAMONO_UWASANOMAMONONOSYASIN:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (217) SYSTEXT_QUESTLIST_NAME_FQ_102_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_102_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_UWASANOMAMONONOSYASIN]`
     de: ""
     en: ""
     es: ""
@@ -268709,10 +268701,12 @@ STT_Equip_OddStatus_Name:
     pt-BR: ""
     zh-Hans: 光伤害减少
     zh-Hant: 光傷害減少
-  NAME_QUALITY_SOUBI_GUARD_UP_HONOO:
-    $comments: 🔴
+  NAME_QUALITY_SOUBI_GUARD_UP_HONOO: &STT_Equip_OddStatus_Name.NAME_QUALITY_SOUBI_GUARD_UP_HONOO
+    $comments: |-
+      🟡
+      *STT_Equip_OddStatus_Name.NAME_QUALITY_SOUBI_GUARD_UP_HONOO
     de: ""
-    en: ""
+    en: Fire Resistance
     es: ""
     fr: ""
     it: ""
@@ -271601,18 +271595,7 @@ STT_EventMonsterName_2nd: #pakchunk2-{PLATFORM}.utoc/Game/Content/DLC/Ver2/Strin
     zh-Hans: ""
     zh-Hant: ""
   AQ_016_3: *STT_NpcInfo.NAME_NPC_02332
-  AQ_017_3:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: アルゴングレート
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  AQ_017_3: *STT_BattleMonsterName.ID_MONSTER_NAME_14304
   AQ_018_3:
     $comments: 🟡
     de: ""
@@ -287758,7 +287741,7 @@ STT_FishingExchangeNPC:
       <speed=0>
       {Character_Name} traded {Fish_Name} and got
       {Fish_Coin} Fish Coins!
-      <se system Item><speed=default><bw_break >
+      <se system Item><speed=default><bw_break>
     es: ""
     fr: ""
     it: ""
@@ -360570,11 +360553,13 @@ STT_Monster_Tips1_ver1:
       會晃動著巨大的身體
       抬起腳踐踏敵人。
   SYSTXT_MONSTER_TIPS1_MONSTER_NO_09000:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
     en: |-
-      A terrifying ancient giant dragon that is so intimidating and ferocious that even the same dragons run away.
-      Be careful of the tornadoes that are brewing.
+      A terrifying, ancient giant dragon
+      so intimidating and ferocious that
+      dragons of the same family flee.
+      Be careful of tornadoes it makes.
     es: ""
     fr: ""
     it: ""
@@ -361004,7 +360989,10 @@ STT_Monster_Tips1_ver1:
       會飛撲過來偷襲獵物，
       對其造成致命傷。
   SYSTXT_MONSTER_TIPS1_MONSTER_NO_09400:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_09400]`
     de: ""
     en: |-
       A ferocious magical beast resembling a
@@ -363994,12 +363982,18 @@ STT_Monster_Tips1_ver1:
       兔子怪物。
       為了打倒敵人
       不惜使出捨身的攻擊。
-  SYSTXT_MONSTER_TIPS1_MONSTER_NO_12002:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS1_MONSTER_NO_12002: &STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_12002
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_010, STT_BattleMonsterName.[ID_MONSTER_NAME_12002, ID_MONSTER_NAME_12003]]`
+      *STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_12002
     de: ""
     en: |-
-      It was originally a Fukumen bunny, but after undergoing dark training, it became a black body.
-      A ruthless plains assassin who uses powerful fighting techniques.
+      Originally a Rottentail, but after
+      undergoing dark training, it got a
+      dark body. A ruthless prairie assassin
+      who uses powerful wrestling techniques.
     es: ""
     fr: ""
     it: ""
@@ -377535,7 +377529,10 @@ STT_Monster_Tips2_ver1:
       因此在黑市流通的價格
       簡直高得離譜……
   SYSTXT_MONSTER_TIPS2_MONSTER_NO_09400:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_09400]`
     de: ""
     en: |-
       There is a record that they picked up human children and
@@ -380535,14 +380532,19 @@ STT_Monster_Tips2_ver1:
       兇暴兔這個稱號
       只頒發給身經百戰的
       兔中豪傑。
-  SYSTXT_MONSTER_TIPS2_MONSTER_NO_12002:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS2_MONSTER_NO_12002: &STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_12002
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_010, STT_BattleMonsterName.[ID_MONSTER_NAME_12002, ID_MONSTER_NAME_02502], STT_BattleSkillItem.PA_ACTION_NO_M_JIBAKU_M01000]`
+      *STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_12002
     de: ""
     en: |-
-      In the darkness, I have completed the
-      dark training of defeating the
-      Iron Cooks that attack from all directions.
-      Caught up in a self-destruction and turned black.
+      The dark training it did is said to be
+      defeating Robo-Robins in the dark that
+      attacked from 4 directions. It got
+      caught in a Self-Destruct, and burnt
+      black.
     es: ""
     fr: ""
     it: ""
@@ -386579,13 +386581,18 @@ STT_Monster_Tips1_ver2:
       天狗來到人煙處。
       只要一揮自豪的扇子
       就會捲起死亡旋風。
-  SYSTXT_MONSTER_TIPS1_MONSTER_NO_14300:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS1_MONSTER_NO_14300: &STT_Monster_Tips1_Ver2.SYSTXT_MONSTER_TIPS1_MONSTER_NO_14300
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_020, STT_BattleMonsterName.ID_MONSTER_NAME_14304]`
+      *STT_Monster_Tips1_Ver2.SYSTXT_MONSTER_TIPS1_MONSTER_NO_14300
     de: ""
     en: |-
-      A dragon's charm point is the large fin on its head.
-      It swings its tail and causes
-      great damage to its surroundings.
+      A dragon who's charm point is the
+      large fin on its head. It swings
+      its tail to cause great damage to
+      its surroundings.
     es: ""
     fr: ""
     it: ""
@@ -392782,14 +392789,18 @@ STT_Monster_Tips2_Ver2:
       結果似乎是因為
       討厭修行而下山。
       以妖術自豪，態度相當傲慢。
-  SYSTXT_MONSTER_TIPS2_MONSTER_NO_14300:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS2_MONSTER_NO_14300: &STT_Monster_Tips2_Ver2.SYSTXT_MONSTER_TIPS2_MONSTER_NO_14300
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_020, STT_BattleMonsterName.ID_MONSTER_NAME_14304, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ARUGONHATO]`
+      *STT_Monster_Tips2_Ver2.SYSTXT_MONSTER_TIPS2_MONSTER_NO_14300
     de: ""
     en: |-
-      It may generate
-      gemstone called argon heart in its body.
-      In the Kingdom of Granzedora, it seems to be called the
-      Red Giant Dragon.
+      It may form a gemstone called an
+      Argon Heart in its body. In Gran
+      Zedora Kingdom, it seems to be
+      called a Red Giant Dragon.
     es: ""
     fr: ""
     it: ""
@@ -396553,18 +396564,7 @@ STT_Monster_Type:
   EVTXT_SYS_QUESTA_IRAISYO_MONSTER_NAME_02010: *ID_MONSTER_NAME_09900
   EVTXT_SYS_QUESTA_IRAISYO_MONSTER_NAME_02020: *ID_MONSTER_NAME_12000
   EVTXT_SYS_QUESTA_IRAISYO_MONSTER_NAME_02030: *ID_MONSTER_NAME_12001
-  EVTXT_SYS_QUESTA_IRAISYO_MONSTER_NAME_02040:
-    $comments: 🟡, see `STT_BattleMonsterName.ID_MONSTER_NAME_12002`
-    de: ""
-    en: Bad Hare
-    es: ""
-    fr: Pikanaille
-    it: ""
-    ja: ダーティラビッツ
-    ko: 더티 래빗츠
-    pt-BR: ""
-    zh-Hans: 暗黑兔
-    zh-Hant: 暗黑兔
+  EVTXT_SYS_QUESTA_IRAISYO_MONSTER_NAME_02040: *STT_BattleMonsterName.ID_MONSTER_NAME_12002
   EVTXT_SYS_QUESTA_IRAISYO_MONSTER_NAME_02050:
     $comments: 🔴
     de: ""
@@ -396633,18 +396633,7 @@ STT_Monster_Type:
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  EVTXT_SYS_QUESTA_IRAISYO_MONSTER_NAME_03030:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: シールドこぞう
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  EVTXT_SYS_QUESTA_IRAISYO_MONSTER_NAME_03030: *STT_BattleMonsterName.ID_MONSTER_NAME_03900
   EVTXT_SYS_QUESTA_IRAISYO_MONSTER_NAME_03040:
     $comments: 🔴
     de: ""
@@ -412302,15 +412291,18 @@ STT_NpcInfo:
     zh-Hans: 右近
     zh-Hant: 右近
   NAME_NPC_01241:
-    $comments: 🔴, M
-    de: ""
+    $comments: |-
+      🟢, M
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_040, STT_NpcInfo.NAME_NPC_01241]`
+    de: Hayato
     en: Hayato
-    es: ""
-    fr: ""
-    it: ""
+    es: Hayato
+    fr: Hayato
+    it: Hayato
     ja: ハヤト
     ko: 하야토
-    pt-BR: ""
+    pt-BR: Hayato
     zh-Hans: 隼人
     zh-Hant: 隼人
   NAME_NPC_01242:
@@ -423101,6 +423093,8 @@ STT_NpcInfo:
       🟢, M
       (231) SYSTEXT_QUESTLIST_NAME_MQ_002_1 [ SYSTEXT_QUESTLIST_SERIES_MQ_002 ] { Main Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_MQ_002, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_002_1_???, STT_System_Location.SYSTXT_LOCATION_STAGE_Ren_r4100]`
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_020, STT_NpcInfo.NAME_NPC_02155]`
     de: Tiodo
     en: Tiodo
     es: Tiodo
@@ -423116,6 +423110,8 @@ STT_NpcInfo:
       🟢, F
       (231) SYSTEXT_QUESTLIST_NAME_MQ_002_1 [ SYSTEXT_QUESTLIST_SERIES_MQ_002 ] { Main Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_MQ_002, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_002_1_???, STT_System_Location.SYSTXT_LOCATION_STAGE_Ren_r4100]`
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_020, STT_NpcInfo.NAME_NPC_02156]`
     de: Fram
     en: Fram
     es: Fram
@@ -423131,6 +423127,8 @@ STT_NpcInfo:
       🟢, F
       (231) SYSTEXT_QUESTLIST_NAME_MQ_002_1 [ SYSTEXT_QUESTLIST_SERIES_MQ_002 ] { Main Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_MQ_002, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_002_1_???, STT_System_Location.SYSTXT_LOCATION_STAGE_Ren_r4100]`
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_020, STT_NpcInfo.NAME_NPC_02157]`
     de: Jira
     en: Jira
     es: Jira
@@ -423146,6 +423144,8 @@ STT_NpcInfo:
       🟢, M
       (231) SYSTEXT_QUESTLIST_NAME_MQ_002_1 [ SYSTEXT_QUESTLIST_SERIES_MQ_002 ] { Main Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_MQ_002, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_002_1_???, STT_System_Location.SYSTXT_LOCATION_STAGE_Ren_r4100]`
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_020, STT_NpcInfo.NAME_NPC_02158]`
     de: Yuugu
     en: Yuugu
     es: Yuugu
@@ -423249,9 +423249,9 @@ STT_NpcInfo:
     zh-Hans: 吉特拉
     zh-Hant: 吉特拉
   NAME_NPC_02166:
-    $comments: 🔴, N
+    $comments: 🟡, N
     de: ""
-    en: Red Dragon
+    en: Red Giant Dragon
     es: ""
     fr: ""
     it: ""
@@ -424553,18 +424553,7 @@ STT_NpcInfo:
     zh-Hans: 哥尔贡扎
     zh-Hant: 哥爾貢札
   NAME_NPC_02273: *ID_MONSTER_NAME_10710
-  NAME_NPC_02274:
-    $comments: 🔴, N
-    de: ""
-    en: Great Argon Lizard
-    es: ""
-    fr: ""
-    it: ""
-    ja: アルゴングレート
-    ko: 아르곤 그레이트
-    pt-BR: ""
-    zh-Hans: 大阿尔贡
-    zh-Hant: 大阿爾貢
+  NAME_NPC_02274: *STT_BattleMonsterName.ID_MONSTER_NAME_14304
   NAME_NPC_02275: *STT_NpcInfo.NAME_NPC_02275
   NAME_NPC_02276: *NAME_NPC_02276
   NAME_NPC_02277:
@@ -432308,15 +432297,18 @@ STT_NpcInfo:
     zh-Hans: 纳达夫
     zh-Hant: 納達夫
   NAME_NPC_02894:
-    $comments: 🔴, M
-    de: ""
+    $comments: |-
+      🟢, M
+      (217) SYSTEXT_QUESTLIST_NAME_FQ_102_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_102_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_010, STT_NpcInfo.NAME_NPC_02894]`
+    de: Kottso
     en: Kottso
-    es: ""
-    fr: ""
-    it: ""
+    es: Kottso
+    fr: Kottso
+    it: Kottso
     ja: コッツォ
     ko: 콧초
-    pt-BR: ""
+    pt-BR: Kottso
     zh-Hans: 柯茨
     zh-Hant: 柯茨
   NAME_NPC_02895:
@@ -476472,18 +476464,7 @@ STT_NpcInfo:
     pt-BR: ""
     zh-Hans: 图拉琴
     zh-Hant: 圖拉琴
-  NAME_NPC_06603:
-    $comments: 🔴, N
-    de: ""
-    en: Argon Heart
-    es: ""
-    fr: ""
-    it: ""
-    ja: アルゴンハート
-    ko: 아르곤 하트
-    pt-BR: ""
-    zh-Hans: 蜥蜴之心
-    zh-Hant: 蜥蜴之心
+  NAME_NPC_06603: *STT_DaijinamonoItem.NAME_ID_ITEM_DAIJINAMONO_ARUGONHATO
   NAME_NPC_06604:
     $comments: 🔴, N
     de: ""
@@ -581925,9 +581906,9 @@ STT_OddStatusName:
     zh-Hans: 光伤害减少3%
     zh-Hant: 光傷害減少3%
   PA_ODDSTATUS_NO_SOUBI_GUARD_UP_HONOO_10:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: Fire damage reduced by 10%
+    en: Fire damage -10%
     es: ""
     fr: ""
     it: ""
@@ -581937,9 +581918,9 @@ STT_OddStatusName:
     zh-Hans: 炎伤害减少10%
     zh-Hant: 炎傷害減少10%
   PA_ODDSTATUS_NO_SOUBI_GUARD_UP_HONOO_12:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: Fire damage reduced by 12%
+    en: Fire damage -12%
     es: ""
     fr: ""
     it: ""
@@ -581949,9 +581930,9 @@ STT_OddStatusName:
     zh-Hans: 炎伤害减少12%
     zh-Hant: 炎傷害減少12%
   PA_ODDSTATUS_NO_SOUBI_GUARD_UP_HONOO_15:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: 15% less fire damage
+    en: Fire damage -15%
     es: ""
     fr: ""
     it: ""
@@ -581961,9 +581942,9 @@ STT_OddStatusName:
     zh-Hans: 炎伤害减少15%
     zh-Hant: 炎傷害減少15%
   PA_ODDSTATUS_NO_SOUBI_GUARD_UP_HONOO_20:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: 20% less fire damage
+    en: Fire damage -20%
     es: ""
     fr: ""
     it: ""
@@ -581973,9 +581954,9 @@ STT_OddStatusName:
     zh-Hans: 炎伤害减少20%
     zh-Hant: 炎傷害減少20%
   PA_ODDSTATUS_NO_SOUBI_GUARD_UP_HONOO_26:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: 26% less fire damage
+    en: Fire damage -26%
     es: ""
     fr: ""
     it: ""
@@ -581985,9 +581966,9 @@ STT_OddStatusName:
     zh-Hans: 炎伤害减少26%
     zh-Hant: 炎傷害減少26%
   PA_ODDSTATUS_NO_SOUBI_GUARD_UP_HONOO_3:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: Fire damage reduced by 3%
+    en: Fire damage -3%
     es: ""
     fr: ""
     it: ""
@@ -581997,9 +581978,9 @@ STT_OddStatusName:
     zh-Hans: 炎伤害减少3%
     zh-Hant: 炎傷害減少3%
   PA_ODDSTATUS_NO_SOUBI_GUARD_UP_HONOO_6:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: Fire damage reduced by 6%
+    en: Fire damage -6%
     es: ""
     fr: ""
     it: ""
@@ -582009,9 +581990,9 @@ STT_OddStatusName:
     zh-Hans: 炎伤害减少6%
     zh-Hant: 炎傷害減少6%
   PA_ODDSTATUS_NO_SOUBI_GUARD_UP_HONOO_7:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: Fire damage reduced by 7%
+    en: Fire damage -7%
     es: ""
     fr: ""
     it: ""
@@ -582021,9 +582002,9 @@ STT_OddStatusName:
     zh-Hans: 炎伤害减少7%
     zh-Hant: 炎傷害減少7%
   PA_ODDSTATUS_NO_SOUBI_GUARD_UP_HONOO_8:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: Fire damage reduced by 8%
+    en: Fire damage -8%
     es: ""
     fr: ""
     it: ""
@@ -614058,7 +614039,7 @@ STT_PT_Talk:
       {"mapId":"r2020,r2022,r2030,r2040,r2050,r2060,r2062,r2230,r2240","ScenarioCounter_End":57,"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      Zedra Cave's giant Red Dragon...? As long as I get ta
+      Zedra Cave's Red Giant Dragon...? As long as I get ta
       keep all o' the junk, it don't matter if it's a dragon or
       whatever!
     es: ""
@@ -614339,7 +614320,7 @@ STT_PT_Talk:
       {"mapId":"r2600","Speaker":"COMPANION_HYUZA"}
     de: ""
     en: |-
-      How's the Princess gonna take down the giant Red
+      How's the Princess gonna take down the Red Giant
       Dragon... That'll be a sight to see, right.
     es: ""
     fr: ""
@@ -614369,7 +614350,7 @@ STT_PT_Talk:
       {"mapId":"r2600","Speaker":"COMPANION_RAGUASU"}
     de: ""
     en: |-
-      The true strength to take on a giant Red Dragon...
+      The true strength to take on a Red Giant Dragon...
       One would certainly have to be strong, would they
       not.
     es: ""
@@ -614400,7 +614381,7 @@ STT_PT_Talk:
       {"mapId":"r2600","Speaker":"COMPANION_FUURA"}
     de: ""
     en: |-
-      Defeating a giant Red Dragon... Do you think Princess
+      Defeating a Red Giant Dragon... Do you think Princess
       Anlucia is okay? I just hope she isn't hurt...
     es: ""
     fr: ""
@@ -614430,7 +614411,7 @@ STT_PT_Talk:
       {"mapId":"r2600","Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      I can't wait ta see what kinda junk this giant Red
+      I can't wait ta see what kinda junk this Red Giant
       Dragon or whatever it's called has waitin' fer us!
     es: ""
     fr: ""
@@ -614487,7 +614468,7 @@ STT_PT_Talk:
       {"mapId":"r2600","Speaker":"COMPANION_RAGUASU"}
     de: ""
     en: |-
-      The giant Red Dragon is deep inside Zedra Cave, is it.
+      The Red Giant Dragon is deep inside Zedra Cave, is it.
       We will need to be careful proceeding with Mishua.
     es: ""
     fr: ""
@@ -614515,7 +614496,7 @@ STT_PT_Talk:
       {"mapId":"r2600""Condition":"EHOLIPartyTalkCondition::isJoined_GUEST_MISHUA_GURA","Speaker":"GUEST_MISHUA_GURA"}
     de: ""
     en: |-
-      I'm afraid of the giant Red Dragon, but I have a
+      I'm afraid of the Red Giant Dragon, but I have a
       feeling that just waiting around won't bring back my
       memories.
     es: ""
@@ -700912,9 +700893,9 @@ STT_QuestListDetail:
       魔女的怨恨後消失了。小英雄的故事就此完結。
   SYSTEXT_QUESTLIST_NAME_AQ_017_1_000:
     $comments: |-
-      🔴
+      🟡
       (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_000]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_000, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
       At False Celed's church on the hill, it seems Lieselotte is seeking
@@ -700937,17 +700918,15 @@ STT_QuestListDetail:
       莉賽蘿塔似乎在尋求幫助。
   SYSTEXT_QUESTLIST_NAME_AQ_017_1_005:
     $comments: |-
-      🔴
+      🟡
       (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_005]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_005, STT_NpcInfo.NAME_NPC_02004, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_REMURUGAI]`
     de: ""
     en: |-
-      In the false town of Ceredo, please ask Lieselotte in the church on
-      the hill to procure Lemussel shells to make a
-      magic potion that will hide you from monsters!
-      It seems that he wants to investigate the
-      mysterious tones that were heard from her cave on the Ceredot mountain
-      path.
+      At False Celed's church on the hill, Lieselotte asked that we go procure
+      a Fade Shell, in order to make a magical medicine said to hide oneself
+      from monsters! It seems that she wants to go investigate the mysterious
+      sound that she heard coming from a cave in Celedot Mountain Pass.
     es: ""
     fr: ""
     it: ""
@@ -700974,17 +700953,15 @@ STT_QuestListDetail:
       洞穴傳出的神祕音色。
   SYSTEXT_QUESTLIST_NAME_AQ_017_1_010:
     $comments: |-
-      🔴
+      🟡
       (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_010]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_010, STT_NpcInfo.NAME_NPC_02004, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_REMURUGAI]`
     de: ""
     en: |-
-      In the false town of Ceredo, ask Lieselotte in the church on the hill
-      to hide from the monsters.
-      To make a magic potion, please procure Lemur shells from the
-      northwest of the ruins on the Rinjahar coast!
-      It seems that Lemussel shells can only be obtained when the sea and
-      the moon are attracted to each other.
+      At False Celed's church on the hill, Lieselotte asked that we go procure
+      a Fade Shell from the ruins in the northwest of Rinjahar Coast, in order
+      to make a magical medicine said to hide oneself from monsters! It seems
+      that Fade Shells "can only be obtained when the sea and Moon meet".
     es: ""
     fr: ""
     it: ""
@@ -701011,17 +700988,16 @@ STT_QuestListDetail:
       萊姆爾貝殼似乎只有大海與月亮互相吸引時才能取得。
   SYSTEXT_QUESTLIST_NAME_AQ_017_1_020:
     $comments: |-
-      🔴
+      🟡
       (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_020]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_020, STT_NpcInfo.NAME_NPC_02004, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_REMURUGAI]`
     de: ""
     en: |-
-      At the request of Lieselotte in the church on the hill in the false
-      town of Celed,
-      I obtained Lemussel shells, an ingredient for a magic potion to hide
-      from monsters. It seems that Lieselotte wants to use this to find out
-      about the tones he heard on the Celedot Mountain Pass. Return to Ceredo
-      town and deliver it to Lieselotte.
+      At the request of Lieselotte in False Celed's church on the hill, we
+      obtained the Fade Shell, the ingredient of a magical medicine said to
+      hide oneself from monsters. It seems that she wants to go investigate
+      the mysterious sound that she heard coming from a cave in Celedot Mountain
+      Pass. Let's return to Celed, and deliver the Fade Shell to Lieselotte.
     es: ""
     fr: ""
     it: ""
@@ -701048,17 +701024,16 @@ STT_QuestListDetail:
       聽到的音色。返回塞萊德鎮，送去給莉賽蘿塔吧。
   SYSTEXT_QUESTLIST_NAME_AQ_017_1_030:
     $comments: |-
-      🔴
+      🟡
       (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_030]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_030, STT_NpcInfo.NAME_NPC_02004, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_REMURUGAI]`
     de: ""
     en: |-
-      False Town of Ceredo At the request of Lieselotte in the church on the
-      hill, I gave you the
-      Lemussel. Lieselotte uses it to make Lemol powder, and
-      She goes to investigate the identity of the mysterious tone, so she
-      heads east along the Ceredot mountain path, where she finds Beryl.
-      Come with me to the cave! he asked.
+      At the request of Lieselotte in False Celed's church on the hill, we
+      delivered the Fade Shell. Lieselotte used it to make Fade Powder, and
+      asked that we go with her to investigate the truth behind that mysterious
+      sound she heard south of town, at the eastern tip of Celedot Mountain
+      Pass, inside Beryl Burrow.
     es: ""
     fr: ""
     it: ""
@@ -701085,18 +701060,16 @@ STT_QuestListDetail:
       調查神祕音色的來源。
   SYSTEXT_QUESTLIST_NAME_AQ_017_1_040:
     $comments: |-
-      🔴
+      🟡
       (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_040]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_040, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
-      At the request of Lieselotte in the church on the hill in the false
-      town of Celed,
-      We went to Beryl's cave where mysterious sounds could be heard
-      together to investigate, and we met Serik, a boy who plays Tula. When
-      he got separated from his parents and got lost,
-      Lieselotte said she would take him home. Let's return to the false
-      town of Ceredo.
+      At the request of Lieselotte in False Celed's church on the hill, we
+      went to investigate together where she said mysterious sounds could be
+      heard, Beryl Burrow, whereupon we met the torban-playing boy, Serik.
+      When he told of how he got separated from his parents and got lost,
+      Lieselotte said she would take him home. Let's return to False Celed.
     es: ""
     fr: ""
     it: ""
@@ -701123,18 +701096,16 @@ STT_QuestListDetail:
       莉賽蘿塔表示要將他帶回去。返回偽塞萊德鎮吧。
   SYSTEXT_QUESTLIST_NAME_AQ_017_1_200:
     $comments: |-
-      🔴
+      🟡
       (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_200]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_200, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
-      At the request of Lieselotte, who is in the church on a hill in the
-      false town of Celed,
-      We went to Beryl's cave where mysterious sounds could be heard. When
-      we went to investigate together, we met Serik, a boy who plays Tula.
-      He got separated from his girlfriend's parents and got lost, so
-      Lieselotte decided to take him home and welcome him as her new
-      companion.
+      At the request of Lieselotte in False Celed's church on the hill, we
+      went to investigate together where she said mysterious sounds could be
+      heard, Beryl Burrow, whereupon we met the torban-playing boy, Serik.
+      When he told of how he got separated from his parents and got lost,
+      Lieselotte decided to take him home and welcome him as a new friend.
     es: ""
     fr: ""
     it: ""
@@ -701160,12 +701131,14 @@ STT_QuestListDetail:
       遇到了彈著圖拉琴的少年塞利克。他與雙親走散，迷了路，
       莉賽蘿塔將他帶回去，讓他成為了新夥伴。
   SYSTEXT_QUESTLIST_NAME_AQ_017_2_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_000, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
-      It seems that
-      Lieselotte, who is in the church on the hill in the false town of
-      Celed, is asking for help.
+      At False Celed's church on the hill, it seems Lieselotte is seeking
+      assistance.
     es: ""
     fr: ""
     it: ""
@@ -701183,12 +701156,14 @@ STT_QuestListDetail:
       偽塞萊德鎮高台教會的
       莉賽蘿塔似乎在尋求幫助。
   SYSTEXT_QUESTLIST_NAME_AQ_017_2_005:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_005, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
-      In the false town of Celed, please ask Lieselotte in the church on the
-      hill to help repair the Tula for
-      Serik, who is depressed because the Tula is broken!
+      At False Celed's church on the hill, Lieselotte asked that we help repair
+      the torban for Serik, who is depressed because it's broken!
     es: ""
     fr: ""
     it: ""
@@ -701210,14 +701185,15 @@ STT_QuestListDetail:
       塞利克的圖拉琴壞了，心情很沮喪，
       因此希望能協助修理塞利克的圖拉琴。
   SYSTEXT_QUESTLIST_NAME_AQ_017_2_010:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_010, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
-      In the false town of Celed, please ask Lieselotte in the church on the
-      hill to help repair Tula for
-      Serik, who is depressed because his Tula is broken!
-      He will be on the second floor of the clinic and will ask Serik for
-      more information.
+      At False Celed's church on the hill, Lieselotte asked that we help repair
+      the torban for Serik, who is depressed because it's broken! Let's go hear
+      more info from Serik in the free clinic (2F).
     es: ""
     fr: ""
     it: ""
@@ -701243,15 +701219,16 @@ STT_QuestListDetail:
       因此希望能協助修理塞利克的圖拉琴。
       向施療院２樓的塞利克打聽詳情吧。
   SYSTEXT_QUESTLIST_NAME_AQ_017_2_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_020, STT_NpcInfo.NAME_NPC_02004, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SERIKUNOKABAN]`
     de: ""
     en: |-
-      False Town of Celed Lieselotte in the church on the hill asked me to
-      help repair Serik's Tula.
-      Her bag, which contains spare strings for repairs, is said to have
-      been entrusted to
-      her father in Serik. Apparently her father was supposed to come to
-      Celed Town with her.
+      At False Celed's church on the hill, Lieselotte asked that we help repair
+      the torban for Serik, who is depressed because it's broken! He said he
+      left his bag, which contains spare strings for repairs, with his dad.
+      Apparently, his dad was supposed to come to Celed with him.
     es: ""
     fr: ""
     it: ""
@@ -701277,13 +701254,17 @@ STT_QuestListDetail:
       修理需要用到備用琴弦，據說裝著備用琴弦的包包
       在塞利克父親那裡。原本他父親應該是要和他一起來塞萊德鎮的。
   SYSTEXT_QUESTLIST_NAME_AQ_017_2_030:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_030, STT_NpcInfo.NAME_NPC_02004, STT_BattleMonsterName.ID_MONSTER_NAME_12002, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SERIKUNOKABAN]`
     de: ""
     en: |-
-      False Town of Celed Lieselotte in the church on the hill asked me to
-      help repair Serik's Tula. He visited a clinic in the town of True Sered, where
-      Serik was hospitalized in an unconscious state. I realized that I had
-      been told.
+      At False Celed's church on the hill, Lieselotte asked that we help repair
+      the torban for Serik, who is depressed because it's broken!
+      When we visited True Celed's free clinic, Serik was there, hospitalized
+      in a coma. We learned that his bag was stolen by a <%sEV_QUE_NAME0> in the
+      Lyana Desolate Zone.
     es: ""
     fr: ""
     it: ""
@@ -701309,14 +701290,16 @@ STT_QuestListDetail:
       得知塞利克正處於昏迷狀態入院治療中，而他的包包
       則在真實世界的冽那荒涼地帶被<%sEV_QUE_NAME0>奪走了。
   SYSTEXT_QUESTLIST_NAME_AQ_017_2_040:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_040, STT_NpcInfo.NAME_NPC_02004, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SERIKUNOKABAN]`
     de: ""
     en: |-
-      False Town of Celed Lieselotte in the church on the hill asked me to
-      help repair Serik's Tula.
-      Using his story as a clue, he visited the true town of Celed and
-      obtained the bag he needed to
-      repair Tula. Return to his Serik in the false city of Sered.
+      At False Celed's church on the hill, Lieselotte asked that we help repair
+      the torban for Serik, who is depressed because it's broken! Using his
+      story as a lead, we visited True Celed, and obtained the required bag to
+      repair the torban. Let's return to Serik in False Celed.
     es: ""
     fr: ""
     it: ""
@@ -701342,15 +701325,17 @@ STT_QuestListDetail:
       依據他所說的內容造訪真塞萊德鎮，取得了
       修理圖拉琴所需的包包。返回偽塞萊德鎮找塞利克吧。
   SYSTEXT_QUESTLIST_NAME_AQ_017_2_050:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_050, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
-      False Town of Celed Lieselotte in the church on the hill asked me to
-      help repair Serik's Tula.
-      Tula has been successfully repaired and Serik is happy when Lieselotte
-      appears.
-      I have something important to tell you, so come to the second floor of
-      the church on the hill! I told him.
+      At False Celed's church on the hill, Lieselotte asked that we help repair
+      the torban for Serik, who is depressed because it's broken! With the
+      torban successfully repaired, Serik was delighted. And then Lieselotte
+      appeared, and informed us to come to High Church's 2nd floor for an
+      important story!
     es: ""
     fr: ""
     it: ""
@@ -701376,14 +701361,17 @@ STT_QuestListDetail:
       當順利修好圖拉琴，塞利克正高興的時候，莉賽蘿塔來了，
       她表示有重要的事要談，請你前往高台教會的２樓。
   SYSTEXT_QUESTLIST_NAME_AQ_017_2_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_200, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
-      False Town of Celed At the request of Lieselotte in the church on the
-      hill, I helped Serik repair Tula. At the
-      welcome party held afterwards, he confessed that Serik had once
-      suffered from an incurable disease, and said that
-      he had now realized and accepted his own death.
+      At False Celed's church on the hill, Lieselotte asked that we help repair
+      the torban for Serik, who is depressed because it's broken! After that
+      was done at the welcome party, Serik confessed that he once suffered from
+      an incurable disease, and told that he now comprehended and accepted his
+      own death.
     es: ""
     fr: ""
     it: ""
@@ -701409,12 +701397,14 @@ STT_QuestListDetail:
       塞利克坦言過去曾染上難治之症，
       如今察覺自己將死，並已接受這個事實了。
   SYSTEXT_QUESTLIST_NAME_AQ_017_3_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_000, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
-      It seems that
-      Lieselotte, who is in the church on the hill in the false town of
-      Celed, is asking for help.
+      At False Celed's church on the hill, it seems Lieselotte is seeking
+      assistance.
     es: ""
     fr: ""
     it: ""
@@ -701432,12 +701422,14 @@ STT_QuestListDetail:
       偽塞萊德鎮高台教會的
       莉賽蘿塔似乎在尋求幫助。
   SYSTEXT_QUESTLIST_NAME_AQ_017_3_005:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_005, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
-      In the false town of Celed, ask Lieselotte in the church on the hill
-      that I want to help Serik, so please cure him of
-      's disease that is gradually turning his body into stone!
+      At False Celed's church on the hill, Lieselotte asked that we help cure
+      Serik of the disease that is gradually turning his body into stone!
     es: ""
     fr: ""
     it: ""
@@ -701459,14 +701451,16 @@ STT_QuestListDetail:
       她想幫助塞利克，希望能治好他
       身體會逐漸石化的病。
   SYSTEXT_QUESTLIST_NAME_AQ_017_3_010:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_010, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
-      In the false town of Celed, ask Lieselotte in the church on the hill
-      that I want to help Serik, so please cure him of
-      's illness that is gradually turning his body into stone!
-      First, let's go to the clinic in the real town of Celed and check on
-      Serik.
+      At False Celed's church on the hill, Lieselotte asked that we help cure
+      Serik of the disease that is gradually turning his body into stone!
+      First, let's go to True Celed's free clinic, and try checking on Serik's
+      condition.
     es: ""
     fr: ""
     it: ""
@@ -701492,15 +701486,17 @@ STT_QuestListDetail:
       身體會逐漸石化的病。
       先前往真塞萊德鎮的施療院看看塞利克的狀況吧。
   SYSTEXT_QUESTLIST_NAME_AQ_017_3_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_020, STT_NpcInfo.NAME_NPC_02004, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ARUGONHATO]`
     de: ""
     en: |-
-      In the false town of Celed, ask Lieselotte in the church on the hill
-      to cure Serik's illness! The doctor at the clinic in the town of True
-      Celed says that the argon heart that is used to make the medicine was
-      obtained from the
-      red giant dragon in her Zedora Cave in the Lovos Highlands, but he is
-      already extinct. It seems that I have done it.
+      At False Celed's church on the hill, Lieselotte asked that we help cure
+      Serik of the disease that is gradually turning his body into stone!
+      The doctor at True Celed's free clinic says that the ingredient to make
+      the medicine, an Argon Heart, was extracted from Red Giant Dragons in
+      the Rovos Highlands' Zedra Cave, however, they're long since extinct.
     es: ""
     fr: ""
     it: ""
@@ -701526,15 +701522,16 @@ STT_QuestListDetail:
       製作藥物所需的材料蜥蜴之心雖然能從羅沃斯高地澤德拉洞裡的
       紅色巨龍身上取得，但紅色巨龍似乎早已滅絕。
   SYSTEXT_QUESTLIST_NAME_AQ_017_3_030:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_030, STT_NpcInfo.NAME_NPC_02004, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ARUGONHATO]`
     de: ""
     en: |-
-      False Town of Celed - Ask Lieselotte in the church on the hill to cure
-      Serik of his illness! At her request,
-      I obtained her argon heart, which will be used as an ingredient for
-      medicine.
-      Let's deliver it to Doctor Hugues at the clinic in the real town of
-      Celed.
+      At False Celed's church on the hill, Lieselotte asked that we help cure
+      Serik of the disease that is gradually turning his body into stone!
+      At her request, we obtained the ingredient to make the medicine, an
+      Argon Heart. Let's deliver it to Doctor Yuugu at True Celed's free clinic.
     es: ""
     fr: ""
     it: ""
@@ -701560,15 +701557,17 @@ STT_QuestListDetail:
       取得了製作藥物所需的材料蜥蜴之心。
       送去給真塞萊德鎮施療院的優格醫生吧。
   SYSTEXT_QUESTLIST_NAME_AQ_017_3_040:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_040, STT_NpcInfo.NAME_NPC_02004, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ARUGONHATO]`
     de: ""
     en: |-
-      In the false town of Celed, ask Lieselotte in the church on the hill
-      to
-      cure Serik's illness! She obtained her argon heart, which was used as
-      a medicine ingredient, and un-petrified Serik, but for some reason she
-      did not regain consciousness and was unable to wake him up. Let's go
-      back to Lieselotte and report.
+      At False Celed's church on the hill, Lieselotte asked that we help cure
+      Serik of the disease that is gradually turning his body into stone!
+      At her request, we obtained the ingredient to make the medicine, an
+      Argon Heart, and un-petrified Serik, but for some reason he did not regain
+      consciousness, and was unable to wake. Let's report back to Lieselotte.
     es: ""
     fr: ""
     it: ""
@@ -701594,15 +701593,17 @@ STT_QuestListDetail:
       解除了塞利克的石化，但不知為何卻沒有恢復意識，
       沒能醒來。回去向莉賽蘿塔報告吧。
   SYSTEXT_QUESTLIST_NAME_AQ_017_3_050:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_050, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
-      In the false town of Celed, ask Lieselotte in the church on the hill
-      to cure Serik's illness! Although he removed his petrification, Serik
-      refused to return to life of his own accord and ran away from the
-      church.
-      He seems to be somewhere in the false town of Celed, so let's look for
-      Serik.
+      At False Celed's church on the hill, Lieselotte asked that we help cure
+      Serik of the disease that is gradually turning his body into stone!
+      Although he was un-petrified, Serik purposely refused to revive, and
+      ran away from the church. He's thought to be in False Celed, so let's
+      search for Serik.
     es: ""
     fr: ""
     it: ""
@@ -701628,13 +701629,16 @@ STT_QuestListDetail:
       卻拒絕復活，衝出了教會。
       找出應該在偽塞萊德鎮某處的塞利克吧。
   SYSTEXT_QUESTLIST_NAME_AQ_017_3_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_200, STT_NpcInfo.NAME_NPC_02004]`
     de: ""
     en: |-
-      False Town of Celed At the request of Lieselotte in the church on the
-      hill,
-      I cured Serik's illness. After being persuaded by her, Serik decided
-      to live once again and returned to the real town of Celed.
+      At False Celed's church on the hill, Lieselotte asked that we help cure
+      Serik of the disease that is gradually turning his body into stone!
+      After being persuaded by her, Serik decided to live once again, and
+      returned to True Celed.
     es: ""
     fr: ""
     it: ""
@@ -701656,7 +701660,10 @@ STT_QuestListDetail:
       治好了塞利克的病。經莉賽蘿塔勸說，
       塞利克再次下定決心活下去，返回了真塞萊德鎮。
   SYSTEXT_QUESTLIST_NAME_AQ_018_1_000:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_000]`
     de: ""
     en: |-
       In an apartment in eastern False Al-Ahaghiro Kingdom, Seraphy seems to
@@ -701678,7 +701685,10 @@ STT_QuestListDetail:
       偽艾拉哈奇羅王國城鎮東區長屋的
       賽拉菲似乎遇到困擾。
   SYSTEXT_QUESTLIST_NAME_AQ_018_1_005:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_005]`
     de: ""
     en: |-
       In an apartment in eastern False Al-Ahaghiro Kingdom, Seraphy asked
@@ -701710,7 +701720,10 @@ STT_QuestListDetail:
       希望能收集製作藥物所需的材料
       羅努胡蘿蔔與沙龍骨。
   SYSTEXT_QUESTLIST_NAME_AQ_018_1_010:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010]`
     de: ""
     en: |-
       In an apartment in eastern False Al-Ahaghiro Kingdom, Seraphy asked
@@ -701744,7 +701757,10 @@ STT_QuestListDetail:
       在偽艾拉哈奇羅地方東部沙漠打倒<%sEV_QUE_NAME0>
       並收集其掉落的沙龍骨，交給賽拉菲吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_1_020:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_020]`
     de: ""
     en: |-
       In an apartment in eastern False Al-Ahaghiro Kingdom, Seraphy asked
@@ -701778,7 +701794,10 @@ STT_QuestListDetail:
       羅努胡蘿蔔與沙龍骨。
       返回城鎮，送去給東區長屋等著的賽拉菲吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_1_200:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_200]`
     de: ""
     en: |-
       At Seraphy's request in an apartment in eastern False Al-Ahaghiro
@@ -701812,7 +701831,10 @@ STT_QuestListDetail:
       賽拉菲調製好藥物後，治好了市鎮人們的病。得知生病的理由
       是夜裡出現在城鎮的金牛怪怨靈所造成。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_000:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_000]`
     de: ""
     en: |-
       In False Al-Ahaghiro Kingdom's armory, Seraphy seems to be seeking
@@ -701834,7 +701856,10 @@ STT_QuestListDetail:
       偽艾拉哈奇羅王國城中武器庫的
       賽拉菲似乎在尋求協助。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_005:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_005]`
     de: ""
     en: |-
       In False Al-Ahaghiro Kingdom's castle town, Seraphy asked that I,
@@ -701862,7 +701887,10 @@ STT_QuestListDetail:
       為了查出金牛怪怨靈的真實身分，希望能協助尋找
       以前逃出格鬥場，曾經是人類的怪物們。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_010:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_010]`
     de: ""
     en: |-
       In False Al-Ahaghiro Kingdom's castle town, Seraphy asked that I,
@@ -701895,7 +701923,10 @@ STT_QuestListDetail:
       以前逃出格鬥場，曾經是人類的怪物們。
       向城鎮的人們打聽一下吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_020:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_020]`
     de: ""
     en: |-
       At the request of Seraphy in False Al-Ahaghiro Kingdom's castle town,
@@ -701929,7 +701960,10 @@ STT_QuestListDetail:
       怪物們似乎就在偽艾拉哈奇羅王國南方的
       遮光洞穴。前往遮光洞穴確認一下吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_030:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_030]`
     de: ""
     en: |-
       At the request of Seraphy in False Al-Ahaghiro Kingdom's castle town,
@@ -701964,7 +701998,10 @@ STT_QuestListDetail:
       據曾經是人類的怪物塔吉烏斯所言，金牛怪怨靈似乎是
       艾拉哈奇羅士兵團的格利烏斯士兵長。返回城鎮吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_040:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_040]`
     de: ""
     en: |-
       At the request of Seraphy in False Al-Ahaghiro Kingdom's castle town,
@@ -701997,7 +702034,10 @@ STT_QuestListDetail:
       受到魔道士基爾吉爾的操控，卻被懷疑是
       <pc>與賽拉菲在作怪。先到鎮外去吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_200:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_200]`
     de: ""
     en: |-
       At the request of Seraphy in False Al-Ahaghiro Kingdom's castle town,
@@ -702030,7 +702070,10 @@ STT_QuestListDetail:
       似乎受到魔道士基爾吉爾的操控。賽拉菲說要
       設法解決格利烏斯的問題，離開了鎮上。
   SYSTEXT_QUESTLIST_NAME_AQ_018_3_000:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_000]`
     de: ""
     en: |-
       In an apartment in eastern False Al-Ahaghiro Kingdom, Seraphy seems to
@@ -702052,7 +702095,10 @@ STT_QuestListDetail:
       賽拉菲似乎在偽艾拉哈奇羅王國城鎮
       東區長屋等著。
   SYSTEXT_QUESTLIST_NAME_AQ_018_3_005:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_005]`
     de: ""
     en: |-
       In False Al-Ahaghiro's castle town, Seraphy asked that I help gather the
@@ -702079,7 +702125,10 @@ STT_QuestListDetail:
       為了畫出讓怨靈實體化的魔法陣，
       希望能協助她收集所需材料。
   SYSTEXT_QUESTLIST_NAME_AQ_018_3_010:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_010]`
     de: ""
     en: |-
       In False Al-Ahaghiro's castle town, Seraphy asked that I help gather the
@@ -702112,7 +702161,10 @@ STT_QuestListDetail:
       似乎只要打倒偽艾拉哈奇羅地方的<%sEV_QUE_NAME0>
       就會掉落。目前已收集了<%nEV_QUE_N_NUM0>個。
   SYSTEXT_QUESTLIST_NAME_AQ_018_3_020:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_020]`
     de: ""
     en: |-
       At the request of Seraphy in False Al-Ahaghiro's castle town, I helped
@@ -702141,7 +702193,10 @@ STT_QuestListDetail:
       魔法陣材料具象靈灰。
       回到城鎮，送去給東區長屋的賽拉菲吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_3_030:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_030]`
     de: ""
     en: |-
       At the request of Seraphy in False Al-Ahaghiro's castle town, I helped
@@ -702175,7 +702230,10 @@ STT_QuestListDetail:
       競技大廳引出格利烏斯的怨靈。
       前往競技大廳迎擊怨靈吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_3_200:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_200]`
     de: ""
     en: |-
       In False Al-Ahaghiro's castle town, Seraphy freed Gorius' vengeful
@@ -704144,7 +704202,10 @@ STT_QuestListDetail:
       受丹尼委託將帽子送回森林放在綠葉小樹上後，
       母鳥便飛來將雛鳥們帶走了。聽完報告後的丹尼似乎很滿意。
   SYSTEXT_QUESTLIST_NAME_FQ_102_1_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (217) SYSTEXT_QUESTLIST_NAME_FQ_102_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_102_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_000, STT_NpcInfo.NAME_NPC_02010]`
     de: ""
     en: At the church in <ituwari> Celed, a young girl, Meg, seems to be troubled.
     es: ""
@@ -704161,13 +704222,17 @@ STT_QuestListDetail:
     zh-Hant: |-
       <ituwari>塞萊德鎮高台教會中的少女
       梅格似乎遇到了麻煩。
-  SYSTEXT_QUESTLIST_NAME_FQ_102_1_005:
-    $comments: 🔴
+  SYSTEXT_QUESTLIST_NAME_FQ_102_1_005: &STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_005
+    $comments: |-
+      🟡
+      (217) SYSTEXT_QUESTLIST_NAME_FQ_102_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_102_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_005, STT_NpcInfo.NAME_NPC_02010, STT_BattleMonsterName.ID_MONSTER_NAME_03900]`
+      *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_005
     de: ""
     en: |-
       At the church in <ituwari> Celed, Meg asked me to go south of town to the
-      field of flowers below the cliff and take a photo of the giant
-      Leery Lout that is said to be there!
+      field of flowers below the cliff and take a photo of the giant Leery Lout
+      that is said to be there!
     es: ""
     fr: ""
     it: ""
@@ -704188,41 +704253,18 @@ STT_QuestListDetail:
       <ituwari>塞萊德鎮高台教會１樓的梅格委託，
       希望能前往<ituwari>塞萊德鎮南方，拍攝傳聞出沒於
       懸崖下花田的巨大持盾小鬼的照片。
-  SYSTEXT_QUESTLIST_NAME_FQ_102_1_010:
-    $comments: 🔴
-    de: ""
-    en: |-
-      At the church in <ituwari> Celed, Meg asked me to go south of town to the
-      field of flowers below the cliff and take a photo of the giant
-      Leery Lout that is said to be there!
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      <ituwari>セレドの町　高台の教会１階にいるメグから
-      <ituwari>セレドの町の南にある　ガケ下の花畑に　出没するという　
-      大きなシールドこぞうの　写真をとってきて！　と頼まれた。
-    ko: |-
-      <ituwari>셀레도 마을 언덕의 교회 1층에 있는 메그에게
-      <ituwari>셀레도 마을 남쪽의 절벽 밑에 있는 꽃밭에 출몰하는
-      커다란 실드 악동을 사진으로 찍어 달라는 부탁을 받았다.
-    pt-BR: ""
-    zh-Hans: |-
-      受<ituwari>塞莱德镇高台教会１楼的梅格委托，
-      去拍摄传闻中出没在<ituwari>塞莱德镇南边悬崖下花田里
-      巨大持盾小鬼的照片。
-    zh-Hant: |-
-      <ituwari>塞萊德鎮高台教會１樓的梅格委託，
-      希望能前往<ituwari>塞萊德鎮南方，拍攝傳聞出沒於
-      懸崖下花田的巨大持盾小鬼的照片。
+  SYSTEXT_QUESTLIST_NAME_FQ_102_1_010: *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_005
   SYSTEXT_QUESTLIST_NAME_FQ_102_1_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (217) SYSTEXT_QUESTLIST_NAME_FQ_102_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_102_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_020, STT_NpcInfo.NAME_NPC_02010]`
     de: ""
     en: |-
       At the church in <ituwari> Celed, Meg asked me to go south of town to the
-      field of flowers below the cliff and take a photo of the giant
-      Leery Lout that is said to be there! Having obtained a photo of the
-      rumored monster, let's report back to Meg.
+      field of flowers below the cliff and take a photo of the giant Leery Lout
+      that is said to be there! Having obtained a photo of the rumored monster,
+      let's report back to Meg.
     es: ""
     fr: ""
     it: ""
@@ -704248,13 +704290,16 @@ STT_QuestListDetail:
       懸崖下花田的巨大持盾小鬼的照片。
       由於已取得傳聞中的怪物照片，回去找梅格吧。
   SYSTEXT_QUESTLIST_NAME_FQ_102_1_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (217) SYSTEXT_QUESTLIST_NAME_FQ_102_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_102_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_200, STT_NpcInfo.NAME_NPC_02010]`
     de: ""
     en: |-
       At the church in <ituwari> Celed, Meg asked me to go south of town to the
-      field of flowers below the cliff and take a photo of the giant
-      Leery Lout that is said to be there! The Leery Lout's true form turned
-      out to be a male Dwarf; Meg seems relieved.
+      field of flowers below the cliff and take a photo of the giant Leery Lout
+      that is said to be there! The Leery Lout's true form turned out to be a
+      male Dwarf; Meg seems relieved.
     es: ""
     fr: ""
     it: ""
@@ -705025,16 +705070,15 @@ STT_QuestListDetail:
       希望能協助製作送給市鎮每個人的禮物。
   SYSTEXT_QUESTLIST_NAME_FQ_106_1_010:
     $comments: |-
-      🔴
+      🟡
       (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_NpcInfo.NAME_NPC_02011]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_NpcInfo.NAME_NPC_02011, STT_BattleMonsterName.ID_MONSTER_NAME_09400, STT_CommonItem.*_ID_ITEM_MATERIAL_UMANOFUN, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TOMOGARANONAE]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked us to help prepare
-      materials to make presents for everyone in town! North of town, in
-      Rinjahar Coast, Friend Seedlings are often dropped by defeated
-      <%sEV_QUE_NAME0>es. It seems he wants us to bring that and 1 pile of
-      Horse Manure.
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare materials to
+      make presents for everyone in town! North of town, in Rinjahar Coast,
+      Friendship Saplings are often dropped by defeated <%sEV_QUE_NAME0>es.
+      It seems he wants us to bring that and 1 pile of Horse Manure.
     es: ""
     fr: ""
     it: ""
@@ -705061,15 +705105,14 @@ STT_QuestListDetail:
       夥伴之苗與１個馬糞並帶去給他即可。
   SYSTEXT_QUESTLIST_NAME_FQ_106_1_020:
     $comments: |-
-      🔴
+      🟡
       (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_020, STT_NpcInfo.NAME_NPC_02011]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_020, STT_NpcInfo.NAME_NPC_02011, STT_CommonItem.*_ID_ITEM_MATERIAL_UMANOFUN, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TOMOGARANONAE]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked us to help prepare
-      materials to make presents for everyone in town! Having obtained the
-      Friend Seedling and 1 pile of Horse Manure, let's deliver them both
-      to Fecto.
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare materials
+      to make presents for everyone in town! Having obtained the Friendship
+      Sapling and 1 pile of Horse Manure, let's deliver them both to Fecto.
     es: ""
     fr: ""
     it: ""
@@ -705096,15 +705139,15 @@ STT_QuestListDetail:
       一起送去給費科特吧。
   SYSTEXT_QUESTLIST_NAME_FQ_106_1_030:
     $comments: |-
-      🔴
+      🟡
       (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_030, STT_NpcInfo.NAME_NPC_02011]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_030, STT_NpcInfo.NAME_NPC_02011, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TOMOGARANONAE]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked us to help prepare
-      materials to make presents for everyone in town! We delivered the
-      Friend Seedling to Fecto; it seems he wants to ask us about something
-      once it grows into a tree.
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare materials
+      to make presents for everyone in town! We delivered the Friendship Sapling
+      to Fecto; it seems he wants to ask us about something once it grows
+      into a tree.
     es: ""
     fr: ""
     it: ""
@@ -705131,16 +705174,16 @@ STT_QuestListDetail:
       等樹成長茁壯後，費科特似乎還有事相求。
   SYSTEXT_QUESTLIST_NAME_FQ_106_1_040:
     $comments: |-
-      🔴
+      🟡
       (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_040, STT_NpcInfo.NAME_NPC_02011]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked us to help prepare
-      materials to make presents for everyone in town! To make Wood Carved
-      Rosaries out of the Friend Fern that he grew, we should learn about the
-      ways of woodworking from Craftsman Hayato in Royal City Kamiharmui
-      North's woodworking guild.
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare materials
+      to make presents for everyone in town! To make Wood Carved Rosaries
+      out of the Friendship Fir that he grew, we should learn about the ways
+      of woodworking from Craftsman Hayato in Royal City Kamiharmui North's
+      woodworking guild.
     es: ""
     fr: ""
     it: ""
@@ -705167,15 +705210,14 @@ STT_QuestListDetail:
       名叫隼人的工匠請教木工的做法吧。
   SYSTEXT_QUESTLIST_NAME_FQ_106_1_050:
     $comments: |-
-      🔴
+      🟡
       (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_050, STT_NpcInfo.NAME_NPC_02011]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked us to help prepare
-      materials to make presents for everyone in town! We received a
-      Children's Woodworking Manual from Craftsman Hayato. Let's deliver it
-      to Fecto.
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare materials
+      to make presents for everyone in town! We received the Children's
+      Woodworking Manual from Craftsman Hayato. Let's deliver it to Fecto.
     es: ""
     fr: ""
     it: ""
@@ -705202,15 +705244,15 @@ STT_QuestListDetail:
       將書送去給費科特吧。
   SYSTEXT_QUESTLIST_NAME_FQ_106_1_200:
     $comments: |-
-      🔴
+      🟡
       (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_200, STT_NpcInfo.NAME_NPC_02011]`
     de: ""
     en: |-
-      At High Church in <ituwari> Celed, Fecto asked us to help prepare
-      materials to make presents for everyone in town! It's said that those
-      who possess rosaries made from the same tree will stay friends
-      forever; it seems that Fecto was able to do just that.
+      At High Church in <ituwari> Celed, Fecto asked us to help prepare materials
+      to make presents for everyone in town! It's said that those who possess
+      rosaries made from the same tree will stay friends forever; it seems
+      that Fecto was able to do just that.
     es: ""
     fr: ""
     it: ""
@@ -738248,7 +738290,7 @@ STT_QuestListName:
   SYSTEXT_QUESTLIST_NAME_AQ_017_1:
     $comments: |-
       🟡
-      (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_NAME_AQ_017_1 ] { Sub Story }
+      (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
     de: ""
     en: A Shipwrecked Soul's Song
     es: ""
@@ -738262,7 +738304,7 @@ STT_QuestListName:
   SYSTEXT_QUESTLIST_NAME_AQ_017_2:
     $comments: |-
       🟡
-      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_NAME_AQ_017_2 ] { Sub Story }
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
     de: ""
     en: Broken Melody
     es: ""
@@ -738276,7 +738318,7 @@ STT_QuestListName:
   SYSTEXT_QUESTLIST_NAME_AQ_017_3:
     $comments: |-
       🟡
-      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_NAME_AQ_017_3 ] { Sub Story }
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
     de: ""
     en: Coda To Tomorrow
     es: ""
@@ -738292,7 +738334,7 @@ STT_QuestListName:
       🟡
       (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
     de: ""
-    en: Frozen Folk
+    en: Frozen Folks
     es: ""
     fr: ""
     it: ""
@@ -739076,11 +739118,12 @@ STT_QuestListSeries:
   SYSTEXT_QUESTLIST_SERIES_AQ_017:
     $comments: |-
       🟡
-      (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_NAME_AQ_017_1 ] { Sub Story }
-      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_NAME_AQ_017_2 ] { Sub Story }
-      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_NAME_AQ_017_3 ] { Sub Story }
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
     de: ""
-    en: Soul Strumming Sound
+    en: The Soul Strumming Songs
     es: ""
     fr: ""
     it: ""
@@ -741401,9 +741444,9 @@ STT_Quest_AfterBattle:
     zh-Hant: ""
   AFTER_BATTLE_FQ_106_1_A1:
     $comments: |-
-      🔴
+      🟢
       (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_???]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_09400, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TOMOGARANONAE]`
       unused?
     de: ""
     en: ""
@@ -751558,17 +751601,17 @@ STT_Quest_ItemGet:
       獲得了火焰燈籠椒（重要物品）！<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_AQ_017_2_30:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_030, STT_BattleMonsterName.ID_MONSTER_NAME_12002, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SERIKUNOKABAN]`
     de: ""
     en: |-
-      <%sEV_QUE_NAME0> dropped
-      Serik's bag.
-      <auto_br=5000>
-      {pc} got
-      Serik's bag (Key Item)!
-      Deliver it to her girlfriend Serik in the false city of Celed.
-      <se_nots System Item>
-      <auto_bw=5000><close>
+      The <%sEV_QUE_NAME0> dropped Serik's Bag.
+      <br>
+      {pc} obtained Serik's Bag (Key Item)!
+      Let's deliver it to Serik in False Celed.<se_nots System Item>
+      <bw><close>
     es: ""
     fr: ""
     it: ""
@@ -751985,14 +752028,14 @@ STT_Quest_ItemGet:
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_FQ_106_1_10:
     $comments: |-
-      🔴
+      🟡
       (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_???]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_09400, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TOMOGARANONAE]`
     de: ""
     en: |-
-      The <%sEV_QUE_NAME0> dropped a Friend Seedling.
+      The <%sEV_QUE_NAME0> dropped a Friendship Sapling.
       <br>
-      {pc} obtained the Friend Seedling (Key Item)!<se_nots System Item>
+      {pc} obtained the Friendship Sapling (Key Item)!<se_nots System Item>
       <bw><close>
     es: ""
     fr: ""
@@ -817263,19 +817306,19 @@ STT_SystemDouguNpc: &STT_SystemDouguNpc
     $comments: 🟢, see `DQ04-data-MESS-{LANGUAGE}-b0810000.mpt:00035`
     de: |-
       Beehrt uns bald wieder!
-      <turn_en>
+      <turn_end>
     en: |-
       Come back anytime!
       <turn_end>
     es: |-
       ¡Vuelva cuando quiera!
-      <turn_en>
+      <turn_end>
     fr: |-
       Revenez quand vous voulez !
-      <turn_en>
+      <turn_end>
     it: |-
       Torna a trovarmi quando vuoi!
-      <turn_en>
+      <turn_end>
     ja: |-
       「また　いつでも　来ておくれよっ！
       <turn_end>
@@ -837613,23 +837656,23 @@ STT_SystemQuest:
     de: |-
       <center>Quest
       „<color_yellow>{Quest_Name_Selected}<color_white>“
-      Erhielt!<update_quedate><me 74>
+      Erhielt!<me 74>
     en: |-
       <center>Quest
       "<color_yellow>{Quest_Name_Selected}<color_white>"
-      Received!<update_quedate><me 74>
+      Received!<me 74>
     es: |-
       <center>Búsqueda
       "<color_yellow>{Quest_Name_Selected}<color_white>"
-      Recibió!<update_quedate><me 74>
+      Recibió!<me 74>
     fr: |-
       <center>Quête
       «<color_yellow>{Quest_Name_Selected}<color_white> »
-      Reçut !<update_quedate><me 74>
+      Reçut !<me 74>
     it: |-
       <center>Ricerca
       «<color_yellow>{Quest_Name_Selected}<color_white>»
-      Ricevette!<update_quedate><me 74>
+      Ricevette!<me 74>
     ja: |-
       クエスト『{Quest_Name_Selected}』を
       受けました。
@@ -837640,7 +837683,7 @@ STT_SystemQuest:
     pt-BR: |-
       <center>Busca
       “<color_yellow>{Quest_Name_Selected}<color_white>”
-      Recebeu!<update_quedate><me 74>
+      Recebeu!<me 74>
     zh-Hans: |-
       已承接任务
       “{Quest_Name_Selected}”。
@@ -841067,8 +841110,11 @@ STT_SystemShipSys:
     zh-Hans: 到达了{PLACE_NAME}。
     zh-Hant: 似乎抵達{PLACE_NAME}了。
 STT_SystemShopInn: &STT_SystemShopInn
-  SYSTXT_SHOP_INN_NPC_01010:
-    $comments: 🟡, See `DQ3make-Data_DataTable_Text.json:GOP_Text_Inn.Txt_Inn_Message_Start_F`
+  SYSTXT_SHOP_INN_NPC_01010: &STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01010
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Inn.Txt_Inn_Message_Start_F
+      *STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01010
     de: |-
       Willkommen in meiner bescheidenen Herberge müde
       Reisende!
@@ -841147,8 +841193,11 @@ STT_SystemShopInn: &STT_SystemShopInn
       在此夜深人靜時分才來投宿，
       真是辛苦您了。
       <br_break>
-  SYSTXT_SHOP_INN_NPC_01030:
-    $comments: 🟡, See `DQ3make-Data_DataTable_Text.json:GOP_Text_Inn.[Txt_Inn_Message_Top_F, Txt_Inn_UI_Top_01, Txt_Inn_UI_Top_02, Txt_Inn_UI_Top_03]`
+  SYSTXT_SHOP_INN_NPC_01030: &STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01030
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Inn.[Txt_Inn_Message_Top_F, Txt_Inn_UI_Top_01, Txt_Inn_UI_Top_02, Txt_Inn_UI_Top_03]
+      *STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01030
     de: |-
       Möchtet Ihr hier übernachten? Oder nur eine kleine
       Rast einlegen?
@@ -841259,8 +841308,11 @@ STT_SystemShopInn: &STT_SystemShopInn
       咦？
       您手邊的錢似乎不夠呢。
       <bw_break>
-  SYSTXT_SHOP_INN_NPC_01050:
-    $comments: 🟡, See `DQ3make-Data_DataTable_Text.json:GOP_Text_Inn.Txt_Inn_Message_Finish*`
+  SYSTXT_SHOP_INN_NPC_01050: &STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01050
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Inn.Txt_Inn_Message_Finish*
+      *STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01050
     de: |-
       Gute Reise, verehrte Gäste! Bitte beehrt uns bald
       wieder.
@@ -841295,8 +841347,11 @@ STT_SystemShopInn: &STT_SystemShopInn
       再見了，旅人。
       請再次光臨。
       <turn_end>
-  SYSTXT_SHOP_INN_NPC_01060:
-    $comments: 🟡, See `DQ3make-Data_DataTable_Text.json:GOP_Text_Inn.[Txt_Inn_Message_Top_F, Txt_Inn_UI_Top_01, Txt_Inn_UI_Top_02]`
+  SYSTXT_SHOP_INN_NPC_01060: &STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01060
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Inn.[Txt_Inn_Message_Top_F, Txt_Inn_UI_Top_01, Txt_Inn_UI_Top_02]
+      *STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01060
     de: |-
       Möchtet Ihr hier übernachten? Oder nur eine kleine
       Rast einlegen?
@@ -841357,8 +841412,11 @@ STT_SystemShopInn: &STT_SystemShopInn
       早上
       夜晚
       <select_end><break>
-  SYSTXT_SHOP_INN_NPC_01070:
-    $comments: 🟡, See `DQ3make-Data_DataTable_Text.json:GOP_Text_Inn.Txt_Inn_Message_Cancel*`
+  SYSTXT_SHOP_INN_NPC_01070: &STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01070
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Inn.Txt_Inn_Message_Cancel*
+      *STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01070
     de: |-
       Oh, Ihr wollt nicht bleiben? Ganz wie Ihr wünscht...
     en: |-
@@ -841480,42 +841538,7 @@ STT_SystemShopInn: &STT_SystemShopInn
       您應該獲得充分休息了吧。
       那麼，祝您一路順風。
       <turn_end>
-  SYSTXT_SHOP_INN_NPC_02010:
-    $comments: 🟡, See `DQ3make-Data_DataTable_Text.json:GOP_Text_Inn.Txt_Inn_Message_Start_F`
-    de: |-
-      Willkommen in meiner bescheidenen Herberge müde
-      Reisende!
-      <br_break>
-    en: |-
-      Welcome to our inn, weary travellers!
-      <br_break>
-    es: |-
-      ¡Les doy la bienvenida a nuestra posada, exánimes
-      trotamundos!
-      <br_break>
-    fr: |-
-      Bienvenue dans notre auberge !
-      <br_break>
-    it: |-
-      Vi do il benvenuto nella nostra locanda, viandanti!
-      <br_break>
-    ja: |-
-      「こんにちは
-      　旅人の宿屋へ　ようこそ。
-      <br_break>
-    ko: |-
-      안녕하세요.
-      　여행자의 여관에 어서 오세요.
-      <br_break>
-    pt-BR: ""
-    zh-Hans: |-
-      您好。
-      欢迎来到旅行者的旅店。
-      <br_break>
-    zh-Hant: |-
-      您好。
-      歡迎來到旅人的旅店。
-      <br_break>
+  SYSTXT_SHOP_INN_NPC_02010: *STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01010
   SYSTXT_SHOP_INN_NPC_02020:
     $comments: 🟡, See `DQ3make-Data_DataTable_Text.json:GOP_Text_Inn.Txt_Inn_Message_StartNight_F`
     de: |-
@@ -841560,84 +841583,7 @@ STT_SystemShopInn: &STT_SystemShopInn
       在此夜深人靜時分才來投宿，
       真是辛苦您了。
       <br_break>
-  SYSTXT_SHOP_INN_NPC_02030:
-    $comments: 🟡, See `DQ3make-Data_DataTable_Text.json:GOP_Text_Inn.[Txt_Inn_Message_Top_F, Txt_Inn_UI_Top_01, Txt_Inn_UI_Top_02]`
-    de: |-
-      Möchtet Ihr hier übernachten? Oder nur eine kleine
-      Rast einlegen? In beiden Fällen kann ich Euch für
-      {YADOYA_GOLD} Goldmünzen eine Unterkunft bieten.
-      <select>
-      Übernachten
-      Ausruhen
-      <select_end><break>
-    en: |-
-      Will you be staying the night? Or perhaps simply
-      stopping for a short rest? Either way, it's {YADOYA_GOLD} gold
-      coins for a room.
-      <select>
-      Stay Overnight
-      Rest Awhile
-      <select_end><break>
-    es: |-
-      ¿Quieren pasar la noche aquí? ¿O tal vez solo
-      descansar un rato? Como sea, la habitación cuesta
-      {YADOYA_GOLD} monedas de oro.
-      <select>
-      Pasar la noche
-      Descansar un rato
-      <select_end><break>
-    fr: |-
-      Souhaitez-vous passer la nuit ou bien vous reposer un
-      peu ? Dans les deux cas, c'est {YADOYA_GOLD} pièces d'or.
-      <select>
-      Passer la nuit
-      Se reposer
-      <select_end><break>
-    it: |-
-      Volete passare la notte qui? O forse volete solo
-      fermarvi per un riposino? In ogni caso, una stanza
-      costa {YADOYA_GOLD} monete d'oro.
-      <select>
-      Resta per la notte
-      Riposa per un po'
-      <select_end><break>
-    ja: |-
-      「お泊まりですか？
-      　それとも　少し休んでいかれますか？
-      　どちらも　{YADOYA_GOLD}ゴールドになります。
-      <select>
-      泊まる
-      休む
-      やめる
-      <select_end><break>
-    ko: |-
-      묵고 가시겠어요?
-      　아니면 잠깐 쉬다 가시겠어요?
-      　어느 쪽이든 요금은 {YADOYA_GOLD}골드입니다.
-      <select>
-      숙박하기
-      휴식하기
-      그만두기
-      <select_end><break>
-    pt-BR: ""
-    zh-Hans: |-
-      要住宿吗？
-      还是只是稍事休息？
-      价格都是{YADOYA_GOLD}Ｇ。
-      <select>
-      住宿
-      休息
-      结束
-      <select_end><break>
-    zh-Hant: |-
-      要住宿嗎？
-      還是只是稍事休息？
-      價格一樣都是{YADOYA_GOLD}Ｇ。
-      <select>
-      住宿
-      休息
-      結束
-      <select_end><break>
+  SYSTXT_SHOP_INN_NPC_02030: *STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01030
   SYSTXT_SHOP_INN_NPC_02040:
     $comments: 🟡, See `DQ3make-Data_DataTable_Text.json:GOP_Text_Inn.Txt_Inn_Message_Shotage_F`
     de: |-
@@ -841676,98 +841622,9 @@ STT_SystemShopInn: &STT_SystemShopInn
       很遺憾，
       您手邊的錢似乎不夠。
       <bw_break>
-  SYSTXT_SHOP_INN_NPC_02050:
-    $comments: 🟡, See `DQ3make-Data_DataTable_Text.json:GOP_Text_Inn.Txt_Inn_Message_Finish_F`
-    de: |-
-      Gute Reise, verehrte Gäste! Bitte beehrt uns bald
-      wieder.
-      <turn_end>
-    en: |-
-      Farewell, intrepid travellers. Come again any time.
-      <turn_end>
-    es: |-
-      Adiós, valientes trotamundos. Vuelvan cuando quieran.
-      <turn_end>
-    fr: |-
-      Au revoir, voyageurs ! Revenez quand vous voulez !
-      <turn_end>
-    it: |-
-      Arrivederci, audaci viandanti. Tornate pure quando
-      volete.
-      <turn_end>
-    ja: |-
-      「さようなら　旅の人
-      　また　お立ちよりください。
-      <turn_end>
-    ko: |-
-      안녕히 가세요, 여행자님.
-      　또 들러 주세요.
-      <turn_end>
-    pt-BR: ""
-    zh-Hans: |-
-      再见了，旅行者。
-      欢迎下次再来。
-      <turn_end>
-    zh-Hant: |-
-      再見了，旅人。
-      請再次光臨。
-      <turn_end>
-  SYSTXT_SHOP_INN_NPC_02060:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「いつまで　お休みになりますか？
-      <select>
-      朝まで
-      夜まで
-      <select_end><break>
-    ko: |-
-      언제까지 쉬시겠어요?
-      <select>
-      아침까지
-      밤까지
-      <select_end><break>
-    pt-BR: ""
-    zh-Hans: |-
-      要休息到什么时候呢？
-      <select>
-      早上
-      夜晚
-      <select_end><break>
-    zh-Hant: |-
-      要休息到什麼時候呢？
-      <select>
-      早上
-      夜晚
-      <select_end><break>
-  SYSTXT_SHOP_INN_NPC_02070:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「おやめになるのですね。
-      　では　気を取り直して……。
-      <br_break>
-    ko: |-
-      그만두시는군요.
-      　그렇다면 다시…….
-      <br_break>
-    pt-BR: ""
-    zh-Hans: |-
-      要取消是吗？
-      那么，容我从头来过……
-      <br_break>
-    zh-Hant: |-
-      要取消是嗎。
-      那麼，容我從頭來過……
-      <br_break>
+  SYSTXT_SHOP_INN_NPC_02050: *STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01050
+  SYSTXT_SHOP_INN_NPC_02060: *STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01060
+  SYSTXT_SHOP_INN_NPC_02070: *STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_01070
   SYSTXT_SHOP_INN_NPC_02080:
     $comments: 🔴
     de: ""
@@ -842330,10 +842187,14 @@ STT_SystemShopInn: &STT_SystemShopInn
       早上
       夜晚
       <select_end><break>
-  SYSTXT_SHOP_INN_NPC_04070:
-    $comments: 🔴
+  SYSTXT_SHOP_INN_NPC_04070: &STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_04070
+    $comments: |-
+      🟡
+      *STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_04070
     de: ""
-    en: ""
+    en: |-
+      Quitting, are you. Well, pull yourself together...
+      <br_break>
     es: ""
     fr: ""
     it: ""
@@ -842621,30 +842482,7 @@ STT_SystemShopInn: &STT_SystemShopInn
       早上
       夜晚
       <select_end><break>
-  SYSTXT_SHOP_INN_NPC_05070:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「やめるのね。
-      　じゃあ　気を取り直して……。
-      <br_break>
-    ko: |-
-      그만두려고?
-      　그렇다면 다시…….
-      <br_break>
-    pt-BR: ""
-    zh-Hans: |-
-      要取消是吧。
-      那么，容我从头来过……
-      <br_break>
-    zh-Hant: |-
-      要取消是吧。
-      那麼，容我從頭來過……
-      <br_break>
+  SYSTXT_SHOP_INN_NPC_05070: *STT_SystemShopInn.SYSTXT_SHOP_INN_NPC_04070
   SYSTXT_SHOP_INN_NPC_05080:
     $comments: 🔴
     de: ""
@@ -851644,38 +851482,8 @@ STT_System_Book_Monster:
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_02520_01:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      元は ふくめんバニーだったが
-      闇の修行を経て 黒い身体に。
-      強烈な格闘ワザをしかける
-      容赦ない 平原の暗殺者。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_02520_02:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      暗闇の中で 四方から襲いくる
-      アイアンクックを倒すという
-      闇の修行をこなしてきた。
-      自爆に巻き込まれ 黒コゲに。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  SYSTXT_BOOK_MONSTER_02520_01: *STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_12002
+  SYSTXT_BOOK_MONSTER_02520_02: *STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_12002
   SYSTXT_BOOK_MONSTER_02530_01:
     $comments: 🔴
     de: ""
@@ -883992,38 +883800,8 @@ STT_System_Book_Monster:
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_20009_01:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      アタマの大きなヒレが
-      チャームポイントのドラゴン。
-      しっぽを振り回して周囲に
-      大きなダメージを与えてくる。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_20009_02:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      体内でアルゴンハートという
-      宝石を生成することがある。
-      グランゼドーラ王国では
-      赤き巨竜と呼ばれるようだ。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  SYSTXT_BOOK_MONSTER_20009_01: *STT_Monster_Tips1_Ver2.SYSTXT_MONSTER_TIPS1_MONSTER_NO_14300
+  SYSTXT_BOOK_MONSTER_20009_02: *STT_Monster_Tips2_Ver2.SYSTXT_MONSTER_TIPS2_MONSTER_NO_14300
   SYSTXT_BOOK_MONSTER_20017_01:
     $comments: 🔴
     de: ""
@@ -886459,7 +886237,7 @@ STT_System_Casino:
       <speed=0>The killer machine has appeared!<auto_bw=2000>
       Surprisingly, the killer machine has
       called Type G!<auto_bw=2000>
-      Type G's double beam attack!<auto_bw= 1700><close>
+      Type G's double beam attack!<auto_bw=1700><close>
     es: ""
     fr: ""
     it: ""
@@ -888506,7 +888284,7 @@ STT_System_Casino:
       Tension up!<auto_br=2500>
       Knock out {Casinocoin} coins!
       (including bonus {Casinocoin_bo} pieces)
-      {Damage} damage to {Monster}!<auto_bw= 3000><close>
+      {Damage} damage to {Monster}!<auto_bw=3000><close>
     es: ""
     fr: ""
     it: ""
@@ -896204,18 +895982,7 @@ STT_System_Common:
     pt-BR: Família ???
     zh-Hans: ""
     zh-Hant: ""
-  SYSTXT_SYSTEM_COMMON_25010:
-    $comments: 🔴
-    de: ""
-    en: Fire Resistance
-    es: ""
-    fr: ""
-    it: ""
-    ja: 炎ダメージ減
-    ko: 불꽃 대미지 경감
-    pt-BR: ""
-    zh-Hans: 炎伤害减少
-    zh-Hant: 炎傷害減少
+  SYSTXT_SYSTEM_COMMON_25010: *STT_Equip_OddStatus_Name.NAME_QUALITY_SOUBI_GUARD_UP_HONOO
   SYSTXT_SYSTEM_COMMON_25020:
     $comments: 🔴
     de: ""
@@ -900788,8 +900555,10 @@ STT_System_Facility_ChurchNpc:
       告解至今為止的行為，
       將一切記錄至冒險之書中吧。
       <bw_break>
-  SYSTXT_FACILITY_CHURCH_NPC_01061:
-    $comments: 🔴
+  SYSTXT_FACILITY_CHURCH_NPC_01061: &STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01061
+    $comments: |-
+      🟡
+      *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01061
     de: ""
     en: |-
       Then confess before God what you have done.
@@ -900898,16 +900667,29 @@ STT_System_Facility_ChurchNpc:
       你還打算繼續冒險嗎？
       <yesno><break>
   SYSTXT_FACILITY_CHURCH_NPC_01100:
-    $comments: 🔴
-    de: ""
-    en: |-
-      O God!
-      Give this one a
-      rest.
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Church.Txt_Church_Message_GameEnd_Pri
+    de: |-
+      Oh große und gnädige Göttin, bitte gewähre diesem
+      Kind eine friedliche Ruhepause!
       <end>
-    es: ""
-    fr: ""
-    it: ""
+    en: |-
+      O Goddess, bestow this person a bit of a peaceful
+      respite!
+      <end>
+    es: |-
+      ¡En nombre de todo lo que es grande y compasivo,
+      deseo a esta criatura un respiro pacífico!
+      <end>
+    fr: |-
+      Au nom de la grandeur céleste et de la compassion,
+      que soit accordé un répit à cet enfant!
+      <end>
+    it: |-
+      In nome di tutto ciò che è grande e misericordioso,
+      concedo a questa pecorella un sereno riposo!
+      <end>
     ja: |-
       「おお　神よ！
       　この者に　ひとときの
@@ -900930,16 +900712,29 @@ STT_System_Facility_ChurchNpc:
       片刻的安息吧。
       <end>
   SYSTXT_FACILITY_CHURCH_NPC_01101:
-    $comments: 🔴
-    de: ""
-    en: |-
-      Oh God!
-      Give these people a
-      rest.
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Church.Txt_Church_Message_GameEnd_Pri
+    de: |-
+      Oh große und gnädige Göttin, bitte gewähre diesen
+      Kindern eine friedliche Ruhepause!
       <end>
-    es: ""
-    fr: ""
-    it: ""
+    en: |-
+      O Goddess, bestow these people a bit of a peaceful
+      respite!
+      <end>
+    es: |-
+      ¡En nombre de todo lo que es grande y compasivo,
+      deseo a estas criaturas un respiro pacífico!
+      <end>
+    fr: |-
+      Au nom de la grandeur céleste et de la compassion,
+      que soit accordé un répit à ces enfants!
+      <end>
+    it: |-
+      In nome di tutto ciò che è grande e misericordioso,
+      concedo a queste pecorelle un sereno riposo!
+      <end>
     ja: |-
       「おお　神よ！
       　この者たちに　ひとときの
@@ -901081,15 +900876,26 @@ STT_System_Facility_ChurchNpc:
       唔，你似乎已經持有
       記錄著這個地點的魯拉石了。
       <bw_break>
-  SYSTXT_FACILITY_CHURCH_NPC_01150:
-    $comments: 🔴
-    de: ""
-    en: |-
-      I hear God's voice.
+  SYSTXT_FACILITY_CHURCH_NPC_01150: &STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01150
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Church.Txt_Church_Message_NextlevelTop_Pri
+      *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01150
+    de: |-
+      Eine weise und gütige Stimme ist zu hören...
       <bw_break>
-    es: ""
-    fr: ""
-    it: ""
+    en: |-
+      A wise and benevolent voice can be heard...
+      <bw_break>
+    es: |-
+      Se oye una voz sabia y benévola...
+      <bw_break>
+    fr: |-
+      Une voix pleine de sagesse et de bienveillance s'élève...
+      <bw_break>
+    it: |-
+      Si ode una voce saggia e benevola...
+      <bw_break>
     ja: |-
       「神の声が　聞こえます。
       <bw_break>
@@ -901104,16 +900910,37 @@ STT_System_Facility_ChurchNpc:
       我聽見神的聲音了。
       <bw_break>
   SYSTXT_FACILITY_CHURCH_NPC_01160:
-    $comments: 🔴
-    de: ""
-    en: |-
-      {Character_Name}.
-      You'll reach the
-      next level with {Exp_Require} experience.
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Church.Txt_Church_Message_Nextlevel_Pri
+      archaic speaker?
+    de: |-
+      {Character_Name}, mein Kind.
+      Du benötigst noch {Exp_Require} Erfahrungspunkt(e),
+      um die nächste Stufe zu erreichen.
       <bw_break>
-    es: ""
-    fr: ""
-    it: ""
+    en: |-
+      O {Character_Name}.
+      It seems that thou requirest {Exp_Require} experience
+      point(s) to reach the next level.
+      <bw_break>
+    es: |-
+      <if_woman>{Character_Name}, hija mía.
+      Necesitas {Exp_Require} punto(s) de experiencia para
+      alcanzar el siguiente nivel.
+      <bw_break><else>{Character_Name}, hijo mío.
+      Necesitas {Exp_Require} punto(s) de experiencia para
+      alcanzar el siguiente nivel.<bw_break><endif>
+    fr: |-
+      {Character_Name}, mon enfant.
+      Tu as besoin de {Exp_Require} point(s) d'expérience
+      pour passer au niveau supérieur!
+      <bw_break>
+    it: |-
+      {Character_Name}, mia fedele pecorella.
+      Hai bisogno di {Exp_Require} punt(o/i) esperienza
+      per raggiungere il livello successivo.
+      <bw_break>
     ja: |-
       「{Character_Name}よ。
       　そなたは　あと　{Exp_Require}の経験で
@@ -901266,16 +901093,34 @@ STT_System_Facility_ChurchNpc:
       {Character_Selected_Name}還活著啊！
       <bw_break>
   SYSTXT_FACILITY_CHURCH_NPC_01220:
-    $comments: 🔴
-    de: ""
-    en: |-
-      Oh! Almighty God!
-      Bring back the spirit of {Character_Selected_Name},
-      your faithful servant!
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Church.Txt_Church_Message_Revive_Pri
+    de: |-
+      Oh große und gütige Göttin!
+      Wenn es denn dein Wille ist, so bringe unsere geliebte
+      {Character_Selected_Name} zu uns zurück!
       <break>
-    es: ""
-    fr: ""
-    it: ""
+    en: |-
+      O great and benevolent Goddess!
+      If it be Your will, please bring the spirit of your
+      faithful servant, {Character_Selected_Name}, here!
+      <break>
+    es: |-
+      ¡Oh, gran y benévola Diosa!
+      ¡Si es tu voluntad, por favor, devuelve a este mundo
+      a {Character_Selected_Name}, que tanto amamos!
+      <break>
+    fr: |-
+      Au nom de la grandeur céleste et de la bienveillance !
+      Si telle est votre volonté, ramenez dans ce monde
+      notre fidèle {Character_Selected_Name} !
+      <break>
+    it: |-
+      O grande e caritatevole Dea!
+      Se questa è la tua volontà, possa {Character_Selected_Name}
+      tornare tra i vivi!
+      <break>
     ja: |-
       「おお！　全知全能の神よ！
       　忠実なる神のしもべ　{Character_Selected_Name}のみたまを
@@ -901916,12 +901761,13 @@ STT_System_Facility_ChurchNpc:
       一旦停用就不能恢復原狀了，
       確定要停用這項設定嗎？
       <yesno2><break>
-  SYSTXT_FACILITY_CHURCH_NPC_01840:
-    $comments: 🔴
+  SYSTXT_FACILITY_CHURCH_NPC_01840: &STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01840
+    $comments: |-
+      🟡
+      *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01840
     de: ""
     en: |-
-      You want me to stop?
-      That's okay too.
+      "Stop", you say? That, too, is fine, I suppose.
       <bw_break>
     es: ""
     fr: ""
@@ -901965,8 +901811,10 @@ STT_System_Facility_ChurchNpc:
     zh-Hant: |-
       要停用其他的遊玩限制嗎？
       <break>
-  SYSTXT_FACILITY_CHURCH_NPC_01860:
-    $comments: 🟡
+  SYSTXT_FACILITY_CHURCH_NPC_01860: &STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01860
+    $comments: |-
+      🟡
+      *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01860
     de: ""
     en: |-
       O God, give me power!
@@ -901992,8 +901840,10 @@ STT_System_Facility_ChurchNpc:
       噢！神啊！請賜給我力量！
       請讓{PC}得以從束縛行動的
       禁忌桎梏中解脫吧！
-  SYSTXT_FACILITY_CHURCH_NPC_01910:
-    $comments: 🔴
+  SYSTXT_FACILITY_CHURCH_NPC_01910: &STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01910
+    $comments: |-
+      🟡
+      *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01910
     de: ""
     en: |-
       The Spell of Restoration! It is the Goddess' voice
@@ -902235,32 +902085,7 @@ STT_System_Facility_ChurchNpc:
       告解至今為止的行為，
       將一切記錄至冒險之書中吧。
       <bw_break>
-  SYSTXT_FACILITY_CHURCH_NPC_02061:
-    $comments: 🔴
-    de: ""
-    en: |-
-      Then confess before God what you have done.
-      <bw_break>
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「では　神の前に
-      　これまでの　おこないを　告白なさい。
-      <bw_break>
-    ko: |-
-      그럼 신의 앞에서
-      　지금까지의 행적을 고백하세요.
-      <bw_break>
-    pt-BR: ""
-    zh-Hans: |-
-      那么，请在神的面前
-      讲讲至今为止你的所作所为吧。
-      <bw_break>
-    zh-Hant: |-
-      那麼，就在神前
-      告解至今為止的行為吧。
-      <bw_break>
+  SYSTXT_FACILITY_CHURCH_NPC_02061: *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01061
   SYSTXT_FACILITY_CHURCH_NPC_02070:
     $comments: 🔴
     de: ""
@@ -902517,39 +902342,39 @@ STT_System_Facility_ChurchNpc:
       哎呀？您已經持有
       記錄著這個地點的魯拉石了呢。
       <bw_break>
-  SYSTXT_FACILITY_CHURCH_NPC_02150:
-    $comments: 🔴
-    de: ""
-    en: |-
-      I hear the Goddess' voice.
-      <bw_break>
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「神の声が　聞こえます。
-      <bw_break>
-    ko: |-
-      신의 목소리가 들립니다.
-      <bw_break>
-    pt-BR: ""
-    zh-Hans: |-
-      我听见神的声音了。
-      <bw_break>
-    zh-Hant: |-
-      我聽見神的聲音了。
-      <bw_break>
+  SYSTXT_FACILITY_CHURCH_NPC_02150: *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01150
   SYSTXT_FACILITY_CHURCH_NPC_02160:
-    $comments: 🔴
-    de: ""
-    en: |-
-      {Character_Name}.
-      You'll  reach the next level
-      with {Exp_Require} experience.
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Church.Txt_Church_Message_Nextlevel_Pri
+      polite speaker?
+    de: |-
+      {Character_Name}, mein Kind.
+      Du benötigst noch {Exp_Require} Erfahrungspunkt(e),
+      um die nächste Stufe zu erreichen.
       <bw_break>
-    es: ""
-    fr: ""
-    it: ""
+    en: |-
+      O {Character_Name}.
+      It seems that you require {Exp_Require} experience
+      point(s) to reach the next level.
+      <bw_break>
+    es: |-
+      <if_woman>{Character_Name}, hija mía.
+      Necesitas {Exp_Require} punto(s) de experiencia para
+      alcanzar el siguiente nivel.
+      <bw_break><else>{Character_Name}, hijo mío.
+      Necesitas {Exp_Require} punto(s) de experiencia para
+      alcanzar el siguiente nivel.<bw_break><endif>
+    fr: |-
+      {Character_Name}, mon enfant.
+      Tu as besoin de {Exp_Require} point(s) d'expérience
+      pour passer au niveau supérieur!
+      <bw_break>
+    it: |-
+      {Character_Name}, mia fedele pecorella.
+      Hai bisogno di {Exp_Require} punt(o/i) esperienza
+      per raggiungere il livello successivo.
+      <bw_break>
     ja: |-
       「{Character_Name}よ。
       　あなたは　あと　{Exp_Require}の経験で
@@ -903202,8 +903027,10 @@ STT_System_Facility_ChurchNpc:
       你回來得好，
       {PC}。
       <bw_break>
-  SYSTXT_FACILITY_CHURCH_NPC_02400:
-    $comments: 🔴
+  SYSTXT_FACILITY_CHURCH_NPC_02400: &STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_02400
+    $comments: |-
+      🟡
+      *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_02400
     de: ""
     en: |-
       May our god bless you, {PC}...
@@ -903226,8 +903053,10 @@ STT_System_Facility_ChurchNpc:
     zh-Hant: |-
       願主庇佑{PC}……
       <end>
-  SYSTXT_FACILITY_CHURCH_NPC_02401:
-    $comments: 🔴
+  SYSTXT_FACILITY_CHURCH_NPC_02401: &STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_02401
+    $comments: |-
+      🟡
+      *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_02401
     de: ""
     en: |-
       May our god bless you, {PC}....
@@ -903383,60 +903212,8 @@ STT_System_Facility_ChurchNpc:
     zh-Hant: |-
       要停用其他的遊玩限制嗎？
       <break>
-  SYSTXT_FACILITY_CHURCH_NPC_02860:
-    $comments: 🔴
-    de: ""
-    en: |-
-      Oh God, give me power!
-      Free
-      {PC} from the abominable chains that bind their actions!
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「おお　神よ　おチカラを！
-      　その行動を束縛する　忌まわしき　しばりから
-      　{PC}を　解放したまえっ！
-    ko: |-
-      오오, 신이시여! 당신의 힘이 필요합니다!
-      　행동을 속박하는 끔찍한 제한으로부터
-      　{PC}|hpp(을,를) 해방시켜 주소서!
-    pt-BR: ""
-    zh-Hans: |-
-      哦！神啊！请赐给我力量！
-      请让{PC}得以从束缚行动的
-      禁忌桎梏中解脱吧！
-    zh-Hant: |-
-      噢！神啊！請賜給我力量！
-      請讓{PC}得以從束縛行動的
-      禁忌桎梏中解脫吧！
-  SYSTXT_FACILITY_CHURCH_NPC_02910:
-    $comments: 🔴
-    de: ""
-    en: |-
-      The Spell of Restoration! It is the Goddess' voice
-      which guides us all!
-      <bw_break>
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「ふっかつのじゅもん！
-      　それは　我らを導く　神の声！
-      <bw_break>
-    ko: |-
-      부활의 주문!
-      　그것은 우리를 인도하는 신의 목소리!
-      <bw_break>
-    pt-BR: ""
-    zh-Hans: |-
-      复活咒文，
-      是指引我等的神之声！
-      <bw_break>
-    zh-Hant: |-
-      復活的咒文，
-      是提供我等指引的神之聲！
-      <bw_break>
+  SYSTXT_FACILITY_CHURCH_NPC_02860: *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01860
+  SYSTXT_FACILITY_CHURCH_NPC_02910: *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01910
   SYSTXT_FACILITY_CHURCH_NPC_02920:
     $comments: 🔴
     de: ""
@@ -903656,32 +903433,7 @@ STT_System_Facility_ChurchNpc:
       告解至今為止的行為，
       將一切記錄至冒險之書中吧。
       <bw_break>
-  SYSTXT_FACILITY_CHURCH_NPC_03061:
-    $comments: 🔴
-    de: ""
-    en: |-
-      Then confess before God what you have done.
-      <bw_break>
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「では　神の前に
-      　これまでの　おこないを　告白なさい。
-      <bw_break>
-    ko: |-
-      그럼 신의 앞에서
-      　그동안의 행적을 고백하렴.
-      <bw_break>
-    pt-BR: ""
-    zh-Hans: |-
-      那么，请在神的面前
-      讲讲至今为止你的所作所为吧。
-      <bw_break>
-    zh-Hant: |-
-      那麼，就在神前
-      告解至今為止的行為吧。
-      <bw_break>
+  SYSTXT_FACILITY_CHURCH_NPC_03061: *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01061
   SYSTXT_FACILITY_CHURCH_NPC_03070:
     $comments: 🔴
     de: ""
@@ -903947,14 +903699,25 @@ STT_System_Facility_ChurchNpc:
       記錄著這個地點的魯拉石了。
       <bw_break>
   SYSTXT_FACILITY_CHURCH_NPC_03150:
-    $comments: 🔴
-    de: ""
-    en: |-
-      I can hear God's voice.
+    $comments: |-
+      🟡
+      see [STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01150]
+      NOTE: difference is the specific gender or race of character speaking?
+    de: |-
+      Eine weise und gütige Stimme ist zu hören...
       <bw_break>
-    es: ""
-    fr: ""
-    it: ""
+    en: |-
+      A wise and benevolent voice can be heard...
+      <bw_break>
+    es: |-
+      Se oye una voz sabia y benévola...
+      <bw_break>
+    fr: |-
+      Une voix pleine de sagesse et de bienveillance s'élève...
+      <bw_break>
+    it: |-
+      Si ode una voce saggia e benevola...
+      <bw_break>
     ja: |-
       「神の声が　聞こえるよ。
       <bw_break>
@@ -903969,16 +903732,37 @@ STT_System_Facility_ChurchNpc:
       我聽見神的聲音了。
       <bw_break>
   SYSTXT_FACILITY_CHURCH_NPC_03160:
-    $comments: 🔴
-    de: ""
-    en: |-
-      {Character_Name}.
-      You'll be
-      next level with {Exp_Require} experience.
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Church.Txt_Church_Message_Nextlevel_Pri
+      casual speaker?
+    de: |-
+      {Character_Name}, mein Kind.
+      Du benötigst noch {Exp_Require} Erfahrungspunkt(e),
+      um die nächste Stufe zu erreichen.
       <bw_break>
-    es: ""
-    fr: ""
-    it: ""
+    en: |-
+      O {Character_Name}.
+      Seems ya require {Exp_Require} experience point(s)
+      to reach the next level.
+      <bw_break>
+    es: |-
+      <if_woman>{Character_Name}, hija mía.
+      Necesitas {Exp_Require} punto(s) de experiencia para
+      alcanzar el siguiente nivel.
+      <bw_break><else>{Character_Name}, hijo mío.
+      Necesitas {Exp_Require} punto(s) de experiencia para
+      alcanzar el siguiente nivel.<bw_break><endif>
+    fr: |-
+      {Character_Name}, mon enfant.
+      Tu as besoin de {Exp_Require} point(s) d'expérience
+      pour passer au niveau supérieur!
+      <bw_break>
+    it: |-
+      {Character_Name}, mia fedele pecorella.
+      Hai bisogno di {Exp_Require} punt(o/i) esperienza
+      per raggiungere il livello successivo.
+      <bw_break>
     ja: |-
       「{Character_Name}よ。
       　アンタは　あと　{Exp_Require}の経験で
@@ -904627,55 +904411,8 @@ STT_System_Facility_ChurchNpc:
     zh-Hant: |-
       你回來了，{PC}。
       <bw_break>
-  SYSTXT_FACILITY_CHURCH_NPC_03400:
-    $comments: 🔴
-    de: ""
-    en: |-
-      May our god bless you, {PC}...
-      <end>
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「{PC}に　我らが神の
-      　ご加護が　ありますように……。
-      <end>
-    ko: |-
-      {PC}에게 우리 신의
-      　가호가 있기를…….
-      <end>
-    pt-BR: ""
-    zh-Hans: |-
-      愿主保佑{PC}……
-      <end>
-    zh-Hant: |-
-      願主庇佑{PC}……
-      <end>
-  SYSTXT_FACILITY_CHURCH_NPC_03401:
-    $comments: 🔴
-    de: ""
-    en: |-
-      May {PC} and their party be
-      blessed by God...
-      <end>
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「{PC}たちに　我らが神の
-      　ご加護が　ありますように……。
-      <end>
-    ko: |-
-      {PC} 일행에게 우리 신의
-      　가호가 있기를…….
-      <end>
-    pt-BR: ""
-    zh-Hans: |-
-      愿主保佑{PC}一行人……
-      <end>
-    zh-Hant: |-
-      願主庇佑{PC}一行人……
-      <end>
+  SYSTXT_FACILITY_CHURCH_NPC_03400: *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_02400
+  SYSTXT_FACILITY_CHURCH_NPC_03401: *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_02401
   SYSTXT_FACILITY_CHURCH_NPC_03810:
     $comments: 🔴
     de: ""
@@ -904810,60 +904547,8 @@ STT_System_Facility_ChurchNpc:
     zh-Hant: |-
       要停用其他的遊玩限制嗎？
       <break>
-  SYSTXT_FACILITY_CHURCH_NPC_03860:
-    $comments: 🔴
-    de: ""
-    en: |-
-      Oh God, give me power!
-      Free
-      {PC} from the abominable chains that bind their actions!
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「おお　神よ　おチカラを！
-      　その行動を束縛する　忌まわしき　しばりから
-      　{PC}を　解放したまえっ！
-    ko: |-
-      오오, 신이시여! 당신의 힘이 필요합니다!
-      　행동을 속박하는 끔찍한 제한으로부터
-      　{PC}|hpp(을,를) 해방시켜 주소서!
-    pt-BR: ""
-    zh-Hans: |-
-      哦！神啊！请赐给我力量！
-      请让{PC}得以从束缚行动的
-      禁忌桎梏中解脱吧！
-    zh-Hant: |-
-      噢！神啊！請賜給我力量！
-      請讓{PC}得以從束縛行動的
-      禁忌桎梏中解脫吧！
-  SYSTXT_FACILITY_CHURCH_NPC_03910:
-    $comments: 🔴
-    de: ""
-    en: |-
-      The Spell of Restoration! It is the Goddess' voice
-      which guides us all!
-      <bw_break>
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「ふっかつのじゅもん！
-      　それは　我らを導く　神の声！
-      <bw_break>
-    ko: |-
-      부활의 주문!
-      　그것은 우리를 인도하는 신의 목소리!
-      <bw_break>
-    pt-BR: ""
-    zh-Hans: |-
-      复活咒文，
-      是指引我等的神之声！
-      <bw_break>
-    zh-Hant: |-
-      復活的咒文，
-      是提供我等指引的神之聲！
-      <bw_break>
+  SYSTXT_FACILITY_CHURCH_NPC_03860: *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01860
+  SYSTXT_FACILITY_CHURCH_NPC_03910: *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01910
   SYSTXT_FACILITY_CHURCH_NPC_03920:
     $comments: 🔴
     de: ""
@@ -905084,32 +904769,7 @@ STT_System_Facility_ChurchNpc:
       所作所為向神告解，
       記錄到冒險之書吧。
       <bw_break>
-  SYSTXT_FACILITY_CHURCH_NPC_04061:
-    $comments: 🔴
-    de: ""
-    en: |-
-      Then confess before God what you have done.
-      <bw_break>
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「では　神の前に
-      　これまでの　おこないを　告白なさい。
-      <bw_break>
-    ko: |-
-      그럼 신 앞에서
-      　지금까지 한 일 고백해라.
-      <bw_break>
-    pt-BR: ""
-    zh-Hans: |-
-      那么，请在神的面前
-      讲讲至今为止你的所作所为吧。
-      <bw_break>
-    zh-Hant: |-
-      那麼，就在神前
-      告解至今為止的行為吧。
-      <bw_break>
+  SYSTXT_FACILITY_CHURCH_NPC_04061: *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01061
   SYSTXT_FACILITY_CHURCH_NPC_04070:
     $comments: 🔴
     de: ""
@@ -905357,14 +905017,25 @@ STT_System_Facility_ChurchNpc:
       記錄這個地方的魯拉石了。
       <bw_break>
   SYSTXT_FACILITY_CHURCH_NPC_04150:
-    $comments: 🔴
-    de: ""
-    en: |-
-      I hear God's voice.
+    $comments: |-
+      🟡
+      see [STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01150]
+      NOTE: difference is the specific gender or race of character speaking?
+    de: |-
+      Eine weise und gütige Stimme ist zu hören...
       <bw_break>
-    es: ""
-    fr: ""
-    it: ""
+    en: |-
+      A wise and benevolent voice can be heard...
+      <bw_break>
+    es: |-
+      Se oye una voz sabia y benévola...
+      <bw_break>
+    fr: |-
+      Une voix pleine de sagesse et de bienveillance s'élève...
+      <bw_break>
+    it: |-
+      Si ode una voce saggia e benevola...
+      <bw_break>
     ja: |-
       「神の声　聞こえる。
       <bw_break>
@@ -905379,16 +905050,37 @@ STT_System_Facility_ChurchNpc:
       我聽見了神的聲音。
       <bw_break>
   SYSTXT_FACILITY_CHURCH_NPC_04160:
-    $comments: 🔴
-    de: ""
+    $comments: |-
+      🟡
+      see ["DQ3make-Data_DataTable_Text.json"]:GOP_Text_Church.Txt_Church_Message_Nextlevel_Pri
+      rude speaker?
+    de: |-
+      {Character_Name}, mein Kind.
+      Du benötigst noch {Exp_Require} Erfahrungspunkt(e),
+      um die nächste Stufe zu erreichen.
+      <bw_break>
     en: |-
       {Character_Name}.
-      You will be
-      next level with {Exp_Require} experience.
+      Ya need {Exp_Require} experience point(s) ta reach
+      the next level.
       <bw_break>
-    es: ""
-    fr: ""
-    it: ""
+    es: |-
+      <if_woman>{Character_Name}, hija mía.
+      Necesitas {Exp_Require} punto(s) de experiencia para
+      alcanzar el siguiente nivel.
+      <bw_break><else>{Character_Name}, hijo mío.
+      Necesitas {Exp_Require} punto(s) de experiencia para
+      alcanzar el siguiente nivel.<bw_break><endif>
+    fr: |-
+      {Character_Name}, mon enfant.
+      Tu as besoin de {Exp_Require} point(s) d'expérience
+      pour passer au niveau supérieur!
+      <bw_break>
+    it: |-
+      {Character_Name}, mia fedele pecorella.
+      Hai bisogno di {Exp_Require} punt(o/i) esperienza
+      per raggiungere il livello successivo.
+      <bw_break>
     ja: |-
       「{Character_Name}。
       　オマエ　あと　{Exp_Require}の経験で
@@ -906118,33 +905810,7 @@ STT_System_Facility_ChurchNpc:
       一旦停用就不能恢復原狀，
       確定要停用這項設定嗎？
       <yesno2><break>
-  SYSTXT_FACILITY_CHURCH_NPC_04840:
-    $comments: 🔴
-    de: ""
-    en: |-
-      You can tell me to stop.
-      That's also fine.
-      <bw_break>
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「やめると申されるか。
-      　それも　また　よろしかろう。
-      <bw_break>
-    ko: |-
-      그만두나?
-      　상관없다.
-      <bw_break>
-    pt-BR: ""
-    zh-Hans: |-
-      打算作罢吗？
-      那也无妨。
-      <bw_break>
-    zh-Hant: |-
-      打算作罷嗎？
-      那也無妨。
-      <bw_break>
+  SYSTXT_FACILITY_CHURCH_NPC_04840: *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01840
   SYSTXT_FACILITY_CHURCH_NPC_04850:
     $comments: 🔴
     de: ""
@@ -906167,33 +905833,7 @@ STT_System_Facility_ChurchNpc:
     zh-Hant: |-
       要停用其他的遊玩限制嗎？
       <break>
-  SYSTXT_FACILITY_CHURCH_NPC_04860:
-    $comments: 🔴
-    de: ""
-    en: |-
-      Oh God, give me power!
-      Free
-      {PC} from the abominable chains that bind their actions!
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      「おお　神よ　おチカラを！
-      　その行動を束縛する　忌まわしき　しばりから
-      　{PC}を　解放したまえっ！
-    ko: |-
-      오오, 신이시여! 당신의 힘이 필요합니다!
-      　행동을 속박하는 끔찍한 제한으로부터
-      　{PC}|hpp(을,를) 해방시켜 주소서!
-    pt-BR: ""
-    zh-Hans: |-
-      哦！神啊！请赐给我力量！
-      请让{PC}得以从束缚行动的
-      禁忌桎梏中解脱吧！
-    zh-Hant: |-
-      噢！神啊！請賜給我力量！
-      請讓{PC}得以從束縛行動的
-      禁忌桎梏中解脫吧！
+  SYSTXT_FACILITY_CHURCH_NPC_04860: *STT_System_Facility_ChurchNpc.SYSTXT_FACILITY_CHURCH_NPC_01860
   SYSTXT_FACILITY_CHURCH_NPC_04910:
     $comments: 🔴
     de: ""
@@ -915429,9 +915069,12 @@ STT_System_Location:
     zh-Hans: 塞莱德特山道
     zh-Hant: 塞萊德特山道
   SYSTXT_LOCATION_COMMON_REN7_CELE_FLDR_BERI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_030, STT_System_Location.SYSTXT_LOCATION_REN4_R4200_BERYL]`
     de: ""
-    en: Celedot Mountain Pass - Beryl Den
+    en: Celedot Mountain Pass - Beryl Burrow
     es: ""
     fr: ""
     it: ""
@@ -928159,15 +927802,19 @@ STT_System_Location:
     zh-Hans: 高台教会原址
     zh-Hant: 高台教會原址
   SYSTXT_LOCATION_REN4_R4200_BERYL:
-    $comments: 🔴
-    de: ""
-    en: Beryl Den
-    es: ""
-    fr: ""
-    it: ""
+    $comments: |-
+      🟡
+      (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_030, STT_System_Location.SYSTXT_LOCATION_REN4_R4200_BERYL]`
+      Der,La,Le,La,A
+    de: Beryl Bau
+    en: Beryl Burrow
+    es: Madriguera de Beryl
+    fr: Terrier de Beryl
+    it: Buca di Beryl
     ja: ベリルのほら穴
     ko: 베릴의 동굴
-    pt-BR: ""
+    pt-BR: Toca de Beryl
     zh-Hans: 绿宝石洞穴
     zh-Hant: 綠玉洞穴
   SYSTXT_LOCATION_REN4_R4200_COBALT:
@@ -928199,9 +927846,11 @@ STT_System_Location:
       🟢
       (09/14) Story of Seredo [ 3 Butterflies - Amber ] { Main Story }
       see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS3_009]`
+      (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_010, STT_System_Location.SYSTXT_LOCATION_REN4_R4210_KAIGANISEKI]`
       Die,La,La,La,A
     de: Küstenruinen
-    en: Coast Ruins
+    en: Coastal Ruins
     es: Ruinas Costeras
     fr: Ruines Côtières
     it: Rovine Costiere
@@ -960878,17 +960527,27 @@ STT_UIDouguSys:
       彷彿感受到了
       舞神的體溫……
   ID_TEXT_DAIJINAMONO_ARUGONHATO:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_3_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ARUGONHATO]`
     de: ""
     en: |-
-      {Character_Head} took a close look at Argon Heart.
+      {Character_Head} tried closely examining the
+      Argon Heart.
       <br>
-      Blood-red {Character_Head}
-      She thought of her extinct Argon Great.
+      It's blood-red color made {Character_Head}'s mind
+      swirl with thoughts of the extinct Great Argon Lizard.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　アルゴンハートを\nじっくり　ながめてみた。\n<br>\n血のような赤色に　{Character_Head}は\n絶滅した　アルゴングレートについて\n思いを　めぐらせた。"
+    ja: |-
+      {Character_Head}は　アルゴンハートを
+      じっくり　ながめてみた。
+      <br>
+      血のような赤色に　{Character_Head}は
+      絶滅した　アルゴングレートについて
+      思いを　めぐらせた。
     ko: |-
       {Character_Head}|hpp(은,는) 아르곤 하트를
       가만히 바라보았다.
@@ -965916,18 +965575,26 @@ STT_UIDouguSys:
       拿起來細細端詳。<br>
       利刃上沒有一絲鏽跡。
   ID_TEXT_DAIJINAMONO_KODOMOMUKENOMOKKOKYOHON:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_050, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KODOMOMUKENOMOKKOKYOHON]`
     de: ""
     en: |-
-      {Character_Head} tried reading the Children's
-      Woodworking Manual.
+      {Character_Head} tried reading the
+      Children's Woodworking Manual.
       <br>
       The ways of woodworking within are illustrated in
       an easily understandable way.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　子供向けの木工教本を\n読んでみた。\n<br>\n木工のやり方が　図説入りで\nわかりやすく　描かれている。"
+    ja: |-
+      {Character_Head}は　子供向けの木工教本を
+      読んでみた。
+      <br>
+      木工のやり方が　図説入りで
+      わかりやすく　描かれている。
     ko: |-
       {Character_Head}|hpp(은,는) 어린이용 목공 교본을
       읽어 보았다.
@@ -969986,19 +969653,28 @@ STT_UIDouguSys:
       不僅是七彩，各種顏色
       互相交雜，看得眼都花了。
   ID_TEXT_DAIJINAMONO_REMURUGAI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_REMURUGAI]`
     de: ""
     en: |-
-      {Character_Head} gently
-      held a Lemur shell to his ear.
+      {Character_Head} tried gently holding the Fade Shell
+      to their ear.
       <br>
-      I hear a strange sound, kooooo...koooo...
-      {Character_Head} took a moment to think of her
-      view of the ocean floor.
+      A mysterious "Kooo... Kooo..." sound could be heard.
+      It caused {Character_Head} to take a moment thinking
+      about a submarine scenery.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　レムール貝を\nそっと　耳に当ててみた。\n<br>\nコオォ……コオォ……と　不思議な音が聞こえる。\n{Character_Head}は　しばしの間\n海底の景色に　思いを　はせた。"
+    ja: |-
+      {Character_Head}は　レムール貝を
+      そっと　耳に当ててみた。
+      <br>
+      コオォ……コオォ……と　不思議な音が聞こえる。
+      {Character_Head}は　しばしの間
+      海底の景色に　思いを　はせた。
     ko: |-
       {Character_Head}|hpp(은,는) 레물 조개를
       살며시 귀에 대 보았다.
@@ -971214,17 +970890,25 @@ STT_UIDouguSys:
       但是信被封得很死，
       不能擅自開封！
   ID_TEXT_DAIJINAMONO_SERIKUNOKABAN:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_017_2_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SERIKUNOKABAN]`
     de: ""
     en: |-
-      {Character_Head} opened
-      Serik's bag.
+      {Character_Head} tried opening Serik's Bag.
       <br>
-      He is packed full of sheet music, spare Tula strings, and maintenance tools.
+      It's tightly packed with sheet music, spare torban
+      strings, and repair tools.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　セリクのかばんを\n開けてみた。\n<br>\n楽譜や　予備のトゥーラの弦や\n手入れ道具が　ぎっしり　つまっている。"
+    ja: |-
+      {Character_Head}は　セリクのかばんを
+      開けてみた。
+      <br>
+      楽譜や　予備のトゥーラの弦や
+      手入れ道具が　ぎっしり　つまっている。
     ko: |-
       {Character_Head}|hpp(은,는) 셀리크의 가방을
       열어 보았다.
@@ -972788,17 +972472,26 @@ STT_UIDouguSys:
       還有軟軟的穀殼
       讓人不由得想睡覺。
   ID_TEXT_DAIJINAMONO_TOMOGARANONAE:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (220) SYSTEXT_QUESTLIST_NAME_FQ_106_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_017, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_106_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TOMOGARANONAE]`
     de: ""
     en: |-
-      {Character_Head} took a
-      look at the tomogar seedlings.
+      {Character_Head} tried closely examining the
+      Friendship Sapling.
       <br>
-      The tortoise seedlings seem to be overflowing with her fresh vitality.
+      The Friendship Sapling seems to be overflowing with
+      fresh vitality.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　トモガラの苗を\nじっくり　ながめてみた。\n<br>\nトモガラの苗は　みずみずしい生命力に\nあふれているようだ。"
+    ja: |-
+      {Character_Head}は　トモガラの苗を
+      じっくり　ながめてみた。
+      <br>
+      トモガラの苗は　みずみずしい生命力に
+      あふれているようだ。
     ko: |-
       {Character_Head}|hpp(은,는) 한패의 묘목을
       가만히 바라보았다.
@@ -974768,18 +974461,25 @@ STT_UIDouguSys:
       貝殼中能聽到
       沙子流動的沙沙聲。
   ID_TEXT_DAIJINAMONO_UWASANOMAMONONOSYASIN:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (217) SYSTEXT_QUESTLIST_NAME_FQ_102_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_102_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_102_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_UWASANOMAMONONOSYASIN]`
     de: ""
     en: |-
       {Character_Head} tried taking a close look at the
       Rumored Monster Photo.
       <br>
-      Personally, it looks like a photo taken by a
-      professional.
+      They feel like it's a professionally-shot photo,
+      if they say so themself.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　ウワサの魔物の写真を\nじっくり　ながめてみた。\n<br>\n我ながら　うまく撮れたような気がする。"
+    ja: |-
+      {Character_Head}は　ウワサの魔物の写真を
+      じっくり　ながめてみた。
+      <br>
+      我ながら　うまく撮れたような気がする。
     ko: |-
       {Character_Head}|hpp(은,는) 마물을 촬영한 사진을
       가만히 바라보았다.

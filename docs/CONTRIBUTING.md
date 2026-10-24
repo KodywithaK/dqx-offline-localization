@@ -973,9 +973,9 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 > | eventTextCsAq20161Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (242) SYSTEXT_QUESTLIST_NAME_AQ_016_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }                                              |
 > | eventTextCsAq20162Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (243) SYSTEXT_QUESTLIST_NAME_AQ_016_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }                                              |
 > | eventTextCsAq20163Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (244) SYSTEXT_QUESTLIST_NAME_AQ_016_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_016 ] { Sub Story }                                              |
-> | eventTextCsAq20171Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsAq20172Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsAq20173Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
+> | eventTextCsAq20171Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (245) SYSTEXT_QUESTLIST_NAME_AQ_017_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }                                              |
+> | eventTextCsAq20172Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (246) SYSTEXT_QUESTLIST_NAME_AQ_017_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }                                              |
+> | eventTextCsAq20173Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (247) SYSTEXT_QUESTLIST_NAME_AQ_017_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_017 ] { Sub Story }                                              |
 > | eventTextCsAq20181Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsAq20182Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsAq20183Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
@@ -1417,7 +1417,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 > | eventTextIeR3WaldFldfServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeR3WaldFldrServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeR4CeleCrchfServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextIeR4CeleFldfServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
+> | eventTextIeR4CeleFldfServer.win32.json                | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (217) SYSTEXT_QUESTLIST_NAME_FQ_102_1 { Sub Story }                                                                                  |
 > | eventTextIeR4CeleFldrServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeR4CeleMonsfServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | `Game.locres.yaml:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`<br>Monster Tavern                                                   |
 > | eventTextIeR4CeleMonsrServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | `Game.locres.yaml:STT_System_Location.SYSTXT_LOCATION_STAGE_TBD`<br>Monster Tavern                                                   |
@@ -1605,6 +1605,69 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 >         Big Bro! Look at all this text!
 >         <endif>
 >         ```
+>
+>    - **TEMPLATE**
+>
+>      ```yaml
+>      sub_file: # $sub_file
+>        namespace: # $namespace
+>          $comments: |- # $key
+>            🔴🟡🟢
+>            Notes about this key
+>          $conditional: <if_woman>
+>          $voice_I: <start_lip_sync .*?>
+>          $voice_O: <stop_lip_animation .*?>
+>          de: ["Line_1\nHallo, {$conditional}\nLine_3", "Fräulein", "Herr"]
+>          en: ["Line_1\nHello, {$conditional}\nLine_3", "miss", "mister"]
+>          es: ["Line_1\nHola, {$conditional}\nLine_3", "señorita", "señor"]
+>          fr: ["Line_1\nBonjour, {$conditional}\nLine_3", "mademoiselle", "monsieur"]
+>          it: ["Line_1\nCiao, {$conditional}\nLine_3", "signorina", "signore"]
+>          ja: ["Line_1\nこんにちは、{$conditional}\nLine_3", "お嬢さん", "旦那様"]
+>          ko: ["Line_1\n안녕하세요, {$conditional}\nLine_3", "아가씨", "신사"]
+>          pt-BR: ["Line_1\nOlá, {$conditional}\nLine_3", "senhorita", "senhor"]
+>          zh-Hans: ["Line_1\n你好，{$conditional}\nLine_3", "小姐", "先生"]
+>          zh-Hant: ["Line_1\n你好，{$conditional}\nLine_3", "小姐", "先生"]
+>      ############## OR, for multi-line readability ##############
+>      sub_file: # $sub_file
+>        namespace: # $namespace
+>          $comments: |- # $key
+>            🔴🟡🟢
+>            Notes about this key
+>          $conditional: <if_woman> # GENDER OF PLAYER
+>          $voice_I: <start_lip_sync .*?>
+>          $voice_O: <stop_lip_animation .*?>
+>          LANGUAGE:
+>          - |-
+>            Line_1
+>            GREETING, {$conditional}
+>            Line_3
+>          - true  # FEMININE
+>          - false # MASCULINE
+>      ```
+>
+>    - **OUTPUT** ( json, after `ETP.jq` )
+>
+>      ```json
+>      {
+>        "sub_file": {
+>          "key": {
+>            "$comments": "🔴🟡🟢\nNotes about this key",
+>            "$voice_I": "<start_lip_sync .*?>",
+>            "$voice_O": "<stop_lip_animation .*?>",
+>            "de": "<if_woman><start_lip_sync .*?>Line_1\nHallo, Fräulein.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nHallo, Herr.\nLine_3<stop_lip_animation .*?><endif>",
+>            "en": "<if_woman><start_lip_sync .*?>Line_1\nHello, miss.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nHello, mister.\nLine_3<stop_lip_animation .*?><endif>",
+>            "es": "<if_woman><start_lip_sync .*?>Line_1\nHola, señorita.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nHola, señor.\nLine_3<stop_lip_animation .*?><endif>",
+>            "fr": "<if_woman><start_lip_sync .*?>Line_1\nBonjour, mademoiselle.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nBonjour, monsieur.\nLine_3<stop_lip_animation .*?><endif>",
+>            "it": "<if_woman><start_lip_sync .*?>Line_1\nCiao, signorina.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nCiao, signore.\nLine_3<stop_lip_animation .*?><endif>",
+>            "ja": "<if_woman><start_lip_sync .*?>Line_1\nこんにちは、お嬢さん.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nこんにちは、旦那様.\nLine_3<stop_lip_animation .*?><endif>",
+>            "ko": "<if_woman><start_lip_sync .*?>Line_1\n안녕하세요, 아가씨.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\n안녕하세요, 신사.\nLine_3<stop_lip_animation .*?><endif>",
+>            "pt-BR": "<if_woman><start_lip_sync .*?>Line_1\nOlá, senhorita.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nOlá, senhor.\nLine_3<stop_lip_animation .*?><endif>",
+>            "zh-Hans": "<if_woman><start_lip_sync .*?>Line_1\n你好，小姐.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\n你好，先生.\nLine_3<stop_lip_animation .*?><endif>",
+>            "zh-Hant": "<if_woman><start_lip_sync .*?>Line_1\n你好，小姐.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\n你好，先生.\nLine_3<stop_lip_animation .*?><endif>"
+>          }
+>        }
+>      }
+>      ```
 >
 > ### Glossary
 >

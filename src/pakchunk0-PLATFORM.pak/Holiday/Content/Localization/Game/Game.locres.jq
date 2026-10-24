@@ -1,20 +1,20 @@
-#!/usr/bin/env jq -f
+#!/usr/bin/env jq --arg LANGUAGE $LANGUAGE --from-file ./Game.locres.jq > "${{ github.workspace }}/BUILD/LocRes-Builder/INPUT/${LANGUAGE}.json"
 
-. as $obj
-| reduce ( $obj | keys_unsorted )[] as $ns (
+. as $main_file
+| reduce ( $main_file | keys_unsorted )[] as $namespace (
 	{};
-	.[$ns] += (
-		reduce ( $obj[$ns] | keys_unsorted )[] as $k (
+	.[$namespace] += (
+		reduce ( $main_file[$namespace] | keys_unsorted )[] as $key (
 			{};
-			.[$k] += (
-				if ( $LANGUAGE != "la" )
+			.[$key] += (
+				if   ( $LANGUAGE != "la" )
 				then (
-					if ( $obj[$ns][$k][$LANGUAGE] != "" )
-					then ( $obj[$ns][$k][$LANGUAGE] )
-					else ( $obj[$ns][$k]["ja"] )
+					if   ( $main_file[$namespace][$key][$LANGUAGE] != "" )
+					then ( $main_file[$namespace][$key][$LANGUAGE] )
+					else ( $main_file[$namespace][$key]["ja"] )
 					end
 				)
-				else ( $k | ascii_downcase )
+				else ( $key | ascii_downcase )
 				end
 			)
 		)
