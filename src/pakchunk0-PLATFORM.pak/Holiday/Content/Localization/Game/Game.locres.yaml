@@ -57477,8 +57477,16 @@ STT_BattleGuestName:
     pt-BR: Lunana
     zh-Hans: 露娜娜
     zh-Hant: 露娜娜
-  ID_NAME_GUEST_SERAFI:
-    $comments: 🟢
+  ID_NAME_GUEST_SERAFI: &STT_BattleGuestName.ID_NAME_GUEST_SERAFI
+    $comments: |-
+      🟢, F
+      (04/11) Story of Al-Ahaghiro [ 3 Butterflies - Green ] { Main Story }
+      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS4_004]`
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_000, STT_NpcInfo.NAME_NPC_01993]`
+      (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      *STT_BattleGuestName.ID_NAME_GUEST_SERAFI
     de: Seraphy
     en: Seraphy
     es: Seraphy
@@ -63882,6 +63890,8 @@ STT_BattleMonsterName:
   ID_MONSTER_NAME_10001: &ID_MONSTER_NAME_10001
     $comments: |-
       🟢
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_10001]`
       see `DQ3make.GOP_TEXT_Noun_AllLanguages:TEXT_NOUN_Monster_Name_Dragonzombie`
     de: Zombiedrache
     en: Dragon Zombie
@@ -66058,7 +66068,11 @@ STT_BattleMonsterName:
     zh-Hans: 蔷薇公主
     zh-Hant: 薔薇公主
   ID_MONSTER_NAME_13600:
-    $comments: 🟡, DQ3make.GOP_TEXT_Noun_AllLanguages:TEXT_NOUN_Monster_Name_Shade
+    $comments: |-
+      🟢
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_13600]`
+      see DQ3make.GOP_TEXT_Noun_AllLanguages:TEXT_NOUN_Monster_Name_Shade
     de: Schemen
     en: Shade
     es: Dracosombra
@@ -66066,7 +66080,7 @@ STT_BattleMonsterName:
     it: Ombra del Demonio
     ja: あやしいかげ
     ko: 수상한 그림자
-    pt-BR: ""
+    pt-BR: Sombra Suspeita
     zh-Hans: 诡影
     zh-Hant: 可疑陰影
   ID_MONSTER_NAME_13601:
@@ -66231,7 +66245,11 @@ STT_BattleMonsterName:
     zh-Hans: 疯狂吹奏者
     zh-Hant: 瘋狂吹奏者
   ID_MONSTER_NAME_14001:
-    $comments: 🟡, see `DQ06_data_MENULIST6_{LANGUAGE}_b1002000.mpt:00061`
+    $comments: |-
+      🟢
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_010, STT_BattleMonsterName.ID_MONSTER_NAME_14001]`
+      see `DQ06_data_MENULIST6_{LANGUAGE}_b1002000.mpt:00061`
     de: Wolkenreiter
     en: Cloud Surfer
     es: Nubesurfista
@@ -66239,7 +66257,7 @@ STT_BattleMonsterName:
     it: Mago Pancione
     ja: くものきょじん
     ko: 구름 거인
-    pt-BR: ""
+    pt-BR: Gigante das Nuvens
     zh-Hans: 云巨人
     zh-Hant: 雲巨人
   ID_MONSTER_NAME_14002:
@@ -66421,12 +66439,13 @@ STT_BattleMonsterName:
     pt-BR: ""
     zh-Hans: 沙海之主
     zh-Hant: 沙海之主
-  ID_MONSTER_NAME_14400:
+  ID_MONSTER_NAME_14400: &STT_BattleMonsterName.ID_MONSTER_NAME_14400
     $comments: |-
       🟢
       (238) SYSTEXT_QUESTLIST_NAME_MQ_003_3 [ SYSTEXT_QUESTLIST_SERIES_MQ_003 ] { Main Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_MQ_003, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_003_3_010, STT_BattleMonsterName.ID_MONSTER_NAME_14400]`
       see `DQ08-romfs-data-Message-{LANGUAGE}-msg_monster.bin*:00188`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_14400
     de: Hornoger
     en: Buffalogre
     es: Bufalogro
@@ -66461,18 +66480,7 @@ STT_BattleMonsterName:
     pt-BR: ""
     zh-Hans: 格利乌斯的怨灵
     zh-Hant: 格利烏斯的怨靈
-  ID_MONSTER_NAME_14404:
-    $comments: 🟡
-    de: ""
-    en: Buffalogre
-    es: ""
-    fr: Encorneur
-    it: ""
-    ja: バッファロン
-    ko: 버팔로
-    pt-BR: ""
-    zh-Hans: 金牛怪
-    zh-Hant: 金牛怪
+  ID_MONSTER_NAME_14404: *STT_BattleMonsterName.ID_MONSTER_NAME_14400
   ID_MONSTER_NAME_14500:
     $comments: 🟡, DQ07_romfs_MENULIST_{LANGUAGE}_monster_menu.txt:535
     de: Hacksaurier
@@ -66558,7 +66566,10 @@ STT_BattleMonsterName:
     zh-Hans: 丧尸花
     zh-Hant: 喪屍花
   ID_MONSTER_NAME_14602:
-    $comments: 🟡
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_14602]`
     de: ""
     en: Caterwaulin'
     es: ""
@@ -68510,16 +68521,20 @@ STT_BattleMonsterName:
     pt-BR: ""
     zh-Hans: 复仇鬼贾贾伊
     zh-Hant: 復仇鬼卡卡伊
-  ID_MONSTER_NAME_BOSS_0342:
-    $comments: 🟡
+  ID_MONSTER_NAME_BOSS_0342: &STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0342
+    $comments: |-
+      🟢, M
+      (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_030, STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0342]`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0342
     de: Zauberer Kirgyl
-    en: Wizard Kirgyl
+    en: Sorcerer Kirgyl
     es: Hechicero Kirgyl
     fr: Sorcier Kirgyl
     it: Stregone Kirgyl
     ja: 魔道士キルギル
     ko: 마도사 키르길
-    pt-BR: ""
+    pt-BR: Feiticeiro Kirgyl
     zh-Hans: 魔道士基尔吉尔
     zh-Hant: 魔道士基爾吉爾
   ID_MONSTER_NAME_BOSS_0357:
@@ -74364,7 +74379,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_10001:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_10001]`
     de: ""
     en: ""
     es: ""
@@ -76541,7 +76559,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_14001:
-    $comments: 🟡
+    $comments: |-
+      🟢
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_010, STT_BattleMonsterName.ID_MONSTER_NAME_14001]`
     de: ""
     en: ""
     es: ""
@@ -76799,7 +76820,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_14602:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_14602]`
     de: ""
     en: ""
     es: ""
@@ -78428,7 +78452,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_BOSS_0342:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_030, STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0342]`
     de: ""
     en: ""
     es: ""
@@ -156418,6 +156445,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
   PA_ACTION_NO_KAMAITATI: &PA_ACTION_NO_KAMAITATI
     $comments: |-
       🟢
+      see `[STT_BattleSkillItem.PA_ACTION_NO_KAMAITATI]`
       see `DRAGON QUEST I & II HD-2D Remake/GOP_Text_{ALL}.yaml:GOP_Text_Magic_Name.Txt_Magic_Name_Kamaitati`
     de: Windsichel
     en: Wind Sickles
@@ -200266,7 +200294,7 @@ STT_CareerStoryVer2:
     de: ""
     en: |-
       While sneaking into the western tower's secret, underground passage to
-      rescue Mishua, we overheard the Wizard Kirgyl and his subordinate
+      rescue Mishua, we overheard the Sorcerer Kirgyl and his subordinate
       talking. It seems that Mishua was meant to be part of some kind of
       experiment. Kirgyl and his subordinate left to prepare for said
       experiment.
@@ -246806,7 +246834,10 @@ STT_DaijinamonoItem:
     zh-Hans: guluolisihualu
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_GUSYOUNOREIHAI:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GUSYOUNOREIHAI]`
     de: ""
     en: Apparition Ash
     es: ""
@@ -246818,12 +246849,15 @@ STT_DaijinamonoItem:
     zh-Hans: 具象灵灰
     zh-Hant: 具象靈灰
   EXPLANATION_ID_ITEM_DAIJINAMONO_GUSYOUNOREIHAI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GUSYOUNOREIHAI]`
     de: ""
     en: |-
-      Spiritual powder
-      needed to draw magic
-      circles.
+      A powder infused with
+      spiritual power needed
+      to draw magic sigils
     es: ""
     fr: ""
     it: ""
@@ -246844,7 +246878,10 @@ STT_DaijinamonoItem:
       畫魔法陣時所需要
       有靈力的粉末
   RUBY_ID_ITEM_DAIJINAMONO_GUSYOUNOREIHAI:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GUSYOUNOREIHAI]`
     de: ""
     en: ""
     es: ""
@@ -248224,9 +248261,12 @@ STT_DaijinamonoItem:
     zh-Hans: shangdengyangmao
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
-    en: Very Bent Root
+    en: 100-Bend Root
     es: ""
     fr: ""
     it: ""
@@ -248236,7 +248276,10 @@ STT_DaijinamonoItem:
     zh-Hans: 百曲草的根
     zh-Hant: 百曲草之根
   EXPLANATION_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: |-
       Crooked root
@@ -248263,7 +248306,10 @@ STT_DaijinamonoItem:
       據說可做為一種
       特殊茶的原料
   RUBY_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: ""
     es: ""
@@ -251237,7 +251283,10 @@ STT_DaijinamonoItem:
     zh-Hans: bingniaodeyumao
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_KOPENOHUWAHUWAPAN:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KOPENOHUWAHUWAPAN]`
     de: ""
     en: Kope's Fluffy Bread
     es: ""
@@ -251249,12 +251298,15 @@ STT_DaijinamonoItem:
     zh-Hans: 科佩的松软面包
     zh-Hant: 科佩的鬆軟麵包
   EXPLANATION_ID_ITEM_DAIJINAMONO_KOPENOHUWAHUWAPAN:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KOPENOHUWAHUWAPAN]`
     de: ""
     en: |-
       Grandma Kope's
       masterfully baked
-      special bread.
+      special bread
     es: ""
     fr: ""
     it: ""
@@ -251276,7 +251328,10 @@ STT_DaijinamonoItem:
       以非凡技藝製作的
       特製麵包
   RUBY_ID_ITEM_DAIJINAMONO_KOPENOHUWAHUWAPAN:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KOPENOHUWAHUWAPAN]`
     de: ""
     en: ""
     es: ""
@@ -252630,24 +252685,31 @@ STT_DaijinamonoItem:
     zh-Hans: moguangtoujing
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_MANEKINOREITEKI:
-    $comments: 🟡
-    de: ""
+    $comments: |-
+      🟢
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_030, STT_DaijinamonoItem.NAME_ID_ITEM_DAIJINAMONO_MANEKINOREITEKI]`
+      Die,La,La,Il,A
+    de: Seelenherbeirufungs-Geisterflöte
     en: Spirit Summoner
-    es: ""
-    fr: ""
-    it: ""
+    es: Flauta Espíritu de Atraeálmas
+    fr: Flûte Esprit de Attire-Âmes
+    it: Flauto Epirito di Richiamanime
     ja: 招きの霊笛
     ko: 소집의 혼령 피리
-    pt-BR: ""
+    pt-BR: Flauta Espírito de Atrai-Almas
     zh-Hans: 招引灵笛
     zh-Hant: 招引靈笛
   EXPLANATION_ID_ITEM_DAIJINAMONO_MANEKINOREITEKI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_030, STT_DaijinamonoItem.NAME_ID_ITEM_DAIJINAMONO_MANEKINOREITEKI]`
     de: ""
     en: |-
-      An ocarina with the
-      ability to summon
-      people by blowing it.
+      A magical ocarina
+      that can summon people
+      by blowing into it
     es: ""
     fr: ""
     it: ""
@@ -252669,7 +252731,10 @@ STT_DaijinamonoItem:
       吹一下就能
       把人們召集起來
   RUBY_ID_ITEM_DAIJINAMONO_MANEKINOREITEKI:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_030, STT_DaijinamonoItem.NAME_ID_ITEM_DAIJINAMONO_MANEKINOREITEKI]`
     de: ""
     en: ""
     es: ""
@@ -257276,24 +257341,31 @@ STT_DaijinamonoItem:
     zh-Hans: luonushulindidaidecao
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_RONUNINZIN:
-    $comments: 🟡
-    de: ""
+    $comments: |-
+      🟢
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_RONUNINZIN]`
+      Die,La,La,La,A
+    de: Rhone Karotte
     en: Rhone Carrot
-    es: ""
-    fr: ""
-    it: ""
+    es: Zanahoria de Rhone
+    fr: Carotte de Rhone
+    it: Carota di Rhone
     ja: ローヌにんじん
     ko: 로느 당근
-    pt-BR: ""
+    pt-BR: Cenoura de Rhone
     zh-Hans: 罗努胡萝卜
     zh-Hant: 羅努胡蘿蔔
   EXPLANATION_ID_ITEM_DAIJINAMONO_RONUNINZIN:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_RONUNINZIN]`
     de: ""
     en: |-
       Becomes a medicine,
       when mixed with a
-      Dragon Bone.
+      Dragon Bone
     es: ""
     fr: ""
     it: ""
@@ -257315,7 +257387,10 @@ STT_DaijinamonoItem:
       調配成藥的
       胡蘿蔔
   RUBY_ID_ITEM_DAIJINAMONO_RONUNINZIN:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_RONUNINZIN]`
     de: ""
     en: ""
     es: ""
@@ -258013,7 +258088,10 @@ STT_DaijinamonoItem:
     zh-Hans: shunhuaroulianghufayou
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_SARYUUKOTU:
-    $comments: 🟢
+    $comments: |-
+      🟢
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SARYUUKOTU]`
     de: Drachenknochen
     en: Dragon Bone
     es: Hueso de Dragón
@@ -258025,12 +258103,15 @@ STT_DaijinamonoItem:
     zh-Hans: 沙龙骨
     zh-Hant: 沙龍骨
   EXPLANATION_ID_ITEM_DAIJINAMONO_SARYUUKOTU:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SARYUUKOTU]`
     de: ""
     en: |-
       Becomes a medicine,
       when mixed with a
-      Rhone Carrot.
+      Rhone Carrot
     es: ""
     fr: ""
     it: ""
@@ -258052,7 +258133,10 @@ STT_DaijinamonoItem:
       調配成藥的
       怪物骨頭
   RUBY_ID_ITEM_DAIJINAMONO_SARYUUKOTU:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SARYUUKOTU]`
     de: ""
     en: ""
     es: ""
@@ -271597,9 +271681,12 @@ STT_EventMonsterName_2nd: #pakchunk2-{PLATFORM}.utoc/Game/Content/DLC/Ver2/Strin
   AQ_016_3: *STT_NpcInfo.NAME_NPC_02332
   AQ_017_3: *STT_BattleMonsterName.ID_MONSTER_NAME_14304
   AQ_018_3:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_030, STT_BattleMonsterName.[ID_MONSTER_NAME_14403, ID_MONSTER_NAME_BOSS_0342]]`
     de: ""
-    en: "Gorius' Vengeful Spirit & Wizard Kirgyl"
+    en: "Gorius' Vengeful Spirit & Sorcerer Kirgyl"
     es: ""
     fr: ""
     it: ""
@@ -271609,9 +271696,12 @@ STT_EventMonsterName_2nd: #pakchunk2-{PLATFORM}.utoc/Game/Content/DLC/Ver2/Strin
     zh-Hans: ""
     zh-Hant: ""
   AQ_018_3＿BATTLENAME:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_030, STT_BattleMonsterName.[ID_MONSTER_NAME_14403, ID_MONSTER_NAME_BOSS_0342]]`
     de: ""
-    en: Gorius' Vengeful Spirit's Forces
+    en: "Gorius' Vengeful Spirit & Sorcerer Kirgyl"
     es: ""
     fr: ""
     it: ""
@@ -361830,14 +361920,18 @@ STT_Monster_Tips1_ver1:
       在魔瘴的力量下復活。
       會把在那個世界吃下的靈魂
       變成暴風雪噴出來。
-  SYSTXT_MONSTER_TIPS1_MONSTER_NO_10001:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS1_MONSTER_NO_10001: &STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_10001
+    $comments: |-
+      🟡
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_10001]`
+      *STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_10001
     de: ""
     en: |-
-      Even if it turns into bones, it moves with grudge.
-      The dragon's skeleton.
-      It boasts high attack power and HP.
-      It can even control its shining breath.
+      Even after becoming bones, a grudge
+      moves this dragon's corpse.
+      It boasts high attack power & HP,
+      and controls shining breath.
     es: ""
     fr: ""
     it: ""
@@ -378374,12 +378468,18 @@ STT_Monster_Tips2_ver1:
       所以感覺不到疼痛。
       但不管怎麼說也已經死了，
       所以光咒文會滲入骨頭。
-  SYSTXT_MONSTER_TIPS2_MONSTER_NO_10001:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS2_MONSTER_NO_10001: &STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_10001
+    $comments: |-
+      🟡
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_10001]`
+      *STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_10001
     de: ""
     en: |-
-      An ancient dragon fossil that was sleeping deep underground.
-      He sets out to take revenge on the person who once defeated him.
+      An ancient dragon fossil that has
+      been sleeping deep underground.
+      It came alive to take revenge on the
+      person whom once defeated it.
     es: ""
     fr: ""
     it: ""
@@ -385924,13 +386024,15 @@ STT_Monster_Tips1_ver2:
       是個會讓對手變身成玫瑰，
       喜好惡作劇的麻煩公主。
   SYSTXT_MONSTER_TIPS1_MONSTER_NO_13600:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_13600]`
     de: ""
     en: |-
-      It is said to be
-      born from the shadows of monsters.
-      Wraps the area in darkness.
-      Reduces attack power and magic power.
+      It is said to be born from the shadows
+      of monsters. Wraps an area in darkness,
+      and reduces attack & magic power.
     es: ""
     fr: ""
     it: ""
@@ -386303,13 +386405,18 @@ STT_Monster_Tips1_ver2:
       狡猾妖魔。
       由於會施展聲援與魔力角笛，
       盡早打倒牠吧。
-  SYSTXT_MONSTER_TIPS1_MONSTER_NO_14001:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS1_MONSTER_NO_14001: &STT_Monster_Tips1_ver2.SYSTXT_MONSTER_TIPS1_MONSTER_NO_14001
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_010, STT_BattleMonsterName.ID_MONSTER_NAME_14001, STT_BattleSkillItem.PA_ACTION_NO_KAMAITATI]`
+      *STT_Monster_Tips1_ver2.SYSTXT_MONSTER_TIPS1_MONSTER_NO_14001
     de: ""
     en: |-
-      A free-spirited humanoid monster said to have been born from the clouds.
-      Controls the monsters and
-      cuts people with joy.
+      A free-spirited humanoid monster
+      said to have been born from clouds.
+      Uses Wind Sickles, and seems happy
+      to cut people to ribbons.
     es: ""
     fr: ""
     it: ""
@@ -386931,8 +387038,12 @@ STT_Monster_Tips1_ver2:
       轉化為力量，
       唱出詛咒之歌的
       怨恨主題歌手。
-  SYSTXT_MONSTER_TIPS1_MONSTER_NO_14602:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS1_MONSTER_NO_14602: &STT_Monster_Tips1_ver2.SYSTXT_MONSTER_TIPS1_MONSTER_NO_14602
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_14602]`
+      *STT_Monster_Tips1_ver2.SYSTXT_MONSTER_TIPS1_MONSTER_NO_14602
     de: ""
     en: |-
       A big name in the kelp world who has thousands of kelp monsters under his control.
@@ -389374,12 +389485,16 @@ STT_Monster_Tips1_ver2:
       普斯貢的幻影。
       實力遠勝於本體。
   SYSTXT_MONSTER_TIPS1_MONSTER_NO_BOSS_0342:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_030, STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0342]`
     de: ""
     en: |-
-      A mad magic researcher who also uses demon heroes as experimental materials.
-      It is the ultimate joy to manipulate the experimental subject as you wish and test its
-      power.
+      A mad, magical scientist who also used
+      the Demon Hero as experimental materials.
+      Delights in manipulating test subjects as
+      he wishes to test their power.
     es: ""
     fr: ""
     it: ""
@@ -392131,13 +392246,15 @@ STT_Monster_Tips2_Ver2:
       為了讓世界充滿花，
       將故鄉的寶物帶出來了。
   SYSTXT_MONSTER_TIPS2_MONSTER_NO_13600:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_13600]`
     de: ""
     en: |-
-      Who on earth
-      am I really...? As I imitate the shapes of various
-      shadows,
-      I am beginning to lose sight of myself.
+      Who the heck is their true identity...
+      It imitates various shadowy figures,
+      while losing sight of its self.
     es: ""
     fr: ""
     it: ""
@@ -392514,14 +392631,18 @@ STT_Monster_Tips2_Ver2:
       在被封印多年後，
       體態也整個豐滿了起來。
       看來食慾並沒跟著被封印。
-  SYSTXT_MONSTER_TIPS2_MONSTER_NO_14001:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS2_MONSTER_NO_14001: &STT_Monster_Tips2_ver2.SYSTXT_MONSTER_TIPS2_MONSTER_NO_14001
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_010, STT_BattleMonsterName.ID_MONSTER_NAME_14001]`
+      *STT_Monster_Tips2_ver2.SYSTXT_MONSTER_TIPS2_MONSTER_NO_14001
     de: ""
     en: |-
-      Because I always travel on clouds,
-      I tend to lack exercise.
-      Recently, I've been concerned about metabolic syndrome.
-      Aim to eliminate metabolic syndrome in battle!
+      Because it always travels via clouds,
+      it lacks exercise; so recently, it's
+      minding its metabolism. It aims to
+      increase it by battling!
     es: ""
     fr: ""
     it: ""
@@ -393146,8 +393267,12 @@ STT_Monster_Tips2_Ver2:
       變成怪物。乾燥的身體
       卻有著多愁善感性格，
       是個非常令人意外的存在。
-  SYSTXT_MONSTER_TIPS2_MONSTER_NO_14602:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS2_MONSTER_NO_14602: &STT_Monster_Tips2_Ver2.SYSTXT_MONSTER_TIPS2_MONSTER_NO_14602
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_14602]`
+      *STT_Monster_Tips2_Ver2.SYSTXT_MONSTER_TIPS2_MONSTER_NO_14602
     de: ""
     en: |-
       Graduated at the top of his class from Seaweed Military Academy.
@@ -395616,12 +395741,16 @@ STT_Monster_Tips2_Ver2:
       稍微成長一些的
       怪獸普斯貢現在覺醒！
   SYSTXT_MONSTER_TIPS2_MONSTER_NO_BOSS_0342:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_030, STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0342]`
     de: ""
     en: |-
-      He lives with the sole purpose of
-      creating strong monsters by repeating experiments.
-      I will choose any means for that purpose.
+      He lives with the purpose of giving birth
+      to strong monsters by single-mindedly
+      repeating experiments. For that purpose,
+      there is no method he won't choose.
     es: ""
     fr: ""
     it: ""
@@ -420622,7 +420751,10 @@ STT_NpcInfo:
     zh-Hans: 加修村长
     zh-Hant: 賈修村長
   NAME_NPC_01963:
-    $comments: 🟢, F
+    $comments: |-
+      🟢, F
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_020, STT_NpcInfo.NAME_NPC_01963]`
     de: Kope
     en: Kope
     es: Kope
@@ -421026,21 +421158,7 @@ STT_NpcInfo:
     pt-BR: Oswell
     zh-Hans: 奥兹威尔
     zh-Hant: 奧茲威爾
-  NAME_NPC_01993:
-    $comments: |-
-      🟢, F
-      (04/11) Story of Al-Ahaghiro [ 3 Butterflies - Green ] { Main Story }
-      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS4_004, STT_NpcInfo.NAME_NPC_01993]`
-    de: Seraphy
-    en: Seraphy
-    es: Seraphy
-    fr: Seraphy
-    it: Seraphy
-    ja: セラフィ
-    ko: 세라피
-    pt-BR: Seraphy
-    zh-Hans: 赛拉菲
-    zh-Hant: 賽拉菲
+  NAME_NPC_01993: *STT_BattleGuestName.ID_NAME_GUEST_SERAFI
   NAME_NPC_01994:
     $comments: |-
       🟢, M
@@ -421472,18 +421590,7 @@ STT_NpcInfo:
     pt-BR: Princesa Anlucia
     zh-Hans: 安露西雅公主
     zh-Hant: 安露西亞公主
-  NAME_NPC_02027:
-    $comments: 🟢, M
-    de: Zauberer Kirgyl
-    en: Wizard Kirgyl
-    es: Hechicero Kirgyl
-    fr: Sorcier Kirgyl
-    it: Stregone Kirgyl
-    ja: 魔道士キルギル
-    ko: 마도사 키르길
-    pt-BR: Feiticeiro Kirgyl
-    zh-Hans: 魔道士基尔吉尔
-    zh-Hant: 魔道士基爾吉爾
+  NAME_NPC_02027: *STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0342
   NAME_NPC_02028:
     $comments: 🟢, M
     de: Alter Dyme
@@ -423608,15 +423715,18 @@ STT_NpcInfo:
     zh-Hant: 貝爾穆德
   NAME_NPC_02194: *STT_BattleMonsterName.ID_MONSTER_NAME_00200
   NAME_NPC_02195:
-    $comments: 🔴, N
-    de: ""
+    $comments: |-
+      🟢, N
+      (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_020, STT_NpcInfo.NAME_NPC_02195]`
+    de: Tajius
     en: Tajius
-    es: ""
-    fr: ""
-    it: ""
+    es: Tajius
+    fr: Tajius
+    it: Tajius
     ja: タジウス
     ko: 타지우스
-    pt-BR: ""
+    pt-BR: Tajius
     zh-Hans: 塔吉乌斯
     zh-Hant: 塔吉烏斯
   NAME_NPC_02196: *ID_MONSTER_NAME_06400
@@ -424979,7 +425089,9 @@ STT_NpcInfo:
     $comments: |-
       🟢, M
       (01/11) Story of Al-Ahaghiro [ 3 Butterflies - Green ] { Main Story }
-      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS4_001, STT_NpcInfo.NAME_NPC_02305]`
+      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS4_001]`
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_000, STT_NpcInfo.NAME_NPC_02305]`
     de: Gretal
     en: Gretal
     es: Gretal
@@ -425084,15 +425196,17 @@ STT_NpcInfo:
     $comments: |-
       🟢, M
       (01/11) Story of Al-Ahaghiro [ 3 Butterflies - Green ] { Main Story }
-      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS4_001, STT_NpcInfo.NAME_NPC_02312]`
-    de: Raga
-    en: Raga
-    es: Raga
-    fr: Raga
-    it: Raga
+      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS4_001]`
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_000, STT_NpcInfo.NAME_NPC_02312]`
+    de: Raaga
+    en: Raaga
+    es: Raaga
+    fr: Raaga
+    it: Raaga
     ja: ラーグ
     ko: 라그
-    pt-BR: Raga
+    pt-BR: Raaga
     zh-Hans: 拉古
     zh-Hant: 拉古
   NAME_NPC_02313:
@@ -426264,15 +426378,18 @@ STT_NpcInfo:
     zh-Hans: 斯姆
     zh-Hant: 蘇姆
   NAME_NPC_02407:
-    $comments: 🔴, M
-    de: ""
+    $comments: |-
+      🟢, M
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_010, STT_NpcInfo.NAME_NPC_02407]`
+    de: Saudi
     en: Saudi
-    es: ""
-    fr: ""
-    it: ""
+    es: Saudi
+    fr: Saudi
+    it: Saudi
     ja: サウディ
     ko: 사우디
-    pt-BR: ""
+    pt-BR: Saudi
     zh-Hans: 萨乌迪
     zh-Hant: 薩烏迪
   NAME_NPC_02408:
@@ -429309,15 +429426,15 @@ STT_NpcInfo:
     zh-Hans: 纽特
     zh-Hant: 紐德
   NAME_NPC_02659:
-    $comments: 🔴, M
-    de: ""
+    $comments: 🟢, M
+    de: Daran
     en: Daran
-    es: ""
-    fr: ""
-    it: ""
+    es: Daran
+    fr: Daran
+    it: Daran
     ja: ダラン
     ko: 다란
-    pt-BR: ""
+    pt-BR: Daran
     zh-Hans: 达兰
     zh-Hant: 達蘭
   NAME_NPC_02660:
@@ -429336,27 +429453,27 @@ STT_NpcInfo:
     zh-Hans: 帕罗娜
     zh-Hant: 帕蘿娜
   NAME_NPC_02661:
-    $comments: 🔴, M
-    de: ""
+    $comments: 🟢, M
+    de: Fango
     en: Fango
-    es: ""
-    fr: ""
-    it: ""
+    es: Fango
+    fr: Fango
+    it: Fango
     ja: ファンゴ
     ko: 팡고
-    pt-BR: ""
+    pt-BR: Fango
     zh-Hans: 方戈
     zh-Hant: 方葛
   NAME_NPC_02662:
-    $comments: 🔴, M
-    de: ""
+    $comments: 🟢, M
+    de: Rubok
     en: Rubok
-    es: ""
-    fr: ""
-    it: ""
+    es: Rubok
+    fr: Rubok
+    it: Rubok
     ja: ルボーク
     ko: 루보크
-    pt-BR: ""
+    pt-BR: Rubok
     zh-Hans: 卢博科
     zh-Hant: 路博克
   NAME_NPC_02663:
@@ -436010,15 +436127,18 @@ STT_NpcInfo:
     zh-Hans: 侍从法拉斯
     zh-Hant: 隨從法拉斯
   NAME_NPC_03202:
-    $comments: 🔴, M
-    de: ""
+    $comments: |-
+      🟢, M
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_200, STT_NpcInfo.NAME_NPC_03202]`
+    de: Chizkin
     en: Chizkin
-    es: ""
-    fr: ""
-    it: ""
+    es: Chizkin
+    fr: Chizkin
+    it: Chizkin
     ja: チズキン
     ko: 치즈킨
-    pt-BR: ""
+    pt-BR: Chizkin
     zh-Hans: 奇兹津
     zh-Hant: 奇茲津
   NAME_NPC_03203:
@@ -701661,9 +701781,9 @@ STT_QuestListDetail:
       塞利克再次下定決心活下去，返回了真塞萊德鎮。
   SYSTEXT_QUESTLIST_NAME_AQ_018_1_000:
     $comments: |-
-      🔴
+      🟡
       (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_000]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_000, STT_NpcInfo.NAME_NPC_01993]`
     de: ""
     en: |-
       In an apartment in eastern False Al-Ahaghiro Kingdom, Seraphy seems to
@@ -701686,15 +701806,15 @@ STT_QuestListDetail:
       賽拉菲似乎遇到困擾。
   SYSTEXT_QUESTLIST_NAME_AQ_018_1_005:
     $comments: |-
-      🔴
+      🟡
       (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_005]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_005, STT_NpcInfo.NAME_NPC_01993, STT_DaijinamonoItem.[*_ID_ITEM_DAIJINAMONO_RONUNINZIN, *_ID_ITEM_DAIJINAMONO_SARYUUKOTU]]`
     de: ""
     en: |-
-      In an apartment in eastern False Al-Ahaghiro Kingdom, Seraphy asked
-      me to gather medicine ingredients—a Rhone Carrot and Dragon Bone—so
-      she can make a medicine to cure a disease that causes people to freeze
-      to death that has spread to the townspeople!
+      In an apartment in eastern False Al-Ahaghiro Kingdom, Seraphy asked us
+      to gather medicine ingredients—a Rhone Carrot and Dragon Bone—so she
+      can make a medicine to cure a disease that causes people to freeze to
+      death which has spread to the townspeople!
     es: ""
     fr: ""
     it: ""
@@ -701721,17 +701841,17 @@ STT_QuestListDetail:
       羅努胡蘿蔔與沙龍骨。
   SYSTEXT_QUESTLIST_NAME_AQ_018_1_010:
     $comments: |-
-      🔴
+      🟡
       (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010, STT_NpcInfo.NAME_NPC_01993, STT_BattleMonsterName.ID_MONSTER_NAME_10001, STT_DaijinamonoItem.[*_ID_ITEM_DAIJINAMONO_RONUNINZIN, *_ID_ITEM_DAIJINAMONO_SARYUUKOTU]]`
     de: ""
     en: |-
-      In an apartment in eastern False Al-Ahaghiro Kingdom, Seraphy asked
-      me to gather medicine ingredients, so she can make a medicine to cure
-      a disease that causes people to freeze to death that has spread to
-      the townspeople! Let's gather the Rhone Carrot from the southern tip
-      of False Rhone Forest and the Dragon Bone from defeating a <%sEV_QUE_NAME0>
-      in False Al-Ahaghiro Region's eastern desert to give to Seraphy.
+      In an apartment in eastern False Al-Ahaghiro Kingdom, Seraphy asked us
+      to gather medicine ingredients, so she can make a medicine to cure the
+      disease that causes people to freeze to death that has spread to the towns-
+      people! Let's gather the Rhone Carrot from the southern tip of F. Rhone
+      Forest and the Dragon Bone from defeating <%sEV_QUE_NAME0>s in F. Al-Ahaghiro
+      Region's eastern desert to give to Seraphy.
     es: ""
     fr: ""
     it: ""
@@ -701758,17 +701878,17 @@ STT_QuestListDetail:
       並收集其掉落的沙龍骨，交給賽拉菲吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_1_020:
     $comments: |-
-      🔴
+      🟡
       (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_020]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_020, STT_NpcInfo.NAME_NPC_01993, STT_DaijinamonoItem.[*_ID_ITEM_DAIJINAMONO_RONUNINZIN, *_ID_ITEM_DAIJINAMONO_SARYUUKOTU]]`
     de: ""
     en: |-
-      In an apartment in eastern False Al-Ahaghiro Kingdom, Seraphy asked
-      me to gather medicine ingredients, so she can make a medicine to cure
-      a disease that causes people to freeze to death that has spread to
-      the townspeople! We obtained the Rhone Carrot and Dragon Bone to make
-      the medicine. Let's return to castle town and deliver them to Seraphy,
-      who is waiting in the eastern apartment.
+      In an apartment in eastern False Al-Ahaghiro Kingdom, Seraphy asked us
+      to gather medicine ingredients, so she can make a medicine to cure the
+      disease that causes people to freeze to death that has spread to the towns-
+      people! We obtained the Rhone Carrot & Dragon Bone to make the medicine.
+      Let's return to castle town and deliver them to Seraphy, whom is waiting
+      in the eastern apartment.
     es: ""
     fr: ""
     it: ""
@@ -701795,17 +701915,17 @@ STT_QuestListDetail:
       返回城鎮，送去給東區長屋等著的賽拉菲吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_1_200:
     $comments: |-
-      🔴
+      🟡
       (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_200]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_200, STT_NpcInfo.NAME_NPC_01993]`
     de: ""
     en: |-
       At Seraphy's request in an apartment in eastern False Al-Ahaghiro
-      Kingdom, I gathered medicine ingredients, so she could make a medicine
-      to cure a disease that causes people to freeze to death that had
-      spread to the townspeople. Seraphy mixed up the medicine and cured the
-      man. The reason he fell ill was because of the vengeful spirit of a
-      Buffalogre that appeared in castle town, we learned.
+      Kingdom, we gathered medicine ingredients, so she could make a medicine
+      to cure the disease that causes people to freeze to death that had spread
+      to the townspeople. Seraphy mixed up the medicine and cured the man.
+      We learned that the reason he fell ill was because of a vengeful spirit
+      of a Buffalogre that appeared in castle town.
     es: ""
     fr: ""
     it: ""
@@ -701832,7 +701952,7 @@ STT_QuestListDetail:
       是夜裡出現在城鎮的金牛怪怨靈所造成。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_000:
     $comments: |-
-      🔴
+      🟡
       (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_000]`
     de: ""
@@ -701857,12 +701977,12 @@ STT_QuestListDetail:
       賽拉菲似乎在尋求協助。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_005:
     $comments: |-
-      🔴
+      🟡
       (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_005]`
     de: ""
     en: |-
-      In False Al-Ahaghiro Kingdom's castle town, Seraphy asked that I,
+      In False Al-Ahaghiro Kingdom's castle town, Seraphy asked that we,
       in order to find out the identity of the Buffalogre's vengeful spirit,
       help her find the former-human-turned-monsters that we previously set
       free from the Monster Arena!
@@ -701888,16 +702008,15 @@ STT_QuestListDetail:
       以前逃出格鬥場，曾經是人類的怪物們。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_010:
     $comments: |-
-      🔴
+      🟡
       (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_010]`
     de: ""
     en: |-
-      In False Al-Ahaghiro Kingdom's castle town, Seraphy asked that I,
+      In False Al-Ahaghiro Kingdom's castle town, Seraphy asked that we,
       in order to find out the identity of the Buffalogre's vengeful spirit,
       help her find the former-human-turned-monsters that we previously set
-      free from the Monster Arena! Let's try asking the people of
-      castle town.
+      free from the Monster Arena! Let's try asking the people of castle town.
     es: ""
     fr: ""
     it: ""
@@ -701924,17 +702043,17 @@ STT_QuestListDetail:
       向城鎮的人們打聽一下吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_020:
     $comments: |-
-      🔴
+      🟡
       (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_020]`
     de: ""
     en: |-
-      At the request of Seraphy in False Al-Ahaghiro Kingdom's castle town,
-      I, in order to find out the identity of the Buffalogre's vengeful
-      spirit, helped her find the former-human-turned-monsters that we
-      previously set free from the Monster Arena. It seems that the monsters
-      are in Sunshade Cave, to the south of False Al-Ahaghiro Kingdom. Let's
-      head to Sunshade Cave and try to verify that.
+      In False Al-Ahaghiro Kingdom's castle town, Seraphy asked that we,
+      in order to find out the identity of the Buffalogre's vengeful spirit,
+      help her find the former-human-turned-monsters that we previously set
+      free from the Monster Arena! It seems that the monsters are in Sunshade
+      Cave, to the south of False Al-Ahaghiro Kingdom. Let's head to Sunshade
+      Cave, and try to verify that.
     es: ""
     fr: ""
     it: ""
@@ -701961,18 +702080,17 @@ STT_QuestListDetail:
       遮光洞穴。前往遮光洞穴確認一下吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_030:
     $comments: |-
-      🔴
+      🟡
       (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_030]`
     de: ""
     en: |-
-      At the request of Seraphy in False Al-Ahaghiro Kingdom's castle town,
-      I, in order to find out the identity of the Buffalogre's vengeful
-      spirit, helped her find the former-human-turned-monsters that we
-      previously set free from the Monster Arena at Sunshade Cave.
-      According to the former-human-turned-monster, Tajius, the Buffalogre's
-      vengeful spirit is likely his father, the commander of Al-Ahaghiro
-      army, Captain Gorius. Let's return to castle town.
+      In False Al-Ahaghiro Kingdom's castle town, Seraphy asked that we,
+      in order to find out the identity of the Buffalogre's vengeful spirit,
+      help her find the former-human-turned-monsters that we previously set
+      free from the Monster Arena! According to the former-human-turned-monster,
+      Tajius, the Buffalogre's vengeful spirit is likely his father, commander
+      of Al-Ahaghiro army, Captain Gorius. Let's return to castle town.
     es: ""
     fr: ""
     it: ""
@@ -701999,16 +702117,16 @@ STT_QuestListDetail:
       艾拉哈奇羅士兵團的格利烏斯士兵長。返回城鎮吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_040:
     $comments: |-
-      🔴
+      🟡
       (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_040]`
     de: ""
     en: |-
       At the request of Seraphy in False Al-Ahaghiro Kingdom's castle town,
-      I found out the identity of the Buffalogre's vengeful spirit. The
+      we found out the identity of the Buffalogre's vengeful spirit. The
       commander of Al-Ahaghiro's army, Captain Gorius, appears to be
       controlled by the Sorcerer Kirgyl. But a guard was suspicious of our
-      and Seraphy's actions? For now let's get out of town.
+      and Seraphy's actions? For now, let's get out of town.
     es: ""
     fr: ""
     it: ""
@@ -702035,16 +702153,16 @@ STT_QuestListDetail:
       <pc>與賽拉菲在作怪。先到鎮外去吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_2_200:
     $comments: |-
-      🔴
+      🟡
       (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_2_200]`
     de: ""
     en: |-
       At the request of Seraphy in False Al-Ahaghiro Kingdom's castle town,
-      I found out the identity of the Buffalogre's vengeful spirit. The
+      we found out the identity of the Buffalogre's vengeful spirit. The
       commander of Al-Ahaghiro's army, Captain Gorius, appears to be
       controlled by the Sorcerer Kirgyl. Seraphy said that she was going to
-      leave town, to search for a way to somehow deal with Gorius.
+      leave town to search for a way to somehow deal with Gorius.
     es: ""
     fr: ""
     it: ""
@@ -702071,7 +702189,7 @@ STT_QuestListDetail:
       設法解決格利烏斯的問題，離開了鎮上。
   SYSTEXT_QUESTLIST_NAME_AQ_018_3_000:
     $comments: |-
-      🔴
+      🟡
       (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_000]`
     de: ""
@@ -702096,14 +702214,14 @@ STT_QuestListDetail:
       東區長屋等著。
   SYSTEXT_QUESTLIST_NAME_AQ_018_3_005:
     $comments: |-
-      🔴
+      🟡
       (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_005]`
     de: ""
     en: |-
-      In False Al-Ahaghiro's castle town, Seraphy asked that I help gather the
-      necessary ingredients to draw a magic sigil and materialize the
-      vengeful spirit!
+      In False Al-Ahaghiro's castle town, Seraphy asked that we help gather the
+      necessary ingredients to draw a magic sigil, and materialize the vengeful
+      spirit!
     es: ""
     fr: ""
     it: ""
@@ -702126,15 +702244,15 @@ STT_QuestListDetail:
       希望能協助她收集所需材料。
   SYSTEXT_QUESTLIST_NAME_AQ_018_3_010:
     $comments: |-
-      🔴
+      🟡
       (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_010]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_010, STT_BattleMonsterName.ID_MONSTER_NAME_14001, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GUSYOUNOREIHAI]`
     de: ""
     en: |-
-      In False Al-Ahaghiro's castle town, Seraphy asked that I help gather the
+      In False Al-Ahaghiro's castle town, Seraphy asked that we help gather the
       necessary ingredients—<%nEV_QUE_T_NUM0> piles of Apparition Ashes—to draw a magic
-      sigil and materialize the vengeful spirit! It seems that
-      <%sEV_QUE_NAME0>s in Al-Ahaghiro Region drop it upon defeat.
+      sigil, and materialize the vengeful spirit! It seems that <%sEV_QUE_NAME0>s
+      in Al-Ahaghiro Region drop it upon defeat.
       <%nEV_QUE_N_NUM0> piles of Apparition Ashes collected so far.
     es: ""
     fr: ""
@@ -702162,16 +702280,15 @@ STT_QuestListDetail:
       就會掉落。目前已收集了<%nEV_QUE_N_NUM0>個。
   SYSTEXT_QUESTLIST_NAME_AQ_018_3_020:
     $comments: |-
-      🔴
+      🟡
       (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_020]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GUSYOUNOREIHAI]`
     de: ""
     en: |-
-      At the request of Seraphy in False Al-Ahaghiro's castle town, I helped
-      gather the necessary ingredients—<%nEV_QUE_T_NUM0> piles of Apparition Ashes—to
-      draw a magic sigil and materialize the vengeful spirit! Let's return
-      to castle town and deliver them to Seraphy in
-      the eastern apartment.
+      At the request of Seraphy in False Al-Ahaghiro's castle town, we helped
+      gather the necessary ingredients—<%nEV_QUE_T_NUM0> piles of Apparition Ashes—to draw a
+      magic sigil, and materialize the vengeful spirit! Let's return to
+      castle town, and deliver them to Seraphy in the eastern apartment.
     es: ""
     fr: ""
     it: ""
@@ -702194,17 +702311,16 @@ STT_QuestListDetail:
       回到城鎮，送去給東區長屋的賽拉菲吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_3_030:
     $comments: |-
-      🔴
+      🟡
       (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
-      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_030]`
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GUSYOUNOREIHAI]`
     de: ""
     en: |-
-      At the request of Seraphy in False Al-Ahaghiro's castle town, I helped
-      gather the necessary ingredients—<%nEV_QUE_T_NUM0> piles of Apparition Ashes—to
-      draw a magic sigil and materialize the vengeful spirit! It seems that
-      Seraphy intends to lure Gorius' vengeful spirit to the False World's
-      Monster Arena battleground. To confront the vengeful spirit, let's
-      head to the battleground.
+      At the request of Seraphy in False Al-Ahaghiro's castle town, we helped
+      gather the necessary ingredients—<%nEV_QUE_T_NUM0> piles of Apparition Ashes—to draw a
+      magic sigil, and materialize the vengeful spirit! It seems that Seraphy
+      intends to lure Gorius' vengeful spirit to the False World's Monster
+      Arena. To confront the vengeful spirit, let's head to the battleground.
     es: ""
     fr: ""
     it: ""
@@ -702231,7 +702347,7 @@ STT_QuestListDetail:
       前往競技大廳迎擊怨靈吧。
   SYSTEXT_QUESTLIST_NAME_AQ_018_3_200:
     $comments: |-
-      🔴
+      🟡
       (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_200]`
     de: ""
@@ -704325,10 +704441,13 @@ STT_QuestListDetail:
       懸崖下花田的巨大持盾小鬼的照片。
       梅格得知持盾小鬼的真面目是個多瓦夫男子後似乎放心了。
   SYSTEXT_QUESTLIST_NAME_FQ_103_1_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_000, STT_NpcInfo.NAME_NPC_02312]`
     de: ""
     en: |-
-      In <ituwari> Al-Ahaghiro Kingdom's dining room, a soldier, Larg, seems
+      In <ituwari> Al-Ahaghiro Kingdom's dining room, a soldier, Raaga, seems
       to be troubled.
     es: ""
     fr: ""
@@ -704345,12 +704464,15 @@ STT_QuestListDetail:
       <ituwari>艾拉哈奇羅城餐廳的士兵拉古
       似乎遇到什麼困擾。
   SYSTEXT_QUESTLIST_NAME_FQ_103_1_005:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_005, STT_NpcInfo.NAME_NPC_02312]`
     de: ""
     en: |-
-      In <ituwari> Al-Ahaghiro Kingdom's dining room, Larg said that everyone
-      else is tired of eating only meat and asked me to bring him bread to
-      make something called a "sammich"!
+      In <ituwari> Al-Ahaghiro Kingdom's dining room, Raaga said that everyone
+      else is tired of eating only meat, and asked us to bring him bread to make
+      something called a "sammich"!
     es: ""
     fr: ""
     it: ""
@@ -704372,13 +704494,16 @@ STT_QuestListDetail:
       嘗嘗一種叫三皮治的食物，
       希望能找來適合製作三皮治的麵包。
   SYSTEXT_QUESTLIST_NAME_FQ_103_1_010:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_010, STT_NpcInfo.NAME_NPC_02312]`
     de: ""
     en: |-
-      In <ituwari> Al-Ahaghiro Kingdom's dining room, Larg said that everyone
-      else is tired of eating only meat and asked me to bring him bread to
-      make something called a "sammich"! If I go somewhere famous for
-      their bread making, I might be able to get some delicious bread.
+      In <ituwari> Al-Ahaghiro Kingdom's dining room, Raaga said that everyone
+      else is tired of eating only meat, and asked us to bring him bread to make
+      something called a "sammich"! If we go somewhere famous for their bread-
+      making, we might be able to get some delicious bread.
     es: ""
     fr: ""
     it: ""
@@ -704404,14 +704529,17 @@ STT_QuestListDetail:
       希望能找來適合製作三皮治的麵包。
       只要去到麵包的名產地，或許就能取得好吃的麵包。
   SYSTEXT_QUESTLIST_NAME_FQ_103_1_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_020, STT_NpcInfo.NAME_NPC_02312, STT_WeaponItem.*_ID_ITEM_EQUIP_KNIFE_BURONZUNAIFU]`
     de: ""
     en: |-
-      In <ituwari> Al-Ahaghiro Kingdom's dining room, Larg said that everyone
-      else is tired of eating only meat and asked me to bring him bread to
-      make something called a "sammich"! I went to the Chief's house in
-      <ituwari> Melsandy Village, and was told by Kope that she needed at least
-      a bronze knife +2 to cut bread for this sandwich business.
+      In <ituwari> Al-Ahaghiro Kingdom's dining room, Raaga said that everyone
+      else is tired of eating only meat, and asked us to bring him bread to make
+      something called a "sammich"! We went to the Chief's house in <ituwari>
+      Melsandy Village, and were told by Kope that she needed at least a
+      Bronze Knife +2 to cut bread for this sandwich business.
     es: ""
     fr: ""
     it: ""
@@ -704437,13 +704565,16 @@ STT_QuestListDetail:
       前往<ituwari>梅爾桑蒂村，村長家的科佩表示，
       要切出三明治用的麵包需要＋２以上的青銅短刀。
   SYSTEXT_QUESTLIST_NAME_FQ_103_1_030:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_030, STT_NpcInfo.NAME_NPC_02312, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KOPENOHUWAHUWAPAN]`
     de: ""
     en: |-
-      In <ituwari> Al-Ahaghiro Kingdom's dining room, Larg said that everyone
-      else is tired of eating only meat and asked me to bring him bread to
-      make something called a "sammich"! I went to the Chief's house in
-      <ituwari> Melsandy Village, and received Kope's Fluffy Bread from Kope.
+      In <ituwari> Al-Ahaghiro Kingdom's dining room, Raaga said that everyone
+      else is tired of eating only meat, and asked us to bring him bread to make
+      something called a "sammich"! We went to the Chief's house in <ituwari>
+      Melsandy Village, and received Kope's Fluffy Bread from Kope.
     es: ""
     fr: ""
     it: ""
@@ -704469,12 +704600,15 @@ STT_QuestListDetail:
       前往<ituwari>梅爾桑蒂村，從村長家的科佩手中
       取得了柯佩的鬆軟麵包。
   SYSTEXT_QUESTLIST_NAME_FQ_103_1_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_200, STT_NpcInfo.NAME_NPC_02312, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KOPENOHUWAHUWAPAN]`
     de: ""
     en: |-
-      In <ituwari> Al-Ahaghiro Kingdom's dining room, at the request of Larg,
-      I gave him Kope's Fluffy Bread. After putting the meat between bread,
-      he ate the sammich and was impressed by the taste. It seems that Larg
+      At the request of Raage in <ituwari> Al-Ahaghiro Kingdom's dining room,
+      we gave him Kope's Fluffy Bread. After putting the meat between bread,
+      he ate the sammich and was impressed by the taste. It seems that Raaga
       intends to spread his sammich to everyone in the kingdom who is tired
       of eating only meat.
     es: ""
@@ -705278,7 +705412,10 @@ STT_QuestListDetail:
       據說只要大家都拿著同一棵樹做成的念珠就能一直保持友好，
       現在費科特已經能製作這種念珠了。
   SYSTEXT_QUESTLIST_NAME_FQ_107_1_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_000, STT_NpcInfo.NAME_NPC_02305]`
     de: ""
     en: |-
       In <ituwari> Al-Ahaghiro Kingdom, a desert dweller, Gretal, seems to be
@@ -705300,12 +705437,15 @@ STT_QuestListDetail:
       <ituwari>艾拉哈奇羅王國的沙漠子民
       格雷塔爾似乎遇到什麼困擾。
   SYSTEXT_QUESTLIST_NAME_FQ_107_1_005:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_005, STT_NpcInfo.NAME_NPC_02305]`
     de: ""
     en: |-
-      In <ituwari> Al-Ahaghiro Kingdom, Gretal asked me to look for a fun game
-      to do something about the people's stress that's been building since
-      the Battle Show went away!
+      In <ituwari> Al-Ahaghiro Kingdom, Gretal asked us to look for a fun game
+      to do something about the people's stress that's been building since the
+      Battle Show went away!
     es: ""
     fr: ""
     it: ""
@@ -705327,15 +705467,17 @@ STT_QuestListDetail:
       由於戰鬥秀沒了，居民們都累積了不少壓力，
       因此希望能找來一些有趣的遊戲。
   SYSTEXT_QUESTLIST_NAME_FQ_107_1_010:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_010, STT_NpcInfo.NAME_NPC_02305]`
     de: ""
     en: |-
-      In <ituwari> Al-Ahaghiro Kingdom, Gretal asked me to look for a fun game
-      to do something about the people's stress that's been building since
-      the Battle Show went away! There is the greatest gadabout, named Saudi,
-      who knows everything about all kinds of games somewhere in the world
-      where entertainment lovers gather; so let's listen to what he has to
-      say.
+      In <ituwari> Al-Ahaghiro Kingdom, Gretal asked us to look for a fun game
+      to do something about the people's stress that's been building since the
+      Battle Show went away! There is the greatest gadabout, named Saudi, who
+      knows everything about all kinds of games somewhere in the world where
+      entertainment lovers gather; so let's listen to what he has to say.
     es: ""
     fr: ""
     it: ""
@@ -705361,12 +705503,16 @@ STT_QuestListDetail:
       據說他精通各種遊戲，目前人似乎在世界某處有許多娛樂愛好者
       聚集的地方，去向他打聽看看吧。
   SYSTEXT_QUESTLIST_NAME_FQ_107_1_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_020, STT_NpcInfo.NAME_NPC_02305]`
     de: ""
     en: |-
-      In <ituwari> Al-Ahaghiro Kingdom, Gretal asked me to look for a fun game
-      to do something about the people's stress that's been building since
-      the Battle Show went away! At Luckland Island's casino, Saudi taught me a game called "tag", so let's return to Gretal and teach them.
+      In <ituwari> Al-Ahaghiro Kingdom, Gretal asked us to look for a fun game
+      to do something about the people's stress that's been building since the
+      Battle Show went away! At Luckland Island's casino, Saudi taught us a
+      game called "tag", so let's return to Gretal, and teach it to him.
     es: ""
     fr: ""
     it: ""
@@ -705392,13 +705538,15 @@ STT_QuestListDetail:
       由於已向娛樂島拉卡蘭賭場的薩烏迪學習了
       名叫捉迷藏的遊戲，回去找格雷塔爾並教他怎麼玩吧。
   SYSTEXT_QUESTLIST_NAME_FQ_107_1_030:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_030, STT_NpcInfo.NAME_NPC_02305, STT_BattleMonsterName.ID_MONSTER_NAME_13600, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_MANEKINOREITEKI]`
     de: ""
     en: |-
       In <ituwari> Al-Ahaghiro Kingdom, I taught Gretal the rules of tag, but he
-      needs friends to play it; so he asked me to defeat <%sEV_QUE_NAME0>s in the
-      Al-Ahaghiro Region to obtain the Spirit Summoner, so he can gather some
-      people!
+      needs friends to play it; so he asked us to defeat <%sEV_QUE_NAME0>s in the Al-Ahaghiro
+      Region to obtain a Spirit Summoner, so he can gather some people!
     es: ""
     fr: ""
     it: ""
@@ -705424,13 +705572,16 @@ STT_QuestListDetail:
       <ituwari>艾拉哈奇羅地方的<%sEV_QUE_NAME0>，取得只要一吹
       就能召集人手的招引靈笛。
   SYSTEXT_QUESTLIST_NAME_FQ_107_1_040:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_040, STT_NpcInfo.NAME_NPC_02305, STT_BattleMonsterName.ID_MONSTER_NAME_13600, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_MANEKINOREITEKI]`
     de: ""
     en: |-
-      In <ituwari> Al-Ahaghiro Kingdom, I taught Gretal the rules of tag, but he
-      needs friends to play it; so he asked me to defeat <%sEV_QUE_NAME0>s in the
-      Al-Ahaghiro Region to obtain the Spirit Summoner, so he can gather some
-      people! Having obtained the Spirit Summoner, let's return to Gretal.
+      In <ituwari> Al-Ahaghiro Kingdom, we taught Gretal the rules of tag, but he
+      needs friends to play it; so he asked us to defeat <%sEV_QUE_NAME0>s in the Al-Ahaghiro
+      Region to obtain a Spirit Summoner, so he can gather some people!
+      Having obtained the Spirit Summoner, let's return to Gretal.
     es: ""
     fr: ""
     it: ""
@@ -705456,12 +705607,15 @@ STT_QuestListDetail:
       卻被委託去取得能召集人手的招引靈笛。
       由於已取得了笛子，回去找格雷塔爾吧。
   SYSTEXT_QUESTLIST_NAME_FQ_107_1_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_200, STT_NpcInfo.NAME_NPC_02305, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_MANEKINOREITEKI]`
     de: ""
     en: |-
-      In <ituwari> Al-Ahaghiro Kingdom, I gave Gretal the Spirit Summoner, so he
+      In <ituwari> Al-Ahaghiro Kingdom, we gave Gretal the Spirit Summoner, so he
       could gather people. Gretal used the ocarina to gather people together,
-      and held a grand tag tournament. It seems that tag will succeed the
+      and held a grand tag tournament. It seems that tag shall succeed the
       Battle Shows as Al-Ahaghiro Kingdom's pastime.
     es: ""
     fr: ""
@@ -705633,9 +705787,13 @@ STT_QuestListDetail:
       順利完成了玩偶朋友，諾雅似乎在製作東西上找到了樂趣。
       要跟玩偶朋友一起愉快地度過每一天。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_000:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_000, STT_NpcInfo.NAME_NPC_02799]`
     de: ""
-    en: In Gran Zedora Castle (2F), Soldier Marton seems to be troubled.
+    en: |-
+      In Gran Zedora Castle (2F), the soldier, Marton, seems to be\ntroubled.
     es: ""
     fr: ""
     it: ""
@@ -705653,7 +705811,10 @@ STT_QuestListDetail:
       古蘭澤朵拉城２樓的士兵瑪爾頓
       似乎遇到什麼困擾。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_005:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_005, STT_NpcInfo.NAME_NPC_02799]`
     de: ""
     en: |-
       In Gran Zedora Castle (2F), Would you please lend your
@@ -705679,7 +705840,10 @@ STT_QuestListDetail:
       為了挑選賢者露仙妲會喜歡的禮物，
       希望能助他一臂之力。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_010:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_010, STT_NpcInfo.NAME_NPC_02799]`
     de: ""
     en: |-
       In Gran Zedora Castle (2F), I would like the soldier Malton on the second floor of Gran Zedora
@@ -705713,7 +705877,10 @@ STT_QuestListDetail:
       首先，為了知道送什麼才好得先收集情報。
       ３樓隨從房間的侍女們似乎對城內的傳聞很瞭解。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_020:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_020, STT_NpcInfo.NAME_NPC_02799]`
     de: ""
     en: |-
       In Gran Zedora Castle (2F), I would like to ask Malton, the soldier on the second floor of Gran
@@ -705747,7 +705914,10 @@ STT_QuestListDetail:
       打聽到露仙妲的情報後，得知露仙妲與園丁阿茲姆
       有在舉辦祕密茶會。去向中庭的阿茲姆打聽看看吧。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_030:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_NpcInfo.NAME_NPC_02799]`
     de: ""
     en: |-
       In Gran Zedora Castle (2F), Soldier Malton asked me to
@@ -705782,7 +705952,10 @@ STT_QuestListDetail:
       得從柯尼威亞平原的<%sEV_QUE_NAME0>手中取回
       <%nEV_QUE_T_NUM0>根百曲草之根。目前已收集了<%nEV_QUE_N_NUM0>根百曲草之根。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_040:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_040, STT_NpcInfo.NAME_NPC_02799]`
     de: ""
     en: |-
       In Gran Zedora Castle (2F), Soldier Malton asked me to
@@ -705816,7 +705989,10 @@ STT_QuestListDetail:
       打倒了柯尼威亞平原的<%sEV_QUE_NAME0>，並取得了百曲草之根。
       送去給瑪爾頓吧。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_200:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_200, STT_NpcInfo.NAME_NPC_02799]`
     de: ""
     en: |-
       In Gran Zedora Castle (2F), Soldier Marton asks you to
@@ -738331,44 +738507,44 @@ STT_QuestListName:
     zh-Hant: 送給明天的尾聲
   SYSTEXT_QUESTLIST_NAME_AQ_018_1:
     $comments: |-
-      🟡
+      🟢
       (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
-    de: ""
-    en: Frozen Folks
-    es: ""
-    fr: ""
-    it: ""
+    de: Die Frierenden Leute
+    en: Freezing Folks
+    es: La Gente Gélida
+    fr: Les Gens Glacials
+    it: La Gente Gelida
     ja: 凍える人々
     ko: 얼어붙는 사람들
-    pt-BR: ""
+    pt-BR: A Gente Gélida
     zh-Hans: 挨冻的人们
     zh-Hant: 受凍的人們
   SYSTEXT_QUESTLIST_NAME_AQ_018_2:
     $comments: |-
-      🟡
+      🟢
       (249) SYSTEXT_QUESTLIST_NAME_AQ_018_2 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
-    de: ""
+    de: Die Identität des Rachegeistes
     en: The Vengeful Spirit's Identity
-    es: ""
-    fr: ""
-    it: ""
+    es: La Identidad del Espíritu Vengativo
+    fr: L'Identité de l'Esprit Vengeur
+    it: L'Identità dello Spirito Vendicativo
     ja: 怨霊の正体
     ko: 원령의 정체
-    pt-BR: ""
+    pt-BR: A Identidade do Espírito Vingativo
     zh-Hans: 怨灵的真相
     zh-Hant: 怨靈的真面目
   SYSTEXT_QUESTLIST_NAME_AQ_018_3:
     $comments: |-
-      🟡
+      🟢
       (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
-    de: ""
+    de: Die Elegie der Monster
     en: The Monsters' Elegy
-    es: ""
-    fr: ""
-    it: ""
+    es: La Elegía de los Monstruos
+    fr: L'Élégie des Monstres
+    it: L'Elegia dei Mostri
     ja: 魔物たちの挽歌
     ko: 마물들의 애도가
-    pt-BR: ""
+    pt-BR: A Elegia dos Monstros
     zh-Hans: 怪物们的挽歌
     zh-Hant: 怪物們的輓歌
   SYSTEXT_QUESTLIST_NAME_FQ_111_1:
@@ -738376,7 +738552,7 @@ STT_QuestListName:
       🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
     de: ""
-    en: Lovely Lushenda!
+    en: Lovely Lady Lushenda!
     es: ""
     fr: ""
     it: ""
@@ -739528,7 +739704,12 @@ STT_QuestListSeries:
     zh-Hans: 召唤幸运的沙龙
     zh-Hant: 召喚幸運的沙龍
   SYSTEXT_QUESTLIST_SERIES_KQ_111:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      (255) SYSTEXT_QUESTLIST_NAME_KQ_111_4 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
     de: ""
     en: Teacher Of All Things
     es: ""
@@ -741650,7 +741831,10 @@ STT_Quest_AfterBattle:
     zh-Hans: ""
     zh-Hant: ""
   AFTER_BATTLE_FQ_111_1_A1:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: ""
     es: ""
@@ -741662,7 +741846,10 @@ STT_Quest_AfterBattle:
     zh-Hans: ""
     zh-Hant: ""
   AFTER_BATTLE_FQ_111_1_B1:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: ""
     es: ""
@@ -746538,7 +746725,10 @@ STT_Quest_AfterBattle:
     zh-Hans: ""
     zh-Hant: ""
   AFTER_BATTLE_MQ_004_1_A1:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: ""
     es: ""
@@ -746550,7 +746740,10 @@ STT_Quest_AfterBattle:
     zh-Hans: ""
     zh-Hant: ""
   AFTER_BATTLE_MQ_004_1_B1:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: ""
     es: ""
@@ -751649,13 +751842,16 @@ STT_Quest_ItemGet:
       送到偽塞萊德鎮的塞利克那裡吧。<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_AQ_018_1_10:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_10001, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SARYUUKOTU]`
     de: ""
     en: |-
       The <%sEV_QUE_NAME0> dropped a Dragon Bone!
       <br>
       {pc} obtained the Dragon Bone (Key Item)! <se_nots System Item>
-      <auto_bw=5000><close>
+      <bw><close>
     es: ""
     fr: ""
     it: ""
@@ -751692,14 +751888,17 @@ STT_Quest_ItemGet:
       沙龍骨（重要物品）！<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_AQ_018_3_10:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_010, STT_BattleMonsterName.ID_MONSTER_NAME_14001, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GUSYOUNOREIHAI]`
     de: ""
     en: |-
-      The <%sEV_QUE_NAME0> dropped a pile of
-      Apparition Ash! We finished collecting all <%nEV_QUE_T_NUM0> piles of Apparition Ash!
+      The <%sEV_QUE_NAME0> dropped a pile of Apparition Ash!
+      We finished collecting all <%nEV_QUE_T_NUM0> piles of Apparition Ash!
       <br>
       {pc} obtained the Apparition Ash (Key Item)! <se_nots System Item>
-      <auto_bw=5000><close>
+      <bw><close>
     es: ""
     fr: ""
     it: ""
@@ -752070,13 +752269,16 @@ STT_Quest_ItemGet:
       獲得了夥伴之苗（重要物品）！<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_FQ_107_1_30:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_13600, STT_DaijinamonoItem.NAME_ID_ITEM_DAIJINAMONO_MANEKINOREITEKI]`
     de: ""
     en: |-
       The <%sEV_QUE_NAME0> dropped the Spirit Summoner.
       <br>
       {pc} obtained the Spirit Summoner (Key Item)! <se_nots System Item>
-      <auto_bw=5000><close>
+      <bw><close>
     es: ""
     fr: ""
     it: ""
@@ -752110,16 +752312,19 @@ STT_Quest_ItemGet:
       獲得了招引靈笛（重要物品）！<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_FQ_111_1_30:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_?????, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: |-
       <%sEV_QUE_NAME0> dropped
-      the roots of Hyakumagari!
-      I finished collecting <%nEV_QUE_T_NUM0> Hyakumagari roots!
-      <auto_br=5000>
+      the roots of 100-Bend Root!
+      Finished collecting <%nEV_QUE_T_NUM0> 100-Bend Root roots!
+      <br>
       {pc} obtained the
-      hyakumagari root (Key Item)! <se_nots System Item>
-      <auto_bw=5000><close>
+      100-Bend Root root (Key Item)! <se_nots System Item>
+      <bw><close>
     es: ""
     fr: ""
     it: ""
@@ -755759,16 +755964,22 @@ STT_Quest_ItemGet:
       還差{SucceedNum_remain}個
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Mid_AQ_018_3_10:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GUSYOUNOREIHAI]`
     de: ""
     en: |-
       Obtained {SucceedNum_Now} pile(s) of Apparition Ashes!
-      {SucceedNum_remain} pile(s) remaining
-      <auto_bw=5000><close>
+      {SucceedNum_remain} pile(s) remain.
+      <bw><close>
     es: ""
     fr: ""
     it: ""
-    ja: "具象の霊灰を {SucceedNum_Now}個 手に入れた！ \n残り {SucceedNum_remain}個\n<auto_bw=5000><close>"
+    ja: |-
+      具象の霊灰を {SucceedNum_Now}個 手に入れた！
+      残り {SucceedNum_remain}個
+      <auto_bw=5000><close>
     ko: |-
       구상의 영험한 재 {SucceedNum_Now}개를 손에 넣었다!
       앞으로 {SucceedNum_remain}개
@@ -755831,16 +756042,22 @@ STT_Quest_ItemGet:
       還差{SucceedNum_remain}個
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Mid_FQ_111_1_30:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: |-
-      I got {SucceedNum_Now} Hyakumagari Root!
-      {SucceedNum_remain} books remaining
-      <auto_bw=5000><close>
+      I got {SucceedNum_Now} 100-Bend Root!
+      {SucceedNum_remain} books remain.
+      <bw><close>
     es: ""
     fr: ""
     it: ""
-    ja: "ヒャクマガリの根を {SucceedNum_Now}本 手に入れた！ \n残り {SucceedNum_remain}本\n<auto_bw=5000><close>"
+    ja: |-
+      ヒャクマガリの根を {SucceedNum_Now}本 手に入れた！ 
+      残り {SucceedNum_remain}本
+      <auto_bw=5000><close>
     ko: |-
       백구부리의 뿌리 {SucceedNum_Now}개를 손에 넣었다!
       앞으로 {SucceedNum_remain}개
@@ -806890,9 +807107,11 @@ STT_Syougou:
     zh-Hans: dummy
     zh-Hant: dummy
   NAME_SYOUGOU_QUEST_STORY_19:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (285)
     de: ""
-    en: The One Who Ended the Root of Misfortune
+    en: Those Who Severed the Root of Evil
     es: ""
     fr: ""
     it: ""
@@ -806902,10 +807121,12 @@ STT_Syougou:
     zh-Hans: 斩断祸根之人
     zh-Hant: 斬斷禍根之人
   EXPLANATION_SYOUGOU_QUEST_STORY_19:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (285)
     de: ""
     en: |-
-      Title given to those who have solved an incident
+      Title bestowed upon those who solved the incident
       that occurred in False Gran Zedora Kingdom.
     es: ""
     fr: ""
@@ -806928,7 +807149,9 @@ STT_Syougou:
       解決某起事件之人
       所得稱號
   RUBY_SYOUGOU_QUEST_STORY_19:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (285)
     de: ""
     en: ""
     es: ""
@@ -806940,9 +807163,9 @@ STT_Syougou:
     zh-Hans: dummy
     zh-Hant: dummy
   NAME_SYOUGOU_RURA:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: Ruler Master
+    en: Zoom Master
     es: ""
     fr: ""
     it: ""
@@ -806952,9 +807175,11 @@ STT_Syougou:
     zh-Hans: 鲁拉大师
     zh-Hant: 魯拉大師
   EXPLANATION_SYOUGOU_RURA:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: Title given to those who have memorized 150 Zoom locations
+    en: |-
+      Title bestowed upon those who have memorized
+      150 Zoom locations
     es: ""
     fr: ""
     it: ""
@@ -806972,7 +807197,7 @@ STT_Syougou:
       習得了１５０處
       魯拉傳送點之人所得稱號
   RUBY_SYOUGOU_RURA:
-    $comments: 🔴
+    $comments: 🟢
     de: ""
     en: ""
     es: ""
@@ -854300,38 +854525,8 @@ STT_System_Book_Monster:
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_03082_01:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      雲の中から 生まれたという
-      自由気ままな 人型の魔物。
-      かまいたちをあやつって
-      うれしげに 人を切りきざむ。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_03082_02:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      いつも雲に乗って移動するため
-      運動不足になりがちで
-      最近 メタボを気にしている。
-      バトルでメタボ解消を目指す！
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  SYSTXT_BOOK_MONSTER_03082_01: *STT_Monster_Tips1_ver2.SYSTXT_MONSTER_TIPS1_MONSTER_NO_14001
+  SYSTXT_BOOK_MONSTER_03082_02: *STT_Monster_Tips2_ver2.SYSTXT_MONSTER_TIPS2_MONSTER_NO_14001
   SYSTXT_BOOK_MONSTER_03085_01:
     $comments: 🔴
     de: ""
@@ -854716,38 +854911,8 @@ STT_System_Book_Monster:
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_03135_01:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      数千匹の こんぶ魔物を
-      配下に置く こんぶ界の大物。
-      威厳に満ちたバリトンで
-      仲間のハートに 火をつける。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_03135_02:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      海草士官学校を首席卒業。
-      多くの戦いで手柄を重ね
-      ライバルとの出世競争に勝ち
-      ついに大将にまで昇進した。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  SYSTXT_BOOK_MONSTER_03135_01: *STT_Monster_Tips1_ver2.SYSTXT_MONSTER_TIPS1_MONSTER_NO_14602
+  SYSTXT_BOOK_MONSTER_03135_02: *STT_Monster_Tips2_Ver2.SYSTXT_MONSTER_TIPS2_MONSTER_NO_14602
   SYSTXT_BOOK_MONSTER_03136_01:
     $comments: 🔴
     de: ""
@@ -860380,38 +860545,8 @@ STT_System_Book_Monster:
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_03477_01:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      骨になっても 怨念で動く
-      ドラゴンのしかばね。
-      高い攻撃力と ＨＰを誇り
-      かがやく息をも操る。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_03477_02:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      地下深くで眠っていた
-      いにしえのドラゴンの化石。
-      かつて 自分を倒した人間に
-      復讐するため 動きだした。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  SYSTXT_BOOK_MONSTER_03477_01: *STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_10001
+  SYSTXT_BOOK_MONSTER_03477_02: *STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_10001
   SYSTXT_BOOK_MONSTER_03478_01:
     $comments: 🔴
     de: ""
@@ -962466,18 +962601,25 @@ STT_UIDouguSys:
       古洛里斯之露。<br>
       古洛里斯之露有點甜。
   ID_TEXT_DAIJINAMONO_GUSYOUNOREIHAI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (250) SYSTEXT_QUESTLIST_NAME_AQ_018_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_3_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GUSYOUNOREIHAI]`
     de: ""
     en: |-
-      {Character_Head} took a pinch of the Apparition
-      Ashes.
+      {Character_Head} took a pinch of the Apparition Ashes.
       <br>
       Like silky-smooth, white flour it flowed down from
       between their fingers.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　具象の霊灰を\nひとつまみ　手に取った。\n<br>\nサラサラとした　白い粉が\n指の間を　すべり落ちていった。"
+    ja: |-
+      {Character_Head}は　具象の霊灰を
+      ひとつまみ　手に取った。
+      <br>
+      サラサラとした　白い粉が
+      指の間を　すべり落ちていった。
     ko: |-
       {Character_Head}|hpp(은,는) 구상의 영험한 재를
       한 줌 쥐어 보았다.
@@ -963344,18 +963486,26 @@ STT_UIDouguSys:
       手感棒極了，
       {Character_Head}感受到了片刻的幸福。
   ID_TEXT_DAIJINAMONO_HYAKUMAGARINONE:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: |-
       {Character_Head} took a close look at the
-      roots of Hyakumagari.
+      roots of 100-Bend Root.
       <br>
-      As the name Hyakumagari suggests,
+      As the name 100-Bend Root suggests,
       It is terrifyingly winding.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　ヒャクマガリの根を\nじっくり　ながめてみた。\n<br>\nヒャクマガリの名前の通り　\nおそろしく　曲がりくねっている。"
+    ja: |-
+      {Character_Head}は　ヒャクマガリの根を
+      じっくり　ながめてみた。
+      <br>
+      ヒャクマガリの名前の通り　
+      おそろしく　曲がりくねっている。
     ko: |-
       {Character_Head}|hpp(은,는) 백구부리의 뿌리를
       가만히 바라보았다.
@@ -965846,7 +965996,10 @@ STT_UIDouguSys:
       {Character_Head}觸碰了冰鳥羽。<br>
       冰鳥羽冰冰涼涼的。
   ID_TEXT_DAIJINAMONO_KOPENOHUWAHUWAPAN:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_KOPENOHUWAHUWAPAN]`
     de: ""
     en: |-
       {Character_Head} tried smelling Kope's Fluffy Bread.
@@ -965855,7 +966008,12 @@ STT_UIDouguSys:
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　コペのふわふわパンの\nにおいを　かいでみた。\n<br>\nこうばしい香りに　刺激されて\nヨダレが　たれてきた……。"
+    ja: |-
+      {Character_Head}は　コペのふわふわパンの
+      においを　かいでみた。
+      <br>
+      こうばしい香りに　刺激されて
+      ヨダレが　たれてきた……。
     ko: |-
       {Character_Head}|hpp(은,는) 코페의 폭신폭신 빵의
       냄새를 맡았다.
@@ -966709,17 +966867,25 @@ STT_UIDouguSys:
       身為馴魔師，足以獨當一面的證明，
       看著就不由得感到驕傲。
   ID_TEXT_DAIJINAMONO_MANEKINOREITEKI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (221) SYSTEXT_QUESTLIST_NAME_FQ_107_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_107_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_107_1_030, STT_DaijinamonoItem.NAME_ID_ITEM_DAIJINAMONO_MANEKINOREITEKI]`
     de: ""
     en: |-
-      {Character_Head} tried blowing the Spirit Summoner.
+      {Character_Head} tried blowing off the Spirit Summoner.
       <br>
       The surface dust disappeared, and the Spirit Summoner
       shined brilliantly!
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　招きの霊笛を\nふいてみた。\n<br>\n表面のホコリが取れて\n招きの霊笛は　ピカピカになった！"
+    ja: |-
+      {Character_Head}は　招きの霊笛を
+      ふいてみた。
+      <br>
+      表面のホコリが取れて
+      招きの霊笛は　ピカピカになった！
     ko: |-
       {Character_Head}|hpp(은,는) 소집의 혼령 피리를
       불어 보았다.
@@ -969872,18 +970038,25 @@ STT_UIDouguSys:
       <br>
       不管怎麼看都只是普通的草。
   ID_TEXT_DAIJINAMONO_RONUNINZIN:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_RONUNINZIN]`
     de: ""
     en: |-
-      {Character_Head} tried taking a close look at the
-      Rhone carrot.
+      {Character_Head} tried closely examining the
+      Rhone Carrot.
       <br>
       No matter how they look at it, it's just an ordinary
       carrot.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　ローヌにんじんを\nじっくり　ながめてみた。\n<br>\nどこからどう見ても　普通のにんじんだ。"
+    ja: |-
+      {Character_Head}は　ローヌにんじんを
+      じっくり　ながめてみた。
+      <br>
+      どこからどう見ても　普通のにんじんだ。
     ko: |-
       {Character_Head}|hpp(은,는) 로느 당근을
       가만히 바라보았다.
@@ -970424,7 +970597,10 @@ STT_UIDouguSys:
       清爽的花香
       讓心情緩和了下來！
   ID_TEXT_DAIJINAMONO_SARYUUKOTU:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (248) SYSTEXT_QUESTLIST_NAME_AQ_018_1 [ SYSTEXT_QUESTLIST_SERIES_AQ_018 ] { Sub Story }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_AQ_018, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_018_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SARYUUKOTU]`
     de: ""
     en: |-
       {Character_Head} picked up the Dragon Bone.
@@ -970433,7 +970609,12 @@ STT_UIDouguSys:
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　サリュウコツを\n手に取った。\n<br>\n見た目のサイズのわりには\nずっしりとした　重みがある。"
+    ja: |-
+      {Character_Head}は　サリュウコツを
+      手に取った。
+      <br>
+      見た目のサイズのわりには
+      ずっしりとした　重みがある。
     ko: |-
       {Character_Head}|hpp(은,는) 사룡골을
       손에 들었다.
@@ -986821,7 +987002,11 @@ STT_WeaponItem:
     zh-Hans: xuezhen
     zh-Hant: DUMMY
   NAME_ID_ITEM_EQUIP_KNIFE_BURONZUNAIFU:
-    $comments: 🟡
+    $comments: |-
+      🟢
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_020, STT_WeaponItem.*_ID_ITEM_EQUIP_KNIFE_BURONZUNAIFU]`
+      Das,El,Le,Il,A
     de: Bronzemesser
     en: Bronze Knife
     es: Gladius de Bronce
@@ -986829,15 +987014,18 @@ STT_WeaponItem:
     it: Coltello di Bronzo
     ja: ブロンズナイフ
     ko: 브론즈 나이프
-    pt-BR: ""
+    pt-BR: Faca de Bronze
     zh-Hans: 青铜短刀
     zh-Hant: 青銅短刀
   EXPLANATION_ID_ITEM_EQUIP_KNIFE_BURONZUNAIFU:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_020, STT_WeaponItem.*_ID_ITEM_EQUIP_KNIFE_BURONZUNAIFU]`
     de: ""
     en: |-
-      Small knife
-      made of bronze.
+      A small knife made of
+      bronze
     es: ""
     fr: ""
     it: ""
@@ -986855,7 +987043,10 @@ STT_WeaponItem:
       以銅製作而成的
       小型短刀
   RUBY_ID_ITEM_EQUIP_KNIFE_BURONZUNAIFU:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (218) SYSTEXT_QUESTLIST_NAME_FQ_103_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_103_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_103_1_020, STT_WeaponItem.*_ID_ITEM_EQUIP_KNIFE_BURONZUNAIFU]`
     de: ""
     en: ""
     es: ""

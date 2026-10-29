@@ -52,10 +52,10 @@
 > |          |             Julet<br><br>[ Key Emblem - Blue ]             | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00006 |
 > |          |     Ship Shapers<br><br>[ the Encounter with Hollow ]      | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00017 |
 > |          |            Dolworm<br><br>[ Key Emblem - Gold ]            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00016 |
-> |          |          Kamiharmui<br><br>[ Key Emblem - Pink ]           | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00004 |
-> |          |            Gartlant<br><br>[ Key Emblem - Red ]            | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00010 |
+> |          |          Kamiharmui<br><br>[ Key Emblem - Pink ]           | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00004 |
+> |          |            Gartlant<br><br>[ Key Emblem - Red ]            | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00010 |
 > |          |          Megistris<br><br>[ Key Emblem - Purple ]          | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00013 |
-> |          |          Verinard<br><br>[ Key Emblem - Silver ]           | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00007 |
+> |          |          Verinard<br><br>[ Key Emblem - Silver ]           | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00007 |
 > | Vers 2.0 |                                                            |                                                                             |                        |
 > |          |            Lendersia<br><br>[ The Grand Titus ]            | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00019 |
 > |          |    Lendersia<br><br>[ 3 Butterflies - Three Way Gate ]     | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
@@ -63,14 +63,14 @@
 > |          |       Celed/Seredo<br><br>[ 3 Butterflies - Amber ]        | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00023 |
 > |          |        Al-Ahaghiro<br><br>[ 3 Butterflies - Green ]        | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00024 |
 > |          | Gran Zedora<br><br>[ 3 Butterflies - Anlucia's Memories ]  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00025 |
-> | Vers 2.1 | The Land of Overlapping Fates<br><br>[ Pendulum of Fate ]  | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00027 |
+> | Vers 2.1 | The Land of Overlapping Fates<br><br>[ Pendulum of Fate ]  | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00027 |
 > |          |   Melsandy<br><br>[ The Tale of the Hero and the Girl ]    | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |     Melsandy<br><br>[ The Hero & the Witch's Finale ]      | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |    Celed/Seredo<br><br>[ When Life and Death Overlap ]     | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |        Celed/Seredo<br><br>[ Soul Strumming Sound ]        | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |       Al-Ahaghiro<br><br>[ The Dawn of Al-Ahaghiro ]       | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> |          |  Al-Ahaghiro<br><br>[ Quenchers of the Desert's Thirst ]   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
-> | Vers 2.2 |    Assignment From Lushenda<br><br>[ Pendulum of Fate ]    | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |       Melsandy<br><br>[ The Hero & Witch's Finale ]        | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |     Celed/Seredo<br><br>[ When Life & Death Overlap ]      | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |      Celed/Seredo<br><br>[ The Soul Strumming Songs ]      | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |       Al-Ahaghiro<br><br>[ The Dawn of Al-Ahaghiro ]       | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> |          |  Al-Ahaghiro<br><br>[ Quenchers of the Desert's Thirst ]   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
+> | Vers 2.2 |    Assignment From Lushenda<br><br>[ Pendulum of Fate ]    | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |                        |
 > |          | The Spinning Bonds of Courage<br><br>[ Divine Crimsonite ] | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00028 |
 > | Vers 2.3 |        The Wings of Soaring Hope<br><br>[ Dragon ]         | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00029 |
 > | Vers 2.4 |           The Endgame of Eternity<br>[ Endgame ]           | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 | SYSTXT_PLACENAME_00030 |
@@ -298,10 +298,10 @@
 > |    215<br><br>Useful    | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |              |
 > |  216<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   FQ_101_1   |
 > |  217<br><br>Sub Story   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   FQ_102_1   |
-> |  218<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   FQ_103_1   |
+> |  218<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |   FQ_103_1   |
 > |  219<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   FQ_104_1   |
 > |  220<br><br>Sub Story   | `de` 🔴 <br> `en` 🟢 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   FQ_106_1   |
-> |  221<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   FQ_107_1   |
+> |  221<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |   FQ_107_1   |
 > |  222<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   FQ_108_1   |
 > |    223<br><br>Useful    | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |   KQ_028_2   |
 > |    224<br><br>Useful    | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   KQ_028_3   |
@@ -328,9 +328,9 @@
 > |  245<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |   AQ_017_1   |
 > |  246<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |   AQ_017_2   |
 > |  247<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |   AQ_017_3   |
-> |  248<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   AQ_018_1   |
-> |  249<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   AQ_018_2   |
-> |  250<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   AQ_018_3   |
+> |  248<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |   AQ_018_1   |
+> |  249<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |   AQ_018_2   |
+> |  250<br><br>Sub Story   | `de` 🟡 <br> `en` 🟢 <br> `es` 🟡 <br> `fr` 🟡 <br> `it` 🟡 <br> `pt-BR` 🟡 |   AQ_018_3   |
 > |  251<br><br>Sub Story   | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   FQ_111_1   |
 > | 252<br><br>Super Useful | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   KQ_111_1   |
 > | 253<br><br>Super Useful | `de` 🔴 <br> `en` 🟡 <br> `es` 🔴 <br> `fr` 🔴 <br> `it` 🔴 <br> `pt-BR` 🔴 |   KQ_111_2   |
@@ -392,11 +392,9 @@
 >
 > ### Steam
 >
-> - Copy `pakchunk0-WindowsNoEditor_{ASIA|JAPAN}_{LANGUAGE}_Dialogue_Latest_P.pak` into Steam's `\steamapps\common\` folder. (e.g.):
+> - Copy `pakchunk0-WindowsNoEditor_JAPAN_{LANGUAGE}_Dialogue_Latest_P.pak` into Steam's `\steamapps\common\` folder. (e.g.):
 >   - Free Demo
 >     - ```cmd
->       "C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_ASIA_{LANGUAGE}_Dialogue_Latest_P.pak"
->       : -------------------------------------- OR --------------------------------------
 >       "C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_JAPAN_{LANGUAGE}_Dialogue_Latest__RunUAT_P.pak"
 >       "C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_JAPAN_{LANGUAGE}_Dialogue_Latest__RunUAT_P.ucas"
 >       "C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE Demo\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_JAPAN_{LANGUAGE}_Dialogue_Latest__RunUAT_P.utoc"
@@ -404,8 +402,6 @@
 >       ```
 >   - Paid Game
 >     - ```cmd
->       "C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_ASIA_{LANGUAGE}_Dialogue_Latest_P.pak"
->       : -------------------------------------- OR --------------------------------------
 >       "C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_JAPAN_{LANGUAGE}_Dialogue_Latest__RunUAT_P.pak"
 >       "C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_JAPAN_{LANGUAGE}_Dialogue_Latest__RunUAT_P.ucas"
 >       "C:\Program Files (x86)\<Steam|SteamLibrary>\steamapps\common\DRAGON QUEST X OFFLINE\Game\Content\Paks\~mods\pakchunk0-WindowsNoEditor_JAPAN_{LANGUAGE}_Dialogue_Latest__RunUAT_P.utoc"
