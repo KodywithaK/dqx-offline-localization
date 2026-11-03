@@ -497,7 +497,11 @@ ASIA_DLC:
     zh-Hant: 【繁體中文/簡體中文/韓文】版發售紀念特典２
 Event_Common:
   EVENTTEXT_CONVERT_FQ1081_NUIGURUMI_A:
-    $comments: 🟢 (222) { Sub Story }, used in dialog as `<%sEV_NUIGURUMI>`
+    $comments: |-
+      🟢
+      (222) SYSTEXT_QUESTLIST_NAME_FQ_108_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_108_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_108_1_020]`
+      used in dialog as `<%sEV_NUIGURUMI>`
     de: Naasha
     en: Naasha
     es: Naasha
@@ -509,7 +513,11 @@ Event_Common:
     zh-Hans: 那纱
     zh-Hant: 奈沙
   EVENTTEXT_CONVERT_FQ1081_NUIGURUMI_B:
-    $comments: 🟢 (222) { Sub Story }, used in dialog as `<%sEV_NUIGURUMI>`
+    $comments: |-
+      🟢
+      (222) SYSTEXT_QUESTLIST_NAME_FQ_108_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_108_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_108_1_020]`
+      used in dialog as `<%sEV_NUIGURUMI>`
     de: Copy
     en: Copy
     es: Copy
@@ -521,7 +529,11 @@ Event_Common:
     zh-Hans: 科皮
     zh-Hant: 柯皮
   EVENTTEXT_CONVERT_FQ1081_NUIGURUMI_C:
-    $comments: 🟢 (222) { Sub Story }, used in dialog as `<%sEV_NUIGURUMI>`
+    $comments: |-
+      🟢
+      (222) SYSTEXT_QUESTLIST_NAME_FQ_108_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_108_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_108_1_020]`
+      used in dialog as `<%sEV_NUIGURUMI>`
     de: Nyahotama
     en: Nyahotama
     es: Nyahotama
@@ -3441,7 +3453,7 @@ STT_AccessoryItem:
     zh-Hant: DUMMY
   NAME_ID_ITEM_EQUIP_ACCESSORIES_KINNONEKKURESU:
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_ITEM_NAME.TXT_ITEM_NAME_A_NEC_0012`
     de: Goldkette
     en: Gold Chain
@@ -4298,7 +4310,7 @@ STT_AccessoryItem:
     zh-Hant: DUMMY
   NAME_ID_ITEM_EQUIP_ACCESSORIES_MEZAMASHIRINGU:
     $comments: |-
-      🟡, 
+      🟡,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_ITEM_NAME.TXT_ITEM_NAME_A_FIN_0011`
     de: Klingering
     en: Rousing Ring
@@ -57741,7 +57753,7 @@ STT_BattleMagicItem: &STT_MagicName
     zh-Hant: 迪恩
   ACTION_NO_DIVINESPELL:
     $comments: |-
-      🟡, 
+      🟡,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SPELL_NAME_058`
     de: Verfemung
     en: Anathematise
@@ -58143,7 +58155,7 @@ STT_BattleMagicItem: &STT_MagicName
     zh-Hant: 瑪夏德
   ACTION_NO_MANUHA:
     $comments: |-
-      🟡, 
+      🟡,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SPELL_NAME_084`
     de: Abblendung
     en: Dedazzle
@@ -58181,7 +58193,7 @@ STT_BattleMagicItem: &STT_MagicName
     zh-Hant: 美達帕尼
   ACTION_NO_MEDAPANIMA:
     $comments: |-
-      🟡, 
+      🟡,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SPELL_NAME_049`
     de: Tohuwabohu
     en: Kafuddle
@@ -58368,7 +58380,7 @@ STT_BattleMagicItem: &STT_MagicName
     zh-Hant: 里貝霍伊米
   ACTION_NO_RIBEHOIMU:
     $comments: |-
-      🟢, 
+      🟢,
       Spell - healing family
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SPELL_NAME_081`
     de: Multi-Mehrheilung
@@ -58736,8 +58748,12 @@ STT_BattleMonsterName:
     pt-BR: Vampircemago
     zh-Hans: 法师多拉奇
     zh-Hant: 法師多拉奇
-  ID_MONSTER_NAME_00208: &ID_MONSTER_NAME_00208
-    $comments: 🟢
+  ID_MONSTER_NAME_00208: &STT_BattleMonsterName.ID_MONSTER_NAME_00208
+    $comments: |-
+      🟢
+      (255) SYSTEXT_QUESTLIST_NAME_KQ_111_4 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_4_???, STT_BattleMonsterName.ID_MONSTER_NAME_00208]`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_00208
     de: Ace
     en: Ace
     es: Ace
@@ -58748,7 +58764,7 @@ STT_BattleMonsterName:
     pt-BR: Ace
     zh-Hans: 王牌
     zh-Hant: 王牌
-  ID_MONSTER_NAME_00209: *ID_MONSTER_NAME_00208
+  ID_MONSTER_NAME_00209: *STT_BattleMonsterName.ID_MONSTER_NAME_00208
   ID_MONSTER_NAME_00300:
     $comments: 🟡, DQ07_romfs_MENULIST_{LANGUAGE}_monster_menu.txt:001
     de: Übergine
@@ -59434,8 +59450,10 @@ STT_BattleMonsterName:
     pt-BR: ""
     zh-Hans: 僵尸鬼魂
     zh-Hant: 殭屍鬼魂
-  ID_MONSTER_NAME_01407:
-    $comments: 🔴
+  ID_MONSTER_NAME_01407: &STT_BattleMonsterName.ID_MONSTER_NAME_01407
+    $comments: |-
+      🔴
+      *STT_BattleMonsterName.ID_MONSTER_NAME_01407
     de: ""
     en: Sir Man o' War
     es: ""
@@ -63576,7 +63594,11 @@ STT_BattleMonsterName:
     zh-Hans: 魔鸟头目
     zh-Hant: 魔鳥頭目
   ID_MONSTER_NAME_09601: &ID_MONSTER_NAME_09601
-    $comments: 🟢, see `DQ06_data_MENULIST6_{LANGUAGE}_b1002000.mpt:00109`
+    $comments: |-
+      🟢
+      see `DQ06_data_MENULIST6_{LANGUAGE}_b1002000.mpt:00109`
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_09601]`
     de: Greif
     en: Gryphon
     es: Grifo
@@ -64416,10 +64438,14 @@ STT_BattleMonsterName:
     pt-BR: Giga Demônio
     zh-Hans: 大恶魔
     zh-Hant: 大惡魔
-  ID_MONSTER_NAME_11002: &ID_MONSTER_NAME_11002
-    $comments: 🟡
+  ID_MONSTER_NAME_11002: &STT_BattleMonsterName.ID_MONSTER_NAME_11002
+    $comments: |-
+      🟡
+      (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_3_???, STT_BattleMonsterName.ID_MONSTER_NAME_11002]`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_11002
     de: ""
-    en: Giga Clubber
+    en: Giga Hammer
     es: ""
     fr: ""
     it: ""
@@ -64428,10 +64454,14 @@ STT_BattleMonsterName:
     pt-BR: ""
     zh-Hans: 吉格巨锤
     zh-Hant: 吉格巨錘
-  ID_MONSTER_NAME_11006:
-    $comments: 🔴
+  ID_MONSTER_NAME_11006: &STT_BattleMonsterName.ID_MONSTER_NAME_11006
+    $comments: |-
+      🟡
+      (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_3_???, STT_BattleMonsterName.ID_MONSTER_NAME_11006]`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_11006
     de: ""
-    en: Mad Giga Clubber
+    en: Mad Giga Hammer
     es: ""
     fr: ""
     it: ""
@@ -64440,7 +64470,7 @@ STT_BattleMonsterName:
     pt-BR: ""
     zh-Hans: 吉格巨锤·狂
     zh-Hant: 吉格巨錘‧狂
-  ID_MONSTER_NAME_11008: *ID_MONSTER_NAME_11002
+  ID_MONSTER_NAME_11008: *STT_BattleMonsterName.ID_MONSTER_NAME_11002
   ID_MONSTER_NAME_11100:
     $comments: 🟡
     de: ""
@@ -65767,10 +65797,12 @@ STT_BattleMonsterName:
     pt-BR: ""
     zh-Hans: 大地之龙巴乌吉
     zh-Hant: 大地龍巴烏基亞
-  ID_MONSTER_NAME_13103:
+  ID_MONSTER_NAME_13103: &STT_BattleMonsterName.ID_MONSTER_NAME_13103
     $comments: |-
       🟢
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_ENEMY_NAME.TXT_ENEMY_NAME_084`
+      see `[STT_BattleMonsterName.ID_MONSTER_NAME_13103]`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_13103
     de: Gaia-Drache
     en: Gaia Dragon
     es: Gaiagón
@@ -65793,10 +65825,14 @@ STT_BattleMonsterName:
     pt-BR: ""
     zh-Hans: 小龙
     zh-Hant: 小龍
-  ID_MONSTER_NAME_13105:
-    $comments: 🔴
+  ID_MONSTER_NAME_13105: &STT_BattleMonsterName.ID_MONSTER_NAME_13105
+    $comments: |-
+      🟡
+      (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_???, STT_BattleMonsterName.ID_MONSTER_NAME_13105]`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_13105
     de: ""
-    en: Double Gaia Dragon
+    en: Double Gaia Dragons
     es: ""
     fr: ""
     it: ""
@@ -66567,11 +66603,11 @@ STT_BattleMonsterName:
     zh-Hant: 喪屍花
   ID_MONSTER_NAME_14602:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_14602]`
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_14602]`
     de: ""
-    en: Caterwaulin'
+    en: Kelp General
     es: ""
     fr: Généralgue
     it: ""
@@ -67364,16 +67400,21 @@ STT_BattleMonsterName:
     pt-BR: Dragão Ancião
     zh-Hans: 古树巨龙
     zh-Hant: 古樹巨龍
-  ID_MONSTER_NAME_16002:
-    $comments: 🔴
-    de: ""
+  ID_MONSTER_NAME_16002: &STT_BattleMonsterName.ID_MONSTER_NAME_16002
+    $comments: |-
+      🟢
+      (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_???, STT_BattleMonsterName.ID_MONSTER_NAME_16002]`
+      Der,El,Le,Il,O
+      *STT_BattleMonsterName.ID_MONSTER_NAME_16002
+    de: Vulkanische Drache
     en: Volcanic Dragon
-    es: ""
-    fr: ""
-    it: ""
+    es: Dragón Volcánico
+    fr: Dragon Volcanique
+    it: Drago Vulcanico
     ja: ヴォルカドラゴン
     ko: 볼카 드래곤
-    pt-BR: ""
+    pt-BR: Dragão Vulcânico
     zh-Hans: 火山巨龙
     zh-Hant: 火山巨龍
   ID_MONSTER_NAME_16100:
@@ -68351,10 +68392,14 @@ STT_BattleMonsterName:
     pt-BR: ""
     zh-Hans: 占卜师玛尔古丽特
     zh-Hant: 占卜師瑪古麗特
-  ID_MONSTER_NAME_BOSS_0260:
+  ID_MONSTER_NAME_BOSS_0260: &STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0260
     $comments: |-
-      🟢, (07/10) The Story of Azlan [ Key Emblem - Green ] { Main Story }
+      🟢
+      (07/10) The Story of Azlan [ Key Emblem - Green ] { Main Story }
       see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00400, STT_CareerStoryVer1.SYSTXT_CAREER_STORY_ELF2_013]`
+      (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_010]`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0260
     de: Monster Pusgon
     en: Monster Pusgon
     es: Monstruo Pusgon
@@ -68365,8 +68410,10 @@ STT_BattleMonsterName:
     pt-BR: Monstro Pusgon
     zh-Hans: 怪兽普斯贡
     zh-Hant: 怪獸普斯貢
-  ID_MONSTER_NAME_BOSS_0262:
-    $comments: 🔴
+  ID_MONSTER_NAME_BOSS_0262: &STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0262
+    $comments: |-
+      🟡
+      *STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0262
     de: ""
     en: Angry Pusgon
     es: ""
@@ -74079,7 +74126,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_09601:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_09601]`
     de: ""
     en: ""
     es: ""
@@ -76821,9 +76871,9 @@ STT_BattleMonsterName:
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_14602:
     $comments: |-
-      🔴
+      🟢
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_14602]`
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_14602]`
     de: ""
     en: ""
     es: ""
@@ -80149,10 +80199,12 @@ STT_BattleOddAvgMsg_AE_SYS:
     pt-BR: ""
     zh-Hans: <%sB_TARGET>一行变得容易受负面效果影响了！
     zh-Hant: <%sB_TARGET>一行變得更容易受到負面效果影響了！
-  ODDMESSAGE_NO_BADST_MAMORINOTATE:
-    $comments: 🔴
+  ODDMESSAGE_NO_BADST_MAMORINOTATE: &STT_BattleOddAvgMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
+    $comments: |-
+      🟡
+      *STT_BattleOddAvgMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
     de: ""
-    en: <%sB_TARGET> are now less susceptible to bad effects!
+    en: <%sB_TARGET>s are now less susceptible to negative effects!
     es: ""
     fr: ""
     it: ""
@@ -81652,18 +81704,7 @@ STT_BattleOddAvgMsg_AE_SYS:
     pt-BR: ""
     zh-Hans: 保镖出现了！
     zh-Hant: 保鏢出現了！
-  ODDMESSAGE_NO_MUKO_BOW:
-    $comments: 🔴
-    de: ""
-    en: <%sB_TARGET> are now less susceptible to bad effects!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>たちは 悪い効果に かかりにくくなった！
-    ko: <%sB_TARGET> 일행은 나쁜 효과에 걸릴 확률이 낮아졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>一行变得不容易受负面效果影响了！
-    zh-Hant: <%sB_TARGET>一行變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_MUKO_BOW: *STT_BattleOddAvgMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_MUKO_CPS_PLDGUARD:
     $comments: 🔴
     de: ""
@@ -81736,18 +81777,7 @@ STT_BattleOddAvgMsg_AE_SYS:
     pt-BR: ""
     zh-Hans: <%sB_TARGET>一行的脚被神奇的力量保护了！
     zh-Hant: <%sB_TARGET>一行的腳受到不可思議的力量保護了！
-  ODDMESSAGE_NO_MUKO_KIRAKIRA:
-    $comments: 🔴
-    de: ""
-    en: <%sB_TARGET> are less susceptible to bad effects!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>たちは 悪い効果に かかりにくくなった！
-    ko: <%sB_TARGET> 일행은 나쁜 효과에 걸릴 확률이 낮아졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>一行变得不容易受负面效果影响了！
-    zh-Hant: <%sB_TARGET>一行變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_MUKO_KIRAKIRA: *STT_BattleOddAvgMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_MUKO_KISHITATE:
     $comments: 🔴
     de: ""
@@ -82887,18 +82917,7 @@ STT_BattleOddAvgMsg_AP_SYS:
     pt-BR: ""
     zh-Hans: <%sB_TARGET>一行变得容易受负面效果影响了！
     zh-Hant: <%sB_TARGET>一行變得更容易受到負面效果影響了！
-  ODDMESSAGE_NO_BADST_MAMORINOTATE:
-    $comments: 🔴
-    de: ""
-    en: <%sB_TARGET> is now less susceptible to bad effects!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>たちは 悪い効果に かかりにくくなった！
-    ko: <%sB_TARGET> 일행은 나쁜 효과에 걸릴 확률이 낮아졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>一行变得不容易受负面效果影响了！
-    zh-Hant: <%sB_TARGET>一行變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_BADST_MAMORINOTATE: *STT_BattleOddAvgMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_BESTSMILE:
     $comments: 🔴
     de: ""
@@ -84377,18 +84396,7 @@ STT_BattleOddAvgMsg_AP_SYS:
     pt-BR: ""
     zh-Hans: 保镖出现了！
     zh-Hant: 保鏢出現了！
-  ODDMESSAGE_NO_MUKO_BOW:
-    $comments: 🔴
-    de: ""
-    en: <%sB_TARGET> is now less susceptible to bad effects!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>たちは 悪い効果に かかりにくくなった！
-    ko: <%sB_TARGET> 일행은 나쁜 효과에 걸릴 확률이 낮아졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>一行变得不容易受负面效果影响了！
-    zh-Hant: <%sB_TARGET>一行變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_MUKO_BOW: *STT_BattleOddAvgMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_MUKO_CPS_PLDGUARD:
     $comments: 🔴
     de: ""
@@ -84461,18 +84469,7 @@ STT_BattleOddAvgMsg_AP_SYS:
     pt-BR: ""
     zh-Hans: <%sB_TARGET>一行的脚被神奇的力量保护了！
     zh-Hant: <%sB_TARGET>一行的腳受到不可思議的力量保護了！
-  ODDMESSAGE_NO_MUKO_KIRAKIRA:
-    $comments: 🔴
-    de: ""
-    en: <%sB_TARGET> is less susceptible to bad effects!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>たちは 悪い効果に かかりにくくなった！
-    ko: <%sB_TARGET> 일행은 나쁜 효과에 걸릴 확률이 낮아졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>一行变得不容易受负面效果影响了！
-    zh-Hant: <%sB_TARGET>一行變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_MUKO_KIRAKIRA: *STT_BattleOddAvgMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_MUKO_KISHITATE:
     $comments: 🔴
     de: ""
@@ -110928,10 +110925,12 @@ STT_BattleOddMsg_AE_LOG:
     pt-BR: ""
     zh-Hans: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>变得容易受负面效果影响了！
     zh-Hant: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>變得更容易受到負面效果影響了！
-  ODDMESSAGE_NO_BADST_MAMORINOTATE:
-    $comments: 🔴
+  ODDMESSAGE_NO_BADST_MAMORINOTATE: &STT_BattleOddMsg_AE_LOG.ODDMESSAGE_NO_BADST_MAMORINOTATE
+    $comments: |-
+      🟡
+      *STT_BattleOddMsg_AE_LOG.ODDMESSAGE_NO_BADST_MAMORINOTATE
     de: ""
-    en: <%sB_LOG_ABILITY_UP> <%sB_TARGET> is now less susceptible to bad effects!
+    en: <%sB_LOG_ABILITY_UP><%sB_TARGET> is now less susceptible to negative effects!
     es: ""
     fr: ""
     it: ""
@@ -112509,18 +112508,7 @@ STT_BattleOddMsg_AE_LOG:
     pt-BR: ""
     zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>的保镖出现了！
     zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>的前方出現了保鏢！
-  ODDMESSAGE_NO_MUKO_BOW:
-    $comments: 🔴
-    de: ""
-    en: <%sB_LOG_ABILITY_UP><%sB_TARGET> is now less susceptible to bad effects!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_LOG_ABILITY_UP><%sB_TARGET>は 悪い効果に かかりにくくなった！
-    ko: <%sB_LOG_ABILITY_UP>{%sB_TARGET}|hpp(은,는) 나쁜 효과에 걸릴 확률이 낮아졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>变得不容易受负面效果影响了！
-    zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_MUKO_BOW: *STT_BattleOddMsg_AE_LOG.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_MUKO_CPS_PLDGUARD:
     $comments: 🔴
     de: ""
@@ -112595,18 +112583,7 @@ STT_BattleOddMsg_AE_LOG:
     pt-BR: ""
     zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>的脚被神奇的力量保护了！
     zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>的腳受到不可思議的力量保護了！
-  ODDMESSAGE_NO_MUKO_KIRAKIRA:
-    $comments: 🔴
-    de: ""
-    en: <%sB_LOG_ABILITY_UP> <%sB_TARGET> is now less susceptible to negative effects!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_LOG_ABILITY_UP><%sB_TARGET>は 悪い効果に かかりにくくなった！
-    ko: <%sB_LOG_ABILITY_UP>{%sB_TARGET}|hpp(은,는) 나쁜 효과에 걸릴 확률이 낮아졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>变得不容易受负面效果影响了！
-    zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_MUKO_KIRAKIRA: *STT_BattleOddMsg_AE_LOG.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_MUKO_KISHITATE:
     $comments: 🔴
     de: ""
@@ -113953,10 +113930,12 @@ STT_BattleOddMsg_AE_SYS:
     pt-BR: ""
     zh-Hans: <%sB_TARGET>变得容易受负面效果影响了！
     zh-Hant: <%sB_TARGET>變得更容易受到負面效果影響了！
-  ODDMESSAGE_NO_BADST_MAMORINOTATE:
-    $comments: 🔴
+  ODDMESSAGE_NO_BADST_MAMORINOTATE: &STT_BattleOddMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
+    $comments: |-
+      🟡
+      *STT_BattleOddMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
     de: ""
-    en: <%sB_TARGET> is now less susceptible to bad effects!
+    en: <%sB_TARGET> is now less susceptible to negative effects!
     es: ""
     fr: ""
     it: ""
@@ -115516,18 +115495,7 @@ STT_BattleOddMsg_AE_SYS:
     pt-BR: ""
     zh-Hans: 保镖出现了！
     zh-Hant: 保鏢出現了！
-  ODDMESSAGE_NO_MUKO_BOW:
-    $comments: 🔴
-    de: ""
-    en: <%sB_TARGET> is now less susceptible to bad effects!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>は 悪い効果に かかりにくくなった！
-    ko: '{%sB_TARGET}|hpp(은,는) 나쁜 효과에 걸릴 확률이 낮아졌다!'
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>变得不容易受负面效果影响了！
-    zh-Hant: <%sB_TARGET>變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_MUKO_BOW: *STT_BattleOddMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_MUKO_CPS_PLDGUARD:
     $comments: 🔴
     de: ""
@@ -115600,18 +115568,7 @@ STT_BattleOddMsg_AE_SYS:
     pt-BR: ""
     zh-Hans: <%sB_TARGET>的脚被神奇的力量保护了！
     zh-Hant: <%sB_TARGET>的腳受到不可思議的力量保護了！
-  ODDMESSAGE_NO_MUKO_KIRAKIRA:
-    $comments: 🔴
-    de: ""
-    en: <%sB_TARGET> is now less susceptible to bad effects!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>は 悪い効果に かかりにくくなった！
-    ko: '{%sB_TARGET}|hpp(은,는) 나쁜 효과에 걸릴 확률이 낮아졌다!'
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>变得不容易受负面效果影响了！
-    zh-Hant: <%sB_TARGET>變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_MUKO_KIRAKIRA: *STT_BattleOddMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_MUKO_KISHITATE:
     $comments: 🔴
     de: ""
@@ -117287,18 +117244,7 @@ STT_BattleOddMsg_AP_LOG:
     pt-BR: ""
     zh-Hans: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>变得容易受负面效果影响了！
     zh-Hant: <%sB_LOG_ABILITY_DOWN><%sB_TARGET>變得更容易受到負面效果影響了！
-  ODDMESSAGE_NO_BADST_MAMORINOTATE:
-    $comments: 🔴
-    de: ""
-    en: <%sB_LOG_ABILITY_UP> <%sB_TARGET> is now less susceptible to bad effects!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_LOG_ABILITY_UP><%sB_TARGET>は 悪い効果に かかりにくくなった！
-    ko: <%sB_LOG_ABILITY_UP>{%sB_TARGET}|hpp(은,는) 나쁜 효과에 걸릴 확률이 낮아졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>变得不容易受负面效果影响了！
-    zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_BADST_MAMORINOTATE: *STT_BattleOddMsg_AE_LOG.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_BESTSMILE:
     $comments: 🔴
     de: ""
@@ -118868,18 +118814,7 @@ STT_BattleOddMsg_AP_LOG:
     pt-BR: ""
     zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>的保镖出现了！
     zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>的前方出現了保鏢！
-  ODDMESSAGE_NO_MUKO_BOW:
-    $comments: 🔴
-    de: ""
-    en: <%sB_LOG_ABILITY_UP><%sB_TARGET> is now less susceptible to bad effects!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_LOG_ABILITY_UP><%sB_TARGET>は 悪い効果に かかりにくくなった！
-    ko: <%sB_LOG_ABILITY_UP>{%sB_TARGET}|hpp(은,는) 나쁜 효과에 걸릴 확률이 낮아졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>变得不容易受负面效果影响了！
-    zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_MUKO_BOW: *STT_BattleOddMsg_AE_LOG.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_MUKO_CPS_PLDGUARD:
     $comments: 🔴
     de: ""
@@ -118954,18 +118889,7 @@ STT_BattleOddMsg_AP_LOG:
     pt-BR: ""
     zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>的脚被神奇的力量保护了！
     zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>的腳受到不可思議的力量保護了！
-  ODDMESSAGE_NO_MUKO_KIRAKIRA:
-    $comments: 🔴
-    de: ""
-    en: <%sB_LOG_ABILITY_UP> <%sB_TARGET> is now less susceptible to negative effects!
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_LOG_ABILITY_UP><%sB_TARGET>は 悪い効果に かかりにくくなった！
-    ko: <%sB_LOG_ABILITY_UP>{%sB_TARGET}|hpp(은,는) 나쁜 효과에 걸릴 확률이 낮아졌다!
-    pt-BR: ""
-    zh-Hans: <%sB_LOG_ABILITY_UP><%sB_TARGET>变得不容易受负面效果影响了！
-    zh-Hant: <%sB_LOG_ABILITY_UP><%sB_TARGET>變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_MUKO_KIRAKIRA: *STT_BattleOddMsg_AE_LOG.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_MUKO_KISHITATE:
     $comments: 🔴
     de: ""
@@ -120277,18 +120201,7 @@ STT_BattleOddMsg_AP_SYS:
     pt-BR: ""
     zh-Hans: <%sB_TARGET>变得容易受负面效果影响了！
     zh-Hant: <%sB_TARGET>變得更容易受到負面效果影響了！
-  ODDMESSAGE_NO_BADST_MAMORINOTATE:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>は 悪い効果に かかりにくくなった！
-    ko: '{%sB_TARGET}|hpp(은,는) 나쁜 효과에 걸릴 확률이 낮아졌다!'
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>变得不容易受负面效果影响了！
-    zh-Hant: <%sB_TARGET>變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_BADST_MAMORINOTATE: *STT_BattleOddMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_BESTSMILE:
     $comments: 🔴
     de: ""
@@ -121839,18 +121752,7 @@ STT_BattleOddMsg_AP_SYS:
     pt-BR: ""
     zh-Hans: 保镖出现了！
     zh-Hant: 保鏢出現了！
-  ODDMESSAGE_NO_MUKO_BOW:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>は 悪い効果に かかりにくくなった！
-    ko: '{%sB_TARGET}|hpp(은,는) 나쁜 효과에 걸릴 확률이 낮아졌다!'
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>变得不容易受负面效果影响了！
-    zh-Hant: <%sB_TARGET>變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_MUKO_BOW: *STT_BattleOddMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_MUKO_CPS_PLDGUARD:
     $comments: 🔴
     de: ""
@@ -121923,18 +121825,7 @@ STT_BattleOddMsg_AP_SYS:
     pt-BR: ""
     zh-Hans: <%sB_TARGET>的脚被神奇的力量保护了！
     zh-Hant: <%sB_TARGET>的腳受到不可思議的力量保護了！
-  ODDMESSAGE_NO_MUKO_KIRAKIRA:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: <%sB_TARGET>は 悪い効果に かかりにくくなった！
-    ko: '{%sB_TARGET}|hpp(은,는) 나쁜 효과에 걸릴 확률이 낮아졌다!'
-    pt-BR: ""
-    zh-Hans: <%sB_TARGET>变得不容易受负面效果影响了！
-    zh-Hant: <%sB_TARGET>變得較不容易受到負面效果影響了！
+  ODDMESSAGE_NO_MUKO_KIRAKIRA: *STT_BattleOddMsg_AE_SYS.ODDMESSAGE_NO_BADST_MAMORINOTATE
   ODDMESSAGE_NO_MUKO_KISHITATE:
     $comments: 🔴
     de: ""
@@ -153055,7 +152946,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 愛之鞭
   PA_ACTION_NO_AKUMABARAI: &NAME_ACTION_NO_AKUMABARAI
     $comments: |-
-      🟡, 
+      🟡,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_066`
     de: Dämonenlähmer
     en: Beelzefreeze
@@ -154233,7 +154124,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
   PA_ACTION_NO_CLOCKCHARGE_1: *PA_ACTION_NO_CLOCKCHARGE
   PA_ACTION_NO_CROSSCUTTER: &PA_ACTION_NO_CROSSCUTTER
     $comments: |-
-      🟡, 
+      🟡,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_030`
     de: Bimerang
     en: Twomerang
@@ -154556,7 +154447,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 吐息擊破
   PA_ACTION_NO_DRAGONGIRI: &PA_ACTION_NO_DRAGONGIRI
     $comments: |-
-      🟡, 
+      🟡,
       see `DRAGON QUEST I & II HD-2D Remake/GOP_Text_{ALL}.yaml:GOP_Text_Magic_Name.Txt_Magic_Name_Doragongiri`
     de: Drachenhieb
     en: Dragon Slash
@@ -156246,7 +156137,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 治癒之風
   PA_ACTION_NO_IYASINOAME: &PA_ACTION_NO_IYASINOAME
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_097`
     de: Gerechter Regen
     en: Right as Rain
@@ -156260,7 +156151,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 治癒之雨
   PA_ACTION_NO_I_SYUKUHUKUNO_TUE: &PA_ACTION_NO_SYUKUHUKUNOTUE
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_067`
     de: Stab der Erlösung
     en: Staff of Salvation
@@ -157413,7 +157304,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 魔女的凝視
   PA_ACTION_NO_MAKEKKAI:
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_071`
     de: Zauberbann
     en: Wizard Ward
@@ -157464,7 +157355,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
   PA_ACTION_NO_MAMORINOKIRI_ASU: *PA_ACTION_NO_MAMORINOKIRI
   PA_ACTION_NO_MAMORINOTATE: &PA_ACTION_NO_MAMORINOTATE
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_120`
     de: Göttlicher Schutz
     en: Holy Impregnable
@@ -157572,7 +157463,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
   PA_ACTION_NO_MEGABOMBER_TON: *PA_ACTION_NO_MEGABOMBER
   PA_ACTION_NO_MEGAMINOSYUKUHUKU: &PA_ACTION_NO_MEGAMINOSYUKUHUKU
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_047`
     de: Göttlicher Beistand
     en: Divine Blessing
@@ -158125,7 +158016,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
   PA_ACTION_NO_MM_GOLDFINGER_MT: *PA_ACTION_NO_GOLDFINGER
   PA_ACTION_NO_MM_GOLDRUSH: &PA_ACTION_NO_NUSUMU
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_032`
     de: Kleptomane
     en: Half-Inch
@@ -158200,7 +158091,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 私房錢雨
   PA_ACTION_NO_MM_HIHUKIGEI:
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_075`
     de: Feuriges Solo
     en: Hot Lick
@@ -158836,7 +158727,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 猛毒魔歌
   PA_ACTION_NO_MM_MPPASSER: &PA_ACTION_NO_MPPASSER
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_101`
     de: Magiespender
     en: M-Pathy
@@ -158989,7 +158880,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 怨念之霧
   PA_ACTION_NO_MM_ONOMUSOU: &PA_ACTION_NO_ONOMUSOU
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_117`
     de: Axt des Bösen
     en: Axes of Evil
@@ -159003,7 +158894,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 斧無雙
   PA_ACTION_NO_MM_ONOMUSOU2: &PA_ACTION_NO_SHINONOMUSOU
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_117`
     de: Wahre Axt des Bösen
     en: Axes of True Evil
@@ -159361,7 +159252,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 精靈之風
   PA_ACTION_NO_MM_SEIZYONOMAMORI: &PA_ACTION_NO_SEIZYONOMAMORI
     $comments: |-
-      🟡, 
+      🟡,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_045`
     de: Alma Mater
     en: Goddess' Protection
@@ -159594,7 +159485,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 史萊姆強擊
   PA_ACTION_NO_MM_SLIMEBLOW: &NAME_ACTION_NO_SLIMEBLOW
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_026`
     de: Schleimschlachter
     en: Ooze Bruiser
@@ -159608,7 +159499,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 史萊姆突襲
   PA_ACTION_NO_MM_SOUTENMAZAN: &PA_ACTION_NO_SOUTENMAZAN
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_116`
     de: Axt der Angst
     en: Parallax
@@ -159831,7 +159722,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 鐵甲斬
   PA_ACTION_NO_MM_TENSINOMAMORI_H: &PA_ACTION_NO_TENSI_NO_MAMORI
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_046`
     de: Güte der Göttin
     en: Goddess' Grace
@@ -159882,7 +159773,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 鐵壁守護
   PA_ACTION_NO_MM_TIGERCLAW: &NAME_ACTION_NO_TIGERCLAW
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_092`
     de: Tigerkralle
     en: Tiger Claw
@@ -159898,7 +159789,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
   PA_ACTION_NO_MM_TOUSIN: *PA_ACTION_NO_HESOKURIPOWER
   PA_ACTION_NO_MM_TUKKOMI: &NAME_ACTION_NO_TUKKOMI
     $comments: |-
-      🟡, 
+      🟡,
       張り扇 comedy slapping fan
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_079`
       *NAME_ACTION_NO_TUKKOMI
@@ -159989,7 +159880,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 究極搗壓
   PA_ACTION_NO_MM_VIPERFANG: &NAME_ACTION_NO_M_VIPERFANG
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_022`
     de: Vipernzahn
     en: Cobra Strike
@@ -166583,7 +166474,7 @@ STT_BattleSkillItem: &STT_BattleSkillItem
     zh-Hant: 重建
   PA_ACTION_NO_M_ZETTAIREIDO: &NAME_ACTION_NO_ZETTAIREIDO
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_SKILL_NAME_011`
     de: Frostfontäne
     en: Frost Fangs
@@ -179026,9 +178917,11 @@ STT_BattleSysMsg:
     zh-Hans: 但是<%sB_TARGET>的斗志不足！
     zh-Hant: 但是<%sB_TARGET>的鬥志不足！
   MESSAGE_NO_LEARN_HISSATSU:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: You learned the Coup de Grace <%sB_TARGET>!
+    en: |-
+      You learned the Coup de Grace:
+      <%sB_TARGET>!
     es: ""
     fr: ""
     it: ""
@@ -179050,9 +178943,11 @@ STT_BattleSysMsg:
     zh-Hans: 学会了咒文<%sB_TARGET>！
     zh-Hant: 習得了咒文<%sB_TARGET>！
   MESSAGE_NO_LEARN_TOKUGI:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: You learned the skill <%sB_TARGET>!
+    en: |-
+      You learned the skill:
+      <%sB_TARGET>!
     es: ""
     fr: ""
     it: ""
@@ -179159,9 +179054,11 @@ STT_BattleSysMsg:
     zh-Hans: <%sB_ACTOR>力竭倒下了。
     zh-Hant: <%sB_ACTOR>力竭倒下了。
   MESSAGE_NO_MASTERY:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: You learned <%sB_TARGET>!
+    en: |-
+      You learned:
+      <%sB_TARGET>!
     es: ""
     fr: ""
     it: ""
@@ -179253,9 +179150,10 @@ STT_BattleSysMsg:
       收納袋已滿。
       要整理收納袋嗎？
   MESSAGE_NO_PC_FIRST_ATTACK:
-    $comments: 🔴
+    $comments: 🟡
     de: ""
-    en: <%sB_ACTOR> and co. caught the enemy off guard!
+    en: |-
+      The party caught the enemy off guard!
     es: ""
     fr: ""
     it: ""
@@ -181368,7 +181266,7 @@ STT_Battle_Option:
     zh-Hant: 沒有可設定的項目！
   SYSTXT_BATTLE_OPTION_21000: &Txt_Information_TITLE_BATTLESETTINGS
     $comments: |-
-      🟢, 
+      🟢,
       see `DRAGON QUEST I & II HD-2D Remake/Game-{PLATFORM}.pak:Game/Content/Santiago/Data/DataTable/Text/*/GOP_Text_Information.uasset`
       see `STT_Main_UI.SYSTXT_Main_UI_00060`
     de: Kampfeinstellungen
@@ -235013,7 +234911,7 @@ STT_CommonItem:
     zh-Hant: DUMMY
   NAME_ID_ITEM_USED_YUMEMINOHANA: &NAME_ID_ITEM_USED_YUMEMINOHANA
     $comments: |-
-      🟢, 
+      🟢,
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_ITEM_NAME_I_USE_025`
     de: Schlummerblume
     en: Sleeping Hibiscus
@@ -247446,9 +247344,12 @@ STT_DaijinamonoItem:
     zh-Hans: guangzhifen
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI]`
     de: ""
-    en: '''Hat''chlings'
+    en: "'Hat'chlings"
     es: ""
     fr: ""
     it: ""
@@ -247458,12 +247359,15 @@ STT_DaijinamonoItem:
     zh-Hans: 装着雏鸟的帽子
     zh-Hant: 裝著雛鳥的帽子
   EXPLANATION_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI]`
     de: ""
     en: |-
-      Denny's hat
-      with bird
-      chicks in it.
+      Denny's hat, in which
+      are chirping, healthy
+      baby birds
     es: ""
     fr: ""
     it: ""
@@ -247483,7 +247387,10 @@ STT_DaijinamonoItem:
       裝著活潑雛鳥的
       丹尼的帽子
   RUBY_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI]`
     de: ""
     en: ""
     es: ""
@@ -248262,7 +248169,7 @@ STT_DaijinamonoItem:
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
@@ -248277,14 +248184,14 @@ STT_DaijinamonoItem:
     zh-Hant: 百曲草之根
   EXPLANATION_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: |-
-      Crooked root
-      used to make a
-      special tea.
+      A tortuous root said
+      to be an ingredient
+      to make a special tea
     es: ""
     fr: ""
     it: ""
@@ -248307,7 +248214,7 @@ STT_DaijinamonoItem:
       特殊茶的原料
   RUBY_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE:
     $comments: |-
-      🔴
+      🟢
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
@@ -249022,7 +248929,7 @@ STT_DaijinamonoItem:
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_KAGAYAKUTENSUNOHANA:
     $comments: |-
-      🟢, 
+      🟢,
       Die, The, La, La, Il, A
     de: Glitzernde Zehner-Blume
     en: Shining Tens Flower
@@ -257511,7 +257418,7 @@ STT_DaijinamonoItem:
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_RURASUTON:
     $comments: |-
-      🟢, 
+      🟢,
       see `DQXIS_Localize.db.json:TXT_ITEM_NAME_I_S_514`
       der, la, la, la, a
     de: Teleportationsstein
@@ -258341,7 +258248,7 @@ STT_DaijinamonoItem:
       手にできる紋章
     ko: |-
       정의로운 마음이
-      깃든 사람만 
+      깃든 사람만
       가질 수 있는 문장
     pt-BR: ""
     zh-Hans: |-
@@ -260657,7 +260564,7 @@ STT_DaijinamonoItem:
   NAME_ID_ITEM_DAIJINAMONO_TASOGARENOKAJITU:
     $comments: |-
       🟢, (033) { Sub Story }, see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_022_1_010]`
-      die, las, les, le, as 
+      die, las, les, le, as
     de: Dämmerbeeren
     en: Dusk Berries
     es: Bayas del Crepúsculo
@@ -264688,8 +264595,8 @@ STT_DungeonMagicNPC:
       If you'd like to take on a Maze Boss, I can send you to
       the Magic Maze!
       <br>
-      ...You don't have a Maze Coin.	
-      If you find a Maze Coin, bring it along♪	
+      ...You don't have a Maze Coin.
+      If you find a Maze Coin, bring it along ♪
       <end>
     es: ""
     fr: ""
@@ -264698,8 +264605,8 @@ STT_DungeonMagicNPC:
       「魔法の迷宮の主と　戦いたければ
       　魔法の迷宮に送ルン！
       <br>
-      「……コインを　持ってないルン。	
-      　コインを見つけたら　持ってくるルン♪	
+      「……コインを　持ってないルン。
+      　コインを見つけたら　持ってくるルン♪
       <end>
     ko: |-
       마법의 미궁 주인과 싸우고 싶다면
@@ -264713,15 +264620,15 @@ STT_DungeonMagicNPC:
       想和魔法迷宫之主战斗的话，
       就送你进入魔法迷宫噜！
       <br>
-      ……你没有迷宫币噜。	
-      找到迷宫币的话再拿过来噜♪	
+      ……你没有迷宫币噜。
+      找到迷宫币的话再拿过来噜♪
       <end>
     zh-Hant: |-
       想和魔法迷宮之主戰鬥的話，
       就送你進入魔法迷宮嚕！
       <br>
-      ……你沒有迷宮硬幣嚕。	
-      找到迷宮硬幣的話再拿過來嚕♪	
+      ……你沒有迷宮硬幣嚕。
+      找到迷宮硬幣的話再拿過來嚕♪
       <end>
   SYSTXT_DUNGEON_MAGIC_NPC_01040:
     $comments: 🔴
@@ -270180,18 +270087,7 @@ STT_EventMonsterName:
   AQ_DWF3_4: *NAME_NPC_00462
   AQ_ELF1_5: *ID_MONSTER_NAME_05903
   AQ_ELF2_1: *ID_MONSTER_NAME_05604
-  AQ_ELF2_5:
-    $comments: 🔴
-    de: ""
-    en: Angry Pusgon
-    es: ""
-    fr: ""
-    it: ""
-    ja: 怒りのプスゴン
-    ko: 분노의 푸스곤
-    pt-BR: ""
-    zh-Hans: 愤怒普斯贡
-    zh-Hant: 憤怒普斯貢
+  AQ_ELF2_5: *STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0262
   AQ_ELF3_1: *ID_MONSTER_NAME_BOSS_0090_singular
   AQ_ELF3_1_BATTLENAME: &ID_MONSTER_NAME_BOSS_0090_plural
     $comments: 🟢
@@ -270509,18 +270405,7 @@ STT_EventMonsterName:
     zh-Hans: 鼹鼠头领
     zh-Hant: 鼴鼠頭領
   COIN_DORAGONU: *ID_MONSTER_NAME_09001
-  COIN_DRAGONGAIA:
-    $comments: 🔴
-    de: ""
-    en: Gaia Dragon
-    es: ""
-    fr: ""
-    it: ""
-    ja: ドラゴンガイア
-    ko: 드래곤 가이아
-    pt-BR: ""
-    zh-Hans: 巨龙盖亚
-    zh-Hant: 巨龍蓋亞
+  COIN_DRAGONGAIA: *STT_BattleMonsterName.ID_MONSTER_NAME_13103
   COIN_GENKAINOYONSHOKOU:
     $comments: 🔴
     de: ""
@@ -270533,7 +270418,7 @@ STT_EventMonsterName:
     pt-BR: ""
     zh-Hans: 幻界四诸侯
     zh-Hant: 幻界四諸侯
-  COIN_GIGUHANMA: *ID_MONSTER_NAME_11002
+  COIN_GIGUHANMA: *STT_BattleMonsterName.ID_MONSTER_NAME_11002
   COIN_GORUDOMAN:
     $comments: 🔴
     de: ""
@@ -271478,20 +271363,7 @@ STT_EventMonsterName:
   MS_DWF30_BATTLENAME: *NAME_NPC_00461__plural
   MS_DWF31: *NAME_NPC_00462
   MS_ELF10: *NAME_NPC_00402
-  MS_ELF20:
-    $comments: |-
-      🟢, (07/10) The Story of Azlan [ Key Emblem - Green ] { Main Story }
-      see `Game.locres.json:[STT_NpcInfo.NAME_NPC_00400, STT_CareerStoryVer1.SYSTXT_CAREER_STORY_ELF2_013]`
-    de: Monster Pusgon
-    en: Monster Pusgon
-    es: Monstruo Pusgon
-    fr: Monstre Pusgon
-    it: Mostro Pusgon
-    ja: 怪獣プスゴン
-    ko: 괴수 푸스곤
-    pt-BR: Monstro Pusgon
-    zh-Hans: 怪兽普斯贡
-    zh-Hant: 怪獸普斯貢
+  MS_ELF20: *STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0260
   MS_ELF30: *NAME_NPC_01115
   MS_ELF30_BATTLENAME:
     $comments: 🔴
@@ -271748,57 +271620,16 @@ STT_EventMonsterName_2nd: #pakchunk2-{PLATFORM}.utoc/Game/Content/DLC/Ver2/Strin
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  KQ_111_1:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: ドラゴンガイア・双
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  KQ_111_2:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: ヴォルカドラゴン
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  KQ_111_3_1:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: ギーグハンマー
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  KQ_111_3_2:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: ギーグハンマー・狂
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  KQ_111_4_1: *ID_MONSTER_NAME_00208
+  KQ_111_1: *STT_BattleMonsterName.ID_MONSTER_NAME_13105
+  KQ_111_2: *STT_BattleMonsterName.ID_MONSTER_NAME_16002
+  KQ_111_3_1: *STT_BattleMonsterName.ID_MONSTER_NAME_11002
+  KQ_111_3_2: *STT_BattleMonsterName.ID_MONSTER_NAME_11006
+  KQ_111_4_1: *STT_BattleMonsterName.ID_MONSTER_NAME_00208
   KQ_111_4_2:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (255) SYSTEXT_QUESTLIST_NAME_KQ_111_4 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_4_???, STT_BattleMonsterName.ID_MONSTER_NAME_00208]`
     de: ""
     en: Ace's Forces
     es: ""
@@ -271809,18 +271640,7 @@ STT_EventMonsterName_2nd: #pakchunk2-{PLATFORM}.utoc/Game/Content/DLC/Ver2/Strin
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  KQ_131_1:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: しびれくらげ先生
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  KQ_131_1: *STT_BattleMonsterName.ID_MONSTER_NAME_01407
   GK_001: *STT_BattleMonsterName.ID_MONSTER_NAME_13306
   GK_002:
     $comments: |-
@@ -284091,7 +283911,7 @@ STT_FieldMapSys:
   SYSTXT_FIELD_MAP_00010:
     $comments: |-
       🟢, ~15ch long
-      Orte der , Lugares de , Lieux des , Luoghi dei , Locais de 
+      Orte der , Lugares de , Lieux des , Luoghi dei , Locais de
     de: Quests
     en: Quests
     es: Búsquedas
@@ -284105,7 +283925,7 @@ STT_FieldMapSys:
   SYSTXT_FIELD_MAP_00020:
     $comments: |-
       🟢, ~15ch long
-      Orte der , Lugares de , Lieux des , Luoghi dei , Locais de 
+      Orte der , Lugares de , Lieux des , Luoghi dei , Locais de
     de: Charaktere
     en: Characters
     es: Personajes
@@ -284119,7 +283939,7 @@ STT_FieldMapSys:
   SYSTXT_FIELD_MAP_00030:
     $comments: |-
       🟢, ~15ch long
-      Orte der , Lugares de , Lieux des , Luoghi dei , Locais de 
+      Orte der , Lugares de , Lieux des , Luoghi dei , Locais de
     de: Einrichtungen
     en: Facilities
     es: Instalaciones
@@ -319016,22 +318836,22 @@ STT_JobChangeSys:
       With great power and can be relied
       upon to protect his allies both
       offensively and defensively.
-      
+
     es: |-
       Los guerreros aprovechan su fuerza y
       resistencia para causar daños graves
       y defender a sus aliados.
-      
+
     fr: |-
       Ces puissants et endurants boucliers
       sont au cœur de l'attaque et de la
       défense.
-      
+
     it: |-
       I guerrieri sfruttano forza e vigore
       fisico per infliggere danni e
       proteggere gli alleati.
-      
+
     ja: |-
       チカラが強く　攻守にわたって
       仲間を守る　頼れる存在。
@@ -329646,7 +329466,10 @@ STT_LoadingTips:
     zh-Hans: 人物介绍：达利娅
     zh-Hant: 人物介紹：妲莉亞
   SYSTXT_TIPS_TITLE_DEYEGO:
-    $comments: 🟢
+    $comments: |-
+      🟢
+      (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_000, STT_NpcInfo.NAME_NPC_02988]`
     de: 'Profil: Diego'
     en: 'Profile: Diego'
     es: 'Perfil: Diego'
@@ -330021,7 +329844,9 @@ STT_LoadingTips:
     zh-Hans: 词语解释：光辉泰恩斯之花
     zh-Hant: 用語解說：光輝泰恩斯之花
   SYSTXT_TIPS_TITLE_KAIJYUPUSUGON:
-    $comments: 🟢
+    $comments: |-
+      🟢
+      see [STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0260]
     de: 'Profil: Das Monster, Pusgon'
     en: 'Profile: The Monster, Pusgon'
     es: 'Perfil: El Monstruo, Pusgon'
@@ -330696,7 +330521,10 @@ STT_LoadingTips:
     zh-Hans: 人物介绍：萨达克
     zh-Hant: 人物介紹：薩達克
   SYSTXT_TIPS_TITLE_SARIASU:
-    $comments: 🟢
+    $comments: |-
+      🟢
+      (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_3_000, STT_NpcInfo.NAME_NPC_03027]`
     de: 'Profil: Sarias'
     en: 'Profile: Sarias'
     es: 'Perfil: Sarias'
@@ -330831,7 +330659,10 @@ STT_LoadingTips:
     zh-Hans: 状态知识
     zh-Hant: 狀態的知識
   SYSTXT_TIPS_TITLE_SUKIRUMASUTA:
-    $comments: 🟢
+    $comments: |-
+      🟢
+      (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_000, STT_NpcInfo.NAME_NPC_02987]`
     de: 'Profil: Fähigkeitenmeister'
     en: 'Profile: Skill Master'
     es: 'Perfil: Maestro de Habilidades'
@@ -330855,7 +330686,10 @@ STT_LoadingTips:
     zh-Hans: 人物介绍：斯宾多尔士兵长
     zh-Hant: 人物介紹：斯賓德士兵長
   SYSTXT_TIPS_TITLE_TATTUY:
-    $comments: 🟢
+    $comments: |-
+      🟢
+      (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_000, STT_NpcInfo.NAME_NPC_02781]`
     de: 'Profil: Tazzy'
     en: 'Profile: Tazzy'
     es: 'Perfil: Tazzy'
@@ -361362,12 +361196,18 @@ STT_Monster_Tips1_ver1:
       勇敢的魔鳥軍團團長。
       牠的口號是：
       恐怖來自卡爾薩朵拉！
-  SYSTXT_MONSTER_TIPS1_MONSTER_NO_09601:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS1_MONSTER_NO_09601: &STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_09601
+    $comments: |-
+      🟡
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_09601]`
+      *STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_09601
     de: ""
     en: |-
-      A brutal and frightening demonic bird that feeds on human carrion.
-      It slashes twice with its sharp claws to ensure it kills its prey.
+      A cruel and frightening bird monster
+      said to feed on human corpses.
+      With its sharp claws it slashes twice
+      to ensure that it kills its prey.
     es: ""
     fr: ""
     it: ""
@@ -377904,13 +377744,18 @@ STT_Monster_Tips2_ver1:
       一部分世界的強者。
       為了奪回曾經的榮耀，
       魔鳥頭目今天也會努力。
-  SYSTXT_MONSTER_TIPS2_MONSTER_NO_09601:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS2_MONSTER_NO_09601: &STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_09601
+    $comments: |-
+      🟡
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_09601]`
+      *STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_09601
     de: ""
     en: |-
-      He has terrifying hell ears and is said to be the most nervous in the monster world.
-      I really hate the chanting of wizards.
-      My purpose in life is to get in the way.
+      It has one hell of a pair of ears, said to
+      be the most sensitive in the monster world.
+      It has a great hatred for spell-users'
+      chanting, and it lives to disrupt them.
     es: ""
     fr: ""
     it: ""
@@ -387040,14 +386885,16 @@ STT_Monster_Tips1_ver2:
       怨恨主題歌手。
   SYSTXT_MONSTER_TIPS1_MONSTER_NO_14602: &STT_Monster_Tips1_ver2.SYSTXT_MONSTER_TIPS1_MONSTER_NO_14602
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_14602]`
       *STT_Monster_Tips1_ver2.SYSTXT_MONSTER_TIPS1_MONSTER_NO_14602
     de: ""
     en: |-
-      A big name in the kelp world who has thousands of kelp monsters under his control.
-      Ignite the hearts of your friends with your majestic baritone.
+      A big name in the kelp world who has
+      several 1000s of kelp monsters under
+      its command. Ignites its friends'
+      hearts with its majestic baritone.
     es: ""
     fr: ""
     it: ""
@@ -393269,16 +393116,16 @@ STT_Monster_Tips2_Ver2:
       是個非常令人意外的存在。
   SYSTXT_MONSTER_TIPS2_MONSTER_NO_14602: &STT_Monster_Tips2_Ver2.SYSTXT_MONSTER_TIPS2_MONSTER_NO_14602
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_14602]`
       *STT_Monster_Tips2_Ver2.SYSTXT_MONSTER_TIPS2_MONSTER_NO_14602
     de: ""
     en: |-
-      Graduated at the top of his class from Seaweed Military Academy.
-      His exploits in many battles
-      He won the promotion competition with his rivals
-      Finally, he was promoted to the rank of general.
+      Graduated at the top of his class from
+      Seaweed Military Academy. After many feats
+      in battle, it won the competition against
+      its rival, and was promoted to "General".
     es: ""
     fr: ""
     it: ""
@@ -402100,21 +401947,7 @@ STT_NpcInfo:
     pt-BR: ""
     zh-Hans: 茄子怪
     zh-Hant: 茄子精
-  NAME_NPC_00400:
-    $comments: |-
-      🟢, N
-      (07/10) The Story of Azlan [ Key Emblem - Green ] { Main Story }
-      see `[STT_CareerStoryVer1.SYSTXT_CAREER_STORY_ELF2_013]`
-    de: Monster Pusgon
-    en: Monster Pusgon
-    es: Monstruo Pusgon
-    fr: Monstre Pusgon
-    it: Mostro Pusgon
-    ja: 怪獣プスゴン
-    ko: 괴수 푸스곤
-    pt-BR: Monstro Pusgon
-    zh-Hans: 怪兽普斯贡
-    zh-Hant: 怪獸普斯貢
+  NAME_NPC_00400: *STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0260
   NAME_NPC_00401: *NAME_NPC_00401
   NAME_NPC_00402: *NAME_NPC_00402
   NAME_NPC_00403:
@@ -418824,18 +418657,7 @@ STT_NpcInfo:
     pt-BR: ""
     zh-Hans: 防具商罗库亚
     zh-Hant: 防具商羅克亞
-  NAME_NPC_01798:
-    $comments: 🔴, N
-    de: ""
-    en: Sir Man o' War
-    es: ""
-    fr: ""
-    it: ""
-    ja: しびれくらげ先生
-    ko: 저릿해파리 선생
-    pt-BR: ""
-    zh-Hans: 麻痹水母老师
-    zh-Hant: 麻痺水母老師
+  NAME_NPC_01798: *STT_BattleMonsterName.ID_MONSTER_NAME_01407
   NAME_NPC_01799:
     $comments: 🔴, M
     de: ""
@@ -420861,7 +420683,9 @@ STT_NpcInfo:
     $comments: |-
       🟢, M
       (09/11) Story of Melsandy [ 3 Butterflies - Silver ] { Main Story }
-      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS2_011, STT_NpcInfo.NAME_NPC_01970]`
+      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS2_011]`
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_000, STT_NpcInfo.NAME_NPC_01970]`
     de: Denny
     en: Denny
     es: Denny
@@ -421831,7 +421655,9 @@ STT_NpcInfo:
     $comments: |-
       🟢, F
       (12/29) Story of Gran Zedora [ 3 Butterflies - Anlucia's Memories ] { Main Story }
-      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS5_017, STT_NpcInfo.NAME_NPC_02049]`
+      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS5_017]`
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_010, STT_NpcInfo.NAME_NPC_02049]`
     de: Lira
     en: Lira
     es: Lira
@@ -425819,17 +425645,19 @@ STT_NpcInfo:
     zh-Hant: 德爾巴蘭
   NAME_NPC_02365:
     $comments: |-
-      🟡, M
+      🟢, M
       (02/29) Story of Gran Zedora [ 3 Butterflies - Anlucia's Memories ] { Main Story }
-      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS5_002, STT_NpcInfo.NAME_NPC_02365]`
-    de: ""
+      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS5_002]`
+      (222) SYSTEXT_QUESTLIST_NAME_FQ_108_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_108_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_108_1_000, STT_NpcInfo.NAME_NPC_02365]`
+    de: Norman
     en: Norman
-    es: ""
-    fr: ""
-    it: ""
+    es: Norman
+    fr: Norman
+    it: Norman
     ja: ノーマン
     ko: 노만
-    pt-BR: ""
+    pt-BR: Norman
     zh-Hans: 诺曼
     zh-Hant: 諾曼
   NAME_NPC_02366:
@@ -430898,15 +430726,18 @@ STT_NpcInfo:
     zh-Hans: 交易商莱坡里妮
     zh-Hant: 交易商蕾波莉妮
   NAME_NPC_02781:
-    $comments: 🔴, M
-    de: ""
+    $comments: |-
+      🟢, M
+      (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_000, STT_NpcInfo.NAME_NPC_02781]`
+    de: Fähigkeitenmeister
     en: Skill Master
-    es: ""
-    fr: ""
-    it: ""
+    es: Maestro de Habilidades
+    fr: Maître des Habiletés
+    it: Maestro delle Abilità
     ja: スキルマスター
     ko: 스킬 마스터
-    pt-BR: ""
+    pt-BR: Mestre de Habilidades
     zh-Hans: 技能大师
     zh-Hant: 技能大師
   NAME_NPC_02782:
@@ -431178,6 +431009,8 @@ STT_NpcInfo:
       🟢, M
       (01/??) Story of the Land of Overlapping Fates [ Pendulum of Fate ] { Main Story }
       see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_SIN1_001, STT_NpcInfo.NAME_NPC_02803]`
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_020, STT_NpcInfo.NAME_NPC_02803]`
     de: Azim
     en: Azim
     es: Azim
@@ -431298,6 +431131,8 @@ STT_NpcInfo:
       🟢, F
       (01/??) Story of the Land of Overlapping Fates [ Pendulum of Fate ] { Main Story }
       see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_SIN1_001, STT_NpcInfo.NAME_NPC_02811]`
+      (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_010, STT_NpcInfo.NAME_NPC_02811]`
     de: Casey
     en: Casey
     es: Casey
@@ -432822,6 +432657,8 @@ STT_NpcInfo:
       🟢, F
       (02/29) Story of Gran Zedora [ 3 Butterflies - Anlucia's Memories ] { Main Story }
       see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS5_002, STT_NpcInfo.NAME_NPC_02928]`
+      (222) SYSTEXT_QUESTLIST_NAME_FQ_108_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_108_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_108_1_000, STT_NpcInfo.NAME_NPC_02928]`
     de: Noor
     en: Noor
     es: Noor
@@ -433535,27 +433372,33 @@ STT_NpcInfo:
     zh-Hans: 犍陀多小弟
     zh-Hant: 犍陀多的小弟
   NAME_NPC_02987:
-    $comments: 🔴, M
-    de: ""
-    en: Tazzi
-    es: ""
-    fr: ""
-    it: ""
+    $comments: |-
+      🟢, M
+      (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_000, STT_NpcInfo.NAME_NPC_02987]`
+    de: Tazzy
+    en: Tazzy
+    es: Tazzy
+    fr: Tazzy
+    it: Tazzy
     ja: タッツィ
     ko: 탓치
-    pt-BR: ""
+    pt-BR: Tazzy
     zh-Hans: 达兹伊
     zh-Hant: 達茲伊
   NAME_NPC_02988:
-    $comments: 🔴, M
-    de: ""
+    $comments: |-
+      🟢, M
+      (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_000, STT_NpcInfo.NAME_NPC_02988]`
+    de: Diego
     en: Diego
-    es: ""
-    fr: ""
-    it: ""
+    es: Diego
+    fr: Diego
+    it: Diego
     ja: ディエゴ
     ko: 디에고
-    pt-BR: ""
+    pt-BR: Diego
     zh-Hans: 迭戈
     zh-Hant: 迪亞哥
   NAME_NPC_02989:
@@ -434020,15 +433863,18 @@ STT_NpcInfo:
     zh-Hans: 马车
     zh-Hant: ""
   NAME_NPC_03027:
-    $comments: 🔴, M
-    de: ""
+    $comments: |-
+      🟢, M
+      (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_3_000, STT_NpcInfo.NAME_NPC_03027]`
+    de: Sarias
     en: Sarias
-    es: ""
-    fr: ""
-    it: ""
+    es: Sarias
+    fr: Sarias
+    it: Sarias
     ja: サリアス
     ko: 사리아스
-    pt-BR: ""
+    pt-BR: Sarias
     zh-Hans: 萨利亚斯
     zh-Hant: 薩利亞斯
   NAME_NPC_03028:
@@ -434683,30 +434529,8 @@ STT_NpcInfo:
     pt-BR: ""
     zh-Hans: 交易商梅丽娅
     zh-Hant: 交易商梅麗亞
-  NAME_NPC_03082:
-    $comments: 🔴, N
-    de: ""
-    en: Double Gaia Dragon
-    es: ""
-    fr: ""
-    it: ""
-    ja: ドラゴンガイア・双
-    ko: 드래곤 가이아(쌍)
-    pt-BR: ""
-    zh-Hans: 巨龙盖亚·双
-    zh-Hant: 巨龍蓋亞‧雙
-  NAME_NPC_03083:
-    $comments: 🔴, N
-    de: ""
-    en: Volcanic Dragon
-    es: ""
-    fr: ""
-    it: ""
-    ja: ヴォルカドラゴン
-    ko: 볼카 드래곤
-    pt-BR: ""
-    zh-Hans: 火山巨龙
-    zh-Hant: 火山巨龍
+  NAME_NPC_03082: *STT_BattleMonsterName.ID_MONSTER_NAME_13105
+  NAME_NPC_03083: *STT_BattleMonsterName.ID_MONSTER_NAME_16002
   NAME_NPC_03084:
     $comments: 🔴, N
     de: ""
@@ -434859,19 +434683,8 @@ STT_NpcInfo:
     pt-BR: ""
     zh-Hans: 佩里砰
     zh-Hant: 佩里朋
-  NAME_NPC_03096:
-    $comments: 🔴, N
-    de: ""
-    en: Mad Giga Clubber
-    es: ""
-    fr: ""
-    it: ""
-    ja: ギーグハンマー・狂
-    ko: 기그 해머(광)
-    pt-BR: ""
-    zh-Hans: 吉格巨锤·狂
-    zh-Hant: 吉格巨錘‧狂
-  NAME_NPC_03097: *ID_MONSTER_NAME_00208
+  NAME_NPC_03096: *STT_BattleMonsterName.ID_MONSTER_NAME_11006
+  NAME_NPC_03097: *STT_BattleMonsterName.ID_MONSTER_NAME_00208
   NAME_NPC_03098:
     $comments: 🔴, M
     de: ""
@@ -606122,7 +605935,7 @@ STT_PT_Talk:
       　ミシュアさんが　ふたりいるなんて……。
     ko: |-
       우리가 아는 미슈아 씨는
-      　어디로 간 걸까요? 
+      　어디로 간 걸까요?
       　미슈아 씨가 두 명이라니…….
     pt-BR: ""
     zh-Hans: |-
@@ -606167,7 +605980,7 @@ STT_PT_Talk:
       　別人になってるじゃねえか。
       　あのミシュアは　誰なんだよ……。
     ko: |-
-      미슈아가…… 완전히 
+      미슈아가…… 완전히
       　다른 사람이 됐잖아.
       　저 미슈아는 대체 누구지……?
     pt-BR: ""
@@ -653685,7 +653498,7 @@ STT_PT_Talk:
       　育成していくことで
       　歴史は　また　紡がれていくのね……。
     ko: |-
-      루지나 씨가 후계자를 
+      루지나 씨가 후계자를
       　양성하면 다시 역사가 이어지겠군요…….
     pt-BR: ""
     zh-Hans: |-
@@ -653763,7 +653576,7 @@ STT_PT_Talk:
       「昔は　温泉の守り人さんが　
       　神の緋石を　守っていたんだよね？
     ko: |-
-      옛날에는 온천 수호자가 
+      옛날에는 온천 수호자가
       　신의 붉은 돌을 지켰던 거죠?
     pt-BR: ""
     zh-Hans: |-
@@ -704096,13 +703909,13 @@ STT_QuestListDetail:
       現在，通往冷達西亞的大門即將被打開……
   SYSTEXT_QUESTLIST_NAME_FQ_101_1_000:
     $comments: |-
-      🔴
-      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 [ n/a ] { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_000]`
+      🟡
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_000, STT_NpcInfo.NAME_NPC_01970]`
     de: ""
     en: |-
-      In <ituwari> Melsandy Village, a young man, Denny, seems to be troubled
-      by something.
+      In <ituwari> Melsandy Village, a young man, Denny, seems to be troubled by
+      something.
     es: ""
     fr: ""
     it: ""
@@ -704119,13 +703932,13 @@ STT_QuestListDetail:
       似乎遇到什麼困擾。
   SYSTEXT_QUESTLIST_NAME_FQ_101_1_005:
     $comments: |-
-      🔴
-      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 [ n/a ] { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_005]`
+      🟡
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_005, STT_NpcInfo.NAME_NPC_01970]`
     de: ""
     en: |-
-      In <ituwari> Melsandy Village, Denny asked me to find his lost hat in
-      <ituwari> Rhone Forest Belt!
+      In <ituwari> Melsandy Village, Denny asked us to find his lost hat in <ituwari>
+      Rhone Forest Belt!
     es: ""
     fr: ""
     it: ""
@@ -704147,14 +703960,14 @@ STT_QuestListDetail:
       遺失的帽子。
   SYSTEXT_QUESTLIST_NAME_FQ_101_1_010:
     $comments: |-
-      🔴
-      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 [ n/a ] { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_010]`
+      🟡
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_010, STT_NpcInfo.NAME_NPC_01970, STT_BattleMonsterName.ID_MONSTER_NAME_09601]`
     de: ""
     en: |-
-      In <ituwari> Melsandy Village, Denny asked me to find his lost hat in
-      <ituwari> Rhone Forest Belt! It seems that a <%sEV_QUE_NAME0> in <ituwari>
-      Rhone Forest Belt has the hat.
+      In <ituwari> Melsandy Village, Denny asked us to find his lost hat in <ituwari>
+      Rhone Forest Belt! It seems that a <%sEV_QUE_NAME0> in <ituwari> Rhone Forest Belt
+      has the hat.
     es: ""
     fr: ""
     it: ""
@@ -704177,14 +703990,14 @@ STT_QuestListDetail:
       帽子似乎被<ituwari>羅努樹林地帶的<%sEV_QUE_NAME0>抓在手裡。
   SYSTEXT_QUESTLIST_NAME_FQ_101_1_020:
     $comments: |-
-      🔴
-      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 [ n/a ] { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_020]`
+      🟡
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_020, STT_NpcInfo.NAME_NPC_01970, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI]`
     de: ""
     en: |-
-      In <ituwari> Melsandy Village, Denny asked me to find his lost hat in
-      <ituwari> Rhone Forest Belt! When I defeated the monster that stole
-      Denny's hat, I found baby birds inside the hat. Let's take them to
+      In <ituwari> Melsandy Village, Denny asked us to find his lost hat in
+      <ituwari> Rhone Forest Belt! When we defeated the monster that stole
+      Denny's hat, we found baby birds inside the hat. Let's take them to
       Denny.
     es: ""
     fr: ""
@@ -704212,15 +704025,15 @@ STT_QuestListDetail:
       鑽進了雛鳥。帶去給丹尼吧。
   SYSTEXT_QUESTLIST_NAME_FQ_101_1_030:
     $comments: |-
-      🔴
-      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 [ n/a ] { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_030]`
+      🟡
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_030, STT_NpcInfo.NAME_NPC_01970, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI]`
     de: ""
     en: |-
-      In <ituwari> Melsandy Village, at Denny's request, I searched for his lost
+      At the request of Denny in <ituwari> Melsandy Village, we searched for his lost
       hat. The hat was found, but inside it were baby birds. Denny decided to
-      give the hat to the hatchlings and wanted me to return them to the
-      green sapling near the northwest of the Rhone Forest Belt!
+      give the hat to the 'Hat'chlings and wanted me to return them to the green
+      sapling near the northwest of the Rhone Forest Belt!
     es: ""
     fr: ""
     it: ""
@@ -704247,16 +704060,16 @@ STT_QuestListDetail:
       <ituwari>羅努樹林地帶西北方的綠葉小樹上。
   SYSTEXT_QUESTLIST_NAME_FQ_101_1_040:
     $comments: |-
-      🔴
-      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 [ n/a ] { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_040]`
+      🟡
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_040, STT_NpcInfo.NAME_NPC_01970, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI]`
     de: ""
     en: |-
-      In <ituwari> Melsandy Village, at Denny's request, I searched for his lost
-      hat, but found baby birds inside it. Denny asked me to return the
-      hat to the forest, and entrusted me to put it in the green sapling;
-      the mama bird came and carried off the 'Hat'chlings, hat and all.
-      Let's report to Denny.
+      At the request of Denny in <ituwari> Melsandy Village, we searched for his lost
+      hat, but found baby birds inside it. Denny asked us to return the hat to
+      the forest, and entrusted us to put it in the green sapling; the mama bird
+      came and carried off the 'Hat'chlings—hat and all.
+      Let's report back to Denny.
     es: ""
     fr: ""
     it: ""
@@ -704283,15 +704096,15 @@ STT_QuestListDetail:
       母鳥便飛來將雛鳥們帶走了。去向丹尼報告吧。
   SYSTEXT_QUESTLIST_NAME_FQ_101_1_200:
     $comments: |-
-      🔴
-      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 [ n/a ] { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_200]`
+      🟡
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_200, STT_NpcInfo.NAME_NPC_01970, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI]`
     de: ""
     en: |-
-      In <ituwari> Melsandy Village, at Denny's request, I searched for his lost
-      hat, but found baby birds inside it. Denny asked me to return the
-      hat to the forest, and entrusted me to put it in the green sapling;
-      the mama bird came and carried off the 'Hat'chlings, hat and all.
+      At the request of Denny in <ituwari> Melsandy Village, we searched for his lost
+      hat, but found baby birds inside it. Denny asked us to return the hat to
+      the forest, and entrusted us to put it in the green sapling; the mama bird
+      came and carried off the 'Hat'chlings—hat and all.
       Having heard the report, Denny seemed satisfied.
     es: ""
     fr: ""
@@ -705642,7 +705455,10 @@ STT_QuestListDetail:
       格雷塔爾使用笛子召集人手，舉辦了盛大的捉迷藏大會。
       捉迷藏應該能取代戰鬥秀，成為艾拉哈奇羅王國的娛樂吧。
   SYSTEXT_QUESTLIST_NAME_FQ_108_1_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (222) SYSTEXT_QUESTLIST_NAME_FQ_108_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_108_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_108_1_000, STT_NpcInfo.NAME_NPC_02928]`
     de: ""
     en: |-
       In <ituwari> Gran Zedora Castle's gardener's shed, a girl, Noor, seems
@@ -705664,11 +705480,14 @@ STT_QuestListDetail:
       <ituwari>古蘭澤朵拉城園丁小屋的少女
       諾雅似乎有什麼煩惱。
   SYSTEXT_QUESTLIST_NAME_FQ_108_1_005:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (222) SYSTEXT_QUESTLIST_NAME_FQ_108_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_108_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_108_1_005, STT_NpcInfo.NAME_NPC_02928]`
     de: ""
     en: |-
-      In <ituwari> Gran Zedora Castle's gardener's shed, Noor asked me to help
-      model for her so she can make a doll to be her friend!
+      In <ituwari> Gran Zedora Castle's gardener's shed, Noor asked us to help
+      model for her, so she can make a doll to be her friend!
     es: ""
     fr: ""
     it: ""
@@ -705690,14 +705509,17 @@ STT_QuestListDetail:
       希望能成為玩偶朋友的原型，
       協助諾雅製作玩偶朋友。
   SYSTEXT_QUESTLIST_NAME_FQ_108_1_010:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (222) SYSTEXT_QUESTLIST_NAME_FQ_108_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_108_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_108_1_010, STT_NpcInfo.NAME_NPC_02928]`
     de: ""
     en: |-
-      In <ituwari> Gran Zedora Castle's gardener's shed, Noor asked me to help
-      her so she can make a doll! In order to give Noor inspiration, it seems
-      she wants me to return while wearing my tribe's traditional clothing.
-      Let's change into a complete set of my tribe's traditional clothes,
-      that are sold in my hometown, and return to Noor.
+      In <ituwari> Gran Zedora Castle's gardener's shed, Noor asked us to help her
+      so she can make a doll! In order to give Noor inspiration, it seems she
+      wants us to return while wearing our tribe's traditional clothing. Let's
+      change into a complete set of our tribe's traditional clothes, that are sold
+      in our hometown, and return to Noor.
     es: ""
     fr: ""
     it: ""
@@ -705723,13 +705545,15 @@ STT_QuestListDetail:
       似乎希望你能換穿具有種族特徵的服裝回來。
       換上故鄉販賣的整套種族服裝後，再回來找諾雅吧。
   SYSTEXT_QUESTLIST_NAME_FQ_108_1_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (222) SYSTEXT_QUESTLIST_NAME_FQ_108_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_108_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_108_1_020, STT_NpcInfo.NAME_NPC_02928, Event_Common.EVENTTEXT_CONVERT_FQ1081_NUIGURUMI_[A-C]]`
     de: ""
     en: |-
-      In <ituwari> Gran Zedora Castle's gardener's shed, Noor asked me to help
-      her so she can make a doll! After seeing my tribe's clothes and
-      seemingly bursting with inspiration, Noor pulled out a small, silver
-      sewing needle.
+      In <ituwari> Gran Zedora Castle's gardener's shed, Noor asked us to help her
+      so she can make a doll! After seeing our tribe's clothes and seemingly
+      bursting with inspiration, Noor pulled out a small, silver sewing needle.
     es: ""
     fr: ""
     it: ""
@@ -705755,13 +705579,16 @@ STT_QuestListDetail:
       看著種族服裝似乎湧現了靈感，
       再來就將銀製裁縫小針送去給諾雅吧。
   SYSTEXT_QUESTLIST_NAME_FQ_108_1_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (222) SYSTEXT_QUESTLIST_NAME_FQ_108_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_108_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_108_1_200, STT_NpcInfo.NAME_NPC_02928, Event_Common.EVENTTEXT_CONVERT_FQ1081_NUIGURUMI_[A-C]]`
     de: ""
     en: |-
-      In <ituwari> Gran Zedora Castle's gardener's shed, Noor asked me to help
-      her so she can make a doll! After successfully creating her doll friend,
-      Noor seemed to realize that it was fun making something. It appears
-      she's excited to spend time with her doll friend every day.
+      In <ituwari> Gran Zedora Castle's gardener's shed, Noor asked us to help her so
+      she can make a doll! After successfully creating her doll-friend, Noor
+      seemed to realize that it was fun making something. It appears that she's
+      excited to spend time with her doll-friend every day.
     es: ""
     fr: ""
     it: ""
@@ -705788,12 +705615,12 @@ STT_QuestListDetail:
       要跟玩偶朋友一起愉快地度過每一天。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_000:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_000, STT_NpcInfo.NAME_NPC_02799]`
     de: ""
     en: |-
-      In Gran Zedora Castle (2F), the soldier, Marton, seems to be\ntroubled.
+      In Gran Zedora Castle (2F), the soldier, Marton, seems to be troubled.
     es: ""
     fr: ""
     it: ""
@@ -705812,14 +705639,13 @@ STT_QuestListDetail:
       似乎遇到什麼困擾。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_005:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_005, STT_NpcInfo.NAME_NPC_02799]`
     de: ""
     en: |-
-      In Gran Zedora Castle (2F), Would you please lend your
-      power to the soldier Marton
-      in order to give a gift that will please Lushenda the Wise? asked
+      In Gran Zedora Castle (2F), the soldier, Marton, asked that we lend him
+      our strength to get Sage Lushenda a gift that she would happily receive!
     es: ""
     fr: ""
     it: ""
@@ -705841,17 +705667,16 @@ STT_QuestListDetail:
       希望能助他一臂之力。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_010:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_010, STT_NpcInfo.NAME_NPC_02799]`
     de: ""
     en: |-
-      In Gran Zedora Castle (2F), I would like the soldier Malton on the second floor of Gran Zedora
-      Castle to lend me his power in order to give the wise Lushenda a
-      gift that will make her happy! First of all, he decided to gather
-      information in order to know what gift to give. The maids in the
-      servant's room on the third floor seem to be privy to rumors within
-      the castle.
+      In Gran Zedora Castle (2F), the soldier, Marton, asked that we lend him
+      our strength to get Sage Lushenda a gift that she would happily receive!
+      First, to know what would be good to give, he needs to gather info.
+      The maids in the third floor's servant chamber should have details
+      about rumors around castle.
     es: ""
     fr: ""
     it: ""
@@ -705878,17 +705703,16 @@ STT_QuestListDetail:
       ３樓隨從房間的侍女們似乎對城內的傳聞很瞭解。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_020:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_020, STT_NpcInfo.NAME_NPC_02799]`
     de: ""
     en: |-
-      In Gran Zedora Castle (2F), I would like to ask Malton, the soldier on the second floor of Gran
-      Zedora Castle, to lend me his power in order to give a
-      gift to Lushenda the Sage! After collecting
-      information about Lushenda, he finds out that Lushenda and her
-      gardener, Azim, are holding a secret tea party. He's in the courtyard,
-      so let's talk to Azim.
+      In Gran Zedora Castle (2F), the soldier, Marton, asked that we lend him
+      our strength to get Sage Lushenda a gift that she would happily receive!
+      As a result of gathering info on Lushenda, we learned about her and the
+      gardener, Azim, holding tea parties. Let's try hearing from Azim in the
+      courtyard.
     es: ""
     fr: ""
     it: ""
@@ -705915,18 +705739,17 @@ STT_QuestListDetail:
       有在舉辦祕密茶會。去向中庭的阿茲姆打聽看看吧。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_030:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_NpcInfo.NAME_NPC_02799]`
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_NpcInfo.NAME_NPC_02799, STT_BattleMonsterName.ID_MONSTER_NAME_14602, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
+      <%nEV_QUE_T_NUM0>=10
     de: ""
     en: |-
-      In Gran Zedora Castle (2F), Soldier Malton asked me to
-      lend him your power in order to give
-      a gift to the wise Lushenda. As told by the gardener Azim,
-      we are going to recover <%nEV_QUE_T_NUM0> roots of Hyakumagari from
-      <%sEV_QUE_NAME0> in
-      Coniware Plains. He is currently collecting <%nEV_QUE_N_NUM0>
-      Hyakumagari roots.
+      In Gran Zedora Castle (2F), the soldier, Marton, asked that we lend him
+      our strength to get Sage Lushenda a gift that she would happily receive!
+      After speaking with the gardener, Azim, we decided to recover <%nEV_QUE_T_NUM0>
+      100-Bend Roots from <%sEV_QUE_NAME0>s in Coniware Plains.
+      <%nEV_QUE_N_NUM0> 100-Bend Roots collected so far.
     es: ""
     fr: ""
     it: ""
@@ -705953,17 +705776,16 @@ STT_QuestListDetail:
       <%nEV_QUE_T_NUM0>根百曲草之根。目前已收集了<%nEV_QUE_N_NUM0>根百曲草之根。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_040:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_040, STT_NpcInfo.NAME_NPC_02799]`
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_040, STT_NpcInfo.NAME_NPC_02799, STT_BattleMonsterName.ID_MONSTER_NAME_14602, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: |-
-      In Gran Zedora Castle (2F), Soldier Malton asked me to
-      lend him your power in order to give
-      a gift to the wise Lushenda. After receiving
-      information from the gardener Azim, he defeated <%sEV_QUE_NAME0> in
-      Coniware Plains and obtained the
-      Hyakumagari root. Let's go deliver it to Marton.
+      In Gran Zedora Castle (2F), the soldier, Marton, asked that we lend him
+      our strength to get Sage Lushenda a gift that she would happily receive!
+      After getting info from the gardener, Azim, we defeated <%sEV_QUE_NAME0>s
+      in Coniware Plains, and obtained the 100-Bend Root.
+      Let's go deliver it to Marton.
     es: ""
     fr: ""
     it: ""
@@ -705990,16 +705812,15 @@ STT_QuestListDetail:
       送去給瑪爾頓吧。
   SYSTEXT_QUESTLIST_NAME_FQ_111_1_200:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_200, STT_NpcInfo.NAME_NPC_02799]`
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_200, STT_NpcInfo.NAME_NPC_02799, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: |-
-      In Gran Zedora Castle (2F), Soldier Marton asks you to
-      lend him your power to give a gift to the Sage Lushenda.
-      Obtain the Hyakumagari root, which is the raw material for tea that
-      Lushenda is brewing. Delivered to Malton. I received his thank
-      you gift from Malton.
+      In Gran Zedora Castle (2F), the soldier, Marton, asked that we lend him
+      our strength to get Sage Lushenda a gift that she would happily receive!
+      We obtained the 100-Bend Root, which is the tea-ingredient that Lushenda
+      brews, delivered it to Marton, and received a token of his appreciation.
     es: ""
     fr: ""
     it: ""
@@ -723497,11 +723318,14 @@ STT_QuestListDetail:
       由於已在穆里爾森林取得夢色噴霧器，交給珀珀爾後
       終於完成了魔法換裝術，已可使用個性搭配了！
   SYSTEXT_QUESTLIST_NAME_KQ_111_1_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_000, STT_NpcInfo.NAME_NPC_02781]`
     de: ""
     en: |-
-      It appears that a mysterious young man in the temple of Dharma is
-      waiting for travelers who wish to receive his teachings.
+      In Alltrades Abbey, it seems that a mysterious young man is waiting for
+      travelers whom wish to receive his teachings.
     es: ""
     fr: ""
     it: ""
@@ -723519,12 +723343,14 @@ STT_QuestListDetail:
       達瑪神殿的神祕青年似乎在等著
       想接受自己指導的旅行者到來。
   SYSTEXT_QUESTLIST_NAME_KQ_111_1_005:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_005, STT_NpcInfo.NAME_NPC_02781]`
     de: ""
     en: |-
-      Please take the
-      trial to unlock new skill panels from the skill master in the
-      Alltrades Abbey! I was invited.
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels.
     es: ""
     fr: ""
     it: ""
@@ -723545,14 +723371,15 @@ STT_QuestListDetail:
       還請務必接受考驗，
       解鎖新的技能板。
   SYSTEXT_QUESTLIST_NAME_KQ_111_1_010:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_010, STT_NpcInfo.NAME_NPC_02781]`
     de: ""
     en: |-
-      Please take the
-      trial to unlock a new skill panel from the young man in the Alltrades
-      Abbey who calls himself the Skill Master! I was invited. In order to
-      take the test,
-      he will be guided by a young man named Tatzi, who is his student.
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels. To receive the trial, let's ask his student, a young
+      man named Tazzy, to guide us.
     es: ""
     fr: ""
     it: ""
@@ -723577,14 +723404,15 @@ STT_QuestListDetail:
       為了接受考驗，請他的弟子──
       名叫達茲伊的青年負責引導吧。
   SYSTEXT_QUESTLIST_NAME_KQ_111_1_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_020, STT_NpcInfo.NAME_NPC_02781]`
     de: ""
     en: |-
-      Please take the
-      trial to unlock a new skill panel from the young man in the Alltrades
-      Abbey who calls himself the Skill Master! I was invited.
-      Now that he has completed the test he was given, he will return to the
-      skill master.
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels. Now that we have completed the assigned trial,
+      let's return to the Skill Master.
     es: ""
     fr: ""
     it: ""
@@ -723609,13 +723437,15 @@ STT_QuestListDetail:
       由於已完成被賦予的考驗，
       回去找技能大師吧。
   SYSTEXT_QUESTLIST_NAME_KQ_111_1_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_200, STT_NpcInfo.NAME_NPC_02781]`
     de: ""
     en: |-
-      You were invited by the skill master in the Alltrades Abbey to take a
-      trial to unlock a new skill panel.
-      The <pc>s have completed the trials set before them and are now able
-      to learn new skills.　
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels. We completed the trial assigned to us, enabling
+      <pc> and the others to learn new skills.
     es: ""
     fr: ""
     it: ""
@@ -723640,12 +723470,16 @@ STT_QuestListDetail:
       還請務必接受考驗，解鎖新的技能板。
       完成被賦予的考驗，<pc>等人
       已可習得新技能了。　
-  SYSTEXT_QUESTLIST_NAME_KQ_111_2_000:
-    $comments: 🔴
+  SYSTEXT_QUESTLIST_NAME_KQ_111_2_000: &STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_000
+    $comments: |-
+      🟡
+      (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_000]`
+      *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_000
     de: ""
     en: |-
-      It seems that the Skill Master in the Alltrades Abbey is waiting for
-      travelers who want to receive his teachings.
+      In Alltrades Abbey, it seems that the Skill Master is waiting for travelers
+      whom wish to receive his teachings.
     es: ""
     fr: ""
     it: ""
@@ -723663,12 +723497,14 @@ STT_QuestListDetail:
       達瑪神殿的技能大師似乎在等著
       想接受自己指導的旅行者到來。
   SYSTEXT_QUESTLIST_NAME_KQ_111_2_005:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_005]`
     de: ""
     en: |-
-      Be sure to take the
-      trial from the skill master in the Alltrades Abbey to unlock new skill
-      panels! I was invited.
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels.
     es: ""
     fr: ""
     it: ""
@@ -723689,13 +723525,15 @@ STT_QuestListDetail:
       還請務必接受考驗，
       解鎖更多新的技能板。
   SYSTEXT_QUESTLIST_NAME_KQ_111_2_010:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_010]`
     de: ""
     en: |-
-      Be sure to take the
-      trial from the Skill Master in the Alltrades Abbey to unlock new skill
-      panels! I was invited. In order to take the test,
-      he will be guided by a young man named Diego, who is his student.
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels. To receive the trial, let's ask his student, a young
+      man named Diego, to guide us.
     es: ""
     fr: ""
     it: ""
@@ -723721,14 +723559,15 @@ STT_QuestListDetail:
       為了接受考驗，請他的弟子──
       名叫迪亞哥的青年負責引導吧。
   SYSTEXT_QUESTLIST_NAME_KQ_111_2_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_020]`
     de: ""
     en: |-
-      Be sure to take the
-      trial from the skill master in the Alltrades Abbey to unlock new skill
-      panels! I was invited.
-      Now that he has completed the test he was given, he will return to the
-      skill master.
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels. Now that we have completed the assigned trial,
+      let's return to the Skill Master.
     es: ""
     fr: ""
     it: ""
@@ -723753,13 +723592,15 @@ STT_QuestListDetail:
       由於已完成被賦予的考驗，
       回去找技能大師吧。
   SYSTEXT_QUESTLIST_NAME_KQ_111_2_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_200]`
     de: ""
     en: |-
-      You were invited by the skill master in the Alltrades Abbey to undergo
-      a trial in order to unlock a new skill panel.
-      Fulfilling the challenges set, <pc> and the others
-      are now able to learn new skills.　
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels. We completed the trial assigned to us, enabling
+      <pc> and the others to learn more new skills.
     es: ""
     fr: ""
     it: ""
@@ -723784,35 +723625,16 @@ STT_QuestListDetail:
       還請務必接受考驗，解鎖更多新的技能板。
       完成被賦予的考驗，<pc>等人
       已可習得更多新技能了。　
-  SYSTEXT_QUESTLIST_NAME_KQ_111_3_000:
-    $comments: 🔴
-    de: ""
-    en: |-
-      It appears that the Skill Master in the Alltrades Abbey is waiting for
-      travelers who wish to receive his teachings.
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      ダーマ神殿にいる　スキルマスターが　自分の教えを
-      受けたいという　旅人の訪れを　待っているようだ。
-    ko: |-
-      다마 신전에 있는 스킬 마스터가 자신의 가르침을
-      받고 싶어 하는 여행자의 방문을 기다리는 듯하다.
-    pt-BR: ""
-    zh-Hans: |-
-      达玛神殿的技能大师似乎正在等待
-      想接受自己指导的旅行者到访。
-    zh-Hant: |-
-      達瑪神殿的技能大師似乎在等著
-      想接受自己指導的旅行者到來。
+  SYSTEXT_QUESTLIST_NAME_KQ_111_3_000: *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_000
   SYSTEXT_QUESTLIST_NAME_KQ_111_3_005:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_3_005]`
     de: ""
     en: |-
-      Please take the
-      trial to unlock yet another skill panel from the skill master in the
-      Alltrades Abbey! I was invited.
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels.
     es: ""
     fr: ""
     it: ""
@@ -723833,13 +723655,15 @@ STT_QuestListDetail:
       還請務必接受考驗，
       進一步解鎖更多新的技能板。
   SYSTEXT_QUESTLIST_NAME_KQ_111_3_010:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_3_010]`
     de: ""
     en: |-
-      Be sure to take the
-      trial to unlock yet another skill panel from the Skill Master in the
-      Alltrades Abbey! I was invited. To take the test
-      Let's ask his best disciple, a young man named Sarius, to guide you.
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels. To receive the trial, let's ask his best student,
+      a young man named Sarias, to guide us.
     es: ""
     fr: ""
     it: ""
@@ -723865,14 +723689,15 @@ STT_QuestListDetail:
       為了接受考驗，請他的頭號弟子──
       名叫薩利亞斯的青年負責引導吧。
   SYSTEXT_QUESTLIST_NAME_KQ_111_3_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_3_020]`
     de: ""
     en: |-
-      Be sure to take the
-      trial to unlock yet another skill panel from the skill master in the
-      Alltrades Abbey! I was invited.
-      Now that he has completed the test he was given, he will return to the
-      skill master.
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels. Now that we have completed the assigned trial,
+      let's return to the Skill Master.
     es: ""
     fr: ""
     it: ""
@@ -723897,13 +723722,15 @@ STT_QuestListDetail:
       由於已完成被賦予的考驗，
       回去找技能大師吧。
   SYSTEXT_QUESTLIST_NAME_KQ_111_3_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_3_200]`
     de: ""
     en: |-
-      The Skill Master in the Alltrades Abbey has invited you to take a
-      trial to release yet another skill panel.
-      The <pc>s have completed the trials set before them,
-      and are now able to learn new skills.　
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels. We completed the trial assigned to us, enabling
+      <pc> and the others to learn even more new skills.
     es: ""
     fr: ""
     it: ""
@@ -723928,34 +723755,16 @@ STT_QuestListDetail:
       還請務必接受考驗，進一步解鎖更多新的技能板。
       完成被賦予的考驗，<pc>等人
       已可進一步習得更多新技能了。　
-  SYSTEXT_QUESTLIST_NAME_KQ_111_4_000:
-    $comments: 🔴
-    de: ""
-    en: |-
-      It seems that the Skill Master in the Alltrades Abbey is waiting for a
-      traveler who wants to receive his teachings.
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      ダーマ神殿にいる　スキルマスターが　自分の教えを
-      受けたいという　旅人の訪れを　待っているようだ。
-    ko: |-
-      다마 신전에 있는 스킬 마스터가 자신의 가르침을
-      받고 싶어 하는 여행자의 방문을 기다리는 듯하다.
-    pt-BR: ""
-    zh-Hans: |-
-      达玛神殿的技能大师似乎正在等待
-      想接受自己指导的旅行者到访。
-    zh-Hant: |-
-      達瑪神殿的技能大師似乎在等著
-      想接受自己指導的旅行者到來。
+  SYSTEXT_QUESTLIST_NAME_KQ_111_4_000: *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_000
   SYSTEXT_QUESTLIST_NAME_KQ_111_4_005:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (255) SYSTEXT_QUESTLIST_NAME_KQ_111_4 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111
     de: ""
     en: |-
-      Please take the final lesson to unlock new skill panels from
-      the skill master in Alltrades Abbey! I was invited.
+      In Alltrades Abbey, the Skill Master invited us to take the final lesson
+      to unlock new skill panels.
     es: ""
     fr: ""
     it: ""
@@ -723976,13 +723785,15 @@ STT_QuestListDetail:
       還請務必接受最終考驗，
       解鎖新的技能板。
   SYSTEXT_QUESTLIST_NAME_KQ_111_4_010:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (255) SYSTEXT_QUESTLIST_NAME_KQ_111_4 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111
     de: ""
     en: |-
-      Please take the
-      final test to unlock a new skill panel from the skill master in the
-      Alltrades Abbey! I was invited.
-      Ask the skill master to guide you through the trials.
+      In Alltrades Abbey, the Skill Master invited us to take the final lesson
+      to unlock new skill panels. To receive the trial, let's ask the Skill
+      Master to guide us.
     es: ""
     fr: ""
     it: ""
@@ -724007,14 +723818,15 @@ STT_QuestListDetail:
       解鎖新的技能板。
       請技能大師引導考驗吧。
   SYSTEXT_QUESTLIST_NAME_KQ_111_4_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (255) SYSTEXT_QUESTLIST_NAME_KQ_111_4 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111
     de: ""
     en: |-
-      Please take the
-      final test to unlock a new skill panel from the skill master in the
-      Alltrades Abbey! I was invited.
-      Now that he has completed the test he was given, he will return to the
-      skill master.
+      In Alltrades Abbey, the Skill Master invited us to take the final lesson
+      to unlock new skill panels. Now that we have completed the assigned
+      trial, let's return to the Skill Master.
     es: ""
     fr: ""
     it: ""
@@ -724039,15 +723851,17 @@ STT_QuestListDetail:
       解鎖新的技能板。
       由於已完成被賦予的考驗，回去找技能大師吧。
   SYSTEXT_QUESTLIST_NAME_KQ_111_4_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (255) SYSTEXT_QUESTLIST_NAME_KQ_111_4 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111
     de: ""
     en: |-
-      The <pc>s have completed the trials set by the Skill Master in the
-      Alltrades Abbey and are now able to learn new skills.
-      The Master, together with the spirits of his disciples, is the one who
-      uplifts the adventurers under his control.
-      It seems that he intends to one day confront the great source of
-      darkness.
+      In Alltrades Abbey, the Skill Master invited us to undertake a trial to
+      unlock new skill panels. We completed the trial assigned to us, enabling
+      <pc> and the others to learn new skills. It seems that the purpose of
+      the Skill Master, along with his disciples' spirits, is to train adventurers
+      to someday confront the Great Source of Darkness.
     es: ""
     fr: ""
     it: ""
@@ -724077,7 +723891,7 @@ STT_QuestListDetail:
     de: ""
     en: |-
       One of the Skill Master's disciples,
-      Tatsi, in the Alltrades Abbey seems to be troubled.
+      Tazzy, in the Alltrades Abbey seems to be troubled.
     es: ""
     fr: ""
     it: ""
@@ -724098,7 +723912,7 @@ STT_QuestListDetail:
     $comments: 🔴
     de: ""
     en: |-
-      Tatsi, a disciple of the skill master in the Alltrades Abbey,
+      Tazzy, a disciple of the skill master in the Alltrades Abbey,
       The master asked me to do a job, but I'm in trouble, so
       I'd like you to lend me your power!
     es: ""
@@ -724124,7 +723938,7 @@ STT_QuestListDetail:
     $comments: 🔴
     de: ""
     en: |-
-      Tatsi, a disciple of the skill master in the temple of Dharma,
+      Tazzy, a disciple of the skill master in the temple of Dharma,
       In the castle town of the true Al-Ahaghiro Kingdom, find the
       owner of the book "Profound Puff Puff" and I want you to get the
       book! The owner of the book seems to like dark and damp places.
@@ -724157,11 +723971,11 @@ STT_QuestListDetail:
     de: ""
     en: |-
       I would like you to obtain the book
-      "Profound Puff Puff" from Skill Master's apprentice Tatsi in the
+      "Profound Puff Puff" from Skill Master's apprentice Tazzy in the
       Alltrades Abbey!
       He was in a well in the Kingdom of Al-Ahaghiro, and he fought against
       the Man O' War teacher.
-      He was given a book. Let's go deliver it to Tatzi.
+      He was given a book. Let's go deliver it to Tazzy.
     es: ""
     fr: ""
     it: ""
@@ -724191,7 +724005,7 @@ STT_QuestListDetail:
     de: ""
     en: |-
       I delivered the book "Profound Puff Puff" given to me by Dr. Numbure
-      Jellyage to Tatsi. Skill Masters who read the book
+      Jellyage to Tazzy. Skill Masters who read the book
       learned the secret technique of her massage described there.
       From now on, it seems that if you go to her skill master, she will
       always heal you.
@@ -735624,7 +735438,7 @@ STT_QuestListName:
     zh-Hant: 貓要吃美食喵
   SYSTEXT_QUESTLIST_NAME_AQ_005_3:
     $comments: |-
-      🟢 
+      🟢
       (062) SYSTEXT_QUESTLIST_NAME_AQ_005_3 [ SYSTEXT_QUESTLIST_SERIES_AQ_005 ] { Sub Story }
     de: Katze in der Wiege
     en: Cat's in the Cradle
@@ -738000,17 +737814,17 @@ STT_QuestListName:
     zh-Hant: 釣起夢幻異色魚！
   SYSTEXT_QUESTLIST_NAME_FQ_101_1:
     $comments: |-
-      🟡
-      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 [ n/a ] { Sub Story }
+      🟢
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1]`
-    de: ""
+    de: Dennys Hut
     en: Denny's Hat
-    es: ""
-    fr: ""
-    it: ""
+    es: El Sombrero del Denny
+    fr: Le Chapeau du Denny
+    it: Il Cappello del Denny
     ja: デニーの帽子
     ko: 데니의 모자
-    pt-BR: ""
+    pt-BR: O Chapéu do Denny
     zh-Hans: 丹尼的帽子
     zh-Hant: 丹尼的帽子
   SYSTEXT_QUESTLIST_NAME_FQ_102_1:
@@ -738563,58 +738377,58 @@ STT_QuestListName:
     zh-Hant: 心愛的露仙妲大人！
   SYSTEXT_QUESTLIST_NAME_KQ_111_1:
     $comments: |-
-      🟡
+      🟢
       (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
-    de: ""
-    en: Master's Special Lesson
-    es: ""
-    fr: ""
-    it: ""
+    de: Die Spezielle Lektion des Meisters
+    en: The Master's Special Lesson
+    es: La Lección Especial del Maestro
+    fr: La Leçon Spéciale du Maître
+    it: La Lezione Speciale del Maestro
     ja: マスターの特別レッスン
     ko: 마스터의 특별 레슨
-    pt-BR: ""
+    pt-BR: A Lição Especial do Mestre
     zh-Hans: 大师的特别课程
     zh-Hant: 大師的特別課程
   SYSTEXT_QUESTLIST_NAME_KQ_111_2:
     $comments: |-
-      🟡
+      🟢
       (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
-    de: ""
-    en: Master's Source Of Worry
-    es: ""
-    fr: ""
-    it: ""
+    de: Das Sorgenkind des Meisters
+    en: The Master's Source of Worry
+    es: El Dolor de Cabeza del Maestro
+    fr: Le Enfant Terrible du Maître
+    it: La Spina nel Fianco del Maestro
     ja: マスターの悩みの種
     ko: 마스터의 고민거리
-    pt-BR: ""
+    pt-BR: A Dor de Cabeça do Mestre
     zh-Hans: 大师的烦恼之种
     zh-Hant: 大師的煩惱源頭
   SYSTEXT_QUESTLIST_NAME_KQ_111_3:
     $comments: |-
-      🟡
+      🟢
       (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
-    de: ""
-    en: Master's Top Disciple
-    es: ""
-    fr: ""
-    it: ""
+    de: Der Beste Schüler des Meisters
+    en: The Master's Best Disciple
+    es: El Mejor Discípulo del Maestro
+    fr: Le Meilleur Disciple du Maître
+    it: Il Miglior Discepolo del Maestro
     ja: マスターの一番弟子
     ko: 마스터의 수제자
-    pt-BR: ""
+    pt-BR: O Melhor Discípulo do Mestre
     zh-Hans: 大师的头号弟子
     zh-Hant: 大師的頭號弟子
   SYSTEXT_QUESTLIST_NAME_KQ_111_4:
     $comments: |-
-      🟡
+      🟢
       (255) SYSTEXT_QUESTLIST_NAME_KQ_111_4 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
-    de: ""
-    en: Master's Final Trial
-    es: ""
-    fr: ""
-    it: ""
+    de: Die Finale Prüfung des Meisters
+    en: The Master's Final Trial
+    es: La Prueba Final del Maestro
+    fr: L'Épreuve Finale du Maître
+    it: La Prova Finale del Maestro
     ja: マスターからの最終試練
     ko: 마스터의 마지막 시련
-    pt-BR: ""
+    pt-BR: A Prova Final do Mestre
     zh-Hans: 大师的最终试炼
     zh-Hant: 大師的最終考驗
   SYSTEXT_QUESTLIST_NAME_KQ_020_2:
@@ -738866,7 +738680,7 @@ STT_QuestListName:
   SYSTEXT_QUESTLIST_NAME_MQ_019_1:
     $comments: 🟢
     de: Versammeln! Die Krone der Weisheit
-    en: Assemble! ​The Crown of Wisdom
+    en: Assemble! The Crown of Wisdom
     es: ¡Ensamblemos! La Corona de la Sabiduría
     fr: Assemblons-nous! La Couronne de la Sagesse
     it: Assembliamo! La Corona della Saggezza
@@ -739705,19 +739519,19 @@ STT_QuestListSeries:
     zh-Hant: 召喚幸運的沙龍
   SYSTEXT_QUESTLIST_SERIES_KQ_111:
     $comments: |-
-      🟡
+      🟢
       (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
       (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
       (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
       (255) SYSTEXT_QUESTLIST_NAME_KQ_111_4 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
-    de: ""
-    en: Teacher Of All Things
-    es: ""
-    fr: ""
-    it: ""
+    de: Derjenige, der alles lehrt
+    en: He Who Teaches All
+    es: El que todo lo enseña
+    fr: Celui qui enseigne tout
+    it: Colui che tutto insegna
     ja: 万物を教え導く者
     ko: 만물을 가르치고 이끄는 자
-    pt-BR: ""
+    pt-BR: Aquele que tudo ensina
     zh-Hans: 教导万物之人
     zh-Hant: 教導萬物之人
   SYSTEXT_QUESTLIST_SERIES_KQ_112:
@@ -741536,9 +741350,10 @@ STT_Quest_AfterBattle:
     zh-Hant: ""
   AFTER_BATTLE_FQ_101_1_A1:
     $comments: |-
-      🔴
-      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 [ n/a ] { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_???]`
+      🟢
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI]`
+      unused?
     de: ""
     en: ""
     es: ""
@@ -741832,9 +741647,10 @@ STT_Quest_AfterBattle:
     zh-Hant: ""
   AFTER_BATTLE_FQ_111_1_A1:
     $comments: |-
-      🔴
+      🟢
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
+      unused?
     de: ""
     en: ""
     es: ""
@@ -741847,9 +741663,10 @@ STT_Quest_AfterBattle:
     zh-Hant: ""
   AFTER_BATTLE_FQ_111_1_B1:
     $comments: |-
-      🔴
+      🟢
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
+      unused?
     de: ""
     en: ""
     es: ""
@@ -746726,9 +746543,10 @@ STT_Quest_AfterBattle:
     zh-Hant: ""
   AFTER_BATTLE_MQ_004_1_A1:
     $comments: |-
-      🔴
+      🟢
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
+      unused?
     de: ""
     en: ""
     es: ""
@@ -746741,9 +746559,10 @@ STT_Quest_AfterBattle:
     zh-Hant: ""
   AFTER_BATTLE_MQ_004_1_B1:
     $comments: |-
-      🔴
+      🟢
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
+      unused?
     de: ""
     en: ""
     es: ""
@@ -752069,8 +751888,8 @@ STT_Quest_ItemGet:
   SYSTEXT_GetItemText_Comp_FQ_101_1_10:
     $comments: |-
       🟡
-      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 [ n/a ] { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_???]`
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_09601, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI]`
     de: ""
     en: |-
       The <%sEV_QUE_NAME0> dropped Denny's Hat.
@@ -752079,7 +751898,7 @@ STT_Quest_ItemGet:
       Denny's Hat!
       <br>
       {pc} obtained the 'Hat'chlings (Key Item)!<se_nots System Item>
-      <auto_bw=5000><close>
+      <bw><close>
     es: ""
     fr: ""
     it: ""
@@ -752313,17 +752132,15 @@ STT_Quest_ItemGet:
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_FQ_111_1_30:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_?????, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_14602, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: |-
-      <%sEV_QUE_NAME0> dropped
-      the roots of 100-Bend Root!
+      The <%sEV_QUE_NAME0> dropped the 100-Bend Root!
       Finished collecting <%nEV_QUE_T_NUM0> 100-Bend Root roots!
       <br>
-      {pc} obtained the
-      100-Bend Root root (Key Item)! <se_nots System Item>
+      {pc} obtained the 100-Bend Root (Key Item)!<se_nots System Item>
       <bw><close>
     es: ""
     fr: ""
@@ -756043,19 +755860,19 @@ STT_Quest_ItemGet:
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Mid_FQ_111_1_30:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: |-
-      I got {SucceedNum_Now} 100-Bend Root!
-      {SucceedNum_remain} books remain.
+      We obtained {SucceedNum_Now} 100-Bend Root(s)!
+      {SucceedNum_remain} remain.
       <bw><close>
     es: ""
     fr: ""
     it: ""
     ja: |-
-      ヒャクマガリの根を {SucceedNum_Now}本 手に入れた！ 
+      ヒャクマガリの根を {SucceedNum_Now}本 手に入れた！
       残り {SucceedNum_remain}本
       <auto_bw=5000><close>
     ko: |-
@@ -756180,7 +755997,7 @@ STT_Quest_ItemGet:
     fr: ""
     it: ""
     ja: |-
-      ボケを使って <%sEV_QUE_NAME0>討伐 {SucceedNum}匹目！ 
+      ボケを使って <%sEV_QUE_NAME0>討伐 {SucceedNum}匹目！
       残り {SucceedNum_remain}匹
       <auto_bw=5000><close>
     ko: |-
@@ -756638,7 +756455,7 @@ STT_Quest_ItemGet:
     fr: ""
     it: ""
     ja: |-
-      浄化のハーブを {SucceedNum_Now}個 手に入れた！ 
+      浄化のハーブを {SucceedNum_Now}個 手に入れた！
       残り {SucceedNum_remain}個
       <auto_bw=5000><close>
     ko: |-
@@ -757587,8 +757404,18 @@ STT_Quest_PerticularReward:
     pt-BR: ""
     zh-Hans: 能够使用裁剪店
     zh-Hant: 能夠使用服裝店
-  TEXT_QUESTPARTICULARREWARD_KQ_111_1:
-    $comments: 🟡
+  TEXT_QUESTPARTICULARREWARD_KQ_111_1: &STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_200
+    $comments: |-
+      🟡
+      (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_200, STT_Quest_PerticularReward.TEXT_QUESTPARTICULARREWARD_KQ_111_1]`
+      (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_2_200, STT_Quest_PerticularReward.TEXT_QUESTPARTICULARREWARD_KQ_111_2]`
+      (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_3_200, STT_Quest_PerticularReward.TEXT_QUESTPARTICULARREWARD_KQ_111_3]`
+      (255) SYSTEXT_QUESTLIST_NAME_KQ_111_4 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }
+      see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_SERIES_KQ_111, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_4_200, STT_Quest_PerticularReward.TEXT_QUESTPARTICULARREWARD_KQ_111_4]`
+      *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_200
     de: ""
     en: Skill panel(s) will be unlocked
     es: ""
@@ -757599,42 +757426,9 @@ STT_Quest_PerticularReward:
     pt-BR: ""
     zh-Hans: 解锁技能板
     zh-Hant: 解鎖技能板
-  TEXT_QUESTPARTICULARREWARD_KQ_111_2:
-    $comments: 🟡
-    de: ""
-    en: Skill panel(s) will be unlocked
-    es: ""
-    fr: ""
-    it: ""
-    ja: スキルパネルが解放される
-    ko: 스킬 패널이 해방된다
-    pt-BR: ""
-    zh-Hans: 解锁技能板
-    zh-Hant: 解鎖技能板
-  TEXT_QUESTPARTICULARREWARD_KQ_111_3:
-    $comments: 🟡
-    de: ""
-    en: Skill panel(s) will be unlocked
-    es: ""
-    fr: ""
-    it: ""
-    ja: スキルパネルが解放される
-    ko: 스킬 패널이 해방된다
-    pt-BR: ""
-    zh-Hans: 解锁技能板
-    zh-Hant: 解鎖技能板
-  TEXT_QUESTPARTICULARREWARD_KQ_111_4:
-    $comments: 🟡
-    de: ""
-    en: Skill panel(s) will be unlocked
-    es: ""
-    fr: ""
-    it: ""
-    ja: スキルパネルが解放される
-    ko: 스킬 패널이 해방된다
-    pt-BR: ""
-    zh-Hans: 解锁技能板
-    zh-Hant: 解鎖技能板
+  TEXT_QUESTPARTICULARREWARD_KQ_111_2: *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_200
+  TEXT_QUESTPARTICULARREWARD_KQ_111_3: *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_200
+  TEXT_QUESTPARTICULARREWARD_KQ_111_4: *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_111_1_200
   TEXT_QUESTPARTICULARREWARD_KQ_131_1:
     $comments: 🟡
     de: ""
@@ -850139,38 +849933,8 @@ STT_System_Book_Monster:
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_02130_01:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      人間の死肉を食らうという
-      残忍で おそろしい魔鳥。
-      鋭いツメで２回切り裂いて
-      確実に獲物をしとめる。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_02130_02:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      おそろしいほどの地獄耳で
-      魔物界一の神経質だとか。
-      魔法使いの詠唱が大キライで
-      邪魔をするのが生きがい。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  SYSTXT_BOOK_MONSTER_02130_01: *STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_09601
+  SYSTXT_BOOK_MONSTER_02130_02: *STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_09601
   SYSTXT_BOOK_MONSTER_02135_01:
     $comments: 🔴
     de: ""
@@ -850868,7 +850632,7 @@ STT_System_Book_Monster:
     it: ""
     ja: |-
       決して自分の主張を曲げない
-      ガンコ者の悪魔。 
+      ガンコ者の悪魔。
       意見を通すためなら暴力も
       いとわない典型的なタカ派。
     ko: ""
@@ -906402,7 +906166,7 @@ STT_System_Facility_ChurchSys:
       <bw_break>
   SYSTXT_FACILITY_CHURCH_02040:
     $comments: |-
-      🟡, 
+      🟡,
       see `DRAGON QUEST I & II HD-2D Remake/GOP_Text_{ALL}.yaml:GOP_Text_Common.Txt_Common_SAVE_Message_Saving_Switch`
     de: |-
       Abenteuertagebuch wird gespeichert ...
@@ -906445,7 +906209,7 @@ STT_System_Facility_ChurchSys:
       <break>
   SYSTXT_FACILITY_CHURCH_02050:
     $comments: |-
-      🟡, 
+      🟡,
       see `DRAGON QUEST I & II HD-2D Remake/GOP_Text_{ALL}.yaml:GOP_Text_Common.Txt_Common_SAVE_Message_Saving_PS5`
     de: |-
       Abenteuertagebuch wird gespeichert...
@@ -906488,7 +906252,7 @@ STT_System_Facility_ChurchSys:
       <break>
   SYSTXT_FACILITY_CHURCH_02060:
     $comments: |-
-      🟡, 
+      🟡,
       see `DRAGON QUEST I & II HD-2D Remake/GOP_Text_{ALL}.yaml:GOP_Text_Common.Txt_Common_SAVE_Message_Saving_PS5`
     de: |-
       Abenteuertagebuch wird gespeichert...
@@ -906531,7 +906295,7 @@ STT_System_Facility_ChurchSys:
       <break>
   SYSTXT_FACILITY_CHURCH_02070:
     $comments: |-
-      🟡, 
+      🟡,
       see `DRAGON QUEST I & II HD-2D Remake/GOP_Text_{ALL}.yaml:GOP_Text_Common.Txt_Common_SAVE_Message_Saving_PC`
     de: ""
     en: |-
@@ -919858,7 +919622,7 @@ STT_System_Location:
     zh-Hant: 札古比那遺跡 出口
   SYSTXT_LOCATION_D1600_TO_DWF1_AKRO_BOSS:
     $comments: |-
-      🟢, (06/08) Story of Agrani [ Prologue - Dwarf ] { Main Story 
+      🟢, (06/08) Story of Agrani [ Prologue - Dwarf ] { Main Story
        see `Game.locres.yaml:[STT_CareerStoryVer1.SYSTXT_CAREER_STORY_DWF2_008]`
     de: Verbotene Land - Eingang
     en: Caution Zone - Entry
@@ -920386,7 +920150,7 @@ STT_System_Location:
       🟢
       (059) { Sub Story }
       see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_014_5_200]`
-      Die Tiefen der, Las Profundidades de las, Les Profondeurs des, Le Profondità delle, As Profundezas das 
+      Die Tiefen der, Las Profundidades de las, Les Profondeurs des, Le Profondità delle, As Profundezas das
     de: Die Untergrundruinen - Eingang
     en: Deep Underground Ruins - Entry
     es: Las Ruinas Subterráneas - Entrada
@@ -921621,7 +921385,7 @@ STT_System_Location:
     zh-Hant: 導師的房間
   SYSTXT_LOCATION_ELF_E1000_SYOKUIN:
     $comments: |-
-      🟢, 
+      🟢,
       die, las, les, i, os
     de: Personalhäuser
     en: Staff Dormitory
@@ -921635,7 +921399,7 @@ STT_System_Location:
     zh-Hant: 職員宿舍
   SYSTXT_LOCATION_ELF_E1200_CHIENOYASHIRO1F:
     $comments: |-
-      🟢, 
+      🟢,
       (02/09) Story of Tsuskul [ Prologue - Elf ] { Main Story }
       der, el, le, il, o
     de: Weisheitsschrein
@@ -928869,7 +928633,7 @@ STT_System_Location:
       🟢
       (059) { Sub Story }
       see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_014_5_200]`
-      Die Tiefen der, Las Profundidades de las, Les Profondeurs des, Le Profondità delle, As Profundezas das 
+      Die Tiefen der, Las Profundidades de las, Les Profondeurs des, Le Profondità delle, As Profundezas das
     de: Die Untergrundruinen
     en: Deep Underground Ruins
     es: Las Ruinas Subterráneas
@@ -930829,7 +930593,7 @@ STT_System_Location:
       🟢
       (059) { Sub Story }
       see `[STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_AQ_014_5_200]`
-      Die Tiefen der, Las Profundidades de las, Les Profondeurs des, Le Profondità delle, As Profundezas das 
+      Die Tiefen der, Las Profundidades de las, Les Profondeurs des, Le Profondità delle, As Profundezas das
     de: Die Untergrundruinen
     en: Deep Underground Ruins
     es: Las Ruinas Subterráneas
@@ -962958,19 +962722,32 @@ STT_UIDouguSys:
       亮晶晶的粉沾到手指上
       非常漂亮。
   ID_TEXT_DAIJINAMONO_HINAIRIBOUSI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (216) SYSTEXT_QUESTLIST_NAME_FQ_101_1 { Sub Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_101_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_101_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HINAIRIBOUSI]`
     de: ""
     en: |-
-      {Character_Head} stroked the
-      bird chick inside the chick hat with his fingertips.
+      {Character_Head} tried petting the baby birds inside
+      of Denny's hat with their fingertip.
       <br>
-      The baby bird looks comfortable.
-      She smiles.
+      The baby birds seem to enjoy it, and narrow their
+      eyes.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　ヒナ入り帽子の中にいる\n鳥のヒナを　指先で　なでてみた。\n<br>\n鳥のヒナは　気持ちよさそうに\n目を　ほそめている。"
-    ko: "{Character_Head}|hpp(은,는) 모자 속에 든 \n아기 새를 손끝으로 쓰다듬어 보았다.\n<br>\n아기 새는 기분이 좋은 듯\n살며시 눈을 감았다."
+    ja: |-
+      {Character_Head}は　ヒナ入り帽子の中にいる
+      鳥のヒナを　指先で　なでてみた。
+      <br>
+      鳥のヒナは　気持ちよさそうに
+      目を　ほそめている。
+    ko: |-
+      {Character_Head}|hpp(은,는) 모자 속에 든
+      아기 새를 손끝으로 쓰다듬어 보았다.
+      <br>
+      아기 새는 기분이 좋은 듯
+      살며시 눈을 감았다.
     pt-BR: ""
     zh-Hans: |-
       {Character_Head}用指尖抚摸了
@@ -963487,16 +963264,16 @@ STT_UIDouguSys:
       {Character_Head}感受到了片刻的幸福。
   ID_TEXT_DAIJINAMONO_HYAKUMAGARINONE:
     $comments: |-
-      🔴
+      🟡
       (251) SYSTEXT_QUESTLIST_NAME_FQ_111_1 { Sub Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_FQ_111_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_FQ_111_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_HYAKUMAGARINONE]`
     de: ""
     en: |-
-      {Character_Head} took a close look at the
-      roots of 100-Bend Root.
+      {Character_Head} tried closely examining the
+      100-Bend Root.
       <br>
-      As the name 100-Bend Root suggests,
-      It is terrifyingly winding.
+      As the "100-Bend" name suggests, it is terribly
+      tortuous.
     es: ""
     fr: ""
     it: ""

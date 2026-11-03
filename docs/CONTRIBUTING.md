@@ -1087,10 +1087,10 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 > | eventTextCsKq10251Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | Quest (017) {Super Useful}                                                                                                           |
 > | eventTextCsKq21091Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsKq21101Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (286) SYSTEXT_QUESTLIST_NAME_HQ_001_2 [ TBD ] { Super Useful }                                                                       |
-> | eventTextCsKq21111Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsKq21112Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsKq21113Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextCsKq21114Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
+> | eventTextCsKq21111Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (252) SYSTEXT_QUESTLIST_NAME_KQ_111_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }                                           |
+> | eventTextCsKq21112Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (253) SYSTEXT_QUESTLIST_NAME_KQ_111_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }                                           |
+> | eventTextCsKq21113Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (254) SYSTEXT_QUESTLIST_NAME_KQ_111_3 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }                                           |
+> | eventTextCsKq21114Client.win32.json                   | 🔴  | 🟢  | 🔴  | 🔴  | 🔴  | 🔴    | (255) SYSTEXT_QUESTLIST_NAME_KQ_111_4 [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }                                           |
 > | eventTextCsKq30284Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextCsKq31102Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (286) SYSTEXT_QUESTLIST_NAME_HQ_001_2 [ TBD ] { Super Useful }                                                                       |
 > | eventTextCsKq31103Client.win32.json                   | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (286) SYSTEXT_QUESTLIST_NAME_HQ_001_2 [ TBD ] { Super Useful }                                                                       |
@@ -1427,7 +1427,7 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 > | eventTextIeR4CeleTownrServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeR4DarmBossrServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeR4DarmTmplfServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
-> | eventTextIeR4DarmTmplrServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
+> | eventTextIeR4DarmTmplrServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    | (252-255) SYSTEXT_QUESTLIST_NAME_KQ_111_\* [ SYSTEXT_QUESTLIST_SERIES_KQ_111 ] { Super Useful }                                      |
 > | eventTextIeR4IgyoFldrServer.win32.json                | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeR4IsekBossfServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
 > | eventTextIeR4IsekBossrServer.win32.json               | 🔴  | 🟡  | 🔴  | 🔴  | 🔴  | 🔴    |                                                                                                                                      |
@@ -1605,69 +1605,68 @@ FOR /F "usebackq" %A IN (`dir .\BACKLOG /b`) DO jq -s "reduce (.) as [$old,$new]
 >         Big Bro! Look at all this text!
 >         <endif>
 >         ```
+>   - **TEMPLATE**
 >
->    - **TEMPLATE**
+>     ```yaml
+>     sub_file: # $sub_file
+>       namespace: # $namespace
+>         $comments: |- # $key
+>           🔴🟡🟢
+>           Notes about this key
+>         $conditional: <if_woman>
+>         $voice_I: <start_lip_sync .*?>
+>         $voice_O: <stop_lip_animation .*?>
+>         de: ["Line_1\nHallo, {$conditional}\nLine_3", "Fräulein", "Herr"]
+>         en: ["Line_1\nHello, {$conditional}\nLine_3", "miss", "mister"]
+>         es: ["Line_1\nHola, {$conditional}\nLine_3", "señorita", "señor"]
+>         fr: ["Line_1\nBonjour, {$conditional}\nLine_3", "mademoiselle", "monsieur"]
+>         it: ["Line_1\nCiao, {$conditional}\nLine_3", "signorina", "signore"]
+>         ja: ["Line_1\nこんにちは、{$conditional}\nLine_3", "お嬢さん", "旦那様"]
+>         ko: ["Line_1\n안녕하세요, {$conditional}\nLine_3", "아가씨", "신사"]
+>         pt-BR: ["Line_1\nOlá, {$conditional}\nLine_3", "senhorita", "senhor"]
+>         zh-Hans: ["Line_1\n你好，{$conditional}\nLine_3", "小姐", "先生"]
+>         zh-Hant: ["Line_1\n你好，{$conditional}\nLine_3", "小姐", "先生"]
+>     ############## OR, for multi-line readability ##############
+>     sub_file: # $sub_file
+>       namespace: # $namespace
+>         $comments: |- # $key
+>           🔴🟡🟢
+>           Notes about this key
+>         $conditional: <if_woman> # GENDER OF PLAYER
+>         $voice_I: <start_lip_sync .*?>
+>         $voice_O: <stop_lip_animation .*?>
+>         LANGUAGE:
+>         - |-
+>           Line_1
+>           GREETING, {$conditional}
+>           Line_3
+>         - true  # FEMININE
+>         - false # MASCULINE
+>     ```
 >
->      ```yaml
->      sub_file: # $sub_file
->        namespace: # $namespace
->          $comments: |- # $key
->            🔴🟡🟢
->            Notes about this key
->          $conditional: <if_woman>
->          $voice_I: <start_lip_sync .*?>
->          $voice_O: <stop_lip_animation .*?>
->          de: ["Line_1\nHallo, {$conditional}\nLine_3", "Fräulein", "Herr"]
->          en: ["Line_1\nHello, {$conditional}\nLine_3", "miss", "mister"]
->          es: ["Line_1\nHola, {$conditional}\nLine_3", "señorita", "señor"]
->          fr: ["Line_1\nBonjour, {$conditional}\nLine_3", "mademoiselle", "monsieur"]
->          it: ["Line_1\nCiao, {$conditional}\nLine_3", "signorina", "signore"]
->          ja: ["Line_1\nこんにちは、{$conditional}\nLine_3", "お嬢さん", "旦那様"]
->          ko: ["Line_1\n안녕하세요, {$conditional}\nLine_3", "아가씨", "신사"]
->          pt-BR: ["Line_1\nOlá, {$conditional}\nLine_3", "senhorita", "senhor"]
->          zh-Hans: ["Line_1\n你好，{$conditional}\nLine_3", "小姐", "先生"]
->          zh-Hant: ["Line_1\n你好，{$conditional}\nLine_3", "小姐", "先生"]
->      ############## OR, for multi-line readability ##############
->      sub_file: # $sub_file
->        namespace: # $namespace
->          $comments: |- # $key
->            🔴🟡🟢
->            Notes about this key
->          $conditional: <if_woman> # GENDER OF PLAYER
->          $voice_I: <start_lip_sync .*?>
->          $voice_O: <stop_lip_animation .*?>
->          LANGUAGE:
->          - |-
->            Line_1
->            GREETING, {$conditional}
->            Line_3
->          - true  # FEMININE
->          - false # MASCULINE
->      ```
+>   - **OUTPUT** ( json, after `ETP.jq` )
 >
->    - **OUTPUT** ( json, after `ETP.jq` )
->
->      ```json
->      {
->        "sub_file": {
->          "key": {
->            "$comments": "🔴🟡🟢\nNotes about this key",
->            "$voice_I": "<start_lip_sync .*?>",
->            "$voice_O": "<stop_lip_animation .*?>",
->            "de": "<if_woman><start_lip_sync .*?>Line_1\nHallo, Fräulein.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nHallo, Herr.\nLine_3<stop_lip_animation .*?><endif>",
->            "en": "<if_woman><start_lip_sync .*?>Line_1\nHello, miss.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nHello, mister.\nLine_3<stop_lip_animation .*?><endif>",
->            "es": "<if_woman><start_lip_sync .*?>Line_1\nHola, señorita.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nHola, señor.\nLine_3<stop_lip_animation .*?><endif>",
->            "fr": "<if_woman><start_lip_sync .*?>Line_1\nBonjour, mademoiselle.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nBonjour, monsieur.\nLine_3<stop_lip_animation .*?><endif>",
->            "it": "<if_woman><start_lip_sync .*?>Line_1\nCiao, signorina.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nCiao, signore.\nLine_3<stop_lip_animation .*?><endif>",
->            "ja": "<if_woman><start_lip_sync .*?>Line_1\nこんにちは、お嬢さん.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nこんにちは、旦那様.\nLine_3<stop_lip_animation .*?><endif>",
->            "ko": "<if_woman><start_lip_sync .*?>Line_1\n안녕하세요, 아가씨.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\n안녕하세요, 신사.\nLine_3<stop_lip_animation .*?><endif>",
->            "pt-BR": "<if_woman><start_lip_sync .*?>Line_1\nOlá, senhorita.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nOlá, senhor.\nLine_3<stop_lip_animation .*?><endif>",
->            "zh-Hans": "<if_woman><start_lip_sync .*?>Line_1\n你好，小姐.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\n你好，先生.\nLine_3<stop_lip_animation .*?><endif>",
->            "zh-Hant": "<if_woman><start_lip_sync .*?>Line_1\n你好，小姐.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\n你好，先生.\nLine_3<stop_lip_animation .*?><endif>"
->          }
->        }
->      }
->      ```
+>     ```json
+>     {
+>       "sub_file": {
+>         "key": {
+>           "$comments": "🔴🟡🟢\nNotes about this key",
+>           "$voice_I": "<start_lip_sync .*?>",
+>           "$voice_O": "<stop_lip_animation .*?>",
+>           "de": "<if_woman><start_lip_sync .*?>Line_1\nHallo, Fräulein.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nHallo, Herr.\nLine_3<stop_lip_animation .*?><endif>",
+>           "en": "<if_woman><start_lip_sync .*?>Line_1\nHello, miss.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nHello, mister.\nLine_3<stop_lip_animation .*?><endif>",
+>           "es": "<if_woman><start_lip_sync .*?>Line_1\nHola, señorita.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nHola, señor.\nLine_3<stop_lip_animation .*?><endif>",
+>           "fr": "<if_woman><start_lip_sync .*?>Line_1\nBonjour, mademoiselle.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nBonjour, monsieur.\nLine_3<stop_lip_animation .*?><endif>",
+>           "it": "<if_woman><start_lip_sync .*?>Line_1\nCiao, signorina.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nCiao, signore.\nLine_3<stop_lip_animation .*?><endif>",
+>           "ja": "<if_woman><start_lip_sync .*?>Line_1\nこんにちは、お嬢さん.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nこんにちは、旦那様.\nLine_3<stop_lip_animation .*?><endif>",
+>           "ko": "<if_woman><start_lip_sync .*?>Line_1\n안녕하세요, 아가씨.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\n안녕하세요, 신사.\nLine_3<stop_lip_animation .*?><endif>",
+>           "pt-BR": "<if_woman><start_lip_sync .*?>Line_1\nOlá, senhorita.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\nOlá, senhor.\nLine_3<stop_lip_animation .*?><endif>",
+>           "zh-Hans": "<if_woman><start_lip_sync .*?>Line_1\n你好，小姐.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\n你好，先生.\nLine_3<stop_lip_animation .*?><endif>",
+>           "zh-Hant": "<if_woman><start_lip_sync .*?>Line_1\n你好，小姐.\nLine_3<stop_lip_animation .*?><else><start_lip_sync .*?>Line_1\n你好，先生.\nLine_3<stop_lip_animation .*?><endif>"
+>         }
+>       }
+>     }
+>     ```
 >
 > ### Glossary
 >
