@@ -59389,7 +59389,11 @@ STT_BattleMonsterName:
     zh-Hans: 魔法之星
     zh-Hant: 魔法之星
   ID_MONSTER_NAME_01302: &ID_MONSTER_NAME_01302
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_01302]`
+      *ID_MONSTER_NAME_01302
     de: ""
     en: Champ Star
     es: ""
@@ -61147,6 +61151,8 @@ STT_BattleMonsterName:
     $comments: |-
       🟢
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_ENEMY_NAME.TXT_ENEMY_NAME_032`
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_05002]`
     de: Flammenfiffi
     en: Hot Dog
     es: Perrito Caliente
@@ -63073,16 +63079,20 @@ STT_BattleMonsterName:
     pt-BR: Marquês de Leão
     zh-Hans: 狮王
     zh-Hant: 獅王
-  ID_MONSTER_NAME_08709: &ID_MONSTER_NAME_08709
-    $comments: 🟡
-    de: ""
+  ID_MONSTER_NAME_08709: &STT_BattleMonsterName.ID_MONSTER_NAME_08709
+    $comments: |-
+      🟢
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_08709]`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_08709
+    de: Totengräber
     en: Grave Digger
-    es: ""
-    fr: ""
-    it: ""
+    es: Sepulturero
+    fr: Nécrophore
+    it: Becchino
     ja: グレイブディガー
     ko: 그레이브 디거
-    pt-BR: ""
+    pt-BR: Coveiro
     zh-Hans: 掘墓者
     zh-Hant: 掘墓者
   ID_MONSTER_NAME_08800:
@@ -66629,7 +66639,11 @@ STT_BattleMonsterName:
     zh-Hans: 粘海带将军
     zh-Hant: 昆布絲將軍
   ID_MONSTER_NAME_14604: &ID_MONSTER_NAME_14604
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_14604]`
+      *ID_MONSTER_NAME_14604
     de: ""
     en: Sea Breeze Diva
     es: ""
@@ -66969,6 +66983,8 @@ STT_BattleMonsterName:
   ID_MONSTER_NAME_15302:
     $comments: |-
       🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_15302]`
       see `Steam\steamapps\common\DRAGON QUEST XI S\Game\Content\Paks\pakchunk0-WindowsNoEditor.pak\Game\Content\TripleData_Multi\language\{LANGUAGE}\db\Localize.db:TXT_ENEMY_NAME.TXT_ENEMY_NAME_278`
     de: Sturmscheucher
     en: Hellbound Hair-Raiser
@@ -67361,7 +67377,10 @@ STT_BattleMonsterName:
     zh-Hans: 鬼哭魔剑匠
     zh-Hant: 鬼哭魔劍匠
   ID_MONSTER_NAME_15705:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_15705]`
     de: ""
     en: Dark Servant
     es: ""
@@ -68935,8 +68954,12 @@ STT_BattleMonsterName:
     pt-BR: ""
     zh-Hans: 巨角兽人
     zh-Hant: 巨角獸人
-  ID_MONSTER_NAME_BOSS_0491:
-    $comments: 🟢
+  ID_MONSTER_NAME_BOSS_0491: &STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0491
+    $comments: |-
+      🟢
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0491]`
+      *STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0491
     de: Barbatos
     en: Barbatos
     es: Barbatos
@@ -71723,7 +71746,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_05002:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_05002]`
     de: ""
     en: ""
     es: ""
@@ -73631,7 +73657,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_08709:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_08709]`
     de: ""
     en: ""
     es: ""
@@ -77209,7 +77238,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_15302:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_15302]`
     de: ""
     en: ""
     es: ""
@@ -77548,7 +77580,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_15705:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_15705]`
     de: ""
     en: ""
     es: ""
@@ -78781,7 +78816,10 @@ STT_BattleMonsterName:
     zh-Hans: Dummy
     zh-Hant: DUMMY
   RUBY_ID_MONSTER_NAME_BOSS_0491:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0491]`
     de: ""
     en: ""
     es: ""
@@ -201348,15 +201386,15 @@ STT_CareerStoryVer2:
       讓力量匯聚於命運鐘擺上吧！
   SYSTXT_CAREER_STORY_SIN1_003: &SYSTXT_CAREER_STORY_SIN1_003
     $comments: |-
-      🔴
-      (??/??) Story of the Land of Overlapping Fates [ Pendulum of Fate ] { Main Story }
-      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_SIN1_???]`
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_200, STT_NpcInfo.NAME_NPC_02045]`
+      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_SIN1_003]`
     de: ""
     en: |-
       {PC} traveled around Lendersia and solved several cases, and the
-      power of fate gathered within the Pendulum of Fate until it began to
-      glow. Let's go to Sage Lushenda's office in Gran Zedora Castle and
-      report to her.
+      power of fate gathered within the Pendulum of Fate until it began to glow.
+      Let's report back to Sage Lushenda's office in Gran Zedora Castle.
     es: ""
     fr: ""
     it: ""
@@ -201391,16 +201429,17 @@ STT_CareerStoryVer2:
       向賢者露仙妲報告吧。
   SYSTXT_CAREER_STORY_SIN1_007: &SYSTXT_CAREER_STORY_SIN1_007
     $comments: |-
-      🔴
-      (??/??) Story of the Land of Overlapping Fates [ Pendulum of Fate ] { Main Story }
+      🟡
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_000, STT_NpcInfo.NAME_NPC_02045]`
       see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_SIN1_007]`
     de: ""
     en: |-
-      The Pendulum of Fate that {PC} brought
-      revealed that the Great Demon King Madesagora's purpose was
-      to invade the True World with the False World. {PC} understood this situation.
-      Sage Lushenda entrusted me with the Pendulum of Fate once again.
-      Let's collect the power of the Pendulum of Fate!
+      The Pendulum of Fate that {PC} brought revealed that the Great
+      Demon King Madesagora's purpose was to invade the True World with the
+      False World. {PC} understood this situation. Sage Lushenda entrusted
+      us with the Pendulum of Fate once again. Let's collect power for the
+      Pendulum of Fate!
     es: ""
     fr: ""
     it: ""
@@ -244688,9 +244727,12 @@ STT_DaijinamonoItem:
     zh-Hans: fangxiuban
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_BUREIBUGIFUTOSHIRO:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_060, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_BUREIBUGIFUTOSHIRO]`
     de: ""
-    en: White Brave Gift
+    en: Brave Gift (White)
     es: ""
     fr: ""
     it: ""
@@ -244700,11 +244742,14 @@ STT_DaijinamonoItem:
     zh-Hans: 白色勇气礼盒
     zh-Hant: 白色勇氣禮盒
   EXPLANATION_ID_ITEM_DAIJINAMONO_BUREIBUGIFUTOSHIRO:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_060, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_BUREIBUGIFUTOSHIRO]`
     de: ""
     en: |-
-      Pure white
-      and dignified.
+      Pure white and
+      dignified.
       For Anlucia only.
     es: ""
     fr: ""
@@ -244727,7 +244772,10 @@ STT_DaijinamonoItem:
       純白而威風
       安露西亞專用
   RUBY_ID_ITEM_DAIJINAMONO_BUREIBUGIFUTOSHIRO:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_060, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_BUREIBUGIFUTOSHIRO]`
     de: ""
     en: ""
     es: ""
@@ -244963,9 +245011,12 @@ STT_DaijinamonoItem:
     zh-Hans: zhongyaodehuizhang
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_DEFERUKOUYANOISI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_DEFERUKOUYANOISI]`
     de: ""
-    en: Defel Wasteland Stone
+    en: Defel Desert Stone
     es: ""
     fr: ""
     it: ""
@@ -244975,12 +245026,14 @@ STT_DaijinamonoItem:
     zh-Hans: 德菲尔荒野的石头
     zh-Hant: 德菲爾荒野的石頭
   EXPLANATION_ID_ITEM_DAIJINAMONO_DEFERUKOUYANOISI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_DEFERUKOUYANOISI]`
     de: ""
     en: |-
-      An ordinary rock
-      from the Defel
-      Wasteland.
+      An ordinary rock from
+      the Defel Desert
     es: ""
     fr: ""
     it: ""
@@ -245000,7 +245053,10 @@ STT_DaijinamonoItem:
       可在德菲爾荒野
       採集到的普通石頭
   RUBY_ID_ITEM_DAIJINAMONO_DEFERUKOUYANOISI:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_DEFERUKOUYANOISI]`
     de: ""
     en: ""
     es: ""
@@ -246087,7 +246143,10 @@ STT_DaijinamonoItem:
     zh-Hans: yueguangdiewanlifu
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI]`
     de: ""
     en: Golden Moonlight Thread
     es: ""
@@ -246099,12 +246158,15 @@ STT_DaijinamonoItem:
     zh-Hans: 月光金线
     zh-Hant: 月光金線
   EXPLANATION_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI]`
     de: ""
     en: |-
       Rare thread that
-      glistens like
-      moonlight.
+      glistens like moon-
+      light
     es: ""
     fr: ""
     it: ""
@@ -246126,7 +246188,10 @@ STT_DaijinamonoItem:
       月光般光芒的
       稀有絲線
   RUBY_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI]`
     de: ""
     en: ""
     es: ""
@@ -257198,7 +257263,10 @@ STT_DaijinamonoItem:
     zh-Hans: songgeililiaoerdeliwu
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_RONUJYURINTAINOKUSA:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_RONUJYURINTAINOKUSA]`
     de: ""
     en: Rhone Forest Belt Grass
     es: ""
@@ -257210,12 +257278,14 @@ STT_DaijinamonoItem:
     zh-Hans: 罗努树林地带的草
     zh-Hant: 羅努樹林地帶的草
   EXPLANATION_ID_ITEM_DAIJINAMONO_RONUJYURINTAINOKUSA:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_RONUJYURINTAINOKUSA]`
     de: ""
     en: |-
       Common grass from
       the Rhone Forest
-      Belt.
     es: ""
     fr: ""
     it: ""
@@ -257236,7 +257306,10 @@ STT_DaijinamonoItem:
       可在羅努樹林地帶
       採集到的普通草
   RUBY_ID_ITEM_DAIJINAMONO_RONUJYURINTAINOKUSA:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_RONUJYURINTAINOKUSA]`
     de: ""
     en: ""
     es: ""
@@ -260153,7 +260226,10 @@ STT_DaijinamonoItem:
     zh-Hans: tianmeifuzhuangquan
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_SYAKUNETUNOKAKERA:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SYAKUNETUNOKAKERA]`
     de: ""
     en: Red-Hot Shard
     es: ""
@@ -260165,12 +260241,15 @@ STT_DaijinamonoItem:
     zh-Hans: 灼热碎片
     zh-Hant: 灼熱碎片
   EXPLANATION_ID_ITEM_DAIJINAMONO_SYAKUNETUNOKAKERA:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SYAKUNETUNOKAKERA]`
     de: ""
     en: |-
       A crystal shard
       containing a red-hot
-      flame.
+      flame
     es: ""
     fr: ""
     it: ""
@@ -260190,7 +260269,10 @@ STT_DaijinamonoItem:
       帶有高溫火焰的
       結晶碎片
   RUBY_ID_ITEM_DAIJINAMONO_SYAKUNETUNOKAKERA:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_010, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SYAKUNETUNOKAKERA]`
     de: ""
     en: ""
     es: ""
@@ -260664,23 +260746,31 @@ STT_DaijinamonoItem:
     zh-Hans: tianmingzhinvwushen
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_TETSUNOKINKONOKAGI:
-    $comments: 🟡 (257) { Super Useful }
-    de: ""
-    en: Iron Safe Key
-    es: ""
-    fr: ""
-    it: ""
+    $comments: |-
+      🟢
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TETSUNOKINKONOKAGI]`
+      see [~\tools\REFERENCES\DQ04\NTR-YIVx-xxx\data\MESS\languages\b1000000.mpt.yaml:[157].singular]
+      Der,La,La,La,A
+    de: Schüssel des Stahlkastens
+    en: Steel Strongbox Key
+    es: Llave de la Caja Fuerte
+    fr: Clé du Coffre-Fort de Fer
+    it: Chiave della Salvarisparmi
     ja: 鉄の金庫のカギ
     ko: 철 금고의 열쇠
-    pt-BR: ""
+    pt-BR: Chave da Caixa-forte de Aço
     zh-Hans: 铁制金库的钥匙
     zh-Hant: 鐵製金庫的鑰匙
   EXPLANATION_ID_ITEM_DAIJINAMONO_TETSUNOKINKONOKAGI:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TETSUNOKINKONOKAGI]`
     de: ""
     en: |-
-      A special key to
-      open the Iron Safe.
+      A special key to open
+      the Steel Strongbox
     es: ""
     fr: ""
     it: ""
@@ -260701,7 +260791,10 @@ STT_DaijinamonoItem:
       可開啟鐵製金庫的
       特殊鑰匙
   RUBY_ID_ITEM_DAIJINAMONO_TETSUNOKINKONOKAGI:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TETSUNOKINKONOKAGI]`
     de: ""
     en: ""
     es: ""
@@ -260713,24 +260806,32 @@ STT_DaijinamonoItem:
     zh-Hans: tiezhijinkudeyaoshi
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_TETSUNOKINKO:
-    $comments: 🟡 (257) { Super Useful }
-    de: ""
-    en: Iron Safe
-    es: ""
-    fr: ""
-    it: ""
+    $comments: |-
+      🟢
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TETSUNOKINKO]`
+      see [~\tools\REFERENCES\DQ04\NTR-YIVx-xxx\data\MESS\languages\b1000000.mpt.yaml:[157].singular]
+      Der,La,Le,La,A
+    de: Stahlkasten
+    en: Steel Strongbox
+    es: Caja Fuerte
+    fr: Coffre-Fort de Fer
+    it: Salvarisparmi
     ja: 鉄の金庫
     ko: 철 금고
-    pt-BR: ""
+    pt-BR: Caixa-forte de Aço
     zh-Hans: 铁制金库
     zh-Hant: 鐵製金庫
   EXPLANATION_ID_ITEM_DAIJINAMONO_TETSUNOKINKO:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TETSUNOKINKO]`
     de: ""
     en: |-
       A sturdy safe to
       protect its owner's
-      gold.
+      gold
     es: ""
     fr: ""
     it: ""
@@ -260752,7 +260853,10 @@ STT_DaijinamonoItem:
       保護金幣的
       極堅固金庫
   RUBY_ID_ITEM_DAIJINAMONO_TETSUNOKINKO:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TETSUNOKINKO]`
     de: ""
     en: ""
     es: ""
@@ -262658,7 +262762,10 @@ STT_DaijinamonoItem:
     zh-Hans: zhuangyouyimiaodedaizi
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_WARUDOSUIGENNOMIZU:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_WARUDOSUIGENNOMIZU]`
     de: ""
     en: Wald Headwaters Water
     es: ""
@@ -262670,7 +262777,10 @@ STT_DaijinamonoItem:
     zh-Hans: 瓦尔多水源的水
     zh-Hant: 瓦爾多水源的水
   EXPLANATION_ID_ITEM_DAIJINAMONO_WARUDOSUIGENNOMIZU:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_WARUDOSUIGENNOMIZU]`
     de: ""
     en: |-
       Ordinary water from
@@ -262695,7 +262805,10 @@ STT_DaijinamonoItem:
       可在瓦爾多水源
       採集到的普通水
   RUBY_ID_ITEM_DAIJINAMONO_WARUDOSUIGENNOMIZU:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_WARUDOSUIGENNOMIZU]`
     de: ""
     en: ""
     es: ""
@@ -263614,8 +263727,7 @@ STT_DaijinamonoItem:
     zh-Hans: ciaiwenzhang
     zh-Hant: DUMMY
   NAME_ID_ITEM_DAIJINAMONO_ZIGOKUNOYASURI:
-    $comments: |-
-      🟡, (262) { Main Story }, see [STT_QuestList.Detail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_015, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZIGOKUNOYASURI]
+    $comments: 🔴
     de: ""
     en: Hell File
     es: ""
@@ -263627,8 +263739,7 @@ STT_DaijinamonoItem:
     zh-Hans: 地狱锉刀
     zh-Hant: 地獄銼刀
   EXPLANATION_ID_ITEM_DAIJINAMONO_ZIGOKUNOYASURI:
-    $comments: |-
-      🟡, (262) { Main Story }, see [STT_QuestList.Detail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_015, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZIGOKUNOYASURI]
+    $comments: 🔴
     de: ""
     en: |-
       A frightening file
@@ -263655,8 +263766,7 @@ STT_DaijinamonoItem:
       用來拷問的
       恐怖銼刀
   RUBY_ID_ITEM_DAIJINAMONO_ZIGOKUNOYASURI:
-    $comments: |-
-      🟡, (262) { Main Story }, see [STT_QuestList.Detail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_015, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZIGOKUNOYASURI]
+    $comments: 🔴
     de: ""
     en: ""
     es: ""
@@ -271775,22 +271885,14 @@ STT_EventMonsterName_2nd: #pakchunk2-{PLATFORM}.utoc/Game/Content/DLC/Ver2/Strin
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  GK_009:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: 潮風のディーバ
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  GK_009: *ID_MONSTER_NAME_14604
   GK_009_BATTLENAME:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_14604]`
     de: ""
-    en: ""
+    en: Sea Breeze Divas
     es: ""
     fr: ""
     it: ""
@@ -271903,9 +272005,12 @@ STT_EventMonsterName_2nd: #pakchunk2-{PLATFORM}.utoc/Game/Content/DLC/Ver2/Strin
     zh-Hans: ""
     zh-Hant: ""
   MQ_006_1:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_15705]`
     de: ""
-    en: ""
+    en: Demon Servant
     es: ""
     fr: ""
     it: ""
@@ -271915,9 +272020,12 @@ STT_EventMonsterName_2nd: #pakchunk2-{PLATFORM}.utoc/Game/Content/DLC/Ver2/Strin
     zh-Hans: ""
     zh-Hant: ""
   MQ_006_1_BATTLENAME:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0491]`
     de: ""
-    en: ""
+    en: Hell Battlers
     es: ""
     fr: ""
     it: ""
@@ -271926,18 +272034,7 @@ STT_EventMonsterName_2nd: #pakchunk2-{PLATFORM}.utoc/Game/Content/DLC/Ver2/Strin
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  MQ_009_1:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: グレイブディガー
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  MQ_009_1: *STT_BattleMonsterName.ID_MONSTER_NAME_08709
   MQ_010_1:
     $comments: 🔴
     de: ""
@@ -356138,13 +356235,18 @@ STT_Monster_Tips1_ver1:
       吐出的氣息會形成龍捲風。
       生氣時會提升鬥志，
       毫不留情地發動攻擊。
-  SYSTXT_MONSTER_TIPS1_MONSTER_NO_05002:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS1_MONSTER_NO_05002: &STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_05002
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_05002]`
+      *STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_05002
     de: ""
     en: |-
-      A red demon dog that is said to have been born from lava and grew
-      by eating flame.
-      He is a terrifying beast that goes on a rampage, spewing flames all over the place.
+      A crimson demon dog said to have been
+      born from lava and grew by eating
+      flames. It is a terrifying beast that
+      spews flames nearby when rampaging.
     es: ""
     fr: ""
     it: ""
@@ -372676,14 +372778,18 @@ STT_Monster_Tips2_ver1:
       但在飼主惡魔神官的面前
       會乖乖地握手或坐下，
       是條搖尾巴的忠犬。
-  SYSTXT_MONSTER_TIPS2_MONSTER_NO_05002:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS2_MONSTER_NO_05002: &STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_05002
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_010, STT_BattleMonsterName.ID_MONSTER_NAME_05002]`
+      *STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_05002
     de: ""
     en: |-
-      When he catches a cold,
-      every time he sneezes or coughs,
-      he spreads flames, so
-      no one comes to visit him.
+      When it catches a cold, because of
+      the flames spread every time it
+      sneezes or coughs, no one comes to
+      wish it well.
     es: ""
     fr: ""
     it: ""
@@ -384669,12 +384775,16 @@ STT_Monster_Tips1_ver2:
     zh-Hans: ""
     zh-Hant: ""
   SYSTXT_MONSTER_TIPS1_MONSTER_NO_08709:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_08709]`
     de: ""
     en: |-
-      A monster used by Captain Morva of the grave robbing group \"Desert Earth Dragon\".
-      Be careful of the
-      fierce attack using four arms.
+      A monster used by Captain Morva of the
+      grave-robbing group "Desert Moles".
+      Be careful of the fierce attack using
+      four arms.
     es: ""
     fr: ""
     it: ""
@@ -387655,12 +387765,18 @@ STT_Monster_Tips1_ver2:
       滿身鮮血的暗殺者。
       擅長以亂射給予
       沉睡的對手致命一擊。
-  SYSTXT_MONSTER_TIPS1_MONSTER_NO_15302:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS1_MONSTER_NO_15302: &STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_15302
+    $comments: |-
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_15302]`
+      *STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_15302
     de: ""
     en: |-
-      With his whole body painted in yellow,
-      you might think he is a person who wants to stand out, but he is actually a master of tricks, using both bold big moves and plain tricks.
+      With his entire body dyed yellow you may
+      think it is just a show-off, but it is a
+      master tactician who attacks enemies' weak
+      points with flashy, high-impact moves.
     es: ""
     fr: ""
     it: ""
@@ -388349,7 +388465,10 @@ STT_Monster_Tips1_ver2:
       施展扎奧里庫復活夥伴，
       是個不能大意的強敵。
   SYSTXT_MONSTER_TIPS1_MONSTER_NO_15705:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_15705]`
     de: ""
     en: |-
       A member of the
@@ -389901,7 +390020,10 @@ STT_Monster_Tips1_ver2:
       會一邊喘著火焰的鼻息，
       一邊毀滅眼前所見的一切。
   SYSTXT_MONSTER_TIPS1_MONSTER_NO_BOSS_0491:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0491]`
     de: ""
     en: |-
       The bodyguards of the
@@ -390886,13 +391008,16 @@ STT_Monster_Tips2_Ver2:
     zh-Hans: ""
     zh-Hant: ""
   SYSTXT_MONSTER_TIPS2_MONSTER_NO_08709:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_08709]`
     de: ""
     en: |-
-      The name given by Captain Morva seems to mean
-      grave digger.
-      He didn't like it, but
-      I couldn't speak the language, so I couldn't say anything.
+      The name given by Captain Morva seems
+      to mean grave digger. He didn't like
+      it, but I couldn't speak the language,
+      so I couldn't say anything.
     es: ""
     fr: ""
     it: ""
@@ -393893,14 +394018,17 @@ STT_Monster_Tips2_Ver2:
       從高處跳下，
       假日會出遠門，
       享受高空彈跳。
-  SYSTXT_MONSTER_TIPS2_MONSTER_NO_15302:
-    $comments: 🔴
+  SYSTXT_MONSTER_TIPS2_MONSTER_NO_15302: &STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_15302
+    $comments: |-
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_15302]`
+      *STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_15302
     de: ""
     en: |-
-      Singer who is the
-      vocalist of the legendary monster band
-      \"Lightning Death.\"
-      Don't be shocked by my voice!
+      The lead vocalist of the legendary
+      monster band, "Lightning Death".
+      Don't be shocked by its voice!!
     es: ""
     fr: ""
     it: ""
@@ -394600,7 +394728,10 @@ STT_Monster_Tips2_Ver2:
       還是洗澡要從哪裡開始洗等，
       受到無數既定事項限制。
   SYSTXT_MONSTER_TIPS2_MONSTER_NO_15705:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_15705]`
     de: ""
     en: |-
       The Great Demon King's Guard under the
@@ -396173,7 +396304,10 @@ STT_Monster_Tips2_Ver2:
       將肩膀以下浸泡在熔岩中
       緩解戰鬥疲勞是牠每晚的樂趣。
   SYSTXT_MONSTER_TIPS2_MONSTER_NO_BOSS_0491:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0491]`
     de: ""
     en: |-
       As part of the Demon King's army's bodyguards, they are often entrusted with the bodyguards of
@@ -421626,6 +421760,8 @@ STT_NpcInfo:
       🟢, F
       (12/29) Story of Gran Zedora [ 3 Butterflies - Anlucia's Memories ] { Main Story }
       see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_NIS5_017, STT_NpcInfo.NAME_NPC_02047]`
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_000]`
     de: Königin Julia
     en: Queen Julia
     es: Reina Julia
@@ -423158,27 +423294,33 @@ STT_NpcInfo:
     zh-Hans: 莫鲁巴团长
     zh-Hant: 莫魯巴團長
   NAME_NPC_02164:
-    $comments: 🔴, M
-    de: ""
+    $comments: |-
+      🟢, M
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_023, STT_NpcInfo.NAME_NPC_02164]`
+    de: Wange
     en: Wange
-    es: ""
-    fr: ""
-    it: ""
+    es: Wange
+    fr: Wange
+    it: Wange
     ja: ワンゲ
     ko: 완게
-    pt-BR: ""
+    pt-BR: Wange
     zh-Hans: 万格
     zh-Hant: 萬格
   NAME_NPC_02165:
-    $comments: 🔴, F
-    de: ""
+    $comments: |-
+      🟢, F
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_023, STT_NpcInfo.NAME_NPC_02163]`
+    de: Jitora
     en: Jitora
-    es: ""
-    fr: ""
-    it: ""
+    es: Jitora
+    fr: Jitora
+    it: Jitora
     ja: ジトラ
     ko: 지트라
-    pt-BR: ""
+    pt-BR: Jitora
     zh-Hans: 吉特拉
     zh-Hant: 吉特拉
   NAME_NPC_02166:
@@ -425330,7 +425472,7 @@ STT_NpcInfo:
     zh-Hans: 妖魔将盖修拉
     zh-Hant: 妖魔將蓋蛛拉
   NAME_NPC_02342: *STT_NpcInfo.NAME_NPC_02342
-  NAME_NPC_02343: *ID_MONSTER_NAME_08709
+  NAME_NPC_02343: *STT_BattleMonsterName.ID_MONSTER_NAME_08709
   NAME_NPC_02344:
     $comments: 🔴, N
     de: ""
@@ -426317,15 +426459,18 @@ STT_NpcInfo:
     zh-Hans: 冯·巴尔迪
     zh-Hant: 馮‧巴爾迪
   NAME_NPC_02416:
-    $comments: 🔴, M
-    de: ""
+    $comments: |-
+      🟢
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_010, STT_NpcInfo.NAME_NPC_02416]`
+    de: Darash
     en: Darash
-    es: ""
-    fr: ""
-    it: ""
+    es: Darash
+    fr: Darash
+    it: Darash
     ja: ダラシュ
     ko: 다라시
-    pt-BR: ""
+    pt-BR: Darash
     zh-Hans: 达拉修
     zh-Hant: 達拉修
   NAME_NPC_02417:
@@ -432671,17 +432816,17 @@ STT_NpcInfo:
     zh-Hant: 諾雅
   NAME_NPC_02929:
     $comments: |-
-      🔴, M
-      (02/??) Story of the Land of Overlapping Fates [ Pendulum of Fate ] { Main Story }
-      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_SIN1_002, STT_NpcInfo.NAME_NPC_02929]`
-    de: ""
+      🟢
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_010]`
+    de: Renken
     en: Renken
-    es: ""
-    fr: ""
-    it: ""
+    es: Renken
+    fr: Renken
+    it: Renken
     ja: レンケン
     ko: 렌켄
-    pt-BR: ""
+    pt-BR: Renken
     zh-Hans: 连肯
     zh-Hant: 連肯
   NAME_NPC_02930:
@@ -433177,15 +433322,18 @@ STT_NpcInfo:
     zh-Hans: 恐惧的化身
     zh-Hant: 恐懼的化身
   NAME_NPC_02971:
-    $comments: 🔴, N
-    de: ""
+    $comments: |-
+      🟢, N
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_BattleMonsterName.ID_MONSTER_NAME_BOSS_0491]`
+    de: Barbatos
     en: Barbatos
-    es: ""
-    fr: ""
-    it: ""
+    es: Barbatos
+    fr: Barbatos
+    it: Barbatos
     ja: ヘルバトラー
     ko: 헬 버틀러
-    pt-BR: ""
+    pt-BR: Barbatos
     zh-Hans: 地狱斗士
     zh-Hant: 地獄鬥士
   NAME_NPC_02972:
@@ -433936,8 +434084,10 @@ STT_NpcInfo:
   NAME_NPC_03032:
     $comments: |-
       🟢, F
-      (256) SYSTEXT_QUESTLIST_NAME_KQ_020_2 { Main Story }
+      (256) SYSTEXT_QUESTLIST_NAME_KQ_020_2 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
       see `[STT_QuestListSeries.SYSTEXT_QUESTLIST_NAME_KQ_020, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_020_2_000, STT_NpcInfo.NAME_NPC_03032]`
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_000, STT_NpcInfo.NAME_NPC_03032]`
     de: Grane
     en: Grane
     es: Grane
@@ -434506,15 +434656,18 @@ STT_NpcInfo:
     zh-Hans: 流动商人拉班
     zh-Hant: 旅行商人拉邦
   NAME_NPC_03080:
-    $comments: 🔴, M
-    de: ""
-    en: Jerema
-    es: ""
-    fr: ""
-    it: ""
+    $comments: |-
+      🟢, M
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_020, STT_NpcInfo.NAME_NPC_03080]`
+    de: Jerma
+    en: Jerma
+    es: Jerma
+    fr: Jerma
+    it: Jerma
     ja: ジェルマ
     ko: 젤마
-    pt-BR: ""
+    pt-BR: Jerma
     zh-Hans: 杰尔马
     zh-Hant: 傑爾瑪
   NAME_NPC_03081:
@@ -449103,7 +449256,9 @@ STT_NpcInfo:
     $comments: |-
       🟢, M
       (02/??) Story of the Land of Overlapping Fates [ Pendulum of Fate ] { Main Story }
-      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_SIN1_002, STT_NpcInfo.NAME_NPC_04301]`
+      see `[STT_CareerStoryVer2.SYSTXT_CAREER_STORY_SIN1_002]`
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_000, STT_NpcInfo.NAME_NPC_04301]`
     de: Reybassa
     en: Reybassa
     es: Reybassa
@@ -636845,6 +637000,8 @@ STT_PT_Talk:
   PT_TALK_TXT_27_23_411_10_1_1:
     $comments: |-
       🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_010, STT_NpcInfo.NAME_NPC_00091]`
       {"QuestNo":411,"QuestCounter_Start":10,"QuestCounter_End":19,"Speaker":"COMPANION_MAIYU"}
     de: ""
     en: |-
@@ -637176,8 +637333,8 @@ STT_PT_Talk:
       {"QuestNo":411,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_FUURA"}
     de: ""
     en: |-
-      Moonlight Golden Thread, hearing the name alone, you
-      can tell how beautiful it is, y'know. Hurry, I want
+      Golden Moonlight Thread, hearing the name alone,
+      you can tell how beautiful it is, y'know. Hurry, I want
       to see it.
     es: ""
     fr: ""
@@ -637308,6 +637465,8 @@ STT_PT_Talk:
   PT_TALK_TXT_27_23_411_30_1_1:
     $comments: |-
       🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI]`
       {"QuestNo":411,"QuestCounter_Start":30,"QuestCounter_End":39,"Speaker":"COMPANION_MAIYU"}
     de: ""
     en: |-
@@ -637810,8 +637969,8 @@ STT_PT_Talk:
       {"QuestNo":411,"QuestCounter_Start":50,"QuestCounter_End":59,"Speaker":"COMPANION_FUURA"}
     de: ""
     en: |-
-      Queen... I wonder how she felt when she were told that
-      Prince Toma was standing in for Anlucia...
+      The Queen... I wonder how she felt when she was told
+      that Prince Toma was standing in for Anlucia...
     es: ""
     fr: ""
     it: ""
@@ -637866,8 +638025,8 @@ STT_PT_Talk:
       {"QuestNo":411,"QuestCounter_Start":50,"QuestCounter_End":59,"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      I ain't interested in Royal Tombs! After all, there
-      ain't nothin' but valuable things!
+      I ain't interested in Royal Tombs! After all, there ain't
+      nuthin' but valuable things!
     es: ""
     fr: ""
     it: ""
@@ -637945,7 +638104,7 @@ STT_PT_Talk:
     de: ""
     en: |-
       My Mother is going to offer the cloak at the Royal
-      Family's Tomb at Reviewle Highway North; I'd like
+      Family's Tomb at Reviewle Highway North—I'd like
       us to go there together.
     es: ""
     fr: ""
@@ -638126,7 +638285,7 @@ STT_PT_Talk:
     de: ""
     en: |-
       Ta steal a dead body, ya just can't help some guys!
-      Even I wouldn't do somethin like dat!
+      Even I wouldn't do somethin' like dat!
     es: ""
     fr: ""
     it: ""
@@ -638182,7 +638341,7 @@ STT_PT_Talk:
       {"QuestNo":411,"QuestCounter_Start":60,"QuestCounter_End":199,"Speaker":"COMPANION_RAGUASU"}
     de: ""
     en: |-
-      Queen Julia and Princess Anlucia are already grieving,
+      Queen Julia and Princess Anlucia have grieved enough,
       this act is too much.
     es: ""
     fr: ""
@@ -638206,8 +638365,8 @@ STT_PT_Talk:
       {"QuestNo":411,"QuestCounter_Start":60,"QuestCounter_End":199,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
     en: |-
-      To steal Big Brother Toma's body... Why would someone
-      do such a heartless thing!
+      To steal Big Brother Toma's body like that...
+      Why would someone do such a heartless thing!
     es: ""
     fr: ""
     it: ""
@@ -638229,7 +638388,7 @@ STT_PT_Talk:
       🟡
       {"QuestNo":411,"QuestCounter_Start":60,"QuestCounter_End":199,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
-    en: '...I''m alright, apart from worrying about my mother.'
+    en: "......I'm alright, apart from worrying about my mother."
     es: ""
     fr: ""
     it: ""
@@ -638377,9 +638536,9 @@ STT_PT_Talk:
       {"ScenarioCounter_End":25,"QuestNo":411,"QuestCounter_Start":200,"QuestCounter_End":200,"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      When a grave's been robbed, it starts glowin' like
-      that; this Pendulum of Fate thing's a piece of junk,
-      ain't it, yeah?
+      When a grave's robbed, this Pendulum o' Fate starts
+      glowin' like that—this thing's a piece o' junk,
+      ain't it?
     es: ""
     fr: ""
     it: ""
@@ -638740,7 +638899,7 @@ STT_PT_Talk:
     en: |-
       The places where the items are to be gathered from
       the False World are the Wald Headwaters, Rhone Forest,
-      and Defel  Wasteland, are they.
+      and Defel Desert, are they.
     es: ""
     fr: ""
     it: ""
@@ -639001,11 +639160,13 @@ STT_PT_Talk:
   PT_TALK_TXT_27_25_409_20_6_1:
     $comments: |-
       🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_NpcInfo.NAME_NPC_02034, STT_DaijinamonoItem.[*_ID_ITEM_DAIJINAMONO_DEFERUKOUYANOISI, *_ID_ITEM_DAIJINAMONO_RONUJYURINTAINOKUSA, *_ID_ITEM_DAIJINAMONO_WARUDOSUIGENNOMIZU]]`
       {"QuestNo":409,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
     en: |-
       The False World's Wald Headwaters Water, Rhone Forest
-      Belt Grass, and Defel Wasteland Stone...
+      Belt Grass, and Defel Desert Stone...
     es: ""
     fr: ""
     it: ""
@@ -641683,7 +641844,9 @@ STT_PT_Talk:
       🟡
       {"QuestNo":436,"QuestCounter_Start":10,"QuestCounter_End":19,"Speaker":"COMPANION_FUURA"}
     de: ""
-    en: We have to secretly search for the prince's body so as not to worry other countries.
+    en: |-
+      We have to secretly search for the Prince's body so as
+      not to worry other country.
     es: ""
     fr: ""
     it: ""
@@ -641709,7 +641872,9 @@ STT_PT_Talk:
       🟡
       {"QuestNo":436,"QuestCounter_Start":10,"QuestCounter_End":19,"Speaker":"COMPANION_DASUTON"}
     de: ""
-    en: Stealing valuable things and selling them off are boring people!
+    en: |-
+      Ta think they're stealin' valuables ta sell 'em off,
+      what a worthless lot, ain't they!
     es: ""
     fr: ""
     it: ""
@@ -641729,12 +641894,12 @@ STT_PT_Talk:
   PT_TALK_TXT_27_30_436_10_4_2:
     $comments: |-
       🟡
-      {"QuestNo":436,"QuestCounter_Start":10,"QuestCounter_End":19,"Listener":"COMPANION_DASUTON"}
+      {"QuestNo":436,"QuestCounter_Start":10,"QuestCounter_End":19,"Speaker":"COMPANION_HYUZA"}
     de: ""
     en: |-
-      Huh... Even old men sometimes say
-      trivial things.
-      I agree. Stealing is boring, isn't it?
+      Heh... Old man, even you say sensible things sometimes,
+      huh. I feel the same. Stealin' like that is worthless,
+      isn't it.
     es: ""
     fr: ""
     it: ""
@@ -641761,8 +641926,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":10,"QuestCounter_End":19,"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      Absolutely.
-      If you want to steal my precious junk like Chiri, I understand!
+      Absolutely. It's like when Chiri was tryin' ta steal
+      my precious junk; that's why I understand, y'know!
     es: ""
     fr: ""
     it: ""
@@ -641786,12 +641951,12 @@ STT_PT_Talk:
   PT_TALK_TXT_27_30_436_10_4_4:
     $comments: |-
       🟡
-      {"QuestNo":436,"QuestCounter_Start":10,"QuestCounter_End":19,"Listener":"COMPANION_DASUTON"}
+      {"QuestNo":436,"QuestCounter_Start":10,"QuestCounter_End":19,"Speaker":"COMPANION_HYUZA"}
     de: ""
     en: |-
-      ...Ah, that's right.
-      I guess you're a little off.
-      This old man...
+      ...Aah, so that's why you feel that way, yeah.
+      As expected, you got some screws loose, don'tcha,
+      old man......
     es: ""
     fr: ""
     it: ""
@@ -641875,8 +642040,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":10,"QuestCounter_End":19,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
     en: |-
-      {pc}. Thank you for accepting the
-      request from Captain Nogato.
+      {pc}. Thank you for accepting the request
+      from Captain Nogato.
     es: ""
     fr: ""
     it: ""
@@ -641898,7 +642063,9 @@ STT_PT_Talk:
       🟡
       {"QuestNo":436,"QuestCounter_Start":10,"QuestCounter_End":19,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
-    en: Please lend me your power so that Big Brother Toma can rest in peace.
+    en: |-
+      Please lend us your power so that Big Brother Toma
+      can rest in peace.
     es: ""
     fr: ""
     it: ""
@@ -641918,11 +642085,13 @@ STT_PT_Talk:
   PT_TALK_TXT_27_30_436_20_1_1:
     $comments: |-
       🟡
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_020, STT_NpcInfo.NAME_NPC_00091]`
       {"QuestNo":436,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_MAIYU"}
     de: ""
     en: |-
-      Mr. Darash and the others can't catch
-      grave robbers...
+      Darash and the others can't catch this gang of grave-
+      robbers...
     es: ""
     fr: ""
     it: ""
@@ -641942,12 +642111,14 @@ STT_PT_Talk:
   PT_TALK_TXT_27_30_436_20_1_2:
     $comments: |-
       🟡
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_020, STT_NpcInfo.NAME_NPC_00091]`
       {"QuestNo":436,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_MAIYU"}
     de: ""
     en: |-
-      It's like stealing from the royal tombs.
-      I'm sure they're all good at it.
-      Don't let your guard down...
+      Stealing from the Royal Family's Tomb took some work.
+      I bet they're all highly-skilled, no mistaking it.
+      Carelessness should be avoided, okay...
     es: ""
     fr: ""
     it: ""
@@ -641974,9 +642145,9 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_HYUZA"}
     de: ""
     en: |-
-      Desert Earth Dragon... That's a pretty good name.
-      He's going out of his way to steal treasure from the royal tombs.
-      He must be some bastard.
+      Desert Moles... That's quite the name, huh. They're
+      going so far outta their way to steal treasure from the
+      Royal Tomb. They gotta be worthless scoundrels.
     es: ""
     fr: ""
     it: ""
@@ -642003,8 +642174,9 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_FUURA"}
     de: ""
     en: |-
-      They're a group of grave robbers who are quick on
-      the run and are inciting monsters... They seem formidable.
+      They're a group of grave robbers who are quick on the
+      run and incite monsters... They sound kinda tough, don't
+      they.
     es: ""
     fr: ""
     it: ""
@@ -642031,8 +642203,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_FUURA"}
     de: ""
     en: |-
-      But it's for the Queen and Anlucia.
-      You can't say something weak!
+      But it's for the Queen and Anlucia. I can't saying
+      dispiriting things!
     es: ""
     fr: ""
     it: ""
@@ -642056,7 +642228,7 @@ STT_PT_Talk:
   PT_TALK_TXT_27_30_436_20_3_3:
     $comments: |-
       🟡
-      {"QuestNo":436,"QuestCounter_Start":20,"QuestCounter_End":29,"Listener":"COMPANION_FUURA"}
+      {"QuestNo":436,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_ANLUCIA"}
     de: ""
     en: Thank you, Fuura.
     es: ""
@@ -642073,9 +642245,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      Desert Earth Dragon...
-      I don't know if it's strong or weak
-      It smells like a lump!
+      "Desert Moles"... Strong, weak, I dunno, but it's got
+      a junky smell!
     es: ""
     fr: ""
     it: ""
@@ -642102,7 +642273,7 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_RAGUASU"}
     de: ""
     en: |-
-      It's troubling that they won't cooperate with us in
+      It is troubling that they won't cooperate with us in
       catching the grave robbers, but it might actually be
       convenient for us to secretly proceed the investigation.
     es: ""
@@ -642131,8 +642302,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
     en: |-
-      The Desert Earth Dragon...
-      That's the group of grave robbers that stole Big Brother Toma's body.
+      "Desert Moles"... That's the gang of grave-robbers who
+      stole Big Brother Toma's body, is it.
     es: ""
     fr: ""
     it: ""
@@ -642158,7 +642329,7 @@ STT_PT_Talk:
       🟡
       {"QuestNo":436,"QuestCounter_Start":20,"QuestCounter_End":29,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
-    en: I'll definitely catch it...!
+    en: I'll definitely see to it that they're caught...!
     es: ""
     fr: ""
     it: ""
@@ -642173,9 +642344,9 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":30,"QuestCounter_End":199,"Speaker":"COMPANION_MAIYU"}
     de: ""
     en: |-
-      If we're to believe what the bandits said
-      earlier, Prince Toma's body may have been
-      stolen by someone else somehow...
+      If we're to believe what the bandits said earlier, then
+      I wonder if Prince Toma's body was somehow stolen by
+      someone else...
     es: ""
     fr: ""
     it: ""
@@ -642202,9 +642373,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":30,"QuestCounter_End":199,"Listener":"COMPANION_MAIYU"}
     de: ""
     en: |-
-      But the royal tomb is supposed to be
-      inaccessible, except to members of the
-      royal family...
+      However, the Royal Tomb is supposedly inaccessible,
+      save for the members of the Royal Family...
     es: ""
     fr: ""
     it: ""
@@ -642227,8 +642397,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":30,"QuestCounter_End":199,"Speaker":"COMPANION_MAIYU"}
     de: ""
     en: |-
-      Hmm... Anyways, reporting this to Captain
-      Nogato sounds good, right.
+      Uh-huh... Anyways, reporting this to Captain Nogato
+      sounds good, right.
     es: ""
     fr: ""
     it: ""
@@ -642255,8 +642425,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":30,"QuestCounter_End":199,"Speaker":"COMPANION_HYUZA"}
     de: ""
     en: |-
-      That Darash guy had some awfully good
-      timing to show up when he did...
+      That Darash guy had some *awfully good timing*
+      showing up when he did...
     es: ""
     fr: ""
     it: ""
@@ -642283,9 +642453,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":30,"QuestCounter_End":199,"Speaker":"COMPANION_HYUZA"}
     de: ""
     en: |-
-      He didn't plan for us to catch those
-      Desert Mole guys, instead of doing it
-      themselves, did he...?
+      He wasn't aiming for all of us to catch those Desert
+      Mole guys, instead of themselves, was he...?
     es: ""
     fr: ""
     it: ""
@@ -642311,7 +642480,7 @@ STT_PT_Talk:
       🟡
       {"QuestNo":436,"QuestCounter_Start":30,"QuestCounter_End":199,"Listener":"COMPANION_HYUZA"}
     de: ""
-    en: What do you think... Guess we'll never know.
+    en: Seems that way, y'know... Guess we'll never find out.
     es: ""
     fr: ""
     it: ""
@@ -642334,8 +642503,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":30,"QuestCounter_End":199,"Speaker":"COMPANION_FUURA"}
     de: ""
     en: |-
-      To break into a grave and do something like
-      steal what's in the coffin, it's disgusting!
+      To break into a grave and do something like stealing
+      what's in the coffin—it's disgusting!
     es: ""
     fr: ""
     it: ""
@@ -642358,8 +642527,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":30,"QuestCounter_End":199,"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      I knew they were a bunch of useless thieves.
-      I kind of like them!
+      I knew they were a bunch o' worthless thieves. I kinda
+      like 'em!
     es: ""
     fr: ""
     it: ""
@@ -642382,8 +642551,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":30,"QuestCounter_End":199,"Speaker":"COMPANION_RAGUASU"}
     de: ""
     en: |-
-      Mr. Darash seemed to be concerned about us
-      and came running to see us, didn't he.
+      Mr. Darash seemed to be concerned about us, and
+      came rushing, did he not.
     es: ""
     fr: ""
     it: ""
@@ -642407,11 +642576,10 @@ STT_PT_Talk:
     de: ""
     en: |-
       When we spoke to him in Al-Ahaghiro Kingdom,
-      I honestly had the impression that he was
-      not a serious person...
+      I honestly had the impression that he was not that
+      serious a person...
       <br>
-      Perhaps, he is a better person than I had
-      thought.
+      Perhaps, he is a better person than I had thought.
     es: ""
     fr: ""
     it: ""
@@ -642438,9 +642606,9 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":30,"QuestCounter_End":199,"Speaker":"COMPANION_RAGUASU"}
     de: ""
     en: |-
-      I suppose, working for King Moonis, he
-      would have to be a good man. I must learn
-      to be a better judge of character.
+      I suppose, working for King Moonis, he would have to
+      be a good man. I must learn to be a better judge of
+      character.
     es: ""
     fr: ""
     it: ""
@@ -642467,9 +642635,8 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":30,"QuestCounter_End":199,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
     en: |-
-      By the time the Desert Moles showed up,
-      someone had already stolen Big Brother
-      Toma's body...?
+      By the time the Desert Moles showed, someone else
+      had already stolen Big Brother Toma's body...?
     es: ""
     fr: ""
     it: ""
@@ -642496,9 +642663,9 @@ STT_PT_Talk:
       {"QuestNo":436,"QuestCounter_Start":30,"QuestCounter_End":199,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
     en: |-
-      Somehow, I think it will be difficult to
-      get any more information here. Let's go
-      back and report to Captain Nogato.
+      Somehow, I think it will be difficult to get any more
+      information here. Let's go back and report to Captain
+      Nogato.
     es: ""
     fr: ""
     it: ""
@@ -642608,8 +642775,8 @@ STT_PT_Talk:
       {"mapId":"r2140,r2150,r2160,r2162""QuestNo":436,"QuestCounter_Start":200,"QuestCounter_End":200,"Speaker":"COMPANION_FUURA"}
     de: ""
     en: |-
-      I'm glad that the culprit who stole the prince's burial goods was found, but...
-      The body was never found...
+      I'm glad the culprits who stole the prince's burial
+      goods were found, but... the body never was, y'know...
     es: ""
     fr: ""
     it: ""
@@ -642636,8 +642803,8 @@ STT_PT_Talk:
       {"mapId":"r2140,r2150,r2160,r2162""QuestNo":436,"QuestCounter_Start":200,"QuestCounter_End":200,"Speaker":"COMPANION_DASUTON"}
     de: ""
     en: |-
-      Even I have no idea what
-      the guy who steals a dead body feels.
+      As ya'd expect, even I ain't got the sliiightest idea
+      what that dead-body-stealin' guy's thinkin'.
     es: ""
     fr: ""
     it: ""
@@ -642664,7 +642831,7 @@ STT_PT_Talk:
       {"mapId":"r2140,r2150,r2160,r2162""QuestNo":436,"QuestCounter_Start":200,"QuestCounter_End":200,"Speaker":"COMPANION_RAGUASU"}
     de: ""
     en: |-
-      Aside from the ornaments, why did the real culprit steal
+      Aside from the ornaments, why did the true culprit steal
       Prince Toma's body...?
     es: ""
     fr: ""
@@ -642691,7 +642858,9 @@ STT_PT_Talk:
       🟡
       {"mapId":"r2140,r2150,r2160,r2162""QuestNo":436,"QuestCounter_Start":200,"QuestCounter_End":200,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
-    en: If you leave the matter about the grave robbers to Captain Nogato, you'll be fine.
+    en: |-
+      If we leave the matter about the grave-robbers to
+      Captain Nogato, it shall be fine.
     es: ""
     fr: ""
     it: ""
@@ -642714,8 +642883,9 @@ STT_PT_Talk:
       {"mapId":"r2140,r2150,r2160,r2162""QuestNo":436,"QuestCounter_Start":200,"QuestCounter_End":200,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
     en: |-
-      It's me. That person once helped me when I went to subjugate a monster.
-      That time, I seriously injured him...
+      I, y'know. Once before, when I went to strike down
+      a monster, he happened to have helped me. That time
+      ended up causing him to be seriously injured...
     es: ""
     fr: ""
     it: ""
@@ -642742,8 +642912,9 @@ STT_PT_Talk:
       {"mapId":"r2140,r2150,r2160,r2162""QuestNo":436,"QuestCounter_Start":200,"QuestCounter_End":200,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
     en: |-
-      But he laughed it off and comforted me, saying
-      My medal has increased by one more!
+      Still, he—while looking at the wound—"I've got
+      one more medal for this!", he said, then laughed and
+      comforted me.
     es: ""
     fr: ""
     it: ""
@@ -642770,9 +642941,9 @@ STT_PT_Talk:
       {"mapId":"r2140,r2150,r2160,r2162""QuestNo":436,"QuestCounter_Start":200,"QuestCounter_End":200,"Speaker":"COMPANION_ANLUCEA"}
     de: ""
     en: |-
-      I may look like a scary person, but
-      I'm actually a very kind person.
-      I think that's why I was chosen to be a soldier commander.
+      He may look like a scary person, but, in truth, he's
+      a super kind person. That's why I think he was chosen
+      as the Captain.
     es: ""
     fr: ""
     it: ""
@@ -724362,11 +724533,14 @@ STT_QuestListDetail:
       收下了魯拉增幅器。
       運用在今後的冒險上吧。
   SYSTEXT_QUESTLIST_NAME_KQ_139_1_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_000, STT_NpcInfo.NAME_NPC_04301, STT_BattleMonsterName.ID_MONSTER_NAME_05002]`
     de: ""
     en: |-
       In True Gran Zedora Kingdom, the merchant, Reybassa, seems to be
-      seeking a top-notch keymaster who is skilled enough to make the
+      seeking a top-notch keymaster whom is skilled enough to make the
       Great Thief's Key.
     es: ""
     fr: ""
@@ -724389,7 +724563,10 @@ STT_QuestListDetail:
       似乎在尋找實力足以製作出
       大盜賊的鑰匙的一流鎖匠。
   SYSTEXT_QUESTLIST_NAME_KQ_139_1_005:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_005, STT_NpcInfo.NAME_NPC_04301]`
     de: ""
     en: |-
       In True Gran Zedora Kingdom, the merchant, Reybassa, asked us to help
@@ -724411,12 +724588,15 @@ STT_QuestListDetail:
       真古蘭澤朵拉王國的商人雷巴薩請求，
       希望能協助取得傳說中的防具。
   SYSTEXT_QUESTLIST_NAME_KQ_139_1_010:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_010, STT_NpcInfo.NAME_NPC_04301, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TETSUNOKINKO]`
     de: ""
     en: |-
       In True Gran Zedora Kingdom, the merchant, Reybassa, asked us to help
       him obtain the legendary armor by having a top-notch keymaster make a
-      key to open the Iron Safe! It seems that there's a top-notch keymaster
+      key to open a Steel Strongbox! It seems that there's a top-notch keymaster
       in True Al-Ahaghiro Kingdom.
     es: ""
     fr: ""
@@ -724443,13 +724623,16 @@ STT_QuestListDetail:
       幫忙製作能打開鐵製金庫的鑰匙。
       能辦到這點的一流鎖匠似乎在真艾拉哈奇羅王國。
   SYSTEXT_QUESTLIST_NAME_KQ_139_1_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_020, STT_NpcInfo.NAME_NPC_04301, STT_BattleMonsterName.ID_MONSTER_NAME_05002, STT_DaijinamonoItem.[*_ID_ITEM_DAIJINAMONO_SYAKUNETUNOKAKERA, *_ID_ITEM_DAIJINAMONO_TETSUNOKINKONOKAGI]]`
     de: ""
     en: |-
       In True Gran Zedora Kingdom, the merchant, Reybassa, asked us to have
-      a top-notch keymaster make a key to open the Iron Safe! The keymaster,
-      Grane, told us to retrieve the key-making material, a Red-Hot Shard,
-      from <%sEV_QUE_NAME0>s in True Al-Ahaghiro Region.
+      a top-notch keymaster make a key to open the Steel Strongbox!
+      The keymaster, Grane, told us to retrieve the key-making material,
+      a Red-Hot Shard, from <%sEV_QUE_NAME0>s in True Al-Ahaghiro Region.
     es: ""
     fr: ""
     it: ""
@@ -724475,13 +724658,16 @@ STT_QuestListDetail:
       鎖匠古拉妮表示，需要從真艾拉哈奇羅地方的<%sEV_QUE_NAME0>
       取來灼熱碎片作為製作鑰匙的材料。
   SYSTEXT_QUESTLIST_NAME_KQ_139_1_030:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_030, STT_NpcInfo.NAME_NPC_04301, STT_BattleMonsterName.ID_MONSTER_NAME_05002, STT_DaijinamonoItem.[*_ID_ITEM_DAIJINAMONO_SYAKUNETUNOKAKERA, *_ID_ITEM_DAIJINAMONO_TETSUNOKINKONOKAGI]]`
     de: ""
     en: |-
       In True Gran Zedora Kingdom, the merchant, Reybassa, asked us to have
-      a top-notch keymaster make a key to open the Iron Safe! Having
-      obtained the key-making material, a Red-Hot Shard, let's go to True
-      Al-Ahaghiro Kingdom and have Grane make the key.
+      a top-notch keymaster make a key to open the Steel Strongbox!
+      Having obtained the key-making material, a Red-Hot Shard, let's go to
+      True Al-Ahaghiro Kingdom and have Grane make the key.
     es: ""
     fr: ""
     it: ""
@@ -724507,12 +724693,16 @@ STT_QuestListDetail:
       由於已取得製作鑰匙的材料灼熱碎片，
       去請真艾拉哈奇羅王國的古拉妮製作鑰匙吧。
   SYSTEXT_QUESTLIST_NAME_KQ_139_1_040:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_040, STT_NpcInfo.NAME_NPC_04301, STT_BattleMonsterName.ID_MONSTER_NAME_05002, STT_DaijinamonoItem.[*_ID_ITEM_DAIJINAMONO_SYAKUNETUNOKAKERA, *_ID_ITEM_DAIJINAMONO_TETSUNOKINKONOKAGI]]`
     de: ""
     en: |-
       In True Gran Zedora Kingdom, the merchant, Reybassa, asked us to have
-      a top-notch keymaster make a key to open the Iron Safe! The keymaster,
-      Grane, made the Iron Safe Key, so let's give it to Reybassa.
+      a top-notch keymaster make a key to open the Steel Strongbox!
+      The Keymaster, Grane, made the Steel Strongbox Key, so let's give it to
+      Reybassa.
     es: ""
     fr: ""
     it: ""
@@ -724538,14 +724728,20 @@ STT_QuestListDetail:
       由於已請鎖匠古拉妮製作了鐵製金庫的鑰匙，
       去交給雷巴薩吧。
   SYSTEXT_QUESTLIST_NAME_KQ_139_1_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_200, STT_NpcInfo.NAME_NPC_04301, STT_BattleMonsterName.ID_MONSTER_NAME_05002, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TETSUNOKINKO]`
+      see [~\tools\REFERENCES\DQ04\NTR-YIVx-xxx\data\MESS\languages\b1000000.mpt.yaml:.[70]]
+      die,los,le,il paio di,o
+      Kurze Hose,Calzones,Caleçon,Boxer,Samba-Canção
     de: ""
     en: |-
       In True Gran Zedora Kingdom, we gave the merchant, Reybassa, the key to
-      open his Iron Safe containing a legendary armor, the Long Johns, inside.
-      Having obtained the legendary Long Johns, it seems that Reybassa has
-      decided to open his own shop and live there with his family. As thanks,
-      he gave us the Iron Safe.
+      open his Steel Strongbox containing a legendary armor, the Boxer Shorts,
+      inside. Having obtained the legendary Boxer Shorts, it seems that
+      Reybassa has decided to open his own shop and live there with his family.
+      As thanks, he gave us the Steel Strongbox.
     es: ""
     fr: ""
     it: ""
@@ -728076,11 +728272,14 @@ STT_QuestListDetail:
       研究內容似乎是關於如何長期維持料理美味的方法。
       露仙妲很滿意<pc>的表現，給予了送信的報酬。
   SYSTEXT_QUESTLIST_NAME_MQ_006_1_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_000, STT_NpcInfo.NAME_NPC_02045]`
     de: ""
     en: |-
-      In the Sage's Office, on the 2nd floor of Gran Zedora Castle, it seems
-      that Sage Lushenda is seeking assistance.
+      In the Sage's Office, on the 2nd floor of Gran Zedora Castle, it seems that
+      Sage Lushenda is seeking assistance.
     es: ""
     fr: ""
     it: ""
@@ -728097,13 +728296,17 @@ STT_QuestListDetail:
     zh-Hant: |-
       古蘭澤朵拉城２樓賢者辦公室的
       賢者露仙妲似乎在尋求協助。
-  SYSTEXT_QUESTLIST_NAME_MQ_006_1_005:
-    $comments: 🔴
+  SYSTEXT_QUESTLIST_NAME_MQ_006_1_005: &STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_005
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_005, STT_NpcInfo.NAME_NPC_02045]`
+      *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_005
     de: ""
     en: |-
-      In Gran Zedora Castle, Sage Lushenda asked that we go to the False
-      World to gather water from Wald Headwaters, grass from Rhone Forest,
-      and stone from Defel Desert for the ongoing investigation!
+      In Gran Zedora Castle, Sage Lushenda asked that we go to the False World
+      to gather water from Wald Headwaters, grass from Rhone Forest, and stone
+      from Defel Desert for the ongoing investigation!
     es: ""
     fr: ""
     it: ""
@@ -728128,46 +728331,18 @@ STT_QuestListDetail:
       為了某項調查，希望能前往虛偽世界
       採集瓦爾多水源的水、羅努樹林地帶生長的草
       與德菲爾荒野的石頭回來。
-  SYSTEXT_QUESTLIST_NAME_MQ_006_1_010:
-    $comments: 🔴
-    de: ""
-    en: |-
-      In Gran Zedora Castle, Sage Lushenda asked that we go to the False
-      World to gather water from Wald Headwaters, grass from Rhone Forest,
-      and stone from Defel Desert for the ongoing investigation!
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      グランゼドーラ城にいる　賢者ルシェンダに　
-      ある調査のため　偽りの世界へ行き　
-      ワルド水源で　採れる水と　ローヌ樹林帯に　生えている草と　
-      デフェル荒野にある　石を採ってきてほしい！　と頼まれた。
-    ko: |-
-      그랑제도라성에 있는 현자 루셴다에게
-      조사를 위해 가짜 세계로 가서
-      왈드 수원에서 물을, 로느 수림 지대에서 풀을
-      데펠 황야에서 돌을 채취해 가져와 달라는 부탁을 받았다.
-    pt-BR: ""
-    zh-Hans: |-
-      古兰泽朵拉城的贤者露谢妲提出委托，
-      为了某项调查，需要前往虚假世界
-      采集到瓦尔多水源的水、
-      罗努树林地带生长的草和德菲尔荒野的石头。
-    zh-Hant: |-
-      古蘭澤朵拉城的賢者露仙妲委託，
-      為了某項調查，希望能前往虛偽世界
-      採集瓦爾多水源的水、羅努樹林地帶生長的草
-      與德菲爾荒野的石頭回來。
+  SYSTEXT_QUESTLIST_NAME_MQ_006_1_010: *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_005
   SYSTEXT_QUESTLIST_NAME_MQ_006_1_020:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_NpcInfo.NAME_NPC_02045, STT_DaijinamonoItem.[*_ID_ITEM_DAIJINAMONO_DEFERUKOUYANOISI, *_ID_ITEM_DAIJINAMONO_RONUJYURINTAINOKUSA, *_ID_ITEM_DAIJINAMONO_WARUDOSUIGENNOMIZU]]`
     de: ""
     en: |-
-      In Gran Zedora Castle, Sage Lushenda asked that we go to the False
-      World to gather water from Wald Headwaters, grass from Rhone Forest,
-      and stone from Defel Desert for the ongoing investigation!
-      Having gathered all the requested items, let's go deliver them to
-      Sage Lushenda.
+      In Gran Zedora Castle, Sage Lushenda asked that we go to the False World
+      to gather water from Wald Headwaters, grass from Rhone Forest, and stone
+      from Defel Desert for the ongoing investigation! Having gathered all the
+      requested items, let's go deliver them to Sage Lushenda.
     es: ""
     fr: ""
     it: ""
@@ -728193,15 +728368,17 @@ STT_QuestListDetail:
       與德菲爾荒野的石頭回來。由於已收集好所有委託的東西，
       送去給賢者露仙妲吧。
   SYSTEXT_QUESTLIST_NAME_MQ_006_1_030:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_030, STT_NpcInfo.NAME_NPC_02045]`
     de: ""
     en: |-
-      At the request of Sage Lushenda in Gran Zedora Castle, we gathered
-      items from the False World to be compared with ingredients from the
-      same places in the True World. In order to do that, chemicals found in
-      the Royal Treasury of Reviewle Highway North's Sea Breeze Cave are
-      necessary, but it seems that the soldiers who went to retrieve them
-      haven't returned.
+      At the request of Sage Lushenda in Gran Zedora Castle, we gathered items
+      from the False World to be compared with ingredients from the same places
+      in the True World. In order to do that, chemicals found in the Royal
+      Treasury of Reviewle Highway North's Sea Breeze Cave are necessary, but
+      it seems that the soldiers who went to retrieve them haven't returned.
     es: ""
     fr: ""
     it: ""
@@ -728227,14 +728404,17 @@ STT_QuestListDetail:
       為此需要瑞比爾幹道北部海風洞窟王家寶物庫的藥品，
       但前去取藥的士兵似乎一去不回。
   SYSTEXT_QUESTLIST_NAME_MQ_006_1_040:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_040, STT_NpcInfo.NAME_NPC_02045]`
     de: ""
     en: |-
       At the request of Sage Lushenda in Gran Zedora Castle, we went to the
       Royal Treasury, where we encountered a masked man. The Masked Man
       took the previous Hero's ring, sicked his minions monsters on us, then
       disappeared from the place. Upon winning the battle, Lushenda appeared,
-      told us to come to her office, and then returned.
+      told us to come to her office, and then returned there.
     es: ""
     fr: ""
     it: ""
@@ -728260,14 +728440,17 @@ STT_QuestListDetail:
       放出手下的怪物便消失了。戰鬥勝利後，
       賢者露仙妲現身告知去她那裡一趟後便回去了。
   SYSTEXT_QUESTLIST_NAME_MQ_006_1_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_200, STT_NpcInfo.NAME_NPC_02045]`
     de: ""
     en: |-
       At the request of Sage Lushenda in Gran Zedora Castle, we went to the
       Royal Treasury, where we encountered a masked man. Lushenda—using
-      the chemicals to compare the items from the two worlds—confirmed
-      that the Great Demon King's goal was to merge the world of his own
-      making with this world.
+      the chemicals to compare the items from the two worlds—confirmed that
+      the Great Demon King's goal was to merge the world of his own making
+      with this world.
     es: ""
     fr: ""
     it: ""
@@ -728293,7 +728476,10 @@ STT_QuestListDetail:
       兩個世界的東西後得知，大魔王的目的是企圖
       用自己創立的世界吞噬掉這個世界。
   SYSTEXT_QUESTLIST_NAME_MQ_007_1_000:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (264) SYSTEXT_QUESTLIST_NAME_MQ_007_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_007_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_007_1_???]`
     de: ""
     en: |-
       It seems that Dr. Rossum, who lives in a village overlooking a
@@ -728317,7 +728503,10 @@ STT_QuestListDetail:
       冽那荒涼地帶瀑布旁的村落的羅薩姆博士
       似乎在尋找願意協助調查的冒險者。
   SYSTEXT_QUESTLIST_NAME_MQ_007_1_005:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (264) SYSTEXT_QUESTLIST_NAME_MQ_007_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_007_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_007_1_???]`
     de: ""
     en: |-
       Please ask Dr. Rossum at the village overlooking the waterfall in the
@@ -728350,7 +728539,10 @@ STT_QuestListDetail:
       取回石板。只要能解讀出石板上的文字，
       似乎就能解開遺跡的謎團。
   SYSTEXT_QUESTLIST_NAME_MQ_007_1_010:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (264) SYSTEXT_QUESTLIST_NAME_MQ_007_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_007_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_007_1_???]`
     de: ""
     en: |-
       Please ask Dr. Rossum at the village overlooking the waterfall in the
@@ -728383,7 +728575,10 @@ STT_QuestListDetail:
       取回石板。只要能解讀出石板上的文字，
       似乎就能解開遺跡的謎團。
   SYSTEXT_QUESTLIST_NAME_MQ_007_1_020:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (264) SYSTEXT_QUESTLIST_NAME_MQ_007_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_007_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_007_1_???]`
     de: ""
     en: |-
       In the village overlooking the waterfall in the Llana Desolation Area,
@@ -728415,7 +728610,10 @@ STT_QuestListDetail:
       順利取回了遠古石板。
       送去給羅薩姆博士吧。
   SYSTEXT_QUESTLIST_NAME_MQ_007_1_200:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (264) SYSTEXT_QUESTLIST_NAME_MQ_007_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_007_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_007_1_???]`
     de: ""
     en: |-
       At the request of Dr. Rossum in a village overlooking a waterfall in
@@ -728450,12 +728648,12 @@ STT_QuestListDetail:
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_000:
     $comments: |-
       🟡
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_000, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
-      On the 3rd floor of Gran Zedora Castle, Queen Julia seems to be
-      somewhat troubled.
+      On the 3rd floor of Gran Zedora Castle, Queen Julia seems to be somewhat
+      troubled.
     es: ""
     fr: ""
     it: ""
@@ -728474,14 +728672,14 @@ STT_QuestListDetail:
       似乎遇到什麼困擾。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_005:
     $comments: |-
-      🔴
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_005, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
-      On the 3rd floor of Gran Zedora Castle, Queen Julia asked for our help
-      to complete the cloak that she ordered from the armor shop in castle
-      town as soon as possible.
+      On the 3rd floor of Gran Zedora Castle, Queen Julia asked for our help to
+      complete the cloak that she ordered from the armor shop in castle town
+      as soon as possible.
     es: ""
     fr: ""
     it: ""
@@ -728504,15 +728702,15 @@ STT_QuestListDetail:
       訂製的披風。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_010:
     $comments: |-
-      🔴
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_010, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
-      On the 3rd floor of Gran Zedora Castle, Queen Julia asked for our help
-      to complete the cloak that she ordered from the armor shop in castle
-      town as soon as possible. She asked that we visit the armor shop's
-      owner, Renken, at the armor shop in castle town.
+      On the 3rd floor of Gran Zedora Castle, Queen Julia asked for our help to
+      complete the cloak that she ordered from the armor shop in castle town
+      as soon as possible. She asked that we visit the armor shop's owner,
+      Renken, at the armor shop in castle town.
     es: ""
     fr: ""
     it: ""
@@ -728538,9 +728736,9 @@ STT_QuestListDetail:
       連肯，聽聽他怎麼說。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_020:
     $comments: |-
-      🔴
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_020, STT_NpcInfo.NAME_NPC_02047]`
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_020, STT_NpcInfo.NAME_NPC_02047, STT_BattleMonsterName.ID_MONSTER_NAME_15302, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI]`
     de: ""
     en: |-
       At the request of Queen Julia on the 3rd floor of Gran Zedora Castle,
@@ -728575,9 +728773,10 @@ STT_QuestListDetail:
       目前已收集了<%nEV_QUE_N_NUM0>條月光金線。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_030:
     $comments: |-
-      🔴
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_030, STT_NpcInfo.NAME_NPC_02047]`
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_030, STT_NpcInfo.NAME_NPC_02047, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI]`
+      <%nEV_QUE_T_NUM0> = 10
     de: ""
     en: |-
       At the request of Queen Julia on the 3rd floor of Gran Zedora Castle,
@@ -728610,9 +728809,9 @@ STT_QuestListDetail:
       月光金線，送去給連肯吧。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_040:
     $comments: |-
-      🔴
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_040, STT_NpcInfo.NAME_NPC_02047]`
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_040, STT_NpcInfo.NAME_NPC_02047, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI]`
     de: ""
     en: |-
       At the request of Queen Julia on the 3rd floor of Gran Zedora Castle,
@@ -728645,16 +728844,16 @@ STT_QuestListDetail:
       去向尤莉婭王妃報告吧。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_050:
     $comments: |-
-      🔴
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_050, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
       At the request of Queen Julia on the 3rd floor of Gran Zedora Castle,
       the royal family's cloak was completed. Queen Julia explained that the
-      royal family cloak is to be an offering for Toma's coffin at the
-      Royal Tomb, and she said she wanted us to come! The Royal Tomb is said
-      to be located along Reviewle Highway's northern coast.
+      royal family cloak is to be an offering for Toma's coffin at the Royal Tomb,
+      and she said she wanted us to come! The Royal Tomb is said to be located
+      along Reviewle Highway's northern coast.
     es: ""
     fr: ""
     it: ""
@@ -728681,15 +728880,15 @@ STT_QuestListDetail:
       王家之墓似乎就在瑞比爾幹道北部的海邊。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_060:
     $comments: |-
-      🔴
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_060, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
       Together with Queen Julia of Gran Zedora Castle, we entered the Royal
       Tomb and noticed that Prince Toma's coffin had been uncovered.
-      Upon seeing that the prince's body had disappeared, Queen Julia
-      became distraught and was carried back to the castle by Captain Nogato.
+      Upon seeing that the Prince's body had disappeared, Queen Julia became
+      distraught and was carried back to the castle by Captain Nogato.
     es: ""
     fr: ""
     it: ""
@@ -728716,16 +728915,16 @@ STT_QuestListDetail:
       在諾加特士兵長的攙扶下返回了城中。
   SYSTEXT_QUESTLIST_NAME_MQ_008_1_200:
     $comments: |-
-      🔴
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_200, STT_NpcInfo.NAME_NPC_02047]`
     de: ""
     en: |-
       Together with Queen Julia of Gran Zedora Castle, we entered the Royal
       Tomb and noticed that Prince Toma's coffin had been uncovered.
-      It seems the task of finding the culprit who uncovered the grave has
-      been left to Captain Nogato. Queen Julia said that she wanted to keep
-      what we saw at the Royal Tomb a secret.
+      It seems the task of finding the culprit who uncovered the grave has been
+      left to Captain Nogato. Queen Julia said that she wanted to keep what we
+      saw at the Royal Tomb a secret.
     es: ""
     fr: ""
     it: ""
@@ -728751,9 +728950,13 @@ STT_QuestListDetail:
       尋找盜墓犯人的工作似乎交給了諾加特士兵長。
       尤莉婭王妃要求在墓室中看到的一切必須保密。
   SYSTEXT_QUESTLIST_NAME_MQ_009_1_000:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_000, STT_NpcInfo.NAME_NPC_02345]`
     de: ""
-    en: 'Gran Zedora Castle (2F): Captain Nogato seems to be troubled.'
+    en: |-
+      In Gran Zedora Castle (2F), Captain Nogato seems to be troubled.
     es: ""
     fr: ""
     it: ""
@@ -728771,17 +728974,20 @@ STT_QuestListDetail:
       古蘭澤朵拉城２樓的
       諾加特士兵長似乎遇到什麼困擾。
   SYSTEXT_QUESTLIST_NAME_MQ_009_1_005:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_005, STT_NpcInfo.NAME_NPC_02345]`
     de: ""
     en: |-
-      Gran Zedora Castle (2F): Captain Nogato asked that we go to Al-Ahaghiro
-      Kingdom to investigate the incident in which Toma's coffin in the
-      Royal Tomb was robbed.
+      In Gran Zedora Castle (2F), Captain Nogato asked that we go to Al-Ahaghiro
+      Kingdom to investigate the incident in which Toma's coffin in the Royal
+      Tomb was robbed.
     es: ""
     fr: ""
     it: ""
     ja: |-
-      グランゼドーラ城の２階にいる　ノガート兵士長から　
+      グランゼドーラ城の２階にいる　ノガート兵士長から
       王家の墓のトーマの棺があばかれた事件を　捜査するため
       アラハギーロ王国に　行ってもらえないだろうか？　と頼まれた。
     ko: |-
@@ -728798,18 +729004,21 @@ STT_QuestListDetail:
       為了搜查王家之墓托瑪的棺木被挖開的事件，
       希望能前往艾拉哈奇羅王國一趟。
   SYSTEXT_QUESTLIST_NAME_MQ_009_1_010:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_010, STT_NpcInfo.NAME_NPC_02345]`
     de: ""
     en: |-
-      Gran Zedora Castle (2F): Captain Nogato asked that we go to Al-Ahaghiro
-      Kingdom to investigate the incident in which Toma's coffin in the
-      Royal Tomb was robbed. If he meets a soldier named Darash in Al-Ahaghiro
-      Castle, he seems to be fine.
+      In Gran Zedora Castle (2F), Captain Nogato asked that we go to Al-Ahaghiro
+      Kingdom to investigate the incident in which Toma's coffin in the Royal
+      Tomb was robbed. If we meet the soldier, Darash, in Al-Ahaghiro Castle,
+      that would be good.
     es: ""
     fr: ""
     it: ""
     ja: |-
-      グランゼドーラ城の２階にいる　ノガート兵士長から　
+      グランゼドーラ城の２階にいる　ノガート兵士長から
       王家の墓のトーマの棺が　あばかれた事件を　捜査するため
       アラハギーロ王国に　行ってもらえないだろうか？　と頼まれた。
       アラハギーロ城にいる　ダラシュという兵士に会えば　いいようだ。
@@ -728829,23 +729038,25 @@ STT_QuestListDetail:
       為了搜查王家之墓托瑪的棺木被挖開的事件，
       希望能前往艾拉哈奇羅王國一趟。
       似乎只要與艾拉哈奇羅城的士兵達拉修碰面即可。
-  SYSTEXT_QUESTLIST_NAME_MQ_009_1_020:
-    $comments: 🔴
+  SYSTEXT_QUESTLIST_NAME_MQ_009_1_020: &STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_020
+    $comments: |-
+      🟡
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_020, STT_NpcInfo.NAME_NPC_02345]`
+      *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_020
     de: ""
     en: |-
-      Gran Zedora Castle (2F): Captain Nogato asked that we go to Al-Ahaghiro
-      Kingdom to investigate the incident in which Toma's coffin in the
-      Royal
+      In Gran Zedora Castle (2F), Captain Nogato asked that we go to Al-Ahaghiro
+      Kingdom to investigate the incident in which Toma's coffin in the Royal
       Tomb was robbed. After talking to the soldier, Darash, in Al-Ahaghiro
-      Castle,
-      we learned of a grave-robbing gang called the Desert Moles. They are
-      said to be in the pyramid of Defel Wasteland.
+      Castle, we learned of a grave-robbing gang called the Desert Moles.
+      They seem to be in the pyramid of Defel Desert.
     es: ""
     fr: ""
     it: ""
     ja: |-
-      ノガート兵士長に頼まれ　王家の墓のトーマの棺が　
-      あばかれた事件の　捜査を　手伝うことになった。アラハギーロ城にいる　
+      ノガート兵士長に頼まれ　王家の墓のトーマの棺が
+      あばかれた事件の　捜査を　手伝うことになった。アラハギーロ城にいる
       兵士ダラシュに話を聞き　砂漠の土竜という　盗掘団の存在を突き止めた。
       砂漠の土竜は　デフェル荒野にある　ピラミッドの中に　いるらしい。
     ko: |-
@@ -728864,60 +729075,27 @@ STT_QuestListDetail:
       被挖開的事件。向艾拉哈奇羅城的士兵達拉修打聽後，
       得知了盜墓團沙漠土龍的存在。
       沙漠土龍似乎藏身在德菲爾荒野的金字塔中。
-  SYSTEXT_QUESTLIST_NAME_MQ_009_1_023:
-    $comments: 🔴
-    de: ""
-    en: |-
-      Gran Zedora Castle (2F): Captain Nogato asked that we go to Al-Ahaghiro
-      Kingdom to investigate the incident in which Toma's coffin in the
-      Royal
-      Tomb was robbed. After talking to the soldier, Darash, in Al-Ahaghiro
-      Castle,
-      we learned of a grave-robbing gang called the Desert Moles. They are
-      said to be in the pyramid of Defel Wasteland.
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      ノガート兵士長に頼まれ　王家の墓のトーマの棺が　
-      あばかれた事件の　捜査を手伝うことになった。アラハギーロ城にいる　
-      兵士ダラシュに　話を聞き　砂漠の土竜という　盗掘団の存在を突き止めた。
-      砂漠の土竜は　デフェル荒野にある　ピラミッドの中に　いるらしい。
-    ko: |-
-      노가트 병사단장의 부탁으로 왕가의 무덤에 있는 토마의 관이
-      파헤쳐진 사건의 조사를 돕기로 했다. 아라하길로성에 있는
-      병사 다라시와 대화하여 사막의 두더지라는 도굴단의 존재를 밝혀냈다.
-      사막의 두더지는 데펠 황야의 피라미드 안에 있다고 한다.
-    pt-BR: ""
-    zh-Hans: |-
-      受诺加特士兵长委托，
-      调查王家陵墓里托玛的棺材被挖开的事件。
-      根据艾拉哈奇罗城的士兵达拉修的说法，得知了名叫沙漠土龙的盗墓团。
-      沙漠土龙似乎藏身在德菲尔荒野的金字塔里。
-    zh-Hant: |-
-      受諾加特士兵長委託，協助搜查王家之墓托瑪的棺木
-      被挖開的事件。向艾拉哈奇羅城的士兵達拉修打聽後，
-      得知了盜墓團沙漠土龍的存在。
-      沙漠土龍似乎藏身在德菲爾荒野的金字塔中。
+  SYSTEXT_QUESTLIST_NAME_MQ_009_1_023: *STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_020
   SYSTEXT_QUESTLIST_NAME_MQ_009_1_030:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_030, STT_NpcInfo.NAME_NPC_02345]`
     de: ""
     en: |-
-      Gran Zedora Castle (2F): Captain Nogato asked that we go to Al-Ahaghiro
-      Kingdom to investigate the incident in which Toma's coffin in the
-      Royal
+      In Gran Zedora Castle (2F), Captain Nogato asked that we go to Al-Ahaghiro
+      Kingdom to investigate the incident in which Toma's coffin in the Royal
       Tomb was robbed. After talking to the soldier, Darash, in Al-Ahaghiro
-      Castle,
-      we learned of a grave-robbing gang called the Desert Moles. They were
-      the culprits who stole the grave goods, but he didn't know where the
-      body was. Let's report back to Captain Nogato.
+      Castle, we learned of a grave-robbing gang called the Desert Moles.
+      They were the culprits who stole the grave goods, but they didn't know
+      where the body was. Let's report back to Captain Nogato.
     es: ""
     fr: ""
     it: ""
     ja: |-
-      グランゼドーラ王家の墓の　トーマの棺が　あばかれた事件の捜査を　
+      グランゼドーラ王家の墓の　トーマの棺が　あばかれた事件の捜査を
       手伝うことになった。アラハギーロ王国の　ピラミッドで
-      盗掘団　砂漠の土竜が　副葬品を盗んだ犯人だと　突き止めたが　
+      盗掘団　砂漠の土竜が　副葬品を盗んだ犯人だと　突き止めたが
       遺体の行方は　わからなかった。ノガート兵士長に　報告にいこう。
     ko: |-
       그랑제도라 왕가의 무덤에 있는 토마의 관이 파헤쳐진 사건의 조사를
@@ -728936,23 +729114,24 @@ STT_QuestListDetail:
       就是偷走陪葬品的犯人，但遺體仍舊下落不明。
       去向諾加特士兵長報告吧。
   SYSTEXT_QUESTLIST_NAME_MQ_009_1_200:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_009_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_009_1_200, STT_NpcInfo.NAME_NPC_02345]`
     de: ""
     en: |-
-      Gran Zedora Castle (2F): Captain Nogato asked that we go to Al-Ahaghiro
-      Kingdom to investigate the incident in which Toma's coffin in the
-      Royal
-      Tomb was robbed. But the grave robbers, the Desert Moles, didn't know
-      about Toma's body. Captain Nogato told him that he would investigate
-      the situation again, thinking that the figure seen at that time might
-      be the real culprit.
+      In Gran Zedora Castle (2F), Captain Nogato asked that we go to Al-Ahaghiro
+      Kingdom to investigate the incident in which Toma's coffin in the Royal
+      Tomb was robbed. But the grave-robbers, the Desert Moles, didn't know of
+      Toma's body. Captain Nogato told him that he would re-investigate the
+      situation, believing the figure seen at the time may be the true culprit.
     es: ""
     fr: ""
     it: ""
     ja: |-
       グランゼドーラ王家の墓の　トーマの棺が　あばかれた事件の捜査を
       手伝ったが　盗掘団　砂漠の土竜は　トーマの遺体のことは
-      知らなかった。ノガート兵士長は　そのときに　目撃された人影が　
+      知らなかった。ノガート兵士長は　そのときに　目撃された人影が
       真犯人ではないかとにらみ　改めて　捜査をすると告げた。
     ko: |-
       그랑제도라 왕가의 무덤에 있는 토마의 관이 파헤쳐진 사건의 조사를
@@ -729190,7 +729369,10 @@ STT_QuestListDetail:
       為了抵禦偽冷達西亞的侵蝕，
       似乎得將勇者的力量注入剩下的３塊神之緋石。
   SYSTEXT_QUESTLIST_NAME_MQ_011_1_000:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (261) SYSTEXT_QUESTLIST_NAME_MQ_011_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_011_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_011_1_000]`
     de: ""
     en: |-
       Yakup, an old man who lives in Melan Watermill, seems to be asking for
@@ -729212,7 +729394,10 @@ STT_QuestListDetail:
       住在梅倫水車鄉的老人雅各布
       似乎在尋求幫助。
   SYSTEXT_QUESTLIST_NAME_MQ_011_1_005:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (261) SYSTEXT_QUESTLIST_NAME_MQ_011_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_011_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_011_1_005]`
     de: ""
     en: |-
       To Yakup, an old man who lives in Melan Watermill,
@@ -729239,7 +729424,10 @@ STT_QuestListDetail:
       為了沉浸在過去快樂的回憶中，
       希望能前往溫泉，取來溫泉精華。
   SYSTEXT_QUESTLIST_NAME_MQ_011_1_010:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (261) SYSTEXT_QUESTLIST_NAME_MQ_011_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_011_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_011_1_010]`
     de: ""
     en: |-
       Go to the caretaker's hut at the back of
@@ -729272,7 +729460,10 @@ STT_QuestListDetail:
       先取得柯尼威亞平原的<%sEV_QUE_NAME0>會掉落的白梅樹枝
       與能在科科拉塔海灘撿到的淺紅色寶螺再過去吧。
   SYSTEXT_QUESTLIST_NAME_MQ_011_1_020:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (261) SYSTEXT_QUESTLIST_NAME_MQ_011_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_011_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_011_1_020]`
     de: ""
     en: |-
       Go to the caretaker's hut in the depths of Monsero Hot Spring Ravine to get Yunohana
@@ -729306,7 +729497,10 @@ STT_QuestListDetail:
       白梅樹枝與淺紅色寶螺，從柯尼威亞平原西南方前往
       蒙賽羅溫泉峽谷去取來溫泉精華吧。
   SYSTEXT_QUESTLIST_NAME_MQ_011_1_030:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (261) SYSTEXT_QUESTLIST_NAME_MQ_011_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_011_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_011_1_030]`
     de: ""
     en: |-
       Go to the caretaker's hut at the back of
@@ -729340,7 +729534,10 @@ STT_QuestListDetail:
       將白梅樹枝與淺紅色寶螺交給了管理員小屋的盧吉娜，
       拿到了溫泉精華。回去找雅各布吧。
   SYSTEXT_QUESTLIST_NAME_MQ_011_1_200:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (261) SYSTEXT_QUESTLIST_NAME_MQ_011_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_011_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_011_1_200]`
     de: ""
     en: |-
       You were asked by Yakup, an old man who lives in Melan Watermill, to
@@ -730102,8 +730299,9 @@ STT_QuestListDetail:
       莉蒂的夢想實現，希望之花綻放了。
   SYSTEXT_QUESTLIST_NAME_MQ_013_1_000:
     $comments: |-
-      🟡, (262) { Main Story }
-      see [, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZIGOKUNOYASURI]
+      🔴
+      (262) SYSTEXT_QUESTLIST_NAME_MQ_013_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_013_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_000]`
     de: ""
     en: |-
       In the log cabin of True Cocolata Beach, Shinon seems to be seeking
@@ -730126,8 +730324,9 @@ STT_QuestListDetail:
       汐音似乎在召集人手。
   SYSTEXT_QUESTLIST_NAME_MQ_013_1_005:
     $comments: |-
-      🟡, (262) { Main Story }
-      see [STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZIGOKUNOYASURI]
+      🔴
+      (262) SYSTEXT_QUESTLIST_NAME_MQ_013_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_013_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_005]`
     de: ""
     en: |-
       In the log cabin of True Cocolata Beach, Shinon asked us to bring her
@@ -730159,8 +730358,9 @@ STT_QuestListDetail:
       似乎會掉落地獄銼刀。
   SYSTEXT_QUESTLIST_NAME_MQ_013_1_010:
     $comments: |-
-      🟡, (262) { Main Story }
-      see [STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZIGOKUNOYASURI]
+      🔴
+      (262) SYSTEXT_QUESTLIST_NAME_MQ_013_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_013_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_010]`
     de: ""
     en: |-
       In the log cabin of True Cocolata Beach, Shinon asked us to bring her
@@ -730192,8 +730392,9 @@ STT_QuestListDetail:
       似乎會掉落地獄銼刀。
   SYSTEXT_QUESTLIST_NAME_MQ_013_1_015:
     $comments: |-
-      🟡, (262) { Main Story }
-      see [STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZIGOKUNOYASURI]
+      🔴
+      (262) SYSTEXT_QUESTLIST_NAME_MQ_013_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_013_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_015]`
     de: ""
     en: |-
       In the log cabin of True Cocolata Beach, Shinon asked us to bring her
@@ -730225,8 +730426,9 @@ STT_QuestListDetail:
       由於已取得地獄銼刀，送去給汐音吧。
   SYSTEXT_QUESTLIST_NAME_MQ_013_1_200:
     $comments: |-
-      🟡, (262) { Main Story }
-      see [STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_ZIGOKUNOYASURI]
+      🔴
+      (262) SYSTEXT_QUESTLIST_NAME_MQ_013_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_013_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_200]`
     de: ""
     en: |-
       In the log cabin of True Cocolata Beach, Shinon asked us to bring her
@@ -730258,7 +730460,10 @@ STT_QuestListDetail:
       這時得知汐音是名樂器工匠，
       而小流指的是用來製作樂器的材料。
   SYSTEXT_QUESTLIST_NAME_MQ_014_1_000:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (265) SYSTEXT_QUESTLIST_NAME_MQ_014_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_014_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_014_1_???]`
     de: ""
     en: |-
       Captain Abram, in the wheelhouse of the Grand Titus, would like your
@@ -730280,7 +730485,10 @@ STT_QuestListDetail:
       大巨人號操舵室的埃布拉姆船長
       似乎在尋求協助。
   SYSTEXT_QUESTLIST_NAME_MQ_014_1_005:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (265) SYSTEXT_QUESTLIST_NAME_MQ_014_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_014_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_014_1_???]`
     de: ""
     en: |-
       To Captain Abram on the Grand Titus, please
@@ -730313,7 +730521,10 @@ STT_QuestListDetail:
       送去給住在洛紀雪原的技師。
       工具包似乎寄放在港都蓮鐸亞南區的船舶管理局。
   SYSTEXT_QUESTLIST_NAME_MQ_014_1_010:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (265) SYSTEXT_QUESTLIST_NAME_MQ_014_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_014_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_014_1_???]`
     de: ""
     en: |-
       Please ask Captain Abram on the Grand Titus to deliver the
@@ -730347,7 +730558,10 @@ STT_QuestListDetail:
       工具包的事，似乎只要問港都蓮鐸亞南區
       船舶管理局的職員亞科伊就會知道。
   SYSTEXT_QUESTLIST_NAME_MQ_014_1_020:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (265) SYSTEXT_QUESTLIST_NAME_MQ_014_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_014_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_014_1_???]`
     de: ""
     en: |-
       I received a request from Captain Abram on the Grand Titus to
@@ -730381,7 +730595,10 @@ STT_QuestListDetail:
       希望能找來奧古利德大陸古蓮領土西部等地的
       <%sEV_QUE_NAME0>時常會掉落的高科技扳手。
   SYSTEXT_QUESTLIST_NAME_MQ_014_1_030:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (265) SYSTEXT_QUESTLIST_NAME_MQ_014_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_014_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_014_1_???]`
     de: ""
     en: |-
       I received a request from Captain Abram on the Grand Titus to deliver
@@ -730414,7 +730631,10 @@ STT_QuestListDetail:
       受保管工具包的職員亞科伊委託，取得了高科技扳手。
       送去給港都蓮鐸亞南區的職員亞科伊吧。
   SYSTEXT_QUESTLIST_NAME_MQ_014_1_040:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (265) SYSTEXT_QUESTLIST_NAME_MQ_014_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_014_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_014_1_???]`
     de: ""
     en: |-
       I received a request from Captain Abram on the Grand Titus to deliver
@@ -730447,13 +730667,16 @@ STT_QuestListDetail:
       裝有高科技扳手的工具包。將包包送去給住在奧古利德大陸
       洛紀雪原小屋的技師巴傑歐吧。
   SYSTEXT_QUESTLIST_NAME_MQ_014_1_050:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (265) SYSTEXT_QUESTLIST_NAME_MQ_014_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_014_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_014_1_???]`
     de: ""
     en: |-
       At the request of Captain Abram of the Grand Titus, I delivered a
       tool bag to Engineer Vallejo. After receiving the tool bag, Vallejo
-      recognized the message from the captain contained within it and
-      resumed his work as an engineer. Let's go report to Captain Abram.
+      recognized the message from the captain contained within it and resumed
+      his work as an engineer. Let's go report to Captain Abram.
     es: ""
     fr: ""
     it: ""
@@ -730479,15 +730702,16 @@ STT_QuestListDetail:
       船長留在包包裡的訊息，作為技師重新開始了工作。
       去向埃布拉姆船長報告吧。
   SYSTEXT_QUESTLIST_NAME_MQ_014_1_200:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (265) SYSTEXT_QUESTLIST_NAME_MQ_014_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_014_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_014_1_???]`
     de: ""
     en: |-
-      I delivered the
-      tool bag to Vallejo at the request of Captain Abram of the Grand
-      Titus. After receiving the tool bag, Vallejo
-      recognized the message from the captain contained within it and
-      resumed
-      his work as an engineer. The captain thanked <pc> and gave him a bow.
+      At the request of Captain Abram of the Grand Titus, I delivered a
+      tool bag to Engineer Vallejo. After receiving the tool bag, Vallejo
+      recognized the message from the captain contained within it and resumed
+      his work as an engineer. The captain thanked and gave us a bow.
     es: ""
     fr: ""
     it: ""
@@ -731341,7 +731565,10 @@ STT_QuestListDetail:
       神之緋石恢復了神代之力，被法茲馬囚禁的大神官本尊
       也平安無事，拿到了大神官給予的報酬。
   SYSTEXT_QUESTLIST_NAME_MQ_018_1_000:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (263) SYSTEXT_QUESTLIST_NAME_MQ_018_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_018_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_018_1_???]`
     de: ""
     en: |-
       It seems that
@@ -731364,7 +731591,10 @@ STT_QuestListDetail:
       住在科科拉塔海灘小木屋的汐音
       似乎又有什麼煩惱。
   SYSTEXT_QUESTLIST_NAME_MQ_018_1_005:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (263) SYSTEXT_QUESTLIST_NAME_MQ_018_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_018_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_018_1_???]`
     de: ""
     en: |-
       From Shinon, who lives in a log house on the beach in Kokorata.
@@ -731391,7 +731621,10 @@ STT_QuestListDetail:
       為了與心愛的庫洛先生見面，希望能收集
       用來製作庫洛先生訂製的笛子材料。
   SYSTEXT_QUESTLIST_NAME_MQ_018_1_010:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (263) SYSTEXT_QUESTLIST_NAME_MQ_018_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_018_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_018_1_???]`
     de: ""
     en: |-
       From Shinon on the beach of Kokorata, in order to
@@ -731423,7 +731656,10 @@ STT_QuestListDetail:
       古龍之骨似乎可以從古蘭澤朵拉領土
       等地的<%sEV_QUE_NAME0>取得。
   SYSTEXT_QUESTLIST_NAME_MQ_018_1_020:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (263) SYSTEXT_QUESTLIST_NAME_MQ_018_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_018_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_018_1_???]`
     de: ""
     en: |-
       Can you please collect the materials needed to
@@ -731456,7 +731692,10 @@ STT_QuestListDetail:
       由於已取得古龍之骨，連同蛤蟆油
       一起送去給汐音吧。
   SYSTEXT_QUESTLIST_NAME_MQ_018_1_200:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (263) SYSTEXT_QUESTLIST_NAME_MQ_018_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_018_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_018_1_???]`
     de: ""
     en: |-
       I was asked by Shinon, who lives in a log house on the beach of
@@ -738447,38 +738686,39 @@ STT_QuestListName:
     zh-Hant: 緊閉的小盒
   SYSTEXT_QUESTLIST_NAME_KQ_139_1:
     $comments: |-
-      🟡
-      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 { Super Useful }
-    de: ""
-    en: Wishing For Legendary Armor
-    es: ""
-    fr: ""
-    it: ""
+      🟢
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see [~\tools\REFERENCES\DQ04\NTR-YIVx-xxx\data\MESS\languages\b0040000.mpt.yaml:.[97]]
+    de: Auf der Suche nach der Legendären Rüstung
+    en: In Search of the Legendary Armor
+    es: En busca de la Armadura Legendaria
+    fr: "En quête de l'Armure Légendaire"
+    it: "Alla ricerca dell'Armatura Leggendaria"
     ja: 伝説の防具を求めて
     ko: 전설의 방어구를 찾아서
-    pt-BR: ""
+    pt-BR: Em busca da Armadura Lendária
     zh-Hans: 追求传说中的防具
     zh-Hant: 追求傳說中的防具
   SYSTEXT_QUESTLIST_NAME_MQ_008_1:
     $comments: |-
-      🟡
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
-    de: ""
-    en: Queen Julia's Wish
-    es: ""
-    fr: ""
-    it: ""
+      🟢
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+    de: Königin Julias Bitte
+    en: Queen Julia's Request
+    es: La Petición de la Reina Julia
+    fr: La Requête de la Reine Julia
+    it: La Richiesta della Regina Julia
     ja: ユリア妃の願い
     ko: 유리아 왕비의 부탁
-    pt-BR: ""
+    pt-BR: A Requisição da Rainha Julia
     zh-Hans: 尤莉娅王妃的心愿
     zh-Hant: 尤莉婭王妃的願望
   SYSTEXT_QUESTLIST_NAME_MQ_006_1:
     $comments: |-
       🟡
-      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 { Main Story }
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
     de: ""
-    en: Creeping, Dark Footsteps
+    en: The Creeping Darkness' Footsteps
     es: ""
     fr: ""
     it: ""
@@ -738489,16 +738729,16 @@ STT_QuestListName:
     zh-Hant: 黑暗的腳步聲悄悄靠近
   SYSTEXT_QUESTLIST_NAME_MQ_009_1:
     $comments: |-
-      🟡
-      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 { Main Story }
-    de: ""
+      🟢
+      (260) SYSTEXT_QUESTLIST_NAME_MQ_009_1 [ The Woven Bonds of Courage ] { Main Story }
+    de: Tomas Aufenthaltsort
     en: Toma's Whereabouts
-    es: ""
-    fr: ""
-    it: ""
+    es: El Paradero del Tomá
+    fr: Le lieu où il se trouve du Toma
+    it: Dove si trova Toma
     ja: トーマの行方
     ko: 토마의 행방
-    pt-BR: ""
+    pt-BR: O Paradeiro do Tomá
     zh-Hans: 托玛的去向
     zh-Hant: 托瑪的去向
   SYSTEXT_QUESTLIST_NAME_MQ_011_1:
@@ -738516,7 +738756,10 @@ STT_QuestListName:
     zh-Hans: 秘密温泉的精华
     zh-Hant: 祕密溫泉之花
   SYSTEXT_QUESTLIST_NAME_MQ_013_1:
-    $comments: 🟡, (262) { Main Story }
+    $comments: |-
+      🔴
+      (262) SYSTEXT_QUESTLIST_NAME_MQ_013_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_013_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_???]`
     de: ""
     en: Singing On The Waves
     es: ""
@@ -738529,8 +738772,9 @@ STT_QuestListName:
     zh-Hant: 漂盪在波浪間的歌聲
   SYSTEXT_QUESTLIST_NAME_MQ_018_1:
     $comments: |-
-      🟡
-      (263) SYSTEXT_QUESTLIST_NAME_MQ_018_1 { Main Story }
+      🔴
+      (263) SYSTEXT_QUESTLIST_NAME_MQ_018_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_018_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_018_1_???]`
     de: ""
     en: The Troubled Instrument Maker
     es: ""
@@ -738543,8 +738787,9 @@ STT_QuestListName:
     zh-Hant: 樂器工匠的煩惱
   SYSTEXT_QUESTLIST_NAME_MQ_007_1:
     $comments: |-
-      🟡
-      (264) SYSTEXT_QUESTLIST_NAME_MQ_007_1 { Main Story }
+      🔴
+      (264) SYSTEXT_QUESTLIST_NAME_MQ_007_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_007_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_007_1_???]`
     de: ""
     en: Exploring Ancient Ruins
     es: ""
@@ -738557,10 +738802,11 @@ STT_QuestListName:
     zh-Hant: 探訪遠古遺跡
   SYSTEXT_QUESTLIST_NAME_MQ_014_1:
     $comments: |-
-      🟡
-      (265) SYSTEXT_QUESTLIST_NAME_MQ_014_1 { Main Story }
+      🔴
+      (265) SYSTEXT_QUESTLIST_NAME_MQ_014_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_014_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_014_1_???]`
     de: ""
-    en: With Love From The Captain
+    en: From The Captain With Love
     es: ""
     fr: ""
     it: ""
@@ -745880,7 +746126,11 @@ STT_Quest_AfterBattle:
     zh-Hans: ""
     zh-Hant: ""
   AFTER_BATTLE_KQ_139_1_A1:
-    $comments: 🔴
+    $comments: |-
+      🟢
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_020, STT_NpcInfo.NAME_NPC_04301, STT_BattleMonsterName.ID_MONSTER_NAME_05002, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SYAKUNETUNOKAKERA]`
+      unused?
     de: ""
     en: ""
     es: ""
@@ -746620,7 +746870,10 @@ STT_Quest_AfterBattle:
     zh-Hans: ""
     zh-Hant: ""
   AFTER_BATTLE_MQ_007_1_A1:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (264) SYSTEXT_QUESTLIST_NAME_MQ_007_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_007_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_007_1_???]`
     de: ""
     en: ""
     es: ""
@@ -746640,7 +746893,7 @@ STT_Quest_AfterBattle:
   AFTER_BATTLE_MQ_008_1_A1:
     $comments: |-
       🟢, unused?
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_???]`
     de: ""
     en: ""
@@ -746655,7 +746908,7 @@ STT_Quest_AfterBattle:
   AFTER_BATTLE_MQ_008_1_B1:
     $comments: |-
       🟢, unused?
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
       see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_???]`
     de: ""
     en: ""
@@ -746676,7 +746929,10 @@ STT_Quest_AfterBattle:
     zh-Hans: ""
     zh-Hant: ""
   AFTER_BATTLE_MQ_011_1_A1:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (261) SYSTEXT_QUESTLIST_NAME_MQ_011_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_011_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_011_1_???]`
     de: ""
     en: ""
     es: ""
@@ -746694,7 +746950,10 @@ STT_Quest_AfterBattle:
     zh-Hans: ""
     zh-Hant: ""
   AFTER_BATTLE_MQ_011_1_B1:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (261) SYSTEXT_QUESTLIST_NAME_MQ_011_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_011_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_011_1_???]`
     de: ""
     en: ""
     es: ""
@@ -746738,8 +746997,9 @@ STT_Quest_AfterBattle:
     zh-Hant: ""
   AFTER_BATTLE_MQ_013_1_A1:
     $comments: |-
-      🟡, (262) { Main Story }, see [STT_QuestList.Detail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_015]
-      unused?
+      🔴
+      (262) SYSTEXT_QUESTLIST_NAME_MQ_013_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_013_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_???]`
     de: ""
     en: ""
     es: ""
@@ -746757,7 +747017,10 @@ STT_Quest_AfterBattle:
     zh-Hans: ""
     zh-Hant: ""
   AFTER_BATTLE_MQ_014_1_A1:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (265) SYSTEXT_QUESTLIST_NAME_MQ_014_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_014_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_014_1_???]`
     de: ""
     en: ""
     es: ""
@@ -746811,7 +747074,10 @@ STT_Quest_AfterBattle:
     zh-Hans: ""
     zh-Hant: ""
   AFTER_BATTLE_MQ_018_1_A1:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (263) SYSTEXT_QUESTLIST_NAME_MQ_018_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_018_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_018_1_???]`
     de: ""
     en: ""
     es: ""
@@ -750825,7 +751091,10 @@ STT_Quest_ItemGet:
       去向葛拉罕報告吧。<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_BattleFin_MQ_011_1_10:
-    $comments: 🟡
+    $comments: |-
+      🔴
+      (261) SYSTEXT_QUESTLIST_NAME_MQ_011_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_011_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_011_1_???]`
     de: ""
     en: |-
       With that, the White Plum Branch and Pink Cowrie have
@@ -754478,13 +754747,16 @@ STT_Quest_ItemGet:
       獲得了夢色噴霧器（重要物品）！<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_KQ_139_1_20:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_05002, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SYAKUNETUNOKAKERA]`
     de: ""
     en: |-
       The <%sEV_QUE_NAME0> dropped a Red-Hot Shard.
       <br>
       {pc} obtained the Red-Hot Shard (Key Item)!<se_nots System Item>
-      <auto_bw=5000><close>
+      <bw><close>
     es: ""
     fr: ""
     it: ""
@@ -754818,7 +755090,10 @@ STT_Quest_ItemGet:
       淨化香草（重要物品）！<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_MQ_007_1_10:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (264) SYSTEXT_QUESTLIST_NAME_MQ_007_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_007_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_007_1_???]`
     de: ""
     en: |-
       <%sEV_QUE_NAME0> dropped
@@ -754862,8 +755137,8 @@ STT_Quest_ItemGet:
   SYSTEXT_GetItemText_Comp_MQ_008_1_20:
     $comments: |-
       🟡
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_???]`
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_020, STT_BattleMonsterName.ID_MONSTER_NAME_15302, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI]`
     de: ""
     en: |-
       The <%sEV_QUE_NAME0> dropped Golden Moonlight
@@ -754912,7 +755187,10 @@ STT_Quest_ItemGet:
       月光金線（重要物品）！<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_MQ_011_1_10:
-    $comments: 🟡
+    $comments: |-
+      🔴
+      (261) SYSTEXT_QUESTLIST_NAME_MQ_011_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_011_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_011_1_???]`
     de: ""
     en: |-
       The <%sEV_QUE_NAME0> dropped the White Plum Branch.
@@ -754994,8 +755272,9 @@ STT_Quest_ItemGet:
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_MQ_013_1_10:
     $comments: |-
-      🟡, (262) { Main Story }
-      see [STT_QuestList.Detail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_010]
+      🔴
+      (262) SYSTEXT_QUESTLIST_NAME_MQ_013_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_013_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_???]`
     de: ""
     en: |-
       The <%sEV_QUE_NAME0> dropped the Hell File.
@@ -755035,14 +755314,16 @@ STT_Quest_ItemGet:
       獲得了地獄銼刀（重要物品）！<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_MQ_014_1_20:
-    $comments: 🟡
+    $comments: |-
+      🔴
+      (265) SYSTEXT_QUESTLIST_NAME_MQ_014_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_014_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_014_1_???]`
     de: ""
     en: |-
       <%sEV_QUE_NAME0> dropped the <color_yellow>High-Tech Spanner<color_white>.
-      <auto_br=5000>
-      {pc} obtained a
-      high-tech spanner! <se_nots System Item>
-      <auto_bw=5000><close>
+      <br>
+      {pc} obtained the High-Tech Spanner! <se_nots System Item>
+      <bw><close>
     es: ""
     fr: ""
     it: ""
@@ -755159,7 +755440,10 @@ STT_Quest_ItemGet:
       獲得了淨化火種（重要物品）！<se_nots System Item>
       <auto_bw=5000><close>
   SYSTEXT_GetItemText_Comp_MQ_018_1_10:
-    $comments: 🔴
+    $comments: |-
+      🔴
+      (263) SYSTEXT_QUESTLIST_NAME_MQ_018_1 [ The Woven Bonds of Courage ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_018_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_018_1_???]`
     de: ""
     en: |-
       <%sEV_QUE_NAME0> dropped
@@ -756474,11 +756758,11 @@ STT_Quest_ItemGet:
   SYSTEXT_GetItemText_Mid_MQ_008_1_20:
     $comments: |-
       🟡
-      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 { Main Story }
-      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_???]`
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI]`
     de: ""
     en: |-
-      Obtained {SucceedNum_Now} Moonlight Gold Threads!
+      Obtained {SucceedNum_Now} Golden Moonlight Threads!
       {SucceedNum_remain} remain.
       <bw><close>
     es: ""
@@ -757454,9 +757738,12 @@ STT_Quest_PerticularReward:
     zh-Hans: 使用鲁拉不会撞上天花板
     zh-Hant: 魯拉不會撞上天花板
   TEXT_QUESTPARTICULARREWARD_KQ_139_1:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_200, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TETSUNOKINKO]`
     de: ""
-    en: Iron safe now available
+    en: Steel Strongbox now available for use
     es: ""
     fr: ""
     it: ""
@@ -852209,38 +852496,8 @@ STT_System_Book_Monster:
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_02730_01:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      溶岩から生まれ 火炎を食べて
-      育ったといわれる 紅の魔犬。
-      辺りに炎をはきちらしては
-      暴れまわる おそろしい猛獣。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_02730_02:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      コイツがカゼをひくと
-      くしゃみや せきのたびに
-      炎をまきちらすので
-      誰もお見舞いに来てくれない。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  SYSTXT_BOOK_MONSTER_02730_01: *STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_05002
+  SYSTXT_BOOK_MONSTER_02730_02: *STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_05002
   SYSTXT_BOOK_MONSTER_02740_01:
     $comments: 🔴
     de: ""
@@ -855125,38 +855382,8 @@ STT_System_Book_Monster:
     pt-BR: ""
     zh-Hans: ""
     zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_03205_01:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      全身を黄色にそめた
-      目立ちたがり屋かと思いきや
-      ハデな大技と地味なからめ手を
-      使い分けるワザ師なのだ。
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
-  SYSTXT_BOOK_MONSTER_03205_02:
-    $comments: 🔴
-    de: ""
-    en: ""
-    es: ""
-    fr: ""
-    it: ""
-    ja: |-
-      伝説のモンスターバンド
-      「ライトニング・デス」の
-      ボーカルを務める歌い手。
-      オレの声にシビれな！！
-    ko: ""
-    pt-BR: ""
-    zh-Hans: ""
-    zh-Hant: ""
+  SYSTXT_BOOK_MONSTER_03205_01: *STT_Monster_Tips1_ver1.SYSTXT_MONSTER_TIPS1_MONSTER_NO_15302
+  SYSTXT_BOOK_MONSTER_03205_02: *STT_Monster_Tips2_ver1.SYSTXT_MONSTER_TIPS2_MONSTER_NO_15302
   SYSTXT_BOOK_MONSTER_03210_01:
     $comments: 🔴
     de: ""
@@ -906655,7 +906882,7 @@ STT_System_Facility_ChurchSys:
     en: |-
       Would you like to return to {Destroyed_Church}?
       You will not lose gold
-       due to the Iron Safe
+       due to the Steel Strongbox
       <yesno 2><break>
     es: ""
     fr: ""
@@ -906815,7 +907042,7 @@ STT_System_Facility_ChurchSys:
     en: |-
       Would you like to return to {Destroyed_LastStayed}?
       You will not lose gold
-       due to the Iron Safe
+       due to the Steel Strongbox
       <yesno 2><break>
     es: ""
     fr: ""
@@ -923311,7 +923538,7 @@ STT_System_Location:
   SYSTXT_LOCATION_HIRYU_R5310_01:
     $comments: 🔴
     de: ""
-    en: Wasteland - Center
+    en: Desert - Center
     es: ""
     fr: ""
     it: ""
@@ -929633,7 +929860,7 @@ STT_System_Location:
   SYSTXT_LOCATION_RURA_R5210_TO_REN5_JAYR_DUNG:
     $comments: 🔴
     de: ""
-    en: Defel Wasteland - Jungle
+    en: Defel Desert - Jungle
     es: ""
     fr: ""
     it: ""
@@ -929657,7 +929884,7 @@ STT_System_Location:
   SYSTXT_LOCATION_RURA_R5210_TO_REN5_JAYR_FLD:
     $comments: 🔴
     de: ""
-    en: Defel Wasteland - Center
+    en: Defel Desert - Center
     es: ""
     fr: ""
     it: ""
@@ -961123,16 +961350,24 @@ STT_UIDouguSys:
       背後竄上一股寒意！
       ……{Character_Head}懊悔不已。
   ID_TEXT_DAIJINAMONO_BUREIBUGIFUTOSHIRO:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_060, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_BUREIBUGIFUTOSHIRO]`
     de: ""
     en: |-
-      {Character_Head} took a close look at Brave Gift White.
+      {Character_Head} tried closely examining the
+      Brave Gift (White).
       <br>
-      She seems like a good match for Anlucia.
+      It seems like a good match for Anlucia.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　ブレイブギフト白を\nじっくり　ながめてみた。\n<br>\nアンルシアに　よく似合いそうだ。"
+    ja: |-
+      {Character_Head}は　ブレイブギフト白を
+      じっくり　ながめてみた。
+      <br>
+      アンルシアに　よく似合いそうだ。
     ko: |-
       {Character_Head}|hpp(은,는) 브레이브 기프트 하양을
       가만히 바라보았다.
@@ -961286,16 +961521,24 @@ STT_UIDouguSys:
       心愛的繡章。<br>
       感覺心情有點得意。
   ID_TEXT_DAIJINAMONO_DEFERUKOUYANOISI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_DEFERUKOUYANOISI]`
     de: ""
     en: |-
-      {Character_Head} took a close look at the stones of the Defel Wastes.
+      {Character_Head} tried closely examining the
+      Defel Desert Stone.
       <br>
-      No matter how you look at him, he's just an ordinary stone.
+      No matter how they look at it, it's just ordinary stone.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　デフェル荒野の石を\nじっくり　ながめてみた。\n<br>\nどこから　どう見ても　普通の石ころだ。"
+    ja: |-
+      {Character_Head}は　デフェル荒野の石を
+      じっくり　ながめてみた。
+      <br>
+      どこから　どう見ても　普通の石ころだ。
     ko: |-
       {Character_Head}|hpp(은,는) 데펠 황야의 돌을
       가만히 바라보았다.
@@ -961988,7 +962231,10 @@ STT_UIDouguSys:
       <br>
       應該非常適合拉格亞斯。
   ID_TEXT_DAIJINAMONO_GEKKOUNOKINSI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (258) SYSTEXT_QUESTLIST_NAME_MQ_008_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_008_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_008_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_GEKKOUNOKINSI]`
     de: ""
     en: |-
       {Character_Head} tried closely examining the
@@ -961998,7 +962244,12 @@ STT_UIDouguSys:
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　月光の金糸を\nじっくり　ながめてみた。\n<br>\n糸が　月の光をまとったように\n静かに　かがやいている。\n"
+    ja: |-
+      {Character_Head}は　月光の金糸を
+      じっくり　ながめてみた。
+      <br>
+      糸が　月の光をまとったように
+      静かに　かがやいている。
     ko: |
       {Character_Head}|hpp(은,는) 달빛의 금실을
       가만히 바라보았다.
@@ -969787,17 +970038,24 @@ STT_UIDouguSys:
       <br>
       小盒中傳出喀答喀答的聲音。
   ID_TEXT_DAIJINAMONO_RONUJYURINTAINOKUSA:
-    $comments: 🟡
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_RONUJYURINTAINOKUSA]`
     de: ""
     en: |-
-      {Character_Head} took a close look at the grass in the Rhone forest zone.
+      {Character_Head} tried closely examining the
+      Rhone Forest Belt Grass.
       <br>
-      No matter how you look at it, it's just ordinary
-      grass.
+      No matter how they look at it, it's just ordinary grass.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　ローヌ樹林帯の草を\nじっくり　ながめてみた。\n<br>\nどこから　どう見ても　普通の草だ。"
+    ja: |-
+      {Character_Head}は　ローヌ樹林帯の草を
+      じっくり　ながめてみた。
+      <br>
+      どこから　どう見ても　普通の草だ。
     ko: |-
       {Character_Head}|hpp(은,는) 로느 수림 지대의 풀을
       가만히 바라보았다.
@@ -971718,16 +971976,23 @@ STT_UIDouguSys:
       <br>
       不知為何心情變得很愉快！
   ID_TEXT_DAIJINAMONO_SYAKUNETUNOKAKERA:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_030, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_SYAKUNETUNOKAKERA]`
     de: ""
     en: |-
-      {Character_Head} looked at the shakunetunokakera.
+      {Character_Head} tried examining the Red-Hot Shard.
       <br>
-      I could see her flame flickering inside the fragments!
+      Inside the shard, a flickering flame could be seen!
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　しゃくねつのカケラを\nながめてみた。\n<br>\nカケラの中に　ほのおのゆらめきが　見えた！"
+    ja: |-
+      {Character_Head}は　しゃくねつのカケラを
+      ながめてみた。
+      <br>
+      カケラの中に　ほのおのゆらめきが　見えた！
     ko: |-
       {Character_Head}|hpp(은,는) 작열의 조각을
       바라보았다.
@@ -972152,15 +972417,22 @@ STT_UIDouguSys:
       天命之女武神展露了
       天使般的笑容。
   ID_TEXT_DAIJINAMONO_TETSUNOKINKO:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TETSUNOKINKO]`
     de: ""
     en: |-
-      {Character_Head} tried pounding the iron safe.
-      The Iron Safe didn't budge!
+      {Character_Head} tried pounding the Steel Strongbox.
+      The Steel Strongbox didn't budge!
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　鉄の金庫を\nガンガン　殴ってみた。\n<br>\n鉄の金庫は　びくともしなかった！"
+    ja: |-
+      {Character_Head}は　鉄の金庫を
+      ガンガン　殴ってみた。
+      <br>
+      鉄の金庫は　びくともしなかった！
     ko: |-
       {Character_Head}|hpp(은,는) 철 금고를
       세게 두드려 보았다.
@@ -972178,16 +972450,24 @@ STT_UIDouguSys:
       <br>
       鐵製金庫紋風不動！
   ID_TEXT_DAIJINAMONO_TETSUNOKINKONOKAGI:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (257) SYSTEXT_QUESTLIST_NAME_KQ_139_1 [ SYSTEXT_QUESTLIST_SERIES_KQ_020 ] { Super Useful }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_KQ_139_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_KQ_139_1_040, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_TETSUNOKINKONOKAGI]`
     de: ""
     en: |-
-      {Character_Head} tried picking up the Iron Safe Key.
+      {Character_Head} tried picking up the
+      Steel Strongbox Key.
       <br>
-      The Iron Safe Key shined.
+      The Steel Strongbox Key shined.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　鉄の金庫のカギを\nかかげてみた。\n<br>\n鉄の金庫のカギは　キラリと　かがやいた。"
+    ja: |-
+      {Character_Head}は　鉄の金庫のカギを
+      かかげてみた。
+      <br>
+      鉄の金庫のカギは　キラリと　かがやいた。
     ko: |-
       {Character_Head}|hpp(은,는) 철 금고의 열쇠를
       높이 들어올렸다.
@@ -974544,17 +974824,24 @@ STT_UIDouguSys:
       袋子裡塞著
       滿滿的小瓶！
   ID_TEXT_DAIJINAMONO_WARUDOSUIGENNOMIZU:
-    $comments: 🔴
+    $comments: |-
+      🟡
+      (259) SYSTEXT_QUESTLIST_NAME_MQ_006_1 [ The Land of Overlapping Fates ] { Main Story }
+      see `[STT_QuestListName.SYSTEXT_QUESTLIST_NAME_MQ_006_1, STT_QuestListDetail.SYSTEXT_QUESTLIST_NAME_MQ_006_1_020, STT_DaijinamonoItem.*_ID_ITEM_DAIJINAMONO_WARUDOSUIGENNOMIZU]`
     de: ""
     en: |-
-      {Character_Head} took a
-      lick of the water from the Waldo source.
+      {Character_Head} tried taking a little lick of the
+      Wald Headwaters Water.
       <br>
-      I feel like her throat is a little moist.
+      It feels like their throat is a little wet.
     es: ""
     fr: ""
     it: ""
-    ja: "{Character_Head}は　ワルド水源の水を\n少しだけ　なめてみた。\n<br>\nちょっぴり　のどが　うるおった気がする。"
+    ja: |-
+      {Character_Head}は　ワルド水源の水を
+      少しだけ　なめてみた。
+      <br>
+      ちょっぴり　のどが　うるおった気がする。
     ko: |-
       {Character_Head}|hpp(은,는) 왈드 수원의 물을
       살짝 핥아 보았다.
@@ -975098,9 +975385,7 @@ STT_UIDouguSys:
       感覺彷彿從身體深處
       湧現了慈愛。
   ID_TEXT_DAIJINAMONO_ZIGOKUNOYASURI:
-    $comments: |-
-      🟡, (262) { Main Story }
-      see [STT_QuestList.Detail.SYSTEXT_QUESTLIST_NAME_MQ_013_1_[000, 005, 010, 015, 200]]
+    $comments: 🔴
     de: ""
     en: |-
       {Character_Head} tried rubbing their fingertip on
