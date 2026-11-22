@@ -1,0 +1,2169 @@
+/* Copyright Reflection Contributors 2024-2026 */
+
+#include "Importers/Types/Blueprint/BlueprintImporter.h"
+#include "Importers/Types/Blueprint/BlueprintCompile.h"
+#include "AnimationGraphSchema.h"
+#include "AnimGraphNode_Root.h"
+#include "EdGraphSchema_K2.h"
+
+#include "KismetCompilerModule.h"
+#include "MovieScene.h"
+#include "WidgetBlueprint.h"
+#include "K2Node_CustomEvent.h"
+#include "K2Node_FunctionEntry.h"
+#include "K2Node_ComponentBoundEvent.h"
+#include "K2Node_WidgetAnimationEvent.h"
+#include "Engine/ComponentDelegateBinding.h"
+#include "Animation/WidgetAnimationDelegateBinding.h"
+#include "Animation/MovieScene2DTransformTrack.h"
+#include "Animation/MovieSceneWidgetMaterialTrack.h"
+#include "Animation/WidgetAnimation.h"
+#include "Blueprint/WidgetTree.h"
+#include "Engine/SimpleConstructionScript.h"
+#include "Kismet2/BlueprintEditorUtils.h"
+#include "Kismet2/KismetEditorUtilities.h"
+
+#include "Engine/SCS_Node.h"
+#include "Engine/LevelScriptActor.h"
+#include "Engine/InheritableComponentHandler.h"
+#include "Importers/Types/Blueprint/BlueprintUtilities.h"
+#include "Importers/Types/Blueprint/BlueprintVariables.h"
+#include "Importers/Types/Blueprint/BlueprintGraphs.h"
+#include "K2Node_Timeline.h"
+#include "Engine/TimelineTemplate.h"
+#include "Engine/BlueprintGeneratedClass.h"
+#include "UObject/Script.h"
+#if UE5_7_BEYOND
+/* 5.7 split this out of UnrealString.h, which used to carry it along with everything else */
+#include "Misc/StringOutputDevice.h"
+#endif
+
+#include "ScriptDisassembler.h"
+#include "Importers/Types/Blueprint/BlueprintCookedMetaData.h"
+#include "Importers/Types/Blueprint/BytecodeGraph.h"
+#include "Importers/Constructor/TypesHelper.h"
+
+UObject* IBlueprintImporter::CreateAsset(UObject* CreatedAsset) {
+	UClass* Class = GetAssetClass();
+	
+	if (!Class) {
+		FImportIssues::Report(
+			EImportIssue::MissingClass,
+			TEXT("Couldn't resolve the parent class"),
+			TEXT("The blueprint's parent class could not be found or loaded. Verify that the class is defined and available when reflecting.")
+		);
+
+		return nullptr;
+	}
+
+	/* There by name and not by anything else: building on an unfinished parent asserts as the default object is made */
+	if (!ClassIsFormed(Class)) {
+		FImportIssues::Report(
+			EImportIssue::MissingClass,
+			FString::Printf(TEXT("Nothing was made of the parent class %s"), *Class->GetName()),
+			TEXT("Its class is in memory but was never finished, most often because the blueprint above this one did not come across. Building on it would stop the editor, so nothing was made for this one.")
+		);
+
+		return nullptr;
+	}
+	
+	/* A level's own script belongs to the map, which already holds that name: made here it stops the editor */
+	if (Class->IsChildOf(ALevelScriptActor::StaticClass())) {
+		FImportIssues::Report(
+			EImportIssue::Data,
+			FString::Printf(TEXT("\"%s\" is a level's own script"), *GetAssetName()),
+			TEXT("A level script is part of the map it was written in rather than an asset of its own, and the map already holds that name. Nothing was made for it, and whatever named it carried on.")
+		);
+
+		return nullptr;
+	}
+
+	/* Or a name something else answers to: reused where it is a blueprint, and nowhere to put this one where it is not */
+	if (const UObject* Standing = FindObject<UObject>(GetPackage(), *GetAssetName()); Standing != nullptr && !Standing->IsA<UBlueprint>()) {
+		FImportIssues::Report(
+			EImportIssue::Failed,
+			FString::Printf(TEXT("\"%s\" is already taken"), *GetAssetName()),
+			FString::Printf(TEXT("Something of that name is already in the package and it is a %s rather than a blueprint, so a blueprint cannot be made there. Rename or delete it before reflecting."), *Standing->GetClass()->GetName())
+		);
+
+		return nullptr;
+	}
+
+	/* Find the blueprint class and generated class */
+	UClass* BlueprintClass = nullptr, *GeneratedClass = nullptr;
+	
+	FModuleManager::LoadModuleChecked<IKismetCompilerInterface>
+		("KismetCompiler")
+			.GetBlueprintTypesForClass(
+				Class,
+				BlueprintClass,
+				GeneratedClass
+			);
+
+	/* Propagate blueprint defaults if it already exists */
+	if (UBlueprint* ExistingBlueprint = LoadObject<UBlueprint>(nullptr, *GetPackage()->GetPathName())) {
+		/* A blueprint first made without its parent is built on the nearest class that was found, and
+		 * nothing looks again, so it is reparented here the way the editor's own reparent does it. Only
+		 * ever downwards, since a parent missing this time comes back as that same nearer class. */
+		if (ExistingBlueprint->ParentClass != Class && Class->IsChildOf(ExistingBlueprint->ParentClass)) {
+			UE_LOG(LogReflection, Display, TEXT("Reparenting %s from %s to %s, the parent its export names"), *ExistingBlueprint->GetName(), *GetNameSafe(ExistingBlueprint->ParentClass), *Class->GetName());
+
+			ExistingBlueprint->ParentClass = Class;
+			FBlueprintEditorUtils::RefreshAllNodes(ExistingBlueprint);
+			FBlueprintEditorUtils::MarkBlueprintAsModified(ExistingBlueprint);
+			/* Without garbage collection, like every other compile here: one in the middle of an import collects the serializers reading it */
+			CompileBlueprintGuarded(ExistingBlueprint, EBlueprintCompileOptions::SkipGarbageCollection);
+		}
+
+		UBlueprintGeneratedClass* BlueprintGeneratedClass = Cast<UBlueprintGeneratedClass>(ExistingBlueprint->GeneratedClass);
+		FBlueprintEditorUtils::PropagateParentBlueprintDefaults(BlueprintGeneratedClass);
+
+		/* Return GeneratedClass instead of UBlueprint* */
+		return IImporter::CreateAsset(BlueprintGeneratedClass);
+	}
+
+	const UBlueprint* CreatedBlueprint = CreateBlueprintGuarded(
+		Class,
+		GetPackage(),
+		FName(*GetAssetName()),
+		GetBlueprintTypeSaid(GetAssetData(), Class),
+		BlueprintClass,
+		GeneratedClass
+	);
+
+	if (!CreatedBlueprint) return nullptr;
+
+	/* Return GeneratedClass instead of UBlueprint* */
+	return IImporter::CreateAsset(CreatedBlueprint->GeneratedClass);
+}
+
+bool IBlueprintImporter::Import() {
+	const UBlueprintGeneratedClass* BlueprintGeneratedClass = Create<UBlueprintGeneratedClass>();
+	if (!BlueprintGeneratedClass) return false;
+
+	/* Update Blueprint Reference for sub functions */
+	Blueprint = UBlueprint::GetBlueprintFromClass(BlueprintGeneratedClass);
+	if (!Blueprint) return false;
+
+	/* Deserialize Generated Class (blueprint defaults) */
+	UBlueprintGeneratedClass* GeneratedClass = Cast<UBlueprintGeneratedClass>(Blueprint->GeneratedClass);
+	FUObjectExport* ClassDefaultObjectExport = GetClassDefaultObject(GetContainer(), GetAssetDataAsValue());
+
+	/* A blueprint with no class default object export has nothing to deserialize defaults from,
+	 * and writing to what the lookup handed back would land on the shared empty export */
+	if (ClassDefaultObjectExport->IsJsonInvalid()) return false;
+
+	/* The default object, not the class holding it: what is outered to the defaults is looked for there */
+	ClassDefaultObjectExport->Object = GeneratedClass != nullptr ? GeneratedClass->GetDefaultObject() : nullptr;
+
+	/* The variables have to exist before their defaults can land anywhere. A recreated blueprint
+	 * only has what its parent class gave it, so any property the blueprint declared itself is
+	 * missing, and deserializing the class default object over it would drop those values on the
+	 * floor without complaining. */
+	if (ConstructVariables() > 0) {
+		/* Adding a variable only touches the blueprint, the generated class grows the property
+		 * when it recompiles, and the default object below is the one that comes out of that.
+		 *
+		 * Everything past here reads the class that comes out of it, so a compile that did not
+		 * happen leaves nothing worth carrying on with. */
+		if (!CompileBlueprintGuarded(Blueprint, EBlueprintCompileOptions::SkipGarbageCollection)) return false;
+
+		GeneratedClass = Cast<UBlueprintGeneratedClass>(Blueprint->GeneratedClass);
+		if (!GeneratedClass) return false;
+
+		ClassDefaultObjectExport->Object = GeneratedClass->GetDefaultObject();
+	}
+
+	GetObjectSerializer()->DeserializeObjectProperties(ClassDefaultObjectExport->GetProperties(), GeneratedClass->GetDefaultObject());
+
+	/* A subobject the parent made and the blueprint changed, outered to the defaults and named by nothing in them */
+	{
+		UObject* Defaults = GeneratedClass->GetDefaultObject();
+		const FName DefaultsName = ClassDefaultObjectExport->GetName();
+
+		for (FUObjectExport* Export : GetContainer()->Exports) {
+			if (Export == nullptr || Export == ClassDefaultObjectExport || !Export->IsJsonValid()) continue;
+			if (Export->GetOuter() != DefaultsName) continue;
+
+			FString Flags;
+
+			if (!Export->JsonObject->TryGetStringField(TEXT("Flags"), Flags) || !Flags.Contains(TEXT("RF_DefaultSubObject"))) continue;
+
+			UObject* Made = Defaults->GetDefaultSubobjectByName(Export->GetName());
+
+			if (Made == nullptr) continue;
+
+			/* Bound whether or not it carries values, since what names it points at the export rather than at them */
+			Export->Object = Made;
+
+			if (Export->JsonObject->HasTypedField<EJson::Object>(TEXT("Properties"))) {
+				GetObjectSerializer()->DeserializeObjectProperties(Export->GetProperties(), Made);
+			}
+		}
+	}
+
+	/* Experimental (for now) spawning */
+	GetObjectSerializer()->bUseExperimentalSpawning = true;
+
+	ConstructScript();
+	ConstructOverriddenComponents();
+	ConstructWidgetTree();
+
+	ConstructBody();
+
+	/* Both put back a node the compiler makes its binding from, so the class is built again */
+	if (ConstructAnimationEvents() + ConstructComponentEvents() > 0) {
+		CompileBlueprintGuarded(Blueprint, EBlueprintCompileOptions::SkipGarbageCollection);
+	}
+
+	/* Which graphs were open the last time somebody had it up, which is kept as a path to each one.
+	 *
+	 * Nothing here was told that and nothing reading the asset wants it, and the graphs are built
+	 * here rather than loaded, so a path left over from whatever the blueprint was before points at
+	 * a graph that is not there. Saving harvests one set of references and then writes another, and
+	 * the package save says so every time. */
+	Blueprint->LastEditedDocuments.Empty();
+
+	return OnAssetCreation(Blueprint);
+}
+
+int32 IBlueprintImporter::ConstructInterfaces() {
+	if (Blueprint == nullptr) return 0;
+
+	const FUObjectJsonValueExport Data = GetAssetDataAsValue();
+
+	if (!Data.Has(TEXT("Interfaces"))) return 0;
+
+	int32 Added = 0;
+
+	for (const FUObjectJsonValueExport& Entry : Data.GetArray(TEXT("Interfaces"))) {
+		/* Only the ones the blueprint answers for. An interface its parent already implements in
+		 * C++ is the parent's, and adding it here would have the blueprint answer twice. */
+		if (!Entry.GetBool(TEXT("bImplementedByK2"), true)) continue;
+		if (!Entry.Has(TEXT("Class"))) continue;
+
+		const FUObjectJsonValueExport Named = Entry.GetObject(TEXT("Class"));
+
+		/* Spelled the way everything pointed at is: the kind, then the name in quotes */
+		FString Kind;
+		FString Called;
+
+		if (Named.Has(TEXT("ObjectName"))) {
+			const FString Spelled = Named.GetString(TEXT("ObjectName"));
+
+			if (!Spelled.Split(TEXT("'"), &Kind, &Called)) {
+				Called = Spelled;
+			}
+
+			Called.RemoveFromEnd(TEXT("'"));
+
+			/* An inner thing is named after what holds it, and the name is the last part */
+			FString Held;
+
+			if (Called.Split(TEXT(":"), nullptr, &Held)) Called = Held;
+		}
+
+		if (Called.IsEmpty()) continue;
+
+		UClass* Interface = const_cast<UClass*>(FindClassByType(Called));
+
+		/* Brought in where the project hasn't got it. An interface is an asset like any other, and
+		 * a blueprint cannot answer for one that is not here. */
+		if (Interface == nullptr && Named.Has(TEXT("ObjectPath"))) {
+			FString Where = ToEditorPackagePath(Named.GetString(TEXT("ObjectPath")));
+
+			/* An export is named by its package and the number it sits at, and the number is no
+			 * part of where the editor keeps it */
+			if (int32 Sits; Where.FindLastChar(TEXT('.'), Sits)) {
+				const FString After = Where.RightChop(Sits + 1);
+
+				if (!After.IsEmpty() && After.IsNumeric()) LeftInline(Where, Sits);
+			}
+
+			FString Leaf = Where;
+
+			if (int32 Slash; Where.FindLastChar(TEXT('/'), Slash)) Leaf = Where.RightChop(Slash + 1);
+
+			if (!Where.IsEmpty() && !Leaf.IsEmpty() && !Kind.IsEmpty()) {
+				TObjectPtr<UObject> Brought = nullptr;
+				bool bBrought = false;
+
+				FAssetUtilities::ConstructAsset<UObject>(Where, Where + TEXT(".") + Leaf, Kind, Brought, bBrought);
+
+				Interface = const_cast<UClass*>(FindClassByType(Called));
+			}
+		}
+
+		if (Interface == nullptr) {
+			FImportIssues::Report(
+				EImportIssue::MissingClass,
+				TEXT("An interface the blueprint answers for is missing"),
+				FString::Printf(TEXT("'%s' implements '%s', which is neither in the project nor anything the Cloud would give."), *GetAssetName(), *Called)
+			);
+
+			continue;
+		}
+
+		/* Already answered for, whether the parent gave it or an earlier run added it */
+		bool bHeld = false;
+
+		for (const FBPInterfaceDescription& Description : Blueprint->ImplementedInterfaces) {
+			if (Description.Interface == Interface) bHeld = true;
+		}
+
+		if (bHeld || (Blueprint->ParentClass != nullptr && Blueprint->ParentClass->ImplementsInterface(Interface))) continue;
+
+		if (FBlueprintEditorUtils::ImplementNewInterface(Blueprint, Interface->GetFName())) {
+			UE_LOG(LogReflection, Display, TEXT("\"%s\" answers for \"%s\""), *GetAssetName(), *Interface->GetName());
+
+			Added++;
+		}
+	}
+
+	return Added;
+}
+
+int32 IBlueprintImporter::ConstructBody() {
+	/* Before anything is laid out. An interface brings the graphs of everything it declares with
+	 * it, and those are the graphs the bytecode is read back into: added afterwards, every one of
+	 * them would already have been made again as a function of the blueprint's own. */
+	if (const int32 Answered = ConstructInterfaces(); Answered > 0) {
+		UE_LOG(LogReflection, Display, TEXT("%d interface(s) answered for"), Answered);
+	}
+
+	/* Before the graphs, since a graph that starts one reads the pins it grew */
+	if (const int32 Timelines = ConstructTimelines(); Timelines > 0) {
+		UE_LOG(LogReflection, Display, TEXT("%d timeline(s) rebuilt"), Timelines);
+	}
+
+	/* What the blueprint does rather than what it is, and the one part read back from bytecode rather than copied */
+	const int32 Laid = GetSettings()->AssetSettings.ImportBlueprintCode ? ConstructGraphs() : 0;
+
+	if (!GetSettings()->AssetSettings.ImportBlueprintCode) {
+		FImportIssues::Report(EImportIssue::Setting,
+			TEXT("The graphs were left empty"),
+			TEXT("Import Blueprint Code is off, so what the blueprint does was not read back. Everything else about it came across."));
+	}
+
+	/* What survived, counted where it matters rather than where it was made */
+	if (const UEdGraph* Events = FBlueprintGraphs::Events(Blueprint)) {
+		int32 Standing = 0;
+
+		for (UEdGraphNode* Node : Events->Nodes) {
+			if (Node != nullptr && Node->IsA<UK2Node_Timeline>()) Standing++;
+		}
+
+		UE_LOG(LogReflection, Display, TEXT("%d timeline node(s) still in the event graph after laying it out"), Standing);
+	}
+
+	/* Said once both the variables and the graphs it names exist, since it is said over them */
+	if (const int32 Said = FBlueprintCookedMetaData::Apply(Blueprint, GetContainer()); Said > 0) {
+		UE_LOG(LogReflection, Display, TEXT("%d thing(s) the editor knew were kept through the cook and said again"), Said);
+	}
+
+	/* A graph is only worth compiling once there is something in it */
+	if (Laid > 0) {
+ 		CompileBlueprintGuarded(Blueprint, EBlueprintCompileOptions::SkipGarbageCollection);
+
+		/* Off for now. The search is a compile per try and only moves where the events sit in the script,
+		 * which changes no behaviour, and it can cost half a minute an import. Set to true to match
+		 * entry offsets again. Even then it runs only where nobody is waiting on it: an import from
+		 * the open editor keeps the order it was laid in */
+		constexpr bool bMatchEventLayout = false;
+
+		if (bMatchEventLayout && AssetEntries.Num() > 0 && IsRunningCommandlet()) {
+			const int32 Landed = MatchEventLayout();
+
+			UE_LOG(LogReflection, Display, TEXT("%d of %d event(s) entered where the asset enters them"), Landed, AssetEntries.Num());
+		}
+
+		/* What the compile made of it, which is the thing a rebuilt graph is judged by */
+		if (const UBlueprintGeneratedClass* Compiled = Cast<UBlueprintGeneratedClass>(Blueprint->GeneratedClass)) {
+			for (TFieldIterator<UFunction> It(Compiled, EFieldIteratorFlags::ExcludeSuper); It; ++It) {
+				UE_LOG(LogReflection, Display, TEXT("compiled \"%s\" to %d byte(s) of script"), *It->GetName(), It->Script.Num());
+			}
+		}
+	}
+
+	/* Not new any more.
+	 *
+	 * A blueprint made from nothing is marked as just created, and the editor clears that the first
+	 * time somebody opens it after doing whatever it does for a blueprint nobody has seen yet. An
+	 * animation layer interface gets a layer made for it to start it off; others open on their
+	 * defaults with a function waiting to be named.
+	 *
+	 * One of these is made and saved without ever being opened, so the mark is still on it when it
+	 * reaches somebody, and they are offered a new layer for an asset that already has twenty-two.
+	 * It was new for as long as the import took, and the import is over. */
+	Blueprint->bIsNewlyCreated = false;
+
+	/* And never let one go without a class behind it.
+	 *
+	 * The editor asks whatever it is previewing whether it is one of these, and asks it of the
+	 * class the blueprint compiled to. Where there is no class it asks that of nothing and goes
+	 * down with it, which is what opening the asset does rather than anything the import says.
+	 *
+	 * Compiling is what makes the class, so anything still without one is compiled here. One that
+	 * cannot be made at all is said out loud, since the asset is going to be trouble either way. */
+	if (Blueprint->GeneratedClass == nullptr) {
+		CompileBlueprintGuarded(Blueprint, EBlueprintCompileOptions::SkipGarbageCollection);
+
+		if (Blueprint->GeneratedClass == nullptr) {
+			FImportIssues::Report(
+				EImportIssue::Failed,
+				TEXT("Nothing was made of the blueprint"),
+				FString::Printf(TEXT("'%s' compiled to no class at all. Opening it would take the editor down, so it is better deleted than kept."), *GetAssetName())
+			);
+		}
+	}
+
+	return Laid;
+}
+
+int32 IBlueprintImporter::MatchEventLayout() {
+	UEdGraph* EventGraph = FBlueprintGraphs::Events(Blueprint);
+
+	if (EventGraph == nullptr || AssetEntries.Num() == 0) return 0;
+
+	/* How close the compiled class is. Every event entered at the asset's address counts, the rest by
+	 * how far off they are, and every statement beginning where one of the asset's does counts too,
+	 * since the events can all land with the runs between them still written in another order. */
+	const auto Measure = [this](int32& OutLanded, int64& OutOff) {
+		OutLanded = 0;
+		OutOff = 0;
+
+		if (const UBlueprintGeneratedClass* Built = Cast<UBlueprintGeneratedClass>(Blueprint->GeneratedClass); Built != nullptr && Built->UberGraphFunction != nullptr && AssetUbergraphStatements.Num() > 0) {
+			FStringOutputDevice Written;
+			FKismetBytecodeDisassembler Disassembler(Written);
+			Disassembler.DisassembleStructure(Built->UberGraphFunction);
+
+			int32 Matched = 0;
+			int32 Seen = 0;
+			const FString Text = Written;
+
+			for (int32 At = Text.Find(TEXT("Label_0x")); At != INDEX_NONE; At = Text.Find(TEXT("Label_0x"), ESearchCase::CaseSensitive, ESearchDir::FromStart, At + 8)) {
+				const int32 Colon = Text.Find(TEXT(":"), ESearchCase::CaseSensitive, ESearchDir::FromStart, At);
+
+				if (Colon == INDEX_NONE) break;
+
+				const int32 Offset = FParse::HexNumber(*Text.Mid(At + 8, Colon - At - 8));
+
+				Seen++;
+
+				if (AssetUbergraphStatements.Contains(Offset)) Matched++;
+			}
+
+			/* Each statement out of place weighs as one event off by a little */
+			OutOff += (int64)(FMath::Max(Seen, AssetUbergraphStatements.Num()) - Matched) * 4;
+			OutLanded -= (Matched == AssetUbergraphStatements.Num() && Seen == Matched) ? 0 : 1;
+		}
+
+		const UBlueprintGeneratedClass* Compiled = Cast<UBlueprintGeneratedClass>(Blueprint->GeneratedClass);
+
+		if (Compiled == nullptr || Compiled->UberGraphFunction == nullptr) return;
+
+		for (const TPair<FName, int32>& Wanted : AssetEntries) {
+			const UFunction* Stub = Compiled->FindFunctionByName(Wanted.Key, EIncludeSuperFlag::ExcludeSuper);
+
+			/* The address an event's function passes is the literal handed to its call into the event
+			 * graph. The engine only keeps it beside the function for an event that takes nothing, so
+			 * it is read out of the script, where every event has it. */
+			int32 Entered = INDEX_NONE;
+
+			if (Stub != nullptr) {
+				const TArray<uint8>& Script = Stub->Script;
+				const int32 Span = 1 + sizeof(UFunction*) + 1 + sizeof(int32);
+
+				for (int32 At = 0; At + Span <= Script.Num(); ++At) {
+					if (Script[At] != EX_LocalFinalFunction && Script[At] != EX_FinalFunction) continue;
+
+					UFunction* Called = nullptr;
+					FMemory::Memcpy(&Called, &Script[At + 1], sizeof(UFunction*));
+
+					if (Called != Compiled->UberGraphFunction || Script[At + 1 + sizeof(UFunction*)] != EX_IntConst) continue;
+
+					FMemory::Memcpy(&Entered, &Script[At + 2 + sizeof(UFunction*)], sizeof(int32));
+
+					break;
+				}
+			}
+
+			if (Entered == INDEX_NONE) {
+				OutOff += 100000;
+			} else if (Entered == Wanted.Value) {
+				OutLanded++;
+			} else {
+				OutOff += FMath::Abs(Entered - Wanted.Value);
+			}
+		}
+	};
+
+	int32 BestLanded = 0;
+	int64 BestOff = 0;
+
+	Measure(BestLanded, BestOff);
+
+	const int32 Count = EventGraph->Nodes.Num();
+
+	/* Bounded, since every try is a compile. A large widget takes long enough to compile that a count
+	 * alone lets this run for minutes, so the clock caps it as well */
+	int32 Tries = 0;
+	const int32 MostTries = FMath::Max(400, Count * Count * 3);
+	const double GiveUpAt = FPlatformTime::Seconds() + 30.0;
+
+	bool bMoved = true;
+
+	while (bMoved && !(BestLanded == AssetEntries.Num() && BestOff == 0) && Tries < MostTries) {
+		bMoved = false;
+
+		for (int32 From = 0; From < Count && !(BestLanded == AssetEntries.Num() && BestOff == 0) && Tries < MostTries; ++From) {
+			/* A node moves on its own, and also with the pure nodes that feed it. What a pure node
+			 * works out is written where the schedule reaches it, and the schedule reaches it right
+			 * behind whatever it reads, so moving it alone leaves it where its inputs pull it. */
+			TArray<UEdGraphNode*> Block;
+
+			const TFunction<void(UEdGraphNode*)> Gather = [&Block, &Gather](UEdGraphNode* Node) {
+				if (Node == nullptr || Block.Contains(Node)) return;
+
+				Block.Add(Node);
+
+				for (const UEdGraphPin* Pin : Node->Pins) {
+					if (Pin == nullptr || Pin->Direction != EGPD_Input) continue;
+
+					for (const UEdGraphPin* From : Pin->LinkedTo) {
+						const UK2Node* Feeds = From != nullptr ? Cast<UK2Node>(From->GetOwningNode()) : nullptr;
+
+						if (Feeds != nullptr && Feeds->IsNodePure()) Gather(const_cast<UK2Node*>(Feeds));
+					}
+				}
+			};
+
+			Gather(EventGraph->Nodes[From]);
+
+			Block.Sort([EventGraph](const UEdGraphNode& One, const UEdGraphNode& Other) {
+				return EventGraph->Nodes.IndexOfByKey(&One) < EventGraph->Nodes.IndexOfByKey(&Other);
+			});
+
+			const int32 Ways = Block.Num() > 1 ? 2 : 1;
+
+			bool bTook = false;
+
+			for (int32 Way = 0; Way < Ways && !bTook; ++Way) {
+				TArray<UEdGraphNode*> Moving = Way == 0 ? TArray<UEdGraphNode*>{ EventGraph->Nodes[From] } : Block;
+
+				for (int32 To = 0; To < Count && Tries < MostTries; ++To) {
+					const auto Before = EventGraph->Nodes;
+
+					for (UEdGraphNode* Node : Moving) EventGraph->Nodes.Remove(Node);
+
+					const int32 Into = FMath::Min(To, EventGraph->Nodes.Num());
+
+					for (int32 Index = 0; Index < Moving.Num(); ++Index) {
+						EventGraph->Nodes.Insert(Moving[Index], Into + Index);
+					}
+
+					if (EventGraph->Nodes == Before) continue;
+
+					CompileBlueprintGuarded(Blueprint, EBlueprintCompileOptions::SkipGarbageCollection);
+					Tries++;
+
+					/* Out of time spends the rest of the budget, which ends every loop above */
+					if (FPlatformTime::Seconds() >= GiveUpAt) Tries = MostTries;
+
+					int32 Landed = 0;
+					int64 Off = 0;
+
+					Measure(Landed, Off);
+
+					if (Landed > BestLanded || (Landed == BestLanded && Off < BestOff)) {
+						BestLanded = Landed;
+						BestOff = Off;
+						bMoved = true;
+						bTook = true;
+
+						break;
+					}
+
+					/* No better, so everything goes back where it was */
+					EventGraph->Nodes = Before;
+				}
+			}
+		}
+	}
+
+	/* The class is left compiled from where the nodes ended up */
+	CompileBlueprintGuarded(Blueprint, EBlueprintCompileOptions::SkipGarbageCollection);
+
+	UE_LOG(LogReflection, Display, TEXT("laid the event graph out against the asset in %d compile(s)"), Tries);
+
+	return BestLanded;
+}
+
+int32 IBlueprintImporter::ConstructVariables() {
+	/* What the blueprint makes a property for on its own, which is not the same as what it declares.
+	 *
+	 * The construction script's components, the widget tree's widgets and a widget blueprint's
+	 * animations all get one when the blueprint compiles, even though the class writes them down
+	 * the same way it writes down
+	 * anything else. Declared as variables on top of that, the class carries two properties of one
+	 * name and whatever reads them by name gets the wrong one or stops on it. */
+	TSet<FString> Components = FBlueprintVariables::GetComponentVariables(GetContainer());
+
+	Components.Append(FBlueprintVariables::GetWidgetVariables(GetContainer()));
+
+	TArray<TSharedPtr<FJsonValue>> Declared;
+
+	/* A blueprint that declared nothing of its own declares nothing here either */
+	for (const TSharedPtr<FJsonValue>& Value : FBlueprintVariables::GetDeclared(GetAssetExport(), GetContainer())) {
+		const TSharedPtr<FJsonObject> Property = Value.IsValid() ? Value->AsObject() : nullptr;
+
+		FString Name;
+
+		if (Property.IsValid() && Property->TryGetStringField(TEXT("Name"), Name) && Components.Contains(Name)) continue;
+
+		Declared.Add(Value);
+	}
+
+	return FBlueprintVariables::Construct(Blueprint, Declared, GetContainer());
+}
+
+void IBlueprintImporter::ConstructScript() const {
+	if (!GetAssetDataAsValue().Has("SimpleConstructionScript")) return;
+	
+	UBlueprintGeneratedClass* GeneratedClass = Cast<UBlueprintGeneratedClass>(Blueprint->GeneratedClass);
+
+	/* Destroy Construction Script */
+	if (USimpleConstructionScript* PreviousSimpleConstructionScript = GeneratedClass->SimpleConstructionScript; PreviousSimpleConstructionScript != nullptr) {
+		for (USCS_Node* Node : PreviousSimpleConstructionScript->GetAllNodes()) {
+			MoveToTransientPackageAndRename(Node->ComponentTemplate);
+		}
+		
+		MoveToTransientPackagesAndRename({
+			PreviousSimpleConstructionScript,
+			Blueprint->SimpleConstructionScript
+		});
+
+		/* What the class was keeping for the old script goes with it.
+		 *
+		 * A template that has been moved out is still one the class says it keeps, and the engine
+		 * refuses a class outright when it says it keeps something kept somewhere else. Refused, it
+		 * never picks up the components the new script gives it, every node that reads one is left
+		 * pointing at nothing, and the run falls apart: which is why importing an asset a second
+		 * time comes back worse than importing it once. */
+		const auto Forget = [GeneratedClass](auto& Kept) {
+			Kept.RemoveAll([GeneratedClass](const auto& Component) {
+				return Component == nullptr || Component->GetOuter() != GeneratedClass;
+			});
+		};
+
+		Forget(Blueprint->ComponentTemplates);
+		Forget(GeneratedClass->ComponentTemplates);
+	}
+
+	FUObjectExport* Export = GetContainer()->GetExportByObjectPath(GetAssetDataAsValue().GetObject("SimpleConstructionScript"));
+
+	/* Spawn the new Construction Script */
+	USimpleConstructionScript* SimpleConstructionScript =
+		Cast<USimpleConstructionScript>(
+			GetObjectSerializer()->SpawnExport(Export)
+		);
+
+	UE_LOG(LogReflection, Display, TEXT("construction script: export %s, spawned %s, %d node(s)"),
+		Export != nullptr && Export->IsJsonValid() ? TEXT("found") : TEXT("MISSING"),
+		SimpleConstructionScript != nullptr ? TEXT("yes") : TEXT("NO"),
+		SimpleConstructionScript != nullptr ? SimpleConstructionScript->GetAllNodes().Num() : -1);
+
+	if (SimpleConstructionScript == nullptr) return;
+
+	/* Update SimpleConstructionScript on the Blueprint */
+	Blueprint->SimpleConstructionScript = SimpleConstructionScript;
+	GeneratedClass->SimpleConstructionScript = SimpleConstructionScript;
+
+	/* Engine Ensures */
+	SimpleConstructionScript->FixupRootNodeParentReferences();
+	SimpleConstructionScript->ValidateSceneRootNodes();
+
+	/* A node with nothing to copy is a component that never comes to exist.
+	 *
+	 * The template is an export of its own, and spawning it can come back with nothing where an
+	 * earlier import left an object still holding the name. Once that happens the class has no such
+	 * component, every node that reads one is left pointing at nothing, and the run falls apart:
+	 * which is why the same asset imported twice comes back right every other time.
+	 *
+	 * So a node left without one is given it outright: whatever holds the name is moved aside, and
+	 * the template is made where the class keeps it. */
+	/* Which of them a node has taken, so one template is never handed to two */
+	TSet<const FUObjectExport*> Spoken;
+
+	for (USCS_Node* Node : SimpleConstructionScript->GetAllNodes()) {
+		if (Node == nullptr || Node->ComponentTemplate != nullptr) continue;
+
+		FUObjectExport* Made = GetContainer()->Find(FName(*(Node->GetVariableName().ToString() + TEXT("_GEN_VARIABLE"))));
+
+		/* Named for the variable is only one of the ways a template is named. */
+		if (Made == nullptr || !Made->IsJsonValid()) {
+			Made = nullptr;
+
+			int32 Fits = 0;
+
+			const FString Kindly = Node->ComponentClass != nullptr ? Node->ComponentClass->GetName() : FString();
+
+			for (FUObjectExport* Held : GetContainer()->Exports) {
+				if (Held == nullptr || !Held->IsJsonValid() || Held->Object != nullptr || Kindly.IsEmpty()) continue;
+				if (Spoken.Contains(Held)) continue;
+
+				/* Asked of what the export says it is rather than of the class it resolves to. */
+				FString Says;
+
+				if (!Held->JsonObject->TryGetStringField(TEXT("Type"), Says) || Says != Kindly) continue;
+				if (Held->GetClass() != Node->ComponentClass) continue;
+
+				Made = Held;
+
+				Fits++;
+			}
+
+			if (Fits != 1) continue;
+		}
+
+		UClass* Kind = Made->GetClass();
+
+		if (Kind == nullptr || !Kind->IsChildOf(UActorComponent::StaticClass())) continue;
+
+		/* Kept under the name the asset gave it, since that is what everything else naming it says */
+		const FString Wanted = Made->GetName().ToString();
+
+		if (UObject* Holding = StaticFindObject(nullptr, GeneratedClass, *Wanted)) {
+			MoveToTransientPackageAndRename(Holding);
+		}
+
+		UActorComponent* Template = NewObject<UActorComponent>(GeneratedClass, Kind, *Wanted, RF_ArchetypeObject | RF_Public | RF_Transactional);
+
+		if (Template == nullptr) continue;
+
+		Made->Object = Template;
+
+		Spoken.Add(Made);
+
+		GetObjectSerializer()->DeserializeObjectProperties(Made->GetProperties(), Template);
+
+		Node->ComponentTemplate = Template;
+
+		UE_LOG(LogReflection, Display, TEXT("\"%s\" had no template of its own, so \"%s\" was made where the class keeps it"),
+			*Node->GetVariableName().ToString(), *Wanted);
+	}
+
+	/* A node the cook left without a name. */
+	{
+		TSet<FName> Taken;
+
+		TArray<USCS_Node*> Nameless;
+
+		for (USCS_Node* Node : SimpleConstructionScript->GetAllNodes()) {
+			if (Node == nullptr) continue;
+
+			if (Node->GetVariableName().IsNone()) {
+				Nameless.Add(Node);
+			} else {
+				Taken.Add(Node->GetVariableName());
+			}
+		}
+
+		for (USCS_Node* Node : Nameless) {
+			if (Node->ComponentClass == nullptr) continue;
+
+			FName Called = NAME_None;
+
+			int32 Fits = 0;
+
+			for (TFieldIterator<FObjectProperty> It(GeneratedClass, EFieldIteratorFlags::ExcludeSuper); It; ++It) {
+				if (!It->HasAnyPropertyFlags(CPF_InstancedReference)) continue;
+				if (It->PropertyClass != Node->ComponentClass) continue;
+				if (Taken.Contains(It->GetFName())) continue;
+
+				Called = It->GetFName();
+
+				Fits++;
+			}
+
+			if (Fits != 1) continue;
+
+			Node->SetVariableName(Called, false);
+
+			Taken.Add(Called);
+
+			UE_LOG(LogReflection, Display, TEXT("a %s the script names nothing is what \"%s\" holds, so that is what it is called"),
+				*Node->ComponentClass->GetName(), *Called.ToString());
+		}
+	}
+
+	for (const USCS_Node* Node : SimpleConstructionScript->GetAllNodes()) {
+		UE_LOG(LogReflection, Display, TEXT("  scs \"%s\" template %s kept by %s (class keeps %d, blueprint keeps %d)"),
+			*Node->GetVariableName().ToString(),
+			*GetNameSafe(Node->ComponentTemplate),
+			Node->ComponentTemplate != nullptr ? *GetNameSafe(Node->ComponentTemplate->GetOuter()) : TEXT("-"),
+			GeneratedClass->ComponentTemplates.Num(),
+			Blueprint->ComponentTemplates.Num());
+	}
+}
+
+class UWidgetTreeAccessor final : public UWidgetTree {
+public:
+
+#if ENGINE_UE5
+	TArray<TObjectPtr<UWidget>> GetWidgets() {
+#else
+	TArray<UWidget*> GetWidgets() {
+#endif
+		return AllWidgets;
+	}
+};
+
+namespace {
+	/* The event the compiler left behind under a given name */
+	UK2Node_CustomEvent* EventCalled(const UEdGraph* Graph, const FString& Called) {
+		for (UEdGraphNode* Held : Graph->Nodes) {
+			UK2Node_CustomEvent* Event = Cast<UK2Node_CustomEvent>(Held);
+
+			if (Event != nullptr && Event->CustomFunctionName == FName(*Called)) return Event;
+		}
+
+		return nullptr;
+	}
+
+	/* Puts one event where another stood, and hands on whatever came out of that one. */
+	void StandsFor(UEdGraph* Graph, UK2Node_Event* Made, UK2Node_CustomEvent* Stood) {
+		Made->NodePosX = Stood->NodePosX;
+		Made->NodePosY = Stood->NodePosY;
+
+		const UEdGraphSchema_K2* Schema = GetDefault<UEdGraphSchema_K2>();
+
+		for (UEdGraphPin* Was : Stood->Pins) {
+			if (Was == nullptr || Was->Direction != EGPD_Output || Was->LinkedTo.Num() == 0) continue;
+
+			UEdGraphPin* Now = Made->FindPin(Was->PinName, EGPD_Output);
+
+			if (Now == nullptr) continue;
+
+			for (UEdGraphPin* Next : TArray<UEdGraphPin*>(Was->LinkedTo)) Schema->TryCreateConnection(Now, Next);
+		}
+
+		Graph->RemoveNode(Stood);
+	}
+}
+
+/* An event one of a widget's animations runs, which is written out as a plain event and a note. */
+int32 IBlueprintImporter::ConstructAnimationEvents() {
+	UEdGraph* EventGraph = FBlueprintGraphs::Events(Blueprint);
+
+	if (EventGraph == nullptr || !GetAssetDataAsValue().Has(TEXT("DynamicBindingObjects"))) return 0;
+
+	const UWidgetBlueprint* Owns = Cast<UWidgetBlueprint>(Blueprint);
+	const UEnum* Actions = StaticEnum<EWidgetAnimationEvent>();
+
+	int32 Put = 0;
+
+	GetContainer()->ExportsLoop(GetAssetDataAsValue().GetArray(TEXT("DynamicBindingObjects")), [&](FUObjectExport* Binding) {
+		if (Binding->GetType() != TEXT("WidgetAnimationDelegateBinding")) return;
+
+		const FUObjectJsonValueExport Properties = Binding->GetPropertiesAsValue();
+
+		if (!Properties.Has(TEXT("WidgetAnimationDelegateBindings"))) return;
+
+		for (const FUObjectJsonValueExport& One : Properties.GetArray(TEXT("WidgetAnimationDelegateBindings"))) {
+			const FString Called = One.GetString(TEXT("FunctionNameToBind"));
+
+			if (Called.IsEmpty()) continue;
+
+			/* The event the compiler left behind for it */
+			UK2Node_CustomEvent* Stood = EventCalled(EventGraph, Called);
+
+			if (Stood == nullptr) continue;
+
+			UK2Node_WidgetAnimationEvent* Runs = NewObject<UK2Node_WidgetAnimationEvent>(EventGraph, UK2Node_WidgetAnimationEvent::StaticClass(), NAME_None, RF_Transactional);
+
+			EventGraph->AddNode(Runs, false, false);
+
+			Runs->CreateNewGuid();
+			Runs->PostPlacedNewNode();
+
+			/* Said before the pins are grown, since what the node is comes from these */
+			Runs->AnimationPropertyName = FName(*One.GetString(TEXT("AnimationToBind")));
+			Runs->UserTag = FName(*One.GetString(TEXT("UserTag")));
+			Runs->SourceWidgetBlueprint = Owns;
+			Runs->CustomFunctionName = FName(*Called);
+
+			/* Started or finished, named the long way round in the export */
+			if (FString Says = One.GetString(TEXT("Action")); !Says.IsEmpty() && Actions != nullptr) {
+				if (Says.Contains(TEXT("::"))) Says.Split(TEXT("::"), nullptr, &Says);
+
+				if (const int64 Which = Actions->GetValueByNameString(Says); Which != INDEX_NONE) {
+					Runs->Action = static_cast<EWidgetAnimationEvent>(Which);
+				}
+			}
+
+			Runs->AllocateDefaultPins();
+
+			StandsFor(EventGraph, Runs, Stood);
+
+			Put++;
+		}
+	});
+
+	if (Put > 0) {
+		UE_LOG(LogReflection, Display, TEXT("\"%s\" had %d event(s) that one of its animations runs"), *GetAssetName(), Put);
+	}
+
+	return Put;
+}
+
+/* An event one of the blueprint's own widgets or components runs, written out the same way. */
+int32 IBlueprintImporter::ConstructComponentEvents() {
+	UEdGraph* EventGraph = FBlueprintGraphs::Events(Blueprint);
+	UClass* Holds = Blueprint != nullptr ? Blueprint->GeneratedClass : nullptr;
+
+	if (EventGraph == nullptr || Holds == nullptr || !GetAssetDataAsValue().Has(TEXT("DynamicBindingObjects"))) return 0;
+
+	int32 Put = 0;
+
+	GetContainer()->ExportsLoop(GetAssetDataAsValue().GetArray(TEXT("DynamicBindingObjects")), [&](FUObjectExport* Binding) {
+		if (Binding->GetType() != TEXT("ComponentDelegateBinding")) return;
+
+		const FUObjectJsonValueExport Properties = Binding->GetPropertiesAsValue();
+
+		if (!Properties.Has(TEXT("ComponentDelegateBindings"))) return;
+
+		for (const FUObjectJsonValueExport& One : Properties.GetArray(TEXT("ComponentDelegateBindings"))) {
+			const FString Called = One.GetString(TEXT("FunctionNameToBind"));
+
+			if (Called.IsEmpty()) continue;
+
+			UK2Node_CustomEvent* Stood = EventCalled(EventGraph, Called);
+
+			if (Stood == nullptr) continue;
+
+			/* The variable it binds on, and the delegate that variable's own class declares */
+			const FString On = One.GetString(TEXT("ComponentPropertyName"));
+			const FString Delegate = One.GetString(TEXT("DelegatePropertyName"));
+
+			const FObjectProperty* Binds = FindFProperty<FObjectProperty>(Holds, *On);
+
+			const FMulticastDelegateProperty* Runs = Binds != nullptr && Binds->PropertyClass != nullptr
+				? FindFProperty<FMulticastDelegateProperty>(Binds->PropertyClass, *Delegate)
+				: nullptr;
+
+			/* Left as the plain event it arrived as, which still runs what it ran */
+			if (Binds == nullptr || Runs == nullptr) {
+				FImportIssues::Report(
+					EImportIssue::MissingClass,
+					FString::Printf(TEXT("\"%s\" could not be bound"), *Called),
+					FString::Printf(TEXT("The class binds it on \"%s\" to \"%s\", and this build has no %s of that name. The event was left as a plain one, so what it runs is still drawn, and nothing runs it."),
+						*On, *Delegate, Binds == nullptr ? TEXT("variable") : TEXT("delegate"))
+				);
+
+				continue;
+			}
+
+			UK2Node_ComponentBoundEvent* Made = NewObject<UK2Node_ComponentBoundEvent>(EventGraph, UK2Node_ComponentBoundEvent::StaticClass(), NAME_None, RF_Transactional);
+
+			EventGraph->AddNode(Made, false, false);
+
+			Made->CreateNewGuid();
+			Made->PostPlacedNewNode();
+
+			Made->InitializeComponentBoundEventParams(Binds, Runs);
+
+			/* Kept as the name the entry gives, which is the one the bytecode enters */
+			Made->CustomFunctionName = FName(*Called);
+
+			Made->AllocateDefaultPins();
+
+			StandsFor(EventGraph, Made, Stood);
+
+			Put++;
+		}
+	});
+
+	if (Put > 0) {
+		UE_LOG(LogReflection, Display, TEXT("\"%s\" had %d event(s) that one of its own widgets or components runs"), *GetAssetName(), Put);
+	}
+
+	return Put;
+}
+
+/* What a blueprint changed about a component it inherited rather than declared. */
+int32 IBlueprintImporter::ConstructOverriddenComponents() {
+	UBlueprintGeneratedClass* Made = Cast<UBlueprintGeneratedClass>(Blueprint != nullptr ? Blueprint->GeneratedClass : nullptr);
+
+	if (Made == nullptr || !GetAssetDataAsValue().Has(TEXT("InheritableComponentHandler"))) return 0;
+
+	FUObjectExport* Held = GetContainer()->GetExportByObjectPath(GetAssetDataAsValue().GetObject(TEXT("InheritableComponentHandler")));
+
+	if (Held == nullptr || !Held->IsJsonValid()) return 0;
+
+	const FUObjectJsonValueExport Kept = Held->GetPropertiesAsValue();
+
+	if (!Kept.Has(TEXT("Records"))) return 0;
+
+	UInheritableComponentHandler* Handler = Made->GetInheritableComponentHandler(true);
+
+	if (Handler == nullptr) return 0;
+
+	int32 Put = 0;
+
+	for (const FUObjectJsonValueExport& One : Kept.GetArray(TEXT("Records"))) {
+		const FString Named = One.GetObject(TEXT("ComponentKey")).GetString(TEXT("SCSVariableName"));
+
+		if (Named.IsEmpty()) continue;
+
+		/* The node the record means, looked for up the chain: the key is built from the node */
+		USCS_Node* Node = nullptr;
+
+		for (UClass* At = Made->GetSuperClass(); At != nullptr && Node == nullptr; At = At->GetSuperClass()) {
+			const UBlueprintGeneratedClass* Above = Cast<UBlueprintGeneratedClass>(At);
+
+			if (Above == nullptr || Above->SimpleConstructionScript == nullptr) continue;
+
+			Node = Above->SimpleConstructionScript->FindSCSNode(FName(*Named));
+		}
+
+		if (Node == nullptr) {
+			FImportIssues::Report(
+				EImportIssue::Data,
+				FString::Printf(TEXT("\"%s\" could not be overridden"), *Named),
+				TEXT("The class says it changes something about a component it inherited, and no class above it keeps a component of that name. What was changed is left at whatever the parent had.")
+			);
+
+			continue;
+		}
+
+		const FComponentKey Spot(Node);
+
+		/* One a previous import already made is the one to fill in again, rather than a second */
+		UActorComponent* Override = Handler->GetOverridenComponentTemplate(Spot);
+
+		if (Override == nullptr) {
+			Override = Handler->CreateOverridenComponentTemplate(Spot);
+		}
+
+		if (Override == nullptr) continue;
+
+		/* Filled in from the template the record names, which is where the changed values are */
+		FUObjectExport* Says = GetContainer()->GetExportByObjectPath(One.GetObject(TEXT("ComponentTemplate")));
+
+		if (Says == nullptr || !Says->IsJsonValid()) continue;
+
+		/* Said to be this one, so anything pointing at that export reaches what the class keeps */
+		Says->Object = Override;
+
+		GetObjectSerializer()->DeserializeObjectProperties(Says->GetProperties(), Override);
+
+		Put++;
+	}
+
+	if (Put > 0) {
+		UE_LOG(LogReflection, Display, TEXT("\"%s\" changes %d thing(s) about a component it inherited"), *GetAssetName(), Put);
+	}
+
+	return Put;
+}
+
+void IBlueprintImporter::ConstructWidgetTree() {
+	if (!GetAssetDataAsValue().Has("WidgetTree")) return;
+
+	UWidgetBlueprint* WidgetBlueprint = Cast<UWidgetBlueprint>(Blueprint);
+
+	/* Said to keep a tree and not a widget blueprint.
+	 *
+	 * What kind of blueprint gets made comes from the class it says it comes from, so a parent that
+	 * did not resolve leaves an ordinary blueprint holding an export that describes a widget. There
+	 * is nowhere to put a tree on one of those, and reaching for the place it would go is reaching
+	 * off nothing. */
+	if (WidgetBlueprint == nullptr || WidgetBlueprint->WidgetTree == nullptr) {
+		FImportIssues::Report(
+			EImportIssue::Data,
+			FString::Printf(TEXT("\"%s\" has widgets and is not a widget blueprint"), *GetAssetName()),
+			FString::Printf(
+				TEXT("The export describes a tree of widgets, and what was made for '%s' is a plain blueprint with nowhere to keep one. That is the class it says it comes from having read back as something that is not a widget. Everything else about it was imported and the widgets were left out."),
+				*GetAssetName()
+			)
+		);
+
+		return;
+	}
+
+	for (UWidget* Widget : Cast<UWidgetTreeAccessor>(WidgetBlueprint->WidgetTree)->GetWidgets()) {
+		MoveToTransientPackageAndRename(Widget);
+	}
+
+	WidgetBlueprint->WidgetTree->PostLoad();
+
+	for (UWidgetAnimation* WidgetAnimation : WidgetBlueprint->Animations) {
+		MoveToTransientPackageAndRename(WidgetAnimation);
+	}
+
+	WidgetBlueprint->Animations.Empty();
+	
+	FUObjectExport* ClassDefaultObjectExport = GetClassDefaultObject(GetContainer(), GetAssetDataAsValue());
+
+	/* Same as above: the empty export is shared, so a miss here must not be written to */
+	if (ClassDefaultObjectExport->IsJsonValid()) {
+		ClassDefaultObjectExport->Object = WidgetBlueprint;
+	}
+
+	SetAsset(WidgetBlueprint);
+
+	MoveToTransientPackageAndRename(WidgetBlueprint->WidgetTree->RootWidget);
+	WidgetBlueprint->WidgetTree->RootWidget = nullptr;
+
+	FUObjectExport* Export;
+
+	if (GetAssetDataAsValue().Has("TemplateAsset")) {
+		FUObjectExport* TemplateAsset = GetContainer()->GetExportByObjectPath(GetAssetDataAsValue().GetObject("TemplateAsset"));
+		Export = GetContainer()->GetExportByObjectPath(TemplateAsset->GetPropertiesAsValue().GetObject("WidgetTree"));
+	} else {
+		Export = GetContainer()->GetExportByObjectPath(GetAssetDataAsValue().GetObject("WidgetTree"));
+	}
+	
+	Export->Object = WidgetBlueprint->WidgetTree;
+	GetObjectSerializer()->SpawnExport(Export, true);
+
+	FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(WidgetBlueprint);
+
+	GetContainer()->ExportsLoop(GetAssetDataAsValue().GetArray("Animations"), [this, WidgetBlueprint](FUObjectExport* DirectExport) {
+		if (UObject* Object = GetObjectSerializer()->SpawnExport(DirectExport)) {
+			UWidgetAnimation* WidgetAnimation = Cast<UWidgetAnimation>(Object);
+
+			/* Not an animation, or one with nothing under it yet. */
+			if (WidgetAnimation == nullptr || WidgetAnimation->MovieScene == nullptr) {
+				FImportIssues::Report(
+					EImportIssue::Data,
+					FString::Printf(TEXT("\"%s\" is not an animation this can read"), *DirectExport->GetName().ToString()),
+					FString::Printf(
+						TEXT("The export named among the widget's animations came back as %s, and an animation is read through the movie scene it keeps. It was left out and the rest of the widget was imported."),
+						WidgetAnimation == nullptr ? TEXT("something that is not an animation") : TEXT("an animation with no movie scene"))
+				);
+
+				return;
+			}
+
+			WidgetBlueprint->Animations.Add(WidgetAnimation);
+
+			/* The engine finds possessables, spawnables and bindings by binary search on their GUIDs and only
+			 * sorts what was saved before they were kept sorted. A scene built here saves as current, so it
+			 * is sorted the way loading would have: left unsorted the bindings resolve to nothing. */
+			{
+				UMovieScene* SortedMovieScene = WidgetAnimation->MovieScene;
+				UClass* MovieSceneClass = UMovieScene::StaticClass();
+
+				if (const FArrayProperty* PossessablesProperty = FindFProperty<FArrayProperty>(MovieSceneClass, TEXT("Possessables"))) {
+					PossessablesProperty->ContainerPtrToValuePtr<TArray<FMovieScenePossessable>>(SortedMovieScene)->Sort(
+						[](const FMovieScenePossessable& Left, const FMovieScenePossessable& Right) { return Left.GetGuid() < Right.GetGuid(); });
+				}
+
+				if (const FArrayProperty* SpawnablesProperty = FindFProperty<FArrayProperty>(MovieSceneClass, TEXT("Spawnables"))) {
+					SpawnablesProperty->ContainerPtrToValuePtr<TArray<FMovieSceneSpawnable>>(SortedMovieScene)->Sort(
+						[](const FMovieSceneSpawnable& Left, const FMovieSceneSpawnable& Right) { return Left.GetGuid() < Right.GetGuid(); });
+				}
+
+				if (const FArrayProperty* BindingsProperty = FindFProperty<FArrayProperty>(MovieSceneClass, TEXT("ObjectBindings"))) {
+					BindingsProperty->ContainerPtrToValuePtr<TArray<FMovieSceneBinding>>(SortedMovieScene)->Sort(
+						[](const FMovieSceneBinding& Left, const FMovieSceneBinding& Right) { return Left.GetObjectGuid() < Right.GetObjectGuid(); });
+				}
+			}
+
+			for (int32 Index = 0; Index < WidgetAnimation->MovieScene->GetPossessableCount(); ++Index) {
+				FMovieScenePossessable& Possessable = WidgetAnimation->MovieScene->GetPossessable(Index);
+
+				TArray<UWidget*> Widgets;
+				WidgetBlueprint->WidgetTree->GetAllWidgets(Widgets);
+
+				for (UWidget* Widget : Widgets) {
+					if (Widget->GetName() == Possessable.GetName()) {
+#if ENGINE_UE5
+						Possessable.SetPossessedObjectClass(Widget->GetClass());
+#endif
+					}
+				}
+			}
+			
+			const UMovieScene* MovieScene = WidgetAnimation->MovieScene;
+			for (const FMovieSceneBinding& Binding : MovieScene->GetBindings()) {
+				for (UMovieSceneTrack* Track : Binding.GetTracks()) {
+					if (!Track)
+					{
+						continue;
+					}
+					
+					Track->Modify();
+					Track->MarkAsChanged();
+
+					if (UMovieSceneWidgetMaterialTrack* MaterialTrack = Cast<UMovieSceneWidgetMaterialTrack>(Track)) {
+						MaterialTrack->SetDisplayName(FText::FromString(MaterialTrack->GetBrushPropertyNamePath()[0].ToString()));
+					}
+				}
+			}
+		}
+	});
+
+	/* What the widgets were bound to in the designer. A widget blueprint rebuilds its runtime bindings
+	 * from this list every compile, so leaving it empty drops them all. A function binding is found
+	 * again by name, which is all the cooked one has. */
+	WidgetBlueprint->Bindings.Empty();
+
+	for (const FUObjectJsonValueExport& Entry : GetAssetDataAsValue().GetArray("Bindings")) {
+		const TSharedPtr<FJsonObject> Held = Entry.JsonObject;
+		if (!Held.IsValid()) continue;
+
+		FDelegateEditorBinding Binding;
+		Binding.ObjectName = Held->GetStringField(TEXT("ObjectName"));
+		Binding.PropertyName = FName(*Held->GetStringField(TEXT("PropertyName")));
+		Binding.FunctionName = FName(*Held->GetStringField(TEXT("FunctionName")));
+
+		FString Kind;
+		Held->TryGetStringField(TEXT("Kind"), Kind);
+		Binding.Kind = Kind.EndsWith(TEXT("Property")) ? EBindingKind::Property : EBindingKind::Function;
+
+		WidgetBlueprint->Bindings.Add(Binding);
+	}
+}
+namespace {
+	/* Every function the compiler bound to something rather than anybody writing it.
+	 *
+	 * An animation node that works its inputs out each frame is given a function to work them out
+	 * in, and the node says which one by name. Nobody wrote it and there is no graph it belongs to,
+	 * so it is read off the asset rather than recognised by what it is called. */
+	void Bound(const TSharedPtr<FJsonValue>& Value, TSet<FString>& Into) {
+		if (!Value.IsValid()) return;
+
+		if (Value->Type == EJson::Object) {
+			const TSharedPtr<FJsonObject> Object = Value->AsObject();
+
+			FString Named;
+
+			if (Object->TryGetStringField(TEXT("BoundFunction"), Named) && !Named.IsEmpty() && Named != TEXT("None")) {
+				Into.Add(Named);
+			}
+
+			for (const TPair<FString, TSharedPtr<FJsonValue>>& Field : Object->Values) Bound(Field.Value, Into);
+		} else if (Value->Type == EJson::Array) {
+			for (const TSharedPtr<FJsonValue>& Held : Value->AsArray()) Bound(Held, Into);
+		}
+	}
+
+	/* Whether a function is made of poses, which is what an animation graph is made of.
+	 *
+	 * A pose is not a value a graph hands about; it is the thing an animation graph is. A function
+	 * that takes one or hands one back was drawn as an animation graph rather than written as a
+	 * function, and what the class carries for it is not a graph to lay back out. */
+	bool Poses(const TArray<TSharedPtr<FJsonValue>>& Declared) {
+		for (const TSharedPtr<FJsonValue>& Value : Declared) {
+			const TSharedPtr<FJsonObject> Property = Value.IsValid() ? Value->AsObject() : nullptr;
+
+			if (!Property.IsValid()) continue;
+
+			const TSharedPtr<FJsonObject>* Struct;
+
+			if (!Property->TryGetObjectField(TEXT("Struct"), Struct)) continue;
+
+			FString Named;
+
+			/* Both the pose kinds end the same way, which is what says it is one */
+			if ((*Struct)->TryGetStringField(TEXT("ObjectName"), Named) && Named.EndsWith(TEXT("PoseLink'"))) return true;
+		}
+
+		return false;
+	}
+}
+
+void IBlueprintImporter::Answers(const FString& Owner, const FName Member, UEdGraphPin* Pin) {
+	if (Owner.IsEmpty() || Pin == nullptr) return;
+
+	Decides.Add(FDecided{ Owner, Member, Pin });
+}
+
+int32 IBlueprintImporter::ConstructGraphs() {
+	if (Blueprint == nullptr) return 0;
+
+	int32 Placed = 0;
+
+	/* Anything done to the blueprint that is not a node being laid out. A graph made, an event
+	 * written or taken back out is worth a compile on its own, since none of it reaches the class
+	 * the blueprint generates until one happens. */
+	int32 Changed = 0;
+
+	TArray<TSharedPtr<FBytecodeGraph>> Builders;
+
+	/* The events are laid out into the one graph they were all written in, so it is built last and
+	 * entered once per event rather than once */
+	/* Whether anything was made that the class does not know about yet */
+	bool bSignatures = false;
+
+	TSharedPtr<FBytecodeGraph> Ubergraph;
+	TArray<TPair<FString, FBlueprintGraphs::FWritten>> Events;
+
+	/* Where in the ubergraph each stretch that is a graph of its own begins */
+	TArray<int32> Handlers;
+
+	/* The ubergraph as it was read, since those stretches are laid out from it a second time */
+	TArray<FUObjectJsonValueExport> Ubergraphed;
+
+	/* Where each timeline picks its run back up, against the node and the way out of it */
+	TArray<TTuple<int32, TWeakObjectPtr<UK2Node>, FName>> Resumed;
+	TMap<FString, TArray<TSharedPtr<FJsonValue>>> Signatures;
+
+	/* What each event says about itself, which is where whether it runs on other machines is kept */
+	TMap<FString, FString> Said;
+
+	/* Which parameter each function is handed its world context through, where any is. The entry
+	 * node of a static function makes that pin itself, so declaring one as well leaves the function
+	 * taking it twice and the signature no longer matching what the script calls. */
+	const TMap<FString, FString> Contexts = FBlueprintCookedMetaData::WorldContexts(GetContainer());
+
+	/* Said once over the whole asset, since a node names its function wherever it happens to sit */
+	TSet<FString> Compilers;
+
+	for (const TSharedPtr<FJsonValue>& Value : GetContainer()->JsonObjects) {
+		Bound(Value, Compilers);
+	}
+
+	for (FUObjectExport* Export : GetContainer()->Exports) {
+		if (Export == nullptr || !Export->IsJsonValid()) continue;
+		if (Export->GetType() != TEXT("Function")) continue;
+		if (!Export->Has(TEXT("ScriptBytecode"))) continue;
+
+		const FString Name = Export->GetName().ToString();
+
+		/* The compiler's way into a stretch of the ubergraph, rather than a graph of its own.
+		 *
+		 * A node whose inputs have to be worked out is given a handler that does nothing but jump
+		 * into the ubergraph at the address its stretch begins. Read as a function it is a graph
+		 * named after the node's guid holding a single call; what is worth having is the address,
+		 * and which graph that stretch belongs to is settled once the ubergraph is known.
+		 *
+		 * Asked before anything else, since the node it was made for names it as the function it is
+		 * bound to, which is what the compiler's own are told apart by. */
+		if (Name.StartsWith(TEXT("EvaluateGraphExposedInputs"))) {
+			for (const FUObjectJsonValueExport& One : Export->GetArray(TEXT("ScriptBytecode"))) {
+				if (!One.Has(TEXT("Function")) || !One.Has(TEXT("Parameters"))) continue;
+
+				/* Told apart by what it calls rather than by how it calls it.
+				 *
+				 * The same jump is written as a plain call by one build and as a virtual one by
+				 * another, and a call is spelled either as a bare name or as a reference carrying
+				 * the class it is on. Read by the opcode, a build that spells it the other way has
+				 * no handlers at all and every stretch they would have accounted for is laid out
+				 * among the events instead, as a run of reads wired to nothing. */
+				FString Calls;
+
+				if (One.JsonObject.IsValid() && One.JsonObject->HasTypedField<EJson::String>(TEXT("Function"))) {
+					Calls = One.GetString(TEXT("Function"));
+				} else {
+					Calls = One.GetObject(TEXT("Function")).GetString(TEXT("ObjectName"));
+				}
+
+				if (!Calls.Contains(UEdGraphSchema_K2::FN_ExecuteUbergraphBase.ToString())) continue;
+
+				for (const FUObjectJsonValueExport& Parameter : One.GetArray(TEXT("Parameters"))) {
+					if (Parameter.GetString(TEXT("Token")) != TEXT("EX_IntConst")) continue;
+
+					Handlers.AddUnique(Parameter.GetInteger(TEXT("Value"), INDEX_NONE));
+				}
+			}
+
+			continue;
+		}
+
+		/* Written by the compiler for a node to work its inputs out in, rather than by anybody */
+		if (Compilers.Contains(Name)) continue;
+
+		const FUObjectJsonValueExport Function(Export->JsonObject);
+
+		/* What a dispatcher hands over is declared as a function of its own, and it is not one: */
+		if (Name.EndsWith(TEXT("__DelegateSignature")) && FBlueprintGraphs::Reads(Function).Kind != FBlueprintGraphs::EWritten::Event) continue;
+
+		/* What the function keeps of its own, and what it takes: an older asset writes both out as
+		 * exports of their own and names them from the function's Children rather than writing
+		 * them into it */
+		TArray<TSharedPtr<FJsonValue>> Declared = FBlueprintVariables::GetDeclared(Export->JsonObject, GetContainer());
+
+		TArray<FUObjectJsonValueExport> Locals;
+
+		for (const TSharedPtr<FJsonValue>& Local : Declared) {
+			Locals.Add(FUObjectJsonValueExport(Local));
+		}
+
+		/* Not everything the class carries was written as a function, and which it was is read from
+		 * the function rather than guessed from its name */
+		/* And drawn as an animation layer rather than written as a function.
+		 *
+		 * A blueprint that answers for a layer interface is given those graphs by the interface, so
+		 * making them here would be a second copy of each. An interface is where they are declared
+		 * in the first place, and skipping them there leaves it declaring nothing. */
+		if (Poses(Declared)) {
+			if (Blueprint->BlueprintType != BPTYPE_Interface) continue;
+
+			bool bHeld = false;
+
+			for (const UEdGraph* Held : Blueprint->FunctionGraphs) {
+				if (Held != nullptr && Held->GetName() == Name) bHeld = true;
+			}
+
+			if (!bHeld && FBlueprintGraphs::MakeLayer(Blueprint, Name, Declared) != nullptr) {
+				UE_LOG(LogReflection, Display, TEXT("layer \"%s\" declared"), *Name);
+
+				Changed++;
+			}
+
+			continue;
+		}
+
+		/* Handed the world it runs in, which the entry node asks for itself.
+		 *
+		 * A static function's entry node makes that pin whether or not anybody declared one, so a
+		 * function declaring it as well takes it twice and no longer answers to what calls it. The
+		 * metadata names it where the cook kept any; where it did not, the engine fixes the name,
+		 * and a static function is the only kind given one. */
+		FString Handing = Contexts.FindRef(Name);
+
+		if (Handing.IsEmpty() && Function.GetString(TEXT("FunctionFlags")).Contains(TEXT("FUNC_Static"))) {
+			/* Named by UK2Node_FunctionEntry, which keeps it to itself */
+			Handing = TEXT("__WorldContext");
+		}
+
+		if (const FString* Handed = Handing.IsEmpty() ? nullptr : &Handing) {
+			for (int32 At = Declared.Num() - 1; At >= 0; --At) {
+				const TSharedPtr<FJsonObject> Property = Declared[At].IsValid() ? Declared[At]->AsObject() : nullptr;
+
+				FString Called;
+
+				if (Property.IsValid() && Property->TryGetStringField(TEXT("Name"), Called) && Called == *Handed) {
+					Declared.RemoveAt(At);
+
+					UE_LOG(LogReflection, Display, TEXT("\"%s\" is handed the world through \"%s\", which its entry node asks for itself"), *Name, **Handed);
+				}
+			}
+		}
+
+		const FBlueprintGraphs::FWritten Written = FBlueprintGraphs::Reads(Function);
+
+		/* What a timeline calls as it plays reads as an event, and it is not one: nobody wrote it,
+		 * and what it runs was drawn coming out of the timeline. So it is taken as a way into the
+		 * ubergraph like an event is, entered through the timeline's own pin. */
+		if (const TPair<TWeakObjectPtr<UK2Node>, FName>* Resuming = Resumes.Find(FName(*Name))) {
+			if (Written.Kind == FBlueprintGraphs::EWritten::Event && Resuming->Key.IsValid()) {
+				Resumed.Emplace(Written.EntryPoint, Resuming->Key, Resuming->Value);
+			}
+
+			continue;
+		}
+
+		if (Written.Kind == FBlueprintGraphs::EWritten::Event) {
+			Signatures.Add(Name, Declared);
+			Said.Add(Name, Function.GetString(TEXT("FunctionFlags")));
+			Events.Add(TPair<FString, FBlueprintGraphs::FWritten>(Name, Written));
+
+			continue;
+		}
+
+		/* The graph it was written in, which a recreated blueprint has only where its parent gave
+		 * it one. Everything else the blueprint added has to be made again before it can be filled. */
+		UEdGraph* Graph = nullptr;
+
+		if (Written.Kind == FBlueprintGraphs::EWritten::Ubergraph) {
+			Graph = FBlueprintGraphs::Events(Blueprint);
+		} else {
+			TArray<UEdGraph*> Graphs;
+			Blueprint->GetAllGraphs(Graphs);
+
+			for (UEdGraph* Candidate : Graphs) {
+				if (Candidate != nullptr && Candidate->GetName() == Name) {
+					Graph = Candidate;
+
+					break;
+				}
+			}
+
+			/* Left alone where the graph is not one of these to lay out.
+			 *
+			 * A blueprint keeps graphs that were never written as statements: an animation graph is
+			 * a pose built out of nodes, and a state machine is a machine, and the class carries a
+			 * function for each of them all the same. Read as bytecode they come back as the little
+			 * the compiler left behind, and what was actually drawn is cleared away first.
+			 *
+			 * Which is which is the graph's own answer: a graph written as statements is an
+			 * ordinary one, and a graph that means something else brings a schema of its own to
+			 * say so. */
+			if (Graph != nullptr && Graph->GetSchema() != nullptr && Graph->GetSchema()->GetClass() != UEdGraphSchema_K2::StaticClass()) {
+				continue;
+			}
+
+			if (Graph == nullptr) {
+				Graph = FBlueprintGraphs::Make(Blueprint, Name, Function, Declared);
+
+				bSignatures = bSignatures || Graph != nullptr;
+
+				Changed++;
+			}
+		}
+
+		if (Graph == nullptr) {
+			FImportIssues::Report(
+				EImportIssue::MissingClass,
+				TEXT("No graph for a function the class carries"),
+				FString::Printf(TEXT("'%s' was cooked with bytecode, and no graph could be made to lay it back out in."), *Name)
+			);
+
+			continue;
+		}
+
+		TSharedPtr<FBytecodeGraph> Made = MakeShared<FBytecodeGraph>(
+			Graph,
+			Export->GetArray(TEXT("ScriptBytecode")),
+			Locals,
+			GetContainer()
+		);
+
+		Made->SetObjectSerializer(GetObjectSerializer());
+
+		/* Whatever the timelines hand out, said to every graph that might read it */
+		for (const TPair<FString, TPair<TWeakObjectPtr<UK2Node>, FName>>& Handout : Handouts) {
+			if (Handout.Value.Key.IsValid()) {
+				Made->HandOverTrack(Handout.Key, Handout.Value.Key.Get(), Handout.Value.Value);
+			}
+		}
+
+		if (Written.Kind == FBlueprintGraphs::EWritten::Ubergraph) {
+			Ubergraph = Made;
+			Ubergraphed = Export->GetArray(TEXT("ScriptBytecode"));
+
+			for (const FUObjectJsonValueExport& Statement : Ubergraphed) {
+				AssetUbergraphStatements.Add(Statement.GetInteger(TEXT("StatementIndex"), INDEX_NONE));
+			}
+		}
+
+		Builders.Add(Made);
+	}
+
+	/* The stretches of the ubergraph that were never drawn in the event graph.
+	 *
+	 * A transition rule is a graph of its own with its own result node, and the compiler writes it
+	 * into the ubergraph like everything else, entered only by the handler made for it. Laid out
+	 * with the events it lands among them as a run nothing reaches, ending in a node built to
+	 * stand for the result node the transition already has.
+	 *
+	 * Which stretch is which is not guessed: the handler names where it begins, the stretch runs to
+	 * the return that ends it, and what it sets on the way says whose it is. That last part is why
+	 * the node's guid in the handler's name is never needed it names an editor node, and nothing
+	 * cooked can be matched against one. */
+	TArray<TSharedPtr<FBytecodeGraph>> Rules;
+
+	UE_LOG(LogReflection, Display, TEXT("%d stretch(es) of the ubergraph are entered by a handler, and %d node member(s) are answered through a pin"), Handlers.Num(), Decides.Num());
+
+	if (Ubergraph.IsValid() && Handlers.Num() > 0 && Decides.Num() > 0) {
+		for (const int32 From : Handlers) {
+			if (From < 0) continue;
+
+			int32 At = INDEX_NONE;
+
+			for (int32 Index = 0; Index < Ubergraphed.Num(); ++Index) {
+				if (Ubergraphed[Index].GetInteger(TEXT("StatementIndex"), INDEX_NONE) == From) {
+					At = Index;
+
+					break;
+				}
+			}
+
+			if (At == INDEX_NONE) continue;
+
+			/* How far the stretch runs, which is only knowable while it runs straight.
+			 *
+			 * A stretch is a run of statements one after another, ending in the write that says
+			 * what it was worked out for. That holds only while nothing jumps: the compiler is free
+			 * to put the working out anywhere and jump to it, and where it does, the statements
+			 * after the address belong to whatever happened to be written next.
+			 *
+			 * Read as though it ran straight regardless, a stretch that begins with a jump swallows
+			 * everything to the end of the ubergraph so every graph it is laid into gets almost
+			 * the whole blueprint, and everything it is left out of loses it. Better to leave a
+			 * stretch where it was written than to take the wrong half of the graph with it. */
+			int32 To = INDEX_NONE;
+
+			const FDecided* Into = nullptr;
+
+			for (int32 Index = At; Index < Ubergraphed.Num(); ++Index) {
+				const FUObjectJsonValueExport& One = Ubergraphed[Index];
+
+				const FString Token = One.GetString(TEXT("Token"));
+
+				/* Where it stops running straight, there is no telling what is still its own */
+				if (Token == TEXT("EX_Jump") || Token == TEXT("EX_JumpIfNot") || Token == TEXT("EX_ComputedJump")
+					|| Token == TEXT("EX_PushExecutionFlow") || Token == TEXT("EX_PopExecutionFlow")
+					|| Token == TEXT("EX_PopExecutionFlowIfNot")) {
+					break;
+				}
+
+				/* What it sets, where what it sets is a member of something the class carries */
+				const FUObjectJsonValueExport Variable = One.GetObject(TEXT("Variable"));
+
+				if (Variable.GetString(TEXT("Token")) == TEXT("EX_StructMemberContext")) {
+					FString Owner, Member;
+
+					ReadStructMemberContext(Variable, Owner, Member);
+
+					for (const FDecided& Says : Decides) {
+						if (Says.Owner == Owner && Says.Member == FName(*Member)) {
+							Into = &Says;
+
+							/* The write is the end of it, and nothing past it was worked out here */
+							To = One.GetInteger(TEXT("StatementIndex"), INDEX_NONE);
+
+							break;
+						}
+					}
+				}
+
+				if (Into != nullptr) break;
+
+				if (Token == TEXT("EX_Return") || Token == TEXT("EX_EndOfScript")) break;
+			}
+
+			if (To == INDEX_NONE || To < From) continue;
+
+			if (Into == nullptr || Into->Pin == nullptr || Into->Pin->GetOwningNode() == nullptr) continue;
+
+			UEdGraph* Rule = Into->Pin->GetOwningNode()->GetGraph();
+
+			if (Rule == nullptr) continue;
+
+			TSharedPtr<FBytecodeGraph> Made = MakeShared<FBytecodeGraph>(
+				Rule,
+				Ubergraphed,
+				TArray<FUObjectJsonValueExport>(),
+				GetContainer()
+			);
+
+			Made->SetObjectSerializer(GetObjectSerializer());
+
+			Made->Only(From, To);
+			Made->HandsInto(Into->Owner, Into->Member, Into->Pin);
+
+			/* And out of the events, where it was never written */
+			Ubergraph->LeaveOut(From, To);
+
+			Rules.Add(Made);
+
+			UE_LOG(LogReflection, Display, TEXT("%d..%d decides '%s.%s', so it is laid out in '%s' rather than among the events"),
+				From, To, *Into->Owner, *Into->Member.ToString(), *Rule->GetName());
+		}
+	}
+
+	/* What only the compiler's own way in ever reaches.
+	 *
+	 * Everything a blueprint runs is written into the one ubergraph, and not all of it was written
+	 * by anybody: an input worked out for an animation node goes in there too, reached only by the
+	 * handler made for it and by nothing an event can get to. Laid out with the rest, it comes back
+	 * as reads and arithmetic standing among the events, attached to nothing anyone wrote.
+	 *
+	 * Which statements those are cannot be read off an address: the compiler puts a stretch
+	 * wherever it likes and jumps to it, so a stretch is not the run of statements after its own
+	 * address. What does say is where the run can get to so the run is followed, from the events
+	 * and from the handlers separately, and what only a handler reaches is left out.
+	 *
+	 * Taken that way round on purpose. Missing something a handler reaches leaves a little of its
+	 * working out lying about, which is untidy; mistaking something an event reaches for a
+	 * handler's would take a piece of the blueprint with it, so anything both can reach is kept. */
+	if (Ubergraph.IsValid() && Handlers.Num() > 0 && Ubergraphed.Num() > 0) {
+		TMap<int32, int32> Where;
+
+		for (int32 Index = 0; Index < Ubergraphed.Num(); ++Index) {
+			Where.Add(Ubergraphed[Index].GetInteger(TEXT("StatementIndex"), INDEX_NONE), Index);
+		}
+
+		const auto Follow = [&Where, &Ubergraphed](const int32 From, TSet<int32>& Into) {
+			TArray<int32> Waiting;
+			Waiting.Add(From);
+
+			while (Waiting.Num() > 0) {
+				int32 At = Waiting.Pop();
+
+				while (const int32* Index = Where.Find(At)) {
+					const FUObjectJsonValueExport& One = Ubergraphed[*Index];
+
+					if (Into.Contains(At)) break;
+
+					Into.Add(At);
+
+					const FString Token = One.GetString(TEXT("Token"));
+
+					/* Where it goes, and where it may go as well as carrying on */
+					if (Token == TEXT("EX_Jump")) {
+						At = One.GetInteger(TEXT("CodeOffset"), INDEX_NONE);
+
+						continue;
+					}
+
+					if (Token == TEXT("EX_JumpIfNot")) {
+						Waiting.Add(One.GetInteger(TEXT("CodeOffset"), INDEX_NONE));
+					} else if (Token == TEXT("EX_PushExecutionFlow")) {
+						Waiting.Add(One.GetInteger(TEXT("PushingAddress"), INDEX_NONE));
+					} else if (Token == TEXT("EX_Return") || Token == TEXT("EX_EndOfScript")
+						|| Token == TEXT("EX_PopExecutionFlow") || Token == TEXT("EX_ComputedJump")) {
+						break;
+					}
+
+					/* Otherwise it carries on to whatever was written next */
+					if (!Ubergraphed.IsValidIndex(*Index + 1)) break;
+
+					At = Ubergraphed[*Index + 1].GetInteger(TEXT("StatementIndex"), INDEX_NONE);
+				}
+			}
+		};
+
+		TSet<int32> Written;
+		TSet<int32> Worked;
+
+		for (const TPair<FString, FBlueprintGraphs::FWritten>& Event : Events) {
+			Follow(Event.Value.EntryPoint, Written);
+		}
+
+		for (const TTuple<int32, TWeakObjectPtr<UK2Node>, FName>& Resuming : Resumed) {
+			Follow(Resuming.Get<0>(), Written);
+		}
+
+		for (const int32 One : Handlers) {
+			Follow(One, Worked);
+		}
+
+		int32 Left = 0;
+
+		for (const int32 One : Worked) {
+			if (Written.Contains(One)) continue;
+
+			Ubergraph->LeaveOutAt(One);
+
+			Left++;
+		}
+
+		UE_LOG(LogReflection, Display, TEXT("%d statement(s) of the ubergraph are the compiler's own working out, and are left out of the events"), Left);
+	}
+
+	/* The delegates the blueprint declares.
+	 *
+	 * A dispatcher is neither a variable nor a function: it is a delegate other things bind to, and
+	 * the class carries it among its properties while what it hands over is declared as a function
+	 * named after it. Without it, everything that binds to one or broadcasts one is pointing at a
+	 * delegate the class does not have. */
+	for (const TSharedPtr<FJsonValue>& Value : FBlueprintVariables::GetDeclared(GetAssetExport(), GetContainer())) {
+		const TSharedPtr<FJsonObject> Property = Value.IsValid() ? Value->AsObject() : nullptr;
+
+		if (!Property.IsValid()) continue;
+
+		FString Kind;
+
+		if (!Property->TryGetStringField(TEXT("Type"), Kind)) continue;
+		if (!Kind.StartsWith(TEXT("Multicast")) || !Kind.EndsWith(TEXT("DelegateProperty"))) continue;
+
+		FString Named;
+
+		if (!Property->TryGetStringField(TEXT("Name"), Named) || Named.IsEmpty()) continue;
+
+		FUObjectExport* Signature = GetContainer()->Find(FName(*(Named + TEXT("__DelegateSignature"))));
+
+		const TArray<TSharedPtr<FJsonValue>> Hands = Signature != nullptr && Signature->IsJsonValid()
+			? FBlueprintVariables::GetDeclared(Signature->JsonObject, GetContainer())
+			: TArray<TSharedPtr<FJsonValue>>();
+
+		const bool bMade = FBlueprintGraphs::MakeDispatcher(Blueprint, Named, Hands) != nullptr;
+
+		UE_LOG(LogReflection, Display, TEXT("dispatcher \"%s\": signature %s, %d handed over, made %s"),
+			*Named,
+			Signature != nullptr && Signature->IsJsonValid() ? TEXT("found") : TEXT("MISSING"),
+			Hands.Num(),
+			bMade ? TEXT("yes") : TEXT("NO"));
+
+		if (bMade) bSignatures = true;
+	}
+
+	/* Every event is a way into the ubergraph, at the address its own function passes along */
+	if (Ubergraph.IsValid()) {
+		UEdGraph* EventGraph = FBlueprintGraphs::Events(Blueprint);
+
+		TSet<FString> Written;
+		TArray<TPair<int32, UEdGraphNode*>> EnteredInOrder;
+
+		for (const TPair<FString, FBlueprintGraphs::FWritten>& Event : Events) {
+			UK2Node* Node = FBlueprintGraphs::MakeEvent(Blueprint, EventGraph, Event.Key, Signatures.FindRef(Event.Key));
+
+			bSignatures = bSignatures || Node != nullptr;
+
+			if (Node == nullptr) continue;
+
+			EnteredInOrder.Add(TPair<int32, UEdGraphNode*>(Event.Value.EntryPoint, Node));
+
+			/* Sent where the asset said it was sent. An event somebody made is run where it was
+			 * called unless it was marked to go to the server, an owning client or everyone, and
+			 * read back without that mark it quietly stops reaching anywhere but here. */
+			if (UK2Node_CustomEvent* Custom = Cast<UK2Node_CustomEvent>(Node)) {
+				const FString& Flags = Said.FindRef(Event.Key);
+
+				/* Named rather than braced, which is what the pair's own constructor asks for */
+				const TPair<const TCHAR*, EFunctionFlags> Marks[] = {
+					TPair<const TCHAR*, EFunctionFlags>(TEXT("FUNC_NetMulticast"), FUNC_NetMulticast),
+					TPair<const TCHAR*, EFunctionFlags>(TEXT("FUNC_NetServer"), FUNC_NetServer),
+					TPair<const TCHAR*, EFunctionFlags>(TEXT("FUNC_NetClient"), FUNC_NetClient),
+					TPair<const TCHAR*, EFunctionFlags>(TEXT("FUNC_NetReliable"), FUNC_NetReliable),
+				};
+
+				for (const TPair<const TCHAR*, EFunctionFlags>& Mark : Marks) {
+					if (Flags.Contains(Mark.Key)) Custom->FunctionFlags |= Mark.Value;
+				}
+
+				if (Custom->FunctionFlags & FUNC_NetFuncFlags) Custom->FunctionFlags |= FUNC_Net;
+			}
+
+			Written.Add(Event.Key);
+
+			Changed++;
+
+			Ubergraph->EnterAt(Event.Value.EntryPoint, Node);
+			Ubergraph->SitsAt(Event.Value.EntryPoint, Node);
+			AssetEntries.Add(FName(*Event.Key), Event.Value.EntryPoint);
+
+			for (const TPair<FString, FString>& Given : Event.Value.Frame) {
+				Ubergraph->HandOver(Given.Key, Given.Value, Node);
+			}
+		}
+
+		/* Laid out in the order the asset enters them. The compiler writes each event's run in the order
+		 * its node sits in the graph, so made in any other order the same code comes back arranged
+		 * differently and a run the asset fell into takes a jump instead. */
+		if (EventGraph != nullptr) {
+			EnteredInOrder.StableSort([](const TPair<int32, UEdGraphNode*>& One, const TPair<int32, UEdGraphNode*>& Other) {
+				return One.Key < Other.Key;
+			});
+
+			for (int32 Index = EnteredInOrder.Num() - 1; Index >= 0; --Index) {
+				UEdGraphNode* Node = EnteredInOrder[Index].Value;
+
+				if (EventGraph->Nodes.Remove(Node) > 0) {
+					EventGraph->Nodes.Insert(Node, 0);
+				}
+			}
+		}
+
+		for (const TTuple<int32, TWeakObjectPtr<UK2Node>, FName>& Resuming : Resumed) {
+			if (!Resuming.Get<1>().IsValid()) continue;
+
+			Ubergraph->EnterAt(Resuming.Get<0>(), Resuming.Get<1>().Get(), Resuming.Get<2>());
+
+			Changed++;
+		}
+
+		/* What the editor puts in a new blueprint to be helpful: a node for each of the events its
+		 * parent offers most often, sat there waiting to be used. An event node compiles to an
+		 * event whether or not anything runs from it, so leaving one the game's class never carried
+		 * would put a function in the class that was never there. */
+		Changed += FBlueprintGraphs::RemoveUnwrittenEvents(EventGraph, Written);
+	} else if (Events.Num() > 0) {
+		FImportIssues::Report(
+			EImportIssue::MissingClass,
+			TEXT("Events with nowhere to lay them out"),
+			FString::Printf(TEXT("%d event(s) were cooked with bytecode, and the class carries no ubergraph holding their bodies."), Events.Num())
+		);
+	}
+
+	/* Everything the functions keep of their own is declared first and settled with a compile, since
+	 * declaring one lays the graph out again and would undo anything already placed */
+	/* Emptied before anything is settled, so what is compiled below is these graphs as they are
+	 * about to be written and not as the run before left them */
+	for (const TSharedPtr<FBytecodeGraph>& Builder : Builders) {
+		Builder->Clear();
+	}
+
+	/* A stretch never clears the graph it lays into.
+	 *
+	 * Clearing is what a graph does to itself before it is written: everything in it came from the
+	 * last run and is about to be written again. A stretch is not that it is a run of statements
+	 * being laid into a graph that belongs to something else and is already full of it.
+	 *
+	 * Cleared anyway, the first stretch to land in a graph empties it: an animation graph loses
+	 * every pose and every node in it, and what is left is the reads that stretch was made of,
+	 * standing in an empty graph. Whoever owns the graph has already emptied it if it needed
+	 * emptying. */
+
+	int32 Declared = 0;
+
+	for (const TSharedPtr<FBytecodeGraph>& Builder : Builders) {
+		Declared += Builder->DeclareLocals();
+	}
+
+	/* Settled before anything is laid out.
+	 *
+	 * A call to one of these is laid out from the function's signature as the class carries it, and
+	 * what a graph says its function takes and gives back only reaches the class when the blueprint
+	 * is compiled. Laid out before that, every call comes back without the pins for whatever the
+	 * function was given or hands back, and the reader has to refresh the node by hand to see them. */
+	/* Settled before the compile, over every animation graph the blueprint holds.
+	 *
+	 * An animation graph answers through exactly one output pose, and the compiler does not report
+	 * a graph that does not: it asserts, and takes the editor with it. It asserts in three separate
+	 * places, one of which is reached only while conforming a layer to the interface that declares
+	 * it, so a graph nothing here ever touched can still be the one that stops it.
+	 *
+	 * Which is why this is done here rather than where the graphs are filled in. The compile is
+	 * what cannot survive the wrong shape, so the shape is settled on the way into it. */
+	{
+		TArray<UEdGraph*> Every;
+		Blueprint->GetAllGraphs(Every);
+
+		for (UEdGraph* One : Every) {
+			if (One == nullptr || ExactCast<UAnimationGraphSchema>(One->GetSchema()) == nullptr) continue;
+
+			TArray<UAnimGraphNode_Root*> Poses;
+			One->GetNodesOfClass<UAnimGraphNode_Root>(Poses);
+
+			if (Poses.Num() == 1) continue;
+
+			if (Poses.Num() == 0) {
+				One->GetSchema()->CreateDefaultNodesForGraph(*One);
+
+				UE_LOG(LogReflection, Warning, TEXT("\"%s\" had no output pose, so it was given one"), *One->GetName());
+
+				continue;
+			}
+
+			/* Whichever one something was built into, since one with nothing feeding it answers
+			 * nothing and only the compiler would ever notice the difference */
+			const auto IsFed = [](const UAnimGraphNode_Root* Pose) {
+				for (const UEdGraphPin* Pin : Pose->Pins) {
+					if (Pin != nullptr && Pin->LinkedTo.Num() > 0) return true;
+				}
+
+				return false;
+			};
+
+			int32 Kept = 0;
+
+			for (int32 At = 1; At < Poses.Num(); ++At) {
+				if (IsFed(Poses[At]) && !IsFed(Poses[Kept])) Kept = At;
+			}
+
+			for (int32 At = Poses.Num() - 1; At >= 0; --At) {
+				if (At != Kept) One->RemoveNode(Poses[At]);
+			}
+
+			UE_LOG(LogReflection, Warning, TEXT("\"%s\" had %d output poses, so it was left with the one that answers"), *One->GetName(), Poses.Num());
+		}
+	}
+
+	/* Always, and not only where something new was made.
+	 *
+	 * Every node is laid out from what the class carries: a call from its signature, a variable read
+	 * from the property behind it. The construction script hands the class its components, the
+	 * graphs hand it their signatures, and neither reaches it until it is compiled.
+	 *
+	 * Made conditional, a second import of the same asset finds its graphs already there, compiles
+	 * nothing, and lays every node out against a class that has not caught up: the same asset comes
+	 * back differently depending on what the run before it left behind. */
+	{
+		/* Const correctness is a check the editor makes, not something cooked into the asset. A const function
+		 * that calls one of the blueprint's own non-const functions compiled for the build it came from, which
+		 * an older asset does with only a warning, and the cook keeps no trace of which kind it was. Enforced
+		 * here, the call is an error and the whole blueprint compiles to empty functions. */
+		TArray<UK2Node_FunctionEntry*> Entries;
+		for (UEdGraph* Function : Blueprint->FunctionGraphs) {
+			if (Function != nullptr) Function->GetNodesOfClass<UK2Node_FunctionEntry>(Entries);
+		}
+		for (UK2Node_FunctionEntry* Entry : Entries) {
+			Entry->bEnforceConstCorrectness = false;
+		}
+
+		CompileBlueprintGuarded(Blueprint, EBlueprintCompileOptions::SkipGarbageCollection);
+	}
+
+	for (const TSharedPtr<FBytecodeGraph>& Builder : Builders) {
+		Placed += Builder->Build();
+	}
+
+	/* Laid out last, since a rule reads what the ubergraph works out and the graph it belongs to
+	 * only holds the node it answers through */
+	for (const TSharedPtr<FBytecodeGraph>& Rule : Rules) {
+		Placed += Rule->Build();
+	}
+
+	return Placed + Changed;
+}
+
+int32 IBlueprintImporter::ConstructTimelines() {
+	if (Blueprint == nullptr) return 0;
+
+	UEdGraph* Events = FBlueprintGraphs::Events(Blueprint);
+
+	int32 Made = 0;
+
+	for (FUObjectExport* Export : GetContainer()->Exports) {
+		if (Export == nullptr || !Export->IsJsonValid()) continue;
+		if (Export->GetType() != TEXT("TimelineTemplate")) continue;
+
+		const FUObjectJsonValueExport Held(Export->GetProperties());
+
+		/* What the node is called. The template beside it is named after the same thing with a
+		 * suffix the engine puts on, so the name to build from is the one written inside. */
+		const bool bNamesItself = Held.Has(TEXT("VariableName"));
+		FString Called = bNamesItself ? Held.GetString(TEXT("VariableName")) : FString();
+
+		/* Older templates never wrote it down: the engine worked it out from the template's own
+		 * name each time, by taking the same suffix back off. The suffix is spelled out because
+		 * UTimelineTemplate::TemplatePostfix, which holds it, is not exported to plugins. */
+		if (Called.IsEmpty()) {
+			Called = Export->GetName().ToString();
+			Called.RemoveFromEnd(TEXT("_Template"));
+		}
+
+		if (Called.IsEmpty()) continue;
+
+		UTimelineTemplate* Template = Blueprint->FindTimelineTemplateByVariableName(FName(*Called));
+
+		if (Template == nullptr) {
+			Template = FBlueprintEditorUtils::AddNewTimeline(Blueprint, FName(*Called));
+		}
+
+		if (Template == nullptr) continue;
+
+		Export->Object = Template;
+
+		/* The curves first, and made here rather than fetched.
+		 *
+		 * A track names its curve, and the curve is kept inside this same asset rather than being
+		 * an asset of its own. Left to be resolved as an ordinary reference it is looked for in the
+		 * project, not found, and asked of the cloud by the path it sits at, which is the path of
+		 * the blueprint being imported: the import starts again from the top, reaches this same
+		 * line, and does it all over until the stack gives out. Made first, the reference is
+		 * answered from memory and never leaves. */
+		for (FUObjectExport* Curve : GetContainer()->Exports) {
+			if (Curve == nullptr || !Curve->IsJsonValid() || Curve->Object != nullptr) continue;
+			if (!Curve->GetType().ToString().StartsWith(TEXT("Curve"))) continue;
+
+			GetObjectSerializer()->SpawnExport(Curve);
+		}
+
+		/* Said whole rather than field by field. How long it runs, whether it loops, every track
+		 * and the curve behind it, and the names of the two functions it calls are all written out
+		 * beside it, and reading them one by one here would only be a shorter list than the one the
+		 * engine already knows how to fill in. */
+		GetObjectSerializer()->DeserializeObjectProperties(Export->GetProperties(), Template);
+
+		/* An older template keeps none of the names worked out from its own: the direction, the two
+		 * functions it calls and the property each track writes to. Each is built from the
+		 * timeline's name and the guid just read, so they are worked out again now, the way the
+		 * engine does when a template is pasted in, and the script's reads of them line up. */
+		if (!bNamesItself) {
+			Template->PostEditImport();
+		}
+
+		/* The order the tracks are shown in, which the cook does not keep.
+		 *
+		 * A timeline node grows one pin per track, and it reads them off this order rather than off
+		 * the tracks themselves. The order is editor-only data, so a cooked template arrives with
+		 * every track intact and nothing saying how to show them: the node comes back with its ways
+		 * in and out and not one of its tracks. Put back in the order the tracks are kept in, which
+		 * is the order they were added. */
+/* 4.26 is where a timeline template started keeping this order at all. Before it the node
+ * grows its pins from the track arrays themselves, so a cooked template needs nothing put
+ * back. */
+#if !UE4_25_BELOW
+		if (Template->GetNumDisplayTracks() == 0) {
+			for (int32 Index = 0; Index < Template->EventTracks.Num(); ++Index) {
+				Template->AddDisplayTrack(FTTTrackId(FTTTrackBase::TT_Event, Index));
+			}
+
+			for (int32 Index = 0; Index < Template->FloatTracks.Num(); ++Index) {
+				Template->AddDisplayTrack(FTTTrackId(FTTTrackBase::TT_FloatInterp, Index));
+			}
+
+			for (int32 Index = 0; Index < Template->VectorTracks.Num(); ++Index) {
+				Template->AddDisplayTrack(FTTTrackId(FTTTrackBase::TT_VectorInterp, Index));
+			}
+
+			for (int32 Index = 0; Index < Template->LinearColorTracks.Num(); ++Index) {
+				Template->AddDisplayTrack(FTTTrackId(FTTTrackBase::TT_LinearColorInterp, Index));
+			}
+		}
+#endif
+
+		/* And the node that starts it, which is what somebody actually drew */
+		if (Events != nullptr) {
+			UK2Node_Timeline* Node = nullptr;
+
+			for (UEdGraphNode* Sat : Events->Nodes) {
+				if (UK2Node_Timeline* Already = Cast<UK2Node_Timeline>(Sat); Already != nullptr && Already->TimelineName == FName(*Called)) {
+					Node = Already;
+
+					break;
+				}
+			}
+
+			if (Node == nullptr) {
+				Node = NewObject<UK2Node_Timeline>(Events, UK2Node_Timeline::StaticClass(), NAME_None, RF_Transactional);
+
+				Events->AddNode(Node, false, false);
+
+				Node->CreateNewGuid();
+				Node->PostPlacedNewNode();
+			}
+
+			Node->TimelineName = FName(*Called);
+			Node->bAutoPlay = Template->bAutoPlay;
+			Node->bLoop = Template->bLoop;
+			Node->bReplicated = Template->bReplicated;
+			Node->bIgnoreTimeDilation = Template->bIgnoreTimeDilation;
+			Node->TimelineGuid = Template->TimelineGuid;
+
+			/* Laid out from the template, since its pins are one per track */
+			Node->ReconstructNode();
+
+			/* And said, so the script's reads of each track land on the pin it was drawn as rather
+			 * than on the property the timeline keeps it in */
+			for (const FTTFloatTrack& Track : Template->FloatTracks) {
+				Handouts.Add(Track.GetPropertyName().ToString(), TPair<TWeakObjectPtr<UK2Node>, FName>(Node, Track.GetTrackName()));
+			}
+
+			for (const FTTVectorTrack& Track : Template->VectorTracks) {
+				Handouts.Add(Track.GetPropertyName().ToString(), TPair<TWeakObjectPtr<UK2Node>, FName>(Node, Track.GetTrackName()));
+			}
+
+			for (const FTTLinearColorTrack& Track : Template->LinearColorTracks) {
+				Handouts.Add(Track.GetPropertyName().ToString(), TPair<TWeakObjectPtr<UK2Node>, FName>(Node, Track.GetTrackName()));
+			}
+
+			Handouts.Add(Template->GetDirectionPropertyName().ToString(), TPair<TWeakObjectPtr<UK2Node>, FName>(Node, TEXT("Direction")));
+
+			/* And what it calls as it plays. A timeline runs those two the way an event is run,
+			 * so each is a way into the ubergraph, entered through the pin it stands for rather
+			 * than through an event of its own. Both names are the template's own. */
+			if (const UEdGraphPin* Playing = Node->GetUpdatePin()) {
+				Resumes.Add(Template->GetUpdateFunctionName(), TPair<TWeakObjectPtr<UK2Node>, FName>(Node, Playing->PinName));
+			}
+
+			if (const UEdGraphPin* Done = Node->GetFinishedPin()) {
+				Resumes.Add(Template->GetFinishedFunctionName(), TPair<TWeakObjectPtr<UK2Node>, FName>(Node, Done->PinName));
+			}
+
+			/* And everything it calls out as it passes, each a way out of the node */
+			for (const FTTEventTrack& Track : Template->EventTracks) {
+				Resumes.Add(Track.GetFunctionName(), TPair<TWeakObjectPtr<UK2Node>, FName>(Node, Track.GetTrackName()));
+			}
+		}
+
+		Made++;
+
+		UE_LOG(LogReflection, Display, TEXT("timeline \"%s\": %d float track(s), %g long"), *Called, Template->FloatTracks.Num(), Template->TimelineLength);
+	}
+
+	if (Made > 0) {
+		FBlueprintEditorUtils::MarkBlueprintAsStructurallyModified(Blueprint);
+	}
+
+	return Made;
+}

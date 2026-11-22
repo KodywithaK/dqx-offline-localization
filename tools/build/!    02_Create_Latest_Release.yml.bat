@@ -5,13 +5,16 @@ SET "${{ github.repository }}=D:\Coding\github.com\repo\KodywithaK\dqx-offline-l
 REM path of the directory where your working directory is located
 SET "${{ github.workspace }}=R:\DEBUG"
 REM path of the directory where your UE4.27 project is located
-SET "${{ UE4Editor.project }}=F:\Test"
+REM SET "${{ UE4Editor.project }}=F:\Test"
+SET "${{ UE4Editor.project }}=R:\DEBUG\dqx-offline-localization\src\UE4Editor"
+SET "${{ UE_4.27.root }}=%PROGRAMFILES%\Epic Games\UE_4.27"
 
 SETLOCAL EnableDelayedExpansion
 
 CALL :ANSI TIP: SET "${{ github.repository }}=!${{ github.repository }}!"
 CALL :ANSI TIP: SET "${{ github.workspace }}=!${{ github.workspace }}!"
 CALL :ANSI TIP: SET "${{ UE4Editor.project }}=!${{ UE4Editor.project }}!"
+CALL :ANSI TIP: SET "${{ UE_4.27.root }}=!${{ UE_4.27.root }}!"
 
 IF NOT EXIST "!${{ github.workspace }}!" (
 	MKDIR "!${{ github.workspace }}!"
@@ -127,6 +130,7 @@ FOR %%L IN (!TargetLanguage!) DO (
 					CALL :responseFile ja
 					REM 2026.06.06 - Exclude "!${{ UE4Editor.project }}!\Holiday\Content\i18n\!LANGUAGE!\Localization\\" and "!${{ UE4Editor.project }}!\Holiday\Content\i18n\!LANGUAGE!\NonAssets\\"
 					REM CALL :RunUAT ja
+					TITLE !LANGUAGE!
 					CALL :RunUAT__TEST ja
 					REM 2026.06.06 - Exclude "!${{ UE4Editor.project }}!\Holiday\Content\i18n\!LANGUAGE!\Localization\\" and "!${{ UE4Editor.project }}!\Holiday\Content\i18n\!LANGUAGE!\NonAssets\\"
 
@@ -385,7 +389,8 @@ GOTO :EOF
 	CALL :ANSI TIP: "REGION = !REGION!"
 	: ------------------------------------------------ Build RunUAT outputs ------------------------------------------------
 	CALL :ANSI NOTE: "Build RunUAT outputs"
-	"%UE_4.27%\..\..\..\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun -archive -archivedirectory="!${{ github.workspace }}:\=/!/releases/UE4Editor" -clean -clientconfig=Shipping -compressed -cook -ddc=InstalledDerivedDataBackendGraph -installed -iostore -manifests -nocompile -nocompileeditor -nodebuginfo -nop4 -package -pak -prereqs -project=!${{ UE4Editor.project }}:\=/!/Holiday/Holiday.uproject -skipbuildeditor -SkipCookingEditorContent -skipstage -target=Holiday -targetplatform=Win64 -ue4exe="%UE_4.27%\..\..\..\Engine\Binaries\Win64\UE4Editor.exe" -Cmd.exe -utf8output
+	REM "%UE_4.27%\..\..\..\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun -archive -archivedirectory="!${{ github.workspace }}:\=/!/releases/UE4Editor" -clean -clientconfig=Shipping -compressed -cook -ddc=InstalledDerivedDataBackendGraph -installed -iostore -manifests -nocompile -nocompileeditor -nodebuginfo -nop4 -package -pak -prereqs -project=!${{ UE4Editor.project }}:\=/!/Holiday/Holiday.uproject -skipbuildeditor -SkipCookingEditorContent -skipstage -target=Holiday -targetplatform=Win64 -ue4exe="%UE_4.27%\..\..\..\Engine\Binaries\Win64\UE4Editor.exe" -Cmd.exe -utf8output
+	"!${{ UE_4.27.root }}!\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun -archive -archivedirectory="!${{ github.workspace }}:\=/!/releases/UE4Editor" -clean -clientconfig=Shipping -compressed -cook -ddc=InstalledDerivedDataBackendGraph -installed -iostore -manifests -nocompile -nocompileeditor -nodebuginfo -nop4 -package -pak -prereqs -project=!${{ UE4Editor.project }}:\=/!/Holiday/Holiday.uproject -skipbuildeditor -SkipCookingEditorContent -skipstage -target=Holiday -targetplatform=Win64 -ue4exe="!${{ UE_4.27.root }}!\Engine\Binaries\Win64\UE4Editor.exe" -Cmd.exe -utf8output
 	REM "%UE_4.27%\..\..\..\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun -archive -archivedirectory="!${{ github.workspace }}:\=/!/releases/UE4Editor" -clean -clientconfig=Shipping -compressed -cook -ddc=InstalledDerivedDataBackendGraph -installed -iostore -manifests -nocompile -nocompileeditor -nodebuginfo -nop4 -package -pak -prereqs -project=R:/Holiday/Holiday.uproject -skipbuildeditor -SkipCookingEditorContent -skipstage -target=Holiday -targetplatform=Win64 -ue4exe="%UE_4.27%\..\..\..\Engine\Binaries\Win64\UE4Editor.exe" -Cmd.exe -utf8output
 	: ----------------------------------------- Move RunUAT outputs to \releases\* -----------------------------------------
 	CALL :ANSI NOTE: "Move RunUAT outputs to releases"
@@ -428,7 +433,8 @@ GOTO :EOF
 	del /Q /S !${{ UE4Editor.project }}!\Holiday\Content\Localization\Game\Game.locres.Optimized_CityHash64_UTF16
 	del /Q /S !${{ UE4Editor.project }}!\Holiday\Content\Localization\Game\Game.locres.Optimized_CRC32
 	: ---------------------------------------------------------- Build RunUAT outputs ----------------------------------------------------------
-	"%UE_4.27%\..\..\..\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun -archive -archivedirectory="!${{ github.workspace }}:\=/!/releases/UE4Editor" -clean -clientconfig=Shipping -compressed -cook -ddc=InstalledDerivedDataBackendGraph -installed -iostore -manifests -nocompile -nocompileeditor -nodebuginfo -nop4 -package -pak -prereqs -project=!${{ UE4Editor.project }}:\=/!/Holiday/Holiday.uproject -skipbuildeditor -SkipCookingEditorContent -skipstage -target=Holiday -targetplatform=Win64 -ue4exe="%UE_4.27%\..\..\..\Engine\Binaries\Win64\UE4Editor.exe" -Cmd.exe -utf8output
+	REM "%UE_4.27%\..\..\..\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun -archive -archivedirectory="!${{ github.workspace }}:\=/!/releases/UE4Editor" -clean -clientconfig=Shipping -compressed -cook -ddc=InstalledDerivedDataBackendGraph -installed -iostore -manifests -nocompile -nocompileeditor -nodebuginfo -nop4 -package -pak -prereqs -project=!${{ UE4Editor.project }}:\=/!/Holiday/Holiday.uproject -skipbuildeditor -SkipCookingEditorContent -skipstage -target=Holiday -targetplatform=Win64 -ue4exe="%UE_4.27%\..\..\..\Engine\Binaries\Win64\UE4Editor.exe" -Cmd.exe -utf8output
+	"!${{ UE_4.27.root }}!\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun -archive -archivedirectory="!${{ github.workspace }}:\=/!/releases/UE4Editor" -clean -clientconfig=Shipping -compressed -cook -ddc=InstalledDerivedDataBackendGraph -installed -iostore -manifests -nocompile -nocompileeditor -nodebuginfo -nop4 -package -pak -prereqs -project=!${{ UE4Editor.project }}:\=/!/Holiday/Holiday.uproject -skipbuildeditor -SkipCookingEditorContent -skipstage -target=Holiday -targetplatform=Win64 -ue4exe="!${{ UE_4.27.root }}!\Engine\Binaries\Win64\UE4Editor.exe" -Cmd.exe -utf8output
 	REM "%UE_4.27%\..\..\..\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun -archive -archivedirectory="!${{ github.workspace }}:\=/!/releases/UE4Editor" -clean -clientconfig=Shipping -compressed -cook -ddc=InstalledDerivedDataBackendGraph -installed -iostore -manifests -nocompile -nocompileeditor -nodebuginfo -nop4 -package -pak -prereqs -project=R:/Holiday/Holiday.uproject -skipbuildeditor -SkipCookingEditorContent -skipstage -target=Holiday -targetplatform=Win64 -ue4exe="%UE_4.27%\..\..\..\Engine\Binaries\Win64\UE4Editor.exe" -Cmd.exe -utf8output
 	: --------------------------------------------------- Move RunUAT outputs to \releases\* ---------------------------------------------------
 	MOVE "!${{ github.workspace }}!\releases\UE4Editor\WindowsNoEditor\Holiday\Content\Paks\pakchunk30-WindowsNoEditor.pak" "!${{ github.workspace }}!\releases\pakchunk0-!PLATFORM!_!REGION!_!LANGUAGE!_Dialogue_Latest__RunUAT_P.pak"

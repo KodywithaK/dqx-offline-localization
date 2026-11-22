@@ -35,12 +35,13 @@
 *.xcodeproj
 *.xcworkspace
 *.sln
+*.slnx
 *.suo
 *.opensdf
 *.sdf
 *.VC.db
 *.VC.opendb
-**/.vsconfig
+.vsconfig
 
 # Precompiled Assets
 **/SourceArt/**/*.png
@@ -78,11 +79,13 @@
 # KwK
 ####################################################################################################
 
-**/Platforms/*
+**/*.lnk
 
-**/Plugins/*
-
-_Holiday/*
-Holiday/Content/i18n/*
+**/Content/i18n/**/*
+**/Content/DLC/Ver2/StringTables/**/*
+**/Content/StringTables/**/*
+**/Content/Settings/Version/version_settings.json
+**/KwK/StringTables/**/*.json
+**/Platforms/**/*
 
 ####################################################################################################

@@ -1,0 +1,69 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.5.1",
+	"FriendlyName": "Reflection",
+	"Description": "Reconstruction Toolkit for Unreal Engine",
+	"Category": "Tools",
+	"CreatedBy": "JsonAsAsset",
+	"CreatedByURL": "https://github.com/JsonAsAsset",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Reflection",
+			"Type": "Editor",
+			"LoadingPhase": "PostDefault",
+			"PlatformDenyList": [
+				"Android"
+			]
+		},
+		{
+			"Name": "Detex",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformDenyList": [
+				"Android"
+			]
+		},
+		{
+			"Name": "NVTT",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformDenyList": [
+				"Android"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "AudioModulation",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "ControlRig",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "PluginUtils",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "CurveExpression",
+			"Enabled": true,
+			"Optional": true
+		}
+	]
+}

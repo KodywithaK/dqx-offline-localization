@@ -10,7 +10,8 @@ SET "${{ github.workspace }}=R:\DEBUG"
 REM path of the directory where your FModel output directory is located ( Settings - General - Output Directory * )
 SET "${{ Fmodel.Output_Directory }}=R:\Temp"
 REM path of the directory where your UE4.27 project is located
-SET "${{ UE4Editor.project }}=F:\Test"
+REM SET "${{ UE4Editor.project }}=F:\Test"
+SET "${{ UE4Editor.project }}=R:\DEBUG\dqx-offline-localization\src\UE4Editor"
 
 SETLOCAL EnableDelayedExpansion
 
@@ -96,6 +97,8 @@ FOR %%L IN (!TargetLanguage!) DO (
 CALL :DIVIDER
 
 "!${{ UE4Editor.project }}!\Holiday\Holiday.uproject"
+
+CALL :ANSI IMPORTANT: "Once language(s) finish, open Holiday.uproject, then use Reflection to import the newly created json files"
 
 PAUSE
 

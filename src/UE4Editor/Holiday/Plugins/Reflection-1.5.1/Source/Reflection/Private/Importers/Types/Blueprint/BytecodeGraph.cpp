@@ -1,0 +1,6277 @@
+/* Copyright Reflection Contributors 2024-2026 */
+
+#include "Importers/Types/Blueprint/BytecodeGraph.h"
+#include "Importers/Types/Blueprint/BlueprintUtilities.h"
+
+#include "EdGraphSchema_K2.h"
+#include "Engine/Compatibility.h"
+#include "Policies/CondensedJsonPrintPolicy.h"
+#include "Serialization/JsonWriter.h"
+#include "K2Node_AddComponent.h"
+#include "Importers/Types/Blueprint/GraphTidy.h"
+#include "Importers/Types/Blueprint/MacroPattern.h"
+#include "K2Node_BreakStruct.h"
+#include "K2Node_MacroInstance.h"
+#include "K2Node_MacroInstance.h"
+#include "K2Node_CallFunction.h"
+#include "K2Node_CallParentFunction.h"
+#include "K2Node_ClassDynamicCast.h"
+#include "K2Node_DynamicCast.h"
+#include "K2Node_FormatText.h"
+#include "K2Node_FunctionEntry.h"
+#include "K2Node_GetClassDefaults.h"
+#include "K2Node_FunctionResult.h"
+#include "K2Node_Event.h"
+#include "K2Node_ExecutionSequence.h"
+#include "K2Node_IfThenElse.h"
+#include "Kismet2/BlueprintEditorUtils.h"
+#include "Components/ActorComponent.h"
+#include "Containers/ExportContainer.h"
+#include "Serializers/ObjectSerializer.h"
+#include "Importers/Constructor/Asset.h"
+#include "Importers/Constructor/ImportIssues.h"
+#include "Utilities/AssetPaths.h"
+#include "Engine/Package.h"
+#include "UObject/CoreRedirects.h"
+#include "UObject/StructOnScope.h"
+#include "Importers/Types/Blueprint/BlueprintGraphs.h"
+#include "Importers/Types/Blueprint/BlueprintVariables.h"
+#include "K2Node_CommutativeAssociativeBinaryOperator.h"
+#include "K2Node_CallMaterialParameterCollectionFunction.h"
+#include "K2Node_CallDataTableFunction.h"
+#include "K2Node_GetDataTableRow.h"
+#include "Kismet/DataTableFunctionLibrary.h"
+#include "K2Node_CallArrayFunction.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "K2Node_AddDelegate.h"
+#include "K2Node_RemoveDelegate.h"
+#include "K2Node_ClearDelegate.h"
+#include "K2Node_CallDelegate.h"
+#include "K2Node_CreateDelegate.h"
+#include "K2Node_BaseMCDelegate.h"
+#include "K2Node_MakeArray.h"
+#include "K2Node_MakeMap.h"
+#include "K2Node_GetArrayItem.h"
+#include "K2Node_TemporaryVariable.h"
+#include "K2Node_AssignmentStatement.h"
+#include "K2Node_MathExpression.h"
+#include "K2Node_MakeStruct.h"
+#include "K2Node_SetFieldsInStruct.h"
+#include "Kismet/KismetTextLibrary.h"
+#include "K2Node_Select.h"
+#include "K2Node_Timeline.h"
+#include "K2Node_Self.h"
+#include "K2Node_VariableGet.h"
+#include "K2Node_VariableSet.h"
+#include "Serialization/JsonSerializer.h"
+
+namespace {
+	/* One struct by name, wherever it lives.
+	 *
+	 * 5.1 gave this search a name of its own. Before that the same thing is said as a lookup in no
+	 * package in particular, which is what the newer call does underneath. */
+	UScriptStruct* FindStructAnywhere(const FString& Named) {
+		if (Named.IsEmpty()) return nullptr;
+
+#if UE5_1_BEYOND
+		return FindFirstObject<UScriptStruct>(*Named);
+#else
+		return FindObject<UScriptStruct>(ANY_PACKAGE, *Named);
+#endif
+	}
+}
+
+DECLARE_LOG_CATEGORY_CLASS(LogReflectionBytecode, All, All);
+
+namespace {
+	/* An object reference, as the two halves the bytecode spells it in: a name that carries the
+	 * class and the member, and a path that carries the package they live in */
+	void SplitReference(const FUObjectJsonValueExport& Reference, FString& OutOwner, FString& OutMember) {
+		FString Name = Reference.Has(TEXT("ObjectName")) ? Reference.GetString(TEXT("ObjectName")) : FString();
+
+		/* Class'Owner:Member' */
+		if (Name.Contains(TEXT("'"))) {
+			Name.Split(TEXT("'"), nullptr, &Name);
+			Name.Split(TEXT("'"), &Name, nullptr, ESearchCase::CaseSensitive, ESearchDir::FromEnd);
+		}
+
+		if (!Name.Split(TEXT(":"), &OutOwner, &OutMember)) {
+			OutOwner = Name;
+			OutMember = FString();
+		}
+	}
+
+	/* The name a local carries when the compiler made it for a pin rather than the graph declaring
+	 * it. They read as the node and the pin they came from, with a number where more than one net
+	 * wanted the same name. */
+	/* A name the compiler made for a pin rather than one the graph declared.
+	 *
+	 * Temp_<kind>_Variable is what UK2Node_TemporaryVariable calls itself, so it belongs to a macro
+	 * rather than to the function. Whether it can be dropped is not settled by the name though: it
+	 * can only be dropped once some macro has been recognised and claimed it. Read statement by
+	 * statement, or where nothing matched the shape, there is no macro to own it and it has to be a
+	 * local like any other, or the loop it counts has nothing to count with. */
+	bool IsCompilerLocal(const FString& Name) {
+		return Name.StartsWith(TEXT("CallFunc_")) || Name.StartsWith(TEXT("K2Node_"));
+	}
+
+	/* What a field is, whether it is written into the property or named beside it.
+	 *
+	 * A container holds its element's description inline in some builds and as a reference to an
+	 * export of its own in others. Read only the first way an array of anything comes back as no
+	 * type at all. */
+	FUObjectJsonValueExport DescribedBy(const FUObjectJsonValueExport& Property, const TCHAR* Field, FUObjectExportContainer* Container) {
+		const FUObjectJsonValueExport Held = Property.GetObject(Field);
+
+		if (Held.Has(TEXT("Type")) || Container == nullptr) return Held;
+
+		if (const FUObjectExport* Named = Container->GetExportByObjectPath(Held.JsonObject); Named != nullptr && Named->IsJsonValid()) {
+			return FUObjectJsonValueExport(Named->JsonObject);
+		}
+
+		return Held;
+	}
+
+	/* What a property is called in the graph, for declaring a local of the same kind */
+	bool TypeOfProperty(const FUObjectJsonValueExport& Property, FEdGraphPinType& OutType, FUObjectExportContainer* Container) {
+		if (!Property.Has(TEXT("Type"))) return false;
+
+		const FString Kind = Property.GetString(TEXT("Type"));
+
+		/* What it holds decides what it is, and holding it only decides the shape.
+		 *
+		 * Left out, an array or a set or a map reads as nothing and the local is never declared:
+		 * every node that reads it says the blueprint has no such variable, and one function that
+		 * will not compile leaves every other function in the blueprint empty. */
+		if (Kind == TEXT("ArrayProperty") || Kind == TEXT("SetProperty")) {
+			const TCHAR* Names = Kind == TEXT("ArrayProperty") ? TEXT("Inner") : TEXT("ElementProp");
+
+			if (!TypeOfProperty(DescribedBy(Property, Names, Container), OutType, Container)) return false;
+
+			OutType.ContainerType = Kind == TEXT("ArrayProperty") ? EPinContainerType::Array : EPinContainerType::Set;
+
+			return true;
+		}
+
+		if (Kind == TEXT("MapProperty")) {
+			FEdGraphPinType Valued;
+
+			if (!TypeOfProperty(DescribedBy(Property, TEXT("KeyProp"), Container), OutType, Container)) return false;
+			if (!TypeOfProperty(DescribedBy(Property, TEXT("ValueProp"), Container), Valued, Container)) return false;
+
+			OutType.ContainerType = EPinContainerType::Map;
+			OutType.PinValueType = FEdGraphTerminalType::FromPinType(Valued);
+
+			return true;
+		}
+
+		if (Kind == TEXT("IntProperty")) OutType.PinCategory = UEdGraphSchema_K2::PC_Int;
+		else if (Kind == TEXT("Int64Property")) OutType.PinCategory = UEdGraphSchema_K2::PC_Int64;
+		else if (Kind == TEXT("BoolProperty")) OutType.PinCategory = UEdGraphSchema_K2::PC_Boolean;
+		else if (Kind == TEXT("FloatProperty") || Kind == TEXT("DoubleProperty")) {
+			/* 5.0 folded the two into one category and put the width in the sub category. Before
+			 * that a float is its own category and there is no double to tell it from. A local the
+			 * blueprint declared is a double either way, the same as its variables (FBlueprintVariables). */
+#if ENGINE_UE5
+			OutType.PinCategory = UEdGraphSchema_K2::PC_Real;
+			OutType.PinSubCategory = UEdGraphSchema_K2::PC_Double;
+#else
+			OutType.PinCategory = UEdGraphSchema_K2::PC_Float;
+#endif
+		}
+		else if (Kind == TEXT("ByteProperty")) {
+			OutType.PinCategory = UEdGraphSchema_K2::PC_Byte;
+
+			/* A byte can be an enum kept in a byte, and says which one beside it */
+			if (Property.Has(TEXT("Enum"))) {
+				FString Owner, Member;
+				SplitReference(Property.GetObject(TEXT("Enum")), Owner, Member);
+
+				if (!Owner.IsEmpty()) OutType.PinSubCategoryObject = FindEnumByType(Owner);
+			}
+		}
+		else if (Kind == TEXT("NameProperty")) OutType.PinCategory = UEdGraphSchema_K2::PC_Name;
+		else if (Kind == TEXT("StrProperty")) OutType.PinCategory = UEdGraphSchema_K2::PC_String;
+		else if (Kind == TEXT("TextProperty")) OutType.PinCategory = UEdGraphSchema_K2::PC_Text;
+		else if (Kind == TEXT("EnumProperty")) {
+			FString Owner, Member;
+			SplitReference(Property.GetObject(TEXT("Enum")), Owner, Member);
+
+			OutType.PinCategory = UEdGraphSchema_K2::PC_Byte;
+			OutType.PinSubCategoryObject = FindEnumByType(Owner);
+		}
+		else if (Kind == TEXT("StructProperty")) {
+			/* A struct says which one it is, and a pin of that kind has to say the same */
+			FString Owner, Member;
+			SplitReference(Property.GetObject(TEXT("Struct")), Owner, Member);
+
+			UScriptStruct* Struct = FindStructAnywhere(Owner);
+
+			if (Struct == nullptr) return false;
+
+			OutType.PinCategory = UEdGraphSchema_K2::PC_Struct;
+			OutType.PinSubCategoryObject = Struct;
+		}
+		else if (Kind == TEXT("ObjectProperty")) {
+			FString Owner, Member;
+			SplitReference(Property.GetObject(TEXT("PropertyClass")), Owner, Member);
+
+			UClass* Class = const_cast<UClass*>(FindClassByType(Owner));
+
+			/* A blueprint's class is not here until something loads it, and the variable typer knows where to get it */
+			if (Class == nullptr) {
+				return Property.JsonObject.IsValid() && FBlueprintVariables::GetPinType(Property.JsonObject, OutType, Container);
+			}
+
+			OutType.PinCategory = UEdGraphSchema_K2::PC_Object;
+			OutType.PinSubCategoryObject = Class;
+		}
+		else {
+			/* Asked of the one that declares the blueprint's own variables, which knows the kinds this does not */
+			return Property.JsonObject.IsValid() && FBlueprintVariables::GetPinType(Property.JsonObject, OutType, Container);
+		}
+
+		return true;
+	}
+
+}
+
+namespace {
+	/* What a node hands back.
+	 *
+	 * A call names it the return value, and a node the editor wrote for itself names it whatever
+	 * reads best on the node: Format Text calls it the Result. Either way a node has one value to
+	 * hand back, so where the usual name is not there the one value out is what is meant. */
+	UEdGraphPin* HandsBack(UK2Node* Node) {
+		if (Node == nullptr) return nullptr;
+
+		if (UEdGraphPin* Usual = Node->FindPin(UEdGraphSchema_K2::PN_ReturnValue, EGPD_Output)) return Usual;
+
+		for (UEdGraphPin* Pin : Node->Pins) {
+			if (Pin == nullptr || Pin->Direction != EGPD_Output) continue;
+			if (Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Exec) continue;
+
+			return Pin;
+		}
+
+		return nullptr;
+	}
+
+	/* The one expression written inside another, whatever the field is called.
+	 *
+	 * A wrapper says one thing about the value it holds, and the value is spelled the same way it
+	 * would be anywhere. Which field it sits under differs from one token to the next, and what
+	 * makes it the value is that it is an expression, so that is what is looked for. */
+	FUObjectJsonValueExport Inner(const FUObjectJsonValueExport& Expression) {
+		if (!Expression.JsonObject.IsValid()) return FUObjectJsonValueExport();
+
+		for (const TCHAR* Field : { TEXT("Target"), TEXT("Expression"), TEXT("Value"), TEXT("InnerExpression") }) {
+			if (!Expression.Has(Field)) continue;
+
+			const FUObjectJsonValueExport Held = Expression.GetObject(Field);
+
+			if (Held.Has(TEXT("Token"))) return Held;
+		}
+
+		/* Or whichever field turns out to hold one, since a token nobody has read back yet spells
+		 * it however the reader that wrote it spelled it */
+		for (const TPair<FString, TSharedPtr<FJsonValue>>& Field : Expression.JsonObject->Values) {
+			if (!Field.Value.IsValid() || Field.Value->Type != EJson::Object) continue;
+
+			const FUObjectJsonValueExport Held(Field.Value->AsObject());
+
+			if (Held.Has(TEXT("Token"))) return Held;
+		}
+
+		return FUObjectJsonValueExport();
+	}
+
+	/* The one thing an expression points at, whatever the field is called. Everything pointed at is
+	 * spelled the same way, and that is what says which field it is. */
+	FUObjectJsonValueExport Names(const FUObjectJsonValueExport& Expression) {
+		if (!Expression.JsonObject.IsValid()) return FUObjectJsonValueExport();
+
+		for (const TPair<FString, TSharedPtr<FJsonValue>>& Field : Expression.JsonObject->Values) {
+			if (!Field.Value.IsValid() || Field.Value->Type != EJson::Object) continue;
+
+			const FUObjectJsonValueExport Held(Field.Value->AsObject());
+
+			if (Held.Has(TEXT("ObjectName"))) return Held;
+		}
+
+		return FUObjectJsonValueExport();
+	}
+
+	/* The name a call is made to, where the statement is a call at all */
+	FString Calls(const FUObjectJsonValueExport& Expression) {
+		if (!Expression.Has(TEXT("Function"))) return FString();
+
+		if (Expression.JsonObject.IsValid() && Expression.JsonObject->HasTypedField<EJson::String>(TEXT("Function"))) {
+			return Expression.GetString(TEXT("Function"));
+		}
+
+		FString Owner, Member;
+		SplitReference(Expression.GetObject(TEXT("Function")), Owner, Member);
+
+		return Member;
+	}
+}
+
+template <typename T>
+T* FBytecodeGraph::AddNode() {
+	/* Transactional like a node the editor placed, or the next open flags them all and asks for a resave */
+	T* Node = NewObject<T>(Graph, T::StaticClass(), NAME_None, RF_Transactional);
+
+	Graph->AddNode(Node, false, false);
+
+	Node->CreateNewGuid();
+	Node->PostPlacedNewNode();
+
+	return Node;
+}
+
+template <typename T>
+T* FBytecodeGraph::AddNodeOfClass(const TSubclassOf<T>& Class) {
+	T* Node = NewObject<T>(Graph, Class != nullptr ? *Class : T::StaticClass(), NAME_None, RF_Transactional);
+
+	Graph->AddNode(Node, false, false);
+
+	Node->CreateNewGuid();
+	Node->PostPlacedNewNode();
+
+	return Node;
+}
+
+TSubclassOf<UK2Node_CallFunction> FBytecodeGraph::NodeClassFor(const UFunction* Function) {
+	/* A call is not always a plain call node. An array function carries wildcards that only take a
+	 * type because the array node hands one down from whatever the array pin was given; a data
+	 * table function fills a name pin from the table it is pointed at. Read as a plain call, those
+	 * pins stay as the compiler left them and the graph will not compile.
+	 *
+	 * Which kind a function wants is said by the function itself, in its metadata, so the rule here
+	 * is the engine's rule rather than a list of names. Promotable operators are left out: whether
+	 * one is used at all is an editor setting rather than anything the function says. */
+	if (Function == nullptr) return UK2Node_CallFunction::StaticClass();
+
+	if (Function->HasMetaData(FBlueprintMetadata::MD_CommutativeAssociativeBinaryOperator) && Function->HasAnyFunctionFlags(FUNC_BlueprintPure)) {
+		return UK2Node_CommutativeAssociativeBinaryOperator::StaticClass();
+	}
+
+	if (Function->HasMetaData(FBlueprintMetadata::MD_MaterialParameterCollectionFunction)) {
+		return UK2Node_CallMaterialParameterCollectionFunction::StaticClass();
+	}
+
+	if (Function->HasMetaData(FBlueprintMetadata::MD_DataTablePin)) {
+		return UK2Node_CallDataTableFunction::StaticClass();
+	}
+
+	if (Function->HasMetaData(FBlueprintMetadata::MD_ArrayParam)) {
+		return UK2Node_CallArrayFunction::StaticClass();
+	}
+
+	return UK2Node_CallFunction::StaticClass();
+}
+
+UFunction* FBytecodeGraph::FindFunctionOn(const UClass* Class, const FString& Member) {
+	if (Class == nullptr || Member.IsEmpty()) return nullptr;
+
+	if (UFunction* Found = Class->FindFunctionByName(*Member)) return Found;
+
+	/* Called by a name the engine has since moved on from. What a float math node was called is
+	 * what a double one is called now, and the engine is the one that knows which became which,
+	 * so it is asked rather than guessed at. */
+	FCoreRedirectObjectName Called(*Member, *Class->GetName(), NAME_None);
+	FCoreRedirectObjectName Now = FCoreRedirects::GetRedirectedName(ECoreRedirectFlags::Type_Function, Called);
+
+	/* A redirect is said against the class that declared the function, and a call is made against
+	 * whatever the target is: SetSkeletalMesh redirects as SkinnedMeshComponent's while the call is
+	 * on a SkeletalMeshComponent. So each class up the line is asked in turn */
+	for (const UClass* Up = Class->GetSuperClass(); Now == Called && Up != nullptr; Up = Up->GetSuperClass()) {
+		const FCoreRedirectObjectName Declared(*Member, *Up->GetName(), NAME_None);
+		const FCoreRedirectObjectName Moved = FCoreRedirects::GetRedirectedName(ECoreRedirectFlags::Type_Function, Declared);
+
+		if (Moved != Declared) {
+			Called = Declared;
+			Now = Moved;
+		}
+	}
+
+	if (Now == Called) {
+		/* Taken out of reflection with no redirect, keyed by the class that declared it. 5.4 sets floats
+		 * through the double setter, and PushCameraMode is what took SetCameraMode's place. */
+		static const TMap<FString, FString> Retired = {
+			{ TEXT("KismetSystemLibrary.SetFloatPropertyByName"), TEXT("SetDoublePropertyByName") },
+			{ TEXT("FortGameplayAbility.SetCameraMode"), TEXT("PushCameraMode") },
+		};
+
+		for (const UClass* Up = Class; Up != nullptr; Up = Up->GetSuperClass()) {
+			if (const FString* Successor = Retired.Find(Up->GetName() + TEXT(".") + Member)) {
+				if (UFunction* Found = Class->FindFunctionByName(**Successor)) return Found;
+			}
+		}
+
+		/* Renamed with nothing left behind to say so. A function given a BP_ name for blueprints
+		 * keeps the name it had as what the editor shows, so a graph cooked before the rename still
+		 * reads the same, and that shown name is the one thing the two have in common. */
+		for (TFieldIterator<UFunction> It(Class, EFieldIteratorFlags::IncludeSuper, EFieldIteratorFlags::ExcludeDeprecated, EFieldIteratorFlags::IncludeInterfaces); It; ++It) {
+			if (It->GetMetaData(FBlueprintMetadata::MD_DisplayName).Replace(TEXT(" "), TEXT("")) == Member) return *It;
+		}
+
+		return nullptr;
+	}
+
+	/* A redirect may move it onto another class as well as rename it */
+	const UClass* On = Now.OuterName != Called.OuterName ? FindClassByType(Now.OuterName.ToString()) : Class;
+
+	return On != nullptr ? On->FindFunctionByName(Now.ObjectName) : nullptr;
+}
+
+namespace {
+	/* What a value is, as far as the token it was written as says.
+	 *
+	 * A struct written out in full is a list of values with nothing naming them. Which member each
+	 * one came from is the struct's to say, and a build whose struct is not the one the game
+	 * compiled against names every value after the first difference wrongly. What a value is is the
+	 * only thing left that says so. */
+	enum class EWritten : uint8 { Anything, Truth, Byte, Whole, Real, Named, Words, Said, Object, Struct };
+
+	struct FWritten {
+		EWritten Kind = EWritten::Anything;
+
+		/* Which struct it says it is and how many it wrote, where it is one */
+		const UScriptStruct* Struct = nullptr;
+		int32 Members = INDEX_NONE;
+	};
+
+	/* How many values a struct written out in full carries, which is one per member and one per
+	 * element of a member kept as a fixed array */
+	int32 MembersOf(const UStruct* Struct) {
+		int32 Counted = 0;
+
+		for (TFieldIterator<FProperty> It(Struct); It; ++It) Counted += FMath::Max(It->ArrayDim, 1);
+
+		return Counted;
+	}
+
+	FWritten WhatWasWritten(const FUObjectJsonValueExport& Expression) {
+		const FString Token = MacroReading::TokenOf(Expression);
+
+		FWritten Written;
+
+		if (Token == TEXT("EX_True") || Token == TEXT("EX_False")) {
+			Written.Kind = EWritten::Truth;
+		} else if (Token == TEXT("EX_ByteConst") || Token == TEXT("EX_IntConstByte")) {
+			Written.Kind = EWritten::Byte;
+		} else if (Token == TEXT("EX_IntConst") || Token == TEXT("EX_IntZero") || Token == TEXT("EX_IntOne")
+			|| Token == TEXT("EX_Int64Const") || Token == TEXT("EX_UInt64Const") || Token == TEXT("EX_BitFieldConst")) {
+			Written.Kind = EWritten::Whole;
+		} else if (Token == TEXT("EX_FloatConst") || Token == TEXT("EX_DoubleConst")) {
+			Written.Kind = EWritten::Real;
+		} else if (Token == TEXT("EX_NameConst")) {
+			Written.Kind = EWritten::Named;
+		} else if (Token == TEXT("EX_StringConst") || Token == TEXT("EX_UnicodeStringConst")) {
+			Written.Kind = EWritten::Words;
+		} else if (Token == TEXT("EX_TextConst")) {
+			Written.Kind = EWritten::Said;
+		} else if (Token == TEXT("EX_ObjectConst") || Token == TEXT("EX_NoObject") || Token == TEXT("EX_NoInterface")
+			|| Token == TEXT("EX_SoftObjectConst")) {
+			Written.Kind = EWritten::Object;
+		} else if (Token == TEXT("EX_VectorConst") || Token == TEXT("EX_Vector3fConst")) {
+			Written.Kind = EWritten::Struct;
+			Written.Struct = TBaseStructure<FVector>::Get();
+			Written.Members = 3;
+		} else if (Token == TEXT("EX_RotationConst")) {
+			Written.Kind = EWritten::Struct;
+			Written.Struct = TBaseStructure<FRotator>::Get();
+			Written.Members = 3;
+		} else if (Token == TEXT("EX_TransformConst")) {
+			Written.Kind = EWritten::Struct;
+			Written.Struct = TBaseStructure<FTransform>::Get();
+			Written.Members = 3;
+		} else if (Token == TEXT("EX_StructConst")) {
+			FString Owner, Member;
+			SplitReference(Expression.GetObject(TEXT("Struct")), Owner, Member);
+
+			Written.Kind = EWritten::Struct;
+			Written.Struct = FindStructByType(Member.IsEmpty() ? Owner : Member);
+			Written.Members = Expression.Has(TEXT("Properties")) ? Expression.GetArray(TEXT("Properties")).Num() : 0;
+		}
+
+		return Written;
+	}
+
+	/* Whether a member could be the one a value was written for */
+	bool CouldHold(const FProperty* Property, const FWritten& Written) {
+		if (Property == nullptr) return false;
+
+		switch (Written.Kind) {
+		case EWritten::Truth: return Property->IsA<FBoolProperty>();
+		/* A truth is a number to the machine, and a member one build spells as a bool another
+		 * spells as the byte it is kept in, so a number written for one is still that one */
+		case EWritten::Byte: return Property->IsA<FByteProperty>() || Property->IsA<FEnumProperty>() || Property->IsA<FBoolProperty>();
+		case EWritten::Whole: {
+			const FNumericProperty* Counts = CastField<FNumericProperty>(Property);
+
+			return (Counts != nullptr && !Counts->IsFloatingPoint()) || Property->IsA<FEnumProperty>() || Property->IsA<FBoolProperty>();
+		}
+		case EWritten::Real: return Property->IsA<FFloatProperty>() || Property->IsA<FDoubleProperty>();
+		case EWritten::Named: return Property->IsA<FNameProperty>();
+		case EWritten::Words: return Property->IsA<FStrProperty>();
+		case EWritten::Said: return Property->IsA<FTextProperty>();
+		case EWritten::Object: return Property->IsA<FObjectPropertyBase>() || Property->IsA<FInterfaceProperty>();
+		case EWritten::Struct: {
+			const FStructProperty* Holds = CastField<FStructProperty>(Property);
+
+			if (Holds == nullptr || Holds->Struct == nullptr) return false;
+
+			if (Written.Struct != nullptr && Holds->Struct == Written.Struct) return true;
+
+			/* What a build calls a struct is not always what the game called it, so what stands in
+			 * for the name is what it holds: as many members as were written for it */
+			return Written.Members != INDEX_NONE && MembersOf(Holds->Struct) == Written.Members;
+		}
+		default: return true;
+		}
+	}
+}
+
+FString FBytecodeGraph::SpellValue(const FProperty* Property, const FUObjectJsonValueExport& Expression) {
+	const FString Token = MacroReading::TokenOf(Expression);
+
+	if (Token == TEXT("EX_StructConst")) return ReadStructConst(Expression);
+
+	/* Spelled rather than built: read as an expression an array comes back as a node and a pin, and a struct member wants a default */
+	if (Token == TEXT("EX_ArrayConst")) {
+		const TArray<FUObjectJsonValueExport> Values = Expression.Has(TEXT("Values"))
+			? Expression.GetArray(TEXT("Values"))
+			: TArray<FUObjectJsonValueExport>();
+
+		const FArrayProperty* Holds = CastField<FArrayProperty>(Property);
+
+		TArray<FString> Each;
+		Each.Reserve(Values.Num());
+
+		for (const FUObjectJsonValueExport& Held : Values) {
+			FString Said = SpellValue(Holds != nullptr ? Holds->Inner : nullptr, Held);
+
+			/* An element that cannot be spelled still takes its place, or the rest shuffle up into it */
+			if (Said.IsEmpty()) Said = TEXT("()");
+
+			Each.Add(Said);
+		}
+
+		return TEXT("(") + FString::Join(Each, TEXT(",")) + TEXT(")");
+	}
+
+	/* Spelled the way a struct writes a member out rather than the way a pin carries one. A pin
+	 * says where and which way round as its numbers alone; a struct names them. */
+	if (Token == TEXT("EX_VectorConst") || Token == TEXT("EX_Vector3fConst")) {
+		const FUObjectJsonValueExport Held = Expression.GetObject(TEXT("Value"));
+
+		return FString::Printf(TEXT("(X=%f,Y=%f,Z=%f)"), Held.GetNumber(TEXT("X")), Held.GetNumber(TEXT("Y")), Held.GetNumber(TEXT("Z")));
+	}
+
+	if (Token == TEXT("EX_RotationConst")) {
+		const FUObjectJsonValueExport Held = Expression.GetObject(TEXT("Value"));
+
+		return FString::Printf(TEXT("(Pitch=%f,Yaw=%f,Roll=%f)"), Held.GetNumber(TEXT("Pitch")), Held.GetNumber(TEXT("Yaw")), Held.GetNumber(TEXT("Roll")));
+	}
+
+	if (Token == TEXT("EX_TransformConst")) {
+		const FUObjectJsonValueExport Held = Expression.GetObject(TEXT("Value"));
+
+		const FUObjectJsonValueExport Where = Held.GetObject(TEXT("Translation"));
+		const FUObjectJsonValueExport Turn = Held.GetObject(TEXT("Rotation"));
+		const FUObjectJsonValueExport Size = Held.GetObject(TEXT("Scale3D"));
+
+		return FString::Printf(TEXT("(Rotation=(X=%f,Y=%f,Z=%f,W=%f),Translation=(X=%f,Y=%f,Z=%f),Scale3D=(X=%f,Y=%f,Z=%f))"),
+			Turn.GetNumber(TEXT("X")), Turn.GetNumber(TEXT("Y")), Turn.GetNumber(TEXT("Z")), Turn.GetNumber(TEXT("W")),
+			Where.GetNumber(TEXT("X")), Where.GetNumber(TEXT("Y")), Where.GetNumber(TEXT("Z")),
+			Size.GetNumber(TEXT("X")), Size.GetNumber(TEXT("Y")), Size.GetNumber(TEXT("Z")));
+	}
+
+	FString Said = ReadExpression(Expression).Literal;
+
+	if (Said.IsEmpty()) return FString();
+
+	/* Said as the number it is kept as, where the member is a truth. What reads a default back
+	 * wants the word, and nought is as good as false whichever way it was written. */
+	if (Property != nullptr && Property->IsA<FBoolProperty>() && Said.IsNumeric()) {
+		Said = FCString::Atod(*Said) != 0.0 ? TEXT("true") : TEXT("false");
+	}
+
+	/* Said as a number with a fraction, which is how every constant is read back whatever it was. A
+	 * member that is an enum reads its default as the enumerator's name, so 3 has to become Image for
+	 * a brush's DrawAs: handed "3.000000" the struct refuses the whole default and the node holding
+	 * it fails to compile. A whole number is written as one for the same reason. */
+	if (Property != nullptr && Said.IsNumeric()) {
+		const UEnum* Enum = nullptr;
+
+		if (const FByteProperty* Byte = CastField<FByteProperty>(Property)) {
+			Enum = Byte->Enum;
+		} else if (const FEnumProperty* Enumerated = CastField<FEnumProperty>(Property)) {
+			Enum = Enumerated->GetEnum();
+		}
+
+		const int64 Whole = static_cast<int64>(FMath::RoundToDouble(FCString::Atod(*Said)));
+
+		if (Enum != nullptr) {
+			const FString Named = Enum->GetNameStringByValue(Whole);
+
+			if (!Named.IsEmpty()) return Named;
+		}
+
+		const FNumericProperty* Counts = CastField<FNumericProperty>(Property);
+
+		if (Enum != nullptr || (Counts != nullptr && !Counts->IsFloatingPoint()) || Property->IsA<FEnumProperty>()) {
+			return LexToString(Whole);
+		}
+	}
+
+	/* Quoted where the member holds words. Text is left alone: it is written as the lookup that
+	 * fetches it, which is what reads it back. */
+	if (Property != nullptr && (Property->IsA<FStrProperty>() || Property->IsA<FNameProperty>())) {
+		return TEXT("\"") + Said.ReplaceCharWithEscapedChar() + TEXT("\"");
+	}
+
+	return Said;
+}
+
+FString FBytecodeGraph::ReadStructConst(const FUObjectJsonValueExport& Expression) {
+	if (!Expression.Has(TEXT("Struct"))) return FString();
+
+	FString Owner, Member;
+	SplitReference(Expression.GetObject(TEXT("Struct")), Owner, Member);
+
+	/* Named the way everything else in the script is, and a struct is the type on its own */
+	const FString Called = Member.IsEmpty() ? Owner : Member;
+	const UScriptStruct* Struct = FindStructByType(Called);
+
+	if (Struct == nullptr) {
+		Unhandled.AddUnique(FString::Printf(TEXT("a \"%s\" written out in full, which this build does not carry"), *Called));
+
+		return FString();
+	}
+
+	const TArray<FUObjectJsonValueExport> Listed = Expression.Has(TEXT("Properties"))
+		? Expression.GetArray(TEXT("Properties"))
+		: TArray<FUObjectJsonValueExport>();
+
+	/* One place per member, and one per element of a member kept as a fixed array, since that is
+	 * how many values the compiler wrote */
+	struct FPlace {
+		FProperty* Property = nullptr;
+		int32 Index = 0;
+	};
+
+	TArray<FPlace> Places;
+
+	for (TFieldIterator<FProperty> It(Struct); It; ++It) {
+		for (int32 Element = 0; Element < FMath::Max(It->ArrayDim, 1); Element++) {
+			FPlace Place;
+
+			Place.Property = *It;
+			Place.Index = Element;
+
+			Places.Add(Place);
+		}
+	}
+
+	TArray<FWritten> Says;
+	Says.Reserve(Listed.Num());
+
+	for (const FUObjectJsonValueExport& Held : Listed) Says.Add(WhatWasWritten(Held));
+
+	/* Counted off in order, which is how the compiler wrote them and so what they are, so long as
+	 * this build's struct is the one it wrote them from */
+	bool bInOrder = Places.Num() == Listed.Num();
+
+	for (int32 At = 0; bInOrder && At < Listed.Num(); At++) {
+		bInOrder = CouldHold(Places[At].Property, Says[At]);
+	}
+
+	TArray<int32> Goes;
+
+	if (bInOrder) {
+		for (int32 At = 0; At < Listed.Num(); At++) Goes.Add(At);
+	} else {
+		/* This build's struct is not the one the game compiled against: a member it has since
+		 * gained, lost or moved leaves the values in an order counting cannot follow, and counting
+		 * them anyway names every one after the difference for a member it never came from.
+		 *
+		 * What a value is still says which members could have held it, so each takes the first that
+		 * could and has not been taken. Where one of them could have gone nowhere at all the two
+		 * structs have nothing to do with each other, and there is nothing here to read. */
+		TArray<bool> Taken;
+		Taken.Init(false, Places.Num());
+
+		for (int32 At = 0; At < Listed.Num(); At++) {
+			int32 Found = INDEX_NONE;
+
+			for (int32 Place = 0; Place < Places.Num(); Place++) {
+				if (Taken[Place] || !CouldHold(Places[Place].Property, Says[At])) continue;
+
+				Found = Place;
+
+				break;
+			}
+
+			if (Found == INDEX_NONE) {
+				Unhandled.AddUnique(FString::Printf(
+					TEXT("a \"%s\" the game wrote %d member(s) of, where this build has one of %d that none of them fit"),
+					*Struct->GetName(), Listed.Num(), Places.Num()));
+
+				return FString();
+			}
+
+			Taken[Found] = true;
+
+			Goes.Add(Found);
+		}
+
+		UE_LOG(LogReflectionBytecode, Warning, TEXT("\"%s\" was written with %d member(s) where this build has %d, so its values were placed by what they are rather than counted off"),
+			*Struct->GetName(), Listed.Num(), Places.Num());
+	}
+
+	/* A struct that reads its own text reads only its own way of writing it: a key is the key's name
+	 * on its own, and handed "(KeyName=LeftMouseButton)" it reads "(" and becomes a key nothing has.
+	 * So the members go into a value of the struct, and the struct says how it is written. */
+	if (Struct->StructFlags & STRUCT_ImportTextItemNative) {
+		FStructOnScope Value(Struct);
+
+		for (int32 At = 0; At < Listed.Num(); At++) {
+			const FPlace& Place = Places[Goes[At]];
+
+			const FString Held = SpellValue(Place.Property, Listed[At]);
+			if (Held.IsEmpty()) continue;
+
+			/* SpellValue quotes a name or a string, and without PPF_Delimited a name keeps the quotes as part of
+			 * itself: a gameplay tag became "\"Event.Athena.EnvCampFire.Light\"", which no tag is called */
+			/* 5.1 split the direct form out. Before it the same call is ImportText. */
+#if UE5_1_BEYOND
+			Place.Property->ImportText_Direct(*Held, Place.Property->ContainerPtrToValuePtr<void>(Value.GetStructMemory(), Place.Index), nullptr, PPF_Delimited);
+#else
+			Place.Property->ImportText(*Held, Place.Property->ContainerPtrToValuePtr<void>(Value.GetStructMemory(), Place.Index), PPF_Delimited, nullptr);
+#endif
+		}
+
+		FString AsText;
+		Struct->ExportText(AsText, Value.GetStructMemory(), nullptr, nullptr, PPF_None, nullptr);
+
+		return AsText;
+	}
+
+	TArray<FString> Spelled;
+
+	for (int32 At = 0; At < Listed.Num(); At++) {
+		const FPlace& Place = Places[Goes[At]];
+
+		const FString Held = SpellValue(Place.Property, Listed[At]);
+
+		/* Left out where there is nothing to say, and a member a default does not name keeps the
+		 * one the struct gives it */
+		if (Held.IsEmpty()) continue;
+
+		const FString Name = Place.Property->ArrayDim > 1
+			? FString::Printf(TEXT("%s[%d]"), *Place.Property->GetName(), Place.Index)
+			: Place.Property->GetName();
+
+		Spelled.Add(Name + TEXT("=") + Held);
+	}
+
+	return TEXT("(") + FString::Join(Spelled, TEXT(",")) + TEXT(")");
+}
+
+/* A Math Expression read back as what somebody typed, since it compiles to one nested statement rather than one per call */
+FBytecodeGraph::FValue FBytecodeGraph::ReadMathExpression(const FUObjectJsonValueExport& Expression) {
+	FValue Value;
+
+	FString Spelled;
+	TArray<TPair<FString, FUObjectJsonValueExport>> Inputs;
+
+	if (!SpellMath(Expression, Spelled, Inputs)) return Value;
+
+	UK2Node_MathExpression* Node = AddNode<UK2Node_MathExpression>();
+
+	/* Typed in the way somebody types one: renaming the node is what sets its expression */
+	Node->OnRenameNode(Spelled);
+
+	UEdGraphPin* Out = nullptr;
+
+	for (UEdGraphPin* Pin : Node->Pins) {
+		if (Pin != nullptr && Pin->Direction == EGPD_Output && Pin->PinType.PinCategory != UEdGraphSchema_K2::PC_Exec) {
+			Out = Pin;
+
+			break;
+		}
+	}
+
+	/* An expression the node would not take is read the ordinary way instead */
+	if (Out == nullptr) {
+		Graph->RemoveNode(Node);
+
+		return Value;
+	}
+
+	for (const TPair<FString, FUObjectJsonValueExport>& Input : Inputs) {
+		if (UEdGraphPin* Pin = Node->FindPin(*Input.Key, EGPD_Input)) {
+			Give(Read(Input.Value), Pin);
+		}
+	}
+
+	Placed++;
+
+	Value.Pin = Out;
+
+	return Value;
+}
+
+bool FBytecodeGraph::SpellMath(const FUObjectJsonValueExport& Expression, FString& Out, TArray<TPair<FString, FUObjectJsonValueExport>>& Inputs) {
+	const FString Token = MacroReading::TokenOf(Expression);
+
+	/* A number said outright */
+	if (Token == TEXT("EX_DoubleConst") || Token == TEXT("EX_FloatConst") || Token == TEXT("EX_IntConst")) {
+		/* Written out as a number or as the text of one, depending on who wrote the export */
+		if (double Number = 0.0; Expression.JsonObject.IsValid() && Expression.JsonObject->TryGetNumberField(TEXT("Value"), Number)) {
+			Out = FString::SanitizeFloat(Number);
+		} else {
+			Out = Expression.Has(TEXT("Value")) ? Expression.GetString(TEXT("Value")) : FString();
+		}
+
+		return !Out.IsEmpty();
+	}
+
+	/* A name the blueprint declares, which the node reads itself. One with a space cannot have been typed. */
+	if (Token == TEXT("EX_InstanceVariable")) {
+		Out = MacroReading::NamedProperty(Expression.GetObject(TEXT("Variable")));
+
+		return !Out.IsEmpty() && !Out.Contains(TEXT(" "));
+	}
+
+	/* Anything worked out elsewhere comes in through a pin of its own */
+	if (Token == TEXT("EX_LocalVariable")) {
+		FString Name = MacroReading::NamedProperty(Expression.GetObject(TEXT("Variable")));
+
+		Name.RemoveFromStart(TEXT("CallFunc_"));
+		Name.RemoveFromEnd(TEXT("_ReturnValue"));
+
+		if (Name.IsEmpty() || Name.Contains(TEXT(" "))) return false;
+
+		/* Read twice, it is still the one pin */
+		if (!Inputs.ContainsByPredicate([&Name](const TPair<FString, FUObjectJsonValueExport>& One) { return One.Key == Name; })) {
+			Inputs.Add(MakeTuple(Name, Expression));
+		}
+
+		Out = Name;
+
+		return true;
+	}
+
+	/* An operator, which is a call drawn as the symbol it is given */
+	if (Token == TEXT("EX_CallMath") || Token == TEXT("EX_FinalFunction")) {
+		const UFunction* Function = ResolveFunction(Expression.GetObject(TEXT("Function")));
+
+		if (Function == nullptr || !Function->HasMetaData(FBlueprintMetadata::MD_CompactNodeTitle)) return false;
+
+		const FString Symbol = Function->GetMetaData(FBlueprintMetadata::MD_CompactNodeTitle);
+
+		/* Only what is spelled as a symbol. A name would be read as a call to that name. */
+		if (Symbol.IsEmpty() || FChar::IsAlnum(Symbol[0])) return false;
+
+		const TArray<FUObjectJsonValueExport> Arguments = Expression.Has(TEXT("Parameters"))
+			? Expression.GetArray(TEXT("Parameters"))
+			: TArray<FUObjectJsonValueExport>();
+
+		if (Arguments.Num() != 2) return false;
+
+		FString Left, Right;
+
+		if (!SpellMath(Arguments[0], Left, Inputs) || !SpellMath(Arguments[1], Right, Inputs)) return false;
+
+		Out = FString::Printf(TEXT("(%s %s %s)"), *Left, *Symbol, *Right);
+
+		return true;
+	}
+
+	return false;
+}
+
+UFunction* FBytecodeGraph::ResolveFunction(const FUObjectJsonValueExport& Reference) {
+	FString Owner, Member;
+	SplitReference(Reference, Owner, Member);
+
+	if (Owner.IsEmpty() || Member.IsEmpty()) return nullptr;
+
+	/* The class the function is on, wherever it happens to live */
+	const UClass* Class = FindClassByType(Owner);
+
+	if (Class == nullptr) return nullptr;
+
+	return FindFunctionOn(Class, Member);
+}
+
+UK2Node* FBytecodeGraph::FormatText(const FUObjectJsonValueExport& Expression) {
+	const TArray<FUObjectJsonValueExport> Arguments = Expression.Has(TEXT("Parameters"))
+		? Expression.GetArray(TEXT("Parameters"))
+		: TArray<FUObjectJsonValueExport>();
+
+	if (Arguments.Num() < 2) return nullptr;
+
+	const FValue Pattern = Read(Arguments[0]);
+	const FValue Filled = Read(Arguments[1]);
+
+	/* What it was given is an array the compiler gathered, and if it is anything else this was not
+	 * a Format Text at all but somebody calling Format themselves */
+	UK2Node_MakeArray* Gathered = Filled.Pin != nullptr ? Cast<UK2Node_MakeArray>(Filled.Pin->GetOwningNode()) : nullptr;
+
+	if (Gathered == nullptr) return nullptr;
+
+	TArray<TPair<FName, UEdGraphPin*>> Given;
+	TArray<UEdGraphNode*> Spent;
+
+	for (UEdGraphPin* Pin : Gathered->Pins) {
+		if (Pin == nullptr || Pin->Direction != EGPD_Input || Pin->LinkedTo.Num() != 1) continue;
+
+		UK2Node_MakeStruct* Made = Cast<UK2Node_MakeStruct>(Pin->LinkedTo[0]->GetOwningNode());
+
+		if (Made == nullptr || Made->StructType == nullptr) return nullptr;
+		if (Made->StructType->GetFName() != TEXT("FormatArgumentData")) return nullptr;
+
+		const UEdGraphPin* Named = Made->FindPin(TEXT("ArgumentName"), EGPD_Input);
+
+		if (Named == nullptr || Named->DefaultValue.IsEmpty()) return nullptr;
+
+		/* Which member the value is kept under is said by the kind, the same way the compiler
+		 * chose which one to put it in */
+		const UEdGraphPin* Kind = Made->FindPin(TEXT("ArgumentValueType"), EGPD_Input);
+		const FString Says = Kind != nullptr ? Kind->DefaultValue : FString();
+
+		const TCHAR* Member = TEXT("ArgumentValue");
+
+		if (Says == TEXT("Int")) Member = TEXT("ArgumentValueInt");
+		else if (Says == TEXT("Float")) Member = TEXT("ArgumentValueFloat");
+		else if (Says == TEXT("Double")) Member = TEXT("ArgumentValueDouble");
+		else if (Says == TEXT("Gender")) Member = TEXT("ArgumentValueGender");
+
+		UEdGraphPin* Holds = Made->FindPin(Member, EGPD_Input);
+		UEdGraphPin* From = Holds != nullptr && Holds->LinkedTo.Num() == 1 ? Holds->LinkedTo[0] : nullptr;
+
+		/* Turned into words on the way in, which the compiler put there rather than anybody. A
+		 * Format Text pin takes what it is given and turns it itself, so what was drawn is what
+		 * went into the turning. */
+		if (From != nullptr) {
+			if (UK2Node_CallFunction* Turning = Cast<UK2Node_CallFunction>(From->GetOwningNode())) {
+				const FString Called = Turning->FunctionReference.GetMemberName().ToString();
+
+				/* Except a whole number or a real turned into words. Format Text took both as they were
+				 * and never turned them itself, so one turned into words first was turned by hand, and
+				 * leaving it out formats the number instead of the words the graph made of it. */
+				const bool bDrawn = Called == TEXT("Conv_IntToText") || Called == TEXT("Conv_FloatToText");
+
+				if (!bDrawn && Called.StartsWith(TEXT("Conv_")) && (Called.EndsWith(TEXT("ToText")) || Called.EndsWith(TEXT("ToInt64")))) {
+					UEdGraphPin* Into = nullptr;
+
+					for (UEdGraphPin* Taking : Turning->Pins) {
+						if (Taking == nullptr || Taking->Direction != EGPD_Input) continue;
+						if (Taking->PinType.PinCategory == UEdGraphSchema_K2::PC_Exec) continue;
+						if (Taking->LinkedTo.Num() != 1) continue;
+
+						Into = Taking->LinkedTo[0];
+
+						break;
+					}
+
+					if (Into != nullptr) {
+						From = Into;
+
+						Spent.Add(Turning);
+					}
+				}
+			}
+		}
+
+		Given.Add(TPair<FName, UEdGraphPin*>(FName(*Named->DefaultValue), From));
+
+		Spent.Add(Made);
+	}
+
+	if (Given.Num() == 0) return nullptr;
+
+	UK2Node_FormatText* Node = AddNode<UK2Node_FormatText>();
+
+	Node->AllocateDefaultPins();
+
+	UEdGraphPin* Words = Node->GetFormatPin();
+
+	if (Words == nullptr) return nullptr;
+
+	if (Pattern.Pin != nullptr) {
+		Connect(Pattern.Pin, Words);
+	} else if (!Pattern.Literal.IsEmpty()) {
+		ApplyLiteral(Words, Pattern.Literal);
+	}
+
+	/* Asked to read what it is filling in, which is how it grows a pin per name. The node does the
+	 * reading rather than this, so whatever the engine counts as a name is what it gets. */
+	Node->PinDefaultValueChanged(Words);
+
+	for (const TPair<FName, UEdGraphPin*>& One : Given) {
+		if (One.Value == nullptr) continue;
+
+		if (UEdGraphPin* Takes = Node->FindArgumentPin(One.Key)) {
+			Connect(One.Value, Takes);
+		}
+	}
+
+	/* And what the compiler built to get there goes, now that the node it was built from is back */
+	for (UEdGraphNode* Over : Spent) Graph->RemoveNode(Over);
+
+	Graph->RemoveNode(Gathered);
+
+	Placed++;
+
+	return Node;
+}
+
+UK2Node* FBytecodeGraph::GetDataTableRow(const FUObjectJsonValueExport& Expression) {
+	const TArray<FUObjectJsonValueExport> Arguments = Expression.Has(TEXT("Parameters"))
+		? Expression.GetArray(TEXT("Parameters"))
+		: TArray<FUObjectJsonValueExport>();
+
+	/* The table, the row's name and where the row is put, in the order the function takes them */
+	if (Arguments.Num() < 3) return nullptr;
+
+	UK2Node_GetDataTableRow* Node = AddNode<UK2Node_GetDataTableRow>();
+
+	Node->AllocateDefaultPins();
+
+	UEdGraphPin* Table = Node->GetDataTablePin();
+	UEdGraphPin* Row = Node->GetRowNamePin();
+	UEdGraphPin* Result = Node->GetResultPin();
+
+	if (Table == nullptr || Row == nullptr || Result == nullptr) {
+		Graph->RemoveNode(Node);
+
+		return nullptr;
+	}
+
+	/* The table before anything else, since it is what the node types the row it hands back by,
+	 * and a row typed later would drop whatever had been wired to it in the meantime */
+	if (const FValue Reading = Read(Arguments[0]); Reading.Pin != nullptr) {
+		Connect(Reading.Pin, Table);
+	} else if (!Reading.Literal.IsEmpty()) {
+		ApplyLiteral(Table, Reading.Literal);
+
+		Node->PinDefaultValueChanged(Table);
+	}
+
+	if (const FValue Named = Read(Arguments[1]); Named.Pin != nullptr) {
+		Connect(Named.Pin, Row);
+	} else if (!Named.Literal.IsEmpty()) {
+		ApplyLiteral(Row, Named.Literal);
+	}
+
+	/* The local the row was put into is the row the node hands back */
+	if (Arguments[2].Has(TEXT("Variable"))) {
+		if (const FString Into = MacroReading::NamedProperty(Arguments[2].GetObject(TEXT("Variable"))); !Into.IsEmpty()) {
+			Locals.Add(Into, Result);
+		}
+	}
+
+	ChainExecution(Node);
+
+	Placed++;
+
+	return Node;
+}
+
+namespace {
+	/* A dispatcher's name with the endings that differ between spellings taken off */
+	FString PlainlyCalled(FString Called) {
+		Called.RemoveFromEnd(TEXT("_Delegate"), ESearchCase::IgnoreCase);
+		Called.RemoveFromEnd(TEXT("Event"), ESearchCase::IgnoreCase);
+
+		return Called;
+	}
+
+	/* The dispatcher a class actually keeps for a name the cook wrote. */
+	FName DispatcherOn(const UClass* Owner, const FString& Called) {
+		if (Owner == nullptr) return FName(*Called);
+
+		if (FindFProperty<FMulticastDelegateProperty>(Owner, FName(*Called)) != nullptr) return FName(*Called);
+
+		const FString Plain = PlainlyCalled(Called);
+
+		FName Answers = NAME_None;
+		int32 Found = 0;
+
+		for (TFieldIterator<FMulticastDelegateProperty> It(Owner); It; ++It) {
+			bool bSame = PlainlyCalled(It->GetName()).Equals(Plain, ESearchCase::IgnoreCase);
+
+#if WITH_EDITORONLY_DATA
+			if (!bSame) bSame = PlainlyCalled(It->GetMetaData(TEXT("DisplayName"))).Equals(Plain, ESearchCase::IgnoreCase);
+#endif
+
+			if (!bSame) continue;
+
+			Answers = It->GetFName();
+			Found++;
+		}
+
+		if (Found != 1) return FName(*Called);
+
+		UE_LOG(LogReflectionBytecode, Display, TEXT("\"%s\" is what %s calls \"%s\" here"), *Answers.ToString(), *Owner->GetName(), *Called);
+
+		return Answers;
+	}
+}
+
+UEdGraphPin* FBytecodeGraph::PointAtDelegate(UK2Node_BaseMCDelegate* Node, const FUObjectJsonValueExport& Named) {
+	if (Node == nullptr) return nullptr;
+
+	/* Stretch by something else, which the run says by reaching it through that thing. What is named
+	 * is the delegate; what it is reached through is the target the node is asked against. */
+	if (Named.Has(TEXT("ObjectExpression"))) {
+		const FValue On = Read(Named.GetObject(TEXT("ObjectExpression")));
+
+		FUObjectJsonValueExport Points;
+
+		if (Named.Has(TEXT("RValuePointer"))) {
+			Points = Named.GetObject(TEXT("RValuePointer"));
+		} else if (Named.Has(TEXT("ContextExpression"))) {
+			const FUObjectJsonValueExport Inner = Named.GetObject(TEXT("ContextExpression"));
+
+			if (Inner.Has(TEXT("Variable"))) Points = Inner.GetObject(TEXT("Variable"));
+		}
+
+		const FString Called = MacroReading::NamedProperty(Points);
+
+		if (!Called.IsEmpty()) {
+			UClass* Owner = nullptr;
+
+			if (Points.Has(TEXT("ResolvedOwner"))) {
+				FString Spelled = Points.GetObject(TEXT("ResolvedOwner")).GetString(TEXT("ObjectName"));
+
+				if (Spelled.Contains(TEXT("'"))) {
+					Spelled.Split(TEXT("'"), nullptr, &Spelled);
+					Spelled.Split(TEXT("'"), &Spelled, nullptr, ESearchCase::CaseSensitive, ESearchDir::FromEnd);
+				}
+
+				Owner = FindClassByType(Spelled);
+			}
+
+			/* Said inside the reference instead, which is where the owner goes when nothing
+			 * resolved it for us: MulticastDelegateProperty'FortHUDContext:OnUnableToPerformAction'.
+			 * Missed, the delegate is asked for on the blueprint itself, which has no dispatcher of
+			 * that name, and the node reads as an error over a name that was right all along. */
+			if (Owner == nullptr) {
+				FString Spelled = Points.GetString(TEXT("ObjectName"));
+
+				if (Spelled.Split(TEXT("'"), nullptr, &Spelled)) {
+					Spelled.RemoveFromEnd(TEXT("'"));
+
+					if (FString Held; Spelled.Split(TEXT(":"), &Held, nullptr)) {
+						/* Written either as the class alone or as the whole way down to it */
+						Held.Split(TEXT("."), nullptr, &Held, ESearchCase::CaseSensitive, ESearchDir::FromEnd);
+
+						Owner = FindClassByType(Held);
+					}
+				}
+			}
+
+			/* A dispatcher another blueprint declared names that blueprint's class beside it, as a member read
+			 * does: Owner = WidgetBlueprintGeneratedClass'_C'. Missed, it is taken as
+			 * one of this blueprint's own and the target gets cast to this blueprint before the bind. */
+			if (Owner == nullptr && Points.Has(TEXT("Owner"))) {
+				FString OwnerName;
+				FString Member;
+				SplitReference(Points.GetObject(TEXT("Owner")), OwnerName, Member);
+
+				if (!OwnerName.IsEmpty()) {
+					Owner = const_cast<UClass*>(FindClassByType(OwnerName));
+
+					/* A blueprint's class is only here once something has asked for it */
+					if (Owner == nullptr) {
+						BringInClass(Points.GetObject(TEXT("Owner")));
+
+						Owner = const_cast<UClass*>(FindClassByType(OwnerName));
+					}
+				}
+			}
+
+			if (Owner != nullptr) Node->DelegateReference.SetExternalMember(DispatcherOn(Owner, Called), Owner);
+			else Node->DelegateReference.SetSelfMember(FName(*Called));
+		}
+
+		return On.Pin;
+	}
+
+	/* One of the blueprint's own, which is asked of itself */
+	if (Named.Has(TEXT("Variable"))) {
+		if (const FString Called = MacroReading::NamedProperty(Named.GetObject(TEXT("Variable"))); !Called.IsEmpty()) {
+			Node->DelegateReference.SetSelfMember(FName(*Called));
+		}
+	}
+
+	return nullptr;
+}
+
+UEdGraphPin* FBytecodeGraph::FindAnswer(const FString& Name) const {
+	if (Graph == nullptr || Name.IsEmpty()) return nullptr;
+
+	for (UEdGraphNode* Node : Graph->Nodes) {
+		if (!Node->IsA<UK2Node_FunctionResult>()) continue;
+
+		for (UEdGraphPin* Pin : Node->Pins) {
+			if (Pin == nullptr || Pin->Direction != EGPD_Input) continue;
+			if (Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Exec) continue;
+
+			if (Pin->PinName.ToString() == Name) return Pin;
+		}
+	}
+
+	return nullptr;
+}
+
+bool FBytecodeGraph::HoldsLocals() const {
+	return Graph != nullptr && Graph->GetSchema() != nullptr && Graph->GetSchema()->GetGraphType(Graph) == GT_Function;
+}
+
+bool FBytecodeGraph::IsMade(const FString& Name) const {
+	/* A macro that was read back holds whatever it works with, a counter that runs among them */
+	if (Owned.Contains(Name)) return true;
+
+	/* A total that runs is none of these, so the writes that keep it running stay in the graph */
+	if (Running.Contains(Name)) return false;
+
+	/* Named after the node and the pin it was made for, so it is that pin and nothing else */
+	if (IsCompilerLocal(Name)) return true;
+
+	/* Kept as the Local node it was made of, which is the graph's to hold rather than the compiler's */
+	if (KeepsTemporary(Name)) return false;
+
+	/* Made to carry what was typed into a pin, which belongs on that pin */
+	if (Constants.Contains(Name)) return true;
+
+	/* Handed out by a macro that was recognised, so the macro holds it */
+	if (Owned.Contains(Name)) return true;
+
+	/* A macro's own scratch that no macro claimed. It would be a local of its own, which is the
+	 * honest reading, but the event graph cannot keep one: a local lives on a function's entry
+	 * node and there is no entry node here. Elsewhere rather than written as something that does not
+	 * exist, and said out loud, since what it really means is a macro nobody has read back yet. */
+	if (Name.StartsWith(TEXT("Temp_")) && !HoldsLocals()) return true;
+
+	return false;
+}
+
+bool FBytecodeGraph::HasLocal(const FString& Name) const {
+	UBlueprint* Blueprint = Graph != nullptr ? Graph->GetTypedOuter<UBlueprint>() : nullptr;
+
+	return Blueprint != nullptr && FBlueprintEditorUtils::FindLocalVariableGuidByName(Blueprint, Graph, *Name).IsValid();
+}
+
+bool FBytecodeGraph::KeepsTemporary(const FString& Name) const {
+	if (HoldsLocals() || !Name.StartsWith(TEXT("Temp_"))) return false;
+
+	/* A macro that was read back holds its own */
+	if (Owned.Contains(Name)) return false;
+
+	return Running.Contains(Name) || TestedScratch.Contains(Name) || HeldScratch.Contains(Name);
+}
+
+UEdGraphPin* FBytecodeGraph::Temporary(const FString& Name, const FUObjectJsonValueExport& Property) {
+	if (const TWeakObjectPtr<UK2Node_TemporaryVariable>* Made = Temporaries.Find(Name); Made != nullptr && Made->IsValid()) {
+		return (*Made)->GetVariablePin();
+	}
+
+	FEdGraphPinType Type;
+
+	if (!TypeOfProperty(Property, Type, Container)) return nullptr;
+
+	UK2Node_TemporaryVariable* Node = AddNode<UK2Node_TemporaryVariable>();
+
+	Node->VariableType = Type;
+
+	/* Named the way it was: the compiler writes Temp_, what it holds, the comment, and Variable */
+	const FString Holding = FString(TEXT("Temp_")) + Type.PinCategory.ToString() + TEXT("_");
+
+	if (Name.StartsWith(Holding)) {
+		const FString Rest = Name.RightChop(Holding.Len());
+
+		if (const int32 Ends = Rest.Find(TEXT("_Variable"), ESearchCase::CaseSensitive, ESearchDir::FromEnd); Ends > 0) {
+			Node->NodeComment = Rest.Left(Ends);
+		}
+	}
+
+	Node->AllocateDefaultPins();
+
+	Temporaries.Add(Name, Node);
+
+	return Node->GetVariablePin();
+}
+
+bool FBytecodeGraph::EnsureLocal(const FString& Name, const FUObjectJsonValueExport& Property) {
+	UBlueprint* Blueprint = Graph != nullptr ? Graph->GetTypedOuter<UBlueprint>() : nullptr;
+
+	if (Blueprint == nullptr) return false;
+
+	if (FBlueprintEditorUtils::FindLocalVariableGuidByName(Blueprint, Graph, *Name).IsValid()) return true;
+
+	FEdGraphPinType Type;
+
+	if (!TypeOfProperty(Property, Type, Container)) return false;
+
+	return FBlueprintEditorUtils::AddLocalVariable(Blueprint, Graph, *Name, Type);
+}
+
+void FBytecodeGraph::PointAtLocal(UK2Node_Variable* Node, const FString& Name) {
+	UBlueprint* Blueprint = Graph->GetTypedOuter<UBlueprint>();
+
+	Node->VariableReference.SetLocalMember(*Name, Graph->GetName(), FBlueprintEditorUtils::FindLocalVariableGuidByName(Blueprint, Graph, *Name));
+}
+
+FBytecodeGraph::FValue FBytecodeGraph::ReadVariable(const FUObjectJsonValueExport& Expression) {
+	FValue Value;
+
+	const FUObjectJsonValueExport Variable = Expression.GetObject(TEXT("Variable"));
+
+	const FString Name = MacroReading::NamedProperty(Variable);
+
+	if (Name.IsEmpty()) return Value;
+
+	/* A function's parameter and a member of the class can share a name, and the script says which one is read: the
+	 * member through the class, the parameter as the function's own. Read by name alone, the member would come back as
+	 * the parameter. */
+	const bool bReadsMember = MacroReading::TokenOf(Expression) == TEXT("EX_InstanceVariable");
+
+	/* A timeline keeps each track in a member of the class, so the script reads one as a member. The editor only
+	 * hands a track out through the timeline's own pin, and a member read of it does not compile, so a track is
+	 * read off its pin before the member reads below are asked. */
+	if (bReadsMember) {
+		if (const TPair<TWeakObjectPtr<UK2Node>, FName>* Track = Tracks.Find(Name)) {
+			if (Track->Key.IsValid()) {
+				if (UEdGraphPin* Pin = Track->Key->FindPin(Track->Value, EGPD_Output)) {
+					Value.Pin = Pin;
+
+					return Value;
+				}
+			}
+		}
+	}
+
+	/* Everything below finds what a name stands for in this function first, the entry node's pins among it, so a member
+	 * that a parameter or local shadows is read through the class before any of that is asked. */
+	if (bReadsMember && (Handouts.Contains(Name) || Locals.Contains(Name) || HasLocal(Name))) {
+		UK2Node_VariableGet* Member = AddNode<UK2Node_VariableGet>();
+
+		Member->VariableReference.SetSelfMember(*Name);
+		Member->AllocateDefaultPins();
+
+		Value.Pin = Member->FindPin(*Name, EGPD_Output);
+
+		return Value;
+	}
+
+	/* What a function was handed is a variable of the function, readable wherever the graph wants
+	 * one. Taken off the entry node instead, every place it is read draws another line back across
+	 * the whole graph to the one node, which is not how anybody lays one out. */
+	if (Handouts.Contains(Name) && !bReadsMember) {
+		UK2Node_VariableGet* Reading = AddNode<UK2Node_VariableGet>();
+
+		PointAtLocal(Reading, Name);
+
+		Reading->AllocateDefaultPins();
+
+		if (UEdGraphPin* Held = Reading->FindPin(*Name, EGPD_Output)) {
+			Value.Pin = Held;
+
+			return Value;
+		}
+
+		/* Nothing came of it, so it stays the pin it was handed on */
+		Graph->RemoveNode(Reading);
+	}
+
+	/* A macro's scratch nobody claimed, read off the Local node it was made of */
+	if (KeepsTemporary(Name)) {
+		Value.Pin = Temporary(Name, Variable.Has(TEXT("Property")) ? Variable.GetObject(TEXT("Property")) : Variable);
+
+		return Value;
+	}
+
+	/* A local the compiler made is the pin it was made for, so it reads back as that pin rather
+	 * than as anything the graph has to hold */
+	if (UEdGraphPin** Known = Locals.Find(Name)) {
+		Value.Pin = *Known;
+
+		return Value;
+	}
+
+	/* One the compiler made to carry what was typed into a pin, which reads as that value */
+	if (const FString* Carries = Carried.Find(Name)) {
+		Value.Literal = *Carries;
+
+		return Value;
+	}
+
+	/* Worked out by a call that has not been laid down yet. */
+	if (IsMade(Name)) {
+		Value.Wanted = Name;
+
+		return Value;
+	}
+
+	/* Anything else the blueprint declared, which is a node that reads it. A local the function
+	 * keeps is reached by its own name rather than through the class. */
+	UK2Node_VariableGet* Node = AddNode<UK2Node_VariableGet>();
+
+	if (HasLocal(Name) && !bReadsMember) {
+		PointAtLocal(Node, Name);
+	} else {
+		Node->VariableReference.SetSelfMember(*Name);
+	}
+
+	Node->AllocateDefaultPins();
+
+	Value.Pin = Node->FindPin(*Name, EGPD_Output);
+
+	return Value;
+}
+
+const UClass* FBytecodeGraph::DeclaredClassOf(const FUObjectJsonValueExport& Expression) {
+	const FUObjectJsonValueExport Variable = Expression.GetObject(TEXT("Variable"));
+	const FUObjectJsonValueExport Property = Variable.GetObject(TEXT("Property"));
+
+	if (!Property.Has(TEXT("PropertyClass"))) return nullptr;
+
+	const FUObjectJsonValueExport HeldClass = Property.GetObject(TEXT("PropertyClass"));
+
+	FString Owner, Member;
+	SplitReference(HeldClass, Owner, Member);
+
+	const FString Called = Member.IsEmpty() ? Owner : Member;
+
+	if (Called.IsEmpty()) return nullptr;
+
+	const UClass* Of = FindClassByType(Called);
+
+	/* A blueprint's class is only here once something has asked for it */
+	if (Of == nullptr) {
+		BringInClass(HeldClass);
+
+		Of = FindClassByType(Called);
+	}
+
+	return Of;
+}
+
+const UClass* FBytecodeGraph::ClassNamedBy(const FUObjectJsonValueExport& Expression) {
+	if (MacroReading::TokenOf(Expression) != TEXT("EX_ObjectConst")) return nullptr;
+
+	const FUObjectJsonValueExport Named = Expression.GetObject(TEXT("Value"));
+
+	FString Owner, Member;
+	SplitReference(Named, Owner, Member);
+
+	/* A reference with nothing in front of it is the whole name, not the outer of one */
+	const FString Called = Member.IsEmpty() ? Owner : Member;
+
+	/* Only a default object says which class a call is on. Anything else named outright is an
+	 * asset the graph pointed at, and what the call is made on is that asset's own kind. */
+	if (!Called.StartsWith(DEFAULT_OBJECT_PREFIX)) return nullptr;
+
+	/* A default object is named after the class it is the default of, so taking the prefix off
+	 * leaves the class */
+	return FindClassByType(Called.RightChop(FCString::Strlen(DEFAULT_OBJECT_PREFIX)));
+}
+
+void FBytecodeGraph::BringInClass(const FUObjectJsonValueExport& Named) {
+	FString Where = Named.Has(TEXT("ObjectPath")) ? Named.GetString(TEXT("ObjectPath")) : FString();
+
+	/* The engine's own classes are not assets, and there is nothing to go and get */
+	if (Where.IsEmpty() || Where.StartsWith(TEXT("/Script"))) return;
+
+	FString Owner, Member;
+	SplitReference(Named, Owner, Member);
+
+	FString Kind = Member.IsEmpty() ? Owner : Member;
+
+	/* Named after the class it is the default of, where it is one: a call made on a class names the
+	 * one object of it that always exists, and a cast names the class itself. Either way what has to
+	 * be gone and got is the class. */
+	if (Kind.StartsWith(DEFAULT_OBJECT_PREFIX)) {
+		Kind = Kind.RightChop(FCString::Strlen(DEFAULT_OBJECT_PREFIX));
+	}
+
+	/* Already here, whether the project shipped with it or something earlier asked for it */
+	if (Kind.IsEmpty() || FindClassByType(Kind) != nullptr) return;
+
+	/* Named where the game kept it, which is not where the editor keeps it */
+	Where = ToEditorPackagePath(Where);
+
+	/* An export is named by its package and the number it sits at, and the number is no part of
+	 * where the editor keeps it. Only a number comes off: a path already ending in a name is the
+	 * same path either way. */
+	if (int32 Sits; Where.FindLastChar(TEXT('.'), Sits)) {
+		const FString After = Where.RightChop(Sits + 1);
+
+		if (!After.IsEmpty() && After.IsNumeric()) {
+			LeftInline(Where, Sits);
+		}
+	}
+
+	if (Where.IsEmpty()) return;
+
+	/* What is wanted is the asset, which goes by the name of the package it sits in, rather than
+	 * the default object the call happened to name */
+	FString Leaf = Where;
+
+	if (int32 Slash; Where.FindLastChar(TEXT('/'), Slash)) {
+		Leaf = Where.RightChop(Slash + 1);
+	}
+
+	if (Leaf.IsEmpty()) return;
+
+	const FString Whole = Where + TEXT(".") + Leaf;
+
+	/* Already in the project but not loaded. Nothing has asked for it yet in a run that loads only
+	 * what it is pointed at, and one that is told to leave references alone never goes and gets it
+	 * either, so a class sitting on disk would read as one the build has not got. */
+	if (FPackageName::DoesPackageExist(Where)) {
+		LoadObject<UObject>(nullptr, *Whole);
+
+		if (FindClassByType(Kind) != nullptr) {
+			UE_LOG(LogReflectionBytecode, Display, TEXT("\"%s\" was already in the project, and was loaded"), *Whole);
+
+			return;
+		}
+	}
+
+	/* One at a time, and never the one already on its way.
+	 *
+	 * Two blueprints can each call into the other, and each would be asked for while the other was
+	 * being read. Followed straight there is no bottom to it, so a package already coming is left
+	 * to arrive rather than asked for again. */
+	static TSet<FString> Fetching;
+
+	if (Fetching.Contains(Where)) return;
+
+	Fetching.Add(Where);
+
+	TObjectPtr<UObject> Brought = nullptr;
+	bool bBrought = false;
+
+	FAssetUtilities::ConstructAsset<UObject>(Where, Whole, TEXT("BlueprintGeneratedClass"), Brought, bBrought);
+
+	Fetching.Remove(Where);
+
+	UE_LOG(LogReflectionBytecode, Display, TEXT("\"%s\" is called on and the project hasn't got it, so it was asked for: %s"),
+		*Whole, FindClassByType(Kind) != nullptr ? TEXT("here now") : TEXT("still not here"));
+}
+
+FString FBytecodeGraph::Canonical(const FUObjectJsonValueExport& Expression) {
+	if (!Expression.JsonObject.IsValid()) return FString();
+
+	/* The same expression twice reads the same twice, so what it says is what identifies it. Keys
+	 * are put in order rather than taken as they come, since two readings of the same thing need
+	 * to spell it the same way for either to be recognised as the other. */
+	TArray<FString> Keys;
+
+	for (const TPair<FString, TSharedPtr<FJsonValue>>& Field : Expression.JsonObject->Values) {
+		Keys.Add(Field.Key);
+	}
+
+	Keys.Sort();
+
+	FString Spelled = TEXT("{");
+
+	for (const FString& Key : Keys) {
+		const TSharedPtr<FJsonValue> Value = Expression.JsonObject->Values[StringToJsonKey(Key)];
+
+		Spelled += Key + TEXT(":");
+
+		if (!Value.IsValid()) continue;
+
+		if (Value->Type == EJson::Object) {
+			Spelled += Canonical(FUObjectJsonValueExport(Value->AsObject()));
+		} else if (Value->Type == EJson::Array) {
+			Spelled += TEXT("[");
+
+			for (const TSharedPtr<FJsonValue>& Held : Value->AsArray()) {
+				if (Held.IsValid() && Held->Type == EJson::Object) {
+					Spelled += Canonical(FUObjectJsonValueExport(Held->AsObject()));
+				} else if (Held.IsValid()) {
+					Spelled += Held->AsString();
+				}
+
+				Spelled += TEXT(",");
+			}
+
+			Spelled += TEXT("]");
+		} else {
+			Spelled += Value->AsString();
+		}
+
+		Spelled += TEXT(";");
+	}
+
+	return Spelled + TEXT("}");
+}
+
+/* Which writing of each local an expression reads, where the local is written more than once.
+ *
+ * Reading the same expression twice hands back the first reading, which is what makes one value
+ * wired to two things one node rather than two. A local written again between the two readings is
+ * not the same value both times: it stands for whichever node wrote it last, so the two readings
+ * have to be told apart. A local written again nowhere near them is the same value to both, and
+ * they are still worth sharing.
+ *
+ * So what is said here is which writing each reading saw. Two readings of a local between the same
+ * pair of writes say the same and share; two either side of a write say different things and do
+ * not. Locals written once say nothing, which is most of them.
+ *
+ * Put in order rather than taken as they come, since two readings of the same thing have to spell
+ * it the same way for either to be recognised as the other. */
+FString FBytecodeGraph::Stamp(const FUObjectJsonValueExport& Expression) const {
+	TArray<FString> Saw;
+
+	Gather(Expression, Saw);
+
+	if (Saw.Num() == 0) return FString();
+
+	Saw.Sort();
+
+	return TEXT("|as|") + FString::Join(Saw, TEXT(","));
+}
+
+void FBytecodeGraph::Gather(const FUObjectJsonValueExport& Expression, TArray<FString>& Saw) const {
+	if (!Expression.JsonObject.IsValid()) return;
+
+	for (const TPair<FString, TSharedPtr<FJsonValue>>& Field : Expression.JsonObject->Values) {
+		const TSharedPtr<FJsonValue> Value = Field.Value;
+
+		if (!Value.IsValid()) continue;
+
+		if (Value->Type == EJson::Object) {
+			const FUObjectJsonValueExport Held(Value->AsObject());
+
+			if (Field.Key == TEXT("Variable")) {
+				const FString Name = MacroReading::NamedProperty(Held);
+
+				if (!Name.IsEmpty() && Writes.FindRef(Name) > 1) {
+					Saw.AddUnique(FString::Printf(TEXT("%s=%d"), *Name, Version.FindRef(Name)));
+				}
+			}
+
+			Gather(Held, Saw);
+		} else if (Value->Type == EJson::Array) {
+			for (const TSharedPtr<FJsonValue>& Each : Value->AsArray()) {
+				if (Each.IsValid() && Each->Type == EJson::Object) Gather(FUObjectJsonValueExport(Each->AsObject()), Saw);
+			}
+		}
+	}
+}
+
+FBytecodeGraph::FValue FBytecodeGraph::Read(const FUObjectJsonValueExport& Expression) {
+	/* Something worked out once is worth reading twice. The same struct member read three times is
+	 * three of the same node laid side by side, which is nothing anybody wants to look at.
+	 *
+	 * Asked and answered here rather than at each way out of the reading below, so every kind of
+	 * expression is shared on the same terms. */
+	const FString Same = bTidy ? Canonical(Expression) + Stamp(Expression) : FString();
+
+	if (!Same.IsEmpty()) {
+		if (const FShared* Known = Reused.Find(Same)) {
+			/* Only what is still nearby. A value read once and wanted again a moment later is the
+			 * same read, and drawing it twice is clutter; wanted again much later it is a wire
+			 * dragged the length of the graph, and reading it again where it is wanted is tidier
+			 * than following that wire back. */
+			if (Placing - Known->Made <= SharingReach) {
+				FValue Shared;
+				Shared.Pin = Known->Pin;
+
+				return Shared;
+			}
+		}
+	}
+
+	const FValue Value = ReadExpression(Expression);
+
+	Remember(Same, Value);
+
+	return Value;
+}
+
+FBytecodeGraph::FValue FBytecodeGraph::ReadExpression(const FUObjectJsonValueExport& Expression) {
+	FValue Value;
+
+	if (!Expression.JsonObject.IsValid() || !Expression.Has(TEXT("Token"))) return Value;
+
+	const FString Token = Expression.GetString(TEXT("Token"));
+
+
+	if (Token == TEXT("EX_LocalVariable") || Token == TEXT("EX_InstanceVariable") || Token == TEXT("EX_LocalOutVariable") || Token == TEXT("EX_DefaultVariable") || Token == TEXT("EX_ClassSparseDataVariable")) {
+		return ReadVariable(Expression);
+	}
+
+	/* A constant is a value sat on the pin that takes it, which is how the graph carries one */
+	if (Token == TEXT("EX_IntZero")) {
+		Value.Literal = TEXT("0");
+
+		return Value;
+	}
+
+	if (Token == TEXT("EX_IntOne")) {
+		Value.Literal = TEXT("1");
+
+		return Value;
+	}
+
+	if (Token == TEXT("EX_IntConst") || Token == TEXT("EX_ByteConst") || Token == TEXT("EX_IntConstByte") || Token == TEXT("EX_BitFieldConst") || Token == TEXT("EX_FloatConst") || Token == TEXT("EX_DoubleConst") || Token == TEXT("EX_Int64Const") || Token == TEXT("EX_UInt64Const")) {
+		Value.Literal = LexToString(Expression.GetNumber(TEXT("Value")));
+
+		return Value;
+	}
+
+	if (Token == TEXT("EX_True")) {
+		Value.Literal = TEXT("true");
+
+		return Value;
+	}
+
+	if (Token == TEXT("EX_False")) {
+		Value.Literal = TEXT("false");
+
+		return Value;
+	}
+
+	if (Token == TEXT("EX_NameConst") || Token == TEXT("EX_StringConst") || Token == TEXT("EX_UnicodeStringConst") || Token == TEXT("EX_InstanceDelegate") || Token == TEXT("EX_PropertyConst")) {
+		Value.Literal = Expression.GetString(TEXT("Value"));
+
+		return Value;
+	}
+
+	/* Words somebody wrote, which carry where they were written from.
+	 *
+	 * Text is not a string: it is written once and looked up by a namespace and a key, and the key
+	 * is written into the script. Read back as the words alone it would be given a new key when it
+	 * was compiled again, so it is kept in the form the engine writes text out in, which says all
+	 * three and can be read back the same way. */
+	if (Token == TEXT("EX_TextConst")) {
+		const FUObjectJsonValueExport Held = Expression.GetObject(TEXT("Value"));
+
+		/* Said as a string where there is nothing to say, which is text nobody wrote */
+		if (!Held.Has(TEXT("KeyString"))) {
+			Value.Literal = TEXT("INVTEXT(\"\")");
+
+			return Value;
+		}
+
+		const auto Spelled = [&Held](const TCHAR* Field) {
+			const FUObjectJsonValueExport Inner = Held.GetObject(Field);
+
+			FString Said = Inner.Has(TEXT("Value")) ? Inner.GetString(TEXT("Value")) : FString();
+
+			return Said.ReplaceCharWithEscapedChar();
+		};
+
+		Value.Literal = FString::Printf(TEXT("NSLOCTEXT(\"%s\", \"%s\", \"%s\")"),
+			*Spelled(TEXT("Namespace")), *Spelled(TEXT("KeyString")), *Spelled(TEXT("SourceString")));
+
+		return Value;
+	}
+
+	/* Nothing, said outright.
+	 *
+	 * An object pin left empty is null, and the compiler writes this for it. There is no node and
+	 * no value: the pin taking it keeps the nothing it already had, and writes the same back. */
+	if (Token == TEXT("EX_NoObject") || Token == TEXT("EX_NoInterface")) {
+		return Value;
+	}
+
+	/* A struct written out in full, which is a value sat on the pin that takes it.
+	 *
+	 * The compiler writes the members in the order the struct hands them out, so they are read back
+	 * in that same order and named from the struct rather than counted off against anything here. */
+	if (Token == TEXT("EX_StructConst")) {
+		Value.Literal = ReadStructConst(Expression);
+
+		return Value;
+	}
+
+	if (Token == TEXT("EX_Self")) {
+		UK2Node_Self* Node = AddNode<UK2Node_Self>();
+
+		Node->AllocateDefaultPins();
+
+		Value.Pin = Node->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Output);
+
+		return Value;
+	}
+
+	/* A cast, which is one node however many statements it takes.
+	 *
+	 * The compiler writes three of them: the cast into a local, whether it worked into another, and
+	 * a test of that. All three locals are named after the node's own pins, and nothing else writes
+	 * them, so there is no guessing what they were.
+	 *
+	 * The run reaches this where the cast is made rather than where the result is read, which is
+	 * what an impure cast is: it is entered, and the run carries on out of the way it worked. */
+	if (Token == TEXT("EX_DynamicCast")) {
+		FString Owner, Member;
+		SplitReference(Expression.GetObject(TEXT("InterfaceClass")), Owner, Member);
+
+		UClass* To = const_cast<UClass*>(FindClassByType(Member.IsEmpty() ? Owner : Member));
+
+		/* Gone and got where the project has not got it.
+		 *
+		 * A cast names a class the blueprint was written against, and that class is an asset like
+		 * any other an interface, or another blueprint. Without it there is nothing to cast to
+		 * and the rest of the run reads off the end of it. */
+		if (To == nullptr) {
+			BringInClass(Expression.GetObject(TEXT("InterfaceClass")));
+
+			To = const_cast<UClass*>(FindClassByType(Member.IsEmpty() ? Owner : Member));
+		}
+
+		if (To == nullptr) {
+			Unhandled.AddUnique(FString::Printf(TEXT("cast to \"%s\", which this build does not carry"), *Owner));
+
+			return Value;
+		}
+
+		UK2Node_DynamicCast* Node = AddNode<UK2Node_DynamicCast>();
+
+		/* Pure where nothing ever went the other way out of it, which is worked out from what reads
+		 * whether it worked rather than from anything here */
+		const bool bPure = !Writing.IsEmpty() && PureCasts.Contains(Writing);
+
+		Node->TargetType = To;
+		Node->SetPurity(bPure);
+
+		Node->AllocateDefaultPins();
+
+		/* A pure one is not in the run at all: it sits in the flow of the value, and whatever was
+		 * running carries straight on past it */
+		if (!bPure) EnterNode(Node);
+
+		/* Given rather than connected, since what is cast can be written below the cast that reads it */
+		Give(Read(Expression.GetObject(TEXT("Target"))), Node->GetCastSourcePin());
+
+		/* The run carries on the way it worked. Where it did not is the node's other way out, and
+		 * what leads there is whatever tests it below. */
+		if (!bPure) Flow = Node->GetValidCastPin();
+
+		Value.Pin = Node->GetCastResultPin();
+
+		return Value;
+	}
+
+	/* A widening or narrowing the compiler wrote in, which nobody wrote in a graph.
+	 *
+	 * A pin that carries a real number carries whichever width it is given, and the compiler puts
+	 * the conversion in on the way to whatever it feeds. There is no node for it, so the cast is
+	 * read through to the value it was applied to. */
+	if (Token == TEXT("EX_Cast")) {
+		const FValue Held = Read(Expression.GetObject(TEXT("Target")));
+
+		/* Whether a cast worked, which the cast hands out itself.
+		 *
+		 * Read through to what it reached, a truth would be asked of the thing rather than of
+		 * whether there was one, and whoever wanted the truth is handed an object and left with
+		 * nothing wired. An impure cast answers by the way it goes out instead and keeps no pin for
+		 * this, which is what reading through is for. */
+		if (Held.Pin != nullptr) {
+			if (UK2Node_DynamicCast* Casting = ::Cast<UK2Node_DynamicCast>(Held.Pin->GetOwningNode());
+				Casting != nullptr && Held.Pin == Casting->GetCastResultPin()) {
+				if (UEdGraphPin* Worked = Casting->GetBoolSuccessPin()) {
+					FValue Says;
+
+					Says.Pin = Worked;
+
+					return Says;
+				}
+			}
+		}
+
+		return Held;
+	}
+
+	/* An object named outright.
+	 *
+	 * A call to a function that belongs to a class rather than to an object is still made against
+	 * something, and what the compiler makes it against is that class's default object. Nobody
+	 * wired that in a graph, and the node for such a call has no target to wire it to, so naming
+	 * one stands for nothing. Anything else is an asset the graph pointed at. */
+	if (Token == TEXT("EX_ObjectConst")) {
+		const FUObjectJsonValueExport Named = Expression.GetObject(TEXT("Value"));
+
+		FString Owner, Member;
+		SplitReference(Named, Owner, Member);
+
+		/* A reference with nothing in front of it is the whole name, not the outer of one */
+		const FString Called = Member.IsEmpty() ? Owner : Member;
+
+		if (Called.StartsWith(DEFAULT_OBJECT_PREFIX)) {
+			/* Brought in first where the class is a blueprint's.
+			 *
+			 * A call made on a class rather than on an object is made against that class's default
+			 * object, and there is still no target to wire it to. Where the class is the engine's
+			 * there is nothing to fetch. Where somebody wrote it a function library is the plain
+			 * case the class has to be here before the call it carries can be found at all, and
+			 * a project without it reads the call as unresolved and leaves it out of the graph. */
+			BringInClass(Named);
+
+			return Value;
+		}
+
+		/* Named where the game kept it, which is not where the editor keeps it */
+		FString Where = Named.Has(TEXT("ObjectPath")) ? ToEditorPackagePath(Named.GetString(TEXT("ObjectPath"))) : FString();
+
+		/* The cloud names an export by the package it is in and the number it sits at, and the
+		 * number is no part of where the editor keeps it. Left on, the name is written after it and
+		 * the whole thing points at nothing. Only a number is taken off: a path that already ends
+		 * in the object's own name is the same path either way. */
+		if (int32 Sits; Where.FindLastChar(TEXT('.'), Sits)) {
+			const FString After = Where.RightChop(Sits + 1);
+
+			if (!After.IsEmpty() && After.IsNumeric()) {
+				LeftInline(Where, Sits);
+			}
+		}
+
+		Value.Literal = Where.IsEmpty() ? Called : Where + TEXT(".") + Called;
+
+		/* Brought in where the project hasn't got it.
+		 *
+		 * A reference written into the script names something the game had, and it is a reference
+		 * like any other: everything else an import reaches is fetched the same way. Left alone,
+		 * the pin points at nothing and the graph is quietly missing whatever it named.
+		 *
+		 * What kind of thing to ask for is taken from the reference itself rather than from the pin
+		 * that will hold it. A pin says the widest thing it will accept, which is not something that
+		 * can be fetched: a material pin takes any material interface, and no asset is one of those. */
+		if (!Value.Literal.IsEmpty() && LoadObjectByPath<UObject>(Value.Literal) == nullptr) {
+			FString Kind;
+
+			if (Named.Has(TEXT("ObjectName"))) {
+				Named.GetString(TEXT("ObjectName")).Split(TEXT("'"), &Kind, nullptr);
+			}
+
+			FString Package = Value.Literal;
+
+			if (int32 Sits; Package.FindLastChar(TEXT('.'), Sits)) {
+				LeftInline(Package, Sits);
+			}
+
+			if (!Kind.IsEmpty() && !Package.IsEmpty()) {
+				TObjectPtr<UObject> Brought = nullptr;
+				bool bBrought = false;
+
+				FAssetUtilities::ConstructAsset<UObject>(Package, Value.Literal, Kind, Brought, bBrought);
+
+				if (Brought == nullptr) {
+					UE_LOG(LogReflectionBytecode, Warning, TEXT("\"%s\" is a %s the project hasn't got and the cloud would not give"), *Value.Literal, *Kind);
+				}
+			}
+		}
+
+		return Value;
+	}
+
+	/* An array written out one element at a time, which is a Make Array.
+	 *
+	 * The script has no way to say a whole array at once, so it says what it is assigning to and
+	 * then every element in turn. A Make Array node is the same thing with the elements as pins,
+	 * and it grows a pin for each one. */
+	/* An array said outright rather than built up one element at a time. */
+	if (Token == TEXT("EX_ArrayConst")) {
+		const TArray<FUObjectJsonValueExport> Values = Expression.Has(TEXT("Values"))
+			? Expression.GetArray(TEXT("Values"))
+			: TArray<FUObjectJsonValueExport>();
+
+		UK2Node_MakeArray* Node = AddNode<UK2Node_MakeArray>();
+
+		Node->NumInputs = Values.Num();
+		Node->AllocateDefaultPins();
+
+		/* What it is an array of, which is said in either of the two ways a property is named */
+		const FUObjectJsonValueExport Stored = Expression.GetObject(TEXT("InnerProperty"));
+
+		FEdGraphPinType Element;
+		bool bKnown = false;
+
+		/* Written out where it is used, carrying what it holds alongside it */
+		if (const FUObjectJsonValueExport Held = Stored.GetObject(TEXT("Property")); Held.Has(TEXT("Inner"))) {
+			bKnown = TypeOfProperty(DescribedBy(Held, TEXT("Inner"), Container), Element, Container);
+		}
+
+		/* Or named on whatever declares it, which this build has and can be asked outright */
+		if (!bKnown && Stored.Has(TEXT("ResolvedOwner"))) {
+			FString Owner, Member;
+			SplitReference(Stored.GetObject(TEXT("ResolvedOwner")), Owner, Member);
+
+			const FString Called = Member.IsEmpty() ? Owner : Member;
+
+			const UStruct* On = Called.IsEmpty() ? nullptr : static_cast<const UStruct*>(FindStructByType(Called));
+
+			if (On == nullptr && !Called.IsEmpty()) On = FindClassByType(Called);
+
+			if (On != nullptr) {
+				if (const FArrayProperty* Holds = FindFProperty<FArrayProperty>(On, *MacroReading::NamedProperty(Stored))) {
+					bKnown = GetDefault<UEdGraphSchema_K2>()->ConvertPropertyToPinType(Holds->Inner, Element);
+				}
+			}
+		}
+
+		if (bKnown) {
+			for (UEdGraphPin* Pin : Node->Pins) {
+				if (Pin != nullptr && Pin->Direction == EGPD_Input) Pin->PinType = Element;
+			}
+
+			if (UEdGraphPin* Out = Node->GetOutputPin()) {
+				FEdGraphPinType Whole = Element;
+				Whole.ContainerType = EPinContainerType::Array;
+
+				Out->PinType = Whole;
+			}
+		}
+
+		/* Each value onto the pin made for it */
+		TArray<UEdGraphPin*> Into;
+
+		for (UEdGraphPin* Pin : Node->Pins) {
+			if (Pin != nullptr && Pin->Direction == EGPD_Input) Into.Add(Pin);
+		}
+
+		for (int32 At = 0; At < Values.Num() && Into.IsValidIndex(At); ++At) {
+			Give(Read(Values[At]), Into[At]);
+		}
+
+		Value.Pin = Node->GetOutputPin();
+
+		return Value;
+	}
+
+	if (Token == TEXT("EX_SetArray")) {
+		const TArray<FUObjectJsonValueExport> Elements = Expression.Has(TEXT("Elements")) ? Expression.GetArray(TEXT("Elements")) : TArray<FUObjectJsonValueExport>();
+
+		UK2Node_MakeArray* Node = AddNode<UK2Node_MakeArray>();
+
+		/* As many pins as it was given elements, none included: an empty array made with one pin left open
+		 * would hand back an array holding one nothing. */
+		Node->NumInputs = Elements.Num();
+		Node->AllocateDefaultPins();
+
+		/* What kind of array it is, said before anything is put in it.
+		 *
+		 * The node starts out an array of wildcards and only learns better when something is wired
+		 * to it, and a value cannot be written onto a wildcard: it is dropped for not fitting a pin
+		 * that has no type yet. An array made of constants has nothing wired to it at all, so every
+		 * one of its values went that way and the node came back with the right number of pins and
+		 * nothing in any of them. The script says what it is, in the property it is stored into. */
+		FUObjectJsonValueExport Stored = Expression.GetObject(TEXT("AssigningProperty")).GetObject(TEXT("Variable"));
+
+		/* A local is written as its owner and the property it is, and it is the property that says what it holds */
+		if (!Stored.Has(TEXT("Inner")) && Stored.Has(TEXT("Property"))) Stored = Stored.GetObject(TEXT("Property"));
+
+		if (Stored.Has(TEXT("Inner"))) {
+			if (FEdGraphPinType Element; TypeOfProperty(DescribedBy(Stored, TEXT("Inner"), Container), Element, Container)) {
+				/* Told outright rather than worked out. What the node does about being told is to
+				 * look through itself for a pin that already carries something, and until the
+				 * values are in there is nothing for it to find. */
+				for (UEdGraphPin* Pin : Node->Pins) {
+					if (Pin != nullptr && Pin->Direction == EGPD_Input) Pin->PinType = Element;
+				}
+
+				if (UEdGraphPin* Out = Node->GetOutputPin()) {
+					FEdGraphPinType Whole = Element;
+					Whole.ContainerType = EPinContainerType::Array;
+
+					Out->PinType = Whole;
+				}
+			}
+		}
+
+		TArray<UEdGraphPin*> Into;
+
+		for (UEdGraphPin* Pin : Node->Pins) {
+			if (Pin != nullptr && Pin->Direction == EGPD_Input) Into.Add(Pin);
+		}
+
+		for (int32 Which = 0; Which < Elements.Num(); ++Which) {
+			if (!Into.IsValidIndex(Which)) break;
+
+			const FValue Held = Read(Elements[Which]);
+
+			if (Held.Pin != nullptr) Connect(Held.Pin, Into[Which]);
+			else if (!Held.Literal.IsEmpty()) ApplyLiteral(Into[Which], Held.Literal);
+		}
+
+		/* What it hands back settles the kind of array it is, once something has been put in it. With nothing in it,
+		 * there is nothing for it to settle from, and asked anyway it forgets the kind it was just told. */
+		if (Elements.Num() > 0) {
+			Node->PostReconstructNode();
+		}
+
+		Placed++;
+
+		Value.Pin = Node->GetOutputPin();
+
+		return Value;
+	}
+
+	/* A map said all at once, which is a Make Map. Keys and values come two at a time, and an empty
+	 * one is told from the local it is stored into. */
+	if (Token == TEXT("EX_SetMap")) {
+		const TArray<FUObjectJsonValueExport> Values = Expression.Has(TEXT("Values")) ? Expression.GetArray(TEXT("Values")) : TArray<FUObjectJsonValueExport>();
+
+		UK2Node_MakeMap* Node = AddNode<UK2Node_MakeMap>();
+
+		Node->NumInputs = Values.Num() / 2;
+		Node->AllocateDefaultPins();
+
+		FUObjectJsonValueExport Stored = Expression.GetObject(TEXT("MapProperty")).GetObject(TEXT("Variable"));
+
+		if (!Stored.Has(TEXT("KeyProp")) && Stored.Has(TEXT("Property"))) Stored = Stored.GetObject(TEXT("Property"));
+
+		TArray<UEdGraphPin*> Keys;
+		TArray<UEdGraphPin*> Mapped;
+		Node->GetKeyAndValuePins(Keys, Mapped);
+
+		if (FEdGraphPinType Whole; Stored.Has(TEXT("KeyProp")) && TypeOfProperty(Stored, Whole, Container)) {
+			FEdGraphPinType Key = Whole;
+			Key.ContainerType = EPinContainerType::None;
+			Key.PinValueType = FEdGraphTerminalType();
+
+			const FEdGraphPinType Held = FEdGraphPinType::GetPinTypeForTerminalType(Whole.PinValueType);
+
+			for (UEdGraphPin* Pin : Keys) Pin->PinType = Key;
+			for (UEdGraphPin* Pin : Mapped) Pin->PinType = Held;
+
+			if (UEdGraphPin* Out = Node->GetOutputPin()) Out->PinType = Whole;
+		}
+
+		for (int32 Pair = 0; Pair < Values.Num() / 2; ++Pair) {
+			if (Keys.IsValidIndex(Pair)) Give(Read(Values[Pair * 2]), Keys[Pair]);
+			if (Mapped.IsValidIndex(Pair)) Give(Read(Values[Pair * 2 + 1]), Mapped[Pair]);
+		}
+
+		Placed++;
+
+		Value.Pin = Node->GetOutputPin();
+
+		return Value;
+	}
+
+	/* One element read where it is kept rather than copied, which has no statement and only appears inside another */
+	if (Token == TEXT("EX_ArrayGetByRef")) {
+		UK2Node_GetArrayItem* Node = AddNode<UK2Node_GetArrayItem>();
+
+		Node->AllocateDefaultPins();
+
+		/* The array first, since what it holds is what the other two pins learn to carry */
+		Give(Read(Expression.GetObject(TEXT("ArrayVariable"))), Node->GetTargetArrayPin());
+		Give(Read(Expression.GetObject(TEXT("ArrayIndex"))), Node->GetIndexPin());
+
+		Placed++;
+
+		Value.Pin = Node->GetResultPin();
+
+		return Value;
+	}
+
+	/* One value picked out of several, which is a Select.
+	 *
+	 * The script spells it as a switch: something to look at, a case for each thing it might be,
+	 * and a value to take in each case. A Select node is the same thing with the cases as pins, and
+	 * the compiler numbers those pins in the order the cases are written, so they line up one for
+	 * one. What it calls the default is a local of its own rather than anything anybody wired. */
+	if (Token == TEXT("EX_SwitchValue")) {
+		/* Written the same way as one already read, which is that one read again */
+		FString Spelled;
+
+		if (Expression.JsonObject.IsValid()) {
+			const TSharedRef<TJsonWriter<TCHAR, TCondensedJsonPrintPolicy<TCHAR>>> Writer = TJsonWriterFactory<TCHAR, TCondensedJsonPrintPolicy<TCHAR>>::Create(&Spelled);
+
+			FJsonSerializer::Serialize(Expression.JsonObject.ToSharedRef(), Writer);
+
+			/* Less where it jumps to, which is where in the script this copy was written rather than what it says */
+			for (const TCHAR* Jump : { TEXT("\"EndGotoOffset\":"), TEXT("\"NextOffset\":") }) {
+				for (int32 At = Spelled.Find(Jump); At != INDEX_NONE; At = Spelled.Find(Jump, ESearchCase::CaseSensitive, ESearchDir::FromStart, At)) {
+					int32 End = At + FCString::Strlen(Jump);
+
+					while (End < Spelled.Len() && (FChar::IsDigit(Spelled[End]) || Spelled[End] == TEXT('-'))) ++End;
+					if (End < Spelled.Len() && Spelled[End] == TEXT(',')) ++End;
+
+					Spelled.RemoveAt(At, End - At);
+				}
+			}
+		}
+
+		if (UEdGraphNode* const* Before = Picked.Find(Spelled); Before != nullptr && Graph->Nodes.Contains(*Before)) {
+			if (UK2Node_Select* Again = Cast<UK2Node_Select>(*Before)) {
+				Value.Pin = Again->GetReturnValuePin();
+
+				return Value;
+			}
+		}
+
+		UK2Node_Select* Node = AddNode<UK2Node_Select>();
+
+		Node->AllocateDefaultPins();
+
+		/* What is looked at, wired first: the node works out what kind of thing it is picking
+		 * between from this, and lays its case pins out again to match */
+		if (UEdGraphPin* Index = Node->GetIndexPin()) {
+			const FValue Looked = Read(Expression.GetObject(TEXT("IndexTerm")));
+
+			/* Grown to the script's case count before the index is wired, or the node lays its pins out afresh
+			 * and the index lands on the wrong option. Only a number is grown; an enum lays its own out. */
+			if (Looked.Pin != nullptr && Looked.Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Int && Expression.Has(TEXT("Cases"))) {
+				const int32 Wanted = Expression.GetArray(TEXT("Cases")).Num();
+
+				TArray<UEdGraphPin*> Grown;
+				Node->GetOptionPins(Grown);
+
+				while (Grown.Num() < Wanted && Node->CanAddPin()) {
+					const int32 Had = Grown.Num();
+
+					Node->AddInputPin();
+					Node->GetOptionPins(Grown);
+
+					if (Grown.Num() <= Had) break;
+				}
+
+				Index = Node->GetIndexPin();
+			}
+
+			if (Looked.Pin != nullptr && Index != nullptr) Connect(Looked.Pin, Index);
+			else if (!Looked.Literal.IsEmpty()) ApplyLiteral(Index, Looked.Literal);
+		}
+
+		/* Laid out again now it knows what it is looking at.
+		 *
+		 * A node names its own pins, and it names the ones it picks between after the thing that
+		 * decides between them: picking on a truth, it calls them False and True rather than Option
+		 * 0 and Option 1. It only does that while laying itself out, and it had nothing to go on the
+		 * first time, so it is asked to do it once more now the index is wired. Left as it was, the
+		 * pins keep the names it gives a node that does not yet know. */
+		Node->ReconstructNode();
+
+		/* Nothing to pick by, which is a node that takes the asset with it.
+		 *
+		 * What it looks at decides what kind of thing it is and how many options it has, so an
+		 * index that resolved to nothing leaves the node a wildcard with nothing wired in. The
+		 * compiler expands one of these by making a local of the index's type, and there is no such
+		 * type: it stops, and a function that does not compile stubs every other function in the
+		 * blueprint. One node nobody could read is not worth the rest of the asset, so it is said
+		 * out loud and left out. */
+		if (const UEdGraphPin* Looks = Node->GetIndexPin();
+			Looks == nullptr || (Looks->LinkedTo.Num() == 0 && Looks->PinType.PinCategory == UEdGraphSchema_K2::PC_Wildcard)) {
+			Unhandled.AddUnique(FString::Printf(TEXT("a Select with nothing to pick by, whose index this build could not read")));
+
+			Graph->RemoveNode(Node);
+
+			return Value;
+		}
+
+		/* Asked for after the index is wired, since that is what decides how many there are */
+		TArray<UEdGraphPin*> Options;
+		Node->GetOptionPins(Options);
+
+		/* What kind of thing it is picking between.
+		 *
+		 * The node starts out picking between wildcards and only learns better when something is
+		 * wired to it, and a value cannot be written onto a wildcard: an asset put there would be
+		 * dropped for not fitting a pin that has no type yet. The script says what it is outright,
+		 * in the local the compiler keeps the untaken case in, so the pins are told before they are
+		 * given anything. Telling one tells the rest, which is the node's own doing. */
+		if (const FUObjectJsonValueExport Untaken = Expression.Has(TEXT("DefaultTerm")) ? Expression.GetObject(TEXT("DefaultTerm")) : FUObjectJsonValueExport(); Untaken.Has(TEXT("Variable")) && Options.Num() > 0) {
+			const FUObjectJsonValueExport Held = Untaken.GetObject(TEXT("Variable"));
+
+			/* Described either beside the variable or as the variable itself.
+			 *
+			 * A local written out in full is its own description: the kind it is, and the enum or
+			 * struct behind it, are on the variable rather than on a property under it. Looked for
+			 * only under one, the other says nothing, the pins are left as wildcards, and a value
+			 * written onto a wildcard is dropped for not fitting a pin that has no type. Which is
+			 * every option a Select picks between by hand: whatever was typed into them is gone and
+			 * the node comes back empty. */
+			const TSharedPtr<FJsonObject> Describes = Held.Has(TEXT("Property"))
+				? Held.GetObject(TEXT("Property")).JsonObject
+				: Held.JsonObject;
+
+			if (FEdGraphPinType Picking; FBlueprintVariables::GetPinType(Describes, Picking)) {
+				Options[0]->PinType = Picking;
+
+				Node->PinTypeChanged(Options[0]);
+
+				/* Asked for again, since being told laid them out afresh */
+				Node->GetOptionPins(Options);
+			}
+		}
+
+		const TArray<FUObjectJsonValueExport> Cases = Expression.Has(TEXT("Cases")) ? Expression.GetArray(TEXT("Cases")) : TArray<FUObjectJsonValueExport>();
+
+		for (int32 Which = 0; Which < Cases.Num(); ++Which) {
+			if (!Options.IsValidIndex(Which) || !Cases[Which].Has(TEXT("CaseTerm"))) continue;
+
+			const FValue Taken = Read(Cases[Which].GetObject(TEXT("CaseTerm")));
+
+			if (Taken.Pin != nullptr) Connect(Taken.Pin, Options[Which]);
+			else if (!Taken.Literal.IsEmpty()) ApplyLiteral(Options[Which], Taken.Literal);
+		}
+
+		Placed++;
+
+		Value.Pin = Node->GetReturnValuePin();
+
+		if (!Spelled.IsEmpty()) Picked.Add(Spelled, Node);
+
+		return Value;
+	}
+
+	/* A call reached for its value, which is the pin it returns on */
+	if (Token == TEXT("EX_CallMath") || Token == TEXT("EX_FinalFunction") || Token == TEXT("EX_LocalFinalFunction") || Token == TEXT("EX_VirtualFunction") || Token == TEXT("EX_LocalVirtualFunction")) {
+		if (UK2Node* Node = PlaceCall(Expression, nullptr)) {
+			Value.Pin = HandsBack(Node);
+		}
+
+		return Value;
+	}
+
+	/* A call on something, where the something is the target the call is made against */
+	if (Token == TEXT("EX_Context") || Token == TEXT("EX_Context_FailSilent") || Token == TEXT("EX_ClassContext")) {
+		const FUObjectJsonValueExport Upon = Expression.GetObject(TEXT("ObjectExpression"));
+
+		const FValue Target = Read(Upon);
+		const FUObjectJsonValueExport Inner = Expression.GetObject(TEXT("ContextExpression"));
+
+		/* Read off what the class was made with rather than off the thing running. */
+		if (Inner.Has(TEXT("Token")) && Inner.GetString(TEXT("Token")) == TEXT("EX_DefaultVariable")) {
+			const FUObjectJsonValueExport Held = Inner.GetObject(TEXT("Variable"));
+
+			const FString Named = MacroReading::NamedProperty(Held);
+
+			/* Whose defaults are read: the class, named either as itself or as its default object */
+			const FUObjectJsonValueExport Points = Upon.GetObject(TEXT("Value"));
+
+			FString Owner, Member;
+			SplitReference(Points, Owner, Member);
+
+			FString Called = Member.IsEmpty() ? Owner : Member;
+
+			if (Called.StartsWith(DEFAULT_OBJECT_PREFIX)) {
+				Called = Called.RightChop(FCString::Strlen(DEFAULT_OBJECT_PREFIX));
+			}
+
+			UClass* Of = Called.IsEmpty() ? nullptr : const_cast<UClass*>(FindClassByType(Called));
+
+			/* Only the game has it, so it is asked for the way any class in the script is */
+			if (Of == nullptr && !Called.IsEmpty()) {
+				BringInClass(Points);
+
+				Of = const_cast<UClass*>(FindClassByType(Called));
+			}
+
+			if (!Named.IsEmpty() && Of != nullptr) {
+				UK2Node_GetClassDefaults* Defaults = AddNode<UK2Node_GetClassDefaults>();
+
+				Defaults->AllocateDefaultPins();
+
+				/* Which class it reads, and the pins it hands out come from that being said */
+				for (UEdGraphPin* Pin : Defaults->Pins) {
+					if (Pin == nullptr || Pin->Direction != EGPD_Input) continue;
+					if (Pin->PinType.PinCategory != UEdGraphSchema_K2::PC_Class) continue;
+
+					Pin->DefaultObject = Of;
+
+					Defaults->PinDefaultValueChanged(Pin);
+
+					break;
+				}
+
+				if (UEdGraphPin* Reads = Defaults->FindPin(*Named, EGPD_Output)) {
+					Value.Pin = Reads;
+
+					return Value;
+				}
+
+				/* Nothing of that name among the defaults, so it stays whatever it read as before */
+				Graph->RemoveNode(Defaults);
+			}
+
+			/* The class is held in a variable rather than named, so it is wired in and the pins follow it */
+			if (!Named.IsEmpty() && Of == nullptr && Target.Pin != nullptr && Target.Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Class) {
+				UK2Node_GetClassDefaults* Defaults = AddNode<UK2Node_GetClassDefaults>();
+
+				Defaults->AllocateDefaultPins();
+
+				if (UEdGraphPin* ClassPin = Defaults->FindClassPin()) {
+					Target.Pin->MakeLinkTo(ClassPin);
+
+					Defaults->PinConnectionListChanged(ClassPin);
+				}
+
+				if (UEdGraphPin* Reads = Defaults->FindPin(*Named, EGPD_Output)) {
+					Value.Pin = Reads;
+
+					return Value;
+				}
+
+				Graph->RemoveNode(Defaults);
+			}
+		}
+
+		if (Inner.Has(TEXT("Token")) && Inner.GetString(TEXT("Token")).Contains(TEXT("Function"))) {
+			/* A call made on a class names it by its default object, and there is no target to read
+			 * the class off: a function library is called on nothing that appears in the graph. A
+			 * call spelled as a bare name means nothing without the class it is a name on, so the
+			 * class the default object stands for is handed along with it. */
+			/* Made against a local that is only written further down the list, as one is when an event's entry jumps
+			 * ahead to where it is set and comes back. There is no pin to read it off yet, so the call is looked up on
+			 * the class the local was declared as, and what it is made against is tied up at the end with the other
+			 * values written later. Without this a call by bare name finds nothing to be a name on and is left out. */
+			const bool bTargetLater = Target.Pin == nullptr && !Target.Wanted.IsEmpty();
+
+			const UClass* Against = bTargetLater ? DeclaredClassOf(Upon) : nullptr;
+
+			if (UK2Node* Node = PlaceCall(Inner, Target.Pin, Against != nullptr ? Against : ClassNamedBy(Upon))) {
+				if (bTargetLater) {
+					if (UEdGraphPin* Self = Node->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Input)) {
+						Later.Add(TPair<UEdGraphPin*, FString>(Self, Target.Wanted));
+					}
+				}
+
+				Value.Pin = HandsBack(Node);
+			}
+
+			return Value;
+		}
+
+		/* Reading a member off something, which the graph spells as a read made against that target */
+		if (Inner.Has(TEXT("Token")) && Inner.GetString(TEXT("Token")).EndsWith(TEXT("Variable"))) {
+			const FUObjectJsonValueExport Held = Inner.GetObject(TEXT("Variable"));
+
+			FString Name = MacroReading::NamedProperty(Held);
+			FString Owner;
+
+			/* Whose member it is, which says where the graph looks the name up */
+			if (Held.Has(TEXT("ResolvedOwner"))) {
+				FString Member;
+				SplitReference(Held.GetObject(TEXT("ResolvedOwner")), Owner, Member);
+			} else if (Held.Has(TEXT("ObjectName"))) {
+				/* An older asset points at the property rather than saying who owns it separately,
+				 * and a reference carries its owner: Class'Owner:Name' */
+				FString Member;
+				SplitReference(Held, Owner, Member);
+			} else if (Held.Has(TEXT("Owner"))) {
+				/* A member a blueprint declared names the class that holds it beside it */
+				FString Member;
+				SplitReference(Held.GetObject(TEXT("Owner")), Owner, Member);
+			}
+
+			UClass* On = Owner.IsEmpty() ? nullptr : const_cast<UClass*>(FindClassByType(Owner));
+
+			/* A blueprint's class is only here once something has asked for it */
+			if (On == nullptr && !Owner.IsEmpty() && Held.Has(TEXT("Owner"))) {
+				BringInClass(Held.GetObject(TEXT("Owner")));
+
+				On = const_cast<UClass*>(FindClassByType(Owner));
+			}
+
+			/* Read off a local only written further down the list just as well, with the target tied up at the end */
+			if (!Name.IsEmpty() && On != nullptr && (Target.Pin != nullptr || !Target.Wanted.IsEmpty())) {
+				UK2Node_VariableGet* Node = AddNode<UK2Node_VariableGet>();
+
+				Node->VariableReference.SetExternalMember(*Name, On);
+				Node->AllocateDefaultPins();
+
+				Give(Target, Node->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Input));
+
+				Value.Pin = Node->FindPin(*Name, EGPD_Output);
+
+				return Value;
+			}
+		}
+
+		return Read(Inner);
+	}
+
+	/* One field out of a struct, which the graph takes apart to reach */
+	if (Token == TEXT("EX_StructMemberContext")) {
+		const FValue Held = Read(Expression.GetObject(TEXT("StructExpression")));
+
+		const FUObjectJsonValueExport Property = Expression.GetObject(TEXT("Property"));
+
+		FString Member;
+
+		if (Property.Has(TEXT("Name"))) {
+			Member = Property.GetString(TEXT("Name"));
+		} else if (Property.JsonObject.IsValid()) {
+			const TArray<TSharedPtr<FJsonValue>>* Path;
+
+			if (Property.JsonObject->TryGetArrayField(TEXT("Path"), Path) && Path->Num() > 0) {
+				Member = (*Path)[Path->Num() - 1]->AsString();
+			}
+		}
+
+		FString Owner, Unused;
+
+		if (Property.Has(TEXT("ResolvedOwner"))) {
+			SplitReference(Property.GetObject(TEXT("ResolvedOwner")), Owner, Unused);
+		}
+
+		/* Or said as one reference, the way an older build says it */
+		ReadPropertyReference(Property, Owner, Member);
+
+		/* Or written out in full, where what it belongs to is its outer.
+		 *
+		 * A property said as a reference names the struct and the member together. One written out
+		 * says the member and puts the struct beside it, and read only the first way the struct
+		 * comes back as nothing: the member is known and there is nothing left to take it off. A
+		 * struct a blueprint declared is always written the second way, so reading one of its
+		 * members never worked at all. */
+		if (Owner.IsEmpty() && Property.Has(TEXT("Outer"))) {
+			Owner = StripObjectOuter(Property.GetObject(TEXT("Outer")).GetString(TEXT("ObjectName")));
+		}
+
+		UScriptStruct* Struct = Owner.IsEmpty() ? nullptr : FindStructAnywhere(Owner);
+
+		/* Broken on the struct itself rather than the parent that declares the member, since a parent's
+		 * node will not take a child that adds members of its own. */
+		if (Held.Pin != nullptr && Struct != nullptr && Held.Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Struct) {
+			if (UScriptStruct* Holds = Cast<UScriptStruct>(Held.Pin->PinType.PinSubCategoryObject.Get()); Holds != nullptr && Holds != Struct && Holds->IsChildOf(Struct)) {
+				Struct = Holds;
+			}
+		}
+
+		if (Held.Pin != nullptr && Struct != nullptr && !Member.IsEmpty()) {
+			/* Taking a struct apart is one node however many of its fields are wanted: reading three
+			 * of them is three reads of the same node, not three of the node. What identifies it is
+			 * the struct it takes apart, so the field is left out of what it is remembered by. */
+			const FString SameBreak = bTidy
+				? Canonical(Expression.GetObject(TEXT("StructExpression"))) + TEXT("|apart|") + Struct->GetName()
+				: FString();
+
+			UK2Node_BreakStruct* Node = nullptr;
+
+			if (!SameBreak.IsEmpty()) {
+				if (const FTakenApart* Known = Apart.Find(SameBreak)) {
+					if (Placing - Known->Made <= SharingReach) {
+						Node = Cast<UK2Node_BreakStruct>(Known->Node);
+					}
+				}
+			}
+
+			const bool bMade = Node == nullptr;
+
+			if (bMade) {
+				Node = AddNode<UK2Node_BreakStruct>();
+
+				Node->StructType = Struct;
+				Node->AllocateDefaultPins();
+
+				Connect(Held.Pin, Node->FindPinChecked(Struct->GetFName(), EGPD_Input));
+			}
+
+			Value.Pin = Node->FindPin(*Member, EGPD_Output);
+
+			if (Value.Pin != nullptr) {
+				if (bMade && !SameBreak.IsEmpty()) {
+					Apart.Add(SameBreak, FTakenApart{ Node, Placing });
+				}
+
+				return Value;
+			}
+
+			if (bMade) {
+				Graph->RemoveNode(Node);
+			}
+		}
+
+		/* Or split, where the struct cannot be taken apart.
+		 *
+		 * Breaking a struct is a node, and that node can only be made for a struct a blueprint is
+		 * allowed to hold. An animation node's own struct is not one of those, and neither is every
+		 * struct a game declares for itself so the node comes out with no members on it at all
+		 * and the field cannot be reached through it.
+		 *
+		 * Splitting the pin reaches the same field without a node: the members are read straight off
+		 * whatever hands the struct over, which is what the editor does with a struct it will not
+		 * break. */
+		if (Held.Pin != nullptr && !Member.IsEmpty()) {
+			if (Held.Pin->SubPins.Num() == 0) {
+				GetDefault<UEdGraphSchema_K2>()->SplitPin(Held.Pin, false);
+			}
+
+			for (UEdGraphPin* Piece : Held.Pin->SubPins) {
+				if (Piece == nullptr) continue;
+
+				/* Named for the pin it came off as well as the field, so only the tail is the field */
+				if (!Piece->PinName.ToString().EndsWith(Member)) continue;
+
+				Value.Pin = Piece;
+
+				return Value;
+			}
+		}
+
+		Unhandled.AddUnique(FString::Printf(TEXT("%s off %s"), *Member, *Owner));
+
+		return Value;
+	}
+
+	/* A transform constant is a value like any other: a pin that takes one spells it out, and
+	 * building a node to make it would put a statement in the script that the game never had */
+	if (Token == TEXT("EX_TransformConst")) {
+		const FUObjectJsonValueExport Held = Expression.GetObject(TEXT("Value"));
+
+		const FUObjectJsonValueExport Translation = Held.GetObject(TEXT("Translation"));
+		const FUObjectJsonValueExport Rotation = Held.GetObject(TEXT("Rotation"));
+		const FUObjectJsonValueExport Scale = Held.GetObject(TEXT("Scale3D"));
+
+		/* A transform pin spells itself as where, which way and how big, in that order, and as the
+		 * numbers alone rather than as the struct prints itself */
+		const FQuat Turn(Rotation.GetNumber(TEXT("X")), Rotation.GetNumber(TEXT("Y")), Rotation.GetNumber(TEXT("Z")), Rotation.GetNumber(TEXT("W")));
+		const FRotator Facing = Turn.Rotator();
+
+		Value.Literal = FString::Printf(
+			TEXT("%f,%f,%f|%f,%f,%f|%f,%f,%f"),
+			Translation.GetNumber(TEXT("X")), Translation.GetNumber(TEXT("Y")), Translation.GetNumber(TEXT("Z")),
+			Facing.Pitch, Facing.Yaw, Facing.Roll,
+			Scale.GetNumber(TEXT("X")), Scale.GetNumber(TEXT("Y")), Scale.GetNumber(TEXT("Z"))
+		);
+
+		return Value;
+	}
+
+	/* Where and which way round, which a pin spells as its numbers rather than as the struct prints
+	 * itself, in the order the pin is written in */
+	if (Token == TEXT("EX_VectorConst") || Token == TEXT("EX_Vector3fConst")) {
+		const FUObjectJsonValueExport Held = Expression.GetObject(TEXT("Value"));
+
+		Value.Literal = FString::Printf(TEXT("%f,%f,%f"), Held.GetNumber(TEXT("X")), Held.GetNumber(TEXT("Y")), Held.GetNumber(TEXT("Z")));
+
+		return Value;
+	}
+
+	if (Token == TEXT("EX_RotationConst")) {
+		const FUObjectJsonValueExport Held = Expression.GetObject(TEXT("Value"));
+
+		Value.Literal = FString::Printf(TEXT("%f,%f,%f"), Held.GetNumber(TEXT("Pitch")), Held.GetNumber(TEXT("Yaw")), Held.GetNumber(TEXT("Roll")));
+
+		return Value;
+	}
+
+	/* Written round a value without changing what it says.
+	 *
+	 * The compiler wraps one where the machine has to be told something the graph does not say: that
+	 * it may be stepped over, that it is reached through an interface, that what is held is a path
+	 * rather than the thing itself. What somebody drew is the value inside. */
+	if (Token == TEXT("EX_Skip") || Token == TEXT("EX_InterfaceContext") || Token == TEXT("EX_SoftObjectConst") || Token == TEXT("EX_FieldPathConst")) {
+		return Read(Inner(Expression));
+	}
+
+	/* One kind read as another, which is a cast node like any other. What it is read as is a class
+	 * whichever of these it is, since an interface is a class too. */
+	if (Token == TEXT("EX_MetaCast") || Token == TEXT("EX_ObjToInterfaceCast") || Token == TEXT("EX_CrossInterfaceCast") || Token == TEXT("EX_InterfaceToObjCast")) {
+		FString Owner, Member;
+		SplitReference(Names(Expression), Owner, Member);
+
+		UClass* To = const_cast<UClass*>(FindClassByType(Member.IsEmpty() ? Owner : Member));
+
+		/* Gone and got where the project has not got it, the same as any other cast */
+		if (To == nullptr) {
+			BringInClass(Names(Expression));
+
+			To = const_cast<UClass*>(FindClassByType(Member.IsEmpty() ? Owner : Member));
+		}
+
+		if (To == nullptr) {
+			Unhandled.AddUnique(FString::Printf(TEXT("a cast to \"%s\", which this build does not carry"), *Owner));
+
+			return Value;
+		}
+
+		/* A class read as another class is its own node, since what is cast is the class itself
+		 * rather than anything of that class */
+		UK2Node_DynamicCast* Node = Token == TEXT("EX_MetaCast")
+			? static_cast<UK2Node_DynamicCast*>(AddNode<UK2Node_ClassDynamicCast>())
+			: AddNode<UK2Node_DynamicCast>();
+
+		Node->TargetType = To;
+
+		/* Worked out where it is read unless the run went one way out of it, or every reader works it out again */
+		const bool bPure = Writing.IsEmpty() || !ImpureCasts.Contains(Writing);
+
+		Node->SetPurity(bPure);
+
+		Node->AllocateDefaultPins();
+
+		if (!bPure) EnterNode(Node);
+
+		/* Given for the same reason as the cast the run passes through */
+		Give(Read(Inner(Expression)), Node->GetCastSourcePin());
+
+		if (!bPure) Flow = Node->GetValidCastPin();
+
+		Value.Pin = Node->GetCastResultPin();
+
+		return Value;
+	}
+
+	/* Said for somebody watching rather than for the run: a breakpoint, a trace, a note for the
+	 * profiler, a marker for running the next part in a transaction. None of it was ever drawn. */
+	if (Token == TEXT("EX_NothingInt32") || Token == TEXT("EX_Breakpoint") || Token == TEXT("EX_Tracepoint")
+	 || Token == TEXT("EX_WireTracepoint") || Token == TEXT("EX_InstrumentationEvent") || Token == TEXT("EX_DeprecatedOp4A")
+	 || Token == TEXT("EX_AutoRtfmTransact") || Token == TEXT("EX_AutoRtfmStopTransact") || Token == TEXT("EX_AutoRtfmAbortIfNot")
+	 || Token == TEXT("EX_Assert")) {
+		return Value;
+	}
+
+	Unhandled.AddUnique(Token);
+
+	return Value;
+}
+
+UClass* FBytecodeGraph::EnsureComponentTemplate(const FString& Name) {
+	UBlueprint* Blueprint = Graph != nullptr ? Graph->GetTypedOuter<UBlueprint>() : nullptr;
+
+	if (Blueprint == nullptr || Name.IsEmpty() || Container == nullptr) return nullptr;
+
+	/* The component a call names is an export of its own, kept beside the class rather than in the
+	 * construction script: it is the thing the node is a copy of every time it runs. */
+	FUObjectExport* Export = nullptr;
+
+	for (FUObjectExport* Candidate : Container->Exports) {
+		if (Candidate != nullptr && Candidate->IsJsonValid() && Candidate->GetName().ToString() == Name) {
+			Export = Candidate;
+
+			break;
+		}
+	}
+
+	/* One the blueprint already keeps, told again what the asset says: made and never read, it holds nothing */
+	for (UActorComponent* Existing : Blueprint->ComponentTemplates) {
+		if (Existing != nullptr && Existing->GetName() == Name) {
+			if (Export != nullptr && ObjectSerializer != nullptr) {
+				Export->Object = Existing;
+
+				ObjectSerializer->DeserializeObjectProperties(Export->GetProperties(), Existing);
+			}
+
+			return Existing->GetClass();
+		}
+	}
+
+	if (Export == nullptr) return nullptr;
+
+	UClass* Class = Export->GetClass();
+
+	if (Class == nullptr || !Class->IsChildOf(UActorComponent::StaticClass())) return nullptr;
+
+	/* Stretch under the class rather than under the blueprint.
+	 *
+	 * A template is what the node copies every time it runs, and the class is what carries it: the
+	 * engine checks every template it has been given is kept there and refuses the class outright
+	 * when one is not, so a template made anywhere else takes the whole blueprint down with it. */
+	UObject* Keeps = Blueprint->GeneratedClass != nullptr ? static_cast<UObject*>(Blueprint->GeneratedClass) : nullptr;
+
+	if (Keeps == nullptr) return nullptr;
+
+	UActorComponent* Template = NewObject<UActorComponent>(Keeps, Class, *Name, RF_ArchetypeObject | RF_Public | RF_Transactional);
+
+	if (Template == nullptr) return nullptr;
+
+	Export->Object = Template;
+
+	/* And told what it is, or every copy the node makes comes out a bare component */
+	if (ObjectSerializer != nullptr) {
+		ObjectSerializer->DeserializeObjectProperties(Export->GetProperties(), Template);
+	}
+
+	Blueprint->ComponentTemplates.Add(Template);
+
+	UE_LOG(LogReflectionBytecode, Display, TEXT("\"%s\" is a %s the blueprint now keeps a copy of"), *Name, *Class->GetName());
+
+	return Class;
+}
+
+void FBytecodeGraph::Remember(const FString& Same, const FValue& Value) {
+	if (Same.IsEmpty() || Value.Pin == nullptr) return;
+
+	const UEdGraphNode* MadeOwningNode = Value.Pin->GetOwningNode();
+
+	/* Only what the run goes around is worth keeping. A call made for what it does has to be made
+	 * everywhere it was written, and sharing one would drop all but the first. */
+	if (MadeOwningNode == nullptr || MadeOwningNode->FindPin(UEdGraphSchema_K2::PN_Execute, EGPD_Input) != nullptr) return;
+
+	/* Stretch against where it was read, so how far away it is can be asked later */
+	Reused.Add(Same, FShared{ Value.Pin, Placing });
+}
+
+namespace {
+	/* The kind of value a property type holds, coarsely: what decides whether one could be handed to the other */
+	FName KindOfPropertyType(const FString& Type) {
+		if (Type == TEXT("ArrayProperty")) return TEXT("Array");
+		if (Type == TEXT("SetProperty")) return TEXT("Set");
+		if (Type == TEXT("MapProperty")) return TEXT("Map");
+		if (Type == TEXT("BoolProperty")) return TEXT("Bool");
+		if (Type == TEXT("StructProperty")) return TEXT("Struct");
+		if (Type == TEXT("NameProperty")) return TEXT("Name");
+		if (Type == TEXT("StrProperty")) return TEXT("String");
+		if (Type == TEXT("TextProperty")) return TEXT("Text");
+
+		if (Type == TEXT("ObjectProperty") || Type == TEXT("ClassProperty") || Type == TEXT("InterfaceProperty") || Type == TEXT("SoftObjectProperty")
+		 || Type == TEXT("SoftClassProperty") || Type == TEXT("WeakObjectProperty") || Type == TEXT("LazyObjectProperty")) {
+			return TEXT("Object");
+		}
+
+		if (Type.EndsWith(TEXT("IntProperty")) || Type.StartsWith(TEXT("Int")) || Type.StartsWith(TEXT("UInt")) || Type == TEXT("ByteProperty")
+		 || Type == TEXT("EnumProperty") || Type == TEXT("FloatProperty") || Type == TEXT("DoubleProperty")) {
+			return TEXT("Number");
+		}
+
+		return NAME_None;
+	}
+
+	/* What an argument is, where the script says so: a constant by its token, a variable by the property behind it */
+	FName KindOfArgument(const FUObjectJsonValueExport& Value) {
+		const FString Token = MacroReading::TokenOf(Value);
+
+		if (Token.StartsWith(TEXT("EX_Int")) || Token == TEXT("EX_ByteConst") || Token == TEXT("EX_FloatConst") || Token == TEXT("EX_DoubleConst")
+		 || Token == TEXT("EX_UInt64Const") || Token == TEXT("EX_Int64Const")) {
+			return TEXT("Number");
+		}
+
+		if (Token == TEXT("EX_True") || Token == TEXT("EX_False")) return TEXT("Bool");
+		if (Token == TEXT("EX_ArrayConst")) return TEXT("Array");
+		if (Token == TEXT("EX_StructConst") || Token == TEXT("EX_VectorConst") || Token == TEXT("EX_RotationConst") || Token == TEXT("EX_TransformConst")) return TEXT("Struct");
+		if (Token == TEXT("EX_NameConst")) return TEXT("Name");
+		if (Token == TEXT("EX_StringConst") || Token == TEXT("EX_UnicodeStringConst")) return TEXT("String");
+		if (Token == TEXT("EX_TextConst")) return TEXT("Text");
+		if (Token == TEXT("EX_ObjectConst") || Token == TEXT("EX_NoObject") || Token == TEXT("EX_Self")) return TEXT("Object");
+
+		if (Value.Has(TEXT("Variable"))) {
+			const FUObjectJsonValueExport Held = Value.GetObject(TEXT("Variable"));
+			const TSharedPtr<FJsonObject> Described = Held.Has(TEXT("Property")) ? Held.GetObject(TEXT("Property")).JsonObject : Held.JsonObject;
+
+			FString Type;
+
+			if (Described.IsValid() && Described->TryGetStringField(TEXT("Type"), Type)) return KindOfPropertyType(Type);
+		}
+
+		return NAME_None;
+	}
+
+	FName KindOfParameter(const FProperty* Parameter) {
+		if (Parameter->IsA<FArrayProperty>()) return TEXT("Array");
+		if (Parameter->IsA<FSetProperty>()) return TEXT("Set");
+		if (Parameter->IsA<FMapProperty>()) return TEXT("Map");
+		if (Parameter->IsA<FBoolProperty>()) return TEXT("Bool");
+		if (Parameter->IsA<FStructProperty>()) return TEXT("Struct");
+		if (Parameter->IsA<FNameProperty>()) return TEXT("Name");
+		if (Parameter->IsA<FStrProperty>()) return TEXT("String");
+		if (Parameter->IsA<FTextProperty>()) return TEXT("Text");
+		if (Parameter->IsA<FObjectPropertyBase>() || Parameter->IsA<FInterfaceProperty>()) return TEXT("Object");
+		if (Parameter->IsA<FNumericProperty>() || Parameter->IsA<FEnumProperty>()) return TEXT("Number");
+
+		return NAME_None;
+	}
+
+	/* A parameter a call may leave out: one with a default written beside it, or one the node makes for itself when nothing is wired */
+	bool IsOptionalParameter(const UFunction* Function, const FProperty* Parameter) {
+		const FString Name = Parameter->GetName();
+
+		if (Function->HasMetaData(*(TEXT("CPP_Default_") + Name))) return true;
+
+		TArray<FString> AutoCreated;
+		Function->GetMetaData(TEXT("AutoCreateRefTerm")).ParseIntoArray(AutoCreated, TEXT(","), true);
+
+		return AutoCreated.ContainsByPredicate([&Name](const FString& One) { return One.TrimStartAndEnd() == Name; });
+	}
+}
+
+UK2Node* FBytecodeGraph::PlaceCall(const FUObjectJsonValueExport& Expression, UEdGraphPin* Target, const UClass* Against) {
+	if (!Expression.Has(TEXT("Function"))) return nullptr;
+
+	UFunction* Function = nullptr;
+
+	/* A call spells its function either as a reference that carries the class it is on, or as a
+	 * bare name, which only means anything against whatever the call is made on */
+	if (Expression.JsonObject.IsValid() && Expression.JsonObject->HasTypedField<EJson::String>(TEXT("Function"))) {
+		const FString Named = Expression.GetString(TEXT("Function"));
+
+		const UClass* On = Target != nullptr ? Cast<UClass>(Target->PinType.PinSubCategoryObject.Get()) : Against;
+
+		/* Called on nothing means called on the blueprint itself. Its own functions are reached
+		 * through the skeleton: that is the class the editor keeps up to date as graphs are added,
+		 * and one added a moment ago is not on the compiled class yet. */
+		if (const UBlueprint* Own = On == nullptr && Graph != nullptr ? Graph->GetTypedOuter<UBlueprint>() : nullptr) {
+			On = Own->SkeletonGeneratedClass != nullptr ? Own->SkeletonGeneratedClass : Own->GeneratedClass;
+
+			if (On != nullptr && On->FindFunctionByName(*Named) == nullptr && Own->GeneratedClass != nullptr) {
+				On = Own->GeneratedClass;
+			}
+		}
+
+		Function = FindFunctionOn(On, Named);
+
+		/* Called on nothing from a graph that overrides a native event, which hands the native class in as
+		 * what the call is against. The blueprint's own functions are not on that class, so a call to one
+		 * is looked for on the blueprint as well before it is given up on. */
+		if (Function == nullptr && Target == nullptr && Graph != nullptr) {
+			if (const UBlueprint* Own = Graph->GetTypedOuter<UBlueprint>()) {
+				if (Own->SkeletonGeneratedClass != nullptr) Function = FindFunctionOn(Own->SkeletonGeneratedClass, Named);
+				if (Function == nullptr && Own->GeneratedClass != nullptr) Function = FindFunctionOn(Own->GeneratedClass, Named);
+				if (Function != nullptr) On = Function->GetOwnerClass();
+			}
+		}
+
+		/* Called by name, which the script only does for a function a blueprint wrote: a native callable
+		 * is called through a reference to it. So a name that lands on a native function the blueprint
+		 * had to make under a name of its own (FBlueprintGraphs::ClashSuffix) means the blueprint's one */
+		if (Function != nullptr && On != nullptr && Function->GetOwnerClass() != nullptr && Function->GetOwnerClass()->HasAnyClassFlags(CLASS_Native)) {
+			if (UFunction* Own = On->FindFunctionByName(*(Named + FBlueprintGraphs::ClashSuffix))) {
+				Function = Own;
+			}
+		}
+	} else {
+		Function = ResolveFunction(Expression.GetObject(TEXT("Function")));
+	}
+
+	if (Function == nullptr) {
+		/* Said by name, since which function it was is the whole of what went wrong.
+		 *
+		 * A call names the function it makes, and a build that has not got that function has
+		 * nothing to make the call against the class is there, the function on it is not,
+		 * because the asset was cooked against a build that had it. Nothing here can put it back,
+		 * and reading the name out of the report is what says so. */
+		const FString Names = Expression.JsonObject.IsValid() && Expression.JsonObject->HasTypedField<EJson::String>(TEXT("Function"))
+			? Expression.GetString(TEXT("Function"))
+			: Expression.GetObject(TEXT("Function")).GetString(TEXT("ObjectName"));
+
+		Unhandled.AddUnique(FString::Printf(TEXT("%s calls %s, which this build has not got"),
+			*Expression.GetString(TEXT("Token")),
+			Names.IsEmpty() ? TEXT("a function it does not name") : *Names));
+
+		return nullptr;
+	}
+
+	/* A value a macro already hands out, worked out over again.
+	 *
+	 * The compiler reads an array element once for every place the body uses it, and every one of
+	 * those reads writes the same local. The macro is where that value comes from now, so reading
+	 * it again is a node that stands for nothing: whatever wanted it is already wired to the
+	 * macro's own pin.
+	 *
+	 * Only a call that does nothing else is passed over. It has to work out a value and no more,
+	 * and every value it works out has to be one the macro already answers for, or it is doing
+	 * something of its own and belongs in the graph. */
+	if (Function->HasAnyFunctionFlags(FUNC_BlueprintPure)) {
+		const TArray<FUObjectJsonValueExport> Given = Expression.Has(TEXT("Parameters")) ? Expression.GetArray(TEXT("Parameters")) : TArray<FUObjectJsonValueExport>();
+
+		bool bWorksOutAValue = false;
+		bool bAllHandedOut = true;
+
+		int32 Which = 0;
+
+		for (TFieldIterator<FProperty> It(Function); It && (It->PropertyFlags & CPF_Parm); ++It) {
+			if (It->HasAnyPropertyFlags(CPF_ReturnParm)) continue;
+			if (!Given.IsValidIndex(Which)) break;
+
+			const FUObjectJsonValueExport& Argument = Given[Which++];
+
+			/* Handed back, rather than merely handed over by reference.
+			 *
+			 * Anything a function takes by reference is marked as something it writes, whether or
+			 * not it may write to it: an array passed for reading is const and is still marked. What
+			 * a call actually works out is what it is allowed to change. */
+			if (!It->HasAnyPropertyFlags(CPF_OutParm) || It->HasAnyPropertyFlags(CPF_ConstParm)) continue;
+
+			bWorksOutAValue = true;
+
+			const FString Into = Argument.Has(TEXT("Variable")) ? MacroReading::NamedProperty(Argument.GetObject(TEXT("Variable"))) : FString();
+
+			if (Into.IsEmpty() || !Owned.Contains(Into) || !Locals.Contains(Into)) {
+				bAllHandedOut = false;
+
+				UE_LOG(LogReflectionBytecode, Display, TEXT("%s works out \"%s\", which no macro answers for (owned %d, known %d)"),
+					*Function->GetName(), *Into, Owned.Contains(Into) ? 1 : 0, Locals.Contains(Into) ? 1 : 0);
+			}
+		}
+
+		if (bWorksOutAValue && bAllHandedOut) {
+			UE_LOG(LogReflectionBytecode, Display, TEXT("%s was passed over, since a macro already hands out everything it works out"), *Function->GetName());
+
+			return nullptr;
+		}
+	}
+
+	/* Filling words in is not a call in a graph.
+	 *
+	 * Format Text is one node with a pin for every {name} in the words it fills in. The compiler
+	 * turns each of those pins into a struct saying the name, which kind of value it is and the
+	 * value itself, gathers them into an array and calls Format with it.
+	 *
+	 * Read back as the call it is, that comes out as a Make Struct nobody could have placed: the
+	 * struct is the engine's own and has no node in the palette. So the whole run is read back as
+	 * the one node that was drawn. */
+	if (Function->GetFName() == TEXT("Format") && Function->GetOwnerClass() == UKismetTextLibrary::StaticClass()) {
+		if (UK2Node* Filled = FormatText(Expression)) return Filled;
+	}
+
+	/* A row read is a node, not a call. Read back as a call the row is a wildcard typed by whatever
+	 * declares the member, and the engine refuses a row copied into a struct that is not the table's
+	 * own, so the node types it from the table instead. */
+	if (Function->GetFName() == TEXT("GetDataTableRowFromName") && Function->GetOwnerClass() == UDataTableFunctionLibrary::StaticClass()) {
+		if (UK2Node* Reading = GetDataTableRow(Expression)) return Reading;
+	}
+
+	/* Adding a component is not a plain call in a graph: the editor has a node of its own for it,
+	 * and that node is what gives the call back a component of the right kind. Reached as a plain
+	 * call the result is only ever an actor component, and everything made from it has to be cast
+	 * back down, which puts statements in the script the game's own never had. */
+	UK2Node_CallFunction* Node = nullptr;
+
+	if (Function->GetFName() == TEXT("AddComponent")) {
+		const TArray<FUObjectJsonValueExport> Arguments = Expression.Has(TEXT("Parameters")) ? Expression.GetArray(TEXT("Parameters")) : TArray<FUObjectJsonValueExport>();
+
+		/* Which component, said by the call itself: it names the template it copies */
+		UClass* Kind = Arguments.Num() > 0 && Arguments[0].Has(TEXT("Value")) ? EnsureComponentTemplate(Arguments[0].GetString(TEXT("Value"))) : nullptr;
+
+		if (Kind != nullptr) {
+			UK2Node_AddComponent* Adding = AddNode<UK2Node_AddComponent>();
+
+			Adding->TemplateType = Kind;
+
+			Node = Adding;
+		}
+	}
+
+	/* Reaching the copy this one was written over, which is a node of its own. */
+	if (Node == nullptr && Target == nullptr) {
+		const UBlueprint* Own = Graph != nullptr ? Graph->GetTypedOuter<UBlueprint>() : nullptr;
+
+		/* Asked of the class the blueprint compiles to, not the one the editor keeps */
+		const UClass* Mine = Own != nullptr ? Own->GeneratedClass : nullptr;
+		const UClass* Theirs = Function->GetOwnerClass();
+
+		if (Mine != nullptr && Theirs != nullptr && Mine != Theirs && Mine->IsChildOf(Theirs)) {
+			/* And whether this one has a copy of its own, which makes the call a parent call */
+			const UFunction* Ours = Mine->FindFunctionByName(Function->GetFName());
+
+			if (Ours == nullptr && Own->SkeletonGeneratedClass != nullptr) {
+				Ours = Own->SkeletonGeneratedClass->FindFunctionByName(Function->GetFName());
+			}
+
+			/* The blueprint's own copy of an overridden event is only made on compile, so until then the lookup finds the parent's */
+			const FString CallToken = Expression.Has(TEXT("Token")) ? Expression.GetString(TEXT("Token")) : FString();
+			const bool bFinalCallToEvent = Function->HasAnyFunctionFlags(FUNC_BlueprintEvent)
+				&& (CallToken == TEXT("EX_FinalFunction") || CallToken == TEXT("EX_LocalFinalFunction"));
+
+			if ((Ours != nullptr && Ours != Function) || bFinalCallToEvent) {
+				Node = AddNode<UK2Node_CallParentFunction>();
+			}
+
+		}
+	}
+
+	if (Node == nullptr) {
+		Node = AddNodeOfClass<UK2Node_CallFunction>(NodeClassFor(Function));
+	}
+
+	Node->SetFromFunction(Function);
+	Node->AllocateDefaultPins();
+
+	/* The component node works out what it hands back from the template it is pointed at, and it is
+	 * pointed at one by name. Said before anything is wired to it, since saying it lays the node
+	 * out again and what was wired would be lost. */
+	if (UK2Node_AddComponent* Adding = Cast<UK2Node_AddComponent>(Node)) {
+		const TArray<FUObjectJsonValueExport> Arguments = Expression.Has(TEXT("Parameters")) ? Expression.GetArray(TEXT("Parameters")) : TArray<FUObjectJsonValueExport>();
+
+		if (Arguments.Num() > 0 && Arguments[0].Has(TEXT("Value"))) {
+			for (UEdGraphPin* Pin : Adding->Pins) {
+				if (Pin != nullptr && Pin->Direction == EGPD_Input && Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Name) {
+					Pin->DefaultValue = Arguments[0].GetString(TEXT("Value"));
+
+					break;
+				}
+			}
+		}
+
+		Adding->ReconstructNode();
+	}
+
+	/* Named the way the compiler names one, so the locals it makes for the pins come back with the
+	 * names the cooked function already carries */
+	const FString Name = FString::Printf(TEXT("CallFunc_%s"), *Function->GetName());
+
+	Node->Rename(*MakeUniqueObjectName(Graph, Node->GetClass(), *Name).ToString(), nullptr, REN_DontCreateRedirectors | REN_NonTransactional);
+
+	/* What the call is made against, where it is made against anything */
+	if (Target != nullptr) {
+		if (UEdGraphPin* Self = Node->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Input)) {
+			Connect(Target, Self);
+		}
+	}
+
+	/* The arguments, in the order the call carries them, onto the pins that take them */
+	const TArray<FUObjectJsonValueExport> Parameters = Expression.Has(TEXT("Parameters")) ? Expression.GetArray(TEXT("Parameters")) : TArray<FUObjectJsonValueExport>();
+
+	/* Whether it is one that waits, which decides whether the run carries on past it */
+	bool bWaits = false;
+
+	int32 Argument = 0;
+
+	/* What the call hands over, in the order it hands it over.
+	 *
+	 * The arguments are positional, so they are paired with the function's parameters in order, and
+	 * that only works while the two are in the same order. For a static function a blueprint
+	 * declares, they are not: the entry node makes the world context pin itself and puts it at the
+	 * front, where the compiler that wrote the call had it at the back. Paired straight through,
+	 * every argument lands one pin off and none of them fit, so a call that reads perfectly well
+	 * comes out with nothing wired to it.
+	 *
+	 * Only for one rebuilt from a blueprint. A function written in C++ is the same function the
+	 * call was written against and its parameters are already in the order they were passed. */
+	TArray<FProperty*> Takes;
+
+	for (TFieldIterator<FProperty> It(Function); It && (It->PropertyFlags & CPF_Parm); ++It) {
+		if (It->HasAnyPropertyFlags(CPF_ReturnParm)) continue;
+
+		Takes.Add(*It);
+	}
+
+	if (const UClass* Owner = Function->GetOwnerClass(); Owner != nullptr && Owner->ClassGeneratedBy != nullptr) {
+		const int32 World = Takes.IndexOfByPredicate([](const FProperty* One) {
+			return One != nullptr && One->GetFName() == TEXT("__WorldContext");
+		});
+
+		if (World != INDEX_NONE) {
+			FProperty* Held = Takes[World];
+
+			Takes.RemoveAt(World);
+
+			/* After everything handed in and before anything handed back, which is where it sits in
+			 * the signature the call was written against */
+			int32 At = Takes.IndexOfByPredicate([](const FProperty* One) {
+				return One != nullptr && One->HasAnyPropertyFlags(CPF_OutParm) && !One->HasAnyPropertyFlags(CPF_ReferenceParm);
+			});
+
+			if (At == INDEX_NONE) At = Takes.Num();
+
+			Takes.Insert(Held, At);
+		}
+	}
+
+	for (int32 Taking = 0; Taking < Takes.Num(); ++Taking) {
+		FProperty* Parameter = Takes[Taking];
+
+		if (!Parameters.IsValidIndex(Argument)) break;
+
+		/* A call cooked before a parameter was added is one argument short, and pairing straight through
+		 * lands every later argument a pin early, so a parameter that plainly does not match is passed
+		 * over and keeps its default. */
+		if (Parameters.Num() - Argument < Takes.Num() - Taking && IsOptionalParameter(Function, Parameter)) {
+			const FName Given = KindOfArgument(Parameters[Argument]);
+			const FName Wanted = KindOfParameter(Parameter);
+
+			if (!Given.IsNone() && !Wanted.IsNone() && Given != Wanted) {
+				UE_LOG(LogReflectionBytecode, Display, TEXT("\"%s\" was called without \"%s\", which this build added, so it keeps its default"),
+					*Function->GetName(), *Parameter->GetName());
+
+				continue;
+			}
+		}
+
+		UEdGraphPin* Pin = Node->FindPin(Parameter->GetFName());
+		const FUObjectJsonValueExport& Value = Parameters[Argument++];
+
+		/* A call that does not finish where it started.
+		 *
+		 * A latent call hands the engine a note saying where to pick the run up again once it is
+		 * done waiting, and the number in that note is an address in the graph that called it. The
+		 * note is the engine's own business and there is no pin for it, but where it points is the
+		 * one thing that says what runs after: without it the node is left with nothing after it,
+		 * which is what a Delay with nothing on its output is.
+		 *
+		 * The run does not carry on past a latent call either. It stops there and begins again at
+		 * the address, so nothing is chained after it in the ordinary way. */
+		if (MacroReading::TokenOf(Value) == TEXT("EX_StructConst") && Value.Has(TEXT("Struct"))
+		 && Value.GetObject(TEXT("Struct")).GetString(TEXT("ObjectName")).Contains(TEXT("LatentActionInfo"))) {
+			for (const FUObjectJsonValueExport& Held : Value.Has(TEXT("Properties")) ? Value.GetArray(TEXT("Properties")) : TArray<FUObjectJsonValueExport>()) {
+				if (MacroReading::TokenOf(Held) != TEXT("EX_SkipOffsetConst")) continue;
+
+				if (const int32 Resumes = Held.GetInteger(TEXT("Value"), INDEX_NONE); Resumes >= 0) {
+					if (UEdGraphPin* Then = Node->FindPin(UEdGraphSchema_K2::PN_Then, EGPD_Output)) {
+						Jumps.Add(MakeTuple(Then, Resumes));
+					}
+				}
+
+				break;
+			}
+
+			bWaits = true;
+
+			continue;
+		}
+
+		/* A parameter the node has no pin for.
+		 *
+		 * The engine hides some of what a function takes: a world context is worked out rather than
+		 * wired, and a library written to take one has a parameter for it that the node never draws.
+		 * Anything else missing means the node was made from a different signature than the call
+		 * was written against, and whatever was being passed goes nowhere. */
+		if (Pin == nullptr) {
+			UE_LOG(LogReflectionBytecode, Display, TEXT("\"%s\" takes \"%s\", which \"%s\" has no pin for"),
+				*Function->GetName(), *Parameter->GetName(), *Node->GetName());
+
+			continue;
+		}
+
+		/* Some pins are the node's own business: an add component node works out for itself which
+		 * actor it is adding to, and keeps the pin that says so hidden. Passed over before the
+		 * value is read rather than after, since reading one lays down the node that works it out
+		 * and nothing would ever be wired to it. */
+		if (Pin->bHidden || Pin->bNotConnectable) continue;
+
+		/* An output argument is a pin the call writes, and the local it writes into is that pin */
+		if (Pin->Direction == EGPD_Output) {
+			if (Value.Has(TEXT("Variable"))) {
+				const FUObjectJsonValueExport Variable = Value.GetObject(TEXT("Variable"));
+
+				if (const FString Named = MacroReading::NamedProperty(Variable); !Named.IsEmpty()) {
+					Locals.Add(Named, Pin);
+				}
+			}
+
+			continue;
+		}
+
+		Give(this->Read(Value), Pin);
+	}
+
+	/* One node with several targets compiles to a call each, back to back. A call matching the one
+	 * just left, taking the same thing from the same place, is that node against one more target. */
+	if (UK2Node_CallFunction* Made = Cast<UK2Node_CallFunction>(Node); Made != nullptr && Target != nullptr && Flow != nullptr && Flow->LinkedTo.Num() == 0 && WayIn(Made) != nullptr) {
+		UK2Node_CallFunction* Before = Cast<UK2Node_CallFunction>(Flow->GetOwningNode());
+		UEdGraphPin* BeforeSelf = Before != nullptr ? Before->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Input) : nullptr;
+
+		bool bAgain = Before != nullptr && Before != Made && BeforeSelf != nullptr && BeforeSelf->LinkedTo.Num() > 0
+			&& Before->GetTargetFunction() != nullptr && Before->GetTargetFunction() == Made->GetTargetFunction();
+
+		for (const UEdGraphPin* Pin : Made->Pins) {
+			if (!bAgain) break;
+			if (Pin == nullptr || Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Exec || Pin->PinName == UEdGraphSchema_K2::PN_Self) continue;
+
+			/* Something it gives back, which a call made against several things cannot */
+			if (Pin->Direction == EGPD_Output) {
+				bAgain = false;
+
+				break;
+			}
+
+			const UEdGraphPin* Same = Before->FindPin(Pin->PinName, EGPD_Input);
+
+			bAgain = Same != nullptr && Same->LinkedTo == Pin->LinkedTo && Same->DefaultValue == Pin->DefaultValue
+				&& Same->DefaultObject == Pin->DefaultObject && Same->DefaultTextValue.IdenticalTo(Pin->DefaultTextValue);
+		}
+
+		if (bAgain) {
+			Made->BreakAllNodeLinks();
+			Graph->RemoveNode(Made);
+
+			Connect(Target, BeforeSelf);
+
+			return Before;
+		}
+	}
+
+	ChainExecution(Node);
+
+	/* Said where a call came back with nothing wired to it at all, which means it was laid down and
+	 * then left out of the graph: neither what it takes nor what it works out found anywhere to go */
+	{
+		int32 Wired = 0;
+
+		for (const UEdGraphPin* Pin : Node->Pins) {
+			if (Pin != nullptr) Wired += Pin->LinkedTo.Num();
+		}
+
+		if (Wired == 0) {
+			UE_LOG(LogReflectionBytecode, Warning, TEXT("\"%s\" was laid down with nothing wired to it"), *Function->GetName());
+		}
+	}
+
+	/* Waiting is where the run stops. What comes after was said by the note it handed over, and is
+	 * linked once whatever is at that address has been laid down. */
+	if (bWaits) Flow = nullptr;
+
+	Placed++;
+
+	return Node;
+}
+
+void FBytecodeGraph::ApplyLiteral(UEdGraphPin* Pin, const FString& Literal) {
+	if (Pin == nullptr || Literal.IsEmpty()) return;
+
+	const FName Category = Pin->PinType.PinCategory;
+
+	FString Value = Literal;
+
+	/* A whole number, which the bytecode carries as a number and a pin wants without a fraction */
+	if (Category == UEdGraphSchema_K2::PC_Int || Category == UEdGraphSchema_K2::PC_Int64) {
+		Value = FString::Printf(TEXT("%lld"), static_cast<int64>(FCString::Atod(*Literal)));
+	} else if (Category == UEdGraphSchema_K2::PC_Byte) {
+		/* An enum is spelled by the name of the entry rather than by what it is worth */
+		if (const UEnum* Enum = Cast<UEnum>(Pin->PinType.PinSubCategoryObject.Get())) {
+			Value = Enum->GetNameStringByValue(static_cast<int64>(FCString::Atod(*Literal)));
+		} else {
+			Value = FString::Printf(TEXT("%lld"), static_cast<int64>(FCString::Atod(*Literal)));
+		}
+	}
+
+	const UEdGraphSchema_K2* Schema = GetDefault<UEdGraphSchema_K2>();
+
+	/* Text is kept on a pin as text rather than as what it spells, since what it spells is only one
+	 * of the three things it carries. Read back the way the engine writes it out, so the namespace
+	 * and key it was written under come back with it. */
+	if (Category == UEdGraphSchema_K2::PC_Text) {
+		FText Words;
+
+		if (FTextStringHelper::ReadFromBuffer(*Value, Words) != nullptr) {
+			Schema->TrySetDefaultText(*Pin, Words);
+		}
+
+		return;
+	}
+
+	/* An object is pointed at rather than spelled out. The pin holds the object itself, and what
+	 * the bytecode carries is only where it was kept. */
+	if (Category == UEdGraphSchema_K2::PC_Object || Category == UEdGraphSchema_K2::PC_Class
+	 || Category == UEdGraphSchema_K2::PC_SoftObject || Category == UEdGraphSchema_K2::PC_SoftClass
+	 || Category == UEdGraphSchema_K2::PC_Interface) {
+		UObject* Pointed = LoadObjectByPath<UObject>(Value);
+
+		/* Brought in where the project hasn't got it.
+		 *
+		 * A reference written into the script names something the game had, and it is a reference
+		 * like any other: everything else an import reaches is fetched the same way, and a value
+		 * sat on a pin is no different for being written rather than wired. Left alone, the pin
+		 * points at nothing and the graph is quietly missing whatever it named.
+		 *
+		 * What kind of thing to ask for is what the pin takes, since the pin is the one thing here
+		 * that knows. */
+		if (Pointed == nullptr) {
+			const UClass* Takes = Cast<UClass>(Pin->PinType.PinSubCategoryObject.Get());
+
+			FString Package = Value;
+
+			if (int32 Named; Package.FindLastChar(TEXT('.'), Named)) {
+				LeftInline(Package, Named);
+			}
+
+			if (Takes != nullptr && !Package.IsEmpty()) {
+				TObjectPtr<UObject> Brought = nullptr;
+				bool bBrought = false;
+
+				FAssetUtilities::ConstructAsset<UObject>(Package, Value, Takes->GetName(), Brought, bBrought);
+
+				Pointed = Brought;
+			}
+		}
+
+		if (Pointed != nullptr) {
+			Schema->TrySetDefaultObject(*Pin, Pointed);
+		} else {
+			UE_LOG(LogReflectionBytecode, Warning, TEXT("nothing at \"%s\" for pin \"%s\" on \"%s\""), *Value, *Pin->PinName.ToString(), *Pin->GetOwningNode()->GetName());
+		}
+
+		return;
+	}
+
+	/* Set through the schema, which is what decides whether a pin will take a value at all */
+	const FString Refused = Schema->IsPinDefaultValid(Pin, Value, nullptr, FText::GetEmpty());
+
+	if (!Refused.IsEmpty()) {
+		UE_LOG(LogReflectionBytecode, Warning, TEXT("pin \"%s\" on \"%s\" (%s) would not take \"%s\": %s"), *Pin->PinName.ToString(), *Pin->GetOwningNode()->GetName(), *Category.ToString(), *Value, *Refused);
+	}
+
+	Schema->TrySetDefaultValue(*Pin, Value);
+}
+
+void FBytecodeGraph::Give(const FValue& What, UEdGraphPin* To) {
+	if (To == nullptr) return;
+
+	if (What.Pin != nullptr) {
+		Connect(What.Pin, To);
+	} else if (!What.Literal.IsEmpty()) {
+		ApplyLiteral(To, What.Literal);
+	} else if (!What.Wanted.IsEmpty()) {
+		Later.Add(TPair<UEdGraphPin*, FString>(To, What.Wanted));
+	}
+}
+
+void FBytecodeGraph::Connect(UEdGraphPin* From, UEdGraphPin* To) {
+	if (From == nullptr || To == nullptr) return;
+
+	/* Some pins are the schema's own business: a call carries what it passes through them, and the
+	 * graph is not meant to reach them */
+	if (To->bHidden || To->bNotConnectable || From->bHidden || From->bNotConnectable) return;
+
+	const UEdGraphSchema_K2* Schema = GetDefault<UEdGraphSchema_K2>();
+
+	/* A self pin left alone already stands for the blueprint itself, so a self reference wired into
+	 * one says what the empty pin said anyway.
+	 *
+	 * Except on a call, where the two are not the same thing. What a call is made against is the
+	 * call's context, and the compiler only writes one where something was wired: connected, the
+	 * call is written as a context around it; left empty, it is written as a plain call on the
+	 * blueprint. Both run the same and neither is longer by accident, so the wire stays on a call
+	 * and goes everywhere else. */
+	if (Schema->IsSelfPin(*To) && !To->GetOwningNode()->IsA<UK2Node_CallFunction>()) {
+		if (UK2Node_Self* Itself = Cast<UK2Node_Self>(From->GetOwningNode())) {
+			/* Unless something else is reading it, in which case it is drawn for their sake */
+			if (From->LinkedTo.Num() == 0) Graph->RemoveNode(Itself);
+
+			return;
+		}
+	}
+
+	/* Asked of the schema rather than forced, so a pair that wants a conversion between them gets
+	 * one instead of a link the compiler will refuse later */
+	if (Schema->TryCreateConnection(From, To)) return;
+
+	/* The bytecode says what a call was made against and not what it was read as, so a value that
+	 * arrives wider than the pin taking it was cast in the graph and has to be cast again here.
+	 * Which class it is cast to is the one the pin asks for. */
+	UClass* Target = Cast<UClass>(To->PinType.PinSubCategoryObject.Get());
+
+	/* Unless it is that already.
+	 *
+	 * What comes out of a cast is the thing it was cast to, and reading it is reading something of
+	 * that kind. Casting it again says nothing the value did not already say: it puts a node in the
+	 * graph nobody drew, and the same thing is worked out twice over.
+	 *
+	 * Where the two are compatible and the schema still would not have them, the trouble is
+	 * something else a reference held one way against a pin that holds it another and a cast
+	 * would not have answered it either. */
+	if (Target != nullptr) {
+		if (const UClass* Already = Cast<UClass>(From->PinType.PinSubCategoryObject.Get()); Already != nullptr && Already->IsChildOf(Target)) {
+			UE_LOG(LogReflectionBytecode, Display, TEXT("\"%s\" is a %s already, so it was not cast to one again"),
+				*From->PinName.ToString(), *Target->GetName());
+
+			return;
+		}
+	}
+
+	if (Target != nullptr && From->PinType.PinCategory == UEdGraphSchema_K2::PC_Object && To->PinType.PinCategory == UEdGraphSchema_K2::PC_Object) {
+		UK2Node_DynamicCast* Node = AddNode<UK2Node_DynamicCast>();
+
+		Node->TargetType = Target;
+		Node->AllocateDefaultPins();
+
+		/* Pure, so it sits in the flow of the value rather than in the run of execution. Asked for
+		 * after the pins exist, since it is the pins it rebuilds. */
+		Node->SetPurity(true);
+
+		UEdGraphPin* Source = Node->GetCastSourcePin();
+		UEdGraphPin* Result = Node->GetCastResultPin();
+
+		if (Source != nullptr && Result != nullptr && Schema->TryCreateConnection(From, Source) && Schema->TryCreateConnection(Result, To)) {
+			return;
+		}
+
+		Graph->RemoveNode(Node);
+	}
+
+	/* A pin the schema keeps for itself, which nothing in the graph is meant to reach */
+	Unhandled.AddUnique(FString::Printf(TEXT("link %s -> %s"), *From->PinName.ToString(), *To->PinName.ToString()));
+}
+
+void FBytecodeGraph::LinkExecution(UEdGraphPin* From, UEdGraphPin* To) {
+	if (From == nullptr || To == nullptr) return;
+
+	/* A way out of a node leads to one place. Claiming one that is already spoken for would quietly
+	 * take the run off whatever was there before, which is how a whole stretch of the graph goes
+	 * missing without anything saying so. */
+	if (From->LinkedTo.Num() > 0) {
+		Contested.AddUnique(FString::Printf(TEXT("%s.%s"), *From->GetOwningNode()->GetName(), *From->PinName.ToString()));
+
+		return;
+	}
+
+	From->MakeLinkTo(To);
+}
+
+UEdGraphPin* FBytecodeGraph::WayIn(UEdGraphNode* Node) {
+	if (Node == nullptr) return nullptr;
+
+	/* Almost everything spells it the one way */
+	if (UEdGraphPin* Named = Node->FindPin(UEdGraphSchema_K2::PN_Execute, EGPD_Input)) return Named;
+
+	/* A macro is entered through whatever its own tunnel was called, which is a name somebody chose
+	 * rather than the schema's. There is only ever one way into one, so it is found by being the
+	 * way in rather than by being called anything in particular. */
+	for (UEdGraphPin* Pin : Node->Pins) {
+		if (Pin != nullptr && Pin->Direction == EGPD_Input && Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Exec) return Pin;
+	}
+
+	return nullptr;
+}
+
+void FBytecodeGraph::EnterNode(UK2Node* Node) {
+	/* Which statement the run had reached when this one was placed, for saying where it broke */
+	UEdGraphPin* In = WayIn(Node);
+
+	if (In == nullptr) return;
+
+	if (Flow != nullptr) {
+		LinkExecution(Flow, In);
+
+		/* The first thing the run reaches, kept so the entry can be tied to it once everything is
+		 * laid down: reconstructing a node along the way drops what was linked to it */
+		if (Start == nullptr) {
+			Start = In;
+		}
+
+		Chained++;
+	} else {
+		UE_LOG(LogReflectionBytecode, Warning, TEXT("nothing leads into \"%s\""), *Node->GetName());
+
+		Orphaned++;
+	}
+}
+
+void FBytecodeGraph::ChainExecution(UK2Node* Node) {
+	/* A node with nowhere to come in has nothing to do with the run: a value it works out is used
+	 * wherever it is wanted, and the run goes around it */
+	if (WayIn(Node) == nullptr) return;
+
+	EnterNode(Node);
+
+	/* Where the run carries on. Most nodes call it "then", and one that spells it otherwise still
+	 * has exactly one way out, so the way out is what is asked for rather than the name. A node
+	 * with several, a sequence among them, is handled where it is placed. */
+	Flow = Node->FindPin(UEdGraphSchema_K2::PN_Then, EGPD_Output);
+
+	if (Flow == nullptr) {
+		for (UEdGraphPin* Pin : Node->Pins) {
+			if (Pin != nullptr && Pin->Direction == EGPD_Output && Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Exec) {
+				Flow = Pin;
+
+				break;
+			}
+		}
+
+		/* The node a function answers through is the end of the run and has no way out by design */
+		if (Flow == nullptr && !Node->IsA<UK2Node_FunctionResult>()) {
+			Unhandled.AddUnique(FString::Printf(TEXT("no way out of %s"), *Node->GetName()));
+		}
+	}
+}
+
+bool FBytecodeGraph::FillStruct(const FUObjectJsonValueExport& Statement, const FUObjectJsonValueExport& Variable, const FValue& Expression) {
+	const FUObjectJsonValueExport Held = Variable.GetObject(TEXT("Property"));
+
+	FString Owner, Member;
+	SplitReference(Held.GetObject(TEXT("ResolvedOwner")), Owner, Member);
+
+	/* Which member is being filled. Kept from here, since a reference says the struct and the
+	 * member together and throwing away the half it says leaves nothing to look for below. */
+	FString Named;
+
+	/* Or said as one reference, the way an older build says it */
+	if (Owner.IsEmpty()) {
+		ReadPropertyReference(Held, Owner, Named);
+	}
+
+	UScriptStruct* Kind = FindStructByType(Member.IsEmpty() ? Owner : Member);
+
+	if (Kind == nullptr) {
+		Unhandled.AddUnique(FString::Printf(TEXT("a struct of \"%s\", which this build does not carry"), *Owner));
+
+		return false;
+	}
+
+	/* Or said as the way down to it. One step is a member of the struct itself, which is all a node
+	 * has pins for. */
+	if (Named.IsEmpty()) {
+		if (const TArray<TSharedPtr<FJsonValue>>* Path = nullptr; Held.JsonObject.IsValid() && Held.JsonObject->TryGetArrayField(TEXT("Path"), Path) && Path->Num() == 1) {
+			Named = (*Path)[0]->AsString();
+		}
+	}
+
+	if (Named.IsEmpty()) return false;
+
+	/* The local it is being built in, which is what the node hands out from here on */
+	const FString Into = MacroReading::NamedProperty(Variable.GetObject(TEXT("StructExpression")).GetObject(TEXT("Variable")));
+
+	if (Into.IsEmpty()) return false;
+
+	/* Members are written the same way for a struct the compiler made and one somebody declared. Only
+	 * the first is a Make Struct, which would otherwise default away everything left unwritten. */
+	const FUObjectJsonValueExport Holder = Variable.GetObject(TEXT("StructExpression"));
+	const FString HeldThrough = MacroReading::TokenOf(Holder);
+
+	if (HasLocal(Into) || Handouts.Contains(Into) || HeldThrough == TEXT("EX_InstanceVariable")) {
+		UK2Node_SetFieldsInStruct* Setting = nullptr;
+
+		/* Members written one after another are the one node, the way the editor draws them */
+		if (const TPair<UK2Node_SetFieldsInStruct*, int32>* Last = SettingMembers.Find(Into); Last != nullptr && Last->Value == Placing - 1) {
+			Setting = Last->Key;
+		}
+
+		if (Setting == nullptr) {
+			const FValue Kept = ReadVariable(Holder);
+
+			if (Kept.Pin == nullptr) return false;
+
+			Setting = AddNode<UK2Node_SetFieldsInStruct>();
+
+			Setting->StructType = Kind;
+			Setting->bMadeAfterOverridePinRemoval = true;
+			Setting->AllocateDefaultPins();
+
+			Connect(Kept.Pin, Setting->FindPin(TEXT("StructRef"), EGPD_Input));
+
+			ChainExecution(Setting);
+
+			Placed++;
+		}
+
+		SettingMembers.Add(Into, TPair<UK2Node_SetFieldsInStruct*, int32>(Setting, Placing));
+
+		/* A Set Members starts with every member hidden, and only the shown ones are written */
+		for (FOptionalPinFromProperty& Shown : Setting->ShowPinForProperties) {
+			if (Shown.PropertyName == FName(*Named)) Shown.bShowPin = true;
+		}
+
+		/* Rebuilding the node makes its pins again, and the run may be waiting on its old way out */
+		const bool bRunLeavesHere = Flow != nullptr && Flow->GetOwningNodeUnchecked() == Setting;
+
+		Setting->ReconstructNode();
+
+		if (bRunLeavesHere) Flow = Setting->FindPin(UEdGraphSchema_K2::PN_Then, EGPD_Output);
+
+		UEdGraphPin* MemberPin = Setting->FindPin(*Named, EGPD_Input);
+
+		if (MemberPin == nullptr) return false;
+
+		Give(Expression, MemberPin);
+
+		return true;
+	}
+
+	/* One node for the whole struct, found again by what it hands out */
+	UK2Node_MakeStruct* Node = nullptr;
+
+	if (UEdGraphPin** Already = Locals.Find(Into); Already != nullptr && *Already != nullptr) {
+		Node = Cast<UK2Node_MakeStruct>((*Already)->GetOwningNode());
+	}
+
+	if (Node == nullptr) {
+		Node = AddNode<UK2Node_MakeStruct>();
+
+		Node->StructType = Kind;
+
+		/* Made now rather than before the engine stopped drawing a pin for every member saying
+		 * whether that member was set, which a struct made today has none of */
+		Node->bMadeAfterOverridePinRemoval = true;
+
+		Node->AllocateDefaultPins();
+
+		if (UEdGraphPin* Out = Node->FindPin(Kind->GetFName(), EGPD_Output)) {
+			Locals.Add(Into, Out);
+		}
+
+		Placed++;
+	}
+
+	UEdGraphPin* Pin = Node->FindPin(*Named, EGPD_Input);
+
+	if (Pin == nullptr) return false;
+
+	if (Expression.Pin != nullptr) {
+		Connect(Expression.Pin, Pin);
+	} else if (!Expression.Literal.IsEmpty()) {
+		ApplyLiteral(Pin, Expression.Literal);
+	}
+
+	return true;
+}
+
+namespace {
+	/* A member an older build let blueprints write straight into, which this build only lets them
+	 * set through a function: the property no longer takes a write from a blueprint, and the class
+	 * carries a blueprint function named after it that takes one value of the same kind. */
+	UFunction* SetterFor(const UClass* Class, const FString& Member) {
+		if (Class == nullptr || Member.IsEmpty()) return nullptr;
+
+		const FProperty* Property = FindFProperty<FProperty>(Class, *Member);
+
+		if (Property == nullptr) return nullptr;
+		if (Property->HasAnyPropertyFlags(CPF_BlueprintVisible) && !Property->HasAnyPropertyFlags(CPF_BlueprintReadOnly)) return nullptr;
+
+		UFunction* Setter = Class->FindFunctionByName(*(FString(TEXT("Set")) + Member));
+
+		if (Setter == nullptr || !Setter->HasAnyFunctionFlags(FUNC_BlueprintCallable)) return nullptr;
+
+		const FProperty* Taken = nullptr;
+		int32 Taking = 0;
+
+		for (TFieldIterator<FProperty> It(Setter); It && It->HasAnyPropertyFlags(CPF_Parm); ++It) {
+			if (It->HasAnyPropertyFlags(CPF_ReturnParm)) continue;
+			if (It->HasAnyPropertyFlags(CPF_OutParm) && !It->HasAnyPropertyFlags(CPF_ReferenceParm)) continue;
+
+			Taken = *It;
+			Taking++;
+		}
+
+		return Taking == 1 && Taken != nullptr && Taken->SameType(Property) ? Setter : nullptr;
+	}
+}
+
+bool FBytecodeGraph::Place(const FUObjectJsonValueExport& Statement) {
+	if (!Statement.Has(TEXT("Token"))) return false;
+
+	const FString Token = Statement.GetString(TEXT("Token"));
+
+	/* Storing into a local the compiler made is not a node: it is where a call put what it
+	 * returned, so the local stands for that pin from here on */
+	if (Token == TEXT("EX_Let") || Token == TEXT("EX_LetBool") || Token == TEXT("EX_LetObj") || Token == TEXT("EX_LetWeakObjPtr")) {
+		const FUObjectJsonValueExport Variable = Statement.GetObject(TEXT("Variable"));
+
+		/* Said before the expression is read, since a cast is built while reading one and what it
+		 * is put into is the only thing that says which cast it is */
+		const FString Was = Writing;
+
+		Writing = Variable.Has(TEXT("Variable")) ? MacroReading::NamedProperty(Variable.GetObject(TEXT("Variable"))) : FString();
+
+		/* A local written into more than once was written into by more than one node.
+		 *
+		 * What has been read before is handed back rather than read again, which is what makes a
+		 * value wired to two things one node rather than two. A second write of the same local is
+		 * not that: the compiler wrote it because there was a second node, spelled the same way
+		 * because it does the same thing. Read through the first one, the graph comes back with one
+		 * node where the game had two, and whatever the second one fed is left with nothing. */
+		const bool bAgain = !Writing.IsEmpty() && Writes.FindRef(Writing) > 1;
+
+		/* What a Math Expression worked out, which is one node however many calls it was written as */
+		FValue Expression;
+
+		if (Writing.StartsWith(TEXT("K2Node_MathExpression"))) {
+			Expression = ReadMathExpression(Statement.GetObject(TEXT("Expression")));
+		}
+
+		if (!Expression.IsSet()) {
+			Expression = bAgain
+				? ReadExpression(Statement.GetObject(TEXT("Expression")))
+				: Read(Statement.GetObject(TEXT("Expression")));
+		}
+
+		const FString Into = Writing;
+
+		Writing = Was;
+
+		/* A write the class no longer takes, laid down as a call to the setter it offers instead.
+		 * The target is left alone when there is none, which a call reads as the blueprint itself. */
+		const auto CallSetter = [this, &Expression](UFunction* Setter, const FValue& Target) {
+			UK2Node_CallFunction* Node = AddNodeOfClass<UK2Node_CallFunction>(NodeClassFor(Setter));
+
+			Node->SetFromFunction(Setter);
+			Node->AllocateDefaultPins();
+
+			if (Target.Pin != nullptr || !Target.Wanted.IsEmpty()) {
+				Give(Target, Node->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Input));
+			}
+
+			for (TFieldIterator<FProperty> It(Setter); It && It->HasAnyPropertyFlags(CPF_Parm); ++It) {
+				if (It->HasAnyPropertyFlags(CPF_ReturnParm)) continue;
+
+				if (UEdGraphPin* Pin = Node->FindPin(It->GetFName(), EGPD_Input)) {
+					Give(Expression, Pin);
+
+					break;
+				}
+			}
+
+			ChainExecution(Node);
+
+			Placed++;
+
+			return true;
+		};
+
+		/* And from here on the local stands for what has just been written into it, which is not
+		 * what anything read out of it before */
+		if (!Into.IsEmpty()) Version.FindOrAdd(Into)++;
+
+		/* A struct built a member at a time, which is a Make Struct. The script has no way to say
+		 * a whole struct at once, so it names the struct it is filling and then each member. */
+		if (MacroReading::TokenOf(Variable) == TEXT("EX_StructMemberContext")) {
+			/* Unless the graph answers through it.
+			 *
+			 * A transition rule ends by setting the member of the node it decides, and read as
+			 * written that is a struct being filled a member at a time a Make Struct built for a
+			 * node that already exists, which is what one of these looks like laid out in the wrong
+			 * graph. What was meant is the node this graph ends at, so the answer is wired to it. */
+			if (Decided.Num() > 0) {
+				FString Owner, Member;
+
+				ReadStructMemberContext(Variable, Owner, Member);
+
+				if (UEdGraphPin* const* Answers = Decided.Find(FString::Printf(TEXT("%s.%s"), *Owner, *Member))) {
+					if (Expression.Pin != nullptr) {
+						Connect(Expression.Pin, *Answers);
+					} else if (!Expression.Literal.IsEmpty()) {
+						ApplyLiteral(*Answers, Expression.Literal);
+					}
+
+					return true;
+				}
+			}
+
+			return FillStruct(Statement, Variable, Expression);
+		}
+
+		/* Written into something else's member, drawn as a write made against that target */
+		if (const FString Upon = MacroReading::TokenOf(Variable);
+			Upon == TEXT("EX_Context") || Upon == TEXT("EX_Context_FailSilent") || Upon == TEXT("EX_ClassContext")) {
+			const FUObjectJsonValueExport Inner = Variable.GetObject(TEXT("ContextExpression"));
+
+			if (Inner.Has(TEXT("Token")) && Inner.GetString(TEXT("Token")).EndsWith(TEXT("Variable"))) {
+				const FUObjectJsonValueExport Held = Inner.GetObject(TEXT("Variable"));
+
+				const FString Member = MacroReading::NamedProperty(Held);
+				FString Owner;
+
+				/* Whose member it is, which says where the graph looks the name up */
+				if (Held.Has(TEXT("ResolvedOwner"))) {
+					FString Unused;
+					SplitReference(Held.GetObject(TEXT("ResolvedOwner")), Owner, Unused);
+				} else if (Held.Has(TEXT("ObjectName"))) {
+					FString Unused;
+					SplitReference(Held, Owner, Unused);
+				} else if (Held.Has(TEXT("Owner"))) {
+					/* A member a blueprint declared names the class that holds it beside it */
+					FString Unused;
+					SplitReference(Held.GetObject(TEXT("Owner")), Owner, Unused);
+				} else if (Held.Has(TEXT("Outer"))) {
+					/* Older builds wrote a property out as an object of its own, held by its class */
+					FString Unused;
+					SplitReference(Held.GetObject(TEXT("Outer")), Owner, Unused);
+				}
+
+				UClass* On = Owner.IsEmpty() ? nullptr : const_cast<UClass*>(FindClassByType(Owner));
+
+				/* A blueprint's class is only here once something has asked for it */
+				if (On == nullptr && !Owner.IsEmpty()) {
+					if (Held.Has(TEXT("Owner"))) {
+						BringInClass(Held.GetObject(TEXT("Owner")));
+					} else if (Held.Has(TEXT("Outer"))) {
+						BringInClass(Held.GetObject(TEXT("Outer")));
+					}
+
+					On = const_cast<UClass*>(FindClassByType(Owner));
+				}
+
+				/* Read after the name, since reading it lays down whatever works the target out */
+				const FValue Target = On != nullptr && !Member.IsEmpty()
+					? Read(Variable.GetObject(TEXT("ObjectExpression")))
+					: FValue();
+
+				/* The target can be a local only written further down the list, which is tied up at the end with the
+				 * other values written later rather than leaving the write, and everything worked out for it, out. */
+				if (Target.Pin != nullptr || !Target.Wanted.IsEmpty()) {
+					if (UFunction* Setter = SetterFor(On, Member)) {
+						return CallSetter(Setter, Target);
+					}
+
+					UK2Node_VariableSet* Node = AddNode<UK2Node_VariableSet>();
+
+					Node->VariableReference.SetExternalMember(*Member, On);
+					Node->AllocateDefaultPins();
+
+					Give(Target, Node->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Input));
+
+					if (UEdGraphPin* Pin = Node->FindPin(*Member, EGPD_Input)) {
+						Give(Expression, Pin);
+					}
+
+					ChainExecution(Node);
+
+					Placed++;
+
+					return true;
+				}
+			}
+		}
+
+		FString Name;
+
+		if (Variable.Has(TEXT("Variable"))) {
+			Name = MacroReading::NamedProperty(Variable.GetObject(TEXT("Variable")));
+		}
+
+		/* A branch deciding the answer, which is a Return drawn on that branch */
+		if (const FString* Out = !Name.IsEmpty() ? Answered.Find(Name) : nullptr) {
+			return AnswerHere(*Out, Expression);
+		}
+
+		/* And where the branches meet, which is that local handed to the out parameter. Every
+		 * branch answers already, so there is nothing left here to lay down. */
+		if (!Name.IsEmpty() && Answered.FindRef(MacroReading::NamedProperty(
+			Statement.GetObject(TEXT("Expression")).GetObject(TEXT("Variable")))) == Name) {
+			return true;
+		}
+
+		/* Written straight into what the function hands back, which is a Return */
+		if (MacroReading::TokenOf(Variable) == TEXT("EX_LocalOutVariable") && !Name.IsEmpty() && !Answered.Contains(Name)) {
+			return AnswerHere(Name, Expression);
+		}
+
+		if (!Name.IsEmpty() && (IsMade(Name))) {
+			if (Expression.Pin != nullptr) {
+				Locals.Add(Name, Expression.Pin);
+			} else if (Constants.Contains(Name) && !Expression.Literal.IsEmpty()) {
+				/* Stretch as what it says rather than laid down as a node. Whoever reads it is a pin
+				 * that was given this value, and a pin holds its own value. */
+				Carried.Add(Name, Expression.Literal);
+			}
+
+			/* Nothing is run by writing a local, so a Return answered just before is still the one to go through */
+			if (AnsweredAt == Placing - 1) AnsweredAt = Placing;
+
+			return true;
+		}
+
+		/* Written back to whoever called, which a function does through the node its run ends at
+		 * rather than by keeping the answer anywhere. A write through the class is the member's even
+		 * where an out parameter shares its name, and is laid down as a write further on. */
+		if (UEdGraphPin* Answer = MacroReading::TokenOf(Variable) != TEXT("EX_InstanceVariable") ? FindAnswer(Name) : nullptr) {
+			if (Expression.Pin != nullptr) {
+				Connect(Expression.Pin, Answer);
+			} else if (!Expression.Literal.IsEmpty()) {
+				ApplyLiteral(Answer, Expression.Literal);
+			}
+
+			return true;
+		}
+
+		/* A macro's scratch nobody claimed, written as the macro wrote it: an Assign onto its Local node */
+		if (KeepsTemporary(Name)) {
+			const FUObjectJsonValueExport Held = Variable.GetObject(TEXT("Variable"));
+
+			UK2Node_AssignmentStatement* Node = AddNode<UK2Node_AssignmentStatement>();
+
+			Node->AllocateDefaultPins();
+
+			/* The Local first, since what it holds is what the value pin learns to take */
+			Connect(Temporary(Name, Held.Has(TEXT("Property")) ? Held.GetObject(TEXT("Property")) : Held), Node->GetVariablePin());
+
+			Give(Expression, Node->GetValuePin());
+
+			ChainExecution(Node);
+
+			Placed++;
+
+			return true;
+		}
+
+		/* Anything else is the blueprint being written to, which is a node that writes it */
+		if (!Name.IsEmpty()) {
+			const FUObjectJsonValueExport Inner = Variable.GetObject(TEXT("Variable"));
+
+			/* Which one is written, when a parameter and a member share a name, is what the script says: a write into the
+			 * function's own parameter stays the function's, and one through the class is the member's. */
+			const FString WrittenThrough = MacroReading::TokenOf(Variable);
+			const bool bWritesParameter = WrittenThrough == TEXT("EX_LocalVariable") && Handouts.Contains(Name);
+			const bool bWritesMember = WrittenThrough == TEXT("EX_InstanceVariable");
+			const bool bWritesLocal = bWritesParameter || (HasLocal(Name) && !bWritesMember);
+
+			/* A member of the blueprint's own, or of a class above it, that this build only sets through a function */
+			if (!bWritesLocal) {
+				const UBlueprint* Owning = Graph != nullptr ? Graph->GetTypedOuter<UBlueprint>() : nullptr;
+				const UClass* Own = Owning != nullptr ? (Owning->SkeletonGeneratedClass != nullptr ? Owning->SkeletonGeneratedClass.Get() : Owning->ParentClass.Get()) : nullptr;
+
+				if (UFunction* Setter = SetterFor(Own, Name)) {
+					return CallSetter(Setter, FValue());
+				}
+			}
+
+			UK2Node_VariableSet* Node = AddNode<UK2Node_VariableSet>();
+
+			if (bWritesLocal) {
+				PointAtLocal(Node, Name);
+			} else {
+				Node->VariableReference.SetSelfMember(*Name);
+			}
+
+			Node->AllocateDefaultPins();
+
+			/* Given rather than connected, since what is written can be worked out below the write:
+			 * a cast the run jumps back up to is laid down after the member it fills */
+			if (UEdGraphPin* Pin = Node->FindPin(*Name, EGPD_Input)) {
+				Give(Expression, Pin);
+			}
+
+			ChainExecution(Node);
+
+			Placed++;
+
+			return true;
+		}
+
+		return false;
+	}
+
+	/* A call made for what it does rather than what it returns */
+	if (Token == TEXT("EX_Context") || Token == TEXT("EX_Context_FailSilent") || Token == TEXT("EX_ClassContext") || Token == TEXT("EX_CallMath") || Token == TEXT("EX_FinalFunction") || Token == TEXT("EX_LocalFinalFunction") || Token == TEXT("EX_VirtualFunction") || Token == TEXT("EX_LocalVirtualFunction")) {
+		return Read(Statement).IsSet() || Placed > 0;
+	}
+
+	/* The flow control the compiler wrote, put back as the nodes that write it.
+	 *
+	 * A push and its pop are the two halves of a sequence: the compiler remembers where the second
+	 * output starts, runs the first, and pops back to it. A pop that is conditional is a branch
+	 * whose other way out leads nowhere, which is how the compiler spells a branch with one side
+	 * left open. A jump is an execution wire to somewhere already laid down, which is what a loop
+	 * is once it has been compiled. */
+	if (Token == TEXT("EX_PushExecutionFlow")) {
+		/* Pushed so that ending a thread ends the function, which is nobody's sequence. */
+		if (const int32 Ends = MacroReading::IndexOfAddress(Statements, Statement.GetInteger(TEXT("PushingAddress"), -1));
+			Statements.IsValidIndex(Ends) && MacroReading::TokenOf(Statements[Ends]) == TEXT("EX_Return")) {
+			return true;
+		}
+
+		UK2Node_ExecutionSequence* Node = AddNode<UK2Node_ExecutionSequence>();
+
+		Node->AllocateDefaultPins();
+
+		EnterNode(Node);
+
+		/* What the sequence runs first carries on from here. What it runs after is where the push
+		 * said it would be, which is not the same as whatever happens to be written next: the pop
+		 * that ends the first thread goes to that address, and the statements in between belong to
+		 * whichever thread pushed them. */
+		Flow = Node->GetThenPinGivenIndex(0);
+
+		Jumps.Add(MakeTuple(Node->GetThenPinGivenIndex(1), Statement.GetInteger(TEXT("PushingAddress"), -1)));
+
+		Placed++;
+
+		return true;
+	}
+
+	if (Token == TEXT("EX_PopExecutionFlow")) {
+		/* The thread ends here, and what was pushed carries on from where it was pushed to */
+		Flow = nullptr;
+
+		return true;
+	}
+
+	if (Token == TEXT("EX_PopExecutionFlowIfNot") || Token == TEXT("EX_JumpIfNot")) {
+		/* Asking whether a cast worked, which the cast already answers.
+		 *
+		 * A cast writes whether it worked into a local and the run tests it, and read as written
+		 * that is a branch on a bool the graph has no pin for. There is no branch: the cast has a
+		 * way out for either answer, and this says where the one it did not take leads. */
+		if (const FValue Asked = Read(Statement.GetObject(TEXT("BooleanExpression"))); Asked.Pin != nullptr) {
+			if (UK2Node_DynamicCast* Cast = ::Cast<UK2Node_DynamicCast>(Asked.Pin->GetOwningNode()); Cast != nullptr && !Cast->IsNodePure()) {
+				if (Token == TEXT("EX_JumpIfNot")) {
+					Jumps.Add(MakeTuple(Cast->GetInvalidCastPin(), Statement.GetInteger(TEXT("CodeOffset"), -1)));
+				}
+
+				/* And the run carries on the way it worked, which it already does */
+				Placed++;
+
+				return true;
+			}
+
+			/* Asking whether a row was there, which the node that read it already answers the same
+			 * way: the run carries on through Row Found, and this says where Row Not Found leads */
+			if (UK2Node_GetDataTableRow* Row = ::Cast<UK2Node_GetDataTableRow>(Asked.Pin->GetOwningNode())) {
+				if (Token == TEXT("EX_JumpIfNot")) {
+					Jumps.Add(MakeTuple(Row->GetRowNotFoundPin(), Statement.GetInteger(TEXT("CodeOffset"), -1)));
+				}
+
+				Placed++;
+
+				return true;
+			}
+		}
+
+		UK2Node_IfThenElse* Node = AddNode<UK2Node_IfThenElse>();
+
+		Node->AllocateDefaultPins();
+
+		EnterNode(Node);
+
+		const FValue Condition = Read(Statement.GetObject(TEXT("BooleanExpression")));
+
+		if (Condition.Pin != nullptr) {
+			Connect(Condition.Pin, Node->GetConditionPin());
+		} else if (!Condition.Literal.IsEmpty()) {
+			ApplyLiteral(Node->GetConditionPin(), Condition.Literal);
+		}
+
+		/* Carrying on is the way the condition holds. Where it does not, a conditional pop ends the
+		 * thread and a conditional jump goes where it says. */
+		Flow = Node->GetThenPin();
+
+		if (Token == TEXT("EX_JumpIfNot")) {
+			Jumps.Add(MakeTuple(Node->GetElsePin(), Statement.GetInteger(TEXT("CodeOffset"), -1)));
+		}
+
+		Placed++;
+
+		return true;
+	}
+
+	if (Token == TEXT("EX_Jump")) {
+		/* A Return with nothing to answer, told from a way out left open by being jumped to rather than from */
+		const int32 Address = MacroReading::AddressOf(Statement);
+		const int32 Ends = MacroReading::IndexOfAddress(Statements, Statement.GetInteger(TEXT("CodeOffset"), -1));
+
+		if (HoldsLocals() && AnsweredAt != Placing - 1 && Statements.IsValidIndex(Ends) && MacroReading::TokenOf(Statements[Ends]) == TEXT("EX_Return")) {
+			bool bGoneTo = false;
+
+			for (const FUObjectJsonValueExport& Other : Statements) {
+				const FString Going = MacroReading::TokenOf(Other);
+
+				if (Going == TEXT("EX_Jump") || Going == TEXT("EX_JumpIfNot")) {
+					bGoneTo = Other.GetInteger(TEXT("CodeOffset"), -1) == Address;
+				} else if (Going == TEXT("EX_PushExecutionFlow")) {
+					bGoneTo = Other.GetInteger(TEXT("PushingAddress"), -1) == Address;
+				}
+
+				if (bGoneTo) break;
+			}
+
+			if (bGoneTo) {
+				ChainExecution(NewReturn());
+
+				Placed++;
+
+				return true;
+			}
+		}
+
+		Jumps.Add(MakeTuple(Flow, Statement.GetInteger(TEXT("CodeOffset"), -1)));
+
+		/* The run carries on wherever it was jumped to, and not here */
+		Flow = nullptr;
+
+		return true;
+	}
+
+	/* The end of the run. Where the function answers with something, the node it answers through
+	 * is the last thing the run reaches; where it answers with nothing, there is no node at all. */
+	if (Token == TEXT("EX_Return")) {
+		/* A Return with nothing to answer at the very end, which only a function keeping a flow stack can be told from an open way out */
+		const bool bAnswers = Graph->Nodes.ContainsByPredicate([](const UEdGraphNode* Node) {
+			if (Node == nullptr || !Node->IsA<UK2Node_FunctionResult>()) return false;
+
+			return Node->Pins.ContainsByPredicate([](const UEdGraphPin* Pin) {
+				return Pin != nullptr && Pin->Direction == EGPD_Input && Pin->PinType.PinCategory != UEdGraphSchema_K2::PC_Exec;
+			});
+		});
+
+		if (HoldsLocals() && !bAnswers) {
+			const int32 Address = MacroReading::AddressOf(Statement);
+
+			bool bStacks = false;
+			bool bGoneTo = false;
+
+			for (const FUObjectJsonValueExport& Other : Statements) {
+				const FString Going = MacroReading::TokenOf(Other);
+
+				if (Going == TEXT("EX_PushExecutionFlow")) bStacks = true;
+
+				if ((Going == TEXT("EX_Jump") || Going == TEXT("EX_JumpIfNot")) && Other.GetInteger(TEXT("CodeOffset"), -1) == Address) bGoneTo = true;
+			}
+
+			if (bStacks && (Flow != nullptr || bGoneTo)) {
+				UK2Node_FunctionResult* Node = NewReturn();
+
+				if (UEdGraphPin* In = WayIn(Node); In != nullptr && Address >= 0) {
+					Entries.Add(Address, In);
+				}
+
+				/* Only jumped to, which the jumps tie up once everything is laid down */
+				if (Flow != nullptr) ChainExecution(Node);
+
+				Placed++;
+
+				return true;
+			}
+
+			/* Anything else here is a way out left open, and a Return laid down above has an address of its own */
+			return true;
+		}
+
+		for (UEdGraphNode* Node : Graph->Nodes) {
+			if (UK2Node_FunctionResult* Answering = Cast<UK2Node_FunctionResult>(Node)) {
+				/* Where the end of the run begins, said outright.
+				 *
+				 * Every other node says that by being chained onto: what begins at an address is
+				 * worked out from what the statement there put in the run. A run that ends by
+				 * jumping straight to the end chains nothing, so nothing is put there, and the jump
+				 * arrives at an address nothing answers to. A cast whose failure leaves the
+				 * function without an answer is the plain case. */
+				const int32 Address = MacroReading::AddressOf(Statement);
+
+				/* Unless the Return answers with something: coming in at the bare node is a way out nobody wired,
+				 * so it is wired above the writes instead. */
+				if (bAnswers) break;
+
+				if (Address >= 0 && !Entries.Contains(Address)) {
+					if (UEdGraphPin* In = WayIn(Answering)) {
+						Entries.Add(Address, In);
+					}
+				}
+
+				ChainExecution(Answering);
+
+				break;
+			}
+		}
+
+		return true;
+	}
+
+	if (Token == TEXT("EX_EndOfScript") || Token == TEXT("EX_Nothing")) {
+		return true;
+	}
+
+	/* A delegate made to stand for a function, which is a Create Event.
+	 *
+	 * The script names the function and what it is a function of, and puts the result in a local of
+	 * its own. Whoever binds it later reads that local, so the local stands for what this hands out. */
+	if (Token == TEXT("EX_BindDelegate")) {
+		UK2Node_CreateDelegate* Node = AddNode<UK2Node_CreateDelegate>();
+
+		Node->AllocateDefaultPins();
+
+		if (Statement.Has(TEXT("ObjectTerm"))) {
+			const FValue Of = Read(Statement.GetObject(TEXT("ObjectTerm")));
+
+			if (Of.Pin != nullptr && Node->GetObjectInPin() != nullptr) Connect(Of.Pin, Node->GetObjectInPin());
+		}
+
+		/* Said after the object, since which functions it may name depends on what it is a
+		 * function of.
+		 *
+		 * And said without laying the node out again. A node asked to settle itself forgets the
+		 * name it was given unless something is already reading what it hands out, and what reads
+		 * this one is a statement further along that has not been laid down yet. Left alone, the
+		 * name keeps until that statement wires it up, and settling it then finds the name still
+		 * there and something to check it against. */
+		if (Statement.Has(TEXT("FunctionName"))) {
+			Node->SetFunction(FName(*Statement.GetString(TEXT("FunctionName"))));
+		}
+
+		if (Statement.Has(TEXT("Delegate"))) {
+			const FUObjectJsonValueExport Into = Statement.GetObject(TEXT("Delegate"));
+
+			if (Into.Has(TEXT("Variable"))) {
+				if (const FString Name = MacroReading::NamedProperty(Into.GetObject(TEXT("Variable"))); !Name.IsEmpty() && Node->GetDelegateOutPin() != nullptr) {
+					Locals.Add(Name, Node->GetDelegateOutPin());
+				}
+			}
+		}
+
+		Placed++;
+
+		return true;
+	}
+
+	/* A delegate added to one that keeps several, which is a Bind Event */
+	if (Token == TEXT("EX_AddMulticastDelegate") || Token == TEXT("EX_RemoveMulticastDelegate")) {
+		UK2Node_BaseMCDelegate* Node = Token == TEXT("EX_AddMulticastDelegate")
+			? static_cast<UK2Node_BaseMCDelegate*>(AddNode<UK2Node_AddDelegate>())
+			: static_cast<UK2Node_BaseMCDelegate*>(AddNode<UK2Node_RemoveDelegate>());
+
+		UEdGraphPin* Against = PointAtDelegate(Node, Statement.GetObject(TEXT("MulticastDelegate")));
+
+		Node->AllocateDefaultPins();
+
+		if (Against != nullptr && Node->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Input) != nullptr) {
+			Connect(Against, Node->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Input));
+		}
+
+		if (Statement.Has(TEXT("Delegate"))) {
+			const FValue Bound = Read(Statement.GetObject(TEXT("Delegate")));
+
+			if (Bound.Pin != nullptr && Node->GetDelegatePin() != nullptr) Connect(Bound.Pin, Node->GetDelegatePin());
+		}
+
+		ChainExecution(Node);
+
+		Placed++;
+
+		return true;
+	}
+
+	/* A delegate that keeps several, emptied of everything bound to it, which is an Unbind all Events */
+	if (Token == TEXT("EX_ClearMulticastDelegate")) {
+		UK2Node_ClearDelegate* Node = AddNode<UK2Node_ClearDelegate>();
+
+		UEdGraphPin* Against = PointAtDelegate(Node, Statement.GetObject(TEXT("DelegateToClear")));
+
+		Node->AllocateDefaultPins();
+
+		if (Against != nullptr && Node->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Input) != nullptr) {
+			Connect(Against, Node->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Input));
+		}
+
+		ChainExecution(Node);
+
+		Placed++;
+
+		return true;
+	}
+
+	/* A delegate that keeps several, told to run them all, which is a Call node */
+	if (Token == TEXT("EX_CallMulticastDelegate")) {
+		UK2Node_CallDelegate* Node = AddNode<UK2Node_CallDelegate>();
+
+		UEdGraphPin* Against = PointAtDelegate(Node, Statement.GetObject(TEXT("Delegate")));
+
+		Node->AllocateDefaultPins();
+
+		if (Against != nullptr && Node->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Input) != nullptr) {
+			Connect(Against, Node->FindPin(UEdGraphSchema_K2::PN_Self, EGPD_Input));
+		}
+
+		/* What it hands each of them, in the order the signature takes them */
+		const TArray<FUObjectJsonValueExport> Given = Statement.Has(TEXT("Parameters")) ? Statement.GetArray(TEXT("Parameters")) : TArray<FUObjectJsonValueExport>();
+
+		if (const UFunction* Signature = Node->GetDelegateSignature()) {
+			int32 Which = 0;
+
+			for (TFieldIterator<FProperty> It(Signature); It && (It->PropertyFlags & CPF_Parm); ++It) {
+				if (It->HasAnyPropertyFlags(CPF_ReturnParm)) continue;
+				if (!Given.IsValidIndex(Which)) break;
+
+				UEdGraphPin* Pin = Node->FindPin(It->GetFName());
+				const FValue Held = Read(Given[Which++]);
+
+				if (Pin == nullptr) continue;
+
+				Give(Held, Pin);
+			}
+		}
+
+		ChainExecution(Node);
+
+		Placed++;
+
+		return true;
+	}
+
+	/* An array said all at once, into the local the compiler made to hold it.
+	 *
+	 * It reads as a statement rather than as a value because there is nowhere else to put it: the
+	 * script has no way to write a whole array inside an expression. What it becomes is the one
+	 * node that makes an array, and the local it was written into stands for that node's answer. */
+	if (Token == TEXT("EX_SetArray")) {
+		const FValue Built = Read(Statement);
+
+		if (Built.Pin != nullptr && Statement.Has(TEXT("AssigningProperty"))) {
+			const FUObjectJsonValueExport Into = Statement.GetObject(TEXT("AssigningProperty"));
+
+			if (Into.Has(TEXT("Variable"))) {
+				if (const FString Name = MacroReading::NamedProperty(Into.GetObject(TEXT("Variable"))); !Name.IsEmpty()) {
+					Locals.Add(Name, Built.Pin);
+				}
+			}
+		}
+
+		return true;
+	}
+
+	/* A map said all at once, the same way, into the local made to hold it */
+	if (Token == TEXT("EX_SetMap")) {
+		const FValue Built = Read(Statement);
+
+		if (Built.Pin != nullptr && Statement.Has(TEXT("MapProperty"))) {
+			const FUObjectJsonValueExport Into = Statement.GetObject(TEXT("MapProperty"));
+
+			if (Into.Has(TEXT("Variable"))) {
+				if (const FString Name = MacroReading::NamedProperty(Into.GetObject(TEXT("Variable"))); !Name.IsEmpty()) {
+					Locals.Add(Name, Built.Pin);
+				}
+			}
+		}
+
+		return true;
+	}
+
+	Unhandled.AddUnique(Token);
+
+	return false;
+}
+
+void FBytecodeGraph::Only(const int32 From, const int32 To) {
+	Stretch.Add(TPair<int32, int32>(From, To));
+}
+
+void FBytecodeGraph::LeaveOut(const int32 From, const int32 To) {
+	Elsewhere.Add(TPair<int32, int32>(From, To));
+}
+
+void FBytecodeGraph::LeaveOutAt(const int32 Address) {
+	if (Address >= 0) ElsewhereAt.Add(Address);
+}
+
+void FBytecodeGraph::HandsInto(const FString& Owner, const FName Member, UEdGraphPin* Pin) {
+	if (Owner.IsEmpty() || Pin == nullptr) return;
+
+	Decided.Add(FString::Printf(TEXT("%s.%s"), *Owner, *Member.ToString()), Pin);
+}
+
+void FBytecodeGraph::EnterAt(const int32 Address, UK2Node* Node, const FName Through) {
+	if (Node == nullptr || Address < 0) return;
+
+	int32 Begins = Address;
+
+	/* What an event's function passes is where the run is entered, and the compiler lays those
+	 * entries out after the bodies, so the one at that address is a jump to the body itself. It
+	 * stands for nothing in a graph, so the run is taken to begin where it lands. */
+	const int32 Stub = MacroReading::IndexOfAddress(Statements, Address);
+
+	if (Statements.IsValidIndex(Stub) && MacroReading::TokenOf(Statements[Stub]) == TEXT("EX_Jump")) {
+		Ignored.Add(Address);
+
+		Begins = Statements[Stub].GetInteger(TEXT("CodeOffset"), Address);
+	}
+
+	/* Stretch as a list. Two events can be written over the same run: one of them is entered at the
+	 * address the other jumps to, and both are ways into it. Held one to an address, the second of
+	 * them takes the first's place and whichever lost comes out an event with nothing under it. */
+	Starts.FindOrAdd(Begins).Add(TPair<TWeakObjectPtr<UK2Node>, FName>(Node, Through));
+}
+
+void FBytecodeGraph::SitsAt(const int32 Address, UK2Node* Node) {
+	if (Node == nullptr || Address < 0) return;
+
+	Sitting.FindOrAdd(Address).Add(Node);
+}
+
+void FBytecodeGraph::HandOverTrack(const FString& Name, UK2Node* Node, const FName Pin) {
+	if (Name.IsEmpty() || Node == nullptr || Pin.IsNone()) return;
+
+	Tracks.Add(Name, TPair<TWeakObjectPtr<UK2Node>, FName>(Node, Pin));
+}
+
+void FBytecodeGraph::HandOver(const FString& Frame, const FString& Parameter, UK2Node* Node) {
+	if (Frame.IsEmpty() || Parameter.IsEmpty() || Node == nullptr) return;
+
+	Handed.Add(Frame, TPair<TWeakObjectPtr<UK2Node>, FString>(Node, Parameter));
+}
+
+int32 FBytecodeGraph::DeclareLocals() {
+	if (Graph == nullptr) return 0;
+
+	/* Looked for before anything is declared, since neither what a macro accounts for nor what the
+	 * compiler made to carry a pin's value is the function's to declare */
+	FindConstants();
+	FindAnswers();
+	FindPureCasts();
+
+	if (bTidy) {
+		FindMacros();
+	}
+
+	int32 Added = 0;
+
+	/* What a previous run declared goes first. The entry node outlives a re-import, and the locals
+	 * it carries outlive it too, so anything declared wrongly once would stay declared for good and
+	 * shadow the class variable of the same name. */
+	for (UEdGraphNode* Node : Graph->Nodes) {
+		if (UK2Node_FunctionEntry* Entry = Cast<UK2Node_FunctionEntry>(Node)) {
+			Entry->LocalVariables.Empty();
+
+			break;
+		}
+	}
+
+	/* Declaring a local marks the blueprint changed, which lays the graph out again. Done on its
+	 * own pass, before any node is placed, so nothing that is placed is pulled apart afterwards. */
+	for (const FUObjectJsonValueExport& Local : Declared) {
+		if (!Local.Has(TEXT("Name"))) continue;
+
+		/* What a function takes and gives back is its signature, written on the entry node when the
+		 * graph was made. Declaring it again would shadow the parameter with a local of that name. */
+		if (bool bGivenBack; FBlueprintGraphs::IsParameter(Local.JsonObject, bGivenBack)) continue;
+
+		const FString Name = Local.GetString(TEXT("Name"));
+
+		/* What the compiler makes for a pin is not the function's to declare: it makes those again */
+		if (IsMade(Name)) continue;
+		if (HasLocal(Name)) continue;
+
+		/* Nowhere to keep it, which is only ever a macro's scratch left over from a macro that was
+		 * not recognised. Said once here rather than as a broken node further along. */
+		if (!HoldsLocals()) {
+			/* Unless it is kept where it is, as the Local node it was */
+			if (KeepsTemporary(Name)) continue;
+
+			Unhandled.AddUnique(FString::Printf(TEXT("\"%s\" belongs to a macro that was not read back, and %s cannot keep one"), *Name, *Graph->GetName()));
+
+			continue;
+		}
+
+		if (EnsureLocal(Name, Local)) {
+			Added++;
+		} else {
+			Unhandled.AddUnique(FString::Printf(TEXT("local %s"), *Name));
+		}
+	}
+
+	return Added;
+}
+
+UEdGraph* FBytecodeGraph::FindStandardMacro(const TCHAR* Named) {
+	return MacroReading::StandardMacro(Named);
+}
+
+namespace {
+	/* Every local a piece of an expression reads, however deep it sits */
+	void NamesRead(const TSharedPtr<FJsonValue>& Held, TArray<FString>& Out) {
+		if (!Held.IsValid()) return;
+
+		if (Held->Type == EJson::Array) {
+			for (const TSharedPtr<FJsonValue>& One : Held->AsArray()) NamesRead(One, Out);
+
+			return;
+		}
+
+		if (Held->Type != EJson::Object) return;
+
+		const TSharedPtr<FJsonObject> Object = Held->AsObject();
+
+		if (!Object.IsValid()) return;
+
+		FString Token;
+
+		if (Object->TryGetStringField(TEXT("Token"), Token) && Token == TEXT("EX_LocalVariable")) {
+			const TSharedPtr<FJsonObject>* Named = nullptr;
+
+			if (Object->TryGetObjectField(TEXT("Variable"), Named) && Named != nullptr && (*Named).IsValid()) {
+				/* Asked the way everything else asks what a local is called. */
+				if (const FString Name = MacroReading::NamedProperty(FUObjectJsonValueExport(*Named)); !Name.IsEmpty()) {
+					Out.Add(Name);
+				}
+			}
+		}
+
+		for (const TPair<FString, TSharedPtr<FJsonValue>>& Field : Object->Values) NamesRead(Field.Value, Out);
+	}
+
+	/* The locals handed as the array to a call that changes it in place.
+	 *
+	 * Every array function takes its array by reference, but only these write to it. The rest only
+	 * read, and a value wired straight in serves them as well as a variable would. */
+	void ArraysChanged(const TSharedPtr<FJsonValue>& Held, TArray<FString>& Out) {
+		static const TSet<FString> Changing = {
+			TEXT("Array_Add"), TEXT("Array_AddUnique"), TEXT("Array_Append"), TEXT("Array_Insert"),
+			TEXT("Array_Remove"), TEXT("Array_RemoveItem"), TEXT("Array_Clear"), TEXT("Array_Resize"),
+			TEXT("Array_Shuffle"), TEXT("Array_Set"), TEXT("Array_Swap"),
+		};
+
+		if (!Held.IsValid()) return;
+
+		if (Held->Type == EJson::Array) {
+			for (const TSharedPtr<FJsonValue>& One : Held->AsArray()) ArraysChanged(One, Out);
+
+			return;
+		}
+
+		if (Held->Type != EJson::Object) return;
+
+		const TSharedPtr<FJsonObject> Object = Held->AsObject();
+
+		if (!Object.IsValid()) return;
+
+		const TSharedPtr<FJsonObject>* Function = nullptr;
+		FString Called;
+
+		if (Object->TryGetObjectField(TEXT("Function"), Function) && Function != nullptr && (*Function).IsValid()
+			&& (*Function)->TryGetStringField(TEXT("ObjectName"), Called) && Called.Contains(TEXT("KismetArrayLibrary:"))) {
+			FString Short = Called;
+			Short.Split(TEXT(":"), nullptr, &Short);
+			Short.RemoveFromEnd(TEXT("'"));
+
+			const TArray<TSharedPtr<FJsonValue>>* Parameters = nullptr;
+
+			if (Changing.Contains(Short) && Object->TryGetArrayField(TEXT("Parameters"), Parameters) && Parameters != nullptr && Parameters->Num() > 0) {
+				TArray<FString> First;
+				NamesRead((*Parameters)[0], First);
+
+				if (First.Num() == 1) Out.Add(First[0]);
+			}
+		}
+
+		for (const TPair<FString, TSharedPtr<FJsonValue>>& Field : Object->Values) ArraysChanged(Field.Value, Out);
+	}
+}
+
+/* Which casts were pure.
+ *
+ * A cast is written down the same way whichever kind it was: the thing cast into a local, whether
+ * it worked into another, and that second one read. What says which kind it was is what reads it.
+ * The run testing it and going one way or the other is a cast with two ways out, which is an impure
+ * one, and that test is the cast answering rather than anybody reading the answer. Anything else
+ * reading it wanted the answer as a value, which only a pure one hands out. */
+void FBytecodeGraph::FindPureCasts() {
+	if (bLookedForPureCasts) return;
+
+	bLookedForPureCasts = true;
+
+	/* Which cast each whether-it-worked belongs to, by the local the cast was put in */
+	TMap<FString, FString> Asking;
+
+	for (const FUObjectJsonValueExport& Statement : Statements) {
+		if (!MacroReading::IsLet(MacroReading::TokenOf(Statement))) continue;
+
+		const FUObjectJsonValueExport Held = Statement.GetObject(TEXT("Expression"));
+
+		if (MacroReading::TokenOf(Held) != TEXT("EX_Cast")) continue;
+
+		const FString Name = MacroReading::WrittenTo(Statement);
+		const FString Reached = MacroReading::ReadFrom(Held.GetObject(TEXT("Target")));
+
+		if (Name.IsEmpty() || Reached.IsEmpty()) continue;
+
+		Asking.Add(Name, Reached);
+	}
+
+	if (Asking.Num() == 0) return;
+
+	/* Which of them the run tested */
+	TSet<FString> Tested;
+
+	for (const FUObjectJsonValueExport& Statement : Statements) {
+		if (!Statement.JsonObject.IsValid()) continue;
+
+		const FString Token = MacroReading::TokenOf(Statement);
+		const bool bTests = Token == TEXT("EX_JumpIfNot") || Token == TEXT("EX_PopExecutionFlowIfNot");
+
+		TArray<FString> Names;
+
+		for (const TPair<FString, TSharedPtr<FJsonValue>>& Field : Statement.JsonObject->Values) {
+			/* The test is the cast answering, and the local it is written into is not a read of it */
+			if (bTests && Field.Key == TEXT("BooleanExpression")) {
+				TArray<FString> Asked;
+
+				NamesRead(Field.Value, Asked);
+
+				Tested.Append(Asked);
+
+				continue;
+			}
+
+			if (Field.Key == TEXT("Variable")) continue;
+
+			NamesRead(Field.Value, Names);
+		}
+
+		for (const FString& Name : Names) {
+			if (const FString* Reached = Asking.Find(Name)) PureCasts.Add(*Reached);
+		}
+	}
+
+	/* And one nobody asked at all: an impure cast always tests whether it worked, so one never tested is pure */
+	for (const TPair<FString, FString>& One : Asking) {
+		if (!Tested.Contains(One.Key)) PureCasts.Add(One.Value);
+	}
+
+	for (const TPair<FString, FString>& One : Asking) {
+		if (Tested.Contains(One.Key) && !PureCasts.Contains(One.Value)) ImpureCasts.Add(One.Value);
+	}
+}
+
+/* A function drawn with more than one Return.
+ *
+ * It does not compile to more than one return. The compiler makes a local for the answer, has
+ * every branch write that one, and hands it to the out parameter once where the branches meet,
+ * naming it after the parameter it is for. Read as written, those writes are a variable nobody
+ * declared being set and the Return is left with nothing on it.
+ *
+ * Both halves have to hold before a local is read as the answer: it is named the way the compiler
+ * names that one, and the only thing done with it is the hand over. */
+void FBytecodeGraph::FindAnswers() {
+	if (bLookedForAnswers) return;
+
+	bLookedForAnswers = true;
+
+	for (const FUObjectJsonValueExport& Statement : Statements) {
+		if (!MacroReading::IsLet(MacroReading::TokenOf(Statement))) continue;
+
+		const FUObjectJsonValueExport Variable = Statement.GetObject(TEXT("Variable"));
+
+		if (MacroReading::TokenOf(Variable) != TEXT("EX_LocalOutVariable")) continue;
+
+		const FUObjectJsonValueExport Held = Statement.GetObject(TEXT("Expression"));
+
+		if (MacroReading::TokenOf(Held) != TEXT("EX_LocalVariable")) continue;
+
+		const FString Out = MacroReading::NamedProperty(Variable.GetObject(TEXT("Variable")));
+		const FString Local = MacroReading::NamedProperty(Held.GetObject(TEXT("Variable")));
+
+		if (Out.IsEmpty() || Local != Out + TEXT("_Local")) continue;
+
+		/* Unless somebody declared it. A local of the function's own is editable and the compiler's
+		 * answer never is, and a name compared without case is no way to tell a sim_space_rotation_local
+		 * somebody wrote apart from the one the compiler would have made. */
+		const FUObjectJsonValueExport Kept = Held.GetObject(TEXT("Variable"));
+		const FUObjectJsonValueExport Described = Kept.Has(TEXT("Property")) ? Kept.GetObject(TEXT("Property")) : Kept;
+
+		if (Described.Has(TEXT("PropertyFlags"))) {
+			TArray<FString> Flags;
+			Described.GetString(TEXT("PropertyFlags")).ParseIntoArray(Flags, TEXT(" | "));
+
+			if (Flags.Contains(TEXT("Edit"))) continue;
+		}
+
+		Answered.Add(Local, Out);
+	}
+}
+
+/* The Return a branch was drawn with, handed what that branch decided */
+bool FBytecodeGraph::AnswerHere(const FString& Out, const FValue& Expression) {
+	if (Graph == nullptr) return false;
+
+	/* The one the statement before answered through, where that is what this is carrying on from. */
+	UK2Node_FunctionResult* Node = AnsweredAt == Placing - 1 && AnsweredWith.IsValid() ? AnsweredWith.Get() : nullptr;
+
+	const bool bCarryingOn = Node != nullptr;
+
+	if (Node == nullptr) Node = NewReturn();
+
+	UEdGraphPin* Answer = Node->FindPin(*Out, EGPD_Input);
+
+	if (Answer == nullptr) {
+		if (!bCarryingOn) Graph->RemoveNode(Node);
+
+		Unhandled.AddUnique(FString::Printf(TEXT("the answer \"%s\", which this graph has no Return pin for"), *Out));
+
+		return false;
+	}
+
+	if (Expression.Pin != nullptr) {
+		Connect(Expression.Pin, Answer);
+	} else if (!Expression.Literal.IsEmpty()) {
+		ApplyLiteral(Answer, Expression.Literal);
+	}
+
+	/* Chained once, when it was made: entering it twice would loop the run */
+	if (!bCarryingOn) {
+		ChainExecution(Node);
+
+		Placed++;
+	}
+
+	AnsweredAt = Placing;
+	AnsweredWith = Node;
+
+	return true;
+}
+
+UK2Node_FunctionResult* FBytecodeGraph::NewReturn() {
+	UK2Node_FunctionResult* Node = AddNode<UK2Node_FunctionResult>();
+
+	/* A second Return answers through the same pins, so these are grown only for a build that does not do it itself */
+	if (Node->Pins.Num() == 0) {
+		for (UEdGraphNode* Held : Graph->Nodes) {
+			UK2Node_FunctionResult* Already = Cast<UK2Node_FunctionResult>(Held);
+
+			if (Already == nullptr || Already == Node || Already->UserDefinedPins.Num() == 0) continue;
+
+			Node->FunctionReference = Already->FunctionReference;
+
+			for (const TSharedPtr<FUserPinInfo>& Described : Already->UserDefinedPins) {
+				Node->UserDefinedPins.Add(MakeShared<FUserPinInfo>(*Described));
+			}
+
+			break;
+		}
+
+		Node->AllocateDefaultPins();
+	}
+
+	return Node;
+}
+
+void FBytecodeGraph::FindConstants() {
+	if (bLookedForConstants) return;
+
+	bLookedForConstants = true;
+
+	/* Both ways round, and not only where somebody is going to read the graph.
+	 *
+	 * These look like something being put back, but they are the opposite: the local was never in
+	 * the graph to begin with. A switch has to be told to look at a local and a struct cannot sit
+	 * in the script as a literal, so the compiler makes one and writes the value into it. Reading
+	 * that back as a node means the compiler makes a second one for the same value, and the script
+	 * comes back a statement longer than the one it was read from.
+	 *
+	 * Left as the pin it was, the compiler makes the same local it made the first time, and the two
+	 * scripts agree. */
+
+	TMap<FString, bool> Plain;
+
+	/* What each name was worked out from, which says whether it works out from itself */
+	TMap<FString, TSet<FString>> Feeds;
+
+	for (const FUObjectJsonValueExport& Statement : Statements) {
+		if (!MacroReading::IsLet(MacroReading::TokenOf(Statement))) continue;
+
+		const FString Name = MacroReading::WrittenTo(Statement);
+
+		if (Name.IsEmpty()) continue;
+
+		/* How often each one is written at all, which says whether one node wrote it or several */
+		Writes.FindOrAdd(Name)++;
+
+		/* And what it was worked out from, for every name: a running total reaches itself */
+		{
+			TArray<FString> Reads;
+
+			if (Statement.JsonObject.IsValid()) {
+				NamesRead(Statement.JsonObject->TryGetField(TEXT("Expression")), Reads);
+			}
+
+			TSet<FString>& From = Feeds.FindOrAdd(Name);
+
+			for (const FString& One : Reads) From.Add(One);
+		}
+
+		/* Only the compiler's own scratch is ever one of these. A variable the graph declared is
+		 * the graph's however seldom it is written. */
+		if (!Name.StartsWith(TEXT("Temp_"))) continue;
+
+		const FString What = MacroReading::TokenOf(Statement.GetObject(TEXT("Expression")));
+
+		/* Said outright rather than worked out.
+		 *
+		 * Most of what the bytecode spells that way is named for it and ends in Const. The rest are
+		 * the values short enough to have a token of their own: the two truths, nought and one, and
+		 * nothing at all. They are values like any other and the pin that took one holds it. */
+		const bool bSaidOutright = What.EndsWith(TEXT("Const"))
+			|| What == TEXT("EX_True")
+			|| What == TEXT("EX_False")
+			|| What == TEXT("EX_IntZero")
+			|| What == TEXT("EX_IntOne")
+			|| What == TEXT("EX_NoObject")
+			|| What == TEXT("EX_NoInterface");
+
+		/* Or copied out of something that could have been read where it was wanted.
+		 *
+		 * A switch has to be told to look at a local, so the compiler makes one and copies the
+		 * value into it. Nobody drew that copy: what was drawn is the thing copied, wired straight
+		 * to where the copy was read.
+		 *
+		 * A member off a struct is a plain read too. It makes a node where it is read, and what is
+		 * kept is that node, so every place the value is wanted reads the one node rather than
+		 * growing another.
+		 *
+		 * Only a plain read counts. Anything worked out has to stay where it was worked out, or it
+		 * would be worked out again at every place the value is used. */
+		const bool bCopied = What == TEXT("EX_LocalVariable")
+			|| What == TEXT("EX_InstanceVariable")
+			|| What == TEXT("EX_DefaultVariable")
+			|| What == TEXT("EX_LocalOutVariable")
+			|| What == TEXT("EX_StructMemberContext");
+
+		if (!Plain.Contains(Name)) Plain.Add(Name, true);
+
+		bool& Holds = Plain[Name];
+
+		Holds = Holds && (bSaidOutright || bCopied);
+	}
+
+	/* Which of them the run tests, which makes them something kept rather than a value passed on */
+	for (const FUObjectJsonValueExport& Statement : Statements) {
+		const FString Token = MacroReading::TokenOf(Statement);
+
+		if (Token != TEXT("EX_JumpIfNot") && Token != TEXT("EX_PopExecutionFlowIfNot")) continue;
+
+		if (const FString Asked = MacroReading::ReadFrom(Statement.GetObject(TEXT("BooleanExpression"))); Asked.StartsWith(TEXT("Temp_"))) {
+			TestedScratch.Add(Asked);
+		}
+	}
+
+	/* Scratch nothing ever assigns.
+	 *
+	 * A Local node holding an array is filled and emptied by the calls it is handed to, Add and
+	 * Clear taking it by reference, so no statement writes it. It is still one node the graph drew,
+	 * and every call that takes it has to be wired to that node, or a by-reference pin is left
+	 * empty and the blueprint does not compile. */
+	for (const FUObjectJsonValueExport& Statement : Statements) {
+		if (!Statement.JsonObject.IsValid()) continue;
+
+		TArray<FString> Reads;
+
+		for (const TPair<FString, TSharedPtr<FJsonValue>>& Field : Statement.JsonObject->Values) NamesRead(Field.Value, Reads);
+
+		for (const FString& Read : Reads) {
+			if (Read.StartsWith(TEXT("Temp_")) && !Writes.Contains(Read)) HeldScratch.Add(Read);
+		}
+
+		/* Or assigned once and then changed in place.
+		 *
+		 * Copied out of a call, it reads like a copy that could be wired straight from the call, and
+		 * for Length and Get it could. Clear and Add change the array they are handed, and the only
+		 * thing that can be handed to a by-reference pin is a variable, so it has to stay the Local
+		 * node it was, assigned and then changed, or that pin is left empty. */
+		TArray<FString> Changed;
+
+		for (const TPair<FString, TSharedPtr<FJsonValue>>& Field : Statement.JsonObject->Values) ArraysChanged(Field.Value, Changed);
+
+		for (const FString& One : Changed) {
+			if (One.StartsWith(TEXT("Temp_"))) HeldScratch.Add(One);
+		}
+	}
+
+	for (const TPair<FString, bool>& Wrote : Plain) {
+		/* Every write, not just the one.
+		 *
+		 * The compiler keeps one of these per type and hands it to whoever needs one, so a function
+		 * with several Selects in it writes the same scratch for each of them. Counting the writes
+		 * and stopping at more than one leaves every Select after the first laying its options down
+		 * as a variable nobody declared and reading them back.
+		 *
+		 * What matters is not how often it is written but whether anything is ever worked out into
+		 * it. Where nothing is, each read carries whatever the write before it put there, which is
+		 * how the run reads it and how it is laid out. */
+		if (!Wrote.Value) continue;
+
+		/* Unless it is worked out from itself, however many steps round. */
+		bool bItself = false;
+
+		TSet<FString> Seen;
+		TArray<FString> Walk;
+
+		if (const TSet<FString>* From = Feeds.Find(Wrote.Key)) {
+			for (const FString& One : *From) Walk.Add(One);
+		}
+
+		while (Walk.Num() > 0) {
+			const FString One = Walk.Pop();
+
+			if (One == Wrote.Key) {
+				bItself = true;
+
+				break;
+			}
+
+			if (Seen.Contains(One)) continue;
+
+			Seen.Add(One);
+
+			if (const TSet<FString>* From = Feeds.Find(One)) {
+				for (const FString& Next : *From) Walk.Add(Next);
+			}
+		}
+
+		if (bItself) {
+			Running.Add(Wrote.Key);
+
+			UE_LOG(LogReflectionBytecode, Display, TEXT("\"%s\" is worked out from itself, so what keeps it running stays in the graph"), *Wrote.Key);
+
+			continue;
+		}
+
+		Constants.Add(Wrote.Key);
+	}
+}
+
+void FBytecodeGraph::FindMacros() {
+	/* Asked for once from the locals and once from the laying out, and the answer is the same */
+	if (bLookedForMacros) return;
+
+	bLookedForMacros = true;
+
+	for (int32 Index = 0; Index < Statements.Num(); ++Index) {
+		/* Already accounted for by one that matched earlier */
+		if (Skipped.Contains(Index)) continue;
+
+		for (const TSharedRef<FMacroPattern>& Pattern : GetMacroPatterns()) {
+			FMacroMatch Match;
+
+			if (!Pattern->Match(Statements, Index, Match) || !Match.IsValid()) continue;
+
+			/* One that would take statements another has already taken is that macro read a second
+			 * time rather than a second macro */
+			bool bTaken = false;
+
+			for (const int32 Inside : Match.Internal) {
+				if (Skipped.Contains(Inside)) {
+					bTaken = true;
+
+					break;
+				}
+			}
+
+			if (bTaken) continue;
+
+			Match.Pattern = &Pattern.Get();
+
+			Macros.Add(Match.First, Match);
+
+			for (const int32 Inside : Match.Internal) {
+				Skipped.Add(Inside);
+			}
+
+			/* What the macro hands out is the macro's to hold, so nothing else has to. So is
+			 * anything its own workings write: a loop's counter is never read outside them, and
+			 * declaring it would put a variable in the graph that the macro already is. */
+			for (const TPair<FString, FName>& Handout : Match.Handouts) {
+				Owned.Add(Handout.Key);
+			}
+
+			for (const int32 Inside : Match.Internal) {
+				if (!Statements.IsValidIndex(Inside)) continue;
+
+				if (const FString Kept = MacroReading::WrittenTo(Statements[Inside]); !Kept.IsEmpty() && !Match.ByReference.Contains(Kept)) {
+					Owned.Add(Kept);
+				}
+			}
+
+			UE_LOG(LogReflectionBytecode, Display, TEXT("statements %d to %d are one %s"), Match.First, Match.Last, Pattern->GetName());
+
+			/* Read on from the next statement rather than from where this macro ends. What a macro
+			 * covers is not what it accounts for: a loop reaches from the first thing it does to
+			 * the last, and everything in between is whatever the loop runs, which can be another
+			 * loop. Skipping to the end would step straight over it. */
+			break;
+		}
+	}
+}
+
+UEdGraphPin* FBytecodeGraph::MacroPin(UK2Node* Node, const FName Named, const EEdGraphPinDirection Direction) {
+	if (Node == nullptr) return nullptr;
+
+	if (UEdGraphPin* Exact = Node->FindPin(Named, Direction)) return Exact;
+
+	/* A macro's pins are named for whoever reads the graph, so one of them carries spaces where a
+	 * pattern spells it without. What the name says is the same either way. */
+	const FString Wanted = Named.ToString().Replace(TEXT(" "), TEXT(""));
+
+	for (UEdGraphPin* Pin : Node->Pins) {
+		if (Pin == nullptr || Pin->Direction != Direction) continue;
+
+		if (Pin->PinName.ToString().Replace(TEXT(" "), TEXT("")).Equals(Wanted, ESearchCase::IgnoreCase)) return Pin;
+	}
+
+	return nullptr;
+}
+
+void FBytecodeGraph::MakeMacros() {
+	/* Made before anything is laid out, and not where the run reaches them.
+	 *
+	 * What a macro hands out is read by the body it runs, and the body is not always written after
+	 * the macro: an event graph is written as blocks, so a loop's body can come first. Made up
+	 * front, what it hands out is known by the time anything reads it, whichever order they were
+	 * written in. Where it goes in the run is settled later, when the run gets there. */
+	for (const TPair<int32, FMacroMatch>& Match : Macros) {
+		UEdGraph* Definition = FindStandardMacro(Match.Value.Pattern->GetName());
+
+		if (Definition == nullptr) {
+			Unhandled.AddUnique(FString::Printf(TEXT("no %s macro to read back into"), Match.Value.Pattern->GetName()));
+
+			continue;
+		}
+
+		UK2Node_MacroInstance* Node = AddNode<UK2Node_MacroInstance>();
+
+		Node->SetMacroGraph(Definition);
+		Node->AllocateDefaultPins();
+
+		/* What the macro hands out, which is what the compiler's own names in the body stand for */
+		for (const TPair<FString, FName>& Handout : Match.Value.Handouts) {
+			if (UEdGraphPin* Pin = MacroPin(Node, Handout.Value, EGPD_Output)) {
+				Locals.Add(Handout.Key, Pin);
+			}
+		}
+
+		/* Where a run reaches one of the macro's other ways in. That is the body saying to stop,
+		 * not anything the macro does itself, so the run is wired to the pin and ends there. */
+		for (const TPair<int32, FName>& Arriving : Match.Value.Takes) {
+			UEdGraphPin* Pin = MacroPin(Node, Arriving.Value, EGPD_Input);
+
+			if (Pin == nullptr || !Statements.IsValidIndex(Arriving.Key)) continue;
+
+			Arrivals.Add(Arriving.Key, Pin);
+
+			/* And where something jumps straight to it rather than falling into it */
+			const int32 Address = MacroReading::AddressOf(Statements[Arriving.Key]);
+
+			if (Address >= 0 && !Entries.Contains(Address)) Entries.Add(Address, Pin);
+		}
+
+		Written.Add(Match.Key, Node);
+	}
+}
+
+bool FBytecodeGraph::PlaceMacro(const FMacroMatch& Match) {
+	UK2Node_MacroInstance* Node = Written.FindRef(Match.First);
+
+	if (Node == nullptr) return false;
+
+	/* Where the macro begins, for anything that jumps into it.
+	 *
+	 * Every other node is laid down as its statement comes round, and what begins at an address is
+	 * worked out from what that statement put there. A macro is made before any of that, so it puts
+	 * nothing there and has to say where it begins outright, or the run that enters it arrives at
+	 * an address nothing answers to. */
+	if (Statements.IsValidIndex(Match.First)) {
+		const int32 Address = MacroReading::AddressOf(Statements[Match.First]);
+
+		if (Address >= 0 && !Entries.Contains(Address)) {
+			if (UEdGraphPin* In = WayIn(Node)) {
+				Entries.Add(Address, In);
+			}
+		}
+	}
+
+	EnterNode(Node);
+
+	/* What the caller wrote for the macro's inputs */
+	for (const TPair<FName, FUObjectJsonValueExport>& Input : Match.Inputs) {
+		if (UEdGraphPin* Pin = MacroPin(Node, Input.Key, EGPD_Input)) {
+			const FValue Given = Read(Input.Value);
+
+			if (Given.Pin != nullptr) Connect(Given.Pin, Pin);
+			else if (!Given.Literal.IsEmpty()) ApplyLiteral(Pin, Given.Literal);
+		}
+	}
+
+	Placed++;
+
+	/* Held open either way, since an input a macro works out after it begins is wired once the
+	 * statements that work it out have been laid down, and that is true however it runs */
+	Open.Push(TTuple<const FMacroMatch*, UK2Node*>(&Match, Node));
+
+	/* A macro that said where each of its ways out goes is not a run of statements, so the run does
+	 * not carry on into it: each way out is linked to the address it leads to, once whatever is
+	 * there has been laid down. Where it goes nowhere, nothing runs from it, which is what the
+	 * compiler means by ending a thread. */
+	if (Match.Leads.Num() > 0) {
+		for (const TPair<FName, int32>& Lead : Match.Leads) {
+			if (UEdGraphPin* Pin = MacroPin(Node, Lead.Key, EGPD_Output)) {
+				Jumps.Add(MakeTuple(Pin, Lead.Value));
+			}
+		}
+
+		Flow = nullptr;
+
+		return true;
+	}
+
+	/* The run carries on into the first thing the macro runs */
+	if (Match.Bodies.Num() > 0) {
+		Flow = MacroPin(Node, Match.Bodies[0].Key, EGPD_Output);
+	}
+
+	return true;
+}
+
+void FBytecodeGraph::Arrange() {
+	if (Graph == nullptr) return;
+
+	/* How far apart nodes sit. A column is wide enough for a call with its pins, and a row deep
+	 * enough that what feeds a node does not land on top of the node beside it. */
+	constexpr int32 Column = 420;
+	constexpr int32 Row = 200;
+
+	TSet<UEdGraphNode*> Settled;
+
+	/* What each spot is taken by, so two nodes never land on the same one */
+	TSet<TPair<int32, int32>> Taken;
+
+	/* How far down anything has been put, so the next run starts below the last rather than over it */
+	int32 Deepest = 0;
+
+	/* Puts a node down at the first free spot at or below the one asked for */
+	auto PutDown = [&Taken, &Deepest, Row](UEdGraphNode* Node, const int32 X, int32 Y) {
+		while (Taken.Contains(TPair<int32, int32>(X, Y))) {
+			Y += Row;
+		}
+
+		Taken.Add(TPair<int32, int32>(X, Y));
+
+		Node->NodePosX = X;
+		Node->NodePosY = Y;
+
+		Deepest = FMath::Max(Deepest, Y);
+
+		return Y;
+	};
+
+	/* What feeds a node is laid out to the left of it, in the order its pins take them, and each
+	 * one is followed back through whatever feeds it in turn */
+	TFunction<int32(UEdGraphNode*, int32, int32)> Feeders = [&](UEdGraphNode* Node, int32 X, int32 Y) {
+		int32 Used = 0;
+
+		for (UEdGraphPin* Pin : Node->Pins) {
+			if (Pin == nullptr || Pin->Direction != EGPD_Input || Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Exec) continue;
+
+			for (UEdGraphPin* Linked : Pin->LinkedTo) {
+				UEdGraphNode* Feeding = Linked != nullptr ? Linked->GetOwningNode() : nullptr;
+
+				if (Feeding == nullptr || Settled.Contains(Feeding)) continue;
+
+				Settled.Add(Feeding);
+
+				const int32 Landed = PutDown(Feeding, X - Column, Y + Used * Row);
+
+				Used += FMath::Max(1, Feeders(Feeding, X - Column, Landed));
+			}
+		}
+
+		return Used;
+	};
+
+	/* How far right a node has to sit for everything feeding it to sit to its left.
+	 *
+	 * A graph reads left to right: what feeds a node is drawn to the left of it, and the run passes
+	 * through afterwards. Placed by the run alone that does not hold, because a value can be worked
+	 * out from something the run has already gone past, and the working then has to fit between the
+	 * two. Laid out to the left regardless it is drawn behind the node it was read from, with the
+	 * wires running back the way they came.
+	 *
+	 * So each node is asked how deep what feeds it goes, counting from wherever those readings come
+	 * from, and moved right far enough for all of it to fit in front. */
+	TFunction<int32(UEdGraphNode*, TSet<UEdGraphNode*>&)> Needed = [&](UEdGraphNode* Node, TSet<UEdGraphNode*>& Asking) {
+		if (Node == nullptr || Asking.Contains(Node)) return 0;
+
+		Asking.Add(Node);
+
+		int32 Need = 0;
+
+		for (UEdGraphPin* Pin : Node->Pins) {
+			if (Pin == nullptr || Pin->Direction != EGPD_Input || Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Exec) continue;
+
+			for (UEdGraphPin* Linked : Pin->LinkedTo) {
+				UEdGraphNode* Feeding = Linked != nullptr ? Linked->GetOwningNode() : nullptr;
+
+				if (Feeding == nullptr) continue;
+
+				/* One already down is as far right as it stands. One still to come is asked the
+				 * same question in turn, since its own feeders have to fit in front of it too. */
+				const int32 Sits = Settled.Contains(Feeding) ? Feeding->NodePosX : Needed(Feeding, Asking);
+
+				Need = FMath::Max(Need, Sits + Column);
+			}
+		}
+
+		Asking.Remove(Node);
+
+		return Need;
+	};
+
+	int32 Across = 0;
+	int32 Down = 0;
+
+	/* Where the lines are counted from, which is the top of the graph for a run of its own and the
+	 * run it meets for one that joins another */
+	int32 Base = 0;
+
+	/* The run itself reads left to right, and every way out of a node that leads somewhere else
+	 * starts a line of its own below */
+	TFunction<void(UEdGraphNode*, int32)> Run = [&](UEdGraphNode* Node, int32 Line) {
+		if (Node == nullptr || Settled.Contains(Node)) return;
+
+		Settled.Add(Node);
+
+		{
+			TSet<UEdGraphNode*> Asking;
+
+			Across = FMath::Max(Across, Needed(Node, Asking));
+		}
+
+		PutDown(Node, Across, Base + Line * Row * 3);
+
+		Feeders(Node, Across, Node->NodePosY + Row);
+
+		/* Where this node ended up, since every way out of it starts from there.
+		 *
+		 * A node stands in one column and its ways out lead from that one column, so each of them
+		 * begins alongside the next. Carried on from wherever the way out before it finished, the
+		 * second way out of a branch starts beyond everything the first one ran through, and the
+		 * one node on the short way out is drawn the whole length of the long one away from the
+		 * branch it comes off. */
+		const int32 Here = Node->NodePosX;
+
+		int32 Branch = 0;
+
+		for (UEdGraphPin* Pin : Node->Pins) {
+			if (Pin == nullptr || Pin->Direction != EGPD_Output || Pin->PinType.PinCategory != UEdGraphSchema_K2::PC_Exec) continue;
+
+			for (UEdGraphPin* Linked : Pin->LinkedTo) {
+				if (Linked != nullptr) {
+					Across = Here + Column;
+
+					Run(Linked->GetOwningNode(), Line + Branch);
+				}
+			}
+
+			Branch++;
+		}
+	};
+
+	/* Every way into the graph starts a run of its own, laid out below the one before it. A
+	 * function is entered in one place, its entry node; the event graph once per event. */
+	int32 Line = 0;
+
+	TArray<UEdGraphNode*> Ways;
+
+	for (UEdGraphNode* Node : Graph->Nodes) {
+		if (Node != nullptr && (Node->IsA<UK2Node_FunctionEntry>() || Node->IsA<UK2Node_Event>())) {
+			Ways.Add(Node);
+		}
+	}
+
+	/* And whatever else the run was entered through, which is asked of the graph rather than worked
+	 * out from what the nodes are. A timeline is entered twice over and is not an event either
+	 * time, so read by type it would be left out and everything running from it left at the origin. */
+	for (const TPair<int32, TArray<TPair<TWeakObjectPtr<UK2Node>, FName>>>& Entered : Starts) {
+		for (const TPair<TWeakObjectPtr<UK2Node>, FName>& One : Entered.Value) {
+			if (One.Key.IsValid()) Ways.AddUnique(One.Key.Get());
+		}
+	}
+
+	for (UEdGraphNode* Way : Ways) {
+		if (Settled.Contains(Way)) continue;
+
+		/* Where a run joins one already laid out, it is put where it joins rather than on a line of
+		 * its own below everything.
+		 *
+		 * Runs meet. Two events can run the same thing, and one event can do a little of its own
+		 * before carrying on into what another already runs. Laid out as a run of its own, what
+		 * joins comes out sat alone at the bottom with one long wire back up to the node it meets.
+		 *
+		 * So the run is followed forward until it reaches something already down, and started back
+		 * from there by as many columns as it took to get there, which lands its last node beside
+		 * the one it runs into. */
+		UEdGraphNode* Joins = nullptr;
+
+		int32 Depth = 0;
+
+		{
+			TArray<TPair<UEdGraphNode*, int32>> Ahead;
+			TSet<UEdGraphNode*> Seen;
+
+			Ahead.Add(TPair<UEdGraphNode*, int32>(Way, 0));
+			Seen.Add(Way);
+
+			for (int32 At = 0; At < Ahead.Num() && Joins == nullptr; ++At) {
+				for (UEdGraphPin* Pin : Ahead[At].Key->Pins) {
+					if (Pin == nullptr || Pin->Direction != EGPD_Output || Pin->PinType.PinCategory != UEdGraphSchema_K2::PC_Exec) continue;
+
+					for (UEdGraphPin* Linked : Pin->LinkedTo) {
+						UEdGraphNode* Next = Linked != nullptr ? Linked->GetOwningNode() : nullptr;
+
+						if (Next == nullptr || Seen.Contains(Next)) continue;
+
+						if (Settled.Contains(Next)) {
+							Joins = Next;
+							Depth = Ahead[At].Value + 1;
+
+							break;
+						}
+
+						Seen.Add(Next);
+						Ahead.Add(TPair<UEdGraphNode*, int32>(Next, Ahead[At].Value + 1));
+					}
+
+					if (Joins != nullptr) break;
+				}
+			}
+		}
+
+		if (Joins != nullptr) {
+			Across = FMath::Max(0, Joins->NodePosX - Depth * Column);
+
+			/* A row under the run it joins, and further down again wherever that is already taken */
+			Base = Joins->NodePosY + Row;
+
+			Run(Way, 0);
+
+			Base = 0;
+
+			continue;
+		}
+
+		Across = 0;
+
+		Run(Way, Line);
+
+		/* Two rows of clear air between one run and the next */
+		Line = Deepest / (Row * 3) + 2;
+	}
+
+	/* Straightened along the run.
+	 *
+	 * A node is placed by its top corner, but a wire leaves and enters a pin, and the pins sit under
+	 * the node's title rather than at the top of it. A call made on a target reads as two lines of
+	 * title where a plain one reads as one, so two nodes left at the same height have their pins a
+	 * line apart and the wire between them slopes.
+	 *
+	 * This is what the editor's own Straighten Connections does, except that it measures the pins,
+	 * which it can only do once the graph is open and every pin has been given somewhere to be. Here
+	 * there is nothing to measure, so the height is worked out from what decides it: how many lines
+	 * of title the node carries. */
+	auto HeaderOf = [Row](UEdGraphNode* Node) {
+		/* Drawn as an operator rather than as a node, so there is no title above the pins */
+
+		/* [linux]	We can't shadow variable members under linux. */
+		#if !PLATFORM_LINUX
+		if (const UK2Node* Written = Cast<UK2Node>(Node); Written != nullptr && Written->ShouldDrawCompact()) {
+			return 0;
+		}
+		#else
+		if (const UK2Node* _Written = Cast<UK2Node>(Node); _Written != nullptr && _Written->ShouldDrawCompact()) {
+			return 0;
+		}
+		#endif
+
+		const FString Title = Node->GetNodeTitle(ENodeTitleType::FullTitle).ToString();
+
+		int32 Lines = 1;
+
+		for (const TCHAR Letter : Title) {
+			if (Letter == TEXT('\n')) Lines++;
+		}
+
+		/* One step of the grid to a line, and one for the title's own top and bottom */
+		return (Row / 12) * (Lines + 1);
+	};
+
+	/* Only where the two were meant to sit level. A branch puts what runs from it on lines of its
+	 * own, and pulling those up to meet the node they run from would undo the run's shape. */
+	TSet<UEdGraphNode*> Levelled;
+
+	for (int32 At = 0; At < Ways.Num(); ++At) {
+		UEdGraphNode* From = Ways[At];
+
+		for (UEdGraphPin* Pin : From->Pins) {
+			if (Pin == nullptr || Pin->Direction != EGPD_Output || Pin->PinType.PinCategory != UEdGraphSchema_K2::PC_Exec) continue;
+
+			for (UEdGraphPin* Linked : Pin->LinkedTo) {
+				UEdGraphNode* To = Linked != nullptr ? Linked->GetOwningNode() : nullptr;
+
+				if (To == nullptr || To == From || Levelled.Contains(To)) continue;
+
+				Levelled.Add(To);
+				Ways.Add(To);
+
+				if (To->NodePosY != From->NodePosY) continue;
+
+				To->NodePosY = From->NodePosY + HeaderOf(From) - HeaderOf(To);
+			}
+		}
+	}
+
+	/* Anything the run never reaches is put underneath rather than left sat at the origin */
+	Down = 0;
+
+	for (UEdGraphNode* Node : Graph->Nodes) {
+		if (Node == nullptr || Settled.Contains(Node)) continue;
+
+		Settled.Add(Node);
+
+		PutDown(Node, 0, Row * 3 * (6 + Down++));
+
+		Feeders(Node, 0, Node->NodePosY + Row);
+	}
+}
+
+void FBytecodeGraph::Clear() {
+	if (Graph == nullptr) return;
+
+	/* Whatever a previous run left behind goes, so importing twice lays the same graph out rather
+	 * than laying a second one over it. What the graph is entered through stays.
+	 *
+	 * Done before the blueprint is compiled and not as the laying out begins. A compile reads the
+	 * graphs as they stand, so one run's nodes would be compiled again at the start of the next:
+	 * where those nodes no longer answer to anything the compile fails, the class never picks up
+	 * what the construction script gave it, and everything laid out afterwards is read against a
+	 * class that is behind. That is what makes the same asset come back differently each time. */
+	for (int32 Index = Graph->Nodes.Num() - 1; Index >= 0; --Index) {
+		UEdGraphNode* Node = Graph->Nodes[Index];
+
+		if (Node == nullptr) continue;
+
+		/* What the graph is entered through stays, and so does anything that was not made from the
+		 * bytecode in the first place. A timeline is built from the template the class carries
+		 * rather than from any statement, so taking it out here would take out the one node the
+		 * statements are about to be wired to. */
+		if (Node->IsA<UK2Node_FunctionEntry>() || Node->IsA<UK2Node_FunctionResult>() || Node->IsA<UK2Node_Event>() || Node->IsA<UK2Node_Timeline>()) {
+			Node->BreakAllNodeLinks();
+
+			continue;
+		}
+
+		/* And so does anything nobody is allowed to take out.
+		 *
+		 * A graph that answers through a node of its own a transition through its result, an
+		 * animation graph through its output pose is given that node when it is made, and the
+		 * editor will not let it be deleted because the graph means nothing without it. Nothing
+		 * laid out from bytecode is like that, so this takes out the run and leaves the terminus. */
+		if (!Node->CanUserDeleteNode()) {
+			Node->BreakAllNodeLinks();
+
+			continue;
+		}
+
+		Graph->RemoveNode(Node);
+	}
+}
+
+int32 FBytecodeGraph::Build() {
+	if (Graph == nullptr) return 0;
+
+	if (bTidy) {
+		FindMacros();
+	}
+
+	Clear();
+
+	/* What the graph was handed comes out of whatever it is entered through, so a read of a
+	 * parameter is a read of that pin rather than of anything the graph keeps of its own.
+	 *
+	 * A function only. An event hands what it was given to the ubergraph through the frame, under a
+	 * name made from the node and the pin rather than the parameter's own, and those are read back
+	 * further down from the frame itself. Registered under the bare name as well, the parameter
+	 * answers for every read of that name anywhere in the ubergraph: a class variable spelled the
+	 * same reads as the parameter of whichever event happens to take one, so a value set on the
+	 * class one moment is read as another event's argument the next and nothing says a word.
+	 * OtherVelocity is both here, a variable the ball keeps and a parameter OnPawnTouchedMe takes. */
+	for (UEdGraphNode* Node : Graph->Nodes) {
+		if (Node == nullptr || !Node->IsA<UK2Node_FunctionEntry>()) continue;
+
+		/* What a function was handed it also keeps */
+		const bool bKept = HoldsLocals();
+
+		for (UEdGraphPin* Pin : Node->Pins) {
+			if (Pin == nullptr || Pin->Direction != EGPD_Output) continue;
+			if (Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Exec) continue;
+
+			Locals.Add(Pin->PinName.ToString(), Pin);
+
+			if (bKept) Handouts.Add(Pin->PinName.ToString());
+		}
+	}
+
+	/* What a timeline hands out, read under the name it keeps it in rather than as the pin it is */
+	for (const TPair<FString, TPair<TWeakObjectPtr<UK2Node>, FName>>& Track : Tracks) {
+		if (!Track.Value.Key.IsValid()) continue;
+
+		if (UEdGraphPin* Pin = Track.Value.Key->FindPin(Track.Value.Value, EGPD_Output)) {
+			Locals.Add(Track.Key, Pin);
+		}
+	}
+
+	/* An event's parameter is read under whatever the frame keeps it as, which is not its own name. */
+	for (const TPair<FString, TPair<TWeakObjectPtr<UK2Node>, FString>>& Given : Handed) {
+		if (!Given.Value.Key.IsValid()) continue;
+
+		if (UEdGraphPin* Pin = Given.Value.Key->FindPin(*Given.Value.Value, EGPD_Output)) {
+			Locals.Add(Given.Key, Pin);
+		}
+	}
+
+	/* The run starts wherever the graph is entered from. A graph entered at named addresses is
+	 * entered once for each of them instead, as those addresses come round. */
+	if (Starts.Num() == 0) {
+		for (UEdGraphNode* Node : Graph->Nodes) {
+			if (UEdGraphPin* Then = Node->FindPin(UEdGraphSchema_K2::PN_Then, EGPD_Output)) {
+				Flow = Then;
+
+				UE_LOG(LogReflectionBytecode, Display, TEXT("starting the run from \"%s\""), *Node->GetName());
+
+				break;
+			}
+		}
+	}
+
+	/* What belongs to some other graph is passed over.
+	 *
+	 * Said as addresses rather than by walking what each stretch reaches, because that is how the
+	 * compiler says it: a handler names the address its stretch begins at, and the stretch runs to
+	 * the return that ends it.
+	 *
+	 * Settled before anything is laid down, and not only before the run is walked. A macro is made
+	 * up front wherever it was matched it has to be, since a loop's body can be written before
+	 * the loop so a macro in somebody else's stretch would be made here regardless of the run
+	 * ever reaching it, which is a graph holding macros nothing in it runs. */
+	if (ElsewhereAt.Num() > 0) {
+		Ignored.Append(ElsewhereAt);
+
+		for (TMap<int32, FMacroMatch>::TIterator It(Macros); It; ++It) {
+			const int32 At = Statements.IsValidIndex(It.Key()) ? MacroReading::AddressOf(Statements[It.Key()]) : INDEX_NONE;
+
+			if (At >= 0 && ElsewhereAt.Contains(At)) It.RemoveCurrent();
+		}
+	}
+
+	if (Stretch.Num() > 0 || Elsewhere.Num() > 0) {
+		const auto Inside = [](const TArray<TPair<int32, int32>>& Stretches, const int32 At) {
+			for (const TPair<int32, int32>& One : Stretches) {
+				if (At >= One.Key && At <= One.Value) return true;
+			}
+
+			return false;
+		};
+
+		const auto Ours = [&Inside, this](const int32 At) {
+			if (At < 0) return true;
+			if (Stretch.Num() > 0 && !Inside(Stretch, At)) return false;
+
+			return !Inside(Elsewhere, At);
+		};
+
+		for (const FUObjectJsonValueExport& One : Statements) {
+			const int32 At = MacroReading::AddressOf(One);
+
+			if (At >= 0 && !Ours(At)) Ignored.Add(At);
+		}
+
+		for (TMap<int32, FMacroMatch>::TIterator It(Macros); It; ++It) {
+			const int32 At = Statements.IsValidIndex(It.Key()) ? MacroReading::AddressOf(Statements[It.Key()]) : INDEX_NONE;
+
+			if (!Ours(At)) It.RemoveCurrent();
+		}
+	}
+
+	FindConstants();
+	FindAnswers();
+	FindPureCasts();
+
+	MakeMacros();
+
+	/* Before anything a graph says, the compiler puts the function's own end on the flow stack, so
+	 * that ending a thread has somewhere to land. Nobody wrote it: it is not a sequence, and read
+	 * as one it leaves a node at the top of every graph with nothing on its second way out.
+	 *
+	 * Told apart by being the first thing the function does and by what it puts there, which is the
+	 * statement the function returns from. A function that never ends a thread has none of this. */
+	if (Statements.Num() > 0 && MacroReading::TokenOf(Statements[0]) == TEXT("EX_PushExecutionFlow")) {
+		const int32 Ends = MacroReading::IndexOfAddress(Statements, Statements[0].GetInteger(TEXT("PushingAddress"), INDEX_NONE));
+
+		if (Statements.IsValidIndex(Ends) && MacroReading::TokenOf(Statements[Ends]) == TEXT("EX_Return")) {
+			Ignored.Add(MacroReading::AddressOf(Statements[0]));
+		}
+	}
+
+	/* The ubergraph is entered by being told where in itself to go, and the statements that do the
+	 * telling are the compiler's way in rather than anything somebody wrote */
+	for (int32 Index = 0; Index < Statements.Num(); ++Index) {
+		if (MacroReading::TokenOf(Statements[Index]) != TEXT("EX_ComputedJump")) continue;
+
+		Ignored.Add(MacroReading::AddressOf(Statements[Index]));
+
+		if (Index > 0 && MacroReading::TokenOf(Statements[Index - 1]) == TEXT("EX_PushExecutionFlow")) {
+			Ignored.Add(MacroReading::AddressOf(Statements[Index - 1]));
+		}
+	}
+
+	/* What the compiler wraps around writing a replicated member. A Set node on one is expanded into
+	 * a dormancy flush before the write and a push model mark after it, and both come back again
+	 * when the Set is compiled here, so read back as nodes each would run twice. The mark is only
+	 * ever the compiler's; a flush is someone's own unless it leads straight into such a write. */
+	for (int32 Index = 0; Index < Statements.Num(); ++Index) {
+		const FUObjectJsonValueExport& Statement = Statements[Index];
+		const FString Token = MacroReading::TokenOf(Statement);
+
+		const FString Called = Statement.Has(TEXT("Function")) && Statement.JsonObject->HasTypedField<EJson::Object>(TEXT("Function"))
+			? Statement.GetObject(TEXT("Function")).GetString(TEXT("ObjectName"))
+			: FString();
+
+		if (Token == TEXT("EX_CallMath") && Called.EndsWith(TEXT(":MarkPropertyDirtyFromRepIndex'"))) {
+			Ignored.Add(MacroReading::AddressOf(Statement));
+
+			continue;
+		}
+
+
+		/* Or the flush made on another actor, ahead of a write to that actor's member: the Set node was given a
+		 * target, and the compiler copies it onto the flush. */
+		const bool bFlushesOther = (Token == TEXT("EX_Context") || Token == TEXT("EX_Context_FailSilent"))
+			&& Statement.GetObject(TEXT("ContextExpression")).Has(TEXT("Function"))
+			&& Statement.GetObject(TEXT("ContextExpression")).JsonObject->HasTypedField<EJson::Object>(TEXT("Function"))
+			&& Statement.GetObject(TEXT("ContextExpression")).GetObject(TEXT("Function")).GetString(TEXT("ObjectName")).EndsWith(TEXT("Actor:FlushNetDormancy'"));
+
+		if (bFlushesOther) {
+			const FString Flushed = MacroReading::NamedProperty(Statement.GetObject(TEXT("ObjectExpression")).GetObject(TEXT("Variable")));
+
+			for (int32 Ahead = Index + 1; Statements.IsValidIndex(Ahead); ++Ahead) {
+				const FUObjectJsonValueExport& Next = Statements[Ahead];
+				const FString Going = MacroReading::TokenOf(Next);
+
+				if (Going == TEXT("EX_CallMath")) continue;
+
+				/* A library function called on its default object, which hands its answers back through locals the
+				 * same way a Call Math does, only spelled as a call made on something */
+				if ((Going == TEXT("EX_Context") || Going == TEXT("EX_Context_FailSilent"))
+					&& MacroReading::TokenOf(Next.GetObject(TEXT("ObjectExpression"))) == TEXT("EX_ObjectConst")
+					&& Next.GetObject(TEXT("ObjectExpression")).GetObject(TEXT("Value")).GetString(TEXT("ObjectName")).Contains(DEFAULT_OBJECT_PREFIX)) continue;
+
+				if (!Going.StartsWith(TEXT("EX_Let")) || !Next.Has(TEXT("Variable"))) break;
+
+				const FUObjectJsonValueExport Target = Next.GetObject(TEXT("Variable"));
+				const FString Into = MacroReading::TokenOf(Target);
+
+				if (Into == TEXT("EX_LocalVariable")) continue;
+
+				if (Into != TEXT("EX_Context") && Into != TEXT("EX_Context_FailSilent")) break;
+
+				/* Written into the same actor that was flushed */
+				if (MacroReading::NamedProperty(Target.GetObject(TEXT("ObjectExpression")).GetObject(TEXT("Variable"))) != Flushed) break;
+
+				const FUObjectJsonValueExport Member = Target.GetObject(TEXT("ContextExpression")).GetObject(TEXT("Variable"));
+				const FString Name = MacroReading::NamedProperty(Member);
+
+				FString Owner, Unused;
+				if (Member.Has(TEXT("ResolvedOwner"))) {
+					SplitReference(Member.GetObject(TEXT("ResolvedOwner")), Owner, Unused);
+				}
+
+				/* Whether it replicates is asked of the property itself, which is what the compiler asks: this
+				 * spelling carries neither a rep index nor the property's flags. */
+				const UClass* On = Owner.IsEmpty() ? nullptr : FindClassByType(Owner);
+				const FProperty* WrittenMember = On != nullptr && !Name.IsEmpty() ? On->FindPropertyByName(*Name) : nullptr;
+
+				if (WrittenMember != nullptr && WrittenMember->HasAnyPropertyFlags(CPF_Net)) {
+					Ignored.Add(MacroReading::AddressOf(Statement));
+				}
+
+				break;
+			}
+
+			continue;
+		}
+
+		if (Token != TEXT("EX_FinalFunction") || !Called.EndsWith(TEXT("Actor:FlushNetDormancy'"))) continue;
+
+		/* The flush goes in ahead of the Set, and what the Set is given is worked out after it, so
+		 * the write is the first thing past the flush that is not working a value out: a local being
+		 * filled, or a library call handing its answers back through locals */
+		for (int32 Ahead = Index + 1; Statements.IsValidIndex(Ahead); ++Ahead) {
+			const FUObjectJsonValueExport& Next = Statements[Ahead];
+			const FString Going = MacroReading::TokenOf(Next);
+
+			if (Going == TEXT("EX_CallMath")) continue;
+
+			/* A library function called on its default object, which hands its answers back through locals the
+			 * same way a Call Math does, only spelled as a call made on something */
+			if ((Going == TEXT("EX_Context") || Going == TEXT("EX_Context_FailSilent"))
+				&& MacroReading::TokenOf(Next.GetObject(TEXT("ObjectExpression"))) == TEXT("EX_ObjectConst")
+				&& Next.GetObject(TEXT("ObjectExpression")).GetObject(TEXT("Value")).GetString(TEXT("ObjectName")).Contains(DEFAULT_OBJECT_PREFIX)) continue;
+
+			if (!Going.StartsWith(TEXT("EX_Let")) || !Next.Has(TEXT("Variable"))) break;
+
+			const FUObjectJsonValueExport Target = Next.GetObject(TEXT("Variable"));
+			const FString Into = MacroReading::TokenOf(Target);
+
+			if (Into == TEXT("EX_LocalVariable")) continue;
+
+			if (Into == TEXT("EX_InstanceVariable") && Target.Has(TEXT("Variable"))) {
+				const FUObjectJsonValueExport Held = Target.GetObject(TEXT("Variable"));
+
+				/* Said with the property beside its owner, or as the property itself. Replicated is what
+				 * the compiler asks, which one spelling says by a rep index and the other only by its flags. */
+				const FUObjectJsonValueExport Assigned = Held.Has(TEXT("Property")) ? Held.GetObject(TEXT("Property")) : Held;
+
+				bool bReplicated = Assigned.Has(TEXT("RepIndex"));
+
+				if (!bReplicated && Assigned.Has(TEXT("PropertyFlags"))) {
+					TArray<FString> Flags;
+					Assigned.GetString(TEXT("PropertyFlags")).ParseIntoArray(Flags, TEXT(" | "));
+
+					bReplicated = Flags.Contains(TEXT("Net"));
+				}
+
+				if (bReplicated) {
+					Ignored.Add(MacroReading::AddressOf(Statement));
+				}
+			}
+
+			break;
+		}
+	}
+
+	/* And the notify. A Set on a member of the blueprint's own that notifies is followed by a call to the
+	 * function it names, which the Set node puts back when it is compiled, so read back as a node of its
+	 * own the server would run it twice. The compiler can share one call between Sets, each jumping to it,
+	 * so the call is only left out when every way into it is a Set of the member that names it. */
+	{
+		auto NotifyOfSet = [](const FUObjectJsonValueExport& Statement) -> FString {
+			if (!MacroReading::TokenOf(Statement).StartsWith(TEXT("EX_Let")) || !Statement.Has(TEXT("Variable"))) return FString();
+
+			const FUObjectJsonValueExport Target = Statement.GetObject(TEXT("Variable"));
+
+			if (MacroReading::TokenOf(Target) != TEXT("EX_InstanceVariable") || !Target.Has(TEXT("Variable"))) return FString();
+
+			const FUObjectJsonValueExport Held = Target.GetObject(TEXT("Variable"));
+			const FUObjectJsonValueExport Assigned = Held.Has(TEXT("Property")) ? Held.GetObject(TEXT("Property")) : Held;
+
+			const FString Notify = Assigned.Has(TEXT("RepNotifyFunc")) ? Assigned.GetString(TEXT("RepNotifyFunc")) : FString();
+
+			return Notify == TEXT("None") ? FString() : Notify;
+		};
+
+		/* A call with no target and no arguments, which is all a notify ever is */
+		auto CalledOnSelf = [](const FUObjectJsonValueExport& Statement) -> FString {
+			const FString Going = MacroReading::TokenOf(Statement);
+
+			if (Going != TEXT("EX_LocalFinalFunction") && Going != TEXT("EX_LocalVirtualFunction") && Going != TEXT("EX_FinalFunction") && Going != TEXT("EX_VirtualFunction")) return FString();
+
+			FString Calls;
+
+			if (Statement.Has(TEXT("Function")) && Statement.JsonObject->HasTypedField<EJson::Object>(TEXT("Function"))) {
+				Calls = Statement.GetObject(TEXT("Function")).GetString(TEXT("ObjectName"));
+			} else if (Statement.Has(TEXT("Function"))) {
+				Calls = Statement.GetString(TEXT("Function"));
+			} else if (Statement.Has(TEXT("VirtualFunctionName"))) {
+				Calls = Statement.GetString(TEXT("VirtualFunctionName"));
+			}
+
+			Calls.RemoveFromEnd(TEXT("'"));
+
+			int32 Colon = INDEX_NONE;
+			if (Calls.FindLastChar(TEXT(':'), Colon)) {
+				Calls = Calls.RightChop(Colon + 1);
+			}
+
+			return Calls;
+		};
+
+		TMap<int32, int32> Ways;
+		TMap<int32, int32> FromSets;
+
+		for (int32 Index = 0; Index < Statements.Num(); ++Index) {
+			const FUObjectJsonValueExport& Statement = Statements[Index];
+			const FString Token = MacroReading::TokenOf(Statement);
+
+			/* Run on into the next one */
+			const bool bFallsThrough = Token != TEXT("EX_Jump") && Token != TEXT("EX_Return") && Token != TEXT("EX_PopExecutionFlow") && Token != TEXT("EX_ComputedJump") && Token != TEXT("EX_EndOfScript");
+
+			if (bFallsThrough && Statements.IsValidIndex(Index + 1)) {
+				const FString Callee = CalledOnSelf(Statements[Index + 1]);
+
+				if (!Callee.IsEmpty()) {
+					Ways.FindOrAdd(Index + 1)++;
+
+					if (NotifyOfSet(Statement) == Callee) FromSets.FindOrAdd(Index + 1)++;
+				}
+			}
+
+			/* Or jumped to, which only counts for a Set when it is the jump straight after one */
+			for (const TCHAR* Field : { TEXT("CodeOffset"), TEXT("PushingAddress") }) {
+				if (!Statement.Has(Field)) continue;
+
+				const int32 To = MacroReading::IndexOfAddress(Statements, Statement.GetInteger(Field, -1));
+
+				if (!Statements.IsValidIndex(To)) continue;
+
+				const FString Callee = CalledOnSelf(Statements[To]);
+
+				if (Callee.IsEmpty()) continue;
+
+				Ways.FindOrAdd(To)++;
+
+				if (Token == TEXT("EX_Jump") && Index > 0 && NotifyOfSet(Statements[Index - 1]) == Callee) FromSets.FindOrAdd(To)++;
+			}
+		}
+
+		for (const TPair<int32, int32>& Way : Ways) {
+			const int32 Address = MacroReading::AddressOf(Statements[Way.Key]);
+
+			/* An event entered right at the call reaches it from somewhere this does not see */
+			if (Starts.Contains(Address)) continue;
+
+			if (Way.Value > 0 && FromSets.FindRef(Way.Key) == Way.Value) {
+				Ignored.Add(Address);
+			}
+		}
+	}
+
+	/* Walked by number rather than one at a time, since a macro accounts for a run of them */
+	for (int32 Index = 0; Index < Statements.Num(); ++Index) {
+		const FUObjectJsonValueExport& Statement = Statements[Index];
+
+		const int32 Address = Statement.GetInteger(TEXT("StatementIndex"), -1);
+
+		/* An event sits where its run was written, among the nodes of the code before and after it */
+		if (const TArray<TWeakObjectPtr<UK2Node>>* Here = Sitting.Find(Address)) {
+			for (const TWeakObjectPtr<UK2Node>& Event : *Here) {
+				if (Event.IsValid() && Graph->Nodes.Remove(Event.Get()) > 0) {
+					Graph->Nodes.Add(Event.Get());
+				}
+			}
+		}
+
+		const int32 Before = Graph->Nodes.Num();
+
+		Placing = Index;
+
+		/* An address the graph is entered at begins a run of its own, from the node it is entered
+		 * through rather than from wherever the statement before it left off */
+		if (const TArray<TPair<TWeakObjectPtr<UK2Node>, FName>>* Entered = Starts.Find(Address)) {
+			Flow = nullptr;
+
+			for (const TPair<TWeakObjectPtr<UK2Node>, FName>& One : *Entered) {
+				if (!One.Key.IsValid()) continue;
+
+				UEdGraphPin* Out = One.Key->FindPin(One.Value.IsNone() ? UEdGraphSchema_K2::PN_Then : One.Value, EGPD_Output);
+
+				if (Out == nullptr) continue;
+
+				/* The run carries on from one of them. Anything else entering here is tied up the
+				 * way a jump to this address is, since the run can only be carried on from one. */
+				if (Flow == nullptr) {
+					Flow = Out;
+				} else {
+					Jumps.Add(MakeTuple(Out, Address));
+				}
+
+				UE_LOG(LogReflectionBytecode, Display, TEXT("entering at %d, through \"%s\""), Address, *One.Key->GetName());
+			}
+		}
+
+		const int32 WasChained = Chained;
+
+		/* A macro stands for a run of statements, so it is placed once and its own workings passed
+		 * over. What runs from it is placed as it comes, with the run threaded through its outputs. */
+		if (Ignored.Contains(Address)) {
+			/* Nothing: it only says where a run begins */
+		} else if (const FMacroMatch* Match = Macros.Find(Index)) {
+			PlaceMacro(*Match);
+		} else if (!Skipped.Contains(Index)) {
+			Place(Statement);
+		} else {
+			/* Unless it is one of the macro's other ways in, which the run reaches and goes into */
+			if (UEdGraphPin* const* Arriving = Arrivals.Find(Index)) {
+				if (Flow != nullptr) LinkExecution(Flow, *Arriving);
+
+				Flow = nullptr;
+			}
+
+			/* A macro's own workings stand for nothing, but one of them ending a thread still ends
+			 * it: the run does not carry on past it into whatever happens to be written next */
+			const FString Token = MacroReading::TokenOf(Statement);
+
+			if (Token == TEXT("EX_Jump") || Token == TEXT("EX_PopExecutionFlow")) {
+				Flow = nullptr;
+			}
+		}
+
+		/* Where a macro's inputs were worked out after it, they are wired once they exist */
+		for (const TPair<const FMacroMatch*, UK2Node*>& Waiting : Open) {
+			for (const TPair<FName, FUObjectJsonValueExport>& Late : Waiting.Key->Deferred) {
+				if (Index != Waiting.Key->Last) continue;
+
+				if (UEdGraphPin* Pin = MacroPin(Waiting.Value, Late.Key, EGPD_Input)) {
+					if (Pin->LinkedTo.Num() == 0 && Pin->DefaultValue.IsEmpty()) {
+						const FValue Given = Read(Late.Value);
+
+						if (Given.Pin != nullptr) Connect(Given.Pin, Pin);
+						else if (!Given.Literal.IsEmpty()) ApplyLiteral(Pin, Given.Literal);
+					}
+				}
+			}
+		}
+
+		/* Once everything a macro runs is placed, the run carries on past it */
+		while (Open.Num() > 0 && Index >= Open.Last().Key->Last) {
+			const TPair<const FMacroMatch*, UK2Node*> Done = Open.Pop();
+
+			/* One that named where its ways out go was wired to them outright, and the run carries
+			 * on from wherever those led rather than from here */
+			if (Done.Key->Leads.Num() > 0) continue;
+
+			Flow = MacroPin(Done.Value, TEXT("Completed"), EGPD_Output);
+
+			/* A macro that only runs straight through has no Completed: the way out it runs through is the one the run
+			 * carries on from, which a step of a counter is the plain case of */
+			if (Flow == nullptr && Done.Key->Bodies.Num() > 0) {
+				Flow = MacroPin(Done.Value, Done.Key->Bodies.Last().Key, EGPD_Output);
+			}
+		}
+
+		if (Chained > WasChained && Address >= 0) {
+			LastChainedAddress = Address;
+		}
+
+		/* Where this address begins, for anything that jumps to it. The first node laid down for a
+		 * statement that can be entered at all is what the address names. */
+		if (Address >= 0 && !Entries.Contains(Address)) {
+			for (int32 Laid = Before; Laid < Graph->Nodes.Num(); ++Laid) {
+				/* Asked for the way in rather than for a pin of that name: a macro is entered
+				 * through whatever its own tunnel was called, and one that is not asked for
+				 * properly is a macro nothing can jump to */
+				if (UEdGraphPin* In = WayIn(Graph->Nodes[Laid])) {
+					Entries.Add(Address, In);
+
+					break;
+				}
+			}
+		}
+	}
+
+	/* Tied up at the end, since a jump can name an address that had not been laid down yet */
+	/* And the arguments worked out by a call written further down the list */
+	for (const TPair<UEdGraphPin*, FString>& One : Later) {
+		if (One.Key == nullptr || One.Key->LinkedTo.Num() > 0) continue;
+
+		if (UEdGraphPin** Held = Locals.Find(One.Value); Held != nullptr && *Held != nullptr) {
+			Connect(*Held, One.Key);
+		}
+	}
+
+	for (const TPair<UEdGraphPin*, int32>& Jump : Jumps) {
+		if (Jump.Key == nullptr) continue;
+
+		/* A jump can name a statement that does nothing on its own: a value worked out along the
+		 * way has no place in the run of execution, so what is meant is the next thing that does.
+		 *
+		 * Which one that is, is found by carrying on the way the run would have: a jump goes where
+		 * it says, and anything else falls through to the address after it. Taking the nearest
+		 * address above instead would be wrong wherever the run doubles back, and a loop laid out
+		 * as the compiler lays one out doubles back every time round. */
+		UEdGraphPin* Entry = nullptr;
+
+		/* Whether the run ends where the jump leads, rather than the jump leading nowhere findable.
+		 * A branch whose other way out returns, or a sequence whose second thread is the end of the
+		 * function, leads to the end of the run: an unconnected way out is what that looks like in
+		 * a graph, and there is nothing missing to say anything about. */
+		bool bEnds = false;
+
+		int32 Address = Jump.Value;
+		TSet<int32> Walked;
+
+		while (Address >= 0 && !Walked.Contains(Address)) {
+			Walked.Add(Address);
+
+			if (UEdGraphPin** Begins = Entries.Find(Address)) {
+				Entry = *Begins;
+
+				break;
+			}
+
+			const int32 At = MacroReading::IndexOfAddress(Statements, Address);
+
+			if (At == INDEX_NONE) break;
+
+			/* Landed among a macro's own workings, which stand for nothing on their own. The
+			 * macro is the one node all of them became, and it is entered where it begins: coming
+			 * in anywhere else means the macro carries on by itself from there, which in a graph
+			 * is a way out that leads nowhere. */
+			if (Skipped.Contains(At)) {
+				bEnds = true;
+
+				break;
+			}
+
+			const FString Token = MacroReading::TokenOf(Statements[At]);
+
+			if (Token == TEXT("EX_Jump")) {
+				Address = Statements[At].GetInteger(TEXT("CodeOffset"), -1);
+
+				continue;
+			}
+
+			/* The thread ends here, and where it carries on is not this jump's business */
+			if (Token == TEXT("EX_PopExecutionFlow") || Token == TEXT("EX_Return") || Token == TEXT("EX_EndOfScript")) {
+				bEnds = true;
+
+				break;
+			}
+
+			if (!Statements.IsValidIndex(At + 1)) break;
+
+			Address = MacroReading::AddressOf(Statements[At + 1]);
+		}
+
+		if (Entry != nullptr) {
+			LinkExecution(Jump.Key, Entry);
+		} else if (!bEnds) {
+			Unhandled.AddUnique(FString::Printf(TEXT("jump to %d, which nothing begins"), Jump.Value));
+		}
+	}
+
+	/* Put back whatever was written as one node before anything is laid out, so what is laid out is
+	 * what the reader will see */
+	if (bTidy) {
+		/* Any of them can be left out by name, since one or two trade a little of the script for how it reads */
+		FString Skipping;
+		/* Read past the commas, which a value is otherwise cut off at */
+		FParse::Value(FCommandLine::Get(), TEXT("skiptidy="), Skipping, false);
+
+		TArray<FString> LeftOut;
+		Skipping.ParseIntoArray(LeftOut, TEXT(","));
+
+		for (const TSharedRef<FGraphTidy>& Tidy : GetGraphTidies()) {
+			if (LeftOut.Contains(Tidy->GetName())) continue;
+
+			Tidy->Apply(Graph);
+		}
+	}
+
+	Arrange();
+
+	/* Tied on last. A node that is rebuilt while the graph is being laid out takes its links with
+	 * it, and the entry is the one link nothing else can put back. */
+	if (Start != nullptr) {
+		for (UEdGraphNode* Node : Graph->Nodes) {
+			if (Node == nullptr || !Node->IsA<UK2Node_FunctionEntry>()) continue;
+
+			if (UEdGraphPin* Then = Node->FindPin(UEdGraphSchema_K2::PN_Then, EGPD_Output)) {
+				LinkExecution(Then, Start);
+			}
+
+			break;
+		}
+	}
+
+	/* What the run actually starts from, checked rather than assumed */
+	for (UEdGraphNode* Node : Graph->Nodes) {
+		if (Node == nullptr || !Node->IsA<UK2Node_FunctionEntry>()) continue;
+
+		UEdGraphPin* Then = Node->FindPin(UEdGraphSchema_K2::PN_Then, EGPD_Output);
+
+		UE_LOG(LogReflectionBytecode, Display, TEXT("entry \"%s\" carries %d link(s) out of it"), *Node->GetName(), Then != nullptr ? Then->LinkedTo.Num() : -1);
+	}
+
+	/* What works something out for nobody.
+	 *
+	 * A node with no way in and no way out and nothing reading what it hands over does nothing at
+	 * all: it is worked out and thrown away. Nobody writes one. They are what is left of the
+	 * compiler's own working out the arithmetic behind a node's inputs, written into the one
+	 * graph everything is written into and reached only by a jump from elsewhere and read back
+	 * as statements, the reads it was made of are laid out with nothing to attach to.
+	 *
+	 * Only ones wired to nothing whatsoever go. A read that feeds something is that thing's input,
+	 * however little else is around it, and something with a way in or out is part of a run. */
+	int32 Idle = 0;
+
+	/* Over and over until nothing more goes. Taking one out leaves whatever fed it working
+	 * something out for nobody in its turn, and a chain of reads behind a node nobody wanted all
+	 * goes the same way. */
+	for (bool bWent = true; bWent; ) {
+		bWent = false;
+
+		for (int32 At = Graph->Nodes.Num() - 1; At >= 0; --At) {
+			UEdGraphNode* One = Graph->Nodes[At];
+
+			if (One == nullptr || !One->CanUserDeleteNode()) continue;
+			if (One->IsA<UK2Node_Event>() || One->IsA<UK2Node_FunctionEntry>() || One->IsA<UK2Node_FunctionResult>() || One->IsA<UK2Node_Timeline>()) continue;
+
+			bool bRuns = false;
+			bool bRead = false;
+
+			for (const UEdGraphPin* Pin : One->Pins) {
+				if (Pin == nullptr) continue;
+
+				if (Pin->PinType.PinCategory == UEdGraphSchema_K2::PC_Exec) bRuns = true;
+				if (Pin->Direction == EGPD_Output && Pin->LinkedTo.Num() > 0) bRead = true;
+			}
+
+			/* What it is fed says nothing about whether it is wanted. A comparison left over from
+			 * something read back as the one node it was written as still has what it compared
+			 * wired into it, and still answers to nobody. */
+			if (bRuns || bRead) continue;
+
+			Graph->RemoveNode(One);
+
+			Idle++;
+
+			bWent = true;
+		}
+	}
+
+	if (Idle > 0) {
+		UE_LOG(LogReflectionBytecode, Display, TEXT("\"%s\": %d node(s) worked something out for nobody, and were left out"), *Graph->GetName(), Idle);
+	}
+
+	/* The ways out nothing reaches, one Return per branch. One is kept, or a function with outputs will not compile. */
+	{
+		TArray<UK2Node_FunctionResult*> Answering;
+
+		for (UEdGraphNode* Node : Graph->Nodes) {
+			if (UK2Node_FunctionResult* Out = Cast<UK2Node_FunctionResult>(Node)) Answering.Add(Out);
+		}
+
+		const auto bReached = [](const UK2Node_FunctionResult* Out) {
+			for (const UEdGraphPin* Pin : Out->Pins) {
+				if (Pin == nullptr || Pin->Direction != EGPD_Input) continue;
+				if (Pin->PinType.PinCategory != UEdGraphSchema_K2::PC_Exec) continue;
+
+				if (Pin->LinkedTo.Num() > 0) return true;
+			}
+
+			return false;
+		};
+
+		int32 Kept = 0;
+
+		for (const UK2Node_FunctionResult* Out : Answering) {
+			if (bReached(Out)) Kept++;
+		}
+
+		int32 Dropped = 0;
+
+		for (UK2Node_FunctionResult* Out : Answering) {
+			if (bReached(Out)) continue;
+
+			/* Nothing reaches any of them, so the first stands as the one the function answers through */
+			if (Kept == 0) {
+				Kept++;
+
+				continue;
+			}
+
+			Graph->RemoveNode(Out);
+
+			Dropped++;
+		}
+
+		if (Dropped > 0) {
+			UE_LOG(LogReflectionBytecode, Display, TEXT("\"%s\": %d way(s) out that nothing reaches, and were left out"), *Graph->GetName(), Dropped);
+		}
+	}
+
+	UE_LOG(LogReflectionBytecode, Display, TEXT("\"%s\": entered from %s, %d node(s) chained, %d left out of the run"), *Graph->GetName(), Flow != nullptr ? TEXT("a pin") : TEXT("nothing"), Chained, Orphaned);
+
+	if (Contested.Num() > 0) {
+		UE_LOG(LogReflectionBytecode, Warning, TEXT("%d way(s) out were already spoken for: %s"), Contested.Num(), *FString::Join(Contested, TEXT(", ")));
+	}
+
+	if (Unhandled.Num() > 0) {
+		UE_LOG(LogReflectionBytecode, Warning, TEXT("\"%s\" placed %d node(s), and read nothing from: %s"), *Graph->GetName(), Placed, *FString::Join(Unhandled, TEXT(", ")));
+
+		/* Said where somebody will see it and not only in the log. A graph that came back with
+		 * something missing still opens and still compiles, and what it does then is not what the
+		 * game did, which is worth knowing before it is trusted. */
+		FImportIssues::Report(
+			EImportIssue::Data,
+			FString::Printf(TEXT("Part of \"%s\" could not be read back"), *Graph->GetName()),
+			FString::Printf(TEXT("%d node(s) were laid out. Nothing was read from: %s"), Placed, *FString::Join(Unhandled, TEXT(", ")))
+		);
+	} else {
+		UE_LOG(LogReflectionBytecode, Display, TEXT("\"%s\" placed %d node(s) from %d statement(s)"), *Graph->GetName(), Placed, Statements.Num());
+	}
+
+	return Placed;
+}

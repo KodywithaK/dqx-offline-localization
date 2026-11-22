@@ -10,6 +10,9 @@ for PLATFORM in ps4 Switch WindowsNoEditor; do \
     # echo ${LANGUAGE}
     echo -e "    \x1b[35m${LANGUAGE}\x1b[00m"
     zip -ujv \
+    ~/actions-runner/_work/dqx-offline-localization/dqx-offline-localization/BUILD/releases/pakchunk0-${PLATFORM}_ASIA_${LANGUAGE}_Dialogue_Latest_P.pak.zip \
+    /mnt/r/DEBUG/releases/pakchunk0-${PLATFORM}_ASIA_${LANGUAGE}_Dialogue_Latest_P.pak
+    zip -ujv \
     ~/actions-runner/_work/dqx-offline-localization/dqx-offline-localization/BUILD/releases/pakchunk0-${PLATFORM}_JAPAN_${LANGUAGE}_Dialogue_Latest_P.pak.zip \
     /mnt/r/DEBUG/releases/pakchunk0-${PLATFORM}_JAPAN_${LANGUAGE}_Dialogue_Latest__RunUAT_P.pak \
     /mnt/r/DEBUG/releases/pakchunk0-${PLATFORM}_JAPAN_${LANGUAGE}_Dialogue_Latest__RunUAT_P.ucas \

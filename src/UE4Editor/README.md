@@ -832,8 +832,129 @@
 > 
 > </details>
 
+<hr>
 
-# Unreal Editor 4.27.2
+# Build `Holiday.uproject` locally
+
+<details>
+
+## Prerequisties
+
+### FModel ( to set up the export/import directory for Reflection )
+
+- https://github.com/4sval/FModel
+
+### Epic Games Launcher ( for Unreal Engine 4.27 )
+
+- `winget --install --id EpicGames.EpicGamesLauncher`
+- Install Unreal Engine 4.27
+
+- default <UE_4.27_directory> = "%PROGRAMFILES%\Epic Games\UE_4.27"
+
+### Plugins/Reflection
+
+- https://github.com/JsonAsAsset/Reflection
+- Download `.zip` of latest version, then put contents of `.zip` into "!${{ github.repository }}!\src\UE4Editor\Holiday\Plugins\"
+  - e.g., `!${{ github.repository }}!\src\UE4Editor\Holiday\Plugins\Reflection-1.5.1`
+
+<!--
+
+## Build from source
+
+```cmd
+: CD /D <PREFERRED_UE4.27_PARENT_DIRECTORY>
+gh repo clone EpicGames/UnrealEngine github.com/EpicGames/UnrealEngine/tree/4.27-plus -- -b 4.27-plus
+
+"<PREFERRED_UE4.27_PARENT_DIRECTORY>\github.com\EpicGames\UnrealEngine\4.27-plus\Setup.bat" ^
+-exclude=Android ^
+-exclude=Dingo ^
+-exclude=Documentation ^
+-exclude=HTML5 ^
+-exclude=IOS ^
+-exclude=Linux ^
+-exclude=Mac ^
+-exclude=MacOS ^
+-exclude=MacOSX ^
+-exclude=osx ^
+-exclude=osx32 ^
+-exclude=osx64 ^
+-exclude=PS4 ^
+-exclude=Samples ^
+-exclude=Switch ^
+-exclude=Templates ^
+-exclude=TVOS ^
+-exclude=Win32 ^
+-exclude=WinRT ^
+-exclude=XboxOne
+
+"<PREFERRED_UE4.27_PARENT_DIRECTORY>\github.com\EpicGames\UnrealEngine\4.27-plus\GenerateProjectFiles.bat"
+
+"<PREFERRED_UE4.27_PARENT_DIRECTORY>\github.com\EpicGames\UnrealEngine\4.27-plus\UE4.sln"
+
+```
+
+### Visual Studio
+
+- Development > Win64
+- Solution Explorer > Engine > UE4 ( right-click, build )
+  - Wait ( ~40 minutes - 3+ hours ) for "<PREFERRED_UE4.27_PARENT_DIRECTORY>\github.com\EpicGames\UnrealEngine\4.27-plus\Engine\Binaries\Win64\**\*" to build
+- <UE_4.27_directory> = "<PREFERRED_UE4.27_PARENT_DIRECTORY>\github.com\EpicGames\UnrealEngine\4.27-plus\Engine\Binaries\Win64"
+
+-->
+
+## Visual Studio 2022
+
+- 01. `explorer.exe`
+  - right-click `Holiday.uproject` > `Generate Visual Studio project files`
+  > [!CAUTION]
+  > 
+  > Operation failed? ( ERROR: .../DotNET/UnrealBuildTool/UnrealBuildTool.exe )
+  > - Open `<UE_4.27_directory>\Engine\Config\BaseEngine.ini` in an editor
+  >   - Append the following lines and save
+  >   - ```ini
+  >     [PlatformPaths]
+  >     UnrealBuildTool=Engine/Binaries/DotNET/UnrealBuildTool.exe
+  >     ```
+  >   - Delete any newly created folders ( e.g., [".vs", "Binaries", "DerivedDataCache", "Intermediate", "Saved"] ) & file "Holiday.sln" from previous attempt, then retry `Generate Visual Studio project files`
+  >
+
+- 02. Open `Holiday.sln` with Visual Studio 2022
+  - `Solution Configurations` = `Development Editor`
+  - `Solution Platforms` = `Win64`
+  - Build > Build Solution
+    - After successful build, close Visual Studio
+
+## UE4Editor
+
+- 01. `!${{ github.repository }}!\tools\build\!    01_JsonAsAsset.bat`
+  - Edit [`${{ github.repository }}`, `${{ github.workspace }}`, `${{ Fmodel.Output_Directory }}`, `${{ UE4Editor.project }}`] folder paths to your preferred locations, and save
+  - double-click `!    01_JsonAsAsset.bat`, enter desired language(s), wait for the cmd.exe windows of desired language(s) to complete, then close all but the initial window
+
+- 02. Open `Holiday.uproject` with "<UE_4.27_directory>\Engine\Binaries\Win64\UE4Editor.exe"
+  - Reflection's down arrow > Settings
+    - Reflection - Settings > Settings > Use Local Json instead of Cloud [x]
+  - Reflection's icon > change directory to "${{ Fmodel.Output_Directory }}\Temp\Exports\Holiday\Content\i18n" > `Search i18n` for "*.json"
+    - `ctrl + A` to select all `.json` files > Open, wait for files to import, save UE4Editor project, then close UE4Editor
+  > [!IMPORTANT]
+  > 
+  > ( first time only ) Add local collections: `Datatables`, `Font`, `StringTables`
+  > - Go to folders listed above and for each:
+  >   - search for `.` > `ctrl + A`, to select all `.uasset` files > right-click, to add to respective, newly created collections
+  > 
+
+- 03. `!    01_JsonAsAsset.bat` > press enter to continue the build process, then wait for remaining processes to finish
+  - Completed builds will be in:
+    - `<OUTPUT_DIRECTORY>\releases\pakchunk0-{PLATFORM}_JAPAN_{LANGUAGE}_Dialogue_Latest_P.pak.zip`
+
+- 04. Open "<OUTPUT_DIRECTORY>\releases\pakchunk0-{PLATFORM}_JAPAN_{LANGUAGE}_Dialogue_Latest_P.pak.zip", and put the contents of `.zip` file(s) into mod locations ( see latest release page for install instructions )
+
+</details>
+
+<hr>
+
+# Build your own `Holiday.uproject` from the beginning
+
+<details>
 
 ## Unreal Project Browser
 
@@ -881,3 +1002,7 @@
 > - `HOLITextRubyData_TableRow.cpp`
 >   - Tells UE4Editor how it works
 >
+
+</details>
+
+<hr>
